@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilter
 title: IDXGIInfoQueue::GetRetrievalFilter (dxgidebug.h)
-description: Gets the retrieval filter at the top of the retrieval-filter stack.
+description: Gets the retrieval filter at the top of the retrieval-filter stack.helpviewer_keywords: ["GetRetrievalFilter","GetRetrievalFilter method [DXGI]","GetRetrievalFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetRetrievalFilter method","IDXGIInfoQueue.GetRetrievalFilter","IDXGIInfoQueue::GetRetrievalFilter","direct3ddxgi.idxgiinfoqueue_getretrievalfilter","dxgidebug/IDXGIInfoQueue::GetRetrievalFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 95907EF0-858B-4CDF-A112-6E59138769BD

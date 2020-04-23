@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarEqv
 title: VarEqv function (oleauto.h)
-description: Performs a bitwise equivalence on two variants.
+description: Performs a bitwise equivalence on two variants.helpviewer_keywords: ["VarEqv","VarEqv function [Automation]","_oa96_VarEqv","automat.vareqv","oleauto/VarEqv"]
 old-location: automat\vareqv.htm
 tech.root: automat
 ms.assetid: 34ddece6-87c8-469d-b275-443d1e99b1c9

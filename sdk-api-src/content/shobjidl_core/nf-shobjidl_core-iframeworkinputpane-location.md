@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPane.Location
 title: IFrameworkInputPane::Location (shobjidl_core.h)
-description: Gets the current location of the input pane.
+description: Gets the current location of the input pane.helpviewer_keywords: ["IFrameworkInputPane interface [Windows Shell]","Location method","IFrameworkInputPane.Location","IFrameworkInputPane::Location","Location","Location method [Windows Shell]","Location method [Windows Shell]","IFrameworkInputPane interface","shell.IFrameworkInputPane_Location","shobjidl_core/IFrameworkInputPane::Location"]
 old-location: shell\IFrameworkInputPane_Location.htm
 tech.root: shell
 ms.assetid: 2633AD19-318E-419f-9B40-16E65803285E

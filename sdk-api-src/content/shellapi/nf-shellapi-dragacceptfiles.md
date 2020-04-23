@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.DragAcceptFiles
 title: DragAcceptFiles function (shellapi.h)
-description: Registers whether a window accepts dropped files.
+description: Registers whether a window accepts dropped files.helpviewer_keywords: ["DragAcceptFiles","DragAcceptFiles function [Windows Shell]","_win32_DragAcceptFiles","shell.DragAcceptFiles","shellapi/DragAcceptFiles"]
 old-location: shell\DragAcceptFiles.htm
 tech.root: shell
 ms.assetid: 1f16f6e4-7847-4bc7-adce-995876db24bd

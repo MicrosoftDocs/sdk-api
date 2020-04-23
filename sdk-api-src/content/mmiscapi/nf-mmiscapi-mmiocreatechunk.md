@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioCreateChunk
 title: mmioCreateChunk function (mmiscapi.h)
-description: The mmioCreateChunk function creates a chunk in a RIFF file that was opened by using the mmioOpen function.
+description: The mmioCreateChunk function creates a chunk in a RIFF file that was opened by using the mmioOpen function.helpviewer_keywords: ["_win32_mmioCreateChunk","mmioCreateChunk","mmioCreateChunk function [Windows Multimedia]","mmsystem/mmioCreateChunk","multimedia.mmiocreatechunk"]
 old-location: multimedia\mmiocreatechunk.htm
 tech.root: Multimedia
 ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2

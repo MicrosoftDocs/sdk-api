@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_GetLong
 title: FLOATOBJ_GetLong function (winddi.h)
-description: The FLOATOBJ_GetLong function calculates and returns the LONG-equivalent value of the specified FLOATOBJ.
+description: The FLOATOBJ_GetLong function calculates and returns the LONG-equivalent value of the specified FLOATOBJ.helpviewer_keywords: ["FLOATOBJ_GetLong","FLOATOBJ_GetLong function [Display Devices]","display.floatobj_getlong","gdifncs_bed59b75-53b6-4f6c-975f-a927c5855f2a.xml","winddi/FLOATOBJ_GetLong"]
 old-location: display\floatobj_getlong.htm
 tech.root: display
 ms.assetid: e3f4355f-c716-4757-9f82-d4f109e05845

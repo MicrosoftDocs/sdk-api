@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManagerEx.IsAffectedByQuota
 title: IFsrmQuotaManagerEx::IsAffectedByQuota (fsrmquota.h)
-description: Retrieves a value that determines whether a specified path is subject to a quota.
+description: Retrieves a value that determines whether a specified path is subject to a quota.helpviewer_keywords: ["IFsrmQuotaManagerEx interface [File Server Resource Manager]","IsAffectedByQuota method","IFsrmQuotaManagerEx.IsAffectedByQuota","IFsrmQuotaManagerEx::IsAffectedByQuota","IsAffectedByQuota","IsAffectedByQuota method [File Server Resource Manager]","IsAffectedByQuota method [File Server Resource Manager]","IFsrmQuotaManagerEx interface","fs.ifsrmquotamanagerex_isaffectedbyquota","fsrm.ifsrmquotamanagerex_isaffectedbyquota","fsrmquota/IFsrmQuotaManagerEx::IsAffectedByQuota"]
 old-location: fsrm\ifsrmquotamanagerex_isaffectedbyquota.htm
 tech.root: fsrm
 ms.assetid: 8b366eae-5554-4c20-9ba9-c3a6e319712f

@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_2.ID2D1CommandSink1
 title: ID2D1CommandSink1 (d2d1_2.h)
-description: This interface performs all the same functions as the existing ID2D1CommandSink interface. It also enables access to the new primitive blend modes, MIN and ADD, through its SetPrimitiveBlend1 method.
+description: This interface performs all the same functions as the existing ID2D1CommandSink interface. It also enables access to the new primitive blend modes, MIN and ADD, through its SetPrimitiveBlend1 method.helpviewer_keywords: ["ID2D1CommandSink1","ID2D1CommandSink1 interface [Direct2D]","ID2D1CommandSink1 interface [Direct2D]","described","d2d1_2/ID2D1CommandSink1","direct2d.id2d1commandsink1"]
 old-location: direct2d\id2d1commandsink1.htm
 tech.root: Direct2D
 ms.assetid: 126319DE-3E84-4070-A516-9291759593B7

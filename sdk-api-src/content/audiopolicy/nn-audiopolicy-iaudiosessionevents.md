@@ -1,7 +1,7 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEvents
 title: IAudioSessionEvents (audiopolicy.h)
-description: The IAudioSessionEvents interface provides notifications of session-related events such as changes in the volume level, display name, and session state.
+description: The IAudioSessionEvents interface provides notifications of session-related events such as changes in the volume level, display name, and session state.helpviewer_keywords: ["IAudioSessionEvents","IAudioSessionEvents interface [Core Audio]","IAudioSessionEvents interface [Core Audio]","described","audiopolicy/IAudioSessionEvents","coreaudio.iaudiosessionevents"]
 old-location: coreaudio\iaudiosessionevents.htm
 tech.root: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e

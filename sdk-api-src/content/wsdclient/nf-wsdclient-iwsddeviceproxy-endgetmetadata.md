@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.EndGetMetadata
 title: IWSDDeviceProxy::EndGetMetadata (wsdclient.h)
-description: Ends an asynchronous request for metadata.
+description: Ends an asynchronous request for metadata.helpviewer_keywords: ["EndGetMetadata","EndGetMetadata method","EndGetMetadata method","IWSDDeviceProxy interface","IWSDDeviceProxy interface","EndGetMetadata method","IWSDDeviceProxy.EndGetMetadata","IWSDDeviceProxy::EndGetMetadata","ncd.iwsddeviceproxy_endgetmetadata","wsdclient/IWSDDeviceProxy::EndGetMetadata"]
 old-location: ncd\iwsddeviceproxy_endgetmetadata.htm
 tech.root: WsdApi
 ms.assetid: c59ee37f-9189-4c32-8404-23cc94d76ad9

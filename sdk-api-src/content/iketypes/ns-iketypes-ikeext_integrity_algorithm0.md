@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_INTEGRITY_ALGORITHM0_
 title: IKEEXT_INTEGRITY_ALGORITHM0 (iketypes.h)
 description: Stores the IKE/AuthIP hash algorithm.
+helpviewer_keywords: ["IKEEXT_INTEGRITY_ALGORITHM0","IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering]","fwp.ikeext_integrity_algorithm0","iketypes/IKEEXT_INTEGRITY_ALGORITHM0"]
 old-location: fwp\ikeext_integrity_algorithm0.htm
 tech.root: fwp
 ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9
@@ -61,7 +62,7 @@ The <b>IKEEXT_INTEGRITY_ALGORITHM0</b> structure stores the IKE/AuthIP hash algo
 
 The type of hash algorithm.
 
-See [IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)a> for more information.
+See [IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type) for more information.
 
 
 ## -remarks
@@ -78,7 +79,7 @@ See [IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/ikety
 
 
 
-[IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)a>
+[IKEEXT_INTEGRITY_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_integrity_type)
 
 
 

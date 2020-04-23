@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.OemKeyScan
 title: OemKeyScan function (winuser.h)
-description: Maps OEMASCII codes 0 through 0x0FF into the OEM scan codes and shift states. The function provides information that allows a program to send OEM text to another program by simulating keyboard input.
+description: Maps OEMASCII codes 0 through 0x0FF into the OEM scan codes and shift states. The function provides information that allows a program to send OEM text to another program by simulating keyboard input.helpviewer_keywords: ["OemKeyScan","OemKeyScan function [Keyboard and Mouse Input]","_win32_OemKeyScan","_win32_oemkeyscan_cpp","inputdev.oemkeyscan","winui._win32_oemkeyscan","winuser/OemKeyScan"]
 old-location: inputdev\oemkeyscan.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\oemkeyscan.htm

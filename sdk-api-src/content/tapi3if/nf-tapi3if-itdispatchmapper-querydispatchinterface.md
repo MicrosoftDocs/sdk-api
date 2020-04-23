@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITDispatchMapper.QueryDispatchInterface
 title: ITDispatchMapper::QueryDispatchInterface (tapi3if.h)
-description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
+description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.helpviewer_keywords: ["ITDispatchMapper interface [TAPI 2.2]","QueryDispatchInterface method","ITDispatchMapper.QueryDispatchInterface","ITDispatchMapper::QueryDispatchInterface","QueryDispatchInterface","QueryDispatchInterface method [TAPI 2.2]","QueryDispatchInterface method [TAPI 2.2]","ITDispatchMapper interface","_tapi3_itdispatchmapper_querydispatchinterface","tapi3.itdispatchmapper_querydispatchinterface","tapi3if/ITDispatchMapper::QueryDispatchInterface"]
 old-location: tapi3\itdispatchmapper_querydispatchinterface.htm
 tech.root: Tapi
 ms.assetid: 7ee7c6f4-5710-4300-a2b8-de9aecf0528b

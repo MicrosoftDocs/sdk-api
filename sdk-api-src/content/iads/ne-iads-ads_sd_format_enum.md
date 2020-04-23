@@ -2,6 +2,7 @@
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0088_0002
 title: ADS_SD_FORMAT_ENUM (iads.h)
 description: The ADS_SD_FORMAT_ENUM enumeration specifies the format that the security descriptor of an object will be converted to by the IADsSecurityUtility interface.
+helpviewer_keywords: ["ADS_SD_FORMAT_ENUM","ADS_SD_FORMAT_ENUM enumeration [ADSI]","ADS_SD_FORMAT_HEXSTRING","ADS_SD_FORMAT_IID","ADS_SD_FORMAT_RAW","_ds_ads_sd_format_enum","adsi.ads__sd__format__enum","adsi.ads_sd_format_enum","iads/ADS_SD_FORMAT_ENUM","iads/ADS_SD_FORMAT_HEXSTRING","iads/ADS_SD_FORMAT_IID","iads/ADS_SD_FORMAT_RAW"]
 old-location: adsi\ads_sd_format_enum.htm
 tech.root: adsi
 ms.assetid: 503247b6-3119-4514-9831-c8f0ef50c0fa
@@ -81,7 +82,7 @@ Indicates that the security descriptor is to be converted to the hex encoded str
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 

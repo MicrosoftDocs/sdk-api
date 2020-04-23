@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegDuplicateHKey
 title: SHRegDuplicateHKey function (shlwapi.h)
-description: Duplicates a registry key's HKEY handle.
+description: Duplicates a registry key's HKEY handle.helpviewer_keywords: ["SHRegDuplicateHKey","SHRegDuplicateHKey function [Windows Shell]","_win32_SHRegDuplicateHKey","shell.SHRegDuplicateHKey","shlwapi/SHRegDuplicateHKey"]
 old-location: shell\SHRegDuplicateHKey.htm
 tech.root: shell
 ms.assetid: 73182aa9-0c4d-4723-ba3c-8bab6b51181b

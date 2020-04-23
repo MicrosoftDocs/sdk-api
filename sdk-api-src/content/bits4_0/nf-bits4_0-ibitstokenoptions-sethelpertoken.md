@@ -1,7 +1,7 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.SetHelperToken
 title: IBitsTokenOptions::SetHelperToken (bits4_0.h)
-description: Sets the helper token to impersonate the token of the COM client.
+description: Sets the helper token to impersonate the token of the COM client.helpviewer_keywords: ["IBitsTokenOptions interface [BITS]","SetHelperToken method","IBitsTokenOptions.SetHelperToken","IBitsTokenOptions::SetHelperToken","SetHelperToken","SetHelperToken method [BITS]","SetHelperToken method [BITS]","IBitsTokenOptions interface","bits.ibitstokenoptions_sethelpertoken","bits4_0/IBitsTokenOptions::SetHelperToken"]
 old-location: bits\ibitstokenoptions_sethelpertoken.htm
 tech.root: Bits
 ms.assetid: a31414b7-159e-4ce7-8d2d-02b62aa9759d

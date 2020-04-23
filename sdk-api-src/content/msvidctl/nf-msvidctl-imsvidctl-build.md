@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Build
 title: IMSVidCtl::Build (msvidctl.h)
-description: The Build method builds the filter graph and connects all the filters.
+description: The Build method builds the filter graph and connects all the filters.helpviewer_keywords: ["Build","Build method [Microsoft TV Technologies]","Build method [Microsoft TV Technologies]","IMSVidCtl interface","IMSVidCtl interface [Microsoft TV Technologies]","Build method","IMSVidCtl.Build","IMSVidCtl::Build","IMSVidCtlBuild","mstv.imsvidctl_build","msvidctl/IMSVidCtl::Build"]
 old-location: mstv\imsvidctl_build.htm
 tech.root: mstv
 ms.assetid: 49f78dd8-f26e-456d-b67e-155ae0ed5419

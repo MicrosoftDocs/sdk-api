@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Initialize
 title: IPhotoAcquireOptionsDialog::Initialize (photoacquire.h)
-description: Initializes the options dialog box and reads any saved options from the registry.
+description: Initializes the options dialog box and reads any saved options from the registry.helpviewer_keywords: ["IPhotoAcquireOptionsDialog interface [Picture Acquisition]","Initialize method","IPhotoAcquireOptionsDialog.Initialize","IPhotoAcquireOptionsDialog::Initialize","IPhotoAcquireOptionsDialogInitialize","Initialize","Initialize method [Picture Acquisition]","Initialize method [Picture Acquisition]","IPhotoAcquireOptionsDialog interface","photoacquire/IPhotoAcquireOptionsDialog::Initialize","picacq.iphotoacquireoptionsdialog_initialize"]
 old-location: picacq\iphotoacquireoptionsdialog_initialize.htm
 tech.root: acquisition
 ms.assetid: 6e3c7876-28a6-4d5f-afca-7c0421df8c02

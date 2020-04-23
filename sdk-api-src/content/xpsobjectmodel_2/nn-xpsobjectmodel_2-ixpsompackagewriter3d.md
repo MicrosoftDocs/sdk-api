@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel_2.IXpsOMPackageWriter3D
 title: IXpsOMPackageWriter3D (xpsobjectmodel_2.h)
-description: Contains methods that support model textures and print ticket.
+description: Contains methods that support model textures and print ticket.helpviewer_keywords: ["IXpsOMPackageWriter3D","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","described","xps.ixpsompackagewriter3d","xpsobjectmodel_2/IXpsOMPackageWriter3D"]
 old-location: xps\ixpsompackagewriter3d.htm
 tech.root: printdocs
 ms.assetid: 2F3E0529-7E2B-4BCD-AE8F-D0F3259D1A48

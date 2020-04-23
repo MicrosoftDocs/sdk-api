@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptDecryptMessage
 title: CryptDecryptMessage function (wincrypt.h)
-description: The CryptDecryptMessage function decodes and decrypts a message.
+description: The CryptDecryptMessage function decodes and decrypts a message.helpviewer_keywords: ["CryptDecryptMessage","CryptDecryptMessage function [Security]","_crypto2_cryptdecryptmessage","security.cryptdecryptmessage","wincrypt/CryptDecryptMessage"]
 old-location: security\cryptdecryptmessage.htm
 tech.root: SecCrypto
 ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincred.CredUIStoreSSOCredW
 title: CredUIStoreSSOCredW function (wincred.h)
-description: The CredUIStoreSSOCredW function stores a single logon credential.
+description: The CredUIStoreSSOCredW function stores a single logon credential.helpviewer_keywords: ["CredUIStoreSSOCredW","CredUIStoreSSOCredW function [Security]","security.creduistoressocredw","wincred/CredUIStoreSSOCredW"]
 old-location: security\creduistoressocredw.htm
 tech.root: SecAuthN
 ms.assetid: 2c57c943-bcf7-405c-be0a-a3d1991f3004

@@ -2,6 +2,7 @@
 UID: NF:pla.IDataManager.Run
 title: IDataManager::Run (pla.h)
 description: Manually runs the data manager.
+helpviewer_keywords: ["IDataManager interface [PLA]","Run method","IDataManager.Run","IDataManager::Run","Run","Run method [PLA]","Run method [PLA]","IDataManager interface","base.idatamanager_run","pla.idatamanager_run","pla/IDataManager::Run"]
 old-location: pla\idatamanager_run.htm
 tech.root: PLA
 ms.assetid: a1016784-8841-485f-885e-3719bdb0ae05
@@ -59,7 +60,7 @@ Manually runs the data manager.
 
 ### -param Steps [in]
 
-Determines whether the folder actions and resource policies are applied and how to generate the report. For possible steps, see the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps</a> enumeration.
+Determines whether the folder actions and resource policies are applied and how to generate the report. For possible steps, see the <a href="/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps</a> enumeration.
 
 
 ### -param bstrFolder [in]

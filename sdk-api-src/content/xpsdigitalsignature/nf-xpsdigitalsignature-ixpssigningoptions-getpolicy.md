@@ -2,6 +2,7 @@
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetPolicy
 title: IXpsSigningOptions::GetPolicy (xpsdigitalsignature.h)
 description: Gets the XPS_SIGN_POLICY value that specifies the signing policy.
+helpviewer_keywords: ["GetPolicy","GetPolicy method [XPS Documents and Packaging]","GetPolicy method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetPolicy method","IXpsSigningOptions.GetPolicy","IXpsSigningOptions::GetPolicy","xps.ixpssigningoptions_getpolicy","xpsdigitalsignature/IXpsSigningOptions::GetPolicy"]
 old-location: xps\ixpssigningoptions_getpolicy.htm
 tech.root: printdocs
 ms.assetid: 0643ee4d-7991-4570-8dce-8166f007abc8
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
+Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignatu
 
 ### -param policy [out, retval]
 
-The logical <b>OR</b> of the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
+The logical <b>OR</b> of the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that specifies the signing policy.
 
 
 ## -returns
@@ -116,7 +117,7 @@ The method succeeded.
 
 
 
-If the  <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value is set but does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
+If the  <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value is set but does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
 
 
 
@@ -146,7 +147,7 @@ If the  <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignatur
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
+<a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetExtendModeX
 title: ID2D1BitmapBrush::SetExtendModeX (d2d1.h)
-description: Specifies how the brush horizontally tiles those areas that extend past its bitmap.
+description: Specifies how the brush horizontally tiles those areas that extend past its bitmap.helpviewer_keywords: ["ID2D1BitmapBrush interface [Direct2D]","SetExtendModeX method","ID2D1BitmapBrush.SetExtendModeX","ID2D1BitmapBrush::SetExtendModeX","SetExtendModeX","SetExtendModeX method [Direct2D]","SetExtendModeX method [Direct2D]","ID2D1BitmapBrush interface","d2d1/ID2D1BitmapBrush::SetExtendModeX","direct2d.ID2D1BitmapBrush_SetExtendModeX"]
 old-location: direct2d\ID2D1BitmapBrush_SetExtendModeX.htm
 tech.root: Direct2D
 ms.assetid: bb20c9ea-a2b1-4fa5-a0e3-b788fe493993

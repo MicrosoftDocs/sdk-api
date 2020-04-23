@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.TerminateConnection
 title: IRDPSRAPIAttendee::TerminateConnection (rdpencomapi.h)
-description: Disconnects the client represented by the attendee.
+description: Disconnects the client represented by the attendee.helpviewer_keywords: ["IRDPSRAPIAttendee interface [RDP]","TerminateConnection method","IRDPSRAPIAttendee.TerminateConnection","IRDPSRAPIAttendee::TerminateConnection","TerminateConnection","TerminateConnection method [RDP]","TerminateConnection method [RDP]","IRDPSRAPIAttendee interface","rdp.irdpsrapiattendee_terminateconnection","rdpencomapi/IRDPSRAPIAttendee::TerminateConnection"]
 old-location: rdp\irdpsrapiattendee_terminateconnection.htm
 tech.root: rdp
 ms.assetid: e666fdd4-7417-40ea-9643-d7df587294f2

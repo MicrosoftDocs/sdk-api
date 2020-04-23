@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.EnableRedrawRegions
 title: IDCompositionVisualDebug::EnableRedrawRegions (dcomp.h)
-description: Enables highlighting visuals when content is being redrawn.
+description: Enables highlighting visuals when content is being redrawn.helpviewer_keywords: ["EnableRedrawRegions","EnableRedrawRegions method [DirectComposition]","EnableRedrawRegions method [DirectComposition]","IDCompositionVisualDebug interface","IDCompositionVisualDebug interface [DirectComposition]","EnableRedrawRegions method","IDCompositionVisualDebug.EnableRedrawRegions","IDCompositionVisualDebug::EnableRedrawRegions","dcomp/IDCompositionVisualDebug::EnableRedrawRegions","directcomp.idcompositionvisualdebug_enableredrawregions"]
 old-location: directcomp\idcompositionvisualdebug_enableredrawregions.htm
 tech.root: directcomp
 ms.assetid: 71591ABF-7B7F-4A8D-9FE2-EC5412ACB3EE

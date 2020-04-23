@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.AddSourceBuffer
 title: IMFMediaSourceExtension::AddSourceBuffer (mfmediaengine.h)
-description: Adds a IMFSourceBuffer to the collection of buffers associated with the IMFMediaSourceExtension.
+description: Adds a IMFSourceBuffer to the collection of buffers associated with the IMFMediaSourceExtension.helpviewer_keywords: ["AddSourceBuffer","AddSourceBuffer method [Media Foundation]","AddSourceBuffer method [Media Foundation]","IMFMediaSourceExtension interface","IMFMediaSourceExtension interface [Media Foundation]","AddSourceBuffer method","IMFMediaSourceExtension.AddSourceBuffer","IMFMediaSourceExtension::AddSourceBuffer","mf.imfmediasourceextension_addsourcebuffer","mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer"]
 old-location: mf\imfmediasourceextension_addsourcebuffer.htm
 tech.root: medfound
 ms.assetid: 1ecb7047-4dc9-4657-8a19-12108de299c0

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixRotationZ
 title: XMMatrixRotationZ function (directxmath.h)
-description: Builds a matrix that rotates around the z-axis.
+description: Builds a matrix that rotates around the z-axis.helpviewer_keywords: ["Use DirectX..XMMatrixRotationZ","XMMatrixRotationZ","XMMatrixRotationZ method [DirectX Math Support APIs]","dxmath.xmmatrixrotationz"]
 old-location: dxmath\xmmatrixrotationz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationZ(float)

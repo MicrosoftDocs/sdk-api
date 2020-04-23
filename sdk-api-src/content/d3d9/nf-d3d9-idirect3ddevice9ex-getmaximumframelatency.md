@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetMaximumFrameLatency
 title: IDirect3DDevice9Ex::GetMaximumFrameLatency (d3d9.h)
-description: Retrieves the number of frames of data that the system is allowed to queue.
+description: Retrieves the number of frames of data that the system is allowed to queue.helpviewer_keywords: ["16bada79-bbf9-2bb3-c2f1-cae31cf742be","GetMaximumFrameLatency","GetMaximumFrameLatency method [Direct3D 9]","GetMaximumFrameLatency method [Direct3D 9]","IDirect3DDevice9Ex interface","IDirect3DDevice9Ex interface [Direct3D 9]","GetMaximumFrameLatency method","IDirect3DDevice9Ex.GetMaximumFrameLatency","IDirect3DDevice9Ex::GetMaximumFrameLatency","d3d9/IDirect3DDevice9Ex::GetMaximumFrameLatency","direct3d9.idirect3ddevice9ex_getmaximumframelatency"]
 old-location: direct3d9\idirect3ddevice9ex_getmaximumframelatency.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_getmaximumframelatency.htm

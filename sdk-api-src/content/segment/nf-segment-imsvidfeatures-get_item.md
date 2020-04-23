@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidFeatures.get_Item
 title: IMSVidFeatures::get_Item (segment.h)
-description: The get_Item method retrieves the specified item from the collection.
+description: The get_Item method retrieves the specified item from the collection.helpviewer_keywords: ["IMSVidFeatures interface [Microsoft TV Technologies]","get_Item method","IMSVidFeatures.get_Item","IMSVidFeatures::get_Item","IMSVidFeaturesget_Item","get_Item","get_Item method [Microsoft TV Technologies]","get_Item method [Microsoft TV Technologies]","IMSVidFeatures interface","mstv.imsvidfeatures_get_item","segment/IMSVidFeatures::get_Item"]
 old-location: mstv\imsvidfeatures_get_item.htm
 tech.root: mstv
 ms.assetid: f5656ba2-7ba6-44ba-bcab-3678fbd10b07

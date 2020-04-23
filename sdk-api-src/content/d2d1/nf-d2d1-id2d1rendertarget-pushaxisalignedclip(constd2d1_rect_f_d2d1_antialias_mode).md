@@ -2,6 +2,7 @@
 UID: NF:d2d1.ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F,D2D1_ANTIALIAS_MODE)
 title: ID2D1RenderTarget::PushAxisAlignedClip (d2d1.h)
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
+helpviewer_keywords: ["ID2D1RenderTarget.PushAxisAlignedClip","ID2D1RenderTarget::PushAxisAlignedClip","PushAxisAlignedClip","PushAxisAlignedClip methods [Direct2D]","d2d1_1/PushAxisAlignedClip","direct2d.id2d1rendertarget_pushaxisalignedclip"]
 old-location: direct2d\id2d1rendertarget_pushaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 8b777425-07b1-4494-889a-0c947fb61315
@@ -83,7 +84,7 @@ Specifies a rectangle to which all subsequent drawing operations are clipped.
 
 
 
-A           [PushLayer](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer))a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>, but cannot overlap. For example, the sequence of <b>PushAxisAlignedClip</b>, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a>, <b>PopLayer</b>, <b>PopAxisAlignedClip</b> is valid, but the sequence of <b>PushAxisAlignedClip</b>, <b>PushLayer</b>, <b>PopAxisAlignedClip</b>, <b>PopLayer</b> is invalid.
+A           [PushLayer](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>, but cannot overlap. For example, the sequence of <b>PushAxisAlignedClip</b>, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a>, <b>PopLayer</b>, <b>PopAxisAlignedClip</b> is valid, but the sequence of <b>PushAxisAlignedClip</b>, <b>PushLayer</b>, <b>PopAxisAlignedClip</b>, <b>PopLayer</b> is invalid.
 
 This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>PushAxisAlignedClip</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 

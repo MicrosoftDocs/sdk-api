@@ -2,6 +2,7 @@
 UID: NF:winddi.DrvEnablePDEV
 title: DrvEnablePDEV function (winddi.h)
 description: The DrvEnablePDEV function returns a description of the physical device's characteristics to GDI.
+helpviewer_keywords: ["DrvEnablePDEV","DrvEnablePDEV function [Display Devices]","ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml","display.drvenablepdev","winddi/DrvEnablePDEV"]
 old-location: display\drvenablepdev.htm
 tech.root: display
 ms.assetid: 9a7ed18a-f21c-486b-9261-59a3fe5aef9e
@@ -59,9 +60,9 @@ The <b>DrvEnablePDEV</b> function returns a description of the physical device's
 
 ### -param pdm [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains driver data. 
+Pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains driver data. 
 
-For a driver that supports Windows NT 4.0, <b>DrvEnablePDEV</b> should return the default mode of the hardware when GDI calls it with the following <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members set to zero: <b>dmBitsPerPel</b>, <b>dmPelsWidth</b>, <b>dmPelsHeight</b>, and <b>dmDisplayFrequency</b>. 
+For a driver that supports Windows NT 4.0, <b>DrvEnablePDEV</b> should return the default mode of the hardware when GDI calls it with the following <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members set to zero: <b>dmBitsPerPel</b>, <b>dmPelsWidth</b>, <b>dmPelsHeight</b>, and <b>dmDisplayFrequency</b>. 
 
 
 ### -param pwszLogAddress [in]
@@ -261,7 +262,7 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

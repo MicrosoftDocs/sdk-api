@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WTS_CLIENT_DATA
 title: WTS_CLIENT_DATA (wtsdefs.h)
-description: Contains information about the client connection.
+description: Contains information about the client connection.helpviewer_keywords: ["*PWTS_CLIENT_DATA","PWRDS_CLIENT_DATA","PWRDS_CLIENT_DATA structure pointer [Remote Desktop Services]","PWTS_CLIENT_DATA","PWTS_CLIENT_DATA structure pointer [Remote Desktop Services]","WRDS_CLIENT_DATA","WRDS_CLIENT_DATA structure [Remote Desktop Services]","WTS_CLIENT_DATA","WTS_CLIENT_DATA structure [Remote Desktop Services]","termserv.wts_client_data","wtsdefs/PWRDS_CLIENT_DATA","wtsdefs/PWTS_CLIENT_DATA","wtsdefs/WRDS_CLIENT_DATA","wtsdefs/WTS_CLIENT_DATA"]
 old-location: termserv\wts_client_data.htm
 tech.root: TermServ
 ms.assetid: a8e0fcbd-4f5c-4692-9bb0-aaa00465acf0

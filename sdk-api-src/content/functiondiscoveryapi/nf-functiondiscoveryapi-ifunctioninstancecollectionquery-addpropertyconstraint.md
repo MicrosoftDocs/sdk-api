@@ -2,6 +2,7 @@
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.AddPropertyConstraint
 title: IFunctionInstanceCollectionQuery::AddPropertyConstraint (functiondiscoveryapi.h)
 description: Adds a property constraint to the query.
+helpviewer_keywords: ["AddPropertyConstraint","AddPropertyConstraint method","AddPropertyConstraint method","IFunctionInstanceCollectionQuery interface","IFunctionInstanceCollectionQuery interface","AddPropertyConstraint method","IFunctionInstanceCollectionQuery.AddPropertyConstraint","IFunctionInstanceCollectionQuery::AddPropertyConstraint","functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint","ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method"]
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm
 tech.root: FunDisc
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
@@ -100,7 +101,7 @@ The following shows possible values. Note that only a subset of the PROPVARIANT 
 
 ### -param enumPropertyConstraint [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryconstraints/ne-functiondiscoveryconstraints-propertyconstraint">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
+A <a href="/windows/win32/api/functiondiscoveryconstraints/ne-functiondiscoveryconstraints-propertyconstraint">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
 
 
 ## -returns

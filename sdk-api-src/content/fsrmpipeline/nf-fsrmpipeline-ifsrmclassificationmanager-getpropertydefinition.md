@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetPropertyDefinition
 title: IFsrmClassificationManager::GetPropertyDefinition (fsrmpipeline.h)
-description: Retrieves the specified property definition.
+description: Retrieves the specified property definition.helpviewer_keywords: ["FsrmClassificationManager class [File Server Resource Manager]","GetPropertyDefinition method","GetPropertyDefinition","GetPropertyDefinition method [File Server Resource Manager]","GetPropertyDefinition method [File Server Resource Manager]","FsrmClassificationManager class","GetPropertyDefinition method [File Server Resource Manager]","IFsrmClassificationManager interface","GetPropertyDefinition method [File Server Resource Manager]","IFsrmClassificationManager2 interface","IFsrmClassificationManager interface [File Server Resource Manager]","GetPropertyDefinition method","IFsrmClassificationManager.GetPropertyDefinition","IFsrmClassificationManager2 interface [File Server Resource Manager]","GetPropertyDefinition method","IFsrmClassificationManager2::GetPropertyDefinition","IFsrmClassificationManager::GetPropertyDefinition","fs.ifsrmclassificationmanager_getpropertydefinition","fsrm.ifsrmclassificationmanager_getpropertydefinition","fsrmpipeline/IFsrmClassificationManager2::GetPropertyDefinition","fsrmpipeline/IFsrmClassificationManager::GetPropertyDefinition"]
 old-location: fsrm\ifsrmclassificationmanager_getpropertydefinition.htm
 tech.root: fsrm
 ms.assetid: de89524d-70b7-4f0a-add0-d34d54bd32a7

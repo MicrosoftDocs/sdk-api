@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Activate
 title: IDirectManipulationManager::Activate (directmanipulation.h)
-description: Activates Direct Manipulation for processing input and handling callbacks on the specified window.
+description: Activates Direct Manipulation for processing input and handling callbacks on the specified window.helpviewer_keywords: ["Activate","Activate method [Direct Manipulation]","Activate method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","Activate method","IDirectManipulationManager.Activate","IDirectManipulationManager::Activate","directmanipulation.idirectmanipulationmanager_activate","directmanipulation/IDirectManipulationManager::Activate"]
 old-location: directmanipulation\idirectmanipulationmanager_activate.htm
 tech.root: directmanipulation
 ms.assetid: 49a5eccd-16a9-4dca-af78-224fd5acb611

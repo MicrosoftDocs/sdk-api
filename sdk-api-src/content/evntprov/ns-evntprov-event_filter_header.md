@@ -1,7 +1,7 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_HEADER
 title: EVENT_FILTER_HEADER (evntprov.h)
-description: Defines the header data that must precede the filter data that is defined in the instrumentation manifest.
+description: Defines the header data that must precede the filter data that is defined in the instrumentation manifest.helpviewer_keywords: ["*PEVENT_FILTER_HEADER","EVENT_FILTER_HEADER","EVENT_FILTER_HEADER structure [ETW]","PEVENT_FILTER_HEADER","PEVENT_FILTER_HEADER structure pointer [ETW]","etw.event_filter_header","evntprov/EVENT_FILTER_HEADER","evntprov/PEVENT_FILTER_HEADER"]
 old-location: etw\event_filter_header.htm
 tech.root: ETW
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542

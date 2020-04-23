@@ -1,7 +1,7 @@
 ---
 UID: NE:uiribbon.UI_VIEWTYPE
 title: UI_VIEWTYPE (uiribbon.h)
-description: Specifies values that identify the Ribbon framework View.
+description: Specifies values that identify the Ribbon framework View.helpviewer_keywords: ["UI_VIEWTYPE","UI_VIEWTYPE enumeration [Windows Ribbon]","UI_VIEWTYPE_RIBBON","scenicintent_UI_VIEWTYPE","uiribbon/UI_VIEWTYPE","uiribbon/UI_VIEWTYPE_RIBBON","windowsribbon.windowsribbon_ui_viewtype"]
 old-location: windowsribbon\windowsribbon_ui_viewtype.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_type.htm

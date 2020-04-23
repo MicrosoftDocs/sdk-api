@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.SwitchToThread
 title: SwitchToThread function (processthreadsapi.h)
-description: Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.
+description: Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.helpviewer_keywords: ["SwitchToThread","SwitchToThread function","_win32_switchtothread","base.switchtothread","processthreadsapi/SwitchToThread","winbase/SwitchToThread"]
 old-location: base\switchtothread.htm
 tech.root: ProcThread
 ms.assetid: d1e6d734-0c5b-4aa0-b1b3-220f2615e56b

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.FileFailure
 title: ITransferAdviseSink::FileFailure (shobjidl_core.h)
-description: Called when there is a failure and user interaction is needed.
+description: Called when there is a failure and user interaction is needed.helpviewer_keywords: ["FileFailure","FileFailure method [Windows Shell]","FileFailure method [Windows Shell]","ITransferAdviseSink interface","ITransferAdviseSink interface [Windows Shell]","FileFailure method","ITransferAdviseSink.FileFailure","ITransferAdviseSink::FileFailure","_shell_ITransferAdviseSink_FileFailure","shell.ITransferAdviseSink_FileFailure","shobjidl_core/ITransferAdviseSink::FileFailure"]
 old-location: shell\ITransferAdviseSink_FileFailure.htm
 tech.root: shell
 ms.assetid: 4adc4e9d-f1d1-438c-bae3-23d1259453a6

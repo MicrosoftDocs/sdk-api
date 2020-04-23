@@ -1,7 +1,7 @@
 ---
 UID: NC:evr.MFCreateVideoRenderer
 title: MFCreateVideoRenderer (evr.h)
-description: Creates an instance of the enhanced video renderer (EVR) media sink.
+description: Creates an instance of the enhanced video renderer (EVR) media sink.helpviewer_keywords: ["MFCreateVideoRenderer","MFCreateVideoRenderer callback","MFCreateVideoRenderer callback function [Media Foundation]","d0f90c42-8f08-44f4-b3da-b9f3ae4869e6","evr/MFCreateVideoRenderer","mf.mfcreatevideorenderer"]
 old-location: mf\mfcreatevideorenderer.htm
 tech.root: medfound
 ms.assetid: d0f90c42-8f08-44f4-b3da-b9f3ae4869e6

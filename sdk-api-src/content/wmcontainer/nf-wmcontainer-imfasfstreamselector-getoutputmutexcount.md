@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutexCount
 title: IMFASFStreamSelector::GetOutputMutexCount (wmcontainer.h)
-description: Retrieves the number of mutual exclusion objects associated with an output.
+description: Retrieves the number of mutual exclusion objects associated with an output.helpviewer_keywords: ["GetOutputMutexCount","GetOutputMutexCount method [Media Foundation]","GetOutputMutexCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputMutexCount method","IMFASFStreamSelector.GetOutputMutexCount","IMFASFStreamSelector::GetOutputMutexCount","d6e98595-3307-47f5-806d-796350c78cec","mf.imfasfstreamselector_getoutputmutexcount","wmcontainer/IMFASFStreamSelector::GetOutputMutexCount"]
 old-location: mf\imfasfstreamselector_getoutputmutexcount.htm
 tech.root: medfound
 ms.assetid: d6e98595-3307-47f5-806d-796350c78cec

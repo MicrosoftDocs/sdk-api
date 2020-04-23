@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.SetVirtualDiskMetadata
 title: SetVirtualDiskMetadata function (virtdisk.h)
-description: Sets a metadata item for a virtual disk.
+description: Sets a metadata item for a virtual disk.helpviewer_keywords: ["SetVirtualDiskMetadata","SetVirtualDiskMetadata function [Virtual Storage]","virtdisk/SetVirtualDiskMetadata","vstor.setvirtualdiskmetadata"]
 old-location: vstor\setvirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 27ee1529-ccd9-43ea-aed9-4fd32d793354

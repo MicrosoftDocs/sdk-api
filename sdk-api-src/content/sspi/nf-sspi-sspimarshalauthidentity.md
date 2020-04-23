@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiMarshalAuthIdentity
 title: SspiMarshalAuthIdentity function (sspi.h)
-description: Serializes the specified identity structure into a byte array.
+description: Serializes the specified identity structure into a byte array.helpviewer_keywords: ["SspiMarshalAuthIdentity","SspiMarshalAuthIdentity function [Security]","security.sspimarshalauthidentity","sspi/SspiMarshalAuthIdentity"]
 old-location: security\sspimarshalauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shadertracing.ID3D11ShaderTrace
 title: ID3D11ShaderTrace (d3d11shadertracing.h)
-description: An ID3D11ShaderTrace interface implements methods for obtaining traces of shader executions.
+description: An ID3D11ShaderTrace interface implements methods for obtaining traces of shader executions.helpviewer_keywords: ["ID3D11ShaderTrace","ID3D11ShaderTrace interface [Direct3D 11]","ID3D11ShaderTrace interface [Direct3D 11]","described","d3d11shadertracing/ID3D11ShaderTrace","direct3d11.id3d11shadertrace"]
 old-location: direct3d11\id3d11shadertrace.htm
 tech.root: direct3d11
 ms.assetid: 27FF1E53-262A-4642-A4A8-7E21163C6DF9

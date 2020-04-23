@@ -1,7 +1,7 @@
 ---
 UID: NL:vswriter.IVssCreateWriterMetadata
 title: IVssCreateWriterMetadata (vswriter.h)
-description: The IVssCreateWriterMetadata interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an Identify event. It is used only in the CVssWriter::OnIdentify method.
+description: The IVssCreateWriterMetadata interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an Identify event. It is used only in the CVssWriter::OnIdentify method.helpviewer_keywords: ["IVssCreateWriterMetadata","IVssCreateWriterMetadata interface [VSS]","IVssCreateWriterMetadata interface [VSS]","described","_win32_ivsscreatewritermetadata","base.ivsscreatewritermetadata","vswriter/IVssCreateWriterMetadata"]
 old-location: base\ivsscreatewritermetadata.htm
 tech.root: VSS
 ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9

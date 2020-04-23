@@ -2,6 +2,7 @@
 UID: NF:credentialprovider.ICredentialProviderUserArray.SetProviderFilter
 title: ICredentialProviderUserArray::SetProviderFilter (credentialprovider.h)
 description: Limits the set of users in the array to either local accounts or Microsoft accounts.
+helpviewer_keywords: ["ICredentialProviderUserArray interface [Windows Shell]","SetProviderFilter method","ICredentialProviderUserArray.SetProviderFilter","ICredentialProviderUserArray::SetProviderFilter","SetProviderFilter","SetProviderFilter method [Windows Shell]","SetProviderFilter method [Windows Shell]","ICredentialProviderUserArray interface","credentialprovider/ICredentialProviderUserArray::SetProviderFilter","shell.ICredentialProviderUserArray_SetProviderFilter"]
 old-location: shell\ICredentialProviderUserArray_SetProviderFilter.htm
 tech.root: shell
 ms.assetid: 86FC48BF-FEEA-40c4-91CA-21FFAC210CFA
@@ -75,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">ICredentialProviderUserArray</a> object contains all of the available users in the current <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">scenario</a>. This method enables your credential provider to specify a particular subset of those users. For example, if your credential provider handles only Microsoft account users from a specific connected provider, it can call this method with the Microsoft account provider's ID to filter out users that belong to other providers.
+The <a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">ICredentialProviderUserArray</a> object contains all of the available users in the current <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">scenario</a>. This method enables your credential provider to specify a particular subset of those users. For example, if your credential provider handles only Microsoft account users from a specific connected provider, it can call this method with the Microsoft account provider's ID to filter out users that belong to other providers.
 
 This method can only be called once, to filter for a single account provider. If the method is called again, the call will fail with a return value of E_UNEXPECTED.
 

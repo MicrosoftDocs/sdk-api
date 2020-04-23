@@ -1,7 +1,7 @@
 ---
 UID: NF:xapo.IXAPO.IsInputFormatSupported
 title: IXAPO::IsInputFormatSupported (xapo.h)
-description: Queries if a specific input format is supported for a given output format.
+description: Queries if a specific input format is supported for a given output format.helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","IsInputFormatSupported method","IXAPO.IsInputFormatSupported","IXAPO::IsInputFormatSupported","IsInputFormatSupported","IsInputFormatSupported method [XAudio2 Audio Mixing APIs]","IsInputFormatSupported method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::IsInputFormatSupported","xaudio2.ixapo_interface_isinputformatsupported"]
 old-location: xaudio2\ixapo_interface_isinputformatsupported.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsInputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX)

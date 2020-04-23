@@ -1,7 +1,7 @@
 ---
 UID: NF:sdoias.ISdo.PutProperty
 title: ISdo::PutProperty (sdoias.h)
-description: The PutProperty method sets the value of the specified property.
+description: The PutProperty method sets the value of the specified property.helpviewer_keywords: ["ISdo interface [Network Policy Server]","PutProperty method","ISdo.PutProperty","ISdo::PutProperty","PutProperty","PutProperty method [Network Policy Server]","PutProperty method [Network Policy Server]","ISdo interface","_sdo_isdo_putproperty","nps.SDO_isdo_putproperty","sdo.isdo_putproperty","sdoias/ISdo::PutProperty"]
 old-location: nps\SDO_isdo_putproperty.htm
 tech.root: Nps
 ms.assetid: c2e440a7-d58c-4542-bd0b-a06b810edd34

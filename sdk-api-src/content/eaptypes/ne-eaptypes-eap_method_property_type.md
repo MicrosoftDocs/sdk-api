@@ -2,6 +2,7 @@
 UID: NE:eaptypes._EAP_METHOD_PROPERTY_TYPE
 title: EAP_METHOD_PROPERTY_TYPE (eaptypes.h)
 description: Specifies the set of possible EAP method properties.
+helpviewer_keywords: ["EAP_METHOD_PROPERTY_TYPE","EAP_METHOD_PROPERTY_TYPE enumeration [EAPHost]","eaphost.eap_method_property_type","eaptypes/EAP_METHOD_PROPERTY_TYPE","eaptypes/emptLegacyMethodPropertyFlag","eaptypes/emptPropCertifiedMethod","eaptypes/emptPropChannelBinding","eaptypes/emptPropCipherSuiteNegotiation","eaptypes/emptPropConfidentiality","eaptypes/emptPropCryptoBinding","eaptypes/emptPropDictionaryAttackResistance","eaptypes/emptPropFastReconnect","eaptypes/emptPropFragmentation","eaptypes/emptPropHiddenMethod","eaptypes/emptPropIdentityPrivacy","eaptypes/emptPropIntegrity","eaptypes/emptPropKeyDerivation","eaptypes/emptPropKeyStrength1024","eaptypes/emptPropKeyStrength128","eaptypes/emptPropKeyStrength256","eaptypes/emptPropKeyStrength512","eaptypes/emptPropKeyStrength64","eaptypes/emptPropMachineAuth","eaptypes/emptPropMethodChaining","eaptypes/emptPropMppeEncryption","eaptypes/emptPropMutualAuth","eaptypes/emptPropNap","eaptypes/emptPropReplayProtection","eaptypes/emptPropSessionIndependence","eaptypes/emptPropSharedStateEquivalence","eaptypes/emptPropStandalone","eaptypes/emptPropSupportsConfig","eaptypes/emptPropTunnelMethod","eaptypes/emptPropUserAuth","eaptypes/emptPropVendorSpecific","emptLegacyMethodPropertyFlag","emptPropCertifiedMethod","emptPropChannelBinding","emptPropCipherSuiteNegotiation","emptPropConfidentiality","emptPropCryptoBinding","emptPropDictionaryAttackResistance","emptPropFastReconnect","emptPropFragmentation","emptPropHiddenMethod","emptPropIdentityPrivacy","emptPropIntegrity","emptPropKeyDerivation","emptPropKeyStrength1024","emptPropKeyStrength128","emptPropKeyStrength256","emptPropKeyStrength512","emptPropKeyStrength64","emptPropMachineAuth","emptPropMethodChaining","emptPropMppeEncryption","emptPropMutualAuth","emptPropNap","emptPropReplayProtection","emptPropSessionIndependence","emptPropSharedStateEquivalence","emptPropStandalone","emptPropSupportsConfig","emptPropTunnelMethod","emptPropUserAuth","emptPropVendorSpecific"]
 old-location: eaphost\eap_method_property_type.htm
 tech.root: eaphost
 ms.assetid: 49a62be4-5a8c-4e44-bdd1-aba37e3e7029
@@ -222,7 +223,7 @@ String property method for specifying any vendor-specific property of the EAP me
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
 
 

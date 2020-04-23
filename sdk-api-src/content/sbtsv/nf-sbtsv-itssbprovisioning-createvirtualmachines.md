@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CreateVirtualMachines
 title: ITsSbProvisioning::CreateVirtualMachines (sbtsv.h)
-description: Creates a virtual machine asynchronously.
+description: Creates a virtual machine asynchronously.helpviewer_keywords: ["CreateVirtualMachines","CreateVirtualMachines method [Remote Desktop Services]","CreateVirtualMachines method [Remote Desktop Services]","ITsSbProvisioning interface","ITsSbProvisioning interface [Remote Desktop Services]","CreateVirtualMachines method","ITsSbProvisioning.CreateVirtualMachines","ITsSbProvisioning::CreateVirtualMachines","sbtsv/ITsSbProvisioning::CreateVirtualMachines","termserv.itssbprovisioning_createvirtualmachines"]
 old-location: termserv\itssbprovisioning_createvirtualmachines.htm
 tech.root: TermServ
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e

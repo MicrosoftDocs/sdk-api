@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationStoryboard2.GetStatus
 title: IUIAnimationStoryboard2::GetStatus (uianimation.h)
 description: Gets the status of the storyboard.
+helpviewer_keywords: ["GetStatus","GetStatus method [Windows Animation]","GetStatus method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","GetStatus method","IUIAnimationStoryboard2.GetStatus","IUIAnimationStoryboard2::GetStatus","uianimation.iuianimationstoryboard2_getstatus","uianimation/IUIAnimationStoryboard2::GetStatus"]
 old-location: uianimation\iuianimationstoryboard2_getstatus.htm
 tech.root: UIAnimation
 ms.assetid: 1694B720-891A-4214-A009-6AA722E5B83D
@@ -75,7 +76,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-Unless this method is called from a handler for <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboardeventhandler2-onstoryboardstatuschanged">OnStoryboardStatusChanged</a> events, the only values it returns are <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_BUILDING</a>, <b>UI_ANIMATION_STORYBOARD_SCHEDULED</b>,
+Unless this method is called from a handler for <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboardeventhandler2-onstoryboardstatuschanged">OnStoryboardStatusChanged</a> events, the only values it returns are <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_BUILDING</a>, <b>UI_ANIMATION_STORYBOARD_SCHEDULED</b>,
 <b>UI_ANIMATION_STORYBOARD_PLAYING</b>, and <b>UI_ANIMATION_STORYBOARD_READY</b>.
 
 
@@ -94,7 +95,7 @@ Unless this method is called from a handler for <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

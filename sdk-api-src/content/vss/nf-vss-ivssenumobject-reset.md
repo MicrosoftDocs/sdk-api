@@ -1,7 +1,7 @@
 ---
 UID: NF:vss.IVssEnumObject.Reset
 title: IVssEnumObject::Reset (vss.h)
-description: Resets the enumerator so that IVssEnumObject:Next starts at the first enumerated object.
+description: Resets the enumerator so that IVssEnumObject:Next starts at the first enumerated object.helpviewer_keywords: ["IVssEnumObject interface [VSS]","Reset method","IVssEnumObject.Reset","IVssEnumObject::Reset","Reset","Reset method [VSS]","Reset method [VSS]","IVssEnumObject interface","_win32_ivssenumobject_reset","base.ivssenumobject_reset","vss/IVssEnumObject::Reset"]
 old-location: base\ivssenumobject_reset.htm
 tech.root: VSS
 ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162

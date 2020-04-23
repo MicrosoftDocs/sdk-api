@@ -2,6 +2,7 @@
 UID: NF:exdisp.IShellWindows.Item
 title: IShellWindows::Item (exdisp.h)
 description: Returns the registered Shell window for a specified index.
+helpviewer_keywords: ["IShellWindows interface [Windows Shell]","Item method","IShellWindows.Item","IShellWindows::Item","Item","Item method [Windows Shell]","Item method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_Item","exdisp/IShellWindows::Item","shell.IShellWindows_Item"]
 old-location: shell\IShellWindows_Item.htm
 tech.root: shell
 ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
@@ -122,7 +123,7 @@ The specified window was not found.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">IShellWindows::_NewEnum</a>
+<a href="/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">IShellWindows::_NewEnum</a>
 
 
 

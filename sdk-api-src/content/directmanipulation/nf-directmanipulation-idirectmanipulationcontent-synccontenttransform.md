@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SyncContentTransform
 title: IDirectManipulationContent::SyncContentTransform (directmanipulation.h)
-description: Modifies the content transform while maintaining the output transform.
+description: Modifies the content transform while maintaining the output transform.helpviewer_keywords: ["IDirectManipulationContent interface [Direct Manipulation]","SyncContentTransform method","IDirectManipulationContent.SyncContentTransform","IDirectManipulationContent::SyncContentTransform","SyncContentTransform","SyncContentTransform method [Direct Manipulation]","SyncContentTransform method [Direct Manipulation]","IDirectManipulationContent interface","directmanipulation.idirectmanipulationcontent_synccontenttransform","directmanipulation/IDirectManipulationContent::SyncContentTransform"]
 old-location: directmanipulation\idirectmanipulationcontent_synccontenttransform.htm
 tech.root: directmanipulation
 ms.assetid: 3e70b208-05b5-4b84-a582-fd835acdd777

@@ -1,7 +1,7 @@
 ---
 UID: NF:msp.ITMSPAddress.Shutdown
 title: ITMSPAddress::Shutdown (msp.h)
-description: The Shutdown method is called when the MSP is unloaded. Shutdown will be called once per address object.
+description: The Shutdown method is called when the MSP is unloaded. Shutdown will be called once per address object.helpviewer_keywords: ["ITMSPAddress interface [TAPI 2.2]","Shutdown method","ITMSPAddress.Shutdown","ITMSPAddress::Shutdown","Shutdown","Shutdown method [TAPI 2.2]","Shutdown method [TAPI 2.2]","ITMSPAddress interface","_tapi3_itmspaddress_shutdown","msp/ITMSPAddress::Shutdown","tapi3.itmspaddress_shutdown"]
 old-location: tapi3\itmspaddress_shutdown.htm
 tech.root: Tapi
 ms.assetid: 877691cb-b12b-4389-b93c-4ff13a52f4d7

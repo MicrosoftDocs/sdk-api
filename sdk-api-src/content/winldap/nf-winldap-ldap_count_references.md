@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_count_references
 title: ldap_count_references function (winldap.h)
-description: The ldap_count_references function counts the number of subordinate references that were returned by the server in a response to a search request.
+description: The ldap_count_references function counts the number of subordinate references that were returned by the server in a response to a search request.helpviewer_keywords: ["_ldap_ldap_count_references","ldap.ldap__count__references","ldap.ldap_count_references","ldap_count_references","ldap_count_references function [LDAP]","winldap/ldap_count_references"]
 old-location: ldap\ldap_count_references.htm
 tech.root: ldap
 ms.assetid: 1d216f39-6eb4-4c3d-8f97-92835aac2aca

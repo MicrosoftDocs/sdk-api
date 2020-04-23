@@ -1,7 +1,7 @@
 ---
 UID: NS:cmnquery._cqpage
 title: CQPAGE (cmnquery.h)
-description: Used to define a query page added to a form in the query dialog box with the CQAddPagesProc callback function.
+description: Used to define a query page added to a form in the query dialog box with the CQAddPagesProc callback function.helpviewer_keywords: ["*LPCQPAGE","CQPAGE","CQPAGE structure [Active Directory]","LPCQPAGE","LPCQPAGE structure pointer [Active Directory]","_glines_cqpage","ad.cqpage","cmnquery/CQPAGE","cmnquery/LPCQPAGE"]
 old-location: ad\cqpage.htm
 tech.root: ad
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742

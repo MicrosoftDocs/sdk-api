@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSize
 title: IUrlAccessor::GetSize (searchapi.h)
-description: Gets the size of the content designated by the URL.
+description: Gets the size of the content designated by the URL.helpviewer_keywords: ["GetSize","GetSize method [search]","GetSize method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetSize method","IUrlAccessor.GetSize","IUrlAccessor::GetSize","_search_IUrlAccessor_GetSize","search._search_IUrlAccessor_GetSize","searchapi/IUrlAccessor::GetSize"]
 old-location: search\_search_IUrlAccessor_GetSize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm

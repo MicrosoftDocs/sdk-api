@@ -2,6 +2,7 @@
 UID: NF:manipulations.IInertiaProcessor.get_InitialExpansionVelocity
 title: IInertiaProcessor::get_InitialExpansionVelocity (manipulations.h)
 description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia.
+helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialExpansionVelocity property","IInertiaProcessor.InitialExpansionVelocity","IInertiaProcessor.get_InitialExpansionVelocity","IInertiaProcessor::InitialExpansionVelocity","IInertiaProcessor::get_InitialExpansionVelocity","IInertiaProcessor::put_InitialExpansionVelocity","InitialExpansionVelocity property [Windows Touch]","InitialExpansionVelocity property [Windows Touch]","IInertiaProcessor interface","get_InitialExpansionVelocity","manipulations/IInertiaProcessor::InitialExpansionVelocity","manipulations/IInertiaProcessor::get_InitialExpansionVelocity","manipulations/IInertiaProcessor::put_InitialExpansionVelocity","wintouch.iinertiaprocessor_initialexpansionvelocity"]
 old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm
 tech.root: wintouch
 ms.assetid: c0e60b1c-98d0-4b50-ba5d-deda44debf56
@@ -69,7 +70,7 @@ The amount of expansion that the <a href="https://docs.microsoft.com/windows/des
 
 If inertia processing has already started, setting <b>InitialExpansionVelocity</b> will reset the inertia engine to the initial state with new velocity values applied.
 
-Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
+Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.IEnumTfContextViews
 title: IEnumTfContextViews (msctf.h)
-description: Not implemented.
+description: Not implemented.helpviewer_keywords: ["IEnumTfContextViews","IEnumTfContextViews interface [Text Services Framework]","IEnumTfContextViews interface [Text Services Framework]","described","_tsf_ienumtfcontextviews_ref","msctf/IEnumTfContextViews","tsf.ienumtfcontextviews"]
 old-location: tsf\ienumtfcontextviews.htm
 tech.root: TSF
 ms.assetid: d9b4be70-0ef3-421a-9c9a-18533d563170

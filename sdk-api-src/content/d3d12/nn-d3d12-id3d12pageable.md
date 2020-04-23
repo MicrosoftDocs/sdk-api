@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Pageable
 title: ID3D12Pageable (d3d12.h)
-description: An interface from which many other core interfaces inherit from. It indicates that the object type encapsulates some amount of GPU-accessible memory; but does not strongly indicate whether the application can manipulate the object's residency.
+description: An interface from which many other core interfaces inherit from. It indicates that the object type encapsulates some amount of GPU-accessible memory; but does not strongly indicate whether the application can manipulate the object's residency.helpviewer_keywords: ["ID3D12Pageable","ID3D12Pageable interface","ID3D12Pageable interface","described","d3d12/ID3D12Pageable","direct3d12.id3d12pageable"]
 old-location: direct3d12\id3d12pageable.htm
 tech.root: direct3d12
 ms.assetid: 89DC88B4-9DFD-413D-8EB9-91087CC90D18

@@ -2,6 +2,7 @@
 UID: NF:callobj.ICallFrame.GetMarshalSizeMax
 title: ICallFrame::GetMarshalSizeMax (callobj.h)
 description: Retrieves an upper bound on the number of bytes needed to marshal the call frame.
+helpviewer_keywords: ["GetMarshalSizeMax","GetMarshalSizeMax method [COM]","GetMarshalSizeMax method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetMarshalSizeMax method","ICallFrame.GetMarshalSizeMax","ICallFrame::GetMarshalSizeMax","_com_icallframe_getmarshalsizemax","callobj/ICallFrame::GetMarshalSizeMax","com.icallframe_getmarshalsizemax"]
 old-location: com\icallframe_getmarshalsizemax.htm
 tech.root: com
 ms.assetid: 4e564b29-8b21-4e65-981e-4ceda1d7774d
@@ -61,7 +62,7 @@ Usually an interface proxy calls this method to learn how big a buffer is needed
 
 ### -param pmshlContext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
+A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
 
 
 ### -param mshlflags [in]

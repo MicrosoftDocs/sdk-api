@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.RedirectStatus
 title: IWRdsProtocolLogonErrorRedirector::RedirectStatus (wtsprotocol.h)
-description: Queries the protocol regarding how to redirect the client logon status update.
+description: Queries the protocol regarding how to redirect the client logon status update.helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectStatus method","IWRdsProtocolLogonErrorRedirector.RedirectStatus","IWRdsProtocolLogonErrorRedirector::RedirectStatus","RedirectStatus","RedirectStatus method [Remote Desktop Services]","RedirectStatus method [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface","termserv.iwrdsprotocollogonerrorredirector_redirectstatus","wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectStatus"]
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectstatus.htm
 tech.root: TermServ
 ms.assetid: f1f6caec-6e26-4508-b19d-ac0e12758b28

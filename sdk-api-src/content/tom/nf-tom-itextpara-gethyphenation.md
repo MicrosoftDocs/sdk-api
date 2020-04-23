@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.GetHyphenation
 title: ITextPara::GetHyphenation (tom.h)
-description: Determines whether automatic hyphenation is enabled for the range.
+description: Determines whether automatic hyphenation is enabled for the range.helpviewer_keywords: ["GetHyphenation","GetHyphenation method [Windows Controls]","GetHyphenation method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetHyphenation method","ITextPara.GetHyphenation","ITextPara::GetHyphenation","_win32_ITextPara_GetHyphenation","_win32_ITextPara_GetHyphenation_cpp","controls.ITextPara_GetHyphenation","controls._win32_ITextPara_GetHyphenation","tom/ITextPara::GetHyphenation","tomFalse","tomTrue","tomUndefined"]
 old-location: controls\ITextPara_GetHyphenation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethyphenation.htm

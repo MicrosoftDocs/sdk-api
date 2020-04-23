@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsServiceConstructInstance
 title: DnsServiceConstructInstance function
-description: Used to build a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure from data that describes it.
+description: Used to build a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure from data that describes it.helpviewer_keywords: ["DnsServiceConstructInstance"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceConstructInstance
 f1_keywords:

@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmRegisterMProtocol
 title: MgmRegisterMProtocol function (mgm.h)
-description: The MgmRegisterMProtocol function is used by clients to register with the multicast group manager.
+description: The MgmRegisterMProtocol function is used by clients to register with the multicast group manager.helpviewer_keywords: ["MgmRegisterMProtocol","MgmRegisterMProtocol function [RAS]","_mpr_mgmregistermprotocol","mgm/MgmRegisterMProtocol","rras.mgmregistermprotocol"]
 old-location: rras\mgmregistermprotocol.htm
 tech.root: RRAS
 ms.assetid: a9b5f5f3-6e54-4a97-b3e7-e9e026947116

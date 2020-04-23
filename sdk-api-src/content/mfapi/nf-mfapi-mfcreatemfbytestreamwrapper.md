@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCreateMFByteStreamWrapper
 title: MFCreateMFByteStreamWrapper function (mfapi.h)
-description: Creates a wrapper for a byte stream.
+description: Creates a wrapper for a byte stream.helpviewer_keywords: ["MFCreateMFByteStreamWrapper","MFCreateMFByteStreamWrapper function [Media Foundation]","mf.mfcreatemfbytestreamwrapper","mfapi/MFCreateMFByteStreamWrapper"]
 old-location: mf\mfcreatemfbytestreamwrapper.htm
 tech.root: medfound
 ms.assetid: F6A9603D-39C8-4039-BAA0-81557CE29078

@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.LIBRARYOPTIONFLAGS
 title: LIBRARYOPTIONFLAGS (shobjidl_core.h)
-description: Specifies the library options.
+description: Specifies the library options.helpviewer_keywords: ["LIBRARYOPTIONFLAGS","LIBRARYOPTIONFLAGS enumeration [Windows Shell]","LOF_DEFAULT","LOF_MASK_ALL","LOF_PINNEDTONAVPANE","_shell_LIBRARYOPTIONFLAGS","shell.LIBRARYOPTIONFLAGS","shobjidl_core/LIBRARYOPTIONFLAGS","shobjidl_core/LOF_DEFAULT","shobjidl_core/LOF_MASK_ALL","shobjidl_core/LOF_PINNEDTONAVPANE"]
 old-location: shell\LIBRARYOPTIONFLAGS.htm
 tech.root: shell
 ms.assetid: 205c40ff-a4dc-4a57-b51a-1e230fc170dd

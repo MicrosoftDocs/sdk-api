@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelCallback.OnClose
 title: IWTSVirtualChannelCallback::OnClose (tsvirtualchannels.h)
-description: Notifies the user that the channel has been closed.
+description: Notifies the user that the channel has been closed.helpviewer_keywords: ["IWTSVirtualChannelCallback interface [Remote Desktop Services]","OnClose method","IWTSVirtualChannelCallback.OnClose","IWTSVirtualChannelCallback::OnClose","OnClose","OnClose method [Remote Desktop Services]","OnClose method [Remote Desktop Services]","IWTSVirtualChannelCallback interface","termserv.iwtsvirtualchannelcallback_onclose","tsvirtualchannels/IWTSVirtualChannelCallback::OnClose"]
 old-location: termserv\iwtsvirtualchannelcallback_onclose.htm
 tech.root: TermServ
 ms.assetid: 5038f2f9-980b-4383-a718-eb4e07e9cfe9

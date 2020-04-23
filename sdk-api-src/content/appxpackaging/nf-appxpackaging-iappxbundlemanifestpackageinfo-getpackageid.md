@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetPackageId
 title: IAppxBundleManifestPackageInfo::GetPackageId (appxpackaging.h)
-description: Retrieves an object that represents the identity of the app package.
+description: Retrieves an object that represents the identity of the app package.helpviewer_keywords: ["GetPackageId","GetPackageId method [App packaging and management]","GetPackageId method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetPackageId method","IAppxBundleManifestPackageInfo.GetPackageId","IAppxBundleManifestPackageInfo::GetPackageId","appxpackaging/IAppxBundleManifestPackageInfo::GetPackageId","appxpkg.iappxbundlemanifestpackageinfo_getpackageid"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackageid.htm
 tech.root: appxpkg
 ms.assetid: 5C7F52C3-AB72-4023-900B-53E3B5504213

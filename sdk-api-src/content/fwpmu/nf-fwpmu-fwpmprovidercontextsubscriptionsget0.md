@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderContextSubscriptionsGet0
 title: FwpmProviderContextSubscriptionsGet0 function (fwpmu.h)
 description: Retrieves an array of all the current provider context change notification subscriptions.
+helpviewer_keywords: ["FwpmProviderContextSubscriptionsGet0","FwpmProviderContextSubscriptionsGet0 function [Filtering]","fwp.fwpmprovidercontextsubscriptionsget0_func","fwpmu/FwpmProviderContextSubscriptionsGet0"]
 old-location: fwp\fwpmprovidercontextsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 68c8c360-3b12-4a7c-8a68-5128139a862a
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>***</b>
+Type: <b><a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>***</b>
 
 The current provider context change notification subscriptions.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>
+<a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0">FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</a>
  
 
  

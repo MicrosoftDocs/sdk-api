@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveAutomationEventHandler
 title: IUIAutomation::RemoveAutomationEventHandler (uiautomationclient.h)
-description: Removes the specified UI Automation event handler.
+description: Removes the specified UI Automation event handler.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","RemoveAutomationEventHandler method","IUIAutomation.RemoveAutomationEventHandler","IUIAutomation::RemoveAutomationEventHandler","RemoveAutomationEventHandler","RemoveAutomationEventHandler method [Windows Accessibility]","RemoveAutomationEventHandler method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_RemoveAutomationEventHandler","uiauto_IUIAutomation_RemoveAutomationEventHandler","uiautomationclient/IUIAutomation::RemoveAutomationEventHandler","winauto.uiauto_IUIAutomation_RemoveAutomationEventHandler"]
 old-location: winauto\uiauto_IUIAutomation_RemoveAutomationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: c4ebf7d3-c3c4-424b-af69-b8c13dd7a4dd

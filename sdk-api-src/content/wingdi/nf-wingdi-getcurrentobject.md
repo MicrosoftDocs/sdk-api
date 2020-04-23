@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetCurrentObject
 title: GetCurrentObject function (wingdi.h)
-description: The GetCurrentObject function retrieves a handle to an object of the specified type that has been selected into the specified device context (DC).
+description: The GetCurrentObject function retrieves a handle to an object of the specified type that has been selected into the specified device context (DC).helpviewer_keywords: ["GetCurrentObject","GetCurrentObject function [Windows GDI]","OBJ_BITMAP","OBJ_BRUSH","OBJ_COLORSPACE","OBJ_FONT","OBJ_PAL","OBJ_PEN","_win32_GetCurrentObject","gdi.getcurrentobject","wingdi/GetCurrentObject"]
 old-location: gdi\getcurrentobject.htm
 tech.root: gdi
 ms.assetid: d7e2310c-6a9e-4195-824c-1a83382a5c5b

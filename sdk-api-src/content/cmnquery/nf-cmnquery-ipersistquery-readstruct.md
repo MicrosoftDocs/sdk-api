@@ -1,7 +1,7 @@
 ---
 UID: NF:cmnquery.IPersistQuery.ReadStruct
 title: IPersistQuery::ReadStruct (cmnquery.h)
-description: Reads a structure from the query store.
+description: Reads a structure from the query store.helpviewer_keywords: ["IPersistQuery interface [Active Directory]","ReadStruct method","IPersistQuery.ReadStruct","IPersistQuery::ReadStruct","ReadStruct","ReadStruct method [Active Directory]","ReadStruct method [Active Directory]","IPersistQuery interface","_glines_ipersistquery_readstruct","ad.ipersistquery__readstruct","ad.ipersistquery_readstruct","cmnquery/IPersistQuery::ReadStruct"]
 old-location: ad\ipersistquery_readstruct.htm
 tech.root: ad
 ms.assetid: 47d1b733-7e37-42f8-b344-909a6e48b381

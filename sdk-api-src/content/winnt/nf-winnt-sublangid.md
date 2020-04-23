@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.SUBLANGID
 title: SUBLANGID macro (winnt.h)
-description: Extracts a sublanguage identifier from a language identifier.
+description: Extracts a sublanguage identifier from a language identifier.helpviewer_keywords: ["SUBLANGID","SUBLANGID macro [Internationalization for Windows Applications]","_win32_SUBLANGID","intl.sublangid","winnt/SUBLANGID"]
 old-location: intl\sublangid.htm
 tech.root: Intl
 ms.assetid: 0441c915-f910-4ac7-ac0a-0b113f490d40

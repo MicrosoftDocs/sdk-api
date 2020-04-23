@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.PegFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Indicates that a tracker source is unable to protected a reference tracker object.
+description: Indicates that a tracker source is unable to protected a reference tracker object.helpviewer_keywords: ["IReferenceTracker interface [Windows Runtime]","PegFromTrackerSource method","IReferenceTracker.PegFromTrackerSource","IReferenceTracker.xaml","IReferenceTracker::PegFromTrackerSource","IReferenceTracker::xaml","PegFromTrackerSource","PegFromTrackerSource method [Windows Runtime]","PegFromTrackerSource method [Windows Runtime]","IReferenceTracker interface","windows/IReferenceTracker::PegFromTrackerSource","winrt.ireferencetracker_pegfromtrackersource"]
 old-location: winrt\ireferencetracker_pegfromtrackersource.htm
 tech.root: WinRT
 ms.assetid: ca35bcf5-add0-47a8-b989-f6d69674ca30

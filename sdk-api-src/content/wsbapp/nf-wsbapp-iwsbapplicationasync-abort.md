@@ -1,7 +1,7 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.Abort
 title: IWsbApplicationAsync::Abort (wsbapp.h)
-description: Cancels an incomplete asynchronous operation.
+description: Cancels an incomplete asynchronous operation.helpviewer_keywords: ["Abort","Abort method [Windows Server Backup]","Abort method [Windows Server Backup]","IWsbApplicationAsync interface","IWsbApplicationAsync interface [Windows Server Backup]","Abort method","IWsbApplicationAsync.Abort","IWsbApplicationAsync::Abort","wsb.iwsbapplicationasync_abort","wsbapp/IWsbApplicationAsync::Abort"]
 old-location: wsb\iwsbapplicationasync_abort.htm
 tech.root: wsb
 ms.assetid: 937ca809-4bb0-408e-9c7e-eccc43d8d4ae

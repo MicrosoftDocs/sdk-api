@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetType
 title: ITfFunctionProvider::GetType (msctf.h)
-description: ITfFunctionProvider::GetType method
+description: ITfFunctionProvider::GetType methodhelpviewer_keywords: ["GetType","GetType method [Text Services Framework]","GetType method [Text Services Framework]","ITfFunctionProvider interface","ITfFunctionProvider interface [Text Services Framework]","GetType method","ITfFunctionProvider.GetType","ITfFunctionProvider::GetType","_tsf_itffunctionprovider_gettype_ref","msctf/ITfFunctionProvider::GetType","tsf.itffunctionprovider_gettype"]
 old-location: tsf\itffunctionprovider_gettype.htm
 tech.root: TSF
 ms.assetid: fff9ad62-f777-423c-a59d-ebd7d99da6a9

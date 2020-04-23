@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoGetMarshalSizeMax
 title: CoGetMarshalSizeMax function (combaseapi.h)
-description: Returns an upper bound on the number of bytes needed to marshal the specified interface pointer to the specified object.
+description: Returns an upper bound on the number of bytes needed to marshal the specified interface pointer to the specified object.helpviewer_keywords: ["CoGetMarshalSizeMax","CoGetMarshalSizeMax function [COM]","_com_CoGetMarshalSizeMax","com.cogetmarshalsizemax","combaseapi/CoGetMarshalSizeMax"]
 old-location: com\cogetmarshalsizemax.htm
 tech.root: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7

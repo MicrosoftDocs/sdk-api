@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDVB_TDT
 title: IDVB_TDT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDVB_TDT","IDVB_TDT interface [Microsoft TV Technologies]","IDVB_TDT interface [Microsoft TV Technologies]","described","IDVB_TDTInterface","dvbsiparser/IDVB_TDT","mstv.idvb_tdt"]
 old-location: mstv\idvb_tdt.htm
 tech.root: mstv
 ms.assetid: 15fed2d3-fcc8-4992-9dff-4cd5f617e55b

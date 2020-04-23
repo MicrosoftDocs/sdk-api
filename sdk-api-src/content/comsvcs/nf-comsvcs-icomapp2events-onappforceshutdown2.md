@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComApp2Events.OnAppForceShutdown2
 title: IComApp2Events::OnAppForceShutdown2 (comsvcs.h)
 description: Generated when the server application is forced to shut down.
+helpviewer_keywords: ["IComApp2Events interface [COM+]","OnAppForceShutdown2 method","IComApp2Events.OnAppForceShutdown2","IComApp2Events::OnAppForceShutdown2","OnAppForceShutdown2","OnAppForceShutdown2 method [COM+]","OnAppForceShutdown2 method [COM+]","IComApp2Events interface","_dtc_IComApp2Events_OnAppForceShutdown2","comsvcs/IComApp2Events::OnAppForceShutdown2","cos.icomapp2events_onappforceshutdown2"]
 old-location: cos\icomapp2events_onappforceshutdown2.htm
 tech.root: cossdk
 ms.assetid: 7658caaa-a995-4b88-a314-b5cd981d1ec6
@@ -59,7 +60,7 @@ Generated when the server application is forced to shut down.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]

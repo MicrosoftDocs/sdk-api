@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._IP4_ARRAY
 title: IP4_ARRAY (windns.h)
-description: The IP4_ARRAY structure stores an array of IPv4 addresses.
+description: The IP4_ARRAY structure stores an array of IPv4 addresses.helpviewer_keywords: ["*PIP4_ARRAY","*PIP4_ARRAY structure [DNS]","IP4_ARRAY","IP4_ARRAY structure [DNS]","dns.ip4_array","windns/*PIP4_ARRAY","windns/IP4_ARRAY"]
 old-location: dns\ip4_array.htm
 tech.root: DNS
 ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb

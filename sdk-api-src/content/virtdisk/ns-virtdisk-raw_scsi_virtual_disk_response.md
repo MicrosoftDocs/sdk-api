@@ -2,6 +2,7 @@
 UID: NS:virtdisk._RAW_SCSI_VIRTUAL_DISK_RESPONSE
 title: RAW_SCSI_VIRTUAL_DISK_RESPONSE (virtdisk.h)
 description: Contains raw SCSI virtual disk response parameters.
+helpviewer_keywords: ["*PRAW_SCSI_VIRTUAL_DISK_RESPONSE","PRAW_SCSI_VIRTUAL_DISK_RESPONSE","PRAW_SCSI_VIRTUAL_DISK_RESPONSE structure pointer [VHD]","RAW_SCSI_VIRTUAL_DISK_RESPONSE","RAW_SCSI_VIRTUAL_DISK_RESPONSE structure [VHD]","_RAW_SCSI_VIRTUAL_DISK_RESPONSE","vdssys/PRAW_SCSI_VIRTUAL_DISK_RESPONSE","vdssys/RAW_SCSI_VIRTUAL_DISK_RESPONSE","vhd.raw_scsi_virtual_disk_response","virtdisk/PRAW_SCSI_VIRTUAL_DISK_RESPONSE","virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"]
 old-location: vhd\raw_scsi_virtual_disk_response.htm
 tech.root: VStor
 ms.assetid: CF3240A0-134B-4494-8451-7F8C6429D435
@@ -60,7 +61,7 @@ Contains raw SCSI virtual disk response parameters.
 
 ### -field Version
 
-A [RAW_SCSI_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters)a> structure being passed to or from the VHD functions. 
+A [RAW_SCSI_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters) structure being passed to or from the VHD functions. 
 
 
 

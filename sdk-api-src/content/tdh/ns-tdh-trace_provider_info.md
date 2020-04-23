@@ -1,7 +1,7 @@
 ---
 UID: NS:tdh._TRACE_PROVIDER_INFO
 title: TRACE_PROVIDER_INFO (tdh.h)
-description: Defines the GUID and name for a provider.
+description: Defines the GUID and name for a provider.helpviewer_keywords: ["*PTRACE_PROVIDER_INFO","TRACE_PROVIDER_INFO","TRACE_PROVIDER_INFO structure [ETW]","etw.trace_provider_info_struct","tdh.trace_provider_info_struct","tdh/TRACE_PROVIDER_INFO"]
 old-location: etw\trace_provider_info_struct.htm
 tech.root: ETW
 ms.assetid: 0dbfde78-b1d4-4cc6-99aa-81de3f647cdb

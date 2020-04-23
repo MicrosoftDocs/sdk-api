@@ -2,6 +2,7 @@
 UID: NF:audioclient.IAudioCaptureClient.GetBuffer
 title: IAudioCaptureClient::GetBuffer (audioclient.h)
 description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
+helpviewer_keywords: ["GetBuffer","GetBuffer method [Core Audio]","GetBuffer method [Core Audio]","IAudioCaptureClient interface","IAudioCaptureClient interface [Core Audio]","GetBuffer method","IAudioCaptureClient.GetBuffer","IAudioCaptureClient::GetBuffer","IAudioCaptureClientGetBuffer","audioclient/IAudioCaptureClient::GetBuffer","coreaudio.iaudiocaptureclient_getbuffer"]
 old-location: coreaudio\iaudiocaptureclient_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
@@ -70,7 +71,7 @@ Pointer to a <b>UINT32</b> variable into which the method writes the frame count
 
 ### -param pdwFlags [out]
 
-Pointer to a <b>DWORD</b> variable into which the method writes the buffer-status flags. The method writes either 0 or the bitwise-OR combination of one or more of the following <a href="https://docs.microsoft.com/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration values:
+Pointer to a <b>DWORD</b> variable into which the method writes the buffer-status flags. The method writes either 0 or the bitwise-OR combination of one or more of the following <a href="/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration values:
 
 AUDCLNT_BUFFERFLAGS_SILENT
 

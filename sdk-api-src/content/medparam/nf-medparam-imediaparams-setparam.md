@@ -1,7 +1,7 @@
 ---
 UID: NF:medparam.IMediaParams.SetParam
 title: IMediaParams::SetParam (medparam.h)
-description: The SetParam method sets the value of a parameter.
+description: The SetParam method sets the value of a parameter.helpviewer_keywords: ["IMediaParams interface [DirectShow]","SetParam method","IMediaParams.SetParam","IMediaParams::SetParam","IMediaParamsSetParam","SetParam","SetParam method [DirectShow]","SetParam method [DirectShow]","IMediaParams interface","dshow.imediaparams_setparam","medparam/IMediaParams::SetParam"]
 old-location: dshow\imediaparams_setparam.htm
 tech.root: DirectShow
 ms.assetid: e92681d4-2c77-4c72-b3ad-f0a6be7920e2

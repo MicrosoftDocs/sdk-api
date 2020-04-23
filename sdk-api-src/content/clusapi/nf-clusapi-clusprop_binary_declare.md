@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CLUSPROP_BINARY_DECLARE
 title: CLUSPROP_BINARY_DECLARE macro (clusapi.h)
-description: Creates a CLUSPROP_BINARY structure with the rgb member set to a size determined by the caller.
+description: Creates a CLUSPROP_BINARY structure with the rgb member set to a size determined by the caller.helpviewer_keywords: ["CLUSPROP_BINARY_DECLARE","CLUSPROP_BINARY_DECLARE macro [Failover Cluster]","_wolf_clusprop_binary_declare","clusapi/CLUSPROP_BINARY_DECLARE","mscs.clusprop_binary_declare"]
 old-location: mscs\clusprop_binary_declare.htm
 tech.root: MsCS
 ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8

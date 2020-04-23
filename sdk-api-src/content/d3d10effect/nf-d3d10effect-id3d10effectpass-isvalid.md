@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.IsValid
 title: ID3D10EffectPass::IsValid (d3d10effect.h)
-description: Test a pass to see if it contains valid syntax.
+description: Test a pass to see if it contains valid syntax.helpviewer_keywords: ["9122c231-edb3-12f1-7535-16f793aee59d","ID3D10EffectPass interface [Direct3D 10]","IsValid method","ID3D10EffectPass.IsValid","ID3D10EffectPass::IsValid","IsValid","IsValid method [Direct3D 10]","IsValid method [Direct3D 10]","ID3D10EffectPass interface","d3d10effect/ID3D10EffectPass::IsValid","direct3d10.id3d10effectpass_isvalid"]
 old-location: direct3d10\id3d10effectpass_isvalid.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_isvalid.htm

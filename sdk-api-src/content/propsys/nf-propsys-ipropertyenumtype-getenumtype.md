@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetEnumType
 title: IPropertyEnumType::GetEnumType (propsys.h)
-description: Gets an enumeration type from an enumeration information structure.
+description: Gets an enumeration type from an enumeration information structure.helpviewer_keywords: ["GetEnumType","GetEnumType method [Windows Properties]","GetEnumType method [Windows Properties]","IPropertyEnumType interface","IPropertyEnumType interface [Windows Properties]","GetEnumType method","IPropertyEnumType.GetEnumType","IPropertyEnumType::GetEnumType","PET_DEFAULTVALUE","PET_DISCRETEVALUE","PET_ENDRANGE","PET_RANGEDVALUE","_shell_IPropertyEnumType_GetEnumType","properties.IPropertyEnumType_GetEnumType","propsys/IPropertyEnumType::GetEnumType","shell.IPropertyEnumType_GetEnumType"]
 old-location: properties\IPropertyEnumType_GetEnumType.htm
 tech.root: properties
 ms.assetid: f73ad824-5605-4c3c-b623-debdebdf5780

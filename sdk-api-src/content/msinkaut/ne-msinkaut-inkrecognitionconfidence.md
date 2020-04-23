@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkRecognitionConfidence
 title: InkRecognitionConfidence (msinkaut.h)
-description: Indicates the level of confidence that the recognizer has in the recognition result.
+description: Indicates the level of confidence that the recognizer has in the recognition result.helpviewer_keywords: ["IRC_Intermediate","IRC_Poor","IRC_Strong","InkRecognitionConfidence","InkRecognitionConfidence enumeration [Tablet PC]","ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d","msinkaut/IRC_Intermediate","msinkaut/IRC_Poor","msinkaut/IRC_Strong","msinkaut/InkRecognitionConfidence","tablet.inkrecognitionconfidence"]
 old-location: tablet\inkrecognitionconfidence.htm
 tech.root: tablet
 ms.assetid: ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d

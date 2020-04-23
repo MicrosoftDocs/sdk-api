@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC
 title: DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the element-wise floor function f(x) = floor(x * scale + bias), where the scale and bias terms are optional. The floor of x is the largest integer that is less than or equal to x.
+description: Describes a DirectML math operator that performs the element-wise floor function f(x) = floor(x * scale + bias), where the scale and bias terms are optional. The floor of x is the largest integer that is less than or equal to x.helpviewer_keywords: ["DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC","DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC structure","direct3d12.dml_element_wise_floor_operator_desc","directml/DML_ELEMENT_WISE_FLOOR_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_floor_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: CA53607E-8520-406E-A063-D11C07C38FB9

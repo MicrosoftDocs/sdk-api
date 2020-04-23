@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IHolder.AllocResource
 title: IHolder::AllocResource (comsvcs.h)
-description: Allocates a resource from the inventory.
+description: Allocates a resource from the inventory.helpviewer_keywords: ["AllocResource","AllocResource method [COM+]","AllocResource method [COM+]","IHolder interface","IHolder interface [COM+]","AllocResource method","IHolder.AllocResource","IHolder::AllocResource","_dtc_IHolder_AllocResource","comsvcs/IHolder::AllocResource","cos.iholder_allocresource"]
 old-location: cos\iholder_allocresource.htm
 tech.root: cossdk
 ms.assetid: 2b6c5d54-4917-460f-9740-abe4b578761f

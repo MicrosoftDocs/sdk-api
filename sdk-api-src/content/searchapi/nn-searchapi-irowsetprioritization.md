@@ -2,6 +2,7 @@
 UID: NN:searchapi.IRowsetPrioritization
 title: IRowsetPrioritization (searchapi.h)
 description: Sets or retrieves the current indexer prioritization level for the scope specified by this query.
+helpviewer_keywords: ["IRowsetPrioritization","IRowsetPrioritization interface [search]","IRowsetPrioritization interface [search]","described","_search_IRowsetPrioritization","search._search_IRowsetPrioritization","searchapi/IRowsetPrioritization"]
 old-location: search\_search_IRowsetPrioritization.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\irowsetprioritization.htm
@@ -141,19 +142,19 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

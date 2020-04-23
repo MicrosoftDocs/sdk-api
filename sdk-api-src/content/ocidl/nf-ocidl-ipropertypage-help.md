@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPropertyPage.Help
 title: IPropertyPage::Help (ocidl.h)
-description: Invokes the property page help in response to an end-user request.
+description: Invokes the property page help in response to an end-user request.helpviewer_keywords: ["Help","Help method [COM]","Help method [COM]","IPropertyPage interface","IPropertyPage interface [COM]","Help method","IPropertyPage.Help","IPropertyPage::Help","_ctrl_ipropertypage_help","com.ipropertypage_help","ocidl/IPropertyPage::Help"]
 old-location: com\ipropertypage_help.htm
 tech.root: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460

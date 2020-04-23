@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarNumFromParseNum
 title: VarNumFromParseNum function (oleauto.h)
-description: Converts parsed results to a variant.
+description: Converts parsed results to a variant.helpviewer_keywords: ["VTBIT_CY","VTBIT_DECIMAL","VTBIT_I1","VTBIT_I2","VTBIT_I4","VTBIT_R4","VTBIT_R8","VTBIT_UI1","VTBIT_UI2","VTBIT_UI4","VarNumFromParseNum","VarNumFromParseNum function [Automation]","_oa96_VarNumFromParseNum","automat.varnumfromparsenum","oleauto/VarNumFromParseNum"]
 old-location: automat\varnumfromparsenum.htm
 tech.root: automat
 ms.assetid: 6a01a779-ab1b-4fd5-a550-449b19358b7a

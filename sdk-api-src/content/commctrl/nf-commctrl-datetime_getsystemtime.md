@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.DateTime_GetSystemtime
 title: DateTime_GetSystemtime macro (commctrl.h)
-description: Gets the currently selected time from a date and time picker (DTP) control and places it in a specified SYSTEMTIME structure. You can use this macro, or send the DTM_GETSYSTEMTIME message explicitly.
+description: Gets the currently selected time from a date and time picker (DTP) control and places it in a specified SYSTEMTIME structure. You can use this macro, or send the DTM_GETSYSTEMTIME message explicitly.helpviewer_keywords: ["DateTime_GetSystemtime","DateTime_GetSystemtime macro [Windows Controls]","_win32_DateTime_GetSystemtime","_win32_DateTime_GetSystemtime_cpp","commctrl/DateTime_GetSystemtime","controls.DateTime_GetSystemtime","controls._win32_DateTime_GetSystemtime"]
 old-location: controls\DateTime_GetSystemtime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getsystemtime.htm

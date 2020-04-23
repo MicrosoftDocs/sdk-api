@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.Disassociate
 title: IAMDeviceRemoval::Disassociate (strmif.h)
-description: The Disassociate method disassociates the KsProxy filter from the device by closing the device handle. The Filter Graph Manager calls this method if it receives a notification that the device was removed.
+description: The Disassociate method disassociates the KsProxy filter from the device by closing the device handle. The Filter Graph Manager calls this method if it receives a notification that the device was removed.helpviewer_keywords: ["Disassociate","Disassociate method [DirectShow]","Disassociate method [DirectShow]","IAMDeviceRemoval interface","IAMDeviceRemoval interface [DirectShow]","Disassociate method","IAMDeviceRemoval.Disassociate","IAMDeviceRemoval::Disassociate","IAMDeviceRemovalDisassociate","dshow.iamdeviceremoval_disassociate","strmif/IAMDeviceRemoval::Disassociate"]
 old-location: dshow\iamdeviceremoval_disassociate.htm
 tech.root: DirectShow
 ms.assetid: cf868f5d-3ec1-4c01-9154-27420d136fe5

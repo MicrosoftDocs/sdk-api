@@ -1,7 +1,7 @@
 ---
 UID: NC:netsh.NS_HELPER_START_FN
 title: NS_HELPER_START_FN (netsh.h)
-description: Is the start function for helpers.
+description: Is the start function for helpers.helpviewer_keywords: ["NS_HELPER_START_FN","NS_HELPER_START_FN callback","NS_HELPER_START_FN callback function [NetShell]","_netsh_ns_helper_start_fn","netsh/NS_HELPER_START_FN","netshell.ns_helper_start_fn"]
 old-location: netshell\ns_helper_start_fn.htm
 tech.root: netshell
 ms.assetid: 0060feb9-3072-4a1c-9d25-4c304f60d42d

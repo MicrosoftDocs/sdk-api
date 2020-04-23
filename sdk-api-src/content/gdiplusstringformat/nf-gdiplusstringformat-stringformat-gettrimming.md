@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTrimming
 title: StringFormat::GetTrimming (gdiplusstringformat.h)
-description: The StringFormat::GetTrimming method gets an element of the StringTrimming enumeration that indicates the trimming style of this StringFormat object.
+description: The StringFormat::GetTrimming method gets an element of the StringTrimming enumeration that indicates the trimming style of this StringFormat object.helpviewer_keywords: ["GetTrimming","GetTrimming method [GDI+]","GetTrimming method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetTrimming method","StringFormat.GetTrimming","StringFormat::GetTrimming","_gdiplus_CLASS_StringFormat_GetTrimming_","gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTrimming_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettrimming.htm

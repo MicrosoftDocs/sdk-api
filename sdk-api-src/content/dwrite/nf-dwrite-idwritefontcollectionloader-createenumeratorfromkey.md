@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontCollectionLoader.CreateEnumeratorFromKey
 title: IDWriteFontCollectionLoader::CreateEnumeratorFromKey (dwrite.h)
-description: Creates a font file enumerator object that encapsulates a collection of font files. The font system calls back to this interface to create a font collection.
+description: Creates a font file enumerator object that encapsulates a collection of font files. The font system calls back to this interface to create a font collection.helpviewer_keywords: ["CreateEnumeratorFromKey","CreateEnumeratorFromKey method [Direct Write]","CreateEnumeratorFromKey method [Direct Write]","IDWriteFontCollectionLoader interface","IDWriteFontCollectionLoader interface [Direct Write]","CreateEnumeratorFromKey method","IDWriteFontCollectionLoader.CreateEnumeratorFromKey","IDWriteFontCollectionLoader::CreateEnumeratorFromKey","directwrite.IDWriteFontCollectionLoader_CreateEnumeratorFromKey","dwrite/IDWriteFontCollectionLoader::CreateEnumeratorFromKey"]
 old-location: directwrite\IDWriteFontCollectionLoader_CreateEnumeratorFromKey.htm
 tech.root: DirectWrite
 ms.assetid: 579893e8-5ef3-4e23-a139-b5c203805c5c

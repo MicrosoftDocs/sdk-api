@@ -1,7 +1,7 @@
 ---
 UID: NN:mpeg2data.IMpeg2Data
 title: IMpeg2Data (mpeg2data.h)
-description: IMpeg2Data is no longer available for use as of Windows 7.
+description: IMpeg2Data is no longer available for use as of Windows 7.helpviewer_keywords: ["IMpeg2Data","IMpeg2Data interface [Microsoft TV Technologies]","IMpeg2Data interface [Microsoft TV Technologies]","described","IMpeg2DataInterface","mpeg2data/IMpeg2Data","mstv.impeg2data"]
 old-location: mstv\impeg2data.htm
 tech.root: mstv
 ms.assetid: 82af47a2-cac4-4d4f-ba20-d4f6b5485a65

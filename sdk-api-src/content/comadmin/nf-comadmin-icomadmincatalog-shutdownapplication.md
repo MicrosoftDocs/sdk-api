@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ShutdownApplication
 title: ICOMAdminCatalog::ShutdownApplication (comadmin.h)
-description: Initiates shutdown of a COM+ server application process.
+description: Initiates shutdown of a COM+ server application process.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","ShutdownApplication method","ICOMAdminCatalog.ShutdownApplication","ICOMAdminCatalog::ShutdownApplication","ShutdownApplication","ShutdownApplication method [COM+]","ShutdownApplication method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_ShutdownApplication","comadmin/ICOMAdminCatalog::ShutdownApplication","cos.icomadmincatalog_shutdownapplication"]
 old-location: cos\icomadmincatalog_shutdownapplication.htm
 tech.root: cossdk
 ms.assetid: 79f3af18-0924-4e09-85aa-54a6886b65b3

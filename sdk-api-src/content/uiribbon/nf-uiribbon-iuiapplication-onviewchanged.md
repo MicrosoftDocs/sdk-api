@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnViewChanged
 title: IUIApplication::OnViewChanged (uiribbon.h)
-description: Called when the state of a View changes.
+description: Called when the state of a View changes.helpviewer_keywords: ["IUIApplication interface [Windows Ribbon]","OnViewChanged method","IUIApplication.OnViewChanged","IUIApplication::OnViewChanged","OnViewChanged","OnViewChanged method [Windows Ribbon]","OnViewChanged method [Windows Ribbon]","IUIApplication interface","scenicintent_IUIApplication_OnViewChanged","uiribbon/IUIApplication::OnViewChanged","windowsribbon.windowsribbon_iuiapplication_onviewchanged"]
 old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm

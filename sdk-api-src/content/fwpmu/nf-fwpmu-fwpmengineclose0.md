@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmEngineClose0
 title: FwpmEngineClose0 function (fwpmu.h)
-description: Closes a session to a filter engine.
+description: Closes a session to a filter engine.helpviewer_keywords: ["FwpmEngineClose0","FwpmEngineClose0 function [Filtering]","fwp.fwpmengineclose0_func","fwpmu/FwpmEngineClose0"]
 old-location: fwp\fwpmengineclose0_func.htm
 tech.root: fwp
 ms.assetid: e96165a8-95ad-4cb0-9f45-e8af22f83a52

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetSpreadMethod
 title: IXpsOMGradientBrush::SetSpreadMethod (xpsobjectmodel.h)
 description: Sets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region is to be rendered.
+helpviewer_keywords: ["IXpsOMGradientBrush interface [XPS Documents and Packaging]","SetSpreadMethod method","IXpsOMGradientBrush.SetSpreadMethod","IXpsOMGradientBrush::SetSpreadMethod","SetSpreadMethod","SetSpreadMethod method [XPS Documents and Packaging]","SetSpreadMethod method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","xps.ixpsomgradientbrush_setspreadmethod","xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod"]
 old-location: xps\ixpsomgradientbrush_setspreadmethod.htm
 tech.root: printdocs
 ms.assetid: 2114ba2e-95df-466e-983f-a56491bf891c
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.  The gradient region is defined by the start and end points of the gradient.
+Sets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.  The gradient region is defined by the start and end points of the gradient.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne
 
 ### -param spreadMethod [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value that describes how the area outside of the gradient region  is to be rendered. The gradient region is defined by the linear-gradient brush or radial-gradient brush that inherits this interface.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value that describes how the area outside of the gradient region  is to be rendered. The gradient region is defined by the linear-gradient brush or radial-gradient brush that inherits this interface.
 
 
 ## -returns
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <i>spreadMethod</i> parameter was not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value.
+The <i>spreadMethod</i> parameter was not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a> value.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ The <i>spreadMethod</i> parameter was not a valid <a href="https://docs.microsof
 
 
 
-For more information about different types of spread methods, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>.
+For more information about different types of spread methods, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>.
 
 
 
@@ -135,7 +136,7 @@ For more information about different types of spread methods, see <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_spread_method">XPS_SPREAD_METHOD</a>
  
 
  

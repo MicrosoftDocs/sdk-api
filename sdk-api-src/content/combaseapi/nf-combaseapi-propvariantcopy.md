@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.PropVariantCopy
 title: PropVariantCopy function (combaseapi.h)
-description: The PropVariantCopy function copies the contents of one PROPVARIANT structure to another.
+description: The PropVariantCopy function copies the contents of one PROPVARIANT structure to another.helpviewer_keywords: ["PropVariantCopy","PropVariantCopy function [Structured Storage]","_stg_propvariantcopy","combaseapi/PropVariantCopy","stg.propvariantcopy"]
 old-location: stg\propvariantcopy.htm
 tech.root: Stg
 ms.assetid: ee97d3b2-4dec-43c3-b38d-29edc775b82a

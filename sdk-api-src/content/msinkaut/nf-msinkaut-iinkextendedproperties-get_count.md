@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.get_Count
 title: IInkExtendedProperties::get_Count (msinkaut.h)
-description: Gets the number of objects or collections contained in a collection.
+description: Gets the number of objects or collections contained in a collection.helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkExtendedProperties interface","IInkExtendedProperties interface [Tablet PC]","Count property","IInkExtendedProperties.Count","IInkExtendedProperties.get_Count","IInkExtendedProperties::Count","IInkExtendedProperties::get_Count","get_Count","msinkaut/IInkExtendedProperties::Count","msinkaut/IInkExtendedProperties::get_Count","tablet.iinkextendedproperties_count"]
 old-location: tablet\iinkextendedproperties_count.htm
 tech.root: tablet
 ms.assetid: 8b75ba1a-ab31-4d54-b997-86dd3445fd79

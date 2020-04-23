@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetDoubleStrike
 title: ITextFont2::GetDoubleStrike (tom.h)
-description: Gets whether characters are displayed with double horizontal lines through the center.
+description: Gets whether characters are displayed with double horizontal lines through the center.helpviewer_keywords: ["GetDoubleStrike","GetDoubleStrike method [Windows Controls]","GetDoubleStrike method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetDoubleStrike method","ITextFont2.GetDoubleStrike","ITextFont2::GetDoubleStrike","controls.itextfont2_getdoublestrike","tom/ITextFont2::GetDoubleStrike"]
 old-location: controls\itextfont2_getdoublestrike.htm
 tech.root: Controls
 ms.assetid: 9e599c29-4b47-4043-b9c7-75a736ca64fa

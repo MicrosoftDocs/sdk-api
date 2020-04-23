@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteFrame
 title: IWICImageEncoder::WriteFrame (wincodec.h)
-description: Encodes the image to the frame given by the IWICBitmapFrameEncode.
+description: Encodes the image to the frame given by the IWICBitmapFrameEncode.helpviewer_keywords: ["IWICImageEncoder interface [Windows Imaging Component]","WriteFrame method","IWICImageEncoder.WriteFrame","IWICImageEncoder::WriteFrame","WriteFrame","WriteFrame method [Windows Imaging Component]","WriteFrame method [Windows Imaging Component]","IWICImageEncoder interface","wic.iwicimageencoder_writeframe","wincodec/IWICImageEncoder::WriteFrame"]
 old-location: wic\iwicimageencoder_writeframe.htm
 tech.root: wic
 ms.assetid: 08CD0CE4-5948-4A8F-AA96-9A2BF43EC6D3

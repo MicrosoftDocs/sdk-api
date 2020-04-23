@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_TILED_RESOURCES_TIER
 title: D3D12_TILED_RESOURCES_TIER (d3d12.h)
-description: Identifies the tier level at which tiled resources are supported.
+description: Identifies the tier level at which tiled resources are supported.helpviewer_keywords: ["D3D12_TILED_RESOURCES_TIER","D3D12_TILED_RESOURCES_TIER enumeration","D3D12_TILED_RESOURCES_TIER_1","D3D12_TILED_RESOURCES_TIER_2","D3D12_TILED_RESOURCES_TIER_3","D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED","d3d12/D3D12_TILED_RESOURCES_TIER","d3d12/D3D12_TILED_RESOURCES_TIER_1","d3d12/D3D12_TILED_RESOURCES_TIER_2","d3d12/D3D12_TILED_RESOURCES_TIER_3","d3d12/D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED","direct3d12.d3d12_tiled_resources_tier"]
 old-location: direct3d12\d3d12_tiled_resources_tier.htm
 tech.root: direct3d12
 ms.assetid: ADBA96C3-BD9E-4F12-89C8-371F6F7D369D

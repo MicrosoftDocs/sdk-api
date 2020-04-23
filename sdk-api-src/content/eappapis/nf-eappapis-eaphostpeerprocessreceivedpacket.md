@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerProcessReceivedPacket
 title: EapHostPeerProcessReceivedPacket function (eappapis.h)
 description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.
+helpviewer_keywords: ["EapHostPeerProcessReceivedPacket","EapHostPeerProcessReceivedPacket function [EAPHost]","eaphost.eaphostpeerprocessreceivedpacket","eappapis/EapHostPeerProcessReceivedPacket"]
 old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
 tech.root: eaphost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
@@ -77,7 +78,7 @@ A pointer to a buffer that contains the incoming EAP data received by
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> value that indicates the supplicant should take appropriate action. Typically the supplicant either calls 
+A pointer to an <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> value that indicates the supplicant should take appropriate action. Typically the supplicant either calls 
       another method on EAPHost or acts  on its own.
 
 
@@ -91,7 +92,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
  
 
  

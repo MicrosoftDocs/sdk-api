@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IMenuButton
 title: IMenuButton (mmc.h)
-description: The IMenuButton interface enables the user to add and manage menu buttons for a snap-in.
+description: The IMenuButton interface enables the user to add and manage menu buttons for a snap-in.helpviewer_keywords: ["IMenuButton","IMenuButton interface [MMC]","IMenuButton interface [MMC]","described","_slate_imenubutton","mmc.imenubutton","mmc/IMenuButton"]
 old-location: mmc\imenubutton.htm
 tech.root: mmc
 ms.assetid: 51bbd98a-7017-497a-858a-dd63cefc679a

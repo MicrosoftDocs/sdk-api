@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMC_PEND_INFO
 title: CMC_PEND_INFO (wincrypt.h)
-description: A possible member of a CMC_STATUS_INFO structure.
+description: A possible member of a CMC_STATUS_INFO structure.helpviewer_keywords: ["*PCMC_PEND_INFO","CMC_PEND_INFO","CMC_PEND_INFO structure [Security]","PCMC_PEND_INFO","PCMC_PEND_INFO structure pointer [Security]","_crypto2_cmc_pend_info","security.cmc_pend_info","wincrypt/CMC_PEND_INFO","wincrypt/PCMC_PEND_INFO"]
 old-location: security\cmc_pend_info.htm
 tech.root: SecCrypto
 ms.assetid: ac3dcd19-caed-4453-bac7-55ffa3a02f54

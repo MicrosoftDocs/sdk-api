@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_SetBitmapMargin
 title: Header_SetBitmapMargin macro (commctrl.h)
-description: Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the HDM_SETBITMAPMARGIN message explicitly.
+description: Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the HDM_SETBITMAPMARGIN message explicitly.helpviewer_keywords: ["Header_SetBitmapMargin","Header_SetBitmapMargin macro [Windows Controls]","_win32_Header_SetBitmapMargin","_win32_Header_SetBitmapMargin_cpp","commctrl/Header_SetBitmapMargin","controls.Header_SetBitmapMargin","controls._win32_Header_SetBitmapMargin"]
 old-location: controls\Header_SetBitmapMargin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm

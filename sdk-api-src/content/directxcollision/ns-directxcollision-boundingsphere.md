@@ -1,7 +1,7 @@
 ---
 UID: NS:directxcollision.BoundingSphere
 title: BoundingSphere
-description: A bounding sphere object.
+description: A bounding sphere object.helpviewer_keywords: ["BoundingSphere","BoundingSphere structure [DirectX Math Support APIs]","directxcollision/BoundingSphere","dxmath.boundingsphere"]
 old-location: dxmath\boundingsphere.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingSphere

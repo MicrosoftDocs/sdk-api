@@ -1,7 +1,7 @@
 ---
 UID: NN:callobj.ICallInterceptor
 title: ICallInterceptor (callobj.h)
-description: Supports the registration and un-registering of event sinks wishing to be notified of calls made directly on the interface.
+description: Supports the registration and un-registering of event sinks wishing to be notified of calls made directly on the interface.helpviewer_keywords: ["ICallInterceptor","ICallInterceptor interface [COM]","ICallInterceptor interface [COM]","described","_com_icallinterceptor_interface","callobj/ICallInterceptor","com.icallinterceptor"]
 old-location: com\icallinterceptor.htm
 tech.root: com
 ms.assetid: d0a72c87-598b-4ebe-bc93-65e0927a4c3d

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSolidColorBrush
 title: IXpsOMObjectFactory::CreateSolidColorBrush (xpsobjectmodel.h)
 description: Creates an IXpsOMSolidColorBrush interface, which specifies a brush of a single, solid color.
+helpviewer_keywords: ["CreateSolidColorBrush","CreateSolidColorBrush method [XPS Documents and Packaging]","CreateSolidColorBrush method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateSolidColorBrush method","IXpsOMObjectFactory.CreateSolidColorBrush","IXpsOMObjectFactory::CreateSolidColorBrush","xps.ixpsomobjectfactory_createsolidcolorbrush","xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush"]
 old-location: xps\ixpsomobjectfactory_createsolidcolorbrush.htm
 tech.root: printdocs
 ms.assetid: 58690d93-9e3f-487c-956e-bb21122ecc96
@@ -66,7 +67,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd3729
 
 ### -param colorProfile [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface. Unless the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, this value must be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface. Unless the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, this value must be <b>NULL</b>.
 
 
 ### -param solidColorBrush [out, retval]
@@ -114,7 +115,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> when a color profile  is expected. A color profile is required when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> when a color profile  is expected. A color profile is required when the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -136,7 +137,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> contains a color profile when one is not expected. A color profile is required only when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> contains a color profile when one is not expected. A color profile is required only when the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>

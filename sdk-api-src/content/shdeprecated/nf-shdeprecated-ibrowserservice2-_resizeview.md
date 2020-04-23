@@ -2,6 +2,7 @@
 UID: NF:shdeprecated.IBrowserService2._ResizeView
 title: IBrowserService2::_ResizeView (shdeprecated.h)
 description: Deprecated. Calls IBrowserService2::_UpdateViewRectSize, then updates the browser view by using IOleInPlaceActiveObject::ResizeBorder.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_ResizeView method","IBrowserService2._ResizeView","IBrowserService2::_ResizeView","_ResizeView","_ResizeView method [Windows Shell]","_ResizeView method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_ResizeView","shell.IBrowserService2__ResizeView","zone_IBrowserService2__ResizeView"]
 old-location: shell\IBrowserService2__ResizeView.htm
 tech.root: shell
 ms.assetid: 12b38906-f22a-490d-9b2f-192eb43a8305
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Calls <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">IOleInPlaceActiveObject::ResizeBorder</a>.
+Deprecated. Calls <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">IOleInPlaceActiveObject::ResizeBorder</a>.
 
 
 ## -parameters

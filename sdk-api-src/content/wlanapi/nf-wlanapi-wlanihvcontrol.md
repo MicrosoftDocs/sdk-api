@@ -2,6 +2,7 @@
 UID: NF:wlanapi.WlanIhvControl
 title: WlanIhvControl function (wlanapi.h)
 description: Provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
+helpviewer_keywords: ["WlanIhvControl","WlanIhvControl function [NativeWIFI]","nwifi.wlanihvcontrol","wlanapi/WlanIhvControl"]
 old-location: nwifi\wlanihvcontrol.htm
 tech.root: NativeWiFi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
@@ -70,7 +71,7 @@ The GUID of the interface.
 
 ### -param Type [in]
 
- A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function. 
+ A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function. 
 
 
 ### -param dwInBufferSize [in]
@@ -177,7 +178,7 @@ Various error codes.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a>
  
 
  

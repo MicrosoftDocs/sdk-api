@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent.WriteFailure
 title: IMSVidStreamBufferSinkEvent::WriteFailure (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.
+description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies]","WriteFailure method","IMSVidStreamBufferSinkEvent.WriteFailure","IMSVidStreamBufferSinkEvent::WriteFailure","IMSVidStreamBufferSinkEventWriteFailure","WriteFailure","WriteFailure method [Microsoft TV Technologies]","WriteFailure method [Microsoft TV Technologies]","IMSVidStreamBufferSinkEvent interface","mstv.imsvidstreambuffersinkevent_writefailure","segment/IMSVidStreamBufferSinkEvent::WriteFailure"]
 old-location: mstv\imsvidstreambuffersinkevent_writefailure.htm
 tech.root: mstv
 ms.assetid: 6aec07e1-57b9-4350-a48f-762fcf370d6a

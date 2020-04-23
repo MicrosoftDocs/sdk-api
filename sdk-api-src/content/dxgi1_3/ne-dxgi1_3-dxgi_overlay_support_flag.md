@@ -1,7 +1,7 @@
 ---
 UID: NE:dxgi1_3.DXGI_OVERLAY_SUPPORT_FLAG
 title: DXGI_OVERLAY_SUPPORT_FLAG (dxgi1_3.h)
-description: Specifies overlay support to check for in a call to IDXGIOutput3::CheckOverlaySupport.
+description: Specifies overlay support to check for in a call to IDXGIOutput3::CheckOverlaySupport.helpviewer_keywords: ["DXGI_OVERLAY_SUPPORT_FLAG","DXGI_OVERLAY_SUPPORT_FLAG enumeration [DXGI]","DXGI_OVERLAY_SUPPORT_FLAG_DIRECT","DXGI_OVERLAY_SUPPORT_FLAG_SCALING","direct3ddxgi.dxgi_overlay_support_flag","dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG","dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_DIRECT","dxgi1_3/DXGI_OVERLAY_SUPPORT_FLAG_SCALING"]
 old-location: direct3ddxgi\dxgi_overlay_support_flag.htm
 tech.root: direct3ddxgi
 ms.assetid: D2657A18-1F95-485A-A76E-381413CEB7B8

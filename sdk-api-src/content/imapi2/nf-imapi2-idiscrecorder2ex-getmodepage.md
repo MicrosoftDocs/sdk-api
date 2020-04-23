@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetModePage
 title: IDiscRecorder2Ex::GetModePage (imapi2.h)
-description: Retrieves the specified mode page from the device.
+description: Retrieves the specified mode page from the device.helpviewer_keywords: ["GetModePage","GetModePage method [IMAPI]","GetModePage method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetModePage method","IDiscRecorder2Ex.GetModePage","IDiscRecorder2Ex::GetModePage","imapi.idiscrecorder2ex_getmodepage","imapi2/IDiscRecorder2Ex::GetModePage"]
 old-location: imapi\idiscrecorder2ex_getmodepage.htm
 tech.root: imapi
 ms.assetid: 69e163a6-943d-4626-8120-778c9ca1777f

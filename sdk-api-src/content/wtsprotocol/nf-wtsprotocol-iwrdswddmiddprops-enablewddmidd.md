@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.EnableWddmIdd
 title: IWRdsWddmIddProps::EnableWddmIdd (wtsprotocol.h)
-description: Termsrv uses this method to tell protocol stack which mode it is operating.
+description: Termsrv uses this method to tell protocol stack which mode it is operating.helpviewer_keywords: ["EnableWddmIdd","EnableWddmIdd method [Remote Desktop Services]","EnableWddmIdd method [Remote Desktop Services]","IWRdsWddmIddProps interface","IWRdsWddmIddProps interface [Remote Desktop Services]","EnableWddmIdd method","IWRdsWddmIddProps.EnableWddmIdd","IWRdsWddmIddProps::EnableWddmIdd","termserv.iwrdswddmiddprops_enablewddmidd","wtsprotocol/IWRdsWddmIddProps::EnableWddmIdd"]
 old-location: termserv\iwrdswddmiddprops_enablewddmidd.htm
 tech.root: TermServ
 ms.assetid: 19F07236-6F9C-49F0-B100-E02F9DBF54F7

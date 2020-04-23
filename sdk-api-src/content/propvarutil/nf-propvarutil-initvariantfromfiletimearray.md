@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitVariantFromFileTimeArray
 title: InitVariantFromFileTimeArray function (propvarutil.h)
-description: Initializes a VARIANT structure with an array of FILETIME structures.
+description: Initializes a VARIANT structure with an array of FILETIME structures.helpviewer_keywords: ["InitVariantFromFileTimeArray","InitVariantFromFileTimeArray function [Windows Properties]","_shell_InitVariantFromFileTimeArray","properties.InitVariantFromFileTimeArray","propvarutil/InitVariantFromFileTimeArray","shell.InitVariantFromFileTimeArray"]
 old-location: properties\InitVariantFromFileTimeArray.htm
 tech.root: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45

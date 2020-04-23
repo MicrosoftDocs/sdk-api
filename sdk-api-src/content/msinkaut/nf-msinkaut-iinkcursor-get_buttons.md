@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Buttons
 title: IInkCursor::get_Buttons (msinkaut.h)
-description: Gets the IInkCursorButtons collection that is available on an IInkCursor.
+description: Gets the IInkCursorButtons collection that is available on an IInkCursor.helpviewer_keywords: ["21ea5b71-390e-448f-becc-1e3bb7015ed9","Buttons property [Tablet PC]","Buttons property [Tablet PC]","IInkCursor interface","IInkCursor interface [Tablet PC]","Buttons property","IInkCursor.Buttons","IInkCursor.get_Buttons","IInkCursor::Buttons","IInkCursor::get_Buttons","get_Buttons","msinkaut/IInkCursor::Buttons","msinkaut/IInkCursor::get_Buttons","tablet.iinkcursor_buttons"]
 old-location: tablet\iinkcursor_buttons.htm
 tech.root: tablet
 ms.assetid: 21ea5b71-390e-448f-becc-1e3bb7015ed9

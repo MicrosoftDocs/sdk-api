@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsPack.QueryDisks
 title: IVdsPack::QueryDisks (vds.h)
-description: Returns an object that enumerates the disks in the pack.
+description: Returns an object that enumerates the disks in the pack.helpviewer_keywords: ["IVdsPack interface [VDS]","QueryDisks method","IVdsPack.QueryDisks","IVdsPack::QueryDisks","QueryDisks","QueryDisks method [VDS]","QueryDisks method [VDS]","IVdsPack interface","base.ivdspack_querydisks","vds/IVdsPack::QueryDisks"]
 old-location: base\ivdspack_querydisks.htm
 tech.root: VDS
 ms.assetid: 115c1900-5fea-4e39-be3e-b6d04ceb8a58

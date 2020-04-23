@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetDefaultSensorDeviceIndex
 title: IMFSensorGroup::GetDefaultSensorDeviceIndex (mfidl.h)
-description: Retrieves the index of the default device in the sensor group.
+description: Retrieves the index of the default device in the sensor group.helpviewer_keywords: ["GetDefaultSensorDeviceIndex","GetDefaultSensorDeviceIndex method [Media Foundation]","GetDefaultSensorDeviceIndex method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","GetDefaultSensorDeviceIndex method","IMFSensorGroup.GetDefaultSensorDeviceIndex","IMFSensorGroup::GetDefaultSensorDeviceIndex","mf.imfsensorgroup_getdefaultsensordeviceindex","mfidl/IMFSensorGroup::GetDefaultSensorDeviceIndex"]
 old-location: mf\imfsensorgroup_getdefaultsensordeviceindex.htm
 tech.root: medfound
 ms.assetid: E82A83F7-E984-4353-8CED-E3B5EE28EB3D

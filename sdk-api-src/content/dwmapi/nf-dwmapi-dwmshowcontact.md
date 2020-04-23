@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmShowContact
 title: DwmShowContact function (dwmapi.h)
-description: Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.
+description: Called by an app or framework to specify the visual feedback type to draw in response to a particular touch or pen contact.helpviewer_keywords: ["DWMSC_ALL","DWMSC_DOWN","DWMSC_DRAG","DWMSC_HOLD","DWMSC_NONE","DWMSC_PENBARREL","DWMSC_UP","DwmShowContact","DwmShowContact function [Desktop Window Manager]","dwm.DwmShowContact","dwmapi/DwmShowContact"]
 old-location: dwm\DwmShowContact.htm
 tech.root: dwm
 ms.assetid: E9C302AA-D622-483d-83AC-0D0D7D23719E

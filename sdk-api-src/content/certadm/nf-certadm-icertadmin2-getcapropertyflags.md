@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAPropertyFlags
 title: ICertAdmin2::GetCAPropertyFlags (certadm.h)
-description: The ICertAdmin2::GetCAPropertyFlags method retrieves the property flags for a certification authority (CA) property.
+description: The ICertAdmin2::GetCAPropertyFlags method retrieves the property flags for a certification authority (CA) property.helpviewer_keywords: ["CCertAdmin2 object [Security]","GetCAPropertyFlags method","GetCAPropertyFlags","GetCAPropertyFlags method [Security]","GetCAPropertyFlags method [Security]","CCertAdmin2 object","GetCAPropertyFlags method [Security]","ICertAdmin2 interface","ICertAdmin2 interface [Security]","GetCAPropertyFlags method","ICertAdmin2.GetCAPropertyFlags","ICertAdmin2::GetCAPropertyFlags","_certsrv_icertadmin2_getcapropertyflags","certadm/ICertAdmin2::GetCAPropertyFlags","security.icertadmin2_getcapropertyflags"]
 old-location: security\icertadmin2_getcapropertyflags.htm
 tech.root: SecCrypto
 ms.assetid: 6f38bea1-e278-4085-b321-05f6765cc676

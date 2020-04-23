@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.ISelectionProvider
 title: ISelectionProvider (uiautomationcore.h)
-description: Provides access to controls that act as containers for a collection of individual, selectable child items.
+description: Provides access to controls that act as containers for a collection of individual, selectable child items.helpviewer_keywords: ["ISelectionProvider","ISelectionProvider interface [Windows Accessibility]","ISelectionProvider interface [Windows Accessibility]","described","uiauto.uiauto_ISelectionProvider","uiauto_ISelectionProvider","uiautomationcore/ISelectionProvider","winauto.uiauto_ISelectionProvider"]
 old-location: winauto\uiauto_ISelectionProvider.htm
 tech.root: WinAuto
 ms.assetid: e02731f8-e58d-4c66-95bf-005cf954471c

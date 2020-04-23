@@ -1,7 +1,7 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Format
 title: IMsmConfigurableItem::get_Format (mergemod.h)
-description: The get_Format method retrieves the Format property of the ConfigurableItem object.
+description: The get_Format method retrieves the Format property of the ConfigurableItem object.helpviewer_keywords: ["IMsmConfigurableItem interface","get_Format method","IMsmConfigurableItem.get_Format","IMsmConfigurableItem::get_Format","_msi_get_format_function","get_Format","get_Format method","get_Format method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Format","setup.imsmconfigurableitem_get_format"]
 old-location: setup\imsmconfigurableitem_get_format.htm
 tech.root: Msi
 ms.assetid: 85db7d8b-e3f2-4a7a-840f-2d690aa82917

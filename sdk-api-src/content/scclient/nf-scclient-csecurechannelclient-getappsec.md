@@ -1,7 +1,7 @@
 ---
 UID: NF:scclient.CSecureChannelClient.GetAppSec
 title: CSecureChannelClient::GetAppSec (scclient.h)
-description: The GetAppSec method retrieves the application security levels of the local and remote components.
+description: The GetAppSec method retrieves the application security levels of the local and remote components.helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","GetAppSec method","CSecureChannelClient.GetAppSec","CSecureChannelClient::GetAppSec","CSecureChannelClientGetAppSec","GetAppSec","GetAppSec method [windows Media Device Manager]","GetAppSec method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::GetAppSec","wmdm.csecurechannelclient_getappsec"]
 old-location: wmdm\csecurechannelclient_getappsec.htm
 tech.root: WMDM
 ms.assetid: 69de42ad-293f-4c5a-8c5d-ada686fa68b2

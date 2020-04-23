@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.MCIWndGetError
 title: MCIWndGetError macro (vfw.h)
-description: The MCIWndGetError macro retrieves the last MCI error encountered. You can use this macro or explicitly send the MCIWNDM_GETERROR message.
+description: The MCIWndGetError macro retrieves the last MCI error encountered. You can use this macro or explicitly send the MCIWNDM_GETERROR message.helpviewer_keywords: ["MCIWndGetError","MCIWndGetError macro [Windows Multimedia]","_win32_MCIWndGetError","multimedia.mciwndgeterror","vfw/MCIWndGetError"]
 old-location: multimedia\mciwndgeterror.htm
 tech.root: Multimedia
 ms.assetid: 67cbd522-2409-4eeb-b62b-d78f8caea349

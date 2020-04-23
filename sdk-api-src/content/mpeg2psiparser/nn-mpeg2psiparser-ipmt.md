@@ -1,7 +1,7 @@
 ---
 UID: NN:mpeg2psiparser.IPMT
 title: IPMT (mpeg2psiparser.h)
-description: The IPMT interface enables the client to get information from a program map table (PMT).
+description: The IPMT interface enables the client to get information from a program map table (PMT).helpviewer_keywords: ["IPMT","IPMT interface [Microsoft TV Technologies]","IPMT interface [Microsoft TV Technologies]","described","IPMTInterface","mpeg2psiparser/IPMT","mstv.ipmt"]
 old-location: mstv\ipmt.htm
 tech.root: mstv
 ms.assetid: 0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24

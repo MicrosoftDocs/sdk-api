@@ -1,7 +1,7 @@
 ---
 UID: NS:windows.media.streaming.PlaySpeed
 title: PlaySpeed (windows.media.streaming.h)
-description: Represents a playback speed as a rational number.
+description: Represents a playback speed as a rational number.helpviewer_keywords: ["PlaySpeed","PlaySpeed structure [Media Streaming API]","mediastreaming.playspeed","windows/PlaySpeed"]
 old-location: mediastreaming\playspeed.htm
 tech.root: mediastreaming
 ms.assetid: 29b58229-8236-4c93-a6b4-ed09d1aca9db

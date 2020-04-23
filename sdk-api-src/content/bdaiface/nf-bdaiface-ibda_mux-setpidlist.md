@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_MUX.SetPidList
 title: IBDA_MUX::SetPidList (bdaiface.h)
-description: Sets the list of packet identifiers (PIDs) that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
+description: Sets the list of packet identifiers (PIDs) that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.helpviewer_keywords: ["IBDA_MUX interface [Microsoft TV Technologies]","SetPidList method","IBDA_MUX.SetPidList","IBDA_MUX::SetPidList","SetPidList","SetPidList method [Microsoft TV Technologies]","SetPidList method [Microsoft TV Technologies]","IBDA_MUX interface","bdaiface/IBDA_MUX::SetPidList","mstv.ibda_mux_setpidlist"]
 old-location: mstv\ibda_mux_setpidlist.htm
 tech.root: mstv
 ms.assetid: 2d77086c-2321-434d-bf24-b4eac395825b

@@ -1,7 +1,7 @@
 ---
 UID: NF:msiquery.MsiViewGetColumnInfo
 title: MsiViewGetColumnInfo function (msiquery.h)
-description: The MsiViewGetColumnInfo function returns a record containing column names or definitions. This function returns a handle that should be closed using MsiCloseHandle.
+description: The MsiViewGetColumnInfo function returns a record containing column names or definitions. This function returns a handle that should be closed using MsiCloseHandle.helpviewer_keywords: ["MSICOLINFO_NAMES","MSICOLINFO_TYPES","MsiViewGetColumnInfo","MsiViewGetColumnInfo function","_msi_msiviewgetcolumninfo","msiquery/MsiViewGetColumnInfo","setup.msiviewgetcolumninfo"]
 old-location: setup\msiviewgetcolumninfo.htm
 tech.root: Msi
 ms.assetid: f1b8e24c-ac90-4a25-a1d1-c005c403dffc

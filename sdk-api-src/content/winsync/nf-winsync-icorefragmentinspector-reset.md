@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ICoreFragmentInspector.Reset
 title: ICoreFragmentInspector::Reset (winsync.h)
-description: Resets the enumerator to the beginning of the knowledge.
+description: Resets the enumerator to the beginning of the knowledge.helpviewer_keywords: ["ICoreFragmentInspector interface [Windows Sync]","Reset method","ICoreFragmentInspector.Reset","ICoreFragmentInspector::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","ICoreFragmentInspector interface","winsync.icorefragmentinspector_reset","winsync/ICoreFragmentInspector::Reset"]
 old-location: winsync\icorefragmentinspector_reset.htm
 tech.root: winsync
 ms.assetid: 57621ce0-c484-4687-9f2f-98d285b041ca

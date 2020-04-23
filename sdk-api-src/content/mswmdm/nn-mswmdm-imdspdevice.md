@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.IMDSPDevice
 title: IMDSPDevice (mswmdm.h)
-description: The IMDSPDevice interface provides an instance-based association with a media device.
+description: The IMDSPDevice interface provides an instance-based association with a media device.helpviewer_keywords: ["IMDSPDevice","IMDSPDevice interface [windows Media Device Manager]","IMDSPDevice interface [windows Media Device Manager]","described","IMDSPDeviceInterface","mswmdm/IMDSPDevice","wmdm.imdspdevice"]
 old-location: wmdm\imdspdevice.htm
 tech.root: WMDM
 ms.assetid: 98f16547-4d8a-4422-ba08-c3c678142492

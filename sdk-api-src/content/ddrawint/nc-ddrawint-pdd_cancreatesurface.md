@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_CANCREATESURFACE
 title: PDD_CANCREATESURFACE (ddrawint.h)
-description: The CanCreateD3DBuffer callback function determines whether the driver can create a driver-level command or vertex buffer of the specified description.
+description: The CanCreateD3DBuffer callback function determines whether the driver can create a driver-level command or vertex buffer of the specified description.helpviewer_keywords: ["CanCreateD3DBuffer","CanCreateD3DBuffer callback function [Display Devices]","PDD_CANCREATESURFACE","PDD_CANCREATESURFACE callback","d3dfncs_c13b55de-ef44-4535-959c-dd61bfc3df10.xml","ddrawint/CanCreateD3DBuffer","display.cancreated3dbuffer"]
 old-location: display\cancreated3dbuffer.htm
 tech.root: display
 ms.assetid: 94aace9f-0927-4b33-a9ea-79c27d5edea9

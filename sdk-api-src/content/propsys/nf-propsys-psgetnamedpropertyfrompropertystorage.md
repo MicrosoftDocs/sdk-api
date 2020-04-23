@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSGetNamedPropertyFromPropertyStorage
 title: PSGetNamedPropertyFromPropertyStorage function (propsys.h)
-description: Gets a value from serialized property storage by property name.
+description: Gets a value from serialized property storage by property name.helpviewer_keywords: ["PSGetNamedPropertyFromPropertyStorage","PSGetNamedPropertyFromPropertyStorage function [Windows Properties]","_shell_PSGetNamedPropertyFromPropertyStorage","properties.PSGetNamedPropertyFromPropertyStorage","propsys/PSGetNamedPropertyFromPropertyStorage","shell.PSGetNamedPropertyFromPropertyStorage"]
 old-location: properties\PSGetNamedPropertyFromPropertyStorage.htm
 tech.root: properties
 ms.assetid: bb4eedc0-9ef5-46f2-83e5-340b77b3d876

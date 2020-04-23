@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.AddAccessEntry
 title: IWMAddressAccess::AddAccessEntry (wmsdkidl.h)
-description: The AddAccessEntry method adds an entry to the IP address access list.
+description: The AddAccessEntry method adds an entry to the IP address access list.helpviewer_keywords: ["AddAccessEntry","AddAccessEntry method [windows Media Format]","AddAccessEntry method [windows Media Format]","IWMAddressAccess interface","IWMAddressAccess interface [windows Media Format]","AddAccessEntry method","IWMAddressAccess.AddAccessEntry","IWMAddressAccess::AddAccessEntry","IWMAddressAccessAddAccessEntry","wmformat.iwmaddressaccess_addaccessentry","wmsdkidl/IWMAddressAccess::AddAccessEntry"]
 old-location: wmformat\iwmaddressaccess_addaccessentry.htm
 tech.root: wmformat
 ms.assetid: 670bea6a-0370-4dc4-a2af-fcdbe2a6656a

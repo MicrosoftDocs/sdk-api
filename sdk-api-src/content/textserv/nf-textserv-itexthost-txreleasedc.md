@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxReleaseDC
 title: ITextHost::TxReleaseDC (textserv.h)
-description: Releases the device context obtained by the ITextHost::TxGetDC method.
+description: Releases the device context obtained by the ITextHost::TxGetDC method.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxReleaseDC method","ITextHost.TxReleaseDC","ITextHost::TxReleaseDC","TxReleaseDC","TxReleaseDC method [Windows Controls]","TxReleaseDC method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxReleaseDC","_win32_ITextHost_TxReleaseDC_cpp","controls.ITextHost_TxReleaseDC","controls._win32_ITextHost_TxReleaseDC","textserv/ITextHost::TxReleaseDC"]
 old-location: controls\ITextHost_TxReleaseDC.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxreleasedc.htm

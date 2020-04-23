@@ -2,6 +2,7 @@
 UID: NS:cryptxml._CRYPT_XML_KEYINFO_PARAM
 title: CRYPT_XML_KEYINFO_PARAM (cryptxml.h)
 description: Is used by the CryptXmlSign function to specify the members of the KeyInfo element to be encoded.
+helpviewer_keywords: ["CRYPT_XML_KEYINFO_PARAM","CRYPT_XML_KEYINFO_PARAM structure [Security]","cryptxml/CRYPT_XML_KEYINFO_PARAM","security.crypt_xml_keyinfo_param"]
 old-location: security\crypt_xml_keyinfo_param.htm
 tech.root: SecCrypto
 ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5
@@ -69,7 +70,7 @@ A pointer to a null-terminated wide character string that contains the value in 
 
 ### -field SKI
 
-A <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structure that contains the value of the <b>X509SKI</b> element.
+A <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structure that contains the value of the <b>X509SKI</b> element.
 
 
 ### -field wszSubjectName
@@ -84,7 +85,7 @@ The number of elements in the array pointed to by the <b>rgCertificate</b> membe
 
 ### -field rgCertificate
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structures that are used to populate the <b>X509Certificate</b> elements.
+A pointer to an array of <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structures that are used to populate the <b>X509Certificate</b> elements.
 
 
 ### -field cCRL
@@ -94,5 +95,5 @@ The number of elements in the array pointed to by the <b>rgCRL</b> member.
 
 ### -field rgCRL
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structures that are used to populate the <b>X509CRL</b> elements.
+A pointer to an array of <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_BLOB</a> structures that are used to populate the <b>X509CRL</b> elements.
 

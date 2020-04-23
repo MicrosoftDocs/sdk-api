@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IMPEG2TuneRequestSupport
 title: IMPEG2TuneRequestSupport
-description: Indicates that the default network provider for a tuning space allows tuning through the IMPEG2TuneRequest interface as well as tuning through the native tuning request type implemented by that tuning space's CreateTuneRequest method.
+description: Indicates that the default network provider for a tuning space allows tuning through the IMPEG2TuneRequest interface as well as tuning through the native tuning request type implemented by that tuning space's CreateTuneRequest method.helpviewer_keywords: ["IMPEG2TuneRequestSupport","IMPEG2TuneRequestSupport interface [Microsoft TV Technologies]","IMPEG2TuneRequestSupport interface [Microsoft TV Technologies]","described","mstv.impeg2tunerequestsupport","tuner/IMPEG2TuneRequestSupport"]
 old-location: mstv\impeg2tunerequestsupport.htm
 tech.root: mstv
 ms.assetid: 22ba436f-8ccf-4f78-b33c-2328bd495df6

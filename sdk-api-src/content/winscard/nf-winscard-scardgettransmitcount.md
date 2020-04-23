@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardGetTransmitCount
 title: SCardGetTransmitCount function (winscard.h)
-description: Retrieves the number of transmit operations that have completed since the specified card reader was inserted.
+description: Retrieves the number of transmit operations that have completed since the specified card reader was inserted.helpviewer_keywords: ["SCardGetTransmitCount","SCardGetTransmitCount function [Security]","security.scardgettransmitcount","winscard/SCardGetTransmitCount"]
 old-location: security\scardgettransmitcount.htm
 tech.root: SecAuthN
 ms.assetid: 13857fc3-374d-4ba5-b4ca-e523b323974c

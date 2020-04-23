@@ -2,6 +2,7 @@
 UID: NF:mspcall.CMSPCallBase.HandleStreamEvent
 title: CMSPCallBase::HandleStreamEvent (mspcall.h)
 description: The HandleStreamEvent method is called by a stream to send an event to TAPI.
+helpviewer_keywords: ["CMSPCallBase interface [TAPI 2.2]","HandleStreamEvent method","CMSPCallBase.HandleStreamEvent","CMSPCallBase::HandleStreamEvent","HandleStreamEvent","HandleStreamEvent method [TAPI 2.2]","HandleStreamEvent method [TAPI 2.2]","CMSPCallBase interface","_tapi3_cmspcallbase_handlestreamevent","mspcall/CMSPCallBase::HandleStreamEvent","tapi3.cmspcallbase_handlestreamevent"]
 old-location: tapi3\cmspcallbase_handlestreamevent.htm
 tech.root: Tapi
 ms.assetid: 196f6b18-0de7-463b-9b0f-7b4d666e7470
@@ -62,7 +63,7 @@ The
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/ns-mspaddr-mspeventitem">MSPEVENTITEM</a>, a struct containing a linked list of 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structures.
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structures.
 
 
 ## -see-also

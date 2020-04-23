@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStream.Stat
 title: IStream::Stat (objidl.h)
-description: The Stat method retrieves the STATSTG structure for this stream.
+description: The Stat method retrieves the STATSTG structure for this stream.helpviewer_keywords: ["IStream interface [Structured Storage]","Stat method","IStream.Stat","IStream::Stat","Stat","Stat method [Structured Storage]","Stat method [Structured Storage]","IStream interface","_stg_istream_stat","objidl/IStream::Stat","stg.istream_stat"]
 old-location: stg\istream_stat.htm
 tech.root: Stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f

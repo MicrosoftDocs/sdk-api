@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcObjectSetInqFn
 title: RpcObjectSetInqFn function (rpcdce.h)
-description: The RpcObjectSetInqFn function registers an object-inquiry function. A null value turns off a previously registered object-inquiry function.
+description: The RpcObjectSetInqFn function registers an object-inquiry function. A null value turns off a previously registered object-inquiry function.helpviewer_keywords: ["RpcObjectSetInqFn","RpcObjectSetInqFn function [RPC]","_rpc_rpcobjectsetinqfn","rpc.rpcobjectsetinqfn","rpcdce/RpcObjectSetInqFn"]
 old-location: rpc\rpcobjectsetinqfn.htm
 tech.root: Rpc
 ms.assetid: 358d3ab3-df16-486b-aeac-56a0ffc78272

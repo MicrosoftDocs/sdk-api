@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextStory
 title: ITextStory (tom.h)
-description: The ITextStory interface methods are used to access shared data from multiple stories, which is stored in the parent ITextServices instance.
+description: The ITextStory interface methods are used to access shared data from multiple stories, which is stored in the parent ITextServices instance.helpviewer_keywords: ["ITextStory","ITextStory interface [Windows Controls]","ITextStory interface [Windows Controls]","described","controls.itextstory","tom/ITextStory"]
 old-location: controls\itextstory.htm
 tech.root: Controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010

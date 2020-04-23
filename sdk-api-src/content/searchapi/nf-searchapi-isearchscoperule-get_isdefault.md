@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsDefault
 title: ISearchScopeRule::get_IsDefault (searchapi.h)
-description: Gets a value that identifies whether this is a default rule.
+description: Gets a value that identifies whether this is a default rule.helpviewer_keywords: ["ISearchScopeRule interface [search]","get_IsDefault method","ISearchScopeRule.get_IsDefault","ISearchScopeRule::get_IsDefault","_search_ISearchScopeRule_get_IsDefault","get_IsDefault","get_IsDefault method [search]","get_IsDefault method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_IsDefault","searchapi/ISearchScopeRule::get_IsDefault"]
 old-location: search\_search_ISearchScopeRule_get_IsDefault.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_isdefault.htm

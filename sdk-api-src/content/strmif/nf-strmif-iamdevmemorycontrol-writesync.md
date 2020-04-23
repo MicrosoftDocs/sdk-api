@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.WriteSync
 title: IAMDevMemoryControl::WriteSync (strmif.h)
-description: Note  The IAMDevMemoryControl interface is deprecated. Used to synchronize with the completed write. This method returns when any data being written to the particular allocator region is fully written into the memory.
+description: Note  The IAMDevMemoryControl interface is deprecated. Used to synchronize with the completed write. This method returns when any data being written to the particular allocator region is fully written into the memory.helpviewer_keywords: ["IAMDevMemoryControl interface [DirectShow]","WriteSync method","IAMDevMemoryControl.WriteSync","IAMDevMemoryControl::WriteSync","IAMDevMemoryControlWriteSync","WriteSync","WriteSync method [DirectShow]","WriteSync method [DirectShow]","IAMDevMemoryControl interface","dshow.iamdevmemorycontrol_writesync","strmif/IAMDevMemoryControl::WriteSync"]
 old-location: dshow\iamdevmemorycontrol_writesync.htm
 tech.root: DirectShow
 ms.assetid: 46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf

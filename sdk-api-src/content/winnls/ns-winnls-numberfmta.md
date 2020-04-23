@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._numberfmtA
 title: NUMBERFMTA (winnls.h)
-description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale.
+description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale.helpviewer_keywords: ["*LPNUMBERFMTA","LPNUMBERFMT","LPNUMBERFMT structure pointer [Internationalization for Windows Applications]","NUMBERFMT","NUMBERFMT structure [Internationalization for Windows Applications]","NUMBERFMTA","_win32_NUMBERFMT_str","intl.numberfmt","winnls/LPNUMBERFMT","winnls/NUMBERFMT"]
 old-location: intl\numberfmt.htm
 tech.root: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e

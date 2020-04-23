@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetSpecifyPropertyPages
 title: IMDSPDevice2::GetSpecifyPropertyPages (mswmdm.h)
-description: The GetSpecifyPropertyPages method gets property pages describing non-standard capabilities of portable devices.
+description: The GetSpecifyPropertyPages method gets property pages describing non-standard capabilities of portable devices.helpviewer_keywords: ["GetSpecifyPropertyPages","GetSpecifyPropertyPages method [windows Media Device Manager]","GetSpecifyPropertyPages method [windows Media Device Manager]","IMDSPDevice2 interface","IMDSPDevice2 interface [windows Media Device Manager]","GetSpecifyPropertyPages method","IMDSPDevice2.GetSpecifyPropertyPages","IMDSPDevice2::GetSpecifyPropertyPages","IMDSPDevice2GetSpecifyPropertyPages","mswmdm/IMDSPDevice2::GetSpecifyPropertyPages","wmdm.imdspdevice2_getspecifypropertypages"]
 old-location: wmdm\imdspdevice2_getspecifypropertypages.htm
 tech.root: WMDM
 ms.assetid: e79ce0d2-bfea-4a5b-82f8-9d69f96d9698

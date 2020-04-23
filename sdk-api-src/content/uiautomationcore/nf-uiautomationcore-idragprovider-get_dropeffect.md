@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.get_DropEffect
 title: IDragProvider::get_DropEffect (uiautomationcore.h)
-description: Retrieves a localized string that indicates what happens when this element is dropped as part of a drag-drop operation.
+description: Retrieves a localized string that indicates what happens when this element is dropped as part of a drag-drop operation.helpviewer_keywords: ["DropEffect property [Windows Accessibility]","DropEffect property [Windows Accessibility]","IDragProvider interface","IDragProvider interface [Windows Accessibility]","DropEffect property","IDragProvider.DropEffect","IDragProvider.get_DropEffect","IDragProvider::DropEffect","IDragProvider::get_DropEffect","get_DropEffect","uiautomationcore/IDragProvider::DropEffect","uiautomationcore/IDragProvider::get_DropEffect","winauto.uiauto_idragprovider_dropeffect"]
 old-location: winauto\uiauto_idragprovider_dropeffect.htm
 tech.root: WinAuto
 ms.assetid: 90850574-83EA-4291-99D0-391D8CACFE9F

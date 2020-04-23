@@ -1,7 +1,7 @@
 ---
 UID: NS:usp10.tag_SCRIPT_TABDEF
 title: SCRIPT_TABDEF (usp10.h)
-description: Contains definitions of the tab positions for ScriptStringAnalyse.
+description: Contains definitions of the tab positions for ScriptStringAnalyse.helpviewer_keywords: ["SCRIPT_TABDEF","SCRIPT_TABDEF structure [Internationalization for Windows Applications]","_win32_SCRIPT_TABDEF_str","intl.script_tabdef","usp10/SCRIPT_TABDEF"]
 old-location: intl\script_tabdef.htm
 tech.root: Intl
 ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068

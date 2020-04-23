@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetAttributes
 title: INetDiagHelper::GetAttributes (ndhelper.h)
-description: Retrieves additional information about a problem that the helper class extension has diagnosed.
+description: Retrieves additional information about a problem that the helper class extension has diagnosed.helpviewer_keywords: ["GetAttributes","GetAttributes method [NDF]","GetAttributes method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetAttributes method","INetDiagHelper.GetAttributes","INetDiagHelper::GetAttributes","ndf.inetdiaghelpe_getattributes","ndhelper/INetDiagHelper::GetAttributes"]
 old-location: ndf\inetdiaghelpe_getattributes.htm
 tech.root: NDF
 ms.assetid: 4f1f371a-853f-4022-808b-eea01aee4a52

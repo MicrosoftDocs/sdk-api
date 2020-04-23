@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.MultiplyTransform
 title: TextureBrush::MultiplyTransform (gdiplusbrush.h)
-description: The TextureBrush::MultiplyTransform method updates this brush's transformation matrix with the product of itself and another matrix.
+description: The TextureBrush::MultiplyTransform method updates this brush's transformation matrix with the product of itself and another matrix.helpviewer_keywords: ["MultiplyTransform","MultiplyTransform method [GDI+]","MultiplyTransform method [GDI+]","TextureBrush class","TextureBrush class [GDI+]","MultiplyTransform method","TextureBrush.MultiplyTransform","TextureBrush::MultiplyTransform","_gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_","gdiplus._gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\multiplytransform_37matrix_order.htm

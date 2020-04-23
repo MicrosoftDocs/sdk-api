@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._ENG_TIME_FIELDS
 title: ENG_TIME_FIELDS (winddi.h)
-description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.
+description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.helpviewer_keywords: ["*PENG_TIME_FIELDS","ENG_TIME_FIELDS","ENG_TIME_FIELDS structure [Display Devices]","PENG_TIME_FIELDS","PENG_TIME_FIELDS structure pointer [Display Devices]","display.eng_time_fields","grstrcts_3611274f-4217-48c5-af9d-9470df8a39e8.xml","winddi/ENG_TIME_FIELDS","winddi/PENG_TIME_FIELDS"]
 old-location: display\eng_time_fields.htm
 tech.root: display
 ms.assetid: 482e1d15-d499-4ed2-87e7-760f03a454b5

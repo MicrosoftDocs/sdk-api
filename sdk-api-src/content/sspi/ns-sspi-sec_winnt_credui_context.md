@@ -2,6 +2,7 @@
 UID: NS:sspi._SEC_WINNT_CREDUI_CONTEXT
 title: SEC_WINNT_CREDUI_CONTEXT (sspi.h)
 description: Specifies unserialized credential information.
+helpviewer_keywords: ["*PSEC_WINNT_CREDUI_CONTEXT","PSEC_WINNT_CREDUI_CONTEXT","PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security]","SEC_WINNT_CREDUI_CONTEXT","SEC_WINNT_CREDUI_CONTEXT structure [Security]","security.sec_winnt_credui_context","sspi/PSEC_WINNT_CREDUI_CONTEXT","sspi/SEC_WINNT_CREDUI_CONTEXT"]
 old-location: security\sec_winnt_credui_context.htm
 tech.root: SecAuthN
 ms.assetid: ac9410eb-ec1b-494c-8e8b-6d161ff2b41c
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies unserialized credential information. The credential information can be serialized by passing it as the <b>rgbSerialization</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
+Specifies unserialized credential information. The credential information can be serialized by passing it as the <b>rgbSerialization</b> member of a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
 
 The unserialized information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
 

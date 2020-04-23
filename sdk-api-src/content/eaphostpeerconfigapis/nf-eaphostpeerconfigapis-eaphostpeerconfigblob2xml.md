@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerConfigBlob2Xml
 title: EapHostPeerConfigBlob2Xml function (eaphostpeerconfigapis.h)
 description: Converts the configuration BLOB to XML.
+helpviewer_keywords: ["EapHostPeerConfigBlob2Xml","EapHostPeerConfigBlob2Xml function [EAPHost]","eaphost.eaphostpeerconfigblob2xml","eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml"]
 old-location: eaphost\eaphostpeerconfigblob2xml.htm
 tech.root: eaphost
 ms.assetid: 158750ec-cc26-4740-add6-2135b9aa294c
@@ -59,7 +60,7 @@ The configuration BLOB is returned when the supplicant called one of the followi
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui">EapHostPeerInvokeConfigUI</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerGetResult</a> - via the <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerMethodResult</a> structure</li>
+<a href="/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerGetResult</a> - via the <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerMethodResult</a> structure</li>
 </ul>
 
 
@@ -92,7 +93,7 @@ A pointer to a buffer that  contains the configuration BLOB to convert.  The buf
 ### -param ppConfigDoc [out]
 
 A pointer to a pointer to an XML document that  contains the converted configuration. If the EAP method does not support
-                the [EapHostConfig Schema](https://docs.microsoft.com/windows/win32/eaphost/eaphostconfigschema-schema)a> element.
+                the [EapHostConfig Schema](/windows/win32/eaphost/eaphostconfigschema-schema) element.
 
 
 ### -param ppEapError [out]
@@ -105,11 +106,11 @@ A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[EapHostPeerConfigXml2Blob](https://docs.microsoft.com/windows/win32/eaphost/eaphostconfigschema-schema)a>
+[EapHostPeerConfigXml2Blob](/windows/win32/eaphost/eaphostconfigschema-schema)
 
 
 

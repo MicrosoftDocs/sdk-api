@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgi.DXGI_MAPPED_RECT
 title: DXGI_MAPPED_RECT (dxgi.h)
-description: Describes a mapped rectangle that is used to access a surface.
+description: Describes a mapped rectangle that is used to access a surface.helpviewer_keywords: ["44004772-851a-9ebf-10ab-60178c7e35c5","DXGI_MAPPED_RECT","DXGI_MAPPED_RECT structure [DXGI]","direct3ddxgi.dxgi_mapped_rect","dxgi/DXGI_MAPPED_RECT"]
 old-location: direct3ddxgi\dxgi_mapped_rect.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_mapped_rect.htm

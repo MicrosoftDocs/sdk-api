@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPGETSOCKOPT
 title: LPWSPGETSOCKOPT
-description: The LPWSPGetSockOpt function retrieves a socket option.
+description: The LPWSPGetSockOpt function retrieves a socket option.helpviewer_keywords: ["LPWSPGETSOCKOPT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETSOCKOPT
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITAddressTranslationInfo
 title: ITAddressTranslationInfo (tapi3if.h)
-description: Used to determine the address translation data.
+description: Used to determine the address translation data.helpviewer_keywords: ["ITAddressTranslationInfo","ITAddressTranslationInfo interface [TAPI 2.2]","ITAddressTranslationInfo interface [TAPI 2.2]","described","_tapi3_itaddresstranslationinfo","tapi3.itaddresstranslationinfo","tapi3if/ITAddressTranslationInfo"]
 old-location: tapi3\itaddresstranslationinfo.htm
 tech.root: Tapi
 ms.assetid: b59454a0-315f-4160-b969-d930c13bb4de

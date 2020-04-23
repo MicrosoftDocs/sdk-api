@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileStream
 title: IDWriteRemoteFontFileStream (dwrite_3.h)
-description: Represents a font file stream, parts of which may be non-local.
+description: Represents a font file stream, parts of which may be non-local.helpviewer_keywords: ["IDWriteRemoteFontFileStream","IDWriteRemoteFontFileStream interface [Direct Write]","IDWriteRemoteFontFileStream interface [Direct Write]","described","directwrite.idwriteremotefontfilestream","dwrite_3/IDWriteRemoteFontFileStream"]
 old-location: directwrite\idwriteremotefontfilestream.htm
 tech.root: DirectWrite
 ms.assetid: 2CC73CE0-162A-4808-ACB6-A9599FD4D09F

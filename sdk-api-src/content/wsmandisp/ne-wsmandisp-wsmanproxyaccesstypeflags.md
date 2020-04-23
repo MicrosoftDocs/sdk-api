@@ -1,7 +1,7 @@
 ---
 UID: NE:wsmandisp._WSManProxyAccessTypeFlags
 title: WSManProxyAccessTypeFlags (wsmandisp.h)
-description: Defines the proxy access type flags.
+description: Defines the proxy access type flags.helpviewer_keywords: ["WSManProxyAccessTypeFlags","WSManProxyAccessTypeFlags enumeration [Windows Remote Management]","WSManProxyAutoDetect","WSManProxyIEConfig","WSManProxyNoProxyServer","WSManProxyWinHttpConfig","winrm.wsmanproxyaccesstypeflags","wsmandisp/WSManProxyAccessTypeFlags","wsmandisp/WSManProxyAutoDetect","wsmandisp/WSManProxyIEConfig","wsmandisp/WSManProxyNoProxyServer","wsmandisp/WSManProxyWinHttpConfig"]
 old-location: winrm\wsmanproxyaccesstypeflags.htm
 tech.root: winrm
 ms.assetid: c17c3600-6a19-4937-90ff-1a4f7cf5b123

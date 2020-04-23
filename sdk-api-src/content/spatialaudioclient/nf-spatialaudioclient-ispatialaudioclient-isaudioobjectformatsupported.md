@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.IsAudioObjectFormatSupported
 title: ISpatialAudioClient::IsAudioObjectFormatSupported (spatialaudioclient.h)
-description: Gets a value indicating whether ISpatialAudioObjectRenderStream supports a the specified format.
+description: Gets a value indicating whether ISpatialAudioObjectRenderStream supports a the specified format.helpviewer_keywords: ["ISpatialAudioClient interface [Core Audio]","IsAudioObjectFormatSupported method","ISpatialAudioClient.IsAudioObjectFormatSupported","ISpatialAudioClient::IsAudioObjectFormatSupported","IsAudioObjectFormatSupported","IsAudioObjectFormatSupported method [Core Audio]","IsAudioObjectFormatSupported method [Core Audio]","ISpatialAudioClient interface","coreaudio.ispatialaudioclient_isaudioobjectformatsupported","spatialaudioclient/ISpatialAudioClient::IsAudioObjectFormatSupported"]
 old-location: coreaudio\ispatialaudioclient_isaudioobjectformatsupported.htm
 tech.root: CoreAudio
 ms.assetid: 47AB0B3B-E8D0-412F-AC9C-F8BC700E7C23

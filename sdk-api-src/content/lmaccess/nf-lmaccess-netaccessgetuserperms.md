@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaccess.NetAccessGetUserPerms
 title: NetAccessGetUserPerms function (lmaccess.h)
-description: Not supported.
+description: Not supported.helpviewer_keywords: ["NetAccessGetUserPerms","NetAccessGetUserPerms function [Network Management]","_win32_netaccessgetuserperms","lmaccess/NetAccessGetUserPerms","netmgmt.netaccessgetuserperms"]
 old-location: netmgmt\netaccessgetuserperms.htm
 tech.root: NetMgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70

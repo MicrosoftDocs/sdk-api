@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetTypography
 title: IDWriteTextLayout::SetTypography (dwrite.h)
-description: Sets font typography features for text within a specified text range.
+description: Sets font typography features for text within a specified text range.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetTypography method","IDWriteTextLayout.SetTypography","IDWriteTextLayout::SetTypography","SetTypography","SetTypography method [Direct Write]","SetTypography method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetTypography","dwrite/IDWriteTextLayout::SetTypography"]
 old-location: directwrite\IDWriteTextLayout_SetTypography.htm
 tech.root: DirectWrite
 ms.assetid: ee0702fb-a3ff-442b-bd3b-6ff35fcba0ec

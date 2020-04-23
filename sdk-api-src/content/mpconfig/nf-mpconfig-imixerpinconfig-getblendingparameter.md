@@ -1,7 +1,7 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetBlendingParameter
 title: IMixerPinConfig::GetBlendingParameter (mpconfig.h)
-description: The GetBlendingParameter method retrieves the value of the blending parameter that defines how a secondary stream is blended with a primary stream.
+description: The GetBlendingParameter method retrieves the value of the blending parameter that defines how a secondary stream is blended with a primary stream.helpviewer_keywords: ["GetBlendingParameter","GetBlendingParameter method [DirectShow]","GetBlendingParameter method [DirectShow]","IMixerPinConfig interface","IMixerPinConfig interface [DirectShow]","GetBlendingParameter method","IMixerPinConfig.GetBlendingParameter","IMixerPinConfig::GetBlendingParameter","IMixerPinConfigGetBlendingParameter","dshow.imixerpinconfig_getblendingparameter","mpconfig/IMixerPinConfig::GetBlendingParameter"]
 old-location: dshow\imixerpinconfig_getblendingparameter.htm
 tech.root: DirectShow
 ms.assetid: bcd54b8d-d742-4ac0-bcea-8de77b7f0074

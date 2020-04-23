@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.LineJoin
 title: LineJoin (gdiplusenums.h)
-description: The LineJoin enumeration specifies how to join two lines that are drawn by the same pen and whose ends meet. At the intersection of the two line ends, a line join makes the join look more continuous.
+description: The LineJoin enumeration specifies how to join two lines that are drawn by the same pen and whose ends meet. At the intersection of the two line ends, a line join makes the join look more continuous.helpviewer_keywords: ["LineJoin","LineJoin enumeration [GDI+]","LineJoinBevel","LineJoinMiter","LineJoinMiterClipped","LineJoinRound","_gdiplus_ENUM_LineJoin","gdiplus._gdiplus_ENUM_LineJoin","gdiplusenums/LineJoin","gdiplusenums/LineJoinBevel","gdiplusenums/LineJoinMiter","gdiplusenums/LineJoinMiterClipped","gdiplusenums/LineJoinRound"]
 old-location: gdiplus\_gdiplus_ENUM_LineJoin.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linejoin.htm

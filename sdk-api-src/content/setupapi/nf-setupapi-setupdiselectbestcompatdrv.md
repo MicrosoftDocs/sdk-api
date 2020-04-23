@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiSelectBestCompatDrv
 title: SetupDiSelectBestCompatDrv function (setupapi.h)
-description: The SetupDiSelectBestCompatDrv function is the default handler for the DIF_SELECTBESTCOMPATDRV installation request.
+description: The SetupDiSelectBestCompatDrv function is the default handler for the DIF_SELECTBESTCOMPATDRV installation request.helpviewer_keywords: ["SetupDiSelectBestCompatDrv","SetupDiSelectBestCompatDrv function [Device and Driver Installation]","devinst.setupdiselectbestcompatdrv","di-rtns_3dee9465-1e0f-4efc-beb2-280c6b2621e9.xml","setupapi/SetupDiSelectBestCompatDrv"]
 old-location: devinst\setupdiselectbestcompatdrv.htm
 tech.root: devinst
 ms.assetid: fef435a6-b6cd-47be-bf63-358478ec3cb6

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BlendTransform.SetDescription
 title: ID2D1BlendTransform::SetDescription (d2d1effectauthor.h)
-description: Changes the blend description of the corresponding blend transform object.
+description: Changes the blend description of the corresponding blend transform object.helpviewer_keywords: ["ID2D1BlendTransform interface [Direct2D]","SetDescription method","ID2D1BlendTransform.SetDescription","ID2D1BlendTransform::SetDescription","SetDescription","SetDescription method [Direct2D]","SetDescription method [Direct2D]","ID2D1BlendTransform interface","d2d1effectauthor/ID2D1BlendTransform::SetDescription","direct2d.id2d1blendtransform_setdescription"]
 old-location: direct2d\id2d1blendtransform_setdescription.htm
 tech.root: Direct2D
 ms.assetid: 37E52B64-D998-4D85-858D-04A7751D7E0A

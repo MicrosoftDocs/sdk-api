@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectParentalCountry
 title: IDvdControl2::SelectParentalCountry (strmif.h)
-description: The SelectParentalCountry method sets the country/region for interpreting parental access levels and setting default languages.
+description: The SelectParentalCountry method sets the country/region for interpreting parental access levels and setting default languages.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectParentalCountry method","IDvdControl2.SelectParentalCountry","IDvdControl2::SelectParentalCountry","IDvdControl2SelectParentalCountry","SelectParentalCountry","SelectParentalCountry method [DirectShow]","SelectParentalCountry method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectparentalcountry","strmif/IDvdControl2::SelectParentalCountry"]
 old-location: dshow\idvdcontrol2_selectparentalcountry.htm
 tech.root: DirectShow
 ms.assetid: fb0b3fa9-c6e5-49a4-bec7-1e4e7d07ba46

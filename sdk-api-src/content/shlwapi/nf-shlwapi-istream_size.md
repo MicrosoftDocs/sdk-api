@@ -2,6 +2,7 @@
 UID: NF:shlwapi.IStream_Size
 title: IStream_Size function (shlwapi.h)
 description: Retrieves the size, in bytes, of a specified stream.
+helpviewer_keywords: ["IStream_Size","IStream_Size function [Windows Shell]","_win32_IStream_Size","shell.IStream_Size","shlwapi/IStream_Size"]
 old-location: shell\IStream_Size.htm
 tech.root: shell
 ms.assetid: 93c7c24d-6431-4859-b0b8-b36392bc5108
@@ -70,9 +71,9 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 
 ### -param pui [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure to receive the size of the stream.
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure to receive the size of the stream.
 
 
 ## -returns
@@ -90,7 +91,7 @@ Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="htt
 
 
 
-This function gets the size of the stream by calling the specified stream object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method. It then copies the value of the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure returned by <b>IStream::Stat</b> to the <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure pointed to by <i>pui</i>.  If the function fails, the contents of the <b>ULARGE_INTEGER</b> structure are undefined.
+This function gets the size of the stream by calling the specified stream object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method. It then copies the value of the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure returned by <b>IStream::Stat</b> to the <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure pointed to by <i>pui</i>.  If the function fails, the contents of the <b>ULARGE_INTEGER</b> structure are undefined.
 
 
 

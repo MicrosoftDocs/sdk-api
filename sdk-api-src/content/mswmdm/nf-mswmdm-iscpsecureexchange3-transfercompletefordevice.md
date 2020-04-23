@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange3.TransferCompleteForDevice
 title: ISCPSecureExchange3::TransferCompleteForDevice (mswmdm.h)
-description: The TransferCompleteForDevice method is called by Windows Media Device Manager to signal the end of a data transfer for a specific device.
+description: The TransferCompleteForDevice method is called by Windows Media Device Manager to signal the end of a data transfer for a specific device.helpviewer_keywords: ["ISCPSecureExchange3 interface [windows Media Device Manager]","TransferCompleteForDevice method","ISCPSecureExchange3.TransferCompleteForDevice","ISCPSecureExchange3::TransferCompleteForDevice","ISCPSecureExchange3TransferCompleteForDevice","TransferCompleteForDevice","TransferCompleteForDevice method [windows Media Device Manager]","TransferCompleteForDevice method [windows Media Device Manager]","ISCPSecureExchange3 interface","mswmdm/ISCPSecureExchange3::TransferCompleteForDevice","wmdm.iscpsecureexchange3__transfercompletefordevice"]
 old-location: wmdm\iscpsecureexchange3__transfercompletefordevice.htm
 tech.root: WMDM
 ms.assetid: 5144d290-444d-4a8c-ad3d-292bb8168e99

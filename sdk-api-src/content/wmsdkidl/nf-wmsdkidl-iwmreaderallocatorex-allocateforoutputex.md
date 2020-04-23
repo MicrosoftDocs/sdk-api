@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAllocatorEx.AllocateForOutputEx
 title: IWMReaderAllocatorEx::AllocateForOutputEx (wmsdkidl.h)
-description: The AllocateForOutputEx method allocates a user-created buffer for samples delivered to the IWMReaderCallback::OnSample method.
+description: The AllocateForOutputEx method allocates a user-created buffer for samples delivered to the IWMReaderCallback::OnSample method.helpviewer_keywords: ["AllocateForOutputEx","AllocateForOutputEx method [windows Media Format]","AllocateForOutputEx method [windows Media Format]","IWMReaderAllocatorEx interface","IWMReaderAllocatorEx interface [windows Media Format]","AllocateForOutputEx method","IWMReaderAllocatorEx.AllocateForOutputEx","IWMReaderAllocatorEx::AllocateForOutputEx","IWMReaderAllocatorExAllocateForOutputEx","wmformat.iwmreaderallocatorex_allocateforoutputex","wmsdkidl/IWMReaderAllocatorEx::AllocateForOutputEx"]
 old-location: wmformat\iwmreaderallocatorex_allocateforoutputex.htm
 tech.root: wmformat
 ms.assetid: e2e4881b-2186-47c9-b74e-3a59a9fac7c9

@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetAdapterId
 title: INetworkConnection::GetAdapterId (netlistmgr.h)
-description: The GetAdapterID method returns the ID of the network adapter used by this connection.
+description: The GetAdapterID method returns the ID of the network adapter used by this connection.helpviewer_keywords: ["GetAdapterId","GetAdapterId method [Network Awareness]","GetAdapterId method [Network Awareness]","INetworkConnection interface","INetworkConnection interface [Network Awareness]","GetAdapterId method","INetworkConnection.GetAdapterId","INetworkConnection::GetAdapterId","netlistmgr/INetworkConnection::GetAdapterId","nla.inetworkconnection_getadapterid"]
 old-location: nla\inetworkconnection_getadapterid.htm
 tech.root: nla
 ms.assetid: 69711dea-e0dd-4c1e-a83f-1f06d4259b35

@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddComponent
 title: IVssCreateExpressWriterMetadata::AddComponent (vswriter.h)
-description: Adds a file group to an express writer's set of components to be backed up.
+description: Adds a file group to an express writer's set of components to be backed up.helpviewer_keywords: ["AddComponent","AddComponent method","AddComponent method","IVssCreateExpressWriterMetadata interface","IVssCreateExpressWriterMetadata interface","AddComponent method","IVssCreateExpressWriterMetadata.AddComponent","IVssCreateExpressWriterMetadata::AddComponent","base.ivsscreateexpresswritermetadata_addcomponent","vswriter/IVssCreateExpressWriterMetadata::AddComponent"]
 old-location: base\ivsscreateexpresswritermetadata_addcomponent.htm
 tech.root: VSS
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289

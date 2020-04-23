@@ -1,7 +1,7 @@
 ---
 UID: NN:termmgr.ITTerminalControl
 title: ITTerminalControl (termmgr.h)
-description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.
+description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.helpviewer_keywords: ["ITTerminalControl","ITTerminalControl interface [TAPI 2.2]","ITTerminalControl interface [TAPI 2.2]","described","_tapi3_itterminalcontrol","tapi3.itterminalcontrol","termmgr/ITTerminalControl"]
 old-location: tapi3\itterminalcontrol.htm
 tech.root: Tapi
 ms.assetid: 6fe60002-3af3-45e9-a084-7296a48e7263

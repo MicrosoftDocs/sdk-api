@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IDVBSLocator2
 title: IDVBSLocator2 (tuner.h)
-description: Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite (DVB-S) transmission.
+description: Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite (DVB-S) transmission.helpviewer_keywords: ["IDVBSLocator2","IDVBSLocator2 interface [Microsoft TV Technologies]","IDVBSLocator2 interface [Microsoft TV Technologies]","described","mstv.idvbslocator2","tuner/IDVBSLocator2"]
 old-location: mstv\idvbslocator2.htm
 tech.root: mstv
 ms.assetid: 2f17c9a3-6ae8-4102-aee6-b2cb206d4952

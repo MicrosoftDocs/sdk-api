@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.GetAlgorithmOid
 title: ICspAlgorithm::GetAlgorithmOid (certenroll.h)
-description: Retrieves the algorithm object identifier (OID). This method is web enabled.
+description: Retrieves the algorithm object identifier (OID). This method is web enabled.helpviewer_keywords: ["GetAlgorithmOid","GetAlgorithmOid method [Security]","GetAlgorithmOid method [Security]","ICspAlgorithm interface","ICspAlgorithm interface [Security]","GetAlgorithmOid method","ICspAlgorithm.GetAlgorithmOid","ICspAlgorithm::GetAlgorithmOid","certenroll/ICspAlgorithm::GetAlgorithmOid","security.icspalgorithm_getalgorithmoid_method"]
 old-location: security\icspalgorithm_getalgorithmoid_method.htm
 tech.root: seccertenroll
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5

@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager3
 title: IDirectManipulationManager3 (directmanipulation.h)
-description: Extends the IDirectManipulationManager2 interface that provides access to all the Direct Manipulation features and APIs available to the client application.
+description: Extends the IDirectManipulationManager2 interface that provides access to all the Direct Manipulation features and APIs available to the client application.helpviewer_keywords: ["IDirectManipulationManager3","IDirectManipulationManager3 interface [Direct Manipulation]","IDirectManipulationManager3 interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationmanager3","directmanipulation/IDirectManipulationManager3"]
 old-location: directmanipulation\idirectmanipulationmanager3.htm
 tech.root: directmanipulation
 ms.assetid: 566d4a36-5623-4896-b23b-3824551850b0

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_currentFolder
 title: IWMPFolderMonitorServices::get_currentFolder (wmp.h)
-description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_currentFolder method retrieves the path of the folder currently being scanned.
+description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_currentFolder method retrieves the path of the folder currently being scanned.helpviewer_keywords: ["IWMPFolderMonitorServices interface [Windows Media Player]","get_currentFolder method","IWMPFolderMonitorServices.get_currentFolder","IWMPFolderMonitorServices::get_currentFolder","IWMPFolderMonitorServicesget_currentFolder","get_currentFolder","get_currentFolder method [Windows Media Player]","get_currentFolder method [Windows Media Player]","IWMPFolderMonitorServices interface","wmp.iwmpfoldermonitorservices_get_currentfolder","wmp/IWMPFolderMonitorServices::get_currentFolder"]
 old-location: wmp\iwmpfoldermonitorservices_get_currentfolder.htm
 tech.root: WMP
 ms.assetid: b0bc2f6a-c5ab-4dc5-a574-5b0fde16449a

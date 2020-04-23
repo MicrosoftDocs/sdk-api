@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateConflicts
 title: ISyncMgrControl::UpdateConflicts (syncmgr.h)
-description: Informs Sync Center that conflicts have been added for a specific handler or item.
+description: Informs Sync Center that conflicts have been added for a specific handler or item.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateConflicts method","ISyncMgrControl.UpdateConflicts","ISyncMgrControl::UpdateConflicts","UpdateConflicts","UpdateConflicts method [Windows Shell]","UpdateConflicts method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateConflicts","shell.ISyncMgrControl_UpdateConflicts","syncmgr/ISyncMgrControl::UpdateConflicts"]
 old-location: shell\ISyncMgrControl_UpdateConflicts.htm
 tech.root: shell
 ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a

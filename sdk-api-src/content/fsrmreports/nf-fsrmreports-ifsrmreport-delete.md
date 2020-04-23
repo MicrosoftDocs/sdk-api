@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.Delete
 title: IFsrmReport::Delete (fsrmreports.h)
-description: Removes this report object from the report job object.
+description: Removes this report object from the report job object.helpviewer_keywords: ["Delete","Delete method [File Server Resource Manager]","Delete method [File Server Resource Manager]","IFsrmReport interface","IFsrmReport interface [File Server Resource Manager]","Delete method","IFsrmReport.Delete","IFsrmReport::Delete","fs.ifsrmreport_delete","fsrm.ifsrmreport_delete","fsrmreports/IFsrmReport::Delete"]
 old-location: fsrm\ifsrmreport_delete.htm
 tech.root: fsrm
 ms.assetid: b50139bc-c584-4bed-bf2e-34f1fef16e6d

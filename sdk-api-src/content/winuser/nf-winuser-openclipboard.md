@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.OpenClipboard
 title: OpenClipboard function (winuser.h)
-description: Opens the clipboard for examination and prevents other applications from modifying the clipboard content.
+description: Opens the clipboard for examination and prevents other applications from modifying the clipboard content.helpviewer_keywords: ["OpenClipboard","OpenClipboard function [Data Exchange]","_win32_OpenClipboard","_win32_openclipboard_cpp","dataxchg.openclipboard","winui._win32_openclipboard","winuser/OpenClipboard"]
 old-location: dataxchg\openclipboard.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\openclipboard.htm

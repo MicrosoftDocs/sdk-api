@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroup
 title: IFsrmFileGroup (fsrmscreen.h)
-description: Used to define a group of files based on one or more file name patterns.
+description: Used to define a group of files based on one or more file name patterns.helpviewer_keywords: ["IFsrmFileGroup","IFsrmFileGroup interface [File Server Resource Manager]","IFsrmFileGroup interface [File Server Resource Manager]","described","fs.ifsrmfilegroup","fsrm.ifsrmfilegroup","fsrm/IFsrmFileGroup"]
 old-location: fsrm\ifsrmfilegroup.htm
 tech.root: fsrm
 ms.assetid: 9b657f1c-1d59-4ba5-9af9-978ffda1a348

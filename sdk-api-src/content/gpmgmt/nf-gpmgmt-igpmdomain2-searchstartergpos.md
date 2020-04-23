@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.SearchStarterGPOs
 title: IGPMDomain2::SearchStarterGPOs (gpmgmt.h)
-description: Executes a search for GPMStarterGPO objects.
+description: Executes a search for GPMStarterGPO objects.helpviewer_keywords: ["IGPMDomain2 interface [GPMC]","SearchStarterGPOs method","IGPMDomain2.SearchStarterGPOs","IGPMDomain2::SearchStarterGPOs","SearchStarterGPOs","SearchStarterGPOs method [GPMC]","SearchStarterGPOs method [GPMC]","IGPMDomain2 interface","gpmc.igpmdomain2_searchstartergpos","gpmgmt/IGPMDomain2::SearchStarterGPOs","starterGPODisplayName","starterGPOEffectivePermissions","starterGPOID","starterGPOPermissions"]
 old-location: gpmc\igpmdomain2_searchstartergpos.htm
 tech.root: gpmc
 ms.assetid: 30a325e8-372a-4e30-a420-10f5b6ef295d

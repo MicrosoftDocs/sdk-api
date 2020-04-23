@@ -1,7 +1,7 @@
 ---
 UID: NN:sensorsapi.ISensorCollection
 title: ISensorCollection (sensorsapi.h)
-description: Represents a collection of sensors, such as all the sensors connected to a computer.
+description: Represents a collection of sensors, such as all the sensors connected to a computer.helpviewer_keywords: ["ISensorCollection","ISensorCollection interface [WinSensors]","ISensorCollection interface [WinSensors]","described","sensorsapi/ISensorCollection","winsensors.isensorcollection"]
 old-location: winsensors\isensorcollection.htm
 tech.root: SensorsAPI
 ms.assetid: 54d8572a-40a2-49d0-a8bf-2161b63eee42

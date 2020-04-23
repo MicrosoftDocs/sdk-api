@@ -1,7 +1,7 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0005
 title: OPC_SIGNATURE_TIME_FORMAT (msopc.h)
-description: Describes how to interpret the signingTime parameter, which is a record of when a signature was created, of the IOpcDigitalSignature::GetSigningTime method.
+description: Describes how to interpret the signingTime parameter, which is a record of when a signature was created, of the IOpcDigitalSignature::GetSigningTime method.helpviewer_keywords: ["OPC_SIGNATURE_TIME_FORMAT","OPC_SIGNATURE_TIME_FORMAT enumeration [Open Packaging Conventions]","OPC_SIGNATURE_TIME_FORMAT_DAYS","OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS","OPC_SIGNATURE_TIME_FORMAT_MINUTES","OPC_SIGNATURE_TIME_FORMAT_MONTHS","OPC_SIGNATURE_TIME_FORMAT_SECONDS","OPC_SIGNATURE_TIME_FORMAT_YEARS","msopc/OPC_SIGNATURE_TIME_FORMAT","msopc/OPC_SIGNATURE_TIME_FORMAT_DAYS","msopc/OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS","msopc/OPC_SIGNATURE_TIME_FORMAT_MINUTES","msopc/OPC_SIGNATURE_TIME_FORMAT_MONTHS","msopc/OPC_SIGNATURE_TIME_FORMAT_SECONDS","msopc/OPC_SIGNATURE_TIME_FORMAT_YEARS","opc.opc_signature_time_format"]
 old-location: opc\opc_signature_time_format.htm
 tech.root: OPC
 ms.assetid: 9b8ff585-5795-48ce-b2fd-a49e3d34ccb9

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.InsertAt
 title: IXpsOMDashCollection::InsertAt (xpsobjectmodel.h)
 description: Inserts an XPS_DASH structure at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMDashCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMDashCollection.InsertAt","IXpsOMDashCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMDashCollection interface","xps.ixpsomdashcollection_insertat","xpsobjectmodel/IXpsOMDashCollection::InsertAt"]
 old-location: xps\ixpsomdashcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
+Inserts an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
 
 
 ## -parameters
@@ -64,7 +65,7 @@ The zero-based index in the collection where the structure that is referenced by
 
 ### -param dash [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that is to be inserted at the location specified by <i>index</i>.
+A pointer to the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that is to be inserted at the location specified by <i>index</i>.
 
 
 ## -returns
@@ -80,7 +81,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-At the location specified by <i>index</i>, this method inserts the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that is passed in <i>dash</i>.  Prior to insertion, the structure in this and all subsequent locations is moved up by one index.
+At the location specified by <i>index</i>, this method inserts the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that is passed in <i>dash</i>.  Prior to insertion, the structure in this and all subsequent locations is moved up by one index.
 
 The figure that follows illustrates how the collection is changed by the <b>InsertAt</b> method.
 
@@ -101,7 +102,7 @@ The figure that follows illustrates how the collection is changed by the <b>Inse
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:cluadmex.IGetClusterNodeInfo.GetNodeHandle
 title: IGetClusterNodeInfo::GetNodeHandle (cluadmex.h)
-description: Returns a handle to a node.
+description: Returns a handle to a node.helpviewer_keywords: ["GetNodeHandle","GetNodeHandle method [Failover Cluster]","GetNodeHandle method [Failover Cluster]","IGetClusterNodeInfo interface","IGetClusterNodeInfo interface [Failover Cluster]","GetNodeHandle method","IGetClusterNodeInfo.GetNodeHandle","IGetClusterNodeInfo::GetNodeHandle","_wolf_igetclusternodeinfo_getnodehandle","cluadmex/IGetClusterNodeInfo::GetNodeHandle","mscs.igetclusternodeinfo_getnodehandle"]
 old-location: mscs\igetclusternodeinfo_getnodehandle.htm
 tech.root: MsCS
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0

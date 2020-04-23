@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSettings.get_invokeURLs
 title: IWMPSettings::get_invokeURLs (wmp.h)
-description: The get_invokeURLs method retrieves a value indicating whether URL events should launch a Web browser.
+description: The get_invokeURLs method retrieves a value indicating whether URL events should launch a Web browser.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_invokeURLs method","IWMPSettings.get_invokeURLs","IWMPSettings::get_invokeURLs","IWMPSettingsget_invokeURLs","get_invokeURLs","get_invokeURLs method [Windows Media Player]","get_invokeURLs method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_invokeurls","wmp/IWMPSettings::get_invokeURLs"]
 old-location: wmp\iwmpsettings_get_invokeurls.htm
 tech.root: WMP
 ms.assetid: a29ea1ba-8994-4d0f-8c53-8abba8fe997d

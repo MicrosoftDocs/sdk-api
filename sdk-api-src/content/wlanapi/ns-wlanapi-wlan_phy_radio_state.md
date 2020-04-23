@@ -2,6 +2,7 @@
 UID: NS:wlanapi._WLAN_PHY_RADIO_STATE
 title: WLAN_PHY_RADIO_STATE (wlanapi.h)
 description: Specifies the radio state.
+helpviewer_keywords: ["*PWLAN_PHY_RADIO_STATE","PWLAN_PHY_RADIO_STATE","PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI]","WLAN_PHY_RADIO_STATE","WLAN_PHY_RADIO_STATE structure [NativeWIFI]","nwifi.wlan_phy_radio_state","wlanapi/PWLAN_PHY_RADIO_STATE","wlanapi/WLAN_PHY_RADIO_STATE"]
 old-location: nwifi\wlan_phy_radio_state.htm
 tech.root: NativeWiFi
 ms.assetid: 20da1494-4264-4d0d-b789-25e2be6a8dd4
@@ -64,12 +65,12 @@ The index of the PHY type on which the radio state is being set or queried. The 
 
 ### -field dot11SoftwareRadioState
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a> value that indicates the software radio state.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a> value that indicates the software radio state.
 
 
 ### -field dot11HardwareRadioState
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a> value that indicates the hardware radio state.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a> value that indicates the hardware radio state.
 
 
 ## -remarks
@@ -78,7 +79,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-dot11
 
 The <b>WLAN_PHY_RADIO_STATE</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a> function when the <i>OpCode</i> parameter is set to <b>wlan_intf_opcode_radio_state</b>. 
 
-The <b>WLAN_PHY_RADIO_STATE</b> structure is also used for  notification by the media specific module (MSM) when the radio state changes. An application registers to receive MSM notifications by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function with the <i>dwNotifSource</i> parameter set to a value that includes <b>WLAN_NOTIFICATION_SOURCE_MSM</b>. For more information on these notifications, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure and the <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a> enumeration reference.
+The <b>WLAN_PHY_RADIO_STATE</b> structure is also used for  notification by the media specific module (MSM) when the radio state changes. An application registers to receive MSM notifications by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function with the <i>dwNotifSource</i> parameter set to a value that includes <b>WLAN_NOTIFICATION_SOURCE_MSM</b>. For more information on these notifications, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure and the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a> enumeration reference.
 
 The radio state of a PHY is off if either <b>dot11SoftwareRadioState</b> or <b>dot11HardwareRadioState</b> member of the <b>WLAN_PHY_RADIO_STATE</b> structure is <b>dot11_radio_state_off</b>.
 
@@ -102,7 +103,7 @@ The radio state of a PHY is off if either the software radio state (<b>dot11Soft
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a>
 
 
 
@@ -110,7 +111,7 @@ The radio state of a PHY is off if either the software radio state (<b>dot11Soft
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
 
 
 

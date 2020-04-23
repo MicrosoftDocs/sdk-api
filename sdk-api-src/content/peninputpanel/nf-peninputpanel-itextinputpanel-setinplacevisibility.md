@@ -2,6 +2,7 @@
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceVisibility
 title: ITextInputPanel::SetInPlaceVisibility (peninputpanel.h)
 description: Shows or hides the Tablet PC Input Panel.
+helpviewer_keywords: ["1e503857-9276-4308-b4ad-83db25866689","ITextInputPanel interface [Tablet PC]","SetInPlaceVisibility method","ITextInputPanel.SetInPlaceVisibility","ITextInputPanel::SetInPlaceVisibility","SetInPlaceVisibility","SetInPlaceVisibility method [Tablet PC]","SetInPlaceVisibility method [Tablet PC]","ITextInputPanel interface","peninputpanel/ITextInputPanel::SetInPlaceVisibility","tablet.itextinputpanel_setinplacevisibility"]
 old-location: tablet\itextinputpanel_setinplacevisibility.htm
 tech.root: tablet
 ms.assetid: 1e503857-9276-4308-b4ad-83db25866689
@@ -169,7 +170,7 @@ void CCOMTIPDlg::OnEnSetfocusEdit1()
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>
+<a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRCREATECOLORSPACE
 title: EMRCREATECOLORSPACE (wingdi.h)
-description: The EMRCREATECOLORSPACE structure contains members for the CreateColorSpace enhanced metafile record.
+description: The EMRCREATECOLORSPACE structure contains members for the CreateColorSpace enhanced metafile record.helpviewer_keywords: ["*PEMRCREATECOLORSPACE","EMRCREATECOLORSPACE","EMRCREATECOLORSPACE structure [Windows GDI]","PEMRCREATECOLORSPACE","PEMRCREATECOLORSPACE structure pointer [Windows GDI]","_win32_EMRCREATECOLORSPACE_str","gdi.emrcreatecolorspace","wingdi/EMRCREATECOLORSPACE","wingdi/PEMRCREATECOLORSPACE"]
 old-location: gdi\emrcreatecolorspace.htm
 tech.root: gdi
 ms.assetid: ee2e02bb-5bd2-460c-aefe-78a143c72ff6

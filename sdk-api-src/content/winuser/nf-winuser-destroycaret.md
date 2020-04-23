@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DestroyCaret
 title: DestroyCaret function (winuser.h)
-description: Destroys the caret's current shape, frees the caret from the window, and removes the caret from the screen.
+description: Destroys the caret's current shape, frees the caret from the window, and removes the caret from the screen.helpviewer_keywords: ["DestroyCaret","DestroyCaret function [Menus and Other Resources]","_win32_DestroyCaret","_win32_destroycaret_cpp","menurc.destroycaret","winui._win32_destroycaret","winuser/DestroyCaret"]
 old-location: menurc\destroycaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\destroycaret.htm

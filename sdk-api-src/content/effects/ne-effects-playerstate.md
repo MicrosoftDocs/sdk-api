@@ -1,7 +1,7 @@
 ---
 UID: NE:effects.PlayerState
 title: PlayerState (effects.h)
-description: The PlayerState enumeration type provides some basic states of Windows Media Player.
+description: The PlayerState enumeration type provides some basic states of Windows Media Player.helpviewer_keywords: ["PlayerState","PlayerState enumeration [Windows Media Player]","effects/PlayerState","effects/pause_state","effects/play_state","effects/stop_state","enumeration [Windows Media Player]","pause_state","play_state","stop_state","typedefenumPlayerState","wmp.playerstate"]
 old-location: wmp\playerstate.htm
 tech.root: WMP
 ms.assetid: 7cd17639-e491-4066-838a-236554733874

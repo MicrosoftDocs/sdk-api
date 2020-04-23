@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService.UnadviseVisualTreeChange
 title: IVisualTreeService::UnadviseVisualTreeChange (xamlom.h)
-description: Stops listening for changes to the visual tree.
+description: Stops listening for changes to the visual tree.helpviewer_keywords: ["IVisualTreeService interface","UnadviseVisualTreeChange method","IVisualTreeService.UnadviseVisualTreeChange","IVisualTreeService::UnadviseVisualTreeChange","UnadviseVisualTreeChange","UnadviseVisualTreeChange method","UnadviseVisualTreeChange method","IVisualTreeService interface","xaml_diagnostics.ivisualtreeservice_unadvisevisualtreechange","xamlom/IVisualTreeService::UnadviseVisualTreeChange"]
 old-location: xaml_diagnostics\ivisualtreeservice_unadvisevisualtreechange.htm
 tech.root: xaml_diagnostics
 ms.assetid: E77CBED8-F214-48AC-903E-F01B6EECA2ED

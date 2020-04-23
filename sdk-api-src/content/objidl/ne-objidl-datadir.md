@@ -1,7 +1,7 @@
 ---
 UID: NE:objidl.tagDATADIR
 title: DATADIR (objidl.h)
-description: Specifies the direction of the data flow. This determines the formats that the resulting enumerator can enumerate.
+description: Specifies the direction of the data flow. This determines the formats that the resulting enumerator can enumerate.helpviewer_keywords: ["DATADIR","DATADIR enumeration [COM]","DATADIR_GET","DATADIR_SET","_ole_DATADIR","com.datadir","objidl/DATADIR","objidl/DATADIR_GET","objidl/DATADIR_SET"]
 old-location: com\datadir.htm
 tech.root: com
 ms.assetid: 395d7511-f491-4d6c-9360-cae7e16e8524

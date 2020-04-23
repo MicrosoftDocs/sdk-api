@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerGetResponseAttributes
 title: EapHostPeerGetResponseAttributes function (eappapis.h)
 description: Obtains an array of EAP authentication attributes from EAPHost.
+helpviewer_keywords: ["EapHostPeerGetResponseAttributes","EapHostPeerGetResponseAttributes function [EAPHost]","eaphost.eaphostpeergetresponseattributes","eappapis/EapHostPeerGetResponseAttributes"]
 old-location: eaphost\eaphostpeergetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: 84df4877-9ac9-4ab5-a357-276880051ff0
@@ -77,7 +78,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

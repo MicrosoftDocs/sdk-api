@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateMFByteStreamOnStream
 title: MFCreateMFByteStreamOnStream function (mfidl.h)
-description: Creates a Microsoft Media Foundation byte stream that wraps an IStream pointer.
+description: Creates a Microsoft Media Foundation byte stream that wraps an IStream pointer.helpviewer_keywords: ["MFCreateMFByteStreamOnStream","MFCreateMFByteStreamOnStream function [Media Foundation]","mf.mfcreatemfbytestreamonstream","mfidl/MFCreateMFByteStreamOnStream"]
 old-location: mf\mfcreatemfbytestreamonstream.htm
 tech.root: medfound
 ms.assetid: 5ffd370a-ccc5-4229-b214-e07847287415

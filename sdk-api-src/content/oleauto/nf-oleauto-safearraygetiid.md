@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayGetIID
 title: SafeArrayGetIID function (oleauto.h)
-description: Gets the GUID of the interface contained within the specified safe array.
+description: Gets the GUID of the interface contained within the specified safe array.helpviewer_keywords: ["SafeArrayGetIID","SafeArrayGetIID function [Automation]","_oa96_SafeArrayGetIID","automat.safearraygetiid","oleauto/SafeArrayGetIID"]
 old-location: automat\safearraygetiid.htm
 tech.root: automat
 ms.assetid: 9416f7f8-aee0-4e6a-be4f-ca6061adb244

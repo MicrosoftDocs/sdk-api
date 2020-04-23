@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpManager.RetrieveTftpClients
 title: IWdsTransportTftpManager::RetrieveTftpClients (wdstptmgmt.h)
-description: Returns a pointer to the object of an IWdsTransportCollection interface containing a collection of objects of the IWdsTransportTftpClient interface for the clients currently connected to the TFTP server.
+description: Returns a pointer to the object of an IWdsTransportCollection interface containing a collection of objects of the IWdsTransportTftpClient interface for the clients currently connected to the TFTP server.helpviewer_keywords: ["IWdsTransportTftpManager interface [Windows Deployment Services]","RetrieveTftpClients method","IWdsTransportTftpManager.RetrieveTftpClients","IWdsTransportTftpManager::RetrieveTftpClients","RetrieveTftpClients","RetrieveTftpClients method [Windows Deployment Services]","RetrieveTftpClients method [Windows Deployment Services]","IWdsTransportTftpManager interface","wds.iwdstransporttftpclient_retrievetftpclients","wdstptmgmt/IWdsTransportTftpManager::RetrieveTftpClients"]
 old-location: wds\iwdstransporttftpclient_retrievetftpclients.htm
 tech.root: wds
 ms.assetid: 48527950-A29D-4BC0-AD85-7B40E9C19133

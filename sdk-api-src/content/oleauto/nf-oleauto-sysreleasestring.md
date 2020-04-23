@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SysReleaseString
 title: SysReleaseString function (oleauto.h)
-description: Decreases the pinning reference count for the specified string by one. When that count reaches 0, the memory for that string is no longer prevented from being freed.
+description: Decreases the pinning reference count for the specified string by one. When that count reaches 0, the memory for that string is no longer prevented from being freed.helpviewer_keywords: ["SysReleaseString","SysReleaseString function [Automation]","automat.sysreleasestring","oleauto/SysReleaseString"]
 old-location: automat\sysreleasestring.htm
 tech.root: automat
 ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0

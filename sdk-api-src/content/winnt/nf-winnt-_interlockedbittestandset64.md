@@ -2,6 +2,7 @@
 UID: NF:winnt._interlockedbittestandset64
 title: _interlockedbittestandset64 function (winnt.h)
 description: Tests the specified bit of the specified LONG64 value and sets it to 1. The operation is atomic.
+helpviewer_keywords: ["InterlockedBitTestAndSet64","InterlockedBitTestAndSet64 function","_interlockedbittestandset64","base.interlockedbittestandset64","winnt/InterlockedBitTestAndSet64"]
 old-location: base\interlockedbittestandset64.htm
 tech.root: Sync
 ms.assetid: 27f344c7-7143-42fe-b5b6-adc1d983abde
@@ -98,11 +99,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_interlockedbittestandreset">InterlockedBitTestAndReset</a>
+<a href="/windows/win32/api/winnt/nf-winnt-_interlockedbittestandreset">InterlockedBitTestAndReset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_interlockedbittestandreset64">InterlockedBitTestAndReset64</a>
+<a href="/windows/win32/api/winnt/nf-winnt-_interlockedbittestandreset64">InterlockedBitTestAndReset64</a>
 
 
 
@@ -114,7 +115,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_interlockedbittestandset">InterlockedBitTestAndSet</a>
+<a href="/windows/win32/api/winnt/nf-winnt-_interlockedbittestandset">InterlockedBitTestAndSet</a>
 
 
 

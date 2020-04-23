@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixRotationAxis
 title: XMMatrixRotationAxis function (directxmath.h)
-description: Builds a matrix that rotates around an arbitrary axis.
+description: Builds a matrix that rotates around an arbitrary axis.helpviewer_keywords: ["Use DirectX..XMMatrixRotationAxis","XMMatrixRotationAxis","XMMatrixRotationAxis method [DirectX Math Support APIs]","dxmath.xmmatrixrotationaxis"]
 old-location: dxmath\xmmatrixrotationaxis.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationAxis(XMVECTOR,float)

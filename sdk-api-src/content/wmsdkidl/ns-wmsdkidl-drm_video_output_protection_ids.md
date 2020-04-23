@@ -1,7 +1,7 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
 title: DRM_VIDEO_OUTPUT_PROTECTION_IDS (wmsdkidl.h)
-description: The DRM_VIDEO_OUTPUT_PROTECTION_IDS structure holds an array of DRM_VIDEO_OUTPUT_PROTECTION structures.
+description: The DRM_VIDEO_OUTPUT_PROTECTION_IDS structure holds an array of DRM_VIDEO_OUTPUT_PROTECTION structures.helpviewer_keywords: ["DRM_VIDEO_OUTPUT_PROTECTION_IDS","DRM_VIDEO_OUTPUT_PROTECTION_IDS structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_video_output_protection_ids","wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS"]
 old-location: wmformat\drm_video_output_protection_ids.htm
 tech.root: wmformat
 ms.assetid: 95bce5f8-5230-4b69-b4e9-3cb766edce90

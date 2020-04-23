@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_TRANSPORT_POLICY0_
 title: IPSEC_TRANSPORT_POLICY0 (ipsectypes.h)
 description: Stores the quick mode negotiation policy for transport mode IPsec.
+helpviewer_keywords: ["IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME","IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL","IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT","IPSEC_POLICY_FLAG_ND_BOUNDARY","IPSEC_POLICY_FLAG_ND_SECURE","IPSEC_TRANSPORT_POLICY0","IPSEC_TRANSPORT_POLICY0 structure [Filtering]","fwp.ipsec_transport_policy0_struct","ipsectypes/IPSEC_TRANSPORT_POLICY0"]
 old-location: fwp\ipsec_transport_policy0_struct.htm
 tech.root: fwp
 ms.assetid: c17ebe74-41e3-467c-875a-db43978a5234
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRANSPORT_POLICY0</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
-[IPSEC_TRANSPORT_POLICY2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)a> is available.</div><div> </div>
+[IPSEC_TRANSPORT_POLICY2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -66,7 +67,7 @@ Number of quick mode proposals in the policy.
 
 Array of quick mode proposals.
 
-See [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a> for more information.
+See [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0) for more information.
 
 
 ### -field flags
@@ -151,14 +152,14 @@ Timeout in seconds, after which the IPsec security association (SA) should stop 
 
 ### -field saIdleTimeout
 
-An [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a> structure that specifies the SA idle timeout in IPsec policy.
+An [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0) structure that specifies the SA idle timeout in IPsec policy.
 
 
 ### -field emPolicy
 
 The AuthIP extended mode authentication policy.
 
-See [IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)a> for more information.
+See [IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0) for more information.
 
 
 ## -see-also
@@ -166,11 +167,11 @@ See [IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/
 
 
 
-[IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)a>
+[IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0)
 
 
 
-[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a>
+[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
 
 
 

@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_SUBLAYER_SUBSCRIPTION0_
 title: FWPM_SUBLAYER_SUBSCRIPTION0 (fwpmtypes.h)
 description: Used to subscribe for change notifications.
+helpviewer_keywords: ["FWPM_SUBLAYER_SUBSCRIPTION0","FWPM_SUBLAYER_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_sublayer_subscription0_struct","fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0"]
 old-location: fwp\fwpm_sublayer_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: bfd0f35a-7f56-42e4-b3da-cd7c4a2bae5e
@@ -61,7 +62,7 @@ The <b>FWPM_SUBLAYER_SUBSCRIPTION0</b> structure is used to subscribe for change
 
  Enumeration template for limiting the subscription.
 
-See [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)a> for more information.
+See [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0) for more information.
 
 
 ### -field flags
@@ -121,7 +122,7 @@ If
 
 
 
-[FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)a>
+[FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)
 
 
 

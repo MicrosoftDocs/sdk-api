@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.ITransferSource.RenameItem
 title: ITransferSource::RenameItem (shobjidl_core.h)
 description: Changes the name of an item, returning the IShellItem with the new name.
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","RenameItem method","ITransferSource.RenameItem","ITransferSource::RenameItem","RenameItem","RenameItem method [Windows Shell]","RenameItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_RenameItem","shell.ITransferSource_RenameItem","shobjidl_core/ITransferSource::RenameItem"]
 old-location: shell\ITransferSource_RenameItem.htm
 tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e
@@ -73,9 +74,9 @@ A pointer to a null-terminated, Unicode string containing the new name.
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNewDest [out]

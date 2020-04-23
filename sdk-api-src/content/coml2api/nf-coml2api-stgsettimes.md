@@ -1,7 +1,7 @@
 ---
 UID: NF:coml2api.StgSetTimes
 title: StgSetTimes function (coml2api.h)
-description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.
+description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.helpviewer_keywords: ["StgSetTimes","StgSetTimes function [Structured Storage]","_stg_stgsettimes","coml2api/StgSetTimes","stg.stgsettimes"]
 old-location: stg\stgsettimes.htm
 tech.root: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15

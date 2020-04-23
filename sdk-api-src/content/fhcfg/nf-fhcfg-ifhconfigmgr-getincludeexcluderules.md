@@ -1,7 +1,7 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.GetIncludeExcludeRules
 title: IFhConfigMgr::GetIncludeExcludeRules (fhcfg.h)
-description: Retrieves the inclusion and exclusion rules that are currently stored in an FhConfigMgr object.
+description: Retrieves the inclusion and exclusion rules that are currently stored in an FhConfigMgr object.helpviewer_keywords: ["FhConfigMgr class [Windows API]","GetIncludeExcludeRules method","GetIncludeExcludeRules","GetIncludeExcludeRules method [Windows API]","GetIncludeExcludeRules method [Windows API]","FhConfigMgr class","GetIncludeExcludeRules method [Windows API]","IFhConfigMgr interface","IFhConfigMgr interface [Windows API]","GetIncludeExcludeRules method","IFhConfigMgr.GetIncludeExcludeRules","IFhConfigMgr::GetIncludeExcludeRules","fhcfg/IFhConfigMgr::GetIncludeExcludeRules","winprog.ifhconfigmgr_getincludeexcluderules"]
 old-location: winprog\ifhconfigmgr_getincludeexcluderules.htm
 tech.root: DevNotes
 ms.assetid: DE137C08-923D-4ADC-8EBC-2F277F72CAE4

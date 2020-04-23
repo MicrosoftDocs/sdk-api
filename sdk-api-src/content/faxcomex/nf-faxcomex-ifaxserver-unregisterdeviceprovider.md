@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxServer.UnregisterDeviceProvider
 title: IFaxServer::UnregisterDeviceProvider (faxcomex.h)
-description: The IFaxServer::UnregisterDeviceProvider method unregisters (removes the registration of) an existing device provider. Unregistration will take place only after the fax server is restarted.
+description: The IFaxServer::UnregisterDeviceProvider method unregisters (removes the registration of) an existing device provider. Unregistration will take place only after the fax server is restarted.helpviewer_keywords: ["IFaxServer interface [Fax Service]","UnregisterDeviceProvider method","IFaxServer.UnregisterDeviceProvider","IFaxServer::UnregisterDeviceProvider","UnregisterDeviceProvider","UnregisterDeviceProvider method [Fax Service]","UnregisterDeviceProvider method [Fax Service]","IFaxServer interface","_mfax_faxserver.unregisterdeviceprovider","fax._mfax_faxserver_cpp_mfax_faxserver_unregisterdeviceprovider_cpp","fax._mfax_faxserver_unregisterdeviceprovider","faxcomex/IFaxServer::UnregisterDeviceProvider"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_unregisterdeviceprovider_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8h82.htm

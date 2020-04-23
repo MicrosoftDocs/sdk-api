@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetProxySettings
 title: IBackgroundCopyJob::SetProxySettings (bits.h)
-description: Specifies which proxy to use to transfer files.
+description: Specifies which proxy to use to transfer files.helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetProxySettings method","IBackgroundCopyJob.SetProxySettings","IBackgroundCopyJob::SetProxySettings","SetProxySettings","SetProxySettings method [BITS]","SetProxySettings method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setproxysettings","bits.ibackgroundcopyjob_setproxysettings","bits/IBackgroundCopyJob::SetProxySettings"]
 old-location: bits\ibackgroundcopyjob_setproxysettings.htm
 tech.root: Bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006

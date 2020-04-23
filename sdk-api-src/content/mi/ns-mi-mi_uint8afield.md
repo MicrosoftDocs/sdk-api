@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Uint8AField
 title: MI_Uint8AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure.helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Uint8AField","MI_Uint8AField structure [Windows Management Infrastructure (MI)]","mi/MI_Uint8AField","wmi._mi_uint8afield","wmi_v2.mi_uint8afield"]
 old-location: wmi_v2\mi_uint8afield.htm
 tech.root: wmi_v2
 ms.assetid: 65fee0fc-c444-4360-b6a0-789f5999f1c5

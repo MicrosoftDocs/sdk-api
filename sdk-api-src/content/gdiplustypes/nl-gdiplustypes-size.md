@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplustypes.Size
 title: Size (gdiplustypes.h)
-description: The Size class encapsulates a Width and Height dimension in a 2-D coordinate system.
+description: The Size class encapsulates a Width and Height dimension in a 2-D coordinate system.helpviewer_keywords: ["Size","Size class [GDI+]","Size class [GDI+]","described","_gdiplus_CLASS_Size_Class","gdiplus._gdiplus_CLASS_Size_Class","gdiplustypes/Size"]
 old-location: gdiplus\_gdiplus_CLASS_Size_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\size.htm

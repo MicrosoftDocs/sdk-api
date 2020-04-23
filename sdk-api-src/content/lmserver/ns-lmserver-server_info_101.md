@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_101
 title: SERVER_INFO_101 (lmserver.h)
-description: The SERVER_INFO_101 structure contains information about the specified server, including name, platform, type of server, and associated software.
+description: The SERVER_INFO_101 structure contains information about the specified server, including name, platform, type of server, and associated software.helpviewer_keywords: ["*LPSERVER_INFO_101","*PSERVER_INFO_101","LPSERVER_INFO_101","LPSERVER_INFO_101 structure pointer [Network Management]","PLATFORM_ID_DOS","PLATFORM_ID_NT","PLATFORM_ID_OS2","PLATFORM_ID_OSF","PLATFORM_ID_VMS","PSERVER_INFO_101","PSERVER_INFO_101 structure pointer [Network Management]","SERVER_INFO_101","SERVER_INFO_101 structure [Network Management]","SV_TYPE_AFP","SV_TYPE_ALTERNATE_XPORT","SV_TYPE_BACKUP_BROWSER","SV_TYPE_CLUSTER_NT","SV_TYPE_CLUSTER_VS_NT","SV_TYPE_DCE","SV_TYPE_DFS","SV_TYPE_DIALIN_SERVER","SV_TYPE_DOMAIN_BAKCTRL","SV_TYPE_DOMAIN_CTRL","SV_TYPE_DOMAIN_ENUM","SV_TYPE_DOMAIN_MASTER","SV_TYPE_DOMAIN_MEMBER","SV_TYPE_LOCAL_LIST_ONLY","SV_TYPE_MASTER_BROWSER","SV_TYPE_NOVELL","SV_TYPE_NT","SV_TYPE_POTENTIAL_BROWSER","SV_TYPE_PRINTQ_SERVER","SV_TYPE_SERVER","SV_TYPE_SERVER_MFPN","SV_TYPE_SERVER_NT","SV_TYPE_SERVER_OSF","SV_TYPE_SERVER_VMS","SV_TYPE_SQLSERVER","SV_TYPE_TERMINALSERVER","SV_TYPE_TIME_SOURCE","SV_TYPE_WFW","SV_TYPE_WINDOWS","SV_TYPE_WORKSTATION","SV_TYPE_XENIX_SERVER","_win32_server_info_101_str","lmserver/LPSERVER_INFO_101","lmserver/PSERVER_INFO_101","lmserver/SERVER_INFO_101","netmgmt.server_info_101_str"]
 old-location: netmgmt\server_info_101_str.htm
 tech.root: NetMgmt
 ms.assetid: 6e106a51-9f0c-4603-8121-5b0d01a235b4

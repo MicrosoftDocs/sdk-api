@@ -2,6 +2,7 @@
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateSessions
 title: ITsSbResourcePluginStore::EnumerateSessions (sbtsv.h)
 description: Enumerates a specified set of sessions.
+helpviewer_keywords: ["EnumerateSessions","EnumerateSessions method [Remote Desktop Services]","EnumerateSessions method [Remote Desktop Services]","ITsSbResourcePluginStore interface","EnumerateSessions method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","EnumerateSessions method","ITsSbResourcePluginStore.EnumerateSessions","ITsSbResourcePluginStore::EnumerateSessions","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","EnumerateSessions method","ITsSbResourcePluginStoreEx::EnumerateSessions","sbtsv/ITsSbResourcePluginStore::EnumerateSessions","sbtsv/ITsSbResourcePluginStoreEx::EnumerateSessions","termserv.itssbresourcepluginstore_enumeratesessions"]
 old-location: termserv\itssbresourcepluginstore_enumeratesessions.htm
 tech.root: TermServ
 ms.assetid: 217b5c28-b0f8-4a8f-8695-8c8e0895b508
@@ -85,7 +86,7 @@ The name of the published remote application.
 
 ### -param pSessionState [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a> value of the sessions to enumerate.
+A pointer to the  <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a> value of the sessions to enumerate.
 
 
 ### -param pdwCount [in, out]

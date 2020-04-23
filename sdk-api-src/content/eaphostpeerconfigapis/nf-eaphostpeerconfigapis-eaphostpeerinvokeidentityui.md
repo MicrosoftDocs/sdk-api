@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeIdentityUI
 title: EapHostPeerInvokeIdentityUI function (eaphostpeerconfigapis.h)
 description: This function is called by tunnel methods to invoke the identity UI of the inner methods. This function returns the identity as well as credentials to use in order to start the authentication.
+helpviewer_keywords: ["EapHostPeerInvokeIdentityUI","EapHostPeerInvokeIdentityUI function [EAPHost]","eaphost.eaphostpeerinvokeidentityui","eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI"]
 old-location: eaphost\eaphostpeerinvokeidentityui.htm
 tech.root: eaphost
 ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
@@ -69,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param hwndParent [in]
@@ -128,7 +129,7 @@ Reserved for future use.
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
  
 
  

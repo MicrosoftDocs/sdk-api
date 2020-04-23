@@ -1,7 +1,7 @@
 ---
 UID: NF:unknwn.IUnknown.Release
 title: IUnknown::Release
-description: Decrements the reference count for an interface on a COM object.
+description: Decrements the reference count for an interface on a COM object.helpviewer_keywords: ["IUnknown interface [COM]","Release method","IUnknown.Release","IUnknown::Release","Release","Release method [COM]","Release method [COM]","IUnknown interface","_com_iunknown_release","com.iunknown_release","unknwn/IUnknown::Release"]
 old-location: com\iunknown_release.htm
 tech.root: com
 ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a

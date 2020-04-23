@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoFileTimeToDosDateTime
 title: CoFileTimeToDosDateTime function (objbase.h)
-description: Converts a FILETIME into MS-DOS date and time values.
+description: Converts a FILETIME into MS-DOS date and time values.helpviewer_keywords: ["CoFileTimeToDosDateTime","CoFileTimeToDosDateTime function [COM]","_com_CoFileTimeToDosDateTime","com.cofiletimetodosdatetime","objbase/CoFileTimeToDosDateTime"]
 old-location: com\cofiletimetodosdatetime.htm
 tech.root: com
 ms.assetid: 38670fe7-10cf-44e2-a5f1-60ec43fd83b5

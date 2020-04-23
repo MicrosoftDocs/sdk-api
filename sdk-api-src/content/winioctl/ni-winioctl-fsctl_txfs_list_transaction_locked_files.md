@@ -2,6 +2,7 @@
 UID: NI:winioctl.FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 title: FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 description: Returns a list of all files currently locked by the specified transaction. If the return value is ERROR_MORE_DATA, it returns the length of the buffer required to hold the complete list of files at the time of this call.
+helpviewer_keywords: ["FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES","FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control","FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control code [Files]","fs.fsctl_txfs_list_transaction_locked_files","winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES"]
 old-location: fs\fsctl_txfs_list_transaction_locked_files.htm
 tech.root: FileIO
 ms.assetid: fdef45fd-b197-4428-96c5-ac91b43681b1
@@ -178,7 +179,7 @@ The number of files returned from one
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
  
 
  

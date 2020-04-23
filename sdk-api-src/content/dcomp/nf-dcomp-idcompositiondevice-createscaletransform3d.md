@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateScaleTransform3D
 title: IDCompositionDevice::CreateScaleTransform3D (dcomp.h)
-description: Creates a 3D scale transform object.
+description: Creates a 3D scale transform object.helpviewer_keywords: ["CreateScaleTransform3D","CreateScaleTransform3D method [DirectComposition]","CreateScaleTransform3D method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateScaleTransform3D method","IDCompositionDevice.CreateScaleTransform3D","IDCompositionDevice::CreateScaleTransform3D","dcomp/IDCompositionDevice::CreateScaleTransform3D","directcomp.idcompositiondevice_createscaletransform3d"]
 old-location: directcomp\idcompositiondevice_createscaletransform3d.htm
 tech.root: directcomp
 ms.assetid: 6B9AEEB9-559A-4B7B-A4B5-1C976B92BE7B

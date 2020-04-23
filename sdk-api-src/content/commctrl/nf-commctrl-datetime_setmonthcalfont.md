@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.DateTime_SetMonthCalFont
 title: DateTime_SetMonthCalFont macro (commctrl.h)
-description: Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the DTM_SETMCFONT message.
+description: Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the DTM_SETMCFONT message.helpviewer_keywords: ["DateTime_SetMonthCalFont","DateTime_SetMonthCalFont macro [Windows Controls]","_win32_DateTime_SetMonthCalFont","_win32_DateTime_SetMonthCalFont_cpp","commctrl/DateTime_SetMonthCalFont","controls.DateTime_SetMonthCalFont","controls._win32_DateTime_SetMonthCalFont"]
 old-location: controls\DateTime_SetMonthCalFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalfont.htm

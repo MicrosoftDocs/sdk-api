@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.ILayoutStorage
 title: ILayoutStorage (objidl.h)
-description: The ILayoutStorage interface enables an application to optimize the layout of its compound files for efficient downloading across a slow link.
+description: The ILayoutStorage interface enables an application to optimize the layout of its compound files for efficient downloading across a slow link.helpviewer_keywords: ["ILayoutStorage","ILayoutStorage interface [Structured Storage]","ILayoutStorage interface [Structured Storage]","described","_stg_ilayoutstorage","objidl/ILayoutStorage","stg.ilayoutstorage"]
 old-location: stg\ilayoutstorage.htm
 tech.root: Stg
 ms.assetid: 72201600-4bbb-4346-a13f-927e8463b6ec

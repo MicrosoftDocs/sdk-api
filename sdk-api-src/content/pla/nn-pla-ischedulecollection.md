@@ -1,7 +1,7 @@
 ---
 UID: NN:pla.IScheduleCollection
 title: IScheduleCollection (pla.h)
-description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.
+description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.helpviewer_keywords: ["IScheduleCollection","IScheduleCollection interface [PLA]","IScheduleCollection interface [PLA]","described","base.ischedulecollection","pla.ischedulecollection","pla/IScheduleCollection"]
 old-location: pla\ischedulecollection.htm
 tech.root: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc

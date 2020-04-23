@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeLineJoin
 title: IXpsOMPath::SetStrokeLineJoin (xpsobjectmodel.h)
 description: Sets the style for joining stroke lines.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeLineJoin method","IXpsOMPath.SetStrokeLineJoin","IXpsOMPath::SetStrokeLineJoin","SetStrokeLineJoin","SetStrokeLineJoin method [XPS Documents and Packaging]","SetStrokeLineJoin method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokelinejoin","xpsobjectmodel/IXpsOMPath::SetStrokeLineJoin"]
 old-location: xps\ixpsompath_setstrokelinejoin.htm
 tech.root: printdocs
 ms.assetid: cd650051-ee26-4a8a-b344-2fe84fb2c2a5
@@ -59,7 +60,7 @@ Sets the  style for joining stroke lines.
 
 ### -param strokeLineJoin [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value to be set.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value to be set.
 
 
 ## -returns
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeLineJoin</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value.
+<i>strokeLineJoin</i> is not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>.
+For more information about the line join styles, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>.
 
 
 

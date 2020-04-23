@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATEnumerateCatAttr
 title: CryptCATEnumerateCatAttr function (mscat.h)
 description: Enumerates the attributes associated with a catalog. This function has no associated import library.
+helpviewer_keywords: ["CryptCATEnumerateCatAttr","CryptCATEnumerateCatAttr function [Security]","mscat/CryptCATEnumerateCatAttr","security.cryptcatenumeratecatattr"]
 old-location: security\cryptcatenumeratecatattr.htm
 tech.root: SecCrypto
 ms.assetid: 57b6ff5c-e47e-41ac-8ec8-01a47ea77acf
@@ -66,14 +67,14 @@ Handle for the catalog whose attributes are being enumerated. This value cannot 
 
 ### -param pPrevAttr [in]
 
-A pointer to the previously returned pointer to  the [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure from this function or pointer to <b>NULL</b> to start the enumeration.
+A pointer to the previously returned pointer to  the [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure from this function or pointer to <b>NULL</b> to start the enumeration.
 
 
 ## -returns
 
 
 
-The return value is a pointer to the  [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure that contains the attribute information or <b>NULL</b>, if no more attributes are in the enumeration or if an error is encountered. The returned pointer is passed in as the <i>pPrevAttr</i> parameter for subsequent calls to this function.
+The return value is a pointer to the  [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the attribute information or <b>NULL</b>, if no more attributes are in the enumeration or if an error is encountered. The returned pointer is passed in as the <i>pPrevAttr</i> parameter for subsequent calls to this function.
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothDisplayDeviceProperties
 title: BluetoothDisplayDeviceProperties function (bluetoothapis.h)
 description: Starts Control Panel device information property sheet.
+helpviewer_keywords: ["BluetoothDisplayDeviceProperties","BluetoothDisplayDeviceProperties function [Bluetooth]","bluetooth.bluetoothdisplaydeviceproperties","bluetoothapis/BluetoothDisplayDeviceProperties"]
 old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
 tech.root: bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34
@@ -64,7 +65,7 @@ A handle to the parent window of the property sheet.
 
 ### -param pbtdi
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure that contains information about the Bluetooth device.
+A pointer to the <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure that contains information about the Bluetooth device.
 
 
 ## -returns
@@ -81,11 +82,11 @@ Returns <b>TRUE</b> if the property sheet is successfully displayed. Returns <b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

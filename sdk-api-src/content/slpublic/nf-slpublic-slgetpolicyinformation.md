@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLGetPolicyInformation
 title: SLGetPolicyInformation function (slpublic.h)
-description: Gets the policy information after right has been consumed successfully.
+description: Gets the policy information after right has been consumed successfully.helpviewer_keywords: ["SLGetPolicyInformation","SLGetPolicyInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","security.slgetpolicyinformation","slpublic/SLGetPolicyInformation"]
 old-location: security\slgetpolicyinformation.htm
 tech.root: SecSLApi
 ms.assetid: a9cfd1a0-e622-4726-918b-264f196a4e85

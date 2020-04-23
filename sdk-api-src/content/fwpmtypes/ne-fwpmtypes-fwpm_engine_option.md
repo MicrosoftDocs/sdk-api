@@ -1,7 +1,7 @@
 ---
 UID: NE:fwpmtypes.FWPM_ENGINE_OPTION_
 title: FWPM_ENGINE_OPTION (fwpmtypes.h)
-description: Configurable options for the filter engine.
+description: Configurable options for the filter engine.helpviewer_keywords: ["FWPM_ENGINE_COLLECT_NET_EVENTS","FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS","FWPM_ENGINE_NAME_CACHE","FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS","FWPM_ENGINE_OPTION","FWPM_ENGINE_OPTION enumeration [Filtering]","FWPM_ENGINE_OPTION_MAX","FWPM_ENGINE_PACKET_QUEUING","FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC","fwp.fwpm_engine_option","fwpmtypes/FWPM_ENGINE_COLLECT_NET_EVENTS","fwpmtypes/FWPM_ENGINE_MONITOR_IPSEC_CONNECTIONS","fwpmtypes/FWPM_ENGINE_NAME_CACHE","fwpmtypes/FWPM_ENGINE_NET_EVENT_MATCH_ANY_KEYWORDS","fwpmtypes/FWPM_ENGINE_OPTION","fwpmtypes/FWPM_ENGINE_OPTION_MAX","fwpmtypes/FWPM_ENGINE_PACKET_QUEUING","fwpmtypes/FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC"]
 old-location: fwp\fwpm_engine_option.htm
 tech.root: fwp
 ms.assetid: e70986af-0c38-4fe6-a59f-3c45ce98bcc0

@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationRangeValuePattern
 title: IUIAutomationRangeValuePattern (uiautomationclient.h)
-description: Provides access to a control that presents a range of values.
+description: Provides access to a control that presents a range of values.helpviewer_keywords: ["IUIAutomationRangeValuePattern","IUIAutomationRangeValuePattern interface [Windows Accessibility]","IUIAutomationRangeValuePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationRangeValuePattern","uiauto_IUIAutomationRangeValuePattern","uiautomationclient/IUIAutomationRangeValuePattern","winauto.uiauto_IUIAutomationRangeValuePattern"]
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern.htm
 tech.root: WinAuto
 ms.assetid: 145c14e5-1b6b-4eb1-a73a-aa59b5e1b4c4

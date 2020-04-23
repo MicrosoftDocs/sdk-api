@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_MaxChannel
 title: IAnalogTVTuningSpace::get_MaxChannel (tuner.h)
-description: The get_MaxChannel method gets the highest channel number for this tuning space.
+description: The get_MaxChannel method gets the highest channel number for this tuning space.helpviewer_keywords: ["IAnalogTVTuningSpace interface [Microsoft TV Technologies]","get_MaxChannel method","IAnalogTVTuningSpace.get_MaxChannel","IAnalogTVTuningSpace::get_MaxChannel","IAnalogTVTuningSpaceget_MaxChannel","get_MaxChannel","get_MaxChannel method [Microsoft TV Technologies]","get_MaxChannel method [Microsoft TV Technologies]","IAnalogTVTuningSpace interface","mstv.ianalogtvtuningspace_get_maxchannel","tuner/IAnalogTVTuningSpace::get_MaxChannel"]
 old-location: mstv\ianalogtvtuningspace_get_maxchannel.htm
 tech.root: mstv
 ms.assetid: e6ac3789-1989-4331-ad00-6720f4503bb7

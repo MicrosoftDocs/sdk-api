@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.ISCPSecureQuery3
 title: ISCPSecureQuery3 (mswmdm.h)
-description: The ISCPSecureQuery3 interface extends ISCPSecureQuery2 by providing a set of new methods for retrieving the rights and making decision on a clear channel.
+description: The ISCPSecureQuery3 interface extends ISCPSecureQuery2 by providing a set of new methods for retrieving the rights and making decision on a clear channel.helpviewer_keywords: ["ISCPSecureQuery3","ISCPSecureQuery3 interface [windows Media Device Manager]","ISCPSecureQuery3 interface [windows Media Device Manager]","described","ISCPSecureQuery3Interface","mswmdm/ISCPSecureQuery3","wmdm.iscpsecurequery3"]
 old-location: wmdm\iscpsecurequery3.htm
 tech.root: WMDM
 ms.assetid: 3d600ae9-5d5b-48f6-a162-e52f78beb983

@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.TextRenderingHint
 title: TextRenderingHint (gdiplusenums.h)
-description: The TextRenderingHint enumeration specifies the process used to render text. The process affects the quality of the text.
+description: The TextRenderingHint enumeration specifies the process used to render text. The process affects the quality of the text.helpviewer_keywords: ["TextRenderingHint","TextRenderingHint enumeration [GDI+]","TextRenderingHintAntiAlias","TextRenderingHintAntiAliasGridFit","TextRenderingHintClearTypeGridFit","TextRenderingHintSingleBitPerPixel","TextRenderingHintSingleBitPerPixelGridFit","TextRenderingHintSystemDefault","_gdiplus_ENUM_TextRenderingHint","gdiplus._gdiplus_ENUM_TextRenderingHint","gdiplusenums/TextRenderingHint","gdiplusenums/TextRenderingHintAntiAlias","gdiplusenums/TextRenderingHintAntiAliasGridFit","gdiplusenums/TextRenderingHintClearTypeGridFit","gdiplusenums/TextRenderingHintSingleBitPerPixel","gdiplusenums/TextRenderingHintSingleBitPerPixelGridFit","gdiplusenums/TextRenderingHintSystemDefault"]
 old-location: gdiplus\_gdiplus_ENUM_TextRenderingHint.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\textrenderinghint.htm

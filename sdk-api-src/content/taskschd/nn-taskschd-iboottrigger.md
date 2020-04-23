@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IBootTrigger
 title: IBootTrigger (taskschd.h)
-description: Represents a trigger that starts a task when the system is started.
+description: Represents a trigger that starts a task when the system is started.helpviewer_keywords: ["IBootTrigger","IBootTrigger interface [Task Scheduler]","IBootTrigger interface [Task Scheduler]","described","boot trigger [Task Scheduler]","interface","taskschd.iboottrigger","taskschd/IBootTrigger"]
 old-location: taskschd\iboottrigger.htm
 tech.root: taskschd
 ms.assetid: 8f186ee2-8d74-426c-9173-523a335422c9

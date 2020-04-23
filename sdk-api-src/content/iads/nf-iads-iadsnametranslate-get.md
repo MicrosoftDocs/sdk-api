@@ -2,6 +2,7 @@
 UID: NF:iads.IADsNameTranslate.Get
 title: IADsNameTranslate::Get (iads.h)
 description: Retrieves the name of a directory object in the specified format.
+helpviewer_keywords: ["Get","Get method [ADSI]","Get method [ADSI]","IADsNameTranslate interface","IADsNameTranslate interface [ADSI]","Get method","IADsNameTranslate.Get","IADsNameTranslate::Get","_ds_iadsnametranslate_get","adsi.iadsnametranslate__get","adsi.iadsnametranslate_get","iads/IADsNameTranslate::Get"]
 old-location: adsi\iadsnametranslate_get.htm
 tech.root: adsi
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
@@ -59,7 +60,7 @@ The <b>IADsNameTranslate::Get</b> method retrieves the name of a directory objec
 
 ### -param lnFormatType
 
-The format type of the output name. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the <b>ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME</b> element in <b>ADS_NAME_TYPE_ENUM</b>.
+The format type of the output name. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the <b>ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME</b> element in <b>ADS_NAME_TYPE_ENUM</b>.
 
 
 ### -param pbstrADsPath
@@ -171,7 +172,7 @@ The following VBScript/ASP code example shows how to translate a distinguished n
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.NotifyRouteChange2
 title: NotifyRouteChange2 function (netioapi.h)
-description: Registers to be notified for changes to IP route entries on a local computer.
+description: Registers to be notified for changes to IP route entries on a local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","NotifyRouteChange2","NotifyRouteChange2 function [IP Helper]","iphlp.notifyroutechange2","netioapi/NotifyRouteChange2"]
 old-location: iphlp\notifyroutechange2.htm
 tech.root: IpHlp
 ms.assetid: f104dc0c-b3e0-4f22-ac5f-5dbf967be31b

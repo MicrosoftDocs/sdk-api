@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxAccountIncomingQueue
 title: IFaxAccountIncomingQueue (faxcomex.h)
-description: Used by a fax client application to retrieve the inbound fax jobs (FaxIncomingJobs object) in the job queue for a particular fax account.
+description: Used by a fax client application to retrieve the inbound fax jobs (FaxIncomingJobs object) in the job queue for a particular fax account.helpviewer_keywords: ["IFaxAccountIncomingQueue","IFaxAccountIncomingQueue interface [Fax Service]","IFaxAccountIncomingQueue interface [Fax Service]","described","_mfax_faxaccountincomingqueue_cpp","fax._mfax_faxaccountincomingqueue_cpp","faxcomex/IFaxAccountIncomingQueue"]
 old-location: fax\_mfax_faxaccountincomingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingqueue\faxinta_n_ifaxaccountincomingqueue_cpp.htm

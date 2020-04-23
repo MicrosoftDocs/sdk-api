@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.MakeResident
 title: ID3D12Device::MakeResident (d3d12.h)
-description: Makes objects resident for the device.
+description: Makes objects resident for the device.helpviewer_keywords: ["ID3D12Device interface","MakeResident method","ID3D12Device.MakeResident","ID3D12Device::MakeResident","MakeResident","MakeResident method","MakeResident method","ID3D12Device interface","d3d12/ID3D12Device::MakeResident","direct3d12.id3d12device_makeresident"]
 old-location: direct3d12\id3d12device_makeresident.htm
 tech.root: direct3d12
 ms.assetid: 2B3B97DC-5AA3-470E-8EED-3956B295BB94

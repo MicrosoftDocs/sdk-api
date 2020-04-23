@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.MCIWndSetRepeat
 title: MCIWndSetRepeat macro (vfw.h)
-description: The MCIWndSetRepeat macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the MCIWNDM_SETREPEAT message.
+description: The MCIWndSetRepeat macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the MCIWNDM_SETREPEAT message.helpviewer_keywords: ["MCIWndSetRepeat","MCIWndSetRepeat macro [Windows Multimedia]","_win32_MCIWndSetRepeat","multimedia.mciwndsetrepeat","vfw/MCIWndSetRepeat"]
 old-location: multimedia\mciwndsetrepeat.htm
 tech.root: Multimedia
 ms.assetid: e9c64f01-dd51-4f45-bf58-e930d5d23461

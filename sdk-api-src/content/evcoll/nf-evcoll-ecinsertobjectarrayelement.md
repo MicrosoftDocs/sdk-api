@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcInsertObjectArrayElement
 title: EcInsertObjectArrayElement function (evcoll.h)
-description: Inserts an empty object into an array of property values for the event sources of a subscription.
+description: Inserts an empty object into an array of property values for the event sources of a subscription.helpviewer_keywords: ["EcInsertObjectArrayElement","EcInsertObjectArrayElement function","evcoll/EcInsertObjectArrayElement","wec.ecinsertobjectarrayelement","wes.ecinsertobjectarrayelement"]
 old-location: wec\ecinsertobjectarrayelement.htm
 tech.root: WEC
 ms.assetid: 65b0db2f-f929-4d7e-8804-c93b9e127323

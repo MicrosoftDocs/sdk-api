@@ -1,7 +1,7 @@
 ---
 UID: NN:upnp.IUPnPDevice
 title: IUPnPDevice (upnp.h)
-description: The IUPnPDevice interface enables an application to retrieve information about a specific device.
+description: The IUPnPDevice interface enables an application to retrieve information about a specific device.helpviewer_keywords: ["IUPnPDevice","IUPnPDevice interface [UPnP APIs]","IUPnPDevice interface [UPnP APIs]","described","_upnp_iupnpdevice","upnp.iupnpdevice","upnp/IUPnPDevice"]
 old-location: upnp\iupnpdevice.htm
 tech.root: upnp
 ms.assetid: 566cc606-3dfb-4052-93b0-3c922bf30f84

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmreports.IFsrmReportScheduler
 title: IFsrmReportScheduler (fsrmreports.h)
-description: Used to manage scheduled tasks for report jobs and file management jobs.
+description: Used to manage scheduled tasks for report jobs and file management jobs.helpviewer_keywords: ["IFsrmReportScheduler","IFsrmReportScheduler interface [File Server Resource Manager]","IFsrmReportScheduler interface [File Server Resource Manager]","described","fs.ifsrmreportscheduler","fsrm.ifsrmreportscheduler","fsrmreports/IFsrmReportScheduler"]
 old-location: fsrm\ifsrmreportscheduler.htm
 tech.root: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IPBDASiParser.GetServices
 title: IPBDASiParser::GetServices (dvbsiparser.h)
-description: Retrieves a list of services from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.
+description: Retrieves a list of services from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["GetServices","GetServices method [Microsoft TV Technologies]","GetServices method [Microsoft TV Technologies]","IPBDASiParser interface","IPBDASiParser interface [Microsoft TV Technologies]","GetServices method","IPBDASiParser.GetServices","IPBDASiParser::GetServices","dshow.ipbdasiparser_getservices","dvbsiparser/IPBDASiParser::GetServices","mstv.ipbdasiparser_getservices"]
 old-location: mstv\ipbdasiparser_getservices.htm
 tech.root: mstv
 ms.assetid: 0d6848f2-6fcd-4e7c-b1fc-b8f56e6c65b6

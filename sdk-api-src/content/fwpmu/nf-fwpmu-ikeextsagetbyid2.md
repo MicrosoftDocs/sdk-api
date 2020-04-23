@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IkeextSaGetById2
 title: IkeextSaGetById2 function (fwpmu.h)
 description: Retrieves an IKE/AuthIP security association (SA) from the database.
+helpviewer_keywords: ["IkeextSaGetById2","IkeextSaGetById2 function [Filtering]","fwp.ikeextsagetbyid2","fwpmu/IkeextSaGetById2"]
 old-location: fwp\ikeextsagetbyid2.htm
 tech.root: fwp
 ms.assetid: 5ea04fdc-d06d-4e8e-9c66-3a6df4372481
@@ -80,7 +81,7 @@ Optional pointer to the SA lookup context propagated from the SA to data connect
 
 ### -param sa [out]
 
-Type: [IKEEXT_SA_DETAILS2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2)a>**</b>
+Type: [IKEEXT_SA_DETAILS2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2)**</b>
 
 Address of the SA details.
 
@@ -154,7 +155,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IKEEXT_SA_DETAILS2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2)a>
+[IKEEXT_SA_DETAILS2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2)
  
 
  

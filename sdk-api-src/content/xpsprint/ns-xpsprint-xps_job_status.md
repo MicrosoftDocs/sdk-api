@@ -2,6 +2,7 @@
 UID: NS:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0002
 title: XPS_JOB_STATUS (xpsprint.h)
 description: Contains a snapshot of job status.
+helpviewer_keywords: ["XPS_JOB_STATUS","XPS_JOB_STATUS structure [Windows GDI]","gdi.xps_job_status","xpsprint/XPS_JOB_STATUS"]
 old-location: gdi\xps_job_status.htm
 tech.root: printdocs
 ms.assetid: c4e13960-4f26-460a-b47e-98b833fcdfd5
@@ -81,7 +82,7 @@ A running total of the number of pages that have been processed by the print job
 
 ### -field completion
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
+The <a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
 
 
 ### -field jobStatus
@@ -106,7 +107,7 @@ The error state of the job.  If the job finishes without an error, this value wi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
+<a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.IsUpdateNeeded
 title: IAzAuthorizationStore3::IsUpdateNeeded (azroles.h)
-description: Checks whether the persisted version of this authorization store is newer than the cached version.
+description: Checks whether the persisted version of this authorization store is newer than the cached version.helpviewer_keywords: ["IAzAuthorizationStore3 interface [Security]","IsUpdateNeeded method","IAzAuthorizationStore3.IsUpdateNeeded","IAzAuthorizationStore3::IsUpdateNeeded","IsUpdateNeeded","IsUpdateNeeded method [Security]","IsUpdateNeeded method [Security]","IAzAuthorizationStore3 interface","azroles/IAzAuthorizationStore3::IsUpdateNeeded","security.iazauthorizationstore3_isupdateneeded_method"]
 old-location: security\iazauthorizationstore3_isupdateneeded_method.htm
 tech.root: SecAuthZ
 ms.assetid: 2b5bed8f-f38a-46dd-b889-65d43b13ce7c

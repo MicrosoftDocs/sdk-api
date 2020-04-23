@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.put_FrequencyMapping
 title: IFrequencyMap::put_FrequencyMapping (bdaiface.h)
-description: The put_FrequencyMapping method sets the frequency table.
+description: The put_FrequencyMapping method sets the frequency table.helpviewer_keywords: ["IFrequencyMap interface [Microsoft TV Technologies]","put_FrequencyMapping method","IFrequencyMap.put_FrequencyMapping","IFrequencyMap::put_FrequencyMapping","IFrequencyMapput_FrequencyMapping","bdaiface/IFrequencyMap::put_FrequencyMapping","mstv.ifrequencymap_put_frequencymapping","put_FrequencyMapping","put_FrequencyMapping method [Microsoft TV Technologies]","put_FrequencyMapping method [Microsoft TV Technologies]","IFrequencyMap interface"]
 old-location: mstv\ifrequencymap_put_frequencymapping.htm
 tech.root: mstv
 ms.assetid: cfde2c8e-803d-46b8-b3d4-8e9b3129af0e

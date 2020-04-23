@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICDecompressExBegin
 title: ICDecompressExBegin function (vfw.h)
-description: The ICDecompressExBegin function prepares a decompressor for decompressing data.
+description: The ICDecompressExBegin function prepares a decompressor for decompressing data.helpviewer_keywords: ["ICDecompressExBegin","ICDecompressExBegin function [Windows Multimedia]","_win32_ICDecompressExBegin","multimedia.icdecompressexbegin","vfw/ICDecompressExBegin"]
 old-location: multimedia\icdecompressexbegin.htm
 tech.root: Multimedia
 ms.assetid: 35277938-6fae-4207-8b91-439af2b481e8

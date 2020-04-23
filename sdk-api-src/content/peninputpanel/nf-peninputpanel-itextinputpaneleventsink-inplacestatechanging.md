@@ -2,6 +2,7 @@
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceStateChanging
 title: ITextInputPanelEventSink::InPlaceStateChanging (peninputpanel.h)
 description: Occurs when the In-Place state is about to change.
+helpviewer_keywords: ["866fcd8d-775c-4dc0-824f-6817767247d9","ITextInputPanelEventSink interface [Tablet PC]","InPlaceStateChanging method","ITextInputPanelEventSink.InPlaceStateChanging","ITextInputPanelEventSink::InPlaceStateChanging","InPlaceStateChanging","InPlaceStateChanging method [Tablet PC]","InPlaceStateChanging method [Tablet PC]","ITextInputPanelEventSink interface","peninputpanel/ITextInputPanelEventSink::InPlaceStateChanging","tablet.itextinputpaneleventsink_inplacestatechanging"]
 old-location: tablet\itextinputpaneleventsink_inplacestatechanging.htm
 tech.root: tablet
 ms.assetid: 866fcd8d-775c-4dc0-824f-6817767247d9
@@ -62,12 +63,12 @@ Occurs when the In-Place state is about to change.
 
 ### -param oldInPlaceState [in]
 
-The current state, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
+The current state, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 ### -param newInPlaceState [in]
 
-The new state that the Input Panel is changing to, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
+The new state that the Input Panel is changing to, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 
 ## -returns

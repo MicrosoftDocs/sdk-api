@@ -1,7 +1,7 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_SENDS
 title: XAUDIO2_VOICE_SENDS (xaudio2.h)
-description: Defines a set of voices to receive data from a single output voice.
+description: Defines a set of voices to receive data from a single output voice.helpviewer_keywords: ["XAUDIO2_VOICE_SENDS","XAUDIO2_VOICE_SENDS structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_voice_sends","xaudio2/XAUDIO2_VOICE_SENDS"]
 old-location: xaudio2\xaudio2_voice_sends.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_SENDS

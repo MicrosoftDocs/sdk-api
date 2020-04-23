@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3Transform
 title: XMVector3Transform function (directxmath.h)
-description: Transforms a 3D vector by a matrix.
+description: Transforms a 3D vector by a matrix.helpviewer_keywords: ["Use DirectX..XMVector3Transform","XMVector3Transform","XMVector3Transform method [DirectX Math Support APIs]","dxmath.xmvector3transform"]
 old-location: dxmath\xmvector3transform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Transform(XMVECTOR,XMMATRIX)

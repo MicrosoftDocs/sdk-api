@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_REQUEST
 title: CMC_TAGGED_REQUEST (wincrypt.h)
-description: Used in the CMC_DATA_INFO structures to request a certificate.
+description: Used in the CMC_DATA_INFO structures to request a certificate.helpviewer_keywords: ["*PCMC_TAGGED_REQUEST","CMC_TAGGED_REQUEST","CMC_TAGGED_REQUEST structure [Security]","PCMC_TAGGED_REQUEST","PCMC_TAGGED_REQUEST structure pointer [Security]","_crypto2_cmc_tagged_request","security.cmc_tagged_request","wincrypt/CMC_TAGGED_REQUEST","wincrypt/PCMC_TAGGED_REQUEST"]
 old-location: security\cmc_tagged_request.htm
 tech.root: SecCrypto
 ms.assetid: 425a3f14-8bc9-471d-b11c-1608db473cce

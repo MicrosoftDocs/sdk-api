@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Remove
 title: ITriggerCollection::Remove (taskschd.h)
-description: Removes the specified trigger from the collection of triggers used by the task.
+description: Removes the specified trigger from the collection of triggers used by the task.helpviewer_keywords: ["ITriggerCollection interface [Task Scheduler]","Remove method","ITriggerCollection.Remove","ITriggerCollection::Remove","Remove","Remove method [Task Scheduler]","Remove method [Task Scheduler]","ITriggerCollection interface","taskschd.itriggercollection_remove","taskschd/ITriggerCollection::Remove","triggers [Task Scheduler]","removing"]
 old-location: taskschd\itriggercollection_remove.htm
 tech.root: taskschd
 ms.assetid: af3e04e6-20ec-412b-a0d2-41d31137dfca

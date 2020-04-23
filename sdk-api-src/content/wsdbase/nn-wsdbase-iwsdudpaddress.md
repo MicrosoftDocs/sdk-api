@@ -1,7 +1,7 @@
 ---
 UID: NN:wsdbase.IWSDUdpAddress
 title: IWSDUdpAddress (wsdbase.h)
-description: Provides access to the individual components of a UDP address.
+description: Provides access to the individual components of a UDP address.helpviewer_keywords: ["IWSDUdpAddress","IWSDUdpAddress interface","IWSDUdpAddress interface","described","ncd.iwsdudpaddress","wsdbase/IWSDUdpAddress"]
 old-location: ncd\iwsdudpaddress.htm
 tech.root: WsdApi
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e

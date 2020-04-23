@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._CRYPT_PROPERTY_REF
 title: CRYPT_PROPERTY_REF (bcrypt.h)
-description: Contains information about a CNG context property.
+description: Contains information about a CNG context property.helpviewer_keywords: ["*PCRYPT_PROPERTY_REF","CRYPT_PROPERTY_REF","CRYPT_PROPERTY_REF structure [Security]","PCRYPT_PROPERTY_REF","PCRYPT_PROPERTY_REF structure pointer [Security]","bcrypt/CRYPT_PROPERTY_REF","bcrypt/PCRYPT_PROPERTY_REF","security.crypt_property_ref"]
 old-location: security\crypt_property_ref.htm
 tech.root: SecCNG
 ms.assetid: 450225b8-87f2-4ce2-853d-e78cf64bd13d

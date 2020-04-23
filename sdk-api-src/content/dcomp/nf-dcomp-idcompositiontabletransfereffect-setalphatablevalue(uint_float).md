@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetAlphaTableValue (dcomp.h)
-description: Sets a value in the alpha table.
+description: Sets a value in the alpha table.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetAlphaTableValue method","IDCompositionTableTransferEffect.SetAlphaTableValue","IDCompositionTableTransferEffect::SetAlphaTableValue","IDCompositionTableTransferEffect::SetAlphaTableValue(UINT","float)","SetAlphaTableValue","SetAlphaTableValue method [DirectComposition]","SetAlphaTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue","directcomp.idcompositiontabletransfereffect_setalphatablevalue"]
 old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue.htm
 tech.root: directcomp
 ms.assetid: 53821725-EB51-47C4-9C9F-403D41FD1FA4

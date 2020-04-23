@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS
 title: IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS (mfidl.h)
-description: Completes an asynchronous request to register the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
+description: Completes an asynchronous request to register the topology work queues with the Multimedia Class Scheduler Service (MMCSS).helpviewer_keywords: ["42eb1a1c-3287-4dee-ab95-fd047a16e345","EndRegisterTopologyWorkQueuesWithMMCSS","EndRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","EndRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","EndRegisterTopologyWorkQueuesWithMMCSS method","IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS","IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS","mf.imfworkqueueservices_endregistertopologyworkqueueswithmmcss","mfidl/IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS"]
 old-location: mf\imfworkqueueservices_endregistertopologyworkqueueswithmmcss.htm
 tech.root: medfound
 ms.assetid: 42eb1a1c-3287-4dee-ab95-fd047a16e345

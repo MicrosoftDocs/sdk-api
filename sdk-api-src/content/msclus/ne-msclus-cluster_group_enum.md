@@ -2,6 +2,7 @@
 UID: NE:msclus.CLUSTER_GROUP_ENUM
 title: CLUSTER_GROUP_ENUM (msclus.h)
 description: Describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions.
+helpviewer_keywords: ["CLUSTER_GROUP_ENUM","CLUSTER_GROUP_ENUM enumeration [Failover Cluster]","CLUSTER_GROUP_ENUM_ALL","CLUSTER_GROUP_ENUM_CONTAINS","CLUSTER_GROUP_ENUM_NODES","_CLUSTER_GROUP_ENUM","_CLUSTER_GROUP_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_GROUP_ENUM","clusapi/CLUSTER_GROUP_ENUM_ALL","clusapi/CLUSTER_GROUP_ENUM_CONTAINS","clusapi/CLUSTER_GROUP_ENUM_NODES","clusapi/_CLUSTER_GROUP_ENUM","msclus/CLUSTER_GROUP_ENUM","msclus/CLUSTER_GROUP_ENUM_ALL","msclus/CLUSTER_GROUP_ENUM_CONTAINS","msclus/CLUSTER_GROUP_ENUM_NODES","msclus/_CLUSTER_GROUP_ENUM","mscs.cluster_group_enum"]
 old-location: mscs\cluster_group_enum.htm
 tech.root: MsCS
 ms.assetid: c70bc230-850b-4290-8275-f60ffc8d66bd
@@ -52,7 +53,7 @@ ms.custom: 19H1
 
 Describes the type of cluster object being enumerated by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a> and 
-    [ClusterGroupOpenEnum](/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum)a> functions.
+    [ClusterGroupOpenEnum](/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum) functions.
 
 
 ## -enum-fields
@@ -95,7 +96,7 @@ The <b>CLUSTER_GROUP_ENUM_ALL</b> enumeration value is not a valid value for the
 
 
 
-[ClusterGroupOpenEnum](/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum)a>
+[ClusterGroupOpenEnum](/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum)
 
 
 

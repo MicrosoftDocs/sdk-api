@@ -1,7 +1,7 @@
 ---
 UID: NF:provider.Provider.ValidateFlags
 title: Provider::ValidateFlags (provider.h)
-description: The ValidateFlags method determines whether a set of flags is valid.
+description: The ValidateFlags method determines whether a set of flags is valid.helpviewer_keywords: ["Provider interface [Windows Management Instrumentation]","ValidateFlags method","Provider.ValidateFlags","Provider::ValidateFlags","ValidateFlags","ValidateFlags method [Windows Management Instrumentation]","ValidateFlags method [Windows Management Instrumentation]","Provider interface","_hmm_provider_validateflags","provider/Provider::ValidateFlags","wmi.provider_validateflags"]
 old-location: wmi\provider_validateflags.htm
 tech.root: WmiSdk
 ms.assetid: 1d6d1006-99b9-4646-a5c4-835940ce3ac0

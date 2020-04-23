@@ -2,6 +2,7 @@
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_DATA_STREAM
 title: MINIDUMP_HANDLE_DATA_STREAM (minidumpapiset.h)
 description: Represents the header for a handle data stream.
+helpviewer_keywords: ["*PMINIDUMP_HANDLE_DATA_STREAM","MINIDUMP_HANDLE_DATA_STREAM","MINIDUMP_HANDLE_DATA_STREAM structure","PMINIDUMP_HANDLE_DATA_STREAM","PMINIDUMP_HANDLE_DATA_STREAM structure pointer","_MINIDUMP_HANDLE_DATA_STREAM","_win32_minidump_handle_data_stream_str","base.minidump_handle_data_stream_str","minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM","minidumpapiset/PMINIDUMP_HANDLE_DATA_STREAM"]
 old-location: base\minidump_handle_data_stream_str.htm
 tech.root: Debug
 ms.assetid: 5674df6b-77e0-4bca-8349-8217388902ed
@@ -82,7 +83,7 @@ Reserved for future use; must be zero.
 
 
 In this context, a data stream is a set of data in a minidump file. This header structure is followed by <b>NumberOfDescriptors</b>
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR</a> or <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor_2">MINIDUMP_HANDLE_DESCRIPTOR_2</a> structures.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR</a> or <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor_2">MINIDUMP_HANDLE_DESCRIPTOR_2</a> structures.
 
 
 
@@ -92,11 +93,11 @@ In this context, a data stream is a set of data in a minidump file. This header 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
 
 
 

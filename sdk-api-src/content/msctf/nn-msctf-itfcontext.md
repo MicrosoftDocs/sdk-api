@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfContext
 title: ITfContext (msctf.h)
-description: The ITfContext interface is implemented by the TSF manager and used by applications and text services to access an edit context.
+description: The ITfContext interface is implemented by the TSF manager and used by applications and text services to access an edit context.helpviewer_keywords: ["ITfContext","ITfContext interface [Text Services Framework]","ITfContext interface [Text Services Framework]","described","_tsf_itfcontext_ref","msctf/ITfContext","tsf.itfcontext"]
 old-location: tsf\itfcontext.htm
 tech.root: TSF
 ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6

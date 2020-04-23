@@ -1,7 +1,7 @@
 ---
 UID: NF:fdi.FNOPEN
 title: FNOPEN macro (fdi.h)
-description: The FNOPEN macro provides the declaration for the application-defined callback function to open a file in an FDI context.
+description: The FNOPEN macro provides the declaration for the application-defined callback function to open a file in an FDI context.helpviewer_keywords: ["FNOPEN","FNOPEN macro [Windows API]","fdi/FNOPEN","winprog.fnopen"]
 old-location: winprog\fnopen.htm
 tech.root: DevNotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f

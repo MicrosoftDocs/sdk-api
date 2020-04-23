@@ -1,7 +1,7 @@
 ---
 UID: NF:powersetting.PowerWriteDCValueIndex
 title: PowerWriteDCValueIndex function (powersetting.h)
-description: Sets the DC index of the specified power setting.
+description: Sets the DC index of the specified power setting.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteDCValueIndex","PowerWriteDCValueIndex function","base.powerwritedcvalueindex","powersetting/PowerWriteDCValueIndex","powrprof/PowerWriteDCValueIndex"]
 old-location: base\powerwritedcvalueindex.htm
 tech.root: power
 ms.assetid: 268cb000-659f-449c-bcbb-16c5f7e4e8bc

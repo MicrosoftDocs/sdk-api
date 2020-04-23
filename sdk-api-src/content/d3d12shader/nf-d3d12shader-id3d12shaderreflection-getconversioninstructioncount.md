@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetConversionInstructionCount
 title: ID3D12ShaderReflection::GetConversionInstructionCount (d3d12shader.h)
-description: Gets the number of conversion instructions.
+description: Gets the number of conversion instructions.helpviewer_keywords: ["GetConversionInstructionCount","GetConversionInstructionCount method","GetConversionInstructionCount method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetConversionInstructionCount method","ID3D12ShaderReflection.GetConversionInstructionCount","ID3D12ShaderReflection::GetConversionInstructionCount","d3d12shader/ID3D12ShaderReflection::GetConversionInstructionCount","direct3d12.id3d12shaderreflection_getconversioninstructioncount"]
 old-location: direct3d12\id3d12shaderreflection_getconversioninstructioncount.htm
 tech.root: direct3d12
 ms.assetid: 4425F608-4AFD-4065-AC8C-2EE4618D334B

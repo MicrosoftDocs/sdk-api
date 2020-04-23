@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateComponentEnumerator
 title: IWICImagingFactory::CreateComponentEnumerator (wincodec.h)
-description: Creates an IEnumUnknown object of the specified component types.
+description: Creates an IEnumUnknown object of the specified component types.helpviewer_keywords: ["CreateComponentEnumerator","CreateComponentEnumerator method [Windows Imaging Component]","CreateComponentEnumerator method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateComponentEnumerator method","IWICImagingFactory.CreateComponentEnumerator","IWICImagingFactory::CreateComponentEnumerator","_wic_codec_iwicimagingfactory_createcomponentenumerator","wic._wic_codec_iwicimagingfactory_createcomponentenumerator","wincodec/IWICImagingFactory::CreateComponentEnumerator"]
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentenumerator.htm
 tech.root: wic
 ms.assetid: 810bf0c2-2780-4ba3-84c1-7b257139e26e

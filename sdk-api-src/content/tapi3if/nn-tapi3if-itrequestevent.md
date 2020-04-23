@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITRequestEvent
 title: ITRequestEvent (tapi3if.h)
-description: The ITRequestEvent interface contains methods that allow an application to receive and process Assisted Telephony request events.
+description: The ITRequestEvent interface contains methods that allow an application to receive and process Assisted Telephony request events.helpviewer_keywords: ["ITRequestEvent","ITRequestEvent interface [TAPI 2.2]","ITRequestEvent interface [TAPI 2.2]","described","_tapi3_itrequestevent","tapi3.itrequestevent","tapi3if/ITRequestEvent"]
 old-location: tapi3\itrequestevent.htm
 tech.root: Tapi
 ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f

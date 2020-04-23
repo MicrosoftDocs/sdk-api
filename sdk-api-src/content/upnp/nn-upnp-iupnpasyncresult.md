@@ -1,7 +1,7 @@
 ---
 UID: NN:upnp.IUPnPAsyncResult
 title: IUPnPAsyncResult (upnp.h)
-description: The IUPnPAsyncResult interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
+description: The IUPnPAsyncResult interface is used to notify the UPnP control point of a completed asynchronous I/O operation.helpviewer_keywords: ["IUPnPAsyncResult","IUPnPAsyncResult interface [UPnP APIs]","IUPnPAsyncResult interface [UPnP APIs]","described","upnp.iupnpasyncresult","upnp/IUPnPAsyncResult"]
 old-location: upnp\iupnpasyncresult.htm
 tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E

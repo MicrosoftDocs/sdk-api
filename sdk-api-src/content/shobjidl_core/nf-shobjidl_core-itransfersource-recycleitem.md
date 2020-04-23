@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.ITransferSource.RecycleItem
 title: ITransferSource::RecycleItem (shobjidl_core.h)
 description: Recycle the item into the provided recycle location and return the item in its new location.
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","RecycleItem method","ITransferSource.RecycleItem","ITransferSource::RecycleItem","RecycleItem","RecycleItem method [Windows Shell]","RecycleItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_RecycleItem","shell.ITransferSource_RecycleItem","shobjidl_core/ITransferSource::RecycleItem"]
 old-location: shell\ITransferSource_RecycleItem.htm
 tech.root: shell
 ms.assetid: ee99a1ff-1a3e-46a4-82c6-df5f6c26c396
@@ -73,9 +74,9 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjid
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-The flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+The flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNewDest [out]

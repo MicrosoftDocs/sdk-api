@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._reqresize
 title: REQRESIZE (richedit.h)
-description: Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an EN_REQUESTRESIZE notification code.
+description: Contains the requested size of a rich edit control. A rich edit control sends this structure to its parent window as part of an EN_REQUESTRESIZE notification code.helpviewer_keywords: ["REQRESIZE","REQRESIZE structure [Windows Controls]","_win32_REQRESIZE_str","_win32_REQRESIZE_str_cpp","controls.REQRESIZE","controls._win32_REQRESIZE_str","richedit/REQRESIZE"]
 old-location: controls\REQRESIZE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reqresize.htm

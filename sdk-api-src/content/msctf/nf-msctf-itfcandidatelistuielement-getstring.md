@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetString
 title: ITfCandidateListUIElement::GetString (msctf.h)
-description: The ITfCandidateListUIElement::GetString method returns the string of the index.
+description: The ITfCandidateListUIElement::GetString method returns the string of the index.helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetString method","ITfCandidateListUIElement.GetString","ITfCandidateListUIElement::GetString","msctf/ITfCandidateListUIElement::GetString","tsf.itfcandidatelistuielement_getstring"]
 old-location: tsf\itfcandidatelistuielement_getstring.htm
 tech.root: TSF
 ms.assetid: 85cf60e3-f068-499f-b726-9ccea3cd8503

@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_SessionCallbacks
 title: MI_SessionCallbacks (mi.h)
-description: A container for callback function pointers that handle logging and error messages.
+description: A container for callback function pointers that handle logging and error messages.helpviewer_keywords: ["MI_SessionCallbacks","MI_SessionCallbacks structure [Windows Management Infrastructure (MI)]","mi/MI_SessionCallbacks","wmi_v2.mi_sessioncallbacks"]
 old-location: wmi_v2\mi_sessioncallbacks.htm
 tech.root: wmi_v2
 ms.assetid: 76b21381-201e-4128-b0db-18d8968a80bb

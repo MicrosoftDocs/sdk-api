@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetCount
 title: IPropertyEnumTypeList::GetCount (propsys.h)
-description: Gets the number of elements in the list.
+description: Gets the number of elements in the list.helpviewer_keywords: ["GetCount","GetCount method [Windows Properties]","GetCount method [Windows Properties]","IPropertyEnumTypeList interface","IPropertyEnumTypeList interface [Windows Properties]","GetCount method","IPropertyEnumTypeList.GetCount","IPropertyEnumTypeList::GetCount","_shell_IPropertyEnumTypeList_GetCount","properties.IPropertyEnumTypeList_GetCount","propsys/IPropertyEnumTypeList::GetCount","shell.IPropertyEnumTypeList_GetCount"]
 old-location: properties\IPropertyEnumTypeList_GetCount.htm
 tech.root: properties
 ms.assetid: 1ba42c48-afd2-4d96-8d9d-ebbe116807ca

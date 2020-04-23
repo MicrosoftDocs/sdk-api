@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetListBoxInfo
 title: GetListBoxInfo function (winuser.h)
-description: Retrieves the number of items per column in a specified list box.
+description: Retrieves the number of items per column in a specified list box.helpviewer_keywords: ["GetListBoxInfo","GetListBoxInfo function [Windows Controls]","_win32_GetListBoxInfo","_win32_GetListBoxInfo_cpp","controls.GetListBoxInfo","controls._win32_GetListBoxInfo","winuser/GetListBoxInfo"]
 old-location: controls\GetListBoxInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\getlistboxinfo.htm

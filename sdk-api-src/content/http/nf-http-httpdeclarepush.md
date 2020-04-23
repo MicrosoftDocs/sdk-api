@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpDeclarePush
 title: HttpDeclarePush function (http.h)
-description: Declares a resource-to-subresource relationship to use for an HTTP server push. HTTP.sys then performs an HTTP 2.0 server push for the given resource, if the underlying protocol, connection, client, and policies allow the push operation.
+description: Declares a resource-to-subresource relationship to use for an HTTP server push. HTTP.sys then performs an HTTP 2.0 server push for the given resource, if the underlying protocol, connection, client, and policies allow the push operation.helpviewer_keywords: ["HttpDeclarePush","HttpDeclarePush function [HTTP]","http.httpdeclarepush","http/HttpDeclarePush"]
 old-location: http\httpdeclarepush.htm
 tech.root: http
 ms.assetid: 02844D45-01B2-497B-83D6-8FEB904CF2FE

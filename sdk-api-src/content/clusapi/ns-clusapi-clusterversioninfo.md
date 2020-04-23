@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUSTERVERSIONINFO
 title: CLUSTERVERSIONINFO (clusapi.h)
-description: Describes information about the version of the Cluster service installed locally on a node.
+description: Describes information about the version of the Cluster service installed locally on a node.helpviewer_keywords: ["*LPCLUSTERVERSIONINFO","*PCLUSTERVERSIONINFO","CLUSTERVERSIONINFO","CLUSTERVERSIONINFO structure [Failover Cluster]","LPCLUSTERVERSIONINFO","LPCLUSTERVERSIONINFO structure pointer [Failover Cluster]","PCLUSTERVERSIONINFO","PCLUSTERVERSIONINFO structure pointer [Failover Cluster]","_wolf_clusterversioninfo","clusapi/CLUSTERVERSIONINFO","clusapi/LPCLUSTERVERSIONINFO","clusapi/PCLUSTERVERSIONINFO","mscs.clusterversioninfo"]
 old-location: mscs\clusterversioninfo.htm
 tech.root: MsCS
 ms.assetid: e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd

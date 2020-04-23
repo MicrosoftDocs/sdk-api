@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashesCount
 title: ID2D1StrokeStyle::GetDashesCount (d2d1.h)
-description: Retrieves the number of entries in the dashes array.
+description: Retrieves the number of entries in the dashes array.helpviewer_keywords: ["GetDashesCount","GetDashesCount method [Direct2D]","GetDashesCount method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetDashesCount method","ID2D1StrokeStyle.GetDashesCount","ID2D1StrokeStyle::GetDashesCount","d2d1/ID2D1StrokeStyle::GetDashesCount","direct2d.ID2D1StrokeStyle_GetDashesCount"]
 old-location: direct2d\ID2D1StrokeStyle_GetDashesCount.htm
 tech.root: Direct2D
 ms.assetid: 0bd1df70-17db-4f0f-b7a4-b26601b23c44

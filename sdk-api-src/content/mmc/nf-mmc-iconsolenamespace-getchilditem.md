@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetChildItem
 title: IConsoleNameSpace::GetChildItem (mmc.h)
-description: The IConsoleNameSpace2::GetChildItem method enables the snap-in to get the handle to a child item in the scope pane.
+description: The IConsoleNameSpace2::GetChildItem method enables the snap-in to get the handle to a child item in the scope pane.helpviewer_keywords: ["GetChildItem","GetChildItem method [MMC]","GetChildItem method [MMC]","IConsoleNameSpace interface","GetChildItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","GetChildItem method","IConsoleNameSpace.GetChildItem","IConsoleNameSpace2 interface [MMC]","GetChildItem method","IConsoleNameSpace2::GetChildItem","IConsoleNameSpace::GetChildItem","_slate_iconsolenamespace2_getchilditem","mmc.iconsolenamespace2_getchilditem","mmc/IConsoleNameSpace2::GetChildItem","mmc/IConsoleNameSpace::GetChildItem"]
 old-location: mmc\iconsolenamespace2_getchilditem.htm
 tech.root: mmc
 ms.assetid: a320f42e-1dca-4dd9-a919-c4451a48d105

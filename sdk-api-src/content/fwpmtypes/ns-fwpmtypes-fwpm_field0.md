@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_FIELD0_
 title: FWPM_FIELD0 (fwpmtypes.h)
 description: Specifies schema information for a field.
+helpviewer_keywords: ["FWPM_FIELD0","FWPM_FIELD0 structure [Filtering]","FWPM_FIELD0_","fwp.fwpm_field0_struct","fwpmtypes/FWPM_FIELD0"]
 old-location: fwp\fwpm_field0_struct.htm
 tech.root: fwp
 ms.assetid: 30d68d48-156e-440b-8607-8b64cfa25049
@@ -66,14 +67,14 @@ Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a 
 
 Determines how <b>dataType</b> is interpreted.
 
-See [FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)a> for more information.
+See [FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type) for more information.
 
 
 ### -field dataType
 
 Data type passed to classify.
 
-See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a> for more information.
+See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type) for more information.
 
 
 ## -remarks
@@ -90,11 +91,11 @@ See [FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-f
 
 
 
-[FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)a>
+[FWPM_FIELD_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type)
 
 
 
-[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a>
+[FWP_DATA_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)
 
 
 

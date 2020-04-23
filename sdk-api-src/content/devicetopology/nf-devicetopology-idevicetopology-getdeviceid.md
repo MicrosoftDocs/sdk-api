@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetDeviceId
 title: IDeviceTopology::GetDeviceId (devicetopology.h)
-description: The GetDeviceId method gets the device identifier of the device that is represented by the device-topology object.
+description: The GetDeviceId method gets the device identifier of the device that is represented by the device-topology object.helpviewer_keywords: ["GetDeviceId","GetDeviceId method [Core Audio]","GetDeviceId method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetDeviceId method","IDeviceTopology.GetDeviceId","IDeviceTopology::GetDeviceId","IDeviceTopologyGetDeviceId","coreaudio.idevicetopology_getdeviceid","devicetopology/IDeviceTopology::GetDeviceId"]
 old-location: coreaudio\idevicetopology_getdeviceid.htm
 tech.root: CoreAudio
 ms.assetid: 2ecf8f23-7cfd-447a-ab76-8a23b79f5d6c

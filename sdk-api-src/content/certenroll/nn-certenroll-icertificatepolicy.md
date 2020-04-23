@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICertificatePolicy
 title: ICertificatePolicy (certenroll.h)
-description: Can be used to specify a certificate policy that identifies a purpose for which the certificate can be used.
+description: Can be used to specify a certificate policy that identifies a purpose for which the certificate can be used.helpviewer_keywords: ["ICertificatePolicy","ICertificatePolicy interface [Security]","ICertificatePolicy interface [Security]","described","certenroll/ICertificatePolicy","security.icertificatepolicy"]
 old-location: security\icertificatepolicy.htm
 tech.root: seccertenroll
 ms.assetid: 2162de70-edcc-4f01-807d-79ff200d0016

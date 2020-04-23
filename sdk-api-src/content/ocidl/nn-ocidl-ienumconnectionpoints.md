@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IEnumConnectionPoints
 title: IEnumConnectionPoints (ocidl.h)
-description: Enumerates connection points.
+description: Enumerates connection points.helpviewer_keywords: ["IEnumConnectionPoints","IEnumConnectionPoints interface [COM]","IEnumConnectionPoints interface [COM]","described","_com_ienumconnectionpoints","com.ienumconnectionpoints","ocidl/IEnumConnectionPoints"]
 old-location: com\ienumconnectionpoints.htm
 tech.root: com
 ms.assetid: 893090f1-a0b4-46f1-a5d0-1da704ca7aa9

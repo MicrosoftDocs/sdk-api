@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetVersionHash
 title: IISDB_NBIT::GetVersionHash (dvbsiparser.h)
-description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).helpviewer_keywords: ["GetVersionHash","GetVersionHash method [Microsoft TV Technologies]","GetVersionHash method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetVersionHash method","IISDB_NBIT.GetVersionHash","IISDB_NBIT::GetVersionHash","dvbsiparser/IISDB_NBIT::GetVersionHash","mstv.iisdb_nbit_getversionhash"]
 old-location: mstv\iisdb_nbit_getversionhash.htm
 tech.root: mstv
 ms.assetid: 6de71e7e-7296-46ad-a0fa-3aadb9a24ab5

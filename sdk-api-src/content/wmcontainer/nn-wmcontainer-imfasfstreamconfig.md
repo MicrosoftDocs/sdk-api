@@ -1,7 +1,7 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamConfig
 title: IMFASFStreamConfig (wmcontainer.h)
-description: Configures the settings of a stream in an ASF file.
+description: Configures the settings of a stream in an ASF file.helpviewer_keywords: ["7bb63396-21c2-400d-b9de-c00b90f46d62","IMFASFStreamConfig","IMFASFStreamConfig interface [Media Foundation]","IMFASFStreamConfig interface [Media Foundation]","described","mf.imfasfstreamconfig","wmcontainer/IMFASFStreamConfig"]
 old-location: mf\imfasfstreamconfig.htm
 tech.root: medfound
 ms.assetid: 7bb63396-21c2-400d-b9de-c00b90f46d62

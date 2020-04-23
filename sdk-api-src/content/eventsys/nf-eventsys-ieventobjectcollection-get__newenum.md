@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get__NewEnum
 title: IEventObjectCollection::get__NewEnum (eventsys.h)
-description: An enumerator for the objects in the collection.
+description: An enumerator for the objects in the collection.helpviewer_keywords: ["IEventObjectCollection interface [COM+]","_NewEnum property","IEventObjectCollection._NewEnum","IEventObjectCollection.get__NewEnum","IEventObjectCollection::_NewEnum","IEventObjectCollection::get__NewEnum","_NewEnum property [COM+]","_NewEnum property [COM+]","IEventObjectCollection interface","cos.ieventobjectcollection__newenum","eventsys/IEventObjectCollection::_NewEnum","eventsys/IEventObjectCollection::get__NewEnum","get__NewEnum"]
 old-location: cos\ieventobjectcollection__newenum.htm
 tech.root: cossdk
 ms.assetid: bdf2bcb0-42c2-4904-b36b-73ee27f4c188

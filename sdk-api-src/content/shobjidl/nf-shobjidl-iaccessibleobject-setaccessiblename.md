@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IAccessibleObject.SetAccessibleName
 title: IAccessibleObject::SetAccessibleName (shobjidl.h)
-description: Sets text that is retrieved by IAccessible::get_accName which accessibility tools use to obtain the Name Property of an object.
+description: Sets text that is retrieved by IAccessible::get_accName which accessibility tools use to obtain the Name Property of an object.helpviewer_keywords: ["IAccessibleObject interface [Windows Shell]","SetAccessibleName method","IAccessibleObject.SetAccessibleName","IAccessibleObject::SetAccessibleName","SetAccessibleName","SetAccessibleName method [Windows Shell]","SetAccessibleName method [Windows Shell]","IAccessibleObject interface","_shell_IAccessibleObject_SetAccessibleName","shell.IAccessibleObject_SetAccessibleName","shobjidl/IAccessibleObject::SetAccessibleName"]
 old-location: shell\IAccessibleObject_SetAccessibleName.htm
 tech.root: shell
 ms.assetid: 455d9434-1ea3-4a4e-ae4d-0952c895178c

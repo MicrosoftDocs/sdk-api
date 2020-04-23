@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1TessellationSink
 title: ID2D1TessellationSink (d2d1.h)
-description: Populates an ID2D1Mesh object with triangles.
+description: Populates an ID2D1Mesh object with triangles.helpviewer_keywords: ["ID2D1TessellationSink","ID2D1TessellationSink interface [Direct2D]","ID2D1TessellationSink interface [Direct2D]","described","d2d1/ID2D1TessellationSink","direct2d.ID2D1TessellationSink"]
 old-location: direct2d\ID2D1TessellationSink.htm
 tech.root: Direct2D
 ms.assetid: 967c702f-d16f-4a8e-ac77-a8bb35afe0a1

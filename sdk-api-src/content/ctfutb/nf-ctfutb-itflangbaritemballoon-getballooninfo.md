@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetBalloonInfo
 title: ITfLangBarItemBalloon::GetBalloonInfo (ctfutb.h)
-description: ITfLangBarItemBalloon::GetBalloonInfo method
+description: ITfLangBarItemBalloon::GetBalloonInfo methodhelpviewer_keywords: ["GetBalloonInfo","GetBalloonInfo method [Text Services Framework]","GetBalloonInfo method [Text Services Framework]","ITfLangBarItemBalloon interface","ITfLangBarItemBalloon interface [Text Services Framework]","GetBalloonInfo method","ITfLangBarItemBalloon.GetBalloonInfo","ITfLangBarItemBalloon::GetBalloonInfo","_tsf_itflangbaritemballoon_getballooninfo_ref","ctfutb/ITfLangBarItemBalloon::GetBalloonInfo","tsf.itflangbaritemballoon_getballooninfo"]
 old-location: tsf\itflangbaritemballoon_getballooninfo.htm
 tech.root: TSF
 ms.assetid: 4cf695dc-dfb7-4541-a364-4395650f9419

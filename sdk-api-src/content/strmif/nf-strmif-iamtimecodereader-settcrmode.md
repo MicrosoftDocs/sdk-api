@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.SetTCRMode
 title: IAMTimecodeReader::SetTCRMode (strmif.h)
-description: The SetTCRMode method sets the timecode reader properties.
+description: The SetTCRMode method sets the timecode reader properties.helpviewer_keywords: ["IAMTimecodeReader interface [DirectShow]","SetTCRMode method","IAMTimecodeReader.SetTCRMode","IAMTimecodeReader::SetTCRMode","IAMTimecodeReaderSetTCRMode","SetTCRMode","SetTCRMode method [DirectShow]","SetTCRMode method [DirectShow]","IAMTimecodeReader interface","dshow.iamtimecodereader_settcrmode","strmif/IAMTimecodeReader::SetTCRMode"]
 old-location: dshow\iamtimecodereader_settcrmode.htm
 tech.root: DirectShow
 ms.assetid: dd9f5310-b1c0-46ff-b038-d6a50ac400a2

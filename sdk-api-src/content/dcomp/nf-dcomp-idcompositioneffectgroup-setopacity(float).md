@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionEffectGroup.SetOpacity(float)
 title: IDCompositionEffectGroup::SetOpacity(float) (dcomp.h)
-description: Changes the value of the Opacity property.
+description: Changes the value of the Opacity property.helpviewer_keywords: ["IDCompositionEffectGroup interface [DirectComposition]","SetOpacity method","IDCompositionEffectGroup.SetOpacity","IDCompositionEffectGroup.SetOpacity(float)","IDCompositionEffectGroup::SetOpacity","IDCompositionEffectGroup::SetOpacity(float)","SetOpacity","SetOpacity method [DirectComposition]","SetOpacity method [DirectComposition]","IDCompositionEffectGroup interface","dcomp/IDCompositionEffectGroup::SetOpacity","directcomp.idcompositioneffectgroup_setopacity_double"]
 old-location: directcomp\idcompositioneffectgroup_setopacity_double.htm
 tech.root: directcomp
 ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1

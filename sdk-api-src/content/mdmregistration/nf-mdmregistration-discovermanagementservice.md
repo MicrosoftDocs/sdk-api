@@ -2,6 +2,7 @@
 UID: NF:mdmregistration.DiscoverManagementService
 title: DiscoverManagementService function (mdmregistration.h)
 description: Discovers the MDM service.
+helpviewer_keywords: ["DiscoverManagementService","DiscoverManagementService function [MDM Registration]","mdmreg.discovermanagementservice","mdmregistration/DiscoverManagementService"]
 old-location: mdmreg\discovermanagementservice.htm
 tech.root: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
@@ -67,7 +68,7 @@ Address of a <b>NULL</b>-terminated Unicode string containing the user principal
 
 ### -param ppMgmtInfo [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a> 
+Address of a <a href="/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a> 
       structure that contains pointers to the URIs of the management and authentication services.
 
 
@@ -97,7 +98,7 @@ The caller of this function must be running as an elevated process.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a>
+<a href="/windows/win32/api/mdmregistration/ns-mdmregistration-management_service_info">MANAGEMENT_SERVICE_INFO</a>
 
 
 

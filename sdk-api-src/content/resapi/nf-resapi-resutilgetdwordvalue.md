@@ -2,6 +2,7 @@
 UID: NF:resapi.ResUtilGetDwordValue
 title: ResUtilGetDwordValue function (resapi.h)
 description: Returns a numeric value from the cluster database.
+helpviewer_keywords: ["PRESUTIL_GET_DWORD_VALUE","PRESUTIL_GET_DWORD_VALUE function [Failover Cluster]","ResUtilGetDwordValue","ResUtilGetDwordValue function [Failover Cluster]","_wolf_resutilgetdwordvalue","mscs.resutilgetdwordvalue","resapi/PRESUTIL_GET_DWORD_VALUE","resapi/ResUtilGetDwordValue"]
 old-location: mscs\resutilgetdwordvalue.htm
 tech.root: MsCS
 ms.assetid: 2db6126e-a3a7-415b-a436-c3d0748fbc65
@@ -130,7 +131,7 @@ The  <b>ResUtilGetDwordValue</b> utility function calls the  <a href="https://do
 
 
 
-[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)a>
+[ResUtilGetExpandSzValue](/windows/win32/api/resapi/nf-resapi-resutilgetexpandszvalue)
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IDownloadJob.GetProgress
 title: IDownloadJob::GetProgress (wuapi.h)
-description: Returns an IDownloadProgress interface that describes the current progress of a download.
+description: Returns an IDownloadProgress interface that describes the current progress of a download.helpviewer_keywords: ["GetProgress","GetProgress method [Windows Update Agent]","GetProgress method [Windows Update Agent]","IDownloadJob interface","IDownloadJob interface [Windows Update Agent]","GetProgress method","IDownloadJob.GetProgress","IDownloadJob::GetProgress","wua.idownloadjob_getprogress","wuapi/IDownloadJob::GetProgress"]
 old-location: wua\idownloadjob_getprogress.htm
 tech.root: Wua_Sdk
 ms.assetid: e87c85cf-0011-4edb-a409-0b4db3292caf

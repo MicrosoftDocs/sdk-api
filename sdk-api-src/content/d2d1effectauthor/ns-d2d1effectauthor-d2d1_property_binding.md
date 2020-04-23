@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_PROPERTY_BINDING
 title: D2D1_PROPERTY_BINDING (d2d1effectauthor.h)
-description: Defines a property binding to a pair of functions which get and set the corresponding property.
+description: Defines a property binding to a pair of functions which get and set the corresponding property.helpviewer_keywords: ["D2D1_PROPERTY_BINDING","D2D1_PROPERTY_BINDING structure [Direct2D]","d2d1effectauthor/D2D1_PROPERTY_BINDING","direct2d.d2d1_property_binding"]
 old-location: direct2d\d2d1_property_binding.htm
 tech.root: Direct2D
 ms.assetid: 0eb6d428-cb65-4738-9cf3-64038b728004

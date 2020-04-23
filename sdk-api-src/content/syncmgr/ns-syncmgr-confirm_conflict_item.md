@@ -1,7 +1,7 @@
 ---
 UID: NS:syncmgr.CONFIRM_CONFLICT_ITEM
 title: CONFIRM_CONFLICT_ITEM (syncmgr.h)
-description: Defines conflict item structure.
+description: Defines conflict item structure.helpviewer_keywords: ["CONFIRM_CONFLICT_ITEM","CONFIRM_CONFLICT_ITEM structure [Windows Shell]","_shell_CONFIRM_CONFLICT_ITEM","shell.CONFIRM_CONFLICT_ITEM","syncmgr/CONFIRM_CONFLICT_ITEM"]
 old-location: shell\CONFIRM_CONFLICT_ITEM.htm
 tech.root: shell
 ms.assetid: 3be4a8ec-eeab-4453-a2cb-18cadf39464a

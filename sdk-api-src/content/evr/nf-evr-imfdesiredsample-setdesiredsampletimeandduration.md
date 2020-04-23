@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IMFDesiredSample.SetDesiredSampleTimeAndDuration
 title: IMFDesiredSample::SetDesiredSampleTimeAndDuration (evr.h)
-description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.
+description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.helpviewer_keywords: ["12877b24-83ec-4156-b411-f07202fdfd62","IMFDesiredSample interface [Media Foundation]","SetDesiredSampleTimeAndDuration method","IMFDesiredSample.SetDesiredSampleTimeAndDuration","IMFDesiredSample::SetDesiredSampleTimeAndDuration","SetDesiredSampleTimeAndDuration","SetDesiredSampleTimeAndDuration method [Media Foundation]","SetDesiredSampleTimeAndDuration method [Media Foundation]","IMFDesiredSample interface","evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration","mf.imfdesiredsample_setdesiredsampletimeandduration"]
 old-location: mf\imfdesiredsample_setdesiredsampletimeandduration.htm
 tech.root: medfound
 ms.assetid: 12877b24-83ec-4156-b411-f07202fdfd62

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_Name
 title: INetFwRule::put_Name (netfw.h)
-description: Specifies the friendly name of this rule.
+description: Specifies the friendly name of this rule.helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Name property","INetFwRule.Name","INetFwRule.put_Name","INetFwRule::Name","INetFwRule::get_Name","INetFwRule::put_Name","Name property [ICS/ICF]","Name property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_name","netfw/INetFwRule::Name","netfw/INetFwRule::get_Name","netfw/INetFwRule::put_Name","put_Name"]
 old-location: ics\inetfwrule_name.htm
 tech.root: ics
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b

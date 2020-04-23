@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothSelectDevicesFree
 title: BluetoothSelectDevicesFree function (bluetoothapis.h)
 description: Frees resources associated with a previous call to BluetoothSelectDevices.
+helpviewer_keywords: ["BluetoothSelectDevicesFree","BluetoothSelectDevicesFree function [Bluetooth]","_bth_bluetoothselectdevicesfree","bluetooth.bluetoothselectdevicesfree","bluetoothapis/BluetoothSelectDevicesFree"]
 old-location: bluetooth\bluetoothselectdevicesfree.htm
 tech.root: bluetooth
 ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
@@ -62,7 +63,7 @@ The
 ### -param pbtsdp
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies the Bluetooth device resources to free.
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies the Bluetooth device resources to free.
 
 
 ## -returns
@@ -88,7 +89,7 @@ Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_select_device_params">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 

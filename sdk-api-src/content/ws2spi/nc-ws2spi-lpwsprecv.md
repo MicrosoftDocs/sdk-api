@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPRECV
 title: LPWSPRECV
-description: The LPWSPRecv function receives data on a socket.
+description: The LPWSPRecv function receives data on a socket.helpviewer_keywords: ["LPWSPRECV"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECV
 targetos: Windows

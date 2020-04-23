@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device3.EnqueueMakeResident
 title: ID3D12Device3::EnqueueMakeResident (d3d12.h)
-description: Asynchronously makes objects resident for the device.
+description: Asynchronously makes objects resident for the device.helpviewer_keywords: ["EnqueueMakeResident","EnqueueMakeResident method","EnqueueMakeResident method","ID3D12Device3 interface","ID3D12Device3 interface","EnqueueMakeResident method","ID3D12Device3.EnqueueMakeResident","ID3D12Device3::EnqueueMakeResident","d3d12/ID3D12Device3::EnqueueMakeResident","direct3d12.id3d12device3_enqueuemakeresident"]
 old-location: direct3d12\id3d12device3_enqueuemakeresident.htm
 tech.root: direct3d12
 ms.assetid: A9F8D656-C09D-47D5-9D97-3C2A60422E96

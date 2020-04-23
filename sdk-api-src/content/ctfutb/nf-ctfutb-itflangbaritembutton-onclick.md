@@ -2,6 +2,7 @@
 UID: NF:ctfutb.ITfLangBarItemButton.OnClick
 title: ITfLangBarItemButton::OnClick (ctfutb.h)
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
+helpviewer_keywords: ["ITfLangBarItemButton interface [Text Services Framework]","OnClick method","ITfLangBarItemButton.OnClick","ITfLangBarItemButton::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemButton interface","_tsf_itflangbaritembutton_onclick_ref","ctfutb/ITfLangBarItemButton::OnClick","tsf.itflangbaritembutton_onclick"]
 old-location: tsf\itflangbaritembutton_onclick.htm
 tech.root: TSF
 ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
@@ -59,7 +60,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BU
 
 ### -param click [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the button.
+Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the button.
 
 
 ### -param pt [in]
@@ -128,7 +129,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
  
 

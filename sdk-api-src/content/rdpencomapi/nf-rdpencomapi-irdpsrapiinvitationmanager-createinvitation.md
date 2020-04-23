@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.CreateInvitation
 title: IRDPSRAPIInvitationManager::CreateInvitation (rdpencomapi.h)
-description: Creates an invitation.
+description: Creates an invitation.helpviewer_keywords: ["CreateInvitation","CreateInvitation method [RDP]","CreateInvitation method [RDP]","IRDPSRAPIInvitationManager interface","IRDPSRAPIInvitationManager interface [RDP]","CreateInvitation method","IRDPSRAPIInvitationManager.CreateInvitation","IRDPSRAPIInvitationManager::CreateInvitation","rdp.irdpsrapiinvitationmanager_createinvitation","rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation"]
 old-location: rdp\irdpsrapiinvitationmanager_createinvitation.htm
 tech.root: rdp
 ms.assetid: 169d220b-3a2a-490e-9c1c-03a707d59f6c

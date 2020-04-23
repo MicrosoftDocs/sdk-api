@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetCapture
 title: IOleInPlaceSiteWindowless::GetCapture (ocidl.h)
-description: Called by an in-place active, windowless object to determine whether it still has the mouse capture.
+description: Called by an in-place active, windowless object to determine whether it still has the mouse capture.helpviewer_keywords: ["GetCapture","GetCapture method [COM]","GetCapture method [COM]","IOleInPlaceSiteWindowless interface","IOleInPlaceSiteWindowless interface [COM]","GetCapture method","IOleInPlaceSiteWindowless.GetCapture","IOleInPlaceSiteWindowless::GetCapture","_ole_ioleinplacesitewindowless_getcapture","com.ioleinplacesitewindowless_getcapture","ocidl/IOleInPlaceSiteWindowless::GetCapture"]
 old-location: com\ioleinplacesitewindowless_getcapture.htm
 tech.root: com
 ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646

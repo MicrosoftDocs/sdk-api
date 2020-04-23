@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetServerSpecificStrings
 title: DhcpGetServerSpecificStrings function (dhcpsapi.h)
-description: Retrieves the names of the default vendor class and user class.
+description: Retrieves the names of the default vendor class and user class.helpviewer_keywords: ["DhcpGetServerSpecificStrings","DhcpGetServerSpecificStrings function [DHCP]","dhcp.dhcpgetserverspecificstrings","dhcpsapi/DhcpGetServerSpecificStrings"]
 old-location: dhcp\dhcpgetserverspecificstrings.htm
 tech.root: DHCP
 ms.assetid: dc283fa3-6077-4010-8c71-9dc91ed2dadf

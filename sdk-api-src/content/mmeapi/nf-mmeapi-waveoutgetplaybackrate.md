@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.waveOutGetPlaybackRate
 title: waveOutGetPlaybackRate function (mmeapi.h)
-description: The waveOutGetPlaybackRate function retrieves the current playback rate for the specified waveform-audio output device.
+description: The waveOutGetPlaybackRate function retrieves the current playback rate for the specified waveform-audio output device.helpviewer_keywords: ["_win32_waveOutGetPlaybackRate","mmeapi/waveOutGetPlaybackRate","multimedia.waveoutgetplaybackrate","waveOutGetPlaybackRate","waveOutGetPlaybackRate function [Windows Multimedia]"]
 old-location: multimedia\waveoutgetplaybackrate.htm
 tech.root: Multimedia
 ms.assetid: 43d660c6-fc12-4158-9687-dfe9f41a22c0

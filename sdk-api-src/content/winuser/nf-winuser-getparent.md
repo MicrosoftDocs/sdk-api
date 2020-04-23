@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetParent
 title: GetParent function (winuser.h)
-description: Retrieves a handle to the specified window's parent or owner.
+description: Retrieves a handle to the specified window's parent or owner.helpviewer_keywords: ["GetParent","GetParent function [Windows and Messages]","_win32_GetParent","_win32_getparent_cpp","winmsg.getparent","winui._win32_getparent","winuser/GetParent"]
 old-location: winmsg\getparent.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getparent.htm

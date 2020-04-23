@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupGetFileQueueFlags
 title: SetupGetFileQueueFlags function (setupapi.h)
-description: The SetupGetFileQueueFlags function gets the flags from a setup file queue.
+description: The SetupGetFileQueueFlags function gets the flags from a setup file queue.helpviewer_keywords: ["SPQ_FLAG_ABORT_IF_UNSIGNED","SPQ_FLAG_BACKUP_AWARE","SetupGetFileQueueFlags","SetupGetFileQueueFlags function [Setup API]","_setupapi_setupgetfilequeueflags","setup.setupgetfilequeueflags","setupapi/SetupGetFileQueueFlags"]
 old-location: setup\setupgetfilequeueflags.htm
 tech.root: SetupApi
 ms.assetid: cb5a7cd8-870c-4880-bb29-6e24a098c35e

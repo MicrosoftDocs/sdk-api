@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.AddTab
 title: ITaskbarList::AddTab (shobjidl_core.h)
-description: Adds an item to the taskbar.
+description: Adds an item to the taskbar.helpviewer_keywords: ["AddTab","AddTab method [Windows Shell]","AddTab method [Windows Shell]","ITaskbarList interface","ITaskbarList interface [Windows Shell]","AddTab method","ITaskbarList.AddTab","ITaskbarList::AddTab","_win32_ITaskbarList_AddTab","shell.ITaskbarList_AddTab","shobjidl_core/ITaskbarList::AddTab"]
 old-location: shell\ITaskbarList_AddTab.htm
 tech.root: shell
 ms.assetid: 47d52ab8-f182-4bfb-8745-ad2d23197088

@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_node_info_tag
 title: PEER_NODE_INFO (p2p.h)
-description: The PEER_NODE_INFO structure contains information that is specific to a particular node in a peer graph.
+description: The PEER_NODE_INFO structure contains information that is specific to a particular node in a peer graph.helpviewer_keywords: ["*PPEER_NODE_INFO","PEER_NODE_INFO","PEER_NODE_INFO structure [Peer Networking]","PPEER_NODE_INFO","PPEER_NODE_INFO structure pointer [Peer Networking]","p2p.peer_node_info","p2p/PPEER_NODE_INFO","p2p/peer_node_info_tag"]
 old-location: p2p\peer_node_info.htm
 tech.root: P2PSdk
 ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5

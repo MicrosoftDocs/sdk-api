@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_group_properties_tag
 title: PEER_GROUP_PROPERTIES (p2p.h)
-description: The PEER_GROUP_PROPERTIES structure contains data about the membership policy of a peer group.
+description: The PEER_GROUP_PROPERTIES structure contains data about the membership policy of a peer group.helpviewer_keywords: ["*PPEER_GROUP_PROPERTIES","PEER_GROUP_PROPERTIES","PEER_GROUP_PROPERTIES structure [Peer Networking]","PPEER_GROUP_PROPERTIES","PPEER_GROUP_PROPERTIES structure pointer [Peer Networking]","p2p.peer_group_properties","p2p/PPEER_GROUP_PROPERTIES","p2p/peer_group_properties_tag"]
 old-location: p2p\peer_group_properties.htm
 tech.root: P2PSdk
 ms.assetid: a1501343-bd84-4dbe-91d0-c64c59e34abc

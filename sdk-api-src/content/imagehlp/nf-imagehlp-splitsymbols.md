@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.SplitSymbols
 title: SplitSymbols function (imagehlp.h)
-description: Strips symbols from the specified image.
+description: Strips symbols from the specified image.helpviewer_keywords: ["SPLITSYM_EXTRACT_ALL","SPLITSYM_REMOVE_PRIVATE","SPLITSYM_SYMBOLPATH_IS_SRC","SplitSymbols","SplitSymbols function","_win32_splitsymbols","base.splitsymbols","imagehlp/SplitSymbols"]
 old-location: base\splitsymbols.htm
 tech.root: Debug
 ms.assetid: b9b940ce-8349-472e-b802-b477bd195b63

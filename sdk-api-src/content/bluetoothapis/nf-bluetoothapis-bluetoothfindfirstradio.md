@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothFindFirstRadio
 title: BluetoothFindFirstRadio function (bluetoothapis.h)
 description: The BluetoothFindFirstRadio function begins the enumeration of local Bluetooth radios.
+helpviewer_keywords: ["BluetoothFindFirstRadio","BluetoothFindFirstRadio function [Bluetooth]","bluetooth.bluetoothfindfirstradio","bluetoothapis/BluetoothFindFirstRadio"]
 old-location: bluetooth\bluetoothfindfirstradio.htm
 tech.root: bluetooth
 ms.assetid: f31bb18b-c129-417f-ab87-cf114a2e094f
@@ -61,7 +62,7 @@ The <b>BluetoothFindFirstRadio</b> function begins the enumeration of local Blue
 
 ### -param pbtfrp
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_find_radio_params">BLUETOOTH_FIND_RADIO_PARAMS</a> structure. The <b>dwSize</b> member of the <b>BLUETOOTH_FIND_RADIO_PARAMS</b> structure pointed to by <i>pbtfrp</i> must match the size of the structure.
+Pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_find_radio_params">BLUETOOTH_FIND_RADIO_PARAMS</a> structure. The <b>dwSize</b> member of the <b>BLUETOOTH_FIND_RADIO_PARAMS</b> structure pointed to by <i>pbtfrp</i> must match the size of the structure.
 
 
 ### -param phRadio [out]
@@ -137,7 +138,7 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_find_radio_params">BLUETOOTH_FIND_RADIO_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_find_radio_params">BLUETOOTH_FIND_RADIO_PARAMS</a>
 
 
 

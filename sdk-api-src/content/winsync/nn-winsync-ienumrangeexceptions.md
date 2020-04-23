@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IEnumRangeExceptions
 title: IEnumRangeExceptions (winsync.h)
-description: Enumerates range exceptions that are stored in a knowledge object.
+description: Enumerates range exceptions that are stored in a knowledge object.helpviewer_keywords: ["IEnumRangeExceptions","IEnumRangeExceptions interface [Windows Sync]","IEnumRangeExceptions interface [Windows Sync]","described","winsync.ienumrangeexceptions","winsync/IEnumRangeExceptions"]
 old-location: winsync\ienumrangeexceptions.htm
 tech.root: winsync
 ms.assetid: 1b2724a3-2f5f-4f30-8cf5-e31f16d4cd14

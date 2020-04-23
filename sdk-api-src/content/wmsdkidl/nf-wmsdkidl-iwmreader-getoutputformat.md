@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputFormat
 title: IWMReader::GetOutputFormat (wmsdkidl.h)
-description: The GetOutputFormat method retrieves the supported formats for a specified output media stream.
+description: The GetOutputFormat method retrieves the supported formats for a specified output media stream.helpviewer_keywords: ["GetOutputFormat","GetOutputFormat method [windows Media Format]","GetOutputFormat method [windows Media Format]","IWMReader interface","IWMReader interface [windows Media Format]","GetOutputFormat method","IWMReader.GetOutputFormat","IWMReader::GetOutputFormat","IWMReaderGetOutputFormat","wmformat.iwmreader_getoutputformat","wmsdkidl/IWMReader::GetOutputFormat"]
 old-location: wmformat\iwmreader_getoutputformat.htm
 tech.root: wmformat
 ms.assetid: e73d13b9-3fca-4de1-b89d-5cacc6311cd3

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluscolor.Color.GetAlpha
 title: Color::GetAlpha (gdipluscolor.h)
-description: The Color::GetAlpha method gets the alpha component of this Color object.
+description: The Color::GetAlpha method gets the alpha component of this Color object.helpviewer_keywords: ["Color class [GDI+]","GetAlpha method","Color.GetAlpha","Color::GetAlpha","GetAlpha","GetAlpha method [GDI+]","GetAlpha method [GDI+]","Color class","_gdiplus_CLASS_Color_GetAlpha_","gdiplus._gdiplus_CLASS_Color_GetAlpha_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_GetAlpha_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getalpha.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.SetColumns
 title: IColumnManager::SetColumns (shobjidl_core.h)
-description: Sets the collection of columns for the view to display.
+description: Sets the collection of columns for the view to display.helpviewer_keywords: ["IColumnManager interface [Windows Shell]","SetColumns method","IColumnManager.SetColumns","IColumnManager::SetColumns","SetColumns","SetColumns method [Windows Shell]","SetColumns method [Windows Shell]","IColumnManager interface","shell.IColumnManager_SetColumns","shell_IColumnManager_SetColumns","shobjidl_core/IColumnManager::SetColumns"]
 old-location: shell\IColumnManager_SetColumns.htm
 tech.root: shell
 ms.assetid: 1541809d-0826-46c4-aa10-cb4cbd6f8437

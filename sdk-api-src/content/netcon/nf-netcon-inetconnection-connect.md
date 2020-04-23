@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetConnection.Connect
 title: INetConnection::Connect (netcon.h)
-description: The Connect method connects, or establishes, this network connection.
+description: The Connect method connects, or establishes, this network connection.helpviewer_keywords: ["Connect","Connect method [ICS/ICF]","Connect method [ICS/ICF]","INetConnection interface","INetConnection interface [ICS/ICF]","Connect method","INetConnection.Connect","INetConnection::Connect","_ics_inetconnection_connect","ics.inetconnection_connect","netcon/INetConnection::Connect"]
 old-location: ics\inetconnection_connect.htm
 tech.root: ics
 ms.assetid: ff627133-1f48-4a4d-96d5-9a2ef95b6e61

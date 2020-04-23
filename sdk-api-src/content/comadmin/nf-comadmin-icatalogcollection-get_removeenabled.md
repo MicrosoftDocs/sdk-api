@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_RemoveEnabled
 title: ICatalogCollection::get_RemoveEnabled (comadmin.h)
-description: Indicates whether the Remove method is enabled for the collection.
+description: Indicates whether the Remove method is enabled for the collection.helpviewer_keywords: ["ICatalogCollection interface [COM+]","RemoveEnabled property","ICatalogCollection.RemoveEnabled","ICatalogCollection.get_RemoveEnabled","ICatalogCollection::RemoveEnabled","ICatalogCollection::get_RemoveEnabled","RemoveEnabled property [COM+]","RemoveEnabled property [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_get_RemoveEnabled","comadmin/ICatalogCollection::RemoveEnabled","comadmin/ICatalogCollection::get_RemoveEnabled","cos.icatalogcollection_removeenabled","get_RemoveEnabled"]
 old-location: cos\icatalogcollection_removeenabled.htm
 tech.root: cossdk
 ms.assetid: eda0812f-a0e4-4239-87b5-c252e9e3492c

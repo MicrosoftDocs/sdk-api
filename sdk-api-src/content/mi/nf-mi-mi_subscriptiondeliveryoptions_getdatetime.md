@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDateTime
 title: MI_SubscriptionDeliveryOptions_GetDateTime function (mi.h)
-description: Gets a previously set datetime option.
+description: Gets a previously set datetime option.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetDateTime","MI_SubscriptionDeliveryOptions_GetDateTime function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetDateTime","wmi_v2.mi_subscriptiondeliveryoptions_getdatetime"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdatetime.htm
 tech.root: wmi_v2
 ms.assetid: 502738a3-1f4a-460c-bd1c-5f1ea411d899

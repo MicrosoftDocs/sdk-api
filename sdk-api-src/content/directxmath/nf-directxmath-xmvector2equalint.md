@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2EqualInt
 title: XMVector2EqualInt function (directxmath.h)
-description: Tests whether two 2D vectors are equal, treating each component as an unsigned integer.
+description: Tests whether two 2D vectors are equal, treating each component as an unsigned integer.helpviewer_keywords: ["Use DirectX..XMVector2EqualInt","XMVector2EqualInt","XMVector2EqualInt method [DirectX Math Support APIs]","dxmath.xmvector2equalint"]
 old-location: dxmath\xmvector2equalint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2EqualInt(XMVECTOR,XMVECTOR)

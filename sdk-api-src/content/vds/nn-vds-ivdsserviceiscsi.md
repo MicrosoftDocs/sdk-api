@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsServiceIscsi
 title: IVdsServiceIscsi (vds.h)
-description: Provides methods to interface with the local initiator service, including the ability to set CHAP security settings and to log into targets.
+description: Provides methods to interface with the local initiator service, including the ability to set CHAP security settings and to log into targets.helpviewer_keywords: ["IVdsServiceIscsi","IVdsServiceIscsi interface [VDS]","IVdsServiceIscsi interface [VDS]","described","base.ivdsserviceiscsi","vds/IVdsServiceIscsi"]
 old-location: base\ivdsserviceiscsi.htm
 tech.root: VDS
 ms.assetid: 07bbfb4b-f054-4ec2-8f0b-3910115db5c1

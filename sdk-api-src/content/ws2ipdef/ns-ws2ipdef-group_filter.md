@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2ipdef.group_filter
 title: GROUP_FILTER (ws2ipdef.h)
-description: Provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.
+description: Provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.helpviewer_keywords: ["*PGROUP_FILTER","GROUP_FILTER","GROUP_FILTER structure [Winsock]","MCAST_EXCLUDE","MCAST_INCLUDE","PGROUP_FILTER","PGROUP_FILTER structure pointer [Winsock]","winsock.group_filter","ws2ipdef/GROUP_FILTER","ws2ipdef/PGROUP_FILTER"]
 old-location: winsock\group_filter.htm
 tech.root: WinSock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e

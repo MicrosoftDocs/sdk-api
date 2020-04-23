@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionConstantBuffer.GetVariableByIndex
 title: ID3D11ShaderReflectionConstantBuffer::GetVariableByIndex (d3d11shader.h)
-description: Get a shader-reflection variable by index.
+description: Get a shader-reflection variable by index.helpviewer_keywords: ["45c0f056-8446-d61d-24b8-31ff2f2a92ff","GetVariableByIndex","GetVariableByIndex method [Direct3D 11]","GetVariableByIndex method [Direct3D 11]","ID3D11ShaderReflectionConstantBuffer interface","ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11]","GetVariableByIndex method","ID3D11ShaderReflectionConstantBuffer.GetVariableByIndex","ID3D11ShaderReflectionConstantBuffer::GetVariableByIndex","d3d11shader/ID3D11ShaderReflectionConstantBuffer::GetVariableByIndex","direct3d11.id3d11shaderreflectionconstantbuffer_getvariablebyindex"]
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer_getvariablebyindex.htm
 tech.root: direct3d11
 ms.assetid: fafdf040-223c-4e69-95b6-05c62ea8ff52

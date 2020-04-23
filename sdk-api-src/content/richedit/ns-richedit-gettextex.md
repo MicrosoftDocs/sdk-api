@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._gettextex
 title: GETTEXTEX (richedit.h)
-description: Contains information used in getting text from a rich edit control. This structure used with the EM_GETTEXTEX message.
+description: Contains information used in getting text from a rich edit control. This structure used with the EM_GETTEXTEX message.helpviewer_keywords: ["GETTEXTEX","GETTEXTEX structure [Windows Controls]","GT_DEFAULT","GT_NOHIDDENTEXT","GT_RAWTEXT","GT_SELECTION","GT_USECRLF","_win32_GETTEXTEX_str","_win32_GETTEXTEX_str_cpp","controls.GETTEXTEX","controls._win32_GETTEXTEX_str","richedit/GETTEXTEX"]
 old-location: controls\GETTEXTEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextex.htm

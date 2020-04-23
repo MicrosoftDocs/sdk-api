@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMReaderNetworkConfig
 title: IWMReaderNetworkConfig (wmsdkidl.h)
-description: The IWMReaderNetworkConfig interface is used to set and test network configuration settings.
+description: The IWMReaderNetworkConfig interface is used to set and test network configuration settings.helpviewer_keywords: ["IWMReaderNetworkConfig","IWMReaderNetworkConfig interface [windows Media Format]","IWMReaderNetworkConfig interface [windows Media Format]","described","IWMReaderNetworkConfigInterface","wmformat.iwmreadernetworkconfig","wmsdkidl/IWMReaderNetworkConfig"]
 old-location: wmformat\iwmreadernetworkconfig.htm
 tech.root: wmformat
 ms.assetid: 0957ece7-93fe-411b-b69e-fd03933b09d1

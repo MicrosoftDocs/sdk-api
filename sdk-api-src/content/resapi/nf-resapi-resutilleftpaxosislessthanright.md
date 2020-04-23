@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilLeftPaxosIsLessThanRight
 title: ResUtilLeftPaxosIsLessThanRight function (resapi.h)
-description: Indicates whether a specified Paxos tag contains older cluster configuration information than another specified Paxos tag.
+description: Indicates whether a specified Paxos tag contains older cluster configuration information than another specified Paxos tag.helpviewer_keywords: ["ResUtilLeftPaxosIsLessThanRight","ResUtilLeftPaxosIsLessThanRight function [Failover Cluster]","mscs.resutilleftpaxosislessthanright","resapi/ResUtilLeftPaxosIsLessThanRight"]
 old-location: mscs\resutilleftpaxosislessthanright.htm
 tech.root: MsCS
 ms.assetid: 01CBFC67-02D0-439D-BE4E-EA0A2448FDEE

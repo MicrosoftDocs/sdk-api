@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Next
 title: IEnumSyncMgrSyncItems::Next (syncmgr.h)
-description: Gets the next batch of sync items from the handler.
+description: Gets the next batch of sync items from the handler.helpviewer_keywords: ["IEnumSyncMgrSyncItems interface [Windows Shell]","Next method","IEnumSyncMgrSyncItems.Next","IEnumSyncMgrSyncItems::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumSyncMgrSyncItems interface","_shell_IEnumSyncMgrSyncItems_Next","shell.IEnumSyncMgrSyncItems_Next","syncmgr/IEnumSyncMgrSyncItems::Next"]
 old-location: shell\IEnumSyncMgrSyncItems_Next.htm
 tech.root: shell
 ms.assetid: b886e3a8-a94b-45ed-893b-889bef70ae6a

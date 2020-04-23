@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhGetWppMessage
 title: TdhGetWppMessage function (tdh.h)
-description: Retrieves the formatted WPP message embedded into an EVENT_RECORD structure.
+description: Retrieves the formatted WPP message embedded into an EVENT_RECORD structure.helpviewer_keywords: ["TdhGetWppMessage","TdhGetWppMessage function [ETW]","etw.tdhgetwppmessage","tdh/TdhGetWppMessage"]
 old-location: etw\tdhgetwppmessage.htm
 tech.root: ETW
 ms.assetid: e4daf7fb-4512-41bd-b7b9-3f9f1cd15037

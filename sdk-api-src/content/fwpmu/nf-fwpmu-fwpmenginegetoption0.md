@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmEngineGetOption0
 title: FwpmEngineGetOption0 function (fwpmu.h)
 description: Retrieves a filter engine option.
+helpviewer_keywords: ["FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND","FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE","FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND","FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST","FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST","FwpmEngineGetOption0","FwpmEngineGetOption0 function [Filtering]","fwp.fwpmenginegetoption0","fwpmu/FwpmEngineGetOption0"]
 old-location: fwp\fwpmenginegetoption0.htm
 tech.root: fwp
 ms.assetid: e243f0d6-fb15-4c26-b41d-e33e96daf294
@@ -66,14 +67,14 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param option [in]
 
-Type: [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)a></b>
+Type: [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)</b>
 
 The option to be retrieved.
 
 
 ### -param value [out]
 
-Type: [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>**</b>
+Type: [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)**</b>
 
 The option value. The data    type contained in the <i>value</i> parameter will be <b>FWP_UINT32</b>.
 
@@ -364,11 +365,11 @@ void main()
 
 
 
-[FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)a>
+[FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
+[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 

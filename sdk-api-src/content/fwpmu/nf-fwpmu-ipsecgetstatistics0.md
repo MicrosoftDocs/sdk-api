@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecGetStatistics0
 title: IPsecGetStatistics0 function (fwpmu.h)
 description: Retrieves Internet Protocol Security (IPsec) statistics.
+helpviewer_keywords: ["IPsecGetStatistics0","IPsecGetStatistics0 function [Filtering]","fwp.ipsecgetstatistics0_func","fwpmu/IPsecGetStatistics0"]
 old-location: fwp\ipsecgetstatistics0_func.htm
 tech.root: fwp
 ms.assetid: f33aad79-bc42-4f75-bc24-5d9838c02745
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param ipsecStatistics [out]
 
-Type: [IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)a>*</b>
+Type: [IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)*</b>
 
 Top-level object of IPsec statistics organization.
 
@@ -141,7 +142,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)a>
+[IPSEC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics0)
  
 
  

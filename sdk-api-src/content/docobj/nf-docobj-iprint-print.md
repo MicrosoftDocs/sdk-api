@@ -2,6 +2,7 @@
 UID: NF:docobj.IPrint.Print
 title: IPrint::Print (docobj.h)
 description: Prints an object on the specified printer, using the specified job requirements.
+helpviewer_keywords: ["IPrint interface [COM]","Print method","IPrint.Print","IPrint::Print","PRINTFLAG_DONTACTUALLYPRINT","PRINTFLAG_FORCEPROPERTIES","PRINTFLAG_MAYBOTHERUSER","PRINTFLAG_PRINTTOFILE","PRINTFLAG_PROMPTUSER","PRINTFLAG_RECOMPOSETODEVICE","PRINTFLAG_USERMAYCHANGEPRINTER","Print","Print method [COM]","Print method [COM]","IPrint interface","_ctrl_iprint_print","com.iprint_print","docobj/IPrint::Print"]
 old-location: com\iprint_print.htm
 tech.root: com
 ms.assetid: 30554d89-ad80-4d73-b44a-97ae5079feb8
@@ -179,7 +180,7 @@ A page specified in **<i>ppPageSet</i> or <i>nFirstPage</i> does not exist.
 
 
 
-The printer on which the object is to be printed is indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure pointed to by <i>pptd</i>. The <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure in the target device indicates whole-job printer-specific options, such as number of copies, paper size, and print quality. The <b>DEVMODE</b> structure may also contain orientation information in the <b>dmOrientation</b> member (this is indicated in the <b>dmFields</b> member). If present, then this paper orientation should be used; if absent, then natural orientation as determined by the object content is to be used.
+The printer on which the object is to be printed is indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure pointed to by <i>pptd</i>. The <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure in the target device indicates whole-job printer-specific options, such as number of copies, paper size, and print quality. The <b>DEVMODE</b> structure may also contain orientation information in the <b>dmOrientation</b> member (this is indicated in the <b>dmFields</b> member). If present, then this paper orientation should be used; if absent, then natural orientation as determined by the object content is to be used.
 
 Due to the possibility of user input, the parameters <i>pptd</i> and <i>ppPageSet</i> are both [in,out] structures. In the absence of user interaction (that is, if the PRINTFLAG_PROMPTUSER flag is not set), both the target device and the page set will necessarily be the same for input and output. However, if the user is prompted for print options, then the object returns target device and page-set information appropriate to what the user has actually chosen.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetName
 title: IEnhancedStorageSiloAction::GetName (ehstorapi.h)
-description: Returns a string for the name of the action specified by the IEnhancedStorageSiloAction object.
+description: Returns a string for the name of the action specified by the IEnhancedStorageSiloAction object.helpviewer_keywords: ["GetName","GetName method [Enhanced Storage]","GetName method [Enhanced Storage]","IEnhancedStorageSiloAction interface","IEnhancedStorageSiloAction interface [Enhanced Storage]","GetName method","IEnhancedStorageSiloAction.GetName","IEnhancedStorageSiloAction::GetName","ehstorapi/IEnhancedStorageSiloAction::GetName","enstor.ienhancedstoragesiloaction_getname"]
 old-location: enstor\ienhancedstoragesiloaction_getname.htm
 tech.root: enstor
 ms.assetid: 3690d395-c83e-4253-adc2-d30a96a5ce47

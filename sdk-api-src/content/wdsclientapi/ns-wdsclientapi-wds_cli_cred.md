@@ -1,7 +1,7 @@
 ---
 UID: NS:wdsclientapi.tagWDS_CLI_CRED
 title: WDS_CLI_CRED (wdsclientapi.h)
-description: Contains credentials used to authorize a client session.
+description: Contains credentials used to authorize a client session.helpviewer_keywords: ["*LPWDS_CLI_CRED","*PWDS_CLI_CRED","LPWDS_CLI_CRED","LPWDS_CLI_CRED structure pointer [Windows Deployment Services]","PWDS_CLI_CRED","PWDS_CLI_CRED structure pointer [Windows Deployment Services]","WDS_CLI_CRED","WDS_CLI_CRED structure [Windows Deployment Services]","wds.wds_cli_cred","wdsclientapi/LPWDS_CLI_CRED","wdsclientapi/PWDS_CLI_CRED","wdsclientapi/WDS_CLI_CRED"]
 old-location: wds\wds_cli_cred.htm
 tech.root: wds
 ms.assetid: 2aba59bf-3cd4-4376-b8c3-bb053ccd5c87

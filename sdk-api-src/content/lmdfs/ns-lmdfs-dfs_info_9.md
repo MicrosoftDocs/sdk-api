@@ -1,7 +1,7 @@
 ---
 UID: NS:lmdfs._DFS_INFO_9
 title: DFS_INFO_9 (lmdfs.h)
-description: Contains the name, status, GUID, time-out, property flags, metadata size, DFS target information, link reparse point security descriptor, and a list of DFS targets for a root or link.
+description: Contains the name, status, GUID, time-out, property flags, metadata size, DFS target information, link reparse point security descriptor, and a list of DFS targets for a root or link.helpviewer_keywords: ["*LPDFS_INFO_9","*PDFS_INFO_9","DFS_INFO_9","DFS_INFO_9 structure [Distributed File System]","DFS_PROPERTY_FLAG_ABDE","DFS_PROPERTY_FLAG_CLUSTER_ENABLED","DFS_PROPERTY_FLAG_INSITE_REFERRALS","DFS_PROPERTY_FLAG_ROOT_SCALABILITY","DFS_PROPERTY_FLAG_SITE_COSTING","DFS_PROPERTY_FLAG_TARGET_FAILBACK","DFS_VOLUME_FLAVOR_AD_BLOB","DFS_VOLUME_FLAVOR_STANDALONE","DFS_VOLUME_STATE_INCONSISTENT","DFS_VOLUME_STATE_OFFLINE","DFS_VOLUME_STATE_OK","DFS_VOLUME_STATE_ONLINE","PDFS_INFO_9","PDFS_INFO_9 structure pointer [Distributed File System]","dfs.dfs_info_9","fs.dfs_info_9","lmdfs/DFS_INFO_9","lmdfs/PDFS_INFO_9"]
 old-location: dfs\dfs_info_9.htm
 tech.root: Dfs
 ms.assetid: d09ebaa7-4ec7-4d25-8b77-fe568264e6b9

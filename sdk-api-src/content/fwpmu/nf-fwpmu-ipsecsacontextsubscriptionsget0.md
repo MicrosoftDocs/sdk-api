@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextSubscriptionsGet0
 title: IPsecSaContextSubscriptionsGet0 function (fwpmu.h)
 description: Retrieves an array of all the current IPsec security association (SA) change notification subscriptions.
+helpviewer_keywords: ["IPsecSaContextSubscriptionsGet0","IPsecSaContextSubscriptionsGet0 function [Filtering]","fwp.ipsecsacontextsubscriptionsget0","fwpmu/IPsecSaContextSubscriptionsGet0"]
 old-location: fwp\ipsecsacontextsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: eb7d8cd1-4bdb-4584-b9b9-c3667abf9bdb
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>***</b>
+Type: <b><a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>***</b>
 
 The current IPsec SA notification subscriptions. 
 
@@ -145,7 +146,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

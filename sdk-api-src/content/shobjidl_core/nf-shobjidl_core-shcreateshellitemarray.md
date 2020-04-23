@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArray
 title: SHCreateShellItemArray function (shobjidl_core.h)
-description: Creates a Shell item array object.
+description: Creates a Shell item array object.helpviewer_keywords: ["SHCreateShellItemArray","SHCreateShellItemArray function [Windows Shell]","_shell_SHCreateShellItemArray","shell.SHCreateShellItemArray","shobjidl_core/SHCreateShellItemArray"]
 old-location: shell\SHCreateShellItemArray.htm
 tech.root: shell
 ms.assetid: 024ccbc7-97f1-4cb5-8588-9c9b1f747336

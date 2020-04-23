@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellView2.HandleRename
 title: IShellView2::HandleRename (shobjidl_core.h)
-description: Used to change an item's identifier.
+description: Used to change an item's identifier.helpviewer_keywords: ["HandleRename","HandleRename method [Windows Shell]","HandleRename method [Windows Shell]","IShellView2 interface","IShellView2 interface [Windows Shell]","HandleRename method","IShellView2.HandleRename","IShellView2::HandleRename","_win32_IShellView2_HandleRename","shell.IShellView2_HandleRename","shobjidl_core/IShellView2::HandleRename"]
 old-location: shell\IShellView2_HandleRename.htm
 tech.root: shell
 ms.assetid: 0264df56-433f-4c54-a7e0-ccd92d3da602

@@ -1,7 +1,7 @@
 ---
 UID: NN:certcli.ICertGetConfig
 title: ICertGetConfig (certcli.h)
-description: Provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
+description: Provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.helpviewer_keywords: ["ICertGetConfig","ICertGetConfig interface [Security]","ICertGetConfig interface [Security]","described","certcli/ICertGetConfig","security.icertgetconfig"]
 old-location: security\icertgetconfig.htm
 tech.root: SecCrypto
 ms.assetid: 753d1527-1863-41af-9715-2c1fe138e67d

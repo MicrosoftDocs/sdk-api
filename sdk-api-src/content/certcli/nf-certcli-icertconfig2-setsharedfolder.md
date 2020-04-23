@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertConfig2.SetSharedFolder
 title: ICertConfig2::SetSharedFolder (certcli.h)
-description: Specifies the path to be used as the certification authority's (CA) shared folder.
+description: Specifies the path to be used as the certification authority's (CA) shared folder.helpviewer_keywords: ["CCertConfig object [Security]","SetSharedFolder method","ICertConfig2 interface [Security]","SetSharedFolder method","ICertConfig2.SetSharedFolder","ICertConfig2::SetSharedFolder","SetSharedFolder","SetSharedFolder method [Security]","SetSharedFolder method [Security]","CCertConfig object","SetSharedFolder method [Security]","ICertConfig2 interface","_certsrv_icertconfig2_setsharedfolder","certcli/ICertConfig2::SetSharedFolder","security.icertconfig2_setsharedfolder"]
 old-location: security\icertconfig2_setsharedfolder.htm
 tech.root: SecCrypto
 ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179

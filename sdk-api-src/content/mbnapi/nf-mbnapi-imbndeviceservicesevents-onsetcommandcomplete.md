@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnSetCommandComplete
 title: IMbnDeviceServicesEvents::OnSetCommandComplete (mbnapi.h)
-description: Notification method indicating that a device service SET request has completed.
+description: Notification method indicating that a device service SET request has completed.helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnSetCommandComplete method","IMbnDeviceServicesEvents.OnSetCommandComplete","IMbnDeviceServicesEvents::OnSetCommandComplete","OnSetCommandComplete","OnSetCommandComplete method [Microsoft Broadband Networks]","OnSetCommandComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onsetcommandcomplete","mbnapi/IMbnDeviceServicesEvents::OnSetCommandComplete"]
 old-location: mbn\imbndeviceservicesevents_onsetcommandcomplete.htm
 tech.root: mbn
 ms.assetid: A388F548-453B-4DAB-8AD8-ABC26B22F20E

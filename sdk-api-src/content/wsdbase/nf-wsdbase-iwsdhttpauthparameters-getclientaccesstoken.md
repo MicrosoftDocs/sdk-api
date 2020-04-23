@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdbase.IWSDHttpAuthParameters.GetClientAccessToken
 title: IWSDHttpAuthParameters::GetClientAccessToken (wsdbase.h)
-description: GetClientAccessToken method retrieves the client access token that can be used to either authenticate or impersonate the client.
+description: GetClientAccessToken method retrieves the client access token that can be used to either authenticate or impersonate the client.helpviewer_keywords: ["GetClientAccessToken","GetClientAccessToken method","GetClientAccessToken method","IWSDHttpAuthParameters interface","IWSDHttpAuthParameters interface","GetClientAccessToken method","IWSDHttpAuthParameters.GetClientAccessToken","IWSDHttpAuthParameters::GetClientAccessToken","ncd.iwsdhttpauthparameters_getclientaccesstoken","wsdbase/IWSDHttpAuthParameters::GetClientAccessToken"]
 old-location: ncd\iwsdhttpauthparameters_getclientaccesstoken.htm
 tech.root: WsdApi
 ms.assetid: 8E214497-151C-486B-8FE9-7B481AD403F9

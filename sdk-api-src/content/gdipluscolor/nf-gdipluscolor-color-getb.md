@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluscolor.Color.GetB
 title: Color::GetB (gdipluscolor.h)
-description: The Color::GetB method gets the blue component of this Color object.
+description: The Color::GetB method gets the blue component of this Color object.helpviewer_keywords: ["Color class [GDI+]","GetB method","Color.GetB","Color::GetB","GetB","GetB method [GDI+]","GetB method [GDI+]","Color class","_gdiplus_CLASS_Color_GetB_","gdiplus._gdiplus_CLASS_Color_GetB_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_GetB_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getb.htm

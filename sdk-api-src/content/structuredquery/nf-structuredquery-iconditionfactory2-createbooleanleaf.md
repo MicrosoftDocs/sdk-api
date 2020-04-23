@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory2.CreateBooleanLeaf
 title: IConditionFactory2::CreateBooleanLeaf (structuredquery.h)
 description: Creates a search condition that is either TRUE or FALSE.
+helpviewer_keywords: ["CreateBooleanLeaf","CreateBooleanLeaf method [search]","CreateBooleanLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateBooleanLeaf method","IConditionFactory2.CreateBooleanLeaf","IConditionFactory2::CreateBooleanLeaf","_search_IConditionFactory2_CreateBooleanLeaf","search._search_IConditionFactory2_CreateBooleanLeaf","structuredquery/IConditionFactory2::CreateBooleanLeaf"]
 old-location: search\_search_IConditionFactory2_CreateBooleanLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createbooleanleaf.htm
@@ -67,9 +68,9 @@ The name of the property of the leaf condition as a REFPROPERTYKEY. If the leaf 
 
 ### -param cop [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
+A <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
 
 
 ### -param fValue [in]
@@ -129,11 +130,11 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

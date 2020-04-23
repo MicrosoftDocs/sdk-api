@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncProgress
 title: IOfflineFilesSyncProgress (cscobj.h)
-description: Used to report progress back to the caller during synchronization and synchronization-related operations.
+description: Used to report progress back to the caller during synchronization and synchronization-related operations.helpviewer_keywords: ["IOfflineFilesSyncProgress","IOfflineFilesSyncProgress interface [Offline Files]","IOfflineFilesSyncProgress interface [Offline Files]","described","cscobj/IOfflineFilesSyncProgress","of.iofflinefilessyncprogress"]
 old-location: of\iofflinefilessyncprogress.htm
 tech.root: offlinefiles
 ms.assetid: 7fc5ff29-be9d-4fad-96a8-94058bb708fa

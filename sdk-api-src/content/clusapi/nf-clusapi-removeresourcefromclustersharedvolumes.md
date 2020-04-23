@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.RemoveResourceFromClusterSharedVolumes
 title: RemoveResourceFromClusterSharedVolumes function (clusapi.h)
-description: Removes storage from Cluster Shared Volumes.
+description: Removes storage from Cluster Shared Volumes.helpviewer_keywords: ["PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES","PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES function [Failover Cluster]","RemoveResourceFromClusterSharedVolumes","RemoveResourceFromClusterSharedVolumes function [Failover Cluster]","clusapi/PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES","clusapi/RemoveResourceFromClusterSharedVolumes","mscs.removeresourcefromclustersharedvolumes"]
 old-location: mscs\removeresourcefromclustersharedvolumes.htm
 tech.root: MsCS
 ms.assetid: 696CBC0D-C1F6-4f1a-94D1-71F77B102258

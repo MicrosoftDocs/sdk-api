@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_TransactionAffinity
 title: IServicePoolConfig::get_TransactionAffinity (comsvcs.h)
-description: Determines whether objects involved in transactions are held until the transaction completes.
+description: Determines whether objects involved in transactions are held until the transaction completes.helpviewer_keywords: ["IServicePoolConfig interface [COM+]","get_TransactionAffinity method","IServicePoolConfig.get_TransactionAffinity","IServicePoolConfig::get_TransactionAffinity","comsvcs/IServicePoolConfig::get_TransactionAffinity","cos.iservicepoolconfig_get_transactionaffinity","get_TransactionAffinity","get_TransactionAffinity method [COM+]","get_TransactionAffinity method [COM+]","IServicePoolConfig interface"]
 old-location: cos\iservicepoolconfig_get_transactionaffinity.htm
 tech.root: cossdk
 ms.assetid: ac227f22-1ed3-4c75-8469-e8635e2d2849

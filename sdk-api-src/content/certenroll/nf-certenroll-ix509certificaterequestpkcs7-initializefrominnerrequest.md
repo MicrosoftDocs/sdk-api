@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromInnerRequest
 title: IX509CertificateRequestPkcs7::InitializeFromInnerRequest (certenroll.h)
-description: Initializes the certificate request from the inner PKCS
+description: Initializes the certificate request from the inner PKCShelpviewer_keywords: ["IX509CertificateRequestPkcs7 interface [Security]","InitializeFromInnerRequest method","IX509CertificateRequestPkcs7.InitializeFromInnerRequest","IX509CertificateRequestPkcs7::InitializeFromInnerRequest","InitializeFromInnerRequest","InitializeFromInnerRequest method [Security]","InitializeFromInnerRequest method [Security]","IX509CertificateRequestPkcs7 interface","certenroll/IX509CertificateRequestPkcs7::InitializeFromInnerRequest","security.ix509certificaterequestpkcs7_initializefrominnerrequest_method"]
 old-location: security\ix509certificaterequestpkcs7_initializefrominnerrequest_method.htm
 tech.root: seccertenroll
 ms.assetid: b63bfaaa-a8af-4c72-a191-447230adae72

@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoCreateGuid
 title: CoCreateGuid function (combaseapi.h)
-description: Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.
+description: Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.helpviewer_keywords: ["CoCreateGuid","CoCreateGuid function [COM]","_com_CoCreateGuid","com.cocreateguid","combaseapi/CoCreateGuid"]
 old-location: com\cocreateguid.htm
 tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178

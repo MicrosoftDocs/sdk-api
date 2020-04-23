@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellIcon
 title: IShellIcon (shobjidl_core.h)
-description: Exposes a method that obtains an icon index for an IShellFolder object.
+description: Exposes a method that obtains an icon index for an IShellFolder object.helpviewer_keywords: ["IShellIcon","IShellIcon interface [Windows Shell]","IShellIcon interface [Windows Shell]","described","_win32_IShellIcon","shell.IShellIcon","shobjidl_core/IShellIcon"]
 old-location: shell\IShellIcon.htm
 tech.root: shell
 ms.assetid: 64711453-bc70-4acb-bff7-8b5534cceff5

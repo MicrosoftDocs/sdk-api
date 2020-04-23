@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetInterfaceHardwareTimestampCapabilities
 title: GetInterfaceHardwareTimestampCapabilities function (iphlpapi.h)
-description: This function is reserved for system use, and you should not call it from your code.
+description: This function is reserved for system use, and you should not call it from your code.helpviewer_keywords: ["GetInterfaceHardwareTimestampCapabilities","GetInterfaceHardwareTimestampCapabilities function [IP Helper]","iphlp.getinterfacehardwaretimestampcapabilities","iphlpapi/GetInterfaceHardwareTimestampCapabilities"]
 old-location: iphlp\getinterfacehardwaretimestampcapabilities.htm
 tech.root: IpHlp
 ms.assetid: E09F96C2-72C6-4426-B395-DD590D731E5B

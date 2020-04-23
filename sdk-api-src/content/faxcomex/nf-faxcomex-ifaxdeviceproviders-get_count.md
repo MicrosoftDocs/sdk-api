@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProviders.get_Count
 title: IFaxDeviceProviders::get_Count (faxcomex.h)
-description: The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.
+description: The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.helpviewer_keywords: ["Count property [Fax Service]","Count property [Fax Service]","IFaxDeviceProviders interface","IFaxDeviceProviders interface [Fax Service]","Count property","IFaxDeviceProviders.Count","IFaxDeviceProviders.get_Count","IFaxDeviceProviders::Count","IFaxDeviceProviders::get_Count","_mfax_faxdeviceproviders.count","fax._mfax_faxdeviceproviders_count","fax._mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp","faxcomex/IFaxDeviceProviders::Count","faxcomex/IFaxDeviceProviders::get_Count","get_Count"]
 old-location: fax\_mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1th0.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.HasUserCancelled
 title: IProgressDialog::HasUserCancelled (shlobj_core.h)
-description: Checks whether the user has canceled the operation.
+description: Checks whether the user has canceled the operation.helpviewer_keywords: ["HasUserCancelled","HasUserCancelled method [Windows Shell]","HasUserCancelled method [Windows Shell]","IProgressDialog interface","IProgressDialog interface [Windows Shell]","HasUserCancelled method","IProgressDialog.HasUserCancelled","IProgressDialog::HasUserCancelled","_win32_IProgressDialog_HasUserCancelled","shell.IProgressDialog_HasUserCancelled","shlobj_core/IProgressDialog::HasUserCancelled"]
 old-location: shell\IProgressDialog_HasUserCancelled.htm
 tech.root: shell
 ms.assetid: bd817850-7776-47cd-b1b3-ccb946660781

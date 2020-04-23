@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamForMethodIndex
 title: IMetaDataImport::GetParamForMethodIndex (rometadataapi.h)
-description: Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.
+description: Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.helpviewer_keywords: ["GetParamForMethodIndex","GetParamForMethodIndex method [Windows Runtime]","GetParamForMethodIndex method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetParamForMethodIndex method","IMetaDataImport.GetParamForMethodIndex","IMetaDataImport::GetParamForMethodIndex","rometadataapi/IMetaDataImport::GetParamForMethodIndex","winrt.imetadataimport_getparamformethodindex"]
 old-location: winrt\imetadataimport_getparamformethodindex.htm
 tech.root: WinRT
 ms.assetid: 118a5ab3-b7db-4e0c-bf45-ab7e2e0e4f03

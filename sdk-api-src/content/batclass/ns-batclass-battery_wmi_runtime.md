@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_WMI_RUNTIME
 title: BATTERY_WMI_RUNTIME (batclass.h)
-description: Defines information about the estimated runtime of a battery for use with the BatteryClassQueryWmiDataBlock function.
+description: Defines information about the estimated runtime of a battery for use with the BatteryClassQueryWmiDataBlock function.helpviewer_keywords: ["*PBATTERY_WMI_RUNTIME","BATTERY_WMI_RUNTIME","BATTERY_WMI_RUNTIME structure [Battery Devices]","PBATTERY_WMI_RUNTIME","PBATTERY_WMI_RUNTIME structure pointer [Battery Devices]","batclass/BATTERY_WMI_RUNTIME","batclass/PBATTERY_WMI_RUNTIME","battery.battery_wmi_runtime"]
 old-location: battery\battery_wmi_runtime.htm
 tech.root: battery
 ms.assetid: B6351A10-581C-42F1-A8AD-D33D6F633466

@@ -2,6 +2,7 @@
 UID: NC:wincrypt.PFN_CMSG_EXPORT_KEY_TRANS
 title: PFN_CMSG_EXPORT_KEY_TRANS (wincrypt.h)
 description: Encrypts and exports the content encryption key for a key transport recipient of an enveloped message.
+helpviewer_keywords: ["PFN_CMSG_EXPORT_KEY_TRANS","PFN_CMSG_EXPORT_KEY_TRANS callback","PFN_CMSG_EXPORT_KEY_TRANS callback function [Security]","security.pfn_cmsg_export_key_trans","wincrypt/PFN_CMSG_EXPORT_KEY_TRANS"]
 old-location: security\pfn_cmsg_export_key_trans.htm
 tech.root: SecCrypto
 ms.assetid: bbb976df-5c8d-4d5e-ba92-7c534bba59de
@@ -64,7 +65,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -param pKeyTransEncodeInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure that specifies the recipient public key used to encrypt the content encryption key.
+A pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure that specifies the recipient public key used to encrypt the content encryption key.
 
 
 ### -param pKeyTransEncryptInfo [in, out]

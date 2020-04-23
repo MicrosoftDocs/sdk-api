@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.CD3D11_RECT(LONG,LONG,LONG,LONG)
 title: CD3D11_RECT::CD3D11_RECT(LONG,LONG,LONG,LONG) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_RECT structure that is initialized with the dimensions of a rectangle.
+description: Instantiates a new instance of a CD3D11_RECT structure that is initialized with the dimensions of a rectangle.helpviewer_keywords: ["CD3D11_RECT","CD3D11_RECT constructor [Direct3D 11]","CD3D11_RECT constructor [Direct3D 11]","CD3D11_RECT interface","CD3D11_RECT interface [Direct3D 11]","CD3D11_RECT constructor","CD3D11_RECT.CD3D11_RECT","CD3D11_RECT.CD3D11_RECT(LONG","LONG","LONG","LONG)","CD3D11_RECT::CD3D11_RECT","CD3D11_RECT::CD3D11_RECT(LONG","LONG","LONG","LONG)","d3d11/CD3D11_RECT::CD3D11_RECT","direct3d11.cd3d11_rect_cd3d11_rect_long_long_long_long"]
 old-location: direct3d11\cd3d11_rect_cd3d11_rect_long_long_long_long.htm
 tech.root: direct3d11
 ms.assetid: 40A2F34B-DAD5-4707-8FB6-0941818092B8

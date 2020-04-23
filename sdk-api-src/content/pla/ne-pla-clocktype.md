@@ -1,7 +1,7 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0005
 title: ClockType (pla.h)
-description: Defines the clock resolution to use when tracing events.
+description: Defines the clock resolution to use when tracing events.helpviewer_keywords: ["ClockType","ClockType enumeration [PLA]","base.clocktype","pla.clocktype","pla/ClockType","pla/plaCycle","pla/plaPerformance","pla/plaSystem","pla/plaTimeStamp","plaCycle","plaPerformance","plaSystem","plaTimeStamp"]
 old-location: pla\clocktype.htm
 tech.root: PLA
 ms.assetid: e255d486-2f1f-4a3d-a8a5-1c997d61a073

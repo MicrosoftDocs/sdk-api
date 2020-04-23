@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSourceOpenMonitor
 title: IMFSourceOpenMonitor (mfidl.h)
-description: Callback interface to receive notifications from a network source on the progress of an asynchronous open operation.
+description: Callback interface to receive notifications from a network source on the progress of an asynchronous open operation.helpviewer_keywords: ["9145910b-81f1-4fd1-8f6f-d6273e0edde6","IMFSourceOpenMonitor","IMFSourceOpenMonitor interface [Media Foundation]","IMFSourceOpenMonitor interface [Media Foundation]","described","mf.imfsourceopenmonitor","mfidl/IMFSourceOpenMonitor"]
 old-location: mf\imfsourceopenmonitor.htm
 tech.root: medfound
 ms.assetid: 9145910b-81f1-4fd1-8f6f-d6273e0edde6

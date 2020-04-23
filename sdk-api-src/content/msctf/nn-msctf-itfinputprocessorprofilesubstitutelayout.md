@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfileSubstituteLayout
 title: ITfInputProcessorProfileSubstituteLayout (msctf.h)
-description: This interface is implemented by the TSF manager and is used by an application or text service to manipulate the substitute input locale identifier (keyboard layout) of a text service profile.
+description: This interface is implemented by the TSF manager and is used by an application or text service to manipulate the substitute input locale identifier (keyboard layout) of a text service profile.helpviewer_keywords: ["ITfInputProcessorProfileSubstituteLayout","ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework]","ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework]","described","msctf/ITfInputProcessorProfileSubstituteLayout","tsf.itfinputprocessorprofilesubstitutelayout"]
 old-location: tsf\itfinputprocessorprofilesubstitutelayout.htm
 tech.root: TSF
 ms.assetid: e801ca27-4581-4369-886c-04b824d55013

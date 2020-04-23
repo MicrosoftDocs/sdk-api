@@ -2,6 +2,7 @@
 UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
+helpviewer_keywords: ["DrawRectangle","DrawRectangle method [Direct2D]","DrawRectangle method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawRectangle method","ID2D1RenderTarget.DrawRectangle","ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","ID2D1RenderTarget::DrawRectangle","ID2D1RenderTarget::DrawRectangle(const D2D1_RECT_F &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","d2d1/ID2D1RenderTarget::DrawRectangle","direct2d.ID2D1RenderTarget_DrawRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle"]
 old-location: direct2d\ID2D1RenderTarget_DrawRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: bc176c12-db06-4f1e-b668-4441723a916a
@@ -90,7 +91,7 @@ The style of stroke to paint, or <b>NULL</b> to paint a solid stroke.
 
 
 
-When this method fails, it does not return an error code. To determine whether a drawing method (such as <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> method. 
+When this method fails, it does not return an error code. To determine whether a drawing method (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> method. 
 
 
 #### Examples

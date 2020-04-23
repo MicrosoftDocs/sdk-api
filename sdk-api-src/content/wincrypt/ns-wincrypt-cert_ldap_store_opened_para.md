@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_LDAP_STORE_OPENED_PARA
 title: CERT_LDAP_STORE_OPENED_PARA (wincrypt.h)
-description: Used with the CertOpenStore function when the CERT_STORE_PROV_LDAP provider is specified by using the CERT_LDAP_STORE_OPENED_FLAG flag to specify both the existing LDAP session to use to perform the query as well as the LDAP query string.
+description: Used with the CertOpenStore function when the CERT_STORE_PROV_LDAP provider is specified by using the CERT_LDAP_STORE_OPENED_FLAG flag to specify both the existing LDAP session to use to perform the query as well as the LDAP query string.helpviewer_keywords: ["*PCERT_LDAP_STORE_OPENED_PARA","CERT_LDAP_STORE_OPENED_PARA","CERT_LDAP_STORE_OPENED_PARA structure [Security]","PCERT_LDAP_STORE_OPENED_PARA","PCERT_LDAP_STORE_OPENED_PARA structure pointer [Security]","security.cert_ldap_store_opened_para","wincrypt/CERT_LDAP_STORE_OPENED_PARA","wincrypt/PCERT_LDAP_STORE_OPENED_PARA"]
 old-location: security\cert_ldap_store_opened_para.htm
 tech.root: SecCrypto
 ms.assetid: f13b8181-6173-44f8-ab30-4311042cd1b5

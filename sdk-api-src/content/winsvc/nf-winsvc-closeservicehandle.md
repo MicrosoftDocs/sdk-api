@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.CloseServiceHandle
 title: CloseServiceHandle function (winsvc.h)
-description: Closes a handle to a service control manager or service object.
+description: Closes a handle to a service control manager or service object.helpviewer_keywords: ["CloseServiceHandle","CloseServiceHandle function","_win32_closeservicehandle","base.closeservicehandle","winsvc/CloseServiceHandle"]
 old-location: base\closeservicehandle.htm
 tech.root: Services
 ms.assetid: 6cf25994-4939-4aff-af38-5ffc8fc606ae

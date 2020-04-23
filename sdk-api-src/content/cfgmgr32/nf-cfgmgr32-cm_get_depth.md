@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Depth
 title: CM_Get_Depth function (cfgmgr32.h)
-description: The CM_Get_Depth function is used to obtain the depth of a specified device node (devnode) within the local machine's device tree.
+description: The CM_Get_Depth function is used to obtain the depth of a specified device node (devnode) within the local machine's device tree.helpviewer_keywords: ["CM_Get_Depth","CM_Get_Depth function [Device and Driver Installation]","cfgmgr32/CM_Get_Depth","cfgmgrfn_5b045e68-ae42-40ff-a265-693134c95c26.xml","devinst.cm_get_depth"]
 old-location: devinst\cm_get_depth.htm
 tech.root: devinst
 ms.assetid: 4ea0a722-6d44-4690-a2e5-cb39e3fdeb1f

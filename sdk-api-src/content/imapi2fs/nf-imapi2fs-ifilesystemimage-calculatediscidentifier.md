@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CalculateDiscIdentifier
 title: IFileSystemImage::CalculateDiscIdentifier (imapi2fs.h)
-description: Retrieves a string that identifies a disc and the sessions recorded on the disc.
+description: Retrieves a string that identifies a disc and the sessions recorded on the disc.helpviewer_keywords: ["CalculateDiscIdentifier","CalculateDiscIdentifier method [IMAPI]","CalculateDiscIdentifier method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","CalculateDiscIdentifier method","IFileSystemImage.CalculateDiscIdentifier","IFileSystemImage::CalculateDiscIdentifier","imapi.ifilesystemimage_calculatediscidentifier","imapi2fs/IFileSystemImage::CalculateDiscIdentifier"]
 old-location: imapi\ifilesystemimage_calculatediscidentifier.htm
 tech.root: imapi
 ms.assetid: c1d1fc83-326e-4d9f-b771-c520ee956ed5

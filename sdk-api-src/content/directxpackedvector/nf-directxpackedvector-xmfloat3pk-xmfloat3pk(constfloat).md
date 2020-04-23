@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(const float)
 title: XMFLOAT3PK::XMFLOAT3PK(const float) (directxpackedvector.h)
-description: Initializes a new instance of XMFLOAT3PK from a three element float array argument.
+description: Initializes a new instance of XMFLOAT3PK from a three element float array argument.helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK structure","XMFLOAT3PK structure [DirectX Math Support APIs]","XMFLOAT3PK constructor","XMFLOAT3PK.XMFLOAT3PK","XMFLOAT3PK.XMFLOAT3PK()","XMFLOAT3PK.XMFLOAT3PK(const float)","XMFLOAT3PK::XMFLOAT3PK","XMFLOAT3PK::XMFLOAT3PK(const float)","dxmath.xmfloat3pk_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: ea6c8c8f-371d-40b8-8377-ccc4f75b0cf4

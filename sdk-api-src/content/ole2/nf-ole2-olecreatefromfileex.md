@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleCreateFromFileEx
 title: OleCreateFromFileEx function (ole2.h)
-description: Extends OleCreateFromFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreateFromFile.
+description: Extends OleCreateFromFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreateFromFile.helpviewer_keywords: ["OleCreateFromFileEx","OleCreateFromFileEx function [COM]","_ole_OleCreateFromFileEx","com.olecreatefromfileex","ole2/OleCreateFromFileEx"]
 old-location: com\olecreatefromfileex.htm
 tech.root: com
 ms.assetid: a75bb031-6e4a-4440-82f3-6a6f9417c62b

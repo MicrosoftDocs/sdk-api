@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterGroupCloseEnumEx
 title: ClusterGroupCloseEnumEx function (clusapi.h)
-description: Closes the enumeration and frees any memory held by the hGroupEnumEx handle.
+description: Closes the enumeration and frees any memory held by the hGroupEnumEx handle.helpviewer_keywords: ["ClusterGroupCloseEnumEx","ClusterGroupCloseEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX","PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX function [Failover Cluster]","clusapi/ClusterGroupCloseEnumEx","clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX","mscs.clustergroupcloseenumex"]
 old-location: mscs\clustergroupcloseenumex.htm
 tech.root: MsCS
 ms.assetid: 4777BB89-FB90-43F9-81B4-FCAE4E50889F

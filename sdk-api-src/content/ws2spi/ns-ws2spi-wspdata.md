@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2spi.WSPData
 title: WSPDATA
-description: The WSPDATA structure contains service provider information.
+description: The WSPDATA structure contains service provider information.helpviewer_keywords: ["WSPData","WSPDATA"]
 ms.date: 4/26/2019
 ms.keywords: WSPData, WSPDATA
 targetos: Windows

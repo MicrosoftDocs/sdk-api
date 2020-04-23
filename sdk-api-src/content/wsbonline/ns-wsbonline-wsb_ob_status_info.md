@@ -1,7 +1,7 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_INFO
 title: WSB_OB_STATUS_INFO (wsbonline.h)
-description: Contains information to update the cloud backup provider status in the Windows Server Backup MMC snap-in.
+description: Contains information to update the cloud backup provider status in the Windows Server Backup MMC snap-in.helpviewer_keywords: ["WSB_OB_STATUS_INFO","WSB_OB_STATUS_INFO structure [Windows Server Backup]","wsb.wsb_ob_status_info","wsbonline/WSB_OB_STATUS_INFO"]
 old-location: wsb\wsb_ob_status_info.htm
 tech.root: wsb
 ms.assetid: 5836B3FC-5590-4678-A6BE-AD7C59E0FAFD

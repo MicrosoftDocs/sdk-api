@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Clone
 title: IEnumTfPropertyValue::Clone (msctf.h)
-description: IEnumTfPropertyValue::Clone method
+description: IEnumTfPropertyValue::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfPropertyValue interface","IEnumTfPropertyValue interface [Text Services Framework]","Clone method","IEnumTfPropertyValue.Clone","IEnumTfPropertyValue::Clone","_tsf_ienumtfpropertyvalue_clone_ref","msctf/IEnumTfPropertyValue::Clone","tsf.ienumtfpropertyvalue_clone"]
 old-location: tsf\ienumtfpropertyvalue_clone.htm
 tech.root: TSF
 ms.assetid: 10c21ea3-a984-4dde-afb4-715a5273fd03

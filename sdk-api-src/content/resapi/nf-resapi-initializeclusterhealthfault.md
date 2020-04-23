@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.InitializeClusterHealthFault
 title: InitializeClusterHealthFault function (resapi.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["InitializeClusterHealthFault","InitializeClusterHealthFault function [Failover Cluster]","mscs.initializeclusterhealthfault","resapi/InitializeClusterHealthFault"]
 old-location: mscs\initializeclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 4631df2f-8fde-446c-9fbc-f7e88bc6d4e6

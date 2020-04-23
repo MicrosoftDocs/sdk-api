@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesGhostInfo
 title: IOfflineFilesGhostInfo (cscobj.h)
-description: Represents the ghosting status of an item in the Offline Files cache.
+description: Represents the ghosting status of an item in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesGhostInfo","IOfflineFilesGhostInfo interface [Offline Files]","IOfflineFilesGhostInfo interface [Offline Files]","described","cscobj/IOfflineFilesGhostInfo","of.iofflinefilesghostinfo"]
 old-location: of\iofflinefilesghostinfo.htm
 tech.root: offlinefiles
 ms.assetid: bb71bc95-049d-4ade-ad10-c33b0bf739ce

@@ -2,6 +2,7 @@
 UID: NF:srrestoreptapi.SRSetRestorePointA
 title: SRSetRestorePointA function (srrestoreptapi.h)
 description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
+helpviewer_keywords: ["SRSetRestorePoint","SRSetRestorePoint function [System Restore]","SRSetRestorePointA","SRSetRestorePointW","_sr_srsetrestorepoint","sr.srsetrestorepoint","srrestoreptapi/SRSetRestorePoint","srrestoreptapi/SRSetRestorePointA","srrestoreptapi/SRSetRestorePointW"]
 old-location: sr\srsetrestorepoint.htm
 tech.root: sr
 ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
@@ -66,13 +67,13 @@ For a scriptable equivalent, see
 ### -param pRestorePtSpec [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa">RESTOREPOINTINFO</a> structure that specifies the restore point.
+<a href="/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa">RESTOREPOINTINFO</a> structure that specifies the restore point.
 
 
 ### -param pSMgrStatus [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus">STATEMGRSTATUS</a> structure that receives the status information.
+<a href="/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus">STATEMGRSTATUS</a> structure that receives the status information.
 
 
 ## -returns
@@ -101,7 +102,7 @@ Applications should not call System Restore functions using load-time dynamic li
 
 Create restore points just prior to a system change, by calling 
 <b>SRSetRestorePoint</b> with the <b>dwEventType</b> member of the 
-<a href="https://docs.microsoft.com/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa">RESTOREPOINTINFO</a> structure set to BEGIN_SYSTEM_CHANGE. After the changes to the system have been completed, call 
+<a href="/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa">RESTOREPOINTINFO</a> structure set to BEGIN_SYSTEM_CHANGE. After the changes to the system have been completed, call 
 <b>SRSetRestorePoint</b> with <b>dwEventType</b> set to END_SYSTEM_CHANGE.
 
 If the user cancels the application installation, the installer may remove the restore point it created when the installation began. Removing the restore point is optional and can prevent the user from recovering from unintentional changes made by the installer during the cancellation. If the installer is to remove a restore point, it can call the 
@@ -115,7 +116,7 @@ Be careful when making nested calls to
 
 <b>Windows 8:  </b><p class="note">A new registry key enables application developers to change the frequency of restore-point creation. 
 
-<p class="note">Applications should create this key to use it because it  will not preexist in the system. The following applies by default if the key does not exist. If an application calls the <b>SRSetRestorePoint</b> function to create a restore point, Windows skips creating this new restore point if any restore points have been created in the last 24 hours.   System Restore sets the <b>IISequenceNumber</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus">STATEMGRSTATUS</a> structure to the sequence number for the restore point created previously in the day and sets the value of the <b>nStatus</b> member to <b>ERROR_SUCCESS</b>.
+<p class="note">Applications should create this key to use it because it  will not preexist in the system. The following applies by default if the key does not exist. If an application calls the <b>SRSetRestorePoint</b> function to create a restore point, Windows skips creating this new restore point if any restore points have been created in the last 24 hours.   System Restore sets the <b>IISequenceNumber</b> member of the <a href="/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus">STATEMGRSTATUS</a> structure to the sequence number for the restore point created previously in the day and sets the value of the <b>nStatus</b> member to <b>ERROR_SUCCESS</b>.
 
 The <b>SRSetRestorePoint</b> function returns <b>TRUE</b>.
 

@@ -1,7 +1,7 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyFlags
 title: EnrollmentPolicyFlags (certenroll.h)
-description: Specifies group policy flags.
+description: Specifies group policy flags.helpviewer_keywords: ["DisableGroupPolicyList","DisableUserServerList","EnrollmentPolicyFlags","EnrollmentPolicyFlags enumeration [Security]","certenroll/DisableGroupPolicyList","certenroll/DisableUserServerList","certenroll/EnrollmentPolicyFlags","security.enrollmentpolicyflags"]
 old-location: security\enrollmentpolicyflags.htm
 tech.root: seccertenroll
 ms.assetid: 07f80422-6856-4371-946f-88efdd9c765a

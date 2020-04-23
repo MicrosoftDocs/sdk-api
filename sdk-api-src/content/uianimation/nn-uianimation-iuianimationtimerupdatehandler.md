@@ -1,7 +1,7 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerUpdateHandler
 title: IUIAnimationTimerUpdateHandler (uianimation.h)
-description: Defines methods for handling timing update events.
+description: Defines methods for handling timing update events.helpviewer_keywords: ["IUIAnimationTimerUpdateHandler","IUIAnimationTimerUpdateHandler interface [Windows Animation]","IUIAnimationTimerUpdateHandler interface [Windows Animation]","described","uianimation.iuianimationtimerupdatehandler","uianimation/IUIAnimationTimerUpdateHandler"]
 old-location: uianimation\iuianimationtimerupdatehandler.htm
 tech.root: UIAnimation
 ms.assetid: f155ed12-d493-48a0-9bdf-0e1e79cbcd38

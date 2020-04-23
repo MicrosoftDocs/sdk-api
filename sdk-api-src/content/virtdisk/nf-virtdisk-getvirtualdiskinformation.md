@@ -2,6 +2,7 @@
 UID: NF:virtdisk.GetVirtualDiskInformation
 title: GetVirtualDiskInformation function (virtdisk.h)
 description: Retrieves information about a VHD.
+helpviewer_keywords: ["GetVirtualDiskInformation","GetVirtualDiskInformation function [VHD]","vdssys/GetVirtualDiskInformation","vhd.getvirtualdiskinformation","virtdisk/GetVirtualDiskInformation"]
 old-location: vhd\getvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: c3832be0-e9b8-4f6a-a663-06349c7fd639
@@ -62,7 +63,7 @@ Retrieves information about a virtual hard disk (VHD).
 A handle to the open VHD, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
+      <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
       open a VHD, see the <b>OpenVirtualDisk</b> function.
 
 
@@ -74,7 +75,7 @@ A pointer to a <b>ULONG</b> that contains the size of the
 
 ### -param VirtualDiskInfo [in, out]
 
-A pointer to a valid [GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)a> 
+A pointer to a valid [GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info) 
       structure. The format of the data returned is dependent on the value passed in the 
       <b>Version</b> member by the caller.
 
@@ -120,7 +121,7 @@ The <b>GetVirtualDiskInformation</b> function
 
 
 
-[GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)a>
+[GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)
 
 
 

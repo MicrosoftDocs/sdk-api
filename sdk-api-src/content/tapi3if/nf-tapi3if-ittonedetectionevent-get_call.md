@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_Call
 title: ITToneDetectionEvent::get_Call (tapi3if.h)
-description: The get_Call method gets a pointer to the call information interface for the call object on which the tone detection event occurred.
+description: The get_Call method gets a pointer to the call information interface for the call object on which the tone detection event occurred.helpviewer_keywords: ["ITToneDetectionEvent interface [TAPI 2.2]","get_Call method","ITToneDetectionEvent.get_Call","ITToneDetectionEvent::get_Call","_tapi3_ittonedetectionevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITToneDetectionEvent interface","tapi3.ittonedetectionevent_get_call","tapi3if/ITToneDetectionEvent::get_Call"]
 old-location: tapi3\ittonedetectionevent_get_call.htm
 tech.root: Tapi
 ms.assetid: 50804e3d-ec60-44b3-ac6d-2518c96bfc64

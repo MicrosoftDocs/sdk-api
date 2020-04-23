@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.TransformRect
 title: IMILBitmapEffectPrimitive::TransformRect (mileffects.h)
-description: Transforms the output of the given rectangle.
+description: Transforms the output of the given rectangle.helpviewer_keywords: ["IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","TransformRect method","IMILBitmapEffectPrimitive.TransformRect","IMILBitmapEffectPrimitive::TransformRect","TransformRect","TransformRect method [WPF Bitmap Effects]","TransformRect method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","_wibe_imilbitmapeffectprimitive_transformrect","mileffects/IMILBitmapEffectPrimitive::TransformRect","wibe._wibe_imilbitmapeffectprimitive_transformrect"]
 old-location: wibe\_wibe_imilbitmapeffectprimitive_transformrect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transformrect.htm

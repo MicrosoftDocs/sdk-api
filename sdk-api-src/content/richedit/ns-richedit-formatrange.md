@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._formatrange
 title: FORMATRANGE (richedit.h)
-description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.
+description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.helpviewer_keywords: ["FORMATRANGE","FORMATRANGE structure [Windows Controls]","_win32_FORMATRANGE_str","_win32_FORMATRANGE_str_cpp","controls.FORMATRANGE","controls._win32_FORMATRANGE_str","richedit/FORMATRANGE"]
 old-location: controls\FORMATRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm

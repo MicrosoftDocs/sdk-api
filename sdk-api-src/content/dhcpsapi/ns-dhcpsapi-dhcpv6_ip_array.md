@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_IP_ARRAY
 title: DHCPV6_IP_ARRAY (dhcpsapi.h)
-description: The DHCPV6_IP_ARRAY structure contains an array of DHCP IPv6 address structures.
+description: The DHCPV6_IP_ARRAY structure contains an array of DHCP IPv6 address structures.helpviewer_keywords: ["*LPDHCPV6_IP_ARRAY","DHCPV6_IP_ARRAY","DHCPV6_IP_ARRAY structure [DHCP]","PDHCPV6_IP_ARRAY","PDHCPV6_IP_ARRAY structure pointer [DHCP]","dhcp.dhcpv6_ip_array","dhcpsapi/DHCPV6_IP_ARRAY","dhcpsapi/PDHCPV6_IP_ARRAY"]
 old-location: dhcp\dhcpv6_ip_array.htm
 tech.root: DHCP
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManEx.GetErrorMessage
 title: IWSManEx::GetErrorMessage (wsmandisp.h)
-description: Returns a formatted string containing the text of an error number.
+description: Returns a formatted string containing the text of an error number.helpviewer_keywords: ["GetErrorMessage","GetErrorMessage method [Windows Remote Management]","GetErrorMessage method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","GetErrorMessage method","IWSManEx.GetErrorMessage","IWSManEx::GetErrorMessage","winrm.iwsmanex_geterrormessage","wsmandisp/IWSManEx::GetErrorMessage"]
 old-location: winrm\iwsmanex_geterrormessage.htm
 tech.root: winrm
 ms.assetid: af5ae515-458a-4d7f-80f8-0fd51f97e7f1

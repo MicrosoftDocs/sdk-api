@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetDeviceId
 title: IPhotoAcquireSource::GetDeviceId (photoacquire.h)
-description: The GetDeviceId method retrieves the identifier (ID) of the device.
+description: The GetDeviceId method retrieves the identifier (ID) of the device.helpviewer_keywords: ["GetDeviceId","GetDeviceId method [Picture Acquisition]","GetDeviceId method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetDeviceId method","IPhotoAcquireSource.GetDeviceId","IPhotoAcquireSource::GetDeviceId","IPhotoAcquireSourceGetDeviceId","photoacquire/IPhotoAcquireSource::GetDeviceId","picacq.iphotoacquiresource_getdeviceid"]
 old-location: picacq\iphotoacquiresource_getdeviceid.htm
 tech.root: acquisition
 ms.assetid: 4c997e76-9109-403f-821f-d73e8577b1ac

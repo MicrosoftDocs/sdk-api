@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Name
 title: IRegisteredTask::get_Name (taskschd.h)
-description: Gets the name of the registered task.
+description: Gets the name of the registered task.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","Name property","IRegisteredTask.Name","IRegisteredTask.get_Name","IRegisteredTask::Name","IRegisteredTask::get_Name","Name property [Task Scheduler]","Name property [Task Scheduler]","IRegisteredTask interface","get_Name","taskschd.iregisteredtask_name","taskschd/IRegisteredTask::Name","taskschd/IRegisteredTask::get_Name"]
 old-location: taskschd\iregisteredtask_name.htm
 tech.root: taskschd
 ms.assetid: 17aff717-10dd-43ac-9d14-6c07831d4c18

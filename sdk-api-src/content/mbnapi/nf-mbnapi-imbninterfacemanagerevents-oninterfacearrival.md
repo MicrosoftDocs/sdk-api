@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceArrival
 title: IMbnInterfaceManagerEvents::OnInterfaceArrival (mbnapi.h)
-description: Notification method that signals that a device has been added to the system.
+description: Notification method that signals that a device has been added to the system.helpviewer_keywords: ["IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks]","OnInterfaceArrival method","IMbnInterfaceManagerEvents.OnInterfaceArrival","IMbnInterfaceManagerEvents::OnInterfaceArrival","OnInterfaceArrival","OnInterfaceArrival method [Microsoft Broadband Networks]","OnInterfaceArrival method [Microsoft Broadband Networks]","IMbnInterfaceManagerEvents interface","mbn.imbninterfacemanagerevents_oninterfacearrival","mbnapi/IMbnInterfaceManagerEvents::OnInterfaceArrival"]
 old-location: mbn\imbninterfacemanagerevents_oninterfacearrival.htm
 tech.root: mbn
 ms.assetid: 1a65aed6-34d4-420b-b175-a2a778712771

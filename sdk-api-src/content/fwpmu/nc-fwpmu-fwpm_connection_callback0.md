@@ -2,6 +2,7 @@
 UID: NC:fwpmu.FWPM_CONNECTION_CALLBACK0
 title: FWPM_CONNECTION_CALLBACK0 (fwpmu.h)
 description: Is used to add custom behavior to the connection object subscription process.
+helpviewer_keywords: ["FWPM_CONNECTION_CALLBACK0","FWPM_CONNECTION_CALLBACK0 callback","FWPM_CONNECTION_CALLBACK0 callback function [Filtering]","fwp.fwpm_connection_callback0","fwpmu/FWPM_CONNECTION_CALLBACK0"]
 old-location: fwp\fwpm_connection_callback0.htm
 tech.root: fwp
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910
@@ -66,14 +67,14 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param eventType [in]
 
-Type: [FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)a></b>
+Type: [FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)</b>
 
 The type of connection object change event.
 
 
 ### -param *connection [in]
 
-Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>*</b>
+Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)*</b>
 
 The connection object change information.
 
@@ -92,11 +93,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>
+[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)
 
 
 
-[FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)a>
+[FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)
 
 
 

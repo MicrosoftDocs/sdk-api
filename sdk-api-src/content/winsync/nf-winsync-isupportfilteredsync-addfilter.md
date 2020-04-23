@@ -2,6 +2,7 @@
 UID: NF:winsync.ISupportFilteredSync.AddFilter
 title: ISupportFilteredSync::AddFilter (winsync.h)
 description: Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.
+helpviewer_keywords: ["AddFilter","AddFilter method [Windows Sync]","AddFilter method [Windows Sync]","ISupportFilteredSync interface","ISupportFilteredSync interface [Windows Sync]","AddFilter method","ISupportFilteredSync.AddFilter","ISupportFilteredSync::AddFilter","winsync.isupportfilteredsync_addfilter","winsync/ISupportFilteredSync::AddFilter"]
 old-location: winsync\isupportfilteredsync_addfilter.htm
 tech.root: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec
@@ -64,7 +65,7 @@ The filter that is used for change enumeration by the source provider.
 
 ### -param filteringType [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
+A <a href="/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
 
 
 ## -returns
@@ -139,7 +140,7 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE Enumeration</a>
 
 
 

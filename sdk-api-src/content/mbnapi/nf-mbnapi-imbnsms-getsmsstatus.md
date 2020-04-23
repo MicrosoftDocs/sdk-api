@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsStatus
 title: IMbnSms::GetSmsStatus (mbnapi.h)
-description: Gets the SMS status for a device.
+description: Gets the SMS status for a device.helpviewer_keywords: ["GetSmsStatus","GetSmsStatus method [Microsoft Broadband Networks]","GetSmsStatus method [Microsoft Broadband Networks]","IMbnSms interface","IMbnSms interface [Microsoft Broadband Networks]","GetSmsStatus method","IMbnSms.GetSmsStatus","IMbnSms::GetSmsStatus","mbn.imbnsms_getsmsstatus","mbnapi/IMbnSms::GetSmsStatus"]
 old-location: mbn\imbnsms_getsmsstatus.htm
 tech.root: mbn
 ms.assetid: 58cb60dd-160c-4e1c-a244-7f20b5e79b64

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO
 title: RID_DEVICE_INFO (winuser.h)
-description: Defines the raw input data coming from any device.
+description: Defines the raw input data coming from any device.helpviewer_keywords: ["*LPRID_DEVICE_INFO","*PRID_DEVICE_INFO","LPRID_DEVICE_INFO","LPRID_DEVICE_INFO structure pointer [Keyboard and Mouse Input]","PRID_DEVICE_INFO","PRID_DEVICE_INFO structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO","RID_DEVICE_INFO structure [Keyboard and Mouse Input]","RIM_TYPEHID","RIM_TYPEKEYBOARD","RIM_TYPEMOUSE","_win32_RID_DEVICE_INFO_str","_win32_rid_device_info_str_cpp","inputdev.rid_device_info","winui._win32_rid_device_info_str","winuser/LPRID_DEVICE_INFO","winuser/PRID_DEVICE_INFO","winuser/RID_DEVICE_INFO"]
 old-location: inputdev\rid_device_info.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info.htm

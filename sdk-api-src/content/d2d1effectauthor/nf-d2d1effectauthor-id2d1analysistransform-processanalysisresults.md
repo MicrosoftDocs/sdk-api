@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1AnalysisTransform.ProcessAnalysisResults
 title: ID2D1AnalysisTransform::ProcessAnalysisResults (d2d1effectauthor.h)
-description: Supplies the analysis data to an analysis transform.
+description: Supplies the analysis data to an analysis transform.helpviewer_keywords: ["ID2D1AnalysisTransform interface [Direct2D]","ProcessAnalysisResults method","ID2D1AnalysisTransform.ProcessAnalysisResults","ID2D1AnalysisTransform::ProcessAnalysisResults","ProcessAnalysisResults","ProcessAnalysisResults method [Direct2D]","ProcessAnalysisResults method [Direct2D]","ID2D1AnalysisTransform interface","d2d1effectauthor/ID2D1AnalysisTransform::ProcessAnalysisResults","direct2d.id2d1analysistransform_processanalysisresults"]
 old-location: direct2d\id2d1analysistransform_processanalysisresults.htm
 tech.root: Direct2D
 ms.assetid: 3E7D8CDB-C3A0-4167-BDD4-66376D81BE41

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capDlgVideoFormat
 title: capDlgVideoFormat macro (vfw.h)
-description: The capDlgVideoFormat macro displays a dialog box in which the user can select the video format.
+description: The capDlgVideoFormat macro displays a dialog box in which the user can select the video format.helpviewer_keywords: ["_win32_capDlgVideoFormat","capDlgVideoFormat","capDlgVideoFormat macro [Windows Multimedia]","multimedia.capdlgvideoformat","vfw/capDlgVideoFormat"]
 old-location: multimedia\capdlgvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 542913e8-c3f4-4ea5-afa0-035af6f3126e

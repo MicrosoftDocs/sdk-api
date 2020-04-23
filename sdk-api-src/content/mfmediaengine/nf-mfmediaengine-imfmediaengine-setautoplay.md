@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetAutoPlay
 title: IMFMediaEngine::SetAutoPlay (mfmediaengine.h)
-description: Specifies whether the Media Engine automatically begins playback.
+description: Specifies whether the Media Engine automatically begins playback.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetAutoPlay method","IMFMediaEngine.SetAutoPlay","IMFMediaEngine::SetAutoPlay","SetAutoPlay","SetAutoPlay method [Media Foundation]","SetAutoPlay method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setautoplay","mfmediaengine/IMFMediaEngine::SetAutoPlay"]
 old-location: mf\imfmediaengine_setautoplay.htm
 tech.root: medfound
 ms.assetid: 867FE1D2-39AE-4A44-99DD-98A8ABD234A2

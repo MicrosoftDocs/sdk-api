@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddDatabaseLogFiles
 title: IVssCreateWriterMetadata::AddDatabaseLogFiles (vswriter.h)
-description: The AddDatabaseLogFiles method indicates the log files that are associated with a database to be backed up, as well as their location.
+description: The AddDatabaseLogFiles method indicates the log files that are associated with a database to be backed up, as well as their location.helpviewer_keywords: ["AddDatabaseLogFiles","AddDatabaseLogFiles method [VSS]","AddDatabaseLogFiles method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddDatabaseLogFiles method","IVssCreateWriterMetadata.AddDatabaseLogFiles","IVssCreateWriterMetadata::AddDatabaseLogFiles","_win32_ivsscreatewritermetadata_adddatabaselogfiles","base.ivsscreatewritermetadata_adddatabaselogfiles","vswriter/IVssCreateWriterMetadata::AddDatabaseLogFiles"]
 old-location: base\ivsscreatewritermetadata_adddatabaselogfiles.htm
 tech.root: VSS
 ms.assetid: 09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1

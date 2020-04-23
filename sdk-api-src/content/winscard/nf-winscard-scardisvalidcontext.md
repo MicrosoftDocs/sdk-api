@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.SCardIsValidContext
 title: SCardIsValidContext function (winscard.h)
-description: Determines whether a smart card context handle is valid.
+description: Determines whether a smart card context handle is valid.helpviewer_keywords: ["SCardIsValidContext","SCardIsValidContext function [Security]","_smart_scardisvalidcontext","security.scardisvalidcontext","winscard/SCardIsValidContext"]
 old-location: security\scardisvalidcontext.htm
 tech.root: SecAuthN
 ms.assetid: 50bcb6aa-6265-4035-8265-45990f791ce3

@@ -2,6 +2,7 @@
 UID: NF:webservices.WsCreateServiceEndpointFromTemplate
 title: WsCreateServiceEndpointFromTemplate function (webservices.h)
 description: Helper routine for creating a service endpoint (WS_SERVICE_ENDPOINT) from policy templates.
+helpviewer_keywords: ["WsCreateServiceEndpointFromTemplate","WsCreateServiceEndpointFromTemplate function [Web Services for Windows]","webservices/WsCreateServiceEndpointFromTemplate","wsw.wscreateserviceendpointfromtemplate"]
 old-location: wsw\wscreateserviceendpointfromtemplate.htm
 tech.root: wsw
 ms.assetid: 433194eb-ac42-4b6a-a1c0-7260a7aabeeb
@@ -69,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 
 ### -param properties [in]
 
-An array of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
+An array of <a href="/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
 
 
 

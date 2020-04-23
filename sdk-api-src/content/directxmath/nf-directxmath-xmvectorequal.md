@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorEqual
 title: XMVectorEqual function (directxmath.h)
-description: Performs a per-component test for equality of two vectors.
+description: Performs a per-component test for equality of two vectors.helpviewer_keywords: ["Use DirectX..XMVectorEqual","XMVectorEqual","XMVectorEqual method [DirectX Math Support APIs]","dxmath.xmvectorequal"]
 old-location: dxmath\xmvectorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqual(XMVECTOR,XMVECTOR)

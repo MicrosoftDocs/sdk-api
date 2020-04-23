@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwMgr.IsPortAllowed
 title: INetFwMgr::IsPortAllowed (netfw.h)
-description: Determines whether an application can listen for inbound traffic on the specified port.
+description: Determines whether an application can listen for inbound traffic on the specified port.helpviewer_keywords: ["INetFwMgr interface [ICS/ICF]","IsPortAllowed method","INetFwMgr.IsPortAllowed","INetFwMgr::IsPortAllowed","IsPortAllowed","IsPortAllowed method [ICS/ICF]","IsPortAllowed method [ICS/ICF]","INetFwMgr interface","ics.inetfwmgr_isportallowed","netfw/INetFwMgr::IsPortAllowed"]
 old-location: ics\inetfwmgr_isportallowed.htm
 tech.root: ics
 ms.assetid: 39e68271-8046-470a-af90-17bed770716d

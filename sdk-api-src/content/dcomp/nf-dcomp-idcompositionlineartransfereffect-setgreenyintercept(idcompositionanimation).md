@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation) (dcomp.h)
-description: Sets the Y-intercept of the linear function for the green channel.
+description: Sets the Y-intercept of the linear function for the green channel.helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetGreenYIntercept method","IDCompositionLinearTransferEffect.SetGreenYIntercept","IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation)","IDCompositionLinearTransferEffect::SetGreenYIntercept","IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation)","SetGreenYIntercept","SetGreenYIntercept method [DirectComposition]","SetGreenYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept","directcomp.idcompositionlineartransfereffect_setgreenyintercept_2"]
 old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept_2.htm
 tech.root: directcomp
 ms.assetid: 73631804-5749-4764-9335-42F04D6BCB62

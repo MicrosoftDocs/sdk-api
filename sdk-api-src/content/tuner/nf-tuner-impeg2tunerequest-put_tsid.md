@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.put_TSID
 title: IMPEG2TuneRequest::put_TSID (tuner.h)
-description: The put_TSID method sets the transport stream ID.
+description: The put_TSID method sets the transport stream ID.helpviewer_keywords: ["IMPEG2TuneRequest interface [Microsoft TV Technologies]","put_TSID method","IMPEG2TuneRequest.put_TSID","IMPEG2TuneRequest::put_TSID","IMPEG2TuneRequestput_TSID","mstv.impeg2tunerequest_put_tsid","put_TSID","put_TSID method [Microsoft TV Technologies]","put_TSID method [Microsoft TV Technologies]","IMPEG2TuneRequest interface","tuner/IMPEG2TuneRequest::put_TSID"]
 old-location: mstv\impeg2tunerequest_put_tsid.htm
 tech.root: mstv
 ms.assetid: 47212dc7-601e-4b38-953e-a6b84e73fafa

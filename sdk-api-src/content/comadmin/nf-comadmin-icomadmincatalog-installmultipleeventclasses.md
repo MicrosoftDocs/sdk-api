@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleEventClasses
 title: ICOMAdminCatalog::InstallMultipleEventClasses (comadmin.h)
-description: Installs event classes from multiple files into a COM+ application.
+description: Installs event classes from multiple files into a COM+ application.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","InstallMultipleEventClasses method","ICOMAdminCatalog.InstallMultipleEventClasses","ICOMAdminCatalog::InstallMultipleEventClasses","InstallMultipleEventClasses","InstallMultipleEventClasses method [COM+]","InstallMultipleEventClasses method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_InstallMultipleEventClasses","comadmin/ICOMAdminCatalog::InstallMultipleEventClasses","cos.icomadmincatalog_installmultipleeventclasses"]
 old-location: cos\icomadmincatalog_installmultipleeventclasses.htm
 tech.root: cossdk
 ms.assetid: 12860254-4658-4e0d-ad00-7e25875037bf

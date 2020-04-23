@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_KERBEROS_AUTHENTICATION1__
 title: IKEEXT_KERBEROS_AUTHENTICATION1 (iketypes.h)
 description: Contains information needed for preshared key authentication.
+helpviewer_keywords: ["IKEEXT_KERBEROS_AUTHENTICATION1","IKEEXT_KERBEROS_AUTHENTICATION1 structure [Filtering]","IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION","IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS","IKEEXT_KERB_AUTH_FORCE_PROXY_ON_INITIATOR","fwp.ikeext_kerberos_authentication1","iketypes/IKEEXT_KERBEROS_AUTHENTICATION1"]
 old-location: fwp\ikeext_kerberos_authentication1.htm
 tech.root: fwp
 ms.assetid: c9ea72e1-3d98-49f1-9061-d19e16f50660
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_KERBEROS_AUTHENTICATION1</b> structure contains information needed for preshared key authentication.
-[IKEEXT_KERBEROS_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> is available.</div><div> </div>
+[IKEEXT_KERBEROS_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0) is available.</div><div> </div>
 
 ## -struct-fields
 

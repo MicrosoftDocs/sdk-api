@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetResourcePluginStore
 title: ITsSbProvider::GetResourcePluginStore (sbtsv.h)
-description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.
+description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.helpviewer_keywords: ["GetResourcePluginStore","GetResourcePluginStore method [Remote Desktop Services]","GetResourcePluginStore method [Remote Desktop Services]","ITsSbProvider interface","ITsSbProvider interface [Remote Desktop Services]","GetResourcePluginStore method","ITsSbProvider.GetResourcePluginStore","ITsSbProvider::GetResourcePluginStore","sbtsv/ITsSbProvider::GetResourcePluginStore","termserv.itssbprovider_getresourcepluginstore"]
 old-location: termserv\itssbprovider_getresourcepluginstore.htm
 tech.root: TermServ
 ms.assetid: 9e4d5b1d-100e-49e1-b1b5-4b126683c329

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.CreateEditableStream
 title: CreateEditableStream function (vfw.h)
-description: The CreateEditableStream function creates an editable stream. Use this function before using other stream editing functions.
+description: The CreateEditableStream function creates an editable stream. Use this function before using other stream editing functions.helpviewer_keywords: ["CreateEditableStream","CreateEditableStream function [Windows Multimedia]","_win32_CreateEditableStream","multimedia.createeditablestream","vfw/CreateEditableStream"]
 old-location: multimedia\createeditablestream.htm
 tech.root: Multimedia
 ms.assetid: 9c7b0ebe-c113-49c9-a74f-61f47e7c18af

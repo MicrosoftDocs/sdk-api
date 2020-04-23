@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstanceKeysByPath
 title: CWbemProviderGlue::GetInstanceKeysByPath (wbemglue.h)
-description: The GetInstanceKeysByPath method retrieves the instance identified by a particular object path, with only the key properties populated.
+description: The GetInstanceKeysByPath method retrieves the instance identified by a particular object path, with only the key properties populated.helpviewer_keywords: ["CWbemProviderGlue interface [Windows Management Instrumentation]","GetInstanceKeysByPath method","CWbemProviderGlue.GetInstanceKeysByPath","CWbemProviderGlue::GetInstanceKeysByPath","GetInstanceKeysByPath","GetInstanceKeysByPath method [Windows Management Instrumentation]","GetInstanceKeysByPath method [Windows Management Instrumentation]","CWbemProviderGlue interface","_hmm_cwbemproviderglue_getinstancekeysbypath","wbemglue/CWbemProviderGlue::GetInstanceKeysByPath","wmi.cwbemproviderglue_getinstancekeysbypath"]
 old-location: wmi\cwbemproviderglue_getinstancekeysbypath.htm
 tech.root: WmiSdk
 ms.assetid: 8ae95850-59e9-4382-b88d-c51eb3077176

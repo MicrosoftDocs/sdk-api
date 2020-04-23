@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsValidDpiAwarenessContext
 title: IsValidDpiAwarenessContext function (winuser.h)
-description: Determines if a specified DPI_AWARENESS_CONTEXT is valid and supported by the current system.
+description: Determines if a specified DPI_AWARENESS_CONTEXT is valid and supported by the current system.helpviewer_keywords: ["IsValidDpiAwarenessContext","IsValidDpiAwarenessContext function [High DPI]","hidpi.isvaliddpiawarenesscontext","winuser/IsValidDpiAwarenessContext"]
 old-location: hidpi\isvaliddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: 66F48B95-DEF4-4422-BF4F-5EBA3C713A80

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathUndecorateA
 title: PathUndecorateA function (shlwapi.h)
-description: Removes the decoration from a path string.
+description: Removes the decoration from a path string.helpviewer_keywords: ["PathUndecorate","PathUndecorate function [Windows Shell]","PathUndecorateA","PathUndecorateW","_win32_PathUndecorate","shell.PathUndecorate","shlwapi/PathUndecorate","shlwapi/PathUndecorateA","shlwapi/PathUndecorateW"]
 old-location: shell\PathUndecorate.htm
 tech.root: shell
 ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3

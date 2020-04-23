@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSendPacket
 title: EapMethodAuthenticatorSendPacket function (eapmethodauthenticatorapis.h)
 description: Obtains an authentication packet from the EAP authenticator method to send to the supplicant.
+helpviewer_keywords: ["EapMethodAuthenticatorSendPacket","EapMethodAuthenticatorSendPacket function [EAPHost]","eaphost.eapmethodauthenticatorsendpacket","eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket"]
 old-location: eaphost\eapmethodauthenticatorsendpacket.htm
 tech.root: eaphost
 ms.assetid: 5227ff56-8ac3-4fd7-b6c0-c2d3ef6b906e
@@ -81,7 +82,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmetho
 
 ### -param pTimeout [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatortypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> enumeration that specifies the timeout for the packet.
+A pointer to an <a href="/windows/win32/api/eapauthenticatortypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> enumeration that specifies the timeout for the packet.
 
 
 ### -param ppEapError [out]
@@ -103,7 +104,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:wlanapi.WlanQueryAutoConfigParameter
 title: WlanQueryAutoConfigParameter function (wlanapi.h)
 description: Queries for the parameters of the auto configuration service.
+helpviewer_keywords: ["WlanQueryAutoConfigParameter","WlanQueryAutoConfigParameter function [NativeWIFI]","nwifi.wlanqueryautoconfigparameter","wlan_autoconf_opcode_allow_explicit_creds","wlan_autoconf_opcode_allow_virtual_station_extensibility","wlan_autoconf_opcode_block_period","wlan_autoconf_opcode_only_use_gp_profiles_for_allowed_networks","wlan_autoconf_opcode_power_setting","wlan_autoconf_opcode_show_denied_networks","wlanapi/WlanQueryAutoConfigParameter"]
 old-location: nwifi\wlanqueryautoconfigparameter.htm
 tech.root: NativeWiFi
 ms.assetid: 30fcfcf1-0784-4f20-b8c7-311227d0cfca
@@ -89,7 +90,7 @@ If the function returns ERROR_SUCCESS and <i>ppData</i> points to <b>TRUE</b>, t
 </dl>
 </td>
 <td width="60%">
-When set, the <i>ppData</i> parameter will contain a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a> value specifying the power settings.
+When set, the <i>ppData</i> parameter will contain a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a> value specifying the power settings.
 
 </td>
 </tr>
@@ -162,7 +163,7 @@ Pointer to the memory that contains the queried value for the parameter specifie
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value. 
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value. 
 
 
 ## -returns
@@ -255,7 +256,7 @@ The <b>WlanQueryAutoConfigParameter</b> function queries for the parameters used
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 

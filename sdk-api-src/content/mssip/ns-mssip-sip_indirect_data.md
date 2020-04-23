@@ -1,7 +1,7 @@
 ---
 UID: NS:mssip.SIP_INDIRECT_DATA_
 title: SIP_INDIRECT_DATA (mssip.h)
-description: Contains the digest of the hashed subject information.
+description: Contains the digest of the hashed subject information.helpviewer_keywords: ["*PSIP_INDIRECT_DATA","PSIP_INDIRECT_DATA","PSIP_INDIRECT_DATA structure pointer [Security]","SIP_INDIRECT_DATA","SIP_INDIRECT_DATA structure [Security]","mssip/PSIP_INDIRECT_DATA","mssip/SIP_INDIRECT_DATA","security.sip_indirect_data"]
 old-location: security\sip_indirect_data.htm
 tech.root: SecCrypto
 ms.assetid: d34b599b-fe49-47c4-bb52-73ee14d73253

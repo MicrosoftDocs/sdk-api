@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetSelectedItems
 title: INameSpaceTreeControl::GetSelectedItems (shobjidl_core.h)
-description: Gets an array of selected Shell items.
+description: Gets an array of selected Shell items.helpviewer_keywords: ["GetSelectedItems","GetSelectedItems method [Windows Shell]","GetSelectedItems method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetSelectedItems method","INameSpaceTreeControl.GetSelectedItems","INameSpaceTreeControl::GetSelectedItems","_shell_INameSpaceTreeControl_GetSelectedItems","shell.INameSpaceTreeControl_GetSelectedItems","shobjidl_core/INameSpaceTreeControl::GetSelectedItems"]
 old-location: shell\INameSpaceTreeControl_GetSelectedItems.htm
 tech.root: shell
 ms.assetid: dfc81922-883a-4749-94be-3630853e38c1

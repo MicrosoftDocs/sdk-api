@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCreateServerSession
 title: HttpCreateServerSession function (http.h)
-description: Creates a server session for the specified version.
+description: Creates a server session for the specified version.helpviewer_keywords: ["HttpCreateServerSession","HttpCreateServerSession function [HTTP]","http.httpcreateserversession","http/HttpCreateServerSession"]
 old-location: http\httpcreateserversession.htm
 tech.root: http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.Initialize
 title: IChangeUnitListFilterInfo::Initialize (winsync.h)
-description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.
+description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.helpviewer_keywords: ["IChangeUnitListFilterInfo interface [Windows Sync]","Initialize method","IChangeUnitListFilterInfo.Initialize","IChangeUnitListFilterInfo::Initialize","Initialize","Initialize method [Windows Sync]","Initialize method [Windows Sync]","IChangeUnitListFilterInfo interface","winsync.ichangeunitlistfilterinfo_initialize","winsync/IChangeUnitListFilterInfo::Initialize"]
 old-location: winsync\ichangeunitlistfilterinfo_initialize.htm
 tech.root: winsync
 ms.assetid: ee3f86dc-8f5a-4b9b-ac06-b836898392ba

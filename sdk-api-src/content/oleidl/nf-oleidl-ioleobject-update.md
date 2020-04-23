@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.Update
 title: IOleObject::Update (oleidl.h)
-description: Updates an object handler's or link object's data or view caches.
+description: Updates an object handler's or link object's data or view caches.helpviewer_keywords: ["IOleObject interface [COM]","Update method","IOleObject.Update","IOleObject::Update","Update","Update method [COM]","Update method [COM]","IOleObject interface","_ole_ioleobject_update","com.ioleobject_update","oleidl/IOleObject::Update"]
 old-location: com\ioleobject_update.htm
 tech.root: com
 ms.assetid: 1743f99b-4c3b-47be-b77b-1d3378a44903

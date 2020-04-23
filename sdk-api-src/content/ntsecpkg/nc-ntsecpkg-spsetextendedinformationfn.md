@@ -2,6 +2,7 @@
 UID: NC:ntsecpkg.SpSetExtendedInformationFn
 title: SpSetExtendedInformationFn (ntsecpkg.h)
 description: Sets extended information about the security package.
+helpviewer_keywords: ["SpSetExtendedInformation","SpSetExtendedInformation callback function [Security]","SpSetExtendedInformationFn","SpSetExtendedInformationFn callback","_ssp_spsetextendedinformation","ntsecpkg/SpSetExtendedInformation","security.spsetextendedinformation"]
 old-location: security\spsetextendedinformation.htm
 tech.root: SecAuthN
 ms.assetid: a6176786-c19b-4ecf-8a7b-2430ff8b56f7
@@ -60,7 +61,7 @@ Sets extended information about the <a href="https://docs.microsoft.com/windows/
 ### -param Class [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration value indicating the type of extended information.
+<a href="/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration value indicating the type of extended information.
 
 
 ### -param Info [in]
@@ -105,7 +106,7 @@ A pointer to the <b>SpSetExtendedInformation</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
+<a href="/windows/win32/api/ntsecpkg/ne-ntsecpkg-secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
 
 
 

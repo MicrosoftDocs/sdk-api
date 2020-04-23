@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMultiByteToWideChar
 title: EngMultiByteToWideChar function (winddi.h)
-description: The EngMultiByteToWideChar function converts an ANSI source string into a wide character string using the specified code page.
+description: The EngMultiByteToWideChar function converts an ANSI source string into a wide character string using the specified code page.helpviewer_keywords: ["EngMultiByteToWideChar","EngMultiByteToWideChar function [Display Devices]","display.engmultibytetowidechar","gdifncs_217d1045-3661-401b-af6e-148668ed97e4.xml","winddi/EngMultiByteToWideChar"]
 old-location: display\engmultibytetowidechar.htm
 tech.root: display
 ms.assetid: 7ed4f718-e28d-40d9-a3e0-c6961281a319

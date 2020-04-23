@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.AddTask
 title: IAzRole::AddTask (azroles.h)
-description: Adds the IAzTask object with the specified name to the role.
+description: Adds the IAzTask object with the specified name to the role.helpviewer_keywords: ["AddTask","AddTask method [Security]","AddTask method [Security]","AzRole object","AddTask method [Security]","IAzRole interface","AzRole object [Security]","AddTask method","IAzRole interface [Security]","AddTask method","IAzRole.AddTask","IAzRole::AddTask","azroles/IAzRole::AddTask","security.iazrole_addtask"]
 old-location: security\iazrole_addtask.htm
 tech.root: SecAuthZ
 ms.assetid: 51ba30c3-8067-4aca-b8aa-8e64d4427b98

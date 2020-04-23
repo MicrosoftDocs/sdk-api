@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictPresenter.PresentConflict
 title: ISyncMgrConflictPresenter::PresentConflict (syncmgr.h)
-description: Presents the conflict to the user.
+description: Presents the conflict to the user.helpviewer_keywords: ["ISyncMgrConflictPresenter interface [Windows Shell]","PresentConflict method","ISyncMgrConflictPresenter.PresentConflict","ISyncMgrConflictPresenter::PresentConflict","PresentConflict","PresentConflict method [Windows Shell]","PresentConflict method [Windows Shell]","ISyncMgrConflictPresenter interface","_shell_ISyncMgrConflictPresenter_PresentConflict","shell.ISyncMgrConflictPresenter_PresentConflict","syncmgr/ISyncMgrConflictPresenter::PresentConflict"]
 old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm
 tech.root: shell
 ms.assetid: 632c0e9c-facd-422e-9467-005c44adc175

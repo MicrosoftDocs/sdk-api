@@ -1,7 +1,7 @@
 ---
 UID: NS:aclui._SI_ACCESS
 title: SI_ACCESS (aclui.h)
-description: Contains information about an access right or default access mask for a securable object.
+description: Contains information about an access right or default access mask for a securable object.helpviewer_keywords: ["*PSI_ACCESS","CONTAINER_INHERIT_ACE","INHERIT_ONLY_ACE","OBJECT_INHERIT_ACE","PSI_ACCESS","PSI_ACCESS structure pointer [Security]","SI_ACCESS","SI_ACCESS structure [Security]","SI_ACCESS_CONTAINER","SI_ACCESS_GENERAL","SI_ACCESS_PROPERTY","SI_ACCESS_SPECIFIC","_win32_si_access_str","aclui/PSI_ACCESS","aclui/SI_ACCESS","security.si_access"]
 old-location: security\si_access.htm
 tech.root: SecAuthZ
 ms.assetid: 9c9b14da-a030-4f90-b090-d6de10507eb2

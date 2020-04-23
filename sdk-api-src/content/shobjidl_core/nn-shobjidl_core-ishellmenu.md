@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellMenu
 title: IShellMenu (shobjidl_core.h)
-description: Exposes methods that interact with Shell menus such as the Start menu, and the Favorites menu.
+description: Exposes methods that interact with Shell menus such as the Start menu, and the Favorites menu.helpviewer_keywords: ["IShellMenu","IShellMenu interface [Windows Shell]","IShellMenu interface [Windows Shell]","described","_shell_IShellMenu","shell.IShellMenu","shobjidl_core/IShellMenu"]
 old-location: shell\IShellMenu.htm
 tech.root: shell
 ms.assetid: 46793ae9-936e-4a58-bc34-84396151b4a3

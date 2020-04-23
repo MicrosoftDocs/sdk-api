@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeQueryConvInfo
 title: DdeQueryConvInfo function (ddeml.h)
-description: Retrieves information about a Dynamic Data Exchange (DDE) transaction and about the conversation in which the transaction takes place.
+description: Retrieves information about a Dynamic Data Exchange (DDE) transaction and about the conversation in which the transaction takes place.helpviewer_keywords: ["DdeQueryConvInfo","DdeQueryConvInfo function [Data Exchange]","_win32_DdeQueryConvInfo","_win32_ddequeryconvinfo_cpp","dataxchg.ddequeryconvinfo","ddeml/DdeQueryConvInfo","winui._win32_ddequeryconvinfo"]
 old-location: dataxchg\ddequeryconvinfo.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequeryconvinfo.htm

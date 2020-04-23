@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwPolicy2
 title: INetFwPolicy2 (netfw.h)
-description: To access the firewall policy.
+description: To access the firewall policy.helpviewer_keywords: ["INetFwPolicy2","INetFwPolicy2 interface [ICS/ICF]","INetFwPolicy2 interface [ICS/ICF]","described","ics.inetfwpolicy2","netfw/INetFwPolicy2"]
 old-location: ics\inetfwpolicy2.htm
 tech.root: ics
 ms.assetid: ef01a531-ddb0-4eb4-894b-82f613016396

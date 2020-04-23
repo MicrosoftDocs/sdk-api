@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptImportPublicKeyInfo
 title: CryptImportPublicKeyInfo function (wincrypt.h)
-description: Converts and imports the public key information into the provider and returns a handle of the public key.
+description: Converts and imports the public key information into the provider and returns a handle of the public key.helpviewer_keywords: ["CryptImportPublicKeyInfo","CryptImportPublicKeyInfo function [Security]","_crypto2_cryptimportpublickeyinfo","security.cryptimportpublickeyinfo","wincrypt/CryptImportPublicKeyInfo"]
 old-location: security\cryptimportpublickeyinfo.htm
 tech.root: SecCrypto
 ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01

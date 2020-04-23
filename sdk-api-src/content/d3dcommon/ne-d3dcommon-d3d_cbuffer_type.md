@@ -1,7 +1,7 @@
 ---
 UID: NE:d3dcommon._D3D_CBUFFER_TYPE
 title: D3D_CBUFFER_TYPE (d3dcommon.h)
-description: Values that identify the intended use of constant-buffer data.
+description: Values that identify the intended use of constant-buffer data.helpviewer_keywords: ["D3D10_CT_CBUFFER","D3D10_CT_TBUFFER","D3D11_CT_CBUFFER","D3D11_CT_INTERFACE_POINTERS","D3D11_CT_RESOURCE_BIND_INFO","D3D11_CT_TBUFFER","D3D_CBUFFER_TYPE","D3D_CBUFFER_TYPE enumeration [Direct3D 11]","D3D_CT_CBUFFER","D3D_CT_INTERFACE_POINTERS","D3D_CT_RESOURCE_BIND_INFO","D3D_CT_TBUFFER","d3dcommon/D3D10_CT_CBUFFER","d3dcommon/D3D10_CT_TBUFFER","d3dcommon/D3D11_CT_CBUFFER","d3dcommon/D3D11_CT_INTERFACE_POINTERS","d3dcommon/D3D11_CT_RESOURCE_BIND_INFO","d3dcommon/D3D11_CT_TBUFFER","d3dcommon/D3D_CBUFFER_TYPE","d3dcommon/D3D_CT_CBUFFER","d3dcommon/D3D_CT_INTERFACE_POINTERS","d3dcommon/D3D_CT_RESOURCE_BIND_INFO","d3dcommon/D3D_CT_TBUFFER","direct3d11.d3d_cbuffer_type"]
 old-location: direct3d11\d3d_cbuffer_type.htm
 tech.root: direct3d11
 ms.assetid: b21a460b-63cb-49c1-bd6c-a747df495efc

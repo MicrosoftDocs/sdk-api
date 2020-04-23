@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmNetEventSubscribe1
 title: FwpmNetEventSubscribe1 function (fwpmu.h)
 description: Is used to request the delivery of notifications regarding a particular net event.
+helpviewer_keywords: ["FwpmNetEventSubscribe1","FwpmNetEventSubscribe1 function [Filtering]","fwp.fwpmneteventsubscribe1","fwpmu/FwpmNetEventSubscribe1"]
 old-location: fwp\fwpmneteventsubscribe1.htm
 tech.root: fwp
 ms.assetid: 1e079574-3ab0-48d4-84ab-b2b3f34f757b
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: [FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)a>*</b>
+Type: [FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)*</b>
 
 The notifications which will be delivered.
 
@@ -166,7 +167,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)a>
+[FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)
 
 
 

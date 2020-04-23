@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBoolFromUI1
 title: VarBoolFromUI1 function (oleauto.h)
-description: Converts an unsigned char value to a Boolean value.
+description: Converts an unsigned char value to a Boolean value.helpviewer_keywords: ["VarBoolFromUI1","VarBoolFromUI1 function [Automation]","_oa96_VarBoolFromUI1","automat.varboolfromui1","oleauto/VarBoolFromUI1"]
 old-location: automat\varboolfromui1.htm
 tech.root: automat
 ms.assetid: 50f27808-ab41-4883-9c0f-abb04a0d2d34

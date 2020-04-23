@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi.IDXGIKeyedMutex
 title: IDXGIKeyedMutex (dxgi.h)
-description: Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.
+description: Represents a keyed mutex, which allows exclusive access to a shared resource that is used by multiple devices.helpviewer_keywords: ["624ec55f-8325-5294-526a-89138f1d7331","IDXGIKeyedMutex","IDXGIKeyedMutex interface [DXGI]","IDXGIKeyedMutex interface [DXGI]","described","direct3ddxgi.idxgikeyedmutex","dxgi/IDXGIKeyedMutex"]
 old-location: direct3ddxgi\idxgikeyedmutex.htm
 tech.root: direct3ddxgi
 ms.assetid: f790eb46-f116-4258-8c8d-de1ece4a1f21

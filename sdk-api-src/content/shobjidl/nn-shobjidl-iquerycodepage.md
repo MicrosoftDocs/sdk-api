@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IQueryCodePage
 title: IQueryCodePage (shobjidl.h)
-description: Gets and sets the numeric value (Code Page identifier) of the ANSI code page.
+description: Gets and sets the numeric value (Code Page identifier) of the ANSI code page.helpviewer_keywords: ["IQueryCodePage","IQueryCodePage interface [Windows Shell]","IQueryCodePage interface [Windows Shell]","described","_shell_IQueryCodePage","shell.IQueryCodePage","shobjidl/IQueryCodePage"]
 old-location: shell\IQueryCodePage.htm
 tech.root: shell
 ms.assetid: 362a0b69-ca57-4d56-8c14-8f32aa41926c

@@ -1,7 +1,7 @@
 ---
 UID: NE:msvidctl.MSVidCtlStateList
 title: MSVidCtlStateList (msvidctl.h)
-description: This topic applies to Windows XP or later.
+description: This topic applies to Windows XP or later.helpviewer_keywords: ["MSVidCtlStateList","MSVidCtlStateList enumeration [Microsoft TV Technologies]","MSVidCtlStateListEnumeration","STATE_PAUSE","STATE_PLAY","STATE_STOP","STATE_UNBUILT","enumeration [Microsoft TV Technologies]","mstv.msvidctlstatelist","msvidctl/MSVidCtlStateList","msvidctl/STATE_PAUSE","msvidctl/STATE_PLAY","msvidctl/STATE_STOP","msvidctl/STATE_UNBUILT"]
 old-location: mstv\msvidctlstatelist.htm
 tech.root: mstv
 ms.assetid: b4da9c6e-3235-4c78-b9e1-57c9d06fccbc

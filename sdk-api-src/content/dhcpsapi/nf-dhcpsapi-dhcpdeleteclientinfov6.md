@@ -2,6 +2,7 @@
 UID: NF:dhcpsapi.DhcpDeleteClientInfoV6
 title: DhcpDeleteClientInfoV6 function (dhcpsapi.h)
 description: Deletes the specified DHCPv6 client address release record from the DHCPv6 server database.
+helpviewer_keywords: ["DhcpDeleteClientInfoV6","DhcpDeleteClientInfoV6 function [DHCP]","dhcp.dhcpdeleteclientinfov6","dhcpsapi/DhcpDeleteClientInfoV6"]
 old-location: dhcp\dhcpdeleteclientinfov6.htm
 tech.root: DHCP
 ms.assetid: ffa57208-09c4-4185-8cd9-abcf5db60f39
@@ -64,7 +65,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param ClientInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the key used to search for the DHCPv6 client lease record that will be deleted.
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the key used to search for the DHCPv6 client lease record that will be deleted.
 
 
 ## -returns
@@ -118,7 +119,7 @@ The specified client lease is a reservation.
 </dl>
 </td>
 <td width="60%">
-The <b>SearchType</b> member of <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> was not set to <b>Dhcpv6ClientIpAddress</b>.
+The <b>SearchType</b> member of <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> was not set to <b>Dhcpv6ClientIpAddress</b>.
 
 </td>
 </tr>
@@ -133,7 +134,7 @@ The <b>SearchType</b> member of <a href="https://docs.microsoft.com/windows/win3
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a>
  
 
  

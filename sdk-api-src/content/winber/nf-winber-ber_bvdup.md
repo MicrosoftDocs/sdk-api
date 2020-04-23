@@ -2,6 +2,7 @@
 UID: NF:winber.ber_bvdup
 title: ber_bvdup function (winber.h)
 description: The ber_bvdup function creates a copy of the supplied berval structure.
+helpviewer_keywords: ["_ldap_ber_bvdup","ber_bvdup","ber_bvdup function [LDAP]","ldap.ber__bvdup","ldap.ber_bvdup","winber/ber_bvdup"]
 old-location: ldap\ber_bvdup.htm
 tech.root: ldap
 ms.assetid: 512addea-2738-4063-970a-10c5c365fc7d
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>ber_bvdup</b> function creates a copy of the supplied 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -parameters
@@ -60,14 +61,14 @@ The <b>ber_bvdup</b> function creates a copy of the supplied
 
 ### -param pBerVal [in]
 
-Pointer to the source <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+Pointer to the source <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
+If the function succeeds, the return value is a pointer to the newly allocated <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structure.
 
 If the function fails, it returns a <b>NULL</b> pointer.
 
@@ -78,7 +79,7 @@ If the function fails, it returns a <b>NULL</b> pointer.
 
 
 
-The allocated <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
+The allocated <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 
 
@@ -92,7 +93,7 @@ The allocated <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-w
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

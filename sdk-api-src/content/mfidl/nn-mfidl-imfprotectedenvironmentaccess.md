@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFProtectedEnvironmentAccess
 title: IMFProtectedEnvironmentAccess (mfidl.h)
-description: Provides a method that allows content protection systems to perform a handshake with the protected environment. This is needed because the CreateFile and DeviceIoControl APIs are not available to Windows Store apps.
+description: Provides a method that allows content protection systems to perform a handshake with the protected environment. This is needed because the CreateFile and DeviceIoControl APIs are not available to Windows Store apps.helpviewer_keywords: ["IMFProtectedEnvironmentAccess","IMFProtectedEnvironmentAccess interface [Media Foundation]","IMFProtectedEnvironmentAccess interface [Media Foundation]","described","mf.imfprotectedenvironmentaccess","mfidl/IMFProtectedEnvironmentAccess"]
 old-location: mf\imfprotectedenvironmentaccess.htm
 tech.root: medfound
 ms.assetid: 2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4

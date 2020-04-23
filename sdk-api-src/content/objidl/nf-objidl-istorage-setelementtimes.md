@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStorage.SetElementTimes
 title: IStorage::SetElementTimes (objidl.h)
-description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.
+description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.helpviewer_keywords: ["IStorage interface [Structured Storage]","SetElementTimes method","IStorage.SetElementTimes","IStorage::SetElementTimes","SetElementTimes","SetElementTimes method [Structured Storage]","SetElementTimes method [Structured Storage]","IStorage interface","_stg_istorage_setelementtimes","objidl/IStorage::SetElementTimes","stg.istorage_setelementtimes"]
 old-location: stg\istorage_setelementtimes.htm
 tech.root: Stg
 ms.assetid: f6a1fba4-0444-4de3-a838-2d339878fe24

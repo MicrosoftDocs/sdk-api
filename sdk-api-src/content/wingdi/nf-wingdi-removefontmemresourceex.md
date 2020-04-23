@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.RemoveFontMemResourceEx
 title: RemoveFontMemResourceEx function (wingdi.h)
-description: The RemoveFontMemResourceEx function removes the fonts added from a memory image file.
+description: The RemoveFontMemResourceEx function removes the fonts added from a memory image file.helpviewer_keywords: ["RemoveFontMemResourceEx","RemoveFontMemResourceEx function [Windows GDI]","_win32_RemoveFontMemResourceEx","gdi.removefontmemresourceex","wingdi/RemoveFontMemResourceEx"]
 old-location: gdi\removefontmemresourceex.htm
 tech.root: gdi
 ms.assetid: b73c3f1d-c508-418c-a5a2-105a35ec3a9b

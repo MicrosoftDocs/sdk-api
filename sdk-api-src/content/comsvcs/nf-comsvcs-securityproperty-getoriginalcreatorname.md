@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetOriginalCreatorName
 title: SecurityProperty::GetOriginalCreatorName (comsvcs.h)
-description: Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.
+description: Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.helpviewer_keywords: ["GetOriginalCreatorName","GetOriginalCreatorName method [COM+]","GetOriginalCreatorName method [COM+]","SecurityProperty interface","SecurityProperty interface [COM+]","GetOriginalCreatorName method","SecurityProperty.GetOriginalCreatorName","SecurityProperty::GetOriginalCreatorName","_cos_SecurityProperty_GetOriginalCreatorName","comsvcs/SecurityProperty::GetOriginalCreatorName","cos.securityproperty_getoriginalcreatorname"]
 old-location: cos\securityproperty_getoriginalcreatorname.htm
 tech.root: cossdk
 ms.assetid: 403f0f36-f386-4eeb-905a-e04c5699db9b

@@ -1,7 +1,7 @@
 ---
 UID: NF:msime.IFEDictionary.Open
 title: IFEDictionary::Open (msime.h)
-description: Opens a dictionary file.
+description: Opens a dictionary file.helpviewer_keywords: ["IFEDictionary interface [Internationalization for Windows Applications]","Open method","IFEDictionary.Open","IFEDictionary::Open","Open","Open method [Internationalization for Windows Applications]","Open method [Internationalization for Windows Applications]","IFEDictionary interface","intl.ifedictionary_open","msime/IFEDictionary::Open"]
 old-location: intl\ifedictionary_open.htm
 tech.root: Intl
 ms.assetid: 7170EED5-0D96-4314-8B9F-A019052B0F32

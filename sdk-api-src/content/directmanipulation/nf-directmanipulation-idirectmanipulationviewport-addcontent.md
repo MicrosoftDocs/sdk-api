@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddContent
 title: IDirectManipulationViewport::AddContent (directmanipulation.h)
-description: Adds secondary content, such as a panning indicator, to a viewport.
+description: Adds secondary content, such as a panning indicator, to a viewport.helpviewer_keywords: ["AddContent","AddContent method [Direct Manipulation]","AddContent method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","AddContent method","IDirectManipulationViewport.AddContent","IDirectManipulationViewport::AddContent","directmanipulation.idirectmanipulationviewport_addcontent","directmanipulation/IDirectManipulationViewport::AddContent"]
 old-location: directmanipulation\idirectmanipulationviewport_addcontent.htm
 tech.root: directmanipulation
 ms.assetid: 1c404e9a-832d-47af-b162-2783faa05237

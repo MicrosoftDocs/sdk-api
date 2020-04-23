@@ -2,6 +2,7 @@
 UID: NF:iads.IADsNameTranslate.GetEx
 title: IADsNameTranslate::GetEx (iads.h)
 description: Gets the object names in the specified format.
+helpviewer_keywords: ["GetEx","GetEx method [ADSI]","GetEx method [ADSI]","IADsNameTranslate interface","IADsNameTranslate interface [ADSI]","GetEx method","IADsNameTranslate.GetEx","IADsNameTranslate::GetEx","_ds_iadsnametranslate_getex","adsi.iadsnametranslate__getex","adsi.iadsnametranslate_getex","iads/IADsNameTranslate::GetEx"]
 old-location: adsi\iadsnametranslate_getex.htm
 tech.root: adsi
 ms.assetid: 01c4fc79-ed5b-4a24-9b97-25b4095a9c8f
@@ -59,7 +60,7 @@ The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specifie
 
 ### -param lnFormatType
 
-The format type used for  the output names. For more information about the various types of formats you can use, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME element in <b>ADS_NAME_TYPE_ENUM</b>.
+The format type used for  the output names. For more information about the various types of formats you can use, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME element in <b>ADS_NAME_TYPE_ENUM</b>.
 
 
 ### -param pvar
@@ -199,7 +200,7 @@ The following VBScript/ASP code example translates two distinguished names compl
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

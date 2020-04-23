@@ -1,7 +1,7 @@
 ---
 UID: NF:batclass.BatteryClassUnload
 title: BatteryClassUnload function (batclass.h)
-description: BatteryClassUnload frees resources for a battery device that is no longer in use.
+description: BatteryClassUnload frees resources for a battery device that is no longer in use.helpviewer_keywords: ["BatteryClassUnload","BatteryClassUnload function [Battery Devices]","bat-rtn_d99ad46b-2f22-4e88-9f26-f86fb6b09bee.xml","batclass/BatteryClassUnload","battery.batteryclassunload"]
 old-location: battery\batteryclassunload.htm
 tech.root: battery
 ms.assetid: 6825a798-f7b3-49bc-91b3-69d05c0eef26

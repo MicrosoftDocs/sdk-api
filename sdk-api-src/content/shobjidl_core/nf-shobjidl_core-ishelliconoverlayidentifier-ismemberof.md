@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.IsMemberOf
 title: IShellIconOverlayIdentifier::IsMemberOf (shobjidl_core.h)
-description: Specifies whether an icon overlay should be added to a Shell object's icon.
+description: Specifies whether an icon overlay should be added to a Shell object's icon.helpviewer_keywords: ["IShellIconOverlayIdentifier interface [Windows Shell]","IsMemberOf method","IShellIconOverlayIdentifier.IsMemberOf","IShellIconOverlayIdentifier::IsMemberOf","IsMemberOf","IsMemberOf method [Windows Shell]","IsMemberOf method [Windows Shell]","IShellIconOverlayIdentifier interface","_win32_IShellIconOverlayIdentifier_IsMemberOf","shell.IShellIconOverlayIdentifier_IsMemberOf","shobjidl_core/IShellIconOverlayIdentifier::IsMemberOf"]
 old-location: shell\IShellIconOverlayIdentifier_IsMemberOf.htm
 tech.root: shell
 ms.assetid: 02cbe6f3-2ee8-480b-b9c1-a2dbaf80fa26

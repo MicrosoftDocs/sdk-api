@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.IsRunning
 title: IRunnableTask::IsRunning (shobjidl_core.h)
-description: Requests information on the state of a task, such as thumbnail extraction.
+description: Requests information on the state of a task, such as thumbnail extraction.helpviewer_keywords: ["IRunnableTask interface [Windows Shell]","IsRunning method","IRunnableTask.IsRunning","IRunnableTask::IsRunning","IsRunning","IsRunning method [Windows Shell]","IsRunning method [Windows Shell]","IRunnableTask interface","_win32_IRunnableTask_IsRunning","shell.IRunnableTask_IsRunning","shobjidl_core/IRunnableTask::IsRunning"]
 old-location: shell\IRunnableTask_IsRunning.htm
 tech.root: shell
 ms.assetid: 14117a47-d462-4be1-b440-8d422c938815

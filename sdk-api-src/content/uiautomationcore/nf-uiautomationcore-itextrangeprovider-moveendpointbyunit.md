@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.MoveEndpointByUnit
 title: ITextRangeProvider::MoveEndpointByUnit (uiautomationcore.h)
-description: Moves one endpoint of the text range the specified number of TextUnit units within the document range.
+description: Moves one endpoint of the text range the specified number of TextUnit units within the document range.helpviewer_keywords: ["ITextRangeProvider interface [Windows Accessibility]","MoveEndpointByUnit method","ITextRangeProvider.MoveEndpointByUnit","ITextRangeProvider::MoveEndpointByUnit","MoveEndpointByUnit","MoveEndpointByUnit method [Windows Accessibility]","MoveEndpointByUnit method [Windows Accessibility]","ITextRangeProvider interface","uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit","uiauto_ITextRangeProvider_MoveEndpointByUnit","uiautomationcore/ITextRangeProvider::MoveEndpointByUnit","winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit"]
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByUnit.htm
 tech.root: WinAuto
 ms.assetid: 3c0b9357-0f51-4044-8a5a-1f68af7a9762

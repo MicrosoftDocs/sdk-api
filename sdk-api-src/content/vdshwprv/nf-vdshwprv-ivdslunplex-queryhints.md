@@ -1,7 +1,7 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.QueryHints
 title: IVdsLunPlex::QueryHints (vdshwprv.h)
-description: Returns the hints that are currently applied to the LUN plex.
+description: Returns the hints that are currently applied to the LUN plex.helpviewer_keywords: ["IVdsLunPlex interface [VDS]","QueryHints method","IVdsLunPlex.QueryHints","IVdsLunPlex::QueryHints","QueryHints","QueryHints method [VDS]","QueryHints method [VDS]","IVdsLunPlex interface","base.ivdslunplex_queryhints","vds/IVdsLunPlex::QueryHints","vdshwprv/IVdsLunPlex::QueryHints"]
 old-location: base\ivdslunplex_queryhints.htm
 tech.root: VDS
 ms.assetid: 4ecb0840-8eaf-47c9-b8a9-98c738ed7daf

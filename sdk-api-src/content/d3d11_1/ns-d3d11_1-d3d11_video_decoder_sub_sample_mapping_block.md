@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
 title: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK (d3d11_1.h)
-description: Describes a sub sample mapping block.
+description: Describes a sub sample mapping block.helpviewer_keywords: ["D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK","D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure [Media Foundation]","d3d11_1/D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK","mf.d3d11_video_decoder_sub_sample_mapping_block"]
 old-location: mf\d3d11_video_decoder_sub_sample_mapping_block.htm
 tech.root: medfound
 ms.assetid: 82EC2598-60FB-4800-A001-0CCC2D0D529E

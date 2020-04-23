@@ -2,6 +2,7 @@
 UID: NF:objidl.IMoniker.Reduce
 title: IMoniker::Reduce (objidl.h)
 description: Reduces a moniker to its simplest form.
+helpviewer_keywords: ["IMoniker interface [COM]","Reduce method","IMoniker.Reduce","IMoniker::Reduce","Reduce","Reduce method [COM]","Reduce method [COM]","IMoniker interface","_com_imoniker_reduce","com.imoniker_reduce","objidl/IMoniker::Reduce"]
 old-location: com\imoniker_reduce.htm
 tech.root: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b
@@ -64,7 +65,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 
 ### -param dwReduceHowFar [in]
 
-Specifies how far this moniker should be reduced. This parameter must be one of the values from the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> enumeration.
+Specifies how far this moniker should be reduced. This parameter must be one of the values from the <a href="/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> enumeration.
 
 
 ### -param ppmkToLeft [in, out]
@@ -149,7 +150,7 @@ On file systems that support an identifier-based method of accessing files that 
 
 </li>
 </ul>
-The intent of the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> flags passed in the <i>dwReduceHowFar</i> parameter is to provide the ability to programmatically reduce a moniker to a form whose display name is recognizable to the user. For example, paths in the file system, bookmarks in word-processing documents, and range names in spreadsheets are all recognizable to users. In contrast, a macro or an alias encapsulated in a moniker are not recognizable to users.
+The intent of the <a href="/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> flags passed in the <i>dwReduceHowFar</i> parameter is to provide the ability to programmatically reduce a moniker to a form whose display name is recognizable to the user. For example, paths in the file system, bookmarks in word-processing documents, and range names in spreadsheets are all recognizable to users. In contrast, a macro or an alias encapsulated in a moniker are not recognizable to users.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfoV6
 title: DhcpGetSubnetInfoV6 function (dhcpsapi.h)
-description: The DhcpGetSubnetInfoV6 function returns information on a specific subnet.
+description: The DhcpGetSubnetInfoV6 function returns information on a specific subnet.helpviewer_keywords: ["DhcpGetSubnetInfoV6","DhcpGetSubnetInfoV6 function [DHCP]","dhcp.dhcpgetsubnetinfov6","dhcpsapi/DhcpGetSubnetInfoV6"]
 old-location: dhcp\dhcpgetsubnetinfov6.htm
 tech.root: DHCP
 ms.assetid: 181015de-c109-4365-a87c-04706f568297

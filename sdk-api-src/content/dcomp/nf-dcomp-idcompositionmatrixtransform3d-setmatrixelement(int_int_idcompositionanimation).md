@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation)
 title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
-description: Animates the value of one element of the matrix of this 3D transform.
+description: Animates the value of one element of the matrix of this 3D transform.helpviewer_keywords: ["IDCompositionMatrixTransform3D interface [DirectComposition]","SetMatrixElement method","IDCompositionMatrixTransform3D.SetMatrixElement","IDCompositionMatrixTransform3D.SetMatrixElement(int","int","IDCompositionAnimation)","IDCompositionMatrixTransform3D::SetMatrixElement","IDCompositionMatrixTransform3D::SetMatrixElement(int","int","IDCompositionAnimation)","IDCompositionMatrixTransform3D::SetMatrixElement(int","int","IDCompositionAnimation*)","SetMatrixElement","SetMatrixElement method [DirectComposition]","SetMatrixElement method [DirectComposition]","IDCompositionMatrixTransform3D interface","dcomp/IDCompositionMatrixTransform3D::SetMatrixElement","directcomp.idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation"]
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 099AB3AB-D0F8-4D25-B407-83C77810F34D

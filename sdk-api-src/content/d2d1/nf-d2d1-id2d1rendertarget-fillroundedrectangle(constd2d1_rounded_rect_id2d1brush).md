@@ -2,6 +2,7 @@
 UID: NF:d2d1.ID2D1RenderTarget.FillRoundedRectangle(const D2D1_ROUNDED_RECT,ID2D1Brush)
 title: ID2D1RenderTarget::FillRoundedRectangle (d2d1.h)
 description: Paints the interior of the specified rounded rectangle.
+helpviewer_keywords: ["FillRoundedRectangle","FillRoundedRectangle methods [Direct2D]","ID2D1RenderTarget.FillRoundedRectangle","ID2D1RenderTarget::FillRoundedRectangle","d2d1/FillRoundedRectangle","direct2d.id2d1rendertarget_fillroundedrectangle"]
 old-location: direct2d\id2d1rendertarget_fillroundedrectangle.htm
 tech.root: Direct2D
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
@@ -87,7 +88,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 #### Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawroundedrectangle(constd2d1_rounded_rect_id2d1brush_float_id2d1strokestyle)">DrawRoundedRectangle</a> and <b>FillRoundedRectangle</b> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
+The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawroundedrectangle(constd2d1_rounded_rect_id2d1brush_float_id2d1strokestyle)">DrawRoundedRectangle</a> and <b>FillRoundedRectangle</b> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 

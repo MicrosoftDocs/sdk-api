@@ -1,7 +1,7 @@
 ---
 UID: NF:mspaddr.ShutdownMSPCallHelper
 title: ShutdownMSPCallHelper function (mspaddr.h)
-description: The ShutdownMSPCallHelper helper template function is called in the derived class' implementation of ShutdownMSPCall.
+description: The ShutdownMSPCallHelper helper template function is called in the derived class' implementation of ShutdownMSPCall.helpviewer_keywords: ["CMSPAddress object [TAPI 2.2]","ShutdownMSPCallHelper method","CMSPAddress.ShutdownMSPCallHelper","ShutdownMSPCallHelper","ShutdownMSPCallHelper method [TAPI 2.2]","ShutdownMSPCallHelper method [TAPI 2.2]","CMSPAddress object","_tapi3_cmspaddress_shutdownmspcallhelper","tapi3.cmspaddress_shutdownmspcallhelper"]
 old-location: tapi3\cmspaddress_shutdownmspcallhelper.htm
 tech.root: Tapi
 ms.assetid: 66f7b743-6100-45b9-98b0-3bacfcffed15

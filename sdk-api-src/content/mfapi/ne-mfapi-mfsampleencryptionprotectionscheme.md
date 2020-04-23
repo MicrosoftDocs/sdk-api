@@ -1,7 +1,7 @@
 ---
 UID: NE:mfapi._MFSampleEncryptionProtectionScheme
 title: MFSampleEncryptionProtectionScheme (mfapi.h)
-description: Specifies the supported protection schemes for encrypted samples.
+description: Specifies the supported protection schemes for encrypted samples.helpviewer_keywords: ["MFSampleEncryptionProtectionScheme","MFSampleEncryptionProtectionScheme enumeration [Media Foundation]","SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC","SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR","SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE","mf.mfsampleencryptionprotectionscheme","mfapi/MFSampleEncryptionProtectionScheme","mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC","mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR","mfapi/SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE"]
 old-location: mf\mfsampleencryptionprotectionscheme.htm
 tech.root: medfound
 ms.assetid: 2FD4ABDA-ED8D-4403-955B-3BCEEA3C8BE7

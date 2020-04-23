@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(float,float)
 title: XMBYTEN2::XMBYTEN2(float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMBYTEN2 from two float arguments.
+description: Initializes a new instance of XMBYTEN2 from two float arguments.helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2(float","float)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(float","float)","dxmath.xmbyten2_ctor_4"]
 old-location: dxmath\xmbyten2_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN2.#ctor(float,float)

@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.PropSheet_Changed
 title: PropSheet_Changed macro (prsht.h)
-description: Informs a property sheet that information in a page has changed. You can use this macro or send the PSM_CHANGED message explicitly.
+description: Informs a property sheet that information in a page has changed. You can use this macro or send the PSM_CHANGED message explicitly.helpviewer_keywords: ["PropSheet_Changed","PropSheet_Changed macro [Windows Controls]","_win32_PropSheet_Changed","_win32_PropSheet_Changed_cpp","controls.PropSheet_Changed","controls._win32_PropSheet_Changed","prsht/PropSheet_Changed"]
 old-location: controls\PropSheet_Changed.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_changed.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_SetFilterChangeTimeout
 title: Header_SetFilterChangeTimeout macro (commctrl.h)
-description: Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an HDN_FILTERCHANGE notification. You can use this macro or send the HDM_SETFILTERCHANGETIMEOUT message explicitly.
+description: Sets the timeout interval between the time a change takes place in the filter attributes and the posting of an HDN_FILTERCHANGE notification. You can use this macro or send the HDM_SETFILTERCHANGETIMEOUT message explicitly.helpviewer_keywords: ["Header_SetFilterChangeTimeout","Header_SetFilterChangeTimeout macro [Windows Controls]","_win32_Header_SetFilterChangeTimeout","_win32_Header_SetFilterChangeTimeout_cpp","commctrl/Header_SetFilterChangeTimeout","controls.Header_SetFilterChangeTimeout","controls._win32_Header_SetFilterChangeTimeout"]
 old-location: controls\Header_SetFilterChangeTimeout.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfilterchangetimeout.htm

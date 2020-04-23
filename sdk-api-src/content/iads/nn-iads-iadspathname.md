@@ -2,6 +2,7 @@
 UID: NN:iads.IADsPathname
 title: IADsPathname (iads.h)
 description: Parses the X.500 and Windows path in ADSI.
+helpviewer_keywords: ["IADsPathname","IADsPathname interface [ADSI]","IADsPathname interface [ADSI]","described","Pathname","_ds_iadspathname","adsi.iadspathname","iads/IADsPathname"]
 old-location: adsi\iadspathname.htm
 tech.root: adsi
 ms.assetid: 9aa26d6c-aa86-4a23-a986-b8cb9057772a
@@ -83,7 +84,7 @@ Dim path
 Set path = CreateObject("Pathname")
 ```
 
-The <b>IADsPathname</b> interface uses two enumeration types:  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>, and  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>.
+The <b>IADsPathname</b> interface uses two enumeration types:  <a href="/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>, and  <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>.
 
 
 ## -inheritance
@@ -161,7 +162,7 @@ Removes the last element from the object.
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-retrieve">Retrieve</a>
 </td>
 <td align="left" width="63%">
-Retrieves an object path with an <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> type.
+Retrieves an object path with an <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> type.
 
 </td>
 </tr>
@@ -170,7 +171,7 @@ Retrieves an object path with an <a href="https://docs.microsoft.com/windows/win
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-set">Set</a>
 </td>
 <td align="left" width="63%">
-Sets an object path with an <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a> option.
+Sets an object path with an <a href="/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a> option.
 
 </td>
 </tr>
@@ -215,11 +216,11 @@ Retrieves the mode for escaping a path.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>
 
 
 

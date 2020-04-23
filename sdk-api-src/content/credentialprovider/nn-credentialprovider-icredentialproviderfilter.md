@@ -1,7 +1,7 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderFilter
 title: ICredentialProviderFilter (credentialprovider.h)
-description: Used to dynamically filter credential providers based on information available at runtime.
+description: Used to dynamically filter credential providers based on information available at runtime.helpviewer_keywords: ["ICredentialProviderFilter","ICredentialProviderFilter interface [Windows Shell]","ICredentialProviderFilter interface [Windows Shell]","described","_shell_ICredentialProviderFilter","credentialprovider/ICredentialProviderFilter","shell.ICredentialProviderFilter"]
 old-location: shell\ICredentialProviderFilter.htm
 tech.root: shell
 ms.assetid: a12a0648-ea60-4537-9d5c-8d21fd53cc80

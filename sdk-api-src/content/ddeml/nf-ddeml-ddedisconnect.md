@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeDisconnect
 title: DdeDisconnect function (ddeml.h)
-description: Terminates a conversation started by either the DdeConnect or DdeConnectList function and invalidates the specified conversation handle.
+description: Terminates a conversation started by either the DdeConnect or DdeConnectList function and invalidates the specified conversation handle.helpviewer_keywords: ["DdeDisconnect","DdeDisconnect function [Data Exchange]","_win32_DdeDisconnect","_win32_ddedisconnect_cpp","dataxchg.ddedisconnect","ddeml/DdeDisconnect","winui._win32_ddedisconnect"]
 old-location: dataxchg\ddedisconnect.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddedisconnect.htm

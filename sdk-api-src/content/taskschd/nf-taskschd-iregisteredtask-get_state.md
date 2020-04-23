@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_State
 title: IRegisteredTask::get_State (taskschd.h)
-description: Gets the operational state of the registered task.
+description: Gets the operational state of the registered task.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","State property","IRegisteredTask.State","IRegisteredTask.get_State","IRegisteredTask::State","IRegisteredTask::get_State","State property [Task Scheduler]","State property [Task Scheduler]","IRegisteredTask interface","TASK_STATE_DISABLED","TASK_STATE_QUEUED","TASK_STATE_READY","TASK_STATE_RUNNING","TASK_STATE_UNKNOWN","get_State","taskschd.iregisteredtask_state","taskschd/IRegisteredTask::State","taskschd/IRegisteredTask::get_State"]
 old-location: taskschd\iregisteredtask_state.htm
 tech.root: taskschd
 ms.assetid: b5ac2207-b5c0-42bd-a059-93a2c1f49f33

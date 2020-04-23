@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoChangeUnit
 title: ISyncKnowledge::ProjectOntoChangeUnit (winsync.h)
-description: Gets the knowledge for the specified change unit.
+description: Gets the knowledge for the specified change unit.helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","ProjectOntoChangeUnit method","ISyncKnowledge.ProjectOntoChangeUnit","ISyncKnowledge::ProjectOntoChangeUnit","ProjectOntoChangeUnit","ProjectOntoChangeUnit method [Windows Sync]","ProjectOntoChangeUnit method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_projectontochangeunit","winsync/ISyncKnowledge::ProjectOntoChangeUnit"]
 old-location: winsync\isyncknowledge_projectontochangeunit.htm
 tech.root: winsync
 ms.assetid: 3c09284f-9866-49a4-adeb-561af3351ada

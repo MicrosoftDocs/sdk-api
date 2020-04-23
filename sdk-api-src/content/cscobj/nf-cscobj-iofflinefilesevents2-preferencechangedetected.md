@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.PreferenceChangeDetected
 title: IOfflineFilesEvents2::PreferenceChangeDetected (cscobj.h)
-description: Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.
+description: Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.helpviewer_keywords: ["IOfflineFilesEvents2 interface [Offline Files]","PreferenceChangeDetected method","IOfflineFilesEvents2.PreferenceChangeDetected","IOfflineFilesEvents2::PreferenceChangeDetected","PreferenceChangeDetected","PreferenceChangeDetected method [Offline Files]","PreferenceChangeDetected method [Offline Files]","IOfflineFilesEvents2 interface","cscobj/IOfflineFilesEvents2::PreferenceChangeDetected","of.iofflinefilesevents2_preferencechangedetected"]
 old-location: of\iofflinefilesevents2_preferencechangedetected.htm
 tech.root: offlinefiles
 ms.assetid: c947d9e5-2712-4dbd-8806-79a8bf0f4cc9

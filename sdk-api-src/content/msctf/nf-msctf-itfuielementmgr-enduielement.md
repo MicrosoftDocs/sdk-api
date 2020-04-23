@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EndUIElement
 title: ITfUIElementMgr::EndUIElement (msctf.h)
-description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.
+description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.helpviewer_keywords: ["EndUIElement","EndUIElement method [Text Services Framework]","EndUIElement method [Text Services Framework]","ITfUIElementMgr interface","ITfUIElementMgr interface [Text Services Framework]","EndUIElement method","ITfUIElementMgr.EndUIElement","ITfUIElementMgr::EndUIElement","msctf/ITfUIElementMgr::EndUIElement","tsf.itfuielementmgr_enduielement"]
 old-location: tsf\itfuielementmgr_enduielement.htm
 tech.root: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff

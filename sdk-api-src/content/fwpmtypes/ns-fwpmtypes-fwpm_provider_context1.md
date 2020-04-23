@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT1_
 title: FWPM_PROVIDER_CONTEXT1 (fwpmtypes.h)
 description: Stores the state associated with a provider context.
+helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT1","FWPM_PROVIDER_CONTEXT1 structure [Filtering]","FWPM_PROVIDER_CONTEXT1_","FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT","fwp.fwpm_provider_context1_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT1"]
 old-location: fwp\fwpm_provider_context1_struct.htm
 tech.root: fwp
 ms.assetid: 34727579-9baf-4d50-b973-e864ddf651b0
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_PROVIDER_CONTEXT1</b> structure stores the state associated with a provider context.
-[FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)a> is available. For Windows Vista, [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a> is available.</div><div> </div>
+[FWPM_PROVIDER_CONTEXT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2) is available. For Windows Vista, [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,7 +66,7 @@ Uniquely identifies the provider context. If the GUID is zero-initialized
 
 ### -field displayData
 
-Allows provider contexts to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is required.
+Allows provider contexts to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is required.
 
 
 ### -field flags
@@ -98,96 +99,96 @@ GUID of the policy provider that manages this object.
 
 ### -field providerData
 
-An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
+An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 
 ### -field type
 
-A [FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)a> value specifying the type of provider context..
+A [FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type) value specifying the type of provider context..
 
 
 ### -field keyingPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
 
-See [IPSEC_KEYING_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0)a> for more information.
+See [IPSEC_KEYING_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0) for more information.
 
 
 ### -field ikeQmTransportPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TRANSPORT_CONTEXT</b>.
 
-See [IPSEC_TRANSPORT_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1)a> for more information.
+See [IPSEC_TRANSPORT_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1) for more information.
 
 
 ### -field ikeQmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT</b>.
 
-See [IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)a> for more information.
+See [IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) for more information.
 
 
 ### -field authipQmTransportPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
 
-See [IPSEC_TRANSPORT_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1)a> for more information.
+See [IPSEC_TRANSPORT_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1) for more information.
 
 
 ### -field authipQmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TUNNEL_CONTEXT</b>.
 
-See [IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)a> for more information.
+See [IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) for more information.
 
 
 ### -field ikeMmPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
 
-See [IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)a> for more information.
+See [IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1) for more information.
 
 
 ### -field authIpMmPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
 
-See [IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)a> for more information.
+See [IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1) for more information.
 
 
 ### -field dataBuffer
 
 Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ### -field classifyOptions
 
 Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
 
-See [FWPM_CLASSIFY_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)a> for more information.
+See [FWPM_CLASSIFY_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0) for more information.
 
 
 ### -field ikeV2QmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TUNNEL_CONTEXT</b>.
 
-See [IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)a> for more information.
+See [IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) for more information.
 
 
 ### -field ikeV2MmPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_MM_CONTEXT</b>.
 
-See [IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)a> for more information.
+See [IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1) for more information.
 
 
 ### -field idpOptions
 
 Available when <b>type</b> is <b>FWPM_IPSEC_DOSP_CONTEXT</b>.
 
-See [IPSEC_DOSP_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_options0)a> for more information.
+See [IPSEC_DOSP_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_options0) for more information.
 
 
 ### -field providerContextId
@@ -211,15 +212,15 @@ The last element is additional information returned when getting/enumerating obj
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 
-[FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)a>
+[FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
@@ -227,23 +228,23 @@ The last element is additional information returned when getting/enumerating obj
 
 
 
-[IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)a>
+[IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)
 
 
 
-[IPSEC_DOSP_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_options0)a>
+[IPSEC_DOSP_OPTIONS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_options0)
 
 
 
-[IPSEC_KEYING_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0)a>
+[IPSEC_KEYING_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0)
 
 
 
-[IPSEC_TRANSPORT_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1)a>
+[IPSEC_TRANSPORT_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy1)
 
 
 
-[IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)a>
+[IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)
 
 
 

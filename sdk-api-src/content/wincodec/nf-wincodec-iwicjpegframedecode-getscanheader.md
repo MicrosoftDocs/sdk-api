@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetScanHeader
 title: IWICJpegFrameDecode::GetScanHeader (wincodec.h)
-description: Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.
+description: Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.helpviewer_keywords: ["GetScanHeader","GetScanHeader method [Windows Imaging Component]","GetScanHeader method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","GetScanHeader method","IWICJpegFrameDecode.GetScanHeader","IWICJpegFrameDecode::GetScanHeader","wic.iwicjpegframedecode_getscanheader","wincodec/IWICJpegFrameDecode::GetScanHeader"]
 old-location: wic\iwicjpegframedecode_getscanheader.htm
 tech.root: wic
 ms.assetid: FD434498-CC04-4702-ACD3-EDD1DDE0B3AA

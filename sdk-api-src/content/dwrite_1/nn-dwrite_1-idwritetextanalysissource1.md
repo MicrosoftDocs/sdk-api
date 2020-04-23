@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_1.IDWriteTextAnalysisSource1
 title: IDWriteTextAnalysisSource1 (dwrite_1.h)
-description: The interface you implement to provide needed information to the text analyzer, like the text and associated text properties.
+description: The interface you implement to provide needed information to the text analyzer, like the text and associated text properties.helpviewer_keywords: ["IDWriteTextAnalysisSource1","IDWriteTextAnalysisSource1 interface [Direct Write]","IDWriteTextAnalysisSource1 interface [Direct Write]","described","directwrite.idwritetextanalysissource1","dwrite_1/IDWriteTextAnalysisSource1"]
 old-location: directwrite\idwritetextanalysissource1.htm
 tech.root: DirectWrite
 ms.assetid: CFB9DB16-1F0B-409F-97BC-BB4B693AB3D6

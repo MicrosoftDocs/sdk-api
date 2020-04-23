@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_TRAFFIC_STATISTICS1_
 title: IPSEC_TRAFFIC_STATISTICS1 (ipsectypes.h)
 description: Stores IPsec traffic statistics.
+helpviewer_keywords: ["IPSEC_TRAFFIC_STATISTICS1","IPSEC_TRAFFIC_STATISTICS1 structure [Filtering]","fwp.ipsec_traffic_statistics1_struct","ipsectypes/IPSEC_TRAFFIC_STATISTICS1"]
 old-location: fwp\ipsec_traffic_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: 3b25d98a-9216-4e74-91fc-cc8658e12d9b
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRAFFIC_STATISTICS1</b> structure stores IPsec traffic statistics.
-[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0)a> is available.</div><div> </div>
+[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 

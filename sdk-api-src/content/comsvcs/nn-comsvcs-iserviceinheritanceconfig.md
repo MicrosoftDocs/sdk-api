@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IServiceInheritanceConfig
 title: IServiceInheritanceConfig (comsvcs.h)
-description: Determines whether to construct a new context based on the current context or to create a new context based solely on the information in CServiceConfig.
+description: Determines whether to construct a new context based on the current context or to create a new context based solely on the information in CServiceConfig.helpviewer_keywords: ["IServiceInheritanceConfig","IServiceInheritanceConfig interface [COM+]","IServiceInheritanceConfig interface [COM+]","described","_cos_IServiceInheritanceConfig","comsvcs/IServiceInheritanceConfig","cos.iserviceinheritanceconfig"]
 old-location: cos\iserviceinheritanceconfig.htm
 tech.root: cossdk
 ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37

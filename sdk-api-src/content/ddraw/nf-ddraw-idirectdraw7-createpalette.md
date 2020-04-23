@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreatePalette
 title: IDirectDraw7::CreatePalette (ddraw.h)
-description: Creates a DirectDrawPalette object for this DirectDraw object.
+description: Creates a DirectDrawPalette object for this DirectDraw object.helpviewer_keywords: ["CreatePalette","CreatePalette method [DirectDraw]","CreatePalette method [DirectDraw]","IDirectDraw7 interface","DDPCAPS_1BIT","DDPCAPS_2BIT","DDPCAPS_4BIT","DDPCAPS_8BIT","DDPCAPS_8BITENTRIES","DDPCAPS_ALLOW256","DDPCAPS_ALPHA","DDPCAPS_INITIALIZE","DDPCAPS_PRIMARYSURFACE","DDPCAPS_PRIMARYSURFACELEFT","DDPCAPS_VSYNC","IDirectDraw7 interface [DirectDraw]","CreatePalette method","IDirectDraw7.CreatePalette","IDirectDraw7::CreatePalette","ddraw/IDirectDraw7::CreatePalette","directdraw.idirectdraw7_createpalette"]
 old-location: directdraw\idirectdraw7_createpalette.htm
 tech.root: directdraw
 ms.assetid: 3e9eec72-b9c7-4c9f-b9ea-177605fedf96

@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication3.OpenRoleAssignment
 title: IAzApplication3::OpenRoleAssignment (azroles.h)
-description: Opens an IAzRoleAssignment object with the specified name.
+description: Opens an IAzRoleAssignment object with the specified name.helpviewer_keywords: ["IAzApplication3 interface [Security]","OpenRoleAssignment method","IAzApplication3.OpenRoleAssignment","IAzApplication3::OpenRoleAssignment","OpenRoleAssignment","OpenRoleAssignment method [Security]","OpenRoleAssignment method [Security]","IAzApplication3 interface","azroles/IAzApplication3::OpenRoleAssignment","security.iazapplication3_openroleassignment"]
 old-location: security\iazapplication3_openroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 2d0ec47e-5d5f-43d7-aace-fffca0037ac3

@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanFreeMemory
 title: WlanFreeMemory function (wlanapi.h)
-description: Frees memory.
+description: Frees memory.helpviewer_keywords: ["WlanFreeMemory","WlanFreeMemory function [NativeWIFI]","nwifi.wlanfreememory","wlanapi/WlanFreeMemory"]
 old-location: nwifi\wlanfreememory.htm
 tech.root: NativeWiFi
 ms.assetid: 241afb9d-8b16-4d76-b311-302b5492853e

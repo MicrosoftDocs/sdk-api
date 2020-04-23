@@ -1,7 +1,7 @@
 ---
 UID: NF:micaut.IMathInputControl.LoadInk
 title: IMathInputControl::LoadInk (micaut.h)
-description: Processes ink and triggers recognition.
+description: Processes ink and triggers recognition.helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","LoadInk method","IMathInputControl.LoadInk","IMathInputControl::LoadInk","LoadInk","LoadInk method [Tablet PC]","LoadInk method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::LoadInk","tablet.imathinputcontrol_loadink"]
 old-location: tablet\imathinputcontrol_loadink.htm
 tech.root: tablet
 ms.assetid: 3313cb16-3400-48d5-8ba0-b3bd593b37ea

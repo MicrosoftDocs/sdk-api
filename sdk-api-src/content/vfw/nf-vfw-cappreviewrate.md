@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.capPreviewRate
 title: capPreviewRate macro (vfw.h)
-description: The capPreviewRate macro sets the frame display rate in preview mode. You can use this macro or explicitly call the WM_CAP_SET_PREVIEWRATE message.
+description: The capPreviewRate macro sets the frame display rate in preview mode. You can use this macro or explicitly call the WM_CAP_SET_PREVIEWRATE message.helpviewer_keywords: ["_win32_capPreviewRate","capPreviewRate","capPreviewRate macro [Windows Multimedia]","multimedia.cappreviewrate","vfw/capPreviewRate"]
 old-location: multimedia\cappreviewrate.htm
 tech.root: Multimedia
 ms.assetid: 72d885cb-5a48-4403-a668-c3c437405317

@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint.DD_NTPRIVATEDRIVERCAPS
 title: DD_NTPRIVATEDRIVERCAPS (ddrawint.h)
-description: The DD_NTPRIVATEDRIVERCAPS structure enables the driver to change the behavior of Microsoft DirectDraw when DirectDraw is creating surfaces.
+description: The DD_NTPRIVATEDRIVERCAPS structure enables the driver to change the behavior of Microsoft DirectDraw when DirectDraw is creating surfaces.helpviewer_keywords: ["DD_NTPRIVATEDRIVERCAPS","DD_NTPRIVATEDRIVERCAPS structure [Display Devices]","ddrawint/DD_NTPRIVATEDRIVERCAPS","ddstrcts_37e03d8c-1dc6-44d4-afe7-1f92acb58898.xml","display.dd_ntprivatedrivercaps"]
 old-location: display\dd_ntprivatedrivercaps.htm
 tech.root: display
 ms.assetid: d802b080-cf94-400a-96c4-e765008dfc8a

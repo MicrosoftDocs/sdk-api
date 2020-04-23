@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetPageBreakBefore
 title: ITextPara::SetPageBreakBefore (tom.h)
-description: Controls whether there is a page break before each paragraph in a range.
+description: Controls whether there is a page break before each paragraph in a range.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetPageBreakBefore method","ITextPara.SetPageBreakBefore","ITextPara::SetPageBreakBefore","SetPageBreakBefore","SetPageBreakBefore method [Windows Controls]","SetPageBreakBefore method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetPageBreakBefore","_win32_ITextPara_SetPageBreakBefore_cpp","controls.ITextPara_SetPageBreakBefore","controls._win32_ITextPara_SetPageBreakBefore","tom/ITextPara::SetPageBreakBefore"]
 old-location: controls\ITextPara_SetPageBreakBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpagebreakbefore.htm

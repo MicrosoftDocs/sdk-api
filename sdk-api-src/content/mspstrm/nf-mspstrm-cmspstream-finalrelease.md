@@ -1,7 +1,7 @@
 ---
 UID: NF:mspstrm.CMSPStream.FinalRelease
 title: CMSPStream::FinalRelease (mspstrm.h)
-description: The FinalRelease method releases the filter graph pointers.
+description: The FinalRelease method releases the filter graph pointers.helpviewer_keywords: ["CMSPStream interface [TAPI 2.2]","FinalRelease method","CMSPStream.FinalRelease","CMSPStream::FinalRelease","FinalRelease","FinalRelease method [TAPI 2.2]","FinalRelease method [TAPI 2.2]","CMSPStream interface","_tapi3_cmspstream_finalrelease","mspstrm/CMSPStream::FinalRelease","tapi3.cmspstream_finalrelease"]
 old-location: tapi3\cmspstream_finalrelease.htm
 tech.root: Tapi
 ms.assetid: 5609cf47-ad80-438f-9527-ac3093eaef45

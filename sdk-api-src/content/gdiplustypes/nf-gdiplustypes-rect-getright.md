@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.Rect.GetRight
 title: Rect::GetRight (gdiplustypes.h)
-description: The Rect::GetRight method gets the x-coordinate of the right edge of the rectangle.
+description: The Rect::GetRight method gets the x-coordinate of the right edge of the rectangle.helpviewer_keywords: ["GetRight","GetRight method [GDI+]","GetRight method [GDI+]","Rect class","Rect class [GDI+]","GetRight method","Rect.GetRight","Rect::GetRight","_gdiplus_CLASS_Rect_GetRight_","gdiplus._gdiplus_CLASS_Rect_GetRight_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetRight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getright.htm

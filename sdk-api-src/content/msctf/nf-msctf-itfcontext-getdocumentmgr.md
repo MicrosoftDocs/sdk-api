@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.GetDocumentMgr
 title: ITfContext::GetDocumentMgr (msctf.h)
-description: ITfContext::GetDocumentMgr method
+description: ITfContext::GetDocumentMgr methodhelpviewer_keywords: ["GetDocumentMgr","GetDocumentMgr method [Text Services Framework]","GetDocumentMgr method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetDocumentMgr method","ITfContext.GetDocumentMgr","ITfContext::GetDocumentMgr","_tsf_itfcontext_getdocumentmgr_ref","msctf/ITfContext::GetDocumentMgr","tsf.itfcontext_getdocumentmgr"]
 old-location: tsf\itfcontext_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 21fa683d-c386-4aa2-8bc5-d5170443c5cd

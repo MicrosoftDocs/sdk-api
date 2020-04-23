@@ -1,7 +1,7 @@
 ---
 UID: NS:wabapi._WABEXTDISPLAY
 title: WABEXTDISPLAY (wabapi.h)
-description: Do not use. Used by the Windows Address Book (WAB) to initialize user's IContextMenu Interface and IShellPropSheetExt Interface implementations.
+description: Do not use. Used by the Windows Address Book (WAB) to initialize user's IContextMenu Interface and IShellPropSheetExt Interface implementations.helpviewer_keywords: ["*LPWABEXTDISPLAY","LPWABEXTDISPLAY","LPWABEXTDISPLAY structure pointer [Windows Address Book]","WABEXTDISPLAY","WABEXTDISPLAY structure [Windows Address Book]","WAB_CONTEXT_ADRLIST","WAB_DISPLAY_LDAPURL","_wab_WABEXTDISPLAY","wab._wab_WABEXTDISPLAY","wabapi/LPWABEXTDISPLAY","wabapi/WABEXTDISPLAY"]
 old-location: wab\_wab_WABEXTDISPLAY.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabextdisplay.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._bidioptions
 title: BIDIOPTIONS (richedit.h)
-description: Contains bidirectional information about a rich edit control. This structure is used by the EM_GETBIDIOPTIONS and EM_SETBIDIOPTIONS messages to get and set the bidirectional information for a control.
+description: Contains bidirectional information about a rich edit control. This structure is used by the EM_GETBIDIOPTIONS and EM_SETBIDIOPTIONS messages to get and set the bidirectional information for a control.helpviewer_keywords: ["BIDIOPTIONS","BIDIOPTIONS structure [Windows Controls]","BOE_CONTEXTALIGNMENT","BOE_CONTEXTREADING","BOE_FORCERECALC","BOE_LEGACYBIDICLASS","BOE_NEUTRALOVERRIDE","BOE_PLAINTEXT","BOE_RTLDIR","BOE_UNICODEBIDI","BOM_CONTEXTALIGNMENT","BOM_CONTEXTREADING","BOM_DEFPARADIR","BOM_LEGACYBIDICLASS","BOM_NEUTRALOVERRIDE","BOM_PLAINTEXT","BOM_UNICODEBIDI","_win32_BIDIOPTIONS_str","_win32_BIDIOPTIONS_str_cpp","controls.BIDIOPTIONS","controls._win32_BIDIOPTIONS_str","richedit/BIDIOPTIONS"]
 old-location: controls\BIDIOPTIONS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\bidioptions.htm

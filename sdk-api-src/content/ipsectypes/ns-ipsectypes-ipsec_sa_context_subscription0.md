@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_SUBSCRIPTION0_
 title: IPSEC_SA_CONTEXT_SUBSCRIPTION0 (ipsectypes.h)
 description: Stores information used to subscribe to notifications about a particular IPsec security association (SA) context.
+helpviewer_keywords: ["IPSEC_SA_CONTEXT_SUBSCRIPTION0","IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure [Filtering]","fwp.ipsec_sa_context_subscription0","ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0"]
 old-location: fwp\ipsec_sa_context_subscription0.htm
 tech.root: fwp
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc
@@ -59,7 +60,7 @@ The <b>IPSEC_SA_CONTEXT_SUBSCRIPTION0</b> structure stores information used to s
 
 ### -field enumTemplate
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>*</b>
+Type: <b><a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>*</b>
 
 Enumeration template for limiting the subscription.
 
@@ -83,7 +84,7 @@ Identifies the session that created the subscription.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
  
 
  

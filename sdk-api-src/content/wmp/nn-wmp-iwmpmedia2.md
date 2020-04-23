@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPMedia2
 title: IWMPMedia2 (wmp.h)
-description: The IWMPMedia2 interface provides a method that supplements the IWMPMedia interface.
+description: The IWMPMedia2 interface provides a method that supplements the IWMPMedia interface.helpviewer_keywords: ["IWMPMedia2","IWMPMedia2 interface [Windows Media Player]","IWMPMedia2 interface [Windows Media Player]","described","IWMPMedia2Interface","wmp.iwmpmedia2","wmp/IWMPMedia2"]
 old-location: wmp\iwmpmedia2.htm
 tech.root: WMP
 ms.assetid: e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21

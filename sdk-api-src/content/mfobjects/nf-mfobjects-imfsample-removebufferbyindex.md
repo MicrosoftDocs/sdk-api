@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFSample.RemoveBufferByIndex
 title: IMFSample::RemoveBufferByIndex (mfobjects.h)
-description: Removes a buffer at a specified index from the sample.
+description: Removes a buffer at a specified index from the sample.helpviewer_keywords: ["IMFSample interface [Media Foundation]","RemoveBufferByIndex method","IMFSample.RemoveBufferByIndex","IMFSample::RemoveBufferByIndex","RemoveBufferByIndex","RemoveBufferByIndex method [Media Foundation]","RemoveBufferByIndex method [Media Foundation]","IMFSample interface","fc7b5a46-a127-4d75-a9a5-382d9d65a426","mf.imfsample_removebufferbyindex","mfobjects/IMFSample::RemoveBufferByIndex"]
 old-location: mf\imfsample_removebufferbyindex.htm
 tech.root: medfound
 ms.assetid: fc7b5a46-a127-4d75-a9a5-382d9d65a426

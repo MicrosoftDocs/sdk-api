@@ -1,7 +1,7 @@
 ---
 UID: NE:audioclient._AUDCLNT_BUFFERFLAGS
 title: _AUDCLNT_BUFFERFLAGS (audioclient.h)
-description: The _AUDCLNT_BUFFERFLAGS enumeration defines flags that indicate the status of an audio endpoint buffer.
+description: The _AUDCLNT_BUFFERFLAGS enumeration defines flags that indicate the status of an audio endpoint buffer.helpviewer_keywords: ["AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY","AUDCLNT_BUFFERFLAGS_SILENT","AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR","_AUDCLNT_BUFFERFLAGS","_AUDCLNT_BUFFERFLAGS","_AUDCLNT_BUFFERFLAGS enumeration [Core Audio]","audioclient/AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY","audioclient/AUDCLNT_BUFFERFLAGS_SILENT","audioclient/AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR","audioclient/_AUDCLNT_BUFFERFLAGS","coreaudio._audclnt_bufferflags"]
 old-location: coreaudio\_audclnt_bufferflags.htm
 tech.root: CoreAudio
 ms.assetid: ac4ec901-b1e2-4c4e-b9fc-1808d5338d15

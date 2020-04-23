@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TreeView_GetNextVisible
 title: TreeView_GetNextVisible macro (commctrl.h)
-description: Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXTVISIBLE flag.
+description: Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXTVISIBLE flag.helpviewer_keywords: ["TreeView_GetNextVisible","TreeView_GetNextVisible macro [Windows Controls]","_win32_TreeView_GetNextVisible","_win32_TreeView_GetNextVisible_cpp","commctrl/TreeView_GetNextVisible","controls.TreeView_GetNextVisible","controls._win32_TreeView_GetNextVisible"]
 old-location: controls\TreeView_GetNextVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextvisible.htm

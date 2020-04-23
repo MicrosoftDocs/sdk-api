@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeMemory
 title: EapMethodAuthenticatorFreeMemory function (eapmethodauthenticatorapis.h)
 description: Releases all memory associated with an opaque user interface context data buffer.
+helpviewer_keywords: ["EapMethodAuthenticatorFreeMemory","EapMethodAuthenticatorFreeMemory function [EAPHost]","eaphost.eapmethodauthenticatorfreememory","eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory"]
 old-location: eaphost\eapmethodauthenticatorfreememory.htm
 tech.root: eaphost
 ms.assetid: 9ec9f468-4589-4832-9f17-ddc0b64b88f1
@@ -69,7 +70,7 @@ A pointer to a BLOB that contains supplicant user interface context data.
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
  
 
  

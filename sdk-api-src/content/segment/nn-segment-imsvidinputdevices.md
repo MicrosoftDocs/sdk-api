@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidInputDevices
 title: IMSVidInputDevices (segment.h)
-description: The IMSVidInputDevices interface represents a collection of input devices. The MSVidInputDevices object exposes this object.
+description: The IMSVidInputDevices interface represents a collection of input devices. The MSVidInputDevices object exposes this object.helpviewer_keywords: ["IMSVidInputDevices","IMSVidInputDevices interface [Microsoft TV Technologies]","IMSVidInputDevices interface [Microsoft TV Technologies]","described","IMSVidInputDevicesInterface","mstv.imsvidinputdevices","segment/IMSVidInputDevices"]
 old-location: mstv\imsvidinputdevices.htm
 tech.root: mstv
 ms.assetid: cb9d9885-718e-43b9-b195-66149bd7e973

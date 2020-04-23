@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcRelationship.GetTargetUri
 title: IOpcRelationship::GetTargetUri (msopc.h)
 description: Gets the URI of the relationship&#160;target.
+helpviewer_keywords: ["GetTargetUri","GetTargetUri method [Open Packaging Conventions]","GetTargetUri method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetTargetUri method","IOpcRelationship.GetTargetUri","IOpcRelationship::GetTargetUri","msopc/IOpcRelationship::GetTargetUri","opc.iopcrelationship_gettargeturi"]
 old-location: opc\iopcrelationship_gettargeturi.htm
 tech.root: OPC
 ms.assetid: 65b04931-dc4e-4eb5-b542-a7b46c3164de
@@ -152,7 +153,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
 
 
 

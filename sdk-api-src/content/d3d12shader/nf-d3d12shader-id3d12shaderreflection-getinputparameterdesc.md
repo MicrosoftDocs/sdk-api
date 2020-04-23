@@ -2,6 +2,7 @@
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetInputParameterDesc
 title: ID3D12ShaderReflection::GetInputParameterDesc (d3d12shader.h)
 description: Gets an input-parameter description for a shader.
+helpviewer_keywords: ["GetInputParameterDesc","GetInputParameterDesc method","GetInputParameterDesc method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetInputParameterDesc method","ID3D12ShaderReflection.GetInputParameterDesc","ID3D12ShaderReflection::GetInputParameterDesc","d3d12shader/ID3D12ShaderReflection::GetInputParameterDesc","direct3d12.id3d12shaderreflection_getinputparameterdesc"]
 old-location: direct3d12\id3d12shaderreflection_getinputparameterdesc.htm
 tech.root: direct3d12
 ms.assetid: CD1AFABD-E830-4292-96F4-278BA84E5B54
@@ -68,9 +69,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-input-signature description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>.
           
 
 

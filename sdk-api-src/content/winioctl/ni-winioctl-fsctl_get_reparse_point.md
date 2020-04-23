@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_REPARSE_POINT
 title: FSCTL_GET_REPARSE_POINT
-description: Retrieves the reparse point data associated with the file or directory identified by the specified handle.
+description: Retrieves the reparse point data associated with the file or directory identified by the specified handle.helpviewer_keywords: ["FSCTL_GET_REPARSE_POINT","FSCTL_GET_REPARSE_POINT control","FSCTL_GET_REPARSE_POINT control code [Files]","_win32_fsctl_get_reparse_point","base.fsctl_get_reparse_point","fs.fsctl_get_reparse_point","winioctl/FSCTL_GET_REPARSE_POINT"]
 old-location: fs\fsctl_get_reparse_point.htm
 tech.root: FileIO
 ms.assetid: 6f1b7ea2-aed6-4ab4-8e92-1b77ab5cfefb

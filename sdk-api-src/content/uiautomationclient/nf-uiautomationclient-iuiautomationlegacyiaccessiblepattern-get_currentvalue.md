@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentValue
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentValue (uiautomationclient.h)
-description: Retrieves the Microsoft Active Accessibility value property.
+description: Retrieves the Microsoft Active Accessibility value property.helpviewer_keywords: ["CurrentValue property [Windows Accessibility]","CurrentValue property [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","CurrentValue property","IUIAutomationLegacyIAccessiblePattern.CurrentValue","IUIAutomationLegacyIAccessiblePattern.get_CurrentValue","IUIAutomationLegacyIAccessiblePattern::CurrentValue","IUIAutomationLegacyIAccessiblePattern::get_CurrentValue","get_CurrentValue","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue","uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentValue","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentValue","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue.htm
 tech.root: WinAuto
 ms.assetid: 48f960f1-113a-4ab8-809d-e83a7a66c28c

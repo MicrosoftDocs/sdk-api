@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.AddNameToNamespace
 title: IWSDXMLContext::AddNameToNamespace (wsdxml.h)
-description: Creates an object that represents a name in a namespace in an XML context.
+description: Creates an object that represents a name in a namespace in an XML context.helpviewer_keywords: ["AddNameToNamespace","AddNameToNamespace method","AddNameToNamespace method","IWSDXMLContext interface","IWSDXMLContext interface","AddNameToNamespace method","IWSDXMLContext.AddNameToNamespace","IWSDXMLContext::AddNameToNamespace","ncd.iwsdxmlcontext_addnametonamespace_method","wsdxml/IWSDXMLContext::AddNameToNamespace"]
 old-location: ncd\iwsdxmlcontext_addnametonamespace_method.htm
 tech.root: WsdApi
 ms.assetid: d480f868-46ab-4d9c-ae52-4e5ca5cb9fd9

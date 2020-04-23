@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEnd
 title: ITfRange::ShiftEnd (msctf.h)
-description: ITfRange::ShiftEnd method
+description: ITfRange::ShiftEnd methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftEnd method","ITfRange.ShiftEnd","ITfRange::ShiftEnd","ShiftEnd","ShiftEnd method [Text Services Framework]","ShiftEnd method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftend_ref","msctf/ITfRange::ShiftEnd","tsf.itfrange_shiftend"]
 old-location: tsf\itfrange_shiftend.htm
 tech.root: TSF
 ms.assetid: 1debec6d-f98f-45a4-aaa8-99b61f3583ef

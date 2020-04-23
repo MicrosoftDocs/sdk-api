@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.get_ProgNo
 title: IMPEG2TuneRequest::get_ProgNo (tuner.h)
-description: The get_ProgNo method retrieves the program number ID.
+description: The get_ProgNo method retrieves the program number ID.helpviewer_keywords: ["IMPEG2TuneRequest interface [Microsoft TV Technologies]","get_ProgNo method","IMPEG2TuneRequest.get_ProgNo","IMPEG2TuneRequest::get_ProgNo","IMPEG2TuneRequestget_ProgNo","get_ProgNo","get_ProgNo method [Microsoft TV Technologies]","get_ProgNo method [Microsoft TV Technologies]","IMPEG2TuneRequest interface","mstv.impeg2tunerequest_get_progno","tuner/IMPEG2TuneRequest::get_ProgNo"]
 old-location: mstv\impeg2tunerequest_get_progno.htm
 tech.root: mstv
 ms.assetid: dde8979a-633d-4fc4-b31e-bdd43823db6a

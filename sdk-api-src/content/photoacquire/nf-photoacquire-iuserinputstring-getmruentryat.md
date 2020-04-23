@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruEntryAt
 title: IUserInputString::GetMruEntryAt (photoacquire.h)
-description: The GetMruEntryAt method retrieves the entry at the given index in the most recently used list.
+description: The GetMruEntryAt method retrieves the entry at the given index in the most recently used list.helpviewer_keywords: ["GetMruEntryAt","GetMruEntryAt method [Picture Acquisition]","GetMruEntryAt method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetMruEntryAt method","IUserInputString.GetMruEntryAt","IUserInputString::GetMruEntryAt","IUserInputStringGetMruEntryAt","photoacquire/IUserInputString::GetMruEntryAt","picacq.iuserinputstring_getmruentryat"]
 old-location: picacq\iuserinputstring_getmruentryat.htm
 tech.root: acquisition
 ms.assetid: d03c3eba-e55c-421d-acfa-fea6aa645cc5

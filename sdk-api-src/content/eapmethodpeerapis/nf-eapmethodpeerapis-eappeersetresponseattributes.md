@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerSetResponseAttributes
 title: EapPeerSetResponseAttributes function (eapmethodpeerapis.h)
 description: Provides an updated array of EAP response attributes to the EAP method.
+helpviewer_keywords: ["EapPeerSetResponseAttributes","EapPeerSetResponseAttributes function [EAPHost]","eaphost.eappeersetresponseattributes","eapmethodpeerapis/EapPeerSetResponseAttributes"]
 old-location: eaphost\eappeersetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: 340f5284-53cb-4e1d-9df5-2b9c75774c0d
@@ -69,7 +70,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
+A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 ### -param ppEapError [out]
@@ -91,7 +92,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

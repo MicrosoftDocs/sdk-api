@@ -1,7 +1,7 @@
 ---
 UID: NF:powersetting.PowerSettingUnregisterNotification
 title: PowerSettingUnregisterNotification function (powersetting.h)
-description: Cancels a registration to receive notification when a power setting changes.
+description: Cancels a registration to receive notification when a power setting changes.helpviewer_keywords: ["PowerSettingUnregisterNotification","PowerSettingUnregisterNotification function","base.powersettingunregisternotification","powersetting/PowerSettingUnregisterNotification","powrprof/PowerSettingUnregisterNotification"]
 old-location: base\powersettingunregisternotification.htm
 tech.root: power
 ms.assetid: 9853c347-4528-43bb-8326-13bcd819b8a6

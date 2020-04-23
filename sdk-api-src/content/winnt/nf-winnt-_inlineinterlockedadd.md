@@ -2,6 +2,7 @@
 UID: NF:winnt._InlineInterlockedAdd
 title: _InlineInterlockedAdd function (winnt.h)
 description: Performs an atomic addition operation on the specified LONG values. The operation is performed with acquire memory ordering semantics.
+helpviewer_keywords: ["InterlockedAddAcquire","InterlockedAddAcquire function","_InlineInterlockedAdd","base.interlockedaddacquire","winnt/InterlockedAddAcquire"]
 old-location: base\interlockedaddacquire.htm
 tech.root: Sync
 ms.assetid: ec1746cc-aff9-440e-b7e1-15a3d7a0fa58
@@ -102,7 +103,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_inlineinterlockedadd64">InterlockedAdd64</a>
+<a href="/windows/win32/api/winnt/nf-winnt-_inlineinterlockedadd64">InterlockedAdd64</a>
 
 
 

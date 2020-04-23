@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfTextInputProcessor
 title: ITfTextInputProcessor (msctf.h)
-description: The ITfTextInputProcessor interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.
+description: The ITfTextInputProcessor interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.helpviewer_keywords: ["ITfTextInputProcessor","ITfTextInputProcessor interface [Text Services Framework]","ITfTextInputProcessor interface [Text Services Framework]","described","_tsf_itftextinputprocessor_ref","msctf/ITfTextInputProcessor","tsf.itftextinputprocessor"]
 old-location: tsf\itftextinputprocessor.htm
 tech.root: TSF
 ms.assetid: d3fd296b-0009-4fc2-bf91-0ad31454f0e8

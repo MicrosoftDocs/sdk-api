@@ -1,7 +1,7 @@
 ---
 UID: NC:ras.RasCustomScriptExecuteFn
 title: RasCustomScriptExecuteFn (ras.h)
-description: RAS calls the RasCustomScriptExecute function when establishing a connection for a phone-book entry that has the RASEO_CustomScript option set.
+description: RAS calls the RasCustomScriptExecute function when establishing a connection for a phone-book entry that has the RASEO_CustomScript option set.helpviewer_keywords: ["RasCustomScriptExecute","RasCustomScriptExecute callback function [RAS]","RasCustomScriptExecuteFn","RasCustomScriptExecuteFn callback","_ras_rascustomscriptexecute","ras/RasCustomScriptExecute","rras.rascustomscriptexecute"]
 old-location: rras\rascustomscriptexecute.htm
 tech.root: RRAS
 ms.assetid: e31ab530-cb60-4bb0-be44-3ba90fdf71f1

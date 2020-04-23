@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_next_reference
 title: ldap_next_reference function (winldap.h)
-description: Retrieves a reference from a search result chain.
+description: Retrieves a reference from a search result chain.helpviewer_keywords: ["_ldap_ldap_next_reference","ldap.ldap__next__reference","ldap.ldap_next_reference","ldap_next_reference","ldap_next_reference function [LDAP]","winldap/ldap_next_reference"]
 old-location: ldap\ldap_next_reference.htm
 tech.root: ldap
 ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d

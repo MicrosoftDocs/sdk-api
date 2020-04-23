@@ -2,6 +2,7 @@
 UID: NE:scesvc._SCESVC_INFO_TYPE
 title: SCESVC_INFO_TYPE (scesvc.h)
 description: The SCESVC_INFO_TYPE enumeration is used by PFSCE_QUERY_INFO and PFSCE_SET_INFO to indicate the type of information requested from or passed to the security database. It can be one of the following values.
+helpviewer_keywords: ["SCESVC_INFO_TYPE","SCESVC_INFO_TYPE enumeration [Security]","SceSvcAnalysisInfo","SceSvcConfigurationInfo","SceSvcInternalUse","SceSvcMergedPolicyInfo","_config_scesvc_info_type","scesvc/SCESVC_INFO_TYPE","scesvc/SceSvcAnalysisInfo","scesvc/SceSvcConfigurationInfo","scesvc/SceSvcInternalUse","scesvc/SceSvcMergedPolicyInfo","security.scesvc_info_type"]
 old-location: security\scesvc_info_type.htm
 tech.root: SecMgmt
 ms.assetid: 697dfecf-46a9-4558-90e2-099fabc60742
@@ -92,11 +93,11 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
  
 
  

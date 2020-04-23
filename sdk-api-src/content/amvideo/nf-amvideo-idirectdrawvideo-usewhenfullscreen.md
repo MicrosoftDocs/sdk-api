@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseWhenFullScreen
 title: IDirectDrawVideo::UseWhenFullScreen (amvideo.h)
-description: The UseWhenFullScreen method determines whether DirectShow should change display mode when going to full-screen mode.
+description: The UseWhenFullScreen method determines whether DirectShow should change display mode when going to full-screen mode.helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","UseWhenFullScreen method","IDirectDrawVideo.UseWhenFullScreen","IDirectDrawVideo::UseWhenFullScreen","IDirectDrawVideoUseWhenFullScreen","UseWhenFullScreen","UseWhenFullScreen method [DirectShow]","UseWhenFullScreen method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::UseWhenFullScreen","dshow.idirectdrawvideo_usewhenfullscreen"]
 old-location: dshow\idirectdrawvideo_usewhenfullscreen.htm
 tech.root: DirectShow
 ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d

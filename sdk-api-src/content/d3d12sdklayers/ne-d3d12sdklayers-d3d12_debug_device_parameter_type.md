@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_DEBUG_DEVICE_PARAMETER_TYPE
 title: D3D12_DEBUG_DEVICE_PARAMETER_TYPE (d3d12sdklayers.h)
-description: Specifies the data type of the memory pointed to by the pData parameter of ID3D12DebugDevice1::SetDebugParameter and ID3D12DebugDevice1::GetDebugParameter.
+description: Specifies the data type of the memory pointed to by the pData parameter of ID3D12DebugDevice1::SetDebugParameter and ID3D12DebugDevice1::GetDebugParameter.helpviewer_keywords: ["D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS","D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS","D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR","D3D12_DEBUG_DEVICE_PARAMETER_TYPE","D3D12_DEBUG_DEVICE_PARAMETER_TYPE enumeration","d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS","d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS","d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR","d3d12sdklayers/D3D12_DEBUG_DEVICE_PARAMETER_TYPE","direct3d12.d3d12_debug_device_parameter_type"]
 old-location: direct3d12\d3d12_debug_device_parameter_type.htm
 tech.root: direct3d12
 ms.assetid: 477155FF-9DF7-4E21-AF52-21EB3DBC3550

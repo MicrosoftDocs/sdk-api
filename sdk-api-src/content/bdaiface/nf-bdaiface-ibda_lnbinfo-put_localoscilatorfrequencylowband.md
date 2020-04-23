@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand
 title: IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand (bdaiface.h)
-description: The put_LocalOscilatorFrequencyLowBand method specifies the frequency of the local oscillator's low band.
+description: The put_LocalOscilatorFrequencyLowBand method specifies the frequency of the local oscillator's low band.helpviewer_keywords: ["IBDA_LNBInfo interface [Microsoft TV Technologies]","put_LocalOscilatorFrequencyLowBand method","IBDA_LNBInfo.put_LocalOscilatorFrequencyLowBand","IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand","IBDA_LNBInfoput_LocalOscilatorFrequencyLowBand","bdaiface/IBDA_LNBInfo::put_LocalOscilatorFrequencyLowBand","mstv.ibda_lnbinfo_put_localoscilatorfrequencylowband","put_LocalOscilatorFrequencyLowBand","put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies]","put_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies]","IBDA_LNBInfo interface"]
 old-location: mstv\ibda_lnbinfo_put_localoscilatorfrequencylowband.htm
 tech.root: mstv
 ms.assetid: e1ba4cf7-f9d4-4cac-921f-19f34fd968fe

@@ -2,6 +2,7 @@
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart
 title: IWdsTransportNamespaceScheduledCastAutoStart (wdstptmgmt.h)
 description: An administrator can specify criteria that starts transmission on an object of an IWdsTransportNamespaceScheduledCastAutoStart interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.
+helpviewer_keywords: ["IWdsTransportNamespaceScheduledCastAutoStart","IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services]","IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services]","described","wds.iwdstransportnamespacescheduledcastautostart","wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart"]
 old-location: wds\iwdstransportnamespacescheduledcastautostart.htm
 tech.root: wds
 ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-An administrator can specify criteria that starts transmission on an object of an <b>IWdsTransportNamespaceScheduledCastAutoStart</b> interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.  This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastAutoStart</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+An administrator can specify criteria that starts transmission on an object of an <b>IWdsTransportNamespaceScheduledCastAutoStart</b> interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.  This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastAutoStart</b> value of the <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also

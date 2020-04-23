@@ -2,6 +2,7 @@
 UID: NF:manipulations._IManipulationEvents.ManipulationStarted
 title: _IManipulationEvents::ManipulationStarted (manipulations.h)
 description: Handles the event for when manipulation or inertia begins.
+helpviewer_keywords: ["ManipulationStarted","ManipulationStarted method [Windows Touch]","ManipulationStarted method [Windows Touch]","_IManipulationEvents interface","_IManipulationEvents interface [Windows Touch]","ManipulationStarted method","_IManipulationEvents.ManipulationStarted","_IManipulationEvents::ManipulationStarted","manipulations/_IManipulationEvents::ManipulationStarted","wintouch._imanipulationevents_manipulationstarted"]
 old-location: wintouch\_imanipulationevents_manipulationstarted.htm
 tech.root: wintouch
 ms.assetid: c3e63eb7-65e7-4394-89e4-d95d7e7877cf
@@ -127,7 +128,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
+<a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
  
 
  

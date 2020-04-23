@@ -1,7 +1,7 @@
 ---
 UID: NE:mobsync._tagSYNCMGRLOGLEVEL
 title: SYNCMGRLOGLEVEL (mobsync.h)
-description: The SYNCMGRLOGLEVEL enumeration values specify an error level for use in the ISyncMgrSynchronizeCallback::LogError method.
+description: The SYNCMGRLOGLEVEL enumeration values specify an error level for use in the ISyncMgrSynchronizeCallback::LogError method.helpviewer_keywords: ["SYNCMGRLOGLEVEL","SYNCMGRLOGLEVEL enumeration [Windows Shell]","SYNCMGRLOGLEVEL_ERROR","SYNCMGRLOGLEVEL_INFORMATION","SYNCMGRLOGLEVEL_LOGLEVELMAX","SYNCMGRLOGLEVEL_WARNING","mobsync/SYNCMGRLOGLEVEL","mobsync/SYNCMGRLOGLEVEL_ERROR","mobsync/SYNCMGRLOGLEVEL_INFORMATION","mobsync/SYNCMGRLOGLEVEL_LOGLEVELMAX","mobsync/SYNCMGRLOGLEVEL_WARNING","shell.syncmgr_syncmgrloglevel","syncmgr.syncmgrloglevel"]
 old-location: shell\syncmgr_syncmgrloglevel.htm
 tech.root: shell
 ms.assetid: df3c3300-e203-4664-b8d5-9dc4835b33d8

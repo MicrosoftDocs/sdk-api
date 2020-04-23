@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgAttribute.Clone
 title: ID2D1SvgAttribute::Clone (d2d1svg.h)
-description: Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.
+description: Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.helpviewer_keywords: ["Clone","Clone method [Direct2D]","Clone method [Direct2D]","ID2D1SvgAttribute interface","ID2D1SvgAttribute interface [Direct2D]","Clone method","ID2D1SvgAttribute.Clone","ID2D1SvgAttribute::Clone","d2d1svg/ID2D1SvgAttribute::Clone","direct2d.id2d1svgattribute_clone"]
 old-location: direct2d\id2d1svgattribute_clone.htm
 tech.root: Direct2D
 ms.assetid: 85A16E88-5010-403F-B6B9-EBA6A4321463

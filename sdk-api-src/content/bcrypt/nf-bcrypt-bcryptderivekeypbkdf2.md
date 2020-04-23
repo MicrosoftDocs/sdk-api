@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKeyPBKDF2
 title: BCryptDeriveKeyPBKDF2 function (bcrypt.h)
-description: Derives a key from a hash value by using the PBKDF2 key derivation algorithm as defined by RFC 2898.
+description: Derives a key from a hash value by using the PBKDF2 key derivation algorithm as defined by RFC 2898.helpviewer_keywords: ["BCryptDeriveKeyPBKDF2","BCryptDeriveKeyPBKDF2 function [Security]","bcrypt/BCryptDeriveKeyPBKDF2","security.bcryptderivekeypbkdf2"]
 old-location: security\bcryptderivekeypbkdf2.htm
 tech.root: SecCNG
 ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6

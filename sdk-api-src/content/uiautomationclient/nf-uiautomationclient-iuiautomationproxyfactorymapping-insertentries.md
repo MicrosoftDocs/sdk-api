@@ -2,6 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.InsertEntries
 title: IUIAutomationProxyFactoryMapping::InsertEntries (uiautomationclient.h)
 description: Inserts entries into the table of proxy factories.
+helpviewer_keywords: ["IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","InsertEntries method","IUIAutomationProxyFactoryMapping.InsertEntries","IUIAutomationProxyFactoryMapping::InsertEntries","InsertEntries","InsertEntries method [Windows Accessibility]","InsertEntries method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","uiauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntries","uiauto_IUIAutomationProxyFactoryMapping_InsertEntries","uiautomationclient/IUIAutomationProxyFactoryMapping::InsertEntries","winauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntries"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_InsertEntries.htm
 tech.root: WinAuto
 ms.assetid: f398a1b5-d558-4187-9ee5-147b139d99e0
@@ -66,7 +67,7 @@ The zero-based index at which to insert the entries.
 
 ### -param factoryList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the entries to insert into the table.
 

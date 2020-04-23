@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetSystemFontCollection
 title: IDWriteFactory3::GetSystemFontCollection (dwrite_3.h)
-description: Retrieves a weight/width/slope tree of system fonts.
+description: Retrieves a weight/width/slope tree of system fonts.helpviewer_keywords: ["GetSystemFontCollection","GetSystemFontCollection method [Direct Write]","GetSystemFontCollection method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","GetSystemFontCollection method","IDWriteFactory3.GetSystemFontCollection","IDWriteFactory3::GetSystemFontCollection","directwrite.idwritefactory3_getsystemfontcollection","dwrite_3/IDWriteFactory3::GetSystemFontCollection"]
 old-location: directwrite\idwritefactory3_getsystemfontcollection.htm
 tech.root: DirectWrite
 ms.assetid: f6e983b5-5c5f-a2de-59f8-722f967bb992

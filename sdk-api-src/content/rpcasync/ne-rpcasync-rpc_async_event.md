@@ -1,7 +1,7 @@
 ---
 UID: NE:rpcasync._RPC_ASYNC_EVENT
 title: RPC_ASYNC_EVENT (rpcasync.h)
-description: The RPC_ASYNC_EVENT enumerated type describes the asynchronous notification events that an RPC application can receive.
+description: The RPC_ASYNC_EVENT enumerated type describes the asynchronous notification events that an RPC application can receive.helpviewer_keywords: ["RPC_ASYNC_EVENT","RPC_ASYNC_EVENT enumeration [RPC]","RpcCallComplete","RpcClientCancel","RpcClientDisconnect","RpcReceiveComplete","RpcSendComplete","_rpc_rpc_async_event","rpc.rpc_async_event","rpcasync/RPC_ASYNC_EVENT","rpcasync/RpcCallComplete","rpcasync/RpcClientCancel","rpcasync/RpcClientDisconnect","rpcasync/RpcReceiveComplete","rpcasync/RpcSendComplete"]
 old-location: rpc\rpc_async_event.htm
 tech.root: Rpc
 ms.assetid: 6b173ec8-2b58-4a99-87cd-cdf1f92a35ad

@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32Vector
 title: PropVariantToUInt32Vector function (propvarutil.h)
-description: Extracts data from a PROPVARIANT structure into an ULONG vector.
+description: Extracts data from a PROPVARIANT structure into an ULONG vector.helpviewer_keywords: ["PropVariantToUInt32Vector","PropVariantToUInt32Vector function [Windows Properties]","_shell_PropVariantToUInt32Vector","properties.PropVariantToUInt32Vector","propvarutil/PropVariantToUInt32Vector","shell.PropVariantToUInt32Vector"]
 old-location: properties\PropVariantToUInt32Vector.htm
 tech.root: properties
 ms.assetid: 721a2f67-dfd1-4d95-8290-4457b8954a02

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeEndLineCap
 title: IXpsOMPath::GetStrokeEndLineCap (xpsobjectmodel.h)
 description: Gets the style of the stroke line's end cap.
+helpviewer_keywords: ["GetStrokeEndLineCap","GetStrokeEndLineCap method [XPS Documents and Packaging]","GetStrokeEndLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeEndLineCap method","IXpsOMPath.GetStrokeEndLineCap","IXpsOMPath::GetStrokeEndLineCap","xps.ixpsompath_getstrokeendlinecap","xpsobjectmodel/IXpsOMPath::GetStrokeEndLineCap"]
 old-location: xps\ixpsompath_getstrokeendlinecap.htm
 tech.root: printdocs
 ms.assetid: 54b4f6e7-3a76-48d3-a180-2bb3a532fc67
@@ -59,7 +60,7 @@ Gets the style of the stroke line's  end cap.
 
 ### -param strokeEndLineCap [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value that specifies the style of the stroke line's end cap.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value that specifies the style of the stroke line's end cap.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about line   end cap styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
+For more information about line   end cap styles, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 
@@ -127,7 +128,7 @@ For more information about line   end cap styles, see <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
  
 
  

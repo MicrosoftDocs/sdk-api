@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._MESSAGE_RESOURCE_BLOCK
 title: MESSAGE_RESOURCE_BLOCK (winnt.h)
-description: Contains information about message strings with identifiers in the range indicated by the LowId and HighId members.
+description: Contains information about message strings with identifiers in the range indicated by the LowId and HighId members.helpviewer_keywords: ["*PMESSAGE_RESOURCE_BLOCK","MESSAGE_RESOURCE_BLOCK","MESSAGE_RESOURCE_BLOCK structure [Menus and Other Resources]","_win32_MESSAGE_RESOURCE_BLOCK_str","_win32_message_resource_block_str_cpp","menurc.message_resource_block","winnt/MESSAGE_RESOURCE_BLOCK","winui._win32_message_resource_block_str"]
 old-location: menurc\message_resource_block.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_block.htm

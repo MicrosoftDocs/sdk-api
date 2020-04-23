@@ -2,6 +2,7 @@
 UID: NS:ipsectypes._IPSEC_KEY_MANAGER0
 title: IPSEC_KEY_MANAGER0 (ipsectypes.h)
 description: Used to register key management callbacks with IPsec.
+helpviewer_keywords: ["IPSEC_KEY_MANAGER0","IPSEC_KEY_MANAGER0 structure [Filtering]","IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY","fwp.ipsec_key_manager0","ipsectypes/IPSEC_KEY_MANAGER0"]
 old-location: fwp\ipsec_key_manager0.htm
 tech.root: fwp
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
@@ -66,7 +67,7 @@ Uniquely identifies the Key Manager.
 
 ### -field displayData
 
-Type: [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a></b>
+Type: [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)</b>
 
 Contains annotations associated with the filter.
 
@@ -108,7 +109,7 @@ Time, in seconds, after which the <b>keyDictation</b> callback must return in or
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 

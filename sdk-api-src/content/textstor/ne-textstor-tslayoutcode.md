@@ -1,7 +1,7 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0002
 title: TsLayoutCode (textstor.h)
-description: Elements of the TsLayoutCode enumeration are used to specify the type of layout change in an ITextStoreACPSink::OnLayoutChange or ITextStoreAnchorSink::OnLayoutChange notification.
+description: Elements of the TsLayoutCode enumeration are used to specify the type of layout change in an ITextStoreACPSink::OnLayoutChange or ITextStoreAnchorSink::OnLayoutChange notification.helpviewer_keywords: ["TS_LC_CHANGE","TS_LC_CREATE","TS_LC_DESTROY","TsLayoutCode","TsLayoutCode enumeration [Text Services Framework]","_tsf_tslayoutcode_ref","textstor/TS_LC_CHANGE","textstor/TS_LC_CREATE","textstor/TS_LC_DESTROY","textstor/TsLayoutCode","tsf.tslayoutcode"]
 old-location: tsf\tslayoutcode.htm
 tech.root: TSF
 ms.assetid: 879f83ba-211b-49f6-93b2-6cde5f50fc24

@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngQueryLocalTime
 title: EngQueryLocalTime function (winddi.h)
-description: The EngQueryLocalTime function queries the local time.
+description: The EngQueryLocalTime function queries the local time.helpviewer_keywords: ["EngQueryLocalTime","EngQueryLocalTime function [Display Devices]","display.engquerylocaltime","gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml","winddi/EngQueryLocalTime"]
 old-location: display\engquerylocaltime.htm
 tech.root: display
 ms.assetid: 826993fc-7cf2-4747-a0d9-086e5d7310b6

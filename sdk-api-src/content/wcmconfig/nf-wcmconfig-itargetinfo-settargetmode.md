@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetTargetMode
 title: ITargetInfo::SetTargetMode (wcmconfig.h)
-description: Sets the target mode.
+description: Sets the target mode.helpviewer_keywords: ["ITargetInfo interface [SMI]","SetTargetMode method","ITargetInfo.SetTargetMode","ITargetInfo::SetTargetMode","SetTargetMode","SetTargetMode method [SMI]","SetTargetMode method [SMI]","ITargetInfo interface","smi.itargetinfo_settargetmode","wcmconfig/ITargetInfo::SetTargetMode"]
 old-location: smi\itargetinfo_settargetmode.htm
 tech.root: SMI
 ms.assetid: f8c5e67f-a084-4916-8371-bba4e7fb1da1

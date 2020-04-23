@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetOwner
 title: IXpsOMDocumentSequence::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMPackage interface that contains the document sequence.
+description: Gets a pointer to the IXpsOMPackage interface that contains the document sequence.helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMDocumentSequence interface","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","GetOwner method","IXpsOMDocumentSequence.GetOwner","IXpsOMDocumentSequence::GetOwner","xps.ixpsomdocumentsequence_getowner","xpsobjectmodel/IXpsOMDocumentSequence::GetOwner"]
 old-location: xps\ixpsomdocumentsequence_getowner.htm
 tech.root: printdocs
 ms.assetid: c5c59e70-d7b5-42cf-a979-6da4899203ba

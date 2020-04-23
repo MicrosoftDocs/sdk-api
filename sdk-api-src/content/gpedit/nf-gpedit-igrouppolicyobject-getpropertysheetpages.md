@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetPropertySheetPages
 title: IGroupPolicyObject::GetPropertySheetPages (gpedit.h)
-description: The GetPropertySheetPages method retrieves the property sheet pages associated with the GPO.
+description: The GetPropertySheetPages method retrieves the property sheet pages associated with the GPO.helpviewer_keywords: ["GetPropertySheetPages","GetPropertySheetPages method [Group Policy]","GetPropertySheetPages method [Group Policy]","IGroupPolicyObject interface","IGroupPolicyObject interface [Group Policy]","GetPropertySheetPages method","IGroupPolicyObject.GetPropertySheetPages","IGroupPolicyObject::GetPropertySheetPages","_win32_igrouppolicyobject_getpropertysheetpages","gpedit/IGroupPolicyObject::GetPropertySheetPages","policy.igrouppolicyobject_getpropertysheetpages"]
 old-location: policy\igrouppolicyobject_getpropertysheetpages.htm
 tech.root: Policy
 ms.assetid: d464d5fc-64f0-4f34-bcc0-35d92e65f79b

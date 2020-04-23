@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_WINDOW_STATE
 title: D2D1_WINDOW_STATE (d2d1.h)
-description: Describes whether a window is occluded.
+description: Describes whether a window is occluded.helpviewer_keywords: ["D2D1_WINDOW_STATE","D2D1_WINDOW_STATE enumeration [Direct2D]","D2D1_WINDOW_STATE_NONE","D2D1_WINDOW_STATE_OCCLUDED","d2d1/D2D1_WINDOW_STATE","d2d1/D2D1_WINDOW_STATE_NONE","d2d1/D2D1_WINDOW_STATE_OCCLUDED","direct2d.D2D1_WINDOW_STATE"]
 old-location: direct2d\D2D1_WINDOW_STATE.htm
 tech.root: Direct2D
 ms.assetid: 79d3a903-f29e-4d0d-9918-85fbfc846517

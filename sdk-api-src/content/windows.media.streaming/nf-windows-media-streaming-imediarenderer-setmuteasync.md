@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetMuteAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Instructs the DMR asynchronously to either mute or unmute the audio.
+description: Instructs the DMR asynchronously to either mute or unmute the audio.helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","SetMuteAsync method","IMediaRenderer.SetMuteAsync","IMediaRenderer.streaming","IMediaRenderer::SetMuteAsync","IMediaRenderer::streaming","SetMuteAsync","SetMuteAsync method [Media Streaming API]","SetMuteAsync method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_setmuteasync","windows/IMediaRenderer::SetMuteAsync"]
 old-location: mediastreaming\imediarenderer_setmuteasync.htm
 tech.root: mediastreaming
 ms.assetid: C043088B-5043-457A-A104-5CE0B228222A

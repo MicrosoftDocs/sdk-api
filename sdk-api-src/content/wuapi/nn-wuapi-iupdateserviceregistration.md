@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateServiceRegistration
 title: IUpdateServiceRegistration (wuapi.h)
-description: Contains information about the registration state of a service.
+description: Contains information about the registration state of a service.helpviewer_keywords: ["IUpdateServiceRegistration","IUpdateServiceRegistration interface [Windows Update Agent]","IUpdateServiceRegistration interface [Windows Update Agent]","described","wua.iupdateserviceregistration","wuapi/IUpdateServiceRegistration"]
 old-location: wua\iupdateserviceregistration.htm
 tech.root: Wua_Sdk
 ms.assetid: 729664f2-5f75-4e73-9ccc-150b2e201f66

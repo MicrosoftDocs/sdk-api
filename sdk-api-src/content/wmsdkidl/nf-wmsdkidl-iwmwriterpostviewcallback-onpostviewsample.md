@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.OnPostViewSample
 title: IWMWriterPostViewCallback::OnPostViewSample (wmsdkidl.h)
-description: The OnPostViewSample method is called when new postview data is available. The application implements this method.
+description: The OnPostViewSample method is called when new postview data is available. The application implements this method.helpviewer_keywords: ["IWMWriterPostViewCallback interface [windows Media Format]","OnPostViewSample method","IWMWriterPostViewCallback.OnPostViewSample","IWMWriterPostViewCallback::OnPostViewSample","IWMWriterPostViewCallbackOnPostViewSample","OnPostViewSample","OnPostViewSample method [windows Media Format]","OnPostViewSample method [windows Media Format]","IWMWriterPostViewCallback interface","wmformat.iwmwriterpostviewcallback_onpostviewsample","wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample"]
 old-location: wmformat\iwmwriterpostviewcallback_onpostviewsample.htm
 tech.root: wmformat
 ms.assetid: 5d29a746-70fe-495e-a7f2-dbf085829496

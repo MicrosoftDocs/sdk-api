@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_USERNAME_CREDENTIAL
 title: WS_USERNAME_CREDENTIAL (webservices.h)
 description: The abstract base type for all username/password credentials.
+helpviewer_keywords: ["WS_USERNAME_CREDENTIAL","WS_USERNAME_CREDENTIAL structure [Web Services for Windows]","webservices/WS_USERNAME_CREDENTIAL","wsw.ws_username_credential"]
 old-location: wsw\ws_username_credential.htm
 tech.root: wsw
 ms.assetid: 961f8c52-9922-4e43-905a-a22a80aba63b
@@ -61,7 +62,7 @@ client-to-server for authentication by the specified server-side
 username/password validator specified by the application.
             
 
-In contrast, the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> and
+In contrast, the <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> and
 its concrete subtypes are used for Windows Integrated Authentication
 and the security bindings that use it.
             

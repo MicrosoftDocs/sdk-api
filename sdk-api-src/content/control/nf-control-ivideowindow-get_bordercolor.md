@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IVideoWindow.get_BorderColor
 title: IVideoWindow::get_BorderColor (control.h)
-description: The get_BorderColor method retrieves the color that appears around the edges of the destination rectangle.
+description: The get_BorderColor method retrieves the color that appears around the edges of the destination rectangle.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_BorderColor method","IVideoWindow.get_BorderColor","IVideoWindow::get_BorderColor","IVideoWindowget_BorderColor","control/IVideoWindow::get_BorderColor","dshow.ivideowindow_get_bordercolor","get_BorderColor","get_BorderColor method [DirectShow]","get_BorderColor method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_bordercolor.htm
 tech.root: DirectShow
 ms.assetid: 2f2df219-6b82-41fa-b0a9-251cc54fe019

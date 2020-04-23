@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineGetDevCaps
 title: TSPI_lineGetDevCaps function (tspi.h)
-description: The TSPI_lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
+description: The TSPI_lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.helpviewer_keywords: ["TSPI_lineGetDevCaps","TSPI_lineGetDevCaps function [TAPI 2.2]","_tspi_tspi_linegetdevcaps","tspi.tspi_linegetdevcaps","tspi/TSPI_lineGetDevCaps"]
 old-location: tspi\tspi_linegetdevcaps.htm
 tech.root: Tapi
 ms.assetid: 6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2

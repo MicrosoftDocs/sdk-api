@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC
 title: DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC
-description: Describes a DirectML operator that performs the linear dequantize function on every element in InputTensor with respect to its corresponding element in ScaleTensor and ZeroPointTensor, f(input, scale, zero_point) = (input - zero_point) * scale.
+description: Describes a DirectML operator that performs the linear dequantize function on every element in InputTensor with respect to its corresponding element in ScaleTensor and ZeroPointTensor, f(input, scale, zero_point) = (input - zero_point) * scale.helpviewer_keywords: ["DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC","DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC structure","direct3d12.dml_element_wise_dequantize_linear_operator_desc","directml/DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_dequantize_linear_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 474CB378-3EFC-414F-B75F-D41577D0787D

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmActionEmail2
 title: IFsrmActionEmail2 (fsrm.h)
-description: Used to limit the number of expired files listed in the email notification.
+description: Used to limit the number of expired files listed in the email notification.helpviewer_keywords: ["IFsrmActionEmail2","IFsrmActionEmail2 interface [File Server Resource Manager]","IFsrmActionEmail2 interface [File Server Resource Manager]","described","fs.ifsrmactionemail2","fsrm.ifsrmactionemail2","fsrm/IFsrmActionEmail2"]
 old-location: fsrm\ifsrmactionemail2.htm
 tech.root: fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230

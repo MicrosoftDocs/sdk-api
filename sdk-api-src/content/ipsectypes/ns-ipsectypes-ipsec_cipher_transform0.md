@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM0_
 title: IPSEC_CIPHER_TRANSFORM0 (ipsectypes.h)
 description: Is used to store encryption specific information for an SA transform in an IPsec quick mode policy.
+helpviewer_keywords: ["IPSEC_CIPHER_TRANSFORM0","IPSEC_CIPHER_TRANSFORM0 structure [Filtering]","IPSEC_CIPHER_TRANSFORM_ID_AES_128","IPSEC_CIPHER_TRANSFORM_ID_AES_192","IPSEC_CIPHER_TRANSFORM_ID_AES_256","IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES","IPSEC_CIPHER_TRANSFORM_ID_CBC_DES","IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_128","IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_192","IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_256","fwp.ipsec_cipher_transform0_struct","ipsectypes/IPSEC_CIPHER_TRANSFORM0"]
 old-location: fwp\ipsec_cipher_transform0_struct.htm
 tech.root: fwp
 ms.assetid: d8a9515a-943b-4f00-bfa9-948a9da9c060
@@ -59,7 +60,7 @@ The <b>IPSEC_CIPHER_TRANSFORM0</b> structure is used to store encryption specifi
 
 ### -field cipherTransformId
 
-The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)a>.
+The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0).
 
 Possible values:
 
@@ -193,7 +194,7 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 
-[IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)a>
+[IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)
 
 
 

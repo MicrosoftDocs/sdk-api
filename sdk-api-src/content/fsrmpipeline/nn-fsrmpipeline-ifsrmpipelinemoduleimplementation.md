@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleImplementation
 title: IFsrmPipelineModuleImplementation (fsrmpipeline.h)
-description: Abstract interface for IFsrmClassifierModuleImplementation and IFsrmStorageModuleImplementation.
+description: Abstract interface for IFsrmClassifierModuleImplementation and IFsrmStorageModuleImplementation.helpviewer_keywords: ["IFsrmPipelineModuleImplementation","IFsrmPipelineModuleImplementation interface [File Server Resource Manager]","IFsrmPipelineModuleImplementation interface [File Server Resource Manager]","described","fs.ifsrmpipelinemoduleimplementation","fsrm.ifsrmpipelinemoduleimplementation","fsrm/IFsrmPipelineModuleImplementation"]
 old-location: fsrm\ifsrmpipelinemoduleimplementation.htm
 tech.root: fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7

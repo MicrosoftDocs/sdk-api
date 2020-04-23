@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDeskBandInfo.GetDefaultBandWidth
 title: IDeskBandInfo::GetDefaultBandWidth (shobjidl_core.h)
-description: Gets the band width that the bandsite initially uses to set the default width when the band is added.
+description: Gets the band width that the bandsite initially uses to set the default width when the band is added.helpviewer_keywords: ["DBIF_VIEWMODE_FLOATING","DBIF_VIEWMODE_NORMAL","DBIF_VIEWMODE_TRANSPARENT","DBIF_VIEWMODE_VERTICAL","GetDefaultBandWidth","GetDefaultBandWidth method [Windows Shell]","GetDefaultBandWidth method [Windows Shell]","IDeskBandInfo interface","IDeskBandInfo interface [Windows Shell]","GetDefaultBandWidth method","IDeskBandInfo.GetDefaultBandWidth","IDeskBandInfo::GetDefaultBandWidth","_shell_IDeskBandInfo_GetDefaultBandWidth","shell.IDeskBandInfo_GetDefaultBandWidth","shobjidl_core/IDeskBandInfo::GetDefaultBandWidth"]
 old-location: shell\IDeskBandInfo_GetDefaultBandWidth.htm
 tech.root: shell
 ms.assetid: 2a900f9d-4727-4279-867d-ec4ed17cd374

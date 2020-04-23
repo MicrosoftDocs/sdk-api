@@ -1,7 +1,7 @@
 ---
 UID: NE:iwstdec._AM_WST_STATE
 title: AM_WST_STATE (iwstdec.h)
-description: The AM_WST_STATE enumeration specifies whether WST closed captioning is enabled or disabled.
+description: The AM_WST_STATE enumeration specifies whether WST closed captioning is enabled or disabled.helpviewer_keywords: ["*PAM_WST_STATE","AM_WST_STATE","AM_WST_STATE","AM_WST_STATE enumeration [DirectShow]","AM_WST_STATEEnumeration","AM_WST_STATE_Off","AM_WST_STATE_On","PAM_WST_STATE","PAM_WST_STATE enumeration pointer [DirectShow]","dshow.am_wst_state","iwstdec/AM_WST_STATE","iwstdec/AM_WST_STATE_Off","iwstdec/AM_WST_STATE_On","iwstdec/PAM_WST_STATE"]
 old-location: dshow\am_wst_state.htm
 tech.root: DirectShow
 ms.assetid: b6548144-7e18-4d5d-9243-51eb7db9821b

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordCountOfDescriptors
 title: IISDB_BIT::GetRecordCountOfDescriptors (dvbsiparser.h)
-description: Returns the number of descriptors for subtables in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+description: Returns the number of descriptors for subtables in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).helpviewer_keywords: ["GetRecordCountOfDescriptors","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","IISDB_BIT interface","IISDB_BIT interface [Microsoft TV Technologies]","GetRecordCountOfDescriptors method","IISDB_BIT.GetRecordCountOfDescriptors","IISDB_BIT::GetRecordCountOfDescriptors","dvbsiparser/IISDB_BIT::GetRecordCountOfDescriptors","mstv.iisdb_bit_getrecordcountofdescriptors"]
 old-location: mstv\iisdb_bit_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 08df6f74-dbeb-4d32-8b0f-4ec88d35ff36

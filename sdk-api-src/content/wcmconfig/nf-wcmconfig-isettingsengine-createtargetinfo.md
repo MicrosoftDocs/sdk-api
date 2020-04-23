@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateTargetInfo
 title: ISettingsEngine::CreateTargetInfo (wcmconfig.h)
-description: Creates an empty target.
+description: Creates an empty target.helpviewer_keywords: ["CreateTargetInfo","CreateTargetInfo method [SMI]","CreateTargetInfo method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","CreateTargetInfo method","ISettingsEngine.CreateTargetInfo","ISettingsEngine::CreateTargetInfo","smi.isettingsengine_createtargetinfo","wcmconfig/ISettingsEngine::CreateTargetInfo"]
 old-location: smi\isettingsengine_createtargetinfo.htm
 tech.root: SMI
 ms.assetid: f3d31643-c606-4fc1-96a8-cf5cb26bcf3f

@@ -1,7 +1,7 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCacheCallBack.PurgeProgress
 title: IEmptyVolumeCacheCallBack::PurgeProgress (emptyvc.h)
-description: Called periodically by a disk cleanup handler to update the disk cleanup manager on the progress of a purge of deletable files.
+description: Called periodically by a disk cleanup handler to update the disk cleanup manager on the progress of a purge of deletable files.helpviewer_keywords: ["EVCCBF_LASTNOTIFICATION","IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features]","PurgeProgress method","IEmptyVolumeCacheCallBack.PurgeProgress","IEmptyVolumeCacheCallBack::PurgeProgress","PurgeProgress","PurgeProgress method [Legacy Windows Environment Features]","PurgeProgress method [Legacy Windows Environment Features]","IEmptyVolumeCacheCallBack interface","_win32_IEmptyVolumeCacheCallBack_PurgeProgress","emptyvc/IEmptyVolumeCacheCallBack::PurgeProgress","lwef.iemptyvolumecachecallback_purgeprogress","shell.iemptyvolumecachecallback_purgeprogress"]
 old-location: lwef\iemptyvolumecachecallback_purgeprogress.htm
 tech.root: lwef
 ms.assetid: 96b97919-9b3b-418e-a76a-a2e8aad453b9

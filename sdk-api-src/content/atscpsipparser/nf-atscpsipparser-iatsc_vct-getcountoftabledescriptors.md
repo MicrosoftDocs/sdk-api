@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetCountOfTableDescriptors
 title: IATSC_VCT::GetCountOfTableDescriptors (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCountOfTableDescriptors","GetCountOfTableDescriptors method [Microsoft TV Technologies]","GetCountOfTableDescriptors method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetCountOfTableDescriptors method","IATSC_VCT.GetCountOfTableDescriptors","IATSC_VCT::GetCountOfTableDescriptors","IATSC_VCTGetCountOfTableDescriptors","atscpsipparser/IATSC_VCT::GetCountOfTableDescriptors","mstv.iatsc_vct_getcountoftabledescriptors"]
 old-location: mstv\iatsc_vct_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 6930490f-235f-40d5-846d-ae9a075c82cc

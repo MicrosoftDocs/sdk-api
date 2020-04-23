@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IkeextSaEnum1
 title: IkeextSaEnum1 function (fwpmu.h)
 description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
+helpviewer_keywords: ["IkeextSaEnum1","IkeextSaEnum1 function [Filtering]","fwp.ikeextsaenum1","fwpmu/IkeextSaEnum1"]
 old-location: fwp\ikeextsaenum1.htm
 tech.root: fwp
 ms.assetid: 245448b0-f7bb-4890-80c0-04ddc90c96f2
@@ -80,7 +81,7 @@ Number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: [IKEEXT_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details1)a>***</b>
+Type: [IKEEXT_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details1)***</b>
 
 Addresses of the enumeration entries.
 
@@ -169,7 +170,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)a>
+[IKEEXT_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details0)
 
 
 

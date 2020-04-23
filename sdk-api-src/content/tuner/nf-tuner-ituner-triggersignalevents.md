@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuner.TriggerSignalEvents
 title: ITuner::TriggerSignalEvents (tuner.h)
-description: The TriggerSignalEvents method enables the tuner to raise an event when the status of the signal changes.
+description: The TriggerSignalEvents method enables the tuner to raise an event when the status of the signal changes.helpviewer_keywords: ["ITuner interface [Microsoft TV Technologies]","TriggerSignalEvents method","ITuner.TriggerSignalEvents","ITuner::TriggerSignalEvents","ITunerTriggerSignalEvents","TriggerSignalEvents","TriggerSignalEvents method [Microsoft TV Technologies]","TriggerSignalEvents method [Microsoft TV Technologies]","ITuner interface","mstv.ituner_triggersignalevents","tuner/ITuner::TriggerSignalEvents"]
 old-location: mstv\ituner_triggersignalevents.htm
 tech.root: mstv
 ms.assetid: 9cff8ee2-d474-4ea5-a284-608eb0288c9f

@@ -2,6 +2,7 @@
 UID: NN:casetup.ICertificateEnrollmentServerSetup
 title: ICertificateEnrollmentServerSetup (casetup.h)
 description: The ICertificateEnrollmentServerSetup interface represents the Certificate Enrollment Web Service (CES) within Active Directory Certificate Services (ADCS).
+helpviewer_keywords: ["ICertificateEnrollmentServerSetup","ICertificateEnrollmentServerSetup interface [Security]","ICertificateEnrollmentServerSetup interface [Security]","described","casetup/ICertificateEnrollmentServerSetup","security.icertificateenrollmentserversetup"]
 old-location: security\icertificateenrollmentserversetup.htm
 tech.root: SecCrypto
 ms.assetid: B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE
@@ -80,7 +81,7 @@ The <b>ICertificateEnrollmentServerSetup</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
+Retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
 
 </td>
 </tr>
@@ -116,7 +117,7 @@ Specifies user account information for the application pool in which CES runs.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
-Specifies a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
+Specifies a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the CES configuration.
 
 </td>
 </tr>

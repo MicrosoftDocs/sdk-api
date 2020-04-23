@@ -2,6 +2,7 @@
 UID: NF:msrdc.ISimilarityTraitsMapping.CreateView
 title: ISimilarityTraitsMapping::CreateView (msrdc.h)
 description: Maps a view of the file mapping for a similarity traits table file.
+helpviewer_keywords: ["CreateView","CreateView method [Remote Differential Compression]","CreateView method [Remote Differential Compression]","ISimilarityTraitsMapping interface","ISimilarityTraitsMapping interface [Remote Differential Compression]","CreateView method","ISimilarityTraitsMapping.CreateView","ISimilarityTraitsMapping::CreateView","fs.isimilaritytraitsmapping_createview","msrdc/ISimilarityTraitsMapping::CreateView","rdc.isimilaritytraitsmapping_createview"]
 old-location: rdc\isimilaritytraitsmapping_createview.htm
 tech.root: rdc
 ms.assetid: 222b3682-8ccc-4c52-858a-ad4ac8a65add
@@ -65,7 +66,7 @@ Minimum number of pages of the file mapping to map to the view.
 ### -param accessMode [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdcmappingaccessmode">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
+<a href="/windows/win32/api/msrdc/ne-msrdc-rdcmappingaccessmode">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
 
 
 ### -param mappedView [out]

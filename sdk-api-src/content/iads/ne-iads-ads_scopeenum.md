@@ -2,6 +2,7 @@
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0021
 title: ADS_SCOPEENUM (iads.h)
 description: Specifies the scope of a directory search.
+helpviewer_keywords: ["ADS_SCOPEENUM","ADS_SCOPEENUM enumeration [ADSI]","ADS_SCOPE_BASE","ADS_SCOPE_ONELEVEL","ADS_SCOPE_SUBTREE","_ds_ads_scopeenum","adsi.ads__scopeenum","adsi.ads_scopeenum","iads/ADS_SCOPEENUM","iads/ADS_SCOPE_BASE","iads/ADS_SCOPE_ONELEVEL","iads/ADS_SCOPE_SUBTREE"]
 old-location: adsi\ads_scopeenum.htm
 tech.root: adsi
 ms.assetid: 403e45fa-bcd6-4422-9111-e9ca9859550a
@@ -83,7 +84,7 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 #### Examples
 
-Search scope is one of the search preferences clients can specify. The following code example shows how to accomplish this using the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure, together with the elements defined in the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> and this enumeration.
+Search scope is one of the search preferences clients can specify. The following code example shows how to accomplish this using the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure, together with the elements defined in the  <a href="/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> and this enumeration.
 
 
 ```cpp
@@ -106,7 +107,7 @@ prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a>
 
 
 

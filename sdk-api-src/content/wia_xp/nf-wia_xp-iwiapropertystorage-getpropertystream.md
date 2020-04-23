@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetPropertyStream
 title: IWiaPropertyStorage::GetPropertyStream (wia_xp.h)
-description: The IWiaPropertyStorage::GetPropertyStream method retrieves the property stream of an item.
+description: The IWiaPropertyStorage::GetPropertyStream method retrieves the property stream of an item.helpviewer_keywords: ["GetPropertyStream","GetPropertyStream method [WIA]","GetPropertyStream method [WIA]","IWiaPropertyStorage interface","IWiaPropertyStorage interface [WIA]","GetPropertyStream method","IWiaPropertyStorage.GetPropertyStream","IWiaPropertyStorage::GetPropertyStream","_wia_IWiaPropertyStorage_GetPropertyStream","wia._wia_IWiaPropertyStorage_GetPropertyStream","wia_xp/IWiaPropertyStorage::GetPropertyStream"]
 old-location: wia\_wia_IWiaPropertyStorage_GetPropertyStream.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertystream.htm

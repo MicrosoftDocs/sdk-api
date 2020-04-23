@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.LoadGraphicsPipeline
 title: ID3D12PipelineLibrary::LoadGraphicsPipeline (d3d12.h)
-description: Retrieves the requested PSO from the library.
+description: Retrieves the requested PSO from the library.helpviewer_keywords: ["ID3D12PipelineLibrary interface","LoadGraphicsPipeline method","ID3D12PipelineLibrary.LoadGraphicsPipeline","ID3D12PipelineLibrary::LoadGraphicsPipeline","LoadGraphicsPipeline","LoadGraphicsPipeline method","LoadGraphicsPipeline method","ID3D12PipelineLibrary interface","d3d12/ID3D12PipelineLibrary::LoadGraphicsPipeline","direct3d12.id3d12pipelinelibrary_loadgraphicspipeline"]
 old-location: direct3d12\id3d12pipelinelibrary_loadgraphicspipeline.htm
 tech.root: direct3d12
 ms.assetid: 1DDD1348-2039-4BF4-9ED8-7AA087D0B654

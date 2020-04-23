@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectImpl
 title: IMILBitmapEffectImpl (mileffects.h)
-description: Exposes methods that define an an out IMILBitmapEffect object.
+description: Exposes methods that define an an out IMILBitmapEffect object.helpviewer_keywords: ["IMILBitmapEffectImpl","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectimpl","mileffects/IMILBitmapEffectImpl","wibe._wibe_imilbitmapeffectimpl"]
 old-location: wibe\_wibe_imilbitmapeffectimpl.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\imilbitmapeffectimpl.htm

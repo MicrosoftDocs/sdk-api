@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumContextProps.Clone
 title: IEnumContextProps::Clone (objidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumContextProps interface","IEnumContextProps interface [COM]","Clone method","IEnumContextProps.Clone","IEnumContextProps::Clone","_com_ienumcontextprops_clone","com.ienumcontextprops_clone","objidlbase/IEnumContextProps::Clone"]
 old-location: com\ienumcontextprops_clone.htm
 tech.root: com
 ms.assetid: 0bf7f7da-9e40-49bd-9bd0-d2fcdfc2f517

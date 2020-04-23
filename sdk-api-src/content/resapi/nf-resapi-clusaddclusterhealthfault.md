@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusAddClusterHealthFault
 title: ClusAddClusterHealthFault function (resapi.h)
-description: TBD.
+description: TBD.helpviewer_keywords: ["ClusAddClusterHealthFault","ClusAddClusterHealthFault function [Failover Cluster]","mscs.clusaddclusterhealthfault","resapi/ClusAddClusterHealthFault"]
 old-location: mscs\clusaddclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111

@@ -2,6 +2,7 @@
 UID: NF:ddpbackup.IDedupBackupSupport.RestoreFiles
 title: IDedupBackupSupport::RestoreFiles (ddpbackup.h)
 description: Reconstructs a set of files from a backup store that contains the fully optimized version of the files (reparse points) and the Data Deduplication store.
+helpviewer_keywords: ["DDP_E_FILE_CORRUPT","DDP_E_FILE_SYSTEM_CORRUPT","DDP_E_INVALID_DATA","DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS","DDP_E_NOT_FOUND","DDP_E_PATH_NOT_FOUND","DDP_E_UNEXPECTED","DDP_E_VOLUME_DEDUP_DISABLED","DDP_E_VOLUME_UNSUPPORTED","IDedupBackupSupport interface [Data Deduplication API]","RestoreFiles method","IDedupBackupSupport.RestoreFiles","IDedupBackupSupport::RestoreFiles","RestoreFiles","RestoreFiles method [Data Deduplication API]","RestoreFiles method [Data Deduplication API]","IDedupBackupSupport interface","S_FALSE","S_OK","ddpbackup/IDedupBackupSupport::RestoreFiles","dedup.idedupbackupsupport_restorefile","dedup.idedupbackupsupport_restorefiles"]
 old-location: dedup\idedupbackupsupport_restorefiles.htm
 tech.root: dedup
 ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
@@ -99,7 +100,7 @@ For each file, this parameter contains the full path from the root directory of 
 
 This parameter must be <b>DEDUP_RECONSTRUCT_UNOPTIMIZED</b> on input. For more 
       information, see the 
-      <a href="https://docs.microsoft.com/windows/win32/api/ddpbackup/ne-ddpbackup-dedup_backup_support_param_type">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a> 
+      <a href="/windows/win32/api/ddpbackup/ne-ddpbackup-dedup_backup_support_param_type">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a> 
        enumeration.
 
 
@@ -217,7 +218,7 @@ The <i>Store</i> parameter is required because the restore engine (implemented b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddpbackup/ne-ddpbackup-dedup_backup_support_param_type">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a>
+<a href="/windows/win32/api/ddpbackup/ne-ddpbackup-dedup_backup_support_param_type">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a>
 
 
 

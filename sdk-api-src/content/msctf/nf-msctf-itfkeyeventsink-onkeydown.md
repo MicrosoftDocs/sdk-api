@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnKeyDown
 title: ITfKeyEventSink::OnKeyDown (msctf.h)
-description: ITfKeyEventSink::OnKeyDown method
+description: ITfKeyEventSink::OnKeyDown methodhelpviewer_keywords: ["ITfKeyEventSink interface [Text Services Framework]","OnKeyDown method","ITfKeyEventSink.OnKeyDown","ITfKeyEventSink::OnKeyDown","OnKeyDown","OnKeyDown method [Text Services Framework]","OnKeyDown method [Text Services Framework]","ITfKeyEventSink interface","_tsf_itfkeyeventsink_onkeydown_ref","msctf/ITfKeyEventSink::OnKeyDown","tsf.itfkeyeventsink_onkeydown"]
 old-location: tsf\itfkeyeventsink_onkeydown.htm
 tech.root: TSF
 ms.assetid: aceeb367-0963-484b-afae-26a2c4fb24c7

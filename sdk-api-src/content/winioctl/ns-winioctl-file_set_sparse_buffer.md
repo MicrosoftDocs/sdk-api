@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._FILE_SET_SPARSE_BUFFER
 title: FILE_SET_SPARSE_BUFFER
-description: Specifies the sparse state to be set.
+description: Specifies the sparse state to be set.helpviewer_keywords: ["*PFILE_SET_SPARSE_BUFFER","FILE_SET_SPARSE_BUFFER","FILE_SET_SPARSE_BUFFER structure [Files]","PFILE_SET_SPARSE_BUFFER","PFILE_SET_SPARSE_BUFFER structure pointer [Files]","fs.file_set_sparse_buffer","winioctl/FILE_SET_SPARSE_BUFFER","winioctl/PFILE_SET_SPARSE_BUFFER"]
 old-location: fs\file_set_sparse_buffer.htm
 tech.root: FileIO
 ms.assetid: f9c24156-bcd6-423e-b055-18651f4e185e

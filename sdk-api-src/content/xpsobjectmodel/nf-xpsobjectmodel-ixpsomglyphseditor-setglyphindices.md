@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphIndices
 title: IXpsOMGlyphsEditor::SetGlyphIndices (xpsobjectmodel.h)
 description: Sets an XPS_GLYPH_INDEX structure array that describes which glyph indices are to be used in the font.
+helpviewer_keywords: ["IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","SetGlyphIndices method","IXpsOMGlyphsEditor.SetGlyphIndices","IXpsOMGlyphsEditor::SetGlyphIndices","SetGlyphIndices","SetGlyphIndices method [XPS Documents and Packaging]","SetGlyphIndices method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","xps.ixpsomglyphseditor_setglyphindices","xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphIndices"]
 old-location: xps\ixpsomglyphseditor_setglyphindices.htm
 tech.root: printdocs
 ms.assetid: a95aaf48-9a55-4a62-b8e1-7b8d077f1b2e
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure array that describes which glyph indices are  to be used in the font.
+Sets an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure array that describes which glyph indices are  to be used in the font.
 
 
 ## -parameters
@@ -59,12 +60,12 @@ Sets an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-
 
 ### -param indexCount [in]
 
-The number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures in the array that is referenced by <i>glyphIndices</i>. The value of 0 clears the property.
+The number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures in the array that is referenced by <i>glyphIndices</i>. The value of 0 clears the property.
 
 
 ### -param glyphIndices [in]
 
-An array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that contain the glyph indices. If <i>indexCount</i> is 0, this parameter is ignored.
+An array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that contain the glyph indices. If <i>indexCount</i> is 0, this parameter is ignored.
 
 
 ## -returns
@@ -96,7 +97,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <b>index</b> field of one or more <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures has a value that  is not valid. The <b>index</b> field must have a value between and including –1 and 65535 (0xFFFF).
+The <b>index</b> field of one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures has a value that  is not valid. The <b>index</b> field must have a value between and including –1 and 65535 (0xFFFF).
 
 </td>
 </tr>
@@ -118,7 +119,7 @@ The <b>index</b> field of one or more <a href="https://docs.microsoft.com/window
 </dl>
 </td>
 <td width="60%">
-The <b>advanceWidth</b>, <b>horizontalOffset</b>, or <b>verticalOffset</b>  field of one or more <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures has a floating-point value that is not valid. 
+The <b>advanceWidth</b>, <b>horizontalOffset</b>, or <b>verticalOffset</b>  field of one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures has a floating-point value that is not valid. 
 
 </td>
 </tr>
@@ -129,7 +130,7 @@ The <b>advanceWidth</b>, <b>horizontalOffset</b>, or <b>verticalOffset</b>  fiel
 </dl>
 </td>
 <td width="60%">
-The <b>advanceWidth</b> field of one or more <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures has a value that  is not valid. The <b>advanceWidth</b> field must have a non-negative value or a value of  exactly –1.0; a negative value that is not exactly –1.0 is not valid.
+The <b>advanceWidth</b> field of one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures has a value that  is not valid. The <b>advanceWidth</b> field must have a non-negative value or a value of  exactly –1.0; a negative value that is not exactly –1.0 is not valid.
 
 </td>
 </tr>
@@ -143,7 +144,7 @@ The <b>advanceWidth</b> field of one or more <a href="https://docs.microsoft.com
 
 
 
-  The glyph indices that are passed in <i>glyphIndices</i> override the default cmap mapping from the <b>UnicodeString</b> property to the glyph index. Each <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure also has advance width and vertical and horizontal offset information.
+  The glyph indices that are passed in <i>glyphIndices</i> override the default cmap mapping from the <b>UnicodeString</b> property to the glyph index. Each <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure also has advance width and vertical and horizontal offset information.
 
 
 
@@ -165,7 +166,7 @@ The <b>advanceWidth</b> field of one or more <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
  
 
  

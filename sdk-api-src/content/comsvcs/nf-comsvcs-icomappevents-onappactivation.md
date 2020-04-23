@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComAppEvents.OnAppActivation
 title: IComAppEvents::OnAppActivation (comsvcs.h)
 description: Generated when an application server starts.
+helpviewer_keywords: ["IComAppEvents interface [COM+]","OnAppActivation method","IComAppEvents.OnAppActivation","IComAppEvents::OnAppActivation","OnAppActivation","OnAppActivation method [COM+]","OnAppActivation method [COM+]","IComAppEvents interface","_dtc_IComAppEvents_OnAppActivation","comsvcs/IComAppEvents::OnAppActivation","cos.icomappevents_onappactivation"]
 old-location: cos\icomappevents_onappactivation.htm
 tech.root: cossdk
 ms.assetid: 4561d15a-6c1b-48e7-9697-87dfb51f877c
@@ -59,7 +60,7 @@ Generated when an application server starts.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]

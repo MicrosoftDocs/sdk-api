@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserType
 title: IOleObject::GetUserType (oleidl.h)
-description: Retrieves the user-type name of an object for display in user-interface elements such as menus, list boxes, and dialog boxes.
+description: Retrieves the user-type name of an object for display in user-interface elements such as menus, list boxes, and dialog boxes.helpviewer_keywords: ["GetUserType","GetUserType method [COM]","GetUserType method [COM]","IOleObject interface","IOleObject interface [COM]","GetUserType method","IOleObject.GetUserType","IOleObject::GetUserType","_ole_ioleobject_getusertype","com.ioleobject_getusertype","oleidl/IOleObject::GetUserType"]
 old-location: com\ioleobject_getusertype.htm
 tech.root: com
 ms.assetid: 8ffffa01-d118-4955-84d1-a4659ba9ddc9

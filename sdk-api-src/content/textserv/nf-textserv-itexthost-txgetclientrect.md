@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxGetClientRect
 title: ITextHost::TxGetClientRect (textserv.h)
-description: Retrieves the client coordinates of the text host's client area.
+description: Retrieves the client coordinates of the text host's client area.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetClientRect method","ITextHost.TxGetClientRect","ITextHost::TxGetClientRect","TxGetClientRect","TxGetClientRect method [Windows Controls]","TxGetClientRect method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetClientRect","_win32_ITextHost_TxGetClientRect_cpp","controls.ITextHost_TxGetClientRect","controls._win32_ITextHost_TxGetClientRect","textserv/ITextHost::TxGetClientRect"]
 old-location: controls\ITextHost_TxGetClientRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetclientrect.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:realtimeapiset.QueryAuxiliaryCounterFrequency
 title: QueryAuxiliaryCounterFrequency function (realtimeapiset.h)
-description: Queries the auxiliary counter frequency.
+description: Queries the auxiliary counter frequency.helpviewer_keywords: ["QueryAuxiliaryCounterFrequency","QueryAuxiliaryCounterFrequency function","base.queryauxiliarycounterfrequency","realtimeapiset/QueryAuxiliaryCounterFrequency"]
 old-location: base\queryauxiliarycounterfrequency.htm
 tech.root: SysInfo
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A

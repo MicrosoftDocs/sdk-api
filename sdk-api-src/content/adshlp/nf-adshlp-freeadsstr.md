@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.FreeADsStr
 title: FreeADsStr function (adshlp.h)
-description: Frees the memory of a string allocated by AllocADsStr or ReallocADsStr.
+description: Frees the memory of a string allocated by AllocADsStr or ReallocADsStr.helpviewer_keywords: ["FreeADsStr","FreeADsStr function [ADSI]","_ds_freeadsstr","adshlp/FreeADsStr","adsi.freeadsstr"]
 old-location: adsi\freeadsstr.htm
 tech.root: adsi
 ms.assetid: 9c8eaac2-1fb4-47f9-8f60-6896073012aa

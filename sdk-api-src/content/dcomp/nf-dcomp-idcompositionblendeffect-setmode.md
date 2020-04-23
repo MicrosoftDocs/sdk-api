@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionBlendEffect.SetMode
 title: IDCompositionBlendEffect::SetMode (dcomp.h)
-description: Sets the blend mode to use when the blend effect combines the two images.
+description: Sets the blend mode to use when the blend effect combines the two images.helpviewer_keywords: ["IDCompositionBlendEffect interface [DirectComposition]","SetMode method","IDCompositionBlendEffect.SetMode","IDCompositionBlendEffect::SetMode","SetMode","SetMode method [DirectComposition]","SetMode method [DirectComposition]","IDCompositionBlendEffect interface","dcomp/IDCompositionBlendEffect::SetMode","directcomp.idcompositionblendeffect_setmode"]
 old-location: directcomp\idcompositionblendeffect_setmode.htm
 tech.root: directcomp
 ms.assetid: 61D64543-565B-4E64-B20E-03B1CD0F8FCA

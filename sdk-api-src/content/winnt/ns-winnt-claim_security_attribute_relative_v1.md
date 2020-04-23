@@ -2,6 +2,7 @@
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 title: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 (winnt.h)
 description: Defines a resource attribute that is defined in continuous memory for persistence within a serialized security descriptor.
+helpviewer_keywords: ["*PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1","CLAIM_SECURITY_ATTRIBUTE_DISABLED","CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT","CLAIM_SECURITY_ATTRIBUTE_MANDATORY","CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE","CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1","CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure [Security]","CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64","CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING","CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING","CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64","CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY","CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE","PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1","PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure pointer [Security]","_CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1","security.claim_security_attribute_relative_v1","winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1","winnt/PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"]
 old-location: security\claim_security_attribute_relative_v1.htm
 tech.root: SecAuthZ
 ms.assetid: 7516CFA6-3726-4004-854E-CD07347898E5
@@ -111,7 +112,7 @@ The <b>Values</b> member refers to an array of offsets to Unicode character stri
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
@@ -235,5 +236,5 @@ Pointer to an array of <b>ValueCount</b> members where each member is an offset 
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 

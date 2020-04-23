@@ -1,7 +1,7 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRendererCallback
 title: IWTSBitmapRendererCallback (tsvirtualchannels.h)
-description: A dynamic virtual channel plug-in implements this interface to be notified when the size of the rendering area changes.
+description: A dynamic virtual channel plug-in implements this interface to be notified when the size of the rendering area changes.helpviewer_keywords: ["IWTSBitmapRendererCallback","IWTSBitmapRendererCallback interface [Remote Desktop Services]","IWTSBitmapRendererCallback interface [Remote Desktop Services]","described","termserv.iwtsbitmaprenderercallback","tsvirtualchannels/IWTSBitmapRendererCallback"]
 old-location: termserv\iwtsbitmaprenderercallback.htm
 tech.root: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc

@@ -2,6 +2,7 @@
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_CURRENT_RECORD_FN
 title: PIBIO_STORAGE_GET_CURRENT_RECORD_FN (winbio_adapter.h)
 description: Retrieves the contents of the current record in the pipeline result set.
+helpviewer_keywords: ["PIBIO_STORAGE_GET_CURRENT_RECORD_FN","PIBIO_STORAGE_GET_CURRENT_RECORD_FN callback","StorageAdapterGetCurrentRecord","StorageAdapterGetCurrentRecord callback function [Windows Biometric Framework API]","secbiomet.storageadaptergetcurrentrecord","winbio_adapter/StorageAdapterGetCurrentRecord"]
 old-location: secbiomet\storageadaptergetcurrentrecord.htm
 tech.root: SecBioMet
 ms.assetid: a06550da-c6ea-44e5-b54f-8005bcbc0364
@@ -64,7 +65,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_ad
 
 ### -param RecordContents [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure that will receive the contents of the record.
+Pointer to a <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure that will receive the contents of the record.
 
 
 ## -returns

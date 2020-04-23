@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetRawInputBuffer
 title: GetRawInputBuffer function (winuser.h)
-description: Performs a buffered read of the raw input data.
+description: Performs a buffered read of the raw input data.helpviewer_keywords: ["GetRawInputBuffer","GetRawInputBuffer function [Keyboard and Mouse Input]","_win32_GetRawInputBuffer","_win32_getrawinputbuffer_cpp","inputdev.getrawinputbuffer","winui._win32_getrawinputbuffer","winuser/GetRawInputBuffer"]
 old-location: inputdev\getrawinputbuffer.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputbuffer.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.MovePrevious
 title: IOpcSignatureCustomObjectEnumerator::MovePrevious (msopc.h)
-description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObjectinterface pointer.
+description: Moves the current position of the enumerator to the previous IOpcSignatureCustomObjectinterface pointer.helpviewer_keywords: ["IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcSignatureCustomObjectEnumerator.MovePrevious","IOpcSignatureCustomObjectEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcSignatureCustomObjectEnumerator interface","msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious","opc.iopcsignaturecustomobjectenumerator_moveprevious"]
 old-location: opc\iopcsignaturecustomobjectenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: 1143280b-4c92-44cf-8e2d-acd26527f264

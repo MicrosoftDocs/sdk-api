@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager2
 title: IWMDeviceManager2 (mswmdm.h)
-description: The IWMDeviceManager2 interface extends IWMDeviceManager interface.
+description: The IWMDeviceManager2 interface extends IWMDeviceManager interface.helpviewer_keywords: ["IWMDeviceManager2","IWMDeviceManager2 interface [windows Media Device Manager]","IWMDeviceManager2 interface [windows Media Device Manager]","described","IWMDeviceManager2Interface","mswmdm/IWMDeviceManager2","wmdm.iwmdevicemanager2"]
 old-location: wmdm\iwmdevicemanager2.htm
 tech.root: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.GetDefaultFileSystemForImport
 title: IFileSystemImage::GetDefaultFileSystemForImport (imapi2fs.h)
-description: Retrieves the file system to import by default.
+description: Retrieves the file system to import by default.helpviewer_keywords: ["GetDefaultFileSystemForImport","GetDefaultFileSystemForImport method [IMAPI]","GetDefaultFileSystemForImport method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","GetDefaultFileSystemForImport method","IFileSystemImage.GetDefaultFileSystemForImport","IFileSystemImage::GetDefaultFileSystemForImport","imapi.ifilesystemimage_getdefaultfilesystemforimport","imapi2fs/IFileSystemImage::GetDefaultFileSystemForImport"]
 old-location: imapi\ifilesystemimage_getdefaultfilesystemforimport.htm
 tech.root: imapi
 ms.assetid: bbac5b93-669f-45ea-9a3d-e2dd7f8bdcf6

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.Delete
 title: IDataCollectorSet::Delete (pla.h)
-description: Deletes the persisted copy of the data collector set if the set is not running.
+description: Deletes the persisted copy of the data collector set if the set is not running.helpviewer_keywords: ["Delete","Delete method [PLA]","Delete method [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","Delete method","IDataCollectorSet.Delete","IDataCollectorSet::Delete","base.idatacollectorset_delete","pla.idatacollectorset_delete","pla/IDataCollectorSet::Delete"]
 old-location: pla\idatacollectorset_delete.htm
 tech.root: PLA
 ms.assetid: 35e95d41-0d6c-428a-a167-6667275d4fb7

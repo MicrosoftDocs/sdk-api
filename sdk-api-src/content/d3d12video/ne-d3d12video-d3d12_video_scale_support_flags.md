@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_SCALE_SUPPORT_FLAGS
 title: D3D12_VIDEO_SCALE_SUPPORT_FLAGS
-description: Specifies the scaling capabilities of the video scaler.
+description: Specifies the scaling capabilities of the video scaler.helpviewer_keywords: ["D3D12_VIDEO_SCALE_SUPPORT_FLAGS","D3D12_VIDEO_SCALE_SUPPORT_FLAGS",""]
 tech.root: mf
 ms.assetid: 80535fbf-1159-4a7a-8452-5d2adf9363f0
 ms.date: 05/28/2019

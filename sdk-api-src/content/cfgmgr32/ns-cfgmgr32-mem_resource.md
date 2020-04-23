@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.Mem_Resource_s
 title: MEM_RESOURCE (cfgmgr32.h)
 description: The MEM_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PMEM_RESOURCE","MEM_RESOURCE","MEM_RESOURCE structure [Device and Driver Installation]","PMEM_RESOURCE","PMEM_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/MEM_RESOURCE","cfgmgr32/PMEM_RESOURCE","cfgmgrst_ab2f2f67-e38b-45b4-9b63-617d730f8cc8.xml","devinst.mem_resource"]
 old-location: devinst\mem_resource.htm
 tech.root: devinst
 ms.assetid: 42ecd736-abd3-4ac8-82bb-6bb69af1d96d
@@ -59,7 +60,7 @@ The MEM_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field MEM_Header
 
-A [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)a> structure.
+A [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) structure.
 
 
 ### -field MEM_Data
@@ -76,7 +77,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a> array.
+A [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range) array.
 
 
 ## -see-also
@@ -84,11 +85,11 @@ A [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr3
 
 
 
-[MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)a>
+[MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)
 
 
 
-[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)a>
+[MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)
  
 
  

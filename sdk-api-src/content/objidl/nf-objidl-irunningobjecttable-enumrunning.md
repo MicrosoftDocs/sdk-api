@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRunningObjectTable.EnumRunning
 title: IRunningObjectTable::EnumRunning (objidl.h)
-description: Creates and returns a pointer to an enumerator that can list the monikers of all the objects currently registered in the running object table (ROT).
+description: Creates and returns a pointer to an enumerator that can list the monikers of all the objects currently registered in the running object table (ROT).helpviewer_keywords: ["EnumRunning","EnumRunning method [COM]","EnumRunning method [COM]","IRunningObjectTable interface","IRunningObjectTable interface [COM]","EnumRunning method","IRunningObjectTable.EnumRunning","IRunningObjectTable::EnumRunning","_com_irunningobjecttable_enumrunning","com.irunningobjecttable_enumrunning","objidl/IRunningObjectTable::EnumRunning"]
 old-location: com\irunningobjecttable_enumrunning.htm
 tech.root: com
 ms.assetid: 09ff0d05-627b-4e47-8534-25cd8735c6e5

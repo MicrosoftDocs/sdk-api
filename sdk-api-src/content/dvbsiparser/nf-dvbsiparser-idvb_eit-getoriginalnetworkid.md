@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetOriginalNetworkId
 title: IDVB_EIT::GetOriginalNetworkId (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetOriginalNetworkId","GetOriginalNetworkId method [Microsoft TV Technologies]","GetOriginalNetworkId method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetOriginalNetworkId method","IDVB_EIT.GetOriginalNetworkId","IDVB_EIT::GetOriginalNetworkId","IDVB_EITGetOriginalNetworkId","dvbsiparser/IDVB_EIT::GetOriginalNetworkId","mstv.idvb_eit_getoriginalnetworkid"]
 old-location: mstv\idvb_eit_getoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: 8e477089-faef-4578-ac7f-fea7f1037dfc

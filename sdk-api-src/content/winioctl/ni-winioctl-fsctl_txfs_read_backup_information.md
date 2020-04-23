@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_READ_BACKUP_INFORMATION
 title: FSCTL_TXFS_READ_BACKUP_INFORMATION
-description: Returns Transactional NTFS (TxF) specific information for the specified file.
+description: Returns Transactional NTFS (TxF) specific information for the specified file.helpviewer_keywords: ["FSCTL_TXFS_READ_BACKUP_INFORMATION","FSCTL_TXFS_READ_BACKUP_INFORMATION control","FSCTL_TXFS_READ_BACKUP_INFORMATION control code [Files]","fs.fsctl_txfs_read_backup_information","winioctl/FSCTL_TXFS_READ_BACKUP_INFORMATION"]
 old-location: fs\fsctl_txfs_read_backup_information.htm
 tech.root: FileIO
 ms.assetid: 41c5df47-b815-47ef-bf37-d0b8030c5bfc

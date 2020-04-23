@@ -2,6 +2,7 @@
 UID: NF:lowlevelmonitorconfigurationapi.GetVCPFeatureAndVCPFeatureReply
 title: GetVCPFeatureAndVCPFeatureReply function (lowlevelmonitorconfigurationapi.h)
 description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
+helpviewer_keywords: ["GetVCPFeatureAndVCPFeatureReply","GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration]","lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply","monitor.getvcpfeatureandvcpfeaturereply"]
 old-location: monitor\getvcpfeatureandvcpfeaturereply.htm
 tech.root: Monitor
 ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
@@ -71,7 +72,7 @@ VCP code to query. The VCP codes are Include the VESA Monitor Control Command Se
 
 ### -param pvct [out]
 
-Receives the VCP code type, as a member of the <a href="https://docs.microsoft.com/windows/win32/api/lowlevelmonitorconfigurationapi/ne-lowlevelmonitorconfigurationapi-mc_vcp_code_type">MC_VCP_CODE_TYPE</a> enumeration. This parameter can be <b>NULL</b>.
+Receives the VCP code type, as a member of the <a href="/windows/win32/api/lowlevelmonitorconfigurationapi/ne-lowlevelmonitorconfigurationapi-mc_vcp_code_type">MC_VCP_CODE_TYPE</a> enumeration. This parameter can be <b>NULL</b>.
           
 
 

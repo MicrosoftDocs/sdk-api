@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.RangeFromChild
 title: ITextProvider::RangeFromChild (uiautomationcore.h)
-description: Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object.
+description: Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object.helpviewer_keywords: ["ITextProvider interface [Windows Accessibility]","RangeFromChild method","ITextProvider.RangeFromChild","ITextProvider::RangeFromChild","RangeFromChild","RangeFromChild method [Windows Accessibility]","RangeFromChild method [Windows Accessibility]","ITextProvider interface","uiauto.uiauto_ITextProvider_RangeFromChild","uiauto_ITextProvider_RangeFromChild","uiautomationcore/ITextProvider::RangeFromChild","winauto.uiauto_ITextProvider_RangeFromChild"]
 old-location: winauto\uiauto_ITextProvider_RangeFromChild.htm
 tech.root: WinAuto
 ms.assetid: b55ae687-44e1-499f-8341-0bbf960529fd

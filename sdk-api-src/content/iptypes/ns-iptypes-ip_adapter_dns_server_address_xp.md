@@ -1,7 +1,7 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_DNS_SERVER_ADDRESS_XP
 title: IP_ADAPTER_DNS_SERVER_ADDRESS_XP (iptypes.h)
-description: The IP_ADAPTER_DNS_SERVER_ADDRESS structure stores a single DNS server address in a linked list of DNS server addresses for a particular adapter.
+description: The IP_ADAPTER_DNS_SERVER_ADDRESS structure stores a single DNS server address in a linked list of DNS server addresses for a particular adapter.helpviewer_keywords: ["*PIP_ADAPTER_DNS_SERVER_ADDRESS","*PIP_ADAPTER_DNS_SERVER_ADDRESS_XP","IP_ADAPTER_DNS_SERVER_ADDRESS","IP_ADAPTER_DNS_SERVER_ADDRESS structure [IP Helper]","IP_ADAPTER_DNS_SERVER_ADDRESS_XP","PIP_ADAPTER_DNS_SERVER_ADDRESS","PIP_ADAPTER_DNS_SERVER_ADDRESS structure pointer [IP Helper]","_iphlp_ip_adapter_dns_server_address","iphlp.ip_adapter_dns_server_address","iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS","iptypes/PIP_ADAPTER_DNS_SERVER_ADDRESS"]
 old-location: iphlp\ip_adapter_dns_server_address.htm
 tech.root: IpHlp
 ms.assetid: 96855386-9010-40df-8260-16b43ad6646f

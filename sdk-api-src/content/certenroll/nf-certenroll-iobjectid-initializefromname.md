@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromName
 title: IObjectId::InitializeFromName (certenroll.h)
-description: Initializes the object from a CERTENROLL_OBJECTID enumeration value.
+description: Initializes the object from a CERTENROLL_OBJECTID enumeration value.helpviewer_keywords: ["IObjectId interface [Security]","InitializeFromName method","IObjectId.InitializeFromName","IObjectId::InitializeFromName","InitializeFromName","InitializeFromName method [Security]","InitializeFromName method [Security]","IObjectId interface","certenroll/IObjectId::InitializeFromName","security.iobjectid_initializefromname_method"]
 old-location: security\iobjectid_initializefromname_method.htm
 tech.root: seccertenroll
 ms.assetid: dce84308-aecc-4841-88da-e948313b90b3

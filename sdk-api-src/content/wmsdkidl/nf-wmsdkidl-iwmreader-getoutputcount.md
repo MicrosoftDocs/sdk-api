@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputCount
 title: IWMReader::GetOutputCount (wmsdkidl.h)
-description: The GetOutputCount method retrieves the number of uncompressed media streams that will be delivered for the file loaded in the reader.
+description: The GetOutputCount method retrieves the number of uncompressed media streams that will be delivered for the file loaded in the reader.helpviewer_keywords: ["GetOutputCount","GetOutputCount method [windows Media Format]","GetOutputCount method [windows Media Format]","IWMReader interface","IWMReader interface [windows Media Format]","GetOutputCount method","IWMReader.GetOutputCount","IWMReader::GetOutputCount","IWMReaderGetOutputCount","wmformat.iwmreader_getoutputcount","wmsdkidl/IWMReader::GetOutputCount"]
 old-location: wmformat\iwmreader_getoutputcount.htm
 tech.root: wmformat
 ms.assetid: 4f04fad9-a638-45c6-b924-50f57472dfe3

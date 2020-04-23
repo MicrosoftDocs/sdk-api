@@ -1,7 +1,7 @@
 ---
 UID: NF:sas.SendSAS
 title: SendSAS function (sas.h)
-description: Simulates a secure attention sequence (SAS).
+description: Simulates a secure attention sequence (SAS).helpviewer_keywords: ["SendSAS","SendSAS function [Security]","sas/SendSAS","security.sendsas"]
 old-location: security\sendsas.htm
 tech.root: SecAuthN
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65

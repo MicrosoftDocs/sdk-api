@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerSetResponseAttributes
 title: EapHostPeerSetResponseAttributes function (eappapis.h)
 description: Provides updated EAP authentication attributes to EAPHost.
+helpviewer_keywords: ["EapHostPeerSetResponseAttributes","EapHostPeerSetResponseAttributes function [EAPHost]","eaphost.eaphostpeersetresponseattributes","eappapis/EapHostPeerSetResponseAttributes"]
 old-location: eaphost\eaphostpeersetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: b8ce5510-f5ba-403c-8709-940ae58cd10d
@@ -69,7 +70,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value that specifies the action code for the next step the supplicant must take as a response.
+A pointer to an <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value that specifies the action code for the next step the supplicant must take as a response.
 
 
 ### -param ppEapError [out]
@@ -101,7 +102,7 @@ EapHostPeerSetResponseAttributes(session_id, &amp;eapAttributes, pEapOutput, ppE
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

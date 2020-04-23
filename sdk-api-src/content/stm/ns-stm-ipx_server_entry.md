@@ -1,7 +1,7 @@
 ---
 UID: NS:stm._IPX_SERVER_ENTRY
 title: IPX_SERVER_ENTRY (stm.h)
-description: The IPX_SERVER_ENTRY structure describes a particular IPX service.
+description: The IPX_SERVER_ENTRY structure describes a particular IPX service.helpviewer_keywords: ["*PIPX_SERVER_ENTRY","IPX_SERVER_ENTRY","IPX_SERVER_ENTRY structure [RAS]","PIPX_SERVER_ENTRY","PIPX_SERVER_ENTRY structure pointer [RAS]","_mpr_ipx_server_entry","rras.ipx_server_entry","stm/IPX_SERVER_ENTRY","stm/PIPX_SERVER_ENTRY"]
 old-location: rras\ipx_server_entry.htm
 tech.root: RRAS
 ms.assetid: 5b865c28-6a0e-4af3-a646-c1082b5c3ce5

@@ -2,6 +2,7 @@
 UID: NF:webservices.WsGetHeaderAttributes
 title: WsGetHeaderAttributes function (webservices.h)
 description: This function populates a ULONG parameter with the WS_HEADER_ATTRIBUTES from the header element on which the reader is positioned. The envelope version of the message is used to determine which attributes to return.
+helpviewer_keywords: ["WsGetHeaderAttributes","WsGetHeaderAttributes function [Web Services for Windows]","webservices/WsGetHeaderAttributes","wsw.wsgetheaderattributes"]
 old-location: wsw\wsgetheaderattributes.htm
 tech.root: wsw
 ms.assetid: 323178d4-6bc9-4b5e-bd3d-b36972720cd7
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function populates a ULONG parameter with  the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_text_type">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
+This function populates a ULONG parameter with  the <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_text_type">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
                 envelope version of the message is used to determine which attributes to return.
             
 

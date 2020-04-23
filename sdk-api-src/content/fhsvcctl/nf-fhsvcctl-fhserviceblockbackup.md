@@ -1,7 +1,7 @@
 ---
 UID: NF:fhsvcctl.FhServiceBlockBackup
 title: FhServiceBlockBackup function (fhsvcctl.h)
-description: This function temporarily blocks backups for the current user.
+description: This function temporarily blocks backups for the current user.helpviewer_keywords: ["FhServiceBlockBackup","FhServiceBlockBackup function [Windows API]","fhsvcctl/FhServiceBlockBackup","winprog.fhserviceblockbackup"]
 old-location: winprog\fhserviceblockbackup.htm
 tech.root: DevNotes
 ms.assetid: 32B5E241-5A5F-4440-9B47-07D5849FA393

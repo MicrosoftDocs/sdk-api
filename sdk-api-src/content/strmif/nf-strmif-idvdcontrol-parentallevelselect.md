@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.ParentalLevelSelect
 title: IDvdControl::ParentalLevelSelect (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the parental access level for the current media file.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the parental access level for the current media file.helpviewer_keywords: ["IDvdControl interface [DirectShow]","ParentalLevelSelect method","IDvdControl.ParentalLevelSelect","IDvdControl::ParentalLevelSelect","IDvdControlParentalLevelSelect","ParentalLevelSelect","ParentalLevelSelect method [DirectShow]","ParentalLevelSelect method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_parentallevelselect","strmif/IDvdControl::ParentalLevelSelect"]
 old-location: dshow\idvdcontrol_parentallevelselect.htm
 tech.root: DirectShow
 ms.assetid: ca572d89-b188-442d-884f-0cffa71c2892

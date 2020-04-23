@@ -2,6 +2,7 @@
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 title: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION (credentialprovider.h)
 description: Contains details about a credential.
+helpviewer_keywords: ["CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION","CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell]","_shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION","credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION","shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"]
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm
 tech.root: shell
 ms.assetid: 55ff9be3-490d-4f82-92a0-3551ccbcaade
@@ -91,7 +92,7 @@ An array of bytes containing serialized credential information. The exact format
 
 Once the user has entered credential information into a credential tile, it needs to be put into a buffer. Packaging up this information is called serialization and is necessary regardless of whether the scenario uses a Logon UI or a Credential UI. The <b>CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</b> defines the structure for serialization. After serialization, where the buffer is sent depends on whether it is a Logon UI or Credential UI scenario. With a Logon UI, the buffer is passed to <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a>. In the Credential UI scenario, this buffer is returned to the calling application which then uses it to authenticate the user.
 
-<div class="alert"><b>Important</b>  <p class="note">Even if you are implementing a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> of <b>CPUS_LOGON</b>, you do not directly call <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>. That call is handled by the system. You merely need to pass your credentials to <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
+<div class="alert"><b>Important</b>  <p class="note">Even if you are implementing a <a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> of <b>CPUS_LOGON</b>, you do not directly call <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>. That call is handled by the system. You merely need to pass your credentials to <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
 
 </div>
 <div> </div>

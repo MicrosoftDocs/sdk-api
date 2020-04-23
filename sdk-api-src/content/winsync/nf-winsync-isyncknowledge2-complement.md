@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.Complement
 title: ISyncKnowledge2::Complement (winsync.h)
-description: Returns the knowledge that is contained in this object but that is not contained in the specified knowledge.
+description: Returns the knowledge that is contained in this object but that is not contained in the specified knowledge.helpviewer_keywords: ["Complement","Complement method [Windows Sync]","Complement method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","Complement method","ISyncKnowledge2.Complement","ISyncKnowledge2::Complement","winsync.isyncknowledge2_complement","winsync/ISyncKnowledge2::Complement"]
 old-location: winsync\isyncknowledge2_complement.htm
 tech.root: winsync
 ms.assetid: 12ad8a10-1edb-4ba0-9a16-64fe9fda0125

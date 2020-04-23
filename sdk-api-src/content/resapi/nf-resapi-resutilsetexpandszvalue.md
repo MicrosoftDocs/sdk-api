@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilSetExpandSzValue
 title: ResUtilSetExpandSzValue function (resapi.h)
-description: Sets an expandable string value in the cluster database. The PRESUTIL_SET_EXPAND_SZ_VALUE type defines a pointer to this function.
+description: Sets an expandable string value in the cluster database. The PRESUTIL_SET_EXPAND_SZ_VALUE type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_SET_EXPAND_SZ_VALUE","PRESUTIL_SET_EXPAND_SZ_VALUE function [Failover Cluster]","ResUtilSetExpandSzValue","ResUtilSetExpandSzValue function [Failover Cluster]","_wolf_resutilsetexpandszvalue","mscs.resutilsetexpandszvalue","resapi/PRESUTIL_SET_EXPAND_SZ_VALUE","resapi/ResUtilSetExpandSzValue"]
 old-location: mscs\resutilsetexpandszvalue.htm
 tech.root: MsCS
 ms.assetid: a2049be4-cebb-45bf-b2f7-40841e379b12

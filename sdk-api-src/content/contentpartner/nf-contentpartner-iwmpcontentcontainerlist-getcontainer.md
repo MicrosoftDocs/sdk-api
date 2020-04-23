@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetContainer
 title: IWMPContentContainerList::GetContainer (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainer method retrieves the content container at the specified index.
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainer method retrieves the content container at the specified index.helpviewer_keywords: ["GetContainer","GetContainer method [Windows Media Player]","GetContainer method [Windows Media Player]","IWMPContentContainerList interface","IWMPContentContainerList interface [Windows Media Player]","GetContainer method","IWMPContentContainerList.GetContainer","IWMPContentContainerList::GetContainer","IWMPContentContainerListGetContainer","contentpartner/IWMPContentContainerList::GetContainer","wmp.iwmpcontentcontainerlist_getcontainer"]
 old-location: wmp\iwmpcontentcontainerlist_getcontainer.htm
 tech.root: WMP
 ms.assetid: 8922aeed-0598-4dc8-86ac-e113697fcea9

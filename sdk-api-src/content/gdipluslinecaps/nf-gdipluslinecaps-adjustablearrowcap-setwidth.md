@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetWidth
 title: AdjustableArrowCap::SetWidth (gdipluslinecaps.h)
-description: The AdjustableArrowCap::SetWidth method sets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.
+description: The AdjustableArrowCap::SetWidth method sets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.helpviewer_keywords: ["AdjustableArrowCap class [GDI+]","SetWidth method","AdjustableArrowCap.SetWidth","AdjustableArrowCap::SetWidth","SetWidth","SetWidth method [GDI+]","SetWidth method [GDI+]","AdjustableArrowCap class","_gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setwidth.htm

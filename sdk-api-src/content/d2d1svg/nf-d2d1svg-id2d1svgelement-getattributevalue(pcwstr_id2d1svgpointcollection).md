@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,ID2D1SvgPointCollection)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPointCollection) (d2d1svg.h)
-description: Gets an attribute of this element as points. This method can be used to get the value of the points attribute on a polygon or polyline element.
+description: Gets an attribute of this element as points. This method can be used to get the value of the points attribute on a polygon or polyline element.helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement.GetAttributeValue(PCWSTR","ID2D1SvgPointCollection)","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","ID2D1SvgPointCollection)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue_20"]
 old-location: direct2d\id2d1svgelement_getattributevalue_20.htm
 tech.root: Direct2D
 ms.assetid: 2EA7A72F-91A1-46BA-A930-A2000C340DB2

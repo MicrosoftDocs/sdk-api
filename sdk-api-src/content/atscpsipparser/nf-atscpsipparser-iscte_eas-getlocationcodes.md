@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetLocationCodes
 title: ISCTE_EAS::GetLocationCodes (atscpsipparser.h)
-description: The GetLocationCodes method returns location codes from the EAS table.
+description: The GetLocationCodes method returns location codes from the EAS table.helpviewer_keywords: ["GetLocationCodes","GetLocationCodes method [Microsoft TV Technologies]","GetLocationCodes method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetLocationCodes method","ISCTE_EAS.GetLocationCodes","ISCTE_EAS::GetLocationCodes","ISCTE_EASGetLocationCodes","atscpsipparser/ISCTE_EAS::GetLocationCodes","mstv.iscte_eas_getlocationcodes"]
 old-location: mstv\iscte_eas_getlocationcodes.htm
 tech.root: mstv
 ms.assetid: 31fa68d4-1719-4a93-bec9-6a7ba4f36c0b

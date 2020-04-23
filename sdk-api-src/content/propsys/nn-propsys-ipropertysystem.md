@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPropertySystem
 title: IPropertySystem (propsys.h)
-description: Exposes methods that get property descriptions, register and unregister property schemas, enumerate property descriptions, and format property values in a type-strict way.
+description: Exposes methods that get property descriptions, register and unregister property schemas, enumerate property descriptions, and format property values in a type-strict way.helpviewer_keywords: ["IPropertySystem","IPropertySystem interface [Windows Properties]","IPropertySystem interface [Windows Properties]","described","properties.IPropertySystem","propsys/IPropertySystem","shell.IPropertySystem","shell_IPropertySystem"]
 old-location: properties\IPropertySystem.htm
 tech.root: properties
 ms.assetid: 9ead94d9-4d4e-44c6-8c53-11c4c4ee2fb2

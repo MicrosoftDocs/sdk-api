@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength
 title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength (dvbsiparser.h)
-description: Gets the length of the contract_verification_info field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
+description: Gets the length of the contract_verification_info field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.helpviewer_keywords: ["GetContractVerificationInfoLength","GetContractVerificationInfoLength method [Microsoft TV Technologies]","GetContractVerificationInfoLength method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetContractVerificationInfoLength method","IIsdbCAContractInformationDescriptor.GetContractVerificationInfoLength","IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength","dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfoLength","mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfolength"]
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfolength.htm
 tech.root: mstv
 ms.assetid: a7000edd-72a1-4979-b603-a42eecc691d7

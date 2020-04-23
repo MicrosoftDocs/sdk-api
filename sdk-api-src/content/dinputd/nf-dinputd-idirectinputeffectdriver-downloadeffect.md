@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.DownloadEffect
 title: IDirectInputEffectDriver::DownloadEffect (dinputd.h)
-description: The IDirectInputEffectDriver::DownloadEffect method sends an effect to the device.
+description: The IDirectInputEffectDriver::DownloadEffect method sends an effect to the device.helpviewer_keywords: ["DownloadEffect","DownloadEffect method [Human Input Devices]","DownloadEffect method [Human Input Devices]","IDirectInputEffectDriver interface","IDirectInputEffectDriver interface [Human Input Devices]","DownloadEffect method","IDirectInputEffectDriver.DownloadEffect","IDirectInputEffectDriver::DownloadEffect","di_ref_6f931ad9-9a30-45a6-aae5-0b10b1e4e4a7.xml","dinputd/IDirectInputEffectDriver::DownloadEffect","hid.idirectinputeffectdriver_downloadeffect"]
 old-location: hid\idirectinputeffectdriver_downloadeffect.htm
 tech.root: hid
 ms.assetid: c10ee6f6-ed9e-45f9-b98d-db62d250a420

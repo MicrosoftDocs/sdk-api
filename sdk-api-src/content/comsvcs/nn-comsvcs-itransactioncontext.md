@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.ITransactionContext
 title: ITransactionContext (comsvcs.h)
-description: Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
+description: Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.helpviewer_keywords: ["ITransactionContext","ITransactionContext interface [COM+]","ITransactionContext interface [COM+]","described","_cos_ITransactionContext_Interface","comsvcs/ITransactionContext","cos.itransactioncontext"]
 old-location: cos\itransactioncontext.htm
 tech.root: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a

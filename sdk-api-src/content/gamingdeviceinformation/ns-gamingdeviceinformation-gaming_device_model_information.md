@@ -1,7 +1,7 @@
 ---
 UID: NS:gamingdeviceinformation.GAMING_DEVICE_MODEL_INFORMATION
 title: GAMING_DEVICE_MODEL_INFORMATION (gamingdeviceinformation.h)
-description: Contains information about the device that the game is running on.
+description: Contains information about the device that the game is running on.helpviewer_keywords: ["GAMING_DEVICE_MODEL_INFORMATION","GAMING_DEVICE_MODEL_INFORMATION structure","gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION","gamingdvcinfo.gaming_device_model_information"]
 old-location: gamingdvcinfo\gaming_device_model_information.htm
 tech.root: gamingdvcinfo
 ms.assetid: 0D5A6358-0F82-4414-BD17-BDE22EDBBB15

@@ -1,7 +1,7 @@
 ---
 UID: NF:fhsvcctl.FhServiceStartBackup
 title: FhServiceStartBackup function (fhsvcctl.h)
-description: This function starts an immediate backup for the current user.
+description: This function starts an immediate backup for the current user.helpviewer_keywords: ["FhServiceStartBackup","FhServiceStartBackup function [Windows API]","fhsvcctl/FhServiceStartBackup","winprog.fhservicestartbackup"]
 old-location: winprog\fhservicestartbackup.htm
 tech.root: DevNotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483

@@ -2,6 +2,7 @@
 UID: NC:winbio_adapter.PIBIO_SENSOR_ATTACH_FN
 title: PIBIO_SENSOR_ATTACH_FN (winbio_adapter.h)
 description: Adds a sensor adapter to the processing pipeline of the biometric unit.
+helpviewer_keywords: ["PIBIO_SENSOR_ATTACH_FN","PIBIO_SENSOR_ATTACH_FN callback","SensorAdapterAttach","SensorAdapterAttach callback function [Windows Biometric Framework API]","secbiomet.sensoradapterattach","winbio_adapter/SensorAdapterAttach"]
 old-location: secbiomet\sensoradapterattach.htm
 tech.root: SecBioMet
 ms.assetid: 91243128-0543-4df9-bde8-74ef5ae46914
@@ -116,7 +117,7 @@ The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windo
 
 
 
-This function is called before the engine and storage adapters have been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_ENGINE_INTERFACE</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
+This function is called before the engine and storage adapters have been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_ENGINE_INTERFACE</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
 
 Because the <b>SensorHandle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure will contain  a valid handle before  this method is called, your implementation of <i>SensorAdapterAttach</i>  can use the handle to access the sensor device if necessary.
 

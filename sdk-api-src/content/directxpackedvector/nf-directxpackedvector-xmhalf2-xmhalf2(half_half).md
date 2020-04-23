@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(HALF,HALF)
 title: XMHALF2::XMHALF2(HALF,HALF) (directxpackedvector.h)
-description: Initializes a new instance of XMHALF2 from two HALF arguments.
+description: Initializes a new instance of XMHALF2 from two HALF arguments.helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2(HALF","HALF)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(HALF","HALF)","dxmath.xmhalf2_ctor_2"]
 old-location: dxmath\xmhalf2_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor(HALF,HALF)

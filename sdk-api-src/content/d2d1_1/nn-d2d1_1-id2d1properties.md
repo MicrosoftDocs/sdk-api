@@ -2,6 +2,7 @@
 UID: NN:d2d1_1.ID2D1Properties
 title: ID2D1Properties (d2d1_1.h)
 description: Represents a set of run-time bindable and discoverable properties that allow a data-driven application to modify the state of a Direct2D effect.
+helpviewer_keywords: ["ID2D1Properties","ID2D1Properties interface [Direct2D]","ID2D1Properties interface [Direct2D]","described","d2d1_1/ID2D1Properties","direct2d.id2d1properties"]
 old-location: direct2d\id2d1properties.htm
 tech.root: Direct2D
 ms.assetid: c38bfcc0-c696-41cc-9531-7c8f15c0b512
@@ -182,7 +183,7 @@ The interface supports access through either indices or property names. In addit
 
 The interface is intentionally designed to avoid dependencies on a run-time basis. All allocation is done by the caller of the API and <b>VARIANT</b> types are not used. The property interface generally is designed not to return failures where the application could trivially change their calling sequence in order to avoid the condition. For example, since the number of properties supported by the instance is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertycount">GetPropertyCount</a> method, other methods that take a property index do not return a failure, unless they also use the plug-in effect's property system.
 
-The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – [GetValueByName](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr))a> – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
+The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – [GetValueByName](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr)) – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
 
 
 ```cpp

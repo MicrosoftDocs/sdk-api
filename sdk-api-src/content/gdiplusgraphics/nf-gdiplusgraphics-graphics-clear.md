@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Clear
 title: Graphics::Clear (gdiplusgraphics.h)
-description: The Graphics::Clear method clears a Graphicsobject to a specified color.
+description: The Graphics::Clear method clears a Graphicsobject to a specified color.helpviewer_keywords: ["Clear","Clear method [GDI+]","Clear method [GDI+]","Graphics class","Graphics class [GDI+]","Clear method","Graphics.Clear","Graphics::Clear","_gdiplus_CLASS_Graphics_Clear_color_","gdiplus._gdiplus_CLASS_Graphics_Clear_color_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Clear_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\clear.htm

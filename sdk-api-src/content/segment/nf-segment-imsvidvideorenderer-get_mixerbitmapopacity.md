@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmapOpacity
 title: IMSVidVideoRenderer::get_MixerBitmapOpacity (segment.h)
-description: The get_MixerBitmapOpacity method retrieves the opacity of the static bitmap image.
+description: The get_MixerBitmapOpacity method retrieves the opacity of the static bitmap image.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_MixerBitmapOpacity method","IMSVidVideoRenderer.get_MixerBitmapOpacity","IMSVidVideoRenderer::get_MixerBitmapOpacity","IMSVidVideoRendererget_MixerBitmapOpacity","get_MixerBitmapOpacity","get_MixerBitmapOpacity method [Microsoft TV Technologies]","get_MixerBitmapOpacity method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_mixerbitmapopacity","segment/IMSVidVideoRenderer::get_MixerBitmapOpacity"]
 old-location: mstv\imsvidvideorenderer_get_mixerbitmapopacity.htm
 tech.root: mstv
 ms.assetid: 830eff1a-e70e-440c-81be-69058d14f314

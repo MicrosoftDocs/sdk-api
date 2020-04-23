@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_BRUSH_PROPERTIES
 title: D2D1_BRUSH_PROPERTIES (d2d1.h)
-description: Describes the opacity and transformation of a brush.
+description: Describes the opacity and transformation of a brush.helpviewer_keywords: ["D2D1_BRUSH_PROPERTIES","D2D1_BRUSH_PROPERTIES structure [Direct2D]","d2d1/D2D1_BRUSH_PROPERTIES","direct2d.D2D1_BRUSH_PROPERTIES"]
 old-location: direct2d\D2D1_BRUSH_PROPERTIES.htm
 tech.root: Direct2D
 ms.assetid: 37b2fc18-a320-41c0-8717-dcd561a2f2df

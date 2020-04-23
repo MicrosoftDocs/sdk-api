@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallAddressID
 title: TSPI_lineGetCallAddressID function (tspi.h)
-description: The TSPI_lineGetCallAddressID function retrieves the address identifier for the indicated call.
+description: The TSPI_lineGetCallAddressID function retrieves the address identifier for the indicated call.helpviewer_keywords: ["TSPI_lineGetCallAddressID","TSPI_lineGetCallAddressID function [TAPI 2.2]","_tspi_tspi_linegetcalladdressid","tspi.tspi_linegetcalladdressid","tspi/TSPI_lineGetCallAddressID"]
 old-location: tspi\tspi_linegetcalladdressid.htm
 tech.root: Tapi
 ms.assetid: 8dffbaa5-77fc-4653-84f9-f8e08141ee0e

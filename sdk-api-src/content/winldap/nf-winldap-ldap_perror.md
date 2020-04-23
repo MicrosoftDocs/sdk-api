@@ -1,7 +1,7 @@
 ---
 UID: NF:winldap.ldap_perror
 title: ldap_perror function (winldap.h)
-description: Obsolete function. It exists only for compatibility.
+description: Obsolete function. It exists only for compatibility.helpviewer_keywords: ["_ldap_ldap_perror","ldap.ldap__perror","ldap.ldap_perror","ldap_perror","ldap_perror function [LDAP]","winldap/ldap_perror"]
 old-location: ldap\ldap_perror.htm
 tech.root: ldap
 ms.assetid: 9f4f1e45-7d0a-49d6-aae8-5ca550e14564

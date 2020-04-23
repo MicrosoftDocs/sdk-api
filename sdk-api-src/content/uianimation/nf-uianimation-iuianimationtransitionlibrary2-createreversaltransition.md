@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateReversalTransition
 title: IUIAnimationTransitionLibrary2::CreateReversalTransition (uianimation.h)
-description: Creates a reversal scalar transition.
+description: Creates a reversal scalar transition.helpviewer_keywords: ["CreateReversalTransition","CreateReversalTransition method [Windows Animation]","CreateReversalTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateReversalTransition method","IUIAnimationTransitionLibrary2.CreateReversalTransition","IUIAnimationTransitionLibrary2::CreateReversalTransition","uianimation.iuianimationtransitionlibrary2_createreversaltransition","uianimation/IUIAnimationTransitionLibrary2::CreateReversalTransition"]
 old-location: uianimation\iuianimationtransitionlibrary2_createreversaltransition.htm
 tech.root: UIAnimation
 ms.assetid: 49ECB93E-C253-4A7D-8181-8ED018520391

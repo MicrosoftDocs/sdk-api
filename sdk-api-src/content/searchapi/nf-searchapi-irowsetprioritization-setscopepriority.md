@@ -2,6 +2,7 @@
 UID: NF:searchapi.IRowsetPrioritization.SetScopePriority
 title: IRowsetPrioritization::SetScopePriority (searchapi.h)
 description: Sets the current indexer prioritization level for the scope specified by this query.
+helpviewer_keywords: ["IRowsetPrioritization interface [search]","SetScopePriority method","IRowsetPrioritization.SetScopePriority","IRowsetPrioritization::SetScopePriority","SetScopePriority","SetScopePriority method [search]","SetScopePriority method [search]","IRowsetPrioritization interface","_search_IRowsetPrioritization_SetScopePriority","search._search_IRowsetPrioritization_SetScopePriority","searchapi/IRowsetPrioritization::SetScopePriority"]
 old-location: search\_search_IRowsetPrioritization_SetScopePriority.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\setscopepriority.htm
@@ -60,9 +61,9 @@ Sets the current indexer prioritization level for the scope specified by this qu
 
 ### -param priority [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a></b>
+Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a></b>
 
-Specifies the new indexer prioritization level to be set as the <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a> enumeration.
+Specifies the new indexer prioritization level to be set as the <a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a> enumeration.
         
 
 
@@ -115,19 +116,19 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.CreateNetwork
 title: IDot11AdHocManager::CreateNetwork (adhoc.h)
-description: Creates a wireless ad hoc network.
+description: Creates a wireless ad hoc network.helpviewer_keywords: ["CreateNetwork","CreateNetwork method [NativeWIFI]","CreateNetwork method [NativeWIFI]","IDot11AdHocManager interface","IDot11AdHocManager interface [NativeWIFI]","CreateNetwork method","IDot11AdHocManager.CreateNetwork","IDot11AdHocManager::CreateNetwork","adhoc/IDot11AdHocManager::CreateNetwork","nwifi.idot11adhocmanager_createnetwork"]
 old-location: nwifi\idot11adhocmanager_createnetwork.htm
 tech.root: NativeWiFi
 ms.assetid: 1d9930b3-7bc4-4015-b096-a21fe01f54f5

@@ -1,7 +1,7 @@
 ---
 UID: NN:reconcil.IReconcilableObject
 title: IReconcilableObject (reconcil.h)
-description: Exposes methods that reconcile a given document. The briefcase reconciler is responsible for implementing this interface.
+description: Exposes methods that reconcile a given document. The briefcase reconciler is responsible for implementing this interface.helpviewer_keywords: ["IReconcilableObject","IReconcilableObject interface [Legacy Windows Environment Features]","IReconcilableObject interface [Legacy Windows Environment Features]","described","_win32_IReconcilableObject","lwef.ireconcilableobject","reconcil/IReconcilableObject","shell.ireconcilableobject"]
 old-location: lwef\ireconcilableobject.htm
 tech.root: lwef
 ms.assetid: 2a0ec2c0-0bec-4aeb-bbd5-0db18f0d5f8c

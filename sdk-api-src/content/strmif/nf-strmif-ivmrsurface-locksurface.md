@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRSurface.LockSurface
 title: IVMRSurface::LockSurface (strmif.h)
-description: The LockSurface method locks the attached DirectDraw surface.
+description: The LockSurface method locks the attached DirectDraw surface.helpviewer_keywords: ["IVMRSurface interface [DirectShow]","LockSurface method","IVMRSurface.LockSurface","IVMRSurface::LockSurface","IVMRSurfaceLockSurface","LockSurface","LockSurface method [DirectShow]","LockSurface method [DirectShow]","IVMRSurface interface","dshow.ivmrsurface_locksurface","strmif/IVMRSurface::LockSurface"]
 old-location: dshow\ivmrsurface_locksurface.htm
 tech.root: DirectShow
 ms.assetid: 119a6983-3639-4047-b8b4-7a8b0cb5583d

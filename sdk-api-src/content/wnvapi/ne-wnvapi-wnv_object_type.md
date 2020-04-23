@@ -1,7 +1,7 @@
 ---
 UID: NE:wnvapi._WNV_OBJECT_TYPE
 title: WNV_OBJECT_TYPE (wnvapi.h)
-description: Specifies the object type of a given Windows Network Virtualization (WNV) notification when the WNV notification type is WnvObjectChangeType.
+description: Specifies the object type of a given Windows Network Virtualization (WNV) notification when the WNV notification type is WnvObjectChangeType.helpviewer_keywords: ["*PWNV_OBJECT_TYPE","PWNV_OBJECT_TYPE","PWNV_OBJECT_TYPE enumeration pointer [Windows Network Virtualization]","WNV_OBJECT_TYPE","WNV_OBJECT_TYPE enumeration [Windows Network Virtualization]","WnvObjectTypeMax","WnvProviderAddressType","wnv.wnv_object_type","wnvapi/PWNV_OBJECT_TYPE","wnvapi/WNV_OBJECT_TYPE","wnvapi/WnvObjectTypeMax","wnvapi/WnvProviderAddressType"]
 old-location: wnv\wnv_object_type.htm
 tech.root: wnv
 ms.assetid: 817C86BB-1267-4174-93C2-515288A33055

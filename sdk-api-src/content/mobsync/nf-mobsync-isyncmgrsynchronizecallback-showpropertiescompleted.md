@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
 title: ISyncMgrSynchronizeCallback::ShowPropertiesCompleted (mobsync.h)
-description: Called by the registered application's handler before or after its ShowProperties operation is completed.
+description: Called by the registered application's handler before or after its ShowProperties operation is completed.helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","ShowPropertiesCompleted method","ISyncMgrSynchronizeCallback.ShowPropertiesCompleted","ISyncMgrSynchronizeCallback::ShowPropertiesCompleted","ShowPropertiesCompleted","ShowPropertiesCompleted method [Windows Shell]","ShowPropertiesCompleted method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::ShowPropertiesCompleted","shell.syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted","syncmgr.isyncmgrsynchronizecallback_showpropertiescompleted"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted.htm
 tech.root: shell
 ms.assetid: d451e72e-d4a8-4899-b18e-d8912d817de5

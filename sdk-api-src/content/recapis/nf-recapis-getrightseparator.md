@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetRightSeparator
 title: GetRightSeparator function (recapis.h)
-description: Gets the right separator for the recognizer context.
+description: Gets the right separator for the recognizer context.helpviewer_keywords: ["GetRightSeparator","GetRightSeparator function [Tablet PC]","recapis/GetRightSeparator","tablet.getrightseparator"]
 old-location: tablet\getrightseparator.htm
 tech.root: tablet
 ms.assetid: 1fc11447-3125-4853-bba6-2784e69d033e

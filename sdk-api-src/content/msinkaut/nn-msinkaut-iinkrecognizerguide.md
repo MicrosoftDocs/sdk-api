@@ -2,6 +2,7 @@
 UID: NN:msinkaut.IInkRecognizerGuide
 title: IInkRecognizerGuide (msinkaut.h)
 description: .
+helpviewer_keywords: ["IInkRecognizerGuide","IInkRecognizerGuide interface [Tablet PC]","IInkRecognizerGuide interface [Tablet PC]","described","msinkaut/IInkRecognizerGuide","tablet.iinkrecognizerguide"]
 old-location: tablet\iinkrecognizerguide.htm
 tech.root: tablet
 ms.assetid: 2B0302A8-EA85-44D4-8877-EFF23DBD9271
@@ -51,4 +52,4 @@ Represents the area that the recognizer uses in which ink can be drawn. The area
 
 ## -see-also
 
-[InkRecognizerGuide class](https://docs.microsoft.com/windows/win32/tablet/inkrecognizerguide-class)
+[InkRecognizerGuide class](/windows/win32/tablet/inkrecognizerguide-class)

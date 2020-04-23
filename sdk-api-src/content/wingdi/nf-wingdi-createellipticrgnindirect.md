@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreateEllipticRgnIndirect
 title: CreateEllipticRgnIndirect function (wingdi.h)
-description: The CreateEllipticRgnIndirect function creates an elliptical region.
+description: The CreateEllipticRgnIndirect function creates an elliptical region.helpviewer_keywords: ["CreateEllipticRgnIndirect","CreateEllipticRgnIndirect function [Windows GDI]","_win32_CreateEllipticRgnIndirect","gdi.createellipticrgnindirect","wingdi/CreateEllipticRgnIndirect"]
 old-location: gdi\createellipticrgnindirect.htm
 tech.root: gdi
 ms.assetid: bd30516e-1e05-4b7d-a6bf-7512cf3ef30f

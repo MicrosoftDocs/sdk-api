@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_CRACK_SINGLE_NAME
 title: LSA_CRACK_SINGLE_NAME (ntsecpkg.h)
-description: The CrackSingleName function converts a name from one format to another.
+description: The CrackSingleName function converts a name from one format to another.helpviewer_keywords: ["CrackSingleName","CrackSingleName callback function [Security]","DS_CANONICAL_NAME","DS_CANONICAL_NAME_EX","DS_DISPLAY_NAME","DS_FQDN_1779_NAME","DS_NT4_ACCOUNT_NAME","DS_SERVICE_PRINCIPAL_NAME","DS_SID_OR_SID_HISTORY_NAME","DS_UNIQUE_ID_NAME","DS_UNKNOWN_NAME","DS_USER_PRINCIPAL_NAME","LSA_CRACK_SINGLE_NAME","LSA_CRACK_SINGLE_NAME callback","_ssp_cracksinglename","ntsecpkg/CrackSingleName","security.cracksinglename"]
 old-location: security\cracksinglename.htm
 tech.root: SecAuthN
 ms.assetid: de42ca97-4ce2-4bfb-abd1-7409cc5c09a8

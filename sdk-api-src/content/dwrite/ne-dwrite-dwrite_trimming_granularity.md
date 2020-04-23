@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite.DWRITE_TRIMMING_GRANULARITY
 title: DWRITE_TRIMMING_GRANULARITY (dwrite.h)
-description: Specifies the text granularity used to trim text overflowing the layout box.
+description: Specifies the text granularity used to trim text overflowing the layout box.helpviewer_keywords: ["DWRITE_TRIMMING_GRANULARITY","DWRITE_TRIMMING_GRANULARITY enumeration [Direct Write]","DWRITE_TRIMMING_GRANULARITY_CHARACTER","DWRITE_TRIMMING_GRANULARITY_NONE","DWRITE_TRIMMING_GRANULARITY_WORD","directwrite.dwrite_trimming_granularity","dwrite/DWRITE_TRIMMING_GRANULARITY","dwrite/DWRITE_TRIMMING_GRANULARITY_CHARACTER","dwrite/DWRITE_TRIMMING_GRANULARITY_NONE","dwrite/DWRITE_TRIMMING_GRANULARITY_WORD"]
 old-location: directwrite\dwrite_trimming_granularity.htm
 tech.root: DirectWrite
 ms.assetid: 81ab22cd-7b7f-4db6-9f67-2cafd54f4621

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMarshal.GetMarshalSizeMax
 title: IMarshal::GetMarshalSizeMax (objidl.h)
-description: Retrieves the maximum size of the buffer that will be needed during marshaling.
+description: Retrieves the maximum size of the buffer that will be needed during marshaling.helpviewer_keywords: ["GetMarshalSizeMax","GetMarshalSizeMax method [COM]","GetMarshalSizeMax method [COM]","IMarshal interface","IMarshal interface [COM]","GetMarshalSizeMax method","IMarshal.GetMarshalSizeMax","IMarshal::GetMarshalSizeMax","_com_imarshal_getmarshalsizemax","com.imarshal_getmarshalsizemax","objidl/IMarshal::GetMarshalSizeMax"]
 old-location: com\imarshal_getmarshalsizemax.htm
 tech.root: com
 ms.assetid: 25ec060a-ec46-4857-8d66-8f8bb58d6d31

@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComActivityEvents.OnActivityEnter
 title: IComActivityEvents::OnActivityEnter (comsvcs.h)
 description: Generated when an activity thread is entered.
+helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityEnter method","IComActivityEvents.OnActivityEnter","IComActivityEvents::OnActivityEnter","OnActivityEnter","OnActivityEnter method [COM+]","OnActivityEnter method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityEnter","comsvcs/IComActivityEvents::OnActivityEnter","cos.icomactivityevents_onactivityenter"]
 old-location: cos\icomactivityevents_onactivityenter.htm
 tech.root: cossdk
 ms.assetid: 5933798d-2208-4eab-8024-50236e5483a3
@@ -59,7 +60,7 @@ Generated when an activity thread is entered.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidCurrent [in]

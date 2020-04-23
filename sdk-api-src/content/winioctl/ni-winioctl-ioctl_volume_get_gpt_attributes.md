@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 title: IOCTL_VOLUME_GET_GPT_ATTRIBUTES
 description: Retrieves the attributes for a volume.
+helpviewer_keywords: ["IOCTL_VOLUME_GET_GPT_ATTRIBUTES","IOCTL_VOLUME_GET_GPT_ATTRIBUTES control","IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code [Files]","fs.ioctl_volume_get_gpt_attributes","winioctl/IOCTL_VOLUME_GET_GPT_ATTRIBUTES"]
 old-location: fs\ioctl_volume_get_gpt_attributes.htm
 tech.root: FileIO
 ms.assetid: 3e58e0d6-215a-47f3-b1bf-e8d53c224b68
@@ -208,7 +209,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-volume_get_gpt_attributes_information">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-volume_get_gpt_attributes_information">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
 
 
 

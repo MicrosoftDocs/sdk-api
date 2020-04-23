@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IMMCVersionInfo
 title: IMMCVersionInfo (mmc.h)
-description: The IMMCVersionInfo interface provides version information about the installed MMC application.
+description: The IMMCVersionInfo interface provides version information about the installed MMC application.helpviewer_keywords: ["IMMCVersionInfo","IMMCVersionInfo interface [MMC]","IMMCVersionInfo interface [MMC]","described","MMCVersionInfo","_slate_immcversioninfo","mmc.immcversioninfo","mmc/IMMCVersionInfo"]
 old-location: mmc\immcversioninfo.htm
 tech.root: mmc
 ms.assetid: 13cc0cef-3548-4f9f-b150-4f13be23d0ca

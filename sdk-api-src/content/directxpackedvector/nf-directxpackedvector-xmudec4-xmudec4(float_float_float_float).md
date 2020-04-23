@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(float,float,float,float)
 title: XMUDEC4::XMUDEC4(float,float,float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMUDEC4 from four float arguments.
+description: Initializes a new instance of XMUDEC4 from four float arguments.helpviewer_keywords: ["XMUDEC4","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 structure","XMUDEC4 structure [DirectX Math Support APIs]","XMUDEC4 constructor","XMUDEC4.XMUDEC4","XMUDEC4.XMUDEC4(float","float","float","float)","XMUDEC4::XMUDEC4","XMUDEC4::XMUDEC4(float","float","float","float)","dxmath.xmudec4_ctor_3"]
 old-location: dxmath\xmudec4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.#ctor(float,float,float,float)

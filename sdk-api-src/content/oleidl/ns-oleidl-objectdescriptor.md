@@ -1,7 +1,7 @@
 ---
 UID: NS:oleidl.tagOBJECTDESCRIPTOR
 title: OBJECTDESCRIPTOR (oleidl.h)
-description: Represents the data structure used for the CF_OBJECTDESRIPTOR and CF_LINKSRCDESCRIPTOR file formats.
+description: Represents the data structure used for the CF_OBJECTDESRIPTOR and CF_LINKSRCDESCRIPTOR file formats.helpviewer_keywords: ["*LPLINKSRCDESCRIPTOR","*LPOBJECTDESCRIPTOR","*PLINKSRCDESCRIPTOR","*POBJECTDESCRIPTOR","LINKSRCDESCRIPTOR","LPOBJECTDESCRIPTOR","LPOBJECTDESCRIPTOR structure pointer [COM]","OBJECTDESCRIPTOR","OBJECTDESCRIPTOR structure [COM]","POBJECTDESCRIPTOR","POBJECTDESCRIPTOR structure pointer [COM]","_ole_OBJECTDESCRIPTOR","com.objectdescriptor","oleidl/LPOBJECTDESCRIPTOR","oleidl/OBJECTDESCRIPTOR","oleidl/POBJECTDESCRIPTOR"]
 old-location: com\objectdescriptor.htm
 tech.root: com
 ms.assetid: 5865e16b-c1a5-4bfd-8d94-c2f8f73b1205

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptGenKey
 title: CryptGenKey function (wincrypt.h)
-description: Generates a random cryptographic session key or a public/private key pair. A handle to the key or key pair is returned in phKey. This handle can then be used as needed with any CryptoAPI function that requires a key handle.
+description: Generates a random cryptographic session key or a public/private key pair. A handle to the key or key pair is returned in phKey. This handle can then be used as needed with any CryptoAPI function that requires a key handle.helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CALG_DH_EPHEM","CALG_DH_SF","CRYPT_ARCHIVABLE","CRYPT_CREATE_IV","CRYPT_CREATE_SALT","CRYPT_DATA_KEY","CRYPT_EXPORTABLE","CRYPT_FORCE_KEY_PROTECTION_HIGH","CRYPT_INITIATOR","CRYPT_KEK","CRYPT_NO_SALT","CRYPT_ONLINE","CRYPT_PREGEN","CRYPT_RECIPIENT","CRYPT_SF","CRYPT_SGCKEY","CRYPT_USER_PROTECTED","CRYPT_VOLATILE","CryptGenKey","CryptGenKey function [Security]","_crypto2_cryptgenkey","security.cryptgenkey","wincrypt/CryptGenKey"]
 old-location: security\cryptgenkey.htm
 tech.root: SecCrypto
 ms.assetid: b65dd856-2dfa-4cda-9b2f-b32f3c291470

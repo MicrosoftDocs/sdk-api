@@ -1,7 +1,7 @@
 ---
 UID: NN:imessagedispatcher.IMessageDispatcher
 title: IMessageDispatcher (imessagedispatcher.h)
-description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
+description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.helpviewer_keywords: ["IMessageDispatcher","IMessageDispatcher interface [COM]","IMessageDispatcher interface [COM]","described","com.imessagedispatcher","imessagedispatcher/IMessageDispatcher"]
 old-location: com\imessagedispatcher.htm
 tech.root: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851

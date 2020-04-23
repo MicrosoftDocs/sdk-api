@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.StartWdsTransportServices
 title: IWdsTransportConfigurationManager::StartWdsTransportServices (wdstptmgmt.h)
-description: Starts all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.
+description: Starts all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.helpviewer_keywords: ["IWdsTransportConfigurationManager interface [Windows Deployment Services]","StartWdsTransportServices method","IWdsTransportConfigurationManager.StartWdsTransportServices","IWdsTransportConfigurationManager::StartWdsTransportServices","StartWdsTransportServices","StartWdsTransportServices method [Windows Deployment Services]","StartWdsTransportServices method [Windows Deployment Services]","IWdsTransportConfigurationManager interface","wds.iwdstransportconfigurationmanager_startwdstransportservices","wdstptmgmt/IWdsTransportConfigurationManager::StartWdsTransportServices"]
 old-location: wds\iwdstransportconfigurationmanager_startwdstransportservices.htm
 tech.root: wds
 ms.assetid: 7612335a-4d81-4ec5-a348-93adefb0cced

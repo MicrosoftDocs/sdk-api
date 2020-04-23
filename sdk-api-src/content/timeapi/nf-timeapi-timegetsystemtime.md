@@ -1,7 +1,7 @@
 ---
 UID: NF:timeapi.timeGetSystemTime
 title: timeGetSystemTime function (timeapi.h)
-description: The timeGetSystemTime function retrieves the system time, in milliseconds.
+description: The timeGetSystemTime function retrieves the system time, in milliseconds.helpviewer_keywords: ["_win32_timeGetSystemTime","mmsystem/timeGetSystemTime","multimedia.timegetsystemtime","timeGetSystemTime","timeGetSystemTime function [Windows Multimedia]","timeapi/timeGetSystemTime"]
 old-location: multimedia\timegetsystemtime.htm
 tech.root: Multimedia
 ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetName
 title: ITextFont::SetName (tom.h)
-description: Sets the font name.
+description: Sets the font name.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetName method","ITextFont.SetName","ITextFont::SetName","SetName","SetName method [Windows Controls]","SetName method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetName","_win32_ITextFont_SetName_cpp","controls.ITextFont_SetName","controls._win32_ITextFont_SetName","tom/ITextFont::SetName"]
 old-location: controls\ITextFont_SetName.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setname.htm

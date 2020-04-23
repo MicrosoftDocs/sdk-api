@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForCoreWindow
 title: IDXGIFactory2::CreateSwapChainForCoreWindow (dxgi1_2.h)
-description: Creates a swap chain that is associated with the CoreWindow object for the output window for the swap chain.
+description: Creates a swap chain that is associated with the CoreWindow object for the output window for the swap chain.helpviewer_keywords: ["CreateSwapChainForCoreWindow","CreateSwapChainForCoreWindow method [DXGI]","CreateSwapChainForCoreWindow method [DXGI]","IDXGIFactory2 interface","IDXGIFactory2 interface [DXGI]","CreateSwapChainForCoreWindow method","IDXGIFactory2.CreateSwapChainForCoreWindow","IDXGIFactory2::CreateSwapChainForCoreWindow","direct3ddxgi.idxgifactory2_createswapchainforimmersivewindow","dxgi1_2/IDXGIFactory2::CreateSwapChainForCoreWindow"]
 old-location: direct3ddxgi\idxgifactory2_createswapchainforimmersivewindow.htm
 tech.root: direct3ddxgi
 ms.assetid: B3AC3AEB-3449-4444-9FD3-866A3795C41F

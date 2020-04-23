@@ -2,6 +2,7 @@
 UID: NF:tspi.TSPI_lineSetCallQualityOfService
 title: TSPI_lineSetCallQualityOfService function (tspi.h)
 description: The TSPI_lineSetCallQualityOfService function service provider attempts to renegotiate the QOS on the call with the switch If the desired QOS is not available, then the function fails, but the call continues with the previous QOS.
+helpviewer_keywords: ["TSPI_lineSetCallQualityOfService","TSPI_lineSetCallQualityOfService function [TAPI 2.2]","_tspi_tspi_linesetcallqualityofservice","tspi.tspi_linesetcallqualityofservice","tspi/TSPI_lineSetCallQualityOfService"]
 old-location: tspi\tspi_linesetcallqualityofservice.htm
 tech.root: Tapi
 ms.assetid: ebef3ee3-94e3-4aef-831d-5ce031882b5c
@@ -76,7 +77,7 @@ Pointer to memory containing a WinSock2 <a href="https://docs.microsoft.com/wind
 
 ### -param dwSendingFlowspecSize
 
-The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in SendingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure.
+The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in SendingFlowspec.len in a WinSock2 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure.
 
 
 ### -param lpReceivingFlowspec
@@ -86,7 +87,7 @@ Pointer to memory containing a WinSock2 <a href="https://docs.microsoft.com/wind
 
 ### -param dwReceivingFlowspecSize
 
-The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in ReceivingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure.
+The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in ReceivingFlowspec.len in a WinSock2 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure.
 
 
 ## -returns

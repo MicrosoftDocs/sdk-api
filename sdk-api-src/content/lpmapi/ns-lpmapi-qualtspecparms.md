@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_20
 title: QualTspecParms (lpmapi.h)
-description: The QualTspecParms structure contains qualitative Tspec parameters.
+description: The QualTspecParms structure contains qualitative Tspec parameters.helpviewer_keywords: ["QualTspecParms","QualTspecParms structure [QOS]","lpmapi/QualTspecParms","qos.qualtspecparms"]
 old-location: qos\qualtspecparms.htm
 tech.root: QOS
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c

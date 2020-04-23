@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader2.GetOptionalBundles
 title: IAppxBundleManifestReader2::GetOptionalBundles (appxpackaging.h)
-description: Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element.
+description: Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element.helpviewer_keywords: ["GetOptionalBundles","GetOptionalBundles method [App packaging and management]","GetOptionalBundles method [App packaging and management]","IAppxBundleManifestReader2 interface","IAppxBundleManifestReader2 interface [App packaging and management]","GetOptionalBundles method","IAppxBundleManifestReader2.GetOptionalBundles","IAppxBundleManifestReader2::GetOptionalBundles","appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles","appxpkg.iappxbundlemanifestreader2_getoptionalbundles"]
 old-location: appxpkg\iappxbundlemanifestreader2_getoptionalbundles.htm
 tech.root: appxpkg
 ms.assetid: 26246BB1-7FE7-462F-9731-D8AD32373184

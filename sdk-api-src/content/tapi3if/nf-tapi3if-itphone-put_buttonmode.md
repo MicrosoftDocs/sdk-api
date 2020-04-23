@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonMode
 title: ITPhone::put_ButtonMode (tapi3if.h)
-description: The put_ButtonMode method sets the button mode.
+description: The put_ButtonMode method sets the button mode.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","put_ButtonMode method","ITPhone.put_ButtonMode","ITPhone::put_ButtonMode","_tapi3_itphone_put_buttonmode","put_ButtonMode","put_ButtonMode method [TAPI 2.2]","put_ButtonMode method [TAPI 2.2]","ITPhone interface","tapi3.itphone_put_buttonmode","tapi3if/ITPhone::put_ButtonMode"]
 old-location: tapi3\itphone_put_buttonmode.htm
 tech.root: Tapi
 ms.assetid: d2287c86-5884-4890-956c-fcc26c426cd3

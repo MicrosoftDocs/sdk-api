@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.EndStroke
 title: IStrokeBuilder::EndStroke (rtscom.h)
-description: Ends a stroke and returns the stroke object.
+description: Ends a stroke and returns the stroke object.helpviewer_keywords: ["EndStroke","EndStroke method [Tablet PC]","EndStroke method [Tablet PC]","IStrokeBuilder interface","IStrokeBuilder interface [Tablet PC]","EndStroke method","IStrokeBuilder.EndStroke","IStrokeBuilder::EndStroke","a535cd20-d24a-4044-a757-fb2b593650b9","rtscom/IStrokeBuilder::EndStroke","tablet.istrokebuilder_endstroke"]
 old-location: tablet\istrokebuilder_endstroke.htm
 tech.root: tablet
 ms.assetid: a535cd20-d24a-4044-a757-fb2b593650b9

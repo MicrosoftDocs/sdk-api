@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOpcode
 title: TraceLoggingOpcode macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's opcode.
+description: Wrapper macro for setting the event's opcode.helpviewer_keywords: ["TraceLoggingOpcode","TraceLoggingOpcode macro","tracelogging.traceloggingopcode","traceloggingprovider/TraceLoggingOpcode"]
 old-location: tracelogging\traceloggingopcode.htm
 tech.root: tracelogging
 ms.assetid: 8D1459CE-51A8-49A8-A30B-EA8D87E822C3

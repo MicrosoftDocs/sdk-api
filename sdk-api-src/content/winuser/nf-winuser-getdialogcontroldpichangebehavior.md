@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetDialogControlDpiChangeBehavior
 title: GetDialogControlDpiChangeBehavior function (winuser.h)
-description: Retrieves and per-monitor DPI scaling behavior overrides of a child window in a dialog.
+description: Retrieves and per-monitor DPI scaling behavior overrides of a child window in a dialog.helpviewer_keywords: ["GetDialogControlDpiChangeBehavior","GetDialogControlDpiChangeBehavior function [High DPI]","hidpi.getdialogresizebehavior","winuser/GetDialogControlDpiChangeBehavior"]
 old-location: hidpi\getdialogresizebehavior.htm
 tech.root: hidpi
 ms.assetid: 1651353F-5823-41B8-AE52-016AEBA6C4F0

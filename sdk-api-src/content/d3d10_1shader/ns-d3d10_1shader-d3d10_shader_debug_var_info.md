@@ -2,6 +2,7 @@
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_VAR_INFO
 title: D3D10_SHADER_DEBUG_VAR_INFO (d3d10_1shader.h)
 description: Represents information about a shader source variable.
+helpviewer_keywords: ["0c0984a6-cb8d-ef1f-dfe5-bbc4ed81714f","D3D10_SHADER_DEBUG_VAR_INFO","D3D10_SHADER_DEBUG_VAR_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO","direct3d10.d3d10_shader_debug_var_info"]
 old-location: direct3d10\d3d10_shader_debug_var_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_var_info.htm
@@ -89,7 +90,7 @@ The original variable that declared this variable.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Offset into the scope variable array defined in <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
+Offset into the scope variable array defined in <a href="/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a>.
 
 
 ### -field ScopeVarOffset

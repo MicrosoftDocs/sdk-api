@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_QOS_SETTING_INFO
 title: HTTP_QOS_SETTING_INFO (http.h)
-description: Contains information about a QOS setting.
+description: Contains information about a QOS setting.helpviewer_keywords: ["*PHTTP_QOS_SETTING_INFO","HTTP_QOS_SETTING_INFO","HTTP_QOS_SETTING_INFO structure [HTTP]","PHTTP_QOS_SETTING_INFO","PHTTP_QOS_SETTING_INFO structure pointer [HTTP]","http.http_qos_setting_info","http/HTTP_QOS_SETTING_INFO","http/PHTTP_QOS_SETTING_INFO"]
 old-location: http\http_qos_setting_info.htm
 tech.root: http
 ms.assetid: 6c220063-02d0-44c0-b3a3-e7bfd5c57e1f

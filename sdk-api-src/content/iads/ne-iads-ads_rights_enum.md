@@ -2,6 +2,7 @@
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0001
 title: ADS_RIGHTS_ENUM (iads.h)
 description: Specifies access rights assigned to an Active Directory object.
+helpviewer_keywords: ["ADS_RIGHTS_ENUM","ADS_RIGHTS_ENUM enumeration [ADSI]","ADS_RIGHT_ACCESS_SYSTEM_SECURITY","ADS_RIGHT_ACTRL_DS_LIST","ADS_RIGHT_DELETE","ADS_RIGHT_DS_CONTROL_ACCESS","ADS_RIGHT_DS_CREATE_CHILD","ADS_RIGHT_DS_DELETE_CHILD","ADS_RIGHT_DS_DELETE_TREE","ADS_RIGHT_DS_LIST_OBJECT","ADS_RIGHT_DS_READ_PROP","ADS_RIGHT_DS_SELF","ADS_RIGHT_DS_WRITE_PROP","ADS_RIGHT_GENERIC_ALL","ADS_RIGHT_GENERIC_EXECUTE","ADS_RIGHT_GENERIC_READ","ADS_RIGHT_GENERIC_WRITE","ADS_RIGHT_READ_CONTROL","ADS_RIGHT_SYNCHRONIZE","ADS_RIGHT_WRITE_DAC","ADS_RIGHT_WRITE_OWNER","_ds_ads_rights_enum","adsi.ads__rights__enum","adsi.ads_rights_enum","iads/ADS_RIGHTS_ENUM","iads/ADS_RIGHT_ACCESS_SYSTEM_SECURITY","iads/ADS_RIGHT_ACTRL_DS_LIST","iads/ADS_RIGHT_DELETE","iads/ADS_RIGHT_DS_CONTROL_ACCESS","iads/ADS_RIGHT_DS_CREATE_CHILD","iads/ADS_RIGHT_DS_DELETE_CHILD","iads/ADS_RIGHT_DS_DELETE_TREE","iads/ADS_RIGHT_DS_LIST_OBJECT","iads/ADS_RIGHT_DS_READ_PROP","iads/ADS_RIGHT_DS_SELF","iads/ADS_RIGHT_DS_WRITE_PROP","iads/ADS_RIGHT_GENERIC_ALL","iads/ADS_RIGHT_GENERIC_EXECUTE","iads/ADS_RIGHT_GENERIC_READ","iads/ADS_RIGHT_GENERIC_WRITE","iads/ADS_RIGHT_READ_CONTROL","iads/ADS_RIGHT_SYNCHRONIZE","iads/ADS_RIGHT_WRITE_DAC","iads/ADS_RIGHT_WRITE_OWNER"]
 old-location: adsi\ads_rights_enum.htm
 tech.root: adsi
 ms.assetid: ade64dd8-e08c-4f68-b3bf-ccc252272a99
@@ -181,8 +182,8 @@ The <b>ObjectType</b> field specifies a <b>GUID</b> that
     identifies the security principal to whom the ACE allows or denies the specified access rights.
 
 For more information about <b>ACEType</b>, <b>ACEFlags</b>, and 
-    <b>Flags</b>, see <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_acetype_enum">ADS_ACETYPE_ENUM</a>, 
-    <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_aceflag_enum">ADS_ACEFLAG_ENUM</a>.
+    <b>Flags</b>, see <a href="/windows/win32/api/iads/ne-iads-ads_acetype_enum">ADS_ACETYPE_ENUM</a>, 
+    <a href="/windows/win32/api/iads/ne-iads-ads_aceflag_enum">ADS_ACEFLAG_ENUM</a>.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not recognize the symbolic 
     constants as defined above. Instead, use the numerical constants to set the appropriate flags in your VBScript 
@@ -209,7 +210,7 @@ The specific access rights granted by the four generic rights enumerations
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_acetype_enum">ADS_ACETYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_acetype_enum">ADS_ACETYPE_ENUM</a>
 
 
 

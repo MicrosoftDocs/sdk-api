@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetPath
 title: IVssWMFiledesc::GetPath (vswriter.h)
-description: The GetPath method obtains the fully qualified directory path or the UNC path of the remote file share to obtain the list of files described in the current IVssWMFiledesc object.
+description: The GetPath method obtains the fully qualified directory path or the UNC path of the remote file share to obtain the list of files described in the current IVssWMFiledesc object.helpviewer_keywords: ["GetPath","GetPath method [VSS]","GetPath method [VSS]","IVssWMFiledesc interface","IVssWMFiledesc interface [VSS]","GetPath method","IVssWMFiledesc.GetPath","IVssWMFiledesc::GetPath","_win32_ivsswmfiledesc_getpath","base.ivsswmfiledesc_getpath","vswriter/IVssWMFiledesc::GetPath"]
 old-location: base\ivsswmfiledesc_getpath.htm
 tech.root: VSS
 ms.assetid: e646bf76-8779-4095-a022-2d69d5c3bead

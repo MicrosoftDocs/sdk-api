@@ -2,6 +2,7 @@
 UID: NF:d2d1.ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget)
 title: ID2D1Factory::CreateDxgiSurfaceRenderTarget
 description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
+helpviewer_keywords: ["CreateDxgiSurfaceRenderTarget","CreateDxgiSurfaceRenderTarget methods [Direct2D]","ID2D1Factory.CreateDxgiSurfaceRenderTarget","ID2D1Factory::CreateDxgiSurfaceRenderTarget","d2d1/CreateDxgiSurfaceRenderTarget","direct2d.id2d1factory_createdxgisurfacerendertarget"]
 old-location: direct2d\id2d1factory_createdxgisurfacerendertarget.htm
 tech.root: Direct2D
 ms.assetid: 101744ea-97bc-4f92-88b0-fcdf0e4aaf4e
@@ -127,7 +128,7 @@ hr = m_pSwapChain->GetBuffer(
 
 ## -see-also
 
-[CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)](https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
+[CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-and-direct3d-interoperation-overview">Direct2D and Direct3D Interoperability Overview</a>
 

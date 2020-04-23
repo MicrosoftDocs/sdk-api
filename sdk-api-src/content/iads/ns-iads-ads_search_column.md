@@ -2,6 +2,7 @@
 UID: NS:iads.ads_search_column
 title: ADS_SEARCH_COLUMN (iads.h)
 description: The ADS_SEARCH_COLUMN structure specifies the contents of a search column in the query returned from the directory service database.
+helpviewer_keywords: ["*PADS_SEARCH_COLUMN","ADS_SEARCH_COLUMN","ADS_SEARCH_COLUMN structure [ADSI]","PADS_SEARCH_COLUMN","PADS_SEARCH_COLUMN structure pointer [ADSI]","_ds_ads_search_column","adsi.ads__search__column","adsi.ads_search_column","iads/ADS_SEARCH_COLUMN","iads/PADS_SEARCH_COLUMN"]
 old-location: adsi\ads_search_column.htm
 tech.root: adsi
 ms.assetid: 9fdb370d-9409-4717-ae10-bb3b5b8a0e02
@@ -64,7 +65,7 @@ A  null-terminated Unicode string that contains the name of the attribute whose 
 
 ### -field dwADsType
 
-Value from the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration that indicates how the attribute values are interpreted.
+Value from the  <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration that indicates how the attribute values are interpreted.
 
 
 ### -field pADsValues
@@ -102,7 +103,7 @@ For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

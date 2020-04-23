@@ -2,6 +2,7 @@
 UID: NF:textstor.ITextStoreACPSink.OnLayoutChange
 title: ITextStoreACPSink::OnLayoutChange (textstor.h)
 description: ITextStoreACPSink::OnLayoutChange method
+helpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnLayoutChange method","ITextStoreACPSink.OnLayoutChange","ITextStoreACPSink::OnLayoutChange","OnLayoutChange","OnLayoutChange method [Text Services Framework]","OnLayoutChange method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onlayoutchange_ref","textstor/ITextStoreACPSink::OnLayoutChange","tsf.itextstoreacpsink_onlayoutchange"]
 old-location: tsf\itextstoreacpsink_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: 2018d3ef-892f-46c0-8dd0-3e27a9f2272c
@@ -57,7 +58,7 @@ Called when the layout (on-screen representation) of the document changes.
 
 ### -param lcode [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode</a> value that defines the type of change.
+Contains a <a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode</a> value that defines the type of change.
 
 
 ### -param vcView [in]
@@ -128,7 +129,7 @@ If a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
+<a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
       </a>
  
 

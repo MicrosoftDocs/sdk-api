@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchCombine
 title: PathCchCombine function (pathcch.h)
-description: Combines two path fragments into a single path.
+description: Combines two path fragments into a single path.helpviewer_keywords: ["PathCchCombine","PathCchCombine function [Windows Shell]","pathcch/PathCchCombine","shell.PathCchCombine"]
 old-location: shell\PathCchCombine.htm
 tech.root: shell
 ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05

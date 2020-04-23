@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecDospStateCreateEnumHandle0
 title: IPsecDospStateCreateEnumHandle0 function (fwpmu.h)
 description: Creates a handle used to enumerate a set of IPsec DoS Protection objects.
+helpviewer_keywords: ["IPsecDospStateCreateEnumHandle0","IPsecDospStateCreateEnumHandle0 function [Filtering]","fwp.ipsecdospstatecreateenumhandle0","fwpmu/IPsecDospStateCreateEnumHandle0"]
 old-location: fwp\ipsecdospstatecreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: 5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state_enum_template0">IPSEC_DOSP_STATE_ENUM_TEMPLATE0</a>*</b>
+Type: <b>const <a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state_enum_template0">IPSEC_DOSP_STATE_ENUM_TEMPLATE0</a>*</b>
 
 Template for selectively restricting the enumeration.
 
@@ -153,7 +154,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state_enum_template0">IPSEC_DOSP_STATE_ENUM_TEMPLATE0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state_enum_template0">IPSEC_DOSP_STATE_ENUM_TEMPLATE0</a>
 
 
 

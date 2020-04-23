@@ -2,6 +2,7 @@
 UID: NF:callobj.ICallIndirect.GetMethodInfo
 title: ICallIndirect::GetMethodInfo (callobj.h)
 description: Retrieves information about the interface method from the call frame.
+helpviewer_keywords: ["GetMethodInfo","GetMethodInfo method [COM]","GetMethodInfo method [COM]","ICallIndirect interface","ICallIndirect interface [COM]","GetMethodInfo method","ICallIndirect.GetMethodInfo","ICallIndirect::GetMethodInfo","_com_icallindirect_getmethodinfo","callobj/ICallIndirect::GetMethodInfo","com.icallindirect_getmethodinfo"]
 old-location: com\icallindirect_getmethodinfo.htm
 tech.root: com
 ms.assetid: 1bfbbb24-0cdb-467b-abce-0291dfe8f641
@@ -64,7 +65,7 @@ The method number.
 
 ### -param pInfo [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a> structure containing information about the specified method.
+A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a> structure containing information about the specified method.
 
 
 ### -param pwszMethod [out]

@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.TimeHole
 title: IMSVidStreamBufferSourceEvent::TimeHole (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.
+description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","TimeHole method","IMSVidStreamBufferSourceEvent.TimeHole","IMSVidStreamBufferSourceEvent::TimeHole","IMSVidStreamBufferSourceEventTimeHole","TimeHole","TimeHole method [Microsoft TV Technologies]","TimeHole method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","mstv.imsvidstreambuffersourceevent_timehole","segment/IMSVidStreamBufferSourceEvent::TimeHole"]
 old-location: mstv\imsvidstreambuffersourceevent_timehole.htm
 tech.root: mstv
 ms.assetid: 6f1c3d20-7ae2-4223-8481-c22ef8422531

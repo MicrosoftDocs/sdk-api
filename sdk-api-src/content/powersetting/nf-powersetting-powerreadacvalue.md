@@ -1,7 +1,7 @@
 ---
 UID: NF:powersetting.PowerReadACValue
 title: PowerReadACValue function (powersetting.h)
-description: Retrieves the AC power value for the specified power setting.
+description: Retrieves the AC power value for the specified power setting.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadACValue","PowerReadACValue function","base.powerreadacvalue","powersetting/PowerReadACValue","powrprof/PowerReadACValue"]
 old-location: base\powerreadacvalue.htm
 tech.root: power
 ms.assetid: b0afaf75-72cc-48a3-bbf2-0000cb85f2e2

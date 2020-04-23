@@ -2,6 +2,7 @@
 UID: NN:structuredquerycondition.IRichChunk
 title: IRichChunk (structuredquerycondition.h)
 description: Represents a chunk of data as a string and a PROPVARIANT value.
+helpviewer_keywords: ["IRichChunk","IRichChunk interface [search]","IRichChunk interface [search]","described","_search_IRichChunk","search._search_IRichChunk","structuredquerycondition/IRichChunk"]
 old-location: search\_search_IRichChunk.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichchunk.htm
@@ -111,7 +112,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a>
+<a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a>
  
 
  

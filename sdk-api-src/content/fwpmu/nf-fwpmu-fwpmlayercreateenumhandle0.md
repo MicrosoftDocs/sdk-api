@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmLayerCreateEnumHandle0
 title: FwpmLayerCreateEnumHandle0 function (fwpmu.h)
 description: Creates a handle used to enumerate a set of layer objects.
+helpviewer_keywords: ["FwpmLayerCreateEnumHandle0","FwpmLayerCreateEnumHandle0 function [Filtering]","fwp.fwpmlayercreateenumhandle0_func","fwpmu/FwpmLayerCreateEnumHandle0"]
 old-location: fwp\fwpmlayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_LAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_enum_template0)a>*</b>
+Type: [FWPM_LAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
 

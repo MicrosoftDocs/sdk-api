@@ -2,6 +2,7 @@
 UID: NF:ktmw32.GetNotificationResourceManagerAsync
 title: GetNotificationResourceManagerAsync function (ktmw32.h)
 description: Requests and receives asynchronous notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
+helpviewer_keywords: ["GetNotificationResourceManagerAsync","GetNotificationResourceManagerAsync function [Files]","fs.getnotificationresourcemanagerasync","ktmw32/GetNotificationResourceManagerAsync"]
 old-location: fs\getnotificationresourcemanagerasync.htm
 tech.root: ktm
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
@@ -151,7 +152,7 @@ This function must be called after the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

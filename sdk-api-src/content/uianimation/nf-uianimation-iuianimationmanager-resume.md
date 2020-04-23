@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationManager.Resume
 title: IUIAnimationManager::Resume (uianimation.h)
 description: Resumes all animations.
+helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","Resume method","IUIAnimationManager.Resume","IUIAnimationManager::Resume","Resume","Resume method [Windows Animation]","Resume method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_resume","uianimation/IUIAnimationManager::Resume"]
 old-location: uianimation\iuianimationmanager_resume.htm
 tech.root: UIAnimation
 ms.assetid: f29a9337-0ed0-46f8-ab77-8f82ab39d8df
@@ -94,7 +95,7 @@ When an animation manager is resumed, and at least one animation is currently sc
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

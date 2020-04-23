@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateCaret
 title: CreateCaret function (winuser.h)
-description: Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap.
+description: Creates a new shape for the system caret and assigns ownership of the caret to the specified window. The caret shape can be a line, a block, or a bitmap.helpviewer_keywords: ["CreateCaret","CreateCaret function [Menus and Other Resources]","_win32_CreateCaret","_win32_createcaret_cpp","menurc.createcaret","winui._win32_createcaret","winuser/CreateCaret"]
 old-location: menurc\createcaret.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\createcaret.htm

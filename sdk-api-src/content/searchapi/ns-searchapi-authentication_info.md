@@ -1,7 +1,7 @@
 ---
 UID: NS:searchapi._AUTHENTICATION_INFO
 title: AUTHENTICATION_INFO (searchapi.h)
-description: Describes security authentication information for content access.
+description: Describes security authentication information for content access.helpviewer_keywords: ["AUTHENTICATION_INFO","AUTHENTICATION_INFO structure [search]","_search_AUTHENTICATION_INFO","search._search_AUTHENTICATION_INFO","searchapi/AUTHENTICATION_INFO"]
 old-location: search\_search_AUTHENTICATION_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.htm

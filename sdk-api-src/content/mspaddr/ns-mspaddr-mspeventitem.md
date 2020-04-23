@@ -2,6 +2,7 @@
 UID: NS:mspaddr.__unnamed_struct_0
 title: MSPEVENTITEM (mspaddr.h)
 description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
+helpviewer_keywords: ["*PMSPEVENTITEM","MSPEVENTITEM","MSPEVENTITEM structure [TAPI 2.2]","PMSPEVENTITEM","PMSPEVENTITEM structure pointer [TAPI 2.2]","_tapi3_mspeventitem","mspaddr/MSPEVENTITEM","mspaddr/PMSPEVENTITEM","tapi3.mspeventitem"]
 old-location: tapi3\mspeventitem.htm
 tech.root: Tapi
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc
@@ -66,5 +67,5 @@ Doubly-linked list. Part of Windows 2000 run-time routines that are callable by
 ### -field MSPEventInfo
 
 The 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure contains information concerning an event.
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure contains information concerning an event.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPropertyPage.Apply
 title: IPropertyPage::Apply (ocidl.h)
-description: Applies the current values to the underlying objects associated with the property page as previously passed to IPropertyPage::SetObjects.
+description: Applies the current values to the underlying objects associated with the property page as previously passed to IPropertyPage::SetObjects.helpviewer_keywords: ["Apply","Apply method [COM]","Apply method [COM]","IPropertyPage interface","IPropertyPage interface [COM]","Apply method","IPropertyPage.Apply","IPropertyPage::Apply","_ctrl_ipropertypage_apply","com.ipropertypage_apply","ocidl/IPropertyPage::Apply"]
 old-location: com\ipropertypage_apply.htm
 tech.root: com
 ms.assetid: af0a1b49-54c3-453f-bd6a-70b63d625acb

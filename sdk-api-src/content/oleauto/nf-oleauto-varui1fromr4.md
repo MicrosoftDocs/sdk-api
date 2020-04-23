@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI1FromR4
 title: VarUI1FromR4 function (oleauto.h)
-description: Converts a float value to an unsigned char value.
+description: Converts a float value to an unsigned char value.helpviewer_keywords: ["VarUI1FromR4","VarUI1FromR4 function [Automation]","_oa96_VarUI1FromR4","automat.varui1fromr4","oleauto/VarUI1FromR4"]
 old-location: automat\varui1fromr4.htm
 tech.root: automat
 ms.assetid: 66457140-68a1-4ec6-a9df-829cd94f127b

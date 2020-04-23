@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPRECVFROM
 title: LPWSPRECVFROM
-description: The LPWSPRecvFrom function receives a datagram and stores the source address.
+description: The LPWSPRecvFrom function receives a datagram and stores the source address.helpviewer_keywords: ["LPWSPRECVFROM"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECVFROM
 targetos: Windows

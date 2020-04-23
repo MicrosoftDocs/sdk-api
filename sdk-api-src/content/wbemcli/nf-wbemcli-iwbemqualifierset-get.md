@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IWbemQualifierSet.Get
 title: IWbemQualifierSet::Get (wbemcli.h)
 description: The IWbemQualifierSet::Get method gets the specified named qualifier, if found.
+helpviewer_keywords: ["Get","Get method [Windows Management Instrumentation]","Get method [Windows Management Instrumentation]","IWbemQualifierSet interface","IWbemQualifierSet interface [Windows Management Instrumentation]","Get method","IWbemQualifierSet.Get","IWbemQualifierSet::Get","_hmm_iwbemqualifierset_get","wbemcli/IWbemQualifierSet::Get","wmi.iwbemqualifierset_get"]
 old-location: wmi\iwbemqualifierset_get.htm
 tech.root: WmiSdk
 ms.assetid: f4663cd1-0dc9-4021-918e-d5eda1648429
@@ -82,7 +83,7 @@ If this parameter is <b>NULL</b>, the parameter is ignored.
 ### -param plFlavor [out]
 
 Can be <b>NULL</b>. If not <b>NULL</b>, this must point to a <b>LONG</b> that receives the qualifier flavor bits for the requested qualifier. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 
 ## -returns

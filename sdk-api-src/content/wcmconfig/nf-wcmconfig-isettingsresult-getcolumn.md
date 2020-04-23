@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetColumn
 title: ISettingsResult::GetColumn (wcmconfig.h)
-description: Returns the column number where the error occurred.
+description: Returns the column number where the error occurred.helpviewer_keywords: ["GetColumn","GetColumn method [SMI]","GetColumn method [SMI]","ISettingsResult interface","ISettingsResult interface [SMI]","GetColumn method","ISettingsResult.GetColumn","ISettingsResult::GetColumn","smi.isettingsresult_getcolumn","wcmconfig/ISettingsResult::GetColumn"]
 old-location: smi\isettingsresult_getcolumn.htm
 tech.root: SMI
 ms.assetid: 09e1c5ae-f5ba-4f5a-b35d-a1c2e8dbdfe9

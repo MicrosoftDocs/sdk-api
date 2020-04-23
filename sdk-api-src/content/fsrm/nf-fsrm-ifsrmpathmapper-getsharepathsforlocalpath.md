@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmPathMapper.GetSharePathsForLocalPath
 title: IFsrmPathMapper::GetSharePathsForLocalPath (fsrm.h)
-description: Retrieves a list of network shares that point to the specified local path.
+description: Retrieves a list of network shares that point to the specified local path.helpviewer_keywords: ["FsrmPathMapper class [File Server Resource Manager]","GetSharePathsForLocalPath method","GetSharePathsForLocalPath","GetSharePathsForLocalPath method [File Server Resource Manager]","GetSharePathsForLocalPath method [File Server Resource Manager]","FsrmPathMapper class","GetSharePathsForLocalPath method [File Server Resource Manager]","IFsrmPathMapper interface","IFsrmPathMapper interface [File Server Resource Manager]","GetSharePathsForLocalPath method","IFsrmPathMapper.GetSharePathsForLocalPath","IFsrmPathMapper::GetSharePathsForLocalPath","fs.ifsrmpathmapper_getsharepathsforlocalpath","fsrm.ifsrmpathmapper_getsharepathsforlocalpath","fsrm/IFsrmPathMapper::GetSharePathsForLocalPath"]
 old-location: fsrm\ifsrmpathmapper_getsharepathsforlocalpath.htm
 tech.root: fsrm
 ms.assetid: af5c668f-4675-4568-9b6a-c8d2663d819b

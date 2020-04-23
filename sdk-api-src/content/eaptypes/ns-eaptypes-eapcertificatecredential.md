@@ -1,7 +1,7 @@
 ---
 UID: NS:eaptypes._EapCertificateCredential
 title: EapCertificateCredential (eaptypes.h)
-description: Contains information about the certificate that the EAP method uses for authentication.
+description: Contains information about the certificate that the EAP method uses for authentication.helpviewer_keywords: ["EapCertificateCredential","EapCertificateCredential structure [EAPHost]","eaphost.eapcertificatecredential","eaptypes/EapCertificateCredential"]
 old-location: eaphost\eapcertificatecredential.htm
 tech.root: eaphost
 ms.assetid: 575967F4-E5CC-433D-919D-258B5849A5B1

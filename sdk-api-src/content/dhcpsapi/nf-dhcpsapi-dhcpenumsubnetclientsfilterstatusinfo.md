@@ -2,6 +2,7 @@
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsFilterStatusInfo
 title: DhcpEnumSubnetClientsFilterStatusInfo function (dhcpsapi.h)
 description: Enumerates all of the DHCP clients serviced on the specified subnet, and includes link-layer filter status for each of them.
+helpviewer_keywords: ["DhcpEnumSubnetClientsFilterStatusInfo","DhcpEnumSubnetClientsFilterStatusInfo function [DHCP]","dhcp.dhcpenumsubnetclientsfilterstatusinfo","dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo"]
 old-location: dhcp\dhcpenumsubnetclientsfilterstatusinfo.htm
 tech.root: DHCP
 ms.assetid: a88455ca-ba64-46d0-af8f-be90c57d96f3
@@ -80,7 +81,7 @@ Specifies the preferred maximum number of bytes to return in the enumeration ope
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a> structure that contains all of the DHCP clients serviced on the specified subnet, as well as any associated link-layer filter status information for each of them.
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a> structure that contains all of the DHCP clients serviced on the specified subnet, as well as any associated link-layer filter status information for each of them.
 
 
 ### -param ClientsRead [out]
@@ -148,7 +149,7 @@ There are still unenumerated client lease records on the DHCP server for the pro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info_array">DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY</a>
  
 
  

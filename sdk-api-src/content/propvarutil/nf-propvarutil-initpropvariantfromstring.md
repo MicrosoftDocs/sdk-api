@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromString
 title: InitPropVariantFromString function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on a specified string.
+description: Initializes a PROPVARIANT structure based on a specified string.helpviewer_keywords: ["InitPropVariantFromString","InitPropVariantFromString function [Windows Properties]","properties.InitPropVariantFromString","propvarutil/InitPropVariantFromString","shell.InitPropVariantFromString","shell_InitPropVariantFromString"]
 old-location: properties\InitPropVariantFromString.htm
 tech.root: properties
 ms.assetid: eeb1002c-d06b-4f7f-b850-4c33f6e0d7aa

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.DiscardPage
 title: IXpsOMPageReference::DiscardPage (xpsobjectmodel.h)
-description: Discards the page from memory.
+description: Discards the page from memory.helpviewer_keywords: ["DiscardPage","DiscardPage method [XPS Documents and Packaging]","DiscardPage method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","DiscardPage method","IXpsOMPageReference.DiscardPage","IXpsOMPageReference::DiscardPage","xps.ixpsompagereference_discardpage","xpsobjectmodel/IXpsOMPageReference::DiscardPage"]
 old-location: xps\ixpsompagereference_discardpage.htm
 tech.root: printdocs
 ms.assetid: 430b9169-7fc5-493d-85a8-dddf46dfef8f

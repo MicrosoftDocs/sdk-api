@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_SuppressEffects
 title: IMSVidVideoRenderer2::get_SuppressEffects (segment.h)
-description: The get_SuppressEffects method retrieves settings that control power management and visual effects.
+description: The get_SuppressEffects method retrieves settings that control power management and visual effects.helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","get_SuppressEffects method","IMSVidVideoRenderer2.get_SuppressEffects","IMSVidVideoRenderer2::get_SuppressEffects","IMSVidVideoRenderer2get_SuppressEffects","get_SuppressEffects","get_SuppressEffects method [Microsoft TV Technologies]","get_SuppressEffects method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_get_suppresseffects","segment/IMSVidVideoRenderer2::get_SuppressEffects"]
 old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm
 tech.root: mstv
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4

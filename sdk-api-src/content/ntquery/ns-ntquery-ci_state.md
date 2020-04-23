@@ -2,6 +2,7 @@
 UID: NS:ntquery._CI_STATE
 title: CI_STATE (ntquery.h)
 description: Represents the current state of an Indexing Service catalog.
+helpviewer_keywords: ["CI_STATE","CI_STATE structure [Indexing Service]","_idxs_CI_STATE","indexsrv.ci_state","ntquery/CI_STATE"]
 old-location: indexsrv\ci_state.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
@@ -148,7 +149,7 @@ When using this structure, all members are output values. The <b>cbStruct</b> me
 
 
 
-[CIState](/windows/win32/api/ntquery/ns-ntquery-ci_state)a>
+[CIState](/windows/win32/api/ntquery/ns-ntquery-ci_state)
 
 
 

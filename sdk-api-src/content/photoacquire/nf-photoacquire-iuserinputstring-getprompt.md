@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetPrompt
 title: IUserInputString::GetPrompt (photoacquire.h)
-description: The GetPrompt method retrieves the title of a prompt if the prompt is a modal dialog box.
+description: The GetPrompt method retrieves the title of a prompt if the prompt is a modal dialog box.helpviewer_keywords: ["GetPrompt","GetPrompt method [Picture Acquisition]","GetPrompt method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetPrompt method","IUserInputString.GetPrompt","IUserInputString::GetPrompt","IUserInputStringGetPrompt","photoacquire/IUserInputString::GetPrompt","picacq.iuserinputstring_getprompt"]
 old-location: picacq\iuserinputstring_getprompt.htm
 tech.root: acquisition
 ms.assetid: f2fdb18d-5af8-45c8-8f92-7fc8c836082d

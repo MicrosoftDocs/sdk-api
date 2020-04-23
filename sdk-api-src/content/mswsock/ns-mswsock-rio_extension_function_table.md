@@ -1,7 +1,7 @@
 ---
 UID: NS:mswsock._RIO_EXTENSION_FUNCTION_TABLE
 title: RIO_EXTENSION_FUNCTION_TABLE (mswsock.h)
-description: Contains information on the functions that implement the Winsock registered I/O extensions.
+description: Contains information on the functions that implement the Winsock registered I/O extensions.helpviewer_keywords: ["*PRIO_EXTENSION_FUNCTION_TABLE","PRIO_EXTENSION_FUNCTION_TABLE","PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock]","RIO_EXTENSION_FUNCTION_TABLE","RIO_EXTENSION_FUNCTION_TABLE structure [Winsock]","mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE","mswsockdef/RIO_EXTENSION_FUNCTION_TABLE","winsock.rio_extension_function_table"]
 old-location: winsock\rio_extension_function_table.htm
 tech.root: WinSock
 ms.assetid: 33C190B0-DE01-47A0-93AF-627FC5C5FF48

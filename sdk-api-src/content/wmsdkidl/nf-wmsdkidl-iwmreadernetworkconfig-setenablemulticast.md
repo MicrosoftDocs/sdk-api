@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableMulticast
 title: IWMReaderNetworkConfig::SetEnableMulticast (wmsdkidl.h)
-description: The SetEnableMulticast method enables or disables multicasting.
+description: The SetEnableMulticast method enables or disables multicasting.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetEnableMulticast method","IWMReaderNetworkConfig.SetEnableMulticast","IWMReaderNetworkConfig::SetEnableMulticast","IWMReaderNetworkConfigSetEnableMulticast","SetEnableMulticast","SetEnableMulticast method [windows Media Format]","SetEnableMulticast method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setenablemulticast","wmsdkidl/IWMReaderNetworkConfig::SetEnableMulticast"]
 old-location: wmformat\iwmreadernetworkconfig_setenablemulticast.htm
 tech.root: wmformat
 ms.assetid: 02e3a7cc-1dcf-4aba-a18f-2056742f0777

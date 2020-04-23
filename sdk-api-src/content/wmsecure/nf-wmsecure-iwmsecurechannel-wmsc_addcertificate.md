@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddCertificate
 title: IWMSecureChannel::WMSC_AddCertificate (wmsecure.h)
-description: The WMSC_AddCertificate method adds certificates that this object can present to other secure channel objects. If no certs are added, then this object can only connect to objects with no signatures.
+description: The WMSC_AddCertificate method adds certificates that this object can present to other secure channel objects. If no certs are added, then this object can only connect to objects with no signatures.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_AddCertificate method","IWMSecureChannel.WMSC_AddCertificate","IWMSecureChannel::WMSC_AddCertificate","WMSC_AddCertificate","WMSC_AddCertificate method [windows Media Format]","WMSC_AddCertificate method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_addcertificate","wmsecure/IWMSecureChannel::WMSC_AddCertificate"]
 old-location: wmformat\iwmsecurechannel_wmsc_addcertificate.htm
 tech.root: wmformat
 ms.assetid: 0e5fbd9e-1669-4e0e-90b6-1542cc6d2ae4

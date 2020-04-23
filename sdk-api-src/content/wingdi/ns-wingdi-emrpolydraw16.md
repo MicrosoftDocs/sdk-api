@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRPOLYDRAW16
 title: EMRPOLYDRAW16 (wingdi.h)
-description: The EMRPOLYDRAW16 structure contains members for the PolyDraw enhanced metafile record.
+description: The EMRPOLYDRAW16 structure contains members for the PolyDraw enhanced metafile record.helpviewer_keywords: ["*PEMRPOLYDRAW16","EMRPOLYDRAW16","EMRPOLYDRAW16 structure [Windows GDI]","PEMRPOLYDRAW16","PEMRPOLYDRAW16 structure pointer [Windows GDI]","_win32_EMRPOLYDRAW16_str","gdi.emrpolydraw16","wingdi/EMRPOLYDRAW16","wingdi/PEMRPOLYDRAW16"]
 old-location: gdi\emrpolydraw16.htm
 tech.root: gdi
 ms.assetid: 476c5a81-99fc-4e25-a761-b95bbf18b271

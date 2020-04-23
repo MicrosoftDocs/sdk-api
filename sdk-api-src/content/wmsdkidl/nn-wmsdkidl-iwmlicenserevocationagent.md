@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseRevocationAgent
 title: IWMLicenseRevocationAgent (wmsdkidl.h)
-description: The IWMLicenseRevocationAgent interface handles messages from a DRM license server that involve license revocation.IWMLicenseRevocationAgent is the primary interface of the license revocation agent object.
+description: The IWMLicenseRevocationAgent interface handles messages from a DRM license server that involve license revocation.IWMLicenseRevocationAgent is the primary interface of the license revocation agent object.helpviewer_keywords: ["IWMLicenseRevocationAgent","IWMLicenseRevocationAgent interface [windows Media Format]","IWMLicenseRevocationAgent interface [windows Media Format]","described","IWMLicenseRevocationAgentInterface","wmformat.iwmlicenserevocationagent","wmsdkidl/IWMLicenseRevocationAgent"]
 old-location: wmformat\iwmlicenserevocationagent.htm
 tech.root: wmformat
 ms.assetid: 4cb5beb9-72b8-46cb-8460-56455785a7a0

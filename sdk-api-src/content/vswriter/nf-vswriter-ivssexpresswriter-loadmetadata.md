@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.LoadMetadata
 title: IVssExpressWriter::LoadMetadata (vswriter.h)
-description: Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
+description: Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.helpviewer_keywords: ["IVssExpressWriter interface","LoadMetadata method","IVssExpressWriter.LoadMetadata","IVssExpressWriter::LoadMetadata","LoadMetadata","LoadMetadata method","LoadMetadata method","IVssExpressWriter interface","base.ivssexpresswriter_load","vswriter/IVssExpressWriter::LoadMetadata"]
 old-location: base\ivssexpresswriter_load.htm
 tech.root: VSS
 ms.assetid: 2b670278-4589-47b7-a9ad-a24187c39945

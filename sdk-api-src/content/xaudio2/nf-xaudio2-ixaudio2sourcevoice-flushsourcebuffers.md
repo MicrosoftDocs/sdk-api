@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.FlushSourceBuffers
 title: IXAudio2SourceVoice::FlushSourceBuffers (xaudio2.h)
-description: Removes all pending audio buffers from the voice queue.
+description: Removes all pending audio buffers from the voice queue.helpviewer_keywords: ["FlushSourceBuffers","FlushSourceBuffers method [XAudio2 Audio Mixing APIs]","FlushSourceBuffers method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","FlushSourceBuffers method","IXAudio2SourceVoice.FlushSourceBuffers","IXAudio2SourceVoice::FlushSourceBuffers","xaudio2.ixaudio2sourcevoice_interface_flushsourcebuffers","xaudio2/IXAudio2SourceVoice::FlushSourceBuffers"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_flushsourcebuffers.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.FlushSourceBuffers

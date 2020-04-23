@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IViewExtensionCallback
 title: IViewExtensionCallback (mmc.h)
-description: The IViewExtensionCallback interface is used to add a view to the result pane.
+description: The IViewExtensionCallback interface is used to add a view to the result pane.helpviewer_keywords: ["IViewExtensionCallback","IViewExtensionCallback interface [MMC]","IViewExtensionCallback interface [MMC]","described","_slate_iviewextensioncallback","mmc.iviewextensioncallback","mmc/IViewExtensionCallback"]
 old-location: mmc\iviewextensioncallback.htm
 tech.root: mmc
 ms.assetid: 1854ab01-e518-4ff4-a1d5-d1e03b348992

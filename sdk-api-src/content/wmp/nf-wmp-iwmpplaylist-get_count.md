@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_count
 title: IWMPPlaylist::get_count (wmp.h)
-description: The get_count method retrieves the number of items in the playlist.
+description: The get_count method retrieves the number of items in the playlist.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_count method","IWMPPlaylist.get_count","IWMPPlaylist::get_count","IWMPPlaylistget_count","get_count","get_count method [Windows Media Player]","get_count method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_get_count","wmp/IWMPPlaylist::get_count"]
 old-location: wmp\iwmpplaylist_get_count.htm
 tech.root: WMP
 ms.assetid: e37d1d96-27c3-415a-ac85-ab4b94dbc688

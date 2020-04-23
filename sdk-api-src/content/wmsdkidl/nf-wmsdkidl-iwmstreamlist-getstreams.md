@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.GetStreams
 title: IWMStreamList::GetStreams (wmsdkidl.h)
-description: The GetStreams method retrieves an array of stream numbers that make up the list.
+description: The GetStreams method retrieves an array of stream numbers that make up the list.helpviewer_keywords: ["GetStreams","GetStreams method [windows Media Format]","GetStreams method [windows Media Format]","IWMStreamList interface","IWMStreamList interface [windows Media Format]","GetStreams method","IWMStreamList.GetStreams","IWMStreamList::GetStreams","IWMStreamListGetStreams","wmformat.iwmstreamlist_getstreams","wmsdkidl/IWMStreamList::GetStreams"]
 old-location: wmformat\iwmstreamlist_getstreams.htm
 tech.root: wmformat
 ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLocaleNameLength
 title: IDWriteTextFormat::GetLocaleNameLength (dwrite.h)
-description: Gets the length of the locale name.
+description: Gets the length of the locale name.helpviewer_keywords: ["GetLocaleNameLength","GetLocaleNameLength method [Direct Write]","GetLocaleNameLength method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetLocaleNameLength method","IDWriteTextFormat.GetLocaleNameLength","IDWriteTextFormat::GetLocaleNameLength","directwrite.IDWriteTextFormat_GetLocaleNameLength","dwrite/IDWriteTextFormat::GetLocaleNameLength"]
 old-location: directwrite\IDWriteTextFormat_GetLocaleNameLength.htm
 tech.root: DirectWrite
 ms.assetid: 197926ad-ff96-48b3-872b-22a683725ef8

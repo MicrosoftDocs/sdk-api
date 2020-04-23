@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqNext
 title: RpcNsEntryObjectInqNext function (rpcnsi.h)
-description: The RpcNsEntryObjectInqNext function returns one object at a time from a name-service database entry.
+description: The RpcNsEntryObjectInqNext function returns one object at a time from a name-service database entry.helpviewer_keywords: ["RpcNsEntryObjectInqNext","RpcNsEntryObjectInqNext function [RPC]","_rpc_rpcnsentryobjectinqnext","rpc.rpcnsentryobjectinqnext","rpcnsi/RpcNsEntryObjectInqNext"]
 old-location: rpc\rpcnsentryobjectinqnext.htm
 tech.root: Rpc
 ms.assetid: 95648480-5b53-4a8c-ba82-6c7f204520d2

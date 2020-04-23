@@ -1,7 +1,7 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskMetadata
 title: GetVirtualDiskMetadata function (virtdisk.h)
-description: Retrieves the specified metadata from the virtual disk.
+description: Retrieves the specified metadata from the virtual disk.helpviewer_keywords: ["GetVirtualDiskMetadata","GetVirtualDiskMetadata function [Virtual Storage]","virtdisk/GetVirtualDiskMetadata","vstor.getvirtualdiskmetadata"]
 old-location: vstor\getvirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 5dc5cf6e-c218-4aca-a574-499441bd1c12

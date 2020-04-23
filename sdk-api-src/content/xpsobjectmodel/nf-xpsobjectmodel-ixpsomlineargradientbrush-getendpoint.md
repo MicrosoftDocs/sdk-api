@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetEndPoint
 title: IXpsOMLinearGradientBrush::GetEndPoint (xpsobjectmodel.h)
 description: Gets the end point of the gradient.
+helpviewer_keywords: ["GetEndPoint","GetEndPoint method [XPS Documents and Packaging]","GetEndPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","GetEndPoint method","IXpsOMLinearGradientBrush.GetEndPoint","IXpsOMLinearGradientBrush::GetEndPoint","xps.ixpsomlineargradientbrush_getendpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint"]
 old-location: xps\ixpsomlineargradientbrush_getendpoint.htm
 tech.root: printdocs
 ms.assetid: c8f34c4b-28f1-4a8f-bf8e-9872debc9eb1
@@ -127,7 +128,7 @@ The coordinates are relative to the page and are expressed in units of the trans
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

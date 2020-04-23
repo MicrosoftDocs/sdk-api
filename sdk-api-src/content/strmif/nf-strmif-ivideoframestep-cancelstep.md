@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVideoFrameStep.CancelStep
 title: IVideoFrameStep::CancelStep (strmif.h)
-description: The CancelStep method cancels the previous IVideoFrameStep::Step operation.
+description: The CancelStep method cancels the previous IVideoFrameStep::Step operation.helpviewer_keywords: ["CancelStep","CancelStep method [DirectShow]","CancelStep method [DirectShow]","IVideoFrameStep interface","IVideoFrameStep interface [DirectShow]","CancelStep method","IVideoFrameStep.CancelStep","IVideoFrameStep::CancelStep","IVideoFrameStepCancelStep","dshow.ivideoframestep_cancelstep","strmif/IVideoFrameStep::CancelStep"]
 old-location: dshow\ivideoframestep_cancelstep.htm
 tech.root: DirectShow
 ms.assetid: 1310d4d8-a1a3-493c-baee-f7c0ec5790e1

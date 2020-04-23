@@ -1,7 +1,7 @@
 ---
 UID: NS:ksopmapi._OPM_GET_CODEC_INFO_PARAMETERS
 title: OPM_GET_CODEC_INFO_PARAMETERS (ksopmapi.h)
-description: Contains information for the OPM_GET_CODEC_INFO command.
+description: Contains information for the OPM_GET_CODEC_INFO command.helpviewer_keywords: ["OPM_GET_CODEC_INFO_PARAMETERS","OPM_GET_CODEC_INFO_PARAMETERS structure [Media Foundation]","_OPM_GET_CODEC_INFO_PARAMETERS","ksopmapi/OPM_GET_CODEC_INFO_PARAMETERS","mf.opm_get_codec_info_parameters"]
 old-location: mf\opm_get_codec_info_parameters.htm
 tech.root: medfound
 ms.assetid: 9fb130e5-fd87-4a11-9c9e-7a106a091b35

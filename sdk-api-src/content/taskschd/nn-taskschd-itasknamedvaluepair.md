@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.ITaskNamedValuePair
 title: ITaskNamedValuePair (taskschd.h)
-description: Creates a name-value pair in which the name is associated with the value.
+description: Creates a name-value pair in which the name is associated with the value.helpviewer_keywords: ["ITaskNamedValuePair","ITaskNamedValuePair interface [Task Scheduler]","ITaskNamedValuePair interface [Task Scheduler]","described","taskschd.itasknamedvaluepair","taskschd/ITaskNamedValuePair"]
 old-location: taskschd\itasknamedvaluepair.htm
 tech.root: taskschd
 ms.assetid: b9d186a3-017d-409e-9d67-e74dc69a486a

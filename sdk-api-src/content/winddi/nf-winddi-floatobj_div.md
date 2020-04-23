@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.FLOATOBJ_Div
 title: FLOATOBJ_Div function (winddi.h)
-description: The FLOATOBJ_Div function divides the two FLOATOBJs, and returns with the result in the first parameter.
+description: The FLOATOBJ_Div function divides the two FLOATOBJs, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_Div","FLOATOBJ_Div function [Display Devices]","display.floatobj_div","gdifncs_0ffe4b55-d291-47b0-bbd4-351e01ffe228.xml","winddi/FLOATOBJ_Div"]
 old-location: display\floatobj_div.htm
 tech.root: display
 ms.assetid: 110473d8-712a-4670-96e0-daf57dd5efd2

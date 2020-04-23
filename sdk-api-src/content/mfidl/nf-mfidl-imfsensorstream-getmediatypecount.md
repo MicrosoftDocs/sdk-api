@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaTypeCount
 title: IMFSensorStream::GetMediaTypeCount (mfidl.h)
-description: Gets the count of media types supported by the sensor stream.
+description: Gets the count of media types supported by the sensor stream.helpviewer_keywords: ["GetMediaTypeCount","GetMediaTypeCount method [Media Foundation]","GetMediaTypeCount method [Media Foundation]","IMFSensorStream interface","IMFSensorStream interface [Media Foundation]","GetMediaTypeCount method","IMFSensorStream.GetMediaTypeCount","IMFSensorStream::GetMediaTypeCount","mf.imfsensorstream_getmediatypecount","mfidl/IMFSensorStream::GetMediaTypeCount"]
 old-location: mf\imfsensorstream_getmediatypecount.htm
 tech.root: medfound
 ms.assetid: DCC5645E-2E0C-4AA7-8790-3552AD343F90

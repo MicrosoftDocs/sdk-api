@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLanguage
 title: IMFTimedTextTrack::GetLanguage (mfmediaengine.h)
-description: Gets the language of the track.
+description: Gets the language of the track.helpviewer_keywords: ["GetLanguage","GetLanguage method [Media Foundation]","GetLanguage method [Media Foundation]","IMFTimedTextTrack interface","IMFTimedTextTrack interface [Media Foundation]","GetLanguage method","IMFTimedTextTrack.GetLanguage","IMFTimedTextTrack::GetLanguage","mf.imftimedtexttrack_getlanguage","mfmediaengine/IMFTimedTextTrack::GetLanguage"]
 old-location: mf\imftimedtexttrack_getlanguage.htm
 tech.root: medfound
 ms.assetid: 5676082D-A3D2-4239-A73F-65FA77D660EF

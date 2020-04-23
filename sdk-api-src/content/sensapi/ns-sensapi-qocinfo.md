@@ -1,7 +1,7 @@
 ---
 UID: NS:sensapi.tagQOCINFO
 title: QOCINFO (sensapi.h)
-description: The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.
+description: The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.helpviewer_keywords: ["*LPQOCINFO","LPQOCINFO","LPQOCINFO structure pointer [SENS]","NETWORK_ALIVE_AOL","NETWORK_ALIVE_LAN","NETWORK_ALIVE_WAN","QOCINFO","QOCINFO structure [SENS]","_zaw_qocinfo","sens.qocinfo","sensapi/LPQOCINFO","sensapi/QOCINFO","syncmgr.qocinfo"]
 old-location: sens\qocinfo.htm
 tech.root: Sens
 ms.assetid: 1f78a7c5-b3c7-4f21-8848-58cfb481f4bb

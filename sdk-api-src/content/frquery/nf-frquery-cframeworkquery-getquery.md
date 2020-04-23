@@ -1,7 +1,7 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetQuery
 title: CFrameworkQuery::GetQuery (frquery.h)
-description: The GetQuery method retrieves the actual WQL command associated with the CFrameworkQuery object.
+description: The GetQuery method retrieves the actual WQL command associated with the CFrameworkQuery object.helpviewer_keywords: ["?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ","CFrameworkQuery interface [Windows Management Instrumentation]","GetQuery method","CFrameworkQuery.GetQuery","CFrameworkQuery::GetQuery","GetQuery","GetQuery method [Windows Management Instrumentation]","GetQuery method [Windows Management Instrumentation]","CFrameworkQuery interface","_hmm_cframeworkquery_getquery","frquery/CFrameworkQuery::GetQuery","wmi.cframeworkquery_getquery"]
 old-location: wmi\cframeworkquery_getquery.htm
 tech.root: WmiSdk
 ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3

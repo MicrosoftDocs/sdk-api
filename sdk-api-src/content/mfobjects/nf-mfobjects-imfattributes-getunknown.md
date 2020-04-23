@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetUnknown
 title: IMFAttributes::GetUnknown (mfobjects.h)
-description: Retrieves an interface pointer associated with a key.
+description: Retrieves an interface pointer associated with a key.helpviewer_keywords: ["GetUnknown","GetUnknown method [Media Foundation]","GetUnknown method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetUnknown method","IMFAttributes.GetUnknown","IMFAttributes::GetUnknown","a5f645a1-b7d2-47d3-b77e-ad94815b1c25","mf.imfattributes_getunknown","mfobjects/IMFAttributes::GetUnknown"]
 old-location: mf\imfattributes_getunknown.htm
 tech.root: medfound
 ms.assetid: a5f645a1-b7d2-47d3-b77e-ad94815b1c25

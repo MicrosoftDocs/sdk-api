@@ -2,6 +2,7 @@
 UID: NC:fwpmu.FWPM_FILTER_CHANGE_CALLBACK0
 title: FWPM_FILTER_CHANGE_CALLBACK0 (fwpmu.h)
 description: Is used to added custom behavior to the filter change notification process.
+helpviewer_keywords: ["FWPM_FILTER_CHANGE_CALLBACK0","FWPM_FILTER_CHANGE_CALLBACK0 callback","FWPM_FILTER_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_filter_change_callback0_func","fwpmu/FWPM_FILTER_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_filter_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: 6c0c41d7-ff84-4ae3-b9e0-ebc52cc6273d
@@ -66,7 +67,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *change [in]
 
-Type: [FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)a>*</b>
+Type: [FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)*</b>
 
 The change notification information.
 
@@ -87,7 +88,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-[FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)a>
+[FWPM_FILTER_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_change0)
 
 
 

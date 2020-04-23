@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATPutMemberInfo
 title: CryptCATPutMemberInfo function (mscat.h)
 description: Allocates memory for a catalog member and adds it to the catalog.
+helpviewer_keywords: ["CryptCATPutMemberInfo","CryptCATPutMemberInfo function [Security]","mscat/CryptCATPutMemberInfo","security.cryptcatputmemberinfo"]
 old-location: security\cryptcatputmemberinfo.htm
 tech.root: SecCrypto
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
@@ -98,7 +99,7 @@ A pointer to  a memory buffer for <a href="https://docs.microsoft.com/windows/de
 
 
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that contains the assigned member. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the assigned member. The caller must not free this pointer or any of its members.
 
 
 If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.

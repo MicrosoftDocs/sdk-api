@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertIsStrongHashToSign
 title: CertIsStrongHashToSign function (wincrypt.h)
-description: Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.
+description: Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.helpviewer_keywords: ["CertIsStrongHashToSign","CertIsStrongHashToSign function [Security]","security.certisstronghashtosign","wincrypt/CertIsStrongHashToSign"]
 old-location: security\certisstronghashtosign.htm
 tech.root: SecCrypto
 ms.assetid: B498C1F0-1EFF-49AF-9CD4-A447F79256F1

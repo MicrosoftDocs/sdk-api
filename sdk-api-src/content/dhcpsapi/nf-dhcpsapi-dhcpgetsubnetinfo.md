@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfo
 title: DhcpGetSubnetInfo function (dhcpsapi.h)
-description: The DhcpGetSubnetInfo function returns information on a specific subnet.
+description: The DhcpGetSubnetInfo function returns information on a specific subnet.helpviewer_keywords: ["DhcpGetSubnetInfo","DhcpGetSubnetInfo function [DHCP]","dhcp.dhcpgetsubnetinfo","dhcpsapi/DhcpGetSubnetInfo"]
 old-location: dhcp\dhcpgetsubnetinfo.htm
 tech.root: DHCP
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d

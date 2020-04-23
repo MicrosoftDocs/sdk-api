@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.SelectActiveFrame
 title: Image::SelectActiveFrame (gdiplusheaders.h)
-description: The Image::SelectActiveFrame method selects the frame in this Image object specified by a dimension and an index.
+description: The Image::SelectActiveFrame method selects the frame in this Image object specified by a dimension and an index.helpviewer_keywords: ["Image class [GDI+]","SelectActiveFrame method","Image.SelectActiveFrame","Image::SelectActiveFrame","SelectActiveFrame","SelectActiveFrame method [GDI+]","SelectActiveFrame method [GDI+]","Image class","_gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_","gdiplus._gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\selectactiveframe.htm

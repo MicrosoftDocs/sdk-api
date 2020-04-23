@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_SMART_CARD_ROOT_INFO
 title: CRYPT_SMART_CARD_ROOT_INFO (wincrypt.h)
-description: Contains the smart card and session IDs associated with a certificate context.
+description: Contains the smart card and session IDs associated with a certificate context.helpviewer_keywords: ["*PCRYPT_SMART_CARD_ROOT_INFO","CRYPT_SMART_CARD_ROOT_INFO","CRYPT_SMART_CARD_ROOT_INFO structure [Security]","PCRYPT_SMART_CARD_ROOT_INFO","PCRYPT_SMART_CARD_ROOT_INFO structure pointer [Security]","security.crypt_smart_card_root_info","wincrypt/CRYPT_SMART_CARD_ROOT_INFO","wincrypt/PCRYPT_SMART_CARD_ROOT_INFO"]
 old-location: security\crypt_smart_card_root_info.htm
 tech.root: SecCrypto
 ms.assetid: 165a1a9e-e426-4823-8d1b-f13c338964c9

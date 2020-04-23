@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_CONNECTION_LIMIT_INFO
 title: HTTP_CONNECTION_LIMIT_INFO (http.h)
-description: Used to set or query the limit on the maximum number of outstanding connections for a URL Group.
+description: Used to set or query the limit on the maximum number of outstanding connections for a URL Group.helpviewer_keywords: ["*PHTTP_CONNECTION_LIMIT_INFO","*PHTTP_CONNECTION_LIMIT_INFO structure [HTTP]","HTTP_CONNECTION_LIMIT_INFO","HTTP_CONNECTION_LIMIT_INFO structure [HTTP]","http.http_connection_limit_info","http/*PHTTP_CONNECTION_LIMIT_INFO","http/HTTP_CONNECTION_LIMIT_INFO"]
 old-location: http\http_connection_limit_info.htm
 tech.root: http
 ms.assetid: 6d2c1eeb-d248-4ca5-80b3-5c9f69ce8b9b

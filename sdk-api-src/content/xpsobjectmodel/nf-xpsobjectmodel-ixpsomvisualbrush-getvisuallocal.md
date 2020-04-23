@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisualLocal
 title: IXpsOMVisualBrush::GetVisualLocal (xpsobjectmodel.h)
-description: Gets a pointer to the interface of the local, unshared visual used as the source for the brush.
+description: Gets a pointer to the interface of the local, unshared visual used as the source for the brush.helpviewer_keywords: ["GetVisualLocal","GetVisualLocal method [XPS Documents and Packaging]","GetVisualLocal method [XPS Documents and Packaging]","IXpsOMVisualBrush interface","IXpsOMVisualBrush interface [XPS Documents and Packaging]","GetVisualLocal method","IXpsOMVisualBrush.GetVisualLocal","IXpsOMVisualBrush::GetVisualLocal","xps.ixpsomvisualbrush_getvisuallocal","xpsobjectmodel/IXpsOMVisualBrush::GetVisualLocal"]
 old-location: xps\ixpsomvisualbrush_getvisuallocal.htm
 tech.root: printdocs
 ms.assetid: a75c2bca-eaac-4382-9211-fbc1b05f1414

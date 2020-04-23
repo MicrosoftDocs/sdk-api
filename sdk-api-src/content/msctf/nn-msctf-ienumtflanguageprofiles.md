@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.IEnumTfLanguageProfiles
 title: IEnumTfLanguageProfiles (msctf.h)
-description: The IEnumTfLanguageProfiles interface is implemented by the TSF manager to provide an enumeration of language profiles.
+description: The IEnumTfLanguageProfiles interface is implemented by the TSF manager to provide an enumeration of language profiles.helpviewer_keywords: ["IEnumTfLanguageProfiles","IEnumTfLanguageProfiles interface [Text Services Framework]","IEnumTfLanguageProfiles interface [Text Services Framework]","described","_tsf_ienumtflanguageprofiles_ref","msctf/IEnumTfLanguageProfiles","tsf.ienumtflanguageprofiles"]
 old-location: tsf\ienumtflanguageprofiles.htm
 tech.root: TSF
 ms.assetid: 8ac41bff-8537-4558-a92c-6e7dae6a6bdf

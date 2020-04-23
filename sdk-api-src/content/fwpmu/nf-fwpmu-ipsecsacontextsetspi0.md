@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextSetSpi0
 title: IPsecSaContextSetSpi0 function (fwpmu.h)
 description: Sets the security parameters index (SPI) for a security association (SA) context.
+helpviewer_keywords: ["IPsecSaContextSetSpi0","IPsecSaContextSetSpi0 function [Filtering]","fwp.ipsecsacontextsetspi0","fwpmu/IPsecSaContextSetSpi0"]
 old-location: fwp\ipsecsacontextsetspi0.htm
 tech.root: fwp
 ms.assetid: 32812702-e27e-4671-a248-60cc73ce8497
@@ -73,7 +74,7 @@ A runtime identifier for the SA context. This identifier was received from the s
 
 ### -param getSpi [in]
 
-Type: [IPSEC_GETSPI1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1)a>*</b>
+Type: [IPSEC_GETSPI1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1)*</b>
 
 The inbound IPsec traffic.
 
@@ -154,7 +155,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_GETSPI1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1)a>
+[IPSEC_GETSPI1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1)
 
 
 

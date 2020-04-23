@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponent.put_Description
 title: IComponent::put_Description (tuner.h)
-description: The put_Description method sets the description of the component.
+description: The put_Description method sets the description of the component.helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","put_Description method","IComponent.put_Description","IComponent::put_Description","IComponentput_Description","mstv.icomponent_put_description","put_Description","put_Description method [Microsoft TV Technologies]","put_Description method [Microsoft TV Technologies]","IComponent interface","tuner/IComponent::put_Description"]
 old-location: mstv\icomponent_put_description.htm
 tech.root: mstv
 ms.assetid: e45ea3ea-e9e2-41f9-b171-bc95aa5cc590

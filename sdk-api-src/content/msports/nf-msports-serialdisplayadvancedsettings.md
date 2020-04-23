@@ -1,7 +1,7 @@
 ---
 UID: NF:msports.SerialDisplayAdvancedSettings
 title: SerialDisplayAdvancedSettings function (msports.h)
-description: SerialDisplayAdvancedSettings displays the system-supplied advanced settings dialog box for a specified COM port device.
+description: SerialDisplayAdvancedSettings displays the system-supplied advanced settings dialog box for a specified COM port device.helpviewer_keywords: ["SerialDisplayAdvancedSettings","SerialDisplayAdvancedSettings function [Serial Ports]","comdb_6cace01c-3c22-4699-938d-9fb180d79f12.xml","msports/SerialDisplayAdvancedSettings","serports.serialdisplayadvancedsettings"]
 old-location: serports\serialdisplayadvancedsettings.htm
 tech.root: serports
 ms.assetid: 185c66e9-0c72-4aca-a99c-54995384e26e

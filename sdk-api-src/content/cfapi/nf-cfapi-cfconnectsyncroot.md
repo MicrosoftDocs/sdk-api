@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfConnectSyncRoot
 title: CfConnectSyncRoot function (cfapi.h)
-description: Initiates bi-directional communication between a sync provider and the sync filter API.
+description: Initiates bi-directional communication between a sync provider and the sync filter API.helpviewer_keywords: ["CfConnectSyncRoot","CfConnectSyncRoot function","cfapi/CfConnectSyncRoot","cloudApi.cfconnectsyncroot"]
 old-location: cloudapi\cfconnectsyncroot.htm
 tech.root: cfApi
 ms.assetid: 287DA978-9797-48DF-9C90-BA53BB82475C

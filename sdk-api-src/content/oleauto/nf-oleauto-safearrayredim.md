@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayRedim
 title: SafeArrayRedim function (oleauto.h)
-description: Changes the right-most (least significant) bound of the specified safe array.
+description: Changes the right-most (least significant) bound of the specified safe array.helpviewer_keywords: ["SafeArrayRedim","SafeArrayRedim function [Automation]","_oa96_SafeArrayRedim","automat.safearrayredim","oleauto/SafeArrayRedim"]
 old-location: automat\safearrayredim.htm
 tech.root: automat
 ms.assetid: 1c7fa627-e5e4-4bb9-8237-2f7358ebc4b8

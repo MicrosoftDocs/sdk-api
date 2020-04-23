@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get_Item
 title: ITaskFolderCollection::get_Item (taskschd.h)
-description: Gets the specified folder from the collection.
+description: Gets the specified folder from the collection.helpviewer_keywords: ["ITaskFolderCollection interface [Task Scheduler]","Item property","ITaskFolderCollection.Item","ITaskFolderCollection.get_Item","ITaskFolderCollection::Item","ITaskFolderCollection::get_Item","Item property [Task Scheduler]","Item property [Task Scheduler]","ITaskFolderCollection interface","get_Item","taskschd.itaskfoldercollection_item","taskschd/ITaskFolderCollection::Item","taskschd/ITaskFolderCollection::get_Item"]
 old-location: taskschd\itaskfoldercollection_item.htm
 tech.root: taskschd
 ms.assetid: 6caf3128-5e97-4653-88d3-3eb8131409dd

@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.UnregisterTraceGuids
 title: UnregisterTraceGuids function (evntrace.h)
-description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
+description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.helpviewer_keywords: ["UnregisterTraceGuids","UnregisterTraceGuids function [ETW]","_evt_unregistertraceguids","base.unregistertraceguids","etw.unregistertraceguids","evntrace/UnregisterTraceGuids"]
 old-location: etw\unregistertraceguids.htm
 tech.root: ETW
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e

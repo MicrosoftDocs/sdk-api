@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TabCtrl_SetItemExtra
 title: TabCtrl_SetItemExtra macro (commctrl.h)
-description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the TCM_SETITEMEXTRA message explicitly.
+description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the TCM_SETITEMEXTRA message explicitly.helpviewer_keywords: ["TabCtrl_SetItemExtra","TabCtrl_SetItemExtra macro [Windows Controls]","_win32_TabCtrl_SetItemExtra","_win32_TabCtrl_SetItemExtra_cpp","commctrl/TabCtrl_SetItemExtra","controls.TabCtrl_SetItemExtra","controls._win32_TabCtrl_SetItemExtra"]
 old-location: controls\TabCtrl_SetItemExtra.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm

@@ -1,7 +1,7 @@
 ---
 UID: NS:magnification.tagMAGIMAGEHEADER
 title: MAGIMAGEHEADER (magnification.h)
-description: Describes an image format.
+description: Describes an image format.helpviewer_keywords: ["*PMAGIMAGEHEADER","MAGIMAGEHEADER","MAGIMAGEHEADER structure [Magnification API]","PMAGIMAGEHEADER","PMAGIMAGEHEADER structure pointer [Magnification API]","magapi.magapi_magimageheader","magapi_magimageheader","magnification/MAGIMAGEHEADER","magnification/PMAGIMAGEHEADER"]
 old-location: magapi\magapi_magimageheader.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magimageheaderstruct.htm

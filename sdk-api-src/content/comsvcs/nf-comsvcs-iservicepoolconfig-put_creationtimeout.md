@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_CreationTimeout
 title: IServicePoolConfig::put_CreationTimeout (comsvcs.h)
-description: Sets the time-out interval for activating a pooled object.
+description: Sets the time-out interval for activating a pooled object.helpviewer_keywords: ["IServicePoolConfig interface [COM+]","put_CreationTimeout method","IServicePoolConfig.put_CreationTimeout","IServicePoolConfig::put_CreationTimeout","comsvcs/IServicePoolConfig::put_CreationTimeout","cos.iservicepoolconfig_put_creationtimeout","put_CreationTimeout","put_CreationTimeout method [COM+]","put_CreationTimeout method [COM+]","IServicePoolConfig interface"]
 old-location: cos\iservicepoolconfig_put_creationtimeout.htm
 tech.root: cossdk
 ms.assetid: 04beabf7-831d-4c53-880e-f1fc22f2f20d

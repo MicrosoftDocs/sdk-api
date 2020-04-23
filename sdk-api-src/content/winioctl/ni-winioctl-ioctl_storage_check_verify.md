@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_CHECK_VERIFY
 title: IOCTL_STORAGE_CHECK_VERIFY
-description: Determines whether media are accessible for a device.
+description: Determines whether media are accessible for a device.helpviewer_keywords: ["IOCTL_STORAGE_CHECK_VERIFY","IOCTL_STORAGE_CHECK_VERIFY control","IOCTL_STORAGE_CHECK_VERIFY control code","_win32_ioctl_storage_check_verify","base.ioctl_storage_check_verify","winioctl/IOCTL_STORAGE_CHECK_VERIFY"]
 old-location: base\ioctl_storage_check_verify.htm
 tech.root: devio
 ms.assetid: b4705882-30ce-4527-a1b5-c0b296b70274

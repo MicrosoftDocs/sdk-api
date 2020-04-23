@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreatePolygonRgn
 title: CreatePolygonRgn function (wingdi.h)
-description: The CreatePolygonRgn function creates a polygonal region.
+description: The CreatePolygonRgn function creates a polygonal region.helpviewer_keywords: ["ALTERNATE","CreatePolygonRgn","CreatePolygonRgn function [Windows GDI]","WINDING","_win32_CreatePolygonRgn","gdi.createpolygonrgn","wingdi/CreatePolygonRgn"]
 old-location: gdi\createpolygonrgn.htm
 tech.root: gdi
 ms.assetid: dd7ad6de-c5f2-46e4-8d28-24caaa48ba3a

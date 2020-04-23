@@ -2,6 +2,7 @@
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_NetworkProfile
 title: IWdsTransportServicePolicy::put_NetworkProfile (wdstptmgmt.h)
 description: Enables a client computer to configure the network profile that is used by the WDS Transport Server.
+helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","NetworkProfile property","IWdsTransportServicePolicy.NetworkProfile","IWdsTransportServicePolicy.put_NetworkProfile","IWdsTransportServicePolicy::NetworkProfile","IWdsTransportServicePolicy::get_NetworkProfile","IWdsTransportServicePolicy::put_NetworkProfile","NetworkProfile property [Windows Deployment Services]","NetworkProfile property [Windows Deployment Services]","IWdsTransportServicePolicy interface","put_NetworkProfile","wds.iwdstransportservicepolicy_networkprofile","wdstptmgmt/IWdsTransportServicePolicy::NetworkProfile","wdstptmgmt/IWdsTransportServicePolicy::get_NetworkProfile","wdstptmgmt/IWdsTransportServicePolicy::put_NetworkProfile"]
 old-location: wds\iwdstransportservicepolicy_networkprofile.htm
 tech.root: wds
 ms.assetid: f4eee4b3-915e-4d47-8464-306f890a5a2e
@@ -70,7 +71,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_network_profile_type">WDSTRANSPORT_NETWORK_PROFILE_TYPE</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_network_profile_type">WDSTRANSPORT_NETWORK_PROFILE_TYPE</a>
  
 
  

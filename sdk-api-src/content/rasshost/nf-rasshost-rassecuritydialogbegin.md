@@ -1,7 +1,7 @@
 ---
 UID: NF:rasshost.RasSecurityDialogBegin
 title: RasSecurityDialogBegin function (rasshost.h)
-description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.
+description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.helpviewer_keywords: ["RasSecurityDialogBegin","RasSecurityDialogBegin callback","RasSecurityDialogBegin callback function [RAS]","_ras_rassecuritydialogbegin","rasshost/RasSecurityDialogBegin","rras.rassecuritydialogbegin"]
 old-location: rras\rassecuritydialogbegin.htm
 tech.root: RRAS
 ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.PlayStateChange
 title: IWMPEvents::PlayStateChange (wmp.h)
-description: The PlayStateChange event occurs when the play state of the Windows Media Player control changes.
+description: The PlayStateChange event occurs when the play state of the Windows Media Player control changes.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PlayStateChange method","IWMPEvents.PlayStateChange","IWMPEvents::PlayStateChange","IWMPEventsPlayStateChange","PlayStateChange","PlayStateChange method [Windows Media Player]","PlayStateChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__playstatechange","wmp/IWMPEvents::PlayStateChange"]
 old-location: wmp\iwmpevents_iwmpevents__playstatechange.htm
 tech.root: WMP
 ms.assetid: d7bd4fde-8b08-4450-b291-1249393b5388

@@ -2,6 +2,7 @@
 UID: NS:evntrace._ENABLE_TRACE_PARAMETERS
 title: ENABLE_TRACE_PARAMETERS (evntrace.h)
 description: Defines the information used to enable a provider.
+helpviewer_keywords: ["*PENABLE_TRACE_PARAMETERS","ENABLE_TRACE_PARAMETERS","ENABLE_TRACE_PARAMETERS structure [ETW]","EVENT_ENABLE_PROPERTY_EVENT_KEY","EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE","EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0","EVENT_ENABLE_PROPERTY_PROCESS_START_KEY","EVENT_ENABLE_PROPERTY_PROVIDER_GROUP","EVENT_ENABLE_PROPERTY_SID","EVENT_ENABLE_PROPERTY_STACK_TRACE","EVENT_ENABLE_PROPERTY_TS_ID","PENABLE_TRACE_PARAMETERS","PENABLE_TRACE_PARAMETERS structure pointer [ETW]","_ENABLE_TRACE_PARAMETERS","etw.enable_trace_parameters","evntrace/ENABLE_TRACE_PARAMETERS","evntrace/PENABLE_TRACE_PARAMETERS"]
 old-location: etw\enable_trace_parameters.htm
 tech.root: ETW
 ms.assetid: bc7cf886-f763-428a-9e75-031e8df26554
@@ -173,7 +174,7 @@ If you set <b>EVENT_ENABLE_PROPERTY_STACK_TRACE</b>, ETW will drop the event if 
 
 If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.
 
-For consumers,  the events will include the <a href="https://docs.microsoft.com/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
+For consumers,  the events will include the <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
 
 Supported on Windows 7 and later.
 

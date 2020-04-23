@@ -1,7 +1,7 @@
 ---
 UID: NE:wtsdefs._WRDS_LISTENER_SETTING_LEVEL
 title: WRDS_LISTENER_SETTING_LEVEL (wtsdefs.h)
-description: Used to specify the type of structure that is contained in the WRdsListenerSetting member of the WRDS_LISTENER_SETTINGS structure.
+description: Used to specify the type of structure that is contained in the WRdsListenerSetting member of the WRDS_LISTENER_SETTINGS structure.helpviewer_keywords: ["*PWRDS_LISTENER_SETTING_LEVEL","PWRDS_LISTENER_SETTING_LEVEL","PWRDS_LISTENER_SETTING_LEVEL enumeration pointer [Remote Desktop Services]","WRDS_LISTENER_SETTING_LEVEL","WRDS_LISTENER_SETTING_LEVEL enumeration [Remote Desktop Services]","WRDS_LISTENER_SETTING_LEVEL_1","WRDS_LISTENER_SETTING_LEVEL_INVALID","termserv.wrds_listener_setting_level","wtsdefs/PWRDS_LISTENER_SETTING_LEVEL","wtsdefs/WRDS_LISTENER_SETTING_LEVEL","wtsdefs/WRDS_LISTENER_SETTING_LEVEL_1","wtsdefs/WRDS_LISTENER_SETTING_LEVEL_INVALID"]
 old-location: termserv\wrds_listener_setting_level.htm
 tech.root: TermServ
 ms.assetid: 09FF31B5-7566-440D-98BB-96C7A4192C30

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetStitchable
 title: IDCompositionTurbulenceEffect::SetStitchable (dcomp.h)
-description: Specifies whether stitching is on or off.
+description: Specifies whether stitching is on or off.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetStitchable method","IDCompositionTurbulenceEffect.SetStitchable","IDCompositionTurbulenceEffect::SetStitchable","SetStitchable","SetStitchable method [DirectComposition]","SetStitchable method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetStitchable","directcomp.idcompositionturbulenceeffect_setstitchable"]
 old-location: directcomp\idcompositionturbulenceeffect_setstitchable.htm
 tech.root: directcomp
 ms.assetid: A73474FD-FECE-4654-8B6C-F44C2DDD7D9C

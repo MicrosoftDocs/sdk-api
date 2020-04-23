@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.RefreshObject
 title: IShellFolderView::RefreshObject (shlobj_core.h)
-description: RefreshObject may be altered or unavailable.
+description: RefreshObject may be altered or unavailable.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","RefreshObject method","IShellFolderView.RefreshObject","IShellFolderView::RefreshObject","RefreshObject","RefreshObject method [Windows Shell]","RefreshObject method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_RefreshObject","shell.IShellFolderView_RefreshObject","shlobj_core/IShellFolderView::RefreshObject"]
 old-location: shell\IShellFolderView_RefreshObject.htm
 tech.root: shell
 ms.assetid: 6165d2d1-4bd6-4a18-8191-1fd7e924d7d8

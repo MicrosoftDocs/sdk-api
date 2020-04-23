@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsDeleteOps.DeleteObject
 title: IADsDeleteOps::DeleteObject (iads.h)
-description: The IADsDeleteOps::DeleteObject method deletes an ADSI object.
+description: The IADsDeleteOps::DeleteObject method deletes an ADSI object.helpviewer_keywords: ["DeleteObject","DeleteObject method [ADSI]","DeleteObject method [ADSI]","IADsDeleteOps interface","IADsDeleteOps interface [ADSI]","DeleteObject method","IADsDeleteOps.DeleteObject","IADsDeleteOps::DeleteObject","_ds_iadsdeleteops_deleteobject","adsi.iadsdeleteops__deleteobject","adsi.iadsdeleteops_deleteobject","iads/IADsDeleteOps::DeleteObject"]
 old-location: adsi\iadsdeleteops_deleteobject.htm
 tech.root: adsi
 ms.assetid: 53685f60-9adf-40f0-b6d3-e59a0435f744

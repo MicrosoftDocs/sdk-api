@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IIsdbComponentGroupDescriptor
 title: IIsdbComponentGroupDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.helpviewer_keywords: ["IIsdbComponentGroupDescriptor","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbComponentGroupDescriptor","mstv.iisdbcomponentgroupdescriptor"]
 old-location: mstv\iisdbcomponentgroupdescriptor.htm
 tech.root: mstv
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba

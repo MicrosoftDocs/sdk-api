@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IExtractImage
 title: IExtractImage (shobjidl_core.h)
-description: Exposes methods that request a thumbnail image from a Shell folder.
+description: Exposes methods that request a thumbnail image from a Shell folder.helpviewer_keywords: ["IExtractImage","IExtractImage interface [Windows Shell]","IExtractImage interface [Windows Shell]","described","_win32_IExtractImage","shell.IExtractImage","shobjidl_core/IExtractImage"]
 old-location: shell\IExtractImage.htm
 tech.root: shell
 ms.assetid: 28a13749-89e7-407e-89cb-95464859ce3e

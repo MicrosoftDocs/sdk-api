@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication2.InitializeClientContext2
 title: IAzApplication2::InitializeClientContext2 (azroles.h)
-description: Retrieves an IAzClientContext2 object pointer.
+description: Retrieves an IAzClientContext2 object pointer.helpviewer_keywords: ["IAzApplication2 interface [Security]","InitializeClientContext2 method","IAzApplication2.InitializeClientContext2","IAzApplication2::InitializeClientContext2","InitializeClientContext2","InitializeClientContext2 method [Security]","InitializeClientContext2 method [Security]","IAzApplication2 interface","azroles/IAzApplication2::InitializeClientContext2","security.iazapplication2_initializeclientcontext2"]
 old-location: security\iazapplication2_initializeclientcontext2.htm
 tech.root: SecAuthZ
 ms.assetid: 8790ebb0-97eb-47a0-b975-87e0524dcc1b

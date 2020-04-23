@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.Effect.GetAuxData
 title: Effect::GetAuxData (gdipluseffects.h)
-description: The Effect::GetAuxData gets a pointer to a set of lookup tables created by a previous call to the Bitmap::ApplyEffect method.
+description: The Effect::GetAuxData gets a pointer to a set of lookup tables created by a previous call to the Bitmap::ApplyEffect method.helpviewer_keywords: ["Effect class [GDI+]","GetAuxData method","Effect.GetAuxData","Effect::GetAuxData","GetAuxData","GetAuxData method [GDI+]","GetAuxData method [GDI+]","Effect class","_gdiplus_CLASS_Effect_GetAuxData_","gdiplus._gdiplus_CLASS_Effect_GetAuxData_"]
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetAuxData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdata.htm

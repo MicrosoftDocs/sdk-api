@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CloseClusterNetwork
 title: CloseClusterNetwork function (clusapi.h)
-description: Closes a network handle.
+description: Closes a network handle.helpviewer_keywords: ["CloseClusterNetwork","CloseClusterNetwork function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_NETWORK","PCLUSAPI_CLOSE_CLUSTER_NETWORK function [Failover Cluster]","_wolf_closeclusternetwork","clusapi/CloseClusterNetwork","clusapi/PCLUSAPI_CLOSE_CLUSTER_NETWORK","mscs.closeclusternetwork"]
 old-location: mscs\closeclusternetwork.htm
 tech.root: MsCS
 ms.assetid: 2d112729-1306-45ff-8845-43032a55ca1c

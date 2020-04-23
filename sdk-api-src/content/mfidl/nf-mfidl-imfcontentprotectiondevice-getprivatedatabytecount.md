@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFContentProtectionDevice.GetPrivateDataByteCount
 title: IMFContentProtectionDevice::GetPrivateDataByteCount (mfidl.h)
-description: Gets the required number of bytes that need to be prepended to the input and output buffers when you call the security processor through the InvokeFunction method.
+description: Gets the required number of bytes that need to be prepended to the input and output buffers when you call the security processor through the InvokeFunction method.helpviewer_keywords: ["GetPrivateDataByteCount","GetPrivateDataByteCount method [Media Foundation]","GetPrivateDataByteCount method [Media Foundation]","IMFContentProtectionDevice interface","IMFContentProtectionDevice interface [Media Foundation]","GetPrivateDataByteCount method","IMFContentProtectionDevice.GetPrivateDataByteCount","IMFContentProtectionDevice::GetPrivateDataByteCount","mf.imfcontentprotectiondevice_getprivatedatabytecount","mfidl/IMFContentProtectionDevice::GetPrivateDataByteCount"]
 old-location: mf\imfcontentprotectiondevice_getprivatedatabytecount.htm
 tech.root: medfound
 ms.assetid: 24FBA7E0-1496-4921-91C7-69E9AF830586

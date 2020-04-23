@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_BINARY_DATA
 title: DHCP_BINARY_DATA (dhcpsapi.h)
-description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
+description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.helpviewer_keywords: ["*LPDHCP_BINARY_DATA","DHCP_BINARY_DATA","DHCP_BINARY_DATA structure [DHCP]","DHCP_CLIENT_UID","DHCP_CLIENT_UID structure [DHCP]","LPDHCP_BINARY_DATA","LPDHCP_BINARY_DATA structure pointer [DHCP]","dhcp.dhcp_binary_data","dhcpsapi/DHCP_CLIENT_UID","dhcpsapi/LPDHCP_BINARY_DATA","dhcpsapi/_DHCP_BINARY_DATA"]
 old-location: dhcp\dhcp_binary_data.htm
 tech.root: DHCP
 ms.assetid: 0afdddb4-12f9-4c0b-937a-2cc311c126b4

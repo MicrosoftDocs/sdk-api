@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IConfigInterleaving.get_Mode
 title: IConfigInterleaving::get_Mode (strmif.h)
-description: The get_Mode method retrieves the interleaving quality setting.
+description: The get_Mode method retrieves the interleaving quality setting.helpviewer_keywords: ["IConfigInterleaving interface [DirectShow]","get_Mode method","IConfigInterleaving.get_Mode","IConfigInterleaving::get_Mode","IConfigInterleavingget_Mode","dshow.iconfiginterleaving_get_mode","get_Mode","get_Mode method [DirectShow]","get_Mode method [DirectShow]","IConfigInterleaving interface","strmif/IConfigInterleaving::get_Mode"]
 old-location: dshow\iconfiginterleaving_get_mode.htm
 tech.root: DirectShow
 ms.assetid: 02136798-1c49-4181-ad08-d128f580dbd4

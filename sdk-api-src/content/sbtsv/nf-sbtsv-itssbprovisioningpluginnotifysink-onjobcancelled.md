@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCancelled
 title: ITsSbProvisioningPluginNotifySink::OnJobCancelled (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is cancelled.
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is cancelled.helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","OnJobCancelled method","ITsSbProvisioningPluginNotifySink.OnJobCancelled","ITsSbProvisioningPluginNotifySink::OnJobCancelled","OnJobCancelled","OnJobCancelled method [Remote Desktop Services]","OnJobCancelled method [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface","sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCancelled","termserv.itssbprovisioningpluginnotifysink_onjobcancelled"]
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcancelled.htm
 tech.root: TermServ
 ms.assetid: c4e65194-47c1-43d9-93b3-fbbb57d7f34a

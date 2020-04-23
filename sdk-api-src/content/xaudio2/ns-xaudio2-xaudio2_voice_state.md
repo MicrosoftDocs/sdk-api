@@ -1,7 +1,7 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_STATE
 title: XAUDIO2_VOICE_STATE (xaudio2.h)
-description: Returns the voice's current state and cursor position data.
+description: Returns the voice's current state and cursor position data.helpviewer_keywords: ["XAUDIO2_VOICE_STATE","XAUDIO2_VOICE_STATE structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_voice_state","xaudio2/XAUDIO2_VOICE_STATE"]
 old-location: xaudio2\xaudio2_voice_state.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_STATE

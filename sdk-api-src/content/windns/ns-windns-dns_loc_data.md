@@ -2,6 +2,7 @@
 UID: NS:windns.__unnamed_struct_27
 title: DNS_LOC_DATA (windns.h)
 description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
+helpviewer_keywords: ["*PDNS_LOC_DATA","DNS_LOC_DATA","DNS_LOC_DATA structure [DNS]","PDNS_LOC_DATA","PDNS_LOC_DATA structure pointer [DNS]","_dns_dns_loc_data","dns.dns_loc_data","windns/DNS_LOC_DATA","windns/PDNS_LOC_DATA"]
 old-location: dns\dns_loc_data.htm
 tech.root: DNS
 ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
@@ -99,7 +100,7 @@ The altitude of the center of the sphere, defined as "ALTITUDE"         in secti
 
 The 
 <b>DNS_LOC_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -109,7 +110,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

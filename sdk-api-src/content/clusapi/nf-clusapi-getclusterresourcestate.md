@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterResourceState
 title: GetClusterResourceState function (clusapi.h)
-description: Returns the current state of a resource.
+description: Returns the current state of a resource.helpviewer_keywords: ["GetClusterResourceState","GetClusterResourceState function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_RESOURCE_STATE","PCLUSAPI_GET_CLUSTER_RESOURCE_STATE function [Failover Cluster]","_wolf_getclusterresourcestate","clusapi/GetClusterResourceState","clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_STATE","mscs.getclusterresourcestate"]
 old-location: mscs\getclusterresourcestate.htm
 tech.root: MsCS
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00

@@ -2,6 +2,7 @@
 UID: NS:dbt._DEV_BROADCAST_HDR
 title: DEV_BROADCAST_HDR (dbt.h)
 description: Serves as a standard header for information related to a device event reported through the WM_DEVICECHANGE message.
+helpviewer_keywords: ["DBT_DEVTYP_DEVICEINTERFACE","DBT_DEVTYP_HANDLE","DBT_DEVTYP_OEM","DBT_DEVTYP_PORT","DBT_DEVTYP_VOLUME","DEV_BROADCAST_HDR","DEV_BROADCAST_HDR structure","PDEV_BROADCAST_HDR","PDEV_BROADCAST_HDR structure pointer","_win32_dev_broadcast_hdr_str","base.dev_broadcast_hdr_str","dbt/DEV_BROADCAST_HDR","dbt/PDEV_BROADCAST_HDR"]
 old-location: base\dev_broadcast_hdr_str.htm
 tech.root: devio
 ms.assetid: 4fc81fcb-b9fe-4016-b639-a43845af2c5f
@@ -71,7 +72,7 @@ The size of this structure, in bytes.
 
 
 If this is a user-defined event, this member must be the size of this header, plus the size of the variable-length data in the 
-<a href="https://docs.microsoft.com/windows/win32/api/dbt/ns-dbt-_dev_broadcast_userdefined">_DEV_BROADCAST_USERDEFINED</a> structure.
+<a href="/windows/win32/api/dbt/ns-dbt-_dev_broadcast_userdefined">_DEV_BROADCAST_USERDEFINED</a> structure.
 
 
 ### -field dbch_devicetype

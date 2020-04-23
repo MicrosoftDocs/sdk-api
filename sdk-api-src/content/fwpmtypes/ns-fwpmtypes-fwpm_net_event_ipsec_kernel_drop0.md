@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IPSEC_KERNEL_DROP0_
 title: FWPM_NET_EVENT_IPSEC_KERNEL_DROP0 (fwpmtypes.h)
 description: Contains information that describes an IPsec kernel drop event.
+helpviewer_keywords: ["FWPM_NET_EVENT_IPSEC_KERNEL_DROP0","FWPM_NET_EVENT_IPSEC_KERNEL_DROP0 structure [Filtering]","fwp.fwpm_net_event_ipsec_kernel_drop0","fwpmtypes/FWPM_NET_EVENT_IPSEC_KERNEL_DROP0"]
 old-location: fwp\fwpm_net_event_ipsec_kernel_drop0.htm
 tech.root: fwp
 ms.assetid: ef970199-3603-4012-9033-afa4a7301fea
@@ -64,7 +65,7 @@ Contains the  error code for the failure.
 
 ### -field direction
 
-An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction)a> value that specifies whether the dropped packet is inbound or outbound.
+An [FWP_DIRECTION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction) value that specifies whether the dropped packet is inbound or outbound.
 
 
 ### -field spi

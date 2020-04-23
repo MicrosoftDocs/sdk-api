@@ -2,6 +2,7 @@
 UID: NF:rtmv2.RtmGetChangedDests
 title: RtmGetChangedDests function (rtmv2.h)
 description: The RtmGetChangedDests function returns a set of destinations with changed information.
+helpviewer_keywords: ["RtmGetChangedDests","RtmGetChangedDests function [RAS]","_rtmv2ref_rtmgetchangeddests","rras.rtmgetchangeddests","rtmv2/RtmGetChangedDests"]
 old-location: rras\rtmgetchangeddests.htm
 tech.root: RRAS
 ms.assetid: 2b22927d-a857-4bcb-9d89-6ca156b04ea9
@@ -141,7 +142,7 @@ No more changed destinations to retrieve.
 
 
 A client is notified of changes by an 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>. The 
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>. The 
 <b>RTM_EVENT_CALLBACK</b> is only used to notify the client, not deliver the changes. After a change notification is received, the client must call 
 <b>RtmGetChangedDests</b> repeatedly to retrieve all the changes.
 
@@ -165,7 +166,7 @@ For sample code using this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
 
 
 

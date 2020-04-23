@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.GetCredential
 title: IMFNetCredentialCache::GetCredential (mfidl.h)
-description: Retrieves the credential object for the specified URL.
+description: Retrieves the credential object for the specified URL.helpviewer_keywords: ["7e095445-354a-4fbb-b354-bf87eb77552f","GetCredential","GetCredential method [Media Foundation]","GetCredential method [Media Foundation]","IMFNetCredentialCache interface","IMFNetCredentialCache interface [Media Foundation]","GetCredential method","IMFNetCredentialCache.GetCredential","IMFNetCredentialCache::GetCredential","mf.imfnetcredentialcache_getcredential","mfidl/IMFNetCredentialCache::GetCredential"]
 old-location: mf\imfnetcredentialcache_getcredential.htm
 tech.root: medfound
 ms.assetid: 7e095445-354a-4fbb-b354-bf87eb77552f

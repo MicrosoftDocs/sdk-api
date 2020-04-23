@@ -2,6 +2,7 @@
 UID: NS:fileapi._WIN32_FIND_STREAM_DATA
 title: WIN32_FIND_STREAM_DATA (fileapi.h)
 description: Contains information about the stream found by the FindFirstStreamW or FindNextStreamW function.
+helpviewer_keywords: ["*PWIN32_FIND_STREAM_DATA","PWIN32_FIND_STREAM_DATA","PWIN32_FIND_STREAM_DATA structure pointer [Files]","WIN32_FIND_STREAM_DATA","WIN32_FIND_STREAM_DATA structure [Files]","_win32_win32_find_stream_data_str","base.win32_find_stream_data_str","fileapi/PWIN32_FIND_STREAM_DATA","fileapi/WIN32_FIND_STREAM_DATA","fs.win32_find_stream_data_str"]
 old-location: fs\win32_find_stream_data_str.htm
 tech.root: FileIO
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
@@ -61,7 +62,7 @@ Contains information about the stream found by the
 
 ### -field StreamSize
 
-A <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> value that specifies the 
+A <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> value that specifies the 
       size of the stream, in bytes.
 
 
@@ -84,7 +85,7 @@ The name of the stream. The string name format is
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
  
 
  

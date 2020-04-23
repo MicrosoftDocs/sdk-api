@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMaxQueuedRequests
 title: IThreadPoolKnobs::SetMaxQueuedRequests (comsvcs.h)
-description: Sets the maximum number of asynchronous execution requests that can be simultaneously queued.
+description: Sets the maximum number of asynchronous execution requests that can be simultaneously queued.helpviewer_keywords: ["IThreadPoolKnobs interface [COM+]","SetMaxQueuedRequests method","IThreadPoolKnobs.SetMaxQueuedRequests","IThreadPoolKnobs::SetMaxQueuedRequests","SetMaxQueuedRequests","SetMaxQueuedRequests method [COM+]","SetMaxQueuedRequests method [COM+]","IThreadPoolKnobs interface","_cos_IThreadPoolKnobs_SetMaxQueuedRequests","comsvcs/IThreadPoolKnobs::SetMaxQueuedRequests","cos.ithreadpoolknobs_setmaxqueuedrequests"]
 old-location: cos\ithreadpoolknobs_setmaxqueuedrequests.htm
 tech.root: cossdk
 ms.assetid: 63f579a0-853e-484b-bc49-1c0f4c76d889

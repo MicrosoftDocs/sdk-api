@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelOpen
 title: WTSVirtualChannelOpen function (wtsapi32.h)
-description: Opens a handle to the server end of a specified virtual channel.
+description: Opens a handle to the server end of a specified virtual channel.helpviewer_keywords: ["WTSVirtualChannelOpen","WTSVirtualChannelOpen function [Remote Desktop Services]","_win32_wtsvirtualchannelopen","termserv.wtsvirtualchannelopen","wtsapi32/WTSVirtualChannelOpen"]
 old-location: termserv\wtsvirtualchannelopen.htm
 tech.root: TermServ
 ms.assetid: 0daaf06f-ba05-469c-b888-3df5d9495364

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetPreviousChild
 title: ID2D1SvgElement::GetPreviousChild (d2d1svg.h)
-description: Gets the previous sibling of the referenceChild element.
+description: Gets the previous sibling of the referenceChild element.helpviewer_keywords: ["GetPreviousChild","GetPreviousChild method [Direct2D]","GetPreviousChild method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetPreviousChild method","ID2D1SvgElement.GetPreviousChild","ID2D1SvgElement::GetPreviousChild","d2d1svg/ID2D1SvgElement::GetPreviousChild","direct2d.id2d1svgelement_getpreviouschild"]
 old-location: direct2d\id2d1svgelement_getpreviouschild.htm
 tech.root: Direct2D
 ms.assetid: CE4334D8-7A96-464A-BE57-A7B226221FC3

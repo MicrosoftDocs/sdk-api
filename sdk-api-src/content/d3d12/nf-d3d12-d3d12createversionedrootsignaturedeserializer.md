@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.D3D12CreateVersionedRootSignatureDeserializer
 title: D3D12CreateVersionedRootSignatureDeserializer function (d3d12.h)
-description: Generates an interface that can return the deserialized data structure, via GetUnconvertedRootSignatureDesc.
+description: Generates an interface that can return the deserialized data structure, via GetUnconvertedRootSignatureDesc.helpviewer_keywords: ["D3D12CreateVersionedRootSignatureDeserializer","D3D12CreateVersionedRootSignatureDeserializer function","d3d12/D3D12CreateVersionedRootSignatureDeserializer","direct3d12.d3d12createversionedrootsignaturedeserializer"]
 old-location: direct3d12\d3d12createversionedrootsignaturedeserializer.htm
 tech.root: direct3d12
 ms.assetid: 0C079508-C330-4391-82CB-54DAAFBACB87

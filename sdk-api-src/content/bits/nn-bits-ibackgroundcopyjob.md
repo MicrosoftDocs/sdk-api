@@ -1,7 +1,7 @@
 ---
 UID: NN:bits.IBackgroundCopyJob
 title: IBackgroundCopyJob (bits.h)
-description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
+description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.helpviewer_keywords: ["IBackgroundCopyJob","IBackgroundCopyJob interface [BITS]","IBackgroundCopyJob interface [BITS]","described","_drz_ibackgroundcopyjob","bits.ibackgroundcopyjob","bits/IBackgroundCopyJob"]
 old-location: bits\ibackgroundcopyjob.htm
 tech.root: Bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2

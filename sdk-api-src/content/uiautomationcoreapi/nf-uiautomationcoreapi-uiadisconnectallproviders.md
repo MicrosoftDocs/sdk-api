@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaDisconnectAllProviders
 title: UiaDisconnectAllProviders function (uiautomationcoreapi.h)
-description: Releases all Microsoft UI Automation resources that are held by all providers associated with the calling process.
+description: Releases all Microsoft UI Automation resources that are held by all providers associated with the calling process.helpviewer_keywords: ["UiaDisconnectAllProviders","UiaDisconnectAllProviders function [Windows Accessibility]","uiautomationcoreapi/UiaDisconnectAllProviders","winauto.uiauto_UiaDisconnectAllProviders"]
 old-location: winauto\uiauto_UiaDisconnectAllProviders.htm
 tech.root: WinAuto
 ms.assetid: 1E46DC9A-8E72-49B2-B867-C075962EF00A

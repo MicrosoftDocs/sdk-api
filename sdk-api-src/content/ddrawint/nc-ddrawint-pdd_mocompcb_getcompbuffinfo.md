@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_GETCOMPBUFFINFO
 title: PDD_MOCOMPCB_GETCOMPBUFFINFO (ddrawint.h)
-description: The DDMoCompGetBuffInfo callback function allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
+description: The DDMoCompGetBuffInfo callback function allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.helpviewer_keywords: ["DdMoCompGetBuffInfo","DdMoCompGetBuffInfo callback function [Display Devices]","PDD_MOCOMPCB_GETCOMPBUFFINFO","PDD_MOCOMPCB_GETCOMPBUFFINFO callback","ddfncs_6b92e5df-6051-4481-a2a6-bb0f4cc4fd8e.xml","ddrawint/DdMoCompGetBuffInfo","display.ddmocompgetbuffinfo"]
 old-location: display\ddmocompgetbuffinfo.htm
 tech.root: display
 ms.assetid: 7303f80d-1b6e-401f-a9ef-cf646b716c70

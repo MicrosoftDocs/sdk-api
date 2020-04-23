@@ -2,6 +2,7 @@
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelManager.CreateChannel
 title: IWRdsGraphicsChannelManager::CreateChannel (wrdsgraphicschannels.h)
 description: Used to create a graphics virtual channel.
+helpviewer_keywords: ["CreateChannel","CreateChannel method [Remote Desktop Services]","CreateChannel method [Remote Desktop Services]","IWRdsGraphicsChannelManager interface","IWRdsGraphicsChannelManager interface [Remote Desktop Services]","CreateChannel method","IWRdsGraphicsChannelManager.CreateChannel","IWRdsGraphicsChannelManager::CreateChannel","termserv.iwrdsgraphicschannelmanager_createchannel","wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel"]
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
 tech.root: TermServ
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
@@ -96,9 +97,9 @@ The video-optimized bitmap remote control channel.
 
 ### -param channelType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a></b>
+Type: <b><a href="/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a></b>
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
+A value of the <a href="/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
 
 
 ### -param ppVirtualChannel [out, retval]

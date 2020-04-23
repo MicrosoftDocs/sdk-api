@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitVariantFromBuffer
 title: InitVariantFromBuffer function (propvarutil.h)
-description: Initializes a VARIANT structure with the contents of a buffer.
+description: Initializes a VARIANT structure with the contents of a buffer.helpviewer_keywords: ["InitVariantFromBuffer","InitVariantFromBuffer function [Windows Properties]","_shell_InitVariantFromBuffer","properties.InitVariantFromBuffer","propvarutil/InitVariantFromBuffer","shell.InitVariantFromBuffer"]
 old-location: properties\InitVariantFromBuffer.htm
 tech.root: properties
 ms.assetid: 4dd28a13-2161-4258-a32f-57e5bd8ce091

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCore3.newPlaylist
 title: IWMPCore3::newPlaylist (wmp.h)
-description: The newPlaylist method retrieves a pointer to an IWMPPlaylist interface for a new playlist.
+description: The newPlaylist method retrieves a pointer to an IWMPPlaylist interface for a new playlist.helpviewer_keywords: ["IWMPCore3 interface [Windows Media Player]","newPlaylist method","IWMPCore3.newPlaylist","IWMPCore3::newPlaylist","IWMPCore3newPlaylist","newPlaylist","newPlaylist method [Windows Media Player]","newPlaylist method [Windows Media Player]","IWMPCore3 interface","wmp.iwmpcore3_newplaylist","wmp/IWMPCore3::newPlaylist"]
 old-location: wmp\iwmpcore3_newplaylist.htm
 tech.root: WMP
 ms.assetid: 61af7ce9-7fc6-4907-b423-3e6d2d8f39ac

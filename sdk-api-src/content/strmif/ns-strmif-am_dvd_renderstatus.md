@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif.__MIDL___MIDL_itf_strmif_0000_0138_0001
 title: AM_DVD_RENDERSTATUS (strmif.h)
-description: The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the IDvdGraphBuilder::RenderDvdVideoVolume method.
+description: The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the IDvdGraphBuilder::RenderDvdVideoVolume method.helpviewer_keywords: ["AM_DVD_RENDERSTATUS","AM_DVD_RENDERSTATUS structure [DirectShow]","AM_DVD_RENDERSTATUSStructure","dshow.am_dvd_renderstatus","strmif/AM_DVD_RENDERSTATUS"]
 old-location: dshow\am_dvd_renderstatus.htm
 tech.root: DirectShow
 ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a

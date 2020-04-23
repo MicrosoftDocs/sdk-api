@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_EndingSectorsPerSecond
 title: IWriteEngine2::put_EndingSectorsPerSecond (imapi2.h)
-description: Sets the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
+description: Sets the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_EndingSectorsPerSecond method","IWriteEngine2.put_EndingSectorsPerSecond","IWriteEngine2::put_EndingSectorsPerSecond","imapi.iwriteengine2_put_endingsectorspersecond","imapi2/IWriteEngine2::put_EndingSectorsPerSecond","put_EndingSectorsPerSecond","put_EndingSectorsPerSecond method [IMAPI]","put_EndingSectorsPerSecond method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_endingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 7060578d-c6d5-4155-9ab8-7185bde38f64

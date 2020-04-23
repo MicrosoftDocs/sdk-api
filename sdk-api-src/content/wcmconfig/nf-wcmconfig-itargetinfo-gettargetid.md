@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetID
 title: ITargetInfo::GetTargetID (wcmconfig.h)
-description: Gets the unique identifier associated with the current target.
+description: Gets the unique identifier associated with the current target.helpviewer_keywords: ["GetTargetID","GetTargetID method [SMI]","GetTargetID method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetTargetID method","ITargetInfo.GetTargetID","ITargetInfo::GetTargetID","smi.itargetinfo_gettargetid","wcmconfig/ITargetInfo::GetTargetID"]
 old-location: smi\itargetinfo_gettargetid.htm
 tech.root: SMI
 ms.assetid: b80e3363-8efa-44b7-a61e-66177d1c53ce

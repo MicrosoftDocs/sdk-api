@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumWarpAdapter
 title: IDXGIFactory4::EnumWarpAdapter (dxgi1_4.h)
-description: Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.
+description: Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.helpviewer_keywords: ["EnumWarpAdapter","EnumWarpAdapter method [DXGI]","EnumWarpAdapter method [DXGI]","IDXGIFactory4 interface","IDXGIFactory4 interface [DXGI]","EnumWarpAdapter method","IDXGIFactory4.EnumWarpAdapter","IDXGIFactory4::EnumWarpAdapter","direct3ddxgi.idxgifactory4_enumwarpadapter","dxgi1_4/IDXGIFactory4::EnumWarpAdapter"]
 old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: 18991B1A-5FA7-4298-A5FD-C8D7C485E4F7

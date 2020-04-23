@@ -2,6 +2,7 @@
 UID: NF:wininet.InternetSetCookieExA
 title: InternetSetCookieExA function (wininet.h)
 description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
+helpviewer_keywords: ["INTERNET_COOKIE_EVALUATE_P3P","INTERNET_COOKIE_HTTPONLY","INTERNET_COOKIE_THIRD_PARTY","INTERNET_FLAG_RESTRICTED_ZONE","InternetSetCookieEx","InternetSetCookieEx function [WinINet]","InternetSetCookieExA","InternetSetCookieExW","wininet.internetsetcookieex","wininet/InternetSetCookieEx","wininet/InternetSetCookieExA","wininet/InternetSetCookieExW"]
 old-location: wininet\internetsetcookieex.htm
 tech.root: wininet
 ms.assetid: 5044761f-152d-4606-87d2-c56a11db18c4
@@ -152,7 +153,7 @@ Indicates that the cookie being set is associated with an untrusted site.
 
 
 
-Returns a member of the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
+Returns a member of the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY,  insufficient system memory was available.
 
 

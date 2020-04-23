@@ -2,6 +2,7 @@
 UID: NE:winioctl._STORAGE_PROPERTY_ID
 title: STORAGE_PROPERTY_ID
 description: Enumerates the possible values of the PropertyId member of the STORAGE_PROPERTY_QUERY structure passed as input to the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
+helpviewer_keywords: ["*PSTORAGE_PROPERTY_ID","PSTORAGE_PROPERTY_ID","PSTORAGE_PROPERTY_ID enumeration pointer [Files]","STORAGE_PROPERTY_ID","STORAGE_PROPERTY_ID enumeration [Files]","StorageAccessAlignmentProperty","StorageAdapterPhysicalTopologyProperty","StorageAdapterProperty","StorageAdapterProtocolSpecificProperty","StorageAdapterTemperatureProperty","StorageDeviceAttributesProperty","StorageDeviceCopyOffloadProperty","StorageDeviceDeviceTelemetryProperty","StorageDeviceIdProperty","StorageDeviceIoCapabilityProperty","StorageDeviceLBProvisioningProperty","StorageDeviceMediumProductType","StorageDevicePhysicalTopologyProperty","StorageDevicePowerProperty","StorageDeviceProperty","StorageDeviceProtocolSpecificProperty","StorageDeviceResiliencyProperty","StorageDeviceSeekPenaltyProperty","StorageDeviceTemperatureProperty","StorageDeviceTrimProperty","StorageDeviceUniqueIdProperty","StorageDeviceWriteAggregationProperty","StorageDeviceWriteCacheProperty","StorageMiniportProperty","fs.storage_property_id","winioctl/PSTORAGE_PROPERTY_ID","winioctl/STORAGE_PROPERTY_ID","winioctl/StorageAccessAlignmentProperty","winioctl/StorageAdapterPhysicalTopologyProperty","winioctl/StorageAdapterProperty","winioctl/StorageAdapterProtocolSpecificProperty","winioctl/StorageAdapterTemperatureProperty","winioctl/StorageDeviceAttributesProperty","winioctl/StorageDeviceCopyOffloadProperty","winioctl/StorageDeviceDeviceTelemetryProperty","winioctl/StorageDeviceIdProperty","winioctl/StorageDeviceIoCapabilityProperty","winioctl/StorageDeviceLBProvisioningProperty","winioctl/StorageDeviceMediumProductType","winioctl/StorageDevicePhysicalTopologyProperty","winioctl/StorageDevicePowerProperty","winioctl/StorageDeviceProperty","winioctl/StorageDeviceProtocolSpecificProperty","winioctl/StorageDeviceResiliencyProperty","winioctl/StorageDeviceSeekPenaltyProperty","winioctl/StorageDeviceTemperatureProperty","winioctl/StorageDeviceTrimProperty","winioctl/StorageDeviceUniqueIdProperty","winioctl/StorageDeviceWriteAggregationProperty","winioctl/StorageDeviceWriteCacheProperty","winioctl/StorageMiniportProperty"]
 old-location: fs\storage_property_id.htm
 tech.root: FileIO
 ms.assetid: 9747be01-7c70-4697-97f7-e3830b54ba0a
@@ -95,7 +96,7 @@ Reserved for system use.
 
 ### -field StorageAccessAlignmentProperty
 
-Indicates that the caller is querying for the access alignment descriptor, <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>.
+Indicates that the caller is querying for the access alignment descriptor, <a href="/windows/win32/api/winioctl/ns-winioctl-storage_access_alignment_descriptor">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
 
@@ -126,7 +127,7 @@ Reserved for system use.
 
 ### -field StorageDeviceLBProvisioningProperty
 
-Indicates that the caller is querying for the logical block provisioning property. Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the logical block provisioning property. Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> structure.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
@@ -152,19 +153,19 @@ Reserved for system use.
 
 ### -field StorageDeviceMediumProductType
 
-Indicates that the caller is querying for the medium product type. Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_medium_product_type_descriptor">STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the medium product type. Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-storage_medium_product_type_descriptor">STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR</a> structure.
 
 
 ### -field StorageAdapterRpmbProperty
 
-Indicates that the caller is querying for RPMB support and properties. Data is returned using the [STORAGE_RPMB_DESCRIPTOR](/windows/win32/api/winioctl/ns-winioctl-storage_rpmb_descriptor)a> structure.
+Indicates that the caller is querying for RPMB support and properties. Data is returned using the [STORAGE_RPMB_DESCRIPTOR](/windows/win32/api/winioctl/ns-winioctl-storage_rpmb_descriptor) structure.
 
 ### -field StorageAdapterCryptoProperty
 
 
 ### -field StorageDeviceIoCapabilityProperty
 
-Indicates that the caller is querying for the device I/O capability property. Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_device_io_capability_descriptor">DEVICE_IO_CAPABILITY_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the device I/O capability property. Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-storage_device_io_capability_descriptor">DEVICE_IO_CAPABILITY_DESCRIPTOR</a> structure.
 
 
 ### -field StorageAdapterProtocolSpecificProperty
@@ -179,22 +180,22 @@ Indicates that the caller is querying for protocol-specific data from the device
 
 ### -field StorageAdapterTemperatureProperty
 
-Indicates that the caller is querying temperature data from the adapter. Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_temperature_data_descriptor">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
+Indicates that the caller is querying temperature data from the adapter. Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-storage_temperature_data_descriptor">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDeviceTemperatureProperty
 
-Indicates that the caller is querying for temperature data from the device.  Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_temperature_data_descriptor">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for temperature data from the device.  Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-storage_temperature_data_descriptor">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> structure.
 
 
 ### -field StorageAdapterPhysicalTopologyProperty
 
-Indicates that the caller is querying for topology information from the adapter. Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_physical_topology_descriptor">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for topology information from the adapter. Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-storage_physical_topology_descriptor">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDevicePhysicalTopologyProperty
 
-Indicates that the caller is querying for topology information from the device. Data is returned using the <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-storage_physical_topology_descriptor">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for topology information from the device. Data is returned using the <a href="/windows/win32/api/winioctl/ns-winioctl-storage_physical_topology_descriptor">STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDeviceAttributesProperty

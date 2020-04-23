@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_VECTOR
 title: RPC_BINDING_VECTOR (rpcdce.h)
-description: The RPC_BINDING_VECTOR structure contains a list of binding handles over which a server application can receive remote procedure calls.
+description: The RPC_BINDING_VECTOR structure contains a list of binding handles over which a server application can receive remote procedure calls.helpviewer_keywords: ["RPC_BINDING_VECTOR","RPC_BINDING_VECTOR structure [RPC]","_rpc_rpc_binding_vector","rpc.rpc_binding_vector","rpcdce/RPC_BINDING_VECTOR"]
 old-location: rpc\rpc_binding_vector.htm
 tech.root: Rpc
 ms.assetid: 16a0a595-ed4f-4871-a1a3-268c6bed0305

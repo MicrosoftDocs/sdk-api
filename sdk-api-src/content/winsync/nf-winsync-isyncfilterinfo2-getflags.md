@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncFilterInfo2.GetFlags
 title: ISyncFilterInfo2::GetFlags (winsync.h)
-description: Gets the flags that specify additional information about the filter information object.
+description: Gets the flags that specify additional information about the filter information object.helpviewer_keywords: ["GetFlags","GetFlags method [Windows Sync]","GetFlags method [Windows Sync]","ISyncFilterInfo2 interface","ISyncFilterInfo2 interface [Windows Sync]","GetFlags method","ISyncFilterInfo2.GetFlags","ISyncFilterInfo2::GetFlags","winsync.isyncfilterinfo2_getflags","winsync/ISyncFilterInfo2::GetFlags"]
 old-location: winsync\isyncfilterinfo2_getflags.htm
 tech.root: winsync
 ms.assetid: cad60957-9d16-4564-b63e-be8e188caecc

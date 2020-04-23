@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockStart
 title: IMFClockStateSink::OnClockStart (mfidl.h)
-description: Called when the presentation clock starts.
+description: Called when the presentation clock starts.helpviewer_keywords: ["1a696ffc-b8e6-4ef9-b980-35bfbd3d4128","IMFClockStateSink interface [Media Foundation]","OnClockStart method","IMFClockStateSink.OnClockStart","IMFClockStateSink::OnClockStart","OnClockStart","OnClockStart method [Media Foundation]","OnClockStart method [Media Foundation]","IMFClockStateSink interface","mf.imfclockstatesink_onclockstart","mfidl/IMFClockStateSink::OnClockStart"]
 old-location: mf\imfclockstatesink_onclockstart.htm
 tech.root: medfound
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128

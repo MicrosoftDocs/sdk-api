@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RetrieveRequestedAttrs
 title: ITextStoreAnchor::RetrieveRequestedAttrs (textstor.h)
-description: ITextStoreAnchor::RetrieveRequestedAttrs method
+description: ITextStoreAnchor::RetrieveRequestedAttrs methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RetrieveRequestedAttrs method","ITextStoreAnchor.RetrieveRequestedAttrs","ITextStoreAnchor::RetrieveRequestedAttrs","RetrieveRequestedAttrs","RetrieveRequestedAttrs method [Text Services Framework]","RetrieveRequestedAttrs method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::RetrieveRequestedAttrs","tsf.itextstoreanchor_retrieverequestedattrs"]
 old-location: tsf\itextstoreanchor_retrieverequestedattrs.htm
 tech.root: TSF
 ms.assetid: 36847680-bcf2-4db5-a587-90518f60cf5b

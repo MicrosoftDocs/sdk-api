@@ -1,7 +1,7 @@
 ---
 UID: NS:tdh._EVENT_MAP_ENTRY
 title: EVENT_MAP_ENTRY (tdh.h)
-description: Defines a single value map entry.
+description: Defines a single value map entry.helpviewer_keywords: ["*PEVENT_MAP_ENTRY","EVENT_MAP_ENTRY","EVENT_MAP_ENTRY structure [ETW]","EVENT_MAP_ENTRY","*PEVENT_MAP_ENTRY","EVENT_MAP_ENTRY","*PEVENT_MAP_ENTRY structure [ETW]","etw.event_map_entry_struct","tdh.event_map_entry_struct","tdh/EVENT_MAP_ENTRY"]
 old-location: etw\event_map_entry_struct.htm
 tech.root: ETW
 ms.assetid: e5b12f7a-4a00-41a0-90df-7d1317d63a4a

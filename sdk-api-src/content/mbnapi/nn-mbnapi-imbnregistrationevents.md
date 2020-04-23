@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnRegistrationEvents
 title: IMbnRegistrationEvents (mbnapi.h)
-description: Notification interface used to indicate when registration events have occurred.
+description: Notification interface used to indicate when registration events have occurred.helpviewer_keywords: ["IMbnRegistrationEvents","IMbnRegistrationEvents interface [Microsoft Broadband Networks]","IMbnRegistrationEvents interface [Microsoft Broadband Networks]","described","mbn.imbnregistrationevents","mbnapi/IMbnRegistrationEvents"]
 old-location: mbn\imbnregistrationevents.htm
 tech.root: mbn
 ms.assetid: f3b60a93-3b57-4c2c-9114-912ca47f16b2

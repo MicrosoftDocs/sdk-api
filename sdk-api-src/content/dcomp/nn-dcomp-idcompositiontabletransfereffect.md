@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionTableTransferEffect
 title: IDCompositionTableTransferEffect (dcomp.h)
-description: The table transfer effect is used to map the color intensities of an image using a transfer function created from interpolating a list of values you provide.
+description: The table transfer effect is used to map the color intensities of an image using a transfer function created from interpolating a list of values you provide.helpviewer_keywords: ["IDCompositionTableTransferEffect","IDCompositionTableTransferEffect interface [DirectComposition]","IDCompositionTableTransferEffect interface [DirectComposition]","described","dcomp/IDCompositionTableTransferEffect","directcomp.idcompositiontabletransfereffect"]
 old-location: directcomp\idcompositiontabletransfereffect.htm
 tech.root: directcomp
 ms.assetid: 147E15B8-C529-4BC6-85AA-FB069B892C6C

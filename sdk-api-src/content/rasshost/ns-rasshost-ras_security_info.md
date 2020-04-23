@@ -1,7 +1,7 @@
 ---
 UID: NS:rasshost._RAS_SECURITY_INFO
 title: RAS_SECURITY_INFO (rasshost.h)
-description: The RAS_SECURITY_INFO structure is used with the RasSecurityDialogGetInfo function to return information about the RAS port associated with a RAS security DLL authentication transaction.
+description: The RAS_SECURITY_INFO structure is used with the RasSecurityDialogGetInfo function to return information about the RAS port associated with a RAS security DLL authentication transaction.helpviewer_keywords: ["*PRAS_SECURITY_INFO","PENDING","PRAS_SECURITY_INFO","PRAS_SECURITY_INFO structure pointer [RAS]","RAS_SECURITY_INFO","RAS_SECURITY_INFO structure [RAS]","SUCCESS","_ras_ras_security_info_str","rasshost/PRAS_SECURITY_INFO","rasshost/RAS_SECURITY_INFO","rras.ras_security_info_str"]
 old-location: rras\ras_security_info_str.htm
 tech.root: RRAS
 ms.assetid: 4bf5e0b8-087c-483b-a472-eab36840f554

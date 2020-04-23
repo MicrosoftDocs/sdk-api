@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_MEMORY_POOL
 title: D3D12_MEMORY_POOL (d3d12.h)
-description: Specifies the memory pool for the heap.
+description: Specifies the memory pool for the heap.helpviewer_keywords: ["D3D12_MEMORY_POOL","D3D12_MEMORY_POOL enumeration","D3D12_MEMORY_POOL_L0","D3D12_MEMORY_POOL_L1","D3D12_MEMORY_POOL_UNKNOWN","d3d12/D3D12_MEMORY_POOL","d3d12/D3D12_MEMORY_POOL_L0","d3d12/D3D12_MEMORY_POOL_L1","d3d12/D3D12_MEMORY_POOL_UNKNOWN","direct3d12.d3d12_memory_pool"]
 old-location: direct3d12\d3d12_memory_pool.htm
 tech.root: direct3d12
 ms.assetid: EFA3FF00-F121-4ED8-AF83-1952C73AE06D

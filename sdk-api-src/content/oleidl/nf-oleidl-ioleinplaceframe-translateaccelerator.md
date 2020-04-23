@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.TranslateAccelerator
 title: IOleInPlaceFrame::TranslateAccelerator (oleidl.h)
-description: Translates accelerator keystrokes intended for the container's frame while an object is active in place.
+description: Translates accelerator keystrokes intended for the container's frame while an object is active in place.helpviewer_keywords: ["IOleInPlaceFrame interface [COM]","TranslateAccelerator method","IOleInPlaceFrame.TranslateAccelerator","IOleInPlaceFrame::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [COM]","TranslateAccelerator method [COM]","IOleInPlaceFrame interface","_ole_ioleinplaceframe_translateaccelerator","com.ioleinplaceframe_translateaccelerator","oleidl/IOleInPlaceFrame::TranslateAccelerator"]
 old-location: com\ioleinplaceframe_translateaccelerator.htm
 tech.root: com
 ms.assetid: f755b919-b810-4b66-b3c2-bf38bd525d60

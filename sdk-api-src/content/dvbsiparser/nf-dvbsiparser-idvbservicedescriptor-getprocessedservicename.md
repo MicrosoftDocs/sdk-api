@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetProcessedServiceName
 title: IDvbServiceDescriptor::GetProcessedServiceName (dvbsiparser.h)
-description: Gets the processed service name from a Digital Video Broadcast (DVB) service descriptor.
+description: Gets the processed service name from a Digital Video Broadcast (DVB) service descriptor.helpviewer_keywords: ["GetProcessedServiceName","GetProcessedServiceName method [Microsoft TV Technologies]","GetProcessedServiceName method [Microsoft TV Technologies]","IDvbServiceDescriptor interface","IDvbServiceDescriptor interface [Microsoft TV Technologies]","GetProcessedServiceName method","IDvbServiceDescriptor.GetProcessedServiceName","IDvbServiceDescriptor::GetProcessedServiceName","dvbsiparser/IDvbServiceDescriptor::GetProcessedServiceName","mstv.idvbservicedescriptor_getprocessedservicename"]
 old-location: mstv\idvbservicedescriptor_getprocessedservicename.htm
 tech.root: mstv
 ms.assetid: c0441e70-270e-4685-9107-865c2b6398e9

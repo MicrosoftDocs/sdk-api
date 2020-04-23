@@ -1,7 +1,7 @@
 ---
 UID: NN:upnp.IUPnPServiceEnumProperty
 title: IUPnPServiceEnumProperty (upnp.h)
-description: Use this interface to delay Service Control Protocol Description (SCPD) download and event subscription on the IUPnPService objects enumerated from the IUPnPServices object.
+description: Use this interface to delay Service Control Protocol Description (SCPD) download and event subscription on the IUPnPService objects enumerated from the IUPnPServices object.helpviewer_keywords: ["IUPnPServiceEnumProperty","IUPnPServiceEnumProperty interface [UPnP APIs]","IUPnPServiceEnumProperty interface [UPnP APIs]","described","upnp.iupnpserviceenumproperty","upnp/IUPnPServiceEnumProperty"]
 old-location: upnp\iupnpserviceenumproperty.htm
 tech.root: upnp
 ms.assetid: B63CCE08-548F-44D3-BAE3-84E4358F25AD

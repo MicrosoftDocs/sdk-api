@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IRecoverableError.GetProvider
 title: IRecoverableError::GetProvider (winsync.h)
-description: Gets the role of the provider that skipped the item change.
+description: Gets the role of the provider that skipped the item change.helpviewer_keywords: ["GetProvider","GetProvider method [Windows Sync]","GetProvider method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetProvider method","IRecoverableError.GetProvider","IRecoverableError::GetProvider","winsync.irecoverableerror_getprovider","winsync/IRecoverableError::GetProvider"]
 old-location: winsync\irecoverableerror_getprovider.htm
 tech.root: winsync
 ms.assetid: 48ecfc21-ab30-45c7-879b-c2487288419f

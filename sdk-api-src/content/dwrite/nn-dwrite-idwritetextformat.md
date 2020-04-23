@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteTextFormat
 title: IDWriteTextFormat (dwrite.h)
-description: The IDWriteTextFormat interface describes the font and paragraph properties used to format text, and it describes locale information.
+description: The IDWriteTextFormat interface describes the font and paragraph properties used to format text, and it describes locale information.helpviewer_keywords: ["IDWriteTextFormat","IDWriteTextFormat interface [Direct Write]","IDWriteTextFormat interface [Direct Write]","described","directwrite.IDWriteTextFormat","dwrite/IDWriteTextFormat"]
 old-location: directwrite\IDWriteTextFormat.htm
 tech.root: DirectWrite
 ms.assetid: 64b2cac3-c4cb-4213-b808-7b279d296939

@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.FindConnectionPoint
 title: IExpDispSupport::FindConnectionPoint (shdeprecated.h)
-description: Deprecated. Gets connection points for browser events.
+description: Deprecated. Gets connection points for browser events.helpviewer_keywords: ["DIID_DWebBrowserEvents","DIID_DWebBrowserEvents2","FindConnectionPoint","FindConnectionPoint method [Windows Shell]","FindConnectionPoint method [Windows Shell]","IExpDispSupport interface","IExpDispSupport interface [Windows Shell]","FindConnectionPoint method","IExpDispSupport.FindConnectionPoint","IExpDispSupport::FindConnectionPoint","IID_IPropertyNotifySink","shdeprecated/IExpDispSupport::FindConnectionPoint","shell.IExpDispSupport_FindCIE4ConnectionPoint","zone_IExpDispSupport_FindCIE4ConnectionPoint"]
 old-location: shell\IExpDispSupport_FindCIE4ConnectionPoint.htm
 tech.root: shell
 ms.assetid: ef8d4e8c-7f85-4920-b149-1bf277d3fd5e

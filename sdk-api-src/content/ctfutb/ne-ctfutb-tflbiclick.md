@@ -1,7 +1,7 @@
 ---
 UID: NE:ctfutb.__MIDL___MIDL_itf_ctfutb_0000_0010_0001
 title: TfLBIClick (ctfutb.h)
-description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.
+description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.helpviewer_keywords: ["TF_LBI_CLK_LEFT","TF_LBI_CLK_RIGHT","TfLBIClick","TfLBIClick enumeration [Text Services Framework]","_tsf_tflbiclick_ref","ctfutb/TF_LBI_CLK_LEFT","ctfutb/TF_LBI_CLK_RIGHT","ctfutb/TfLBIClick","tsf.tflbiclick"]
 old-location: tsf\tflbiclick.htm
 tech.root: TSF
 ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4

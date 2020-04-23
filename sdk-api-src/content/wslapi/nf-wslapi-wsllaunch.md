@@ -1,7 +1,7 @@
 ---
 UID: NF:wslapi.WslLaunch
 title: WslLaunch function (wslapi.h)
-description: Launches a Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
+description: Launches a Windows Subsystem for Linux (WSL) process in the context of a particular distribution.helpviewer_keywords: ["WslLaunch","WslLaunch function","wsl.wsllaunch","wslapi/WslLaunch"]
 old-location: wsl\wsllaunch.htm
 tech.root: wsl
 ms.assetid: 0C88BCF8-9FFC-4D7C-9A7C-F56F9A4FD7FC

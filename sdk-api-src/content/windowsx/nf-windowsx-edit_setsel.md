@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Edit_SetSel
 title: Edit_SetSel macro (windowsx.h)
-description: Selects a range of characters in an edit or rich edit control. You can use this macro or send the EM_SETSEL message explicitly.
+description: Selects a range of characters in an edit or rich edit control. You can use this macro or send the EM_SETSEL message explicitly.helpviewer_keywords: ["Edit_SetSel","Edit_SetSel macro [Windows Controls]","_win32_Edit_SetSel","_win32_Edit_SetSel_cpp","controls.Edit_SetSel","controls._win32_Edit_SetSel","windowsx/Edit_SetSel"]
 old-location: controls\Edit_SetSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setsel.htm

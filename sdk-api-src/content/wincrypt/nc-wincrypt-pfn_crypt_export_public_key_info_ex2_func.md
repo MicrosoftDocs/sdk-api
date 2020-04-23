@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
 title: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC (wincrypt.h)
-description: Called by CryptExportPublicKeyInfoEx to export a public key BLOB and encode it.
+description: Called by CryptExportPublicKeyInfoEx to export a public key BLOB and encode it.helpviewer_keywords: ["PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC","PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC callback","PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security]","security.pfn_crypt_export_public_key_info_ex2_func","wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC"]
 old-location: security\pfn_crypt_export_public_key_info_ex2_func.htm
 tech.root: SecCrypto
 ms.assetid: 37315539-64f8-4708-8a17-f80a2869e6b3

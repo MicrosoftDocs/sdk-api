@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetColorInterpolationMode
 title: IXpsOMGradientBrush::GetColorInterpolationMode (xpsobjectmodel.h)
 description: Gets the gamma function to be used for color interpolation.
+helpviewer_keywords: ["GetColorInterpolationMode","GetColorInterpolationMode method [XPS Documents and Packaging]","GetColorInterpolationMode method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetColorInterpolationMode method","IXpsOMGradientBrush.GetColorInterpolationMode","IXpsOMGradientBrush::GetColorInterpolationMode","xps.ixpsomgradientbrush_getcolorinterpolationmode","xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode"]
 old-location: xps\ixpsomgradientbrush_getcolorinterpolationmode.htm
 tech.root: printdocs
 ms.assetid: 4e58c019-d89d-472d-9b6f-b335b184f998
@@ -59,7 +60,7 @@ Gets the gamma function to be used for color interpolation.
 
 ### -param colorInterpolationMode [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value that describes the gamma function to be used for color interpolation.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value that describes the gamma function to be used for color interpolation.
 
 
 ## -returns
@@ -118,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a>
  
 
  

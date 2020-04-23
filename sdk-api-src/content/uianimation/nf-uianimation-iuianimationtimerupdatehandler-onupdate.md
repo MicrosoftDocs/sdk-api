@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.OnUpdate
 title: IUIAnimationTimerUpdateHandler::OnUpdate (uianimation.h)
 description: Handles update events from the timer.
+helpviewer_keywords: ["IUIAnimationTimerUpdateHandler interface [Windows Animation]","OnUpdate method","IUIAnimationTimerUpdateHandler.OnUpdate","IUIAnimationTimerUpdateHandler::OnUpdate","OnUpdate","OnUpdate method [Windows Animation]","OnUpdate method [Windows Animation]","IUIAnimationTimerUpdateHandler interface","uianimation.iuianimationtimerupdatehandler_onupdate","uianimation/IUIAnimationTimerUpdateHandler::OnUpdate"]
 old-location: uianimation\iuianimationtimerupdatehandler_onupdate.htm
 tech.root: UIAnimation
 ms.assetid: 06daa961-5f92-451f-958a-cf68f8ae2b0a
@@ -64,7 +65,7 @@ The current timer time, in seconds.
 
 ### -param result [out]
 
- Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a> enumeration, indicating whether any animation variables changed as a result of the update.
+ Receives a member of the <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a> enumeration, indicating whether any animation variables changed as a result of the update.
 
 
 ## -returns

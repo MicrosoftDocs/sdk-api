@@ -2,6 +2,7 @@
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 title: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE (wlanapi.h)
 description: Specifies the possible values of the NotificationCode parameter for received notifications on the wireless Hosted Network.
+helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE","PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE","PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_NOTIFICATION_CODE","WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration [NativeWIFI]","nwifi.wlan_hosted_network_notification_code","wlan_hosted_network_peer_state_change","wlan_hosted_network_radio_state_change","wlan_hosted_network_state_change","wlanapi/PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE","wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE","wlanapi/wlan_hosted_network_peer_state_change","wlanapi/wlan_hosted_network_radio_state_change","wlanapi/wlan_hosted_network_state_change"]
 old-location: nwifi\wlan_hosted_network_notification_code.htm
 tech.root: NativeWiFi
 ms.assetid: f01e4a42-3378-4ceb-b23b-5deb78fb18ca
@@ -119,7 +120,7 @@ The <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions
 
 </td>
 <td width="60%">
-the <i>pData</i> member of <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b>). 
+the <i>pData</i> member of <a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b>). 
 
 </td>
 </tr>
@@ -146,7 +147,7 @@ the <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
 
 

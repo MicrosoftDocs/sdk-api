@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetValue
 title: IProviderProperties::GetValue (functiondiscoveryprovider.h)
-description: Gets the value of the specified property key.
+description: Gets the value of the specified property key.helpviewer_keywords: ["GetValue","GetValue method","GetValue method","IProviderProperties interface","IProviderProperties interface","GetValue method","IProviderProperties.GetValue","IProviderProperties::GetValue","functiondiscoveryprovider/IProviderProperties::GetValue","ncd.iproviderproperties_getvalue_method"]
 old-location: ncd\iproviderproperties_getvalue_method.htm
 tech.root: FunDisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0

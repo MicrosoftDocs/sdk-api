@@ -2,6 +2,7 @@
 UID: NF:imapi2.IDiscFormat2RawCD.put_RequestedSectorType
 title: IDiscFormat2RawCD::put_RequestedSectorType (imapi2.h)
 description: Sets the requested data sector to use for writing the stream.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","put_RequestedSectorType method","IDiscFormat2RawCD.put_RequestedSectorType","IDiscFormat2RawCD::put_RequestedSectorType","imapi.idiscformat2rawcd__put_requestedsectortype_","imapi2/IDiscFormat2RawCD::put_RequestedSectorType","put_RequestedSectorType","put_RequestedSectorType method [IMAPI]","put_RequestedSectorType method [IMAPI]","IDiscFormat2RawCD interface"]
 old-location: imapi\idiscformat2rawcd__put_requestedsectortype_.htm
 tech.root: imapi
 ms.assetid: fd9d7e1d-5672-482f-ac83-efcab3adbac4
@@ -59,7 +60,7 @@ Sets the requested data sector to use for writing the stream.
 
 ### -param value [in]
 
-Data sector to use for writing the stream. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration type. The default is <b>IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_COOKED</b>.
+Data sector to use for writing the stream. For possible values, see the <a href="/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a> enumeration type. The default is <b>IMAPI_FORMAT2_RAW_CD_SUBCODE_IS_COOKED</b>.
 
 
 ## -returns

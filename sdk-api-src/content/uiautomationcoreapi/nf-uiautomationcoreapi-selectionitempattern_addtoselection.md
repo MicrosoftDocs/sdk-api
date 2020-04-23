@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_AddToSelection
 title: SelectionItemPattern_AddToSelection function (uiautomationcoreapi.h)
-description: Adds an unselected element to a selection in a control.
+description: Adds an unselected element to a selection in a control.helpviewer_keywords: ["SelectionItemPattern_AddToSelection","SelectionItemPattern_AddToSelection function [Windows Accessibility]","uiauto.uiauto_SelectionItemPattern_AddToSelectionConPat","uiauto_SelectionItemPattern_AddToSelectionConPat","uiautomationcoreapi/SelectionItemPattern_AddToSelection","winauto.uiauto_SelectionItemPattern_AddToSelectionConPat"]
 old-location: winauto\uiauto_SelectionItemPattern_AddToSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 77ded493-cdf5-4e1b-b0eb-640ec46cf43a

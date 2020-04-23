@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmPathMapper
 title: IFsrmPathMapper (fsrm.h)
-description: Used to retrieve the network share paths that are mapped to a local path.
+description: Used to retrieve the network share paths that are mapped to a local path.helpviewer_keywords: ["IFsrmPathMapper","IFsrmPathMapper interface [File Server Resource Manager]","IFsrmPathMapper interface [File Server Resource Manager]","described","fs.ifsrmpathmapper","fsrm.ifsrmpathmapper","fsrm/IFsrmPathMapper"]
 old-location: fsrm\ifsrmpathmapper.htm
 tech.root: fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88

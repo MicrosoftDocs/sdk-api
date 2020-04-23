@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcSignatureReference.GetTransformMethod
 title: IOpcSignatureReference::GetTransformMethod (msopc.h)
 description: Gets the canonicalization method to use on the referenced XML element, when the element is signed.
+helpviewer_keywords: ["GetTransformMethod","GetTransformMethod method [Open Packaging Conventions]","GetTransformMethod method [Open Packaging Conventions]","IOpcSignatureReference interface","IOpcSignatureReference interface [Open Packaging Conventions]","GetTransformMethod method","IOpcSignatureReference.GetTransformMethod","IOpcSignatureReference::GetTransformMethod","msopc/IOpcSignatureReference::GetTransformMethod","opc.iopcsignaturereference_gettransformmethod"]
 old-location: opc\iopcsignaturereference_gettransformmethod.htm
 tech.root: OPC
 ms.assetid: f3f3f6a8-c15e-420a-b56d-5dac0a054fac
@@ -118,7 +119,7 @@ The <i>transformMethod</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

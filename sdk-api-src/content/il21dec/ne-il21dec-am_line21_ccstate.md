@@ -1,7 +1,7 @@
 ---
 UID: NE:il21dec._AM_LINE21_CCSTATE
 title: AM_LINE21_CCSTATE (il21dec.h)
-description: Indicates the closed captioning state (on or off).
+description: Indicates the closed captioning state (on or off).helpviewer_keywords: ["*PAM_LINE21_CCSTATE","AM_L21_CCSTATE_Off","AM_L21_CCSTATE_On","AM_LINE21_CCSTATE","AM_LINE21_CCSTATE","AM_LINE21_CCSTATE enumeration [DirectShow]","AM_LINE21_CCSTATEEnumeration","PAM_LINE21_CCSTATE","PAM_LINE21_CCSTATE enumeration pointer [DirectShow]","dshow.am_line21_ccstate","il21dec/AM_L21_CCSTATE_Off","il21dec/AM_L21_CCSTATE_On","il21dec/AM_LINE21_CCSTATE","il21dec/PAM_LINE21_CCSTATE"]
 old-location: dshow\am_line21_ccstate.htm
 tech.root: DirectShow
 ms.assetid: fdd1dec4-660c-46d0-b18c-b725b813c6a7

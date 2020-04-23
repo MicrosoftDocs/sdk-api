@@ -1,7 +1,7 @@
 ---
 UID: NS:mfplay.MFP_FRAME_STEP_EVENT
 title: MFP_FRAME_STEP_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_FRAME_STEP event.
+description: Event structure for the MFP_EVENT_TYPE_FRAME_STEP event.helpviewer_keywords: ["MFP_FRAME_STEP_EVENT","MFP_FRAME_STEP_EVENT structure [Media Foundation]","mf.mfp_frame_step_event","mfplay/MFP_FRAME_STEP_EVENT"]
 old-location: mf\mfp_frame_step_event.htm
 tech.root: medfound
 ms.assetid: a395e94a-8d6d-48f5-9461-9f329af984c0

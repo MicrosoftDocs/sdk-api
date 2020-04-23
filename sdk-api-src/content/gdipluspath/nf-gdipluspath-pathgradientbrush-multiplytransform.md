@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.MultiplyTransform
 title: PathGradientBrush::MultiplyTransform (gdipluspath.h)
-description: ThePathGradientBrush::MultiplyTransform method updates the brush's transformation matrix with the product of itself and another matrix.
+description: ThePathGradientBrush::MultiplyTransform method updates the brush's transformation matrix with the product of itself and another matrix.helpviewer_keywords: ["MultiplyTransform","MultiplyTransform method [GDI+]","MultiplyTransform method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","MultiplyTransform method","PathGradientBrush.MultiplyTransform","PathGradientBrush::MultiplyTransform","_gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_","gdiplus._gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\multiplytransform_47matrix_order.htm

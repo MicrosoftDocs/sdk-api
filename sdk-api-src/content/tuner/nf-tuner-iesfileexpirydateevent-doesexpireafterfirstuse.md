@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.DoesExpireAfterFirstUse
 title: IESFileExpiryDateEvent::DoesExpireAfterFirstUse (tuner.h)
-description: Gets a flag from a FileExpiryDate event that indicates whether a license for protected content expires after its first use.
+description: Gets a flag from a FileExpiryDate event that indicates whether a license for protected content expires after its first use.helpviewer_keywords: ["DoesExpireAfterFirstUse","DoesExpireAfterFirstUse method [Microsoft TV Technologies]","DoesExpireAfterFirstUse method [Microsoft TV Technologies]","IESFileExpiryDateEvent interface","IESFileExpiryDateEvent interface [Microsoft TV Technologies]","DoesExpireAfterFirstUse method","IESFileExpiryDateEvent.DoesExpireAfterFirstUse","IESFileExpiryDateEvent::DoesExpireAfterFirstUse","mstv.iesfileexpirydateevent_doesexpireafterfirstuse","tuner/IESFileExpiryDateEvent::DoesExpireAfterFirstUse"]
 old-location: mstv\iesfileexpirydateevent_doesexpireafterfirstuse.htm
 tech.root: mstv
 ms.assetid: 24a1d5aa-fee5-4436-a3ee-6a2108ff0f32

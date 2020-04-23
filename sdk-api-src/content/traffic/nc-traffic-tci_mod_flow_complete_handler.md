@@ -1,7 +1,7 @@
 ---
 UID: NC:traffic.TCI_MOD_FLOW_COMPLETE_HANDLER
 title: TCI_MOD_FLOW_COMPLETE_HANDLER (traffic.h)
-description: The ClModifyFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcModifyFlow function.
+description: The ClModifyFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcModifyFlow function.helpviewer_keywords: ["ClModifyFlowComplete","ClModifyFlowComplete callback","ClModifyFlowComplete callback function [QOS]","TCI_MOD_FLOW_COMPLETE_HANDLER","TCI_MOD_FLOW_COMPLETE_HANDLER callback function [QOS]","_gqos_clmodifyflowcomplete","qos.clmodifyflowcomplete","traffic/ClModifyFlowComplete"]
 old-location: qos\clmodifyflowcomplete.htm
 tech.root: QOS
 ms.assetid: 61afc465-d942-4db7-96ee-56f3f1c3cafa

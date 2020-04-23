@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaFilter.Stop
 title: IMediaFilter::Stop (strmif.h)
-description: The Stop method stops the filter.
+description: The Stop method stops the filter.helpviewer_keywords: ["IMediaFilter interface [DirectShow]","Stop method","IMediaFilter.Stop","IMediaFilter::Stop","IMediaFilterStop","Stop","Stop method [DirectShow]","Stop method [DirectShow]","IMediaFilter interface","dshow.imediafilter_stop","strmif/IMediaFilter::Stop"]
 old-location: dshow\imediafilter_stop.htm
 tech.root: DirectShow
 ms.assetid: 8c415b5c-1aee-4ea4-b182-fd95da4898aa

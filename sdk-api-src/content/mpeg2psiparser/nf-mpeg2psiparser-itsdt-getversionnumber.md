@@ -1,7 +1,7 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetVersionNumber
 title: ITSDT::GetVersionNumber (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","ITSDT interface","ITSDT interface [Microsoft TV Technologies]","GetVersionNumber method","ITSDT.GetVersionNumber","ITSDT::GetVersionNumber","ITSDTGetVersionNumber","mpeg2psiparser/ITSDT::GetVersionNumber","mstv.itsdt_getversionnumber"]
 old-location: mstv\itsdt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 4784b7d6-1a20-4018-9ad5-7e8bafb700f8

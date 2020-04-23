@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.EnterSynchronizationBarrier
 title: EnterSynchronizationBarrier function (synchapi.h)
-description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
+description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.helpviewer_keywords: ["EnterSynchronizationBarrier","EnterSynchronizationBarrier function","SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY","SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE","SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY","base.entersynchronizationbarrier","synchapi/EnterSynchronizationBarrier"]
 old-location: base\entersynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a

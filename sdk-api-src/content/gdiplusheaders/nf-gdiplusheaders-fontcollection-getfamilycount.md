@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetFamilyCount
 title: FontCollection::GetFamilyCount (gdiplusheaders.h)
-description: The FontCollection::GetFamilyCount method gets the number of font families contained in this font collection.
+description: The FontCollection::GetFamilyCount method gets the number of font families contained in this font collection.helpviewer_keywords: ["FontCollection class [GDI+]","GetFamilyCount method","FontCollection.GetFamilyCount","FontCollection::GetFamilyCount","GetFamilyCount","GetFamilyCount method [GDI+]","GetFamilyCount method [GDI+]","FontCollection class","_gdiplus_CLASS_FontCollection_GetFamilyCount_","gdiplus._gdiplus_CLASS_FontCollection_GetFamilyCount_"]
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilyCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilycount.htm

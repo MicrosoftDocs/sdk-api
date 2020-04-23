@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Clone
 title: IEnumShellItems::Clone (shobjidl_core.h)
-description: Gets a copy of the current enumeration.
+description: Gets a copy of the current enumeration.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumShellItems interface","IEnumShellItems interface [Windows Shell]","Clone method","IEnumShellItems.Clone","IEnumShellItems::Clone","_shell_IEnumShellItems_Clone","shell.IEnumShellItems_Clone","shobjidl_core/IEnumShellItems::Clone"]
 old-location: shell\IEnumShellItems_Clone.htm
 tech.root: shell
 ms.assetid: ccfe8ab0-8bc5-4270-9189-01bac38ce36a

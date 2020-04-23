@@ -2,6 +2,7 @@
 UID: NF:winbio_adapter.WbioQueryEngineInterface
 title: WbioQueryEngineInterface function (winbio_adapter.h)
 description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.
+helpviewer_keywords: ["WbioQueryEngineInterface","WbioQueryEngineInterface function [Windows Biometric Framework API]","secbiomet.wbioqueryengineinterface","winbio_adapter/WbioQueryEngineInterface"]
 old-location: secbiomet\wbioqueryengineinterface.htm
 tech.root: SecBioMet
 ms.assetid: d98da825-ce27-41ec-8f82-6f44e4854018
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure for the engine adapter.
+Retrieves a pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure for the engine adapter.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api
 
 ### -param EngineInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure.
 
 
 ## -returns

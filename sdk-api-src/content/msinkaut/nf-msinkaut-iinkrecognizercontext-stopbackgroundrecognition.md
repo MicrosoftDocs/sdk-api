@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.StopBackgroundRecognition
 title: IInkRecognizerContext::StopBackgroundRecognition (msinkaut.h)
-description: Ends background recognition that was started with a call to BackgroundRecognize or BackgroundRecognizeWithAlternates.
+description: Ends background recognition that was started with a call to BackgroundRecognize or BackgroundRecognizeWithAlternates.helpviewer_keywords: ["25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0","IInkRecognizerContext","IInkRecognizerContext interface [Tablet PC]","StopBackgroundRecognition method","IInkRecognizerContext.StopBackgroundRecognition","IInkRecognizerContext::StopBackgroundRecognition","StopBackgroundRecognition","StopBackgroundRecognition method [Tablet PC]","StopBackgroundRecognition method [Tablet PC]","IInkRecognizerContext interface","msinkaut/IInkRecognizerContext::StopBackgroundRecognition","tablet.inkrecognizercontext_stopbackgroundrecognition"]
 old-location: tablet\inkrecognizercontext_stopbackgroundrecognition.htm
 tech.root: tablet
 ms.assetid: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0

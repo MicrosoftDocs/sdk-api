@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4LengthSq
 title: XMVector4LengthSq function (directxmath.h)
-description: Computes the square of the length of a 4D vector.
+description: Computes the square of the length of a 4D vector.helpviewer_keywords: ["Use DirectX..XMVector4LengthSq","XMVector4LengthSq","XMVector4LengthSq method [DirectX Math Support APIs]","dxmath.xmvector4lengthsq"]
 old-location: dxmath\xmvector4lengthsq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4LengthSq(XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHGetInverseCMAP
 title: SHGetInverseCMAP function (shlwapi.h)
-description: Retrieves the inverse color table mapping for the halftone palette.
+description: Retrieves the inverse color table mapping for the halftone palette.helpviewer_keywords: ["SHGetInverseCMAP","SHGetInverseCMAP function [Windows Shell]","_shell_SHGetInverseCMAP","shell.SHGetInverseCMAP","shlwapi/SHGetInverseCMAP"]
 old-location: shell\SHGetInverseCMAP.htm
 tech.root: shell
 ms.assetid: 46d5ccd2-3c5d-431b-b27b-6a7a95043e0a

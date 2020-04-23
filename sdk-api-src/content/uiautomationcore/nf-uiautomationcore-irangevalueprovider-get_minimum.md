@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_Minimum
 title: IRangeValueProvider::get_Minimum (uiautomationcore.h)
-description: Specifies the minimum range value supported by the control.
+description: Specifies the minimum range value supported by the control.helpviewer_keywords: ["IRangeValueProvider interface [Windows Accessibility]","Minimum property","IRangeValueProvider.Minimum","IRangeValueProvider.get_Minimum","IRangeValueProvider::Minimum","IRangeValueProvider::get_Minimum","Minimum property [Windows Accessibility]","Minimum property [Windows Accessibility]","IRangeValueProvider interface","get_Minimum","uiauto.uiauto_IRangeValueProvider_Minimum","uiauto_IRangeValueProvider_Minimum","uiautomationcore/IRangeValueProvider::Minimum","uiautomationcore/IRangeValueProvider::get_Minimum","winauto.uiauto_IRangeValueProvider_Minimum"]
 old-location: winauto\uiauto_IRangeValueProvider_Minimum.htm
 tech.root: WinAuto
 ms.assetid: 6704d5d8-7024-4010-a212-2ffccfae0cbf

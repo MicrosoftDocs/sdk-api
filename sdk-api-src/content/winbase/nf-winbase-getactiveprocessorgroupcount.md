@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetActiveProcessorGroupCount
 title: GetActiveProcessorGroupCount function (winbase.h)
-description: Returns the number of active processor groups in the system.
+description: Returns the number of active processor groups in the system.helpviewer_keywords: ["GetActiveProcessorGroupCount","GetActiveProcessorGroupCount function","base.getactiveprocessorgroupcount","winbase/GetActiveProcessorGroupCount"]
 old-location: base\getactiveprocessorgroupcount.htm
 tech.root: ProcThread
 ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452

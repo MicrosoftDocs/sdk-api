@@ -2,6 +2,7 @@
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_INPUT
 title: MINIDUMP_CALLBACK_INPUT (minidumpapiset.h)
 description: Contains information used by the MiniDumpCallback function.
+helpviewer_keywords: ["*PMINIDUMP_CALLBACK_INPUT","MINIDUMP_CALLBACK_INPUT","MINIDUMP_CALLBACK_INPUT structure","PMINIDUMP_CALLBACK_INPUT","PMINIDUMP_CALLBACK_INPUT structure pointer","_MINIDUMP_CALLBACK_INPUT","_win32_minidump_callback_input_str","base.minidump_callback_input_str","minidumpapiset/MINIDUMP_CALLBACK_INPUT","minidumpapiset/PMINIDUMP_CALLBACK_INPUT"]
 old-location: base\minidump_callback_input_str.htm
 tech.root: Debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa
@@ -75,7 +76,7 @@ This member is not used if <b>CallbackType</b> is <b>IoStartCallback</b>.
 ### -field CallbackType
 
 The type of callback function. This member can be one of the values in the 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type">MINIDUMP_CALLBACK_TYPE</a> enumeration.
+<a href="/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type">MINIDUMP_CALLBACK_TYPE</a> enumeration.
 
 
 ### -field Status
@@ -86,25 +87,25 @@ If <b>CallbackType</b> is <b>KernelMinidumpStatusCallback</b>, the union is an <
 ### -field Thread
 
 If <b>CallbackType</b> is <b>ThreadCallback</b>, the union is a 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_callback">MINIDUMP_THREAD_CALLBACK</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_callback">MINIDUMP_THREAD_CALLBACK</a> structure.
 
 
 ### -field ThreadEx
 
 If <b>CallbackType</b> is <b>ThreadExCallback</b>, the union is a 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_callback">MINIDUMP_THREAD_EX_CALLBACK</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_callback">MINIDUMP_THREAD_EX_CALLBACK</a> structure.
 
 
 ### -field Module
 
 If <b>CallbackType</b> is <b>ModuleCallback</b>, the union is a 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_callback">MINIDUMP_MODULE_CALLBACK</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_callback">MINIDUMP_MODULE_CALLBACK</a> structure.
 
 
 ### -field IncludeThread
 
 If <b>CallbackType</b> is <b>IncludeThreadCallback</b>, the union is a 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_thread_callback">MINIDUMP_INCLUDE_THREAD_CALLBACK</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_thread_callback">MINIDUMP_INCLUDE_THREAD_CALLBACK</a> structure.
 
 <b>DbgHelp 6.2 and earlier:  </b>This member is not available.
 
@@ -112,7 +113,7 @@ If <b>CallbackType</b> is <b>IncludeThreadCallback</b>, the union is a
 ### -field IncludeModule
 
 If <b>CallbackType</b> is <b>IncludeModuleCallback</b>, the union is a 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_module_callback">MINIDUMP_INCLUDE_MODULE_CALLBACK</a> structure.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_module_callback">MINIDUMP_INCLUDE_MODULE_CALLBACK</a> structure.
 
 <b>DbgHelp 6.2 and earlier:  </b>This member is not available.
 
@@ -126,14 +127,14 @@ If <b>CallbackType</b> is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or 
 
 ### -field ReadMemoryFailure
 
-If <b>CallbackType</b> is <b>ReadMemoryFailureCallback</b>, the union is a <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_read_memory_failure_callback">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a> structure.
+If <b>CallbackType</b> is <b>ReadMemoryFailureCallback</b>, the union is a <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_read_memory_failure_callback">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a> structure.
 
 <b>DbgHelp 6.4 and earlier:  </b>This member is not available.
 
 
 ### -field SecondaryFlags
 
-Contains a value from the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
+Contains a value from the <a href="/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
 
 <b>DbgHelp 6.5 and earlier:  </b>This member is not available.
 
@@ -169,15 +170,15 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type">MINIDUMP_CALLBACK_TYPE</a>
+<a href="/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type">MINIDUMP_CALLBACK_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_module_callback">MINIDUMP_INCLUDE_MODULE_CALLBACK</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_module_callback">MINIDUMP_INCLUDE_MODULE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_thread_callback">MINIDUMP_INCLUDE_THREAD_CALLBACK</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_include_thread_callback">MINIDUMP_INCLUDE_THREAD_CALLBACK</a>
 
 
 
@@ -185,19 +186,19 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_callback">MINIDUMP_MODULE_CALLBACK</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_module_callback">MINIDUMP_MODULE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_read_memory_failure_callback">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_read_memory_failure_callback">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_callback">MINIDUMP_THREAD_CALLBACK</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_callback">MINIDUMP_THREAD_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_callback">MINIDUMP_THREAD_EX_CALLBACK</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex_callback">MINIDUMP_THREAD_EX_CALLBACK</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.Cancel
 title: IWMReaderPlaylistBurn::Cancel (wmsdkidl.h)
-description: The Cancel method cancels an initiated playlist burn before initialization is finished.
+description: The Cancel method cancels an initiated playlist burn before initialization is finished.helpviewer_keywords: ["Cancel","Cancel method [windows Media Format]","Cancel method [windows Media Format]","IWMReaderPlaylistBurn interface","IWMReaderPlaylistBurn interface [windows Media Format]","Cancel method","IWMReaderPlaylistBurn.Cancel","IWMReaderPlaylistBurn::Cancel","IWMReaderPlaylistBurnCancel","wmformat.iwmreaderplaylistburn_cancel","wmsdkidl/IWMReaderPlaylistBurn::Cancel"]
 old-location: wmformat\iwmreaderplaylistburn_cancel.htm
 tech.root: wmformat
 ms.assetid: d126f13b-90ac-489e-8dd0-e507f4003a7a

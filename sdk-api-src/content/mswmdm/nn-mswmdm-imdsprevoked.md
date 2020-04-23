@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.IMDSPRevoked
 title: IMDSPRevoked (mswmdm.h)
-description: The IMDSPRevoked interface retrieves the URL from which updated components can be downloaded. Implementing this interface is optional. For more information, see Mandatory and Optional Interfaces.
+description: The IMDSPRevoked interface retrieves the URL from which updated components can be downloaded. Implementing this interface is optional. For more information, see Mandatory and Optional Interfaces.helpviewer_keywords: ["IMDSPRevoked","IMDSPRevoked interface [windows Media Device Manager]","IMDSPRevoked interface [windows Media Device Manager]","described","IMDSPRevokedInterface","mswmdm/IMDSPRevoked","wmdm.imdsprevoked"]
 old-location: wmdm\imdsprevoked.htm
 tech.root: WMDM
 ms.assetid: 8df545b9-52f5-422e-a0c1-2316c628d89f

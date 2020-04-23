@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Clone
 title: IUIAutomationTextRange::Clone (uiautomationclient.h)
-description: Retrieves a new IUIAutomationTextRange identical to the original and inheriting all properties of the original.
+description: Retrieves a new IUIAutomationTextRange identical to the original and inheriting all properties of the original.helpviewer_keywords: ["Clone","Clone method [Windows Accessibility]","Clone method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","Clone method","IUIAutomationTextRange.Clone","IUIAutomationTextRange::Clone","uiauto.uiauto_IUIAutomationTextRange_Clone","uiauto_IUIAutomationTextRange_Clone","uiautomationclient/IUIAutomationTextRange::Clone","winauto.uiauto_IUIAutomationTextRange_Clone"]
 old-location: winauto\uiauto_IUIAutomationTextRange_Clone.htm
 tech.root: WinAuto
 ms.assetid: 0f41fecf-fd66-443f-bc4d-23c05a4d3824

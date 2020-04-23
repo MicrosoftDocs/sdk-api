@@ -1,7 +1,7 @@
 ---
 UID: NE:faxcomex.FAX_PROVIDER_STATUS_ENUM
 title: FAX_PROVIDER_STATUS_ENUM (faxcomex.h)
-description: The FAX_PROVIDER_STATUS_ENUM enumeration defines the status values for a fax extension (a fax service provider (FSP) or a fax inbound routing extension).
+description: The FAX_PROVIDER_STATUS_ENUM enumeration defines the status values for a fax extension (a fax service provider (FSP) or a fax inbound routing extension).helpviewer_keywords: ["FAX_PROVIDER_STATUS_ENUM","FAX_PROVIDER_STATUS_ENUM enumeration [Fax Service]","_mfax_fax_provider_status_enum","fax._mfax_fax_provider_status_enum","faxcomex/FAX_PROVIDER_STATUS_ENUM","faxcomex/fpsBAD_GUID","faxcomex/fpsBAD_VERSION","faxcomex/fpsCANT_INIT","faxcomex/fpsCANT_LINK","faxcomex/fpsCANT_LOAD","faxcomex/fpsSERVER_ERROR","faxcomex/fpsSUCCESS","fpsBAD_GUID","fpsBAD_VERSION","fpsCANT_INIT","fpsCANT_LINK","fpsCANT_LOAD","fpsSERVER_ERROR","fpsSUCCESS"]
 old-location: fax\_mfax_fax_provider_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ejx.htm

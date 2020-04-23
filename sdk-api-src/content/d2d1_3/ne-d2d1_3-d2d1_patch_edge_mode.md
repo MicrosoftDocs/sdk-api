@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_3.D2D1_PATCH_EDGE_MODE
 title: D2D1_PATCH_EDGE_MODE (d2d1_3.h)
-description: Specifies how to render gradient mesh edges.
+description: Specifies how to render gradient mesh edges.helpviewer_keywords: ["D2D1_PATCH_EDGE_MODE","D2D1_PATCH_EDGE_MODE enumeration [Direct2D]","D2D1_PATCH_EDGE_MODE_ALIASED","D2D1_PATCH_EDGE_MODE_ALIASED_INFLATED","D2D1_PATCH_EDGE_MODE_ANTIALIASED","d2d1_3/D2D1_PATCH_EDGE_MODE","d2d1_3/D2D1_PATCH_EDGE_MODE_ALIASED","d2d1_3/D2D1_PATCH_EDGE_MODE_ALIASED_INFLATED","d2d1_3/D2D1_PATCH_EDGE_MODE_ANTIALIASED","direct2d.d2d1_patch_edge_mode"]
 old-location: direct2d\d2d1_patch_edge_mode.htm
 tech.root: Direct2D
 ms.assetid: 5AE38632-B068-4A14-9DAB-67FD58E3894B

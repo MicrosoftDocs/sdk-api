@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.RESET_HEADER
 title: RESET_HEADER macro (amvideo.h)
-description: The RESET_HEADER macro fills a VIDEOINFOHEADER with zeroes. You can also use this macro to clear just the VIDEOINFOHEADER portion of a VIDEOINFO structure.
+description: The RESET_HEADER macro fills a VIDEOINFOHEADER with zeroes. You can also use this macro to clear just the VIDEOINFOHEADER portion of a VIDEOINFO structure.helpviewer_keywords: ["RESET_HEADER","RESET_HEADER macro [DirectShow]","amvideo/RESET_HEADER","dshow.reset_header"]
 old-location: dshow\reset_header.htm
 tech.root: DirectShow
 ms.assetid: bd976ff0-fbfb-4911-bee6-d53044eb3d23

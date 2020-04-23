@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced3
 title: IWMReaderAdvanced3 (wmsdkidl.h)
-description: The IWMReaderAdvanced3 interface provides additional functionality to the reader object.
+description: The IWMReaderAdvanced3 interface provides additional functionality to the reader object.helpviewer_keywords: ["IWMReaderAdvanced3","IWMReaderAdvanced3 interface [windows Media Format]","IWMReaderAdvanced3 interface [windows Media Format]","described","IWMReaderAdvanced3Interface","wmformat.iwmreaderadvanced3","wmsdkidl/IWMReaderAdvanced3"]
 old-location: wmformat\iwmreaderadvanced3.htm
 tech.root: wmformat
 ms.assetid: 20bf3c00-0f35-4b8e-b78d-a36fbfd865b7

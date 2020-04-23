@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationActiveTextPositionChangedEventHandler
 title: IUIAutomationActiveTextPositionChangedEventHandler (uiautomationclient.h)
-description: Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.
+description: Exposes a method to handle Microsoft UI Automation events that occur when the active text position changes.helpviewer_keywords: ["IUIAutomationActiveTextPositionChangedEventHandler","IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility]","IUIAutomationActiveTextPositionChangedEventHandler interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomationActiveTextPositionChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 038AD911-2FDB-42E5-86E0-76C58F765114

@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IDigitalCableLocator~r1
 title: IDigitalCableLocator
-description: TBD
+description: TBDhelpviewer_keywords: ["- IDigitalCableLocator"]
 tech.root: 
 ms.assetid: abdf4c6d-00f6-4cc8-8fe3-ce0adbb2e076
 ms.date: 11/14/2019

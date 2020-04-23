@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateItem
 title: ISyncMgrControl::UpdateItem (syncmgr.h)
-description: Informs Sync Center that properties of a sync item have changed.
+description: Informs Sync Center that properties of a sync item have changed.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateItem method","ISyncMgrControl.UpdateItem","ISyncMgrControl::UpdateItem","UpdateItem","UpdateItem method [Windows Shell]","UpdateItem method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateItem","shell.ISyncMgrControl_UpdateItem","syncmgr/ISyncMgrControl::UpdateItem"]
 old-location: shell\ISyncMgrControl_UpdateItem.htm
 tech.root: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb

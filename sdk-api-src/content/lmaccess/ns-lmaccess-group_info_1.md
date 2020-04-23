@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1
 title: GROUP_INFO_1 (lmaccess.h)
-description: The GROUP_INFO_1 structure contains a global group name and a comment to associate with the group.
+description: The GROUP_INFO_1 structure contains a global group name and a comment to associate with the group.helpviewer_keywords: ["*LPGROUP_INFO_1","*PGROUP_INFO_1","GROUP_INFO_1","GROUP_INFO_1 structure [Network Management]","LPGROUP_INFO_1","LPGROUP_INFO_1 structure pointer [Network Management]","PGROUP_INFO_1","PGROUP_INFO_1 structure pointer [Network Management]","_win32_group_info_1_str","lmaccess/GROUP_INFO_1","lmaccess/LPGROUP_INFO_1","lmaccess/PGROUP_INFO_1","netmgmt.group_info_1_str"]
 old-location: netmgmt\group_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: 0b42a438-64fd-4f37-98b8-77e10c09548c

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.SetMaxMediaBlocksFromDevice
 title: IFileSystemImage::SetMaxMediaBlocksFromDevice (imapi2fs.h)
-description: Set maximum number of blocks available based on the capabilities of the recorder.
+description: Set maximum number of blocks available based on the capabilities of the recorder.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","SetMaxMediaBlocksFromDevice method","IFileSystemImage.SetMaxMediaBlocksFromDevice","IFileSystemImage::SetMaxMediaBlocksFromDevice","SetMaxMediaBlocksFromDevice","SetMaxMediaBlocksFromDevice method [IMAPI]","SetMaxMediaBlocksFromDevice method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_setmaxmediablocksfromdevice","imapi2fs/IFileSystemImage::SetMaxMediaBlocksFromDevice"]
 old-location: imapi\ifilesystemimage_setmaxmediablocksfromdevice.htm
 tech.root: imapi
 ms.assetid: 201e7390-68f3-48a4-9036-b07219fa3d80

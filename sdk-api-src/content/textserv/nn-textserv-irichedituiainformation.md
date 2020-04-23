@@ -1,7 +1,7 @@
 ---
 UID: NN:textserv.IRichEditUiaInformation
 title: IRichEditUiaInformation (textserv.h)
-description: Provides Microsoft UI Automation accessibility information about a windowless rich edit control.
+description: Provides Microsoft UI Automation accessibility information about a windowless rich edit control.helpviewer_keywords: ["IRichEditUiaInformation","IRichEditUiaInformation interface [Windows Controls]","IRichEditUiaInformation interface [Windows Controls]","described","controls.irichedituiainformation","textserv/IRichEditUiaInformation"]
 old-location: controls\irichedituiainformation.htm
 tech.root: Controls
 ms.assetid: BEED428C-6C88-45A8-948C-77288B817C49

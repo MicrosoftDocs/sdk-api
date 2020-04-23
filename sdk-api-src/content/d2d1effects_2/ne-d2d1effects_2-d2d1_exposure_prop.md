@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects_2.D2D1_EXPOSURE_PROP
 title: D2D1_EXPOSURE_PROP (d2d1effects_2.h)
-description: Identifiers for properties of the Exposure effect.
+description: Identifiers for properties of the Exposure effect.helpviewer_keywords: ["D2D1_EXPOSURE_PROP","D2D1_EXPOSURE_PROP enumeration [Direct2D]","D2D1_EXPOSURE_PROP_EXPOSURE_VALUE","d2d1effects_2/D2D1_EXPOSURE_PROP","d2d1effects_2/D2D1_EXPOSURE_PROP_EXPOSURE_VALUE","direct2d.d2d1_exposure_prop"]
 old-location: direct2d\d2d1_exposure_prop.htm
 tech.root: Direct2D
 ms.assetid: 0C294B8B-2E18-48B7-AB81-602AB7949131

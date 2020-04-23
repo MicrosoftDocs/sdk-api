@@ -2,6 +2,7 @@
 UID: NF:iads.IADsSecurityUtility.GetSecurityDescriptor
 title: IADsSecurityUtility::GetSecurityDescriptor (iads.h)
 description: Retrieves a security descriptor for the specified file, fileshare, or registry key.
+helpviewer_keywords: ["ADS_SD_FORMAT_HEXSTRING","ADS_SD_FORMAT_IID","ADS_SD_FORMAT_RAW","File","File share","GetSecurityDescriptor","GetSecurityDescriptor method [ADSI]","GetSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","IADsSecurityUtility interface [ADSI]","GetSecurityDescriptor method","IADsSecurityUtility.GetSecurityDescriptor","IADsSecurityUtility::GetSecurityDescriptor","Registry key","_ds_iadssecurityutility_getsecuritydescriptor","adsi.iadssecurityutility__getsecuritydescriptor","adsi.iadssecurityutility_getsecuritydescriptor","iads/IADsSecurityUtility::GetSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_getsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: 95f4fbd9-03f8-4f2f-9314-e628186e51a4
@@ -82,12 +83,12 @@ A valid registry syntax. For example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ADs
 
 ### -param lPathFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
 
 
 ### -param lFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor returned in the <i>pVariant</i> parameter. The following list identifies the possible values for this parameter and the format that is supplied in the <i>pVariant</i> parameter.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor returned in the <i>pVariant</i> parameter. The following list identifies the possible values for this parameter and the format that is supplied in the <i>pVariant</i> parameter.
 
 
 
@@ -127,11 +128,11 @@ Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possib
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 

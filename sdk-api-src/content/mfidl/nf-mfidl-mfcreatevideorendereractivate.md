@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateVideoRendererActivate
 title: MFCreateVideoRendererActivate function (mfidl.h)
-description: Creates an activation object for the enhanced video renderer (EVR) media sink.
+description: Creates an activation object for the enhanced video renderer (EVR) media sink.helpviewer_keywords: ["021887fc-36af-42d4-ae46-2edc1c700110","MFCreateVideoRendererActivate","MFCreateVideoRendererActivate function [Media Foundation]","mf.mfcreatevideorendereractivate","mfidl/MFCreateVideoRendererActivate"]
 old-location: mf\mfcreatevideorendereractivate.htm
 tech.root: medfound
 ms.assetid: 021887fc-36af-42d4-ae46-2edc1c700110

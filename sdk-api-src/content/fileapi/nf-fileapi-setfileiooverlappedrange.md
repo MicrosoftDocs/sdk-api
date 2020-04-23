@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.SetFileIoOverlappedRange
 title: SetFileIoOverlappedRange function (fileapi.h)
-description: Associates a virtual address range with the specified file handle.
+description: Associates a virtual address range with the specified file handle.helpviewer_keywords: ["SetFileIoOverlappedRange","SetFileIoOverlappedRange function [Files]","fileapi/SetFileIoOverlappedRange","fs.setfileiooverlappedrange_func"]
 old-location: fs\setfileiooverlappedrange_func.htm
 tech.root: FileIO
 ms.assetid: 4e7eff5e-2877-4524-8f76-55d41afe521d

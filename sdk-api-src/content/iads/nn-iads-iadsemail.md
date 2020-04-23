@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsEmail
 title: IADsEmail (iads.h)
-description: The IADsEmail interface provides methods for an ADSI client to access the Email Address attribute.
+description: The IADsEmail interface provides methods for an ADSI client to access the Email Address attribute.helpviewer_keywords: ["Email","IADsEmail","IADsEmail interface [ADSI]","IADsEmail interface [ADSI]","described","_ds_iadsemail","adsi.iadsemail","iads/IADsEmail"]
 old-location: adsi\iadsemail.htm
 tech.root: adsi
 ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa

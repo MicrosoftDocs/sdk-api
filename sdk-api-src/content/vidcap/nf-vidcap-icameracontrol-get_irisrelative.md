@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.ICameraControl.get_IrisRelative
 title: ICameraControl::get_IrisRelative (vidcap.h)
-description: The get_IrisRelative method returns the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.
+description: The get_IrisRelative method returns the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_IrisRelative method","ICameraControl.get_IrisRelative","ICameraControl::get_IrisRelative","ICameraControlget_IrisRelative","dshow.icameracontrol_get_irisrelative","get_IrisRelative","get_IrisRelative method [DirectShow]","get_IrisRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_IrisRelative"]
 old-location: dshow\icameracontrol_get_irisrelative.htm
 tech.root: DirectShow
 ms.assetid: 15f01c00-ff18-4d58-a03b-9293a8a6a68c

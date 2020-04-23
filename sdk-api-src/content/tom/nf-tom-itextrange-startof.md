@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.StartOf
 title: ITextRange::StartOf (tom.h)
-description: Moves the range ends to the start of the first overlapping Unit in the range.
+description: Moves the range ends to the start of the first overlapping Unit in the range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","StartOf method","ITextRange.StartOf","ITextRange::StartOf","StartOf","StartOf method [Windows Controls]","StartOf method [Windows Controls]","ITextRange interface","_win32_ITextRange_StartOf","_win32_ITextRange_StartOf_cpp","controls.ITextRange_StartOf","controls._win32_ITextRange_StartOf","tom/ITextRange::StartOf"]
 old-location: controls\ITextRange_StartOf.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm

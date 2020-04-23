@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerGetSendPacket
 title: EapHostPeerGetSendPacket function (eappapis.h)
 description: Is called by the supplicant when the supplicant needs to obtains a packet from EAPHost to send to the authenticator.
+helpviewer_keywords: ["EapHostPeerGetSendPacket","EapHostPeerGetSendPacket function [EAPHost]","eaphost.eaphostpeergetsendpacket","eappapis/EapHostPeerGetSendPacket"]
 old-location: eaphost\eaphostpeergetsendpacket.htm
 tech.root: eaphost
 ms.assetid: 22e17496-e381-415e-8da0-88aad37d0d21
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 Is called by the supplicant when the supplicant needs to obtains a packet 
-   from EAPHost to send to the authenticator. <b>EapHostPeerGetSendPacket</b> is called when the supplicant receives the <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a>  enumerator from the server.
+   from EAPHost to send to the authenticator. <b>EapHostPeerGetSendPacket</b> is called when the supplicant receives the <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a>  enumerator from the server.
 
 
 ## -parameters
@@ -83,7 +84,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
  
 
  

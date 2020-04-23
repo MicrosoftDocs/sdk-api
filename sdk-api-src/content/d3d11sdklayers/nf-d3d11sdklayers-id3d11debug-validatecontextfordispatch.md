@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.ValidateContextForDispatch
 title: ID3D11Debug::ValidateContextForDispatch (d3d11sdklayers.h)
-description: Verifies whether the dispatch pipeline state is valid.
+description: Verifies whether the dispatch pipeline state is valid.helpviewer_keywords: ["ID3D11Debug interface [Direct3D 11]","ValidateContextForDispatch method","ID3D11Debug.ValidateContextForDispatch","ID3D11Debug::ValidateContextForDispatch","ValidateContextForDispatch","ValidateContextForDispatch method [Direct3D 11]","ValidateContextForDispatch method [Direct3D 11]","ID3D11Debug interface","d3d11sdklayers/ID3D11Debug::ValidateContextForDispatch","direct3d11.id3d11debug_validatecontextfordispatch"]
 old-location: direct3d11\id3d11debug_validatecontextfordispatch.htm
 tech.root: direct3d11
 ms.assetid: 0ddabb4f-eeed-46d4-a1d2-501180edffe0

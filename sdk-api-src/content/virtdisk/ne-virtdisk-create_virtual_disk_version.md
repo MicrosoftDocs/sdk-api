@@ -2,6 +2,7 @@
 UID: NE:virtdisk._CREATE_VIRTUAL_DISK_VERSION
 title: CREATE_VIRTUAL_DISK_VERSION (virtdisk.h)
 description: Contains the version of the virtual disk CREATE_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
+helpviewer_keywords: ["CREATE_VIRTUAL_DISK_VERSION","CREATE_VIRTUAL_DISK_VERSION enumeration [VHD]","CREATE_VIRTUAL_DISK_VERSION_1","CREATE_VIRTUAL_DISK_VERSION_2","CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/CREATE_VIRTUAL_DISK_VERSION","vdssys/CREATE_VIRTUAL_DISK_VERSION_1","vdssys/CREATE_VIRTUAL_DISK_VERSION_2","vdssys/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.create_virtual_disk_version","virtdisk/CREATE_VIRTUAL_DISK_VERSION","virtdisk/CREATE_VIRTUAL_DISK_VERSION_1","virtdisk/CREATE_VIRTUAL_DISK_VERSION_2","virtdisk/CREATE_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
 old-location: vhd\create_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 8a9f186a-88aa-43dc-97e0-2ffa43d7ffe5
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> 
+    <a href="/windows/win32/api/virtdisk/ns-virtdisk-create_virtual_disk_parameters">CREATE_VIRTUAL_DISK_PARAMETERS</a> 
     structure to use in calls to virtual disk functions.
 
 

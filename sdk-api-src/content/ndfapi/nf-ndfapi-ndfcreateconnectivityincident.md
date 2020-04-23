@@ -1,7 +1,7 @@
 ---
 UID: NF:ndfapi.NdfCreateConnectivityIncident
 title: NdfCreateConnectivityIncident function (ndfapi.h)
-description: Diagnoses generic Internet connectivity problems.
+description: Diagnoses generic Internet connectivity problems.helpviewer_keywords: ["NdfCreateConnectivityIncident","NdfCreateConnectivityIncident function [NDF]","ndf.ndfcreateconnectivityincident","ndfapi/NdfCreateConnectivityIncident"]
 old-location: ndf\ndfcreateconnectivityincident.htm
 tech.root: NDF
 ms.assetid: 7cc4f85a-04ea-44c0-9516-6b43a4dd51c0

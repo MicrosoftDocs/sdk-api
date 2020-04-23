@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetDC
 title: IOleInPlaceSiteWindowless::GetDC (ocidl.h)
-description: Provides an object with a handle to a device context for a screen or compatible device from its container.
+description: Provides an object with a handle to a device context for a screen or compatible device from its container.helpviewer_keywords: ["GetDC","GetDC method [COM]","GetDC method [COM]","IOleInPlaceSiteWindowless interface","IOleInPlaceSiteWindowless interface [COM]","GetDC method","IOleInPlaceSiteWindowless.GetDC","IOleInPlaceSiteWindowless::GetDC","_ole_ioleinplacesitewindowless_getdc","com.ioleinplacesitewindowless_getdc","ocidl/IOleInPlaceSiteWindowless::GetDC"]
 old-location: com\ioleinplacesitewindowless_getdc.htm
 tech.root: com
 ms.assetid: 232587a8-ed88-4339-9e28-6e34be263a51

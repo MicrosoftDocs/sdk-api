@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertGetPublicKeyLength
 title: CertGetPublicKeyLength function (wincrypt.h)
-description: The CertGetPublicKeyLength function acquires the bit length of public/private keys from a public key BLOB.
+description: The CertGetPublicKeyLength function acquires the bit length of public/private keys from a public key BLOB.helpviewer_keywords: ["CertGetPublicKeyLength","CertGetPublicKeyLength function [Security]","_crypto2_certgetpublickeylength","security.certgetpublickeylength","wincrypt/CertGetPublicKeyLength"]
 old-location: security\certgetpublickeylength.htm
 tech.root: SecCrypto
 ms.assetid: e67923f4-cd1f-4952-88f1-92ee26423f87

@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldap
 title: LDAP (winldap.h)
-description: Represents an LDAP session.
+description: Represents an LDAP session.helpviewer_keywords: ["*PLDAP","LDAP","LDAP structure [LDAP]","PLDAP","PLDAP structure pointer [LDAP]","_ldap_ldap","ldap.ldap","winldap/LDAP","winldap/PLDAP"]
 old-location: ldap\ldap.htm
 tech.root: ldap
 ms.assetid: 844093e1-daba-494d-91b3-67455ff2e456

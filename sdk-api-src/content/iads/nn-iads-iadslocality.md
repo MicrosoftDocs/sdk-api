@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsLocality
 title: IADsLocality (iads.h)
-description: The IADsLocality interface is a dual interface that inherits from IADs.
+description: The IADsLocality interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsLocality","IADsLocality interface [ADSI]","IADsLocality interface [ADSI]","described","_ds_iadslocality","adsi.iadslocality","iads/IADsLocality"]
 old-location: adsi\iadslocality.htm
 tech.root: adsi
 ms.assetid: fec0c8c2-b17f-49a0-9c97-260c98e71604

@@ -1,7 +1,7 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.CloseHandle
 title: ISceSvcAttachmentData::CloseHandle (scesvc.h)
-description: The CloseHandle method closes a handle opened during a previous call to ISceSvcAttachmentData::Initialize.
+description: The CloseHandle method closes a handle opened during a previous call to ISceSvcAttachmentData::Initialize.helpviewer_keywords: ["CloseHandle","CloseHandle method [Security]","CloseHandle method [Security]","ISceSvcAttachmentData interface","ISceSvcAttachmentData interface [Security]","CloseHandle method","ISceSvcAttachmentData.CloseHandle","ISceSvcAttachmentData::CloseHandle","_config_iscesvcattachmentdata_closehandle","scesvc/ISceSvcAttachmentData::CloseHandle","security.iscesvcattachmentdata_closehandle"]
 old-location: security\iscesvcattachmentdata_closehandle.htm
 tech.root: SecMgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a

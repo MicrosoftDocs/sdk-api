@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced3.StopNetStreaming
 title: IWMReaderAdvanced3::StopNetStreaming (wmsdkidl.h)
-description: The StopNetStreaming method halts network streaming. Any samples that have already been received from the network are delivered as usual.
+description: The StopNetStreaming method halts network streaming. Any samples that have already been received from the network are delivered as usual.helpviewer_keywords: ["IWMReaderAdvanced3 interface [windows Media Format]","StopNetStreaming method","IWMReaderAdvanced3.StopNetStreaming","IWMReaderAdvanced3::StopNetStreaming","IWMReaderAdvanced3StopNetStreaming","StopNetStreaming","StopNetStreaming method [windows Media Format]","StopNetStreaming method [windows Media Format]","IWMReaderAdvanced3 interface","wmformat.iwmreaderadvanced3_stopnetstreaming","wmsdkidl/IWMReaderAdvanced3::StopNetStreaming"]
 old-location: wmformat\iwmreaderadvanced3_stopnetstreaming.htm
 tech.root: wmformat
 ms.assetid: e323f967-02d5-4472-a9b3-cb8a2b80070e

@@ -2,6 +2,7 @@
 UID: NS:wmiutils.tag_SWbemQueryQualifiedName
 title: SWbemQueryQualifiedName (wmiutils.h)
 description: The SWbemQueryQualifiedName structure stores property names for the IWbemQuery::GetAnalysis method.
+helpviewer_keywords: ["SWbemQueryQualifiedName","SWbemQueryQualifiedName structure [Windows Management Instrumentation]","wmi.swbemqueryqualifiedname","wmiutils/SWbemQueryQualifiedName"]
 old-location: wmi\swbemqueryqualifiedname.htm
 tech.root: WmiSdk
 ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
@@ -105,7 +106,7 @@ Unused. Always <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
  
 
  

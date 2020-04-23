@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetSupportedProtocolType
 title: IMFNetSchemeHandlerConfig::GetSupportedProtocolType (mfidl.h)
-description: Retrieves a supported protocol by index.
+description: Retrieves a supported protocol by index.helpviewer_keywords: ["51cd90cf-a3ae-45dd-bc27-c91d44cab9f5","GetSupportedProtocolType","GetSupportedProtocolType method [Media Foundation]","GetSupportedProtocolType method [Media Foundation]","IMFNetSchemeHandlerConfig interface","IMFNetSchemeHandlerConfig interface [Media Foundation]","GetSupportedProtocolType method","IMFNetSchemeHandlerConfig.GetSupportedProtocolType","IMFNetSchemeHandlerConfig::GetSupportedProtocolType","mf.imfnetschemehandlerconfig_getsupportedprotocoltype","mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType"]
 old-location: mf\imfnetschemehandlerconfig_getsupportedprotocoltype.htm
 tech.root: medfound
 ms.assetid: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5

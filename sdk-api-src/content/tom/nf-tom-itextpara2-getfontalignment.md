@@ -2,6 +2,7 @@
 UID: NF:tom.ITextPara2.GetFontAlignment
 title: ITextPara2::GetFontAlignment (tom.h)
 description: Gets the paragraph font alignment state.
+helpviewer_keywords: ["GetFontAlignment","GetFontAlignment method [Windows Controls]","GetFontAlignment method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetFontAlignment method","ITextPara2.GetFontAlignment","ITextPara2::GetFontAlignment","controls.itextpara2_getfontalignment","tom/ITextPara2::GetFontAlignment"]
 old-location: controls\itextpara2_getfontalignment.htm
 tech.root: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
@@ -68,19 +69,19 @@ The paragraph font alignment state. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentTop</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBaseline</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBottom</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentCenter</a></td>
+<td><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  

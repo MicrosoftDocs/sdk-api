@@ -1,7 +1,7 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_2
 title: PSS_AUXILIARY_PAGES_INFORMATION (processsnapshot.h)
-description: Holds auxiliary pages information returned by PssQuerySnapshot.
+description: Holds auxiliary pages information returned by PssQuerySnapshot.helpviewer_keywords: ["PSS_AUXILIARY_PAGES_INFORMATION","PSS_AUXILIARY_PAGES_INFORMATION structure","proc_snap.pss_auxiliary_pages_information","processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION"]
 old-location: proc_snap\pss_auxiliary_pages_information.htm
 tech.root: proc_snap
 ms.assetid: 122DD3DF-002A-4250-9E37-BA239638A684

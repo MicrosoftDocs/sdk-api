@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.IActiveDesktopP
 title: IActiveDesktopP (shlobj.h)
-description: Exposes methods that manage the Windows Desktop.
+description: Exposes methods that manage the Windows Desktop.helpviewer_keywords: ["IActiveDesktopP","IActiveDesktopP interface [Legacy Windows Environment Features]","IActiveDesktopP interface [Legacy Windows Environment Features]","described","_win32_IActiveDesktopP","lwef.iactivedesktopp","shell.iactivedesktopp","shlobj/IActiveDesktopP"]
 old-location: lwef\iactivedesktopp.htm
 tech.root: lwef
 ms.assetid: 04d2e14a-374b-405d-803b-0bd6f57c077a

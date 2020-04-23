@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcRelationshipSet
 title: IOpcRelationshipSet (msopc.h)
-description: Represents a Relationships part as an unordered set of IOpcRelationship interface pointers to relationship objects.
+description: Represents a Relationships part as an unordered set of IOpcRelationship interface pointers to relationship objects.helpviewer_keywords: ["IOpcRelationshipSet","IOpcRelationshipSet interface [Open Packaging Conventions]","IOpcRelationshipSet interface [Open Packaging Conventions]","described","msopc/IOpcRelationshipSet","opc.iopcrelationshipset"]
 old-location: opc\iopcrelationshipset.htm
 tech.root: OPC
 ms.assetid: 6259906d-820d-4b6e-bbeb-d9d044f2b35a

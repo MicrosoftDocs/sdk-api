@@ -2,6 +2,7 @@
 UID: NF:drt.DrtCreateNullSecurityProvider
 title: DrtCreateNullSecurityProvider function (drt.h)
 description: DrtCreateNullSecurityProvider function creates a null security provider. This security provider does not require nodes to authenticate keys.
+helpviewer_keywords: ["DrtCreateNullSecurityProvider","DrtCreateNullSecurityProvider function [Distributed Routing Tables]","drt/DrtCreateNullSecurityProvider","p2p.drtcreatenullsecurityprovider"]
 old-location: p2p\drtcreatenullsecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: ba6e766f-784b-4609-8ad5-c1bfb0575f34
@@ -59,7 +60,7 @@ The <b>DrtCreateNullSecurityProvider</b> function creates a null security provid
 
 ### -param ppSecurityProvider [out]
 
-Pointer to the [DRT_SETTINGS](/windows/win32/api/drt/ns-drt-drt_settings)a> structure.
+Pointer to the [DRT_SETTINGS](/windows/win32/api/drt/ns-drt-drt_settings) structure.
 
 
 ## -returns

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.SetValue
 title: IUIAutomationLegacyIAccessiblePattern::SetValue (uiautomationclient.h)
-description: Sets the Microsoft Active Accessibility value property for the element.
+description: Sets the Microsoft Active Accessibility value property for the element.helpviewer_keywords: ["IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","SetValue method","IUIAutomationLegacyIAccessiblePattern.SetValue","IUIAutomationLegacyIAccessiblePattern::SetValue","SetValue","SetValue method [Windows Accessibility]","SetValue method [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue","uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::SetValue","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: c5891bb3-e727-430c-a4d4-5c59750b01ce

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IResultData.SetItemCount
 title: IResultData::SetItemCount (mmc.h)
-description: Sets the number of items in a virtual list.
+description: Sets the number of items in a virtual list.helpviewer_keywords: ["IResultData interface [MMC]","SetItemCount method","IResultData.SetItemCount","IResultData2 interface [MMC]","SetItemCount method","IResultData2::SetItemCount","IResultData::SetItemCount","MMCLV_UPDATE_NOINVALIDATEALL","MMCLV_UPDATE_NOSCROLL","SetItemCount","SetItemCount method [MMC]","SetItemCount method [MMC]","IResultData interface","SetItemCount method [MMC]","IResultData2 interface","_slate_iresultdata_setitemcount","mmc.iresultdata_setitemcount","mmc/IResultData2::SetItemCount","mmc/IResultData::SetItemCount"]
 old-location: mmc\iresultdata_setitemcount.htm
 tech.root: mmc
 ms.assetid: d2105b19-3c91-4a5f-9dfa-c330d4733c67

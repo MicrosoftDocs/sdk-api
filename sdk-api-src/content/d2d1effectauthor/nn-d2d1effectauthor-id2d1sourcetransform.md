@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1SourceTransform
 title: ID2D1SourceTransform (d2d1effectauthor.h)
-description: Represents a CPU-based rasterization stage in the transform pipeline graph.
+description: Represents a CPU-based rasterization stage in the transform pipeline graph.helpviewer_keywords: ["ID2D1SourceTransform","ID2D1SourceTransform interface [Direct2D]","ID2D1SourceTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1SourceTransform","direct2d.id2d1sourcetransform"]
 old-location: direct2d\id2d1sourcetransform.htm
 tech.root: Direct2D
 ms.assetid: A2B3E8E1-8F7F-4AFA-B1CE-5E8A5FCD9B70

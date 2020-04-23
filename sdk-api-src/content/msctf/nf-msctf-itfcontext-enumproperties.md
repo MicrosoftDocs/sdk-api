@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContext.EnumProperties
 title: ITfContext::EnumProperties (msctf.h)
-description: ITfContext::EnumProperties method
+description: ITfContext::EnumProperties methodhelpviewer_keywords: ["EnumProperties","EnumProperties method [Text Services Framework]","EnumProperties method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","EnumProperties method","ITfContext.EnumProperties","ITfContext::EnumProperties","_tsf_itfcontext_enumproperties_ref","msctf/ITfContext::EnumProperties","tsf.itfcontext_enumproperties"]
 old-location: tsf\itfcontext_enumproperties.htm
 tech.root: TSF
 ms.assetid: b57c9fdc-320b-4d97-8af4-c75756326437

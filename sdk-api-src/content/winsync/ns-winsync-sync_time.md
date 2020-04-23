@@ -1,7 +1,7 @@
 ---
 UID: NS:winsync._SYNC_TIME
 title: SYNC_TIME (winsync.h)
-description: Represents a date-and-time value.
+description: Represents a date-and-time value.helpviewer_keywords: ["SYNC_TIME","SYNC_TIME structure [Windows Sync]","winsync.sync_time","winsync/SYNC_TIME"]
 old-location: winsync\sync_time.htm
 tech.root: winsync
 ms.assetid: f5e0df02-d016-4eae-9b9b-bfd754ade126

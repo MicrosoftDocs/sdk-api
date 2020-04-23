@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHReleaseThreadRef
 title: SHReleaseThreadRef function (shlwapi.h)
-description: Releases a thread reference before the thread procedure returns.
+description: Releases a thread reference before the thread procedure returns.helpviewer_keywords: ["SHReleaseThreadRef","SHReleaseThreadRef function [Windows Shell]","_shell_SHReleaseThreadRef","shell.SHReleaseThreadRef","shlwapi/SHReleaseThreadRef"]
 old-location: shell\SHReleaseThreadRef.htm
 tech.root: shell
 ms.assetid: 7f3fd09b-baad-4019-a060-c68727aee61f

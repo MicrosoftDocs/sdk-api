@@ -1,7 +1,7 @@
 ---
 UID: NF:peerdist.PeerDistRegisterForStatusChangeNotificationEx
 title: PeerDistRegisterForStatusChangeNotificationEx function (peerdist.h)
-description: The PeerDistRegisterForStatusChangeNotificationEx function requests the Peer Distribution service status change notification.
+description: The PeerDistRegisterForStatusChangeNotificationEx function requests the Peer Distribution service status change notification.helpviewer_keywords: ["PeerDistRegisterForStatusChangeNotificationEx","PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking]","p2p.peerdistregisterforstatuschangenotificationex","peerdist/PeerDistRegisterForStatusChangeNotificationEx"]
 old-location: p2p\peerdistregisterforstatuschangenotificationex.htm
 tech.root: P2PSdk
 ms.assetid: 84de2b23-5536-43e9-9336-0c1d3b70891d

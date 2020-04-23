@@ -1,7 +1,7 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetComponentDescription
 title: IVersionInfo::GetComponentDescription (msaatext.h)
-description: Clients call this method to retrieve a description of the component.
+description: Clients call this method to retrieve a description of the component.helpviewer_keywords: ["GetComponentDescription","GetComponentDescription method [Windows Accessibility]","GetComponentDescription method [Windows Accessibility]","IVersionInfo interface","IVersionInfo interface [Windows Accessibility]","GetComponentDescription method","IVersionInfo.GetComponentDescription","IVersionInfo::GetComponentDescription","_msaa_IVersionInfo_GetComponentDescription","msaa.iversioninfo_iversioninfo__getcomponentdescription","msaatext/IVersionInfo::GetComponentDescription","winauto.iversioninfo_iversioninfo__getcomponentdescription"]
 old-location: winauto\iversioninfo_iversioninfo__getcomponentdescription.htm
 tech.root: WinAuto
 ms.assetid: bb689adb-bd94-4c62-b408-33e1aa694c89

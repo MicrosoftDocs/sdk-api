@@ -1,7 +1,7 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.RegisterDuckNotification
 title: IAudioSessionManager2::RegisterDuckNotification (audiopolicy.h)
-description: The RegisterDuckNotification method registers the application with the session manager to receive ducking notifications.
+description: The RegisterDuckNotification method registers the application with the session manager to receive ducking notifications.helpviewer_keywords: ["IAudioSessionManager2 interface [Core Audio]","RegisterDuckNotification method","IAudioSessionManager2.RegisterDuckNotification","IAudioSessionManager2::RegisterDuckNotification","RegisterDuckNotification","RegisterDuckNotification method [Core Audio]","RegisterDuckNotification method [Core Audio]","IAudioSessionManager2 interface","audiopolicy/IAudioSessionManager2::RegisterDuckNotification","coreaudio.iaudiosessionmanager2_registerducknotification"]
 old-location: coreaudio\iaudiosessionmanager2_registerducknotification.htm
 tech.root: CoreAudio
 ms.assetid: bed27f3f-6293-4a25-baa0-39562d45bddc

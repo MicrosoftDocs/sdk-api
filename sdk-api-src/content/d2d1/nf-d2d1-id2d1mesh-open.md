@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Mesh.Open
 title: ID2D1Mesh::Open (d2d1.h)
-description: Opens the mesh for population.
+description: Opens the mesh for population.helpviewer_keywords: ["ID2D1Mesh interface [Direct2D]","Open method","ID2D1Mesh.Open","ID2D1Mesh::Open","Open","Open method [Direct2D]","Open method [Direct2D]","ID2D1Mesh interface","d2d1/ID2D1Mesh::Open","direct2d.ID2D1Mesh_Open"]
 old-location: direct2d\ID2D1Mesh_Open.htm
 tech.root: Direct2D
 ms.assetid: 7cd0d637-7fcd-45a5-932f-5aa8fb476f68

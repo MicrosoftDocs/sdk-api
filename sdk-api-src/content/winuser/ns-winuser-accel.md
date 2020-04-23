@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagACCEL
 title: ACCEL (winuser.h)
-description: Defines an accelerator key used in an accelerator table.
+description: Defines an accelerator key used in an accelerator table.helpviewer_keywords: ["*LPACCEL","ACCEL","ACCEL structure [Menus and Other Resources]","FALT","FCONTROL","FNOINVERT","FSHIFT","FVIRTKEY","LPACCEL","LPACCEL structure pointer [Menus and Other Resources]","_win32_ACCEL_str","_win32_accel_str_cpp","menurc.accel","winui._win32_accel_str","winuser/ACCEL","winuser/LPACCEL"]
 old-location: menurc\accel.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorstructures\accel.htm

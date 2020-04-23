@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.CreateDocumentMgr
 title: ITfThreadMgr2::CreateDocumentMgr (msctf.h)
-description: Creates a document manager object.
+description: Creates a document manager object.helpviewer_keywords: ["CreateDocumentMgr","CreateDocumentMgr method [Text Services Framework]","CreateDocumentMgr method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","CreateDocumentMgr method","ITfThreadMgr2.CreateDocumentMgr","ITfThreadMgr2::CreateDocumentMgr","msctf/ITfThreadMgr2::CreateDocumentMgr","tsf.itfthreadmgr2_createdocumentmgr"]
 old-location: tsf\itfthreadmgr2_createdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 4B19EA80-9F42-4FFF-AB3D-4D0B5B2174F8

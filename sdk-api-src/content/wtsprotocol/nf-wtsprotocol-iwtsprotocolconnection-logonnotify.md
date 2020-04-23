@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.LogonNotify
 title: IWTSProtocolConnection::LogonNotify (wtsprotocol.h)
-description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.
+description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","LogonNotify method","IWTSProtocolConnection.LogonNotify","IWTSProtocolConnection::LogonNotify","LogonNotify","LogonNotify method [Remote Desktop Services]","LogonNotify method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_logonnotify","wtsprotocol/IWTSProtocolConnection::LogonNotify"]
 old-location: termserv\iwtsprotocolconnection_logonnotify.htm
 tech.root: TermServ
 ms.assetid: 6065e827-23a5-4150-bda5-999b7acede65

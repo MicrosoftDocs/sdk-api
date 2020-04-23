@@ -2,6 +2,7 @@
 UID: NN:wdstptmgmt.IWdsTransportServicePolicy2
 title: IWdsTransportServicePolicy2 (wdstptmgmt.h)
 description: This interface inherits from the IWdsTransportServicePolicy interface and extends it beginning with Windows Server 2012.
+helpviewer_keywords: ["IWdsTransportServicePolicy2","IWdsTransportServicePolicy2 interface [Windows Deployment Services]","IWdsTransportServicePolicy2 interface [Windows Deployment Services]","described","wds.iwdstransportservicepolicy2","wdstptmgmt/IWdsTransportServicePolicy2"]
 old-location: wds\iwdstransportservicepolicy2.htm
 tech.root: wds
 ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
@@ -63,7 +64,7 @@ A client application can obtain an interface pointer to an instance of the <b>IW
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a>
  
 
  

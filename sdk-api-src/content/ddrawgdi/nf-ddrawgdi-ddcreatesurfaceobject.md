@@ -1,7 +1,7 @@
 ---
 UID: NF:ddrawgdi.DdCreateSurfaceObject
 title: DdCreateSurfaceObject function (ddrawgdi.h)
-description: Wrapper for the NtGdiDdCreateSurfaceObject function and creates a kernel-mode surface object. GdiEntry4 is defined as an alias for this function.
+description: Wrapper for the NtGdiDdCreateSurfaceObject function and creates a kernel-mode surface object. GdiEntry4 is defined as an alias for this function.helpviewer_keywords: ["DdCreateSurfaceObject","DdCreateSurfaceObject function [Windows API]","GdiEntry4","_dxgkernel_ddcreatesurfaceobject","ddrawgdi/DdCreateSurfaceObject","ddrawgdi/GdiEntry4","winprog._dxgkernel_ddcreatesurfaceobject","winui._dxgkernel_ddcreatesurfaceobject"]
 old-location: winprog\_dxgkernel_ddcreatesurfaceobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatesurfaceobject.htm

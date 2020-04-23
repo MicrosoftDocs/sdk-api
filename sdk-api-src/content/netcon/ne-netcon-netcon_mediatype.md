@@ -1,7 +1,7 @@
 ---
 UID: NE:netcon.tagNETCON_MEDIATYPE
 title: NETCON_MEDIATYPE (netcon.h)
-description: The values of the NETCON_MEDIATYPE enumerate the possible ways the computer connects to the network.
+description: The values of the NETCON_MEDIATYPE enumerate the possible ways the computer connects to the network.helpviewer_keywords: ["NCM_BRIDGE","NCM_DIRECT","NCM_ISDN","NCM_LAN","NCM_NONE","NCM_PHONE","NCM_PPPOE","NCM_SHAREDACCESSHOST_LAN","NCM_SHAREDACCESSHOST_RAS","NCM_TUNNEL","NETCON_MEDIATYPE","NETCON_MEDIATYPE enumeration [ICS/ICF]","_ics_netcon_mediatype","ics.netcon_mediatype","netcon/NCM_BRIDGE","netcon/NCM_DIRECT","netcon/NCM_ISDN","netcon/NCM_LAN","netcon/NCM_NONE","netcon/NCM_PHONE","netcon/NCM_PPPOE","netcon/NCM_SHAREDACCESSHOST_LAN","netcon/NCM_SHAREDACCESSHOST_RAS","netcon/NCM_TUNNEL","netcon/NETCON_MEDIATYPE"]
 old-location: ics\netcon_mediatype.htm
 tech.root: ics
 ms.assetid: 9236371c-0e3f-43ba-a02f-0770768008ae

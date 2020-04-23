@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IStringTable
 title: IStringTable (mmc.h)
-description: The IStringTable interface is introduced in MMC 1.1.
+description: The IStringTable interface is introduced in MMC 1.1.helpviewer_keywords: ["IStringTable","IStringTable interface [MMC]","IStringTable interface [MMC]","described","_slate_istringtable","mmc.istringtable","mmc/IStringTable"]
 old-location: mmc\istringtable.htm
 tech.root: mmc
 ms.assetid: 3b4cfc92-4f50-4b62-bb2c-77c8e0e003da

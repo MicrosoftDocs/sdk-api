@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TEX2DMS_ARRAY_SRV
 title: D3D12_TEX2DMS_ARRAY_SRV (d3d12.h)
-description: Describes the subresources from an array of multi sampled 2D textures to use in a shader-resource view.
+description: Describes the subresources from an array of multi sampled 2D textures to use in a shader-resource view.helpviewer_keywords: ["D3D12_TEX2DMS_ARRAY_SRV","D3D12_TEX2DMS_ARRAY_SRV structure","d3d12/D3D12_TEX2DMS_ARRAY_SRV","direct3d12.d3d12_tex2dms_array_srv"]
 old-location: direct3d12\d3d12_tex2dms_array_srv.htm
 tech.root: direct3d12
 ms.assetid: 2AA430ED-4CE8-4EBD-9541-6EE0FFBA3873

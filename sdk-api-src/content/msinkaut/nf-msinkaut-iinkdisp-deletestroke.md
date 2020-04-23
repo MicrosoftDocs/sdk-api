@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDisp.DeleteStroke
 title: IInkDisp::DeleteStroke (msinkaut.h)
-description: Deletes a IInkStrokeDisp object from the InkDisp object.
+description: Deletes a IInkStrokeDisp object from the InkDisp object.helpviewer_keywords: ["DeleteStroke","DeleteStroke method [Tablet PC]","DeleteStroke method [Tablet PC]","IInkDisp interface","IInkDisp","IInkDisp interface [Tablet PC]","DeleteStroke method","IInkDisp.DeleteStroke","IInkDisp::DeleteStroke","ac6579ec-20f7-4a20-8cb8-5f3a6119959d","msinkaut/IInkDisp::DeleteStroke","tablet.inkdisp_deletestroke"]
 old-location: tablet\inkdisp_deletestroke.htm
 tech.root: tablet
 ms.assetid: ac6579ec-20f7-4a20-8cb8-5f3a6119959d

@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Session_DeleteInstance
 title: MI_Session_DeleteInstance function (mi.h)
-description: Deletes an instance on the server represented by the session.
+description: Deletes an instance on the server represented by the session.helpviewer_keywords: ["MI_Session_DeleteInstance","MI_Session_DeleteInstance function [Windows Management Infrastructure (MI)]","mi/MI_Session_DeleteInstance","wmi_v2.mi_session_deleteinstance"]
 old-location: wmi_v2\mi_session_deleteinstance.htm
 tech.root: wmi_v2
 ms.assetid: 10d49e33-adbc-4202-91f6-7df9b4cff133

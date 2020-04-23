@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolListener
 title: IWRdsProtocolListener (wtsprotocol.h)
-description: Exposes methods that request that the protocol start and stop listening for client connection requests.
+description: Exposes methods that request that the protocol start and stop listening for client connection requests.helpviewer_keywords: ["IWRdsProtocolListener","IWRdsProtocolListener interface [Remote Desktop Services]","IWRdsProtocolListener interface [Remote Desktop Services]","described","termserv.iwrdsprotocollistener","wtsprotocol/IWRdsProtocolListener"]
 old-location: termserv\iwrdsprotocollistener.htm
 tech.root: TermServ
 ms.assetid: 19d3176a-3f47-46c1-8bee-8e0f1d9b466e

@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetOutput
 title: IMILBitmapEffect::GetOutput (mileffects.h)
-description: Gets the output of the effect.
+description: Gets the output of the effect.helpviewer_keywords: ["GetOutput","GetOutput method [WPF Bitmap Effects]","GetOutput method [WPF Bitmap Effects]","IMILBitmapEffect interface","IMILBitmapEffect interface [WPF Bitmap Effects]","GetOutput method","IMILBitmapEffect.GetOutput","IMILBitmapEffect::GetOutput","_wibe_imilbitmapeffect_getoutput","mileffects/IMILBitmapEffect::GetOutput","wibe._wibe_imilbitmapeffect_getoutput"]
 old-location: wibe\_wibe_imilbitmapeffect_getoutput.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getoutput.htm

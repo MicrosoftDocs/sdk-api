@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO
 title: DHCP_CLIENT_INFO (dhcpsapi.h)
-description: The DHCP_CLIENT_INFO structure defines a client information record used by the DHCP server.
+description: The DHCP_CLIENT_INFO structure defines a client information record used by the DHCP server.helpviewer_keywords: ["*LPDHCP_CLIENT_INFO","DHCP_CLIENT_INFO","DHCP_CLIENT_INFO structure [DHCP]","LPDHCP_CLIENT_INFO","LPDHCP_CLIENT_INFO structure pointer [DHCP]","dhcp.dhcp_client_info","dhcpsapi/LPDHCP_CLIENT_INFO","dhcpsapi/_DHCP_CLIENT_INFO"]
 old-location: dhcp\dhcp_client_info.htm
 tech.root: DHCP
 ms.assetid: cc841dac-85d4-4250-a868-95c41731fe45

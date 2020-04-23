@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IFont.put_Size
 title: IFont::put_Size (ocidl.h)
-description: Sets the point size of the font.
+description: Sets the point size of the font.helpviewer_keywords: ["IFont interface [COM]","put_Size method","IFont.put_Size","IFont::put_Size","_ctrl_ifont_put_size","com.ifont_put_size","ocidl/IFont::put_Size","put_Size","put_Size method [COM]","put_Size method [COM]","IFont interface"]
 old-location: com\ifont_put_size.htm
 tech.root: com
 ms.assetid: 1c39a7dc-553b-41b7-8b66-1a5980493dce

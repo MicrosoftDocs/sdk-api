@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateSensorActivityMonitor
 title: MFCreateSensorActivityMonitor function (mfidl.h)
-description: Initializes a new instance of the IMFSensorActivityMonitor interface.
+description: Initializes a new instance of the IMFSensorActivityMonitor interface.helpviewer_keywords: ["MFCreateSensorActivityMonitor","MFCreateSensorActivityMonitor function [Media Foundation]","mf.mfcreatesensoractivitymonitor","mfidl/MFCreateSensorActivityMonitor"]
 old-location: mf\mfcreatesensoractivitymonitor.htm
 tech.root: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447

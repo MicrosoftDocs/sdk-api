@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_Ink
 title: IInkStrokeDisp::get_Ink (msinkaut.h)
-description: Gets the parent InkDisp object of a stroke.
+description: Gets the parent InkDisp object of a stroke.helpviewer_keywords: ["46283c0a-0280-4bd9-a6f1-2aa943b8b1b5","IInkStrokeDisp interface [Tablet PC]","Ink property","IInkStrokeDisp.Ink","IInkStrokeDisp.get_Ink","IInkStrokeDisp::Ink","IInkStrokeDisp::get_Ink","Ink property [Tablet PC]","Ink property [Tablet PC]","IInkStrokeDisp interface","get_Ink","msinkaut/IInkStrokeDisp::Ink","msinkaut/IInkStrokeDisp::get_Ink","tablet.iinkstrokedisp_ink"]
 old-location: tablet\iinkstrokedisp_ink.htm
 tech.root: tablet
 ms.assetid: 46283c0a-0280-4bd9-a6f1-2aa943b8b1b5

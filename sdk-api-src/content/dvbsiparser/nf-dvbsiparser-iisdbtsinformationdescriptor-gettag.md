@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetTag
 title: IIsdbTSInformationDescriptor::GetTag (dvbsiparser.h)
-description: Receives the tag that identifies an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
+description: Receives the tag that identifies an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbTSInformationDescriptor interface","IIsdbTSInformationDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbTSInformationDescriptor.GetTag","IIsdbTSInformationDescriptor::GetTag","dvbsiparser/IIsdbTSInformationDescriptor::GetTag","mstv.iisdbtsinformationdescriptor_gettag"]
 old-location: mstv\iisdbtsinformationdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 77a7b225-2e7e-4fa2-a8f0-a5f18850cde6

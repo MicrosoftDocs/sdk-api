@@ -2,6 +2,7 @@
 UID: NF:manipulations.IInertiaProcessor.Complete
 title: IInertiaProcessor::Complete (manipulations.h)
 description: The Complete method finishes the current manipulation and stops inertia on the inertia processor.
+helpviewer_keywords: ["Complete","Complete method [Windows Touch]","Complete method [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","Complete method","IInertiaProcessor.Complete","IInertiaProcessor::Complete","manipulations/IInertiaProcessor::Complete","wintouch.iinertiaprocessor_complete"]
 old-location: wintouch\iinertiaprocessor_complete.htm
 tech.root: wintouch
 ms.assetid: ff41789c-afc5-419b-9767-e99572b9b41e
@@ -72,7 +73,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-The <b>Complete</b> method raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event	on an <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
+The <b>Complete</b> method raises the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event	on an <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
 	 
 
 

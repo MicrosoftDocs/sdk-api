@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetHomeProvider
 title: IMbnInterface::GetHomeProvider (mbnapi.h)
-description: Gets the home provider.
+description: Gets the home provider.helpviewer_keywords: ["GetHomeProvider","GetHomeProvider method [Microsoft Broadband Networks]","GetHomeProvider method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetHomeProvider method","IMbnInterface.GetHomeProvider","IMbnInterface::GetHomeProvider","mbn.imbninterface_gethomeprovider","mbnapi/IMbnInterface::GetHomeProvider"]
 old-location: mbn\imbninterface_gethomeprovider.htm
 tech.root: mbn
 ms.assetid: b9d29a2a-f41b-4e20-b9ff-559dd39e1015

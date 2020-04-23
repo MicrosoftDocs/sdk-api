@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetPackagePathByFullName
 title: GetPackagePathByFullName function (appmodel.h)
-description: Gets the path of the specified package.
+description: Gets the path of the specified package.helpviewer_keywords: ["GetPackagePathByFullName","GetPackagePathByFullName function [App packaging and management]","appmodel/GetPackagePathByFullName","appxpkg.getpackagepathbyfullname"]
 old-location: appxpkg\getpackagepathbyfullname.htm
 tech.root: appxpkg
 ms.assetid: 9C25708C-1464-4C59-9740-E9F105116385

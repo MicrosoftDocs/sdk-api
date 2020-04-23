@@ -2,6 +2,7 @@
 UID: NF:winuser.GetPointerTouchInfoHistory
 title: GetPointerTouchInfoHistory function (winuser.h)
 description: Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_TOUCH).
+helpviewer_keywords: ["GetPointerTouchInfoHistory","GetPointerTouchInfoHistory function [Input Messages and Notifications]","inputmsg.getpointertouchinfohistory","winuser/GetPointerTouchInfoHistory"]
 old-location: inputmsg\getpointertouchinfohistory.htm
 tech.root: InputMsg
 ms.assetid: 9fdfbde7-4126-4c1b-b870-479f846e1aa9
@@ -56,7 +57,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>). The most recent input is included in the returned history and is the same as the most recent input returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a> function.
+Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>). The most recent input is included in the returned history and is the same as the most recent input returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a> function.
 
 
 ## -parameters
@@ -94,7 +95,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If the application does not process pointer input messages as fast as they are generated, some moves may be coalesced. When an application receives a coalescable pointer (of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>) message, it can use the <b>GetPointerTouchInfoHistory</b> function to retrieve information for all the individual inputs, if any, that were coalesced into the message. Note that the information retrieved is associated with the pointer message most recently retrieved by the calling thread. Once the calling thread retrieves its next message, the information associated with the previous message may no longer be available.
+If the application does not process pointer input messages as fast as they are generated, some moves may be coalesced. When an application receives a coalescable pointer (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>) message, it can use the <b>GetPointerTouchInfoHistory</b> function to retrieve information for all the individual inputs, if any, that were coalesced into the message. Note that the information retrieved is associated with the pointer message most recently retrieved by the calling thread. Once the calling thread retrieves its next message, the information associated with the previous message may no longer be available.
 
 The information retrieved appears in reverse chronological order, with the most recent entry in the first row of the returned array. The most recent entry is the same as that returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a> function.
 
@@ -107,7 +108,7 @@ If the information associated with the pointer frame is no longer available, thi
 
 If the calling thread does not own the window (where the input was originally delivered or where the message was forwarded) to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>. 
 
-If the specified pointer is not of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
+If the specified pointer is not of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 
 

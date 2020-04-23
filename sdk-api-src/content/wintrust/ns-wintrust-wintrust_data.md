@@ -2,6 +2,7 @@
 UID: NS:wintrust._WINTRUST_DATA
 title: WINTRUST_DATA (wintrust.h)
 description: Used when calling WinVerifyTrust to pass necessary information into the trust providers.
+helpviewer_keywords: ["*PWINTRUST_DATA","PWINTRUST_DATA","PWINTRUST_DATA structure pointer [Security]","WINTRUST_DATA","WINTRUST_DATA structure [Security]","WTD_CACHE_ONLY_URL_RETRIEVAL","WTD_CHOICE_BLOB","WTD_CHOICE_CATALOG","WTD_CHOICE_CERT","WTD_CHOICE_FILE","WTD_CHOICE_SIGNER","WTD_DISABLE_MD2_MD4","WTD_HASH_ONLY_FLAG","WTD_LIFETIME_SIGNING_FLAG","WTD_MOTW","WTD_NO_IE4_CHAIN_FLAG","WTD_NO_POLICY_USAGE_FLAG","WTD_REVOCATION_CHECK_CHAIN","WTD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT","WTD_REVOCATION_CHECK_END_CERT","WTD_REVOCATION_CHECK_NONE","WTD_REVOKE_NONE","WTD_REVOKE_WHOLECHAIN","WTD_SAFER_FLAG","WTD_STATEACTION_AUTO_CACHE","WTD_STATEACTION_AUTO_CACHE_FLUSH","WTD_STATEACTION_CLOSE","WTD_STATEACTION_IGNORE","WTD_STATEACTION_VERIFY","WTD_UICONTEXT_EXECUTE","WTD_UICONTEXT_INSTALL","WTD_UI_ALL","WTD_UI_NOBAD","WTD_UI_NOGOOD","WTD_UI_NONE","WTD_USE_DEFAULT_OSVER_CHECK","WTD_USE_IE4_TRUST_FLAG","_win32_wintrust_data","security.wintrust_data","wintrust/PWINTRUST_DATA","wintrust/WINTRUST_DATA"]
 old-location: security\wintrust_data.htm
 tech.root: SecCrypto
 ms.assetid: 8fb68f44-6f69-4eac-90de-02689e3e86cf
@@ -216,7 +217,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB
 </dl>
 </td>
 <td width="60%">
-Use the [WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info)a> structure pointed to by <b>pSgnr</b>.
+Use the [WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info) structure pointed to by <b>pSgnr</b>.
 
 </td>
 </tr>
@@ -256,7 +257,7 @@ A pointer to a
 ### -field pSgnr
 
 A pointer to a 
-[WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info)a> structure.
+[WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info) structure.
 
 
 ### -field pCert
@@ -554,7 +555,7 @@ Use when calling <a href="https://docs.microsoft.com/windows/desktop/api/wintrus
 
 ### -field pSignatureSettings
 
-Pointer to a [WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)a> structure.
+Pointer to a [WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings) structure.
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
 

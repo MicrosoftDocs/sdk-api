@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetDataModule
 title: IISDB_CDT::GetDataModule (dvbsiparser.h)
-description: Receives the data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+description: Receives the data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).helpviewer_keywords: ["GetDataModule","GetDataModule method [Microsoft TV Technologies]","GetDataModule method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetDataModule method","IISDB_CDT.GetDataModule","IISDB_CDT::GetDataModule","dvbsiparser/IISDB_CDT::GetDataModule","mstv.iisdb_cdt_getdatamodule"]
 old-location: mstv\iisdb_cdt_getdatamodule.htm
 tech.root: mstv
 ms.assetid: b7ff7e8a-17bd-46aa-bf9b-74f3e33a7ce2

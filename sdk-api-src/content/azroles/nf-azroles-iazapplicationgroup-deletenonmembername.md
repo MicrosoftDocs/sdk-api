@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteNonMemberName
 title: IAzApplicationGroup::DeleteNonMemberName (azroles.h)
-description: Removes the specified account name from the list of accounts that are refused membership in the application group.
+description: Removes the specified account name from the list of accounts that are refused membership in the application group.helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteNonMemberName method","DeleteNonMemberName","DeleteNonMemberName method [Security]","DeleteNonMemberName method [Security]","AzApplicationGroup object","DeleteNonMemberName method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeleteNonMemberName method","IAzApplicationGroup.DeleteNonMemberName","IAzApplicationGroup::DeleteNonMemberName","azroles/IAzApplicationGroup::DeleteNonMemberName","security.iazapplicationgroup_deletenonmembername"]
 old-location: security\iazapplicationgroup_deletenonmembername.htm
 tech.root: SecAuthZ
 ms.assetid: 8011e55a-1e62-45a6-a91c-07a488384d84

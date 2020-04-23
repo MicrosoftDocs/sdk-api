@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,IN const StringFormat,OUT RectF,OUT INT,OUT INT)
 title: Graphics::MeasureString
-description: The Graphics::MeasureString method measures the extent of the string in the specified font, format, and layout rectangle.
+description: The Graphics::MeasureString method measures the extent of the string in the specified font, format, and layout rectangle.helpviewer_keywords: ["Graphics::MeasureString"]
 ms.assetid: 95fe1f97-1978-4356-8707-f539adad3853
 ms.date: 05/13/2019
 ms.keywords: Graphics::MeasureString

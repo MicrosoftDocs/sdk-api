@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._MDNS_QUERY_HANDLE
 title: MDNS_QUERY_HANDLE structure
-description: Contains information related to an ongoing MDNS query. Your application must not modify its contents.
+description: Contains information related to an ongoing MDNS query. Your application must not modify its contents.helpviewer_keywords: ["_MDNS_QUERY_HANDLE","MDNS_QUERY_HANDLE"]
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_HANDLE, MDNS_QUERY_HANDLE
 f1_keywords:

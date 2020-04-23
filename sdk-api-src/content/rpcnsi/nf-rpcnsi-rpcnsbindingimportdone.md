@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportDone
 title: RpcNsBindingImportDone function (rpcnsi.h)
-description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
+description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.helpviewer_keywords: ["RpcNsBindingImportDone","RpcNsBindingImportDone function [RPC]","_rpc_rpcnsbindingimportdone","rpc.rpcnsbindingimportdone","rpcnsi/RpcNsBindingImportDone"]
 old-location: rpc\rpcnsbindingimportdone.htm
 tech.root: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb

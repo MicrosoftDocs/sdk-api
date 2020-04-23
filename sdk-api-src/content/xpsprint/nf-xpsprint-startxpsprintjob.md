@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsprint.StartXpsPrintJob
 title: StartXpsPrintJob function (xpsprint.h)
-description: Starts printing an XPS document stream to a printer.
+description: Starts printing an XPS document stream to a printer.helpviewer_keywords: ["StartXpsPrintJob","StartXpsPrintJob function [Windows GDI]","gdi.startxpsprintjob","xpsprint/StartXpsPrintJob"]
 old-location: gdi\startxpsprintjob.htm
 tech.root: printdocs
 ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a

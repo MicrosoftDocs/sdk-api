@@ -2,6 +2,7 @@
 UID: NS:dhcpcsdk._DHCPAPI_PARAMS
 title: DHCPAPI_PARAMS (dhcpcsdk.h)
 description: The DHCPAPI_PARAMS structure is used to request DHCP parameters.
+helpviewer_keywords: ["*LPDHCPAPI_PARAMS","*LPDHCPAPI_PARAMS structure [DHCP]","*LPDHCPCAPI_PARAMS","*LPDHCPCAPI_PARAMS structure [DHCP]","*PDHCPAPI_PARAMS","*PDHCPAPI_PARAMS structure [DHCP]","*PDHCPCAPI_PARAMS","*PDHCPCAPI_PARAMS structure [DHCP]","DHCPAPI_PARAMS","DHCPAPI_PARAMS structure [DHCP]","DHCPCAPI_PARAMS","DHCPCAPI_PARAMS structure [DHCP]","dhcp.dhcpapi_params","dhcpcsdk/*LPDHCPAPI_PARAMS","dhcpcsdk/*LPDHCPCAPI_PARAMS","dhcpcsdk/*PDHCPAPI_PARAMS","dhcpcsdk/*PDHCPCAPI_PARAMS","dhcpcsdk/DHCPAPI_PARAMS","dhcpcsdk/DHCPCAPI_PARAMS"]
 old-location: dhcp\dhcpapi_params.htm
 tech.root: DHCP
 ms.assetid: be8329a3-c3ad-4f5b-92ae-cf18fa847d53
@@ -97,7 +98,7 @@ Size of the data pointed to by <b>Data</b>, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPAPI_PARAMS_ARRAY</a>
+<a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPAPI_PARAMS_ARRAY</a>
  
 
  

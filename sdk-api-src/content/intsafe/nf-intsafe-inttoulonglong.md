@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.IntToULongLong
 title: IntToULongLong function (intsafe.h)
-description: Converts a value of type INT to a value of type UINT_PTR.
+description: Converts a value of type INT to a value of type UINT_PTR.helpviewer_keywords: ["IntToUIntPtr","IntToUIntPtr function [Windows Shell]","IntToULongLong","_shell_IntToUIntPtr","intsafe/IntToUIntPtr","shell.IntToUIntPtr"]
 old-location: shell\IntToUIntPtr.htm
 tech.root: shell
 ms.assetid: 479958f6-e38c-404c-b4bd-2991be568a2b

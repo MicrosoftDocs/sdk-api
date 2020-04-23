@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITLegacyCallMediaControl2
 title: ITLegacyCallMediaControl2 (tapi3if.h)
-description: The ITLegacyCallMediaControl2 interface is an extension of the ITLegacyCallMediaControl interface. ITLegacyCallMediaControl2 provides additional methods, primarily for tone detection and generation.
+description: The ITLegacyCallMediaControl2 interface is an extension of the ITLegacyCallMediaControl interface. ITLegacyCallMediaControl2 provides additional methods, primarily for tone detection and generation.helpviewer_keywords: ["ITLegacyCallMediaControl2","ITLegacyCallMediaControl2 interface [TAPI 2.2]","ITLegacyCallMediaControl2 interface [TAPI 2.2]","described","_tapi3_itlegacycallmediacontrol2","tapi3.itlegacycallmediacontrol2","tapi3if/ITLegacyCallMediaControl2"]
 old-location: tapi3\itlegacycallmediacontrol2.htm
 tech.root: Tapi
 ms.assetid: 47fa5669-1c74-4c18-8370-3efe35b3573e

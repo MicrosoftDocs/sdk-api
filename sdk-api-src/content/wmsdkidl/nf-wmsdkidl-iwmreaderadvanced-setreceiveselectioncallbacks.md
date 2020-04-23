@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetReceiveSelectionCallbacks
 title: IWMReaderAdvanced::SetReceiveSelectionCallbacks (wmsdkidl.h)
-description: The SetReceiveSelectionCallbacks method specifies whether stream selection notifications must be sent to IWMReaderCallbackAdvanced::OnStreamSelection.
+description: The SetReceiveSelectionCallbacks method specifies whether stream selection notifications must be sent to IWMReaderCallbackAdvanced::OnStreamSelection.helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","SetReceiveSelectionCallbacks method","IWMReaderAdvanced.SetReceiveSelectionCallbacks","IWMReaderAdvanced::SetReceiveSelectionCallbacks","IWMReaderAdvancedSetReceiveSelectionCallbacks","SetReceiveSelectionCallbacks","SetReceiveSelectionCallbacks method [windows Media Format]","SetReceiveSelectionCallbacks method [windows Media Format]","IWMReaderAdvanced interface","wmformat.iwmreaderadvanced_setreceiveselectioncallbacks","wmsdkidl/IWMReaderAdvanced::SetReceiveSelectionCallbacks"]
 old-location: wmformat\iwmreaderadvanced_setreceiveselectioncallbacks.htm
 tech.root: wmformat
 ms.assetid: 8cb0bd59-2a46-4cdc-9a88-ee6a8f170f3c

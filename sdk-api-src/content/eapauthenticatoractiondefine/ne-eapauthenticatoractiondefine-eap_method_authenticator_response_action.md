@@ -2,6 +2,7 @@
 UID: NE:eapauthenticatoractiondefine._EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
 title: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION (eapauthenticatoractiondefine.h)
 description: Defines the set of response instructions sent by the authenticator to the supplicant or EAP peer method.
+helpviewer_keywords: ["EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION","EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION enumeration [EAPHost]","EAP_METHOD_AUTHENTICATOR_RESPONSE_AUTHENTICATE","EAP_METHOD_AUTHENTICATOR_RESPONSE_DISCARD","EAP_METHOD_AUTHENTICATOR_RESPONSE_HANDLE_IDENTITY","EAP_METHOD_AUTHENTICATOR_RESPONSE_RESPOND","EAP_METHOD_AUTHENTICATOR_RESPONSE_RESULT","EAP_METHOD_AUTHENTICATOR_RESPONSE_SEND","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_AUTHENTICATE","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_DISCARD","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_HANDLE_IDENTITY","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_RESPOND","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_RESULT","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESPONSE_SEND","eaphost.eap_method_authenticator_response_action"]
 old-location: eaphost\eap_method_authenticator_response_action.htm
 tech.root: eaphost
 ms.assetid: 992336ec-65ef-48bf-947f-1d569c9bd4aa
@@ -97,7 +98,7 @@ The peer method should return the handle for the user identity of the supplicant
 
 
 
-[EAP Host Authenticator Method Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-enumerations)a>
+[EAP Host Authenticator Method Enumerations](/windows/win32/eaphost/eap-host-authenticator-method-enumerations)
  
 
  

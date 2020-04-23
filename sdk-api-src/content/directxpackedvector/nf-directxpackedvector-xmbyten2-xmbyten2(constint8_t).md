@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(const int8_t)
 title: XMBYTEN2::XMBYTEN2(const int8_t) (directxpackedvector.h)
-description: Initializes a new instance of XMBYTEN2 from a two-element int8_t array argument.
+description: Initializes a new instance of XMBYTEN2 from a two-element int8_t array argument.helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2()","XMBYTEN2.XMBYTEN2(const int8_t)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(const int8_t)","dxmath.xmbyten2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 4898a8e6-3cc7-46c8-b6af-9370fcf6b85d

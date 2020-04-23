@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio.PWINBIO_EVENT_CALLBACK
 title: PWINBIO_EVENT_CALLBACK (winbio.h)
-description: Returns results from the asynchronous WinBioRegisterEventMonitor function.
+description: Returns results from the asynchronous WinBioRegisterEventMonitor function.helpviewer_keywords: ["PWINBIO_EVENT_CALLBACK","PWINBIO_EVENT_CALLBACK callback","PWINBIO_EVENT_CALLBACK callback function [Windows Biometric Framework API]","secbiomet.pwinbio_event_callback","winbio/PWINBIO_EVENT_CALLBACK"]
 old-location: secbiomet\pwinbio_event_callback.htm
 tech.root: SecBioMet
 ms.assetid: E5D3E20E-A174-46E2-9426-7B021496DB3B

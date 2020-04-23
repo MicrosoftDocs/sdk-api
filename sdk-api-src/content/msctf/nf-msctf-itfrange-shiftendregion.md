@@ -2,6 +2,7 @@
 UID: NF:msctf.ITfRange.ShiftEndRegion
 title: ITfRange::ShiftEndRegion (msctf.h)
 description: ITfRange::ShiftEndRegion method
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftEndRegion method","ITfRange.ShiftEndRegion","ITfRange::ShiftEndRegion","ShiftEndRegion","ShiftEndRegion method [Text Services Framework]","ShiftEndRegion method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftendregion_ref","msctf/ITfRange::ShiftEndRegion","tsf.itfrange_shiftendregion"]
 old-location: tsf\itfrange_shiftendregion.htm
 tech.root: TSF
 ms.assetid: cda2282f-3d3c-4763-9892-b889b29963a6
@@ -62,7 +63,7 @@ Contains an edit cookie that identifies the edit context obtained from <a href="
 
 ### -param dir [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir</a> values that specify which adjacent region the end anchor is moved to.
+Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir</a> values that specify which adjacent region the end anchor is moved to.
 
 
 ### -param pfNoRegion [out]
@@ -165,7 +166,7 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
+<a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
       </a>
  
 

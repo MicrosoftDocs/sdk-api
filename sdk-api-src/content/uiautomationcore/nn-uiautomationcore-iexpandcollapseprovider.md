@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IExpandCollapseProvider
 title: IExpandCollapseProvider (uiautomationcore.h)
-description: Provides access to a control that visually expands to display content, and collapses to hide content.
+description: Provides access to a control that visually expands to display content, and collapses to hide content.helpviewer_keywords: ["IExpandCollapseProvider","IExpandCollapseProvider interface [Windows Accessibility]","IExpandCollapseProvider interface [Windows Accessibility]","described","uiauto.uiauto_IExpandCollapseProvider","uiauto_IExpandCollapseProvider","uiautomationcore/IExpandCollapseProvider","winauto.uiauto_IExpandCollapseProvider"]
 old-location: winauto\uiauto_IExpandCollapseProvider.htm
 tech.root: WinAuto
 ms.assetid: 59d91498-54f8-40df-8224-52ff8e45f6c3

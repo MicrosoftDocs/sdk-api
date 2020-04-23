@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateStringArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of string values.
+description: Creates a new IPropertyValue object that contains the specified array of string values.helpviewer_keywords: ["CreateStringArray","CreateStringArray method [Windows Runtime]","CreateStringArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateStringArray method","IPropertyValueStatics.CreateStringArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateStringArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateStringArray","winrt.ipropertyvaluefactory_createstringarray","winrt.ipropertyvaluestatics_createstringarray"]
 old-location: winrt\ipropertyvaluestatics_createstringarray.htm
 tech.root: WinRT
 ms.assetid: b9741a88-4585-4eda-b21d-5af0e541ef48

@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerGetAuthStatus
 title: EapHostPeerGetAuthStatus function (eappapis.h)
 description: Obtains the supplicant's current EAP authentication status from EAPHost.
+helpviewer_keywords: ["EapHostNapInfo","EapHostPeerAuthStatus","EapHostPeerGetAuthStatus","EapHostPeerGetAuthStatus function [EAPHost]","EapHostPeerIdentity","EapHostPeerIdentityExtendedInfo","eaphost.eaphostpeergetauthstatus","eappapis/EapHostPeerGetAuthStatus"]
 old-location: eaphost\eaphostpeergetauthstatus.htm
 tech.root: eaphost
 ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b
@@ -64,7 +65,7 @@ A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle f
 
 ### -param authParam [in]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a> enumeration value that specifies the type of EAP authentication data to obtain from EAPHost.
+An <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a> enumeration value that specifies the type of EAP authentication data to obtain from EAPHost.
 
 <table>
 <tr>
@@ -77,7 +78,7 @@ An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eap
 </dl>
 </td>
 <td width="60%">
-<i>ppAuthData</i> contains a <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info">EAPHOST_AUTH_INFO</a> structure.
+<i>ppAuthData</i> contains a <a href="/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info">EAPHOST_AUTH_INFO</a> structure.
 
 </td>
 </tr>
@@ -107,7 +108,7 @@ An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eap
 </dl>
 </td>
 <td width="60%">
-Windows 7 or later: [EapHostPeerNapInfo](https://docs.microsoft.com/windows/win32/eaphost/eaphostpeernapinfo)a> structure.
+Windows 7 or later: [EapHostPeerNapInfo](/windows/win32/eaphost/eaphostpeernapinfo) structure.
 
 </td>
 </tr>
@@ -135,7 +136,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-Time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
  
 
  

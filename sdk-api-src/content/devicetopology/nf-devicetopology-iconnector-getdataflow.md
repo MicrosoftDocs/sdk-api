@@ -2,6 +2,7 @@
 UID: NF:devicetopology.IConnector.GetDataFlow
 title: IConnector::GetDataFlow (devicetopology.h)
 description: The GetDataFlow method gets the direction of data flow through this connector.
+helpviewer_keywords: ["GetDataFlow","GetDataFlow method [Core Audio]","GetDataFlow method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetDataFlow method","IConnector.GetDataFlow","IConnector::GetDataFlow","IConnectorGetDataFlow","coreaudio.iconnector_getdataflow","devicetopology/IConnector::GetDataFlow"]
 old-location: coreaudio\iconnector_getdataflow.htm
 tech.root: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
@@ -62,7 +63,7 @@ The <b>GetDataFlow</b> method gets the direction of data flow through this conne
 
 ### -param pFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-dataflow">DataFlow</a> enumeration values:
+Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="/windows/win32/api/devicetopology/ne-devicetopology-dataflow">DataFlow</a> enumeration values:
 
 In
 

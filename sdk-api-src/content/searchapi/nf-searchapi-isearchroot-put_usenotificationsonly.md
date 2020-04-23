@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_UseNotificationsOnly
 title: ISearchRoot::put_UseNotificationsOnly (searchapi.h)
-description: Sets a value that indicates whether this search root should be indexed only by notification and not crawled.
+description: Sets a value that indicates whether this search root should be indexed only by notification and not crawled.helpviewer_keywords: ["ISearchRoot interface [search]","put_UseNotificationsOnly method","ISearchRoot.put_UseNotificationsOnly","ISearchRoot::put_UseNotificationsOnly","_search_ISearchRoot_put_UseNotificationsOnly","put_UseNotificationsOnly","put_UseNotificationsOnly method [search]","put_UseNotificationsOnly method [search]","ISearchRoot interface","search._search_ISearchRoot_put_UseNotificationsOnly","searchapi/ISearchRoot::put_UseNotificationsOnly"]
 old-location: search\_search_ISearchRoot_put_UseNotificationsOnly.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\set_usenotificationsonly.htm

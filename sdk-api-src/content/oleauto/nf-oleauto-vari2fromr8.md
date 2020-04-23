@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI2FromR8
 title: VarI2FromR8 function (oleauto.h)
-description: Converts a double value to a short value.
+description: Converts a double value to a short value.helpviewer_keywords: ["VarI2FromR8","VarI2FromR8 function [Automation]","_oa96_VarI2FromR8","automat.vari2fromr8","oleauto/VarI2FromR8"]
 old-location: automat\vari2fromr8.htm
 tech.root: automat
 ms.assetid: a4c4110b-9439-4a44-b837-17baec1e90d1

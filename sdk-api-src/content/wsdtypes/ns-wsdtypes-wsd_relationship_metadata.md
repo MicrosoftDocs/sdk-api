@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_RELATIONSHIP_METADATA
 title: WSD_RELATIONSHIP_METADATA (wsdtypes.h)
-description: Provides metadata about the relationship between two or more services.
+description: Provides metadata about the relationship between two or more services.helpviewer_keywords: ["WSD_RELATIONSHIP_METADATA","WSD_RELATIONSHIP_METADATA structure","ncd.wsd_relationship_metadata","wsdtypes/WSD_RELATIONSHIP_METADATA"]
 old-location: ncd\wsd_relationship_metadata.htm
 tech.root: WsdApi
 ms.assetid: 232ea033-f368-4a37-9bec-ba5dc0d9b60f

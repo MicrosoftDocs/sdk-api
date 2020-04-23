@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.AddPolicyServer
 title: IX509EnrollmentHelper::AddPolicyServer (certenroll.h)
-description: Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
+description: Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.helpviewer_keywords: ["AddPolicyServer","AddPolicyServer method [Security]","AddPolicyServer method [Security]","IX509EnrollmentHelper interface","IX509EnrollmentHelper interface [Security]","AddPolicyServer method","IX509EnrollmentHelper.AddPolicyServer","IX509EnrollmentHelper::AddPolicyServer","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509EnrollmentHelper::AddPolicyServer","security.ix509enrollmenthelper_addpolicyserver"]
 old-location: security\ix509enrollmenthelper_addpolicyserver.htm
 tech.root: seccertenroll
 ms.assetid: 6b341b5a-88f2-4221-812d-b2997829aa4c

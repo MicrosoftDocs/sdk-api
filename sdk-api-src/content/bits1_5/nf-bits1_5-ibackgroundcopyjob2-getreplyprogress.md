@@ -1,7 +1,7 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyProgress
 title: IBackgroundCopyJob2::GetReplyProgress
-description: Retrieves progress information related to the transfer of the reply data from an upload-reply job.
+description: Retrieves progress information related to the transfer of the reply data from an upload-reply job.helpviewer_keywords: ["GetReplyProgress","GetReplyProgress method [BITS]","GetReplyProgress method [BITS]","IBackgroundCopyJob2 interface","IBackgroundCopyJob2 interface [BITS]","GetReplyProgress method","IBackgroundCopyJob2.GetReplyProgress","IBackgroundCopyJob2::GetReplyProgress","_drz_ibackgroundcopyjob2_getreplyprogress","bits.ibackgroundcopyjob2_getreplyprogress","bits1_5/IBackgroundCopyJob2::GetReplyProgress"]
 old-location: bits\ibackgroundcopyjob2_getreplyprogress.htm
 tech.root: Bits
 ms.assetid: 76509b1a-fdfb-4236-8554-f63282bfc1b6

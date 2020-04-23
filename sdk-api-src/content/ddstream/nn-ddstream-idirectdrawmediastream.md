@@ -1,7 +1,7 @@
 ---
 UID: NN:ddstream.IDirectDrawMediaStream
 title: IDirectDrawMediaStream (ddstream.h)
-description: Note  This interface is deprecated.
+description: Note  This interface is deprecated.helpviewer_keywords: ["IDirectDrawMediaStream","IDirectDrawMediaStream interface [DirectShow]","IDirectDrawMediaStream interface [DirectShow]","described","IDirectDrawMediaStreamInterface","ddstream/IDirectDrawMediaStream","dshow.idirectdrawmediastream"]
 old-location: dshow\idirectdrawmediastream.htm
 tech.root: DirectShow
 ms.assetid: 858af0c3-9e22-45d8-ab08-307eb39a8977

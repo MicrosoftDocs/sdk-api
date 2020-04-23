@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ATTRIBUTE
 title: WSDXML_ATTRIBUTE (wsdxmldom.h)
-description: Describes an XML attribute.
+description: Describes an XML attribute.helpviewer_keywords: ["WSDXML_ATTRIBUTE","WSDXML_ATTRIBUTE structure","_WSDXML_ATTRIBUTE","ncd.wsdxml_attribute_struct","wsdxmldom/WSDXML_ATTRIBUTE"]
 old-location: ncd\wsdxml_attribute_struct.htm
 tech.root: WsdApi
 ms.assetid: 2697d30d-17c7-417d-a02b-c4427987ec4b

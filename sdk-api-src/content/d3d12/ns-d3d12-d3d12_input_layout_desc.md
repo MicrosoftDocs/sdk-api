@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_INPUT_LAYOUT_DESC
 title: D3D12_INPUT_LAYOUT_DESC (d3d12.h)
-description: Describes the input-buffer data for the input-assembler stage.
+description: Describes the input-buffer data for the input-assembler stage.helpviewer_keywords: ["D3D12_INPUT_LAYOUT_DESC","D3D12_INPUT_LAYOUT_DESC structure","d3d12/D3D12_INPUT_LAYOUT_DESC","direct3d12.d3d12_input_layout_desc"]
 old-location: direct3d12\d3d12_input_layout_desc.htm
 tech.root: direct3d12
 ms.assetid: 44C53830-AE80-402A-808C-2063011711A2

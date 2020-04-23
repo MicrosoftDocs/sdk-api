@@ -1,7 +1,7 @@
 ---
 UID: NE:tabflicks.KEYMODIFIER
 title: KEYMODIFIER (tabflicks.h)
-description: Determines which, if any, modifier keys were pressed when the flick gesture occurred.
+description: Determines which, if any, modifier keys were pressed when the flick gesture occurred.helpviewer_keywords: ["KEYMODIFIER","KEYMODIFIER enumeration [Tablet PC]","KEYMODIFIER_ALTGR","KEYMODIFIER_CONTROL","KEYMODIFIER_EXT","KEYMODIFIER_MENU","KEYMODIFIER_SHIFT","KEYMODIFIER_WIN","ffb27356-9ad2-4759-bdc4-1025813a7258","tabflicks/KEYMODIFIER","tabflicks/KEYMODIFIER_ALTGR","tabflicks/KEYMODIFIER_CONTROL","tabflicks/KEYMODIFIER_EXT","tabflicks/KEYMODIFIER_MENU","tabflicks/KEYMODIFIER_SHIFT","tabflicks/KEYMODIFIER_WIN","tablet.keymodifier"]
 old-location: tablet\keymodifier.htm
 tech.root: tablet
 ms.assetid: ffb27356-9ad2-4759-bdc4-1025813a7258

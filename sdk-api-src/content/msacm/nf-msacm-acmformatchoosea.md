@@ -2,6 +2,7 @@
 UID: NF:msacm.acmFormatChooseA
 title: acmFormatChooseA function (msacm.h)
 description: The acmFormatChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio format.
+helpviewer_keywords: ["_win32_acmFormatChoose","acmFormatChoose","acmFormatChoose function [Windows Multimedia]","acmFormatChooseA","acmFormatChooseW","msacm/acmFormatChoose","msacm/acmFormatChooseA","msacm/acmFormatChooseW","multimedia.acmformatchoose"]
 old-location: multimedia\acmformatchoose.htm
 tech.root: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
@@ -65,7 +66,7 @@ The <b>acmFormatChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafmtc
 
-Pointer to an [ACMFORMATCHOOSE](/windows/win32/api/msacm/nf-msacm-acmformatchoose)a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
+Pointer to an [ACMFORMATCHOOSE](/windows/win32/api/msacm/nf-msacm-acmformatchoose) structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
 
 The <b>pwfx</b> member of this structure must contain a valid pointer to a memory location that will contain the returned format header structure. Moreover, the <b>cbwfx</b> member must be filled in with the size, in bytes, of this memory buffer.
 

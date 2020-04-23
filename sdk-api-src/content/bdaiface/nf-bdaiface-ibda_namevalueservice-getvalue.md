@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.GetValue
 title: IBDA_NameValueService::GetValue (bdaiface.h)
-description: Gets a value by name.
+description: Gets a value by name.helpviewer_keywords: ["GetValue","GetValue method [Microsoft TV Technologies]","GetValue method [Microsoft TV Technologies]","IBDA_NameValueService interface","IBDA_NameValueService interface [Microsoft TV Technologies]","GetValue method","IBDA_NameValueService.GetValue","IBDA_NameValueService::GetValue","bdaiface/IBDA_NameValueService::GetValue","mstv.ibda_namevalueservice_getvalue"]
 old-location: mstv\ibda_namevalueservice_getvalue.htm
 tech.root: mstv
 ms.assetid: d240f991-8f15-4d37-a292-91c7e3dff27d

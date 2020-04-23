@@ -1,7 +1,7 @@
 ---
 UID: NN:infotech.IStemmerConfig
 title: IStemmerConfig (infotech.h)
-description: Use this interface to provide configuration information that controls stemming.
+description: Use this interface to provide configuration information that controls stemming.helpviewer_keywords: ["IStemmerConfig","IStemmerConfig interface [HTML Help Workshop]","IStemmerConfig interface [HTML Help Workshop]","described","htmlhelp.istemmerconfig","infotech/IStemmerConfig","refIStemmerConfigInterface"]
 old-location: htmlhelp\istemmerconfig.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfiginterface.htm

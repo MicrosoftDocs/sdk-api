@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_11
 title: DEFCONTEXTMENU (shlobj_core.h)
-description: Contains context menu information used by SHCreateDefaultContextMenu.
+description: Contains context menu information used by SHCreateDefaultContextMenu.helpviewer_keywords: ["DEFCONTEXTMENU","DEFCONTEXTMENU structure [Windows Shell]","_shell_DEFCONTEXTMENU","shell.DEFCONTEXTMENU","shlobj_core/DEFCONTEXTMENU"]
 old-location: shell\DEFCONTEXTMENU.htm
 tech.root: shell
 ms.assetid: 007861f6-1e66-4c5f-a459-3cfbe9f8cec2

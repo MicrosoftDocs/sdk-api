@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.RtlVirtualUnwind
 title: RtlVirtualUnwind function (winnt.h)
-description: Retrieves the invocation context of the function that precedes the specified function context.
+description: Retrieves the invocation context of the function that precedes the specified function context.helpviewer_keywords: ["RtlVirtualUnwind","RtlVirtualUnwind function","UNW_FLAG_CHAININFO","UNW_FLAG_EHANDLER","UNW_FLAG_NHANDLER","UNW_FLAG_UHANDLER","base.rtlvirtualunwind","winnt/RtlVirtualUnwind"]
 old-location: base\rtlvirtualunwind.htm
 tech.root: Debug
 ms.assetid: 78d60f7a-0e16-4856-8aca-c251ab066b83

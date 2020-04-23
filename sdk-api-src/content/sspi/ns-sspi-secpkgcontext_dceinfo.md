@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_DceInfo
 title: SecPkgContext_DceInfo (sspi.h)
-description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.
+description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.helpviewer_keywords: ["*PSecPkgContext_DceInfo","PSecPkgContext_DceInfo","PSecPkgContext_DceInfo structure pointer [Security]","SecPkgContext_DceInfo","SecPkgContext_DceInfo structure [Security]","_ssp_secpkgcontext_dceinfo","security.secpkgcontext_dceinfo","sspi/PSecPkgContext_DceInfo","sspi/SecPkgContext_DceInfo"]
 old-location: security\secpkgcontext_dceinfo.htm
 tech.root: SecAuthN
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a

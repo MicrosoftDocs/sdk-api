@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif._AMCOPPStatusOutput
 title: AMCOPPStatusOutput (strmif.h)
-description: The AMCOPPStatusOutput structure contains the result of a Certified Output Protection Protocol (COPP) status request.
+description: The AMCOPPStatusOutput structure contains the result of a Certified Output Protection Protocol (COPP) status request.helpviewer_keywords: ["*LPAMCOPPStatusOutput","AMCOPPStatusOutput","AMCOPPStatusOutput structure [DirectShow]","AMCOPPStatusOutputStructure","LPAMCOPPStatusOutput","LPAMCOPPStatusOutput structure pointer [DirectShow]","dshow.amcoppstatusoutput","strmif/AMCOPPStatusOutput","strmif/LPAMCOPPStatusOutput"]
 old-location: dshow\amcoppstatusoutput.htm
 tech.root: DirectShow
 ms.assetid: 136ce182-24c3-489d-a9c2-0121593e4b1e

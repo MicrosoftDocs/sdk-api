@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMeter.GetMeterChannelCount
 title: IAudioEndpointOffloadStreamMeter::GetMeterChannelCount (audioengineendpoint.h)
-description: Gets the number of available audio channels in the offloaded stream that can be metered.
+description: Gets the number of available audio channels in the offloaded stream that can be metered.helpviewer_keywords: ["GetMeterChannelCount","GetMeterChannelCount method [Core Audio]","GetMeterChannelCount method [Core Audio]","IAudioEndpointOffloadStreamMeter interface","IAudioEndpointOffloadStreamMeter interface [Core Audio]","GetMeterChannelCount method","IAudioEndpointOffloadStreamMeter.GetMeterChannelCount","IAudioEndpointOffloadStreamMeter::GetMeterChannelCount","audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeterChannelCount","coreaudio.iaudioendpointoffloadstreammeter_getmeterchannelcount"]
 old-location: coreaudio\iaudioendpointoffloadstreammeter_getmeterchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 52C34D08-8ACD-4E3A-80F4-4FA823E11D9C

@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmEngineSetSecurityInfo0
 title: FwpmEngineSetSecurityInfo0 function (fwpmu.h)
-description: Sets specified security information in the security descriptor of the filter engine.
+description: Sets specified security information in the security descriptor of the filter engine.helpviewer_keywords: ["FwpmEngineSetSecurityInfo0","FwpmEngineSetSecurityInfo0 function [Filtering]","fwp.fwpmenginesetsecurityinfo0","fwpmu/FwpmEngineSetSecurityInfo0"]
 old-location: fwp\fwpmenginesetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 31a7f409-26c9-4804-bd74-b9ee356da84c

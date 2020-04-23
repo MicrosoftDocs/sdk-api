@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationObjectModelPattern
 title: IUIAutomationObjectModelPattern (uiautomationclient.h)
-description: Provides access to the underlying object model implemented by a control or application.
+description: Provides access to the underlying object model implemented by a control or application.helpviewer_keywords: ["IUIAutomationObjectModelPattern","IUIAutomationObjectModelPattern interface [Windows Accessibility]","IUIAutomationObjectModelPattern interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationObjectModelPattern","winauto.uiauto_IUIAutomationObjectModelPattern"]
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern.htm
 tech.root: WinAuto
 ms.assetid: 044A1EE7-4CBD-45E3-A1A8-CA00DC03E136

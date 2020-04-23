@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRenderer.DrawStroke
 title: IInkRenderer::DrawStroke (msinkaut.h)
-description: Draws the IInkStrokeDisp object using the known device context, and optionally draws the IInkStrokeDisp object with the known InkDrawingAttributes object.
+description: Draws the IInkStrokeDisp object using the known device context, and optionally draws the IInkStrokeDisp object with the known InkDrawingAttributes object.helpviewer_keywords: ["3d8b7892-a120-452a-b83c-474df9be5f52","DrawStroke","DrawStroke method [Tablet PC]","DrawStroke method [Tablet PC]","IInkRenderer interface","IInkRenderer interface [Tablet PC]","DrawStroke method","IInkRenderer.DrawStroke","IInkRenderer::DrawStroke","msinkaut/IInkRenderer::DrawStroke","tablet.inkrenderer_drawstroke"]
 old-location: tablet\inkrenderer_drawstroke.htm
 tech.root: tablet
 ms.assetid: 3d8b7892-a120-452a-b83c-474df9be5f52

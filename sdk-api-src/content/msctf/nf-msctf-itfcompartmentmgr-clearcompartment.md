@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.ClearCompartment
 title: ITfCompartmentMgr::ClearCompartment (msctf.h)
-description: ITfCompartmentMgr::ClearCompartment method
+description: ITfCompartmentMgr::ClearCompartment methodhelpviewer_keywords: ["ClearCompartment","ClearCompartment method [Text Services Framework]","ClearCompartment method [Text Services Framework]","ITfCompartmentMgr interface","ITfCompartmentMgr interface [Text Services Framework]","ClearCompartment method","ITfCompartmentMgr.ClearCompartment","ITfCompartmentMgr::ClearCompartment","_tsf_itfcompartmentmgr_clearcompartment_ref","msctf/ITfCompartmentMgr::ClearCompartment","tsf.itfcompartmentmgr_clearcompartment"]
 old-location: tsf\itfcompartmentmgr_clearcompartment.htm
 tech.root: TSF
 ms.assetid: 862ec077-b192-412a-b80c-6105f503ed21

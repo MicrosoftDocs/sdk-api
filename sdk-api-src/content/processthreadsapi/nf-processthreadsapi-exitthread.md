@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.ExitThread
 title: ExitThread function (processthreadsapi.h)
-description: Ends the calling thread.
+description: Ends the calling thread.helpviewer_keywords: ["ExitThread","ExitThread function","_win32_exitthread","base.exitthread","processthreadsapi/ExitThread","winbase/ExitThread"]
 old-location: base\exitthread.htm
 tech.root: ProcThread
 ms.assetid: e7f6d054-c535-4521-a3b4-800a9174732f

@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.Int8Add
 title: Int8Add function (intsafe.h)
-description: Adds two values of type INT8.
+description: Adds two values of type INT8.helpviewer_keywords: ["Int8Add","Int8Add function [Windows Shell]","intsafe/Int8Add","shell.Int8Add"]
 old-location: shell\Int8Add.htm
 tech.root: shell
 ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa

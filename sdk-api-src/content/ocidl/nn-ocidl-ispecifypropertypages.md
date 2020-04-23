@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.ISpecifyPropertyPages
 title: ISpecifyPropertyPages (ocidl.h)
-description: Indicates that an object supports property pages.
+description: Indicates that an object supports property pages.helpviewer_keywords: ["ISpecifyPropertyPages","ISpecifyPropertyPages interface [COM]","ISpecifyPropertyPages interface [COM]","described","_ctrl_ispecifypropertypages","com.ispecifypropertypages","ocidl/ISpecifyPropertyPages"]
 old-location: com\ispecifypropertypages.htm
 tech.root: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410

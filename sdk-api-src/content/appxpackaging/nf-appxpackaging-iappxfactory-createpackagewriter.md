@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageWriter
 title: IAppxFactory::CreatePackageWriter (appxpackaging.h)
-description: Creates a write-only package object to which files can be added.
+description: Creates a write-only package object to which files can be added.helpviewer_keywords: ["CreatePackageWriter","CreatePackageWriter method [App packaging and management]","CreatePackageWriter method [App packaging and management]","IAppxFactory interface","IAppxFactory interface [App packaging and management]","CreatePackageWriter method","IAppxFactory.CreatePackageWriter","IAppxFactory::CreatePackageWriter","appxpackaging/IAppxFactory::CreatePackageWriter","appxpkg.iappxfactory_createpackagewriter"]
 old-location: appxpkg\iappxfactory_createpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 10E9250E-7A64-4FB0-ACB9-10CB144A0FBE

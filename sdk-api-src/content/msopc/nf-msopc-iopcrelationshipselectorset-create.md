@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcRelationshipSelectorSet.Create
 title: IOpcRelationshipSelectorSet::Create (msopc.h)
 description: Creates an IOpcRelationshipSelector interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
+helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcRelationshipSelectorSet interface","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","Create method","IOpcRelationshipSelectorSet.Create","IOpcRelationshipSelectorSet::Create","msopc/IOpcRelationshipSelectorSet::Create","opc.iopcrelationshipselectorset_create"]
 old-location: opc\iopcrelationshipselectorset_create.htm
 tech.root: OPC
 ms.assetid: 801d1924-c75c-47b5-99fe-9d97ea8dfee1
@@ -103,7 +104,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>selector</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a> enumeration value.
+The value passed in the <i>selector</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a> enumeration value.
 
 </td>
 </tr>
@@ -159,7 +160,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>
 
 
 

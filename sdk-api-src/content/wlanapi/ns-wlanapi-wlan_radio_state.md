@@ -2,6 +2,7 @@
 UID: NS:wlanapi._WLAN_RADIO_STATE
 title: WLAN_RADIO_STATE (wlanapi.h)
 description: Specifies the radio state on a list of physical layer (PHY) types.
+helpviewer_keywords: ["*PWLAN_RADIO_STATE","PWLAN_RADIO_STATE","PWLAN_RADIO_STATE structure pointer [NativeWIFI]","WLAN_RADIO_STATE","WLAN_RADIO_STATE structure [NativeWIFI]","nwifi.wlan_radio_state","wlanapi/PWLAN_RADIO_STATE","wlanapi/WLAN_RADIO_STATE"]
 old-location: nwifi\wlan_radio_state.htm
 tech.root: NativeWiFi
 ms.assetid: 61551b46-785e-4353-910c-8ce23172b176
@@ -75,7 +76,7 @@ The <b>WLAN_RADIO_STATE</b> structure is used with the <a href="https://docs.mic
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structure members in the <b>WLAN_RADIO_STATE</b> structure can be used with the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a> function when the <i>OpCode</i> parameter is set to <b>wlan_intf_opcode_radio_state</b> to change the radio state. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structure is also used for  notification by the media specific module (MSM) when the radio state changes. An application registers to receive MSM notifications by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function with the <i>dwNotifSource</i> parameter set to a value that includes <b>WLAN_NOTIFICATION_SOURCE_MSM</b>. For more information on these notifications, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure and the <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a> enumeration reference.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structure is also used for  notification by the media specific module (MSM) when the radio state changes. An application registers to receive MSM notifications by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function with the <i>dwNotifSource</i> parameter set to a value that includes <b>WLAN_NOTIFICATION_SOURCE_MSM</b>. For more information on these notifications, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure and the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a> enumeration reference.
 
 
 #### Examples
@@ -276,7 +277,7 @@ return dwRetVal;
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
 
 
 

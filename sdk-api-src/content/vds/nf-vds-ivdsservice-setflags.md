@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsService.SetFlags
 title: IVdsService::SetFlags (vds.h)
-description: Sets service object flags.
+description: Sets service object flags.helpviewer_keywords: ["IVdsService interface [VDS]","SetFlags method","IVdsService.SetFlags","IVdsService::SetFlags","SetFlags","SetFlags method [VDS]","SetFlags method [VDS]","IVdsService interface","base.ivdsservice_setflags","vds/IVdsService::SetFlags"]
 old-location: base\ivdsservice_setflags.htm
 tech.root: VDS
 ms.assetid: 9c82746e-fbf0-4754-b246-82a174410cef

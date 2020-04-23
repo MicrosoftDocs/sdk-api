@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.Query
 title: IVssSoftwareSnapshotProvider::Query (vsprov.h)
-description: Queries the provider for information about the shadow copies that the provider has completed.
+description: Queries the provider for information about the shadow copies that the provider has completed.helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","Query method","IVssSoftwareSnapshotProvider.Query","IVssSoftwareSnapshotProvider::Query","Query","Query method","Query method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_query","vsprov/IVssSoftwareSnapshotProvider::Query"]
 old-location: base\ivsssoftwaresnapshotprovider_query.htm
 tech.root: VSS
 ms.assetid: bb238acc-7af0-43cf-bc2e-70e255978fb1

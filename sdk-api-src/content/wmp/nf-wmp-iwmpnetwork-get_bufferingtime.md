@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingTime
 title: IWMPNetwork::get_bufferingTime (wmp.h)
-description: The get_bufferingTime method retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.
+description: The get_bufferingTime method retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bufferingTime method","IWMPNetwork.get_bufferingTime","IWMPNetwork::get_bufferingTime","IWMPNetworkget_bufferingTime","get_bufferingTime","get_bufferingTime method [Windows Media Player]","get_bufferingTime method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_bufferingtime","wmp/IWMPNetwork::get_bufferingTime"]
 old-location: wmp\iwmpnetwork_get_bufferingtime.htm
 tech.root: WMP
 ms.assetid: a42a7187-9bf2-4db5-8176-6912e18c4d50

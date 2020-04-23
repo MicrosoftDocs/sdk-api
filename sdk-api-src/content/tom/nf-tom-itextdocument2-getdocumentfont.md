@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.GetDocumentFont
 title: ITextDocument2::GetDocumentFont (tom.h)
-description: Gets an object that provides the default character format information for this instance of the Text Object Model (TOM) engine.
+description: Gets an object that provides the default character format information for this instance of the Text Object Model (TOM) engine.helpviewer_keywords: ["GetDocumentFont","GetDocumentFont method [Windows Controls]","GetDocumentFont method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetDocumentFont method","ITextDocument2.GetDocumentFont","ITextDocument2::GetDocumentFont","controls.itextdocument2_getdocumentfont","tom/ITextDocument2::GetDocumentFont"]
 old-location: controls\itextdocument2_getdocumentfont.htm
 tech.root: Controls
 ms.assetid: b028c2f6-8c8e-49f8-bf53-f4a639cb16c2

@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLPersistApplicationPolicies
 title: SLPersistApplicationPolicies function (slpublic.h)
-description: Stores the current consumed policies to disk for fast policy access.
+description: Stores the current consumed policies to disk for fast policy access.helpviewer_keywords: ["SLPersistApplicationPolicies","SLPersistApplicationPolicies function [Security]","security.slpersistapplicationpolicies","slpublic/SLPersistApplicationPolicies"]
 old-location: security\slpersistapplicationpolicies.htm
 tech.root: SecSLApi
 ms.assetid: a4bf2bcc-3ea5-4288-9bad-b74efdd9969c

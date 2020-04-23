@@ -2,6 +2,7 @@
 UID: NS:ws2def.sockaddr_in
 title: SOCKADDR_IN (ws2def.h)
 description: The SOCKADDR_IN structure specifies a transport address and port for the AF_INET address family.
+helpviewer_keywords: ["*PSOCKADDR_IN","PSOCKADDR_IN","PSOCKADDR_IN structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR_IN","SOCKADDR_IN structure [Network Drivers Starting with Windows Vista]","netvista.sockaddr_in","ws2def/PSOCKADDR_IN","ws2def/SOCKADDR_IN","wskref_ab4750b0-daae-4326-91a3-a94a9863c7a2.xml"]
 old-location: netvista\sockaddr_in.htm
 tech.root: NetVista
 ms.assetid: 96379562-403f-451c-ac7a-f0eec34bfe5e
@@ -107,7 +108,7 @@ All of the data in the SOCKADDR_IN structure, except for the address family, mus
 
 
 
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>
+[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
  
 
  

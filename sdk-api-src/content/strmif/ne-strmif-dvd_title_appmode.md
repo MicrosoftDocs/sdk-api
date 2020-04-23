@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagDVD_TITLE_APPMODE
 title: DVD_TITLE_APPMODE (strmif.h)
-description: Indicates whether a DVD title is a karaoke title. This enumeration is a member of the DVD_TitleAttributes structure, which is filled when an application calls the IDvdInfo2::GetTitleAttributes method.
+description: Indicates whether a DVD title is a karaoke title. This enumeration is a member of the DVD_TitleAttributes structure, which is filled when an application calls the IDvdInfo2::GetTitleAttributes method.helpviewer_keywords: ["DVD_AppMode_Karaoke","DVD_AppMode_Not_Specified","DVD_AppMode_Other","DVD_TITLE_APPMODE","DVD_TITLE_APPMODE","DVD_TITLE_APPMODE enumeration [DirectShow]","DVD_TITLE_APPMODEEnumeration","dshow.dvd_title_appmode","strmif/DVD_AppMode_Karaoke","strmif/DVD_AppMode_Not_Specified","strmif/DVD_AppMode_Other","strmif/DVD_TITLE_APPMODE"]
 old-location: dshow\dvd_title_appmode.htm
 tech.root: DirectShow
 ms.assetid: f0a12b00-89a5-4b70-9a78-519ae36d1bac

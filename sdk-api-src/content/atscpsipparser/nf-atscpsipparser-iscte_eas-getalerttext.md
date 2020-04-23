@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertText
 title: ISCTE_EAS::GetAlertText (atscpsipparser.h)
-description: The GetAlertText method gets the alert text for a specified ISO 639 language code.
+description: The GetAlertText method gets the alert text for a specified ISO 639 language code.helpviewer_keywords: ["GetAlertText","GetAlertText method [Microsoft TV Technologies]","GetAlertText method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetAlertText method","ISCTE_EAS.GetAlertText","ISCTE_EAS::GetAlertText","ISCTE_EASGetAlertText","atscpsipparser/ISCTE_EAS::GetAlertText","mstv.iscte_eas_getalerttext"]
 old-location: mstv\iscte_eas_getalerttext.htm
 tech.root: mstv
 ms.assetid: 4bef1a14-b0f6-40a0-bac0-1d6c00c120e5

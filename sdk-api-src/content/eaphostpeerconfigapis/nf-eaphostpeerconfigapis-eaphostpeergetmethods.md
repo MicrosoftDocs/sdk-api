@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethods
 title: EapHostPeerGetMethods function (eaphostpeerconfigapis.h)
 description: Enumerates all EAP methods installed and available for use, including legacy EAP Methods.
+helpviewer_keywords: ["EapHostPeerGetMethods","EapHostPeerGetMethods function [EAPHost]","eaphost.eaphostpeergetmethods","eaphostpeerconfigapis/EapHostPeerGetMethods"]
 old-location: eaphost\eaphostpeergetmethods.htm
 tech.root: eaphost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
@@ -74,7 +75,7 @@ A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
  
 
  

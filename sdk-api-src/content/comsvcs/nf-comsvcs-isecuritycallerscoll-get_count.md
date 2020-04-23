@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Count
 title: ISecurityCallersColl::get_Count (comsvcs.h)
-description: Retrieves the number of callers in the security callers collection.
+description: Retrieves the number of callers in the security callers collection.helpviewer_keywords: ["ISecurityCallersColl interface [COM+]","get_Count method","ISecurityCallersColl.get_Count","ISecurityCallersColl::get_Count","_cos_ISecurityCallersColl_get_Count","comsvcs/ISecurityCallersColl::get_Count","cos.isecuritycallerscoll_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","ISecurityCallersColl interface"]
 old-location: cos\isecuritycallerscoll_get_count.htm
 tech.root: cossdk
 ms.assetid: 98a28194-c4d3-4c5f-b43a-4df73fcea7e4

@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_PublisherID
 title: IEventPublisher::put_PublisherID (eventsys.h)
-description: The identifier for the event publisher.
+description: The identifier for the event publisher.helpviewer_keywords: ["IEventPublisher interface [COM]","PublisherID property","IEventPublisher.PublisherID","IEventPublisher.put_PublisherID","IEventPublisher::PublisherID","IEventPublisher::put_PublisherID","PublisherID property [COM]","PublisherID property [COM]","IEventPublisher interface","_com_ieventpublisher_publisherid","com.ieventpublisher_publisherid","eventsys/IEventPublisher::PublisherID","eventsys/IEventPublisher::put_PublisherID","put_PublisherID"]
 old-location: com\ieventpublisher_publisherid.htm
 tech.root: com
 ms.assetid: edc66367-68af-47a7-873c-006c257e840e

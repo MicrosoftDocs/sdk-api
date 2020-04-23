@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.ConvertObject
 title: IRichEditOle::ConvertObject (richole.h)
-description: Converts an object to a new type. This call reloads the object but does not force an update; the caller must do this.
+description: Converts an object to a new type. This call reloads the object but does not force an update; the caller must do this.helpviewer_keywords: ["ConvertObject","ConvertObject method [Windows Controls]","ConvertObject method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","ConvertObject method","IRichEditOle.ConvertObject","IRichEditOle::ConvertObject","_win32_IRichEditOle_ConvertObject","_win32_IRichEditOle_ConvertObject_cpp","controls.IRichEditOle_ConvertObject","controls._win32_IRichEditOle_ConvertObject","richole/IRichEditOle::ConvertObject"]
 old-location: controls\IRichEditOle_ConvertObject.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleconvertobject.htm

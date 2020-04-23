@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnectorImpl.AddBackLink
 title: IMILBitmapEffectOutputConnectorImpl::AddBackLink (mileffects.h)
-description: IMILBitmapEffectOutputConnectorImpl::AddBackLink method
+description: IMILBitmapEffectOutputConnectorImpl::AddBackLink methodhelpviewer_keywords: ["AddBackLink","AddBackLink method [WPF Bitmap Effects]","AddBackLink method [WPF Bitmap Effects]","IMILBitmapEffectOutputConnectorImpl interface","IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects]","AddBackLink method","IMILBitmapEffectOutputConnectorImpl.AddBackLink","IMILBitmapEffectOutputConnectorImpl::AddBackLink","_wibe_imilbitmapeffectoutputconnectorimpl_addbacklink","mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink","wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink"]
 old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_addbacklink.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\addbacklink.htm

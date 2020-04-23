@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.UpdateWindow
 title: UpdateWindow function (winuser.h)
-description: The UpdateWindow function updates the client area of the specified window by sending a WM_PAINT message to the window if the window's update region is not empty.
+description: The UpdateWindow function updates the client area of the specified window by sending a WM_PAINT message to the window if the window's update region is not empty.helpviewer_keywords: ["UpdateWindow","UpdateWindow function [Windows GDI]","_win32_UpdateWindow","gdi.updatewindow","winuser/UpdateWindow"]
 old-location: gdi\updatewindow.htm
 tech.root: gdi
 ms.assetid: 51a50f1f-7b4d-4acd-83a0-1877f5181766

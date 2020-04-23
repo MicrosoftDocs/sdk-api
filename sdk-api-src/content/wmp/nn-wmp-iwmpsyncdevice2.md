@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPSyncDevice2
 title: IWMPSyncDevice2 (wmp.h)
-description: The IWMPSyncDevice2 interface provides a method that supplements the IWMPSyncDevice interface.To use this interface, you must create a remoted instance of the Windows Media Player 10 or later control.
+description: The IWMPSyncDevice2 interface provides a method that supplements the IWMPSyncDevice interface.To use this interface, you must create a remoted instance of the Windows Media Player 10 or later control.helpviewer_keywords: ["IWMPSyncDevice2","IWMPSyncDevice2 interface [Windows Media Player]","IWMPSyncDevice2 interface [Windows Media Player]","described","IWMPSyncDevice2Interface","wmp.iwmpsyncdevice2","wmp/IWMPSyncDevice2"]
 old-location: wmp\iwmpsyncdevice2.htm
 tech.root: WMP
 ms.assetid: b47fc5ea-741d-4e47-baad-afeb659f1079

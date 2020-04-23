@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.RefreshPolicy
 title: RefreshPolicy function (userenv.h)
-description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
+description: The RefreshPolicy function causes policy to be applied immediately on the client computer.helpviewer_keywords: ["RefreshPolicy","RefreshPolicy function [Group Policy]","_win32_refreshpolicy","policy.refreshpolicy","userenv/RefreshPolicy"]
 old-location: policy\refreshpolicy.htm
 tech.root: Policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023

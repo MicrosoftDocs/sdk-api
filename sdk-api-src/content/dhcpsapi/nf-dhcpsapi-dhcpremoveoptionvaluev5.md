@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionValueV5
 title: DhcpRemoveOptionValueV5 function (dhcpsapi.h)
-description: The DhcpRemoveOptionValueV5 function removes an option value from a scope defined on the DHCP server.
+description: The DhcpRemoveOptionValueV5 function removes an option value from a scope defined on the DHCP server.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpRemoveOptionValueV5","DhcpRemoveOptionValueV5 function [DHCP]","dhcp.dhcpremoveoptionvaluev5","dhcpsapi/DhcpRemoveOptionValueV5"]
 old-location: dhcp\dhcpremoveoptionvaluev5.htm
 tech.root: DHCP
 ms.assetid: 3fe45007-0de2-4905-96d7-fe351c81ae30

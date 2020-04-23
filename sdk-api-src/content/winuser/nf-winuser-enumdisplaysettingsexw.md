@@ -2,6 +2,7 @@
 UID: NF:winuser.EnumDisplaySettingsExW
 title: EnumDisplaySettingsExW function (winuser.h)
 description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
+helpviewer_keywords: ["EDS_RAWMODE","EDS_ROTATEDMODE","ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettingsEx","EnumDisplaySettingsEx function [Windows GDI]","EnumDisplaySettingsExA","EnumDisplaySettingsExW","_win32_EnumDisplaySettingsEx","gdi.enumdisplaysettingsex","winuser/EnumDisplaySettingsEx","winuser/EnumDisplaySettingsExA","winuser/EnumDisplaySettingsExW"]
 old-location: gdi\enumdisplaysettingsex.htm
 tech.root: gdi
 ms.assetid: 99794fb1-7ba3-4864-bf6a-e3a514fa7917
@@ -110,9 +111,9 @@ When you call <b>EnumDisplaySettingsEx</b> with <i>iModeNum</i> set to zero, the
 
 ### -param lpDevMode [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure into which the function stores information about the specified graphics mode. Before calling <b>EnumDisplaySettingsEx</b>, set the <b>dmSize</b> member to <b>sizeof</b> (<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>), and set the <b>dmDriverExtra</b> member to indicate the size, in bytes, of the additional space available to receive private driver data.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure into which the function stores information about the specified graphics mode. Before calling <b>EnumDisplaySettingsEx</b>, set the <b>dmSize</b> member to <b>sizeof</b> (<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>), and set the <b>dmDriverExtra</b> member to indicate the size, in bytes, of the additional space available to receive private driver data.
 
-The <b>EnumDisplaySettingsEx</b> function will populate the <b>dmFields</b> member of the <b>lpDevMode</b> and one or more other members of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. To determine which members were set by the call to <b>EnumDisplaySettingsEx</b>, inspect the <i>dmFields</i> bitmask. Some of the fields typically populated by this function include:
+The <b>EnumDisplaySettingsEx</b> function will populate the <b>dmFields</b> member of the <b>lpDevMode</b> and one or more other members of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. To determine which members were set by the call to <b>EnumDisplaySettingsEx</b>, inspect the <i>dmFields</i> bitmask. Some of the fields typically populated by this function include:
 
 <ul>
 <li><b>dmBitsPerPel</b></li>
@@ -203,7 +204,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

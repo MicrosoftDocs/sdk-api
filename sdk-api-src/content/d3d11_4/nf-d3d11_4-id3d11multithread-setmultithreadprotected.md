@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.SetMultithreadProtected
 title: ID3D11Multithread::SetMultithreadProtected (d3d11_4.h)
-description: Turns multithread protection on or off.
+description: Turns multithread protection on or off.helpviewer_keywords: ["ID3D11Multithread interface [Direct3D 11]","SetMultithreadProtected method","ID3D11Multithread.SetMultithreadProtected","ID3D11Multithread::SetMultithreadProtected","SetMultithreadProtected","SetMultithreadProtected method [Direct3D 11]","SetMultithreadProtected method [Direct3D 11]","ID3D11Multithread interface","d3d11_4/ID3D11Multithread::SetMultithreadProtected","direct3d11.id3d11multithread_setmultithreadprotected"]
 old-location: direct3d11\id3d11multithread_setmultithreadprotected.htm
 tech.root: direct3d11
 ms.assetid: E8BF9A25-CCEA-44F3-AE7C-376E5B672079

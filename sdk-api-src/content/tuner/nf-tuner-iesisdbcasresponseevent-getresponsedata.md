@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetResponseData
 title: IESIsdbCasResponseEvent::GetResponseData (tuner.h)
-description: Gets the response data returned in an IsdbCasResponse event.
+description: Gets the response data returned in an IsdbCasResponse event.helpviewer_keywords: ["GetResponseData","GetResponseData method [DirectShow]","GetResponseData method [DirectShow]","IESIsdbCasResponseEvent interface","IESIsdbCasResponseEvent interface [DirectShow]","GetResponseData method","IESIsdbCasResponseEvent.GetResponseData","IESIsdbCasResponseEvent::GetResponseData","mstv.iesisdbcasresponseevent_getresponsedata","tuner/IESIsdbCasResponseEvent::GetResponseData"]
 old-location: mstv\iesisdbcasresponseevent_getresponsedata.htm
 tech.root: mstv
 ms.assetid: ee0618a6-6162-4178-be44-978558add914

@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICBitmapEncoderCacheOption
 title: WICBitmapEncoderCacheOption (wincodec.h)
-description: Specifies the cache options available for an encoder.
+description: Specifies the cache options available for an encoder.helpviewer_keywords: ["WICBitmapEncoderCacheInMemory","WICBitmapEncoderCacheOption","WICBitmapEncoderCacheOption enumeration [Windows Imaging Component]","WICBitmapEncoderCacheTempFile","WICBitmapEncoderNoCache","_wic_codec_wicbitmapencodercacheoption","wic._wic_codec_wicbitmapencodercacheoption","wincodec/WICBitmapEncoderCacheInMemory","wincodec/WICBitmapEncoderCacheOption","wincodec/WICBitmapEncoderCacheTempFile","wincodec/WICBitmapEncoderNoCache"]
 old-location: wic\_wic_codec_wicbitmapencodercacheoption.htm
 tech.root: wic
 ms.assetid: cc23cd53-f29b-4e4e-a3d9-038c6f0c5629

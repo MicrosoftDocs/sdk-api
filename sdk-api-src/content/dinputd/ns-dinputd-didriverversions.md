@@ -1,7 +1,7 @@
 ---
 UID: NS:dinputd.DIDRIVERVERSIONS
 title: DIDRIVERVERSIONS (dinputd.h)
-description: The DIDRIVERVERSIONS structure is used by the DirectInput effect driver to report version information back to DirectInput.
+description: The DIDRIVERVERSIONS structure is used by the DirectInput effect driver to report version information back to DirectInput.helpviewer_keywords: ["*LPDIDRIVERVERSIONS","DIDRIVERVERSIONS","DIDRIVERVERSIONS structure [Human Input Devices]","di_ref_8a99e6d1-de51-4729-bcce-c201030bc557.xml","dinputd/DIDRIVERVERSIONS","hid.didriverversions"]
 old-location: hid\didriverversions.htm
 tech.root: hid
 ms.assetid: 28e24657-a75e-49d1-88b0-3e40ba8851ae

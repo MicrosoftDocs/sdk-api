@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.SHIsFileAvailableOffline
 title: SHIsFileAvailableOffline function (shellapi.h)
-description: Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.
+description: Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.helpviewer_keywords: ["OFFLINE_STATUS_INCOMPLETE","OFFLINE_STATUS_LOCAL","OFFLINE_STATUS_REMOTE","SHIsFileAvailableOffline","SHIsFileAvailableOffline function [Windows Shell]","shell.SHIsFileAvailableOffline","shell_shisfileavailableoffline","shellapi/SHIsFileAvailableOffline"]
 old-location: shell\SHIsFileAvailableOffline.htm
 tech.root: shell
 ms.assetid: 9acf212d-9309-42b0-ba96-faa0ecf0b865

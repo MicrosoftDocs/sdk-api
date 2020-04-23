@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ISurrogateService.ApplicationLaunch
 title: ISurrogateService::ApplicationLaunch (objidl.h)
-description: Launches the application.
+description: Launches the application.helpviewer_keywords: ["ApplicationLaunch","ApplicationLaunch method [COM]","ApplicationLaunch method [COM]","ISurrogateService interface","ISurrogateService interface [COM]","ApplicationLaunch method","ISurrogateService.ApplicationLaunch","ISurrogateService::ApplicationLaunch","_com_isurrogateservice_applicationlaunch","com.isurrogateservice_applicationlaunch","objidl/ISurrogateService::ApplicationLaunch"]
 old-location: com\isurrogateservice_applicationlaunch.htm
 tech.root: com
 ms.assetid: 4e54c129-f321-4215-b084-21ab17f93a6f

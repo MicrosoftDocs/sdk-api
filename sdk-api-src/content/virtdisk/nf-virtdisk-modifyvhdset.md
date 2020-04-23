@@ -2,6 +2,7 @@
 UID: NF:virtdisk.ModifyVhdSet
 title: ModifyVhdSet function (virtdisk.h)
 description: Modifies the internal contents of a virtual disk file. Can be used to set the active leaf, or to fix up snapshot entries.
+helpviewer_keywords: ["ModifyVhdSet","ModifyVhdSet function [VHD]","vdssys/ModifyVhdSet","vhd.modifyvhdset","virtdisk/ModifyVhdSet"]
 old-location: vhd\modifyvhdset.htm
 tech.root: VStor
 ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
@@ -66,12 +67,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-modify_vhdset_parameters">MODIFY_VHDSET_PARAMETERS</a> structure that contains modification data.
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-modify_vhdset_parameters">MODIFY_VHDSET_PARAMETERS</a> structure that contains modification data.
 
 
 ### -param Flags [in]
 
-Modification flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-modify_vhdset_flag">MODIFY_VHDSET_FLAG</a> enumeration.
+Modification flags, which must be a valid combination of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-modify_vhdset_flag">MODIFY_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

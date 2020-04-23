@@ -2,6 +2,7 @@
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorColorTemperature
 title: GetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
 description: Retrieves a monitor's current color temperature.
+helpviewer_keywords: ["GetMonitorColorTemperature","GetMonitorColorTemperature function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorColorTemperature","monitor.getmonitorcolortemperature"]
 old-location: monitor\getmonitorcolortemperature.htm
 tech.root: Monitor
 ms.assetid: 872aabcc-b274-454c-a08b-6c4c5aa83012
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param pctCurrentColorTemperature [out]
 
-Receives the monitor's current color temperature, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_color_temperature">MC_COLOR_TEMPERATURE</a> enumeration.
+Receives the monitor's current color temperature, specified as a member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_color_temperature">MC_COLOR_TEMPERATURE</a> enumeration.
           
 
 

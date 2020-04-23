@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClock.GetPosition
 title: IAudioClock::GetPosition (audioclient.h)
-description: The GetPosition method gets the current device position.
+description: The GetPosition method gets the current device position.helpviewer_keywords: ["GetPosition","GetPosition method [Core Audio]","GetPosition method [Core Audio]","IAudioClock interface","IAudioClock interface [Core Audio]","GetPosition method","IAudioClock.GetPosition","IAudioClock::GetPosition","IAudioClockGetPosition","audioclient/IAudioClock::GetPosition","coreaudio.iaudioclock_getposition"]
 old-location: coreaudio\iaudioclock_getposition.htm
 tech.root: CoreAudio
 ms.assetid: 2271bd73-8cb6-4048-a16c-f765d0fae6bd

@@ -1,7 +1,7 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_REGDEFUSAGE
 title: CRYPT_PROVIDER_REGDEFUSAGE (wintrust.h)
-description: Used by the WintrustAddDefaultForUsage function to register callback information about a provider's default usage.
+description: Used by the WintrustAddDefaultForUsage function to register callback information about a provider's default usage.helpviewer_keywords: ["*PCRYPT_PROVIDER_REGDEFUSAGE","CRYPT_PROVIDER_REGDEFUSAGE","CRYPT_PROVIDER_REGDEFUSAGE structure [Security]","PCRYPT_PROVIDER_REGDEFUSAGE","PCRYPT_PROVIDER_REGDEFUSAGE structure pointer [Security]","security.crypt_provider_regdefusage","wintrust/CRYPT_PROVIDER_REGDEFUSAGE","wintrust/PCRYPT_PROVIDER_REGDEFUSAGE"]
 old-location: security\crypt_provider_regdefusage.htm
 tech.root: SecCrypto
 ms.assetid: A6047CBA-E4BA-4A31-B700-C368CFB57895

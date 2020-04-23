@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMProfile
 title: IWMProfile (wmsdkidl.h)
-description: The IWMProfile interface is the primary interface for a profile object.
+description: The IWMProfile interface is the primary interface for a profile object.helpviewer_keywords: ["IWMProfile","IWMProfile interface [windows Media Format]","IWMProfile interface [windows Media Format]","described","IWMProfileInterface","wmformat.iwmprofile","wmsdkidl/IWMProfile"]
 old-location: wmformat\iwmprofile.htm
 tech.root: wmformat
 ms.assetid: 00f28d6b-d27d-4268-960e-c8ea25e5359e

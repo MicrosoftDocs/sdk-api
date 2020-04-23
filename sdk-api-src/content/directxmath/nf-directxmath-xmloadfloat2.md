@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMLoadFloat2
 title: XMLoadFloat2 function (directxmath.h)
-description: Loads an XMFLOAT2 into an XMVECTOR.
+description: Loads an XMFLOAT2 into an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadFloat2","XMLoadFloat2","XMLoadFloat2 method [DirectX Math Support APIs]","dxmath.xmloadfloat2"]
 old-location: dxmath\xmloadfloat2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat2(const XMFLOAT2)

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.ICDBurnExt.GetSupportedActionTypes
 title: ICDBurnExt::GetSupportedActionTypes (shobjidl.h)
-description: Determines the supported data type for a CD writing extension.
+description: Determines the supported data type for a CD writing extension.helpviewer_keywords: ["CDBE_TYPE_ALL","CDBE_TYPE_DATA","CDBE_TYPE_MUSIC","GetSupportedActionTypes","GetSupportedActionTypes method [Windows Shell]","GetSupportedActionTypes method [Windows Shell]","ICDBurnExt interface","ICDBurnExt interface [Windows Shell]","GetSupportedActionTypes method","ICDBurnExt.GetSupportedActionTypes","ICDBurnExt::GetSupportedActionTypes","_shell_ICDBurnExt_GetSupportedActionTypes","shell.ICDBurnExt_GetSupportedActionTypes","shobjidl/ICDBurnExt::GetSupportedActionTypes"]
 old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm
 tech.root: shell
 ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc

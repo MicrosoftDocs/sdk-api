@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.EnumOutputs
 title: IDXGIAdapter::EnumOutputs (dxgi.h)
-description: Enumerate adapter (video card) outputs.
+description: Enumerate adapter (video card) outputs.helpviewer_keywords: ["7da8b512-df54-dc59-9b13-fb6ef2f60fd6","EnumOutputs","EnumOutputs method [DXGI]","EnumOutputs method [DXGI]","IDXGIAdapter interface","IDXGIAdapter interface [DXGI]","EnumOutputs method","IDXGIAdapter.EnumOutputs","IDXGIAdapter::EnumOutputs","direct3ddxgi.idxgiadapter_enumoutputs","dxgi/IDXGIAdapter::EnumOutputs"]
 old-location: direct3ddxgi\idxgiadapter_enumoutputs.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_enumoutputs.htm

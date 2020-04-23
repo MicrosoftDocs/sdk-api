@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigServerSetInfo
 title: MprConfigServerSetInfo function (mprapi.h)
-description: The MprConfigServerSetInfo function is used to set the port count for L2TP, PPTP, and SSTP ports and enable or disable RRAS on them in the registry when the RRAS service is not running so that it is picked up next time the system restarts.
+description: The MprConfigServerSetInfo function is used to set the port count for L2TP, PPTP, and SSTP ports and enable or disable RRAS on them in the registry when the RRAS service is not running so that it is picked up next time the system restarts.helpviewer_keywords: ["MprConfigServerSetInfo","MprConfigServerSetInfo function [RAS]","mprapi/MprConfigServerSetInfo","rras.mprconfigserversetinfo"]
 old-location: rras\mprconfigserversetinfo.htm
 tech.root: RRAS
 ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d

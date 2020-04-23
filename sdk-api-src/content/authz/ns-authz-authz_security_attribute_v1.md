@@ -2,6 +2,7 @@
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_V1
 title: AUTHZ_SECURITY_ATTRIBUTE_V1 (authz.h)
 description: Defines a security attribute that can be associated with an authorization context.
+helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTE_V1","AUTHZ_SECURITY_ATTRIBUTE_NON_INHERITABLE","AUTHZ_SECURITY_ATTRIBUTE_TYPE_BOOLEAN","AUTHZ_SECURITY_ATTRIBUTE_TYPE_FQBN","AUTHZ_SECURITY_ATTRIBUTE_TYPE_INT64","AUTHZ_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING","AUTHZ_SECURITY_ATTRIBUTE_TYPE_SID","AUTHZ_SECURITY_ATTRIBUTE_TYPE_STRING","AUTHZ_SECURITY_ATTRIBUTE_TYPE_UINT64","AUTHZ_SECURITY_ATTRIBUTE_V1","AUTHZ_SECURITY_ATTRIBUTE_V1 structure [Security]","AUTHZ_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE","PAUTHZ_SECURITY_ATTRIBUTE_V1","PAUTHZ_SECURITY_ATTRIBUTE_V1 structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTE_V1","authz/PAUTHZ_SECURITY_ATTRIBUTE_V1","security.authz_security_attribute_v1"]
 old-location: security\authz_security_attribute_v1.htm
 tech.root: SecAuthZ
 ms.assetid: 0c4778bb-1b5d-4422-b066-d2a6aaa1f351
@@ -237,7 +238,7 @@ A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api
 
 ### -field Values.pOctetString
 
-A pointer to one or more <a href="https://docs.microsoft.com/windows/win32/api/authz/ns-authz-authz_security_attribute_octet_string_value">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
+A pointer to one or more <a href="/windows/win32/api/authz/ns-authz-authz_security_attribute_octet_string_value">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 
 
 ## -see-also

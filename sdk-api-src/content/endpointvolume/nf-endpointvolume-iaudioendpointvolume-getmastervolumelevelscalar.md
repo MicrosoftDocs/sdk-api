@@ -1,7 +1,7 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetMasterVolumeLevelScalar
 title: IAudioEndpointVolume::GetMasterVolumeLevelScalar (endpointvolume.h)
-description: The GetMasterVolumeLevelScalar method gets the master volume level of the audio stream that enters or leaves the audio endpoint device. The volume level is expressed as a normalized, audio-tapered value in the range from 0.0 to 1.0.
+description: The GetMasterVolumeLevelScalar method gets the master volume level of the audio stream that enters or leaves the audio endpoint device. The volume level is expressed as a normalized, audio-tapered value in the range from 0.0 to 1.0.helpviewer_keywords: ["GetMasterVolumeLevelScalar","GetMasterVolumeLevelScalar method [Core Audio]","GetMasterVolumeLevelScalar method [Core Audio]","IAudioEndpointVolume interface","IAudioEndpointVolume interface [Core Audio]","GetMasterVolumeLevelScalar method","IAudioEndpointVolume.GetMasterVolumeLevelScalar","IAudioEndpointVolume::GetMasterVolumeLevelScalar","IAudioEndpointVolumeGetMasterVolumeLevelScalar","coreaudio.iaudioendpointvolume_getmastervolumelevelscalar","endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevelScalar"]
 old-location: coreaudio\iaudioendpointvolume_getmastervolumelevelscalar.htm
 tech.root: CoreAudio
 ms.assetid: 5a127507-99d2-48e8-b7e9-8bb51ff89f50

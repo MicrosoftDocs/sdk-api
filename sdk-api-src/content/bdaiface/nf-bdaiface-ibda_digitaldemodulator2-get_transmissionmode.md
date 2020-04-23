@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_TransmissionMode
 title: IBDA_DigitalDemodulator2::get_TransmissionMode (bdaiface.h)
-description: Gets the demodulator's transmission mode.
+description: Gets the demodulator's transmission mode.helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","get_TransmissionMode method","IBDA_DigitalDemodulator2.get_TransmissionMode","IBDA_DigitalDemodulator2::get_TransmissionMode","bdaiface/IBDA_DigitalDemodulator2::get_TransmissionMode","get_TransmissionMode","get_TransmissionMode method [Microsoft TV Technologies]","get_TransmissionMode method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface","mstv.ibda_digitaldemodulator2_get_transmissionmode"]
 old-location: mstv\ibda_digitaldemodulator2_get_transmissionmode.htm
 tech.root: mstv
 ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86

@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetInfo
 title: ISpatialAudioMetadataItems::GetInfo (spatialaudiometadata.h)
-description: Gets the total frame count for the ISpatialAudioMetadataItems, which defines valid item offsets.
+description: Gets the total frame count for the ISpatialAudioMetadataItems, which defines valid item offsets.helpviewer_keywords: ["GetInfo","GetInfo method [Core Audio]","GetInfo method [Core Audio]","ISpatialAudioMetadataItems interface","ISpatialAudioMetadataItems interface [Core Audio]","GetInfo method","ISpatialAudioMetadataItems.GetInfo","ISpatialAudioMetadataItems::GetInfo","coreaudio.ispatialaudiometadataitems_getinfo","spatialaudiometadata/ISpatialAudioMetadataItems::GetInfo"]
 old-location: coreaudio\ispatialaudiometadataitems_getinfo.htm
 tech.root: CoreAudio
 ms.assetid: F54BF2B9-B9A4-47EF-8C18-DC58B24B617E

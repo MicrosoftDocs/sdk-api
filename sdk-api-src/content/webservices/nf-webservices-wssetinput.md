@@ -2,6 +2,7 @@
 UID: NF:webservices.WsSetInput
 title: WsSetInput function (webservices.h)
 description: Sets the encoding and input sources for an XML Reader.
+helpviewer_keywords: ["WsSetInput","WsSetInput function [Web Services for Windows]","webservices/WsSetInput","wsw.wssetinput"]
 old-location: wsw\wssetinput.htm
 tech.root: wsw
 ms.assetid: d7ac5233-266e-4ca1-aa58-e50b385b48bb
@@ -71,13 +72,13 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-
 
 A to an encoding value that describes the format of the input bytes.  This value should be one of:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>
+<a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_binary_encoding">WS_XML_READER_BINARY_ENCODING</a>
+<a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_binary_encoding">WS_XML_READER_BINARY_ENCODING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>
+<a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>
 </li>
 </ul>
 

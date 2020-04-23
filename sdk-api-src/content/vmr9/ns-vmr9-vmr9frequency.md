@@ -1,7 +1,7 @@
 ---
 UID: NS:vmr9._VMR9Frequency
 title: VMR9Frequency (vmr9.h)
-description: The VMR9Frequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
+description: The VMR9Frequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.helpviewer_keywords: ["VMR9Frequency","VMR9Frequency structure [DirectShow]","VMR9FrequencyStructure","dshow.vmr9frequency","vmr9/VMR9Frequency"]
 old-location: dshow\vmr9frequency.htm
 tech.root: DirectShow
 ms.assetid: a2d19dcf-521e-4df0-8e28-5561f2617411

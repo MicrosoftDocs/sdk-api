@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IPipeByte
 title: IPipeByte (objidl.h)
-description: Transfers data of the byte type (which is 8 bits wide).
+description: Transfers data of the byte type (which is 8 bits wide).helpviewer_keywords: ["IPipeByte","IPipeByte interface [COM]","IPipeByte interface [COM]","described","_com_ipipebyte","com.ipipebyte","objidlbase/IPipeByte"]
 old-location: com\ipipebyte.htm
 tech.root: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041

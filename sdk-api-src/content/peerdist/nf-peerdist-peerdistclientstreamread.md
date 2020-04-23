@@ -1,7 +1,7 @@
 ---
 UID: NF:peerdist.PeerDistClientStreamRead
 title: PeerDistClientStreamRead function (peerdist.h)
-description: PeerDistClientStreamRead reads a sequence of bytes from content stream.
+description: PeerDistClientStreamRead reads a sequence of bytes from content stream.helpviewer_keywords: ["PEERDIST_READ_TIMEOUT_DEFAULT","PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY","PeerDistClientStreamRead","PeerDistClientStreamRead function [Peer Networking]","p2p.peerdistclientstreamread","peerdist/PeerDistClientStreamRead"]
 old-location: p2p\peerdistclientstreamread.htm
 tech.root: P2PSdk
 ms.assetid: 7c73e9e2-c723-4472-84e5-b0d25eb3b283

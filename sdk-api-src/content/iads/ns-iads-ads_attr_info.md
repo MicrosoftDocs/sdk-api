@@ -2,6 +2,7 @@
 UID: NS:iads._ads_attr_info
 title: ADS_ATTR_INFO (iads.h)
 description: Used to contain one or more attribute values for use with the IDirectoryObject::CreateDSObject, IDirectoryObject::GetObjectAttributes, or IDirectoryObject::SetObjectAttributes method.
+helpviewer_keywords: ["*PADS_ATTR_INFO","ADS_ATTR_INFO","ADS_ATTR_INFO structure [ADSI]","PADS_ATTR_INFO","PADS_ATTR_INFO structure pointer [ADSI]","_ds_ads_attr_info","adsi.ads__attr__info","adsi.ads_attr_info","iads/ADS_ATTR_INFO","iads/PADS_ATTR_INFO"]
 old-location: adsi\ads_attr_info.htm
 tech.root: adsi
 ms.assetid: a2b97a52-4b8b-4491-8798-72a161903422
@@ -71,7 +72,7 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/ADSI/ads
 
 ### -field dwADsType
 
-A value from the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration that indicates the data type of the attribute.
+A value from the  <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration that indicates the data type of the attribute.
 
 
 ### -field pADsValues
@@ -114,7 +115,7 @@ The value of the <b>dwControlCode</b> member is ignored when the structure is us
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

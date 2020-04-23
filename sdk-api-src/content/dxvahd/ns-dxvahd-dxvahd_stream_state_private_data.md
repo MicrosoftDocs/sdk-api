@@ -2,6 +2,7 @@
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PRIVATE_DATA
 title: DXVAHD_STREAM_STATE_PRIVATE_DATA (dxvahd.h)
 description: Contains data for a private stream state, for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_PRIVATE_DATA","DXVAHD_STREAM_STATE_PRIVATE_DATA structure [Media Foundation]","DXVAHD_STREAM_STATE_PRIVATE_IVTC","dxvahd/DXVAHD_STREAM_STATE_PRIVATE_DATA","mf.dxvahd_stream_state_private_data"]
 old-location: mf\dxvahd_stream_state_private_data.htm
 tech.root: medfound
 ms.assetid: 3b7ce487-edec-4ff2-b971-72ddcc28162c
@@ -72,7 +73,7 @@ A GUID that identifies the private stream state. The following GUID is defined.
 </dl>
 </td>
 <td width="60%">
-Retrieves statistics about inverse telecine. The state data (<b>pData</b>) is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_private_ivtc_data">DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA</a> structure.
+Retrieves statistics about inverse telecine. The state data (<b>pData</b>) is a <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_private_ivtc_data">DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA</a> structure.
 
 </td>
 </tr>

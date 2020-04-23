@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_KEY_HANDLE
 title: WS_SECURITY_KEY_HANDLE (webservices.h)
-description: The abstract base type for all types that specify a cryptographic key. Such a key is typically specified for a generic XML security token or a custom security token.
+description: The abstract base type for all types that specify a cryptographic key. Such a key is typically specified for a generic XML security token or a custom security token.helpviewer_keywords: ["WS_SECURITY_KEY_HANDLE","WS_SECURITY_KEY_HANDLE structure [Web Services for Windows]","webservices/WS_SECURITY_KEY_HANDLE","wsw.ws_security_key_handle"]
 old-location: wsw\ws_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 89e90c32-edf7-47f4-9126-4c3539d9fbc1

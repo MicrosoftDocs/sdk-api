@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_SubjectAttributes
 title: SecPkgContext_SubjectAttributes (sspi.h)
-description: Returns the security attribute information.
+description: Returns the security attribute information.helpviewer_keywords: ["*PSecPkgContext_SubjectAttributes","PSecPkgContext_SubjectAttributes","PSecPkgContext_SubjectAttributes structure pointer [Security]","SecPkgContext_SubjectAttributes","SecPkgContext_SubjectAttributes structure [Security]","security.secpkgcontext_subjectattributes","sspi/PSecPkgContext_SubjectAttributes","sspi/SecPkgContext_SubjectAttributes"]
 old-location: security\secpkgcontext_subjectattributes.htm
 tech.root: SecAuthN
 ms.assetid: 548E972F-EB94-4BBD-94F2-FA38184D179A

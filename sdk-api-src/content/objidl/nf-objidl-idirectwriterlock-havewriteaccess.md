@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IDirectWriterLock.HaveWriteAccess
 title: IDirectWriterLock::HaveWriteAccess (objidl.h)
-description: The HaveWriteAccess method indicates whether the write lock has been taken.
+description: The HaveWriteAccess method indicates whether the write lock has been taken.helpviewer_keywords: ["HaveWriteAccess","HaveWriteAccess method [Structured Storage]","HaveWriteAccess method [Structured Storage]","IDirectWriterLock interface","IDirectWriterLock interface [Structured Storage]","HaveWriteAccess method","IDirectWriterLock.HaveWriteAccess","IDirectWriterLock::HaveWriteAccess","_stg_idirectwriterlock_havewriteaccess","objidl/IDirectWriterLock::HaveWriteAccess","stg.idirectwriterlock_havewriteaccess"]
 old-location: stg\idirectwriterlock_havewriteaccess.htm
 tech.root: Stg
 ms.assetid: 8366b6b5-73c3-4b05-be68-c24ecd2eab96

@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_87
 title: WS_WRITE_OPTION (webservices.h)
-description: Specifies whether a storage specified contains the value, or a pointer to the value, and whether the value can be represented as nil in the XML content.
+description: Specifies whether a storage specified contains the value, or a pointer to the value, and whether the value can be represented as nil in the XML content.helpviewer_keywords: ["WS_WRITE_NILLABLE_POINTER","WS_WRITE_NILLABLE_VALUE","WS_WRITE_OPTION","WS_WRITE_OPTION enumeration [Web Services for Windows]","WS_WRITE_REQUIRED_POINTER","WS_WRITE_REQUIRED_VALUE","webservices/WS_WRITE_NILLABLE_POINTER","webservices/WS_WRITE_NILLABLE_VALUE","webservices/WS_WRITE_OPTION","webservices/WS_WRITE_REQUIRED_POINTER","webservices/WS_WRITE_REQUIRED_VALUE","wsw.ws_write_option"]
 old-location: wsw\ws_write_option.htm
 tech.root: wsw
 ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e

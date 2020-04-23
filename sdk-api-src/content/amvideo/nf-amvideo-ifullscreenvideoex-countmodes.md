@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.CountModes
 title: IFullScreenVideoEx::CountModes (amvideo.h)
-description: The CountModes method retrieves the number of display modes that the Full Screen Renderer supports.
+description: The CountModes method retrieves the number of display modes that the Full Screen Renderer supports.helpviewer_keywords: ["CountModes","CountModes method [DirectShow]","CountModes method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoCountModes","IFullScreenVideoEx interface [DirectShow]","CountModes method","IFullScreenVideoEx.CountModes","IFullScreenVideoEx::CountModes","amvideo/IFullScreenVideoEx::CountModes","dshow.ifullscreenvideoex_countmodes"]
 old-location: dshow\ifullscreenvideoex_countmodes.htm
 tech.root: DirectShow
 ms.assetid: 70d4e124-083b-4729-8f39-778e815ea23b

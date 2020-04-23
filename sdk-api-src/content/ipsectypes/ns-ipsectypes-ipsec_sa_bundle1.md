@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_SA_BUNDLE1_
 title: IPSEC_SA_BUNDLE1 (ipsectypes.h)
 description: Is used to store information about an IPsec security association (SA) bundle.
+helpviewer_keywords: ["IPSEC_SA_BUNDLE1","IPSEC_SA_BUNDLE1 structure [Filtering]","IPSEC_SA_BUNDLE_FLAG_ALLOW_NULL_TARGET_NAME_MATCH","IPSEC_SA_BUNDLE_FLAG_ASSUME_UDP_CONTEXT_OUTBOUND","IPSEC_SA_BUNDLE_FLAG_CLEAR_DF_ON_TUNNEL","IPSEC_SA_BUNDLE_FLAG_GUARANTEE_ENCRYPTION","IPSEC_SA_BUNDLE_FLAG_ND_BOUNDARY","IPSEC_SA_BUNDLE_FLAG_ND_PEER_BOUNDARY","IPSEC_SA_BUNDLE_FLAG_ND_PEER_NAT_BOUNDARY","IPSEC_SA_BUNDLE_FLAG_ND_SECURE","IPSEC_SA_BUNDLE_FLAG_NLB","IPSEC_SA_BUNDLE_FLAG_NO_EXPLICIT_CRED_MATCH","IPSEC_SA_BUNDLE_FLAG_NO_IMPERSONATION_LUID_VERIFY","IPSEC_SA_BUNDLE_FLAG_NO_MACHINE_LUID_VERIFY","IPSEC_SA_BUNDLE_FLAG_PEER_SUPPORTS_GUARANTEE_ENCRYPTION","IPSEC_SA_BUNDLE_FLAG_SUPPRESS_DUPLICATE_DELETION","fwp.ipsec_sa_bundle1_struct","ipsectypes/IPSEC_SA_BUNDLE1"]
 old-location: fwp\ipsec_sa_bundle1_struct.htm
 tech.root: fwp
 ms.assetid: 491f43ca-07ce-460f-8c20-e5eb0f7bcac4
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_SA_BUNDLE1</b> structure is used to store information about an IPsec security association (SA) bundle.
-[IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)a> is available.</div><div> </div>
+[IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -212,7 +213,7 @@ Indicates that the peer computer supports negotiating a separate SA for connecti
 
 ### -field lifetime
 
-Lifetime of all the SAs in the bundle as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)a>.
+Lifetime of all the SAs in the bundle as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0).
 
 
 ### -field idleTimeoutSeconds
@@ -230,7 +231,7 @@ Used for negotiation discovery.
 
 ### -field ipsecId
 
-Pointer to an [IPSEC_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_id0)a> structure that contains optional IPsec identity info.
+Pointer to an [IPSEC_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_id0) structure that contains optional IPsec identity info.
 
 
 ### -field napContext
@@ -254,17 +255,17 @@ Array of IPsec SAs in the bundle. For AH and ESP SAs, use index 0 for ESP SA and
 
 
 
-See [IPSEC_SA0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0)a> for more information.
+See [IPSEC_SA0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0) for more information.
 
 
 ### -field keyModuleState
 
-Optional keying module specific information as specified by [IPSEC_KEYMODULE_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0)a>.
+Optional keying module specific information as specified by [IPSEC_KEYMODULE_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0).
 
 
 ### -field ipVersion
 
-IP version as specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>.
+IP version as specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version).
 
 
 ### -field peerV4PrivateAddress
@@ -284,7 +285,7 @@ Use this ID to correlate this IPsec SA with the IKE SA that generated it.
    this SA, and if so, contains the Diffie-Hellman group that was used for
    PFS.
 
-See [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a> for more information.
+See [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group) for more information.
 
 
 ### -field saLookupContext
@@ -300,23 +301,23 @@ SA lookup context which is propagated from the SA to data connections flowing ov
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IPSEC_KEYMODULE_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0)a>
+[IPSEC_KEYMODULE_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0)
 
 
 
-[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a>
+[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)
 
 
 
-[IPSEC_SA0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0)a>
+[IPSEC_SA0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0)
 
 
 
-[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)a>
+[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)
 
 
 

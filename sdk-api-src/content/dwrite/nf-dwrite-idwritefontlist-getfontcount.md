@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontList.GetFontCount
 title: IDWriteFontList::GetFontCount (dwrite.h)
-description: Gets the number of fonts in the font list.
+description: Gets the number of fonts in the font list.helpviewer_keywords: ["GetFontCount","GetFontCount method [Direct Write]","GetFontCount method [Direct Write]","IDWriteFontList interface","IDWriteFontList interface [Direct Write]","GetFontCount method","IDWriteFontList.GetFontCount","IDWriteFontList::GetFontCount","directwrite.IDWriteFontList_GetFontCount","dwrite/IDWriteFontList::GetFontCount"]
 old-location: directwrite\IDWriteFontList_GetFontCount.htm
 tech.root: DirectWrite
 ms.assetid: 62755704-f4bf-423c-b19b-781529dd9718

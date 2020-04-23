@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromObject
 title: PSCreatePropertyStoreFromObject function (propsys.h)
-description: Accepts the IUnknown interface of an object that supports IPropertyStore or IPropertySetStorage. If the object supports IPropertySetStorage, it is wrapped so that it supports IPropertyStore.
+description: Accepts the IUnknown interface of an object that supports IPropertyStore or IPropertySetStorage. If the object supports IPropertySetStorage, it is wrapped so that it supports IPropertyStore.helpviewer_keywords: ["PSCreatePropertyStoreFromObject","PSCreatePropertyStoreFromObject function [Windows Properties]","STGM_READ","STGM_READWRITE","_shell_PSCreatePropertyStoreFromObject","properties.PSCreatePropertyStoreFromObject","propsys/PSCreatePropertyStoreFromObject","shell.PSCreatePropertyStoreFromObject"]
 old-location: properties\PSCreatePropertyStoreFromObject.htm
 tech.root: properties
 ms.assetid: 010572d5-0357-4101-803e-0a27fc60ca5e

@@ -1,7 +1,7 @@
 ---
 UID: NE:certenroll.WebSecurityLevel
 title: WebSecurityLevel (certenroll.h)
-description: Specifies whether a web-enabled method or property is safe for scripting.
+description: Specifies whether a web-enabled method or property is safe for scripting.helpviewer_keywords: ["LevelSafe","LevelUnsafe","WebSecurityLevel","WebSecurityLevel enumeration [Security]","certenroll/LevelSafe","certenroll/LevelUnsafe","certenroll/WebSecurityLevel","security.websecuritylevel_enum"]
 old-location: security\websecuritylevel_enum.htm
 tech.root: seccertenroll
 ms.assetid: fa87ec81-59d9-495c-9b2e-5394678cd020

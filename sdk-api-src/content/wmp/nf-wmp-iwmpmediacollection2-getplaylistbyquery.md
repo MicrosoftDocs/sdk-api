@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.getPlaylistByQuery
 title: IWMPMediaCollection2::getPlaylistByQuery (wmp.h)
-description: The getPlaylistByQuery method retrieves a pointer to an IWMPPlaylist interface. This interface represents a playlist that contains media items that match the query conditions.
+description: The getPlaylistByQuery method retrieves a pointer to an IWMPPlaylist interface. This interface represents a playlist that contains media items that match the query conditions.helpviewer_keywords: ["IWMPMediaCollection2 interface [Windows Media Player]","getPlaylistByQuery method","IWMPMediaCollection2.getPlaylistByQuery","IWMPMediaCollection2::getPlaylistByQuery","IWMPMediaCollection2getPlaylistByQuery","getPlaylistByQuery","getPlaylistByQuery method [Windows Media Player]","getPlaylistByQuery method [Windows Media Player]","IWMPMediaCollection2 interface","wmp.iwmpmediacollection2_getplaylistbyquery","wmp/IWMPMediaCollection2::getPlaylistByQuery"]
 old-location: wmp\iwmpmediacollection2_getplaylistbyquery.htm
 tech.root: WMP
 ms.assetid: b3d4586b-c999-447c-b974-15bd0ef160a6

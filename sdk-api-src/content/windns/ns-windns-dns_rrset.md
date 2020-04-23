@@ -2,6 +2,7 @@
 UID: NS:windns._DnsRRSet
 title: DNS_RRSET (windns.h)
 description: The DNS_RRSET structure contains information about a DNS Resource Record (RR) set.
+helpviewer_keywords: ["*PDNS_RRSET","*PDNS_RRSET structure [DNS]","DNS_RRSET","DNS_RRSET structure [DNS]","dns.dns_rrset","windns/*PDNS_RRSET","windns/DNS_RRSET"]
 old-location: dns\dns_rrset.htm
 tech.root: DNS
 ms.assetid: bd87a8db-ca27-490b-85f4-912297b77a2b
@@ -59,12 +60,12 @@ The <b>DNS_RRSET</b> structure contains information about a DNS Resource Record 
 
 ### -field pFirstRR
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the first DNS RR in the set.
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the first DNS RR in the set.
 
 
 ### -field pLastRR
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the last DNS RR in the set.
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the last DNS RR in the set.
 
 
 ## -see-also
@@ -72,7 +73,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-w
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

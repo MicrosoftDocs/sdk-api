@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleDuration
 title: IMFSample::SetSampleDuration (mfobjects.h)
-description: Sets the duration of the sample.
+description: Sets the duration of the sample.helpviewer_keywords: ["IMFSample interface [Media Foundation]","SetSampleDuration method","IMFSample.SetSampleDuration","IMFSample::SetSampleDuration","SetSampleDuration","SetSampleDuration method [Media Foundation]","SetSampleDuration method [Media Foundation]","IMFSample interface","f97be98e-8f1b-4bae-8cdd-8bdfe107894d","mf.imfsample_setsampleduration","mfobjects/IMFSample::SetSampleDuration"]
 old-location: mf\imfsample_setsampleduration.htm
 tech.root: medfound
 ms.assetid: f97be98e-8f1b-4bae-8cdd-8bdfe107894d

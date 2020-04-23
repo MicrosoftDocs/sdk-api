@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.StgGetIFillLockBytesOnFile
 title: StgGetIFillLockBytesOnFile function (objbase.h)
-description: Opens a wrapper object on a temporary file.
+description: Opens a wrapper object on a temporary file.helpviewer_keywords: ["StgGetIFillLockBytesOnFile","StgGetIFillLockBytesOnFile function [Structured Storage]","_stg_stggetifilllockbytesonfile","objbase/StgGetIFillLockBytesOnFile","stg.stggetifilllockbytesonfile"]
 old-location: stg\stggetifilllockbytesonfile.htm
 tech.root: Stg
 ms.assetid: 948724ff-d1eb-43ca-b498-6296909cfb28

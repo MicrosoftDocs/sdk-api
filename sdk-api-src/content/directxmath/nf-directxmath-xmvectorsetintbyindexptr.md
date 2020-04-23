@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSetIntByIndexPtr
 title: XMVectorSetIntByIndexPtr function (directxmath.h)
-description: Use a pointer to an integer instance to set the value of one of the four components of an XMVECTOR Data Typecontaining integer data referenced by an index.
+description: Use a pointer to an integer instance to set the value of one of the four components of an XMVECTOR Data Typecontaining integer data referenced by an index.helpviewer_keywords: ["Use DirectX..XMVectorSetIntByIndexPtr","XMVectorSetIntByIndexPtr","XMVectorSetIntByIndexPtr method [DirectX Math Support APIs]","dxmath.xmvectorsetintbyindexptr"]
 old-location: dxmath\xmvectorsetintbyindexptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntByIndexPtr(XMVECTOR,const uint32_t,size_t)

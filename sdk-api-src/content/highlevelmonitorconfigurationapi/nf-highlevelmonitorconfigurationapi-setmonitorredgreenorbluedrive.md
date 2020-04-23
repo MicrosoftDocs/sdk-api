@@ -2,6 +2,7 @@
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueDrive
 title: SetMonitorRedGreenOrBlueDrive function (highlevelmonitorconfigurationapi.h)
 description: Sets a monitor's red, green, or blue drive value.
+helpviewer_keywords: ["SetMonitorRedGreenOrBlueDrive","SetMonitorRedGreenOrBlueDrive function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive","monitor.setmonitorredgreenorbluedrive"]
 old-location: monitor\setmonitorredgreenorbluedrive.htm
 tech.root: Monitor
 ms.assetid: 9d000d86-02f8-442f-954c-c039c9dcc0cd
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param dtDriveType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_drive_type">MC_DRIVE_TYPE</a> enumeration, specifying whether to set the red, green, or blue drive value.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_drive_type">MC_DRIVE_TYPE</a> enumeration, specifying whether to set the red, green, or blue drive value.
           
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntlsa.LsaLookupPrivilegeValue
 title: LsaLookupPrivilegeValue function (ntlsa.h)
-description: Retrieves the locally unique identifier (LUID) used by the Local Security Authority (LSA) to represent the specified privilege name.
+description: Retrieves the locally unique identifier (LUID) used by the Local Security Authority (LSA) to represent the specified privilege name.helpviewer_keywords: ["LsaLookupPrivilegeValue","LsaLookupPrivilegeValue function [Security]","ntlsa/LsaLookupPrivilegeValue","security.lsalookupprivilegevalue"]
 old-location: security\lsalookupprivilegevalue.htm
 tech.root: SecMgmt
 ms.assetid: 4926fff9-6e1a-475c-95ab-78c9b67aaa87

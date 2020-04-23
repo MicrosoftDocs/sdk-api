@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiInStop
 title: midiInStop function (mmeapi.h)
-description: The midiInStop function stops MIDI input on the specified MIDI input device.
+description: The midiInStop function stops MIDI input on the specified MIDI input device.helpviewer_keywords: ["_win32_midiInStop","midiInStop","midiInStop function [Windows Multimedia]","mmeapi/midiInStop","multimedia.midiinstop"]
 old-location: multimedia\midiinstop.htm
 tech.root: Multimedia
 ms.assetid: 2541cfc9-ca65-4156-ae33-c04083556006

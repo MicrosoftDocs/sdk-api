@@ -1,7 +1,7 @@
 ---
 UID: NN:camerauicontrol.ICameraUIControl
 title: ICameraUIControl (camerauicontrol.h)
-description: Enables a user interface control for a camera device..
+description: Enables a user interface control for a camera device..helpviewer_keywords: ["ICameraUIControl","ICameraUIControl interface [Windows API]","ICameraUIControl interface [Windows API]","described","camerauicontrol/ICameraUIControl","winprog.icamerauicontrol"]
 old-location: winprog\icamerauicontrol.htm
 tech.root: DevNotes
 ms.assetid: e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9

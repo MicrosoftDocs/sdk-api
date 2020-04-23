@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetAutoArrange
 title: IShellFolderView::GetAutoArrange (shlobj_core.h)
-description: GetAutoArrange may be altered or unavailable.
+description: GetAutoArrange may be altered or unavailable.helpviewer_keywords: ["GetAutoArrange","GetAutoArrange method [Windows Shell]","GetAutoArrange method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetAutoArrange method","IShellFolderView.GetAutoArrange","IShellFolderView::GetAutoArrange","_shell_IShellFolderView_GetAutoArrange","shell.IShellFolderView_GetAutoArrange","shlobj_core/IShellFolderView::GetAutoArrange"]
 old-location: shell\IShellFolderView_GetAutoArrange.htm
 tech.root: shell
 ms.assetid: ee7c0c7c-17f1-48b4-9aa0-33804c237036

@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.SetContext
 title: IVssSoftwareSnapshotProvider::SetContext (vsprov.h)
-description: Sets the context for subsequent shadow copy-related operations.
+description: Sets the context for subsequent shadow copy-related operations.helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","SetContext method","IVssSoftwareSnapshotProvider.SetContext","IVssSoftwareSnapshotProvider::SetContext","SetContext","SetContext method","SetContext method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_setcontext","vsprov/IVssSoftwareSnapshotProvider::SetContext"]
 old-location: base\ivsssoftwaresnapshotprovider_setcontext.htm
 tech.root: VSS
 ms.assetid: 5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2

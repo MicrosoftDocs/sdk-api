@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.IsPrefixNormalized
 title: ISearchLanguageSupport::IsPrefixNormalized (searchapi.h)
-description: Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.
+description: Determines whether the query token is a prefix of the document token, disregarding case, width, and (optionally) diacritics.helpviewer_keywords: ["ISearchLanguageSupport interface [search]","IsPrefixNormalized method","ISearchLanguageSupport.IsPrefixNormalized","ISearchLanguageSupport::IsPrefixNormalized","IsPrefixNormalized","IsPrefixNormalized method [search]","IsPrefixNormalized method [search]","ISearchLanguageSupport interface","_search_ISearchLanguageSupport_IsPrefixNormalized","search._search_ISearchLanguageSupport_IsPrefixNormalized","searchapi/ISearchLanguageSupport::IsPrefixNormalized"]
 old-location: search\_search_ISearchLanguageSupport_IsPrefixNormalized.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isprefixnormalized.htm

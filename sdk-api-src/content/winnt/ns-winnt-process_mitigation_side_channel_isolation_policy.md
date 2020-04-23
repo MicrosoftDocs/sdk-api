@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 title: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY (winnt.h)
-description: This data structure provides the status of process policies that are related to the mitigation of side channels. This can include side channel attacks involving speculative execution and page combining.
+description: This data structure provides the status of process policies that are related to the mitigation of side channels. This can include side channel attacks involving speculative execution and page combining.helpviewer_keywords: ["*PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY","PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY","PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure pointer","PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY","PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure","_PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY","base.process_mitigation_side_channel_isolation_policy","winnt/PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY","winnt/PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY"]
 old-location: base\process_mitigation_side_channel_isolation_policy.htm
 tech.root: ProcThread
 ms.assetid: FEF2884D-7FE4-4DA7-AC2D-822FFACD4D7B

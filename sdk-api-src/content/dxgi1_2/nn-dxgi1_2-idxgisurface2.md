@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_2.IDXGISurface2
 title: IDXGISurface2 (dxgi1_2.h)
-description: The IDXGISurface2 interface extends the IDXGISurface1 interface by adding support for subresource surfaces and getting a handle to a shared resource.
+description: The IDXGISurface2 interface extends the IDXGISurface1 interface by adding support for subresource surfaces and getting a handle to a shared resource.helpviewer_keywords: ["IDXGISurface2","IDXGISurface2 interface [DXGI]","IDXGISurface2 interface [DXGI]","described","direct3ddxgi.idxgisurface2","dxgi1_2/IDXGISurface2"]
 old-location: direct3ddxgi\idxgisurface2.htm
 tech.root: direct3ddxgi
 ms.assetid: EBBB2EE1-C5EA-4F98-AA8B-BCAA8C188F26

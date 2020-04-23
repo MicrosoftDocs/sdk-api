@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.IsTapingPermitted
 title: IBPCSatelliteTuner::IsTapingPermitted (strmif.h)
-description: Note  The IBPCSatelliteTuner interface is deprecated. Queries whether taping is permitted.
+description: Note  The IBPCSatelliteTuner interface is deprecated. Queries whether taping is permitted.helpviewer_keywords: ["IBPCSatelliteTuner interface [DirectShow]","IsTapingPermitted method","IBPCSatelliteTuner.IsTapingPermitted","IBPCSatelliteTuner::IsTapingPermitted","IBPCSatelliteTunerIsTapingPermitted","IsTapingPermitted","IsTapingPermitted method [DirectShow]","IsTapingPermitted method [DirectShow]","IBPCSatelliteTuner interface","dshow.ibpcsatellitetuner_istapingpermitted","strmif/IBPCSatelliteTuner::IsTapingPermitted"]
 old-location: dshow\ibpcsatellitetuner_istapingpermitted.htm
 tech.root: DirectShow
 ms.assetid: 5e5b661f-46d5-47f1-adeb-d323c57ddff0

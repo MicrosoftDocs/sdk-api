@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmNetEventSubscriptionsGet0
 title: FwpmNetEventSubscriptionsGet0 function (fwpmu.h)
 description: Retrieves an array of all the current net event notification subscriptions.
+helpviewer_keywords: ["FwpmNetEventSubscriptionsGet0","FwpmNetEventSubscriptionsGet0 function [Filtering]","fwp.fwpmneteventsubscriptionsget0","fwpmu/FwpmNetEventSubscriptionsGet0"]
 old-location: fwp\fwpmneteventsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: 08a5378d-b9f7-45d9-b63c-fabcd94b717c
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param entries [out]
 
-Type: [FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)a>***</b>
+Type: [FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)***</b>
 
 The current net event notification subscriptions.
 
@@ -147,7 +148,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-[FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)a>
+[FWPM_NET_EVENT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0)
  
 
  

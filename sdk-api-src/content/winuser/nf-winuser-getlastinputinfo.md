@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetLastInputInfo
 title: GetLastInputInfo function (winuser.h)
-description: Retrieves the time of the last input event.
+description: Retrieves the time of the last input event.helpviewer_keywords: ["GetLastInputInfo","GetLastInputInfo function [Keyboard and Mouse Input]","_win32_GetLastInputInfo","_win32_getlastinputinfo_cpp","inputdev.getlastinputinfo","winui._win32_getlastinputinfo","winuser/GetLastInputInfo"]
 old-location: inputdev\getlastinputinfo.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getlastinputinfo.htm

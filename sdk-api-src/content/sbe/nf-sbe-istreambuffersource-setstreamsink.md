@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.IStreamBufferSource.SetStreamSink
 title: IStreamBufferSource::SetStreamSink (sbe.h)
-description: The SetStreamSink method sets a pointer to the Stream Buffer Sink filter, so that the Stream Buffer Source filter can stream data from the sink filter.
+description: The SetStreamSink method sets a pointer to the Stream Buffer Sink filter, so that the Stream Buffer Source filter can stream data from the sink filter.helpviewer_keywords: ["IStreamBufferSource interface [Microsoft TV Technologies]","SetStreamSink method","IStreamBufferSource.SetStreamSink","IStreamBufferSource::SetStreamSink","IStreamBufferSourceSetStreamSink","SetStreamSink","SetStreamSink method [Microsoft TV Technologies]","SetStreamSink method [Microsoft TV Technologies]","IStreamBufferSource interface","mstv.istreambuffersource_setstreamsink","sbe/IStreamBufferSource::SetStreamSink"]
 old-location: mstv\istreambuffersource_setstreamsink.htm
 tech.root: mstv
 ms.assetid: 9cc53fb6-a652-43fa-a962-9bd3c67b5664

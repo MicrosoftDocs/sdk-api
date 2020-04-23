@@ -2,6 +2,7 @@
 UID: NI:winioctl.FSCTL_SET_INTEGRITY_INFORMATION
 title: FSCTL_SET_INTEGRITY_INFORMATION
 description: Retrieves the integrity status of a file or directory on a ReFS volume.
+helpviewer_keywords: ["FSCTL_SET_INTEGRITY_INFORMATION","FSCTL_SET_INTEGRITY_INFORMATION control","FSCTL_SET_INTEGRITY_INFORMATION control code [Files]","fs.fsctl_set_integrity_information","winioctl/FSCTL_SET_INTEGRITY_INFORMATION"]
 old-location: fs\fsctl_set_integrity_information.htm
 tech.root: FileIO
 ms.assetid: bd5be96d-6fdc-4fad-9d01-81b913a5b653
@@ -175,7 +176,7 @@ Writes to integrity streams are always cluster-sized. Reads from integrity strea
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

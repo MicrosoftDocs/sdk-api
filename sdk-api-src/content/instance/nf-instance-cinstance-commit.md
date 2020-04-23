@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.Commit
 title: CInstance::Commit (instance.h)
-description: The Commit method returns the current instance to WMI.
+description: The Commit method returns the current instance to WMI.helpviewer_keywords: ["?Commit@CInstance@@QAEJXZ","?Commit@CInstance@@QEAAJXZ","CInstance interface [Windows Management Instrumentation]","Commit method","CInstance.Commit","CInstance::Commit","Commit","Commit method [Windows Management Instrumentation]","Commit method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_commit","instance/CInstance::Commit","wmi.cinstance_commit"]
 old-location: wmi\cinstance_commit.htm
 tech.root: WmiSdk
 ms.assetid: 699dadf9-18b5-4c6d-a5c4-59ea8a85f089

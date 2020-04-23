@@ -1,7 +1,7 @@
 ---
 UID: NE:http._HTTP_ENABLED_STATE
 title: HTTP_ENABLED_STATE (http.h)
-description: Defines the state of a request queue, server session, or URL Group.
+description: Defines the state of a request queue, server session, or URL Group.helpviewer_keywords: ["*PHTTP_ENABLED_STATE","*PHTTP_ENABLED_STATE enumeration [HTTP]","HTTP_ENABLED_STATE","HTTP_ENABLED_STATE enumeration [HTTP]","HttpEnabledStateActive","HttpEnabledStateInactive","http.http_enabled_state","http/*PHTTP_ENABLED_STATE","http/HTTP_ENABLED_STATE","http/HttpEnabledStateActive","http/HttpEnabledStateInactive"]
 old-location: http\http_enabled_state.htm
 tech.root: http
 ms.assetid: 15e27788-2d1a-4818-b31f-2faf649e15b2

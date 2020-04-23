@@ -2,6 +2,7 @@
 UID: NF:gpedit.BrowseForGPO
 title: BrowseForGPO function (gpedit.h)
 description: The BrowseForGPO function creates a GPO browser dialog box that allows the user to open or create a GPO.
+helpviewer_keywords: ["BrowseForGPO","BrowseForGPO function [Group Policy]","_win32_browseforgpo","gpedit/BrowseForGPO","policy.browseforgpo"]
 old-location: policy\browseforgpo.htm
 tech.root: Policy
 ms.assetid: ff144ae4-fc8c-499e-9086-75625b86693c
@@ -61,7 +62,7 @@ The
 ### -param lpBrowseInfo [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/gpedit/ns-gpedit-gpobrowseinfo">GPOBROWSEINFO</a> structure that contains information used to initialize the dialog box. When 
+<a href="/windows/win32/api/gpedit/ns-gpedit-gpobrowseinfo">GPOBROWSEINFO</a> structure that contains information used to initialize the dialog box. When 
 the <b>BrowseForGPO</b> function returns, this structure contains information about the user's actions.
 
 
@@ -79,7 +80,7 @@ If the function succeeds, the return value is <b>S_OK</b>. If the user cancels o
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/gpedit/ns-gpedit-gpobrowseinfo">GPOBROWSEINFO</a>
+<a href="/windows/win32/api/gpedit/ns-gpedit-gpobrowseinfo">GPOBROWSEINFO</a>
 
 
 

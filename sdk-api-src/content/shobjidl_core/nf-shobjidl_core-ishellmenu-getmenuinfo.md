@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetMenuInfo
 title: IShellMenu::GetMenuInfo (shobjidl_core.h)
-description: Gets information from the IShellMenu::Initialize method.
+description: Gets information from the IShellMenu::Initialize method.helpviewer_keywords: ["GetMenuInfo","GetMenuInfo method [Windows Shell]","GetMenuInfo method [Windows Shell]","IShellMenu interface","IShellMenu interface [Windows Shell]","GetMenuInfo method","IShellMenu.GetMenuInfo","IShellMenu::GetMenuInfo","_shell_IShellMenu_GetMenuInfo","shell.IShellMenu_GetMenuInfo","shobjidl_core/IShellMenu::GetMenuInfo"]
 old-location: shell\IShellMenu_GetMenuInfo.htm
 tech.root: shell
 ms.assetid: 979d43ce-d8e6-444f-8082-49b52c0ad2ef

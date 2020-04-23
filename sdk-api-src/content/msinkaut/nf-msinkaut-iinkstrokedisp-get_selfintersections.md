@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_SelfIntersections
 title: IInkStrokeDisp::get_SelfIntersections (msinkaut.h)
-description: Gets the self-intersections of the stroke.
+description: Gets the self-intersections of the stroke.helpviewer_keywords: ["IInkStrokeDisp interface [Tablet PC]","SelfIntersections property","IInkStrokeDisp.SelfIntersections","IInkStrokeDisp.get_SelfIntersections","IInkStrokeDisp::SelfIntersections","IInkStrokeDisp::get_SelfIntersections","SelfIntersections property [Tablet PC]","SelfIntersections property [Tablet PC]","IInkStrokeDisp interface","d3b97071-d0bd-4910-93a4-409241e427eb","get_SelfIntersections","msinkaut/IInkStrokeDisp::SelfIntersections","msinkaut/IInkStrokeDisp::get_SelfIntersections","tablet.iinkstrokedisp_selfintersections"]
 old-location: tablet\iinkstrokedisp_selfintersections.htm
 tech.root: tablet
 ms.assetid: d3b97071-d0bd-4910-93a4-409241e427eb

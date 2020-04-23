@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbFrequencyListDescriptor
 title: IDvbFrequencyListDescriptor (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDvbFrequencyListDescriptor","IDvbFrequencyListDescriptor interface [Microsoft TV Technologies]","IDvbFrequencyListDescriptor interface [Microsoft TV Technologies]","described","IDvbFrequencyListDescriptorInterface","dvbsiparser/IDvbFrequencyListDescriptor","mstv.idvbfrequencylistdescriptor"]
 old-location: mstv\idvbfrequencylistdescriptor.htm
 tech.root: mstv
 ms.assetid: fadf7114-b9e4-4f61-816b-10725b83169a

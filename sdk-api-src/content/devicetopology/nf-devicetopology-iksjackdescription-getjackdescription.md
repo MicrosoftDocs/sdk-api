@@ -67,7 +67,7 @@ The jack index. If the connection consists of <i>n</i> jacks, the jacks are numb
 
 ### -param pDescription [out]
 
-Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a> that contains information about the jack. The buffer size must be at least sizeof(KSJACK_DESCRIPTION).
+Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a> that contains information about the jack. The buffer size must be at least sizeof(KSJACK_DESCRIPTION).
 
 
 ## -returns
@@ -121,7 +121,7 @@ When a user needs to plug an audio endpoint device into a jack or unplug it from
 <li>The type of physical connector used for the jack.</li>
 <li>The mapping of channels to the jack.</li>
 </ul>
-For more information, see <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a>.
+For more information, see <a href="/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a>.
 
 
 
@@ -139,7 +139,7 @@ For more information, see <a href="https://docs.microsoft.com/windows/win32/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a>
+<a href="/windows/win32/api/devicetopology/ns-devicetopology-ksjack_description">KSJACK_DESCRIPTION</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetPropertyStore
 title: IShellItemArray::GetPropertyStore (shobjidl_core.h)
-description: Gets a property store.
+description: Gets a property store.helpviewer_keywords: ["GetPropertyStore","GetPropertyStore method [Windows Shell]","GetPropertyStore method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetPropertyStore method","IShellItemArray.GetPropertyStore","IShellItemArray::GetPropertyStore","_shell_IShellItemArray_GetPropertyStore","shell.IShellItemArray_GetPropertyStore","shobjidl_core/IShellItemArray::GetPropertyStore"]
 old-location: shell\IShellItemArray_GetPropertyStore.htm
 tech.root: shell
 ms.assetid: 138a604f-e8dd-48ee-9678-a0530c1a16f2

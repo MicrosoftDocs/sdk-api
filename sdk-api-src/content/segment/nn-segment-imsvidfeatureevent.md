@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidFeatureEvent
 title: IMSVidFeatureEvent (segment.h)
-description: The IMSVidFeatureEvent interface is the base interface for events from Video Control feature objects.
+description: The IMSVidFeatureEvent interface is the base interface for events from Video Control feature objects.helpviewer_keywords: ["IMSVidFeatureEvent","IMSVidFeatureEvent interface [Microsoft TV Technologies]","IMSVidFeatureEvent interface [Microsoft TV Technologies]","described","IMSVidFeatureEventInterface","mstv.imsvidfeatureevent","segment/IMSVidFeatureEvent"]
 old-location: mstv\imsvidfeatureevent.htm
 tech.root: mstv
 ms.assetid: 821a5524-5811-417b-9604-0883315080eb

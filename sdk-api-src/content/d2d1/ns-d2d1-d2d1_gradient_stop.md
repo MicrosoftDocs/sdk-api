@@ -2,6 +2,7 @@
 UID: NS:d2d1.D2D1_GRADIENT_STOP
 title: D2D1_GRADIENT_STOP (d2d1.h)
 description: Contains the position and color of a gradient stop.
+helpviewer_keywords: ["D2D1_GRADIENT_STOP","D2D1_GRADIENT_STOP structure [Direct2D]","d2d1/D2D1_GRADIENT_STOP","direct2d.D2D1_GRADIENT_STOP"]
 old-location: direct2d\D2D1_GRADIENT_STOP.htm
 tech.root: Direct2D
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
@@ -147,7 +148,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">CreateGradientStopCollection</a>
 
 
 

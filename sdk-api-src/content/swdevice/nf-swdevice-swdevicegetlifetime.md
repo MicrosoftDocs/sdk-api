@@ -1,7 +1,7 @@
 ---
 UID: NF:swdevice.SwDeviceGetLifetime
 title: SwDeviceGetLifetime function (swdevice.h)
-description: Gets the lifetime of a software device.
+description: Gets the lifetime of a software device.helpviewer_keywords: ["SWDeviceLifetimeHandle","SWDeviceLifetimeParentPresent","SwDeviceGetLifetime","SwDeviceGetLifetime function","swdevice.swdevicegetlifetime","swdevice/SwDeviceGetLifetime"]
 old-location: swdevice\swdevicegetlifetime.htm
 tech.root: swdevice
 ms.assetid: 62DF53E6-30C5-41D1-867A-9A5D288AADC7

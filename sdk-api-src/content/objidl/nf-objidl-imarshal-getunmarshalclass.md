@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMarshal.GetUnmarshalClass
 title: IMarshal::GetUnmarshalClass (objidl.h)
-description: Retrieves the CLSID of the unmarshaling code.
+description: Retrieves the CLSID of the unmarshaling code.helpviewer_keywords: ["GetUnmarshalClass","GetUnmarshalClass method [COM]","GetUnmarshalClass method [COM]","IMarshal interface","IMarshal interface [COM]","GetUnmarshalClass method","IMarshal.GetUnmarshalClass","IMarshal::GetUnmarshalClass","_com_imarshal_getunmarshalclass","com.imarshal_getunmarshalclass","objidl/IMarshal::GetUnmarshalClass"]
 old-location: com\imarshal_getunmarshalclass.htm
 tech.root: com
 ms.assetid: 900a0f19-dcd5-4135-bab8-c191ec7e95e4

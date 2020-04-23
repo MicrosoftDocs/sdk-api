@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessor
 title: ID3D11VideoProcessor (d3d11.h)
-description: Represents a video processor for Microsoft Direct3D 11.
+description: Represents a video processor for Microsoft Direct3D 11.helpviewer_keywords: ["ID3D11VideoProcessor","ID3D11VideoProcessor interface [Media Foundation]","ID3D11VideoProcessor interface [Media Foundation]","described","d3d11/ID3D11VideoProcessor","mf.id3d11videoprocessor"]
 old-location: mf\id3d11videoprocessor.htm
 tech.root: medfound
 ms.assetid: AF6F6781-A7F9-4196-8E91-FDFDD1924E24

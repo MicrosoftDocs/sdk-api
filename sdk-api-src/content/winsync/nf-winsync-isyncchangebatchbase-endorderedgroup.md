@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.EndOrderedGroup
 title: ISyncChangeBatchBase::EndOrderedGroup (winsync.h)
-description: Closes a previously opened ordered group in the change batch.
+description: Closes a previously opened ordered group in the change batch.helpviewer_keywords: ["EndOrderedGroup","EndOrderedGroup method [Windows Sync]","EndOrderedGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","EndOrderedGroup method","ISyncChangeBatchBase.EndOrderedGroup","ISyncChangeBatchBase::EndOrderedGroup","winsync.isyncchangebatchbase_endorderedgroup","winsync/ISyncChangeBatchBase::EndOrderedGroup"]
 old-location: winsync\isyncchangebatchbase_endorderedgroup.htm
 tech.root: winsync
 ms.assetid: d53ef88e-0d1f-4328-988c-c759391ca28c

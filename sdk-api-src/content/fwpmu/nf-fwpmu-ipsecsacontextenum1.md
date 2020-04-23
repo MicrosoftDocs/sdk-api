@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextEnum1
 title: IPsecSaContextEnum1 function (fwpmu.h)
 description: Returns the next page of results from the IPsec security association (SA) context enumerator.
+helpviewer_keywords: ["IPsecSaContextEnum1","IPsecSaContextEnum1 function [Filtering]","fwp.ipsecsacontextenum1","fwpmu/IPsecSaContextEnum1"]
 old-location: fwp\ipsecsacontextenum1.htm
 tech.root: fwp
 ms.assetid: 941db3ea-8b3c-47fd-9264-3e76a3d13e87
@@ -80,7 +81,7 @@ Number of SA contexts requested.
 
 ### -param entries [out]
 
-Type: [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>***</b>
+Type: [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)***</b>
 
 Addresses of the enumeration entries.
 
@@ -161,7 +162,7 @@ The returned array of entries (but not the individual entries themselves) must b
 
 
 
-[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>
+[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:webservices.WsCreateXmlSecurityToken
 title: WsCreateXmlSecurityToken function (webservices.h)
 description: Creates a security token from its specified XML form.
+helpviewer_keywords: ["WsCreateXmlSecurityToken","WsCreateXmlSecurityToken function [Web Services for Windows]","webservices/WsCreateXmlSecurityToken","wsw.wscreatexmlsecuritytoken"]
 old-location: wsw\wscreatexmlsecuritytoken.htm
 tech.root: wsw
 ms.assetid: 1d82c6c3-2bcf-4883-aed7-1a163bbb2228
@@ -94,7 +95,7 @@ message as carrying the claims present in the certificate.
 
 ### -param properties
 
-An array of  <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
+An array of  <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
@@ -113,7 +114,7 @@ On   success, a pointer that receives the address of the  <a href="https://docs.
                 When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
                 
 
-The returned security token may be used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+The returned security token may be used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 
 presented to a service.
 

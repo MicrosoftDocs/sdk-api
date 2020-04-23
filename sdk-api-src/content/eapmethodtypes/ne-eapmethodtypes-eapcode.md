@@ -1,7 +1,7 @@
 ---
 UID: NE:eapmethodtypes.tagEapCode
 title: EapCode (eapmethodtypes.h)
-description: Defines the set of EAP packet types.
+description: Defines the set of EAP packet types.helpviewer_keywords: ["EapCode","EapCode enumeration [EAPHost]","EapCodeFailure","EapCodeMaximum","EapCodeMinimum","EapCodeRequest","EapCodeResponse","EapCodeSuccess","eaphost.eapcode","eapmethodtypes/EapCode","eapmethodtypes/EapCodeFailure","eapmethodtypes/EapCodeMaximum","eapmethodtypes/EapCodeMinimum","eapmethodtypes/EapCodeRequest","eapmethodtypes/EapCodeResponse","eapmethodtypes/EapCodeSuccess"]
 old-location: eaphost\eapcode.htm
 tech.root: eaphost
 ms.assetid: 19d424a1-91d6-4ebd-acb8-912b4900a4cd

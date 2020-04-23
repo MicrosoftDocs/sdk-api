@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_CREATE_OR_GET_OBJECT_ID
 title: FSCTL_CREATE_OR_GET_OBJECT_ID
-description: Retrieves the object identifier for the specified file or directory. If no object identifier exists, using FSCTL_CREATE_OR_GET_OBJECT_ID creates one.
+description: Retrieves the object identifier for the specified file or directory. If no object identifier exists, using FSCTL_CREATE_OR_GET_OBJECT_ID creates one.helpviewer_keywords: ["FSCTL_CREATE_OR_GET_OBJECT_ID","FSCTL_CREATE_OR_GET_OBJECT_ID control","FSCTL_CREATE_OR_GET_OBJECT_ID control code [Files]","_win32_fsctl_create_or_get_object_id","base.fsctl_create_or_get_object_id","fs.fsctl_create_or_get_object_id","winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID"]
 old-location: fs\fsctl_create_or_get_object_id.htm
 tech.root: FileIO
 ms.assetid: 78a2dfa0-a095-4ca3-bfbb-4535086dee4a

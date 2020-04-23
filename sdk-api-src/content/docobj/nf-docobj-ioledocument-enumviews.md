@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocument.EnumViews
 title: IOleDocument::EnumViews (docobj.h)
-description: Creates an object that enumerates the views supported by a document object, or if only one view is supported, returns a pointer to that view.
+description: Creates an object that enumerates the views supported by a document object, or if only one view is supported, returns a pointer to that view.helpviewer_keywords: ["EnumViews","EnumViews method [COM]","EnumViews method [COM]","IOleDocument interface","IOleDocument interface [COM]","EnumViews method","IOleDocument.EnumViews","IOleDocument::EnumViews","_ole_ioledocument_enumviews","com.ioledocument_enumviews","docobj/IOleDocument::EnumViews"]
 old-location: com\ioledocument_enumviews.htm
 tech.root: com
 ms.assetid: ca186853-0792-4a34-b718-46927a73e670

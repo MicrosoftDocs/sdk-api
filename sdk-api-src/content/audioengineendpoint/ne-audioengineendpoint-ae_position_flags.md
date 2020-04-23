@@ -1,7 +1,7 @@
 ---
 UID: NE:audioengineendpoint.AE_POSITION_FLAGS
 title: AE_POSITION_FLAGS (audioengineendpoint.h)
-description: Defines constants for the AE_CURRENT_POSITION structure. These constants describe the degree of validity of the current position.
+description: Defines constants for the AE_CURRENT_POSITION structure. These constants describe the degree of validity of the current position.helpviewer_keywords: ["AE_POSITION_FLAGS","AE_POSITION_FLAGS enumeration [Remote Desktop Services]","POSITION_CONTINUOUS","POSITION_DISCONTINUOUS","POSITION_INVALID","POSITION_QPC_ERROR","audioengineendpoint/AE_POSITION_FLAGS","audioengineendpoint/POSITION_CONTINUOUS","audioengineendpoint/POSITION_DISCONTINUOUS","audioengineendpoint/POSITION_INVALID","audioengineendpoint/POSITION_QPC_ERROR","termserv.ae_position_flags"]
 old-location: termserv\ae_position_flags.htm
 tech.root: TermServ
 ms.assetid: 09edc9ae-923c-4f57-9479-c0331588dd92

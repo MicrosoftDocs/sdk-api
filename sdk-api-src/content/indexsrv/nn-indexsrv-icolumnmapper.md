@@ -1,7 +1,7 @@
 ---
 UID: NN:indexsrv.IColumnMapper
 title: IColumnMapper (indexsrv.h)
-description: Retrieves property information for file based queries.
+description: Retrieves property information for file based queries.helpviewer_keywords: ["IColumnMapper","IColumnMapper interface [search]","IColumnMapper interface [search]","described","indexsrv/IColumnMapper","search.icolumnmapper"]
 old-location: search\icolumnmapper.htm
 tech.root: search
 ms.assetid: CBC7EE6C-299D-4B9D-839A-0A2755CA8112

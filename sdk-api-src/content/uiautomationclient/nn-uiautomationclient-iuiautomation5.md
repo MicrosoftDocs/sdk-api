@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation5
 title: IUIAutomation5 (uiautomationclient.h)
-description: Extends the IUIAutomation4 interface to expose additional methods for controlling Microsoft UI Automation functionality.
+description: Extends the IUIAutomation4 interface to expose additional methods for controlling Microsoft UI Automation functionality.helpviewer_keywords: ["IUIAutomation5","IUIAutomation5 interface [Windows Accessibility]","IUIAutomation5 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomation5","winauto.uiauto_IUIAutomation5"]
 old-location: winauto\uiauto_IUIAutomation5.htm
 tech.root: WinAuto
 ms.assetid: BCF67DB0-DF5B-4CED-9C32-01F126494129

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftStart
 title: ITfComposition::ShiftStart (msctf.h)
-description: ITfComposition::ShiftStart method
+description: ITfComposition::ShiftStart methodhelpviewer_keywords: ["ITfComposition interface [Text Services Framework]","ShiftStart method","ITfComposition.ShiftStart","ITfComposition::ShiftStart","ShiftStart","ShiftStart method [Text Services Framework]","ShiftStart method [Text Services Framework]","ITfComposition interface","_tsf_itfcomposition_shiftstart_ref","msctf/ITfComposition::ShiftStart","tsf.itfcomposition_shiftstart"]
 old-location: tsf\itfcomposition_shiftstart.htm
 tech.root: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697

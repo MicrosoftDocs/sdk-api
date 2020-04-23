@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSample.GetPointer
 title: IMediaSample::GetPointer (strmif.h)
-description: The GetPointer method retrieves a read/write pointer to the media sample's buffer.
+description: The GetPointer method retrieves a read/write pointer to the media sample's buffer.helpviewer_keywords: ["GetPointer","GetPointer method [DirectShow]","GetPointer method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetPointer method","IMediaSample.GetPointer","IMediaSample::GetPointer","IMediaSampleGetPointer","dshow.imediasample_getpointer","strmif/IMediaSample::GetPointer"]
 old-location: dshow\imediasample_getpointer.htm
 tech.root: DirectShow
 ms.assetid: a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156

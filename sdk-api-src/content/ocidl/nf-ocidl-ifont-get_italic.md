@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IFont.get_Italic
 title: IFont::get_Italic (ocidl.h)
-description: Gets the font's current Italic property.
+description: Gets the font's current Italic property.helpviewer_keywords: ["IFont interface [COM]","get_Italic method","IFont.get_Italic","IFont::get_Italic","_ctrl_ifont_get_italic","com.ifont_get_italic","get_Italic","get_Italic method [COM]","get_Italic method [COM]","IFont interface","ocidl/IFont::get_Italic"]
 old-location: com\ifont_get_italic.htm
 tech.root: com
 ms.assetid: d56c21d6-1296-4c0c-a13e-8e4b3164e747

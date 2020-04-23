@@ -1,7 +1,7 @@
 ---
 UID: NF:sensevts.ISensOnNow.BatteryLow
 title: ISensOnNow::BatteryLow (sensevts.h)
-description: The BatteryLow method notifies an application that battery power is low. SENS calls the BatteryLow method to notify an application that a computer is using battery power.
+description: The BatteryLow method notifies an application that battery power is low. SENS calls the BatteryLow method to notify an application that a computer is using battery power.helpviewer_keywords: ["BatteryLow","BatteryLow method [SENS]","BatteryLow method [SENS]","ISensOnNow interface","ISensOnNow interface [SENS]","BatteryLow method","ISensOnNow.BatteryLow","ISensOnNow::BatteryLow","_zaw_isensonnow_batterylow","sens.isensonnow_batterylow","sensevts/ISensOnNow::BatteryLow","syncmgr.isensonnow_batterylow"]
 old-location: sens\isensonnow_batterylow.htm
 tech.root: Sens
 ms.assetid: 78b305ef-761b-48b8-8f1b-371a75df4edb

@@ -1,7 +1,7 @@
 ---
 UID: NF:mdmregistration.GetDeviceRegistrationInfo
 title: GetDeviceRegistrationInfo function (mdmregistration.h)
-description: Retrieves the device registration information.
+description: Retrieves the device registration information.helpviewer_keywords: ["GetDeviceRegistrationInfo","GetDeviceRegistrationInfo function [MDM Registration]","mdmreg.getdeviceregistrationinfo","mdmregistration/GetDeviceRegistrationInfo"]
 old-location: mdmreg\getdeviceregistrationinfo.htm
 tech.root: MDMReg
 ms.assetid: 7FA2F81C-6714-42D8-880E-FD5A27A0F80A

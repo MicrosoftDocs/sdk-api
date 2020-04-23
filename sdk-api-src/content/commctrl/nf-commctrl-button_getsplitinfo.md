@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Button_GetSplitInfo
 title: Button_GetSplitInfo macro (commctrl.h)
-description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.
+description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.helpviewer_keywords: ["Button_GetSplitInfo","Button_GetSplitInfo macro [Windows Controls]","_shell_Button_GetSplitInfo","_shell_Button_GetSplitInfo_cpp","commctrl/Button_GetSplitInfo","controls.Button_GetSplitInfo","controls._shell_Button_GetSplitInfo"]
 old-location: controls\Button_GetSplitInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getsplitinfo.htm

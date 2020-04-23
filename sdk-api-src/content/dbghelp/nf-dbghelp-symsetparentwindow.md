@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymSetParentWindow
 title: SymSetParentWindow function (dbghelp.h)
-description: Sets the window that the caller will use to display a user interface.
+description: Sets the window that the caller will use to display a user interface.helpviewer_keywords: ["SymSetParentWindow","SymSetParentWindow function","_win32_symsetparentwindow","base.symsetparentwindow","dbghelp/SymSetParentWindow"]
 old-location: base\symsetparentwindow.htm
 tech.root: Debug
 ms.assetid: 6c4532cd-695c-45a0-b8ea-3aed47308db1

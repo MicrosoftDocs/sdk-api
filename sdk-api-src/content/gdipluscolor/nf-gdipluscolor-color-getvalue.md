@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluscolor.Color.GetValue
 title: Color::GetValue (gdipluscolor.h)
-description: The Color::GetValue method gets the ARGB value of this Color object.
+description: The Color::GetValue method gets the ARGB value of this Color object.helpviewer_keywords: ["Color class [GDI+]","GetValue method","Color.GetValue","Color::GetValue","GetValue","GetValue method [GDI+]","GetValue method [GDI+]","Color class","_gdiplus_CLASS_Color_GetValue_","gdiplus._gdiplus_CLASS_Color_GetValue_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_GetValue_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getvalue.htm

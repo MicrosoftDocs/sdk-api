@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryUserBlobFromCredentialInputFields
 title: EapHostPeerQueryUserBlobFromCredentialInputFields function (eaphostpeerconfigapis.h)
 description: Obtains a credential BLOB that can be used to start authentication from user input received from the Single-Sign-On (SSO) UI.
+helpviewer_keywords: ["EapHostPeerQueryUserBlobFromCredentialInputFields","EapHostPeerQueryUserBlobFromCredentialInputFields function [EAPHost]","eaphost.eaphostpeerqueryuserblobfromcredentialinputfields","eaphostpeerconfigapis/EapHostPeerQueryUserBlobFromCredentialInputFields"]
 old-location: eaphost\eaphostpeerqueryuserblobfromcredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: bd4fafce-7ece-4cdc-9307-4d41538a4f49
@@ -70,7 +71,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwEapConnDataSize [in]
@@ -121,11 +122,11 @@ After <b>EapHostPeerQueryUserBlobFromCredentialInputFields</b>, EAPHost calls <a
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

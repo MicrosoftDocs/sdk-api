@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetCenter
 title: IXpsOMRadialGradientBrush::SetCenter (xpsobjectmodel.h)
 description: Sets the center point of the radial gradient region ellipse.
+helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetCenter method","IXpsOMRadialGradientBrush.SetCenter","IXpsOMRadialGradientBrush::SetCenter","SetCenter","SetCenter method [XPS Documents and Packaging]","SetCenter method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setcenter","xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter"]
 old-location: xps\ixpsomradialgradientbrush_setcenter.htm
 tech.root: printdocs
 ms.assetid: 7f1fd304-8495-40b3-b11f-7af9924150eb
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point described by <i>center</i> is not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point described by <i>center</i> is not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -141,7 +142,7 @@ The following illustration shows the parts of a radial gradient. <i>center</i> s
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

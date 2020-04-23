@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.EndInkInput
 title: EndInkInput function (recapis.h)
-description: Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.
+description: Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.helpviewer_keywords: ["EndInkInput","EndInkInput function [Tablet PC]","e8aa252d-6b24-4864-9b3e-8edd30895303","recapis/EndInkInput","tablet.endinkinput"]
 old-location: tablet\endinkinput.htm
 tech.root: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303

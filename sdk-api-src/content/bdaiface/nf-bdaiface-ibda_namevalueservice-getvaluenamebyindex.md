@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.GetValueNameByIndex
 title: IBDA_NameValueService::GetValueNameByIndex (bdaiface.h)
-description: Gets a name, specified by index, from the device's list of name/value pairs.
+description: Gets a name, specified by index, from the device's list of name/value pairs.helpviewer_keywords: ["GetValueNameByIndex","GetValueNameByIndex method [Microsoft TV Technologies]","GetValueNameByIndex method [Microsoft TV Technologies]","IBDA_NameValueService interface","IBDA_NameValueService interface [Microsoft TV Technologies]","GetValueNameByIndex method","IBDA_NameValueService.GetValueNameByIndex","IBDA_NameValueService::GetValueNameByIndex","bdaiface/IBDA_NameValueService::GetValueNameByIndex","mstv.ibda_namevalueservice_getvaluenamebyindex"]
 old-location: mstv\ibda_namevalueservice_getvaluenamebyindex.htm
 tech.root: mstv
 ms.assetid: 4a860535-db03-4db7-912c-16b7e920151a

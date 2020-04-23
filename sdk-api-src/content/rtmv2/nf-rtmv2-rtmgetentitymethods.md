@@ -2,6 +2,7 @@
 UID: NF:rtmv2.RtmGetEntityMethods
 title: RtmGetEntityMethods function (rtmv2.h)
 description: The RtmGetEntityMethods function queries the specified client to determine which methods are available for another client to invoke.
+helpviewer_keywords: ["RtmGetEntityMethods","RtmGetEntityMethods function [RAS]","_rtmv2ref_rtmgetentitymethods","rras.rtmgetentitymethods","rtmv2/RtmGetEntityMethods"]
 old-location: rras\rtmgetentitymethods.htm
 tech.root: RRAS
 ms.assetid: 186f4a55-d46b-42ab-b092-dc036b011594
@@ -82,7 +83,7 @@ On output, <i>NumMethods</i> receives the number of methods exported by the clie
 ### -param ExptMethods [out]
 
 Receives a pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_entity_method">RTM_ENTITY_EXPORT_METHOD</a> structure that contains the set of method identifiers requested by the calling client.
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_entity_method">RTM_ENTITY_EXPORT_METHOD</a> structure that contains the set of method identifiers requested by the calling client.
 
 
 ## -returns

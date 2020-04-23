@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetNumberOfElements
 title: IServiceLocationDescriptor::GetNumberOfElements (atscpsipparser.h)
-description: Gets the number of elementary streams for an Advanced Television Systems Committee (ATSC) service location descriptor.
+description: Gets the number of elementary streams for an Advanced Television Systems Committee (ATSC) service location descriptor.helpviewer_keywords: ["GetNumberOfElements","GetNumberOfElements method [Microsoft TV Technologies]","GetNumberOfElements method [Microsoft TV Technologies]","IServiceLocationDescriptor interface","IServiceLocationDescriptor interface [Microsoft TV Technologies]","GetNumberOfElements method","IServiceLocationDescriptor.GetNumberOfElements","IServiceLocationDescriptor::GetNumberOfElements","atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements","mstv.iservicelocationdescriptor_getnumberofelements"]
 old-location: mstv\iservicelocationdescriptor_getnumberofelements.htm
 tech.root: mstv
 ms.assetid: 134e4051-6a73-4420-b12d-3171738bd8ad

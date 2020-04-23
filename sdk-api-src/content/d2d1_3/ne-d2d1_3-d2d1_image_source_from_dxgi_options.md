@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS
 title: D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS (d2d1_3.h)
-description: Option flags controlling primary conversion performed by CreateImageSourceFromDxgi, if any.
+description: Option flags controlling primary conversion performed by CreateImageSourceFromDxgi, if any.helpviewer_keywords: ["D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS","D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS enumeration [Direct2D]","D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION","D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE","d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS","d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_LOW_QUALITY_PRIMARY_CONVERSION","d2d1_3/D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS_NONE","direct2d.d2d1_image_source_from_dxgi_options"]
 old-location: direct2d\d2d1_image_source_from_dxgi_options.htm
 tech.root: Direct2D
 ms.assetid: 39458E66-D924-4E7A-9B99-A7E258AFB4E5

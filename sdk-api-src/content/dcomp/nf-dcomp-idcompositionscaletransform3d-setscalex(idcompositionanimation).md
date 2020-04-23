@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleX(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation) (dcomp.h)
 description: Animates the value of the ScaleX property of a scale transform.
+helpviewer_keywords: ["IDCompositionScaleTransform3D interface [DirectComposition]","SetScaleX method","IDCompositionScaleTransform3D.SetScaleX","IDCompositionScaleTransform3D.SetScaleX(IDCompositionAnimation)","IDCompositionScaleTransform3D::SetScaleX","IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation)","IDCompositionScaleTransform3D::SetScaleX(IDCompositionAnimation*)","SetScaleX","SetScaleX method [DirectComposition]","SetScaleX method [DirectComposition]","IDCompositionScaleTransform3D interface","dcomp/IDCompositionScaleTransform3D::SetScaleX","directcomp.idcompositionscaletransform3d_setscalex_idcompositionanimation"]
 old-location: directcomp\idcompositionscaletransform3d_setscalex_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: DAA3F425-344D-4EAE-853A-D4AE2375ADDB
@@ -98,11 +99,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float)">IDCompositionScaleTransform3D::SetScaleZ</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float)">IDCompositionScaleTransform3D::SetScaleZ</a>
  
 
  

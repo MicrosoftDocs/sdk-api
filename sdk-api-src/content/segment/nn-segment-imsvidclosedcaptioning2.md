@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidClosedCaptioning2
 title: IMSVidClosedCaptioning2 (segment.h)
-description: The IMSVidClosedCaptioning2 interface sets the closed captioning service, such as CC1 or CC2. The MSVidClosedCaptioning feature exposes this interface.
+description: The IMSVidClosedCaptioning2 interface sets the closed captioning service, such as CC1 or CC2. The MSVidClosedCaptioning feature exposes this interface.helpviewer_keywords: ["IMSVidClosedCaptioning2","IMSVidClosedCaptioning2 interface [Microsoft TV Technologies]","IMSVidClosedCaptioning2 interface [Microsoft TV Technologies]","described","IMSVidClosedCaptioning2Interface","mstv.imsvidclosedcaptioning2","segment/IMSVidClosedCaptioning2"]
 old-location: mstv\imsvidclosedcaptioning2.htm
 tech.root: mstv
 ms.assetid: 37fe213a-7778-4448-937d-30ad1015d56c

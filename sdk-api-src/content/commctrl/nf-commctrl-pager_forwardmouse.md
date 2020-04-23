@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Pager_ForwardMouse
 title: Pager_ForwardMouse macro (commctrl.h)
-description: Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards WM_MOUSEMOVE messages to the contained window. You can use this macro or send the PGM_FORWARDMOUSE message explicitly.
+description: Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards WM_MOUSEMOVE messages to the contained window. You can use this macro or send the PGM_FORWARDMOUSE message explicitly.helpviewer_keywords: ["Pager_ForwardMouse","Pager_ForwardMouse macro [Windows Controls]","_win32_Pager_ForwardMouse","_win32_Pager_ForwardMouse_cpp","commctrl/Pager_ForwardMouse","controls.Pager_ForwardMouse","controls._win32_Pager_ForwardMouse"]
 old-location: controls\Pager_ForwardMouse.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_forwardmouse.htm

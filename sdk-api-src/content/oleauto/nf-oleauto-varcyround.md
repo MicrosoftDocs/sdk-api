@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyRound
 title: VarCyRound function (oleauto.h)
-description: Rounds a variant of type currency to the specified number of decimal places.
+description: Rounds a variant of type currency to the specified number of decimal places.helpviewer_keywords: ["VarCyRound","VarCyRound function [Automation]","_oa96_VarCyRound","automat.varcyround","oleauto/VarCyRound"]
 old-location: automat\varcyround.htm
 tech.root: automat
 ms.assetid: d1292247-cf8a-46cc-94c9-858ec5d8cad7

@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqRemovePeriodicCallback
 title: RtwqRemovePeriodicCallback function (rtworkq.h)
-description: Cancels a callback function that was set by the RtwqAddPeriodicCallback function.
+description: Cancels a callback function that was set by the RtwqAddPeriodicCallback function.helpviewer_keywords: ["RtwqRemovePeriodicCallback","RtwqRemovePeriodicCallback function","base.rtwqremoveperiodiccallback","rtworkq/RtwqRemovePeriodicCallback"]
 old-location: base\rtwqremoveperiodiccallback.htm
 tech.root: ProcThread
 ms.assetid: 308910e3-dae8-4f23-9782-adf2996a58aa

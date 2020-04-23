@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerGetIdentity
 title: EapHostPeerGetIdentity function (eappapis.h)
 description: This function is called by tunnel methods to request identity information from the inner methods. This function returns the identity and user credential information.
+helpviewer_keywords: ["EapHostPeerGetIdentity","EapHostPeerGetIdentity function [EAPHost]","eaphost.eaphostpeergetidentity","eappapis/EapHostPeerGetIdentity"]
 old-location: eaphost\eaphostpeergetidentity.htm
 tech.root: eaphost
 ms.assetid: 25d1b360-694d-4ab8-9be4-a79354367068
@@ -64,7 +65,7 @@ The version number of the API. Must be set to zero.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param eapMethodType [in]
@@ -132,7 +133,7 @@ Reserved for future use
 
 
 
-[EAPHost Supplicant Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-Time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntToUChar
 title: UIntToUChar function (intsafe.h)
-description: Converts a value of type UINT to a value of type UCHAR.
+description: Converts a value of type UINT to a value of type UCHAR.helpviewer_keywords: ["UIntToUChar","UIntToUChar function [Windows Shell]","_shell_UIntToUChar","intsafe/UIntToUChar","shell.UIntToUChar"]
 old-location: shell\UIntToUChar.htm
 tech.root: shell
 ms.assetid: 9308c933-a8f4-45eb-81cf-31a0b8c0e032

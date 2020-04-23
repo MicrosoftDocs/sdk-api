@@ -2,6 +2,7 @@
 UID: NF:wcmconfig.ISettingsItem.GetRestrictionFacets
 title: ISettingsItem::GetRestrictionFacets (wcmconfig.h)
 description: Gets the restrictions defined for this item.
+helpviewer_keywords: ["GetRestrictionFacets","GetRestrictionFacets method [SMI]","GetRestrictionFacets method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetRestrictionFacets method","ISettingsItem.GetRestrictionFacets","ISettingsItem::GetRestrictionFacets","smi.isettingsitem_getrestrictionfacets","wcmconfig/ISettingsItem::GetRestrictionFacets"]
 old-location: smi\isettingsitem_getrestrictionfacets.htm
 tech.root: SMI
 ms.assetid: 64cf82d5-c210-4ff2-a7c8-1a284859382e
@@ -59,7 +60,7 @@ Gets the restrictions defined for this item.
 
 ### -param RestrictionFacets [out]
 
-A bitmask of  the <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmrestrictionfacets">WcmRestrictionFacets</a> values that are defined for this item.
+A bitmask of  the <a href="/windows/win32/api/wcmconfig/ne-wcmconfig-wcmrestrictionfacets">WcmRestrictionFacets</a> values that are defined for this item.
 
 
 ## -returns

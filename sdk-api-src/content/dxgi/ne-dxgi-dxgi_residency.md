@@ -1,7 +1,7 @@
 ---
 UID: NE:dxgi.DXGI_RESIDENCY
 title: DXGI_RESIDENCY (dxgi.h)
-description: Flags indicating the memory location of a resource.
+description: Flags indicating the memory location of a resource.helpviewer_keywords: ["DXGI_RESIDENCY","DXGI_RESIDENCY enumeration [DXGI]","DXGI_RESIDENCY_EVICTED_TO_DISK","DXGI_RESIDENCY_FULLY_RESIDENT","DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY","cfa66ca7-3d9d-67f6-1665-f4254ee73606","direct3ddxgi.DXGI_RESIDENCY","dxgi/DXGI_RESIDENCY","dxgi/DXGI_RESIDENCY_EVICTED_TO_DISK","dxgi/DXGI_RESIDENCY_FULLY_RESIDENT","dxgi/DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY"]
 old-location: direct3ddxgi\DXGI_RESIDENCY.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_residency.htm

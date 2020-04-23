@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PreFree
 title: IMallocSpy::PreFree (objidl.h)
-description: Performs operations required before calling IMalloc::Free. This method ensures that the pointer passed to Free points to the beginning of the actual allocation.
+description: Performs operations required before calling IMalloc::Free. This method ensures that the pointer passed to Free points to the beginning of the actual allocation.helpviewer_keywords: ["IMallocSpy interface [COM]","PreFree method","IMallocSpy.PreFree","IMallocSpy::PreFree","PreFree","PreFree method [COM]","PreFree method [COM]","IMallocSpy interface","_com_imallocspy_prefree","com.imallocspy_prefree","objidl/IMallocSpy::PreFree"]
 old-location: com\imallocspy_prefree.htm
 tech.root: com
 ms.assetid: 528eedac-e8cc-4dc7-8287-c023ebefb72c

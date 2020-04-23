@@ -1,7 +1,7 @@
 ---
 UID: NF:evcoll.EcSaveSubscription
 title: EcSaveSubscription function (evcoll.h)
-description: Saves subscription configuration information.
+description: Saves subscription configuration information.helpviewer_keywords: ["EcSaveSubscription","EcSaveSubscription function","evcoll/EcSaveSubscription","wec.ecsavesubscription","wes.ecsavesubscription"]
 old-location: wec\ecsavesubscription.htm
 tech.root: WEC
 ms.assetid: 41702fb8-5b39-4daa-8904-aa36de18665c

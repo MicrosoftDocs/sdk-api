@@ -1,7 +1,7 @@
 ---
 UID: NE:wtypes.tagSTGMOVE
 title: STGMOVE (wtypes.h)
-description: Indicate whether a storage element is to be moved or copied.
+description: Indicate whether a storage element is to be moved or copied.helpviewer_keywords: ["STGMOVE","STGMOVE enumeration [Structured Storage]","STGMOVE_COPY","STGMOVE_MOVE","STGMOVE_SHALLOWCOPY","_stg_stgmove","stg.stgmove","wtypes/STGMOVE","wtypes/STGMOVE_COPY","wtypes/STGMOVE_MOVE","wtypes/STGMOVE_SHALLOWCOPY"]
 old-location: stg\stgmove.htm
 tech.root: Stg
 ms.assetid: f55c376b-f150-406a-b960-f096c2deeff1

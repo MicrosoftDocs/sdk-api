@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_PROP
 title: D2D1_YCBCR_PROP (d2d1effects_1.h)
-description: Identifiers for properties of the YCbCr effect.
+description: Identifiers for properties of the YCbCr effect.helpviewer_keywords: ["D2D1_YCBCR_PROP","D2D1_YCBCR_PROP enumeration [Direct2D]","D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING","D2D1_YCBCR_PROP_INTERPOLATION_MODE","D2D1_YCBCR_PROP_TRANSFORM_MATRIX","d2d1effects_1/D2D1_YCBCR_PROP","d2d1effects_1/D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING","d2d1effects_1/D2D1_YCBCR_PROP_INTERPOLATION_MODE","d2d1effects_1/D2D1_YCBCR_PROP_TRANSFORM_MATRIX","direct2d.d2d1_ycbcr_prop"]
 old-location: direct2d\d2d1_ycbcr_prop.htm
 tech.root: Direct2D
 ms.assetid: 08019B09-0254-48B3-9213-3E7362358109

@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CLASSIFY_DROP0_
 title: FWPM_NET_EVENT_CLASSIFY_DROP0 (fwpmtypes.h)
 description: Contains information that describes a layer drop failure.
+helpviewer_keywords: ["FWPM_NET_EVENT_CLASSIFY_DROP0","FWPM_NET_EVENT_CLASSIFY_DROP0 structure [Filtering]","fwp.fwpm_net_event_classify_drop0","fwpmtypes/FWPM_NET_EVENT_CLASSIFY_DROP0"]
 old-location: fwp\fwpm_net_event_classify_drop0.htm
 tech.root: fwp
 ms.assetid: 9688ff75-292f-44f2-b3ed-41a9dd1ef918
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_CLASSIFY_DROP0</b> structure contains information that describes a layer drop  failure.
-[FWPM_NET_EVENT_CLASSIFY_DROP1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1)a> is available. For Windows 8, [FWPM_NET_EVENT_CLASSIFY_DROP2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2)a> is available. </div><div> </div>
+[FWPM_NET_EVENT_CLASSIFY_DROP1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) is available. For Windows 8, [FWPM_NET_EVENT_CLASSIFY_DROP2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2) is available. </div><div> </div>
 
 ## -struct-fields
 

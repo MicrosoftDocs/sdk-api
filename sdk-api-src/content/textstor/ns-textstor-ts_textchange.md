@@ -1,7 +1,7 @@
 ---
 UID: NS:textstor.TS_TEXTCHANGE
 title: TS_TEXTCHANGE (textstor.h)
-description: The TS_TEXTCHANGE structure contains text change data.
+description: The TS_TEXTCHANGE structure contains text change data.helpviewer_keywords: ["TS_TEXTCHANGE","TS_TEXTCHANGE structure [Text Services Framework]","_tsf_ts_textchange_ref","textstor/TS_TEXTCHANGE","tsf.ts_textchange"]
 old-location: tsf\ts_textchange.htm
 tech.root: TSF
 ms.assetid: af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0

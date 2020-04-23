@@ -1,7 +1,7 @@
 ---
 UID: NN:upnphost.IUPnPRegistrar
 title: IUPnPRegistrar (upnphost.h)
-description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.
+description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.helpviewer_keywords: ["IUPnPRegistrar","IUPnPRegistrar interface [UPnP APIs]","IUPnPRegistrar interface [UPnP APIs]","described","_upnp_iupnpregistrar","upnp.iupnpregistrar","upnphost/IUPnPRegistrar"]
 old-location: upnp\iupnpregistrar.htm
 tech.root: upnp
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3

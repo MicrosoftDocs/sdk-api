@@ -2,6 +2,7 @@
 UID: NF:lmaccess.NetValidatePasswordPolicy
 title: NetValidatePasswordPolicy function (lmaccess.h)
 description: The NetValidatePasswordPolicy function allows an application to check password compliance against an application-provided account database and verify that passwords meet the complexity, aging, minimum length, and history reuse requirements of a password policy.
+helpviewer_keywords: ["NetValidateAuthentication","NetValidatePasswordChange","NetValidatePasswordPolicy","NetValidatePasswordPolicy function [Network Management]","NetValidatePasswordReset","lmaccess/NetValidatePasswordPolicy","netmgmt.netvalidatepasswordpolicy"]
 old-location: netmgmt\netvalidatepasswordpolicy.htm
 tech.root: NetMgmt
 ms.assetid: be5ce51b-6568-49c8-954d-7b0d4bcb8611
@@ -102,7 +103,7 @@ These values have the following meanings.
 </dl>
 </td>
 <td width="60%">
-The application is requesting password validation during authentication. The <i>InputArg</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a> structure. This type of validation enforces password expiration and account lockout policy.
+The application is requesting password validation during authentication. The <i>InputArg</i> parameter points to a <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a> structure. This type of validation enforces password expiration and account lockout policy.
 
 </td>
 </tr>
@@ -112,7 +113,7 @@ The application is requesting password validation during authentication. The <i>
 </dl>
 </td>
 <td width="60%">
-The application is requesting password validation during a password change operation. The <i>InputArg</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structure.
+The application is requesting password validation during a password change operation. The <i>InputArg</i> parameter points to a <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structure.
 
 </td>
 </tr>
@@ -122,7 +123,7 @@ The application is requesting password validation during a password change opera
 </dl>
 </td>
 <td width="60%">
-The application is requesting password validation during a password reset operation. The <i>InputArg</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> structure. You can also reset the "lockout state" of a user account by specifying this structure.
+The application is requesting password validation during a password reset operation. The <i>InputArg</i> parameter points to a <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> structure. You can also reset the "lockout state" of a user account by specifying this structure.
 
 </td>
 </tr>
@@ -218,7 +219,7 @@ If the return code of the <b>NetValidatePasswordPolicy</b> function is <b>Nerr_S
 
 Note that it is the application's responsibility to save all the data in the <b>ChangedPersistedFields</b> member of the <b>NET_VALIDATE_OUTPUT_ARG</b> structure as well as any User object information. The next time the application calls <b>NetValidatePasswordPolicy</b> on the same instance of the User object, the application must provide the required fields from the persistent information.
 
-When you call <b>NetValidatePasswordPolicy</b> and specify <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> or <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> in <i>InputArg</i> parameter, the call also validates the password by passing it through the password filter DLL that the computer is configured to use. For more information about password filters, see <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/using-password-filters">Using Password Filters</a>.
+When you call <b>NetValidatePasswordPolicy</b> and specify <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> or <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> in <i>InputArg</i> parameter, the call also validates the password by passing it through the password filter DLL that the computer is configured to use. For more information about password filters, see <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/using-password-filters">Using Password Filters</a>.
 
 If the return value from the <b>NetValidatePasswordPolicy</b> function is nonzero then <i>OutputArg</i> parameter  is set to <b>NULL</b> and password policy
         could not be examined.
@@ -237,7 +238,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>
+<a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>
 
 
 
@@ -245,11 +246,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>
+<a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>
+<a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>
 
 
 

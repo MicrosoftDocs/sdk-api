@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.GetWCHAR
 title: CInstance::GetWCHAR (instance.h)
-description: The GetWCHAR method retrieves a WCHAR string property.
+description: The GetWCHAR method retrieves a WCHAR string property.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetWCHAR method","CInstance.GetWCHAR","CInstance::GetWCHAR","GetWCHAR","GetWCHAR method [Windows Management Instrumentation]","GetWCHAR method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getwchar","instance/CInstance::GetWCHAR","wmi.cinstance_getwchar"]
 old-location: wmi\cinstance_getwchar.htm
 tech.root: WmiSdk
 ms.assetid: 1c2f3dfc-aa84-4dff-a25b-b8f2ec3afa74

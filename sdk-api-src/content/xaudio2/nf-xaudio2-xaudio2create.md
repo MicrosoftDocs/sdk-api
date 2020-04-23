@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.XAudio2Create
 title: XAudio2Create function (xaudio2.h)
-description: Creates a new XAudio2 object and returns a pointer to its IXAudio2 interface.
+description: Creates a new XAudio2 object and returns a pointer to its IXAudio2 interface.helpviewer_keywords: ["XAudio2Create","XAudio2Create function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2create","xaudio2/XAudio2Create"]
 old-location: xaudio2\xaudio2create.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2Create(IXAudio2@,UINT32,XAUDIO2_PROCESSOR)

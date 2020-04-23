@@ -2,6 +2,7 @@
 UID: NF:tsgpolicyengine.ITSGAccountingEngine.DoAccounting
 title: ITSGAccountingEngine::DoAccounting (tsgpolicyengine.h)
 description: Provides information about the creation or closing of sessions for a connection.
+helpviewer_keywords: ["DoAccounting","DoAccounting method [Remote Desktop Services]","DoAccounting method [Remote Desktop Services]","ITSGAccountingEngine interface","ITSGAccountingEngine interface [Remote Desktop Services]","DoAccounting method","ITSGAccountingEngine.DoAccounting","ITSGAccountingEngine::DoAccounting","termserv.itsgaccountingengine_doaccounting","tsgpolicyengine/ITSGAccountingEngine::DoAccounting"]
 old-location: termserv\itsgaccountingengine_doaccounting.htm
 tech.root: TermServ
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
@@ -61,13 +62,13 @@ Remote Desktop Gateway (RD Gateway) calls this method to pass information to an
 
 ### -param accountingDataType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingDataType</a> 
+A value of the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingDataType</a> 
       enumeration type that specifies the type of event that occurred.
 
 
 ### -param accountingData [in]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure that contains 
+An <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a> structure that contains 
        information about the event that occurred.
 
 

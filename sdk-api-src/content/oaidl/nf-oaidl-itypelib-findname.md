@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeLib.FindName
 title: ITypeLib::FindName (oaidl.h)
-description: Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
+description: Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.helpviewer_keywords: ["FindName","FindName method [Automation]","FindName method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","FindName method","ITypeLib.FindName","ITypeLib::FindName","_oa96_ITypeLib_FindName","automat.itypelib_findname","oaidl/ITypeLib::FindName"]
 old-location: automat\itypelib_findname.htm
 tech.root: automat
 ms.assetid: 932014a8-3a35-487a-b035-788fc28dacc2

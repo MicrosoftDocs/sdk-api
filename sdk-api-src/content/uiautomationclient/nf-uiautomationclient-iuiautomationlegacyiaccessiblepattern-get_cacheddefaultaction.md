@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction (uiautomationclient.h)
-description: Retrieves the Microsoft Active Accessibility cached default action for the element.
+description: Retrieves the Microsoft Active Accessibility cached default action for the element.helpviewer_keywords: ["CachedDefaultAction property [Windows Accessibility]","CachedDefaultAction property [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","CachedDefaultAction property","IUIAutomationLegacyIAccessiblePattern.CachedDefaultAction","IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction","IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction","IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction","get_CachedDefaultAction","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction","uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedDefaultAction","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: acd43075-4f53-48d3-a039-0882a4833d9e

@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_REQUEST_V1
 title: HTTP_REQUEST_V1 (http.h)
-description: Uses the HTTP_REQUEST structure to return data associated with a specific request.
+description: Uses the HTTP_REQUEST structure to return data associated with a specific request.helpviewer_keywords: ["*PHTTP_REQUEST","*PHTTP_REQUEST_V1","HTTP_REQUEST","HTTP_REQUEST_FLAG_HTTP2","HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS","HTTP_REQUEST_FLAG_IP_ROUTED","HTTP_REQUEST_V1","HTTP_REQUEST_V1 structure [HTTP]","PHTTP_REQUEST_V1","PHTTP_REQUEST_V1 structure pointer [HTTP]","http.http_request_v1","http/HTTP_REQUEST_V1","http/PHTTP_REQUEST_V1"]
 old-location: http\http_request_v1.htm
 tech.root: http
 ms.assetid: 5550c49c-36ef-42e6-8134-5d9d0d9d53b5

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionInfo
 title: DhcpGetOptionInfo function (dhcpsapi.h)
-description: Returns information on a specific DHCP option for the default user and vendor class.
+description: Returns information on a specific DHCP option for the default user and vendor class.helpviewer_keywords: ["DhcpGetOptionInfo","DhcpGetOptionInfo function [DHCP]","dhcp.dhcpgetoptioninfo","dhcpsapi/DhcpGetOptionInfo"]
 old-location: dhcp\dhcpgetoptioninfo.htm
 tech.root: DHCP
 ms.assetid: b62b0a07-3043-417d-affe-d3a350907f4e

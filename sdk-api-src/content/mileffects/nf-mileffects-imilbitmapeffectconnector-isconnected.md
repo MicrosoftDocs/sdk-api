@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.IsConnected
 title: IMILBitmapEffectConnector::IsConnected (mileffects.h)
-description: Determines whether the connector is connected to an effect.
+description: Determines whether the connector is connected to an effect.helpviewer_keywords: ["IMILBitmapEffectConnector interface [WPF Bitmap Effects]","IsConnected method","IMILBitmapEffectConnector.IsConnected","IMILBitmapEffectConnector::IsConnected","IsConnected","IsConnected method [WPF Bitmap Effects]","IsConnected method [WPF Bitmap Effects]","IMILBitmapEffectConnector interface","_wibe_imilbitmapeffectconnector_isconnected","mileffects/IMILBitmapEffectConnector::IsConnected","wibe._wibe_imilbitmapeffectconnector_isconnected"]
 old-location: wibe\_wibe_imilbitmapeffectconnector_isconnected.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\isconnected.htm

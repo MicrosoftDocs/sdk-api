@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.SetPinInactive
 title: IAudioEndpointRT::SetPinInactive (audioengineendpoint.h)
-description: Notifies the endpoint that it must change the state of the underlying stream resources to an inactive state.
+description: Notifies the endpoint that it must change the state of the underlying stream resources to an inactive state.helpviewer_keywords: ["IAudioEndpointRT interface [Remote Desktop Services]","SetPinInactive method","IAudioEndpointRT.SetPinInactive","IAudioEndpointRT::SetPinInactive","SetPinInactive","SetPinInactive method [Remote Desktop Services]","SetPinInactive method [Remote Desktop Services]","IAudioEndpointRT interface","audioengineendpoint/IAudioEndpointRT::SetPinInactive","termserv.iaudioendpointrt_setpininactive"]
 old-location: termserv\iaudioendpointrt_setpininactive.htm
 tech.root: TermServ
 ms.assetid: 07062063-cae1-4517-aeed-fb73ec602b27

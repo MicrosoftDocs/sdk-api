@@ -1,7 +1,7 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_internetMediaSharingSecurityGroup
 title: IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup (wmlss.h)
-description: The get_internetMediaSharingSecurityGroup method retrieves the name of the security group that is used to authenticate connections coming in over the Internet.
+description: The get_internetMediaSharingSecurityGroup method retrieves the name of the security group that is used to authenticate connections coming in over the Internet.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","get_internetMediaSharingSecurityGroup method","IWindowsMediaLibrarySharingServices.get_internetMediaSharingSecurityGroup","IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup","get_internetMediaSharingSecurityGroup","get_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services]","get_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSget_internetMediaSharingSecurityGroup","wmlss/IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup"]
 old-location: wmlss\IWMLSSget_internetMediaSharingSecurityGroup.htm
 tech.root: WMLSS
 ms.assetid: a0085105-7dd5-453d-b372-115d319eb7ac

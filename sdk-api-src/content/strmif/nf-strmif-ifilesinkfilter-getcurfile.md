@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFileSinkFilter.GetCurFile
 title: IFileSinkFilter::GetCurFile (strmif.h)
-description: The GetCurFile method retrieves the name and media type of the current file.
+description: The GetCurFile method retrieves the name and media type of the current file.helpviewer_keywords: ["GetCurFile","GetCurFile method [DirectShow]","GetCurFile method [DirectShow]","IFileSinkFilter interface","IFileSinkFilter interface [DirectShow]","GetCurFile method","IFileSinkFilter.GetCurFile","IFileSinkFilter::GetCurFile","IFileSinkFilterGetCurFile","dshow.ifilesinkfilter_getcurfile","strmif/IFileSinkFilter::GetCurFile"]
 old-location: dshow\ifilesinkfilter_getcurfile.htm
 tech.root: DirectShow
 ms.assetid: 1d635dfc-a3b3-4f75-8356-534a32156686

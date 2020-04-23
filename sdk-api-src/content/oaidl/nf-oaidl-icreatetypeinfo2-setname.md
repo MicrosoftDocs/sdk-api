@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetName
 title: ICreateTypeInfo2::SetName (oaidl.h)
-description: Sets the name of the typeinfo.
+description: Sets the name of the typeinfo.helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetName method","ICreateTypeInfo2.SetName","ICreateTypeInfo2::SetName","SetName","SetName method [Automation]","SetName method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetName","automat.icreatetypeinfo2_setname","oaidl/ICreateTypeInfo2::SetName"]
 old-location: automat\icreatetypeinfo2_setname.htm
 tech.root: automat
 ms.assetid: b490dcb5-97e4-427a-bc87-22f38a4719f3

@@ -1,7 +1,7 @@
 ---
 UID: NF:evntrace.CloseTrace
 title: CloseTrace function (evntrace.h)
-description: The CloseTrace function closes a trace.
+description: The CloseTrace function closes a trace.helpviewer_keywords: ["CloseTrace","CloseTrace function [ETW]","_evt_closetrace","base.closetrace","etw.closetrace","evntrace/CloseTrace"]
 old-location: etw\closetrace.htm
 tech.root: ETW
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec

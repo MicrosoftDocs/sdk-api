@@ -2,6 +2,7 @@
 UID: NS:winsvc._SERVICE_TIMECHANGE_INFO
 title: SERVICE_TIMECHANGE_INFO (winsvc.h)
 description: Contains system time change settings.
+helpviewer_keywords: ["*PSERVICE_TIMECHANGE_INFO","PSERVICE_TIMECHANGE_INFO","PSERVICE_TIMECHANGE_INFO structure pointer","SERVICE_TIMECHANGE_INFO","SERVICE_TIMECHANGE_INFO structure","base.service_timechange_info","winsvc/PSERVICE_TIMECHANGE_INFO","winsvc/SERVICE_TIMECHANGE_INFO"]
 old-location: base\service_timechange_info.htm
 tech.root: Services
 ms.assetid: 452b0678-dfea-4128-9236-273323b519f0
@@ -71,7 +72,7 @@ The previous system time.
 
 
 
-The time values in the <i>liNewTime</i> and <i>liOldTime</i> members cannot be used directly with the time functions, which typically require a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> or <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. Convert the  <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure to a  <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure, copy the <b>ULARGE_INTEGER</b> structure to a <b>FILETIME</b> structure, and then if necessary use the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> function to convert the <b>FILETIME</b> structure to a <b>SYSTEMTIME</b> structure. 
+The time values in the <i>liNewTime</i> and <i>liOldTime</i> members cannot be used directly with the time functions, which typically require a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> or <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. Convert the  <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure to a  <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure, copy the <b>ULARGE_INTEGER</b> structure to a <b>FILETIME</b> structure, and then if necessary use the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> function to convert the <b>FILETIME</b> structure to a <b>SYSTEMTIME</b> structure. 
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:certif.ICertServerPolicy
 title: ICertServerPolicy (certif.h)
-description: Allows the policy module to communicate with Certificate Services.
+description: Allows the policy module to communicate with Certificate Services.helpviewer_keywords: ["ICertServerPolicy","ICertServerPolicy interface [Security]","ICertServerPolicy interface [Security]","described","_certsrv_icertserverpolicy","certif/ICertServerPolicy","security.icertserverpolicy"]
 old-location: security\icertserverpolicy.htm
 tech.root: SecCrypto
 ms.assetid: 7d16161e-9827-46a0-9989-30ebca792bb1

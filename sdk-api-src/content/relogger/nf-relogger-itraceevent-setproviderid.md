@@ -1,7 +1,7 @@
 ---
 UID: NF:relogger.ITraceEvent.SetProviderId
 title: ITraceEvent::SetProviderId (relogger.h)
-description: Sets the GUID for the provider which traced an event.
+description: Sets the GUID for the provider which traced an event.helpviewer_keywords: ["ITraceEvent interface [ETW]","SetProviderId method","ITraceEvent.SetProviderId","ITraceEvent::SetProviderId","SetProviderId","SetProviderId method [ETW]","SetProviderId method [ETW]","ITraceEvent interface","etw.ievent_setproviderid","relogger/ITraceEvent::SetProviderId"]
 old-location: etw\ievent_setproviderid.htm
 tech.root: ETW
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6

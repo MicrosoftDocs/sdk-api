@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetInstanceExplorer
 title: SHGetInstanceExplorer function (shlobj_core.h)
-description: Retrieves an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
+description: Retrieves an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.helpviewer_keywords: ["SHGetInstanceExplorer","SHGetInstanceExplorer function [Windows Shell]","_win32_SHGetInstanceExplorer","shell.SHGetInstanceExplorer","shlobj_core/SHGetInstanceExplorer"]
 old-location: shell\SHGetInstanceExplorer.htm
 tech.root: shell
 ms.assetid: ac6d8f7d-2eae-4b22-b493-b4ef740e3c95

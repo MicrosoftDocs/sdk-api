@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiGetTargetHostName
 title: SspiGetTargetHostName function (sspi.h)
-description: Gets the host name associated with the specified target.
+description: Gets the host name associated with the specified target.helpviewer_keywords: ["SspiGetTargetHostName","SspiGetTargetHostName function [Security]","security.sspigettargethostname","sspi/SspiGetTargetHostName"]
 old-location: security\sspigettargethostname.htm
 tech.root: SecAuthN
 ms.assetid: 84570dfc-1890-4b82-b411-1f9eaa75537b

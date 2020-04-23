@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStart
 title: ITfRange::ShiftStart (msctf.h)
-description: ITfRange::ShiftStart method
+description: ITfRange::ShiftStart methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftStart method","ITfRange.ShiftStart","ITfRange::ShiftStart","ShiftStart","ShiftStart method [Text Services Framework]","ShiftStart method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftstart_ref","msctf/ITfRange::ShiftStart","tsf.itfrange_shiftstart"]
 old-location: tsf\itfrange_shiftstart.htm
 tech.root: TSF
 ms.assetid: f9f983b1-a5fa-4857-b73c-b879c566d6f6

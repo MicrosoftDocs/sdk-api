@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupOpenLog
 title: SetupOpenLog function (setupapi.h)
-description: The SetupOpenLog function opens the log files.
+description: The SetupOpenLog function opens the log files.helpviewer_keywords: ["SetupOpenLog","SetupOpenLog function [Setup API]","_setupapi_setupopenlog","setup.setupopenlog","setupapi/SetupOpenLog"]
 old-location: setup\setupopenlog.htm
 tech.root: SetupApi
 ms.assetid: 3ff13002-7811-4e44-b12b-52d0d4c8de60

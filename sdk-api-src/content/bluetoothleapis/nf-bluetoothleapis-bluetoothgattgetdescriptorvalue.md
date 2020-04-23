@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetDescriptorValue
 title: BluetoothGATTGetDescriptorValue function (bluetoothleapis.h)
-description: Gets the value of the specified descriptor.
+description: Gets the value of the specified descriptor.helpviewer_keywords: ["BluetoothGATTGetDescriptorValue","BluetoothGATTGetDescriptorValue function [Bluetooth Devices]","bltooth.bluetoothgattgetdescriptorvalue","bluetoothleapis/BluetoothGATTGetDescriptorValue"]
 old-location: bltooth\bluetoothgattgetdescriptorvalue.htm
 tech.root: bltooth
 ms.assetid: 06820384-7098-415A-A350-3A755162FAA3

@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IVirtualDesktopManager.MoveWindowToDesktop
 title: IVirtualDesktopManager::MoveWindowToDesktop (shobjidl_core.h)
 description: Moves a window to the specified virtual desktop.
+helpviewer_keywords: ["IVirtualDesktopManager interface [Windows Shell]","MoveWindowToDesktop method","IVirtualDesktopManager.MoveWindowToDesktop","IVirtualDesktopManager::MoveWindowToDesktop","MoveWindowToDesktop","MoveWindowToDesktop method [Windows Shell]","MoveWindowToDesktop method [Windows Shell]","IVirtualDesktopManager interface","shell.ivirtualdesktopmanager_movewindowtodesktop","shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop"]
 old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
 tech.root: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-[IVirtualDesktopManager](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)a>
+[IVirtualDesktopManager](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)
  
 
  

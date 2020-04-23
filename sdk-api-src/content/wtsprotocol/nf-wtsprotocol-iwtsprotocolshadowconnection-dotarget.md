@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.DoTarget
 title: IWTSProtocolShadowConnection::DoTarget (wtsprotocol.h)
-description: IWTSProtocolShadowConnection::DoTarget is no longer available. Instead, use IWRdsProtocolShadowConnection::DoTarget.
+description: IWTSProtocolShadowConnection::DoTarget is no longer available. Instead, use IWRdsProtocolShadowConnection::DoTarget.helpviewer_keywords: ["DoTarget","DoTarget method [Remote Desktop Services]","DoTarget method [Remote Desktop Services]","IWTSProtocolShadowConnection interface","IWTSProtocolShadowConnection interface [Remote Desktop Services]","DoTarget method","IWTSProtocolShadowConnection.DoTarget","IWTSProtocolShadowConnection::DoTarget","termserv.iwtsprotocolshadowconnection_dotarget","wtsprotocol/IWTSProtocolShadowConnection::DoTarget"]
 old-location: termserv\iwtsprotocolshadowconnection_dotarget.htm
 tech.root: TermServ
 ms.assetid: 437983a4-48a4-4b37-99ba-35fe1f03b3ec

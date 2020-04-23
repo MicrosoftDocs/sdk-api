@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaBase
 title: IFsrmQuotaBase (fsrmquota.h)
-description: Base interface for all quota interfaces.
+description: Base interface for all quota interfaces.helpviewer_keywords: ["IFsrmQuotaBase","IFsrmQuotaBase interface [File Server Resource Manager]","IFsrmQuotaBase interface [File Server Resource Manager]","described","fs.ifsrmquotabase","fsrm.ifsrmquotabase","fsrm/IFsrmQuotaBase"]
 old-location: fsrm\ifsrmquotabase.htm
 tech.root: fsrm
 ms.assetid: 7f4d5a73-a836-4ea1-bc53-d51433eeb02e

@@ -2,6 +2,7 @@
 UID: NF:syncregistration.ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider (syncregistration.h)
 description: Creates and registers a new synchronization provider.
+helpviewer_keywords: ["CreateAndRegisterNewSyncProvider","CreateAndRegisterNewSyncProvider method [Windows Sync]","CreateAndRegisterNewSyncProvider method [Windows Sync]","ISyncProviderConfigUI interface","ISyncProviderConfigUI interface [Windows Sync]","CreateAndRegisterNewSyncProvider method","ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider","ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider","syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider","winsync.isyncproviderconfigui_createandregisternewsyncprovider"]
 old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
 tech.root: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d
@@ -63,7 +64,7 @@ Creates and registers a new  synchronization provider.
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 
 ### -param pUnkContext [in]

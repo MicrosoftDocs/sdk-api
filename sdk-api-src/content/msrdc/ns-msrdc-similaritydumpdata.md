@@ -2,6 +2,7 @@
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0014
 title: SimilarityDumpData (msrdc.h)
 description: Contains the similarity information that was returned for a file by the ISimilarityTableDumpState::GetNextData method.
+helpviewer_keywords: ["SimilarityDumpData","SimilarityDumpData structure [Remote Differential Compression]","fs.similaritydumpdata","msrdc/SimilarityDumpData","rdc.similaritydumpdata"]
 old-location: rdc\similaritydumpdata.htm
 tech.root: rdc
 ms.assetid: 0200008c-5664-445f-ae65-0eb004856a4c
@@ -59,12 +60,12 @@ Contains the similarity information that was returned for a file by the <a href=
 
 ### -field m_FileIndex
 
-The index of the <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure in the similarity traits table.
+The index of the <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure in the similarity traits table.
 
 
 ### -field m_Data
 
-A <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that contains the similarity data for the file.
+A <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that contains the similarity data for the file.
 
 
 ## -see-also

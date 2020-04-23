@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_LimitText
 title: ComboBox_LimitText macro (windowsx.h)
-description: Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the CB_LIMITTEXT message explicitly.
+description: Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the CB_LIMITTEXT message explicitly.helpviewer_keywords: ["ComboBox_LimitText","ComboBox_LimitText macro [Windows Controls]","_win32_ComboBox_LimitText","_win32_ComboBox_LimitText_cpp","controls.ComboBox_LimitText","controls._win32_ComboBox_LimitText","windowsx/ComboBox_LimitText"]
 old-location: controls\ComboBox_LimitText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_limittext.htm

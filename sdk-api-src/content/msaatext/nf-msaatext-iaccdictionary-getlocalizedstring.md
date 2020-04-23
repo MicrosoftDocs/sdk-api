@@ -1,7 +1,7 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetLocalizedString
 title: IAccDictionary::GetLocalizedString (msaatext.h)
-description: Clients call the IAccDictionary::GetLocalizedString method to get localized strings for all system properties and their values.
+description: Clients call the IAccDictionary::GetLocalizedString method to get localized strings for all system properties and their values.helpviewer_keywords: ["GetLocalizedString","GetLocalizedString method [Windows Accessibility]","GetLocalizedString method [Windows Accessibility]","IAccDictionary interface","IAccDictionary interface [Windows Accessibility]","GetLocalizedString method","IAccDictionary.GetLocalizedString","IAccDictionary::GetLocalizedString","_msaa_IAccDictionary_GetLocalizedString","msaa.iaccdictionary_iaccdictionary__getlocalizedstring","msaatext/IAccDictionary::GetLocalizedString","winauto.iaccdictionary_iaccdictionary__getlocalizedstring"]
 old-location: winauto\iaccdictionary_iaccdictionary__getlocalizedstring.htm
 tech.root: WinAuto
 ms.assetid: 7419395d-d4be-4ee4-bf98-aef7e82cb3d5

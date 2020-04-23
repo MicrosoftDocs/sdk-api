@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComQCEvents.OnQCPlayback
 title: IComQCEvents::OnQCPlayback (comsvcs.h)
 description: Generated when a messages contents are replayed.
+helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCPlayback method","IComQCEvents.OnQCPlayback","IComQCEvents::OnQCPlayback","OnQCPlayback","OnQCPlayback method [COM+]","OnQCPlayback method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCPlayback","comsvcs/IComQCEvents::OnQCPlayback","cos.icomqcevents_onqcplayback"]
 old-location: cos\icomqcevents_onqcplayback.htm
 tech.root: cossdk
 ms.assetid: 7cd9daf8-cc4d-4d48-b547-95b370f5a927
@@ -59,7 +60,7 @@ Generated when a messages contents are replayed.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param objid [in]

@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_ItemByIndex
 title: IX509Extensions::get_ItemByIndex (certenroll.h)
-description: Retrieves an IX509Extension object from the collection by index number.
+description: Retrieves an IX509Extension object from the collection by index number.helpviewer_keywords: ["IX509Extensions interface [Security]","ItemByIndex property","IX509Extensions.ItemByIndex","IX509Extensions.get_ItemByIndex","IX509Extensions::ItemByIndex","IX509Extensions::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IX509Extensions interface","certenroll/IX509Extensions::ItemByIndex","certenroll/IX509Extensions::get_ItemByIndex","get_ItemByIndex","security.ix509extensions_itembyindex_property"]
 old-location: security\ix509extensions_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: bdcd2fa0-2431-4e7e-8bf2-91ba1f6d12da
