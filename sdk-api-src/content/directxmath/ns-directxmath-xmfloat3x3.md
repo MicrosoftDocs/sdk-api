@@ -44,8 +44,6 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# XMFLOAT3X3 structure
-
 ## -description
 
 A 3x3 floating-point matrix.
