@@ -1,46 +1,50 @@
 ---
 UID: NF:directxmath.XMFLOAT3X4.XMFLOAT3X4
 title: XMFLOAT3X4::XMFLOAT3X4
-ms.date: 11/8/2019
-ms.topic: language-reference
-targetos: Windows
-description: 
-req.assembly: 
+ms.date: 04/22/2020
+description: Default constructor for **XMFLOAT3X4**.
+tech.root: dxmath
+f1_keywords:
+- directxmath/XMFLOAT3X4::XMFLOAT3X4
+dev_langs:
+- c++
 req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
 req.header: directxmath.h
-req.idl: 
 req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.namespace: 
-req.redist: 
+req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
-req.type-library: 
+req.kmdf-ver: 
 req.umdf-ver: 
+req.ddi-compliance: 
 req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace:
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 topic_type:
- - apiref
+- apiref
+- kbSyntax
 api_type:
- - 
+- COM
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - XMFLOAT3X4::XMFLOAT3X4
-f1_keywords:
- - directxmath/XMFLOAT3X4::XMFLOAT3X4
-dev_langs:
- - c++
+- XMFLOAT3X4::XMFLOAT3X4
+targetos: Windows
+req.typenames: 
+req.redist: 
 ---
 
 ## -description
 
+Default constructor for **XMFLOAT3X4**.
+
 ## -remarks
 
 ## -see-also
-
+[XMFLOAT3X4 structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4)

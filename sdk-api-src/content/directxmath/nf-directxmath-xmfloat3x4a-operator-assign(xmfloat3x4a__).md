@@ -4,7 +4,7 @@ title: XMFLOAT3X4A::operator=
 ms.date: 11/8/2019
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: Assigns the **XMFLOAT3X4A** argument's vector component data to the current instance of **XMFLOAT3X4A**.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -40,13 +40,21 @@ dev_langs:
 
 ## -description
 
+Assigns the **XMFLOAT3X4A** argument's vector component data to the current instance of **XMFLOAT3X4A**.
+
 ## -parameters
 
 ### -param arg1
 
+Type: **XMFLOAT3X4A &&**
+
+An rvalue reference to an **XMFLOAT3X4A** value whose vector component data the operator should copy into the current **XMFLOAT3X4A**.
+
 ## -returns
 
-## -remarks
+Type: **XMFLOAT3X4A &**
+
+An lvalue reference to the current instance of **XMFLOAT3X4A**, after copying *arg1* into it.
 
 ## -see-also
-
+[XMFLOAT3X4A structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a)
