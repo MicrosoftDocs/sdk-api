@@ -2,6 +2,7 @@
 UID: NF:winbase.OpenPrivateNamespaceA
 title: OpenPrivateNamespaceA function (winbase.h)
 description: Opens a private namespace.
+helpviewer_keywords: ["OpenPrivateNamespace","OpenPrivateNamespace function","OpenPrivateNamespaceA","OpenPrivateNamespaceW","base.openprivatenamespace","winbase/OpenPrivateNamespace","winbase/OpenPrivateNamespaceA","winbase/OpenPrivateNamespaceW"]
 old-location: base\openprivatenamespace.htm
 tech.root: Sync
 ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
