@@ -1,0 +1,74 @@
+---
+UID: NF:directxmath.XMFLOAT3X4A.XMFLOAT3X4A(float,float,float,float,float,float,float,float,float,float,float,float)
+title: XMFLOAT3X4A::XMFLOAT3X4A
+ms.date: 11/8/2019
+ms.topic: language-reference
+targetos: Windows
+description: 
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: directxmath.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - directxmath.h
+api_name:
+ - XMFLOAT3X4A::XMFLOAT3X4A
+f1_keywords:
+ - directxmath/XMFLOAT3X4A::XMFLOAT3X4A
+dev_langs:
+ - c++
+---
+
+## -description
+
+## -parameters
+
+### -param m00
+
+### -param m01
+
+### -param m02
+
+### -param m03
+
+### -param m10
+
+### -param m11
+
+### -param m12
+
+### -param m13
+
+### -param m20
+
+### -param m21
+
+### -param m22
+
+### -param m23
+
+## -returns
+
+## -remarks
+
+## -see-also
+
