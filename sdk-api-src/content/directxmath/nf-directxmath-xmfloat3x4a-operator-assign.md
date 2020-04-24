@@ -2,7 +2,7 @@
 UID: NF:directxmath.XMFLOAT3X4A.operator-assign
 title: XMFLOAT3X4A::operator=
 ms.date: 04/22/2020
-description: Assigns the **XMFLOAT3X4A** argument's vector component data to the current instance of **XMFLOAT3X4A**.
+description: Copy assignment operator for **XMFLOAT3X4A**. Copies the argument's vector component data into the current instance of **XMFLOAT3X4A**.
 tech.root: dxmath
 f1_keywords:
 - directxmath/XMFLOAT3X4A::operator=
@@ -42,7 +42,7 @@ req.redist:
 
 ## -description
 
-Assigns the **XMFLOAT3X4A** argument's vector component data to the current instance of **XMFLOAT3X4A**.
+Copy assignment operator for **XMFLOAT3X4A**. Copies the argument's vector component data into the current instance of **XMFLOAT3X4A**.
 
 ## -parameters
 
@@ -50,7 +50,7 @@ Assigns the **XMFLOAT3X4A** argument's vector component data to the current inst
 
 Type: **const XMFLOAT3X4A &**
 
-An lvalue reference to a constant **XMFLOAT3X4A** value whose vector component data the operator should copy into the current **XMFLOAT3X4A**.
+An lvalue reference to a constant **XMFLOAT3X4A** value whose vector component data the operator should copy into the current instance of **XMFLOAT3X4A**.
 
 ## -returns
 

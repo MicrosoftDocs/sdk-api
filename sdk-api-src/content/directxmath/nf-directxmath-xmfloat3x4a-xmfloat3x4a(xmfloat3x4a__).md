@@ -48,7 +48,7 @@ Move constructor for **XMFLOAT3X4A**.
 
 ### -param arg1
 
-Type: **XMFLOAT3X4A \&\&**
+Type: **XMFLOAT3X4A &&**
 
 An rvalue reference to an **XMFLOAT3X4A**, which will be moved to become the new matrix.
 
