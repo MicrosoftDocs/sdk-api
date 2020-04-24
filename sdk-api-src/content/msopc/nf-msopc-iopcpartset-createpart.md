@@ -146,7 +146,7 @@ A part with the specified part name already exists in the current package.
 </dl>
 </td>
 <td width="60%">
-A content type does not conform to the rules for a valid media type, specified in <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a> (https://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
+A content type does not conform to the rules for a valid media type, specified in <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a> (http://www.w3.org/Protocols/rfc2616/rfc2616.html) and the <i>OPC</i>.
 
 </td>
 </tr>

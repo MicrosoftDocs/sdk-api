@@ -1,7 +1,8 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderUser
 title: ICredentialProviderUser (credentialprovider.h)
-description: Provides methods used to retrieve certain properties of an individual user included in a logon or credential UI.helpviewer_keywords: ["ICredentialProviderUser","ICredentialProviderUser interface [Windows Shell]","ICredentialProviderUser interface [Windows Shell]","described","credentialprovider/ICredentialProviderUser","shell.ICredentialProviderUser"]
+description: Provides methods used to retrieve certain properties of an individual user included in a logon or credential UI.
+helpviewer_keywords: ["ICredentialProviderUser","ICredentialProviderUser interface [Windows Shell]","ICredentialProviderUser interface [Windows Shell]","described","credentialprovider/ICredentialProviderUser","shell.ICredentialProviderUser"]
 old-location: shell\ICredentialProviderUser.htm
 tech.root: shell
 ms.assetid: 8EE5FA54-E20E-4d24-AD73-2AE1F0090950
@@ -123,7 +124,7 @@ Third-parties do not implement this interface. An implementation is included wit
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8.docx</a>
+<a href="http://download.microsoft.com/download/F/3/5/F3536898-FF3C-4548-8418-08D79555A0DB/Credential Provider Framework Changes in Windows 8.docx">Credential Provider Framework Changes in Windows 8.docx</a>
 
 
 
