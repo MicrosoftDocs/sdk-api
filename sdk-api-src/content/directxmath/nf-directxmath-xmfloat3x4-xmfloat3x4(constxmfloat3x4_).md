@@ -48,7 +48,7 @@ Copy constructor for **XMFLOAT3X4**.
 
 ### -param arg1
 
-Type: **const XMFLOAT3X4 \&**
+Type: **const XMFLOAT3X4 &**
 
 An lvalue reference to a constant **XMFLOAT3X4**, of which the new matrix will be a copy.
 

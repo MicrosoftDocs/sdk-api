@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetPerTcp6ConnectionEStats
 title: GetPerTcp6ConnectionEStats function (iphlpapi.h)
-description: Retrieves extended statistics for an IPv6 TCP connection.helpviewer_keywords: ["GetPerTcp6ConnectionEStats","GetPerTcp6ConnectionEStats function [IP Helper]","TcpConnectionEstatsBandwidth","TcpConnectionEstatsData","TcpConnectionEstatsFineRtt","TcpConnectionEstatsObsRec","TcpConnectionEstatsPath","TcpConnectionEstatsRec","TcpConnectionEstatsSendBuff","TcpConnectionEstatsSndCong","TcpConnectionEstatsSynOpts","iphlp.getpertcp6connectionestats","iphlpapi/GetPerTcp6ConnectionEStats"]
+description: Retrieves extended statistics for an IPv6 TCP connection.
+helpviewer_keywords: ["GetPerTcp6ConnectionEStats","GetPerTcp6ConnectionEStats function [IP Helper]","TcpConnectionEstatsBandwidth","TcpConnectionEstatsData","TcpConnectionEstatsFineRtt","TcpConnectionEstatsObsRec","TcpConnectionEstatsPath","TcpConnectionEstatsRec","TcpConnectionEstatsSendBuff","TcpConnectionEstatsSndCong","TcpConnectionEstatsSynOpts","iphlp.getpertcp6connectionestats","iphlpapi/GetPerTcp6ConnectionEStats"]
 old-location: iphlp\getpertcp6connectionestats.htm
 tech.root: IpHlp
 ms.assetid: 291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e
@@ -391,15 +392,11 @@ For information on extended TCP statistics on an IPv4 connection, see the <a hre
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a> function can only be called by a user logged on as a member of the Administrators group. If <b>SetPerTcp6ConnectionEStats</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
+The caller of **GetPerTcp6ConnectionEStats** should check the *EnableCollection* field in the returned *Rw* struct, and if it is not `TRUE`, then the caller should ignore the data in the *Ros* and *Rod* structs. If *EnableCollection* is set to `FALSE`, then the data returned in *Ros* and *Rod* are undefined. For example, one condition under which this can happen is when you're using **GetPerTcp6ConnectionEStats** to retrieve extended statistics for an IPv6 TCP connection, and you've previously called [SetPerTcp6ConnectionEStats](/windows/win32/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats) to enable extended statistics. If the **SetPerTcp6ConnectionEStats** call fails then subsequent calls to **GetPerTcp6ConnectionEStats** will return meaningless random data, and not extended TCP statistics. You can observe that example by running the example below as both an administrator, and as a normal user.
 
-
-An application that uses the <b>GetPerTcp6ConnectionEStats</b> function to retrieve extended statistics for an IPv6 TCP connection must check that the previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a> function to enabled extended statistics returned with success. If the <b>SetPerTcp6ConnectionEStats</b> function to enable extended statistics failed, subsequent calls to the <b>GetPerTcp6ConnectionEStats</b> will still return numbers in the returned structures. However the returned numbers are meaningless random data and don't represent extended TCP statistics. This behavior can be observed by running the example below as both an administrator and a normal user.
-
-
-#### Examples
+## Examples
 
 The following example retrieves the TCP extended statistics for an IPv4 and IPv6 TCP connection and prints values from the returned data.
-
 
 ```cpp
 // Need to link with Iphlpapi.lib and Ws2_32.lib
