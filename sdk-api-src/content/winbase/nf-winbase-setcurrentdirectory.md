@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetCurrentDirectory
 title: SetCurrentDirectory function (winbase.h)
-description: Changes the current directory for the current process.helpviewer_keywords: ["SetCurrentDirectory","SetCurrentDirectory function [Files]","SetCurrentDirectoryA","SetCurrentDirectoryW","_win32_setcurrentdirectory","base.setcurrentdirectory","fs.setcurrentdirectory","winbase/SetCurrentDirectory","winbase/SetCurrentDirectoryA","winbase/SetCurrentDirectoryW"]
+description: Changes the current directory for the current process.
+helpviewer_keywords: ["SetCurrentDirectory","SetCurrentDirectory function [Files]","SetCurrentDirectoryA","SetCurrentDirectoryW","_win32_setcurrentdirectory","base.setcurrentdirectory","fs.setcurrentdirectory","winbase/SetCurrentDirectory","winbase/SetCurrentDirectoryA","winbase/SetCurrentDirectoryW"]
 old-location: fs\setcurrentdirectory.htm
 tech.root: FileIO
 ms.assetid: 02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd
@@ -73,7 +74,7 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/Fi
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
 
- The final character before the null character must be a backslash ('\'). If you do not specify the backslash, it will be added for you; therefore, specify <b>MAX_PATH</b>-2 characters for the path unless you  include the trailing backslash, in which case, specify <b>MAX_PATH</b>-1 characters for the path.
+ The final character before the null character must be a backslash ('\\'). If you do not specify the backslash, it will be added for you; therefore, specify <b>MAX_PATH</b>-2 characters for the path unless you  include the trailing backslash, in which case, specify <b>MAX_PATH</b>-1 characters for the path.
 
 <div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>SetCurrentDirectoryW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation. See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
