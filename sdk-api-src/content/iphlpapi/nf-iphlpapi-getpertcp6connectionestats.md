@@ -1110,7 +1110,7 @@ void GetAndOutputEstats(void* row, TCP_ESTATS_TYPE type, bool v6)
 
     case TcpConnectionEstatsBandwidth:
         winStatus = GetConnectionEStats(row, type, (PUCHAR)&bandwidthRw, sizeof(TCP_ESTATS_BANDWIDTH_RW_v0), v6, ros, rosSize, rod, rodSize);
-        RwEnableCollection = bandwidthRw.EnableCollectionOutbound | bandwidthRw.EnableCollectionInbound;
+        RwEnableCollection = bandwidthRw.EnableCollectionOutbound && bandwidthRw.EnableCollectionInbound;
         break;
 
     case TcpConnectionEstatsFineRtt:
