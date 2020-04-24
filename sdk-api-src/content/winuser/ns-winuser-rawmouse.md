@@ -374,7 +374,7 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 
 Type: <b>ULONG</b>
 
-The raw state of the mouse buttons. 
+The raw state of the mouse buttons. The Win32 subsystem does not use this member.
 
 
 ### -field lLastX
@@ -427,22 +427,20 @@ else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
 
 In contrast to <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> window messages Raw Input mouse events is not subject to the effects of the mouse speed set in the Control Panel's <b>Mouse Properties</b> sheet. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a> for details.
 
-
-
 ## -see-also
 
 <b>Conceptual</b>
 
+[GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
+[RAWINPUT](ns-winuser-rawinput.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
+[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
 
 <b>Reference</b>
- 
 
- 
+[MOUSEINPUT structure](ns-winuser-mouseinput.md)
 
+[SendInput function](nf-winuser-sendinput.md)
+
+[MOUSE_INPUT_DATA structure](https://docs.microsoft.com/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data)
