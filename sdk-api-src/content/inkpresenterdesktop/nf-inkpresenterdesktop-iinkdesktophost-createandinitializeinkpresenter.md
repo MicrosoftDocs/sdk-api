@@ -1,7 +1,8 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateAndInitializeInkPresenter
 title: IInkDesktopHost::CreateAndInitializeInkPresenter (inkpresenterdesktop.h)
-description: Creates an IInkPresenterDesktop object on an application thread, connects it to the app's DirectComposition visual tree, and sets the size of the object.helpviewer_keywords: ["CreateAndInitializeInkPresenter","CreateAndInitializeInkPresenter method","CreateAndInitializeInkPresenter method","IInkDesktopHost interface","IInkDesktopHost interface","CreateAndInitializeInkPresenter method","IInkDesktopHost.CreateAndInitializeInkPresenter","IInkDesktopHost::CreateAndInitializeInkPresenter","InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter","inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter","input_ink.iinkdesktophost_createandinitializeinkpresenter"]
+description: Creates an IInkPresenterDesktop object on an application thread, connects it to the app's DirectComposition visual tree, and sets the size of the object.
+helpviewer_keywords: ["CreateAndInitializeInkPresenter","CreateAndInitializeInkPresenter method","CreateAndInitializeInkPresenter method","IInkDesktopHost interface","IInkDesktopHost interface","CreateAndInitializeInkPresenter method","IInkDesktopHost.CreateAndInitializeInkPresenter","IInkDesktopHost::CreateAndInitializeInkPresenter","InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter","inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter","input_ink.iinkdesktophost_createandinitializeinkpresenter"]
 old-location: input_ink\iinkdesktophost_createandinitializeinkpresenter.htm
 tech.root: input_ink
 ms.assetid: 596e1180-04ca-474b-b519-f9ebe468fb6a
@@ -107,7 +108,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

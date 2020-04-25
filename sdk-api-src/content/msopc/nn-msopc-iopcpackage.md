@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcPackage
 title: IOpcPackage (msopc.h)
-description: Represents a package and provides methods to access the package's parts and relationships.helpviewer_keywords: ["IOpcPackage","IOpcPackage interface [Open Packaging Conventions]","IOpcPackage interface [Open Packaging Conventions]","described","msopc/IOpcPackage","opc.iopcpackage"]
+description: Represents a package and provides methods to access the package's parts and relationships.
+helpviewer_keywords: ["IOpcPackage","IOpcPackage interface [Open Packaging Conventions]","IOpcPackage interface [Open Packaging Conventions]","described","msopc/IOpcPackage","opc.iopcpackage"]
 old-location: opc\iopcpackage.htm
 tech.root: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0
@@ -96,7 +97,7 @@ To get a pointer to this interface, call either the <a href="https://docs.micros
 
 Package relationships serve as an entry point  to the package by  links from the package to target  resources. The target of a package relationship is often an important part described in the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i> or by the package format designer.
 
-For example, a package relationship can provide access to the Core Properties part that stores package metadata, or to a part containing format-specific data, where the part and data are described by the package designer.  The Main Document part of the word processing OpenXML format is one such format-specific part. For more information about this part, see Part 1: Fundamentals in <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a> (https://go.microsoft.com/fwlink/p/?linkid=123375).
+For example, a package relationship can provide access to the Core Properties part that stores package metadata, or to a part containing format-specific data, where the part and data are described by the package designer.  The Main Document part of the word processing OpenXML format is one such format-specific part. For more information about this part, see Part 1: Fundamentals in <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a> (http://www.ecma-international.org/publications/standards/Ecma-376.htm).
 
 The definitive way to find a part of interest is by using a relationship type. Several steps are required; for details, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/finding-the-core-properties-part">Finding the Core Properties Part</a> how-to task.
 

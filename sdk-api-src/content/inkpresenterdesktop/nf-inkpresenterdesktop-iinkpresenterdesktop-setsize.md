@@ -1,7 +1,8 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetSize
 title: IInkPresenterDesktop::SetSize (inkpresenterdesktop.h)
-description: Sets the size of the InkPresenter object.helpviewer_keywords: ["IInkPresenterDesktop interface","SetSize method","IInkPresenterDesktop.SetSize","IInkPresenterDesktop::SetSize","InkPresenterDesktop.iinkpresenterdesktop_setsize","SetSize","SetSize method","SetSize method","IInkPresenterDesktop interface","inkpresenterdesktop/IInkPresenterDesktop::SetSize","input_ink.iinkpresenterdesktop_setsize"]
+description: Sets the size of the InkPresenter object.
+helpviewer_keywords: ["IInkPresenterDesktop interface","SetSize method","IInkPresenterDesktop.SetSize","IInkPresenterDesktop::SetSize","InkPresenterDesktop.iinkpresenterdesktop_setsize","SetSize","SetSize method","SetSize method","IInkPresenterDesktop interface","inkpresenterdesktop/IInkPresenterDesktop::SetSize","input_ink.iinkpresenterdesktop_setsize"]
 old-location: input_ink\iinkpresenterdesktop_setsize.htm
 tech.root: input_ink
 ms.assetid: ba2576e5-8039-475b-acd8-1e7336a779e7
@@ -89,7 +90,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

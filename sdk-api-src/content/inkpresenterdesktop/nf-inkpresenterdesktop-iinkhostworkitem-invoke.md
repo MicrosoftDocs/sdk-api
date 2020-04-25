@@ -1,7 +1,8 @@
 ---
 UID: NF:inkpresenterdesktop.IInkHostWorkItem.Invoke
 title: IInkHostWorkItem::Invoke (inkpresenterdesktop.h)
-description: Executes the ink operation on an IInkDesktopHost object thread.helpviewer_keywords: ["IInkHostWorkItem interface","Invoke method","IInkHostWorkItem.Invoke","IInkHostWorkItem::Invoke","InkPresenterDesktop.iinkhostworkitem_invoke","Invoke","Invoke method","Invoke method","IInkHostWorkItem interface","inkpresenterdesktop/IInkHostWorkItem::Invoke","input_ink.iinkhostworkitem_invoke"]
+description: Executes the ink operation on an IInkDesktopHost object thread.
+helpviewer_keywords: ["IInkHostWorkItem interface","Invoke method","IInkHostWorkItem.Invoke","IInkHostWorkItem::Invoke","InkPresenterDesktop.iinkhostworkitem_invoke","Invoke","Invoke method","Invoke method","IInkHostWorkItem interface","inkpresenterdesktop/IInkHostWorkItem::Invoke","input_ink.iinkhostworkitem_invoke"]
 old-location: input_ink\iinkhostworkitem_invoke.htm
 tech.root: input_ink
 ms.assetid: 032ba18b-dee4-4c94-a9b2-0e95f1013ae2
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

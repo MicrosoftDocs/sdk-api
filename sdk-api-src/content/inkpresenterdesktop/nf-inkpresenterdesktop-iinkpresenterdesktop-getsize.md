@@ -1,7 +1,8 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.GetSize
 title: IInkPresenterDesktop::GetSize (inkpresenterdesktop.h)
-description: Gets the size of the InkPresenter object.helpviewer_keywords: ["GetSize","GetSize method","GetSize method","IInkPresenterDesktop interface","IInkPresenterDesktop interface","GetSize method","IInkPresenterDesktop.GetSize","IInkPresenterDesktop::GetSize","InkPresenterDesktop.iinkpresenterdesktop_getsize","inkpresenterdesktop/IInkPresenterDesktop::GetSize","input_ink.iinkpresenterdesktop_getsize"]
+description: Gets the size of the InkPresenter object.
+helpviewer_keywords: ["GetSize","GetSize method","GetSize method","IInkPresenterDesktop interface","IInkPresenterDesktop interface","GetSize method","IInkPresenterDesktop.GetSize","IInkPresenterDesktop::GetSize","InkPresenterDesktop.iinkpresenterdesktop_getsize","inkpresenterdesktop/IInkPresenterDesktop::GetSize","input_ink.iinkpresenterdesktop_getsize"]
 old-location: input_ink\iinkpresenterdesktop_getsize.htm
 tech.root: input_ink
 ms.assetid: d4ce0503-72dc-4a25-a48d-58fa50c5047f
@@ -89,7 +90,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

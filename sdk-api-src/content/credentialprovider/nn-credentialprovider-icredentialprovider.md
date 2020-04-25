@@ -153,7 +153,7 @@ An instantiated credential provider is maintained for the entire lifetime of a L
 
 Be aware that  a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> generated in one scenario might be saved and used in a subsequent usage scenario. Because of this, it is necessary to make sure your <b>ICredentialProvider</b> implementation is robust enough to handle this scenario.
 
-Windows 8 adds new functionality in the credential providers API, primarily the ability to group credentials by user. For more information, download the Microsoft Word document <a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8</a> from the Microsoft Download Center.
+Windows 8 adds new functionality in the credential providers API, primarily the ability to group credentials by user. For more information, download the Microsoft Word document <a href="http://download.microsoft.com/download/F/3/5/F3536898-FF3C-4548-8418-08D79555A0DB/Credential Provider Framework Changes in Windows 8.docx">Credential Provider Framework Changes in Windows 8</a> from the Microsoft Download Center.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0001
 title: OPC_CANONICALIZATION_METHOD (msopc.h)
-description: Describes the canonicalization method to be applied to XML markup.helpviewer_keywords: ["OPC_CANONICALIZATION_C14N","OPC_CANONICALIZATION_C14N_WITH_COMMENTS","OPC_CANONICALIZATION_METHOD","OPC_CANONICALIZATION_METHOD enumeration [Open Packaging Conventions]","OPC_CANONICALIZATION_NONE","msopc/OPC_CANONICALIZATION_C14N","msopc/OPC_CANONICALIZATION_C14N_WITH_COMMENTS","msopc/OPC_CANONICALIZATION_METHOD","msopc/OPC_CANONICALIZATION_NONE","opc.opc_canonicalization_method"]
+description: Describes the canonicalization method to be applied to XML markup.
+helpviewer_keywords: ["OPC_CANONICALIZATION_C14N","OPC_CANONICALIZATION_C14N_WITH_COMMENTS","OPC_CANONICALIZATION_METHOD","OPC_CANONICALIZATION_METHOD enumeration [Open Packaging Conventions]","OPC_CANONICALIZATION_NONE","msopc/OPC_CANONICALIZATION_C14N","msopc/OPC_CANONICALIZATION_C14N_WITH_COMMENTS","msopc/OPC_CANONICALIZATION_METHOD","msopc/OPC_CANONICALIZATION_NONE","opc.opc_canonicalization_method"]
 old-location: opc\opc_canonicalization_method.htm
 tech.root: OPC
 ms.assetid: f8401d12-da2e-4b35-b473-ebe3d1f91abd
@@ -77,7 +78,7 @@ The C14N canonicalization method that preserves comments is applied.
 
 
 For more information about XML canonicalization, see the <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
-Version 1.0</a> (https://go.microsoft.com/fwlink/p/?linkid=125240).
+Version 1.0</a> (http://www.w3.org/TR/xml-c14n).
 
 For more information about canonicalization and packages, see the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetId
 title: IOpcRelationship::GetId (msopc.h)
-description: Gets the unique identifier of the relationship.helpviewer_keywords: ["GetId","GetId method [Open Packaging Conventions]","GetId method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetId method","IOpcRelationship.GetId","IOpcRelationship::GetId","msopc/IOpcRelationship::GetId","opc.iopcrelationship_getid"]
+description: Gets the unique identifier of the relationship.
+helpviewer_keywords: ["GetId","GetId method [Open Packaging Conventions]","GetId method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetId method","IOpcRelationship.GetId","IOpcRelationship::GetId","msopc/IOpcRelationship::GetId","opc.iopcrelationship_getid"]
 old-location: opc\iopcrelationship_getid.htm
 tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
@@ -63,7 +64,7 @@ The identifier of the relationship.
 
 The identifier of a relationship is arbitrary and local to the package, and, therefore, .
 
-Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (https://go.microsoft.com/fwlink/p/?linkid=126664).
+Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://www.w3.org/TR/xmlschema-2/#ID).
 
 
 ## -returns

@@ -107,7 +107,7 @@ Implement this interface to associate credential tiles with specific user tiles 
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8.docx</a>
+<a href="http://download.microsoft.com/download/F/3/5/F3536898-FF3C-4548-8418-08D79555A0DB/Credential Provider Framework Changes in Windows 8.docx">Credential Provider Framework Changes in Windows 8.docx</a>
 
 
 

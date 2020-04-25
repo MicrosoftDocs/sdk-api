@@ -1,7 +1,8 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetRootVisual
 title: IInkPresenterDesktop::SetRootVisual (inkpresenterdesktop.h)
-description: Sets the connection to the app's DirectComposition visual tree.helpviewer_keywords: ["IInkPresenterDesktop interface","SetRootVisual method","IInkPresenterDesktop.SetRootVisual","IInkPresenterDesktop::SetRootVisual","InkPresenterDesktop.iinkpresenterdesktop_setrootvisual","SetRootVisual","SetRootVisual method","SetRootVisual method","IInkPresenterDesktop interface","inkpresenterdesktop/IInkPresenterDesktop::SetRootVisual","input_ink.iinkpresenterdesktop_setrootvisual"]
+description: Sets the connection to the app's DirectComposition visual tree.
+helpviewer_keywords: ["IInkPresenterDesktop interface","SetRootVisual method","IInkPresenterDesktop.SetRootVisual","IInkPresenterDesktop::SetRootVisual","InkPresenterDesktop.iinkpresenterdesktop_setrootvisual","SetRootVisual","SetRootVisual method","SetRootVisual method","IInkPresenterDesktop interface","inkpresenterdesktop/IInkPresenterDesktop::SetRootVisual","input_ink.iinkpresenterdesktop_setrootvisual"]
 old-location: input_ink\iinkpresenterdesktop_setrootvisual.htm
 tech.root: input_ink
 ms.assetid: 27b08f20-d43b-452c-809d-837664eb42d0
@@ -89,7 +90,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
