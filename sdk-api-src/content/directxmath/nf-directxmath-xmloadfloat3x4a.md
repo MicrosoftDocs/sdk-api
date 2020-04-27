@@ -1,11 +1,11 @@
 ---
-UID: NF:directxmath.XMLoadFloat3x4a
-title: XMLoadFloat3x4a
+UID: NF:directxmath.XMLoadFloat3x4A
+title: XMLoadFloat3x4A
 ms.date: 04/23/2020
 description: Loads an [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) into an [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
 tech.root: dxmath
 f1_keywords:
-- directxmath/XMLoadFloat3x4a
+- directxmath/XMLoadFloat3x4A
 dev_langs:
 - c++
 req.header: directxmath.h
@@ -33,7 +33,7 @@ api_type:
 api_location:
 - DirectXMath.h
 api_name:
-- XMLoadFloat3x4a
+- XMLoadFloat3x4A
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -61,7 +61,7 @@ This function performs a partial load of the returned **XMMATRIX**. For more inf
 
 ## -remarks
 
-[**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) is a row-major form of the matrix. **XMLoadFloat3x4a** could be used to read column-major data, but that would then need to be transposed with [XMMatrixTranspose](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose) before use in other [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) functions.
+[**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) is a row-major form of the matrix. **XMLoadFloat3x4A** could be used to read column-major data, but that would then need to be transposed with [XMMatrixTranspose](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose) before use in other [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) functions.
 
 ## -see-also
 [DirectXMath Library vector load functions](/windows/desktop/dxmath/ovw-xnamath-reference-functions-load)
