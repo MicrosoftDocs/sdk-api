@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.QueryCredentialsAttributesA
 title: QueryCredentialsAttributesA function (sspi.h)
-description: Retrieves the attributes of a credential, such as the name associated with the credential.helpviewer_keywords: ["QueryCredentialsAttributes","QueryCredentialsAttributes function [Security]","QueryCredentialsAttributesA","QueryCredentialsAttributesW","_ssp_querycredentialsattributes","security.querycredentialsattributes","sspi/QueryCredentialsAttributes","sspi/QueryCredentialsAttributesA","sspi/QueryCredentialsAttributesW"]
+description: Retrieves the attributes of a credential, such as the name associated with the credential.
+helpviewer_keywords: ["QueryCredentialsAttributes","QueryCredentialsAttributes function [Security]","QueryCredentialsAttributesA","QueryCredentialsAttributesW","_ssp_querycredentialsattributes","security.querycredentialsattributes","sspi/QueryCredentialsAttributes","sspi/QueryCredentialsAttributesA","sspi/QueryCredentialsAttributesW"]
 old-location: security\querycredentialsattributes.htm
 tech.root: SecAuthN
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
@@ -214,16 +215,16 @@ The <b>QueryCredentialsAttributes</b> function allows an application to determin
 
 Querying the SECPKG_ATTR_CIPHER_STRENGTHS attribute returns a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a> structure. The cipher strength in this structure is the same as the cipher strength in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure used when a credential was created.
+<a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure used when a credential was created.
 
 <div class="alert"><b>Note</b>  An application can find the system default cipher strength by querying this attribute with a default credential. A default credential is created by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> with a <b>NULL</b> <i>pAuthData</i> parameter.</div>
 <div> </div>
 Querying the SECPKG_ATTR_SUPPORTED_ALGS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a> structure. The algorithms in this structure are compatible with those indicated in the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure used when a credential was created.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a> structure. The algorithms in this structure are compatible with those indicated in the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure used when a credential was created.
 
 Querying the SECPKG_ATTR_SUPPORTED_PROTOCOLS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a> structure that contains a bit array compatible with the <i>grbitEnabledProtocols</i> field of the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a> structure that contains a bit array compatible with the <i>grbitEnabledProtocols</i> field of the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure.
 
 The caller must allocate the structure pointed to by the <i>pBuffer</i> parameter. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> allocates the buffer for any pointer returned in the <i>pBuffer</i> structure. The caller can call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free any pointers allocated by the security package.
@@ -244,7 +245,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a>
+<a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a>
 
 
 
