@@ -1,7 +1,8 @@
 ---
 UID: NN:audioclient.IAudioClient2
 title: IAudioClient2 (audioclient.h)
-description: The IAudioClient2 interface is derived from the IAudioClient interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following:\_opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.helpviewer_keywords: ["IAudioClient2","IAudioClient2 interface [Core Audio]","IAudioClient2 interface [Core Audio]","described","audioclient/IAudioClient2","coreaudio.iaudioclient2"]
+description: The IAudioClient2 interface is derived from the IAudioClient interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to do the following:\_opt in for offloading, query stream properties, and get information from the hardware that handles offloading.The audio client can be successful in creating an offloaded stream if the underlying endpoint supports the hardware audio engine, the endpoint has been enumerated and discovered by the audio system, and there are still offload pin instances available on the endpoint.
+helpviewer_keywords: ["IAudioClient2","IAudioClient2 interface [Core Audio]","IAudioClient2 interface [Core Audio]","described","audioclient/IAudioClient2","coreaudio.iaudioclient2"]
 old-location: coreaudio\iaudioclient2.htm
 tech.root: CoreAudio
 ms.assetid: 9CE79CEB-115E-4802-A687-B2CB23E6A0E0
@@ -54,7 +55,7 @@ The <b>IAudioClient2</b> interface is derived from the <a href="https://docs.mic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClient2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient2</b> interface inherits from the <a href="https://docs.microsoft.com/en-us/windows/win32/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. <b>IAudioClient2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
