@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.tagWAVEOUTCAPSW
 title: WAVEOUTCAPSW (mmeapi.h)
-description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.helpviewer_keywords: ["*LPWAVEOUTCAPSW","*NPWAVEOUTCAPSW","*PWAVEOUTCAPSW","WAVEOUTCAPS","WAVEOUTCAPS structure [Windows Multimedia]","WAVEOUTCAPSW","_win32_WAVEOUTCAPS_str","mmeapi/WAVEOUTCAPS","multimedia.waveoutcaps","tagWAVEOUTCAPSA","tagWAVEOUTCAPSW","waveoutcaps_tag"]
+description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.
+helpviewer_keywords: ["*LPWAVEOUTCAPSW","*NPWAVEOUTCAPSW","*PWAVEOUTCAPSW","WAVEOUTCAPS","WAVEOUTCAPS structure [Windows Multimedia]","WAVEOUTCAPSW","_win32_WAVEOUTCAPS_str","mmeapi/WAVEOUTCAPS","multimedia.waveoutcaps","tagWAVEOUTCAPSA","tagWAVEOUTCAPSW","waveoutcaps_tag"]
 old-location: multimedia\waveoutcaps.htm
 tech.root: Multimedia
 ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2
@@ -163,9 +164,6 @@ Standard formats that are supported. Can be a combination of the following:
 Number specifying whether the device supports mono (1) or stereo (2) output.
 
 
-#### - wReserved1
-
-Packing.
 
 
 ### -field dwSupport

@@ -1,7 +1,8 @@
 ---
 UID: NS:mileffects.MilMatrix3x2D
 title: MilMatrix3x2D (mileffects.h)
-description: Represents a 3x3 matrix.helpviewer_keywords: ["MIL_MATRIX3X2D","MilMatrix3x2D","MilMatrix3x2D structure [WPF Bitmap Effects]","_wibe_mil_matrix3x2d","mileffects/MilMatrix3x2D","wibe._wibe_mil_matrix3x2d"]
+description: Represents a 3x3 matrix.
+helpviewer_keywords: ["MIL_MATRIX3X2D","MilMatrix3x2D","MilMatrix3x2D structure [WPF Bitmap Effects]","_wibe_mil_matrix3x2d","mileffects/MilMatrix3x2D","wibe._wibe_mil_matrix3x2d"]
 old-location: wibe\_wibe_mil_matrix3x2d.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_matrix3x2d.htm
@@ -59,22 +60,30 @@ Represents a 3x3 matrix.
 
 ### -field S_11
 
- 
+Type: <b>DOUBLE</b>
+
+The value of the first row and first column of the matrix.
 
 
 ### -field S_12
 
- 
+Type: <b>DOUBLE</b>
+
+The value of the first row and first second of the matrix. 
 
 
 ### -field S_21
 
- 
+Type: <b>DOUBLE</b>
+
+The value of the second row and first column of the matrix.
 
 
 ### -field S_22
 
- 
+Type: <b>DOUBLE</b>
+
+The value of the second row and second column of the matrix. 
 
 
 ### -field DX
@@ -87,30 +96,5 @@ Type: <b>DOUBLE</b>
 Type: <b>DOUBLE</b>
 
 
-#### - _11
 
-Type: <b>DOUBLE</b>
-
-The value of the first row and first column of the matrix.
-
-
-#### - _12
-
-Type: <b>DOUBLE</b>
-
-The value of the first row and first second of the matrix.
-
-
-#### - _21
-
-Type: <b>DOUBLE</b>
-
-The value of the second row and first column of the matrix.
-
-
-#### - _22
-
-Type: <b>DOUBLE</b>
-
-The value of the second row and second column of the matrix.
 

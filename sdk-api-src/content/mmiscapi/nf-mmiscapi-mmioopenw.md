@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioOpenW
 title: mmioOpenW function (mmiscapi.h)
-description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.helpviewer_keywords: ["_win32_mmioOpen","mmioOpen","mmioOpen function [Windows Multimedia]","mmioOpenA","mmioOpenW","mmsystem/mmioOpen","mmsystem/mmioOpenA","mmsystem/mmioOpenW","multimedia.mmioopen"]
+description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.
+helpviewer_keywords: ["_win32_mmioOpen","mmioOpen","mmioOpen function [Windows Multimedia]","mmioOpenA","mmioOpenW","mmsystem/mmioOpen","mmsystem/mmioOpenA","mmsystem/mmioOpenW","multimedia.mmioopen"]
 old-location: multimedia\mmioopen.htm
 tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
@@ -69,24 +70,26 @@ The <b>mmioOpen</b> function opens a file for unbuffered or buffered I/O; create
 
 ### -param pszFileName
 
-TBD
+Pointer to a buffer that contains the name of the file. If no I/O procedure is specified to open the file, the file name determines how the file is opened, as follows:
+
+<ul>
+<li>If the file name does not contain a plus sign (+), it is assumed to be the name of a standard file (that is, a file whose type is not <b>HMMIO</b>).</li>
+<li>If the file name is of the form EXAMPLE.EXT+ABC, the extension EXT is assumed to identify an installed I/O procedure which is called to perform I/O on the file. For more information, see <a href="https://docs.microsoft.com/previous-versions/dd757323(v=vs.85)">mmioInstallIOProc</a>.</li>
+<li>If the file name is <b>NULL</b> and no I/O procedure is given, the <b>adwInfo</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure is assumed to be the standard (non-<b>HMMIO</b>) file handle of a currently open file.</li>
+</ul>
+The file name should not be longer than 128 characters, including the terminating NULL character.
+
+When opening a memory file, set <i>szFilename</i> to <b>NULL</b>.
 
 
 ### -param pmmioinfo
 
-TBD
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure containing extra parameters used by <b>mmioOpen</b>. Unless you are opening a memory file, specifying the size of a buffer for buffered I/O, or specifying an uninstalled I/O procedure to open a file, this parameter should be <b>NULL</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
 
 
 ### -param fdwOpen
 
-TBD
-
-
-
-
-#### - dwOpenFlags
-
-Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flags are mutually exclusive â€” only one should be specified. The MMIO_COMPAT, MMIO_EXCLUSIVE, MMIO_DENYWRITE, MMIO_DENYREAD, and MMIO_DENYNONE flags are file-sharing flags. The following values are defined.
+Flags for the open operation. The MMIO_READ, MMIO_WRITE, and MMIO_READWRITE flags are mutually exclusive â&euro;" only one should be specified. The MMIO_COMPAT, MMIO_EXCLUSIVE, MMIO_DENYWRITE, MMIO_DENYREAD, and MMIO_DENYNONE flags are file-sharing flags. The following values are defined.
 
 <table>
 <tr>
@@ -177,107 +180,7 @@ Creates a fully qualified file name from the path specified in <i>szFilename</i>
 <td>Opens the file for writing only.</td>
 </tr>
 </table>
- 
 
-
-#### - lpmmioinfo
-
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure containing extra parameters used by <b>mmioOpen</b>. Unless you are opening a memory file, specifying the size of a buffer for buffered I/O, or specifying an uninstalled I/O procedure to open a file, this parameter should be <b>NULL</b>. If this parameter is not <b>NULL</b>, all unused members of the <b>MMIOINFO</b> structure it references must be set to zero, including the reserved members.
-
-
-#### - szFilename
-
-Pointer to a buffer that contains the name of the file. If no I/O procedure is specified to open the file, the file name determines how the file is opened, as follows:
-
-<ul>
-<li>If the file name does not contain a plus sign (+), it is assumed to be the name of a standard file (that is, a file whose type is not <b>HMMIO</b>).</li>
-<li>If the file name is of the form EXAMPLE.EXT+ABC, the extension EXT is assumed to identify an installed I/O procedure which is called to perform I/O on the file. For more information, see <a href="https://docs.microsoft.com/previous-versions/dd757323(v=vs.85)">mmioInstallIOProc</a>.</li>
-<li>If the file name is <b>NULL</b> and no I/O procedure is given, the <b>adwInfo</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure is assumed to be the standard (non-<b>HMMIO</b>) file handle of a currently open file.</li>
-</ul>
-The file name should not be longer than 128 characters, including the terminating NULL character.
-
-When opening a memory file, set <i>szFilename</i> to <b>NULL</b>.
-
-
-## -returns
-
-
-
-Returns a handle of the opened file. If the file cannot be opened, the return value is <b>NULL</b>. If <i>lpmmioinfo</i> is not <b>NULL</b>, the <b>wErrorRet</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure will contain one of the following error values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMIOERR_ACCESSDENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file is protected and cannot be opened.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMIOERR_INVALIDFILE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Another failure condition occurred. This is the default error for an open-file failure.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMIOERR_NETWORKERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The network is not responding to the request to open a remote file.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMIOERR_PATHNOTFOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The directory specification is incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMIOERR_SHARINGVIOLATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file is being used by another application and is unavailable.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>MMIOERR_TOOMANYOPENFILES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The number of files simultaneously open is at a maximum level. The system has run out of available file handles.
-
-</td>
-</tr>
-</table>
- 
 
 
 
