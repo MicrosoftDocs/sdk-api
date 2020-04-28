@@ -1,7 +1,8 @@
 ---
 UID: NF:winstring.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (winstring.h)
-description: Unmarshals an HSTRING object from the RPC buffer.helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
+description: Unmarshals an HSTRING object from the RPC buffer.
+helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686
@@ -45,38 +46,31 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# HSTRING_UserUnmarshal function
-
-
 ## -description
 
-
-Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
-
+Unmarshals an [**HSTRING**](/windows/win32/winrt/hstring) object from the RPC buffer.
 
 ## -parameters
 
+### -pFlags
 
-
-
-#### - pFlags [in]
+[in]
 
 The data used by RPC.
 
+### -pBuffer
 
-#### - pBuffer [in]
+[in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
+### -ppidl
 
-#### - ppidl [out]
+[out]
 
 The string.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -108,18 +102,7 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
- 
-
- 
-
+[**HSTRING**](/windows/win32/winrt/hstring)

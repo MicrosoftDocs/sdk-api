@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.tagWAVEINCAPSA
 title: WAVEINCAPSA (mmeapi.h)
-description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device.helpviewer_keywords: ["*LPWAVEINCAPSA","*NPWAVEINCAPSA","*PWAVEINCAPSA","WAVEINCAPS","WAVEINCAPS structure [Windows Multimedia]","WAVEINCAPSA","_win32_WAVEINCAPS_str","mmeapi/WAVEINCAPS","multimedia.waveincaps","tagWAVEINCAPSA","tagWAVEINCAPSW","waveincaps_tag"]
+description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device.
+helpviewer_keywords: ["*LPWAVEINCAPSA","*NPWAVEINCAPSA","*PWAVEINCAPSA","WAVEINCAPS","WAVEINCAPS structure [Windows Multimedia]","WAVEINCAPSA","_win32_WAVEINCAPS_str","mmeapi/WAVEINCAPS","multimedia.waveincaps","tagWAVEINCAPSA","tagWAVEINCAPSW","waveincaps_tag"]
 old-location: multimedia\waveincaps.htm
 tech.root: Multimedia
 ms.assetid: e96524fd-82d3-4363-989b-23fb20786f3c
@@ -162,10 +163,6 @@ Standard formats that are supported. Can be a combination of the following:
 
 Number specifying whether the device supports mono (1) or stereo (2) input.
 
-
-#### - wReserved1
-
-Padding.
 
 
 ## -see-also
