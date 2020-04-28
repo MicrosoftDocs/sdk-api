@@ -53,13 +53,13 @@ Describes the blend state that you use in a call to [**D3D11Device1::CreateBlend
 
 ## -struct-fields
 
-### -AlphaToCoverageEnable
+### -field AlphaToCoverageEnable
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether to use alpha-to-coverage as a multisampling technique when setting a pixel to a render target. For more info about using alpha-to-coverage, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-blend-state">Alpha-To-Coverage</a>.
 
-### -IndependentBlendEnable
+### -field IndependentBlendEnable
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
@@ -67,7 +67,7 @@ Specifies whether to enable independent blending in simultaneous render targets.
 
 See the **Remarks** section for restrictions.
 
-### -RenderTarget
+### -field RenderTarget
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_render_target_blend_desc1">D3D11_RENDER_TARGET_BLEND_DESC1</a>[8]</b>
 
