@@ -4,7 +4,7 @@ title: CRYPTO_SETTINGS
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: Indicates disabled cryptographic settings.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
