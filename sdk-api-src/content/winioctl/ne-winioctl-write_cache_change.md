@@ -1,7 +1,8 @@
 ---
 UID: NE:winioctl._WRITE_CACHE_CHANGE
 title: WRITE_CACHE_CHANGE
-description: Indicates whether the write cache features of a device are changeable.helpviewer_keywords: ["WRITE_CACHE_CHANGE","WRITE_CACHE_CHANGE enumeration [Files]","WriteCacheChangeUnknown","WriteCacheChangeable","WriteCacheNotChangeable","fs.write_cache_change","winioctl/WRITE_CACHE_CHANGE","winioctl/WriteCacheChangeUnknown","winioctl/WriteCacheChangeable","winioctl/WriteCacheNotChangeable"]
+description: Indicates whether the write cache features of a device are changeable.
+helpviewer_keywords: ["WRITE_CACHE_CHANGE","WRITE_CACHE_CHANGE enumeration [Files]","WriteCacheChangeUnknown","WriteCacheChangeable","WriteCacheNotChangeable","fs.write_cache_change","winioctl/WRITE_CACHE_CHANGE","winioctl/WriteCacheChangeUnknown","winioctl/WriteCacheChangeable","winioctl/WriteCacheNotChangeable"]
 old-location: fs\write_cache_change.htm
 tech.root: FileIO
 ms.assetid: a6974092-fa4f-4524-96ec-b4fad0b8c5ea
@@ -44,17 +45,12 @@ req.redist:
 
 # WRITE_CACHE_CHANGE enumeration
 
-
 ## -description
-
 
 Indicates whether the write cache features of a device are changeable.
 
 
 ## -enum-fields
-
-
-
 
 ### -field WriteCacheChangeUnknown
 
@@ -73,30 +69,11 @@ Host software can change the characteristics of the device's write cache.
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request 
-    returns a <b>WRITE_CACHE_CHANGE</b> value in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
-
-
+The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) request returns a **WRITE_CACHE_CHANGE** value in the [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md) structure.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
+* [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md)

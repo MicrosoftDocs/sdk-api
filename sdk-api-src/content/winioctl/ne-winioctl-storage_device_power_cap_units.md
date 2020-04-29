@@ -1,7 +1,8 @@
 ---
 UID: NE:winioctl._STORAGE_DEVICE_POWER_CAP_UNITS
 title: STORAGE_DEVICE_POWER_CAP_UNITS
-description: The units of the maximum power threshold.helpviewer_keywords: ["*PSTORAGE_DEVICE_POWER_CAP_UNITS","STORAGE_DEVICE_POWER_CAP_UNITS","STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files]","StorageDevicePowerCapUnitsMilliwatts","StorageDevicePowerCapUnitsPercent","fs.storage_device_power_cap_units","winioctl/STORAGE_DEVICE_POWER_CAP_UNITS","winioctl/StorageDevicePowerCapUnitsMilliwatts","winioctl/StorageDevicePowerCapUnitsPercent"]
+description: The units of the maximum power threshold.
+helpviewer_keywords: ["*PSTORAGE_DEVICE_POWER_CAP_UNITS","STORAGE_DEVICE_POWER_CAP_UNITS","STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files]","StorageDevicePowerCapUnitsMilliwatts","StorageDevicePowerCapUnitsPercent","fs.storage_device_power_cap_units","winioctl/STORAGE_DEVICE_POWER_CAP_UNITS","winioctl/StorageDevicePowerCapUnitsMilliwatts","winioctl/StorageDevicePowerCapUnitsPercent"]
 old-location: fs\storage_device_power_cap_units.htm
 tech.root: FileIO
 ms.assetid: A6C48765-9A18-4F77-8B0F-9653CE6FDE23
@@ -44,17 +45,12 @@ req.redist:
 
 # STORAGE_DEVICE_POWER_CAP_UNITS enumeration
 
-
 ## -description
-
 
 The units of the maximum power threshold.
 
 
 ## -enum-fields
-
-
-
 
 ### -field StorageDevicePowerCapUnitsPercent
 
@@ -68,15 +64,6 @@ Units in milliwatts.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
- 
-
- 
+* [IOCTL_STORAGE_DEVICE_POWER_CAP](ni-winioctl-ioctl_storage_device_power_cap.md)
+* [STORAGE_DEVICE_POWER_CAP](ns-winioctl-storage_device_power_cap.md)
 
