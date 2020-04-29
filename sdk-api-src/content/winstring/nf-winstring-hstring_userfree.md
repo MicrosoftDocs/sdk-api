@@ -52,13 +52,13 @@ Frees resources on the server side when called by RPC stub files.
 
 ## -parameters
 
-### -pFlags
+### -param pFlags
 
 [in]
 
 The data used by RPC.
 
-### -ppidl
+### -param ppidl
 
 [in]
 

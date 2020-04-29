@@ -52,19 +52,19 @@ Marshals an [**HSTRING**](/windows/win32/winrt/hstring) object into the RPC buff
 
 ## -parameters
 
-### -pFlags
+### -param pFlags
 
 [in]
 
 The data used by RPC.
 
-### -pBuffer
+### -param pBuffer
 
 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -ppidl
+### -param ppidl
 
 [in]
 

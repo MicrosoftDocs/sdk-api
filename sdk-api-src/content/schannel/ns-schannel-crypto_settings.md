@@ -4,7 +4,7 @@ title: CRYPTO_SETTINGS
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: Indicates disabled cryptographic settings.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -82,5 +82,7 @@ If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit l
 
 ## -see-also
 [SCH_CREDENTIALS](ns-schannel-sch_credentials.md)
+
+[TLS_PARAMETERS](ns-schannel-tls_parameters.md)
 
 [eTlsAlgorithmUsage](ne-schannel-etlsalgorithmusage.md)
