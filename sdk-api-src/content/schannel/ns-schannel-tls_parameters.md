@@ -76,4 +76,5 @@ Otherwise, schannel may fail TLS handshakes in order to honor the TLS_PARAMETERS
 
 ## -see-also
 [SCH_CREDENTIALS](ns-schannel-sch_credentials.md)
-[test](https://docs.microsoft.com/cpp/build/reference/cetcompat?view=vs-2019)
+
+[CRYPTO_SETTINGS](ns-schannel-crypto_settings.md)
