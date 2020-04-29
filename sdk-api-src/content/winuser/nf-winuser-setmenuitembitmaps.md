@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetMenuItemBitmaps
 title: SetMenuItemBitmaps function (winuser.h)
-description: Associates the specified bitmap with a menu item. Whether the menu item is selected or clear, the system displays the appropriate bitmap next to the menu item.helpviewer_keywords: ["MF_BYCOMMAND","MF_BYPOSITION","SetMenuItemBitmaps","SetMenuItemBitmaps function [Menus and Other Resources]","_win32_SetMenuItemBitmaps","_win32_setmenuitembitmaps_cpp","menurc.setmenuitembitmaps","winui._win32_setmenuitembitmaps","winuser/SetMenuItemBitmaps"]
+description: Associates the specified bitmap with a menu item. Whether the menu item is selected or clear, the system displays the appropriate bitmap next to the menu item.
+helpviewer_keywords: ["MF_BYCOMMAND","MF_BYPOSITION","SetMenuItemBitmaps","SetMenuItemBitmaps function [Menus and Other Resources]","_win32_SetMenuItemBitmaps","_win32_setmenuitembitmaps_cpp","menurc.setmenuitembitmaps","winui._win32_setmenuitembitmaps","winuser/SetMenuItemBitmaps"]
 old-location: menurc\setmenuitembitmaps.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuitembitmaps.htm
@@ -146,7 +147,7 @@ When the menu is destroyed, these bitmaps are not destroyed; it is up to the app
 
 The selected and clear bitmaps should be monochrome. The system uses the Boolean AND operator to combine bitmaps with the menu so that the white part becomes transparent and the black part becomes the menu-item color. If you use color bitmaps, the results may be undesirable.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function with the <b>CXMENUCHECK</b> and <b>CYMENUCHECK</b> values to retrieve the bitmap dimensions.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function with the <b>SM_CXMENUCHECK</b> and <b>SM_CYMENUCHECK</b> values to retrieve the bitmap dimensions.
 
 
 #### Examples
