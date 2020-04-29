@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngine
 title: IMFMediaEngine (mfmediaengine.h)
-description: Enables an application to play audio or video files.helpviewer_keywords: ["IMFMediaEngine","IMFMediaEngine interface [Media Foundation]","IMFMediaEngine interface [Media Foundation]","described","mf.imfmediaengine","mfmediaengine/IMFMediaEngine"]
+description: Enables an application to play audio or video files.
+helpviewer_keywords: ["IMFMediaEngine","IMFMediaEngine interface [Media Foundation]","IMFMediaEngine interface [Media Foundation]","described","mf.imfmediaengine","mfmediaengine/IMFMediaEngine"]
 old-location: mf\imfmediaengine.htm
 tech.root: medfound
 ms.assetid: A0023F18-2D28-4F0D-9B00-B8FB11567034
@@ -470,7 +471,7 @@ This interface is extended with <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Media%20engine%20native%20C%2B%2B%20video%20playback%20sample%20(Windows%208)">Media Engine Sample</a>
 
 
 
