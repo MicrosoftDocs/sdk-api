@@ -83,7 +83,7 @@ You can also create a multithreaded factory instance. In this case, the factory 
 Note the qualifier "On the CPU": GPUs generally take advantage of fine-grained parallelism more so than CPUs. For example, multithreaded calls from the CPU might still end up being serialized when being sent to the GPU; however, a whole bank of pixel and vertex shaders will run in parallel to perform the rendering.
 
 
-#### Examples
+## Examples
 
 The following code fragments declare a factory pointer, create a singlethreaded factory instance, and use the factory to create a render target.
 

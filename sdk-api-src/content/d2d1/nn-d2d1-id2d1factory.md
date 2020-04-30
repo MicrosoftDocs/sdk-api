@@ -217,7 +217,7 @@ Note that the qualifier "On the CPU": GPUs generally take advantage of fine-grai
 See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a> for more info.
 
 
-#### Examples
+## Examples
 
 The following code fragments declare a factory pointer, create a singlethreaded factory instance, and use the factory to create a render target.
 

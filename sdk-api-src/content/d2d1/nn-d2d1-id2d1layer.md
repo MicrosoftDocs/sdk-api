@@ -97,7 +97,7 @@ To create a layer, call the <a href="https://docs.microsoft.com/windows/desktop/
 A layer is a device-dependent resource: your application should create layers after it initializes the render target with which the layers will be used, and recreate the layers whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
-#### Examples
+## Examples
 
 The following example uses a layer to clip a drawing to a geometric mask. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-layers">How to Clip to a Geometric Mask</a>.
 

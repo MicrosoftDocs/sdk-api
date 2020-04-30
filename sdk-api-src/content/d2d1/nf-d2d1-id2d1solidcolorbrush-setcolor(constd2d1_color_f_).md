@@ -71,7 +71,7 @@ The color of this solid-color brush.
 To help create colors, Direct2D provides the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a> class. It offers several helper methods for creating colors and provides a set or predefined colors. 
 
 
-#### Examples
+## Examples
 
 The following code shows  how to use this method.
 

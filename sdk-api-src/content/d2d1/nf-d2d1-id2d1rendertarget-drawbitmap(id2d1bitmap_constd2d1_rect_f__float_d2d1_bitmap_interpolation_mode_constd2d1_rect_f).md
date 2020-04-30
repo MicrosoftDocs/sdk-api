@@ -99,7 +99,7 @@ The size and position, in device-independent pixels in the bitmap's coordinate s
 This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
-#### Examples
+## Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-a-bitmap">How to Draw a Bitmap</a>. For an example showing how to load a bitmap from a resource or a file, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-bitmap-from-a-resource">How to Load a Bitmap from a Resource</a> and <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a Bitmap from a File</a>.
 

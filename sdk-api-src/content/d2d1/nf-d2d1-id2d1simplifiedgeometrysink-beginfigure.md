@@ -78,7 +78,7 @@ Whether the new figure should be hollow or filled.
 If this method is called while a figure is currently in progress, the interface is invalidated and all future methods will fail.
 
 
-#### Examples
+## Examples
 
 The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. 
 

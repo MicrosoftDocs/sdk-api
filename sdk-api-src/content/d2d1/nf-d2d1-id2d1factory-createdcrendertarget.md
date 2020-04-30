@@ -93,7 +93,7 @@ To enable the DC render target to work with GDI, set the render target's DXGI fo
 Your application should create render targets once and hold on to them for the life of the application or until the render target's  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, recreate the render target (and any resources it created).
 
 
-#### Examples
+## Examples
 
 The following code creates a DC render target.
 

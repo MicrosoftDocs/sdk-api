@@ -91,7 +91,7 @@ The following illustration shows the different geometry combine modes.
 
 <img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="./images/geometry_combine_modes.png"/>
 
-#### Examples
+## Examples
 
 The following code uses each of the different combine modes to combine two <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a> objects. 
 

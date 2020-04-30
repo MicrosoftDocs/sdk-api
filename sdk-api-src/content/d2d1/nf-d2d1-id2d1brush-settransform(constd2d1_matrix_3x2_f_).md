@@ -81,7 +81,7 @@ The illustration on the right shows the result of transforming the <a href="http
 <img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="images/brushes_ovw_transform.png"/>
 
 
-#### Examples
+## Examples
 
 The following code examples show how to create the transformation shown in the right diagram in the preceding illustration. First apply a translation to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>, moving the brush 50 pixels right along the x-axis and 50 pixels down along the y-axis. Then use the <b>ID2D1BitmapBrush</b> to fill  the rectangle that has the upper-left corner at (100, 100) and the lower-right corner at (200, 200).   
 

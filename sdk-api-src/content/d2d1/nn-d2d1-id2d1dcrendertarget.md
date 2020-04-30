@@ -112,7 +112,7 @@ SetLayout(m_hwnd, LAYOUT_BITMAPORIENTATIONPRESERVED);
 
 
 
-#### Examples
+## Examples
 
 The following code creates a DC render target.
 

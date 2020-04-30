@@ -89,7 +89,7 @@ To create a mesh, call the <a href="https://docs.microsoft.com/windows/desktop/a
 A mesh is a device-dependent resource: your application should create meshes after it initializes the render target with which the meshes will be used, and recreate the meshes whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
-#### Examples
+## Examples
 
 The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set of vertices that form a list of triangles.  
 

@@ -78,7 +78,7 @@ When this method returns, contains the vertical DPI of the desktop. You must all
 Use this method to obtain the system DPI when setting physical pixel values, such as when you specify the size of a window.
 
 
-#### Examples
+## Examples
 
 The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI and set the initial size of a window.
 

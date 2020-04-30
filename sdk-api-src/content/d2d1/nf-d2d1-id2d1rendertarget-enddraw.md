@@ -103,7 +103,7 @@ Calling <b>BeginDraw</b> twice on a render target puts the target into an error 
 
 
 
-#### Examples
+## Examples
 
 The following example uses an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw text to a window.
 

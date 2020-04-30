@@ -85,7 +85,7 @@ When drawn, the [0, 1] range of positions is mapped to the brush, in a brush-dep
 Gradient stops with a position outside the [0, 1] range cannot be seen explicitly, but they can still affect the colors produced in the [0, 1] range. For example, a two-stop gradient {{0.0f, Black}, {2.0f, White}} is indistinguishable visually from {{0.0f, Black}, {1.0f, Mid-level gray}}. Also, the colors are clamped before interpolation.
 
 
-#### Examples
+## Examples
 
 The following example creates an array of gradient stops, then uses them to create 
         an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>.

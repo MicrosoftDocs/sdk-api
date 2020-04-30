@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Before you can render with the DC render target, you must use its <b>BindDC</b> method to associate it with a GDI DC.  You do this each time you  use a different DC, or the size of the area you want to draw to changes.
 
 
-#### Examples
+## Examples
 
 In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>. 
 

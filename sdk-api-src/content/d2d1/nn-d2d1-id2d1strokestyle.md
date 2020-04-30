@@ -161,7 +161,7 @@ To create a stroke style, use the <a href="https://docs.microsoft.com/windows/de
 A stroke style is a device-indenpendent resource; you can create it once then retain it for the life of your application. For more information about resources, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
-#### Examples
+## Examples
 
 The following example creates a stroke that uses a custom dash pattern.
         

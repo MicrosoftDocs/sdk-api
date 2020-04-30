@@ -117,7 +117,7 @@ To create an <b>ID2D1GradientStopCollection</b>, use the  <a href="/windows/win3
 A gradient stop collection is a device-dependent resource: your application should create gradient stop collections after it initializes the render target with which the gradient stop collection will be used, and recreate the gradient stop collection whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
-#### Examples
+## Examples
 
 The following example creates an array of gradient stops, then uses them to create an <b>ID2D1GradientStopCollection</b>.
 

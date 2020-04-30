@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The bitmap brush created by this method has an opacity of 1.0f and the identity matrix as its transform.
 
 
-#### Examples
+## Examples
 
 For an example showing how to paint an area with a bitmap brush, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>. 
 

@@ -120,7 +120,7 @@ To use the default DPI, set <i>dpiX</i> and <i>dpiY</i> to 0. The default DPI va
 To use the default DPI setting, both <i>dpiX</i> and <i>dpiY</i> must be set to 0. Setting only one value to 0 causes an  <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">E_INVALIDARG</a> error when attempting to create a render target.
 
 
-#### Examples
+## Examples
 
 The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-rendertargetproperties">D2D1::RenderTargetProperties</a> function to create a <b>D2D1_RENDER_TARGET_PROPERTIES</b> structure suitable for most render targets. 
 
