@@ -76,7 +76,7 @@ Type: <b>UINT32</b>
 
 This method returns the maximum texture size of the Direct3D device.
 
-<div class="alert"><b>Note</b>  The software renderer and WARP devices return the value of 16 megapixels (16*1024*1024).  You can create a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> texture that is this size, but not a Direct3D texture that is this size.</div>
+<div class="alert"><b>Note</b>  The software renderer and WARP devices return the value of 16 megapixels (16*1024*1024).  You can create a <a href="/windows/win32/Direct2D/direct2d-portal">Direct2D</a> texture that is this size, but not a Direct3D texture that is this size.</div>
 <div> </div>
 
 
@@ -86,7 +86,7 @@ This method returns the maximum texture size of the Direct3D device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

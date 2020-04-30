@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the type of information provided by the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.  
+Indicates the type of information provided by the <a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.  
 
 
 ## -enum-fields
@@ -86,7 +86,7 @@ Direct2D sends error messages, warnings, and additional diagnostic information t
 
 
 
-To receive debugging messages, you must install the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.
+To receive debugging messages, you must install the <a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.
 
 
 
@@ -96,11 +96,11 @@ To receive debugging messages, you must install the <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_factory_options">D2D1_FACTORY_OPTIONS</a>
+<a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_factory_options">D2D1_FACTORY_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>
+<a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>
  
 
  

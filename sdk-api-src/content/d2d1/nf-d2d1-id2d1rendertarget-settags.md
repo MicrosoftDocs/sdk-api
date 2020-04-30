@@ -59,14 +59,14 @@ Specifies a label for subsequent drawing operations.
 
 ### -param tag1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a></b>
 
 A label to apply to subsequent drawing operations.
 
 
 ### -param tag2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a></b>
 
 A label to apply to subsequent drawing operations.
 
@@ -85,7 +85,7 @@ The labels specified by this method are printed by debug error messages. If no t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

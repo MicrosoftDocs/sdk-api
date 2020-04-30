@@ -59,7 +59,7 @@ Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 
 ### -param roundedRect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a>*</b>
 
 A pointer that receives a rounded rectangle that describes this rounded rectangle geometry. You must allocate storage for this parameter. 
 
@@ -69,7 +69,7 @@ A pointer that receives a rounded rectangle that describes this rounded rectangl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>
  
 
  

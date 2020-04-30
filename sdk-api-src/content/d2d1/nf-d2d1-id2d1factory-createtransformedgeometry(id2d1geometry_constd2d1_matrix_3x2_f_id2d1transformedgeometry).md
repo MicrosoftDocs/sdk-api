@@ -46,25 +46,25 @@ ms.custom: 19H1
 
 ## -description
 
-Transforms the specified geometry and stores the result as an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object.
+Transforms the specified geometry and stores the result as an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object.
 
 ## -parameters
 
 ### -param sourceGeometry
 
-Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
+Type: [in] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometry to transform.
 
 ### -param transform
 
-Type: [in] <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> \*</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> \*</b>
 
 The transformation to apply. 
 
 ### -param transformedGeometry
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>**</b>
 
 When this method returns, contains the address of the pointer to the new transformed geometry object. The transformed geometry stores the result of transforming <i>sourceGeometry</i> by <i>transform</i>.
 
@@ -72,17 +72,17 @@ When this method returns, contains the address of the pointer to the new transfo
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
 Like other resources, a transformed geometry inherits the resource space and threading policy of the factory that created it. This object is immutable.
 
-When stroking a transformed geometry with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">DrawGeometry</a> method, the stroke width is not affected by the transform applied to the geometry. The stroke width is only affected by the world transform.
+When stroking a transformed geometry with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">DrawGeometry</a> method, the stroke width is not affected by the transform applied to the geometry. The stroke width is only affected by the world transform.
 
 ## Examples
 
-The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
+The following example creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
 <img alt="Illustration of a rectangle" src="images/transformedgeometry2_step1.png"/>
 
@@ -108,7 +108,7 @@ m_pRenderTarget->SetTransform(
 m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 ```
 
-The next example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="images/transformedgeometry2_step3.png"/>
 
@@ -137,6 +137,6 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>

@@ -59,7 +59,7 @@ Specifies the text-rendering configuration of the drawing state.
 
 ### -param textRenderingParams [optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
 
 The text-rendering configuration of the drawing state, or NULL to use default settings.
 
@@ -69,7 +69,7 @@ The text-rendering configuration of the drawing state, or NULL to use default se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

@@ -46,42 +46,42 @@ ms.custom: 19H1
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
+Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
 
-When you create a render target, and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a> error is received. When you receive this error, you need to recreate the render target (and any resources it created).
+When you create a render target, and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the <a href="/windows/win32/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a> error is received. When you receive this error, you need to recreate the render target (and any resources it created).
 
 ### -param renderTargetProperties
 
-Type: [in] <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> \*</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> \*</b>
 
-The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering.  For information about supported pixel formats, see  <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
+The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering.  For information about supported pixel formats, see  <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
 
 ### -param hwndRenderTargetProperties
 
-Type: [in] <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_hwnd_render_target_properties">D2D1_HWND_RENDER_TARGET_PROPERTIES</a> \*</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_hwnd_render_target_properties">D2D1_HWND_RENDER_TARGET_PROPERTIES</a> \*</b>
 
 The window handle, initial size (in pixels), and present options.
 
 ### -param hwndRenderTarget
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>**</b>
 
-When this method returns, contains the address of the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> object created by this method.
+When this method returns, contains the address of the pointer to the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> object created by this method.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
-When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error is received. When you receive this error, you need to recreate the render target (and any resources it created).
+When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the <a href="/windows/win32/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error is received. When you receive this error, you need to recreate the render target (and any resources it created).
 
 
 ## Examples
 
-The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>. 
+The following example creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>. 
 
 ```cpp
 RECT rc;
@@ -102,4 +102,4 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>

@@ -59,14 +59,14 @@ Draws the outline of the specified geometry using the specified stroke style.
 
 ### -param geometry [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometry to draw.
 
 
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the geometry's stroke.
 
@@ -80,7 +80,7 @@ The width of the stroke, in device-independent pixels. The value must be greater
 
 ### -param strokeStyle [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of stroke to apply to the geometry's outline, or <b>NULL</b> to paint a solid stroke.
 
@@ -89,12 +89,12 @@ The style of stroke to apply to the geometry's outline, or <b>NULL</b> to paint 
 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawGeometry</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawGeometry</b>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
-#### Examples
+## Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>.
+For an example, see <a href="/windows/win32/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>.
 
 <div class="code"></div>
 
@@ -105,15 +105,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/geometries">Geometries</a>
+<a href="/windows/win32/Direct2D/geometries">Geometries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

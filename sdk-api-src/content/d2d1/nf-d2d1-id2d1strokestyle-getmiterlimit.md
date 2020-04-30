@@ -75,7 +75,7 @@ A positive number greater than or equal to 1.0f that describes the limit on the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

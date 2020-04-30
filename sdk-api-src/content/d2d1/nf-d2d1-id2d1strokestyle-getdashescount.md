@@ -75,7 +75,7 @@ The number of entries in the dashes array if the stroke is dashed; otherwise, 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

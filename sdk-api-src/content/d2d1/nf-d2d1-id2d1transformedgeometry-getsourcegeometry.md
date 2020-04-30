@@ -59,7 +59,7 @@ Retrieves the source geometry of this transformed geometry object.
 
 ### -param sourceGeometry [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>**</b>
 
 When this method returns, contains a pointer to a pointer to the source geometry for this transformed geometry object. This parameter is passed uninitialized.
 
@@ -69,7 +69,7 @@ When this method returns, contains a pointer to a pointer to the source geometry
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
  
 
  

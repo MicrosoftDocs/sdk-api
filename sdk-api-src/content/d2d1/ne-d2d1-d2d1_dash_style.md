@@ -109,7 +109,7 @@ The following illustration shows several available dash styles.
 
 <img alt="Illustration of available dash styles" src="./images/StrokeStyle_DashStyle.png"/>
 
-#### Examples
+## Examples
 
 The following example creates a stroke that uses a custom dash pattern.
         

@@ -59,7 +59,7 @@ Retrieves the antialiasing mode, transform, and tags portion of the drawing stat
 
 ### -param stateDescription [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a>*</b>
 
 When this method returns, contains the antialiasing mode, transform, and tags portion of the drawing state. You must allocate storage for this parameter.
 
@@ -69,11 +69,11 @@ When this method returns, contains the antialiasing mode, transform, and tags po
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a>
+<a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

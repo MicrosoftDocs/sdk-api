@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> from the specified bitmap. The brush uses the default values for its opacity and transform.
+Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> from the specified bitmap. The brush uses the default values for its opacity and transform.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-
 
 ### -param bitmap [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap contents of the new brush.
 
 
 ### -param bitmapBrushProperties [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_brush_properties">D2D1_BITMAP_BRUSH_PROPERTIES</a></b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bitmap_brush_properties">D2D1_BITMAP_BRUSH_PROPERTIES</a></b>
 
 The extend modes and interpolation mode of the new brush. 
 
 
 ### -param bitmapBrush [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>**</b>
 
 When this method returns, contains a pointer to a pointer to the new brush. This parameter is passed uninitialized.
 
@@ -84,7 +84,7 @@ When this method returns, contains a pointer to a pointer to the new brush. This
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -96,9 +96,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The bitmap brush created by this method has an opacity of 1.0f and the identity matrix as its transform.
 
 
-#### Examples
+## Examples
 
-For an example showing how to paint an area with a bitmap brush, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>. 
+For an example showing how to paint an area with a bitmap brush, see <a href="/windows/win32/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>. 
 
 <div class="code"></div>
 
@@ -109,15 +109,15 @@ For an example showing how to paint an area with a bitmap brush, see <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>
+<a href="/windows/win32/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

@@ -76,7 +76,7 @@ The device context is cleared to transparent black when it is initialized.
 
 
 
-Use this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> method to specify how the device context is  initialized for GDI rendering.
+Use this enumeration with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> method to specify how the device context is  initialized for GDI rendering.
 
 
 
@@ -86,7 +86,7 @@ Use this enumeration with the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a>
  
 
  

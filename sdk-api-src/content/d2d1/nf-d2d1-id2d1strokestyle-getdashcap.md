@@ -63,7 +63,7 @@ Gets a value that specifies how the ends of each dash are drawn.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
 A value that specifies how the ends of each dash are drawn.
 
@@ -75,7 +75,7 @@ A value that specifies how the ends of each dash are drawn.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the geometries in the geometry group.
 
 ### -param geometries [out]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>**</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>**</b>
 
 When this method returns, contains the address of a pointer to an array of geometries to be filled by this method. The length of the array is specified by the <i>geometryCount</i> parameter. If the array is <b>NULL</b>, then this method performs no operation. You must allocate the memory for this array.
 
@@ -68,7 +68,7 @@ When this method returns, contains the address of a pointer to an array of geome
 
 Type: <b>UINT</b>
 
-A value indicating the number of geometries to return in the <i>geometries</i> array. If this value is less than the number of geometries in the geometry group, the remaining geometries are omitted. If this value is larger than the number of geometries in the geometry group, the extra geometries are set to <b>NULL</b>. To obtain the number of geometries currently in the geometry group, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a> method.
+A value indicating the number of geometries to return in the <i>geometries</i> array. If this value is less than the number of geometries in the geometry group, the remaining geometries are omitted. If this value is larger than the number of geometries in the geometry group, the extra geometries are set to <b>NULL</b>. To obtain the number of geometries currently in the geometry group, use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a> method.
 
 
 ## -remarks
@@ -85,7 +85,7 @@ The returned geometries are referenced and  counted, and the caller must release
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>
  
 
  

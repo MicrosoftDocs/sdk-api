@@ -59,7 +59,7 @@ Specifies the color of this solid-color brush.
 
 ### -param color [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a></b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-color-f">D2D1_COLOR_F</a></b>
 
 The color of this solid-color brush.
 
@@ -68,10 +68,10 @@ The color of this solid-color brush.
 
 
 
-To help create colors, Direct2D provides the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a> class. It offers several helper methods for creating colors and provides a set or predefined colors. 
+To help create colors, Direct2D provides the <a href="/windows/win32/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a> class. It offers several helper methods for creating colors and provides a set or predefined colors. 
 
 
-#### Examples
+## Examples
 
 The following code shows  how to use this method.
 
@@ -103,7 +103,7 @@ The following code shows  how to use this method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a>
  
 
  

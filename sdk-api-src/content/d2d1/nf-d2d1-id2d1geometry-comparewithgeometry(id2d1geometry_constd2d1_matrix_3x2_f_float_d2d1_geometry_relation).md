@@ -52,13 +52,13 @@ Describes the intersection between this geometry and the specified geometry. The
 
 ### -param inputGeometry
 
-Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
+Type: [in] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometry to test. 
 
 ### -param inputGeometryTransform
 
-Type: [in, optional] <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: [in, optional] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to <i>inputGeometry</i>, or <b>NULL</b>.
 
@@ -70,7 +70,7 @@ The maximum error allowed when constructing a polygonal approximation of the geo
 
 ### -param relation
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>*</b>
+Type: [out] <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>*</b>
 
 When this method returns, contains a pointer to a value that describes how this geometry is related to <i>inputGeometry</i>. You must allocate storage for this parameter. 
 
@@ -78,18 +78,18 @@ When this method returns, contains a pointer to a value that describes how this 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
-When interpreting the returned <i>relation</i> value, it is important to remember that the member <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION_IS_CONTAINED</a> of the  <b>D2D1_GEOMETRY_RELATION</b> enumeration type means that this geometry is contained  inside <i>inputGeometry</i>, not that this geometry contains <i>inputGeometry</i>. 
+When interpreting the returned <i>relation</i> value, it is important to remember that the member <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION_IS_CONTAINED</a> of the  <b>D2D1_GEOMETRY_RELATION</b> enumeration type means that this geometry is contained  inside <i>inputGeometry</i>, not that this geometry contains <i>inputGeometry</i>. 
 
-For  more information about how to interpret other possible return values, see <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>.
+For  more information about how to interpret other possible return values, see <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>
+<a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>
+<a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
