@@ -52,7 +52,7 @@ Creates a set of clockwise-wound triangles that cover the geometry after it has 
 
 ### -param worldTransform
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to this geometry.
 

@@ -52,7 +52,7 @@ Creates a cubic Bezier curve between the current point and the specified end poi
 
 ### -param bezier
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bezier_segment">D2D1_BEZIER_SEGMENT</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bezier_segment">D2D1_BEZIER_SEGMENT</a>*</b>
 
 A structure that describes the control points and end point of the Bezier curve to add.
 

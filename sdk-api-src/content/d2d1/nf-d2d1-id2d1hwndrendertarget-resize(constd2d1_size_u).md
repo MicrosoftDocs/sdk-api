@@ -52,7 +52,7 @@ Changes the size of the render target to the specified pixel size.
 
 ### -param pixelSize
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a>*</b>
 
 The new size of the render target in device pixels.
 

@@ -70,7 +70,7 @@ The byte count of each scanline, which is equal to (the image width in pixels ×
 
 ### -param bitmapProperties
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bitmap_properties">D2D1_BITMAP_PROPERTIES</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bitmap_properties">D2D1_BITMAP_PROPERTIES</a>*</b>
 
 The pixel format and dots per inch (DPI) of the bitmap to create.
 

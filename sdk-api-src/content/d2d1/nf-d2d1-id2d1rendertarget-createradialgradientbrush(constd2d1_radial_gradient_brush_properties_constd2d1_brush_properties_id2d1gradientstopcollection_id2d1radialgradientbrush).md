@@ -52,13 +52,13 @@ Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID
 
 ### -param radialGradientBrushProperties
 
-Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a> *</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_radial_gradient_brush_properties">D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES</a>*</b>
 
 The center, gradient origin offset, and x-radius and y-radius of the brush's gradient.
 
 ### -param brushProperties
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a>*</b>
 
 The transform and base opacity of the new brush.
 

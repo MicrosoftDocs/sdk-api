@@ -52,7 +52,7 @@ Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometr
 
 ### -param roundedRectangle
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a> \*</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a>*</b>
 
 The coordinates and corner radii of the rounded rectangle geometry.
 

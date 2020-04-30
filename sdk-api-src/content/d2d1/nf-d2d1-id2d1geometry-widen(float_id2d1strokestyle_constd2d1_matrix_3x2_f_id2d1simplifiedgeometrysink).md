@@ -64,7 +64,7 @@ The style of stroke to apply to the geometry, or <b>NULL</b>.
 
 ### -param worldTransform
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the geometry after widening it.
 

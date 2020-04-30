@@ -52,7 +52,7 @@ Creates a layer resource that can be used with this render target and its compat
 
 ### -param size
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a>*</b>
 
 If (0, 0) is specified, no backing store is created behind the layer resource. The layer resource is allocated to the minimum size when <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> is called.
 

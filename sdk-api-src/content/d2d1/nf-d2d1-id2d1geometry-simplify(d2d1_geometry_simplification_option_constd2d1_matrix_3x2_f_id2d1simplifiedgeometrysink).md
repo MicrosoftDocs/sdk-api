@@ -58,7 +58,7 @@ A value that specifies whether the simplified geometry should contain curves.
 
 ### -param worldTransform
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the simplified geometry.
 
