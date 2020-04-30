@@ -63,7 +63,7 @@ Returns the size, in device-independent pixels (DIPs), of the bitmap.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The size, in DIPs, of the bitmap.
 
@@ -74,7 +74,7 @@ The size, in DIPs, of the bitmap.
 
 
 
-A DIP is 1/96 of an inch. To retrieve the size in device pixels, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap::GetPixelSize</a>method.
+A DIP is 1/96 of an inch. To retrieve the size in device pixels, use the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap::GetPixelSize</a>method.
 
 
 
@@ -84,11 +84,11 @@ A DIP is 1/96 of an inch. To retrieve the size in device pixels, use the <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">ID2D1Bitmap::GetPixelSize</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">ID2D1Bitmap::GetPixelSize</a>
  
 
  

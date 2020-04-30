@@ -82,7 +82,7 @@ Determines whether a point is in the fill region of the path by drawing a ray fr
 
 
 
-Use the <b>D2D1_FILL_MODE</b> enumeration when creating an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> method, or when modifying the fill mode of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setfillmode">ID2D1SimplifiedGeometrySink::SetFillMode</a>  method.
+Use the <b>D2D1_FILL_MODE</b> enumeration when creating an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a> with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> method, or when modifying the fill mode of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setfillmode">ID2D1SimplifiedGeometrySink::SetFillMode</a>  method.
 
 Direct2D fills the interior of a path by using one of the two fill modes specified by this enumeration: <b>D2D1_FILL_MODE_ALTERNATE</b> (alternate) or <b>D2D1_FILL_MODE_WINDING</b> (winding). Because the modes determine how to fill the interior of a closed shape, all shapes are treated as closed when they are filled.  If there is a gap in a segment in a shape, draw an imaginary line to close it. 
 
@@ -106,7 +106,7 @@ The following illustration explains this process. The red arrows represent the d
 
 ## Examples
 
-The following code example creates the geometry groups used the preceding illustrations. The code first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object,  passing in <b>D2D1_FILL_MODE_ALTERNATE</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
+The following code example creates the geometry groups used the preceding illustrations. The code first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> on the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object,  passing in <b>D2D1_FILL_MODE_ALTERNATE</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
 
 ```cpp
@@ -210,11 +210,11 @@ HRESULT DemoApp::CreateGeometryResources()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">ID2D1Factory::CreateGeometryGroup</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">ID2D1Factory::CreateGeometryGroup</a>
  
 
  

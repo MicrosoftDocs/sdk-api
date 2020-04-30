@@ -63,7 +63,7 @@ Indicates the gamma space in which the gradient stops are interpolated.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma">D2D1_GAMMA</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma">D2D1_GAMMA</a></b>
 
 The gamma space in which the gradient stops are interpolated. 
 
@@ -75,7 +75,7 @@ The gamma space in which the gradient stops are interpolated.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
  
 
  

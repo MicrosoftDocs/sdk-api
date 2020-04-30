@@ -59,14 +59,14 @@ Describes an elliptical arc between two points.
 
 ### -field point
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The end point of the arc.
 
 
 ### -field size
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The x-radius and y-radius of the arc.
 
@@ -80,14 +80,14 @@ A value that specifies how many degrees in the clockwise direction the ellipse i
 
 ### -field sweepDirection
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_sweep_direction">D2D1_SWEEP_DIRECTION</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_sweep_direction">D2D1_SWEEP_DIRECTION</a></b>
 
 A value that specifies whether the arc sweep is clockwise or counterclockwise.
 
 
 ### -field arcSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_arc_size">D2D1_ARC_SIZE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_arc_size">D2D1_ARC_SIZE</a></b>
 
 A value that specifies whether the given arc is larger than 180 degrees.
 

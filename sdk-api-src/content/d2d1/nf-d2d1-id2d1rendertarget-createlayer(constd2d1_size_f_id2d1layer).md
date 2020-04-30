@@ -66,7 +66,7 @@ When the method returns, contains a pointer to a pointer to the new layer. This 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
@@ -74,7 +74,7 @@ The layer automatically resizes itself, as needed.
 
 ## Examples
 
-The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-layers">How to Clip to a Geometric Mask</a>.
+The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="/windows/win32/Direct2D/how-to-clip-with-layers">How to Clip to a Geometric Mask</a>.
 
 ```cpp
 HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
@@ -116,6 +116,6 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-layers-overview">Layers Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-layers-overview">Layers Overview</a>

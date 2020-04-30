@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> by copying the specified Microsoft Windows Imaging Component (WIC)  bitmap.
+Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> by copying the specified Microsoft Windows Imaging Component (WIC)  bitmap.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-
 
 ### -param wicBitmapSource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="/windows/win32/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The WIC bitmap to copy.
 
 
 ### -param bitmapProperties [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties">D2D1_BITMAP_PROPERTIES</a>*</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_bitmap_properties">D2D1_BITMAP_PROPERTIES</a>*</b>
 
-The pixel format and DPI of the bitmap to create. The pixel format must match the pixel format of <i>wicBitmapSource</i>, or the method will fail. To prevent a mismatch, you can pass <b>NULL</b> or pass the value obtained from calling the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-pixelformat">D2D1::PixelFormat</a> helper function without specifying any parameter values. If both <i>dpiX</i> and <i>dpiY</i> are  0.0f, the default DPI, 96, is used. DPI information embedded in <i>wicBitmapSource</i>  is ignored.
+The pixel format and DPI of the bitmap to create. The pixel format must match the pixel format of <i>wicBitmapSource</i>, or the method will fail. To prevent a mismatch, you can pass <b>NULL</b> or pass the value obtained from calling the <a href="/windows/win32/api/d2d1helper/nf-d2d1helper-pixelformat">D2D1::PixelFormat</a> helper function without specifying any parameter values. If both <i>dpiX</i> and <i>dpiY</i> are  0.0f, the default DPI, 96, is used. DPI information embedded in <i>wicBitmapSource</i>  is ignored.
 
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>**</b>
 
 When this method returns, contains the address of a pointer to the new bitmap. This parameter is passed uninitialized.
 
@@ -84,7 +84,7 @@ When this method returns, contains the address of a pointer to the new bitmap. T
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -93,12 +93,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Before Direct2D can load a WIC bitmap, that bitmap must be converted to a supported pixel format and alpha mode. For a list of supported pixel formats and alpha modes, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>. 
+Before Direct2D can load a WIC bitmap, that bitmap must be converted to a supported pixel format and alpha mode. For a list of supported pixel formats and alpha modes, see <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>. 
 
 
 ## Examples
 
-For examples, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a   Bitmap from a File</a> and <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-bitmap-from-a-resource">How to Load a Bitmap from a Resource</a>.
+For examples, see <a href="/windows/win32/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a   Bitmap from a File</a> and <a href="/windows/win32/Direct2D/how-to-load-a-bitmap-from-a-resource">How to Load a Bitmap from a Resource</a>.
 
 <div class="code"></div>
 
@@ -109,19 +109,19 @@ For examples, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a   Bitmap from a File</a>
+<a href="/windows/win32/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a   Bitmap from a File</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
+<a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
  
 
  

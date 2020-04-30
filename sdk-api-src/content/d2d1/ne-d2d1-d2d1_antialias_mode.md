@@ -64,7 +64,7 @@ Edges are antialiased using the Direct2D per-primitive method of high-quality an
 
 ### -field D2D1_ANTIALIAS_MODE_ALIASED
 
-Objects are aliased in most cases. Objects are antialiased only when they are drawn to a render target created by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)">CreateDxgiSurfaceRenderTarget</a> method and  Direct3D multisampling has been enabled on the backing DirectX Graphics Infrastructure (DXGI) surface. 
+Objects are aliased in most cases. Objects are antialiased only when they are drawn to a render target created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)">CreateDxgiSurfaceRenderTarget</a> method and  Direct3D multisampling has been enabled on the backing DirectX Graphics Infrastructure (DXGI) surface. 
 
 
 ### -field D2D1_ANTIALIAS_MODE_FORCE_DWORD

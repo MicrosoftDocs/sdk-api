@@ -44,47 +44,33 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID2D1RenderTarget::FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush)
-
-
 ## -description
-
 
 Paints the interior of the specified rounded rectangle.
 
-
 ## -parameters
 
+### -param roundedRect
 
-
-
-### -param roundedRect [ref]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a></b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_rounded_rect">D2D1_ROUNDED_RECT</a> &</b>
 
 The dimensions of the rounded rectangle to paint, in device independent pixels.
 
-
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: [in] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the interior of the rounded rectangle.
 
-
 ## -remarks
 
-
-
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect_id2d1brush)">FillRoundedRectangle</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
-
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect_id2d1brush)">FillRoundedRectangle</a>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 ## Examples
 
 The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect_id2d1brush)">DrawRoundedRectangle</a> and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect_id2d1brush)">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
-
 
 ```cpp
 //  Called whenever the application needs to display the client
@@ -153,28 +139,12 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
     return hr;
 }
-
 ```
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/win32/api/d2d1helper/nf-d2d1helper-roundedrect">D2D1::RoundedRect</a>
 
+<a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-roundedrect">D2D1::RoundedRect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
-
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>

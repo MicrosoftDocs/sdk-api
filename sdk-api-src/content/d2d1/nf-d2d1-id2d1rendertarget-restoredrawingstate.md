@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the render target's drawing state to that of the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
+Sets the render target's drawing state to that of the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the render target's drawing state to that of the specified <a href="https:/
 
 ### -param drawingStateBlock [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>*</b>
 
 The new drawing state of the render target.
 
@@ -69,7 +69,7 @@ The new drawing state of the render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

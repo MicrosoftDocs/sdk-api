@@ -59,7 +59,7 @@ Specifies the center of the gradient ellipse in the brush's coordinate space.
 
 ### -param center
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The center of the gradient ellipse, in the brush's coordinate space.
 
@@ -69,7 +69,7 @@ The center of the gradient ellipse, in the brush's coordinate space.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
  
 
  

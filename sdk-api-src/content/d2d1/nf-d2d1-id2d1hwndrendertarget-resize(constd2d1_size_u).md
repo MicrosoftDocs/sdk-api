@@ -52,7 +52,7 @@ Changes the size of the render target to the specified pixel size.
 
 ### -param pixelSize
 
-Type: [in] <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a> *</b>
 
 The new size of the render target in device pixels.
 
@@ -60,12 +60,12 @@ The new size of the render target in device pixels.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
-After this method is called, the contents of the render target's back-buffer are not defined, even if the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_present_options">D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS</a> option was specified when the render target was created.
+After this method is called, the contents of the render target's back-buffer are not defined, even if the <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_present_options">D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS</a> option was specified when the render target was created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>

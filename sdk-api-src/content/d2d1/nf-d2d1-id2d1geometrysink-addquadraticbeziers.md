@@ -59,7 +59,7 @@ Adds a sequence of quadratic Bezier segments as an array in a single call.
 
 ### -param beziers [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_quadratic_bezier_segment">D2D1_QUADRATIC_BEZIER_SEGMENT</a>*</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_quadratic_bezier_segment">D2D1_QUADRATIC_BEZIER_SEGMENT</a>*</b>
 
 An array of a sequence of quadratic Bezier segments.
 
@@ -76,7 +76,7 @@ A value indicating the number of quadratic Bezier segments in <i>beziers</i>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
  
 
  

@@ -52,19 +52,19 @@ Creates a bitmap render target for use during intermediate offscreen drawing tha
 
 ### -param desiredSize
 
-Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: [in] <b><a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The desired size of the new render target (in device-independent pixels), if it should be different from the original render target. For more info, see the Remarks section.
 
 ### -param desiredPixelSize
 
-Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
+Type: [in] <b><a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
 
 The desired size of the new render target in pixels if it should be different from the original render target. For more information, see the Remarks section.
 
 ### -param bitmapRenderTarget
 
-Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a>**</b>
 
 When this method returns, contains a pointer to a pointer to a new bitmap render target. This parameter is passed uninitialized.
 
@@ -72,7 +72,7 @@ When this method returns, contains a pointer to a pointer to a new bitmap render
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
@@ -89,4 +89,4 @@ The bitmap render target created by this method is not compatible with GDI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>

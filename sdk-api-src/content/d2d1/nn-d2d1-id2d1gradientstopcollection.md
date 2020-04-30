@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an collection of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> objects for linear and radial gradient brushes.
+Represents an collection of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> objects for linear and radial gradient brushes.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientStopCollection</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1GradientStopCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientStopCollection</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1GradientStopCollection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID2D1GradientStopCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getcolorinterpolationgamma">GetColorInterpolationGamma</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getcolorinterpolationgamma">GetColorInterpolationGamma</a>
 </td>
 <td align="left" width="63%">
 Indicates the gamma space in which the gradient stops are interpolated. 
@@ -79,7 +79,7 @@ Indicates the gamma space in which the gradient stops are interpolated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getextendmode">GetExtendMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getextendmode">GetExtendMode</a>
 </td>
 <td align="left" width="63%">
 Indicates the behavior of the gradient outside the normalized gradient range.
@@ -88,7 +88,7 @@ Indicates the behavior of the gradient outside the normalized gradient range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstopcount">GetGradientStopCount</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstopcount">GetGradientStopCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of gradient stops in the collection.
@@ -97,10 +97,10 @@ Retrieves the number of gradient stops in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstops">GetGradientStops</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gradientstopcollection-getgradientstops">GetGradientStops</a>
 </td>
 <td align="left" width="63%">
-Copies the gradient stops from the collection into an array of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures.
+Copies the gradient stops from the collection into an array of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Copies the gradient stops from the collection into an array of <a href="https://
 <h3><a id="Creating_ID2D1GradientStopCollection_Objects"></a><a id="creating_id2d1gradientstopcollection_objects"></a><a id="CREATING_ID2D1GRADIENTSTOPCOLLECTION_OBJECTS"></a>Creating ID2D1GradientStopCollection Objects</h3>
 To create an <b>ID2D1GradientStopCollection</b>, use the  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a> method.  
 
-A gradient stop collection is a device-dependent resource: your application should create gradient stop collections after it initializes the render target with which the gradient stop collection will be used, and recreate the gradient stop collection whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
+A gradient stop collection is a device-dependent resource: your application should create gradient stop collections after it initializes the render target with which the gradient stop collection will be used, and recreate the gradient stop collection whenever the render target needs recreated. (For more information about resources, see <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
 ## Examples
@@ -145,7 +145,7 @@ hr = m_pRenderTarget->CreateGradientStopCollection(
 ```
 
 
-The next code example uses the <b>ID2D1GradientStopCollection</b> to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>.
+The next code example uses the <b>ID2D1GradientStopCollection</b> to create an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>.
 
 
 ```cpp
@@ -174,7 +174,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
  
 
  

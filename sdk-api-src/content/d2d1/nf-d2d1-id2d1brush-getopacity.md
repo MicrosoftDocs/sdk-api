@@ -75,7 +75,7 @@ A value between zero and 1 that indicates the opacity of the brush. This value i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
  
 
  

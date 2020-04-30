@@ -59,14 +59,14 @@ Contains the control point and end point for a quadratic Bezier segment.
 
 ### -field point1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The control point of the quadratic Bezier segment.
 
 
 ### -field point2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The end point of the quadratic Bezier segment.
 

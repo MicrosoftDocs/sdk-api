@@ -59,7 +59,7 @@ Applies the specified transform to the render target, replacing the existing tra
 
 ### -param transform [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform to apply to the render target.
 
@@ -69,31 +69,31 @@ The transform to apply to the render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-apply-multiple-transforms">How to Apply Multiple Transforms to an Object</a>
+<a href="/windows/win32/Direct2D/how-to-apply-multiple-transforms">How to Apply Multiple Transforms to an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-rotate">How to Rotate an Object</a>
+<a href="/windows/win32/Direct2D/how-to-rotate">How to Rotate an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>
+<a href="/windows/win32/Direct2D/how-to-scale">How to Scale an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-skew">How to Skew an Object</a>
+<a href="/windows/win32/Direct2D/how-to-skew">How to Skew an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-translate">How to Translate an Object</a>
+<a href="/windows/win32/Direct2D/how-to-translate">How to Translate an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
  
 
  

@@ -52,10 +52,10 @@ Adds a single arc to the path geometry.
 
 ### -param arc
 
-Type: [in] <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a> &</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a> &</b>
 
 The arc segment to add to the figure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>

@@ -52,16 +52,16 @@ Clears the drawing area to the specified color.
 
 ### -param clearColor
 
-Type: [in, optional] <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
+Type: [in, optional] <b>const <a href="/windows/win32/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
 
 The color to which the drawing area is cleared, or <b>NULL</b> for transparent black.
 
 ## -remarks
 
-Direct2D interprets the <i>clearColor</i> as straight alpha (not premultiplied).  If the render target's alpha mode is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_IGNORE</a>, the alpha channel of <i>clearColor</i> is ignored and replaced with 1.0f (fully opaque).
+Direct2D interprets the <i>clearColor</i> as straight alpha (not premultiplied).  If the render target's alpha mode is <a href="/windows/win32/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_IGNORE</a>, the alpha channel of <i>clearColor</i> is ignored and replaced with 1.0f (fully opaque).
 
-If the render target has an active clip (specified by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)">PushAxisAlignedClip</a>), the clear command is applied only to the area within the clip region.
+If the render target has an active clip (specified by <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)">PushAxisAlignedClip</a>), the clear command is applied only to the area within the clip region.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>

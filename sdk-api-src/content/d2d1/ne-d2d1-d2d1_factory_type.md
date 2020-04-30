@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether Direct2D provides synchronization for an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> and the resources it creates, so that they may be safely accessed from multiple threads. 
+Specifies whether Direct2D provides synchronization for an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> and the resources it creates, so that they may be safely accessed from multiple threads. 
 
 
 ## -enum-fields
@@ -118,15 +118,15 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory">CreateFactory</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory">CreateFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a>
+<a href="/windows/win32/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a>
  
 
  
