@@ -59,7 +59,7 @@ Gets the bitmap source that this brush uses to paint.
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>**</b>
 
 When this method returns, contains the address to a pointer to the bitmap with which this brush paints.
 
@@ -69,7 +69,7 @@ When this method returns, contains the address to a pointer to the bitmap with w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>
  
 
  

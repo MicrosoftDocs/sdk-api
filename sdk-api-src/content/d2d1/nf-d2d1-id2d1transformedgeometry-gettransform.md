@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the matrix used to transform the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry.
+Retrieves the matrix used to transform the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Retrieves the matrix used to transform the <a href="https://docs.microsoft.com/w
 
 ### -param transform [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
-A pointer that receives the matrix used to transform the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry. You must allocate storage for this parameter.  
+A pointer that receives the matrix used to transform the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object's source geometry. You must allocate storage for this parameter.  
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A pointer that receives the matrix used to transform the <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
  
 
  

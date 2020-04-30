@@ -63,7 +63,7 @@ Indicates whether the HWND associated with this render target is occluded.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_window_state">D2D1_WINDOW_STATE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_window_state">D2D1_WINDOW_STATE</a></b>
 
 A value that indicates whether the HWND associated with this render target is occluded.
 
@@ -74,7 +74,7 @@ A value that indicates whether the HWND associated with this render target is oc
 
 
 
-<div class="alert"><b>Note</b>  If the window was occluded the last time  that <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> was called, the next time that the render target calls <b>CheckWindowState</b>, it will return <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_window_state">D2D1_WINDOW_STATE_OCCLUDED</a> regardless of the current window state. If you want to use <b>CheckWindowState</b> to determine the current window state, you should call <b>CheckWindowState</b> after every <b>EndDraw</b> call and ignore its return value. This call will ensure that your next call to <b>CheckWindowState</b> state will return the actual window state.</div>
+<div class="alert"><b>Note</b>  If the window was occluded the last time  that <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> was called, the next time that the render target calls <b>CheckWindowState</b>, it will return <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_window_state">D2D1_WINDOW_STATE_OCCLUDED</a> regardless of the current window state. If you want to use <b>CheckWindowState</b> to determine the current window state, you should call <b>CheckWindowState</b> after every <b>EndDraw</b> call and ignore its return value. This call will ensure that your next call to <b>CheckWindowState</b> state will return the actual window state.</div>
 <div> </div>
 
 
@@ -84,7 +84,7 @@ A value that indicates whether the HWND associated with this render target is oc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>
  
 
  

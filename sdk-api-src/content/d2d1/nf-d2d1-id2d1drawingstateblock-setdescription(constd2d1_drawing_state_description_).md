@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param stateDescription [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a></b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_drawing_state_description">D2D1_DRAWING_STATE_DESCRIPTION</a></b>
 
 The antialiasing mode, transform, and tags portion of the drawing state.
 
@@ -69,7 +69,7 @@ The antialiasing mode, transform, and tags portion of the drawing state.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

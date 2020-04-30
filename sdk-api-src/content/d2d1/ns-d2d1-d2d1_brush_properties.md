@@ -66,7 +66,7 @@ A value between 0.0f and 1.0f, inclusive, that specifies the degree of opacity o
 
 ### -field transform
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transformation that is applied to the brush.
 
@@ -75,9 +75,9 @@ The transformation that is applied to the brush.
 
 
 
-This structure is used when creating a brush. For convenience, Direct2D provides the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-brushproperties">D2D1::BrushProperties</a> function for creating <b>D2D1_BRUSH_PROPERTIES</b> structures.
+This structure is used when creating a brush. For convenience, Direct2D provides the <a href="/windows/win32/api/d2d1helper/nf-d2d1helper-brushproperties">D2D1::BrushProperties</a> function for creating <b>D2D1_BRUSH_PROPERTIES</b> structures.
 
-After creating a brush, you can change its opacity or transform by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1brush-setopacity">SetOpacity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-settransform">SetTransform</a> methods.
+After creating a brush, you can change its opacity or transform by calling the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-setopacity">SetOpacity</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-settransform">SetTransform</a> methods.
 
 
 
@@ -87,15 +87,15 @@ After creating a brush, you can change its opacity or transform by calling the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-brushproperties">D2D1::BrushProperties</a>
+<a href="/windows/win32/api/d2d1helper/nf-d2d1helper-brushproperties">D2D1::BrushProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1brush-setopacity">SetOpacity</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-setopacity">SetOpacity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-settransform">SetTransform</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-settransform">SetTransform</a>
  
 
  

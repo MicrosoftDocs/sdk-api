@@ -82,7 +82,7 @@ The render target can be used efficiently with GDI.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>
+<a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>
  
 
  

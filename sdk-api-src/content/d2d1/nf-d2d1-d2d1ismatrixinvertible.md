@@ -59,7 +59,7 @@ Indicates whether the specified matrix is invertible.
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to test.
 

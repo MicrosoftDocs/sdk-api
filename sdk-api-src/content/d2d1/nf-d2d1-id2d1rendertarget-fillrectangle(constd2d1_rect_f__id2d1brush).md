@@ -44,47 +44,33 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID2D1RenderTarget::FillRectangle(const D2D1_RECT_F &,ID2D1Brush)
-
-
 ## -description
-
 
 Paints the interior of the specified rectangle.
 
-
 ## -parameters
 
+### -param rect
 
-
-
-### -param rect [ref]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a> &</b>
 
 The dimension of the rectangle to paint, in device-independent pixels.
 
+### -param brush
 
-### -param brush [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: [in] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the rectangle's interior.
 
-
 ## -remarks
 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f_id2d1brush)">FillRectangle</a>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
+## Examples
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f_id2d1brush)">FillRectangle</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
-
-
-#### Examples
-
-The following example uses an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
 <img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
-
 
 ```cpp
 // This method discards device-specific
@@ -163,27 +149,12 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-
 ```
 
-
-For a related tutorial, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
-
-<div class="code"></div>
-
-
+For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
 
 ## -see-also
 
+<a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
-
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>

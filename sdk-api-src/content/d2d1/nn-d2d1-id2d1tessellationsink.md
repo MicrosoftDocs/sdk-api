@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Populates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a> object with triangles.
+Populates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a> object with triangles.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TessellationSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1TessellationSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TessellationSink</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1TessellationSink</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -69,7 +69,7 @@ The <b>ID2D1TessellationSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1tessellationsink-addtriangles">AddTriangles</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1tessellationsink-addtriangles">AddTriangles</a>
 </td>
 <td align="left" width="63%">
 Copies the specified triangles to the sink. 
@@ -78,7 +78,7 @@ Copies the specified triangles to the sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1tessellationsink-close">Close</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1tessellationsink-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the sink and returns its error status.
@@ -93,7 +93,7 @@ Closes the sink and returns its error status.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

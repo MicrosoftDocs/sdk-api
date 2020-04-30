@@ -92,7 +92,7 @@ The two geometries overlap but neither completely contains the other.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-comparewithgeometry(id2d1geometry_constd2d1_matrix_3x2_f_d2d1_geometry_relation)">ID2D1Geometry::CompareWithGeometry</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-comparewithgeometry(id2d1geometry_constd2d1_matrix_3x2_f_d2d1_geometry_relation)">ID2D1Geometry::CompareWithGeometry</a>
  
 
  

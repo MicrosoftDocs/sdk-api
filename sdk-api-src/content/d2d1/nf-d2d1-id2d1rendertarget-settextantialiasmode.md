@@ -59,7 +59,7 @@ Specifies the antialiasing mode to use for subsequent text and glyph drawing ope
 
 ### -param textAntialiasMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE</a></b>
 
 The antialiasing mode to use for subsequent text and glyph drawing operations.
 
@@ -69,11 +69,11 @@ The antialiasing mode to use for subsequent text and glyph drawing operations.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-gettextantialiasmode">GetTextAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettextantialiasmode">GetTextAntialiasMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

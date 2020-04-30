@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a> structure that describes this ellipse geometry.
+Gets the <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a> structure that describes this ellipse geometry.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2
 
 ### -param ellipse [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a>*</b>
 
-When this method returns, contains the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a> that describes the size and position of the ellipse. You must allocate storage for this parameter.
+When this method returns, contains the <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a> that describes the size and position of the ellipse. You must allocate storage for this parameter.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ When this method returns, contains the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>
  
 
  

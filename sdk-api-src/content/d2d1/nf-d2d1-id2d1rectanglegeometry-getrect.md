@@ -59,7 +59,7 @@ Retrieves the rectangle that describes the rectangle geometry's dimensions.
 
 ### -param rect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 Contains a pointer to a rectangle that describes the rectangle geometry's dimensions when this method returns. You must allocate storage for this parameter. 
 
@@ -69,7 +69,7 @@ Contains a pointer to a rectangle that describes the rectangle geometry's dimens
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>
  
 
  

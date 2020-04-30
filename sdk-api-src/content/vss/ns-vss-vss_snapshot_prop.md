@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api
 
 Number of volumes included with the shadow copy in the shadow copy set when it was created. Because it is 
       possible for applications to release individual shadow copies without releasing the shadow copy set, at any 
-      given time the number of shadow copies in the shadow copy set may be less then 
+      given time the number of shadow copies in the shadow copy set may be less than 
       <b>m_LSnapshotsCount</b>. 
       
 

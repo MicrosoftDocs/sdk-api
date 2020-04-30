@@ -59,28 +59,28 @@ Contains the content bounds, mask information, opacity settings, and other optio
 
 ### -field contentBounds
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The content bounds of the layer. Content outside these bounds is not guaranteed to render.
 
 
 ### -field geometricMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometric mask specifies the area of the layer that is composited into the render target. 
 
 
 ### -field maskAntialiasMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
 
 A value that specifies the antialiasing mode for the geometricMask.  
 
 
 ### -field maskTransform
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 A value that specifies the transform that is applied to the geometric mask when composing the layer.
 
@@ -94,7 +94,7 @@ An opacity value that is applied uniformly to all resources in the layer when co
 
 ### -field opacityBrush
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 A brush that is used to modify the opacity of the layer. The brush 
 is mapped to the layer, and the alpha channel of each mapped brush pixel is multiplied against the corresponding layer pixel. 
@@ -102,7 +102,7 @@ is mapped to the layer, and the alpha channel of each mapped brush pixel is mult
 
 ### -field layerOptions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_layer_options">D2D1_LAYER_OPTIONS</a></b>
 
 A value that specifies whether the layer intends to render text with ClearType antialiasing.
 
@@ -112,7 +112,7 @@ A value that specifies whether the layer intends to render text with ClearType a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-layers-overview">Layers Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-layers-overview">Layers Overview</a>
  
 
  

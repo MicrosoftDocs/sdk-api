@@ -59,7 +59,7 @@ Retrieves the render target's current text rendering options.
 
 ### -param textRenderingParams [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
 
  When this method returns, <i>textRenderingParams</i>contains the address  of a pointer to the render target's current text rendering options. 
 
@@ -68,7 +68,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrit
 
 
 
-If the settings specified by  <i>textRenderingParams</i> are incompatible with the render target's text antialiasing mode (specified by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>), subsequent text and glyph drawing operations will fail and put the render target into an error state.
+If the settings specified by  <i>textRenderingParams</i> are incompatible with the render target's text antialiasing mode (specified by <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>), subsequent text and glyph drawing operations will fail and put the render target into an error state.
 
 
 
@@ -78,15 +78,15 @@ If the settings specified by  <i>textRenderingParams</i> are incompatible with t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">SetTextRenderingParams</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">SetTextRenderingParams</a>
  
 
  

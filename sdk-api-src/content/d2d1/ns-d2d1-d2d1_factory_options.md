@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the debugging level of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object.
+Contains the debugging level of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object.
 
 
 ## -struct-fields
@@ -59,16 +59,16 @@ Contains the debugging level of an <a href="https://docs.microsoft.com/windows/d
 
 ### -field debugLevel
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_debug_level">D2D1_DEBUG_LEVEL</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_debug_level">D2D1_DEBUG_LEVEL</a></b>
 
-The debugging level of the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object.
+The debugging level of the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object.
 
 
 ## -remarks
 
 
 
-To enable debugging, you must install the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.
+To enable debugging, you must install the <a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.
 
 
 
@@ -78,7 +78,7 @@ To enable debugging, you must install the <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>
+<a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>
  
 
  

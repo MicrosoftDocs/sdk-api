@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Specifies the algorithm that is used when images are scaled or rotated.
-<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
+<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="/windows/win32/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
 
 ## -enum-fields
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Computes the outline of the geometry and writes the result to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
+Computes the outline of the geometry and writes the result to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Computes the outline of the geometry and writes the result to an <a href="https:
 
 ### -param worldTransform [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the geometry outline, or <b>NULL</b>.
 
@@ -75,9 +75,9 @@ The maximum error allowed when constructing a polygonal approximation of the geo
 
 ### -param geometrySink [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> to which the geometry's transformed outline is appended. 
+The <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> to which the geometry's transformed outline is appended. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1si
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-outline(constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)">Outline</a> method allows the caller to produce a geometry with an equivalent fill to the input geometry, with the following additional properties:
+The <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-outline(constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)">Outline</a> method allows the caller to produce a geometry with an equivalent fill to the input geometry, with the following additional properties:
 	
 
 <ul>
@@ -104,10 +104,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1ge
 	</li>
 <li>The output geometry is fill-mode invariant; that is, the fill of the geometry does not depend on the choice of the fill mode.
 
- For more information about the fill mode, see <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE</a>.</li>
+ For more information about the fill mode, see <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE</a>.</li>
 </ul>
 Additionally, the 
-	<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometry-outline(constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)">Outline</a> method can be useful in removing redundant portions of said geometries to simplify complex geometries. It can also be useful in combination with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a> to create unions among several geometries simultaneously.
+	<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-outline(constd2d1_matrix_3x2_f__id2d1simplifiedgeometrysink)">Outline</a> method can be useful in removing redundant portions of said geometries to simplify complex geometries. It can also be useful in combination with <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a> to create unions among several geometries simultaneously.
 
 
 
@@ -118,7 +118,7 @@ Additionally, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

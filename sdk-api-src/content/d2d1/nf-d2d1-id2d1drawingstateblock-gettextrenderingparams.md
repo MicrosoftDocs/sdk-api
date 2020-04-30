@@ -59,9 +59,9 @@ Retrieves the text-rendering configuration of the drawing state.
 
 ### -param textRenderingParams [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a> object that describes the text-rendering configuration of the drawing state.
+When this method returns, contains the address of a pointer to an <a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a> object that describes the text-rendering configuration of the drawing state.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ When this method returns, contains the address of a pointer to an <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

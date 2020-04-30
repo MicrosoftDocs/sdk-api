@@ -59,14 +59,14 @@ Executes all pending drawing commands.
 
 ### -param tag1 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the tag for drawing operations that caused errors or 0 if there were no errors. This parameter is passed uninitialized.
 
 
 ### -param tag2 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the tag for drawing operations that caused errors or 0 if there were no errors. This parameter is passed uninitialized.
 
@@ -98,7 +98,7 @@ Calling this method resets the error state of the render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

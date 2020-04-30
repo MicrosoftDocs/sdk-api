@@ -59,9 +59,9 @@ Opens the mesh for population.
 
 ### -param tessellationSink [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>**</b>
 
-When this method returns, contains a pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a> that is used to populate the mesh. This parameter is passed uninitialized.
+When this method returns, contains a pointer to a pointer to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a> that is used to populate the mesh. This parameter is passed uninitialized.
 
 
 ## -returns
@@ -70,7 +70,7 @@ When this method returns, contains a pointer to a pointer to an <a href="https:/
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>
  
 
  
