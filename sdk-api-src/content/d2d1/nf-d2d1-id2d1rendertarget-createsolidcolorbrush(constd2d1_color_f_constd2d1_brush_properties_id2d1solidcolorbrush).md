@@ -52,13 +52,13 @@ Creates a new <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2
 
 ### -param color
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-color-f">D2D1_COLOR_F</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
 
 The red, green, blue, and alpha values of the brush's color.
 
 ### -param brushProperties
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a>*</b>
 
 The base opacity of the brush.
 

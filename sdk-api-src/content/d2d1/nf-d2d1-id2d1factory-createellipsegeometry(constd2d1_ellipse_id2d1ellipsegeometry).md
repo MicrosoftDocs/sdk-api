@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 ### -param ellipse
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a></b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_ellipse">D2D1_ELLIPSE</a>*</b>
 
 A value that describes the center point, x-radius, and y-radius of the ellipse geometry.
 

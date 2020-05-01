@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)
 title: ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget) (d2d1.h)
-description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.helpviewer_keywords: ["CreateDxgiSurfaceRenderTarget","CreateDxgiSurfaceRenderTarget method [Direct2D]","CreateDxgiSurfaceRenderTarget method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDxgiSurfaceRenderTarget method","ID2D1Factory.CreateDxgiSurfaceRenderTarget","ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface","const D2D1_RENDER_TARGET_PROPERTIES &","ID2D1RenderTarget)","ID2D1Factory::CreateDxgiSurfaceRenderTarget","ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface","const D2D1_RENDER_TARGET_PROPERTIES &","ID2D1RenderTarget)","d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget","direct2d.ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget"]
+description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
+helpviewer_keywords: ["CreateDxgiSurfaceRenderTarget","CreateDxgiSurfaceRenderTarget method [Direct2D]","CreateDxgiSurfaceRenderTarget method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDxgiSurfaceRenderTarget method","ID2D1Factory.CreateDxgiSurfaceRenderTarget","ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface","const D2D1_RENDER_TARGET_PROPERTIES &","ID2D1RenderTarget)","ID2D1Factory::CreateDxgiSurfaceRenderTarget","ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface","const D2D1_RENDER_TARGET_PROPERTIES &","ID2D1RenderTarget)","d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget","direct2d.ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget"]
 old-location: direct2d\ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget.htm
 tech.root: Direct2D
 ms.assetid: f8631a0a-e069-4ad3-995f-ac80dce625fe
@@ -57,7 +58,7 @@ The IDXGISurface to which the render target will draw.
 
 ### -param renderTargetProperties [ref]
 
-Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> \&</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> &</b>
 
 The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering. For information about supported pixel formats, see  <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
 

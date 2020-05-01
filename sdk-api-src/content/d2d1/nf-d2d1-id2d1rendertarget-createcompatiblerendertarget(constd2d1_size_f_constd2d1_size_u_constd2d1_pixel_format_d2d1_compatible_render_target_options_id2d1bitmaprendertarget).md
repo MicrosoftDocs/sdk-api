@@ -52,19 +52,19 @@ Creates a bitmap render target for use during intermediate offscreen drawing tha
 
 ### -param desiredSize
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a>*</b>
 
 The desired size of the new render target (in device-independent pixels), if it should be different from the original render target. For more info, see the Remarks section.
 
 ### -param desiredPixelSize
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a>*</b>
 
 The desired size of the new render target in pixels if it should be different from the original render target. For more information, see the Remarks section.
 
 ### -param desiredFormat
 
-Type: [in] <b>const <a href="/windows/win32/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a>*</b>
 
 The desired pixel format and alpha mode of the new render target. If the pixel format is set to DXGI_FORMAT_UNKNOWN, the new render target uses the same pixel format as the original render target. If the alpha mode is <a href="/windows/win32/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_UNKNOWN</a>, the alpha mode of the new render target defaults to <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>. For information about supported pixel formats, see  <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
 

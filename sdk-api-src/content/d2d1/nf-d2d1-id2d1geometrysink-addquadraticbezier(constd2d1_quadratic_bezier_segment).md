@@ -52,7 +52,7 @@ Creates a quadratic Bezier curve between the current point and the specified end
 
 ### -param bezier
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_quadratic_bezier_segment">D2D1_QUADRATIC_BEZIER_SEGMENT</a> *</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_quadratic_bezier_segment">D2D1_QUADRATIC_BEZIER_SEGMENT</a>*</b>
 
 A structure that describes the control point and the end point of the quadratic Bezier curve to add.
 
