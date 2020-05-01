@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement
-description: Configures the enablement settings for Device Removed Extended Data (DRED) Watson dump creation.helpviewer_keywords: ["SetWatsonDumpEnablement","SetWatsonDumpEnablement method","ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement","ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement","d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement","direct3d12.id3d12deviceremovedextendeddatasettings_setwatsondumpenablement"]
+description: Configures the enablement settings for Device Removed Extended Data (DRED) Watson dump creation.
+helpviewer_keywords: ["SetWatsonDumpEnablement","SetWatsonDumpEnablement method","ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings.SetWatsonDumpEnablement","ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement","d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetWatsonDumpEnablement","direct3d12.id3d12deviceremovedextendeddatasettings_setwatsondumpenablement"]
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setwatsondumpenablement.htm
 tech.root: direct3d12
 ms.date: 02/08/2019
@@ -51,7 +52,7 @@ Configures the enablement settings for Device Removed Extended Data (DRED) dump 
 
 ## -parameters
 
-### -param __MIDL__ID3D12DeviceRemovedExtendedDataSettings0002
+### -param Enablement
 
 A [D3D12_DRED_ENABLEMENT](ne-d3d12-d3d12_dred_enablement.md) value. The default is **D3D12_DRED_ENABLEMENT_SYSTEM_CONTROLLED**.
 
