@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.GetProcessMemoryInfo
 title: GetProcessMemoryInfo function (psapi.h)
-description: Retrieves information about the memory usage of the specified process.helpviewer_keywords: ["GetProcessMemoryInfo","GetProcessMemoryInfo function [PSAPI]","K32GetProcessMemoryInfo","_win32_getprocessmemoryinfo","base.getprocessmemoryinfo","psapi.getprocessmemoryinfo","psapi/GetProcessMemoryInfo","psapi/K32GetProcessMemoryInfo"]
+description: Retrieves information about the memory usage of the specified process.
+helpviewer_keywords: ["GetProcessMemoryInfo","GetProcessMemoryInfo function [PSAPI]","K32GetProcessMemoryInfo","_win32_getprocessmemoryinfo","base.getprocessmemoryinfo","psapi.getprocessmemoryinfo","psapi/GetProcessMemoryInfo","psapi/K32GetProcessMemoryInfo"]
 old-location: psapi\getprocessmemoryinfo.htm
 tech.root: psapi
 ms.assetid: 12990e8d-6097-4502-824e-db6c3f76c715
@@ -64,7 +65,7 @@ Retrieves information about the memory usage of the specified process.
 
 ### -param Process [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right and the <b>PROCESS_VM_READ</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights.
 
