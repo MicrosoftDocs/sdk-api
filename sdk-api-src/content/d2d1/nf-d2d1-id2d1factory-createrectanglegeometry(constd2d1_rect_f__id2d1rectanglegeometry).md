@@ -52,7 +52,7 @@ Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D
 
 ### -param rectangle
 
-Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a> \&</b>
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a> &</b>
 
 The coordinates of the rectangle geometry. 
 

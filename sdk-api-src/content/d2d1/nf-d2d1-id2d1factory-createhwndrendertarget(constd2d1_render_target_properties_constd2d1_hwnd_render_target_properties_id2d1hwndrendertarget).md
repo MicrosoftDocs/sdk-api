@@ -52,13 +52,13 @@ When you create a render target, and hardware acceleration is available, you all
 
 ### -param renderTargetProperties
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a> \*</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>*</b>
 
 The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering.  For information about supported pixel formats, see  <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
 
 ### -param hwndRenderTargetProperties
 
-Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_hwnd_render_target_properties">D2D1_HWND_RENDER_TARGET_PROPERTIES</a> \*</b>
+Type: [in] <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_hwnd_render_target_properties">D2D1_HWND_RENDER_TARGET_PROPERTIES</a>*</b>
 
 The window handle, initial size (in pixels), and present options.
 
