@@ -73,17 +73,17 @@ A union describing the sample format.
 
 
 
-### -field wValidBitsPerSample
+### -field Samples.wValidBitsPerSample
 
 Number of bits of precision in the signal. Usually equal to <b>WAVEFORMATEX.wBitsPerSample</b>. However, <b>wBitsPerSample</b> is the container size and must be a multiple of 8, whereas <b>wValidBitsPerSample</b> can be any value not exceeding the container size. For example, if the format uses 20-bit samples, <b>wBitsPerSample</b> must be at least 24, but <b>wValidBitsPerSample</b> is 20.
 
 
-### -field wSamplesPerBlock
+### -field Samples.wSamplesPerBlock
 
  
 Number of samples contained in one compressed block of audio data. This value is used in buffer estimation. This value is used with compressed formats that have a fixed number of samples within each block. This value can be set to 0 if a variable number of samples is contained in each block of compressed audio data. In this case, buffer estimation and position information needs to be obtained in other ways.
 
-### -field wReserved
+### -field Samples.wReserved
 
 Reserved for internal use by operating system. Set to 0.
 
