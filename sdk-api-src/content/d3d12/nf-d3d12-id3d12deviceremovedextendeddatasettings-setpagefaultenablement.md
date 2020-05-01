@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement
-description: Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.helpviewer_keywords: ["SetPageFaultEnablement","SetPageFaultEnablement method","ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement","ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement","d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement","direct3d12.id3d12deviceremovedextendeddatasettings_setpagefaultenablement"]
+description: Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.
+helpviewer_keywords: ["SetPageFaultEnablement","SetPageFaultEnablement method","ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings.SetPageFaultEnablement","ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement","d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetPageFaultEnablement","direct3d12.id3d12deviceremovedextendeddatasettings_setpagefaultenablement"]
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setpagefaultenablement.htm
 tech.root: direct3d12
 ms.date: 02/08/2019
@@ -51,7 +52,7 @@ Configures the enablement settings for Device Removed Extended Data (DRED) page 
 
 ## -parameters
 
-### -param __MIDL__ID3D12DeviceRemovedExtendedDataSettings0001
+### -param Enablement
 
 A [D3D12_DRED_ENABLEMENT](ne-d3d12-d3d12_dred_enablement.md) value. The default is **D3D12_DRED_ENABLEMENT_SYSTEM_CONTROLLED**.
 

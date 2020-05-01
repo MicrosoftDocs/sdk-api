@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement
 title: ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement
-description: Configures the enablement settings for Device Removed Extended Data (DRED) auto-breadcrumbs.helpviewer_keywords: ["SetAutoBreadcrumbsEnablement","SetAutoBreadcrumbsEnablement method","ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement","ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement","d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement","direct3d12.id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement"]
+description: Configures the enablement settings for Device Removed Extended Data (DRED) auto-breadcrumbs.
+helpviewer_keywords: ["SetAutoBreadcrumbsEnablement","SetAutoBreadcrumbsEnablement method","ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement","ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement","d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement","direct3d12.id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement"]
 old-location: direct3d12\id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement.htm
 tech.root: direct3d12
 ms.date: 02/08/2019
@@ -51,7 +52,7 @@ Configures the enablement settings for Device Removed Extended Data (DRED) auto-
 
 ## -parameters
 
-### -param __MIDL__ID3D12DeviceRemovedExtendedDataSettings0000
+### -param Enablement
 
 A [D3D12_DRED_ENABLEMENT](ne-d3d12-d3d12_dred_enablement.md) value. The default is **D3D12_DRED_ENABLEMENT_SYSTEM_CONTROLLED**.
 
