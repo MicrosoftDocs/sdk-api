@@ -53,8 +53,9 @@ ms.custom: 19H1
 ## -description
 
 
-Wakes one thread that is waiting for the value of an address to change. 
+Wakes one thread that is waiting for the value of an address to change.
 
+The function makes sure that any modifications of the value of the address that are made by caller thread are visible to all threads (happen before the function call), so the caller is not required to have its own memory fence after the value modification.
 
 ## -parameters
 
@@ -76,8 +77,6 @@ The address to signal. If another thread has previously called
 Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
 
 Only a thread within the same process can be woken.
-
-
 
 
 ## -see-also

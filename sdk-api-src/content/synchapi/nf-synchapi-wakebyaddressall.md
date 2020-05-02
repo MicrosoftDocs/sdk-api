@@ -55,6 +55,7 @@ ms.custom: 19H1
 
 Wakes all threads that are waiting for the value of an address to change.
 
+The function makes sure that any modifications of the value of the address that are made by caller thread are visible to all threads (happen before the function call), so the caller is not required to have its own memory fence after the value modification.
 
 ## -parameters
 
