@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmProviderGetSecurityInfoByKey0
 title: FwpmProviderGetSecurityInfoByKey0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor for a provider object.
+description: Retrieves a copy of the security descriptor for a provider object.helpviewer_keywords: ["FwpmProviderGetSecurityInfoByKey0","FwpmProviderGetSecurityInfoByKey0 function [Filtering]","fwp.fwpmprovidergetsecurityinfobykey0_func","fwpmu/FwpmProviderGetSecurityInfoByKey0"]
 old-location: fwp\fwpmprovidergetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 0791050d-86e7-4b19-931a-95a531461811

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_CurrentFeaturePages
 title: IDiscRecorder2::get_CurrentFeaturePages (imapi2.h)
-description: Retrieves the list of feature pages of the device that are marked as current.
+description: Retrieves the list of feature pages of the device that are marked as current.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_CurrentFeaturePages method","IDiscRecorder2.get_CurrentFeaturePages","IDiscRecorder2::get_CurrentFeaturePages","get_CurrentFeaturePages","get_CurrentFeaturePages method [IMAPI]","get_CurrentFeaturePages method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_currentfeaturepages","imapi2/IDiscRecorder2::get_CurrentFeaturePages"]
 old-location: imapi\idiscrecorder2_get_currentfeaturepages.htm
 tech.root: imapi
 ms.assetid: 27504cb3-5c78-4fcb-8d37-ce7e6ac2a006

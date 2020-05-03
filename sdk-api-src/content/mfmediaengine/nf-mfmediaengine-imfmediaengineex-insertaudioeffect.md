@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertAudioEffect
 title: IMFMediaEngineEx::InsertAudioEffect (mfmediaengine.h)
-description: Inserts an audio effect.
+description: Inserts an audio effect.helpviewer_keywords: ["FALSE","IMFMediaEngineEx interface [Media Foundation]","InsertAudioEffect method","IMFMediaEngineEx.InsertAudioEffect","IMFMediaEngineEx::InsertAudioEffect","InsertAudioEffect","InsertAudioEffect method [Media Foundation]","InsertAudioEffect method [Media Foundation]","IMFMediaEngineEx interface","TRUE","mf.imfmediaengineex_insertaudioeffect","mfmediaengine/IMFMediaEngineEx::InsertAudioEffect"]
 old-location: mf\imfmediaengineex_insertaudioeffect.htm
 tech.root: medfound
 ms.assetid: 0D9ED497-A991-473F-A775-CA780A1E0E06

@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.GetBufferSize
 title: IAudioClient::GetBufferSize (audioclient.h)
-description: The GetBufferSize method retrieves the size (maximum capacity) of the endpoint buffer.
+description: The GetBufferSize method retrieves the size (maximum capacity) of the endpoint buffer.helpviewer_keywords: ["GetBufferSize","GetBufferSize method [Core Audio]","GetBufferSize method [Core Audio]","IAudioClient interface","IAudioClient interface [Core Audio]","GetBufferSize method","IAudioClient.GetBufferSize","IAudioClient::GetBufferSize","IAudioClientGetBufferSize","audioclient/IAudioClient::GetBufferSize","coreaudio.iaudioclient_getbuffersize"]
 old-location: coreaudio\iaudioclient_getbuffersize.htm
 tech.root: CoreAudio
 ms.assetid: 562d2db6-ae14-47c9-8b8f-d4d90072b3dd

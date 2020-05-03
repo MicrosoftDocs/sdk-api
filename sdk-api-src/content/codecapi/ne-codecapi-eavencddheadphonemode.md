@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVEncDDHeadphoneMode
 title: eAVEncDDHeadphoneMode (codecapi.h)
-description: Specifies headphone mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDHeadphoneMode property.
+description: Specifies headphone mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDHeadphoneMode property.helpviewer_keywords: ["codecapi/eAVEncDDHeadphoneMode","codecapi/eAVEncDDHeadphoneMode_Encoded","codecapi/eAVEncDDHeadphoneMode_NotEncoded","codecapi/eAVEncDDHeadphoneMode_NotIndicated","dshow.eavencddheadphonemode","eAVEncDDHeadphoneMode","eAVEncDDHeadphoneMode enumeration [DirectShow]","eAVEncDDHeadphoneMode_Encoded","eAVEncDDHeadphoneMode_NotEncoded","eAVEncDDHeadphoneMode_NotIndicated"]
 old-location: dshow\eavencddheadphonemode.htm
 tech.root: DirectShow
 ms.assetid: 8739334c-bbaa-482e-9113-d4a885f98913

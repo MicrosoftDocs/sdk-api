@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagSAFEARRAY
 title: SAFEARRAY (oaidl.h)
-description: Represents a safe array.
+description: Represents a safe array.helpviewer_keywords: ["*LPSAFEARRAY","FADF_AUTO","FADF_BSTR","FADF_DISPATCH","FADF_EMBEDDED","FADF_FIXEDSIZE","FADF_HAVEIID","FADF_HAVEVARTYPE","FADF_RECORD","FADF_RESERVED","FADF_STATIC","FADF_UNKNOWN","FADF_VARIANT","LPSAFEARRAY","LPSAFEARRAY structure pointer [Automation]","SAFEARRAY","SAFEARRAY structure [Automation]","automat.safearray","oaidl/LPSAFEARRAY","oaidl/SAFEARRAY"]
 old-location: automat\safearray.htm
 tech.root: automat
 ms.assetid: 9ec8025b-4763-4526-ab45-390c5d8b3b1e

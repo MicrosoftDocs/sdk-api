@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Status
 title: IMbnSmsReadMsgTextCdma::get_Status (mbnapi.h)
-description: The type of message.
+description: The type of message.helpviewer_keywords: ["IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","Status property","IMbnSmsReadMsgTextCdma.Status","IMbnSmsReadMsgTextCdma.get_Status","IMbnSmsReadMsgTextCdma::Status","IMbnSmsReadMsgTextCdma::get_Status","Status property [Microsoft Broadband Networks]","Status property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","get_Status","mbn.imbnsmsreadmsgtextcdma_status","mbnapi/IMbnSmsReadMsgTextCdma::Status","mbnapi/IMbnSmsReadMsgTextCdma::get_Status"]
 old-location: mbn\imbnsmsreadmsgtextcdma_status.htm
 tech.root: mbn
 ms.assetid: e0f428f4-f0de-49c2-88a3-f84ad4cf66a9

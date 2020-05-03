@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioCloseFramework
 title: WinBioCloseFramework function (winbio.h)
-description: Closes a framework handle previously opened with WinBioAsyncOpenFramework. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+description: Closes a framework handle previously opened with WinBioAsyncOpenFramework. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WinBioCloseFramework","WinBioCloseFramework function [Windows Biometric Framework API]","secbiomet.winbiocloseframework","winbio/WinBioCloseFramework"]
 old-location: secbiomet\winbiocloseframework.htm
 tech.root: SecBioMet
 ms.assetid: AE13FB2F-0B6B-4D98-A75A-E8A2EA525136

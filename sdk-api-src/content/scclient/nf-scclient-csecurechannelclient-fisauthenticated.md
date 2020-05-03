@@ -1,7 +1,7 @@
 ---
 UID: NF:scclient.CSecureChannelClient.fIsAuthenticated
 title: CSecureChannelClient::fIsAuthenticated (scclient.h)
-description: The fIsAuthenticated method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.
+description: The fIsAuthenticated method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","fIsAuthenticated method","CSecureChannelClient.fIsAuthenticated","CSecureChannelClient::fIsAuthenticated","CSecureChannelClientfIsAuthenticated","fIsAuthenticated","fIsAuthenticated method [windows Media Device Manager]","fIsAuthenticated method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::fIsAuthenticated","wmdm.csecurechannelclient_fisauthenticated"]
 old-location: wmdm\csecurechannelclient_fisauthenticated.htm
 tech.root: WMDM
 ms.assetid: 9b9a529a-c652-48e1-b70d-e95e2e34e2c5

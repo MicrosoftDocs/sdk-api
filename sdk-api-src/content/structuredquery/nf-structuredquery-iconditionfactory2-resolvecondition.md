@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory2.ResolveCondition
 title: IConditionFactory2::ResolveCondition (structuredquery.h)
 description: Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports ICondition and ICondition2.
+helpviewer_keywords: ["IConditionFactory2 interface [search]","ResolveCondition method","IConditionFactory2.ResolveCondition","IConditionFactory2::ResolveCondition","ResolveCondition","ResolveCondition method [search]","ResolveCondition method [search]","IConditionFactory2 interface","_search_IConditionFactory2_ResolveCondition","search._search_IConditionFactory2_ResolveCondition","structuredquery/IConditionFactory2::ResolveCondition"]
 old-location: search\_search_IConditionFactory2_ResolveCondition.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\resolvecondition.htm
@@ -124,11 +125,11 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/structuredq
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

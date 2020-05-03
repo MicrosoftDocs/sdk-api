@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPAsyncResult.AsyncOperationComplete
 title: IUPnPAsyncResult::AsyncOperationComplete (upnp.h)
-description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.
+description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.helpviewer_keywords: ["AsyncOperationComplete","AsyncOperationComplete method [UPnP APIs]","AsyncOperationComplete method [UPnP APIs]","IUPnPAsyncResult interface","IUPnPAsyncResult interface [UPnP APIs]","AsyncOperationComplete method","IUPnPAsyncResult.AsyncOperationComplete","IUPnPAsyncResult::AsyncOperationComplete","upnp.iupnpasyncresult_asyncoperationcomplete","upnp/IUPnPAsyncResult::AsyncOperationComplete"]
 old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
 tech.root: upnp
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F

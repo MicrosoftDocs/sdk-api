@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_DECODER_END_CALLBACK
 title: WS_DECODER_END_CALLBACK (webservices.h)
-description: Decodes the end of a message.
+description: Decodes the end of a message.helpviewer_keywords: ["WS_DECODER_END_CALLBACK","WS_DECODER_END_CALLBACK callback","WS_DECODER_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_DECODER_END_CALLBACK","wsw.ws_decoder_end_callback"]
 old-location: wsw\ws_decoder_end_callback.htm
 tech.root: wsw
 ms.assetid: 7cf93467-84f6-4ffb-8329-bc1df119087a

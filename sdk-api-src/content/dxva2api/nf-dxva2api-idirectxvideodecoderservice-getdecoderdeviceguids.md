@@ -1,7 +1,7 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderDeviceGuids
 title: IDirectXVideoDecoderService::GetDecoderDeviceGuids (dxva2api.h)
-description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
+description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.helpviewer_keywords: ["53980b1f-2be1-4267-a581-a4b09255b89f","GetDecoderDeviceGuids","GetDecoderDeviceGuids method [Media Foundation]","GetDecoderDeviceGuids method [Media Foundation]","IDirectXVideoDecoderService interface","IDirectXVideoDecoderService interface [Media Foundation]","GetDecoderDeviceGuids method","IDirectXVideoDecoderService.GetDecoderDeviceGuids","IDirectXVideoDecoderService::GetDecoderDeviceGuids","dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids","mf.idirectxvideodecoderservice_getdecoderdeviceguids"]
 old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm
 tech.root: medfound
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f

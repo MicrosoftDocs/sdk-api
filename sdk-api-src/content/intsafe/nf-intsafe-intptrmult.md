@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.IntPtrMult
 title: IntPtrMult function (intsafe.h)
-description: Multiplies two values of type INT_PTR.
+description: Multiplies two values of type INT_PTR.helpviewer_keywords: ["IntPtrMult","IntPtrMult function [Windows Shell]","intsafe/IntPtrMult","shell.IntPtrMult"]
 old-location: shell\IntPtrMult.htm
 tech.root: shell
 ms.assetid: c93c088e-bef2-4999-bd6d-68d4dd493f0b

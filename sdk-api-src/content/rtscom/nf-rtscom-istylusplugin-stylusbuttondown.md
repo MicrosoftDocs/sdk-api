@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonDown
 title: IStylusPlugin::StylusButtonDown (rtscom.h)
-description: Notifies the implementing plug-in that the user is pressing a stylus button.
+description: Notifies the implementing plug-in that the user is pressing a stylus button.helpviewer_keywords: ["60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c","IStylusPlugin interface [Tablet PC]","StylusButtonDown method","IStylusPlugin.StylusButtonDown","IStylusPlugin::StylusButtonDown","StylusButtonDown","StylusButtonDown method [Tablet PC]","StylusButtonDown method [Tablet PC]","IStylusPlugin interface","rtscom/IStylusPlugin::StylusButtonDown","tablet.istylusplugin_stylusbuttondown"]
 old-location: tablet\istylusplugin_stylusbuttondown.htm
 tech.root: tablet
 ms.assetid: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c

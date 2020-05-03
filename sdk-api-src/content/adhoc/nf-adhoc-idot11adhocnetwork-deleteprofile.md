@@ -1,7 +1,7 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.DeleteProfile
 title: IDot11AdHocNetwork::DeleteProfile (adhoc.h)
-description: Deletes any profile associated with the network.
+description: Deletes any profile associated with the network.helpviewer_keywords: ["DeleteProfile","DeleteProfile method [NativeWIFI]","DeleteProfile method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","DeleteProfile method","IDot11AdHocNetwork.DeleteProfile","IDot11AdHocNetwork::DeleteProfile","adhoc/IDot11AdHocNetwork::DeleteProfile","nwifi.idot11adhocnetwork_deleteprofile"]
 old-location: nwifi\idot11adhocnetwork_deleteprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 7f2c007c-4d24-44d7-be30-0fa7c5fbce4a

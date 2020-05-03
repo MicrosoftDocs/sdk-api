@@ -2,6 +2,7 @@
 UID: NF:dbghelp.SymFunctionTableAccess64
 title: SymFunctionTableAccess64 function (dbghelp.h)
 description: Retrieves the function table entry for the specified address.
+helpviewer_keywords: ["SymFunctionTableAccess","SymFunctionTableAccess function","SymFunctionTableAccess64","SymFunctionTableAccess64 function","_win32_symfunctiontableaccess64","base.symfunctiontableaccess64","dbghelp/SymFunctionTableAccess","dbghelp/SymFunctionTableAccess64"]
 old-location: base\symfunctiontableaccess64.htm
 tech.root: Debug
 ms.assetid: f79e6af9-9931-4bd7-ae12-29d890267a89
@@ -90,7 +91,7 @@ The type of pointer returned is specific to the image from which symbols are loa
 <b>x86:  </b>If the image is for an x86 system, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure.
 
-<b>x64:  </b>If the image is for an x64 system, this is a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a> structure.
+<b>x64:  </b>If the image is for an x64 system, this is a pointer to an <a href="/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a> structure.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -136,7 +137,7 @@ SymFunctionTableAccess(
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
+<a href="/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
  
 
  

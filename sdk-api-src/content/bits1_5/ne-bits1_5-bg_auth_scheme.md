@@ -1,7 +1,7 @@
 ---
 UID: NE:bits1_5.BG_AUTH_SCHEME
 title: BG_AUTH_SCHEME
-description: Defines constants that specify the authentication scheme to use when a proxy or server requests user authentication.
+description: Defines constants that specify the authentication scheme to use when a proxy or server requests user authentication.helpviewer_keywords: ["BG_AUTH_SCHEME","BG_AUTH_SCHEME enumeration [BITS]","BG_AUTH_SCHEME_BASIC","BG_AUTH_SCHEME_DIGEST","BG_AUTH_SCHEME_NEGOTIATE","BG_AUTH_SCHEME_NTLM","BG_AUTH_SCHEME_PASSPORT","_drz_bg_auth_scheme","bits.bg_auth_scheme","bits1_5/BG_AUTH_SCHEME","bits1_5/BG_AUTH_SCHEME_BASIC","bits1_5/BG_AUTH_SCHEME_DIGEST","bits1_5/BG_AUTH_SCHEME_NEGOTIATE","bits1_5/BG_AUTH_SCHEME_NTLM","bits1_5/BG_AUTH_SCHEME_PASSPORT"]
 old-location: bits\bg_auth_scheme.htm
 tech.root: Bits
 ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3

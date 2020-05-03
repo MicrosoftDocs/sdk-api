@@ -1,7 +1,7 @@
 ---
 UID: NF:robuffer.IBufferByteAccess.Buffer
 title: IBufferByteAccess::Buffer (robuffer.h)
-description: Gets the array of bytes in the buffer.
+description: Gets the array of bytes in the buffer.helpviewer_keywords: ["Buffer","Buffer method [Windows Runtime]","Buffer method [Windows Runtime]","IBufferByteAccess interface","IBufferByteAccess interface [Windows Runtime]","Buffer method","IBufferByteAccess.Buffer","IBufferByteAccess::Buffer","robuffer/IBufferByteAccess::Buffer","winrt.ibufferbyteaccess_buffer"]
 old-location: winrt\ibufferbyteaccess_buffer.htm
 tech.root: WinRT
 ms.assetid: 51E69696-CE8A-4390-8134-EE5C5F3C729B

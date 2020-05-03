@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.devices.display.core.interop.IDisplayDeviceInterop.CreateSharedHandle
 title: IDisplayDeviceInterop::CreateSharedHandle
-description: For a [DisplaySurface](/uwp/api/windows.devices.display.core.displaysurface) or a [DisplayFence](/uwp/api/windows.devices.display.core.displayfence) object, creates a shared handle that can be used for interop with Direct3D or other graphics APIs.
+description: For a [DisplaySurface](/uwp/api/windows.devices.display.core.displaysurface) or a [DisplayFence](/uwp/api/windows.devices.display.core.displayfence) object, creates a shared handle that can be used for interop with Direct3D or other graphics APIs.helpviewer_keywords: ["IDisplayDeviceInterop::CreateSharedHandle"]
 ms.date: 02/10/2020
 tech.root: winrt
 dev_langs:

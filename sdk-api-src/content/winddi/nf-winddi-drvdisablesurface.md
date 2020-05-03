@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvDisableSurface
 title: DrvDisableSurface function (winddi.h)
-description: The DrvDisableSurface function is used by GDI to notify a driver that the surface created by DrvEnableSurface for the current device is no longer needed.
+description: The DrvDisableSurface function is used by GDI to notify a driver that the surface created by DrvEnableSurface for the current device is no longer needed.helpviewer_keywords: ["DrvDisableSurface","DrvDisableSurface function [Display Devices]","ddifncs_1b5543ca-2860-4383-a2a7-a73adc5cf2a4.xml","display.drvdisablesurface","winddi/DrvDisableSurface"]
 old-location: display\drvdisablesurface.htm
 tech.root: display
 ms.assetid: 18714107-7287-4d50-a2f9-b5d72f111f8b

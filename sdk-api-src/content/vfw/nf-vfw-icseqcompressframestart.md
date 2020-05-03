@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICSeqCompressFrameStart
 title: ICSeqCompressFrameStart function (vfw.h)
-description: The ICSeqCompressFrameStart function initializes resources for compressing a sequence of frames using the ICSeqCompressFrame function.
+description: The ICSeqCompressFrameStart function initializes resources for compressing a sequence of frames using the ICSeqCompressFrame function.helpviewer_keywords: ["ICSeqCompressFrameStart","ICSeqCompressFrameStart function [Windows Multimedia]","_win32_ICSeqCompressFrameStart","multimedia.icseqcompressframestart","vfw/ICSeqCompressFrameStart"]
 old-location: multimedia\icseqcompressframestart.htm
 tech.root: Multimedia
 ms.assetid: 90103468-fcdc-4c40-b328-29fe467b9039

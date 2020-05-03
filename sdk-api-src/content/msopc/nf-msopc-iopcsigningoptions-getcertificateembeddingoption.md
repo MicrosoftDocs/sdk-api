@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcSigningOptions.GetCertificateEmbeddingOption
 title: IOpcSigningOptions::GetCertificateEmbeddingOption (msopc.h)
 description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
+helpviewer_keywords: ["GetCertificateEmbeddingOption","GetCertificateEmbeddingOption method [Open Packaging Conventions]","GetCertificateEmbeddingOption method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCertificateEmbeddingOption method","IOpcSigningOptions.GetCertificateEmbeddingOption","IOpcSigningOptions::GetCertificateEmbeddingOption","msopc/IOpcSigningOptions::GetCertificateEmbeddingOption","opc.iopcsigningoptions_getcertificateembeddingoption"]
 old-location: opc\iopcsigningoptions_getcertificateembeddingoption.htm
 tech.root: OPC
 ms.assetid: 86f83829-0507-4918-ae7f-71738f985068
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <i>embeddingOption</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> enum value.
+The <i>embeddingOption</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> enum value.
 
 </td>
 </tr>
@@ -134,7 +135,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a>
 
 
 

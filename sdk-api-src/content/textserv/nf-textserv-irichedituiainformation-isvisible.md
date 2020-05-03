@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.IRichEditUiaInformation.IsVisible
 title: IRichEditUiaInformation::IsVisible (textserv.h)
-description: Indicates whether a windowless rich edit control is currently visible.
+description: Indicates whether a windowless rich edit control is currently visible.helpviewer_keywords: ["IRichEditUiaInformation interface [Windows Controls]","IsVisible method","IRichEditUiaInformation.IsVisible","IRichEditUiaInformation::IsVisible","IsVisible","IsVisible method [Windows Controls]","IsVisible method [Windows Controls]","IRichEditUiaInformation interface","controls.irichedituiainformation_isvisible","textserv/IRichEditUiaInformation::IsVisible"]
 old-location: controls\irichedituiainformation_isvisible.htm
 tech.root: Controls
 ms.assetid: E989851B-E03C-42A2-A088-E89DF986D7AC

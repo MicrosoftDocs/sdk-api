@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsDataValidForForm
 title: IUIAutomationElement::get_CachedIsDataValidForForm (uiautomationclient.h)
-description: Retrieves a cached value that indicates whether the element contains valid data for the form.
+description: Retrieves a cached value that indicates whether the element contains valid data for the form.helpviewer_keywords: ["CachedIsDataValidForForm property [Windows Accessibility]","CachedIsDataValidForForm property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedIsDataValidForForm property","IUIAutomationElement.CachedIsDataValidForForm","IUIAutomationElement.get_CachedIsDataValidForForm","IUIAutomationElement::CachedIsDataValidForForm","IUIAutomationElement::get_CachedIsDataValidForForm","get_CachedIsDataValidForForm","uiauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm","uiauto_IUIAutomationElement_CachedIsDataValidForForm","uiautomationclient/IUIAutomationElement::CachedIsDataValidForForm","uiautomationclient/IUIAutomationElement::get_CachedIsDataValidForForm","winauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsDataValidForForm.htm
 tech.root: WinAuto
 ms.assetid: 2f1027fd-7d95-412f-a9e8-73236252e49f

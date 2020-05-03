@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderContextGetByKey0
 title: FwpmProviderContextGetByKey0 function (fwpmu.h)
 description: Retrieves a provider context.
+helpviewer_keywords: ["FwpmProviderContextGetByKey0","FwpmProviderContextGetByKey0 function [Filtering]","fwp.fwpmprovidercontextgetbykey0_func","fwpmu/FwpmProviderContextGetByKey0"]
 old-location: fwp\fwpmprovidercontextgetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 09319701-4023-4517-ae25-a2c342cc9df2
@@ -75,7 +76,7 @@ Pointer to a GUID that uniquely identifies the provider context. This is a point
 
 ### -param providerContext [out]
 
-Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>**</b>
+Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)**</b>
 
 The provider context information.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>
+[FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)
 
 
 

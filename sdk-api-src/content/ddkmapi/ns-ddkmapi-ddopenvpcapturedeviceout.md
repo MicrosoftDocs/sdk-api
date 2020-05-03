@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDOPENVPCAPTUREDEVICEOUT
 title: DDOPENVPCAPTUREDEVICEOUT (ddkmapi.h)
-description: The DDOPENVPCAPTUREDEVICEOUT structure contains the video port extensions (VPE) capture handle.
+description: The DDOPENVPCAPTUREDEVICEOUT structure contains the video port extensions (VPE) capture handle.helpviewer_keywords: ["*LPDDOPENVPCAPTUREDEVICEOUT","DDOPENVPCAPTUREDEVICEOUT","DDOPENVPCAPTUREDEVICEOUT structure [Display Devices]","LPDDOPENVPCAPTUREDEVICEOUT","LPDDOPENVPCAPTUREDEVICEOUT structure pointer [Display Devices]","ddkmapi/DDOPENVPCAPTUREDEVICEOUT","ddkmapi/LPDDOPENVPCAPTUREDEVICEOUT","ddstrcts_b477f183-6c80-47db-a9ee-5bcbe7162774.xml","display.ddopenvpcapturedeviceout"]
 old-location: display\ddopenvpcapturedeviceout.htm
 tech.root: display
 ms.assetid: 5979ccd5-7c35-4088-96b3-15e4416d5471

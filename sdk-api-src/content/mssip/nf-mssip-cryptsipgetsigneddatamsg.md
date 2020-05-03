@@ -2,6 +2,7 @@
 UID: NF:mssip.CryptSIPGetSignedDataMsg
 title: CryptSIPGetSignedDataMsg function (mssip.h)
 description: Retrieves an Authenticode signature from the file.
+helpviewer_keywords: ["CryptSIPGetSignedDataMsg","CryptSIPGetSignedDataMsg function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","mssip/CryptSIPGetSignedDataMsg","security.cryptsipgetsigneddatamsg"]
 old-location: security\cryptsipgetsigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
@@ -59,7 +60,7 @@ The <b>CryptSIPGetSignedDataMsg</b> function retrieves an <a href="https://docs.
 
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 
 ### -param pdwEncodingType [out]
@@ -165,7 +166,7 @@ The specified data or file format of the <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure is a null pointer.
+The [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure is a null pointer.
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IWizardSite
 title: IWizardSite (shobjidl.h)
-description: Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.
+description: Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.helpviewer_keywords: ["IWizardSite","IWizardSite interface [Windows Shell]","IWizardSite interface [Windows Shell]","described","_shell_IWizardSite","shell.IWizardSite","shobjidl/IWizardSite"]
 old-location: shell\IWizardSite.htm
 tech.root: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35

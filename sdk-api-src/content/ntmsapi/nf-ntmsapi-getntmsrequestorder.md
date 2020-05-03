@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.GetNtmsRequestOrder
 title: GetNtmsRequestOrder function (ntmsapi.h)
-description: The GetNtmsRequestOrder function gets the order that the specified request will be processed in the library queue.
+description: The GetNtmsRequestOrder function gets the order that the specified request will be processed in the library queue.helpviewer_keywords: ["GetNtmsRequestOrder","GetNtmsRequestOrder function [Files]","_zaw_getntmsrequestorder","base.getntmsrequestorder","fs.getntmsrequestorder","ntmsapi/GetNtmsRequestOrder"]
 old-location: fs\getntmsrequestorder.htm
 tech.root: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce

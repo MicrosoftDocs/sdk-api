@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_TargetInformation
 title: SecPkgContext_TargetInformation (sspi.h)
-description: Returns information about the credential used for the security context.
+description: Returns information about the credential used for the security context.helpviewer_keywords: ["*PSecPkgContext_TargetInformation","PSecPkgContext_TargetInformation","PSecPkgContext_TargetInformation structure pointer [Security]","SecPkgContext_TargetInformation","SecPkgContext_TargetInformation structure [Security]","security.secpkgcontext_targetinformation","sspi/PSecPkgContext_TargetInformation","sspi/SecPkgContext_TargetInformation"]
 old-location: security\secpkgcontext_targetinformation.htm
 tech.root: SecAuthN
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685

@@ -2,6 +2,7 @@
 UID: NS:shellapi._SHCREATEPROCESSINFOW
 title: SHCREATEPROCESSINFOW (shellapi.h)
 description: Contains the information needed by SHCreateProcessAsUserW to create a process.
+helpviewer_keywords: ["*PSHCREATEPROCESSINFOW","PSHCREATEPROCESSINFOW","PSHCREATEPROCESSINFOW structure pointer [Windows Shell]","SEE_MASK_CLASSKEY","SEE_MASK_CLASSNAME","SEE_MASK_CONNECTNETDRV","SEE_MASK_DOENVSUBST","SEE_MASK_FLAG_DDEWAIT","SEE_MASK_FLAG_NO_UI","SEE_MASK_HMONITOR","SEE_MASK_NOCLOSEPROCESS","SEE_MASK_NO_CONSOLE","SEE_MASK_UNICODE","SHCREATEPROCESSINFOW","SHCREATEPROCESSINFOW structure [Windows Shell]","_win32_SHCREATEPROCESSINFOW_str","shell.SHCREATEPROCESSINFOW_str","shellapi/PSHCREATEPROCESSINFOW","shellapi/SHCREATEPROCESSINFOW"]
 old-location: shell\SHCREATEPROCESSINFOW_str.htm
 tech.root: shell
 ms.assetid: f51d22c5-ea3e-4040-9761-7555f8f7e0aa
@@ -120,7 +121,7 @@ Use this flag when specifying a monitor on multimonitor systems.
 
 #### SEE_MASK_NOCLOSEPROCESS
 
-The application will close the process. If the <b>lpProcessInformation</b> member is a valid <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> pointer, and <b>SEE_MASK_NOCLOSEPROCESS</b> is set, the process will remain open when <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shcreateprocessasuserw">SHCreateProcessAsUserW</a> returns. The <b>hProcess</b> and <b>hThread</b> members of the <b>PROCESS_INFORMATION</b> structure hold the process and thread handles, respectively. This flag is typically set to allow an application to find out when a process created with <b>SHCreateProcessAsUserW</b> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed. If this flag is not set, the process will be closed before <b>SHCreateProcessAsUserW</b> returns, even if <b>lpProcessInformation</b> is a valid pointer.
+The application will close the process. If the <b>lpProcessInformation</b> member is a valid <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> pointer, and <b>SEE_MASK_NOCLOSEPROCESS</b> is set, the process will remain open when <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shcreateprocessasuserw">SHCreateProcessAsUserW</a> returns. The <b>hProcess</b> and <b>hThread</b> members of the <b>PROCESS_INFORMATION</b> structure hold the process and thread handles, respectively. This flag is typically set to allow an application to find out when a process created with <b>SHCreateProcessAsUserW</b> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed. If this flag is not set, the process will be closed before <b>SHCreateProcessAsUserW</b> returns, even if <b>lpProcessInformation</b> is a valid pointer.
 
 
 
@@ -215,7 +216,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/processth
 
 Type: <b>LPPROCESS_INFORMATION</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure that receives information about the new process. Set this member to a valid structure pointer, and set the SEE_MASK_NOCLOSEPROCESS flag in the <b>fMask</b> member, and the process will remain open when the function returns. The <b>PROCESS_INFORMATION</b> structure's <b>hProcess</b> and <b>hThread</b> members will then hold the process and thread handles, respectively. Set this member to <b>NULL</b>, and the process will be closed before the function returns.
+A pointer to a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure that receives information about the new process. Set this member to a valid structure pointer, and set the SEE_MASK_NOCLOSEPROCESS flag in the <b>fMask</b> member, and the process will remain open when the function returns. The <b>PROCESS_INFORMATION</b> structure's <b>hProcess</b> and <b>hThread</b> members will then hold the process and thread handles, respectively. Set this member to <b>NULL</b>, and the process will be closed before the function returns.
 
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SwitchDesktop
 title: SwitchDesktop function (winuser.h)
-description: Makes the specified desktop visible and activates it. This enables the desktop to receive input from the user.
+description: Makes the specified desktop visible and activates it. This enables the desktop to receive input from the user.helpviewer_keywords: ["SwitchDesktop","SwitchDesktop function [Windows Stations and Desktops]","base.switchdesktop","winstation.switchdesktop","winuser/SwitchDesktop"]
 old-location: winstation\switchdesktop.htm
 tech.root: winstation
 ms.assetid: 401be515-ada9-42be-b8e8-4e86f513bb8d

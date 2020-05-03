@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CurrentZoomLevel
 title: IUIAutomationTransformPattern2::get_CurrentZoomLevel (uiautomationclient.h)
-description: Retrieves the zoom level of the control's viewport.
+description: Retrieves the zoom level of the control's viewport.helpviewer_keywords: ["CurrentZoomLevel property [Windows Accessibility]","CurrentZoomLevel property [Windows Accessibility]","IUIAutomationTransformPattern2 interface","IUIAutomationTransformPattern2 interface [Windows Accessibility]","CurrentZoomLevel property","IUIAutomationTransformPattern2.CurrentZoomLevel","IUIAutomationTransformPattern2.get_CurrentZoomLevel","IUIAutomationTransformPattern2::CurrentZoomLevel","IUIAutomationTransformPattern2::get_CurrentZoomLevel","get_CurrentZoomLevel","uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomLevel","uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomLevel","winauto.uiauto_iuiautomationtransformpattern2_currentzoomlevel"]
 old-location: winauto\uiauto_iuiautomationtransformpattern2_currentzoomlevel.htm
 tech.root: WinAuto
 ms.assetid: AE4A83CF-FB24-4649-BB8C-88A03B96E8D9

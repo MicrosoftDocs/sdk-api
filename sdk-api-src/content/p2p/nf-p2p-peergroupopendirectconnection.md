@@ -2,6 +2,7 @@
 UID: NF:p2p.PeerGroupOpenDirectConnection
 title: PeerGroupOpenDirectConnection function (p2p.h)
 description: The PeerGroupOpenDirectConnection function establishes a direct connection with another peer in a peer group.
+helpviewer_keywords: ["PeerGroupOpenDirectConnection","PeerGroupOpenDirectConnection function [Peer Networking]","p2p.peergroupopendirectconnection","p2p/PeerGroupOpenDirectConnection"]
 old-location: p2p\peergroupopendirectconnection.htm
 tech.root: P2PSdk
 ms.assetid: a3c52754-91b0-4722-a459-87c70b3ab9ad
@@ -145,7 +146,7 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 
-Every direct connection opened with this function must be closed with [PEER_GROUP_EVENT DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a> structure has the  <b>status</b> member of its component <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
+Every direct connection opened with this function must be closed with [PEER_GROUP_EVENT DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1) structure has the  <b>status</b> member of its component <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
 
 
 
@@ -163,7 +164,7 @@ Every direct connection opened with this function must be closed with [PEER_GROU
 
 
 
-[PEER_GROUP_EVENT DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
+[PEER_GROUP_EVENT DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
 
 
 

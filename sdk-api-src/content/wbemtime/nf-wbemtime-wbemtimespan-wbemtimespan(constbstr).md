@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const BSTR)
 title: WBEMTimeSpan::WBEMTimeSpan(const BSTR) (wbemtime.h)
-description: This WBEMTimeSpan class constructor creates a time span object from a BSTR in Interval Format.
+description: This WBEMTimeSpan class constructor creates a time span object from a BSTR in Interval Format.helpviewer_keywords: ["??0WBEMTimeSpan@@QAE@QAG@Z","WBEMTimeSpan","WBEMTimeSpan constructor [Windows Management Instrumentation]","WBEMTimeSpan constructor [Windows Management Instrumentation]","WBEMTimeSpan interface","WBEMTimeSpan interface [Windows Management Instrumentation]","WBEMTimeSpan constructor","WBEMTimeSpan.WBEMTimeSpan","WBEMTimeSpan.WBEMTimeSpan(const BSTR)","WBEMTimeSpan::WBEMTimeSpan","WBEMTimeSpan::WBEMTimeSpan(BSTR)","WBEMTimeSpan::WBEMTimeSpan(const BSTR)","wbemtime/WBEMTimeSpan::WBEMTimeSpan","wmi.wbemtimespan_wbemtimespan_bstr_"]
 old-location: wmi\wbemtimespan_wbemtimespan_bstr_.htm
 tech.root: WmiSdk
 ms.assetid: 51be003d-e85d-4cd0-99ed-a4575e35a773

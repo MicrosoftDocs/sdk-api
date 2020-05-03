@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaLookupAuthenticationPackage
 title: LsaLookupAuthenticationPackage function (ntsecapi.h)
-description: Obtains the unique identifier of an authentication package.
+description: Obtains the unique identifier of an authentication package.helpviewer_keywords: ["LsaLookupAuthenticationPackage","LsaLookupAuthenticationPackage function [Security]","MICROSOFT_KERBEROS_NAME_A","MSV1_0_PACKAGE_NAME","NEGOSSP_NAME_A","_lsa_lsalookupauthenticationpackage","ntsecapi/LsaLookupAuthenticationPackage","security.lsalookupauthenticationpackage"]
 old-location: security\lsalookupauthenticationpackage.htm
 tech.root: SecAuthN
 ms.assetid: c6504aea-fdba-44ac-b2dc-070707bb1183

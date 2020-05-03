@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.mmioAdvance
 title: mmioAdvance function (mmiscapi.h)
-description: The mmioAdvance function advances the I/O buffer of a file set up for direct I/O buffer access with the mmioGetInfo function.
+description: The mmioAdvance function advances the I/O buffer of a file set up for direct I/O buffer access with the mmioGetInfo function.helpviewer_keywords: ["_win32_mmioAdvance","mmioAdvance","mmioAdvance function [Windows Multimedia]","mmsystem/mmioAdvance","multimedia.mmioadvance"]
 old-location: multimedia\mmioadvance.htm
 tech.root: Multimedia
 ms.assetid: 30c0b014-a0ac-4002-aeef-24816673f1ed

@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetNextSourceFromUriAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Instructs the DMR asynchronously to prepare the content identified by the specified URI for playing once the current content has finished playing.
+description: Instructs the DMR asynchronously to prepare the content identified by the specified URI for playing once the current content has finished playing.helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","SetNextSourceFromUriAsync method","IMediaRenderer.SetNextSourceFromUriAsync","IMediaRenderer.streaming","IMediaRenderer::SetNextSourceFromUriAsync","IMediaRenderer::streaming","SetNextSourceFromUriAsync","SetNextSourceFromUriAsync method [Media Streaming API]","SetNextSourceFromUriAsync method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_setnextsourcefromuriasync","windows/IMediaRenderer::SetNextSourceFromUriAsync"]
 old-location: mediastreaming\imediarenderer_setnextsourcefromuriasync.htm
 tech.root: mediastreaming
 ms.assetid: 6894F1DF-63E2-4091-B61B-736D801E06EF

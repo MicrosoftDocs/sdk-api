@@ -2,6 +2,7 @@
 UID: NF:wiavideo.IWiaVideo.GetCurrentState
 title: IWiaVideo::GetCurrentState (wiavideo.h)
 description: The IWiaVideo::GetCurrentState method specifies the state of the video stream as a member of the WIAVIDEO_STATE enumeration.
+helpviewer_keywords: ["GetCurrentState","GetCurrentState method [WIA]","GetCurrentState method [WIA]","IWiaVideo interface","IWiaVideo interface [WIA]","GetCurrentState method","IWiaVideo.GetCurrentState","IWiaVideo::GetCurrentState","_wia_IWiaVideo_GetCurrentState","wia._wia_IWiaVideo_GetCurrentState","wiavideo/IWiaVideo::GetCurrentState"]
 old-location: wia\_wia_IWiaVideo_GetCurrentState.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\getcurrentstate.htm
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video stream as a member of the <a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> enumeration.
+The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video stream as a member of the <a href="/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> enumeration.
 
 
 ## -parameters
@@ -59,9 +60,9 @@ The <b>IWiaVideo::GetCurrentState</b> method specifies the state of the video st
 
 ### -param pState [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a>*</b>
+Type: <b><a href="/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a>*</b>
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> enumeration that specifies the current state of the video stream.
+A member of the <a href="/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> enumeration that specifies the current state of the video stream.
 
 
 ## -returns

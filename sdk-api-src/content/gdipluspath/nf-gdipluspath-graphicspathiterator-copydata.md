@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.CopyData
 title: GraphicsPathIterator::CopyData (gdipluspath.h)
-description: The GraphicsPathIterator::CopyData method copies a subset of the path's data points to a PointF array and copies a subset of the path's point types to a BYTE array.
+description: The GraphicsPathIterator::CopyData method copies a subset of the path's data points to a PointF array and copies a subset of the path's point types to a BYTE array.helpviewer_keywords: ["CopyData","CopyData method [GDI+]","CopyData method [GDI+]","GraphicsPathIterator class","GraphicsPathIterator class [GDI+]","CopyData method","GraphicsPathIterator.CopyData","GraphicsPathIterator::CopyData","_gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\copydata.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtOpenPublisherMetadata
 title: EvtOpenPublisherMetadata function (winevt.h)
-description: Gets a handle that you use to read the specified provider's metadata.
+description: Gets a handle that you use to read the specified provider's metadata.helpviewer_keywords: ["EvtOpenPublisherMetadata","EvtOpenPublisherMetadata function [EventLog]","wes.evtopenpublishermetadata","winevt/EvtOpenPublisherMetadata"]
 old-location: wes\evtopenpublishermetadata.htm
 tech.root: wes
 ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0

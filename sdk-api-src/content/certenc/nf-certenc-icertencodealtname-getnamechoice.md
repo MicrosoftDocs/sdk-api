@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameChoice
 title: ICertEncodeAltName::GetNameChoice (certenc.h)
-description: Returns the name choice at a specified index of an alternate name array.
+description: Returns the name choice at a specified index of an alternate name array.helpviewer_keywords: ["CCertEncodeAltName object [Security]","GetNameChoice method","GetNameChoice","GetNameChoice method [Security]","GetNameChoice method [Security]","CCertEncodeAltName object","GetNameChoice method [Security]","ICertEncodeAltName interface","ICertEncodeAltName interface [Security]","GetNameChoice method","ICertEncodeAltName.GetNameChoice","ICertEncodeAltName::GetNameChoice","_certsrv_icertencodealtname_getnamechoice","certenc/ICertEncodeAltName::GetNameChoice","security.icertencodealtname_getnamechoice"]
 old-location: security\icertencodealtname_getnamechoice.htm
 tech.root: SecCrypto
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056

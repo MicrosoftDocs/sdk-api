@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsBackLink
 title: IADsBackLink (iads.h)
-description: The IADsBackLink interface provides methods for an ADSI client to access the Back Link attribute. You can call the property methods of this interface to obtain and modify the attribute.
+description: The IADsBackLink interface provides methods for an ADSI client to access the Back Link attribute. You can call the property methods of this interface to obtain and modify the attribute.helpviewer_keywords: ["BackLink","IADsBackLink","IADsBackLink interface [ADSI]","IADsBackLink interface [ADSI]","described","_ds_iadsbacklink","adsi.iadsbacklink","iads/IADsBackLink"]
 old-location: adsi\iadsbacklink.htm
 tech.root: adsi
 ms.assetid: 2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622

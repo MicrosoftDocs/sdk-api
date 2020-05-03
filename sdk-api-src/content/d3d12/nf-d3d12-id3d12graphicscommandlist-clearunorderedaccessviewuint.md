@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint (d3d12.h)
-description: Sets all the elements in a unordered-access view (UAV) to the specified integer values.
+description: Sets all the elements in a unordered-access view (UAV) to the specified integer values.helpviewer_keywords: ["ClearUnorderedAccessViewUint","ClearUnorderedAccessViewUint method","ClearUnorderedAccessViewUint method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearUnorderedAccessViewUint method","ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint","ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint","d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint","direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewuint"]
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewuint.htm
 tech.root: direct3d12
 ms.assetid: A048BF0C-9141-4DDF-91F9-B53464033A44

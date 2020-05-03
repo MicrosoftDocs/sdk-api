@@ -1,7 +1,7 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0003
 title: WDSTRANSPORT_NAMESPACE_TYPE (wdstptmgmt.h)
-description: Determines the type of multicast sessions used for transmitting objects covered by this namespace.
+description: Determines the type of multicast sessions used for transmitting objects covered by this namespace.helpviewer_keywords: ["*PWDSTRANSPORT_NAMESPACE_TYPE","WDSTRANSPORT_NAMESPACE_TYPE","WDSTRANSPORT_NAMESPACE_TYPE enumeration [Windows Deployment Services]","WdsTptNamespaceTypeAutoCast","WdsTptNamespaceTypeScheduledCastAutoStart","WdsTptNamespaceTypeScheduledCastManualStart","WdsTptNamespaceTypeUnknown","wds.wdstransport_namespace_type","wdstptmgmt/WDSTRANSPORT_NAMESPACE_TYPE","wdstptmgmt/WdsTptNamespaceTypeAutoCast","wdstptmgmt/WdsTptNamespaceTypeScheduledCastAutoStart","wdstptmgmt/WdsTptNamespaceTypeScheduledCastManualStart","wdstptmgmt/WdsTptNamespaceTypeUnknown"]
 old-location: wds\wdstransport_namespace_type.htm
 tech.root: wds
 ms.assetid: baba27d2-6df1-4261-b98d-9728ecbb56f2

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Commit
 title: ITransactionProxy::Commit (comsvcs.h)
-description: Commits the transaction.
+description: Commits the transaction.helpviewer_keywords: ["Commit","Commit method [COM+]","Commit method [COM+]","ITransactionProxy interface","ITransactionProxy interface [COM+]","Commit method","ITransactionProxy.Commit","ITransactionProxy::Commit","comsvcs/ITransactionProxy::Commit","cos.itransactionproxy_commit"]
 old-location: cos\itransactionproxy_commit.htm
 tech.root: cossdk
 ms.assetid: 00b8fe43-22d3-44fd-a1c4-cf3cd36873c6

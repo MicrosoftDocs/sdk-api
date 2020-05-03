@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.__unnamed_struct_8
 title: LVINSERTMARK (commctrl.h)
-description: Used to describe insertion points.
+description: Used to describe insertion points.helpviewer_keywords: ["*LPLVINSERTMARK","LVIM_AFTER","LVINSERTMARK","LVINSERTMARK structure [Windows Controls]","PLVINSERTMARK","PLVINSERTMARK structure pointer [Windows Controls]","commctrl/LVINSERTMARK","commctrl/PLVINSERTMARK","controls.LVINSERTMARK","controls.inet_LVINSERTMARK","inet_LVINSERTMARK","inet_LVINSERTMARK_cpp"]
 old-location: controls\LVINSERTMARK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertmark.htm

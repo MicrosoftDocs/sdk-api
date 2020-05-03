@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateTargetPropertySetObject
 title: ITsSbProvider::CreateTargetPropertySetObject (sbtsv.h)
-description: Creates an ITsSbTargetPropertySet target property set object.
+description: Creates an ITsSbTargetPropertySet target property set object.helpviewer_keywords: ["CreateTargetPropertySetObject","CreateTargetPropertySetObject method [Remote Desktop Services]","CreateTargetPropertySetObject method [Remote Desktop Services]","ITsSbProvider interface","ITsSbProvider interface [Remote Desktop Services]","CreateTargetPropertySetObject method","ITsSbProvider.CreateTargetPropertySetObject","ITsSbProvider::CreateTargetPropertySetObject","sbtsv/ITsSbProvider::CreateTargetPropertySetObject","termserv.itssbprovider_createtargetpropertysetobject"]
 old-location: termserv\itssbprovider_createtargetpropertysetobject.htm
 tech.root: TermServ
 ms.assetid: 82e9d414-2137-44f3-a984-dc12aba3ecd9

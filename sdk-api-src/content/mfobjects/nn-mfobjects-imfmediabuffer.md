@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFMediaBuffer
 title: IMFMediaBuffer (mfobjects.h)
-description: Represents a block of memory that contains media data.
+description: Represents a block of memory that contains media data.helpviewer_keywords: ["3ccc7089-d0d0-4eb1-b763-0d4e348af685","IMFMediaBuffer","IMFMediaBuffer interface [Media Foundation]","IMFMediaBuffer interface [Media Foundation]","described","mf.imfmediabuffer","mfobjects/IMFMediaBuffer"]
 old-location: mf\imfmediabuffer.htm
 tech.root: medfound
 ms.assetid: 3ccc7089-d0d0-4eb1-b763-0d4e348af685

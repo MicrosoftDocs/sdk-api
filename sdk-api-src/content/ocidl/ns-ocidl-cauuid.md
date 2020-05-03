@@ -1,7 +1,7 @@
 ---
 UID: NS:ocidl.tagCAUUID
 title: CAUUID (ocidl.h)
-description: Specifies a counted array of UUID or GUID types used to receive an array of CLSIDs for the property pages that the object wants to display.
+description: Specifies a counted array of UUID or GUID types used to receive an array of CLSIDs for the property pages that the object wants to display.helpviewer_keywords: ["*LPCAUUID","CAUUID","CAUUID structure [COM]","LPCAUUID","LPCAUUID structure pointer [COM]","_ctrl_CAUUID","com.cauuid","ocidl/CAUUID","ocidl/LPCAUUID"]
 old-location: com\cauuid.htm
 tech.root: com
 ms.assetid: 23b991fb-9494-4d3b-83df-986739beaa14

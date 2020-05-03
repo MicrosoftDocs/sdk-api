@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.DDiscMaster2Events
 title: DDiscMaster2Events (imapi2.h)
-description: Implement this interface to receive notification when a CD or DVD device is added to or removed from the computer.
+description: Implement this interface to receive notification when a CD or DVD device is added to or removed from the computer.helpviewer_keywords: ["DDiscMaster2Events","DDiscMaster2Events interface [IMAPI]","DDiscMaster2Events interface [IMAPI]","described","imapi.ddiscmaster2events","imapi2/DDiscMaster2Events"]
 old-location: imapi\ddiscmaster2events.htm
 tech.root: imapi
 ms.assetid: f01fa2d8-989d-499f-b79d-495108640aa2

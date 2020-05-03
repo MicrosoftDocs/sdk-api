@@ -1,7 +1,7 @@
 ---
 UID: NS:wininet.__unnamed_struct_15
 title: InternetCookieHistory (wininet.h)
-description: The InternetCookieHistory structure contains the cookie history.
+description: The InternetCookieHistory structure contains the cookie history.helpviewer_keywords: ["InternetCookieHistory","InternetCookieHistory structure [WinINet]","wininet.internetcookiehistory","wininet/InternetCookieHistory"]
 old-location: wininet\internetcookiehistory.htm
 tech.root: wininet
 ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99

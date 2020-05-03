@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongLongSub
 title: ULongLongSub function (intsafe.h)
-description: Subtracts one value of type SIZE_T from another.
+description: Subtracts one value of type SIZE_T from another.helpviewer_keywords: ["SIZETSub","SIZETSub function [Windows Shell]","ULongLongSub","_shell_SIZETSub","intsafe/SIZETSub","shell.SIZETSub","shell.SIZETSub_1"]
 old-location: shell\SIZETSub_1.htm
 tech.root: shell
 ms.assetid: 10c66f6a-648d-4308-9c23-384ebe273af3

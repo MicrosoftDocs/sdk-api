@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeEnd
 title: WsWriteEnvelopeEnd function (webservices.h)
-description: Writes the closing elements of a message.
+description: Writes the closing elements of a message.helpviewer_keywords: ["WsWriteEnvelopeEnd","WsWriteEnvelopeEnd function [Web Services for Windows]","webservices/WsWriteEnvelopeEnd","wsw.wswriteenvelopeend"]
 old-location: wsw\wswriteenvelopeend.htm
 tech.root: wsw
 ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac

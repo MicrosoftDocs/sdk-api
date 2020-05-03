@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IDevicePair.get_Renderer
 title: IDevicePair::streaming (windows.media.streaming.h)
-description: Gets the renderer for the active basic device pair.
+description: Gets the renderer for the active basic device pair.helpviewer_keywords: ["IDevicePair interface [Media Streaming API]","get_Renderer method","IDevicePair.get_Renderer","IDevicePair.streaming","IDevicePair::get_Renderer","IDevicePair::streaming","get_Renderer","get_Renderer method [Media Streaming API]","get_Renderer method [Media Streaming API]","IDevicePair interface","mediastreaming.idevicepair_renderer","windows/IDevicePair::get_Renderer"]
 old-location: mediastreaming\idevicepair_renderer.htm
 tech.root: mediastreaming
 ms.assetid: A130AB29-285A-4BBB-B02F-8DA515E0E529

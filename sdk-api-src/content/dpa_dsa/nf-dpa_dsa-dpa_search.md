@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_Search
 title: DPA_Search function (dpa_dsa.h)
-description: Finds an item in a dynamic pointer array (DPA).
+description: Finds an item in a dynamic pointer array (DPA).helpviewer_keywords: ["DPAS_INSERTAFTER","DPAS_INSERTBEFORE","DPAS_SORTED","DPA_Search","DPA_Search function [Windows Controls]","_win32_DPA_Search","_win32_DPA_Search_cpp","controls.DPA_Search","controls._win32_DPA_Search","dpa_dsa/DPA_Search"]
 old-location: controls\DPA_Search.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_search.htm

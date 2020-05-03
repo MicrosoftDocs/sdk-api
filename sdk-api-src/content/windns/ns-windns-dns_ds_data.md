@@ -2,6 +2,7 @@
 UID: NS:windns.__unnamed_struct_25
 title: DNS_DS_DATA (windns.h)
 description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.
+helpviewer_keywords: ["*PDNS_DS_DATA","1","2","3","4","5","DNS_DS_DATA","DNS_DS_DATA structure [DNS]","PDNS_DS_DATA","PDNS_DS_DATA structure pointer [DNS]","dns.dns_ds_data","windns/DNS_DS_DATA","windns/PDNS_DS_DATA"]
 old-location: dns\dns_ds_data.htm
 tech.root: DNS
 ms.assetid: 8624cc27-feb5-4e4a-8970-40aa1d43960e
@@ -59,7 +60,7 @@ The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specif
 
 ### -field wKeyTag
 
-A value that represents the method to choose which public key is used to verify  <b>Signature</b> in <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_sig_dataw">DNS_RRSIG_DATA</a> as specified in Appendix B of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>. This value is identical to the <b>wKeyTag</b> field in <b>DNS_RRSIG_DATA</b>.
+A value that represents the method to choose which public key is used to verify  <b>Signature</b> in <a href="/windows/win32/api/windns/ns-windns-dns_sig_dataw">DNS_RRSIG_DATA</a> as specified in Appendix B of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>. This value is identical to the <b>wKeyTag</b> field in <b>DNS_RRSIG_DATA</b>.
 
 
 ### -field chAlgorithm
@@ -179,7 +180,7 @@ A <b>BYTE</b> array that contains a cryptographic digest of the DNSKEY RR and RD
 
 The 
 <b>DNS_DS_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -193,7 +194,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

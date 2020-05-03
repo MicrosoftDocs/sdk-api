@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsContainer.CopyHere
 title: IADsContainer::CopyHere (iads.h)
-description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.
+description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.helpviewer_keywords: ["CopyHere","CopyHere method [ADSI]","CopyHere method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","CopyHere method","IADsContainer.CopyHere","IADsContainer::CopyHere","_ds_iadscontainer_copyhere","adsi.iadscontainer__copyhere","adsi.iadscontainer_copyhere","iads/IADsContainer::CopyHere"]
 old-location: adsi\iadscontainer_copyhere.htm
 tech.root: adsi
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e

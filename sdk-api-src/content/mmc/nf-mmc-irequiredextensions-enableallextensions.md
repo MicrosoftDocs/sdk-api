@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IRequiredExtensions.EnableAllExtensions
 title: IRequiredExtensions::EnableAllExtensions (mmc.h)
-description: The IRequiredExtensions::EnableAllExtensions method enables the snap-in to specify that all extension snap-ins registered for the snap-in are required.
+description: The IRequiredExtensions::EnableAllExtensions method enables the snap-in to specify that all extension snap-ins registered for the snap-in are required.helpviewer_keywords: ["EnableAllExtensions","EnableAllExtensions method [MMC]","EnableAllExtensions method [MMC]","IRequiredExtensions interface","IRequiredExtensions interface [MMC]","EnableAllExtensions method","IRequiredExtensions.EnableAllExtensions","IRequiredExtensions::EnableAllExtensions","_slate_irequiredextensions_enableallextensions","mmc.irequiredextensions_enableallextensions","mmc/IRequiredExtensions::EnableAllExtensions"]
 old-location: mmc\irequiredextensions_enableallextensions.htm
 tech.root: mmc
 ms.assetid: f7278976-8f15-43a4-b9ef-fb1952fdd455

@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptxml.CryptXmlDllVerifySignature
 title: CryptXmlDllVerifySignature (cryptxml.h)
-description: Verifies a signature.
+description: Verifies a signature.helpviewer_keywords: ["CryptXmlDllVerifySignature","CryptXmlDllVerifySignature callback","CryptXmlDllVerifySignature callback function [Security]","cryptxml/CryptXmlDllVerifySignature","security.cryptxmldllverifysignature"]
 old-location: security\cryptxmldllverifysignature.htm
 tech.root: SecCrypto
 ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241

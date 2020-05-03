@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(INT,INT,INT,PixelFormat,BYTE)
 title: Bitmap::Bitmap(INT,INT,INT,PixelFormat,BYTE) (gdiplusheaders.h)
-description: Creates a Bitmap::Bitmap object based on an array of bytes along with size and format information.
+description: Creates a Bitmap::Bitmap object based on an array of bytes along with size and format information.helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(INT","INT","INT","PixelFormat","BYTE)","Bitmap.Bitmap(INT","INT","INT","PixelFormat","BYTE*)","Bitmap::Bitmap","Bitmap::Bitmap(INT","INT","INT","PixelFormat","BYTE)","_gdiplus_CLASS_Bitmap_Bitmap_width_height_stride_format_scan0_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_stride_format_scan0_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_width_height_stride_format_scan0_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_55width_height_stride_format_scan0.htm

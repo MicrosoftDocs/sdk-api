@@ -2,6 +2,7 @@
 UID: NN:mfmediaengine.IMFMediaEngineEx
 title: IMFMediaEngineEx (mfmediaengine.h)
 description: Extends the IMFMediaEngine interface.
+helpviewer_keywords: ["IMFMediaEngineEx","IMFMediaEngineEx interface [Media Foundation]","IMFMediaEngineEx interface [Media Foundation]","described","mf.imfmediaengineex","mfmediaengine/IMFMediaEngineEx"]
 old-location: mf\imfmediaengineex.htm
 tech.root: medfound
 ms.assetid: EE3591FD-4FE8-4F20-A4E2-52C896229571
@@ -427,7 +428,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfm
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Media%20engine%20native%20C%2B%2B%20video%20playback%20sample%20(Windows%208)">Media Engine Sample</a>
 
 
 

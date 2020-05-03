@@ -2,6 +2,7 @@
 UID: NF:dhcpsapi.DhcpGetClientInfoV4
 title: DhcpGetClientInfoV4 function (dhcpsapi.h)
 description: Returns information on a specific DHCP client. This function extends DhcpGetClientInfo by returning a DHCP_CLIENT_INFO_V4 structure that contains client type information.
+helpviewer_keywords: ["DhcpGetClientInfoV4","DhcpGetClientInfoV4 function [DHCP]","dhcp.dhcpgetclientinfov4","dhcpsapi/DhcpGetClientInfoV4"]
 old-location: dhcp\dhcpgetclientinfov4.htm
 tech.root: DHCP
 ms.assetid: 3f8b9cbb-f903-4a97-8a38-caf2210b6d48
@@ -65,7 +66,7 @@ Specifies the IP address of the DHCP server.
 ### -param SearchInfo [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that contains the search parameters used to select a specific DHCP client.
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that contains the search parameters used to select a specific DHCP client.
 
 
 ### -param ClientInfo [out]
@@ -126,7 +127,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
 
 
 

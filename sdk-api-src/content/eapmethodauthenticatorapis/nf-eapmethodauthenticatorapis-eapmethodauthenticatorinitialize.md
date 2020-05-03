@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorInitialize
 title: EapMethodAuthenticatorInitialize function (eapmethodauthenticatorapis.h)
 description: Initializes an EAP authenticator method for the server EAPHost.
+helpviewer_keywords: ["EapMethodAuthenticatorInitialize","EapMethodAuthenticatorInitialize function [EAPHost]","eaphost.eapmethodauthenticatorinitialize","eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize"]
 old-location: eaphost\eapmethodauthenticatorinitialize.htm
 tech.root: eaphost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa
@@ -83,7 +84,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
  
 
  

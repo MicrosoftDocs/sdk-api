@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoLong
 title: ITCallInfo::put_CallInfoLong (tapi3if.h)
-description: The put_CallInfoLong method sets call information items described by a long, such as the bearer mode.
+description: The put_CallInfoLong method sets call information items described by a long, such as the bearer mode.helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","put_CallInfoLong method","ITCallInfo.put_CallInfoLong","ITCallInfo::put_CallInfoLong","_tapi3_itcallinfo_put_callinfolong","put_CallInfoLong","put_CallInfoLong method [TAPI 2.2]","put_CallInfoLong method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_put_callinfolong","tapi3if/ITCallInfo::put_CallInfoLong"]
 old-location: tapi3\itcallinfo_put_callinfolong.htm
 tech.root: Tapi
 ms.assetid: b5198b78-56f7-4964-970a-1068f2db4743

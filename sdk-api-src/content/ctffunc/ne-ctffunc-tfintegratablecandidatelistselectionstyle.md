@@ -1,7 +1,7 @@
 ---
 UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0022_0001
 title: TfIntegratableCandidateListSelectionStyle (ctffunc.h)
-description: Elements of the TfIntegratableCandidateListSelectionStyle enumeration specify the integratable candidate list selection styles.
+description: Elements of the TfIntegratableCandidateListSelectionStyle enumeration specify the integratable candidate list selection styles.helpviewer_keywords: ["STYLE_ACTIVE_SELECTION","STYLE_IMPLIED_SELECTION","TfIntegratableCandidateListSelectionStyle","TfIntegratableCandidateListSelectionStyle enumeration [Text Services Framework]","ctffunc/STYLE_ACTIVE_SELECTION","ctffunc/STYLE_IMPLIED_SELECTION","ctffunc/TfIntegratableCandidateListSelectionStyle","tsf.tfintegratablecandidatelistselectionstyle"]
 old-location: tsf\tfintegratablecandidatelistselectionstyle.htm
 tech.root: TSF
 ms.assetid: B3013879-99B2-4099-AD56-E2FDE3CC817A

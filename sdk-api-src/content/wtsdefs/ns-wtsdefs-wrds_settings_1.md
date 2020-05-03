@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsdefs._WRDS_SETTINGS_1
 title: WRDS_SETTINGS_1 (wtsdefs.h)
-description: Contains policy-related settings for a remote session.
+description: Contains policy-related settings for a remote session.helpviewer_keywords: ["*PWRDS_SETTINGS_1","PWRDS_SETTINGS_1","PWRDS_SETTINGS_1 structure pointer [Remote Desktop Services]","WRDS_SETTINGS_1","WRDS_SETTINGS_1 structure [Remote Desktop Services]","termserv.wrds_settings_1","wtsdefs/PWRDS_SETTINGS_1","wtsdefs/WRDS_SETTINGS_1"]
 old-location: termserv\wrds_settings_1.htm
 tech.root: TermServ
 ms.assetid: 47100A84-49F4-4FF1-8CCB-731638F27C4F

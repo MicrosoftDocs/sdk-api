@@ -2,6 +2,7 @@
 UID: NF:manipulations.IInertiaProcessor.put_InitialAngularVelocity
 title: IInertiaProcessor::put_InitialAngularVelocity (manipulations.h)
 description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins.
+helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialAngularVelocity property","IInertiaProcessor.InitialAngularVelocity","IInertiaProcessor.put_InitialAngularVelocity","IInertiaProcessor::InitialAngularVelocity","IInertiaProcessor::get_InitialAngularVelocity","IInertiaProcessor::put_InitialAngularVelocity","InitialAngularVelocity property [Windows Touch]","InitialAngularVelocity property [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::InitialAngularVelocity","manipulations/IInertiaProcessor::get_InitialAngularVelocity","manipulations/IInertiaProcessor::put_InitialAngularVelocity","put_InitialAngularVelocity","wintouch.iinertiaprocessor_initialangularvelocity"]
 old-location: wintouch\iinertiaprocessor_initialangularvelocity.htm
 tech.root: wintouch
 ms.assetid: a15ac600-ef03-4234-ac38-dc3cf212a3cb
@@ -71,7 +72,7 @@ This property is read/write.
 If inertia processing has already started, setting <b>InitialAngularVelocity</b> will reset the inertia engine to the initial state with new velocity values applied.
 		
 
-Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
+Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
 
 

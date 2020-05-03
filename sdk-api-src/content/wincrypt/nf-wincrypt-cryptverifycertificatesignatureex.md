@@ -2,6 +2,7 @@
 UID: NF:wincrypt.CryptVerifyCertificateSignatureEx
 title: CryptVerifyCertificateSignatureEx function (wincrypt.h)
 description: Verifies the signature of a subject certificate, certificate revocation list, certificate request, or keygen request by using the issuer's public key.
+helpviewer_keywords: ["CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG","CRYPT_VERIFY_CERT_SIGN_ISSUER_CERT","CRYPT_VERIFY_CERT_SIGN_ISSUER_CHAIN","CRYPT_VERIFY_CERT_SIGN_ISSUER_NULL","CRYPT_VERIFY_CERT_SIGN_ISSUER_PUBKEY","CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG","CRYPT_VERIFY_CERT_SIGN_SET_STRONG_PROPERTIES_FLAG","CRYPT_VERIFY_CERT_SIGN_SUBJECT_BLOB","CRYPT_VERIFY_CERT_SIGN_SUBJECT_CERT","CRYPT_VERIFY_CERT_SIGN_SUBJECT_CRL","CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE","CryptVerifyCertificateSignatureEx","CryptVerifyCertificateSignatureEx function [Security]","X509_ASN_ENCODING","_crypto2_cryptverifycertificatesignatureex","security.cryptverifycertificatesignatureex","wincrypt/CryptVerifyCertificateSignatureEx"]
 old-location: security\cryptverifycertificatesignatureex.htm
 tech.root: SecCrypto
 ms.assetid: 8a84af66-b174-4a3e-b1d7-6f218a52d877
@@ -281,9 +282,9 @@ The following properties are set on the CRL context:
 </dl>
 </td>
 <td width="60%">
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure in the <i>pvExtra</i> parameter. The structure contains the length, in bits, of the public key and the  names of the signing and hashing algorithms used.
+Returns a pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure in the <i>pvExtra</i> parameter. The structure contains the length, in bits, of the public key and the  names of the signing and hashing algorithms used.
 
-You must call <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CryptMemFree</a> to free the structure. If memory cannot be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure, this function returns successfully but sets the <i>pvExtra</i> parameter to <b>NULL</b>.
+You must call <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CryptMemFree</a> to free the structure. If memory cannot be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure, this function returns successfully but sets the <i>pvExtra</i> parameter to <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  This flag is only applicable if  <b>CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE</b> is specified in the <i>dwSubjectType</i> parameter.</div>
 <div> </div>
@@ -297,7 +298,7 @@ You must call <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-
 
 ### -param pvExtra [in, out, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure if the <i>dwFlags</i> parameter is set to <b>CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG</b>.
+Pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure if the <i>dwFlags</i> parameter is set to <b>CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG</b>.
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> to free the structure.
 

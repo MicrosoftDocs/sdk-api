@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcBindingServerFromClient
 title: RpcBindingServerFromClient function (rpcdce.h)
-description: An application calls RpcBindingServerFromClient to convert a client binding handle into a partially-bound server binding handle.
+description: An application calls RpcBindingServerFromClient to convert a client binding handle into a partially-bound server binding handle.helpviewer_keywords: ["RpcBindingServerFromClient","RpcBindingServerFromClient function [RPC]","_rpc_rpcbindingserverfromclient","rpc.rpcbindingserverfromclient","rpcdce/RpcBindingServerFromClient"]
 old-location: rpc\rpcbindingserverfromclient.htm
 tech.root: Rpc
 ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d

@@ -2,6 +2,7 @@
 UID: NF:winnt.Int64ShraMod32
 title: Int64ShraMod32 macro (winnt.h)
 description: Performs a right arithmetic shift operation on a signed 64-bit integer value. The function provides improved shifting code for right arithmetic shifts where the shift count is in the range 0-31.
+helpviewer_keywords: ["Int64ShraMod32","Int64ShraMod32 macro [Windows API]","_win32_int64shramod32","winnt/Int64ShraMod32","winprog.int64shramod32"]
 old-location: winprog\int64shramod32.htm
 tech.root: WinProg
 ms.assetid: 69de2eb7-2cbe-48db-935b-b3d2c41f4e86
@@ -80,7 +81,7 @@ A compiler can generate optimal code for a right arithmetic shift operation when
 
 Please note that the 
 <b>Int64ShraMod32</b> function's <i>Value</i> parameter and return value are 64-bit values, not 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.
 
 
 

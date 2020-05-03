@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetDefaultLanguageProfile
 title: ITfInputProcessorProfiles::GetDefaultLanguageProfile (msctf.h)
-description: ITfInputProcessorProfiles::GetDefaultLanguageProfile method
+description: ITfInputProcessorProfiles::GetDefaultLanguageProfile methodhelpviewer_keywords: ["GetDefaultLanguageProfile","GetDefaultLanguageProfile method [Text Services Framework]","GetDefaultLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetDefaultLanguageProfile method","ITfInputProcessorProfiles.GetDefaultLanguageProfile","ITfInputProcessorProfiles::GetDefaultLanguageProfile","_tsf_itfinputprocessorprofiles_getdefaultlanguageprofile_ref","msctf/ITfInputProcessorProfiles::GetDefaultLanguageProfile","tsf.itfinputprocessorprofiles_getdefaultlanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_getdefaultlanguageprofile.htm
 tech.root: TSF
 ms.assetid: a846505e-d6d5-4462-b420-f36fd2051d92

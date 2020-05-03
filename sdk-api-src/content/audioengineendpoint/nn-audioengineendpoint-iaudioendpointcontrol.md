@@ -1,7 +1,7 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointControl
 title: IAudioEndpointControl (audioengineendpoint.h)
-description: Controls the stream state of an endpoint.
+description: Controls the stream state of an endpoint.helpviewer_keywords: ["IAudioEndpointControl","IAudioEndpointControl interface [Remote Desktop Services]","IAudioEndpointControl interface [Remote Desktop Services]","described","audioengineendpoint/IAudioEndpointControl","termserv.iaudioendpointcontrol"]
 old-location: termserv\iaudioendpointcontrol.htm
 tech.root: TermServ
 ms.assetid: 4514521a-e9a9-4f39-ab7d-4ef7e514bd10

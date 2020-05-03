@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CopyCursor
 title: CopyCursor macro (winuser.h)
-description: Copies the specified cursor.
+description: Copies the specified cursor.helpviewer_keywords: ["CopyCursor","CopyCursor function [Menus and Other Resources]","_win32_CopyCursor","_win32_copycursor_cpp","menurc.copycursor","winui._win32_copycursor","winuser/CopyCursor"]
 old-location: menurc\copycursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\copycursor.htm

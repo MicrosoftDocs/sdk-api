@@ -2,6 +2,7 @@
 UID: NF:ntsecapi.LsaLogonUser
 title: LsaLogonUser function (ntsecapi.h)
 description: Authenticates a security principal's logon data by using stored credentials information.
+helpviewer_keywords: ["KERB_CERTIFICATE_LOGON","KERB_CERTIFICATE_S4U_LOGON","KERB_CERTIFICATE_UNLOCK_LOGON","KERB_INTERACTIVE_LOGON","KERB_S4U_LOGON","KERB_SMARTCARD_LOGON","KERB_SMARTCARD_UNLOCK_LOGON","KERB_TICKET_LOGON","KERB_TICKET_PROFILE","KERB_TICKET_UNLOCK_LOGON","LsaLogonUser","LsaLogonUser function [Security]","MSV1_0_INTERACTIVE_LOGON","MSV1_0_INTERACTIVE_PROFILE","MSV1_0_LM20_LOGON","MSV1_0_LM20_LOGON_PROFILE","MSV1_0_SUBAUTH_LOGON","STATUS_ACCOUNT_DISABLED","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_PASSWORD_EXPIRED","_lsa_lsalogonuser","ntsecapi/LsaLogonUser","security.lsalogonuser"]
 old-location: security\lsalogonuser.htm
 tech.root: SecAuthN
 ms.assetid: 75968d53-5af2-4d77-9486-26403b73c954
@@ -114,7 +115,7 @@ This parameter can be one of the following input buffer structures for the MSV1_
 <td width="60%">
 Authenticating an interactive user logon.
 
-The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
+The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 
 </td>
 </tr>

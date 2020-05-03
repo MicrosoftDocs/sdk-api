@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IExplorerPaneVisibility.GetPaneState
 title: IExplorerPaneVisibility::GetPaneState (shobjidl_core.h)
 description: Gets the visibility state of the given Windows Explorer pane.
+helpviewer_keywords: ["EP_AdvQueryPane","EP_Commands","EP_Commands_Organize","EP_Commands_View","EP_DetailsPane","EP_NavPane","EP_PreviewPane","EP_QueryPane","EP_Ribbon","EP_StatusBar","GetPaneState","GetPaneState method [Windows Shell]","GetPaneState method [Windows Shell]","IExplorerPaneVisibility interface","IExplorerPaneVisibility interface [Windows Shell]","GetPaneState method","IExplorerPaneVisibility.GetPaneState","IExplorerPaneVisibility::GetPaneState","_shell_IExplorerPaneVisibility_GetPaneState","shell.IExplorerPaneVisibility_GetPaneState","shobjidl_core/IExplorerPaneVisibility::GetPaneState"]
 old-location: shell\IExplorerPaneVisibility_GetPaneState.htm
 tech.root: shell
 ms.assetid: 6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda
@@ -126,9 +127,9 @@ Additional fields and options to aid in a search.
 
 ### -param peps [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a>*</b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a>*</b>
 
-When this method returns, contains the visibility state of the given Windows Explorer pane as one of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a> constants.
+When this method returns, contains the visibility state of the given Windows Explorer pane as one of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a> constants.
 
 
 ## -returns

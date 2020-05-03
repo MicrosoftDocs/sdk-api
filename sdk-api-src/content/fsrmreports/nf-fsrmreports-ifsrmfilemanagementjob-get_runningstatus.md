@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_RunningStatus
 title: IFsrmFileManagementJob::get_RunningStatus (fsrmreports.h)
-description: The running status of the job.
+description: The running status of the job.helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","RunningStatus property","IFsrmFileManagementJob.RunningStatus","IFsrmFileManagementJob.get_RunningStatus","IFsrmFileManagementJob::RunningStatus","IFsrmFileManagementJob::get_RunningStatus","RunningStatus property [File Server Resource Manager]","RunningStatus property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_runningstatus","fsrm.ifsrmfilemanagementjob_runningstatus","fsrmreports/IFsrmFileManagementJob::RunningStatus","fsrmreports/IFsrmFileManagementJob::get_RunningStatus","get_RunningStatus"]
 old-location: fsrm\ifsrmfilemanagementjob_runningstatus.htm
 tech.root: fsrm
 ms.assetid: 030efc19-69c0-4321-99ac-ff8abfc38757

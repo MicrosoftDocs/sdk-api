@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSmDestroyClientContext
 title: RpcSmDestroyClientContext function (rpcndr.h)
-description: The RpcSmDestroyClientContext function reclaims the client memory resources for a context handle and makes the context handle NULL.
+description: The RpcSmDestroyClientContext function reclaims the client memory resources for a context handle and makes the context handle NULL.helpviewer_keywords: ["RpcSmDestroyClientContext","RpcSmDestroyClientContext function [RPC]","_rpc_rpcsmdestroyclientcontext","rpc.rpcsmdestroyclientcontext","rpcndr/RpcSmDestroyClientContext"]
 old-location: rpc\rpcsmdestroyclientcontext.htm
 tech.root: Rpc
 ms.assetid: ae886740-09e9-46a1-aa62-5dbcf6abab36

@@ -1,7 +1,7 @@
 ---
 UID: NN:asyncinfo.IAsyncInfo
 title: IAsyncInfo (asyncinfo.h)
-description: Provides support for asynchronous operations.
+description: Provides support for asynchronous operations.helpviewer_keywords: ["IAsyncInfo","IAsyncInfo interface [Windows Runtime]","IAsyncInfo interface [Windows Runtime]","described","asyncinfo/IAsyncInfo","winrt.iasyncinfo"]
 old-location: winrt\iasyncinfo.htm
 tech.root: WinRT
 ms.assetid: 3444e02e-8817-4c23-84d9-1a2d1bf43a52

@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.FlushInputStream
 title: IMFDeviceTransform::FlushInputStream (mftransform.h)
-description: The FlushInputStream method flushes a Device MFT’s input stream.
+description: The FlushInputStream method flushes a Device MFT’s input stream.helpviewer_keywords: ["FlushInputStream","FlushInputStream method [Streaming Media Devices]","FlushInputStream method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","FlushInputStream method","IMFDeviceTransform.FlushInputStream","IMFDeviceTransform::FlushInputStream","mftransform/IMFDeviceTransform::FlushInputStream","stream.imfdevicetransform_flushinputstream"]
 old-location: stream\imfdevicetransform_flushinputstream.htm
 tech.root: stream
 ms.assetid: 646A9446-B87A-40B5-8A0F-9DE67286825B

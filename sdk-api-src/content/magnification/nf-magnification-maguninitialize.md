@@ -1,7 +1,7 @@
 ---
 UID: NF:magnification.MagUninitialize
 title: MagUninitialize function (magnification.h)
-description: Destroys the magnifier run-time objects.
+description: Destroys the magnifier run-time objects.helpviewer_keywords: ["MagUninitialize","MagUninitialize function [Magnification API]","magapi.magapi_MagUninitialize","magapi_MagUninitialize","magnification/MagUninitialize"]
 old-location: magapi\magapi_MagUninitialize.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maguninitialize.htm

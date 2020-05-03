@@ -1,7 +1,7 @@
 ---
 UID: NS:wcmapi._WCM_USAGE_DATA
 title: WCM_USAGE_DATA (wcmapi.h)
-description: Contains information related to connection usage.
+description: Contains information related to connection usage.helpviewer_keywords: ["*PWCM_USAGE_DATA","PWCM_USAGE_DATA","PWCM_USAGE_DATA structure pointer [Windows Connection Manager]","WCM_USAGE_DATA","WCM_USAGE_DATA structure [Windows Connection Manager]","wcm.wcm_usage_data","wcmapi/PWCM_USAGE_DATA","wcmapi/WCM_USAGE_DATA"]
 old-location: wcm\wcm_usage_data.htm
 tech.root: wcm
 ms.assetid: c6a483cf-d392-495f-854d-ccc782b30aa5

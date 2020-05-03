@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyBypassForLocal
 title: IWMPNetwork::setProxyBypassForLocal (wmp.h)
-description: The setProxyBypassForLocal method specifies a value indicating whether the proxy server is bypassed if the origin server is on a local network.
+description: The setProxyBypassForLocal method specifies a value indicating whether the proxy server is bypassed if the origin server is on a local network.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyBypassForLocal method","IWMPNetwork.setProxyBypassForLocal","IWMPNetwork::setProxyBypassForLocal","IWMPNetworksetProxyBypassForLocal","setProxyBypassForLocal","setProxyBypassForLocal method [Windows Media Player]","setProxyBypassForLocal method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxybypassforlocal","wmp/IWMPNetwork::setProxyBypassForLocal"]
 old-location: wmp\iwmpnetwork_setproxybypassforlocal.htm
 tech.root: WMP
 ms.assetid: 4477bc81-e52b-4924-a31b-6f005a5bd158

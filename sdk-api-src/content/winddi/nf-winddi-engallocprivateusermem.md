@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngAllocPrivateUserMem
 title: EngAllocPrivateUserMem macro (winddi.h)
-description: The EngAllocPrivateUserMem function allocates a block of user memory from the address space of a specified process and inserts a caller-supplied tag before the allocation.
+description: The EngAllocPrivateUserMem function allocates a block of user memory from the address space of a specified process and inserts a caller-supplied tag before the allocation.helpviewer_keywords: ["EngAllocPrivateUserMem","EngAllocPrivateUserMem function [Display Devices]","display.engallocprivateusermem","gdifncs_e31cecee-3490-46b1-ad57-4cf8c2a4f378.xml","winddi/EngAllocPrivateUserMem"]
 old-location: display\engallocprivateusermem.htm
 tech.root: display
 ms.assetid: 416faebe-021b-4c00-9aba-d103a26348f6

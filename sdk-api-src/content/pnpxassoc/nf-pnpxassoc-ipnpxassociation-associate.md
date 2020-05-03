@@ -1,7 +1,7 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Associate
 title: IPNPXAssociation::Associate (pnpxassoc.h)
-description: Marks an association database entry as associated.
+description: Marks an association database entry as associated.helpviewer_keywords: ["Associate","Associate method","Associate method","IPNPXAssociation interface","IPNPXAssociation interface","Associate method","IPNPXAssociation.Associate","IPNPXAssociation::Associate","ncd.ipnpxassociation_associate","pnpxassoc/IPNPXAssociation::Associate"]
 old-location: ncd\ipnpxassociation_associate.htm
 tech.root: FunDisc
 ms.assetid: 74d2ed38-9362-4664-9384-e773e4ec76f3

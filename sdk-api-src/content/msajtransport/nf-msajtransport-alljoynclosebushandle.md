@@ -1,7 +1,7 @@
 ---
 UID: NF:msajtransport.AllJoynCloseBusHandle
 title: AllJoynCloseBusHandle function (msajtransport.h)
-description: Closes the Named Pipe handle.
+description: Closes the Named Pipe handle.helpviewer_keywords: ["AllJoynCloseBusHandle","AllJoynCloseBusHandle function [AllJoyn API]","alljoyn.alljoynclosebushandle","msajtransport/AllJoynCloseBusHandle"]
 old-location: alljoyn\alljoynclosebushandle.htm
 tech.root: AllJoyn
 ms.assetid: FE545239-F88D-4876-8A3F-52AC8CA63FBB

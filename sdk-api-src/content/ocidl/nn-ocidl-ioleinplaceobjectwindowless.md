@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IOleInPlaceObjectWindowless
 title: IOleInPlaceObjectWindowless (ocidl.h)
-description: Enables a windowless object to process window messages and participate in drag and drop operations. It is derived from and extends the IOleInPlaceObject interface.
+description: Enables a windowless object to process window messages and participate in drag and drop operations. It is derived from and extends the IOleInPlaceObject interface.helpviewer_keywords: ["IOleInPlaceObjectWindowless","IOleInPlaceObjectWindowless interface [COM]","IOleInPlaceObjectWindowless interface [COM]","described","_ole_ioleinplaceobjectwindowless","com.ioleinplaceobjectwindowless","ocidl/IOleInPlaceObjectWindowless"]
 old-location: com\ioleinplaceobjectwindowless.htm
 tech.root: com
 ms.assetid: 86aabb46-6bc7-4953-b4eb-8692552ca380

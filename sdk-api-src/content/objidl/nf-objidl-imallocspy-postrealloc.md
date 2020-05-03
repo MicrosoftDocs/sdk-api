@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PostRealloc
 title: IMallocSpy::PostRealloc (objidl.h)
-description: Performs operations required after calling IMalloc::Realloc.
+description: Performs operations required after calling IMalloc::Realloc.helpviewer_keywords: ["IMallocSpy interface [COM]","PostRealloc method","IMallocSpy.PostRealloc","IMallocSpy::PostRealloc","PostRealloc","PostRealloc method [COM]","PostRealloc method [COM]","IMallocSpy interface","_com_imallocspy_postrealloc","com.imallocspy_postrealloc","objidl/IMallocSpy::PostRealloc"]
 old-location: com\imallocspy_postrealloc.htm
 tech.root: com
 ms.assetid: 77f86494-f7b3-4c12-bb42-ad74161a1dff

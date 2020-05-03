@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.IsRecommended
 title: IAssocHandler::IsRecommended (shobjidl_core.h)
-description: Indicates whether the application is registered as a recommended handler for the queried file type.
+description: Indicates whether the application is registered as a recommended handler for the queried file type.helpviewer_keywords: ["IAssocHandler interface [Windows Shell]","IsRecommended method","IAssocHandler.IsRecommended","IAssocHandler::IsRecommended","IsRecommended","IsRecommended method [Windows Shell]","IsRecommended method [Windows Shell]","IAssocHandler interface","_shell_IAssocHandler_IsRecommended","shell.IAssocHandler_IsRecommended","shobjidl_core/IAssocHandler::IsRecommended"]
 old-location: shell\IAssocHandler_IsRecommended.htm
 tech.root: shell
 ms.assetid: 3c312db3-a656-436c-a012-669553355fa5

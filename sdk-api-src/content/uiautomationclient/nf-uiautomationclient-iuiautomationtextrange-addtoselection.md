@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.AddToSelection
 title: IUIAutomationTextRange::AddToSelection (uiautomationclient.h)
-description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
+description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","AddToSelection method","IUIAutomationTextRange.AddToSelection","IUIAutomationTextRange::AddToSelection","uiauto.uiauto_IUIAutomationTextRange_AddToSelection","uiauto_IUIAutomationTextRange_AddToSelection","uiautomationclient/IUIAutomationTextRange::AddToSelection","winauto.uiauto_IUIAutomationTextRange_AddToSelection"]
 old-location: winauto\uiauto_IUIAutomationTextRange_AddToSelection.htm
 tech.root: WinAuto
 ms.assetid: 5ae4a131-3283-4e91-8419-f2aa6f488833

@@ -2,6 +2,7 @@
 UID: NS:winioctl._DISK_EXTENT
 title: DISK_EXTENT
 description: Represents a disk extent.
+helpviewer_keywords: ["*PDISK_EXTENT","DISK_EXTENT","DISK_EXTENT structure [Files]","PDISK_EXTENT","PDISK_EXTENT structure pointer [Files]","_win32_disk_extent_str","base.disk_extent_str","fs.disk_extent_str","winioctl/DISK_EXTENT","winioctl/PDISK_EXTENT"]
 old-location: fs\disk_extent_str.htm
 tech.root: FileIO
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
@@ -84,7 +85,7 @@ The number of bytes in this extent.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
 
 
 

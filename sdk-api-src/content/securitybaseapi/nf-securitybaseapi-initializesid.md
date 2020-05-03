@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.InitializeSid
 title: InitializeSid function (securitybaseapi.h)
-description: Initializes a security identifier (SID).
+description: Initializes a security identifier (SID).helpviewer_keywords: ["InitializeSid","InitializeSid function [Security]","_win32_initializesid","security.initializesid","securitybaseapi/InitializeSid"]
 old-location: security\initializesid.htm
 tech.root: SecAuthZ
 ms.assetid: b2d803a5-faaf-4066-ba2c-0442c71bb150

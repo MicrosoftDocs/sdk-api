@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_DEVICE_INFO_HEADER
 title: DISPLAYCONFIG_DEVICE_INFO_HEADER (wingdi.h)
-description: The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information about the device.
+description: The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information about the device.helpviewer_keywords: ["CCD_Structures_b17380bb-3894-4832-bbe6-97c40607d366.xml","DISPLAYCONFIG_DEVICE_INFO_HEADER","DISPLAYCONFIG_DEVICE_INFO_HEADER structure [Display Devices]","display.displayconfig_device_info_header","wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER"]
 old-location: display\displayconfig_device_info_header.htm
 tech.root: display
 ms.assetid: 2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf

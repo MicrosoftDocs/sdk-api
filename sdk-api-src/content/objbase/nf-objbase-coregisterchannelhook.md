@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoRegisterChannelHook
 title: CoRegisterChannelHook function (objbase.h)
-description: Registers a channel hook.
+description: Registers a channel hook.helpviewer_keywords: ["CoRegisterChannelHook","CoRegisterChannelHook function [COM]","com.coregisterchannelhook","objbase/CoRegisterChannelHook"]
 old-location: com\coregisterchannelhook.htm
 tech.root: com
 ms.assetid: 90281427-D0A3-4556-AF41-95DE7D000320

@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.EndTouchFrame
 title: IRDPViewerInputSink::EndTouchFrame (rdpencomapi.h)
-description: Stops to accept a series of touch inputs.
+description: Stops to accept a series of touch inputs.helpviewer_keywords: ["EndTouchFrame","EndTouchFrame method [RDP]","EndTouchFrame method [RDP]","IRDPViewerInputSink interface","IRDPViewerInputSink interface [RDP]","EndTouchFrame method","IRDPViewerInputSink.EndTouchFrame","IRDPViewerInputSink::EndTouchFrame","rdp.irdpviewerinputsink_endtouchframe","rdpencomapi/IRDPViewerInputSink::EndTouchFrame"]
 old-location: rdp\irdpviewerinputsink_endtouchframe.htm
 tech.root: rdp
 ms.assetid: 31E84AEB-7A89-4EF1-9744-3102AAEA2C1E

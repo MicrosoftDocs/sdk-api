@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CachedLevel
 title: IUIAutomationElement4::get_CachedLevel (uiautomationclient.h)
-description: Returns the cached 1-based integer for the level (hierarchy) for the element.
+description: Returns the cached 1-based integer for the level (hierarchy) for the element.helpviewer_keywords: ["CachedLevel property [Windows Accessibility]","CachedLevel property [Windows Accessibility]","IUIAutomationElement4 interface","IUIAutomationElement4 interface [Windows Accessibility]","CachedLevel property","IUIAutomationElement4.CachedLevel","IUIAutomationElement4.get_CachedLevel","IUIAutomationElement4::CachedLevel","IUIAutomationElement4::get_CachedLevel","get_CachedLevel","uiautomationclient/IUIAutomationElement4::CachedLevel","uiautomationclient/IUIAutomationElement4::get_CachedLevel","winauto.uiauto_IUIAutomationElement4_CachedLevel"]
 old-location: winauto\uiauto_IUIAutomationElement4_CachedLevel.htm
 tech.root: WinAuto
 ms.assetid: FDFF6A11-4B96-4C6F-A488-FEC2E4C4C310

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.BeginPreprocessingPass
 title: IWMWriterPreprocess::BeginPreprocessingPass (wmsdkidl.h)
-description: The BeginPreprocessingPass method prepares the writer to begin preprocessing samples for the specified input stream.
+description: The BeginPreprocessingPass method prepares the writer to begin preprocessing samples for the specified input stream.helpviewer_keywords: ["BeginPreprocessingPass","BeginPreprocessingPass method [windows Media Format]","BeginPreprocessingPass method [windows Media Format]","IWMWriterPreprocess interface","IWMWriterPreprocess interface [windows Media Format]","BeginPreprocessingPass method","IWMWriterPreprocess.BeginPreprocessingPass","IWMWriterPreprocess::BeginPreprocessingPass","IWMWriterPreprocessBeginPreprocessingPass","wmformat.iwmwriterpreprocess_beginpreprocessingpass","wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass"]
 old-location: wmformat\iwmwriterpreprocess_beginpreprocessingpass.htm
 tech.root: wmformat
 ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf

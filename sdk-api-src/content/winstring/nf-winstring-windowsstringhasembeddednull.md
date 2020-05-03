@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsStringHasEmbeddedNull
 title: WindowsStringHasEmbeddedNull function (winstring.h)
 description: Indicates whether the specified string has embedded null characters.
+helpviewer_keywords: ["WindowsStringHasEmbeddedNull","WindowsStringHasEmbeddedNull function [Windows Runtime]","winrt.windowsstringhasembeddednull","winstring/WindowsStringHasEmbeddedNull"]
 old-location: winrt\windowsstringhasembeddednull.htm
 tech.root: WinRT
 ms.assetid: BE3B0198-C6D1-4F3C-A9E2-F186FB025DCE
@@ -46,37 +47,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsStringHasEmbeddedNull function
-
-
 ## -description
-
 
 Indicates whether the specified string has embedded null characters.
 
-
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string to test for embedded null characters.
 
+### -param hasEmbedNull
 
-### -param hasEmbedNull [out]
-
-Type: <b>BOOL*</b>
+Type: [out] <b>BOOL*</b>
 
 <b>TRUE</b> if <i>string</i> has one or more embedded null characters; otherwise, <b>FALSE</b>. <b>FALSE</b> if  <i>string</i> is <b>NULL</b> or the empty string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -110,7 +99,3 @@ The test completed  successfully.
 </td>
 </tr>
 </table>
- 
-
-
-

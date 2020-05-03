@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.CdromMediaChange
 title: IWMPEvents::CdromMediaChange (wmp.h)
-description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.
+description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.helpviewer_keywords: ["CdromMediaChange","CdromMediaChange method [Windows Media Player]","CdromMediaChange method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","CdromMediaChange method","IWMPEvents.CdromMediaChange","IWMPEvents::CdromMediaChange","IWMPEventsCdromMediaChange","wmp.iwmpevents_iwmpevents__cdrommediachange","wmp/IWMPEvents::CdromMediaChange"]
 old-location: wmp\iwmpevents_iwmpevents__cdrommediachange.htm
 tech.root: WMP
 ms.assetid: 019ab066-ae2b-4517-bc1c-d96bb6e8e15e

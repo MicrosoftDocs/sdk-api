@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost2.TxSetCursor2
 title: ITextHost2::TxSetCursor2 (textserv.h)
-description: Sets the shape of the cursor in the text host window.
+description: Sets the shape of the cursor in the text host window.helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxSetCursor2 method","ITextHost2.TxSetCursor2","ITextHost2::TxSetCursor2","TxSetCursor2","TxSetCursor2 method [Windows Controls]","TxSetCursor2 method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txsetcursor2","textserv/ITextHost2::TxSetCursor2"]
 old-location: controls\itexthost2_txsetcursor2.htm
 tech.root: Controls
 ms.assetid: 9671AEEC-CA31-4CE7-8B40-57859E36EF23

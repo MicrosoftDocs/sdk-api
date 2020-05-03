@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetStyleSimulations
 title: IXpsOMGlyphs::SetStyleSimulations (xpsobjectmodel.h)
 description: Sets the style simulations that will be applied when the glyphs are rendered.
+helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetStyleSimulations method","IXpsOMGlyphs.SetStyleSimulations","IXpsOMGlyphs::SetStyleSimulations","SetStyleSimulations","SetStyleSimulations method [XPS Documents and Packaging]","SetStyleSimulations method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setstylesimulations","xpsobjectmodel/IXpsOMGlyphs::SetStyleSimulations"]
 old-location: xps\ixpsomglyphs_setstylesimulations.htm
 tech.root: printdocs
 ms.assetid: 2b87f12c-5d9b-47ea-99f0-e457c3e49c92
@@ -59,7 +60,7 @@ Sets the style simulations that will be applied when the glyphs are rendered.
 
 ### -param styleSimulations [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
 
 
 ## -returns
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>styleSimulations</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value.
+<i>styleSimulations</i> is not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value.
 
 </td>
 </tr>
@@ -118,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
  
 
  

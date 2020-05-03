@@ -2,6 +2,7 @@
 UID: NF:uiautomationcoreapi.UiaNavigate
 title: UiaNavigate function (uiautomationcoreapi.h)
 description: Navigates in the UI Automation tree, optionally retrieving cached information.
+helpviewer_keywords: ["UiaNavigate","UiaNavigate function [Windows Accessibility]","uiauto.uiauto_UiaNavigateAutoMeth","uiauto_UiaNavigateAutoMeth","uiautomationcoreapi/UiaNavigate","winauto.uiauto_UiaNavigateAutoMeth"]
 old-location: winauto\uiauto_UiaNavigateAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 11f0d52a-11be-4038-bf9e-94e44b118a22
@@ -87,9 +88,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
+The address of a variable that receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
 
 
 ### -param ppTreeStructure [out]

@@ -2,6 +2,7 @@
 UID: NF:wcmconfig.ISettingsItem.GetDataType
 title: ISettingsItem::GetDataType (wcmconfig.h)
 description: Gets the type information for the item.
+helpviewer_keywords: ["GetDataType","GetDataType method [SMI]","GetDataType method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetDataType method","ISettingsItem.GetDataType","ISettingsItem::GetDataType","smi.isettingsitem_getdatatype","wcmconfig/ISettingsItem::GetDataType"]
 old-location: smi\isettingsitem_getdatatype.htm
 tech.root: SMI
 ms.assetid: 6ccb99aa-35d5-4f0b-a4f3-a42c4579bc4a
@@ -59,7 +60,7 @@ Gets the type information for the item.
 
 ### -param Type [out]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
+A <a href="/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
 
 
 ## -returns

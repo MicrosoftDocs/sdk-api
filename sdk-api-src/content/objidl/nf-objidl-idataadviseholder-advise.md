@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.Advise
 title: IDataAdviseHolder::Advise (objidl.h)
-description: Creates a connection between an advise sink and a data object for receiving notifications.
+description: Creates a connection between an advise sink and a data object for receiving notifications.helpviewer_keywords: ["ADVF_DATAONSTOP","ADVF_NODATA","ADVF_ONLYONCE","ADVF_PRIMEFIRST","Advise","Advise method [COM]","Advise method [COM]","IDataAdviseHolder interface","IDataAdviseHolder interface [COM]","Advise method","IDataAdviseHolder.Advise","IDataAdviseHolder::Advise","_ole_idataadviseholder_advise","com.idataadviseholder_advise","objidl/IDataAdviseHolder::Advise"]
 old-location: com\idataadviseholder_advise.htm
 tech.root: com
 ms.assetid: 3b72a50b-a18f-4ec0-9d1d-52b07eb84faf

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedState
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedState (uiautomationclient.h)
-description: Retrieves the cached Microsoft Active Accessibility state identifier for the element.
+description: Retrieves the cached Microsoft Active Accessibility state identifier for the element.helpviewer_keywords: ["CachedState property [Windows Accessibility]","CachedState property [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","CachedState property","IUIAutomationLegacyIAccessiblePattern.CachedState","IUIAutomationLegacyIAccessiblePattern.get_CachedState","IUIAutomationLegacyIAccessiblePattern::CachedState","IUIAutomationLegacyIAccessiblePattern::get_CachedState","get_CachedState","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState","uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedState","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedState","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState.htm
 tech.root: WinAuto
 ms.assetid: 0429138e-e218-4384-be21-666fe5ca5542

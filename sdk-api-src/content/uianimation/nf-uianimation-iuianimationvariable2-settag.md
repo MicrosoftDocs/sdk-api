@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetTag
 title: IUIAnimationVariable2::SetTag (uianimation.h)
-description: Sets the tag of the animation variable.
+description: Sets the tag of the animation variable.helpviewer_keywords: ["IUIAnimationVariable2 interface [Windows Animation]","SetTag method","IUIAnimationVariable2.SetTag","IUIAnimationVariable2::SetTag","SetTag","SetTag method [Windows Animation]","SetTag method [Windows Animation]","IUIAnimationVariable2 interface","uianimation.iuianimationvariable2_settag","uianimation/IUIAnimationVariable2::SetTag"]
 old-location: uianimation\iuianimationvariable2_settag.htm
 tech.root: UIAnimation
 ms.assetid: 21BAFF23-8866-432F-BB9A-0328CE0E6021

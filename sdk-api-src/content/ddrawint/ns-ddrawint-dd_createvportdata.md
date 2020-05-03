@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_CREATEVPORTDATA
 title: DD_CREATEVPORTDATA (ddrawint.h)
-description: The DD_CREATEVPORTDATA structure contains the information necessary to describe the video port extensions (VPE) object being created.
+description: The DD_CREATEVPORTDATA structure contains the information necessary to describe the video port extensions (VPE) object being created.helpviewer_keywords: ["*PDD_CREATEVPORTDATA","DD_CREATEVPORTDATA","DD_CREATEVPORTDATA structure [Display Devices]","ddrawint/DD_CREATEVPORTDATA","ddstrcts_397bd4aa-7d61-4efa-b47e-1ec97556a429.xml","display.dd_createvportdata"]
 old-location: display\dd_createvportdata.htm
 tech.root: display
 ms.assetid: c4dea564-399a-46ee-ad71-7a374d6fbc0a

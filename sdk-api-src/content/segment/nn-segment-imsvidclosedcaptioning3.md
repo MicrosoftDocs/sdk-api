@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidClosedCaptioning3
 title: IMSVidClosedCaptioning3 (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidClosedCaptioning3 interface retrieves the teletext filter. The MSVidClosedCaptioning feature exposes this interface.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidClosedCaptioning3 interface retrieves the teletext filter. The MSVidClosedCaptioning feature exposes this interface.helpviewer_keywords: ["IMSVidClosedCaptioning3","IMSVidClosedCaptioning3 interface [Microsoft TV Technologies]","IMSVidClosedCaptioning3 interface [Microsoft TV Technologies]","described","IMSVidClosedCaptioning3Interface","mstv.imsvidclosedcaptioning3","segment/IMSVidClosedCaptioning3"]
 old-location: mstv\imsvidclosedcaptioning3.htm
 tech.root: mstv
 ms.assetid: 0b440d5a-05f0-4499-8398-2a8563f0f935

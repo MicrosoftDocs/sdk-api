@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_HardwareCapabilities
 title: IInkTablet::get_HardwareCapabilities (msinkaut.h)
-description: Gets a bitmask that defines the hardware capabilities of the tablet, such as whether a cursor must be in physical contact with the tablet to report its position.
+description: Gets a bitmask that defines the hardware capabilities of the tablet, such as whether a cursor must be in physical contact with the tablet to report its position.helpviewer_keywords: ["886c1e7c-fec0-4294-aba1-8e0806c2d0ca","HardwareCapabilities property [Tablet PC]","HardwareCapabilities property [Tablet PC]","IInkTablet interface","IInkTablet interface [Tablet PC]","HardwareCapabilities property","IInkTablet.HardwareCapabilities","IInkTablet.get_HardwareCapabilities","IInkTablet::HardwareCapabilities","IInkTablet::get_HardwareCapabilities","get_HardwareCapabilities","msinkaut/IInkTablet::HardwareCapabilities","msinkaut/IInkTablet::get_HardwareCapabilities","tablet.iinktablet_hardwarecapabilities"]
 old-location: tablet\iinktablet_hardwarecapabilities.htm
 tech.root: tablet
 ms.assetid: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca

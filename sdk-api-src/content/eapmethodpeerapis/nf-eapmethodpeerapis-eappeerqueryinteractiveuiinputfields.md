@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerQueryInteractiveUIInputFields
 title: EapPeerQueryInteractiveUIInputFields function (eapmethodpeerapis.h)
 description: Defines the implementation of an EAP method API that provides the input fields for interactive UI components to be raised on the supplicant.
+helpviewer_keywords: ["EapPeerQueryInteractiveUIInputFields","EapPeerQueryInteractiveUIInputFields function [EAPHost]","eaphost.eappeerqueryinteractiveuiinputfields","eapmethodpeerapis/EapPeerQueryInteractiveUIInputFields"]
 old-location: eaphost\eappeerqueryinteractiveuiinputfields.htm
 tech.root: eaphost
 ms.assetid: 7019e13f-d5ad-40ba-8e70-8ded4b136d6c
@@ -64,7 +65,7 @@ The version number of the API. Must be set to zero.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofUIContextData [in]
@@ -97,9 +98,9 @@ Reserved for future usage. Must be set to <b>NULL</b>
 
 
 
-[EapPeerQueryInteractiveUIInputFields](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a> can be employed to support Single-Sign-On (SSO). The <b>EAP_FLAG_PRE_LOGON</b> flag in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a> indicates to EAPHost that SSO should be provided. If the <b>EapPeerResponseInvokeUI</b> action code is received after calling <b>EapPeerBeginSession</b>, EAPHost then calls <b>EapPeerQueryInteractiveUIInputFields</b>, and later calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields">EapPeerQueryUIBlobFromInteractiveUIInputFields</a>.
+[EapPeerQueryInteractiveUIInputFields](/windows/win32/eaphost/understanding-sso-and-plap) can be employed to support Single-Sign-On (SSO). The <b>EAP_FLAG_PRE_LOGON</b> flag in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a> indicates to EAPHost that SSO should be provided. If the <b>EapPeerResponseInvokeUI</b> action code is received after calling <b>EapPeerBeginSession</b>, EAPHost then calls <b>EapPeerQueryInteractiveUIInputFields</b>, and later calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields">EapPeerQueryUIBlobFromInteractiveUIInputFields</a>.
 
-The supplicant should call  always call the [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](https://docs.microsoft.com/windows/win32/eaphost/eap-related-error-and-information-constants)a> is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui">EapPeerInvokeInteractiveUI</a>. If there is an error, <b>EapPeerQueryInteractiveUIInputFields</b> will return a return code other than <b>NULL</b>.
+The supplicant should call  always call the [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](/windows/win32/eaphost/eap-related-error-and-information-constants) is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui">EapPeerInvokeInteractiveUI</a>. If there is an error, <b>EapPeerQueryInteractiveUIInputFields</b> will return a return code other than <b>NULL</b>.
 
 
 
@@ -113,7 +114,7 @@ The supplicant should call  always call the [EAP_E_EAPHOST_METHOD_OPERATION_NOT_
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

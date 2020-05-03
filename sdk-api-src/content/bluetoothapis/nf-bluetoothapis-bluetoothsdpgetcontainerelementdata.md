@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetContainerElementData
 title: BluetoothSdpGetContainerElementData function (bluetoothapis.h)
-description: Iterates a container stream and returns each element contained within the container element.
+description: Iterates a container stream and returns each element contained within the container element.helpviewer_keywords: ["BluetoothSdpGetContainerElementData","BluetoothSdpGetContainerElementData function [Bluetooth]","bluetooth.bluetoothsdpgetcontainerelementdata","bluetoothapis/BluetoothSdpGetContainerElementData"]
 old-location: bluetooth\bluetoothsdpgetcontainerelementdata.htm
 tech.root: bluetooth
 ms.assetid: 7dbf44f6-8a80-419e-9db7-60ada9ca9647

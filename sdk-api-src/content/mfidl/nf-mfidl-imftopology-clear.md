@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTopology.Clear
 title: IMFTopology::Clear (mfidl.h)
-description: Removes all nodes from the topology.
+description: Removes all nodes from the topology.helpviewer_keywords: ["919a712f-3f1b-4681-9eeb-958ac349d8f6","Clear","Clear method [Media Foundation]","Clear method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","Clear method","IMFTopology.Clear","IMFTopology::Clear","mf.imftopology_clear","mfidl/IMFTopology::Clear"]
 old-location: mf\imftopology_clear.htm
 tech.root: medfound
 ms.assetid: 919a712f-3f1b-4681-9eeb-958ac349d8f6

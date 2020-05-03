@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorAbs
 title: XMVectorAbs function (directxmath.h)
-description: Computes the absolute value of each component of an XMVECTOR.
+description: Computes the absolute value of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorAbs","XMVectorAbs","XMVectorAbs method [DirectX Math Support APIs]","dxmath.xmvectorabs"]
 old-location: dxmath\xmvectorabs.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorAbs(XMVECTOR)

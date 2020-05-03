@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkWordList.Merge
 title: IInkWordList::Merge (msinkaut.h)
-description: Merges the specified InkWordList object into this word list.
+description: Merges the specified InkWordList object into this word list.helpviewer_keywords: ["81c013c3-c033-4dc8-a828-95fcc810e608","IInkWordList","IInkWordList interface [Tablet PC]","Merge method","IInkWordList.Merge","IInkWordList::Merge","InkWordList class [Tablet PC]","Merge method","Merge","Merge method [Tablet PC]","Merge method [Tablet PC]","IInkWordList interface","Merge method [Tablet PC]","InkWordList class","msinkaut/IInkWordList::Merge","tablet.inkwordlist_merge"]
 old-location: tablet\inkwordlist_merge.htm
 tech.root: tablet
 ms.assetid: 81c013c3-c033-4dc8-a828-95fcc810e608

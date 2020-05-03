@@ -1,7 +1,7 @@
 ---
 UID: NN:shappmgr.IAppPublisher
 title: IAppPublisher (shappmgr.h)
-description: Exposes methods for publishing applications through Add/Remove Programs in Control Panel. This is the principal interface implemented for this purpose.
+description: Exposes methods for publishing applications through Add/Remove Programs in Control Panel. This is the principal interface implemented for this purpose.helpviewer_keywords: ["IAppPublisher","IAppPublisher interface [Windows Shell]","IAppPublisher interface [Windows Shell]","described","inet_IAppPublisher","shappmgr/IAppPublisher","shell.IAppPublisher"]
 old-location: shell\IAppPublisher.htm
 tech.root: shell
 ms.assetid: 5391444a-53b6-48c9-9a94-d045b3f97182

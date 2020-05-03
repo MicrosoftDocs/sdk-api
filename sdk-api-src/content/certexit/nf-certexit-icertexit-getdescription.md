@@ -1,7 +1,7 @@
 ---
 UID: NF:certexit.ICertExit.GetDescription
 title: ICertExit::GetDescription (certexit.h)
-description: Returns a human-readable description of the exit module and its function.
+description: Returns a human-readable description of the exit module and its function.helpviewer_keywords: ["CCertExit object [Security]","GetDescription method","GetDescription","GetDescription method [Security]","GetDescription method [Security]","CCertExit object","GetDescription method [Security]","ICertExit interface","GetDescription method [Security]","ICertExit2 interface","ICertExit interface [Security]","GetDescription method","ICertExit.GetDescription","ICertExit2 interface [Security]","GetDescription method","ICertExit2::GetDescription","ICertExit::GetDescription","_certsrv_icertexit_getdescription","certexit/ICertExit2::GetDescription","certexit/ICertExit::GetDescription","security.icertexit2_getdescription"]
 old-location: security\icertexit2_getdescription.htm
 tech.root: SecCrypto
 ms.assetid: 362d67c7-54ab-482e-9b2b-05ba1b6e2a70

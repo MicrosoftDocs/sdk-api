@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.SetErrorMode
 title: SetErrorMode function (errhandlingapi.h)
-description: Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
+description: Controls whether the system will handle the specified types of serious errors or whether the process will handle them.helpviewer_keywords: ["SEM_FAILCRITICALERRORS","SEM_NOALIGNMENTFAULTEXCEPT","SEM_NOGPFAULTERRORBOX","SEM_NOOPENFILEERRORBOX","SetErrorMode","SetErrorMode function","_win32_seterrormode","base.seterrormode","errhandlingapi/SetErrorMode"]
 old-location: base\seterrormode.htm
 tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d

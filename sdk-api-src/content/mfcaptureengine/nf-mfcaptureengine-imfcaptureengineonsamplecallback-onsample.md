@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback.OnSample
 title: IMFCaptureEngineOnSampleCallback::OnSample (mfcaptureengine.h)
-description: Called when the capture sink receives a sample.
+description: Called when the capture sink receives a sample.helpviewer_keywords: ["IMFCaptureEngineOnSampleCallback interface [Media Foundation]","OnSample method","IMFCaptureEngineOnSampleCallback.OnSample","IMFCaptureEngineOnSampleCallback::OnSample","OnSample","OnSample method [Media Foundation]","OnSample method [Media Foundation]","IMFCaptureEngineOnSampleCallback interface","mf.imfcaptureengineonsamplecallback_onsample","mfcaptureengine/IMFCaptureEngineOnSampleCallback::OnSample"]
 old-location: mf\imfcaptureengineonsamplecallback_onsample.htm
 tech.root: medfound
 ms.assetid: 83FEFE33-DEAD-4CE0-9EEE-B8F3801ADC1C

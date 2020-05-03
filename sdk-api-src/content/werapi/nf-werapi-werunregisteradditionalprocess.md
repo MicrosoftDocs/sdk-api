@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerUnregisterAdditionalProcess
 title: WerUnregisterAdditionalProcess function (werapi.h)
-description: Removes a process from the list of additional processes to be included in the error report.
+description: Removes a process from the list of additional processes to be included in the error report.helpviewer_keywords: ["WerUnregisterAdditionalProcess","WerUnregisterAdditionalProcess function [Windows Error Reporting]","wer.werunregisteradditionalprocess","werapi/WerUnregisterAdditionalProcess"]
 old-location: wer\werunregisteradditionalprocess.htm
 tech.root: wer
 ms.assetid: CE840EE8-5EB6-4F0F-935E-5DA9097E950F

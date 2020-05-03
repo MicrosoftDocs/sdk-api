@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.ResumeKeystrokeHandling
 title: ITfThreadMgr2::ResumeKeystrokeHandling (msctf.h)
-description: Resumes suspended keystroke handling.
+description: Resumes suspended keystroke handling.helpviewer_keywords: ["ITfThreadMgr2 interface [Text Services Framework]","ResumeKeystrokeHandling method","ITfThreadMgr2.ResumeKeystrokeHandling","ITfThreadMgr2::ResumeKeystrokeHandling","ResumeKeystrokeHandling","ResumeKeystrokeHandling method [Text Services Framework]","ResumeKeystrokeHandling method [Text Services Framework]","ITfThreadMgr2 interface","msctf/ITfThreadMgr2::ResumeKeystrokeHandling","tsf.itfthreadmgr2_resumekeystrokehandling"]
 old-location: tsf\itfthreadmgr2_resumekeystrokehandling.htm
 tech.root: TSF
 ms.assetid: 68948ACE-EF49-4F24-B579-72304A00A98D

@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.Settings
 title: ISettingsNamespace::Settings (wcmconfig.h)
-description: Retrieves an enumerator for the top-level settings for the namespace.
+description: Retrieves an enumerator for the top-level settings for the namespace.helpviewer_keywords: ["ISettingsNamespace interface [SMI]","Settings method","ISettingsNamespace.Settings","ISettingsNamespace::Settings","Settings","Settings method [SMI]","Settings method [SMI]","ISettingsNamespace interface","smi.isettingsnamespace_settings","wcmconfig/ISettingsNamespace::Settings"]
 old-location: smi\isettingsnamespace_settings.htm
 tech.root: SMI
 ms.assetid: 86ec9224-5704-4a7d-b554-f9baf3f14531

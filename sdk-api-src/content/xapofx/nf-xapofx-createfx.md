@@ -1,7 +1,7 @@
 ---
 UID: NF:xapofx.CreateFX
 title: CreateFX function (xapofx.h)
-description: Creates an instance of the requested XAPOFX effect.
+description: Creates an instance of the requested XAPOFX effect.helpviewer_keywords: ["CreateFX","CreateFX function [XAudio2 Audio Mixing APIs]","xapofx/CreateFX","xaudio2.createfx"]
 old-location: xaudio2\createfx.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapofx.CreateFX(CLSID,IUnknown,void,UINT32)

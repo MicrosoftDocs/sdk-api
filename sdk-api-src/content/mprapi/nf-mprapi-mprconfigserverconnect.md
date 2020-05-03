@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigServerConnect
 title: MprConfigServerConnect function (mprapi.h)
-description: The MprConfigServerConnect function connects to the router to be configured.
+description: The MprConfigServerConnect function connects to the router to be configured.helpviewer_keywords: ["MprConfigServerConnect","MprConfigServerConnect function [RAS]","_mpr_mprconfigserverconnect","mprapi/MprConfigServerConnect","rras.mprconfigserverconnect"]
 old-location: rras\mprconfigserverconnect.htm
 tech.root: RRAS
 ms.assetid: 40029088-191d-49b1-88d3-79ffb2da0eef

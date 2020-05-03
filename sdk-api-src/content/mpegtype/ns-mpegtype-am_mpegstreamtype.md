@@ -2,6 +2,7 @@
 UID: NS:mpegtype.tagAM_MPEGSTREAMTYPE
 title: AM_MPEGSTREAMTYPE (mpegtype.h)
 description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.
+helpviewer_keywords: ["AM_MPEGSTREAMTYPE","AM_MPEGSTREAMTYPE structure [DirectShow]","dshow.am_mpegstreamtype","mpegtype/AM_MPEGSTREAMTYPE"]
 old-location: dshow\am_mpegstreamtype.htm
 tech.root: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
@@ -60,7 +61,7 @@ The <b>AM_MPEGSTREAMTYPE</b> structure defines the media type for an MPEG-1 prog
 
 ### -field dwStreamId
 
- 
+Stream identifier of the stream to process.
 
 
 ### -field dwReserved
@@ -79,9 +80,6 @@ Reserved.
 Format data. The size of this array, in bytes, is given in the <b>mt.cbFormat</b> member.
 
 
-#### - dwStreamID
-
-Stream identifier of the stream to process.
 
 
 ## -see-also

@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_STORAGE_PROTOCOL_COMMAND
 title: IOCTL_STORAGE_PROTOCOL_COMMAND
 description: Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.
+helpviewer_keywords: ["IOCTL_STORAGE_PROTOCOL_COMMAND","IOCTL_STORAGE_PROTOCOL_COMMAND control","IOCTL_STORAGE_PROTOCOL_COMMAND control code [Files]","fs.ioctl_storage_protocol_command","winioctl/IOCTL_STORAGE_PROTOCOL_COMMAND"]
 old-location: fs\ioctl_storage_protocol_command.htm
 tech.root: FileIO
 ms.assetid: 77027740-CDFD-422A-B458-C36B2E346EFD
@@ -47,7 +48,7 @@ req.redist:
 
 ## -description
 
-Windows applications can use <b>IOCTL_STORAGE_PROTOCOL_COMMAND</b> to conduct pass-through of protocol specific commands to the storage device or adapter. The request indicates the bus specific command which is further sent to a specific type of device to process. For more information, see the page on <a href="https://docs.microsoft.com/windows/win32/fileio/working-with-nvme-devices#using-ioctl_storage_protocol_command-to-send-commands">working with NVMe drives</a>.
+Windows applications can use <b>IOCTL_STORAGE_PROTOCOL_COMMAND</b> to conduct pass-through of protocol specific commands to the storage device or adapter. The request indicates the bus specific command which is further sent to a specific type of device to process. For more information, see the page on <a href="/windows/win32/fileio/working-with-nvme-devices#using-ioctl_storage_protocol_command-to-send-commands">working with NVMe drives</a>.
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12LifetimeOwner.LifetimeStateUpdated
 title: ID3D12LifetimeOwner::LifetimeStateUpdated
-description: Called when the lifetime state of a lifetime-tracked object changes.
+description: Called when the lifetime state of a lifetime-tracked object changes.helpviewer_keywords: ["ID3D12LifetimeOwner::LifetimeStateUpdated"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeOwner::LifetimeStateUpdated

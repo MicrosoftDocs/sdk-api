@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2Length
 title: XMVector2Length function (directxmath.h)
-description: Computes the length of a 2D vector.
+description: Computes the length of a 2D vector.helpviewer_keywords: ["Use DirectX..XMVector2Length","XMVector2Length","XMVector2Length method [DirectX Math Support APIs]","dxmath.xmvector2length"]
 old-location: dxmath\xmvector2length.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Length(XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDoubleArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of 64-bit floating point values.
+description: Creates a new IPropertyValue object that contains the specified array of 64-bit floating point values.helpviewer_keywords: ["CreateDoubleArray","CreateDoubleArray method [Windows Runtime]","CreateDoubleArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateDoubleArray method","IPropertyValueStatics.CreateDoubleArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateDoubleArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateDoubleArray","winrt.ipropertyvaluefactory_createdoublearray","winrt.ipropertyvaluestatics_createdoublearray"]
 old-location: winrt\ipropertyvaluestatics_createdoublearray.htm
 tech.root: WinRT
 ms.assetid: 709235a3-0699-49a2-a487-76bc5e4efb64

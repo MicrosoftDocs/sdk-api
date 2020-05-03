@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnGetToolTip
 title: INameSpaceTreeControlEvents::OnGetToolTip (shobjidl.h)
-description: Enables you to provide a tooltip.
+description: Enables you to provide a tooltip.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnGetToolTip method","INameSpaceTreeControlEvents.OnGetToolTip","INameSpaceTreeControlEvents::OnGetToolTip","OnGetToolTip","OnGetToolTip method [Windows Shell]","OnGetToolTip method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnGetToolTip","shell.INameSpaceTreeControlEvents_OnGetToolTip","shobjidl/INameSpaceTreeControlEvents::OnGetToolTip"]
 old-location: shell\INameSpaceTreeControlEvents_OnGetToolTip.htm
 tech.root: shell
 ms.assetid: 57970b8d-2461-43af-8959-c51f27679407

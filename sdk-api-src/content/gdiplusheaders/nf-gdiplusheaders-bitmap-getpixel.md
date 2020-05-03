@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetPixel
 title: Bitmap::GetPixel (gdiplusheaders.h)
-description: The Bitmap::GetPixel method gets the color of a specified pixel in this bitmap.
+description: The Bitmap::GetPixel method gets the color of a specified pixel in this bitmap.helpviewer_keywords: ["Bitmap class [GDI+]","GetPixel method","Bitmap.GetPixel","Bitmap::GetPixel","GetPixel","GetPixel method [GDI+]","GetPixel method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_GetPixel_x_y_color_","gdiplus._gdiplus_CLASS_Bitmap_GetPixel_x_y_color_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetPixel_x_y_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\getpixel.htm

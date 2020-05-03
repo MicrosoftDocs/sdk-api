@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationStoryboard2.RepeatBetweenKeyframes
 title: IUIAnimationStoryboard2::RepeatBetweenKeyframes (uianimation.h)
 description: Creates a loop between two keyframes.
+helpviewer_keywords: ["IUIAnimationStoryboard2 interface [Windows Animation]","RepeatBetweenKeyframes method","IUIAnimationStoryboard2.RepeatBetweenKeyframes","IUIAnimationStoryboard2::RepeatBetweenKeyframes","RepeatBetweenKeyframes","RepeatBetweenKeyframes method [Windows Animation]","RepeatBetweenKeyframes method [Windows Animation]","IUIAnimationStoryboard2 interface","uianimation.iuianimationstoryboard2_repeatbetweenkeyframes","uianimation/IUIAnimationStoryboard2::RepeatBetweenKeyframes"]
 old-location: uianimation\iuianimationstoryboard2_repeatbetweenkeyframes.htm
 tech.root: UIAnimation
 ms.assetid: 31BC2628-14B3-4405-BA9B-4FB275D9AC0D
@@ -76,11 +77,11 @@ The number of times the loop is to be repeated; the last iteration of a loop can
 
 The pattern for the loop iteration. 
 
-A value of <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_repeat_mode">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) specifies that the  start of the loop must alternate between keyframes (k1-&gt;k2, k2-&gt;k1, k1-&gt;k2, and so on).
+A value of <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_repeat_mode">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) specifies that the  start of the loop must alternate between keyframes (k1-&gt;k2, k2-&gt;k1, k1-&gt;k2, and so on).
 
-A value of <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_repeat_mode">UI_ANIMATION_REPEAT_MODE_NORMAL</a> (0) specifies that the start of the  loop must begin with the first keyframe (k1-&gt;k2, k1-&gt;k2, k1-&gt;k2, and so on).
+A value of <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_repeat_mode">UI_ANIMATION_REPEAT_MODE_NORMAL</a> (0) specifies that the start of the  loop must begin with the first keyframe (k1-&gt;k2, k1-&gt;k2, k1-&gt;k2, and so on).
 
-<div class="alert"><b>Note</b>  If <i>repeatMode</i> has a value of <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_repeat_mode">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) and <i>cRepetition</i> has a value of <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a> (-1), the loop terminates on the end keyframe.
+<div class="alert"><b>Note</b>  If <i>repeatMode</i> has a value of <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_repeat_mode">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) and <i>cRepetition</i> has a value of <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/ui-animation-repeat-indefinitely">UI_ANIMATION_REPEAT_INDEFINITELY</a> (-1), the loop terminates on the end keyframe.
 </div>
 <div> </div>
 

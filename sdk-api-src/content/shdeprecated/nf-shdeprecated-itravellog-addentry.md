@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.ITravelLog.AddEntry
 title: ITravelLog::AddEntry (shdeprecated.h)
-description: Deprecated. Adds a new entry for a pending navigation to the travel log.
+description: Deprecated. Adds a new entry for a pending navigation to the travel log.helpviewer_keywords: ["AddEntry","AddEntry method [Windows Shell]","AddEntry method [Windows Shell]","ITravelLog interface","FALSE","ITravelLog interface [Windows Shell]","AddEntry method","ITravelLog.AddEntry","ITravelLog::AddEntry","TRUE","shdeprecated/ITravelLog::AddEntry","shell.ITravelLog_AddEntry","zone_ITravelLog_AddEntry"]
 old-location: shell\ITravelLog_AddEntry.htm
 tech.root: shell
 ms.assetid: f83c1cb1-3cc5-413c-826b-ff4971cd4598

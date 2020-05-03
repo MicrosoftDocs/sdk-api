@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITRequest.MakeCall
 title: ITRequest::MakeCall (tapi3if.h)
-description: The MakeCall method makes a call to the designated party.
+description: The MakeCall method makes a call to the designated party.helpviewer_keywords: ["ITRequest interface [TAPI 2.2]","MakeCall method","ITRequest.MakeCall","ITRequest::MakeCall","MakeCall","MakeCall method [TAPI 2.2]","MakeCall method [TAPI 2.2]","ITRequest interface","_tapi3_itrequest_makecall","tapi3.itrequest_makecall","tapi3if/ITRequest::MakeCall"]
 old-location: tapi3\itrequest_makecall.htm
 tech.root: Tapi
 ms.assetid: 6896a18a-75ff-4f43-81e2-7b828bb16ff6

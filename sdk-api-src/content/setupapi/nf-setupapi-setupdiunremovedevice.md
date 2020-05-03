@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiUnremoveDevice
 title: SetupDiUnremoveDevice function (setupapi.h)
-description: The SetupDiUnremoveDevice function is the default handler for the DIF_UNREMOVE installation request.
+description: The SetupDiUnremoveDevice function is the default handler for the DIF_UNREMOVE installation request.helpviewer_keywords: ["SetupDiUnremoveDevice","SetupDiUnremoveDevice function [Device and Driver Installation]","devinst.setupdiunremovedevice","di-rtns_8c97341a-c852-47be-ad6e-c551f82deb6d.xml","setupapi/SetupDiUnremoveDevice"]
 old-location: devinst\setupdiunremovedevice.htm
 tech.root: devinst
 ms.assetid: 1bffe874-d4ba-4efa-ab71-098a3c96092f

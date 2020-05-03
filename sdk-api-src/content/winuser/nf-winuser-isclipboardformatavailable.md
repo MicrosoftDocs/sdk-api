@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IsClipboardFormatAvailable
 title: IsClipboardFormatAvailable function (winuser.h)
-description: Determines whether the clipboard contains data in the specified format.
+description: Determines whether the clipboard contains data in the specified format.helpviewer_keywords: ["IsClipboardFormatAvailable","IsClipboardFormatAvailable function [Data Exchange]","_win32_IsClipboardFormatAvailable","_win32_isclipboardformatavailable_cpp","dataxchg.isclipboardformatavailable","winui._win32_isclipboardformatavailable","winuser/IsClipboardFormatAvailable"]
 old-location: dataxchg\isclipboardformatavailable.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\isclipboardformatavailable.htm

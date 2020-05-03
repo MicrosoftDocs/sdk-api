@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreatePointArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of Point values.
+description: Creates a new IPropertyValue object that contains the specified array of Point values.helpviewer_keywords: ["CreatePointArray","CreatePointArray method [Windows Runtime]","CreatePointArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreatePointArray method","IPropertyValueStatics.CreatePointArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreatePointArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreatePointArray","winrt.ipropertyvaluefactory_createpointarray","winrt.ipropertyvaluestatics_createpointarray"]
 old-location: winrt\ipropertyvaluestatics_createpointarray.htm
 tech.root: WinRT
 ms.assetid: cdfc2a91-0f1b-41d9-99e3-e3589bdae6ca

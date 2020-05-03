@@ -1,7 +1,7 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.CreateAttribute
 title: ISdoDictionaryOld::CreateAttribute (sdoias.h)
-description: The CreateAttribute method creates a new attribute object and returns an IDispatch interface to it.
+description: The CreateAttribute method creates a new attribute object and returns an IDispatch interface to it.helpviewer_keywords: ["CreateAttribute","CreateAttribute method [Network Policy Server]","CreateAttribute method [Network Policy Server]","ISdoDictionaryOld interface","ISdoDictionaryOld interface [Network Policy Server]","CreateAttribute method","ISdoDictionaryOld.CreateAttribute","ISdoDictionaryOld::CreateAttribute","_sdo_isdodictionaryold_createattribute","nps.SDO_isdodictionaryold_createattribute","sdo.isdodictionaryold_createattribute","sdoias/ISdoDictionaryOld::CreateAttribute"]
 old-location: nps\SDO_isdodictionaryold_createattribute.htm
 tech.root: Nps
 ms.assetid: 8c5a203b-b60b-4053-b1c4-eca2c30a050e

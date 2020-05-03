@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IsNetDrive
 title: IsNetDrive function (shlobj_core.h)
-description: Tests whether a drive is a network drive.
+description: Tests whether a drive is a network drive.helpviewer_keywords: ["IsNetDrive","IsNetDrive function [Windows Shell]","_win32_IsNetDrive","shell.IsNetDrive","shlobj_core/IsNetDrive"]
 old-location: shell\IsNetDrive.htm
 tech.root: shell
 ms.assetid: 44e02665-648a-4cf0-9dc0-038e54d08a49

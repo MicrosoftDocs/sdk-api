@@ -2,6 +2,7 @@
 UID: NF:textstor.ITextStoreAnchorSink.OnLayoutChange
 title: ITextStoreAnchorSink::OnLayoutChange (textstor.h)
 description: The ITextStoreAnchorSink::OnLayoutChange method is called when the layout (on-screen representation) of the document changes.
+helpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnLayoutChange method","ITextStoreAnchorSink.OnLayoutChange","ITextStoreAnchorSink::OnLayoutChange","OnLayoutChange","OnLayoutChange method [Text Services Framework]","OnLayoutChange method [Text Services Framework]","ITextStoreAnchorSink interface","_tsf_itextstoreanchorsink_onlayoutchange_ref","textstor/ITextStoreAnchorSink::OnLayoutChange","tsf.itextstoreanchorsink_onlayoutchange"]
 old-location: tsf\itextstoreanchorsink_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: 22629ca6-5701-4f6f-b797-bb71c8d31da6
@@ -59,7 +60,7 @@ The <b>ITextStoreAnchorSink::OnLayoutChange</b> method is called when the layout
 
 ### -param lcode [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode</a> value that defines the type of change.
+Contains a <a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode</a> value that defines the type of change.
 
 
 ### -param vcView [in]
@@ -130,7 +131,7 @@ If a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
+<a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
       </a>
  
 

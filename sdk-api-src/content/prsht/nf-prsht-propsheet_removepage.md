@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.PropSheet_RemovePage
 title: PropSheet_RemovePage macro (prsht.h)
-description: Removes a page from a property sheet. You can use this macro or send the PSM_REMOVEPAGE message explicitly.
+description: Removes a page from a property sheet. You can use this macro or send the PSM_REMOVEPAGE message explicitly.helpviewer_keywords: ["PropSheet_RemovePage","PropSheet_RemovePage macro [Windows Controls]","_win32_PropSheet_RemovePage","_win32_PropSheet_RemovePage_cpp","controls.PropSheet_RemovePage","controls._win32_PropSheet_RemovePage","prsht/PropSheet_RemovePage"]
 old-location: controls\PropSheet_RemovePage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_removepage.htm

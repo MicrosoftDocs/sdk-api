@@ -2,6 +2,7 @@
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetStatus
 title: IXblIdpAuthTokenResult::GetStatus (xblidpauthmanager.h)
 description: Reserved for Microsoft use.
+helpviewer_keywords: ["GetStatus","GetStatus method","GetStatus method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetStatus method","IXblIdpAuthTokenResult.GetStatus","IXblIdpAuthTokenResult::GetStatus","xblidp.ixblidpauthtokenresult_getstatus","xblidpauthmanager/IXblIdpAuthTokenResult::GetStatus"]
 old-location: xblidp\ixblidpauthtokenresult_getstatus.htm
 tech.root: xblidp
 ms.assetid: 3596B41E-C360-4B29-BE78-AD08D0290DA9
@@ -59,7 +60,7 @@ Reserved for Microsoft use.
 
 ### -param status [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/xblidpauthmanager/ne-xblidpauthmanager-xbl_idp_auth_token_status">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
+Type: <b><a href="/windows/win32/api/xblidpauthmanager/ne-xblidpauthmanager-xbl_idp_auth_token_status">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
 
 
 ## -returns

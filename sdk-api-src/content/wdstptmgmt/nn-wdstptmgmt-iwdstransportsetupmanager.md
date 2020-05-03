@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSetupManager
 title: IWdsTransportSetupManager (wdstptmgmt.h)
-description: Manages setup tasks on a WDS transport server.
+description: Manages setup tasks on a WDS transport server.helpviewer_keywords: ["IWdsTransportSetupManager","IWdsTransportSetupManager interface [Windows Deployment Services]","IWdsTransportSetupManager interface [Windows Deployment Services]","described","wds.iwdstransportsetupmanager","wdstptmgmt/IWdsTransportSetupManager"]
 old-location: wds\iwdstransportsetupmanager.htm
 tech.root: wds
 ms.assetid: b7b0dc9f-081e-472f-98f7-fe555a411ea3

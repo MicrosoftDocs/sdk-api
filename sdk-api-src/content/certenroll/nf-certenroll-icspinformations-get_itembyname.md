@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspInformations.get_ItemByName
 title: ICspInformations::get_ItemByName (certenroll.h)
-description: Retrieves an ICspInformation object from the collection by name.
+description: Retrieves an ICspInformation object from the collection by name.helpviewer_keywords: ["ICspInformations interface [Security]","ItemByName property","ICspInformations.ItemByName","ICspInformations.get_ItemByName","ICspInformations::ItemByName","ICspInformations::get_ItemByName","ItemByName property [Security]","ItemByName property [Security]","ICspInformations interface","certenroll/ICspInformations::ItemByName","certenroll/ICspInformations::get_ItemByName","get_ItemByName","security.icspinformations_itembyname_property"]
 old-location: security\icspinformations_itembyname_property.htm
 tech.root: seccertenroll
 ms.assetid: cf90f136-0318-40b5-9378-5c6f386e996f

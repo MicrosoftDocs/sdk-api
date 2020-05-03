@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enabled
 title: IWMPPlayer::get_enabled (wmp.h)
-description: The get_enabled method retrieves a value indicating whether the Windows Media Player control is enabled.
+description: The get_enabled method retrieves a value indicating whether the Windows Media Player control is enabled.helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","get_enabled method","IWMPPlayer.get_enabled","IWMPPlayer::get_enabled","IWMPPlayerget_enabled","get_enabled","get_enabled method [Windows Media Player]","get_enabled method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_get_enabled","wmp/IWMPPlayer::get_enabled"]
 old-location: wmp\iwmpplayer_get_enabled.htm
 tech.root: WMP
 ms.assetid: 42dc1774-686c-4336-9a61-b658a75ba257

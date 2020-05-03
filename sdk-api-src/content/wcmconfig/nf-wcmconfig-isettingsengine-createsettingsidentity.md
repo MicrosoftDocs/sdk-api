@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsIdentity
 title: ISettingsEngine::CreateSettingsIdentity (wcmconfig.h)
-description: Creates an empty settings identity.
+description: Creates an empty settings identity.helpviewer_keywords: ["CreateSettingsIdentity","CreateSettingsIdentity method [SMI]","CreateSettingsIdentity method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","CreateSettingsIdentity method","ISettingsEngine.CreateSettingsIdentity","ISettingsEngine::CreateSettingsIdentity","smi.isettingsengine_createsettingsidentity","wcmconfig/ISettingsEngine::CreateSettingsIdentity"]
 old-location: smi\isettingsengine_createsettingsidentity.htm
 tech.root: SMI
 ms.assetid: b48e6784-5565-4809-873e-cadedce57743

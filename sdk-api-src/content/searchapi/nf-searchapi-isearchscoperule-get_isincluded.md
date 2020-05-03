@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsIncluded
 title: ISearchScopeRule::get_IsIncluded (searchapi.h)
-description: Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.
+description: Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.helpviewer_keywords: ["ISearchScopeRule interface [search]","get_IsIncluded method","ISearchScopeRule.get_IsIncluded","ISearchScopeRule::get_IsIncluded","_search_ISearchScopeRule_get_IsIncluded","get_IsIncluded","get_IsIncluded method [search]","get_IsIncluded method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_IsIncluded","searchapi/ISearchScopeRule::get_IsIncluded"]
 old-location: search\_search_ISearchScopeRule_get_IsIncluded.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_isincluded.htm

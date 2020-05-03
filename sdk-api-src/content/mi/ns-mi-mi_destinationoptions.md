@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_DestinationOptions
 title: MI_DestinationOptions (mi.h)
-description: Represents a set of destination options. Destination options are a set of configurations that define the way an operation communicates with the server.
+description: Represents a set of destination options. Destination options are a set of configurations that define the way an operation communicates with the server.helpviewer_keywords: ["MI_DestinationOptions","MI_DestinationOptions structure [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions","wmi_v2.mi_destinationoptions"]
 old-location: wmi_v2\mi_destinationoptions.htm
 tech.root: wmi_v2
 ms.assetid: 7f835ff4-3917-497c-bfe9-ca335cc35938

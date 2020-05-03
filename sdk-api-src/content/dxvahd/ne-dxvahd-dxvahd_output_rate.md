@@ -1,7 +1,7 @@
 ---
 UID: NE:dxvahd._DXVAHD_OUTPUT_RATE
 title: DXVAHD_OUTPUT_RATE (dxvahd.h)
-description: Specifies the output frame rates for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+description: Specifies the output frame rates for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_OUTPUT_RATE","DXVAHD_OUTPUT_RATE enumeration [Media Foundation]","DXVAHD_OUTPUT_RATE_CUSTOM","DXVAHD_OUTPUT_RATE_HALF","DXVAHD_OUTPUT_RATE_NORMAL","dxvahd/DXVAHD_OUTPUT_RATE","dxvahd/DXVAHD_OUTPUT_RATE_CUSTOM","dxvahd/DXVAHD_OUTPUT_RATE_HALF","dxvahd/DXVAHD_OUTPUT_RATE_NORMAL","mf.dxvahd_output_rate"]
 old-location: mf\dxvahd_output_rate.htm
 tech.root: medfound
 ms.assetid: f96184d8-c5c2-4767-899f-323935fa9e89

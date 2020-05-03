@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSASendTo
 title: WSASendTo function (winsock2.h)
-description: Sends data to a specific destination, using overlapped I/O where applicable.
+description: Sends data to a specific destination, using overlapped I/O where applicable.helpviewer_keywords: ["WSASendTo","WSASendTo function [Winsock]","_win32_wsasendto_2","winsock.wsasendto_2","winsock2/WSASendTo"]
 old-location: winsock\wsasendto_2.htm
 tech.root: WinSock
 ms.assetid: e3a11522-871c-4d6b-a2e6-ca91ffc2b698

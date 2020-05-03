@@ -1,7 +1,7 @@
 ---
 UID: NC:minwinbase.LPOVERLAPPED_COMPLETION_ROUTINE
 title: LPOVERLAPPED_COMPLETION_ROUTINE (minwinbase.h)
-description: An application-defined callback function used with the ReadFileEx and WriteFileEx functions. It is called when the asynchronous input and output (I/O) operation is completed or canceled and the calling thread is in an alertable state.
+description: An application-defined callback function used with the ReadFileEx and WriteFileEx functions. It is called when the asynchronous input and output (I/O) operation is completed or canceled and the calling thread is in an alertable state.helpviewer_keywords: ["FileIOCompletionRoutine","FileIOCompletionRoutine callback","FileIOCompletionRoutine callback function [Files]","LPOVERLAPPED_COMPLETION_ROUTINE","LPOVERLAPPED_COMPLETION_ROUTINE callback function [Files]","_win32_fileiocompletionroutine","base.fileiocompletionroutine","fs.fileiocompletionroutine","minwinbase/FileIOCompletionRoutine","minwinbase/LPOVERLAPPED_COMPLETION_ROUTINE"]
 old-location: fs\fileiocompletionroutine.htm
 tech.root: FileIO
 ms.assetid: 574eccda-03eb-4e8a-9d74-cfaecc7312ce

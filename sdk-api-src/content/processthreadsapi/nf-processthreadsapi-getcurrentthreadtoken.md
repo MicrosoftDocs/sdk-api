@@ -2,6 +2,7 @@
 UID: NF:processthreadsapi.GetCurrentThreadToken
 title: GetCurrentThreadToken function (processthreadsapi.h)
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the impersonation token that was assigned to the current thread.
+helpviewer_keywords: ["GetCurrentThreadToken","GetCurrentThreadToken function [Security]","processthreadsapi/GetCurrentThreadToken","security.getcurrentthreadtoken"]
 old-location: security\getcurrentthreadtoken.htm
 tech.root: SecAuthZ
 ms.assetid: D56FE64F-CFE0-4BE4-BBDA-DF0B79E3E86F
@@ -76,7 +77,7 @@ A pseudo-handle is a special constant that can function as the impersonation tok
 
 Starting in Windows 8, this pseudo-handle has only TOKEN_QUERY and TOKEN_QUERY_SOURCE access rights. 
 
-The pseudo-handle cannot be duplicated by the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function or the <a href="https://docs.microsoft.com/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a> function.
+The pseudo-handle cannot be duplicated by the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function or the <a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a> function.
 
 You do not need to close the pseudo-handle when you no longer need it. If you call the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function with a pseudo-handle, the function has no effect.
 

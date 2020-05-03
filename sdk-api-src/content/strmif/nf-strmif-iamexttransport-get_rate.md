@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_Rate
 title: IAMExtTransport::get_Rate (strmif.h)
-description: The get_Rate method retrieves the playback rate for variable-speed external devices.
+description: The get_Rate method retrieves the playback rate for variable-speed external devices.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_Rate method","IAMExtTransport.get_Rate","IAMExtTransport::get_Rate","IAMExtTransportget_Rate","dshow.iamexttransport_get_rate","get_Rate","get_Rate method [DirectShow]","get_Rate method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::get_Rate"]
 old-location: dshow\iamexttransport_get_rate.htm
 tech.root: DirectShow
 ms.assetid: 35a2fb2b-0963-4bdb-86a4-b5950b48a834

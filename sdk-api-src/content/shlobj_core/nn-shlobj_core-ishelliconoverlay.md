@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj_core.IShellIconOverlay
 title: IShellIconOverlay (shlobj_core.h)
-description: Exposes methods that are used by a namespace extension to specify icon overlays for the objects it contains.
+description: Exposes methods that are used by a namespace extension to specify icon overlays for the objects it contains.helpviewer_keywords: ["IShellIconOverlay","IShellIconOverlay interface [Windows Shell]","IShellIconOverlay interface [Windows Shell]","described","_win32_IShellIconOverlay","shell.IShellIconOverlay","shlobj_core/IShellIconOverlay"]
 old-location: shell\IShellIconOverlay.htm
 tech.root: shell
 ms.assetid: 1a1d03ca-0922-41df-8cec-e74a16ed3bd6

@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_IP_INFO_ENTRY
 title: CLUS_NETNAME_IP_INFO_ENTRY (clusapi.h)
-description: Represents IP information for a NetName resource.
+description: Represents IP information for a NetName resource.helpviewer_keywords: ["*PCLUS_NETNAME_IP_INFO_ENTRY","CLUS_NETNAME_IP_INFO_ENTRY","CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster]","PCLUS_NETNAME_IP_INFO_ENTRY","PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster]","clusapi/CLUS_NETNAME_IP_INFO_ENTRY","clusapi/PCLUS_NETNAME_IP_INFO_ENTRY","mscs.clus_netname_ip_info_entry"]
 old-location: mscs\clus_netname_ip_info_entry.htm
 tech.root: MsCS
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22

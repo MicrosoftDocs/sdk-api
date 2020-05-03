@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddStylusAsyncPlugin
 title: IRealTimeStylus::AddStylusAsyncPlugin (rtscom.h)
-description: Adds an IStylusAsyncPlugin to the asynchronous plug-in collection at the specified index.
+description: Adds an IStylusAsyncPlugin to the asynchronous plug-in collection at the specified index.helpviewer_keywords: ["AddStylusAsyncPlugin","AddStylusAsyncPlugin method [Tablet PC]","AddStylusAsyncPlugin method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","AddStylusAsyncPlugin method","IRealTimeStylus.AddStylusAsyncPlugin","IRealTimeStylus::AddStylusAsyncPlugin","fc22fa79-469a-47f0-96ce-9a041fc8a617","rtscom/IRealTimeStylus::AddStylusAsyncPlugin","tablet.irealtimestylus_addstylusasyncplugin"]
 old-location: tablet\irealtimestylus_addstylusasyncplugin.htm
 tech.root: tablet
 ms.assetid: fc22fa79-469a-47f0-96ce-9a041fc8a617

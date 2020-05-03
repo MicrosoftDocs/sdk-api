@@ -2,6 +2,7 @@
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_MULTIOPTION
 title: STRUCTURED_QUERY_MULTIOPTION (structuredquery.h)
 description: A set of flags used by IQueryParser::SetMultiOption to indicate individual options.
+helpviewer_keywords: ["SQMO_DEFAULT_PROPERTY","SQMO_GENERATOR_FOR_TYPE","SQMO_MAP_PROPERTY","SQMO_VIRTUAL_PROPERTY","STRUCTURED_QUERY_MULTIOPTION","STRUCTURED_QUERY_MULTIOPTION enumeration [search]","_search_STRUCTURED_QUERY_MULTIOPTION","search._search_STRUCTURED_QUERY_MULTIOPTION","structuredquery/SQMO_DEFAULT_PROPERTY","structuredquery/SQMO_GENERATOR_FOR_TYPE","structuredquery/SQMO_MAP_PROPERTY","structuredquery/SQMO_VIRTUAL_PROPERTY","structuredquery/STRUCTURED_QUERY_MULTIOPTION"]
 old-location: search\_search_STRUCTURED_QUERY_MULTIOPTION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\structured_query_multioption.htm
@@ -59,7 +60,7 @@ A set of flags used by <a href="https://docs.microsoft.com/windows/desktop/api/s
 
 ### -field SQMO_VIRTUAL_PROPERTY
 
-To indicate that a leaf node with property name P and constant C should be replaced with a leaf node with property name Q, operation op, and constant C by <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">IConditionFactory::Resolve</a>, do the following: call <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setmultioption">IQueryParser::SetMultiOption</a> with SQMO_VIRTUAL_PROPERTY as <i>option</i>, P as <i>pszOptionKey</i>, and for <i>pOptionValue</i> provide a <b>VT_UNKNOWN</b> with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that enumerates exactly two values: a <b>VT_BSTR</b> with value Q, and a <b>VT_I4</b> that is a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> operation.
+To indicate that a leaf node with property name P and constant C should be replaced with a leaf node with property name Q, operation op, and constant C by <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">IConditionFactory::Resolve</a>, do the following: call <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setmultioption">IQueryParser::SetMultiOption</a> with SQMO_VIRTUAL_PROPERTY as <i>option</i>, P as <i>pszOptionKey</i>, and for <i>pOptionValue</i> provide a <b>VT_UNKNOWN</b> with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that enumerates exactly two values: a <b>VT_BSTR</b> with value Q, and a <b>VT_I4</b> that is a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> operation.
 
 
 ### -field SQMO_DEFAULT_PROPERTY

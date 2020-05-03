@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_TARGET_DATADISKS
 title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS (clusapi.h)
-description: Describes a set of retrieved data disks that can be used as target sites for replication.
+description: Describes a set of retrieved data disks that can be used as target sites for replication.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS","PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS","PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS","SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS","clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_TARGET_DATADISKS","mscs.sr_resource_type_query_eligible_target_datadisks"]
 old-location: mscs\sr_resource_type_query_eligible_target_datadisks.htm
 tech.root: MsCS
 ms.assetid: 3179737F-E4E5-4123-ACFE-235BD0579C52

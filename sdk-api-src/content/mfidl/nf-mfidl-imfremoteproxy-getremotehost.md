@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteHost
 title: IMFRemoteProxy::GetRemoteHost (mfidl.h)
-description: Retrieves a pointer to the object that is hosting this proxy.
+description: Retrieves a pointer to the object that is hosting this proxy.helpviewer_keywords: ["GetRemoteHost","GetRemoteHost method [Media Foundation]","GetRemoteHost method [Media Foundation]","IMFRemoteProxy interface","IMFRemoteProxy interface [Media Foundation]","GetRemoteHost method","IMFRemoteProxy.GetRemoteHost","IMFRemoteProxy::GetRemoteHost","e3a4407a-d8e4-4c7b-81da-88d63e0d77b8","mf.imfremoteproxy_getremotehost","mfidl/IMFRemoteProxy::GetRemoteHost"]
 old-location: mf\imfremoteproxy_getremotehost.htm
 tech.root: medfound
 ms.assetid: e3a4407a-d8e4-4c7b-81da-88d63e0d77b8

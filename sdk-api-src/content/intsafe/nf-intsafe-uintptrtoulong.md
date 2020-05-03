@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntPtrToULong
 title: UIntPtrToULong function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type ULONG.
+description: Converts a value of type UINT_PTR to a value of type ULONG.helpviewer_keywords: ["SizeTToDWord","SizeTToULong","UIntPtrToDWord","UIntPtrToULong","UIntPtrToULong function [Windows Shell]","_shell_UIntPtrToULong","intsafe/UIntPtrToULong","shell.UIntPtrToULong"]
 old-location: shell\UIntPtrToULong.htm
 tech.root: shell
 ms.assetid: 29d33dd1-c6fd-445b-a340-0a194735a763

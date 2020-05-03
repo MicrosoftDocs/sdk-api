@@ -1,7 +1,7 @@
 ---
 UID: NN:certenc.ICertEncodeCRLDistInfo
 title: ICertEncodeCRLDistInfo (certenc.h)
-description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.
+description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.helpviewer_keywords: ["ICertEncodeCRLDistInfo","ICertEncodeCRLDistInfo interface [Security]","ICertEncodeCRLDistInfo interface [Security]","described","_certsrv_icertencodecrldistinfo","certenc/ICertEncodeCRLDistInfo","security.icertencodecrldistinfo"]
 old-location: security\icertencodecrldistinfo.htm
 tech.root: SecCrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe

@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoWaitForMultipleHandles
 title: CoWaitForMultipleHandles function (combaseapi.h)
-description: Waits for specified handles to be signaled or for a specified timeout period to elapse.
+description: Waits for specified handles to be signaled or for a specified timeout period to elapse.helpviewer_keywords: ["CoWaitForMultipleHandles","CoWaitForMultipleHandles function [COM]","_com_CoWaitForMultipleHandles","com.cowaitformultiplehandles","combaseapi/CoWaitForMultipleHandles"]
 old-location: com\cowaitformultiplehandles.htm
 tech.root: com
 ms.assetid: 3eeecd34-aa94-4a48-8b41-167a71b52860

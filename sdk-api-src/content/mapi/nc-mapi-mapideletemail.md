@@ -1,7 +1,7 @@
 ---
 UID: NC:mapi.MAPIDELETEMAIL
 title: MAPIDELETEMAIL (mapi.h)
-description: The MAPIDeleteMail function deletes a message.
+description: The MAPIDeleteMail function deletes a message.helpviewer_keywords: ["MAPIDeleteMail","MAPIDeleteMail callback","MAPIDeleteMail callback function","mapi.mapideletemail","mapi/MAPIDeleteMail"]
 old-location: mapi\mapideletemail.htm
 tech.root: WindowsMAPI
 ms.assetid: b149ef88-de0e-4a99-9150-7250d2b9540a

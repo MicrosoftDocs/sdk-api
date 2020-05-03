@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnTestKeyDown
 title: ITfKeyEventSink::OnTestKeyDown (msctf.h)
-description: ITfKeyEventSink::OnTestKeyDown method
+description: ITfKeyEventSink::OnTestKeyDown methodhelpviewer_keywords: ["ITfKeyEventSink interface [Text Services Framework]","OnTestKeyDown method","ITfKeyEventSink.OnTestKeyDown","ITfKeyEventSink::OnTestKeyDown","OnTestKeyDown","OnTestKeyDown method [Text Services Framework]","OnTestKeyDown method [Text Services Framework]","ITfKeyEventSink interface","_tsf_itfkeyeventsink_ontestkeydown_ref","msctf/ITfKeyEventSink::OnTestKeyDown","tsf.itfkeyeventsink_ontestkeydown"]
 old-location: tsf\itfkeyeventsink_ontestkeydown.htm
 tech.root: TSF
 ms.assetid: 3d8056ef-c012-4989-91ce-65ae8cd39404

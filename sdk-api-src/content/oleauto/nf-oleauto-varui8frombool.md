@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI8FromBool
 title: VarUI8FromBool function (oleauto.h)
-description: Converts a VARIANT_BOOL value to an 8-byte unsigned integer value.
+description: Converts a VARIANT_BOOL value to an 8-byte unsigned integer value.helpviewer_keywords: ["VarUI8FromBool","VarUI8FromBool function [Automation]","_oa96_VarUI8FromBool","automat.varui8frombool","oleauto/VarUI8FromBool"]
 old-location: automat\varui8frombool.htm
 tech.root: automat
 ms.assetid: d9e0625f-98a5-419e-9a1d-361ca6697a3a

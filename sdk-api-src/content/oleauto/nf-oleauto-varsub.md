@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarSub
 title: VarSub function (oleauto.h)
-description: Subtracts two variants.
+description: Subtracts two variants.helpviewer_keywords: ["VarSub","VarSub function [Automation]","_oa96_VarSub","automat.varsub","oleauto/VarSub"]
 old-location: automat\varsub.htm
 tech.root: automat
 ms.assetid: 395cc5fe-8694-47a9-8e92-1768c300ba7e

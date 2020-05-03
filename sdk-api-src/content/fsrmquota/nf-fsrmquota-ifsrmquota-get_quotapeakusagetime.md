@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsageTime
 title: IFsrmQuota::get_QuotaPeakUsageTime (fsrmquota.h)
-description: Retrieves the date and time that the IFsrmQuota::QuotaPeakUsage property was set.
+description: Retrieves the date and time that the IFsrmQuota::QuotaPeakUsage property was set.helpviewer_keywords: ["IFsrmQuota interface [File Server Resource Manager]","QuotaPeakUsageTime property","IFsrmQuota.QuotaPeakUsageTime","IFsrmQuota.get_QuotaPeakUsageTime","IFsrmQuota::QuotaPeakUsageTime","IFsrmQuota::get_QuotaPeakUsageTime","QuotaPeakUsageTime property [File Server Resource Manager]","QuotaPeakUsageTime property [File Server Resource Manager]","IFsrmQuota interface","fs.ifsrmquota_quotapeakusagetime","fsrm.ifsrmquota_quotapeakusagetime","fsrmquota/IFsrmQuota::QuotaPeakUsageTime","fsrmquota/IFsrmQuota::get_QuotaPeakUsageTime","get_QuotaPeakUsageTime"]
 old-location: fsrm\ifsrmquota_quotapeakusagetime.htm
 tech.root: fsrm
 ms.assetid: 08b7c438-6bcf-4323-ac27-7e3c79c062da

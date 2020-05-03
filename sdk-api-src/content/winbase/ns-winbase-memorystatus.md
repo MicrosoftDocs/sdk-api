@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._MEMORYSTATUS
 title: MEMORYSTATUS (winbase.h)
-description: Contains information about the current state of both physical and virtual memory.
+description: Contains information about the current state of both physical and virtual memory.helpviewer_keywords: ["*LPMEMORYSTATUS","LPMEMORYSTATUS","LPMEMORYSTATUS structure pointer","MEMORYSTATUS","MEMORYSTATUS structure","_MEMORYSTATUS","_win32_memorystatus_str","base.memorystatus_str","winbase/LPMEMORYSTATUS","winbase/_MEMORYSTATUS"]
 old-location: base\memorystatus_str.htm
 tech.root: Memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c

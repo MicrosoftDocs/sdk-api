@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwProducts
 title: INetFwProducts (netfw.h)
-description: To access the methods and properties for registering third-party firewall products with Windows Firewall and for enumerating registered products.
+description: To access the methods and properties for registering third-party firewall products with Windows Firewall and for enumerating registered products.helpviewer_keywords: ["INetFwProducts","INetFwProducts interface [ICS/ICF]","INetFwProducts interface [ICS/ICF]","described","ics.inetfwproducts","netfw/INetFwProducts"]
 old-location: ics\inetfwproducts.htm
 tech.root: ics
 ms.assetid: 66608887-02df-4caf-91d0-e5091849ff32

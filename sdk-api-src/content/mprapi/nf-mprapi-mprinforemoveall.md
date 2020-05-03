@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprInfoRemoveAll
 title: MprInfoRemoveAll function (mprapi.h)
-description: The MprInfoRemoveAll function removes all information blocks from the specified header.
+description: The MprInfoRemoveAll function removes all information blocks from the specified header.helpviewer_keywords: ["MprInfoRemoveAll","MprInfoRemoveAll function [RAS]","_mpr_mprinforemoveall","mprapi/MprInfoRemoveAll","rras.mprinforemoveall"]
 old-location: rras\mprinforemoveall.htm
 tech.root: RRAS
 ms.assetid: 4afa616f-bf4b-4700-8ca1-9bb679bc30ff

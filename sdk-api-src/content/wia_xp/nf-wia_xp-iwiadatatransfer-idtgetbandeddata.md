@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetBandedData
 title: IWiaDataTransfer::idtGetBandedData (wia_xp.h)
-description: The IWiaDataTransfer::idtGetBandedData method transfers a band of data from a hardware device to an application. For efficiency, applications retrieve data from Windows Image Acquisition (WIA) hardware devices in successive bands.
+description: The IWiaDataTransfer::idtGetBandedData method transfers a band of data from a hardware device to an application. For efficiency, applications retrieve data from Windows Image Acquisition (WIA) hardware devices in successive bands.helpviewer_keywords: ["IWiaDataTransfer interface [WIA]","idtGetBandedData method","IWiaDataTransfer.idtGetBandedData","IWiaDataTransfer::idtGetBandedData","_wia_IWiaDataTransfer_idtGetBandedData","idtGetBandedData","idtGetBandedData method [WIA]","idtGetBandedData method [WIA]","IWiaDataTransfer interface","wia._wia_IWiaDataTransfer_idtGetBandedData","wia_xp/IWiaDataTransfer::idtGetBandedData"]
 old-location: wia\_wia_IWiaDataTransfer_idtGetBandedData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetbandeddata.htm

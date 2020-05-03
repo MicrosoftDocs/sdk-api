@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabGetSigninOptions
 title: PeerCollabGetSigninOptions function (p2p.h)
-description: Obtains the peer's current signed-in peer collaboration network presence options.
+description: Obtains the peer's current signed-in peer collaboration network presence options.helpviewer_keywords: ["PeerCollabGetSigninOptions","PeerCollabGetSigninOptions function [Peer Networking]","p2p.peercollabgetsigninoptions","p2p/PeerCollabGetSigninOptions"]
 old-location: p2p\peercollabgetsigninoptions.htm
 tech.root: P2PSdk
 ms.assetid: 2b1452d3-2474-40c9-a913-de7e148e2d94

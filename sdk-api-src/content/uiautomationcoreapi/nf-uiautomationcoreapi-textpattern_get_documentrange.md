@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_get_DocumentRange
 title: TextPattern_get_DocumentRange function (uiautomationcoreapi.h)
-description: Gets the text range for the entire document.
+description: Gets the text range for the entire document.helpviewer_keywords: ["TextPattern_get_DocumentRange","TextPattern_get_DocumentRange function [Windows Accessibility]","uiauto.uiauto_TextPattern_get_DocumentRangeConPat","uiauto_TextPattern_get_DocumentRangeConPat","uiautomationcoreapi/TextPattern_get_DocumentRange","winauto.uiauto_TextPattern_get_DocumentRangeConPat"]
 old-location: winauto\uiauto_TextPattern_get_DocumentRangeConPat.htm
 tech.root: WinAuto
 ms.assetid: e1ef5608-166c-4ab7-9f8d-ed8a4afd3b5a

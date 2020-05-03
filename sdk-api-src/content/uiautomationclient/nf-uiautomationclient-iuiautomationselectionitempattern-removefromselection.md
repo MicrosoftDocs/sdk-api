@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.RemoveFromSelection
 title: IUIAutomationSelectionItemPattern::RemoveFromSelection (uiautomationclient.h)
-description: Removes this element from the selection.
+description: Removes this element from the selection.helpviewer_keywords: ["IUIAutomationSelectionItemPattern interface [Windows Accessibility]","RemoveFromSelection method","IUIAutomationSelectionItemPattern.RemoveFromSelection","IUIAutomationSelectionItemPattern::RemoveFromSelection","RemoveFromSelection","RemoveFromSelection method [Windows Accessibility]","RemoveFromSelection method [Windows Accessibility]","IUIAutomationSelectionItemPattern interface","uiauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection","uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection","uiautomationclient/IUIAutomationSelectionItemPattern::RemoveFromSelection","winauto.uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection"]
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection.htm
 tech.root: WinAuto
 ms.assetid: 25f9a8da-4bc9-496e-888c-a270a2bf8fb3

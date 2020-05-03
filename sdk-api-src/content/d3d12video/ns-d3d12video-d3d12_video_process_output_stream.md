@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_OUTPUT_STREAM
 title: D3D12_VIDEO_PROCESS_OUTPUT_STREAM
-description: Represents the output stream for video processing commands.
+description: Represents the output stream for video processing commands.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_OUTPUT_STREAM","D3D12_VIDEO_PROCESS_OUTPUT_STREAM",""]
 tech.root: mf
 ms.assetid: 35be7733-1ac9-4754-8923-1637d364f681
 ms.date: 05/28/2019

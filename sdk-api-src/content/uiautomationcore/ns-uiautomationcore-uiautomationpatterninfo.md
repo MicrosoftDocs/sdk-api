@@ -1,7 +1,7 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPatternInfo
 title: UIAutomationPatternInfo (uiautomationcore.h)
-description: Contains information about a custom control pattern.
+description: Contains information about a custom control pattern.helpviewer_keywords: ["UIAutomationPatternInfo","UIAutomationPatternInfo structure [Windows Accessibility]","uiauto.uiauto_UIAutomationPatternInfoStruct","uiauto_UIAutomationPatternInfoStruct","uiautomationcore/UIAutomationPatternInfo","winauto.uiauto_UIAutomationPatternInfoStruct"]
 old-location: winauto\uiauto_UIAutomationPatternInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: f45c5736-75f3-4e44-b92a-3b0a51b41849

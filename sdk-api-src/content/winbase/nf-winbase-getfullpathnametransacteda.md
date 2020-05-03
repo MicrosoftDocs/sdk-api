@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetFullPathNameTransactedA
 title: GetFullPathNameTransactedA function (winbase.h)
-description: Retrieves the full path and file name of the specified file as a transacted operation.
+description: Retrieves the full path and file name of the specified file as a transacted operation.helpviewer_keywords: ["GetFullPathNameTransacted","GetFullPathNameTransacted function [Files]","GetFullPathNameTransactedA","GetFullPathNameTransactedW","fs.getfullpathnametransacted","winbase/GetFullPathNameTransacted","winbase/GetFullPathNameTransactedA","winbase/GetFullPathNameTransactedW"]
 old-location: fs\getfullpathnametransacted.htm
 tech.root: FileIO
 ms.assetid: 63cbcec6-e9f0-4db3-bf2f-03a987000af1

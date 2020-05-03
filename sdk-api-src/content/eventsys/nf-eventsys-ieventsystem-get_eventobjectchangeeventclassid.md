@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSystem.get_EventObjectChangeEventClassID
 title: IEventSystem::get_EventObjectChangeEventClassID (eventsys.h)
-description: Retrieves the CLSID of an event class object that notifies the caller of changes to the event store.
+description: Retrieves the CLSID of an event class object that notifies the caller of changes to the event store.helpviewer_keywords: ["EventObjectChangeEventClassID property [COM+]","EventObjectChangeEventClassID property [COM+]","IEventSystem interface","IEventSystem interface [COM+]","EventObjectChangeEventClassID property","IEventSystem.EventObjectChangeEventClassID","IEventSystem.get_EventObjectChangeEventClassID","IEventSystem::EventObjectChangeEventClassID","IEventSystem::get_EventObjectChangeEventClassID","_cos_IEventSystem_Properties","cos.ieventsystem_eventobjectchangeeventclassid","eventsys/IEventSystem::EventObjectChangeEventClassID","eventsys/IEventSystem::get_EventObjectChangeEventClassID","get_EventObjectChangeEventClassID"]
 old-location: cos\ieventsystem_eventobjectchangeeventclassid.htm
 tech.root: cossdk
 ms.assetid: 58cd529d-f1e5-4777-9999-3f223d27dc64

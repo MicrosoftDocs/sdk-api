@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInput
 title: IMFTopologyNode::GetInput (mfidl.h)
-description: Retrieves the node that is connected to a specified input stream on this node.
+description: Retrieves the node that is connected to a specified input stream on this node.helpviewer_keywords: ["49969e6d-c893-4f6f-8c1d-87d32405a65d","GetInput","GetInput method [Media Foundation]","GetInput method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetInput method","IMFTopologyNode.GetInput","IMFTopologyNode::GetInput","mf.imftopologynode_getinput","mfidl/IMFTopologyNode::GetInput"]
 old-location: mf\imftopologynode_getinput.htm
 tech.root: medfound
 ms.assetid: 49969e6d-c893-4f6f-8c1d-87d32405a65d

@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_VSWITCH_EVENT0_
 title: FWPM_VSWITCH_EVENT0 (fwpmtypes.h)
 description: Contains information about a vSwitch event.
+helpviewer_keywords: ["FWPM_VSWITCH_EVENT0","FWPM_VSWITCH_EVENT0 structure [Filtering]","fwp.fwpm_vswitch_event0","fwpmtypes/FWPM_VSWITCH_EVENT0"]
 old-location: fwp\fwpm_vswitch_event0.htm
 tech.root: fwp
 ms.assetid: bd25f66a-511a-470d-a33a-5e73d8b802c2
@@ -59,7 +60,7 @@ The <b>FWPM_VSWITCH_EVENT0</b> structure contains information about a vSwitch ev
 
 ### -field eventType
 
-Type: [FWPM_VSWITCH_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)a></b>
+Type: [FWPM_VSWITCH_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)</b>
 
  The type of vSwitch event.
 
@@ -183,7 +184,7 @@ Array of strings identifying other vSwitch extensions.
 
 
 
-[FWPM_VSWITCH_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)a>
+[FWPM_VSWITCH_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)
  
 
  

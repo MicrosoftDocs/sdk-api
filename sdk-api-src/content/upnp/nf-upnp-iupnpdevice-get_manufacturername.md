@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ManufacturerName
 title: IUPnPDevice::get_ManufacturerName (upnp.h)
-description: The ManufacturerName property specifies a human-readable form of the manufacturer name of the device.
+description: The ManufacturerName property specifies a human-readable form of the manufacturer name of the device.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ManufacturerName method","IUPnPDevice.get_ManufacturerName","IUPnPDevice::get_ManufacturerName","_upnp_iupnpdevice_manufacturername","get_ManufacturerName","get_ManufacturerName method [UPnP APIs]","get_ManufacturerName method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_manufacturername","upnp/IUPnPDevice::get_ManufacturerName"]
 old-location: upnp\iupnpdevice_manufacturername.htm
 tech.root: upnp
 ms.assetid: b62ba17d-4d0f-4609-ae34-0d8bd350f761

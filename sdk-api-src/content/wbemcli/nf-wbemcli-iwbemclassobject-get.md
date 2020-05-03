@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IWbemClassObject.Get
 title: IWbemClassObject::Get (wbemcli.h)
 description: The IWbemClassObject::Get method retrieves the specified property value, if it exists. This method can also return system properties.
+helpviewer_keywords: ["Get","Get method [Windows Management Instrumentation]","Get method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","Get method","IWbemClassObject.Get","IWbemClassObject::Get","WBEM_FLAVOR_ORIGIN_LOCAL","WBEM_FLAVOR_ORIGIN_PROPAGATED","WBEM_FLAVOR_ORIGIN_SYSTEM","_hmm_iwbemclassobject_get","wbemcli/IWbemClassObject::Get","wmi.iwbemclassobject_get"]
 old-location: wmi\iwbemclassobject_get.htm
 tech.root: WmiSdk
 ms.assetid: e4f6c28b-42d7-4109-803e-d3aac4d8509e
@@ -85,12 +86,12 @@ When successful, this parameter is assigned the correct type and value for the q
 
 ### -param pType [out, optional]
 
-Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-cimtype_enumeration">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
+Can be <b>NULL</b>. If it is not <b>NULL</b>, it receives the CIM type of the property, that is, one of the CIM-type constants, such as <b>CIM_SINT32</b>, <b>CIM_STRING</b>, and so on. For more information about these values, see <a href="/windows/win32/api/wbemcli/ne-wbemcli-cimtype_enumeration">CIMTYPE_ENUMERATION</a>. This indicates the CIM semantics of the property value packed into <b>VARIANT</b>.
 
 
 ### -param plFlavor [out, optional]
 
-Can be <b>NULL</b>. If not <b>NULL</b>, the LONG value pointed to receives information about the origin of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+Can be <b>NULL</b>. If not <b>NULL</b>, the LONG value pointed to receives information about the origin of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 
 

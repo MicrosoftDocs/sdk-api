@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_89
 title: WS_OPERATION_STYLE (webservices.h)
-description: An enumeration of the different operation styles.
+description: An enumeration of the different operation styles.helpviewer_keywords: ["WS_NON_RPC_LITERAL_OPERATION","WS_OPERATION_STYLE","WS_OPERATION_STYLE enumeration [Web Services for Windows]","WS_RPC_LITERAL_OPERATION","webservices/WS_NON_RPC_LITERAL_OPERATION","webservices/WS_OPERATION_STYLE","webservices/WS_RPC_LITERAL_OPERATION","wsw.ws_operation_style"]
 old-location: wsw\ws_operation_style.htm
 tech.root: wsw
 ms.assetid: c0cc2c3c-5050-444a-95e9-2cfb0e755253

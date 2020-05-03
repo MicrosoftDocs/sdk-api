@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbPropertySet
 title: ITsSbPropertySet (sbtsv.h)
-description: Can be used to define custom properties as appropriate.
+description: Can be used to define custom properties as appropriate.helpviewer_keywords: ["ITsSbPropertySet","ITsSbPropertySet interface [Remote Desktop Services]","ITsSbPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbPropertySet","termserv.itssbpropertyset"]
 old-location: termserv\itssbpropertyset.htm
 tech.root: TermServ
 ms.assetid: 687a96db-f066-465b-858b-2c19fe2f171c

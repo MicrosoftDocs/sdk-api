@@ -1,7 +1,7 @@
 ---
 UID: NS:tdh._PROVIDER_EVENT_INFO
 title: PROVIDER_EVENT_INFO (tdh.h)
-description: Defines an array of events in a provider manifest.
+description: Defines an array of events in a provider manifest.helpviewer_keywords: ["*PPROVIDER_EVENT_INFO","PPROVIDER_EVENT_INFO","PPROVIDER_EVENT_INFO structure pointer [ETW]","PROVIDER_EVENT_INFO","PROVIDER_EVENT_INFO structure [ETW]","etw.provider_event_info","tdh/PPROVIDER_EVENT_INFO","tdh/PROVIDER_EVENT_INFO"]
 old-location: etw\provider_event_info.htm
 tech.root: ETW
 ms.assetid: CC392841-7436-4543-A846-FB5A27D9A014

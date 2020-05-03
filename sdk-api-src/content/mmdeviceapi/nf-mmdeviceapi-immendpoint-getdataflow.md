@@ -2,6 +2,7 @@
 UID: NF:mmdeviceapi.IMMEndpoint.GetDataFlow
 title: IMMEndpoint::GetDataFlow (mmdeviceapi.h)
 description: The GetDataFlow method indicates whether the audio endpoint device is a rendering device or a capture device.
+helpviewer_keywords: ["GetDataFlow","GetDataFlow method [Core Audio]","GetDataFlow method [Core Audio]","IMMEndpoint interface","IMMEndpoint interface [Core Audio]","GetDataFlow method","IMMEndpoint.GetDataFlow","IMMEndpoint::GetDataFlow","IMMEndpointGetDataFlow","coreaudio.immendpoint_getdataflow","mmdeviceapi/IMMEndpoint::GetDataFlow"]
 old-location: coreaudio\immendpoint_getdataflow.htm
 tech.root: CoreAudio
 ms.assetid: 01882c44-bf0c-4180-846e-c1e98c6fb472
@@ -62,7 +63,7 @@ The <b>GetDataFlow</b> method indicates whether the audio endpoint device is a r
 
 ### -param pDataFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration constants:
+Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration constants:
 
 eRender
 

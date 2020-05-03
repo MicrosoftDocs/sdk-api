@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_QC_STATEMENTS_EXT_INFO
 title: CERT_QC_STATEMENTS_EXT_INFO (wincrypt.h)
-description: Contains a sequence of one or more statements that make up the Qualified Certificate (QC) statements extension for a QC.
+description: Contains a sequence of one or more statements that make up the Qualified Certificate (QC) statements extension for a QC.helpviewer_keywords: ["*PCERT_QC_STATEMENTS_EXT_INFO","CERT_QC_STATEMENTS_EXT_INFO","CERT_QC_STATEMENTS_EXT_INFO structure [Security]","PCERT_QC_STATEMENTS_EXT_INFO","PCERT_QC_STATEMENTS_EXT_INFO structure pointer [Security]","security.cert_qc_statements_ext_info","wincrypt/CERT_QC_STATEMENTS_EXT_INFO","wincrypt/PCERT_QC_STATEMENTS_EXT_INFO"]
 old-location: security\cert_qc_statements_ext_info.htm
 tech.root: SecCrypto
 ms.assetid: 788b3848-8d38-4e8f-9fdb-452767fbac61

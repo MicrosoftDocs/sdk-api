@@ -1,7 +1,7 @@
 ---
 UID: NF:winhttp.WinHttpCreateProxyResolver
 title: WinHttpCreateProxyResolver function (winhttp.h)
-description: Creates a handle for use by WinHttpGetProxyForUrlEx.
+description: Creates a handle for use by WinHttpGetProxyForUrlEx.helpviewer_keywords: ["WinHttpCreateProxyResolver","WinHttpCreateProxyResolver function [WinHTTP]","http.winhttpcreateproxyresolver","winhttp/WinHttpCreateProxyResolver"]
 old-location: http\winhttpcreateproxyresolver.htm
 tech.root: WinHttp
 ms.assetid: 8d0058b5-964d-4bd8-b689-582875fc1d6e

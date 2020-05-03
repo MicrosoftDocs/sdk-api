@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetItemSpacing
 title: IShellFolderView::GetItemSpacing (shlobj_core.h)
-description: Gets the spacing for small and large view modes only.
+description: Gets the spacing for small and large view modes only.helpviewer_keywords: ["GetItemSpacing","GetItemSpacing method [Windows Shell]","GetItemSpacing method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetItemSpacing method","IShellFolderView.GetItemSpacing","IShellFolderView::GetItemSpacing","_shell_IShellFolderView_GetItemSpacing","shell.IShellFolderView_GetItemSpacing","shlobj_core/IShellFolderView::GetItemSpacing"]
 old-location: shell\IShellFolderView_GetItemSpacing.htm
 tech.root: shell
 ms.assetid: 92450bc7-26e5-4061-90f7-eea0f0a4db09

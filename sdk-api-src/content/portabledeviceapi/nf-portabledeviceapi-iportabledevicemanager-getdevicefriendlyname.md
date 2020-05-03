@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceFriendlyName
 title: IPortableDeviceManager::GetDeviceFriendlyName (portabledeviceapi.h)
-description: Retrieves the user-friendly name for the device.
+description: Retrieves the user-friendly name for the device.helpviewer_keywords: ["GetDeviceFriendlyName","GetDeviceFriendlyName method [Windows Portable Devices SDK]","GetDeviceFriendlyName method [Windows Portable Devices SDK]","IPortableDeviceManager interface","IPortableDeviceManager interface [Windows Portable Devices SDK]","GetDeviceFriendlyName method","IPortableDeviceManager.GetDeviceFriendlyName","IPortableDeviceManager::GetDeviceFriendlyName","IPortableDeviceManagerGetDeviceFriendlyName","portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName","wpdsdk.iportabledevicemanager_getdevicefriendlyname"]
 old-location: wpdsdk\iportabledevicemanager_getdevicefriendlyname.htm
 tech.root: wpd_sdk
 ms.assetid: 589995bb-fcce-412e-8828-a84e5809af2b

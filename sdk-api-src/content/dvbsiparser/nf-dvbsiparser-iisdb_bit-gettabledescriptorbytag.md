@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetTableDescriptorByTag
 title: IISDB_BIT::GetTableDescriptorByTag (dvbsiparser.h)
-description: Searches a subtable in for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+description: Searches a subtable in for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","IISDB_BIT interface","IISDB_BIT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","IISDB_BIT.GetTableDescriptorByTag","IISDB_BIT::GetTableDescriptorByTag","dvbsiparser/IISDB_BIT::GetTableDescriptorByTag","mstv.iisdb_bit_gettabledescriptorbytag"]
 old-location: mstv\iisdb_bit_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: ef54b6bc-7150-4246-8058-4e57f25c2ad3

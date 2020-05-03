@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IFont.get_Strikethrough
 title: IFont::get_Strikethrough (ocidl.h)
-description: Gets the font's current Strikethrough property.
+description: Gets the font's current Strikethrough property.helpviewer_keywords: ["IFont interface [COM]","get_Strikethrough method","IFont.get_Strikethrough","IFont::get_Strikethrough","_ctrl_ifont_get_strikethrough","com.ifont_get_strikethrough","get_Strikethrough","get_Strikethrough method [COM]","get_Strikethrough method [COM]","IFont interface","ocidl/IFont::get_Strikethrough"]
 old-location: com\ifont_get_strikethrough.htm
 tech.root: com
 ms.assetid: e70ea85a-fc76-412c-a100-c834dc8f0208

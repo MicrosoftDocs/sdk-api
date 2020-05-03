@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ShortToUInt
 title: ShortToUInt function (intsafe.h)
-description: Converts a value of type SHORT to a value of type UINT.
+description: Converts a value of type SHORT to a value of type UINT.helpviewer_keywords: ["ShortToUInt","ShortToUInt function [Windows Shell]","intsafe/ShortToUInt","shell.ShortToUInt"]
 old-location: shell\ShortToUInt.htm
 tech.root: shell
 ms.assetid: e00b9dd2-fa40-401b-9002-e65c91d2b6ef

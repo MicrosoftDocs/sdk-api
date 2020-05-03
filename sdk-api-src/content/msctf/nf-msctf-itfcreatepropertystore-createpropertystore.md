@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.CreatePropertyStore
 title: ITfCreatePropertyStore::CreatePropertyStore (msctf.h)
-description: ITfCreatePropertyStore::CreatePropertyStore method
+description: ITfCreatePropertyStore::CreatePropertyStore methodhelpviewer_keywords: ["CreatePropertyStore","CreatePropertyStore method [Text Services Framework]","CreatePropertyStore method [Text Services Framework]","ITfCreatePropertyStore interface","ITfCreatePropertyStore interface [Text Services Framework]","CreatePropertyStore method","ITfCreatePropertyStore.CreatePropertyStore","ITfCreatePropertyStore::CreatePropertyStore","_tsf_itfcreatepropertystore_createpropertystore_ref","msctf/ITfCreatePropertyStore::CreatePropertyStore","tsf.itfcreatepropertystore_createpropertystore"]
 old-location: tsf\itfcreatepropertystore_createpropertystore.htm
 tech.root: TSF
 ms.assetid: 8c2e612c-31d8-4c89-97c4-3e248d7b7b28

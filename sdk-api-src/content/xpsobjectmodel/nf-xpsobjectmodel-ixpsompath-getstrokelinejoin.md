@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeLineJoin
 title: IXpsOMPath::GetStrokeLineJoin (xpsobjectmodel.h)
 description: Gets the style for joining stroke lines.
+helpviewer_keywords: ["GetStrokeLineJoin","GetStrokeLineJoin method [XPS Documents and Packaging]","GetStrokeLineJoin method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeLineJoin method","IXpsOMPath.GetStrokeLineJoin","IXpsOMPath::GetStrokeLineJoin","xps.ixpsompath_getstrokelinejoin","xpsobjectmodel/IXpsOMPath::GetStrokeLineJoin"]
 old-location: xps\ixpsompath_getstrokelinejoin.htm
 tech.root: printdocs
 ms.assetid: 3e460f22-7997-419a-86b7-a0beace1bc27
@@ -59,7 +60,7 @@ Gets the style for joining stroke lines.
 
 ### -param strokeLineJoin [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value of the line join style of the stroke.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a> value of the line join style of the stroke.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>.
+For more information about the line join styles, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>.
 
 
 
@@ -127,7 +128,7 @@ For more information about the line join styles, see <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzModifySids
 title: AuthzModifySids function (authz.h)
-description: Adds, deletes, or modifies user and device groups in the Authz client context.
+description: Adds, deletes, or modifies user and device groups in the Authz client context.helpviewer_keywords: ["AuthzModifySids","AuthzModifySids function [Security]","authz/AuthzModifySids","security.authzmodifysids"]
 old-location: security\authzmodifysids.htm
 tech.root: SecAuthZ
 ms.assetid: 740569A5-6159-409B-B8CB-B3A8BAE4F398

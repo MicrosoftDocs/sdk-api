@@ -1,7 +1,7 @@
 ---
 UID: NF:comppkgsup.GetMediaComponentPackageInfo
 title: GetMediaComponentPackageInfo function (comppkgsup.h)
-description: Returns a list of properties for all media codecs installed on the system that meet the specified requirements.
+description: Returns a list of properties for all media codecs installed on the system that meet the specified requirements.helpviewer_keywords: ["GetMediaComponentPackageInfo","GetMediaComponentPackageInfo function [Windows API]","comppkgsup/GetMediaComponentPackageInfo","winprog.getmediacomponentpackageinfo"]
 old-location: winprog\getmediacomponentpackageinfo.htm
 tech.root: DevNotes
 ms.assetid: EDBC9F34-62C3-4256-9AEC-9A743608B5B7

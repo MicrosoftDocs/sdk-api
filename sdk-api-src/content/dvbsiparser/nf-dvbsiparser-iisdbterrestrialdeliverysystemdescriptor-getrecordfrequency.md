@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetRecordFrequency
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetRecordFrequency (dvbsiparser.h)
-description: Gets the center frequency from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
+description: Gets the center frequency from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.helpviewer_keywords: ["GetRecordFrequency","GetRecordFrequency method [Microsoft TV Technologies]","GetRecordFrequency method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetRecordFrequency method","IIsdbTerrestrialDeliverySystemDescriptor.GetRecordFrequency","IIsdbTerrestrialDeliverySystemDescriptor::GetRecordFrequency","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetRecordFrequency","mstv.iisdbterrestrialdeliverysystemdescriptor_getrecordfrequency"]
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getrecordfrequency.htm
 tech.root: mstv
 ms.assetid: 9040dcc9-49c8-4c3b-ad86-7dc38d1722b9

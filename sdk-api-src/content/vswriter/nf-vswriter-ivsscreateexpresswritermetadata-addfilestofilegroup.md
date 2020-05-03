@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddFilesToFileGroup
 title: IVssCreateExpressWriterMetadata::AddFilesToFileGroup (vswriter.h)
-description: Adds a file set (a specified file or files) to a specified file group component for an express writer.
+description: Adds a file set (a specified file or files) to a specified file group component for an express writer.helpviewer_keywords: ["AddFilesToFileGroup","AddFilesToFileGroup method","AddFilesToFileGroup method","IVssCreateExpressWriterMetadata interface","IVssCreateExpressWriterMetadata interface","AddFilesToFileGroup method","IVssCreateExpressWriterMetadata.AddFilesToFileGroup","IVssCreateExpressWriterMetadata::AddFilesToFileGroup","base.ivsscreateexpresswritermetadata_addfilestofilegroup","vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup"]
 old-location: base\ivsscreateexpresswritermetadata_addfilestofilegroup.htm
 tech.root: VSS
 ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c

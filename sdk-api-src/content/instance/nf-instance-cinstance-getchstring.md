@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.GetCHString
 title: CInstance::GetCHString (instance.h)
-description: The GetCHString method retrieves a string property.
+description: The GetCHString method retrieves a string property.helpviewer_keywords: ["?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z","?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z","CInstance interface [Windows Management Instrumentation]","GetCHString method","CInstance.GetCHString","CInstance::GetCHString","GetCHString","GetCHString method [Windows Management Instrumentation]","GetCHString method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getchstring","instance/CInstance::GetCHString","wmi.cinstance_getchstring"]
 old-location: wmi\cinstance_getchstring.htm
 tech.root: WmiSdk
 ms.assetid: d9295ba1-19da-41a2-86d1-ec80e18e895b

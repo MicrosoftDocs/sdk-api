@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.Open
 title: IOpenControlPanel::Open (shobjidl_core.h)
-description: Opens the specified Control Panel item, optionally to a specific page.
+description: Opens the specified Control Panel item, optionally to a specific page.helpviewer_keywords: ["IOpenControlPanel interface [Windows Shell]","Open method","IOpenControlPanel.Open","IOpenControlPanel::Open","Open","Open method [Windows Shell]","Open method [Windows Shell]","IOpenControlPanel interface","_shell_IOpenControlPanel_Open","shell.IOpenControlPanel_Open","shobjidl_core/IOpenControlPanel::Open"]
 old-location: shell\IOpenControlPanel_Open.htm
 tech.root: shell
 ms.assetid: 9485540b-0c3a-46f7-8c79-55991f943809

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_REFERENCE_SET
 title: D3D12_VIDEO_PROCESS_REFERENCE_SET
-description: Contains the reference frames needed to perform video processing.
+description: Contains the reference frames needed to perform video processing.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_REFERENCE_SET","D3D12_VIDEO_PROCESS_REFERENCE_SET",""]
 tech.root: mf
 ms.assetid: 7dc125bb-252e-4530-b8c8-63d3b0f2dcce
 ms.date: 05/28/2019

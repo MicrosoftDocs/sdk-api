@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsInspectString
 title: WindowsInspectString function (winstring.h)
 description: Provides a way to for debuggers to display the value of an Windows Runtime&#160;HSTRING in another address space, remotely, or from a dump.
+helpviewer_keywords: ["WindowsInspectString","WindowsInspectString function [Windows Runtime]","winrt.windowsinspectstring","winstring/WindowsInspectString"]
 old-location: winrt\windowsinspectstring.htm
 tech.root: WinRT
 ms.assetid: DB1A35D3-D7DF-439F-B4C2-9510FC1977E9
@@ -45,53 +46,47 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsInspectString function
-
-
 ## -description
 
-
-Provides a way to for debuggers to display the value of an Windows Runtime <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> in another address space, remotely, or from a dump. 
-
+Provides a way to for debuggers to display the value of an Windows Runtime [**HSTRING**](/windows/win32/winrt/hstring) in another address space, remotely, or from a dump. 
 
 ## -parameters
 
+### -param targetHString
 
+[in]
 
-
-### -param targetHString [in]
-
-The <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> to inspect.
-
+The [**HSTRING**](/windows/win32/winrt/hstring) to inspect.
 
 ### -param machine
 
 The format of the target address space. Valid values are <b>IMAGE_FILE_MACHINE_AMD64</b> for Win64,  <b>IMAGE_FILE_MACHINE_I386</b> for  Win32, or <b>IMAGE_FILE_MACHINE_ARM</b> for 32-bit ARM.
 
+### -param callback
 
-### -param callback [in]
+[in]
 
 A callback function to read the string buffer from the target address space. This function is called before the <i>length</i> and <i>targetStringAddress</i> parameters are computed by the <b>WindowsInspectString</b> function.
 
+### -param context
 
-### -param context [in, optional]
+[in, optional]
 
 Custom context data passed to the callback.
 
+### -param length
 
-### -param length [out]
+[out]
 
 The length of the string in the target address space, if the call to <i>callback</i> is successful; otherwise, 0.
 
+### -param targetStringAddress
 
-### -param targetStringAddress [out]
+[out]
 
 The target address of the raw <b>PCWSTR</b>, if the call to <i>callback</i> is successful; otherwise, <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -111,33 +106,17 @@ This function can return one of these values.
 <ul>
 <li><b>IMAGE_FILE_MACHINE_AMD64</b> was specified for <i>machine</i>, but the current platform is not Win64, or</li>
 <li><i>machine</i> is not <b>IMAGE_FILE_MACHINE_AMD64</b>,  <b>IMAGE_FILE_MACHINE_I386</b>, or <b>IMAGE_FILE_MACHINE_ARM</b>, or</li>
-<li><i>targetHString</i> is not a correctly formed <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. </li>
+<li><i>targetHString</i> is not a correctly formed [**HSTRING**](/windows/win32/winrt/hstring). </li>
 </ul>
-
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+[**HSTRING**](/windows/win32/winrt/hstring)
 
+<a href="/windows/desktop/api/winstring/nc-winstring-pinspect_hstring_callback">PINSPECT_HSTRING_CALLBACK</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nc-winstring-pinspect_hstring_callback">PINSPECT_HSTRING_CALLBACK</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a>

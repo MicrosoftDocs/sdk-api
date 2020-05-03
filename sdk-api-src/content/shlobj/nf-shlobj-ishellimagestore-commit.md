@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IShellImageStore.Commit
 title: IShellImageStore::Commit (shlobj.h)
-description: Writes the contents specified by pdwLoc to storage.
+description: Writes the contents specified by pdwLoc to storage.helpviewer_keywords: ["Commit","Commit method [Windows Shell]","Commit method [Windows Shell]","IShellImageStore interface","IShellImageStore interface [Windows Shell]","Commit method","IShellImageStore.Commit","IShellImageStore::Commit","_win32_IShellImageStore_Commit","shell.IShellImageStore_Commit","shlobj/IShellImageStore::Commit"]
 old-location: shell\IShellImageStore_Commit.htm
 tech.root: shell
 ms.assetid: 99ae5347-b140-4698-9fc5-bd60870d9149

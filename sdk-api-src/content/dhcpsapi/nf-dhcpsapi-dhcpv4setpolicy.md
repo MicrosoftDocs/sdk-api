@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4SetPolicy
 title: DhcpV4SetPolicy function (dhcpsapi.h)
-description: Updates one or more parameters of an existing policy.
+description: Updates one or more parameters of an existing policy.helpviewer_keywords: ["DhcpV4SetPolicy","DhcpV4SetPolicy function [DHCP]","dhcp.dhcpv4setpolicy","dhcpsapi/DhcpV4SetPolicy"]
 old-location: dhcp\dhcpv4setpolicy.htm
 tech.root: DHCP
 ms.assetid: 1e51aea4-f56f-4a7c-95eb-e955e7d173ca

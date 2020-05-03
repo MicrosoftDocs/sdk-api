@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetNow
 title: IDMOQualityControl::SetNow (mediaobj.h)
-description: The SetNow method specifies the earliest time stamp that the DMO will deliver.
+description: The SetNow method specifies the earliest time stamp that the DMO will deliver.helpviewer_keywords: ["IDMOQualityControl interface [DirectShow]","SetNow method","IDMOQualityControl.SetNow","IDMOQualityControl::SetNow","IDMOQualityControlSetNow","SetNow","SetNow method [DirectShow]","SetNow method [DirectShow]","IDMOQualityControl interface","dshow.idmoqualitycontrol_setnow","mediaobj/IDMOQualityControl::SetNow"]
 old-location: dshow\idmoqualitycontrol_setnow.htm
 tech.root: DirectShow
 ms.assetid: 36efee4f-0a06-421f-bc37-688a6499bda7

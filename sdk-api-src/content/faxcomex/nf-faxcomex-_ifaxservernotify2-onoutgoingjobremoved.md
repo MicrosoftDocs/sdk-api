@@ -2,6 +2,7 @@
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingJobRemoved
 title: _IFaxServerNotify2::OnOutgoingJobRemoved (faxcomex.h)
 description: The fax service calls the IFaxServerNotify2::OnOutgoingJobRemoved method when an outgoing fax job is removed from the job queue.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnOutgoingJobRemoved method","IFaxServerNotify2.OnOutgoingJobRemoved","IFaxServerNotify2::OnOutgoingJobRemoved","OnOutgoingJobRemoved","OnOutgoingJobRemoved method [Fax Service]","OnOutgoingJobRemoved method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnOutgoingJobRemoved","_IFaxServerNotify2::OnOutgoingJobRemoved","_mfax_ifaxservernotify2_onoutgoingjobremoved","fax._mfax_ifaxservernotify2_onoutgoingjobremoved","faxcomex/IFaxServerNotify2::OnOutgoingJobRemoved"]
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingjobremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingjobremoved.htm
@@ -97,7 +98,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

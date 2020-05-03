@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IParseAndCreateItem.GetItem
 title: IParseAndCreateItem::GetItem (shobjidl_core.h)
-description: IParseAndCreateItem::GetItem method
+description: IParseAndCreateItem::GetItem methodhelpviewer_keywords: ["GetItem","GetItem method [Windows Shell]","GetItem method [Windows Shell]","IParseAndCreateItem interface","IParseAndCreateItem interface [Windows Shell]","GetItem method","IParseAndCreateItem.GetItem","IParseAndCreateItem::GetItem","_shell_IParseAndCreateItem_GetItem","shell.IParseAndCreateItem_GetItem","shobjidl_core/IParseAndCreateItem::GetItem"]
 old-location: shell\IParseAndCreateItem_GetItem.htm
 tech.root: shell
 ms.assetid: 7071621c-8311-45a2-afd5-144bcf707727

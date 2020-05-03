@@ -1,7 +1,7 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_METHOD_INPUT
 title: RTM_ENTITY_METHOD_INPUT (rtmv2.h)
-description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.
+description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.helpviewer_keywords: ["*PRTM_ENTITY_METHOD_INPUT","PRTM_ENTITY_METHOD_INPUT","PRTM_ENTITY_METHOD_INPUT structure pointer [RAS]","RTM_ENTITY_METHOD_INPUT","RTM_ENTITY_METHOD_INPUT structure [RAS]","_rtmv2ref_rtm_entity_method_input","rras.rtm_entity_method_input","rtmv2/PRTM_ENTITY_METHOD_INPUT","rtmv2/RTM_ENTITY_METHOD_INPUT"]
 old-location: rras\rtm_entity_method_input.htm
 tech.root: RRAS
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78

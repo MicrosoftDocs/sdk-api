@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPMedia.get_attributeCount
 title: IWMPMedia::get_attributeCount (wmp.h)
-description: The get_attributeCount method retrieves the number of attributes that can be queried and/or set for the media item.
+description: The get_attributeCount method retrieves the number of attributes that can be queried and/or set for the media item.helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_attributeCount method","IWMPMedia.get_attributeCount","IWMPMedia2 interface [Windows Media Player]","get_attributeCount method","IWMPMedia2::get_attributeCount","IWMPMedia3 interface [Windows Media Player]","get_attributeCount method","IWMPMedia3::get_attributeCount","IWMPMedia::get_attributeCount","IWMPMediaget_attributeCount","get_attributeCount","get_attributeCount method [Windows Media Player]","get_attributeCount method [Windows Media Player]","IWMPMedia interface","get_attributeCount method [Windows Media Player]","IWMPMedia2 interface","get_attributeCount method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia_get_attributecount","wmp/IWMPMedia2::get_attributeCount","wmp/IWMPMedia3::get_attributeCount","wmp/IWMPMedia::get_attributeCount"]
 old-location: wmp\iwmpmedia_get_attributecount.htm
 tech.root: WMP
 ms.assetid: 33e29da2-7439-41d1-9dd9-9b66e87aeb4b

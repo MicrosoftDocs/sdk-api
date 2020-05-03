@@ -2,6 +2,7 @@
 UID: NC:mmiscapi.DRIVERPROC
 title: DRIVERPROC (mmiscapi.h)
 description: Processes driver messages for the installable driver. DriverProc is a driver-supplied function.
+helpviewer_keywords: ["DRIVERPROC","DRIVERPROC callback function [Windows Multimedia]","DRV_CLOSE","DRV_CONFIGURE","DRV_DISABLE","DRV_ENABLE","DRV_FREE","DRV_INSTALL","DRV_LOAD","DRV_OPEN","DRV_POWER","DRV_QUERYCONFIGURE","DRV_REMOVE","DriverProc callback","_win32_DriverProc","mmsystem/DRIVERPROC","multimedia.driverproc"]
 old-location: multimedia\driverproc.htm
 tech.root: Multimedia
 ms.assetid: d9a5535f-6b80-40cc-a20b-b7a342414d7f
@@ -62,46 +63,15 @@ Processes driver messages for the installable driver. <b>DriverProc</b> is a dri
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-### -param Arg5
-
-
-
-
-
-
-
-
-#### - dwDriverId
-
 Identifier of the installable driver.
 
 
-#### - hdrvr
+### -param Arg2
 
 Handle of the installable driver instance. Each instance of the installable driver has a unique handle.
 
 
-#### - lParam1
-
-32-bit message-specific value.
-
-
-#### - lParam2
-
-32-bit message-specific value.
-
-
-#### - msg
+### -param Arg3
 
 Driver message value. It can be a custom value or one of these standard values:
 
@@ -222,6 +192,20 @@ Notifies the driver that it is about to be removed from the system.
 </tr>
 </table>
  
+
+### -param Arg4
+
+32-bit message-specific value.
+
+### -param Arg5
+
+32-bit message-specific value.
+
+
+
+
+
+
 
 
 ## -returns

@@ -1,7 +1,7 @@
 ---
 UID: NN:wmiutils.IWbemQuery
 title: IWbemQuery (wmiutils.h)
-description: Provides an entry point through which a WMI Query Language (WQL) query can be parsed.
+description: Provides an entry point through which a WMI Query Language (WQL) query can be parsed.helpviewer_keywords: ["IWbemQuery","IWbemQuery interface [Windows Management Instrumentation]","IWbemQuery interface [Windows Management Instrumentation]","described","WbemQuery","_hmm_iwbemquery","wmi.iwbemquery","wmiutils/IWbemQuery"]
 old-location: wmi\iwbemquery.htm
 tech.root: WmiSdk
 ms.assetid: 4a0c0c1d-3d84-491f-8379-d164821fa71b

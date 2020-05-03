@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_PlatformId
 title: IBootOptions::put_PlatformId (imapi2fs.h)
-description: Sets the platform identifier that identifies the operating system architecture that the boot image supports.
+description: Sets the platform identifier that identifies the operating system architecture that the boot image supports.helpviewer_keywords: ["IBootOptions interface [IMAPI]","put_PlatformId method","IBootOptions.put_PlatformId","IBootOptions::put_PlatformId","imapi.ibootoptions_put_platformid","imapi2fs/IBootOptions::put_PlatformId","put_PlatformId","put_PlatformId method [IMAPI]","put_PlatformId method [IMAPI]","IBootOptions interface"]
 old-location: imapi\ibootoptions_put_platformid.htm
 tech.root: imapi
 ms.assetid: 295f3a3c-0f01-4b9b-b73c-48f075e6a33a

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.IS_POINTER_SECONDBUTTON_WPARAM
 title: IS_POINTER_SECONDBUTTON_WPARAM macro (winuser.h)
-description: Checks whether the specified pointer took second action.
+description: Checks whether the specified pointer took second action.helpviewer_keywords: ["IS_POINTER_SECONDBUTTON_WPARAM","IS_POINTER_SECONDBUTTON_WPARAM","IS_POINTER_SECONDBUTTON_WPARAM macro [Input Messages and Notifications]","inputmsg.is_pointer_secondbutton_wparam","winuser/IS_POINTER_SECONDBUTTON_WPARAM"]
 old-location: inputmsg\is_pointer_secondbutton_wparam.htm
 tech.root: InputMsg
 ms.assetid: 40f7dde6-1486-4050-b9b6-ffc2ed9982a0

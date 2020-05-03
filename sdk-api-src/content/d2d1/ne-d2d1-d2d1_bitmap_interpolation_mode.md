@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_BITMAP_INTERPOLATION_MODE
 title: D2D1_BITMAP_INTERPOLATION_MODE (d2d1.h)
-description: Specifies the algorithm that is used when images are scaled or rotated.
+description: Specifies the algorithm that is used when images are scaled or rotated.helpviewer_keywords: ["D2D1_BITMAP_INTERPOLATION_MODE","D2D1_BITMAP_INTERPOLATION_MODE enumeration [Direct2D]","D2D1_BITMAP_INTERPOLATION_MODE_LINEAR","D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR","d2d1/D2D1_BITMAP_INTERPOLATION_MODE","d2d1/D2D1_BITMAP_INTERPOLATION_MODE_LINEAR","d2d1/D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR","direct2d.D2D1_BITMAP_INTERPOLATION_MODE"]
 old-location: direct2d\D2D1_BITMAP_INTERPOLATION_MODE.htm
 tech.root: Direct2D
 ms.assetid: b53b7e0a-aa8b-4788-896c-9825c9e6cceb
@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Specifies the algorithm that is used when images are scaled or rotated.
-<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
+<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="/windows/win32/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
 
 ## -enum-fields
 

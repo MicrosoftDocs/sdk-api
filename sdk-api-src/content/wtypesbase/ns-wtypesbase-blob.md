@@ -1,7 +1,7 @@
 ---
 UID: NS:wtypesbase.tagBLOB
 title: BLOB (wtypesbase.h)
-description: The BLOB structure, derived from Binary Large Object, contains information about a block of data.
+description: The BLOB structure, derived from Binary Large Object, contains information about a block of data.helpviewer_keywords: ["*LPBLOB","BLOB","BLOB structure [Winsock]","_win32_blob_2","tagBLOB","winsock.blob_2","wtypesbase/BLOB"]
 old-location: winsock\blob_2.htm
 tech.root: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76

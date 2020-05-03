@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._OCSP_SIGNED_REQUEST_INFO
 title: OCSP_SIGNED_REQUEST_INFO (wincrypt.h)
-description: Contains information for an online certificate status protocol (OCSP) request with optional signature information.
+description: Contains information for an online certificate status protocol (OCSP) request with optional signature information.helpviewer_keywords: ["*POCSP_SIGNED_REQUEST_INFO","OCSP_SIGNED_REQUEST_INFO","OCSP_SIGNED_REQUEST_INFO structure [Security]","POCSP_SIGNED_REQUEST_INFO","POCSP_SIGNED_REQUEST_INFO structure pointer [Security]","security.ocsp_signed_request_info","wincrypt/OCSP_SIGNED_REQUEST_INFO","wincrypt/POCSP_SIGNED_REQUEST_INFO"]
 old-location: security\ocsp_signed_request_info.htm
 tech.root: SecCrypto
 ms.assetid: b3ff0843-77d8-4a9e-a3ba-97e9c398919a

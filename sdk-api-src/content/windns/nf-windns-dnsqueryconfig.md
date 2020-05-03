@@ -2,6 +2,7 @@
 UID: NF:windns.DnsQueryConfig
 title: DnsQueryConfig function (windns.h)
 description: The DnsQueryConfig function enables application programmers to query for the configuration of the local computer or a specific adapter.
+helpviewer_keywords: ["DnsQueryConfig","DnsQueryConfig function [DNS]","_dns_dnsqueryconfig","dns.dnsqueryconfig","windns/DnsQueryConfig"]
 old-location: dns\dnsqueryconfig.htm
 tech.root: DNS
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
@@ -60,7 +61,7 @@ The
 
 ### -param Config [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
+A <a href="/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
 
 
 ### -param Flag [in]
@@ -184,11 +185,11 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a>
+<a href="/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

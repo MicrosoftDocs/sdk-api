@@ -1,7 +1,7 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_1
 title: smiOID (winsnmp.h)
-description: The WinSNMP smiOID structure passes object identifiers to multiple WinSNMP functions. The structure also receives the variable name of a variable binding entry in a call to the SnmpGetVb function.
+description: The WinSNMP smiOID structure passes object identifiers to multiple WinSNMP functions. The structure also receives the variable name of a variable binding entry in a call to the SnmpGetVb function.helpviewer_keywords: ["*smiLPOID","_snmp_smioid_str","smiLPOID","smiLPOID structure pointer [SNMP]","smiOID","smiOID structure [SNMP]","snmp.smioid_str","winsnmp/smiLPOID","winsnmp/smiOID"]
 old-location: snmp\smioid_str.htm
 tech.root: SNMP
 ms.assetid: 0bdf900e-6e67-4461-97bc-4c9650d888bf

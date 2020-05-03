@@ -2,6 +2,7 @@
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptionsByType
 title: ID3D11TracingDevice::SetShaderTrackingOptionsByType (d3d11sdklayers.h)
 description: Sets the reference rasterizer's default race-condition tracking options for the specified resource types.
+helpviewer_keywords: ["ID3D11TracingDevice interface [Direct3D 11]","SetShaderTrackingOptionsByType method","ID3D11TracingDevice.SetShaderTrackingOptionsByType","ID3D11TracingDevice::SetShaderTrackingOptionsByType","SetShaderTrackingOptionsByType","SetShaderTrackingOptionsByType method [Direct3D 11]","SetShaderTrackingOptionsByType method [Direct3D 11]","ID3D11TracingDevice interface","d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptionsByType","direct3d11.id3d11tracingdevice_setshadertrackingoptionsbytype"]
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptionsbytype.htm
 tech.root: direct3d11
 ms.assetid: ABB83CE4-D612-4797-A9AD-F3C2954E669D
@@ -65,7 +66,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ne-d3d1
 
 ### -param Options [in]
 
-A combination of <a href="https://docs.microsoft.com/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on," otherwise the tracking option is set to "off."
+A combination of <a href="/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on," otherwise the tracking option is set to "off."
 
 
 ## -returns

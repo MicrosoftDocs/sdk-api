@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetDlgItem
 title: GetDlgItem function (winuser.h)
-description: Retrieves a handle to a control in the specified dialog box.
+description: Retrieves a handle to a control in the specified dialog box.helpviewer_keywords: ["GetDlgItem","GetDlgItem function [Dialog Boxes]","_win32_GetDlgItem","_win32_getdlgitem_cpp","dlgbox.getdlgitem","winui._win32_getdlgitem","winuser/GetDlgItem"]
 old-location: dlgbox\getdlgitem.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitem.htm

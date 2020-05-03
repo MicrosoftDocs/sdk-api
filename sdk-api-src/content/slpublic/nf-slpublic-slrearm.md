@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLReArm
 title: SLReArm function (slpublic.h)
-description: This function is rearm application activation.
+description: This function is rearm application activation.helpviewer_keywords: ["SLReArm","SLReArm function [Security]","security.slrearm","slpublic/SLReArm"]
 old-location: security\slrearm.htm
 tech.root: SecSLApi
 ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30

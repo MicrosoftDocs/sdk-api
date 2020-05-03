@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderGetContentSize
 title: WdsTransportProviderGetContentSize function (wdstpdi.h)
-description: Retrieves the size of an open content stream.
+description: Retrieves the size of an open content stream.helpviewer_keywords: ["WdsTransportProviderGetContentSize","WdsTransportProviderGetContentSize callback","WdsTransportProviderGetContentSize callback function [Windows Deployment Services]","wds.wdstransportprovidergetcontentsize","wdstpdi/WdsTransportProviderGetContentSize"]
 old-location: wds\wdstransportprovidergetcontentsize.htm
 tech.root: wds
 ms.assetid: 2ab55723-b55a-454e-92f8-164a07c86028

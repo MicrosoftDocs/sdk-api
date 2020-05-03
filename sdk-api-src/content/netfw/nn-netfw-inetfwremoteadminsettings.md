@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwRemoteAdminSettings
 title: INetFwRemoteAdminSettings (netfw.h)
-description: The INetFwRemoteAdminSettings interface provides access to the settings that control remote administration.
+description: The INetFwRemoteAdminSettings interface provides access to the settings that control remote administration.helpviewer_keywords: ["INetFwRemoteAdminSettings","INetFwRemoteAdminSettings interface [ICS/ICF]","INetFwRemoteAdminSettings interface [ICS/ICF]","described","ics.inetfwremoteadminsettings","netfw/INetFwRemoteAdminSettings"]
 old-location: ics\inetfwremoteadminsettings.htm
 tech.root: ics
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad

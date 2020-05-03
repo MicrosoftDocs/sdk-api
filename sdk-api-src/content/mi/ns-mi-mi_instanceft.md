@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_InstanceFT
 title: MI_InstanceFT (mi.h)
-description: A support structure used in the MI_Instance structure. Use the functions with the name prefix MI_Instance_ to manipulate these structures.
+description: A support structure used in the MI_Instance structure. Use the functions with the name prefix MI_Instance_ to manipulate these structures.helpviewer_keywords: ["MI_InstanceFT","MI_InstanceFT structure [Windows Management Infrastructure (MI)]","mi/MI_InstanceFT","wmi_v2.mi_instanceft"]
 old-location: wmi_v2\mi_instanceft.htm
 tech.root: wmi_v2
 ms.assetid: a8cd93b7-c9e0-415e-811a-33826e38417f

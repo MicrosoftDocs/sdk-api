@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtGetLogInfo
 title: EvtGetLogInfo function (winevt.h)
-description: Gets information about a channel or log file.
+description: Gets information about a channel or log file.helpviewer_keywords: ["EvtGetLogInfo","EvtGetLogInfo function [EventLog]","wes.evtgetloginfo","winevt/EvtGetLogInfo"]
 old-location: wes\evtgetloginfo.htm
 tech.root: wes
 ms.assetid: 5261f367-3010-4b6d-9a53-77c908c867d4

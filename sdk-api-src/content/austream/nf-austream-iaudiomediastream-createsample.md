@@ -1,7 +1,7 @@
 ---
 UID: NF:austream.IAudioMediaStream.CreateSample
 title: IAudioMediaStream::CreateSample (austream.h)
-description: Note  This interface is deprecated. New applications should not use it. Creates an audio stream sample for use with the specified stream.
+description: Note  This interface is deprecated. New applications should not use it. Creates an audio stream sample for use with the specified stream.helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IAudioMediaStream interface","IAudioMediaStream interface [DirectShow]","CreateSample method","IAudioMediaStream.CreateSample","IAudioMediaStream::CreateSample","IAudioMediaStreamCreateSample","austream/IAudioMediaStream::CreateSample","dshow.iaudiomediastream_createsample"]
 old-location: dshow\iaudiomediastream_createsample.htm
 tech.root: DirectShow
 ms.assetid: c7d62a2c-54a9-4690-8ba0-34e927f9f093

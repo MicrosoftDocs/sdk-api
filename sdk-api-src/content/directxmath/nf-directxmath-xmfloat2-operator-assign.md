@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT2.operator-assign
 title: XMFLOAT2::operator-assign
-description: Assigns the vector component data from one instance of XMFLOAT2 to the current instance of XMFLOAT2.
+description: Assigns the vector component data from one instance of XMFLOAT2 to the current instance of XMFLOAT2.helpviewer_keywords: ["Use DirectX..XMFLOAT2.operator =","Use DirectX::::XMFLOAT2::operator =","XMFLOAT2 structure [DirectX Math Support APIs]","operator = method","XMFLOAT2.operator =","XMFLOAT2.operator-assign","XMFLOAT2.operator=","XMFLOAT2::operator-assign","XMFLOAT2::operator=","dxmath.xmfloat2_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT2 structure","operator="]
 old-location: dxmath\xmfloat2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.operator = (const XMFLOAT2)

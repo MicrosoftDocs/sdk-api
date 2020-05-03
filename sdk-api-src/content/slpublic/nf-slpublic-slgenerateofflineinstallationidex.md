@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLGenerateOfflineInstallationIdEx
 title: SLGenerateOfflineInstallationIdEx function (slpublic.h)
-description: Generates Installation ID (IID).
+description: Generates Installation ID (IID).helpviewer_keywords: ["SLGenerateOfflineInstallationIdEx","SLGenerateOfflineInstallationIdEx function [Security]","security.slgenerateofflineinstallationidex","slpublic/SLGenerateOfflineInstallationIdEx"]
 old-location: security\slgenerateofflineinstallationidex.htm
 tech.root: SecSLApi
 ms.assetid: a9fd3717-7f1d-4f53-a246-c0542fc2e474

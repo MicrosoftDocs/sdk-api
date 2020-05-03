@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetOwner
 title: IXpsOMDictionary::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the interface that contains the dictionary.
+description: Gets a pointer to the interface that contains the dictionary.helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMDictionary interface","IXpsOMDictionary interface [XPS Documents and Packaging]","GetOwner method","IXpsOMDictionary.GetOwner","IXpsOMDictionary::GetOwner","xps.ixpsomdictionary_getowner","xpsobjectmodel/IXpsOMDictionary::GetOwner"]
 old-location: xps\ixpsomdictionary_getowner.htm
 tech.root: printdocs
 ms.assetid: 3570ad03-2b68-4294-b236-86bd372876a2

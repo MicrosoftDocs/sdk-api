@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorCode
 title: IWMPErrorItem::get_errorCode (wmp.h)
-description: The get_errorCode method retrieves the current error code.
+description: The get_errorCode method retrieves the current error code.helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_errorCode method","IWMPErrorItem.get_errorCode","IWMPErrorItem::get_errorCode","IWMPErrorItemget_errorCode","get_errorCode","get_errorCode method [Windows Media Player]","get_errorCode method [Windows Media Player]","IWMPErrorItem interface","wmp.iwmperroritem_get_errorcode","wmp/IWMPErrorItem::get_errorCode"]
 old-location: wmp\iwmperroritem_get_errorcode.htm
 tech.root: WMP
 ms.assetid: e809a1bf-1c7e-4006-9d27-e9921f2f14b2

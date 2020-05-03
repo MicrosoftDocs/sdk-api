@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Instance_Normalize
 title: MI_Instance_Normalize function (mi.h)
-description: Parses an MI_Instance_ExFT structure and then retrieves the MI_InstanceFT function table.
+description: Parses an MI_Instance_ExFT structure and then retrieves the MI_InstanceFT function table.helpviewer_keywords: ["MI_Instance_Normalize","MI_Instance_Normalize function [Windows Management Infrastructure (MI)]","mi/MI_Instance_Normalize","wmi_v2.mi_instance_normalize"]
 old-location: wmi_v2\mi_instance_normalize.htm
 tech.root: wmi_v2
 ms.assetid: 4FE8FD63-78F4-41C8-9A72-A2E3ABDEBB86

@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.ParseApplicationUserModelId
 title: ParseApplicationUserModelId function (appmodel.h)
-description: Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).
+description: Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).helpviewer_keywords: ["ParseApplicationUserModelId","ParseApplicationUserModelId function [App packaging and management]","appmodel/ParseApplicationUserModelId","appxpkg.parseapplicationusermodelid"]
 old-location: appxpkg\parseapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: 03B29E82-611F-47D1-8CB6-047B9BEB4D9E

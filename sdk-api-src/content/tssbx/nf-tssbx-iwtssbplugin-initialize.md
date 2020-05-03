@@ -1,7 +1,7 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.Initialize
 title: IWTSSBPlugin::Initialize (tssbx.h)
-description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
+description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","Initialize method","IWTSSBPlugin.Initialize","IWTSSBPlugin::Initialize","Initialize","Initialize method [Remote Desktop Services]","Initialize method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_initialize","tssbx/IWTSSBPlugin::Initialize"]
 old-location: termserv\iwtssbplugin_initialize.htm
 tech.root: TermServ
 ms.assetid: b9304f4a-49ed-4a5e-87a1-7a9bc1c01b3d

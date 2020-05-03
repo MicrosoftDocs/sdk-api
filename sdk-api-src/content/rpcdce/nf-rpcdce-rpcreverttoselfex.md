@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcRevertToSelfEx
 title: RpcRevertToSelfEx function (rpcdce.h)
-description: The RpcRevertToSelfEx function allows a server to impersonate a client and then revert in a multithreaded operation where the call to impersonate a client can come from a thread other than the thread originally dispatched from the RPC.
+description: The RpcRevertToSelfEx function allows a server to impersonate a client and then revert in a multithreaded operation where the call to impersonate a client can come from a thread other than the thread originally dispatched from the RPC.helpviewer_keywords: ["RpcRevertToSelfEx","RpcRevertToSelfEx function [RPC]","_rpc_rpcreverttoselfex","rpc.rpcreverttoselfex","rpcdce/RpcRevertToSelfEx"]
 old-location: rpc\rpcreverttoselfex.htm
 tech.root: Rpc
 ms.assetid: 8860cee2-7e53-4a07-a379-fd00f3d01def

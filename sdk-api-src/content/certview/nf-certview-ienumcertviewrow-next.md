@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Next
 title: IEnumCERTVIEWROW::Next (certview.h)
-description: Moves to the next row in the row-enumeration sequence.
+description: Moves to the next row in the row-enumeration sequence.helpviewer_keywords: ["IEnumCERTVIEWROW interface [Security]","Next method","IEnumCERTVIEWROW.Next","IEnumCERTVIEWROW::Next","Next","Next method [Security]","Next method [Security]","IEnumCERTVIEWROW interface","_certsrv_ienumcertviewrow_next","certview/IEnumCERTVIEWROW::Next","security.ienumcertviewrow_next"]
 old-location: security\ienumcertviewrow_next.htm
 tech.root: SecCrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9

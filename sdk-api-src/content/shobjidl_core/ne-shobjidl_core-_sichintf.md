@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core._SICHINTF
 title: _SICHINTF (shobjidl_core.h)
-description: Used to determine how to compare two Shell items. IShellItem::Compare uses this enumerated type.
+description: Used to determine how to compare two Shell items. IShellItem::Compare uses this enumerated type.helpviewer_keywords: ["SICHINTF","SICHINTF enumeration [Windows Shell]","SICHINT_ALLFIELDS","SICHINT_CANONICAL","SICHINT_DISPLAY","SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL","_SICHINTF","inet_SICHINT","shell.SICHINT","shobjidl_core/SICHINTF","shobjidl_core/SICHINT_ALLFIELDS","shobjidl_core/SICHINT_CANONICAL","shobjidl_core/SICHINT_DISPLAY","shobjidl_core/SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL"]
 old-location: shell\SICHINT.htm
 tech.root: shell
 ms.assetid: 4d333302-5be3-4e8d-9018-e42729df0cc3

@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.DegaussMonitor
 title: DegaussMonitor function (highlevelmonitorconfigurationapi.h)
-description: Degausses a monitor.
+description: Degausses a monitor.helpviewer_keywords: ["DegaussMonitor","DegaussMonitor function [Monitor Configuration]","highlevelmonitorconfigurationapi/DegaussMonitor","monitor.degaussmonitor"]
 old-location: monitor\degaussmonitor.htm
 tech.root: Monitor
 ms.assetid: 8f476ba3-24d2-456a-9335-873368993d71

@@ -1,7 +1,7 @@
 ---
 UID: NF:certbcli.CertSrvRestoreEnd
 title: CertSrvRestoreEnd function (certbcli.h)
-description: Ends a Certificate Services restore session.
+description: Ends a Certificate Services restore session.helpviewer_keywords: ["CertSrvRestoreEnd","CertSrvRestoreEnd function [Security]","_certsrv_certsrvrestoreend","certbcli/CertSrvRestoreEnd","security.certsrvrestoreend"]
 old-location: security\certsrvrestoreend.htm
 tech.root: SecCrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb

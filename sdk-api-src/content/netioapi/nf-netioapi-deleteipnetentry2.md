@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.DeleteIpNetEntry2
 title: DeleteIpNetEntry2 function (netioapi.h)
-description: Deletes a neighbor IP address entry on the local computer.
+description: Deletes a neighbor IP address entry on the local computer.helpviewer_keywords: ["DeleteIpNetEntry2","DeleteIpNetEntry2 function [IP Helper]","iphlp.deleteipnetentry2","netioapi/DeleteIpNetEntry2"]
 old-location: iphlp\deleteipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: 85bace04-6c95-4cf2-a212-764de292aed6

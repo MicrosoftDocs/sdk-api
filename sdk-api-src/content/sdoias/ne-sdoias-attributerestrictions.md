@@ -1,7 +1,7 @@
 ---
 UID: NE:sdoias._ATTRIBUTERESTRICTIONS
 title: ATTRIBUTERESTRICTIONS (sdoias.h)
-description: The values of the ATTRIBUTERESTRICTIONS enumeration type specify restrictions on how a particular attribute can be used.
+description: The values of the ATTRIBUTERESTRICTIONS enumeration type specify restrictions on how a particular attribute can be used.helpviewer_keywords: ["ALLOWEDIN8021X","ALLOWEDINCONDITION","ALLOWEDINPROFILE","ALLOWEDINPROXYCONDITION","ALLOWEDINPROXYPROFILE","ALLOWEDINVPNDIALUP","ATTRIBUTERESTRICTIONS","ATTRIBUTERESTRICTIONS enumeration [Network Policy Server]","MULTIVALUED","_sdo_attributerestrictions","nps.SDO_attributerestrictions","sdo.attributerestrictions","sdoias/ALLOWEDIN8021X","sdoias/ALLOWEDINCONDITION","sdoias/ALLOWEDINPROFILE","sdoias/ALLOWEDINPROXYCONDITION","sdoias/ALLOWEDINPROXYPROFILE","sdoias/ALLOWEDINVPNDIALUP","sdoias/ATTRIBUTERESTRICTIONS","sdoias/MULTIVALUED"]
 old-location: nps\SDO_attributerestrictions.htm
 tech.root: Nps
 ms.assetid: 7a835536-3f5e-4c71-898c-e49d2f2da8ee

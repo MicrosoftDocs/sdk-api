@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.CaretPosition
 title: CaretPosition (uiautomationcore.h)
-description: Contains possible values for the CaretPosition text attribute, which indicates the location of the caret relative to a line of text in a text range.
+description: Contains possible values for the CaretPosition text attribute, which indicates the location of the caret relative to a line of text in a text range.helpviewer_keywords: ["CaretPosition","CaretPosition enumeration [Windows Accessibility]","CaretPosition_BeginningOfLine","CaretPosition_EndOfLine","CaretPosition_Unknown","uiautomationcore/CaretPosition","uiautomationcore/CaretPosition_BeginningOfLine","uiautomationcore/CaretPosition_EndOfLine","uiautomationcore/CaretPosition_Unknown","winauto.uiauto_CaretPosition"]
 old-location: winauto\uiauto_CaretPosition.htm
 tech.root: WinAuto
 ms.assetid: 9284DCBB-FC6A-4895-8AE6-58C47BB3A047

@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Request_Eject_PC
 title: CM_Request_Eject_PC function (cfgmgr32.h)
-description: The CM_Request_Eject_PC function requests that a portable PC, which is inserted in a local docking station, be ejected.
+description: The CM_Request_Eject_PC function requests that a portable PC, which is inserted in a local docking station, be ejected.helpviewer_keywords: ["CM_Request_Eject_PC","CM_Request_Eject_PC function [Device and Driver Installation]","cfgmgr32/CM_Request_Eject_PC","cfgmgrfn_b5855f88-c1d1-432e-bac2-ffe6a728418e.xml","devinst.cm_request_eject_pc"]
 old-location: devinst\cm_request_eject_pc.htm
 tech.root: devinst
 ms.assetid: 45d8151a-67d0-4cb1-8593-4cfb271a3411

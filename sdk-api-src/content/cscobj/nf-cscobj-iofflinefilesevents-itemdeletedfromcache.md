@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDeletedFromCache
 title: IOfflineFilesEvents::ItemDeletedFromCache (cscobj.h)
-description: Reports that an item has been removed from the Offline Files cache.
+description: Reports that an item has been removed from the Offline Files cache.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemDeletedFromCache method","IOfflineFilesEvents.ItemDeletedFromCache","IOfflineFilesEvents::ItemDeletedFromCache","ItemDeletedFromCache","ItemDeletedFromCache method [Offline Files]","ItemDeletedFromCache method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemDeletedFromCache","of.iofflinefilesevents_itemdeletedfromcache"]
 old-location: of\iofflinefilesevents_itemdeletedfromcache.htm
 tech.root: offlinefiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222

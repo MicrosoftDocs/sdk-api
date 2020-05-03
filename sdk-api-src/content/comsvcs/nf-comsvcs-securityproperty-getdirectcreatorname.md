@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetDirectCreatorName
 title: SecurityProperty::GetDirectCreatorName (comsvcs.h)
-description: Retrieves the user name associated with the current object's immediate (out-of-process) creator.
+description: Retrieves the user name associated with the current object's immediate (out-of-process) creator.helpviewer_keywords: ["GetDirectCreatorName","GetDirectCreatorName method [COM+]","GetDirectCreatorName method [COM+]","SecurityProperty interface","SecurityProperty interface [COM+]","GetDirectCreatorName method","SecurityProperty.GetDirectCreatorName","SecurityProperty::GetDirectCreatorName","_cos_SecurityProperty_GetDirectCreatorName","comsvcs/SecurityProperty::GetDirectCreatorName","cos.securityproperty_getdirectcreatorname"]
 old-location: cos\securityproperty_getdirectcreatorname.htm
 tech.root: cossdk
 ms.assetid: 26619719-bcca-4776-9580-edc541e6b821

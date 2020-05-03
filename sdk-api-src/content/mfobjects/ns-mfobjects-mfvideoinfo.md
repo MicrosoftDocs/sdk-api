@@ -1,7 +1,7 @@
 ---
 UID: NS:mfobjects._MFVideoInfo
 title: MFVideoInfo (mfobjects.h)
-description: Contains video format information that applies to both compressed and uncompressed formats.This structure is used in the MFVIDEOFORMAT structure.
+description: Contains video format information that applies to both compressed and uncompressed formats.This structure is used in the MFVIDEOFORMAT structure.helpviewer_keywords: ["746fd84f-58f8-42ab-bcf7-8fd18dcd02af","MFVideoInfo","MFVideoInfo structure [Media Foundation]","mf.mfvideoinfo","mfobjects/MFVideoInfo"]
 old-location: mf\mfvideoinfo.htm
 tech.root: medfound
 ms.assetid: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af

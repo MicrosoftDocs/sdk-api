@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetFileName
 title: IAppxBundleManifestPackageInfo::GetFileName (appxpackaging.h)
-description: Retrieves the file-name attribute of the package.
+description: Retrieves the file-name attribute of the package.helpviewer_keywords: ["GetFileName","GetFileName method [App packaging and management]","GetFileName method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetFileName method","IAppxBundleManifestPackageInfo.GetFileName","IAppxBundleManifestPackageInfo::GetFileName","appxpackaging/IAppxBundleManifestPackageInfo::GetFileName","appxpkg.iappxbundlemanifestpackageinfo_getfilename"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getfilename.htm
 tech.root: appxpkg
 ms.assetid: D8E827D4-0256-4598-A99A-EDB5FA14EDC2

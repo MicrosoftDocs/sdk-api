@@ -1,7 +1,7 @@
 ---
 UID: NF:filehc.GetFileSizeFromContext
 title: GetFileSizeFromContext function (filehc.h)
-description: Reports the file size cached with the handle.
+description: Reports the file size cached with the handle.helpviewer_keywords: ["GetFileSizeFromContext","GetFileSizeFromContext function [Windows API]","filehc/GetFileSizeFromContext","winprog._getfilesizefromcontext"]
 old-location: winprog\_getfilesizefromcontext.htm
 tech.root: DevNotes
 ms.assetid: c44aab72-d5c8-43e0-b2ec-032904806227

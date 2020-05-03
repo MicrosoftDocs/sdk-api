@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.WriteData
 title: IMbnDeviceService::WriteData (mbnapi.h)
-description: Write data to a device service data session.
+description: Write data to a device service data session.helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","WriteData method","IMbnDeviceService.WriteData","IMbnDeviceService::WriteData","WriteData","WriteData method [Microsoft Broadband Networks]","WriteData method [Microsoft Broadband Networks]","IMbnDeviceService interface","mbn.imbndeviceservice_writedata","mbnapi/IMbnDeviceService::WriteData"]
 old-location: mbn\imbndeviceservice_writedata.htm
 tech.root: mbn
 ms.assetid: D2CD630B-FCD5-485D-84A6-B2A942842A1F

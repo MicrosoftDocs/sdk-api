@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.LockWorkStation
 title: LockWorkStation function (winuser.h)
-description: Locks the workstation's display.
+description: Locks the workstation's display.helpviewer_keywords: ["LockWorkStation","LockWorkStation function","_win32_lockworkstation","base.lockworkstation","winuser/LockWorkStation"]
 old-location: base\lockworkstation.htm
 tech.root: Shutdown
 ms.assetid: e0f7f2b9-0fc1-4e76-b5bb-286408240fc6

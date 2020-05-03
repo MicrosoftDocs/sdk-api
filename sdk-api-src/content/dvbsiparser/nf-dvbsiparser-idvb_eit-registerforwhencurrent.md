@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.RegisterForWhenCurrent
 title: IDVB_EIT::RegisterForWhenCurrent (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDVB_EIT interface [Microsoft TV Technologies]","RegisterForWhenCurrent method","IDVB_EIT.RegisterForWhenCurrent","IDVB_EIT::RegisterForWhenCurrent","IDVB_EITRegisterForWhenCurrent","RegisterForWhenCurrent","RegisterForWhenCurrent method [Microsoft TV Technologies]","RegisterForWhenCurrent method [Microsoft TV Technologies]","IDVB_EIT interface","dvbsiparser/IDVB_EIT::RegisterForWhenCurrent","mstv.idvb_eit_registerforwhencurrent"]
 old-location: mstv\idvb_eit_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: 276c254f-5740-4241-a5ee-82f25885f8c6

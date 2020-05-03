@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromHandle
 title: UiaNodeFromHandle function (uiautomationcoreapi.h)
-description: Retrieves the UI Automation node associated with a window.
+description: Retrieves the UI Automation node associated with a window.helpviewer_keywords: ["UiaNodeFromHandle","UiaNodeFromHandle function [Windows Accessibility]","uiauto.uiauto_UiaNodeFromHandleFunction","uiauto_UiaNodeFromHandleFunction","uiautomationcoreapi/UiaNodeFromHandle","winauto.uiauto_UiaNodeFromHandleFunction"]
 old-location: winauto\uiauto_UiaNodeFromHandleFunction.htm
 tech.root: WinAuto
 ms.assetid: 0a8c79e6-b825-40a1-b174-5428ab643514

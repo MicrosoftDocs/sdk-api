@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemAdded
 title: INameSpaceTreeControlEvents::OnItemAdded (shobjidl.h)
-description: Called after an IShellItem has been added.
+description: Called after an IShellItem has been added.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemAdded method","INameSpaceTreeControlEvents.OnItemAdded","INameSpaceTreeControlEvents::OnItemAdded","OnItemAdded","OnItemAdded method [Windows Shell]","OnItemAdded method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemAdded","shell.INameSpaceTreeControlEvents_OnItemAdded","shobjidl/INameSpaceTreeControlEvents::OnItemAdded"]
 old-location: shell\INameSpaceTreeControlEvents_OnItemAdded.htm
 tech.root: shell
 ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433

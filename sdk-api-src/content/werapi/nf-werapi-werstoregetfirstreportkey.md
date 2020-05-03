@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerStoreGetFirstReportKey
 title: WerStoreGetFirstReportKey function (werapi.h)
-description: Gets a reference to the first report in the report store.
+description: Gets a reference to the first report in the report store.helpviewer_keywords: ["WerStoreGetFirstReportKey","WerStoreGetFirstReportKey function [Windows Error Reporting]","wer.werstoregetfirstreportkey","werapi/WerStoreGetFirstReportKey"]
 old-location: wer\werstoregetfirstreportkey.htm
 tech.root: wer
 ms.assetid: E4732B60-BFBE-4916-83A6-5F031D267913

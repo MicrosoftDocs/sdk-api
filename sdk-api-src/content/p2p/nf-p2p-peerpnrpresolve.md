@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerPnrpResolve
 title: PeerPnrpResolve function (p2p.h)
-description: Obtains the endpoint address(es) registered for a specific peer name.
+description: Obtains the endpoint address(es) registered for a specific peer name.helpviewer_keywords: ["PeerPnrpResolve","PeerPnrpResolve function [Peer Networking]","p2p.peerpnrpresolve","p2p/PeerPnrpResolve"]
 old-location: p2p\peerpnrpresolve.htm
 tech.root: P2PSdk
 ms.assetid: dd66ab38-bb3e-46f5-943a-bcdae90acae0

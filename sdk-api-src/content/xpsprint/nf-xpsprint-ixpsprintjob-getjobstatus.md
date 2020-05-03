@@ -2,6 +2,7 @@
 UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
 title: IXpsPrintJob::GetJobStatus (xpsprint.h)
 description: Gets the current status of the print job.
+helpviewer_keywords: ["GetJobStatus","GetJobStatus method [Windows GDI]","GetJobStatus method [Windows GDI]","IXpsPrintJob interface","IXpsPrintJob interface [Windows GDI]","GetJobStatus method","IXpsPrintJob.GetJobStatus","IXpsPrintJob::GetJobStatus","gdi.ixpsprintjob_getjobstatus","xpsprint/IXpsPrintJob::GetJobStatus"]
 old-location: gdi\ixpsprintjob_getjobstatus.htm
 tech.root: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
@@ -61,7 +62,7 @@ Gets the current status of the print job.
 
 ### -param jobStatus [out, retval]
 
-The current status of the print job. For information about the data that is returned in this structure, see <a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>.
+The current status of the print job. For information about the data that is returned in this structure, see <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>.
 
 
 ## -returns
@@ -77,7 +78,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<b>GetJobStatus</b> may be called during the print job processing or after the print job has completed. The values returned in <a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a> represent   the current state of the print job at the time <b>GetJobStatus</b> is called, so it is possible to miss intermediate states between calls to this method.
+<b>GetJobStatus</b> may be called during the print job processing or after the print job has completed. The values returned in <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a> represent   the current state of the print job at the time <b>GetJobStatus</b> is called, so it is possible to miss intermediate states between calls to this method.
 
 The values of <i>jobStatus.currentDocument</i> and <i>jobStatus.currentPage</i> are guaranteed to progress sequentially: from the first document to the last,  and  from the first page to the last within each document.
 
@@ -105,11 +106,11 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
+<a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
+<a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
  
 
  

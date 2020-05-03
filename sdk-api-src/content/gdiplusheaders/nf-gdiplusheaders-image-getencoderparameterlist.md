@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetEncoderParameterList
 title: Image::GetEncoderParameterList (gdiplusheaders.h)
-description: The Image::GetEncoderParameterList method gets a list of the parameters supported by a specified image encoder.
+description: The Image::GetEncoderParameterList method gets a list of the parameters supported by a specified image encoder.helpviewer_keywords: ["GetEncoderParameterList","GetEncoderParameterList method [GDI+]","GetEncoderParameterList method [GDI+]","Image class","Image class [GDI+]","GetEncoderParameterList method","Image.GetEncoderParameterList","Image::GetEncoderParameterList","_gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_","gdiplus._gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterList_clsidEncoder_size_buffer_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getencoderparameterlist.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDateFromStr
 title: VarDateFromStr function (oleauto.h)
-description: Converts an OLECHAR string to a date value.
+description: Converts an OLECHAR string to a date value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_CALENDAR_HIJRI","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarDateFromStr","VarDateFromStr function [Automation]","_oa96_VarDateFromStr","automat.vardatefromstr","oleauto/VarDateFromStr"]
 old-location: automat\vardatefromstr.htm
 tech.root: automat
 ms.assetid: a5c21ceb-ed8b-4a95-8957-e9d7fc5bd90e

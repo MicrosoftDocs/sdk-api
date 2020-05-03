@@ -2,6 +2,7 @@
 UID: NF:webservices.WsWriteStartAttribute
 title: WsWriteStartAttribute function (webservices.h)
 description: This operation starts writing an attribute to the current element.
+helpviewer_keywords: ["WsWriteStartAttribute","WsWriteStartAttribute function [Web Services for Windows]","webservices/WsWriteStartAttribute","wsw.wswritestartattribute"]
 old-location: wsw\wswritestartattribute.htm
 tech.root: wsw
 ms.assetid: 9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f
@@ -94,7 +95,7 @@ A WS_XML_STRING pointer to the namespace to be used for the attribute.
 ### -param singleQuote [in]
 
 Determines whether to use a single or a double quote for the attribute value.
-        <div class="alert"><b>Note</b>  With <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> the quote character is not preserved and this
+        <div class="alert"><b>Note</b>  With <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> the quote character is not preserved and this
           parameter has no effect.
         </div>
 <div> </div>

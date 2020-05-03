@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.GetEnumerator
 title: IOpcCertificateSet::GetEnumerator (msopc.h)
-description: Gets an enumerator of certificates in the set.
+description: Gets an enumerator of certificates in the set.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcCertificateSet interface","IOpcCertificateSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcCertificateSet.GetEnumerator","IOpcCertificateSet::GetEnumerator","msopc/IOpcCertificateSet::GetEnumerator","opc.iopccertificateset_getenumerator"]
 old-location: opc\iopccertificateset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a48b9225-07cb-4367-b011-dc2297c2c4b3

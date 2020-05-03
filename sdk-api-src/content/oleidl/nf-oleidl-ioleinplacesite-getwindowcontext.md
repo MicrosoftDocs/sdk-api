@@ -2,6 +2,7 @@
 UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
 title: IOleInPlaceSite::GetWindowContext (oleidl.h)
 description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
+helpviewer_keywords: ["GetWindowContext","GetWindowContext method [COM]","GetWindowContext method [COM]","IOleInPlaceSite interface","IOleInPlaceSite interface [COM]","GetWindowContext method","IOleInPlaceSite.GetWindowContext","IOleInPlaceSite::GetWindowContext","_ole_ioleinplacesite_getwindowcontext","com.ioleinplacesite_getwindowcontext","oleidl/IOleInPlaceSite::GetWindowContext"]
 old-location: com\ioleinplacesite_getwindowcontext.htm
 tech.root: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
@@ -79,7 +80,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param lpFrameInfo [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure the container is to fill in with appropriate data. If an error is returned, this parameter must be set to <b>NULL</b>.
+A pointer to an <a href="/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure the container is to fill in with appropriate data. If an error is returned, this parameter must be set to <b>NULL</b>.
 
 
 ## -returns
@@ -125,9 +126,9 @@ An unexpected error has occurred.
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure provides data needed by OLE to dispatch keystroke accelerators to a container frame while an object is active in place.
+The <a href="/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure provides data needed by OLE to dispatch keystroke accelerators to a container frame while an object is active in place.
 
-When an object is activated, it calls <b>GetWindowContext</b> from its container. The container returns the handle to its in-place accelerator table through the <a href="https://docs.microsoft.com/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure. Before calling <b>GetWindowContext</b>, the object must provide the size of the <b>OLEINPLACEFRAMEINFO</b> structure by filling in the cb member, pointed to by <i>lpFrameInfo</i>.
+When an object is activated, it calls <b>GetWindowContext</b> from its container. The container returns the handle to its in-place accelerator table through the <a href="/windows/win32/api/oleidl/ns-oleidl-oleinplaceframeinfo">OLEINPLACEFRAMEINFO</a> structure. Before calling <b>GetWindowContext</b>, the object must provide the size of the <b>OLEINPLACEFRAMEINFO</b> structure by filling in the cb member, pointed to by <i>lpFrameInfo</i>.
 
 
 

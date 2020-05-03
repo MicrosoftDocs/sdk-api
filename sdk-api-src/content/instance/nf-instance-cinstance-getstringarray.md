@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.GetStringArray
 title: CInstance::GetStringArray (instance.h)
-description: The GetStringArray method retrieves a property that represents an array of strings.
+description: The GetStringArray method retrieves a property that represents an array of strings.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetStringArray method","CInstance.GetStringArray","CInstance::GetStringArray","GetStringArray","GetStringArray method [Windows Management Instrumentation]","GetStringArray method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getstringarray","instance/CInstance::GetStringArray","wmi.cinstance_getstringarray"]
 old-location: wmi\cinstance_getstringarray.htm
 tech.root: WmiSdk
 ms.assetid: d7fc870a-952e-49a9-87ff-c191e4896511

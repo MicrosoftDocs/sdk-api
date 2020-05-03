@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeServiceCallback.OnVisualTreeChange
 title: IVisualTreeServiceCallback::OnVisualTreeChange (xamlom.h)
-description: Communicates the state of the visual tree when it changes.
+description: Communicates the state of the visual tree when it changes.helpviewer_keywords: ["IVisualTreeServiceCallback interface","OnVisualTreeChange method","IVisualTreeServiceCallback.OnVisualTreeChange","IVisualTreeServiceCallback::OnVisualTreeChange","OnVisualTreeChange","OnVisualTreeChange method","OnVisualTreeChange method","IVisualTreeServiceCallback interface","xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange","xamlom/IVisualTreeServiceCallback::OnVisualTreeChange"]
 old-location: xaml_diagnostics\ivisualtreeservicecallback_onvisualtreechange.htm
 tech.root: xaml_diagnostics
 ms.assetid: 91D128E7-ECCA-426D-A6D6-773672302C6C

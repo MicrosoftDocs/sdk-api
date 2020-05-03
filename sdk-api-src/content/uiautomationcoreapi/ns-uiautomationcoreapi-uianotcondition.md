@@ -1,7 +1,7 @@
 ---
 UID: NS:uiautomationcoreapi.UiaNotCondition
 title: UiaNotCondition (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains information about a negative condition.
+description: Note  This structure is deprecated.  Contains information about a negative condition.helpviewer_keywords: ["UiaNotCondition","UiaNotCondition structure [Windows Accessibility]","uiauto.uiauto_UiaNotConditionStruct","uiauto_UiaNotConditionStruct","uiautomationcoreapi/UiaNotCondition","winauto.uiauto_UiaNotConditionStruct"]
 old-location: winauto\uiauto_UiaNotConditionStruct.htm
 tech.root: WinAuto
 ms.assetid: 56f3f6b2-31b6-4eba-a6be-6a64f72e98df

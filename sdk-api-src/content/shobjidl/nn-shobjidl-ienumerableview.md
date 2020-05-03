@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IEnumerableView
 title: IEnumerableView (shobjidl.h)
-description: Exposes methods that enumerate the contents of a view and receive notification from callback upon enumeration completion. This interface enables clients of a view to attempt to share the view's list of folder contents.
+description: Exposes methods that enumerate the contents of a view and receive notification from callback upon enumeration completion. This interface enables clients of a view to attempt to share the view's list of folder contents.helpviewer_keywords: ["IEnumerableView","IEnumerableView interface [Windows Shell]","IEnumerableView interface [Windows Shell]","described","_shell_IEnumerableView","shell.IEnumerableView","shobjidl/IEnumerableView"]
 old-location: shell\IEnumerableView.htm
 tech.root: shell
 ms.assetid: 6e096f7b-b40b-45ea-a348-ddfedf5913f8

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetResource
 title: IMFDXGIBuffer::GetResource (mfobjects.h)
-description: Queries the Microsoft DirectX Graphics Infrastructure (DXGI)surface for an interface.
+description: Queries the Microsoft DirectX Graphics Infrastructure (DXGI)surface for an interface.helpviewer_keywords: ["GetResource","GetResource method [Media Foundation]","GetResource method [Media Foundation]","IMFDXGIBuffer interface","IMFDXGIBuffer interface [Media Foundation]","GetResource method","IMFDXGIBuffer.GetResource","IMFDXGIBuffer::GetResource","mf.imfdxgibuffer_getresource","mfobjects/IMFDXGIBuffer::GetResource"]
 old-location: mf\imfdxgibuffer_getresource.htm
 tech.root: medfound
 ms.assetid: E8FF3346-D60A-4FF9-AF3E-673397EA6E6A

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupDone
 title: RpcNsBindingLookupDone function (rpcnsi.h)
-description: The RpcNsBindingLookupDone function signifies that a client has finished looking for compatible servers and deletes the lookup context.
+description: The RpcNsBindingLookupDone function signifies that a client has finished looking for compatible servers and deletes the lookup context.helpviewer_keywords: ["RpcNsBindingLookupDone","RpcNsBindingLookupDone function [RPC]","_rpc_rpcnsbindinglookupdone","rpc.rpcnsbindinglookupdone","rpcnsi/RpcNsBindingLookupDone"]
 old-location: rpc\rpcnsbindinglookupdone.htm
 tech.root: Rpc
 ms.assetid: bf272b29-8594-428a-947c-cc91ddfb4538

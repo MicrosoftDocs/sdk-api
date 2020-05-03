@@ -1,7 +1,7 @@
 ---
 UID: NF:mspstrm.CMSPStream.Init
 title: CMSPStream::Init (mspstrm.h)
-description: The Init method is called by the MSPCall when the stream is created. It initializes the members, calls MSPCallAddRef on the call object, and queries for various interfaces on the filter graph.
+description: The Init method is called by the MSPCall when the stream is created. It initializes the members, calls MSPCallAddRef on the call object, and queries for various interfaces on the filter graph.helpviewer_keywords: ["CMSPStream interface [TAPI 2.2]","Init method","CMSPStream.Init","CMSPStream::Init","Init","Init method [TAPI 2.2]","Init method [TAPI 2.2]","CMSPStream interface","_tapi3_cmspstream_init","mspstrm/CMSPStream::Init","tapi3.cmspstream_init"]
 old-location: tapi3\cmspstream_init.htm
 tech.root: Tapi
 ms.assetid: 8e522987-ac94-4597-8491-4c66b15aa262

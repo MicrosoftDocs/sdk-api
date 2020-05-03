@@ -1,7 +1,7 @@
 ---
 UID: NS:processthreadsapi._MEMORY_PRIORITY_INFORMATION
 title: MEMORY_PRIORITY_INFORMATION (processthreadsapi.h)
-description: Specifies the memory priority for a thread or process.
+description: Specifies the memory priority for a thread or process.helpviewer_keywords: ["*PMEMORY_PRIORITY_INFORMATION","MEMORY_PRIORITY_BELOW_NORMAL","MEMORY_PRIORITY_INFORMATION","MEMORY_PRIORITY_INFORMATION structure","MEMORY_PRIORITY_LOW","MEMORY_PRIORITY_MEDIUM","MEMORY_PRIORITY_NORMAL","MEMORY_PRIORITY_VERY_LOW","PMEMORY_PRIORITY_INFORMATION","PMEMORY_PRIORITY_INFORMATION structure pointer","_MEMORY_PRIORITY_INFORMATION","base.memory_priority_information","processthreadsapi/MEMORY_PRIORITY_INFORMATION","processthreadsapi/PMEMORY_PRIORITY_INFORMATION"]
 old-location: base\memory_priority_information.htm
 tech.root: ProcThread
 ms.assetid: 03cacfdf-5c66-42e4-bfcf-afaacd3ad038

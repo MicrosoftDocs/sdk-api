@@ -1,7 +1,7 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSink2
 title: IMFCaptureSink2 (mfcaptureengine.h)
-description: Extends the IMFCaptureSink interface to provide functionality for dynamically setting the output media type of the record sink or preview sink.
+description: Extends the IMFCaptureSink interface to provide functionality for dynamically setting the output media type of the record sink or preview sink.helpviewer_keywords: ["IMFCaptureSink2","IMFCaptureSink2 interface [Media Foundation]","IMFCaptureSink2 interface [Media Foundation]","described","mf.imfcapturesink2","mfcaptureengine/IMFCaptureSink2"]
 old-location: mf\imfcapturesink2.htm
 tech.root: medfound
 ms.assetid: afaf0d2e-3732-4c78-8aba-870c6aaefa28

@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTBRESTORE
 title: NMTBRESTORE (commctrl.h)
-description: Allows applications to extract the information that was placed in NMTBSAVE when the toolbar state was saved. This structure is passed to applications when they receive a TBN_RESTORE notification code.
+description: Allows applications to extract the information that was placed in NMTBSAVE when the toolbar state was saved. This structure is passed to applications when they receive a TBN_RESTORE notification code.helpviewer_keywords: ["*LPNMTBRESTORE","LPNMTBRESTORE","LPNMTBRESTORE structure pointer [Windows Controls]","NMTBRESTORE","NMTBRESTORE structure [Windows Controls]","_win32_NMTBRESTORE","_win32_NMTBRESTORE_cpp","commctrl/LPNMTBRESTORE","commctrl/NMTBRESTORE","controls.NMTBRESTORE","controls._win32_NMTBRESTORE"]
 old-location: controls\NMTBRESTORE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbrestore.htm

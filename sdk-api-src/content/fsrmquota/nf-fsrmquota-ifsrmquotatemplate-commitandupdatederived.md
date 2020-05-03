@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.CommitAndUpdateDerived
 title: IFsrmQuotaTemplate::CommitAndUpdateDerived (fsrmquota.h)
-description: Saves the quota template and then applies any changes to the derived quota objects.
+description: Saves the quota template and then applies any changes to the derived quota objects.helpviewer_keywords: ["CommitAndUpdateDerived","CommitAndUpdateDerived method [File Server Resource Manager]","CommitAndUpdateDerived method [File Server Resource Manager]","IFsrmQuotaTemplate interface","IFsrmQuotaTemplate interface [File Server Resource Manager]","CommitAndUpdateDerived method","IFsrmQuotaTemplate.CommitAndUpdateDerived","IFsrmQuotaTemplate::CommitAndUpdateDerived","fs.ifsrmquotatemplate_commitandupdatederived","fsrm.ifsrmquotatemplate_commitandupdatederived","fsrmquota/IFsrmQuotaTemplate::CommitAndUpdateDerived"]
 old-location: fsrm\ifsrmquotatemplate_commitandupdatederived.htm
 tech.root: fsrm
 ms.assetid: fecb034f-3f11-4d37-9468-56d4ea6268e7

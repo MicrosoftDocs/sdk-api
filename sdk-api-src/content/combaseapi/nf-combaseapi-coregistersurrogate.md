@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoRegisterSurrogate
 title: CoRegisterSurrogate function (combaseapi.h)
-description: Registers the surrogate process through its ISurrogate interface pointer.
+description: Registers the surrogate process through its ISurrogate interface pointer.helpviewer_keywords: ["CoRegisterSurrogate","CoRegisterSurrogate function [COM]","_com_CoRegisterSurrogate","com.coregistersurrogate","combaseapi/CoRegisterSurrogate"]
 old-location: com\coregistersurrogate.htm
 tech.root: com
 ms.assetid: 4d1c6ca6-ab21-429c-9433-7c95d9e757b5

@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.LIBRARYMANAGEDIALOGOPTIONS
 title: LIBRARYMANAGEDIALOGOPTIONS (shobjidl_core.h)
-description: Used by SHShowManageLibraryUI to define options for handling a name collision when saving a library.
+description: Used by SHShowManageLibraryUI to define options for handling a name collision when saving a library.helpviewer_keywords: ["LIBRARYMANAGEDIALOGOPTIONS","LIBRARYMANAGEDIALOGOPTIONS enumeration [Windows Shell]","LMD_ALLOWUNINDEXABLENETWORKLOCATIONS","LMD_DEFAULT","_shell_LIBRARYMANAGEDIALOGOPTIONS","shell.LIBRARYMANAGEDIALOGOPTIONS","shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS","shobjidl_core/LMD_ALLOWUNINDEXABLENETWORKLOCATIONS","shobjidl_core/LMD_DEFAULT"]
 old-location: shell\LIBRARYMANAGEDIALOGOPTIONS.htm
 tech.root: shell
 ms.assetid: e5eaf131-9562-4ab0-a8bc-4eaaaa806a8f

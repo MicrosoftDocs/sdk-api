@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite_1.DWRITE_JUSTIFICATION_OPPORTUNITY
 title: DWRITE_JUSTIFICATION_OPPORTUNITY (dwrite_1.h)
-description: The DWRITE_JUSTIFICATION_OPPORTUNITY structure specifies justification info per glyph.
+description: The DWRITE_JUSTIFICATION_OPPORTUNITY structure specifies justification info per glyph.helpviewer_keywords: ["DWRITE_JUSTIFICATION_OPPORTUNITY","DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write]","directwrite.dwrite_justification_opportunity","dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY"]
 old-location: directwrite\dwrite_justification_opportunity.htm
 tech.root: DirectWrite
 ms.assetid: D7D18462-A0A4-4064-B04D-CA8ACED7E34D

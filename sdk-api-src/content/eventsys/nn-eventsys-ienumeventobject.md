@@ -1,7 +1,7 @@
 ---
 UID: NN:eventsys.IEnumEventObject
 title: IEnumEventObject (eventsys.h)
-description: Enumerates the event objects that are registered in the COM+ events store.
+description: Enumerates the event objects that are registered in the COM+ events store.helpviewer_keywords: ["IEnumEventObject","IEnumEventObject interface [COM+]","IEnumEventObject interface [COM+]","described","_cos_ienumeventobject","cos.ienumeventobject","eventsys/IEnumEventObject"]
 old-location: cos\ienumeventobject.htm
 tech.root: cossdk
 ms.assetid: a42d0791-28d0-4d83-b94d-ff2f8ef9a614

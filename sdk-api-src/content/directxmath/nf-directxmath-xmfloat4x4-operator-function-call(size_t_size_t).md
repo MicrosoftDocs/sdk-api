@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT4X4.operator-function-call(size_t,size_t)
 title: XMFLOAT4X4::operator-function-call(size_t,size_t)
-description: Returns a reference to a matrix element of an instance XMFLOAT4X4 as specified by row and column arguments.
+description: Returns a reference to a matrix element of an instance XMFLOAT4X4 as specified by row and column arguments.helpviewer_keywords: ["XMFLOAT4X4 structure [DirectX Math Support APIs]","operator () method","XMFLOAT4X4.operator ()(size_t","size_t)","XMFLOAT4X4.operator (size_t","size_t)","XMFLOAT4X4.operator()","XMFLOAT4X4.operator-function-call(size_t","size_t)","XMFLOAT4X4::operator()","XMFLOAT4X4::operator-function-call(size_t","size_t)","dxmath.xmfloat4x4_operator_parens_1","operator () method [DirectX Math Support APIs]","operator () method [DirectX Math Support APIs]","XMFLOAT4X4 structure","operator()"]
 old-location: dxmath\xmfloat4x4_operator_parens_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.operator ()(size_t,size_t)

@@ -2,6 +2,7 @@
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnUpdate
 title: IFunctionDiscoveryNotification::OnUpdate (functiondiscoveryapi.h)
 description: Indicates that a function instance has been added, removed, or changed.
+helpviewer_keywords: ["IFunctionDiscoveryNotification interface","OnUpdate method","IFunctionDiscoveryNotification.OnUpdate","IFunctionDiscoveryNotification::OnUpdate","OnUpdate","OnUpdate method","OnUpdate method","IFunctionDiscoveryNotification interface","functiondiscoveryapi/IFunctionDiscoveryNotification::OnUpdate","ncd.ifunctiondiscoverynotification_onupdate_method"]
 old-location: ncd\ifunctiondiscoverynotification_onupdate_method.htm
 tech.root: FunDisc
 ms.assetid: ab4d0fc6-de3f-49cf-b53c-573222a8bc89
@@ -61,7 +62,7 @@ Indicates that a function instance has been added, removed, or changed. This met
 
 ### -param enumQueryUpdateAction [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-queryupdateaction">QueryUpdateAction</a> value that specifies the type of action Function Discovery is performing on the specified function instance.
+A <a href="/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-queryupdateaction">QueryUpdateAction</a> value that specifies the type of action Function Discovery is performing on the specified function instance.
 
 
 ### -param fdqcQueryContext [in]

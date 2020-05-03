@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsecure.IWMGetSecureChannel
 title: IWMGetSecureChannel (wmsecure.h)
-description: The IWMGetSecureChannel interface is used by one communication party to get the other party's IWMSecureChannel interface.
+description: The IWMGetSecureChannel interface is used by one communication party to get the other party's IWMSecureChannel interface.helpviewer_keywords: ["IWMGetSecureChannel","IWMGetSecureChannel interface [windows Media Format]","IWMGetSecureChannel interface [windows Media Format]","described","wmformat.iwmgetsecurechannel","wmsecure/IWMGetSecureChannel"]
 old-location: wmformat\iwmgetsecurechannel.htm
 tech.root: wmformat
 ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a

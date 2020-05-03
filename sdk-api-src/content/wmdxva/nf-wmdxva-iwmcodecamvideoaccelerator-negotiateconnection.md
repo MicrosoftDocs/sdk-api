@@ -1,7 +1,7 @@
 ---
 UID: NF:wmdxva.IWMCodecAMVideoAccelerator.NegotiateConnection
 title: IWMCodecAMVideoAccelerator::NegotiateConnection (wmdxva.h)
-description: The NegotiateConnection method is called by the output pin on the player's source filter during the connection process when it has been given a DirectX VA media type.
+description: The NegotiateConnection method is called by the output pin on the player's source filter during the connection process when it has been given a DirectX VA media type.helpviewer_keywords: ["IWMCodecAMVideoAccelerator interface [windows Media Format]","NegotiateConnection method","IWMCodecAMVideoAccelerator.NegotiateConnection","IWMCodecAMVideoAccelerator::NegotiateConnection","IWMCodecAMVideoAcceleratorNegotiateConnection","NegotiateConnection","NegotiateConnection method [windows Media Format]","NegotiateConnection method [windows Media Format]","IWMCodecAMVideoAccelerator interface","wmdxva/IWMCodecAMVideoAccelerator::NegotiateConnection","wmformat.iwmcodecamvideoaccelerator_negotiateconnection"]
 old-location: wmformat\iwmcodecamvideoaccelerator_negotiateconnection.htm
 tech.root: wmformat
 ms.assetid: 547c43ed-7e04-4323-9e10-019ecfdbb641

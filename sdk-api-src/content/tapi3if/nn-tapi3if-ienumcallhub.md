@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.IEnumCallHub
 title: IEnumCallHub (tapi3if.h)
-description: The IEnumCallHub interface provides COM-standard enumeration methods for the ITCallHub interface. The ITTAPI::EnumerateCallHubs method returns a pointer to IEnumCallHub.
+description: The IEnumCallHub interface provides COM-standard enumeration methods for the ITCallHub interface. The ITTAPI::EnumerateCallHubs method returns a pointer to IEnumCallHub.helpviewer_keywords: ["IEnumCallHub","IEnumCallHub interface [TAPI 2.2]","IEnumCallHub interface [TAPI 2.2]","described","_tapi3_ienumcallhub","tapi3.ienumcallhub","tapi3if/IEnumCallHub"]
 old-location: tapi3\ienumcallhub.htm
 tech.root: Tapi
 ms.assetid: f5dcc21d-5ce1-4b10-88c5-e6772b5eb61d

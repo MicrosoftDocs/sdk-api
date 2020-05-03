@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToReTryQueue
 title: IComQCEvents::OnQCMoveToReTryQueue (comsvcs.h)
 description: Generated when a message is moved to a queued components retry queue.
+helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCMoveToReTryQueue method","IComQCEvents.OnQCMoveToReTryQueue","IComQCEvents::OnQCMoveToReTryQueue","OnQCMoveToReTryQueue","OnQCMoveToReTryQueue method [COM+]","OnQCMoveToReTryQueue method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCMoveToReTryQueue","comsvcs/IComQCEvents::OnQCMoveToReTryQueue","cos.icomqcevents_onqcmovetoretryqueue"]
 old-location: cos\icomqcevents_onqcmovetoretryqueue.htm
 tech.root: cossdk
 ms.assetid: d8f2af02-852d-4e36-9e0c-4919e2fba4a1
@@ -59,7 +60,7 @@ Generated when a message is moved to a queued components retry queue.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidMsgId [in]

@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Width
 title: IPenInputPanel::get_Width (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the width of the pen input panel in client coordinates.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the width of the pen input panel in client coordinates.helpviewer_keywords: ["81173c64-5d8b-48ae-866c-5292814a97c0","IPenInputPanel interface [Tablet PC]","Width property","IPenInputPanel.Width","IPenInputPanel.get_Width","IPenInputPanel::Width","IPenInputPanel::get_Width","PenInputPanel.get_Width","Width property [Tablet PC]","Width property [Tablet PC]","IPenInputPanel interface","get_Width","peninputpanel/IPenInputPanel::Width","peninputpanel/IPenInputPanel::get_Width","put_Width","tablet.peninputpanel_width"]
 old-location: tablet\peninputpanel_width.htm
 tech.root: tablet
 ms.assetid: 81173c64-5d8b-48ae-866c-5292814a97c0

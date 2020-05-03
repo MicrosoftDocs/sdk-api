@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MFAudioConstriction
 title: MFAudioConstriction (mfidl.h)
-description: Specifies values for audio constriction.
+description: Specifies values for audio constriction.helpviewer_keywords: ["MFAudioConstriction","MFAudioConstriction enumeration [Media Foundation]","MFaudioConstriction14_14","MFaudioConstriction44_16","MFaudioConstriction48_16","MFaudioConstrictionMute","MFaudioConstrictionOff","mf.mfaudioconstriction","mfidl/MFAudioConstriction","mfidl/MFaudioConstriction14_14","mfidl/MFaudioConstriction44_16","mfidl/MFaudioConstriction48_16","mfidl/MFaudioConstrictionMute","mfidl/MFaudioConstrictionOff"]
 old-location: mf\mfaudioconstriction.htm
 tech.root: medfound
 ms.assetid: EAFE3AA5-EF63-471A-9A67-A2EB298B0C0F

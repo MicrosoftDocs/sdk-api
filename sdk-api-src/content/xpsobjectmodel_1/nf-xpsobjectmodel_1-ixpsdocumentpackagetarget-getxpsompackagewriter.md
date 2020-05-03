@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMPackageWriter
 title: IXpsDocumentPackageTarget::GetXpsOMPackageWriter (xpsobjectmodel_1.h)
-description: Gets the IXpsOMPackageWriter object for the document package.
+description: Gets the IXpsOMPackageWriter object for the document package.helpviewer_keywords: ["GetXpsOMPackageWriter","GetXpsOMPackageWriter method [XPS Documents and Packaging]","GetXpsOMPackageWriter method [XPS Documents and Packaging]","IXpsDocumentPackageTarget interface","IXpsDocumentPackageTarget interface [XPS Documents and Packaging]","GetXpsOMPackageWriter method","IXpsDocumentPackageTarget.GetXpsOMPackageWriter","IXpsDocumentPackageTarget::GetXpsOMPackageWriter","xps.ixpsdocumentpackagetarget_getxpsompackagewriter","xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMPackageWriter"]
 old-location: xps\ixpsdocumentpackagetarget_getxpsompackagewriter.htm
 tech.root: printdocs
 ms.assetid: D20AE05F-466F-44B6-972A-06AA872FF7BA

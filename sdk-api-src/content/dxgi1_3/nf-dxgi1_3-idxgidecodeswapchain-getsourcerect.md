@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetSourceRect
 title: IDXGIDecodeSwapChain::GetSourceRect (dxgi1_3.h)
-description: Gets the source region that is used for the swap chain.
+description: Gets the source region that is used for the swap chain.helpviewer_keywords: ["GetSourceRect","GetSourceRect method [DXGI]","GetSourceRect method [DXGI]","IDXGIDecodeSwapChain interface","IDXGIDecodeSwapChain interface [DXGI]","GetSourceRect method","IDXGIDecodeSwapChain.GetSourceRect","IDXGIDecodeSwapChain::GetSourceRect","direct3ddxgi.idxgidecodeswapchain_getsourcerect","dxgi1_3/IDXGIDecodeSwapChain::GetSourceRect"]
 old-location: direct3ddxgi\idxgidecodeswapchain_getsourcerect.htm
 tech.root: direct3ddxgi
 ms.assetid: 67DD1267-997A-4D84-BC91-D124ED1E8946

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetText
 title: IDvbDataBroadcastDescriptor::GetText (dvbsiparser.h)
-description: Gets the text that describes the data from a Digital Video Broadcast (DVB) data broadcast descriptor.
+description: Gets the text that describes the data from a Digital Video Broadcast (DVB) data broadcast descriptor.helpviewer_keywords: ["GetText","GetText method [Microsoft TV Technologies]","GetText method [Microsoft TV Technologies]","IDvbDataBroadcastDescriptor interface","IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies]","GetText method","IDvbDataBroadcastDescriptor.GetText","IDvbDataBroadcastDescriptor::GetText","dvbsiparser/IDvbDataBroadcastDescriptor::GetText","mstv.idvbdatabroadcastdescriptor_gettext"]
 old-location: mstv\idvbdatabroadcastdescriptor_gettext.htm
 tech.root: mstv
 ms.assetid: 3b25a5fa-5829-4c7f-8858-59fdddccdc65

@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplustypes.SizeF
 title: SizeF (gdiplustypes.h)
-description: The SizeF class encapsulates a Width and Height dimension in a 2-D coordinate system. The SizeF class uses floating point coordinates.
+description: The SizeF class encapsulates a Width and Height dimension in a 2-D coordinate system. The SizeF class uses floating point coordinates.helpviewer_keywords: ["SizeF","SizeF class [GDI+]","SizeF class [GDI+]","described","_gdiplus_CLASS_SizeF_Class","gdiplus._gdiplus_CLASS_SizeF_Class","gdiplustypes/SizeF"]
 old-location: gdiplus\_gdiplus_CLASS_SizeF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizef.htm

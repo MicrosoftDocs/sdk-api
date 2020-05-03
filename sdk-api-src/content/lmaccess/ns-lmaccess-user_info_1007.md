@@ -1,7 +1,7 @@
 ---
 UID: NS:lmaccess._USER_INFO_1007
 title: USER_INFO_1007 (lmaccess.h)
-description: The USER_INFO_1007 structure contains a comment associated with a user network account. This information level is valid only when you call the NetUserSetInfo function.
+description: The USER_INFO_1007 structure contains a comment associated with a user network account. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1007","*PUSER_INFO_1007","LPUSER_INFO_1007","LPUSER_INFO_1007 structure pointer [Network Management]","PUSER_INFO_1007","PUSER_INFO_1007 structure pointer [Network Management]","USER_INFO_1007","USER_INFO_1007 structure [Network Management]","_win32_user_info_1007_str","lmaccess/LPUSER_INFO_1007","lmaccess/PUSER_INFO_1007","lmaccess/USER_INFO_1007","netmgmt.user_info_1007_str"]
 old-location: netmgmt\user_info_1007_str.htm
 tech.root: NetMgmt
 ms.assetid: a2e49802-799d-4f98-aa6d-5cb1478cb4d4

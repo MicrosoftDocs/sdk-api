@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInt32
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified signed 32-bit integer value.
+description: Creates a new IPropertyValue object that contains the specified signed 32-bit integer value.helpviewer_keywords: ["CreateInt32","CreateInt32 method [Windows Runtime]","CreateInt32 method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateInt32 method","IPropertyValueStatics.CreateInt32","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateInt32","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateInt32","winrt.ipropertyvaluefactory_createint32","winrt.ipropertyvaluestatics_createint32"]
 old-location: winrt\ipropertyvaluestatics_createint32.htm
 tech.root: WinRT
 ms.assetid: E6F3751A-54FF-44EC-90EB-4B0732ABFF01

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.GetTextRenderingParams
 title: ID2D1DrawingStateBlock::GetTextRenderingParams (d2d1.h)
-description: Retrieves the text-rendering configuration of the drawing state.
+description: Retrieves the text-rendering configuration of the drawing state.helpviewer_keywords: ["GetTextRenderingParams","GetTextRenderingParams method [Direct2D]","GetTextRenderingParams method [Direct2D]","ID2D1DrawingStateBlock interface","ID2D1DrawingStateBlock interface [Direct2D]","GetTextRenderingParams method","ID2D1DrawingStateBlock.GetTextRenderingParams","ID2D1DrawingStateBlock::GetTextRenderingParams","d2d1/ID2D1DrawingStateBlock::GetTextRenderingParams","direct2d.ID2D1DrawingStateBlock_GetTextRenderingParams"]
 old-location: direct2d\ID2D1DrawingStateBlock_GetTextRenderingParams.htm
 tech.root: Direct2D
 ms.assetid: 86822497-e256-445b-8da9-9ead229f89ee
@@ -59,9 +59,9 @@ Retrieves the text-rendering configuration of the drawing state.
 
 ### -param textRenderingParams [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a> object that describes the text-rendering configuration of the drawing state.
+When this method returns, contains the address of a pointer to an <a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a> object that describes the text-rendering configuration of the drawing state.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ When this method returns, contains the address of a pointer to an <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

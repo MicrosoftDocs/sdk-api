@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRSELECTPALETTE
 title: EMRSELECTPALETTE (wingdi.h)
-description: The EMRSELECTPALETTE structure contains members for the SelectPalette enhanced metafile record. Note that the bForceBackground parameter in SelectPalette is always recorded as TRUE, which causes the palette to be realized as a background palette.
+description: The EMRSELECTPALETTE structure contains members for the SelectPalette enhanced metafile record. Note that the bForceBackground parameter in SelectPalette is always recorded as TRUE, which causes the palette to be realized as a background palette.helpviewer_keywords: ["*PEMRSELECTPALETTE","EMRSELECTPALETTE","EMRSELECTPALETTE structure [Windows GDI]","PEMRSELECTPALETTE","PEMRSELECTPALETTE structure pointer [Windows GDI]","_win32_EMRSELECTPALETTE_str","gdi.emrselectpalette","wingdi/EMRSELECTPALETTE","wingdi/PEMRSELECTPALETTE"]
 old-location: gdi\emrselectpalette.htm
 tech.root: gdi
 ms.assetid: f83367c0-406a-4a5f-961f-8e5afe6707fd

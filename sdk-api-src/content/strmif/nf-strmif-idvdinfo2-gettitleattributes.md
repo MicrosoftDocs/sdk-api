@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTitleAttributes
 title: IDvdInfo2::GetTitleAttributes (strmif.h)
-description: The GetTitleAttributes method retrieves attributes of all video, audio, and subpicture streams for the specified title and its menus.
+description: The GetTitleAttributes method retrieves attributes of all video, audio, and subpicture streams for the specified title and its menus.helpviewer_keywords: ["GetTitleAttributes","GetTitleAttributes method [DirectShow]","GetTitleAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetTitleAttributes method","IDvdInfo2.GetTitleAttributes","IDvdInfo2::GetTitleAttributes","IDvdInfo2GetTitleAttributes","dshow.idvdinfo2_gettitleattributes","strmif/IDvdInfo2::GetTitleAttributes"]
 old-location: dshow\idvdinfo2_gettitleattributes.htm
 tech.root: DirectShow
 ms.assetid: 4e901e14-9e98-4ca5-ae37-7a4564b187ab

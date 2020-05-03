@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrProxyInitialize
 title: NdrProxyInitialize function (rpcproxy.h)
-description: The NdrProxyInitialize function initializes the proxy for an object method.
+description: The NdrProxyInitialize function initializes the proxy for an object method.helpviewer_keywords: ["NdrProxyInitialize","NdrProxyInitialize function [RPC]","rpc.ndrproxyinitialize","rpcproxy/NdrProxyInitialize"]
 old-location: rpc\ndrproxyinitialize.htm
 tech.root: Rpc
 ms.assetid: 54037337-9166-4023-8470-65ad247ceee5

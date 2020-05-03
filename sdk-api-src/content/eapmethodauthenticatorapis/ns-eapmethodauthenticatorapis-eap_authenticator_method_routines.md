@@ -2,6 +2,7 @@
 UID: NS:eapmethodauthenticatorapis._EAP_AUTHENTICATOR_METHOD_ROUTINES
 title: EAP_AUTHENTICATOR_METHOD_ROUTINES (eapmethodauthenticatorapis.h)
 description: Contains a set of function pointers to the EAPHost Authenticator Method APIs.
+helpviewer_keywords: ["*PEAP_AUTHENTICATOR_METHOD_ROUTINES","EAP_AUTHENTICATOR_METHOD_ROUTINES","EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost]","eaphost.eap_authenticator_method_routines","eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"]
 old-location: eaphost\eap_authenticator_method_routines.htm
 tech.root: eaphost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
@@ -95,7 +96,7 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 
 #### dwFlags
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 
@@ -155,7 +156,7 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 
 #### dwFlags
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 
@@ -203,7 +204,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmetho
 
 #### pEapOutput
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that indicates the next action the supplicant must take in the EAP authentication session.
+Receives a pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that indicates the next action the supplicant must take in the EAP authentication session.
 
 
 
@@ -245,7 +246,7 @@ Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api
 
 #### pTimeout
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatortypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> value that specifies the timeout for the packet.
+Receives a pointer to an <a href="/windows/win32/api/eapauthenticatortypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> value that specifies the timeout for the packet.
 
 
 
@@ -301,7 +302,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/n
 
 #### pEapOutput
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that specifies the suggested action the supplicant should take as a response to the updated attributes.
+Receives a pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 
@@ -325,7 +326,7 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 
 #### pResult
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
+Receives a pointer to a <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
 
 
 
@@ -416,7 +417,7 @@ These APIs are called on an EAP authenticator method when an authenticator (serv
 
 
 
-[EAPHost Authenticator Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-structures)a>
+[EAPHost Authenticator Method Structures](/windows/win32/eaphost/eap-host-authenticator-method-structures)
 
 
 

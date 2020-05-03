@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigServerDisconnect
 title: MprConfigServerDisconnect function (mprapi.h)
-description: The MprConfigServerDisconnect function disconnects a connection made by a previous call to MprConfigServerConnect.
+description: The MprConfigServerDisconnect function disconnects a connection made by a previous call to MprConfigServerConnect.helpviewer_keywords: ["MprConfigServerDisconnect","MprConfigServerDisconnect function [RAS]","_mpr_mprconfigserverdisconnect","mprapi/MprConfigServerDisconnect","rras.mprconfigserverdisconnect"]
 old-location: rras\mprconfigserverdisconnect.htm
 tech.root: RRAS
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba

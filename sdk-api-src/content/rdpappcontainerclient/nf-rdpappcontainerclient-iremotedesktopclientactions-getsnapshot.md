@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.GetSnapshot
 title: IRemoteDesktopClientActions::GetSnapshot (rdpappcontainerclient.h)
-description: Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.
+description: Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.helpviewer_keywords: ["GetSnapshot","GetSnapshot method [Remote Desktop Services]","GetSnapshot method [Remote Desktop Services]","IRemoteDesktopClientActions interface","IRemoteDesktopClientActions interface [Remote Desktop Services]","GetSnapshot method","IRemoteDesktopClientActions.GetSnapshot","IRemoteDesktopClientActions::GetSnapshot","rdpappcontainerclient/IRemoteDesktopClientActions::GetSnapshot","termserv.iremotedesktopclientactions_getsnapshot"]
 old-location: termserv\iremotedesktopclientactions_getsnapshot.htm
 tech.root: TermServ
 ms.assetid: c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5

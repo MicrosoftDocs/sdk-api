@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj_core.IObjMgr
 title: IObjMgr (shlobj_core.h)
-description: Exposes methods that allow a client to append or remove an object from a collection of objects managed by a server object.
+description: Exposes methods that allow a client to append or remove an object from a collection of objects managed by a server object.helpviewer_keywords: ["IObjMgr","IObjMgr interface [Windows Shell]","IObjMgr interface [Windows Shell]","described","_win32_IObjMgr","shell.IObjMgr","shlobj_core/IObjMgr"]
 old-location: shell\IObjMgr.htm
 tech.root: shell
 ms.assetid: c0556a87-2be5-43dc-9ca6-dfbdae7e7137

@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.RenderTargetBitmap
 title: IVisualTreeService2::RenderTargetBitmap (xamlom.h)
-description: Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image.
+description: Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image.helpviewer_keywords: ["IVisualTreeService2 interface","RenderTargetBitmap method","IVisualTreeService2.RenderTargetBitmap","IVisualTreeService2::RenderTargetBitmap","RenderTargetBitmap","RenderTargetBitmap method","RenderTargetBitmap method","IVisualTreeService2 interface","xaml_diagnostics.ivisualtreeservice2_rendertargetbitmap","xamlom/IVisualTreeService2::RenderTargetBitmap"]
 old-location: xaml_diagnostics\ivisualtreeservice2_rendertargetbitmap.htm
 tech.root: xaml_diagnostics
 ms.assetid: BE5DA08C-46F9-44E1-89CD-85613DD3BDE4

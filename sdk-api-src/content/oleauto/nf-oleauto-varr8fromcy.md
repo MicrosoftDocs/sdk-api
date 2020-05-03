@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR8FromCy
 title: VarR8FromCy function (oleauto.h)
-description: Converts a currency value to a double value.
+description: Converts a currency value to a double value.helpviewer_keywords: ["VarR8FromCy","VarR8FromCy function [Automation]","_oa96_VarR8FromCy","automat.varr8fromcy","oleauto/VarR8FromCy"]
 old-location: automat\varr8fromcy.htm
 tech.root: automat
 ms.assetid: 568d0798-8e91-4bb2-a650-9c51ec4568c9

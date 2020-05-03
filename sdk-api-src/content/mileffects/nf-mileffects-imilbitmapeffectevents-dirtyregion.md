@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.DirtyRegion
 title: IMILBitmapEffectEvents::DirtyRegion (mileffects.h)
-description: Invalidates the specified region of the given IMILBitmapEffectPrimitive.
+description: Invalidates the specified region of the given IMILBitmapEffectPrimitive.helpviewer_keywords: ["DirtyRegion","DirtyRegion method [WPF Bitmap Effects]","DirtyRegion method [WPF Bitmap Effects]","IMILBitmapEffectEvents interface","IMILBitmapEffectEvents interface [WPF Bitmap Effects]","DirtyRegion method","IMILBitmapEffectEvents.DirtyRegion","IMILBitmapEffectEvents::DirtyRegion","_wibe_imilbitmapeffectevents_dirtyregion","mileffects/IMILBitmapEffectEvents::DirtyRegion","wibe._wibe_imilbitmapeffectevents_dirtyregion"]
 old-location: wibe\_wibe_imilbitmapeffectevents_dirtyregion.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\dirtyregion.htm

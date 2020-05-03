@@ -2,6 +2,7 @@
 UID: NF:adhoc.IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange
 title: IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange (adhoc.h)
 description: Notifies the client that the connection status of the network associated with the NIC has changed.
+helpviewer_keywords: ["IDot11AdHocInterfaceNotificationSink interface [NativeWIFI]","OnConnectionStatusChange method","IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange","IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange","OnConnectionStatusChange","OnConnectionStatusChange method [NativeWIFI]","OnConnectionStatusChange method [NativeWIFI]","IDot11AdHocInterfaceNotificationSink interface","adhoc/IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange","nwifi.idot11adhocinterfacenotificationsink_onconnectionstatuschange"]
 old-location: nwifi\idot11adhocinterfacenotificationsink_onconnectionstatuschange.htm
 tech.root: NativeWiFi
 ms.assetid: a2116e44-e29b-4110-8794-ed161fdb534d
@@ -59,7 +60,7 @@ Notifies the client that the connection status of the network associated with th
 
 ### -param eStatus
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the new connection state.
+A pointer to a  <a href="/windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the new connection state.
 
 
 ## -returns

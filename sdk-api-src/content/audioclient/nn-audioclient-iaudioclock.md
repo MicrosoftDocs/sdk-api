@@ -1,7 +1,7 @@
 ---
 UID: NN:audioclient.IAudioClock
 title: IAudioClock (audioclient.h)
-description: The IAudioClock interface enables a client to monitor a stream's data rate and the current position in the stream.
+description: The IAudioClock interface enables a client to monitor a stream's data rate and the current position in the stream.helpviewer_keywords: ["IAudioClock","IAudioClock interface [Core Audio]","IAudioClock interface [Core Audio]","described","audioclient/IAudioClock","coreaudio.iaudioclock"]
 old-location: coreaudio\iaudioclock.htm
 tech.root: CoreAudio
 ms.assetid: dbec9468-b555-42a0-a988-dec3a66c9f96

@@ -1,7 +1,7 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.SetObject
 title: IDsAdminNewObjExt::SetObject (dsadmin.h)
-description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.
+description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.helpviewer_keywords: ["IDsAdminNewObjExt interface [Active Directory]","SetObject method","IDsAdminNewObjExt.SetObject","IDsAdminNewObjExt::SetObject","SetObject","SetObject method [Active Directory]","SetObject method [Active Directory]","IDsAdminNewObjExt interface","_glines_idsadminnewobjext_setobject","ad.idsadminnewobjext__setobject","ad.idsadminnewobjext_setobject","dsadmin/IDsAdminNewObjExt::SetObject"]
 old-location: ad\idsadminnewobjext_setobject.htm
 tech.root: ad
 ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e

@@ -1,7 +1,7 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.GetFileACLFlags
 title: IBackgroundCopyJob3::GetFileACLFlags (bits2_0.h)
-description: Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.
+description: Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.helpviewer_keywords: ["BG_COPY_FILE_ALL","BG_COPY_FILE_DACL","BG_COPY_FILE_GROUP","BG_COPY_FILE_OWNER","BG_COPY_FILE_SACL","GetFileACLFlags","GetFileACLFlags method [BITS]","GetFileACLFlags method [BITS]","IBackgroundCopyJob3 interface","IBackgroundCopyJob3 interface [BITS]","GetFileACLFlags method","IBackgroundCopyJob3.GetFileACLFlags","IBackgroundCopyJob3::GetFileACLFlags","bits.ibackgroundcopyjob3_getfileaclflags","bits2_0/IBackgroundCopyJob3::GetFileACLFlags"]
 old-location: bits\ibackgroundcopyjob3_getfileaclflags.htm
 tech.root: Bits
 ms.assetid: 569df1e5-d45a-4f18-82ad-1e4957f47d94

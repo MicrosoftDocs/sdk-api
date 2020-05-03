@@ -1,7 +1,7 @@
 ---
 UID: NC:cryptxml.CryptXmlDllEncodeKeyValue
 title: CryptXmlDllEncodeKeyValue (cryptxml.h)
-description: Encodes a KeyValue element.
+description: Encodes a KeyValue element.helpviewer_keywords: ["CryptXmlDllEncodeKeyValue","CryptXmlDllEncodeKeyValue callback","CryptXmlDllEncodeKeyValue callback function [Security]","cryptxml/CryptXmlDllEncodeKeyValue","security.cryptxmldllencodekeyvalue"]
 old-location: security\cryptxmldllencodekeyvalue.htm
 tech.root: SecCrypto
 ms.assetid: a0737139-a820-455d-85f4-c56b63a1a8e0

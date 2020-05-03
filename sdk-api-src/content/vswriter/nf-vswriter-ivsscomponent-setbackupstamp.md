@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.SetBackupStamp
 title: IVssComponent::SetBackupStamp (vswriter.h)
-description: The SetBackupStamp method sets a string containing information indicating when a backup took place.
+description: The SetBackupStamp method sets a string containing information indicating when a backup took place.helpviewer_keywords: ["IVssComponent interface [VSS]","SetBackupStamp method","IVssComponent.SetBackupStamp","IVssComponent::SetBackupStamp","SetBackupStamp","SetBackupStamp method [VSS]","SetBackupStamp method [VSS]","IVssComponent interface","_win32_ivsscomponent_setbackupstamp","base.ivsscomponent_setbackupstamp","vswriter/IVssComponent::SetBackupStamp"]
 old-location: base\ivsscomponent_setbackupstamp.htm
 tech.root: VSS
 ms.assetid: 54995cc9-8988-4f26-9c60-5d809a93e4e1

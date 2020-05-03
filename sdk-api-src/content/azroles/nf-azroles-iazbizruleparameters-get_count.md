@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.get_Count
 title: IAzBizRuleParameters::get_Count (azroles.h)
-description: Gets the number of parameters available to business rule (BizRule) scripts.
+description: Gets the number of parameters available to business rule (BizRule) scripts.helpviewer_keywords: ["Count property [Security]","Count property [Security]","IAzBizRuleParameters interface","IAzBizRuleParameters interface [Security]","Count property","IAzBizRuleParameters.Count","IAzBizRuleParameters.get_Count","IAzBizRuleParameters::Count","IAzBizRuleParameters::get_Count","azroles/IAzBizRuleParameters::Count","azroles/IAzBizRuleParameters::get_Count","get_Count","security.iazbizruleparameters_count_method"]
 old-location: security\iazbizruleparameters_count_method.htm
 tech.root: SecAuthZ
 ms.assetid: 5ba6f289-2349-444b-8693-53aadb0ea4d1

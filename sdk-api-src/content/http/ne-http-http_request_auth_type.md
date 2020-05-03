@@ -1,7 +1,7 @@
 ---
 UID: NE:http._HTTP_REQUEST_AUTH_TYPE
 title: HTTP_REQUEST_AUTH_TYPE (http.h)
-description: The HTTP_REQUEST_AUTH_TYPE enumeration defines the authentication types supported by the HTTP Server API.This enumeration is used in the HTTP_REQUEST_AUTH_INFO structure.
+description: The HTTP_REQUEST_AUTH_TYPE enumeration defines the authentication types supported by the HTTP Server API.This enumeration is used in the HTTP_REQUEST_AUTH_INFO structure.helpviewer_keywords: ["*PHTTP_REQUEST_AUTH_TYPE","*PHTTP_REQUEST_AUTH_TYPE enumeration [HTTP]","HTTP_REQUEST_AUTH_TYPE","HTTP_REQUEST_AUTH_TYPE enumeration [HTTP]","HttpRequestAuthTypeBasic","HttpRequestAuthTypeDigest","HttpRequestAuthTypeKerberos","HttpRequestAuthTypeNTLM","HttpRequestAuthTypeNegotiate","HttpRequestAuthTypeNone","http.http_request_auth_type","http/*PHTTP_REQUEST_AUTH_TYPE","http/HTTP_REQUEST_AUTH_TYPE","http/HttpRequestAuthTypeBasic","http/HttpRequestAuthTypeDigest","http/HttpRequestAuthTypeKerberos","http/HttpRequestAuthTypeNTLM","http/HttpRequestAuthTypeNegotiate","http/HttpRequestAuthTypeNone"]
 old-location: http\http_request_auth_type.htm
 tech.root: http
 ms.assetid: e0147da5-7de2-4ea8-abc5-61c814ee7c55

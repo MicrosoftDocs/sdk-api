@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt8Array
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of unsigned 8-bit integer values that is stored in the current IPropertyValue object.
+description: Gets the array of unsigned 8-bit integer values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetUInt8Array","GetUInt8Array method [Windows Runtime]","GetUInt8Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt8Array method","IPropertyValue.GetUInt8Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt8Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt8Array","winrt.ipropertyvalue_getuint8array"]
 old-location: winrt\ipropertyvalue_getuint8array.htm
 tech.root: WinRT
 ms.assetid: f17fe310-40b7-46a5-ae87-c07649c2f288

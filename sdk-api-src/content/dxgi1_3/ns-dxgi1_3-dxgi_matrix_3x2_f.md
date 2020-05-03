@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgi1_3.DXGI_MATRIX_3X2_F
 title: DXGI_MATRIX_3X2_F (dxgi1_3.h)
-description: Represents a 3x2 matrix. Used with GetMatrixTransform and SetMatrixTransform to indicate the scaling and translation transform for SwapChainPanel swap chains.
+description: Represents a 3x2 matrix. Used with GetMatrixTransform and SetMatrixTransform to indicate the scaling and translation transform for SwapChainPanel swap chains.helpviewer_keywords: ["DXGI_MATRIX_3X2_F","DXGI_MATRIX_3X2_F structure [DXGI]","direct3ddxgi.dxgi_matrix_3x2_f","dxgi1_3/DXGI_MATRIX_3X2_F"]
 old-location: direct3ddxgi\dxgi_matrix_3x2_f.htm
 tech.root: direct3ddxgi
 ms.assetid: 5EA0FAD4-5F19-4E5A-97D4-11AE750E8560

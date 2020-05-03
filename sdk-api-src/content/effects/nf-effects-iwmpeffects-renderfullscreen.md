@@ -1,7 +1,7 @@
 ---
 UID: NF:effects.IWMPEffects.RenderFullScreen
 title: IWMPEffects::RenderFullScreen (effects.h)
-description: The RenderFullScreen method renders the visualization in full-screen mode.
+description: The RenderFullScreen method renders the visualization in full-screen mode.helpviewer_keywords: ["EffectsRenderFullScreen","IWMPEffects interface [Windows Media Player]","RenderFullScreen method","IWMPEffects.RenderFullScreen","IWMPEffects::RenderFullScreen","RenderFullScreen","RenderFullScreen method [Windows Media Player]","RenderFullScreen method [Windows Media Player]","IWMPEffects interface","effects/IWMPEffects::RenderFullScreen","wmp.iwmpeffects_renderfullscreen"]
 old-location: wmp\iwmpeffects_renderfullscreen.htm
 tech.root: WMP
 ms.assetid: 08b170fd-b40a-4beb-8c18-0a011b9486af

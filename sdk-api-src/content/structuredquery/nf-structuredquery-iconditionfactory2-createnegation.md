@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory2.CreateNegation
 title: IConditionFactory2::CreateNegation (structuredquery.h)
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
+helpviewer_keywords: ["CreateNegation","CreateNegation method [search]","CreateNegation method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateNegation method","IConditionFactory2.CreateNegation","IConditionFactory2::CreateNegation","_search_IConditionFactory2_CreateNegation","search._search_IConditionFactory2_CreateNegation","structuredquery/IConditionFactory2::CreateNegation"]
 old-location: search\_search_IConditionFactory2_CreateNegation.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createnegation.htm
@@ -118,11 +119,11 @@ Applications that need to execute queries based on the condition tree would typi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

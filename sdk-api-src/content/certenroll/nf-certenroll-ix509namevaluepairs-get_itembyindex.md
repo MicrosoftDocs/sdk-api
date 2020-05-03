@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.get_ItemByIndex
 title: IX509NameValuePairs::get_ItemByIndex (certenroll.h)
-description: Retrieves an IX509NameValuePair object from the collection by index number.
+description: Retrieves an IX509NameValuePair object from the collection by index number.helpviewer_keywords: ["IX509NameValuePairs interface [Security]","ItemByIndex property","IX509NameValuePairs.ItemByIndex","IX509NameValuePairs.get_ItemByIndex","IX509NameValuePairs::ItemByIndex","IX509NameValuePairs::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IX509NameValuePairs interface","certenroll/IX509NameValuePairs::ItemByIndex","certenroll/IX509NameValuePairs::get_ItemByIndex","get_ItemByIndex","security.ix509namevaluepairs_itembyindex_property"]
 old-location: security\ix509namevaluepairs_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 76c00e96-e563-45e1-a579-9efafbc227b2

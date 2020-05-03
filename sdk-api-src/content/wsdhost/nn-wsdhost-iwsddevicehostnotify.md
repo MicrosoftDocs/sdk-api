@@ -1,7 +1,7 @@
 ---
 UID: NN:wsdhost.IWSDDeviceHostNotify
 title: IWSDDeviceHostNotify (wsdhost.h)
-description: Provides device-related notifications to an instance of an IWSDDeviceHost object.
+description: Provides device-related notifications to an instance of an IWSDDeviceHost object.helpviewer_keywords: ["IWSDDeviceHostNotify","IWSDDeviceHostNotify interface","IWSDDeviceHostNotify interface","described","ncd.iwsddevicehostnotify","wsdhost/IWSDDeviceHostNotify"]
 old-location: ncd\iwsddevicehostnotify.htm
 tech.root: WsdApi
 ms.assetid: e68e347d-5251-4931-bbcc-7a92b46bf4bd

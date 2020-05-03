@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinState
 title: IMbnPinManager::GetPinState (mbnapi.h)
-description: Gets the current PIN state of the device.
+description: Gets the current PIN state of the device.helpviewer_keywords: ["GetPinState","GetPinState method [Microsoft Broadband Networks]","GetPinState method [Microsoft Broadband Networks]","IMbnPinManager interface","IMbnPinManager interface [Microsoft Broadband Networks]","GetPinState method","IMbnPinManager.GetPinState","IMbnPinManager::GetPinState","mbn.imbnpinmanager_getpinstate","mbnapi/IMbnPinManager::GetPinState"]
 old-location: mbn\imbnpinmanager_getpinstate.htm
 tech.root: mbn
 ms.assetid: 34378403-cf58-4ada-9eb6-f5dad5f69bc9

@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Initialize
 title: IWTSPlugin::Initialize (tsvirtualchannels.h)
-description: Used for the first call that is made from the client to the plug-in.
+description: Used for the first call that is made from the client to the plug-in.helpviewer_keywords: ["IWTSPlugin interface [Remote Desktop Services]","Initialize method","IWTSPlugin.Initialize","IWTSPlugin::Initialize","Initialize","Initialize method [Remote Desktop Services]","Initialize method [Remote Desktop Services]","IWTSPlugin interface","termserv.iwtsplugin_initialize","tsvirtualchannels/IWTSPlugin::Initialize"]
 old-location: termserv\iwtsplugin_initialize.htm
 tech.root: TermServ
 ms.assetid: 9216a069-4fd0-4e88-9cfa-050460b49906

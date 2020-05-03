@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveStylusAsyncPlugin
 title: IRealTimeStylus::RemoveStylusAsyncPlugin (rtscom.h)
-description: Removes and optionally returns an IStylusAsyncPlugin with the specified index in the asynchronous plug-in collection.
+description: Removes and optionally returns an IStylusAsyncPlugin with the specified index in the asynchronous plug-in collection.helpviewer_keywords: ["9c993147-3711-45ad-8996-e1434fd4b657","IRealTimeStylus interface [Tablet PC]","RemoveStylusAsyncPlugin method","IRealTimeStylus.RemoveStylusAsyncPlugin","IRealTimeStylus::RemoveStylusAsyncPlugin","RemoveStylusAsyncPlugin","RemoveStylusAsyncPlugin method [Tablet PC]","RemoveStylusAsyncPlugin method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::RemoveStylusAsyncPlugin","tablet.irealtimestylus_removestylusasyncplugin"]
 old-location: tablet\irealtimestylus_removestylusasyncplugin.htm
 tech.root: tablet
 ms.assetid: 9c993147-3711-45ad-8996-e1434fd4b657

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackage
 title: IAppxPackageEditor::UpdatePackage (appxpackaging.h)
-description: Updates an app package.
+description: Updates an app package.helpviewer_keywords: ["IAppxPackageEditor interface [App packaging and management]","UpdatePackage method","IAppxPackageEditor.UpdatePackage","IAppxPackageEditor::UpdatePackage","UpdatePackage","UpdatePackage method [App packaging and management]","UpdatePackage method [App packaging and management]","IAppxPackageEditor interface","appxpackaging/IAppxPackageEditor::UpdatePackage","appxpkg.iappxpackageeditor_updatepackage"]
 old-location: appxpkg\iappxpackageeditor_updatepackage.htm
 tech.root: appxpkg
 ms.assetid: 768D2997-A374-46FF-BA0D-14B266D3C83D

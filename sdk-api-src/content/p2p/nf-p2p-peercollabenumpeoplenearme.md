@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabEnumPeopleNearMe
 title: PeerCollabEnumPeopleNearMe function (p2p.h)
-description: Returns a handle to an enumerated set that contains all of the peer collaboration network &#0034;people near me&#0034; endpoints currently available on the subnet of the calling peer.
+description: Returns a handle to an enumerated set that contains all of the peer collaboration network &#0034;people near me&#0034; endpoints currently available on the subnet of the calling peer.helpviewer_keywords: ["PeerCollabEnumPeopleNearMe","PeerCollabEnumPeopleNearMe function [Peer Networking]","p2p.peercollabenumpeoplenearme","p2p/PeerCollabEnumPeopleNearMe"]
 old-location: p2p\peercollabenumpeoplenearme.htm
 tech.root: P2PSdk
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f

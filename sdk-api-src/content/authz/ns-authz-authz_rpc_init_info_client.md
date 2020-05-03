@@ -1,7 +1,7 @@
 ---
 UID: NS:authz._AUTHZ_RPC_INIT_INFO_CLIENT
 title: AUTHZ_RPC_INIT_INFO_CLIENT (authz.h)
-description: Initializes a remote resource manager for a client.
+description: Initializes a remote resource manager for a client.helpviewer_keywords: ["*PAUTHZ_RPC_INIT_INFO_CLIENT","AUTHZ_RPC_INIT_INFO_CLIENT","AUTHZ_RPC_INIT_INFO_CLIENT structure [Security]","PAUTHZ_RPC_INIT_INFO_CLIENT","PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security]","authz/AUTHZ_RPC_INIT_INFO_CLIENT","authz/PAUTHZ_RPC_INIT_INFO_CLIENT","security.authz_rpc_init_info_client"]
 old-location: security\authz_rpc_init_info_client.htm
 tech.root: SecAuthZ
 ms.assetid: 6859A0CB-F88E-42BF-A350-293D28E908DD

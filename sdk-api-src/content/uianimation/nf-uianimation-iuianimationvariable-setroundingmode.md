@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationVariable.SetRoundingMode
 title: IUIAnimationVariable::SetRoundingMode (uianimation.h)
 description: Specifies the rounding mode for the animation variable.
+helpviewer_keywords: ["IUIAnimationVariable interface [Windows Animation]","SetRoundingMode method","IUIAnimationVariable.SetRoundingMode","IUIAnimationVariable::SetRoundingMode","SetRoundingMode","SetRoundingMode method [Windows Animation]","SetRoundingMode method [Windows Animation]","IUIAnimationVariable interface","uianimation.iuianimationvariable_setroundingmode","uianimation/IUIAnimationVariable::SetRoundingMode"]
 old-location: uianimation\iuianimationvariable_setroundingmode.htm
 tech.root: UIAnimation
 ms.assetid: e8c86195-14a1-4535-9fc2-4992c8090e79
@@ -108,7 +109,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimat
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

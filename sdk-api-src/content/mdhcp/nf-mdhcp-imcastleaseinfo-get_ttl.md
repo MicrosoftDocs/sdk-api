@@ -1,7 +1,7 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_TTL
 title: IMcastLeaseInfo::get_TTL (mdhcp.h)
-description: The get_TTL method obtains the time to live (TTL) value associated with this lease.
+description: The get_TTL method obtains the time to live (TTL) value associated with this lease.helpviewer_keywords: ["IMcastLeaseInfo interface [TAPI 2.2]","get_TTL method","IMcastLeaseInfo.get_TTL","IMcastLeaseInfo::get_TTL","_tapi3_imcastleaseinfo_get_ttl","get_TTL","get_TTL method [TAPI 2.2]","get_TTL method [TAPI 2.2]","IMcastLeaseInfo interface","mdhcp/IMcastLeaseInfo::get_TTL","tapi3.imcastleaseinfo_get_ttl"]
 old-location: tapi3\imcastleaseinfo_get_ttl.htm
 tech.root: Tapi
 ms.assetid: 393b9d6c-430c-42f8-88fa-4bf5c9c04c1f

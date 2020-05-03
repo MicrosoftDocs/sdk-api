@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.AddDifferencedFilesByLastModifyLSN
 title: IVssComponent::AddDifferencedFilesByLastModifyLSN (vswriter.h)
-description: Not supported.
+description: Not supported.helpviewer_keywords: ["AddDifferencedFilesByLastModifyLSN","AddDifferencedFilesByLastModifyLSN method [VSS]","AddDifferencedFilesByLastModifyLSN method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","AddDifferencedFilesByLastModifyLSN method","IVssComponent.AddDifferencedFilesByLastModifyLSN","IVssComponent::AddDifferencedFilesByLastModifyLSN","_win32_ivsscomponent_adddifferencedfilesbylastmodifylsn","base.ivsscomponent_adddifferencedfilesbylastmodifylsn","vswriter/IVssComponent::AddDifferencedFilesByLastModifyLSN"]
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifylsn.htm
 tech.root: VSS
 ms.assetid: e708a6e9-9e4e-4620-8251-65b14a7bc6ee

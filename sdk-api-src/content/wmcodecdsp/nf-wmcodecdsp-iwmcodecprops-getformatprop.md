@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetFormatProp
 title: IWMCodecProps::GetFormatProp (wmcodecdsp.h)
-description: Retrieves a format property for an output media type. Use this method to get information about enumerated audio formats.
+description: Retrieves a format property for an output media type. Use this method to get information about enumerated audio formats.helpviewer_keywords: ["GetFormatProp","GetFormatProp method [Media Foundation]","GetFormatProp method [Media Foundation]","IWMCodecProps interface","IWMCodecProps interface [Media Foundation]","GetFormatProp method","IWMCodecProps.GetFormatProp","IWMCodecProps::GetFormatProp","codecapi.iwmcodecpropsgetformatprop","g_wszSpeechFormatCaps","mf.iwmcodecpropsgetformatprop","wmcodecdsp/IWMCodecProps::GetFormatProp"]
 old-location: mf\iwmcodecpropsgetformatprop.htm
 tech.root: medfound
 ms.assetid: b9808c67-915c-4767-9107-8d3a38bb9319

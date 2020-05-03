@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddControlItem
 title: IFileDialogCustomize::AddControlItem (shobjidl_core.h)
-description: Adds an item to a container control in the dialog.
+description: Adds an item to a container control in the dialog.helpviewer_keywords: ["AddControlItem","AddControlItem method [Windows Shell]","AddControlItem method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddControlItem method","IFileDialogCustomize.AddControlItem","IFileDialogCustomize::AddControlItem","shell.IFileDialogCustomize_AddControlItem","shell_IFileDialogCustomize_AddControlItem","shobjidl_core/IFileDialogCustomize::AddControlItem"]
 old-location: shell\IFileDialogCustomize_AddControlItem.htm
 tech.root: shell
 ms.assetid: 56d7d0df-0c3e-4bc3-b91e-3b191f5dad76

@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmReportRunningStatus
 title: FsrmReportRunningStatus (fsrmenums.h)
-description: Defines the running states a for a report job.
+description: Defines the running states a for a report job.helpviewer_keywords: ["FsrmReportRunningStatus","FsrmReportRunningStatus enumeration [File Server Resource Manager]","FsrmReportRunningStatus_NotRunning","FsrmReportRunningStatus_Queued","FsrmReportRunningStatus_Running","FsrmReportRunningStatus_Unknown","fs.fsrmreportrunningstatus","fsrm.fsrmreportrunningstatus","fsrmenums/FsrmReportRunningStatus","fsrmenums/FsrmReportRunningStatus_NotRunning","fsrmenums/FsrmReportRunningStatus_Queued","fsrmenums/FsrmReportRunningStatus_Running","fsrmenums/FsrmReportRunningStatus_Unknown"]
 old-location: fsrm\fsrmreportrunningstatus.htm
 tech.root: fsrm
 ms.assetid: c14ba641-4f85-4a75-9d5c-d9381506c946

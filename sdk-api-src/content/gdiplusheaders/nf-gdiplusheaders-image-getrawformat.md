@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetRawFormat
 title: Image::GetRawFormat (gdiplusheaders.h)
-description: The Image::GetRawFormat method gets a globally unique identifier ( GUID) that identifies the format of this Image object. GUIDs that identify various file formats are defined in Gdiplusimaging.h.
+description: The Image::GetRawFormat method gets a globally unique identifier ( GUID) that identifies the format of this Image object. GUIDs that identify various file formats are defined in Gdiplusimaging.h.helpviewer_keywords: ["GetRawFormat","GetRawFormat method [GDI+]","GetRawFormat method [GDI+]","Image class","Image class [GDI+]","GetRawFormat method","Image.GetRawFormat","Image::GetRawFormat","_gdiplus_CLASS_Image_GetRawFormat_format_","gdiplus._gdiplus_CLASS_Image_GetRawFormat_format_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetRawFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getrawformat.htm

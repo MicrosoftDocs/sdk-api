@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerSetUIContext
 title: EapPeerSetUIContext function (eapmethodpeerapis.h)
 description: Provides a user interface context to the EAP method. This function is called after the UI has been raised through the EapPeerGetUIContext function.
+helpviewer_keywords: ["EapPeerSetUIContext","EapPeerSetUIContext function [EAPHost]","eaphost.eappeersetuicontext","eapmethodpeerapis/EapPeerSetUIContext"]
 old-location: eaphost\eappeersetuicontext.htm
 tech.root: eaphost
 ms.assetid: 90a3844b-5fe9-44ad-981a-0aae643b2390
@@ -74,7 +75,7 @@ A pointer to an address that contains a byte buffer with the new supplicant UI c
 
 ### -param pEapOutput [in]
 
- A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+ A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 ### -param ppEapError [out]
@@ -96,7 +97,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

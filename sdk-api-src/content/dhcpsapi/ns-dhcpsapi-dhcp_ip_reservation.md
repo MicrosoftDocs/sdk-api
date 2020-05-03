@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION
 title: DHCP_IP_RESERVATION (dhcpsapi.h)
-description: The DHCP_IP_RESERVATION structure defines a client IP reservation.
+description: The DHCP_IP_RESERVATION structure defines a client IP reservation.helpviewer_keywords: ["*LPDHCP_IP_RESERVATION","DHCP_IP_RESERVATION","DHCP_IP_RESERVATION structure [DHCP]","LPDHCP_IP_RESERVATION","LPDHCP_IP_RESERVATION structure pointer [DHCP]","dhcp.dhcp_ip_reservation","dhcpsapi/LPDHCP_IP_RESERVATION","dhcpsapi/_DHCP_IP_RESERVATION"]
 old-location: dhcp\dhcp_ip_reservation.htm
 tech.root: DHCP
 ms.assetid: 35d7ebc7-790b-4453-a9d4-b485f0adac46

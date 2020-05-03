@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoWindow
 title: IMFVideoDisplayControl::SetVideoWindow (evr.h)
-description: Sets the clipping window for the video.
+description: Sets the clipping window for the video.helpviewer_keywords: ["50bc345c-ee44-4174-9b1a-e406041096b5","IMFVideoDisplayControl interface [Media Foundation]","SetVideoWindow method","IMFVideoDisplayControl.SetVideoWindow","IMFVideoDisplayControl::SetVideoWindow","SetVideoWindow","SetVideoWindow method [Media Foundation]","SetVideoWindow method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetVideoWindow","mf.imfvideodisplaycontrol_setvideowindow"]
 old-location: mf\imfvideodisplaycontrol_setvideowindow.htm
 tech.root: medfound
 ms.assetid: 50bc345c-ee44-4174-9b1a-e406041096b5

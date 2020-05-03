@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivate
 title: IVdsHwProviderPrivate (vdshwprv.h)
-description: Provides a method that enables VDS to determine whether the hardware provider manages a specified LUN.
+description: Provides a method that enables VDS to determine whether the hardware provider manages a specified LUN.helpviewer_keywords: ["IVdsHwProviderPrivate","IVdsHwProviderPrivate interface [VDS]","IVdsHwProviderPrivate interface [VDS]","described","base.ivdshwproviderprivate","vdshwprv/IVdsHwProviderPrivate"]
 old-location: base\ivdshwproviderprivate.htm
 tech.root: VDS
 ms.assetid: 7e6dbf9e-9060-46bf-be11-9d9d640a3d36

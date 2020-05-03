@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cleanup
 title: INetDiagHelper::Cleanup (ndhelper.h)
-description: Allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
+description: Allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.helpviewer_keywords: ["Cleanup","Cleanup method [NDF]","Cleanup method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","Cleanup method","INetDiagHelper.Cleanup","INetDiagHelper::Cleanup","ndf.inetdiaghelpe_cleanup","ndhelper/INetDiagHelper::Cleanup"]
 old-location: ndf\inetdiaghelpe_cleanup.htm
 tech.root: NDF
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4

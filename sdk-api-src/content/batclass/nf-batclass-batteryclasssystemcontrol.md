@@ -1,7 +1,7 @@
 ---
 UID: NF:batclass.BatteryClassSystemControl
 title: BatteryClassSystemControl function (batclass.h)
-description: The BatteryClassSystemControl routine processes WMI IRPs on behalf of a battery miniclass driver.
+description: The BatteryClassSystemControl routine processes WMI IRPs on behalf of a battery miniclass driver.helpviewer_keywords: ["BatteryClassSystemControl","BatteryClassSystemControl routine [Battery Devices]","bat-rtn_4e2bda63-ff7a-420f-96af-fa0d5041479b.xml","batclass/BatteryClassSystemControl","battery.batteryclasssystemcontrol"]
 old-location: battery\batteryclasssystemcontrol.htm
 tech.root: battery
 ms.assetid: d462c51d-e175-4fc8-88b9-515ba648fab4

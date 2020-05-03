@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get__NewEnum
 title: ISecurityCallersColl::get__NewEnum (comsvcs.h)
-description: Retrieves an enumerator for the security callers collection.
+description: Retrieves an enumerator for the security callers collection.helpviewer_keywords: ["ISecurityCallersColl interface [COM+]","get__NewEnum method","ISecurityCallersColl.get__NewEnum","ISecurityCallersColl::get__NewEnum","_cos_ISecurityCallersColl_get__NewEnum","comsvcs/ISecurityCallersColl::get__NewEnum","cos.isecuritycallerscoll_get__newenum","get__NewEnum","get__NewEnum method [COM+]","get__NewEnum method [COM+]","ISecurityCallersColl interface"]
 old-location: cos\isecuritycallerscoll_get__newenum.htm
 tech.root: cossdk
 ms.assetid: 80fb8fe7-0f8f-497c-a046-82f19d6469d8

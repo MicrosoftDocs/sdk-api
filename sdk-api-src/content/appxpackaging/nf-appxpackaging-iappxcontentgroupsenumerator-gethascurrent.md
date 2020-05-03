@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupsEnumerator.GetHasCurrent
 title: IAppxContentGroupsEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a content group at the current position of the enumerator.
+description: Determines whether there is a content group at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxContentGroupsEnumerator interface","IAppxContentGroupsEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxContentGroupsEnumerator.GetHasCurrent","IAppxContentGroupsEnumerator::GetHasCurrent","appxpackaging/IAppxContentGroupsEnumerator::GetHasCurrent","appxpkg.iappxcontentgroupsenumerator_gethascurrent"]
 old-location: appxpkg\iappxcontentgroupsenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: 5935EA6A-AD7F-4462-B539-A01439D0A373

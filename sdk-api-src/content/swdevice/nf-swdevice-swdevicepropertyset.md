@@ -1,7 +1,7 @@
 ---
 UID: NF:swdevice.SwDevicePropertySet
 title: SwDevicePropertySet function (swdevice.h)
-description: Sets properties on a software device.
+description: Sets properties on a software device.helpviewer_keywords: ["SwDevicePropertySet","SwDevicePropertySet function","swdevice.swdevicepropertyset","swdevice/SwDevicePropertySet"]
 old-location: swdevice\swdevicepropertyset.htm
 tech.root: swdevice
 ms.assetid: 6EA107FE-F1FD-4D19-82C8-00FE0D98A9EA

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSAWaitForMultipleEvents
 title: WSAWaitForMultipleEvents function (winsock2.h)
-description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
+description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.helpviewer_keywords: ["WSAWaitForMultipleEvents","WSAWaitForMultipleEvents function [Winsock]","_win32_wsawaitformultipleevents_2","winsock.wsawaitformultipleevents_2","winsock2/WSAWaitForMultipleEvents"]
 old-location: winsock\wsawaitformultipleevents_2.htm
 tech.root: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8

@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackage
 title: IXpsOMPackage (xpsobjectmodel.h)
-description: Provides the top-level entry into the XPS object model tree.
+description: Provides the top-level entry into the XPS object model tree.helpviewer_keywords: ["IXpsOMPackage","IXpsOMPackage interface [XPS Documents and Packaging]","IXpsOMPackage interface [XPS Documents and Packaging]","described","xps.ixpsompackage","xpsobjectmodel/IXpsOMPackage"]
 old-location: xps\ixpsompackage.htm
 tech.root: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3

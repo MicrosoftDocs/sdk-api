@@ -1,7 +1,7 @@
 ---
 UID: NF:dciman.DCIDestroy
 title: DCIDestroy function (dciman.h)
-description: Destroys a primary surface on the display device.
+description: Destroys a primary surface on the display device.helpviewer_keywords: ["DCIDestroy","DCIDestroy function [Windows API]","_dciman_dcidestroy","dciman/DCIDestroy","winprog._dciman_dcidestroy","winui._dciman_dcidestroy"]
 old-location: winprog\_dciman_dcidestroy.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcidestroy.htm

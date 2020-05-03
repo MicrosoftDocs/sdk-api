@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectRenderTargetViewVariable
 title: ID3D10EffectRenderTargetViewVariable (d3d10effect.h)
-description: A render-target-view interface accesses a render target.
+description: A render-target-view interface accesses a render target.helpviewer_keywords: ["9f15e11c-b222-431b-7b07-10de10ab1438","ID3D10EffectRenderTargetViewVariable","ID3D10EffectRenderTargetViewVariable interface [Direct3D 10]","ID3D10EffectRenderTargetViewVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectRenderTargetViewVariable","direct3d10.id3d10effectrendertargetviewvariable"]
 old-location: direct3d10\id3d10effectrendertargetviewvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable.htm

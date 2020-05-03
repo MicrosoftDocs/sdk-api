@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileSize
 title: IDWriteFontFaceReference::GetFileSize (dwrite_3.h)
-description: Get the total size of the font face in bytes.
+description: Get the total size of the font face in bytes.helpviewer_keywords: ["GetFileSize","GetFileSize method [Direct Write]","GetFileSize method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetFileSize method","IDWriteFontFaceReference.GetFileSize","IDWriteFontFaceReference::GetFileSize","directwrite.idwritefontfacereference_getfilesize","dwrite_3/IDWriteFontFaceReference::GetFileSize"]
 old-location: directwrite\idwritefontfacereference_getfilesize.htm
 tech.root: DirectWrite
 ms.assetid: 7988e724-2ccb-b182-8262-dacee1aa1f96

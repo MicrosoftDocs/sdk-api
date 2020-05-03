@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite_1.DWRITE_SCRIPT_PROPERTIES
 title: DWRITE_SCRIPT_PROPERTIES (dwrite_1.h)
-description: The DWRITE_SCRIPT_PROPERTIES structure specifies script properties for caret navigation and justification.
+description: The DWRITE_SCRIPT_PROPERTIES structure specifies script properties for caret navigation and justification.helpviewer_keywords: ["DWRITE_SCRIPT_PROPERTIES","DWRITE_SCRIPT_PROPERTIES structure [Direct Write]","directwrite.dwrite_script_properties","dwrite_1/DWRITE_SCRIPT_PROPERTIES"]
 old-location: directwrite\dwrite_script_properties.htm
 tech.root: DirectWrite
 ms.assetid: 5210C04E-618B-4FE9-A6FC-6F0FF17A64D5

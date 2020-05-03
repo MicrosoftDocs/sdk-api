@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN
 title: PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN (winbio_adapter.h)
-description: Sets the extended default and per-user antispoofing policies used by the engine adapter.
+description: Sets the extended default and per-user antispoofing policies used by the engine adapter.helpviewer_keywords: ["EngineAdapterSetAccountPolicy","EngineAdapterSetAccountPolicy callback function [Windows Biometric Framework API]","PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN","PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback","secbiomet.engineadaptersetaccountpolicy","winbio_adapter/EngineAdapterSetAccountPolicy"]
 old-location: secbiomet\engineadaptersetaccountpolicy.htm
 tech.root: SecBioMet
 ms.assetid: 9D2C6CF9-A069-40AD-9BB7-81797F7B2FE6

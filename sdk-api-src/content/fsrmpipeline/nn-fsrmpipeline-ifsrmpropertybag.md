@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyBag
 title: IFsrmPropertyBag (fsrmpipeline.h)
-description: Contains the classification properties for a file.
+description: Contains the classification properties for a file.helpviewer_keywords: ["IFsrmPropertyBag","IFsrmPropertyBag interface [File Server Resource Manager]","IFsrmPropertyBag interface [File Server Resource Manager]","described","fs.ifsrmpropertybag","fsrm.ifsrmpropertybag","fsrm/IFsrmPropertyBag"]
 old-location: fsrm\ifsrmpropertybag.htm
 tech.root: fsrm
 ms.assetid: 237f024d-2b1d-45d5-a63d-c530426278e6

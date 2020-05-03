@@ -2,6 +2,7 @@
 UID: NN:xpsobjectmodel.IXpsOMGeometryFigure
 title: IXpsOMGeometryFigure (xpsobjectmodel.h)
 description: Describes one portion of the path or clipping region that is specified by an IXpsOMGeometry interface.
+helpviewer_keywords: ["IXpsOMGeometryFigure","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","described","xps.ixpsomgeometryfigure","xpsobjectmodel/IXpsOMGeometryFigure"]
 old-location: xps\ixpsomgeometryfigure.htm
 tech.root: printdocs
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
@@ -136,7 +137,7 @@ Gets the number of segment data points in the figure.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentstrokepattern">GetSegmentStrokePattern</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
             
 
 </td>
@@ -277,7 +278,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a>
  
 
  

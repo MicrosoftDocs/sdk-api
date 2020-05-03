@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_GETSCANLINEDATA
 title: DD_GETSCANLINEDATA (ddrawint.h)
-description: The DD_GETSCANLINEDATA structure contains the members required to query and return the number of the current scan line.
+description: The DD_GETSCANLINEDATA structure contains the members required to query and return the number of the current scan line.helpviewer_keywords: ["*PDD_GETSCANLINEDATA","DD_GETSCANLINEDATA","DD_GETSCANLINEDATA structure [Display Devices]","ddrawint/DD_GETSCANLINEDATA","ddstrcts_f7654548-917a-4c6d-a15a-0f09bca64b5d.xml","display.dd_getscanlinedata"]
 old-location: display\dd_getscanlinedata.htm
 tech.root: display
 ms.assetid: 92433daa-43da-40d3-a319-e0d70abd3cb0

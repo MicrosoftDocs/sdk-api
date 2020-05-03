@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothFindNextDevice
 title: BluetoothFindNextDevice function (bluetoothapis.h)
 description: The BluetoothFindNextDevice function finds the next Bluetooth device.
+helpviewer_keywords: ["BluetoothFindNextDevice","BluetoothFindNextDevice function [Bluetooth]","bluetooth.bluetoothfindnextdevice","bluetoothapis/BluetoothFindNextDevice"]
 old-location: bluetooth\bluetoothfindnextdevice.htm
 tech.root: bluetooth
 ms.assetid: a17d87b2-91d7-4a03-bff7-9bc0ee48c3b4
@@ -66,7 +67,7 @@ Handle for the query obtained in a previous call to the <a href="https://docs.mi
 
 ### -param pbtdi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure into which information about the next Bluetooth device found is placed. The <b>dwSize</b> member of the <b>BLUETOOTH_DEVICE_INFO</b> structure pointed to by <i>pbtdi</i> must match the size of the structure, or the call to <b>BluetoothFindNextDevice</b> fails.
+Pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure into which information about the next Bluetooth device found is placed. The <b>dwSize</b> member of the <b>BLUETOOTH_DEVICE_INFO</b> structure pointed to by <i>pbtdi</i> must match the size of the structure, or the call to <b>BluetoothFindNextDevice</b> fails.
 
 
 ## -returns
@@ -124,11 +125,11 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

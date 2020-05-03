@@ -1,7 +1,7 @@
 ---
 UID: NN:icontact.IContact
 title: IContact (icontact.h)
-description: Do not use. Defines methods for reading and writing properties for a single contact.
+description: Do not use. Defines methods for reading and writing properties for a single contact.helpviewer_keywords: ["IContact","IContact interface [Windows Contacts]","IContact interface [Windows Contacts]","described","_wincontacts_IContact","icontact/IContact","wincontacts._wincontacts_IContact"]
 old-location: wincontacts\_wincontacts_IContact.htm
 tech.root: wincontacts
 ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486

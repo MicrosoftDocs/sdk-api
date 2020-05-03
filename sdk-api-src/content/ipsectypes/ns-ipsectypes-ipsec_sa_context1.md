@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT1_
 title: IPSEC_SA_CONTEXT1 (ipsectypes.h)
 description: Encapsulates an inbound and outbound security association (SA) pair.
+helpviewer_keywords: ["IPSEC_SA_CONTEXT1","IPSEC_SA_CONTEXT1 structure [Filtering]","fwp.ipsec_sa_context1","ipsectypes/IPSEC_SA_CONTEXT1"]
 old-location: fwp\ipsec_sa_context1.htm
 tech.root: fwp
 ms.assetid: a3e210a7-cd3a-42fc-b3a0-7df9ad6778af
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_SA_CONTEXT1</b> structure encapsulates an inbound and outbound security association (SA) pair.
-[IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)a> is available.</div><div> </div>
+[IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,12 +65,12 @@ Identifies the SA context.
 
 ### -field inboundSa
 
-An [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure that contains information about the inbound SA.
+An [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1) structure that contains information about the inbound SA.
 
 
 ### -field outboundSa
 
-An [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure that contains information about the outbound SA.
+An [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1) structure that contains information about the outbound SA.
 
 
 ## -see-also

@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IResultOwnerData.CacheHint
 title: IResultOwnerData::CacheHint (mmc.h)
-description: Called when a virtual list is about to request display information for a range of items, allowing the snap-in to collect the information ahead of time in cases where an optimization can be made.
+description: Called when a virtual list is about to request display information for a range of items, allowing the snap-in to collect the information ahead of time in cases where an optimization can be made.helpviewer_keywords: ["CacheHint","CacheHint method [MMC]","CacheHint method [MMC]","IResultOwnerData interface","IResultOwnerData interface [MMC]","CacheHint method","IResultOwnerData.CacheHint","IResultOwnerData::CacheHint","_slate_iresultownerdata_cachehint","mmc.iresultownerdata_cachehint","mmc/IResultOwnerData::CacheHint"]
 old-location: mmc\iresultownerdata_cachehint.htm
 tech.root: mmc
 ms.assetid: 8d63e5d7-f342-409a-abea-0305129ba060

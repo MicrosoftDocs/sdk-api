@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.QueueEventParamVar
 title: IMFMediaEventQueue::QueueEventParamVar (mfobjects.h)
-description: Creates an event, sets a PROPVARIANT as the event data, and puts the event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::QueueEvent.
+description: Creates an event, sets a PROPVARIANT as the event data, and puts the event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::QueueEvent.helpviewer_keywords: ["IMFMediaEventQueue interface [Media Foundation]","QueueEventParamVar method","IMFMediaEventQueue.QueueEventParamVar","IMFMediaEventQueue::QueueEventParamVar","QueueEventParamVar","QueueEventParamVar method [Media Foundation]","QueueEventParamVar method [Media Foundation]","IMFMediaEventQueue interface","e2bafeca-76e7-4df4-94a7-86aef04f3a35","mf.imfmediaeventqueue_queueeventparamvar","mfobjects/IMFMediaEventQueue::QueueEventParamVar"]
 old-location: mf\imfmediaeventqueue_queueeventparamvar.htm
 tech.root: medfound
 ms.assetid: e2bafeca-76e7-4df4-94a7-86aef04f3a35

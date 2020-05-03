@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.StrokePath
 title: StrokePath function (wingdi.h)
-description: The StrokePath function renders the specified path by using the current pen.
+description: The StrokePath function renders the specified path by using the current pen.helpviewer_keywords: ["StrokePath","StrokePath function [Windows GDI]","_win32_StrokePath","gdi.strokepath","wingdi/StrokePath"]
 old-location: gdi\strokepath.htm
 tech.root: gdi
 ms.assetid: 5a9f1509-0a69-4db8-8d74-9bf360aca64d

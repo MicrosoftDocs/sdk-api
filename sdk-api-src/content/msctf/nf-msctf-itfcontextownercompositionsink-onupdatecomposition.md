@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnUpdateComposition
 title: ITfContextOwnerCompositionSink::OnUpdateComposition (msctf.h)
-description: ITfContextOwnerCompositionSink::OnUpdateComposition method
+description: ITfContextOwnerCompositionSink::OnUpdateComposition methodhelpviewer_keywords: ["ITfContextOwnerCompositionSink interface [Text Services Framework]","OnUpdateComposition method","ITfContextOwnerCompositionSink.OnUpdateComposition","ITfContextOwnerCompositionSink::OnUpdateComposition","OnUpdateComposition","OnUpdateComposition method [Text Services Framework]","OnUpdateComposition method [Text Services Framework]","ITfContextOwnerCompositionSink interface","_tsf_itfcontextownercompositionsink_onupdatecomposition_ref","msctf/ITfContextOwnerCompositionSink::OnUpdateComposition","tsf.itfcontextownercompositionsink_onupdatecomposition"]
 old-location: tsf\itfcontextownercompositionsink_onupdatecomposition.htm
 tech.root: TSF
 ms.assetid: 18c13a32-918b-4178-a72d-0f7d10c2a68d

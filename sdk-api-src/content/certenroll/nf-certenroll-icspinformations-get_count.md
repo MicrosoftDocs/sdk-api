@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICspInformations.get_Count
 title: ICspInformations::get_Count (certenroll.h)
-description: Retrieves the number of ICspInformation objects in the collection.
+description: Retrieves the number of ICspInformation objects in the collection.helpviewer_keywords: ["Count property [Security]","Count property [Security]","ICspInformations interface","ICspInformations interface [Security]","Count property","ICspInformations.Count","ICspInformations.get_Count","ICspInformations::Count","ICspInformations::get_Count","certenroll/ICspInformations::Count","certenroll/ICspInformations::get_Count","get_Count","security.icspinformations_count_property"]
 old-location: security\icspinformations_count_property.htm
 tech.root: seccertenroll
 ms.assetid: 7221e564-07c4-47ab-bb32-c1e94406eab9

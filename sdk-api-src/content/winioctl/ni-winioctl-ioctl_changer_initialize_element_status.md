@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 title: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 description: Initializes the status of all elements or the specified elements of a particular type.
+helpviewer_keywords: ["IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS","IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control","IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code","_win32_ioctl_changer_initialize_element_status","base.ioctl_changer_initialize_element_status","winioctl/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS"]
 old-location: base\ioctl_changer_initialize_element_status.htm
 tech.root: devio
 ms.assetid: be054a22-cde4-4efd-bd66-eb67b007fd19
@@ -146,7 +147,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-ioctl_changer_initialize_element_status">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+<a href="/windows/win32/api/winioctl/ni-winioctl-ioctl_changer_initialize_element_status">CHANGER_INITIALIZE_ELEMENT_STATUS</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:ras._RASIKEV2_PROJECTION_INFO
 title: RASIKEV2_PROJECTION_INFO (ras.h)
-description: Contains projection information obtained during Internet Key Exchange (IKE) negotiation.
+description: Contains projection information obtained during Internet Key Exchange (IKE) negotiation.helpviewer_keywords: ["*PRASIKEV2_PROJECTION_INFO","IPSEC_CIPHER_TYPE_3DES","IPSEC_CIPHER_TYPE_AES_128","IPSEC_CIPHER_TYPE_AES_192","IPSEC_CIPHER_TYPE_AES_256","PRASIKEV2_PROJECTION_INFO","PRASIKEV2_PROJECTION_INFO structure pointer [RAS]","RASIKEV2_PROJECTION_INFO","RASIKEV2_PROJECTION_INFO structure [RAS]","RASIKEv2_AUTH_EAP","RASIKEv2_AUTH_MACHINECERTIFICATES","RASIKEv2_FLAGS_BEHIND_NAT","RASIKEv2_FLAGS_MOBIKESUPPORTED","RASIKEv2_FLAGS_SERVERBEHIND_NAT","ras/PRASIKEV2_PROJECTION_INFO","ras/RASIKEV2_PROJECTION_INFO","rras.rasikev2_projection_info"]
 old-location: rras\rasikev2_projection_info.htm
 tech.root: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7

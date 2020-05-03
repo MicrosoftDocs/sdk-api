@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRpcOptions.Set
 title: IRpcOptions::Set (objidl.h)
-description: Sets the value of an RPC binding option property.
+description: Sets the value of an RPC binding option property.helpviewer_keywords: ["IRpcOptions interface [COM]","Set method","IRpcOptions.Set","IRpcOptions::Set","Set","Set method [COM]","Set method [COM]","IRpcOptions interface","_com_irpcoptions_set","com.irpcoptions_set","objidlbase/IRpcOptions::Set"]
 old-location: com\irpcoptions_set.htm
 tech.root: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc

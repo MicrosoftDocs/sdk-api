@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.BusNumber_Range_s
 title: BUSNUMBER_RANGE (cfgmgr32.h)
 description: The BUSNUMBER_RANGE structure specifies a resource requirements list that describes bus number usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PBUSNUMBER_RANGE","BUSNUMBER_RANGE","BUSNUMBER_RANGE structure [Device and Driver Installation]","PBUSNUMBER_RANGE","PBUSNUMBER_RANGE structure pointer [Device and Driver Installation]","cfgmgr32/BUSNUMBER_RANGE","cfgmgr32/PBUSNUMBER_RANGE","cfgmgrst_6d1e1291-b14d-4eca-9647-014001edd50a.xml","devinst.busnumber_range"]
 old-location: devinst\busnumber_range.htm
 tech.root: devinst
 ms.assetid: 00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b
@@ -81,7 +82,7 @@ The number of contiguous bus numbers required by the device.
 
 
 
-The BUSNUMBER_RANGE structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a> structure.
+The BUSNUMBER_RANGE structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
 
 
 
@@ -91,7 +92,7 @@ The BUSNUMBER_RANGE structure is included as a member of the [BUSNUMBER_RESOURCE
 
 
 
-[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a>
+[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
  
 
  

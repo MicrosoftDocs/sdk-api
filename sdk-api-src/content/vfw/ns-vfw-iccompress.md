@@ -1,7 +1,7 @@
 ---
 UID: NS:vfw.__unnamed_struct_2
 title: ICCOMPRESS (vfw.h)
-description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.
+description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.helpviewer_keywords: ["ICCOMPRESS","ICCOMPRESS structure [Windows Multimedia]","ICCOMPRESS_KEYFRAME","multimedia.iccompress_COLLISION455","multimedia.iccompress_struct","vfw/ICCOMPRESS"]
 old-location: multimedia\iccompress_struct.htm
 tech.root: Multimedia
 ms.assetid: ba6aec9c-b622-484b-88ce-ff5c659bd6d7

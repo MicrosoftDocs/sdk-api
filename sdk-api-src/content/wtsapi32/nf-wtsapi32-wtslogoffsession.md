@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSLogoffSession
 title: WTSLogoffSession function (wtsapi32.h)
-description: Logs off a specified Remote Desktop Services session.
+description: Logs off a specified Remote Desktop Services session.helpviewer_keywords: ["WTSLogoffSession","WTSLogoffSession function [Remote Desktop Services]","_win32_wtslogoffsession","termserv.wtslogoffsession","wtsapi32/WTSLogoffSession"]
 old-location: termserv\wtslogoffsession.htm
 tech.root: TermServ
 ms.assetid: dba7b6fb-f906-40d1-baae-6ee7b8cfe86d

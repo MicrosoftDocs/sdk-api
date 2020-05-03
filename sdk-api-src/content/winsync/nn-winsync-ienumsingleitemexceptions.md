@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.IEnumSingleItemExceptions
 title: IEnumSingleItemExceptions (winsync.h)
-description: Enumerates single-item exceptions that are stored in a knowledge object.
+description: Enumerates single-item exceptions that are stored in a knowledge object.helpviewer_keywords: ["IEnumSingleItemExceptions","IEnumSingleItemExceptions interface [Windows Sync]","IEnumSingleItemExceptions interface [Windows Sync]","described","winsync.ienumsingleitemexceptions","winsync/IEnumSingleItemExceptions"]
 old-location: winsync\ienumsingleitemexceptions.htm
 tech.root: winsync
 ms.assetid: fed8a258-bc23-454b-9d8a-e3873481b33b

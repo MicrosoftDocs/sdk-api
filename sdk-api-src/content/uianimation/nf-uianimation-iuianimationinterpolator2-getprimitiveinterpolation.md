@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.GetPrimitiveInterpolation
 title: IUIAnimationInterpolator2::GetPrimitiveInterpolation (uianimation.h)
-description: Generates a primitive interpolation of the specified animation curve.
+description: Generates a primitive interpolation of the specified animation curve.helpviewer_keywords: ["GetPrimitiveInterpolation","GetPrimitiveInterpolation method [Windows Animation]","GetPrimitiveInterpolation method [Windows Animation]","IUIAnimationInterpolator2 interface","IUIAnimationInterpolator2 interface [Windows Animation]","GetPrimitiveInterpolation method","IUIAnimationInterpolator2.GetPrimitiveInterpolation","IUIAnimationInterpolator2::GetPrimitiveInterpolation","uianimation.iuianimationinterpolator2_getprimitiveinterpolation","uianimation/IUIAnimationInterpolator2::GetPrimitiveInterpolation"]
 old-location: uianimation\iuianimationinterpolator2_getprimitiveinterpolation.htm
 tech.root: UIAnimation
 ms.assetid: E3CE4D97-08C8-46F4-B8B0-42CA4212DF50

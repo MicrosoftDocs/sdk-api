@@ -1,7 +1,7 @@
 ---
 UID: NN:uiribbon.IUIFramework
 title: IUIFramework (uiribbon.h)
-description: The IUIFramework interface is implemented by the Windows Ribbon framework and defines the methods that provide the core functionality for the framework.
+description: The IUIFramework interface is implemented by the Windows Ribbon framework and defines the methods that provide the core functionality for the framework.helpviewer_keywords: ["IUIFramework","IUIFramework interface [Windows Ribbon]","IUIFramework interface [Windows Ribbon]","described","scenicintent_IUIFramework","uiribbon/IUIFramework","windowsribbon.windowsribbon_iuiframework"]
 old-location: windowsribbon\windowsribbon_iuiframework.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\iuiframework.htm

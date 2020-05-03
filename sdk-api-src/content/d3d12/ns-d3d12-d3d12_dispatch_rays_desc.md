@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_DISPATCH_RAYS_DESC
 title: D3D12_DISPATCH_RAYS_DESC (d3d12.h)
-description: Describes the properties of a ray dispatch operation initiated with a call to ID3D12GraphicsCommandList4::DispatchRays.
+description: Describes the properties of a ray dispatch operation initiated with a call to ID3D12GraphicsCommandList4::DispatchRays.helpviewer_keywords: ["D3D12_DISPATCH_RAYS_DESC","D3D12_DISPATCH_RAYS_DESC structure","PD3D12_DISPATCH_RAYS_DESC","PD3D12_DISPATCH_RAYS_DESC structure pointer","d3d12/D3D12_DISPATCH_RAYS_DESC","d3d12/PD3D12_DISPATCH_RAYS_DESC","direct3d12.d3d12_dispatch_rays_desc"]
 old-location: direct3d12\d3d12_dispatch_rays_desc.htm
 tech.root: direct3d12
 ms.assetid: F1DDFA33-A880-4AA2-AB44-43A78F086F19

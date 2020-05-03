@@ -1,7 +1,7 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.OnSetParameters
 title: CXAPOParametersBase::OnSetParameters (xapobase.h)
-description: Called by IXAPOParameters::SetParameters to allow for user-defined parameter validation.
+description: Called by IXAPOParameters::SetParameters to allow for user-defined parameter validation.helpviewer_keywords: ["CXAPOParametersBase interface [XAudio2 Audio Mixing APIs]","OnSetParameters method","CXAPOParametersBase.OnSetParameters","CXAPOParametersBase::OnSetParameters","OnSetParameters","OnSetParameters method [XAudio2 Audio Mixing APIs]","OnSetParameters method [XAudio2 Audio Mixing APIs]","CXAPOParametersBase interface","xapobase/CXAPOParametersBase::OnSetParameters","xaudio2.cxapoparametersbase_onsetparameters"]
 old-location: xaudio2\cxapoparametersbase_onsetparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.OnSetParameters(const void,UINT32)

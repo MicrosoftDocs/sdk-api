@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Remove
 title: ITaskNamedValueCollection::Remove (taskschd.h)
-description: Removes a selected name-value pair from the collection.
+description: Removes a selected name-value pair from the collection.helpviewer_keywords: ["ITaskNamedValueCollection interface [Task Scheduler]","Remove method","ITaskNamedValueCollection.Remove","ITaskNamedValueCollection::Remove","Remove","Remove method [Task Scheduler]","Remove method [Task Scheduler]","ITaskNamedValueCollection interface","taskschd.itasknamedvaluecollection_remove","taskschd/ITaskNamedValueCollection::Remove"]
 old-location: taskschd\itasknamedvaluecollection_remove.htm
 tech.root: taskschd
 ms.assetid: 7c73fb37-5551-497f-86d9-b7158109ca38

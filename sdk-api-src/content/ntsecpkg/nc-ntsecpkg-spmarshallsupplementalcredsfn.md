@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpMarshallSupplementalCredsFn
 title: SpMarshallSupplementalCredsFn (ntsecpkg.h)
-description: Converts supplemental credentials from a public format into a format suitable for local procedure calls.
+description: Converts supplemental credentials from a public format into a format suitable for local procedure calls.helpviewer_keywords: ["SpMarshallSupplementalCreds","SpMarshallSupplementalCreds callback function [Security]","SpMarshallSupplementalCredsFn","SpMarshallSupplementalCredsFn callback","_ssp_spmarshallsupplementalcreds","ntsecpkg/SpMarshallSupplementalCreds","security.spmarshallsupplementalcreds"]
 old-location: security\spmarshallsupplementalcreds.htm
 tech.root: SecAuthN
 ms.assetid: 64792843-5129-4a71-b88b-b4caf495a567

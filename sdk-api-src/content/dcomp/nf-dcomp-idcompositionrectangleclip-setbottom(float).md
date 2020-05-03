@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottom(float)
 title: IDCompositionRectangleClip::SetBottom (dcomp.h)
-description: Changes the value of the Bottom property of a clip object.
+description: Changes the value of the Bottom property of a clip object.helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetBottom method","IDCompositionRectangleClip.SetBottom","IDCompositionRectangleClip::SetBottom","IDCompositionRectangleClip::SetBottom(float)","SetBottom","SetBottom method [DirectComposition]","SetBottom method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetBottom","directcomp.idcompositionrectangleclip_setbottom_float"]
 old-location: directcomp\idcompositionrectangleclip_setbottom_float.htm
 tech.root: directcomp
 ms.assetid: BE07DF2B-6588-4ACD-8FB6-E467C9943710

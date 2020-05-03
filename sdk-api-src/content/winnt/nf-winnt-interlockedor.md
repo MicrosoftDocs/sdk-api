@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedOr
 title: InterlockedOr function (winnt.h)
-description: Performs an atomic OR operation on the specified LONG values.
+description: Performs an atomic OR operation on the specified LONG values.helpviewer_keywords: ["InterlockedOr","InterlockedOr function","base.interlockedor","winnt/InterlockedOr"]
 old-location: base\interlockedor.htm
 tech.root: Sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e

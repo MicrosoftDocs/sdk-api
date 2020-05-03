@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetVideoWindow
 title: IMFPMediaPlayer::GetVideoWindow (mfplay.h)
-description: Gets the window where the video is displayed.
+description: Gets the window where the video is displayed.helpviewer_keywords: ["GetVideoWindow","GetVideoWindow method [Media Foundation]","GetVideoWindow method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetVideoWindow method","IMFPMediaPlayer.GetVideoWindow","IMFPMediaPlayer::GetVideoWindow","mf.imfpmediaplayer_getvideowindow","mfplay/IMFPMediaPlayer::GetVideoWindow"]
 old-location: mf\imfpmediaplayer_getvideowindow.htm
 tech.root: medfound
 ms.assetid: 313e3a87-3dad-4cfb-ad37-1018cb03a707

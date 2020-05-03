@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspixelformats.IsCanonicalPixelFormat
 title: IsCanonicalPixelFormat function (gdipluspixelformats.h)
-description: The IsCanonicalPixelFormat method determines whether a specified pixel format is one of the canonical formats:\_PixelFormat32bppARGB or PixelFormat64bppARGB.
+description: The IsCanonicalPixelFormat method determines whether a specified pixel format is one of the canonical formats:\_PixelFormat32bppARGB or PixelFormat64bppARGB.helpviewer_keywords: ["IsCanonicalPixelFormat","IsCanonicalPixelFormat function [GDI+]","_gdiplus_FUNC_IsCanonicalPixelFormat_","gdiplus._gdiplus_FUNC_IsCanonicalPixelFormat_","gdipluspixelformats/IsCanonicalPixelFormat"]
 old-location: gdiplus\_gdiplus_FUNC_IsCanonicalPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\iscanonicalpixelformat.htm

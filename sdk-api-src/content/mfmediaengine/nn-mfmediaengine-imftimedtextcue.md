@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextCue
 title: IMFTimedTextCue (mfmediaengine.h)
-description: Represents the timed-text-cue object.
+description: Represents the timed-text-cue object.helpviewer_keywords: ["IMFTimedTextCue","IMFTimedTextCue interface [Media Foundation]","IMFTimedTextCue interface [Media Foundation]","described","mf.imftimedtextcue","mfmediaengine/IMFTimedTextCue"]
 old-location: mf\imftimedtextcue.htm
 tech.root: medfound
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE

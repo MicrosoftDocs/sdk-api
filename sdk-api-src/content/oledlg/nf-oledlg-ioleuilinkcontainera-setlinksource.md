@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.SetLinkSource
 title: IOleUILinkContainerA::SetLinkSource (oledlg.h)
-description: Changes the source of a link.
+description: Changes the source of a link.helpviewer_keywords: ["IOleUILinkContainer interface [COM]","SetLinkSource method","IOleUILinkContainer::SetLinkSource","IOleUILinkContainerA interface [COM]","SetLinkSource method","IOleUILinkContainerA.SetLinkSource","IOleUILinkContainerA::SetLinkSource","IOleUILinkContainerW interface [COM]","SetLinkSource method","IOleUILinkContainerW::SetLinkSource","SetLinkSource","SetLinkSource method [COM]","SetLinkSource method [COM]","IOleUILinkContainer interface","SetLinkSource method [COM]","IOleUILinkContainerA interface","SetLinkSource method [COM]","IOleUILinkContainerW interface","com.ioleuilinkcontainer_setlinksource","ole_IOleUILinkContainer_SetLinkSource","oledlg/IOleUILinkContainer::SetLinkSource","oledlg/IOleUILinkContainerA::SetLinkSource","oledlg/IOleUILinkContainerW::SetLinkSource"]
 old-location: com\ioleuilinkcontainer_setlinksource.htm
 tech.root: com
 ms.assetid: c76723e8-e895-4ba1-9ba1-7e56a44cc5f2

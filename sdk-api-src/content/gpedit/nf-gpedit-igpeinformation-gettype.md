@@ -1,7 +1,7 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetType
 title: IGPEInformation::GetType (gpedit.h)
-description: The GetType method retrieves type information for the GPO being edited.
+description: The GetType method retrieves type information for the GPO being edited.helpviewer_keywords: ["GPOTypeDS","GPOTypeLocal","GPOTypeRemote","GetType","GetType method [Group Policy]","GetType method [Group Policy]","IGPEInformation interface","IGPEInformation interface [Group Policy]","GetType method","IGPEInformation.GetType","IGPEInformation::GetType","_win32_igpeinformation_gettype","gpedit/IGPEInformation::GetType","policy.igpeinformation_gettype"]
 old-location: policy\igpeinformation_gettype.htm
 tech.root: Policy
 ms.assetid: 47769405-d32c-4f4f-86fc-970d89bba848

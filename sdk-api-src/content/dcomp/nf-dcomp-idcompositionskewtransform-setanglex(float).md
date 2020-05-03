@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(float)
 title: IDCompositionSkewTransform::SetAngleX(float) (dcomp.h)
 description: Changes the value of the AngleX property of a 2D skew transform.
+helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetAngleX method","IDCompositionSkewTransform.SetAngleX","IDCompositionSkewTransform.SetAngleX(float)","IDCompositionSkewTransform::SetAngleX","IDCompositionSkewTransform::SetAngleX(float)","SetAngleX","SetAngleX method [DirectComposition]","SetAngleX method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetAngleX","directcomp.idcompositionskewtransform_setanglex_float"]
 old-location: directcomp\idcompositionskewtransform_setanglex_float.htm
 tech.root: directcomp
 ms.assetid: FE38F14B-69EA-4129-A944-DBBF784B53DE
@@ -96,7 +97,7 @@ If the AngleX property was previously animated, this method removes the animatio
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
  
 
  

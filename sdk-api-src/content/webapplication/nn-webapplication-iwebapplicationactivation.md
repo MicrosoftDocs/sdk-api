@@ -1,7 +1,7 @@
 ---
 UID: NN:webapplication.IWebApplicationActivation
 title: IWebApplicationActivation (webapplication.h)
-description: Enables debugging applications to manage activations.
+description: Enables debugging applications to manage activations.helpviewer_keywords: ["IWebApplicationActivation","IWebApplicationActivation interface [Debugging Windows Store apps]","IWebApplicationActivation interface [Debugging Windows Store apps]","described","debug.iwebapplicationactivation","webapplication/IWebApplicationActivation"]
 old-location: debug\iwebapplicationactivation.htm
 tech.root: debug_wwahost
 ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B

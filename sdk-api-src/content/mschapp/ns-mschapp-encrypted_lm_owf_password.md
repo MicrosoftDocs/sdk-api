@@ -1,7 +1,7 @@
 ---
 UID: NS:mschapp._ENCRYPTED_LM_OWF_PASSWORD
 title: ENCRYPTED_LM_OWF_PASSWORD (mschapp.h)
-description: The ENCRYPTED_LM_OWF_PASSWORD stores a user's encrypted Lan Manager (LM) one-way function (OWF) password hash.
+description: The ENCRYPTED_LM_OWF_PASSWORD stores a user's encrypted Lan Manager (LM) one-way function (OWF) password hash.helpviewer_keywords: ["*PENCRYPTED_LM_OWF_PASSWORD","*PENCRYPTED_NT_OWF_PASSWORD","ENCRYPTED_LM_OWF_PASSWORD","ENCRYPTED_LM_OWF_PASSWORD structure [MS-CHAP]","ENCRYPTED_NT_OWF_PASSWORD","mschap.encrypted_lm_owf_password","mschapp/ENCRYPTED_LM_OWF_PASSWORD"]
 old-location: mschap\encrypted_lm_owf_password.htm
 tech.root: MsChap
 ms.assetid: 83498d3f-0ac5-435c-804e-a4baa1ae855d

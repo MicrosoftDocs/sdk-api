@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.SetSyncProviderState
 title: ISyncProviderRegistration::SetSyncProviderState (syncregistration.h)
-description: Sets the state of the specified synchronization provider.
+description: Sets the state of the specified synchronization provider.helpviewer_keywords: ["ISyncProviderRegistration interface [Windows Sync]","SetSyncProviderState method","ISyncProviderRegistration.SetSyncProviderState","ISyncProviderRegistration::SetSyncProviderState","SetSyncProviderState","SetSyncProviderState method [Windows Sync]","SetSyncProviderState method [Windows Sync]","ISyncProviderRegistration interface","syncregistration/ISyncProviderRegistration::SetSyncProviderState","winsync.isyncproviderregistration_setsyncproviderstate"]
 old-location: winsync\isyncproviderregistration_setsyncproviderstate.htm
 tech.root: winsync
 ms.assetid: 441df857-0498-4c6f-b279-495f1138e9c7

@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.RemoveMapping
 title: IWTSBitmapRenderer::RemoveMapping (tsvirtualchannels.h)
-description: Called by a dynamic virtual channel plug-in to remove a render mapping.
+description: Called by a dynamic virtual channel plug-in to remove a render mapping.helpviewer_keywords: ["IWTSBitmapRenderer interface [Remote Desktop Services]","RemoveMapping method","IWTSBitmapRenderer.RemoveMapping","IWTSBitmapRenderer::RemoveMapping","RemoveMapping","RemoveMapping method [Remote Desktop Services]","RemoveMapping method [Remote Desktop Services]","IWTSBitmapRenderer interface","termserv.iwtsbitmaprenderer_removemapping","tsvirtualchannels/IWTSBitmapRenderer::RemoveMapping"]
 old-location: termserv\iwtsbitmaprenderer_removemapping.htm
 tech.root: TermServ
 ms.assetid: 7961ba11-4ef8-4b08-8c50-68bd26999dc2

@@ -2,6 +2,7 @@
 UID: NN:wdstptmgmt.IWdsTransportNamespaceAutoCast
 title: IWdsTransportNamespaceAutoCast (wdstptmgmt.h)
 description: The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of this interface.
+helpviewer_keywords: ["IWdsTransportNamespaceAutoCast","IWdsTransportNamespaceAutoCast interface [Windows Deployment Services]","IWdsTransportNamespaceAutoCast interface [Windows Deployment Services]","described","wds.iwdstransportnamespaceautocast","wdstptmgmt/IWdsTransportNamespaceAutoCast"]
 old-location: wds\iwdstransportnamespaceautocast.htm
 tech.root: wds
 ms.assetid: 8db671fa-da52-4063-ad0b-a3ee7cb05497
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of  this interface. This type of namespace is represented by the <b>WdsTptNamespaceTypeAutoCast</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of  this interface. This type of namespace is represented by the <b>WdsTptNamespaceTypeAutoCast</b> value of the <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also

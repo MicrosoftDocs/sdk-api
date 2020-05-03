@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateDownloader
 title: IUpdateDownloader (wuapi.h)
-description: Downloads updates from the server.
+description: Downloads updates from the server.helpviewer_keywords: ["IUpdateDownloader","IUpdateDownloader interface [Windows Update Agent]","IUpdateDownloader interface [Windows Update Agent]","described","wua.iupdatedownloader","wuapi/IUpdateDownloader"]
 old-location: wua\iupdatedownloader.htm
 tech.root: Wua_Sdk
 ms.assetid: 8f9f3430-fc78-46cb-9dc8-b97e9d35d91c

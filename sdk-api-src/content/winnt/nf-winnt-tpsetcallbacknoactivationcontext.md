@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.TpSetCallbackNoActivationContext
 title: TpSetCallbackNoActivationContext function (winnt.h)
-description: Indicates that the callback environment has no activation context.
+description: Indicates that the callback environment has no activation context.helpviewer_keywords: ["TpSetCallbackNoActivationContext","TpSetCallbackNoActivationContext function","base.tpsetcallbacknoactivationcontext","winnt/TpSetCallbackNoActivationContext"]
 old-location: base\tpsetcallbacknoactivationcontext.htm
 tech.root: ProcThread
 ms.assetid: 8415197A-C785-492E-9C74-2055FADDF0CD

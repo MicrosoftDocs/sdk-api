@@ -1,7 +1,7 @@
 ---
 UID: NS:wincodec.WICRawToneCurve
 title: WICRawToneCurve (wincodec.h)
-description: Represents a raw image tone curve.
+description: Represents a raw image tone curve.helpviewer_keywords: ["WICRawToneCurve","WICRawToneCurve structure [Windows Imaging Component]","_wic_codec_wicrawtonecurve","wic._wic_codec_wicrawtonecurve","wincodec/WICRawToneCurve"]
 old-location: wic\_wic_codec_wicrawtonecurve.htm
 tech.root: wic
 ms.assetid: 45eedc32-a642-4ef6-a02a-63eaeacf0012

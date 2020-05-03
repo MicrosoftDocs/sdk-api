@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CoLoadLibrary
 title: CoLoadLibrary function (objbase.h)
-description: Loads a specific DLL into the caller's process.
+description: Loads a specific DLL into the caller's process.helpviewer_keywords: ["CoLoadLibrary","CoLoadLibrary function [COM]","_com_CoLoadLibrary","com.coloadlibrary","objbase/CoLoadLibrary"]
 old-location: com\coloadlibrary.htm
 tech.root: com
 ms.assetid: be0d9e82-2438-488e-88c3-68dc7ac3e16f

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetBlendBellShape
 title: LinearGradientBrush::SetBlendBellShape (gdiplusbrush.h)
-description: The LinearGradientBrush::SetBlendBellShape method sets the blend shape of this linear gradient brush to create a custom blend based on a bell-shaped curve.
+description: The LinearGradientBrush::SetBlendBellShape method sets the blend shape of this linear gradient brush to create a custom blend based on a bell-shaped curve.helpviewer_keywords: ["LinearGradientBrush class [GDI+]","SetBlendBellShape method","LinearGradientBrush.SetBlendBellShape","LinearGradientBrush::SetBlendBellShape","SetBlendBellShape","SetBlendBellShape method [GDI+]","SetBlendBellShape method [GDI+]","LinearGradientBrush class","_gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_","gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblendbellshape.htm

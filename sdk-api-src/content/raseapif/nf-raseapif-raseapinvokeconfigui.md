@@ -2,6 +2,7 @@
 UID: NF:raseapif.RasEapInvokeConfigUI
 title: RasEapInvokeConfigUI function (raseapif.h)
 description: The RAS connection manager calls the RasEapInvokeConfigUI function to display a dialog to obtain configuration information from the user.
+helpviewer_keywords: ["RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_GUEST_ACCESS","RAS_EAP_FLAG_ROUTER","RasEapInvokeConfigUI","RasEapInvokeConfigUI callback","RasEapInvokeConfigUI callback function [EAP]","_eap_raseapinvokeconfigui","eap.raseapinvokeconfigui","raseapif/RasEapInvokeConfigUI"]
 old-location: eap\raseapinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: cdd9b081-e654-445e-9383-3665258f5cfa
@@ -163,15 +164,15 @@ RAS stores the connection data returned by
 
 
 
-[Client-Side Configuration User Interface](https://docs.microsoft.com/windows/win32/eap/client-side-configuration-user-interface)a>
+[Client-Side Configuration User Interface](/windows/win32/eap/client-side-configuration-user-interface)
 
 
 
-[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
+[EAP Functions](/windows/win32/eap/eap-functions)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 

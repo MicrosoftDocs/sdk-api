@@ -2,6 +2,7 @@
 UID: NF:winbase.CreateSemaphoreA
 title: CreateSemaphoreA function (winbase.h)
 description: Creates or opens a named or unnamed semaphore object.
+helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreA function","CreateSemaphoreW","base.createsemaphorea","winbase/CreateSemaphoreA","winbase/CreateSemaphoreW"]
 old-location: base\createsemaphorea.htm
 tech.root: Sync
 ms.assetid: 829C8CC6-3E2C-480A-9F36-41EB93CA8536
@@ -145,7 +146,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)a> or 
+[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait) or 
 <a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateSemaphore</a> function.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.
@@ -186,7 +187,7 @@ For an example that uses
 
 
 
-[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)a>
+[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait)
 
 
 

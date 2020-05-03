@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfRange.Clone
 title: ITfRange::Clone (msctf.h)
-description: The ITfRange::Clone method duplicates this range of text.
+description: The ITfRange::Clone method duplicates this range of text.helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","Clone method","ITfRange.Clone","ITfRange::Clone","_tsf_itfrange_clone_ref","msctf/ITfRange::Clone","tsf.itfrange_clone"]
 old-location: tsf\itfrange_clone.htm
 tech.root: TSF
 ms.assetid: 2b85012f-b090-4c91-b29c-b2470ff63ab6

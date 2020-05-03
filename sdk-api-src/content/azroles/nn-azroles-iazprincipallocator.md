@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzPrincipalLocator
 title: IAzPrincipalLocator (azroles.h)
-description: Locates and chooses ADAM principals in Authorization Manager.
+description: Locates and chooses ADAM principals in Authorization Manager.helpviewer_keywords: ["IAzPrincipalLocator","IAzPrincipalLocator interface [Security]","IAzPrincipalLocator interface [Security]","described","azroles/ IAzPrincipalLocator","security.iazprincipallocator"]
 old-location: security\iazprincipallocator.htm
 tech.root: SecAuthZ
 ms.assetid: 7ae3f0a3-9eeb-44d9-954a-a6526bb4eb3f

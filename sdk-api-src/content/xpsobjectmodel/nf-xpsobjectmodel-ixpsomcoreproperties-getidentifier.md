@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetIdentifier
 title: IXpsOMCoreProperties::GetIdentifier (xpsobjectmodel.h)
-description: Gets the identifier property.
+description: Gets the identifier property.helpviewer_keywords: ["GetIdentifier","GetIdentifier method [XPS Documents and Packaging]","GetIdentifier method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetIdentifier method","IXpsOMCoreProperties.GetIdentifier","IXpsOMCoreProperties::GetIdentifier","xps.ixpsomcoreproperties_getidentifier","xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier"]
 old-location: xps\ixpsomcoreproperties_getidentifier.htm
 tech.root: printdocs
 ms.assetid: a397fba0-4e73-4f5b-b292-529a222c2501

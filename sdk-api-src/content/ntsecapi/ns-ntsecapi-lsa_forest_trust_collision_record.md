@@ -2,6 +2,7 @@
 UID: NS:ntsecapi._LSA_FOREST_TRUST_COLLISION_RECORD
 title: LSA_FOREST_TRUST_COLLISION_RECORD (ntsecapi.h)
 description: Contains information about a Local Security Authority forest trust collision.
+helpviewer_keywords: ["*PLSA_FOREST_TRUST_COLLISION_RECORD","CollisionOther","CollisionTdo","CollisionXref","LSA_FOREST_TRUST_COLLISION_RECORD","LSA_FOREST_TRUST_COLLISION_RECORD structure [Security]","LSA_NB_DISABLED_ADMIN","LSA_NB_DISABLED_CONFLICT","LSA_SID_DISABLED_ADMIN","LSA_SID_DISABLED_CONFLICT","LSA_TLN_DISABLED_ADMIN","LSA_TLN_DISABLED_CONFLICT","LSA_TLN_DISABLED_NEW","PLSA_FOREST_TRUST_COLLISION_RECORD","PLSA_FOREST_TRUST_COLLISION_RECORD structure pointer [Security]","_LSA_FOREST_TRUST_COLLISION_RECORD","ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD","ntsecapi/PLSA_FOREST_TRUST_COLLISION_RECORD","security.lsa_forest_trust_collision_record"]
 old-location: security\lsa_forest_trust_collision_record.htm
 tech.root: SecAuthN
 ms.assetid: 9f9d2f57-0e7f-4222-be35-e3f026b60e93
@@ -59,7 +60,7 @@ The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information abou
 
 ### -field Index
 
-Index of this collision record in the array of <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structures pointed to by the <b>Entries</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure.
+Index of this collision record in the array of <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structures pointed to by the <b>Entries</b> member of the <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure.
 
 
 ### -field Type

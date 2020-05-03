@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetAntialiasMode
 title: ID2D1CommandSink::SetAntialiasMode (d2d1_1.h)
-description: Sets the antialiasing mode that will be used to render any subsequent geometry.
+description: Sets the antialiasing mode that will be used to render any subsequent geometry.helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","SetAntialiasMode method","ID2D1CommandSink.SetAntialiasMode","ID2D1CommandSink::SetAntialiasMode","SetAntialiasMode","SetAntialiasMode method [Direct2D]","SetAntialiasMode method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::SetAntialiasMode","direct2d.id2d1commandsink_setantialiasmode"]
 old-location: direct2d\id2d1commandsink_setantialiasmode.htm
 tech.root: Direct2D
 ms.assetid: 335cb9e7-56da-4971-b6d1-94292a6a771a

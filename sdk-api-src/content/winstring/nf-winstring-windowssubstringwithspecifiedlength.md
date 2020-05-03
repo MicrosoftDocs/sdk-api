@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsSubstringWithSpecifiedLength
 title: WindowsSubstringWithSpecifiedLength function (winstring.h)
 description: Retrieves a substring from the specified string. The substring starts at a specified character position and has a specified length.
+helpviewer_keywords: ["WindowsSubstringWithSpecifiedLength","WindowsSubstringWithSpecifiedLength function [Windows Runtime]","winrt.windowssubstringwithspecifiedlength","winstring/WindowsSubstringWithSpecifiedLength"]
 old-location: winrt\windowssubstringwithspecifiedlength.htm
 tech.root: WinRT
 ms.assetid: 8E5DA806-8CBA-4569-9A9B-3B30350F603D
@@ -46,51 +47,37 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsSubstringWithSpecifiedLength function
-
-
 ## -description
-
 
 Retrieves a substring from the specified string. The substring starts at a specified character position and has a specified length.
 
-
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The original string.
 
+### -param startIndex
 
-### -param startIndex [in]
-
-Type: <b>UINT32</b>
+Type: [in] <b>UINT32</b>
 
 The zero-based starting character position of a substring in this instance.
 
+### -param length
 
-### -param length [in]
-
-Type: <b>UINT32</b>
+Type: [in] <b>UINT32</b>
 
 The number of characters in the substring.
 
+### -param newString
 
-### -param newString [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: [out] <b>[**HSTRING**](/windows/win32/winrt/hstring)*</b>
 
 A string that is equivalent to the substring that begins at <i>startIndex</i> in <i>string</i>, or <b>NULL</b> if <i>startIndex</i> is equal to the length of <i>string</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -146,27 +133,11 @@ Failed to allocate the new substring.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each call to the <b>WindowsSubstringWithSpecifiedLength</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
-
-
-
+Each call to the <b>WindowsSubstringWithSpecifiedLength</b> function must be matched with a corresponding call to <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>

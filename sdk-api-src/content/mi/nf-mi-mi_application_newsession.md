@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Application_NewSession
 title: MI_Application_NewSession function (mi.h)
-description: Creates a session used to share connections for a set of operations to a single destination.
+description: Creates a session used to share connections for a set of operations to a single destination.helpviewer_keywords: ["MI_Application_NewSession","MI_Application_NewSession function [Windows Management Infrastructure (MI)]","mi/MI_Application_NewSession","wmi_v2.mi_application_newsession"]
 old-location: wmi_v2\mi_application_newsession.htm
 tech.root: wmi_v2
 ms.assetid: 76010766-aa20-4632-940d-48d9769803da

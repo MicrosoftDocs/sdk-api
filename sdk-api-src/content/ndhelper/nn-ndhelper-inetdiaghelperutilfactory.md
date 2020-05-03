@@ -1,7 +1,7 @@
 ---
 UID: NN:ndhelper.INetDiagHelperUtilFactory
 title: INetDiagHelperUtilFactory (ndhelper.h)
-description: Provides a reserved method that is used by the Network Diagnostics Framework (NDF).
+description: Provides a reserved method that is used by the Network Diagnostics Framework (NDF).helpviewer_keywords: ["INetDiagHelperUtilFactory","INetDiagHelperUtilFactory interface [NDF]","INetDiagHelperUtilFactory interface [NDF]","described","ndf.inetdiaghelperutilfactory","ndhelper/INetDiagHelperUtilFactory"]
 old-location: ndf\inetdiaghelperutilfactory.htm
 tech.root: NDF
 ms.assetid: 5e97ff3b-0dd5-4370-bf28-72fc92818564

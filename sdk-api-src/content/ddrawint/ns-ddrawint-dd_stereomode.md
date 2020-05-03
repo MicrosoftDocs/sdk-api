@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_STEREOMODE
 title: DD_STEREOMODE (ddrawint.h)
-description: The DD_STEREOMODE structure is used by the runtime with GUID_DDStereoMode in a DdGetDriverInfo call to query whether the driver supports stereo for a given video display mode.
+description: The DD_STEREOMODE structure is used by the runtime with GUID_DDStereoMode in a DdGetDriverInfo call to query whether the driver supports stereo for a given video display mode.helpviewer_keywords: ["*PDD_STEREOMODE","DD_STEREOMODE","DD_STEREOMODE structure [Display Devices]","ddrawint/DD_STEREOMODE","ddstrcts_aca080e5-a3ae-409b-9546-f4d270fb9f10.xml","display.dd_stereomode"]
 old-location: display\dd_stereomode.htm
 tech.root: display
 ms.assetid: 0b160c57-5e79-4777-a514-fa04e02c1508

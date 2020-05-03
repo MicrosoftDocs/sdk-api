@@ -2,6 +2,7 @@
 UID: NF:rpcdce.RpcServerRegisterAuthInfoA
 title: RpcServerRegisterAuthInfoA function (rpcdce.h)
 description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
+helpviewer_keywords: ["RpcServerRegisterAuthInfo","RpcServerRegisterAuthInfo function [RPC]","RpcServerRegisterAuthInfoA","RpcServerRegisterAuthInfoW","_rpc_rpcserverregisterauthinfo","rpc.rpcserverregisterauthinfo","rpcdce/RpcServerRegisterAuthInfo","rpcdce/RpcServerRegisterAuthInfoA","rpcdce/RpcServerRegisterAuthInfoW"]
 old-location: rpc\rpcserverregisterauthinfo.htm
 tech.root: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
@@ -172,8 +173,6 @@ If the acquisition function called from
 
 Pointer to a parameter to pass to the <i>GetKeyFn</i> routine, if specified. This parameter can also be used to pass a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure to specify explicit credentials if the authentication service is set to SCHANNEL. 
-
-
 
 
 If the <i>Arg</i> parameter is set to <b>NULL</b>, this function will use the default certificate or credential if it has been set up in the directory service.

@@ -1,7 +1,7 @@
 ---
 UID: NF:winreg.RegSetValueW
 title: RegSetValueW function (winreg.h)
-description: Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.
+description: Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.helpviewer_keywords: ["RegSetValue","RegSetValue function","RegSetValueA","RegSetValueW","_win32_regsetvalue","base.regsetvalue","winreg/RegSetValue","winreg/RegSetValueA","winreg/RegSetValueW"]
 old-location: base\regsetvalue.htm
 tech.root: SysInfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd

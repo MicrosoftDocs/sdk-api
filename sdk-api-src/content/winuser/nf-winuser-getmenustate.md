@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetMenuState
 title: GetMenuState function (winuser.h)
-description: Retrieves the menu flags associated with the specified menu item.
+description: Retrieves the menu flags associated with the specified menu item.helpviewer_keywords: ["GetMenuState","GetMenuState function [Menus and Other Resources]","MF_BYCOMMAND","MF_BYPOSITION","_win32_GetMenuState","_win32_getmenustate_cpp","menurc.getmenustate","winui._win32_getmenustate","winuser/GetMenuState"]
 old-location: menurc\getmenustate.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustate.htm

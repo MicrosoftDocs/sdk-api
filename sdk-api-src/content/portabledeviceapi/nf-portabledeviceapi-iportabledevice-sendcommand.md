@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.SendCommand
 title: IPortableDevice::SendCommand (portabledeviceapi.h)
-description: The SendCommand method sends a command to the device and retrieves the results synchronously.
+description: The SendCommand method sends a command to the device and retrieves the results synchronously.helpviewer_keywords: ["IPortableDevice interface [Windows Portable Devices SDK]","SendCommand method","IPortableDevice.SendCommand","IPortableDevice::SendCommand","IPortableDeviceSendCommand","SendCommand","SendCommand method [Windows Portable Devices SDK]","SendCommand method [Windows Portable Devices SDK]","IPortableDevice interface","portabledeviceapi/IPortableDevice::SendCommand","wpdsdk.iportabledevice_sendcommand"]
 old-location: wpdsdk\iportabledevice_sendcommand.htm
 tech.root: wpd_sdk
 ms.assetid: ccc7f87a-dea3-4a1e-a181-86928e23bd35

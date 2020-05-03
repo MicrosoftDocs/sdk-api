@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerGetConfigBlobAndUserBlob
 title: EapPeerGetConfigBlobAndUserBlob function (eapmethodpeerapis.h)
 description: Allows EAP method developers to provide the various connection properties and user properties supported by the method. EAPHost invokes this function to create the connection property and user property of the EAP method.
+helpviewer_keywords: ["EapPeerGetConfigBlobAndUserBlob","EapPeerGetConfigBlobAndUserBlob function [EAPHost]","eaphost.eappeergetconfigblobanduserblob","eapmethodpeerapis/EapPeerGetConfigBlobAndUserBlob"]
 old-location: eaphost\eappeergetconfigblobanduserblob.htm
 tech.root: eaphost
 ms.assetid: 81817FAA-20AE-4556-BAA5-0EF2A955B6A3
@@ -59,7 +60,7 @@ The <b>EapPeerGetConfigBlobAndUserBlob</b> method allows EAP method developers t
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the EAP authentication session behavior.
 
 
 ### -param eapMethodType [in]
@@ -120,7 +121,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a>
+[EAP flags](/windows/win32/eaphost/eap-method-flags)
 
 
 

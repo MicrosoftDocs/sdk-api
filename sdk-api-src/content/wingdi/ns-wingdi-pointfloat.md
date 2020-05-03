@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._POINTFLOAT
 title: POINTFLOAT (wingdi.h)
-description: The POINTFLOAT structure contains the x and y coordinates of a point.
+description: The POINTFLOAT structure contains the x and y coordinates of a point.helpviewer_keywords: ["*PPOINTFLOAT","POINTFLOAT","POINTFLOAT structure [OpenGL]","PPOINTFLOAT","PPOINTFLOAT structure pointer [OpenGL]","_ogl_POINTFLOAT","opengl.pointfloat","wingdi/POINTFLOAT","wingdi/PPOINTFLOAT"]
 old-location: opengl\pointfloat.htm
 tech.root: OpenGL
 ms.assetid: 9cb57d32-386a-4554-9f47-62d5c4e2ee4e

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSSetShaderResources
 title: ID3D11DeviceContext::DSSetShaderResources (d3d11.h)
-description: Bind an array of shader resources to the domain-shader stage.
+description: Bind an array of shader resources to the domain-shader stage.helpviewer_keywords: ["DSSetShaderResources","DSSetShaderResources method [Direct3D 11]","DSSetShaderResources method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DSSetShaderResources method","ID3D11DeviceContext.DSSetShaderResources","ID3D11DeviceContext::DSSetShaderResources","d3d11/ID3D11DeviceContext::DSSetShaderResources","direct3d11.id3d11devicecontext_dssetshaderresources","f29f7cbd-7143-217f-643c-21533afc6cda"]
 old-location: direct3d11\id3d11devicecontext_dssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 633aedf7-f5cc-4873-940a-1b6e15927ec6

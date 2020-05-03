@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_MultisessionInterfaces
 title: IFileSystemImage::put_MultisessionInterfaces (imapi2fs.h)
-description: Sets the list of multi-session interfaces for the optical media.
+description: Sets the list of multi-session interfaces for the optical media.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_MultisessionInterfaces method","IFileSystemImage.put_MultisessionInterfaces","IFileSystemImage::put_MultisessionInterfaces","imapi.ifilesystemimage_put_multisessioninterfaces","imapi2fs/IFileSystemImage::put_MultisessionInterfaces","put_MultisessionInterfaces","put_MultisessionInterfaces method [IMAPI]","put_MultisessionInterfaces method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_multisessioninterfaces.htm
 tech.root: imapi
 ms.assetid: 632cd123-4e66-4ac3-891a-aa9d0c085b4f

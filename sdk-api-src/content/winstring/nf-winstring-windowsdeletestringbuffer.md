@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsDeleteStringBuffer
 title: WindowsDeleteStringBuffer function (winstring.h)
 description: Discards a preallocated string buffer if it was not promoted to an HSTRING.
+helpviewer_keywords: ["WindowsDeleteStringBuffer","WindowsDeleteStringBuffer function [Windows Runtime]","winrt.windowsdeletestringbuffer","winstring/WindowsDeleteStringBuffer"]
 old-location: winrt\windowsdeletestringbuffer.htm
 tech.root: WinRT
 ms.assetid: c543b2ff-56be-48b5-8b44-3d7549c75df2
@@ -45,30 +46,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsDeleteStringBuffer function
-
-
 ## -description
 
-
-Discards a preallocated string buffer if it was not promoted to an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
-
+Discards a preallocated string buffer if it was not promoted to an [**HSTRING**](/windows/win32/winrt/hstring).
 
 ## -parameters
 
+### -param bufferHandle
 
+Type: [in] <b><a href="/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a></b>
 
-
-### -param bufferHandle [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a></b>
-
-The buffer to discard. The <b>WindowsDeleteStringBuffer</b> function raises an exception if  <i>bufferHandle</i> was not allocated by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function.
-
+The buffer to discard. The <b>WindowsDeleteStringBuffer</b> function raises an exception if <i>bufferHandle</i> was not allocated by a call to the <a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -102,27 +92,17 @@ The  buffer was discarded successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Use the <b>WindowsDeleteStringBuffer</b> function to discard a string buffer that was created by the <a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function but has not been promoted to an [**HSTRING**](/windows/win32/winrt/hstring) by the <a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a> function.  
 
-
-Use the <b>WindowsDeleteStringBuffer</b> function to discard a string buffer that was created by the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function but has not been promoted to an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> by the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a> function.  
-
-
-<div class="alert"><b>Note</b>  Calling <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a> after calling <b>WindowsDeleteStringBuffer</b> with the same buffer handle is undefined.</div>
+<div class="alert"><b>Note</b>  Calling <a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a> after calling <b>WindowsDeleteStringBuffer</b> with the same buffer handle is undefined.</div>
 <div> </div>
 
-
-
-#### Examples
+## Examples
 
 The following code example demonstrates how to use the <b>WindowsDeleteStringBuffer</b> function.
-
 
 ```cpp
 int main()
@@ -135,37 +115,16 @@ int main()
 
     WindowsStringDeleteBuffer(hStringBuffer);
 }
-
-
 ```
-
-
-
-
 
 ## -see-also
 
-
-
-
 <b></b>
 
+[**HSTRING**](/windows/win32/winrt/hstring)
 
+<a href="/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
+<a href="/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>

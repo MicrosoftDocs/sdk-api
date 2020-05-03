@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPrintTicketResource
 title: IXpsOMPrintTicketResource (xpsobjectmodel.h)
-description: Provides an IStream interface to a PrintTicket resource.
+description: Provides an IStream interface to a PrintTicket resource.helpviewer_keywords: ["IXpsOMPrintTicketResource","IXpsOMPrintTicketResource interface [XPS Documents and Packaging]","IXpsOMPrintTicketResource interface [XPS Documents and Packaging]","described","xps.ixpsomprintticketresource","xpsobjectmodel/IXpsOMPrintTicketResource"]
 old-location: xps\ixpsomprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 2f37dbd2-3078-4aa8-97e7-556a0ff2dd74

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetTimeFormat
 title: IMediaSeeking::GetTimeFormat (strmif.h)
-description: The GetTimeFormat method retrieves the time format that is currently being used for seek operations.
+description: The GetTimeFormat method retrieves the time format that is currently being used for seek operations.helpviewer_keywords: ["GetTimeFormat","GetTimeFormat method [DirectShow]","GetTimeFormat method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetTimeFormat method","IMediaSeeking.GetTimeFormat","IMediaSeeking::GetTimeFormat","IMediaSeekingGetTimeFormat","dshow.imediaseeking_gettimeformat","strmif/IMediaSeeking::GetTimeFormat"]
 old-location: dshow\imediaseeking_gettimeformat.htm
 tech.root: DirectShow
 ms.assetid: aa6dc75e-f124-4404-b8fd-ef227d8cada0

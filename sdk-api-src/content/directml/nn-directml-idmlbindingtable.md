@@ -1,7 +1,7 @@
 ---
 UID: NN:directml.IDMLBindingTable
 title: IDMLBindingTable
-description: Wraps a range of an application-managed descriptor heap, and is used by DirectML to create bindings for resources. To create this object, call IDMLDevice::CreateBindingTable.
+description: Wraps a range of an application-managed descriptor heap, and is used by DirectML to create bindings for resources. To create this object, call IDMLDevice::CreateBindingTable.helpviewer_keywords: ["IDMLBindingTable","IDMLBindingTable interface","IDMLBindingTable interface","described","direct3d12.idmlbindingtable","directml/IDMLBindingTable"]
 old-location: direct3d12\idmlbindingtable.htm
 tech.root: direct3d12
 ms.assetid: ED3D6CCD-BBF5-4CA6-BA59-F8B3FEE40DA1

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetBackgroundColor
 title: IMFTimedTextStyle::GetBackgroundColor (mfmediaengine.h)
-description: Gets the background color of the timed-text style.
+description: Gets the background color of the timed-text style.helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [Media Foundation]","GetBackgroundColor method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetBackgroundColor method","IMFTimedTextStyle.GetBackgroundColor","IMFTimedTextStyle::GetBackgroundColor","mf.imftimedtextstyle_getbackgroundcolor","mfmediaengine/IMFTimedTextStyle::GetBackgroundColor"]
 old-location: mf\imftimedtextstyle_getbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: 2641F157-31CE-4659-AF6B-B57774AEF4E5

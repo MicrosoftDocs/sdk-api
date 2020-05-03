@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectParentalLevel
 title: IDvdControl2::SelectParentalLevel (strmif.h)
-description: The SelectParentalLevel method sets the parental access level for the logged-on user.
+description: The SelectParentalLevel method sets the parental access level for the logged-on user.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectParentalLevel method","IDvdControl2.SelectParentalLevel","IDvdControl2::SelectParentalLevel","IDvdControl2SelectParentalLevel","SelectParentalLevel","SelectParentalLevel method [DirectShow]","SelectParentalLevel method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectparentallevel","strmif/IDvdControl2::SelectParentalLevel"]
 old-location: dshow\idvdcontrol2_selectparentallevel.htm
 tech.root: DirectShow
 ms.assetid: c87f8b12-0c14-4d3a-ac79-98577607d053

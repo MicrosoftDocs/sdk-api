@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterNetworkState
 title: GetClusterNetworkState function (clusapi.h)
-description: Current state of a network.
+description: Current state of a network.helpviewer_keywords: ["GetClusterNetworkState","GetClusterNetworkState function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_NETWORK_STATE","PCLUSAPI_GET_CLUSTER_NETWORK_STATE function [Failover Cluster]","_wolf_getclusternetworkstate","clusapi/GetClusterNetworkState","clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_STATE","mscs.getclusternetworkstate"]
 old-location: mscs\getclusternetworkstate.htm
 tech.root: MsCS
 ms.assetid: 7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a

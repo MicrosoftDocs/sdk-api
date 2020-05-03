@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.GetCount
 title: IEnumWIA_DEV_INFO::GetCount (wia_xp.h)
-description: The IEnumWIA_DEV_INFO::GetCount method returns the number of elements stored by this enumerator.
+description: The IEnumWIA_DEV_INFO::GetCount method returns the number of elements stored by this enumerator.helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IEnumWIA_DEV_INFO interface","IEnumWIA_DEV_INFO interface [WIA]","GetCount method","IEnumWIA_DEV_INFO.GetCount","IEnumWIA_DEV_INFO::GetCount","_wia_IEnumWIA_DEV_INFO_GetCount","wia._wia_IEnumWIA_DEV_INFO_GetCount","wia_xp/IEnumWIA_DEV_INFO::GetCount"]
 old-location: wia\_wia_IEnumWIA_DEV_INFO_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_info\getcount.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegistrationNetworkError
 title: IMbnRegistration::GetRegistrationNetworkError (mbnapi.h)
-description: Gets the network error from a registration operation.
+description: Gets the network error from a registration operation.helpviewer_keywords: ["GetRegistrationNetworkError","GetRegistrationNetworkError method [Microsoft Broadband Networks]","GetRegistrationNetworkError method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetRegistrationNetworkError method","IMbnRegistration.GetRegistrationNetworkError","IMbnRegistration::GetRegistrationNetworkError","mbn.imbnregistration_getregistrationnetworkerror","mbnapi/IMbnRegistration::GetRegistrationNetworkError"]
 old-location: mbn\imbnregistration_getregistrationnetworkerror.htm
 tech.root: mbn
 ms.assetid: b0e6df7a-7b47-4587-92c2-f01fd96e768f

@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComQCEvents.OnQCRecord
 title: IComQCEvents::OnQCRecord (comsvcs.h)
 description: Generated when the queued components recorder creates the queued message.
+helpviewer_keywords: ["IComQCEvents interface [COM+]","OnQCRecord method","IComQCEvents.OnQCRecord","IComQCEvents::OnQCRecord","OnQCRecord","OnQCRecord method [COM+]","OnQCRecord method [COM+]","IComQCEvents interface","_dtc_IComQCEvents_OnQCRecord","comsvcs/IComQCEvents::OnQCRecord","cos.icomqcevents_onqcrecord"]
 old-location: cos\icomqcevents_onqcrecord.htm
 tech.root: cossdk
 ms.assetid: 6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2
@@ -59,7 +60,7 @@ Generated when the queued components recorder creates the queued message.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param objid [in]

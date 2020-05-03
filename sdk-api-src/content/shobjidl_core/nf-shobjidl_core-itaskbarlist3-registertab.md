@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.RegisterTab
 title: ITaskbarList3::RegisterTab (shobjidl_core.h)
-description: Informs the taskbar that a new tab or document thumbnail has been provided for display in an application's taskbar group flyout.
+description: Informs the taskbar that a new tab or document thumbnail has been provided for display in an application's taskbar group flyout.helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","RegisterTab method","ITaskbarList3.RegisterTab","ITaskbarList3::RegisterTab","RegisterTab","RegisterTab method [Windows Shell]","RegisterTab method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_RegisterTab","shell.ITaskbarList3_RegisterTab","shobjidl_core/ITaskbarList3::RegisterTab"]
 old-location: shell\ITaskbarList3_RegisterTab.htm
 tech.root: shell
 ms.assetid: b0cdca51-108a-4507-bd9e-6bcd4386c36a

@@ -2,6 +2,7 @@
 UID: NS:virtdisk._MERGE_VIRTUAL_DISK_PARAMETERS
 title: MERGE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 description: Contains virtual hard disk (VHD) merge request parameters.
+helpviewer_keywords: ["*PMERGE_VIRTUAL_DISK_PARAMETERS","MERGE_VIRTUAL_DISK_PARAMETERS","MERGE_VIRTUAL_DISK_PARAMETERS structure [VHD]","PMERGE_VIRTUAL_DISK_PARAMETERS","PMERGE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_MERGE_VIRTUAL_DISK_PARAMETERS","vdssys/MERGE_VIRTUAL_DISK_PARAMETERS","vdssys/PMERGE_VIRTUAL_DISK_PARAMETERS","vhd.merge_virtual_disk_parameters","virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS","virtdisk/PMERGE_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\merge_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 5bb84e11-677d-42f5-b5b6-59f23b9a8ab7
@@ -60,7 +61,7 @@ Contains virtual hard disk (VHD) merge request parameters.
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_version">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
+A <a href="/windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_version">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
       that specifies the version of the 
       <b>MERGE_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the VHD functions.
@@ -79,7 +80,7 @@ Depth of the merge request. This is the number of parent disks in the differenci
 
 <div class="alert"><b>Note</b>  The RWDepth of the virtual disk must be greater than <b>MergeDepth</b>. For more 
          information, see 
-         <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a>.</div>
+         <a href="/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a>.</div>
 <div> </div>
 
 ### -field Version2
@@ -106,7 +107,7 @@ Depth from  the leaf to target the merge.  The leaf is at depth 1.
 
 The depth of a merge request specified by the <b>MergeDepth</b> member is the number of  
     parent VHD image files in the differencing chain to be merged.  For more information, see 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-mergevirtualdisk">MergeVirtualDisk</a>.
+    <a href="/windows/win32/api/virtdisk/nf-virtdisk-mergevirtualdisk">MergeVirtualDisk</a>.
 
 
 
@@ -120,7 +121,7 @@ The depth of a merge request specified by the <b>MergeDepth</b> member is the nu
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-mergevirtualdisk">MergeVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-mergevirtualdisk">MergeVirtualDisk</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_DATA_ELEMENT
 title: DHCP_OPTION_DATA_ELEMENT (dhcpsapi.h)
-description: The DHCP_OPTION_DATA_ELEMENT structure defines a data element present (either singly or as a member of an array) within a DHCP_OPTION_DATA structure.
+description: The DHCP_OPTION_DATA_ELEMENT structure defines a data element present (either singly or as a member of an array) within a DHCP_OPTION_DATA structure.helpviewer_keywords: ["*LPDHCP_OPTION_DATA_ELEMENT","DHCP_OPTION_DATA_ELEMENT","DHCP_OPTION_DATA_ELEMENT structure [DHCP]","LPDHCP_OPTION_DATA_ELEMENT","LPDHCP_OPTION_DATA_ELEMENT structure pointer [DHCP]","dhcp.dhcp_option_data_element","dhcpsapi/LPDHCP_OPTION_DATA_ELEMENT","dhcpsapi/_DHCP_OPTION_DATA_ELEMENT"]
 old-location: dhcp\dhcp_option_data_element.htm
 tech.root: DHCP
 ms.assetid: 2ffc8968-f903-4d8e-8b34-c8031a56ebfc

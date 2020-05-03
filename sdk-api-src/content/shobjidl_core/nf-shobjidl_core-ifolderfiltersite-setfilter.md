@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFolderFilterSite.SetFilter
 title: IFolderFilterSite::SetFilter (shobjidl_core.h)
-description: Exposed by a host to allow clients to pass the host their IUnknown interface pointers.
+description: Exposed by a host to allow clients to pass the host their IUnknown interface pointers.helpviewer_keywords: ["IFolderFilterSite interface [Windows Shell]","SetFilter method","IFolderFilterSite.SetFilter","IFolderFilterSite::SetFilter","SetFilter","SetFilter method [Windows Shell]","SetFilter method [Windows Shell]","IFolderFilterSite interface","_shell_IFolderFilterSite_SetFilter","shell.IFolderFilterSite_SetFilter","shobjidl_core/IFolderFilterSite::SetFilter"]
 old-location: shell\IFolderFilterSite_SetFilter.htm
 tech.root: shell
 ms.assetid: 1bbcb238-9b3e-4f5c-9cb3-429d0ff918af

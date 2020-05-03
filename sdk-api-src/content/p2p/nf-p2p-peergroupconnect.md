@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupConnect
 title: PeerGroupConnect function (p2p.h)
-description: The PeerGroupConnect function initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.
+description: The PeerGroupConnect function initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.helpviewer_keywords: ["PeerGroupConnect","PeerGroupConnect function [Peer Networking]","p2p.peergroupconnect","p2p/PeerGroupConnect"]
 old-location: p2p\peergroupconnect.htm
 tech.root: P2PSdk
 ms.assetid: 240bcba7-29f9-4043-8203-e71175bee69a

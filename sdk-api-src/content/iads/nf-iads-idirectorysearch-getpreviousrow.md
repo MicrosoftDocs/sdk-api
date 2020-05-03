@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IDirectorySearch.GetPreviousRow
 title: IDirectorySearch::GetPreviousRow (iads.h)
-description: The IDirectorySearch::GetPreviousRow method gets the previous row of the search result. If the provider does not provide cursor support, it should return E_NOTIMPL.
+description: The IDirectorySearch::GetPreviousRow method gets the previous row of the search result. If the provider does not provide cursor support, it should return E_NOTIMPL.helpviewer_keywords: ["GetPreviousRow","GetPreviousRow method [ADSI]","GetPreviousRow method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","GetPreviousRow method","IDirectorySearch.GetPreviousRow","IDirectorySearch::GetPreviousRow","_ds_idirectorysearch_getpreviousrow","adsi.idirectorysearch__getpreviousrow","adsi.idirectorysearch_getpreviousrow","iads/IDirectorySearch::GetPreviousRow"]
 old-location: adsi\idirectorysearch_getpreviousrow.htm
 tech.root: adsi
 ms.assetid: fccc9763-c64d-474b-a0c0-9bc9d4e34d65

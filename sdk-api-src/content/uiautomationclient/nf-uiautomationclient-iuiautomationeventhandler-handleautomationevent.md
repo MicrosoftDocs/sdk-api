@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandler.HandleAutomationEvent
 title: IUIAutomationEventHandler::HandleAutomationEvent (uiautomationclient.h)
-description: Handles a Microsoft UI Automation event.
+description: Handles a Microsoft UI Automation event.helpviewer_keywords: ["HandleAutomationEvent","HandleAutomationEvent method [Windows Accessibility]","HandleAutomationEvent method [Windows Accessibility]","IUIAutomationEventHandler interface","IUIAutomationEventHandler interface [Windows Accessibility]","HandleAutomationEvent method","IUIAutomationEventHandler.HandleAutomationEvent","IUIAutomationEventHandler::HandleAutomationEvent","uiauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent","uiauto_IUIAutomationEventHandler_HandleAutomationEvent","uiautomationclient/IUIAutomationEventHandler::HandleAutomationEvent","winauto.uiauto_IUIAutomationEventHandler_HandleAutomationEvent"]
 old-location: winauto\uiauto_IUIAutomationEventHandler_HandleAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: 56668923-f21a-4d38-9175-95785892388c

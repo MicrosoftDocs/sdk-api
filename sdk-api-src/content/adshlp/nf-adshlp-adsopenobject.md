@@ -2,6 +2,7 @@
 UID: NF:adshlp.ADsOpenObject
 title: ADsOpenObject function (adshlp.h)
 description: Binds to an ADSI object using explicit user name and password credentials.
+helpviewer_keywords: ["ADsOpenObject","ADsOpenObject function [ADSI]","_ds_adsopenobject","adshlp/ADsOpenObject","adsi.adsopenobject"]
 old-location: adsi\adsopenobject.htm
 tech.root: adsi
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
@@ -82,7 +83,7 @@ The null-terminated Unicode string that specifies the password to supply to the 
 
 Type: <b>DWORD</b>
 
-Provider-specific authentication flags used to define the binding options. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
+Provider-specific authentication flags used to define the binding options. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
 
 
 ### -param riid [in]

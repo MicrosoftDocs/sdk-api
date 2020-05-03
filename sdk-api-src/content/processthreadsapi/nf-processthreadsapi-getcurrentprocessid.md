@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcessId
 title: GetCurrentProcessId function (processthreadsapi.h)
-description: Retrieves the process identifier of the calling process.
+description: Retrieves the process identifier of the calling process.helpviewer_keywords: ["GetCurrentProcessId","GetCurrentProcessId function","_win32_getcurrentprocessid","base.getcurrentprocessid","processthreadsapi/GetCurrentProcessId","winbase/GetCurrentProcessId"]
 old-location: base\getcurrentprocessid.htm
 tech.root: ProcThread
 ms.assetid: a442e147-0db0-4911-94de-91728a4b277a

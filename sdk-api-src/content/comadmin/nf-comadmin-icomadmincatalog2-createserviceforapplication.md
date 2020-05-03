@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CreateServiceForApplication
 title: ICOMAdminCatalog2::CreateServiceForApplication (comadmin.h)
-description: Configures a COM+ application to run as a Windows service.
+description: Configures a COM+ application to run as a Windows service.helpviewer_keywords: ["CreateServiceForApplication","CreateServiceForApplication method [COM+]","CreateServiceForApplication method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","CreateServiceForApplication method","ICOMAdminCatalog2.CreateServiceForApplication","ICOMAdminCatalog2::CreateServiceForApplication","_cos_icomadmincatalog2_CreateServiceForApplication","comadmin/ICOMAdminCatalog2::CreateServiceForApplication","cos.icomadmincatalog2_createserviceforapplication"]
 old-location: cos\icomadmincatalog2_createserviceforapplication.htm
 tech.root: cossdk
 ms.assetid: 9ffc7366-c47a-487e-b40c-bdcea5dbf052

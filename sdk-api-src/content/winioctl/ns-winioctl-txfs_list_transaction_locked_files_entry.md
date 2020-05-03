@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 title: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
-description: Contains information about a locked transaction.
+description: Contains information about a locked transaction.helpviewer_keywords: ["*PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY","PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY","PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure pointer [Files]","TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY","TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure [Files]","TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_CREATED","TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_DELETED","fs.txfs_list_transaction_locked_files_entry","winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY","winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"]
 old-location: fs\txfs_list_transaction_locked_files_entry.htm
 tech.root: FileIO
 ms.assetid: 220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd

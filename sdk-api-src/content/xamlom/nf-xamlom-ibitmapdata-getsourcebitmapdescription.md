@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IBitmapData.GetSourceBitmapDescription
 title: IBitmapData::GetSourceBitmapDescription (xamlom.h)
-description: Gets a BitmapDescription that describes the original format of the bitmap data stored in the IBitmapData.
+description: Gets a BitmapDescription that describes the original format of the bitmap data stored in the IBitmapData.helpviewer_keywords: ["GetSourceBitmapDescription","GetSourceBitmapDescription method","GetSourceBitmapDescription method","IBitmapData interface","IBitmapData interface","GetSourceBitmapDescription method","IBitmapData.GetSourceBitmapDescription","IBitmapData::GetSourceBitmapDescription","xaml_diagnostics.ibitmapdata_getsourcebitmapdescription","xamlom/IBitmapData::GetSourceBitmapDescription"]
 old-location: xaml_diagnostics\ibitmapdata_getsourcebitmapdescription.htm
 tech.root: xaml_diagnostics
 ms.assetid: 3B11A54C-347D-4F14-A5F8-36250FC5E06B

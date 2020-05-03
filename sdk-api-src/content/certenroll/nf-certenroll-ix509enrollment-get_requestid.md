@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_RequestId
 title: IX509Enrollment::get_RequestId (certenroll.h)
-description: Retrieves a unique identifier for the certificate request sent to the certification authority by the Enroll method.
+description: Retrieves a unique identifier for the certificate request sent to the certification authority by the Enroll method.helpviewer_keywords: ["IX509Enrollment interface [Security]","RequestId property","IX509Enrollment.RequestId","IX509Enrollment.get_RequestId","IX509Enrollment::RequestId","IX509Enrollment::get_RequestId","RequestId property [Security]","RequestId property [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::RequestId","certenroll/IX509Enrollment::get_RequestId","get_RequestId","security.ix509enrollment_requestid_property"]
 old-location: security\ix509enrollment_requestid_property.htm
 tech.root: seccertenroll
 ms.assetid: 64048d5d-36fd-4709-a924-7f84a2b2b97e

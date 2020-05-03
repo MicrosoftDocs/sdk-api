@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.RemoveById
 title: IFsrmMutableCollection::RemoveById (fsrm.h)
-description: Removes the specified object from the collection using an object identifier.
+description: Removes the specified object from the collection using an object identifier.helpviewer_keywords: ["IFsrmMutableCollection interface [File Server Resource Manager]","RemoveById method","IFsrmMutableCollection.RemoveById","IFsrmMutableCollection::RemoveById","RemoveById","RemoveById method [File Server Resource Manager]","RemoveById method [File Server Resource Manager]","IFsrmMutableCollection interface","fs.ifsrmmutablecollection_removebyid","fsrm.ifsrmmutablecollection_removebyid","fsrm/IFsrmMutableCollection::RemoveById"]
 old-location: fsrm\ifsrmmutablecollection_removebyid.htm
 tech.root: fsrm
 ms.assetid: 42f6fc4c-72fe-47c8-91c5-21987fa91848

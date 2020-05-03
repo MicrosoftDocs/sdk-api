@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.EndDraw
 title: ID2D1RenderTarget::EndDraw (d2d1.h)
-description: Ends drawing operations on the render target and indicates the current error state and associated tags.
+description: Ends drawing operations on the render target and indicates the current error state and associated tags.helpviewer_keywords: ["EndDraw","EndDraw method [Direct2D]","EndDraw method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","EndDraw method","ID2D1RenderTarget.EndDraw","ID2D1RenderTarget::EndDraw","d2d1/ID2D1RenderTarget::EndDraw","direct2d.ID2D1RenderTarget_EndDraw"]
 old-location: direct2d\ID2D1RenderTarget_EndDraw.htm
 tech.root: Direct2D
 ms.assetid: a8f24501-4e85-4981-bb38-2bd6333a7b49
@@ -59,14 +59,14 @@ Ends drawing operations  on the render target and indicates the current error st
 
 ### -param tag1 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the tag for drawing operations that caused errors or 0 if there were no errors. This parameter is passed uninitialized.
 
 
 ### -param tag2 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the tag for drawing operations that caused errors or 0 if there were no errors. This parameter is passed uninitialized.
 
@@ -88,24 +88,24 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-Drawing operations can only be issued between a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and <b>EndDraw</b> call.
+Drawing operations can only be issued between a <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and <b>EndDraw</b> call.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and <b>EndDraw</b> are use to indicate that a render target is in use by the Direct2D system. Different implementations of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a> might behave differently when <b>BeginDraw</b> is called. An <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a> may be locked between <b>BeginDraw</b>/<b>EndDraw</b> calls, a DXGI surface render target might be acquired on <b>BeginDraw</b> and released on <b>EndDraw</b>, while an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> may begin batching at <b>BeginDraw</b> and may present on <b>EndDraw</b>, for example.
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and <b>EndDraw</b> are use to indicate that a render target is in use by the Direct2D system. Different implementations of <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a> might behave differently when <b>BeginDraw</b> is called. An <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmaprendertarget">ID2D1BitmapRenderTarget</a> may be locked between <b>BeginDraw</b>/<b>EndDraw</b> calls, a DXGI surface render target might be acquired on <b>BeginDraw</b> and released on <b>EndDraw</b>, while an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> may begin batching at <b>BeginDraw</b> and may present on <b>EndDraw</b>, for example.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> method must be called before rendering operations can be called, though state-setting and state-retrieval operations can be performed even outside of <b>BeginDraw</b>/<b>EndDraw</b>. 
+The <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> method must be called before rendering operations can be called, though state-setting and state-retrieval operations can be performed even outside of <b>BeginDraw</b>/<b>EndDraw</b>. 
 
-After <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> is called, a render target will normally build up a batch of rendering commands, but defer processing of these commands until either an internal buffer is full, the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a> method is called, or until <b>EndDraw</b> is called. The <b>EndDraw</b> method causes any batched drawing operations to complete, and then returns an <b>HRESULT</b> indicating the success of the operations and, optionally, the tag state of the render target at the time the error occurred. The <b>EndDraw</b> method always succeeds: it should not be called twice even if a previous <b>EndDraw</b> resulted in a failing <b>HRESULT</b>. 
+After <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> is called, a render target will normally build up a batch of rendering commands, but defer processing of these commands until either an internal buffer is full, the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a> method is called, or until <b>EndDraw</b> is called. The <b>EndDraw</b> method causes any batched drawing operations to complete, and then returns an <b>HRESULT</b> indicating the success of the operations and, optionally, the tag state of the render target at the time the error occurred. The <b>EndDraw</b> method always succeeds: it should not be called twice even if a previous <b>EndDraw</b> resulted in a failing <b>HRESULT</b>. 
 
-If <b>EndDraw</b> is called without a matched call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>, it returns an error indicating that <b>BeginDraw</b> must be called before <b>EndDraw</b>.
+If <b>EndDraw</b> is called without a matched call to <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>, it returns an error indicating that <b>BeginDraw</b> must be called before <b>EndDraw</b>.
 
 Calling <b>BeginDraw</b> twice on a render target puts the target into an error state where nothing further is drawn, and returns an appropriate <b>HRESULT</b> and error information when <b>EndDraw</b> is called.
 
 
 
-#### Examples
+## Examples
 
-The following example uses an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw text to a window.
+The following example uses an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw text to a window.
 
 
 ```cpp
@@ -167,7 +167,7 @@ HRESULT DemoApp::OnRender()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

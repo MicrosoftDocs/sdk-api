@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_fullScreen
 title: IWMPPlayer::get_fullScreen (wmp.h)
-description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.
+description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","get_fullScreen method","IWMPPlayer.get_fullScreen","IWMPPlayer::get_fullScreen","IWMPPlayerget_fullScreen","get_fullScreen","get_fullScreen method [Windows Media Player]","get_fullScreen method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_get_fullscreen","wmp/IWMPPlayer::get_fullScreen"]
 old-location: wmp\iwmpplayer_get_fullscreen.htm
 tech.root: WMP
 ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542

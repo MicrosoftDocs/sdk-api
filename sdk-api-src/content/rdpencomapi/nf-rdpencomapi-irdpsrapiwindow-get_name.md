@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Name
 title: IRDPSRAPIWindow::get_Name (rdpencomapi.h)
-description: Returns the name for the window object.
+description: Returns the name for the window object.helpviewer_keywords: ["IRDPSRAPIWindow interface [RDP]","Name property","IRDPSRAPIWindow.Name","IRDPSRAPIWindow.get_Name","IRDPSRAPIWindow::Name","IRDPSRAPIWindow::get_Name","Name property [RDP]","Name property [RDP]","IRDPSRAPIWindow interface","Name property [RDP]","RDPSRAPIWindow object","RDPSRAPIWindow object [RDP]","Name property","get_Name","rdp.irdpsrapiwindow_name","rdpencomapi/IRDPSRAPIWindow::Name","rdpencomapi/IRDPSRAPIWindow::get_Name"]
 old-location: rdp\irdpsrapiwindow_name.htm
 tech.root: rdp
 ms.assetid: 14086504-2f67-4ca2-a56c-b5866426e7a4

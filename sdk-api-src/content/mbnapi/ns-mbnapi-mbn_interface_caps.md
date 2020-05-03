@@ -2,6 +2,7 @@
 UID: NS:mbnapi.MBN_INTERFACE_CAPS
 title: MBN_INTERFACE_CAPS (mbnapi.h)
 description: The MBN_INTERFACE_CAPS structure represents the interface capabilities.
+helpviewer_keywords: ["MBN_INTERFACE_CAPS","MBN_INTERFACE_CAPS structure [Microsoft Broadband Networks]","mbn.mbn_interface_caps","mbnapi/MBN_INTERFACE_CAPS"]
 old-location: mbn\mbn_interface_caps.htm
 tech.root: mbn
 ms.assetid: faee7f53-b465-4240-b163-ce88fae764df
@@ -339,5 +340,5 @@ Contains the device model.  This string can be empty.  The maximum length of thi
 
 ### -field firmwareInfo
 
-Contains the firmware-specific information for this device.  This string can be empty.  The maximum length of the string is <b>MBN_FIRMWARE_LEN</b>.  For the definition of <b>MBN_FIRMWARE_LEN</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" https://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the firmware-specific information for this device.  This string can be empty.  The maximum length of the string is <b>MBN_FIRMWARE_LEN</b>.  For the definition of <b>MBN_FIRMWARE_LEN</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://msdn.microsoft.com/en-us/library/ms221481.aspx">SysFreeString</a>.
 

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetImageType
 title: IXpsOMImageResource::GetImageType (xpsobjectmodel.h)
 description: Gets the type of image resource.
+helpviewer_keywords: ["GetImageType","GetImageType method [XPS Documents and Packaging]","GetImageType method [XPS Documents and Packaging]","IXpsOMImageResource interface","IXpsOMImageResource interface [XPS Documents and Packaging]","GetImageType method","IXpsOMImageResource.GetImageType","IXpsOMImageResource::GetImageType","xps.ixpsomimageresource_getimagetype","xpsobjectmodel/IXpsOMImageResource::GetImageType"]
 old-location: xps\ixpsomimageresource_getimagetype.htm
 tech.root: printdocs
 ms.assetid: c38af0c0-e05c-4ba4-92d5-114350cae05f
@@ -59,7 +60,7 @@ Gets the type of image resource.
 
 ### -param imageType [out, retval]
 
-The  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the image type in the stream.
+The  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the image type in the stream.
 
 
 ## -returns
@@ -84,7 +85,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
  
 
  

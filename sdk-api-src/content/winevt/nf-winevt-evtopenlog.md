@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtOpenLog
 title: EvtOpenLog function (winevt.h)
-description: Gets a handle to a channel or log file that you can then use to get information about the channel or log file.
+description: Gets a handle to a channel or log file that you can then use to get information about the channel or log file.helpviewer_keywords: ["EvtOpenLog","EvtOpenLog function [EventLog]","wes.evtopenlog","winevt/EvtOpenLog"]
 old-location: wes\evtopenlog.htm
 tech.root: wes
 ms.assetid: 1bf81452-2a62-4999-91b1-f1b42e6db91f

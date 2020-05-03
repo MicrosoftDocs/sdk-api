@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngLockDirectDrawSurface
 title: EngLockDirectDrawSurface function (winddi.h)
-description: The EngLockDirectDrawSurface function locks the kernel-mode handle of a DirectDraw surface.
+description: The EngLockDirectDrawSurface function locks the kernel-mode handle of a DirectDraw surface.helpviewer_keywords: ["EngLockDirectDrawSurface","EngLockDirectDrawSurface function [Display Devices]","display.englockdirectdrawsurface","gdifncs_f0027001-42bd-4f64-b5c0-c7ec3768f72c.xml","winddi/EngLockDirectDrawSurface"]
 old-location: display\englockdirectdrawsurface.htm
 tech.root: display
 ms.assetid: be43afe9-97c9-4ae4-b18c-3312ae757798

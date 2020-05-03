@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_CREDENTIAL_PAIR2_
 title: IKEEXT_CREDENTIAL_PAIR2 (iketypes.h)
 description: Is used to store credential information used for the authentication.
+helpviewer_keywords: ["IKEEXT_CREDENTIAL_PAIR2","IKEEXT_CREDENTIAL_PAIR2 structure [Filtering]","fwp.ikeext_credential_pair2","iketypes/IKEEXT_CREDENTIAL_PAIR2"]
 old-location: fwp\ikeext_credential_pair2.htm
 tech.root: fwp
 ms.assetid: 013b7b6c-aee6-40f3-b8c4-ef98784165ca
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIAL_PAIR2</b> structure is  used to store credential information used for the authentication.
-[IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a> is available. For Windows Vista, [IKEEXT_CREDENTIAL_PAIR0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0)a>  is available.</div><div> </div>
+[IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) is available. For Windows Vista, [IKEEXT_CREDENTIAL_PAIR0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair0)  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,14 +60,14 @@ The <b>IKEEXT_CREDENTIAL_PAIR2</b> structure is  used to store credential inform
 
 ### -field localCredentials
 
-Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a></b>
+Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
 
 Local credentials used for authentication.
 
 
 ### -field peerCredentials
 
-Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a></b>
+Type: [IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)</b>
 
 Peer credentials used for authentication.
 
@@ -76,7 +77,7 @@ Peer credentials used for authentication.
 
 
 
-[IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)a>
+[IKEEXT_CREDENTIAL2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential2)
 
 
 

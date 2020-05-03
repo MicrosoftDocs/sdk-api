@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_WRITE_MESSAGE_START_CALLBACK
 title: WS_WRITE_MESSAGE_START_CALLBACK (webservices.h)
-description: Handles the WsWriteMessageStart call for a WS_CUSTOM_CHANNEL_BINDING.
+description: Handles the WsWriteMessageStart call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_WRITE_MESSAGE_START_CALLBACK","WS_WRITE_MESSAGE_START_CALLBACK callback","WS_WRITE_MESSAGE_START_CALLBACK callback function [Web Services for Windows]","webservices/WS_WRITE_MESSAGE_START_CALLBACK","wsw.ws_write_message_start_callback"]
 old-location: wsw\ws_write_message_start_callback.htm
 tech.root: wsw
 ms.assetid: 55a9a297-1a6e-41cf-a605-02c4cfef8ed0

@@ -1,7 +1,7 @@
 ---
 UID: NF:enclaveapi.InitializeEnclave
 title: InitializeEnclave function (enclaveapi.h)
-description: Initializes an enclave that you created and loaded with data.
+description: Initializes an enclave that you created and loaded with data.helpviewer_keywords: ["InitializeEnclave","InitializeEnclave function","base.initializeenclave","enclaveapi/InitializeEnclave"]
 old-location: base\initializeenclave.htm
 tech.root: Memory
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A

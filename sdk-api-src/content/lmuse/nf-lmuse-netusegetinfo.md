@@ -1,7 +1,7 @@
 ---
 UID: NF:lmuse.NetUseGetInfo
 title: NetUseGetInfo function (lmuse.h)
-description: The NetUseGetInfo function retrieves information about a connection to a shared resource.
+description: The NetUseGetInfo function retrieves information about a connection to a shared resource.helpviewer_keywords: ["NetUseGetInfo","NetUseGetInfo function [Network Management]","_win32_netusegetinfo","lmuse/NetUseGetInfo","netmgmt.netusegetinfo"]
 old-location: netmgmt\netusegetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 257875db-5ed9-4569-8dbb-5dcc7a6af95c

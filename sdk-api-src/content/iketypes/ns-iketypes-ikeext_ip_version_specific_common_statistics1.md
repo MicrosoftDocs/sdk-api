@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1_
 title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1 (iketypes.h)
 description: Various statistics common to the keying module (IKE, Authip, and IKEv2).
+helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1","IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1 structure [Filtering]","fwp.ikeext_ip_version_specific_common_statistics1","iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1"]
 old-location: fwp\ikeext_ip_version_specific_common_statistics1.htm
 tech.root: fwp
 ms.assetid: 58e109fd-8a32-47bd-bc6a-bbe1bb54bc7e
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</b> structure contains various statistics common to the keying module (IKE,  Authip, and IKEv2).
-[IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0)a> is available.</div><div> </div>
+[IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics0) is available.</div><div> </div>
 
 ## -struct-fields
 

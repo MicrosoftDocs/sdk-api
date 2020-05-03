@@ -1,7 +1,7 @@
 ---
 UID: NS:aviriff._avistdindex
 title: AVISTDINDEX (aviriff.h)
-description: Contains an AVI 2.0 standard index.
+description: Contains an AVI 2.0 standard index.helpviewer_keywords: ["AVISTDINDEX","AVISTDINDEX structure [DirectShow]","PAVISTDINDEX","PAVISTDINDEX structure pointer [DirectShow]","aviriff/AVISTDINDEX","aviriff/PAVISTDINDEX","dshow.avistdindex"]
 old-location: dshow\avistdindex.htm
 tech.root: DirectShow
 ms.assetid: b437b333-84a3-44d3-a4cc-0d07a331b010

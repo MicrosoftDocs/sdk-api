@@ -2,6 +2,7 @@
 UID: NF:virtdisk.SetVirtualDiskInformation
 title: SetVirtualDiskInformation function (virtdisk.h)
 description: Sets information about a virtual hard disk (VHD).
+helpviewer_keywords: ["SetVirtualDiskInformation","SetVirtualDiskInformation function [VHD]","vdssys/SetVirtualDiskInformation","vhd.setvirtualdiskinformation","virtdisk/SetVirtualDiskInformation"]
 old-location: vhd\setvirtualdiskinformation.htm
 tech.root: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
@@ -61,12 +62,12 @@ Sets information about a virtual hard disk (VHD).
 
 A handle to the open virtual disk, which must have been opened using the 
      <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see 
-     the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
+     the <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param VirtualDiskInfo [in]
 
-A pointer to a valid [SET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info)a> 
+A pointer to a valid [SET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info) 
      structure.
 
 

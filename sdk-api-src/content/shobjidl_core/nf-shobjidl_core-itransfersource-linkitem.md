@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.ITransferSource.LinkItem
 title: ITransferSource::LinkItem (shobjidl_core.h)
 description: Not implemented.
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","LinkItem method","ITransferSource.LinkItem","ITransferSource::LinkItem","LinkItem","LinkItem method [Windows Shell]","LinkItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_LinkItem","shell.ITransferSource_LinkItem","shobjidl_core/ITransferSource::LinkItem"]
 old-location: shell\ITransferSource_LinkItem.htm
 tech.root: shell
 ms.assetid: e373c790-5366-4bff-a08d-817b0c566b1d
@@ -82,7 +83,7 @@ A pointer to a null-terminated, Unicode string containing the name for the link.
 
 Type: <b>DWORD</b>
 
-The flags that control the file operation. Value is one or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+The flags that control the file operation. Value is one or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNewDest [out]

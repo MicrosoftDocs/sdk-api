@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_MarkerCount
 title: IAMExtendedSeeking::get_MarkerCount (qnetwork.h)
-description: The get_MarkerCount method retrieves the number of markers in the current stream.
+description: The get_MarkerCount method retrieves the number of markers in the current stream.helpviewer_keywords: ["IAMExtendedSeeking interface [DirectShow]","get_MarkerCount method","IAMExtendedSeeking.get_MarkerCount","IAMExtendedSeeking::get_MarkerCount","IAMExtendedSeekingget_MarkerCount","dshow.iamextendedseeking_get_markercount","get_MarkerCount","get_MarkerCount method [DirectShow]","get_MarkerCount method [DirectShow]","IAMExtendedSeeking interface","qnetwork/IAMExtendedSeeking::get_MarkerCount"]
 old-location: dshow\iamextendedseeking_get_markercount.htm
 tech.root: DirectShow
 ms.assetid: bd9c2ca8-e5f2-409e-aaf9-d89d81d2b02d

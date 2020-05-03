@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetName
 title: ISyncMgrHandler::GetName (syncmgr.h)
-description: Gets the display name of the handler.
+description: Gets the display name of the handler.helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","ISyncMgrHandler interface","ISyncMgrHandler interface [Windows Shell]","GetName method","ISyncMgrHandler.GetName","ISyncMgrHandler::GetName","_shell_ISyncMgrHandler_GetName","shell.ISyncMgrHandler_GetName","syncmgr/ISyncMgrHandler::GetName"]
 old-location: shell\ISyncMgrHandler_GetName.htm
 tech.root: shell
 ms.assetid: 2d981cf9-6c0a-4bca-b088-06eb1c820fb3

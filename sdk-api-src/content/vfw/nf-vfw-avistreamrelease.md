@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamRelease
 title: AVIStreamRelease function (vfw.h)
-description: The AVIStreamRelease function decrements the reference count of an AVI stream interface handle, and closes the stream if the count reaches zero.
+description: The AVIStreamRelease function decrements the reference count of an AVI stream interface handle, and closes the stream if the count reaches zero.helpviewer_keywords: ["AVIStreamRelease","AVIStreamRelease function [Windows Multimedia]","_win32_AVIStreamRelease","multimedia.avistreamrelease","vfw/AVIStreamRelease"]
 old-location: multimedia\avistreamrelease.htm
 tech.root: Multimedia
 ms.assetid: bd71ddf6-9d02-463d-9d1c-50605441ad59

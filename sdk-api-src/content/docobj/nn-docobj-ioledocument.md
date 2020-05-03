@@ -1,7 +1,7 @@
 ---
 UID: NN:docobj.IOleDocument
 title: IOleDocument (docobj.h)
-description: Enables a document object to communicate to containers its ability to create views of its data.
+description: Enables a document object to communicate to containers its ability to create views of its data.helpviewer_keywords: ["IOleDocument","IOleDocument interface [COM]","IOleDocument interface [COM]","described","_ole_ioledocument","com.ioledocument","docobj/IOleDocument"]
 old-location: com\ioledocument.htm
 tech.root: com
 ms.assetid: 7a15d6ef-900c-4a0b-8b85-60dc66ca03a3

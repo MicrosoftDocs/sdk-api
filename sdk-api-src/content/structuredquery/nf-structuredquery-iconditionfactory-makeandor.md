@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory.MakeAndOr
 title: IConditionFactory::MakeAndOr (structuredquery.h)
 description: Creates a condition node that is a logical conjunction (AND) or disjunction (OR) of a collection of subconditions.
+helpviewer_keywords: ["IConditionFactory interface [search]","MakeAndOr method","IConditionFactory.MakeAndOr","IConditionFactory::MakeAndOr","MakeAndOr","MakeAndOr method [search]","MakeAndOr method [search]","IConditionFactory interface","_search_IConditionFactory_MakeAndOr","search._search_IConditionFactory_MakeAndOr","structuredquery/IConditionFactory::MakeAndOr"]
 old-location: search\_search_IConditionFactory_MakeAndOr.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeandor.htm
@@ -59,9 +60,9 @@ Creates a condition node that is a logical conjunction (AND) or disjunction (OR)
 
 ### -param ct [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a> of the condition node. The <b>CONDITION_TYPE</b> must be either <b>CT_AND_CONDITION</b> or <b>CT_OR_CONDITION</b>.
+The <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a> of the condition node. The <b>CONDITION_TYPE</b> must be either <b>CT_AND_CONDITION</b> or <b>CT_OR_CONDITION</b>.
 
 
 ### -param peuSubs [in]
@@ -113,11 +114,11 @@ There are no special condition trees for <b>TRUE</b> and <b>FALSE</b>. However, 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

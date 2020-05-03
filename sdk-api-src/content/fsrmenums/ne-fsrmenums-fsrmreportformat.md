@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmReportFormat
 title: FsrmReportFormat (fsrmenums.h)
-description: Defines the file formats that you can use when generating reports.
+description: Defines the file formats that you can use when generating reports.helpviewer_keywords: ["FsrmReportFormat","FsrmReportFormat enumeration [File Server Resource Manager]","FsrmReportFormat_Csv","FsrmReportFormat_DHtml","FsrmReportFormat_Html","FsrmReportFormat_Txt","FsrmReportFormat_Unknown","FsrmReportFormat_Xml","fs.fsrmreportformat","fsrm.fsrmreportformat","fsrmenums/FsrmReportFormat","fsrmenums/FsrmReportFormat_Csv","fsrmenums/FsrmReportFormat_DHtml","fsrmenums/FsrmReportFormat_Html","fsrmenums/FsrmReportFormat_Txt","fsrmenums/FsrmReportFormat_Unknown","fsrmenums/FsrmReportFormat_Xml"]
 old-location: fsrm\fsrmreportformat.htm
 tech.root: fsrm
 ms.assetid: 0f8fd733-034a-40d0-b59b-4c70fff5fd42

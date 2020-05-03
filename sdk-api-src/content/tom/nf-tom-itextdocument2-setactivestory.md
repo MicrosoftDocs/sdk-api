@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument2.SetActiveStory
 title: ITextDocument2::SetActiveStory (tom.h)
-description: Sets the active story; that is, the story that receives keyboard and mouse input.
+description: Sets the active story; that is, the story that receives keyboard and mouse input.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SetActiveStory method","ITextDocument2.SetActiveStory","ITextDocument2::SetActiveStory","SetActiveStory","SetActiveStory method [Windows Controls]","SetActiveStory method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_setactivestory","tom/ITextDocument2::SetActiveStory"]
 old-location: controls\itextdocument2_setactivestory.htm
 tech.root: Controls
 ms.assetid: 2c71673c-5119-4906-99e0-1a2aa04589e1

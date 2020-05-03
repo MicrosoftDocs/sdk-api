@@ -2,6 +2,7 @@
 UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS
 title: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS (bluetoothapis.h)
 description: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure contains specific configuration information about the Bluetooth device responding to an authentication request.
+helpviewer_keywords: ["*PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure [Bluetooth]","PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure pointer [Bluetooth]","bluetooth.bluetooth_authentication_callback_params","bluetoothapis/BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS","bluetoothapis/PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"]
 old-location: bluetooth\bluetooth_authentication_callback_params.htm
 tech.root: bluetooth
 ms.assetid: e9c703c1-7981-4c34-a96e-0123d3655e55
@@ -59,22 +60,22 @@ The <b>BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</b> structure contains specific 
 
 ### -field deviceInfo
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure that contains information about a Bluetooth device.
+A <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure that contains information about a Bluetooth device.
 
 
 ### -field authenticationMethod
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the authentication method utilized by the Bluetooth device.
+A <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a> enumeration that defines the authentication method utilized by the Bluetooth device.
 
 
 ### -field ioCapability
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a> enumeration that defines the input/output capabilities of the Bluetooth device.
+A <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a> enumeration that defines the input/output capabilities of the Bluetooth device.
 
 
 ### -field authenticationRequirements
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
+A <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> specifies the 'Man in the Middle' protection required for authentication.
 
 
 ### -field Numeric_Value
@@ -92,15 +93,15 @@ A <b>ULONG</b> value used as  the passkey used for authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>
+<a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a>
+<a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_io_capability">BLUETOOTH_IO_CAPABILITY</a>
  
 
  

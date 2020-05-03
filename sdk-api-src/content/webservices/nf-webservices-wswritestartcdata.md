@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteStartCData
 title: WsWriteStartCData function (webservices.h)
-description: This operation starts a CDATA section in the writer.
+description: This operation starts a CDATA section in the writer.helpviewer_keywords: ["WsWriteStartCData","WsWriteStartCData function [Web Services for Windows]","webservices/WsWriteStartCData","wsw.wswritestartcdata"]
 old-location: wsw\wswritestartcdata.htm
 tech.root: wsw
 ms.assetid: c233244c-24b6-4baa-ba36-697283ff33f3

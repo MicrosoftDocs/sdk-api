@@ -2,6 +2,7 @@
 UID: NF:winuser.GetPointerFramePenInfoHistory
 title: GetPointerFramePenInfoHistory function (winuser.h)
 description: Gets the entire frame of pen-based information (including coalesced input frames) for the specified pointers (of type PT_PEN) associated with the current message.
+helpviewer_keywords: ["GetPointerFramePenInfoHistory","GetPointerFramePenInfoHistory function [Input Messages and Notifications]","inputmsg.getpointerframepeninfohistory","winuser/GetPointerFramePenInfoHistory"]
 old-location: inputmsg\getpointerframepeninfohistory.htm
 tech.root: InputMsg
 ms.assetid: a4f6a9f3-dfbd-4413-aae7-f58e1521ef1d
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the entire frame of pen-based information (including coalesced input frames) for the specified pointers (of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message. 
+Gets the entire frame of pen-based information (including coalesced input frames) for the specified pointers (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message. 
 
 
 ## -parameters
@@ -97,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 Parallel-mode devices may report pointer input in frames, that is, they may report the state and position of all pointers from that device in a single input report to the system. Ideally, applications should view the entire frame as a single input unless the application-specific requirements dictate otherwise. 
 
-The information returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> is associated with the most recent pointer (<a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>)  message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
+The information returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> is associated with the most recent pointer (<a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>)  message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
 
 If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <b>GetPointerFramePenInfoHistory</b> to retrieve the message history (including coalesced input frames) from the most recent <b>WM_POINTERUPDATE</b> message. 
 
@@ -118,7 +119,7 @@ If the information associated with the pointer frame is no longer available, thi
 
 If the calling thread does not own the window (where the input was originally delivered or where the message was forwarded) to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>. 
 
-If the specified pointer is not of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
+If the specified pointer is not of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 
 

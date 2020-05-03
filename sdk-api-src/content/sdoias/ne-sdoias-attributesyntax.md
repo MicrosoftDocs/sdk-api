@@ -1,7 +1,7 @@
 ---
 UID: NE:sdoias._ATTRIBUTESYNTAX
 title: ATTRIBUTESYNTAX (sdoias.h)
-description: Each value from the ATTRIBUTESYNTAX enumeration type specifies a possible attribute syntax.
+description: Each value from the ATTRIBUTESYNTAX enumeration type specifies a possible attribute syntax.helpviewer_keywords: ["ATTRIBUTESYNTAX","ATTRIBUTESYNTAX enumeration [Network Policy Server]","IAS_SYNTAX_BOOLEAN","IAS_SYNTAX_ENUMERATOR","IAS_SYNTAX_INETADDR","IAS_SYNTAX_INETADDR6","IAS_SYNTAX_INTEGER","IAS_SYNTAX_OCTETSTRING","IAS_SYNTAX_PROVIDERSPECIFIC","IAS_SYNTAX_STRING","IAS_SYNTAX_UNSIGNEDINTEGER","IAS_SYNTAX_UTCTIME","_sdo_attributesyntax","nps.SDO_attributesyntax","sdo.attributesyntax","sdoias/ATTRIBUTESYNTAX","sdoias/IAS_SYNTAX_BOOLEAN","sdoias/IAS_SYNTAX_ENUMERATOR","sdoias/IAS_SYNTAX_INETADDR","sdoias/IAS_SYNTAX_INETADDR6","sdoias/IAS_SYNTAX_INTEGER","sdoias/IAS_SYNTAX_OCTETSTRING","sdoias/IAS_SYNTAX_PROVIDERSPECIFIC","sdoias/IAS_SYNTAX_STRING","sdoias/IAS_SYNTAX_UNSIGNEDINTEGER","sdoias/IAS_SYNTAX_UTCTIME"]
 old-location: nps\SDO_attributesyntax.htm
 tech.root: Nps
 ms.assetid: 50d56c43-6552-4bb0-a204-a0cfc3ee7202

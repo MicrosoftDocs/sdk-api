@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhGetPropertySize
 title: TdhGetPropertySize function (tdh.h)
-description: Retrieves the size of one or more property values in the event data.
+description: Retrieves the size of one or more property values in the event data.helpviewer_keywords: ["TdhGetPropertySize","TdhGetPropertySize function [ETW]","etw.tdhgetpropertysize_func","tdh.tdhgetpropertysize_func","tdh/TdhGetPropertySize"]
 old-location: etw\tdhgetpropertysize_func.htm
 tech.root: ETW
 ms.assetid: 52b034db-b08b-4c79-973f-33800ca866f5

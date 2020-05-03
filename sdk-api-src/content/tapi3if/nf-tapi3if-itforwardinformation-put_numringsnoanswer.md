@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.put_NumRingsNoAnswer
 title: ITForwardInformation::put_NumRingsNoAnswer (tapi3if.h)
-description: The put_NumRingsNoAnswer method sets the number of rings after which a no answer condition is assumed.
+description: The put_NumRingsNoAnswer method sets the number of rings after which a no answer condition is assumed.helpviewer_keywords: ["ITForwardInformation interface [TAPI 2.2]","put_NumRingsNoAnswer method","ITForwardInformation.put_NumRingsNoAnswer","ITForwardInformation::put_NumRingsNoAnswer","_tapi3_itforwardinformation_put_numringsnoanswer","put_NumRingsNoAnswer","put_NumRingsNoAnswer method [TAPI 2.2]","put_NumRingsNoAnswer method [TAPI 2.2]","ITForwardInformation interface","tapi3.itforwardinformation_put_numringsnoanswer","tapi3if/ITForwardInformation::put_NumRingsNoAnswer"]
 old-location: tapi3\itforwardinformation_put_numringsnoanswer.htm
 tech.root: Tapi
 ms.assetid: ad7b2746-cb97-406e-a328-efc051681aa6

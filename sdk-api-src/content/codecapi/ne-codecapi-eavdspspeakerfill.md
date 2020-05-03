@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVDSPSpeakerFill
 title: eAVDSPSpeakerFill (codecapi.h)
-description: Specifies whether speaker fill is enabled in an audio decoder or digital signal processor (DSP).
+description: Specifies whether speaker fill is enabled in an audio decoder or digital signal processor (DSP).helpviewer_keywords: ["codecapi/eAVDSPSpeakerFill","codecapi/eAVDSPSpeakerFill_AUTO","codecapi/eAVDSPSpeakerFill_OFF","codecapi/eAVDSPSpeakerFill_ON","dshow.eavdspspeakerfill","eAVDSPSpeakerFill","eAVDSPSpeakerFill enumeration [DirectShow]","eAVDSPSpeakerFill_AUTO","eAVDSPSpeakerFill_OFF","eAVDSPSpeakerFill_ON"]
 old-location: dshow\eavdspspeakerfill.htm
 tech.root: DirectShow
 ms.assetid: 74afd030-bce6-4fb1-b937-2279c1e96264

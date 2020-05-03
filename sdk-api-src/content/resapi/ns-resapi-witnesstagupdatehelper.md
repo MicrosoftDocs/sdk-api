@@ -1,7 +1,7 @@
 ---
 UID: NS:resapi._WitnessTagUpdateHelper
 title: WitnessTagUpdateHelper (resapi.h)
-description: Contains information used to update and validate a PaxosTagCStruct structure.
+description: Contains information used to update and validate a PaxosTagCStruct structure.helpviewer_keywords: ["WitnessTagUpdateHelper","WitnessTagUpdateHelper structure [Failover Cluster]","mscs.witnesstagupdatehelper","resapi/WitnessTagUpdateHelper"]
 old-location: mscs\witnesstagupdatehelper.htm
 tech.root: MsCS
 ms.assetid: 4737A2B0-E295-49B6-8A84-D38BC317011B

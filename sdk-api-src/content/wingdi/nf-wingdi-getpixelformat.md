@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetPixelFormat
 title: GetPixelFormat function (wingdi.h)
-description: The GetPixelFormat function obtains the index of the currently selected pixel format of the specified device context.
+description: The GetPixelFormat function obtains the index of the currently selected pixel format of the specified device context.helpviewer_keywords: ["GetPixelFormat","GetPixelFormat function [OpenGL]","_ogl_GetPixelFormat","opengl.getpixelformat","wingdi/GetPixelFormat"]
 old-location: opengl\getpixelformat.htm
 tech.root: OpenGL
 ms.assetid: e9a65f3a-6932-462f-b342-a993d222fae8

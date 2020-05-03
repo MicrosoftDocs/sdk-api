@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.SetAttributeInfo
 title: ITfDisplayAttributeInfo::SetAttributeInfo (msctf.h)
-description: ITfDisplayAttributeInfo::SetAttributeInfo method
+description: ITfDisplayAttributeInfo::SetAttributeInfo methodhelpviewer_keywords: ["ITfDisplayAttributeInfo interface [Text Services Framework]","SetAttributeInfo method","ITfDisplayAttributeInfo.SetAttributeInfo","ITfDisplayAttributeInfo::SetAttributeInfo","SetAttributeInfo","SetAttributeInfo method [Text Services Framework]","SetAttributeInfo method [Text Services Framework]","ITfDisplayAttributeInfo interface","_tsf_itfdisplayattributeinfo_setattributeinfo_ref","msctf/ITfDisplayAttributeInfo::SetAttributeInfo","tsf.itfdisplayattributeinfo_setattributeinfo"]
 old-location: tsf\itfdisplayattributeinfo_setattributeinfo.htm
 tech.root: TSF
 ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.HitTestSelection
 title: IInkOverlay::HitTestSelection (msinkaut.h)
-description: Determines what portion of the selection was hit during a hit test.
+description: Determines what portion of the selection was hit during a hit test.helpviewer_keywords: ["289589fa-84da-40b3-b60e-551ef0114279","HitTestSelection","HitTestSelection method [Tablet PC]","HitTestSelection method [Tablet PC]","IInkOverlay interface","IInkOverlay","IInkOverlay interface [Tablet PC]","HitTestSelection method","IInkOverlay.HitTestSelection","IInkOverlay::HitTestSelection","msinkaut/IInkOverlay::HitTestSelection","tablet.inkoverlay_hittestselection"]
 old-location: tablet\inkoverlay_hittestselection.htm
 tech.root: tablet
 ms.assetid: 289589fa-84da-40b3-b60e-551ef0114279

@@ -2,6 +2,7 @@
 UID: NF:mftransform.IMFTransform.GetInputStatus
 title: IMFTransform::GetInputStatus (mftransform.h)
 description: Queries whether an input stream on this Media Foundation transform (MFT) can accept more data.
+helpviewer_keywords: ["6205dc1a-f209-49aa-8632-837783ef5f04","GetInputStatus","GetInputStatus method [Media Foundation]","GetInputStatus method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetInputStatus method","IMFTransform.GetInputStatus","IMFTransform::GetInputStatus","mf.imftransform_getinputstatus","mftransform/IMFTransform::GetInputStatus"]
 old-location: mf\imftransform_getinputstatus.htm
 tech.root: medfound
 ms.assetid: 6205dc1a-f209-49aa-8632-837783ef5f04
@@ -67,7 +68,7 @@ Input stream identifier. To get the list of stream identifiers, call <a href="ht
 
 ### -param pdwFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_input_status_flags">_MFT_INPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_INPUT_STATUS_ACCEPT_DATA</b>, the stream specified in <i>dwInputStreamID</i> can accept more input data.
+Receives a member of the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_input_status_flags">_MFT_INPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_INPUT_STATUS_ACCEPT_DATA</b>, the stream specified in <i>dwInputStreamID</i> can accept more input data.
           
 
 

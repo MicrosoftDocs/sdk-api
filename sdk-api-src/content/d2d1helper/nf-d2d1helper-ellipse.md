@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Ellipse
 title: Ellipse function (d2d1helper.h)
-description: Creates a D2D1_ELLIPSE structure.
+description: Creates a D2D1_ELLIPSE structure.helpviewer_keywords: ["Ellipse","Ellipse function [Direct2D]","d2d1helper/Ellipse","direct2d.ellipse"]
 old-location: direct2d\ellipse.htm
 tech.root: Direct2D
 ms.assetid: 49d1b737-acf3-4dd7-81ce-c78ac0558a87

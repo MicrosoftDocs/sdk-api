@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_BootImageOptions
 title: IFileSystemImage::put_BootImageOptions (imapi2fs.h)
-description: Sets the boot image that you want to add to the file-system image. This method creates a complete copy of the passed-in boot options by copying the stream from the supplied IBootOptions interface.
+description: Sets the boot image that you want to add to the file-system image. This method creates a complete copy of the passed-in boot options by copying the stream from the supplied IBootOptions interface.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_BootImageOptions method","IFileSystemImage.put_BootImageOptions","IFileSystemImage::put_BootImageOptions","imapi.ifilesystemimage_put_bootimageoptions","imapi2fs/IFileSystemImage::put_BootImageOptions","put_BootImageOptions","put_BootImageOptions method [IMAPI]","put_BootImageOptions method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_bootimageoptions.htm
 tech.root: imapi
 ms.assetid: 0556b72d-eabd-4649-b16b-fd66052504f4

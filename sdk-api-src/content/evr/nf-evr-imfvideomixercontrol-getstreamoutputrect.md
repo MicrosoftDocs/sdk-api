@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.GetStreamOutputRect
 title: IMFVideoMixerControl::GetStreamOutputRect (evr.h)
-description: Retrieves the position of a video stream within the composition rectangle.
+description: Retrieves the position of a video stream within the composition rectangle.helpviewer_keywords: ["6de631cd-f85e-4f53-b14c-8ca3cd65b719","GetStreamOutputRect","GetStreamOutputRect method [Media Foundation]","GetStreamOutputRect method [Media Foundation]","IMFVideoMixerControl interface","IMFVideoMixerControl interface [Media Foundation]","GetStreamOutputRect method","IMFVideoMixerControl.GetStreamOutputRect","IMFVideoMixerControl::GetStreamOutputRect","evr/IMFVideoMixerControl::GetStreamOutputRect","mf.imfvideomixercontrol_getstreamoutputrect"]
 old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm
 tech.root: medfound
 ms.assetid: 6de631cd-f85e-4f53-b14c-8ca3cd65b719

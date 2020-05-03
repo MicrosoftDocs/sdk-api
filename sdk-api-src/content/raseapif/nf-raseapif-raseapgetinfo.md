@@ -2,6 +2,7 @@
 UID: NF:raseapif.RasEapGetInfo
 title: RasEapGetInfo function (raseapif.h)
 description: The RAS connection manager calls RasEapGetInfo to obtain a set of function pointers for a specified authentication protocol.
+helpviewer_keywords: ["RasEapGetInfo","RasEapGetInfo callback","RasEapGetInfo callback function [EAP]","_eap_raseapgetinfo","eap.raseapgetinfo","raseapif/RasEapGetInfo"]
 old-location: eap\raseapgetinfo.htm
 tech.root: EAP
 ms.assetid: e75964b9-f5d6-494e-8620-07f0e97bcd09
@@ -94,7 +95,7 @@ Implementations of EAP must export the
 
 Upon initialization, the Connection Manager calls 
 <b>RasEapGetInfo</b> for each EAP DLL installed in the registry subkey, as explained in the 
-[EAP Overview](https://docs.microsoft.com/windows/win32/eap/eap-installation)a>.
+[EAP Overview](/windows/win32/eap/eap-installation).
 
 If the function returns any value other than <b>NO_ERROR</b>, RAS considers the authentication protocol to be non-functional. RAS posts an error to the  Windows NT/Windows 2000 Event Log to indicate that this protocol did not start correctly and therefore is not available.
 
@@ -106,15 +107,15 @@ If the function returns any value other than <b>NO_ERROR</b>, RAS considers the 
 
 
 
-[EAP (Extensible Authentication Protocol) Overview](https://docs.microsoft.com/windows/win32/eap/about-extensible-authentication-protocol)a>
+[EAP (Extensible Authentication Protocol) Overview](/windows/win32/eap/about-extensible-authentication-protocol)
 
 
 
-[EAP Functions](https://docs.microsoft.com/windows/win32/eap/eap-functions)a>
+[EAP Functions](/windows/win32/eap/eap-functions)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 

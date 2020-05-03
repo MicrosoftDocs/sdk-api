@@ -1,7 +1,7 @@
 ---
 UID: NF:netsh.PrintError
 title: PrintError function (netsh.h)
-description: Displays a system or application error message to the NetShell console.
+description: Displays a system or application error message to the NetShell console.helpviewer_keywords: ["PrintError","PrintError function [NetShell]","_netsh_printerror","netsh/PrintError","netshell.printerror"]
 old-location: netshell\printerror.htm
 tech.root: netshell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610

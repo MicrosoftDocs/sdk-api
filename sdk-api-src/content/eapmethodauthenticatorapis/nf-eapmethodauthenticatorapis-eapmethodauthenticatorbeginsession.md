@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorBeginSession
 title: EapMethodAuthenticatorBeginSession function (eapmethodauthenticatorapis.h)
 description: Creates a new EAP authentication session on the server EAPHost.
+helpviewer_keywords: ["EapMethodAuthenticatorBeginSession","EapMethodAuthenticatorBeginSession function [EAPHost]","eaphost.eapmethodauthenticatorbeginsession","eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession"]
 old-location: eaphost\eapmethodauthenticatorbeginsession.htm
 tech.root: eaphost
 ms.assetid: 02364783-71e4-4af0-95a2-a4ade7e17521
@@ -61,7 +62,7 @@ Creates a new EAP authentication session on the server EAPHost.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param bInitialId [in]
@@ -120,7 +121,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 
 
 

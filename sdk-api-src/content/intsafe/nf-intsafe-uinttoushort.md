@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntToUShort
 title: UIntToUShort function (intsafe.h)
-description: Converts a value of type UINT to a value of type USHORT.
+description: Converts a value of type UINT to a value of type USHORT.helpviewer_keywords: ["UIntToUShort","UIntToUShort function [Windows Shell]","UIntToWord","_shell_UIntToUShort","intsafe/UIntToUShort","shell.UIntToUShort"]
 old-location: shell\UIntToUShort.htm
 tech.root: shell
 ms.assetid: 3328c24d-e576-4b57-a03f-506bc172ac2c

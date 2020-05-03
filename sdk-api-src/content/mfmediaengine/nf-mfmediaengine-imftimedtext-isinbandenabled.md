@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.IsInBandEnabled
 title: IMFTimedText::IsInBandEnabled (mfmediaengine.h)
-description: Determines whether inband mode is enabled.
+description: Determines whether inband mode is enabled.helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","IsInBandEnabled method","IMFTimedText.IsInBandEnabled","IMFTimedText::IsInBandEnabled","IsInBandEnabled","IsInBandEnabled method [Media Foundation]","IsInBandEnabled method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_isinbandenabled","mfmediaengine/IMFTimedText::IsInBandEnabled"]
 old-location: mf\imftimedtext_isinbandenabled.htm
 tech.root: medfound
 ms.assetid: 21BBA2CE-6732-45BD-B5EC-7DBC4A3123E1

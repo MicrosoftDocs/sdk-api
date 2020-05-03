@@ -2,6 +2,7 @@
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0012
 title: SimilarityData (msrdc.h)
 description: Contains the similarity data for a file.
+helpviewer_keywords: ["SimilarityData","SimilarityData structure [Remote Differential Compression]","fs.similaritydata","msrdc/SimilarityData","rdc.similaritydata"]
 old-location: rdc\similaritydata.htm
 tech.root: rdc
 ms.assetid: 33fdb48c-6f33-44e8-83b1-6029b1eace1d
@@ -67,7 +68,7 @@ The similarity data for the file.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a>
  
 
  

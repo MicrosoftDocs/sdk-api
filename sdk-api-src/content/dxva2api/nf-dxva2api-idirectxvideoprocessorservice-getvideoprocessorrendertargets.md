@@ -1,7 +1,7 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorRenderTargets
 title: IDirectXVideoProcessorService::GetVideoProcessorRenderTargets (dxva2api.h)
-description: Gets the render target formats that a video processor device supports. The list may include RGB and YUV formats.
+description: Gets the render target formats that a video processor device supports. The list may include RGB and YUV formats.helpviewer_keywords: ["GetVideoProcessorRenderTargets","GetVideoProcessorRenderTargets method [Media Foundation]","GetVideoProcessorRenderTargets method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetVideoProcessorRenderTargets method","IDirectXVideoProcessorService.GetVideoProcessorRenderTargets","IDirectXVideoProcessorService::GetVideoProcessorRenderTargets","aecbba1e-309c-4668-9e17-d59710d86151","dxva2api/IDirectXVideoProcessorService::GetVideoProcessorRenderTargets","mf.idirectxvideoprocessorservice_getvideoprocessorrendertargets"]
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorrendertargets.htm
 tech.root: medfound
 ms.assetid: aecbba1e-309c-4668-9e17-d59710d86151

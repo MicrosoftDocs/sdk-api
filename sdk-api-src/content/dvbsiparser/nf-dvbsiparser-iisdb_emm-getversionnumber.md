@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetVersionNumber
 title: IISDB_EMM::GetVersionNumber (dvbsiparser.h)
-description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
+description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IISDB_EMM interface","IISDB_EMM interface [Microsoft TV Technologies]","GetVersionNumber method","IISDB_EMM.GetVersionNumber","IISDB_EMM::GetVersionNumber","dvbsiparser/IISDB_EMM::GetVersionNumber","mstv.iisdb_emm_getversionnumber"]
 old-location: mstv\iisdb_emm_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 3eebc1cc-044b-4a0a-8259-cb225f829df8

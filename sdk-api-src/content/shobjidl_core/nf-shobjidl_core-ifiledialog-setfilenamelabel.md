@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileNameLabel
 title: IFileDialog::SetFileNameLabel (shobjidl_core.h)
-description: Sets the text of the label next to the file name edit box.
+description: Sets the text of the label next to the file name edit box.helpviewer_keywords: ["IFileDialog interface [Windows Shell]","SetFileNameLabel method","IFileDialog.SetFileNameLabel","IFileDialog::SetFileNameLabel","SetFileNameLabel","SetFileNameLabel method [Windows Shell]","SetFileNameLabel method [Windows Shell]","IFileDialog interface","shell.IFileDialog_SetFileNameLabel","shell_IFileDialog_SetFileNameLabel","shobjidl_core/IFileDialog::SetFileNameLabel"]
 old-location: shell\IFileDialog_SetFileNameLabel.htm
 tech.root: shell
 ms.assetid: 4dc456c4-e06a-4bbf-b7c3-a6f93b46a044

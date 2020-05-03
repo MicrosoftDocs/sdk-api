@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterOpenEnumEx
 title: ClusterOpenEnumEx function (clusapi.h)
-description: Opens a handle to a cluster in order to iterate through its objects.
+description: Opens a handle to a cluster in order to iterate through its objects.helpviewer_keywords: ["ClusterOpenEnumEx","ClusterOpenEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_OPEN_ENUM_EX","PCLUSAPI_CLUSTER_OPEN_ENUM_EX function [Failover Cluster]","clusapi/ClusterOpenEnumEx","clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX","mscs.clusteropenenumex"]
 old-location: mscs\clusteropenenumex.htm
 tech.root: MsCS
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5

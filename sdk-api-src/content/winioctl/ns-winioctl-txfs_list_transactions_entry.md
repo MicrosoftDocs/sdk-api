@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTIONS_ENTRY
 title: TXFS_LIST_TRANSACTIONS_ENTRY
-description: Contains information about a transaction.
+description: Contains information about a transaction.helpviewer_keywords: ["*PTXFS_LIST_TRANSACTIONS_ENTRY","PTXFS_LIST_TRANSACTIONS_ENTRY","PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files]","TXFS_LIST_TRANSACTIONS_ENTRY","TXFS_LIST_TRANSACTIONS_ENTRY structure [Files]","fs.txfs_list_transactions_entry","winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY","winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"]
 old-location: fs\txfs_list_transactions_entry.htm
 tech.root: FileIO
 ms.assetid: 7de14fb1-1972-4bf0-b0e2-f0344e963eef

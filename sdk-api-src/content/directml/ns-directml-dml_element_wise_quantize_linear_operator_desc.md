@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
 title: DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
-description: Describes a DirectML operator that performs the linear quantize function on every element in InputTensor with respect to its corresponding element in ScaleTensor and ZeroPointTensor, f(input, scale, zero_point) = clamp(round(input / scale) + zero_point, 0, 255).
+description: Describes a DirectML operator that performs the linear quantize function on every element in InputTensor with respect to its corresponding element in ScaleTensor and ZeroPointTensor, f(input, scale, zero_point) = clamp(round(input / scale) + zero_point, 0, 255).helpviewer_keywords: ["DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC","DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC structure","direct3d12.dml_element_wise_quantize_linear_operator_desc","directml/DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_quantize_linear_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 46415049-2978-4162-B94C-B600EA91992C

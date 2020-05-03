@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSsFree
 title: RpcSsFree function (rpcndr.h)
-description: The RpcSsFree function releases memory allocated by RpcSsAllocate.
+description: The RpcSsFree function releases memory allocated by RpcSsAllocate.helpviewer_keywords: ["RpcSsFree","RpcSsFree function [RPC]","_rpc_rpcssfree","rpc.rpcssfree","rpcndr/RpcSsFree"]
 old-location: rpc\rpcssfree.htm
 tech.root: Rpc
 ms.assetid: f004ea19-3d1c-485f-99be-da59cbe478d2

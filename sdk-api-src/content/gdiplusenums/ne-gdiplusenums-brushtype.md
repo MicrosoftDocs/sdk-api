@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.BrushType
 title: BrushType (gdiplusenums.h)
-description: The BrushType enumeration indicates the type of brush. There are five types of brushes.
+description: The BrushType enumeration indicates the type of brush. There are five types of brushes.helpviewer_keywords: ["BrushType","BrushType enumeration [GDI+]","BrushTypeHatchFill","BrushTypeLinearGradient","BrushTypePathGradient","BrushTypeSolidColor","BrushTypeTextureFill","_gdiplus_ENUM_BrushType","gdiplus._gdiplus_ENUM_BrushType","gdiplusenums/BrushType","gdiplusenums/BrushTypeHatchFill","gdiplusenums/BrushTypeLinearGradient","gdiplusenums/BrushTypePathGradient","gdiplusenums/BrushTypeSolidColor","gdiplusenums/BrushTypeTextureFill"]
 old-location: gdiplus\_gdiplus_ENUM_BrushType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\brushtype.htm

@@ -2,6 +2,7 @@
 UID: NF:dpapi.CryptProtectData
 title: CryptProtectData function (dpapi.h)
 description: Performs encryption on the data in a DATA_BLOB structure.
+helpviewer_keywords: ["CRYPTPROTECT_AUDIT","CRYPTPROTECT_LOCAL_MACHINE","CRYPTPROTECT_UI_FORBIDDEN","CryptProtectData","CryptProtectData function [Security]","_crypto2_cryptprotectdata","dpapi/CryptProtectData","security.cryptprotectdata","wincrypt/CryptProtectData"]
 old-location: security\cryptprotectdata.htm
 tech.root: SecCrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
@@ -122,7 +123,7 @@ This flag is used for remote situations where presenting a user interface (UI) i
 </dl>
 </td>
 <td width="60%">
-This flag generates an audit on protect and unprotect operations.
+This flag generates an audit on protect and unprotect operations. Audit log entries are recorded only if szDataDescr is not <b>NULL</b> and not empty.
 
 </td>
 </tr>

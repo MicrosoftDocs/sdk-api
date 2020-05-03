@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Decode
 title: ICertEncodeDateArray::Decode (certenc.h)
-description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.
+description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.helpviewer_keywords: ["CCertEncodeDateArray object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeDateArray object","Decode method [Security]","ICertEncodeDateArray interface","ICertEncodeDateArray interface [Security]","Decode method","ICertEncodeDateArray.Decode","ICertEncodeDateArray::Decode","_certsrv_icertencodedatearray_decode","certenc/ICertEncodeDateArray::Decode","security.icertencodedatearray_decode"]
 old-location: security\icertencodedatearray_decode.htm
 tech.root: SecCrypto
 ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac

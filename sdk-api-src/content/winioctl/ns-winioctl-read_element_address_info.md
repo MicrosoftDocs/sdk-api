@@ -2,6 +2,7 @@
 UID: NS:winioctl._READ_ELEMENT_ADDRESS_INFO
 title: READ_ELEMENT_ADDRESS_INFO
 description: Represents the volume tag information. It is used by the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code.
+helpviewer_keywords: ["*PREAD_ELEMENT_ADDRESS_INFO","PREAD_ELEMENT_ADDRESS_INFO","PREAD_ELEMENT_ADDRESS_INFO structure pointer","READ_ELEMENT_ADDRESS_INFO","READ_ELEMENT_ADDRESS_INFO structure","_win32_read_element_address_info_str","base.read_element_address_info_str","winioctl/PREAD_ELEMENT_ADDRESS_INFO","winioctl/READ_ELEMENT_ADDRESS_INFO"]
 old-location: base\read_element_address_info_str.htm
 tech.root: devio
 ms.assetid: 2b7e611b-7db6-4ba6-ae1f-4269a96dbb16
@@ -60,7 +61,7 @@ Represents the volume tag information. It is used by the
 ### -field NumberOfElements
 
 The number of elements matching criteria set forth by the <b>ActionCode</b> member of 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>. 
+<a href="/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>. 
 
 
 
@@ -73,7 +74,7 @@ For information on compatibility with the current device, see the <b>Features0</
 
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a> structures, one for each element that corresponded with the information passed in with the 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure.
+<a href="/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure.
 
 
 ## -see-also
@@ -85,7 +86,7 @@ An array of
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 

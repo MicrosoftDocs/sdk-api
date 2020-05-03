@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetColumnInfo
 title: IMetaDataTables::GetColumnInfo (rometadataapi.h)
-description: Gets data about the specified column in the specified table.
+description: Gets data about the specified column in the specified table.helpviewer_keywords: ["GetColumnInfo","GetColumnInfo method [Windows Runtime]","GetColumnInfo method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetColumnInfo method","IMetaDataTables.GetColumnInfo","IMetaDataTables::GetColumnInfo","rometadataapi/IMetaDataTables::GetColumnInfo","winrt.imetadatatables_getcolumninfo"]
 old-location: winrt\imetadatatables_getcolumninfo.htm
 tech.root: WinRT
 ms.assetid: aea7944a-87db-496c-869d-e9e2fa87e9af

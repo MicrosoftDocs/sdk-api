@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.DeleteRelationship
 title: IOpcRelationshipSet::DeleteRelationship (msopc.h)
-description: Deletes a specified IOpcRelationship interface pointer from the set.
+description: Deletes a specified IOpcRelationship interface pointer from the set.helpviewer_keywords: ["DeleteRelationship","DeleteRelationship method [Open Packaging Conventions]","DeleteRelationship method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","DeleteRelationship method","IOpcRelationshipSet.DeleteRelationship","IOpcRelationshipSet::DeleteRelationship","msopc/IOpcRelationshipSet::DeleteRelationship","opc.iopcrelationshipset_deleterelationship"]
 old-location: opc\iopcrelationshipset_deleterelationship.htm
 tech.root: OPC
 ms.assetid: fa452e8d-10dd-4cc4-a56b-a09d841dc46a

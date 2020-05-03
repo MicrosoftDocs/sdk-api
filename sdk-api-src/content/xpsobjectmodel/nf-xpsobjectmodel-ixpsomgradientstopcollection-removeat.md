@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.RemoveAt
 title: IXpsOMGradientStopCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and releases an IXpsOMGradientStop interface pointer from a specified location in the collection.
+description: Removes and releases an IXpsOMGradientStop interface pointer from a specified location in the collection.helpviewer_keywords: ["IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMGradientStopCollection.RemoveAt","IXpsOMGradientStopCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface","xps.ixpsomgradientstopcollection_removeat","xpsobjectmodel/IXpsOMGradientStopCollection::RemoveAt"]
 old-location: xps\ixpsomgradientstopcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: dbca41b1-5510-484d-80a1-c8d260cb5c39

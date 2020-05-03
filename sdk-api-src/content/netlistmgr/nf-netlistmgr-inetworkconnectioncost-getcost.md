@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCost.GetCost
 title: INetworkConnectionCost::GetCost (netlistmgr.h)
-description: GetCost method retrieves the network cost associated with a connection.
+description: GetCost method retrieves the network cost associated with a connection.helpviewer_keywords: ["GetCost","GetCost method [Network Awareness]","GetCost method [Network Awareness]","INetworkConnectionCost interface","INetworkConnectionCost interface [Network Awareness]","GetCost method","INetworkConnectionCost.GetCost","INetworkConnectionCost::GetCost","netlistmgr/INetworkConnectionCost::GetCost","nla.inetworkconnectioncost_getcost"]
 old-location: nla\inetworkconnectioncost_getcost.htm
 tech.root: nla
 ms.assetid: 66D5FC1A-054C-406E-BEC3-CA62EA09CDF1

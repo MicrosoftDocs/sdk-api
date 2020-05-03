@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CloseFigure
 title: CloseFigure function (wingdi.h)
-description: The CloseFigure function closes an open figure in a path.
+description: The CloseFigure function closes an open figure in a path.helpviewer_keywords: ["CloseFigure","CloseFigure function [Windows GDI]","_win32_CloseFigure","gdi.closefigure","wingdi/CloseFigure"]
 old-location: gdi\closefigure.htm
 tech.root: gdi
 ms.assetid: 2532227c-35c9-4a46-b4eb-4a156ef28219

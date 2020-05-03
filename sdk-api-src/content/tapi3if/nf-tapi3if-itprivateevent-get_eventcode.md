@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_EventCode
 title: ITPrivateEvent::get_EventCode (tapi3if.h)
-description: The get_EventCode method returns a pointer to a provider-specific event descriptor.
+description: The get_EventCode method returns a pointer to a provider-specific event descriptor.helpviewer_keywords: ["ITPrivateEvent interface [TAPI 2.2]","get_EventCode method","ITPrivateEvent.get_EventCode","ITPrivateEvent::get_EventCode","_tapi3_itprivateevent_get_eventcode","get_EventCode","get_EventCode method [TAPI 2.2]","get_EventCode method [TAPI 2.2]","ITPrivateEvent interface","tapi3.itprivateevent_get_eventcode","tapi3if/ITPrivateEvent::get_EventCode"]
 old-location: tapi3\itprivateevent_get_eventcode.htm
 tech.root: Tapi
 ms.assetid: a66423ca-c0ed-4d1d-bf28-afc59ac5a5d4

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFMediaType
 title: IMFMediaType (mfobjects.h)
-description: Represents a description of a media format.
+description: Represents a description of a media format.helpviewer_keywords: ["IMFMediaType","IMFMediaType interface [Media Foundation]","IMFMediaType interface [Media Foundation]","described","f1d60bec-71e4-4fcc-a020-92754b6f3c02","mf.imfmediatype","mfobjects/IMFMediaType"]
 old-location: mf\imfmediatype.htm
 tech.root: medfound
 ms.assetid: f1d60bec-71e4-4fcc-a020-92754b6f3c02

@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTableItemPattern
 title: IUIAutomationTableItemPattern (uiautomationclient.h)
-description: Provides access to a child element in a container that supports IUIAutomationTablePattern.
+description: Provides access to a child element in a container that supports IUIAutomationTablePattern.helpviewer_keywords: ["IUIAutomationTableItemPattern","IUIAutomationTableItemPattern interface [Windows Accessibility]","IUIAutomationTableItemPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTableItemPattern","uiauto_IUIAutomationTableItemPattern","uiautomationclient/IUIAutomationTableItemPattern","winauto.uiauto_IUIAutomationTableItemPattern"]
 old-location: winauto\uiauto_IUIAutomationTableItemPattern.htm
 tech.root: WinAuto
 ms.assetid: 8e9948ec-7c31-45dd-ac9f-e9eafed9d2db

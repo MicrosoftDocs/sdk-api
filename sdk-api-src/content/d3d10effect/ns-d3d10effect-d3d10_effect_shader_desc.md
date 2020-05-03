@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10effect._D3D10_EFFECT_SHADER_DESC
 title: D3D10_EFFECT_SHADER_DESC (d3d10effect.h)
-description: Describes an effect shader.
+description: Describes an effect shader.helpviewer_keywords: ["7f99dca9-036c-f8a6-79ea-5316af7e1124","D3D10_EFFECT_SHADER_DESC","D3D10_EFFECT_SHADER_DESC structure [Direct3D 10]","d3d10effect/D3D10_EFFECT_SHADER_DESC","direct3d10.d3d10_effect_shader_desc"]
 old-location: direct3d10\d3d10_effect_shader_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_shader_desc.htm

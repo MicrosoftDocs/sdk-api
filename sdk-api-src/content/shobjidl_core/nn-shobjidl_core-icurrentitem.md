@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ICurrentItem
 title: ICurrentItem (shobjidl_core.h)
-description: Obtained by calling IShellFolder::BindToObject for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
+description: Obtained by calling IShellFolder::BindToObject for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.helpviewer_keywords: ["ICurrentItem","ICurrentItem interface [Windows Shell]","ICurrentItem interface [Windows Shell]","described","_shell_ICurrentItem","shell.ICurrentItem","shobjidl_core/ICurrentItem"]
 old-location: shell\ICurrentItem.htm
 tech.root: shell
 ms.assetid: a5ff7199-134d-4c1a-91e0-a81ff474f5a6

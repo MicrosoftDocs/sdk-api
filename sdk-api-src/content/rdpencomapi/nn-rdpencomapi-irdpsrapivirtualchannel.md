@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIVirtualChannel
 title: IRDPSRAPIVirtualChannel (rdpencomapi.h)
-description: Manages the virtual channel.
+description: Manages the virtual channel.helpviewer_keywords: ["IRDPSRAPIVirtualChannel","IRDPSRAPIVirtualChannel interface [RDP]","IRDPSRAPIVirtualChannel interface [RDP]","described","rdp.irdpsrapivirtualchannel","rdpencomapi/IRDPSRAPIVirtualChannel"]
 old-location: rdp\irdpsrapivirtualchannel.htm
 tech.root: rdp
 ms.assetid: c3cceb22-424d-4ed9-8d4d-0ca523ba5e9c

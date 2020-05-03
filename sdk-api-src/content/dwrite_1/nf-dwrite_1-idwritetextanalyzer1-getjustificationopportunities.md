@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetJustificationOpportunities
 title: IDWriteTextAnalyzer1::GetJustificationOpportunities (dwrite_1.h)
-description: Retrieves justification opportunity information for each of the glyphs given the text and shaping glyph properties.
+description: Retrieves justification opportunity information for each of the glyphs given the text and shaping glyph properties.helpviewer_keywords: ["GetJustificationOpportunities","GetJustificationOpportunities method [Direct Write]","GetJustificationOpportunities method [Direct Write]","IDWriteTextAnalyzer1 interface","IDWriteTextAnalyzer1 interface [Direct Write]","GetJustificationOpportunities method","IDWriteTextAnalyzer1.GetJustificationOpportunities","IDWriteTextAnalyzer1::GetJustificationOpportunities","directwrite.idwritetextanalyzer1_getjustificationopportunities","dwrite_1/IDWriteTextAnalyzer1::GetJustificationOpportunities"]
 old-location: directwrite\idwritetextanalyzer1_getjustificationopportunities.htm
 tech.root: DirectWrite
 ms.assetid: 85D3841F-FA2B-4636-B786-DCD68C72209A

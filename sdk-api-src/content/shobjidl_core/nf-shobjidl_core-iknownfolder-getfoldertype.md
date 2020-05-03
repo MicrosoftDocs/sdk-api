@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetFolderType
 title: IKnownFolder::GetFolderType (shobjidl_core.h)
-description: Retrieves the folder type.
+description: Retrieves the folder type.helpviewer_keywords: ["GetFolderType","GetFolderType method [Windows Shell]","GetFolderType method [Windows Shell]","IKnownFolder interface","IKnownFolder interface [Windows Shell]","GetFolderType method","IKnownFolder.GetFolderType","IKnownFolder::GetFolderType","_shell_IKnownFolder_GetFolderType","shell.IKnownFolder_GetFolderType","shobjidl_core/IKnownFolder::GetFolderType"]
 old-location: shell\IKnownFolder_GetFolderType.htm
 tech.root: shell
 ms.assetid: a2457d52-390d-43bd-8db0-9c18492cc40e

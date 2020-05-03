@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmCalloutGetById0
 title: FwpmCalloutGetById0 function (fwpmu.h)
 description: Retrieves a callout object.
+helpviewer_keywords: ["FwpmCalloutGetById0","FwpmCalloutGetById0 function [Filtering]","fwp.fwpmcalloutgetbyid0_func","fwpmu/FwpmCalloutGetById0"]
 old-location: fwp\fwpmcalloutgetbyid0_func.htm
 tech.root: fwp
 ms.assetid: d02eca94-fe08-4a80-9a3f-3a870aa10eed
@@ -73,7 +74,7 @@ The runtime identifier for the callout. This identifier was received from the sy
 
 ### -param callout [out]
 
-Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>**</b>
+Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)**</b>
 
 Information about the state associated with the callout.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>
+[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)
 
 
 

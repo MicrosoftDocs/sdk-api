@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.ITuningSpaces
 title: ITuningSpaces (tuner.h)
-description: The ITuningSpaces interface represents a collection of tuning spaces.
+description: The ITuningSpaces interface represents a collection of tuning spaces.helpviewer_keywords: ["ITuningSpaces","ITuningSpaces interface [Microsoft TV Technologies]","ITuningSpaces interface [Microsoft TV Technologies]","described","ITuningSpacesInterface","mstv.ituningspaces","tuner/ITuningSpaces"]
 old-location: mstv\ituningspaces.htm
 tech.root: mstv
 ms.assetid: db252e22-8efe-4bfc-8fd3-2be7022bbbbd

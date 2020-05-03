@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction
 title: INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction (shobjidl.h)
-description: Invokes the default accessibility action on a Shell item.
+description: Invokes the default accessibility action on a Shell item.helpviewer_keywords: ["INameSpaceTreeAccessible interface [Windows Shell]","OnDoDefaultAccessibilityAction method","INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction","INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction","OnDoDefaultAccessibilityAction","OnDoDefaultAccessibilityAction method [Windows Shell]","OnDoDefaultAccessibilityAction method [Windows Shell]","INameSpaceTreeAccessible interface","_shell_INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction","shell.INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction","shobjidl/INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction"]
 old-location: shell\INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction.htm
 tech.root: shell
 ms.assetid: a6aa6588-6e3c-4229-8540-0aa5d85c0381

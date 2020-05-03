@@ -2,6 +2,7 @@
 UID: NF:msrdc.IRdcSignatureReader.ReadSignatures
 title: IRdcSignatureReader::ReadSignatures (msrdc.h)
 description: Reads a block of signatures from the current position.
+helpviewer_keywords: ["IRdcSignatureReader interface [Remote Differential Compression]","ReadSignatures method","IRdcSignatureReader.ReadSignatures","IRdcSignatureReader::ReadSignatures","ReadSignatures","ReadSignatures method [Remote Differential Compression]","ReadSignatures method [Remote Differential Compression]","IRdcSignatureReader interface","fs.irdcsignaturereader_readsignatures","msrdc/IRdcSignatureReader::ReadSignatures","rdc.irdcsignaturereader_readsignatures"]
 old-location: rdc\irdcsignaturereader_readsignatures.htm
 tech.root: rdc
 ms.assetid: 566a5442-b186-4aac-94fa-5784736a30c3
@@ -61,9 +62,9 @@ The
 
 ### -param rdcSignaturePointer [in, out]
 
-Address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a> structure. On 
+Address of a <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a> structure. On 
       input the <b>m_Size</b> member of this structure must contain the number of 
-      <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures in the array pointed to by the 
+      <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignature">RdcSignature</a> structures in the array pointed to by the 
       <b>m_Data</b> member, and the <b>m_Used</b> member must be zero. On 
       output the <b>m_Used</b> member will contain the number of 
       <b>RdcSignature</b> structures in the array pointed to by the 
@@ -94,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a>
  
 
  

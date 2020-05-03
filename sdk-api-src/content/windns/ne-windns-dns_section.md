@@ -1,7 +1,7 @@
 ---
 UID: NE:windns._DnsSection
 title: DNS_SECTION (windns.h)
-description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.
+description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.helpviewer_keywords: ["DNS_SECTION","DNS_SECTION enumeration [DNS]","DnsSectionAddtional","DnsSectionAnswer","DnsSectionAuthority","DnsSectionQuestion","dns.dns_section","windns/DNS_SECTION","windns/DnsSectionAddtional","windns/DnsSectionAnswer","windns/DnsSectionAuthority","windns/DnsSectionQuestion"]
 old-location: dns\dns_section.htm
 tech.root: DNS
 ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6

@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.SetContextPropertyValue
 title: SetContextPropertyValue function (recapis.h)
-description: Adds a property to the recognizer context.If a property already exists, its value is modified.
+description: Adds a property to the recognizer context.If a property already exists, its value is modified.helpviewer_keywords: ["42b1857d-92ee-456f-aafc-b8780526a137","SetContextPropertyValue","SetContextPropertyValue function [Tablet PC]","recapis/SetContextPropertyValue","tablet.setcontextpropertyvalue"]
 old-location: tablet\setcontextpropertyvalue.htm
 tech.root: tablet
 ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137

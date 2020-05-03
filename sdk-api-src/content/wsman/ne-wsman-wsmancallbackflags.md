@@ -1,7 +1,7 @@
 ---
 UID: NE:wsman.WSManCallbackFlags
 title: WSManCallbackFlags (wsman.h)
-description: Defines a set of flags used by all callback functions.
+description: Defines a set of flags used by all callback functions.helpviewer_keywords: ["WSMAN_FLAG_CALLBACK_END_OF_OPERATION","WSMAN_FLAG_CALLBACK_END_OF_STREAM","WSManCallbackFlags","WSManCallbackFlags enumeration [Windows Remote Management]","winrm.wsmancallbackflags","wsman/WSMAN_FLAG_CALLBACK_END_OF_OPERATION","wsman/WSMAN_FLAG_CALLBACK_END_OF_STREAM","wsman/WSManCallbackFlags"]
 old-location: winrm\wsmancallbackflags.htm
 tech.root: winrm
 ms.assetid: ce4c664d-bc69-415a-955d-7761f58a25e2

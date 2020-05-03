@@ -2,6 +2,7 @@
 UID: NS:wlanapi._WLAN_INTERFACE_INFO
 title: WLAN_INTERFACE_INFO (wlanapi.h)
 description: Contains information about a wireless LAN interface.
+helpviewer_keywords: ["*PWLAN_INTERFACE_INFO","PWLAN_INTERFACE_INFO","PWLAN_INTERFACE_INFO structure pointer [NativeWIFI]","WLAN_INTERFACE_INFO","WLAN_INTERFACE_INFO structure [NativeWIFI]","nwifi.wlan_interface_info","wlanapi/PWLAN_INTERFACE_INFO","wlanapi/WLAN_INTERFACE_INFO"]
 old-location: nwifi\wlan_interface_info.htm
 tech.root: NativeWiFi
 ms.assetid: 906e7d59-ebd0-47e7-985e-f5d313f19ecb
@@ -69,7 +70,7 @@ Contains the description of the interface.
 
 ### -field isState
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a> value that indicates the current state of the interface.
+Contains a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a> value that indicates the current state of the interface.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_interface_state_connected</b>, <b>wlan_interface_state_disconnected</b>, and <b>wlan_interface_state_authenticating</b> values are supported.
 

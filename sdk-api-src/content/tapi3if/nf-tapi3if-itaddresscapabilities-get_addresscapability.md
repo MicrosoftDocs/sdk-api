@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_AddressCapability
 title: ITAddressCapabilities::get_AddressCapability (tapi3if.h)
-description: The get_AddressCapability method gets the capability value for a given ADDRESS_CAPABILITY.
+description: The get_AddressCapability method gets the capability value for a given ADDRESS_CAPABILITY.helpviewer_keywords: ["ITAddressCapabilities interface [TAPI 2.2]","get_AddressCapability method","ITAddressCapabilities.get_AddressCapability","ITAddressCapabilities::get_AddressCapability","_tapi3_itaddresscapabilities_get_addresscapability","get_AddressCapability","get_AddressCapability method [TAPI 2.2]","get_AddressCapability method [TAPI 2.2]","ITAddressCapabilities interface","tapi3.itaddresscapabilities_get_addresscapability","tapi3if/ITAddressCapabilities::get_AddressCapability"]
 old-location: tapi3\itaddresscapabilities_get_addresscapability.htm
 tech.root: Tapi
 ms.assetid: 76e61d5e-48b6-4b9c-9076-bd20a794859c

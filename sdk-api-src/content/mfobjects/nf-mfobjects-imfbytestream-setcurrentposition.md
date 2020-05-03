@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFByteStream.SetCurrentPosition
 title: IMFByteStream::SetCurrentPosition (mfobjects.h)
-description: Sets the current read or write position.
+description: Sets the current read or write position.helpviewer_keywords: ["20518fed-4083-413b-b9b1-e54c4c5630d4","IMFByteStream interface [Media Foundation]","SetCurrentPosition method","IMFByteStream.SetCurrentPosition","IMFByteStream::SetCurrentPosition","SetCurrentPosition","SetCurrentPosition method [Media Foundation]","SetCurrentPosition method [Media Foundation]","IMFByteStream interface","mf.imfbytestream_setcurrentposition","mfobjects/IMFByteStream::SetCurrentPosition"]
 old-location: mf\imfbytestream_setcurrentposition.htm
 tech.root: medfound
 ms.assetid: 20518fed-4083-413b-b9b1-e54c4c5630d4

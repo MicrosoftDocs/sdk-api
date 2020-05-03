@@ -2,6 +2,7 @@
 UID: NF:d3d12.ID3D12Device1.CreatePipelineLibrary
 title: ID3D12Device1::CreatePipelineLibrary (d3d12.h)
 description: Creates a cached pipeline library.
+helpviewer_keywords: ["CreatePipelineLibrary","CreatePipelineLibrary method","CreatePipelineLibrary method","ID3D12Device1 interface","ID3D12Device1 interface","CreatePipelineLibrary method","ID3D12Device1.CreatePipelineLibrary","ID3D12Device1::CreatePipelineLibrary","d3d12/ID3D12Device1::CreatePipelineLibrary","direct3d12.id3d12device1_createpipelinelibrary"]
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
@@ -96,6 +97,11 @@ A pipeline library enables the following operations.
 At no point in the lifecycle of a pipeline library is there duplication between PSOs with identical sub-components. 
 
 A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
+
+#### Thread Safety
+
+The pipeline library is thread-safe to use, and will internally synchronize as necessary, with one exception: multiple threads loading the same PSO (via [**LoadComputePipeline**](nf-d3d12-id3d12pipelinelibrary-loadcomputepipeline.md),
+[**LoadGraphicsPipeline**](nf-d3d12-id3d12pipelinelibrary-loadgraphicspipeline.md), or [**LoadPipeline**](nf-d3d12-id3d12pipelinelibrary1-loadpipeline.md)) should synchronize themselves, as this act may modify the state of that pipeline within the library in a non-thread-safe manner.
 
 #### Examples
 

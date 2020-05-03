@@ -2,6 +2,7 @@
 UID: NF:bcrypt.BCRYPT_INIT_AUTH_MODE_INFO
 title: BCRYPT_INIT_AUTH_MODE_INFO macro (bcrypt.h)
 description: Initializes a BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO structure for use in calls to BCryptEncrypt and BCryptDecrypt functions.
+helpviewer_keywords: ["BCRYPT_INIT_AUTH_MODE_INFO","BCRYPT_INIT_AUTH_MODE_INFO macro [Security]","bcrypt/BCRYPT_INIT_AUTH_MODE_INFO","security.bcrypt_init_auth_mode_info"]
 old-location: security\bcrypt_init_auth_mode_info.htm
 tech.root: SecCNG
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="https://docs.microsoft.com/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a> functions.
+The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a> functions.
 
 
 ## -parameters

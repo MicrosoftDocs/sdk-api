@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetPackageInfoItems
 title: IAppxBundleManifestReader::GetPackageInfoItems (appxpackaging.h)
-description: Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element.
+description: Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element.helpviewer_keywords: ["GetPackageInfoItems","GetPackageInfoItems method [App packaging and management]","GetPackageInfoItems method [App packaging and management]","IAppxBundleManifestReader interface","IAppxBundleManifestReader interface [App packaging and management]","GetPackageInfoItems method","IAppxBundleManifestReader.GetPackageInfoItems","IAppxBundleManifestReader::GetPackageInfoItems","appxpackaging/IAppxBundleManifestReader::GetPackageInfoItems","appxpkg.iappxbundlemanifestreader_getpackageinfoitems"]
 old-location: appxpkg\iappxbundlemanifestreader_getpackageinfoitems.htm
 tech.root: appxpkg
 ms.assetid: D216C27E-5B73-49B5-90A8-11187C129264

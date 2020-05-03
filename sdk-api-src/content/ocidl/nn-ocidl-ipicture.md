@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IPicture
 title: IPicture (ocidl.h)
-description: Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles.
+description: Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles.helpviewer_keywords: ["IPicture","IPicture interface [COM]","IPicture interface [COM]","described","_ctrl_ipicture","com.ipicture","ocidl/IPicture"]
 old-location: com\ipicture.htm
 tech.root: com
 ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2

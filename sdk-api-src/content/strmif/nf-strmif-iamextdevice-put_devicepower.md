@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtDevice.put_DevicePower
 title: IAMExtDevice::put_DevicePower (strmif.h)
-description: The put_DevicePower method assigns the external device's power mode to either on, off, or standby.
+description: The put_DevicePower method assigns the external device's power mode to either on, off, or standby.helpviewer_keywords: ["IAMExtDevice interface [DirectShow]","put_DevicePower method","IAMExtDevice.put_DevicePower","IAMExtDevice::put_DevicePower","IAMExtDeviceput_DevicePower","dshow.iamextdevice_put_devicepower","put_DevicePower","put_DevicePower method [DirectShow]","put_DevicePower method [DirectShow]","IAMExtDevice interface","strmif/IAMExtDevice::put_DevicePower"]
 old-location: dshow\iamextdevice_put_devicepower.htm
 tech.root: DirectShow
 ms.assetid: 9cb0c200-aaf4-44fb-b217-6a44a36089b5

@@ -2,6 +2,7 @@
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetPatchConstantParameterDesc
 title: ID3D12ShaderReflection::GetPatchConstantParameterDesc (d3d12shader.h)
 description: Gets a patch-constant parameter description for a shader.
+helpviewer_keywords: ["GetPatchConstantParameterDesc","GetPatchConstantParameterDesc method","GetPatchConstantParameterDesc method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetPatchConstantParameterDesc method","ID3D12ShaderReflection.GetPatchConstantParameterDesc","ID3D12ShaderReflection::GetPatchConstantParameterDesc","d3d12shader/ID3D12ShaderReflection::GetPatchConstantParameterDesc","direct3d12.id3d12shaderreflection_getpatchconstantparameterdesc"]
 old-location: direct3d12\id3d12shaderreflection_getpatchconstantparameterdesc.htm
 tech.root: direct3d12
 ms.assetid: 01353250-0C8F-4C72-93CE-64BEF52EB985
@@ -68,9 +69,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-input-signature description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="/windows/win32/api/d3d12shader/ns-d3d12shader-d3d12_signature_parameter_desc">D3D12_SIGNATURE_PARAMETER_DESC</a>.
           
 
 

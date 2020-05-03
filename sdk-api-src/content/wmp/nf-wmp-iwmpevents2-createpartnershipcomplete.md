@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents2.CreatePartnershipComplete
 title: IWMPEvents2::CreatePartnershipComplete (wmp.h)
-description: The CreatePartnershipComplete event occurs when an asynchronous call to IWMPSyncDevice::createPartnership completes.
+description: The CreatePartnershipComplete event occurs when an asynchronous call to IWMPSyncDevice::createPartnership completes.helpviewer_keywords: ["CreatePartnershipComplete","CreatePartnershipComplete method [Windows Media Player]","CreatePartnershipComplete method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","CreatePartnershipComplete method","IWMPEvents2.CreatePartnershipComplete","IWMPEvents2::CreatePartnershipComplete","IWMPEvents2CreatePartnershipComplete","wmp.iwmpevents2_iwmpevents2__createpartnershipcomplete","wmp/IWMPEvents2::CreatePartnershipComplete"]
 old-location: wmp\iwmpevents2_iwmpevents2__createpartnershipcomplete.htm
 tech.root: WMP
 ms.assetid: 3cd9b27d-ceb4-4655-ab3f-3d341774c81a

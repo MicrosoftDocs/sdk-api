@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsAbortServiceHost
 title: WsAbortServiceHost function (webservices.h)
-description: Aborts all current operations on the specified service host.
+description: Aborts all current operations on the specified service host.helpviewer_keywords: ["WsAbortServiceHost","WsAbortServiceHost function [Web Services for Windows]","webservices/WsAbortServiceHost","wsw.wsabortservicehost"]
 old-location: wsw\wsabortservicehost.htm
 tech.root: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b

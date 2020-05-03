@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteTextFormat2
 title: IDWriteTextFormat2 (dwrite_3.h)
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information.helpviewer_keywords: ["IDWriteTextFormat2","IDWriteTextFormat2 interface [Direct Write]","IDWriteTextFormat2 interface [Direct Write]","described","directwrite.idwritetextformat2","dwrite_3/IDWriteTextFormat2"]
 old-location: directwrite\idwritetextformat2.htm
 tech.root: DirectWrite
 ms.assetid: 4396d2b0-240f-ee8b-1d21-c4294fb29b51

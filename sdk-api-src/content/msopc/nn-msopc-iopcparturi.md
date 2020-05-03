@@ -1,7 +1,7 @@
 ---
 UID: NN:msopc.IOpcPartUri
 title: IOpcPartUri (msopc.h)
-description: Represents the part name of a part.
+description: Represents the part name of a part.helpviewer_keywords: ["IOpcPartUri","IOpcPartUri interface [Open Packaging Conventions]","IOpcPartUri interface [Open Packaging Conventions]","described","msopc/IOpcPartUri","opc.iopcparturi"]
 old-location: opc\iopcparturi.htm
 tech.root: OPC
 ms.assetid: 81123212-7a32-4833-b81f-8454a544327d

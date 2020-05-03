@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.ReleaseNtmsCleanerSlot
 title: ReleaseNtmsCleanerSlot function (ntmsapi.h)
-description: The ReleaseNtmsCleanerSlot function removes an existing slot reservation for a cleaning cartridge. The slot can then be used for data cartridges.
+description: The ReleaseNtmsCleanerSlot function removes an existing slot reservation for a cleaning cartridge. The slot can then be used for data cartridges.helpviewer_keywords: ["ReleaseNtmsCleanerSlot","ReleaseNtmsCleanerSlot function [Files]","_zaw_releasentmscleanerslot","base.releasentmscleanerslot","fs.releasentmscleanerslot","ntmsapi/ReleaseNtmsCleanerSlot"]
 old-location: fs\releasentmscleanerslot.htm
 tech.root: Rsm
 ms.assetid: c3530534-c502-4168-8039-b5ce4f0a5816

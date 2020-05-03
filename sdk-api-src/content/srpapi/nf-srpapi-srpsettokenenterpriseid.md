@@ -1,7 +1,7 @@
 ---
 UID: NF:srpapi.SrpSetTokenEnterpriseId
 title: SrpSetTokenEnterpriseId function (srpapi.h)
-description: Sets a data intent on a token. The caller process should be enterprise allowed for the provided enterprise ID.
+description: Sets a data intent on a token. The caller process should be enterprise allowed for the provided enterprise ID.helpviewer_keywords: ["EDP.srpsettokenenterpriseid","SrpSetTokenEnterpriseId","SrpSetTokenEnterpriseId function","srpapi/SrpSetTokenEnterpriseId"]
 old-location: edp\srpsettokenenterpriseid.htm
 tech.root: EDP
 ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08

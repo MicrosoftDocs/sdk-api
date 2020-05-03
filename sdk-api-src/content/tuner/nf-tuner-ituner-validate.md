@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuner.Validate
 title: ITuner::Validate (tuner.h)
-description: The Validate method returns a value indicating that the tune request can be carried out.
+description: The Validate method returns a value indicating that the tune request can be carried out.helpviewer_keywords: ["ITuner interface [Microsoft TV Technologies]","Validate method","ITuner.Validate","ITuner::Validate","ITunerValidate","Validate","Validate method [Microsoft TV Technologies]","Validate method [Microsoft TV Technologies]","ITuner interface","mstv.ituner_validate","tuner/ITuner::Validate"]
 old-location: mstv\ituner_validate.htm
 tech.root: mstv
 ms.assetid: 10b238b1-1c71-4104-8c2d-f8446f0a3466

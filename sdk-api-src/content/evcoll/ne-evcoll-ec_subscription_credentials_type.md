@@ -1,7 +1,7 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CREDENTIALS_TYPE
 title: EC_SUBSCRIPTION_CREDENTIALS_TYPE (evcoll.h)
-description: Specifies the type of credentials to use when communicating with event sources.
+description: Specifies the type of credentials to use when communicating with event sources.helpviewer_keywords: ["EC_SUBSCRIPTION_CREDENTIALS_TYPE","EC_SUBSCRIPTION_CREDENTIALS_TYPE enumeration","EcSubscriptionCredBasic","EcSubscriptionCredDefault","EcSubscriptionCredDigest","EcSubscriptionCredLocalMachine","EcSubscriptionCredNegotiate","evcoll/EC_SUBSCRIPTION_CREDENTIALS_TYPE","evcoll/EcSubscriptionCredBasic","evcoll/EcSubscriptionCredDefault","evcoll/EcSubscriptionCredDigest","evcoll/EcSubscriptionCredLocalMachine","evcoll/EcSubscriptionCredNegotiate","wec.ec_subscription_credentials_type","wes.ec_subscription_credentials_type"]
 old-location: wec\ec_subscription_credentials_type.htm
 tech.root: WEC
 ms.assetid: 5f2d3e26-1703-4afb-8b58-ee747bb156e3

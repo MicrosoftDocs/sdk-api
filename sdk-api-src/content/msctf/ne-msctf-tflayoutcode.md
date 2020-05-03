@@ -1,7 +1,7 @@
 ---
 UID: NE:msctf.__MIDL_ITfTextLayoutSink_0001
 title: TfLayoutCode (msctf.h)
-description: Elements of the TfLayoutCode enumeration specify the type of layout change in an ITfTextLayoutSink::OnLayoutChange notification.
+description: Elements of the TfLayoutCode enumeration specify the type of layout change in an ITfTextLayoutSink::OnLayoutChange notification.helpviewer_keywords: ["TF_LC_CHANGE","TF_LC_CREATE","TF_LC_DESTROY","TfLayoutCode","TfLayoutCode enumeration [Text Services Framework]","_tsf_tflayoutcode_ref","msctf/TF_LC_CHANGE","msctf/TF_LC_CREATE","msctf/TF_LC_DESTROY","msctf/TfLayoutCode","tsf.tflayoutcode"]
 old-location: tsf\tflayoutcode.htm
 tech.root: TSF
 ms.assetid: b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb

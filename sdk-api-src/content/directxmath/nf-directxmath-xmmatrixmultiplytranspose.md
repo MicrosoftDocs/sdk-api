@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixMultiplyTranspose
 title: XMMatrixMultiplyTranspose function (directxmath.h)
-description: Computes the transpose of the product of two matrices.
+description: Computes the transpose of the product of two matrices.helpviewer_keywords: ["Use DirectX..XMMatrixMultiplyTranspose","XMMatrixMultiplyTranspose","XMMatrixMultiplyTranspose method [DirectX Math Support APIs]","dxmath.xmmatrixmultiplytranspose"]
 old-location: dxmath\xmmatrixmultiplytranspose.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixMultiplyTranspose(XMMATRIX,XMMATRIX)

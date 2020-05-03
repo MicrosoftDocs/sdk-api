@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFClock.GetContinuityKey
 title: IMFClock::GetContinuityKey (mfidl.h)
-description: Retrieves the clock's continuity key. (Not supported.).
+description: Retrieves the clock's continuity key. (Not supported.).helpviewer_keywords: ["8afda8c7-bab6-40fd-b20c-6bb29ed4900f","GetContinuityKey","GetContinuityKey method [Media Foundation]","GetContinuityKey method [Media Foundation]","IMFClock interface","IMFClock interface [Media Foundation]","GetContinuityKey method","IMFClock.GetContinuityKey","IMFClock::GetContinuityKey","mf.imfclock_getcontinuitykey","mfidl/IMFClock::GetContinuityKey"]
 old-location: mf\imfclock_getcontinuitykey.htm
 tech.root: medfound
 ms.assetid: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f

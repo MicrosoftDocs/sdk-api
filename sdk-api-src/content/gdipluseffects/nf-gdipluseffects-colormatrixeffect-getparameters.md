@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.GetParameters
 title: ColorMatrixEffect::GetParameters (gdipluseffects.h)
-description: The ColorMatrixEffect::GetParameters method gets the elements of the current 5x5 color matrix of this ColorMatrixEffect object.
+description: The ColorMatrixEffect::GetParameters method gets the elements of the current 5x5 color matrix of this ColorMatrixEffect object.helpviewer_keywords: ["ColorMatrixEffect class [GDI+]","GetParameters method","ColorMatrixEffect.GetParameters","ColorMatrixEffect::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","ColorMatrixEffect class","_gdiplus_CLASS_ColorMatrixEffect_GetParameters_","gdiplus._gdiplus_CLASS_ColorMatrixEffect_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectmethods\getparameters.htm

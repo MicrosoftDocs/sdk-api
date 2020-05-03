@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetFloatVectorArray
 title: ID3D10EffectVectorVariable::SetFloatVectorArray (d3d10effect.h)
-description: Set an array of four-component vectors that contain floating-point data.
+description: Set an array of four-component vectors that contain floating-point data.helpviewer_keywords: ["9eb5f7ae-71eb-f3ae-ea6e-cc78dd935434","ID3D10EffectVectorVariable interface [Direct3D 10]","SetFloatVectorArray method","ID3D10EffectVectorVariable.SetFloatVectorArray","ID3D10EffectVectorVariable::SetFloatVectorArray","SetFloatVectorArray","SetFloatVectorArray method [Direct3D 10]","SetFloatVectorArray method [Direct3D 10]","ID3D10EffectVectorVariable interface","d3d10effect/ID3D10EffectVectorVariable::SetFloatVectorArray","direct3d10.id3d10effectvectorvariable_setfloatvectorarray"]
 old-location: direct3d10\id3d10effectvectorvariable_setfloatvectorarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setfloatvectorarray.htm

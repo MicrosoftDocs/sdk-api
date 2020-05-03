@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadUDecN4
 title: XMLoadUDecN4 function (directxpackedvector.h)
-description: Loads an XMUDECN4 into an XMVECTOR.
+description: Loads an XMUDECN4 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadUDecN4","XMLoadUDecN4","XMLoadUDecN4 method [DirectX Math Support APIs]","dxmath.xmloadudecn4"]
 old-location: dxmath\xmloadudecn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUDecN4(const XMUDECN4)

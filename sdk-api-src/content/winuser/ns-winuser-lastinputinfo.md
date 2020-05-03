@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagLASTINPUTINFO
 title: LASTINPUTINFO (winuser.h)
-description: Contains the time of the last input.
+description: Contains the time of the last input.helpviewer_keywords: ["*PLASTINPUTINFO","LASTINPUTINFO","LASTINPUTINFO structure [Keyboard and Mouse Input]","PLASTINPUTINFO","PLASTINPUTINFO structure pointer [Keyboard and Mouse Input]","_win32_LASTINPUTINFO_str","_win32_lastinputinfo_str_cpp","inputdev.lastinputinfo","winui._win32_lastinputinfo_str","winuser/LASTINPUTINFO","winuser/PLASTINPUTINFO"]
 old-location: inputdev\lastinputinfo.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\lastinputinfo.htm

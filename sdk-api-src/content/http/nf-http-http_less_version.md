@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HTTP_LESS_VERSION
 title: HTTP_LESS_VERSION macro (http.h)
-description: Returns a non-zero value if an HTTP_VERSION structure is less than a specified major/minor version combination, or zero otherwise.
+description: Returns a non-zero value if an HTTP_VERSION structure is less than a specified major/minor version combination, or zero otherwise.helpviewer_keywords: ["HTTP_LESS_VERSION","HTTP_LESS_VERSION macro [HTTP]","_http_http_less_version","http.http_less_version","http/HTTP_LESS_VERSION"]
 old-location: http\http_less_version.htm
 tech.root: http
 ms.assetid: 3a6486ad-04cb-416f-be5e-bd8f401b0836

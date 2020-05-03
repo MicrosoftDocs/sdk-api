@@ -2,6 +2,7 @@
 UID: NS:windns.__unnamed_struct_21
 title: DNS_NSEC_DATAA (windns.h)
 description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034.
+helpviewer_keywords: ["*PDNS_NSEC_DATA","*PDNS_NSEC_DATAA","DNS_NSEC_DATA","DNS_NSEC_DATA structure [DNS]","DNS_NSEC_DATAA","PDNS_NSEC_DATA","PDNS_NSEC_DATA structure pointer [DNS]","dns.dns_nsec_data","windns/DNS_NSEC_DATA","windns/PDNS_NSEC_DATA"]
 old-location: dns\dns_nsec_data.htm
 tech.root: DNS
 ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
@@ -93,7 +94,7 @@ A <b>BYTE</b> array that contains a bitmap that specifies which RR types are sup
 
 The 
 <b>DNS_NSEC_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -107,7 +108,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

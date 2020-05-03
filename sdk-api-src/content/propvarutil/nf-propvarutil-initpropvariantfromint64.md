@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromInt64
 title: InitPropVariantFromInt64 function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on a specified Int64 value.
+description: Initializes a PROPVARIANT structure based on a specified Int64 value.helpviewer_keywords: ["InitPropVariantFromInt64","InitPropVariantFromInt64 function [Windows Properties]","properties.InitPropVariantFromInt64","propvarutil/InitPropVariantFromInt64","shell.InitPropVariantFromInt64","shell_InitPropVariantFromInt64"]
 old-location: properties\InitPropVariantFromInt64.htm
 tech.root: properties
 ms.assetid: 2a2a5348-4d3d-475c-8039-097b4dacf7cb

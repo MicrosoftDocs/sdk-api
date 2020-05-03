@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetPackageFamilyName
 title: IAppxManifestMainPackageDependency::GetPackageFamilyName (appxpackaging.h)
-description: Gets the package family name of the main package dependency from the AppxManifest.xml.
+description: Gets the package family name of the main package dependency from the AppxManifest.xml.helpviewer_keywords: ["GetPackageFamilyName","GetPackageFamilyName method [App packaging and management]","GetPackageFamilyName method [App packaging and management]","IAppxManifestMainPackageDependency interface","IAppxManifestMainPackageDependency interface [App packaging and management]","GetPackageFamilyName method","IAppxManifestMainPackageDependency.GetPackageFamilyName","IAppxManifestMainPackageDependency::GetPackageFamilyName","appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName","appxpkg.iappxmanifestmainpackagedependency_getpackagefamilyname"]
 old-location: appxpkg\iappxmanifestmainpackagedependency_getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4F8E3E60-CE14-48C1-8367-10AA293F72F6

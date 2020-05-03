@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFontAxisRanges(UINT32,DWRITE_FONT_AXIS_RANGE,UINT32,UINT32)
 title: IDWriteFontSet1::GetFontAxisRanges
-description: Retrieves the axis ranges of a single item.
+description: Retrieves the axis ranges of a single item.helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFontAxisRanges method","IDWriteFontSet1.GetFontAxisRanges","IDWriteFontSet1::GetFontAxisRanges","GetFontAxisRanges","GetFontAxisRanges method [Direct Write]","GetFontAxisRanges method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfontaxisranges","dwrite_3/IDWriteFontSet1::GetFontAxisRanges"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFontAxisRanges method, IDWriteFontSet1.GetFontAxisRanges, IDWriteFontSet1::GetFontAxisRanges, GetFontAxisRanges, GetFontAxisRanges method [Direct Write], GetFontAxisRanges method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfontaxisranges, dwrite_3/IDWriteFontSet1::GetFontAxisRanges

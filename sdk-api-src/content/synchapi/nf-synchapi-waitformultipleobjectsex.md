@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.WaitForMultipleObjectsEx
 title: WaitForMultipleObjectsEx function (synchapi.h)
-description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
+description: Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.helpviewer_keywords: ["WaitForMultipleObjectsEx","WaitForMultipleObjectsEx function","_win32_waitformultipleobjectsex","base.waitformultipleobjectsex","synchapi/WaitForMultipleObjectsEx","winbase/WaitForMultipleObjectsEx"]
 old-location: base\waitformultipleobjectsex.htm
 tech.root: Sync
 ms.assetid: 47a167fb-4714-4353-b924-a161f367673c

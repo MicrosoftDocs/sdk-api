@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSource
 title: IMFTimedText::AddDataSource (mfmediaengine.h)
-description: Adds a timed-text data source.
+description: Adds a timed-text data source.helpviewer_keywords: ["AddDataSource","AddDataSource method [Media Foundation]","AddDataSource method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","AddDataSource method","IMFTimedText.AddDataSource","IMFTimedText::AddDataSource","mf.imftimedtext_adddatasource","mfmediaengine/IMFTimedText::AddDataSource"]
 old-location: mf\imftimedtext_adddatasource.htm
 tech.root: medfound
 ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E

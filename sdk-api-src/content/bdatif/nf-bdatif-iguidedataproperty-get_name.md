@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Name
 title: IGuideDataProperty::get_Name (bdatif.h)
-description: The get_Name method retrieves the name of the property.
+description: The get_Name method retrieves the name of the property.helpviewer_keywords: ["IGuideDataProperty interface [Microsoft TV Technologies]","get_Name method","IGuideDataProperty.get_Name","IGuideDataProperty::get_Name","IGuideDataPropertyget_Name","bdatif/IGuideDataProperty::get_Name","get_Name","get_Name method [Microsoft TV Technologies]","get_Name method [Microsoft TV Technologies]","IGuideDataProperty interface","mstv.iguidedataproperty_get_name"]
 old-location: mstv\iguidedataproperty_get_name.htm
 tech.root: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da

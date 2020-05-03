@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetText
 title: IMFTimedTextFormattedText::GetText (mfmediaengine.h)
-description: Gets the text in the formatted timed-text object.
+description: Gets the text in the formatted timed-text object.helpviewer_keywords: ["GetText","GetText method [Media Foundation]","GetText method [Media Foundation]","IMFTimedTextFormattedText interface","IMFTimedTextFormattedText interface [Media Foundation]","GetText method","IMFTimedTextFormattedText.GetText","IMFTimedTextFormattedText::GetText","mf.imftimedtextformattedtext_gettext","mfmediaengine/IMFTimedTextFormattedText::GetText"]
 old-location: mf\imftimedtextformattedtext_gettext.htm
 tech.root: medfound
 ms.assetid: 0D734EF8-BE52-404D-BEEC-504ECB0F7107

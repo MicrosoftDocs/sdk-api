@@ -1,7 +1,7 @@
 ---
 UID: NS:ddraw._DDPIXELFORMAT
 title: DDPIXELFORMAT (ddraw.h)
-description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.
+description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object for the IDirectDrawSurface7::GetPixelFormat method.helpviewer_keywords: ["*LPDDPIXELFORMAT","DDPF_ALPHA","DDPF_ALPHAPIXELS","DDPF_ALPHAPREMULT","DDPF_BUMPDUDV","DDPF_BUMPLUMINANCE","DDPF_COMPRESSED","DDPF_D3DFORMAT","DDPF_FOURCC","DDPF_LUMINANCE","DDPF_PALETTEINDEXED1","DDPF_PALETTEINDEXED2","DDPF_PALETTEINDEXED4","DDPF_PALETTEINDEXED8","DDPF_PALETTEINDEXEDTO8","DDPF_RGB","DDPF_RGBTOYUV","DDPF_STENCILBUFFER","DDPF_YUV","DDPF_ZBUFFER","DDPF_ZPIXELS","DDPIXELFORMAT","DDPIXELFORMAT structure [DirectDraw]","LPDDPIXELFORMAT","LPDDPIXELFORMAT structure pointer [DirectDraw]","ddraw/DDPIXELFORMAT","ddraw/LPDDPIXELFORMAT","directdraw.ddpixelformat"]
 old-location: directdraw\ddpixelformat.htm
 tech.root: directdraw
 ms.assetid: 17c531cb-7e65-482a-b3de-494874c1dd92

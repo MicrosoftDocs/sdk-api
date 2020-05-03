@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFCreate2DMediaBuffer
 title: MFCreate2DMediaBuffer function (mfapi.h)
-description: Creates a system-memory buffer object to hold 2D image data.
+description: Creates a system-memory buffer object to hold 2D image data.helpviewer_keywords: ["MFCreate2DMediaBuffer","MFCreate2DMediaBuffer function [Media Foundation]","mf.mfcreate2dmediabuffer","mfapi/MFCreate2DMediaBuffer"]
 old-location: mf\mfcreate2dmediabuffer.htm
 tech.root: medfound
 ms.assetid: 7D999070-87BD-46AF-A4F0-C0A23DC1C876

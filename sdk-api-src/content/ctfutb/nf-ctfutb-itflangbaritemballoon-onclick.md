@@ -2,6 +2,7 @@
 UID: NF:ctfutb.ITfLangBarItemBalloon.OnClick
 title: ITfLangBarItemBalloon::OnClick (ctfutb.h)
 description: ITfLangBarItemBalloon::OnClick method
+helpviewer_keywords: ["ITfLangBarItemBalloon interface [Text Services Framework]","OnClick method","ITfLangBarItemBalloon.OnClick","ITfLangBarItemBalloon::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemBalloon interface","_tsf_itflangbaritemballoon_onclick_ref","ctfutb/ITfLangBarItemBalloon::OnClick","tsf.itflangbaritemballoon_onclick"]
 old-location: tsf\itflangbaritemballoon_onclick.htm
 tech.root: TSF
 ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
@@ -57,7 +58,7 @@ Not currently used.
 
 ### -param click [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
+Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
 
 
 ### -param pt [in]
@@ -126,7 +127,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
  
 

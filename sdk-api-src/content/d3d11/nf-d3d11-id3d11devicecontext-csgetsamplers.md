@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetSamplers
 title: ID3D11DeviceContext::CSGetSamplers (d3d11.h)
-description: Get an array of sampler state interfaces from the compute-shader stage.
+description: Get an array of sampler state interfaces from the compute-shader stage.helpviewer_keywords: ["727801db-5fe0-a11b-bb2e-70ee26a54119","CSGetSamplers","CSGetSamplers method [Direct3D 11]","CSGetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSGetSamplers method","ID3D11DeviceContext.CSGetSamplers","ID3D11DeviceContext::CSGetSamplers","d3d11/ID3D11DeviceContext::CSGetSamplers","direct3d11.id3d11devicecontext_csgetsamplers"]
 old-location: direct3d11\id3d11devicecontext_csgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 97f5be84-3562-4b5a-9c7a-2ac3f18a184b

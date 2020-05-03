@@ -1,7 +1,7 @@
 ---
 UID: NF:t2embapi.TTDeleteEmbeddedFont
 title: TTDeleteEmbeddedFont function (t2embapi.h)
-description: Releases memory used by an embedded font, hFontReference.
+description: Releases memory used by an embedded font, hFontReference.helpviewer_keywords: ["TTDELETE_DONTREMOVEFONT","TTDeleteEmbeddedFont","TTDeleteEmbeddedFont function [Windows GDI]","_win32_TTDeleteEmbeddedFont","gdi.ttdeleteembeddedfont","t2embapi/TTDeleteEmbeddedFont"]
 old-location: gdi\ttdeleteembeddedfont.htm
 tech.root: gdi
 ms.assetid: cbd0945a-3f78-43d2-87f7-18e6e9d00096

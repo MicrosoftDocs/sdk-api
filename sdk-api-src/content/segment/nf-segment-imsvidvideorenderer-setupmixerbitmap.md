@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.SetupMixerBitmap
 title: IMSVidVideoRenderer::SetupMixerBitmap (segment.h)
-description: The SetupMixerBitmap method configures the Video Mixing Renderer (VMR) to display an alpha-blended bitmap on top of the video.
+description: The SetupMixerBitmap method configures the Video Mixing Renderer (VMR) to display an alpha-blended bitmap on top of the video.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","SetupMixerBitmap method","IMSVidVideoRenderer.SetupMixerBitmap","IMSVidVideoRenderer::SetupMixerBitmap","IMSVidVideoRendererSetupMixerBitmap","SetupMixerBitmap","SetupMixerBitmap method [Microsoft TV Technologies]","SetupMixerBitmap method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_setupmixerbitmap","segment/IMSVidVideoRenderer::SetupMixerBitmap"]
 old-location: mstv\imsvidvideorenderer_setupmixerbitmap.htm
 tech.root: mstv
 ms.assetid: a91561e3-469b-412a-b5ab-af2a5a0855a6

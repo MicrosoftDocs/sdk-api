@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_OUTPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_OUTPUT (d3d11.h)
-description: Contains the response from the ID3D11VideoContext::ConfigureAuthenticatedChannel method.
+description: Contains the response from the ID3D11VideoContext::ConfigureAuthenticatedChannel method.helpviewer_keywords: ["D3D11_AUTHENTICATED_CONFIGURE_OUTPUT","D3D11_AUTHENTICATED_CONFIGURE_OUTPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_CONFIGURE_OUTPUT","mf.d3d11_authenticated_configure_output"]
 old-location: mf\d3d11_authenticated_configure_output.htm
 tech.root: medfound
 ms.assetid: 68DEC825-5D2E-4A78-B5DD-F7F697BB2980

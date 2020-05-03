@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 title: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE (webservices.h)
-description: Username/password security template information to be filled in by application. Associated with WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE_TYPE.
+description: Username/password security template information to be filled in by application. Associated with WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE_TYPE.helpviewer_keywords: ["WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE","WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE","wsw.ws_tcp_sspi_username_binding_template"]
 old-location: wsw\ws_tcp_sspi_username_binding_template.htm
 tech.root: wsw
 ms.assetid: c2d63721-0810-48a5-b1f8-8b1adcba96b8

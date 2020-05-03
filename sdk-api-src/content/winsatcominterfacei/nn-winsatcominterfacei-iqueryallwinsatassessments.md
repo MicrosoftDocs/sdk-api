@@ -1,7 +1,7 @@
 ---
 UID: NN:winsatcominterfacei.IQueryAllWinSATAssessments
 title: IQueryAllWinSATAssessments (winsatcominterfacei.h)
-description: Retrieves details about all formal WinSAT assessments.
+description: Retrieves details about all formal WinSAT assessments.helpviewer_keywords: ["IQueryAllWinSATAssessments","IQueryAllWinSATAssessments interface [WinSAT]","IQueryAllWinSATAssessments interface [WinSAT]","described","winsat.iqueryallwinsatassessments","winsatcominterfacei/IQueryAllWinSATAssessments"]
 old-location: winsat\iqueryallwinsatassessments.htm
 tech.root: WinSAT
 ms.assetid: b78cfaf1-0fce-449c-96f5-76d318f30384

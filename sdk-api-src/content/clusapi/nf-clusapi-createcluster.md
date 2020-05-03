@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CreateCluster
 title: CreateCluster function (clusapi.h)
-description: Creates and starts a cluster.
+description: Creates and starts a cluster.helpviewer_keywords: ["CreateCluster","CreateCluster function [Failover Cluster]","PCLUSAPI_CREATE_CLUSTER","PCLUSAPI_CREATE_CLUSTER function [Failover Cluster]","clusapi/CreateCluster","clusapi/PCLUSAPI_CREATE_CLUSTER","mscs.createcluster"]
 old-location: mscs\createcluster.htm
 tech.root: MsCS
 ms.assetid: 672a1573-63e5-4321-a049-25bdafc1b5e0

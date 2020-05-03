@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.PopupItemMenu
 title: IShellFolderViewDual::PopupItemMenu (shldisp.h)
-description: Creates a shortcut menu for the specified item and returns the selected command string.
+description: Creates a shortcut menu for the specified item and returns the selected command string.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","PopupItemMenu method","IShellFolderViewDual.PopupItemMenu","IShellFolderViewDual::PopupItemMenu","PopupItemMenu","PopupItemMenu method [Windows Shell]","PopupItemMenu method [Windows Shell]","IShellFolderViewDual interface","_shell_IShellFolderViewDual_PopupItemMenu","shell.IShellFolderViewDual_PopupItemMenu","shldisp/IShellFolderViewDual::PopupItemMenu"]
 old-location: shell\IShellFolderViewDual_PopupItemMenu.htm
 tech.root: shell
 ms.assetid: f44e91b7-b651-4b6f-9583-cd9335ae6369

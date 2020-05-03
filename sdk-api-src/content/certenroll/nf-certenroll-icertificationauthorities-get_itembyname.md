@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.get_ItemByName
 title: ICertificationAuthorities::get_ItemByName (certenroll.h)
-description: Retrieves an ICertificationAuthority object from the collection by certification authority name.
+description: Retrieves an ICertificationAuthority object from the collection by certification authority name.helpviewer_keywords: ["ICertificationAuthorities interface [Security]","ItemByName property","ICertificationAuthorities.ItemByName","ICertificationAuthorities.get_ItemByName","ICertificationAuthorities::ItemByName","ICertificationAuthorities::get_ItemByName","ItemByName property [Security]","ItemByName property [Security]","ICertificationAuthorities interface","certenroll/ICertificationAuthorities::ItemByName","certenroll/ICertificationAuthorities::get_ItemByName","get_ItemByName","security.icertificationauthorities_itembyname"]
 old-location: security\icertificationauthorities_itembyname.htm
 tech.root: seccertenroll
 ms.assetid: 90d620d6-1060-46fc-b593-9cb819b4eac8

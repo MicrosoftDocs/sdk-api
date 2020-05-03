@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.IInterval
 title: IInterval (structuredquery.h)
-description: Provides a method to get the limits of an interval.
+description: Provides a method to get the limits of an interval.helpviewer_keywords: ["IInterval","IInterval interface [search]","IInterval interface [search]","described","_search_IInterval","search._search_IInterval","structuredquery/IInterval"]
 old-location: search\_search_IInterval.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterval.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.Unpack2UINT32AsUINT64
 title: Unpack2UINT32AsUINT64 function (mfapi.h)
-description: Gets the low-order and high-order UINT32 values from a UINT64 value.
+description: Gets the low-order and high-order UINT32 values from a UINT64 value.helpviewer_keywords: ["Unpack2UINT32AsUINT64","Unpack2UINT32AsUINT64 function [Media Foundation]","mf.unpack2uint32asuint64","mfapi/Unpack2UINT32AsUINT64"]
 old-location: mf\unpack2uint32asuint64.htm
 tech.root: medfound
 ms.assetid: 507504c2-85d3-44b6-9972-bcdd3c4227f6

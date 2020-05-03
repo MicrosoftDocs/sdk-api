@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetDialogBaseUnits
 title: GetDialogBaseUnits function (winuser.h)
-description: Retrieves the system's dialog base units, which are the average width and height of characters in the system font.
+description: Retrieves the system's dialog base units, which are the average width and height of characters in the system font.helpviewer_keywords: ["GetDialogBaseUnits","GetDialogBaseUnits function [Dialog Boxes]","_win32_GetDialogBaseUnits","_win32_getdialogbaseunits_cpp","dlgbox.getdialogbaseunits","winui._win32_getdialogbaseunits","winuser/GetDialogBaseUnits"]
 old-location: dlgbox\getdialogbaseunits.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdialogbaseunits.htm

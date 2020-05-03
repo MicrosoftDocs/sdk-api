@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(const float)
 title: XMHALF2::XMHALF2(const float) (directxpackedvector.h)
-description: Initializes a new instance of XMHALF2 from a two element float array argument.
+description: Initializes a new instance of XMHALF2 from a two element float array argument.helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2()","XMHALF2.XMHALF2(const float)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(const float)","dxmath.xmhalf2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 6f2f9747-e00e-4217-a144-3d476c09b62e

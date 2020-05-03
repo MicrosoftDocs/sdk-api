@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.GetHGlobalFromStream
 title: GetHGlobalFromStream function (combaseapi.h)
-description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.
+description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.helpviewer_keywords: ["GetHGlobalFromStream","GetHGlobalFromStream function [Structured Storage]","_stg_gethglobalfromstream","combaseapi/GetHGlobalFromStream","stg.gethglobalfromstream"]
 old-location: stg\gethglobalfromstream.htm
 tech.root: Stg
 ms.assetid: 79e39345-7a20-4b0f-bceb-f62de13d3260

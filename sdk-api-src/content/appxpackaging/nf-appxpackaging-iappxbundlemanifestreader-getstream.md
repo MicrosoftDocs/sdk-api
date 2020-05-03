@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetStream
 title: IAppxBundleManifestReader::GetStream (appxpackaging.h)
-description: Gets the raw XML document without any preprocessing.
+description: Gets the raw XML document without any preprocessing.helpviewer_keywords: ["GetStream","GetStream method [App packaging and management]","GetStream method [App packaging and management]","IAppxBundleManifestReader interface","IAppxBundleManifestReader interface [App packaging and management]","GetStream method","IAppxBundleManifestReader.GetStream","IAppxBundleManifestReader::GetStream","appxpackaging/IAppxBundleManifestReader::GetStream","appxpkg.iappxbundlemanifestreader_getstream"]
 old-location: appxpkg\iappxbundlemanifestreader_getstream.htm
 tech.root: appxpkg
 ms.assetid: DC276734-3837-466E-ADBA-60B68356504E

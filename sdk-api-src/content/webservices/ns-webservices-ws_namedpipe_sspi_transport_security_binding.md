@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 title: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING (webservices.h)
 description: The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the named pipe transport.
+helpviewer_keywords: ["WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING","WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING","wsw.ws_namedpipe_sspi_transport_security_binding"]
 old-location: wsw\ws_namedpipe_sspi_transport_security_binding.htm
 tech.root: wsw
 ms.assetid: 02FCD206-23BC-4ED0-9E4A-76AB0926FD7C
@@ -85,5 +86,5 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webse
 
 ### -field clientCredential
 
-The <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
+The <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
 

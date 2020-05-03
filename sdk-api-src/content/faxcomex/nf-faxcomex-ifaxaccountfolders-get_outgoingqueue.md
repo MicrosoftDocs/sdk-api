@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccountFolders.get_OutgoingQueue
 title: IFaxAccountFolders::get_OutgoingQueue (faxcomex.h)
-description: Represents the queue of outgoing faxes for a particular fax account. These are the faxes that have not yet been sent.
+description: Represents the queue of outgoing faxes for a particular fax account. These are the faxes that have not yet been sent.helpviewer_keywords: ["IFaxAccountFolders interface [Fax Service]","OutgoingQueue property","IFaxAccountFolders.OutgoingQueue","IFaxAccountFolders.get_OutgoingQueue","IFaxAccountFolders::OutgoingQueue","IFaxAccountFolders::get_OutgoingQueue","OutgoingQueue property [Fax Service]","OutgoingQueue property [Fax Service]","IFaxAccountFolders interface","_mfax_faxaccountfolders.outgoingqueue","fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingqueue_cpp","fax._mfax_faxaccountfolders_outgoingqueue","faxcomex/IFaxAccountFolders::OutgoingQueue","faxcomex/IFaxAccountFolders::get_OutgoingQueue","get_OutgoingQueue"]
 old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\outgoingqueue.htm

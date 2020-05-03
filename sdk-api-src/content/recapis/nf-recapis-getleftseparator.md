@@ -1,7 +1,7 @@
 ---
 UID: NF:recapis.GetLeftSeparator
 title: GetLeftSeparator function (recapis.h)
-description: Gets the left separator for the recognizer context.
+description: Gets the left separator for the recognizer context.helpviewer_keywords: ["GetLeftSeparator","GetLeftSeparator function [Tablet PC]","recapis/GetLeftSeparator","tablet.getleftseparator"]
 old-location: tablet\getleftseparator.htm
 tech.root: tablet
 ms.assetid: 5528d31e-580f-4da7-b683-e9ea2931989b

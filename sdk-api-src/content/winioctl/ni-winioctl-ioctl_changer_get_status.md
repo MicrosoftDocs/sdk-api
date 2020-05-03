@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_STATUS
 title: IOCTL_CHANGER_GET_STATUS
-description: Retrieves the current status of the specified device.
+description: Retrieves the current status of the specified device.helpviewer_keywords: ["IOCTL_CHANGER_GET_STATUS","IOCTL_CHANGER_GET_STATUS control","IOCTL_CHANGER_GET_STATUS control code","_win32_ioctl_changer_get_status","base.ioctl_changer_get_status","winioctl/IOCTL_CHANGER_GET_STATUS"]
 old-location: base\ioctl_changer_get_status.htm
 tech.root: devio
 ms.assetid: 6073230e-0ee7-40be-8fb5-1dd90c01de10

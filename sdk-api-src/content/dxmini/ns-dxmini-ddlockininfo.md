@@ -1,7 +1,7 @@
 ---
 UID: NS:dxmini._DDLOCKININFO
 title: DDLOCKININFO (dxmini.h)
-description: The DDLOCKININFO structure contains the surface information.
+description: The DDLOCKININFO structure contains the surface information.helpviewer_keywords: ["*PDDLOCKININFO","DDLOCKININFO","DDLOCKININFO structure [Display Devices]","PDDLOCKININFO","PDDLOCKININFO structure pointer [Display Devices]","Video_Structs_878ed276-6360-4a4a-8fd8-0e9b8ff86e6c.xml","display.ddlockininfo","dxmini/DDLOCKININFO","dxmini/PDDLOCKININFO"]
 old-location: display\ddlockininfo.htm
 tech.root: display
 ms.assetid: 4a4fb927-9037-4a42-9052-8b14ff899fe0

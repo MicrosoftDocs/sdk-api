@@ -1,7 +1,7 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACUpdate
 title: CSecureChannelServer::MACUpdate (scserver.h)
-description: The MACUpdate method updates the message authentication code (MAC) value with a parameter value.
+description: The MACUpdate method updates the message authentication code (MAC) value with a parameter value.helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","MACUpdate method","CSecureChannelServer.MACUpdate","CSecureChannelServer::MACUpdate","CSecureChannelServerMACUpdate","MACUpdate","MACUpdate method [windows Media Device Manager]","MACUpdate method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::MACUpdate","wmdm.csecurechannelserver_macupdate"]
 old-location: wmdm\csecurechannelserver_macupdate.htm
 tech.root: WMDM
 ms.assetid: f8b5548d-ffd5-4dc3-8d08-61a65841a997

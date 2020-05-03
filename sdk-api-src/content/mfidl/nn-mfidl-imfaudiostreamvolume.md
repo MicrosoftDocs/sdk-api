@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFAudioStreamVolume
 title: IMFAudioStreamVolume (mfidl.h)
-description: Controls the volume levels of individual audio channels.
+description: Controls the volume levels of individual audio channels.helpviewer_keywords: ["IMFAudioStreamVolume","IMFAudioStreamVolume interface [Media Foundation]","IMFAudioStreamVolume interface [Media Foundation]","described","f06ed262-a2ec-4688-b477-877d04cf1892","mf.imfaudiostreamvolume","mfidl/IMFAudioStreamVolume"]
 old-location: mf\imfaudiostreamvolume.htm
 tech.root: medfound
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892

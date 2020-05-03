@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetMaximumLatency
 title: MI_SubscriptionDeliveryOptions_GetMaximumLatency function (mi.h)
-description: Gets the maximum amount of time that the server will hold a result before delivering it to the client.
+description: Gets the maximum amount of time that the server will hold a result before delivering it to the client.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetMaximumLatency","MI_SubscriptionDeliveryOptions_GetMaximumLatency function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetMaximumLatency","wmi_v2.mi_subscriptiondeliveryoptions_getmaximumlatency"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getmaximumlatency.htm
 tech.root: wmi_v2
 ms.assetid: 899fa8d5-0d39-44ea-994b-b13d4dc9b117

@@ -1,7 +1,7 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_7
 title: DS_KCC_TASKID (ntdsapi.h)
-description: Specifies tasks that Knowledge Consistency Checker (KCC) can execute.
+description: Specifies tasks that Knowledge Consistency Checker (KCC) can execute.helpviewer_keywords: ["DS_KCC_TASKID","DS_KCC_TASKID enumeration [Active Directory]","DS_KCC_TASKID_UPDATE_TOPOLOGY","ad.ds_kcc_taskid","ntdsapi/DS_KCC_TASKID","ntdsapi/DS_KCC_TASKID_UPDATE_TOPOLOGY"]
 old-location: ad\ds_kcc_taskid.htm
 tech.root: ad
 ms.assetid: 61A2BB61-E3AE-4530-96CA-E7F85CB82DB2

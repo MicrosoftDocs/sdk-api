@@ -1,7 +1,7 @@
 ---
 UID: NF:wmprealestate.IWMPAudioRenderConfig.put_audioOutputDevice
 title: IWMPAudioRenderConfig::put_audioOutputDevice (wmprealestate.h)
-description: The put_audioOutputDevice sets the current audio output device for the Windows Media Player ActiveX control.
+description: The put_audioOutputDevice sets the current audio output device for the Windows Media Player ActiveX control.helpviewer_keywords: ["IWMPAudioRenderConfig interface [Windows Media Player]","put_audioOutputDevice method","IWMPAudioRenderConfig.put_audioOutputDevice","IWMPAudioRenderConfig::put_audioOutputDevice","put_audioOutputDevice","put_audioOutputDevice method [Windows Media Player]","put_audioOutputDevice method [Windows Media Player]","IWMPAudioRenderConfig interface","wmp.iwmpaudiorenderconfig_put_audiooutputdevice","wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice"]
 old-location: wmp\iwmpaudiorenderconfig_put_audiooutputdevice.htm
 tech.root: WMP
 ms.assetid: c8e88b36-fb40-4550-bef0-16d92f2bdd2a

@@ -1,7 +1,7 @@
 ---
 UID: NF:sensapi.IsNetworkAlive
 title: IsNetworkAlive function (sensapi.h)
-description: The IsNetworkAlive function determines whether or not a local system is connected to a network, and identifies the type of network connection, for example, a LAN, WAN, or both.
+description: The IsNetworkAlive function determines whether or not a local system is connected to a network, and identifies the type of network connection, for example, a LAN, WAN, or both.helpviewer_keywords: ["IsNetworkAlive","IsNetworkAlive function [SENS]","_zaw_isnetworkalive","sens.isnetworkalive","sensapi/IsNetworkAlive","syncmgr.isnetworkalive"]
 old-location: sens\isnetworkalive.htm
 tech.root: Sens
 ms.assetid: 1a2f3acd-0626-4fb2-8c5f-f3a0704cc0b4

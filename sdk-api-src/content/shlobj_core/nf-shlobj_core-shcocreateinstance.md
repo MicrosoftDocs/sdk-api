@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHCoCreateInstance
 title: SHCoCreateInstance function (shlobj_core.h)
-description: SHCoCreateInstance may be altered or unavailable. Instead, use CoCreateInstance.
+description: SHCoCreateInstance may be altered or unavailable. Instead, use CoCreateInstance.helpviewer_keywords: ["SHCoCreateInstance","SHCoCreateInstance function [Windows Shell]","_win32_SHCoCreateInstance","shell.SHCoCreateInstance","shlobj_core/SHCoCreateInstance"]
 old-location: shell\SHCoCreateInstance.htm
 tech.root: shell
 ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b

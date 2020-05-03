@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetBlue(float)
 title: IDCompositionShadowEffect::SetBlue (dcomp.h)
-description: Sets the blue value for the color of the shadow.
+description: Sets the blue value for the color of the shadow.helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetBlue method","IDCompositionShadowEffect.SetBlue","IDCompositionShadowEffect::SetBlue","IDCompositionShadowEffect::SetBlue(float)","SetBlue","SetBlue method [DirectComposition]","SetBlue method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetBlue","directcomp.idcompositionshadoweffect_setblue"]
 old-location: directcomp\idcompositionshadoweffect_setblue.htm
 tech.root: directcomp
 ms.assetid: 3ECA54E6-65ED-467B-823C-F6C96AFEE1E5

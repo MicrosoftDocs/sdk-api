@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothAuthenticateMultipleDevices
 title: BluetoothAuthenticateMultipleDevices function (bluetoothapis.h)
 description: Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.
+helpviewer_keywords: ["BluetoothAuthenticateMultipleDevices","BluetoothAuthenticateMultipleDevices function [Bluetooth]","bluetooth.bluetoothauthenticatemultipledevices","bluetoothapis/BluetoothAuthenticateMultipleDevices"]
 old-location: bluetooth\bluetoothauthenticatemultipledevices.htm
 tech.root: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
@@ -71,12 +72,12 @@ The valid local radio handle, or <b>NULL</b>. If <b>NULL</b>, authentication is 
 
 ### -param cDevices
 
-The number of devices in the <i>pbtdi</i> array of <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structures.
+The number of devices in the <i>pbtdi</i> array of <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structures.
 
 
 ### -param rgbtdi
 
-An array of <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structures that contain records for the Bluetooth devices to be authenticated.
+An array of <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structures that contain records for the Bluetooth devices to be authenticated.
 
 
 ## -returns
@@ -136,7 +137,7 @@ All  devices pointed to by <i>pbtdi</i>  are already marked as authenticated.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

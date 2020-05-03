@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRole.get_Operations
 title: IAzRole::get_Operations (azroles.h)
-description: Retrieves the operations associated with the role.
+description: Retrieves the operations associated with the role.helpviewer_keywords: ["AzRole object [Security]","Operations property","IAzRole interface [Security]","Operations property","IAzRole.Operations","IAzRole.get_Operations","IAzRole::Operations","IAzRole::get_Operations","Operations property [Security]","Operations property [Security]","AzRole object","Operations property [Security]","IAzRole interface","azroles/IAzRole::Operations","azroles/IAzRole::get_Operations","get_Operations","security.iazrole_operations"]
 old-location: security\iazrole_operations.htm
 tech.root: SecAuthZ
 ms.assetid: 44d90f1e-6112-4f02-b840-2ba7af8d9f33

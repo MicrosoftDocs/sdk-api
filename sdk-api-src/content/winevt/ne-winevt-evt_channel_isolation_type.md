@@ -1,7 +1,7 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_ISOLATION_TYPE
 title: EVT_CHANNEL_ISOLATION_TYPE (winevt.h)
-description: Defines the default access permissions to apply to the channel.
+description: Defines the default access permissions to apply to the channel.helpviewer_keywords: ["EVT_CHANNEL_ISOLATION_TYPE","EVT_CHANNEL_ISOLATION_TYPE enumeration [EventLog]","EvtChannelIsolationTypeApplication","EvtChannelIsolationTypeCustom","EvtChannelIsolationTypeSystem","wes.evt_channel_isolation_type","winevt/EVT_CHANNEL_ISOLATION_TYPE","winevt/EvtChannelIsolationTypeApplication","winevt/EvtChannelIsolationTypeCustom","winevt/EvtChannelIsolationTypeSystem"]
 old-location: wes\evt_channel_isolation_type.htm
 tech.root: wes
 ms.assetid: 63b01c20-f413-451d-b34d-b2496ebf8181

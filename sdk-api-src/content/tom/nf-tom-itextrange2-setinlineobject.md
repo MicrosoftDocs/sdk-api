@@ -2,6 +2,7 @@
 UID: NF:tom.ITextRange2.SetInlineObject
 title: ITextRange2::SetInlineObject (tom.h)
 description: Sets or inserts the properties of an inline object for a degenerate range.
+helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetInlineObject method","ITextRange2.SetInlineObject","ITextRange2::SetInlineObject","SetInlineObject","SetInlineObject method [Windows Controls]","SetInlineObject method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setinlineobject","tom/ITextRange2::SetInlineObject"]
 old-location: controls\itextrange2_setinlineobject.htm
 tech.root: Controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
@@ -82,14 +83,14 @@ The object character as defined in <a href="https://docs.microsoft.com/windows/d
 
 Type: <b>long</b>
 
-The closing bracket (<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a>) character. See <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> for a list of characters.
+The closing bracket (<a href="/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a>) character. See <a href="https://www.unicode.org/notes/tn28/">Unicode Technical Note 28</a> for a list of characters.
 
 
 ### -param Char2 [in]
 
 Type: <b>long</b>
 
-The separator character for <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBracketsWithSeps</a>, which can be one of the following values.
+The separator character for <a href="/windows/win32/api/tom/ne-tom-objecttype">tomBracketsWithSeps</a>, which can be one of the following values.
 
 
 ### -param Count [in]
@@ -110,7 +111,7 @@ The TeX style, as defined in <a href="https://docs.microsoft.com/windows/desktop
 
 Type: <b>long</b>
 
-The number of columns in the inline object. For  <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomMatrix</a> only.
+The number of columns in the inline object. For  <a href="/windows/win32/api/tom/ne-tom-objecttype">tomMatrix</a> only.
 
 
 ## -returns

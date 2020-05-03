@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN
 title: PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN (winbio_adapter.h)
-description: Determines the capabilities and limitations of the biometric storage component.
+description: Determines the capabilities and limitations of the biometric storage component.helpviewer_keywords: ["PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN","PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN callback","StorageAdapterQueryExtendedInfo","StorageAdapterQueryExtendedInfo callback function [Windows Biometric Framework API]","secbiomet.storageadapterqueryextendedinfo","winbio_adapter/StorageAdapterQueryExtendedInfo"]
 old-location: secbiomet\storageadapterqueryextendedinfo.htm
 tech.root: SecBioMet
 ms.assetid: BCA55006-73F4-4845-84B3-34A6255D673F

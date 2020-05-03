@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreatePMPMediaSession
 title: MFCreatePMPMediaSession function (mfidl.h)
-description: Creates an instance of the Media Session inside a Protected Media Path (PMP) process.
+description: Creates an instance of the Media Session inside a Protected Media Path (PMP) process.helpviewer_keywords: ["MFCreatePMPMediaSession","MFCreatePMPMediaSession function [Media Foundation]","cb492e68-3d8a-49b2-8c0b-bee8065b53a8","mf.mfcreatepmpmediasession","mfidl/MFCreatePMPMediaSession"]
 old-location: mf\mfcreatepmpmediasession.htm
 tech.root: medfound
 ms.assetid: cb492e68-3d8a-49b2-8c0b-bee8065b53a8

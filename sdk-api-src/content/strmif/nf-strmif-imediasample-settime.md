@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSample.SetTime
 title: IMediaSample::SetTime (strmif.h)
-description: The SetTime method sets the stream times when this sample should begin and finish.
+description: The SetTime method sets the stream times when this sample should begin and finish.helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetTime method","IMediaSample.SetTime","IMediaSample::SetTime","IMediaSampleSetTime","SetTime","SetTime method [DirectShow]","SetTime method [DirectShow]","IMediaSample interface","dshow.imediasample_settime","strmif/IMediaSample::SetTime"]
 old-location: dshow\imediasample_settime.htm
 tech.root: DirectShow
 ms.assetid: 531eef13-8b04-48d2-9070-7f6e34cacd9e

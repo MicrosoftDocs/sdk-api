@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsFreeMessage
 title: WsFreeMessage function (webservices.h)
-description: Releases the memory resource associated with a Message object.
+description: Releases the memory resource associated with a Message object.helpviewer_keywords: ["WsFreeMessage","WsFreeMessage function [Web Services for Windows]","webservices/WsFreeMessage","wsw.wsfreemessage"]
 old-location: wsw\wsfreemessage.htm
 tech.root: wsw
 ms.assetid: 50e08300-9445-4741-9298-bd80fc777041

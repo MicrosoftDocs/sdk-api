@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetDriverQueryXml
 title: WdsCliGetDriverQueryXml function (wdsclientapi.h)
-description: This function generates an XML string which can be used to query a WDS server for driver packages using the WdsCliObtainDriverPackagesEx function.
+description: This function generates an XML string which can be used to query a WDS server for driver packages using the WdsCliObtainDriverPackagesEx function.helpviewer_keywords: ["WdsCliGetDriverQueryXml","WdsCliGetDriverQueryXml function [Windows Deployment Services]","wds.wdscligetdriverqueryxml","wdsclientapi/WdsCliGetDriverQueryXml"]
 old-location: wds\wdscligetdriverqueryxml.htm
 tech.root: wds
 ms.assetid: 0E5ABBBD-CD8A-4D0B-9D4B-5044278961D8

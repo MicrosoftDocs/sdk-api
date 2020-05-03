@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmGetEnumDests
 title: RtmGetEnumDests function (rtmv2.h)
-description: The RtmGetEnumDests function retrieves the next set of destinations in the specified enumeration.
+description: The RtmGetEnumDests function retrieves the next set of destinations in the specified enumeration.helpviewer_keywords: ["RtmGetEnumDests","RtmGetEnumDests function [RAS]","_rtmv2ref_rtmgetenumdests","rras.rtmgetenumdests","rtmv2/RtmGetEnumDests"]
 old-location: rras\rtmgetenumdests.htm
 tech.root: RRAS
 ms.assetid: f793b54e-9591-4b9f-b109-8487013c7af5

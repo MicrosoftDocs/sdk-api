@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Operation
 title: MI_Operation (mi.h)
-description: Represents a single operations execution. This object holds the internal function tables for carrying out actions on the operation.
+description: Represents a single operations execution. This object holds the internal function tables for carrying out actions on the operation.helpviewer_keywords: ["MI_Operation","MI_Operation structure [Windows Management Infrastructure (MI)]","mi/MI_Operation","wmi_v2.mi_operation"]
 old-location: wmi_v2\mi_operation.htm
 tech.root: wmi_v2
 ms.assetid: a62b3656-c281-4f30-9690-de453df9f2db

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetResourceDescription
 title: IShellItemResources::GetResourceDescription (shobjidl_core.h)
-description: Gets a resource description.
+description: Gets a resource description.helpviewer_keywords: ["GetResourceDescription","GetResourceDescription method [Windows Shell]","GetResourceDescription method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","GetResourceDescription method","IShellItemResources.GetResourceDescription","IShellItemResources::GetResourceDescription","_shell_IShellItemResources_GetResourceDescription","shell.IShellItemResources_GetResourceDescription","shobjidl_core/IShellItemResources::GetResourceDescription"]
 old-location: shell\IShellItemResources_GetResourceDescription.htm
 tech.root: shell
 ms.assetid: f5e20d50-510d-4d30-903e-6953846957a9

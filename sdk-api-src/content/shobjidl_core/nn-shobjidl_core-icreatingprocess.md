@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ICreatingProcess
 title: ICreatingProcess (shobjidl_core.h)
-description: Used by ShellExecuteEx and IContextMenu to allow the caller to alter some parameters of the process being created.
+description: Used by ShellExecuteEx and IContextMenu to allow the caller to alter some parameters of the process being created.helpviewer_keywords: ["ICreatingProcess","ICreatingProcess interface [Windows Shell]","ICreatingProcess interface [Windows Shell]","described","shell.icreatingprocess","shobjidl_core/ICreatingProcess"]
 old-location: shell\icreatingprocess.htm
 tech.root: shell
 ms.assetid: 68B89E8C-2868-4F33-87A5-66A2FEFC0441

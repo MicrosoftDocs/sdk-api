@@ -1,7 +1,7 @@
 ---
 UID: NF:wcndevice.IWCNConnectNotify.ConnectFailed
 title: IWCNConnectNotify::ConnectFailed (wcndevice.h)
-description: Callback method indicates a IWCNDevice::Connect failure.
+description: Callback method indicates a IWCNDevice::Connect failure.helpviewer_keywords: ["ConnectFailed","ConnectFailed method [Windows Connect Now]","ConnectFailed method [Windows Connect Now]","IWCNConnectNotify interface","IWCNConnectNotify interface [Windows Connect Now]","ConnectFailed method","IWCNConnectNotify.ConnectFailed","IWCNConnectNotify::ConnectFailed","wcn.iwcnconnectnotify_connectfailed","wcndevice/IWCNConnectNotify::ConnectFailed"]
 old-location: wcn\iwcnconnectnotify_connectfailed.htm
 tech.root: wcn
 ms.assetid: cdf0394a-f5e6-49cf-bd18-9c3c2b689e50

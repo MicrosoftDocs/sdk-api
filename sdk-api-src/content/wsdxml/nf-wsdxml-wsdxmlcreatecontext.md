@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdxml.WSDXMLCreateContext
 title: WSDXMLCreateContext function (wsdxml.h)
-description: Creates a new IWSDXMLContext object.
+description: Creates a new IWSDXMLContext object.helpviewer_keywords: ["WSDXMLCreateContext","WSDXMLCreateContext function","ncd.wsdxmlcreatecontext","wsdxml/WSDXMLCreateContext"]
 old-location: ncd\wsdxmlcreatecontext.htm
 tech.root: WsdApi
 ms.assetid: fb0d8c28-1dc3-43be-a1cf-c00de6c1f43e

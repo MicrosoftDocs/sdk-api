@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_SA_STATISTICS0_
 title: IPSEC_AGGREGATE_SA_STATISTICS0 (ipsectypes.h)
-description: Stores aggregate IPsec kernel security association (SA) statistics.
+description: Stores aggregate IPsec kernel security association (SA) statistics.helpviewer_keywords: ["IPSEC_AGGREGATE_SA_STATISTICS0","IPSEC_AGGREGATE_SA_STATISTICS0 structure [Filtering]","fwp.ipsec_aggregate_sa_statistics0_struct","ipsectypes/IPSEC_AGGREGATE_SA_STATISTICS0"]
 old-location: fwp\ipsec_aggregate_sa_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: f0318061-40f9-4380-9681-34db70659c49

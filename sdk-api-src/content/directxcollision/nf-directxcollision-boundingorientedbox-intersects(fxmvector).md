@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Intersects(FXMVECTOR)
 title: BoundingOrientedBox::Intersects(FXMVECTOR)
-description: Tests the BoundingOrientedBox for intersection with a plane.
+description: Tests the BoundingOrientedBox for intersection with a plane.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","Intersects method","BoundingOrientedBox.Intersects","BoundingOrientedBox.Intersects(FXMVECTOR)","BoundingOrientedBox.Intersects(XMVECTOR)","BoundingOrientedBox::Intersects","BoundingOrientedBox::Intersects(FXMVECTOR)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_intersects_7"]
 old-location: dxmath\boundingorientedbox_intersects_7.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Intersects(XMVECTOR)

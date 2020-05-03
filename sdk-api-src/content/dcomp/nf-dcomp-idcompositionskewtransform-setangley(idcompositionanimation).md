@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation) (dcomp.h)
 description: Animates the value of the AngleY property of a 2D skew transform.
+helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetAngleY method","IDCompositionSkewTransform.SetAngleY","IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation)","IDCompositionSkewTransform::SetAngleY","IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation)","IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation*)","SetAngleY","SetAngleY method [DirectComposition]","SetAngleY method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetAngleY","directcomp.idcompositionskewtransform_setangley_idcompositionanimation"]
 old-location: directcomp\idcompositionskewtransform_setangley_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: f79ab50f-37f5-43d5-b7df-0cd1b65bdfcd
@@ -98,7 +99,7 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setanglex(float)">IDCompositionSkewTransform::SetAngleX</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setanglex(float)">IDCompositionSkewTransform::SetAngleX</a>
  
 
  

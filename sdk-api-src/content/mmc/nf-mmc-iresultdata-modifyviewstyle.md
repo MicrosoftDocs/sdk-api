@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IResultData.ModifyViewStyle
 title: IResultData::ModifyViewStyle (mmc.h)
-description: The IResultData::ModifyViewStyle method enables the snap-in to set the result pane's view style.
+description: The IResultData::ModifyViewStyle method enables the snap-in to set the result pane's view style.helpviewer_keywords: ["IResultData interface [MMC]","ModifyViewStyle method","IResultData.ModifyViewStyle","IResultData2 interface [MMC]","ModifyViewStyle method","IResultData2::ModifyViewStyle","IResultData::ModifyViewStyle","MMC_NOSORTHEADER","MMC_SHOWSELALWAYS","MMC_SINGLESEL","ModifyViewStyle","ModifyViewStyle method [MMC]","ModifyViewStyle method [MMC]","IResultData interface","ModifyViewStyle method [MMC]","IResultData2 interface","_slate_iresultdata_modifyviewstyle","mmc.iresultdata_modifyviewstyle","mmc/IResultData2::ModifyViewStyle","mmc/IResultData::ModifyViewStyle"]
 old-location: mmc\iresultdata_modifyviewstyle.htm
 tech.root: mmc
 ms.assetid: f33a427c-6952-4877-bbfb-09ac976ea188

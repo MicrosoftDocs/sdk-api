@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.AcquireWrappedResources
 title: ID3D11On12Device::AcquireWrappedResources (d3d11on12.h)
-description: Acquires D3D11 resources for use with D3D 11on12. Indicates that rendering to the wrapped resources can begin again.
+description: Acquires D3D11 resources for use with D3D 11on12. Indicates that rendering to the wrapped resources can begin again.helpviewer_keywords: ["AcquireWrappedResources","AcquireWrappedResources method","AcquireWrappedResources method","ID3D11On12Device interface","ID3D11On12Device interface","AcquireWrappedResources method","ID3D11On12Device.AcquireWrappedResources","ID3D11On12Device::AcquireWrappedResources","d3d11on12/ID3D11On12Device::AcquireWrappedResources","direct3d12.id3d11on12device_acquirewrappedresources"]
 old-location: direct3d12\id3d11on12device_acquirewrappedresources.htm
 tech.root: direct3d12
 ms.assetid: 123FC8D9-6411-4CB7-921B-CEB32F5A9AD9

@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.MCIWndGetRepeat
 title: MCIWndGetRepeat macro (vfw.h)
-description: The MCIWndGetRepeat macro determines if continuous playback has been activated. You can use this macro or explicitly send the MCIWNDM_GETREPEAT message.
+description: The MCIWndGetRepeat macro determines if continuous playback has been activated. You can use this macro or explicitly send the MCIWNDM_GETREPEAT message.helpviewer_keywords: ["MCIWndGetRepeat","MCIWndGetRepeat macro [Windows Multimedia]","_win32_MCIWndGetRepeat","multimedia.mciwndgetrepeat","vfw/MCIWndGetRepeat"]
 old-location: multimedia\mciwndgetrepeat.htm
 tech.root: Multimedia
 ms.assetid: e5c346db-b33a-4420-b9e1-c634dcffa134

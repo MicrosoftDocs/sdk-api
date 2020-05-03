@@ -1,7 +1,7 @@
 ---
 UID: NN:tsvirtualchannels.IWTSListener
 title: IWTSListener (tsvirtualchannels.h)
-description: Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.
+description: Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.helpviewer_keywords: ["IWTSListener","IWTSListener interface [Remote Desktop Services]","IWTSListener interface [Remote Desktop Services]","described","termserv.iwtslistener","tsvirtualchannels/IWTSListener"]
 old-location: termserv\iwtslistener.htm
 tech.root: TermServ
 ms.assetid: af0dda9a-0d18-4f44-ac13-0bf2b903d34e

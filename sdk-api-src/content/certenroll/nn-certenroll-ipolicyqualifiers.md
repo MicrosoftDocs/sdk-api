@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.IPolicyQualifiers
 title: IPolicyQualifiers (certenroll.h)
-description: Defines methods and properties that enable you to manage a collection of IPolicyQualifier objects.
+description: Defines methods and properties that enable you to manage a collection of IPolicyQualifier objects.helpviewer_keywords: ["IPolicyQualifiers","IPolicyQualifiers interface [Security]","IPolicyQualifiers interface [Security]","described","certenroll/IPolicyQualifiers","security.ipolicyqualifiers"]
 old-location: security\ipolicyqualifiers.htm
 tech.root: seccertenroll
 ms.assetid: da8b6289-379e-4dff-b15a-b0967f245c3d

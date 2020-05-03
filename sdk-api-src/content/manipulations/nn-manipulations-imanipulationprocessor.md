@@ -2,6 +2,7 @@
 UID: NN:manipulations.IManipulationProcessor
 title: IManipulationProcessor (manipulations.h)
 description: The IManipulationProcessor provides functionality for monitoring and responding to multitouch input.
+helpviewer_keywords: ["IManipulationProcessor","IManipulationProcessor interface [Windows Touch]","IManipulationProcessor interface [Windows Touch]","described","manipulations/IManipulationProcessor","wintouch.imanipulationprocessor"]
 old-location: wintouch\imanipulationprocessor.htm
 tech.root: wintouch
 ms.assetid: 963f87c1-e128-4bd5-9f28-d49418f768fb
@@ -74,7 +75,7 @@ The <b>IManipulationProcessor</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation">CompleteManipulation</a>
 </td>
 <td align="left" width="63%">
-Call this method when you want manipulation to end.  This method raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
+Call this method when you want manipulation to end.  This method raises the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
 
 </td>
 </tr>

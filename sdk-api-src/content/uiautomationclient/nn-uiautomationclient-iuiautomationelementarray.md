@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElementArray
 title: IUIAutomationElementArray (uiautomationclient.h)
-description: Represents a collection of UI Automation elements.
+description: Represents a collection of UI Automation elements.helpviewer_keywords: ["IUIAutomationElementArray","IUIAutomationElementArray interface [Windows Accessibility]","IUIAutomationElementArray interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationElementArray","uiauto_IUIAutomationElementArray","uiautomationclient/IUIAutomationElementArray","winauto.uiauto_IUIAutomationElementArray"]
 old-location: winauto\uiauto_IUIAutomationElementArray.htm
 tech.root: WinAuto
 ms.assetid: 7ecf585c-ff3b-4f89-8a7d-e2de66650ab4

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolder
 title: ITaskFolder::GetFolder (taskschd.h)
-description: Gets a folder that contains tasks at a specified location.
+description: Gets a folder that contains tasks at a specified location.helpviewer_keywords: ["GetFolder","GetFolder method [Task Scheduler]","GetFolder method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","GetFolder method","ITaskFolder.GetFolder","ITaskFolder::GetFolder","taskschd.itaskfolder_getfolder","taskschd/ITaskFolder::GetFolder"]
 old-location: taskschd\itaskfolder_getfolder.htm
 tech.root: taskschd
 ms.assetid: 62a0b946-ba06-46cf-bf38-e6774bdaae0a

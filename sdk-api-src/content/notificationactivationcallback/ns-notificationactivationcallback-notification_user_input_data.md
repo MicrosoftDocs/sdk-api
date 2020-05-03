@@ -1,7 +1,7 @@
 ---
 UID: NS:notificationactivationcallback.NOTIFICATION_USER_INPUT_DATA
 title: NOTIFICATION_USER_INPUT_DATA (notificationactivationcallback.h)
-description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.
+description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.helpviewer_keywords: ["NOTIFICATION_USER_INPUT_DATA","NOTIFICATION_USER_INPUT_DATA structure","PNOTIFICATION_USER_INPUT_DATA","PNOTIFICATION_USER_INPUT_DATA structure pointer","notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA","notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA","win32_tile_badge_notif.notification_user_input_data"]
 old-location: win32_tile_badge_notif\notification_user_input_data.htm
 tech.root: win32_tile_badge_notif
 ms.assetid: C39B906E-4EB2-4EFF-B0A3-76E6B17A3662

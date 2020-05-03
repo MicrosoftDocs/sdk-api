@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationPending
 title: IExplorerBrowserEvents::OnNavigationPending (shobjidl_core.h)
-description: Notifies clients of a pending Explorer browser navigation to a Shell folder.
+description: Notifies clients of a pending Explorer browser navigation to a Shell folder.helpviewer_keywords: ["IExplorerBrowserEvents interface [Windows Shell]","OnNavigationPending method","IExplorerBrowserEvents.OnNavigationPending","IExplorerBrowserEvents::OnNavigationPending","OnNavigationPending","OnNavigationPending method [Windows Shell]","OnNavigationPending method [Windows Shell]","IExplorerBrowserEvents interface","_shell_IExplorerBrowserEvents_OnNavigationPending","shell.IExplorerBrowserEvents_OnNavigationPending","shobjidl_core/IExplorerBrowserEvents::OnNavigationPending"]
 old-location: shell\IExplorerBrowserEvents_OnNavigationPending.htm
 tech.root: shell
 ms.assetid: 52dfb901-ee65-444a-8b27-2d2811cf83c0

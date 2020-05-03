@@ -2,6 +2,7 @@
 UID: NF:processthreadsapi.SetProcessMitigationPolicy
 title: SetProcessMitigationPolicy function (processthreadsapi.h)
 description: Sets a mitigation policy for the calling process. Mitigation policies enable a process to harden itself against various types of attacks.
+helpviewer_keywords: ["ProcessASLRPolicy","ProcessControlFlowGuardPolicy","ProcessDEPPolicy","ProcessDynamicCodePolicy","ProcessExtensionPointDisablePolicy","ProcessFontDisablePolicy","ProcessImageLoadPolicy","ProcessMitigationOptionsMask","ProcessSignaturePolicy","ProcessStrictHandleCheckPolicy","ProcessSystemCallDisablePolicy","SetProcessMitigationPolicy","SetProcessMitigationPolicy function","base.setprocessmitigationpolicy","processthreadsapi/SetProcessMitigationPolicy"]
 old-location: base\setprocessmitigationpolicy.htm
 tech.root: ProcThread
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
@@ -115,7 +116,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 The process will receive a fatal error if it manipulates a handle that is not valid.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_strict_handle_check_policy">PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY</a> structure that specifies the handle check policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_strict_handle_check_policy">PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY</a> structure that specifies the handle check policy flags.
 
 </td>
 </tr>
@@ -127,7 +128,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 Disables the ability to use NTUser/GDI functions at the lowest layer.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_system_call_disable_policy">PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY</a> structure that specifies the system call disable policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_system_call_disable_policy">PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY</a> structure that specifies the system call disable policy flags.
 
 </td>
 </tr>
@@ -149,7 +150,7 @@ The <i>lpBuffer</i> parameter points to a <b>ULONG64</b> bit vector for the mask
 </dl>
 </td>
 <td width="60%">
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_extension_point_disable_policy">PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY</a> structure that specifies the extension point disable policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_extension_point_disable_policy">PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY</a> structure that specifies the extension point disable policy flags.
 
 </td>
 </tr>
@@ -161,7 +162,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 The Control Flow Guard (CFG) policy of the process.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_control_flow_guard_policy">PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY</a> structure that specifies the CFG policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_control_flow_guard_policy">PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY</a> structure that specifies the CFG policy flags.
 
 <div class="alert"><b>Note</b>  This value is not currently supported.</div>
 <div> </div>
@@ -175,7 +176,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 The policy of a process that can restrict image loading to those images that are either signed by Microsoft, by the Windows Store, or by Microsoft, the Windows Store and the Windows Hardware Quality Labs (WHQL).
 
-he <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_binary_signature_policy">PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY</a> structure that specifies the signature policy flags.
+he <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_binary_signature_policy">PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY</a> structure that specifies the signature policy flags.
 
 </td>
 </tr>
@@ -215,17 +216,17 @@ If the <i>MitigationPolicy</i> parameter is <b>ProcessASLRPolicy</b>, this param
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that receives the policy flags for image loading.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessStrictHandleCheckPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_strict_handle_check_policy">PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY</a> structure that specifies the handle check policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessStrictHandleCheckPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_strict_handle_check_policy">PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY</a> structure that specifies the handle check policy flags.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessSystemCallDisablePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_system_call_disable_policy">PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY</a> structure that specifies the system call disable policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessSystemCallDisablePolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_system_call_disable_policy">PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY</a> structure that specifies the system call disable policy flags.
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessMitigationOptionsMask</b>, this parameter points to a <b>ULONG64</b> bit vector for the mask, or to accommodate more than 64 bits, a two-element array of <b>ULONG64</b> bit vectors.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessExtensionPointDisablePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_extension_point_disable_policy">PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY</a> structure that specifies the extension point disable policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessExtensionPointDisablePolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_extension_point_disable_policy">PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY</a> structure that specifies the extension point disable policy flags.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessControlFlowGuardPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_control_flow_guard_policy">PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY</a> structure that specifies the CFG policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessControlFlowGuardPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_control_flow_guard_policy">PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY</a> structure that specifies the CFG policy flags.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessSignaturePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-process_mitigation_binary_signature_policy">PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY</a> structure that specifies the signature policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessSignaturePolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_binary_signature_policy">PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY</a> structure that specifies the signature policy flags.
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessFontDisablePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
 

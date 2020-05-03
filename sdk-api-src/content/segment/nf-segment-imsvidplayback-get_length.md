@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_Length
 title: IMSVidPlayback::get_Length (segment.h)
-description: The get_Length method retrieves the length of the playback source.
+description: The get_Length method retrieves the length of the playback source.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","get_Length method","IMSVidPlayback.get_Length","IMSVidPlayback::get_Length","IMSVidPlaybackget_Length","get_Length","get_Length method [Microsoft TV Technologies]","get_Length method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_get_length","segment/IMSVidPlayback::get_Length"]
 old-location: mstv\imsvidplayback_get_length.htm
 tech.root: mstv
 ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b

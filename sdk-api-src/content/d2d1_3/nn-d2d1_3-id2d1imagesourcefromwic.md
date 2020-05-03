@@ -2,6 +2,7 @@
 UID: NN:d2d1_3.ID2D1ImageSourceFromWic
 title: ID2D1ImageSourceFromWic (d2d1_3.h)
 description: Produces 2D pixel data that has been sourced from WIC.
+helpviewer_keywords: ["ID2D1ImageSourceFromWic","ID2D1ImageSourceFromWic interface [Direct2D]","ID2D1ImageSourceFromWic interface [Direct2D]","described","d2d1_3/ID2D1ImageSourceFromWic","direct2d.id2d1imagesourcefromwic"]
 old-location: direct2d\id2d1imagesourcefromwic.htm
 tech.root: Direct2D
 ms.assetid: EA1F1377-A314-4375-AB86-A36CFE5AF0C8
@@ -100,7 +101,7 @@ Retrieves the underlying bitmap image source from the Windows Imaging Component 
 
 
 Create an an instance of ID2D1ImageSourceFromWic 
-          using [ID2D1DeviceContext2::CreateImageSourceFromWic](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_d2d1_alpha_mode_id2d1imagesourcefromwic))a>.
+          using [ID2D1DeviceContext2::CreateImageSourceFromWic](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_d2d1_alpha_mode_id2d1imagesourcefromwic)).
         
 
 

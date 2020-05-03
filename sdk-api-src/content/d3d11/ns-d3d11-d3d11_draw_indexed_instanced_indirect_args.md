@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
 title: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS (d3d11.h)
-description: Arguments for draw indexed instanced indirect.
+description: Arguments for draw indexed instanced indirect.helpviewer_keywords: ["D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS","D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS structure [Direct3D 11]","d3d11/D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS","direct3d11.d3d11_draw_indexed_instanced_indirect_args"]
 old-location: direct3d11\d3d11_draw_indexed_instanced_indirect_args.htm
 tech.root: direct3d11
 ms.assetid: 26530AAB-2E41-4165-AE19-5B8F95AE5A20

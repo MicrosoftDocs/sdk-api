@@ -2,6 +2,7 @@
 UID: NF:winsync.IFilterRequestCallback.RequestFilter
 title: IFilterRequestCallback::RequestFilter (winsync.h)
 description: Requests that the filter that is specified by the destination provider be used by the source provider during change enumeration.
+helpviewer_keywords: ["IFilterRequestCallback interface [Windows Sync]","RequestFilter method","IFilterRequestCallback.RequestFilter","IFilterRequestCallback::RequestFilter","RequestFilter","RequestFilter method [Windows Sync]","RequestFilter method [Windows Sync]","IFilterRequestCallback interface","winsync.ifilterrequestcallback_requestfilter","winsync/IFilterRequestCallback::RequestFilter"]
 old-location: winsync\ifilterrequestcallback_requestfilter.htm
 tech.root: winsync
 ms.assetid: f7dea17e-ab13-4eb3-8354-3dfefea16062
@@ -64,7 +65,7 @@ The filter that is specified by the destination provider. This filter is passed 
 
 ### -param filteringType [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
+A <a href="/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
 
 
 ## -returns
@@ -138,7 +139,7 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-filtering_type">FILTERING_TYPE Enumeration</a>
 
 
 

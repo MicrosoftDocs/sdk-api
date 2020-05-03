@@ -2,6 +2,7 @@
 UID: NF:msrdc.IRdcComparator.Process
 title: IRdcComparator::Process (msrdc.h)
 description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.
+helpviewer_keywords: ["IRdcComparator interface [Remote Differential Compression]","Process method","IRdcComparator.Process","IRdcComparator::Process","Process","Process method [Remote Differential Compression]","Process method [Remote Differential Compression]","IRdcComparator interface","fs.irdccomparator_process","msrdc/IRdcComparator::Process","rdc.irdccomparator_process"]
 old-location: rdc\irdccomparator_process.htm
 tech.root: rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089
@@ -74,16 +75,16 @@ Address of a <b>BOOL</b> that on successful completion is set to
 
 ### -param inputBuffer [in, out]
 
-Address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a> structure containing 
+Address of a <a href="/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a> structure containing 
       information about the input buffer. The <b>m_Used</b> member of this structure is used to 
       indicate how much input, if any, was processed during this call.
 
 
 ### -param outputBuffer [in, out]
 
-Address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a> structure containing 
+Address of a <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a> structure containing 
       information about the output buffer. On input the <b>m_Size</b> member of this structure 
-      must contain the number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures in the array 
+      must contain the number of <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structures in the array 
       pointed to by the <b>m_Data</b> member, and the <b>m_Used</b> member 
       must be zero. On output the <b>m_Used</b> member will contain the number of 
       <b>RdcNeed</b> structures in the array pointed to by the 
@@ -92,7 +93,7 @@ Address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrd
 
 ### -param rdc_ErrorCode [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a> enumeration that is 
+The address of a <a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a> enumeration that is 
       filled with an RDC specific error code if the return value from the 
       <b>Process</b> method is 
       <b>E_FAIL</b>. If this value is <b>RDC_Win32ErrorCode</b>, then the 
@@ -113,7 +114,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-On successful return, iterate through each <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structure 
+On successful return, iterate through each <a href="/windows/win32/api/msrdc/ns-msrdc-rdcneed">RdcNeed</a> structure 
    returned in the array pointed to by the <b>m_Data</b> member of the 
    <i>outputBuffer</i> parameter, and copy the specified chunk of the source or seed data to the 
    target data.
@@ -130,15 +131,15 @@ On successful return, iterate through each <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a>
+<a href="/windows/win32/api/msrdc/ne-msrdc-rdc_errorcode">RDC_ErrorCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
  
 
  

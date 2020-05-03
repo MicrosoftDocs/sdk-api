@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_EXTENSION
 title: CERT_EXTENSION (wincrypt.h)
-description: The CERT_EXTENSION structure contains the extension information for a certificate, Certificate Revocation List (CRL) or Certificate Trust List (CTL).
+description: The CERT_EXTENSION structure contains the extension information for a certificate, Certificate Revocation List (CRL) or Certificate Trust List (CTL).helpviewer_keywords: ["*PCERT_EXTENSION","CERT_EXTENSION","CERT_EXTENSION structure [Security]","PCERT_EXTENSION","PCERT_EXTENSION structure pointer [Security]","_crypto2_cert_extension","security.cert_extension","wincrypt/CERT_EXTENSION","wincrypt/PCERT_EXTENSION"]
 old-location: security\cert_extension.htm
 tech.root: SecCrypto
 ms.assetid: 787a4df0-c0e3-46b9-a7e6-eb3bee3ed717

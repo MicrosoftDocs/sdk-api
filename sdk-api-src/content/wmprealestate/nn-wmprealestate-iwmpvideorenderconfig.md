@@ -1,7 +1,7 @@
 ---
 UID: NN:wmprealestate.IWMPVideoRenderConfig
 title: IWMPVideoRenderConfig (wmprealestate.h)
-description: The IWMPVideoRenderConfig interface provides a method that configures the enhanced video renderer (EVR) used by Windows Media Player.
+description: The IWMPVideoRenderConfig interface provides a method that configures the enhanced video renderer (EVR) used by Windows Media Player.helpviewer_keywords: ["IWMPVideoRenderConfig","IWMPVideoRenderConfig interface [Windows Media Player]","IWMPVideoRenderConfig interface [Windows Media Player]","described","IWMPVideoRenderConfigInterface","wmp.iwmpvideorenderconfig","wmprealestate/IWMPVideoRenderConfig"]
 old-location: wmp\iwmpvideorenderconfig.htm
 tech.root: WMP
 ms.assetid: 60318e68-89dd-4505-a703-3de4d5442236

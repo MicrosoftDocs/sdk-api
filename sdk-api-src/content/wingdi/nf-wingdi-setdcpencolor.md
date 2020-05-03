@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetDCPenColor
 title: SetDCPenColor function (wingdi.h)
-description: SetDCPenColor function sets the current device context (DC) pen color to the specified color value. If the device cannot represent the specified color value, the color is set to the nearest physical color.
+description: SetDCPenColor function sets the current device context (DC) pen color to the specified color value. If the device cannot represent the specified color value, the color is set to the nearest physical color.helpviewer_keywords: ["SetDCPenColor","SetDCPenColor function [Windows GDI]","_win32_SetDCPenColor","gdi.setdcpencolor","wingdi/SetDCPenColor"]
 old-location: gdi\setdcpencolor.htm
 tech.root: gdi
 ms.assetid: 057608eb-7209-4714-bf02-660a13d59016

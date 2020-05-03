@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolGetFromTx
 title: IComObjectPoolEvents::OnObjPoolGetFromTx (comsvcs.h)
 description: Generated when a transactional object is obtained from the pool.
+helpviewer_keywords: ["IComObjectPoolEvents interface [COM+]","OnObjPoolGetFromTx method","IComObjectPoolEvents.OnObjPoolGetFromTx","IComObjectPoolEvents::OnObjPoolGetFromTx","OnObjPoolGetFromTx","OnObjPoolGetFromTx method [COM+]","OnObjPoolGetFromTx method [COM+]","IComObjectPoolEvents interface","_dtc_IComObjectPoolEvents_OnObjPoolGetFromTx","comsvcs/IComObjectPoolEvents::OnObjPoolGetFromTx","cos.icomobjectpoolevents_onobjpoolgetfromtx"]
 old-location: cos\icomobjectpoolevents_onobjpoolgetfromtx.htm
 tech.root: cossdk
 ms.assetid: 977ab640-a9d5-47f5-ad47-ad2e1648fd6b
@@ -59,7 +60,7 @@ Generated when a transactional object is obtained from the pool.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]

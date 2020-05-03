@@ -2,6 +2,7 @@
 UID: NF:lmstats.NetStatisticsGet
 title: NetStatisticsGet function (lmstats.h)
 description: Retrieves operating statistics for a service. Currently, only the workstation and server services are supported.
+helpviewer_keywords: ["0","NetStatisticsGet","NetStatisticsGet function [Files]","_win32_netstatisticsget","fs.netstatisticsget","lmstats/NetStatisticsGet","netmgmt.netstatisticsget"]
 old-location: fs\netstatisticsget.htm
 tech.root: NetShare
 ms.assetid: d0e51d8a-2f54-42ca-9759-0da82c1f0f55
@@ -85,7 +86,7 @@ Specifies the information level of the data. This parameter can be the following
 </td>
 <td width="60%">
 Return statistics about a workstation or a server. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a> or a 
+<a href="/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a> or a 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a> structure.
 
 </td>
@@ -152,7 +153,7 @@ No special group membership is required to obtain workstation statistics. Only m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a>
+<a href="/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a>
 
 
 

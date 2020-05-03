@@ -1,7 +1,7 @@
 ---
 UID: NE:wuapi.tagUpdateServiceOption
 title: UpdateServiceOption (wuapi.h)
-description: Defines the options that affect how the service registration for a scan package service is removed.
+description: Defines the options that affect how the service registration for a scan package service is removed.helpviewer_keywords: ["UpdateServiceOption","UpdateServiceOption enumeration [Windows Update Agent]","usoNonVolatileService","wua.updateserviceoption","wuapi/UpdateServiceOption","wuapi/usoNonVolatileService"]
 old-location: wua\updateserviceoption.htm
 tech.root: Wua_Sdk
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07

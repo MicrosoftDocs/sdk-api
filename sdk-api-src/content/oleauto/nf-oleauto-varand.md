@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarAnd
 title: VarAnd function (oleauto.h)
-description: Performs a bitwise And operation between two variants of any integral type.
+description: Performs a bitwise And operation between two variants of any integral type.helpviewer_keywords: ["VarAnd","VarAnd function [Automation]","_oa96_VarAnd","automat.varand","oleauto/VarAnd"]
 old-location: automat\varand.htm
 tech.root: automat
 ms.assetid: bcdda3e6-d599-4266-ba66-6634ab26f9d0

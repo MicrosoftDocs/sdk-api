@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcMgmtIsServerListening
 title: RpcMgmtIsServerListening function (rpcdce.h)
-description: The RpcMgmtIsServerListening function tells whether a server is listening for remote procedure calls.
+description: The RpcMgmtIsServerListening function tells whether a server is listening for remote procedure calls.helpviewer_keywords: ["RpcMgmtIsServerListening","RpcMgmtIsServerListening function [RPC]","_rpc_rpcmgmtisserverlistening","rpc.rpcmgmtisserverlistening","rpcdce/RpcMgmtIsServerListening"]
 old-location: rpc\rpcmgmtisserverlistening.htm
 tech.root: Rpc
 ms.assetid: e4c5e8aa-764d-489f-ac98-ab40ca4a3534

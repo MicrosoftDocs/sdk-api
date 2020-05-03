@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_XASCENT
 title: DWRITE_PANOSE_XASCENT (dwrite_1.h)
-description: The DWRITE_PANOSE_XASCENT enumeration contains values that specify the relative size of the lowercase letters.
+description: The DWRITE_PANOSE_XASCENT enumeration contains values that specify the relative size of the lowercase letters.helpviewer_keywords: ["DWRITE_PANOSE_XASCENT","DWRITE_PANOSE_XASCENT enumeration [Direct Write]","DWRITE_PANOSE_XASCENT_ANY","DWRITE_PANOSE_XASCENT_HIGH","DWRITE_PANOSE_XASCENT_LOW","DWRITE_PANOSE_XASCENT_MEDIUM","DWRITE_PANOSE_XASCENT_NO_FIT","DWRITE_PANOSE_XASCENT_VERY_HIGH","DWRITE_PANOSE_XASCENT_VERY_LOW","directwrite.dwrite_panose_xascent","dwrite_1/DWRITE_PANOSE_XASCENT","dwrite_1/DWRITE_PANOSE_XASCENT_ANY","dwrite_1/DWRITE_PANOSE_XASCENT_HIGH","dwrite_1/DWRITE_PANOSE_XASCENT_LOW","dwrite_1/DWRITE_PANOSE_XASCENT_MEDIUM","dwrite_1/DWRITE_PANOSE_XASCENT_NO_FIT","dwrite_1/DWRITE_PANOSE_XASCENT_VERY_HIGH","dwrite_1/DWRITE_PANOSE_XASCENT_VERY_LOW"]
 old-location: directwrite\dwrite_panose_xascent.htm
 tech.root: DirectWrite
 ms.assetid: CD32DC3D-57C5-4B21-955B-D023D8E3DD36

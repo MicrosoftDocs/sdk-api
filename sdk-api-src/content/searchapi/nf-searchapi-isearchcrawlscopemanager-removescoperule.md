@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveScopeRule
 title: ISearchCrawlScopeManager::RemoveScopeRule (searchapi.h)
-description: Removes a scope rule from the search engine.
+description: Removes a scope rule from the search engine.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveScopeRule method","ISearchCrawlScopeManager.RemoveScopeRule","ISearchCrawlScopeManager::RemoveScopeRule","RemoveScopeRule","RemoveScopeRule method [search]","RemoveScopeRule method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveScopeRule","search._search_ISearchCrawlScopeManager_RemoveScopeRule","searchapi/ISearchCrawlScopeManager::RemoveScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_RemoveScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removescoperule.htm

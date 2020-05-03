@@ -2,6 +2,7 @@
 UID: NE:virtdisk._OPEN_VIRTUAL_DISK_VERSION
 title: OPEN_VIRTUAL_DISK_VERSION (virtdisk.h)
 description: Contains the version of the virtual disk OPEN_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
+helpviewer_keywords: ["OPEN_VIRTUAL_DISK_VERSION","OPEN_VIRTUAL_DISK_VERSION enumeration [VHD]","OPEN_VIRTUAL_DISK_VERSION_1","OPEN_VIRTUAL_DISK_VERSION_2","OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/OPEN_VIRTUAL_DISK_VERSION","vdssys/OPEN_VIRTUAL_DISK_VERSION_1","vdssys/OPEN_VIRTUAL_DISK_VERSION_2","vdssys/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.open_virtual_disk_version","virtdisk/OPEN_VIRTUAL_DISK_VERSION","virtdisk/OPEN_VIRTUAL_DISK_VERSION_1","virtdisk/OPEN_VIRTUAL_DISK_VERSION_2","virtdisk/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
 old-location: vhd\open_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 3f45324a-6e31-43d6-9fc9-65c85e6c3493
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure to 
+    <a href="/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure to 
     use in calls to virtual disk functions.
 
 

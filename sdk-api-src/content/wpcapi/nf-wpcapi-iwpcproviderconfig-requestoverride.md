@@ -1,7 +1,7 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.RequestOverride
 title: IWPCProviderConfig::RequestOverride (wpcapi.h)
-description: Called for the current provider to enable configuration override.
+description: Called for the current provider to enable configuration override.helpviewer_keywords: ["IWPCProviderConfig interface","RequestOverride method","IWPCProviderConfig.RequestOverride","IWPCProviderConfig::RequestOverride","RequestOverride","RequestOverride method","RequestOverride method","IWPCProviderConfig interface","WPCFLAG_APPS_RESTRICTED","WPCFLAG_GAMES_BLOCKED","WPCFLAG_HOURS_RESTRICTED","WPCFLAG_LOGGING_REQUIRED","WPCFLAG_NO_RESTRICTION","WPCFLAG_WEB_FILTERED","parcon.iwpcproviderconfig_requestoverride","wpcapi/IWPCProviderConfig::RequestOverride"]
 old-location: parcon\iwpcproviderconfig_requestoverride.htm
 tech.root: parcon
 ms.assetid: 66A75879-9A95-472A-9529-61A57E37B9A0

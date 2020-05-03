@@ -2,6 +2,7 @@
 UID: NF:virtdisk.AttachVirtualDisk
 title: AttachVirtualDisk function (virtdisk.h)
 description: Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an appropriate VHD provider to accomplish the attachment.
+helpviewer_keywords: ["AttachVirtualDisk","AttachVirtualDisk function [VHD]","vdssys/AttachVirtualDisk","vhd.attachvirtualdisk","vhd.surfacevirtualdisk","virtdisk/AttachVirtualDisk"]
 old-location: vhd\attachvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 528370bc-77d4-4983-8910-d941165a037c
@@ -61,7 +62,7 @@ Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an 
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
+      <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param SecurityDescriptor [in, optional]
@@ -78,7 +79,7 @@ Ensure that the security descriptor that <b>AttachVirtualDisk</b> applies to the
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -89,7 +90,7 @@ Flags specific to the type of virtual disk being attached. May be zero if none a
 ### -param Parameters [in, optional]
 
 A pointer to a valid 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-attach_virtual_disk_parameters">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="/windows/win32/api/virtdisk/ns-virtdisk-attach_virtual_disk_parameters">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
       structure that contains attachment parameter data.
 
 
@@ -131,7 +132,7 @@ If the <b>AttachVirtualDisk</b> function fails with an
 
 <ul>
 <li>The <i>VirtualDiskHandle</i> parameter is not a valid handle created by the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.</li>
+      <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.</li>
 <li>The <i>Flags</i> parameter is set to a value larger than 
       <code>0x020</code>.</li>
 <li>The <b>Version</b> member of the <i>Parameters</i> parameter is not 
@@ -149,7 +150,7 @@ The intended access mode of the virtual disk must be considered when opening the
     <i>VirtualDiskHandle</i> parameter must have been opened using the 
     <b>VIRTUAL_DISK_ACCESS_ATTACH_RW</b> access flag. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> and 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>.
+    <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.

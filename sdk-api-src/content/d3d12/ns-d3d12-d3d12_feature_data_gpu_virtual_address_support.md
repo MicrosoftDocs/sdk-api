@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT
 title: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT (d3d12.h)
-description: Details the adapter's GPU virtual address space limitations, including maximum address bits per resource and per process.
+description: Details the adapter's GPU virtual address space limitations, including maximum address bits per resource and per process.helpviewer_keywords: ["D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT","D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure","d3d12/D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT","direct3d12.d3d12_feature_data_gpu_virtual_address_support"]
 old-location: direct3d12\d3d12_feature_data_gpu_virtual_address_support.htm
 tech.root: direct3d12
 ms.assetid: 2CBED491-A8B6-47AE-8371-2081BAF85B83

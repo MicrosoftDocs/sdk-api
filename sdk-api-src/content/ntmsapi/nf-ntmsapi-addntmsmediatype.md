@@ -1,7 +1,7 @@
 ---
 UID: NF:ntmsapi.AddNtmsMediaType
 title: AddNtmsMediaType function (ntmsapi.h)
-description: The AddNtmsMediaType function adds the specified media type to the specified library if there is not currently a relation in the library object. The function then creates the system media pools if they do not exist.
+description: The AddNtmsMediaType function adds the specified media type to the specified library if there is not currently a relation in the library object. The function then creates the system media pools if they do not exist.helpviewer_keywords: ["AddNtmsMediaType","AddNtmsMediaType function [Files]","_zaw_addntmsmediatype","base.addntmsmediatype","fs.addntmsmediatype","ntmsapi/AddNtmsMediaType"]
 old-location: fs\addntmsmediatype.htm
 tech.root: Rsm
 ms.assetid: fa8ad4af-eeb8-445e-ac6c-671badb651ec

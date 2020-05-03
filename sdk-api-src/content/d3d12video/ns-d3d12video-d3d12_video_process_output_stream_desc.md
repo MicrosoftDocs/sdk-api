@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC
 title: D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC
-description: Specifies output stream arguments for the output passed to ID3D12VideoProcessCommandList::ProcessFrames.
+description: Specifies output stream arguments for the output passed to ID3D12VideoProcessCommandList::ProcessFrames.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC","D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC",""]
 tech.root: mf
 ms.assetid: 45a8af3d-5e67-4bc0-a38b-f5b45298aea9
 ms.date: 05/28/2019

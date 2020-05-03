@@ -2,6 +2,7 @@
 UID: NF:rrascfg.IEAPProviderConfig.Initialize
 title: IEAPProviderConfig::Initialize (rrascfg.h)
 description: The system calls the Initialize method to initialize an EAP configuration session with the specified computer.
+helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","Initialize method","IEAPProviderConfig.Initialize","IEAPProviderConfig::Initialize","Initialize","Initialize method [EAP]","Initialize method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_initialize","eap.ieapproviderconfig_initialize","rrascfg/IEAPProviderConfig::Initialize"]
 old-location: eap\ieapproviderconfig_initialize.htm
 tech.root: EAP
 ms.assetid: 6d347387-7f8f-478b-a115-f6960e6f856e
@@ -152,11 +153,11 @@ The DLL that implements
 
 
 
-[EAP Interfaces](https://docs.microsoft.com/windows/win32/eap/eap-interfaces)a>
+[EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 

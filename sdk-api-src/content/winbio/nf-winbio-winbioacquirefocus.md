@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioAcquireFocus
 title: WinBioAcquireFocus function (winbio.h)
-description: Acquires window focus.
+description: Acquires window focus.helpviewer_keywords: ["WinBioAcquireFocus","WinBioAcquireFocus function [Windows Biometric Framework API]","secbiomet.winbioacquirefocus","winbio/WinBioAcquireFocus"]
 old-location: secbiomet\winbioacquirefocus.htm
 tech.root: SecBioMet
 ms.assetid: ad8bdcc9-0317-4d35-a587-9a2f3a4144ae

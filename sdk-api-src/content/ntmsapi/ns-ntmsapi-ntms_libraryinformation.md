@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_LIBRARYINFORMATION
 title: NTMS_LIBRARYINFORMATION (ntmsapi.h)
-description: The NTMS_LIBRARYINFORMATION structure defines properties specific to a library object.
+description: The NTMS_LIBRARYINFORMATION structure defines properties specific to a library object.helpviewer_keywords: ["NTMS_INVENTORY_FAST","NTMS_INVENTORY_NONE","NTMS_INVENTORY_OMID","NTMS_LIBRARYFLAG_CLEANERPRESENT","NTMS_LIBRARYFLAG_FIXEDOFFLINE","NTMS_LIBRARYFLAG_IGNORECLEANERUSESREMAINING","NTMS_LIBRARYFLAG_RECOGNIZECLEANERBARCODE","NTMS_LIBRARYINFORMATION","NTMS_LIBRARYINFORMATION structure [Files]","NTMS_LIBRARYTYPE_OFFLINE","NTMS_LIBRARYTYPE_ONLINE","NTMS_LIBRARYTYPE_STANDALONE","NTMS_LIBRARYTYPE_UNKNOWN","_zaw_ntms_libraryinformation","base.ntms_libraryinformation","fs.ntms_libraryinformation","ntmsapi/NTMS_LIBRARYINFORMATION"]
 old-location: fs\ntms_libraryinformation.htm
 tech.root: Rsm
 ms.assetid: f8ca33ba-35e2-4fd9-a9a0-1393bbbede80

@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.OnKeyDown
 title: ITfIntegratableCandidateListUIElement::OnKeyDown (ctffunc.h)
-description: Processes a key press.
+description: Processes a key press.helpviewer_keywords: ["ITfIntegratableCandidateListUIElement interface [Text Services Framework]","OnKeyDown method","ITfIntegratableCandidateListUIElement.OnKeyDown","ITfIntegratableCandidateListUIElement::OnKeyDown","OnKeyDown","OnKeyDown method [Text Services Framework]","OnKeyDown method [Text Services Framework]","ITfIntegratableCandidateListUIElement interface","ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown","tsf.itfintegratablecandidatelistuielement_onkeydown"]
 old-location: tsf\itfintegratablecandidatelistuielement_onkeydown.htm
 tech.root: TSF
 ms.assetid: EF6A8FB1-9B48-44BE-A1B4-AA3F2EA0F6BA

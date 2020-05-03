@@ -2,6 +2,7 @@
 UID: NF:peninputpanel.ITextInputPanel.SetInPlacePosition
 title: ITextInputPanel::SetInPlacePosition (peninputpanel.h)
 description: Explicitly positions the Tablet PC Input Panel in screen coordinates.
+helpviewer_keywords: ["49bb1a89-7064-4822-866f-739434043869","ITextInputPanel interface [Tablet PC]","SetInPlacePosition method","ITextInputPanel.SetInPlacePosition","ITextInputPanel::SetInPlacePosition","SetInPlacePosition","SetInPlacePosition method [Tablet PC]","SetInPlacePosition method [Tablet PC]","ITextInputPanel interface","peninputpanel/ITextInputPanel::SetInPlacePosition","tablet.itextinputpanel_setinplaceposition"]
 old-location: tablet\itextinputpanel_setinplaceposition.htm
 tech.root: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
@@ -76,7 +77,7 @@ The vertical y-coordinate for the top left corner of the Input Panel, with no co
 
 ### -param position
 
-The direction the post insertion correction comb should pop up in, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition">CorrectionPosition</a> enumeration.
+The direction the post insertion correction comb should pop up in, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-correctionposition">CorrectionPosition</a> enumeration.
 
 
 ## -returns

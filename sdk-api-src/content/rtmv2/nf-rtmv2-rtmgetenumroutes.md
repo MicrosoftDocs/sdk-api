@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmGetEnumRoutes
 title: RtmGetEnumRoutes function (rtmv2.h)
-description: The RtmGetEnumRoutes function retrieves the next set of routes in the specified enumeration.
+description: The RtmGetEnumRoutes function retrieves the next set of routes in the specified enumeration.helpviewer_keywords: ["RtmGetEnumRoutes","RtmGetEnumRoutes function [RAS]","_rtmv2ref_rtmgetenumroutes","rras.rtmgetenumroutes","rtmv2/RtmGetEnumRoutes"]
 old-location: rras\rtmgetenumroutes.htm
 tech.root: RRAS
 ms.assetid: fb3977ef-9edd-4653-b65c-b6d0fb66a785

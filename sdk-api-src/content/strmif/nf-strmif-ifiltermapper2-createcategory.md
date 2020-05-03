@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFilterMapper2.CreateCategory
 title: IFilterMapper2::CreateCategory (strmif.h)
-description: The CreateCategory method adds a new filter category to the registry.
+description: The CreateCategory method adds a new filter category to the registry.helpviewer_keywords: ["CreateCategory","CreateCategory method [DirectShow]","CreateCategory method [DirectShow]","IFilterMapper2 interface","IFilterMapper2 interface [DirectShow]","CreateCategory method","IFilterMapper2.CreateCategory","IFilterMapper2::CreateCategory","IFilterMapper2CreateCategory","dshow.ifiltermapper2_createcategory","strmif/IFilterMapper2::CreateCategory"]
 old-location: dshow\ifiltermapper2_createcategory.htm
 tech.root: DirectShow
 ms.assetid: 37dc50a0-530c-4b31-b766-9e161b04c6d5

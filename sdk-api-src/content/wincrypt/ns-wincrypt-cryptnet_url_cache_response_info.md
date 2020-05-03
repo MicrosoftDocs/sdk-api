@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_RESPONSE_INFO
 title: CRYPTNET_URL_CACHE_RESPONSE_INFO (wincrypt.h)
-description: Contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
+description: Contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.helpviewer_keywords: ["*PCRYPTNET_URL_CACHE_RESPONSE_INFO","CRYPTNET_URL_CACHE_RESPONSE_HTTP","CRYPTNET_URL_CACHE_RESPONSE_INFO","CRYPTNET_URL_CACHE_RESPONSE_INFO structure [Security]","CRYPTNET_URL_CACHE_RESPONSE_NONE","PCRYPTNET_URL_CACHE_RESPONSE_INFO","PCRYPTNET_URL_CACHE_RESPONSE_INFO structure pointer [Security]","security.cryptnet_url_cache_response_info","wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO","wincrypt/PCRYPTNET_URL_CACHE_RESPONSE_INFO"]
 old-location: security\cryptnet_url_cache_response_info.htm
 tech.root: SecCrypto
 ms.assetid: 26cd6065-8be9-4b3b-8207-5ad620e9b537

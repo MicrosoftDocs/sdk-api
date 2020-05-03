@@ -1,7 +1,7 @@
 ---
 UID: NS:http._HTTP_REQUEST_HEADERS
 title: HTTP_REQUEST_HEADERS (http.h)
-description: Contains headers sent with an HTTP request.
+description: Contains headers sent with an HTTP request.helpviewer_keywords: ["*PHTTP_REQUEST_HEADERS","HTTP_REQUEST_HEADERS","HTTP_REQUEST_HEADERS structure [HTTP]","PHTTP_REQUEST_HEADERS","PHTTP_REQUEST_HEADERS structure pointer [HTTP]","_http_http_request_headers","http.http_request_headers","http/HTTP_REQUEST_HEADERS","http/PHTTP_REQUEST_HEADERS"]
 old-location: http\http_request_headers.htm
 tech.root: http
 ms.assetid: a87b9c9c-cba1-4453-a300-7af35da944c9

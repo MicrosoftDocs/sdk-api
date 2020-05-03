@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Resource.ReadFromSubresource
 title: ID3D12Resource::ReadFromSubresource (d3d12.h)
-description: Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
+description: Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.helpviewer_keywords: ["ID3D12Resource interface","ReadFromSubresource method","ID3D12Resource.ReadFromSubresource","ID3D12Resource::ReadFromSubresource","ReadFromSubresource","ReadFromSubresource method","ReadFromSubresource method","ID3D12Resource interface","d3d12/ID3D12Resource::ReadFromSubresource","direct3d12.id3d12resource_readfromsubresource"]
 old-location: direct3d12\id3d12resource_readfromsubresource.htm
 tech.root: direct3d12
 ms.assetid: A1F61217-A383-49BF-B675-FBC7F6D015DB

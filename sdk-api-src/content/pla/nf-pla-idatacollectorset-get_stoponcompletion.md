@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_StopOnCompletion
 title: IDataCollectorSet::get_StopOnCompletion (pla.h)
-description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
+description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","StopOnCompletion property","IDataCollectorSet.StopOnCompletion","IDataCollectorSet.get_StopOnCompletion","IDataCollectorSet::StopOnCompletion","IDataCollectorSet::get_StopOnCompletion","IDataCollectorSet::put_StopOnCompletion","StopOnCompletion property [PLA]","StopOnCompletion property [PLA]","IDataCollectorSet interface","get_StopOnCompletion","pla.idatacollectorset_stoponcompletion","pla/IDataCollectorSet::StopOnCompletion","pla/IDataCollectorSet::get_StopOnCompletion","pla/IDataCollectorSet::put_StopOnCompletion"]
 old-location: pla\idatacollectorset_stoponcompletion.htm
 tech.root: PLA
 ms.assetid: bb7e18c6-e809-455e-9bee-c4bb6cf07c26

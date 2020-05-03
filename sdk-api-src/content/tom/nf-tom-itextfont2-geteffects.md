@@ -2,6 +2,7 @@
 UID: NF:tom.ITextFont2.GetEffects
 title: ITextFont2::GetEffects (tom.h)
 description: Gets the character format effects.
+helpviewer_keywords: ["GetEffects","GetEffects method [Windows Controls]","GetEffects method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetEffects method","ITextFont2.GetEffects","ITextFont2::GetEffects","controls.itextfont2_geteffects","tom/ITextFont2::GetEffects","tomAllCaps","tomBold","tomDisabled","tomEmboss","tomHidden","tomImprint","tomInlineObjectStart","tomItalic","tomLink","tomLinkProtected","tomMathZone","tomMathZoneDisplay","tomMathZoneNoBuildUp","tomMathZoneOrdinary","tomOutline","tomProtected","tomRevised","tomShadow","tomSmallCaps","tomStrikeout","tomUnderline"]
 old-location: controls\itextfont2_geteffects.htm
 tech.root: Controls
 ms.assetid: a182df7e-2024-48fc-9767-7110ffff0b4c
@@ -210,7 +211,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
+If the  <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
 
 
 

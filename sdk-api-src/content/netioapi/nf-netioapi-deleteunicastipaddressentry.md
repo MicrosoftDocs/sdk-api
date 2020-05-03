@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.DeleteUnicastIpAddressEntry
 title: DeleteUnicastIpAddressEntry function (netioapi.h)
-description: Deletes an existing unicast IP address entry on the local computer.
+description: Deletes an existing unicast IP address entry on the local computer.helpviewer_keywords: ["DeleteUnicastIpAddressEntry","DeleteUnicastIpAddressEntry function [IP Helper]","iphlp.deleteunicastipaddressentry","netioapi/DeleteUnicastIpAddressEntry"]
 old-location: iphlp\deleteunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: a630397a-ef4a-40c2-b2e7-3e85cd9e8029

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellBrowser
 title: IShellBrowser (shobjidl_core.h)
-description: Implemented by hosts of Shell views (objects that implement IShellView). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window.
+description: Implemented by hosts of Shell views (objects that implement IShellView). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window.helpviewer_keywords: ["IShellBrowser","IShellBrowser interface [Windows Shell]","IShellBrowser interface [Windows Shell]","described","_win32_IShellBrowser","shell.IShellBrowser","shobjidl_core/IShellBrowser"]
 old-location: shell\IShellBrowser.htm
 tech.root: shell
 ms.assetid: 138d90e3-a1f0-4faf-88ca-16c7a46df0ca

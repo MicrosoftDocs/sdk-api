@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IComponentData.GetDisplayInfo
 title: IComponentData::GetDisplayInfo (mmc.h)
-description: The IComponentData::GetDisplayInfo method retrieves display information for a scope item.
+description: The IComponentData::GetDisplayInfo method retrieves display information for a scope item.helpviewer_keywords: ["GetDisplayInfo","GetDisplayInfo method [MMC]","GetDisplayInfo method [MMC]","IComponentData interface","IComponentData interface [MMC]","GetDisplayInfo method","IComponentData.GetDisplayInfo","IComponentData::GetDisplayInfo","_slate_icomponentdata_getdisplayinfo","mmc.icomponentdata_getdisplayinfo","mmc/IComponentData::GetDisplayInfo"]
 old-location: mmc\icomponentdata_getdisplayinfo.htm
 tech.root: mmc
 ms.assetid: bd34652a-8e57-44b4-bbc2-99ffadf2a6cf

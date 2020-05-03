@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetDeviceDescriptor
 title: IDiscRecorder2Ex::GetDeviceDescriptor (imapi2.h)
-description: Retrieves the device descriptor for the device.
+description: Retrieves the device descriptor for the device.helpviewer_keywords: ["GetDeviceDescriptor","GetDeviceDescriptor method [IMAPI]","GetDeviceDescriptor method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetDeviceDescriptor method","IDiscRecorder2Ex.GetDeviceDescriptor","IDiscRecorder2Ex::GetDeviceDescriptor","imapi.idiscrecorder2ex_getdevicedescriptor","imapi2/IDiscRecorder2Ex::GetDeviceDescriptor"]
 old-location: imapi\idiscrecorder2ex_getdevicedescriptor.htm
 tech.root: imapi
 ms.assetid: c0c22ce6-daf4-4218-afce-c773d607638b

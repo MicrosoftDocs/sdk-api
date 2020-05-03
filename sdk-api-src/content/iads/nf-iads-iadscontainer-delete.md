@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsContainer.Delete
 title: IADsContainer::Delete (iads.h)
-description: Deletes a specified directory object from this container.
+description: Deletes a specified directory object from this container.helpviewer_keywords: ["Delete","Delete method [ADSI]","Delete method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","Delete method","IADsContainer.Delete","IADsContainer::Delete","_ds_iadscontainer_delete","adsi.iadscontainer__delete","adsi.iadscontainer_delete","iads/IADsContainer::Delete"]
 old-location: adsi\iadscontainer_delete.htm
 tech.root: adsi
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IEnumNames.Clone
 title: IEnumNames::Clone (comsvcs.h)
-description: Creates an enumerator that contains the same enumeration state as the current one.
+description: Creates an enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [COM+]","Clone method [COM+]","IEnumNames interface","IEnumNames interface [COM+]","Clone method","IEnumNames.Clone","IEnumNames::Clone","_cos_IEnumNames_Clone","comsvcs/IEnumNames::Clone","cos.ienumnames_clone"]
 old-location: cos\ienumnames_clone.htm
 tech.root: cossdk
 ms.assetid: ea57be73-076a-445d-9b0d-4a1041befa2d

@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._UIActivateView
 title: IBrowserService2::_UIActivateView (shdeprecated.h)
-description: Deprecated. Allows a derived class to request that the base class update the browser view.
+description: Deprecated. Allows a derived class to request that the base class update the browser view.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_UIActivateView method","IBrowserService2._UIActivateView","IBrowserService2::_UIActivateView","_UIActivateView","_UIActivateView method [Windows Shell]","_UIActivateView method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_UIActivateView","shell.IBrowserService2__UIActivateView","zone_IBrowserService2__UIActivateView"]
 old-location: shell\IBrowserService2__UIActivateView.htm
 tech.root: shell
 ms.assetid: 9c8439f8-5931-4aca-8085-2707b6f964f0

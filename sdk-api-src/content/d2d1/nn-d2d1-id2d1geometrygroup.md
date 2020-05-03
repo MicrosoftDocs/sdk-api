@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1GeometryGroup
 title: ID2D1GeometryGroup (d2d1.h)
-description: Represents a composite geometry, composed of other ID2D1Geometry objects.
+description: Represents a composite geometry, composed of other ID2D1Geometry objects.helpviewer_keywords: ["ID2D1GeometryGroup","ID2D1GeometryGroup interface [Direct2D]","ID2D1GeometryGroup interface [Direct2D]","described","d2d1/ID2D1GeometryGroup","direct2d.ID2D1GeometryGroup"]
 old-location: direct2d\ID2D1GeometryGroup.htm
 tech.root: Direct2D
 ms.assetid: 15c3800c-b57c-4c3c-995f-407beee4cc99
@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a composite geometry, composed of other <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a> objects.
+Represents a composite geometry, composed of other <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometryGroup</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1GeometryGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometryGroup</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1GeometryGroup</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -69,7 +69,7 @@ The <b>ID2D1GeometryGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrygroup-getfillmode">GetFillMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getfillmode">GetFillMode</a>
 </td>
 <td align="left" width="63%">
 Indicates how the intersecting areas of the geometries contained in this geometry group are combined.
@@ -78,7 +78,7 @@ Indicates how the intersecting areas of the geometries contained in this geometr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometries">GetSourceGeometries</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometries">GetSourceGeometries</a>
 </td>
 <td align="left" width="63%">
 Retrieves the geometries in the geometry group. 
@@ -87,7 +87,7 @@ Retrieves the geometries in the geometry group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a>
 </td>
 <td align="left" width="63%">
 Indicates the number of geometry objects in the geometry group. 
@@ -104,14 +104,14 @@ Indicates the number of geometry objects in the geometry group.
 Geometry groups are a convenient way to group several geometries simultaneously so all figures of several distinct geometries are concatenated into one. 
 
 <h3><a id="Creating_ID2D1GeometryGroup_Objects"></a><a id="creating_id2d1geometrygroup_objects"></a><a id="CREATING_ID2D1GEOMETRYGROUP_OBJECTS"></a>Creating ID2D1GeometryGroup Objects</h3>
-To create a  <b>ID2D1GeometryGroup</b> object, call  the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">ID2D1Factory::CreateGeometryGroup</a> method, passing in the <i>fillMode</i> with possible values of   <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE_ALTERNATE</a> (alternate) and <b>D2D1_FILL_MODE_WINDING</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array. 
+To create a  <b>ID2D1GeometryGroup</b> object, call  the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">ID2D1Factory::CreateGeometryGroup</a> method, passing in the <i>fillMode</i> with possible values of   <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE_ALTERNATE</a> (alternate) and <b>D2D1_FILL_MODE_WINDING</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array. 
 
-Direct2D geometries are immutable and device-independent resources created by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
+Direct2D geometries are immutable and device-independent resources created by <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
-#### Examples
+## Examples
 
-The following code example first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object,  passing in <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE_ALTERNATE</a>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
+The following code example first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> on the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> object,  passing in <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE_ALTERNATE</a>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
 
 ```cpp
@@ -156,7 +156,7 @@ The following illustration shows the results of rendering the two group geometri
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

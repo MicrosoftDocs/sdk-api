@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmCalloutAdd0
 title: FwpmCalloutAdd0 function (fwpmu.h)
 description: Adds a new callout object to the system.
+helpviewer_keywords: ["FwpmCalloutAdd0","FwpmCalloutAdd0 function [Filtering]","fwp.fwpmcalloutadd0_func","fwpmu/FwpmCalloutAdd0"]
 old-location: fwp\fwpmcalloutadd0_func.htm
 tech.root: fwp
 ms.assetid: e4f79262-6345-49e9-a50c-9f8a82f2df0e
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param callout [in]
 
-Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>*</b>
+Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)*</b>
 
 The callout object to be added.
 
@@ -155,7 +156,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-Some fields in the [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmCalloutAdd0</b>. If the caller supplies a null security descriptor, the system will assign a default security descriptor.
+Some fields in the [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0) structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmCalloutAdd0</b>. If the caller supplies a null security descriptor, the system will assign a default security descriptor.
 
 This function cannot be called from within a read-only transaction. It will fail
 with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
@@ -184,7 +185,7 @@ By default filters that reference callouts that have been added but have not yet
 
 
 
-[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)a>
+[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)
 
 
 

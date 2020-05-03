@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITQOSEvent.get_MediaType
 title: ITQOSEvent::get_MediaType (tapi3if.h)
-description: The get_MediaType method gets the media type indicator.
+description: The get_MediaType method gets the media type indicator.helpviewer_keywords: ["ITQOSEvent interface [TAPI 2.2]","get_MediaType method","ITQOSEvent.get_MediaType","ITQOSEvent::get_MediaType","_tapi3_itqosevent_get_mediatype","get_MediaType","get_MediaType method [TAPI 2.2]","get_MediaType method [TAPI 2.2]","ITQOSEvent interface","tapi3.itqosevent_get_mediatype","tapi3if/ITQOSEvent::get_MediaType"]
 old-location: tapi3\itqosevent_get_mediatype.htm
 tech.root: Tapi
 ms.assetid: 0f062eea-386d-4f25-8d51-88adbce1aefe

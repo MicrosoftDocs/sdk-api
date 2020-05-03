@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromIndex
 title: SymSetScopeFromIndex function (dbghelp.h)
-description: Sets the local scope to the symbol that matches the specified index.
+description: Sets the local scope to the symbol that matches the specified index.helpviewer_keywords: ["SymSetScopeFromIndex","SymSetScopeFromIndex function","base.symsetscopefromindex","dbghelp/SymSetScopeFromIndex"]
 old-location: base\symsetscopefromindex.htm
 tech.root: Debug
 ms.assetid: 06792478-35e2-4f05-85c9-910909fe65cd

@@ -2,6 +2,7 @@
 UID: NF:virtdisk.GetVirtualDiskPhysicalPath
 title: GetVirtualDiskPhysicalPath function (virtdisk.h)
 description: Retrieves the path to the physical device object that contains a virtual hard disk (VHD) or CD or DVD image file (ISO).
+helpviewer_keywords: ["GetVirtualDiskPhysicalPath","GetVirtualDiskPhysicalPath function [VHD]","vdssys/GetVirtualDiskPhysicalPath","vhd.getvirtualdiskphysicalpath","virtdisk/GetVirtualDiskPhysicalPath"]
 old-location: vhd\getvirtualdiskphysicalpath.htm
 tech.root: VStor
 ms.assetid: e17d9b37-c0fc-4513-a224-a918e679707d
@@ -62,7 +63,7 @@ Retrieves the path to the physical device object that contains a virtual hard di
 
 A handle to the open virtual disk, which must have been opened using the 
      <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag. For information on how to open a virtual disk, see 
-     the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
+     the <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param DiskPathSizeInBytes [in, out]

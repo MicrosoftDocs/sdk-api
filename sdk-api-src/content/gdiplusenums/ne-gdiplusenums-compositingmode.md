@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.CompositingMode
 title: CompositingMode (gdiplusenums.h)
-description: The CompositingMode enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the Graphics::GetCompositingMode and Graphics::SetCompositingMode methods of the Graphics class.
+description: The CompositingMode enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the Graphics::GetCompositingMode and Graphics::SetCompositingMode methods of the Graphics class.helpviewer_keywords: ["CompositingMode","CompositingMode enumeration [GDI+]","CompositingModeSourceCopy","CompositingModeSourceOver","_gdiplus_ENUM_CompositingMode","gdiplus._gdiplus_ENUM_CompositingMode","gdiplusenums/CompositingMode","gdiplusenums/CompositingModeSourceCopy","gdiplusenums/CompositingModeSourceOver"]
 old-location: gdiplus\_gdiplus_ENUM_CompositingMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingmode.htm

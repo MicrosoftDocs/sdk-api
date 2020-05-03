@@ -1,7 +1,7 @@
 ---
 UID: NE:appxpackaging.APPX_COMPRESSION_OPTION
 title: APPX_COMPRESSION_OPTION (appxpackaging.h)
-description: Specifies the degree of compression used to store the file in the package.
+description: Specifies the degree of compression used to store the file in the package.helpviewer_keywords: ["APPX_COMPRESSION_OPTION","APPX_COMPRESSION_OPTION enumeration [App packaging and management]","APPX_COMPRESSION_OPTION_FAST","APPX_COMPRESSION_OPTION_MAXIMUM","APPX_COMPRESSION_OPTION_NONE","APPX_COMPRESSION_OPTION_NORMAL","APPX_COMPRESSION_OPTION_SUPERFAST","appxpackaging/APPX_COMPRESSION_OPTION","appxpackaging/APPX_COMPRESSION_OPTION_FAST","appxpackaging/APPX_COMPRESSION_OPTION_MAXIMUM","appxpackaging/APPX_COMPRESSION_OPTION_NONE","appxpackaging/APPX_COMPRESSION_OPTION_NORMAL","appxpackaging/APPX_COMPRESSION_OPTION_SUPERFAST","appxpkg.appx_compression_option"]
 old-location: appxpkg\appx_compression_option.htm
 tech.root: appxpkg
 ms.assetid: C4FEE4DA-1097-4870-BB43-A910E20BCBD6

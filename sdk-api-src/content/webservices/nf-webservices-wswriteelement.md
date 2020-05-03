@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteElement
 title: WsWriteElement function (webservices.h)
-description: Write a typed value as an XML element.
+description: Write a typed value as an XML element.helpviewer_keywords: ["WsWriteElement","WsWriteElement function [Web Services for Windows]","webservices/WsWriteElement","wsw.wswriteelement"]
 old-location: wsw\wswriteelement.htm
 tech.root: wsw
 ms.assetid: 5416d167-b832-4815-9826-6128f68dbc02

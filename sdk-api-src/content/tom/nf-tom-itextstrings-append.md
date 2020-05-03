@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStrings.Append
 title: ITextStrings::Append (tom.h)
-description: Appends a string to the string at the specified index in the collection.
+description: Appends a string to the string at the specified index in the collection.helpviewer_keywords: ["Append","Append method [Windows Controls]","Append method [Windows Controls]","ITextStrings interface","ITextStrings interface [Windows Controls]","Append method","ITextStrings.Append","ITextStrings::Append","controls.itextstrings_append","tom/ITextStrings::Append"]
 old-location: controls\itextstrings_append.htm
 tech.root: Controls
 ms.assetid: e280008b-b41e-43e3-9f16-6fe1f88e10ea

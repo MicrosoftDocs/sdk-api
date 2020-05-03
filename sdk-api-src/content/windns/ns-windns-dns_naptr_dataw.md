@@ -2,6 +2,7 @@
 UID: NS:windns.__unnamed_struct_32
 title: DNS_NAPTR_DATAW (windns.h)
 description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
+helpviewer_keywords: ["*PDNS_NAPTR_DATA","*PDNS_NAPTR_DATAW","DNS_NAPTR_DATA","DNS_NAPTR_DATA structure [DNS]","DNS_NAPTR_DATAW","PDNS_NAPTR_DATA","PDNS_NAPTR_DATA structure pointer [DNS]","dns.dns_naptr_data","windns/DNS_NAPTR_DATA","windns/PDNS_NAPTR_DATA"]
 old-location: dns\dns_naptr_data.htm
 tech.root: DNS
 ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
@@ -93,7 +94,7 @@ A pointer to a string that represents the next NAPTR query name as defined in se
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

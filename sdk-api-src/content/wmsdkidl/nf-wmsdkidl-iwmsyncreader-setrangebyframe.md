@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetRangeByFrame
 title: IWMSyncReader::SetRangeByFrame (wmsdkidl.h)
-description: The SetRangeByFrame method configures the synchronous reader to read a portion of the file specified by a starting video frame number and a number of frames to read.
+description: The SetRangeByFrame method configures the synchronous reader to read a portion of the file specified by a starting video frame number and a number of frames to read.helpviewer_keywords: ["IWMSyncReader interface [windows Media Format]","SetRangeByFrame method","IWMSyncReader.SetRangeByFrame","IWMSyncReader::SetRangeByFrame","IWMSyncReaderSetRangeByFrame","SetRangeByFrame","SetRangeByFrame method [windows Media Format]","SetRangeByFrame method [windows Media Format]","IWMSyncReader interface","wmformat.iwmsyncreader_setrangebyframe","wmsdkidl/IWMSyncReader::SetRangeByFrame"]
 old-location: wmformat\iwmsyncreader_setrangebyframe.htm
 tech.root: wmformat
 ms.assetid: 3d53838c-0d07-4aa6-8797-9ed7e07cb8fe

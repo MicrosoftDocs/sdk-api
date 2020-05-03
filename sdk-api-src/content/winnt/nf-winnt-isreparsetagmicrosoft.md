@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.IsReparseTagMicrosoft
 title: IsReparseTagMicrosoft macro (winnt.h)
-description: Determines whether a reparse point tag indicates a Microsoft reparse point.
+description: Determines whether a reparse point tag indicates a Microsoft reparse point.helpviewer_keywords: ["IsReparseTagMicrosoft","IsReparseTagMicrosoft macro [Files]","_win32_isreparsetagmicrosoft","base.isreparsetagmicrosoft","fs.isreparsetagmicrosoft","winnt/IsReparseTagMicrosoft"]
 old-location: fs\isreparsetagmicrosoft.htm
 tech.root: FileIO
 ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9

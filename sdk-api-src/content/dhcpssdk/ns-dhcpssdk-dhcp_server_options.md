@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpssdk._DHCP_SERVER_OPTIONS
 title: DHCP_SERVER_OPTIONS (dhcpssdk.h)
-description: The DHCP_SERVER_OPTIONS structure specifies requested DHCP Server options.
+description: The DHCP_SERVER_OPTIONS structure specifies requested DHCP Server options.helpviewer_keywords: ["*LPDHCP_SERVER_OPTIONS","*LPDHCP_SERVER_OPTIONS structure [DHCP]","DHCP_SERVER_OPTIONS","DHCP_SERVER_OPTIONS structure [DHCP]","dhcp.dhcp_server_options","dhcpssdk/*LPDHCP_SERVER_OPTIONS","dhcpssdk/DHCP_SERVER_OPTIONS"]
 old-location: dhcp\dhcp_server_options.htm
 tech.root: DHCP
 ms.assetid: 0c43c2ad-ac9a-43b4-b750-a3f52c025ae2

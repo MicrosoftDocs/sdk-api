@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_TotalBlocks
 title: IFileSystemImageResult::get_TotalBlocks (imapi2fs.h)
-description: Retrieves the number of blocks in the result image.
+description: Retrieves the number of blocks in the result image.helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_TotalBlocks method","IFileSystemImageResult.get_TotalBlocks","IFileSystemImageResult::get_TotalBlocks","get_TotalBlocks","get_TotalBlocks method [IMAPI]","get_TotalBlocks method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_totalblocks","imapi2fs/IFileSystemImageResult::get_TotalBlocks"]
 old-location: imapi\ifilesystemimageresult_get_totalblocks.htm
 tech.root: imapi
 ms.assetid: e895ed4f-67cb-43c2-aeb2-9a3ddb79c4fd

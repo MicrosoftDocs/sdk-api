@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.getCAStore
 title: IEnroll::getCAStore (xenroll.h)
-description: The getCAStore method is not implemented.
+description: The getCAStore method is not implemented.helpviewer_keywords: ["IEnroll interface [Security]","getCAStore method","IEnroll.getCAStore","IEnroll4 interface [Security]","getCAStore method","IEnroll4::getCAStore","IEnroll::getCAStore","getCAStore","getCAStore method [Security]","getCAStore method [Security]","IEnroll interface","getCAStore method [Security]","IEnroll4 interface","security.ienroll4_getcastore","xenroll/IEnroll4::getCAStore","xenroll/IEnroll::getCAStore"]
 old-location: security\ienroll4_getcastore.htm
 tech.root: SecCrypto
 ms.assetid: 2545b59e-66ae-48e3-b89f-f214df9d4e6b

@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleControlSite.LockInPlaceActive
 title: IOleControlSite::LockInPlaceActive (ocidl.h)
-description: Indicates whether a control should remain in-place active. Calls to this method typically nest an event to ensure that the object's activation state remains stable throughout the processing of the event.
+description: Indicates whether a control should remain in-place active. Calls to this method typically nest an event to ensure that the object's activation state remains stable throughout the processing of the event.helpviewer_keywords: ["IOleControlSite interface [COM]","LockInPlaceActive method","IOleControlSite.LockInPlaceActive","IOleControlSite::LockInPlaceActive","LockInPlaceActive","LockInPlaceActive method [COM]","LockInPlaceActive method [COM]","IOleControlSite interface","_ctrl_iolecontrolsite_lockinplaceactive","com.iolecontrolsite_lockinplaceactive","ocidl/IOleControlSite::LockInPlaceActive"]
 old-location: com\iolecontrolsite_lockinplaceactive.htm
 tech.root: com
 ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4

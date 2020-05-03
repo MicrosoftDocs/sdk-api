@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminUserGetInfo
 title: MprAdminUserGetInfo function (mprapi.h)
-description: The MprAdminUserGetInfo function retrieves all RAS information for a particular user.
+description: The MprAdminUserGetInfo function retrieves all RAS information for a particular user.helpviewer_keywords: ["MprAdminUserGetInfo","MprAdminUserGetInfo function [RAS]","_mpr_mpradminusergetinfo","mprapi/MprAdminUserGetInfo","rras.mpradminusergetinfo"]
 old-location: rras\mpradminusergetinfo.htm
 tech.root: RRAS
 ms.assetid: d04f6925-ac38-4adf-ac2e-701db5435c90

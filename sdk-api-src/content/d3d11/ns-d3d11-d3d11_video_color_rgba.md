@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_COLOR_RGBA
 title: D3D11_VIDEO_COLOR_RGBA (d3d11.h)
-description: Specifies an RGB color value.
+description: Specifies an RGB color value.helpviewer_keywords: ["D3D11_VIDEO_COLOR_RGBA","D3D11_VIDEO_COLOR_RGBA structure [Media Foundation]","d3d11/D3D11_VIDEO_COLOR_RGBA","mf.d3d11_video_color_rgba"]
 old-location: mf\d3d11_video_color_rgba.htm
 tech.root: medfound
 ms.assetid: DDD587DC-BB17-407D-9E9E-47015950A504

@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationContent
 title: IDirectManipulationContent (directmanipulation.h)
-description: Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.
+description: Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.helpviewer_keywords: ["IDirectManipulationContent","IDirectManipulationContent interface [Direct Manipulation]","IDirectManipulationContent interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationcontent","directmanipulation/IDirectManipulationContent"]
 old-location: directmanipulation\idirectmanipulationcontent.htm
 tech.root: directmanipulation
 ms.assetid: 4d69a503-f998-4197-824f-4df48825c941

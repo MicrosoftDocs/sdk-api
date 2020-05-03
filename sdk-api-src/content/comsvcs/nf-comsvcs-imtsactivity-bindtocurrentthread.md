@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IMTSActivity.BindToCurrentThread
 title: IMTSActivity::BindToCurrentThread (comsvcs.h)
-description: Binds the batch work that is submitted using IMTSActivity::AsyncCall or IMTSActivity::SynchronousCall to the current single-threaded apartment (STA).
+description: Binds the batch work that is submitted using IMTSActivity::AsyncCall or IMTSActivity::SynchronousCall to the current single-threaded apartment (STA).helpviewer_keywords: ["BindToCurrentThread","BindToCurrentThread method [COM+]","BindToCurrentThread method [COM+]","IMTSActivity interface","IMTSActivity interface [COM+]","BindToCurrentThread method","IMTSActivity.BindToCurrentThread","IMTSActivity::BindToCurrentThread","_cos_IMTSActivity_BindToCurrentThread","comsvcs/IMTSActivity::BindToCurrentThread","cos.imtsactivity_bindtocurrentthread"]
 old-location: cos\imtsactivity_bindtocurrentthread.htm
 tech.root: cossdk
 ms.assetid: 31f0c64c-275c-431c-b85e-6ee5f4318e1f

@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.InitNetworkAddressControl
 title: InitNetworkAddressControl function (shellapi.h)
-description: Initializes the network address control window class.
+description: Initializes the network address control window class.helpviewer_keywords: ["InitNetworkAddressControl","InitNetworkAddressControl function [Windows Shell]","_shell_InitNetworkAddressControl","shell.InitNetworkAddressControl","shellapi/InitNetworkAddressControl"]
 old-location: shell\InitNetworkAddressControl.htm
 tech.root: shell
 ms.assetid: 52b475e3-7335-4c34-80d7-ccd81af0e0ec

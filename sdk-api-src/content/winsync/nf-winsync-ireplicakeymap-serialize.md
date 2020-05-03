@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IReplicaKeyMap.Serialize
 title: IReplicaKeyMap::Serialize (winsync.h)
-description: Serializes the replica key map data to a byte array.
+description: Serializes the replica key map data to a byte array.helpviewer_keywords: ["IReplicaKeyMap interface [Windows Sync]","Serialize method","IReplicaKeyMap.Serialize","IReplicaKeyMap::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","IReplicaKeyMap interface","winsync.ireplicakeymap_serialize","winsync/IReplicaKeyMap::Serialize"]
 old-location: winsync\ireplicakeymap_serialize.htm
 tech.root: winsync
 ms.assetid: 0ed19406-82b8-428f-bed2-796e287dd4cb

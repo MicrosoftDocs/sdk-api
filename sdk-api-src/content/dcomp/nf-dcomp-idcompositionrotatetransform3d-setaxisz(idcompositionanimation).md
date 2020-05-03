@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation) (dcomp.h)
 description: Animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
+helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetAxisZ method","IDCompositionRotateTransform3D.SetAxisZ","IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetAxisZ","IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation*)","SetAxisZ","SetAxisZ method [DirectComposition]","SetAxisZ method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetAxisZ","directcomp.idcompositionrotatetransform3d_setaxisz_idcompositionanimation"]
 old-location: directcomp\idcompositionrotatetransform3d_setaxisz_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 2264BB6F-D2B7-49A8-959A-FA5AA935F6CC
@@ -102,11 +103,11 @@ The default value is 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisx(float)">IDCompositionRotateTransform3D::SetAxisX</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisx(float)">IDCompositionRotateTransform3D::SetAxisX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy(float)">IDCompositionRotateTransform3D::SetAxisY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy(float)">IDCompositionRotateTransform3D::SetAxisY</a>
  
 
  

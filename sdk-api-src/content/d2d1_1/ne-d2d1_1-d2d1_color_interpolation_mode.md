@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1_1.D2D1_COLOR_INTERPOLATION_MODE
 title: D2D1_COLOR_INTERPOLATION_MODE (d2d1_1.h)
-description: Defines how to interpolate between colors.
+description: Defines how to interpolate between colors.helpviewer_keywords: ["D2D1_COLOR_INTERPOLATION_MODE","D2D1_COLOR_INTERPOLATION_MODE enumeration [Direct2D]","D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED","D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT","d2d1_1/D2D1_COLOR_INTERPOLATION_MODE","d2d1_1/D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED","d2d1_1/D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT","direct2d.d2d1_color_interpolation_mode"]
 old-location: direct2d\d2d1_color_interpolation_mode.htm
 tech.root: Direct2D
 ms.assetid: E3E9FB4C-5E77-451B-ABED-39D9C7AE567A

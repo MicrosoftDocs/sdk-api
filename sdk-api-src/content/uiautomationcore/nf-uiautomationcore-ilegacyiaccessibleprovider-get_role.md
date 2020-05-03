@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Role
 title: ILegacyIAccessibleProvider::get_Role (uiautomationcore.h)
-description: Specifies the role identifier of this element.
+description: Specifies the role identifier of this element.helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","Role property","ILegacyIAccessibleProvider.Role","ILegacyIAccessibleProvider.get_Role","ILegacyIAccessibleProvider::Role","ILegacyIAccessibleProvider::get_Role","Role property [Windows Accessibility]","Role property [Windows Accessibility]","ILegacyIAccessibleProvider interface","get_Role","uiauto.uiauto_ILegacyIAccessibleProvider_Role","uiauto_ILegacyIAccessibleProvider_Role","uiautomationcore/ILegacyIAccessibleProvider::Role","uiautomationcore/ILegacyIAccessibleProvider::get_Role","winauto.uiauto_ILegacyIAccessibleProvider_Role"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Role.htm
 tech.root: WinAuto
 ms.assetid: de2c0101-61fd-4a2d-8bef-dc7e30d0d9f4

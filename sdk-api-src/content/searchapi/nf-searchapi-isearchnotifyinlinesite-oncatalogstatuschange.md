@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnCatalogStatusChange
 title: ISearchNotifyInlineSite::OnCatalogStatusChange (searchapi.h)
-description: Called by the search service to notify a client when the status of the catalog changes.
+description: Called by the search service to notify a client when the status of the catalog changes.helpviewer_keywords: ["ISearchNotifyInlineSite interface [search]","OnCatalogStatusChange method","ISearchNotifyInlineSite.OnCatalogStatusChange","ISearchNotifyInlineSite::OnCatalogStatusChange","OnCatalogStatusChange","OnCatalogStatusChange method [search]","OnCatalogStatusChange method [search]","ISearchNotifyInlineSite interface","_search_ISearchNotifyInlineSite_OnCatalogStatusChange","search._search_ISearchNotifyInlineSite_OnCatalogStatusChange","searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange"]
 old-location: search\_search_ISearchNotifyInlineSite_OnCatalogStatusChange.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\oncatalogstatuschange.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:codecapi.eAVEncDDPreferredStereoDownMixMode
 title: eAVEncDDPreferredStereoDownMixMode (codecapi.h)
-description: Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDPreferredStereoDownMixMode property.
+description: Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDPreferredStereoDownMixMode property.helpviewer_keywords: ["codecapi/eAVEncDDPreferredStereoDownMixMode","codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo","codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt","dshow.eavencddpreferredstereodownmixmode","eAVEncDDPreferredStereoDownMixMode","eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow]","eAVEncDDPreferredStereoDownMixMode_LoRo","eAVEncDDPreferredStereoDownMixMode_LtRt"]
 old-location: dshow\eavencddpreferredstereodownmixmode.htm
 tech.root: DirectShow
 ms.assetid: 3960d0d5-9d82-4ed5-843d-04fdb0538438

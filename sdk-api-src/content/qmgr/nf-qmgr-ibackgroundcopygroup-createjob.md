@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.CreateJob
 title: IBackgroundCopyGroup::CreateJob (qmgr.h)
-description: Use the CreateJob method to add a new job to the group. A group can contain only one job.
+description: Use the CreateJob method to add a new job to the group. A group can contain only one job.helpviewer_keywords: ["CreateJob","CreateJob method [BITS]","CreateJob method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","CreateJob method","IBackgroundCopyGroup.CreateJob","IBackgroundCopyGroup::CreateJob","bits.ibackgroundcopygroup_createjob","qmgr/IBackgroundCopyGroup::CreateJob"]
 old-location: bits\ibackgroundcopygroup_createjob.htm
 tech.root: Bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268

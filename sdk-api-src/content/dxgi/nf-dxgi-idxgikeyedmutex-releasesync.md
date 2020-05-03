@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.ReleaseSync
 title: IDXGIKeyedMutex::ReleaseSync (dxgi.h)
-description: Using a key, releases exclusive rendering access to a shared resource.
+description: Using a key, releases exclusive rendering access to a shared resource.helpviewer_keywords: ["33872a53-bb15-32f2-c1f4-cfc8bdbac157","IDXGIKeyedMutex interface [DXGI]","ReleaseSync method","IDXGIKeyedMutex.ReleaseSync","IDXGIKeyedMutex::ReleaseSync","ReleaseSync","ReleaseSync method [DXGI]","ReleaseSync method [DXGI]","IDXGIKeyedMutex interface","direct3ddxgi.idxgikeyedmutex_releasesync","dxgi/IDXGIKeyedMutex::ReleaseSync"]
 old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm
 tech.root: direct3ddxgi
 ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962

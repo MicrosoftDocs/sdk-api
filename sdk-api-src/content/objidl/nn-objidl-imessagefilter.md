@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IMessageFilter
 title: IMessageFilter (objidl.h)
-description: Provides COM servers and applications with the ability to selectively handle incoming and outgoing COM messages while waiting for responses from synchronous calls.
+description: Provides COM servers and applications with the ability to selectively handle incoming and outgoing COM messages while waiting for responses from synchronous calls.helpviewer_keywords: ["IMessageFilter","IMessageFilter interface [COM]","IMessageFilter interface [COM]","described","_com_imessagefilter","com.imessagefilter","objidl/IMessageFilter"]
 old-location: com\imessagefilter.htm
 tech.root: com
 ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248

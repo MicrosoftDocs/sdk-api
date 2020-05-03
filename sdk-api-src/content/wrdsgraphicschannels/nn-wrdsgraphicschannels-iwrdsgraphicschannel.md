@@ -1,7 +1,7 @@
 ---
 UID: NN:wrdsgraphicschannels.IWRdsGraphicsChannel
 title: IWRdsGraphicsChannel (wrdsgraphicschannels.h)
-description: This interface is used by the RemoteFX graphics services to send and receive data to a virtual graphics channel.
+description: This interface is used by the RemoteFX graphics services to send and receive data to a virtual graphics channel.helpviewer_keywords: ["IWRdsGraphicsChannel","IWRdsGraphicsChannel interface [Remote Desktop Services]","IWRdsGraphicsChannel interface [Remote Desktop Services]","described","termserv.iwrdsgraphicschannel","wrdsgraphicschannels/IWRdsGraphicsChannel"]
 old-location: termserv\iwrdsgraphicschannel.htm
 tech.root: TermServ
 ms.assetid: 5d1e88b4-3dff-4f88-a6de-abc02da57ece

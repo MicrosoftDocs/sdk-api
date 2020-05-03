@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMConstants.get_SecurityFlags
 title: IGPMConstants::get_SecurityFlags (gpmgmt.h)
-description: Retrieves the value of the SecurityFlags property, which represents the portion of the security descriptor to retrieve or set for a GPO.
+description: Retrieves the value of the SecurityFlags property, which represents the portion of the security descriptor to retrieve or set for a GPO.helpviewer_keywords: ["GPMConstants object [GPMC]","SecurityFlags property","IGPMConstants interface [GPMC]","SecurityFlags property","IGPMConstants.SecurityFlags","IGPMConstants.get_SecurityFlags","IGPMConstants::SecurityFlags","IGPMConstants::get_SecurityFlags","SecurityFlags property [GPMC]","SecurityFlags property [GPMC]","GPMConstants object","SecurityFlags property [GPMC]","IGPMConstants interface","get_SecurityFlags","gpmc.igpmconstants_get_securityflags","gpmgmt/IGPMConstants::SecurityFlags","gpmgmt/IGPMConstants::get_SecurityFlags"]
 old-location: gpmc\igpmconstants_get_securityflags.htm
 tech.root: gpmc
 ms.assetid: f9f950e1-b106-4907-a84a-ad20abfd02b1

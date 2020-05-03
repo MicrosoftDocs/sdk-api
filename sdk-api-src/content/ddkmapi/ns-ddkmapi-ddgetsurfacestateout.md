@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDGETSURFACESTATEOUT
 title: DDGETSURFACESTATEOUT (ddkmapi.h)
-description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.
+description: The DDGETSURFACESTATEOUT structure contains the capabilities and status of the specified surface.helpviewer_keywords: ["*LPDDGETSURFACESTATEOUT","DDGETSURFACESTATEOUT","DDGETSURFACESTATEOUT structure [Display Devices]","LPDDGETSURFACESTATEOUT","LPDDGETSURFACESTATEOUT structure pointer [Display Devices]","ddkmapi/DDGETSURFACESTATEOUT","ddkmapi/LPDDGETSURFACESTATEOUT","ddstrcts_bfeeac46-f803-48ee-aac4-39cb4781f925.xml","display.ddgetsurfacestateout"]
 old-location: display\ddgetsurfacestateout.htm
 tech.root: display
 ms.assetid: 8d84fcdf-c880-4a3e-a57d-12bb8e59cb5b

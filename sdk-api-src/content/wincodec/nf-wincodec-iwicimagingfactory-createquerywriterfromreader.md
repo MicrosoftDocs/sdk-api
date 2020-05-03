@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateQueryWriterFromReader
 title: IWICImagingFactory::CreateQueryWriterFromReader (wincodec.h)
-description: Creates a new instance of a query writer based on the given query reader. The query writer will be pre-populated with metadata from the query reader.
+description: Creates a new instance of a query writer based on the given query reader. The query writer will be pre-populated with metadata from the query reader.helpviewer_keywords: ["CreateQueryWriterFromReader","CreateQueryWriterFromReader method [Windows Imaging Component]","CreateQueryWriterFromReader method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateQueryWriterFromReader method","IWICImagingFactory.CreateQueryWriterFromReader","IWICImagingFactory::CreateQueryWriterFromReader","_wic_codec_iwicimagingfactory_createquerywriterfromreader","wic._wic_codec_iwicimagingfactory_createquerywriterfromreader","wincodec/IWICImagingFactory::CreateQueryWriterFromReader"]
 old-location: wic\_wic_codec_iwicimagingfactory_createquerywriterfromreader.htm
 tech.root: wic
 ms.assetid: 71c278f8-546f-4351-9e2c-b9cd9806ccfc

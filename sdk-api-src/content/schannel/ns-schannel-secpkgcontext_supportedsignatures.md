@@ -1,7 +1,7 @@
 ---
 UID: NS:schannel._SecPkgContext_SupportedSignatures
 title: SecPkgContext_SupportedSignatures (schannel.h)
-description: Specifies the signature algorithms supported by an Schannel connection.
+description: Specifies the signature algorithms supported by an Schannel connection.helpviewer_keywords: ["*PSecPkgContext_SupportedSignatures","PSecPkgContext_SupportedSignatures","PSecPkgContext_SupportedSignatures structure pointer [Security]","SecPkgContext_SupportedSignatures","SecPkgContext_SupportedSignatures structure [Security]","schannel/PSecPkgContext_SupportedSignatures","schannel/SecPkgContext_SupportedSignatures","security.secpkgcontext_supportedsignatures"]
 old-location: security\secpkgcontext_supportedsignatures.htm
 tech.root: SecAuthN
 ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76

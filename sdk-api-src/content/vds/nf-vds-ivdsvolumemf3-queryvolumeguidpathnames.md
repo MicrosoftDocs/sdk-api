@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsVolumeMF3.QueryVolumeGuidPathnames
 title: IVdsVolumeMF3::QueryVolumeGuidPathnames (vds.h)
-description: Returns a list of volume GUID paths for the current volume.
+description: Returns a list of volume GUID paths for the current volume.helpviewer_keywords: ["IVdsVolumeMF3 interface","QueryVolumeGuidPathnames method","IVdsVolumeMF3.QueryVolumeGuidPathnames","IVdsVolumeMF3::QueryVolumeGuidPathnames","QueryVolumeGuidPathnames","QueryVolumeGuidPathnames method","QueryVolumeGuidPathnames method","IVdsVolumeMF3 interface","base.ivdsvolumemf3_queryvolumeguidpathnames","vds/IVdsVolumeMF3::QueryVolumeGuidPathnames"]
 old-location: base\ivdsvolumemf3_queryvolumeguidpathnames.htm
 tech.root: VDS
 ms.assetid: 08311403-23a9-4191-9720-3cec805de825

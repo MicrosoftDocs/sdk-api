@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPEvents3
 title: IWMPEvents3 (wmp.h)
-description: The IWMPEvents3 interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events.
+description: The IWMPEvents3 interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events.helpviewer_keywords: ["IWMPEvents3","IWMPEvents3 interface [Windows Media Player]","IWMPEvents3 interface [Windows Media Player]","described","IWMPEvents3Interface","wmp.iwmpevents3","wmp/IWMPEvents3"]
 old-location: wmp\iwmpevents3.htm
 tech.root: WMP
 ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9

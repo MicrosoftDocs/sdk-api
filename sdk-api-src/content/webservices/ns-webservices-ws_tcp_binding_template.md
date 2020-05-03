@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_TCP_BINDING_TEMPLATE
 title: WS_TCP_BINDING_TEMPLATE (webservices.h)
-description: TCP template structure to be filled in by application for TCP binding.
+description: TCP template structure to be filled in by application for TCP binding.helpviewer_keywords: ["WS_TCP_BINDING_TEMPLATE","WS_TCP_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_TCP_BINDING_TEMPLATE","wsw.ws_tcp_binding_template"]
 old-location: wsw\ws_tcp_binding_template.htm
 tech.root: wsw
 ms.assetid: 5003f405-38f9-439f-87d0-411a3b02218d

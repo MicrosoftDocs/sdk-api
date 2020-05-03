@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateAll
 title: ISyncMgrSynchronizeInvoke::UpdateAll (mobsync.h)
-description: Programmatically starts an update for all items.
+description: Programmatically starts an update for all items.helpviewer_keywords: ["ISyncMgrSynchronizeInvoke interface [Windows Shell]","UpdateAll method","ISyncMgrSynchronizeInvoke.UpdateAll","ISyncMgrSynchronizeInvoke::UpdateAll","UpdateAll","UpdateAll method [Windows Shell]","UpdateAll method [Windows Shell]","ISyncMgrSynchronizeInvoke interface","mobsync/ISyncMgrSynchronizeInvoke::UpdateAll","shell.syncmgr_isyncmgrsynchronizeinvoke_updateall","syncmgr.isyncmgrsynchronizeinvoke_updateall"]
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateall.htm
 tech.root: shell
 ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550

@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_CERT_ROOT_CONFIG0_
 title: IKEEXT_CERT_ROOT_CONFIG0 (iketypes.h)
 description: Stores the IKE, AuthIP, or IKEv2 certificate root configuration.
+helpviewer_keywords: ["IKEEXT_CERT_FLAG_DISABLE_REQUEST_PAYLOAD","IKEEXT_CERT_FLAG_ENABLE_ACCOUNT_MAPPING","IKEEXT_CERT_FLAG_FOLLOW_RENEWAL_CERTIFICATE","IKEEXT_CERT_FLAG_IGNORE_INIT_CERT_MAP_FAILURE","IKEEXT_CERT_FLAG_INTERMEDIATE_CA","IKEEXT_CERT_FLAG_PREFER_NAP_CERTIFICATE_OUTBOUND","IKEEXT_CERT_FLAG_SELECT_NAP_CERTIFICATE","IKEEXT_CERT_FLAG_USE_NAP_CERTIFICATE","IKEEXT_CERT_FLAG_VERIFY_NAP_CERTIFICATE","IKEEXT_CERT_ROOT_CONFIG0","IKEEXT_CERT_ROOT_CONFIG0 structure [Filtering]","fwp.ikeext_cert_root_config0","iketypes/IKEEXT_CERT_ROOT_CONFIG0"]
 old-location: fwp\ikeext_cert_root_config0.htm
 tech.root: fwp
 ms.assetid: 820da66b-670e-490e-bba4-c2b0afb6dfd1
@@ -61,7 +62,7 @@ The <b>IKEEXT_CERT_ROOT_CONFIG0</b> structure stores the IKE, AuthIP, or IKEv2 c
 
 X509/ASN.1 encoded name of the certificate root.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ### -field flags
@@ -195,7 +196,7 @@ Available only on Windows 8 and Windows Server 2012.
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 

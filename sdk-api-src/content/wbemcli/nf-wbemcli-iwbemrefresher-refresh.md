@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemRefresher.Refresh
 title: IWbemRefresher::Refresh (wbemcli.h)
-description: The IWbemRefresher::Refresh method updates all refreshable objects, enumerators, and nested refreshers. The WMI Refresher calls this function in response to a client request to Refresh.
+description: The IWbemRefresher::Refresh method updates all refreshable objects, enumerators, and nested refreshers. The WMI Refresher calls this function in response to a client request to Refresh.helpviewer_keywords: ["IWbemRefresher interface [Windows Management Instrumentation]","Refresh method","IWbemRefresher.Refresh","IWbemRefresher::Refresh","Refresh","Refresh method [Windows Management Instrumentation]","Refresh method [Windows Management Instrumentation]","IWbemRefresher interface","_hmm_iwbemrefresher_refresh","wbemcli/IWbemRefresher::Refresh","wmi.iwbemrefresher_refresh"]
 old-location: wmi\iwbemrefresher_refresh.htm
 tech.root: WmiSdk
 ms.assetid: 6de85040-c938-41dc-8240-0e21e89c7716

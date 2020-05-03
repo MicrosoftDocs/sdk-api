@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.RsopFileAccessCheck
 title: RsopFileAccessCheck function (userenv.h)
-description: The RSoPFileAccessCheck function determines whether a file's security descriptor grants a specified set of file access rights to the client identified by an RSOPTOKEN.
+description: The RSoPFileAccessCheck function determines whether a file's security descriptor grants a specified set of file access rights to the client identified by an RSOPTOKEN.helpviewer_keywords: ["RSoPFileAccessCheck","RSoPFileAccessCheck function [Group Policy]","RsopFileAccessCheck","_win32_rsopfileaccesscheck","policy.rsopfileaccesscheck","userenv/RSoPFileAccessCheck"]
 old-location: policy\rsopfileaccesscheck.htm
 tech.root: Policy
 ms.assetid: dfdf14ee-fee1-4e96-9955-7f24dfe39487

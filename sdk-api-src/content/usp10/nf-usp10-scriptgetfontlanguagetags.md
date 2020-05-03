@@ -2,6 +2,7 @@
 UID: NF:usp10.ScriptGetFontLanguageTags
 title: ScriptGetFontLanguageTags function (usp10.h)
 description: Retrieves a list of language tags that are available for the specified item and are supported by a specified script tag for OpenType processing. The tags comprising the list are retrieved from the font in the specified device context or cache.
+helpviewer_keywords: ["ScriptGetFontLanguageTags","ScriptGetFontLanguageTags function [Internationalization for Windows Applications]","_win32_ScriptGetFontLanguageTags","intl.scriptgetfontlanguagetags","usp10/ScriptGetFontLanguageTags"]
 old-location: intl\scriptgetfontlanguagetags.htm
 tech.root: Intl
 ms.assetid: 554915f0-4bfc-4777-98cd-c2bee6ac4ef4
@@ -72,7 +73,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the font language tags for the appropriate font and scripts can be retrieved.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the font language tags for the appropriate font and scripts can be retrieved.
 
 Alternately, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
@@ -132,7 +133,7 @@ While formally declared as a ULONG type, the <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

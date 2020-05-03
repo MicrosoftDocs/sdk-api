@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcoreapi.EventArgsType
 title: EventArgsType (uiautomationcoreapi.h)
-description: Contains values that specify the event type described by a UiaEventArgs structure.
+description: Contains values that specify the event type described by a UiaEventArgs structure.helpviewer_keywords: ["EventArgsType","EventArgsType enumeration [Windows Accessibility]","EventArgsType_AsyncContentLoaded","EventArgsType_Changes","EventArgsType_Notification","EventArgsType_PropertyChanged","EventArgsType_Simple","EventArgsType_StructureChanged","EventArgsType_TextEditTextChanged","EventArgsType_WindowClosed","uiauto.uiauto_EventArgsTypeEnum","uiauto_EventArgsTypeEnum","uiautomationcoreapi/EventArgsType","uiautomationcoreapi/EventArgsType_AsyncContentLoaded","uiautomationcoreapi/EventArgsType_Changes","uiautomationcoreapi/EventArgsType_Notification","uiautomationcoreapi/EventArgsType_PropertyChanged","uiautomationcoreapi/EventArgsType_Simple","uiautomationcoreapi/EventArgsType_StructureChanged","uiautomationcoreapi/EventArgsType_TextEditTextChanged","uiautomationcoreapi/EventArgsType_WindowClosed","winauto.uiauto_EventArgsTypeEnum"]
 old-location: winauto\uiauto_EventArgsTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: b62712cc-bb00-44b0-9664-cc8edbfabb0a

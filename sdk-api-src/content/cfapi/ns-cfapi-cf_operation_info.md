@@ -1,7 +1,7 @@
 ---
 UID: NS:cfapi.CF_OPERATION_INFO
 title: CF_OPERATION_INFO (cfapi.h)
-description: Information about an operation on a placeholder file or folder.
+description: Information about an operation on a placeholder file or folder.helpviewer_keywords: ["CF_OPERATION_INFO","CF_OPERATION_INFO structure","cfapi/CF_OPERATION_INFO","cloudApi.cf_operation_info"]
 old-location: cloudapi\cf_operation_info.htm
 tech.root: cfApi
 ms.assetid: 4AE9A968-1325-4EFF-8F5B-8F465740B0C4

@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelPurgeInput
 title: WTSVirtualChannelPurgeInput function (wtsapi32.h)
-description: Deletes all queued input data sent from the client to the server on a specified virtual channel.
+description: Deletes all queued input data sent from the client to the server on a specified virtual channel.helpviewer_keywords: ["WTSVirtualChannelPurgeInput","WTSVirtualChannelPurgeInput function [Remote Desktop Services]","_win32_wtsvirtualchannelpurgeinput","termserv.wtsvirtualchannelpurgeinput","wtsapi32/WTSVirtualChannelPurgeInput"]
 old-location: termserv\wtsvirtualchannelpurgeinput.htm
 tech.root: TermServ
 ms.assetid: ec8ee90d-0871-466c-8da3-04813319216a

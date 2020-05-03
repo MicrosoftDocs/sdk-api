@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProfile.get_Services
 title: INetFwProfile::get_Services (netfw.h)
-description: Retrieves the collection of services of the profile.
+description: Retrieves the collection of services of the profile.helpviewer_keywords: ["INetFwProfile interface [ICS/ICF]","Services property","INetFwProfile.Services","INetFwProfile.get_Services","INetFwProfile::Services","INetFwProfile::get_Services","Services property [ICS/ICF]","Services property [ICS/ICF]","INetFwProfile interface","get_Services","ics.inetfwprofile_services","netfw/INetFwProfile::Services","netfw/INetFwProfile::get_Services"]
 old-location: ics\inetfwprofile_services.htm
 tech.root: ics
 ms.assetid: 38b32f8e-9aeb-4f63-9880-f393cce185fb

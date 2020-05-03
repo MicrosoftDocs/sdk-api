@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SwitchToFiber
 title: SwitchToFiber function (winbase.h)
-description: Schedules a fiber. The function must be called on a fiber.
+description: Schedules a fiber. The function must be called on a fiber.helpviewer_keywords: ["SwitchToFiber","SwitchToFiber function","_win32_switchtofiber","base.switchtofiber","winbase/SwitchToFiber"]
 old-location: base\switchtofiber.htm
 tech.root: ProcThread
 ms.assetid: 020a8c97-848d-4b33-9cfb-77e5bff644fd

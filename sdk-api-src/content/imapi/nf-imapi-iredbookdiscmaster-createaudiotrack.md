@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.CreateAudioTrack
 title: IRedbookDiscMaster::CreateAudioTrack (imapi.h)
-description: Begins staging a new audio track. It can be called only when there are no open audio tracks in the image.
+description: Begins staging a new audio track. It can be called only when there are no open audio tracks in the image.helpviewer_keywords: ["CreateAudioTrack","CreateAudioTrack method [IMAPI]","CreateAudioTrack method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","CreateAudioTrack method","IRedbookDiscMaster.CreateAudioTrack","IRedbookDiscMaster::CreateAudioTrack","_win32_iredbookdiscmaster_createaudiotrack","base.iredbookdiscmaster_createaudiotrack","imapi.iredbookdiscmaster_createaudiotrack","imapi/IRedbookDiscMaster::CreateAudioTrack"]
 old-location: imapi\iredbookdiscmaster_createaudiotrack.htm
 tech.root: imapi
 ms.assetid: b0300cd8-08e9-434e-9c1b-c33a19148e7e

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetCommState
 title: GetCommState function (winbase.h)
-description: Retrieves the current control settings for a specified communications device.
+description: Retrieves the current control settings for a specified communications device.helpviewer_keywords: ["GetCommState","GetCommState function","_win32_getcommstate","base.getcommstate","winbase/GetCommState"]
 old-location: base\getcommstate.htm
 tech.root: devio
 ms.assetid: 974c2ddc-9f7f-445e-ac47-8cd86817ce9b

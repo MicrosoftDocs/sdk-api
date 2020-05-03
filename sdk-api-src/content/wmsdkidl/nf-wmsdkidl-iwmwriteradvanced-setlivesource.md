@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetLiveSource
 title: IWMWriterAdvanced::SetLiveSource (wmsdkidl.h)
-description: The SetLiveSource method sets a flag indicating whether the source is live.
+description: The SetLiveSource method sets a flag indicating whether the source is live.helpviewer_keywords: ["IWMWriterAdvanced interface [windows Media Format]","SetLiveSource method","IWMWriterAdvanced.SetLiveSource","IWMWriterAdvanced::SetLiveSource","IWMWriterAdvancedSetLiveSource","SetLiveSource","SetLiveSource method [windows Media Format]","SetLiveSource method [windows Media Format]","IWMWriterAdvanced interface","wmformat.iwmwriteradvanced_setlivesource","wmsdkidl/IWMWriterAdvanced::SetLiveSource"]
 old-location: wmformat\iwmwriteradvanced_setlivesource.htm
 tech.root: wmformat
 ms.assetid: ab015f92-498e-44c7-95c9-869dfdfccc09

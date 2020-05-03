@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.GetCellVerticalText
 title: ITextRow::GetCellVerticalText (tom.h)
-description: Gets the vertical-text setting of the active cell.
+description: Gets the vertical-text setting of the active cell.helpviewer_keywords: ["GetCellVerticalText","GetCellVerticalText method [Windows Controls]","GetCellVerticalText method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellVerticalText method","ITextRow.GetCellVerticalText","ITextRow::GetCellVerticalText","controls.itextrow_getcellverticaltext","tom/ITextRow::GetCellVerticalText"]
 old-location: controls\itextrow_getcellverticaltext.htm
 tech.root: Controls
 ms.assetid: 3c94a4af-0212-4422-bee2-7a9148a40b28

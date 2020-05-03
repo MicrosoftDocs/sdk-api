@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetHost
 title: IUrlAccessor::GetHost (searchapi.h)
-description: Gets the host name for the content source, if applicable.
+description: Gets the host name for the content source, if applicable.helpviewer_keywords: ["GetHost","GetHost method [search]","GetHost method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetHost method","IUrlAccessor.GetHost","IUrlAccessor::GetHost","_search_IUrlAccessor_GetHost","search._search_IUrlAccessor_GetHost","searchapi/IUrlAccessor::GetHost"]
 old-location: search\_search_IUrlAccessor_GetHost.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\gethost.htm

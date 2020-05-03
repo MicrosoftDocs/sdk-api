@@ -2,6 +2,7 @@
 UID: NF:winnt.Int64ShllMod32
 title: Int64ShllMod32 macro (winnt.h)
 description: Performs a left logical shift operation on an unsigned 64-bit integer value. The function provides improved shifting code for left logical shifts where the shift count is in the range 0-31.
+helpviewer_keywords: ["Int64ShllMod32","Int64ShllMod32 macro [Windows API]","_win32_int64shllmod32","winnt/Int64ShllMod32","winprog.int64shllmod32"]
 old-location: winprog\int64shllmod32.htm
 tech.root: WinProg
 ms.assetid: fe79b0c4-3316-4b05-b088-0d4b45586430
@@ -80,7 +81,7 @@ A compiler can generate optimal code for a left logical shift operation when the
 
 Please note that the 
 <b>Int64ShllMod32</b> function's <i>Value</i> parameter and return value are 64-bit values, not 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.
 
 
 

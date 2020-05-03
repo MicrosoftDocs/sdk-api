@@ -2,6 +2,7 @@
 UID: NF:structuredquerycondition.ICondition.GetSubConditions
 title: ICondition::GetSubConditions (structuredquerycondition.h)
 description: Retrieves a collection of the subconditions of the search condition node and the IID of the interface for enumerating the collection.
+helpviewer_keywords: ["GetSubConditions","GetSubConditions method [search]","GetSubConditions method [search]","ICondition interface","ICondition interface [search]","GetSubConditions method","ICondition.GetSubConditions","ICondition::GetSubConditions","_search_ICondition_GetSubConditions","search._search_ICondition_GetSubConditions","structuredquerycondition/ICondition::GetSubConditions"]
 old-location: search\_search_ICondition_GetSubConditions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getsubconditions.htm
@@ -103,11 +104,11 @@ If the node is a conjunction or disjunction node, <i>ppv</i> is set to an enumer
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

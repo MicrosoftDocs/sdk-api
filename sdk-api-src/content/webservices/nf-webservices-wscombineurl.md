@@ -2,6 +2,7 @@
 UID: NF:webservices.WsCombineUrl
 title: WsCombineUrl function (webservices.h)
 description: Produces an absolute URL from a specified URL reference (absolute or relative URL) and a specified absolute base URL.
+helpviewer_keywords: ["WsCombineUrl","WsCombineUrl function [Web Services for Windows]","webservices/WsCombineUrl","wsw.wscombineurl"]
 old-location: wsw\wscombineurl.htm
 tech.root: wsw
 ms.assetid: 6cff906a-adb7-4453-8d44-6a5bf44a681b
@@ -74,7 +75,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener
 
 ### -param flags [in]
 
-Controls the  format of the resulting URL.  For more information, see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
+Controls the  format of the resulting URL.  For more information, see <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
 
 
 ### -param heap [in]

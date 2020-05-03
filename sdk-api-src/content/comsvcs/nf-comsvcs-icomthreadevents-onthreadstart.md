@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComThreadEvents.OnThreadStart
 title: IComThreadEvents::OnThreadStart (comsvcs.h)
 description: Generated when a single-threaded apartment (STA) thread is started.
+helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadStart method","IComThreadEvents.OnThreadStart","IComThreadEvents::OnThreadStart","OnThreadStart","OnThreadStart method [COM+]","OnThreadStart method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadStart","comsvcs/IComThreadEvents::OnThreadStart","cos.icomthreadevents_onthreadstart"]
 old-location: cos\icomthreadevents_onthreadstart.htm
 tech.root: cossdk
 ms.assetid: 9316965e-13e8-4e3a-9404-8e49334773bc
@@ -59,7 +60,7 @@ Generated when a single-threaded apartment (STA) thread is started.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ThreadID [in]

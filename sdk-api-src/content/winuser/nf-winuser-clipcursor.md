@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ClipCursor
 title: ClipCursor function (winuser.h)
-description: Confines the cursor to a rectangular area on the screen.
+description: Confines the cursor to a rectangular area on the screen.helpviewer_keywords: ["ClipCursor","ClipCursor function [Menus and Other Resources]","_win32_ClipCursor","_win32_clipcursor_cpp","menurc.clipcursor","winui._win32_clipcursor","winuser/ClipCursor"]
 old-location: menurc\clipcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\clipcursor.htm

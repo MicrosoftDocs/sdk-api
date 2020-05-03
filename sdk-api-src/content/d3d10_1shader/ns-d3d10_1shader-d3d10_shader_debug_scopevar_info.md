@@ -2,6 +2,7 @@
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_SCOPEVAR_INFO
 title: D3D10_SHADER_DEBUG_SCOPEVAR_INFO (d3d10_1shader.h)
 description: Describes a shader scope variable.
+helpviewer_keywords: ["90b648c2-0ae3-a5f5-05de-ba4f5d6c85d1","D3D10_SHADER_DEBUG_SCOPEVAR_INFO","D3D10_SHADER_DEBUG_SCOPEVAR_INFO structure [Direct3D 10]","d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO","direct3d10.d3d10_shader_debug_scopevar_info"]
 old-location: direct3d10\d3d10_shader_debug_scopevar_info.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scopevar_info.htm
@@ -66,7 +67,7 @@ Index into variable token.
 
 ### -field VarType
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_vartype">D3D10_SHADER_DEBUG_VARTYPE</a></b>
+Type: <b><a href="/windows/win32/api/d3d10_1shader/ne-d3d10_1shader-d3d10_shader_debug_vartype">D3D10_SHADER_DEBUG_VARTYPE</a></b>
 
 Indicates whether this is a variable or function.
 
@@ -138,7 +139,7 @@ Index of the first variable, later variables are offsets from this one.
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.IsThemePartDefined
 title: IsThemePartDefined function (uxtheme.h)
-description: Retrieves whether a visual style has defined parameters for the specified part and state.
+description: Retrieves whether a visual style has defined parameters for the specified part and state.helpviewer_keywords: ["IsThemePartDefined","IsThemePartDefined function [Windows Controls]","controls.IsThemePartDefined","controls.inet_IsThemePartDefined","inet_IsThemePartDefined","inet_IsThemePartDefined_cpp","uxtheme/IsThemePartDefined"]
 old-location: controls\IsThemePartDefined.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm

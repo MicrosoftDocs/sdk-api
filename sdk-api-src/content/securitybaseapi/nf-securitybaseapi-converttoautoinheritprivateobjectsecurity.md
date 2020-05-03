@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.ConvertToAutoInheritPrivateObjectSecurity
 title: ConvertToAutoInheritPrivateObjectSecurity function (securitybaseapi.h)
-description: Converts a security descriptor and its access control lists (ACLs) to a format that supports automatic propagation of inheritable access control entries (ACEs).
+description: Converts a security descriptor and its access control lists (ACLs) to a format that supports automatic propagation of inheritable access control entries (ACEs).helpviewer_keywords: ["ConvertToAutoInheritPrivateObjectSecurity","ConvertToAutoInheritPrivateObjectSecurity function [Security]","_win32_converttoautoinheritprivateobjectsecurity","security.converttoautoinheritprivateobjectsecurity","securitybaseapi/ConvertToAutoInheritPrivateObjectSecurity"]
 old-location: security\converttoautoinheritprivateobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: eaaa5509-eff5-461d-843b-7ebbbe0dd58f

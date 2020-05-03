@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetColor
 title: IMFTimedTextStyle::GetColor (mfmediaengine.h)
-description: Gets the color of the timed-text style.
+description: Gets the color of the timed-text style.helpviewer_keywords: ["GetColor","GetColor method [Media Foundation]","GetColor method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetColor method","IMFTimedTextStyle.GetColor","IMFTimedTextStyle::GetColor","mf.imftimedtextstyle_getcolor","mfmediaengine/IMFTimedTextStyle::GetColor"]
 old-location: mf\imftimedtextstyle_getcolor.htm
 tech.root: medfound
 ms.assetid: 262A89EC-7025-4037-B09A-87C9CEE1DF76

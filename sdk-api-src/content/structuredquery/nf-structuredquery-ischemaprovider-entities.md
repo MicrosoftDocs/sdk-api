@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Entities
 title: ISchemaProvider::Entities (structuredquery.h)
-description: Retrieves an enumeration of IEntity objects with one entry for each entity in the loaded schema.
+description: Retrieves an enumeration of IEntity objects with one entry for each entity in the loaded schema.helpviewer_keywords: ["Entities","Entities method [search]","Entities method [search]","ISchemaProvider interface","ISchemaProvider interface [search]","Entities method","ISchemaProvider.Entities","ISchemaProvider::Entities","_search_ISchemaProvider_Entities","search._search_ISchemaProvider_Entities","structuredquery/ISchemaProvider::Entities"]
 old-location: search\_search_ISchemaProvider_Entities.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\entities.htm

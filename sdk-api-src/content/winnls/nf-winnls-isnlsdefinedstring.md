@@ -2,6 +2,7 @@
 UID: NF:winnls.IsNLSDefinedString
 title: IsNLSDefinedString function (winnls.h)
 description: Determines if each character in a string has a defined result for a specified NLS capability.
+helpviewer_keywords: ["IsNLSDefinedString","IsNLSDefinedString function [Internationalization for Windows Applications]","_win32_IsNLSDefinedString","intl.isnlsdefinedstring","winnls/IsNLSDefinedString"]
 old-location: intl\isnlsdefinedstring.htm
 tech.root: Intl
 ms.assetid: 0beb0470-ecdc-4a24-b28c-0738e1df9d49
@@ -76,7 +77,7 @@ Flags defining the function. Must be 0.
 
 ### -param lpVersionInformation [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure containing version information. Typically, the information is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>. The application sets this parameter to <b>NULL</b> if the function is to use the current version. 
+Pointer to an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure containing version information. Typically, the information is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>. The application sets this parameter to <b>NULL</b> if the function is to use the current version. 
 
 
 ### -param lpString [in]
@@ -133,7 +134,7 @@ For example, if <i>Function</i> is set to COMPARE_STRING, <b>IsNLSDefinedString<
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
+<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
 
 
 

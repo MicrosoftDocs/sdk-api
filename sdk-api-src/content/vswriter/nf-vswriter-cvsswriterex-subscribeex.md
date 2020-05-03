@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CVssWriterEx.SubscribeEx
 title: CVssWriterEx::SubscribeEx (vswriter.h)
-description: Causes the writer to subscribe to VSS events.
+description: Causes the writer to subscribe to VSS events.helpviewer_keywords: ["CVssWriterEx interface","SubscribeEx method","CVssWriterEx.SubscribeEx","CVssWriterEx::SubscribeEx","SubscribeEx","SubscribeEx method","SubscribeEx method","CVssWriterEx interface","base.cvsswriterex_subscribeex","vswriter/CVssWriterEx::SubscribeEx"]
 old-location: base\cvsswriterex_subscribeex.htm
 tech.root: VSS
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9

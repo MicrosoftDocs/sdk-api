@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ListBox_FindStringExact
 title: ListBox_FindStringExact macro (windowsx.h)
-description: Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the LB_FINDSTRINGEXACT message explicitly.
+description: Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the LB_FINDSTRINGEXACT message explicitly.helpviewer_keywords: ["ListBox_FindStringExact","ListBox_FindStringExact macro [Windows Controls]","_win32_ListBox_FindStringExact","_win32_ListBox_FindStringExact_cpp","controls.ListBox_FindStringExact","controls._win32_ListBox_FindStringExact","windowsx/ListBox_FindStringExact"]
 old-location: controls\ListBox_FindStringExact.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstringexact.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0008_0001
 title: VMR9RenderPrefs (vmr9.h)
-description: The VMR9RenderPrefs enumeration type specifies basic rendering preferences for the VMR-9. It is used with the IVMRFilterConfig9::GetRenderingPrefs and IVMRFilterConfig9::SetRenderingPrefs methods.
+description: The VMR9RenderPrefs enumeration type specifies basic rendering preferences for the VMR-9. It is used with the IVMRFilterConfig9::GetRenderingPrefs and IVMRFilterConfig9::SetRenderingPrefs methods.helpviewer_keywords: ["RenderPrefs9_DoNotRenderBorder","RenderPrefs9_Mask","VMR9RenderPrefs","VMR9RenderPrefs","VMR9RenderPrefs enumeration [DirectShow]","VMR9RenderPrefsEnumeration","dshow.vmr9renderprefs","vmr9/RenderPrefs9_DoNotRenderBorder","vmr9/RenderPrefs9_Mask","vmr9/VMR9RenderPrefs"]
 old-location: dshow\vmr9renderprefs.htm
 tech.root: DirectShow
 ms.assetid: a32119c2-a10d-41a0-b3e9-500323eb3094

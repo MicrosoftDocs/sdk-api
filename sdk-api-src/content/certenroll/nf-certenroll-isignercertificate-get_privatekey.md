@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_PrivateKey
 title: ISignerCertificate::get_PrivateKey (certenroll.h)
-description: Retrieves the private key associated with the ISignerCertificate object.
+description: Retrieves the private key associated with the ISignerCertificate object.helpviewer_keywords: ["ISignerCertificate interface [Security]","PrivateKey property","ISignerCertificate.PrivateKey","ISignerCertificate.get_PrivateKey","ISignerCertificate::PrivateKey","ISignerCertificate::get_PrivateKey","PrivateKey property [Security]","PrivateKey property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::PrivateKey","certenroll/ISignerCertificate::get_PrivateKey","get_PrivateKey","security.isignercertificate_privatekey_property"]
 old-location: security\isignercertificate_privatekey_property.htm
 tech.root: seccertenroll
 ms.assetid: 047a22ba-9817-45b7-aa9a-356245d2b824

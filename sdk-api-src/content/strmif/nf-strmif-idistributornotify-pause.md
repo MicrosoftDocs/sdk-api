@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDistributorNotify.Pause
 title: IDistributorNotify::Pause (strmif.h)
-description: The Pause method is called when the filter graph is entering a paused state.
+description: The Pause method is called when the filter graph is entering a paused state.helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","Pause method","IDistributorNotify.Pause","IDistributorNotify::Pause","IDistributorNotifyPause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_pause","strmif/IDistributorNotify::Pause"]
 old-location: dshow\idistributornotify_pause.htm
 tech.root: DirectShow
 ms.assetid: d8fcb5c0-4530-4084-adba-170a647588b1

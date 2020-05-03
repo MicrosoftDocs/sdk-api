@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult
 title: IFileSystemImageResult (imapi2fs.h)
-description: Use this interface to get information about the burn image, the image data stream, and progress information.
+description: Use this interface to get information about the burn image, the image data stream, and progress information.helpviewer_keywords: ["IFileSystemImageResult","IFileSystemImageResult interface [IMAPI]","IFileSystemImageResult interface [IMAPI]","described","imapi.ifilesystemimageresult","imapi2fs/IFileSystemImageResult"]
 old-location: imapi\ifilesystemimageresult.htm
 tech.root: imapi
 ms.assetid: 30ec514c-97b8-41fc-b814-11f50cacaa25

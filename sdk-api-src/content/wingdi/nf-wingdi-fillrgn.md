@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.FillRgn
 title: FillRgn function (wingdi.h)
-description: The FillRgn function fills a region by using the specified brush.
+description: The FillRgn function fills a region by using the specified brush.helpviewer_keywords: ["FillRgn","FillRgn function [Windows GDI]","_win32_FillRgn","gdi.fillrgn","wingdi/FillRgn"]
 old-location: gdi\fillrgn.htm
 tech.root: gdi
 ms.assetid: c4e0eca5-442b-462b-a4f2-0c628b6d3d38

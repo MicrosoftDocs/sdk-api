@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core._openasinfo
 title: OPENASINFO (shlobj_core.h)
-description: Stores information for the SHOpenWithDialog function.
+description: Stores information for the SHOpenWithDialog function.helpviewer_keywords: ["*POPENASINFO","OAIF_ALLOW_REGISTRATION","OAIF_EXEC","OAIF_FILE_IS_URI","OAIF_FORCE_REGISTRATION","OAIF_HIDE_REGISTRATION","OAIF_REGISTER_EXT","OAIF_URL_PROTOCOL","OPENASINFO","OPENASINFO structure [Windows Shell]","_openasinfo","_shell_OPENASINFO","shell.OPENASINFO","shlobj_core/OPENASINFO"]
 old-location: shell\OPENASINFO.htm
 tech.root: shell
 ms.assetid: 5486c4d3-c6c5-459d-aa7f-426971184876

@@ -2,6 +2,7 @@
 UID: NN:msopc.IOpcRelationship
 title: IOpcRelationship (msopc.h)
 description: Represents a relationship, which is a link between a source, which is a part or the package, and a target.
+helpviewer_keywords: ["IOpcRelationship","IOpcRelationship interface [Open Packaging Conventions]","IOpcRelationship interface [Open Packaging Conventions]","described","msopc/IOpcRelationship","opc.iopcrelationship"]
 old-location: opc\iopcrelationship.htm
 tech.root: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
@@ -134,7 +135,7 @@ Example relationship markup for a relationship that targets a part:
 Using the relationship type (<b>Type</b> attribute of the <b>Relationship</b> element)  is the definitive way  find a 
 part in a package. For more information about  why the relationship type is used, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>.  For an example of to use the relationship type to find a part, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/finding-the-core-properties-part">Finding the Core Properties Part</a>. 
 
-Valid identifiers for relationships conform to the restrictions for <b>xsd:ID</b>, which are documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (https://go.microsoft.com/fwlink/p/?linkid=126664).
+Valid identifiers for relationships conform to the restrictions for <b>xsd:ID</b>, which are documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://www.w3.org/TR/xmlschema-2/#ID).
 
 <b>IOpcRelationship</b> interface methods provide access to relationship properties for a relationship (which is represented by a relationship object). The methods, associated properties and descriptions are listed in the following table.
 
@@ -238,7 +239,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
 
 
 

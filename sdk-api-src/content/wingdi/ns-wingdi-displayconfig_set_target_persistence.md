@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 title: DISPLAYCONFIG_SET_TARGET_PERSISTENCE (wingdi.h)
-description: The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about setting the display.
+description: The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about setting the display.helpviewer_keywords: ["CCD_Structures_705e98bf-b3ea-4d2b-8c93-ffb300d700c8.xml","DISPLAYCONFIG_SET_TARGET_PERSISTENCE","DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure [Display Devices]","display.displayconfig_set_target_persistence","wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE"]
 old-location: display\displayconfig_set_target_persistence.htm
 tech.root: display
 ms.assetid: 4798a1e1-8685-40c2-917a-0ee071bc780c

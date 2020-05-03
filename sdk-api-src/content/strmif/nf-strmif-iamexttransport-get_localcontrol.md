@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_LocalControl
 title: IAMExtTransport::get_LocalControl (strmif.h)
-description: The get_LocalControl method determines whether the transport is under local control or remote control.
+description: The get_LocalControl method determines whether the transport is under local control or remote control.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_LocalControl method","IAMExtTransport.get_LocalControl","IAMExtTransport::get_LocalControl","IAMExtTransportget_LocalControl","dshow.iamexttransport_get_localcontrol","get_LocalControl","get_LocalControl method [DirectShow]","get_LocalControl method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::get_LocalControl"]
 old-location: dshow\iamexttransport_get_localcontrol.htm
 tech.root: DirectShow
 ms.assetid: 793078a2-bddd-469b-9043-f07830499353

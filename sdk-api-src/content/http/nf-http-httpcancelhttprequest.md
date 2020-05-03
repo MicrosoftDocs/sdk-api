@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCancelHttpRequest
 title: HttpCancelHttpRequest function (http.h)
-description: The HttpCancelHttpRequest function cancels a specified reqest.
+description: The HttpCancelHttpRequest function cancels a specified reqest.helpviewer_keywords: ["HttpCancelHttpRequest","HttpCancelHttpRequest function [HTTP]","http.httpcancelhttprequest","http/HttpCancelHttpRequest"]
 old-location: http\httpcancelhttprequest.htm
 tech.root: http
 ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52

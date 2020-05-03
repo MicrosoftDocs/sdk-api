@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_CREDENTIALS1_
 title: IKEEXT_CREDENTIALS1 (iketypes.h)
 description: Is used to store multiple credential pairs.
+helpviewer_keywords: ["IKEEXT_CREDENTIALS1","IKEEXT_CREDENTIALS1 structure [Filtering]","fwp.ikeext_credentials1","iketypes/IKEEXT_CREDENTIALS1"]
 old-location: fwp\ikeext_credentials1.htm
 tech.root: fwp
 ms.assetid: dbd895bd-a720-4c8e-a2e7-f5614d69922c
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIALS1</b> structure is used to store multiple credential pairs.
-[IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0)a> is available.</div><div> </div>
+[IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,14 +60,14 @@ The <b>IKEEXT_CREDENTIALS1</b> structure is used to store multiple credential pa
 
 ### -field numCredentials
 
-Number of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a> structures in the array.
+Number of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) structures in the array.
 
 
 ### -field credentials
 
 [size_is(numCredentials)]
 
-Pointer to an array of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a> structures.
+Pointer to an array of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) structures.
 
 
 ## -remarks
@@ -91,7 +92,7 @@ is index 1.
 
 
 
-[IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)a>
+[IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)
 
 
 

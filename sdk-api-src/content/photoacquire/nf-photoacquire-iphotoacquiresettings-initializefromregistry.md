@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.InitializeFromRegistry
 title: IPhotoAcquireSettings::InitializeFromRegistry (photoacquire.h)
-description: The InitializeFromRegistry method specifies a registry key from which to initialize settings.
+description: The InitializeFromRegistry method specifies a registry key from which to initialize settings.helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","InitializeFromRegistry method","IPhotoAcquireSettings.InitializeFromRegistry","IPhotoAcquireSettings::InitializeFromRegistry","IPhotoAcquireSettingsInitializeFromRegistry","InitializeFromRegistry","InitializeFromRegistry method [Picture Acquisition]","InitializeFromRegistry method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::InitializeFromRegistry","picacq.iphotoacquiresettings_initializefromregistry"]
 old-location: picacq\iphotoacquiresettings_initializefromregistry.htm
 tech.root: acquisition
 ms.assetid: 7459792f-20f8-4449-96c5-8c289b17db68

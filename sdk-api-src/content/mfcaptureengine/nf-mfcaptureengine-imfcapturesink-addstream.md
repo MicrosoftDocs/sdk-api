@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.AddStream
 title: IMFCaptureSink::AddStream (mfcaptureengine.h)
-description: Connects a stream from the capture source to this capture sink.
+description: Connects a stream from the capture source to this capture sink.helpviewer_keywords: ["AddStream","AddStream method [Media Foundation]","AddStream method [Media Foundation]","IMFCaptureSink interface","IMFCaptureSink interface [Media Foundation]","AddStream method","IMFCaptureSink.AddStream","IMFCaptureSink::AddStream","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","mf.imfcapturesink_addstream","mfcaptureengine/IMFCaptureSink::AddStream"]
 old-location: mf\imfcapturesink_addstream.htm
 tech.root: medfound
 ms.assetid: 5D7A1FE0-92B9-4CC4-A268-17FA848055A9

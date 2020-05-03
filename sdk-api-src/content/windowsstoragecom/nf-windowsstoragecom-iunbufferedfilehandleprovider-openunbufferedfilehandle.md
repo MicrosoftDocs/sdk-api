@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
 title: IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle (windowsstoragecom.h)
-description: Gets a handle from a random-access byte stream that the StorageFile.OpenAsync method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken.
+description: Gets a handle from a random-access byte stream that the StorageFile.OpenAsync method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken.helpviewer_keywords: ["IUnbufferedFileHandleProvider interface [Windows Runtime]","OpenUnbufferedFileHandle method","IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle","IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle","OpenUnbufferedFileHandle","OpenUnbufferedFileHandle method [Windows Runtime]","OpenUnbufferedFileHandle method [Windows Runtime]","IUnbufferedFileHandleProvider interface","windowsstoragecom/IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle","winrt.iunbufferedfilehandleprovider_openunbufferedfilehandle"]
 old-location: winrt\iunbufferedfilehandleprovider_openunbufferedfilehandle.htm
 tech.root: WinRT
 ms.assetid: D001CD90-A621-403C-B9BD-BE79471AF18F

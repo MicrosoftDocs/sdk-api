@@ -1,7 +1,7 @@
 ---
 UID: NF:wcmapi.WcmSetProfileList
 title: WcmSetProfileList function (wcmapi.h)
-description: Reorders a profile list or a subset of a profile list.
+description: Reorders a profile list or a subset of a profile list.helpviewer_keywords: ["WcmSetProfileList","WcmSetProfileList function [Windows Connection Manager]","wcm.wcmsetprofilelist","wcmapi/WcmSetProfileList"]
 old-location: wcm\wcmsetprofilelist.htm
 tech.root: wcm
 ms.assetid: c5efb2e8-c4c4-4e13-9f7a-ea2a40744655

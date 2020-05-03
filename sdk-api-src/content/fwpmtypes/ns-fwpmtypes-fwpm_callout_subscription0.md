@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_CALLOUT_SUBSCRIPTION0_
 title: FWPM_CALLOUT_SUBSCRIPTION0 (fwpmtypes.h)
 description: Used to subscribe for change notifications.
+helpviewer_keywords: ["FWPM_CALLOUT_SUBSCRIPTION0","FWPM_CALLOUT_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_callout_subscription0_struct","fwpmtypes/FWPM_CALLOUT_SUBSCRIPTION0"]
 old-location: fwp\fwpm_callout_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 35afdc09-0745-4d59-9be1-d360b02fbd2f
@@ -59,7 +60,7 @@ The <b>FWPM_CALLOUT_SUBSCRIPTION0</b> structure is used to subscribe for change 
 
 ### -field enumTemplate
 
- A [FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)a> structure that is used to limit the subscription.
+ A [FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0) structure that is used to limit the subscription.
 
 
 ### -field flags
@@ -119,7 +120,7 @@ If
 
 
 
-[FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)a>
+[FWPM_CALLOUT_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_enum_template0)
 
 
 

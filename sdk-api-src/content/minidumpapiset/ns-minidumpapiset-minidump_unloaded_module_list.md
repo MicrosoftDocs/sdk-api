@@ -2,6 +2,7 @@
 UID: NS:minidumpapiset._MINIDUMP_UNLOADED_MODULE_LIST
 title: MINIDUMP_UNLOADED_MODULE_LIST (minidumpapiset.h)
 description: Contains a list of unloaded modules.
+helpviewer_keywords: ["*PMINIDUMP_UNLOADED_MODULE_LIST","MINIDUMP_UNLOADED_MODULE_LIST","MINIDUMP_UNLOADED_MODULE_LIST structure","PMINIDUMP_UNLOADED_MODULE_LIST","PMINIDUMP_UNLOADED_MODULE_LIST structure pointer","_MINIDUMP_UNLOADED_MODULE_LIST","_win32_minidump_unloaded_module_list_str","base.minidump_unloaded_module_list_str","minidumpapiset/MINIDUMP_UNLOADED_MODULE_LIST","minidumpapiset/PMINIDUMP_UNLOADED_MODULE_LIST"]
 old-location: base\minidump_unloaded_module_list_str.htm
 tech.root: Debug
 ms.assetid: 26a42ae7-f84d-451d-92e9-dbaffb15ca74
@@ -69,7 +70,7 @@ The size of each entry following the header, in bytes. This is generally <code>s
 
 ### -field NumberOfEntries
 
-The number of entries in the stream. These are generally <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a> structures. The entries follow the header.
+The number of entries in the stream. These are generally <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a> structures. The entries follow the header.
 
 
 ## -see-also
@@ -81,7 +82,7 @@ The number of entries in the stream. These are generally <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a>
  
 
  

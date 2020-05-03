@@ -1,7 +1,7 @@
 ---
 UID: NF:shellapi.DragFinish
 title: DragFinish function (shellapi.h)
-description: Releases memory that the system allocated for use in transferring file names to the application.
+description: Releases memory that the system allocated for use in transferring file names to the application.helpviewer_keywords: ["DragFinish","DragFinish function [Windows Shell]","_win32_DragFinish","shell.DragFinish","shellapi/DragFinish"]
 old-location: shell\DragFinish.htm
 tech.root: shell
 ms.assetid: 9b15e8a5-de68-4dcb-8e1a-0ee0393aa9db

@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSSetPropertyValue
 title: PSSetPropertyValue function (propsys.h)
-description: Sets the value of a property in a property store.
+description: Sets the value of a property in a property store.helpviewer_keywords: ["PSSetPropertyValue","PSSetPropertyValue function [Windows Properties]","_shell_PSSetPropertyValue","properties.PSSetPropertyValue","propsys/PSSetPropertyValue","shell.PSSetPropertyValue"]
 old-location: properties\PSSetPropertyValue.htm
 tech.root: properties
 ms.assetid: b4f8c50d-93cd-4371-88b0-6ce58f023981

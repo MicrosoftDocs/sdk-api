@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_BITMAP_BRUSH_PROPERTIES
 title: D2D1_BITMAP_BRUSH_PROPERTIES (d2d1.h)
-description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
+description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.helpviewer_keywords: ["D2D1_BITMAP_BRUSH_PROPERTIES","D2D1_BITMAP_BRUSH_PROPERTIES structure [Direct2D]","d2d1/D2D1_BITMAP_BRUSH_PROPERTIES","direct2d.D2D1_BITMAP_BRUSH_PROPERTIES"]
 old-location: direct2d\D2D1_BITMAP_BRUSH_PROPERTIES.htm
 tech.root: Direct2D
 ms.assetid: e252d1b4-2f34-4479-94fc-636d4115b00c
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the extend modes and the interpolation mode of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>.
+Describes the extend modes and the interpolation mode of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>.
 
 
 ## -struct-fields
@@ -59,21 +59,21 @@ Describes the extend modes and the interpolation mode of an <a href="https://doc
 
 ### -field extendModeX
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 A value that describes how the brush horizontally tiles those areas that extend past its bitmap.
 
 
 ### -field extendModeY
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 A value that describes how the brush vertically tiles those areas that extend past its bitmap.
 
 
 ### -field interpolationMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
 
 A value that specifies how the bitmap is interpolated when it is scaled or rotated.
 
@@ -83,11 +83,11 @@ A value that specifies how the bitmap is interpolated when it is scaled or rotat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a>
+<a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a>
+<a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a>
  
 
  

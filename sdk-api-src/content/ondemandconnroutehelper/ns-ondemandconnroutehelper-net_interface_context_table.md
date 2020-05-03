@@ -2,6 +2,7 @@
 UID: NS:ondemandconnroutehelper._NET_INTERFACE_CONTEXT_TABLE
 title: NET_INTERFACE_CONTEXT_TABLE (ondemandconnroutehelper.h)
 description: The table of NET_INTERFACE_CONTEXT structures.
+helpviewer_keywords: ["NET_INTERFACE_CONTEXT_TABLE","NET_INTERFACE_CONTEXT_TABLE structure [Network Awareness]","PNET_INTERFACE_CONTEXT_TABLE","PNET_INTERFACE_CONTEXT_TABLE structure pointer [Network Awareness]","nla.net_interface_context_table","ondemandconnroutehelper/NET_INTERFACE_CONTEXT_TABLE","ondemandconnroutehelper/PNET_INTERFACE_CONTEXT_TABLE"]
 old-location: nla\net_interface_context_table.htm
 tech.root: nla
 ms.assetid: DA6101F2-EB8F-43DC-93C6-9365A7AABEAC
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The table of <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
+The table of <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -struct-fields
@@ -69,7 +70,7 @@ The number of entries in the table.
 
 ### -field InterfaceContextArray
 
-An array of <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
+An array of <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -see-also
@@ -81,7 +82,7 @@ An array of <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a>
+<a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a>
  
 
  

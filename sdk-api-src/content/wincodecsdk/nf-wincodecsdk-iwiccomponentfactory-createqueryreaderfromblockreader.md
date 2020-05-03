@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryReaderFromBlockReader
 title: IWICComponentFactory::CreateQueryReaderFromBlockReader (wincodecsdk.h)
-description: Creates a IWICMetadataQueryReader from the given IWICMetadataBlockReader.
+description: Creates a IWICMetadataQueryReader from the given IWICMetadataBlockReader.helpviewer_keywords: ["CreateQueryReaderFromBlockReader","CreateQueryReaderFromBlockReader method [Windows Imaging Component]","CreateQueryReaderFromBlockReader method [Windows Imaging Component]","IWICComponentFactory interface","IWICComponentFactory interface [Windows Imaging Component]","CreateQueryReaderFromBlockReader method","IWICComponentFactory.CreateQueryReaderFromBlockReader","IWICComponentFactory::CreateQueryReaderFromBlockReader","_wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader","wic._wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader","wincodecsdk/IWICComponentFactory::CreateQueryReaderFromBlockReader"]
 old-location: wic\_wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader.htm
 tech.root: wic
 ms.assetid: 638d7c29-9c13-4a4b-ac60-8bccd01c65d5

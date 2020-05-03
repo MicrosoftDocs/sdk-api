@@ -2,6 +2,7 @@
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorTechnologyType
 title: GetMonitorTechnologyType function (highlevelmonitorconfigurationapi.h)
 description: Retrieves the type of technology used by a monitor.
+helpviewer_keywords: ["GetMonitorTechnologyType","GetMonitorTechnologyType function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorTechnologyType","monitor.getmonitortechnologytype"]
 old-location: monitor\getmonitortechnologytype.htm
 tech.root: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param pdtyDisplayTechnologyType [out]
 
-Receives the technology type, specified as a member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_display_technology_type">MC_DISPLAY_TECHNOLOGY_TYPE</a> enumeration.
+Receives the technology type, specified as a member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_display_technology_type">MC_DISPLAY_TECHNOLOGY_TYPE</a> enumeration.
           
 
 

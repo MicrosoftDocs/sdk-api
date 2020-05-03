@@ -1,7 +1,7 @@
 ---
 UID: NN:corewindow.ICoreWindowInterop
 title: ICoreWindowInterop (corewindow.h)
-description: Enables apps to obtain the window handle of the window (CoreWindow) associated with this interface.
+description: Enables apps to obtain the window handle of the window (CoreWindow) associated with this interface.helpviewer_keywords: ["ICoreWindowInterop","ICoreWindowInterop interface [Windows Runtime]","ICoreWindowInterop interface [Windows Runtime]","described","corewindow/ICoreWindowInterop","winrt.icorewindowinterop"]
 old-location: winrt\icorewindowinterop.htm
 tech.root: WinRT
 ms.assetid: 6928FA3A-C367-4C99-A67E-8ED0153D6349

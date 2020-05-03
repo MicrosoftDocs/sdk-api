@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngUnmapFontFile
 title: EngUnmapFontFile function (winddi.h)
-description: The EngUnmapFontFile function is obsolete. Use EngUnmapFontFileFD instead.
+description: The EngUnmapFontFile function is obsolete. Use EngUnmapFontFileFD instead.helpviewer_keywords: ["EngUnmapFontFile","EngUnmapFontFile function [Display Devices]","display.engunmapfontfile","gdifncs_8e66998b-e7dd-4ccb-b388-9b5faf4a64f4.xml","winddi/EngUnmapFontFile"]
 old-location: display\engunmapfontfile.htm
 tech.root: display
 ms.assetid: 0fc34dfe-fbe8-4bee-8766-4b1db9b5ccfa

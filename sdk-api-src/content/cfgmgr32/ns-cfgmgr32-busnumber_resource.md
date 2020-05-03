@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.BusNumber_Resource_s
 title: BUSNUMBER_RESOURCE (cfgmgr32.h)
 description: The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PBUSNUMBER_RESOURCE","BUSNUMBER_RESOURCE","BUSNUMBER_RESOURCE structure [Device and Driver Installation]","PBUSNUMBER_RESOURCE","PBUSNUMBER_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/BUSNUMBER_RESOURCE","cfgmgr32/PBUSNUMBER_RESOURCE","cfgmgrst_5fb3a498-87c1-40c1-8169-4348f2fabe03.xml","devinst.busnumber_resource"]
 old-location: devinst\busnumber_resource.htm
 tech.root: devinst
 ms.assetid: 8dbf5499-8e43-4db9-b0ec-6536f1c6121c
@@ -59,7 +60,7 @@ The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource 
 
 ### -field BusNumber_Header
 
-A [BUSNUMBER_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des)a> structure.
+A [BUSNUMBER_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des) structure.
 
 
 ### -field BusNumber_Data
@@ -76,7 +77,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a> array.
+A [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range) array.
 
 
 ## -see-also
@@ -84,11 +85,11 @@ A [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-c
 
 
 
-[BUSNUMBER_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des)a>
+[BUSNUMBER_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_des)
 
 
 
-[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a>
+[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)
  
 
  

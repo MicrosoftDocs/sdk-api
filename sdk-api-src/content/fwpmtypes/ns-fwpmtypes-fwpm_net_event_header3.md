@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER3_
 title: FWPM_NET_EVENT_HEADER3 (fwpmtypes.h)
 description: Contains information common to all events.
+helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET","FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER3","FWPM_NET_EVENT_HEADER3 structure [Filtering]","fwp.fwpm_net_event_header3","fwpmtypes/FWPM_NET_EVENT_HEADER3"]
 old-location: fwp\fwpm_net_event_header3.htm
 tech.root: fwp
 ms.assetid: 1AAC1649-B9F2-40E6-956B-6179A3E1C112
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_HEADER3</b> structure contains information common to all events.
-[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0)a> is available.</div><div> </div>
+[FWPM_NET_EVENT_HEADER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -284,19 +285,19 @@ The EDP remote server used for name-based policy.
 
 
 
-[FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)a>
+[FWP_AF](/windows/win32/api/fwptypes/ne-fwptypes-fwp_af)
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>
+[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
  
 
  

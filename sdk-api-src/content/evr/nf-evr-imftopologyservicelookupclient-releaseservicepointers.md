@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookupClient.ReleaseServicePointers
 title: IMFTopologyServiceLookupClient::ReleaseServicePointers (evr.h)
-description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
+description: Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).helpviewer_keywords: ["03ed29b4-89c1-4702-a23f-d013eeef5d44","IMFTopologyServiceLookupClient interface [Media Foundation]","ReleaseServicePointers method","IMFTopologyServiceLookupClient.ReleaseServicePointers","IMFTopologyServiceLookupClient::ReleaseServicePointers","ReleaseServicePointers","ReleaseServicePointers method [Media Foundation]","ReleaseServicePointers method [Media Foundation]","IMFTopologyServiceLookupClient interface","evr/IMFTopologyServiceLookupClient::ReleaseServicePointers","mf.imftopologyservicelookupclient_releaseservicepointers"]
 old-location: mf\imftopologyservicelookupclient_releaseservicepointers.htm
 tech.root: medfound
 ms.assetid: 03ed29b4-89c1-4702-a23f-d013eeef5d44

@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsDiskPartitionMF
 title: IVdsDiskPartitionMF (vds.h)
-description: Provides methods to perform file system management operations on partitions.
+description: Provides methods to perform file system management operations on partitions.helpviewer_keywords: ["IVdsDiskPartitionMF","IVdsDiskPartitionMF interface","IVdsDiskPartitionMF interface","described","base.ivdsdiskpartitionmf","vds/IVdsDiskPartitionMF"]
 old-location: base\ivdsdiskpartitionmf.htm
 tech.root: VDS
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233

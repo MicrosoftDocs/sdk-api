@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.StartChanges
 title: IBDA_DeviceControl::StartChanges (bdaiface.h)
-description: The StartChanges method is called by a Network Provider before it begins to modify a set of properties on a BDA device filter.
+description: The StartChanges method is called by a Network Provider before it begins to modify a set of properties on a BDA device filter.helpviewer_keywords: ["IBDA_DeviceControl interface [Microsoft TV Technologies]","StartChanges method","IBDA_DeviceControl.StartChanges","IBDA_DeviceControl::StartChanges","IBDA_DeviceControlStartChanges","StartChanges","StartChanges method [Microsoft TV Technologies]","StartChanges method [Microsoft TV Technologies]","IBDA_DeviceControl interface","bdaiface/IBDA_DeviceControl::StartChanges","mstv.ibda_devicecontrol_startchanges"]
 old-location: mstv\ibda_devicecontrol_startchanges.htm
 tech.root: mstv
 ms.assetid: 989cdd9b-ea5b-4a80-b157-9469a210b966

@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMDevMemoryAllocator
 title: IAMDevMemoryAllocator (strmif.h)
-description: Note  This interface is no longer supported by the AVI Splitter. Note  This interface was defined to support older hardware decoders that required AVI files to be read into directly hardware memory.
+description: Note  This interface is no longer supported by the AVI Splitter. Note  This interface was defined to support older hardware decoders that required AVI files to be read into directly hardware memory.helpviewer_keywords: ["IAMDevMemoryAllocator","IAMDevMemoryAllocator interface [DirectShow]","IAMDevMemoryAllocator interface [DirectShow]","described","IAMDevMemoryAllocatorInterface","dshow.iamdevmemoryallocator","strmif/IAMDevMemoryAllocator"]
 old-location: dshow\iamdevmemoryallocator.htm
 tech.root: DirectShow
 ms.assetid: bab1e582-928a-408b-a9c5-8e9827e9928b

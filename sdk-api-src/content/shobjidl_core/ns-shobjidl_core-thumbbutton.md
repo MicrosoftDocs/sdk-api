@@ -1,7 +1,7 @@
 ---
 UID: NS:shobjidl_core.THUMBBUTTON
 title: THUMBBUTTON (shobjidl_core.h)
-description: Used by methods of the ITaskbarList3 interface to define buttons used in a toolbar embedded in a window's thumbnail representation.
+description: Used by methods of the ITaskbarList3 interface to define buttons used in a toolbar embedded in a window's thumbnail representation.helpviewer_keywords: ["*LPTHUMBBUTTON","LPTHUMBBUTTON","LPTHUMBBUTTON structure pointer [Windows Shell]","THUMBBUTTON","THUMBBUTTON structure [Windows Shell]","_shell_THUMBBUTTON","shell.THUMBBUTTON","shobjidl_core/LPTHUMBBUTTON","shobjidl_core/THUMBBUTTON"]
 old-location: shell\THUMBBUTTON.htm
 tech.root: shell
 ms.assetid: c13657b2-5b96-45ae-b339-b06b13aca65d

@@ -1,7 +1,7 @@
 ---
 UID: NS:wnvapi._WNV_NOTIFICATION_PARAM
 title: WNV_NOTIFICATION_PARAM (wnvapi.h)
-description: Specifies the version, notification type, and the buffer location in a WnvRequestNotification function call.
+description: Specifies the version, notification type, and the buffer location in a WnvRequestNotification function call.helpviewer_keywords: ["*PWNV_NOTIFICATION_PARAM","PWNV_NOTIFICATION_PARAM","PWNV_NOTIFICATION_PARAM structure pointer [Windows Network Virtualization]","WNV_NOTIFICATION_PARAM","WNV_NOTIFICATION_PARAM structure [Windows Network Virtualization]","wnv.wnv_notification_param","wnvapi/PWNV_NOTIFICATION_PARAM","wnvapi/WNV_NOTIFICATION_PARAM"]
 old-location: wnv\wnv_notification_param.htm
 tech.root: wnv
 ms.assetid: C8A27B21-462A-4D70-AA19-743023FD1810

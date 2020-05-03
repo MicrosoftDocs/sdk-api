@@ -1,7 +1,7 @@
 ---
 UID: NF:msports.ComDBClaimNextFreePort
 title: ComDBClaimNextFreePort function (msports.h)
-description: ComDBClaimNextFreePort returns the lowest COM port number that is not already in use.
+description: ComDBClaimNextFreePort returns the lowest COM port number that is not already in use.helpviewer_keywords: ["ComDBClaimNextFreePort","ComDBClaimNextFreePort function [Serial Ports]","comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml","msports/ComDBClaimNextFreePort","serports.comdbclaimnextfreeport"]
 old-location: serports\comdbclaimnextfreeport.htm
 tech.root: serports
 ms.assetid: b32b42e8-d38c-4bb5-bf8a-96538a03cb5b

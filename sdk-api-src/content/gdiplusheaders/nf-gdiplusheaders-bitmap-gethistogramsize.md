@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHistogramSize
 title: Bitmap::GetHistogramSize (gdiplusheaders.h)
-description: The Bitmap::GetHistogramSize returns the number of elements (in an array of UINTs) that you must allocate before you call the Bitmap::GetHistogram method of a Bitmap object.
+description: The Bitmap::GetHistogramSize returns the number of elements (in an array of UINTs) that you must allocate before you call the Bitmap::GetHistogram method of a Bitmap object.helpviewer_keywords: ["Bitmap class [GDI+]","GetHistogramSize method","Bitmap.GetHistogramSize","Bitmap::GetHistogramSize","GetHistogramSize","GetHistogramSize method [GDI+]","GetHistogramSize method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_GetHistogramSize_","gdiplus._gdiplus_CLASS_Bitmap_GetHistogramSize_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHistogramSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\gethistogramsize.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromFileTime
 title: InitPropVariantFromFileTime function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on information stored in a FILETIME structure.
+description: Initializes a PROPVARIANT structure based on information stored in a FILETIME structure.helpviewer_keywords: ["InitPropVariantFromFileTime","InitPropVariantFromFileTime function [Windows Properties]","properties.InitPropVariantFromFileTime","propvarutil/InitPropVariantFromFileTime","shell.InitPropVariantFromFileTime","shell_InitPropVariantFromFileTime"]
 old-location: properties\InitPropVariantFromFileTime.htm
 tech.root: properties
 ms.assetid: 07c5ffe5-b2a5-46a3-969c-81201d9b8fdb

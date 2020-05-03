@@ -2,6 +2,7 @@
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportError
 title: ITpmVirtualSmartCardManagerStatusCallback::ReportError (tpmvscmgr.h)
 description: Reports any errors from the requested operation.
+helpviewer_keywords: ["ITpmVirtualSmartCardManagerStatusCallback interface [Security]","ReportError method","ITpmVirtualSmartCardManagerStatusCallback.ReportError","ITpmVirtualSmartCardManagerStatusCallback::ReportError","ReportError","ReportError method [Security]","ReportError method [Security]","ITpmVirtualSmartCardManagerStatusCallback interface","security.itpmvirtualsmartcardmanagerstatuscallback_reporterror","tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportError"]
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reporterror.htm
 tech.root: SecAuthN
 ms.assetid: 936F22EA-1C9F-4328-B71F-FA7720396F6F
@@ -60,7 +61,7 @@ Reports any errors from the requested operation.
 
 ### -param Error [in]
 
-Error code of the current error from the possible errors listed in the <a href="https://docs.microsoft.com/windows/win32/api/tpmvscmgr/ne-tpmvscmgr-tpmvscmgr_error">TPMVSCMGR_ERROR</a> enumeration.
+Error code of the current error from the possible errors listed in the <a href="/windows/win32/api/tpmvscmgr/ne-tpmvscmgr-tpmvscmgr_error">TPMVSCMGR_ERROR</a> enumeration.
 
 
 ## -returns

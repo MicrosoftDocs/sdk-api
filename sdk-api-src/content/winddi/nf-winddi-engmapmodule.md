@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMapModule
 title: EngMapModule function (winddi.h)
-description: The EngMapModule function returns the address and size of a file that was loaded by EngLoadModule, EngLoadModuleForWrite, EngLoadImage, or EngMapFile.
+description: The EngMapModule function returns the address and size of a file that was loaded by EngLoadModule, EngLoadModuleForWrite, EngLoadImage, or EngMapFile.helpviewer_keywords: ["EngMapModule","EngMapModule function [Display Devices]","display.engmapmodule","gdifncs_c3731e1a-e853-403b-958b-370494e79ae7.xml","winddi/EngMapModule"]
 old-location: display\engmapmodule.htm
 tech.root: display
 ms.assetid: f8bd9b2c-11a3-454f-a4ce-cbda28115564

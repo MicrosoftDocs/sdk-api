@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsClass.Qualifiers
 title: IADsClass::Qualifiers (iads.h)
-description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
+description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.helpviewer_keywords: ["IADsClass interface [ADSI]","Qualifiers method","IADsClass.Qualifiers","IADsClass::Qualifiers","Qualifiers","Qualifiers method [ADSI]","Qualifiers method [ADSI]","IADsClass interface","_ds_iadsclass_qualifiers","adsi.iadsclass__qualifiers","adsi.iadsclass_qualifiers","iads/IADsClass::Qualifiers"]
 old-location: adsi\iadsclass_qualifiers.htm
 tech.root: adsi
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535

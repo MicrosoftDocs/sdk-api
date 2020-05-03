@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.get_CreateRedundantUdfMetadataFiles
 title: IFileSystemImage3::get_CreateRedundantUdfMetadataFiles (imapi2fs.h)
-description: Retrieves a property value that specifies if the UDF Metadata will be redundant in the file system image.
+description: Retrieves a property value that specifies if the UDF Metadata will be redundant in the file system image.helpviewer_keywords: ["IFileSystemImage3 interface [IMAPI]","get_CreateRedundantUdfMetadataFiles method","IFileSystemImage3.get_CreateRedundantUdfMetadataFiles","IFileSystemImage3::get_CreateRedundantUdfMetadataFiles","get_CreateRedundantUdfMetadataFiles","get_CreateRedundantUdfMetadataFiles method [IMAPI]","get_CreateRedundantUdfMetadataFiles method [IMAPI]","IFileSystemImage3 interface","imapi.ifilesystemimage3_get_createredundantudfmetadatafiles","imapi2fs/IFileSystemImage3::get_CreateRedundantUdfMetadataFiles"]
 old-location: imapi\ifilesystemimage3_get_createredundantudfmetadatafiles.htm
 tech.root: imapi
 ms.assetid: d71e997f-e6d6-414b-b89e-73a486f29619

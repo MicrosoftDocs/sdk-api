@@ -1,7 +1,7 @@
 ---
 UID: NF:msrdc.IRdcSimilarityGenerator.EnableSimilarity
 title: IRdcSimilarityGenerator::EnableSimilarity (msrdc.h)
-description: Enables the signature generator to generate similarity data.
+description: Enables the signature generator to generate similarity data.helpviewer_keywords: ["EnableSimilarity","EnableSimilarity method [Remote Differential Compression]","EnableSimilarity method [Remote Differential Compression]","IRdcSimilarityGenerator interface","IRdcSimilarityGenerator interface [Remote Differential Compression]","EnableSimilarity method","IRdcSimilarityGenerator.EnableSimilarity","IRdcSimilarityGenerator::EnableSimilarity","fs.irdcsimilaritygenerator_enablesimilarity","msrdc/IRdcSimilarityGenerator::EnableSimilarity","rdc.irdcsimilaritygenerator_enablesimilarity"]
 old-location: rdc\irdcsimilaritygenerator_enablesimilarity.htm
 tech.root: rdc
 ms.assetid: 1d67be55-ed00-4e41-9319-10947d1d88a0

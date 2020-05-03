@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.GetTimeSeekResult
 title: IMFByteStreamTimeSeek::GetTimeSeekResult (mfidl.h)
-description: Gets the result of a time-based seek.
+description: Gets the result of a time-based seek.helpviewer_keywords: ["GetTimeSeekResult","GetTimeSeekResult method [Media Foundation]","GetTimeSeekResult method [Media Foundation]","IMFByteStreamTimeSeek interface","IMFByteStreamTimeSeek interface [Media Foundation]","GetTimeSeekResult method","IMFByteStreamTimeSeek.GetTimeSeekResult","IMFByteStreamTimeSeek::GetTimeSeekResult","mf.imfbytestreamtimeseek_gettimeseekresult","mfidl/IMFByteStreamTimeSeek::GetTimeSeekResult"]
 old-location: mf\imfbytestreamtimeseek_gettimeseekresult.htm
 tech.root: medfound
 ms.assetid: D56E1F06-AA05-430C-BF5C-30B38831B842

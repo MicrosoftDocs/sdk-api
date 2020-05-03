@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptedKeyHash
 title: IX509CertificateRequestCmc::get_EncryptedKeyHash (certenroll.h)
-description: Retrieves a hash of the private key to be archived.
+description: Retrieves a hash of the private key to be archived.helpviewer_keywords: ["EncryptedKeyHash property [Security]","EncryptedKeyHash property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","EncryptedKeyHash property","IX509CertificateRequestCmc.EncryptedKeyHash","IX509CertificateRequestCmc.get_EncryptedKeyHash","IX509CertificateRequestCmc::EncryptedKeyHash","IX509CertificateRequestCmc::get_EncryptedKeyHash","certenroll/IX509CertificateRequestCmc::EncryptedKeyHash","certenroll/IX509CertificateRequestCmc::get_EncryptedKeyHash","get_EncryptedKeyHash","security.ix509certificaterequestcmc_encryptedkeyhash_property"]
 old-location: security\ix509certificaterequestcmc_encryptedkeyhash_property.htm
 tech.root: seccertenroll
 ms.assetid: 63aba8aa-bee7-46b6-a821-4e4d440356ac

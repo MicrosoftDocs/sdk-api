@@ -1,7 +1,7 @@
 ---
 UID: NN:amparse.IAMParse
 title: IAMParse (amparse.h)
-description: The IAMParse interface sets and retrieves the parse time for an MPEG-2 stream.
+description: The IAMParse interface sets and retrieves the parse time for an MPEG-2 stream.helpviewer_keywords: ["IAMParse","IAMParse interface [DirectShow]","IAMParse interface [DirectShow]","described","IAMParseInterface","amparse/IAMParse","dshow.iamparse"]
 old-location: dshow\iamparse.htm
 tech.root: DirectShow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6

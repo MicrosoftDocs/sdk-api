@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetStatus
 title: ITfContextOwner::GetStatus (msctf.h)
-description: The ITfContextOwner::GetStatus method obtains the status of a document. The document status is returned through the TS_STATUS structure.
+description: The ITfContextOwner::GetStatus method obtains the status of a document. The document status is returned through the TS_STATUS structure.helpviewer_keywords: ["GetStatus","GetStatus method [Text Services Framework]","GetStatus method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetStatus method","ITfContextOwner.GetStatus","ITfContextOwner::GetStatus","_tsf_itfcontextowner_getstatus_ref","msctf/ITfContextOwner::GetStatus","tsf.itfcontextowner_getstatus"]
 old-location: tsf\itfcontextowner_getstatus.htm
 tech.root: TSF
 ms.assetid: ce30ec8a-48fe-4ec7-a7e1-2a0cf084097d

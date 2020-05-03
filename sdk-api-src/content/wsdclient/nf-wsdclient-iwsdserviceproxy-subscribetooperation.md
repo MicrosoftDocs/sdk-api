@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.SubscribeToOperation
 title: IWSDServiceProxy::SubscribeToOperation (wsdclient.h)
-description: Subscribes to a notification or solicit/response event.
+description: Subscribes to a notification or solicit/response event.helpviewer_keywords: ["IWSDServiceProxy interface","SubscribeToOperation method","IWSDServiceProxy.SubscribeToOperation","IWSDServiceProxy::SubscribeToOperation","SubscribeToOperation","SubscribeToOperation method","SubscribeToOperation method","IWSDServiceProxy interface","ncd.iwsdserviceproxy_subscribetooperation_method","wsdclient/IWSDServiceProxy::SubscribeToOperation"]
 old-location: ncd\iwsdserviceproxy_subscribetooperation_method.htm
 tech.root: WsdApi
 ms.assetid: d3294bd7-f3df-4571-92f6-eb6bc57240fb

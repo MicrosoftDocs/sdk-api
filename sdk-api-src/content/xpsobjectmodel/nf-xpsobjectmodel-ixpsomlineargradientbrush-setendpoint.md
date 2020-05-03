@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetEndPoint
 title: IXpsOMLinearGradientBrush::SetEndPoint (xpsobjectmodel.h)
 description: Sets the end point of the gradient.
+helpviewer_keywords: ["IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","SetEndPoint method","IXpsOMLinearGradientBrush.SetEndPoint","IXpsOMLinearGradientBrush::SetEndPoint","SetEndPoint","SetEndPoint method [XPS Documents and Packaging]","SetEndPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","xps.ixpsomlineargradientbrush_setendpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint"]
 old-location: xps\ixpsomlineargradientbrush_setendpoint.htm
 tech.root: printdocs
 ms.assetid: 5eec7bda-bbd8-454a-8b32-9db769df91e6
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point described by <i>endPoint</i> was not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point described by <i>endPoint</i> was not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -138,7 +139,7 @@ The coordinates are relative to the page and are expressed in the units of the t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

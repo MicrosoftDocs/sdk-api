@@ -1,7 +1,7 @@
 ---
 UID: NF:timezoneapi.GetTimeZoneInformationForYear
 title: GetTimeZoneInformationForYear function (timezoneapi.h)
-description: Retrieves the time zone settings for the specified year and time zone. These settings control the translations between Coordinated Universal Time (UTC) and local time.
+description: Retrieves the time zone settings for the specified year and time zone. These settings control the translations between Coordinated Universal Time (UTC) and local time.helpviewer_keywords: ["GetTimeZoneInformationForYear","GetTimeZoneInformationForYear function","base.gettimezoneinformationforyear","timezoneapi/GetTimeZoneInformationForYear"]
 old-location: base\gettimezoneinformationforyear.htm
 tech.root: SysInfo
 ms.assetid: 5bd29a25-98f0-439e-be88-8011bbf98926

@@ -1,7 +1,7 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.stopBackgroundProcessing
 title: IWMPSubscriptionService2::stopBackgroundProcessing (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionService2 interface [Windows Media Player]","stopBackgroundProcessing method","IWMPSubscriptionService2.stopBackgroundProcessing","IWMPSubscriptionService2::stopBackgroundProcessing","IWMPSubscriptionService2stopBackgroundProcessing","stopBackgroundProcessing","stopBackgroundProcessing method [Windows Media Player]","stopBackgroundProcessing method [Windows Media Player]","IWMPSubscriptionService2 interface","subscriptionservices/IWMPSubscriptionService2::stopBackgroundProcessing","wmp.iwmpsubscriptionservice2_stopbackgroundprocessing"]
 old-location: wmp\iwmpsubscriptionservice2_stopbackgroundprocessing.htm
 tech.root: WMP
 ms.assetid: afca5ab8-d7ca-48e9-8220-d132d1893f0e

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_GPU_DESCRIPTOR_HANDLE
 title: D3D12_GPU_DESCRIPTOR_HANDLE (d3d12.h)
-description: Describes a GPU descriptor handle.
+description: Describes a GPU descriptor handle.helpviewer_keywords: ["D3D12_GPU_DESCRIPTOR_HANDLE","D3D12_GPU_DESCRIPTOR_HANDLE structure","d3d12/D3D12_GPU_DESCRIPTOR_HANDLE","direct3d12.d3d12_gpu_descriptor_handle"]
 old-location: direct3d12\d3d12_gpu_descriptor_handle.htm
 tech.root: direct3d12
 ms.assetid: 16D09788-D527-4D9F-A6EF-648F42A426B5

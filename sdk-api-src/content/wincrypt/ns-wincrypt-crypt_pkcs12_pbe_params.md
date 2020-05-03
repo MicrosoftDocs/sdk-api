@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS12_PBE_PARAMS
 title: CRYPT_PKCS12_PBE_PARAMS (wincrypt.h)
-description: Contains parameters used to create an encryption key, initialization vector (IV), or Message Authentication Code (MAC) key for a PKCS
+description: Contains parameters used to create an encryption key, initialization vector (IV), or Message Authentication Code (MAC) key for a PKCShelpviewer_keywords: ["CRYPT_PKCS12_PBE_PARAMS","CRYPT_PKCS12_PBE_PARAMS structure [Security]","security.crypt_pkcs12_pbe_params","wincrypt/CRYPT_PKCS12_PBE_PARAMS"]
 old-location: security\crypt_pkcs12_pbe_params.htm
 tech.root: SecCrypto
 ms.assetid: 8923bb7f-b26a-4ffc-98a3-3ae74e941329

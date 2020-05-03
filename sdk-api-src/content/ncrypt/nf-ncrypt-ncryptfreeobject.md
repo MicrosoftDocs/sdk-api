@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptFreeObject
 title: NCryptFreeObject function (ncrypt.h)
-description: Frees a CNG key storage object.
+description: Frees a CNG key storage object.helpviewer_keywords: ["NCryptFreeObject","NCryptFreeObject function [Security]","ncrypt/NCryptFreeObject","security.ncryptfreeobject_func"]
 old-location: security\ncryptfreeobject_func.htm
 tech.root: SecCNG
 ms.assetid: a5535cf9-ba8c-4212-badd-f1dc88903624

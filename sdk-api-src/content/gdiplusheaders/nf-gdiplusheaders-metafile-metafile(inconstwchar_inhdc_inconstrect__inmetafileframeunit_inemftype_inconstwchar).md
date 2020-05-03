@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
 title: Metafile::Metafile(IN const WCHAR,IN HDC,IN const Rect &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-description: Creates a Metafile::Metafile object for recording.
+description: Creates a Metafile::Metafile object for recording.helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(IN const WCHAR","IN HDC","IN const Rect &","IN MetafileFrameUnit","IN EmfType","IN const WCHAR)","Metafile.Metafile(const WCHAR*","HDC","const Rect&","MetaFileFrameUnit","EmfType","const WCHAR*)","Metafile::Metafile","Metafile::Metafile(IN const WCHAR","IN HDC","IN const Rect &","IN MetafileFrameUnit","IN EmfType","IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr","gdiplus._gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_WCHAR_fileName_HDC_referenceHdc_Rect_frameRect_MetafileFrameUnit_fr.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_42wcharfilename_hdcreferencehdc_rectampf.htm

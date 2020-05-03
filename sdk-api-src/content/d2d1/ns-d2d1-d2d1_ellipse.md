@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_ELLIPSE
 title: D2D1_ELLIPSE (d2d1.h)
-description: Contains the center point, x-radius, and y-radius of an ellipse.
+description: Contains the center point, x-radius, and y-radius of an ellipse.helpviewer_keywords: ["D2D1_ELLIPSE","D2D1_ELLIPSE structure [Direct2D]","d2d1/D2D1_ELLIPSE","direct2d.D2D1_ELLIPSE"]
 old-location: direct2d\D2D1_ELLIPSE.htm
 tech.root: Direct2D
 ms.assetid: 6fed6c49-ba83-4c2b-af8a-04156ee317f0
@@ -59,7 +59,7 @@ Contains the center point, x-radius, and y-radius of an ellipse.
 
 ### -field point
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The center point of the ellipse.
 
@@ -83,7 +83,7 @@ The Y-radius of the ellipse.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
+<a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
  
 
  

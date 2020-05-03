@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFCollection
 title: IMFCollection (mfobjects.h)
-description: Represents a generic collection of IUnknown pointers.
+description: Represents a generic collection of IUnknown pointers.helpviewer_keywords: ["IMFCollection","IMFCollection interface [Media Foundation]","IMFCollection interface [Media Foundation]","described","fec6aa17-2770-4f53-b36d-b94236093d23","mf.imfcollection","mfobjects/IMFCollection"]
 old-location: mf\imfcollection.htm
 tech.root: medfound
 ms.assetid: fec6aa17-2770-4f53-b36d-b94236093d23

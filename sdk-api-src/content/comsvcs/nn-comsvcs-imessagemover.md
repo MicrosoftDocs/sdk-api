@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IMessageMover
 title: IMessageMover (comsvcs.h)
-description: Moves messages from one queue to another queue.
+description: Moves messages from one queue to another queue.helpviewer_keywords: ["IMessageMover","IMessageMover interface [COM+]","IMessageMover interface [COM+]","described","_cos_IMessageMover","comsvcs/IMessageMover","cos.imessagemover"]
 old-location: cos\imessagemover.htm
 tech.root: cossdk
 ms.assetid: aa7c57a2-0dee-4f18-bce4-4fcc47d4d7a7

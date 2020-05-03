@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzRegisterSecurityEventSource
 title: AuthzRegisterSecurityEventSource function (authz.h)
-description: Registers a security event source with the Local Security Authority (LSA).
+description: Registers a security event source with the Local Security Authority (LSA).helpviewer_keywords: ["AuthzRegisterSecurityEventSource","AuthzRegisterSecurityEventSource function [Security]","authz/AuthzRegisterSecurityEventSource","security.authzregistersecurityeventsource"]
 old-location: security\authzregistersecurityeventsource.htm
 tech.root: SecAuthZ
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae

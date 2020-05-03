@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.PathYetAnotherMakeUniqueName
 title: PathYetAnotherMakeUniqueName function (shlobj_core.h)
-description: Creates a unique filename based on an existing filename.
+description: Creates a unique filename based on an existing filename.helpviewer_keywords: ["PathYetAnotherMakeUniqueName","PathYetAnotherMakeUniqueName function [Windows Shell]","_win32_PathYetAnotherMakeUniqueName","shell.PathYetAnotherMakeUniqueName","shlobj_core/PathYetAnotherMakeUniqueName"]
 old-location: shell\PathYetAnotherMakeUniqueName.htm
 tech.root: shell
 ms.assetid: 1f76ecfa-6f2f-4dde-b05e-4252c92660d9

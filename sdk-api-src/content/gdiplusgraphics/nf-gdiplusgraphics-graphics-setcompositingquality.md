@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetCompositingQuality
 title: Graphics::SetCompositingQuality (gdiplusgraphics.h)
-description: The Graphics::SetCompositingQuality method sets the compositing quality of this Graphics object.
+description: The Graphics::SetCompositingQuality method sets the compositing quality of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","SetCompositingQuality method","Graphics.SetCompositingQuality","Graphics::SetCompositingQuality","SetCompositingQuality","SetCompositingQuality method [GDI+]","SetCompositingQuality method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_","gdiplus._gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingquality.htm

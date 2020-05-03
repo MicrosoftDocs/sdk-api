@@ -1,7 +1,7 @@
 ---
 UID: NS:qos2._QOS_PACKET_PRIORITY
 title: QOS_PACKET_PRIORITY (qos2.h)
-description: The QOS_PACKET_PRIORITY structure that indicates the priority of the flow traffic.
+description: The QOS_PACKET_PRIORITY structure that indicates the priority of the flow traffic.helpviewer_keywords: ["*PQOS_PACKET_PRIORITY","PQOS_PACKET_PRIORITY","PQOS_PACKET_PRIORITY structure pointer [QOS]","QOS_PACKET_PRIORITY","QOS_PACKET_PRIORITY structure [QOS]","qos.qos_packet_priority","qos2/PQOS_PACKET_PRIORITY","qos2/QOS_PACKET_PRIORITY"]
 old-location: qos\qos_packet_priority.htm
 tech.root: QOS
 ms.assetid: 1a10c5f0-0b7f-401f-82ff-0d7a93114715

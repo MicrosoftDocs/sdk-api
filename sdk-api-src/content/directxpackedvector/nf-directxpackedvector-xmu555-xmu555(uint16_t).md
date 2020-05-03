@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(uint16_t)
 title: XMU555::XMU555(uint16_t) (directxpackedvector.h)
-description: Initializes a new instance of XMU555 from a uint16_t variable containing component data in a packed format.
+description: Initializes a new instance of XMU555 from a uint16_t variable containing component data in a packed format.helpviewer_keywords: ["XMU555","XMU555 constructor [DirectX Math Support APIs]","XMU555 constructor [DirectX Math Support APIs]","XMU555 structure","XMU555 structure [DirectX Math Support APIs]","XMU555 constructor","XMU555.XMU555","XMU555.XMU555(uint16_t)","XMU555::XMU555","XMU555::XMU555(uint16_t)","dxmath.xmu555_ctor_2"]
 old-location: dxmath\xmu555_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor(uint16_t)

@@ -2,6 +2,7 @@
 UID: NE:winioctl._WRITE_CACHE_ENABLE
 title: WRITE_CACHE_ENABLE
 description: Indicates whether the write cache is enabled or disabled.
+helpviewer_keywords: ["WRITE_CACHE_ENABLE","WRITE_CACHE_ENABLE enumeration [Files]","WriteCacheDisabled","WriteCacheEnableUnknown","WriteCacheEnabled","fs.write_cache_enable","winioctl/WRITE_CACHE_ENABLE","winioctl/WriteCacheDisabled","winioctl/WriteCacheEnableUnknown","winioctl/WriteCacheEnabled"]
 old-location: fs\write_cache_enable.htm
 tech.root: FileIO
 ms.assetid: 3ed8bc79-d8f9-4a57-a37c-46202d639a63
@@ -44,17 +45,12 @@ req.redist:
 
 # WRITE_CACHE_ENABLE enumeration
 
-
 ## -description
-
 
 Indicates whether the write cache is enabled or disabled.
 
 
 ## -enum-fields
-
-
-
 
 ### -field WriteCacheEnableUnknown
 
@@ -73,30 +69,11 @@ The device's write cache is enabled.
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control 
-    code reports a <b>WRITE_CACHE_ENABLE</b> value in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
-
-
+The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) control code reports a **WRITE_CACHE_ENABLE** value in the [STORAGE_WRITE_CACHE_PROPERTY](/ns-winioctl-storage_write_cache_property.md) structure.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
+* [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md)

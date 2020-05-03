@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputExtension
 title: ID3D11VideoContext::VideoProcessorSetOutputExtension (d3d11.h)
-description: Sets a driver-specific video processing state.
+description: Sets a driver-specific video processing state.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetOutputExtension method","ID3D11VideoContext.VideoProcessorSetOutputExtension","ID3D11VideoContext::VideoProcessorSetOutputExtension","VideoProcessorSetOutputExtension","VideoProcessorSetOutputExtension method [Media Foundation]","VideoProcessorSetOutputExtension method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetOutputExtension","mf.id3d11videocontext_videoprocessorsetoutputextension"]
 old-location: mf\id3d11videocontext_videoprocessorsetoutputextension.htm
 tech.root: medfound
 ms.assetid: 38279599-09C8-4BB1-8946-0B066D96E22B

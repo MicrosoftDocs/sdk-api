@@ -2,6 +2,7 @@
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDefaultDeviceChanged
 title: IMMNotificationClient::OnDefaultDeviceChanged (mmdeviceapi.h)
 description: The OnDefaultDeviceChanged method notifies the client that the default audio endpoint device for a particular device role has changed.
+helpviewer_keywords: ["IMMNotificationClient interface [Core Audio]","OnDefaultDeviceChanged method","IMMNotificationClient.OnDefaultDeviceChanged","IMMNotificationClient::OnDefaultDeviceChanged","IMMNotificationClientOnDefaultDeviceChanged","OnDefaultDeviceChanged","OnDefaultDeviceChanged method [Core Audio]","OnDefaultDeviceChanged method [Core Audio]","IMMNotificationClient interface","coreaudio.immnotificationclient_ondefaultdevicechanged","mmdeviceapi/IMMNotificationClient::OnDefaultDeviceChanged"]
 old-location: coreaudio\immnotificationclient_ondefaultdevicechanged.htm
 tech.root: CoreAudio
 ms.assetid: 3d484e5d-bdc6-41f1-bd94-ab0c9e109222
@@ -62,7 +63,7 @@ The <b>OnDefaultDeviceChanged</b> method notifies the client that the default au
 
 ### -param flow [in]
 
-The data-flow direction of the endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
+The data-flow direction of the endpoint device. This parameter is set to one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -73,7 +74,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration values:
+The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">device role</a> of the audio endpoint device. This parameter is set to one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole</a> enumeration values:
 
 eConsole
 

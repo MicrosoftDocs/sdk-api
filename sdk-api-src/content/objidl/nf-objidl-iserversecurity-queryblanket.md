@@ -2,6 +2,7 @@
 UID: NF:objidl.IServerSecurity.QueryBlanket
 title: IServerSecurity::QueryBlanket (objidl.h)
 description: Retrieves information about the client that invoked one of the server's methods.
+helpviewer_keywords: ["IServerSecurity interface [COM]","QueryBlanket method","IServerSecurity.QueryBlanket","IServerSecurity::QueryBlanket","QueryBlanket","QueryBlanket method [COM]","QueryBlanket method [COM]","IServerSecurity interface","_com_iserversecurity_queryblanket","com.iserversecurity_queryblanket","objidlbase/IServerSecurity::QueryBlanket"]
 old-location: com\iserversecurity_queryblanket.htm
 tech.root: com
 ms.assetid: 1a6fd68c-8e71-45f8-8a8e-c8a5f4f36868
@@ -84,7 +85,7 @@ This parameter must be <b>NULL</b>.
 
 ### -param pPrivs [out]
 
-The privilege information for the client application. The format of the structure that the handle refers to depends on the authentication service. The application should not write or free the memory. The information is only valid for the duration of the current call. For NTLMSSP, and Kerberos, this is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure. For Schannel, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the client's certificate. If the client has no certificate, <b>NULL</b> is returned. If the caller specifies <b>NULL</b>, the current privilege information is not retrieved.
+The privilege information for the client application. The format of the structure that the handle refers to depends on the authentication service. The application should not write or free the memory. The information is only valid for the duration of the current call. For NTLMSSP, and Kerberos, this is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure. For Schannel, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the client's certificate. If the client has no certificate, <b>NULL</b> is returned. If the caller specifies <b>NULL</b>, the current privilege information is not retrieved.
 
 
 ### -param pCapabilities [in, out]

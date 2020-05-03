@@ -2,6 +2,7 @@
 UID: NF:structuredquery.INamedEntityCollector.Add
 title: INamedEntityCollector::Add (structuredquery.h)
 description: Adds a single (potential) named entity to this INamedEntityCollector collection, as identified in a tokenized span of the input string being parsed.
+helpviewer_keywords: ["Add","Add method [search]","Add method [search]","INamedEntityCollector interface","INamedEntityCollector interface [search]","Add method","INamedEntityCollector.Add","INamedEntityCollector::Add","_search_INamedEntityCollector_Add","search._search_INamedEntityCollector_Add","structuredquery/INamedEntityCollector::Add"]
 old-location: search\_search_INamedEntityCollector_Add.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\add.htm
@@ -108,7 +109,7 @@ The name of the entity as a string.
 
 ### -param certainty [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-named_entity_certainty">NAMED_ENTITY_CERTAINTY</a></b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-named_entity_certainty">NAMED_ENTITY_CERTAINTY</a></b>
 
 One of the following values:
               

@@ -1,7 +1,7 @@
 ---
 UID: NF:dsattrib.IAttributeGet.GetAttribIndexed
 title: IAttributeGet::GetAttribIndexed (dsattrib.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetAttribIndexed","GetAttribIndexed method [Microsoft TV Technologies]","GetAttribIndexed method [Microsoft TV Technologies]","IAttributeGet interface","IAttributeGet interface [Microsoft TV Technologies]","GetAttribIndexed method","IAttributeGet.GetAttribIndexed","IAttributeGet::GetAttribIndexed","IAttributeGetGetAttribIndexed","dsattrib/IAttributeGet::GetAttribIndexed","mstv.iattributeget_getattribindexed"]
 old-location: mstv\iattributeget_getattribindexed.htm
 tech.root: mstv
 ms.assetid: 30fdd27f-99df-4ed6-b9ce-514b0e358854

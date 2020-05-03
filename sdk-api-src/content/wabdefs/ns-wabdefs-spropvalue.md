@@ -1,7 +1,7 @@
 ---
 UID: NS:wabdefs._SPropValue
 title: SPropValue (wabdefs.h)
-description: Do not use. Contains the property tag values.
+description: Do not use. Contains the property tag values.helpviewer_keywords: ["*LPSPropValue","SPropValue","SPropValue structure [Windows Address Book]","_wab_SPropValue","wab._wab_SPropValue","wabdefs/SPropValue"]
 old-location: wab\_wab_SPropValue.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm

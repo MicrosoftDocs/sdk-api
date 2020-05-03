@@ -1,7 +1,7 @@
 ---
 UID: NE:bthledef._BTH_LE_GATT_EVENT_TYPE
 title: BTH_LE_GATT_EVENT_TYPE (bthledef.h)
-description: The BTH_LE_GATT_EVENT_TYPE enumeration describes the different types of Bluetooth Low Energy (LE) generic attribute (GATT) profile events.
+description: The BTH_LE_GATT_EVENT_TYPE enumeration describes the different types of Bluetooth Low Energy (LE) generic attribute (GATT) profile events.helpviewer_keywords: ["BTH_LE_GATT_EVENT_TYPE","BTH_LE_GATT_EVENT_TYPE enumeration [Bluetooth Devices]","CharacteristicValueChangedEvent","bltooth.bth_le_gatt_event_type","bthledef/BTH_LE_GATT_EVENT_TYPE","bthledef/CharacteristicValueChangedEvent"]
 old-location: bltooth\bth_le_gatt_event_type.htm
 tech.root: bltooth
 ms.assetid: 6AF30DEA-2018-4AA2-B13A-BD31BD641F9F

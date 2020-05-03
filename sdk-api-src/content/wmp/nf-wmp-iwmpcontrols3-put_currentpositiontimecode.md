@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentPositionTimecode
 title: IWMPControls3::put_currentPositionTimecode (wmp.h)
-description: The put_currentPositionTimecode method specifies the current position in the current media item using a time code format. This method currently supports SMPTE time code.
+description: The put_currentPositionTimecode method specifies the current position in the current media item using a time code format. This method currently supports SMPTE time code.helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","put_currentPositionTimecode method","IWMPControls3.put_currentPositionTimecode","IWMPControls3::put_currentPositionTimecode","IWMPControls3put_currentPositionTimecode","put_currentPositionTimecode","put_currentPositionTimecode method [Windows Media Player]","put_currentPositionTimecode method [Windows Media Player]","IWMPControls3 interface","wmp.iwmpcontrols3_put_currentpositiontimecode","wmp/IWMPControls3::put_currentPositionTimecode"]
 old-location: wmp\iwmpcontrols3_put_currentpositiontimecode.htm
 tech.root: WMP
 ms.assetid: 35e32043-e613-4f23-b5ce-03bfe648a4c9

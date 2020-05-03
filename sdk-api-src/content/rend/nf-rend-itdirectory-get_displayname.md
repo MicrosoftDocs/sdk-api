@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.ITDirectory.get_DisplayName
 title: ITDirectory::get_DisplayName (rend.h)
-description: The get_DisplayName method gets displayable name for directory.
+description: The get_DisplayName method gets displayable name for directory.helpviewer_keywords: ["ITDirectory interface [TAPI 2.2]","get_DisplayName method","ITDirectory.get_DisplayName","ITDirectory::get_DisplayName","_tapi3_itdirectory_get_displayname","get_DisplayName","get_DisplayName method [TAPI 2.2]","get_DisplayName method [TAPI 2.2]","ITDirectory interface","rend/ITDirectory::get_DisplayName","tapi3.itdirectory_get_displayname"]
 old-location: tapi3\itdirectory_get_displayname.htm
 tech.root: Tapi
 ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d

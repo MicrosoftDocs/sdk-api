@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.RectF
 title: RectF function (d2d1helper.h)
-description: Creates a D2D1_RECT_F structure that contains the specified dimensions.
+description: Creates a D2D1_RECT_F structure that contains the specified dimensions.helpviewer_keywords: ["RectF","RectF function [Direct2D]","d2d1helper/RectF","direct2d.rectf"]
 old-location: direct2d\rectf.htm
 tech.root: Direct2D
 ms.assetid: 8abcc11d-40be-45ac-9f23-b94adf9842d5

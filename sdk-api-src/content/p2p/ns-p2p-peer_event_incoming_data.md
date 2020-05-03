@@ -2,6 +2,7 @@
 UID: NS:p2p.peer_event_incoming_data_tag
 title: PEER_EVENT_INCOMING_DATA (p2p.h)
 description: Points to the PEER_EVENT_INCOMING_DATA structure if one of the following peer events is triggered.
+helpviewer_keywords: ["*PPEER_EVENT_INCOMING_DATA","PEER_EVENT_INCOMING_DATA","PEER_EVENT_INCOMING_DATA structure [Peer Networking]","PPEER_EVENT_INCOMING_DATA","PPEER_EVENT_INCOMING_DATA structure pointer [Peer Networking]","p2p.peer_event_incoming_data","p2p/PPEER_EVENT_INCOMING_DATA","p2p/peer_event_incoming_data_tag"]
 old-location: p2p\peer_event_incoming_data.htm
 tech.root: P2PSdk
 ms.assetid: 93104ca5-b3de-492c-965e-3acd12d05ea6
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
- The [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a> structure points to the <b>PEER_EVENT_INCOMING_DATA</b> structure if one of the following peer events is triggered:
+ The [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1) structure points to the <b>PEER_EVENT_INCOMING_DATA</b> structure if one of the following peer events is triggered:
 <ul>
 <li><b>PEER_GRAPH_INCOMING_DATA</b></li>
 <li><b>PEER_GROUP_INCOMING_DATA</b></li>
@@ -94,7 +95,7 @@ Specifies the actual data received.
 
 
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
  
 
  

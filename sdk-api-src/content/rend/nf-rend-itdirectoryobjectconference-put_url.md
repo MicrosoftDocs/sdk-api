@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Url
 title: ITDirectoryObjectConference::put_Url (rend.h)
-description: The put_Url method sets a URL.
+description: The put_Url method sets a URL.helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","put_Url method","ITDirectoryObjectConference.put_Url","ITDirectoryObjectConference::put_Url","_tapi3_itdirectoryobjectconference_put_url","put_Url","put_Url method [TAPI 2.2]","put_Url method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::put_Url","tapi3.itdirectoryobjectconference_put_url"]
 old-location: tapi3\itdirectoryobjectconference_put_url.htm
 tech.root: Tapi
 ms.assetid: ca275c06-fd8f-4044-b528-cc197e4f1177

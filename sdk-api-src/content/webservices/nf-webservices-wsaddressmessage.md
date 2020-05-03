@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsAddressMessage
 title: WsAddressMessage function (webservices.h)
-description: Addresses a message to a specified endpoint address.
+description: Addresses a message to a specified endpoint address.helpviewer_keywords: ["WsAddressMessage","WsAddressMessage function [Web Services for Windows]","webservices/WsAddressMessage","wsw.wsaddressmessage"]
 old-location: wsw\wsaddressmessage.htm
 tech.root: wsw
 ms.assetid: 30b2dbd1-7232-4ff1-b30a-920df8bfe423

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.GetBitmapBits
 title: GetBitmapBits function (wingdi.h)
-description: The GetBitmapBits function copies the bitmap bits of a specified device-dependent bitmap into a buffer.
+description: The GetBitmapBits function copies the bitmap bits of a specified device-dependent bitmap into a buffer.helpviewer_keywords: ["GetBitmapBits","GetBitmapBits function [Windows GDI]","_win32_GetBitmapBits","gdi.getbitmapbits","wingdi/GetBitmapBits"]
 old-location: gdi\getbitmapbits.htm
 tech.root: gdi
 ms.assetid: 72e8cc6b-d282-451e-b6ec-0473d2daea7c

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverTriggerAddrAllocation
 title: DhcpV4FailoverTriggerAddrAllocation function (dhcpsapi.h)
-description: Redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.
+description: Redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.helpviewer_keywords: ["DhcpV4FailoverTriggerAddrAllocation","DhcpV4FailoverTriggerAddrAllocation function [DHCP]","dhcp.dhcpv4failovertriggeraddrallocation","dhcpsapi/DhcpV4FailoverTriggerAddrAllocation"]
 old-location: dhcp\dhcpv4failovertriggeraddrallocation.htm
 tech.root: DHCP
 ms.assetid: ff258179-1091-4338-9317-68fd8fe5a556

@@ -1,7 +1,7 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.Initialize
 title: IDsAdminNewObjExt::Initialize (dsadmin.h)
-description: The IDsAdminNewObjExt::Initialize method initializes an object creation wizard extension.
+description: The IDsAdminNewObjExt::Initialize method initializes an object creation wizard extension.helpviewer_keywords: ["IDsAdminNewObjExt interface [Active Directory]","Initialize method","IDsAdminNewObjExt.Initialize","IDsAdminNewObjExt::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IDsAdminNewObjExt interface","_glines_idsadminnewobjext_initialize","ad.idsadminnewobjext__initialize","ad.idsadminnewobjext_initialize","dsadmin/IDsAdminNewObjExt::Initialize"]
 old-location: ad\idsadminnewobjext_initialize.htm
 tech.root: ad
 ms.assetid: 38dd4f43-6f8f-460a-9c5d-0a506d993101

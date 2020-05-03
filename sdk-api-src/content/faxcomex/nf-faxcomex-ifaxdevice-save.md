@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.Save
 title: IFaxDevice::Save (faxcomex.h)
-description: The IFaxDevice::Save method saves the FaxDevice object's data.
+description: The IFaxDevice::Save method saves the FaxDevice object's data.helpviewer_keywords: ["IFaxDevice interface [Fax Service]","Save method","IFaxDevice.Save","IFaxDevice::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxDevice interface","_mfax_faxdevice.save","fax._mfax_faxdevice_cpp_mfax_faxdevice_save_cpp","fax._mfax_faxdevice_save","faxcomex/IFaxDevice::Save"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_45id.htm

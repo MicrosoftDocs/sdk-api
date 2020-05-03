@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IIsdbSeriesDescriptor
 title: IIsdbSeriesDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) series descriptor.helpviewer_keywords: ["IIsdbSeriesDescriptor","IIsdbSeriesDescriptor interface [Microsoft TV Technologies]","IIsdbSeriesDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbSeriesDescriptor","mstv.iisdbseriesdescriptor"]
 old-location: mstv\iisdbseriesdescriptor.htm
 tech.root: mstv
 ms.assetid: 07c4debc-1817-46ac-9f67-9b8637a04662

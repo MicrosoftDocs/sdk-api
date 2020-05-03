@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedData.GetAutoBreadcrumbsOutput
 title: ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput
-description: Retrieves the Device Removed Extended Data (DRED) auto-breadcrumbs output after device removal.
+description: Retrieves the Device Removed Extended Data (DRED) auto-breadcrumbs output after device removal.helpviewer_keywords: ["GetAutoBreadcrumbsOutput","GetAutoBreadcrumbsOutput method","ID3D12DeviceRemovedExtendedData","ID3D12DeviceRemovedExtendedData interface","ID3D12DeviceRemovedExtendedData.GetAutoBreadcrumbsOutput","ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput","d3d12/ID3D12DeviceRemovedExtendedData::GetAutoBreadcrumbsOutput","direct3d12.id3d12deviceremovedextendeddata_getautobreadcrumbsoutput"]
 old-location: direct3d12\id3d12deviceremovedextendeddata_getautobreadcrumbsoutput.htm
 tech.root: direct3d12
 ms.date: 02/08/2019

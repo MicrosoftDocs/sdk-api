@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_21
 title: QualTspec (lpmapi.h)
-description: The QualTspec structure contains qualitative Tspec information.
+description: The QualTspec structure contains qualitative Tspec information.helpviewer_keywords: ["QualTspec","QualTspec structure [QOS]","lpmapi/QualTspec","qos.qualtspec"]
 old-location: qos\qualtspec.htm
 tech.root: QOS
 ms.assetid: dc22de18-3e9f-4b92-aba4-579aa47fab64

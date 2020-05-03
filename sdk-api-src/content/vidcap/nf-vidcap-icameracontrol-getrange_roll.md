@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Roll
 title: ICameraControl::getRange_Roll (vidcap.h)
-description: The getRange_Roll method returns the range of roll angles supported by the camera.
+description: The getRange_Roll method returns the range of roll angles supported by the camera.helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_Roll method","ICameraControl.getRange_Roll","ICameraControl::getRange_Roll","ICameraControlgetRange_Roll","dshow.icameracontrol_getrange_roll","getRange_Roll","getRange_Roll method [DirectShow]","getRange_Roll method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_Roll"]
 old-location: dshow\icameracontrol_getrange_roll.htm
 tech.root: DirectShow
 ms.assetid: 14400765-d8a2-4ac2-a26b-39949ecd2bda

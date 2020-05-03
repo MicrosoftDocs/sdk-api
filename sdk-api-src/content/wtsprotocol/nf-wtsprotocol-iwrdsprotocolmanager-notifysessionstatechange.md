@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionStateChange
 title: IWRdsProtocolManager::NotifySessionStateChange (wtsprotocol.h)
-description: Notifies the protocol provider of changes in the state of a session.
+description: Notifies the protocol provider of changes in the state of a session.helpviewer_keywords: ["IWRdsProtocolManager interface [Remote Desktop Services]","NotifySessionStateChange method","IWRdsProtocolManager.NotifySessionStateChange","IWRdsProtocolManager::NotifySessionStateChange","NotifySessionStateChange","NotifySessionStateChange method [Remote Desktop Services]","NotifySessionStateChange method [Remote Desktop Services]","IWRdsProtocolManager interface","WTS_CONSOLE_CONNECT","WTS_CONSOLE_DISCONNECT","WTS_REMOTE_CONNECT","WTS_SESSION_LOCK","WTS_SESSION_LOGOFF","WTS_SESSION_REMOTE_CONTROL","WTS_SESSION_UNLOCK","termserv.iwrdsprotocolmanager_notifysessionstatechange","wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange"]
 old-location: termserv\iwrdsprotocolmanager_notifysessionstatechange.htm
 tech.root: TermServ
 ms.assetid: 72438718-1a66-473b-a563-67cfc8095318

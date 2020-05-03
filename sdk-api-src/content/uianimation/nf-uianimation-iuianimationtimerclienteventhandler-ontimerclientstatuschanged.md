@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
 title: IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged (uianimation.h)
 description: Handles events that occur when the status of the timer's client changes.
+helpviewer_keywords: ["IUIAnimationTimerClientEventHandler interface [Windows Animation]","OnTimerClientStatusChanged method","IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged","IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged","OnTimerClientStatusChanged","OnTimerClientStatusChanged method [Windows Animation]","OnTimerClientStatusChanged method [Windows Animation]","IUIAnimationTimerClientEventHandler interface","uianimation.iuianimationtimerclienteventhandler_ontimerclientstatuschanged","uianimation/IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged"]
 old-location: uianimation\iuianimationtimerclienteventhandler_ontimerclientstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: a2c161ce-937e-449a-884f-89a8a847d8aa
@@ -93,7 +94,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_timer_client_status">UI_ANIMATION_TIMER_CLIENT_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_timer_client_status">UI_ANIMATION_TIMER_CLIENT_STATUS</a>
  
 
  

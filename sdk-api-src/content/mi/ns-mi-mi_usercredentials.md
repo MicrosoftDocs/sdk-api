@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_UserCredentials
 title: MI_UserCredentials (mi.h)
-description: A user's credentials. It includes an authentication type and either a username and password or a certificate thumbprint.
+description: A user's credentials. It includes an authentication type and either a username and password or a certificate thumbprint.helpviewer_keywords: ["MI_AUTH_TYPE_BASIC","MI_AUTH_TYPE_CLIENT_CERTS","MI_AUTH_TYPE_CREDSSP","MI_AUTH_TYPE_DEFAULT","MI_AUTH_TYPE_DIGEST","MI_AUTH_TYPE_ISSUER_CERT","MI_AUTH_TYPE_KERBEROS","MI_AUTH_TYPE_NEGO_NO_CREDS","MI_AUTH_TYPE_NEGO_WITH_CREDS","MI_AUTH_TYPE_NONE","MI_AUTH_TYPE_NTLM","MI_UserCredentials","MI_UserCredentials structure [Windows Management Infrastructure (MI)]","mi/MI_UserCredentials","wmi._mi_usercredentials","wmi_v2.mi_usercredentials"]
 old-location: wmi_v2\mi_usercredentials.htm
 tech.root: wmi_v2
 ms.assetid: 30191cd1-00de-42ef-ac95-5e174d273c80

@@ -1,7 +1,7 @@
 ---
 UID: NF:ncryptprotect.NCryptGetProtectionDescriptorInfo
 title: NCryptGetProtectionDescriptorInfo function (ncryptprotect.h)
-description: Retrieves a protection descriptor rule string.
+description: Retrieves a protection descriptor rule string.helpviewer_keywords: ["NCRYPT_PROTECTION_INFO_TYPE_DESCRIPTOR_STRING","NCryptGetProtectionDescriptorInfo","NCryptGetProtectionDescriptorInfo function [Security]","ncryptprotect/NCryptGetProtectionDescriptorInfo","security.ncryptgetprotectiondescriptorinfo"]
 old-location: security\ncryptgetprotectiondescriptorinfo.htm
 tech.root: SecCNG
 ms.assetid: EF4777D5-E218-4868-8D25-58E0EF8C9D30

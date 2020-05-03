@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_frameRate
 title: IWMPNetwork::get_frameRate (wmp.h)
-description: The get_frameRate method retrieves the current video frame rate.
+description: The get_frameRate method retrieves the current video frame rate.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_frameRate method","IWMPNetwork.get_frameRate","IWMPNetwork::get_frameRate","IWMPNetworkget_frameRate","get_frameRate","get_frameRate method [Windows Media Player]","get_frameRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_framerate","wmp/IWMPNetwork::get_frameRate"]
 old-location: wmp\iwmpnetwork_get_framerate.htm
 tech.root: WMP
 ms.assetid: 1521c462-b054-46d6-8646-4d20a836eadc

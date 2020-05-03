@@ -2,6 +2,7 @@
 UID: NC:pdh.CounterPathCallBack
 title: CounterPathCallBack (pdh.h)
 description: Applications implement the CounterPathCallBack function to process the counter path strings returned by the Browse dialog box.
+helpviewer_keywords: ["CounterPathCallBack","CounterPathCallBack callback","CounterPathCallBack callback function [Perf]","_win32_counterpathcallback","base.counterpathcallback","pdh/CounterPathCallBack","perf.counterpathcallback"]
 old-location: perf\counterpathcallback.htm
 tech.root: perfctrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
@@ -70,7 +71,7 @@ Applications implement the <b>CounterPathCallBack</b> function to process the co
 #### - dwArg [in]
 
 User-defined value passed to the callback function by the <b>Browse</b> dialog box. You set this value in the <b>dwCallBackArg</b> member of the 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
 
 
 ## -returns
@@ -91,7 +92,7 @@ Otherwise, return an appropriate error code. The error code is passed back to th
 
 
 The following members of the 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure are used to communicate with the callback function:
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure are used to communicate with the callback function:
 
 
 
@@ -103,7 +104,7 @@ The following members of the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a>
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a>
 
 
 

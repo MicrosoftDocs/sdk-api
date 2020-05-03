@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetSelectedControlItem
 title: IFileDialogCustomize::SetSelectedControlItem (shobjidl_core.h)
-description: Sets the selected state of a particular item in an option button group or a combo box found in the dialog.
+description: Sets the selected state of a particular item in an option button group or a combo box found in the dialog.helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","SetSelectedControlItem method","IFileDialogCustomize.SetSelectedControlItem","IFileDialogCustomize::SetSelectedControlItem","SetSelectedControlItem","SetSelectedControlItem method [Windows Shell]","SetSelectedControlItem method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_SetSelectedControlItem","shell_IFileDialogCustomize_SetSelectedControlItem","shobjidl_core/IFileDialogCustomize::SetSelectedControlItem"]
 old-location: shell\IFileDialogCustomize_SetSelectedControlItem.htm
 tech.root: shell
 ms.assetid: ff0287db-fdd8-415c-9c78-607ec79b5e2d

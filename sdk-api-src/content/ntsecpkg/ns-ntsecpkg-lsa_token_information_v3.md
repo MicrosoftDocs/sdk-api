@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._LSA_TOKEN_INFORMATION_V3
 title: LSA_TOKEN_INFORMATION_V3 (ntsecpkg.h)
-description: Adds claim support to the LSA token and contains information an authentication package can place in a Version 3 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
+description: Adds claim support to the LSA token and contains information an authentication package can place in a Version 3 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.helpviewer_keywords: ["*PLSA_TOKEN_INFORMATION_V3","LSA_TOKEN_INFORMATION_V3","LSA_TOKEN_INFORMATION_V3 structure [Security]","PLSA_TOKEN_INFORMATION_V3","PLSA_TOKEN_INFORMATION_V3 structure pointer [Security]","_LSA_TOKEN_INFORMATION_V3","ntsecpkg/LSA_TOKEN_INFORMATION_V3","ntsecpkg/PLSA_TOKEN_INFORMATION_V3","security.lsa_token_information_v3"]
 old-location: security\lsa_token_information_v3.htm
 tech.root: SecAuthN
 ms.assetid: 927828CD-9763-4CE4-B3E7-376181EA7C70

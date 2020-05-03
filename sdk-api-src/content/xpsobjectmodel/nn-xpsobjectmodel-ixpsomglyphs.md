@@ -2,6 +2,7 @@
 UID: NN:xpsobjectmodel.IXpsOMGlyphs
 title: IXpsOMGlyphs (xpsobjectmodel.h)
 description: Describes the text that appears on a page.
+helpviewer_keywords: ["IXpsOMGlyphs","IXpsOMGlyphs interface [XPS Documents and Packaging]","IXpsOMGlyphs interface [XPS Documents and Packaging]","described","xps.ixpsomglyphs","xpsobjectmodel/IXpsOMGlyphs"]
 old-location: xps\ixpsomglyphs.htm
 tech.root: printdocs
 ms.assetid: 6d2cda65-c719-46f2-97c9-8aee7b5f84b9
@@ -168,7 +169,7 @@ Gets the number of Glyph indices.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>
 </td>
 <td align="left" width="63%">
-Gets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
+Gets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
             
 
 </td>
@@ -187,7 +188,7 @@ Gets the number of glyph mappings.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphmappings">GetGlyphMappings</a>
 </td>
 <td align="left" width="63%">
-Gets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>.
+Gets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>.
             
 
 </td>

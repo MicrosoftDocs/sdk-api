@@ -1,7 +1,7 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetOutputFormat
 title: IAMWstDecoder::GetOutputFormat (iwstdec.h)
-description: Downstream filters use the GetOutputFormat method to retrieve the size, bit depth, and other parameters of the output video.
+description: Downstream filters use the GetOutputFormat method to retrieve the size, bit depth, and other parameters of the output video.helpviewer_keywords: ["GetOutputFormat","GetOutputFormat method [DirectShow]","GetOutputFormat method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetOutputFormat method","IAMWstDecoder.GetOutputFormat","IAMWstDecoder::GetOutputFormat","IAMWstDecoderGetOutputFormat","dshow.iamwstdecoder_getoutputformat","iwstdec/IAMWstDecoder::GetOutputFormat"]
 old-location: dshow\iamwstdecoder_getoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 63ef7dbe-138b-442a-bf54-1f409c969418

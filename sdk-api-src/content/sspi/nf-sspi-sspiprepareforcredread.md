@@ -1,7 +1,7 @@
 ---
 UID: NF:sspi.SspiPrepareForCredRead
 title: SspiPrepareForCredRead function (sspi.h)
-description: Generates a target name and credential type from the specified identity structure.
+description: Generates a target name and credential type from the specified identity structure.helpviewer_keywords: ["SspiPrepareForCredRead","SspiPrepareForCredRead function [Security]","security.sspiprepareforcredread","sspi/SspiPrepareForCredRead"]
 old-location: security\sspiprepareforcredread.htm
 tech.root: SecAuthN
 ms.assetid: f473fd7a-5c0f-4a77-829b-28a82ad0d28d

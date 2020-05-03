@@ -1,7 +1,7 @@
 ---
 UID: NN:docobj.IEnumOleDocumentViews
 title: IEnumOleDocumentViews (docobj.h)
-description: Enumerates the views supported by a document object.
+description: Enumerates the views supported by a document object.helpviewer_keywords: ["IEnumOleDocumentViews","IEnumOleDocumentViews interface [COM]","IEnumOleDocumentViews interface [COM]","described","_ole_ienumoledocumentviews","com.ienumoledocumentviews","docobj/IEnumOleDocumentViews"]
 old-location: com\ienumoledocumentviews.htm
 tech.root: com
 ms.assetid: cd8fa8b8-17b1-4d77-9611-473725899351

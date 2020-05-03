@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLookup
 title: IXpsOMVisualBrush::SetVisualLookup (xpsobjectmodel.h)
-description: Sets the lookup key name of the shared visual, which is stored in a resource dictionary, to be used as the source for the brush.
+description: Sets the lookup key name of the shared visual, which is stored in a resource dictionary, to be used as the source for the brush.helpviewer_keywords: ["IXpsOMVisualBrush interface [XPS Documents and Packaging]","SetVisualLookup method","IXpsOMVisualBrush.SetVisualLookup","IXpsOMVisualBrush::SetVisualLookup","SetVisualLookup","SetVisualLookup method [XPS Documents and Packaging]","SetVisualLookup method [XPS Documents and Packaging]","IXpsOMVisualBrush interface","xps.ixpsomvisualbrush_setvisuallookup","xpsobjectmodel/IXpsOMVisualBrush::SetVisualLookup"]
 old-location: xps\ixpsomvisualbrush_setvisuallookup.htm
 tech.root: printdocs
 ms.assetid: ab98d93c-76fe-477b-9032-c54c0e22a176

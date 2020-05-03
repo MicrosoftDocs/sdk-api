@@ -1,7 +1,7 @@
 ---
 UID: NS:directxpackedvector.XMUSHORTN2
 title: XMUSHORTN2 (directxpackedvector.h)
-description: A 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type uint16_t).
+description: A 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type uint16_t).helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 structure [DirectX Math Support APIs]","directxpackedvector/XMUSHORTN2","dxmath.xmushortn2"]
 old-location: dxmath\xmushortn2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORTN2

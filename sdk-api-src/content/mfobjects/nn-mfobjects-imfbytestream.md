@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFByteStream
 title: IMFByteStream (mfobjects.h)
-description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.
+description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.helpviewer_keywords: ["690035b7-2855-4714-938f-f8250ec70d24","IMFByteStream","IMFByteStream interface [Media Foundation]","IMFByteStream interface [Media Foundation]","described","mf.imfbytestream","mfobjects/IMFByteStream"]
 old-location: mf\imfbytestream.htm
 tech.root: medfound
 ms.assetid: 690035b7-2855-4714-938f-f8250ec70d24

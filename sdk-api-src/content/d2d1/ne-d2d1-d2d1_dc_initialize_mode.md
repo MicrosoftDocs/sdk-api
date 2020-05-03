@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_DC_INITIALIZE_MODE
 title: D2D1_DC_INITIALIZE_MODE (d2d1.h)
-description: Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.
+description: Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.helpviewer_keywords: ["D2D1_DC_INITIALIZE_MODE","D2D1_DC_INITIALIZE_MODE enumeration [Direct2D]","D2D1_DC_INITIALIZE_MODE_CLEAR","D2D1_DC_INITIALIZE_MODE_COPY","d2d1/D2D1_DC_INITIALIZE_MODE","d2d1/D2D1_DC_INITIALIZE_MODE_CLEAR","d2d1/D2D1_DC_INITIALIZE_MODE_COPY","direct2d.D2D1_DC_INITIALIZE_MODE"]
 old-location: direct2d\D2D1_DC_INITIALIZE_MODE.htm
 tech.root: Direct2D
 ms.assetid: a7837fe4-6e11-42a0-8a85-cba42e0f123a
@@ -76,7 +76,7 @@ The device context is cleared to transparent black when it is initialized.
 
 
 
-Use this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> method to specify how the device context is  initialized for GDI rendering.
+Use this enumeration with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> method to specify how the device context is  initialized for GDI rendering.
 
 
 
@@ -86,7 +86,7 @@ Use this enumeration with the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a>
  
 
  

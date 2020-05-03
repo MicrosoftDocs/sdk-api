@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriter
 title: WMCreateWriter function (wmsdkidl.h)
-description: The WMCreateWriter function creates a writer object.
+description: The WMCreateWriter function creates a writer object.helpviewer_keywords: ["WMCreateWriter","WMCreateWriter function [windows Media Format]","wmformat.wmcreatewriter","wmsdkidl/WMCreateWriter"]
 old-location: wmformat\wmcreatewriter.htm
 tech.root: wmformat
 ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4

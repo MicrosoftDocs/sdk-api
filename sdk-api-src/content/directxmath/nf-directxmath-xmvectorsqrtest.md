@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorSqrtEst
 title: XMVectorSqrtEst function (directxmath.h)
-description: Estimates the per-component square root of a vector.
+description: Estimates the per-component square root of a vector.helpviewer_keywords: ["Use DirectX..XMVectorSqrtEst","XMVectorSqrtEst","XMVectorSqrtEst method [DirectX Math Support APIs]","dxmath.xmvectorsqrtest"]
 old-location: dxmath\xmvectorsqrtest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSqrtEst(XMVECTOR)

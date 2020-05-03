@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetUserPreferredUILanguages
 title: GetUserPreferredUILanguages function (winnls.h)
-description: Retrieves information about the user preferred UI languages. For more information, see User Interface Language Management.
+description: Retrieves information about the user preferred UI languages. For more information, see User Interface Language Management.helpviewer_keywords: ["GetUserPreferredUILanguages","GetUserPreferredUILanguages function [Internationalization for Windows Applications]","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","_win32_GetUserPreferredUILanguages","intl.getuserpreferreduilanguages","winnls/GetUserPreferredUILanguages"]
 old-location: intl\getuserpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 0800642c-c133-4993-bd16-6bdbf7518f1c

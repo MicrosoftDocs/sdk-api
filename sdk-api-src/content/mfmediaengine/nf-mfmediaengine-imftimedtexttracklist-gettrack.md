@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetTrack
 title: IMFTimedTextTrackList::GetTrack (mfmediaengine.h)
-description: Gets a text track in the list from the index of the track.
+description: Gets a text track in the list from the index of the track.helpviewer_keywords: ["GetTrack","GetTrack method [Media Foundation]","GetTrack method [Media Foundation]","IMFTimedTextTrackList interface","IMFTimedTextTrackList interface [Media Foundation]","GetTrack method","IMFTimedTextTrackList.GetTrack","IMFTimedTextTrackList::GetTrack","mf.imftimedtexttracklist_gettrack","mfmediaengine/IMFTimedTextTrackList::GetTrack"]
 old-location: mf\imftimedtexttracklist_gettrack.htm
 tech.root: medfound
 ms.assetid: 5AF4F317-E46D-459A-900B-6D4796CD59A2

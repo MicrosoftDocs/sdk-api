@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDDInterface
 title: IDirectDrawSurface7::GetDDInterface (ddraw.h)
-description: Retrieves an interface to the DirectDraw object that was used to create this surface.
+description: Retrieves an interface to the DirectDraw object that was used to create this surface.helpviewer_keywords: ["GetDDInterface","GetDDInterface method [DirectDraw]","GetDDInterface method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetDDInterface method","IDirectDrawSurface7.GetDDInterface","IDirectDrawSurface7::GetDDInterface","ddraw/IDirectDrawSurface7::GetDDInterface","directdraw.idirectdrawsurface7_getddinterface"]
 old-location: directdraw\idirectdrawsurface7_getddinterface.htm
 tech.root: directdraw
 ms.assetid: 1ec63614-cdc0-4d07-97e3-97167e7b397c

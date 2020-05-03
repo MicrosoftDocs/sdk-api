@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetRenderingPrefs
 title: IMFVideoDisplayControl::SetRenderingPrefs (evr.h)
-description: Sets various preferences related to video rendering.
+description: Sets various preferences related to video rendering.helpviewer_keywords: ["7603aaf8-1671-4b35-bee5-335f656de3c5","IMFVideoDisplayControl interface [Media Foundation]","SetRenderingPrefs method","IMFVideoDisplayControl.SetRenderingPrefs","IMFVideoDisplayControl::SetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [Media Foundation]","SetRenderingPrefs method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetRenderingPrefs","mf.imfvideodisplaycontrol_setrenderingprefs"]
 old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm
 tech.root: medfound
 ms.assetid: 7603aaf8-1671-4b35-bee5-335f656de3c5

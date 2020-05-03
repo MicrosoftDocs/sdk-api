@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.BusNumber_Des_s
 title: BUSNUMBER_DES (cfgmgr32.h)
 description: The BUSNUMBER_DES structure is used for specifying either a resource list or a resource requirements list that describes bus number usage for a device instance.
+helpviewer_keywords: ["*PBUSNUMBER_DES","BUSNUMBER_DES","BUSNUMBER_DES structure [Device and Driver Installation]","PBUSNUMBER_DES","PBUSNUMBER_DES structure pointer [Device and Driver Installation]","cfgmgr32/BUSNUMBER_DES","cfgmgr32/PBUSNUMBER_DES","cfgmgrst_791be216-3ef2-407b-b250-4e09f40356a3.xml","devinst.busnumber_des"]
 old-location: devinst\busnumber_des.htm
 tech.root: devinst
 ms.assetid: 3007e271-fe78-404c-ba97-ceb0be334592
@@ -71,7 +72,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a> array that is included in the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a> structure.
+The number of elements in the [BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range) array that is included in the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
 
 
 ### -field BUSD_Type
@@ -122,7 +123,7 @@ Zero.
 
 
 
-The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a> structure.
+The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource) structure.
 
 
 
@@ -132,11 +133,11 @@ The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](
 
 
 
-[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)a>
+[BUSNUMBER_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_range)
 
 
 
-[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)a>
+[BUSNUMBER_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPPlaylist
 title: IWMPPlaylist (wmp.h)
-description: The IWMPPlaylist interface provides methods for manipulating lists of media items.
+description: The IWMPPlaylist interface provides methods for manipulating lists of media items.helpviewer_keywords: ["IWMPPlaylist","IWMPPlaylist interface [Windows Media Player]","IWMPPlaylist interface [Windows Media Player]","described","IWMPPlaylistInterface","wmp.iwmpplaylist","wmp/IWMPPlaylist"]
 old-location: wmp\iwmpplaylist.htm
 tech.root: WMP
 ms.assetid: 04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.GetPrivateData
 title: ID3D11DeviceChild::GetPrivateData (d3d11.h)
-description: Get application-defined data from a device child.
+description: Get application-defined data from a device child.helpviewer_keywords: ["50e61586-bdf5-0fe2-ab52-a873243bc7ff","GetPrivateData","GetPrivateData method [Direct3D 11]","GetPrivateData method [Direct3D 11]","ID3D11DeviceChild interface","ID3D11DeviceChild interface [Direct3D 11]","GetPrivateData method","ID3D11DeviceChild.GetPrivateData","ID3D11DeviceChild::GetPrivateData","d3d11/ID3D11DeviceChild::GetPrivateData","direct3d11.id3d11devicechild_getprivatedata"]
 old-location: direct3d11\id3d11devicechild_getprivatedata.htm
 tech.root: direct3d11
 ms.assetid: 11729527-680e-4c70-a10f-278feab8362d

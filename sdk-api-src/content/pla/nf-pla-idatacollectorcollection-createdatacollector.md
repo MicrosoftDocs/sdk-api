@@ -2,6 +2,7 @@
 UID: NF:pla.IDataCollectorCollection.CreateDataCollector
 title: IDataCollectorCollection::CreateDataCollector (pla.h)
 description: Creates a data collector of the specified type.
+helpviewer_keywords: ["CreateDataCollector","CreateDataCollector method [PLA]","CreateDataCollector method [PLA]","IDataCollectorCollection interface","IDataCollectorCollection interface [PLA]","CreateDataCollector method","IDataCollectorCollection.CreateDataCollector","IDataCollectorCollection::CreateDataCollector","pla.idatacollectorcollection_createdatacollector","pla/IDataCollectorCollection::CreateDataCollector"]
 old-location: pla\idatacollectorcollection_createdatacollector.htm
 tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
@@ -59,7 +60,7 @@ Creates a data collector of the specified type.
 
 ### -param Type [in]
 
-The type of data collector to create. For possible data collector types, see the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-datacollectortype">DataCollectorType</a> enumeration.
+The type of data collector to create. For possible data collector types, see the <a href="/windows/win32/api/pla/ne-pla-datacollectortype">DataCollectorType</a> enumeration.
 
 
 ### -param Collector [out]

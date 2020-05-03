@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsTrimStringStart
 title: WindowsTrimStringStart function (winstring.h)
 description: Removes all leading occurrences of a specified set of characters from the source string.
+helpviewer_keywords: ["WindowsTrimStringStart","WindowsTrimStringStart function [Windows Runtime]","winrt.windowstrimstringstart","winstring/WindowsTrimStringStart"]
 old-location: winrt\windowstrimstringstart.htm
 tech.root: WinRT
 ms.assetid: 88B9034D-D010-4C38-8F03-A5AF2FEC448B
@@ -46,44 +47,31 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsTrimStringStart function
-
-
 ## -description
-
 
 Removes all leading occurrences of a specified set of characters from the source string.
 
-
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string to be trimmed.
 
+### -param trimString
 
-### -param trimString [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The characters to remove from <i>string</i>.
 
+### -param newString
 
-### -param newString [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: [out] <b>[**HSTRING**](/windows/win32/winrt/hstring)*</b>
 
 The string that remains after all occurrences of characters in the <i>trimString</i> parameter are removed from the start of <i>string</i>, or <b>NULL</b> if <i>trimString</i> contains all of the characters in <i>string</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -128,28 +116,11 @@ Failed to allocate the trimmed string.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each call to the <b>WindowsTrimStringStart</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
-
-
-
-
+Each call to the <b>WindowsTrimStringStart</b> function must be matched with a corresponding call to <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>

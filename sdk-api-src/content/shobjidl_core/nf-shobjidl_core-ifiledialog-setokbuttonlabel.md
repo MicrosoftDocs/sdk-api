@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOkButtonLabel
 title: IFileDialog::SetOkButtonLabel (shobjidl_core.h)
-description: Sets the text of the Open or Save button.
+description: Sets the text of the Open or Save button.helpviewer_keywords: ["IFileDialog interface [Windows Shell]","SetOkButtonLabel method","IFileDialog.SetOkButtonLabel","IFileDialog::SetOkButtonLabel","SetOkButtonLabel","SetOkButtonLabel method [Windows Shell]","SetOkButtonLabel method [Windows Shell]","IFileDialog interface","shell.IFileDialog_SetOkButtonLabel","shell_IFileDialog_SetOkButtonLabel","shobjidl_core/IFileDialog::SetOkButtonLabel"]
 old-location: shell\IFileDialog_SetOkButtonLabel.htm
 tech.root: shell
 ms.assetid: 4320de0f-bfa6-4e17-a09d-d004559fae70

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRLINETO
 title: EMRLINETO (wingdi.h)
-description: The EMRLINETO and EMRMOVETOEX structures contains members for the LineTo and MoveToEx enhanced metafile records.
+description: The EMRLINETO and EMRMOVETOEX structures contains members for the LineTo and MoveToEx enhanced metafile records.helpviewer_keywords: ["*PEMRLINETO","*PEMRMOVETOEX","EMRLINETO","EMRLINETO structure [Windows GDI]","EMRLINETO","EMRMOVETOEX","EMRLINETO","EMRMOVETOEX structure [Windows GDI]","EMRMOVETOEX","EMRMOVETOEX structure [Windows GDI]","PEMRLINETO","PEMRLINETO structure pointer [Windows GDI]","PEMRMOVETOEX","PEMRMOVETOEX structure pointer [Windows GDI]","_win32_EMRLINETO_str","gdi.emrlineto__emrmovetoex","wingdi/EMRLINETO","EMRMOVETOEX","wingdi/EMRMOVETOEX","wingdi/PEMRLINETO","wingdi/PEMRMOVETOEX"]
 old-location: gdi\emrlineto__emrmovetoex.htm
 tech.root: gdi
 ms.assetid: 876db90d-3775-48e8-8911-e6612a3484ae

@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_EJECT_MEDIA
 title: IOCTL_STORAGE_EJECT_MEDIA
-description: Ejects media from a SCSI device.
+description: Ejects media from a SCSI device.helpviewer_keywords: ["IOCTL_STORAGE_EJECT_MEDIA","IOCTL_STORAGE_EJECT_MEDIA control","IOCTL_STORAGE_EJECT_MEDIA control code","_win32_ioctl_storage_eject_media","base.ioctl_storage_eject_media","winioctl/IOCTL_STORAGE_EJECT_MEDIA"]
 old-location: base\ioctl_storage_eject_media.htm
 tech.root: devio
 ms.assetid: e1eeb3b8-b52b-4570-a3bc-e245ae58464f

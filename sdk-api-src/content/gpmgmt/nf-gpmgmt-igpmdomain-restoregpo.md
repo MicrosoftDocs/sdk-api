@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.RestoreGPO
 title: IGPMDomain::RestoreGPO (gpmgmt.h)
-description: Restores a Group Policy object (GPO) from a GPMBackup object.
+description: Restores a Group Policy object (GPO) from a GPMBackup object.helpviewer_keywords: ["GPMDomain object [GPMC]","RestoreGPO method","IGPMDomain interface [GPMC]","RestoreGPO method","IGPMDomain.RestoreGPO","IGPMDomain::RestoreGPO","RestoreGPO","RestoreGPO method [GPMC]","RestoreGPO method [GPMC]","GPMDomain object","RestoreGPO method [GPMC]","IGPMDomain interface","_win32_igpmdomain_restoregpo","gpmc.igpmdomain_restoregpo","gpmgmt/IGPMDomain::RestoreGPO"]
 old-location: gpmc\igpmdomain_restoregpo.htm
 tech.root: gpmc
 ms.assetid: 8e202ea1-ca5c-4757-950b-ea1802699b68

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_RotationTransform
 title: IInkDivisionUnit::get_RotationTransform (msinkaut15.h)
-description: Gets the transformation matrix that the IInkDivisionUnit object uses to rotate the strokes to horizontal.
+description: Gets the transformation matrix that the IInkDivisionUnit object uses to rotate the strokes to horizontal.helpviewer_keywords: ["2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8","IInkDivisionUnit interface [Tablet PC]","RotationTransform property","IInkDivisionUnit.RotationTransform","IInkDivisionUnit.get_RotationTransform","IInkDivisionUnit::RotationTransform","IInkDivisionUnit::get_RotationTransform","RotationTransform property [Tablet PC]","RotationTransform property [Tablet PC]","IInkDivisionUnit interface","get_RotationTransform","msinkaut15/IInkDivisionUnit::RotationTransform","msinkaut15/IInkDivisionUnit::get_RotationTransform","tablet.iinkdivisionunit_rotationtransform"]
 old-location: tablet\iinkdivisionunit_rotationtransform.htm
 tech.root: tablet
 ms.assetid: 2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8

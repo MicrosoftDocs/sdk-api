@@ -2,6 +2,7 @@
 UID: NF:winddi.DrvGetModes
 title: DrvGetModes function (winddi.h)
 description: The DrvGetModes function lists the modes supported by a given device.
+helpviewer_keywords: ["DrvGetModes","DrvGetModes function [Display Devices]","ddifncs_2dfdc736-13de-4235-8be3-946e0cb1ed44.xml","display.drvgetmodes","winddi/DrvGetModes"]
 old-location: display\drvgetmodes.htm
 tech.root: display
 ms.assetid: 55ca7733-184a-4bc0-8e91-b5899073bca7
@@ -69,7 +70,7 @@ Specifies the size in bytes of the buffer pointed to by <i>pdm</i>.
 
 ### -param pdm [out, optional]
 
-Pointer to the buffer containing <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure(s) for the driver to fill in, or <b>NULL</b>.
+Pointer to the buffer containing <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure(s) for the driver to fill in, or <b>NULL</b>.
 
 
 ## -returns
@@ -103,7 +104,7 @@ Refer to the <i>Permedia</i> samples to see a working implementation of <b>DrvGe
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

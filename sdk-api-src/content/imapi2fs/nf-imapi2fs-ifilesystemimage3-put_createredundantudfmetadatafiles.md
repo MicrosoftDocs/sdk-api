@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
 title: IFileSystemImage3::put_CreateRedundantUdfMetadataFiles (imapi2fs.h)
-description: Sets the property that specifies if the UDF Metadata will be redundant in the file system image.
+description: Sets the property that specifies if the UDF Metadata will be redundant in the file system image.helpviewer_keywords: ["IFileSystemImage3 interface [IMAPI]","put_CreateRedundantUdfMetadataFiles method","IFileSystemImage3.put_CreateRedundantUdfMetadataFiles","IFileSystemImage3::put_CreateRedundantUdfMetadataFiles","imapi.ifilesystemimage3_put_createredundantudfmetadatafiles","imapi2fs/IFileSystemImage3::put_CreateRedundantUdfMetadataFiles","put_CreateRedundantUdfMetadataFiles","put_CreateRedundantUdfMetadataFiles method [IMAPI]","put_CreateRedundantUdfMetadataFiles method [IMAPI]","IFileSystemImage3 interface"]
 old-location: imapi\ifilesystemimage3_put_createredundantudfmetadatafiles.htm
 tech.root: imapi
 ms.assetid: 594ef77e-57be-4ef0-9eba-3e6fc0340f6e

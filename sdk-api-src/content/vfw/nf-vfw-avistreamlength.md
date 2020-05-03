@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.AVIStreamLength
 title: AVIStreamLength function (vfw.h)
-description: The AVIStreamLength function returns the length of the stream.
+description: The AVIStreamLength function returns the length of the stream.helpviewer_keywords: ["AVIStreamLength","AVIStreamLength function [Windows Multimedia]","_win32_AVIStreamLength","multimedia.avistreamlength","vfw/AVIStreamLength"]
 old-location: multimedia\avistreamlength.htm
 tech.root: Multimedia
 ms.assetid: 5fc5dd31-9f2d-48c8-8d7e-76add4608473

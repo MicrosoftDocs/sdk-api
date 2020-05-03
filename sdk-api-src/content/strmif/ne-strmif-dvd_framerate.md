@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagDVD_FRAMERATE
 title: DVD_FRAMERATE (strmif.h)
-description: Indicates whether the DVD is authored to play at 25 or 30 frames per second.
+description: Indicates whether the DVD is authored to play at 25 or 30 frames per second.helpviewer_keywords: ["DVD_FPS_25","DVD_FPS_30NonDrop","DVD_FRAMERATE","DVD_FRAMERATE","DVD_FRAMERATE enumeration [DirectShow]","DVD_FRAMERATEEnumeration","dshow.dvd_framerate","strmif/DVD_FPS_25","strmif/DVD_FPS_30NonDrop","strmif/DVD_FRAMERATE"]
 old-location: dshow\dvd_framerate.htm
 tech.root: DirectShow
 ms.assetid: 92309c56-87fe-43cc-b76e-43f9686177be

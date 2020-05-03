@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CreateClusterGroupSet
 title: CreateClusterGroupSet function (clusapi.h)
-description: Adds a groupset to a cluster and returns a handle to the newly added groupset.
+description: Adds a groupset to a cluster and returns a handle to the newly added groupset.helpviewer_keywords: ["CreateClusterGroupSet","CreateClusterGroupSet function [Failover Cluster]","PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET","PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET function [Failover Cluster]","clusapi/CreateClusterGroupSet","clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET","mscs.createclustergroupcollection"]
 old-location: mscs\createclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b

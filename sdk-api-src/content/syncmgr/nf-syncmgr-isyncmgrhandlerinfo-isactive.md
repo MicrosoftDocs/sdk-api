@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsActive
 title: ISyncMgrHandlerInfo::IsActive (syncmgr.h)
-description: Gets a value that indicates whether the handler can be synchronized.
+description: Gets a value that indicates whether the handler can be synchronized.helpviewer_keywords: ["ISyncMgrHandlerInfo interface [Windows Shell]","IsActive method","ISyncMgrHandlerInfo.IsActive","ISyncMgrHandlerInfo::IsActive","IsActive","IsActive method [Windows Shell]","IsActive method [Windows Shell]","ISyncMgrHandlerInfo interface","_shell_ISyncMgrHandlerInfo_IsActive","shell.ISyncMgrHandlerInfo_IsActive","syncmgr/ISyncMgrHandlerInfo::IsActive"]
 old-location: shell\ISyncMgrHandlerInfo_IsActive.htm
 tech.root: shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44

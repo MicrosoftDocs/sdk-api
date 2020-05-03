@@ -2,6 +2,7 @@
 UID: NF:wincrypt.CryptInstallDefaultContext
 title: CryptInstallDefaultContext function (wincrypt.h)
 description: Installs a specific provider to be the default context provider for the specified algorithm.
+helpviewer_keywords: ["CRYPT_DEFAULT_CONTEXT_AUTO_RELEASE_FLAG","CRYPT_DEFAULT_CONTEXT_CERT_SIGN_OID","CRYPT_DEFAULT_CONTEXT_MULTI_CERT_SIGN_OID","CRYPT_DEFAULT_CONTEXT_PROCESS_FLAG","CryptInstallDefaultContext","CryptInstallDefaultContext function [Security]","_crypto2_cryptinstalldefaultcontext","security.cryptinstalldefaultcontext","wincrypt/CryptInstallDefaultContext"]
 old-location: security\cryptinstalldefaultcontext.htm
 tech.root: SecCrypto
 ms.assetid: 79d121df-0699-424e-a8de-5fc2b396afc2
@@ -92,7 +93,7 @@ The <i>pvDefaultPara</i> parameter is the address of a null-terminated ANSI stri
 <td width="60%">
 Installs the default provider used to verify multiple certificate signature types. 
 
-The <i>pvDefaultPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_default_context_multi_oid_para">CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA</a> structure that contains an array of object identifiers that identify the certificate signature algorithms to install the specified provider for.
+The <i>pvDefaultPara</i> parameter is the address of a <a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_default_context_multi_oid_para">CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA</a> structure that contains an array of object identifiers that identify the certificate signature algorithms to install the specified provider for.
 
 </td>
 </tr>

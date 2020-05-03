@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorATanEst
 title: XMVectorATanEst function (directxmath.h)
-description: Estimates the arctangent of each component of an XMVECTOR.
+description: Estimates the arctangent of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorATanEst","XMVectorATanEst","XMVectorATanEst method [DirectX Math Support APIs]","dxmath.xmvectoratanest"]
 old-location: dxmath\xmvectoratanest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATanEst(XMVECTOR)

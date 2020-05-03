@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmConnectionGetById0
 title: FwpmConnectionGetById0 function (fwpmu.h)
 description: Retrieves a connection object.
+helpviewer_keywords: ["FwpmConnectionGetById0","FwpmConnectionGetById0 function [Filtering]","fwp.fwpmconnectiongetbyid0","fwpmu/FwpmConnectionGetById0"]
 old-location: fwp\fwpmconnectiongetbyid0.htm
 tech.root: fwp
 ms.assetid: 630f513b-49c9-4d3a-a5e2-7ea6b940d333
@@ -75,7 +76,7 @@ The run-time identifier for the connection.
 
 ### -param connection [out]
 
-Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>**</b>
+Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)**</b>
 
 The connection information.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)a>
+[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)
  
 
  

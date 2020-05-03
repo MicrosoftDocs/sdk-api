@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoEnableCallCancellation
 title: CoEnableCallCancellation function (combaseapi.h)
-description: Enables cancellation of synchronous calls on the calling thread.
+description: Enables cancellation of synchronous calls on the calling thread.helpviewer_keywords: ["CoEnableCallCancellation","CoEnableCallCancellation function [COM]","_com_CoEnableCallCancellation","com.coenablecallcancellation","combaseapi/CoEnableCallCancellation"]
 old-location: com\coenablecallcancellation.htm
 tech.root: com
 ms.assetid: 59b66f33-486e-49c3-9fb8-0eab93146ed9

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetOptions
 title: IShellLibrary::SetOptions (shobjidl_core.h)
-description: Sets the library options.
+description: Sets the library options.helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","SetOptions method","IShellLibrary.SetOptions","IShellLibrary::SetOptions","SetOptions","SetOptions method [Windows Shell]","SetOptions method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_SetOptions","shell.IShellLibrary_SetOptions","shobjidl_core/IShellLibrary::SetOptions"]
 old-location: shell\IShellLibrary_SetOptions.htm
 tech.root: shell
 ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32

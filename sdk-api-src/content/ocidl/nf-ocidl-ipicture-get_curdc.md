@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPicture.get_CurDC
 title: IPicture::get_CurDC (ocidl.h)
-description: Retrieves the handle of the current device context. This property is valid only for bitmap pictures.
+description: Retrieves the handle of the current device context. This property is valid only for bitmap pictures.helpviewer_keywords: ["IPicture interface [COM]","get_CurDC method","IPicture.get_CurDC","IPicture::get_CurDC","_ctrl_ipicture_get_curdc","com.ipicture_get_curdc","get_CurDC","get_CurDC method [COM]","get_CurDC method [COM]","IPicture interface","ocidl/IPicture::get_CurDC"]
 old-location: com\ipicture_get_curdc.htm
 tech.root: com
 ms.assetid: a5c13a54-692d-423f-824d-5a96c137dec9

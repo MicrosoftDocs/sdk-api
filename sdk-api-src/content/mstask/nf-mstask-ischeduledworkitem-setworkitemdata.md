@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetWorkItemData
 title: IScheduledWorkItem::SetWorkItemData (mstask.h)
-description: This method stores application-defined data associated with the work item.
+description: This method stores application-defined data associated with the work item.helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetWorkItemData method","IScheduledWorkItem.SetWorkItemData","IScheduledWorkItem::SetWorkItemData","SetWorkItemData","SetWorkItemData method [Task Scheduler]","SetWorkItemData method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setworkitemdata","mstask/IScheduledWorkItem::SetWorkItemData","taskschd.ischeduledworkitem_setworkitemdata"]
 old-location: taskschd\ischeduledworkitem_setworkitemdata.htm
 tech.root: taskschd
 ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c

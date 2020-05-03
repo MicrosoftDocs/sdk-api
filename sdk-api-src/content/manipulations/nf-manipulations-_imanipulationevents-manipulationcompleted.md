@@ -2,6 +2,7 @@
 UID: NF:manipulations._IManipulationEvents.ManipulationCompleted
 title: _IManipulationEvents::ManipulationCompleted (manipulations.h)
 description: Handles the event when manipulation or inertia finishes.
+helpviewer_keywords: ["ManipulationCompleted","ManipulationCompleted method [Windows Touch]","ManipulationCompleted method [Windows Touch]","_IManipulationEvents interface","_IManipulationEvents interface [Windows Touch]","ManipulationCompleted method","_IManipulationEvents.ManipulationCompleted","_IManipulationEvents::ManipulationCompleted","manipulations/_IManipulationEvents::ManipulationCompleted","wintouch._imanipulationevents_manipulationcompleted"]
 old-location: wintouch\_imanipulationevents_manipulationcompleted.htm
 tech.root: wintouch
 ms.assetid: 1284df32-f4e8-43b3-b825-9172ad39f0e6
@@ -171,7 +172,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
+<a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
  
 
  

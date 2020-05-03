@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFile.Analyze
 title: IDWriteFontFile::Analyze (dwrite.h)
-description: Analyzes a file and returns whether it represents a font, and whether the font type is supported by the font system.
+description: Analyzes a file and returns whether it represents a font, and whether the font type is supported by the font system.helpviewer_keywords: ["Analyze","Analyze method [Direct Write]","Analyze method [Direct Write]","IDWriteFontFile interface","IDWriteFontFile interface [Direct Write]","Analyze method","IDWriteFontFile.Analyze","IDWriteFontFile::Analyze","directwrite.IDWriteFontFile_Analyze","dwrite/IDWriteFontFile::Analyze"]
 old-location: directwrite\IDWriteFontFile_Analyze.htm
 tech.root: DirectWrite
 ms.assetid: 71acbcf8-3024-4e04-ac8e-89cf026b9e91

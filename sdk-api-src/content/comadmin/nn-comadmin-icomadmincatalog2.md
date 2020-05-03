@@ -1,7 +1,7 @@
 ---
 UID: NN:comadmin.ICOMAdminCatalog2
 title: ICOMAdminCatalog2 (comadmin.h)
-description: An extension of the ICOMAdminCatalog interface.
+description: An extension of the ICOMAdminCatalog interface.helpviewer_keywords: ["ICOMAdminCatalog2","ICOMAdminCatalog2 interface [COM+]","ICOMAdminCatalog2 interface [COM+]","described","comadmin/ICOMAdminCatalog2","cos.icomadmincatalog2"]
 old-location: cos\icomadmincatalog2.htm
 tech.root: cossdk
 ms.assetid: ffca611d-dacc-47be-9101-9de76ecc8393

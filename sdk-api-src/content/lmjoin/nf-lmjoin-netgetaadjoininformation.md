@@ -1,7 +1,7 @@
 ---
 UID: NF:lmjoin.NetGetAadJoinInformation
 title: NetGetAadJoinInformation function (lmjoin.h)
-description: Retrieves the join information for the specified tenant. This function examines the join information for Microsoft Azure Active Directory and the work account that the current user added.
+description: Retrieves the join information for the specified tenant. This function examines the join information for Microsoft Azure Active Directory and the work account that the current user added.helpviewer_keywords: ["NetGetAadJoinInformation","NetGetAadJoinInformation function [Network Management]","lmjoin/NetGetAadJoinInformation","netmgmt.netgetaadjoininformation"]
 old-location: netmgmt\netgetaadjoininformation.htm
 tech.root: NetMgmt
 ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB

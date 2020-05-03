@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_DEBUG_LEVEL
 title: D2D1_DEBUG_LEVEL (d2d1.h)
-description: Indicates the type of information provided by the Direct2D Debug Layer.
+description: Indicates the type of information provided by the Direct2D Debug Layer.helpviewer_keywords: ["D2D1_DEBUG_LEVEL","D2D1_DEBUG_LEVEL enumeration [Direct2D]","D2D1_DEBUG_LEVEL_ERROR","D2D1_DEBUG_LEVEL_INFORMATION","D2D1_DEBUG_LEVEL_NONE","D2D1_DEBUG_LEVEL_WARNING","d2d1/D2D1_DEBUG_LEVEL","d2d1/D2D1_DEBUG_LEVEL_ERROR","d2d1/D2D1_DEBUG_LEVEL_INFORMATION","d2d1/D2D1_DEBUG_LEVEL_NONE","d2d1/D2D1_DEBUG_LEVEL_WARNING","direct2d.D2D1_DEBUG_LEVEL"]
 old-location: direct2d\D2D1_DEBUG_LEVEL.htm
 tech.root: Direct2D
 ms.assetid: 3f1b4127-12d4-4472-ae26-0b69fdbb35a7
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the type of information provided by the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.  
+Indicates the type of information provided by the <a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.  
 
 
 ## -enum-fields
@@ -86,7 +86,7 @@ Direct2D sends error messages, warnings, and additional diagnostic information t
 
 
 
-To receive debugging messages, you must install the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.
+To receive debugging messages, you must install the <a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>.
 
 
 
@@ -96,11 +96,11 @@ To receive debugging messages, you must install the <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_factory_options">D2D1_FACTORY_OPTIONS</a>
+<a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_factory_options">D2D1_FACTORY_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>
+<a href="/windows/win32/Direct2D/direct2ddebuglayer-overview">Direct2D Debug Layer</a>
  
 
  

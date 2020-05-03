@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.RestoreDrawingState
 title: ID2D1RenderTarget::RestoreDrawingState (d2d1.h)
-description: Sets the render target's drawing state to that of the specified ID2D1DrawingStateBlock.
+description: Sets the render target's drawing state to that of the specified ID2D1DrawingStateBlock.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","RestoreDrawingState method","ID2D1RenderTarget.RestoreDrawingState","ID2D1RenderTarget::RestoreDrawingState","RestoreDrawingState","RestoreDrawingState method [Direct2D]","RestoreDrawingState method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::RestoreDrawingState","direct2d.ID2D1RenderTarget_RestoreDrawingState"]
 old-location: direct2d\ID2D1RenderTarget_RestoreDrawingState.htm
 tech.root: Direct2D
 ms.assetid: 5b627710-8507-460e-bdc7-2a5633ce370f
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the render target's drawing state to that of the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
+Sets the render target's drawing state to that of the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the render target's drawing state to that of the specified <a href="https:/
 
 ### -param drawingStateBlock [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>*</b>
 
 The new drawing state of the render target.
 
@@ -69,7 +69,7 @@ The new drawing state of the render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaDeleteTrustedDomain
 title: LsaDeleteTrustedDomain function (ntsecapi.h)
-description: The LsaDeleteTrustedDomain function removes a trusted domain from the list of trusted domains for a system and deletes the associated TrustedDomain object.
+description: The LsaDeleteTrustedDomain function removes a trusted domain from the list of trusted domains for a system and deletes the associated TrustedDomain object.helpviewer_keywords: ["LsaDeleteTrustedDomain","LsaDeleteTrustedDomain function [Security]","_lsa_lsadeletetrusteddomain","ntsecapi/LsaDeleteTrustedDomain","security.lsadeletetrusteddomain"]
 old-location: security\lsadeletetrusteddomain.htm
 tech.root: SecMgmt
 ms.assetid: 4a7afa28-1786-4a58-a955-d2d8b12e62e4

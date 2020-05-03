@@ -1,7 +1,7 @@
 ---
 UID: NF:micaut.IMathInputControl.Clear
 title: IMathInputControl::Clear (micaut.h)
-description: Clears all ink from the control.
+description: Clears all ink from the control.helpviewer_keywords: ["Clear","Clear method [Tablet PC]","Clear method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","Clear method","IMathInputControl.Clear","IMathInputControl::Clear","micaut/IMathInputControl::Clear","tablet.imathinputcontrol_clear"]
 old-location: tablet\imathinputcontrol_clear.htm
 tech.root: tablet
 ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23

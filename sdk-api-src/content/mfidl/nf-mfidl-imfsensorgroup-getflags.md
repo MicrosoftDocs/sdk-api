@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetFlags
 title: IMFSensorGroup::GetFlags (mfidl.h)
-description: Gets the flags set for the sensor group.
+description: Gets the flags set for the sensor group.helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","GetFlags method","IMFSensorGroup.GetFlags","IMFSensorGroup::GetFlags","mf.imfsensorgroup_getflags","mfidl/IMFSensorGroup::GetFlags"]
 old-location: mf\imfsensorgroup_getflags.htm
 tech.root: medfound
 ms.assetid: 99143CFD-930A-405C-A8FB-8DBF52CD9BB5

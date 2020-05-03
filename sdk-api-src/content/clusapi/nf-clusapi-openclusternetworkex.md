@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterNetworkEx
 title: OpenClusterNetworkEx function (clusapi.h)
-description: Opens a connection to a network and returns a handle to it.
+description: Opens a connection to a network and returns a handle to it.helpviewer_keywords: ["OpenClusterNetworkEx","OpenClusterNetworkEx function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_NETWORK_EX","PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster]","clusapi/OpenClusterNetworkEx","clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX","mscs.openclusternetworkex"]
 old-location: mscs\openclusternetworkex.htm
 tech.root: MsCS
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901

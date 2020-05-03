@@ -2,6 +2,7 @@
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.GetAssessmentInfo
 title: IProvideWinSATResultsInfo::GetAssessmentInfo (winsatcominterfacei.h)
 description: Retrieves summary information for a subcomponent of the assessment.
+helpviewer_keywords: ["GetAssessmentInfo","GetAssessmentInfo method [WinSAT]","GetAssessmentInfo method [WinSAT]","IProvideWinSATResultsInfo interface","IProvideWinSATResultsInfo interface [WinSAT]","GetAssessmentInfo method","IProvideWinSATResultsInfo.GetAssessmentInfo","IProvideWinSATResultsInfo::GetAssessmentInfo","winsat.iprovidewinsatresultsinfo_getassessmentinfo","winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo"]
 old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
 tech.root: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
@@ -61,7 +62,7 @@ Retrieves summary information for a subcomponent of the assessment.
 
 ### -param assessment [in]
 
-A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type">WINSAT_ASSESSMENT_TYPE</a> enumeration.
+A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type">WINSAT_ASSESSMENT_TYPE</a> enumeration.
 
 
 ### -param ppinfo [out]

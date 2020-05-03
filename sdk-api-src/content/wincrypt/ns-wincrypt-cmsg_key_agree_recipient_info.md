@@ -2,6 +2,7 @@
 UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_INFO
 title: CMSG_KEY_AGREE_RECIPIENT_INFO (wincrypt.h)
 description: Contains information used for key agreement algorithms.
+helpviewer_keywords: ["*PCMSG_KEY_AGREE_RECIPIENT_INFO","CMSG_KEY_AGREE_ORIGINATOR_CERT","CMSG_KEY_AGREE_ORIGINATOR_PUBLIC_KEY","CMSG_KEY_AGREE_RECIPIENT_INFO","CMSG_KEY_AGREE_RECIPIENT_INFO structure [Security]","PCMSG_KEY_AGREE_RECIPIENT_INFO","PCMSG_KEY_AGREE_RECIPIENT_INFO structure pointer [Security]","_crypto2_cmsg_key_agree_recipient_info","security.cmsg_key_agree_recipient_info","wincrypt/CMSG_KEY_AGREE_RECIPIENT_INFO","wincrypt/PCMSG_KEY_AGREE_RECIPIENT_INFO"]
 old-location: security\cmsg_key_agree_recipient_info.htm
 tech.root: SecCrypto
 ms.assetid: d29d04d6-065e-4bb7-843b-f563643eeb4c
@@ -133,5 +134,5 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 
 ### -field rgpRecipientEncryptedKeys
 
-The address of an array of <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_info">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
+The address of an array of <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_info">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GetGraphCreationFlags
 title: IWMPGraphCreation::GetGraphCreationFlags (wmpservices.h)
-description: One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.
+description: One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.helpviewer_keywords: ["GetGraphCreationFlags","GetGraphCreationFlags method [Windows Media Player]","GetGraphCreationFlags method [Windows Media Player]","IWMPGraphCreation interface","IWMPGraphCreation interface [Windows Media Player]","GetGraphCreationFlags method","IWMPGraphCreation.GetGraphCreationFlags","IWMPGraphCreation::GetGraphCreationFlags","IWMPGraphCreationGetGraphCreationFlags","wmp.iwmpgraphcreation_getgraphcreationflags","wmpservices/IWMPGraphCreation::GetGraphCreationFlags"]
 old-location: wmp\iwmpgraphcreation_getgraphcreationflags.htm
 tech.root: WMP
 ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b

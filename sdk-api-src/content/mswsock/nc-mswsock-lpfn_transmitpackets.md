@@ -1,7 +1,7 @@
 ---
 UID: NC:mswsock.LPFN_TRANSMITPACKETS
 title: LPFN_TRANSMITPACKETS (mswsock.h)
-description: Transmits in-memory data or file data over a connected socket.
+description: Transmits in-memory data or file data over a connected socket.helpviewer_keywords: ["LPFN_TRANSMITPACKETS","LPFN_TRANSMITPACKETS callback","LPFN_TRANSMITPACKETS callback function [Winsock]","TF_DISCONNECT","TF_REUSE_SOCKET","TF_USE_DEFAULT_WORKER","TF_USE_KERNEL_APC","TF_USE_SYSTEM_THREAD","_win32_transmitpackets_2","mswsock/LPFN_TRANSMITPACKETS","winsock.transmitpackets_2"]
 old-location: winsock\transmitpackets_2.htm
 tech.root: WinSock
 ms.assetid: c574d320-2a90-40bb-b34c-6023e80514e6

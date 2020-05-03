@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmDeleteEnumHandle
 title: RtmDeleteEnumHandle function (rtmv2.h)
-description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
+description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.helpviewer_keywords: ["RtmDeleteEnumHandle","RtmDeleteEnumHandle function [RAS]","_rtmv2ref_rtmdeleteenumhandle","rras.rtmdeleteenumhandle","rtmv2/RtmDeleteEnumHandle"]
 old-location: rras\rtmdeleteenumhandle.htm
 tech.root: RRAS
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa

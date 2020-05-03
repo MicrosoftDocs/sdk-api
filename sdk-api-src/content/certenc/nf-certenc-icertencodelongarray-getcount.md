@@ -1,7 +1,7 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.GetCount
 title: ICertEncodeLongArray::GetCount (certenc.h)
-description: Returns the number of Long values in the object's Long array.
+description: Returns the number of Long values in the object's Long array.helpviewer_keywords: ["CCertEncodeLongArray object [Security]","GetCount method","GetCount","GetCount method [Security]","GetCount method [Security]","CCertEncodeLongArray object","GetCount method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","GetCount method","ICertEncodeLongArray.GetCount","ICertEncodeLongArray::GetCount","_certsrv_icertencodelongarray_getcount","certenc/ICertEncodeLongArray::GetCount","security.icertencodelongarray_getcount"]
 old-location: security\icertencodelongarray_getcount.htm
 tech.root: SecCrypto
 ms.assetid: f60cffb1-5202-4dc8-97dd-9eddd381602a

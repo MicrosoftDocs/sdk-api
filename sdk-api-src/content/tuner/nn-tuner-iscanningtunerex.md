@@ -1,7 +1,7 @@
 ---
 UID: NN:tuner.IScanningTunerEx
 title: IScanningTunerEx (tuner.h)
-description: This topic applies to Windows Vista.
+description: This topic applies to Windows Vista.helpviewer_keywords: ["IScanningTunerEx","IScanningTunerEx interface [Microsoft TV Technologies]","IScanningTunerEx interface [Microsoft TV Technologies]","described","IScanningTunerExInterface","mstv.iscanningtunerex","tuner/IScanningTunerEx"]
 old-location: mstv\iscanningtunerex.htm
 tech.root: mstv
 ms.assetid: 3f89173a-d24b-400c-a229-28efb7a703be

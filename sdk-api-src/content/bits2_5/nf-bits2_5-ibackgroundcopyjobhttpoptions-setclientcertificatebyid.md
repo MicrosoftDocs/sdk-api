@@ -2,6 +2,7 @@
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetClientCertificateByID
 title: IBackgroundCopyJobHttpOptions::SetClientCertificateByID (bits2_5.h)
 description: Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
+helpviewer_keywords: ["CA","IBackgroundCopyJobHttpOptions interface [BITS]","SetClientCertificateByID method","IBackgroundCopyJobHttpOptions.SetClientCertificateByID","IBackgroundCopyJobHttpOptions::SetClientCertificateByID","MY","ROOT","SPC","SetClientCertificateByID","SetClientCertificateByID method [BITS]","SetClientCertificateByID method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid","bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID"]
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyid.htm
 tech.root: Bits
 ms.assetid: 60839bac-7f5f-4c43-84d4-26f1b21f974d
@@ -60,7 +61,7 @@ Specifies the identifier of the client certificate to use for client authenticat
 
 ### -param StoreLocation [in]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param StoreName [in]
@@ -161,7 +162,7 @@ The user does not have permission to access the store location.
 </dl>
 </td>
 <td width="60%">
-The value for the <i>StoreLocation</i> parameter is not defined in the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
+The value for the <i>StoreLocation</i> parameter is not defined in the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 </td>
 </tr>

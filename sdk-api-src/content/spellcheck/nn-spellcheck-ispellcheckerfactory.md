@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheck.ISpellCheckerFactory
 title: ISpellCheckerFactory (spellcheck.h)
-description: A factory for instantiating a spell checker (ISpellChecker) as well as providing functionality for determining which languages are supported.
+description: A factory for instantiating a spell checker (ISpellChecker) as well as providing functionality for determining which languages are supported.helpviewer_keywords: ["ISpellCheckerFactory","ISpellCheckerFactory interface [Internationalization for Windows Applications]","ISpellCheckerFactory interface [Internationalization for Windows Applications]","described","intl.ispellcheckerfactory","spellcheck/ISpellCheckerFactory"]
 old-location: intl\ispellcheckerfactory.htm
 tech.root: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071

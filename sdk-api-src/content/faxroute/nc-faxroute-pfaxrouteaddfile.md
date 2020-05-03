@@ -1,7 +1,7 @@
 ---
 UID: NC:faxroute.PFAXROUTEADDFILE
 title: PFAXROUTEADDFILE (faxroute.h)
-description: A fax routing method calls the FaxRouteAddFile callback function to add a file to the fax file list associated with a received fax document.
+description: A fax routing method calls the FaxRouteAddFile callback function to add a file to the fax file list associated with a received fax document.helpviewer_keywords: ["FaxRouteAddFile","FaxRouteAddFile callback function [Fax Service]","PFAXROUTEADDFILE","PFAXROUTEADDFILE callback","_mfax_faxrouteaddfile","fax._mfax_faxrouteaddfile","faxroute/FaxRouteAddFile"]
 old-location: fax\_mfax_faxrouteaddfile.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_5k6d.htm

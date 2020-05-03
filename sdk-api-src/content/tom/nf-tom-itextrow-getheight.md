@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.GetHeight
 title: ITextRow::GetHeight (tom.h)
-description: Gets the height of the row.
+description: Gets the height of the row.helpviewer_keywords: ["GetHeight","GetHeight method [Windows Controls]","GetHeight method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetHeight method","ITextRow.GetHeight","ITextRow::GetHeight","controls.itextrow_getheight","tom/ITextRow::GetHeight"]
 old-location: controls\itextrow_getheight.htm
 tech.root: Controls
 ms.assetid: 6befda1a-1a47-4668-b0cf-4fd66e7b633d

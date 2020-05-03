@@ -2,6 +2,7 @@
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002
 title: TSSD_ConnectionPoint (sessdirpublictypes.h)
 description: Defines the IP address of a target.
+helpviewer_keywords: ["*PTSSD_ConnectionPoint","PTSSD_ConnectionPoint","PTSSD_ConnectionPoint structure pointer [Remote Desktop Services]","TSSD_ConnectionPoint","TSSD_ConnectionPoint structure [Remote Desktop Services]","sessdirpublictypes/PTSSD_ConnectionPoint","sessdirpublictypes/TSSD_ConnectionPoint","termserv.tssd_connectionpoint"]
 old-location: termserv\tssd_connectionpoint.htm
 tech.root: TermServ
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
@@ -64,7 +65,7 @@ The server address.
 
 ### -field AddressType
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssd_addrv46type">TSSD_AddrV46Type</a> enumeration  that indicates the IP address type.
+A value of the <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssd_addrv46type">TSSD_AddrV46Type</a> enumeration  that indicates the IP address type.
 
 
 ### -field PortNumber
@@ -82,7 +83,7 @@ The scope of the address.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssd_addrv46type">TSSD_AddrV46Type</a>
+<a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssd_addrv46type">TSSD_AddrV46Type</a>
  
 
  

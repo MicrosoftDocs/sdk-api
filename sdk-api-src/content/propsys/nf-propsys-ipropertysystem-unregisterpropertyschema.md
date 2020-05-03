@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertySystem.UnregisterPropertySchema
 title: IPropertySystem::UnregisterPropertySchema (propsys.h)
-description: Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.
+description: Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine.helpviewer_keywords: ["IPropertySystem interface [Windows Properties]","UnregisterPropertySchema method","IPropertySystem.UnregisterPropertySchema","IPropertySystem::UnregisterPropertySchema","UnregisterPropertySchema","UnregisterPropertySchema method [Windows Properties]","UnregisterPropertySchema method [Windows Properties]","IPropertySystem interface","properties.IPropertySystem_UnregisterPropertySchema","propsys/IPropertySystem::UnregisterPropertySchema","shell.IPropertySystem_UnregisterPropertySchema","shell_IPropertySystem_UnregisterPropertySchema"]
 old-location: properties\IPropertySystem_UnregisterPropertySchema.htm
 tech.root: properties
 ms.assetid: de81e174-9c32-455f-a7ba-a3d1b2223b84

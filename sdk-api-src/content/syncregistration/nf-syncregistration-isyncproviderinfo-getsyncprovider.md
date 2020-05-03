@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderInfo.GetSyncProvider
 title: ISyncProviderInfo::GetSyncProvider (syncregistration.h)
-description: Creates an instance of the synchronization provider.
+description: Creates an instance of the synchronization provider.helpviewer_keywords: ["GetSyncProvider","GetSyncProvider method [Windows Sync]","GetSyncProvider method [Windows Sync]","ISyncProviderInfo interface","ISyncProviderInfo interface [Windows Sync]","GetSyncProvider method","ISyncProviderInfo.GetSyncProvider","ISyncProviderInfo::GetSyncProvider","syncregistration/ISyncProviderInfo::GetSyncProvider","winsync.isyncproviderinfo_getsyncprovider"]
 old-location: winsync\isyncproviderinfo_getsyncprovider.htm
 tech.root: winsync
 ms.assetid: 74b70f31-0934-4599-9515-e94b6622d440

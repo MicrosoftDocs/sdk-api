@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.StartRinger
 title: ITAutomatedPhoneControl::StartRinger (tapi3if.h)
-description: The StartRinger method starts the phone's ringer, specifying the ring mode and the duration of the ring.
+description: The StartRinger method starts the phone's ringer, specifying the ring mode and the duration of the ring.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","StartRinger method","ITAutomatedPhoneControl.StartRinger","ITAutomatedPhoneControl::StartRinger","StartRinger","StartRinger method [TAPI 2.2]","StartRinger method [TAPI 2.2]","ITAutomatedPhoneControl interface","_tapi3_itautomatedphonecontrol_startringer","tapi3.itautomatedphonecontrol_startringer","tapi3if/ITAutomatedPhoneControl::StartRinger"]
 old-location: tapi3\itautomatedphonecontrol_startringer.htm
 tech.root: Tapi
 ms.assetid: bf94aab7-6b12-43f8-b49f-a7cf6617dd57

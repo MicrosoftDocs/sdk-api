@@ -1,7 +1,7 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetSRGS
 title: ITfInputScope::GetSRGS (inputscope.h)
-description: ITfInputScope::GetSRGS method
+description: ITfInputScope::GetSRGS methodhelpviewer_keywords: ["GetSRGS","GetSRGS method [Text Services Framework]","GetSRGS method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetSRGS method","ITfInputScope.GetSRGS","ITfInputScope::GetSRGS","inputscope/ITfInputScope::GetSRGS","tsf.itfinputscope_getSRGS"]
 old-location: tsf\itfinputscope_getSRGS.htm
 tech.root: TSF
 ms.assetid: 6514d925-b60e-4071-abb2-4c26a122089a

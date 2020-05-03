@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_SOURCE_TYPE
 title: DWRITE_FONT_SOURCE_TYPE
-description: Defines constants that specify the mechanism by which a font came to be included in a font set.
+description: Defines constants that specify the mechanism by which a font came to be included in a font set.helpviewer_keywords: ["DWRITE_FONT_SOURCE_TYPE","DWRITE_FONT_SOURCE_TYPE enumeration [Direct Write]","directwrite.dwrite_font_source_type","dwrite_3/DWRITE_FONT_SOURCE_TYPE"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_SOURCE_TYPE, DWRITE_FONT_SOURCE_TYPE enumeration [Direct Write], directwrite.dwrite_font_source_type, dwrite_3/DWRITE_FONT_SOURCE_TYPE

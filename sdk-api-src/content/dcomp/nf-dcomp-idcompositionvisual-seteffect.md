@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetEffect
 title: IDCompositionVisual::SetEffect (dcomp.h)
-description: Sets the Effect property of this visual.
+description: Sets the Effect property of this visual.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetEffect method","IDCompositionVisual.SetEffect","IDCompositionVisual::SetEffect","SetEffect","SetEffect method [DirectComposition]","SetEffect method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetEffect","directcomp.idcompositionvisual_seteffect"]
 old-location: directcomp\idcompositionvisual_seteffect.htm
 tech.root: directcomp
 ms.assetid: CCA785F6-869C-460A-AF54-573BDE798685

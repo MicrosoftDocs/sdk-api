@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetScope
 title: ISearchFolderItemFactory::SetScope (shobjidl_core.h)
-description: Sets search scope, as specified.
+description: Sets search scope, as specified.helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetScope method","ISearchFolderItemFactory.SetScope","ISearchFolderItemFactory::SetScope","SetScope","SetScope method [Windows Shell]","SetScope method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetScope","shell.ISearchFolderItemFactory_SetScope","shobjidl_core/ISearchFolderItemFactory::SetScope"]
 old-location: shell\ISearchFolderItemFactory_SetScope.htm
 tech.root: shell
 ms.assetid: 0dd87a75-f172-4294-81cb-95207b04b3c5

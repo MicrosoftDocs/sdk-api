@@ -2,6 +2,7 @@
 UID: NS:mfidl._MFT_REGISTRATION_INFO
 title: MFT_REGISTRATION_INFO (mfidl.h)
 description: Contains parameters for the IMFLocalMFTRegistration::RegisterMFTs method.
+helpviewer_keywords: ["MFT_REGISTRATION_INFO","MFT_REGISTRATION_INFO structure [Media Foundation]","mf.mft_registration_info","mfidl/MFT_REGISTRATION_INFO"]
 old-location: mf\mft_registration_info.htm
 tech.root: medfound
 ms.assetid: 7d610edf-89e3-4ff3-9ad8-b92ee50df522
@@ -69,7 +70,7 @@ GUID that specifies the category of the MFT. For a list of MFT categories, see <
 
 ### -field uiFlags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 ### -field pszName
@@ -84,7 +85,7 @@ Number of elements in the <b>pInTypes</b> array.
 
 ### -field pInTypes
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. If this member is <b>NULL</b>, the <b>cInTypes</b> member must be zero.
+Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. If this member is <b>NULL</b>, the <b>cInTypes</b> member must be zero.
 
 
 ### -field cOutTypes
@@ -94,7 +95,7 @@ Number of elements in the <b>pOutTypes</b> array.
 
 ### -field pOutTypes
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. If this member is <b>NULL</b>, the <b>cOutTypes</b> member must be zero.
+Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. If this member is <b>NULL</b>, the <b>cOutTypes</b> member must be zero.
 
 
 ## -see-also

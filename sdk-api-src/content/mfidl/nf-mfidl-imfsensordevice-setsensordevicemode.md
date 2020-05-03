@@ -2,6 +2,7 @@
 UID: NF:mfidl.IMFSensorDevice.SetSensorDeviceMode
 title: IMFSensorDevice::SetSensorDeviceMode (mfidl.h)
 description: Sets a value that specifies the sharing mode of the sensor device to either controller or shared.
+helpviewer_keywords: ["IMFSensorDevice interface [Media Foundation]","SetSensorDeviceMode method","IMFSensorDevice.SetSensorDeviceMode","IMFSensorDevice::SetSensorDeviceMode","SetSensorDeviceMode","SetSensorDeviceMode method [Media Foundation]","SetSensorDeviceMode method [Media Foundation]","IMFSensorDevice interface","mf.imfsensordevice_setsensordevicemode","mfidl/IMFSensorDevice::SetSensorDeviceMode"]
 old-location: mf\imfsensordevice_setsensordevicemode.htm
 tech.root: medfound
 ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
@@ -62,7 +63,7 @@ Sets a value that specifies the sharing mode of the sensor device to either cont
 
 ### -param eMode [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode</a> enumeration specifying wether the device is in shared or controller mode.
+A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensordevicemode">MFSensorDeviceMode</a> enumeration specifying wether the device is in shared or controller mode.
 
 
 ## -returns

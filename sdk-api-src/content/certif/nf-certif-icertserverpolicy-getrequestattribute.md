@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetRequestAttribute
 title: ICertServerPolicy::GetRequestAttribute (certif.h)
-description: Returns a named attribute from a request.
+description: Returns a named attribute from a request.helpviewer_keywords: ["CCertServerPolicy object [Security]","GetRequestAttribute method","GetRequestAttribute","GetRequestAttribute method [Security]","GetRequestAttribute method [Security]","CCertServerPolicy object","GetRequestAttribute method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","GetRequestAttribute method","ICertServerPolicy.GetRequestAttribute","ICertServerPolicy::GetRequestAttribute","_certsrv_icertserverpolicy_getrequestattribute","certif/ICertServerPolicy::GetRequestAttribute","security.icertserverpolicy_getrequestattribute"]
 old-location: security\icertserverpolicy_getrequestattribute.htm
 tech.root: SecCrypto
 ms.assetid: 344cb710-4824-455c-9599-3036a2b36905

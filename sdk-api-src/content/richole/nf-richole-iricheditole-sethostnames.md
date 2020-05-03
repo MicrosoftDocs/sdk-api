@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.SetHostNames
 title: IRichEditOle::SetHostNames (richole.h)
-description: Sets the host names to be given to objects as they are inserted to a rich edit control. The host names are used in the user interface of servers to describe the container context of opened objects.
+description: Sets the host names to be given to objects as they are inserted to a rich edit control. The host names are used in the user interface of servers to describe the container context of opened objects.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","SetHostNames method","IRichEditOle.SetHostNames","IRichEditOle::SetHostNames","SetHostNames","SetHostNames method [Windows Controls]","SetHostNames method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_SetHostNames","_win32_IRichEditOle_SetHostNames_cpp","controls.IRichEditOle_SetHostNames","controls._win32_IRichEditOle_SetHostNames","richole/IRichEditOle::SetHostNames"]
 old-location: controls\IRichEditOle_SetHostNames.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesethostnames.htm

@@ -2,6 +2,7 @@
 UID: NF:textserv.ITextHost.TxGetCharFormat
 title: ITextHost::TxGetCharFormat (textserv.h)
 description: Requests the text host's default character format.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetCharFormat method","ITextHost.TxGetCharFormat","ITextHost::TxGetCharFormat","TxGetCharFormat","TxGetCharFormat method [Windows Controls]","TxGetCharFormat method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetCharFormat","_win32_ITextHost_TxGetCharFormat_cpp","controls.ITextHost_TxGetCharFormat","controls._win32_ITextHost_TxGetCharFormat","textserv/ITextHost::TxGetCharFormat"]
 old-location: controls\ITextHost_TxGetCharFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcharformat.htm
@@ -59,7 +60,7 @@ Requests the text host's default character format.
 
 ### -param ppCF
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>**</b>
+Type: <b>const <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>**</b>
 
 The default character format. 
 
@@ -100,7 +101,7 @@ Not implemented.
 
 
 
-The text host retains ownership of the <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
+The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 
 
@@ -110,7 +111,7 @@ The text host retains ownership of the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 

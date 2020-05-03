@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetShadowConnection
 title: IWTSProtocolConnection::GetShadowConnection (wtsprotocol.h)
-description: IWTSProtocolConnection::GetShadowConnection is no longer available. Instead, use IWRdsProtocolConnection::GetShadowConnection.
+description: IWTSProtocolConnection::GetShadowConnection is no longer available. Instead, use IWRdsProtocolConnection::GetShadowConnection.helpviewer_keywords: ["GetShadowConnection","GetShadowConnection method [Remote Desktop Services]","GetShadowConnection method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","GetShadowConnection method","IWTSProtocolConnection.GetShadowConnection","IWTSProtocolConnection::GetShadowConnection","termserv.iwtsprotocolconnection_getshadowconnection","wtsprotocol/IWTSProtocolConnection::GetShadowConnection"]
 old-location: termserv\iwtsprotocolconnection_getshadowconnection.htm
 tech.root: TermServ
 ms.assetid: 6496deba-6166-48d2-9294-286a448de231

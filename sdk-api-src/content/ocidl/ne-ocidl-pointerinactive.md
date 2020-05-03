@@ -1,7 +1,7 @@
 ---
 UID: NE:ocidl.tagPOINTERINACTIVE
 title: POINTERINACTIVE (ocidl.h)
-description: Indicate the activation policy of the object and are used in the IPointerInactive::GetActivationPolicy method.
+description: Indicate the activation policy of the object and are used in the IPointerInactive::GetActivationPolicy method.helpviewer_keywords: ["POINTERINACTIVE","POINTERINACTIVE enumeration [COM]","POINTERINACTIVE_ACTIVATEONDRAG","POINTERINACTIVE_ACTIVATEONENTRY","POINTERINACTIVE_DEACTIVATEONLEAVE","_ctrl_POINTERINACTIVE","com.pointerinactive","ocidl/POINTERINACTIVE","ocidl/POINTERINACTIVE_ACTIVATEONDRAG","ocidl/POINTERINACTIVE_ACTIVATEONENTRY","ocidl/POINTERINACTIVE_DEACTIVATEONLEAVE"]
 old-location: com\pointerinactive.htm
 tech.root: com
 ms.assetid: b955af46-14bd-45b0-a4ef-b705e5d45a38

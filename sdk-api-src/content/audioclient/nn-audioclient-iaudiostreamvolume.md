@@ -1,7 +1,7 @@
 ---
 UID: NN:audioclient.IAudioStreamVolume
 title: IAudioStreamVolume (audioclient.h)
-description: The IAudioStreamVolume interface enables a client to control and monitor the volume levels for all of the channels in an audio stream.
+description: The IAudioStreamVolume interface enables a client to control and monitor the volume levels for all of the channels in an audio stream.helpviewer_keywords: ["IAudioStreamVolume","IAudioStreamVolume interface [Core Audio]","IAudioStreamVolume interface [Core Audio]","described","audioclient/IAudioStreamVolume","coreaudio.iaudiostreamvolume"]
 old-location: coreaudio\iaudiostreamvolume.htm
 tech.root: CoreAudio
 ms.assetid: 92cc127b-77ac-4fc7-ac3c-319e5d6368d3

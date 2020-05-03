@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_PROVIDER0_
 title: FWPM_PROVIDER0 (fwpmtypes.h)
 description: Stores the state associated with a policy provider.
+helpviewer_keywords: ["FWPM_PROVIDER0","FWPM_PROVIDER0 structure [Filtering]","FWPM_PROVIDER_FLAG_DISABLED","FWPM_PROVIDER_FLAG_PERSISTENT","fwp.fwpm_provider0_struct","fwpmtypes/FWPM_PROVIDER0"]
 old-location: fwp\fwpm_provider0_struct.htm
 tech.root: fwp
 ms.assetid: 692714fd-14f1-4f8b-a033-1f30b6d0b95a
@@ -67,7 +68,7 @@ If the GUID is zero-initialized in the
 
 ### -field displayData
 
-Allows providers to be annotated in a human-readable form.  The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is required.
+Allows providers to be annotated in a human-readable form.  The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is required.
 
 
 ### -field flags
@@ -107,7 +108,7 @@ Provider's filters were disabled when the BFE started because the provider has n
 
 ### -field providerData
 
-An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
+An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 
 ### -field serviceName
@@ -130,7 +131,7 @@ Optional name of the Windows service hosting the provider. This allows
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 

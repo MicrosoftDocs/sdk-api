@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.CanEdit
 title: ITextRange::CanEdit (tom.h)
-description: Determines whether the specified range can be edited.
+description: Determines whether the specified range can be edited.helpviewer_keywords: ["CanEdit","CanEdit method [Windows Controls]","CanEdit method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","CanEdit method","ITextRange.CanEdit","ITextRange::CanEdit","_win32_ITextRange_CanEdit","_win32_ITextRange_CanEdit_cpp","controls.ITextRange_CanEdit","controls._win32_ITextRange_CanEdit","tom/ITextRange::CanEdit"]
 old-location: controls\ITextRange_CanEdit.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canedit.htm

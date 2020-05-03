@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_VirtualChannelManager
 title: IRDPSRAPIViewer::get_VirtualChannelManager (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPIVirtualChannelManager interface.
+description: Returns an object implementing the IRDPSRAPIVirtualChannelManager interface.helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","VirtualChannelManager property","IRDPSRAPIViewer.VirtualChannelManager","IRDPSRAPIViewer.get_VirtualChannelManager","IRDPSRAPIViewer::VirtualChannelManager","IRDPSRAPIViewer::get_VirtualChannelManager","RDPViewer object [RDP]","VirtualChannelManager property","VirtualChannelManager property [RDP]","VirtualChannelManager property [RDP]","IRDPSRAPIViewer interface","VirtualChannelManager property [RDP]","RDPViewer object","get_VirtualChannelManager","rdp.irdpsrapiviewer_virtualchannelmanager","rdpencomapi/IRDPSRAPIViewer::VirtualChannelManager","rdpencomapi/IRDPSRAPIViewer::get_VirtualChannelManager"]
 old-location: rdp\irdpsrapiviewer_virtualchannelmanager.htm
 tech.root: rdp
 ms.assetid: c878c445-5f1a-4a1f-be56-4cc427a40a1a

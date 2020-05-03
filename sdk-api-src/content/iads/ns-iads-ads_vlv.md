@@ -2,6 +2,7 @@
 UID: NS:iads._ads_vlv
 title: ADS_VLV (iads.h)
 description: Contains metadata used to conduct virtual list view (VLV) searches.
+helpviewer_keywords: ["*PADS_VLV","ADS_VLV","ADS_VLV structure [ADSI]","_ds_ads_vlv","adsi.ads__vlv","adsi.ads_vlv","iads/ADS_VLV"]
 old-location: adsi\ads_vlv.htm
 tech.root: adsi
 ms.assetid: bd8eab9f-9b44-4cef-b828-6e7c7c3e19bb
@@ -174,7 +175,7 @@ vlv.lpContextID = vlvResp.lpContextID;
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a>
 
 
 

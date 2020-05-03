@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiDestroyDriverInfoList
 title: SetupDiDestroyDriverInfoList function (setupapi.h)
-description: The SetupDiDestroyDriverInfoList function deletes a driver list.
+description: The SetupDiDestroyDriverInfoList function deletes a driver list.helpviewer_keywords: ["SetupDiDestroyDriverInfoList","SetupDiDestroyDriverInfoList function [Device and Driver Installation]","devinst.setupdidestroydriverinfolist","di-rtns_6eade614-a4f8-40cc-beb7-0d6728b1ad53.xml","setupapi/SetupDiDestroyDriverInfoList"]
 old-location: devinst\setupdidestroydriverinfolist.htm
 tech.root: devinst
 ms.assetid: d8067609-1046-4641-9f57-b0ee2be5a3b2

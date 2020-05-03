@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfo
 title: DhcpSetClientInfo function (dhcpsapi.h)
-description: The DhcpSetClientInfo function sets information on a client whose IP address lease is administrated by the DHCP server.
+description: The DhcpSetClientInfo function sets information on a client whose IP address lease is administrated by the DHCP server.helpviewer_keywords: ["DhcpSetClientInfo","DhcpSetClientInfo function [DHCP]","dhcp.dhcpsetclientinfo","dhcpsapi/DhcpSetClientInfo"]
 old-location: dhcp\dhcpsetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 1eedddce-8b3e-419e-a065-163b22a0e9a8

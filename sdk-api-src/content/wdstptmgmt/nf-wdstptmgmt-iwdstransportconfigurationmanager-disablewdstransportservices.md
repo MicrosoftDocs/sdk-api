@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.DisableWdsTransportServices
 title: IWdsTransportConfigurationManager::DisableWdsTransportServices (wdstptmgmt.h)
-description: Sets all WDS transport services to Disabled mode.
+description: Sets all WDS transport services to Disabled mode.helpviewer_keywords: ["DisableWdsTransportServices","DisableWdsTransportServices method [Windows Deployment Services]","DisableWdsTransportServices method [Windows Deployment Services]","IWdsTransportConfigurationManager interface","IWdsTransportConfigurationManager interface [Windows Deployment Services]","DisableWdsTransportServices method","IWdsTransportConfigurationManager.DisableWdsTransportServices","IWdsTransportConfigurationManager::DisableWdsTransportServices","wds.iwdstransportconfigurationmanager_disablewdstransportservices","wdstptmgmt/IWdsTransportConfigurationManager::DisableWdsTransportServices"]
 old-location: wds\iwdstransportconfigurationmanager_disablewdstransportservices.htm
 tech.root: wds
 ms.assetid: 46ded55b-f371-405a-bfcd-c361ac6fb5bd

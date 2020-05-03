@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetNextSample
 title: IWMSyncReader::GetNextSample (wmsdkidl.h)
-description: The GetNextSample method retrieves the next sample from the file.
+description: The GetNextSample method retrieves the next sample from the file.helpviewer_keywords: ["GetNextSample","GetNextSample method [windows Media Format]","GetNextSample method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetNextSample method","IWMSyncReader.GetNextSample","IWMSyncReader::GetNextSample","IWMSyncReaderGetNextSample","wmformat.iwmsyncreader_getnextsample","wmsdkidl/IWMSyncReader::GetNextSample"]
 old-location: wmformat\iwmsyncreader_getnextsample.htm
 tech.root: wmformat
 ms.assetid: 948047b3-3b87-4381-9320-c9602716ade2

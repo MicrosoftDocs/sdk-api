@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.IsTimeSeekSupported
 title: IMFByteStreamTimeSeek::IsTimeSeekSupported (mfidl.h)
-description: Queries whether the byte stream supports time-based seeking.
+description: Queries whether the byte stream supports time-based seeking.helpviewer_keywords: ["IMFByteStreamTimeSeek interface [Media Foundation]","IsTimeSeekSupported method","IMFByteStreamTimeSeek.IsTimeSeekSupported","IMFByteStreamTimeSeek::IsTimeSeekSupported","IsTimeSeekSupported","IsTimeSeekSupported method [Media Foundation]","IsTimeSeekSupported method [Media Foundation]","IMFByteStreamTimeSeek interface","mf.imfbytestreamtimeseek_istimeseeksupported","mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported"]
 old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm
 tech.root: medfound
 ms.assetid: 92FCE0EF-046C-4639-958E-731795C5A123

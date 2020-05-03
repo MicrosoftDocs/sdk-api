@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_AtEndOfStream
 title: IWSManEnumerator::get_AtEndOfStream (wsmandisp.h)
-description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.
+description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.helpviewer_keywords: ["AtEndOfStream property [Windows Remote Management]","AtEndOfStream property [Windows Remote Management]","IWSManEnumerator interface","IWSManEnumerator interface [Windows Remote Management]","AtEndOfStream property","IWSManEnumerator.AtEndOfStream","IWSManEnumerator.get_AtEndOfStream","IWSManEnumerator::AtEndOfStream","IWSManEnumerator::get_AtEndOfStream","get_AtEndOfStream","winrm.iwsmanenumerator_atendofstream","wsmandisp/IWSManEnumerator::AtEndOfStream","wsmandisp/IWSManEnumerator::get_AtEndOfStream"]
 old-location: winrm\iwsmanenumerator_atendofstream.htm
 tech.root: winrm
 ms.assetid: d80028b0-04ff-4c6d-90f5-1c81141a956c

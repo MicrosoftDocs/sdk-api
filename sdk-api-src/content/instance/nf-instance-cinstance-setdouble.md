@@ -1,7 +1,7 @@
 ---
 UID: NF:instance.CInstance.SetDOUBLE
 title: CInstance::SetDOUBLE (instance.h)
-description: CInstance::SetDOUBLE method
+description: CInstance::SetDOUBLE methodhelpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetDOUBLE method","CInstance.SetDOUBLE","CInstance::SetDOUBLE","SetDOUBLE","SetDOUBLE method [Windows Management Instrumentation]","SetDOUBLE method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setdouble","instance/CInstance::SetDOUBLE","wmi.cinstance_setdouble"]
 old-location: wmi\cinstance_setdouble.htm
 tech.root: WmiSdk
 ms.assetid: 5b6e2dcf-6feb-454a-a56a-79ae1506b4f9

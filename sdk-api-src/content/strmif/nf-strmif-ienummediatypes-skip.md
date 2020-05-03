@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Skip
 title: IEnumMediaTypes::Skip (strmif.h)
-description: The Skip method skips over a specified number of media types.
+description: The Skip method skips over a specified number of media types.helpviewer_keywords: ["IEnumMediaTypes interface [DirectShow]","Skip method","IEnumMediaTypes.Skip","IEnumMediaTypes::Skip","IEnumMediaTypesSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumMediaTypes interface","dshow.ienummediatypes_skip","strmif/IEnumMediaTypes::Skip"]
 old-location: dshow\ienummediatypes_skip.htm
 tech.root: DirectShow
 ms.assetid: 313628d0-256c-4142-bba5-7cd0c910610c

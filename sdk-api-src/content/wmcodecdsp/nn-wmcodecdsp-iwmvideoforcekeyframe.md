@@ -1,7 +1,7 @@
 ---
 UID: NN:wmcodecdsp.IWMVideoForceKeyFrame
 title: IWMVideoForceKeyFrame (wmcodecdsp.h)
-description: Forces the encoder to encode the current frame as a key frame.
+description: Forces the encoder to encode the current frame as a key frame.helpviewer_keywords: ["IWMVideoForceKeyFrame","IWMVideoForceKeyFrame interface [Media Foundation]","IWMVideoForceKeyFrame interface [Media Foundation]","described","codecapi.iwmvideoforcekeyframeinterface","mf.iwmvideoforcekeyframe","mf.iwmvideoforcekeyframeinterface","wmcodecdsp/IWMVideoForceKeyFrame"]
 old-location: mf\iwmvideoforcekeyframeinterface.htm
 tech.root: medfound
 ms.assetid: 74c8db81-f756-497f-a26e-7fb7563fc2c5

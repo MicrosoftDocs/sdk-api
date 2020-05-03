@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_GetIAccessible
 title: LegacyIAccessiblePattern_GetIAccessible function (uiautomationcoreapi.h)
-description: Retrieves an IAccessible object that corresponds to the UI Automation element.
+description: Retrieves an IAccessible object that corresponds to the UI Automation element.helpviewer_keywords: ["LegacyIAccessiblePattern_GetIAccessible","LegacyIAccessiblePattern_GetIAccessible function [Windows Accessibility]","uiauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat","uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat","uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible","winauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat"]
 old-location: winauto\uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat.htm
 tech.root: WinAuto
 ms.assetid: 4f05dae6-d315-457c-a496-fe915dd00265

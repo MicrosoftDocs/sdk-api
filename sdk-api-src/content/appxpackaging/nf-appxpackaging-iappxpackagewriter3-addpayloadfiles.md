@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter3.AddPayloadFiles
 title: IAppxPackageWriter3::AddPayloadFiles (appxpackaging.h)
-description: Adds one or more payload files to an app package.
+description: Adds one or more payload files to an app package.helpviewer_keywords: ["AddPayloadFiles","AddPayloadFiles method [App packaging and management]","AddPayloadFiles method [App packaging and management]","IAppxPackageWriter3 interface","IAppxPackageWriter3 interface [App packaging and management]","AddPayloadFiles method","IAppxPackageWriter3.AddPayloadFiles","IAppxPackageWriter3::AddPayloadFiles","appxpackaging/IAppxPackageWriter3::AddPayloadFiles","appxpkg.iappxpackagewriter3_addpayloadfiles"]
 old-location: appxpkg\iappxpackagewriter3_addpayloadfiles.htm
 tech.root: appxpkg
 ms.assetid: 3C798AC2-211B-4735-9860-4F43ADE12F0B

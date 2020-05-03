@@ -1,7 +1,7 @@
 ---
 UID: NF:winnetwk.WNetGetProviderNameA
 title: WNetGetProviderNameA function (winnetwk.h)
-description: The WNetGetProviderName function obtains the provider name for a specific type of network.
+description: The WNetGetProviderName function obtains the provider name for a specific type of network.helpviewer_keywords: ["WNetGetProviderName","WNetGetProviderName function [Windows Networking (WNet)]","WNetGetProviderNameA","WNetGetProviderNameW","_win32_wnetgetprovidername","winnetwk/WNetGetProviderName","winnetwk/WNetGetProviderNameA","winnetwk/WNetGetProviderNameW","wnet.wnetgetprovidername"]
 old-location: wnet\wnetgetprovidername.htm
 tech.root: WNet
 ms.assetid: c1369098-c574-4d5f-8051-ca5aa548e63f

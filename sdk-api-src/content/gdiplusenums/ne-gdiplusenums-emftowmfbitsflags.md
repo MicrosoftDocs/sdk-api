@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.EmfToWmfBitsFlags
 title: EmfToWmfBitsFlags (gdiplusenums.h)
-description: Specifies options for the Metafile::EmfToWmfBits method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
+description: Specifies options for the Metafile::EmfToWmfBits method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.helpviewer_keywords: ["EmfToWmfBitsFlags","EmfToWmfBitsFlags enumeration [GDI+]","EmfToWmfBitsFlagsDefault","EmfToWmfBitsFlagsEmbedEmf","EmfToWmfBitsFlagsIncludePlaceable","EmfToWmfBitsFlagsNoXORClip","_gdiplus_ENUM_EmfToWmfBitsFlags","gdiplus._gdiplus_ENUM_EmfToWmfBitsFlags","gdiplusenums/EmfToWmfBitsFlags","gdiplusenums/EmfToWmfBitsFlagsDefault","gdiplusenums/EmfToWmfBitsFlagsEmbedEmf","gdiplusenums/EmfToWmfBitsFlagsIncludePlaceable","gdiplusenums/EmfToWmfBitsFlagsNoXORClip"]
 old-location: gdiplus\_gdiplus_ENUM_EmfToWmfBitsFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emftowmfbitsflags.htm

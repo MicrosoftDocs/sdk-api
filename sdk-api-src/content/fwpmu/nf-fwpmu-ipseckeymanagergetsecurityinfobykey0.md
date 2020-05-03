@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagerGetSecurityInfoByKey0
 title: IPsecKeyManagerGetSecurityInfoByKey0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor that controls access to the key manager.
+description: Retrieves a copy of the security descriptor that controls access to the key manager.helpviewer_keywords: ["IPsecKeyManagerGetSecurityInfoByKey0","IPsecKeyManagerGetSecurityInfoByKey0 function [Filtering]","fwp.ipseckeymanagergetsecurityinfobykey0","fwpmu/IPsecKeyManagerGetSecurityInfoByKey0"]
 old-location: fwp\ipseckeymanagergetsecurityinfobykey0.htm
 tech.root: fwp
 ms.assetid: 38F5369F-7885-4EEF-AB21-C5A44E35FC5E

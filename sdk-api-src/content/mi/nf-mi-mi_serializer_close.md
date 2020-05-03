@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Serializer_Close
 title: MI_Serializer_Close function (mi.h)
-description: Closes a serializer object and frees any internal memory associated with it.
+description: Closes a serializer object and frees any internal memory associated with it.helpviewer_keywords: ["MI_Serializer_Close","MI_Serializer_Close function [Windows Management Infrastructure (MI)]","mi/MI_Serializer_Close","wmi_v2.mi_serializer_close"]
 old-location: wmi_v2\mi_serializer_close.htm
 tech.root: wmi_v2
 ms.assetid: fbae767d-1f30-4b73-8978-ea14ce707303

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetAccessibilityLongDescription
 title: IXpsOMPath::SetAccessibilityLongDescription (xpsobjectmodel.h)
-description: Sets the long (detailed) textual description of the object's contents.
+description: Sets the long (detailed) textual description of the object's contents.helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetAccessibilityLongDescription method","IXpsOMPath.SetAccessibilityLongDescription","IXpsOMPath::SetAccessibilityLongDescription","SetAccessibilityLongDescription","SetAccessibilityLongDescription method [XPS Documents and Packaging]","SetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setaccessibilitylongdescription","xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription"]
 old-location: xps\ixpsompath_setaccessibilitylongdescription.htm
 tech.root: printdocs
 ms.assetid: 9727cbea-55f7-48ad-8205-d68d0c906250

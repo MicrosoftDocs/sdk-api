@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Application_NewClass
 title: MI_Application_NewClass function (mi.h)
-description: Creates an MI_Class from an MI_ClassDecl structure.
+description: Creates an MI_Class from an MI_ClassDecl structure.helpviewer_keywords: ["MI_Application_NewClass","MI_Application_NewClass function [Windows Management Infrastructure (MI)]","mi/MI_Application_NewClass","wmi_v2.mi_application_newclass"]
 old-location: wmi_v2\mi_application_newclass.htm
 tech.root: wmi_v2
 ms.assetid: f325532e-8e29-40d4-ab7f-52f318ae9349

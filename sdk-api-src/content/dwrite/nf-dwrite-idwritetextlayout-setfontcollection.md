@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontCollection
 title: IDWriteTextLayout::SetFontCollection (dwrite.h)
-description: Sets the font collection.
+description: Sets the font collection.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetFontCollection method","IDWriteTextLayout.SetFontCollection","IDWriteTextLayout::SetFontCollection","SetFontCollection","SetFontCollection method [Direct Write]","SetFontCollection method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetFontCollection","dwrite/IDWriteTextLayout::SetFontCollection"]
 old-location: directwrite\IDWriteTextLayout_SetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: e80038bd-e157-4f76-85c7-559cadacb5c4

@@ -2,6 +2,7 @@
 UID: NE:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0001
 title: XPS_JOB_COMPLETION (xpsprint.h)
 description: Indicates the completion status of a print job.
+helpviewer_keywords: ["XPS_JOB_CANCELLED","XPS_JOB_COMPLETED","XPS_JOB_COMPLETION","XPS_JOB_COMPLETION enumeration [Windows GDI]","XPS_JOB_FAILED","XPS_JOB_IN_PROGRESS","gdi.xps_job_completion","xpsprint/XPS_JOB_CANCELLED","xpsprint/XPS_JOB_COMPLETED","xpsprint/XPS_JOB_COMPLETION","xpsprint/XPS_JOB_FAILED","xpsprint/XPS_JOB_IN_PROGRESS"]
 old-location: gdi\xps_job_completion.htm
 tech.root: printdocs
 ms.assetid: a0bfb708-033a-4493-a878-0ebdcaae672f
@@ -76,7 +77,7 @@ The print job was cancelled by a call to <a href="https://docs.microsoft.com/win
 
 ### -field XPS_JOB_FAILED
 
-The print job failed. The <b>jobStatus</b> member of <a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a> contains the error code of the failure.
+The print job failed. The <b>jobStatus</b> member of <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a> contains the error code of the failure.
 
 
 ## -see-also
@@ -96,7 +97,7 @@ The print job failed. The <b>jobStatus</b> member of <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
+<a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
  
 
  

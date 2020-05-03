@@ -2,6 +2,7 @@
 UID: NF:wincrypt.CertVerifyCertificateChainPolicy
 title: CertVerifyCertificateChainPolicy function (wincrypt.h)
 description: Checks a certificate chain to verify its validity, including its compliance with any specified validity policy criteria.
+helpviewer_keywords: ["CERT_CHAIN_POLICY_AUTHENTICODE","CERT_CHAIN_POLICY_AUTHENTICODE_TS","CERT_CHAIN_POLICY_BASE","CERT_CHAIN_POLICY_BASIC_CONSTRAINTS","CERT_CHAIN_POLICY_EV","CERT_CHAIN_POLICY_MICROSOFT_ROOT","CERT_CHAIN_POLICY_NT_AUTH","CERT_CHAIN_POLICY_SSL","CERT_CHAIN_POLICY_SSL_F12","CertVerifyCertificateChainPolicy","CertVerifyCertificateChainPolicy function [Security]","_crypto2_certverifycertificatechainpolicy","security.certverifycertificatechainpolicy","wincrypt/CertVerifyCertificateChainPolicy"]
 old-location: security\certverifycertificatechainpolicy.htm
 tech.root: SecCrypto
 ms.assetid: 19c37f77-1072-4740-b244-764b816a2a1f
@@ -85,9 +86,9 @@ Implements the base chain policy verification checks. The <b>dwFlags</b> member 
 </td>
 <td width="60%">
 Implements the Authenticode chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the structure pointed to by <i>pPolicyPara</i> can be set to point to an 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_para">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_para">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
 
-The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyStatus</i> can be set to point to an <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
+The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyStatus</i> can be set to point to an <a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyS
 </dl>
 </td>
 <td width="60%">
-Implements Authenticode Time Stamp chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_ts_extra_cert_chain_policy_para">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
+Implements Authenticode Time Stamp chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_ts_extra_cert_chain_policy_para">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
 
 The <b>pvExtraPolicyStatus</b> member of the data structure pointed to by <i>pPolicyStatus</i> is not used and must be set to <b>NULL</b>
 
@@ -189,7 +190,7 @@ Specifies that extended validation of certificates is performed.
 </dl>
 </td>
 <td width="60%">
-Checks if any certificates in the chain have weak crypto or if third party root certificate compliance and provide an error string. The <b>pvExtraPolicyStatus</b> member of the CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must point to <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-ssl_f12_extra_cert_chain_policy_status">SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</a>, which is updated with the results of the weak crypto and root program compliance checks.
+Checks if any certificates in the chain have weak crypto or if third party root certificate compliance and provide an error string. The <b>pvExtraPolicyStatus</b> member of the CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must point to <a href="/windows/win32/api/wincrypt/ns-wincrypt-ssl_f12_extra_cert_chain_policy_status">SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</a>, which is updated with the results of the weak crypto and root program compliance checks.
 
 Before calling, the <b>cbSize</b> member of the 	CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must be set to a value greater than or equal to sizeof(SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS).
 
@@ -262,15 +263,15 @@ To get the certificate element use this syntax:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_para">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a>
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_para">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a>
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-authenticode_ts_extra_cert_chain_policy_para">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a>
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_ts_extra_cert_chain_policy_para">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a>
 
 
 

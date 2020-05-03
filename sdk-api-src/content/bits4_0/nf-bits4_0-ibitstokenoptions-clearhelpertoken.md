@@ -1,7 +1,7 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.ClearHelperToken
 title: IBitsTokenOptions::ClearHelperToken (bits4_0.h)
-description: Discards the helper token, and does not change the usage flags.
+description: Discards the helper token, and does not change the usage flags.helpviewer_keywords: ["ClearHelperToken","ClearHelperToken method [BITS]","ClearHelperToken method [BITS]","IBitsTokenOptions interface","IBitsTokenOptions interface [BITS]","ClearHelperToken method","IBitsTokenOptions.ClearHelperToken","IBitsTokenOptions::ClearHelperToken","bits.ibitstokenoptions_clearhelpertoken","bits4_0/IBitsTokenOptions::ClearHelperToken"]
 old-location: bits\ibitstokenoptions_clearhelpertoken.htm
 tech.root: Bits
 ms.assetid: 5af3496e-0792-46cc-bfc3-8ac6193724d1

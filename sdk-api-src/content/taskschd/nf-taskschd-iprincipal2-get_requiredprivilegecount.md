@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilegeCount
 title: IPrincipal2::get_RequiredPrivilegeCount (taskschd.h)
-description: Gets the number of privileges in the required privileges array.
+description: Gets the number of privileges in the required privileges array.helpviewer_keywords: ["IPrincipal2 interface [Task Scheduler]","RequiredPrivilegeCount property","IPrincipal2.RequiredPrivilegeCount","IPrincipal2.get_RequiredPrivilegeCount","IPrincipal2::RequiredPrivilegeCount","IPrincipal2::get_RequiredPrivilegeCount","RequiredPrivilegeCount property [Task Scheduler]","RequiredPrivilegeCount property [Task Scheduler]","IPrincipal2 interface","get_RequiredPrivilegeCount","taskschd.iprincipal2_requiredprivilegecount","taskschd/IPrincipal2::RequiredPrivilegeCount","taskschd/IPrincipal2::get_RequiredPrivilegeCount"]
 old-location: taskschd\iprincipal2_requiredprivilegecount.htm
 tech.root: taskschd
 ms.assetid: b80cb1ad-8d28-4e38-82c4-92f1ce8fbc55

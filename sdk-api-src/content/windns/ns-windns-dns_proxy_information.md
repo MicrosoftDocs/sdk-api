@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.DNS_PROXY_INFORMATION
 title: DNS_PROXY_INFORMATION (windns.h)
-description: Contains the proxy information for a DNS server's name resolution policy table.
+description: Contains the proxy information for a DNS server's name resolution policy table.helpviewer_keywords: ["DNS_PROXY_INFORMATION","DNS_PROXY_INFORMATION structure [DNS]","PDNS_PROXY_INFORMATION","PDNS_PROXY_INFORMATION structure pointer [DNS]","dns.dns_proxy_information","windns/DNS_PROXY_INFORMATION","windns/PDNS_PROXY_INFORMATION"]
 old-location: dns\dns_proxy_information.htm
 tech.root: DNS
 ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8

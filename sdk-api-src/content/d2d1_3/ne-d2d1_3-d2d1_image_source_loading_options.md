@@ -2,6 +2,7 @@
 UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 title: D2D1_IMAGE_SOURCE_LOADING_OPTIONS (d2d1_3.h)
 description: Controls option flags for a new ID2D1ImageSource when it is created.
+helpviewer_keywords: ["D2D1_IMAGE_SOURCE_LOADING_OPTIONS","D2D1_IMAGE_SOURCE_LOADING_OPTIONS enumeration [Direct2D]","D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND","D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE","D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE","d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS","d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND","d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE","d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE","direct2d.D2D1_IMAGE_SOURCE_LOADING_OPTIONS"]
 old-location: direct2d\D2D1_IMAGE_SOURCE_LOADING_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: b2dcd7aa-177c-62bf-cb3e-2eb4bd4f9627
@@ -73,8 +74,8 @@ Indicates the image source should release its reference to the WIC bitmap source
 ### -field D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND
 
 Indicates the image source should only populate subregions of the image cache on-demand. You can control this behavior using 
-        the <a href="https://docs.microsoft.com/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-ensurecached(constd2d1_rect_u)">EnsureCached</a> 
-          and <a href="https://docs.microsoft.com/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-trimcache(constd2d1_rect_u)">TrimCache</a> methods. 
+        the <a href="/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-ensurecached(constd2d1_rect_u)">EnsureCached</a> 
+          and <a href="/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-trimcache(constd2d1_rect_u)">TrimCache</a> methods. 
         This options provides the ability to improve memory usage by only keeping needed portions of the image in memory. 
         This option requires that the image source has a reference to the WIC bitmap source, and is incompatible with D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE.
 

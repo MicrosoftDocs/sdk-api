@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxRecursiveDepth
 title: IConfigurationDataCollector::get_FileMaxRecursiveDepth (pla.h)
-description: Retrieves or sets the maximum number of subfolders from which to recursively collect files.
+description: Retrieves or sets the maximum number of subfolders from which to recursively collect files.helpviewer_keywords: ["FileMaxRecursiveDepth property [PLA]","FileMaxRecursiveDepth property [PLA]","IConfigurationDataCollector interface","IConfigurationDataCollector interface [PLA]","FileMaxRecursiveDepth property","IConfigurationDataCollector.FileMaxRecursiveDepth","IConfigurationDataCollector.get_FileMaxRecursiveDepth","IConfigurationDataCollector::FileMaxRecursiveDepth","IConfigurationDataCollector::get_FileMaxRecursiveDepth","IConfigurationDataCollector::put_FileMaxRecursiveDepth","base.iconfigurationdatacollector_filemaxrecursivedepth","get_FileMaxRecursiveDepth","pla.iconfigurationdatacollector_filemaxrecursivedepth","pla/IConfigurationDataCollector::FileMaxRecursiveDepth","pla/IConfigurationDataCollector::get_FileMaxRecursiveDepth","pla/IConfigurationDataCollector::put_FileMaxRecursiveDepth"]
 old-location: pla\iconfigurationdatacollector_filemaxrecursivedepth.htm
 tech.root: PLA
 ms.assetid: 79a87a02-6e9e-4b21-b90f-59c600349ae0

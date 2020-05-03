@@ -1,7 +1,7 @@
 ---
 UID: NF:winefs.QueryRecoveryAgentsOnEncryptedFile
 title: QueryRecoveryAgentsOnEncryptedFile function (winefs.h)
-description: Retrieves a list of recovery agents for the specified file.
+description: Retrieves a list of recovery agents for the specified file.helpviewer_keywords: ["QueryRecoveryAgentsOnEncryptedFile","QueryRecoveryAgentsOnEncryptedFile function [Files]","_win32_queryrecoveryagentsonencryptedfile","base.queryrecoveryagentsonencryptedfile","fs.queryrecoveryagentsonencryptedfile","winefs/QueryRecoveryAgentsOnEncryptedFile"]
 old-location: fs\queryrecoveryagentsonencryptedfile.htm
 tech.root: FileIO
 ms.assetid: 2f8d0673-3c87-46a4-b7d5-3888d20bd9b8

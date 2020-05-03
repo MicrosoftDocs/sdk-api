@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IQualityControl
 title: IQualityControl (strmif.h)
-description: The IQualityControl interface provides support for quality control.
+description: The IQualityControl interface provides support for quality control.helpviewer_keywords: ["IQualityControl","IQualityControl interface [DirectShow]","IQualityControl interface [DirectShow]","described","IQualityControlInterface","dshow.iqualitycontrol","strmif/IQualityControl"]
 old-location: dshow\iqualitycontrol.htm
 tech.root: DirectShow
 ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8

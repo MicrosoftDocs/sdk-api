@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheck.ISpellingError
 title: ISpellingError (spellcheck.h)
-description: Provides information about a spelling error.
+description: Provides information about a spelling error.helpviewer_keywords: ["ISpellingError","ISpellingError interface [Internationalization for Windows Applications]","ISpellingError interface [Internationalization for Windows Applications]","described","intl.ispellingerror","spellcheck/ISpellingError"]
 old-location: intl\ispellingerror.htm
 tech.root: Intl
 ms.assetid: 90a233a4-44a4-4f8f-92bb-ea65fa213616

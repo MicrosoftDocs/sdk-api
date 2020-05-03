@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFClock.GetClockCharacteristics
 title: IMFClock::GetClockCharacteristics (mfidl.h)
-description: Retrieves the characteristics of the clock.
+description: Retrieves the characteristics of the clock.helpviewer_keywords: ["50a81e8b-9aa8-484c-afb7-950068feefc4","GetClockCharacteristics","GetClockCharacteristics method [Media Foundation]","GetClockCharacteristics method [Media Foundation]","IMFClock interface","IMFClock interface [Media Foundation]","GetClockCharacteristics method","IMFClock.GetClockCharacteristics","IMFClock::GetClockCharacteristics","mf.imfclock_getclockcharacteristics","mfidl/IMFClock::GetClockCharacteristics"]
 old-location: mf\imfclock_getclockcharacteristics.htm
 tech.root: medfound
 ms.assetid: 50a81e8b-9aa8-484c-afb7-950068feefc4

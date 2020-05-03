@@ -1,7 +1,7 @@
 ---
 UID: NS:shobjidl_core.SORTCOLUMN
 title: SORTCOLUMN (shobjidl_core.h)
-description: Stores information about how to sort a column that is displayed in the folder view.
+description: Stores information about how to sort a column that is displayed in the folder view.helpviewer_keywords: ["SORTCOLUMN","SORTCOLUMN structure [Windows Shell]","SORT_ASCENDING","SORT_DESCENDING","_shell_SORTCOLUMN","shell.SORTCOLUMN","shobjidl_core/SORTCOLUMN"]
 old-location: shell\SORTCOLUMN.htm
 tech.root: shell
 ms.assetid: 3ca4c318-6462-4e22-813c-ef7b3ef03230

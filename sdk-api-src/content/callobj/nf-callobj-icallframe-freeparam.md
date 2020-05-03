@@ -1,7 +1,7 @@
 ---
 UID: NF:callobj.ICallFrame.FreeParam
 title: ICallFrame::FreeParam (callobj.h)
-description: Frees the specified parameter in the frame.
+description: Frees the specified parameter in the frame.helpviewer_keywords: ["FreeParam","FreeParam method [COM]","FreeParam method [COM]","ICallFrame interface","ICallFrame interface [COM]","FreeParam method","ICallFrame.FreeParam","ICallFrame::FreeParam","_com_icallframe_freeparam","callobj/ICallFrame::FreeParam","com.icallframe_freeparam"]
 old-location: com\icallframe_freeparam.htm
 tech.root: com
 ms.assetid: b141bfc4-de1b-4251-b88f-551d0805e9b6

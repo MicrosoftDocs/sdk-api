@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_READ_CTL
 title: PFN_CERT_STORE_PROV_READ_CTL (wincrypt.h)
-description: The CertStoreProvReadCTL callback function is called to read the provider's copy of the CTL context and, if it exists, to create a new CTL context.
+description: The CertStoreProvReadCTL callback function is called to read the provider's copy of the CTL context and, if it exists, to create a new CTL context.helpviewer_keywords: ["CertStoreProvReadCTL","PFN_CERT_STORE_PROV_READ_CTL","PFN_CERT_STORE_PROV_READ_CTL callback","PFN_CERT_STORE_PROV_READ_CTL callback function [Security]","_crypto2_certstoreprovreadctl","security.certstoreprovreadctl","wincrypt/PFN_CERT_STORE_PROV_READ_CTL"]
 old-location: security\certstoreprovreadctl.htm
 tech.root: SecCrypto
 ms.assetid: 09fbf42d-ed7a-4b1d-bad6-3bf8f216603c

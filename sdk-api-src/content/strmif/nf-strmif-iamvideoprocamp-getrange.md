@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.GetRange
 title: IAMVideoProcAmp::GetRange (strmif.h)
-description: The GetRange method gets the range and default value of a specified video property.
+description: The GetRange method gets the range and default value of a specified video property.helpviewer_keywords: ["GetRange","GetRange method [DirectShow]","GetRange method [DirectShow]","IAMVideoProcAmp interface","IAMVideoProcAmp interface [DirectShow]","GetRange method","IAMVideoProcAmp.GetRange","IAMVideoProcAmp::GetRange","IAMVideoProcAmpGetRange","dshow.iamvideoprocamp_getrange","strmif/IAMVideoProcAmp::GetRange"]
 old-location: dshow\iamvideoprocamp_getrange.htm
 tech.root: DirectShow
 ms.assetid: 54e462a8-bb65-43e2-acf1-f0d64db2bf24

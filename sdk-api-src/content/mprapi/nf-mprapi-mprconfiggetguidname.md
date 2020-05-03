@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigGetGuidName
 title: MprConfigGetGuidName function (mprapi.h)
-description: The MprConfigGetGuidName function returns the GUID name for an interface that corresponds to the specified friendly name.
+description: The MprConfigGetGuidName function returns the GUID name for an interface that corresponds to the specified friendly name.helpviewer_keywords: ["MprConfigGetGuidName","MprConfigGetGuidName function [RAS]","_mpr_mprconfiggetguidname","mprapi/MprConfigGetGuidName","rras.mprconfiggetguidname"]
 old-location: rras\mprconfiggetguidname.htm
 tech.root: RRAS
 ms.assetid: 017662f7-7974-4598-a729-19181ccdfbe0

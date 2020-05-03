@@ -2,6 +2,7 @@
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorRedGreenOrBlueDrive
 title: GetMonitorRedGreenOrBlueDrive function (highlevelmonitorconfigurationapi.h)
 description: Retrieves a monitor's red, green, or blue drive value.
+helpviewer_keywords: ["GetMonitorRedGreenOrBlueDrive","GetMonitorRedGreenOrBlueDrive function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorRedGreenOrBlueDrive","monitor.getmonitorredgreenorbluedrive"]
 old-location: monitor\getmonitorredgreenorbluedrive.htm
 tech.root: Monitor
 ms.assetid: 4c590d1c-be28-401a-a0e9-dacf6b86a569
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param dtDriveType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_drive_type">MC_DRIVE_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue drive value.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_drive_type">MC_DRIVE_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue drive value.
           
 
 

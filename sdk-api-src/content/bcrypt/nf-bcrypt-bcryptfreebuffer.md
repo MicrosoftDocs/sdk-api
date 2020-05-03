@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptFreeBuffer
 title: BCryptFreeBuffer function (bcrypt.h)
-description: Used to free memory that was allocated by one of the CNG functions.
+description: Used to free memory that was allocated by one of the CNG functions.helpviewer_keywords: ["BCryptFreeBuffer","BCryptFreeBuffer function [Security]","bcrypt/BCryptFreeBuffer","security.bcryptfreebuffer_func"]
 old-location: security\bcryptfreebuffer_func.htm
 tech.root: SecCNG
 ms.assetid: 0ee83ca1-2fe6-4ff2-823e-888b3e66f310

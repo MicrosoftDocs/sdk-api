@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationFrameInfoProvider.GetNextFrameInfo
 title: IDirectManipulationFrameInfoProvider::GetNextFrameInfo (directmanipulation.h)
-description: Retrieves the composition timing information from the compositor.
+description: Retrieves the composition timing information from the compositor.helpviewer_keywords: ["GetNextFrameInfo","GetNextFrameInfo method [Direct Manipulation]","GetNextFrameInfo method [Direct Manipulation]","IDirectManipulationFrameInfoProvider interface","IDirectManipulationFrameInfoProvider interface [Direct Manipulation]","GetNextFrameInfo method","IDirectManipulationFrameInfoProvider.GetNextFrameInfo","IDirectManipulationFrameInfoProvider::GetNextFrameInfo","directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo","directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo"]
 old-location: directmanipulation\idirectmanipulationframeinfoprovider_getnextframeinfo.htm
 tech.root: directmanipulation
 ms.assetid: 3f561b81-241f-4f7a-bb5f-a89faf253c98

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetMenuLanguages
 title: IDvdInfo2::GetMenuLanguages (strmif.h)
-description: The GetMenuLanguages method retrieves all the languages available for all menus on the disc.
+description: The GetMenuLanguages method retrieves all the languages available for all menus on the disc.helpviewer_keywords: ["GetMenuLanguages","GetMenuLanguages method [DirectShow]","GetMenuLanguages method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetMenuLanguages method","IDvdInfo2.GetMenuLanguages","IDvdInfo2::GetMenuLanguages","IDvdInfo2GetMenuLanguages","dshow.idvdinfo2_getmenulanguages","strmif/IDvdInfo2::GetMenuLanguages"]
 old-location: dshow\idvdinfo2_getmenulanguages.htm
 tech.root: DirectShow
 ms.assetid: 97c95208-e2fc-4c9a-b8ba-61419b96aec9

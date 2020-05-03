@@ -1,7 +1,7 @@
 ---
 UID: NE:evntprov._EVENT_INFO_CLASS
 title: EVENT_INFO_CLASS (evntprov.h)
-description: Defines a type of operation to perform on a registration object.
+description: Defines a type of operation to perform on a registration object.helpviewer_keywords: ["EVENT_INFO_CLASS","EVENT_INFO_CLASS enumeration [ETW]","EventProviderBinaryTrackInfo","EventProviderSetTraits","EventProviderUseDescriptorType","MaxEventInfo","etw.event_info_class","evntprov/EVENT_INFO_CLASS","evntprov/EventProviderBinaryTrackInfo","evntprov/EventProviderSetTraits","evntprov/EventProviderUseDescriptorType","evntprov/MaxEventInfo"]
 old-location: etw\event_info_class.htm
 tech.root: ETW
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4

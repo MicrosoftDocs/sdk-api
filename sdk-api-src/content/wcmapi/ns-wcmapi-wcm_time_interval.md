@@ -1,7 +1,7 @@
 ---
 UID: NS:wcmapi._WCM_TIME_INTERVAL
 title: WCM_TIME_INTERVAL (wcmapi.h)
-description: Defines a time interval.
+description: Defines a time interval.helpviewer_keywords: ["WCM_TIME_INTERVAL","WCM_TIME_INTERVAL structure [Windows Connection Manager]","wcm.wcm_time_interval","wcmapi/WCM_TIME_INTERVAL"]
 old-location: wcm\wcm_time_interval.htm
 tech.root: wcm
 ms.assetid: 7744a577-5f3d-4cdd-b74d-a1430ea20b37

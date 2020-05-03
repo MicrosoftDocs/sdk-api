@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMemInputPin.NotifyAllocator
 title: IMemInputPin::NotifyAllocator (strmif.h)
-description: The NotifyAllocator method specifies an allocator for the connection.
+description: The NotifyAllocator method specifies an allocator for the connection.helpviewer_keywords: ["IMemInputPin interface [DirectShow]","NotifyAllocator method","IMemInputPin.NotifyAllocator","IMemInputPin::NotifyAllocator","IMemInputPinNotifyAllocator","NotifyAllocator","NotifyAllocator method [DirectShow]","NotifyAllocator method [DirectShow]","IMemInputPin interface","dshow.imeminputpin_notifyallocator","strmif/IMemInputPin::NotifyAllocator"]
 old-location: dshow\imeminputpin_notifyallocator.htm
 tech.root: DirectShow
 ms.assetid: dbc9c0ce-3e9c-4402-9d3e-1c7295e94ad9

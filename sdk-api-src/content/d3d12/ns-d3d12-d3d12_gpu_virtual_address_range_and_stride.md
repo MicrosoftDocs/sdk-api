@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
 title: D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE (d3d12.h)
-description: Represents a GPU virtual address range and stride.
+description: Represents a GPU virtual address range and stride.helpviewer_keywords: ["D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE","D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE structure","PD3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE","PD3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE structure pointer","d3d12/D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE","d3d12/PD3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE","direct3d12.d3d12_gpu_virtual_address_range_and_stride"]
 old-location: direct3d12\d3d12_gpu_virtual_address_range_and_stride.htm
 tech.root: direct3d12
 ms.assetid: 15BC9F12-E537-47D2-A200-ECD62A0D7728

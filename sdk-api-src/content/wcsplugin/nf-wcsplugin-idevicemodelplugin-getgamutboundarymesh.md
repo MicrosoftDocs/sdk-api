@@ -1,7 +1,7 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMesh
 title: IDeviceModelPlugIn::GetGamutBoundaryMesh (wcsplugin.h)
-description: Returns the triangular mesh from the plug-in. This function is used to compute the GamutBoundaryDescription.
+description: Returns the triangular mesh from the plug-in. This function is used to compute the GamutBoundaryDescription.helpviewer_keywords: ["GetGamutBoundaryMesh","GetGamutBoundaryMesh method [Windows Color System]","GetGamutBoundaryMesh method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","GetGamutBoundaryMesh method","IDeviceModelPlugIn.GetGamutBoundaryMesh","IDeviceModelPlugIn::GetGamutBoundaryMesh","_color_IDeviceModelPlugIn::GetGamutBoundaryMesh","wcs.IDeviceModelPlugIn_GetGamutBoundaryMesh","wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMesh"]
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMesh.htm
 tech.root: WCS
 ms.assetid: 275269d3-e542-41b3-80d6-e1c90f296456

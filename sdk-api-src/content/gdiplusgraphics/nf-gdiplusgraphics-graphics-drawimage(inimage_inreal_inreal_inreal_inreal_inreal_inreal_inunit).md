@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit)
 title: Graphics::DrawImage(IN Image,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN Unit) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image.
+description: The Graphics::DrawImage method draws an image.helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN Unit)","Graphics.DrawImage(Image*","REAL","REAL","REAL","REAL","REAL","REAL","Unit)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN Unit)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_REAL_srcx_REAL_srcy_REAL_srcwidth_REAL_s","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_REAL_srcx_REAL_srcy_REAL_srcwidth_REAL_s"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_REAL_x_REAL_y_REAL_srcx_REAL_srcy_REAL_srcwidth_REAL_s.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_44imageimage_realx_realy_realsrcx_realsr.htm

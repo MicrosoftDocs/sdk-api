@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetFilterFlags
 title: IOfflineFilesItemFilter::GetFilterFlags (cscobj.h)
-description: Provides flags to control flag-based filtering of items.
+description: Provides flags to control flag-based filtering of items.helpviewer_keywords: ["GetFilterFlags","GetFilterFlags method [Offline Files]","GetFilterFlags method [Offline Files]","IOfflineFilesItemFilter interface","IOfflineFilesItemFilter interface [Offline Files]","GetFilterFlags method","IOfflineFilesItemFilter.GetFilterFlags","IOfflineFilesItemFilter::GetFilterFlags","cscobj/IOfflineFilesItemFilter::GetFilterFlags","of.iofflinefilesitemfilter_getfilterflags"]
 old-location: of\iofflinefilesitemfilter_getfilterflags.htm
 tech.root: offlinefiles
 ms.assetid: 75466fc7-d14c-4ce7-82e9-9622287a50d1

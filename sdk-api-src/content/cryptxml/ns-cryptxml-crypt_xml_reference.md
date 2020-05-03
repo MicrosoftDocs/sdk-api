@@ -2,6 +2,7 @@
 UID: NS:cryptxml._CRYPT_XML_REFERENCE
 title: CRYPT_XML_REFERENCE (cryptxml.h)
 description: Contains information used to populate the Reference element.
+helpviewer_keywords: ["*PCRYPT_XML_REFERENCE","CRYPT_XML_REFERENCE","CRYPT_XML_REFERENCE structure [Security]","PCRYPT_XML_REFERENCE","PCRYPT_XML_REFERENCE structure pointer [Security]","cryptxml/CRYPT_XML_REFERENCE","cryptxml/PCRYPT_XML_REFERENCE","security.crypt_xml_reference"]
 old-location: security\crypt_xml_reference.htm
 tech.root: SecCrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
@@ -89,7 +90,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-c
 
 ### -field DigestValue
 
-A <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
+A <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
 
 
 ### -field cTransform

@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.PowerCanRestoreIndividualDefaultPowerScheme
 title: PowerCanRestoreIndividualDefaultPowerScheme function (powrprof.h)
-description: Determines if the current user has access to the data for the specified power scheme so that it could be restored if necessary.
+description: Determines if the current user has access to the data for the specified power scheme so that it could be restored if necessary.helpviewer_keywords: ["PowerCanRestoreIndividualDefaultPowerScheme","PowerCanRestoreIndividualDefaultPowerScheme function","base.powercanrestoreindividualdefaultpowerscheme","powrprof/PowerCanRestoreIndividualDefaultPowerScheme"]
 old-location: base\powercanrestoreindividualdefaultpowerscheme.htm
 tech.root: power
 ms.assetid: 8f29c993-b237-4302-a48b-05368ead9a44

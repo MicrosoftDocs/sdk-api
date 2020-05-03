@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComMethodEvents.OnMethodException
 title: IComMethodEvents::OnMethodException (comsvcs.h)
 description: Generated when an object's method generates an exception.
+helpviewer_keywords: ["IComMethodEvents interface [COM+]","OnMethodException method","IComMethodEvents.OnMethodException","IComMethodEvents::OnMethodException","OnMethodException","OnMethodException method [COM+]","OnMethodException method [COM+]","IComMethodEvents interface","_dtc_IComMethodEvents_OnMethodException","comsvcs/IComMethodEvents::OnMethodException","cos.icommethodevents_onmethodexception"]
 old-location: cos\icommethodevents_onmethodexception.htm
 tech.root: cossdk
 ms.assetid: b504a2db-0d18-42f1-8572-dc066c3e7740
@@ -59,7 +60,7 @@ Generated when an object's method generates an exception.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param oid [in]

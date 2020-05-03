@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedXor8
 title: InterlockedXor8 function (winnt.h)
-description: Performs an atomic XOR operation on the specified char values.
+description: Performs an atomic XOR operation on the specified char values.helpviewer_keywords: ["InterlockedXor8","InterlockedXor8 function","base.interlockedxor8","winnt/InterlockedXor8"]
 old-location: base\interlockedxor8.htm
 tech.root: Sync
 ms.assetid: 9b96417e-dc2e-4b67-8084-0c0219444299

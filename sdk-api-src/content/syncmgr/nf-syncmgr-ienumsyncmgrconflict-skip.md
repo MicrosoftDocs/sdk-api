@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Skip
 title: IEnumSyncMgrConflict::Skip (syncmgr.h)
-description: Skips forward the specified number of conflicts in the enumeration.
+description: Skips forward the specified number of conflicts in the enumeration.helpviewer_keywords: ["IEnumSyncMgrConflict interface [Windows Shell]","Skip method","IEnumSyncMgrConflict.Skip","IEnumSyncMgrConflict::Skip","Skip","Skip method [Windows Shell]","Skip method [Windows Shell]","IEnumSyncMgrConflict interface","_shell_IEnumSyncMgrConflict_Skip","shell.IEnumSyncMgrConflict_Skip","syncmgr/IEnumSyncMgrConflict::Skip"]
 old-location: shell\IEnumSyncMgrConflict_Skip.htm
 tech.root: shell
 ms.assetid: d636dd60-835f-40a8-b2e6-7d7ebf87e897

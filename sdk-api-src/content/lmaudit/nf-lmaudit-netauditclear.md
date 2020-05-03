@@ -1,7 +1,7 @@
 ---
 UID: NF:lmaudit.NetAuditClear
 title: NetAuditClear function (lmaudit.h)
-description: The NetAuditClear function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
+description: The NetAuditClear function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.helpviewer_keywords: ["NetAuditClear","NetAuditClear function [Network Management]","_win32_netauditclear","lmaudit/NetAuditClear","netmgmt.netauditclear"]
 old-location: netmgmt\netauditclear.htm
 tech.root: NetMgmt
 ms.assetid: e767ba9a-3df8-49db-80b3-9f0875cdeaaa

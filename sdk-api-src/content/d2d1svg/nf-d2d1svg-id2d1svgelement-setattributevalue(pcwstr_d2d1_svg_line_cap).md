@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP) (d2d1svg.h)
-description: Sets an attribute of this element as a line cap value. This method can be used to set the value of the stroke-linecap property.
+description: Sets an attribute of this element as a line cap value. This method can be used to set the value of the stroke-linecap property.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","D2D1_SVG_LINE_CAP)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","D2D1_SVG_LINE_CAP)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_10"]
 old-location: direct2d\id2d1svgelement_setattributevalue_10.htm
 tech.root: Direct2D
 ms.assetid: 5348071B-36B7-40B7-8CF2-A7C185D30510

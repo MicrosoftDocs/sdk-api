@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateScaleTransform
 title: IDCompositionDevice::CreateScaleTransform (dcomp.h)
-description: Creates a 2D scale transform object.
+description: Creates a 2D scale transform object.helpviewer_keywords: ["CreateScaleTransform","CreateScaleTransform method [DirectComposition]","CreateScaleTransform method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateScaleTransform method","IDCompositionDevice.CreateScaleTransform","IDCompositionDevice::CreateScaleTransform","dcomp/IDCompositionDevice::CreateScaleTransform","directcomp.idcompositiondevice_createscaletransform"]
 old-location: directcomp\idcompositiondevice_createscaletransform.htm
 tech.root: directcomp
 ms.assetid: b11673dd-87c1-43c9-8501-affa1fa64c08

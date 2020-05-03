@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPErrorItem2
 title: IWMPErrorItem2 (wmp.h)
-description: The IWMPErrorItem2 interface provides a method that supplements the IWMPErrorItem interface.
+description: The IWMPErrorItem2 interface provides a method that supplements the IWMPErrorItem interface.helpviewer_keywords: ["IWMPErrorItem2","IWMPErrorItem2 interface [Windows Media Player]","IWMPErrorItem2 interface [Windows Media Player]","described","IWMPErrorItem2Interface","wmp.iwmperroritem2","wmp/IWMPErrorItem2"]
 old-location: wmp\iwmperroritem2.htm
 tech.root: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c

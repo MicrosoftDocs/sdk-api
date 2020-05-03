@@ -1,7 +1,7 @@
 ---
 UID: NE:callobj.CALLFRAME_WALK
 title: CALLFRAME_WALK (callobj.h)
-description: Determines the parameter type to be walked.
+description: Determines the parameter type to be walked.helpviewer_keywords: ["CALLFRAME_WALK","CALLFRAME_WALK enumeration [COM]","CALLFRAME_WALK_IN","CALLFRAME_WALK_INOUT","CALLFRAME_WALK_OUT","_com_CALLFRAME_WALK","callobj/CALLFRAME_WALK","callobj/CALLFRAME_WALK_IN","callobj/CALLFRAME_WALK_INOUT","callobj/CALLFRAME_WALK_OUT","com.callframe_walk"]
 old-location: com\callframe_walk.htm
 tech.root: com
 ms.assetid: 52327707-43b0-4041-8fa1-62a9a62dc6b7

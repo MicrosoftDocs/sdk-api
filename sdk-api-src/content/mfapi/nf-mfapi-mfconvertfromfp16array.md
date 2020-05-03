@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFConvertFromFP16Array
 title: MFConvertFromFP16Array function (mfapi.h)
-description: Converts an array of 16-bit floating-point numbers into an array of 32-bit floating-point numbers.
+description: Converts an array of 16-bit floating-point numbers into an array of 32-bit floating-point numbers.helpviewer_keywords: ["5cc11d32-8dcd-491d-b3df-c0b061233038","MFConvertFromFP16Array","MFConvertFromFP16Array function [Media Foundation]","mf.mfconvertfromfp16array","mfapi/MFConvertFromFP16Array"]
 old-location: mf\mfconvertfromfp16array.htm
 tech.root: medfound
 ms.assetid: 5cc11d32-8dcd-491d-b3df-c0b061233038

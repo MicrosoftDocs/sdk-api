@@ -1,7 +1,7 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.CreateGroup
 title: IBackgroundCopyQMgr::CreateGroup (qmgr.h)
-description: Use the CreateGroup method to create a new group and add it to the download queue.
+description: Use the CreateGroup method to create a new group and add it to the download queue.helpviewer_keywords: ["CreateGroup","CreateGroup method [BITS]","CreateGroup method [BITS]","IBackgroundCopyQMgr interface","IBackgroundCopyQMgr interface [BITS]","CreateGroup method","IBackgroundCopyQMgr.CreateGroup","IBackgroundCopyQMgr::CreateGroup","bits.ibackgroundcopyqmgr_creategroup","qmgr/IBackgroundCopyQMgr::CreateGroup"]
 old-location: bits\ibackgroundcopyqmgr_creategroup.htm
 tech.root: Bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2

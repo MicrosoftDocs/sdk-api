@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetProcessDefaultLayout
 title: GetProcessDefaultLayout function (winuser.h)
-description: Retrieves the default layout that is used when windows are created with no parent or owner.
+description: Retrieves the default layout that is used when windows are created with no parent or owner.helpviewer_keywords: ["GetProcessDefaultLayout","GetProcessDefaultLayout function [Windows and Messages]","_win32_GetProcessDefaultLayout","_win32_getprocessdefaultlayout_cpp","winmsg.getprocessdefaultlayout","winui._win32_getprocessdefaultlayout","winuser/GetProcessDefaultLayout"]
 old-location: winmsg\getprocessdefaultlayout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getprocessdefaultlayout.htm

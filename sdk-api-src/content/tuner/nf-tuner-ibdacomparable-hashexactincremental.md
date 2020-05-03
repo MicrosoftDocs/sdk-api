@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IBDAComparable.HashExactIncremental
 title: IBDAComparable::HashExactIncremental (tuner.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["HashExactIncremental","HashExactIncremental method [Microsoft TV Technologies]","HashExactIncremental method [Microsoft TV Technologies]","IBDAComparable interface","IBDAComparable interface [Microsoft TV Technologies]","HashExactIncremental method","IBDAComparable.HashExactIncremental","IBDAComparable::HashExactIncremental","IBDAComparableHashExactIncremental","mstv.ibdacomparable_hashexactincremental","tuner/IBDAComparable::HashExactIncremental"]
 old-location: mstv\ibdacomparable_hashexactincremental.htm
 tech.root: mstv
 ms.assetid: 4ddf2545-83a6-4b5d-94ba-7034aed61f08

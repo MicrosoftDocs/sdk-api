@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumAdapterByLuid
 title: IDXGIFactory4::EnumAdapterByLuid (dxgi1_4.h)
-description: Outputs the IDXGIAdapter for the specified LUID.
+description: Outputs the IDXGIAdapter for the specified LUID.helpviewer_keywords: ["EnumAdapterByLuid","EnumAdapterByLuid method [DXGI]","EnumAdapterByLuid method [DXGI]","IDXGIFactory4 interface","IDXGIFactory4 interface [DXGI]","EnumAdapterByLuid method","IDXGIFactory4.EnumAdapterByLuid","IDXGIFactory4::EnumAdapterByLuid","direct3ddxgi.idxgifactory4_enumadapterbyluid","dxgi1_4/IDXGIFactory4::EnumAdapterByLuid"]
 old-location: direct3ddxgi\idxgifactory4_enumadapterbyluid.htm
 tech.root: direct3ddxgi
 ms.assetid: AC800F32-2922-45BA-A6D3-D3E45113B9A7

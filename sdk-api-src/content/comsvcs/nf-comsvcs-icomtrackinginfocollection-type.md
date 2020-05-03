@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComTrackingInfoCollection.Type
 title: IComTrackingInfoCollection::Type (comsvcs.h)
 description: Retrieves the type of a tracking information collection.
+helpviewer_keywords: ["IComTrackingInfoCollection interface [COM+]","Type method","IComTrackingInfoCollection.Type","IComTrackingInfoCollection::Type","Type","Type method [COM+]","Type method [COM+]","IComTrackingInfoCollection interface","_dtc_IComTrackingInfoCollection_Type","comsvcs/IComTrackingInfoCollection::Type","cos.icomtrackinginfocollection_type"]
 old-location: cos\icomtrackinginfocollection_type.htm
 tech.root: cossdk
 ms.assetid: ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1
@@ -59,7 +60,7 @@ Retrieves the type of a tracking information collection.
 
 ### -param pType [out]
 
-The type of tracking information. For a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ne-comsvcs-tracking_coll_type">TRACKING_COLL_TYPE</a> enumeration.
+The type of tracking information. For a list of values, see the <a href="/windows/win32/api/comsvcs/ne-comsvcs-tracking_coll_type">TRACKING_COLL_TYPE</a> enumeration.
 
 
 ## -returns

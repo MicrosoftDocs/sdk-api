@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumServers
 title: DhcpEnumServers function (dhcpsapi.h)
-description: The DhcpEnumServers function returns an enumerated list of DHCP servers found in the directory service.
+description: The DhcpEnumServers function returns an enumerated list of DHCP servers found in the directory service.helpviewer_keywords: ["DhcpEnumServers","DhcpEnumServers function [DHCP]","dhcp.dhcpenumservers","dhcpsapi/DhcpEnumServers"]
 old-location: dhcp\dhcpenumservers.htm
 tech.root: DHCP
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac

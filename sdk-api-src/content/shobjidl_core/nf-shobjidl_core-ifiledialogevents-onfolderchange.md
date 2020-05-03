@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFolderChange
 title: IFileDialogEvents::OnFolderChange (shobjidl_core.h)
-description: Called when the user navigates to a new folder.
+description: Called when the user navigates to a new folder.helpviewer_keywords: ["IFileDialogEvents interface [Windows Shell]","OnFolderChange method","IFileDialogEvents.OnFolderChange","IFileDialogEvents::OnFolderChange","OnFolderChange","OnFolderChange method [Windows Shell]","OnFolderChange method [Windows Shell]","IFileDialogEvents interface","shell.IFileDialogEvents_OnFolderChange","shell_IFileDialogEvents_OnFolderChange","shobjidl_core/IFileDialogEvents::OnFolderChange"]
 old-location: shell\IFileDialogEvents_OnFolderChange.htm
 tech.root: shell
 ms.assetid: 3e5ec923-0597-4cf4-8973-17c83481c7f4

@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory2.CreateStringLeaf
 title: IConditionFactory2::CreateStringLeaf (structuredquery.h)
 description: Creates a leaf condition node for a string value that represents a comparison of property value and constant value. The returned object supports ICondition and ICondition2.
+helpviewer_keywords: ["CreateStringLeaf","CreateStringLeaf method [search]","CreateStringLeaf method [search]","IConditionFactory2 interface","IConditionFactory2 interface [search]","CreateStringLeaf method","IConditionFactory2.CreateStringLeaf","IConditionFactory2::CreateStringLeaf","_search_IConditionFactory2_CreateStringLeaf","search._search_IConditionFactory2_CreateStringLeaf","structuredquery/IConditionFactory2::CreateStringLeaf"]
 old-location: search\_search_IConditionFactory2_CreateStringLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createstringleaf.htm
@@ -66,9 +67,9 @@ The name of the property of the leaf condition as a REFPROPERTYKEY. If the leaf 
 
 ### -param cop [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
+A <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration. If the leaf has no particular operation, then use <i>COP_IMPLICIT</i>.
 
 
 ### -param pszValue [in]
@@ -135,11 +136,11 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

@@ -2,6 +2,7 @@
 UID: NS:wingdi.__unnamed_struct_1
 title: BITMAPV5HEADER (wingdi.h)
 description: The BITMAPV5HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.
+helpviewer_keywords: ["*LPBITMAPV5HEADER","*PBITMAPV5HEADER","BITMAPV5HEADER","BITMAPV5HEADER structure [Windows GDI]","PBITMAPV5HEADER","PBITMAPV5HEADER structure pointer [Windows GDI]","_win32_BITMAPV5HEADER_str","gdi.bitmapv5header","wingdi/BITMAPV5HEADER","wingdi/PBITMAPV5HEADER"]
 old-location: gdi\bitmapv5header.htm
 tech.root: gdi
 ms.assetid: ec5db6f9-93fa-4dbe-afdb-c039292b26e3
@@ -262,7 +263,7 @@ See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi
 
 ### -field bV5Endpoints
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV5CSType</b> member specifies LCS_CALIBRATED_RGB.
+A <a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV5CSType</b> member specifies LCS_CALIBRATED_RGB.
 
 
 ### -field bV5GammaRed
@@ -378,7 +379,7 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a>
 
 
 

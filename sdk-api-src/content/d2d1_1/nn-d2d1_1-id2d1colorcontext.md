@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_1.ID2D1ColorContext
 title: ID2D1ColorContext (d2d1_1.h)
-description: Represents a color context that can be used with an ID2D1Bitmap1 object.
+description: Represents a color context that can be used with an ID2D1Bitmap1 object.helpviewer_keywords: ["ID2D1ColorContext","ID2D1ColorContext interface [Direct2D]","ID2D1ColorContext interface [Direct2D]","described","d2d1_1/ID2D1ColorContext","direct2d.id2d1colorcontext"]
 old-location: direct2d\id2d1colorcontext.htm
 tech.root: Direct2D
 ms.assetid: acdda11e-eb3f-4258-b24e-daa3b7a23fd6

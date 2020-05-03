@@ -2,6 +2,7 @@
 UID: NS:raseapif._PPP_EAP_INPUT
 title: PPP_EAP_INPUT (raseapif.h)
 description: The PPP_EAP_INPUT structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.
+helpviewer_keywords: ["*PPPP_EAP_INPUT","PPPP_EAP_INPUT","PPPP_EAP_INPUT structure pointer [EAP]","PPP_EAP_INPUT","PPP_EAP_INPUT structure [EAP]","RAS_EAP_FLAG_8021X_AUTH","RAS_EAP_FLAG_ALTERNATIVE_USER_DB","RAS_EAP_FLAG_FIRST_LINK","RAS_EAP_FLAG_GUEST_ACCESS","RAS_EAP_FLAG_LOGON","RAS_EAP_FLAG_NON_INTERACTIVE","RAS_EAP_FLAG_PEAP_UPFRONT","RAS_EAP_FLAG_PRE_LOGON","RAS_EAP_FLAG_RESUME_FROM_HIBERNATE","RAS_EAP_FLAG_ROUTER","_eap_ppp_eap_input","eap.ppp_eap_input","raseapif/PPPP_EAP_INPUT","raseapif/PPP_EAP_INPUT"]
 old-location: eap\ppp_eap_input.htm
 tech.root: EAP
 ms.assetid: 80a8f118-323d-4040-91f7-202eeee6d227
@@ -110,7 +111,7 @@ Specifies that the user data from obtained from Winlogon.
 </dl>
 </td>
 <td width="60%">
-Indicates that this connection is the first link in a multilink connection. See [Multilink and Callback Connections](https://docs.microsoft.com/windows/win32/eap/multilink-and-callback-connections)a> for more information.
+Indicates that this connection is the first link in a multilink connection. See [Multilink and Callback Connections](/windows/win32/eap/multilink-and-callback-connections) for more information.
 
 </td>
 </tr>
@@ -208,7 +209,7 @@ Specifies the identifier of the initial EAP packet sent by the DLL. This value i
 
 Pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
-<a href="https://docs.microsoft.com/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
+<a href="/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> call, this array contains attributes that describe the currently dialed-in user. When the <b>fAuthenticationComplete</b> member is <b>TRUE</b>, this array may contain attributes returned by the authentication provider.
 
 
@@ -330,11 +331,11 @@ Note that the array of
 
 
 
-[EAP Structures](https://docs.microsoft.com/windows/win32/eap/eap-structures)a>
+[EAP Structures](/windows/win32/eap/eap-structures)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 

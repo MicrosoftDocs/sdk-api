@@ -2,6 +2,7 @@
 UID: NF:tom.ITextRow.GetAlignment
 title: ITextRow::GetAlignment (tom.h)
 description: Gets the horizontal alignment of a row.
+helpviewer_keywords: ["GetAlignment","GetAlignment method [Windows Controls]","GetAlignment method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetAlignment method","ITextRow.GetAlignment","ITextRow::GetAlignment","controls.itextrow_getalignment","tom/ITextRow::GetAlignment"]
 old-location: controls\itextrow_getalignment.htm
 tech.root: Controls
 ms.assetid: 2c7279b0-6329-4abd-a719-da4ed4d71c71
@@ -63,11 +64,11 @@ Type: <b>long*</b>
 
 The horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomAlignLeft</a>
+<p class="indent"><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomAlignLeft</a>
 
-<p class="indent"><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomAlignCenter</a>
+<p class="indent"><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomAlignCenter</a>
 
-<p class="indent"><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomAlignRight</a>
+<p class="indent"><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomAlignRight</a>
 
 
 ## -returns

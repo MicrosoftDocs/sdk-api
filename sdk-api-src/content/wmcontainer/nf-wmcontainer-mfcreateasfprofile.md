@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.MFCreateASFProfile
 title: MFCreateASFProfile function (wmcontainer.h)
-description: Creates the ASF profile object.
+description: Creates the ASF profile object.helpviewer_keywords: ["MFCreateASFProfile","MFCreateASFProfile function [Media Foundation]","fa57fac7-a191-4d5b-89be-319af7b3e09c","mf.mfcreateasfprofile","wmcontainer/MFCreateASFProfile"]
 old-location: mf\mfcreateasfprofile.htm
 tech.root: medfound
 ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c

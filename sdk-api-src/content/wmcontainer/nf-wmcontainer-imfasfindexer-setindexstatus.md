@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexStatus
 title: IMFASFIndexer::SetIndexStatus (wmcontainer.h)
-description: Configures the index for a stream.
+description: Configures the index for a stream.helpviewer_keywords: ["IMFASFIndexer interface [Media Foundation]","SetIndexStatus method","IMFASFIndexer.SetIndexStatus","IMFASFIndexer::SetIndexStatus","SetIndexStatus","SetIndexStatus method [Media Foundation]","SetIndexStatus method [Media Foundation]","IMFASFIndexer interface","bad10893-07af-4b46-bab1-2878553813b5","mf.imfasfindexer_setindexstatus","wmcontainer/IMFASFIndexer::SetIndexStatus"]
 old-location: mf\imfasfindexer_setindexstatus.htm
 tech.root: medfound
 ms.assetid: bad10893-07af-4b46-bab1-2878553813b5

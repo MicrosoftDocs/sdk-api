@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnModalInput
 title: ITfLangBarEventSink::OnModalInput (ctfutb.h)
-description: ITfLangBarEventSink::OnModalInput method
+description: ITfLangBarEventSink::OnModalInput methodhelpviewer_keywords: ["ITfLangBarEventSink interface [Text Services Framework]","OnModalInput method","ITfLangBarEventSink.OnModalInput","ITfLangBarEventSink::OnModalInput","OnModalInput","OnModalInput method [Text Services Framework]","OnModalInput method [Text Services Framework]","ITfLangBarEventSink interface","_tsf_itflangbareventsink_onmodalinput_ref","ctfutb/ITfLangBarEventSink::OnModalInput","tsf.itflangbareventsink_onmodalinput"]
 old-location: tsf\itflangbareventsink_onmodalinput.htm
 tech.root: TSF
 ms.assetid: 781efe26-f3f4-401b-9558-d228e875abc4

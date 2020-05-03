@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSource.TryReclaimResources
 title: ID2D1ImageSource::TryReclaimResources (d2d1_3.h)
-description: Restores access to resources that were previously offered by calling OfferResources.
+description: Restores access to resources that were previously offered by calling OfferResources.helpviewer_keywords: ["ID2D1ImageSource interface [Direct2D]","TryReclaimResources method","ID2D1ImageSource.TryReclaimResources","ID2D1ImageSource::TryReclaimResources","TryReclaimResources","TryReclaimResources method [Direct2D]","TryReclaimResources method [Direct2D]","ID2D1ImageSource interface","d2d1_3/ID2D1ImageSource::TryReclaimResources","direct2d.id2d1imagesource_tryreclaimresources"]
 old-location: direct2d\id2d1imagesource_tryreclaimresources.htm
 tech.root: Direct2D
 ms.assetid: 9639353D-EA3B-4ABD-A4DE-405B18218801

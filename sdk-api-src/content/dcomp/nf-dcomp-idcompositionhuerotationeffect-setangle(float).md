@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(float)
 title: IDCompositionHueRotationEffect::SetAngle(float) (dcomp.h)
-description: Sets the angle to rotate the hue.
+description: Sets the angle to rotate the hue.helpviewer_keywords: ["IDCompositionHueRotationEffect interface [DirectComposition]","SetAngle method","IDCompositionHueRotationEffect.SetAngle","IDCompositionHueRotationEffect.SetAngle(float)","IDCompositionHueRotationEffect::SetAngle","IDCompositionHueRotationEffect::SetAngle(float)","SetAngle","SetAngle method [DirectComposition]","SetAngle method [DirectComposition]","IDCompositionHueRotationEffect interface","dcomp/IDCompositionHueRotationEffect::SetAngle","directcomp.idcompositionhuerotationeffect_setangle"]
 old-location: directcomp\idcompositionhuerotationeffect_setangle.htm
 tech.root: directcomp
 ms.assetid: BA98A918-EE51-40C7-9392-D5E0D78580F8

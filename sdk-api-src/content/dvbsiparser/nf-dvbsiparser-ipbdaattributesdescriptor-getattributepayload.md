@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetAttributePayload
 title: IPBDAAttributesDescriptor::GetAttributePayload (dvbsiparser.h)
-description: Gets the descriptor body from an attributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
+description: Gets the descriptor body from an attributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["GetAttributePayload","GetAttributePayload method [Microsoft TV Technologies]","GetAttributePayload method [Microsoft TV Technologies]","IPBDAAttributesDescriptor interface","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","GetAttributePayload method","IPBDAAttributesDescriptor.GetAttributePayload","IPBDAAttributesDescriptor::GetAttributePayload","dvbsiparser/IPBDAAttributesDescriptor::GetAttributePayload","mstv.ipbdaattributesdescriptor_getattributepayload"]
 old-location: mstv\ipbdaattributesdescriptor_getattributepayload.htm
 tech.root: mstv
 ms.assetid: 315f6afe-a5cc-4fe2-8029-fcf280b358b2

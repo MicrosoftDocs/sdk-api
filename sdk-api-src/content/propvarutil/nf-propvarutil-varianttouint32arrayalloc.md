@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToUInt32ArrayAlloc
 title: VariantToUInt32ArrayAlloc function (propvarutil.h)
-description: Extracts data from a vector structure into a newly-allocated unsigned Int32 array.
+description: Extracts data from a vector structure into a newly-allocated unsigned Int32 array.helpviewer_keywords: ["VariantToUInt32ArrayAlloc","VariantToUInt32ArrayAlloc function [Windows Properties]","_shell_VariantToUInt32ArrayAlloc","properties.VariantToUInt32ArrayAlloc","propvarutil/VariantToUInt32ArrayAlloc","shell.VariantToUInt32ArrayAlloc"]
 old-location: properties\VariantToUInt32ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 4d6cbfc8-fe1c-4bd0-8d29-32bce01d31f8

@@ -1,7 +1,7 @@
 ---
 UID: NF:docobj.IOleDocumentSite.ActivateMe
 title: IOleDocumentSite::ActivateMe (docobj.h)
-description: Asks a document site to activate the document making the call as a document object rather than an in-place-active object and, optionally, specifies which view of the object document to activate.
+description: Asks a document site to activate the document making the call as a document object rather than an in-place-active object and, optionally, specifies which view of the object document to activate.helpviewer_keywords: ["ActivateMe","ActivateMe method [COM]","ActivateMe method [COM]","IOleDocumentSite interface","IOleDocumentSite interface [COM]","ActivateMe method","IOleDocumentSite.ActivateMe","IOleDocumentSite::ActivateMe","_ole_ioledocumentsite_activateme","com.ioledocumentsite_activateme","docobj/IOleDocumentSite::ActivateMe"]
 old-location: com\ioledocumentsite_activateme.htm
 tech.root: com
 ms.assetid: 4e4a746d-460a-478e-9ca5-be5f63b03d17

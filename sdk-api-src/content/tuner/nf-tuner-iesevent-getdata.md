@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IESEvent.GetData
 title: IESEvent::GetData (tuner.h)
-description: Gets data from an event that is derived from the IESEvent interface. This method gets a byte array that contains the data in an IESEvent object, which is passed in a call to IESEventService::FireESEvent.
+description: Gets data from an event that is derived from the IESEvent interface. This method gets a byte array that contains the data in an IESEvent object, which is passed in a call to IESEventService::FireESEvent.helpviewer_keywords: ["GetData","GetData method [Microsoft TV Technologies]","GetData method [Microsoft TV Technologies]","IESEvent interface","IESEvent interface [Microsoft TV Technologies]","GetData method","IESEvent.GetData","IESEvent::GetData","mstv.iesevent_getdata","tuner/IESEvent::GetData"]
 old-location: mstv\iesevent_getdata.htm
 tech.root: mstv
 ms.assetid: bef529c5-0a97-4eb0-83ca-669edc7a2452

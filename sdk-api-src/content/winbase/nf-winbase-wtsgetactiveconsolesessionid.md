@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.WTSGetActiveConsoleSessionId
 title: WTSGetActiveConsoleSessionId function (winbase.h)
-description: Retrieves the session identifier of the console session.
+description: Retrieves the session identifier of the console session.helpviewer_keywords: ["WTSGetActiveConsoleSessionId","WTSGetActiveConsoleSessionId function [Remote Desktop Services]","_win32_wtsgetactiveconsolesessionid","termserv.wtsgetactiveconsolesessionid","winbase/WTSGetActiveConsoleSessionId"]
 old-location: termserv\wtsgetactiveconsolesessionid.htm
 tech.root: TermServ
 ms.assetid: 9aa43cfa-9518-428b-95a1-004fa23df90b

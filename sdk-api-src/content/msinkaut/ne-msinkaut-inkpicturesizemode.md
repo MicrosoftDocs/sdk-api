@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkPictureSizeMode
 title: InkPictureSizeMode (msinkaut.h)
-description: Specifies how the picture behaves inside the InkPicture control.
+description: Specifies how the picture behaves inside the InkPicture control.helpviewer_keywords: ["IPSM_AutoSize","IPSM_CenterImage","IPSM_Normal","IPSM_StretchImage","InkPictureSizeMode","InkPictureSizeMode enumeration [Tablet PC]","e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a","msinkaut/IPSM_AutoSize","msinkaut/IPSM_CenterImage","msinkaut/IPSM_Normal","msinkaut/IPSM_StretchImage","msinkaut/InkPictureSizeMode","tablet.inkpicturesizemode"]
 old-location: tablet\inkpicturesizemode.htm
 tech.root: tablet
 ms.assetid: e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a

@@ -2,6 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
 title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes (uiautomationclient.h)
 description: Retrieves a cached array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
+helpviewer_keywords: ["GetCachedAnnotationTypes","GetCachedAnnotationTypes method [Windows Accessibility]","GetCachedAnnotationTypes method [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","GetCachedAnnotationTypes method","IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes","IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes","uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes","winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationTypes"]
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: CF146EB3-AF26-40C0-A19C-78692EE76E92
@@ -59,7 +60,7 @@ Retrieves a cached array of annotation type identifiers indicating the types of 
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives the cached array of annotation type identifiers. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a>.
 

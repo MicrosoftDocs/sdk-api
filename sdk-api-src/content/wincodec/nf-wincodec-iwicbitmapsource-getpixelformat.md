@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetPixelFormat
 title: IWICBitmapSource::GetPixelFormat (wincodec.h)
-description: Retrieves the pixel format of the bitmap source..
+description: Retrieves the pixel format of the bitmap source..helpviewer_keywords: ["GetPixelFormat","GetPixelFormat method [Windows Imaging Component]","GetPixelFormat method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","GetPixelFormat method","IWICBitmapSource.GetPixelFormat","IWICBitmapSource::GetPixelFormat","_wic_codec_iwicbitmapsource_getpixelformat","wic._wic_codec_iwicbitmapsource_getpixelformat","wincodec/IWICBitmapSource::GetPixelFormat"]
 old-location: wic\_wic_codec_iwicbitmapsource_getpixelformat.htm
 tech.root: wic
 ms.assetid: 6fd30a38-a447-4e4e-93ea-e31c5ba1271e

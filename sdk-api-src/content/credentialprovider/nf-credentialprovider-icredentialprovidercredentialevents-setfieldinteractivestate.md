@@ -2,6 +2,7 @@
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldInteractiveState
 title: ICredentialProviderCredentialEvents::SetFieldInteractiveState (credentialprovider.h)
 description: Communicates to the Logon UI or Credential UI that the interactivity state of a field has changed and that the UI should be updated.
+helpviewer_keywords: ["ICredentialProviderCredentialEvents interface [Windows Shell]","SetFieldInteractiveState method","ICredentialProviderCredentialEvents.SetFieldInteractiveState","ICredentialProviderCredentialEvents::SetFieldInteractiveState","SetFieldInteractiveState","SetFieldInteractiveState method [Windows Shell]","SetFieldInteractiveState method [Windows Shell]","ICredentialProviderCredentialEvents interface","_shell_ICredentialProviderCredentialEvents_SetFieldInteractiveState","credentialprovider/ICredentialProviderCredentialEvents::SetFieldInteractiveState","shell.ICredentialProviderCredentialEvents_SetFieldInteractiveState"]
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldInteractiveState.htm
 tech.root: shell
 ms.assetid: 649f0f65-78dd-4232-b471-9a18d1448f1d
@@ -74,7 +75,7 @@ The unique ID of the field.
 
 ### -param cpfis [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_interactive_state">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a></b>
+Type: <b><a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_interactive_state">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a></b>
 
 The new interactive state of the field.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MouseIcon
 title: IInkPicture::put_MouseIcon (msinkaut.h)
-description: Gets or sets the custom mouse icon.
+description: Gets or sets the custom mouse icon.helpviewer_keywords: ["IInkPicture interface [Tablet PC]","MouseIcon property","IInkPicture.MouseIcon","IInkPicture.put_MouseIcon","IInkPicture::MouseIcon","IInkPicture::get_MouseIcon","IInkPicture::put_MouseIcon","InkPicture.get_MouseIcon","InkPicture.put_MouseIcon","MouseIcon property [Tablet PC]","MouseIcon property [Tablet PC]","IInkPicture interface","get_MouseIcon","msinkaut/IInkPicture::MouseIcon","msinkaut/IInkPicture::get_MouseIcon","msinkaut/IInkPicture::put_MouseIcon","put_MouseIcon","putref_MouseIcon","tablet.inkpicture_mouseicon"]
 old-location: tablet\inkpicture_mouseicon.htm
 tech.root: tablet
 ms.assetid: a095dca7-4dc9-4661-8c78-0e357a57f982

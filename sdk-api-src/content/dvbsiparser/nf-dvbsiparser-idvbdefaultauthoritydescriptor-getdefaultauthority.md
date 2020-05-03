@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetDefaultAuthority
 title: IDvbDefaultAuthorityDescriptor::GetDefaultAuthority (dvbsiparser.h)
-description: Gets the string identifying the default authority from a Digital Video Broadcast (DVB) content reference identifier (CRID).
+description: Gets the string identifying the default authority from a Digital Video Broadcast (DVB) content reference identifier (CRID).helpviewer_keywords: ["GetDefaultAuthority","GetDefaultAuthority method [Microsoft TV Technologies]","GetDefaultAuthority method [Microsoft TV Technologies]","IDvbDefaultAuthorityDescriptor interface","IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies]","GetDefaultAuthority method","IDvbDefaultAuthorityDescriptor.GetDefaultAuthority","IDvbDefaultAuthorityDescriptor::GetDefaultAuthority","dvbsiparser/IDvbDefaultAuthorityDescriptor::GetDefaultAuthority","mstv.idvbdefaultauthoritydescriptor_getdefaultauthority"]
 old-location: mstv\idvbdefaultauthoritydescriptor_getdefaultauthority.htm
 tech.root: mstv
 ms.assetid: dd615bd1-3db7-4577-aa10-d68ad61b068c

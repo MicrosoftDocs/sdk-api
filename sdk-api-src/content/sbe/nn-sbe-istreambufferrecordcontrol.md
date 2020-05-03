@@ -1,7 +1,7 @@
 ---
 UID: NN:sbe.IStreamBufferRecordControl
 title: IStreamBufferRecordControl (sbe.h)
-description: The IStreamBufferRecordControl interface is used to control stream buffer Recording objects.Use the IStreamBufferSink::CreateRecorder method on the Stream Buffer Sink filter to create new Recording objects.
+description: The IStreamBufferRecordControl interface is used to control stream buffer Recording objects.Use the IStreamBufferSink::CreateRecorder method on the Stream Buffer Sink filter to create new Recording objects.helpviewer_keywords: ["IStreamBufferRecordControl","IStreamBufferRecordControl interface [Microsoft TV Technologies]","IStreamBufferRecordControl interface [Microsoft TV Technologies]","described","IStreamBufferRecordControlInterface","mstv.istreambufferrecordcontrol","sbe/IStreamBufferRecordControl"]
 old-location: mstv\istreambufferrecordcontrol.htm
 tech.root: mstv
 ms.assetid: f196638e-ccbb-4768-96c1-8e1d00361831

@@ -2,6 +2,7 @@
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0007
 title: RdcSignature (msrdc.h)
 description: Contains a single signature and the length of the chunk used to generate it.
+helpviewer_keywords: ["RdcSignature","RdcSignature structure [Remote Differential Compression]","fs.rdcsignature","msrdc/RdcSignature","rdc.rdcsignature"]
 old-location: rdc\rdcsignature.htm
 tech.root: rdc
 ms.assetid: eca15d66-1d8c-422b-a2ab-7dbe00cb4087
@@ -73,7 +74,7 @@ Length of the chunk represented by this signature.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a>
+<a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a>
 
 
 

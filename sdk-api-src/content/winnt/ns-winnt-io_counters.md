@@ -2,6 +2,7 @@
 UID: NS:winnt._IO_COUNTERS
 title: IO_COUNTERS (winnt.h)
 description: Contains I/O accounting information for a process or a job object.
+helpviewer_keywords: ["*PIO_COUNTERS","IO_COUNTERS","IO_COUNTERS structure","PIO_COUNTERS","PIO_COUNTERS structure pointer","_IO_COUNTERS","_win32_io_counters_str","base.io_counters_str","winnt/IO_COUNTERS","winnt/PIO_COUNTERS"]
 old-location: base\io_counters_str.htm
 tech.root: ProcThread
 ms.assetid: 78729cbe-5256-4939-a7cc-c393662f8361
@@ -96,7 +97,7 @@ The number of bytes transferred during operations other than read and write oper
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
  
 
  

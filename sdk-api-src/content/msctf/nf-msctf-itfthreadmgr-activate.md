@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr.Activate
 title: ITfThreadMgr::Activate (msctf.h)
-description: ITfThreadMgr::Activate method
+description: ITfThreadMgr::Activate methodhelpviewer_keywords: ["Activate","Activate method [Text Services Framework]","Activate method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","Activate method","ITfThreadMgr.Activate","ITfThreadMgr::Activate","_tsf_itfthreadmgr_activate_ref","msctf/ITfThreadMgr::Activate","tsf.itfthreadmgr_activate"]
 old-location: tsf\itfthreadmgr_activate.htm
 tech.root: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f

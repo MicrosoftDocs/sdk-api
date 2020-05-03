@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.IsBadCodePtr
 title: IsBadCodePtr function (winbase.h)
-description: Determines whether the calling process has read access to the memory at the specified address.
+description: Determines whether the calling process has read access to the memory at the specified address.helpviewer_keywords: ["IsBadCodePtr","IsBadCodePtr function","_win32_isbadcodeptr","base.isbadcodeptr","winbase/IsBadCodePtr"]
 old-location: base\isbadcodeptr.htm
 tech.root: Memory
 ms.assetid: 001b8972-6a7f-4964-af8d-a6f31ea3a525

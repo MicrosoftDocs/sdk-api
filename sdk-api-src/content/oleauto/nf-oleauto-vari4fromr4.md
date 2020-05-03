@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromR4
 title: VarI4FromR4 function (oleauto.h)
-description: Converts a float value to a long value.
+description: Converts a float value to a long value.helpviewer_keywords: ["VarI4FromR4","VarI4FromR4 function [Automation]","_oa96_VarI4FromR4","automat.vari4fromr4","oleauto/VarI4FromR4"]
 old-location: automat\vari4fromr4.htm
 tech.root: automat
 ms.assetid: 21ceeeaa-e3da-4e55-9f73-80ef967fe859

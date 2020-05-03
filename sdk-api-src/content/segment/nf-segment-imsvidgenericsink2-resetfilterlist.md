@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.ResetFilterList
 title: IMSVidGenericSink2::ResetFilterList (segment.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .helpviewer_keywords: ["IMSVidGenericSink2 interface [Microsoft TV Technologies]","ResetFilterList method","IMSVidGenericSink2.ResetFilterList","IMSVidGenericSink2::ResetFilterList","IMSVidGenericSink2ResetFilterList","ResetFilterList","ResetFilterList method [Microsoft TV Technologies]","ResetFilterList method [Microsoft TV Technologies]","IMSVidGenericSink2 interface","mstv.imsvidgenericsink2_resetfilterlist","segment/IMSVidGenericSink2::ResetFilterList"]
 old-location: mstv\imsvidgenericsink2_resetfilterlist.htm
 tech.root: mstv
 ms.assetid: fc899c48-703a-4bdc-849e-73633ae748d0

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetPrivateDataBytes
 title: IIsdbCADescriptor::GetPrivateDataBytes (dvbsiparser.h)
-description: Gets the private data bytes from a conditional access (CA) descriptor.
+description: Gets the private data bytes from a conditional access (CA) descriptor.helpviewer_keywords: ["GetPrivateDataBytes","GetPrivateDataBytes method [Microsoft TV Technologies]","GetPrivateDataBytes method [Microsoft TV Technologies]","IIsdbCADescriptor interface","IIsdbCADescriptor interface [Microsoft TV Technologies]","GetPrivateDataBytes method","IIsdbCADescriptor.GetPrivateDataBytes","IIsdbCADescriptor::GetPrivateDataBytes","dvbsiparser/IIsdbCADescriptor::GetPrivateDataBytes","mstv.iisdbcadescriptor_getprivatedatabytes"]
 old-location: mstv\iisdbcadescriptor_getprivatedatabytes.htm
 tech.root: mstv
 ms.assetid: cd64ba74-aab2-45eb-945a-187d3aaf9bdd

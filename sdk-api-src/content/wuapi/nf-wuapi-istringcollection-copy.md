@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.Copy
 title: IStringCollection::Copy (wuapi.h)
-description: Creates a deep read/write copy of the collection.
+description: Creates a deep read/write copy of the collection.helpviewer_keywords: ["Copy","Copy method [Windows Update Agent]","Copy method [Windows Update Agent]","IStringCollection interface","IStringCollection interface [Windows Update Agent]","Copy method","IStringCollection.Copy","IStringCollection::Copy","wua.istringcollection_copy","wuapi/IStringCollection::Copy"]
 old-location: wua\istringcollection_copy.htm
 tech.root: Wua_Sdk
 ms.assetid: e2f6d5c0-c92a-44e5-a322-f336a3ef64ce

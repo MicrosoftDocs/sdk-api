@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandlerVisuals
 title: IPreviewHandlerVisuals (shobjidl_core.h)
-description: Exposes methods for applying color and font information to preview handlers.
+description: Exposes methods for applying color and font information to preview handlers.helpviewer_keywords: ["IPreviewHandlerVisuals","IPreviewHandlerVisuals interface [Windows Shell]","IPreviewHandlerVisuals interface [Windows Shell]","described","_shell_IPreviewHandlerVisuals","shell.IPreviewHandlerVisuals","shobjidl_core/IPreviewHandlerVisuals"]
 old-location: shell\IPreviewHandlerVisuals.htm
 tech.root: shell
 ms.assetid: 3e07af46-4271-472d-be80-70eccc26729c

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(int8_t,int8_t)
 title: XMBYTEN2::XMBYTEN2(int8_t,int8_t) (directxpackedvector.h)
-description: Initializes a new instance of XMBYTEN2 from two int8_t arguments.
+description: Initializes a new instance of XMBYTEN2 from two int8_t arguments.helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2(int8_t","int8_t)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(int8_t","int8_t)","dxmath.xmbyten2_ctor_3"]
 old-location: dxmath\xmbyten2_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN2.#ctor(int8_t,int8_t)

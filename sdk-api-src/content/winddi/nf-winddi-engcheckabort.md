@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngCheckAbort
 title: EngCheckAbort function (winddi.h)
-description: The EngCheckAbort function enables a printer graphics DLL to determine if a print job should be terminated.
+description: The EngCheckAbort function enables a printer graphics DLL to determine if a print job should be terminated.helpviewer_keywords: ["EngCheckAbort","EngCheckAbort function [Display Devices]","display.engcheckabort","gdifncs_2d8e7bbc-f9b8-4a8b-bfd8-f9a9b93808ef.xml","winddi/EngCheckAbort"]
 old-location: display\engcheckabort.htm
 tech.root: display
 ms.assetid: 0d117983-912b-4b77-8631-f801b914c769

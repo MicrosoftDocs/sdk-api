@@ -1,7 +1,7 @@
 ---
 UID: NF:mediaobj.IMediaObject.Flush
 title: IMediaObject::Flush (mediaobj.h)
-description: The Flush method flushes all internally buffered data.
+description: The Flush method flushes all internally buffered data.helpviewer_keywords: ["Flush","Flush method [DirectShow]","Flush method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","Flush method","IMediaObject.Flush","IMediaObject::Flush","IMediaObjectFlush","dshow.imediaobject_flush","mediaobj/IMediaObject::Flush"]
 old-location: dshow\imediaobject_flush.htm
 tech.root: DirectShow
 ms.assetid: c80001b8-5648-430a-b565-e90486c48ac5

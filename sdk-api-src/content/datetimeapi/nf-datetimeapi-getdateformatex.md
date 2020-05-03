@@ -1,7 +1,7 @@
 ---
 UID: NF:datetimeapi.GetDateFormatEx
 title: GetDateFormatEx function (datetimeapi.h)
-description: Formats a date as a date string for a locale specified by name.
+description: Formats a date as a date string for a locale specified by name.helpviewer_keywords: ["DATE_AUTOLAYOUT","DATE_LONGDATE","DATE_LTRREADING","DATE_MONTHDAY","DATE_RTLREADING","DATE_SHORTDATE","DATE_USE_ALT_CALENDAR","DATE_YEARMONTH","GetDateFormatEx","GetDateFormatEx function [Internationalization for Windows Applications]","_win32_GetDateFormatEx","datetimeapi/GetDateFormatEx","intl.getdateformatex"]
 old-location: intl\getdateformatex.htm
 tech.root: Intl
 ms.assetid: 791fb386-3cc5-410e-bfce-52598fdb10c9

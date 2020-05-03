@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_PROPERTY
 title: WS_SECURITY_BINDING_PROPERTY (webservices.h)
-description: Specifies a security binding specific setting.
+description: Specifies a security binding specific setting.helpviewer_keywords: ["WS_SECURITY_BINDING_PROPERTY","WS_SECURITY_BINDING_PROPERTY structure [Web Services for Windows]","webservices/WS_SECURITY_BINDING_PROPERTY","wsw.ws_security_binding_property"]
 old-location: wsw\ws_security_binding_property.htm
 tech.root: wsw
 ms.assetid: f2790fd7-6f51-45a5-b2b6-e5aaaaca9660

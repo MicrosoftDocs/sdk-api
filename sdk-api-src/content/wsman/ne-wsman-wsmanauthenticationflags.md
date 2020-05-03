@@ -1,7 +1,7 @@
 ---
 UID: NE:wsman.WSManAuthenticationFlags
 title: WSManAuthenticationFlags (wsman.h)
-description: Determines the authentication method for the operation.
+description: Determines the authentication method for the operation.helpviewer_keywords: ["WSMAN_FLAG_AUTH_BASIC","WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE","WSMAN_FLAG_AUTH_CREDSSP","WSMAN_FLAG_AUTH_DIGEST","WSMAN_FLAG_AUTH_KERBEROS","WSMAN_FLAG_AUTH_NEGOTIATE","WSMAN_FLAG_DEFAULT_AUTHENTICATION","WSMAN_FLAG_NO_AUTHENTICATION","WSManAuthenticationFlags","WSManAuthenticationFlags enumeration [Windows Remote Management]","winrm.wsmanauthenticationflags","wsman/WSMAN_FLAG_AUTH_BASIC","wsman/WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE","wsman/WSMAN_FLAG_AUTH_CREDSSP","wsman/WSMAN_FLAG_AUTH_DIGEST","wsman/WSMAN_FLAG_AUTH_KERBEROS","wsman/WSMAN_FLAG_AUTH_NEGOTIATE","wsman/WSMAN_FLAG_DEFAULT_AUTHENTICATION","wsman/WSMAN_FLAG_NO_AUTHENTICATION","wsman/WSManAuthenticationFlags"]
 old-location: winrm\wsmanauthenticationflags.htm
 tech.root: winrm
 ms.assetid: ce5ddaf6-4d81-4dab-a928-819b1fdee6c8

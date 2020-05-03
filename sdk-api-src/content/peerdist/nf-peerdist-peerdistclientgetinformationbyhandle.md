@@ -2,6 +2,7 @@
 UID: NF:peerdist.PeerDistClientGetInformationByHandle
 title: PeerDistClientGetInformationByHandle function (peerdist.h)
 description: The PeerDistClientGetInformationByHandle function retrieves additional information from the Peer Distribution service for a specific content handle.
+helpviewer_keywords: ["PeerDistClientGetInformationByHandle","PeerDistClientGetInformationByHandle function [Peer Networking]","p2p.peerdistclientgetinformationbyhandle","peerdist/PeerDistClientGetInformationByHandle"]
 old-location: p2p\peerdistclientgetinformationbyhandle.htm
 tech.root: P2PSdk
 ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
@@ -69,7 +70,7 @@ A <b>PEERDIST_CONTENT_HANDLE</b> returned by the <a href="https://docs.microsoft
 
 ### -param PeerDistClientInfoClass [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a> enumeration that indicates the information to retrieve.
+A value from the <a href="/windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a> enumeration that indicates the information to retrieve.
 
 
 ### -param dwBufferSize
@@ -96,7 +97,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a>
+<a href="/windows/win32/api/peerdist/ne-peerdist-peerdist_client_info_by_handle_class">PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</a>
 
 
 

@@ -2,6 +2,7 @@
 UID: NE:shobjidl_core._SVGIO
 title: _SVGIO (shobjidl_core.h)
 description: Used with the IFolderView::Items, IFolderView::ItemCount, and IShellView::GetItemObject methods to restrict or control the items in their collections.
+helpviewer_keywords: ["SVGIO_ALLVIEW","SVGIO_BACKGROUND","SVGIO_CHECKED","SVGIO_FLAG_VIEWORDER","SVGIO_SELECTION","SVGIO_TYPE_MASK","_SVGIO","_SVGIO enumeration [Windows Shell]","_shell_SVGIO","shell.SVGIO","shobjidl_core/SVGIO_ALLVIEW","shobjidl_core/SVGIO_BACKGROUND","shobjidl_core/SVGIO_CHECKED","shobjidl_core/SVGIO_FLAG_VIEWORDER","shobjidl_core/SVGIO_SELECTION","shobjidl_core/SVGIO_TYPE_MASK","shobjidl_core/_SVGIO"]
 old-location: shell\SVGIO.htm
 tech.root: shell
 ms.assetid: 06ed616b-8121-4ea0-bd05-632888d0f376
@@ -69,17 +70,17 @@ Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_c
 
 ### -field SVGIO_ALLVIEW
 
-0x00000002. Used in the same way as <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to all items in the view.
+0x00000002. Used in the same way as <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to all items in the view.
 
 
 ### -field SVGIO_CHECKED
 
-0x00000003. Used in the same way as <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
+0x00000003. Used in the same way as <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 
 ### -field SVGIO_TYPE_MASK
 
-0x0000000F. Masks all bits but those corresponding to the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> flags.
+0x0000000F. Masks all bits but those corresponding to the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> flags.
 
 
 ### -field SVGIO_FLAG_VIEWORDER

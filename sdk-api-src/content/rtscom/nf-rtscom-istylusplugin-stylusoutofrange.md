@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusOutOfRange
 title: IStylusPlugin::StylusOutOfRange (rtscom.h)
-description: Notifies the implementing plug-in that the stylus has left the detection range of the digitizer.
+description: Notifies the implementing plug-in that the stylus has left the detection range of the digitizer.helpviewer_keywords: ["IStylusPlugin interface [Tablet PC]","StylusOutOfRange method","IStylusPlugin.StylusOutOfRange","IStylusPlugin::StylusOutOfRange","StylusOutOfRange","StylusOutOfRange method [Tablet PC]","StylusOutOfRange method [Tablet PC]","IStylusPlugin interface","fd662c32-c226-4dbb-807a-3e560452ef15","rtscom/IStylusPlugin::StylusOutOfRange","tablet.istylusplugin_stylusoutofrange"]
 old-location: tablet\istylusplugin_stylusoutofrange.htm
 tech.root: tablet
 ms.assetid: fd662c32-c226-4dbb-807a-3e560452ef15

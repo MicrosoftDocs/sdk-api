@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.IsUserAllowedToLogon
 title: IWRdsProtocolConnection::IsUserAllowedToLogon (wtsprotocol.h)
-description: Determines from the protocol whether a user is allowed to log on to a session.
+description: Determines from the protocol whether a user is allowed to log on to a session.helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","IsUserAllowedToLogon method","IWRdsProtocolConnection.IsUserAllowedToLogon","IWRdsProtocolConnection::IsUserAllowedToLogon","IsUserAllowedToLogon","IsUserAllowedToLogon method [Remote Desktop Services]","IsUserAllowedToLogon method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_isuserallowedtologon","wtsprotocol/IWRdsProtocolConnection::IsUserAllowedToLogon"]
 old-location: termserv\iwrdsprotocolconnection_isuserallowedtologon.htm
 tech.root: TermServ
 ms.assetid: 4e2c5d2b-ec45-45ea-8bd3-71aaa0b15529

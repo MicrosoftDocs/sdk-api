@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceBefore
 title: ITextPara::SetSpaceBefore (tom.h)
-description: Sets the amount of space preceding a paragraph.
+description: Sets the amount of space preceding a paragraph.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetSpaceBefore method","ITextPara.SetSpaceBefore","ITextPara::SetSpaceBefore","SetSpaceBefore","SetSpaceBefore method [Windows Controls]","SetSpaceBefore method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetSpaceBefore","_win32_ITextPara_SetSpaceBefore_cpp","controls.ITextPara_SetSpaceBefore","controls._win32_ITextPara_SetSpaceBefore","tom/ITextPara::SetSpaceBefore"]
 old-location: controls\ITextPara_SetSpaceBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacebefore.htm

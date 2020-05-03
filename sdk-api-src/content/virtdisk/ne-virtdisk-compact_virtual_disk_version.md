@@ -2,6 +2,7 @@
 UID: NE:virtdisk._COMPACT_VIRTUAL_DISK_VERSION
 title: COMPACT_VIRTUAL_DISK_VERSION (virtdisk.h)
 description: Contains the version of the virtual hard disk (VHD) COMPACT_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
+helpviewer_keywords: ["COMPACT_VIRTUAL_DISK_VERSION","COMPACT_VIRTUAL_DISK_VERSION enumeration [VHD]","COMPACT_VIRTUAL_DISK_VERSION_1","COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/COMPACT_VIRTUAL_DISK_VERSION","vdssys/COMPACT_VIRTUAL_DISK_VERSION_1","vdssys/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.compact_virtual_disk_version","virtdisk/COMPACT_VIRTUAL_DISK_VERSION","virtdisk/COMPACT_VIRTUAL_DISK_VERSION_1","virtdisk/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
 old-location: vhd\compact_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 79b8088a-8e30-44c8-8227-82eb1c03e77c
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the version of the virtual hard disk (VHD) <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-compact_virtual_disk_parameters">COMPACT_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to VHD functions.
+Contains the version of the virtual hard disk (VHD) <a href="/windows/win32/api/virtdisk/ns-virtdisk-compact_virtual_disk_parameters">COMPACT_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to VHD functions.
 
 
 ## -enum-fields

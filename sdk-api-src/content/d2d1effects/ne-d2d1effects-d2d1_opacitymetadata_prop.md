@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_OPACITYMETADATA_PROP
 title: D2D1_OPACITYMETADATA_PROP (d2d1effects.h)
-description: Identifiers for properties of the Opacity metadata effect.
+description: Identifiers for properties of the Opacity metadata effect.helpviewer_keywords: ["D2D1_OPACITYMETADATA_PROP","D2D1_OPACITYMETADATA_PROP enumeration [Direct2D]","D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT","d2d1effects/D2D1_OPACITYMETADATA_PROP","d2d1effects/D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT","direct2d.d2d1_opacitymetadata_prop"]
 old-location: direct2d\d2d1_opacitymetadata_prop.htm
 tech.root: Direct2D
 ms.assetid: D8BA5767-EDB0-4BD0-9B07-9009DB1FD678

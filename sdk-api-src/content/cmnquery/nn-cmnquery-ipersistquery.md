@@ -1,7 +1,7 @@
 ---
 UID: NN:cmnquery.IPersistQuery
 title: IPersistQuery (cmnquery.h)
-description: Used to store and retrieve query parameters to and from persistent storage.
+description: Used to store and retrieve query parameters to and from persistent storage.helpviewer_keywords: ["IPersistQuery","IPersistQuery interface [Active Directory]","IPersistQuery interface [Active Directory]","described","_glines_ipersistquery","ad.ipersistquery","cmnquery/IPersistQuery"]
 old-location: ad\ipersistquery.htm
 tech.root: ad
 ms.assetid: 9d90f119-3d10-4f06-bed4-5ffab9ae14a4

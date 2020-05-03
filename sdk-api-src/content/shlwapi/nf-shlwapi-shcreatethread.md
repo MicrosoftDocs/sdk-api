@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHCreateThread
 title: SHCreateThread function (shlwapi.h)
-description: Creates a thread.
+description: Creates a thread.helpviewer_keywords: ["SHCreateThread","SHCreateThread function [Windows Shell]","_win32_SHCreateThread","shell.SHCreateThread","shlwapi/SHCreateThread"]
 old-location: shell\SHCreateThread.htm
 tech.root: shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73

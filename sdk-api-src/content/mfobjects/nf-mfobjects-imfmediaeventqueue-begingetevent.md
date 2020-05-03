@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.BeginGetEvent
 title: IMFMediaEventQueue::BeginGetEvent (mfobjects.h)
-description: Begins an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::BeginGetEvent. Pass the parameters from that method directly to this method.
+description: Begins an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::BeginGetEvent. Pass the parameters from that method directly to this method.helpviewer_keywords: ["454d4b3b-6251-4b7e-b8f3-ff7cff5269b5","BeginGetEvent","BeginGetEvent method [Media Foundation]","BeginGetEvent method [Media Foundation]","IMFMediaEventQueue interface","IMFMediaEventQueue interface [Media Foundation]","BeginGetEvent method","IMFMediaEventQueue.BeginGetEvent","IMFMediaEventQueue::BeginGetEvent","mf.imfmediaeventqueue_begingetevent","mfobjects/IMFMediaEventQueue::BeginGetEvent"]
 old-location: mf\imfmediaeventqueue_begingetevent.htm
 tech.root: medfound
 ms.assetid: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5

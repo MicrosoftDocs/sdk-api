@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioLfxControl.SetLocalEffectsState
 title: IAudioLfxControl::SetLocalEffectsState (audioengineendpoint.h)
-description: The SetLocalEffectsState method sets the local effects state that is to be applied to the offloaded audio stream.
+description: The SetLocalEffectsState method sets the local effects state that is to be applied to the offloaded audio stream.helpviewer_keywords: ["IAudioLfxControl interface [Core Audio]","SetLocalEffectsState method","IAudioLfxControl.SetLocalEffectsState","IAudioLfxControl::SetLocalEffectsState","SetLocalEffectsState","SetLocalEffectsState method [Core Audio]","SetLocalEffectsState method [Core Audio]","IAudioLfxControl interface","audioengineendpoint/IAudioLfxControl::SetLocalEffectsState","coreaudio.iaudiolfxcontrol_setlocaleffectsstate"]
 old-location: coreaudio\iaudiolfxcontrol_setlocaleffectsstate.htm
 tech.root: CoreAudio
 ms.assetid: F89C2610-BC71-4309-BCDA-5529B16A3FA7

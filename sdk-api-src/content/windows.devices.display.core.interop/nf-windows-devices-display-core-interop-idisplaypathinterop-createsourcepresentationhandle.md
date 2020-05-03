@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.devices.display.core.interop.IDisplayPathInterop.CreateSourcePresentationHandle
 title: IDisplayPathInterop::CreateSourcePresentationHandle
-description: Creates an NT handle for controlling access to scanout on this path.
+description: Creates an NT handle for controlling access to scanout on this path.helpviewer_keywords: ["IDisplayPathInterop::CreateSourcePresentationHandle"]
 ms.date: 02/10/2020
 tech.root: winrt
 dev_langs:

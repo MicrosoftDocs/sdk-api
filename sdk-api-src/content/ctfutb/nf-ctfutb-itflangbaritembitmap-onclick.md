@@ -2,6 +2,7 @@
 UID: NF:ctfutb.ITfLangBarItemBitmap.OnClick
 title: ITfLangBarItemBitmap::OnClick (ctfutb.h)
 description: ITfLangBarItemBitmap::OnClick method
+helpviewer_keywords: ["ITfLangBarItemBitmap interface [Text Services Framework]","OnClick method","ITfLangBarItemBitmap.OnClick","ITfLangBarItemBitmap::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemBitmap interface","_tsf_itflangbaritembitmap_onclick_ref","ctfutb/ITfLangBarItemBitmap::OnClick","tsf.itflangbaritembitmap_onclick"]
 old-location: tsf\itflangbaritembitmap_onclick.htm
 tech.root: TSF
 ms.assetid: b4e5857e-7e0b-462d-90cd-cb0e7b1143d5
@@ -57,7 +58,7 @@ Not currently used.
 
 ### -param click [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the bitmap.
+Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the bitmap.
 
 
 ### -param pt [in]
@@ -126,7 +127,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
  
 

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokePattern
 title: IXpsOMGeometryFigure::GetSegmentStrokePattern (xpsobjectmodel.h)
 description: Gets the XPS_SEGMENT_STROKE_PATTERN value that indicates whether the segments in the figure are stroked.
+helpviewer_keywords: ["GetSegmentStrokePattern","GetSegmentStrokePattern method [XPS Documents and Packaging]","GetSegmentStrokePattern method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentStrokePattern method","IXpsOMGeometryFigure.GetSegmentStrokePattern","IXpsOMGeometryFigure::GetSegmentStrokePattern","xps.ixpsomgeometryfigure_getsegmentstrokepattern","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokePattern"]
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokepattern.htm
 tech.root: printdocs
 ms.assetid: 497701aa-8738-43d1-830f-7a6c00cfa2cc
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne
 
 ### -param segmentStrokePattern [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
 
 
 ## -returns
@@ -114,7 +115,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_stroke_pattern">XPS_SEGMENT_STROKE_PATTERN</a>
  
 
  

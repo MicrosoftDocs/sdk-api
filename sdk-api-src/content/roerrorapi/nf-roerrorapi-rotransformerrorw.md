@@ -2,6 +2,7 @@
 UID: NF:roerrorapi.RoTransformErrorW
 title: RoTransformErrorW function
 description: Reports a transformed error and an informative string to an attached debugger.
+helpviewer_keywords: ["RoTransformErrorW","RoTransformErrorW function [Windows Runtime]","WinRTTransformErrorW","roerrorapi/RoTransformErrorW","roerrorapi/WinRTTransformErrorW","winrt.rotransformerrorw","winrt.winrttransformerrorw"]
 old-location: winrt\rotransformerrorw.htm
 tech.root: WinRT
 ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9
@@ -141,7 +142,7 @@ Use the <b>RoTransformErrorW</b> function  to substitute a custom error code for
 
 The behavior of the  <b>RoTransformErrorW</b> function is otherwise the same as the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a> function.
 
- If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
+ If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
 
 
 <div class="alert"><b>Note</b>  This is no ANSI version of the <b>RoTransformErrorW</b> function. Message strings are required to be Unicode.</div>

@@ -2,6 +2,7 @@
 UID: NF:credentialprovider.ICredentialProviderFilter.UpdateRemoteCredential
 title: ICredentialProviderFilter::UpdateRemoteCredential (credentialprovider.h)
 description: Updates a credential from a remote session.
+helpviewer_keywords: ["ICredentialProviderFilter interface [Windows Shell]","UpdateRemoteCredential method","ICredentialProviderFilter.UpdateRemoteCredential","ICredentialProviderFilter::UpdateRemoteCredential","UpdateRemoteCredential","UpdateRemoteCredential method [Windows Shell]","UpdateRemoteCredential method [Windows Shell]","ICredentialProviderFilter interface","_shell_ICredentialProviderFilter_UpdateRemoteCredential","credentialprovider/ICredentialProviderFilter::UpdateRemoteCredential","shell.ICredentialProviderFilter_UpdateRemoteCredential"]
 old-location: shell\ICredentialProviderFilter_UpdateRemoteCredential.htm
 tech.root: shell
 ms.assetid: d0730f67-e4f1-42b2-823a-75b08a5c952e
@@ -59,16 +60,16 @@ Updates a credential from a remote session.
 
 ### -param pcpcsIn [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
+Type: <b>const <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
 
-A constant pointer to a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure.
+A constant pointer to a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure.
 
 
 ### -param pcpcsOut [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
+Type: <b><a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure.
+A pointer to a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure.
 
 
 ## -returns

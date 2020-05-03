@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICryptAttributes
 title: ICryptAttributes (certenroll.h)
-description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.
+description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.helpviewer_keywords: ["ICryptAttributes","ICryptAttributes interface [Security]","ICryptAttributes interface [Security]","described","certenroll/ICryptAttributes","security.icryptattributes"]
 old-location: security\icryptattributes.htm
 tech.root: seccertenroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e

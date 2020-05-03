@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.MovePrevious
 title: IOpcCertificateEnumerator::MovePrevious (msopc.h)
-description: Moves the current position of the enumerator to the previous CERT_CONTEXT structure.
+description: Moves the current position of the enumerator to the previous CERT_CONTEXT structure.helpviewer_keywords: ["IOpcCertificateEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcCertificateEnumerator.MovePrevious","IOpcCertificateEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcCertificateEnumerator interface","msopc/IOpcCertificateEnumerator::MovePrevious","opc.iopccertificateenumerator_moveprevious"]
 old-location: opc\iopccertificateenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: 564c391c-8c73-4dd8-b713-3a5309708fd6

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStorage.SetStateBits
 title: IStorage::SetStateBits (objidl.h)
-description: The SetStateBits method stores up to 32 bits of state information in this storage object.
+description: The SetStateBits method stores up to 32 bits of state information in this storage object.helpviewer_keywords: ["IStorage interface [Structured Storage]","SetStateBits method","IStorage.SetStateBits","IStorage::SetStateBits","SetStateBits","SetStateBits method [Structured Storage]","SetStateBits method [Structured Storage]","IStorage interface","_stg_istorage_setstatebits","objidl/IStorage::SetStateBits","stg.istorage_setstatebits"]
 old-location: stg\istorage_setstatebits.htm
 tech.root: Stg
 ms.assetid: 52606df8-10ea-40e7-bb61-c86c7b7262d2

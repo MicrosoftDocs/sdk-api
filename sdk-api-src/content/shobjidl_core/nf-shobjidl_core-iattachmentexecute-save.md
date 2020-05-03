@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Save
 title: IAttachmentExecute::Save (shobjidl_core.h)
-description: Saves the attachment.
+description: Saves the attachment.helpviewer_keywords: ["IAttachmentExecute interface [Windows Shell]","Save method","IAttachmentExecute.Save","IAttachmentExecute::Save","Save","Save method [Windows Shell]","Save method [Windows Shell]","IAttachmentExecute interface","_win32_IAttachmentExecute_Save","shell.IAttachmentExecute_Save","shobjidl_core/IAttachmentExecute::Save"]
 old-location: shell\IAttachmentExecute_Save.htm
 tech.root: shell
 ms.assetid: 25661942-f38b-42d6-981b-4a3f4d083f6c

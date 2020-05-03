@@ -1,7 +1,7 @@
 ---
 UID: NF:opmapi.OPMGetVideoOutputForTarget
 title: OPMGetVideoOutputForTarget function (opmapi.h)
-description: Returns a video output object for the VidPN target on the specified adapter.
+description: Returns a video output object for the VidPN target on the specified adapter.helpviewer_keywords: ["OPMGetVideoOutputForTarget","OPMGetVideoOutputForTarget function [Media Foundation]","OPM_VOS_COPP_SEMANTICS","OPM_VOS_OPM_SEMANTICS","mf.opmgetvideooutputfortarget","opmapi/OPMGetVideoOutputForTarget"]
 old-location: mf\opmgetvideooutputfortarget.htm
 tech.root: medfound
 ms.assetid: 736F6C76-D208-49E8-9D96-F54ECE332FCA

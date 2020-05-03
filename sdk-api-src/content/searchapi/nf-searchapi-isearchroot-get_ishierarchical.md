@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_IsHierarchical
 title: ISearchRoot::get_IsHierarchical (searchapi.h)
-description: Gets a value that indicates whether the search is rooted on a hierarchical tree structure.
+description: Gets a value that indicates whether the search is rooted on a hierarchical tree structure.helpviewer_keywords: ["ISearchRoot interface [search]","get_IsHierarchical method","ISearchRoot.get_IsHierarchical","ISearchRoot::get_IsHierarchical","_search_ISearchRoot_get_IsHierarchical","get_IsHierarchical","get_IsHierarchical method [search]","get_IsHierarchical method [search]","ISearchRoot interface","search._search_ISearchRoot_get_IsHierarchical","searchapi/ISearchRoot::get_IsHierarchical"]
 old-location: search\_search_ISearchRoot_get_IsHierarchical.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_ishierarchical.htm

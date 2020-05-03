@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetCount
 title: IXpsOMDictionary::GetCount (xpsobjectmodel.h)
-description: Gets the number of entries in the dictionary.
+description: Gets the number of entries in the dictionary.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMDictionary interface","IXpsOMDictionary interface [XPS Documents and Packaging]","GetCount method","IXpsOMDictionary.GetCount","IXpsOMDictionary::GetCount","xps.ixpsomdictionary_getcount","xpsobjectmodel/IXpsOMDictionary::GetCount"]
 old-location: xps\ixpsomdictionary_getcount.htm
 tech.root: printdocs
 ms.assetid: 66737d94-aa63-4f01-a446-1dffc18e8b82

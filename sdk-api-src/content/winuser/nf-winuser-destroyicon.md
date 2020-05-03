@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DestroyIcon
 title: DestroyIcon function (winuser.h)
-description: Destroys an icon and frees any memory the icon occupied.
+description: Destroys an icon and frees any memory the icon occupied.helpviewer_keywords: ["DestroyIcon","DestroyIcon function [Menus and Other Resources]","_win32_DestroyIcon","_win32_destroyicon_cpp","menurc.destroyicon","winui._win32_destroyicon","winuser/DestroyIcon"]
 old-location: menurc\destroyicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\destroyicon.htm

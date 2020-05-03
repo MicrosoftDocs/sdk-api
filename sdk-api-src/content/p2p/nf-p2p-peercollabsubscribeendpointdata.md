@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabSubscribeEndpointData
 title: PeerCollabSubscribeEndpointData function (p2p.h)
-description: Creates a subscription to an available endpoint.
+description: Creates a subscription to an available endpoint.helpviewer_keywords: ["PeerCollabSubscribeEndpointData","PeerCollabSubscribeEndpointData function [Peer Networking]","p2p.peercollabsubscribeendpointdata","p2p/PeerCollabSubscribeEndpointData"]
 old-location: p2p\peercollabsubscribeendpointdata.htm
 tech.root: P2PSdk
 ms.assetid: dfe17235-34dd-4694-9ee5-4268b4406731

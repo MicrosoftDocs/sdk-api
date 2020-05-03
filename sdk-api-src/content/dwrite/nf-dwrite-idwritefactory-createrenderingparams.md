@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateRenderingParams
 title: IDWriteFactory::CreateRenderingParams (dwrite.h)
-description: Creates a rendering parameters object with default settings for the primary monitor. Different monitors may have different rendering parameters, for more information see the How to Add Support for Multiple Monitors topic.
+description: Creates a rendering parameters object with default settings for the primary monitor. Different monitors may have different rendering parameters, for more information see the How to Add Support for Multiple Monitors topic.helpviewer_keywords: ["CreateRenderingParams","CreateRenderingParams method [Direct Write]","CreateRenderingParams method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateRenderingParams method","IDWriteFactory.CreateRenderingParams","IDWriteFactory::CreateRenderingParams","directwrite.IDWriteFactory_CreateRenderingParams","dwrite/IDWriteFactory::CreateRenderingParams"]
 old-location: directwrite\IDWriteFactory_CreateRenderingParams.htm
 tech.root: DirectWrite
 ms.assetid: f5e3e609-62ee-4a0a-aed1-591be852590e

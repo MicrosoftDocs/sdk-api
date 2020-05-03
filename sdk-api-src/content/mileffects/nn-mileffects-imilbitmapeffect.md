@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffect
 title: IMILBitmapEffect (mileffects.h)
-description: Exposes methods that define a Windows Presentation Foundation (WPF) bitmap effect.
+description: Exposes methods that define a Windows Presentation Foundation (WPF) bitmap effect.helpviewer_keywords: ["IMILBitmapEffect","IMILBitmapEffect interface [WPF Bitmap Effects]","IMILBitmapEffect interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffect","mileffects/IMILBitmapEffect","wibe._wibe_imilbitmapeffect"]
 old-location: wibe\_wibe_imilbitmapeffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\imilbitmapeffect.htm

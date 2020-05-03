@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12DeviceRemovedExtendedData
 title: ID3D12DeviceRemovedExtendedData interface
-description: Provides runtime access to Device Removed Extended Data (DRED) data.
+description: Provides runtime access to Device Removed Extended Data (DRED) data.helpviewer_keywords: ["ID3D12DeviceRemovedExtendedData","ID3D12DeviceRemovedExtendedData interface","ID3D12DeviceRemovedExtendedData interface","described","d3d12/ID3D12DeviceRemovedExtendedData","direct3d12.id3d12deviceremovedextendeddata"]
 tech.root: direct3d12
 ms.date: 02/08/2019
 ms.keywords: ID3D12DeviceRemovedExtendedData, ID3D12DeviceRemovedExtendedData interface, ID3D12DeviceRemovedExtendedData interface,described, d3d12/ID3D12DeviceRemovedExtendedData, direct3d12.id3d12deviceremovedextendeddata

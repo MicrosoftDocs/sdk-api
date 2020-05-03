@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &)
 title: ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &) (d2d1.h)
-description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.
+description: Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.helpviewer_keywords: ["FillOpacityMask","FillOpacityMask method [Direct2D]","FillOpacityMask method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillOpacityMask method","ID2D1RenderTarget.FillOpacityMask","ID2D1RenderTarget.FillOpacityMask(ID2D1Bitmap","ID2D1Brush","D2D1_OPACITY_MASK_CONTENT","const D2D1_RECT_F &","const D2D1_RECT_F &)","ID2D1RenderTarget::FillOpacityMask","ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap","ID2D1Brush","D2D1_OPACITY_MASK_CONTENT","const D2D1_RECT_F &","const D2D1_RECT_F &)","d2d1/ID2D1RenderTarget::FillOpacityMask","direct2d.ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ref_D2D_RECT_F_ref_D2D_RECT_F_D2D1_GAMMA"]
 old-location: direct2d\ID2D1RenderTarget_FillOpacityMask_ptr_ID2D1Bitmap_ptr_ID2D1Brush_ref_D2D_RECT_F_ref_D2D_RECT_F_D2D1_GAMMA.htm
 tech.root: Direct2D
 ms.assetid: b55cc9f3-7378-4ffd-bc71-8e06a2fb9f9e
@@ -59,37 +59,37 @@ Applies the opacity mask described by the specified bitmap to a brush and uses t
 
 ### -param opacityMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The opacity mask to apply to the brush. The alpha value of each pixel in the  region specified by <i>sourceRectangle</i> is multiplied with the alpha value of the brush after the brush has been mapped to the area defined by <i>destinationRectangle</i>.
 
 
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the region of the render target specified by <i>destinationRectangle</i>.
 
 
 ### -param content
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content">D2D1_OPACITY_MASK_CONTENT</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_opacity_mask_content">D2D1_OPACITY_MASK_CONTENT</a></b>
 
 The type of content the opacity mask contains. The value is used to determine the color space in which the opacity mask is blended.
 
-<div class="alert"><b>Note</b>  Starting with Windows 8, the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content">D2D1_OPACITY_MASK_CONTENT</a> is not required. See the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f__constd2d1_rect_f)">ID2D1DeviceContext::FillOpacityMask</a> method, which has no <b>D2D1_OPACITY_MASK_CONTENT</b> parameter.</div>
+<div class="alert"><b>Note</b>  Starting with Windows 8, the <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_opacity_mask_content">D2D1_OPACITY_MASK_CONTENT</a> is not required. See the <a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f__constd2d1_rect_f)">ID2D1DeviceContext::FillOpacityMask</a> method, which has no <b>D2D1_OPACITY_MASK_CONTENT</b> parameter.</div>
 <div> </div>
 
 ### -param destinationRectangle [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The region of the render target to paint, in device-independent pixels. 
 
 
 ### -param sourceRectangle [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
 The region of the bitmap to use as the opacity mask, in device-independent pixels.
 
@@ -98,9 +98,9 @@ The region of the bitmap to use as the opacity mask, in device-independent pixel
 
 
 
-For this method to work properly, the render target must be using the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a> antialiasing mode. You can set the antialiasing mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">ID2D1RenderTarget::SetAntialiasMode</a> method.
+For this method to work properly, the render target must be using the <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a> antialiasing mode. You can set the antialiasing mode by calling the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">ID2D1RenderTarget::SetAntialiasMode</a> method.
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-fillopacitymask">FillOpacityMask</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/Direct2D/id2d1rendertarget-fillopacitymask">FillOpacityMask</a>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 
@@ -110,7 +110,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

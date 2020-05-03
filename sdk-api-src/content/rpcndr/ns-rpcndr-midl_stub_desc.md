@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcndr._MIDL_STUB_DESC
 title: MIDL_STUB_DESC (rpcndr.h)
-description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.
+description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.helpviewer_keywords: ["MIDL_STUB_DESC","MIDL_STUB_DESC structure [RPC]","PMIDL_STUB_DESC","PMIDL_STUB_DESC structure pointer [RPC]","RPCFLG_HAS_CALLBACK","RPCFLG_HAS_MULTI_SYNTAXES","RPC_INTERFACE_HAS_PIPES","rpc.midl_stub_desc","rpcndr/MIDL_STUB_DESC","rpcndr/PMIDL_STUB_DESC"]
 old-location: rpc\midl_stub_desc.htm
 tech.root: Rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74

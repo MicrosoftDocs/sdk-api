@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.Polyline
 title: Polyline function (wingdi.h)
-description: The Polyline function draws a series of line segments by connecting the points in the specified array.
+description: The Polyline function draws a series of line segments by connecting the points in the specified array.helpviewer_keywords: ["Polyline","Polyline function [Windows GDI]","_win32_Polyline","gdi.polyline","wingdi/Polyline"]
 old-location: gdi\polyline.htm
 tech.root: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60

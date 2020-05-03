@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.GetMoniker
 title: IOleObject::GetMoniker (oleidl.h)
-description: Retrieves an embedded object's moniker, which the caller can use to link to the object.
+description: Retrieves an embedded object's moniker, which the caller can use to link to the object.helpviewer_keywords: ["GetMoniker","GetMoniker method [COM]","GetMoniker method [COM]","IOleObject interface","IOleObject interface [COM]","GetMoniker method","IOleObject.GetMoniker","IOleObject::GetMoniker","_ole_ioleobject_getmoniker","com.ioleobject_getmoniker","oleidl/IOleObject::GetMoniker"]
 old-location: com\ioleobject_getmoniker.htm
 tech.root: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI2FromI4
 title: VarI2FromI4 function (oleauto.h)
-description: Converts a long value to a short value.
+description: Converts a long value to a short value.helpviewer_keywords: ["VarI2FromI4","VarI2FromI4 function [Automation]","_oa96_VarI2FromI4","automat.vari2fromi4","oleauto/VarI2FromI4"]
 old-location: automat\vari2fromi4.htm
 tech.root: automat
 ms.assetid: f3b8ff7f-9531-4403-9532-7c165eb0dd09

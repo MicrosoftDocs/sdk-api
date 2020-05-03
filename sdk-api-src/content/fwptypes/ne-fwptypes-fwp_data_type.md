@@ -2,6 +2,7 @@
 UID: NE:fwptypes.FWP_DATA_TYPE_
 title: FWP_DATA_TYPE (fwptypes.h)
 description: Data types that can be stored in an FWP_VALUE0 or an FWP_CONDITION_VALUE0structure.
+helpviewer_keywords: ["FWP_BYTE_ARRAY16_TYPE","FWP_BYTE_ARRAY6_TYPE","FWP_BYTE_BLOB_TYPE","FWP_DATA_TYPE","FWP_DATA_TYPE enumeration [Filtering]","FWP_DATA_TYPE_MAX","FWP_DOUBLE","FWP_EMPTY","FWP_FLOAT","FWP_INT16","FWP_INT32","FWP_INT64","FWP_INT8","FWP_RANGE_TYPE","FWP_SECURITY_DESCRIPTOR_TYPE","FWP_SID","FWP_SINGLE_DATA_TYPE_MAX","FWP_TOKEN_ACCESS_INFORMATION_TYPE","FWP_TOKEN_INFORMATION_TYPE","FWP_UINT16","FWP_UINT32","FWP_UINT64","FWP_UINT8","FWP_UNICODE_STRING_TYPE","FWP_V4_ADDR_MASK","FWP_V6_ADDR_MASK","fwp.fwp_data_type_enum","fwptypes/FWP_BYTE_ARRAY16_TYPE","fwptypes/FWP_BYTE_ARRAY6_TYPE","fwptypes/FWP_BYTE_BLOB_TYPE","fwptypes/FWP_DATA_TYPE","fwptypes/FWP_DATA_TYPE_MAX","fwptypes/FWP_DOUBLE","fwptypes/FWP_EMPTY","fwptypes/FWP_FLOAT","fwptypes/FWP_INT16","fwptypes/FWP_INT32","fwptypes/FWP_INT64","fwptypes/FWP_INT8","fwptypes/FWP_RANGE_TYPE","fwptypes/FWP_SECURITY_DESCRIPTOR_TYPE","fwptypes/FWP_SID","fwptypes/FWP_SINGLE_DATA_TYPE_MAX","fwptypes/FWP_TOKEN_ACCESS_INFORMATION_TYPE","fwptypes/FWP_TOKEN_INFORMATION_TYPE","fwptypes/FWP_UINT16","fwptypes/FWP_UINT32","fwptypes/FWP_UINT64","fwptypes/FWP_UINT8","fwptypes/FWP_UNICODE_STRING_TYPE","fwptypes/FWP_V4_ADDR_MASK","fwptypes/FWP_V6_ADDR_MASK"]
 old-location: fwp\fwp_data_type_enum.htm
 tech.root: fwp
 ms.assetid: db605170-bfe0-4339-8a40-7b1ce435278b
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a> or an [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a>structure.
+The [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0) or an [FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)structure.
 
 
 ## -enum-fields
@@ -114,12 +115,12 @@ Indicates a pointer to a double-precision floating-point  value.
 
 ### -field FWP_BYTE_ARRAY16_TYPE
 
-Indicates a pointer to an [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a> structure.
+Indicates a pointer to an [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) structure.
 
 
 ### -field FWP_BYTE_BLOB_TYPE
 
-Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure.
+Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure.
 
 
 ### -field FWP_SID
@@ -129,17 +130,17 @@ Indicates a pointer to a SID.
 
 ### -field FWP_SECURITY_DESCRIPTOR_TYPE
 
-Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that describes a security descriptor.
+Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that describes a security descriptor.
 
 
 ### -field FWP_TOKEN_INFORMATION_TYPE
 
-Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that describes token information.
+Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that describes token information.
 
 
 ### -field FWP_TOKEN_ACCESS_INFORMATION_TYPE
 
-Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that describes token access information.
+Indicates a pointer to an [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that describes token access information.
 
 
 ### -field FWP_UNICODE_STRING_TYPE
@@ -165,17 +166,17 @@ Reserved for future use.
 
 ### -field FWP_V4_ADDR_MASK
 
-Indicates a pointer to an [FWP_V4_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v4_addr_and_mask)a> structure. 
+Indicates a pointer to an [FWP_V4_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v4_addr_and_mask) structure. 
 
 
 ### -field FWP_V6_ADDR_MASK
 
-Indicates a pointer to an [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a> structure. 
+Indicates a pointer to an [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure. 
 
 
 ### -field FWP_RANGE_TYPE
 
-Indicates a pointer to an [FWP_RANGE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_range0)a> structure.
+Indicates a pointer to an [FWP_RANGE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_range0) structure.
 
 
 ### -field FWP_DATA_TYPE_MAX
@@ -198,31 +199,31 @@ in each structure to determine which are allowed.
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)a>
+[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)a>
+[FWP_CONDITION_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)
 
 
 
-[FWP_RANGE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_range0)a>
+[FWP_RANGE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_range0)
 
 
 
-[FWP_V4_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v4_addr_and_mask)a>
+[FWP_V4_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v4_addr_and_mask)
 
 
 
-[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>
+[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
+[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
  
 
  

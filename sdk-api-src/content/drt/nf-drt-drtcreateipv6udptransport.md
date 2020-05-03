@@ -1,7 +1,7 @@
 ---
 UID: NF:drt.DrtCreateIpv6UdpTransport
 title: DrtCreateIpv6UdpTransport function (drt.h)
-description: DrtCreateIpv6UdpTransport function creates a transport based on the IPv6 UDP protocol.
+description: DrtCreateIpv6UdpTransport function creates a transport based on the IPv6 UDP protocol.helpviewer_keywords: ["DrtCreateIpv6UdpTransport","DrtCreateIpv6UdpTransport function [Peer Networking]","drt/DrtCreateIpv6UdpTransport","p2p.drtcreateipv6udptransport"]
 old-location: p2p\drtcreateipv6udptransport.htm
 tech.root: P2PSdk
 ms.assetid: def3120b-98b6-4e31-8166-822cea7fea69

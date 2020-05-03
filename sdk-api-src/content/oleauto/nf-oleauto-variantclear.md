@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VariantClear
 title: VariantClear function (oleauto.h)
-description: Clears a variant.
+description: Clears a variant.helpviewer_keywords: ["VariantClear","VariantClear function [Automation]","_oa96_VariantClear","automat.variantclear","oleauto/VariantClear"]
 old-location: automat\variantclear.htm
 tech.root: automat
 ms.assetid: 28741d81-8404-4f85-95d3-5c209ec13835

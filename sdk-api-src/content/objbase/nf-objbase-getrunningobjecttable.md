@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.GetRunningObjectTable
 title: GetRunningObjectTable function (objbase.h)
-description: Returns a pointer to the IRunningObjectTable interface on the local running object table (ROT).
+description: Returns a pointer to the IRunningObjectTable interface on the local running object table (ROT).helpviewer_keywords: ["GetRunningObjectTable","GetRunningObjectTable function [COM]","_com_GetRunningObjectTable","com.getrunningobjecttable","objbase/GetRunningObjectTable"]
 old-location: com\getrunningobjecttable.htm
 tech.root: com
 ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d

@@ -1,7 +1,7 @@
 ---
 UID: NE:dbghelp.__unnamed_enum_4
 title: IMAGEHLP_EXTENDED_OPTIONS (dbghelp.h)
-description: Lists the extended symbol options that you can get and set by using the SymGetExtendedOption and SymSetExtendedOption functions.
+description: Lists the extended symbol options that you can get and set by using the SymGetExtendedOption and SymSetExtendedOption functions.helpviewer_keywords: ["IMAGEHLP_EXTENDED_OPTIONS","IMAGEHLP_EXTENDED_OPTIONS enumeration","SYMOPT_EX_DISABLEACCESSTIMEUPDATE","SYMOPT_EX_MAX","base.imagehlp_extended_options","dbghelp/IMAGEHLP_EXTENDED_OPTIONS","dbghelp/SYMOPT_EX_DISABLEACCESSTIMEUPDATE","dbghelp/SYMOPT_EX_MAX"]
 old-location: base\imagehlp_extended_options.htm
 tech.root: Debug
 ms.assetid: 5354F53C-F161-4887-85E4-7A00521034EE

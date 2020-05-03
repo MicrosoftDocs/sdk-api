@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFOutputSchema
 title: IMFOutputSchema (mfidl.h)
-description: Encapsulates information about an output protection system and its corresponding configuration data.
+description: Encapsulates information about an output protection system and its corresponding configuration data.helpviewer_keywords: ["IMFOutputSchema","IMFOutputSchema interface [Media Foundation]","IMFOutputSchema interface [Media Foundation]","described","d0786628-dde9-43a9-8e81-0b0c396ad426","mf.imfoutputschema","mfidl/IMFOutputSchema"]
 old-location: mf\imfoutputschema.htm
 tech.root: medfound
 ms.assetid: d0786628-dde9-43a9-8e81-0b0c396ad426

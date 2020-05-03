@@ -2,6 +2,7 @@
 UID: NE:mstcpip._TCPSTATE
 title: TCPSTATE (mstcpip.h)
 description: Indicates the possible states of a Transmission Control Protocol (TCP) connection.
+helpviewer_keywords: ["TCPSTATE","TCPSTATE enumeration [Winsock]","TCPSTATE_CLOSED","TCPSTATE_CLOSE_WAIT","TCPSTATE_CLOSING","TCPSTATE_ESTABLISHED","TCPSTATE_FIN_WAIT_1","TCPSTATE_FIN_WAIT_2","TCPSTATE_LAST_ACK","TCPSTATE_LISTEN","TCPSTATE_MAX","TCPSTATE_SYN_RCVD","TCPSTATE_SYN_SENT","TCPSTATE_TIME_WAIT","mstcpip/TCPSTATE","mstcpip/TCPSTATE_CLOSED","mstcpip/TCPSTATE_CLOSE_WAIT","mstcpip/TCPSTATE_CLOSING","mstcpip/TCPSTATE_ESTABLISHED","mstcpip/TCPSTATE_FIN_WAIT_1","mstcpip/TCPSTATE_FIN_WAIT_2","mstcpip/TCPSTATE_LAST_ACK","mstcpip/TCPSTATE_LISTEN","mstcpip/TCPSTATE_MAX","mstcpip/TCPSTATE_SYN_RCVD","mstcpip/TCPSTATE_SYN_SENT","mstcpip/TCPSTATE_TIME_WAIT","winsock.tcpstate"]
 old-location: winsock\tcpstate.htm
 tech.root: WinSock
 ms.assetid: 225C423E-C820-4E9F-8261-DA1E14F81683
@@ -150,7 +151,7 @@ A TCP connection progresses from one state to another in response to
   ABORT, and STATUS; the incoming segments, particularly those
   containing the SYN, ACK, RST and FIN flags; and timeouts.
 
-For more information about TCP connection states, see <a href="https://go.microsoft.com/fwlink/p/?linkid=852445">RFC 793</a>.
+For more information about TCP connection states, see <a href="https://tools.ietf.org/html/rfc793">RFC 793</a>.
 
 
 

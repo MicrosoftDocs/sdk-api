@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.EnumAdvise
 title: IOleObject::EnumAdvise (oleidl.h)
-description: Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an object, so a container can know what to release prior to closing down.
+description: Retrieves a pointer to an enumerator that can be used to enumerate the advisory connections registered for an object, so a container can know what to release prior to closing down.helpviewer_keywords: ["EnumAdvise","EnumAdvise method [COM]","EnumAdvise method [COM]","IOleObject interface","IOleObject interface [COM]","EnumAdvise method","IOleObject.EnumAdvise","IOleObject::EnumAdvise","_ole_ioleobject_enumadvise","com.ioleobject_enumadvise","oleidl/IOleObject::EnumAdvise"]
 old-location: com\ioleobject_enumadvise.htm
 tech.root: com
 ms.assetid: 4e1d6d9e-ebf2-4cd6-b7b4-00f9e7bd9bdc

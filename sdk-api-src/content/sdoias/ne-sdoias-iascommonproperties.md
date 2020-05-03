@@ -1,7 +1,7 @@
 ---
 UID: NE:sdoias._IASCOMMONPROPERTIES
 title: IASCOMMONPROPERTIES (sdoias.h)
-description: The values of the IASCOMMONPROPERTIES enumeration type enumerate properties that are present in all SDO objects.
+description: The values of the IASCOMMONPROPERTIES enumeration type enumerate properties that are present in all SDO objects.helpviewer_keywords: ["IASCOMMONPROPERTIES","IASCOMMONPROPERTIES enumeration [Network Policy Server]","PROPERTY_SDO_CLASS","PROPERTY_SDO_DATASTORE_NAME","PROPERTY_SDO_DESCRIPTION","PROPERTY_SDO_ID","PROPERTY_SDO_NAME","PROPERTY_SDO_RESERVED","PROPERTY_SDO_START","_sdo_iascommonproperties","nps.SDO_iascommonproperties","sdo.iascommonproperties","sdoias/IASCOMMONPROPERTIES","sdoias/PROPERTY_SDO_CLASS","sdoias/PROPERTY_SDO_DATASTORE_NAME","sdoias/PROPERTY_SDO_DESCRIPTION","sdoias/PROPERTY_SDO_ID","sdoias/PROPERTY_SDO_NAME","sdoias/PROPERTY_SDO_RESERVED","sdoias/PROPERTY_SDO_START"]
 old-location: nps\SDO_iascommonproperties.htm
 tech.root: Nps
 ms.assetid: 9c7ee4d7-987f-45ae-810f-fc310955f36d

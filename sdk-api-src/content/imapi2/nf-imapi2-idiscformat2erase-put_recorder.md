@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_Recorder
 title: IDiscFormat2Erase::put_Recorder (imapi2.h)
-description: Sets the recording device to use in the erase operation.
+description: Sets the recording device to use in the erase operation.helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","put_Recorder method","IDiscFormat2Erase.put_Recorder","IDiscFormat2Erase::put_Recorder","imapi.idiscformat2erase_put_recorder","imapi2/IDiscFormat2Erase::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IDiscFormat2Erase interface"]
 old-location: imapi\idiscformat2erase_put_recorder.htm
 tech.root: imapi
 ms.assetid: d38c0d75-eb9c-4b8c-bf0e-7f05eb2f5116

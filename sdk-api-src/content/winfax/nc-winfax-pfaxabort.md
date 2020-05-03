@@ -1,7 +1,7 @@
 ---
 UID: NC:winfax.PFAXABORT
 title: PFAXABORT (winfax.h)
-description: A fax client application calls the FaxAbort function to terminate a fax job.
+description: A fax client application calls the FaxAbort function to terminate a fax job.helpviewer_keywords: ["FaxAbortA","FaxAbortW","PFAXABORT","PFAXABORT callback","PFAXABORT callback function [Fax Service]","_mfax_faxabort","fax._mfax_faxabort","winfax/FaxAbortA","winfax/FaxAbortW","winfax/PFAXABORT"]
 old-location: fax\_mfax_faxabort.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm

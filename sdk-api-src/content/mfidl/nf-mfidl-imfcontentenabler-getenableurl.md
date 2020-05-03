@@ -2,6 +2,7 @@
 UID: NF:mfidl.IMFContentEnabler.GetEnableURL
 title: IMFContentEnabler::GetEnableURL (mfidl.h)
 description: Retrieves a URL for performing a manual content enabling action.
+helpviewer_keywords: ["1a44216d-36e5-4b5c-9585-5297d5e429f9","GetEnableURL","GetEnableURL method [Media Foundation]","GetEnableURL method [Media Foundation]","IMFContentEnabler interface","IMFContentEnabler interface [Media Foundation]","GetEnableURL method","IMFContentEnabler.GetEnableURL","IMFContentEnabler::GetEnableURL","mf.imfcontentenabler_getenableurl","mfidl/IMFContentEnabler::GetEnableURL"]
 old-location: mf\imfcontentenabler_getenableurl.htm
 tech.root: medfound
 ms.assetid: 1a44216d-36e5-4b5c-9585-5297d5e429f9
@@ -73,7 +74,7 @@ Receives the number of characters returned in <i>ppwszURL</i>, including the ter
 
 ### -param pTrustStatus [in, out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ne-mfidl-mf_url_trust_status">MF_URL_TRUST_STATUS</a> enumeration indicating whether the URL is trusted.
+Receives a member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mf_url_trust_status">MF_URL_TRUST_STATUS</a> enumeration indicating whether the URL is trusted.
 
 
 ## -returns

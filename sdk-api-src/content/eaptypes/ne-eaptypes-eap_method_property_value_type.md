@@ -2,6 +2,7 @@
 UID: NE:eaptypes._EAP_METHOD_PROPERTY_VALUE_TYPE
 title: EAP_METHOD_PROPERTY_VALUE_TYPE (eaptypes.h)
 description: Defines the set of possible data types for an EAP method property value.
+helpviewer_keywords: ["EAP_METHOD_PROPERTY_VALUE_TYPE","EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost]","eaphost.eap_method_property_value_type","eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE","eaptypes/empvtBool","eaptypes/empvtDword","eaptypes/empvtString","empvtBool","empvtDword","empvtString"]
 old-location: eaphost\eap_method_property_value_type.htm
 tech.root: eaphost
 ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
@@ -82,7 +83,7 @@ The method property value is a pointer to a value of type  <b>BYTE</b>.
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
 
 

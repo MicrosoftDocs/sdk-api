@@ -1,7 +1,7 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo2
 title: ILanguageExceptionErrorInfo2 (restrictederrorinfo.h)
-description: Enables language projections to provide and retrieve error information as with ILanguageExceptionErrorInfo, with the additional benefit of working across language boundaries.
+description: Enables language projections to provide and retrieve error information as with ILanguageExceptionErrorInfo, with the additional benefit of working across language boundaries.helpviewer_keywords: ["ILanguageExceptionErrorInfo2","ILanguageExceptionErrorInfo2 interface [Windows Runtime]","ILanguageExceptionErrorInfo2 interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionErrorInfo2","winrt.ilanguageexceptionerrorinfo2"]
 old-location: winrt\ilanguageexceptionerrorinfo2.htm
 tech.root: WinRT
 ms.assetid: A943EE85-F2A9-4D5E-AA6F-0C4AB8556A4C

@@ -1,7 +1,7 @@
 ---
 UID: NN:msrdc.IRdcComparator
 title: IRdcComparator (msrdc.h)
-description: Used to compare two signature streams (seed and source) and produce the list of source and seed file data chunks needed to create the target file.
+description: Used to compare two signature streams (seed and source) and produce the list of source and seed file data chunks needed to create the target file.helpviewer_keywords: ["IRdcComparator","IRdcComparator interface [Remote Differential Compression]","IRdcComparator interface [Remote Differential Compression]","described","fs.irdccomparator","msrdc/IRdcComparator","rdc.irdccomparator"]
 old-location: rdc\irdccomparator.htm
 tech.root: rdc
 ms.assetid: ad39b922-3271-491e-b74b-80a1f647e663

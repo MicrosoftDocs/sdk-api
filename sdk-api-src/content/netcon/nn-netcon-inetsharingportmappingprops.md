@@ -1,7 +1,7 @@
 ---
 UID: NN:netcon.INetSharingPortMappingProps
 title: INetSharingPortMappingProps (netcon.h)
-description: The INetSharingPortMappingProps interface provides methods that retrieve and set the properties of a network connection port mapping.
+description: The INetSharingPortMappingProps interface provides methods that retrieve and set the properties of a network connection port mapping.helpviewer_keywords: ["INetSharingPortMappingProps","INetSharingPortMappingProps interface [ICS/ICF]","INetSharingPortMappingProps interface [ICS/ICF]","described","_ics_inetsharingportmappingprops","ics.inetsharingportmappingprops","netcon/INetSharingPortMappingProps"]
 old-location: ics\inetsharingportmappingprops.htm
 tech.root: ics
 ms.assetid: 9fa20653-5224-4588-89fb-8d4ce07b4235

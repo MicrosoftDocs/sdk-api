@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemCount
 title: IPhotoAcquireItem::GetSubItemCount (photoacquire.h)
-description: The GetSubItemCount method retrieves the number of subitems contained in an item.
+description: The GetSubItemCount method retrieves the number of subitems contained in an item.helpviewer_keywords: ["GetSubItemCount","GetSubItemCount method [Picture Acquisition]","GetSubItemCount method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetSubItemCount method","IPhotoAcquireItem.GetSubItemCount","IPhotoAcquireItem::GetSubItemCount","IPhotoAcquireItemGetSubItemCount","photoacquire/IPhotoAcquireItem::GetSubItemCount","picacq.iphotoacquireitem_getsubitemcount"]
 old-location: picacq\iphotoacquireitem_getsubitemcount.htm
 tech.root: acquisition
 ms.assetid: 2790d551-42ae-4009-998e-2579687203d6

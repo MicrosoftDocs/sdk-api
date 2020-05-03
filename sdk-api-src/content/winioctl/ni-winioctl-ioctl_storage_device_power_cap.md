@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_DEVICE_POWER_CAP
 title: IOCTL_STORAGE_DEVICE_POWER_CAP
-description: Windows applications can use this control code to specify a maximum operational power consumption level for a storage device.
+description: Windows applications can use this control code to specify a maximum operational power consumption level for a storage device.helpviewer_keywords: ["IOCTL_STORAGE_DEVICE_POWER_CAP","IOCTL_STORAGE_DEVICE_POWER_CAP control","IOCTL_STORAGE_DEVICE_POWER_CAP control code [Files]","fs.ioctl_storage_device_power_cap","winioctl/IOCTL_STORAGE_DEVICE_POWER_CAP"]
 old-location: fs\ioctl_storage_device_power_cap.htm
 tech.root: FileIO
 ms.assetid: 4BF06CA7-5219-4EE0-9A74-F43035914332

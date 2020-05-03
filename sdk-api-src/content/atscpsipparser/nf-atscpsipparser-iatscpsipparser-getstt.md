@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetSTT
 title: IAtscPsipParser::GetSTT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetSTT","GetSTT method [Microsoft TV Technologies]","GetSTT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetSTT method","IAtscPsipParser.GetSTT","IAtscPsipParser::GetSTT","IAtscPsipParserGetSTT","atscpsipparser/IAtscPsipParser::GetSTT","mstv.iatscpsipparser_getstt"]
 old-location: mstv\iatscpsipparser_getstt.htm
 tech.root: mstv
 ms.assetid: 8aa6476c-9c75-4139-b5bc-6109ff223d98

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.SetColor
 title: IXpsOMSolidColorBrush::SetColor (xpsobjectmodel.h)
 description: Sets the color value and color profile of the brush.
+helpviewer_keywords: ["IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","SetColor method","IXpsOMSolidColorBrush.SetColor","IXpsOMSolidColorBrush::SetColor","SetColor","SetColor method [XPS Documents and Packaging]","SetColor method [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface","xps.ixpsomsolidcolorbrush_setcolor","xpsobjectmodel/IXpsOMSolidColorBrush::SetColor"]
 old-location: xps\ixpsomsolidcolorbrush_setcolor.htm
 tech.root: printdocs
 ms.assetid: f82fb087-c511-48b7-9e0b-9ec690a86ac7
@@ -61,14 +62,14 @@ Sets the color value and color profile of the brush.
 
 The color value of the brush. 
 
-If the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed in this parameter is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
+If the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed in this parameter is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
 
 
 ### -param colorProfile [in]
 
 The color profile to be used with <i>color</i>.
 
-A color profile is required when the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
+A color profile is required when the value of the <b>colorType</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
 
 
 ## -returns
@@ -111,7 +112,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> when a color profile is expected. A color profile is required when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> when a color profile is expected. A color profile is required when the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -122,7 +123,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> has a color profile when none is expected. A color profile is only allowed when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> has a color profile when none is expected. A color profile is only allowed when the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>

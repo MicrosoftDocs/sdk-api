@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._QUOTA_LIMITS
 title: QUOTA_LIMITS (winnt.h)
-description: Describes the amount of system resources available to a user.
+description: Describes the amount of system resources available to a user.helpviewer_keywords: ["*PQUOTA_LIMITS","PQUOTA_LIMITS","PQUOTA_LIMITS structure pointer [Security]","QUOTA_LIMITS","QUOTA_LIMITS structure [Security]","_QUOTA_LIMITS","_lsa_quota_limits","security.quota_limits","winnt/PQUOTA_LIMITS","winnt/QUOTA_LIMITS"]
 old-location: security\quota_limits.htm
 tech.root: SecAuthN
 ms.assetid: 7514ec77-34b1-490d-ba21-3b6944942aa7

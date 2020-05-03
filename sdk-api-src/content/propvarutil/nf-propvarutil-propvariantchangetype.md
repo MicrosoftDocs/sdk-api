@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantChangeType
 title: PropVariantChangeType function (propvarutil.h)
-description: Coerces a value stored as a PROPVARIANT structure to an equivalent value of a different variant type.
+description: Coerces a value stored as a PROPVARIANT structure to an equivalent value of a different variant type.helpviewer_keywords: ["PropVariantChangeType","PropVariantChangeType function [Windows Properties]","_shell_PropVariantChangeType","properties.PropVariantChangeType","propvarutil/PropVariantChangeType","shell.PropVariantChangeType"]
 old-location: properties\PropVariantChangeType.htm
 tech.root: properties
 ms.assetid: cb64ae1d-7dcf-4e73-b6ab-18fc9f91192d

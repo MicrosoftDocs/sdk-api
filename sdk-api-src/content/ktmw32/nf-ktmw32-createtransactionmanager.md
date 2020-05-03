@@ -1,7 +1,7 @@
 ---
 UID: NF:ktmw32.CreateTransactionManager
 title: CreateTransactionManager function (ktmw32.h)
-description: Creates a new transaction manager (TM) object and returns a handle with the specified access.
+description: Creates a new transaction manager (TM) object and returns a handle with the specified access.helpviewer_keywords: ["CreateTransactionManager","CreateTransactionManager function [Files]","TRANSACTION_MANAGER_VOLATILE","fs.createtransactionmanager","ktmw32/CreateTransactionManager"]
 old-location: fs\createtransactionmanager.htm
 tech.root: ktm
 ms.assetid: f5b7d0c1-9cd0-48fc-8125-d4da040951c4

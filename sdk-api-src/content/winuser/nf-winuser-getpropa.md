@@ -2,6 +2,7 @@
 UID: NF:winuser.GetPropA
 title: GetPropA function (winuser.h)
 description: Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the SetProp function.
+helpviewer_keywords: ["GetProp","GetProp function [Windows and Messages]","GetPropA","GetPropW","_win32_GetProp","_win32_getprop_cpp","winmsg.getprop","winui._win32_getprop","winuser/GetProp","winuser/GetPropA","winuser/GetPropW"]
 old-location: winmsg\getprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\getprop.htm
@@ -119,7 +120,7 @@ If the property list contains the string, the return value is the associated dat
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a>
+<a href="/windows/win32/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a>
  
 
  

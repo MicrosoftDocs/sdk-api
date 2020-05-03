@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ActivateConfiguration
 title: IDirectManipulationViewport::ActivateConfiguration (directmanipulation.h)
-description: Sets the configuration for input interaction.
+description: Sets the configuration for input interaction.helpviewer_keywords: ["ActivateConfiguration","ActivateConfiguration method [Direct Manipulation]","ActivateConfiguration method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","ActivateConfiguration method","IDirectManipulationViewport.ActivateConfiguration","IDirectManipulationViewport::ActivateConfiguration","directmanipulation.idirectmanipulationviewport_activateconfiguration","directmanipulation/IDirectManipulationViewport::ActivateConfiguration"]
 old-location: directmanipulation\idirectmanipulationviewport_activateconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 16c5902d-dddd-4c40-b1f9-cb432940aa3d

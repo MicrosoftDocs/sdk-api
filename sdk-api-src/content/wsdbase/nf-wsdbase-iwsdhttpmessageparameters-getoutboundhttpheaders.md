@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetOutboundHttpHeaders
 title: IWSDHttpMessageParameters::GetOutboundHttpHeaders (wsdbase.h)
-description: Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.
+description: Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.helpviewer_keywords: ["GetOutboundHttpHeaders","GetOutboundHttpHeaders method","GetOutboundHttpHeaders method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetOutboundHttpHeaders method","IWSDHttpMessageParameters.GetOutboundHttpHeaders","IWSDHttpMessageParameters::GetOutboundHttpHeaders","ncd.iwsdhttpmessageparameters_getoutboundhttpheaders","wsdbase/IWSDHttpMessageParameters::GetOutboundHttpHeaders"]
 old-location: ncd\iwsdhttpmessageparameters_getoutboundhttpheaders.htm
 tech.root: WsdApi
 ms.assetid: c366773a-1869-4181-a457-560a1a9c84cd

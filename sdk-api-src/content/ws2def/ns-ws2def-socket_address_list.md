@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def._SOCKET_ADDRESS_LIST
 title: SOCKET_ADDRESS_LIST (ws2def.h)
-description: The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.
+description: The SOCKET_ADDRESS_LIST structure defines a variable-sized list of transport addresses.helpviewer_keywords: ["*LPSOCKET_ADDRESS_LIST","*PSOCKET_ADDRESS_LIST","LPSOCKET_ADDRESS_LIST","LPSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista]","PSOCKET_ADDRESS_LIST","PSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista]","SOCKET_ADDRESS_LIST","SOCKET_ADDRESS_LIST structure [Network Drivers Starting with Windows Vista]","netvista.socket_address_list","ws2def/LPSOCKET_ADDRESS_LIST","ws2def/PSOCKET_ADDRESS_LIST","ws2def/SOCKET_ADDRESS_LIST","wskref_7bca89ec-9ce8-4046-9bf6-fcaa01a37b21.xml"]
 old-location: netvista\socket_address_list.htm
 tech.root: NetVista
 ms.assetid: b005200b-b0c2-4f19-8765-cd26fbfc0cff

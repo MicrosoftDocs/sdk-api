@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_FindItem
 title: ListView_FindItem macro (commctrl.h)
-description: Searches for a list-view item with the specified characteristics. You can use this macro or send the LVM_FINDITEM message explicitly.
+description: Searches for a list-view item with the specified characteristics. You can use this macro or send the LVM_FINDITEM message explicitly.helpviewer_keywords: ["ListView_FindItem","ListView_FindItem macro [Windows Controls]","_win32_ListView_FindItem","_win32_ListView_FindItem_cpp","commctrl/ListView_FindItem","controls.ListView_FindItem","controls._win32_ListView_FindItem"]
 old-location: controls\ListView_FindItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_finditem.htm

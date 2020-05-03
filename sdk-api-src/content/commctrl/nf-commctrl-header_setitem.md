@@ -2,6 +2,7 @@
 UID: NF:commctrl.Header_SetItem
 title: Header_SetItem macro (commctrl.h)
 description: Sets the attributes of the specified item in a header control. You can use this macro or send the HDM_SETITEM message explicitly.
+helpviewer_keywords: ["Header_SetItem","Header_SetItem macro [Windows Controls]","_win32_Header_SetItem","_win32_Header_SetItem_cpp","commctrl/Header_SetItem","controls.Header_SetItem","controls._win32_Header_SetItem"]
 old-location: controls\Header_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setitem.htm
@@ -75,7 +76,7 @@ The current index of the item whose attributes are to be changed.
 
 Type: <b>LPHDITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that contains item information. When this message is sent, the 
+A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that contains item information. When this message is sent, the 
 					<b>mask</b> member of the structure must be set to indicate which attributes are being set. 
 
 
@@ -83,7 +84,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/n
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items. 
+The <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items. 
 
 
 

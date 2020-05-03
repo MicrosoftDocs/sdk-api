@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._STORAGE_SPEC_VERSION
 title: STORAGE_SPEC_VERSION
-description: Storage specification version.
+description: Storage specification version.helpviewer_keywords: ["*PSTORAGE_SPEC_VERSION","PSTORAGE_SPEC_VERSION","PSTORAGE_SPEC_VERSION structure pointer [Files]","STORAGE_SPEC_VERSION","STORAGE_SPEC_VERSION structure [Files]","fs.storage_spec_version","winioctl/PSTORAGE_SPEC_VERSION","winioctl/_STORAGE_SPEC_VERSION"]
 old-location: fs\storage_spec_version.htm
 tech.root: FileIO
 ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576

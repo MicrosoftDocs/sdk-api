@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsDirty
 title: IOfflineFilesChangeInfo::IsDirty (cscobj.h)
-description: Determines whether an item in the Offline Files cache has been modified.
+description: Determines whether an item in the Offline Files cache has been modified.helpviewer_keywords: ["IOfflineFilesChangeInfo interface [Offline Files]","IsDirty method","IOfflineFilesChangeInfo.IsDirty","IOfflineFilesChangeInfo::IsDirty","IsDirty","IsDirty method [Offline Files]","IsDirty method [Offline Files]","IOfflineFilesChangeInfo interface","cscobj/IOfflineFilesChangeInfo::IsDirty","of.iofflinefileschangeinfo_isdirty"]
 old-location: of\iofflinefileschangeinfo_isdirty.htm
 tech.root: offlinefiles
 ms.assetid: 47b3bae2-d0fb-4e15-a03f-c9d5001e8786

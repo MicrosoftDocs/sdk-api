@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR8FromDate
 title: VarR8FromDate function (oleauto.h)
-description: Converts a date value to a double value.
+description: Converts a date value to a double value.helpviewer_keywords: ["VarR8FromDate","VarR8FromDate function [Automation]","_oa96_VarR8FromDate","automat.varr8fromdate","oleauto/VarR8FromDate"]
 old-location: automat\varr8fromdate.htm
 tech.root: automat
 ms.assetid: 20d5e917-e350-43da-8fce-e76ab95b90f7

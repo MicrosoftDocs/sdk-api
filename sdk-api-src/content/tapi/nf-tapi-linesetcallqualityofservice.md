@@ -2,6 +2,7 @@
 UID: NF:tapi.lineSetCallQualityOfService
 title: lineSetCallQualityOfService function (tapi.h)
 description: The lineSetCallQualityOfService function allows the application to attempt to change the quality of service parameters (reserved capacity and performance guarantees) for an existing call.
+helpviewer_keywords: ["_tapi2_linesetcallqualityofservice","lineSetCallQualityOfService","lineSetCallQualityOfService function [TAPI 2.2]","tapi/lineSetCallQualityOfService","tapi2.linesetcallqualityofservice"]
 old-location: tapi2\linesetcallqualityofservice.htm
 tech.root: Tapi
 ms.assetid: 6a977dab-70f6-4462-a94f-78acdec7decf
@@ -72,7 +73,7 @@ Pointer to memory containing a
 ### -param dwSendingFlowspecSize
 
 Total size of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure and accompanying provider-specific data, in bytes. This is equivalent to what would have been stored in <b>SendingFlowspec</b> in a 
-<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure. 
+<a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure. 
 
 
 ### -param lpReceivingFlowspec
@@ -82,7 +83,7 @@ Pointer to memory containing a <a href="https://docs.microsoft.com/windows/deskt
 
 ### -param dwReceivingFlowspecSize
 
-Total size of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, in bytes. This is equivalent to what would have been stored in <b>ReceivingFlowspec</b> in a <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure. 
+Total size of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, in bytes. This is equivalent to what would have been stored in <b>ReceivingFlowspec</b> in a <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure. 
 
 
 ## -returns
@@ -105,7 +106,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_INVALCALLSTATE, LINEERR_INVALPARAM, LINEERR_INV
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
+<a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
 
 
 

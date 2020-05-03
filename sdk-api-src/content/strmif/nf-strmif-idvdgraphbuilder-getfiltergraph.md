@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetFiltergraph
 title: IDvdGraphBuilder::GetFiltergraph (strmif.h)
-description: The GetFiltergraph method retrieves the IGraphBuilder interface for the filter graph used by the DVD-Video graph builder object.
+description: The GetFiltergraph method retrieves the IGraphBuilder interface for the filter graph used by the DVD-Video graph builder object.helpviewer_keywords: ["GetFiltergraph","GetFiltergraph method [DirectShow]","GetFiltergraph method [DirectShow]","IDvdGraphBuilder interface","IDvdGraphBuilder interface [DirectShow]","GetFiltergraph method","IDvdGraphBuilder.GetFiltergraph","IDvdGraphBuilder::GetFiltergraph","IDvdGraphBuilderGetFiltergraph","dshow.idvdgraphbuilder_getfiltergraph","strmif/IDvdGraphBuilder::GetFiltergraph"]
 old-location: dshow\idvdgraphbuilder_getfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4

@@ -1,7 +1,7 @@
 ---
 UID: NN:restrictederrorinfo.IRestrictedErrorInfo
 title: IRestrictedErrorInfo (restrictederrorinfo.h)
-description: Represents the details of an error, including restricted error information.
+description: Represents the details of an error, including restricted error information.helpviewer_keywords: ["IRestrictedErrorInfo","IRestrictedErrorInfo interface [Windows Runtime]","IRestrictedErrorInfo interface [Windows Runtime]","described","restrictederrorinfo/IRestrictedErrorInfo","winrt.irestrictederrorinfo"]
 old-location: winrt\irestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: 1af8d4bf-1217-44ca-b0dd-9a6feda16100

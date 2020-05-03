@@ -1,7 +1,7 @@
 ---
 UID: NE:windef.DPI_AWARENESS
 title: DPI_AWARENESS (windef.h)
-description: Identifies the dots per inch (dpi) setting for a thread, process, or window.
+description: Identifies the dots per inch (dpi) setting for a thread, process, or window.helpviewer_keywords: ["DPI_AWARENESS","DPI_AWARENESS enumeration","DPI_AWARENESS enumeration enumeration [High DPI]","DPI_AWARENESS_INVALID","DPI_AWARENESS_PER_MONITOR_AWARE","DPI_AWARENESS_SYSTEM_AWARE","DPI_AWARENESS_UNAWARE","hidpi.dpi_awareness","windef/DPI_AWARENESS enumeration","windef/DPI_AWARENESS_INVALID","windef/DPI_AWARENESS_PER_MONITOR_AWARE","windef/DPI_AWARENESS_SYSTEM_AWARE","windef/DPI_AWARENESS_UNAWARE"]
 old-location: hidpi\dpi_awareness.htm
 tech.root: hidpi
 ms.assetid: 0E7EB331-7D72-4853-8785-03F30263C323

@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CREDENTIAL1_
 title: IKEEXT_CERTIFICATE_CREDENTIAL1 (iketypes.h)
 description: Is used to store credential information specific to certificate authentication.
+helpviewer_keywords: ["IKEEXT_CERTIFICATE_CREDENTIAL1","IKEEXT_CERTIFICATE_CREDENTIAL1 structure [Filtering]","IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT","fwp.ikeext_certificate_credential1","iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1"]
 old-location: fwp\ikeext_certificate_credential1.htm
 tech.root: fwp
 ms.assetid: 78ae9cfe-2a4f-48cd-9a4f-fd5193df0ed0
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The [IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0)a> is available.</div>
+The [IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0) is available.</div>
 <div> </div>
 
 
@@ -63,14 +64,14 @@ The [IKEEXT_CERTIFICATE_CREDENTIAL0](https://docs.microsoft.com/windows/desktop/
 
 Encoded subject name of the certificate used for authentication. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> to convert the encoded name to string.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ### -field certHash
 
 SHA thumbprint of the certificate.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ### -field flags
@@ -88,7 +89,7 @@ Possible values:
 
 The encoded certificate. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> to create a certificate context from the encoded certificate.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
+See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 
 ## -see-also
@@ -96,7 +97,7 @@ See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-f
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 

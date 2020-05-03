@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StopListen
 title: IWTSProtocolListener::StopListen (wtsprotocol.h)
-description: IWTSProtocolListener::StopListen is no longer available. Instead, use IWRdsProtocolListener::StopListen.
+description: IWTSProtocolListener::StopListen is no longer available. Instead, use IWRdsProtocolListener::StopListen.helpviewer_keywords: ["IWTSProtocolListener interface [Remote Desktop Services]","StopListen method","IWTSProtocolListener.StopListen","IWTSProtocolListener::StopListen","StopListen","StopListen method [Remote Desktop Services]","StopListen method [Remote Desktop Services]","IWTSProtocolListener interface","termserv.iwtsprotocollistener_stoplisten","wtsprotocol/IWTSProtocolListener::StopListen"]
 old-location: termserv\iwtsprotocollistener_stoplisten.htm
 tech.root: TermServ
 ms.assetid: 5c5b09d3-74d6-4067-b18b-ed2a54af4153

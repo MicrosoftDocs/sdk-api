@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSink
 title: IMFPMediaItem::SetStreamSink (mfplay.h)
-description: Sets a media sink for the media item.
+description: Sets a media sink for the media item.helpviewer_keywords: ["IMFPMediaItem interface [Media Foundation]","SetStreamSink method","IMFPMediaItem.SetStreamSink","IMFPMediaItem::SetStreamSink","SetStreamSink","SetStreamSink method [Media Foundation]","SetStreamSink method [Media Foundation]","IMFPMediaItem interface","mf.imfpmediaitem_setstreamsink","mfplay/IMFPMediaItem::SetStreamSink"]
 old-location: mf\imfpmediaitem_setstreamsink.htm
 tech.root: medfound
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c

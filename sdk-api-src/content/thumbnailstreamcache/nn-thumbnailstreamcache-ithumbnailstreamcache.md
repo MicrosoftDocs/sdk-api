@@ -1,7 +1,7 @@
 ---
 UID: NN:thumbnailstreamcache.IThumbnailStreamCache
 title: IThumbnailStreamCache (thumbnailstreamcache.h)
-description: Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.
+description: Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.helpviewer_keywords: ["IThumbnailStreamCache","IThumbnailStreamCache interface [Windows Shell]","IThumbnailStreamCache interface [Windows Shell]","described","shell.ithumbnailstreamcache","thumbnailstreamcache/IThumbnailStreamCache"]
 old-location: shell\ithumbnailstreamcache.htm
 tech.root: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7

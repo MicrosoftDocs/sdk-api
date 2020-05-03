@@ -1,7 +1,7 @@
 ---
 UID: NE:msdrmdefs._DRMTIMETYPE
 title: DRMTIMETYPE (msdrmdefs.h)
-description: The DRMTIMETYPE enumeration specifies a time type.
+description: The DRMTIMETYPE enumeration specifies a time type.helpviewer_keywords: ["DRMTIMETYPE","DRMTIMETYPE enumeration [Active Directory Rights Management Services SDK 1.0]","DRMTIMETYPE_SYSTEMLOCAL","DRMTIMETYPE_SYSTEMUTC","msdrmdefs/DRMTIMETYPE","msdrmdefs/DRMTIMETYPE_SYSTEMLOCAL","msdrmdefs/DRMTIMETYPE_SYSTEMUTC","rm.drmtimetype"]
 old-location: rm\drmtimetype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 0adb6824-0b6e-414a-b9d2-a3266c80df23

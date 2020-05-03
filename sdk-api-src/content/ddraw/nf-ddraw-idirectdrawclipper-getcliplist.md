@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.GetClipList
 title: IDirectDrawClipper::GetClipList (ddraw.h)
-description: Retrieves a copy of the clip list that is associated with a DirectDrawClipper object. To select a subset of the clip list, you can pass a rectangle that clips the clip list.
+description: Retrieves a copy of the clip list that is associated with a DirectDrawClipper object. To select a subset of the clip list, you can pass a rectangle that clips the clip list.helpviewer_keywords: ["GetClipList","GetClipList method [DirectDraw]","GetClipList method [DirectDraw]","IDirectDrawClipper interface","IDirectDrawClipper interface [DirectDraw]","GetClipList method","IDirectDrawClipper.GetClipList","IDirectDrawClipper::GetClipList","ddraw/IDirectDrawClipper::GetClipList","directdraw.idirectdrawclipper_getcliplist"]
 old-location: directdraw\idirectdrawclipper_getcliplist.htm
 tech.root: directdraw
 ms.assetid: 0446f8b9-c965-4336-ae78-5bb791861844

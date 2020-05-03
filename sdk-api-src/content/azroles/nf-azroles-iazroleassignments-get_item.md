@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get_Item
 title: IAzRoleAssignments::get_Item (azroles.h)
-description: Retrieves the IAzRoleAssignment object at the specified index in the IAzRoleAssignments collection.
+description: Retrieves the IAzRoleAssignment object at the specified index in the IAzRoleAssignments collection.helpviewer_keywords: ["IAzRoleAssignments interface [Security]","Item property","IAzRoleAssignments.Item","IAzRoleAssignments.get_Item","IAzRoleAssignments::Item","IAzRoleAssignments::get_Item","Item property [Security]","Item property [Security]","IAzRoleAssignments interface","azroles/IAzRoleAssignments::Item","azroles/IAzRoleAssignments::get_Item","get_Item","security.iazroleassignments_item"]
 old-location: security\iazroleassignments_item.htm
 tech.root: SecAuthZ
 ms.assetid: 68685b4e-6451-4243-990d-5302d478210f

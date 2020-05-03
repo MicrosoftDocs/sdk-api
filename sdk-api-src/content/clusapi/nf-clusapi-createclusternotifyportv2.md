@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CreateClusterNotifyPortV2
 title: CreateClusterNotifyPortV2 function (clusapi.h)
-description: Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.
+description: Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.helpviewer_keywords: ["CreateClusterNotifyPortV2","CreateClusterNotifyPortV2 function [Failover Cluster]","PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2","PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 function [Failover Cluster]","clusapi/CreateClusterNotifyPortV2","clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2","mscs.createclusternotifyportv2"]
 old-location: mscs\createclusternotifyportv2.htm
 tech.root: MsCS
 ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC

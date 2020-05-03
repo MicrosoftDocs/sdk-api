@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPASYNCSELECT
 title: LPWSPASYNCSELECT
-description: The LPWSPAsyncSelect function requests Windows message-based event notification of network events for a socket.
+description: The LPWSPAsyncSelect function requests Windows message-based event notification of network events for a socket.helpviewer_keywords: ["LPWSPASYNCSELECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPASYNCSELECT
 targetos: Windows

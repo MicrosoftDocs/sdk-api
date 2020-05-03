@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.TestCooperativeLevel
 title: IDirectDraw7::TestCooperativeLevel (ddraw.h)
-description: Reports the current cooperative-level status of the DirectDraw device for a windowed or full-screen application.
+description: Reports the current cooperative-level status of the DirectDraw device for a windowed or full-screen application.helpviewer_keywords: ["IDirectDraw7 interface [DirectDraw]","TestCooperativeLevel method","IDirectDraw7.TestCooperativeLevel","IDirectDraw7::TestCooperativeLevel","TestCooperativeLevel","TestCooperativeLevel method [DirectDraw]","TestCooperativeLevel method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::TestCooperativeLevel","directdraw.idirectdraw7_testcooperativelevel"]
 old-location: directdraw\idirectdraw7_testcooperativelevel.htm
 tech.root: directdraw
 ms.assetid: 6bbabd8c-f48e-480c-9ea4-06e4fce1255a

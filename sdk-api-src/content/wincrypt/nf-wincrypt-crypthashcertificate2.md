@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptHashCertificate2
 title: CryptHashCertificate2 function (wincrypt.h)
-description: Hashes a block of data by using a CNG hash provider.
+description: Hashes a block of data by using a CNG hash provider.helpviewer_keywords: ["CryptHashCertificate2","CryptHashCertificate2 function [Security]","security.crypthashcertificate2","wincrypt/CryptHashCertificate2"]
 old-location: security\crypthashcertificate2.htm
 tech.root: SecCrypto
 ms.assetid: 9f315374-0002-499a-81ea-efcb3c19e68f

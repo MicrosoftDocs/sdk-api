@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelRead
 title: WTSVirtualChannelRead function (wtsapi32.h)
-description: Reads data from the server end of a virtual channel.
+description: Reads data from the server end of a virtual channel.helpviewer_keywords: ["WTSVirtualChannelRead","WTSVirtualChannelRead function [Remote Desktop Services]","_win32_wtsvirtualchannelread","termserv.wtsvirtualchannelread","wtsapi32/WTSVirtualChannelRead"]
 old-location: termserv\wtsvirtualchannelread.htm
 tech.root: TermServ
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a

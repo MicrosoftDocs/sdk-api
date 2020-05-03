@@ -2,6 +2,7 @@
 UID: NN:shobjidl.IDesktopGadget
 title: IDesktopGadget (shobjidl.h)
 description: Exposes a method that allows the programmatic addition of an installed gadget to the user's desktop.
+helpviewer_keywords: ["IDesktopGadget","IDesktopGadget interface [Windows Shell]","IDesktopGadget interface [Windows Shell]","described","_shell_IDesktopGadget","shell.IDesktopGadget","shobjidl/IDesktopGadget"]
 old-location: shell\IDesktopGadget.htm
 tech.root: shell
 ms.assetid: 7b3b273a-41ed-4d45-bde9-8250d74d10a9
@@ -97,7 +98,7 @@ Use this interface to run a gadget. A running gadget is displayed on the desktop
 
 
 
-[Introduction to the Gadget Platform](/previous-versions/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform)a>
+[Introduction to the Gadget Platform](/previous-versions/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform)
  
 
  

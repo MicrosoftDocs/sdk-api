@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsWriteNode
 title: WsWriteNode function (webservices.h)
-description: Writes the specified node to the XML Writer.
+description: Writes the specified node to the XML Writer.helpviewer_keywords: ["WsWriteNode","WsWriteNode function [Web Services for Windows]","webservices/WsWriteNode","wsw.wswritenode"]
 old-location: wsw\wswritenode.htm
 tech.root: wsw
 ms.assetid: ea2e511c-f3a6-415a-8a2d-a49e321b69d7
