@@ -5,7 +5,7 @@ description: Creates or opens a named or unnamed mutex object.
 old-location: base\createmutex.htm
 tech.root: Sync
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
-ms.date: 12/05/2018
+ms.date: 05/03/2020
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
 f1_keywords:
 - synchapi/CreateMutex
@@ -145,7 +145,7 @@ Multiple processes can have handles of the same mutex object, enabling use of th
 <b>CreateMutex</b> enabled inheritance. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify the handle to a mutex object in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify a named mutex in a call to the 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-openmutexw">OpenMutex</a> or 
+<a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-openmutexw">OpenMutex</a> or 
 <b>CreateMutex</b> functions to retrieve a handle to the mutex object.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.
@@ -153,13 +153,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 #### Examples
 
-For an example that uses 
-<b>CreateMutex</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-mutex-objects">Using Mutex Objects</a>.
-
-<div class="code"></div>
-
-
+See <a href="https://docs.microsoft.com/windows/desktop/Sync/using-mutex-objects">Using Mutex Objects</a> for an example of <b>CreateMutex</b>.
 
 ## -see-also
 
