@@ -143,7 +143,7 @@ Multiple processes can have handles of the same mutex object, enabling use of th
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit a handle to a mutex object if the <i>lpMutexAttributes</i> parameter of 
 <b>CreateMutex</b> enabled inheritance. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify the handle to a mutex object in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process. This mechanism works for both named and unnamed mutexes.</li>
-<li>A process can specify a named mutex in a call to the [OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) or <b>CreateMutex</b> functions to retrieve a handle to the mutex object.</li>
+<li>A process can specify a named mutex in a call to [OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) or <b>CreateMutex</b> to retrieve a handle to the mutex object.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.
 
