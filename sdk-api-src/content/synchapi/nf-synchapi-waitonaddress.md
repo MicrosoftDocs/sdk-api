@@ -26,7 +26,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Synchronization.lib
-req.dll: Kernel32.dll
+req.dll: API-MS-Win-Core-Synch-l1-2-0.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -107,6 +107,8 @@ Any thread within the same  process that changes the value at the address on whi
 </ul>
 </div>
 <div> </div>
+
+The function resides in a module that is always loaded by any process, so the applications that obtain address of this function dynamically to run on older Windows versions can acquire the module handle using <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlew">GetModuleHandle</a> API.
 
 #### Examples
 

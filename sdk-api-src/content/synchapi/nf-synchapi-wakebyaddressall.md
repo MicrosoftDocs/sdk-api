@@ -26,7 +26,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Synchronization.lib
-req.dll: Kernel32.dll
+req.dll: API-MS-Win-Core-Synch-l1-2-0.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 Wakes all threads that are waiting for the value of an address to change.
 
-The function makes sure that any modifications of the value of the address that are made by caller thread are visible to all threads (happen before the function call), so the caller is not required to have its own memory fence after the value modification.
+The function makes sure that any modifications of the value of the address that are made by caller thread are visible to all threads (happen before the corresponding wait operation is notified), so the caller is not required to have its own memory fence after the value modification.
 
 ## -parameters
 
@@ -77,8 +77,7 @@ Windows Store apps developers may need to obtain synchronization.lib by installi
 
 Only threads within the same process can be woken.
 
-
-
+The function resides in a module that is always loaded by any process, so the applications that obtain address of this function dynamically to run on older Windows versions can acquire the module handle using <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlew">GetModuleHandle</a> API.
 
 ## -see-also
 
