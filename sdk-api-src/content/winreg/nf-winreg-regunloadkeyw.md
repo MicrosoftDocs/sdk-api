@@ -2,7 +2,7 @@
 UID: NF:winreg.RegUnLoadKeyW
 title: RegUnLoadKeyW function (winreg.h)
 description: Unloads the specified registry key and its subkeys from the registry.
-helpviewer_keywords: ["RegUnLoadKey","RegUnLoadKey function","RegUnLoadKeyA","RegUnLoadKeyW","_win32_regunloadkey","base.regunloadkey","winreg/RegUnLoadKey","winreg/RegUnLoadKeyA","winreg/RegUnLoadKeyW"]
+helpviewer_keywords: ["RegUnLoadKey","RegUnLoadKey function","RegUnLoadKeyA","RegUnLoadKeyW","win32_regunloadkey","base.regunloadkey","winreg/RegUnLoadKey","winreg/RegUnLoadKeyA","winreg/RegUnLoadKeyW"]
 old-location: base\regunloadkey.htm
 tech.root: SysInfo
 ms.assetid: 73b4b6a9-4acb-4247-bd7f-82024ba3e14a
@@ -74,12 +74,8 @@ Unloads the specified registry key and its subkeys from the registry.
 A handle to the registry key to be unloaded. This parameter can be a handle returned by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regconnectregistrya">RegConnectRegistry</a> function or one of the following predefined handles: 
 
-
-
-<ul>
- <li><b>HKEY_LOCAL_MACHINE</b></li>
-<li><b>HKEY_USERS</b></li>
- </ul>
+* HKEY_LOCAL_MACHINE
+* HKEY_USERS
 
 ### -param lpSubKey [in, optional]
 
