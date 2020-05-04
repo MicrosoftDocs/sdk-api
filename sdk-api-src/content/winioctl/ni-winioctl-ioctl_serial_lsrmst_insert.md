@@ -47,7 +47,7 @@ req.redist:
 
 ## -description
 
-Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile) function.
+Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the [ReadFile](../fileapi/nf-fileapi-readfile.md) function.
 
 When this line-status and modem-status data placement mode is enabled, status values are preceded in the data stream by an escape character. The user-definable escape character is set by the **IOCTL_SERIAL_LSRMST_INSERT** control code. See the Remarks section for status value details.
 
