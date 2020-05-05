@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.InitOnceBeginInitialize
 title: InitOnceBeginInitialize function (synchapi.h)
-description: Begins one-time initialization.helpviewer_keywords: ["INIT_ONCE_ASYNC","INIT_ONCE_CHECK_ONLY","InitOnceBeginInitialize","InitOnceBeginInitialize function","base.initoncebegininitialize","synchapi/InitOnceBeginInitialize","winbase/InitOnceBeginInitialize"]
+description: Begins one-time initialization.
+helpviewer_keywords: ["INIT_ONCE_ASYNC","INIT_ONCE_CHECK_ONLY","InitOnceBeginInitialize","InitOnceBeginInitialize function","base.initoncebegininitialize","synchapi/InitOnceBeginInitialize","winbase/InitOnceBeginInitialize"]
 old-location: base\initoncebegininitialize.htm
 tech.root: Sync
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
@@ -127,9 +128,7 @@ If <b>INIT_ONCE_CHECK_ONLY</b> is not specified and the function succeeds, the r
 If <b>INIT_ONCE_CHECK_ONLY</b> is specified and initialization has completed, the return value is <b>TRUE</b>.
 
 Otherwise, the return value is <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The function is not expected to fail (even under low resources condition) if it is used correctly and no attempts of concurrent synchronous and asynchronous initialization are made.
 
 
 ## -remarks
