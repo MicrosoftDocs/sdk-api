@@ -63,12 +63,12 @@ Describes the baseline and the midline height.
 
 ### -field lsBaseline
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-line_segment">LINE_SEGMENT</a> structure containing the start and end point of the baseline in ink coordinates.
+The <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-line_segment">LINE_SEGMENT</a> structure containing the start and end point of the baseline, in ink coordinates.
 
 
 ### -field iMidlineOffset
 
-Offset of the midline from the basline in HIMETRIC units.
+Offset of the midline relative to the baseline, in HIMETRIC units.
 
 
 ## -see-also
