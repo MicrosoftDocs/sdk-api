@@ -88,7 +88,13 @@ The heap supports MEM_WRITE_WATCH functionality, which causes the system to trac
 
 ### -field D3D12_HEAP_FLAG_ALLOW_SHADER_ATOMICS
 
-Ensures that atomic operations will be atomic on this heap's memory, according to components able to see the memory. Creating a heap with this flag will fail if the heap can be visible on multiple nodes and the device doesn't support [**D3D12_CROSS_NODE_SHARING_TIER_3**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier). It will also fail if the heap is CPU-visible. Note that heaps with this flag might be a limited resource on some systems.
+Ensures that atomic operations will be atomic on this heap's memory, according to components able to see the memory.
+
+Creating a heap with this flag will fail under either of these conditions.
+- The heap type is **D3D12_HEAP_TYPE_DEFAULT**, and the heap can be visible on multiple nodes, but the device does *not* support [**D3D12_CROSS_NODE_SHARING_TIER_3**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier).
+- The heap is CPU-visible, but the heap type is *not* **D3D12_HEAP_TYPE_CUSTOM**.
+
+Note that heaps with this flag might be a limited resource on some systems.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES
 
