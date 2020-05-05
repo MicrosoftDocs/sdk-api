@@ -68,7 +68,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes
 
 ### -field iMidlineOffset
 
-Offset of the midline relative to the baseline, in HIMETRIC units.
+Offset of the midline, relative to the baseline, in HIMETRIC units.
 
 
 ## -see-also
