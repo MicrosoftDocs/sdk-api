@@ -65,15 +65,16 @@ Retrieves the results of an overlapped operation on the specified file, named pi
 
 ### -param hFile [in]
 
-A handle to the file, named pipe, or communications device. This is the same handle that was specified when the overlapped operation was started by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>, 
-<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>, or 
-<a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> function.
+A handle to the file, named pipe, or communications device. This is the same handle that was specified when the overlapped operation was started by a call to any of the following functions: 
+
+- [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile)
+- [WriteFile](/windows/win32/api/fileapi/nf-fileapi-writefile)
+- [ConnectNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
+- [TransactNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe)
+- [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
+- [WaitCommEvent](/windows/win32/api/winbase/nf-winbase-waitcommevent)
+- [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
+- [LockFileEx](/windows/win32/api/fileapi/nf-fileapi-lockfileex)
 
 
 ### -param lpOverlapped [in]
