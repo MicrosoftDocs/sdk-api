@@ -1,7 +1,8 @@
 ---
 UID: NF:ioapiset.GetOverlappedResult
 title: GetOverlappedResult function (ioapiset.h)
-description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device.helpviewer_keywords: ["GetOverlappedResult","GetOverlappedResult function","_win32_getoverlappedresult","base.getoverlappedresult","ioapiset/GetOverlappedResult","winbase/GetOverlappedResult"]
+description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device.
+helpviewer_keywords: ["GetOverlappedResult","GetOverlappedResult function","_win32_getoverlappedresult","base.getoverlappedresult","ioapiset/GetOverlappedResult","winbase/GetOverlappedResult"]
 old-location: base\getoverlappedresult.htm
 tech.root: Sync
 ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
@@ -69,8 +70,9 @@ A handle to the file, named pipe, or communications device. This is the same han
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>, or 
+<a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> function.
 
 
 ### -param lpOverlapped [in]
