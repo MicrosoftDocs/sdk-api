@@ -71,7 +71,8 @@ A handle to the file, named pipe, or communications device. This is the same han
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>, 
+<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>, or 
 <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a> function.
 
 
