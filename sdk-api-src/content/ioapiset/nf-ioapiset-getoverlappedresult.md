@@ -127,69 +127,8 @@ If the <b>hEvent</b> member of the
 
 #### Examples
 
-For an example that uses 
-<b>GetOverlappedResult</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/testing-for-the-end-of-a-file">Testing for the End of a File</a>.
-
-<div class="code"></div>
-
-
+For an example that uses **GetOverlappedResult**, see [Testing for the End of a File](/windows/win32/fileio/testing-for-the-end-of-a-file)
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresultex">GetOverlappedResultEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Overlapped Input and Output</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
-
+[CancelIo](/windows/win32/FileIO/cancelio), [ConnectNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe), [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa), [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), [GetOverlappedResultEx](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex), [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped), [Overlapped Input and Output](/windows/win32/Sync/synchronization-and-overlapped-input-and-output), [Synchronization Functions](/windows/win32/Sync/synchronization-functions), [TransactNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe), [WaitCommEvent](/windows/win32/api/winbase/nf-winbase-waitcommevent), [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile), [WriteFile](/windows/win32/api/fileapi/nf-fileapi-writefile)
