@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMaximumFrameLatency
 title: IDXGISwapChain2::SetMaximumFrameLatency (dxgi1_3.h)
-description: Sets the number of frames that the swap chain is allowed to queue for rendering.helpviewer_keywords: ["IDXGISwapChain2 interface [DXGI]","SetMaximumFrameLatency method","IDXGISwapChain2.SetMaximumFrameLatency","IDXGISwapChain2::SetMaximumFrameLatency","SetMaximumFrameLatency","SetMaximumFrameLatency method [DXGI]","SetMaximumFrameLatency method [DXGI]","IDXGISwapChain2 interface","direct3ddxgi.idxgiswapchain2_setmaximumframelatency","dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency"]
+description: Sets the number of frames that the swap chain is allowed to queue for rendering.
+helpviewer_keywords: ["IDXGISwapChain2 interface [DXGI]","SetMaximumFrameLatency method","IDXGISwapChain2.SetMaximumFrameLatency","IDXGISwapChain2::SetMaximumFrameLatency","SetMaximumFrameLatency","SetMaximumFrameLatency method [DXGI]","SetMaximumFrameLatency method [DXGI]","IDXGISwapChain2 interface","direct3ddxgi.idxgiswapchain2_setmaximumframelatency","dxgi1_3/IDXGISwapChain2::SetMaximumFrameLatency"]
 old-location: direct3ddxgi\idxgiswapchain2_setmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: AF3F03F2-38B4-474A-8A66-86A93D776EA0
@@ -69,33 +70,14 @@ The maximum number of back buffer frames that will be queued for the swap chain.
 
 Returns S_OK if successful; otherwise, DXGI_ERROR_DEVICE_REMOVED if the device was removed.
 
-
-
-
 ## -remarks
-
-
 
 This method is only valid for use on swap chains created with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT</a>. Otherwise, the result will be DXGI_ERROR_INVALID_CALL.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://code.msdn.microsoft.com/windowsapps/DirectXLatency-sample-a2e2c9c3">DirectX latency sample</a>
-
-
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DirectX%20latency%20sample">DirectX latency sample</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmaximumframelatency">GetMaximumFrameLatency</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
- 
-
- 
-
