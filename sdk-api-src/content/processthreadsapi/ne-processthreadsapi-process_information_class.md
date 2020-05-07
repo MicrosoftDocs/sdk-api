@@ -41,15 +41,15 @@ Indicates a specific class of process information. Values from this enumeration 
 
 ### -field ProcessMemoryPriority
 
-The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
+The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure. Allows applications to lower the default memory priority of threads that perform background operations or access files and data that are not expected to be accessed again soon.
 
 ### -field ProcessMemoryExhaustionInfo
 
-The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_memory_exhaustion_info">PROCESS_MEMORY_EXHAUSTION_INFO</a> structure.
+The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_memory_exhaustion_info">PROCESS_MEMORY_EXHAUSTION_INFO</a> structure. Allows applications to configure a process to terminate if an allocation fails to commit memory.
 
 ### -field ProcessAppMemoryInfo
 
-The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-app_memory_information">APP_MEMORY_INFORMATION</a> structure.
+The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-app_memory_information">APP_MEMORY_INFORMATION</a> structure. Allows applications to query the commit usage and the additional commit available to this process. Does not allow the caller to actually get a commit limit.
 
 ### -field ProcessInPrivateInfo
 
@@ -57,7 +57,7 @@ The process information is ignored.
 
 ### -field ProcessPowerThrottling
 
-The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure.
+The process information is represented by a <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure. Allows applications to configure how the system should throttle the target process’s activity when managing power.
 
 ### -field ProcessReservedValue1
 
@@ -77,7 +77,7 @@ The process information is represented by a <a href="https://msdn.microsoft.com/
 
 ### -field ProcessInformationClassMax
 
-Reserved.
+The maximum value for this enumeration. This value may change in a future version.
 
 ## -remarks
 
