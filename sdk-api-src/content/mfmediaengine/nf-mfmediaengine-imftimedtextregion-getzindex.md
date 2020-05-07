@@ -1,13 +1,13 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetZIndex
 title: IMFTimedTextRegion::GetZIndex (mfmediaengine.h)
-description: Gets the Z-index (depth) of the region.helpviewer_keywords: ["GetZIndex","GetZIndex method [Media Foundation]","GetZIndex method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetZIndex method","IMFTimedTextRegion.GetZIndex","IMFTimedTextRegion::GetZIndex","mf.imftimedtextregion_getzindex","mfmediaengine/IMFTimedTextRegion::GetZIndex"]
+description: Gets the Z-index (depth) of the region.
+helpviewer_keywords: ["GetZIndex","GetZIndex method [Media Foundation]","GetZIndex method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetZIndex method","IMFTimedTextRegion.GetZIndex","IMFTimedTextRegion::GetZIndex","mf.imftimedtextregion_getzindex","mfmediaengine/IMFTimedTextRegion::GetZIndex"]
 old-location: mf\imftimedtextregion_getzindex.htm
 tech.root: medfound
 ms.assetid: 662A5D79-7FCE-45D3-BCB1-5DE08DC0F981
 ms.date: 12/05/2018
 ms.keywords: GetZIndex, GetZIndex method [Media Foundation], GetZIndex method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetZIndex method, IMFTimedTextRegion.GetZIndex, IMFTimedTextRegion::GetZIndex, mf.imftimedtextregion_getzindex, mfmediaengine/IMFTimedTextRegion::GetZIndex
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextRegion.GetZIndex
 dev_langs:

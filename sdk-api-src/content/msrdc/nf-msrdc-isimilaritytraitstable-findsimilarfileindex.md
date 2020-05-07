@@ -8,7 +8,6 @@ tech.root: rdc
 ms.assetid: 09c9b918-1def-4d19-84d4-99b881070e36
 ms.date: 12/05/2018
 ms.keywords: FindSimilarFileIndex, FindSimilarFileIndex method [Remote Differential Compression], FindSimilarFileIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],FindSimilarFileIndex method, ISimilarityTraitsTable.FindSimilarFileIndex, ISimilarityTraitsTable::FindSimilarFileIndex, fs.isimilaritytraitstable_findsimilarfileindex, msrdc/ISimilarityTraitsTable::FindSimilarFileIndex, rdc.isimilaritytraitstable_findsimilarfileindex
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarityTraitsTable.FindSimilarFileIndex
 dev_langs:

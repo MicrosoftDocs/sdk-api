@@ -1,13 +1,13 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.FindMatchingIndex
 title: IPropertyEnumTypeList::FindMatchingIndex (propsys.h)
-description: Compares the specified property value against the enumerated values in a list and returns the matching index.helpviewer_keywords: ["FindMatchingIndex","FindMatchingIndex method [Windows Properties]","FindMatchingIndex method [Windows Properties]","IPropertyEnumTypeList interface","IPropertyEnumTypeList interface [Windows Properties]","FindMatchingIndex method","IPropertyEnumTypeList.FindMatchingIndex","IPropertyEnumTypeList::FindMatchingIndex","_shell_IPropertyEnumTypeList_FindMatchingIndex","properties.IPropertyEnumTypeList_FindMatchingIndex","propsys/IPropertyEnumTypeList::FindMatchingIndex","shell.IPropertyEnumTypeList_FindMatchingIndex"]
+description: Compares the specified property value against the enumerated values in a list and returns the matching index.
+helpviewer_keywords: ["FindMatchingIndex","FindMatchingIndex method [Windows Properties]","FindMatchingIndex method [Windows Properties]","IPropertyEnumTypeList interface","IPropertyEnumTypeList interface [Windows Properties]","FindMatchingIndex method","IPropertyEnumTypeList.FindMatchingIndex","IPropertyEnumTypeList::FindMatchingIndex","_shell_IPropertyEnumTypeList_FindMatchingIndex","properties.IPropertyEnumTypeList_FindMatchingIndex","propsys/IPropertyEnumTypeList::FindMatchingIndex","shell.IPropertyEnumTypeList_FindMatchingIndex"]
 old-location: properties\IPropertyEnumTypeList_FindMatchingIndex.htm
 tech.root: properties
 ms.assetid: 48f2d55e-d801-4518-b587-7818cd6afcc9
 ms.date: 12/05/2018
 ms.keywords: FindMatchingIndex, FindMatchingIndex method [Windows Properties], FindMatchingIndex method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],FindMatchingIndex method, IPropertyEnumTypeList.FindMatchingIndex, IPropertyEnumTypeList::FindMatchingIndex, _shell_IPropertyEnumTypeList_FindMatchingIndex, properties.IPropertyEnumTypeList_FindMatchingIndex, propsys/IPropertyEnumTypeList::FindMatchingIndex, shell.IPropertyEnumTypeList_FindMatchingIndex
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyEnumTypeList.FindMatchingIndex
 dev_langs:

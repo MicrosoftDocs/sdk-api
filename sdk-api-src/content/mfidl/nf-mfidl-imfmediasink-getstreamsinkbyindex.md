@@ -1,13 +1,13 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkByIndex
 title: IMFMediaSink::GetStreamSinkByIndex (mfidl.h)
-description: Gets a stream sink, specified by index.helpviewer_keywords: ["01604801-1566-410c-b23a-0568c7298868","GetStreamSinkByIndex","GetStreamSinkByIndex method [Media Foundation]","GetStreamSinkByIndex method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetStreamSinkByIndex method","IMFMediaSink.GetStreamSinkByIndex","IMFMediaSink::GetStreamSinkByIndex","mf.imfmediasink_getstreamsinkbyindex","mfidl/IMFMediaSink::GetStreamSinkByIndex"]
+description: Gets a stream sink, specified by index.
+helpviewer_keywords: ["01604801-1566-410c-b23a-0568c7298868","GetStreamSinkByIndex","GetStreamSinkByIndex method [Media Foundation]","GetStreamSinkByIndex method [Media Foundation]","IMFMediaSink interface","IMFMediaSink interface [Media Foundation]","GetStreamSinkByIndex method","IMFMediaSink.GetStreamSinkByIndex","IMFMediaSink::GetStreamSinkByIndex","mf.imfmediasink_getstreamsinkbyindex","mfidl/IMFMediaSink::GetStreamSinkByIndex"]
 old-location: mf\imfmediasink_getstreamsinkbyindex.htm
 tech.root: medfound
 ms.assetid: 01604801-1566-410c-b23a-0568c7298868
 ms.date: 12/05/2018
 ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkByIndex method, IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSink.GetStreamSinkByIndex
 dev_langs:
