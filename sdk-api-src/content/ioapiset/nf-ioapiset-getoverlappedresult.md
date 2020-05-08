@@ -75,6 +75,7 @@ A handle to the file, named pipe, or communications device. This is the same han
 - [WaitCommEvent](/windows/win32/api/winbase/nf-winbase-waitcommevent)
 - [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
 - [LockFileEx](/windows/win32/api/fileapi/nf-fileapi-lockfileex)
+- [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
 
 
 ### -param lpOverlapped [in]
