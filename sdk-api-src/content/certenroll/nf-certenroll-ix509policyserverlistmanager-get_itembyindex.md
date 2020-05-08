@@ -1,13 +1,13 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get_ItemByIndex
 title: IX509PolicyServerListManager::get_ItemByIndex (certenroll.h)
-description: Retrieves an IX509PolicyServerUrl object from the collection by index number.helpviewer_keywords: ["IX509PolicyServerListManager interface [Security]","ItemByIndex property","IX509PolicyServerListManager.ItemByIndex","IX509PolicyServerListManager.get_ItemByIndex","IX509PolicyServerListManager::ItemByIndex","IX509PolicyServerListManager::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IX509PolicyServerListManager interface","certenroll/IX509PolicyServerListManager::ItemByIndex","certenroll/IX509PolicyServerListManager::get_ItemByIndex","get_ItemByIndex","security.ix509policyserverlistmanager_itembyindex"]
+description: Retrieves an IX509PolicyServerUrl object from the collection by index number.
+helpviewer_keywords: ["IX509PolicyServerListManager interface [Security]","ItemByIndex property","IX509PolicyServerListManager.ItemByIndex","IX509PolicyServerListManager.get_ItemByIndex","IX509PolicyServerListManager::ItemByIndex","IX509PolicyServerListManager::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IX509PolicyServerListManager interface","certenroll/IX509PolicyServerListManager::ItemByIndex","certenroll/IX509PolicyServerListManager::get_ItemByIndex","get_ItemByIndex","security.ix509policyserverlistmanager_itembyindex"]
 old-location: security\ix509policyserverlistmanager_itembyindex.htm
 tech.root: seccertenroll
 ms.assetid: 3343a018-e974-4821-8b10-57194c29873b
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],ItemByIndex property, IX509PolicyServerListManager.ItemByIndex, IX509PolicyServerListManager.get_ItemByIndex, IX509PolicyServerListManager::ItemByIndex, IX509PolicyServerListManager::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::ItemByIndex, certenroll/IX509PolicyServerListManager::get_ItemByIndex, get_ItemByIndex, security.ix509policyserverlistmanager_itembyindex
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerListManager.ItemByIndex
 dev_langs:

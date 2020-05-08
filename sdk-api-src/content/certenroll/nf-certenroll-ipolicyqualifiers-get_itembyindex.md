@@ -1,13 +1,13 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get_ItemByIndex
 title: IPolicyQualifiers::get_ItemByIndex (certenroll.h)
-description: Retrieves an object from the collection by index number.helpviewer_keywords: ["IPolicyQualifiers interface [Security]","ItemByIndex property","IPolicyQualifiers.ItemByIndex","IPolicyQualifiers.get_ItemByIndex","IPolicyQualifiers::ItemByIndex","IPolicyQualifiers::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::ItemByIndex","certenroll/IPolicyQualifiers::get_ItemByIndex","get_ItemByIndex","security.ipolicyqualifiers_itembyindex"]
+description: Retrieves an object from the collection by index number.
+helpviewer_keywords: ["IPolicyQualifiers interface [Security]","ItemByIndex property","IPolicyQualifiers.ItemByIndex","IPolicyQualifiers.get_ItemByIndex","IPolicyQualifiers::ItemByIndex","IPolicyQualifiers::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::ItemByIndex","certenroll/IPolicyQualifiers::get_ItemByIndex","get_ItemByIndex","security.ipolicyqualifiers_itembyindex"]
 old-location: security\ipolicyqualifiers_itembyindex.htm
 tech.root: seccertenroll
 ms.assetid: 89d6ce10-8425-4ee9-a957-88f9a2daba74
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers interface [Security],ItemByIndex property, IPolicyQualifiers.ItemByIndex, IPolicyQualifiers.get_ItemByIndex, IPolicyQualifiers::ItemByIndex, IPolicyQualifiers::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::ItemByIndex, certenroll/IPolicyQualifiers::get_ItemByIndex, get_ItemByIndex, security.ipolicyqualifiers_itembyindex
-ms.topic: method
 f1_keywords:
 - certenroll/IPolicyQualifiers.ItemByIndex
 dev_langs:

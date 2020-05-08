@@ -66,12 +66,12 @@ Retrieves information about the specified process.
 
 A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b> access 
      right. For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+     <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param ProcessInformationClass [in]
 
-The kind of information to retrieve.
+A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to retrieve.
 
 
 ### -param ProcessInformation

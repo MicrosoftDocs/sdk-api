@@ -71,7 +71,7 @@ A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b
 
 ### -param ProcessInformationClass [in]
 
-The class of information to set.  
+A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to set.  
 
 
 ### -param ProcessInformation

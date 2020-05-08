@@ -1,13 +1,13 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetBrowserByIndex
 title: IBrowserService::GetBrowserByIndex (shdeprecated.h)
-description: Deprecated. Retrieves the browser with the given index.helpviewer_keywords: ["GetBrowserByIndex","GetBrowserByIndex method [Windows Shell]","GetBrowserByIndex method [Windows Shell]","IBrowserService interface","IBrowserService interface [Windows Shell]","GetBrowserByIndex method","IBrowserService.GetBrowserByIndex","IBrowserService::GetBrowserByIndex","shdeprecated/IBrowserService::GetBrowserByIndex","shell.IBrowserService_GetBrowserByIndex","zone_IBrowserService_GetBrowserByIndex"]
+description: Deprecated. Retrieves the browser with the given index.
+helpviewer_keywords: ["GetBrowserByIndex","GetBrowserByIndex method [Windows Shell]","GetBrowserByIndex method [Windows Shell]","IBrowserService interface","IBrowserService interface [Windows Shell]","GetBrowserByIndex method","IBrowserService.GetBrowserByIndex","IBrowserService::GetBrowserByIndex","shdeprecated/IBrowserService::GetBrowserByIndex","shell.IBrowserService_GetBrowserByIndex","zone_IBrowserService_GetBrowserByIndex"]
 old-location: shell\IBrowserService_GetBrowserByIndex.htm
 tech.root: shell
 ms.assetid: 190bd99d-3921-4d7b-8cf3-c91067d3e1f8
 ms.date: 12/05/2018
 ms.keywords: GetBrowserByIndex, GetBrowserByIndex method [Windows Shell], GetBrowserByIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserByIndex method, IBrowserService.GetBrowserByIndex, IBrowserService::GetBrowserByIndex, shdeprecated/IBrowserService::GetBrowserByIndex, shell.IBrowserService_GetBrowserByIndex, zone_IBrowserService_GetBrowserByIndex
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.GetBrowserByIndex
 dev_langs:

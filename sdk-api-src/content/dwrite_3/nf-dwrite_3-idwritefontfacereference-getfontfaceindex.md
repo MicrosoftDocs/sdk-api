@@ -1,13 +1,13 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFontFaceIndex
 title: IDWriteFontFaceReference::GetFontFaceIndex (dwrite_3.h)
-description: Obtains the zero-based index of the font face in its font file or files. If the font files contain a single face, the return value is zero.helpviewer_keywords: ["GetFontFaceIndex","GetFontFaceIndex method [Direct Write]","GetFontFaceIndex method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetFontFaceIndex method","IDWriteFontFaceReference.GetFontFaceIndex","IDWriteFontFaceReference::GetFontFaceIndex","directwrite.idwritefontfacereference_getfontfaceindex","dwrite_3/IDWriteFontFaceReference::GetFontFaceIndex"]
+description: Obtains the zero-based index of the font face in its font file or files. If the font files contain a single face, the return value is zero.
+helpviewer_keywords: ["GetFontFaceIndex","GetFontFaceIndex method [Direct Write]","GetFontFaceIndex method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetFontFaceIndex method","IDWriteFontFaceReference.GetFontFaceIndex","IDWriteFontFaceReference::GetFontFaceIndex","directwrite.idwritefontfacereference_getfontfaceindex","dwrite_3/IDWriteFontFaceReference::GetFontFaceIndex"]
 old-location: directwrite\idwritefontfacereference_getfontfaceindex.htm
 tech.root: DirectWrite
 ms.assetid: 963ec564-8a7e-5916-f630-844bd37af051
 ms.date: 12/05/2018
 ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [Direct Write], GetFontFaceIndex method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFontFaceIndex method, IDWriteFontFaceReference.GetFontFaceIndex, IDWriteFontFaceReference::GetFontFaceIndex, directwrite.idwritefontfacereference_getfontfaceindex, dwrite_3/IDWriteFontFaceReference::GetFontFaceIndex
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFaceReference.GetFontFaceIndex
 dev_langs:

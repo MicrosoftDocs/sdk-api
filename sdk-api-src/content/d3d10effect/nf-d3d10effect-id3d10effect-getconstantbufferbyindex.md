@@ -1,13 +1,13 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetConstantBufferByIndex
 title: ID3D10Effect::GetConstantBufferByIndex (d3d10effect.h)
-description: Get a constant buffer by index.helpviewer_keywords: ["6e59189f-e563-27f9-5003-f6af77fe5eb9","GetConstantBufferByIndex","GetConstantBufferByIndex method [Direct3D 10]","GetConstantBufferByIndex method [Direct3D 10]","ID3D10Effect interface","ID3D10Effect interface [Direct3D 10]","GetConstantBufferByIndex method","ID3D10Effect.GetConstantBufferByIndex","ID3D10Effect::GetConstantBufferByIndex","d3d10effect/ID3D10Effect::GetConstantBufferByIndex","direct3d10.id3d10effect_getconstantbufferbyindex"]
+description: Get a constant buffer by index.
+helpviewer_keywords: ["6e59189f-e563-27f9-5003-f6af77fe5eb9","GetConstantBufferByIndex","GetConstantBufferByIndex method [Direct3D 10]","GetConstantBufferByIndex method [Direct3D 10]","ID3D10Effect interface","ID3D10Effect interface [Direct3D 10]","GetConstantBufferByIndex method","ID3D10Effect.GetConstantBufferByIndex","ID3D10Effect::GetConstantBufferByIndex","d3d10effect/ID3D10Effect::GetConstantBufferByIndex","direct3d10.id3d10effect_getconstantbufferbyindex"]
 old-location: direct3d10\id3d10effect_getconstantbufferbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyindex.htm
 ms.date: 12/05/2018
 ms.keywords: 6e59189f-e563-27f9-5003-f6af77fe5eb9, GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 10], GetConstantBufferByIndex method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByIndex method, ID3D10Effect.GetConstantBufferByIndex, ID3D10Effect::GetConstantBufferByIndex, d3d10effect/ID3D10Effect::GetConstantBufferByIndex, direct3d10.id3d10effect_getconstantbufferbyindex
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10Effect.GetConstantBufferByIndex
 dev_langs:
