@@ -23,4 +23,4 @@ To develop Event Tracing, you need these headers:
  * [tdh.h](../tdh/index.md)
 
 For programming guidance for this technology, see:
-* [Event Tracing](https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal)
+* [Event Tracing](/windows/desktop/ETW/event-tracing-portal)
