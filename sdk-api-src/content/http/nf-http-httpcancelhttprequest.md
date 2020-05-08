@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpCancelHttpRequest
 title: HttpCancelHttpRequest function (http.h)
-description: The HttpCancelHttpRequest function cancels a specified reqest.helpviewer_keywords: ["HttpCancelHttpRequest","HttpCancelHttpRequest function [HTTP]","http.httpcancelhttprequest","http/HttpCancelHttpRequest"]
+description: The HttpCancelHttpRequest function cancels a specified reqest.
+helpviewer_keywords: ["HttpCancelHttpRequest","HttpCancelHttpRequest function [HTTP]","http.httpcancelhttprequest","http/HttpCancelHttpRequest"]
 old-location: http\httpcancelhttprequest.htm
 tech.root: http
 ms.assetid: 9ece13ab-7b13-49b7-8d29-bbbb2755db52
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HttpCancelHttpRequest</b> function cancels a specified reqest.
+The <b>HttpCancelHttpRequest</b> function cancels a specified request.
 
 
 ## -parameters
@@ -69,8 +70,7 @@ The ID of the request to be canceled.
 
 ### -param Overlapped [in, optional]
 
-For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
+For asynchronous calls, set <i>pOverlapped</i> to point to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
 
 
 ## -returns
@@ -79,6 +79,14 @@ For asynchronous calls, set <i>pOverlapped</i> to point to an
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
+
+
+
+## -remarks
+
+
+
+When the **HttpCancelHttpRequest** function is used to cancel a request, the underlying transport connection used for the request will be closed.
 
 
 
