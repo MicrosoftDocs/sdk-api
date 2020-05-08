@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: mincore.lib
+req.lib: kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
