@@ -1,13 +1,13 @@
 ---
 UID: NF:directxmath.XMVectorGetIntByIndex
 title: XMVectorGetIntByIndex function (directxmath.h)
-description: Retrieve the value of one of the four components of an XMVECTOR Data Type containing integer data by index.helpviewer_keywords: ["Use DirectX..XMVectorGetIntByIndex","XMVectorGetIntByIndex","XMVectorGetIntByIndex method [DirectX Math Support APIs]","dxmath.xmvectorgetintbyindex"]
+description: Retrieve the value of one of the four components of an XMVECTOR Data Type containing integer data by index.
+helpviewer_keywords: ["Use DirectX..XMVectorGetIntByIndex","XMVectorGetIntByIndex","XMVectorGetIntByIndex method [DirectX Math Support APIs]","dxmath.xmvectorgetintbyindex"]
 old-location: dxmath\xmvectorgetintbyindex.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntByIndex(XMVECTOR,size_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetIntByIndex, XMVectorGetIntByIndex, XMVectorGetIntByIndex method [DirectX Math Support APIs], dxmath.xmvectorgetintbyindex
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorGetIntByIndex
 dev_langs:

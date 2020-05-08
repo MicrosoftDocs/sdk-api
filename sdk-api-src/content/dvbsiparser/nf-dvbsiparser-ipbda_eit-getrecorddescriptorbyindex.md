@@ -1,13 +1,13 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDescriptorByIndex
 title: IPBDA_EIT::GetRecordDescriptorByIndex (dvbsiparser.h)
-description: Retrieves a descriptor for a specified record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["GetRecordDescriptorByIndex","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetRecordDescriptorByIndex method","IPBDA_EIT.GetRecordDescriptorByIndex","IPBDA_EIT::GetRecordDescriptorByIndex","dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex","mstv.ipbda_eit_getrecorddescriptorbyindex"]
+description: Retrieves a descriptor for a specified record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
+helpviewer_keywords: ["GetRecordDescriptorByIndex","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","GetRecordDescriptorByIndex method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetRecordDescriptorByIndex method","IPBDA_EIT.GetRecordDescriptorByIndex","IPBDA_EIT::GetRecordDescriptorByIndex","dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex","mstv.ipbda_eit_getrecorddescriptorbyindex"]
 old-location: mstv\ipbda_eit_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 96ca5a6b-c515-4854-8e95-9cb155879b3b
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IPBDA_EIT.GetRecordDescriptorByIndex, IPBDA_EIT::GetRecordDescriptorByIndex, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex, mstv.ipbda_eit_getrecorddescriptorbyindex
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IPBDA_EIT.GetRecordDescriptorByIndex
 dev_langs:

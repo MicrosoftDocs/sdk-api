@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcndr._NDR_USER_MARSHAL_INFO
 title: NDR_USER_MARSHAL_INFO (rpcndr.h)
-description: The NDR_USER_MARSHAL_INFO structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.helpviewer_keywords: ["NDR_USER_MARSHAL_INFO","NDR_USER_MARSHAL_INFO structure [RPC]","_rpc_ndr_user_marshal_info","rpc.ndr_user_marshal_info","rpcndr/NDR_USER_MARSHAL_INFO"]
+description: The NDR_USER_MARSHAL_INFO structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.
+helpviewer_keywords: ["NDR_USER_MARSHAL_INFO","NDR_USER_MARSHAL_INFO structure [RPC]","_rpc_ndr_user_marshal_info","rpc.ndr_user_marshal_info","rpcndr/NDR_USER_MARSHAL_INFO"]
 old-location: rpc\ndr_user_marshal_info.htm
 tech.root: Rpc
 ms.assetid: 3c7b4cd4-fb72-40a6-9450-4edf82cade2c

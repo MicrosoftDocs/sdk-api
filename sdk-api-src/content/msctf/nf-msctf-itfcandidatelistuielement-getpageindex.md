@@ -1,13 +1,13 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetPageIndex
 title: ITfCandidateListUIElement::GetPageIndex (msctf.h)
-description: The ITfCandidateListUIElement::GetPageIndex method returns the page index of the list.helpviewer_keywords: ["GetPageIndex","GetPageIndex method [Text Services Framework]","GetPageIndex method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetPageIndex method","ITfCandidateListUIElement.GetPageIndex","ITfCandidateListUIElement::GetPageIndex","msctf/ITfCandidateListUIElement::GetPageIndex","tsf.itfcandidatelistuielement_getpageindex"]
+description: The ITfCandidateListUIElement::GetPageIndex method returns the page index of the list.
+helpviewer_keywords: ["GetPageIndex","GetPageIndex method [Text Services Framework]","GetPageIndex method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetPageIndex method","ITfCandidateListUIElement.GetPageIndex","ITfCandidateListUIElement::GetPageIndex","msctf/ITfCandidateListUIElement::GetPageIndex","tsf.itfcandidatelistuielement_getpageindex"]
 old-location: tsf\itfcandidatelistuielement_getpageindex.htm
 tech.root: TSF
 ms.assetid: d63afb41-0276-4bc9-af4d-319d39de519d
 ms.date: 12/05/2018
 ms.keywords: GetPageIndex, GetPageIndex method [Text Services Framework], GetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetPageIndex method, ITfCandidateListUIElement.GetPageIndex, ITfCandidateListUIElement::GetPageIndex, msctf/ITfCandidateListUIElement::GetPageIndex, tsf.itfcandidatelistuielement_getpageindex
-ms.topic: method
 f1_keywords:
 - msctf/ITfCandidateListUIElement.GetPageIndex
 dev_langs:

@@ -8,7 +8,6 @@ tech.root: medfound
 ms.assetid: 63311052-f01b-4d77-afac-1cc89166f754
 ms.date: 12/05/2018
 ms.keywords: 63311052-f01b-4d77-afac-1cc89166f754, GetAvailableSurfaceTypeByIndex, GetAvailableSurfaceTypeByIndex method [Media Foundation], GetAvailableSurfaceTypeByIndex method [Media Foundation],IDirectXVideoMemoryConfiguration interface, IDirectXVideoMemoryConfiguration interface [Media Foundation],GetAvailableSurfaceTypeByIndex method, IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex, IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, dxva2api/IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, mf.idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex
-ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex
 dev_langs:
