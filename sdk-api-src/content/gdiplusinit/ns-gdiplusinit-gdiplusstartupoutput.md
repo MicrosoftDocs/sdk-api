@@ -1,7 +1,8 @@
 ---
 UID: NS:gdiplusinit.GdiplusStartupOutput
 title: GdiplusStartupOutput (gdiplusinit.h)
-description: The GdiplusStartup function uses the GdiplusStartupOutput structure to return (in its output parameter) a pointer to a hook function and a pointer to an unhook function.helpviewer_keywords: ["GdiplusStartupOutput","GdiplusStartupOutput structure [GDI+]","_gdiplus_STRUC_GdiplusStartupOutput","gdiplus._gdiplus_STRUC_GdiplusStartupOutput","gdiplusinit/GdiplusStartupOutput"]
+description: The GdiplusStartup function uses the GdiplusStartupOutput structure to return (in its output parameter) a pointer to a hook function and a pointer to an unhook function.
+helpviewer_keywords: ["GdiplusStartupOutput","GdiplusStartupOutput structure [GDI+]","_gdiplus_STRUC_GdiplusStartupOutput","gdiplus._gdiplus_STRUC_GdiplusStartupOutput","gdiplusinit/GdiplusStartupOutput"]
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupOutput.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupoutput.htm
@@ -44,11 +45,7 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# GdiplusStartupOutput structure
-
-
 ## -description
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a> function uses the <b>GdiplusStartupOutput</b> structure to return (in its <i>output</i> parameter) a pointer to a hook function and a pointer to an unhook function. If you set the <b>SuppressBackgroundThread</b> member of the <i>input</i> parameter to <b>TRUE</b>, then you are responsible for calling those functions to replace the Windows GDI+ background thread.
 
@@ -56,11 +53,7 @@ Call the hook and unhook functions before and after the application's main messa
 
 If you do not want to be responsible for calling the hook and unhook functions, set the <b>SuppressBackgroundThread</b> member of the <i>input</i> parameter (passed to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>) to <b>FALSE</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NotificationHook
 
@@ -68,33 +61,18 @@ Type: <b>NotificationHookProc</b>
 
 Receives a pointer to a hook function. 
 
-
 ### -field NotificationUnhook
 
 Type: <b>NotificationUnhookProc</b>
 
 Receives a pointer to an unhook function. 
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting started</a>
