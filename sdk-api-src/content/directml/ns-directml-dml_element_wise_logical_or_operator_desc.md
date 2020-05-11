@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC
 title: DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC
-description: Describes a DirectML math operator that performs a logical OR function between every element in ATensor and its corresponding element in BTensor, f(a, b) = a || b.helpviewer_keywords: ["DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC","DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC structure","direct3d12.dml_element_wise_logical_or_operator_desc","directml/DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC"]
+description: Describes a DirectML math operator that performs a logical OR function between every element in ATensor and its corresponding element in BTensor, f(a, b) = a \|\| b.
+helpviewer_keywords: ["DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC","DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC structure","direct3d12.dml_element_wise_logical_or_operator_desc","directml/DML_ELEMENT_WISE_LOGICAL_OR_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_logical_or_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: DB4658D4-6A57-4B18-BB5B-9C608D9F17FF
