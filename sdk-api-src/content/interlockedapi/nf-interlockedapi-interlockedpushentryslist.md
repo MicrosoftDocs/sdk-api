@@ -125,7 +125,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/win32/api/winnt/ns-winnt-slist_entry">SLIST_ENTRY</a>
 
 
 
