@@ -39,6 +39,8 @@ To develop Security and Identity, you need these headers:
  * [cryptdlg.h](../cryptdlg/index.md)
  * [cryptuiapi.h](../cryptuiapi/index.md)
  * [cryptxml.h](../cryptxml/index.md)
+ * [diagnosticdataquery.h](../diagnosticdataquery/index.md)
+ * [diagnosticdataquerytypes.h](../diagnosticdataquerytypes/index.md)
  * [dpapi.h](../dpapi/index.md)
  * [dssec.h](../dssec/index.md)
  * [iads.h](../iads/index.md)

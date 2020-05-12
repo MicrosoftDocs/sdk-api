@@ -61,6 +61,58 @@ The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio d
 
 
 
+### -field wFormatTag
+
+ 
+
+
+### -field nChannels
+
+ 
+
+
+### -field nSamplesPerSec
+
+ 
+
+
+### -field nAvgBytesPerSec
+
+ 
+
+
+### -field nBlockAlign
+
+ 
+
+
+### -field wBitsPerSample
+
+ 
+
+
+### -field cbSize
+
+ 
+
+
+### -field wValidBitsPerSample
+
+ 
+
+
+### -field dwChannelMask
+
+Bitmask specifying the assignment of channels in the stream to speaker positions.
+
+
+### -field SubFormat
+
+Subformat of the data, such as KSDATAFORMAT_SUBTYPE_PCM. The subformat information is similar to that provided by the tag in the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
+
+
+
+
 ### -field Format
 
 
