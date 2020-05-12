@@ -1,6 +1,8 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDevice1
 title: ID3D12VideoDevice1
+description: Adds support for motion estimation.
+tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: ID3D12VideoDevice1
 f1_keywords:
@@ -31,9 +33,7 @@ api_name:
 - ID3D12VideoDevice1
 ---
 
-## -inheritance
 
-ID3D12VideoDevice1 interits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice.md).
 
 ## -description
 

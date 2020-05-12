@@ -7,7 +7,7 @@ old-location: base\setprocessmitigationpolicy.htm
 tech.root: ProcThread
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
 ms.date: 12/05/2018
-ms.keywords: ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, SetProcessMitigationPolicy, SetProcessMitigationPolicy function, base.setprocessmitigationpolicy, processthreadsapi/SetProcessMitigationPolicy
+ms.keywords: ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, SetProcessMitigationPolicy, SetProcessMitigationPolicy function, base.setprocessmitigationpolicy, processthreadsapi/SetProcessMitigationPolicy
 f1_keywords:
 - processthreadsapi/SetProcessMitigationPolicy
 dev_langs:
@@ -204,6 +204,18 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="ProcessUserShadowStackPolicy"></a><a id="processusershadowstackpolicy"></a><a id="PROCESSUSERSHADOWSTACKPOLICY"></a><dl>
+<dt><b>ProcessUserShadowStackPolicy</b></dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10, version 2004 and above: The policy regarding user-mode Hardware-enforced Stack Protection for the process.
+
+The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that specifies the policy flags for user-mode Hardware-enforced Stack Protection.
+
+</td>
+</tr>
 </table>
  
 
@@ -231,6 +243,8 @@ If the <i>MitigationPolicy</i> parameter is <b>ProcessSignaturePolicy</b>, this 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessFontDisablePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
+
+If the <i>MitigationPolicy</i> parameter is <b>ProcessUserShadowStackPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that specifies the policy flags for user-mode Hardware-enforced Stack Protection.
 
 
 ### -param dwLength [in]
