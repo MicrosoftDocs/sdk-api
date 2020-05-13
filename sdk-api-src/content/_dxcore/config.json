@@ -1,8 +1,0 @@
-{
-  "tech": "dxcore",
-  "headers": [
-    "dxcore.h",
-    "dxcore_interface.h"
-  ],
-  "displayName": "DXCore"
-}
