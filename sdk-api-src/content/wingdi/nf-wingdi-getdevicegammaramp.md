@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetDeviceGammaRamp
 title: GetDeviceGammaRamp function (wingdi.h)
-description: The GetDeviceGammaRamp function gets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.helpviewer_keywords: ["GetDeviceGammaRamp","GetDeviceGammaRamp function [Windows Color System]","_color_GetDeviceGammaRamp","wcs.getdevicegammaramp","wingdi/GetDeviceGammaRamp"]
+description: The GetDeviceGammaRamp function gets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+helpviewer_keywords: ["GetDeviceGammaRamp","GetDeviceGammaRamp function [Windows Color System]","_color_GetDeviceGammaRamp","wcs.getdevicegammaramp","wingdi/GetDeviceGammaRamp"]
 old-location: wcs\getdevicegammaramp.htm
 tech.root: WCS
 ms.assetid: c32600a9-545e-4bbf-a3c1-21878f5106b0
@@ -53,6 +54,9 @@ ms.custom: 19H1
 
 The <b>GetDeviceGammaRamp</b> function gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/g">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
+
+> [!IMPORTANT]
+> We strongly recommend that you don't use this API. Use of this API is subject to major limitations. See [SetDeviceGammaRamp](nf-wingdi-setdevicegammaramp.md) for more information.
 
 ## -parameters
 
