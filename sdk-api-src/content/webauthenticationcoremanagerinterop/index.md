@@ -40,8 +40,6 @@ tech.root: winrt
 
 ## -description
 
-Contains core methods for obtaining tokens from web account providers.<br/><br/>
-
 ## -remarks
 
 This header is used by Windows Runtime C++ reference. For more information, see:
