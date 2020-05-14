@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DiscardResource
 title: ID3D12GraphicsCommandList::DiscardResource (d3d12.h)
-description: Discards a resource.helpviewer_keywords: ["DiscardResource","DiscardResource method","DiscardResource method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DiscardResource method","ID3D12GraphicsCommandList.DiscardResource","ID3D12GraphicsCommandList::DiscardResource","d3d12/ID3D12GraphicsCommandList::DiscardResource","direct3d12.id3d12graphicscommandlist_discardresource"]
+description: Discards a resource.
+helpviewer_keywords: ["DiscardResource","DiscardResource method","DiscardResource method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DiscardResource method","ID3D12GraphicsCommandList.DiscardResource","ID3D12GraphicsCommandList::DiscardResource","d3d12/ID3D12GraphicsCommandList::DiscardResource","direct3d12.id3d12graphicscommandlist_discardresource"]
 old-location: direct3d12\id3d12graphicscommandlist_discardresource.htm
 tech.root: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
@@ -43,44 +44,29 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D12GraphicsCommandList::DiscardResource
-
-
 ## -description
 
-
-Discards a resource.
-
+Indicates that the contents of a resource don't need to be preserved. The function may re-initialize resource metadata in some cases.
 
 ## -parameters
 
+### -param pResource
 
-
-
-### -param pResource [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
+Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface for the resource to discard.
-            
 
+### -param pRegion
 
-### -param pRegion [in, optional]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_discard_region">D3D12_DISCARD_REGION</a>*</b>
+Type: [in, optional] <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_discard_region">D3D12_DISCARD_REGION</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_discard_region">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
-            
-
 
 ## -remarks
 
-
-
 The semantics of <b>DiscardResource</b> change based on the command list type.
 
- For <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_DIRECT</a>, the following two rules apply:
-
+For <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_DIRECT</a>, the following two rules apply:
 
 <ul>
 <li>When a resource has the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET</a> flag, <b>DiscardResource</b> must be called when the discarded subresource regions are in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RENDER_TARGET</a> resource barrier state.</li>
@@ -89,26 +75,13 @@ The semantics of <b>DiscardResource</b> change based on the command list type.
 </ul>
 For <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_COMPUTE</a>, the following rule applies:
 
-
 <ul>
 <li>The resource must have the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS</a> flag, and <b>DiscardResource</b> must be called when the discarded subresource regions are in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a> resource barrier state.</li>
 </ul>
 <b>DiscardResource</b> is not supported on command lists with either <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_BUNDLE</a> nor <b>D3D12_COMMAND_LIST_TYPE_COPY</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
- 
-
- 
-
