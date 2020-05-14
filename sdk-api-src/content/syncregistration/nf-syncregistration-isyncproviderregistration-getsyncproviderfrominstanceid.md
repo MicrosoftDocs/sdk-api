@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderFromInstanceId
 title: ISyncProviderRegistration::GetSyncProviderFromInstanceId (syncregistration.h)
-description: Returns an initialized and instantiated IRegisteredSyncProvider object for the specific unique instance ID.
+description: Returns an initialized and instantiated IRegisteredSyncProvider object for the specific unique instance ID.helpviewer_keywords: ["GetSyncProviderFromInstanceId","GetSyncProviderFromInstanceId method [Windows Sync]","GetSyncProviderFromInstanceId method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetSyncProviderFromInstanceId method","ISyncProviderRegistration.GetSyncProviderFromInstanceId","ISyncProviderRegistration::GetSyncProviderFromInstanceId","syncregistration/ISyncProviderRegistration::GetSyncProviderFromInstanceId","winsync.isyncproviderregistration_getsyncproviderfrominstanceid"]
 old-location: winsync\isyncproviderregistration_getsyncproviderfrominstanceid.htm
 tech.root: winsync
 ms.assetid: ed204998-9e9a-4bac-b178-b4137be87ff4

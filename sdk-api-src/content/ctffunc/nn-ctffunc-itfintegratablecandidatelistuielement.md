@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.ITfIntegratableCandidateListUIElement
 title: ITfIntegratableCandidateListUIElement (ctffunc.h)
-description: Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.
+description: Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.helpviewer_keywords: ["ITfIntegratableCandidateListUIElement","ITfIntegratableCandidateListUIElement interface [Text Services Framework]","ITfIntegratableCandidateListUIElement interface [Text Services Framework]","described","ctffunc/ITfIntegratableCandidateListUIElement","tsf.itfintegratablecandidatelistuielement"]
 old-location: tsf\itfintegratablecandidatelistuielement.htm
 tech.root: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908

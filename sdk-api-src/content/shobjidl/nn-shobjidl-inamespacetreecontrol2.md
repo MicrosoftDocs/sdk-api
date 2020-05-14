@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControl2
 title: INameSpaceTreeControl2 (shobjidl.h)
-description: Extends the INameSpaceTreeControl interface by providing methods that get and set the display styles of treeview controls for use with Shell namespace items.
+description: Extends the INameSpaceTreeControl interface by providing methods that get and set the display styles of treeview controls for use with Shell namespace items.helpviewer_keywords: ["INameSpaceTreeControl2","INameSpaceTreeControl2 interface [Windows Shell]","INameSpaceTreeControl2 interface [Windows Shell]","described","_shell_INameSpaceTreeControl2","shell.INameSpaceTreeControl2","shobjidl/INameSpaceTreeControl2"]
 old-location: shell\INameSpaceTreeControl2.htm
 tech.root: shell
 ms.assetid: 5f9514db-35fe-44c7-9324-d69022628913

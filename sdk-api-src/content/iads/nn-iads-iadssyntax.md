@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsSyntax
 title: IADsSyntax (iads.h)
-description: The IADsSyntax interface specifies methods to identify and modify the available Automation data types used to represent its data.
+description: The IADsSyntax interface specifies methods to identify and modify the available Automation data types used to represent its data.helpviewer_keywords: ["IADsSyntax","IADsSyntax interface [ADSI]","IADsSyntax interface [ADSI]","described","_ds_iadssyntax","adsi.iadssyntax","iads/IADsSyntax"]
 old-location: adsi\iadssyntax.htm
 tech.root: adsi
 ms.assetid: 1ff8703f-b89d-435d-81af-e5c9a2dc01e2

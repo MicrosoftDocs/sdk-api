@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupWriteTextLogError
 title: SetupWriteTextLogError function (setupapi.h)
-description: The SetupWriteTextLogError function writes information about a SetupAPI-specific error or a Win32 system error to a SetupAPI text log.
+description: The SetupWriteTextLogError function writes information about a SetupAPI-specific error or a Win32 system error to a SetupAPI text log.helpviewer_keywords: ["SetupWriteTextLogError","SetupWriteTextLogError function [Device and Driver Installation]","devinst.setupwritetextlogerror","setupapi/SetupWriteTextLogError","setupapilog-ref_886f507a-408e-4745-b9d2-ea0cf1bf7250.xml"]
 old-location: devinst\setupwritetextlogerror.htm
 tech.root: devinst
 ms.assetid: 9b52d5a7-4a7f-49eb-86c4-cc0434b54232

@@ -1,7 +1,7 @@
 ---
 UID: NF:corewindow.CreateControlInput
 title: CreateControlInput function (corewindow.h)
-description: Creates a ICoreInputSourceBase object in the caller’s UI thread.
+description: Creates a ICoreInputSourceBase object in the caller’s UI thread.helpviewer_keywords: ["CreateControlInput","CreateControlInput function [Windows Runtime]","corewindow/CreateControlInput","winrt.createcontrolinput"]
 old-location: winrt\createcontrolinput.htm
 tech.root: WinRT
 ms.assetid: 562F6745-DE20-43A9-8A40-A98F478DD505

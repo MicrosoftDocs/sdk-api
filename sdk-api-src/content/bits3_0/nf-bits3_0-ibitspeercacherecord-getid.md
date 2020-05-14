@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetId
 title: IBitsPeerCacheRecord::GetId (bits3_0.h)
-description: Gets the identifier that uniquely identifies the record in the cache.
+description: Gets the identifier that uniquely identifies the record in the cache.helpviewer_keywords: ["GetId","GetId method [BITS]","GetId method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetId method","IBitsPeerCacheRecord.GetId","IBitsPeerCacheRecord::GetId","bits.ibitspeercacherecord_getid","bits3_0/IBitsPeerCacheRecord::GetId"]
 old-location: bits\ibitspeercacherecord_getid.htm
 tech.root: Bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa

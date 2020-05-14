@@ -1,7 +1,7 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Initialize
 title: ISyncMgrSynchronize::Initialize (mobsync.h)
-description: Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.
+description: Called by the synchronization manager in a registered application handler to determine whether the handler processes the synchronization event.helpviewer_keywords: ["ISyncMgrSynchronize interface [Windows Shell]","Initialize method","ISyncMgrSynchronize.Initialize","ISyncMgrSynchronize::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","ISyncMgrSynchronize interface","mobsync/ISyncMgrSynchronize::Initialize","shell.syncmgr_isyncmgrsynchronize_initialize","syncmgr.isyncmgrsynchronize_initialize"]
 old-location: shell\syncmgr_isyncmgrsynchronize_initialize.htm
 tech.root: shell
 ms.assetid: 4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10

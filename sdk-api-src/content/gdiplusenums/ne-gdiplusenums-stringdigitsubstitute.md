@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusenums.StringDigitSubstitute
 title: StringDigitSubstitute (gdiplusenums.h)
-description: The StringDigitSubstitute enumeration specifies how to substitute digits in a string according to a user's locale or language.
+description: The StringDigitSubstitute enumeration specifies how to substitute digits in a string according to a user's locale or language.helpviewer_keywords: ["StringDigitSubstitute","StringDigitSubstitute enumeration [GDI+]","StringDigitSubstituteNational","StringDigitSubstituteNone","StringDigitSubstituteTraditional","StringDigitSubstituteUser","_gdiplus_ENUM_StringDigitSubstitute","gdiplus._gdiplus_ENUM_StringDigitSubstitute","gdiplusenums/StringDigitSubstitute","gdiplusenums/StringDigitSubstituteNational","gdiplusenums/StringDigitSubstituteNone","gdiplusenums/StringDigitSubstituteTraditional","gdiplusenums/StringDigitSubstituteUser"]
 old-location: gdiplus\_gdiplus_ENUM_StringDigitSubstitute.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringdigitsubstitute.htm

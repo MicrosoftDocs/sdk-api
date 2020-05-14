@@ -2,6 +2,7 @@
 UID: NF:winsync.ISyncCallback.OnConflict
 title: ISyncCallback::OnConflict (winsync.h)
 description: Occurs when a conflict is detected when the concurrency conflict resolution policy is set to CRP_NONE.
+helpviewer_keywords: ["ISyncCallback interface [Windows Sync]","OnConflict method","ISyncCallback.OnConflict","ISyncCallback::OnConflict","OnConflict","OnConflict method [Windows Sync]","OnConflict method [Windows Sync]","ISyncCallback interface","winsync.isynccallback_onconflict","winsync/ISyncCallback::OnConflict"]
 old-location: winsync\isynccallback_onconflict.htm
 tech.root: winsync
 ms.assetid: 439f2a73-b36c-4604-b739-9f9b68275ac5
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CRP_NONE</a>.
+Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CRP_NONE</a>.
 
 
 ## -parameters
@@ -120,7 +121,7 @@ This notification can be used by an application to perform custom conflict resol
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
  
 
  

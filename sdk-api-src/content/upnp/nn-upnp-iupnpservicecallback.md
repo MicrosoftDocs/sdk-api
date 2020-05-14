@@ -1,7 +1,7 @@
 ---
 UID: NN:upnp.IUPnPServiceCallback
 title: IUPnPServiceCallback (upnp.h)
-description: The IUPnPServiceCallback interface is used to send event notifications to clients of Service objects.
+description: The IUPnPServiceCallback interface is used to send event notifications to clients of Service objects.helpviewer_keywords: ["IUPnPServiceCallback","IUPnPServiceCallback interface [UPnP APIs]","IUPnPServiceCallback interface [UPnP APIs]","described","_upnp_iupnpservicecallback","upnp.iupnpservicecallback","upnp/IUPnPServiceCallback"]
 old-location: upnp\iupnpservicecallback.htm
 tech.root: upnp
 ms.assetid: 44515be4-891b-4f3d-a2c2-1699e468e708

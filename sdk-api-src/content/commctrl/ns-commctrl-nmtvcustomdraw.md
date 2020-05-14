@@ -2,6 +2,7 @@
 UID: NS:commctrl.tagNMTVCUSTOMDRAW
 title: NMTVCUSTOMDRAW (commctrl.h)
 description: Contains information specific to an NM_CUSTOMDRAW (tree view) notification code sent by a tree-view control.
+helpviewer_keywords: ["*LPNMTVCUSTOMDRAW","LPNMTVCUSTOMDRAW","LPNMTVCUSTOMDRAW structure pointer [Windows Controls]","NMTVCUSTOMDRAW","NMTVCUSTOMDRAW structure [Windows Controls]","_win32_NMTVCUSTOMDRAW","_win32_NMTVCUSTOMDRAW_cpp","commctrl/LPNMTVCUSTOMDRAW","commctrl/NMTVCUSTOMDRAW","controls.NMTVCUSTOMDRAW","controls._win32_NMTVCUSTOMDRAW"]
 old-location: controls\NMTVCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvcustomdraw.htm
@@ -59,10 +60,10 @@ Contains information specific to an <a href="https://docs.microsoft.com/windows/
 
 ### -field nmcd
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a></b>
+Type: <b><a href="/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
+<a href="/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
 
 
 ### -field clrText

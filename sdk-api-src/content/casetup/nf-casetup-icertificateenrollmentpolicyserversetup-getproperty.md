@@ -2,6 +2,7 @@
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.GetProperty
 title: ICertificateEnrollmentPolicyServerSetup::GetProperty (casetup.h)
 description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+helpviewer_keywords: ["GetProperty","GetProperty method [Security]","GetProperty method [Security]","ICertificateEnrollmentPolicyServerSetup interface","ICertificateEnrollmentPolicyServerSetup interface [Security]","GetProperty method","ICertificateEnrollmentPolicyServerSetup.GetProperty","ICertificateEnrollmentPolicyServerSetup::GetProperty","casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty","security.icertificateenrollmentpolicyserversetup_getproperty"]
 old-location: security\icertificateenrollmentpolicyserversetup_getproperty.htm
 tech.root: SecCrypto
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetProperty</b> method retrieves a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+The <b>GetProperty</b> method retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ The <b>GetProperty</b> method retrieves a <a href="https://docs.microsoft.com/wi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
+A value of the <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
 
 <table>
 <tr>
@@ -139,7 +140,7 @@ If you specify <b>ENUM_CEPSETUPPROP_KEYBASED_RENEWAL</b> in the <i>propertyId</i
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration type.
+The <i>propertyId</i> argument is not a member of the <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration type.
 
 </td>
 </tr>

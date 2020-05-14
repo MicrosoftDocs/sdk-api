@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcSignatureReferenceSet.Create
 title: IOpcSignatureReferenceSet::Create (msopc.h)
 description: Creates an IOpcSignatureReference interface pointer that represents a reference to an XML element to be signed.
+helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignatureReferenceSet interface","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","Create method","IOpcSignatureReferenceSet.Create","IOpcSignatureReferenceSet::Create","msopc/IOpcSignatureReferenceSet::Create","opc.iopcsignaturereferenceset_create"]
 old-location: opc\iopcsignaturereferenceset_create.htm
 tech.root: OPC
 ms.assetid: 5e943769-a043-4354-80e7-d471a1dbde7a
@@ -122,7 +123,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>transformMethod</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a> enumeration value.
+The value passed in the <i>transformMethod</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a> enumeration value.
 
 </td>
 </tr>
@@ -227,7 +228,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_canonicalization_method">OPC_CANONICALIZATION_METHOD</a>
 
 
 

@@ -2,6 +2,7 @@
 UID: NS:scesvc._SCESVC_ANALYSIS_LINE_
 title: SCESVC_ANALYSIS_LINE (scesvc.h)
 description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
+helpviewer_keywords: ["*PSCESVC_ANALYSIS_LINE","PSCESVC_ANALYSIS_LINE","PSCESVC_ANALYSIS_LINE structure pointer [Security]","SCESVC_ANALYSIS_LINE","SCESVC_ANALYSIS_LINE structure [Security]","_config_scesvc_analysis_line","scesvc/PSCESVC_ANALYSIS_LINE","scesvc/SCESVC_ANALYSIS_LINE","security.scesvc_analysis_line"]
 old-location: security\scesvc_analysis_line.htm
 tech.root: SecMgmt
 ms.assetid: 91fa0f25-30e1-4af3-ad22-f16dc4692b0b
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>SCESVC_ANALYSIS_LINE</b> structure contains the key, value, and value length for a specific line specified by an 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a> structure.
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a> structure.
 
 
 ## -struct-fields
@@ -78,7 +79,7 @@ Length of the data stored in <b>Value</b>, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
  
 
  

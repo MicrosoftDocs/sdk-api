@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.EraseTape
 title: EraseTape function (winbase.h)
-description: Erases all or part of a tape.
+description: Erases all or part of a tape.helpviewer_keywords: ["EraseTape","EraseTape function [Backup]","TAPE_ERASE_LONG","TAPE_ERASE_SHORT","_win32_erasetape","backup.erasetape","base.erasetape","winbase/EraseTape"]
 old-location: backup\erasetape.htm
 tech.root: Backup
 ms.assetid: af262e79-ebdb-4ec5-9b59-ed6725a48bdf

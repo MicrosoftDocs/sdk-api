@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.CreateStorageWithMetadata
 title: IMDSPStorage4::CreateStorageWithMetadata (mswmdm.h)
-description: The CreateStorageWithMetadata method creates a new storage, applying the given metadata to the new storage, and returns a pointer to the IMDSPStorage interface on the newly created storage.
+description: The CreateStorageWithMetadata method creates a new storage, applying the given metadata to the new storage, and returns a pointer to the IMDSPStorage interface on the newly created storage.helpviewer_keywords: ["CreateStorageWithMetadata","CreateStorageWithMetadata method [windows Media Device Manager]","CreateStorageWithMetadata method [windows Media Device Manager]","IMDSPStorage4 interface","IMDSPStorage4 interface [windows Media Device Manager]","CreateStorageWithMetadata method","IMDSPStorage4.CreateStorageWithMetadata","IMDSPStorage4::CreateStorageWithMetadata","IMDSPStorage4CreateStorageWithMetadata","mswmdm/IMDSPStorage4::CreateStorageWithMetadata","wmdm.imdspstorage4_createstoragewithmetadata"]
 old-location: wmdm\imdspstorage4_createstoragewithmetadata.htm
 tech.root: WMDM
 ms.assetid: 493eb6f1-fc06-4b37-803f-a81219e9f819

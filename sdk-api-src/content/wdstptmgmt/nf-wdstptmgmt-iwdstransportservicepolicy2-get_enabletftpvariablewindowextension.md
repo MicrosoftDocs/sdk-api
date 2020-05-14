@@ -2,6 +2,7 @@
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
 title: IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension (wdstptmgmt.h)
 description: Receives a WDSTRANSPORT_TFTP_CAPABILITY value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
+helpviewer_keywords: ["EnableTftpVariableWindowExtension property [Windows Deployment Services]","EnableTftpVariableWindowExtension property [Windows Deployment Services]","IWdsTransportServicePolicy2 interface","IWdsTransportServicePolicy2 interface [Windows Deployment Services]","EnableTftpVariableWindowExtension property","IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension","IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension","IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension","IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension","IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension","get_EnableTftpVariableWindowExtension","wds.iwdstransportservicepolicy2_enabletftpvariablewindowextension","wdstptmgmt/IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension","wdstptmgmt/IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension","wdstptmgmt/IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension"]
 old-location: wds\iwdstransportservicepolicy2_enabletftpvariablewindowextension.htm
 tech.root: wds
 ms.assetid: 948B70F8-2871-404E-8DEC-C4CBE8F84ED7
@@ -51,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Receives a <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a> value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
+Receives a <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a> value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
 
 This property is read/write.
 
@@ -68,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a>
  
 
  

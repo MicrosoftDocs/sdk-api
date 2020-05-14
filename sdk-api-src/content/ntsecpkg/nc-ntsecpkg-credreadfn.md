@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.CredReadFn
 title: CredReadFn (ntsecpkg.h)
-description: Reads a credential from the Credential Manager.
+description: Reads a credential from the Credential Manager.helpviewer_keywords: ["CREDP_FLAGS_CLEAR_PASSWORD","CREDP_FLAGS_DONT_CACHE_TI","CREDP_FLAGS_IN_PROCESS","CREDP_FLAGS_TRUSTED_CALLER","CREDP_FLAGS_USER_ENCRYPTED_PASSWORD","CREDP_FLAGS_USE_MIDL_HEAP","CredReadFn","CredReadFn callback","CrediRead","CrediRead callback function [Security]","ntsecpkg/CrediRead","security.crediread"]
 old-location: security\crediread.htm
 tech.root: SecAuthN
 ms.assetid: b6abfde9-74ac-4af0-b8ab-4f6be937f17f

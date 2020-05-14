@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcBindingCopy
 title: RpcBindingCopy function (rpcdce.h)
-description: The RpcBindingCopy function copies binding information and creates a new binding handle.
+description: The RpcBindingCopy function copies binding information and creates a new binding handle.helpviewer_keywords: ["RpcBindingCopy","RpcBindingCopy function [RPC]","_rpc_rpcbindingcopy","rpc.rpcbindingcopy","rpcdce/RpcBindingCopy"]
 old-location: rpc\rpcbindingcopy.htm
 tech.root: Rpc
 ms.assetid: 835cac4b-9cf8-463a-8eff-d08bbee5f98e

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsCheckMustUnderstandHeaders
 title: WsCheckMustUnderstandHeaders function (webservices.h)
-description: Verifies that the specified headers were understood by the receiver. Note  This function should be called after all headers have been read for a received message.  .
+description: Verifies that the specified headers were understood by the receiver. Note  This function should be called after all headers have been read for a received message.  .helpviewer_keywords: ["WsCheckMustUnderstandHeaders","WsCheckMustUnderstandHeaders function [Web Services for Windows]","webservices/WsCheckMustUnderstandHeaders","wsw.wscheckmustunderstandheaders"]
 old-location: wsw\wscheckmustunderstandheaders.htm
 tech.root: wsw
 ms.assetid: 28ca98e5-911b-436d-a592-781b832ca6cc

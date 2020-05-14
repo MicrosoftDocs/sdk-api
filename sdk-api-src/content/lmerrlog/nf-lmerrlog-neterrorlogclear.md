@@ -1,7 +1,7 @@
 ---
 UID: NF:lmerrlog.NetErrorLogClear
 title: NetErrorLogClear function (lmerrlog.h)
-description: The NetErrorLogClear function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
+description: The NetErrorLogClear function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.helpviewer_keywords: ["NetErrorLogClear","NetErrorLogClear function [Network Management]","_win32_neterrorlogclear","lmerrlog/NetErrorLogClear","netmgmt.neterrorlogclear"]
 old-location: netmgmt\neterrorlogclear.htm
 tech.root: NetMgmt
 ms.assetid: 03e5f6ad-a497-443f-981b-866c675961a1

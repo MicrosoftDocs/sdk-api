@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetOpenClipboardWindow
 title: GetOpenClipboardWindow function (winuser.h)
-description: Retrieves the handle to the window that currently has the clipboard open.
+description: Retrieves the handle to the window that currently has the clipboard open.helpviewer_keywords: ["GetOpenClipboardWindow","GetOpenClipboardWindow function [Data Exchange]","_win32_GetOpenClipboardWindow","_win32_getopenclipboardwindow_cpp","dataxchg.getopenclipboardwindow","winui._win32_getopenclipboardwindow","winuser/GetOpenClipboardWindow"]
 old-location: dataxchg\getopenclipboardwindow.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getopenclipboardwindow.htm

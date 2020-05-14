@@ -2,6 +2,7 @@
 UID: NF:winsatcominterfacei.IProvideWinSATVisuals.get_Bitmap
 title: IProvideWinSATVisuals::get_Bitmap (winsatcominterfacei.h)
 description: Retrieves a bitmap for the WinSAT base score.
+helpviewer_keywords: ["IProvideWinSATVisuals interface [WinSAT]","get_Bitmap method","IProvideWinSATVisuals.get_Bitmap","IProvideWinSATVisuals::get_Bitmap","get_Bitmap","get_Bitmap method [WinSAT]","get_Bitmap method [WinSAT]","IProvideWinSATVisuals interface","winsat.iprovidewinsatvisuals_get_bitmap","winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap"]
 old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm
 tech.root: WinSAT
 ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
@@ -61,7 +62,7 @@ Retrieves a bitmap for the WinSAT base score.
 
 ### -param bitmapSize [in]
 
-Determines the size of the bitmap that this method returns. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size">WINSAT_BITMAP_SIZE</a> enumeration.
+Determines the size of the bitmap that this method returns. For possible values, see the <a href="/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size">WINSAT_BITMAP_SIZE</a> enumeration.
 
 
 ### -param state [in]

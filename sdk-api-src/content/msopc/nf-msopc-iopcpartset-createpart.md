@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcPartSet.CreatePart
 title: IOpcPartSet::CreatePart (msopc.h)
 description: Creates a part object that represents a part and adds a pointer to the object's IOpcPart interface to the set.
+helpviewer_keywords: ["CreatePart","CreatePart method [Open Packaging Conventions]","CreatePart method [Open Packaging Conventions]","IOpcPartSet interface","IOpcPartSet interface [Open Packaging Conventions]","CreatePart method","IOpcPartSet.CreatePart","IOpcPartSet::CreatePart","msopc/IOpcPartSet::CreatePart","opc.iopcpartset_createpart"]
 old-location: opc\iopcpartset_createpart.htm
 tech.root: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
@@ -121,7 +122,7 @@ The <i>name</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>compressionOptions</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a> enumeration value.
+The value passed in the <i>compressionOptions</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a> enumeration value.
 
 </td>
 </tr>
@@ -145,7 +146,7 @@ A part with the specified part name already exists in the current package.
 </dl>
 </td>
 <td width="60%">
-A content type does not conform to the rules for a valid media type, specified in <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a> (https://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
+A content type does not conform to the rules for a valid media type, specified in <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a> (http://www.w3.org/Protocols/rfc2616/rfc2616.html) and the <i>OPC</i>.
 
 </td>
 </tr>
@@ -240,7 +241,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
 
 
 

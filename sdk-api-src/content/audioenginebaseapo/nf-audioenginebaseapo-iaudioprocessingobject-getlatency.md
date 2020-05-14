@@ -1,7 +1,7 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetLatency
 title: IAudioProcessingObject::GetLatency (audioenginebaseapo.h)
-description: The GetLatency method returns the latency for this APO. Latency is the amount of time it takes a frame to traverse the processing pass of an APO.
+description: The GetLatency method returns the latency for this APO. Latency is the amount of time it takes a frame to traverse the processing pass of an APO.helpviewer_keywords: ["GetLatency","GetLatency method [Audio Devices]","GetLatency method [Audio Devices]","IAudioProcessingObject interface","IAudioProcessingObject interface [Audio Devices]","GetLatency method","IAudioProcessingObject.GetLatency","IAudioProcessingObject::GetLatency","audio.iaudioprocessingobject_getlatency","audio_syseffects_r_51c02d16-7f19-43e9-8656-411abb78ee56.xml","audioenginebaseapo/IAudioProcessingObject::GetLatency"]
 old-location: audio\iaudioprocessingobject_getlatency.htm
 tech.root: audio
 ms.assetid: 7ac982cd-7fb7-4427-ac17-508bcc72391d

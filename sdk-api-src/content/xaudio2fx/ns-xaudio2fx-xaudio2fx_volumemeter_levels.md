@@ -1,7 +1,7 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_VOLUMEMETER_LEVELS
 title: XAUDIO2FX_VOLUMEMETER_LEVELS (xaudio2fx.h)
-description: Describes parameters for use with the volume meter APO.
+description: Describes parameters for use with the volume meter APO.helpviewer_keywords: ["XAUDIO2FX_VOLUMEMETER_LEVELS","XAUDIO2FX_VOLUMEMETER_LEVELS structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2fx_volumemeter_levels","xaudio2fx/XAUDIO2FX_VOLUMEMETER_LEVELS"]
 old-location: xaudio2\xaudio2fx_volumemeter_levels.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_VOLUMEMETER_LEVELS

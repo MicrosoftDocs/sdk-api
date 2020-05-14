@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.FindByUDN
 title: IUPnPDeviceFinder::FindByUDN (upnp.h)
-description: The FindByUDN method searches synchronously for a device by its unique device name (UDN).
+description: The FindByUDN method searches synchronously for a device by its unique device name (UDN).helpviewer_keywords: ["FindByUDN","FindByUDN method [UPnP APIs]","FindByUDN method [UPnP APIs]","IUPnPDeviceFinder interface","IUPnPDeviceFinder interface [UPnP APIs]","FindByUDN method","IUPnPDeviceFinder.FindByUDN","IUPnPDeviceFinder::FindByUDN","_upnp_iupnpdevicefinder_findbyudn","upnp.iupnpdevicefinder_findbyudn","upnp/IUPnPDeviceFinder::FindByUDN"]
 old-location: upnp\iupnpdevicefinder_findbyudn.htm
 tech.root: upnp
 ms.assetid: 88d4e004-7df8-45f4-b6ec-9dcf3f0ccfeb

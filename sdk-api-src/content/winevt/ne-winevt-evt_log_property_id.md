@@ -1,7 +1,7 @@
 ---
 UID: NE:winevt._EVT_LOG_PROPERTY_ID
 title: EVT_LOG_PROPERTY_ID (winevt.h)
-description: Defines the identifiers that identify the log file metadata properties of a channel or log file.
+description: Defines the identifiers that identify the log file metadata properties of a channel or log file.helpviewer_keywords: ["EVT_LOG_PROPERTY_ID","EVT_LOG_PROPERTY_ID enumeration [EventLog]","EvtLogAttributes","EvtLogCreationTime","EvtLogFileSize","EvtLogFull","EvtLogLastAccessTime","EvtLogLastWriteTime","EvtLogNumberOfLogRecords","EvtLogOldestRecordNumber","wes.evt_log_property_id","winevt/EVT_LOG_PROPERTY_ID","winevt/EvtLogAttributes","winevt/EvtLogCreationTime","winevt/EvtLogFileSize","winevt/EvtLogFull","winevt/EvtLogLastAccessTime","winevt/EvtLogLastWriteTime","winevt/EvtLogNumberOfLogRecords","winevt/EvtLogOldestRecordNumber"]
 old-location: wes\evt_log_property_id.htm
 tech.root: wes
 ms.assetid: c5b8b80b-6549-497a-adc3-2517bd5f27c7

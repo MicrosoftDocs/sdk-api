@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccount.ListenToAccountEvents
 title: IFaxAccount::ListenToAccountEvents (faxcomex.h)
-description: Sets the flags of a FAX_ACCOUNT_EVENTS_TYPE_ENUM variable that represents the events for which the account is listening.
+description: Sets the flags of a FAX_ACCOUNT_EVENTS_TYPE_ENUM variable that represents the events for which the account is listening.helpviewer_keywords: ["IFaxAccount interface [Fax Service]","ListenToAccountEvents method","IFaxAccount.ListenToAccountEvents","IFaxAccount::ListenToAccountEvents","ListenToAccountEvents","ListenToAccountEvents method [Fax Service]","ListenToAccountEvents method [Fax Service]","IFaxAccount interface","_mfax_faxaccount.listentoaccountevents","fax._mfax_faxaccount_cpp_mfax_faxaccount_listentoaccountevents_cpp","fax._mfax_faxaccount_listentoaccountevents","faxcomex/IFaxAccount::ListenToAccountEvents"]
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_listentoaccountevents_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\listentoaccountevents.htm

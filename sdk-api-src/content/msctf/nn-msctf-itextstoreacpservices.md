@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITextStoreACPServices
 title: ITextStoreACPServices (msctf.h)
-description: The ITextStoreACPServices interface is implemented by the TSF manager to provide various services to an ACP-based application.
+description: The ITextStoreACPServices interface is implemented by the TSF manager to provide various services to an ACP-based application.helpviewer_keywords: ["ITextStoreACPServices","ITextStoreACPServices interface [Text Services Framework]","ITextStoreACPServices interface [Text Services Framework]","described","_tsf_itextstoreacpservices_ref","msctf/ITextStoreACPServices","tsf.itextstoreacpservices"]
 old-location: tsf\itextstoreacpservices.htm
 tech.root: TSF
 ms.assetid: 8c84429c-3f99-4ab1-b994-e4e93cd9c86d

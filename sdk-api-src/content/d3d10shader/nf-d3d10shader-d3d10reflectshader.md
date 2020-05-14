@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10shader.D3D10ReflectShader
 title: D3D10ReflectShader function (d3d10shader.h)
-description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use D3DReflect.
+description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use D3DReflect.helpviewer_keywords: ["D3D10ReflectShader","D3D10ReflectShader function [Direct3D 10]","abc201df-57cf-fbbd-708b-94ffa50ba7d4","d3d10shader/D3D10ReflectShader","direct3d10.d3d10reflectshader"]
 old-location: direct3d10\d3d10reflectshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10reflectshader.htm

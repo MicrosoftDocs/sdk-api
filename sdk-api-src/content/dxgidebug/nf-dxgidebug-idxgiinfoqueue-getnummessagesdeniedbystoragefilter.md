@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
 title: IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter (dxgidebug.h)
-description: Gets the number of messages that were denied passage through a storage filter.
+description: Gets the number of messages that were denied passage through a storage filter.helpviewer_keywords: ["GetNumMessagesDeniedByStorageFilter","GetNumMessagesDeniedByStorageFilter method [DXGI]","GetNumMessagesDeniedByStorageFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumMessagesDeniedByStorageFilter method","IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter","IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter","direct3ddxgi.idxgiinfoqueue_getnummessagesdeniedbystoragefilter","dxgidebug/IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdeniedbystoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 98A71D07-8E9A-403D-B02B-70B7F4112246

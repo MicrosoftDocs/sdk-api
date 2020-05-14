@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.Shell_MergeMenus
 title: Shell_MergeMenus function (shlobj_core.h)
-description: Shell_MergeMenus may be altered or unavailable.
+description: Shell_MergeMenus may be altered or unavailable.helpviewer_keywords: ["MM_ADDSEPARATOR","MM_DONTREMOVESEPS","MM_SUBMENUSHAVEIDS","Shell_MergeMenus","Shell_MergeMenus function [Windows Shell]","_win32_Shell_MergeMenus","shell.Shell_MergeMenus","shlobj_core/Shell_MergeMenus"]
 old-location: shell\Shell_MergeMenus.htm
 tech.root: shell
 ms.assetid: f9e005fd-b1f2-4a5f-ad36-9c44998dc4eb

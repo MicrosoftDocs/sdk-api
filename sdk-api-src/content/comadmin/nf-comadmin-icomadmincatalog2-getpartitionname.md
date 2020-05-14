@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetPartitionName
 title: ICOMAdminCatalog2::GetPartitionName (comadmin.h)
-description: Retrieves the name of the specified COM+ application.
+description: Retrieves the name of the specified COM+ application.helpviewer_keywords: ["GetPartitionName","GetPartitionName method [COM+]","GetPartitionName method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","GetPartitionName method","ICOMAdminCatalog2.GetPartitionName","ICOMAdminCatalog2::GetPartitionName","_cos_icomadmincatalog2_GetPartitionName","comadmin/ICOMAdminCatalog2::GetPartitionName","cos.icomadmincatalog2_getpartitionname"]
 old-location: cos\icomadmincatalog2_getpartitionname.htm
 tech.root: cossdk
 ms.assetid: 08d3efb2-1e2e-42e3-aefe-644db3b480f4

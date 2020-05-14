@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcObjectInqType
 title: RpcObjectInqType function (rpcdce.h)
-description: The RpcObjectInqType function returns the type of an object.
+description: The RpcObjectInqType function returns the type of an object.helpviewer_keywords: ["RpcObjectInqType","RpcObjectInqType function [RPC]","_rpc_rpcobjectinqtype","rpc.rpcobjectinqtype","rpcdce/RpcObjectInqType"]
 old-location: rpc\rpcobjectinqtype.htm
 tech.root: Rpc
 ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23

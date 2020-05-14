@@ -1,7 +1,7 @@
 ---
 UID: NF:userenv.LoadUserProfileA
 title: LoadUserProfileA function (userenv.h)
-description: Loads the specified user's profile. The profile can be a local user profile or a roaming user profile.
+description: Loads the specified user's profile. The profile can be a local user profile or a roaming user profile.helpviewer_keywords: ["LoadUserProfile","LoadUserProfile function [Windows Shell]","LoadUserProfileA","LoadUserProfileW","_shell_LoadUserProfile","shell.LoadUserProfile","userenv/LoadUserProfile","userenv/LoadUserProfileA","userenv/LoadUserProfileW"]
 old-location: shell\LoadUserProfile.htm
 tech.root: shell
 ms.assetid: 9ec1f8f2-8f20-4d38-9d41-70315b890336

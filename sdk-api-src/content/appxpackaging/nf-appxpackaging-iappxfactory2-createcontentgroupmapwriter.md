@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapWriter
 title: IAppxFactory2::CreateContentGroupMapWriter (appxpackaging.h)
-description: Creates an IAppxContentGroupMapWriter.
+description: Creates an IAppxContentGroupMapWriter.helpviewer_keywords: ["CreateContentGroupMapWriter","CreateContentGroupMapWriter method [App packaging and management]","CreateContentGroupMapWriter method [App packaging and management]","IAppxFactory2 interface","IAppxFactory2 interface [App packaging and management]","CreateContentGroupMapWriter method","IAppxFactory2.CreateContentGroupMapWriter","IAppxFactory2::CreateContentGroupMapWriter","appxpackaging/IAppxFactory2::CreateContentGroupMapWriter","appxpkg.iappxfactory2_createcontentgroupmapwriter"]
 old-location: appxpkg\iappxfactory2_createcontentgroupmapwriter.htm
 tech.root: appxpkg
 ms.assetid: 4BFF656D-4B89-4D05-9A41-44400F75E8BC

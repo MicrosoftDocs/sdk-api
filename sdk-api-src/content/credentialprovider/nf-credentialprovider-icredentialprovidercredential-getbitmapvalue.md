@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetBitmapValue
 title: ICredentialProviderCredential::GetBitmapValue (credentialprovider.h)
-description: Enables retrieval of bitmap data from a credential with a bitmap field.
+description: Enables retrieval of bitmap data from a credential with a bitmap field.helpviewer_keywords: ["GetBitmapValue","GetBitmapValue method [Windows Shell]","GetBitmapValue method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetBitmapValue method","ICredentialProviderCredential.GetBitmapValue","ICredentialProviderCredential::GetBitmapValue","credentialprovider/ICredentialProviderCredential::GetBitmapValue","shell.ICredentialProviderCredential_GetBitmapValue","shell_ICredentialProviderCredential_GetBitmapValue"]
 old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm
 tech.root: shell
 ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce

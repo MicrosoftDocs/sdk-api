@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj_core.IURLSearchHook
 title: IURLSearchHook (shlobj_core.h)
-description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol.
+description: Exposes a method that is used by the browser to translate the address of an unknown URL protocol.helpviewer_keywords: ["IURLSearchHook","IURLSearchHook interface [Windows Shell]","IURLSearchHook interface [Windows Shell]","described","_win32_IURLSearchHook","shell.IURLSearchHook","shlobj_core/IURLSearchHook"]
 old-location: shell\IURLSearchHook.htm
 tech.root: shell
 ms.assetid: 6073ad95-03b5-4c06-9742-836719211e24

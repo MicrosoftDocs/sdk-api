@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_AUTH_AND_CIPHER_TRANSFORM0_
 title: IPSEC_AUTH_AND_CIPHER_TRANSFORM0 (ipsectypes.h)
 description: Is used to store hash and encryption specific information together for an SA transform in an IPsec quick mode policy.
+helpviewer_keywords: ["IPSEC_AUTH_AND_CIPHER_TRANSFORM0","IPSEC_AUTH_AND_CIPHER_TRANSFORM0 structure [Filtering]","fwp.ipsec_auth_and_cipher_transform0_struct","ipsectypes/IPSEC_AUTH_AND_CIPHER_TRANSFORM0"]
 old-location: fwp\ipsec_auth_and_cipher_transform0_struct.htm
 tech.root: fwp
 ms.assetid: 9f8086c3-1862-432a-af0e-6a434833c651
@@ -60,12 +61,12 @@ transform in an IPsec quick mode policy.
 
 ### -field authTransform
 
-Hash specific information as specified by [IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)a>.
+Hash specific information as specified by [IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0).
 
 
 ### -field cipherTransform
 
-Encryption specific information as specified by [IPSEC_CIPHER_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0)a>.
+Encryption specific information as specified by [IPSEC_CIPHER_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0).
 
 
 ## -remarks
@@ -82,11 +83,11 @@ Encryption specific information as specified by [IPSEC_CIPHER_TRANSFORM0](https:
 
 
 
-[IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)a>
+[IPSEC_AUTH_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform0)
 
 
 
-[IPSEC_CIPHER_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0)a>
+[IPSEC_CIPHER_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform0)
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleX(float)
 title: IDCompositionScaleTransform3D::SetScaleX(float) (dcomp.h)
 description: Changes the value of the ScaleX property of a 3D scale transform.
+helpviewer_keywords: ["IDCompositionScaleTransform3D interface [DirectComposition]","SetScaleX method","IDCompositionScaleTransform3D.SetScaleX","IDCompositionScaleTransform3D.SetScaleX(float)","IDCompositionScaleTransform3D::SetScaleX","IDCompositionScaleTransform3D::SetScaleX(float)","SetScaleX","SetScaleX method [DirectComposition]","SetScaleX method [DirectComposition]","IDCompositionScaleTransform3D interface","dcomp/IDCompositionScaleTransform3D::SetScaleX","directcomp.idcompositionscaletransform3d_setscalex_float"]
 old-location: directcomp\idcompositionscaletransform3d_setscalex_float.htm
 tech.root: directcomp
 ms.assetid: 6461C857-AC6E-4F27-9DE2-F1B3E00846D8
@@ -98,11 +99,11 @@ If the ScaleX property was previously animated, this method removes the animatio
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float)">IDCompositionScaleTransform3D::SetScaleZ</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscalez(float)">IDCompositionScaleTransform3D::SetScaleZ</a>
  
 
  

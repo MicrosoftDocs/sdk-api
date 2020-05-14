@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_CLASSIFY_OPTIONS0_
 title: FWPM_CLASSIFY_OPTIONS0 (fwpmtypes.h)
 description: The FWPM_CLASSIFY_OPTIONS0 structure is used to store FWPM_CLASSIFY_OPTION0 structures.
+helpviewer_keywords: ["FWPM_CLASSIFY_OPTIONS0","FWPM_CLASSIFY_OPTIONS0 structure [Filtering]","FWPM_CLASSIFY_OPTIONS0_","fwp.fwpm_classify_options0","fwpmtypes/FWPM_CLASSIFY_OPTIONS0"]
 old-location: fwp\fwpm_classify_options0.htm
 tech.root: fwp
 ms.assetid: 5d1f7807-4188-4a57-83fc-99683254e3a5
@@ -66,7 +67,7 @@ Number of <b>FWPM_CLASSIFY_OPTION0</b> structures in the <b>options</b> member.
 
 [size_is(numCredentials)]
 
-Pointer to an array of [FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0)a> structures.
+Pointer to an array of [FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0) structures.
 
 
 ## -remarks
@@ -83,7 +84,7 @@ Pointer to an array of [FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/window
 
 
 
-[FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0)a>
+[FWPM_CLASSIFY_OPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0)
 
 
 

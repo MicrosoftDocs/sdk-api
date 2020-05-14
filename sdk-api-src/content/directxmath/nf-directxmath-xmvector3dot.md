@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3Dot
 title: XMVector3Dot function (directxmath.h)
-description: Computes the dot product between 3D vectors.
+description: Computes the dot product between 3D vectors.helpviewer_keywords: ["Use DirectX..XMVector3Dot","XMVector3Dot","XMVector3Dot method [DirectX Math Support APIs]","dxmath.xmvector3dot"]
 old-location: dxmath\xmvector3dot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Dot(XMVECTOR,XMVECTOR)

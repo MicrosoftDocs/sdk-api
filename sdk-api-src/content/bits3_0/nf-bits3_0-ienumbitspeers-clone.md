@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Clone
 title: IEnumBitsPeers::Clone (bits3_0.h)
-description: Creates another IEnumBitsPeers enumerator that contains the same enumeration state as the current one.
+description: Creates another IEnumBitsPeers enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [BITS]","Clone method [BITS]","IEnumBitsPeers interface","IEnumBitsPeers interface [BITS]","Clone method","IEnumBitsPeers.Clone","IEnumBitsPeers::Clone","bits.ienumbitspeers_clone","bits3_0/IEnumBitsPeers::Clone"]
 old-location: bits\ienumbitspeers_clone.htm
 tech.root: Bits
 ms.assetid: 72b3e0bc-9426-4953-a910-2dfaa955c4c0

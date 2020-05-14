@@ -2,6 +2,7 @@
 UID: NF:msacm.acmFilterTagEnum
 title: acmFilterTagEnum function (msacm.h)
 description: The acmFilterTagEnum function enumerates waveform-audio filter tags available from an ACM driver. This function continues enumerating until there are no more suitable filter tags or the callback function returns FALSE.
+helpviewer_keywords: ["_win32_acmFilterTagEnum","acmFilterTagEnum","acmFilterTagEnum function [Windows Multimedia]","acmFilterTagEnumA","acmFilterTagEnumW","msacm/acmFilterTagEnum","msacm/acmFilterTagEnumA","msacm/acmFilterTagEnumW","multimedia.acmfiltertagenum"]
 old-location: multimedia\acmfiltertagenum.htm
 tech.root: Multimedia
 ms.assetid: eaec57c2-51b8-4842-ba78-f5726c2dc31d
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio filter tag details. If this
 
 ### -param paftd
 
-Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure that contains the filter tag details when it is passed to the <b>fnCallback</b> function. When your application calls <b>acmFilterTagEnum</b>, the <b>cbStruct</b> member of this structure must be initialized.
+Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure that contains the filter tag details when it is passed to the <b>fnCallback</b> function. When your application calls <b>acmFilterTagEnum</b>, the <b>cbStruct</b> member of this structure must be initialized.
 
 
 ### -param fnCallback

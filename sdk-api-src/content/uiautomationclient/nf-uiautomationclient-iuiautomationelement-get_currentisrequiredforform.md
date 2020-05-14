@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsRequiredForForm
 title: IUIAutomationElement::get_CurrentIsRequiredForForm (uiautomationclient.h)
-description: Indicates whether the element is required to be filled out on a form.
+description: Indicates whether the element is required to be filled out on a form.helpviewer_keywords: ["CurrentIsRequiredForForm property [Windows Accessibility]","CurrentIsRequiredForForm property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentIsRequiredForForm property","IUIAutomationElement.CurrentIsRequiredForForm","IUIAutomationElement.get_CurrentIsRequiredForForm","IUIAutomationElement::CurrentIsRequiredForForm","IUIAutomationElement::get_CurrentIsRequiredForForm","get_CurrentIsRequiredForForm","uiauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm","uiauto_IUIAutomationElement_CurrentIsRequiredForForm","uiautomationclient/IUIAutomationElement::CurrentIsRequiredForForm","uiautomationclient/IUIAutomationElement::get_CurrentIsRequiredForForm","winauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsRequiredForForm.htm
 tech.root: WinAuto
 ms.assetid: 30482395-1d26-4f86-868c-4c46d5375c00

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateTopoLoader
 title: MFCreateTopoLoader function (mfidl.h)
-description: Creates a new instance of the topology loader.
+description: Creates a new instance of the topology loader.helpviewer_keywords: ["0c0173ef-9c29-465c-b725-ce38b220f94f","MFCreateTopoLoader","MFCreateTopoLoader function [Media Foundation]","mf.mfcreatetopoloader","mfidl/MFCreateTopoLoader"]
 old-location: mf\mfcreatetopoloader.htm
 tech.root: medfound
 ms.assetid: 0c0173ef-9c29-465c-b725-ce38b220f94f

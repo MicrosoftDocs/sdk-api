@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.Enumerate
 title: GraphicsPathIterator::Enumerate (gdipluspath.h)
-description: The GraphicsPathIterator::Enumerate method copies the path's data points to a PointF array and copies the path's point types to a BYTE array.
+description: The GraphicsPathIterator::Enumerate method copies the path's data points to a PointF array and copies the path's point types to a BYTE array.helpviewer_keywords: ["Enumerate","Enumerate method [GDI+]","Enumerate method [GDI+]","GraphicsPathIterator class","GraphicsPathIterator class [GDI+]","Enumerate method","GraphicsPathIterator.Enumerate","GraphicsPathIterator::Enumerate","_gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\enumerate.htm

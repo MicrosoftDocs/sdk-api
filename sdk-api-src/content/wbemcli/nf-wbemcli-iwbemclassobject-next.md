@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IWbemClassObject.Next
 title: IWbemClassObject::Next (wbemcli.h)
 description: The IWbemClassObject::Next method retrieves the next property in an enumeration that started with IWbemClassObject::BeginEnumeration.
+helpviewer_keywords: ["IWbemClassObject interface [Windows Management Instrumentation]","Next method","IWbemClassObject.Next","IWbemClassObject::Next","Next","Next method [Windows Management Instrumentation]","Next method [Windows Management Instrumentation]","IWbemClassObject interface","WBEM_FLAVOR_ORIGIN_LOCAL","WBEM_FLAVOR_ORIGIN_PROPAGATED","WBEM_FLAVOR_ORIGIN_SYSTEM","_hmm_iwbemclassobject_next","wbemcli/IWbemClassObject::Next","wmi.iwbemclassobject_next"]
 old-location: wmi\iwbemclassobject_next.htm
 tech.root: WmiSdk
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
@@ -114,7 +115,7 @@ This parameter can be <b>NULL</b>. If it is not <b>NULL</b>, it must
 
 Can be <b>NULL</b>. If not <b>NULL</b>, the 
        <b>LONG</b> value pointed to receives information on the origin of the property as 
-       follows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
+       follows. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_flavor_type">WBEM_FLAVOR_TYPE</a>.
 
 
 

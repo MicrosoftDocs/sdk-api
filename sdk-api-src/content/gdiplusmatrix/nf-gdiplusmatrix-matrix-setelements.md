@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.SetElements
 title: Matrix::SetElements (gdiplusmatrix.h)
-description: The Matrix::SetElements method sets the elements of this matrix.
+description: The Matrix::SetElements method sets the elements of this matrix.helpviewer_keywords: ["Matrix class [GDI+]","SetElements method","Matrix.SetElements","Matrix::SetElements","SetElements","SetElements method [GDI+]","SetElements method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_","gdiplus._gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\setelements.htm

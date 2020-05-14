@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut15.IInkDivider
 title: IInkDivider (msinkaut15.h)
-description: .
+description: .helpviewer_keywords: ["IInkDivider","IInkDivider interface [Tablet PC]","IInkDivider interface [Tablet PC]","described","msinkaut15/IInkDivider","tablet.iinkdivider"]
 old-location: tablet\iinkdivider.htm
 tech.root: tablet
 ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
@@ -48,9 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Represents the ability to analyze the layout of a collection of ink strokes and divide them into text and graphics.
 
 ## -inheritance
 

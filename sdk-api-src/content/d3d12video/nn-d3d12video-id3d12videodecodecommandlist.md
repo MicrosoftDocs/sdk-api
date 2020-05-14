@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecodeCommandList
 title: ID3D12VideoDecodeCommandList
-description: Encapsulates a list of graphics commands for video decoding.
+description: Encapsulates a list of graphics commands for video decoding.helpviewer_keywords: ["- ID3D12VideoDecodeCommandList"]
 tech.root: mf
 ms.assetid: 0d965203-efc2-4f56-888e-822c8c6f02c2
 ms.date: 05/28/2019

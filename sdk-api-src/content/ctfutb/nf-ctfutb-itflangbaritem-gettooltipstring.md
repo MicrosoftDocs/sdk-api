@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetTooltipString
 title: ITfLangBarItem::GetTooltipString (ctfutb.h)
-description: ITfLangBarItem::GetTooltipString method
+description: ITfLangBarItem::GetTooltipString methodhelpviewer_keywords: ["GetTooltipString","GetTooltipString method [Text Services Framework]","GetTooltipString method [Text Services Framework]","ITfLangBarItem interface","ITfLangBarItem interface [Text Services Framework]","GetTooltipString method","ITfLangBarItem.GetTooltipString","ITfLangBarItem::GetTooltipString","_tsf_itflangbaritem_gettooltipstring_ref","ctfutb/ITfLangBarItem::GetTooltipString","tsf.itflangbaritem_gettooltipstring"]
 old-location: tsf\itflangbaritem_gettooltipstring.htm
 tech.root: TSF
 ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text to be displayed in the tooltip for the language bar item.
 
 ## -parameters
 

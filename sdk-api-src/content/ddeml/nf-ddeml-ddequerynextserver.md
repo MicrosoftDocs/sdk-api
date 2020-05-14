@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeQueryNextServer
 title: DdeQueryNextServer function (ddeml.h)
-description: Retrieves the next conversation handle in the specified conversation list.
+description: Retrieves the next conversation handle in the specified conversation list.helpviewer_keywords: ["DdeQueryNextServer","DdeQueryNextServer function [Data Exchange]","_win32_DdeQueryNextServer","_win32_ddequerynextserver_cpp","dataxchg.ddequerynextserver","ddeml/DdeQueryNextServer","winui._win32_ddequerynextserver"]
 old-location: dataxchg\ddequerynextserver.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequerynextserver.htm

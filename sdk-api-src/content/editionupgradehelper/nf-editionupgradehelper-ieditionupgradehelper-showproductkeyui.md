@@ -1,7 +1,7 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.ShowProductKeyUI
 title: IEditionUpgradeHelper::ShowProductKeyUI (editionupgradehelper.h)
-description: Displays the user interface through which the user can provide a product key to upgrade or get a genuine copy of the operating system.
+description: Displays the user interface through which the user can provide a product key to upgrade or get a genuine copy of the operating system.helpviewer_keywords: ["IEditionUpgradeHelper interface [Windows API]","ShowProductKeyUI method","IEditionUpgradeHelper.ShowProductKeyUI","IEditionUpgradeHelper::ShowProductKeyUI","ShowProductKeyUI","ShowProductKeyUI method [Windows API]","ShowProductKeyUI method [Windows API]","IEditionUpgradeHelper interface","editionupgradehelper/IEditionUpgradeHelper::ShowProductKeyUI","winprog.ieditionupgradehelper_showproductkeyui"]
 old-location: winprog\ieditionupgradehelper_showproductkeyui.htm
 tech.root: DevNotes
 ms.assetid: 504B3699-8837-4C14-959A-B3B4385E8932

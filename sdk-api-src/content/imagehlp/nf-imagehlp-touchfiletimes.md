@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.TouchFileTimes
 title: TouchFileTimes function (imagehlp.h)
-description: Updates the date and time at which the specified file was last modified.
+description: Updates the date and time at which the specified file was last modified.helpviewer_keywords: ["TouchFileTimes","TouchFileTimes function","_win32_touchfiletimes","base.touchfiletimes","imagehlp/TouchFileTimes"]
 old-location: base\touchfiletimes.htm
 tech.root: Debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a

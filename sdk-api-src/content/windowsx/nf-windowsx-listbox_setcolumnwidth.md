@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ListBox_SetColumnWidth
 title: ListBox_SetColumnWidth macro (windowsx.h)
-description: Sets the width of all columns in a multiple-column list box. You can use this macro or send the LB_SETCOLUMNWIDTH message explicitly.
+description: Sets the width of all columns in a multiple-column list box. You can use this macro or send the LB_SETCOLUMNWIDTH message explicitly.helpviewer_keywords: ["ListBox_SetColumnWidth","ListBox_SetColumnWidth macro [Windows Controls]","_win32_ListBox_SetColumnWidth","_win32_ListBox_SetColumnWidth_cpp","controls.ListBox_SetColumnWidth","controls._win32_ListBox_SetColumnWidth","windowsx/ListBox_SetColumnWidth"]
 old-location: controls\ListBox_SetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcolumnwidth.htm

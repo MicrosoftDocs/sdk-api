@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerExit.GetRequestProperty
 title: ICertServerExit::GetRequestProperty (certif.h)
-description: Returns a named property from a request.
+description: Returns a named property from a request.helpviewer_keywords: ["CCertServerExit object [Security]","GetRequestProperty method","CR_IN_KEYGEN","CR_IN_PKCS10","CR_IN_PKCS7","Disposition","DispositionMessage","GetRequestProperty","GetRequestProperty method [Security]","GetRequestProperty method [Security]","CCertServerExit object","GetRequestProperty method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","GetRequestProperty method","ICertServerExit.GetRequestProperty","ICertServerExit::GetRequestProperty","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","RawCACertificate","RawRequest","RequestAttributes","RequestID","RequestType","RequesterName","ResolvedWhen","StatusCode","SubmittedWhen","_certsrv_icertserverexit_getrequestproperty","certif/ICertServerExit::GetRequestProperty","security.icertserverexit_getrequestproperty"]
 old-location: security\icertserverexit_getrequestproperty.htm
 tech.root: SecCrypto
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436

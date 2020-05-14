@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IDataObject.EnumFormatEtc
 title: IDataObject::EnumFormatEtc (objidl.h)
-description: Creates an object to enumerate the formats supported by a data object.
+description: Creates an object to enumerate the formats supported by a data object.helpviewer_keywords: ["EnumFormatEtc","EnumFormatEtc method [COM]","EnumFormatEtc method [COM]","IDataObject interface","IDataObject interface [COM]","EnumFormatEtc method","IDataObject.EnumFormatEtc","IDataObject::EnumFormatEtc","_ole_idataobject_enumformatetc","com.idataobject_enumformatetc","objidl/IDataObject::EnumFormatEtc"]
 old-location: com\idataobject_enumformatetc.htm
 tech.root: com
 ms.assetid: 657a7394-4481-4e0c-912d-40a9348caf16

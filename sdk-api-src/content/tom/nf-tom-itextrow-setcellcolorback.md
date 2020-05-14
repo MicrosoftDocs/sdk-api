@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorBack
 title: ITextRow::SetCellColorBack (tom.h)
-description: Sets the background color of the active cell.
+description: Sets the background color of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellColorBack method","ITextRow.SetCellColorBack","ITextRow::SetCellColorBack","SetCellColorBack","SetCellColorBack method [Windows Controls]","SetCellColorBack method [Windows Controls]","ITextRow interface","controls.itextrow_setcellcolorback","tom/ITextRow::SetCellColorBack"]
 old-location: controls\itextrow_setcellcolorback.htm
 tech.root: Controls
 ms.assetid: 3e0a7bb6-e146-4e51-abc0-e89f9faed235

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewbox
 title: IXpsOMTileBrush::GetViewbox (xpsobjectmodel.h)
 description: Gets the portion of the source image to be used by the tile.
+helpviewer_keywords: ["GetViewbox","GetViewbox method [XPS Documents and Packaging]","GetViewbox method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetViewbox method","IXpsOMTileBrush.GetViewbox","IXpsOMTileBrush::GetViewbox","xps.ixpsomtilebrush_getviewbox","xpsobjectmodel/IXpsOMTileBrush::GetViewbox"]
 old-location: xps\ixpsomtilebrush_getviewbox.htm
 tech.root: printdocs
 ms.assetid: dc884aa6-3652-4b94-80f6-83c345973d46
@@ -59,7 +60,7 @@ Gets the portion  of the source image to be used by the tile.
 
 ### -param viewbox [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the area of the source content to be used by the tile.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the area of the source content to be used by the tile.
 
 
 ## -returns
@@ -138,7 +139,7 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

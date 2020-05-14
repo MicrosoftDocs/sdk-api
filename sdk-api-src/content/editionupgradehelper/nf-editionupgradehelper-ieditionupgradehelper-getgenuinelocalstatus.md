@@ -1,7 +1,7 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetGenuineLocalStatus
 title: IEditionUpgradeHelper::GetGenuineLocalStatus (editionupgradehelper.h)
-description: Retrieves whether the currently installed operating system is activated.
+description: Retrieves whether the currently installed operating system is activated.helpviewer_keywords: ["GetGenuineLocalStatus","GetGenuineLocalStatus method [Windows API]","GetGenuineLocalStatus method [Windows API]","IEditionUpgradeHelper interface","IEditionUpgradeHelper interface [Windows API]","GetGenuineLocalStatus method","IEditionUpgradeHelper.GetGenuineLocalStatus","IEditionUpgradeHelper::GetGenuineLocalStatus","editionupgradehelper/IEditionUpgradeHelper::GetGenuineLocalStatus","winprog.ieditionupgradehelper_getgenuinelocalstatus"]
 old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm
 tech.root: DevNotes
 ms.assetid: 061AECF0-AC7A-480F-B532-F5D8AC078168

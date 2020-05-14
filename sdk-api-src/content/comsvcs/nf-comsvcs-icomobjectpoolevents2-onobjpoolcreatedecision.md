@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateDecision
 title: IComObjectPoolEvents2::OnObjPoolCreateDecision (comsvcs.h)
 description: Generated when a pool provides a requesting client with an existing object or creates a new one.
+helpviewer_keywords: ["IComObjectPoolEvents2 interface [COM+]","OnObjPoolCreateDecision method","IComObjectPoolEvents2.OnObjPoolCreateDecision","IComObjectPoolEvents2::OnObjPoolCreateDecision","OnObjPoolCreateDecision","OnObjPoolCreateDecision method [COM+]","OnObjPoolCreateDecision method [COM+]","IComObjectPoolEvents2 interface","_dtc_IComObjectPoolEvents2_OnObjPoolCreateDecision","comsvcs/IComObjectPoolEvents2::OnObjPoolCreateDecision","cos.icomobjectpoolevents2_onobjpoolcreatedecision"]
 old-location: cos\icomobjectpoolevents2_onobjpoolcreatedecision.htm
 tech.root: cossdk
 ms.assetid: a66c00ac-b9b9-431e-b1c8-6642cb35ec3c
@@ -59,7 +60,7 @@ Generated when a pool provides a requesting client with an existing object or cr
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param dwThreadsWaiting [in]

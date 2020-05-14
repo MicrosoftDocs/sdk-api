@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Deregister
 title: IWdsTransportNamespace::Deregister (wdstptmgmt.h)
-description: Deregisters the namespace on the server.
+description: Deregisters the namespace on the server.helpviewer_keywords: ["Deregister","Deregister method [Windows Deployment Services]","Deregister method [Windows Deployment Services]","IWdsTransportNamespace interface","IWdsTransportNamespace interface [Windows Deployment Services]","Deregister method","IWdsTransportNamespace.Deregister","IWdsTransportNamespace::Deregister","wds.iwdstransportnamespace_deregister","wdstptmgmt/IWdsTransportNamespace::Deregister"]
 old-location: wds\iwdstransportnamespace_deregister.htm
 tech.root: wds
 ms.assetid: 32881121-b5aa-4ccf-9884-431dbd283e4c

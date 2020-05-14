@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSListener.GetConfiguration
 title: IWTSListener::GetConfiguration (tsvirtualchannels.h)
-description: Retrieves the listener-specific configuration.
+description: Retrieves the listener-specific configuration.helpviewer_keywords: ["GetConfiguration","GetConfiguration method [Remote Desktop Services]","GetConfiguration method [Remote Desktop Services]","IWTSListener interface","IWTSListener interface [Remote Desktop Services]","GetConfiguration method","IWTSListener.GetConfiguration","IWTSListener::GetConfiguration","termserv.iwtslistener_getconfiguration","tsvirtualchannels/IWTSListener::GetConfiguration"]
 old-location: termserv\iwtslistener_getconfiguration.htm
 tech.root: TermServ
 ms.assetid: 2d45ab39-0a65-4424-b6ea-2a54bb063c0f

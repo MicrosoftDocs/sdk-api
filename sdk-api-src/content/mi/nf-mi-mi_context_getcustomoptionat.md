@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Context_GetCustomOptionAt
 title: MI_Context_GetCustomOptionAt function (mi.h)
-description: Retrieves an option at a particular index that was set by the client.
+description: Retrieves an option at a particular index that was set by the client.helpviewer_keywords: ["MI_Context_GetCustomOptionAt","MI_Context_GetCustomOptionAt function [Windows Management Infrastructure (MI)]","mi/MI_Context_GetCustomOptionAt","wmi.mi_getcustomoptionat","wmi_v2.mi_context_getcustomoptionat"]
 old-location: wmi_v2\mi_context_getcustomoptionat.htm
 tech.root: wmi_v2
 ms.assetid: f4f6c935-5207-46f6-b015-c4db724113f3

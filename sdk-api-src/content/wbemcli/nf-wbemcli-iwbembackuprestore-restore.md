@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IWbemBackupRestore.Restore
 title: IWbemBackupRestore::Restore (wbemcli.h)
 description: The IWbemBackupRestore::Restore method deletes the contents of the current repository and restores them with the contents of a previously specified backup.
+helpviewer_keywords: ["IWbemBackupRestore interface [Windows Management Instrumentation]","Restore method","IWbemBackupRestore.Restore","IWbemBackupRestore::Restore","Restore","Restore method [Windows Management Instrumentation]","Restore method [Windows Management Instrumentation]","IWbemBackupRestore interface","WBEM_FLAG_BACKUP_RESTORE_DEFAULT","WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN","_hmm_iwbembackuprestore_restore","wbemcli/IWbemBackupRestore::Restore","wmi.iwbembackuprestore_restore"]
 old-location: wmi\iwbembackuprestore_restore.htm
 tech.root: WmiSdk
 ms.assetid: 73a61c69-0a78-4c38-aaec-a72b644f19b4
@@ -67,7 +68,7 @@ Constant, null-terminated string of 16-bit Unicode characters that contains the 
 
 ### -param lFlags [in]
 
-One of the following flags from the <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_backup_restore_flags">WBEM_BACKUP_RESTORE_FLAGS</a> enumeration.
+One of the following flags from the <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_backup_restore_flags">WBEM_BACKUP_RESTORE_FLAGS</a> enumeration.
 
 
 

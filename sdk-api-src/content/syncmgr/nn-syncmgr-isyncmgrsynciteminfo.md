@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncItemInfo
 title: ISyncMgrSyncItemInfo (syncmgr.h)
-description: Exposes methods that provide property and state information for a single sync item.
+description: Exposes methods that provide property and state information for a single sync item.helpviewer_keywords: ["ISyncMgrSyncItemInfo","ISyncMgrSyncItemInfo interface [Windows Shell]","ISyncMgrSyncItemInfo interface [Windows Shell]","described","_shell_ISyncMgrSyncItemInfo","shell.ISyncMgrSyncItemInfo","syncmgr/ISyncMgrSyncItemInfo"]
 old-location: shell\ISyncMgrSyncItemInfo.htm
 tech.root: shell
 ms.assetid: b98d216e-f23f-45f3-b42d-e5aa2e540265

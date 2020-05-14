@@ -1,7 +1,7 @@
 ---
 UID: NF:npapi.NPGetConnectionPerformance
 title: NPGetConnectionPerformance function (npapi.h)
-description: Returns information about the expected performance of a connection used to access a network resource. The request can only be for a network resource that is currently connected.
+description: Returns information about the expected performance of a connection used to access a network resource. The request can only be for a network resource that is currently connected.helpviewer_keywords: ["NPGetConnectionPerformance","NPGetConnectionPerformance function [Security]","_mnp_npgetconnectionperformance","npapi/NPGetConnectionPerformance","security.npgetconnectionperformance"]
 old-location: security\npgetconnectionperformance.htm
 tech.root: SecAuthN
 ms.assetid: 8ab9fa3b-50f4-492d-a352-8e215b2d62c1

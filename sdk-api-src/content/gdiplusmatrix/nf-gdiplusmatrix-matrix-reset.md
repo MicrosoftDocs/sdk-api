@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Reset
 title: Matrix::Reset (gdiplusmatrix.h)
-description: The Matrix::Reset method updates this matrix with the elements of the identity matrix.
+description: The Matrix::Reset method updates this matrix with the elements of the identity matrix.helpviewer_keywords: ["Matrix class [GDI+]","Reset method","Matrix.Reset","Matrix::Reset","Reset","Reset method [GDI+]","Reset method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Reset_","gdiplus._gdiplus_CLASS_Matrix_Reset_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Reset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\reset_41.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetWindowStyles
 title: ITextHost2::TxGetWindowStyles (textserv.h)
-description: Retrieves the window styles and extended windows styles of the text host window.
+description: Retrieves the window styles and extended windows styles of the text host window.helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxGetWindowStyles method","ITextHost2.TxGetWindowStyles","ITextHost2::TxGetWindowStyles","TxGetWindowStyles","TxGetWindowStyles method [Windows Controls]","TxGetWindowStyles method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txgetwindowstyles","textserv/ITextHost2::TxGetWindowStyles"]
 old-location: controls\itexthost2_txgetwindowstyles.htm
 tech.root: Controls
 ms.assetid: 51885B3E-3DEE-461C-8625-3DE9D8C1F992

@@ -2,6 +2,7 @@
 UID: NS:winioctl._TXFS_LIST_TRANSACTION_LOCKED_FILES
 title: TXFS_LIST_TRANSACTION_LOCKED_FILES
 description: Contains a list of files locked by a transacted writer.
+helpviewer_keywords: ["*PTXFS_LIST_TRANSACTION_LOCKED_FILES","PTXFS_LIST_TRANSACTION_LOCKED_FILES","PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files]","TXFS_LIST_TRANSACTION_LOCKED_FILES","TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files]","fs.txfs_list_transaction_locked_files","winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES","winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"]
 old-location: fs\txfs_list_transaction_locked_files.htm
 tech.root: FileIO
 ms.assetid: 55ef34c5-8d99-457d-b670-8c9efaa2eae2
@@ -79,7 +80,7 @@ The length of the buffer required to hold the complete list of files at the time
 
 ### -field Offset
 
-The offset from the beginning of this structure to the beginning of the first <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
+The offset from the beginning of this structure to the beginning of the first <a href="/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
 
 
 ## -see-also
@@ -91,7 +92,7 @@ The offset from the beginning of this structure to the beginning of the first <a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
  
 
  

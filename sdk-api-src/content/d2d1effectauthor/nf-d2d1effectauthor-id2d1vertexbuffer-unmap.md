@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1VertexBuffer.Unmap
 title: ID2D1VertexBuffer::Unmap (d2d1effectauthor.h)
-description: Unmaps the vertex buffer.
+description: Unmaps the vertex buffer.helpviewer_keywords: ["ID2D1VertexBuffer interface [Direct2D]","Unmap method","ID2D1VertexBuffer.Unmap","ID2D1VertexBuffer::Unmap","Unmap","Unmap method [Direct2D]","Unmap method [Direct2D]","ID2D1VertexBuffer interface","d2d1effectauthor/ID2D1VertexBuffer::Unmap","direct2d.id2d1vertexbuffer_unmap"]
 old-location: direct2d\id2d1vertexbuffer_unmap.htm
 tech.root: Direct2D
 ms.assetid: DD33E4D4-C020-4830-AD31-380E8E9217D0

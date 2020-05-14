@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Serialize
 title: ITfContextOwnerServices::Serialize (msctf.h)
-description: The ITfContextOwnerServices::Serialize method obtains a property from a range of text and writes the property data into a stream object. This enables an application to store property data, for example, when writing the data to a file.
+description: The ITfContextOwnerServices::Serialize method obtains a property from a range of text and writes the property data into a stream object. This enables an application to store property data, for example, when writing the data to a file.helpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","Serialize method","ITfContextOwnerServices.Serialize","ITfContextOwnerServices::Serialize","Serialize","Serialize method [Text Services Framework]","Serialize method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_serialize_ref","msctf/ITfContextOwnerServices::Serialize","tsf.itfcontextownerservices_serialize"]
 old-location: tsf\itfcontextownerservices_serialize.htm
 tech.root: TSF
 ms.assetid: e67b6fa7-610d-426f-a290-36c0da4068f4

@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzObjectPicker
 title: IAzObjectPicker (azroles.h)
-description: Displays a dialog box that allows users to select one or more principals from a list.
+description: Displays a dialog box that allows users to select one or more principals from a list.helpviewer_keywords: ["IAzObjectPicker","IAzObjectPicker interface [Security]","IAzObjectPicker interface [Security]","described","azroles/IAzObjectPicker","security.iazobjectpicker"]
 old-location: security\iazobjectpicker.htm
 tech.root: SecAuthZ
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c

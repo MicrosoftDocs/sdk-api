@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.FindText
 title: ITextRange::FindText (tom.h)
-description: Searches up to Count characters for the text given by bstr. The starting position and direction are also specified by Count, and the matching criteria are given by Flags.
+description: Searches up to Count characters for the text given by bstr. The starting position and direction are also specified by Count, and the matching criteria are given by Flags.helpviewer_keywords: ["FindText","FindText method [Windows Controls]","FindText method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","FindText method","ITextRange.FindText","ITextRange::FindText","_win32_ITextRange_FindText","_win32_ITextRange_FindText_cpp","controls.ITextRange_FindText","controls._win32_ITextRange_FindText","tom/ITextRange::FindText"]
 old-location: controls\ITextRange_FindText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtext.htm

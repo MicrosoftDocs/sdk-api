@@ -1,7 +1,7 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSink
 title: IMFCaptureSink (mfcaptureengine.h)
-description: Controls a capture sink, which is an object that receives one or more streams from a capture device.
+description: Controls a capture sink, which is an object that receives one or more streams from a capture device.helpviewer_keywords: ["IMFCaptureSink","IMFCaptureSink interface [Media Foundation]","IMFCaptureSink interface [Media Foundation]","described","mf.imfcapturesink","mfcaptureengine/IMFCaptureSink"]
 old-location: mf\imfcapturesink.htm
 tech.root: medfound
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE

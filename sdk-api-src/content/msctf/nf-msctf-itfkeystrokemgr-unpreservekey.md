@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.UnpreserveKey
 title: ITfKeystrokeMgr::UnpreserveKey (msctf.h)
-description: ITfKeystrokeMgr::UnpreserveKey method
+description: ITfKeystrokeMgr::UnpreserveKey methodhelpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","UnpreserveKey method","ITfKeystrokeMgr.UnpreserveKey","ITfKeystrokeMgr::UnpreserveKey","UnpreserveKey","UnpreserveKey method [Text Services Framework]","UnpreserveKey method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_unpreservekey_ref","msctf/ITfKeystrokeMgr::UnpreserveKey","tsf.itfkeystrokemgr_unpreservekey"]
 old-location: tsf\itfkeystrokemgr_unpreservekey.htm
 tech.root: TSF
 ms.assetid: 05975fce-04c3-4316-a9b2-ed015e7aa8fe
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Unregisters a preserved key.
 
 ## -parameters
 

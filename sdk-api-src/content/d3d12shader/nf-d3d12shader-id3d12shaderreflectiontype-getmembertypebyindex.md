@@ -2,12 +2,12 @@
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeByIndex
 title: ID3D12ShaderReflectionType::GetMemberTypeByIndex (d3d12shader.h)
 description: Gets a shader-reflection-variable type by index.
+helpviewer_keywords: ["GetMemberTypeByIndex","GetMemberTypeByIndex method","GetMemberTypeByIndex method","ID3D12ShaderReflectionType interface","ID3D12ShaderReflectionType interface","GetMemberTypeByIndex method","ID3D12ShaderReflectionType.GetMemberTypeByIndex","ID3D12ShaderReflectionType::GetMemberTypeByIndex","d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByIndex","direct3d12.id3d12shaderreflectiontype_getmembertypebyindex"]
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyindex.htm
 tech.root: direct3d12
 ms.assetid: 59940F25-D394-4DA6-8493-B3B04C68B1CC
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeByIndex, GetMemberTypeByIndex method, GetMemberTypeByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByIndex method, ID3D12ShaderReflectionType.GetMemberTypeByIndex, ID3D12ShaderReflectionType::GetMemberTypeByIndex, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByIndex, direct3d12.id3d12shaderreflectiontype_getmembertypebyindex
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByIndex
 dev_langs:

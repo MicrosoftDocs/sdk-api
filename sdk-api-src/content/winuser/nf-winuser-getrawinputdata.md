@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetRawInputData
 title: GetRawInputData function (winuser.h)
-description: Retrieves the raw input from the specified device.
+description: Retrieves the raw input from the specified device.helpviewer_keywords: ["GetRawInputData","GetRawInputData function [Keyboard and Mouse Input]","RID_HEADER","RID_INPUT","_win32_GetRawInputData","_win32_getrawinputdata_cpp","inputdev.getrawinputdata","winui._win32_getrawinputdata","winuser/GetRawInputData"]
 old-location: inputdev\getrawinputdata.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdata.htm

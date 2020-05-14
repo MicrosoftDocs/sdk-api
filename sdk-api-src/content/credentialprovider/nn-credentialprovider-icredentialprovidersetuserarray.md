@@ -2,6 +2,7 @@
 UID: NN:credentialprovider.ICredentialProviderSetUserArray
 title: ICredentialProviderSetUserArray (credentialprovider.h)
 description: Provides a method that enables a credential provider to receive the set of users that will be shown in the logon or credential UI.
+helpviewer_keywords: ["ICredentialProviderSetUserArray","ICredentialProviderSetUserArray interface [Windows Shell]","ICredentialProviderSetUserArray interface [Windows Shell]","described","credentialprovider/ICredentialProviderSetUserArray","shell.ICredentialProviderSetUserArray"]
 old-location: shell\ICredentialProviderSetUserArray.htm
 tech.root: shell
 ms.assetid: 85422EF5-8A8E-4e14-BD32-953C31A9D401
@@ -97,7 +98,7 @@ This interface is used only by the Windows credential provider framework. Its me
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8.docx</a>
+<a href="http://download.microsoft.com/download/F/3/5/F3536898-FF3C-4548-8418-08D79555A0DB/Credential Provider Framework Changes in Windows 8.docx">Credential Provider Framework Changes in Windows 8.docx</a>
 
 
 

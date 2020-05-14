@@ -1,7 +1,7 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_NESTED_RELAY_MESSAGE
 title: PXE_DHCPV6_NESTED_RELAY_MESSAGE (wdspxe.h)
-description: Describes packets nested in OPTION_RELAY_MSG message.
+description: Describes packets nested in OPTION_RELAY_MSG message.helpviewer_keywords: ["*PPXE_DHCPV6_NESTED_RELAY_MESSAGE","PPXE_DHCPV6_NESTED_RELAY_MESSAGE","PPXE_DHCPV6_NESTED_RELAY_MESSAGE structure pointer [Windows Deployment Services]","PXE_DHCPV6_NESTED_RELAY_MESSAGE","PXE_DHCPV6_NESTED_RELAY_MESSAGE structure [Windows Deployment Services]","wds.pxe_dhcpv6_nested_relay_message","wdspxe/PPXE_DHCPV6_NESTED_RELAY_MESSAGE","wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE"]
 old-location: wds\pxe_dhcpv6_nested_relay_message.htm
 tech.root: wds
 ms.assetid: BD796237-8ADE-45EC-9436-7BE2BC2C2D4E

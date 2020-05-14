@@ -2,6 +2,7 @@
 UID: NF:ctffunc.ITfFnGetSAPIObject.Get
 title: ITfFnGetSAPIObject::Get (ctffunc.h)
 description: ITfFnGetSAPIObject::Get method
+helpviewer_keywords: ["Get","Get method [Text Services Framework]","Get method [Text Services Framework]","ITfFnGetSAPIObject interface","ITfFnGetSAPIObject interface [Text Services Framework]","Get method","ITfFnGetSAPIObject.Get","ITfFnGetSAPIObject::Get","_tsf_itffngetsapiobject_get_ref","ctffunc/ITfFnGetSAPIObject::Get","tsf.itffngetsapiobject_get"]
 old-location: tsf\itffngetsapiobject_get.htm
 tech.root: TSF
 ms.assetid: 4dfa2bd2-e25c-4481-ab07-2f764434504d
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a specified SAPI object.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param sObj [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject</a> value that specifies the SAPI object to obtain.
+Contains a <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject</a> value that specifies the SAPI object to obtain.
 
 
 ### -param ppunk [out]
@@ -125,7 +125,7 @@ The requested object is not implemented.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject
+<a href="/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject
       </a>
  
 

@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_DISK_PERFORMANCE
 title: IOCTL_DISK_PERFORMANCE
 description: Enables performance counters that provide disk performance information.
+helpviewer_keywords: ["IOCTL_DISK_PERFORMANCE","IOCTL_DISK_PERFORMANCE control","IOCTL_DISK_PERFORMANCE control code [Files]","_win32_ioctl_disk_performance","base.ioctl_disk_performance","fs.ioctl_disk_performance","winioctl/IOCTL_DISK_PERFORMANCE"]
 old-location: fs\ioctl_disk_performance.htm
 tech.root: FileIO
 ms.assetid: e182282c-17e9-442a-8742-437052cfed03
@@ -44,93 +45,47 @@ req.redist:
 
 # IOCTL_DISK_PERFORMANCE IOCTL
 
-
 ## -description
-
 
 Enables performance counters that provide disk performance information.
 
-To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to device
-  IOCTL_DISK_PERFORMANCE,      // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSize(LPVOID) lpOutBuffer,        // output buffer
-  (DWORD) nOutBufferSize,      // size of output buffer
-  (LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,             // handle to device
+  IOCTL_DISK_PERFORMANCE,       // dwIoControlCode
+  NULL,                         // lpInBuffer
+  0,                            // nInBufferSize
+  (LPVOID) lpOutBuffer,         // output buffer
+  (DWORD) nOutBufferSize,       // size of output buffer
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
+);
+```
+
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -139,36 +94,14 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
-
-
 ## -remarks
 
-
-
-To disable the  performance counters enabled by this control code, use the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a> control code.
-
-
+To disable the  performance counters enabled by this control code, use the [IOCTL_DISK_PERFORMANCE_OFF](ni-winioctl-ioctl_disk_performance_off.md) control code.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_performance">DISK_PERFORMANCE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a>
- 
-
- 
-
+* [DISK_PERFORMANCE](ns-winioctl-disk_performance.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [IOCTL_DISK_PERFORMANCE_OFF](ni-winioctl-ioctl_disk_performance_off.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Deactivate
 title: IDirectManipulationManager::Deactivate (directmanipulation.h)
-description: Deactivates Direct Manipulation for processing input and handling callbacks on the specified window.
+description: Deactivates Direct Manipulation for processing input and handling callbacks on the specified window.helpviewer_keywords: ["Deactivate","Deactivate method [Direct Manipulation]","Deactivate method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","Deactivate method","IDirectManipulationManager.Deactivate","IDirectManipulationManager::Deactivate","directmanipulation.idirectmanipulationmanager_deactivate","directmanipulation/IDirectManipulationManager::Deactivate"]
 old-location: directmanipulation\idirectmanipulationmanager_deactivate.htm
 tech.root: directmanipulation
 ms.assetid: 7f80fe8a-e088-41fa-b72e-2b248307ac4a

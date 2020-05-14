@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeErrorMemory
 title: EapMethodAuthenticatorFreeErrorMemory function (eapmethodauthenticatorapis.h)
 description: Releases error-specific memory allocated by the EAP authenticator method.
+helpviewer_keywords: ["EapMethodAuthenticatorFreeErrorMemory","EapMethodAuthenticatorFreeErrorMemory function [EAPHost]","eaphost.eapmethodauthenticatorfreeerrormemory","eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory"]
 old-location: eaphost\eapmethodauthenticatorfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: 8fcf82d6-9809-4a28-a694-1f7494216f82
@@ -69,7 +70,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
  
 
  

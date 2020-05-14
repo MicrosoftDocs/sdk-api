@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmAddNextHop
 title: RtmAddNextHop function (rtmv2.h)
-description: The RtmAddNextHop function adds a new next-hop entry or updates an existing next-hop entry to a client's next-hop list.
+description: The RtmAddNextHop function adds a new next-hop entry or updates an existing next-hop entry to a client's next-hop list.helpviewer_keywords: ["RTM_NEXTHOP_FLAGS_DOWN","RTM_NEXTHOP_FLAGS_REMOTE","RtmAddNextHop","RtmAddNextHop function [RAS]","_rtmv2ref_rtmaddnexthop","rras.rtmaddnexthop","rtmv2/RtmAddNextHop"]
 old-location: rras\rtmaddnexthop.htm
 tech.root: RRAS
 ms.assetid: 7c11397b-f5c9-4a3e-88d8-2f1736f5da13

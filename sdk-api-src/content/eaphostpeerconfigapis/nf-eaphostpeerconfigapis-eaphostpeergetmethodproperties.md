@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethodProperties
 title: EapHostPeerGetMethodProperties function (eaphostpeerconfigapis.h)
 description: Used to retrieve the properties of an EAP method given the connection and user data.
+helpviewer_keywords: ["EapHostPeerGetMethodProperties","EapHostPeerGetMethodProperties function [EAPHost]","eaphost.eaphostpeergetmethodproperties","eaphostpeerconfigapis/EapHostPeerGetMethodProperties"]
 old-location: eaphost\eaphostpeergetmethodproperties.htm
 tech.root: eaphost
 ms.assetid: b553c022-c9a2-4cf7-8c09-e629b49cd929
@@ -64,7 +65,7 @@ The version number of the API. Set this parameter to zero.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the EAP authentication session behavior.
                 
 
 
@@ -126,7 +127,7 @@ A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
  
 
  

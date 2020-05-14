@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.SetPrivateObjectSecurity
 title: SetPrivateObjectSecurity function (securitybaseapi.h)
-description: Modifies a private object's security descriptor.
+description: Modifies a private object's security descriptor.helpviewer_keywords: ["SetPrivateObjectSecurity","SetPrivateObjectSecurity function [Security]","_win32_setprivateobjectsecurity","security.setprivateobjectsecurity","securitybaseapi/SetPrivateObjectSecurity"]
 old-location: security\setprivateobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 726994c8-7813-4f1a-b7d7-a25e79202c33

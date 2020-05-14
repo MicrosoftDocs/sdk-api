@@ -1,7 +1,7 @@
 ---
 UID: NE:vswriter.VSS_RESTOREMETHOD_ENUM
 title: VSS_RESTOREMETHOD_ENUM (vswriter.h)
-description: Used by a writer at backup time to specify through its Writer Metadata Document the default file restore method.
+description: Used by a writer at backup time to specify through its Writer Metadata Document the default file restore method.helpviewer_keywords: ["VSS_RESTOREMETHOD_ENUM","VSS_RESTOREMETHOD_ENUM enumeration [VSS]","VSS_RME_CUSTOM","VSS_RME_RESTORE_AT_REBOOT","VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE","VSS_RME_RESTORE_IF_CAN_REPLACE","VSS_RME_RESTORE_IF_NOT_THERE","VSS_RME_RESTORE_STOP_START","VSS_RME_RESTORE_TO_ALTERNATE_LOCATION","VSS_RME_STOP_RESTORE_START","VSS_RME_UNDEFINED","_win32_vss_restoremethod_enum","base.vss_restoremethod_enum","enumeration [VSS]","vswriter/VSS_RESTOREMETHOD_ENUM","vswriter/VSS_RME_CUSTOM","vswriter/VSS_RME_RESTORE_AT_REBOOT","vswriter/VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE","vswriter/VSS_RME_RESTORE_IF_CAN_REPLACE","vswriter/VSS_RME_RESTORE_IF_NOT_THERE","vswriter/VSS_RME_RESTORE_STOP_START","vswriter/VSS_RME_RESTORE_TO_ALTERNATE_LOCATION","vswriter/VSS_RME_STOP_RESTORE_START","vswriter/VSS_RME_UNDEFINED"]
 old-location: base\vss_restoremethod_enum.htm
 tech.root: VSS
 ms.assetid: 4c6be981-4271-4040-8f6e-725616355062

@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterResourceGetEnumCountEx
 title: ClusterResourceGetEnumCountEx function (clusapi.h)
-description: Returns the number of cluster objects that are associated with a resource enumeration handle.
+description: Returns the number of cluster objects that are associated with a resource enumeration handle.helpviewer_keywords: ["ClusterResourceGetEnumCountEx","ClusterResourceGetEnumCountEx function [Failover Cluster]","PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX","PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX function [Failover Cluster]","clusapi/ClusterResourceGetEnumCountEx","clusapi/PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX","mscs.clusterresourcegetenumcountex"]
 old-location: mscs\clusterresourcegetenumcountex.htm
 tech.root: MsCS
 ms.assetid: 97C22642-F968-4E41-90BC-28DF8DF5886C

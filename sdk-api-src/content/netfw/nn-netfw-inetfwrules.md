@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwRules
 title: INetFwRules (netfw.h)
-description: Collection of firewall rules.
+description: Collection of firewall rules.helpviewer_keywords: ["INetFwRules","INetFwRules interface [ICS/ICF]","INetFwRules interface [ICS/ICF]","described","ics.inetfwrules","netfw/INetFwRules"]
 old-location: ics\inetfwrules.htm
 tech.root: ics
 ms.assetid: 4908a5f2-4093-4f2d-8e68-fe4b2e552b13

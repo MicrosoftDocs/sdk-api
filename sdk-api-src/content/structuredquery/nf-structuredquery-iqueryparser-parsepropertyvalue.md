@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IQueryParser.ParsePropertyValue
 title: IQueryParser::ParsePropertyValue (structuredquery.h)
-description: Parses a condition for a specified property.
+description: Parses a condition for a specified property.helpviewer_keywords: ["IQueryParser interface [search]","ParsePropertyValue method","IQueryParser.ParsePropertyValue","IQueryParser::ParsePropertyValue","ParsePropertyValue","ParsePropertyValue method [search]","ParsePropertyValue method [search]","IQueryParser interface","_search_IQueryParser_ParsePropertyValue","search._search_IQueryParser_ParsePropertyValue","structuredquery/IQueryParser::ParsePropertyValue"]
 old-location: search\_search_IQueryParser_ParsePropertyValue.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm

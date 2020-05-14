@@ -1,7 +1,7 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetUserSettings
 title: IWindowsParentalControlsCore::GetUserSettings (wpcapi.h)
-description: Retrieves a pointer to an interface for general settings for the specified user.
+description: Retrieves a pointer to an interface for general settings for the specified user.helpviewer_keywords: ["GetUserSettings","GetUserSettings method","GetUserSettings method","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","GetUserSettings method","IWindowsParentalControlsCore.GetUserSettings","IWindowsParentalControlsCore::GetUserSettings","parcon.iwindowsparentalcontrols_getusersettings","wpcapi/IWindowsParentalControlsCore::GetUserSettings"]
 old-location: parcon\iwindowsparentalcontrols_getusersettings.htm
 tech.root: parcon
 ms.assetid: 92c7a138-10b8-4bdf-afea-985e203e04e4

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Item
 title: IMtsGrp::Item (comsvcs.h)
-description: Retrieves the IUnknown pointer for the specified package.
+description: Retrieves the IUnknown pointer for the specified package.helpviewer_keywords: ["IMtsGrp interface [COM+]","Item method","IMtsGrp.Item","IMtsGrp::Item","Item","Item method [COM+]","Item method [COM+]","IMtsGrp interface","_dtc_IMtsGrp_Item","comsvcs/IMtsGrp::Item","cos.imtsgrp_item"]
 old-location: cos\imtsgrp_item.htm
 tech.root: cossdk
 ms.assetid: 6360f38d-43e2-4b78-a9f5-9a525d4c596a

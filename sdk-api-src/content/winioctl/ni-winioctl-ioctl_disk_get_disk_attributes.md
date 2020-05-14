@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_DISK_GET_DISK_ATTRIBUTES
 title: IOCTL_DISK_GET_DISK_ATTRIBUTES
 description: Retrieves the attributes of the specified disk device.
+helpviewer_keywords: ["IOCTL_DISK_GET_DISK_ATTRIBUTES","IOCTL_DISK_GET_DISK_ATTRIBUTES control","IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files]","fs.ioctl_disk_get_disk_attributes","winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES"]
 old-location: fs\ioctl_disk_get_disk_attributes.htm
 tech.root: FileIO
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
@@ -44,96 +45,46 @@ req.redist:
 
 # IOCTL_DISK_GET_DISK_ATTRIBUTES IOCTL
 
-
 ## -description
-
 
 Retrieves the attributes of the specified disk device.
 
-To perform this operation, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
-    parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL 
-WINAPI 
-DeviceIoControl( (HANDLE)       hDevice,         // handle to device 
-                 IOCTL_DISK_GET_DISK_ATTRIBUTES, // dwIoControlCode(LPVOID)       NULL,            // lpInBuffer 
-                 (DWORD)        0,               // nInBufferSize 
-                 (LPVOID)       lpOutBuffer,     // output buffer:GET_DISK_ATTRIBUTES
-                 (DWORD)        nOutBufferSize,  // size of output buffer
-                 (LPDWORD)      lpBytesReturned, // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
-</td>
-</tr>
-</table></span></div>
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,                 // handle to device
+  IOCTL_DISK_GET_DISK_ATTRIBUTES,   // dwIoControlCode
+  NULL,                             // lpInBuffer
+  0,                                // nInBufferSize
+  (LPVOID) lpOutBuffer,             // output buffer: GET_DISK_ATTRIBUTES
+  (DWORD) nOutBufferSize,           // size of output buffer
+  (LPDWORD) lpBytesReturned,        // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
+);
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -142,27 +93,9 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_disk_attributes">GET_DISK_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a>
- 
-
- 
-
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [GET_DISK_ATTRIBUTES](ns-winioctl-get_disk_attributes.md)
+* [IOCTL_DISK_SET_DISK_ATTRIBUTES](ni-winioctl-ioctl_disk_set_disk_attributes.md)

@@ -2,6 +2,7 @@
 UID: NF:ctffunc.ITfFnBalloon.UpdateBalloon
 title: ITfFnBalloon::UpdateBalloon (ctffunc.h)
 description: ITfFnBalloon::UpdateBalloon method
+helpviewer_keywords: ["ITfFnBalloon interface [Text Services Framework]","UpdateBalloon method","ITfFnBalloon.UpdateBalloon","ITfFnBalloon::UpdateBalloon","UpdateBalloon","UpdateBalloon method [Text Services Framework]","UpdateBalloon method [Text Services Framework]","ITfFnBalloon interface","_tsf_itffnballoon_updateballoon_ref","ctffunc/ITfFnBalloon::UpdateBalloon","tsf.itffnballoon_updateballoon"]
 old-location: tsf\itffnballoon_updateballoon.htm
 tech.root: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Changes the style and text of a language bar balloon item.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param style [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> values that specifies the new balloon style.
+Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> values that specifies the new balloon style.
 
 
 ### -param pch [in]
@@ -138,7 +138,7 @@ The language bar balloon implementation should update its style and text by modi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
  
 

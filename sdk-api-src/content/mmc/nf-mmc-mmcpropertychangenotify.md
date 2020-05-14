@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.MMCPropertyChangeNotify
 title: MMCPropertyChangeNotify function (mmc.h)
-description: Enables a snap-in property sheet to notify its IComponent or IComponentData interface that an item's properties have changed.
+description: Enables a snap-in property sheet to notify its IComponent or IComponentData interface that an item's properties have changed.helpviewer_keywords: ["MMCPropertyChangeNotify","MMCPropertyChangeNotify callback","MMCPropertyChangeNotify callback function [MMC]","_slate_mmcpropertychangenotify","mmc.mmcpropertychangenotify","mmc/MMCPropertyChangeNotify"]
 old-location: mmc\mmcpropertychangenotify.htm
 tech.root: mmc
 ms.assetid: f563a6dd-22e7-4839-bd44-1702ab3e17a3

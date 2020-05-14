@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetConnectionBandwidth
 title: IWMReaderNetworkConfig::SetConnectionBandwidth (wmsdkidl.h)
-description: The SetConnectionBandwidth method specifies the connection bandwidth for the client.
+description: The SetConnectionBandwidth method specifies the connection bandwidth for the client.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetConnectionBandwidth method","IWMReaderNetworkConfig.SetConnectionBandwidth","IWMReaderNetworkConfig::SetConnectionBandwidth","IWMReaderNetworkConfigSetConnectionBandwidth","SetConnectionBandwidth","SetConnectionBandwidth method [windows Media Format]","SetConnectionBandwidth method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setconnectionbandwidth","wmsdkidl/IWMReaderNetworkConfig::SetConnectionBandwidth"]
 old-location: wmformat\iwmreadernetworkconfig_setconnectionbandwidth.htm
 tech.root: wmformat
 ms.assetid: beb84e1b-ebe2-40a0-bcf0-eded9346d7a1

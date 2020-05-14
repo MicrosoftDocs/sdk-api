@@ -2,6 +2,7 @@
 UID: NC:winwlx.PWLX_ASSIGN_SHELL_PROTECTION
 title: PWLX_ASSIGN_SHELL_PROTECTION (winwlx.h)
 description: Called by GINA to assign protection to the shell program of a newly logged-on user.
+helpviewer_keywords: ["PWLX_ASSIGN_SHELL_PROTECTION","PWLX_ASSIGN_SHELL_PROTECTION callback","WlxAssignShellProtection","WlxAssignShellProtection callback function [Security]","_gina_wlxassignshellprotection","security.wlxassignshellprotection","winwlx/WlxAssignShellProtection"]
 old-location: security\wlxassignshellprotection.htm
 tech.root: SecAuthN
 ms.assetid: 7a744bde-3354-4e55-a6be-08acb4085e8a
@@ -77,7 +78,7 @@ Specifies the handle to a <a href="https://docs.microsoft.com/windows/desktop/Se
 ### -param hProcess [in]
 
 Specifies the handle to the process to modify. The process must be created in the suspended state, and this should be the handle returned in the 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure.
+<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure.
 
 
 ### -param hThread [in]

@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetPrimaryContent
 title: IDirectManipulationViewport::GetPrimaryContent (directmanipulation.h)
-description: Gets the primary content of a viewport that implements IDirectManipulationContent and IDirectManipulationPrimaryContent.
+description: Gets the primary content of a viewport that implements IDirectManipulationContent and IDirectManipulationPrimaryContent.helpviewer_keywords: ["GetPrimaryContent","GetPrimaryContent method [Direct Manipulation]","GetPrimaryContent method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","GetPrimaryContent method","IDirectManipulationViewport.GetPrimaryContent","IDirectManipulationViewport::GetPrimaryContent","directmanipulation.idirectmanipulationviewport_getprimarycontent","directmanipulation/IDirectManipulationViewport::GetPrimaryContent"]
 old-location: directmanipulation\idirectmanipulationviewport_getprimarycontent.htm
 tech.root: directmanipulation
 ms.assetid: 1aa70be3-9e95-4c35-8cca-45c1b238961e

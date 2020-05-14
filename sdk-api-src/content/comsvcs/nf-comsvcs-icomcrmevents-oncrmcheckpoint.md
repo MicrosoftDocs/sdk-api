@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComCRMEvents.OnCRMCheckpoint
 title: IComCRMEvents::OnCRMCheckpoint (comsvcs.h)
 description: Generated when a CRM checkpoint occurs.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMCheckpoint method","IComCRMEvents.OnCRMCheckpoint","IComCRMEvents::OnCRMCheckpoint","OnCRMCheckpoint","OnCRMCheckpoint method [COM+]","OnCRMCheckpoint method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMCheckpoint","comsvcs/IComCRMEvents::OnCRMCheckpoint","cos.icomcrmevents_oncrmcheckpoint"]
 old-location: cos\icomcrmevents_oncrmcheckpoint.htm
 tech.root: cossdk
 ms.assetid: f1a91d24-0a78-4d4f-a686-817d0609e2b1
@@ -59,7 +60,7 @@ Generated when a CRM checkpoint occurs.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidApp [in]

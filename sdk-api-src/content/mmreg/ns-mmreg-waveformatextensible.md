@@ -2,6 +2,7 @@
 UID: NS:mmreg.__unnamed_struct_0
 title: WAVEFORMATEXTENSIBLE (mmreg.h)
 description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
+helpviewer_keywords: ["*LPWAVEFORMATIEEEFLOATEX","*LPWAVEFORMATPCMEX","*NPWAVEFORMATIEEEFLOATEX","*NPWAVEFORMATPCMEX","*PWAVEFORMATEXTENSIBLE","*PWAVEFORMATIEEEFLOATEX","*PWAVEFORMATPCMEX","PWAVEFORMATEXTENSIBLE","PWAVEFORMATEXTENSIBLE structure pointer [Windows Multimedia]","WAVEFORMATEXTENSIBLE","WAVEFORMATEXTENSIBLE structure [Windows Multimedia]","WAVEFORMATIEEEFLOATEX","WAVEFORMATPCMEX","_win32_WAVEFORMATEXTENSIBLE_str","mmreg/PWAVEFORMATEXTENSIBLE","mmreg/WAVEFORMATEXTENSIBLE","multimedia.waveformatextensible"]
 old-location: multimedia\waveformatextensible.htm
 tech.root: Multimedia
 ms.assetid: 179d6c0c-ea80-4e9f-9e1b-43785f20cbd3
@@ -68,38 +69,23 @@ The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio d
 
 ### -field Samples
 
+A union describing the sample format.
 
 
-#### wValidBitsPerSample
+
+### -field Samples.wValidBitsPerSample
 
 Number of bits of precision in the signal. Usually equal to <b>WAVEFORMATEX.wBitsPerSample</b>. However, <b>wBitsPerSample</b> is the container size and must be a multiple of 8, whereas <b>wValidBitsPerSample</b> can be any value not exceeding the container size. For example, if the format uses 20-bit samples, <b>wBitsPerSample</b> must be at least 24, but <b>wValidBitsPerSample</b> is 20.
 
 
+### -field Samples.wSamplesPerBlock
 
-#### wSamplesPerBlock
-
+ 
 Number of samples contained in one compressed block of audio data. This value is used in buffer estimation. This value is used with compressed formats that have a fixed number of samples within each block. This value can be set to 0 if a variable number of samples is contained in each block of compressed audio data. In this case, buffer estimation and position information needs to be obtained in other ways.
 
-
-
-#### wReserved
+### -field Samples.wReserved
 
 Reserved for internal use by operating system. Set to 0.
-
-
-### -field wValidBitsPerSample
-
- 
-
-
-### -field wSamplesPerBlock
-
- 
-
-
-### -field wReserved
-
- 
 
 
 ### -field dwChannelMask

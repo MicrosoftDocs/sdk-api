@@ -1,7 +1,7 @@
 ---
 UID: NE:dhcpv6csdk.__unnamed_enum_0
 title: StatusCode (dhcpv6csdk.h)
-description: The StatusCode enum contains status codes for IPv6 operations.
+description: The StatusCode enum contains status codes for IPv6 operations.helpviewer_keywords: ["STATUS_NOPREFIX_AVAIL","STATUS_NO_BINDING","STATUS_NO_ERROR","STATUS_UNSPECIFIED_FAILURE","StatusCode","StatusCode enumeration [DHCP]","dhcp.statuscode","dhcpv6csdk/STATUS_NOPREFIX_AVAIL","dhcpv6csdk/STATUS_NO_BINDING","dhcpv6csdk/STATUS_NO_ERROR","dhcpv6csdk/STATUS_UNSPECIFIED_FAILURE","dhcpv6csdk/StatusCode"]
 old-location: dhcp\statuscode.htm
 tech.root: DHCP
 ms.assetid: c3d1df82-9f36-4d58-88f0-8a16011f3132

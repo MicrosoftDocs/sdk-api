@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IFolderView.Items
 title: IFolderView::Items (shobjidl_core.h)
 description: Gets the address of an enumeration object based on the collection of items in the folder view.
+helpviewer_keywords: ["IFolderView interface [Windows Shell]","Items method","IFolderView.Items","IFolderView::Items","Items","Items method [Windows Shell]","Items method [Windows Shell]","IFolderView interface","_shell_IFolderView_Items","shell.IFolderView_Items","shobjidl_core/IFolderView::Items"]
 old-location: shell\IFolderView_Items.htm
 tech.root: shell
 ms.assetid: f93e2d30-7b50-48e8-a3e7-6fa29abb8a32
@@ -62,7 +63,7 @@ Gets the address of an enumeration object based on the collection of items in th
 Type: <b>UINT</b>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> values that limit the enumeration to certain types of items.
+<a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> values that limit the enumeration to certain types of items.
 
 
 ### -param riid [in]

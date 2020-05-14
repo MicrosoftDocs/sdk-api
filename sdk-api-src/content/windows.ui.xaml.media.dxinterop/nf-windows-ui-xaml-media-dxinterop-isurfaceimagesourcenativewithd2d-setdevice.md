@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.SetDevice
 title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
-description: Sets the Microsoft DirectX Graphics Infrastructure (DXGI) or Direct2D device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.
+description: Sets the Microsoft DirectX Graphics Infrastructure (DXGI) or Direct2D device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.helpviewer_keywords: ["ISurfaceImageSourceNativeWithD2D interface [Windows Runtime]","SetDevice method","ISurfaceImageSourceNativeWithD2D.SetDevice","ISurfaceImageSourceNativeWithD2D.xaml","ISurfaceImageSourceNativeWithD2D::SetDevice","ISurfaceImageSourceNativeWithD2D::xaml","SetDevice","SetDevice method [Windows Runtime]","SetDevice method [Windows Runtime]","ISurfaceImageSourceNativeWithD2D interface","windows/ISurfaceImageSourceNativeWithD2D::SetDevice","winrt.isurfaceimagesourcenativewithd2d_setdevice"]
 old-location: winrt\isurfaceimagesourcenativewithd2d_setdevice.htm
 tech.root: WinRT
 ms.assetid: FBBF0A5E-68FF-4143-A874-0C1100100428

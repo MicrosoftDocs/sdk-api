@@ -2,6 +2,7 @@
 UID: NS:usp10.tag_SCRIPT_ITEM
 title: SCRIPT_ITEM (usp10.h)
 description: Contains a script item, including a SCRIPT_ANALYSIS structure with the string offset of the first character of the item.
+helpviewer_keywords: ["SCRIPT_ITEM","SCRIPT_ITEM structure [Internationalization for Windows Applications]","_win32_SCRIPT_ITEM_str","intl.script_item","usp10/SCRIPT_ITEM"]
 old-location: intl\script_item.htm
 tech.root: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Contains a script item, including a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure with the string offset of the first character of the item.
+Contains a script item, including a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure with the string offset of the first character of the item.
 
 
 
@@ -67,7 +68,7 @@ Offset from the beginning of the itemized string to the first character of the i
 
 ### -field a
 
-A <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure containing the analysis of the item.
+A <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure containing the analysis of the item.
 
 
 ## -see-also
@@ -75,7 +76,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_an
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

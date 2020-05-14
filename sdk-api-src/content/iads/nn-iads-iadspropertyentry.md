@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsPropertyEntry
 title: IADsPropertyEntry (iads.h)
-description: The IADsPropertyEntry interface is used to manage a property entry in the property cache.
+description: The IADsPropertyEntry interface is used to manage a property entry in the property cache.helpviewer_keywords: ["IADsPropertyEntry","IADsPropertyEntry interface [ADSI]","IADsPropertyEntry interface [ADSI]","described","PropertyEntry","_ds_iadspropertyentry","adsi.iadspropertyentry","iads/IADsPropertyEntry"]
 old-location: adsi\iadspropertyentry.htm
 tech.root: adsi
 ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f

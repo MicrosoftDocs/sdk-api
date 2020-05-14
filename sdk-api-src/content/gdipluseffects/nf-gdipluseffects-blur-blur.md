@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluseffects.Blur.Blur
 title: Blur::Blur (gdipluseffects.h)
-description: Creates a Blur object.
+description: Creates a Blur object.helpviewer_keywords: ["Blur","Blur class [GDI+]","Blur constructor","Blur constructor [GDI+]","Blur constructor [GDI+]","Blur class","Blur.Blur","Blur::Blur","_gdiplus_CLASS_Blur_Blur_","gdiplus._gdiplus_CLASS_Blur_Blur_"]
 old-location: gdiplus\_gdiplus_CLASS_Blur_Blur_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurconstructors\blur.htm

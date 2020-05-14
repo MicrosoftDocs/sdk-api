@@ -2,6 +2,7 @@
 UID: NE:eaptypes._EAP_CONFIG_INPUT_FIELD_TYPE
 title: EAP_CONFIG_INPUT_FIELD_TYPE (eaptypes.h)
 description: Defines a set of possible input field types available when querying for user credentials.
+helpviewer_keywords: ["*PEAP_CONFIG_INPUT_FIELD_TYPE","EAP_CONFIG_INPUT_FIELD_TYPE","EAP_CONFIG_INPUT_FIELD_TYPE enumeration [EAPHost]","EapConfigInputEdit","EapConfigInputNetworkPassword","EapConfigInputNetworkUsername","EapConfigInputPSK","EapConfigInputPassword","EapConfigInputPin","EapConfigInputUsername","EapConfigSmartCardError","EapConfigSmartCardUsername","eaphost.eap_config_input_field_type","eaptypes/EAP_CONFIG_INPUT_FIELD_TYPE","eaptypes/EapConfigInputEdit","eaptypes/EapConfigInputNetworkPassword","eaptypes/EapConfigInputNetworkUsername","eaptypes/EapConfigInputPSK","eaptypes/EapConfigInputPassword","eaptypes/EapConfigInputPin","eaptypes/EapConfigInputUsername","eaptypes/EapConfigSmartCardError","eaptypes/EapConfigSmartCardUsername"]
 old-location: eaphost\eap_config_input_field_type.htm
 tech.root: eaphost
 ms.assetid: f05242ad-1e49-4a6d-b4f1-579c4b00ea28
@@ -116,11 +117,11 @@ The <b>EAP_CONFIG_INPUT_FIELD_TYPE</b> enumeration can be employed to support Si
 
 
 
-[Common EAPHost API Enumerations](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-enumerations)a>
+[Common EAPHost API Enumerations](/windows/win32/eaphost/common-eap-host-api-enumerations)
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

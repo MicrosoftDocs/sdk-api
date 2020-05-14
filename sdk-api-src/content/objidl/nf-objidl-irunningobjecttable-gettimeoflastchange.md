@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRunningObjectTable.GetTimeOfLastChange
 title: IRunningObjectTable::GetTimeOfLastChange (objidl.h)
-description: Retrieves the time that an object was last modified.
+description: Retrieves the time that an object was last modified.helpviewer_keywords: ["GetTimeOfLastChange","GetTimeOfLastChange method [COM]","GetTimeOfLastChange method [COM]","IRunningObjectTable interface","IRunningObjectTable interface [COM]","GetTimeOfLastChange method","IRunningObjectTable.GetTimeOfLastChange","IRunningObjectTable::GetTimeOfLastChange","_com_irunningobjecttable_gettimeoflastchange","com.irunningobjecttable_gettimeoflastchange","objidl/IRunningObjectTable::GetTimeOfLastChange"]
 old-location: com\irunningobjecttable_gettimeoflastchange.htm
 tech.root: com
 ms.assetid: fef6f7e5-7d91-4737-98a4-c9779c6c2be5

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetWriterTime
 title: IWMWriterAdvanced::GetWriterTime (wmsdkidl.h)
-description: The GetWriterTime method retrieves the clock time that the writer is working to.
+description: The GetWriterTime method retrieves the clock time that the writer is working to.helpviewer_keywords: ["GetWriterTime","GetWriterTime method [windows Media Format]","GetWriterTime method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetWriterTime method","IWMWriterAdvanced.GetWriterTime","IWMWriterAdvanced::GetWriterTime","IWMWriterAdvancedGetWriterTime","wmformat.iwmwriteradvanced_getwritertime","wmsdkidl/IWMWriterAdvanced::GetWriterTime"]
 old-location: wmformat\iwmwriteradvanced_getwritertime.htm
 tech.root: wmformat
 ms.assetid: ed15e545-8b37-4098-8e2f-96f4cfb271d3

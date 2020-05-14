@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneInitializeExA
 title: phoneInitializeExA function (tapi.h)
-description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
+description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.helpviewer_keywords: ["_tapi2_phoneinitializeex","phoneInitializeEx","phoneInitializeEx function [TAPI 2.2]","phoneInitializeExA","phoneInitializeExW","tapi/phoneInitializeEx","tapi/phoneInitializeExA","tapi/phoneInitializeExW","tapi2.phoneinitializeex"]
 old-location: tapi2\phoneinitializeex.htm
 tech.root: Tapi
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8

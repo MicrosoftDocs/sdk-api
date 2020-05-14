@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetName
 title: IEnumCERTVIEWCOLUMN::GetName (certview.h)
-description: Retrieves the nonlocalized name of the current column in the column-enumeration sequence.
+description: Retrieves the nonlocalized name of the current column in the column-enumeration sequence.helpviewer_keywords: ["GetName","GetName method [Security]","GetName method [Security]","IEnumCERTVIEWCOLUMN interface","IEnumCERTVIEWCOLUMN interface [Security]","GetName method","IEnumCERTVIEWCOLUMN.GetName","IEnumCERTVIEWCOLUMN::GetName","_certsrv_ienumcertviewcolumn_getname","certview/IEnumCERTVIEWCOLUMN::GetName","security.ienumcertviewcolumn_getname"]
 old-location: security\ienumcertviewcolumn_getname.htm
 tech.root: SecCrypto
 ms.assetid: be76cec1-9ac0-4cc0-bddb-992b2d3590d7

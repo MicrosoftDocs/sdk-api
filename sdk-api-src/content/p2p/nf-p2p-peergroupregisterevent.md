@@ -2,6 +2,7 @@
 UID: NF:p2p.PeerGroupRegisterEvent
 title: PeerGroupRegisterEvent function (p2p.h)
 description: The PeerGroupRegisterEvent function registers a peer for specific peer group events.
+helpviewer_keywords: ["PeerGroupRegisterEvent","PeerGroupRegisterEvent function [Peer Networking]","p2p.peergroupregisterevent","p2p/PeerGroupRegisterEvent"]
 old-location: p2p\peergroupregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
@@ -149,7 +150,7 @@ Before you close the HPEEREVENT handle, you must unregister for the peer event  
 
 
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)a>
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
 
 
 

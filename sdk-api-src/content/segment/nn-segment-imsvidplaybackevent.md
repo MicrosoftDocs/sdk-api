@@ -1,7 +1,7 @@
 ---
 UID: NN:segment.IMSVidPlaybackEvent
 title: IMSVidPlaybackEvent (segment.h)
-description: This topic applies to Windows XP or later.
+description: This topic applies to Windows XP or later.helpviewer_keywords: ["IMSVidPlaybackEvent","IMSVidPlaybackEvent interface [Microsoft TV Technologies]","IMSVidPlaybackEvent interface [Microsoft TV Technologies]","described","IMSVidPlaybackEventInterface","mstv.imsvidplaybackevent","segment/IMSVidPlaybackEvent"]
 old-location: mstv\imsvidplaybackevent.htm
 tech.root: mstv
 ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9

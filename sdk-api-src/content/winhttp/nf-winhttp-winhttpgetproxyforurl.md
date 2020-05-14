@@ -2,6 +2,7 @@
 UID: NF:winhttp.WinHttpGetProxyForUrl
 title: WinHttpGetProxyForUrl function (winhttp.h)
 description: Retrieves the proxy data for the specified URL.
+helpviewer_keywords: ["WinHttpGetProxyForUrl","WinHttpGetProxyForUrl function [WinHTTP]","http.winhttpgetproxyforurl","winhttp/WinHttpGetProxyForUrl"]
 old-location: http\winhttpgetproxyforurl.htm
 tech.root: WinHttp
 ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
@@ -69,12 +70,12 @@ A pointer to a null-terminated Unicode string that contains the URL of the HTTP 
 
 ### -param pAutoProxyOptions [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
+A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
 
 
 ### -param pProxyInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> structure that receives the proxy setting. This structure is then applied to the request handle using the WINHTTP_OPTION_PROXY option. Free the <b>lpszProxy</b> and <b>lpszProxyBypass</b> strings contained in this structure (if they are non-NULL) using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
+A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> structure that receives the proxy setting. This structure is then applied to the request handle using the WINHTTP_OPTION_PROXY option. Free the <b>lpszProxy</b> and <b>lpszProxyBypass</b> strings contained in this structure (if they are non-NULL) using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
 
 
 ## -returns

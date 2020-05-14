@@ -1,7 +1,7 @@
 ---
 UID: NN:shimgdata.IShellImageData
 title: IShellImageData (shimgdata.h)
-description: Exposes methods and properties that display, manipulate, and describe image data.
+description: Exposes methods and properties that display, manipulate, and describe image data.helpviewer_keywords: ["IShellImageData","IShellImageData interface [Windows Shell]","IShellImageData interface [Windows Shell]","described","_shell_IShellImageData","shell.IShellImageData","shimgdata/IShellImageData"]
 old-location: shell\IShellImageData.htm
 tech.root: shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c

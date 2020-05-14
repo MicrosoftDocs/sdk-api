@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.SHCreatePropSheetExtArray
 title: SHCreatePropSheetExtArray function (shlobj.h)
-description: SHCreatePropSheetExtArray may be altered or unavailable.
+description: SHCreatePropSheetExtArray may be altered or unavailable.helpviewer_keywords: ["SHCreatePropSheetExtArray","SHCreatePropSheetExtArray function [Windows Shell]","_win32_SHCreatePropSheetExtArray","shell.SHCreatePropSheetExtArray","shlobj/SHCreatePropSheetExtArray"]
 old-location: shell\SHCreatePropSheetExtArray.htm
 tech.root: shell
 ms.assetid: 88a72529-325d-431e-bc26-bddca787e62b

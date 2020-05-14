@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFunctionProvider
 title: ITfThreadMgr::GetFunctionProvider (msctf.h)
-description: ITfThreadMgr::GetFunctionProvider method
+description: ITfThreadMgr::GetFunctionProvider methodhelpviewer_keywords: ["GUID_APP_FUNCTIONPROVIDER","GUID_SYSTEM_FUNCTIONPROVIDER","GetFunctionProvider","GetFunctionProvider method [Text Services Framework]","GetFunctionProvider method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","GetFunctionProvider method","ITfThreadMgr.GetFunctionProvider","ITfThreadMgr::GetFunctionProvider","_tsf_itfthreadmgr_getfunctionprovider_ref","msctf/ITfThreadMgr::GetFunctionProvider","tsf.itfthreadmgr_getfunctionprovider"]
 old-location: tsf\itfthreadmgr_getfunctionprovider.htm
 tech.root: TSF
 ms.assetid: b320790a-4b54-4475-97e6-e59f083cfc09
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the specified function provider object.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.Initialize
 title: IMILBitmapEffectImpl::Initialize (mileffects.h)
-description: Initializes the effect with the given object.
+description: Initializes the effect with the given object.helpviewer_keywords: ["IMILBitmapEffectImpl interface [WPF Bitmap Effects]","Initialize method","IMILBitmapEffectImpl.Initialize","IMILBitmapEffectImpl::Initialize","Initialize","Initialize method [WPF Bitmap Effects]","Initialize method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","_wibe_imilbitmapeffectimpl_initialize","mileffects/IMILBitmapEffectImpl::Initialize","wibe._wibe_imilbitmapeffectimpl_initialize"]
 old-location: wibe\_wibe_imilbitmapeffectimpl_initialize.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\initialize.htm

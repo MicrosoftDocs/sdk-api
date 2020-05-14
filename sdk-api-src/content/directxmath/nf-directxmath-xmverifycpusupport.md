@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVerifyCPUSupport
 title: XMVerifyCPUSupport function (directxmath.h)
-description: Indicates if the DirectXMath Library supports the current platform.
+description: Indicates if the DirectXMath Library supports the current platform.helpviewer_keywords: ["Use DirectX..XMVerifyCPUSupport","XMVerifyCPUSupport","XMVerifyCPUSupport method [DirectX Math Support APIs]","dxmath.xmverifycpusupport"]
 old-location: dxmath\xmverifycpusupport.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.utilities.XMVerifyCPUSupport

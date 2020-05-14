@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestSupportedAttrs
 title: ITextStoreAnchor::RequestSupportedAttrs (textstor.h)
-description: ITextStoreAnchor::RequestSupportedAttrs method
+description: ITextStoreAnchor::RequestSupportedAttrs methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestSupportedAttrs method","ITextStoreAnchor.RequestSupportedAttrs","ITextStoreAnchor::RequestSupportedAttrs","RequestSupportedAttrs","RequestSupportedAttrs method [Text Services Framework]","RequestSupportedAttrs method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::RequestSupportedAttrs","tsf.itextstoreanchor_requestsupportedattrs"]
 old-location: tsf\itextstoreanchor_requestsupportedattrs.htm
 tech.root: TSF
 ms.assetid: ab81d79d-e991-4c2d-9fb7-95393e002828
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the supported attributes of a text stream.
 
 ## -parameters
 

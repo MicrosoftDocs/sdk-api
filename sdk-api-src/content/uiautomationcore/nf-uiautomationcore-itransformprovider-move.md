@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Move
 title: ITransformProvider::Move (uiautomationcore.h)
-description: Moves the control.
+description: Moves the control.helpviewer_keywords: ["ITransformProvider interface [Windows Accessibility]","Move method","ITransformProvider.Move","ITransformProvider::Move","Move","Move method [Windows Accessibility]","Move method [Windows Accessibility]","ITransformProvider interface","uiauto.uiauto_ITransformProvider_Move","uiauto_ITransformProvider_Move","uiautomationcore/ITransformProvider::Move","winauto.uiauto_ITransformProvider_Move"]
 old-location: winauto\uiauto_ITransformProvider_Move.htm
 tech.root: WinAuto
 ms.assetid: 5abd6b54-a555-4e6f-9868-9c9b3e2f6e50

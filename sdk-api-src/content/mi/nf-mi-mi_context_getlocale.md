@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Context_GetLocale
 title: MI_Context_GetLocale function (mi.h)
-description: Retrieves the requested locale information that the client specified for the operation.
+description: Retrieves the requested locale information that the client specified for the operation.helpviewer_keywords: ["MI_Context_GetLocale","MI_Context_GetLocale function [Windows Management Infrastructure (MI)]","mi/MI_Context_GetLocale","wmi.mi_getlocale","wmi_v2.mi_context_getlocale"]
 old-location: wmi_v2\mi_context_getlocale.htm
 tech.root: wmi_v2
 ms.assetid: 7d2271e8-de76-4629-aedc-0ab882ab58eb

@@ -1,7 +1,7 @@
 ---
 UID: NS:windows.devices.display.core.interop.__LUID
 title: interop::LUID
-description: Describes a local identifier for an adapter.
+description: Describes a local identifier for an adapter.helpviewer_keywords: ["interop::__LUID"]
 ms.date: 02/10/2020
 tech.root: winrt
 targetos: Windows

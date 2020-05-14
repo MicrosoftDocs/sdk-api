@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagFixupInfo
 title: FixupInfo (naptypes.h)
-description: Contains fix-up information for the Sysytem Health Agent (SHA).
+description: Contains fix-up information for the Sysytem Health Agent (SHA).helpviewer_keywords: ["FixupInfo","FixupInfo structure [NAP]","nap.fixupinfo_struct","naptypes/FixupInfo"]
 old-location: nap\fixupinfo_struct.htm
 tech.root: NAP
 ms.assetid: 8f91534e-3281-4d5a-9af7-5f08eb0243f0

@@ -1,7 +1,7 @@
 ---
 UID: NS:lsalookup._LSA_TRUST_INFORMATION
 title: LSA_TRUST_INFORMATION (lsalookup.h)
-description: Identifies a domain.
+description: Identifies a domain.helpviewer_keywords: ["*PLSA_TRUST_INFORMATION","LSA_TRUST_INFORMATION","LSA_TRUST_INFORMATION structure [Security]","PLSA_TRUST_INFORMATION","PLSA_TRUST_INFORMATION structure pointer [Security]","_LSA_TRUST_INFORMATION","_lsa_lsa_trust_information","lsalookup/LSA_TRUST_INFORMATION","lsalookup/PLSA_TRUST_INFORMATION","security.lsa_trust_information"]
 old-location: security\lsa_trust_information.htm
 tech.root: SecMgmt
 ms.assetid: 2b5e6f79-b97a-4018-a45a-37c300c3dc0d

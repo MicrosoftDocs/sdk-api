@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpSetServerBindingInfoV6
 title: DhcpSetServerBindingInfoV6 function (dhcpsapi.h)
-description: Sets or modifies the IPv6 interface bindings for the DHCPv6 server.
+description: Sets or modifies the IPv6 interface bindings for the DHCPv6 server.helpviewer_keywords: ["DhcpSetServerBindingInfoV6","DhcpSetServerBindingInfoV6 function [DHCP]","dhcp.dhcpsetserverbindinginfov6","dhcpsapi/DhcpSetServerBindingInfoV6"]
 old-location: dhcp\dhcpsetserverbindinginfov6.htm
 tech.root: DHCP
 ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530

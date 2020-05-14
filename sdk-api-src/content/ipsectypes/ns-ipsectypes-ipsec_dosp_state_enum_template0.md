@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_DOSP_STATE_ENUM_TEMPLATE0_
 title: IPSEC_DOSP_STATE_ENUM_TEMPLATE0 (ipsectypes.h)
 description: The IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure.
+helpviewer_keywords: ["IPSEC_DOSP_STATE_ENUM_TEMPLATE0","IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure [Filtering]","fwp.ipsec_dosp_state_enum_template0","ipsectypes/IPSEC_DOSP_STATE_ENUM_TEMPLATE0"]
 old-location: fwp\ipsec_dosp_state_enum_template0.htm
 tech.root: fwp
 ms.assetid: bfc34949-dd80-4fcd-8147-2fed62bce387
@@ -59,12 +60,12 @@ The <b>IPSEC_DOSP_STATE_ENUM_TEMPLATE0</b> structure is used to enumerate IPsec 
 
 ### -field publicV6AddrMask
 
-An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a> structure that specifies the public IPv6 address.
+An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure that specifies the public IPv6 address.
 
 
 ### -field internalV6AddrMask
 
-An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a> structure that specifies the internal IPv6 address.
+An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure that specifies the internal IPv6 address.
 
 
 ## -remarks
@@ -81,7 +82,7 @@ An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptype
 
 
 
-[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)a>
+[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
 
 
 

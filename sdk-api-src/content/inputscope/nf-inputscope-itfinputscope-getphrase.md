@@ -1,7 +1,7 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetPhrase
 title: ITfInputScope::GetPhrase (inputscope.h)
-description: ITfInputScope::GetPhrase method
+description: ITfInputScope::GetPhrase methodhelpviewer_keywords: ["GetPhrase","GetPhrase method [Text Services Framework]","GetPhrase method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetPhrase method","ITfInputScope.GetPhrase","ITfInputScope::GetPhrase","inputscope/ITfInputScope::GetPhrase","tsf.itfinputscope_getphrase"]
 old-location: tsf\itfinputscope_getphrase.htm
 tech.root: TSF
 ms.assetid: 9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the phrase list set to this context.
 
 ## -parameters
 

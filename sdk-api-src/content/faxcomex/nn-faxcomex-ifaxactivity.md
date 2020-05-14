@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxActivity
 title: IFaxActivity (faxcomex.h)
-description: The IFaxActivity interface defines a read-only configuration object.
+description: The IFaxActivity interface defines a read-only configuration object.helpviewer_keywords: ["IFaxActivity","IFaxActivity interface [Fax Service]","IFaxActivity interface [Fax Service]","described","_mfax_faxactivity_cpp","fax._mfax_faxactivity_cpp","faxcomex/IFaxActivity"]
 old-location: fax\_mfax_faxactivity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4k55_cpp.htm

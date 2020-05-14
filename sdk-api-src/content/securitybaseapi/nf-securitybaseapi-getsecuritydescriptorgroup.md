@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorGroup
 title: GetSecurityDescriptorGroup function (securitybaseapi.h)
-description: Retrieves the primary group information from a security descriptor.
+description: Retrieves the primary group information from a security descriptor.helpviewer_keywords: ["GetSecurityDescriptorGroup","GetSecurityDescriptorGroup function [Security]","_win32_getsecuritydescriptorgroup","security.getsecuritydescriptorgroup","securitybaseapi/GetSecurityDescriptorGroup"]
 old-location: security\getsecuritydescriptorgroup.htm
 tech.root: SecAuthZ
 ms.assetid: a920b49e-a4c2-4e49-b529-88c12205d995

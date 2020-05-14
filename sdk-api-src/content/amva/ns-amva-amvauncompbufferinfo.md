@@ -1,7 +1,7 @@
 ---
 UID: NS:amva._tag_AMVAUncompBufferInfo
 title: AMVAUncompBufferInfo (amva.h)
-description: The AMVAUncompBufferInfo structure describes the uncompressed surfaces to be allocated by the video renderer.
+description: The AMVAUncompBufferInfo structure describes the uncompressed surfaces to be allocated by the video renderer.helpviewer_keywords: ["*LPAMVAUncompBufferInfo","AMVAUncompBufferInfo","AMVAUncompBufferInfo structure [DirectShow]","AMVAUncompBufferInfoStructure","LPAMVAUncompBufferInfo","LPAMVAUncompBufferInfo structure pointer [DirectShow]","amva/AMVAUncompBufferInfo","amva/LPAMVAUncompBufferInfo","dshow.amvauncompbufferinfo"]
 old-location: dshow\amvauncompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1

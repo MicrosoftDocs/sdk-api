@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CreateClusterNameAccount
 title: CreateClusterNameAccount function (clusapi.h)
-description: Creates a cluster name resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.
+description: Creates a cluster name resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.helpviewer_keywords: ["CreateClusterNameAccount","CreateClusterNameAccount function [Failover Cluster]","PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT","PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT function [Failover Cluster]","clusapi/CreateClusterNameAccount","clusapi/PCLUSAPI_CREATE_CLUSTER_NAME_ACCOUNT","mscs.createclusternameaccount"]
 old-location: mscs\createclusternameaccount.htm
 tech.root: MsCS
 ms.assetid: 82BBEE9D-C787-4935-BB5F-09438676B37A

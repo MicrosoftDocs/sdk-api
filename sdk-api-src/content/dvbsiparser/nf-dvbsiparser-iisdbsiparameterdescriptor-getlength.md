@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetLength
 title: IIsdbSIParameterDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of a service information (SI) parameter descriptor, in bytes.
+description: Gets the body length of a service information (SI) parameter descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbSIParameterDescriptor.GetLength","IIsdbSIParameterDescriptor::GetLength","dvbsiparser/IIsdbSIParameterDescriptor::GetLength","mstv.iisdbsiparameterdescriptor_getlength"]
 old-location: mstv\iisdbsiparameterdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 6e4ac80d-30a9-4879-9cd3-a3964c675b27

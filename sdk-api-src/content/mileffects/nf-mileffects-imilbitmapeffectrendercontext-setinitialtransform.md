@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetInitialTransform
 title: IMILBitmapEffectRenderContext::SetInitialTransform (mileffects.h)
-description: Gets the initial MILMatrixF transform.
+description: Gets the initial MILMatrixF transform.helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetInitialTransform method","IMILBitmapEffectRenderContext.SetInitialTransform","IMILBitmapEffectRenderContext::SetInitialTransform","SetInitialTransform","SetInitialTransform method [WPF Bitmap Effects]","SetInitialTransform method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setinitialtransform","mileffects/IMILBitmapEffectRenderContext::SetInitialTransform","wibe._wibe_imilbitmapeffectrendercontext_setinitialtransform"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setinitialtransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setinitialtransform.htm

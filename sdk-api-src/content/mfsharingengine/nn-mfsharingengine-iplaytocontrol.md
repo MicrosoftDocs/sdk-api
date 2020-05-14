@@ -1,7 +1,7 @@
 ---
 UID: NN:mfsharingengine.IPlayToControl
 title: IPlayToControl (mfsharingengine.h)
-description: Enables the PlayToConnection object to connect to a media element.
+description: Enables the PlayToConnection object to connect to a media element.helpviewer_keywords: ["IPlayToControl","IPlayToControl interface [Media Foundation]","IPlayToControl interface [Media Foundation]","described","mf.iplaytocontrol","mfsharingengine/IPlayToControl"]
 old-location: mf\iplaytocontrol.htm
 tech.root: medfound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254

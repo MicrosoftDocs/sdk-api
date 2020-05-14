@@ -1,7 +1,7 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateExtensionFlags
 title: ICertServerExit::GetCertificateExtensionFlags (certif.h)
-description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
+description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.helpviewer_keywords: ["CCertServerExit object [Security]","GetCertificateExtensionFlags method","GetCertificateExtensionFlags","GetCertificateExtensionFlags method [Security]","GetCertificateExtensionFlags method [Security]","CCertServerExit object","GetCertificateExtensionFlags method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","GetCertificateExtensionFlags method","ICertServerExit.GetCertificateExtensionFlags","ICertServerExit::GetCertificateExtensionFlags","_certsrv_icertserverexit_getcertificateextensionflags","certif/ICertServerExit::GetCertificateExtensionFlags","security.icertserverexit_getcertificateextensionflags"]
 old-location: security\icertserverexit_getcertificateextensionflags.htm
 tech.root: SecCrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d

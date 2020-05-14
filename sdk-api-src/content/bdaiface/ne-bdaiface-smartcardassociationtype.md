@@ -1,7 +1,7 @@
 ---
 UID: NE:bdaiface.SmartCardAssociationType
 title: SmartCardAssociationType (bdaiface.h)
-description: The SmartCardAssociationType enumeration type specifies a smart card association.
+description: The SmartCardAssociationType enumeration type specifies a smart card association.helpviewer_keywords: ["Associated","AssociationUnknown","NotAssociated","SmartCardAssociationType","SmartCardAssociationType enumeration [Microsoft TV Technologies]","bdaiface/Associated","bdaiface/AssociationUnknown","bdaiface/NotAssociated","bdaiface/SmartCardAssociationType","mstv.smartcardassociationtype"]
 old-location: mstv\smartcardassociationtype.htm
 tech.root: mstv
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7

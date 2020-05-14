@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetNumaAvailableMemoryNodeEx
 title: GetNumaAvailableMemoryNodeEx function (winbase.h)
-description: Retrieves the amount of memory that is available in a node specified as a USHORT value.
+description: Retrieves the amount of memory that is available in a node specified as a USHORT value.helpviewer_keywords: ["GetNumaAvailableMemoryNodeEx","GetNumaAvailableMemoryNodeEx function","base.getnumaavailablememorynodeex","winbase/GetNumaAvailableMemoryNodeEx"]
 old-location: base\getnumaavailablememorynodeex.htm
 tech.root: ProcThread
 ms.assetid: 59382114-f3da-45e0-843e-51c0fd52a164

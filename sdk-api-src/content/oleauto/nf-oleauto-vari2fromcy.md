@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI2FromCy
 title: VarI2FromCy function (oleauto.h)
-description: Converts a currency value to a short value.
+description: Converts a currency value to a short value.helpviewer_keywords: ["VarI2FromCy","VarI2FromCy function [Automation]","_oa96_VarI2FromCy","automat.vari2fromcy","oleauto/VarI2FromCy"]
 old-location: automat\vari2fromcy.htm
 tech.root: automat
 ms.assetid: 37721ece-f02b-486a-a11d-289956294815

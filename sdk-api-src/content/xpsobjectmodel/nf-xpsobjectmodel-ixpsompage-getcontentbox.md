@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPage.GetContentBox
 title: IXpsOMPage::GetContentBox (xpsobjectmodel.h)
 description: Gets the dimensions of the page's content box.
+helpviewer_keywords: ["GetContentBox","GetContentBox method [XPS Documents and Packaging]","GetContentBox method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetContentBox method","IXpsOMPage.GetContentBox","IXpsOMPage::GetContentBox","xps.ixpsompage_getcontentbox","xpsobjectmodel/IXpsOMPage::GetContentBox"]
 old-location: xps\ixpsompage_getcontentbox.htm
 tech.root: printdocs
 ms.assetid: 6402bcd0-84cb-472f-8c3c-1fe34eecc6d2
@@ -112,7 +113,7 @@ The default content box of a page is
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> field</th>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> field</th>
 <th>Default value</th>
 </tr>
 <tr>
@@ -154,7 +155,7 @@ The default content box of a page is
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

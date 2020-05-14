@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.BindMoniker
 title: BindMoniker function (objbase.h)
-description: Locates an object by means of its moniker, activates the object if it is inactive, and retrieves a pointer to the specified interface on that object.
+description: Locates an object by means of its moniker, activates the object if it is inactive, and retrieves a pointer to the specified interface on that object.helpviewer_keywords: ["BindMoniker","BindMoniker function [COM]","_com_BindMoniker","com.bindmoniker","objbase/BindMoniker"]
 old-location: com\bindmoniker.htm
 tech.root: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4

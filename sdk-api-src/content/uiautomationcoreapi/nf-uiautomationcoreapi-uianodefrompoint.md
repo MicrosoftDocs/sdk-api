@@ -2,6 +2,7 @@
 UID: NF:uiautomationcoreapi.UiaNodeFromPoint
 title: UiaNodeFromPoint function (uiautomationcoreapi.h)
 description: Retrieves the UI Automation node for the element at the specified point.
+helpviewer_keywords: ["UiaNodeFromPoint","UiaNodeFromPoint function [Windows Accessibility]","uiauto.uiauto_UiaNodeFromPointFunction","uiauto_UiaNodeFromPointFunction","uiautomationcoreapi/UiaNodeFromPoint","winauto.uiauto_UiaNodeFromPointFunction"]
 old-location: winauto\uiauto_UiaNodeFromPointFunction.htm
 tech.root: WinAuto
 ms.assetid: 46da2f6a-3cb7-4220-b578-4fcf9711b99f
@@ -80,9 +81,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized.
+The address of a variable that receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized.
 
 
 ### -param ppTreeStructure [out]

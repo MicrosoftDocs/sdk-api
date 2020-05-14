@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_DISK_SET_DRIVE_LAYOUT
 title: IOCTL_DISK_SET_DRIVE_LAYOUT
 description: Partitions a disk as specified by drive layout and partition information data.
+helpviewer_keywords: ["IOCTL_DISK_SET_DRIVE_LAYOUT","IOCTL_DISK_SET_DRIVE_LAYOUT control","IOCTL_DISK_SET_DRIVE_LAYOUT control code [Files]","_win32_ioctl_disk_set_drive_layout","base.ioctl_disk_set_drive_layout","fs.ioctl_disk_set_drive_layout","winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT"]
 old-location: fs\ioctl_disk_set_drive_layout.htm
 tech.root: FileIO
 ms.assetid: 8cace6a5-666a-4d35-a557-6bf0564dbe58
@@ -57,14 +58,14 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 
 ```cpp
 BOOL DeviceIoControl(
-  (HANDLE) hDevice,              // handle to device
-  IOCTL_DISK_SET_DRIVE_LAYOUT,   //dwIoControlCode
-  (LPVOID) lpInBuffer,           // input buffer
-  (DWORD) nInBufferSize,         // size of input buffer
-  NULL,                          // lpOutBuffer
-  0,                             // nOutBufferSize
-  (LPDWORD) lpBytesReturned,     // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
+  (HANDLE) hDevice,             // handle to device
+  IOCTL_DISK_SET_DRIVE_LAYOUT,  // dwIoControlCode
+  (LPVOID) lpInBuffer,          // input buffer
+  (DWORD) nInBufferSize,        // size of input buffer
+  NULL,                         // lpOutBuffer
+  0,                            // nOutBufferSize
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
 );
 ```
 
@@ -118,4 +119,8 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 ## -see-also
 
-[DRIVE_LAYOUT_INFORMATION](ns-winioctl-drive_layout_information.md), [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md), [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes), [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout_ex.md), [IOCTL_DISK_GET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_get_drive_layout.md)
+* [DRIVE_LAYOUT_INFORMATION](ns-winioctl-drive_layout_information.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
+* [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout_ex.md)
+* [IOCTL_DISK_GET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_get_drive_layout.md)

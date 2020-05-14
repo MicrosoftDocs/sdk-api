@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsRemoveHeader
 title: WsRemoveHeader function (webservices.h)
-description: Removes the standard WS_HEADER_TYPE object from a message.
+description: Removes the standard WS_HEADER_TYPE object from a message.helpviewer_keywords: ["WsRemoveHeader","WsRemoveHeader function [Web Services for Windows]","webservices/WsRemoveHeader","wsw.wsremoveheader"]
 old-location: wsw\wsremoveheader.htm
 tech.root: wsw
 ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72

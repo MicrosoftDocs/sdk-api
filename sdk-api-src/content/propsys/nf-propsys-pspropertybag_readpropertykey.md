@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPropertyKey
 title: PSPropertyBag_ReadPropertyKey function (propsys.h)
-description: Reads the property key of a property in a specified property bag.
+description: Reads the property key of a property in a specified property bag.helpviewer_keywords: ["PSPropertyBag_ReadPropertyKey","PSPropertyBag_ReadPropertyKey function [Windows Properties]","properties.PSPropertyBag_ReadPropertyKey","propsys/PSPropertyBag_ReadPropertyKey","shell.PSPropertyBag_ReadPropertyKey"]
 old-location: properties\PSPropertyBag_ReadPropertyKey.htm
 tech.root: properties
 ms.assetid: 910D1356-DC61-470b-90BB-0DCF1B861E05

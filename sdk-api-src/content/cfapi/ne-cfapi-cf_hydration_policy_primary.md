@@ -1,7 +1,7 @@
 ---
 UID: NE:cfapi.CF_HYDRATION_POLICY_PRIMARY
 title: CF_HYDRATION_POLICY_PRIMARY (cfapi.h)
-description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is the primary policy.
+description: Allows a sync provider to control how placeholder files should be hydrated by the platform. This is the primary policy.helpviewer_keywords: ["CF_HYDRATION_POLICY_ALWAYS_FULL","CF_HYDRATION_POLICY_FULL","CF_HYDRATION_POLICY_PARTIAL","CF_HYDRATION_POLICY_PRIMARY","CF_HYDRATION_POLICY_PRIMARY enumeration","CF_HYDRATION_POLICY_PROGRESSIVE","cfapi/CF_HYDRATION_POLICY_ALWAYS_FULL","cfapi/CF_HYDRATION_POLICY_FULL","cfapi/CF_HYDRATION_POLICY_PARTIAL","cfapi/CF_HYDRATION_POLICY_PRIMARY","cfapi/CF_HYDRATION_POLICY_PROGRESSIVE","cloudApi.cf_hydration_policy_primary"]
 old-location: cloudapi\cf_hydration_policy_primary.htm
 tech.root: cfApi
 ms.assetid: 47ACA107-80AA-42B3-B583-399323E2B11C

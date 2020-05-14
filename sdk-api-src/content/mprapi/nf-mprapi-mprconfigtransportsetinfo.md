@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprConfigTransportSetInfo
 title: MprConfigTransportSetInfo function (mprapi.h)
-description: The MprConfigTransportSetInfo function changes the configuration for the specified transport protocol in the specified router configuration.
+description: The MprConfigTransportSetInfo function changes the configuration for the specified transport protocol in the specified router configuration.helpviewer_keywords: ["MprConfigTransportSetInfo","MprConfigTransportSetInfo function [RAS]","_mpr_mprconfigtransportsetinfo","mprapi/MprConfigTransportSetInfo","rras.mprconfigtransportsetinfo"]
 old-location: rras\mprconfigtransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: 571149a5-5a09-4a04-9327-47aecca7d17f

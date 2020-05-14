@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMalloc.Alloc
 title: IMalloc::Alloc (objidl.h)
-description: Allocates a block of memory.
+description: Allocates a block of memory.helpviewer_keywords: ["Alloc","Alloc method [COM]","Alloc method [COM]","IMalloc interface","IMalloc interface [COM]","Alloc method","IMalloc.Alloc","IMalloc::Alloc","_com_imalloc_alloc","com.imalloc_alloc","objidl/IMalloc::Alloc"]
 old-location: com\imalloc_alloc.htm
 tech.root: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480

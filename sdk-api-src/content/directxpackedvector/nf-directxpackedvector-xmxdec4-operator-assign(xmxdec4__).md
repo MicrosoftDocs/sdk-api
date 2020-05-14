@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMXDEC4.operator-assign(XMXDEC4 &&)
 title: XMXDEC4::operator=
-description: Assigns the vector component data from one instance of XMXDEC4 to the current instance of XMXDEC4.
+description: Assigns the vector component data from one instance of XMXDEC4 to the current instance of XMXDEC4.helpviewer_keywords: ["XMXDEC4::operator="]
 ms.assetid: c5472b9e-619f-4760-9db6-54cd191e5007
 ms.date: 05/20/2019
 ms.keywords: XMXDEC4::operator=

@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPM2.GetBackupDirEx
 title: IGPM2::GetBackupDirEx (gpmgmt.h)
-description: For a Group Policy object (GPO), the GetBackupDirEx method creates and returns a GPMBackupDirEx object, which you can use to access a GPMBackup or GPMBackupCollection object.
+description: For a Group Policy object (GPO), the GetBackupDirEx method creates and returns a GPMBackupDirEx object, which you can use to access a GPMBackup or GPMBackupCollection object.helpviewer_keywords: ["GetBackupDirEx","GetBackupDirEx method [GPMC]","GetBackupDirEx method [GPMC]","IGPM2 interface","IGPM2 interface [GPMC]","GetBackupDirEx method","IGPM2.GetBackupDirEx","IGPM2::GetBackupDirEx","gpmc.igpm2_getbackupdirex","gpmgmt/IGPM2::GetBackupDirEx"]
 old-location: gpmc\igpm2_getbackupdirex.htm
 tech.root: gpmc
 ms.assetid: 2fe4ea93-6668-4534-b72e-71b1062db627

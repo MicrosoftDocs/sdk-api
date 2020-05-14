@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI4FromDate
 title: VarUI4FromDate function (oleauto.h)
-description: Converts a date value to an unsigned long value.
+description: Converts a date value to an unsigned long value.helpviewer_keywords: ["VarUI4FromDate","VarUI4FromDate function [Automation]","_oa96_VarUI4FromDate","automat.varui4fromdate","oleauto/VarUI4FromDate"]
 old-location: automat\varui4fromdate.htm
 tech.root: automat
 ms.assetid: 838b2e35-f00d-4962-8863-5619589073fb

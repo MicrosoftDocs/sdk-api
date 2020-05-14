@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterGroupSetGetEnumCount
 title: ClusterGroupSetGetEnumCount function (clusapi.h)
-description: Gets the number of items contained the enumerator's collection.
+description: Gets the number of items contained the enumerator's collection.helpviewer_keywords: ["ClusterGroupSetGetEnumCount","ClusterGroupSetGetEnumCount function [Failover Cluster]","clusapi/ClusterGroupSetGetEnumCount","mscs.clustergroupcollectiongetenumcount"]
 old-location: mscs\clustergroupcollectiongetenumcount.htm
 tech.root: MsCS
 ms.assetid: 7e5f3b47-0f31-46eb-8e71-5bd1dc27190d

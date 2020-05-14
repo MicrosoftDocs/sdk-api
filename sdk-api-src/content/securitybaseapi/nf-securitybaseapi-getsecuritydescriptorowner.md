@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorOwner
 title: GetSecurityDescriptorOwner function (securitybaseapi.h)
-description: Retrieves the owner information from a security descriptor.
+description: Retrieves the owner information from a security descriptor.helpviewer_keywords: ["GetSecurityDescriptorOwner","GetSecurityDescriptorOwner function [Security]","_win32_getsecuritydescriptorowner","security.getsecuritydescriptorowner","securitybaseapi/GetSecurityDescriptorOwner"]
 old-location: security\getsecuritydescriptorowner.htm
 tech.root: SecAuthZ
 ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d

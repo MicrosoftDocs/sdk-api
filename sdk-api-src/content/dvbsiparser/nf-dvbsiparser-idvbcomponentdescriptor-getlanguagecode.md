@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetLanguageCode
 title: IDvbComponentDescriptor::GetLanguageCode (dvbsiparser.h)
-description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) component descriptor.
+description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) component descriptor.helpviewer_keywords: ["GetLanguageCode","GetLanguageCode method [Microsoft TV Technologies]","GetLanguageCode method [Microsoft TV Technologies]","IDvbComponentDescriptor interface","IDvbComponentDescriptor interface [Microsoft TV Technologies]","GetLanguageCode method","IDvbComponentDescriptor.GetLanguageCode","IDvbComponentDescriptor::GetLanguageCode","dvbsiparser/IDvbComponentDescriptor::GetLanguageCode","mstv.idvbcomponentdescriptor_getlanguagecode"]
 old-location: mstv\idvbcomponentdescriptor_getlanguagecode.htm
 tech.root: mstv
 ms.assetid: 9898cd33-db5d-41d3-9e3d-77da2ff38e44

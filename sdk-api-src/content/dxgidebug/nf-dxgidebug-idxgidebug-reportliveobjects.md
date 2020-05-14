@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug.ReportLiveObjects
 title: IDXGIDebug::ReportLiveObjects (dxgidebug.h)
-description: Reports info about the lifetime of an object or objects.
+description: Reports info about the lifetime of an object or objects.helpviewer_keywords: ["IDXGIDebug interface [DXGI]","ReportLiveObjects method","IDXGIDebug.ReportLiveObjects","IDXGIDebug::ReportLiveObjects","ReportLiveObjects","ReportLiveObjects method [DXGI]","ReportLiveObjects method [DXGI]","IDXGIDebug interface","direct3ddxgi.idxgidebug_reportliveobjects","dxgidebug/IDXGIDebug::ReportLiveObjects"]
 old-location: direct3ddxgi\idxgidebug_reportliveobjects.htm
 tech.root: direct3ddxgi
 ms.assetid: 6CA5C335-08E3-4CC6-A9C9-D7BC6B11C0EA

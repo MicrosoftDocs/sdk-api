@@ -2,6 +2,7 @@
 UID: NI:winioctl.IOCTL_DISK_GET_CACHE_INFORMATION
 title: IOCTL_DISK_GET_CACHE_INFORMATION
 description: Retrieves the disk cache configuration data.
+helpviewer_keywords: ["IOCTL_DISK_GET_CACHE_INFORMATION","IOCTL_DISK_GET_CACHE_INFORMATION control","IOCTL_DISK_GET_CACHE_INFORMATION control code [Files]","base.ioctl_disk_get_cache_information","fs.ioctl_disk_get_cache_information","winioctl/IOCTL_DISK_GET_CACHE_INFORMATION"]
 old-location: fs\ioctl_disk_get_cache_information.htm
 tech.root: FileIO
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f
@@ -44,93 +45,47 @@ req.redist:
 
 # IOCTL_DISK_GET_CACHE_INFORMATION IOCTL
 
-
 ## -description
-
 
 Retrieves the disk cache configuration data.
 
-To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
-  IOCTL_DISK_GET_CACHE_INFORMATION, // dwIoControlCodeNULL,                             // lpInBuffer0,                                // nInBufferSize(LPVOID) lpOutBuffer,             // output buffer
+  IOCTL_DISK_GET_CACHE_INFORMATION, // dwIoControlCode
+  NULL,                             // lpInBuffer
+  0,                                // nInBufferSize
+  (LPVOID) lpOutBuffer,             // output buffer
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -139,36 +94,14 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 
-
-
 ## -remarks
 
-
-
-To set the disk cache information, use the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a> control code.
-
-
+To set the disk cache information, use the [IOCTL_DISK_SET_CACHE_INFORMATION](ni-winioctl-ioctl_disk_set_cache_information.md) control code.
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_cache_information">DISK_CACHE_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a>
- 
-
- 
-
+* [DISK_CACHE_INFORMATION](ns-winioctl-disk_cache_information.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [IOCTL_DISK_SET_CACHE_INFORMATION](ni-winioctl-ioctl_disk_set_cache_information.md)

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorCosEst
 title: XMVectorCosEst function (directxmath.h)
-description: Estimates the cosine of each component of an XMVECTOR.
+description: Estimates the cosine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorCosEst","XMVectorCosEst","XMVectorCosEst method [DirectX Math Support APIs]","dxmath.xmvectorcosest"]
 old-location: dxmath\xmvectorcosest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorCosEst(XMVECTOR)

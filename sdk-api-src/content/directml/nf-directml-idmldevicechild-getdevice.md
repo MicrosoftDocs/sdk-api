@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLDeviceChild.GetDevice
 title: IDMLDeviceChild::GetDevice
-description: Retrieves the DirectML device that was used to create this object.
+description: Retrieves the DirectML device that was used to create this object.helpviewer_keywords: ["GetDevice","GetDevice method","GetDevice method","IDMLDeviceChild interface","IDMLDeviceChild interface","GetDevice method","IDMLDeviceChild.GetDevice","IDMLDeviceChild::GetDevice","direct3d12.idmldevicechild_getdevice","directml/IDMLDeviceChild::GetDevice"]
 old-location: direct3d12\idmldevicechild_getdevice.htm
 tech.root: direct3d12
 ms.assetid: 9839C889-D6F7-401A-A335-B2F63C8F30D8

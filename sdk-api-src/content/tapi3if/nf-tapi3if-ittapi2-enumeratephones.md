@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITTAPI2.EnumeratePhones
 title: ITTAPI2::EnumeratePhones (tapi3if.h)
-description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty enumeration and returns S_OK.
+description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty enumeration and returns S_OK.helpviewer_keywords: ["EnumeratePhones","EnumeratePhones method [TAPI 2.2]","EnumeratePhones method [TAPI 2.2]","ITTAPI2 interface","ITTAPI2 interface [TAPI 2.2]","EnumeratePhones method","ITTAPI2.EnumeratePhones","ITTAPI2::EnumeratePhones","_tapi3_ittapi2_enumeratephones","tapi3.ittapi2_enumeratephones","tapi3if/ITTAPI2::EnumeratePhones"]
 old-location: tapi3\ittapi2_enumeratephones.htm
 tech.root: Tapi
 ms.assetid: 6b6aba8d-fbf7-459f-9bc8-79647194b989

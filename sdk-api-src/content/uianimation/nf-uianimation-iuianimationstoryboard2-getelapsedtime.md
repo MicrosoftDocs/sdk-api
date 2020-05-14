@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationStoryboard2.GetElapsedTime
 title: IUIAnimationStoryboard2::GetElapsedTime (uianimation.h)
 description: Gets the time that has elapsed since the storyboard started playing.
+helpviewer_keywords: ["GetElapsedTime","GetElapsedTime method [Windows Animation]","GetElapsedTime method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","GetElapsedTime method","IUIAnimationStoryboard2.GetElapsedTime","IUIAnimationStoryboard2::GetElapsedTime","uianimation.iuianimationstoryboard2_getelapsedtime","uianimation/IUIAnimationStoryboard2::GetElapsedTime"]
 old-location: uianimation\iuianimationstoryboard2_getelapsedtime.htm
 tech.root: UIAnimation
 ms.assetid: 014F8A6A-345A-4DA7-8002-20A4683BB3B6
@@ -103,7 +104,7 @@ The storyboard is not playing.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

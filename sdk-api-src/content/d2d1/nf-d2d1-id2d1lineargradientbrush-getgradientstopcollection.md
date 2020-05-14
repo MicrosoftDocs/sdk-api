@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.GetGradientStopCollection
 title: ID2D1LinearGradientBrush::GetGradientStopCollection (d2d1.h)
-description: Retrieves the ID2D1GradientStopCollection associated with this linear gradient brush.
+description: Retrieves the ID2D1GradientStopCollection associated with this linear gradient brush.helpviewer_keywords: ["GetGradientStopCollection","GetGradientStopCollection method [Direct2D]","GetGradientStopCollection method [Direct2D]","ID2D1LinearGradientBrush interface","ID2D1LinearGradientBrush interface [Direct2D]","GetGradientStopCollection method","ID2D1LinearGradientBrush.GetGradientStopCollection","ID2D1LinearGradientBrush::GetGradientStopCollection","d2d1/ID2D1LinearGradientBrush::GetGradientStopCollection","direct2d.ID2D1LinearGradientBrush_GetGradientStopCollection"]
 old-location: direct2d\ID2D1LinearGradientBrush_GetGradientStopCollection.htm
 tech.root: Direct2D
 ms.assetid: 2433d8ed-112e-4620-b207-42bf9e084e23
@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> associated with this linear gradient brush.
+Retrieves the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> associated with this linear gradient brush.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2
 
 ### -param gradientStopCollection [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>**</b>
 
-The  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> object associated with this linear gradient brush object. This parameter is passed uninitialized. 
+The  <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> object associated with this linear gradient brush object. This parameter is passed uninitialized. 
 
 
 ## -remarks
@@ -69,7 +69,7 @@ The  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1g
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures and information, such as the extend mode and the color interpolation mode.
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> contains an array of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures and information, such as the extend mode and the color interpolation mode.
 
 
 
@@ -79,15 +79,15 @@ The  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1g
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a>
+<a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>
  
 
  

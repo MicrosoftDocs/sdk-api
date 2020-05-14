@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetMulticastIpAddressEntry
 title: GetMulticastIpAddressEntry function (netioapi.h)
-description: Retrieves information for an existing multicast IP address entry on the local computer.
+description: Retrieves information for an existing multicast IP address entry on the local computer.helpviewer_keywords: ["GetMulticastIpAddressEntry","GetMulticastIpAddressEntry function [IP Helper]","iphlp.getmulticastipaddressentry","netioapi/GetMulticastIpAddressEntry"]
 old-location: iphlp\getmulticastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: dc6401b6-7692-44a5-b2f0-4e729b996765

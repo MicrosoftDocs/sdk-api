@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1539
 title: SERVER_INFO_1539 (lmserver.h)
-description: The SERVER_INFO_1539 structure specifies whether the server processes raw Server Message Blocks (SMBs).
+description: The SERVER_INFO_1539 structure specifies whether the server processes raw Server Message Blocks (SMBs).helpviewer_keywords: ["*LPSERVER_INFO_1539","*PSERVER_INFO_1539","LPSERVER_INFO_1539","LPSERVER_INFO_1539 structure pointer [Network Management]","PSERVER_INFO_1539","PSERVER_INFO_1539 structure pointer [Network Management]","SERVER_INFO_1539","SERVER_INFO_1539 structure [Network Management]","_win32_server_info_1539_str","lmserver/LPSERVER_INFO_1539","lmserver/PSERVER_INFO_1539","lmserver/SERVER_INFO_1539","netmgmt.server_info_1539_str"]
 old-location: netmgmt\server_info_1539_str.htm
 tech.root: NetMgmt
 ms.assetid: 938c6db6-16ab-4c8c-8fe3-e12f8e0421b4

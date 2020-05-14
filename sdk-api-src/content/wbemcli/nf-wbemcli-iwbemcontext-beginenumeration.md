@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemContext.BeginEnumeration
 title: IWbemContext::BeginEnumeration (wbemcli.h)
-description: The IWbemContext::BeginEnumeration method resets the enumeration of all the context values in the object.
+description: The IWbemContext::BeginEnumeration method resets the enumeration of all the context values in the object.helpviewer_keywords: ["BeginEnumeration","BeginEnumeration method [Windows Management Instrumentation]","BeginEnumeration method [Windows Management Instrumentation]","IWbemContext interface","IWbemContext interface [Windows Management Instrumentation]","BeginEnumeration method","IWbemContext.BeginEnumeration","IWbemContext::BeginEnumeration","_hmm_iwbemcontext_beginenumeration","wbemcli/IWbemContext::BeginEnumeration","wmi.iwbemcontext_beginenumeration"]
 old-location: wmi\iwbemcontext_beginenumeration.htm
 tech.root: WmiSdk
 ms.assetid: 34106c63-3b50-4078-babf-12173bd702ba

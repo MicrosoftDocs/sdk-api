@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetTop(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetTop(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the Top property of a clip rectangle.
+description: Animates the value of the Top property of a clip rectangle.helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetTop method","IDCompositionRectangleClip.SetTop","IDCompositionRectangleClip.SetTop(IDCompositionAnimation)","IDCompositionRectangleClip::SetTop","IDCompositionRectangleClip::SetTop(IDCompositionAnimation)","IDCompositionRectangleClip::SetTop(IDCompositionAnimation*)","SetTop","SetTop method [DirectComposition]","SetTop method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetTop","directcomp.idcompositionrectangleclip_settop_idcompositionanimation"]
 old-location: directcomp\idcompositionrectangleclip_settop_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: EDA9C74C-A3B1-4D49-9A76-B95175EA2E91

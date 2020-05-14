@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_BUFFER_SRV
 title: D3D12_BUFFER_SRV (d3d12.h)
-description: Describes the elements in a buffer resource to use in a shader-resource view.
+description: Describes the elements in a buffer resource to use in a shader-resource view.helpviewer_keywords: ["D3D12_BUFFER_SRV","D3D12_BUFFER_SRV structure","d3d12/D3D12_BUFFER_SRV","direct3d12.d3d12_buffer_srv"]
 old-location: direct3d12\d3d12_buffer_srv.htm
 tech.root: direct3d12
 ms.assetid: FD5FBA65-4C70-487F-8D93-0EC5668BCE4A

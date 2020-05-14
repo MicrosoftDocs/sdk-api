@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.FindStorage
 title: IWMDMStorage4::FindStorage (mswmdm.h)
-description: The FindStorage method retrieves a storage in the current root storage, based on its persistent unique identifier.
+description: The FindStorage method retrieves a storage in the current root storage, based on its persistent unique identifier.helpviewer_keywords: ["FindStorage","FindStorage method [windows Media Device Manager]","FindStorage method [windows Media Device Manager]","IWMDMStorage4 interface","IWMDMStorage4 interface [windows Media Device Manager]","FindStorage method","IWMDMStorage4.FindStorage","IWMDMStorage4::FindStorage","IWMDMStorage4FindStorage","mswmdm/IWMDMStorage4::FindStorage","wmdm.iwmdmstorage4_findstorage"]
 old-location: wmdm\iwmdmstorage4_findstorage.htm
 tech.root: WMDM
 ms.assetid: 93ca4488-beaf-4617-99ba-19bb7707d4ba

@@ -2,6 +2,7 @@
 UID: NF:faxcomex._IFaxServerNotify2.OnNewCall
 title: _IFaxServerNotify2::OnNewCall (faxcomex.h)
 description: The fax service calls the IFaxServerNotify2::OnNewCall method when there is a new incoming fax call.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnNewCall method","IFaxServerNotify2.OnNewCall","IFaxServerNotify2::OnNewCall","OnNewCall","OnNewCall method [Fax Service]","OnNewCall method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnNewCall","_IFaxServerNotify2::OnNewCall","_mfax_ifaxservernotify2_onnewcall","fax._mfax_ifaxservernotify2_onnewcall","faxcomex/IFaxServerNotify2::OnNewCall"]
 old-location: fax\_mfax_ifaxservernotify2_onnewcall.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onnewcall.htm
@@ -111,7 +112,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

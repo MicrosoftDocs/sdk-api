@@ -2,6 +2,7 @@
 UID: NF:windns.DnsNameCompare_W
 title: DnsNameCompare_W function (windns.h)
 description: The DnsNameCompare function compares two DNS names.
+helpviewer_keywords: ["DnsNameCompare","DnsNameCompare function [DNS]","DnsNameCompare_A","DnsNameCompare_UTF8","DnsNameCompare_W","_dns_dnsnamecompare","dns.dnsnamecompare","windns/DnsNameCompare","windns/DnsNameCompare_A","windns/DnsNameCompare_UTF8","windns/DnsNameCompare_W"]
 old-location: dns\dnsnamecompare.htm
 tech.root: DNS
 ms.assetid: 4a1512b3-8273-4632-9426-daa36456bce3
@@ -111,7 +112,7 @@ As with other DNS comparison functions, the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 

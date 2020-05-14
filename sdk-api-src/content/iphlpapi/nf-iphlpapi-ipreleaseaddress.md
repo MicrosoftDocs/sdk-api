@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.IpReleaseAddress
 title: IpReleaseAddress function (iphlpapi.h)
-description: The IpReleaseAddress function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).
+description: The IpReleaseAddress function releases an IPv4 address previously obtained through the Dynamic Host Configuration Protocol (DHCP).helpviewer_keywords: ["IpReleaseAddress","IpReleaseAddress function [IP Helper]","_iphlp_ipreleaseaddress","iphlp.ipreleaseaddress","iphlpapi/IpReleaseAddress"]
 old-location: iphlp\ipreleaseaddress.htm
 tech.root: IpHlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc

@@ -1,7 +1,7 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
 title: IMFVideoMixerBitmap::UpdateAlphaBitmapParameters (evr9.h)
-description: Updates the current alpha-blending settings, including the source and destination rectangles, the color key, and other information. You can update some or all of the blending parameters.
+description: Updates the current alpha-blending settings, including the source and destination rectangles, the color key, and other information. You can update some or all of the blending parameters.helpviewer_keywords: ["369bf934-b0a0-44b2-bea2-e8575404d36d","IMFVideoMixerBitmap interface [Media Foundation]","UpdateAlphaBitmapParameters method","IMFVideoMixerBitmap.UpdateAlphaBitmapParameters","IMFVideoMixerBitmap::UpdateAlphaBitmapParameters","UpdateAlphaBitmapParameters","UpdateAlphaBitmapParameters method [Media Foundation]","UpdateAlphaBitmapParameters method [Media Foundation]","IMFVideoMixerBitmap interface","evr9/IMFVideoMixerBitmap::UpdateAlphaBitmapParameters","mf.imfvideomixerbitmap_updatealphabitmapparameters"]
 old-location: mf\imfvideomixerbitmap_updatealphabitmapparameters.htm
 tech.root: medfound
 ms.assetid: 369bf934-b0a0-44b2-bea2-e8575404d36d

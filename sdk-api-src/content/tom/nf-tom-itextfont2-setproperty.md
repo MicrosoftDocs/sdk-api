@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.SetProperty
 title: ITextFont2::SetProperty (tom.h)
-description: Sets the value of the specified property.
+description: Sets the value of the specified property.helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetProperty method","ITextFont2.SetProperty","ITextFont2::SetProperty","SetProperty","SetProperty method [Windows Controls]","SetProperty method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setproperty","tom/ITextFont2::SetProperty"]
 old-location: controls\itextfont2_setproperty.htm
 tech.root: Controls
 ms.assetid: c4d35fed-9bf5-431e-96c9-b1d51d51703a

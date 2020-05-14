@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.PropSheet_EnableWizButtons
 title: PropSheet_EnableWizButtons macro (prsht.h)
-description: Enables or disables buttons in an Aero wizard. You can use this macro or send the PSM_ENABLEWIZBUTTONS message explicitly.
+description: Enables or disables buttons in an Aero wizard. You can use this macro or send the PSM_ENABLEWIZBUTTONS message explicitly.helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_CANCEL","PSWIZB_FINISH","PSWIZB_NEXT","PropSheet_EnableWizButtons","PropSheet_EnableWizButtons macro [Windows Controls]","_win32_PropSheet_EnableWizButtons","_win32_PropSheet_EnableWizButtons_cpp","controls.PropSheet_EnableWizButtons","controls._win32_PropSheet_EnableWizButtons","prsht/PropSheet_EnableWizButtons"]
 old-location: controls\PropSheet_EnableWizButtons.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_enablewizbuttons.htm

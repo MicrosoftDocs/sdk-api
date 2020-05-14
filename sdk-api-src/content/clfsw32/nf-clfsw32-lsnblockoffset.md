@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.LsnBlockOffset
 title: LsnBlockOffset function (clfsw32.h)
-description: Returns the sector-aligned block offset that is contained in the specified LSN.
+description: Returns the sector-aligned block offset that is contained in the specified LSN.helpviewer_keywords: ["LsnBlockOffset","LsnBlockOffset function [Files]","clfsw32/LsnBlockOffset","fs.lsnblockoffset"]
 old-location: fs\lsnblockoffset.htm
 tech.root: Clfs
 ms.assetid: 72445d03-1b9a-48a6-993e-792e1f524f4b

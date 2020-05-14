@@ -1,7 +1,7 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_PARAMETERS
 title: WLAN_CONNECTION_PARAMETERS (wlanapi.h)
-description: Specifies the parameters used when using the WlanConnect function.
+description: Specifies the parameters used when using the WlanConnect function.helpviewer_keywords: ["*PWLAN_CONNECTION_PARAMETERS","PWLAN_CONNECTION_PARAMETERS","PWLAN_CONNECTION_PARAMETERS structure pointer [NativeWIFI]","WLAN_CONNECTION_PARAMETERS","WLAN_CONNECTION_PARAMETERS structure [NativeWIFI]","nwifi.wlan_connection_parameters","wlanapi/PWLAN_CONNECTION_PARAMETERS","wlanapi/WLAN_CONNECTION_PARAMETERS"]
 old-location: nwifi\wlan_connection_parameters.htm
 tech.root: NativeWiFi
 ms.assetid: e0321447-b89a-4f4e-929e-eb6db76f7283

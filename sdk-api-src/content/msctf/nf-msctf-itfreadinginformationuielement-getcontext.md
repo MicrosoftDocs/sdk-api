@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetContext
 title: ITfReadingInformationUIElement::GetContext (msctf.h)
-description: This method returns the target ITfContext of this reading information UI.
+description: This method returns the target ITfContext of this reading information UI.helpviewer_keywords: ["GetContext","GetContext method [Text Services Framework]","GetContext method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetContext method","ITfReadingInformationUIElement.GetContext","ITfReadingInformationUIElement::GetContext","msctf/ITfReadingInformationUIElement::GetContext","tsf.iitfreadinginformationuielement_getcontext","tsf.itfreadinginformationuielement_getcontext"]
 old-location: tsf\itfreadinginformationuielement_getcontext.htm
 tech.root: TSF
 ms.assetid: 018c10ca-698e-42e6-9439-09f183870f91

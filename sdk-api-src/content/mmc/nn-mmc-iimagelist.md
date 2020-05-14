@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.IImageList
 title: IImageList (mmc.h)
-description: The IImageList interface enables the user to insert images to be used as icons for items in the result or scope pane of the console.
+description: The IImageList interface enables the user to insert images to be used as icons for items in the result or scope pane of the console.helpviewer_keywords: ["IImageList","IImageList interface [MMC]","IImageList interface [MMC]","described","_slate_iimagelist","mmc.iimagelist","mmc/IImageList"]
 old-location: mmc\iimagelist.htm
 tech.root: mmc
 ms.assetid: a957239b-6cb2-4101-adeb-e9ba4f876af4

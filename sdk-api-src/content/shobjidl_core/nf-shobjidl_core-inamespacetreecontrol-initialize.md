@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.INameSpaceTreeControl.Initialize
 title: INameSpaceTreeControl::Initialize (shobjidl_core.h)
 description: Initializes an INameSpaceTreeControl object.
+helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","Initialize method","INameSpaceTreeControl.Initialize","INameSpaceTreeControl::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_Initialize","shell.INameSpaceTreeControl_Initialize","shobjidl_core/INameSpaceTreeControl::Initialize"]
 old-location: shell\INameSpaceTreeControl_Initialize.htm
 tech.root: shell
 ms.assetid: dfc602bd-6e4e-492d-8bf4-1499319adee7
@@ -73,9 +74,9 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param nsctsFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
 
-The characteristics of the given namespace tree control. One or more of the following values from the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a> enumeration.
+The characteristics of the given namespace tree control. One or more of the following values from the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a> enumeration.
 
 
 ## -returns

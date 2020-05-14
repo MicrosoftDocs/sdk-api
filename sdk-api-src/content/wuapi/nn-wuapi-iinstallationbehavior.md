@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IInstallationBehavior
 title: IInstallationBehavior (wuapi.h)
-description: Represents the installation and uninstallation options of an update.
+description: Represents the installation and uninstallation options of an update.helpviewer_keywords: ["IInstallationBehavior","IInstallationBehavior interface [Windows Update Agent]","IInstallationBehavior interface [Windows Update Agent]","described","wua.iinstallationbehavior","wuapi/IInstallationBehavior"]
 old-location: wua\iinstallationbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: 43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74

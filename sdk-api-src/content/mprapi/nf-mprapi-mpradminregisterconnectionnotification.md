@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminRegisterConnectionNotification
 title: MprAdminRegisterConnectionNotification function (mprapi.h)
-description: The MprAdminRegisterConnectionNotification function registers an event object with the Demand Dial Manager (DDM) so that, if an interface connects or disconnects, the event is signaled.
+description: The MprAdminRegisterConnectionNotification function registers an event object with the Demand Dial Manager (DDM) so that, if an interface connects or disconnects, the event is signaled.helpviewer_keywords: ["MprAdminRegisterConnectionNotification","MprAdminRegisterConnectionNotification function [RAS]","_mpr_mpradminregisterconnectionnotification","mprapi/MprAdminRegisterConnectionNotification","rras.mpradminregisterconnectionnotification"]
 old-location: rras\mpradminregisterconnectionnotification.htm
 tech.root: RRAS
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee

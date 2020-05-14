@@ -1,7 +1,7 @@
 ---
 UID: NE:winevt._EVT_LOGIN_CLASS
 title: EVT_LOGIN_CLASS (winevt.h)
-description: Defines the types of connection methods you can use to connect to the remote computer.
+description: Defines the types of connection methods you can use to connect to the remote computer.helpviewer_keywords: ["EVT_LOGIN_CLASS","EvtRpcLogin","_EVT_LOGIN_CLASS","_EVT_LOGIN_CLASS enumeration [EventLog]","wes.evt_login_class","winevt/EvtRpcLogin","winevt/_EVT_LOGIN_CLASS"]
 old-location: wes\evt_login_class.htm
 tech.root: wes
 ms.assetid: 8d53402b-2d2c-4f93-8e98-4449701052b0

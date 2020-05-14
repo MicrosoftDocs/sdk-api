@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.InterpolateValue
 title: IUIAnimationInterpolator2::InterpolateValue (uianimation.h)
-description: Interpolates the value of an animation variable at the specified offset and for the given dimension.
+description: Interpolates the value of an animation variable at the specified offset and for the given dimension.helpviewer_keywords: ["IUIAnimationInterpolator2 interface [Windows Animation]","InterpolateValue method","IUIAnimationInterpolator2.InterpolateValue","IUIAnimationInterpolator2::InterpolateValue","InterpolateValue","InterpolateValue method [Windows Animation]","InterpolateValue method [Windows Animation]","IUIAnimationInterpolator2 interface","uianimation.iuianimationinterpolator2_interpolatevalue","uianimation/IUIAnimationInterpolator2::InterpolateValue"]
 old-location: uianimation\iuianimationinterpolator2_interpolatevalue.htm
 tech.root: UIAnimation
 ms.assetid: A512B264-642A-4E4B-9AEA-DE80B9D99A53

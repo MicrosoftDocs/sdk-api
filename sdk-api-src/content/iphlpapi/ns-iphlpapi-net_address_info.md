@@ -2,6 +2,7 @@
 UID: NS:iphlpapi.NET_ADDRESS_INFO_
 title: NET_ADDRESS_INFO (iphlpapi.h)
 description: Contains IP address information returned by the ParseNetworkString function.
+helpviewer_keywords: ["*PNET_ADDRESS_INFO","NET_ADDRESS_INFO","NET_ADDRESS_INFO structure [IP Helper]","NET_ADDRESS_INFO_","PNET_ADDRESS_INFO","PNET_ADDRESS_INFO structure pointer [IP Helper]","iphlp.net_address_info","iphlpapi/NET_ADDRESS_INFO","iphlpapi/PNET_ADDRESS_INFO"]
 old-location: iphlp\net_address_info.htm
 tech.root: IpHlp
 ms.assetid: 1a59cc13-a3fc-4489-aafd-444a96d9a339
@@ -61,7 +62,7 @@ The <b>NET_ADDRESS_INFO</b> structure contains IP address information returned b
 
 Type: <b>NET_ADDRESS_FORMAT</b>
 
-The format of the network address in the union in this structure. This member is an enumeration value from the [NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)a> enumeration declared in the <i>Iphlpapi.h</i> header file.
+The format of the network address in the union in this structure. This member is an enumeration value from the [NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format) enumeration declared in the <i>Iphlpapi.h</i> header file.
 
 
 ### -field NamedAddress
@@ -122,7 +123,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCK
 
 
 
-[NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)a>
+[NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)
 
 
 

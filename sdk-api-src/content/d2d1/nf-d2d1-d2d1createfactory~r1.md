@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.D2D1CreateFactory~r1
 title: D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**)
-description: Creates a factory object that can be used to create Direct2D resources.
+description: Creates a factory object that can be used to create Direct2D resources.helpviewer_keywords: ["D2D1CreateFactory","D2D1CreateFactory function [Direct2D]","D2D1CreateFactory(D2D1_FACTORY_TYPE","REFIID","void**)","d2d1/D2D1CreateFactory","direct2d.d2d1createfactory"]
 tech.root: Direct2D
 ms.date: 12/05/2018
 ms.keywords: D2D1CreateFactory, D2D1CreateFactory function [Direct2D], D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void**), d2d1/D2D1CreateFactory, direct2d.d2d1createfactory
@@ -69,7 +69,7 @@ When this method returns, contains the address to a pointer to the new factory.
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10).
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/win32/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsnmp.SnmpFreeContext
 title: SnmpFreeContext function (winsnmp.h)
-description: The WinSNMP SnmpFreeContext function releases resources associated with an SNMP context, which is a set of managed object resources.
+description: The WinSNMP SnmpFreeContext function releases resources associated with an SNMP context, which is a set of managed object resources.helpviewer_keywords: ["SnmpFreeContext","SnmpFreeContext function [SNMP]","_snmp_snmpfreecontext","snmp.snmpfreecontext","winsnmp/SnmpFreeContext"]
 old-location: snmp\snmpfreecontext.htm
 tech.root: SNMP
 ms.assetid: 15ab137e-86ea-43fc-ac8c-cd6a76feaa04

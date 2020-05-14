@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Save
 title: IAutomaticUpdatesSettings::Save (wuapi.h)
-description: Applies the current Automatic Updates settings.
+description: Applies the current Automatic Updates settings.helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","Save method","IAutomaticUpdatesSettings.Save","IAutomaticUpdatesSettings::Save","Save","Save method [Windows Update Agent]","Save method [Windows Update Agent]","IAutomaticUpdatesSettings interface","wua.iautomaticupdatessettings_save","wuapi/IAutomaticUpdatesSettings::Save"]
 old-location: wua\iautomaticupdatessettings_save.htm
 tech.root: Wua_Sdk
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6

@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced4
 title: IWMReaderAdvanced4 (wmsdkidl.h)
-description: The IWMReaderAdvanced4 interface provides additional functionality to the reader.An IWMReaderAdvanced4 interface exists for every reader object.
+description: The IWMReaderAdvanced4 interface provides additional functionality to the reader.An IWMReaderAdvanced4 interface exists for every reader object.helpviewer_keywords: ["IWMReaderAdvanced4","IWMReaderAdvanced4 interface [windows Media Format]","IWMReaderAdvanced4 interface [windows Media Format]","described","IWMReaderAdvanced4Interface","wmformat.iwmreaderadvanced4","wmsdkidl/IWMReaderAdvanced4"]
 old-location: wmformat\iwmreaderadvanced4.htm
 tech.root: wmformat
 ms.assetid: 56695c57-f6c5-4c57-b3d4-73d169b379fa

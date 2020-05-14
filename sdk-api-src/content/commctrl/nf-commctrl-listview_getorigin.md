@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_GetOrigin
 title: ListView_GetOrigin macro (commctrl.h)
-description: Gets the current view origin for a list-view control. You can use this macro or send the LVM_GETORIGIN message explicitly.
+description: Gets the current view origin for a list-view control. You can use this macro or send the LVM_GETORIGIN message explicitly.helpviewer_keywords: ["ListView_GetOrigin","ListView_GetOrigin macro [Windows Controls]","_win32_ListView_GetOrigin","_win32_ListView_GetOrigin_cpp","commctrl/ListView_GetOrigin","controls.ListView_GetOrigin","controls._win32_ListView_GetOrigin"]
 old-location: controls\ListView_GetOrigin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getorigin.htm

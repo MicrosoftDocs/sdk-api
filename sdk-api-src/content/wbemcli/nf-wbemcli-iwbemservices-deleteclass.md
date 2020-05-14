@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteClass
 title: IWbemServices::DeleteClass (wbemcli.h)
-description: The IWbemServices::DeleteClass method deletes the specified class from the current namespace.
+description: The IWbemServices::DeleteClass method deletes the specified class from the current namespace.helpviewer_keywords: ["DeleteClass","DeleteClass method [Windows Management Instrumentation]","DeleteClass method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","DeleteClass method","IWbemServices.DeleteClass","IWbemServices::DeleteClass","WBEM_FLAG_OWNER_UPDATE","WBEM_FLAG_RETURN_IMMEDIATELY","_hmm_iwbemservices_deleteclass","wbemcli/IWbemServices::DeleteClass","wmi.iwbemservices_deleteclass"]
 old-location: wmi\iwbemservices_deleteclass.htm
 tech.root: WmiSdk
 ms.assetid: 1266d93a-776c-481d-b343-826a5c808d24

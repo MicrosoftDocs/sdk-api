@@ -1,7 +1,7 @@
 ---
 UID: NE:dot1x._ONEX_NOTIFICATION_TYPE
 title: ONEX_NOTIFICATION_TYPE (dot1x.h)
-description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for 802.1X module notifications.
+description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for 802.1X module notifications.helpviewer_keywords: ["ONEX_NOTIFICATION_TYPE","ONEX_NOTIFICATION_TYPE enumeration [NativeWIFI]","OneXNotificationTypeAuthRestarted","OneXNotificationTypeEventInvalid","OneXNotificationTypeResultUpdate","OneXNumNotifications","OneXPublicNotificationBase","PONEX_NOTIFICATION_TYPE","PONEX_NOTIFICATION_TYPE enumeration pointer [NativeWIFI]","dot1x/ONEX_NOTIFICATION_TYPE","dot1x/OneXNotificationTypeAuthRestarted","dot1x/OneXNotificationTypeEventInvalid","dot1x/OneXNotificationTypeResultUpdate","dot1x/OneXNumNotifications","dot1x/OneXPublicNotificationBase","dot1x/PONEX_NOTIFICATION_TYPE","nwifi.onex_notification_type"]
 old-location: nwifi\onex_notification_type.htm
 tech.root: NativeWiFi
 ms.assetid: c5892938-9798-4c09-a766-4924cda4d090

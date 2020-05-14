@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.InitPlaylistBurn
 title: IWMReaderPlaylistBurn::InitPlaylistBurn (wmsdkidl.h)
-description: The InitPlaylistBurn method initiates the playlist burning process, by checking the files in the playlist to ensure that they are licensed for copying as part of a playlist.
+description: The InitPlaylistBurn method initiates the playlist burning process, by checking the files in the playlist to ensure that they are licensed for copying as part of a playlist.helpviewer_keywords: ["IWMReaderPlaylistBurn interface [windows Media Format]","InitPlaylistBurn method","IWMReaderPlaylistBurn.InitPlaylistBurn","IWMReaderPlaylistBurn::InitPlaylistBurn","IWMReaderPlaylistBurnInitPlaylistBurn","InitPlaylistBurn","InitPlaylistBurn method [windows Media Format]","InitPlaylistBurn method [windows Media Format]","IWMReaderPlaylistBurn interface","wmformat.iwmreaderplaylistburn_initplaylistburn","wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn"]
 old-location: wmformat\iwmreaderplaylistburn_initplaylistburn.htm
 tech.root: wmformat
 ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d

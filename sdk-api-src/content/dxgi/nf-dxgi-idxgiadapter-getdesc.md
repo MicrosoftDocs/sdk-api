@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.GetDesc
 title: IDXGIAdapter::GetDesc (dxgi.h)
-description: Gets a DXGI 1.0 description of an adapter (or video card).
+description: Gets a DXGI 1.0 description of an adapter (or video card).helpviewer_keywords: ["GetDesc","GetDesc method [DXGI]","GetDesc method [DXGI]","IDXGIAdapter interface","IDXGIAdapter interface [DXGI]","GetDesc method","IDXGIAdapter.GetDesc","IDXGIAdapter::GetDesc","d6097f67-3411-f7d2-50dc-507efce034b7","direct3ddxgi.idxgiadapter_getdesc","dxgi/IDXGIAdapter::GetDesc"]
 old-location: direct3ddxgi\idxgiadapter_getdesc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_getdesc.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceCreate
 title: MprAdminInterfaceCreate function (mprapi.h)
-description: The MprAdminInterfaceCreate function creates an interface on a specified server.
+description: The MprAdminInterfaceCreate function creates an interface on a specified server.helpviewer_keywords: ["MprAdminInterfaceCreate","MprAdminInterfaceCreate function [RAS]","_mpr_mpradmininterfacecreate","mprapi/MprAdminInterfaceCreate","rras.mpradmininterfacecreate"]
 old-location: rras\mpradmininterfacecreate.htm
 tech.root: RRAS
 ms.assetid: c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4

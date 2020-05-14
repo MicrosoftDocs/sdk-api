@@ -1,7 +1,7 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 title: DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA (dxvahd.h)
-description: Specifies the destination rectangle for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+description: Specifies the destination rectangle for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA","DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA structure [Media Foundation]","FALSE","TRUE","dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA","mf.dxvahd_stream_state_destination_rect_data"]
 old-location: mf\dxvahd_stream_state_destination_rect_data.htm
 tech.root: medfound
 ms.assetid: f850531b-eee0-4943-8c41-050ec78eab63

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_DeviceIds
 title: IFaxDeviceProvider::get_DeviceIds (faxcomex.h)
-description: The IFaxDeviceProvider::get_DeviceIds property returns a variant safe array of long (VT_I4 | VT_ARRAY). Each long value in the array is a device ID.
+description: The IFaxDeviceProvider::get_DeviceIds property returns a variant safe array of long (VT_I4 | VT_ARRAY). Each long value in the array is a device ID.helpviewer_keywords: ["DeviceIds property [Fax Service]","DeviceIds property [Fax Service]","IFaxDeviceProvider interface","IFaxDeviceProvider interface [Fax Service]","DeviceIds property","IFaxDeviceProvider.DeviceIds","IFaxDeviceProvider.get_DeviceIds","IFaxDeviceProvider::DeviceIds","IFaxDeviceProvider::get_DeviceIds","_mfax_faxdeviceprovider.deviceids","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp","fax._mfax_faxdeviceprovider_deviceids","faxcomex/IFaxDeviceProvider::DeviceIds","faxcomex/IFaxDeviceProvider::get_DeviceIds","get_DeviceIds"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3chf.htm

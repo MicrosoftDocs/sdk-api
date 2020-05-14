@@ -1,7 +1,7 @@
 ---
 UID: NF:mmcobj.ISnapinPropertiesCallback.AddPropertyName
 title: ISnapinPropertiesCallback::AddPropertyName (mmcobj.h)
-description: The AddPropertyName method adds a property, by name, for the snap-in to use.
+description: The AddPropertyName method adds a property, by name, for the snap-in to use.helpviewer_keywords: ["AddPropertyName","AddPropertyName method [MMC]","AddPropertyName method [MMC]","ISnapinPropertiesCallback interface","ISnapinPropertiesCallback interface [MMC]","AddPropertyName method","ISnapinPropertiesCallback.AddPropertyName","ISnapinPropertiesCallback::AddPropertyName","MMC_PROP_CHANGEAFFECTSUI","MMC_PROP_MODIFIABLE","MMC_PROP_PERSIST","MMC_PROP_REMOVABLE","_slate_isnapinpropertiescallback_addpropertyname","mmc.isnapinpropertiescallback_addpropertyname","mmcobj/ISnapinPropertiesCallback::AddPropertyName"]
 old-location: mmc\isnapinpropertiescallback_addpropertyname.htm
 tech.root: mmc
 ms.assetid: 44f2536b-c224-4704-b99a-6e7ef21961bc

@@ -1,7 +1,7 @@
 ---
 UID: NC:winldap.QUERYCLIENTCERT
 title: QUERYCLIENTCERT (winldap.h)
-description: Enables the server to request a certificate from the client when establishing a Secure Sockets Layer (SSL) connection.
+description: Enables the server to request a certificate from the client when establishing a Secure Sockets Layer (SSL) connection.helpviewer_keywords: ["QUERYCLIENTCERT","QUERYCLIENTCERT callback","QUERYCLIENTCERT callback function [LDAP]","_ldap_queryclientcert","ldap.queryclientcert","winldap/QUERYCLIENTCERT"]
 old-location: ldap\queryclientcert.htm
 tech.root: ldap
 ms.assetid: c2788fb9-14db-41d2-9555-ae264f825121

@@ -1,7 +1,7 @@
 ---
 UID: NE:wtsdefs._WRDS_SETTING_STATUS
 title: WRDS_SETTING_STATUS (wtsdefs.h)
-description: Specifies the status of a policy setting for various members of the WRDS_SETTINGS_1 structure.
+description: Specifies the status of a policy setting for various members of the WRDS_SETTINGS_1 structure.helpviewer_keywords: ["*PWRDS_SETTING_STATUS","PWRDS_SETTING_STATUS","PWRDS_SETTING_STATUS enumeration pointer [Remote Desktop Services]","WRDS_SETTING_STATUS","WRDS_SETTING_STATUS enumeration [Remote Desktop Services]","WRDS_SETTING_STATUS_DISABLED","WRDS_SETTING_STATUS_ENABLED","WRDS_SETTING_STATUS_NOTAPPLICABLE","WRDS_SETTING_STATUS_NOTCONFIGURED","termserv.wrds_setting_status","wtsdefs/PWRDS_SETTING_STATUS","wtsdefs/WRDS_SETTING_STATUS","wtsdefs/WRDS_SETTING_STATUS_DISABLED","wtsdefs/WRDS_SETTING_STATUS_ENABLED","wtsdefs/WRDS_SETTING_STATUS_NOTAPPLICABLE","wtsdefs/WRDS_SETTING_STATUS_NOTCONFIGURED"]
 old-location: termserv\wrds_setting_status.htm
 tech.root: TermServ
 ms.assetid: FA56FDCB-70E7-4D90-99DE-6C624404BEF9

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_DRAW_TEXT_OPTIONS
 title: D2D1_DRAW_TEXT_OPTIONS (d2d1.h)
-description: Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.
+description: Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.helpviewer_keywords: ["D2D1_DRAW_TEXT_OPTIONS","D2D1_DRAW_TEXT_OPTIONS enumeration [Direct2D]","D2D1_DRAW_TEXT_OPTIONS_CLIP","D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING","D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT","D2D1_DRAW_TEXT_OPTIONS_NONE","D2D1_DRAW_TEXT_OPTIONS_NO_SNAP","d2d1/D2D1_DRAW_TEXT_OPTIONS","d2d1/D2D1_DRAW_TEXT_OPTIONS_CLIP","d2d1/D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING","d2d1/D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT","d2d1/D2D1_DRAW_TEXT_OPTIONS_NONE","d2d1/D2D1_DRAW_TEXT_OPTIONS_NO_SNAP","direct2d.D2D1_DRAW_TEXT_OPTIONS"]
 old-location: direct2d\D2D1_DRAW_TEXT_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: 30f5be4a-83c2-4039-8e09-00e842fc5eb2
@@ -92,7 +92,7 @@ Text is vertically snapped to pixel boundaries and is not clipped to the layout 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)">DrawText</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)">DrawText</a>
  
 
  

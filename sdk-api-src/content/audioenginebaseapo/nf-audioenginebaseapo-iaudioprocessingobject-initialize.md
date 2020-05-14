@@ -1,7 +1,7 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.Initialize
 title: IAudioProcessingObject::Initialize (audioenginebaseapo.h)
-description: The Initialize method initializes the APO and supports data of variable length.
+description: The Initialize method initializes the APO and supports data of variable length.helpviewer_keywords: ["IAudioProcessingObject interface [Audio Devices]","Initialize method","IAudioProcessingObject.Initialize","IAudioProcessingObject::Initialize","Initialize","Initialize method [Audio Devices]","Initialize method [Audio Devices]","IAudioProcessingObject interface","audio.iaudioprocessingobject_initialize","audio_syseffects_r_00c2b464-0c56-4357-ab5f-fdcdfb6a2414.xml","audioenginebaseapo/IAudioProcessingObject::Initialize"]
 old-location: audio\iaudioprocessingobject_initialize.htm
 tech.root: audio
 ms.assetid: b73c2e18-ab7b-4e34-9440-f38891f99bf7

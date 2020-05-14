@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrCmp
 title: VarBstrCmp function (oleauto.h)
-description: Compares two variants of type BSTR.
+description: Compares two variants of type BSTR.helpviewer_keywords: ["NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNOREKASHIDA","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","VarBstrCmp","VarBstrCmp function [Automation]","_oa96_VarBstrCmp","automat.varbstrcmp","oleauto/VarBstrCmp"]
 old-location: automat\varbstrcmp.htm
 tech.root: automat
 ms.assetid: 0b7d8735-19d5-4f6e-8b55-05f2c73ef3f8

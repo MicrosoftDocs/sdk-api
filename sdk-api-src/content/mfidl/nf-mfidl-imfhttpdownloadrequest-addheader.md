@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.AddHeader
 title: IMFHttpDownloadRequest::AddHeader (mfidl.h)
-description: Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request. Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the BeginSendRequest method.
+description: Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request. Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the BeginSendRequest method.helpviewer_keywords: ["AddHeader","AddHeader method [Media Foundation]","AddHeader method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","AddHeader method","IMFHttpDownloadRequest.AddHeader","IMFHttpDownloadRequest::AddHeader","mf.imfhttpdownloadrequest_addheader","mfidl/IMFHttpDownloadRequest::AddHeader"]
 old-location: mf\imfhttpdownloadrequest_addheader.htm
 tech.root: medfound
 ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE

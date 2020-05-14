@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CONTROL_UNIT_FN
 title: PIBIO_STORAGE_CONTROL_UNIT_FN (winbio_adapter.h)
-description: Performs a vendor-defined control operation that does not require elevated privilege.
+description: Performs a vendor-defined control operation that does not require elevated privilege.helpviewer_keywords: ["PIBIO_STORAGE_CONTROL_UNIT_FN","PIBIO_STORAGE_CONTROL_UNIT_FN callback","StorageAdapterControlUnit","StorageAdapterControlUnit callback function [Windows Biometric Framework API]","secbiomet.storageadaptercontrolunit","winbio_adapter/StorageAdapterControlUnit"]
 old-location: secbiomet\storageadaptercontrolunit.htm
 tech.root: SecBioMet
 ms.assetid: 98981278-9d30-4e7d-a9b6-d0427ed8b385

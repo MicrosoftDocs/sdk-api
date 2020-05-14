@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioChannelCount
 title: IMSVidAudioRendererEvent2::AVAudioChannelCount (segment.h)
-description: Indicates a change in the AVAudioChannelCount codec property.
+description: Indicates a change in the AVAudioChannelCount codec property.helpviewer_keywords: ["AVAudioChannelCount","AVAudioChannelCount method [Microsoft TV Technologies]","AVAudioChannelCount method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVAudioChannelCount method","IMSVidAudioRendererEvent2.AVAudioChannelCount","IMSVidAudioRendererEvent2::AVAudioChannelCount","mstv.imsvidaudiorendererevent2_avaudiochannelcount","segment/IMSVidAudioRendererEvent2::AVAudioChannelCount"]
 old-location: mstv\imsvidaudiorendererevent2_avaudiochannelcount.htm
 tech.root: mstv
 ms.assetid: 5cfb27d0-eda9-4fef-9256-636ef0c6ebe8

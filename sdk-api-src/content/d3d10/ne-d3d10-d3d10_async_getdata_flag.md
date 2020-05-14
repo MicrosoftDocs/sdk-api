@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_ASYNC_GETDATA_FLAG
 title: D3D10_ASYNC_GETDATA_FLAG (d3d10.h)
-description: Optional flags that control the behavior of ID3D10Asynchronous::GetData.
+description: Optional flags that control the behavior of ID3D10Asynchronous::GetData.helpviewer_keywords: ["D3D10_ASYNC_GETDATA_DONOTFLUSH","D3D10_ASYNC_GETDATA_FLAG","D3D10_ASYNC_GETDATA_FLAG enumeration [Direct3D 10]","d0797ad1-e1be-88a9-fb81-7dba0cb6c9ea","d3d10/D3D10_ASYNC_GETDATA_DONOTFLUSH","d3d10/D3D10_ASYNC_GETDATA_FLAG","direct3d10.d3d10_async_getdata_flag"]
 old-location: direct3d10\d3d10_async_getdata_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_async_getdata_flag.htm

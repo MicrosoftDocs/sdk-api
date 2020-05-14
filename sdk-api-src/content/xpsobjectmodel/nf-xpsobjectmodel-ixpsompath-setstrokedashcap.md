@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeDashCap
 title: IXpsOMPath::SetStrokeDashCap (xpsobjectmodel.h)
 description: Sets the style of the stroke's dash cap.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeDashCap method","IXpsOMPath.SetStrokeDashCap","IXpsOMPath::SetStrokeDashCap","SetStrokeDashCap","SetStrokeDashCap method [XPS Documents and Packaging]","SetStrokeDashCap method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokedashcap","xpsobjectmodel/IXpsOMPath::SetStrokeDashCap"]
 old-location: xps\ixpsompath_setstrokedashcap.htm
 tech.root: printdocs
 ms.assetid: 949f366b-1161-4db8-b9b9-d95b422b8931
@@ -59,7 +60,7 @@ Sets the style of the stroke's dash cap.
 
 ### -param strokeDashCap [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value to be set.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value to be set.
 
 
 ## -returns
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeDashCap</i> was not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value.
+<i>strokeDashCap</i> was not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about dash cap styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>.
+For more information about dash cap styles, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>.
 
 
 
@@ -127,7 +128,7 @@ For more information about dash cap styles, see <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnItemIndexedStatusChange
 title: ISearchNotifyInlineSite::OnItemIndexedStatusChange (searchapi.h)
-description: Called by the search service to notify the client when the status of a particular document or item changes.
+description: Called by the search service to notify the client when the status of a particular document or item changes.helpviewer_keywords: ["ISearchNotifyInlineSite interface [search]","OnItemIndexedStatusChange method","ISearchNotifyInlineSite.OnItemIndexedStatusChange","ISearchNotifyInlineSite::OnItemIndexedStatusChange","OnItemIndexedStatusChange","OnItemIndexedStatusChange method [search]","OnItemIndexedStatusChange method [search]","ISearchNotifyInlineSite interface","_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange","search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange","searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange"]
 old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\onitemindexedstatuschange.htm

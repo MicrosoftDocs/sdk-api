@@ -2,6 +2,7 @@
 UID: NE:virtdisk._GET_STORAGE_DEPENDENCY_FLAG
 title: GET_STORAGE_DEPENDENCY_FLAG (virtdisk.h)
 description: Contains virtual hard disk (VHD) storage dependency request flags.
+helpviewer_keywords: ["GET_STORAGE_DEPENDENCY_FLAG","GET_STORAGE_DEPENDENCY_FLAG enumeration [VHD]","GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE","GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES","GET_STORAGE_DEPENDENCY_FLAG_NONE","vdssys/GET_STORAGE_DEPENDENCY_FLAG","vdssys/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE","vdssys/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES","vdssys/GET_STORAGE_DEPENDENCY_FLAG_NONE","vhd.get_storage_dependency_flag","virtdisk/GET_STORAGE_DEPENDENCY_FLAG","virtdisk/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE","virtdisk/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES","virtdisk/GET_STORAGE_DEPENDENCY_FLAG_NONE"]
 old-location: vhd\get_storage_dependency_flag.htm
 tech.root: VStor
 ms.assetid: 6a438edf-698b-4b2d-8864-c97fbf9eaa9f
@@ -77,7 +78,7 @@ The handle provided is to a disk, not a volume or file.
 
 
 
-If the <b>GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES</b> flag is not set, the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getstoragedependencyinformation">GetStorageDependencyInformation</a> function returns information about the volumes or disks being hosted by  the volume or disk specified. For example, if the VHD file C:\file.vhd defines the virtual drive D, setting the <b>GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES</b> flag will retrieve information about the C: volume. If not, information about the virtual D: volume will be retrieved.
+If the <b>GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES</b> flag is not set, the <a href="/windows/win32/api/virtdisk/nf-virtdisk-getstoragedependencyinformation">GetStorageDependencyInformation</a> function returns information about the volumes or disks being hosted by  the volume or disk specified. For example, if the VHD file C:\file.vhd defines the virtual drive D, setting the <b>GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES</b> flag will retrieve information about the C: volume. If not, information about the virtual D: volume will be retrieved.
 
 
 

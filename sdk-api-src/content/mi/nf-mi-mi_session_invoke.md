@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Session_Invoke
 title: MI_Session_Invoke function (mi.h)
-description: Invokes a method in the provider.
+description: Invokes a method in the provider.helpviewer_keywords: ["MI_Session_Invoke","MI_Session_Invoke function [Windows Management Infrastructure (MI)]","mi/MI_Session_Invoke","wmi_v2.mi_session_invoke"]
 old-location: wmi_v2\mi_session_invoke.htm
 tech.root: wmi_v2
 ms.assetid: 46bce0cc-9795-47af-8318-4250dc3d5c6e

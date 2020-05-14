@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IParseAndCreateItem.SetItem
 title: IParseAndCreateItem::SetItem (shobjidl_core.h)
-description: IParseAndCreateItem::SetItem method
+description: IParseAndCreateItem::SetItem methodhelpviewer_keywords: ["IParseAndCreateItem interface [Windows Shell]","SetItem method","IParseAndCreateItem.SetItem","IParseAndCreateItem::SetItem","SetItem","SetItem method [Windows Shell]","SetItem method [Windows Shell]","IParseAndCreateItem interface","_shell_IParseAndCreateItem_SetItem","shell.IParseAndCreateItem_SetItem","shobjidl_core/IParseAndCreateItem::SetItem"]
 old-location: shell\IParseAndCreateItem_SetItem.htm
 tech.root: shell
 ms.assetid: 4a9f2d58-2959-40bd-ba82-74ca0e504145

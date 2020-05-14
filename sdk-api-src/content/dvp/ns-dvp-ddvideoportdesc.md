@@ -1,7 +1,7 @@
 ---
 UID: NS:dvp._DDVIDEOPORTDESC
 title: DDVIDEOPORTDESC (dvp.h)
-description: The DDVIDEOPORTDESC structure describes the video port extensions (VPE) object being created.
+description: The DDVIDEOPORTDESC structure describes the video port extensions (VPE) object being created.helpviewer_keywords: ["*LPDDVIDEOPORTDESC","DDVIDEOPORTDESC","DDVIDEOPORTDESC structure [Display Devices]","ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml","display.ddvideoportdesc","dvp/DDVIDEOPORTDESC"]
 old-location: display\ddvideoportdesc.htm
 tech.root: display
 ms.assetid: efd5907c-ed75-40be-b568-7c305310f79b

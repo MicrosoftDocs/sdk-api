@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetIsHyperlinkTarget
 title: IXpsOMVisual::GetIsHyperlinkTarget (xpsobjectmodel.h)
-description: Gets a value that indicates whether the visual is the target of a hyperlink.
+description: Gets a value that indicates whether the visual is the target of a hyperlink.helpviewer_keywords: ["FALSE","GetIsHyperlinkTarget","GetIsHyperlinkTarget method [XPS Documents and Packaging]","GetIsHyperlinkTarget method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetIsHyperlinkTarget method","IXpsOMVisual.GetIsHyperlinkTarget","IXpsOMVisual::GetIsHyperlinkTarget","TRUE","xps.ixpsomvisual_getishyperlinktarget","xpsobjectmodel/IXpsOMVisual::GetIsHyperlinkTarget"]
 old-location: xps\ixpsomvisual_getishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: bd6047a6-d6ba-4c62-8f4c-0348e3281d75

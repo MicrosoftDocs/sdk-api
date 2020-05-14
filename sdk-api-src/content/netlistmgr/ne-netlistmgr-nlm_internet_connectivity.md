@@ -1,7 +1,7 @@
 ---
 UID: NE:netlistmgr.NLM_INTERNET_CONNECTIVITY
 title: NLM_INTERNET_CONNECTIVITY (netlistmgr.h)
-description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.
+description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.helpviewer_keywords: ["NLM_INTERNET_CONNECTIVITY","NLM_INTERNET_CONNECTIVITY enumeration [Network Awareness]","NLM_INTERNET_CONNECTIVITY_CORPORATE","NLM_INTERNET_CONNECTIVITY_PROXIED","NLM_INTERNET_CONNECTIVITY_WEBHIJACK","netlistmgr/NLM_INTERNET_CONNECTIVITY","netlistmgr/NLM_INTERNET_CONNECTIVITY_CORPORATE","netlistmgr/NLM_INTERNET_CONNECTIVITY_PROXIED","netlistmgr/NLM_INTERNET_CONNECTIVITY_WEBHIJACK","nla.nlm_internet_connectivity"]
 old-location: nla\nlm_internet_connectivity.htm
 tech.root: nla
 ms.assetid: 5B1DB4D5-6F69-4628-AEAF-E280E9B4E71C

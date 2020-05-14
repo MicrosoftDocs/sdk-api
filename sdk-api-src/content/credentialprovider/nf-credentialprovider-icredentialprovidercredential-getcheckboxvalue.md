@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetCheckboxValue
 title: ICredentialProviderCredential::GetCheckboxValue (credentialprovider.h)
-description: Retrieves the checkbox value.
+description: Retrieves the checkbox value.helpviewer_keywords: ["GetCheckboxValue","GetCheckboxValue method [Windows Shell]","GetCheckboxValue method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetCheckboxValue method","ICredentialProviderCredential.GetCheckboxValue","ICredentialProviderCredential::GetCheckboxValue","_shell_ICredentialProviderCredential_GetCheckboxValue","credentialprovider/ICredentialProviderCredential::GetCheckboxValue","shell.ICredentialProviderCredential_GetCheckboxValue"]
 old-location: shell\ICredentialProviderCredential_GetCheckboxValue.htm
 tech.root: shell
 ms.assetid: f7fcf44c-bc5e-4d15-bbd8-7f7e9df9240b

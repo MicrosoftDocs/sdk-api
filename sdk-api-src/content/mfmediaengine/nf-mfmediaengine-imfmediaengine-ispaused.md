@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsPaused
 title: IMFMediaEngine::IsPaused (mfmediaengine.h)
-description: Queries whether playback is currently paused.
+description: Queries whether playback is currently paused.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","IsPaused method","IMFMediaEngine.IsPaused","IMFMediaEngine::IsPaused","IsPaused","IsPaused method [Media Foundation]","IsPaused method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_ispaused","mfmediaengine/IMFMediaEngine::IsPaused"]
 old-location: mf\imfmediaengine_ispaused.htm
 tech.root: medfound
 ms.assetid: A2E9C498-FEEB-4506-9E69-59028A6B4EE5

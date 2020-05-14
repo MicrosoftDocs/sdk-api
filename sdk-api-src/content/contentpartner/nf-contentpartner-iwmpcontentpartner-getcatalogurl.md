@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCatalogURL
 title: IWMPContentPartner::GetCatalogURL (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["GetCatalogURL","GetCatalogURL method [Windows Media Player]","GetCatalogURL method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetCatalogURL method","IWMPContentPartner.GetCatalogURL","IWMPContentPartner::GetCatalogURL","IWMPContentPartnerGetCatalogURL","contentpartner/IWMPContentPartner::GetCatalogURL","wmp.iwmpcontentpartner_getcatalogurl"]
 old-location: wmp\iwmpcontentpartner_getcatalogurl.htm
 tech.root: WMP
 ms.assetid: 291440d5-b6d3-4586-98d2-3f7c56da29aa

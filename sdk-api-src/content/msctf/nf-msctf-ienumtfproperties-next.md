@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Next
 title: IEnumTfProperties::Next (msctf.h)
-description: IEnumTfProperties::Next method
+description: IEnumTfProperties::Next methodhelpviewer_keywords: ["IEnumTfProperties interface [Text Services Framework]","Next method","IEnumTfProperties.Next","IEnumTfProperties::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfProperties interface","_tsf_ienumtfproperties_next_ref","msctf/IEnumTfProperties::Next","tsf.ienumtfproperties_next"]
 old-location: tsf\ienumtfproperties_next.htm
 tech.root: TSF
 ms.assetid: a8357166-bfc3-4740-a5b9-91c6c1825ab9

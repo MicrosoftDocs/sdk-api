@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOleCallback.QueryInsertObject
 title: IRichEditOleCallback::QueryInsertObject (richole.h)
-description: Queries the application as to whether an object should be inserted. The member is called when pasting and when reading Rich Text Format (RTF).
+description: Queries the application as to whether an object should be inserted. The member is called when pasting and when reading Rich Text Format (RTF).helpviewer_keywords: ["IRichEditOleCallback interface [Windows Controls]","QueryInsertObject method","IRichEditOleCallback.QueryInsertObject","IRichEditOleCallback::QueryInsertObject","QueryInsertObject","QueryInsertObject method [Windows Controls]","QueryInsertObject method [Windows Controls]","IRichEditOleCallback interface","_win32_IRichEditOleCallback_QueryInsertObject","_win32_IRichEditOleCallback_QueryInsertObject_cpp","controls.IRichEditOleCallback_QueryInsertObject","controls._win32_IRichEditOleCallback_QueryInsertObject","richole/IRichEditOleCallback::QueryInsertObject"]
 old-location: controls\IRichEditOleCallback_QueryInsertObject.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryinsertobject.htm

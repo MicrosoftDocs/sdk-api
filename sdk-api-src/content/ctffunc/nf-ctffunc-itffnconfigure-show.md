@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnConfigure.Show
 title: ITfFnConfigure::Show (ctffunc.h)
-description: ITfFnConfigure::Show method
+description: ITfFnConfigure::Show methodhelpviewer_keywords: ["ITfFnConfigure interface [Text Services Framework]","Show method","ITfFnConfigure.Show","ITfFnConfigure::Show","Show","Show method [Text Services Framework]","Show method [Text Services Framework]","ITfFnConfigure interface","_tsf_itffnconfigure_show_ref","ctffunc/ITfFnConfigure::Show","tsf.itffnconfigure_show"]
 old-location: tsf\itffnconfigure_show.htm
 tech.root: TSF
 ms.assetid: 34670748-460b-4ece-b742-83b0cf87d901
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the user opens the Text Services control panel application, selects the text service from the list and presses the Properties pushbutton.
 
 ## -parameters
 

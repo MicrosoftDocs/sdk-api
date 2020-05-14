@@ -2,6 +2,7 @@
 UID: NC:fwpmu.FWPM_VSWITCH_EVENT_CALLBACK0
 title: FWPM_VSWITCH_EVENT_CALLBACK0 (fwpmu.h)
 description: Is used to add custom behavior to the vSwitch event subscription process.
+helpviewer_keywords: ["FWPM_VSWITCH_EVENT_CALLBACK0","FWPM_VSWITCH_EVENT_CALLBACK0 callback","FWPM_VSWITCH_EVENT_CALLBACK0 callback function [Filtering]","fwp.fwpm_vswitch_event_callback0","fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0"]
 old-location: fwp\fwpm_vswitch_event_callback0.htm
 tech.root: fwp
 ms.assetid: 95cccc54-8f58-4942-8770-f07f4d293396
@@ -66,7 +67,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *vSwitchEvent [in]
 
-Type: [FWPM_VSWITCH_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)a>*</b>
+Type: [FWPM_VSWITCH_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)*</b>
 
 The vSwitch event information.
 
@@ -96,7 +97,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-[FWPM_VSWITCH_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)a>
+[FWPM_VSWITCH_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)
 
 
 

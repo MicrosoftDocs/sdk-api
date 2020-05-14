@@ -1,7 +1,7 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannel
 title: IWTSVirtualChannel (tsvirtualchannels.h)
-description: Used to control the channel state, and writes on the channel.
+description: Used to control the channel state, and writes on the channel.helpviewer_keywords: ["IWTSVirtualChannel","IWTSVirtualChannel interface [Remote Desktop Services]","IWTSVirtualChannel interface [Remote Desktop Services]","described","termserv.iwtsvirtualchannel","tsvirtualchannels/IWTSVirtualChannel"]
 old-location: termserv\iwtsvirtualchannel.htm
 tech.root: TermServ
 ms.assetid: 8a5b093f-5756-400f-9442-b95d6010ee46

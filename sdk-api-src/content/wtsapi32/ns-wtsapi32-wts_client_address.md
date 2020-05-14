@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTS_CLIENT_ADDRESS
 title: WTS_CLIENT_ADDRESS (wtsapi32.h)
-description: Contains the client network address of a Remote Desktop Services session.
+description: Contains the client network address of a Remote Desktop Services session.helpviewer_keywords: ["*PWTS_CLIENT_ADDRESS","PWTS_CLIENT_ADDRESS","PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services]","WTS_CLIENT_ADDRESS","WTS_CLIENT_ADDRESS structure [Remote Desktop Services]","_win32_wts_client_address_str","termserv.wts_client_address_str","wtsapi32/PWTS_CLIENT_ADDRESS","wtsapi32/WTS_CLIENT_ADDRESS"]
 old-location: termserv\wts_client_address_str.htm
 tech.root: TermServ
 ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6

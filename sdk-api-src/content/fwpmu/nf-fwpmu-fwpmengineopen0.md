@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmEngineOpen0
 title: FwpmEngineOpen0 function (fwpmu.h)
 description: Opens a session to the filter engine.
+helpviewer_keywords: ["FwpmEngineOpen0","FwpmEngineOpen0 function [Filtering]","fwp.fwpmengineopen0_func","fwpmu/FwpmEngineOpen0"]
 old-location: fwp\fwpmengineopen0_func.htm
 tech.root: fwp
 ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
@@ -80,7 +81,7 @@ The authentication and authorization credentials for accessing the filter engine
 
 ### -param session [in, optional]
 
-Type: [FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)a>*</b>
+Type: [FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)*</b>
 
 Session-specific parameters for the session being opened. This pointer is optional and can be <b>NULL</b>. 
 
@@ -216,7 +217,7 @@ else
 
 
 
-[FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)a>
+[FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)
 
 
 

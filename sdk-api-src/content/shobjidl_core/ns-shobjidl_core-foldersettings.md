@@ -1,7 +1,7 @@
 ---
 UID: NS:shobjidl_core.FOLDERSETTINGS
 title: FOLDERSETTINGS (shobjidl_core.h)
-description: Contains folder view information.
+description: Contains folder view information.helpviewer_keywords: ["*LPFOLDERSETTINGS","*PFOLDERSETTINGS","FOLDERSETTINGS","FOLDERSETTINGS structure [Windows Shell]","_win32_FOLDERSETTINGS","shell.FOLDERSETTINGS","shobjidl_core/FOLDERSETTINGS"]
 old-location: shell\FOLDERSETTINGS.htm
 tech.root: shell
 ms.assetid: be00fe39-1add-412e-b88b-4b0b1404b19d

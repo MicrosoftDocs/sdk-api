@@ -2,6 +2,7 @@
 UID: NF:peninputpanel.ITextInputPanel.Advise
 title: ITextInputPanel::Advise (peninputpanel.h)
 description: Establishes an advisory connection between the Tablet PC Input Panel and the specified sink object.
+helpviewer_keywords: ["4ea32572-84e6-4230-a634-fc83cb86601f","Advise","Advise method [Tablet PC]","Advise method [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","Advise method","ITextInputPanel.Advise","ITextInputPanel::Advise","peninputpanel/ITextInputPanel::Advise","tablet.itextinputpanel_advise"]
 old-location: tablet\itextinputpanel_advise.htm
 tech.root: tablet
 ms.assetid: 4ea32572-84e6-4230-a634-fc83cb86601f
@@ -71,7 +72,7 @@ Reference to the sink object to receive event notifications from the Input Panel
 
 ### -param EventMask
 
-A bitwise value of the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-eventmask">EventMask Enumeration</a>, indicating the events of interest.
+A bitwise value of the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-eventmask">EventMask Enumeration</a>, indicating the events of interest.
 
 
 ## -returns
@@ -118,7 +119,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-eventmask">EventMask Enumeration</a>
+<a href="/windows/win32/api/peninputpanel/ne-peninputpanel-eventmask">EventMask Enumeration</a>
 
 
 

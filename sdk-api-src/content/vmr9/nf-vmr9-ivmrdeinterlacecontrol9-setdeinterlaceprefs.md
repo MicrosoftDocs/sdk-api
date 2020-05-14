@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.SetDeinterlacePrefs
 title: IVMRDeinterlaceControl9::SetDeinterlacePrefs (vmr9.h)
-description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
+description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.helpviewer_keywords: ["IVMRDeinterlaceControl9 interface [DirectShow]","SetDeinterlacePrefs method","IVMRDeinterlaceControl9.SetDeinterlacePrefs","IVMRDeinterlaceControl9::SetDeinterlacePrefs","IVMRDeinterlaceControl9SetDeinterlacePrefs","SetDeinterlacePrefs","SetDeinterlacePrefs method [DirectShow]","SetDeinterlacePrefs method [DirectShow]","IVMRDeinterlaceControl9 interface","dshow.ivmrdeinterlacecontrol9_setdeinterlaceprefs","vmr9/IVMRDeinterlaceControl9::SetDeinterlacePrefs"]
 old-location: dshow\ivmrdeinterlacecontrol9_setdeinterlaceprefs.htm
 tech.root: DirectShow
 ms.assetid: 5d5b450f-bb87-41a2-bbb1-06b3956ba225

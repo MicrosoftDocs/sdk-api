@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_StartOfLeadoutLimit
 title: IRawCDImageCreator::get_StartOfLeadoutLimit (imapi2.h)
-description: Retrieves the current StartOfLeadoutLimit property value. This value specifies if the resulting image is required to fit on a piece of media with a StartOfLeadout greater than or equal to the LBA.
+description: Retrieves the current StartOfLeadoutLimit property value. This value specifies if the resulting image is required to fit on a piece of media with a StartOfLeadout greater than or equal to the LBA.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_StartOfLeadoutLimit method","IRawCDImageCreator.get_StartOfLeadoutLimit","IRawCDImageCreator::get_StartOfLeadoutLimit","get_StartOfLeadoutLimit","get_StartOfLeadoutLimit method [IMAPI]","get_StartOfLeadoutLimit method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_startofleadoutlimit","imapi2/IRawCDImageCreator::get_StartOfLeadoutLimit"]
 old-location: imapi\irawcdimagecreator_get_startofleadoutlimit.htm
 tech.root: imapi
 ms.assetid: 07397f94-fd32-4507-89dd-53de7f25b231

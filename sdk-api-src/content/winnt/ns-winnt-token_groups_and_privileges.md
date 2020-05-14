@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._TOKEN_GROUPS_AND_PRIVILEGES
 title: TOKEN_GROUPS_AND_PRIVILEGES (winnt.h)
-description: Contains information about the group security identifiers (SIDs) and privileges in an access token.
+description: Contains information about the group security identifiers (SIDs) and privileges in an access token.helpviewer_keywords: ["*PTOKEN_GROUPS_AND_PRIVILEGES","PTOKEN_GROUPS_AND_PRIVILEGES","PTOKEN_GROUPS_AND_PRIVILEGES structure pointer [Security]","SE_GROUP_ENABLED","SE_GROUP_ENABLED_BY_DEFAULT","SE_GROUP_INTEGRITY","SE_GROUP_INTEGRITY_ENABLED","SE_GROUP_LOGON_ID","SE_GROUP_MANDATORY","SE_GROUP_OWNER","SE_GROUP_RESOURCE","SE_GROUP_USE_FOR_DENY_ONLY","TOKEN_GROUPS_AND_PRIVILEGES","TOKEN_GROUPS_AND_PRIVILEGES structure [Security]","_TOKEN_GROUPS_AND_PRIVILEGES","_win32_token_groups_and_privileges","security.token_groups_and_privileges","winnt/PTOKEN_GROUPS_AND_PRIVILEGES","winnt/TOKEN_GROUPS_AND_PRIVILEGES"]
 old-location: security\token_groups_and_privileges.htm
 tech.root: SecAuthZ
 ms.assetid: 085ccd0a-d6c2-48ca-ad2a-933f22831b14

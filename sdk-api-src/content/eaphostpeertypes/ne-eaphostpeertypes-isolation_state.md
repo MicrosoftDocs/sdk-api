@@ -2,6 +2,7 @@
 UID: NE:eaphostpeertypes._ISOLATION_STATE
 title: ISOLATION_STATE (eaphostpeertypes.h)
 description: Defines the set of possible isolation state values of a machine.
+helpviewer_keywords: ["ISOLATION_STATE","ISOLATION_STATE enumeration [EAPHost]","ISOLATION_STATE_IN_PROBATION","ISOLATION_STATE_NOT_RESTRICTED","ISOLATION_STATE_RESTRICTED_ACCESS","ISOLATION_STATE_UNKNOWN","eaphost.isolation_state","eaphostpeertypes/ISOLATION_STATE","eaphostpeertypes/ISOLATION_STATE_IN_PROBATION","eaphostpeertypes/ISOLATION_STATE_NOT_RESTRICTED","eaphostpeertypes/ISOLATION_STATE_RESTRICTED_ACCESS","eaphostpeertypes/ISOLATION_STATE_UNKNOWN"]
 old-location: eaphost\isolation_state.htm
 tech.root: eaphost
 ms.assetid: 460e447b-87c6-41df-8e8b-055e95426ca6
@@ -96,15 +97,15 @@ Network Access Protection (NAP) uses the <b>ISOLATION_STATE</b> value to determi
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
 
 
-[Implementing In-Band NAP Support for EAP Methods](https://docs.microsoft.com/windows/win32/eaphost/enabling-in-band-nap-support)a>
+[Implementing In-Band NAP Support for EAP Methods](/windows/win32/eaphost/enabling-in-band-nap-support)
 
 
 
-[Implementing NAP Support for EAP Methods](https://docs.microsoft.com/windows/win32/eaphost/implementing-nap-for-eap-methods)a>
+[Implementing NAP Support for EAP Methods](/windows/win32/eaphost/implementing-nap-for-eap-methods)
 
 
 

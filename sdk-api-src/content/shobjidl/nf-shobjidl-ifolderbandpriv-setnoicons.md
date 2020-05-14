@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoIcons
 title: IFolderBandPriv::SetNoIcons (shobjidl.h)
-description: Sets whether icons are displayed in a folder band.
+description: Sets whether icons are displayed in a folder band.helpviewer_keywords: ["IFolderBandPriv interface [Windows Shell]","SetNoIcons method","IFolderBandPriv.SetNoIcons","IFolderBandPriv::SetNoIcons","SetNoIcons","SetNoIcons method [Windows Shell]","SetNoIcons method [Windows Shell]","IFolderBandPriv interface","_win32_IFolderBandPriv_SetNoIcons","shell.IFolderBandPriv_SetNoIcons","shobjidl/IFolderBandPriv::SetNoIcons"]
 old-location: shell\IFolderBandPriv_SetNoIcons.htm
 tech.root: shell
 ms.assetid: 5bec29d9-8b05-4b4e-9cfc-0b9fd2d9fd2f

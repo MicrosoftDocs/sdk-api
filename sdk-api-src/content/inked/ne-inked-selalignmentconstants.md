@@ -1,7 +1,7 @@
 ---
 UID: NE:inked.SelAlignmentConstants
 title: SelAlignmentConstants (inked.h)
-description: Specifies the alignment of the paragraph relative to the margins of the InkEdit control.
+description: Specifies the alignment of the paragraph relative to the margins of the InkEdit control.helpviewer_keywords: ["SelAlignmentConstants","SelAlignmentConstants enumeration [Tablet PC]","fdf5be40-e853-43a5-b1ac-b810c31fbeb3","inked/SelAlignmentConstants","inked/rtfCenter","inked/rtfLeft","inked/rtfRight","rtfCenter","rtfLeft","rtfRight","tablet.selalignmentconstants"]
 old-location: tablet\selalignmentconstants.htm
 tech.root: tablet
 ms.assetid: fdf5be40-e853-43a5-b1ac-b810c31fbeb3

@@ -1,7 +1,7 @@
 ---
 UID: NS:digitalv.__unnamed_struct_21
 title: MCI_DGV_RESTORE_PARMSW (digitalv.h)
-description: The MCI_DGV_RESTORE_PARMS structure contains information for the MCI_RESTORE command for digital-video devices.
+description: The MCI_DGV_RESTORE_PARMS structure contains information for the MCI_RESTORE command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_RESTORE_PARMSW","MCI_DGV_RESTORE_PARMS","MCI_DGV_RESTORE_PARMS structure [Windows Multimedia]","MCI_DGV_RESTORE_PARMSW","_win32_MCI_DGV_RESTORE_PARMS_str","digitalv/MCI_DGV_RESTORE_PARMS","multimedia.mci_dgv_restore_parms"]
 old-location: multimedia\mci_dgv_restore_parms.htm
 tech.root: Multimedia
 ms.assetid: 2b8fb9a8-b7a2-4775-a21e-0ebcb2c96b24

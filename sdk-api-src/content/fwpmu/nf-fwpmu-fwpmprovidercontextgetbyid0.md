@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderContextGetById0
 title: FwpmProviderContextGetById0 function (fwpmu.h)
 description: Retrieves a provider context.
+helpviewer_keywords: ["FwpmProviderContextGetById0","FwpmProviderContextGetById0 function [Filtering]","fwp.fwpmprovidercontextgetbyid0_func","fwpmu/FwpmProviderContextGetById0"]
 old-location: fwp\fwpmprovidercontextgetbyid0_func.htm
 tech.root: fwp
 ms.assetid: afa32d9b-17fd-44f0-b2df-119ca3aed5cd
@@ -73,7 +74,7 @@ A run-time identifier for the desired object. This must be the run-time identifi
 
 ### -param providerContext [out]
 
-Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>**</b>
+Type: [FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)**</b>
 
 The provider context information.
 
@@ -147,7 +148,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)a>
+[FWPM_PROVIDER_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)
 
 
 

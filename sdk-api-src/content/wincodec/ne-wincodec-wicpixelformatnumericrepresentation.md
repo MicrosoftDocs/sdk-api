@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICPixelFormatNumericRepresentation
 title: WICPixelFormatNumericRepresentation (wincodec.h)
-description: Defines constants that specify a primitive type for numeric representation of a WIC pixel format.
+description: Defines constants that specify a primitive type for numeric representation of a WIC pixel format.helpviewer_keywords: ["WICPixelFormatNumericRepresentation","WICPixelFormatNumericRepresentation enumeration [Windows Imaging Component]","WICPixelFormatNumericRepresentationFixed","WICPixelFormatNumericRepresentationFloat","WICPixelFormatNumericRepresentationIndexed","WICPixelFormatNumericRepresentationSignedInteger","WICPixelFormatNumericRepresentationUnsignedInteger","WICPixelFormatNumericRepresentationUnspecified","_wic_codec_wicpixelformatnumericrepresentation","wic._wic_codec_wicpixelformatnumericrepresentation","wincodec/WICPixelFormatNumericRepresentation","wincodec/WICPixelFormatNumericRepresentationFixed","wincodec/WICPixelFormatNumericRepresentationFloat","wincodec/WICPixelFormatNumericRepresentationIndexed","wincodec/WICPixelFormatNumericRepresentationSignedInteger","wincodec/WICPixelFormatNumericRepresentationUnsignedInteger","wincodec/WICPixelFormatNumericRepresentationUnspecified"]
 old-location: wic\_wic_codec_wicpixelformatnumericrepresentation.htm
 tech.root: wic
 ms.assetid: 10f32ac9-4b0d-4d21-b54a-657513fbd142

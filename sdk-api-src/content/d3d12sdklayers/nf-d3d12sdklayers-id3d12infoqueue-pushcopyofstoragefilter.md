@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushCopyOfStorageFilter
 title: ID3D12InfoQueue::PushCopyOfStorageFilter (d3d12sdklayers.h)
-description: Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
+description: Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.helpviewer_keywords: ["ID3D12InfoQueue interface","PushCopyOfStorageFilter method","ID3D12InfoQueue.PushCopyOfStorageFilter","ID3D12InfoQueue::PushCopyOfStorageFilter","PushCopyOfStorageFilter","PushCopyOfStorageFilter method","PushCopyOfStorageFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PushCopyOfStorageFilter","direct3d12.id3d12infoqueue_pushcopyofstoragefilter"]
 old-location: direct3d12\id3d12infoqueue_pushcopyofstoragefilter.htm
 tech.root: direct3d12
 ms.assetid: BA8D2BAC-4947-4ED7-A397-5102F74A65BD

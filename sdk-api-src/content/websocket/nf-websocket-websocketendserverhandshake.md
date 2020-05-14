@@ -1,7 +1,7 @@
 ---
 UID: NF:websocket.WebSocketEndServerHandshake
 title: WebSocketEndServerHandshake function (websocket.h)
-description: Completes the server-side handshake.
+description: Completes the server-side handshake.helpviewer_keywords: ["WebSocketEndServerHandshake","WebSocketEndServerHandshake function [Websocket Protocol Component API]","websock.websocketendserverhandshake","websocket/WebSocketEndServerHandshake"]
 old-location: websock\websocketendserverhandshake.htm
 tech.root: WebSock
 ms.assetid: 8708d290-18d6-4130-aa1c-8e4e5a716a5c

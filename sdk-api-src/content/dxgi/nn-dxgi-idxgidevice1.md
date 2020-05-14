@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi.IDXGIDevice1
 title: IDXGIDevice1 (dxgi.h)
-description: An IDXGIDevice1 interface implements a derived class for DXGI objects that produce image data.
+description: An IDXGIDevice1 interface implements a derived class for DXGI objects that produce image data.helpviewer_keywords: ["9db12484-8e98-1317-79e4-cbaa511683b8","IDXGIDevice1","IDXGIDevice1 interface [DXGI]","IDXGIDevice1 interface [DXGI]","described","direct3ddxgi.idxgidevice1","dxgi/IDXGIDevice1"]
 old-location: direct3ddxgi\idxgidevice1.htm
 tech.root: direct3ddxgi
 ms.assetid: a0ba0fa3-489a-4eff-9e49-b231ab472ee4

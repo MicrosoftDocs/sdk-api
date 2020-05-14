@@ -1,7 +1,7 @@
 ---
 UID: NN:azroles.IAzBizRuleParameters
 title: IAzBizRuleParameters (azroles.h)
-description: Provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.
+description: Provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.helpviewer_keywords: ["IAzBizRuleParameters","IAzBizRuleParameters interface [Security]","IAzBizRuleParameters interface [Security]","described","azroles/IAzBizRuleParameters","security.iazbizruleparameters"]
 old-location: security\iazbizruleparameters.htm
 tech.root: SecAuthZ
 ms.assetid: 07eb33be-71a3-42fc-b7f3-12be23746aa3

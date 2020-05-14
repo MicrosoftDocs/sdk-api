@@ -2,6 +2,7 @@
 UID: NS:mmc._RDCOMPARE
 title: RDCOMPARE (mmc.h)
 description: The RDCOMPARE structure is introduced in MMC 1.2.
+helpviewer_keywords: ["RDCOMPARE","RDCOMPARE structure [MMC]","_slate_rdcompare","mmc.rdcompare","mmc/RDCOMPARE"]
 old-location: mmc\rdcompare.htm
 tech.root: mmc
 ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d
@@ -86,13 +87,13 @@ A value that specifies user-provided information that is passed into
 ### -field prdch1
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a> structure that specifies the first item's type (scope or result) and cookie.
+<a href="/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a> structure that specifies the first item's type (scope or result) and cookie.
 
 
 ### -field prdch2
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a> structure that specifies the second item's type (scope or result) and cookie.
+<a href="/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a> structure that specifies the second item's type (scope or result) and cookie.
 
 
 ## -remarks
@@ -115,7 +116,7 @@ If the snap-in implements the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a>
+<a href="/windows/win32/api/mmc/ns-mmc-rditemhdr">RDITEMHDR</a>
  
 
  

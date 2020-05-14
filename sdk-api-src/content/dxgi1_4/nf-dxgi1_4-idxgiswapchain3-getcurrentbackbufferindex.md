@@ -2,12 +2,12 @@
 UID: NF:dxgi1_4.IDXGISwapChain3.GetCurrentBackBufferIndex
 title: IDXGISwapChain3::GetCurrentBackBufferIndex (dxgi1_4.h)
 description: Gets the index of the swap chain's current back buffer.
+helpviewer_keywords: ["GetCurrentBackBufferIndex","GetCurrentBackBufferIndex method [DXGI]","GetCurrentBackBufferIndex method [DXGI]","IDXGISwapChain3 interface","IDXGISwapChain3 interface [DXGI]","GetCurrentBackBufferIndex method","IDXGISwapChain3.GetCurrentBackBufferIndex","IDXGISwapChain3::GetCurrentBackBufferIndex","direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex","dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex"]
 old-location: direct3ddxgi\idxgiswapchain3_getcurrentbackbufferindex.htm
 tech.root: direct3ddxgi
 ms.assetid: C19D56AC-4094-4D4A-B992-8FE8348A7DE2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentBackBufferIndex, GetCurrentBackBufferIndex method [DXGI], GetCurrentBackBufferIndex method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],GetCurrentBackBufferIndex method, IDXGISwapChain3.GetCurrentBackBufferIndex, IDXGISwapChain3::GetCurrentBackBufferIndex, direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex, dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex
-ms.topic: method
 f1_keywords:
 - dxgi1_4/IDXGISwapChain3.GetCurrentBackBufferIndex
 dev_langs:

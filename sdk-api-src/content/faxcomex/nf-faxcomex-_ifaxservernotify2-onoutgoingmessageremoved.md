@@ -2,6 +2,7 @@
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingMessageRemoved
 title: _IFaxServerNotify2::OnOutgoingMessageRemoved (faxcomex.h)
 description: The fax service calls the IFaxServerNotify2::OnOutgoingMessageRemoved method when an outgoing message is removed from the fax outbound archive.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnOutgoingMessageRemoved method","IFaxServerNotify2.OnOutgoingMessageRemoved","IFaxServerNotify2::OnOutgoingMessageRemoved","OnOutgoingMessageRemoved","OnOutgoingMessageRemoved method [Fax Service]","OnOutgoingMessageRemoved method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnOutgoingMessageRemoved","_IFaxServerNotify2::OnOutgoingMessageRemoved","_mfax_ifaxservernotify2_onoutgoingmessageremoved","fax._mfax_ifaxservernotify2_onoutgoingmessageremoved","faxcomex/IFaxServerNotify2::OnOutgoingMessageRemoved"]
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingmessageremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingmessageremoved.htm
@@ -97,7 +98,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

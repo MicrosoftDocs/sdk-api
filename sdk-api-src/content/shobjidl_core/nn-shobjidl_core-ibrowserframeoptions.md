@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IBrowserFrameOptions
 title: IBrowserFrameOptions (shobjidl_core.h)
-description: Allows a browser or host to ask IShellView what kind of view behavior is supported.
+description: Allows a browser or host to ask IShellView what kind of view behavior is supported.helpviewer_keywords: ["IBrowserFrameOptions","IBrowserFrameOptions interface [Windows Shell]","IBrowserFrameOptions interface [Windows Shell]","described","_shell_IBrowserFrameOptions","shell.IBrowserFrameOptions","shobjidl_core/IBrowserFrameOptions"]
 old-location: shell\IBrowserFrameOptions.htm
 tech.root: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d

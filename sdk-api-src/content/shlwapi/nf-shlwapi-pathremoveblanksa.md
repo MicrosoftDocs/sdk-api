@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathRemoveBlanksA
 title: PathRemoveBlanksA function (shlwapi.h)
-description: Removes all leading and trailing spaces from a string.
+description: Removes all leading and trailing spaces from a string.helpviewer_keywords: ["PathRemoveBlanks","PathRemoveBlanks function [Windows Shell]","PathRemoveBlanksA","PathRemoveBlanksW","_win32_PathRemoveBlanks","shell.PathRemoveBlanks","shlwapi/PathRemoveBlanks","shlwapi/PathRemoveBlanksA","shlwapi/PathRemoveBlanksW"]
 old-location: shell\PathRemoveBlanks.htm
 tech.root: shell
 ms.assetid: 0f496855-3ea7-4193-b895-fd4ea26ef6c5

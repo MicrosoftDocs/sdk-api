@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.QueryInsert
 title: ITextStoreAnchor::QueryInsert (textstor.h)
-description: The ITextStoreAnchor::QueryInsert method determines whether the specified start and end anchors are valid. Use this method to adjust an edit to a document before you execute the edit. The method must not return values outside the range of the document.
+description: The ITextStoreAnchor::QueryInsert method determines whether the specified start and end anchors are valid. Use this method to adjust an edit to a document before you execute the edit. The method must not return values outside the range of the document.helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","QueryInsert method","ITextStoreAnchor.QueryInsert","ITextStoreAnchor::QueryInsert","QueryInsert","QueryInsert method [Text Services Framework]","QueryInsert method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::QueryInsert","tsf.itextstoreanchor_queryinsert"]
 old-location: tsf\itextstoreanchor_queryinsert.htm
 tech.root: TSF
 ms.assetid: 953b3f9c-63b7-4d62-accb-b07acfa97432

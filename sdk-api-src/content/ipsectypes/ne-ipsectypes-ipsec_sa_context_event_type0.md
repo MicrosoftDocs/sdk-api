@@ -2,6 +2,7 @@
 UID: NE:ipsectypes.IPSEC_SA_CONTEXT_EVENT_TYPE0_
 title: IPSEC_SA_CONTEXT_EVENT_TYPE0 (ipsectypes.h)
 description: Specifies the type of IPsec security association (SA) context change event.
+helpviewer_keywords: ["IPSEC_SA_CONTEXT_EVENT_ADD","IPSEC_SA_CONTEXT_EVENT_DELETE","IPSEC_SA_CONTEXT_EVENT_MAX","IPSEC_SA_CONTEXT_EVENT_TYPE0","IPSEC_SA_CONTEXT_EVENT_TYPE0 enumeration [Filtering]","fwp.ipsec_sa_context_event_type0","ipsectypes/IPSEC_SA_CONTEXT_EVENT_ADD","ipsectypes/IPSEC_SA_CONTEXT_EVENT_DELETE","ipsectypes/IPSEC_SA_CONTEXT_EVENT_MAX","ipsectypes/IPSEC_SA_CONTEXT_EVENT_TYPE0"]
 old-location: fwp\ipsec_sa_context_event_type0.htm
 tech.root: fwp
 ms.assetid: 3e179d08-2962-4196-9c7e-c16c9cddf489
@@ -77,7 +78,7 @@ Maximum value for testing purposes.
 
 
 
-[IPSEC_SA_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)a>
+[IPSEC_SA_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)
  
 
  

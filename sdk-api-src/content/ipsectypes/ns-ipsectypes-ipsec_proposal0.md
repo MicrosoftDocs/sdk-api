@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_PROPOSAL0_
 title: IPSEC_PROPOSAL0 (ipsectypes.h)
 description: Used to store an IPsec quick mode proposal.
+helpviewer_keywords: ["IPSEC_PROPOSAL0","IPSEC_PROPOSAL0 structure [Filtering]","fwp.ipsec_proposal0_struct","ipsectypes/IPSEC_PROPOSAL0"]
 old-location: fwp\ipsec_proposal0_struct.htm
 tech.root: fwp
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5
@@ -59,7 +60,7 @@ The <b>IPSEC_PROPOSAL0</b> structure is used to store an IPsec quick mode propos
 
 ### -field lifetime
 
-Lifetime of the IPsec security association (SA) as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)a>. Cannot be zero.
+Lifetime of the IPsec security association (SA) as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0). Cannot be zero.
 
 
 ### -field numSaTransforms
@@ -69,12 +70,12 @@ Number of IPsec SA transforms. The only possible values are 1 and 2. Use 2 only 
 
 ### -field saTransforms
 
-Array of IPsec SA transforms as specified by [IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)a>.
+Array of IPsec SA transforms as specified by [IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0).
 
 
 ### -field pfsGroup
 
-Perfect forward secrecy (PFS) group of the IPsec SA as specified by [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a>.
+Perfect forward secrecy (PFS) group of the IPsec SA as specified by [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group).
 
 
 ## -remarks
@@ -95,15 +96,15 @@ proposal.
 
 
 
-[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)a>
+[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)
 
 
 
-[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)a>
+[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)
 
 
 
-[IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)a>
+[IPSEC_SA_TRANSFORM0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_transform0)
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.get_DefaultSubChannelTypes
 title: IBPCSatelliteTuner::get_DefaultSubChannelTypes (strmif.h)
-description: Note  The IBPCSatelliteTuner interface is deprecated. Gets the default sub-channel types.
+description: Note  The IBPCSatelliteTuner interface is deprecated. Gets the default sub-channel types.helpviewer_keywords: ["IBPCSatelliteTuner interface [DirectShow]","get_DefaultSubChannelTypes method","IBPCSatelliteTuner.get_DefaultSubChannelTypes","IBPCSatelliteTuner::get_DefaultSubChannelTypes","IBPCSatelliteTunerget_DefaultSubChannelTypes","dshow.ibpcsatellitetuner_get_defaultsubchanneltypes","get_DefaultSubChannelTypes","get_DefaultSubChannelTypes method [DirectShow]","get_DefaultSubChannelTypes method [DirectShow]","IBPCSatelliteTuner interface","strmif/IBPCSatelliteTuner::get_DefaultSubChannelTypes"]
 old-location: dshow\ibpcsatellitetuner_get_defaultsubchanneltypes.htm
 tech.root: DirectShow
 ms.assetid: 5e54b922-6018-4c6e-bf0d-4fba6640661c

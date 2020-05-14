@@ -2,6 +2,7 @@
 UID: NS:rectypes.tagLATTICE_METRICS
 title: LATTICE_METRICS (rectypes.h)
 description: Describes the baseline and the midline height.
+helpviewer_keywords: ["4fdeaaf9-9026-4bf1-8e78-d03a98d44b32","LATTICE_METRICS","LATTICE_METRICS structure [Tablet PC]","rectypes/LATTICE_METRICS","tablet.lattice_metrics"]
 old-location: tablet\lattice_metrics.htm
 tech.root: tablet
 ms.assetid: 4fdeaaf9-9026-4bf1-8e78-d03a98d44b32
@@ -62,12 +63,12 @@ Describes the baseline and the midline height.
 
 ### -field lsBaseline
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-line_segment">LINE_SEGMENT</a> structure containing the start and end point of the baseline in ink coordinates.
+The <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-line_segment">LINE_SEGMENT</a> structure containing the start and end point of the baseline, in ink coordinates.
 
 
 ### -field iMidlineOffset
 
-Height of the midline in HIMETRIC units.
+Offset of the midline, relative to the baseline, in HIMETRIC units.
 
 
 ## -see-also

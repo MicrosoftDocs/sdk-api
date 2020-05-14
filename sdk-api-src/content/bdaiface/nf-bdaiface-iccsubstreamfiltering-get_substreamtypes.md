@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.ICCSubStreamFiltering.get_SubstreamTypes
 title: ICCSubStreamFiltering::get_SubstreamTypes (bdaiface.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["ICCSubStreamFiltering interface [Microsoft TV Technologies]","get_SubstreamTypes method","ICCSubStreamFiltering.get_SubstreamTypes","ICCSubStreamFiltering::get_SubstreamTypes","ICCSubStreamFilteringget_SubstreamTypes","bdaiface/ICCSubStreamFiltering::get_SubstreamTypes","get_SubstreamTypes","get_SubstreamTypes method [Microsoft TV Technologies]","get_SubstreamTypes method [Microsoft TV Technologies]","ICCSubStreamFiltering interface","mstv.iccsubstreamfiltering_get_substreamtypes"]
 old-location: mstv\iccsubstreamfiltering_get_substreamtypes.htm
 tech.root: mstv
 ms.assetid: da622981-d2a6-4e91-9e59-b084932b5ff2

@@ -1,7 +1,7 @@
 ---
 UID: NF:mscat.CryptCATAdminAddCatalog
 title: CryptCATAdminAddCatalog function (mscat.h)
-description: Adds a catalog to the catalog database.
+description: Adds a catalog to the catalog database.helpviewer_keywords: ["CryptCATAdminAddCatalog","CryptCATAdminAddCatalog function [Security]","mscat/CryptCATAdminAddCatalog","security.cryptcatadminaddcatalog"]
 old-location: security\cryptcatadminaddcatalog.htm
 tech.root: SecCrypto
 ms.assetid: a227597c-a0af-4b86-bd29-03f478aef244

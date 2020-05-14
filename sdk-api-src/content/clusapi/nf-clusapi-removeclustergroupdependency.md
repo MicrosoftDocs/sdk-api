@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.RemoveClusterGroupDependency
 title: RemoveClusterGroupDependency function (clusapi.h)
-description: Removes a dependency between two cluster groups.
+description: Removes a dependency between two cluster groups.helpviewer_keywords: ["PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY","PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY function [Failover Cluster]","RemoveClusterGroupDependency","RemoveClusterGroupDependency function [Failover Cluster]","clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY","clusapi/RemoveClusterGroupDependency","mscs.removeclustergroupdependency"]
 old-location: mscs\removeclustergroupdependency.htm
 tech.root: MsCS
 ms.assetid: da264d42-28ee-4589-a790-51da9f788ee9

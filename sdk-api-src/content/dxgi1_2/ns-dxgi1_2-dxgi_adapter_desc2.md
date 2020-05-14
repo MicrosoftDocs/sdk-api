@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgi1_2.DXGI_ADAPTER_DESC2
 title: DXGI_ADAPTER_DESC2 (dxgi1_2.h)
-description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.
+description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.helpviewer_keywords: ["DXGI_ADAPTER_DESC2","DXGI_ADAPTER_DESC2 structure [DXGI]","direct3ddxgi.dxgi_adapter_desc2","dxgi1_2/DXGI_ADAPTER_DESC2"]
 old-location: direct3ddxgi\dxgi_adapter_desc2.htm
 tech.root: direct3ddxgi
 ms.assetid: AE34913A-84D8-49DB-A736-15AECA9989F9

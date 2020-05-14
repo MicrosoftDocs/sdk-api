@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddSelector
 title: IWSManResourceLocator::AddSelector (wsmandisp.h)
-description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
+description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.helpviewer_keywords: ["AddSelector","AddSelector method [Windows Remote Management]","AddSelector method [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","AddSelector method","IWSManResourceLocator.AddSelector","IWSManResourceLocator::AddSelector","winrm.iwsmanresourcelocator_addselector","wsmandisp/IWSManResourceLocator::AddSelector"]
 old-location: winrm\iwsmanresourcelocator_addselector.htm
 tech.root: winrm
 ms.assetid: 2f6c1169-8e2a-4919-9a1a-856dbe41a9ce

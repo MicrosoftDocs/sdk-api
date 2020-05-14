@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_InitialProgram
 title: ITsSbClientConnection::get_InitialProgram (sbtsv.h)
-description: Retrieves a value that indicates the program that is launched when the user logs on to the target computer.
+description: Retrieves a value that indicates the program that is launched when the user logs on to the target computer.helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","InitialProgram property","ITsSbClientConnection.InitialProgram","ITsSbClientConnection.get_InitialProgram","ITsSbClientConnection::InitialProgram","ITsSbClientConnection::get_InitialProgram","InitialProgram property [Remote Desktop Services]","InitialProgram property [Remote Desktop Services]","ITsSbClientConnection interface","get_InitialProgram","sbtsv/ITsSbClientConnection::InitialProgram","sbtsv/ITsSbClientConnection::get_InitialProgram","termserv.itssbclientconnection_initialprogram"]
 old-location: termserv\itssbclientconnection_initialprogram.htm
 tech.root: TermServ
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7

@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi._DS_REPL_QUEUE_STATISTICSW
 title: DS_REPL_QUEUE_STATISTICSW (ntdsapi.h)
-description: Used to contain replication queue statistics.
+description: Used to contain replication queue statistics.helpviewer_keywords: ["DS_REPL_QUEUE_STATISTICSW","DS_REPL_QUEUE_STATISTICSW structure [Active Directory]","DS_REPL_QUEUE_STATISTICSW_BLOB","_DS_REPL_QUEUE_STATISTICSW","ad.ds_repl_queue_statisticsw","ntdsapi/DS_REPL_QUEUE_STATISTICSW"]
 old-location: ad\ds_repl_queue_statisticsw.htm
 tech.root: ad
 ms.assetid: bfddd7ed-0ff4-46ca-84c2-39020acb37d0

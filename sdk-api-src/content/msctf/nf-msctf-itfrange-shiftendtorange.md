@@ -2,6 +2,7 @@
 UID: NF:msctf.ITfRange.ShiftEndToRange
 title: ITfRange::ShiftEndToRange (msctf.h)
 description: ITfRange::ShiftEndToRange method
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftEndToRange method","ITfRange.ShiftEndToRange","ITfRange::ShiftEndToRange","ShiftEndToRange","ShiftEndToRange method [Text Services Framework]","ShiftEndToRange method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftendtorange_ref","msctf/ITfRange::ShiftEndToRange","tsf.itfrange_shiftendtorange"]
 old-location: tsf\itfrange_shiftendtorange.htm
 tech.root: TSF
 ms.assetid: 27595909-025b-46c9-bd6f-2e64a720c97c
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the end anchor of this range to an anchor within another range.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-m
 
 ### -param aPos [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values that specify which anchor of <i>pRange</i> the end anchor will get moved to.
+Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values that specify which anchor of <i>pRange</i> the end anchor will get moved to.
 
 
 ## -returns

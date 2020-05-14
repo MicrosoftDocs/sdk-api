@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12RootSignatureDeserializer.GetRootSignatureDesc
 title: ID3D12RootSignatureDeserializer::GetRootSignatureDesc (d3d12.h)
-description: Gets the layout of the root signature.
+description: Gets the layout of the root signature.helpviewer_keywords: ["GetRootSignatureDesc","GetRootSignatureDesc method","GetRootSignatureDesc method","ID3D12RootSignatureDeserializer interface","ID3D12RootSignatureDeserializer interface","GetRootSignatureDesc method","ID3D12RootSignatureDeserializer.GetRootSignatureDesc","ID3D12RootSignatureDeserializer::GetRootSignatureDesc","d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc","direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc"]
 old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.htm
 tech.root: direct3d12
 ms.assetid: A13FB848-A5C1-4B9B-9009-B0166A3A1C8D

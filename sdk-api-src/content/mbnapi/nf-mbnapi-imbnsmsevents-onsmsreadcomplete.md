@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsReadComplete
 title: IMbnSmsEvents::OnSmsReadComplete (mbnapi.h)
-description: Notification method indicating the completion of a message read operation.
+description: Notification method indicating the completion of a message read operation.helpviewer_keywords: ["E_MBN_BAD_SIM","E_MBN_PIN_REQUIRED","E_MBN_SIM_NOT_INSERTED","E_MBN_SMS_FILTER_NOT_SUPPORTED","E_MBN_SMS_INVALID_MEMORY_INDEX","E_MBN_SMS_MEMORY_FAILURE","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsReadComplete method","IMbnSmsEvents.OnSmsReadComplete","IMbnSmsEvents::OnSmsReadComplete","OnSmsReadComplete","OnSmsReadComplete method [Microsoft Broadband Networks]","OnSmsReadComplete method [Microsoft Broadband Networks]","IMbnSmsEvents interface","S_OK","mbn.imbnsmsevents_onsmsreadcomplete","mbnapi/IMbnSmsEvents::OnSmsReadComplete"]
 old-location: mbn\imbnsmsevents_onsmsreadcomplete.htm
 tech.root: mbn
 ms.assetid: 58478c9d-6df2-466b-85bc-1c571f4429ce

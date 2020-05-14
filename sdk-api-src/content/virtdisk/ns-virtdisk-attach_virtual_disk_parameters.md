@@ -2,6 +2,7 @@
 UID: NS:virtdisk._ATTACH_VIRTUAL_DISK_PARAMETERS
 title: ATTACH_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 description: Contains virtual hard disk (VHD) attach request parameters.
+helpviewer_keywords: ["*PATTACH_VIRTUAL_DISK_PARAMETERS","ATTACH_VIRTUAL_DISK_PARAMETERS","ATTACH_VIRTUAL_DISK_PARAMETERS structure [VHD]","PATTACH_VIRTUAL_DISK_PARAMETERS","PATTACH_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_ATTACH_VIRTUAL_DISK_PARAMETERS","vdssys/ATTACH_VIRTUAL_DISK_PARAMETERS","vdssys/PATTACH_VIRTUAL_DISK_PARAMETERS","vhd.attach_virtual_disk_parameters","vhd.surface_virtual_disk_parameters","virtdisk/ATTACH_VIRTUAL_DISK_PARAMETERS","virtdisk/PATTACH_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\attach_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 2bccad87-ddfe-4db4-9bf3-1892d8dd1237
@@ -60,7 +61,7 @@ Contains virtual hard disk (VHD)  attach request parameters.
 
 ### -field Version
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_version">ATTACH_VIRTUAL_DISK_VERSION</a> 
+A <a href="/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_version">ATTACH_VIRTUAL_DISK_VERSION</a> 
      enumeration that specifies the version of the 
      <b>ATTACH_VIRTUAL_DISK_PARAMETERS</b> 
      structure being passed to or from the VHD functions.

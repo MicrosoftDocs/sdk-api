@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontCollection
 title: IDWriteTextLayout::GetFontCollection (dwrite.h)
-description: Gets the font collection associated with the text at the specified position.
+description: Gets the font collection associated with the text at the specified position.helpviewer_keywords: ["GetFontCollection","GetFontCollection method [Direct Write]","GetFontCollection method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontCollection method","IDWriteTextLayout.GetFontCollection","IDWriteTextLayout::GetFontCollection","directwrite.IDWriteTextLayout_GetFontCollection","dwrite/IDWriteTextLayout::GetFontCollection"]
 old-location: directwrite\IDWriteTextLayout_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: ce3e4510-2b40-4eb4-aaf8-fe830e96d618

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 title: CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC (d3d11.h)
-description: Instantiates a new instance of an uninitialized CD3D11_RASTERIZER_DESC structure.
+description: Instantiates a new instance of an uninitialized CD3D11_RASTERIZER_DESC structure.helpviewer_keywords: ["CD3D11_RASTERIZER_DESC","CD3D11_RASTERIZER_DESC constructor [Direct3D 11]","CD3D11_RASTERIZER_DESC constructor [Direct3D 11]","CD3D11_RASTERIZER_DESC interface","CD3D11_RASTERIZER_DESC interface [Direct3D 11]","CD3D11_RASTERIZER_DESC constructor","CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC","CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC","CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT)","d3d11/CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC","direct3d11.cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_cd3d11_default_"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: E970A6F1-51F8-4908-9D21-F4EC805884BF

@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSession
 title: IWdsTransportSession (wdstptmgmt.h)
-description: Represents an active transport session on the WDS transport server.
+description: Represents an active transport session on the WDS transport server.helpviewer_keywords: ["IWdsTransportSession","IWdsTransportSession interface [Windows Deployment Services]","IWdsTransportSession interface [Windows Deployment Services]","described","wds.iwdstransportsession","wdstptmgmt/IWdsTransportSession"]
 old-location: wds\iwdstransportsession.htm
 tech.root: wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8

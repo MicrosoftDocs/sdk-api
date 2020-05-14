@@ -1,7 +1,7 @@
 ---
 UID: NN:oleacc.IAccIdentity
 title: IAccIdentity (oleacc.h)
-description: Exposes a method that provides a unique identifier for an accessible element.
+description: Exposes a method that provides a unique identifier for an accessible element.helpviewer_keywords: ["IAccIdentity","IAccIdentity interface [Windows Accessibility]","IAccIdentity interface [Windows Accessibility]","described","msaa.iaccidentity","oleacc/IAccIdentity","winauto.iaccidentity"]
 old-location: winauto\iaccidentity.htm
 tech.root: WinAuto
 ms.assetid: 59fde1a5-42bd-40e0-8143-edd082b2b166

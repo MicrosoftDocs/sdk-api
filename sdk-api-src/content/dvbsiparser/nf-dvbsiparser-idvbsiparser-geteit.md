@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetEIT
 title: IDvbSiParser::GetEIT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetEIT","GetEIT method [Microsoft TV Technologies]","GetEIT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetEIT method","IDvbSiParser.GetEIT","IDvbSiParser::GetEIT","IDvbSiParserGetEIT","dvbsiparser/IDvbSiParser::GetEIT","mstv.idvbsiparser_geteit"]
 old-location: mstv\idvbsiparser_geteit.htm
 tech.root: mstv
 ms.assetid: fd1c0418-2bec-4270-be4b-3877428e3968

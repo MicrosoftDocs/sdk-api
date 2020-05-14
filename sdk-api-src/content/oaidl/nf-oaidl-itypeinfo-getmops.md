@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetMops
 title: ITypeInfo::GetMops (oaidl.h)
-description: Retrieves marshaling information.
+description: Retrieves marshaling information.helpviewer_keywords: ["GetMops","GetMops method [Automation]","GetMops method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetMops method","ITypeInfo.GetMops","ITypeInfo::GetMops","_oa96_ITypeInfo_GetMops","automat.itypeinfo_getmops","oaidl/ITypeInfo::GetMops"]
 old-location: automat\itypeinfo_getmops.htm
 tech.root: automat
 ms.assetid: 6f8f4d4a-c51d-46d3-ad0f-1ee357bb7104

@@ -2,6 +2,7 @@
 UID: NF:dxgi.IDXGIAdapter.CheckInterfaceSupport
 title: IDXGIAdapter::CheckInterfaceSupport (dxgi.h)
 description: Checks whether the system supports a device interface for a graphics component.
+helpviewer_keywords: ["5922d4df-f6ec-4fce-1a94-3779ba7e2830","CheckInterfaceSupport","CheckInterfaceSupport method [DXGI]","CheckInterfaceSupport method [DXGI]","IDXGIAdapter interface","IDXGIAdapter interface [DXGI]","CheckInterfaceSupport method","IDXGIAdapter.CheckInterfaceSupport","IDXGIAdapter::CheckInterfaceSupport","direct3ddxgi.idxgiadapter_checkinterfacesupport","dxgi/IDXGIAdapter::CheckInterfaceSupport"]
 old-location: direct3ddxgi\idxgiadapter_checkinterfacesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_checkinterfacesupport.htm
@@ -67,7 +68,7 @@ The GUID of the interface of the device version for which support is being check
 
 ### -param pUMDVersion [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>*</b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>*</b>
 
 The user mode driver version of <i>InterfaceName</i>. This is  returned only if the interface is supported, otherwise this parameter will be <b>NULL</b>.
 

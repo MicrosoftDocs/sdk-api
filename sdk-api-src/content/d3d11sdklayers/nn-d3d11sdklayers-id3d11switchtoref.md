@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11SwitchToRef
 title: ID3D11SwitchToRef (d3d11sdklayers.h)
-description: ID3D11SwitchToRef interface
+description: ID3D11SwitchToRef interfacehelpviewer_keywords: ["6d6b602d-11ba-2e7a-07a9-f2af8fd90578","ID3D11SwitchToRef","ID3D11SwitchToRef interface [Direct3D 11]","ID3D11SwitchToRef interface [Direct3D 11]","described","d3d11sdklayers/ID3D11SwitchToRef","direct3d11.id3d11switchtoref"]
 old-location: direct3d11\id3d11switchtoref.htm
 tech.root: direct3d11
 ms.assetid: 02295183-b117-4ca9-89ad-223fdd3b0aa5

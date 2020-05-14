@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl.SAMPLE_PROTECTION_VERSION
 title: SAMPLE_PROTECTION_VERSION (mfidl.h)
-description: Defines the version number for sample protection.
+description: Defines the version number for sample protection.helpviewer_keywords: ["5244ac44-5738-4d77-9dc5-371efe52ced9","SAMPLE_PROTECTION_VERSION","SAMPLE_PROTECTION_VERSION enumeration [Media Foundation]","SAMPLE_PROTECTION_VERSION_BASIC_LOKI","SAMPLE_PROTECTION_VERSION_NO","SAMPLE_PROTECTION_VERSION_RC4","SAMPLE_PROTECTION_VERSION_SCATTER","mf.sample_protection_version","mfidl/SAMPLE_PROTECTION_VERSION","mfidl/SAMPLE_PROTECTION_VERSION_BASIC_LOKI","mfidl/SAMPLE_PROTECTION_VERSION_NO","mfidl/SAMPLE_PROTECTION_VERSION_RC4","mfidl/SAMPLE_PROTECTION_VERSION_SCATTER"]
 old-location: mf\sample_protection_version.htm
 tech.root: medfound
 ms.assetid: 5244ac44-5738-4d77-9dc5-371efe52ced9

@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderSubscribeChanges0
 title: FwpmProviderSubscribeChanges0 function (fwpmu.h)
 description: Is used to request the delivery of notifications regarding changes in a particular provider.
+helpviewer_keywords: ["FwpmProviderSubscribeChanges0","FwpmProviderSubscribeChanges0 function [Filtering]","fwp.fwpmprovidersubscribechanges0_func","fwpmu/FwpmProviderSubscribeChanges0"]
 old-location: fwp\fwpmprovidersubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 73d04bcb-b888-4e40-90e6-a0d777f926ef
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in, optional]
 
-Type: [FWPM_PROVIDER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_subscription0)a>*</b>
+Type: [FWPM_PROVIDER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_subscription0)*</b>
 
 The notifications to be delivered.
 
@@ -172,7 +173,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_subscription0)a>
+[FWPM_PROVIDER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_subscription0)
  
 
  

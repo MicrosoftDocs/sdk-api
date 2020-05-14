@@ -1,7 +1,7 @@
 ---
 UID: NS:cmnquery.__unnamed_struct_0
 title: CQFORM (cmnquery.h)
-description: Used to define a query form added to the query dialog box with the CQAddFormsProc callback function.
+description: Used to define a query form added to the query dialog box with the CQAddFormsProc callback function.helpviewer_keywords: ["*LPCQFORM","CQFF_ISOPTIONAL","CQFF_NOGLOBALPAGES","CQFORM","CQFORM structure [Active Directory]","LPCQFORM","LPCQFORM structure pointer [Active Directory]","_glines_cqform","ad.cqform","cmnquery/CQFORM","cmnquery/LPCQFORM"]
 old-location: ad\cqform.htm
 tech.root: ad
 ms.assetid: 65cf2e9c-8f88-4e84-8bf2-2b0fd246a835

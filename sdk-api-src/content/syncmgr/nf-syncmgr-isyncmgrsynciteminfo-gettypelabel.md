@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetTypeLabel
 title: ISyncMgrSyncItemInfo::GetTypeLabel (syncmgr.h)
-description: Gets a label for the item type. This typically provides the model of the device or an equivalent item-specific identity string.
+description: Gets a label for the item type. This typically provides the model of the device or an equivalent item-specific identity string.helpviewer_keywords: ["GetTypeLabel","GetTypeLabel method [Windows Shell]","GetTypeLabel method [Windows Shell]","ISyncMgrSyncItemInfo interface","ISyncMgrSyncItemInfo interface [Windows Shell]","GetTypeLabel method","ISyncMgrSyncItemInfo.GetTypeLabel","ISyncMgrSyncItemInfo::GetTypeLabel","_shell_ISyncMgrSyncItemInfo_GetTypeLabel","shell.ISyncMgrSyncItemInfo_GetTypeLabel","syncmgr/ISyncMgrSyncItemInfo::GetTypeLabel"]
 old-location: shell\ISyncMgrSyncItemInfo_GetTypeLabel.htm
 tech.root: shell
 ms.assetid: f93e929f-c25b-4511-9478-57686f9e205b

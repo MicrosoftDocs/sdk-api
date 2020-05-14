@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IDataAdviseHolder
 title: IDataAdviseHolder (objidl.h)
-description: Creates and manages advisory connections between a data object and one or more advise sinks.
+description: Creates and manages advisory connections between a data object and one or more advise sinks.helpviewer_keywords: ["IDataAdviseHolder","IDataAdviseHolder interface [COM]","IDataAdviseHolder interface [COM]","described","_ole_idataadviseholder","com.idataadviseholder","objidl/IDataAdviseHolder"]
 old-location: com\idataadviseholder.htm
 tech.root: com
 ms.assetid: 740a6366-6ab1-4a20-82df-1efdd62211eb

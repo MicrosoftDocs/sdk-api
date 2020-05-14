@@ -1,7 +1,7 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetPortableDevice
 title: IEnhancedStorageSilo::GetPortableDevice (ehstorapi.h)
-description: Obtains an IPortableDevice pointer used to issue commands to the corresponding Enhanced Storage silo driver.
+description: Obtains an IPortableDevice pointer used to issue commands to the corresponding Enhanced Storage silo driver.helpviewer_keywords: ["GetPortableDevice","GetPortableDevice method [Enhanced Storage]","GetPortableDevice method [Enhanced Storage]","IEnhancedStorageSilo interface","IEnhancedStorageSilo interface [Enhanced Storage]","GetPortableDevice method","IEnhancedStorageSilo.GetPortableDevice","IEnhancedStorageSilo::GetPortableDevice","ehstorapi/IEnhancedStorageSilo::GetPortableDevice","enstor.ienhancedstoragesilo_getportabledevice"]
 old-location: enstor\ienhancedstoragesilo_getportabledevice.htm
 tech.root: enstor
 ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5

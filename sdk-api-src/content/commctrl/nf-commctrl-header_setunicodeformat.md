@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Header_SetUnicodeFormat
 title: Header_SetUnicodeFormat macro (commctrl.h)
-description: Sets the UNICODE character format flag for the control.
+description: Sets the UNICODE character format flag for the control.helpviewer_keywords: ["Header_SetUnicodeFormat","Header_SetUnicodeFormat macro [Windows Controls]","_win32_Header_SetUnicodeFormat","_win32_Header_SetUnicodeFormat_cpp","commctrl/Header_SetUnicodeFormat","controls.Header_SetUnicodeFormat","controls._win32_Header_SetUnicodeFormat"]
 old-location: controls\Header_SetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setunicodeformat.htm

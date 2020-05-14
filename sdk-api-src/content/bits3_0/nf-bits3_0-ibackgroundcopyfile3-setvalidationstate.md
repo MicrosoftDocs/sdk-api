@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.SetValidationState
 title: IBackgroundCopyFile3::SetValidationState (bits3_0.h)
-description: Sets the validation state of this file.
+description: Sets the validation state of this file.helpviewer_keywords: ["IBackgroundCopyFile3 interface [BITS]","SetValidationState method","IBackgroundCopyFile3.SetValidationState","IBackgroundCopyFile3::SetValidationState","SetValidationState","SetValidationState method [BITS]","SetValidationState method [BITS]","IBackgroundCopyFile3 interface","bits.ibackgroundcopyfile3_setvalidationstate","bits3_0/IBackgroundCopyFile3::SetValidationState"]
 old-location: bits\ibackgroundcopyfile3_setvalidationstate.htm
 tech.root: Bits
 ms.assetid: c032ce32-07a4-4ab2-ae57-f9d526d1371a

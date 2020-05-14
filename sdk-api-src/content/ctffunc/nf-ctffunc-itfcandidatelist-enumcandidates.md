@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.EnumCandidates
 title: ITfCandidateList::EnumCandidates (ctffunc.h)
-description: ITfCandidateList::EnumCandidates method
+description: ITfCandidateList::EnumCandidates methodhelpviewer_keywords: ["EnumCandidates","EnumCandidates method [Text Services Framework]","EnumCandidates method [Text Services Framework]","ITfCandidateList interface","ITfCandidateList interface [Text Services Framework]","EnumCandidates method","ITfCandidateList.EnumCandidates","ITfCandidateList::EnumCandidates","_tsf_itfcandidatelist_enumcandidates_ref","ctffunc/ITfCandidateList::EnumCandidates","tsf.itfcandidatelist_enumcandidates"]
 old-location: tsf\itfcandidatelist_enumcandidates.htm
 tech.root: TSF
 ms.assetid: f63799a1-2284-4da8-933c-f3616c1cb295
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains all the candidate string objects in the candidate list.
 
 ## -parameters
 

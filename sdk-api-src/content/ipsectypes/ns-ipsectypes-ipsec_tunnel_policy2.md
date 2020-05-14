@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY2_
 title: IPSEC_TUNNEL_POLICY2 (ipsectypes.h)
 description: Stores the quick mode negotiation policy for tunnel mode IPsec.
+helpviewer_keywords: ["IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME","IPSEC_POLICY_FLAG_ENABLE_SERVER_ADDR_ASSIGNMENT","IPSEC_POLICY_FLAG_ENABLE_V6_IN_V4_TUNNELING","IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY","IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY","IPSEC_POLICY_FLAG_ND_BOUNDARY","IPSEC_POLICY_FLAG_ND_SECURE","IPSEC_POLICY_FLAG_TUNNEL_ALLOW_OUTBOUND_CLEAR_CONNECTION","IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ALREADY_SECURE_CONNECTION","IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ICMPV6","IPSEC_TUNNEL_POLICY2","IPSEC_TUNNEL_POLICY2 structure [Filtering]","fwp.ipsec_tunnel_policy2","ipsectypes/IPSEC_TUNNEL_POLICY2"]
 old-location: fwp\ipsec_tunnel_policy2.htm
 tech.root: fwp
 ms.assetid: a633505d-86ec-42ba-bb4c-3f61e8768eab
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TUNNEL_POLICY2</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-[IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)a> is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0)a> is available.</div><div> </div>
+[IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -203,28 +204,28 @@ Type: <b>UINT32</b>
 
 ### -field ipsecProposals
 
-Type: [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a>*</b>
+Type: [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)*</b>
 
 Array of quick mode proposals.
 
 
 ### -field tunnelEndpoints
 
-Type: [IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)a></b>
+Type: [IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)</b>
 
 Tunnel endpoints of the IPsec security association (SA) generated from this policy.
 
 
 ### -field saIdleTimeout
 
-Type: [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a></b>
+Type: [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)</b>
 
 Specifies the SA idle timeout in IPsec policy.
 
 
 ### -field emPolicy
 
-Type: [IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)a>*</b>
+Type: [IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)*</b>
 
 The AuthIP extended mode authentication policy.
 
@@ -241,19 +242,19 @@ The forward path SA lifetime indicating the length of time for this connection.
 
 
 
-[IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)a>
+[IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)
 
 
 
-[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a>
+[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
 
 
 
-[IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a>
+[IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)
 
 
 
-[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)a>
+[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
 
 

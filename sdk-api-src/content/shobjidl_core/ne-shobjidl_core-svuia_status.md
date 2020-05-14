@@ -2,6 +2,7 @@
 UID: NE:shobjidl_core.SVUIA_STATUS
 title: SVUIA_STATUS (shobjidl_core.h)
 description: Used with the IBrowserService2::_UIActivateView method to set the state of a browser view.
+helpviewer_keywords: ["SVUIA_ACTIVATE_FOCUS","SVUIA_ACTIVATE_NOFOCUS","SVUIA_DEACTIVATE","SVUIA_INPLACEACTIVATE","SVUIA_STATUS","SVUIA_STATUS enumeration [Windows Shell]","_win32_SVUIA_STATUS","shell.SVUIA_STATUS","shobjidl_core/SVUIA_ACTIVATE_FOCUS","shobjidl_core/SVUIA_ACTIVATE_NOFOCUS","shobjidl_core/SVUIA_DEACTIVATE","shobjidl_core/SVUIA_INPLACEACTIVATE","shobjidl_core/SVUIA_STATUS"]
 old-location: shell\SVUIA_STATUS.htm
 tech.root: shell
 ms.assetid: 04cb4259-4d16-44d0-8186-bce21ceab887
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_uiactivateview">IBrowserService2::_UIActivateView</a> method to set the state of a browser view.
+Used with the <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_uiactivateview">IBrowserService2::_UIActivateView</a> method to set the state of a browser view.
 
 
 ## -enum-fields

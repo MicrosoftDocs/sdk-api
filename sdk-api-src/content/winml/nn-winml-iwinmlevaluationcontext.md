@@ -1,7 +1,7 @@
 ---
 UID: NN:winml.IWinMLEvaluationContext
 title: IWinMLEvaluationContext (winml.h)
-description: Represents the context to bind inputs and outputs to a WinML model.
+description: Represents the context to bind inputs and outputs to a WinML model.helpviewer_keywords: ["IWinMLEvaluationContext","IWinMLEvaluationContext interface","IWinMLEvaluationContext interface","described","MachineLearning.iwinmlevaluationcontext","winml/IWinMLEvaluationContext"]
 old-location: machinelearning\iwinmlevaluationcontext.htm
 tech.root: MachineLearning
 ms.assetid: D4C9B16A-B351-41E4-AD42-20C25F3CC404

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_SECURITY_TOKEN_PROPERTY
 title: WS_XML_SECURITY_TOKEN_PROPERTY (webservices.h)
-description: Specifies a property for an XML security token.
+description: Specifies a property for an XML security token.helpviewer_keywords: ["WS_XML_SECURITY_TOKEN_PROPERTY","WS_XML_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows]","webservices/WS_XML_SECURITY_TOKEN_PROPERTY","wsw.ws_xml_security_token_property"]
 old-location: wsw\ws_xml_security_token_property.htm
 tech.root: wsw
 ms.assetid: dd235e33-39f7-459d-8b7f-76d5c3f96770

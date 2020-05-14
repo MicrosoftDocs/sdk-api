@@ -1,7 +1,7 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.ConnectIdentity
 title: IConnectedIdentityProvider::ConnectIdentity (identityprovider.h)
-description: Connects an identity to a domain user.
+description: Connects an identity to a domain user.helpviewer_keywords: ["ConnectIdentity","ConnectIdentity method [Security]","ConnectIdentity method [Security]","IConnectedIdentityProvider interface","IConnectedIdentityProvider interface [Security]","ConnectIdentity method","IConnectedIdentityProvider.ConnectIdentity","IConnectedIdentityProvider::ConnectIdentity","identityprovider/IConnectedIdentityProvider::ConnectIdentity","security.iconnectedidentityprovider_connectidentity"]
 old-location: security\iconnectedidentityprovider_connectidentity.htm
 tech.root: SecAuthN
 ms.assetid: 945CBE34-E364-41FF-8CE4-0FB0BEF3BC69

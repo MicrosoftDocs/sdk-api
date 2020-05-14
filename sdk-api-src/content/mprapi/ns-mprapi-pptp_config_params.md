@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._PPTP_CONFIG_PARAMS
 title: PPTP_CONFIG_PARAMS (mprapi.h)
-description: Used to get and set the device configuration for Point-to-Point Tunneling Protocool (PPTP) on a RAS Server.
+description: Used to get and set the device configuration for Point-to-Point Tunneling Protocool (PPTP) on a RAS Server.helpviewer_keywords: ["*PPPTP_CONFIG_PARAMS","MPR_ENABLE_RAS_ON_DEVICE","MPR_ENABLE_ROUTING_ON_DEVICE","PPPTP_CONFIG_PARAMS","PPPTP_CONFIG_PARAMS structure pointer [RAS]","PPTP_CONFIG_PARAMS","PPTP_CONFIG_PARAMS structure [RAS]","mprapi/PPPTP_CONFIG_PARAMS","mprapi/PPTP_CONFIG_PARAMS","rras.pptp_config_params"]
 old-location: rras\pptp_config_params.htm
 tech.root: RRAS
 ms.assetid: 0314c517-75be-4357-90bf-8a2a72d49542

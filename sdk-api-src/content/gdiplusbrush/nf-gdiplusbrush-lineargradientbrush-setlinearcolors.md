@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetLinearColors
 title: LinearGradientBrush::SetLinearColors (gdiplusbrush.h)
-description: The LinearGradientBrush::SetLinearColors method sets the starting color and ending color of this linear gradient brush.
+description: The LinearGradientBrush::SetLinearColors method sets the starting color and ending color of this linear gradient brush.helpviewer_keywords: ["LinearGradientBrush class [GDI+]","SetLinearColors method","LinearGradientBrush.SetLinearColors","LinearGradientBrush::SetLinearColors","SetLinearColors","SetLinearColors method [GDI+]","SetLinearColors method [GDI+]","LinearGradientBrush class","_gdiplus_CLASS_LinearGradientBrush_SetLinearColors_color1_color2_","gdiplus._gdiplus_CLASS_LinearGradientBrush_SetLinearColors_color1_color2_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetLinearColors_color1_color2_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setlinearcolors.htm

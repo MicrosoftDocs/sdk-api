@@ -2,6 +2,7 @@
 UID: NN:msrdc.ISimilarityTableDumpState
 title: ISimilarityTableDumpState (msrdc.h)
 description: Provides a method for retrieving information from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
+helpviewer_keywords: ["ISimilarityTableDumpState","ISimilarityTableDumpState interface [Remote Differential Compression]","ISimilarityTableDumpState interface [Remote Differential Compression]","described","fs.isimilaritytabledumpstate","msrdc/ISimilarityTableDumpState","rdc.isimilaritytabledumpstate"]
 old-location: rdc\isimilaritytabledumpstate.htm
 tech.root: rdc
 ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
@@ -72,7 +73,7 @@ The <b>ISimilarityTableDumpState</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">GetNextData</a>
 </td>
 <td align="left" width="63%">
-Retrieves one or more <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures from the similarity traits list.
+Retrieves one or more <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures from the similarity traits list.
 
 </td>
 </tr>

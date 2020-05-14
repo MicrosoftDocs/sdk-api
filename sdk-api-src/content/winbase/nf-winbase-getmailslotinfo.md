@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetMailslotInfo
 title: GetMailslotInfo function (winbase.h)
-description: Retrieves information about the specified mailslot.
+description: Retrieves information about the specified mailslot.helpviewer_keywords: ["GetMailslotInfo","GetMailslotInfo function","MAILSLOT_NO_MESSAGE","_win32_getmailslotinfo","base.getmailslotinfo","winbase/GetMailslotInfo"]
 old-location: base\getmailslotinfo.htm
 tech.root: ipc
 ms.assetid: 873b4dbe-f808-4731-9314-a595ef7ef3c5

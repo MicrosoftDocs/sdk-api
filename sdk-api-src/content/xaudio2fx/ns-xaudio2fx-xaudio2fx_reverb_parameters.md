@@ -1,7 +1,7 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_REVERB_PARAMETERS
 title: XAUDIO2FX_REVERB_PARAMETERS (xaudio2fx.h)
-description: Describes parameters for use in the reverb APO.
+description: Describes parameters for use in the reverb APO.helpviewer_keywords: ["XAUDIO2FX_REVERB_PARAMETERS","XAUDIO2FX_REVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2fx_reverb_parameters","xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS"]
 old-location: xaudio2\xaudio2fx_reverb_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_PARAMETERS

@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStreamAttributes
 title: IMFTransform::GetOutputStreamAttributes (mftransform.h)
-description: Gets the attribute store for an output stream on this Media Foundation transform (MFT).
+description: Gets the attribute store for an output stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetOutputStreamAttributes","GetOutputStreamAttributes method [Media Foundation]","GetOutputStreamAttributes method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputStreamAttributes method","IMFTransform.GetOutputStreamAttributes","IMFTransform::GetOutputStreamAttributes","d54ce20c-8ef9-4480-9ddd-908751fc0a7e","mf.imftransform_getoutputstreamattributes","mftransform/IMFTransform::GetOutputStreamAttributes"]
 old-location: mf\imftransform_getoutputstreamattributes.htm
 tech.root: medfound
 ms.assetid: d54ce20c-8ef9-4480-9ddd-908751fc0a7e

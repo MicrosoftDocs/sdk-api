@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_HTTPProxyPort
 title: IAMNetShowConfig::put_HTTPProxyPort (qnetwork.h)
-description: The put_HTTPProxyPort method specifies the port for the HTTP proxy server.
+description: The put_HTTPProxyPort method specifies the port for the HTTP proxy server.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_HTTPProxyPort method","IAMNetShowConfig.put_HTTPProxyPort","IAMNetShowConfig::put_HTTPProxyPort","IAMNetShowConfigput_HTTPProxyPort","dshow.iamnetshowconfig_put_httpproxyport","put_HTTPProxyPort","put_HTTPProxyPort method [DirectShow]","put_HTTPProxyPort method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_HTTPProxyPort"]
 old-location: dshow\iamnetshowconfig_put_httpproxyport.htm
 tech.root: DirectShow
 ms.assetid: dada8684-66e7-4983-984a-589d48d167ba

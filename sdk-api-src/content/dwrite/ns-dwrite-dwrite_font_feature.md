@@ -1,7 +1,7 @@
 ---
 UID: NS:dwrite.DWRITE_FONT_FEATURE
 title: DWRITE_FONT_FEATURE (dwrite.h)
-description: Specifies properties used to identify and execute typographic features in the current font face.
+description: Specifies properties used to identify and execute typographic features in the current font face.helpviewer_keywords: ["DWRITE_FONT_FEATURE","DWRITE_FONT_FEATURE structure [Direct Write]","directwrite.dwrite_font_feature","dwrite/DWRITE_FONT_FEATURE"]
 old-location: directwrite\dwrite_font_feature.htm
 tech.root: DirectWrite
 ms.assetid: f8c2b1b0-ecab-4556-b3e6-5eda75e206ed

@@ -2,6 +2,7 @@
 UID: NE:webservices.__unnamed_enum_82
 title: WS_FIELD_MAPPING (webservices.h)
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
+helpviewer_keywords: ["WS_ANY_ATTRIBUTES_FIELD_MAPPING","WS_ANY_CONTENT_FIELD_MAPPING","WS_ATTRIBUTE_FIELD_MAPPING","WS_ELEMENT_CHOICE_FIELD_MAPPING","WS_ELEMENT_FIELD_MAPPING","WS_FIELD_MAPPING","WS_FIELD_MAPPING enumeration [Web Services for Windows]","WS_NO_FIELD_MAPPING","WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING","WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING","WS_REPEATING_ELEMENT_FIELD_MAPPING","WS_TEXT_FIELD_MAPPING","WS_TYPE_ATTRIBUTE_FIELD_MAPPING","WS_XML_ATTRIBUTE_FIELD_MAPPING","webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING","webservices/WS_ANY_CONTENT_FIELD_MAPPING","webservices/WS_ATTRIBUTE_FIELD_MAPPING","webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING","webservices/WS_ELEMENT_FIELD_MAPPING","webservices/WS_FIELD_MAPPING","webservices/WS_NO_FIELD_MAPPING","webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING","webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING","webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING","webservices/WS_TEXT_FIELD_MAPPING","webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING","webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING","wsw.ws_field_mapping"]
 old-location: wsw\ws_field_mapping.htm
 tech.root: wsw
 ms.assetid: 14f4dbc6-0870-4b1c-8f6b-544f771771e8
@@ -108,7 +109,7 @@ The field's localName/ns are used as the XML attribute name and namespace.
                 
 
 Unless specified, the attribute must appear in the XML.
-                    If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> is specified, then the attribute
+                    If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> is specified, then the attribute
                     is not required to appear in the XML.  If optional and not
                     present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>,
                     or zero if the default value is not specified.
@@ -140,7 +141,7 @@ The field's localName/ns are used as the XML element name and namespace.
                 
 
 Unless specified, the element must appear in the XML.
-                    If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> is specified, then the element
+                    If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> is specified, then the element
                     is not required to appear in the XML.  If optional and not
                     present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>,
                     or zero if the default value is not specified.
@@ -261,7 +262,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
                     value is not specified, then the field will be initialized to zero.
                 
 
-The field mapping can be used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> value of 0 only.
+The field mapping can be used with <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> value of 0 only.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -284,7 +285,7 @@ The field corresponds to a reserved xml attribute (such as xml:lang).
 The field's localName is used to identify the XML attribute name.
                 
 
-Unless <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, the attribute must 
+Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, the attribute must 
                     appear in the XML.  If <b>WS_FIELD_OPTIONAL</b> is specified, 
                     then the attribute is not required to appear in the XML.  If optional and not
                     present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>,
@@ -342,7 +343,7 @@ This field mapping must be used with <a href="https://docs.microsoft.com/windows
                     and ns should be <b>NULL</b>.
                 
 
-Unless <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, one of the 
+Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, one of the 
                     elements must appear in the XML.  If <b>WS_FIELD_OPTIONAL</b> is specified,
                     then none of the elements are required to appear in the XML.  If optional and none
                     of the elements are present, then the field's selector value is set to the
@@ -405,7 +406,7 @@ This field mapping must be used with <a href="https://docs.microsoft.com/windows
                     and ns should be <b>NULL</b>.
                 
 
-Unless <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, one of the 
+Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>  is specified, one of the 
                     elements must appear in the XML.  If <b>WS_FIELD_OPTIONAL</b> is specified,
                     then none of the elements are required to appear in the XML.  If optional and none
                     of the elements are present, then the field's selector value is set to the
@@ -609,15 +610,15 @@ The ns field of the <a href="https://docs.microsoft.com/windows/desktop/api/webs
                     namespace of the attributes allowed as follows:
                     <ul>
 <li>If the ns field is <b>NULL</b>, then there is no restriction.  The
-                        <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OTHER_NAMESPACE</a> field option must be not set in this
+                        <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OTHER_NAMESPACE</a> field option must be not set in this
                         case.
                         </li>
 <li>If the ns field is non-<b>NULL</b>, and the field option
-                        <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OTHER_NAMESPACE</a> is not set for the field, then
+                        <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OTHER_NAMESPACE</a> is not set for the field, then
                         the attribute must have the same namespace as was specified in the ns field.
                         </li>
 <li>If the ns field is non-<b>NULL</b>, and the field option
-                        <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OTHER_NAMESPACE</a> is set for the field, then the
+                        <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OTHER_NAMESPACE</a> is set for the field, then the
                         attribute must have a different namespace than was specified
                         in the ns field.
                     </li>

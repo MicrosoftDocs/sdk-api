@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_MAPPINGS_INFO
 title: CERT_POLICY_MAPPINGS_INFO (wincrypt.h)
-description: The CERT_POLICY_MAPPINGS_INFO structure provides mapping between the policy OIDs of two domains.
+description: The CERT_POLICY_MAPPINGS_INFO structure provides mapping between the policy OIDs of two domains.helpviewer_keywords: ["*PCERT_POLICY_MAPPINGS_INFO","CERT_POLICY_MAPPINGS_INFO","CERT_POLICY_MAPPINGS_INFO structure [Security]","PCERT_POLICY_MAPPINGS_INFO","PCERT_POLICY_MAPPINGS_INFO structure pointer [Security]","_crypto2_cert_policy_mappings_info","security.cert_policy_mappings_info","wincrypt/CERT_POLICY_MAPPINGS_INFO","wincrypt/PCERT_POLICY_MAPPINGS_INFO"]
 old-location: security\cert_policy_mappings_info.htm
 tech.root: SecCrypto
 ms.assetid: dcc44691-d621-4e28-8618-38238f866302

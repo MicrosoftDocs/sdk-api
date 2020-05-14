@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_HTTP_MESSAGE_MAPPING
 title: WS_HTTP_MESSAGE_MAPPING (webservices.h)
 description: How an HTTP request or response should be represented in a message object.
+helpviewer_keywords: ["WS_HTTP_MESSAGE_MAPPING","WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows]","webservices/WS_HTTP_MESSAGE_MAPPING","wsw.ws_http_message_mapping"]
 old-location: wsw\ws_http_message_mapping.htm
 tech.root: wsw
 ms.assetid: dff8217e-769d-4f0b-acf2-02d6e43589cf
@@ -149,7 +150,7 @@ Other information in an HTTP request or response that does not correspond
                 to HTTP headers can be mapped into header of the message object by setting the 
                 requestMappingOptions or responseMappingOptions.  These mapped values can then be
                 extracted using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmappedheader">WsGetMappedHeader</a>.  
-                See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_property_id">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
+                See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_property_id">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
                 for information about what information can be mapped into message headers.
             
 

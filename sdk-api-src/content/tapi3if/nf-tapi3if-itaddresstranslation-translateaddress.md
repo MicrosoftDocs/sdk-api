@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.TranslateAddress
 title: ITAddressTranslation::TranslateAddress (tapi3if.h)
-description: The TranslateAddress method creates the address translation information interface.
+description: The TranslateAddress method creates the address translation information interface.helpviewer_keywords: ["ITAddressTranslation interface [TAPI 2.2]","TranslateAddress method","ITAddressTranslation.TranslateAddress","ITAddressTranslation::TranslateAddress","TranslateAddress","TranslateAddress method [TAPI 2.2]","TranslateAddress method [TAPI 2.2]","ITAddressTranslation interface","_tapi3_itaddresstranslation_translateaddress","tapi3.itaddresstranslation_translateaddress","tapi3if/ITAddressTranslation::TranslateAddress"]
 old-location: tapi3\itaddresstranslation_translateaddress.htm
 tech.root: Tapi
 ms.assetid: 14e51de8-33fd-4de0-bc1c-5f8085ea095c

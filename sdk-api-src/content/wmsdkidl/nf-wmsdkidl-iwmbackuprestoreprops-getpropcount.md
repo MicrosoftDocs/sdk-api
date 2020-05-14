@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropCount
 title: IWMBackupRestoreProps::GetPropCount (wmsdkidl.h)
-description: The GetPropCount method retrieves the number of properties.
+description: The GetPropCount method retrieves the number of properties.helpviewer_keywords: ["GetPropCount","GetPropCount method [windows Media Format]","GetPropCount method [windows Media Format]","IWMBackupRestoreProps interface","IWMBackupRestoreProps interface [windows Media Format]","GetPropCount method","IWMBackupRestoreProps.GetPropCount","IWMBackupRestoreProps::GetPropCount","IWMBackupRestorePropsGetPropCount","wmformat.iwmbackuprestoreprops_getpropcount","wmsdkidl/IWMBackupRestoreProps::GetPropCount"]
 old-location: wmformat\iwmbackuprestoreprops_getpropcount.htm
 tech.root: wmformat
 ms.assetid: 70b8dcf7-e48b-4c1e-be39-d0ae3c8a2b23

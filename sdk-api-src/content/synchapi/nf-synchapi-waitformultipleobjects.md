@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.WaitForMultipleObjects
 title: WaitForMultipleObjects function (synchapi.h)
-description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.
+description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.helpviewer_keywords: ["WaitForMultipleObjects","WaitForMultipleObjects function","_win32_waitformultipleobjects","base.waitformultipleobjects","synchapi/WaitForMultipleObjects"]
 old-location: base\waitformultipleobjects.htm
 tech.root: Sync
 ms.assetid: 51afb13c-ea7a-407a-9f21-345d84f3b96b

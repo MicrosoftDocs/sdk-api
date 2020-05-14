@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ISO9660InterchangeLevelsSupported
 title: IFileSystemImage::get_ISO9660InterchangeLevelsSupported (imapi2fs.h)
-description: Retrieves the supported ISO9660 compatibility levels.
+description: Retrieves the supported ISO9660 compatibility levels.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_ISO9660InterchangeLevelsSupported method","IFileSystemImage.get_ISO9660InterchangeLevelsSupported","IFileSystemImage::get_ISO9660InterchangeLevelsSupported","get_ISO9660InterchangeLevelsSupported","get_ISO9660InterchangeLevelsSupported method [IMAPI]","get_ISO9660InterchangeLevelsSupported method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_iso9660interchangelevelssupported","imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevelsSupported"]
 old-location: imapi\ifilesystemimage_get_iso9660interchangelevelssupported.htm
 tech.root: imapi
 ms.assetid: fd19c3ce-ef84-4f15-9032-679115b8b21f

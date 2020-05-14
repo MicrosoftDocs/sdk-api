@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsReadStartAttribute
 title: WsReadStartAttribute function (webservices.h)
-description: Moves the Reader to the specified attribute so that the content may be read using WsReadValue, WsReadChars, or WsReadBytes.
+description: Moves the Reader to the specified attribute so that the content may be read using WsReadValue, WsReadChars, or WsReadBytes.helpviewer_keywords: ["WsReadStartAttribute","WsReadStartAttribute function [Web Services for Windows]","webservices/WsReadStartAttribute","wsw.wsreadstartattribute"]
 old-location: wsw\wsreadstartattribute.htm
 tech.root: wsw
 ms.assetid: 6fd0c8c2-2eac-4d98-898d-1c5849220c36

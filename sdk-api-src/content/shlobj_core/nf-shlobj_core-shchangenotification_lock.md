@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHChangeNotification_Lock
 title: SHChangeNotification_Lock function (shlobj_core.h)
-description: Locks the shared memory associated with a Shell change notification event.
+description: Locks the shared memory associated with a Shell change notification event.helpviewer_keywords: ["SHChangeNotification_Lock","SHChangeNotification_Lock function [Windows Shell]","_win32_SHChangeNotification_Lock","shell.SHChangeNotification_Lock","shlobj_core/SHChangeNotification_Lock"]
 old-location: shell\SHChangeNotification_Lock.htm
 tech.root: shell
 ms.assetid: 8e22d5d0-64be-403c-982d-c23705d85223

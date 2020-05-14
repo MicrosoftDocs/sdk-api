@@ -1,7 +1,7 @@
 ---
 UID: NF:timeapi.timeGetTime
 title: timeGetTime function (timeapi.h)
-description: The timeGetTime function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started.
+description: The timeGetTime function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started.helpviewer_keywords: ["_win32_timeGetTime","mmsystem/timeGetTime","multimedia.timegettime","timeGetTime","timeGetTime function [Windows Multimedia]","timeapi/timeGetTime"]
 old-location: multimedia\timegettime.htm
 tech.root: Multimedia
 ms.assetid: f9d3a7a9-1457-4993-92f1-f888780a565e

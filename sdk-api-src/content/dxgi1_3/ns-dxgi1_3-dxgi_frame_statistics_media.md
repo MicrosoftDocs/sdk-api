@@ -2,6 +2,7 @@
 UID: NS:dxgi1_3.DXGI_FRAME_STATISTICS_MEDIA
 title: DXGI_FRAME_STATISTICS_MEDIA (dxgi1_3.h)
 description: Used to verify system approval for the app's custom present duration (custom refresh rate).
+helpviewer_keywords: ["DXGI_FRAME_STATISTICS_MEDIA","DXGI_FRAME_STATISTICS_MEDIA structure [DXGI]","direct3ddxgi.dxgi_frame_statistics_media","dxgi1_3/DXGI_FRAME_STATISTICS_MEDIA"]
 old-location: direct3ddxgi\dxgi_frame_statistics_media.htm
 tech.root: direct3ddxgi
 ms.assetid: BC23B5C1-8257-4556-B930-E09FE60D536C
@@ -83,7 +84,7 @@ A value that represents  the running total count of v-blanks when the scheduler 
 
 ### -field SyncQPCTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 A value that represents the high-resolution performance counter timer. 
         This value is the same as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
@@ -92,7 +93,7 @@ A value that represents the high-resolution performance counter timer.
 
 ### -field SyncGPUTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 Reserved. Always returns 0.
 

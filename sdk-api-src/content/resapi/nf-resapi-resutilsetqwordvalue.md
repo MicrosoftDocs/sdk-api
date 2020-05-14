@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilSetQwordValue
 title: ResUtilSetQwordValue function (resapi.h)
-description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
+description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_SET_QWORD_VALUE","PRESUTIL_SET_QWORD_VALUE function [Failover Cluster]","ResUtilSetQwordValue","ResUtilSetQwordValue function [Failover Cluster]","mscs.resutilsetqwordvalue","resapi/PRESUTIL_SET_QWORD_VALUE","resapi/ResUtilSetQwordValue"]
 old-location: mscs\resutilsetqwordvalue.htm
 tech.root: MsCS
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e

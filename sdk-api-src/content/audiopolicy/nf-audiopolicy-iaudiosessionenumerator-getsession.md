@@ -1,7 +1,7 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEnumerator.GetSession
 title: IAudioSessionEnumerator::GetSession (audiopolicy.h)
-description: The GetSession method gets the audio session specified by an audio session number.
+description: The GetSession method gets the audio session specified by an audio session number.helpviewer_keywords: ["GetSession","GetSession method [Core Audio]","GetSession method [Core Audio]","IAudioSessionEnumerator interface","IAudioSessionEnumerator interface [Core Audio]","GetSession method","IAudioSessionEnumerator.GetSession","IAudioSessionEnumerator::GetSession","audiopolicy/IAudioSessionEnumerator::GetSession","coreaudio.iaudiosessionenumerator_getsession"]
 old-location: coreaudio\iaudiosessionenumerator_getsession.htm
 tech.root: CoreAudio
 ms.assetid: 45b7af16-aca0-49f8-b977-f7e4f1885687

@@ -2,6 +2,7 @@
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 description: Output structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PDEVICE_DSM_OUTPUT","*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","DEVICE_DSM_OUTPUT","DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure","DeviceDsmAction_Allocation","DeviceDsmAction_Notification","DeviceDsmAction_OffloadRead","DeviceDsmAction_OffloadWrite","DeviceDsmAction_Repair","DeviceDsmAction_Resiliency","DeviceDsmAction_Scrub","DeviceDsmAction_Trim","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer","base.device_manage_data_set_attributes_output","winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"]
 old-location: base\device_manage_data_set_attributes_output.htm
 tech.root: devio
 ms.assetid: a3f03509-8be9-4cb4-b942-f5ab358bd70e
@@ -134,7 +135,7 @@ An offload write action is performed. The output described by the
 </td>
 <td width="60%">
 An allocation bitmap is returned for the first data set range passed in. The output is in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
          indicate to the driver stack that this operation is non-destructive.
 

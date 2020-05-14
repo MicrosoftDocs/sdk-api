@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Reconnect
 title: IRemoteDesktopClient::Reconnect (rdpappcontainerclient.h)
-description: Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.
+description: Initiates an automatic reconnection of the Remote Desktop Protocol (RDP) app container client control to fit the session to the new width and height.helpviewer_keywords: ["IRemoteDesktopClient interface [Remote Desktop Services]","Reconnect method","IRemoteDesktopClient.Reconnect","IRemoteDesktopClient::Reconnect","Reconnect","Reconnect method [Remote Desktop Services]","Reconnect method [Remote Desktop Services]","IRemoteDesktopClient interface","rdpappcontainerclient/IRemoteDesktopClient::Reconnect","termserv.iremotedesktopclient_reconnect"]
 old-location: termserv\iremotedesktopclient_reconnect.htm
 tech.root: TermServ
 ms.assetid: ef000769-a2d8-4d62-99d9-33ffc18ec8f6

@@ -2,6 +2,7 @@
 UID: NS:eaptypes.__unnamed_union_1
 title: EAP_UI_DATA_FORMAT (eaptypes.h)
 description: The EAP_UI_DATA_FORMAT union specifies the value of the attribute stored in the pbUiData member of the EAP_INTERACTIVE_UI_DATA structure.
+helpviewer_keywords: ["EAP_UI_DATA_FORMAT","EAP_UI_DATA_FORMAT union [EAPHost]","eaphost.eap_ui_data_format","eaptypes/EAP_UI_DATA_FORMAT"]
 old-location: eaphost\eap_ui_data_format.htm
 tech.root: eaphost
 ms.assetid: e4b49cbd-b50d-474c-b6b5-8ff858eca424
@@ -61,14 +62,14 @@ The <b>EAP_UI_DATA_FORMAT</b> union specifies the value of the attribute stored 
 
 case(<i>EapCredReq</i>)
 
-If [EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>structure. 
+If [EAP_CRED_REQ](/windows/win32/eaphost/eap-cred-req)structure. 
 
  
 
 
 case(<i>EapCredResp</i>)
 
-If [EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a> structure
+If [EAP_CRED_RESP](/windows/win32/eaphost/eap-cred-resp) structure
 
 
 ### -field credExpiryData
@@ -86,12 +87,12 @@ If <i>dwDataType</i> specifies a credential expiry response type (<i>eapCredExpi
 
 case(<i>EapCredLogonReq</i>)
 
-If [EAP_CRED_LOGON_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-logon-req)a> structure. 
+If [EAP_CRED_LOGON_REQ](/windows/win32/eaphost/eap-cred-logon-req) structure. 
 
 
 case(<i>EapCredLogonResp</i>)
 
-If [EAP_CRED_LOGON_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-logon-resp)a> structure
+If [EAP_CRED_LOGON_RESP](/windows/win32/eaphost/eap-cred-logon-resp) structure
 
 
 
@@ -108,11 +109,11 @@ If [EAP_CRED_LOGON_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cr
 
 
 
-[EAP_CRED_REQ](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-req)a>
+[EAP_CRED_REQ](/windows/win32/eaphost/eap-cred-req)
 
 
 
-[EAP_CRED_RESP](https://docs.microsoft.com/windows/win32/eaphost/eap-cred-resp)a>
+[EAP_CRED_RESP](/windows/win32/eaphost/eap-cred-resp)
 
 
 

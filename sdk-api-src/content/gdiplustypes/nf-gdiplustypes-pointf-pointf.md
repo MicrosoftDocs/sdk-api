@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF
 title: PointF::PointF (gdiplustypes.h)
-description: Creates a PointF object and initializes the X and Y data members to zero. This is the default constructor.
+description: Creates a PointF object and initializes the X and Y data members to zero. This is the default constructor.helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF constructor","PointF constructor [GDI+]","PointF constructor [GDI+]","PointF class","PointF.PointF","PointF.PointF()","PointF::PointF","_gdiplus_CLASS_PointF_PointF_","gdiplus._gdiplus_CLASS_PointF_PointF_"]
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_52.htm

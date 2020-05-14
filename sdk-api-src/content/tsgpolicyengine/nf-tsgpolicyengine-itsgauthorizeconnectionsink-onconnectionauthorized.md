@@ -2,6 +2,7 @@
 UID: NF:tsgpolicyengine.ITSGAuthorizeConnectionSink.OnConnectionAuthorized
 title: ITSGAuthorizeConnectionSink::OnConnectionAuthorized (tsgpolicyengine.h)
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
+helpviewer_keywords: ["ITSGAuthorizeConnectionSink interface [Remote Desktop Services]","OnConnectionAuthorized method","ITSGAuthorizeConnectionSink.OnConnectionAuthorized","ITSGAuthorizeConnectionSink::OnConnectionAuthorized","OnConnectionAuthorized","OnConnectionAuthorized method [Remote Desktop Services]","OnConnectionAuthorized method [Remote Desktop Services]","ITSGAuthorizeConnectionSink interface","SESSION_TIMEOUT_ACTION_DISCONNECT","SESSION_TIMEOUT_ACTION_SILENT_REAUTH","termserv.itsgauthorizeconnectionsink_onconnectionauthorized","tsgpolicyengine/ITSGAuthorizeConnectionSink::OnConnectionAuthorized"]
 old-location: termserv\itsgauthorizeconnectionsink_onconnectionauthorized.htm
 tech.root: TermServ
 ms.assetid: 1151aa89-944b-4497-8a8c-c6d67fbd4051
@@ -111,7 +112,7 @@ This parameter is reserved. Always set it to  <b>AA_TRUSTEDUSER_TRUSTEDCLIENT</b
 
 ### -param policyAttributes [in]
 
-An array of Boolean values  that specify the redirection settings associated with the connection. Each element of the array corresponds to a value of the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-policyattributetype">PolicyAttributeType</a> enumeration. If the <i>hrIn</i> parameter is not <b>S_OK</b>, this parameter is ignored.
+An array of Boolean values  that specify the redirection settings associated with the connection. Each element of the array corresponds to a value of the <a href="/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-policyattributetype">PolicyAttributeType</a> enumeration. If the <i>hrIn</i> parameter is not <b>S_OK</b>, this parameter is ignored.
 
 
 ## -returns

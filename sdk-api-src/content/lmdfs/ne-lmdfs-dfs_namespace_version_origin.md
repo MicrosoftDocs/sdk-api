@@ -1,7 +1,7 @@
 ---
 UID: NE:lmdfs.__unnamed_enum_0
 title: DFS_NAMESPACE_VERSION_ORIGIN (lmdfs.h)
-description: Identifies the origin of DFS namespace version information.
+description: Identifies the origin of DFS namespace version information.helpviewer_keywords: ["*PDFS_NAMESPACE_VERSION_ORIGIN","DFS_NAMESPACE_VERSION_ORIGIN","DFS_NAMESPACE_VERSION_ORIGIN enumeration [Distributed File System]","DFS_NAMESPACE_VERSION_ORIGIN_COMBINED","DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN","DFS_NAMESPACE_VERSION_ORIGIN_SERVER","dfs.dfs_namespace_version_origin","fs.dfs_namespace_version_origin","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_COMBINED","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN","lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_SERVER"]
 old-location: dfs\dfs_namespace_version_origin.htm
 tech.root: Dfs
 ms.assetid: b260e132-41fd-460b-87e6-c6e0490dc8b4

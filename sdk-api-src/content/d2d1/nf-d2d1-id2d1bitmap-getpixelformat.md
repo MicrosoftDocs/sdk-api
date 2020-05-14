@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetPixelFormat
 title: ID2D1Bitmap::GetPixelFormat (d2d1.h)
-description: Retrieves the pixel format and alpha mode of the bitmap.
+description: Retrieves the pixel format and alpha mode of the bitmap.helpviewer_keywords: ["GetPixelFormat","GetPixelFormat method [Direct2D]","GetPixelFormat method [Direct2D]","ID2D1Bitmap interface","ID2D1Bitmap interface [Direct2D]","GetPixelFormat method","ID2D1Bitmap.GetPixelFormat","ID2D1Bitmap::GetPixelFormat","d2d1/ID2D1Bitmap::GetPixelFormat","direct2d.ID2D1Bitmap_GetPixelFormat"]
 old-location: direct2d\ID2D1Bitmap_GetPixelFormat.htm
 tech.root: Direct2D
 ms.assetid: e94a0930-f681-47d0-8cee-bacf631ee6db
@@ -63,7 +63,7 @@ Retrieves the pixel format and alpha mode of the bitmap.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a></b>
+Type: <b><a href="/windows/win32/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a></b>
 
 The pixel format and alpha mode of the bitmap.
 
@@ -75,7 +75,7 @@ The pixel format and alpha mode of the bitmap.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
  
 
  

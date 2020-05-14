@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetBlocks
 title: IAppxBlockMapFile::GetBlocks (appxpackaging.h)
-description: Retrieves an enumerator for traversing the blocks of a file listed in the block map.
+description: Retrieves an enumerator for traversing the blocks of a file listed in the block map.helpviewer_keywords: ["GetBlocks","GetBlocks method [App packaging and management]","GetBlocks method [App packaging and management]","IAppxBlockMapFile interface","IAppxBlockMapFile interface [App packaging and management]","GetBlocks method","IAppxBlockMapFile.GetBlocks","IAppxBlockMapFile::GetBlocks","appxpackaging/IAppxBlockMapFile::GetBlocks","appxpkg.iappxblockmapfile_getblocks"]
 old-location: appxpkg\iappxblockmapfile_getblocks.htm
 tech.root: appxpkg
 ms.assetid: CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7

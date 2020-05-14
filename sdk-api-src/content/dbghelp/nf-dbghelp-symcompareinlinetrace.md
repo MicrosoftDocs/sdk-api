@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymCompareInlineTrace
 title: SymCompareInlineTrace function (dbghelp.h)
-description: Compares two inline traces.
+description: Compares two inline traces.helpviewer_keywords: ["SymCompareInlineTrace","SymCompareInlineTrace function","base.symcompareinlinetrace","dbghelp/SymCompareInlineTrace"]
 old-location: base\symcompareinlinetrace.htm
 tech.root: Debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f

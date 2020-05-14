@@ -1,7 +1,7 @@
 ---
 UID: NN:audioengineendpoint.IAudioInputEndpointRT
 title: IAudioInputEndpointRT (audioengineendpoint.h)
-description: Gets the input buffer for each processing pass.
+description: Gets the input buffer for each processing pass.helpviewer_keywords: ["IAudioInputEndpointRT","IAudioInputEndpointRT interface [Remote Desktop Services]","IAudioInputEndpointRT interface [Remote Desktop Services]","described","audioengineendpoint/IAudioInputEndpointRT","termserv.iaudioinputendpointrt"]
 old-location: termserv\iaudioinputendpointrt.htm
 tech.root: TermServ
 ms.assetid: f9638dea-f61d-45f6-b91d-72e4fc1b4a92

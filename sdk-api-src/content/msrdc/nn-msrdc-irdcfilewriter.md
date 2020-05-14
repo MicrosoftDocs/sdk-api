@@ -1,7 +1,7 @@
 ---
 UID: NN:msrdc.IRdcFileWriter
 title: IRdcFileWriter (msrdc.h)
-description: Abstract interface to read from and write to a file.
+description: Abstract interface to read from and write to a file.helpviewer_keywords: ["IRdcFileWriter","IRdcFileWriter interface [Remote Differential Compression]","IRdcFileWriter interface [Remote Differential Compression]","described","fs.irdcfilewriter","msrdc/IRdcFileWriter","rdc.irdcfilewriter"]
 old-location: rdc\irdcfilewriter.htm
 tech.root: rdc
 ms.assetid: 8b6ac8d0-37fd-4bd3-aa44-5b57f546364d

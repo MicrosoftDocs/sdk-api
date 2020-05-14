@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.DropTime
 title: IMFQualityAdvise::DropTime (mfidl.h)
-description: Drops samples over a specified interval of time.
+description: Drops samples over a specified interval of time.helpviewer_keywords: ["60d27190-7bed-427c-9018-2926c85815fe","DropTime","DropTime method [Media Foundation]","DropTime method [Media Foundation]","IMFQualityAdvise interface","IMFQualityAdvise interface [Media Foundation]","DropTime method","IMFQualityAdvise.DropTime","IMFQualityAdvise::DropTime","mf.imfqualityadvise_droptime","mfidl/IMFQualityAdvise::DropTime"]
 old-location: mf\imfqualityadvise_droptime.htm
 tech.root: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe

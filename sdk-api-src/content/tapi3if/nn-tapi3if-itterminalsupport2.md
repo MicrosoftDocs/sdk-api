@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.ITTerminalSupport2
 title: ITTerminalSupport2 (tapi3if.h)
-description: The ITTerminalSupport2 interface is derived from the ITTerminalSupport interface. ITTerminalSupport2 supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.
+description: The ITTerminalSupport2 interface is derived from the ITTerminalSupport interface. ITTerminalSupport2 supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.helpviewer_keywords: ["ITTerminalSupport2","ITTerminalSupport2 interface [TAPI 2.2]","ITTerminalSupport2 interface [TAPI 2.2]","described","_tapi3_itterminalsupport2","tapi3.itterminalsupport2","tapi3if/ITTerminalSupport2"]
 old-location: tapi3\itterminalsupport2.htm
 tech.root: Tapi
 ms.assetid: 58611991-746c-4626-a1b1-535a2134ee27

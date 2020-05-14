@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.put_UniqueName
 title: ITuningSpace::put_UniqueName (tuner.h)
-description: The put_UniqueName method sets a unique name for the tuning space.
+description: The put_UniqueName method sets a unique name for the tuning space.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","put_UniqueName method","ITuningSpace.put_UniqueName","ITuningSpace::put_UniqueName","ITuningSpaceput_UniqueName","mstv.ituningspace_put_uniquename","put_UniqueName","put_UniqueName method [Microsoft TV Technologies]","put_UniqueName method [Microsoft TV Technologies]","ITuningSpace interface","tuner/ITuningSpace::put_UniqueName"]
 old-location: mstv\ituningspace_put_uniquename.htm
 tech.root: mstv
 ms.assetid: 44ce065b-5441-40c9-a987-6eafc04fba3d

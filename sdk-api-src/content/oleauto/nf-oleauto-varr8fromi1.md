@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR8FromI1
 title: VarR8FromI1 function (oleauto.h)
-description: Converts a char value to a double value.
+description: Converts a char value to a double value.helpviewer_keywords: ["VarR8FromI1","VarR8FromI1 function [Automation]","_oa96_VarR8FromI1","automat.varr8fromi1","oleauto/VarR8FromI1"]
 old-location: automat\varr8fromi1.htm
 tech.root: automat
 ms.assetid: a40aedef-3366-4c4d-8fd2-ef0b70bccc6f

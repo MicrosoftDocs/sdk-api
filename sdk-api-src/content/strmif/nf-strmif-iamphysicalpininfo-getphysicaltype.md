@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMPhysicalPinInfo.GetPhysicalType
 title: IAMPhysicalPinInfo::GetPhysicalType (strmif.h)
-description: Note  The IAMPhysicalPinInfo interface is deprecated. Retrieves the type and name of the physical pin.
+description: Note  The IAMPhysicalPinInfo interface is deprecated. Retrieves the type and name of the physical pin.helpviewer_keywords: ["GetPhysicalType","GetPhysicalType method [DirectShow]","GetPhysicalType method [DirectShow]","IAMPhysicalPinInfo interface","IAMPhysicalPinInfo interface [DirectShow]","GetPhysicalType method","IAMPhysicalPinInfo.GetPhysicalType","IAMPhysicalPinInfo::GetPhysicalType","IAMPhysicalPinInfoGetPhysicalType","dshow.iamphysicalpininfo_getphysicaltype","strmif/IAMPhysicalPinInfo::GetPhysicalType"]
 old-location: dshow\iamphysicalpininfo_getphysicaltype.htm
 tech.root: DirectShow
 ms.assetid: e18be591-64c7-4da0-aa28-c51dca7901b7

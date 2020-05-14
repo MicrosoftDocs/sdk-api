@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetIdleWait
 title: IScheduledWorkItem::GetIdleWait (mstask.h)
-description: Retrieves the idle wait time for the work item.
+description: Retrieves the idle wait time for the work item.helpviewer_keywords: ["GetIdleWait","GetIdleWait method [Task Scheduler]","GetIdleWait method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetIdleWait method","IScheduledWorkItem.GetIdleWait","IScheduledWorkItem::GetIdleWait","_msb_ischeduledworkitem_getidlewait","mstask/IScheduledWorkItem::GetIdleWait","taskschd.ischeduledworkitem_getidlewait"]
 old-location: taskschd\ischeduledworkitem_getidlewait.htm
 tech.root: taskschd
 ms.assetid: 72d53691-f2ea-4a20-8e85-f9db81f830cd

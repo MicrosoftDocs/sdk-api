@@ -1,7 +1,7 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_USAGE_SCENARIO
 title: CREDENTIAL_PROVIDER_USAGE_SCENARIO (credentialprovider.h)
-description: Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.
+description: Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.helpviewer_keywords: ["CPUS_CHANGE_PASSWORD","CPUS_CREDUI","CPUS_INVALID","CPUS_LOGON","CPUS_PLAP","CPUS_UNLOCK_WORKSTATION","CREDENTIAL_PROVIDER_USAGE_SCENARIO","CREDENTIAL_PROVIDER_USAGE_SCENARIO enumeration [Windows Shell]","credentialprovider/CPUS_CHANGE_PASSWORD","credentialprovider/CPUS_CREDUI","credentialprovider/CPUS_INVALID","credentialprovider/CPUS_LOGON","credentialprovider/CPUS_PLAP","credentialprovider/CPUS_UNLOCK_WORKSTATION","credentialprovider/CREDENTIAL_PROVIDER_USAGE_SCENARIO","shell.CREDENTIAL_PROVIDER_USAGE_SCENARIO","shell_CREDENTIAL_PROVIDER_USAGE_SCENARIO"]
 old-location: shell\CREDENTIAL_PROVIDER_USAGE_SCENARIO.htm
 tech.root: shell
 ms.assetid: 86025d1d-b13d-4f61-824a-fd471e449567

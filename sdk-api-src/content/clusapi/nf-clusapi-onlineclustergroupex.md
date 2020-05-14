@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OnlineClusterGroupEx
 title: OnlineClusterGroupEx function (clusapi.h)
-description: Brings a group online.
+description: Brings a group online.helpviewer_keywords: ["CLUSAPI_GROUP_ONLINE_BEST_POSSIBLE_NODE","CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS","CLUSAPI_GROUP_ONLINE_SYNCHRONOUS","OnlineClusterGroupEx","OnlineClusterGroupEx function [Failover Cluster]","clusapi/OnlineClusterGroupEx","mscs.onlineclustergroupex"]
 old-location: mscs\onlineclustergroupex.htm
 tech.root: MsCS
 ms.assetid: F79E75E9-EB54-4C66-AB7C-98AF075718B1

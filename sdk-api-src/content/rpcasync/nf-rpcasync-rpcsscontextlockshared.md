@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcSsContextLockShared
 title: RpcSsContextLockShared function (rpcasync.h)
-description: The RpcSsContextLockShared function enables an application to begin using a context handle in shared mode.
+description: The RpcSsContextLockShared function enables an application to begin using a context handle in shared mode.helpviewer_keywords: ["RpcSsContextLockShared","RpcSsContextLockShared function [RPC]","_rpc_rpcsscontextlockshared","rpc.rpcsscontextlockshared","rpcasync/RpcSsContextLockShared"]
 old-location: rpc\rpcsscontextlockshared.htm
 tech.root: Rpc
 ms.assetid: 469f0995-54ff-40a6-9322-3d173e2c9861

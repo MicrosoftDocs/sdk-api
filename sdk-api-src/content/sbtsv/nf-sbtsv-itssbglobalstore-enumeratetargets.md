@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateTargets
 title: ITsSbGlobalStore::EnumerateTargets (sbtsv.h)
-description: Returns an array that contains the specified targets present in the global store.
+description: Returns an array that contains the specified targets present in the global store.helpviewer_keywords: ["EnumerateTargets","EnumerateTargets method [Remote Desktop Services]","EnumerateTargets method [Remote Desktop Services]","ITsSbGlobalStore interface","ITsSbGlobalStore interface [Remote Desktop Services]","EnumerateTargets method","ITsSbGlobalStore.EnumerateTargets","ITsSbGlobalStore::EnumerateTargets","sbtsv/ITsSbGlobalStore::EnumerateTargets","termserv.itssbglobalstore_enumeratetargets"]
 old-location: termserv\itssbglobalstore_enumeratetargets.htm
 tech.root: TermServ
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21

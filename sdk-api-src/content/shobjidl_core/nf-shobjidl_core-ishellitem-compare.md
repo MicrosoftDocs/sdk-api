@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IShellItem.Compare
 title: IShellItem::Compare (shobjidl_core.h)
 description: Compares two IShellItem objects.
+helpviewer_keywords: ["Compare","Compare method [Windows Shell]","Compare method [Windows Shell]","IShellItem interface","IShellItem interface [Windows Shell]","Compare method","IShellItem.Compare","IShellItem::Compare","_win32_IShellItem_Compare","shell.IShellItem_Compare","shobjidl_core/IShellItem::Compare"]
 old-location: shell\IShellItem_Compare.htm
 tech.root: shell
 ms.assetid: 737a93e0-2e27-466b-889c-04a25e52e883
@@ -66,9 +67,9 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl
 
 ### -param hint
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a> values that determines how to perform the comparison. See <b>SICHINTF</b> for the list of possible values for this parameter.
+One of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_sichintf">SICHINTF</a> values that determines how to perform the comparison. See <b>SICHINTF</b> for the list of possible values for this parameter.
 
 
 ### -param piOrder

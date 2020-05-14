@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.IsBufferPrecisionSupported
 title: ID2D1DeviceContext::IsBufferPrecisionSupported (d2d1_1.h)
-description: Indicates whether the buffer precision is supported by the underlying Direct3D device.
+description: Indicates whether the buffer precision is supported by the underlying Direct3D device.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","IsBufferPrecisionSupported method","ID2D1DeviceContext.IsBufferPrecisionSupported","ID2D1DeviceContext::IsBufferPrecisionSupported","IsBufferPrecisionSupported","IsBufferPrecisionSupported method [Direct2D]","IsBufferPrecisionSupported method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::IsBufferPrecisionSupported","direct2d.id2d1devicecontext_isbufferprecisionsupported"]
 old-location: direct2d\id2d1devicecontext_isbufferprecisionsupported.htm
 tech.root: Direct2D
 ms.assetid: c65824dc-a9d5-4d4d-a2de-b4283153f64f

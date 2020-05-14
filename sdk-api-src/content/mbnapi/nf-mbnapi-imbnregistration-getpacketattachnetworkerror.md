@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetPacketAttachNetworkError
 title: IMbnRegistration::GetPacketAttachNetworkError (mbnapi.h)
-description: Gets the network error from a packet attach operation.
+description: Gets the network error from a packet attach operation.helpviewer_keywords: ["GetPacketAttachNetworkError","GetPacketAttachNetworkError method [Microsoft Broadband Networks]","GetPacketAttachNetworkError method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetPacketAttachNetworkError method","IMbnRegistration.GetPacketAttachNetworkError","IMbnRegistration::GetPacketAttachNetworkError","mbn.imbnregistration_getpacketattachnetworkerror","mbnapi/IMbnRegistration::GetPacketAttachNetworkError"]
 old-location: mbn\imbnregistration_getpacketattachnetworkerror.htm
 tech.root: mbn
 ms.assetid: b51103fe-f4b2-46a5-9335-44bf6591e447

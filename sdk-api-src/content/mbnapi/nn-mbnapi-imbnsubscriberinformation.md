@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnSubscriberInformation
 title: IMbnSubscriberInformation (mbnapi.h)
-description: Provides access to subscriber information.
+description: Provides access to subscriber information.helpviewer_keywords: ["IMbnSubscriberInformation","IMbnSubscriberInformation interface [Microsoft Broadband Networks]","IMbnSubscriberInformation interface [Microsoft Broadband Networks]","described","mbn.imbnsubscriberinformation","mbnapi/IMbnSubscriberInformation"]
 old-location: mbn\imbnsubscriberinformation.htm
 tech.root: mbn
 ms.assetid: ef7f5dc5-ed66-450c-9623-0c1d725d82c6

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneSetGain
 title: phoneSetGain function (tapi.h)
-description: The phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
+description: The phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.helpviewer_keywords: ["_tapi2_phonesetgain","phoneSetGain","phoneSetGain function [TAPI 2.2]","tapi/phoneSetGain","tapi2.phonesetgain"]
 old-location: tapi2\phonesetgain.htm
 tech.root: Tapi
 ms.assetid: 24e6047c-ca70-4e97-acb5-37647c5306c3

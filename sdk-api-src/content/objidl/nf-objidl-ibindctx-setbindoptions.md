@@ -2,6 +2,7 @@
 UID: NF:objidl.IBindCtx.SetBindOptions
 title: IBindCtx::SetBindOptions (objidl.h)
 description: Sets new values for the binding parameters stored in the bind context.
+helpviewer_keywords: ["IBindCtx interface [COM]","SetBindOptions method","IBindCtx.SetBindOptions","IBindCtx::SetBindOptions","SetBindOptions","SetBindOptions method [COM]","SetBindOptions method [COM]","IBindCtx interface","_com_ibindctx_setbindoptions","com.ibindctx_setbindoptions","objidl/IBindCtx::SetBindOptions"]
 old-location: com\ibindctx_setbindoptions.htm
 tech.root: com
 ms.assetid: 9dcce48e-567e-42b4-8df2-2bc861cb5fcb
@@ -105,11 +106,11 @@ You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values be
 
 
 
-[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)a>
+[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2~r1)
 
 
 
-[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)a>
+[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1)
 
 
 

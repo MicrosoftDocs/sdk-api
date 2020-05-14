@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddRectangle(IN const RectF &)
 title: GraphicsPath::AddRectangle
-description: The GraphicsPath::AddRectangle method adds a rectangle to this path.
+description: The GraphicsPath::AddRectangle method adds a rectangle to this path.helpviewer_keywords: ["GraphicsPath::AddRectangle"]
 ms.assetid: 3b7288d2-c5b9-4b3b-be6f-218ad8511217
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddRectangle

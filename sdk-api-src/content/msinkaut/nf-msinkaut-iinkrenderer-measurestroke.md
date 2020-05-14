@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRenderer.MeasureStroke
 title: IInkRenderer::MeasureStroke (msinkaut.h)
-description: Calculates the rectangle on the device context that would contain a stroke if it were drawn with the InkRenderer object using the DrawStroke method.
+description: Calculates the rectangle on the device context that would contain a stroke if it were drawn with the InkRenderer object using the DrawStroke method.helpviewer_keywords: ["IInkRenderer interface [Tablet PC]","MeasureStroke method","IInkRenderer.MeasureStroke","IInkRenderer::MeasureStroke","MeasureStroke","MeasureStroke method [Tablet PC]","MeasureStroke method [Tablet PC]","IInkRenderer interface","bdaee1c8-ff03-470f-b508-3db5391b3cf7","msinkaut/IInkRenderer::MeasureStroke","tablet.inkrenderer_measurestroke"]
 old-location: tablet\inkrenderer_measurestroke.htm
 tech.root: tablet
 ms.assetid: bdaee1c8-ff03-470f-b508-3db5391b3cf7

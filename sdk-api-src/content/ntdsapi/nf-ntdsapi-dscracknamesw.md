@@ -2,6 +2,7 @@
 UID: NF:ntdsapi.DsCrackNamesW
 title: DsCrackNamesW function (ntdsapi.h)
 description: Converts an array of directory service object names from one format to another.
+helpviewer_keywords: ["DsCrackNames","DsCrackNames function [Active Directory]","DsCrackNamesA","DsCrackNamesW","_glines_dscracknames","ad.dscracknames","ntdsapi/DsCrackNames","ntdsapi/DsCrackNamesA","ntdsapi/DsCrackNamesW"]
 old-location: ad\dscracknames.htm
 tech.root: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
@@ -149,7 +150,7 @@ The return value from <b>DsCrackNames</b> indicates errors such as invalid
 <div class="alert"><b>Note</b>  Do not confuse the values of the format elements of
     the <i>formatOffered</i> parameter used by the
     <b>DsCrackNames</b> function with the similarly
-    named format elements as defined in the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a> enumeration used by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface. The
+    named format elements as defined in the <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a> enumeration used by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface. The
     two sets of element formats are not equivalent and are not interchangeable.</div>
 <div> </div>
 
@@ -160,7 +161,7 @@ The return value from <b>DsCrackNames</b> indicates errors such as invalid
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

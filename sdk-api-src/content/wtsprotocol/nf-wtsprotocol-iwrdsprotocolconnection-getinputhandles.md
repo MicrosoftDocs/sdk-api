@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetInputHandles
 title: IWRdsProtocolConnection::GetInputHandles (wtsprotocol.h)
-description: Obtains the handles to input/output devices for the protocol.
+description: Obtains the handles to input/output devices for the protocol.helpviewer_keywords: ["GetInputHandles","GetInputHandles method [Remote Desktop Services]","GetInputHandles method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetInputHandles method","IWRdsProtocolConnection.GetInputHandles","IWRdsProtocolConnection::GetInputHandles","termserv.iwrdsprotocolconnection_getinputhandles","wtsprotocol/IWRdsProtocolConnection::GetInputHandles"]
 old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm
 tech.root: TermServ
 ms.assetid: 42f20dfc-e625-4b53-b055-750af4cbd3ec

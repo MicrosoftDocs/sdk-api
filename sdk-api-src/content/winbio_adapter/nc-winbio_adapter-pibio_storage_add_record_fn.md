@@ -2,6 +2,7 @@
 UID: NC:winbio_adapter.PIBIO_STORAGE_ADD_RECORD_FN
 title: PIBIO_STORAGE_ADD_RECORD_FN (winbio_adapter.h)
 description: Adds a template to the database.
+helpviewer_keywords: ["PIBIO_STORAGE_ADD_RECORD_FN","PIBIO_STORAGE_ADD_RECORD_FN callback","StorageAdapterAddRecord","StorageAdapterAddRecord callback function [Windows Biometric Framework API]","secbiomet.storageadapteraddrecord","winbio_adapter/StorageAdapterAddRecord"]
 old-location: secbiomet\storageadapteraddrecord.htm
 tech.root: SecBioMet
 ms.assetid: 889664e2-00e8-49b4-9754-4ca72dd44bbd
@@ -64,7 +65,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_ad
 
 ### -param RecordContents [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure that contains the template to add.
+Pointer to a <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure that contains the template to add.
 
 
 ## -returns
@@ -107,7 +108,7 @@ A mandatory pointer argument is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The size of the  index vector specified in the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure does not match the index size specified when the database was created.
+The size of the  index vector specified in the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure does not match the index size specified when the database was created.
 
 </td>
 </tr>
@@ -188,7 +189,7 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b> or the <b
 
 
 
-The memory identified by the <i>RecordContents</i> parameter is the property of the Windows Biometric Framework. The storage adapter must not keep a copy of this pointer, or of any pointers contained in the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure, after returning from <i>StorageAdapterAddRecord</i>.
+The memory identified by the <i>RecordContents</i> parameter is the property of the Windows Biometric Framework. The storage adapter must not keep a copy of this pointer, or of any pointers contained in the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_record">WINBIO_STORAGE_RECORD</a> structure, after returning from <i>StorageAdapterAddRecord</i>.
 
 
 <div class="alert"><b>Important</b>  <p class="note">Do not attempt to validate the value supplied for the <i>SubFactor</i> value of the <i>RecordContents</i> parameter. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is <b>WINBIO_SUBTYPE_NO_INFORMATION</b> or <b>WINBIO_SUBTYPE_ANY</b>, then validate where appropriate.

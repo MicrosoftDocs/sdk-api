@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformattingCount
 title: IMFTimedTextFormattedText::GetSubformattingCount (mfmediaengine.h)
-description: Gets the number of subformats in the formatted timed-text object.
+description: Gets the number of subformats in the formatted timed-text object.helpviewer_keywords: ["GetSubformattingCount","GetSubformattingCount method [Media Foundation]","GetSubformattingCount method [Media Foundation]","IMFTimedTextFormattedText interface","IMFTimedTextFormattedText interface [Media Foundation]","GetSubformattingCount method","IMFTimedTextFormattedText.GetSubformattingCount","IMFTimedTextFormattedText::GetSubformattingCount","mf.imftimedtextformattedtext_getsubformattingcount","mfmediaengine/IMFTimedTextFormattedText::GetSubformattingCount"]
 old-location: mf\imftimedtextformattedtext_getsubformattingcount.htm
 tech.root: medfound
 ms.assetid: 27F3172E-3D6A-4BF6-9610-CB517ECD202F

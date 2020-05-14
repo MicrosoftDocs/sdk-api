@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumDocumentMgrs
 title: ITfThreadMgr::EnumDocumentMgrs (msctf.h)
-description: ITfThreadMgr::EnumDocumentMgrs method
+description: ITfThreadMgr::EnumDocumentMgrs methodhelpviewer_keywords: ["EnumDocumentMgrs","EnumDocumentMgrs method [Text Services Framework]","EnumDocumentMgrs method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","EnumDocumentMgrs method","ITfThreadMgr.EnumDocumentMgrs","ITfThreadMgr::EnumDocumentMgrs","_tsf_itfthreadmgr_enumdocumentmgrs_ref","msctf/ITfThreadMgr::EnumDocumentMgrs","tsf.itfthreadmgr_enumdocumentmgrs"]
 old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm
 tech.root: TSF
 ms.assetid: 0b6f61fb-0ca0-4b93-ad30-d1e080b9bde1
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Returns an enumerator for all the document managers within the calling thread.
 
 ## -parameters
 

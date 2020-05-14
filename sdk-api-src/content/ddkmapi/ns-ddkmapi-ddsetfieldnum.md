@@ -1,7 +1,7 @@
 ---
 UID: NS:ddkmapi._DDSETFIELDNUM
 title: DDSETFIELDNUM (ddkmapi.h)
-description: The DDSETFIELDNUM structure contains the handles and the field number.
+description: The DDSETFIELDNUM structure contains the handles and the field number.helpviewer_keywords: ["*LPDDSETFIELDNUM","DDSETFIELDNUM","DDSETFIELDNUM structure [Display Devices]","LPDDSETFIELDNUM","LPDDSETFIELDNUM structure pointer [Display Devices]","ddkmapi/DDSETFIELDNUM","ddkmapi/LPDDSETFIELDNUM","ddstrcts_d8753497-b27b-4bd5-adcd-5b76e2169535.xml","display.ddsetfieldnum"]
 old-location: display\ddsetfieldnum.htm
 tech.root: display
 ms.assetid: 442a4bbf-e3d9-4b06-99c4-1ffcf708a15c

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
 title: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC (d3d11.h)
-description: Describes a video decoder output view.
+description: Describes a video decoder output view.helpviewer_keywords: ["D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC","D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC structure [Media Foundation]","d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC","mf.d3d11_video_decoder_output_view_desc"]
 old-location: mf\d3d11_video_decoder_output_view_desc.htm
 tech.root: medfound
 ms.assetid: 0A0C29C5-C3A3-43E7-86DA-1849AC276060

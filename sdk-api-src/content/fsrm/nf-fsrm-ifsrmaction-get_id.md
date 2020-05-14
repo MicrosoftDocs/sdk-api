@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_Id
 title: IFsrmAction::get_Id (fsrm.h)
-description: Retrieves the identifier of the action.
+description: Retrieves the identifier of the action.helpviewer_keywords: ["IFsrmAction interface [File Server Resource Manager]","Id property","IFsrmAction.Id","IFsrmAction.get_Id","IFsrmAction::Id","IFsrmAction::get_Id","Id property [File Server Resource Manager]","Id property [File Server Resource Manager]","IFsrmAction interface","fs.ifsrmaction_id","fsrm.ifsrmaction_id","fsrm/IFsrmAction::Id","fsrm/IFsrmAction::get_Id","get_Id"]
 old-location: fsrm\ifsrmaction_id.htm
 tech.root: fsrm
 ms.assetid: 7add9be2-75ae-4da7-a6b1-8d39a8ff374c

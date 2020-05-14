@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterY(float)
 title: IDCompositionRotateTransform::SetCenterY (dcomp.h)
-description: Changes the value of the CenterY property of a 2D rotation transform.
+description: Changes the value of the CenterY property of a 2D rotation transform.helpviewer_keywords: ["IDCompositionRotateTransform interface [DirectComposition]","SetCenterY method","IDCompositionRotateTransform.SetCenterY","IDCompositionRotateTransform::SetCenterY","IDCompositionRotateTransform::SetCenterY(float)","SetCenterY","SetCenterY method [DirectComposition]","SetCenterY method [DirectComposition]","IDCompositionRotateTransform interface","dcomp/IDCompositionRotateTransform::SetCenterY","directcomp.idcompositionrotatetransform_setcentery_float"]
 old-location: directcomp\idcompositionrotatetransform_setcentery_float.htm
 tech.root: directcomp
 ms.assetid: 7D4EF6C3-A0BA-42C4-841C-A40EEF5122F5

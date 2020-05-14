@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDAsyncCallback.AsyncOperationComplete
 title: IWSDAsyncCallback::AsyncOperationComplete (wsdclient.h)
-description: Indicates that the asynchronous operation has completed.
+description: Indicates that the asynchronous operation has completed.helpviewer_keywords: ["AsyncOperationComplete","AsyncOperationComplete method","AsyncOperationComplete method","IWSDAsyncCallback interface","IWSDAsyncCallback interface","AsyncOperationComplete method","IWSDAsyncCallback.AsyncOperationComplete","IWSDAsyncCallback::AsyncOperationComplete","ncd.iwsdasynccallback_asyncoperationcomplete_method","wsdclient/IWSDAsyncCallback::AsyncOperationComplete"]
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
 tech.root: WsdApi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf

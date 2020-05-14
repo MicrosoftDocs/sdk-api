@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeProps
 title: IMetaDataImport::GetCustomAttributeProps (rometadataapi.h)
-description: Gets the value of the custom attribute, given its metadata token.
+description: Gets the value of the custom attribute, given its metadata token.helpviewer_keywords: ["GetCustomAttributeProps","GetCustomAttributeProps method [Windows Runtime]","GetCustomAttributeProps method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetCustomAttributeProps method","IMetaDataImport.GetCustomAttributeProps","IMetaDataImport::GetCustomAttributeProps","rometadataapi/IMetaDataImport::GetCustomAttributeProps","winrt.imetadataimport_getcustomattributeprops"]
 old-location: winrt\imetadataimport_getcustomattributeprops.htm
 tech.root: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264

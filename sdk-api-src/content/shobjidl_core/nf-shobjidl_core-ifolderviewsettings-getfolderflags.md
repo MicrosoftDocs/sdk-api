@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetFolderFlags
 title: IFolderViewSettings::GetFolderFlags (shobjidl_core.h)
-description: Gets folder view options flags.
+description: Gets folder view options flags.helpviewer_keywords: ["GetFolderFlags","GetFolderFlags method [Windows Shell]","GetFolderFlags method [Windows Shell]","IFolderViewSettings interface","IFolderViewSettings interface [Windows Shell]","GetFolderFlags method","IFolderViewSettings.GetFolderFlags","IFolderViewSettings::GetFolderFlags","_shell_IFolderViewSettings_GetFolderFlags","shell.IFolderViewSettings_GetFolderFlags","shobjidl_core/IFolderViewSettings::GetFolderFlags"]
 old-location: shell\IFolderViewSettings_GetFolderFlags.htm
 tech.root: shell
 ms.assetid: a3b21d20-179c-4d6c-ac2e-9001d6358e52

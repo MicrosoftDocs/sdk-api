@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReport.GetActivityReport
 title: IMFSensorActivitiesReport::GetActivityReport (mfidl.h)
-description: Retrieves an IMFSensorActivityReport based on the specified index.
+description: Retrieves an IMFSensorActivityReport based on the specified index.helpviewer_keywords: ["GetActivityReport","GetActivityReport method [Media Foundation]","GetActivityReport method [Media Foundation]","IMFSensorActivitiesReport interface","IMFSensorActivitiesReport interface [Media Foundation]","GetActivityReport method","IMFSensorActivitiesReport.GetActivityReport","IMFSensorActivitiesReport::GetActivityReport","mf.imfsensoractivityreport_getactivityreport","mfidl/IMFSensorActivitiesReport::GetActivityReport"]
 old-location: mf\imfsensoractivityreport_getactivityreport.htm
 tech.root: medfound
 ms.assetid: 6E8D7039-9CBF-45A0-8CAE-48F79091D40B

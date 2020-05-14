@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertEmbedded
 title: ITextStoreAnchor::InsertEmbedded (textstor.h)
-description: ITextStoreAnchor::InsertEmbedded method
+description: ITextStoreAnchor::InsertEmbedded methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","InsertEmbedded method","ITextStoreAnchor.InsertEmbedded","ITextStoreAnchor::InsertEmbedded","InsertEmbedded","InsertEmbedded method [Text Services Framework]","InsertEmbedded method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::InsertEmbedded","tsf.itextstoreanchor_insertembedded"]
 old-location: tsf\itextstoreanchor_insertembedded.htm
 tech.root: TSF
 ms.assetid: 414842cc-7c3e-4f5c-93ac-3bd0eda5293e
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Inserts an IDataObject data object into a text stream.
 
 ## -parameters
 

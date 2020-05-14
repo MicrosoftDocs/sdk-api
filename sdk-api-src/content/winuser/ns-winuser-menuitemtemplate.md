@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.__unnamed_struct_7
 title: MENUITEMTEMPLATE (winuser.h)
-description: Defines a menu item in a menu template.
+description: Defines a menu item in a menu template.helpviewer_keywords: ["*PMENUITEMTEMPLATE","MENUITEMTEMPLATE","MENUITEMTEMPLATE structure [Menus and Other Resources]","MF_CHECKED","MF_GRAYED","MF_HELP","MF_MENUBARBREAK","MF_MENUBREAK","MF_OWNERDRAW","MF_POPUP","PMENUITEMTEMPLATE","PMENUITEMTEMPLATE structure pointer [Menus and Other Resources]","_win32_MENUITEMTEMPLATE_str","_win32_menuitemtemplate_str_cpp","menurc.menuitemtemplate","winui._win32_menuitemtemplate_str","winuser/MENUITEMTEMPLATE","winuser/PMENUITEMTEMPLATE"]
 old-location: menurc\menuitemtemplate.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplate.htm

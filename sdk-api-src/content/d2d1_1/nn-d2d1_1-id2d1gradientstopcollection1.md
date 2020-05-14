@@ -2,6 +2,7 @@
 UID: NN:d2d1_1.ID2D1GradientStopCollection1
 title: ID2D1GradientStopCollection1 (d2d1_1.h)
 description: Represents a collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes. It provides get methods for all the new parameters added to the gradient stop collection.
+helpviewer_keywords: ["ID2D1GradientStopCollection1","ID2D1GradientStopCollection1 interface [Direct2D]","ID2D1GradientStopCollection1 interface [Direct2D]","described","d2d1_1/ID2D1GradientStopCollection1","direct2d.id2d1gradientstopcollection1"]
 old-location: direct2d\id2d1gradientstopcollection1.htm
 tech.root: Direct2D
 ms.assetid: aa423e18-c6b5-4587-b044-deda00a84615
@@ -128,7 +129,7 @@ Gets the color space of the input colors as well as the space in which gradient 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

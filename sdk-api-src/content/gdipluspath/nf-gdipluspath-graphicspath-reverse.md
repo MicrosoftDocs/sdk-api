@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Reverse
 title: GraphicsPath::Reverse (gdipluspath.h)
-description: The GraphicsPath::Reverse method reverses the order of the points that define this path's lines and curves.
+description: The GraphicsPath::Reverse method reverses the order of the points that define this path's lines and curves.helpviewer_keywords: ["GraphicsPath class [GDI+]","Reverse method","GraphicsPath.Reverse","GraphicsPath::Reverse","Reverse","Reverse method [GDI+]","Reverse method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Reverse_","gdiplus._gdiplus_CLASS_GraphicsPath_Reverse_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reverse_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reverse.htm

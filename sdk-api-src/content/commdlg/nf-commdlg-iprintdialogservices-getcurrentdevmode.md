@@ -2,6 +2,7 @@
 UID: NF:commdlg.IPrintDialogServices.GetCurrentDevMode
 title: IPrintDialogServices::GetCurrentDevMode (commdlg.h)
 description: Fills a DEVMODE structure with information about the currently selected printer for use with PrintDlgEx.
+helpviewer_keywords: ["GetCurrentDevMode","GetCurrentDevMode function","GetCurrentDevMode method [Dialog Boxes]","GetCurrentDevMode method [Dialog Boxes]","IPrintDialogServices interface","IPrintDialogServices interface [Dialog Boxes]","GetCurrentDevMode method","IPrintDialogServices.GetCurrentDevMode","IPrintDialogServices::GetCurrentDevMode","_win32_IPrintDialogServices_GetCurrentDevMode","_win32_iprintdialogservices_getcurrentdevmode_cpp","commdlg/IPrintDialogServices::GetCurrentDevMode","dlgbox.iprintdialogservices_getcurrentdevmode","winui._win32_iprintdialogservices_getcurrentdevmode"]
 old-location: dlgbox\iprintdialogservices_getcurrentdevmode.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentdevmode.htm
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Fills a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Fills a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-d
 
 Type: <b>LPDEVMODE</b>
 
-A pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing information about the currently selected printer.
+A pointer to a buffer that receives a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing information about the currently selected printer.
 
 
 ### -param pcbSize
@@ -99,7 +100,7 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

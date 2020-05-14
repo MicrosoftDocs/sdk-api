@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Description
 title: ILegacyIAccessibleProvider::get_Description (uiautomationcore.h)
-description: Contains the description of this element.
+description: Contains the description of this element.helpviewer_keywords: ["Description property [Windows Accessibility]","Description property [Windows Accessibility]","ILegacyIAccessibleProvider interface","ILegacyIAccessibleProvider interface [Windows Accessibility]","Description property","ILegacyIAccessibleProvider.Description","ILegacyIAccessibleProvider.get_Description","ILegacyIAccessibleProvider::Description","ILegacyIAccessibleProvider::get_Description","get_Description","uiauto.uiauto_ILegacyIAccessibleProvider_Description","uiauto_ILegacyIAccessibleProvider_Description","uiautomationcore/ILegacyIAccessibleProvider::Description","uiautomationcore/ILegacyIAccessibleProvider::get_Description","winauto.uiauto_ILegacyIAccessibleProvider_Description"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Description.htm
 tech.root: WinAuto
 ms.assetid: 9a6ce358-66ad-40df-8642-759b7cb6208a

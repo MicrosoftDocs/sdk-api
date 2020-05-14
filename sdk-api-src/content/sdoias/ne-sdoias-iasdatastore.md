@@ -1,7 +1,7 @@
 ---
 UID: NE:sdoias._IASDATASTORE
 title: IASDATASTORE (sdoias.h)
-description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.
+description: The values of the IASDATASTORE enumeration indicate the possible storage locations for SDO data.helpviewer_keywords: ["*PIASDATASTORE","DATA_STORE_DIRECTORY","DATA_STORE_LOCAL","IASDATASTORE","IASDATASTORE enumeration [Network Policy Server]","PIASDATASTORE","PIASDATASTORE enumeration pointer [Network Policy Server]","_sdo_iasdatastore","nps.SDO_iasdatastore","sdo.iasdatastore","sdoias/DATA_STORE_DIRECTORY","sdoias/DATA_STORE_LOCAL","sdoias/IASDATASTORE","sdoias/PIASDATASTORE"]
 old-location: nps\SDO_iasdatastore.htm
 tech.root: Nps
 ms.assetid: 1eec69f9-b82e-48e5-a471-0a0626d91957

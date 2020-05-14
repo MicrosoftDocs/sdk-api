@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.LoadFromXML
 title: IVssExamineWriterMetadata::LoadFromXML (vsbackup.h)
-description: The LoadFromXML method loads an XML document that contains a writer's metadata document into an IVssExamineWriterMetadata interface.
+description: The LoadFromXML method loads an XML document that contains a writer's metadata document into an IVssExamineWriterMetadata interface.helpviewer_keywords: ["IVssExamineWriterMetadata interface [VSS]","LoadFromXML method","IVssExamineWriterMetadata.LoadFromXML","IVssExamineWriterMetadata::LoadFromXML","LoadFromXML","LoadFromXML method [VSS]","LoadFromXML method [VSS]","IVssExamineWriterMetadata interface","_win32_ivssexaminewritermetadata_loadfromxml","base.ivssexaminewritermetadata_loadfromxml","vsbackup/IVssExamineWriterMetadata::LoadFromXML"]
 old-location: base\ivssexaminewritermetadata_loadfromxml.htm
 tech.root: VSS
 ms.assetid: 8a508a2c-1c42-4414-9c54-a78d1e1564a0

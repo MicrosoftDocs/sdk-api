@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IURLSearchHook.Translate
 title: IURLSearchHook::Translate (shlobj_core.h)
-description: Called by the browser when the browser cannot determine the protocol of a URL address.
+description: Called by the browser when the browser cannot determine the protocol of a URL address.helpviewer_keywords: ["IURLSearchHook interface [Windows Shell]","Translate method","IURLSearchHook.Translate","IURLSearchHook::Translate","Translate","Translate method [Windows Shell]","Translate method [Windows Shell]","IURLSearchHook interface","_win32_IURLSearchHook_Translate","shell.IURLSearchHook_Translate","shlobj_core/IURLSearchHook::Translate"]
 old-location: shell\IURLSearchHook_Translate.htm
 tech.root: shell
 ms.assetid: 02fa8ee7-f9cb-4872-895c-7b3078391cc4

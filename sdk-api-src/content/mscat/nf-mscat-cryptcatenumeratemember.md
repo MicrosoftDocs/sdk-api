@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATEnumerateMember
 title: CryptCATEnumerateMember function (mscat.h)
 description: Enumerates the members of a catalog.
+helpviewer_keywords: ["CryptCATEnumerateMember","CryptCATEnumerateMember function [Security]","mscat/CryptCATEnumerateMember","security.cryptcatenumeratemember"]
 old-location: security\cryptcatenumeratemember.htm
 tech.root: SecCrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48
@@ -66,14 +67,14 @@ The handle of the catalog that contains the members to enumerate. This value can
 
 ### -param pPrevMember [in]
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that identifies which member of the catalog was last retrieved. If this parameter is <b>NULL</b>, this function will retrieve the first member of the catalog.
+A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that identifies which member of the catalog was last retrieved. If this parameter is <b>NULL</b>, this function will retrieve the first member of the catalog.
 
 
 ## -returns
 
 
 
-This function returns a pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that represents the next member of the catalog. If there are no more members in the catalog to enumerate, this function returns <b>NULL</b>.
+This function returns a pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that represents the next member of the catalog. If there are no more members in the catalog to enumerate, this function returns <b>NULL</b>.
 
 
 
@@ -110,7 +111,7 @@ for(pMember = CryptCATEnumerateMember(hCatalog, pMember);
 
 
 
-[CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a>
+[CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)
  
 
  

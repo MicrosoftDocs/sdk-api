@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITask.SetWorkingDirectory
 title: ITask::SetWorkingDirectory (mstask.h)
-description: This method sets the working directory for the task.
+description: This method sets the working directory for the task.helpviewer_keywords: ["ITask interface [Task Scheduler]","SetWorkingDirectory method","ITask.SetWorkingDirectory","ITask::SetWorkingDirectory","SetWorkingDirectory","SetWorkingDirectory method [Task Scheduler]","SetWorkingDirectory method [Task Scheduler]","ITask interface","_msb_itask_setworkingdirectory","mstask/ITask::SetWorkingDirectory","taskschd.itask_setworkingdirectory"]
 old-location: taskschd\itask_setworkingdirectory.htm
 tech.root: taskschd
 ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28

@@ -1,7 +1,7 @@
 ---
 UID: NS:ndhelper.tagHypothesisResult
 title: HypothesisResult (ndhelper.h)
-description: Contains information about a hypothesis returned from a helper class.
+description: Contains information about a hypothesis returned from a helper class.helpviewer_keywords: ["HypothesisResult","HypothesisResult structure [NDF]","ndf.hypothesisresult","ndhelper/HypothesisResult"]
 old-location: ndf\hypothesisresult.htm
 tech.root: NDF
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6

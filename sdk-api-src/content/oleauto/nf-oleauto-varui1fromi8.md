@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI1FromI8
 title: VarUI1FromI8 function (oleauto.h)
-description: Converts an 8-byte integer value to a byte value.
+description: Converts an 8-byte integer value to a byte value.helpviewer_keywords: ["VarUI1FromI8","VarUI1FromI8 function [Automation]","_oa96_VarUI1FromI8","automat.varui1fromi8","oleauto/VarUI1FromI8"]
 old-location: automat\varui1fromi8.htm
 tech.root: automat
 ms.assetid: 85f83a10-c679-4eec-b90f-c09026a918b6

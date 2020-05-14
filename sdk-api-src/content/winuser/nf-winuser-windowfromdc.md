@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.WindowFromDC
 title: WindowFromDC function (winuser.h)
-description: The WindowFromDC function returns a handle to the window associated with the specified display device context (DC). Output functions that use the specified device context draw into this window.
+description: The WindowFromDC function returns a handle to the window associated with the specified display device context (DC). Output functions that use the specified device context draw into this window.helpviewer_keywords: ["WindowFromDC","WindowFromDC function [Windows GDI]","_win32_WindowFromDC","gdi.windowfromdc","winuser/WindowFromDC"]
 old-location: gdi\windowfromdc.htm
 tech.root: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d

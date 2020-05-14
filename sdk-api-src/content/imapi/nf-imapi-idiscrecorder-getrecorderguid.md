@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderGUID
 title: IDiscRecorder::GetRecorderGUID (imapi.h)
-description: Retrieves the GUID of the physical disc recorder currently associated with the recorder object.
+description: Retrieves the GUID of the physical disc recorder currently associated with the recorder object.helpviewer_keywords: ["GetRecorderGUID","GetRecorderGUID method [IMAPI]","GetRecorderGUID method [IMAPI]","IDiscRecorder interface","IDiscRecorder interface [IMAPI]","GetRecorderGUID method","IDiscRecorder.GetRecorderGUID","IDiscRecorder::GetRecorderGUID","_win32_idiscrecorder_getrecorderguid","base.idiscrecorder_getrecorderguid","imapi.idiscrecorder_getrecorderguid","imapi/IDiscRecorder::GetRecorderGUID"]
 old-location: imapi\idiscrecorder_getrecorderguid.htm
 tech.root: imapi
 ms.assetid: 9d13d352-bc48-43c7-9800-12855d754435

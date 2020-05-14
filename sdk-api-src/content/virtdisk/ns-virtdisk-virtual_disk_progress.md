@@ -2,6 +2,7 @@
 UID: NS:virtdisk._VIRTUAL_DISK_PROGRESS
 title: VIRTUAL_DISK_PROGRESS (virtdisk.h)
 description: Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the GetVirtualDiskOperationProgress function.
+helpviewer_keywords: ["*PVIRTUAL_DISK_PROGRESS","PVIRTUAL_DISK_PROGRESS","PVIRTUAL_DISK_PROGRESS structure pointer [VHD]","VIRTUAL_DISK_PROGRESS","VIRTUAL_DISK_PROGRESS structure [VHD]","_VIRTUAL_DISK_PROGRESS","vdssys/PVIRTUAL_DISK_PROGRESS","vdssys/VIRTUAL_DISK_PROGRESS","vhd.virtual_disk_progress","virtdisk/PVIRTUAL_DISK_PROGRESS","virtdisk/VIRTUAL_DISK_PROGRESS"]
 old-location: vhd\virtual_disk_progress.htm
 tech.root: VStor
 ms.assetid: 834d7384-09fe-493e-8402-135c453a1ecf
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
+    <a href="/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function.
 
 
@@ -95,13 +96,13 @@ The <b>CurrentValue</b> and <b>CompletionValue</b> members are
     equals percent complete, up to and including 100 percent, even when <b>OperationStatus</b> is 
     still returning <b>ERROR_IO_PENDING</b>. This percentage is not always guaranteed to increase 
     with subsequent calls to the 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
+    <a href="/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function, and may decrease. These decreased percentages may be safely ignored if progress tracking is desired to 
     be only in the positive by locally storing the current maximum percentage.
 
 The <b>CurrentValue</b> and <b>CompletionValue</b> members can vary in 
     subsequent calls to the 
-    <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
+    <a href="/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function, so they must be used together at the same time from the same call. That is, it is not valid to save 
     either of them locally and then make another call to the 
     <b>GetVirtualDiskOperationProgress</b> 
@@ -123,7 +124,7 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMINIMIZEDMETRICS
 title: MINIMIZEDMETRICS (winuser.h)
-description: Contains the scalable metrics associated with minimized windows.
+description: Contains the scalable metrics associated with minimized windows.helpviewer_keywords: ["*LPMINIMIZEDMETRICS","*PMINIMIZEDMETRICS","ARW_BOTTOMLEFT","ARW_BOTTOMRIGHT","ARW_DOWN","ARW_HIDE","ARW_LEFT","ARW_RIGHT","ARW_TOPLEFT","ARW_TOPRIGHT","ARW_UP","LPMINIMIZEDMETRICS","LPMINIMIZEDMETRICS structure pointer [Windows and Messages]","MINIMIZEDMETRICS","MINIMIZEDMETRICS structure [Windows and Messages]","PMINIMIZEDMETRICS","PMINIMIZEDMETRICS structure pointer [Windows and Messages]","_win32_minimizedmetrics_str","base.minimizedmetrics_str","minimizedmetrics_str_cpp","tagMINIMIZEDMETRICS","winmsg.minimizedmetrics_str","winui.minimizedmetrics_str","winuser/LPMINIMIZEDMETRICS","winuser/MINIMIZEDMETRICS","winuser/PMINIMIZEDMETRICS"]
 old-location: winmsg\minimizedmetrics_str.htm
 tech.root: winmsg
 ms.assetid: 10ae6579-2d66-4e8f-8692-0be8abdbf41a

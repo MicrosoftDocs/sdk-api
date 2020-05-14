@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Close
 title: IWMWriterFileSink2::Close (wmsdkidl.h)
-description: The Close method closes the sink.
+description: The Close method closes the sink.helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMWriterFileSink2 interface","IWMWriterFileSink2 interface [windows Media Format]","Close method","IWMWriterFileSink2.Close","IWMWriterFileSink2::Close","IWMWriterFileSink2Close","wmformat.iwmwriterfilesink2_close","wmsdkidl/IWMWriterFileSink2::Close"]
 old-location: wmformat\iwmwriterfilesink2_close.htm
 tech.root: wmformat
 ms.assetid: 8d1bce07-a165-45cf-95cb-03b57f0cae03

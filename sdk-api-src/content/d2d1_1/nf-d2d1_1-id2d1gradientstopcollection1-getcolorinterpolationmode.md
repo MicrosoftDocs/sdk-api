@@ -2,6 +2,7 @@
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetColorInterpolationMode
 title: ID2D1GradientStopCollection1::GetColorInterpolationMode (d2d1_1.h)
 description: Retrieves the color interpolation mode that the gradient stop collection uses.
+helpviewer_keywords: ["GetColorInterpolationMode","GetColorInterpolationMode method [Direct2D]","GetColorInterpolationMode method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetColorInterpolationMode method","ID2D1GradientStopCollection1.GetColorInterpolationMode","ID2D1GradientStopCollection1::GetColorInterpolationMode","d2d1_1/ID2D1GradientStopCollection1::GetColorInterpolationMode","direct2d.id2d1gradientstopcollection1_getcolorinterpolationmode"]
 old-location: direct2d\id2d1gradientstopcollection1_getcolorinterpolationmode.htm
 tech.root: Direct2D
 ms.assetid: D1351D2B-B259-400C-A77A-2437E80D46E9
@@ -83,7 +84,7 @@ The color interpolation mode.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

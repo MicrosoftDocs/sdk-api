@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmSetting.EmailTest
 title: IFsrmSetting::EmailTest (fsrm.h)
-description: Send an email message to the specified email address.
+description: Send an email message to the specified email address.helpviewer_keywords: ["EmailTest","EmailTest method [File Server Resource Manager]","EmailTest method [File Server Resource Manager]","FsrmSetting class","EmailTest method [File Server Resource Manager]","IFsrmSetting interface","FsrmSetting class [File Server Resource Manager]","EmailTest method","IFsrmSetting interface [File Server Resource Manager]","EmailTest method","IFsrmSetting.EmailTest","IFsrmSetting::EmailTest","fs.ifsrmsetting_emailtest","fsrm.ifsrmsetting_emailtest","fsrm/IFsrmSetting::EmailTest"]
 old-location: fsrm\ifsrmsetting_emailtest.htm
 tech.root: fsrm
 ms.assetid: dda57309-8e77-4934-bb3e-d208d4607ea5

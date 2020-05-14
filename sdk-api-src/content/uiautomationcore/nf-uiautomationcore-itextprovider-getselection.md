@@ -2,6 +2,7 @@
 UID: NF:uiautomationcore.ITextProvider.GetSelection
 title: ITextProvider::GetSelection (uiautomationcore.h)
 description: Retrieves a collection of text ranges that represents the currently selected text in a text-based control.
+helpviewer_keywords: ["GetSelection","GetSelection method [Windows Accessibility]","GetSelection method [Windows Accessibility]","ITextProvider interface","ITextProvider interface [Windows Accessibility]","GetSelection method","ITextProvider.GetSelection","ITextProvider::GetSelection","uiauto.uiauto_ITextProvider_GetSelection","uiauto_ITextProvider_GetSelection","uiautomationcore/ITextProvider::GetSelection","winauto.uiauto_ITextProvider_GetSelection"]
 old-location: winauto\uiauto_ITextProvider_GetSelection.htm
 tech.root: WinAuto
 ms.assetid: f5c0b2ed-e891-4856-8829-617a69d4708a
@@ -60,7 +61,7 @@ Retrieves a collection of text ranges that represents the currently selected tex
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives the address of an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a> interfaces of the text ranges,
 				one for each selected span of text. This parameter is passed uninitialized.

@@ -1,7 +1,7 @@
 ---
 UID: NN:thumbcache.IThumbnailCache
 title: IThumbnailCache (thumbcache.h)
-description: Exposes methods for a system thumbnail cache that is shared across applications.
+description: Exposes methods for a system thumbnail cache that is shared across applications.helpviewer_keywords: ["IThumbnailCache","IThumbnailCache interface [Windows Shell]","IThumbnailCache interface [Windows Shell]","described","_shell_IThumbnailCache","shell.IThumbnailCache","thumbcache/IThumbnailCache"]
 old-location: shell\IThumbnailCache.htm
 tech.root: shell
 ms.assetid: b0ddfca0-49b8-4f53-8d22-9a561d09367a

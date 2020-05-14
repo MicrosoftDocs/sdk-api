@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.LoadChangeData
 title: IAsynchronousDataRetriever::LoadChangeData (winsync.h)
-description: Retrieves item data for a change.
+description: Retrieves item data for a change.helpviewer_keywords: ["IAsynchronousDataRetriever interface [Windows Sync]","LoadChangeData method","IAsynchronousDataRetriever.LoadChangeData","IAsynchronousDataRetriever::LoadChangeData","LoadChangeData","LoadChangeData method [Windows Sync]","LoadChangeData method [Windows Sync]","IAsynchronousDataRetriever interface","winsync.iasynchronousdataretriever_loadchangedata","winsync/IAsynchronousDataRetriever::LoadChangeData"]
 old-location: winsync\iasynchronousdataretriever_loadchangedata.htm
 tech.root: winsync
 ms.assetid: b5e73504-1f9e-4a58-9bd9-2c184372b970

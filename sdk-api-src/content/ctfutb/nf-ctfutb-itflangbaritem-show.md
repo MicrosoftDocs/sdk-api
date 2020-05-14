@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.Show
 title: ITfLangBarItem::Show (ctfutb.h)
-description: ITfLangBarItem::Show method
+description: ITfLangBarItem::Show methodhelpviewer_keywords: ["ITfLangBarItem interface [Text Services Framework]","Show method","ITfLangBarItem.Show","ITfLangBarItem::Show","Show","Show method [Text Services Framework]","Show method [Text Services Framework]","ITfLangBarItem interface","_tsf_itflangbaritem_show_ref","ctfutb/ITfLangBarItem::Show","tsf.itflangbaritem_show"]
 old-location: tsf\itflangbaritem_show.htm
 tech.root: TSF
 ms.assetid: 3f5be2f4-e9de-4b03-9c37-651b1e572cf0
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to show or hide the language bar item.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IActionCollection.get_XmlText
 title: IActionCollection::get_XmlText (taskschd.h)
-description: Gets or sets an XML-formatted version of the collection.
+description: Gets or sets an XML-formatted version of the collection.helpviewer_keywords: ["IActionCollection interface [Task Scheduler]","XmlText property","IActionCollection.XmlText","IActionCollection.get_XmlText","IActionCollection::XmlText","IActionCollection::get_XmlText","IActionCollection::put_XmlText","XmlText property [Task Scheduler]","XmlText property [Task Scheduler]","IActionCollection interface","get_XmlText","taskschd.iactioncollection_xmltext","taskschd/IActionCollection::XmlText","taskschd/IActionCollection::get_XmlText","taskschd/IActionCollection::put_XmlText"]
 old-location: taskschd\iactioncollection_xmltext.htm
 tech.root: taskschd
 ms.assetid: 1c72546d-26e3-441c-875c-a41078ded0b7

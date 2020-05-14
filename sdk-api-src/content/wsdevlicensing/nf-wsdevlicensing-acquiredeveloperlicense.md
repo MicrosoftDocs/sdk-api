@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdevlicensing.AcquireDeveloperLicense
 title: AcquireDeveloperLicense function (wsdevlicensing.h)
-description: Acquires a developer license.
+description: Acquires a developer license.helpviewer_keywords: ["AcquireDeveloperLicense","AcquireDeveloperLicense function","devlic.acquiredeveloperlicense","wsdevlicensing/AcquireDeveloperLicense"]
 old-location: devlic\acquiredeveloperlicense.htm
 tech.root: devlic
 ms.assetid: 0F6316B4-3FE2-405E-B8C0-AB371F95BCE1

@@ -1,7 +1,7 @@
 ---
 UID: NC:ddkmapi.LPDD_NOTIFYCALLBACK
 title: LPDD_NOTIFYCALLBACK (ddkmapi.h)
-description: The NotifyCallback callback function performs operations related to an event that occurred.
+description: The NotifyCallback callback function performs operations related to an event that occurred.helpviewer_keywords: ["LPDD_NOTIFYCALLBACK","LPDD_NOTIFYCALLBACK callback","NotifyCallback","NotifyCallback callback function [Display Devices]","ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml","ddkmapi/NotifyCallback","display.notifycallback"]
 old-location: display\notifycallback.htm
 tech.root: display
 ms.assetid: ee581d7b-c3b8-47e5-bae8-348b22ea0f95

@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.ILockBytes
 title: ILockBytes (objidl.h)
-description: The ILockBytes interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database.
+description: The ILockBytes interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database.helpviewer_keywords: ["ILockBytes","ILockBytes interface [Structured Storage]","ILockBytes interface [Structured Storage]","described","_stg_ilockbytes","objidl/ILockBytes","stg.ilockbytes"]
 old-location: stg\ilockbytes.htm
 tech.root: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731

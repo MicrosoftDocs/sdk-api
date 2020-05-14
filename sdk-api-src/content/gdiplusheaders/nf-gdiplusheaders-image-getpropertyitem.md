@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyItem
 title: Image::GetPropertyItem (gdiplusheaders.h)
-description: The Image::GetPropertyItem method gets a specified property item (piece of metadata) from this Image object.
+description: The Image::GetPropertyItem method gets a specified property item (piece of metadata) from this Image object.helpviewer_keywords: ["GetPropertyItem","GetPropertyItem method [GDI+]","GetPropertyItem method [GDI+]","Image class","Image class [GDI+]","GetPropertyItem method","Image.GetPropertyItem","Image::GetPropertyItem","_gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_","gdiplus._gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitem.htm

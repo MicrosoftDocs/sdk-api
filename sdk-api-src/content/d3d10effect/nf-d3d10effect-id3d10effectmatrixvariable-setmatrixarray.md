@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrixArray
 title: ID3D10EffectMatrixVariable::SetMatrixArray (d3d10effect.h)
-description: Set an array of floating-point matrices.
+description: Set an array of floating-point matrices.helpviewer_keywords: ["ID3D10EffectMatrixVariable interface [Direct3D 10]","SetMatrixArray method","ID3D10EffectMatrixVariable.SetMatrixArray","ID3D10EffectMatrixVariable::SetMatrixArray","SetMatrixArray","SetMatrixArray method [Direct3D 10]","SetMatrixArray method [Direct3D 10]","ID3D10EffectMatrixVariable interface","ba745b53-173b-3f99-1c4a-10c74d10a02b","d3d10effect/ID3D10EffectMatrixVariable::SetMatrixArray","direct3d10.id3d10effectmatrixvariable_setmatrixarray"]
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrixarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrixarray.htm

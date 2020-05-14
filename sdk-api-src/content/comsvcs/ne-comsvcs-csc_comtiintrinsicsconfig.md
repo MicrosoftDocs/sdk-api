@@ -1,7 +1,7 @@
 ---
 UID: NE:comsvcs.tagCSC_COMTIIntrinsicsConfig
 title: CSC_COMTIIntrinsicsConfig (comsvcs.h)
-description: Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context.
+description: Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context.helpviewer_keywords: ["CSC_COMTIIntrinsicsConfig","CSC_COMTIIntrinsicsConfig enumeration [COM+]","CSC_InheritCOMTIIntrinsics","CSC_NoCOMTIIntrinsics","_cos_CSC_COMTIIntrinsicsConfig","comsvcs/CSC_COMTIIntrinsicsConfig","comsvcs/CSC_InheritCOMTIIntrinsics","comsvcs/CSC_NoCOMTIIntrinsics","cos.csc_comtiintrinsicsconfig"]
 old-location: cos\csc_comtiintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: 0d700648-b5fe-46f6-9d27-e2601fe88d71

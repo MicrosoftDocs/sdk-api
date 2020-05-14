@@ -1,7 +1,7 @@
 ---
 UID: NN:oleidl.IOleInPlaceUIWindow
 title: IOleInPlaceUIWindow (oleidl.h)
-description: Implemented by container applications and used by object applications to negotiate border space on the document or frame window.
+description: Implemented by container applications and used by object applications to negotiate border space on the document or frame window.helpviewer_keywords: ["IOleInPlaceUIWindow","IOleInPlaceUIWindow interface [COM]","IOleInPlaceUIWindow interface [COM]","described","_ole_ioleinplaceuiwindow","com.ioleinplaceuiwindow","oleidl/IOleInPlaceUIWindow"]
 old-location: com\ioleinplaceuiwindow.htm
 tech.root: com
 ms.assetid: 3cfb31aa-9746-438c-af64-8236c170fe88

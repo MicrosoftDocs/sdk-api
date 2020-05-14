@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.SetWeight
 title: ITextFont::SetWeight (tom.h)
-description: Sets the font weight for the characters in a range.
+description: Sets the font weight for the characters in a range.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetWeight method","ITextFont.SetWeight","ITextFont::SetWeight","SetWeight","SetWeight method [Windows Controls]","SetWeight method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetWeight","_win32_ITextFont_SetWeight_cpp","controls.ITextFont_SetWeight","controls._win32_ITextFont_SetWeight","tom/ITextFont::SetWeight"]
 old-location: controls\ITextFont_SetWeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setweight.htm

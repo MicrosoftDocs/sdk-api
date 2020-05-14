@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_BEZIER_SEGMENT
 title: D2D1_BEZIER_SEGMENT (d2d1.h)
-description: Represents a cubic bezier segment drawn between two points.
+description: Represents a cubic bezier segment drawn between two points.helpviewer_keywords: ["D2D1_BEZIER_SEGMENT","D2D1_BEZIER_SEGMENT structure [Direct2D]","d2d1/D2D1_BEZIER_SEGMENT","direct2d.D2D1_BEZIER_SEGMENT"]
 old-location: direct2d\D2D1_BEZIER_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
@@ -59,21 +59,21 @@ Represents a cubic bezier segment drawn  between two points.
 
 ### -field point1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The first control point for the Bezier segment.
 
 
 ### -field point2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The second control point for the Bezier segment.
 
 
 ### -field point3
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The end point for the Bezier segment.
 

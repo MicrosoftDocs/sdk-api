@@ -2,6 +2,7 @@
 UID: NN:credentialprovider.ICredentialProviderUserArray
 title: ICredentialProviderUserArray (credentialprovider.h)
 description: Represents the set of users that will appear in the logon or credential UI. This information enables the credential provider to enumerate the set to retrieve property information about each user to populate fields or filter the set.
+helpviewer_keywords: ["ICredentialProviderUserArray","ICredentialProviderUserArray interface [Windows Shell]","ICredentialProviderUserArray interface [Windows Shell]","described","credentialprovider/ICredentialProviderUserArray","shell.ICredentialProviderUserArray"]
 old-location: shell\ICredentialProviderUserArray.htm
 tech.root: shell
 ms.assetid: 50FC43C1-B148-4e42-AB38-3559BD056855
@@ -159,7 +160,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8.docx</a>
+<a href="http://download.microsoft.com/download/F/3/5/F3536898-FF3C-4548-8418-08D79555A0DB/Credential Provider Framework Changes in Windows 8.docx">Credential Provider Framework Changes in Windows 8.docx</a>
 
 
 

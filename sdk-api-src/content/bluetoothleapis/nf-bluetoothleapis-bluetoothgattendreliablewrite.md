@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTEndReliableWrite
 title: BluetoothGATTEndReliableWrite function (bluetoothleapis.h)
-description: Specifies the end of reliable writes, and the writes should be committed.
+description: Specifies the end of reliable writes, and the writes should be committed.helpviewer_keywords: ["BluetoothGATTEndReliableWrite","BluetoothGATTEndReliableWrite function [Bluetooth Devices]","bltooth.bluetoothgattendreliablewrite","bluetoothleapis/BluetoothGATTEndReliableWrite"]
 old-location: bltooth\bluetoothgattendreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 4A3CB135-55D7-41BA-8067-D4B865D05733

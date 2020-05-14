@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManCloseSession
 title: WSManCloseSession function (wsman.h)
-description: Closes a session object.
+description: Closes a session object.helpviewer_keywords: ["WSManCloseSession","WSManCloseSession function [Windows Remote Management]","winrm.wsmanclosesession","wsman/WSManCloseSession"]
 old-location: winrm\wsmanclosesession.htm
 tech.root: winrm
 ms.assetid: b7d1ef66-0371-4d30-8053-813b229b2a62

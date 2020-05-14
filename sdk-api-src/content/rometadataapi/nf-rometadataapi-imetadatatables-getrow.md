@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetRow
 title: IMetaDataTables::GetRow (rometadataapi.h)
-description: Gets the row at the specified row index, in the table at the specified table index.
+description: Gets the row at the specified row index, in the table at the specified table index.helpviewer_keywords: ["GetRow","GetRow method [Windows Runtime]","GetRow method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetRow method","IMetaDataTables.GetRow","IMetaDataTables::GetRow","rometadataapi/IMetaDataTables::GetRow","winrt.imetadatatables_getrow"]
 old-location: winrt\imetadatatables_getrow.htm
 tech.root: WinRT
 ms.assetid: d56bc0c8-0a63-48c8-bc2c-e3b4c2f313b8

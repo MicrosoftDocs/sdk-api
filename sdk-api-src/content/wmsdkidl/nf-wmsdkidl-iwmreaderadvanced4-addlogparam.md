@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.AddLogParam
 title: IWMReaderAdvanced4::AddLogParam (wmsdkidl.h)
-description: The AddLogParam method adds a named value to the logging information that the reader object will send to the sever.
+description: The AddLogParam method adds a named value to the logging information that the reader object will send to the sever.helpviewer_keywords: ["AddLogParam","AddLogParam method [windows Media Format]","AddLogParam method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","AddLogParam method","IWMReaderAdvanced4.AddLogParam","IWMReaderAdvanced4::AddLogParam","IWMReaderAdvanced4AddLogParam","wmformat.iwmreaderadvanced4_addlogparam","wmsdkidl/IWMReaderAdvanced4::AddLogParam"]
 old-location: wmformat\iwmreaderadvanced4_addlogparam.htm
 tech.root: wmformat
 ms.assetid: 7d117895-b61f-4890-8cb6-3e4ecf49ca99

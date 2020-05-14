@@ -2,6 +2,7 @@
 UID: NF:msctf.ITfRange.SetGravity
 title: ITfRange::SetGravity (msctf.h)
 description: ITfRange::SetGravity method
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","SetGravity method","ITfRange.SetGravity","ITfRange::SetGravity","SetGravity","SetGravity method [Text Services Framework]","SetGravity method [Text Services Framework]","ITfRange interface","_tsf_itfrange_setgravity_ref","msctf/ITfRange::SetGravity","tsf.itfrange_setgravity"]
 old-location: tsf\itfrange_setgravity.htm
 tech.root: TSF
 ms.assetid: f8be0458-cd14-471d-a138-0730f87374e0
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Sets the gravity of the anchors in the object.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Contains an edit cookie that identifies the edit context obtained from <a href="
 
 ### -param gStart [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a> values that specifies the gravity of the start anchor.
+Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a> values that specifies the gravity of the start anchor.
 
 
 ### -param gEnd [in]
@@ -146,7 +146,7 @@ The cookie in <i>ec</i> is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a>
+<a href="/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a>
  
 
  

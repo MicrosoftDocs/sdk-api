@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetView
 title: ListView_SetView macro (commctrl.h)
-description: Sets the view of a list-view control. You can use this macro or send the LVM_SETVIEW message explicitly.
+description: Sets the view of a list-view control. You can use this macro or send the LVM_SETVIEW message explicitly.helpviewer_keywords: ["ListView_SetView","ListView_SetView macro [Windows Controls]","_win32_ListView_SetView","_win32_ListView_SetView_cpp","commctrl/ListView_SetView","controls.ListView_SetView","controls._win32_ListView_SetView"]
 old-location: controls\ListView_SetView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setview.htm

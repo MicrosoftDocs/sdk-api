@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsCollection.GetObject
 title: IADsCollection::GetObject (iads.h)
-description: Retrieves an item of the collection.
+description: Retrieves an item of the collection.helpviewer_keywords: ["GetObject","GetObject method [ADSI]","GetObject method [ADSI]","IADsCollection interface","IADsCollection interface [ADSI]","GetObject method","IADsCollection.GetObject","IADsCollection::GetObject","_ds_iadscollection_getobject","adsi.iadscollection__getobject","adsi.iadscollection_getobject","iads/IADsCollection::GetObject"]
 old-location: adsi\iadscollection_getobject.htm
 tech.root: adsi
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6

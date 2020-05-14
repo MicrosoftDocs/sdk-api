@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadShortN4
 title: XMLoadShortN4 function (directxpackedvector.h)
-description: Loads an XMSHORTN4 into an XMVECTOR.
+description: Loads an XMSHORTN4 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadShortN4","XMLoadShortN4","XMLoadShortN4 method [DirectX Math Support APIs]","dxmath.xmloadshortn4"]
 old-location: dxmath\xmloadshortn4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShortN4(const XMSHORTN4)

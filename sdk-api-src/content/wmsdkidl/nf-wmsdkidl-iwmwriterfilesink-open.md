@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink.Open
 title: IWMWriterFileSink::Open (wmsdkidl.h)
-description: The Open method opens a file that acts as the writer sink.
+description: The Open method opens a file that acts as the writer sink.helpviewer_keywords: ["IWMWriterFileSink interface [windows Media Format]","Open method","IWMWriterFileSink.Open","IWMWriterFileSink::Open","IWMWriterFileSinkOpen","Open","Open method [windows Media Format]","Open method [windows Media Format]","IWMWriterFileSink interface","wmformat.iwmwriterfilesink_open","wmsdkidl/IWMWriterFileSink::Open"]
 old-location: wmformat\iwmwriterfilesink_open.htm
 tech.root: wmformat
 ms.assetid: 14a36fe9-8293-4079-8189-8a8e0720c100

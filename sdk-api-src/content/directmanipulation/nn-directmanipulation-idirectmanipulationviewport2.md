@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationViewport2
 title: IDirectManipulationViewport2 (directmanipulation.h)
-description: Provides management of behaviors on a viewport. A behavior affects the functionality of a particular part of the Direct Manipulation workflow.
+description: Provides management of behaviors on a viewport. A behavior affects the functionality of a particular part of the Direct Manipulation workflow.helpviewer_keywords: ["IDirectManipulationViewport2","IDirectManipulationViewport2 interface [Direct Manipulation]","IDirectManipulationViewport2 interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationviewport2","directmanipulation/IDirectManipulationViewport2"]
 old-location: directmanipulation\idirectmanipulationviewport2.htm
 tech.root: directmanipulation
 ms.assetid: 6EDFBA93-D2A2-4089-9976-CD1F8421B319

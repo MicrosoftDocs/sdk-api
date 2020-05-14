@@ -2,6 +2,7 @@
 UID: NS:commctrl._NMTBCUSTOMDRAW
 title: NMTBCUSTOMDRAW (commctrl.h)
 description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a toolbar control.
+helpviewer_keywords: ["*LPNMTBCUSTOMDRAW","LPNMTBCUSTOMDRAW","LPNMTBCUSTOMDRAW structure pointer [Windows Controls]","NMTBCUSTOMDRAW","NMTBCUSTOMDRAW structure [Windows Controls]","_win32_NMTBCUSTOMDRAW","_win32_NMTBCUSTOMDRAW_cpp","commctrl/LPNMTBCUSTOMDRAW","commctrl/NMTBCUSTOMDRAW","controls.NMTBCUSTOMDRAW","controls._win32_NMTBCUSTOMDRAW"]
 old-location: controls\NMTBCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbcustomdraw.htm
@@ -59,10 +60,10 @@ Contains information specific to an <a href="https://docs.microsoft.com/windows/
 
 ### -field nmcd
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a></b>
+Type: <b><a href="/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> structure that contains general custom draw information. The 
+<a href="/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw">NMCUSTOMDRAW</a> structure that contains general custom draw information. The 
 					<b>uItemState</b> member of this structure can be modified so that a toolbar item will be drawn in the specified state without actually changing the item's state. 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetStatus
 title: ITfLangBarItem::GetStatus (ctfutb.h)
-description: ITfLangBarItem::GetStatus method
+description: ITfLangBarItem::GetStatus methodhelpviewer_keywords: ["GetStatus","GetStatus method [Text Services Framework]","GetStatus method [Text Services Framework]","ITfLangBarItem interface","ITfLangBarItem interface [Text Services Framework]","GetStatus method","ITfLangBarItem.GetStatus","ITfLangBarItem::GetStatus","_tsf_itflangbaritem_getstatus_ref","ctfutb/ITfLangBarItem::GetStatus","tsf.itflangbaritem_getstatus"]
 old-location: tsf\itflangbaritem_getstatus.htm
 tech.root: TSF
 ms.assetid: 2f850553-ec79-4e2f-a4d5-c40dbaca0f01
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the status of a language bar item.
 
 ## -parameters
 

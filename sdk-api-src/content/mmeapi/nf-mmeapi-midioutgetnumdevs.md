@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiOutGetNumDevs
 title: midiOutGetNumDevs function (mmeapi.h)
-description: The midiOutGetNumDevs function retrieves the number of MIDI output devices present in the system.
+description: The midiOutGetNumDevs function retrieves the number of MIDI output devices present in the system.helpviewer_keywords: ["_win32_midiOutGetNumDevs","midiOutGetNumDevs","midiOutGetNumDevs function [Windows Multimedia]","mmeapi/midiOutGetNumDevs","multimedia.midioutgetnumdevs"]
 old-location: multimedia\midioutgetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: f7abf545-3072-478e-9f6e-28b5fb6ab6e5

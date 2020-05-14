@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.RangeFromPoint
 title: ITextProvider::RangeFromPoint (uiautomationcore.h)
-description: Returns the degenerate (empty) text range nearest to the specified screen coordinates.
+description: Returns the degenerate (empty) text range nearest to the specified screen coordinates.helpviewer_keywords: ["ITextProvider interface [Windows Accessibility]","RangeFromPoint method","ITextProvider.RangeFromPoint","ITextProvider::RangeFromPoint","RangeFromPoint","RangeFromPoint method [Windows Accessibility]","RangeFromPoint method [Windows Accessibility]","ITextProvider interface","uiauto.uiauto_ITextProvider_RangeFromPoint","uiauto_ITextProvider_RangeFromPoint","uiautomationcore/ITextProvider::RangeFromPoint","winauto.uiauto_ITextProvider_RangeFromPoint"]
 old-location: winauto\uiauto_ITextProvider_RangeFromPoint.htm
 tech.root: WinAuto
 ms.assetid: c19c6a4a-b783-47c2-8dfd-1ffe947278f0

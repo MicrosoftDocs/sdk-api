@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.operator-add
 title: operator+
-description: Performance an identity operation on an XMVECTOR instance.
+description: Performance an identity operation on an XMVECTOR instance.helpviewer_keywords: ["operator+"]
 ms.assetid: 746972ab-796a-4abd-8a96-7a4f8ccdd808
 ms.date: 05/13/2019
 ms.keywords: operator+

@@ -2,6 +2,7 @@
 UID: NF:synchapi.SetWaitableTimerEx
 title: SetWaitableTimerEx function (synchapi.h)
 description: Activates the specified waitable timer and provides context information for the timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
+helpviewer_keywords: ["SetWaitableTimerEx","SetWaitableTimerEx function","base.setwaitabletimerex","synchapi/SetWaitableTimerEx","winbase/SetWaitableTimerEx"]
 old-location: base\setwaitabletimerex.htm
 tech.root: Sync
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
@@ -65,7 +66,7 @@ Activates the specified waitable timer and provides context information for the 
 
 ### -param hTimer [in]
 
-A handle to the timer object. The [CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)a> or [OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a> function returns this handle.
+A handle to the timer object. The [CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) or [OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw) function returns this handle.
 
 The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.

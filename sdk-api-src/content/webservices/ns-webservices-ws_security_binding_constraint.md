@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_SECURITY_BINDING_CONSTRAINT
 title: WS_SECURITY_BINDING_CONSTRAINT (webservices.h)
 description: The base class for all security binding constraint structures.
+helpviewer_keywords: ["WS_SECURITY_BINDING_CONSTRAINT","WS_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_SECURITY_BINDING_CONSTRAINT","wsw.ws_security_binding_constraint"]
 old-location: wsw\ws_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: d79795ea-6780-4d13-9d40-bd1ea7cd5113
@@ -69,7 +70,7 @@ This value depends on which type of security binding constraint that is used.
 A set of binding-specific security property constraints.
                 
 
-See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_binding_property_constraint">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
+See <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_property_constraint">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
                 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Record
 title: IMDSPDeviceControl::Record (mswmdm.h)
-description: The Record method begins recording from the device's external record input at the current seek position. The Seek method must be called first.
+description: The Record method begins recording from the device's external record input at the current seek position. The Seek method must be called first.helpviewer_keywords: ["IMDSPDeviceControl interface [windows Media Device Manager]","Record method","IMDSPDeviceControl.Record","IMDSPDeviceControl::Record","IMDSPDeviceControlRecord","Record","Record method [windows Media Device Manager]","Record method [windows Media Device Manager]","IMDSPDeviceControl interface","mswmdm/IMDSPDeviceControl::Record","wmdm.imdspdevicecontrol_record"]
 old-location: wmdm\imdspdevicecontrol_record.htm
 tech.root: WMDM
 ms.assetid: 6cd99cfc-1961-4369-9ce9-2cdd0136d181

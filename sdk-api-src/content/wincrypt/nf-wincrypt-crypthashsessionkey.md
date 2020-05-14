@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptHashSessionKey
 title: CryptHashSessionKey function (wincrypt.h)
-description: Computes the cryptographic hash of a session key object.
+description: Computes the cryptographic hash of a session key object.helpviewer_keywords: ["CRYPT_LITTLE_ENDIAN","CryptHashSessionKey","CryptHashSessionKey function [Security]","_crypto2_crypthashsessionkey","security.crypthashsessionkey","wincrypt/CryptHashSessionKey"]
 old-location: security\crypthashsessionkey.htm
 tech.root: SecCrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a

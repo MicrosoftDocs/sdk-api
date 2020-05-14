@@ -1,7 +1,7 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0010
 title: ADS_HOLD (iads.h)
-description: The ADS_HOLD structure is an ADSI representation of the Hold attribute syntax.
+description: The ADS_HOLD structure is an ADSI representation of the Hold attribute syntax.helpviewer_keywords: ["*PADS_HOLD","ADS_HOLD","ADS_HOLD structure [ADSI]","PADS_HOLD","PADS_HOLD structure pointer [ADSI]","_ds_ads_hold","adsi.ads__hold","adsi.ads_hold","iads/ADS_HOLD","iads/PADS_HOLD"]
 old-location: adsi\ads_hold.htm
 tech.root: adsi
 ms.assetid: f1ef87f0-b024-4d16-873b-a68bb62f4206

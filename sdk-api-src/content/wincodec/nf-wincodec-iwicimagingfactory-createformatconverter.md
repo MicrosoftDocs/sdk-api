@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFormatConverter
 title: IWICImagingFactory::CreateFormatConverter (wincodec.h)
-description: Creates a new instance of the IWICFormatConverter class.
+description: Creates a new instance of the IWICFormatConverter class.helpviewer_keywords: ["CreateFormatConverter","CreateFormatConverter method [Windows Imaging Component]","CreateFormatConverter method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateFormatConverter method","IWICImagingFactory.CreateFormatConverter","IWICImagingFactory::CreateFormatConverter","_wic_codec_iwicimagingfactory_createformatconverter","wic._wic_codec_iwicimagingfactory_createformatconverter","wincodec/IWICImagingFactory::CreateFormatConverter"]
 old-location: wic\_wic_codec_iwicimagingfactory_createformatconverter.htm
 tech.root: wic
 ms.assetid: 50ceabdf-574e-4083-86a4-dddd4da06bbf

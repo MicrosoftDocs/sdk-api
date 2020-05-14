@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingInterfaceType
 title: FsrmFileStreamingInterfaceType (fsrmenums.h)
-description: Defines the possible streaming interface types.
+description: Defines the possible streaming interface types.helpviewer_keywords: ["FsrmFileStreamingInterfaceType","FsrmFileStreamingInterfaceType enumeration [File Server Resource Manager]","FsrmFileStreamingInterfaceType_ILockBytes","FsrmFileStreamingInterfaceType_IStream","FsrmFileStreamingInterfaceType_Unknown","fs.fsrmfilestreaminginterfacetype","fsrm.fsrmfilestreaminginterfacetype","fsrmenums/FsrmFileStreamingInterfaceType","fsrmenums/FsrmFileStreamingInterfaceType_ILockBytes","fsrmenums/FsrmFileStreamingInterfaceType_IStream","fsrmenums/FsrmFileStreamingInterfaceType_Unknown"]
 old-location: fsrm\fsrmfilestreaminginterfacetype.htm
 tech.root: fsrm
 ms.assetid: 182dde15-f8d6-42ab-a9d2-85f0a0a4d670

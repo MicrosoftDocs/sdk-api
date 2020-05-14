@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHPropStgCreate
 title: SHPropStgCreate function (shlobj_core.h)
-description: Ensures proper handling of code page retrieval or assignment for the requested property set operation.
+description: Ensures proper handling of code page retrieval or assignment for the requested property set operation.helpviewer_keywords: ["CREATE_ALWAYS","CREATE_NEW","OPEN_ALWAYS","OPEN_EXISTING","SHPropStgCreate","SHPropStgCreate function [Windows Properties]","_win32_SHPropStgCreate","properties.SHPropStgCreate","shell.SHPropStgCreate","shlobj_core/SHPropStgCreate"]
 old-location: properties\SHPropStgCreate.htm
 tech.root: properties
 ms.assetid: fd99e04e-ef96-4357-9226-da6604fb0e84

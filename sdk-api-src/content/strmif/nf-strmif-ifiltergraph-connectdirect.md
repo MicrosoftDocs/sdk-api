@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFilterGraph.ConnectDirect
 title: IFilterGraph::ConnectDirect (strmif.h)
-description: The ConnectDirect method connects the two pins directly (without intervening filters).
+description: The ConnectDirect method connects the two pins directly (without intervening filters).helpviewer_keywords: ["ConnectDirect","ConnectDirect method [DirectShow]","ConnectDirect method [DirectShow]","IFilterGraph interface","IFilterGraph interface [DirectShow]","ConnectDirect method","IFilterGraph.ConnectDirect","IFilterGraph::ConnectDirect","IFilterGraphConnectDirect","dshow.ifiltergraph_connectdirect","strmif/IFilterGraph::ConnectDirect"]
 old-location: dshow\ifiltergraph_connectdirect.htm
 tech.root: DirectShow
 ms.assetid: fb17bd98-dd6b-4fad-9b56-9cab10725b28

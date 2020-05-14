@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_FDC
 title: IBDA_FDC (bdaiface.h)
-description: Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an out-of-band channel that carries configuration and control messages.
+description: Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an out-of-band channel that carries configuration and control messages.helpviewer_keywords: ["IBDA_FDC","IBDA_FDC interface [Microsoft TV Technologies]","IBDA_FDC interface [Microsoft TV Technologies]","described","bdaiface/IBDA_FDC","mstv.ibda_fdc"]
 old-location: mstv\ibda_fdc.htm
 tech.root: mstv
 ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892

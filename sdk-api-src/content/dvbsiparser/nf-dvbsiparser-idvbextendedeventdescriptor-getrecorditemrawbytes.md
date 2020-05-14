@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetRecordItemRawBytes
 title: IDvbExtendedEventDescriptor::GetRecordItemRawBytes (dvbsiparser.h)
-description: Gets the raw data from the current item in a Digital Video Broadcast (DVB) extended event descriptor.
+description: Gets the raw data from the current item in a Digital Video Broadcast (DVB) extended event descriptor.helpviewer_keywords: ["GetRecordItemRawBytes","GetRecordItemRawBytes method [Microsoft TV Technologies]","GetRecordItemRawBytes method [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","GetRecordItemRawBytes method","IDvbExtendedEventDescriptor.GetRecordItemRawBytes","IDvbExtendedEventDescriptor::GetRecordItemRawBytes","dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemRawBytes","mstv.idvbextendedeventdescriptor_getrecorditemrawbytes"]
 old-location: mstv\idvbextendedeventdescriptor_getrecorditemrawbytes.htm
 tech.root: mstv
 ms.assetid: ed3046ad-b987-479a-a2ba-d761b2d83c86

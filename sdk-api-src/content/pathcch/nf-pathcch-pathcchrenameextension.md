@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchRenameExtension
 title: PathCchRenameExtension function (pathcch.h)
-description: Replaces a file name's extension at the end of a path string with a new extension.
+description: Replaces a file name's extension at the end of a path string with a new extension.helpviewer_keywords: ["PathCchRenameExtension","PathCchRenameExtension function [Windows Shell]","pathcch/PathCchRenameExtension","shell.PathCchRenameExtension"]
 old-location: shell\PathCchRenameExtension.htm
 tech.root: shell
 ms.assetid: 79cd9499-03b7-4482-abd3-a42edd1b2b67
@@ -57,7 +57,7 @@ Replaces a file name's extension at the end of a path string with a new extensio
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 

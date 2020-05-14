@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Login
 title: IWMPContentPartner::Login (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Login method logs the user in to the online store.
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Login method logs the user in to the online store.helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","Login method","IWMPContentPartner.Login","IWMPContentPartner::Login","IWMPContentPartnerLogin","Login","Login method [Windows Media Player]","Login method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::Login","wmp.iwmpcontentpartner_login"]
 old-location: wmp\iwmpcontentpartner_login.htm
 tech.root: WMP
 ms.assetid: 7e43b200-1922-42ad-b785-6643e0215c61

@@ -2,6 +2,7 @@
 UID: NC:winwlx.PWLX_QUERY_CONSOLESWITCH_CREDENTIALS
 title: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS (winwlx.h)
 description: Called by GINA to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
+helpviewer_keywords: ["PWLX_QUERY_CONSOLESWITCH_CREDENTIALS","PWLX_QUERY_CONSOLESWITCH_CREDENTIALS callback","WlxQueryConsoleSwitchCredentials","WlxQueryConsoleSwitchCredentials callback function [Security]","_gina_wlxqueryconsoleswitchcredentials","security.wlxqueryconsoleswitchcredentials","winwlx/WlxQueryConsoleSwitchCredentials"]
 old-location: security\wlxqueryconsoleswitchcredentials.htm
 tech.root: SecAuthN
 ms.assetid: cbb9342e-c06a-4040-9c6c-c761195734a4
@@ -60,7 +61,7 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 ### -param pCred [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> structure to be filled with credentials information.
+<a href="/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> structure to be filled with credentials information.
 
 
 ## -returns

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IRpcOptions.Query
 title: IRpcOptions::Query (objidl.h)
-description: Retrieves the value of an RPC binding option property.
+description: Retrieves the value of an RPC binding option property.helpviewer_keywords: ["IRpcOptions interface [COM]","Query method","IRpcOptions.Query","IRpcOptions::Query","Query","Query method [COM]","Query method [COM]","IRpcOptions interface","_com_irpcoptions_query","com.irpcoptions_query","objidlbase/IRpcOptions::Query"]
 old-location: com\irpcoptions_query.htm
 tech.root: com
 ms.assetid: 82f59cad-3718-4202-99d3-c3aafb8dbf56

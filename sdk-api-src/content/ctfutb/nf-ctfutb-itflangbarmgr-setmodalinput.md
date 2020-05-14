@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.SetModalInput
 title: ITfLangBarMgr::SetModalInput (ctfutb.h)
-description: ITfLangBarMgr::SetModalInput method
+description: ITfLangBarMgr::SetModalInput methodhelpviewer_keywords: ["ITfLangBarMgr interface [Text Services Framework]","SetModalInput method","ITfLangBarMgr.SetModalInput","ITfLangBarMgr::SetModalInput","SetModalInput","SetModalInput method [Text Services Framework]","SetModalInput method [Text Services Framework]","ITfLangBarMgr interface","_tsf_itflangbarmgr_setmodalinput_ref","ctfutb/ITfLangBarMgr::SetModalInput","tsf.itflangbarmgr_setmodalinput"]
 old-location: tsf\itflangbarmgr_setmodalinput.htm
 tech.root: TSF
 ms.assetid: 754376e0-e7e4-4bd2-b89c-43d211634c65
@@ -48,31 +48,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Should not be used.
 
 ## -parameters
 
-
-
-
 ### -param pSink [in]
-
 
 ### -param dwThreadId [in]
 
+Should not be used.
 
 ### -param dwFlags [in]
 
+Should not be used.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 

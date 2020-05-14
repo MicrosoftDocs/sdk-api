@@ -2,6 +2,7 @@
 UID: NF:d2d1_1.ID2D1CommandSink.PushAxisAlignedClip
 title: ID2D1CommandSink::PushAxisAlignedClip (d2d1_1.h)
 description: Pushes a clipping rectangle onto the clip and layer stack.
+helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","PushAxisAlignedClip method","ID2D1CommandSink.PushAxisAlignedClip","ID2D1CommandSink::PushAxisAlignedClip","PushAxisAlignedClip","PushAxisAlignedClip method [Direct2D]","PushAxisAlignedClip method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::PushAxisAlignedClip","direct2d.id2d1commandsink_pushaxisalignedclip"]
 old-location: direct2d\id2d1commandsink_pushaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 09e20780-2ebd-417e-9953-421f49dba4dd
@@ -105,7 +106,7 @@ If the current world transform is not preserving the axis, <i>clipRectangle</i> 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">ID2D1RenderTarget::PushAxisAlignedClip</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">ID2D1RenderTarget::PushAxisAlignedClip</a>
  
 
  

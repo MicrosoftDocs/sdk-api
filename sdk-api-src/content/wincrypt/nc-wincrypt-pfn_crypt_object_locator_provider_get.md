@@ -2,6 +2,7 @@
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET (wincrypt.h)
 description: Retrieves an object.
+helpviewer_keywords: ["CRYPT_OBJECT_LOCATOR_FIRST_RESERVED_USER_NAME_TYPE","CRYPT_OBJECT_LOCATOR_LAST_RESERVED_NAME_TYPE","CRYPT_OBJECT_LOCATOR_LAST_RESERVED_USER_NAME_TYPE","CRYPT_OBJECT_LOCATOR_SPN_NAME_TYPE","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback","PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET callback function [Security]","security.pfn_crypt_object_locator_provider_get","wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET"]
 old-location: security\pfn_crypt_object_locator_provider_get.htm
 tech.root: SecCrypto
 ms.assetid: 2073915D-F23B-41BD-8376-4493FE9D62C6
@@ -64,7 +65,7 @@ Pointer to an optional buffer defined by this provider and returned by the <a hr
 
 ### -param pIdentifier [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the object identifier. This value should always be <b>NULL</b> on the first call to this function.
+Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the object identifier. This value should always be <b>NULL</b> on the first call to this function.
 
 
 ### -param dwNameType [in]
@@ -90,7 +91,7 @@ The name format of the <i>pNameBlob</i> parameter. Possible values are listed be
 
 ### -param pNameBlob [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
+Pointer to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPTOAPI_BLOB</a> structure that contains the name the calling application is using to uniquely identify the object. Your provider uses this name to locate the requested object. Schannel currently submits a DNS (domain name system) host name encoded in UTF8 with IDN names converted from punycode.
 
 
 ### -param *ppbContent [out]
@@ -149,7 +150,7 @@ Because many host names can be mapped to one object, your provider can use the <
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
+<a href="/windows/win32/api/wincrypt/ns-wincrypt-crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
 
 
 

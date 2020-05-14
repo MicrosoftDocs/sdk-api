@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.IShellFolderBand.InitializeSFB
 title: IShellFolderBand::InitializeSFB (shlobj.h)
-description: Initializes an IShellFolderBand object.
+description: Initializes an IShellFolderBand object.helpviewer_keywords: ["IShellFolderBand interface [Windows Shell]","InitializeSFB method","IShellFolderBand.InitializeSFB","IShellFolderBand::InitializeSFB","InitializeSFB","InitializeSFB method [Windows Shell]","InitializeSFB method [Windows Shell]","IShellFolderBand interface","_win32_IShellFolderBand_InitializeSFB","shell.IShellFolderBand_InitializeSFB","shlobj/IShellFolderBand::InitializeSFB"]
 old-location: shell\IShellFolderBand_InitializeSFB.htm
 tech.root: shell
 ms.assetid: 2f0582d2-b079-4b97-8da0-211b6ef1b8f3

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.GetMiddleInset
 title: AdjustableArrowCap::GetMiddleInset (gdipluslinecaps.h)
-description: The AdjustableArrowCap::GetMiddleInset method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.
+description: The AdjustableArrowCap::GetMiddleInset method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.helpviewer_keywords: ["AdjustableArrowCap class [GDI+]","GetMiddleInset method","AdjustableArrowCap.GetMiddleInset","AdjustableArrowCap::GetMiddleInset","GetMiddleInset","GetMiddleInset method [GDI+]","GetMiddleInset method [GDI+]","AdjustableArrowCap class","_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getmiddleinset.htm

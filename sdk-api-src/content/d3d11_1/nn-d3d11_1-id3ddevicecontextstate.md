@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_1.ID3DDeviceContextState
 title: ID3DDeviceContextState (d3d11_1.h)
-description: The ID3DDeviceContextState interface represents a context state object, which holds state and behavior information about a Microsoft Direct3D device.
+description: The ID3DDeviceContextState interface represents a context state object, which holds state and behavior information about a Microsoft Direct3D device.helpviewer_keywords: ["ID3DDeviceContextState","ID3DDeviceContextState interface [Direct3D 11]","ID3DDeviceContextState interface [Direct3D 11]","described","d3d11_1/ID3DDeviceContextState","direct3d11.id3ddevicecontextstate"]
 old-location: direct3d11\id3ddevicecontextstate.htm
 tech.root: direct3d11
 ms.assetid: A8B9CADC-A9C7-4691-BB5C-3C12FF638C98

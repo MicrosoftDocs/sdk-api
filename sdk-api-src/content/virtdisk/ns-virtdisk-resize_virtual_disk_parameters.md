@@ -1,7 +1,7 @@
 ---
 UID: NS:virtdisk._RESIZE_VIRTUAL_DISK_PARAMETERS
 title: RESIZE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-description: Contains the parameters for a ResizeVirtualDisk function.
+description: Contains the parameters for a ResizeVirtualDisk function.helpviewer_keywords: ["*PRESIZE_VIRTUAL_DISK_PARAMETERS","PRESIZE_VIRTUAL_DISK_PARAMETERS","PRESIZE_VIRTUAL_DISK_PARAMETERS structure pointer [Virtual Storage]","RESIZE_VIRTUAL_DISK_PARAMETERS","RESIZE_VIRTUAL_DISK_PARAMETERS structure [Virtual Storage]","_RESIZE_VIRTUAL_DISK_PARAMETERS","virtdisk/PRESIZE_VIRTUAL_DISK_PARAMETERS","virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS","vstor.resize_virtual_disk_parameters"]
 old-location: vstor\resize_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a

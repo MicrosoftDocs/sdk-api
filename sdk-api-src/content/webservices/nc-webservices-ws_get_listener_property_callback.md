@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_GET_LISTENER_PROPERTY_CALLBACK
 title: WS_GET_LISTENER_PROPERTY_CALLBACK (webservices.h)
-description: Handles the WsGetListenerProperty call for a WS_CUSTOM_CHANNEL_BINDING.
+description: Handles the WsGetListenerProperty call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_GET_LISTENER_PROPERTY_CALLBACK","WS_GET_LISTENER_PROPERTY_CALLBACK callback","WS_GET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows]","webservices/WS_GET_LISTENER_PROPERTY_CALLBACK","wsw.ws_get_listener_property_callback"]
 old-location: wsw\ws_get_listener_property_callback.htm
 tech.root: wsw
 ms.assetid: c2f79c5c-4a4f-4a45-ac70-432f818e7b46

@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.UnmapViewOfFile2
 title: UnmapViewOfFile2 function (memoryapi.h)
-description: Unmaps a previously mapped view of a file or a pagefile-backed section.
+description: Unmaps a previously mapped view of a file or a pagefile-backed section.helpviewer_keywords: ["MEM_PRESERVE_PLACEHOLDER","MEM_UNMAP_WITH_TRANSIENT_BOOST","UnmapViewOfFile2","UnmapViewOfFile2 function","base.unmapviewoffile2","winbase/UnmapViewOfFile2"]
 old-location: base\unmapviewoffile2.htm
 tech.root: Memory
 ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7

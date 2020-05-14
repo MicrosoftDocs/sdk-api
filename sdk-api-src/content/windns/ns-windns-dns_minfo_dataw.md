@@ -2,6 +2,7 @@
 UID: NS:windns.__unnamed_struct_7
 title: DNS_MINFO_DATAW (windns.h)
 description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
+helpviewer_keywords: ["*PDNS_MINFO_DATA","*PDNS_MINFO_DATAW","DNS_MINFO_DATA","DNS_MINFO_DATA structure [DNS]","DNS_MINFO_DATAW","PDNS_MINFO_DATA","PDNS_MINFO_DATA structure pointer [DNS]","_dns_dns_minfo_data","dns.dns_minfo_data","windns/DNS_MINFO_DATA","windns/PDNS_MINFO_DATA"]
 old-location: dns\dns_minfo_data.htm
 tech.root: DNS
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
@@ -74,7 +75,7 @@ A pointer to a string that represents the FQDN of the mailbox to receive error m
 
 The 
 <b>DNS_MINFO_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -84,7 +85,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

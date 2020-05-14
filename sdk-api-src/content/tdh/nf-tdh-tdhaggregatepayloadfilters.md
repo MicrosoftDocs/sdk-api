@@ -1,7 +1,7 @@
 ---
 UID: NF:tdh.TdhAggregatePayloadFilters
 title: TdhAggregatePayloadFilters function (tdh.h)
-description: Aggregates multiple payload filters for a single provider into a single data structure for use with the EnableTraceEx2 function.
+description: Aggregates multiple payload filters for a single provider into a single data structure for use with the EnableTraceEx2 function.helpviewer_keywords: ["TdhAggregatePayloadFilters","TdhAggregatePayloadFilters function [ETW]","etw.tdhaggregatepayloadfilters","tdh/TdhAggregatePayloadFilters"]
 old-location: etw\tdhaggregatepayloadfilters.htm
 tech.root: ETW
 ms.assetid: B9093E64-1796-4AF2-AB45-84F278813B66

@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupParseInvitation
 title: PeerGroupParseInvitation function (p2p.h)
-description: The PeerGroupParseInvitation function returns a PEER_INVITATION_INFO structure with the details of a specific invitation.
+description: The PeerGroupParseInvitation function returns a PEER_INVITATION_INFO structure with the details of a specific invitation.helpviewer_keywords: ["PeerGroupParseInvitation","PeerGroupParseInvitation function [Peer Networking]","p2p.peergroupparseinvitation","p2p/PeerGroupParseInvitation"]
 old-location: p2p\peergroupparseinvitation.htm
 tech.root: P2PSdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d

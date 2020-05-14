@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_CREDENTIALS2_
 title: IKEEXT_CREDENTIALS2 (iketypes.h)
 description: Is used to store multiple credential pairs.
+helpviewer_keywords: ["IKEEXT_CREDENTIALS2","IKEEXT_CREDENTIALS2 structure [Filtering]","fwp.ikeext_credentials2","iketypes/IKEEXT_CREDENTIALS2"]
 old-location: fwp\ikeext_credentials2.htm
 tech.root: fwp
 ms.assetid: 4099b6e7-0b3b-40ea-821c-3ff28a6f788f
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_CREDENTIALS2</b> structure is used to store multiple credential pairs.
-[IKEEXT_CREDENTIALS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials1)a> is available. For Windows Vista, [IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0)a>  is available.</div><div> </div>
+[IKEEXT_CREDENTIALS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials1) is available. For Windows Vista, [IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0)  is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,16 +62,16 @@ The <b>IKEEXT_CREDENTIALS2</b> structure is used to store multiple credential pa
 
 Type: <b>UINT32</b>
 
-Number of [IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)a> structures in the array.
+Number of [IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2) structures in the array.
 
 
 ### -field credentials
 
-Type: [IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)a>*</b>
+Type: [IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)*</b>
 
 [size_is(numCredentials)]
 
-Pointer to an array of [IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)a> structures.
+Pointer to an array of [IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2) structures.
 
 
 ## -remarks
@@ -95,7 +96,7 @@ is index 1.
 
 
 
-[IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)a>
+[IKEEXT_CREDENTIAL_PAIR2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair2)
 
 
 

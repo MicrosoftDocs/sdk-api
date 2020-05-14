@@ -2,6 +2,7 @@
 UID: NF:iads.IADsObjectOptions.SetOption
 title: IADsObjectOptions::SetOption (iads.h)
 description: Sets a provider-specific option for manipulating a directory object.
+helpviewer_keywords: ["IADsObjectOptions interface [ADSI]","SetOption method","IADsObjectOptions.SetOption","IADsObjectOptions::SetOption","SetOption","SetOption method [ADSI]","SetOption method [ADSI]","IADsObjectOptions interface","_ds_iadsobjectoptions_setoption","adsi.iadsobjectoptions__setoption","adsi.iadsobjectoptions_setoption","iads/IADsObjectOptions::SetOption"]
 old-location: adsi\iadsobjectoptions_setoption.htm
 tech.root: adsi
 ms.assetid: e6e43c99-fc8b-4f34-82cf-8cf30c506859
@@ -59,7 +60,7 @@ The <b>IADsOptions.SetOption</b> method sets a provider-specific option for mani
 
 ### -param lnOption
 
-Indicates the provider-specific option to set. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> enumeration except <b>ADS_OPTION_SERVERNAME</b> or <b>ADS_OPTION_MUTUAL_AUTH_STATUS</b>.
+Indicates the provider-specific option to set. This parameter can be any value in the  <a href="/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> enumeration except <b>ADS_OPTION_SERVERNAME</b> or <b>ADS_OPTION_MUTUAL_AUTH_STATUS</b>.
 
 
 ### -param vValue

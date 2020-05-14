@@ -1,7 +1,7 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_CHANGE
 title: SEARCH_ITEM_CHANGE (searchapi.h)
-description: Specifies the changes to an indexed item.
+description: Specifies the changes to an indexed item.helpviewer_keywords: ["SEARCH_ITEM_CHANGE","SEARCH_ITEM_CHANGE structure [search]","_search_SEARCH_ITEM_CHANGE","search._search_SEARCH_ITEM_CHANGE","searchapi/SEARCH_ITEM_CHANGE"]
 old-location: search\_search_SEARCH_ITEM_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm

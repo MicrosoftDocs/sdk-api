@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDownStreamHypotheses
 title: INetDiagHelper::GetDownStreamHypotheses (ndhelper.h)
-description: Asks the Helper Class Extension to generate hypotheses.
+description: Asks the Helper Class Extension to generate hypotheses.helpviewer_keywords: ["GetDownStreamHypotheses","GetDownStreamHypotheses method [NDF]","GetDownStreamHypotheses method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetDownStreamHypotheses method","INetDiagHelper.GetDownStreamHypotheses","INetDiagHelper::GetDownStreamHypotheses","ndf.inetdiaghelpe_getdownstreamhypotheses","ndhelper/INetDiagHelper::GetDownStreamHypotheses"]
 old-location: ndf\inetdiaghelpe_getdownstreamhypotheses.htm
 tech.root: NDF
 ms.assetid: ac26fbb5-d30f-4b1f-b432-043a07bfa853

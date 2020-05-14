@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreRenameItem
 title: IFileOperationProgressSink::PreRenameItem (shobjidl_core.h)
 description: Performs caller-implemented actions before the rename process for each item begins.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreRenameItem method","IFileOperationProgressSink.PreRenameItem","IFileOperationProgressSink::PreRenameItem","PreRenameItem","PreRenameItem method [Windows Shell]","PreRenameItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreRenameItem","shell.IFileOperationProgressSink_PreRenameItem","shobjidl_core/IFileOperationProgressSink::PreRenameItem"]
 old-location: shell\IFileOperationProgressSink_PreRenameItem.htm
 tech.root: shell
 ms.assetid: 444fe15b-cbed-46d8-ae25-ab6a569d18e0
@@ -61,7 +62,7 @@ Performs caller-implemented actions before the rename process for each item begi
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that control the operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that control the operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiItem [in]

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioAsyncEnumDatabases
 title: WinBioAsyncEnumDatabases function (winbio.h)
-description: Asynchronously enumerates all registered databases that match a specified type.
+description: Asynchronously enumerates all registered databases that match a specified type.helpviewer_keywords: ["WinBioAsyncEnumDatabases","WinBioAsyncEnumDatabases function [Windows Biometric Framework API]","secbiomet.winbioasyncenumdatabases","winbio/WinBioAsyncEnumDatabases"]
 old-location: secbiomet\winbioasyncenumdatabases.htm
 tech.root: SecBioMet
 ms.assetid: 405AB590-B579-4B61-9CE7-BF21D9E56600

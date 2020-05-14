@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.stop
 title: IWMPSyncDevice::stop (wmp.h)
-description: The stop method ends synchronization.
+description: The stop method ends synchronization.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","stop method","IWMPSyncDevice.stop","IWMPSyncDevice::stop","IWMPSyncDevicestop","stop","stop method [Windows Media Player]","stop method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_stop","wmp/IWMPSyncDevice::stop"]
 old-location: wmp\iwmpsyncdevice_stop.htm
 tech.root: WMP
 ms.assetid: 30e6787e-851b-420c-934c-5f8e5e4d83df

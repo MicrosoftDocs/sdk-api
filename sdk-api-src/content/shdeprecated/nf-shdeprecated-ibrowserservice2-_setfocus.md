@@ -2,6 +2,7 @@
 UID: NF:shdeprecated.IBrowserService2._SetFocus
 title: IBrowserService2::_SetFocus (shdeprecated.h)
 description: Deprecated. Sets the focus on a toolbar or on the browser's view window. Called when translating accelerators through TranslateAcceleratorSB or when IBrowserService2::v_MayGetNextToolbarFocus fails.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_SetFocus method","IBrowserService2._SetFocus","IBrowserService2::_SetFocus","_SetFocus","_SetFocus method [Windows Shell]","_SetFocus method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_SetFocus","shell.IBrowserService2__SetFocus","zone_IBrowserService2__SetFocus"]
 old-location: shell\IBrowserService2__SetFocus.htm
 tech.root: shell
 ms.assetid: 4a69c3f4-49e0-4a06-8cf2-dc8db640f58f
@@ -62,7 +63,7 @@ Deprecated. Sets the focus on a toolbar or on the browser's view window. Called 
 
 Type: <b>LPTOOLBARITEM</b>
 
-A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem)a> structure that specifies a browser toolbar item.
+A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem) structure that specifies a browser toolbar item.
 
 
 ### -param hwnd [in]

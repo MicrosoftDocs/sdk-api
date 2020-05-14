@@ -1,7 +1,7 @@
 ---
 UID: NE:netsh.NS_CMD_FLAGS
 title: NS_CMD_FLAGS (netsh.h)
-description: Specifies command flags available in NetShell.
+description: Specifies command flags available in NetShell.helpviewer_keywords: ["CMD_FLAG_HIDDEN","CMD_FLAG_INTERACTIVE","CMD_FLAG_LIMIT_MASK","CMD_FLAG_LOCAL","CMD_FLAG_ONLINE","CMD_FLAG_PRIORITY","CMD_FLAG_PRIVATE","NS_CMD_FLAGS","NS_CMD_FLAGS enumeration [NetShell]","netsh/CMD_FLAG_HIDDEN","netsh/CMD_FLAG_INTERACTIVE","netsh/CMD_FLAG_LIMIT_MASK","netsh/CMD_FLAG_LOCAL","netsh/CMD_FLAG_ONLINE","netsh/CMD_FLAG_PRIORITY","netsh/CMD_FLAG_PRIVATE","netsh/NS_CMD_FLAGS","netshell.ns_cmd_flags"]
 old-location: netshell\ns_cmd_flags.htm
 tech.root: netshell
 ms.assetid: ecf4580a-c03c-4589-9cf8-f6498a3d33d9

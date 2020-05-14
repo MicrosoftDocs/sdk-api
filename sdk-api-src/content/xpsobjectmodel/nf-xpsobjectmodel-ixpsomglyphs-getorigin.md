@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetOrigin
 title: IXpsOMGlyphs::GetOrigin (xpsobjectmodel.h)
 description: Gets the starting position of the text.
+helpviewer_keywords: ["GetOrigin","GetOrigin method [XPS Documents and Packaging]","GetOrigin method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetOrigin method","IXpsOMGlyphs.GetOrigin","IXpsOMGlyphs::GetOrigin","xps.ixpsomglyphs_getorigin","xpsobjectmodel/IXpsOMGlyphs::GetOrigin"]
 old-location: xps\ixpsomglyphs_getorigin.htm
 tech.root: printdocs
 ms.assetid: ec661cff-4671-401b-9c77-5036549762af
@@ -59,7 +60,7 @@ Gets the starting position of the text.
 
 ### -param origin [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that receives the starting position of the text.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that receives the starting position of the text.
 
 
 ## -returns
@@ -127,7 +128,7 @@ In the units of the effective coordinate space, the origin specifies the x and y
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

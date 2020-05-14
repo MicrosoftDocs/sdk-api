@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorInvokeConfigUI
 title: EapMethodAuthenticatorInvokeConfigUI function (eapmethodauthenticatorapis.h)
 description: Defines a function that raises the EAP method's connection configuration user interface dialog box on the client.
+helpviewer_keywords: ["EapMethodAuthenticatorInvokeConfigUI","EapMethodAuthenticatorInvokeConfigUI function [EAPHost]","eaphost.eapmethodauthenticatorinvokeconfigui","eapmethodauthenticatorapis/EapMethodAuthenticatorInvokeConfigUI"]
 old-location: eaphost\eapmethodauthenticatorinvokeconfigui.htm
 tech.root: eaphost
 ms.assetid: 6d3083a6-1bd2-4dbf-9f8d-1a6e465188af
@@ -73,7 +74,7 @@ A handle to the parent window which will launch the connection configuration use
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param pwszMachineName [in]
@@ -112,7 +113,7 @@ A pointer to the affdress of an <a href="https://docs.microsoft.com/windows/desk
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
  
 
  

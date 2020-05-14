@@ -2,6 +2,7 @@
 UID: NS:shobjidl_core.KNOWNFOLDER_DEFINITION
 title: KNOWNFOLDER_DEFINITION (shobjidl_core.h)
 description: Defines the specifics of a known folder.
+helpviewer_keywords: ["KNOWNFOLDER_DEFINITION","KNOWNFOLDER_DEFINITION structure [Windows Shell]","_shell_KNOWNFOLDER_DEFINITION","shell.KNOWNFOLDER_DEFINITION","shobjidl_core/KNOWNFOLDER_DEFINITION"]
 old-location: shell\KNOWNFOLDER_DEFINITION.htm
 tech.root: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b
@@ -164,9 +165,9 @@ Optional. Default file system attributes given to the folder when it is created.
 
 ### -field kfdFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_definition_flags">KF_DEFINITION_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_definition_flags">KF_DEFINITION_FLAGS</a></b>
 
-Optional. One of more values from the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_definition_flags">KF_DEFINITION_FLAGS</a> enumeration that allow you to restrict redirection, allow PC-to-PC roaming, and control the time at which the known folder is created. Set to 0 if not needed.
+Optional. One of more values from the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_definition_flags">KF_DEFINITION_FLAGS</a> enumeration that allow you to restrict redirection, allow PC-to-PC roaming, and control the time at which the known folder is created. Set to 0 if not needed.
 
 
 ### -field ftidType

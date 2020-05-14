@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerQueryCredentialInputFields
 title: EapPeerQueryCredentialInputFields function (eapmethodpeerapis.h)
 description: Defines the implementation of an EAP method-specific function that obtains the EAP Single-Sign-On (SSO) credential input fields for an EAP method.
+helpviewer_keywords: ["EapPeerQueryCredentialInputFields","EapPeerQueryCredentialInputFields function [EAPHost]","eaphost.eappeerquerycredentialinputfields","eapmethodpeerapis/EapPeerQueryCredentialInputFields"]
 old-location: eaphost\eappeerquerycredentialinputfields.htm
 tech.root: eaphost
 ms.assetid: 8ae42352-e972-4094-bf03-90a2f20ab641
@@ -69,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwEapConnDataSize [in]
@@ -112,7 +113,7 @@ A Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

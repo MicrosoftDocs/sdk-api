@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Session_EnumerateClasses
 title: MI_Session_EnumerateClasses function (mi.h)
-description: Enumerates the classes of a specified session.
+description: Enumerates the classes of a specified session.helpviewer_keywords: ["MI_Session_EnumerateClasses","MI_Session_EnumerateClasses function [Windows Management Infrastructure (MI)]","mi/MI_Session_EnumerateClasses","wmi_v2.mi_session_enumerateclasses"]
 old-location: wmi_v2\mi_session_enumerateclasses.htm
 tech.root: wmi_v2
 ms.assetid: eab78b29-2066-45ba-8e94-eb5dba322c23

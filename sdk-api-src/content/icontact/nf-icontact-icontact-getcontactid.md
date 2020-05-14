@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContact.GetContactID
 title: IContact::GetContactID (icontact.h)
-description: Retrieves the local computer unique contact ID.
+description: Retrieves the local computer unique contact ID.helpviewer_keywords: ["GetContactID","GetContactID method [Windows Contacts]","GetContactID method [Windows Contacts]","IContact interface","IContact interface [Windows Contacts]","GetContactID method","IContact.GetContactID","IContact::GetContactID","_wincontacts_IContact_GetContactID","icontact/IContact::GetContactID","wincontacts._wincontacts_IContact_GetContactID"]
 old-location: wincontacts\_wincontacts_IContact_GetContactID.htm
 tech.root: wincontacts
 ms.assetid: 25daa44f-2042-4116-b0dd-4f16857cbb0b

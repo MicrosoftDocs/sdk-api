@@ -1,7 +1,7 @@
 ---
 UID: NF:msaatext.ITfMSAAControl.SystemDisableMSAA
 title: ITfMSAAControl::SystemDisableMSAA (msaatext.h)
-description: ITfMSAAControl::SystemDisableMSAA method
+description: ITfMSAAControl::SystemDisableMSAA methodhelpviewer_keywords: ["ITfMSAAControl interface [Text Services Framework]","SystemDisableMSAA method","ITfMSAAControl.SystemDisableMSAA","ITfMSAAControl::SystemDisableMSAA","SystemDisableMSAA","SystemDisableMSAA method [Text Services Framework]","SystemDisableMSAA method [Text Services Framework]","ITfMSAAControl interface","msaatext/ITfMSAAControl::SystemDisableMSAA","tsf.itfmsaacontrol_systemdisablemsaa"]
 old-location: tsf\itfmsaacontrol_systemdisablemsaa.htm
 tech.root: TSF
 ms.assetid: 344cabbb-286e-415d-980f-349fb637a78d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Used by MSAA to halt TSF support of an MSAA client.
 
 ## -parameters
 

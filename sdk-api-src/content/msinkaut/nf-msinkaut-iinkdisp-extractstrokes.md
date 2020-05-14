@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDisp.ExtractStrokes
 title: IInkDisp::ExtractStrokes (msinkaut.h)
-description: Specifies the strokes to extract from an InkDisp Class and cut or copy into a new InkDisp Class, by using the known collection of strokes to determine which strokes to extract.
+description: Specifies the strokes to extract from an InkDisp Class and cut or copy into a new InkDisp Class, by using the known collection of strokes to determine which strokes to extract.helpviewer_keywords: ["1cb109e5-5193-4022-a3b1-ade9be1337e8","ExtractStrokes","ExtractStrokes method [Tablet PC]","ExtractStrokes method [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","ExtractStrokes method","IInkDisp.ExtractStrokes","IInkDisp::ExtractStrokes","msinkaut/IInkDisp::ExtractStrokes","tablet.inkdisp_extractstrokes"]
 old-location: tablet\inkdisp_extractstrokes.htm
 tech.root: tablet
 ms.assetid: 1cb109e5-5193-4022-a3b1-ade9be1337e8

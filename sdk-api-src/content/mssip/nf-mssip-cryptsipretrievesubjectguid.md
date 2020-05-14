@@ -1,7 +1,7 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuid
 title: CryptSIPRetrieveSubjectGuid function (mssip.h)
-description: Retrieves a GUID based on the header information in a specified file.
+description: Retrieves a GUID based on the header information in a specified file.helpviewer_keywords: ["CryptSIPRetrieveSubjectGuid","CryptSIPRetrieveSubjectGuid function [Security]","mssip/CryptSIPRetrieveSubjectGuid","security.cryptsipretrievesubjectguid"]
 old-location: security\cryptsipretrievesubjectguid.htm
 tech.root: SecCrypto
 ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09

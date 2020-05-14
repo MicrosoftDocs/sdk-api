@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.ShiftRight128
 title: ShiftRight128 function (winnt.h)
-description: Shifts 128-bit right.
+description: Shifts 128-bit right.helpviewer_keywords: ["ShiftRight128","ShiftRight128 function [Windows API]","winnt/ShiftRight128","winprog.shiftright128"]
 old-location: winprog\shiftright128.htm
 tech.root: WinProg
 ms.assetid: 36DF1BEE-A3C4-46A4-B512-0A8FC9F80EDE

@@ -1,7 +1,7 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE
 title: RECO_LATTICE (rectypes.h)
-description: Serves as the entry point into a lattice.
+description: Serves as the entry point into a lattice.helpviewer_keywords: ["0fab8928-1632-4011-9d1d-2be5f6c5f22d","RECO_LATTICE","RECO_LATTICE structure [Tablet PC]","rectypes/RECO_LATTICE","tablet.reco_lattice"]
 old-location: tablet\reco_lattice.htm
 tech.root: tablet
 ms.assetid: 0fab8928-1632-4011-9d1d-2be5f6c5f22d

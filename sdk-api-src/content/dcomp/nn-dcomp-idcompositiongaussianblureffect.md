@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionGaussianBlurEffect
 title: IDCompositionGaussianBlurEffect (dcomp.h)
-description: The Gaussian blur effect is used to blur an image by a Gaussian function, typically to reduce image noise and reduce detail.
+description: The Gaussian blur effect is used to blur an image by a Gaussian function, typically to reduce image noise and reduce detail.helpviewer_keywords: ["IDCompositionGaussianBlurEffect","IDCompositionGaussianBlurEffect interface [DirectComposition]","IDCompositionGaussianBlurEffect interface [DirectComposition]","described","dcomp/IDCompositionGaussianBlurEffect","directcomp.idcompositiongaussianblureffect"]
 old-location: directcomp\idcompositiongaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213

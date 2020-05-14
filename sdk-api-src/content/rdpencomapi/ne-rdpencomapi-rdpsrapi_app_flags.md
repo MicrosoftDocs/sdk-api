@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0008
 title: RDPSRAPI_APP_FLAGS (rdpencomapi.h)
-description: Defines values for the type of application.
+description: Defines values for the type of application.helpviewer_keywords: ["APP_FLAG_PRIVILEGED","RDPSRAPI_APP_FLAGS","RDPSRAPI_APP_FLAGS enumeration [RDP]","rdp.rdpsrapi_app_flags","rdpencomapi/APP_FLAG_PRIVILEGED","rdpencomapi/RDPSRAPI_APP_FLAGS"]
 old-location: rdp\rdpsrapi_app_flags.htm
 tech.root: rdp
 ms.assetid: fc7b6be3-3929-4b88-9899-3949706e8985

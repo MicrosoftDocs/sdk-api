@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara2.IsEqual2
 title: ITextPara2::IsEqual2 (tom.h)
-description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.
+description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.helpviewer_keywords: ["ITextPara2 interface [Windows Controls]","IsEqual2 method","ITextPara2.IsEqual2","ITextPara2::IsEqual2","IsEqual2","IsEqual2 method [Windows Controls]","IsEqual2 method [Windows Controls]","ITextPara2 interface","controls.itextpara2_isequal2","tom/ITextPara2::IsEqual2"]
 old-location: controls\itextpara2_isequal2.htm
 tech.root: Controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9

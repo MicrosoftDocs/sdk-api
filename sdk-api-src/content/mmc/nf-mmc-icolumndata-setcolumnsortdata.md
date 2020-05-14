@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IColumnData.SetColumnSortData
 title: IColumnData::SetColumnSortData (mmc.h)
-description: The IColumnData::SetColumnSortData method enables a snap-in to set the sorted column and sorting direction for columns in a column set.
+description: The IColumnData::SetColumnSortData method enables a snap-in to set the sorted column and sorting direction for columns in a column set.helpviewer_keywords: ["IColumnData interface [MMC]","SetColumnSortData method","IColumnData.SetColumnSortData","IColumnData::SetColumnSortData","SetColumnSortData","SetColumnSortData method [MMC]","SetColumnSortData method [MMC]","IColumnData interface","_slate_icolumndata_setcolumnsortdata","mmc.icolumndata_setcolumnsortdata","mmc/IColumnData::SetColumnSortData"]
 old-location: mmc\icolumndata_setcolumnsortdata.htm
 tech.root: mmc
 ms.assetid: ece69cce-6861-4795-b1cb-da22d2bdc67a

@@ -1,7 +1,7 @@
 ---
 UID: NF:winerror.HRESULT_SEVERITY
 title: HRESULT_SEVERITY macro (winerror.h)
-description: Extracts the severity field of the specified HRESULT.
+description: Extracts the severity field of the specified HRESULT.helpviewer_keywords: ["HRESULT_SEVERITY","HRESULT_SEVERITY macro [COM]","_com_HRESULT_SEVERITY","com.hresult_severity","com.hresult_severity_macro","winerror/HRESULT_SEVERITY"]
 old-location: com\hresult_severity_macro.htm
 tech.root: com
 ms.assetid: e574ddc2-e950-4618-bc16-1b99989a4a68

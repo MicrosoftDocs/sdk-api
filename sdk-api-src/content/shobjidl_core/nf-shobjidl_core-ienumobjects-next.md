@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Next
 title: IEnumObjects::Next (shobjidl_core.h)
-description: Gets the next specified number and type of objects.
+description: Gets the next specified number and type of objects.helpviewer_keywords: ["IEnumObjects interface [Windows Shell]","Next method","IEnumObjects.Next","IEnumObjects::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumObjects interface","_shell_IEnumObjects_Next","shell.IEnumObjects_Next","shobjidl_core/IEnumObjects::Next"]
 old-location: shell\IEnumObjects_Next.htm
 tech.root: shell
 ms.assetid: 5c79d3e2-c1c9-4529-9a60-457c2d2e6af5

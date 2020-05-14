@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.AddResourceToClusterSharedVolumes
 title: AddResourceToClusterSharedVolumes function (clusapi.h)
-description: Adds storage to Cluster Shared Volumes.
+description: Adds storage to Cluster Shared Volumes.helpviewer_keywords: ["AddResourceToClusterSharedVolumes","AddResourceToClusterSharedVolumes function [Failover Cluster]","PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES","PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES function [Failover Cluster]","clusapi/AddResourceToClusterSharedVolumes","clusapi/PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES","mscs.addresourcetoclustersharedvolumes"]
 old-location: mscs\addresourcetoclustersharedvolumes.htm
 tech.root: MsCS
 ms.assetid: 87C70280-5030-44b9-B949-7240BCA19C6B

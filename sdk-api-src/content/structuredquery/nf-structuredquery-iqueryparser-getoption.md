@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IQueryParser.GetOption
 title: IQueryParser::GetOption (structuredquery.h)
 description: Retrieves a specified simple option value for this query parser.
+helpviewer_keywords: ["GetOption","GetOption method [search]","GetOption method [search]","IQueryParser interface","IQueryParser interface [search]","GetOption method","IQueryParser.GetOption","IQueryParser::GetOption","_search_IQueryParser_GetOption","search._search_IQueryParser_GetOption","structuredquery/IQueryParser::GetOption"]
 old-location: search\_search_IQueryParser_GetOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getoption.htm
@@ -59,9 +60,9 @@ Retrieves a specified simple option value for this query parser.
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
 
-The <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
+The <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
         
 
 
@@ -69,7 +70,7 @@ The <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-str
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Receives a pointer to the specified option value. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
+Receives a pointer to the specified option value. For more information, see <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>.
 
 
 ## -returns

@@ -2,6 +2,7 @@
 UID: NC:webservices.WS_HTTP_REDIRECT_CALLBACK
 title: WS_HTTP_REDIRECT_CALLBACK (webservices.h)
 description: Invoked when a message is about to be automatically redirected to another service utilizing HTTP auto redirect functionality as described in RFC2616.
+helpviewer_keywords: ["WS_HTTP_REDIRECT_CALLBACK","WS_HTTP_REDIRECT_CALLBACK callback","WS_HTTP_REDIRECT_CALLBACK callback function [Web Services for Windows]","webservices/WS_HTTP_REDIRECT_CALLBACK","wsw.ws_http_redirect_callback"]
 old-location: wsw\ws_http_redirect_callback.htm
 tech.root: wsw
 ms.assetid: 14bd68f9-1b0d-4667-823a-afb159d7dc80
@@ -64,7 +65,7 @@ Invoked when a message is about to be automatically
 
 ### -param *state [in]
 
-The 'state' as specified as part of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_http_redirect_callback_context">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="/windows/win32/api/webservices/ns-webservices-ws_http_redirect_callback_context">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 

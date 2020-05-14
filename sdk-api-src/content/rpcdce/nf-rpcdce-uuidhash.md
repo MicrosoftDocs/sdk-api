@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.UuidHash
 title: UuidHash function (rpcdce.h)
-description: An application calls the UuidHash function to generate a hash value for a specified UUID.
+description: An application calls the UuidHash function to generate a hash value for a specified UUID.helpviewer_keywords: ["UuidHash","UuidHash function [RPC]","_rpc_uuidhash","rpc.uuidhash","rpcdce/UuidHash"]
 old-location: rpc\uuidhash.htm
 tech.root: Rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d

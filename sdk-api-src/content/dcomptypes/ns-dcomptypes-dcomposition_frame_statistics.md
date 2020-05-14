@@ -2,6 +2,7 @@
 UID: NS:dcomptypes.__unnamed_struct_0
 title: DCOMPOSITION_FRAME_STATISTICS (dcomptypes.h)
 description: Describes timing and composition statistics for a frame.
+helpviewer_keywords: ["DCOMPOSITION_FRAME_STATISTICS","DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition]","PDCOMPOSITION_FRAME_STATISTICS","PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition]","dcomptypes/DCOMPOSITION_FRAME_STATISTICS","dcomptypes/PDCOMPOSITION_FRAME_STATISTICS","directcomp.dcomposition_frame_statistics"]
 old-location: directcomp\dcomposition_frame_statistics.htm
 tech.root: directcomp
 ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764
@@ -59,7 +60,7 @@ Describes timing and composition statistics for a frame.
 
 ### -field lastFrameTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The time stamp of the last batch of commands to be processed by the composition engine.
 
@@ -73,21 +74,21 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 ### -field currentTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The current time as computed by the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function.
 
 
 ### -field timeFrequency
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The units in which the <b>lastFrameTime</b> and <b>currentTime</b> members are specified, in Hertz.
 
 
 ### -field nextEstimatedFrameTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 The estimated time when the next frame will be displayed.
 

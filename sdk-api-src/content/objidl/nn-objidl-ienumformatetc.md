@@ -1,7 +1,7 @@
 ---
 UID: NN:objidl.IEnumFORMATETC
 title: IEnumFORMATETC (objidl.h)
-description: Enumerates the FORMATETC structures that define the formats and media supported by a given data object.
+description: Enumerates the FORMATETC structures that define the formats and media supported by a given data object.helpviewer_keywords: ["IEnumFORMATETC","IEnumFORMATETC interface [COM]","IEnumFORMATETC interface [COM]","described","_ole_ienumformatetc","com.ienumformatetc","objidl/IEnumFORMATETC"]
 old-location: com\ienumformatetc.htm
 tech.root: com
 ms.assetid: 4d180fdd-2d58-4d26-9242-6552dda0d3e6

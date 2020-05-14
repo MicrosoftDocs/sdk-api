@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.GetPropertyValue
 title: IInkRecognitionAlternate::GetPropertyValue (msinkaut.h)
-description: Retrieves the value of a specified property of the alternate.
+description: Retrieves the value of a specified property of the alternate.helpviewer_keywords: ["ConfidenceLevel","GetPropertyValue","GetPropertyValue method [Tablet PC]","GetPropertyValue method [Tablet PC]","IInkRecognitionAlternate interface","HotPoint","IInkRecognitionAlternate interface [Tablet PC]","GetPropertyValue method","IInkRecognitionAlternate.GetPropertyValue","IInkRecognitionAlternate::GetPropertyValue","LineMetrics","LineNumber","MaximumStrokeCount","PointsPerInch","S_OK","Segmentation","b2ebf45a-b995-4fbc-b86d-b94d1f48f659","msinkaut/IInkRecognitionAlternate::GetPropertyValue","tablet.iinkrecognitionalternate_getpropertyvalue"]
 old-location: tablet\iinkrecognitionalternate_getpropertyvalue.htm
 tech.root: tablet
 ms.assetid: b2ebf45a-b995-4fbc-b86d-b94d1f48f659

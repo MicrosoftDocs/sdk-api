@@ -2,12 +2,12 @@
 UID: NF:lmaccess.NetGetDisplayInformationIndex
 title: NetGetDisplayInformationIndex function (lmaccess.h)
 description: The NetGetDisplayInformationIndex function returns the index of the first display information entry whose name begins with a specified string or whose name alphabetically follows the string.
+helpviewer_keywords: ["1","2","3","NetGetDisplayInformationIndex","NetGetDisplayInformationIndex function [Network Management]","_win32_netgetdisplayinformationindex","lmaccess/NetGetDisplayInformationIndex","netmgmt.netgetdisplayinformationindex"]
 old-location: netmgmt\netgetdisplayinformationindex.htm
 tech.root: NetMgmt
 ms.assetid: c56b3cf9-e0a2-4b66-a518-70753b79214c
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
-ms.topic: function
 f1_keywords:
 - lmaccess/NetGetDisplayInformationIndex
 dev_langs:

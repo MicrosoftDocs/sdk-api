@@ -2,6 +2,7 @@
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_DWORD
 title: EAP_METHOD_PROPERTY_VALUE_DWORD (eaptypes.h)
 description: Contains the DWORD value of an EAP method property.
+helpviewer_keywords: ["EAP_METHOD_PROPERTY_VALUE_DWORD","EAP_METHOD_PROPERTY_VALUE_DWORD structure [EAPHost]","PEAP_METHOD_PROPERTY_VALUE_DWORD","PEAP_METHOD_PROPERTY_VALUE_DWORD structure pointer [EAPHost]","eaphost.eap_method_property_value_dword","eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD","eaptypes/PEAP_METHOD_PROPERTY_VALUE_DWORD"]
 old-location: eaphost\eap_method_property_value_dword.htm
 tech.root: eaphost
 ms.assetid: 79a1ff42-dfd9-4408-b96c-2fbc33c2ca93
@@ -72,7 +73,7 @@ A DWORD value of the method property.
 
 
 
-[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
+[EAPHost Supplicant Structures](/windows/win32/eaphost/eap-host-supplicant-structures)
 
 
 

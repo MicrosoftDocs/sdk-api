@@ -2,6 +2,7 @@
 UID: NS:virtdisk._OPEN_VIRTUAL_DISK_PARAMETERS
 title: OPEN_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 description: Contains virtual disk open request parameters.
+helpviewer_keywords: ["*POPEN_VIRTUAL_DISK_PARAMETERS","OPEN_VIRTUAL_DISK_PARAMETERS","OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD]","OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT","OPEN_VIRTUAL_DISK_VERSION_1","OPEN_VIRTUAL_DISK_VERSION_2","POPEN_VIRTUAL_DISK_PARAMETERS","POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_OPEN_VIRTUAL_DISK_PARAMETERS","vdssys/OPEN_VIRTUAL_DISK_PARAMETERS","vdssys/POPEN_VIRTUAL_DISK_PARAMETERS","vhd.open_virtual_disk_parameters","virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS","virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\open_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: ad67bc3e-a0fe-4198-9307-819577abef7f
@@ -60,7 +61,7 @@ Contains virtual disk open request parameters.
 
 ### -field Version
 
-An <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_version">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
+An <a href="/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_version">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
       that specifies the version of the 
       <b>OPEN_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the VHD functions.
@@ -210,7 +211,7 @@ Resiliency <b>GUID</b> to specify when opening files.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
 
 
 

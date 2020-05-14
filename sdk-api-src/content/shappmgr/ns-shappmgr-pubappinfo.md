@@ -2,6 +2,7 @@
 UID: NS:shappmgr._PubAppInfo
 title: PUBAPPINFO (shappmgr.h)
 description: Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel.
+helpviewer_keywords: ["*PPUBAPPINFO","PUBAPPINFO","PUBAPPINFO structure [Windows Shell]","inet_PUBAPPINFO","shappmgr/PUBAPPINFO","shell.PUBAPPINFO"]
 old-location: shell\PUBAPPINFO.htm
 tech.root: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
@@ -68,7 +69,7 @@ A value of type <b>DWORD</b> that specifies the size of the structure. This memb
 
 Type: <b>DWORD</b>
 
-A bitmask that indicates which items in the structure are valid. This member can contain one or more <a href="https://docs.microsoft.com/windows/win32/api/shappmgr/ne-shappmgr-pubappinfoflags">PUBAPPINFOFLAGS</a>.
+A bitmask that indicates which items in the structure are valid. This member can contain one or more <a href="/windows/win32/api/shappmgr/ne-shappmgr-pubappinfoflags">PUBAPPINFOFLAGS</a>.
 
 
 ### -field pszSource

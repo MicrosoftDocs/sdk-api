@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.DoDefaultAction
 title: ILegacyIAccessibleProvider::DoDefaultAction (uiautomationcore.h)
-description: Performs the default action on the control.
+description: Performs the default action on the control.helpviewer_keywords: ["DoDefaultAction","DoDefaultAction method [Windows Accessibility]","DoDefaultAction method [Windows Accessibility]","ILegacyIAccessibleProvider interface","ILegacyIAccessibleProvider interface [Windows Accessibility]","DoDefaultAction method","ILegacyIAccessibleProvider.DoDefaultAction","ILegacyIAccessibleProvider::DoDefaultAction","uiauto.uiauto_ILegacyIAccessibleProvider_DoDefaultAction","uiauto_ILegacyIAccessibleProvider_DoDefaultAction","uiautomationcore/ILegacyIAccessibleProvider::DoDefaultAction","winauto.uiauto_ILegacyIAccessibleProvider_DoDefaultAction"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_DoDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: 29aaabba-dafe-400c-9fd6-80e13c0c9097

@@ -2,6 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandler
 title: IUIAutomation::AddPropertyChangedEventHandler (uiautomationclient.h)
 description: Registers a method that handles and array of property-changed events.
+helpviewer_keywords: ["AddPropertyChangedEventHandler","AddPropertyChangedEventHandler method [Windows Accessibility]","AddPropertyChangedEventHandler method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","AddPropertyChangedEventHandler method","IUIAutomation.AddPropertyChangedEventHandler","IUIAutomation::AddPropertyChangedEventHandler","uiauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler","uiauto_IUIAutomation_AddPropertyChangedEventHandler","uiautomationclient/IUIAutomation::AddPropertyChangedEventHandler","winauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 2623a48e-8818-486c-9bde-b218cde49189
@@ -87,7 +88,7 @@ A pointer to the object that handles the event.
 
 ### -param propertyArray [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the UI Automation properties of interest. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 

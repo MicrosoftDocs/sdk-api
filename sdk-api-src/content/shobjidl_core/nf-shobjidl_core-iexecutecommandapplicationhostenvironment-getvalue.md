@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommandApplicationHostEnvironment.GetValue
 title: IExecuteCommandApplicationHostEnvironment::GetValue (shobjidl_core.h)
-description: Determines whether the current application host environment is in the desktop or immersive mode.
+description: Determines whether the current application host environment is in the desktop or immersive mode.helpviewer_keywords: ["AHE_DESKTOP","AHE_IMMERSIVE","GetValue","GetValue method [Windows Shell]","GetValue method [Windows Shell]","IExecuteCommandApplicationHostEnvironment interface","IExecuteCommandApplicationHostEnvironment interface [Windows Shell]","GetValue method","IExecuteCommandApplicationHostEnvironment.GetValue","IExecuteCommandApplicationHostEnvironment::GetValue","shell.IExecuteCommandApplicationHostEnvironment_GetValue","shobjidl_core/IExecuteCommandApplicationHostEnvironment::GetValue"]
 old-location: shell\IExecuteCommandApplicationHostEnvironment_GetValue.htm
 tech.root: shell
 ms.assetid: ba26f985-04f1-4a05-9363-a7be0585bcfc

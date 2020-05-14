@@ -1,7 +1,7 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetVideoPortID
 title: IVPBaseConfig::SetVideoPortID (vpconfig.h)
-description: The SetVideoPortID method specifies the ID of the hardware video port to use.
+description: The SetVideoPortID method specifies the ID of the hardware video port to use.helpviewer_keywords: ["IVPBaseConfig interface [DirectShow]","SetVideoPortID method","IVPBaseConfig.SetVideoPortID","IVPBaseConfig::SetVideoPortID","IVPBaseConfigSetVideoPortID","SetVideoPortID","SetVideoPortID method [DirectShow]","SetVideoPortID method [DirectShow]","IVPBaseConfig interface","dshow.ivpbaseconfig_setvideoportid","vpconfig/IVPBaseConfig::SetVideoPortID"]
 old-location: dshow\ivpbaseconfig_setvideoportid.htm
 tech.root: DirectShow
 ms.assetid: 9be16349-b214-4441-8093-dfb0caa84507

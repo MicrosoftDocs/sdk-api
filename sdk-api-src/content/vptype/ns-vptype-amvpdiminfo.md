@@ -1,7 +1,7 @@
 ---
 UID: NS:vptype._AMVPDIMINFO
 title: AMVPDIMINFO (vptype.h)
-description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.
+description: The AMVPDIMINFO structure specifies the dimensional characteristics of a video port (VP) input stream.helpviewer_keywords: ["*LPAMVPDIMINFO","AMVPDIMINFO","AMVPDIMINFO structure [DirectShow]","AMVPDIMINFOStructure","LPAMVPDIMINFO","LPAMVPDIMINFO structure pointer [DirectShow]","dshow.amvpdiminfo","vptype/AMVPDIMINFO","vptype/LPAMVPDIMINFO"]
 old-location: dshow\amvpdiminfo.htm
 tech.root: DirectShow
 ms.assetid: e39cbb85-33f0-4810-aa32-cc96676da123

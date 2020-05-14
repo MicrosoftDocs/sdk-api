@@ -1,7 +1,7 @@
 ---
 UID: NN:dvbsiparser.IDvbParentalRatingDescriptor
 title: IDvbParentalRatingDescriptor (dvbsiparser.h)
-description: Implements methods that get data from a Digital Video Broadcast (DVB) parental rating descriptor.
+description: Implements methods that get data from a Digital Video Broadcast (DVB) parental rating descriptor.helpviewer_keywords: ["IDvbParentalRatingDescriptor","IDvbParentalRatingDescriptor interface [Microsoft TV Technologies]","IDvbParentalRatingDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbParentalRatingDescriptor","mstv.idvbparentalratingdescriptor"]
 old-location: mstv\idvbparentalratingdescriptor.htm
 tech.root: mstv
 ms.assetid: 667ef815-ef22-4dd1-9457-49af674b24ab

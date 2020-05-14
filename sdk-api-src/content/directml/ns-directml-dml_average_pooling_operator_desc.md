@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_AVERAGE_POOLING_OPERATOR_DESC
 title: DML_AVERAGE_POOLING_OPERATOR_DESC
-description: Describes a DirectML operator that performs an average pooling function on the input, y = (x1 + x2 + …) / pool_size.
+description: Describes a DirectML operator that performs an average pooling function on the input, y = (x1 + x2 + …) / pool_size.helpviewer_keywords: ["DML_AVERAGE_POOLING_OPERATOR_DESC","DML_AVERAGE_POOLING_OPERATOR_DESC structure","direct3d12.dml_average_pooling_operator_desc","directml/DML_AVERAGE_POOLING_OPERATOR_DESC"]
 old-location: direct3d12\dml_average_pooling_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 343A104A-208F-4AB9-A1E7-7EC83FB84AC5

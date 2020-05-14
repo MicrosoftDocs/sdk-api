@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11_3.D3D11_TEX2D_RTV1
 title: D3D11_TEX2D_RTV1 (d3d11_3.h)
-description: Describes the subresource from a 2D texture to use in a render-target view.
+description: Describes the subresource from a 2D texture to use in a render-target view.helpviewer_keywords: ["D3D11_TEX2D_RTV1","D3D11_TEX2D_RTV1 structure [Direct3D 11]","d3d11_3/D3D11_TEX2D_RTV1","direct3d11.d3d11_tex2d_rtv1"]
 old-location: direct3d11\d3d11_tex2d_rtv1.htm
 tech.root: direct3d11
 ms.assetid: CA815C7D-BA10-4C1B-A6E6-8B42229179B1

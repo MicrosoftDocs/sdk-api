@@ -1,7 +1,7 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeResource
 title: ITSGPolicyEngine::AuthorizeResource (tsgpolicyengine.h)
-description: Determines which resources the specified connection is authorized to connect to.
+description: Determines which resources the specified connection is authorized to connect to.helpviewer_keywords: ["AuthorizeResource","AuthorizeResource method [Remote Desktop Services]","AuthorizeResource method [Remote Desktop Services]","ITSGPolicyEngine interface","ITSGPolicyEngine interface [Remote Desktop Services]","AuthorizeResource method","ITSGPolicyEngine.AuthorizeResource","ITSGPolicyEngine::AuthorizeResource","termserv.itsgpolicyengine_authorizeresource","tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource"]
 old-location: termserv\itsgpolicyengine_authorizeresource.htm
 tech.root: TermServ
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5

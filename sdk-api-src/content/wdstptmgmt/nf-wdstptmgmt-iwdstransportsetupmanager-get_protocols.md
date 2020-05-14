@@ -2,6 +2,7 @@
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_Protocols
 title: IWdsTransportSetupManager::get_Protocols (wdstptmgmt.h)
 description: Receives a value that indicates which transport protocols are supported by the WDS server.
+helpviewer_keywords: ["IWdsTransportSetupManager interface [Windows Deployment Services]","Protocols property","IWdsTransportSetupManager.Protocols","IWdsTransportSetupManager.get_Protocols","IWdsTransportSetupManager::Protocols","IWdsTransportSetupManager::get_Protocols","Protocols property [Windows Deployment Services]","Protocols property [Windows Deployment Services]","IWdsTransportSetupManager interface","get_Protocols","wds.iwdstransportsetupmanager_protocols","wdstptmgmt/IWdsTransportSetupManager::Protocols","wdstptmgmt/IWdsTransportSetupManager::get_Protocols"]
 old-location: wds\iwdstransportsetupmanager_protocols.htm
 tech.root: wds
 ms.assetid: 554364cf-c3ee-46ce-a483-c3304b608595
@@ -67,7 +68,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_protocol_flags">WDSTRANSPORT_PROTOCOL_FLAGS</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_protocol_flags">WDSTRANSPORT_PROTOCOL_FLAGS</a>
  
 
  

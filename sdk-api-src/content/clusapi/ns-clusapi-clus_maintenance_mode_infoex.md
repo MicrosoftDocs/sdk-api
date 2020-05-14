@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUS_MAINTENANCE_MODE_INFOEX
 title: CLUS_MAINTENANCE_MODE_INFOEX (clusapi.h)
-description: Represents the extended maintenance mode settings for a storage class resource.
+description: Represents the extended maintenance mode settings for a storage class resource.helpviewer_keywords: ["*PCLUS_MAINTENANCE_MODE_INFOEX","CLUS_MAINTENANCE_MODE_INFOEX","CLUS_MAINTENANCE_MODE_INFOEX structure [Failover Cluster]","ClusterResourceFailed","ClusterResourceInitializing","ClusterResourceOffline","ClusterResourceOfflinePending","ClusterResourceOnline","ClusterResourceOnlinePending","ClusterResourceStateUnknown","MaintenanceModeTypeDisableIsAliveCheck","MaintenanceModeTypeOfflineResource","MaintenanceModeTypeUnclusterResource","PCLUS_MAINTENANCE_MODE_INFOEX","PCLUS_MAINTENANCE_MODE_INFOEX structure pointer [Failover Cluster]","clusapi/CLUS_MAINTENANCE_MODE_INFOEX","clusapi/PCLUS_MAINTENANCE_MODE_INFOEX","mscs.clus_maintenance_mode_infoex"]
 old-location: mscs\clus_maintenance_mode_infoex.htm
 tech.root: MsCS
 ms.assetid: d68b187d-39c5-42d3-b268-d5061da257c4

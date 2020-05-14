@@ -1,7 +1,7 @@
 ---
 UID: NS:wintrust.WINTRUST_BLOB_INFO_
 title: WINTRUST_BLOB_INFO (wintrust.h)
-description: Used when calling WinVerifyTrust to verify a memory BLOB.
+description: Used when calling WinVerifyTrust to verify a memory BLOB.helpviewer_keywords: ["*PWINTRUST_BLOB_INFO","PWINTRUST_BLOB_INFO","PWINTRUST_BLOB_INFO structure pointer [Security]","WINTRUST_BLOB_INFO","WINTRUST_BLOB_INFO structure [Security]","_win32_wintrust_blob_info","security.wintrust_blob_info","wintrust/PWINTRUST_BLOB_INFO","wintrust/WINTRUST_BLOB_INFO"]
 old-location: security\wintrust_blob_info.htm
 tech.root: SecCrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be

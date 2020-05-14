@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmLayerGetByKey0
 title: FwpmLayerGetByKey0 function (fwpmu.h)
 description: Retrieves a layer object.
+helpviewer_keywords: ["FwpmLayerGetByKey0","FwpmLayerGetByKey0 function [Filtering]","fwp.fwpmlayergetbykey0_func","fwpmu/FwpmLayerGetByKey0"]
 old-location: fwp\fwpmlayergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: b276449e-890c-482d-9bc2-47d44a5ea32b
@@ -73,7 +74,7 @@ Unique identifier of the layer. See <a href="https://docs.microsoft.com/windows/
 
 ### -param layer [out]
 
-Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>**</b>
+Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)**</b>
 
 The layer information.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>
+[FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)
 
 
 

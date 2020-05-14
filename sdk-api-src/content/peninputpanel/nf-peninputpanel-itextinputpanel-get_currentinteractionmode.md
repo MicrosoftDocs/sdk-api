@@ -2,6 +2,7 @@
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentInteractionMode
 title: ITextInputPanel::get_CurrentInteractionMode (peninputpanel.h)
 description: Gets the positioning of the Tablet PC Input Panel as specified by the InteractionMode Enumeration.
+helpviewer_keywords: ["CurrentInteractionMode property [Tablet PC]","CurrentInteractionMode property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CurrentInteractionMode property","ITextInputPanel.CurrentInteractionMode","ITextInputPanel.get_CurrentInteractionMode","ITextInputPanel::CurrentInteractionMode","ITextInputPanel::get_CurrentInteractionMode","dd28dad3-4b04-4597-9627-8fd27c75a207","get_CurrentInteractionMode","peninputpanel/ITextInputPanel::CurrentInteractionMode","peninputpanel/ITextInputPanel::get_CurrentInteractionMode","tablet.itextinputpanel_currentinteractionmode"]
 old-location: tablet\itextinputpanel_currentinteractionmode.htm
 tech.root: tablet
 ms.assetid: dd28dad3-4b04-4597-9627-8fd27c75a207
@@ -56,7 +57,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the positioning of the Tablet PC Input Panel as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode Enumeration</a>.
+Gets the positioning of the Tablet PC Input Panel as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode Enumeration</a>.
 
 
 
@@ -70,7 +71,7 @@ This property is read-only.
 
 
 
-The current interaction mode is dictated by the user. However, the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode_InPlace</a> mode can be disabled by the application on a per field basis.
+The current interaction mode is dictated by the user. However, the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode_InPlace</a> mode can be disabled by the application on a per field basis.
 
 
 #### Examples

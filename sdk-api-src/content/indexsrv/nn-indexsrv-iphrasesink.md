@@ -1,7 +1,7 @@
 ---
 UID: NN:indexsrv.IPhraseSink
 title: IPhraseSink (indexsrv.h)
-description: Handles phrases that word breakers parse from query text during query time.
+description: Handles phrases that word breakers parse from query text during query time.helpviewer_keywords: ["IPhraseSink","IPhraseSink interface [Indexing Service]","IPhraseSink interface [Indexing Service]","described","_idxs_PhraseSink","indexsrv.iphrasesink","indexsrv/IPhraseSink"]
 old-location: indexsrv\iphrasesink.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm

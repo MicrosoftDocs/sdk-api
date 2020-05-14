@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_FIELD_TYPE
 title: D3D12_VIDEO_FIELD_TYPE
-description: Specifies how a video frame is interlaced.
+description: Specifies how a video frame is interlaced.helpviewer_keywords: ["D3D12_VIDEO_FIELD_TYPE","D3D12_VIDEO_FIELD_TYPE",""]
 tech.root: mf
 ms.assetid: 5b7cba7d-c231-42ed-8ae2-69deb3fe5d36
 ms.date: 05/28/2019

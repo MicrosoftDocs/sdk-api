@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalyzer
 title: IDWriteTextAnalyzer (dwrite.h)
-description: Analyzes various text properties for complex script processing such as bidirectional (bidi) support for languages like Arabic, determination of line break opportunities, glyph placement, and number substitution.
+description: Analyzes various text properties for complex script processing such as bidirectional (bidi) support for languages like Arabic, determination of line break opportunities, glyph placement, and number substitution.helpviewer_keywords: ["IDWriteTextAnalyzer","IDWriteTextAnalyzer interface [Direct Write]","IDWriteTextAnalyzer interface [Direct Write]","described","directwrite.IDWriteTextAnalyzer","dwrite/IDWriteTextAnalyzer"]
 old-location: directwrite\IDWriteTextAnalyzer.htm
 tech.root: DirectWrite
 ms.assetid: e832ffc4-31db-41b1-a008-04696d9a975e

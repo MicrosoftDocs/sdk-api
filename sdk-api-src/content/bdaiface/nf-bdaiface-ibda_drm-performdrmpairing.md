@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DRM.PerformDRMPairing
 title: IBDA_DRM::PerformDRMPairing (bdaiface.h)
-description: The PerformDRMPairing method requests the tuner to perform a DRM handshake with the user's computer.
+description: The PerformDRMPairing method requests the tuner to perform a DRM handshake with the user's computer.helpviewer_keywords: ["IBDA_DRM interface [Microsoft TV Technologies]","PerformDRMPairing method","IBDA_DRM.PerformDRMPairing","IBDA_DRM::PerformDRMPairing","IBDA_DRMPerformDRMPairing","PerformDRMPairing","PerformDRMPairing method [Microsoft TV Technologies]","PerformDRMPairing method [Microsoft TV Technologies]","IBDA_DRM interface","bdaiface/IBDA_DRM::PerformDRMPairing","mstv.ibda_drm_performdrmpairing"]
 old-location: mstv\ibda_drm_performdrmpairing.htm
 tech.root: mstv
 ms.assetid: a3cd9e0c-cfb1-445f-bafc-c1a4f24550f8

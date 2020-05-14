@@ -2,12 +2,12 @@
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByIndex
 title: ISCTE_EAS::GetTableDescriptorByIndex (atscpsipparser.h)
 description: The GetTableDescriptorByIndex method returns a descriptor for the EAS table.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","ISCTE_EAS.GetTableDescriptorByIndex","ISCTE_EAS::GetTableDescriptorByIndex","ISCTE_EASGetTableDescriptorByIndex","atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex","mstv.iscte_eas_gettabledescriptorbyindex"]
 old-location: mstv\iscte_eas_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 24e02875-32ab-4844-bec3-8044b03b9843
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ISCTE_EAS.GetTableDescriptorByIndex, ISCTE_EAS::GetTableDescriptorByIndex, ISCTE_EASGetTableDescriptorByIndex, atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex, mstv.iscte_eas_gettabledescriptorbyindex
-ms.topic: method
 f1_keywords:
 - atscpsipparser/ISCTE_EAS.GetTableDescriptorByIndex
 dev_langs:

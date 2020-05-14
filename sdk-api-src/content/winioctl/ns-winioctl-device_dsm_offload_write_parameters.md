@@ -2,6 +2,7 @@
 UID: NS:winioctl._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 title: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 description: Specifies parameters for the offload write operation.
+helpviewer_keywords: ["*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS","DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS","DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure","PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS","PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer","base.device_dsm_offload_write_parameters","winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS","winioctl/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"]
 old-location: base\device_dsm_offload_write_parameters.htm
 tech.root: devio
 ms.assetid: d0107cae-50c9-46d2-97cd-324030692903
@@ -51,7 +52,7 @@ req.redist:
 Specifies parameters for the offload write operation. An offload write operation is 
     initiated by specifying <b>DeviceDsmAction_OffloadWrite</b> in the 
     <b>Action</b> member of the 
-    <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     structure passed in a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
@@ -89,7 +90,7 @@ The starting offset to copy from the range bound to the token
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

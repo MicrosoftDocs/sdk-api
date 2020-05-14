@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetShortPathNameW
 title: GetShortPathNameW function (fileapi.h)
-description: Retrieves the short path form of the specified path.
+description: Retrieves the short path form of the specified path.helpviewer_keywords: ["GetShortPathName","GetShortPathName function [Files]","GetShortPathNameA","GetShortPathNameW","_win32_getshortpathname","base.getshortpathname","fileapi/GetShortPathName","fileapi/GetShortPathNameA","fileapi/GetShortPathNameW","fs.getshortpathname","winbase/GetShortPathName","winbase/GetShortPathNameA","winbase/GetShortPathNameW"]
 old-location: fs\getshortpathname.htm
 tech.root: FileIO
 ms.assetid: 15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7

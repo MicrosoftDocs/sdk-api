@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.NdrCStdStubBuffer2_Release
 title: NdrCStdStubBuffer2_Release function (rpcproxy.h)
-description: The NdrCStdStubBuffer2_Release function implements the IRpcStubBuffer::Release method.
+description: The NdrCStdStubBuffer2_Release function implements the IRpcStubBuffer::Release method.helpviewer_keywords: ["NdrCStdStubBuffer2_Release","NdrCStdStubBuffer2_Release function [RPC]","rpc.ndrcstdstubbuffer2_release","rpcproxy/NdrCStdStubBuffer2_Release"]
 old-location: rpc\ndrcstdstubbuffer2_release.htm
 tech.root: Rpc
 ms.assetid: 7709da21-26a4-4ba7-a81f-fbe993fc0c08

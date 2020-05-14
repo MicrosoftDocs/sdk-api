@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CTL_ENTRY
 title: CTL_ENTRY (wincrypt.h)
-description: An element of a certificate trust list (CTL).
+description: An element of a certificate trust list (CTL).helpviewer_keywords: ["*PCTL_ENTRY","CTL_ENTRY","CTL_ENTRY structure [Security]","PCTL_ENTRY","PCTL_ENTRY structure pointer [Security]","_crypto2_ctl_entry","security.ctl_entry","wincrypt/CTL_ENTRY","wincrypt/PCTL_ENTRY"]
 old-location: security\ctl_entry.htm
 tech.root: SecCrypto
 ms.assetid: ebc63847-b641-4205-b15c-7b32c1426c21

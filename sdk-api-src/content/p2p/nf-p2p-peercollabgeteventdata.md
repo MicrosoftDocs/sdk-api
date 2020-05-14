@@ -2,6 +2,7 @@
 UID: NF:p2p.PeerCollabGetEventData
 title: PeerCollabGetEventData function (p2p.h)
 description: Obtains the data associated with a peer collaboration event raised on the peer.
+helpviewer_keywords: ["PeerCollabGetEventData","PeerCollabGetEventData function [Peer Networking]","p2p.peercollabgeteventdata","p2p/PeerCollabGetEventData"]
 old-location: p2p\peercollabgeteventdata.htm
 tech.root: P2PSdk
 ms.assetid: ee410a47-91a6-48ed-8c05-128a141a5c98
@@ -64,7 +65,7 @@ The peer collaboration network event handle obtained by a call to <a href="https
 
 ### -param ppEventData [out]
 
-Pointer to a list of [PEER_COLLAB_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_collab_event_data~r1)a> structures that contain data about the peer collaboration network event. These data structures must be freed after use by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer to a list of [PEER_COLLAB_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_collab_event_data~r1) structures that contain data about the peer collaboration network event. These data structures must be freed after use by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns

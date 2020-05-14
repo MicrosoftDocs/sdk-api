@@ -2,6 +2,7 @@
 UID: NF:webservices.WsWriteStartElement
 title: WsWriteStartElement function (webservices.h)
 description: Writes a start element to the writer.
+helpviewer_keywords: ["WsWriteStartElement","WsWriteStartElement function [Web Services for Windows]","webservices/WsWriteStartElement","wsw.wswritestartelement"]
 old-location: wsw\wswritestartelement.htm
 tech.root: wsw
 ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
@@ -173,7 +174,7 @@ If writing the start element causes <b>WS_XML_WRITER_PROPERTY_MAX_DEPTH</b> to b
         <b>WS_E_QUOTA_EXCEEDED</b> is returned.
        (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-When using <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
+When using <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
         localName "Include" from the namespace"http://www.w3.org/2004/08/xop/include".
       
 

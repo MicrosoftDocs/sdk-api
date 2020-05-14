@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.AddItem
 title: ITfLangBarItemMgr::AddItem (ctfutb.h)
-description: ITfLangBarItemMgr::AddItem method
+description: ITfLangBarItemMgr::AddItem methodhelpviewer_keywords: ["AddItem","AddItem method [Text Services Framework]","AddItem method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","AddItem method","ITfLangBarItemMgr.AddItem","ITfLangBarItemMgr::AddItem","_tsf_itflangbaritemmgr_additem_ref","ctfutb/ITfLangBarItemMgr::AddItem","tsf.itflangbaritemmgr_additem"]
 old-location: tsf\itflangbaritemmgr_additem.htm
 tech.root: TSF
 ms.assetid: c9a36b2c-e7ea-4932-928e-05dd05ca02ca
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Adds an item to the language bar.
 
 ## -parameters
 

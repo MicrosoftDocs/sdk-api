@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_DURATION
 title: WS_DURATION (webservices.h)
-description: Represents a xsd:duration data type.
+description: Represents a xsd:duration data type.helpviewer_keywords: ["WS_DURATION","WS_DURATION structure [Web Services for Windows]","webservices/WS_DURATION","wsw.ws_duration"]
 old-location: wsw\ws_duration.htm
 tech.root: wsw
 ms.assetid: ccb08c23-8c6f-4ea7-a43b-c30a0df75805

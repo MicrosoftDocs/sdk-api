@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.RegisterForNextTable
 title: IDVB_NIT::RegisterForNextTable (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDVB_NIT interface [Microsoft TV Technologies]","RegisterForNextTable method","IDVB_NIT.RegisterForNextTable","IDVB_NIT::RegisterForNextTable","IDVB_NITRegisterForNextTable","RegisterForNextTable","RegisterForNextTable method [Microsoft TV Technologies]","RegisterForNextTable method [Microsoft TV Technologies]","IDVB_NIT interface","dvbsiparser/IDVB_NIT::RegisterForNextTable","mstv.idvb_nit_registerfornexttable"]
 old-location: mstv\idvb_nit_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: f299cdcb-d0da-4e79-9f2d-c792bbb43313

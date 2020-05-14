@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_AUDIT_ACCOUNT_LOGON
 title: LSA_AUDIT_ACCOUNT_LOGON (ntsecpkg.h)
-description: The AuditAccountLogon function produces an audit record that represents the mapping of a foreign principal name onto a Windows account.
+description: The AuditAccountLogon function produces an audit record that represents the mapping of a foreign principal name onto a Windows account.helpviewer_keywords: ["AuditAccountLogon","AuditAccountLogon callback function [Security]","LSA_AUDIT_ACCOUNT_LOGON","LSA_AUDIT_ACCOUNT_LOGON callback","_ssp_auditaccountlogon","ntsecpkg/AuditAccountLogon","security.auditaccountlogon"]
 old-location: security\auditaccountlogon.htm
 tech.root: SecAuthN
 ms.assetid: dcf2d16b-8352-4d40-9723-c8cf8465431c

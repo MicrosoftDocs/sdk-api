@@ -2,6 +2,7 @@
 UID: NN:portabledeviceapi.IPortableDeviceWebControl
 title: IPortableDeviceWebControl (portabledeviceapi.h)
 description: Represents a factory that can instantiate a WPD Automation Device object in a Windows Store app.
+helpviewer_keywords: ["IPortableDeviceWebControl","IPortableDeviceWebControl interface [WPD Automation]","IPortableDeviceWebControl interface [WPD Automation]","described","portabledeviceapi/IPortableDeviceWebControl","wpdauto.iportabledevicewebcontrol"]
 old-location: wpdauto\iportabledevicewebcontrol.htm
 tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
@@ -120,7 +121,7 @@ var deviceService = device.services[0];
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsapps/Portable-Device-f97089b5">Portable Device Service Sample</a>
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PortableDeviceServices">Portable Device Service Sample</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPropertyList.Item
 title: IADsPropertyList::Item (iads.h)
-description: The IADsPropertyList::Item method retrieves the specified property item from the list.
+description: The IADsPropertyList::Item method retrieves the specified property item from the list.helpviewer_keywords: ["IADsPropertyList interface [ADSI]","Item method","IADsPropertyList.Item","IADsPropertyList::Item","Item","Item method [ADSI]","Item method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_item","adsi.iadspropertylist__item","adsi.iadspropertylist_item","iads/IADsPropertyList::Item"]
 old-location: adsi\iadspropertylist_item.htm
 tech.root: adsi
 ms.assetid: 6e103872-ea2e-4178-9c8a-b958ae3bcf85

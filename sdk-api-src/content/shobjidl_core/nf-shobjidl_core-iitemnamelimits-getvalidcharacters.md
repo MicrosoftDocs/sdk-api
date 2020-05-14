@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IItemNameLimits.GetValidCharacters
 title: IItemNameLimits::GetValidCharacters (shobjidl_core.h)
-description: Loads a string that contains each of the characters that are valid or invalid in the namespace under which it is called.
+description: Loads a string that contains each of the characters that are valid or invalid in the namespace under which it is called.helpviewer_keywords: ["GetValidCharacters","GetValidCharacters method [Windows Shell]","GetValidCharacters method [Windows Shell]","IItemNameLimits interface","IItemNameLimits interface [Windows Shell]","GetValidCharacters method","IItemNameLimits.GetValidCharacters","IItemNameLimits::GetValidCharacters","_shell_IItemNameLimits_GetValidCharacters","shell.IItemNameLimits_GetValidCharacters","shobjidl_core/IItemNameLimits::GetValidCharacters"]
 old-location: shell\IItemNameLimits_GetValidCharacters.htm
 tech.root: shell
 ms.assetid: a6328be9-accd-4f11-82ee-49d3b18f9fd6

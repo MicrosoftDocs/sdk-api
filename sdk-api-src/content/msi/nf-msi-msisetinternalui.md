@@ -1,7 +1,7 @@
 ---
 UID: NF:msi.MsiSetInternalUI
 title: MsiSetInternalUI function (msi.h)
-description: The MsiSetInternalUI function enables the installer's internal user interface. Then this user interface is used for all subsequent calls to user-interface-generating installer functions in this process. For more information, see User Interface Levels.
+description: The MsiSetInternalUI function enables the installer's internal user interface. Then this user interface is used for all subsequent calls to user-interface-generating installer functions in this process. For more information, see User Interface Levels.helpviewer_keywords: ["INSTALLUILEVEL_BASIC","INSTALLUILEVEL_DEFAULT","INSTALLUILEVEL_ENDDIALOG","INSTALLUILEVEL_FULL","INSTALLUILEVEL_HIDECANCEL","INSTALLUILEVEL_NOCHANGE","INSTALLUILEVEL_NONE","INSTALLUILEVEL_PROGRESSONLY","INSTALLUILEVEL_REDUCED","INSTALLUILEVEL_SOURCERESONLY","MsiSetInternalUI","MsiSetInternalUI function","_msi_msisetinternalui","msi/MsiSetInternalUI","setup.msisetinternalui"]
 old-location: setup\msisetinternalui.htm
 tech.root: Msi
 ms.assetid: 303c2ea9-4c8f-46d3-b587-7c50e2810c28

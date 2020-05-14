@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Contrast
 title: IVideoProcAmp::getRange_Contrast (vidcap.h)
-description: The getRange_Contrast method returns the range of contrast settings supported by the camera.
+description: The getRange_Contrast method returns the range of contrast settings supported by the camera.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_Contrast method","IVideoProcAmp.getRange_Contrast","IVideoProcAmp::getRange_Contrast","IVideoProcAmpgetRange_Contrast","dshow.ivideoprocamp_getrange_contrast","getRange_Contrast","getRange_Contrast method [DirectShow]","getRange_Contrast method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_Contrast"]
 old-location: dshow\ivideoprocamp_getrange_contrast.htm
 tech.root: DirectShow
 ms.assetid: 3eb160f4-c3e6-4c74-a091-72c55416a81e

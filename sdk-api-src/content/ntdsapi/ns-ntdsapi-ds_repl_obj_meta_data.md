@@ -1,7 +1,7 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OBJ_META_DATA
 title: DS_REPL_OBJ_META_DATA (ntdsapi.h)
-description: The DS_REPL_OBJ_META_DATA structure contains an array of DS_REPL_ATTR_META_DATA structures. These structures contain replication state data for past and present attributes for a given object.
+description: The DS_REPL_OBJ_META_DATA structure contains an array of DS_REPL_ATTR_META_DATA structures. These structures contain replication state data for past and present attributes for a given object.helpviewer_keywords: ["DS_REPL_OBJ_META_DATA","DS_REPL_OBJ_META_DATA structure [Active Directory]","_glines_ds_repl_obj_meta_data","ad.ds__repl__obj__meta__data","ad.ds_repl_obj_meta_data","ntdsapi/DS_REPL_OBJ_META_DATA"]
 old-location: ad\ds_repl_obj_meta_data.htm
 tech.root: ad
 ms.assetid: 7851ffbc-5d05-4ea7-b3b4-1b8b77299be5

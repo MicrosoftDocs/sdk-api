@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState
 title: IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState (uiautomationclient.h)
-description: Retrieves a value that indicates the state, expanded or collapsed, of the element.
+description: Retrieves a value that indicates the state, expanded or collapsed, of the element.helpviewer_keywords: ["CurrentExpandCollapseState property [Windows Accessibility]","CurrentExpandCollapseState property [Windows Accessibility]","IUIAutomationExpandCollapsePattern interface","IUIAutomationExpandCollapsePattern interface [Windows Accessibility]","CurrentExpandCollapseState property","IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState","IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState","IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState","IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState","get_CurrentExpandCollapseState","uiauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState","uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState","uiautomationclient/IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState","uiautomationclient/IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState","winauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState"]
 old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState.htm
 tech.root: WinAuto
 ms.assetid: abd21a19-c7a0-44db-ad5b-64c476efa400

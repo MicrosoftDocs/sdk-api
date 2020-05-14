@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IEnumConnections
 title: IEnumConnections (ocidl.h)
-description: Enumerates the current connections for a connectable object.
+description: Enumerates the current connections for a connectable object.helpviewer_keywords: ["IEnumConnections","IEnumConnections interface [COM]","IEnumConnections interface [COM]","described","_com_ienumconnections","com.ienumconnections","ocidl/IEnumConnections"]
 old-location: com\ienumconnections.htm
 tech.root: com
 ms.assetid: 464966c1-e4e9-4b58-9e41-48de408f572f

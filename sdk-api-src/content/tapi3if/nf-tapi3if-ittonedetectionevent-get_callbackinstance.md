@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_CallbackInstance
 title: ITToneDetectionEvent::get_CallbackInstance (tapi3if.h)
-description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event.
+description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event.helpviewer_keywords: ["ITToneDetectionEvent interface [TAPI 2.2]","get_CallbackInstance method","ITToneDetectionEvent.get_CallbackInstance","ITToneDetectionEvent::get_CallbackInstance","_tapi3_ittonedetectionevent_get_callbackinstance","get_CallbackInstance","get_CallbackInstance method [TAPI 2.2]","get_CallbackInstance method [TAPI 2.2]","ITToneDetectionEvent interface","tapi3.ittonedetectionevent_get_callbackinstance","tapi3if/ITToneDetectionEvent::get_CallbackInstance"]
 old-location: tapi3\ittonedetectionevent_get_callbackinstance.htm
 tech.root: Tapi
 ms.assetid: 5ebd7fae-0060-4937-9812-8b48eceb9139

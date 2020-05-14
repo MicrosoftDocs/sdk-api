@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IManagedPoolAction
 title: IManagedPoolAction (comsvcs.h)
-description: Enables an object to be notified before it is released from a COM+ object pool.
+description: Enables an object to be notified before it is released from a COM+ object pool.helpviewer_keywords: ["IManagedPoolAction","IManagedPoolAction interface [COM+]","IManagedPoolAction interface [COM+]","described","_cos_IManagedPoolAction","comsvcs/IManagedPoolAction","cos.imanagedpoolaction"]
 old-location: cos\imanagedpoolaction.htm
 tech.root: cossdk
 ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd

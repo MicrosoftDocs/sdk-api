@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocality
 title: IDWriteFontFaceReference::GetLocality (dwrite_3.h)
-description: Get the locality of this font face reference.
+description: Get the locality of this font face reference.helpviewer_keywords: ["GetLocality","GetLocality method [Direct Write]","GetLocality method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetLocality method","IDWriteFontFaceReference.GetLocality","IDWriteFontFaceReference::GetLocality","directwrite.idwritefontfacereference_getlocality","dwrite_3/IDWriteFontFaceReference::GetLocality"]
 old-location: directwrite\idwritefontfacereference_getlocality.htm
 tech.root: DirectWrite
 ms.assetid: 533f30a7-bf54-670e-63be-ffb9b07fb9d8

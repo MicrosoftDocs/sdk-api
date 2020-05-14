@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMoniker.BindToObject
 title: IMoniker::BindToObject (objidl.h)
-description: Binds to the specified object. The binding process involves finding the object, putting it into the running state if necessary, and providing the caller with a pointer to a specified interface on the identified object.
+description: Binds to the specified object. The binding process involves finding the object, putting it into the running state if necessary, and providing the caller with a pointer to a specified interface on the identified object.helpviewer_keywords: ["BindToObject","BindToObject method [COM]","BindToObject method [COM]","IMoniker interface","IMoniker interface [COM]","BindToObject method","IMoniker.BindToObject","IMoniker::BindToObject","_com_imoniker_bindtoobject","com.imoniker_bindtoobject","objidl/IMoniker::BindToObject"]
 old-location: com\imoniker_bindtoobject.htm
 tech.root: com
 ms.assetid: b5ce39ff-3387-4f72-9aea-5a26eed3810c

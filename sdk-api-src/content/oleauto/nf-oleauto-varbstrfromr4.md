@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarBstrFromR4
 title: VarBstrFromR4 function (oleauto.h)
-description: Converts a float value to a BSTR value.
+description: Converts a float value to a BSTR value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VarBstrFromR4","VarBstrFromR4 function [Automation]","_oa96_VarBstrFromR4","automat.varbstrfromr4","oleauto/VarBstrFromR4"]
 old-location: automat\varbstrfromr4.htm
 tech.root: automat
 ms.assetid: 368f691b-1f9c-4271-a76b-cd07d05cda23

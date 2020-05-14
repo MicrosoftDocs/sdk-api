@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.IRecordInfo.PutFieldNoCopy
 title: IRecordInfo::PutFieldNoCopy (oaidl.h)
-description: Passes ownership of the data to the assigned field by placing the actual data into the field.
+description: Passes ownership of the data to the assigned field by placing the actual data into the field.helpviewer_keywords: ["IRecordInfo interface [Automation]","PutFieldNoCopy method","IRecordInfo.PutFieldNoCopy","IRecordInfo::PutFieldNoCopy","PutFieldNoCopy","PutFieldNoCopy method [Automation]","PutFieldNoCopy method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_PutFieldNoCopy","automat.irecordinfo_putfieldnocopy","oaidl/IRecordInfo::PutFieldNoCopy"]
 old-location: automat\irecordinfo_putfieldnocopy.htm
 tech.root: automat
 ms.assetid: 9e3c4189-46fa-4c21-abbd-35fdd5df058d

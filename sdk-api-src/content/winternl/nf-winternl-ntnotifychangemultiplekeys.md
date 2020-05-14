@@ -1,7 +1,7 @@
 ---
 UID: NF:winternl.NtNotifyChangeMultipleKeys
 title: NtNotifyChangeMultipleKeys function (winternl.h)
-description: Requests notification when a registry key or any of its subkeys changes.
+description: Requests notification when a registry key or any of its subkeys changes.helpviewer_keywords: ["NtNotifyChangeMultipleKeys","NtNotifyChangeMultipleKeys function [Windows API]","REG_NOTIFY_CHANGE_ATTRIBUTES","REG_NOTIFY_CHANGE_LAST_SET","REG_NOTIFY_CHANGE_NAME","REG_NOTIFY_CHANGE_SECURITY","base.ntnotifychangemultiplekeys","winprog.ntnotifychangemultiplekeys","winternl/NtNotifyChangeMultipleKeys"]
 old-location: winprog\ntnotifychangemultiplekeys.htm
 tech.root: DevNotes
 ms.assetid: c1ee9793-490c-45de-a2a5-deab630917f6

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetVersionNumber
 title: IISDB_BIT::GetVersionNumber (dvbsiparser.h)
-description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IISDB_BIT interface","IISDB_BIT interface [Microsoft TV Technologies]","GetVersionNumber method","IISDB_BIT.GetVersionNumber","IISDB_BIT::GetVersionNumber","dvbsiparser/IISDB_BIT::GetVersionNumber","mstv.iisdb_bit_getversionnumber"]
 old-location: mstv\iisdb_bit_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 44f905e2-4814-4990-8a77-6ca6311c5505

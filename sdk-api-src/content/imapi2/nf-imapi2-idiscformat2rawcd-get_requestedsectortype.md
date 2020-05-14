@@ -2,6 +2,7 @@
 UID: NF:imapi2.IDiscFormat2RawCD.get_RequestedSectorType
 title: IDiscFormat2RawCD::get_RequestedSectorType (imapi2.h)
 description: Retrieves the requested data sector to use during write of the stream.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_RequestedSectorType method","IDiscFormat2RawCD.get_RequestedSectorType","IDiscFormat2RawCD::get_RequestedSectorType","get_RequestedSectorType","get_RequestedSectorType method [IMAPI]","get_RequestedSectorType method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd__get_requestedsectortype_","imapi2/IDiscFormat2RawCD::get_RequestedSectorType"]
 old-location: imapi\idiscformat2rawcd__get_requestedsectortype_.htm
 tech.root: imapi
 ms.assetid: 7964e25e-43ed-4ed0-aeee-dac656700fea
@@ -59,7 +60,7 @@ Retrieves the requested data sector to use during write of the stream.
 
 ### -param value [out]
 
-Requested data sector type. For possible values, see <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>. 
+Requested data sector type. For possible values, see <a href="/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>. 
 
 
 ## -returns

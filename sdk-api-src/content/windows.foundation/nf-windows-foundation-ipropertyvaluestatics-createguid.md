@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateGuid
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified GUID value.
+description: Creates a new IPropertyValue object that contains the specified GUID value.helpviewer_keywords: ["CreateGuid","CreateGuid method [Windows Runtime]","CreateGuid method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateGuid method","IPropertyValueStatics.CreateGuid","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateGuid","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateGuid","winrt.ipropertyvaluefactory_createguid","winrt.ipropertyvaluestatics_createguid"]
 old-location: winrt\ipropertyvaluestatics_createguid.htm
 tech.root: WinRT
 ms.assetid: fb895839-953f-41e2-963a-26156c490df0

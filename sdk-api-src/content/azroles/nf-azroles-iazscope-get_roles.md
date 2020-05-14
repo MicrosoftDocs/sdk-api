@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.get_Roles
 title: IAzScope::get_Roles (azroles.h)
-description: Retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.
+description: Retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.helpviewer_keywords: ["AzScope object [Security]","Roles property","IAzScope interface [Security]","Roles property","IAzScope.Roles","IAzScope.get_Roles","IAzScope::Roles","IAzScope::get_Roles","Roles property [Security]","Roles property [Security]","AzScope object","Roles property [Security]","IAzScope interface","azroles/IAzScope::Roles","azroles/IAzScope::get_Roles","get_Roles","security.iazscope_roles"]
 old-location: security\iazscope_roles.htm
 tech.root: SecAuthZ
 ms.assetid: 4dcf0e1b-d824-4675-b2d1-f59a58adb00a

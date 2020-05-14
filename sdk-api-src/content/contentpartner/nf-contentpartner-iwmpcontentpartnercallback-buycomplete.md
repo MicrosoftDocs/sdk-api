@@ -1,7 +1,7 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.BuyComplete
 title: IWMPContentPartnerCallback::BuyComplete (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.
+description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["BuyComplete","BuyComplete method [Windows Media Player]","BuyComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","BuyComplete method","IWMPContentPartnerCallback.BuyComplete","IWMPContentPartnerCallback::BuyComplete","IWMPContentPartnerCallbackBuyComplete","contentpartner/IWMPContentPartnerCallback::BuyComplete","wmp.iwmpcontentpartnercallback_buycomplete"]
 old-location: wmp\iwmpcontentpartnercallback_buycomplete.htm
 tech.root: WMP
 ms.assetid: 4e9ab15f-3418-472d-afc4-0f9fae852da2

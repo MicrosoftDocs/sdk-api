@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Flush
 title: IWMMetadataEditor::Flush (wmsdkidl.h)
-description: The Flush method closes the open file, saving any changes.
+description: The Flush method closes the open file, saving any changes.helpviewer_keywords: ["Flush","Flush method [windows Media Format]","Flush method [windows Media Format]","IWMMetadataEditor interface","IWMMetadataEditor interface [windows Media Format]","Flush method","IWMMetadataEditor.Flush","IWMMetadataEditor::Flush","IWMMetadataEditorFlush","wmformat.iwmmetadataeditor_flush","wmsdkidl/IWMMetadataEditor::Flush"]
 old-location: wmformat\iwmmetadataeditor_flush.htm
 tech.root: wmformat
 ms.assetid: b17992f7-ed93-4f62-bf50-8fb2fd41caee

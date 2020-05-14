@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_CpuUtilization
 title: IWdsTransportClient::get_CpuUtilization (wdstptmgmt.h)
-description: Receives the percentage of the WDS client’s CPU utilization.
+description: Receives the percentage of the WDS client’s CPU utilization.helpviewer_keywords: ["CpuUtilization property [Windows Deployment Services]","CpuUtilization property [Windows Deployment Services]","IWdsTransportClient interface","IWdsTransportClient interface [Windows Deployment Services]","CpuUtilization property","IWdsTransportClient.CpuUtilization","IWdsTransportClient.get_CpuUtilization","IWdsTransportClient::CpuUtilization","IWdsTransportClient::get_CpuUtilization","get_CpuUtilization","wds.iwdstransportclient_cpuutilization","wdstptmgmt/IWdsTransportClient::CpuUtilization","wdstptmgmt/IWdsTransportClient::get_CpuUtilization"]
 old-location: wds\iwdstransportclient_cpuutilization.htm
 tech.root: wds
 ms.assetid: 515845b9-6f5e-436f-a2f1-4963909d4071

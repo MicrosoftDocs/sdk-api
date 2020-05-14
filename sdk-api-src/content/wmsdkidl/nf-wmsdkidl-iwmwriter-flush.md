@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.Flush
 title: IWMWriter::Flush (wmsdkidl.h)
-description: The functionality of the Flush method has been removed, because IWMWriter::EndWriting performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
+description: The functionality of the Flush method has been removed, because IWMWriter::EndWriting performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.helpviewer_keywords: ["Flush","Flush method [windows Media Format]","Flush method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","Flush method","IWMWriter.Flush","IWMWriter::Flush","IWMWriterFlush","wmformat.iwmwriter_flush","wmsdkidl/IWMWriter::Flush"]
 old-location: wmformat\iwmwriter_flush.htm
 tech.root: wmformat
 ms.assetid: 1fa0c482-f1f5-4d3c-8268-731914caefa3

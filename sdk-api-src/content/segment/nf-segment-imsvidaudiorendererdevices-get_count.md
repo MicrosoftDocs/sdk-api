@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.get_Count
 title: IMSVidAudioRendererDevices::get_Count (segment.h)
-description: The get_Count method retrieves the number of items in the collection.
+description: The get_Count method retrieves the number of items in the collection.helpviewer_keywords: ["IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","get_Count method","IMSVidAudioRendererDevices.get_Count","IMSVidAudioRendererDevices::get_Count","IMSVidAudioRendererDevicesget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface","mstv.imsvidaudiorendererdevices_get_count","segment/IMSVidAudioRendererDevices::get_Count"]
 old-location: mstv\imsvidaudiorendererdevices_get_count.htm
 tech.root: mstv
 ms.assetid: 46a3b579-a027-4c80-9f7a-f81dd9af4d0d

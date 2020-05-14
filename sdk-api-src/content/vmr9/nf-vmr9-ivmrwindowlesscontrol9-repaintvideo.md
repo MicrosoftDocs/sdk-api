@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.RepaintVideo
 title: IVMRWindowlessControl9::RepaintVideo (vmr9.h)
-description: The RepaintVideo method repaints the current video frame.
+description: The RepaintVideo method repaints the current video frame.helpviewer_keywords: ["IVMRWindowlessControl9 interface [DirectShow]","RepaintVideo method","IVMRWindowlessControl9.RepaintVideo","IVMRWindowlessControl9::RepaintVideo","IVMRWindowlessControl9RepaintVideo","RepaintVideo","RepaintVideo method [DirectShow]","RepaintVideo method [DirectShow]","IVMRWindowlessControl9 interface","dshow.ivmrwindowlesscontrol9_repaintvideo","vmr9/IVMRWindowlessControl9::RepaintVideo"]
 old-location: dshow\ivmrwindowlesscontrol9_repaintvideo.htm
 tech.root: DirectShow
 ms.assetid: 7a25301c-00e4-4f54-a34d-416a52daeaa7

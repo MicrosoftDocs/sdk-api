@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_ProxyFactory
 title: IUIAutomationProxyFactoryEntry::get_ProxyFactory (uiautomationclient.h)
-description: Retrieves the proxy factory associated with this entry.
+description: Retrieves the proxy factory associated with this entry.helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","ProxyFactory property","IUIAutomationProxyFactoryEntry.ProxyFactory","IUIAutomationProxyFactoryEntry.get_ProxyFactory","IUIAutomationProxyFactoryEntry::ProxyFactory","IUIAutomationProxyFactoryEntry::get_ProxyFactory","ProxyFactory property [Windows Accessibility]","ProxyFactory property [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","get_ProxyFactory","uiauto.uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory","uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory","uiautomationclient/IUIAutomationProxyFactoryEntry::ProxyFactory","uiautomationclient/IUIAutomationProxyFactoryEntry::get_ProxyFactory","winauto.uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory.htm
 tech.root: WinAuto
 ms.assetid: da6f0c23-b16d-4fd5-8d91-cc5a830a03c6

@@ -2,6 +2,7 @@
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_STRING
 title: EAP_METHOD_PROPERTY_VALUE_STRING (eaptypes.h)
 description: Contains the string value of an EAP method property.
+helpviewer_keywords: ["EAP_METHOD_PROPERTY_VALUE_STRING","EAP_METHOD_PROPERTY_VALUE_STRING structure [EAPHost]","PEAP_METHOD_PROPERTY_VALUE_STRING","PEAP_METHOD_PROPERTY_VALUE_STRING structure pointer [EAPHost]","eaphost.eap_method_property_value_string","eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING","eaptypes/PEAP_METHOD_PROPERTY_VALUE_STRING"]
 old-location: eaphost\eap_method_property_value_string.htm
 tech.root: eaphost
 ms.assetid: afb2d8f3-c2b1-45b8-9ff3-814c8e4b1595
@@ -82,7 +83,7 @@ Pointer to a byte buffer than contains the data value of an EAP method property.
 
 
 
-[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
+[EAPHost Supplicant Structures](/windows/win32/eaphost/eap-host-supplicant-structures)
 
 
 

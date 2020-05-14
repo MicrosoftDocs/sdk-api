@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.UnadviseItemsSink
 title: ITfLangBarItemMgr::UnadviseItemsSink (ctfutb.h)
-description: ITfLangBarItemMgr::UnadviseItemsSink method
+description: ITfLangBarItemMgr::UnadviseItemsSink methodhelpviewer_keywords: ["ITfLangBarItemMgr interface [Text Services Framework]","UnadviseItemsSink method","ITfLangBarItemMgr.UnadviseItemsSink","ITfLangBarItemMgr::UnadviseItemsSink","UnadviseItemsSink","UnadviseItemsSink method [Text Services Framework]","UnadviseItemsSink method [Text Services Framework]","ITfLangBarItemMgr interface","_tsf_itflangbaritemmgr_unadviseitemssink_ref","ctfutb/ITfLangBarItemMgr::UnadviseItemsSink","tsf.itflangbaritemmgr_unadviseitemssink"]
 old-location: tsf\itflangbaritemmgr_unadviseitemssink.htm
 tech.root: TSF
 ms.assetid: e15fb870-bedc-412d-9561-4db6c0515799
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes one or more language bar item event sinks.
 
 ## -parameters
 

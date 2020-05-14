@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsChangeUnit
 title: ISyncKnowledge::ContainsChangeUnit (winsync.h)
-description: Indicates whether the specified change unit change is known by this knowledge.
+description: Indicates whether the specified change unit change is known by this knowledge.helpviewer_keywords: ["ContainsChangeUnit","ContainsChangeUnit method [Windows Sync]","ContainsChangeUnit method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","ContainsChangeUnit method","ISyncKnowledge.ContainsChangeUnit","ISyncKnowledge::ContainsChangeUnit","winsync.isyncknowledge_containschangeunit","winsync/ISyncKnowledge::ContainsChangeUnit"]
 old-location: winsync\isyncknowledge_containschangeunit.htm
 tech.root: winsync
 ms.assetid: 67fc3b59-ad82-47a4-9fc6-2d980b9e26fe

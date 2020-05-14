@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj_core.IProgressDialog
 title: IProgressDialog (shlobj_core.h)
-description: Exposes methods that provide options for an application to display a progress dialog box.
+description: Exposes methods that provide options for an application to display a progress dialog box.helpviewer_keywords: ["IProgressDialog","IProgressDialog interface [Windows Shell]","IProgressDialog interface [Windows Shell]","described","_win32_IProgressDialog","shell.IProgressDialog","shlobj_core/IProgressDialog"]
 old-location: shell\IProgressDialog.htm
 tech.root: shell
 ms.assetid: ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb

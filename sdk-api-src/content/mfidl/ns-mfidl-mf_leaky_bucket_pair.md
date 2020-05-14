@@ -1,7 +1,7 @@
 ---
 UID: NS:mfidl._MF_LEAKY_BUCKET_PAIR
 title: MF_LEAKY_BUCKET_PAIR (mfidl.h)
-description: Specifies the buffering requirements of a file.
+description: Specifies the buffering requirements of a file.helpviewer_keywords: ["MF_LEAKY_BUCKET_PAIR","MF_LEAKY_BUCKET_PAIR structure [Media Foundation]","aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e","mf.mf_leaky_bucket_pair","mfidl/MF_LEAKY_BUCKET_PAIR"]
 old-location: mf\mf_leaky_bucket_pair.htm
 tech.root: medfound
 ms.assetid: aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
 title: IDWriteGdiInterop1::GetMatchingFontsByLOGFONT (dwrite_3.h)
-description: Gets a list of matching fonts based on the specified LOGFONT values. Only fonts of that family name will be returned.
+description: Gets a list of matching fonts based on the specified LOGFONT values. Only fonts of that family name will be returned.helpviewer_keywords: ["GetMatchingFontsByLOGFONT","GetMatchingFontsByLOGFONT method [Direct Write]","GetMatchingFontsByLOGFONT method [Direct Write]","IDWriteGdiInterop1 interface","IDWriteGdiInterop1 interface [Direct Write]","GetMatchingFontsByLOGFONT method","IDWriteGdiInterop1.GetMatchingFontsByLOGFONT","IDWriteGdiInterop1::GetMatchingFontsByLOGFONT","directwrite.idwritegdiinterop1_getmatchingfontsbylogfont","dwrite_3/IDWriteGdiInterop1::GetMatchingFontsByLOGFONT"]
 old-location: directwrite\idwritegdiinterop1_getmatchingfontsbylogfont.htm
 tech.root: DirectWrite
 ms.assetid: 38D547D2-0C1C-4673-83BD-38458DFD7E5A

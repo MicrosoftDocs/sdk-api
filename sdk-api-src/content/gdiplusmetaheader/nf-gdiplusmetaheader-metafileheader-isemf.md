@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmf
 title: MetafileHeader::IsEmf (gdiplusmetaheader.h)
-description: The MetafileHeader::IsEmf method determines whether the associated metafile is in the EMF format.
+description: The MetafileHeader::IsEmf method determines whether the associated metafile is in the EMF format.helpviewer_keywords: ["IsEmf","IsEmf method [GDI+]","IsEmf method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","IsEmf method","MetafileHeader.IsEmf","MetafileHeader::IsEmf","_gdiplus_CLASS_MetafileHeader_IsEmf_","gdiplus._gdiplus_CLASS_MetafileHeader_IsEmf_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmf_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemf.htm

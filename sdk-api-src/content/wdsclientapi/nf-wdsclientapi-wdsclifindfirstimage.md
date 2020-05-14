@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsclientapi.WdsCliFindFirstImage
 title: WdsCliFindFirstImage function (wdsclientapi.h)
-description: Starts the enumeration of images stored on a WDS server and returns a find handle that references the first image.
+description: Starts the enumeration of images stored on a WDS server and returns a find handle that references the first image.helpviewer_keywords: ["WdsCliFindFirstImage","WdsCliFindFirstImage function [Windows Deployment Services]","wds.wdsclifindfirstimage","wdsclientapi/WdsCliFindFirstImage"]
 old-location: wds\wdsclifindfirstimage.htm
 tech.root: wds
 ms.assetid: 1c631022-4c2b-410d-ab24-d0b8f7df10a3

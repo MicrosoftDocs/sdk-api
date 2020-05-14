@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilSetValueEx
 title: ResUtilSetValueEx function (resapi.h)
-description: Sets a value in the cluster database.
+description: Sets a value in the cluster database.helpviewer_keywords: ["ResUtilSetValueEx","ResUtilSetValueEx function [Failover Cluster]","mscs.resutilsetvalueex","resapi/ResUtilSetValueEx"]
 old-location: mscs\resutilsetvalueex.htm
 tech.root: MsCS
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B

@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_22
 title: QualAppFlowSpec (lpmapi.h)
-description: The QualAppFlowSpec structure contains FLOWSPEC information for a qualitative application.
+description: The QualAppFlowSpec structure contains FLOWSPEC information for a qualitative application.helpviewer_keywords: ["QualAppFlowSpec","QualAppFlowSpec structure [QOS]","lpmapi/QualAppFlowSpec","qos.qualappflowspec"]
 old-location: qos\qualappflowspec.htm
 tech.root: QOS
 ms.assetid: 4e15b094-4250-4699-b66e-6734cf37cbb6

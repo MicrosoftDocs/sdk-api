@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontList.GetFontCollection
 title: IDWriteFontList::GetFontCollection (dwrite.h)
-description: Gets the font collection that contains the fonts in the font list.
+description: Gets the font collection that contains the fonts in the font list.helpviewer_keywords: ["GetFontCollection","GetFontCollection method [Direct Write]","GetFontCollection method [Direct Write]","IDWriteFontList interface","IDWriteFontList interface [Direct Write]","GetFontCollection method","IDWriteFontList.GetFontCollection","IDWriteFontList::GetFontCollection","directwrite.IDWriteFontList_GetFontCollection","dwrite/IDWriteFontList::GetFontCollection"]
 old-location: directwrite\IDWriteFontList_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: f3c13a33-7bf7-4027-af10-f4863008cef2

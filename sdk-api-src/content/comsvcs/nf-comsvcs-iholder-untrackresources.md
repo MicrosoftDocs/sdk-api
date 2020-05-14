@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IHolder.UntrackResourceS
 title: IHolder::UntrackResourceS (comsvcs.h)
-description: Stops tracking a resource (string version).
+description: Stops tracking a resource (string version).helpviewer_keywords: ["IHolder interface [COM+]","UntrackResourceS method","IHolder.UntrackResourceS","IHolder::UntrackResourceS","UntrackResourceS","UntrackResourceS method [COM+]","UntrackResourceS method [COM+]","IHolder interface","_dtc_IHolder_UntrackResourceS","comsvcs/IHolder::UntrackResourceS","cos.iholder_untrackresources"]
 old-location: cos\iholder_untrackresources.htm
 tech.root: cossdk
 ms.assetid: 03e54d2d-9dfb-46cf-abb9-d3f37784c449

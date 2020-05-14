@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.BSTR_UserMarshal64
 title: BSTR_UserMarshal64 function (oaidl.h)
-description: Marshals a BSTR object into the RPC buffer.
+description: Marshals a BSTR object into the RPC buffer.helpviewer_keywords: ["BSTR_UserMarshal64","BSTR_UserMarshal64 function [Automation]","automat.bstr_usermarshal64","oaidl/BSTR_UserMarshal64"]
 old-location: automat\bstr_usermarshal64.htm
 tech.root: automat
 ms.assetid: f61b9e6b-14f1-4171-97c7-169547286626

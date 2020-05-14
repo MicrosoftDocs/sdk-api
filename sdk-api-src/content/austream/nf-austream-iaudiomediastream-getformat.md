@@ -1,7 +1,7 @@
 ---
 UID: NF:austream.IAudioMediaStream.GetFormat
 title: IAudioMediaStream::GetFormat (austream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream data's current format.
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream data's current format.helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAudioMediaStream interface","IAudioMediaStream interface [DirectShow]","GetFormat method","IAudioMediaStream.GetFormat","IAudioMediaStream::GetFormat","IAudioMediaStreamGetFormat","austream/IAudioMediaStream::GetFormat","dshow.iaudiomediastream_getformat"]
 old-location: dshow\iaudiomediastream_getformat.htm
 tech.root: DirectShow
 ms.assetid: df582b90-f537-42cf-a83e-109a20446d8a

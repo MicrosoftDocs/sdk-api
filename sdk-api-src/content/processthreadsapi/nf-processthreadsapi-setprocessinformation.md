@@ -2,6 +2,7 @@
 UID: NF:processthreadsapi.SetProcessInformation
 title: SetProcessInformation function (processthreadsapi.h)
 description: Sets information for the specified process.
+helpviewer_keywords: ["SetProcessInformation","SetProcessInformation function","base.setprocessinformation","processthreadsapi/SetProcessInformation"]
 old-location: base\setprocessinformation.htm
 tech.root: ProcThread
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
@@ -70,7 +71,7 @@ A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b
 
 ### -param ProcessInformationClass [in]
 
-The class of information to set.  
+A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to set.  
 
 
 ### -param ProcessInformation
@@ -80,11 +81,11 @@ Pointer to an object that contains the type of information specified by the
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessMemoryPriority</b>, this parameter must point to a 
-       <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
+       <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessPowerThrottling</b>, this parameter must point to a 
-       <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure.
+       <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
@@ -224,7 +225,7 @@ SetProcessInformation(GetCurrentProcess(),
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a>
+<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a>
 
 
 

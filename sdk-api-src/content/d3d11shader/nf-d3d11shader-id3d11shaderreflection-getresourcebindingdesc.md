@@ -2,6 +2,7 @@
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetResourceBindingDesc
 title: ID3D11ShaderReflection::GetResourceBindingDesc (d3d11shader.h)
 description: Get a description of how a resource is bound to a shader.
+helpviewer_keywords: ["32c283b0-2e5b-b925-599a-d35d69593ee6","GetResourceBindingDesc","GetResourceBindingDesc method [Direct3D 11]","GetResourceBindingDesc method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetResourceBindingDesc method","ID3D11ShaderReflection.GetResourceBindingDesc","ID3D11ShaderReflection::GetResourceBindingDesc","d3d11shader/ID3D11ShaderReflection::GetResourceBindingDesc","direct3d11.id3d11shaderreflection_getresourcebindingdesc"]
 old-location: direct3d11\id3d11shaderreflection_getresourcebindingdesc.htm
 tech.root: direct3d11
 ms.assetid: 2bd540f5-513d-4dd5-ab28-b0e8083231eb
@@ -66,9 +67,9 @@ A zero-based resource index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>*</b>
 
-A pointer to an input-binding description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>.
+A pointer to an input-binding description. See <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a>.
 
 
 ## -returns

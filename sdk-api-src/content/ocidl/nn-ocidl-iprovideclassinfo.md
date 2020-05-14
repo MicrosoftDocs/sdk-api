@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IProvideClassInfo
 title: IProvideClassInfo (ocidl.h)
-description: Provides access to the type information for an object's coclass entry in its type library.
+description: Provides access to the type information for an object's coclass entry in its type library.helpviewer_keywords: ["IProvideClassInfo","IProvideClassInfo interface [COM]","IProvideClassInfo interface [COM]","described","_com_iprovideclassinfo","com.iprovideclassinfo","ocidl/IProvideClassInfo"]
 old-location: com\iprovideclassinfo.htm
 tech.root: com
 ms.assetid: 867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c

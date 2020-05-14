@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION_ENUM_TEMPLATE0_
 title: FWPM_CONNECTION_ENUM_TEMPLATE0 (fwpmtypes.h)
-description: Used for limiting connection object enumerations.
+description: Used for limiting connection object enumerations.helpviewer_keywords: ["FWPM_CONNECTION_ENUM_FLAG_QUERY_BYTES_TRANSFERRED","FWPM_CONNECTION_ENUM_TEMPLATE0","FWPM_CONNECTION_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_connection_enum_template0","fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_connection_enum_template0.htm
 tech.root: fwp
 ms.assetid: 1939e4ae-9ff8-4ee7-895b-2ed992204b5c

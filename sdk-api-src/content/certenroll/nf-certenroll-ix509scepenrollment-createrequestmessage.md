@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRequestMessage
 title: IX509SCEPEnrollment::CreateRequestMessage (certenroll.h)
-description: Create a PKCS10 request message with a challenge password. The request message is in an enveloped PKCS7 encrypted with the SCEP server encryption certificate and signed by the server signing certificate.
+description: Create a PKCS10 request message with a challenge password. The request message is in an enveloped PKCS7 encrypted with the SCEP server encryption certificate and signed by the server signing certificate.helpviewer_keywords: ["CreateRequestMessage","CreateRequestMessage method [Security]","CreateRequestMessage method [Security]","IX509SCEPEnrollment interface","IX509SCEPEnrollment interface [Security]","CreateRequestMessage method","IX509SCEPEnrollment.CreateRequestMessage","IX509SCEPEnrollment::CreateRequestMessage","certenroll/IX509SCEPEnrollment::CreateRequestMessage","security.ix509scepenrollment_createrequestmessage"]
 old-location: security\ix509scepenrollment_createrequestmessage.htm
 tech.root: seccertenroll
 ms.assetid: b86d6dc3-aa96-45f3-9551-f24c39ea6cbf

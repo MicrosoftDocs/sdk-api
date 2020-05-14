@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.StopEngine
 title: IXAudio2::StopEngine (xaudio2.h)
-description: Stops the audio processing thread.
+description: Stops the audio processing thread.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","StopEngine method","IXAudio2.StopEngine","IXAudio2::StopEngine","StopEngine","StopEngine method [XAudio2 Audio Mixing APIs]","StopEngine method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_stopengine","xaudio2/IXAudio2::StopEngine"]
 old-location: xaudio2\ixaudio2_interface_stopengine.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.StopEngine

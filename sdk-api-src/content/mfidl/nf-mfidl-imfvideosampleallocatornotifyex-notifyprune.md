@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotifyEx.NotifyPrune
 title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune (mfidl.h)
-description: Called when allocator samples are released for pruning by the allocator, or when the allocator is removed.
+description: Called when allocator samples are released for pruning by the allocator, or when the allocator is removed.helpviewer_keywords: ["IMFVideoSampleAllocatorNotifyEx interface [Media Foundation]","NotifyPrune method","IMFVideoSampleAllocatorNotifyEx.NotifyPrune","IMFVideoSampleAllocatorNotifyEx::NotifyPrune","NotifyPrune","NotifyPrune method [Media Foundation]","NotifyPrune method [Media Foundation]","IMFVideoSampleAllocatorNotifyEx interface","mf.imfvideosampleallocatornotifyex_notifyprune","mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune"]
 old-location: mf\imfvideosampleallocatornotifyex_notifyprune.htm
 tech.root: medfound
 ms.assetid: DCC3B043-4BD9-4A39-AA4C-98054223769F

@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_DisplaySize
 title: IMSVidCtl::get_DisplaySize (msvidctl.h)
-description: The get_DisplaySize method retrieves the display size.
+description: The get_DisplaySize method retrieves the display size.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_DisplaySize method","IMSVidCtl.get_DisplaySize","IMSVidCtl::get_DisplaySize","IMSVidCtlget_DisplaySize","get_DisplaySize","get_DisplaySize method [Microsoft TV Technologies]","get_DisplaySize method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_displaysize","msvidctl/IMSVidCtl::get_DisplaySize"]
 old-location: mstv\imsvidctl_get_displaysize.htm
 tech.root: mstv
 ms.assetid: f3d5ed73-4781-46fb-8df4-a7dc339b755c

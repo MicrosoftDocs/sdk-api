@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICspInformation
 title: ICspInformation (certenroll.h)
-description: Provides access to general information about a cryptographic provider.
+description: Provides access to general information about a cryptographic provider.helpviewer_keywords: ["ICspInformation","ICspInformation interface [Security]","ICspInformation interface [Security]","described","certenroll/ICspInformation","security.icspinformation"]
 old-location: security\icspinformation.htm
 tech.root: seccertenroll
 ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8

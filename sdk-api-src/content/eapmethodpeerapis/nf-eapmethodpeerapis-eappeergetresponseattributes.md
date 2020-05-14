@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerGetResponseAttributes
 title: EapPeerGetResponseAttributes function (eapmethodpeerapis.h)
 description: Obtains an array of EAP response attributes from the EAP method.
+helpviewer_keywords: ["EapPeerGetResponseAttributes","EapPeerGetResponseAttributes function [EAPHost]","eaphost.eappeergetresponseattributes","eapmethodpeerapis/EapPeerGetResponseAttributes"]
 old-location: eaphost\eappeergetresponseattributes.htm
 tech.root: eaphost
 ms.assetid: 68610a3b-7d9e-41fe-bf3b-7b188949b1c0
@@ -88,7 +89,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemState
 title: INameSpaceTreeControl::GetItemState (shobjidl_core.h)
 description: Gets state information about a Shell item.
+helpviewer_keywords: ["GetItemState","GetItemState method [Windows Shell]","GetItemState method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetItemState method","INameSpaceTreeControl.GetItemState","INameSpaceTreeControl::GetItemState","_shell_INameSpaceTreeControl_GetItemState","shell.INameSpaceTreeControl_GetItemState","shobjidl_core/INameSpaceTreeControl::GetItemState"]
 old-location: shell\INameSpaceTreeControl_GetItemState.htm
 tech.root: shell
 ms.assetid: 78bee2db-6a28-4fcb-9c43-ab411196ab04
@@ -66,14 +67,14 @@ A pointer to the Shell item from which to retrieve the state.
 
 ### -param nstcisMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
 
-Specifies which information is being requested, in the form of a bitmap. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> constants.
+Specifies which information is being requested, in the form of a bitmap. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> constants.
 
 
 ### -param pnstcisFlags [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a>*</b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a>*</b>
 
 When this method returns, points to a bitmap that contains the values requested in <i>nstcisMask</i>.
 

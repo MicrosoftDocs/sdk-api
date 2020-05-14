@@ -1,7 +1,7 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetCollectionElements
 title: IVisualTreeService::GetCollectionElements (xamlom.h)
-description: Gets the elements in a collection.
+description: Gets the elements in a collection.helpviewer_keywords: ["GetCollectionElements","GetCollectionElements method","GetCollectionElements method","IVisualTreeService interface","IVisualTreeService interface","GetCollectionElements method","IVisualTreeService.GetCollectionElements","IVisualTreeService::GetCollectionElements","xaml_diagnostics.ivisualtreeservice_getcollectionelements","xamlom/IVisualTreeService::GetCollectionElements"]
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectionelements.htm
 tech.root: xaml_diagnostics
 ms.assetid: 01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8

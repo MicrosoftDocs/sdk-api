@@ -2,6 +2,7 @@
 UID: NN:iads.IADsObjectOptions
 title: IADsObjectOptions (iads.h)
 description: Provides a direct mechanism to specify and obtain provider-specific options for manipulating an ADSI object.
+helpviewer_keywords: ["IADsObjectOptions","IADsObjectOptions interface [ADSI]","IADsObjectOptions interface [ADSI]","described","_ds_iadsobjectoptions","adsi.iadsobjectoptions","iads/IADsObjectOptions"]
 old-location: adsi\iadsobjectoptions.htm
 tech.root: adsi
 ms.assetid: 1884efe5-86f5-4579-a25e-2ff9c9a6ec2a
@@ -93,11 +94,11 @@ Sets a provider-specific option for manipulating a directory object.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
 
 
 

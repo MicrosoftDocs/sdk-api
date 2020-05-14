@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IComponents.Add
 title: IComponents::Add (tuner.h)
-description: The Add method adds a Component object to the collection.
+description: The Add method adds a Component object to the collection.helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IComponents interface","IComponents interface [Microsoft TV Technologies]","Add method","IComponents.Add","IComponents::Add","IComponentsAdd","mstv.icomponents_add","tuner/IComponents::Add"]
 old-location: mstv\icomponents_add.htm
 tech.root: mstv
 ms.assetid: ec5d9d6c-4957-46f2-9798-6e30c934459e

@@ -1,7 +1,7 @@
 ---
 UID: NF:winscard.GetOpenCardNameA
 title: GetOpenCardNameA function (winscard.h)
-description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
+description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.helpviewer_keywords: ["GetOpenCardName","GetOpenCardName function [Security]","GetOpenCardNameA","GetOpenCardNameW","_smart_getopencardname","security.getopencardname","winscard/GetOpenCardName","winscard/GetOpenCardNameA","winscard/GetOpenCardNameW"]
 old-location: security\getopencardname.htm
 tech.root: SecAuthN
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55

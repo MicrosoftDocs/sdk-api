@@ -1,7 +1,7 @@
 ---
 UID: NC:ras.RasCustomHangUpFn
 title: RasCustomHangUpFn (ras.h)
-description: The RasCustomHangUp function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom connection hang-up routines.
+description: The RasCustomHangUp function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom connection hang-up routines.helpviewer_keywords: ["RasCustomHangUp","RasCustomHangUp callback function [RAS]","RasCustomHangUpFn","RasCustomHangUpFn callback","_ras_rascustomhangup","ras/RasCustomHangUp","rras.rascustomhangup"]
 old-location: rras\rascustomhangup.htm
 tech.root: RRAS
 ms.assetid: 56410af3-7b23-4536-998d-88d78d45585d

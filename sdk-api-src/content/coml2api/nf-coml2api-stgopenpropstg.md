@@ -1,7 +1,7 @@
 ---
 UID: NF:coml2api.StgOpenPropStg
 title: StgOpenPropStg function (coml2api.h)
-description: Opens a specified property set in a specified storage or stream object.
+description: Opens a specified property set in a specified storage or stream object.helpviewer_keywords: ["StgOpenPropStg","StgOpenPropStg function [Structured Storage]","_stg_stgopenpropstg","coml2api/StgOpenPropStg","stg.stgopenpropstg"]
 old-location: stg\stgopenpropstg.htm
 tech.root: Stg
 ms.assetid: ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e

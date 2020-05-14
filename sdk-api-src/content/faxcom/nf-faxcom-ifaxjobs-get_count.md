@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxJobs.get_Count
 title: IFaxJobs::get_Count (faxcom.h)
-description: The IFaxJobs::get_Count method returns the number of queued fax jobs associated with the connected fax server.
+description: The IFaxJobs::get_Count method returns the number of queued fax jobs associated with the connected fax server.helpviewer_keywords: ["IFaxJobs interface [Fax Service]","get_Count method","IFaxJobs.get_Count","IFaxJobs::get_Count","_mfax_ifaxjobs_get_count","fax._mfax_ifaxjobs_get_count","faxcom/IFaxJobs::get_Count","get_Count","get_Count method [Fax Service]","get_Count method [Fax Service]","IFaxJobs interface"]
 old-location: fax\_mfax_ifaxjobs_get_count.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_33zo.htm

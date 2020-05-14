@@ -1,7 +1,7 @@
 ---
 UID: NF:wabapi.IWABObject.GetMe
 title: IWABObject::GetMe (wabapi.h)
-description: Retrieves the entry identifier of the object that has been designated as &#0034;ME.&#0034;
+description: Retrieves the entry identifier of the object that has been designated as &#0034;ME.&#0034;helpviewer_keywords: ["AB_NO_DIALOG","GetMe","GetMe method [Windows Address Book]","GetMe method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","GetMe method","IWABObject.GetMe","IWABObject::GetMe","WABOBJECT_ME_NOCREATE","_wab_IWABObject_GetMe","wab._wab_IWABObject_GetMe","wabapi/IWABObject::GetMe"]
 old-location: wab\_wab_IWABObject_GetMe.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\getme.htm

@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionTranslateTransform
 title: IDCompositionTranslateTransform (dcomp.h)
-description: Represents a 2D transformation that affects only the offset of a visual along the x-axis and y-axis.
+description: Represents a 2D transformation that affects only the offset of a visual along the x-axis and y-axis.helpviewer_keywords: ["IDCompositionTranslateTransform","IDCompositionTranslateTransform interface [DirectComposition]","IDCompositionTranslateTransform interface [DirectComposition]","described","dcomp/IDCompositionTranslateTransform","directcomp.idcompositiontranslatetransform"]
 old-location: directcomp\idcompositiontranslatetransform.htm
 tech.root: directcomp
 ms.assetid: 2215721e-a10d-4c9e-b5b7-1698afa547d8

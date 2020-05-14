@@ -1,7 +1,7 @@
 ---
 UID: NF:shappmgr.IAppPublisher.EnumApps
 title: IAppPublisher::EnumApps (shappmgr.h)
-description: Creates an enumerator for enumerating all applications published by an application publisher for a given category.
+description: Creates an enumerator for enumerating all applications published by an application publisher for a given category.helpviewer_keywords: ["EnumApps","EnumApps method [Windows Shell]","EnumApps method [Windows Shell]","IAppPublisher interface","IAppPublisher interface [Windows Shell]","EnumApps method","IAppPublisher.EnumApps","IAppPublisher::EnumApps","inet_IAppPublisher_EnumApps","shappmgr/IAppPublisher::EnumApps","shell.IAppPublisher_EnumApps"]
 old-location: shell\IAppPublisher_EnumApps.htm
 tech.root: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb

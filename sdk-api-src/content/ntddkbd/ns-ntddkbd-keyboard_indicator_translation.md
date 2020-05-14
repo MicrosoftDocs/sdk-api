@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INDICATOR_TRANSLATION
 title: KEYBOARD_INDICATOR_TRANSLATION (ntddkbd.h)
-description: KEYBOARD_INDICATOR_TRANSLATION specifies a device-specific, variable length array of mappings between keyboard scan codes and LED indicators.
+description: KEYBOARD_INDICATOR_TRANSLATION specifies a device-specific, variable length array of mappings between keyboard scan codes and LED indicators.helpviewer_keywords: ["*PKEYBOARD_INDICATOR_TRANSLATION","KEYBOARD_INDICATOR_TRANSLATION","KEYBOARD_INDICATOR_TRANSLATION structure [Human Input Devices]","PKEYBOARD_INDICATOR_TRANSLATION","PKEYBOARD_INDICATOR_TRANSLATION structure pointer [Human Input Devices]","hid.keyboard_indicator_translation","kref_937bedf9-89bf-4db8-ad4d-2e8354a163f6.xml","ntddkbd/KEYBOARD_INDICATOR_TRANSLATION","ntddkbd/PKEYBOARD_INDICATOR_TRANSLATION"]
 old-location: hid\keyboard_indicator_translation.htm
 tech.root: hid
 ms.assetid: 7ee6ab87-b8fa-4d2c-a51f-5a20ed836d6a

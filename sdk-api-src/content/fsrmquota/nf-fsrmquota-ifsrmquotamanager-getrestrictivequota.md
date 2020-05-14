@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetRestrictiveQuota
 title: IFsrmQuotaManager::GetRestrictiveQuota (fsrmquota.h)
-description: Retrieves the most restrictive quota for the specified path.
+description: Retrieves the most restrictive quota for the specified path.helpviewer_keywords: ["FsrmQuotaManager class [File Server Resource Manager]","GetRestrictiveQuota method","GetRestrictiveQuota","GetRestrictiveQuota method [File Server Resource Manager]","GetRestrictiveQuota method [File Server Resource Manager]","FsrmQuotaManager class","GetRestrictiveQuota method [File Server Resource Manager]","IFsrmQuotaManager interface","GetRestrictiveQuota method [File Server Resource Manager]","IFsrmQuotaManagerEx interface","IFsrmQuotaManager interface [File Server Resource Manager]","GetRestrictiveQuota method","IFsrmQuotaManager.GetRestrictiveQuota","IFsrmQuotaManager::GetRestrictiveQuota","IFsrmQuotaManagerEx interface [File Server Resource Manager]","GetRestrictiveQuota method","IFsrmQuotaManagerEx::GetRestrictiveQuota","fs.ifsrmquotamanager_getrestrictivequota","fsrm.ifsrmquotamanager_getrestrictivequota","fsrmquota/IFsrmQuotaManager::GetRestrictiveQuota","fsrmquota/IFsrmQuotaManagerEx::GetRestrictiveQuota"]
 old-location: fsrm\ifsrmquotamanager_getrestrictivequota.htm
 tech.root: fsrm
 ms.assetid: aa1ac69d-341e-49fd-893c-82ce3577c1f5

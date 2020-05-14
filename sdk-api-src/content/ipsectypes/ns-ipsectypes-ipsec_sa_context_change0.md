@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_CHANGE0_
 title: IPSEC_SA_CONTEXT_CHANGE0 (ipsectypes.h)
 description: Contains information about an IPsec security association (SA) context change.
+helpviewer_keywords: ["IPSEC_SA_CONTEXT_CHANGE0","IPSEC_SA_CONTEXT_CHANGE0 structure [Filtering]","fwp.ipsec_sa_context_change0","ipsectypes/IPSEC_SA_CONTEXT_CHANGE0"]
 old-location: fwp\ipsec_sa_context_change0.htm
 tech.root: fwp
 ms.assetid: a81df783-72d8-4374-a3f8-44c3491a98db
@@ -59,7 +60,7 @@ The <b>IPSEC_SA_CONTEXT_CHANGE0</b> structure contains information about an IPse
 
 ### -field changeType
 
-Type: [IPSEC_SA_CONTEXT_EVENT_TYPE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)a></b>
+Type: [IPSEC_SA_CONTEXT_EVENT_TYPE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)</b>
 
 The type of IPsec SA context change event.
 
@@ -76,7 +77,7 @@ Identifier of the IPsec SA context that changed.
 
 
 
-[IPSEC_SA_CONTEXT_EVENT_TYPE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)a>
+[IPSEC_SA_CONTEXT_EVENT_TYPE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)
  
 
  

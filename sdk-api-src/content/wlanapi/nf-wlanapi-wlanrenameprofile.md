@@ -1,7 +1,7 @@
 ---
 UID: NF:wlanapi.WlanRenameProfile
 title: WlanRenameProfile function (wlanapi.h)
-description: Renames the specified profile.
+description: Renames the specified profile.helpviewer_keywords: ["WlanRenameProfile","WlanRenameProfile function [NativeWIFI]","nwifi.wlanrenameprofile","wlanapi/WlanRenameProfile"]
 old-location: nwifi\wlanrenameprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5

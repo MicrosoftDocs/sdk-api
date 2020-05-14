@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetGeometryShaderDesc
 title: ID3D10EffectPass::GetGeometryShaderDesc (d3d10effect.h)
-description: Get a geometry-shader description.
+description: Get a geometry-shader description.helpviewer_keywords: ["1f200fc8-f573-7b6c-75f4-5b7cf7a95eb1","GetGeometryShaderDesc","GetGeometryShaderDesc method [Direct3D 10]","GetGeometryShaderDesc method [Direct3D 10]","ID3D10EffectPass interface","ID3D10EffectPass interface [Direct3D 10]","GetGeometryShaderDesc method","ID3D10EffectPass.GetGeometryShaderDesc","ID3D10EffectPass::GetGeometryShaderDesc","d3d10effect/ID3D10EffectPass::GetGeometryShaderDesc","direct3d10.id3d10effectpass_getgeometryshaderdesc"]
 old-location: direct3d10\id3d10effectpass_getgeometryshaderdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getgeometryshaderdesc.htm

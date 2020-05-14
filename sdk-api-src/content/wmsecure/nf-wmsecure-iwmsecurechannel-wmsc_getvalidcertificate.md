@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_GetValidCertificate
 title: IWMSecureChannel::WMSC_GetValidCertificate (wmsecure.h)
-description: The WMSC_GetValidCertificate method returns a copy of the certificate that was used provided by the other side of the connection. Also returns the index of the signature that validated that certificate.
+description: The WMSC_GetValidCertificate method returns a copy of the certificate that was used provided by the other side of the connection. Also returns the index of the signature that validated that certificate.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_GetValidCertificate method","IWMSecureChannel.WMSC_GetValidCertificate","IWMSecureChannel::WMSC_GetValidCertificate","WMSC_GetValidCertificate","WMSC_GetValidCertificate method [windows Media Format]","WMSC_GetValidCertificate method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_getvalidcertificate","wmsecure/IWMSecureChannel::WMSC_GetValidCertificate"]
 old-location: wmformat\iwmsecurechannel_wmsc_getvalidcertificate.htm
 tech.root: wmformat
 ms.assetid: 0ecc25c5-238e-4415-952e-7d830ba1c317

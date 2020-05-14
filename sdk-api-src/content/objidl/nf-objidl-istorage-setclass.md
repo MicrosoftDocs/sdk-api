@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStorage.SetClass
 title: IStorage::SetClass (objidl.h)
-description: The SetClass method assigns the specified class identifier (CLSID) to this storage object.
+description: The SetClass method assigns the specified class identifier (CLSID) to this storage object.helpviewer_keywords: ["IStorage interface [Structured Storage]","SetClass method","IStorage.SetClass","IStorage::SetClass","SetClass","SetClass method [Structured Storage]","SetClass method [Structured Storage]","IStorage interface","_stg_istorage_setclass","objidl/IStorage::SetClass","stg.istorage_setclass"]
 old-location: stg\istorage_setclass.htm
 tech.root: Stg
 ms.assetid: 02ab2708-fc8b-4941-939a-a819cf823108

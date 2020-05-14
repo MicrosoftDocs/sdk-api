@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
 title: CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO (wincrypt.h)
-description: The CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure is used with previously distributed symmetric keys for decrypting the content key encryption key (KEK).
+description: The CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure is used with previously distributed symmetric keys for decrypting the content key encryption key (KEK).helpviewer_keywords: ["*PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO","CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO","CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure [Security]","PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO","PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure pointer [Security]","_crypto2_cmsg_mail_list_recipient_encode_info","security.cmsg_mail_list_recipient_encode_info","wincrypt/CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO","wincrypt/PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO"]
 old-location: security\cmsg_mail_list_recipient_encode_info.htm
 tech.root: SecCrypto
 ms.assetid: 4303a7e7-cb93-4ed1-85e6-42359c2c687c

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IFileDialogControlEvents
 title: IFileDialogControlEvents (shobjidl.h)
-description: Exposes methods that allow an application to be notified of events that are related to controls that the application has added to a common file dialog.
+description: Exposes methods that allow an application to be notified of events that are related to controls that the application has added to a common file dialog.helpviewer_keywords: ["IFileDialogControlEvents","IFileDialogControlEvents interface [Windows Shell]","IFileDialogControlEvents interface [Windows Shell]","described","shell.IFileDialogControlEvents","shell_IFileDialogControlEvents","shobjidl/IFileDialogControlEvents"]
 old-location: shell\IFileDialogControlEvents.htm
 tech.root: shell
 ms.assetid: 745ee176-53bc-4388-beaa-a0856a438ee6

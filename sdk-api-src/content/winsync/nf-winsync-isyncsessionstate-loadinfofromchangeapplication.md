@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncSessionState.LoadInfoFromChangeApplication
 title: ISyncSessionState::LoadInfoFromChangeApplication (winsync.h)
-description: Stores data for a serialized change applier.
+description: Stores data for a serialized change applier.helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","LoadInfoFromChangeApplication method","ISyncSessionState.LoadInfoFromChangeApplication","ISyncSessionState::LoadInfoFromChangeApplication","LoadInfoFromChangeApplication","LoadInfoFromChangeApplication method [Windows Sync]","LoadInfoFromChangeApplication method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_loadinfofromchangeapplication","winsync/ISyncSessionState::LoadInfoFromChangeApplication"]
 old-location: winsync\isyncsessionstate_loadinfofromchangeapplication.htm
 tech.root: winsync
 ms.assetid: 72c7947b-0eee-4b75-aff6-f208bebac3f2

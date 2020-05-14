@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoGetCurrentLogicalThreadId
 title: CoGetCurrentLogicalThreadId function (combaseapi.h)
-description: Returns the logical thread identifier of the current physical thread.
+description: Returns the logical thread identifier of the current physical thread.helpviewer_keywords: ["CoGetCurrentLogicalThreadId","CoGetCurrentLogicalThreadId function [COM]","_com_CoGetCurrentLogicalThreadId","com.cogetcurrentlogicalthreadid","combaseapi/CoGetCurrentLogicalThreadId"]
 old-location: com\cogetcurrentlogicalthreadid.htm
 tech.root: com
 ms.assetid: eced2f1e-9f2b-476c-bea8-945fb4804a89

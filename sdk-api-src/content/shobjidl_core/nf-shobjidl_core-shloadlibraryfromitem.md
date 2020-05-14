@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromItem
 title: SHLoadLibraryFromItem function (shobjidl_core.h)
-description: Creates and loads an IShellLibrary object from a specified library definition file.
+description: Creates and loads an IShellLibrary object from a specified library definition file.helpviewer_keywords: ["SHLoadLibraryFromItem","SHLoadLibraryFromItem function [Windows Shell]","_shell_SHLoadLibraryFromItem","shell.SHLoadLibraryFromItem","shobjidl_core/SHLoadLibraryFromItem"]
 old-location: shell\SHLoadLibraryFromItem.htm
 tech.root: shell
 ms.assetid: 9692f9d1-1504-43d0-9eb1-3759a8e2b42d

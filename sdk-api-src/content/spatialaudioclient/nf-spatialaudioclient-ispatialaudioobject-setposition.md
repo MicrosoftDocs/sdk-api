@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObject.SetPosition
 title: ISpatialAudioObject::SetPosition (spatialaudioclient.h)
-description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObject audio data will be rendered.
+description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObject audio data will be rendered.helpviewer_keywords: ["ISpatialAudioObject interface [Core Audio]","SetPosition method","ISpatialAudioObject.SetPosition","ISpatialAudioObject::SetPosition","SetPosition","SetPosition method [Core Audio]","SetPosition method [Core Audio]","ISpatialAudioObject interface","coreaudio.ispatialaudioobject_setposition","spatialaudioclient/ISpatialAudioObject::SetPosition"]
 old-location: coreaudio\ispatialaudioobject_setposition.htm
 tech.root: CoreAudio
 ms.assetid: DDF4859E-6510-45D5-82E7-2C5A7F2EC679

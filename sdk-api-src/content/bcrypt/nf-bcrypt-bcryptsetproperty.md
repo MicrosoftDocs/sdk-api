@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptSetProperty
 title: BCryptSetProperty function (bcrypt.h)
-description: Sets the value of a named property for a CNG object.
+description: Sets the value of a named property for a CNG object.helpviewer_keywords: ["BCryptSetProperty","BCryptSetProperty function [Security]","bcrypt/BCryptSetProperty","security.bcryptsetproperty_func"]
 old-location: security\bcryptsetproperty_func.htm
 tech.root: SecCNG
 ms.assetid: 687f3410-d28b-4ce2-a2a1-c564f757c668

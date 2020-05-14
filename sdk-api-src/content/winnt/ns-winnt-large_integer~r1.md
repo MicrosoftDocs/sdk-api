@@ -72,4 +72,4 @@ The <b>LARGE_INTEGER</b> structure is actually a union. If your compiler has bui
 ## -see-also
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>

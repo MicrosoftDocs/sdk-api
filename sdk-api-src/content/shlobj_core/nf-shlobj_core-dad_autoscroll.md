@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.DAD_AutoScroll
 title: DAD_AutoScroll function (shlobj_core.h)
-description: Scrolls the window while an image is being dragged.
+description: Scrolls the window while an image is being dragged.helpviewer_keywords: ["DAD_AutoScroll","DAD_AutoScroll function [Windows Shell]","shell.DAD_AutoScroll","shell_DAD_AutoScroll","shlobj_core/DAD_AutoScroll"]
 old-location: shell\DAD_AutoScroll.htm
 tech.root: shell
 ms.assetid: 3c5af682-8497-477e-8222-3eb37d1e295f

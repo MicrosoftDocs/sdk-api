@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.InitializeTransform
 title: IMFDeviceTransform::InitializeTransform (mftransform.h)
-description: InitializeTransform is called to initialize the Device MFT.
+description: InitializeTransform is called to initialize the Device MFT.helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","InitializeTransform method","IMFDeviceTransform.InitializeTransform","IMFDeviceTransform::InitializeTransform","InitializeTransform","InitializeTransform method [Streaming Media Devices]","InitializeTransform method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::InitializeTransform","stream.imfdevicetransform_initializetransform"]
 old-location: stream\imfdevicetransform_initializetransform.htm
 tech.root: stream
 ms.assetid: 02ACBC34-0514-4EAE-AC48-62F6AE219E93

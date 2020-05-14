@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetConfiguration
 title: IOCSPAdmin::GetConfiguration (certadm.h)
-description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
+description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.helpviewer_keywords: ["GetConfiguration","GetConfiguration method [Security]","GetConfiguration method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetConfiguration method","IOCSPAdmin.GetConfiguration","IOCSPAdmin::GetConfiguration","certadm/IOCSPAdmin::GetConfiguration","security.iocspadmin_getconfiguration_method"]
 old-location: security\iocspadmin_getconfiguration_method.htm
 tech.root: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb

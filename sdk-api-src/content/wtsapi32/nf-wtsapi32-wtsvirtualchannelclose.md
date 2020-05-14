@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelClose
 title: WTSVirtualChannelClose function (wtsapi32.h)
-description: Closes an open virtual channel handle.
+description: Closes an open virtual channel handle.helpviewer_keywords: ["WTSVirtualChannelClose","WTSVirtualChannelClose function [Remote Desktop Services]","_win32_wtsvirtualchannelclose","termserv.wtsvirtualchannelclose","wtsapi32/WTSVirtualChannelClose"]
 old-location: termserv\wtsvirtualchannelclose.htm
 tech.root: TermServ
 ms.assetid: d82cb1cd-a9bd-45e8-8a86-2c7dd860b987

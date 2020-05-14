@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ObjectDeleteAuditAlarmA
 title: ObjectDeleteAuditAlarmA function (winbase.h)
-description: Generates audit messages when an object is deleted.
+description: Generates audit messages when an object is deleted.helpviewer_keywords: ["ObjectDeleteAuditAlarm","ObjectDeleteAuditAlarm function [Security]","ObjectDeleteAuditAlarmA","ObjectDeleteAuditAlarmW","_win32_objectdeleteauditalarm","security.objectdeleteauditalarm","winbase/ObjectDeleteAuditAlarm","winbase/ObjectDeleteAuditAlarmA","winbase/ObjectDeleteAuditAlarmW"]
 old-location: security\objectdeleteauditalarm.htm
 tech.root: SecAuthZ
 ms.assetid: cb4c857c-5e63-41fe-8ae8-6762b0014a85

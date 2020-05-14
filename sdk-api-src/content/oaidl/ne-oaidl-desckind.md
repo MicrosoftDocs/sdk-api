@@ -1,7 +1,7 @@
 ---
 UID: NE:oaidl.tagDESCKIND
 title: DESCKIND (oaidl.h)
-description: Identifies the type description being bound to.
+description: Identifies the type description being bound to.helpviewer_keywords: ["DESCKIND","DESCKIND enumeration [Automation]","DESCKIND_FUNCDESC","DESCKIND_IMPLICITAPPOBJ","DESCKIND_MAX","DESCKIND_NONE","DESCKIND_TYPECOMP","DESCKIND_VARDESC","_oa96_DESCKIND","automat.desckind","oaidl/DESCKIND","oaidl/DESCKIND_FUNCDESC","oaidl/DESCKIND_IMPLICITAPPOBJ","oaidl/DESCKIND_MAX","oaidl/DESCKIND_NONE","oaidl/DESCKIND_TYPECOMP","oaidl/DESCKIND_VARDESC"]
 old-location: automat\desckind.htm
 tech.root: automat
 ms.assetid: bab3d80a-7610-455c-9c64-31a60f4bf01e

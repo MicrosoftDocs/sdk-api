@@ -2,6 +2,7 @@
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 description: Input structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PDEVICE_DSM_INPUT","*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES","DEVICE_DSM_FLAG_RESILIENCY_START_LOAD_BALANCING","DEVICE_DSM_FLAG_RESILIENCY_START_RESYNC","DEVICE_DSM_FLAG_TRIM_NOT_FS_ALLOCATED","DEVICE_DSM_INPUT","DEVICE_MANAGE_DATA_SET_ATTRIBUTES","DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure","DeviceDsmAction_Allocation","DeviceDsmAction_Notification","DeviceDsmAction_OffloadRead","DeviceDsmAction_OffloadWrite","DeviceDsmAction_Repair","DeviceDsmAction_Resiliency","DeviceDsmAction_Scrub","DeviceDsmAction_Trim","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer","base.device_manage_data_set_attributes","winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES","winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES"]
 old-location: base\device_manage_data_set_attributes.htm
 tech.root: devio
 ms.assetid: 328902b7-97e3-40dc-9771-f5e64ccf3364
@@ -93,7 +94,7 @@ A trim action is performed. This value is not supported for user-mode applicatio
 </td>
 <td width="60%">
 A notification action is performed. The additional parameters are in a 
-        <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
+        <a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
         structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
         indicate to the driver stack that this operation is non-destructive.
 
@@ -107,7 +108,7 @@ A notification action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload read action is performed. The additional parameters are in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -123,7 +124,7 @@ An offload read action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload write action is performed. The additional parameters are in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
          structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
@@ -153,7 +154,7 @@ An allocation bitmap is retrieved for the first data set range specified. The
 </td>
 <td width="60%">
 A repair action is performed. The additional parameters are in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 

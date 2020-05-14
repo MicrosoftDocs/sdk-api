@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaManager
 title: IFsrmQuotaManager (fsrmquota.h)
-description: Used to manage quotas.
+description: Used to manage quotas.helpviewer_keywords: ["IFsrmQuotaManager","IFsrmQuotaManager interface [File Server Resource Manager]","IFsrmQuotaManager interface [File Server Resource Manager]","described","fs.ifsrmquotamanager","fsrm.ifsrmquotamanager","fsrmquota/IFsrmQuotaManager"]
 old-location: fsrm\ifsrmquotamanager.htm
 tech.root: fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568

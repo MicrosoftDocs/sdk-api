@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_SERVICE_ACCEPT_CHANNEL_CALLBACK
 title: WS_SERVICE_ACCEPT_CHANNEL_CALLBACK (webservices.h)
-description: Invoked when a channel is accepted on an endpoint listener by service host.
+description: Invoked when a channel is accepted on an endpoint listener by service host.helpviewer_keywords: ["WS_SERVICE_ACCEPT_CHANNEL_CALLBACK","WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback","WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_SERVICE_ACCEPT_CHANNEL_CALLBACK","wsw.ws_service_accept_channel_callback"]
 old-location: wsw\ws_service_accept_channel_callback.htm
 tech.root: wsw
 ms.assetid: 473af4be-d193-42a5-82ff-359b50a7bc58

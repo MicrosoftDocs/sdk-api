@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALIASING_BARRIER
 title: D3D12_RESOURCE_ALIASING_BARRIER (d3d12.h)
-description: Describes the transition between usages of two different resources that have mappings into the same heap.
+description: Describes the transition between usages of two different resources that have mappings into the same heap.helpviewer_keywords: ["D3D12_RESOURCE_ALIASING_BARRIER","D3D12_RESOURCE_ALIASING_BARRIER structure","d3d12/D3D12_RESOURCE_ALIASING_BARRIER","direct3d12.d3d12_resource_aliasing_barrier"]
 old-location: direct3d12\d3d12_resource_aliasing_barrier.htm
 tech.root: direct3d12
 ms.assetid: 9855D609-E863-4334-B6BA-B6777FDAB82B

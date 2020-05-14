@@ -2,12 +2,12 @@
 UID: NF:tom.ITextPara.SetListLevelIndex
 title: ITextPara::SetListLevelIndex (tom.h)
 description: Sets the list level index used for paragraphs.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetListLevelIndex method","ITextPara.SetListLevelIndex","ITextPara::SetListLevelIndex","SetListLevelIndex","SetListLevelIndex method [Windows Controls]","SetListLevelIndex method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetListLevelIndex","_win32_ITextPara_SetListLevelIndex_cpp","controls.ITextPara_SetListLevelIndex","controls._win32_ITextPara_SetListLevelIndex","tom/ITextPara::SetListLevelIndex"]
 old-location: controls\ITextPara_SetListLevelIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistlevelindex.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListLevelIndex method, ITextPara.SetListLevelIndex, ITextPara::SetListLevelIndex, SetListLevelIndex, SetListLevelIndex method [Windows Controls], SetListLevelIndex method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListLevelIndex, _win32_ITextPara_SetListLevelIndex_cpp, controls.ITextPara_SetListLevelIndex, controls._win32_ITextPara_SetListLevelIndex, tom/ITextPara::SetListLevelIndex
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.SetListLevelIndex
 dev_langs:

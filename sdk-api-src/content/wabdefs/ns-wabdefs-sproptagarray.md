@@ -1,7 +1,7 @@
 ---
 UID: NS:wabdefs._SPropTagArray
 title: SPropTagArray (wabdefs.h)
-description: Do not use. Contains an array of property tags.
+description: Do not use. Contains an array of property tags.helpviewer_keywords: ["*LPSPropTagArray","SPropTagArray","SPropTagArray structure [Windows Address Book]","_wab_SPropTagArray","wab._wab_SPropTagArray","wabdefs/SPropTagArray"]
 old-location: wab\_wab_SPropTagArray.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\sproptagarray.htm

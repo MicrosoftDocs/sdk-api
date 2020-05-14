@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationInterpolator.SetDuration
 title: IUIAnimationInterpolator::SetDuration (uianimation.h)
 description: Sets the duration of the transition.
+helpviewer_keywords: ["IUIAnimationInterpolator interface [Windows Animation]","SetDuration method","IUIAnimationInterpolator.SetDuration","IUIAnimationInterpolator::SetDuration","SetDuration","SetDuration method [Windows Animation]","SetDuration method [Windows Animation]","IUIAnimationInterpolator interface","uianimation.iuianimationinterpolator_setduration","uianimation/IUIAnimationInterpolator::SetDuration"]
 old-location: uianimation\iuianimationinterpolator_setduration.htm
 tech.root: UIAnimation
 ms.assetid: 79038ada-ebc2-4259-862a-d81403c2f6b8
@@ -95,7 +96,7 @@ Windows Animation can call <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a>
 
 
 

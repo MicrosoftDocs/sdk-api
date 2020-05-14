@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateTargetForHwnd
 title: IDCompositionDevice::CreateTargetForHwnd (dcomp.h)
-description: Creates a composition target object that is bound to the window that is represented by the specified window handle (HWND).
+description: Creates a composition target object that is bound to the window that is represented by the specified window handle (HWND).helpviewer_keywords: ["CreateTargetForHwnd","CreateTargetForHwnd method [DirectComposition]","CreateTargetForHwnd method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateTargetForHwnd method","IDCompositionDevice.CreateTargetForHwnd","IDCompositionDevice::CreateTargetForHwnd","dcomp/IDCompositionDevice::CreateTargetForHwnd","directcomp.idcompositiondevice_createhwndtarget"]
 old-location: directcomp\idcompositiondevice_createhwndtarget.htm
 tech.root: directcomp
 ms.assetid: eba2388a-9c94-43f0-bf7f-e814895a2792

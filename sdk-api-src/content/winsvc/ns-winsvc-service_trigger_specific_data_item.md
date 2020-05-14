@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 title: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM (winsvc.h)
-description: Contains trigger-specific data for a service trigger event.
+description: Contains trigger-specific data for a service trigger event.helpviewer_keywords: ["*PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM","PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM","PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure pointer","SERVICE_TRIGGER_DATA_TYPE_BINARY","SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ALL","SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ANY","SERVICE_TRIGGER_DATA_TYPE_LEVEL","SERVICE_TRIGGER_DATA_TYPE_STRING","SERVICE_TRIGGER_SPECIFIC_DATA_ITEM","SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure","base.service_trigger_specific_data_item","winsvc/PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM","winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM"]
 old-location: base\service_trigger_specific_data_item.htm
 tech.root: Services
 ms.assetid: 670e6c49-bbc0-4af6-9e47-6c89801ebb45

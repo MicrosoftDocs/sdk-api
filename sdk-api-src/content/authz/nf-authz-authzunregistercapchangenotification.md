@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzUnregisterCapChangeNotification
 title: AuthzUnregisterCapChangeNotification function (authz.h)
-description: Removes a previously registered CAP update notification callback.
+description: Removes a previously registered CAP update notification callback.helpviewer_keywords: ["AuthzUnregisterCapChangeNotification","AuthzUnregisterCapChangeNotification function [Security]","authz/AuthzUnregisterCapChangeNotification","security.authzunregistercapchangenotification"]
 old-location: security\authzunregistercapchangenotification.htm
 tech.root: SecAuthZ
 ms.assetid: 79374C66-CD50-4351-A16B-AF79A579AF74

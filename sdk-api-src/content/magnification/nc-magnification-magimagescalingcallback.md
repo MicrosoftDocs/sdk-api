@@ -1,7 +1,7 @@
 ---
 UID: NC:magnification.MagImageScalingCallback
 title: MagImageScalingCallback (magnification.h)
-description: Prototype for a callback function that implements a custom transform for image scaling.
+description: Prototype for a callback function that implements a custom transform for image scaling.helpviewer_keywords: ["MagImageScalingCallback","MagImageScalingCallback callback","MagImageScalingCallback callback function [Magnification API]","magapi.magapi_MagImageScalingCallback","magapi_MagImageScalingCallback","magnification/MagImageScalingCallback"]
 old-location: magapi\magapi_MagImageScalingCallback.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magimagescalingcallback.htm

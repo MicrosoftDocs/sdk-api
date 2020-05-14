@@ -2,6 +2,7 @@
 UID: NF:winldap.ldap_count_valuesW
 title: ldap_count_valuesW function (winldap.h)
 description: The ldap_count_values function counts the number of values in a list.
+helpviewer_keywords: ["_ldap_ldap_count_values","ldap.ldap__count__values","ldap.ldap_count_values","ldap_count_values","ldap_count_values function [LDAP]","ldap_count_valuesA","ldap_count_valuesW","winldap/ldap_count_values","winldap/ldap_count_valuesA","winldap/ldap_count_valuesW"]
 old-location: ldap\ldap_count_values.htm
 tech.root: ldap
 ms.assetid: 3b00eeea-a966-4cf1-b945-2f052cae727a
@@ -81,7 +82,7 @@ If a <b>NULL</b> pointer is passed as the argument, 0 is returned. If an invalid
 
 
 The <b>ldap_count_values</b> function returns the number of values in an array of strings. To count binary values in an array of 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures, call 
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures, call 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_count_values_len">ldap_count_values_len</a>.
 
 
@@ -104,7 +105,7 @@ The <b>ldap_count_values</b> function returns the number of values in an array o
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

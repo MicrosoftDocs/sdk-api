@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetStartPoint
 title: IXpsOMLinearGradientBrush::SetStartPoint (xpsobjectmodel.h)
 description: Sets the start point of the gradient.
+helpviewer_keywords: ["IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","SetStartPoint method","IXpsOMLinearGradientBrush.SetStartPoint","IXpsOMLinearGradientBrush::SetStartPoint","SetStartPoint","SetStartPoint method [XPS Documents and Packaging]","SetStartPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","xps.ixpsomlineargradientbrush_setstartpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint"]
 old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm
 tech.root: printdocs
 ms.assetid: f2e40d75-c0de-4cba-850d-0c8c328e2950
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point described by <i>startPoint</i> was not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point described by <i>startPoint</i> was not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -138,7 +139,7 @@ The coordinates are relative to the page and are expressed in the units of the  
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskHandlerStatus.UpdateStatus
 title: ITaskHandlerStatus::UpdateStatus (taskschd.h)
-description: Tells the Task Scheduler about the percentage of completion of the COM handler.
+description: Tells the Task Scheduler about the percentage of completion of the COM handler.helpviewer_keywords: ["ITaskHandlerStatus interface [Task Scheduler]","UpdateStatus method","ITaskHandlerStatus.UpdateStatus","ITaskHandlerStatus::UpdateStatus","UpdateStatus","UpdateStatus method [Task Scheduler]","UpdateStatus method [Task Scheduler]","ITaskHandlerStatus interface","taskschd.itaskhandlerstatus_updatestatus","taskschd/ITaskHandlerStatus::UpdateStatus"]
 old-location: taskschd\itaskhandlerstatus_updatestatus.htm
 tech.root: taskschd
 ms.assetid: 3cab2b3b-7293-4d06-843f-9151d62d4950

@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapmsg
 title: LDAPMessage (winldap.h)
-description: Used by an LDAP function to return results and error data.
+description: Used by an LDAP function to return results and error data.helpviewer_keywords: ["*PLDAPMessage","LDAPMessage","LDAPMessage structure [LDAP]","PLDAPMessage","PLDAPMessage structure pointer [LDAP]","_ldap_ldapmessage","ldap.ldapmessage","winldap/LDAPMessage","winldap/PLDAPMessage"]
 old-location: ldap\ldapmessage.htm
 tech.root: ldap
 ms.assetid: 547a0736-23a4-4bfd-8ae0-866825228b53

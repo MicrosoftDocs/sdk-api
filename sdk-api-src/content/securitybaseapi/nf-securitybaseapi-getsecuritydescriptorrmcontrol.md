@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorRMControl
 title: GetSecurityDescriptorRMControl function (securitybaseapi.h)
-description: Retrieves the resource manager control bits.
+description: Retrieves the resource manager control bits.helpviewer_keywords: ["GetSecurityDescriptorRMControl","GetSecurityDescriptorRMControl function [Security]","_win32_getsecuritydescriptorrmcontrol","security.getsecuritydescriptorrmcontrol","securitybaseapi/GetSecurityDescriptorRMControl"]
 old-location: security\getsecuritydescriptorrmcontrol.htm
 tech.root: SecAuthZ
 ms.assetid: a1e2ce12-586b-4011-a82d-e246d5544367

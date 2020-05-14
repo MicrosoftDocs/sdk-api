@@ -2,12 +2,12 @@
 UID: NF:pla.IDataCollector.get_Index
 title: IDataCollector::get_Index (pla.h)
 description: Retrieves the index value of the data collector. The index value identifies the data collector within the data collector set.
+helpviewer_keywords: ["IDataCollector interface [PLA]","Index property","IDataCollector.Index","IDataCollector.get_Index","IDataCollector::Index","IDataCollector::get_Index","Index property [PLA]","Index property [PLA]","IDataCollector interface","base.idatacollector_index","get_Index","pla.idatacollector_index","pla/IDataCollector::Index","pla/IDataCollector::get_Index"]
 old-location: pla\idatacollector_index.htm
 tech.root: PLA
 ms.assetid: 05ba4bd2-33e3-4aa0-bca0-a247379b37bd
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],Index property, IDataCollector.Index, IDataCollector.get_Index, IDataCollector::Index, IDataCollector::get_Index, Index property [PLA], Index property [PLA],IDataCollector interface, base.idatacollector_index, get_Index, pla.idatacollector_index, pla/IDataCollector::Index, pla/IDataCollector::get_Index
-ms.topic: method
 f1_keywords:
 - pla/IDataCollector.Index
 dev_langs:

@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.ICreateWithTransactionEx
 title: ICreateWithTransactionEx (comsvcs.h)
-description: Creates an object that is enlisted within a manual transaction.
+description: Creates an object that is enlisted within a manual transaction.helpviewer_keywords: ["ICreateWithTransactionEx","ICreateWithTransactionEx interface [COM+]","ICreateWithTransactionEx interface [COM+]","described","_dtc_ICreateWithTransactionEx_Interface","comsvcs/ICreateWithTransactionEx","cos.icreatewithtransactionex"]
 old-location: cos\icreatewithtransactionex.htm
 tech.root: cossdk
 ms.assetid: 39b455d3-d3d2-46ae-a45e-b036c18e45bc

@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Create
 title: IPhotoAcquireOptionsDialog::Create (photoacquire.h)
-description: The Create method creates and displays a modeless instance of the photo options dialog box, hosted within a parent window.
+description: The Create method creates and displays a modeless instance of the photo options dialog box, hosted within a parent window.helpviewer_keywords: ["Create","Create method [Picture Acquisition]","Create method [Picture Acquisition]","IPhotoAcquireOptionsDialog interface","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","Create method","IPhotoAcquireOptionsDialog.Create","IPhotoAcquireOptionsDialog::Create","IPhotoAcquireOptionsDialogCreate","photoacquire/IPhotoAcquireOptionsDialog::Create","picacq.iphotoacquireoptionsdialog_create"]
 old-location: picacq\iphotoacquireoptionsdialog_create.htm
 tech.root: acquisition
 ms.assetid: 22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad

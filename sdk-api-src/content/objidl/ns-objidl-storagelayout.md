@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagStorageLayout
 title: StorageLayout (objidl.h)
-description: Describes a single block of data, including its name, location, and length.
+description: Describes a single block of data, including its name, location, and length.helpviewer_keywords: ["StorageLayout","StorageLayout structure [Structured Storage]","_stg_storagelayout","objidl/StorageLayout","stg.storagelayout"]
 old-location: stg\storagelayout.htm
 tech.root: Stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46

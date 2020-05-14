@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateConstantTransition
 title: IUIAnimationTransitionLibrary::CreateConstantTransition (uianimation.h)
-description: Creates a constant transition.
+description: Creates a constant transition.helpviewer_keywords: ["CreateConstantTransition","CreateConstantTransition method [Windows Animation]","CreateConstantTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateConstantTransition method","IUIAnimationTransitionLibrary.CreateConstantTransition","IUIAnimationTransitionLibrary::CreateConstantTransition","uianimation.iuianimationtransitionlibrary_createconstanttransition","uianimation/IUIAnimationTransitionLibrary::CreateConstantTransition"]
 old-location: uianimation\iuianimationtransitionlibrary_createconstanttransition.htm
 tech.root: UIAnimation
 ms.assetid: d9ad2c2d-8bcd-4730-86da-9b9432ac5b93

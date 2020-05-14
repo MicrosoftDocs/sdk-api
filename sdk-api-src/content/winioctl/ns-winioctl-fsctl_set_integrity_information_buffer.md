@@ -2,6 +2,7 @@
 UID: NS:winioctl._FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 description: Input buffer passed with the FSCTL_SET_INTEGRITY_INFORMATION control code.
+helpviewer_keywords: ["*PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER","CHECKSUM_TYPE_CRC64","CHECKSUM_TYPE_NONE","CHECKSUM_TYPE_UNCHANGED","FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF","FSCTL_SET_INTEGRITY_INFORMATION_BUFFER","FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure [Files]","PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER","PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files]","fs.fsctl_set_integrity_information_buffer","winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER","winioctl/PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER"]
 old-location: fs\fsctl_set_integrity_information_buffer.htm
 tech.root: FileIO
 ms.assetid: e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8
@@ -163,7 +164,7 @@ If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the fil
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

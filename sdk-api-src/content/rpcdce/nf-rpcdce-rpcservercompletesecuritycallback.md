@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcServerCompleteSecurityCallback
 title: RpcServerCompleteSecurityCallback function (rpcdce.h)
-description: The RpcServerCompleteSecurityCallback function completes an asynchronous security callback.
+description: The RpcServerCompleteSecurityCallback function completes an asynchronous security callback.helpviewer_keywords: ["RpcServerCompleteSecurityCallback","RpcServerCompleteSecurityCallback function [RPC]","rpc.rpcservercompletesecuritycallback","rpcdce/RpcServerCompleteSecurityCallback"]
 old-location: rpc\rpcservercompletesecuritycallback.htm
 tech.root: Rpc
 ms.assetid: 4DF613C7-CF82-47DB-9D6A-F820373534E6

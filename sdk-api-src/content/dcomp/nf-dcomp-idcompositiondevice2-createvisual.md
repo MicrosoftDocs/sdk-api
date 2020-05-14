@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateVisual
 title: IDCompositionDevice2::CreateVisual (dcomp.h)
-description: Creates a new visual object.
+description: Creates a new visual object.helpviewer_keywords: ["CreateVisual","CreateVisual method [DirectComposition]","CreateVisual method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateVisual method","IDCompositionDevice2.CreateVisual","IDCompositionDevice2::CreateVisual","dcomp/IDCompositionDevice2::CreateVisual","directcomp.idcompositiondevice2_createvisual"]
 old-location: directcomp\idcompositiondevice2_createvisual.htm
 tech.root: directcomp
 ms.assetid: CCF66B7A-5847-425C-92A4-969C8B915132

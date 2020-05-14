@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetDefaultLongestAcceptableDelay
 title: IUIAnimationManager2::SetDefaultLongestAcceptableDelay (uianimation.h)
-description: Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.
+description: Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","SetDefaultLongestAcceptableDelay method","IUIAnimationManager2.SetDefaultLongestAcceptableDelay","IUIAnimationManager2::SetDefaultLongestAcceptableDelay","SetDefaultLongestAcceptableDelay","SetDefaultLongestAcceptableDelay method [Windows Animation]","SetDefaultLongestAcceptableDelay method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay","uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay"]
 old-location: uianimation\iuianimationmanager2_setdefaultlongestacceptabledelay.htm
 tech.root: UIAnimation
 ms.assetid: CB00C22B-9837-43AD-9E04-30182B7386E9

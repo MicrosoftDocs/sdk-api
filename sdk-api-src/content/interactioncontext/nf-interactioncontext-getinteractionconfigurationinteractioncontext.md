@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.GetInteractionConfigurationInteractionContext
 title: GetInteractionConfigurationInteractionContext function (interactioncontext.h)
-description: Gets interaction configuration state for the Interaction Context object.
+description: Gets interaction configuration state for the Interaction Context object.helpviewer_keywords: ["GetInteractionConfigurationInteractionContext","GetInteractionConfigurationInteractionContext function","input_intcontext.getinteractionconfigurationinteractioncontext","interactioncontext.getinteractionconfigurationinteractioncontext","interactioncontext/GetInteractionConfigurationInteractionContext"]
 old-location: input_intcontext\getinteractionconfigurationinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 30996835-420a-4141-838f-10b62b562992

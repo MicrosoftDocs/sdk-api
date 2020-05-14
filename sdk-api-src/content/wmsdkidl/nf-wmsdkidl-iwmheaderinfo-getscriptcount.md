@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetScriptCount
 title: IWMHeaderInfo::GetScriptCount (wmsdkidl.h)
-description: The GetScriptCount method returns the number of scripts currently in the header section of the ASF file.
+description: The GetScriptCount method returns the number of scripts currently in the header section of the ASF file.helpviewer_keywords: ["GetScriptCount","GetScriptCount method [windows Media Format]","GetScriptCount method [windows Media Format]","IWMHeaderInfo interface","GetScriptCount method [windows Media Format]","IWMHeaderInfo2 interface","GetScriptCount method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetScriptCount method","IWMHeaderInfo.GetScriptCount","IWMHeaderInfo2 interface [windows Media Format]","GetScriptCount method","IWMHeaderInfo2::GetScriptCount","IWMHeaderInfo3 interface [windows Media Format]","GetScriptCount method","IWMHeaderInfo3::GetScriptCount","IWMHeaderInfo::GetScriptCount","IWMHeaderInfoGetScriptCount","wmformat.iwmheaderinfo_getscriptcount","wmsdkidl/IWMHeaderInfo2::GetScriptCount","wmsdkidl/IWMHeaderInfo3::GetScriptCount","wmsdkidl/IWMHeaderInfo::GetScriptCount"]
 old-location: wmformat\iwmheaderinfo_getscriptcount.htm
 tech.root: wmformat
 ms.assetid: c1a0b35c-db05-402a-9bde-684bead1eedf

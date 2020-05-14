@@ -1,7 +1,7 @@
 ---
 UID: NE:appxpackaging.APPX_FOOTPRINT_FILE_TYPE
 title: APPX_FOOTPRINT_FILE_TYPE (appxpackaging.h)
-description: Specifies the type of footprint file in a package.
+description: Specifies the type of footprint file in a package.helpviewer_keywords: ["APPX_FOOTPRINT_FILE_TYPE","APPX_FOOTPRINT_FILE_TYPE enumeration [App packaging and management]","APPX_FOOTPRINT_FILE_TYPE_BLOCKMAP","APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY","APPX_FOOTPRINT_FILE_TYPE_CONTENTGROUPMAP","APPX_FOOTPRINT_FILE_TYPE_MANIFEST","APPX_FOOTPRINT_FILE_TYPE_SIGNATURE","appxpackaging/APPX_FOOTPRINT_FILE_TYPE","appxpackaging/APPX_FOOTPRINT_FILE_TYPE_BLOCKMAP","appxpackaging/APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY","appxpackaging/APPX_FOOTPRINT_FILE_TYPE_CONTENTGROUPMAP","appxpackaging/APPX_FOOTPRINT_FILE_TYPE_MANIFEST","appxpackaging/APPX_FOOTPRINT_FILE_TYPE_SIGNATURE","appxpkg.appx_footprint_file_type"]
 old-location: appxpkg\appx_footprint_file_type.htm
 tech.root: appxpkg
 ms.assetid: AF158108-06E5-45D5-BD64-DA3CEFFB88F0

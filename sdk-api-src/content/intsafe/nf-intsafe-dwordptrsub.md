@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.DWordPtrSub
 title: DWordPtrSub function (intsafe.h)
-description: Subtracts one value of type DWORD_PTR from another.
+description: Subtracts one value of type DWORD_PTR from another.helpviewer_keywords: ["DWordPtrSub","DWordPtrSub function [Windows Shell]","_shell_DWordPtrSub","intsafe/DWordPtrSub","shell.DWordPtrSub"]
 old-location: shell\DWordPtrSub.htm
 tech.root: shell
 ms.assetid: cfe9ec32-ed6a-42fa-9891-3ce2e88cd5d0

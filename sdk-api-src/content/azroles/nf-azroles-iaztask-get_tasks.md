@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.get_Tasks
 title: IAzTask::get_Tasks (azroles.h)
-description: Retrieves the tasks associated with the task.
+description: Retrieves the tasks associated with the task.helpviewer_keywords: ["AzTask object [Security]","Tasks property","IAzTask interface [Security]","Tasks property","IAzTask.Tasks","IAzTask.get_Tasks","IAzTask::Tasks","IAzTask::get_Tasks","Tasks property [Security]","Tasks property [Security]","AzTask object","Tasks property [Security]","IAzTask interface","azroles/IAzTask::Tasks","azroles/IAzTask::get_Tasks","get_Tasks","security.iaztask_tasks"]
 old-location: security\iaztask_tasks.htm
 tech.root: SecAuthZ
 ms.assetid: a4baa899-78eb-4a3b-bcc1-0b8c2831b10f

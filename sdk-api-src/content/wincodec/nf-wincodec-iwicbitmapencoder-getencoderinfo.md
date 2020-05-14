@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetEncoderInfo
 title: IWICBitmapEncoder::GetEncoderInfo (wincodec.h)
-description: Retrieves an IWICBitmapEncoderInfo for the encoder.
+description: Retrieves an IWICBitmapEncoderInfo for the encoder.helpviewer_keywords: ["GetEncoderInfo","GetEncoderInfo method [Windows Imaging Component]","GetEncoderInfo method [Windows Imaging Component]","IWICBitmapEncoder interface","IWICBitmapEncoder interface [Windows Imaging Component]","GetEncoderInfo method","IWICBitmapEncoder.GetEncoderInfo","IWICBitmapEncoder::GetEncoderInfo","_wic_codec_iwicbitmapencoder_getencoderinfo","wic._wic_codec_iwicbitmapencoder_getencoderinfo","wincodec/IWICBitmapEncoder::GetEncoderInfo"]
 old-location: wic\_wic_codec_iwicbitmapencoder_getencoderinfo.htm
 tech.root: wic
 ms.assetid: af723a68-89c8-4d0c-88ef-cda4abaad6f7

@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSGetPropertySystem
 title: PSGetPropertySystem function (propsys.h)
-description: Gets an instance of the subsystem object that implements IPropertySystem.
+description: Gets an instance of the subsystem object that implements IPropertySystem.helpviewer_keywords: ["PSGetPropertySystem","PSGetPropertySystem function [Windows Properties]","properties.PSGetPropertySystem","propsys/PSGetPropertySystem","shell.PSGetPropertySystem","shell_PSGetPropertySystem"]
 old-location: properties\PSGetPropertySystem.htm
 tech.root: properties
 ms.assetid: ddbf7cea-b22f-4cf9-8b5f-804640086466

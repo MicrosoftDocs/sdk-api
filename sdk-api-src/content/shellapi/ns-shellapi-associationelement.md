@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi.ASSOCIATIONELEMENT
 title: ASSOCIATIONELEMENT (shellapi.h)
-description: Defines information used by AssocCreateForClasses to retrieve an IQueryAssociations interface for a given file association.
+description: Defines information used by AssocCreateForClasses to retrieve an IQueryAssociations interface for a given file association.helpviewer_keywords: ["ASSOCCLASS_APP_KEY","ASSOCCLASS_APP_STR","ASSOCCLASS_CLSID_KEY","ASSOCCLASS_CLSID_STR","ASSOCCLASS_FIXED_PROGID_STR","ASSOCCLASS_FOLDER","ASSOCCLASS_PROGID_KEY","ASSOCCLASS_PROGID_STR","ASSOCCLASS_PROTOCOL_STR","ASSOCCLASS_SHELL_KEY","ASSOCCLASS_STAR","ASSOCCLASS_SYSTEM_STR","ASSOCIATIONELEMENT","ASSOCIATIONELEMENT structure [Windows Shell]","_shell_ASSOCIATIONELEMENT","shell.ASSOCIATIONELEMENT","shellapi/ASSOCIATIONELEMENT"]
 old-location: shell\ASSOCIATIONELEMENT.htm
 tech.root: shell
 ms.assetid: 1d1a963f-7ebb-4ba6-9a97-795c8ef11ae4

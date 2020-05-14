@@ -1,7 +1,7 @@
 ---
 UID: NF:scserver.CSecureChannelServer.EncryptParam
 title: CSecureChannelServer::EncryptParam (scserver.h)
-description: The EncryptParam method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
+description: The EncryptParam method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","EncryptParam method","CSecureChannelServer.EncryptParam","CSecureChannelServer::EncryptParam","CSecureChannelServerEncryptParam","EncryptParam","EncryptParam method [windows Media Device Manager]","EncryptParam method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::EncryptParam","wmdm.csecurechannelserver_encryptparam"]
 old-location: wmdm\csecurechannelserver_encryptparam.htm
 tech.root: WMDM
 ms.assetid: dbfc72a6-acd5-40c2-8951-ab90e5c4d752

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW) (d2d1svg.h)
-description: Sets an attribute of this element as an overflow value. This method can be used to set the value of the overflow property.
+description: Sets an attribute of this element as an overflow value. This method can be used to set the value of the overflow property.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","D2D1_SVG_OVERFLOW)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","D2D1_SVG_OVERFLOW)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_8"]
 old-location: direct2d\id2d1svgelement_setattributevalue_8.htm
 tech.root: Direct2D
 ms.assetid: C8D942A4-EBE7-433E-9B2F-2432A1305861

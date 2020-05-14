@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Restart
 title: IFaxOutgoingJob::Restart (faxcomex.h)
-description: The IFaxOutgoingJob::Restart method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, IFaxOutgoingJob::Restart will restart the fax job.
+description: The IFaxOutgoingJob::Restart method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, IFaxOutgoingJob::Restart will restart the fax job.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Restart method","IFaxOutgoingJob.Restart","IFaxOutgoingJob::Restart","Restart","Restart method [Fax Service]","Restart method [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.restart","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_restart_cpp","fax._mfax_faxoutgoingjob_restart","faxcomex/IFaxOutgoingJob::Restart"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_restart_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ak4.htm

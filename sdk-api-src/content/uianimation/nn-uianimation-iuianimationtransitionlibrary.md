@@ -1,7 +1,7 @@
 ---
 UID: NN:uianimation.IUIAnimationTransitionLibrary
 title: IUIAnimationTransitionLibrary (uianimation.h)
-description: Defines a library of standard transitions.
+description: Defines a library of standard transitions.helpviewer_keywords: ["IUIAnimationTransitionLibrary","IUIAnimationTransitionLibrary interface [Windows Animation]","IUIAnimationTransitionLibrary interface [Windows Animation]","described","uianimation.iuianimationtransitionlibrary","uianimation/IUIAnimationTransitionLibrary"]
 old-location: uianimation\iuianimationtransitionlibrary.htm
 tech.root: UIAnimation
 ms.assetid: 7d256937-b191-499f-9711-05a5ef3b8e18

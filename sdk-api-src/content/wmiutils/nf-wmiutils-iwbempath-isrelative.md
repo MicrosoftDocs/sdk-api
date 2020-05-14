@@ -1,7 +1,7 @@
 ---
 UID: NF:wmiutils.IWbemPath.IsRelative
 title: IWbemPath::IsRelative (wmiutils.h)
-description: The IWbemPath::IsRelative method tests if the path, as already set in the parser, is relative to a particular computer and namespace.
+description: The IWbemPath::IsRelative method tests if the path, as already set in the parser, is relative to a particular computer and namespace.helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","IsRelative method","IWbemPath.IsRelative","IWbemPath::IsRelative","IsRelative","IsRelative method [Windows Management Instrumentation]","IsRelative method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_isrelative","wmi.iwbempath_isrelative","wmiutils/IWbemPath::IsRelative"]
 old-location: wmi\iwbempath_isrelative.htm
 tech.root: WmiSdk
 ms.assetid: e7a2d585-98da-4f8f-b1df-bb961a1286f1

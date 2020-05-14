@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkCursor
 title: IInkCursor (msinkaut.h)
-description: Represents general information about the tablet cursor.
+description: Represents general information about the tablet cursor.helpviewer_keywords: ["39b365ad-1eb0-4183-8799-a3c3ecbd3f6e","IInkCursor","IInkCursor interface [Tablet PC]","IInkCursor interface [Tablet PC]","described","msinkaut/IInkCursor","tablet.iinkcursor"]
 old-location: tablet\iinkcursor.htm
 tech.root: tablet
 ms.assetid: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e

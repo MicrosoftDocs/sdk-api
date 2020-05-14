@@ -2,6 +2,7 @@
 UID: NS:winefs._ENCRYPTION_CERTIFICATE
 title: ENCRYPTION_CERTIFICATE (winefs.h)
 description: Contains a certificate and the SID of its owner.
+helpviewer_keywords: ["*PENCRYPTION_CERTIFICATE","ENCRYPTION_CERTIFICATE","ENCRYPTION_CERTIFICATE structure [Files]","PENCRYPTION_CERTIFICATE","PENCRYPTION_CERTIFICATE structure pointer [Files]","_win32_encryption_certificate_str","base.encryption_certificate_str","fs.encryption_certificate_str","winefs/ENCRYPTION_CERTIFICATE","winefs/PENCRYPTION_CERTIFICATE"]
 old-location: fs\encryption_certificate_str.htm
 tech.root: FileIO
 ms.assetid: 33b36659-48bb-4297-8142-f8702db03d20
@@ -70,7 +71,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">
 ### -field pCertBlob
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/winefs/ns-winefs-efs_certificate_blob">EFS_CERTIFICATE_BLOB</a> structure.
+<a href="/windows/win32/api/winefs/ns-winefs-efs_certificate_blob">EFS_CERTIFICATE_BLOB</a> structure.
 
 
 ## -see-also
@@ -78,7 +79,7 @@ A pointer to an
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winefs/ns-winefs-efs_certificate_blob">EFS_CERTIFICATE_BLOB</a>
+<a href="/windows/win32/api/winefs/ns-winefs-efs_certificate_blob">EFS_CERTIFICATE_BLOB</a>
 
 
 

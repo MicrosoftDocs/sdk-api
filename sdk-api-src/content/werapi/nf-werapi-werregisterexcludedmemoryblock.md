@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerRegisterExcludedMemoryBlock
 title: WerRegisterExcludedMemoryBlock function (werapi.h)
-description: Marks a memory block (that is normally included by default in error reports) to be excluded from the error report.
+description: Marks a memory block (that is normally included by default in error reports) to be excluded from the error report.helpviewer_keywords: ["WerRegisterExcludedMemoryBlock","WerRegisterExcludedMemoryBlock function [Windows Error Reporting]","wer.werregisterexcludedmemoryblock","werapi/WerRegisterExcludedMemoryBlock"]
 old-location: wer\werregisterexcludedmemoryblock.htm
 tech.root: wer
 ms.assetid: 6CDA8EDD-C8A5-471D-9716-3AB29E571133

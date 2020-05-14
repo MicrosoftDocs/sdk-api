@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchProtocol.ShutDown
 title: ISearchProtocol::ShutDown (searchapi.h)
-description: Shuts down the protocol handler.
+description: Shuts down the protocol handler.helpviewer_keywords: ["ISearchProtocol interface [search]","ShutDown method","ISearchProtocol.ShutDown","ISearchProtocol::ShutDown","ShutDown","ShutDown method [search]","ShutDown method [search]","ISearchProtocol interface","_search_ISearchProtocol_ShutDown","search._search_ISearchProtocol_ShutDown","searchapi/ISearchProtocol::ShutDown"]
 old-location: search\_search_ISearchProtocol_ShutDown.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\shutdown.htm

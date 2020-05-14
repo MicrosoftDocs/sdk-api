@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetOutput
 title: IMILBitmapEffectPrimitive::GetOutput (mileffects.h)
-description: Performs pixel processing for the bitmap effect.
+description: Performs pixel processing for the bitmap effect.helpviewer_keywords: ["GetOutput","GetOutput method [WPF Bitmap Effects]","GetOutput method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","GetOutput method","IMILBitmapEffectPrimitive.GetOutput","IMILBitmapEffectPrimitive::GetOutput","_wibe_imilbitmapeffectprimitive_getoutput","mileffects/IMILBitmapEffectPrimitive::GetOutput","wibe._wibe_imilbitmapeffectprimitive_getoutput"]
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getoutput.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getoutput.htm

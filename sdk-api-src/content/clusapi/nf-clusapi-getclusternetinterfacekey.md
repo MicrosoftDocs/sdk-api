@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.GetClusterNetInterfaceKey
 title: GetClusterNetInterfaceKey function (clusapi.h)
-description: Opens the root of the cluster database subtree for a network interface object.
+description: Opens the root of the cluster database subtree for a network interface object.helpviewer_keywords: ["GetClusterNetInterfaceKey","GetClusterNetInterfaceKey function [Failover Cluster]","_wolf_getclusternetinterfacekey","clusapi/GetClusterNetInterfaceKey","mscs.getclusternetinterfacekey"]
 old-location: mscs\getclusternetinterfacekey.htm
 tech.root: MsCS
 ms.assetid: c6ba405a-e485-49fc-81f4-dd6c7b7bef04

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._ENCLAVE_INIT_INFO_SGX
 title: ENCLAVE_INIT_INFO_SGX (winnt.h)
-description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_SGX, which specifies an enclave for the Intel Software Guard Extensions (SGX) architecture extension.
+description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_SGX, which specifies an enclave for the Intel Software Guard Extensions (SGX) architecture extension.helpviewer_keywords: ["*PENCLAVE_INIT_INFO_SGX","ENCLAVE_INIT_INFO_SGX","ENCLAVE_INIT_INFO_SGX structure","PENCLAVE_INIT_INFO_SGX","PENCLAVE_INIT_INFO_SGX structure pointer","base.enclave_init_info_sgx","winnt/ENCLAVE_INIT_INFO_SGX","winnt/PENCLAVE_INIT_INFO_SGX"]
 old-location: base\enclave_init_info_sgx.htm
 tech.root: Memory
 ms.assetid: A314FF96-A212-4F47-B836-224DE2C3AC0F

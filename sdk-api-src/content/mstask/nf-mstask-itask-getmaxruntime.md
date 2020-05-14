@@ -1,7 +1,7 @@
 ---
 UID: NF:mstask.ITask.GetMaxRunTime
 title: ITask::GetMaxRunTime (mstask.h)
-description: This method retrieves the maximum length of time, in milliseconds, the task can run before terminating.
+description: This method retrieves the maximum length of time, in milliseconds, the task can run before terminating.helpviewer_keywords: ["GetMaxRunTime","GetMaxRunTime method [Task Scheduler]","GetMaxRunTime method [Task Scheduler]","ITask interface","ITask interface [Task Scheduler]","GetMaxRunTime method","ITask.GetMaxRunTime","ITask::GetMaxRunTime","_msb_itask_getmaxruntime","mstask/ITask::GetMaxRunTime","taskschd.itask_getmaxruntime"]
 old-location: taskschd\itask_getmaxruntime.htm
 tech.root: taskschd
 ms.assetid: a9f27929-d304-4696-bb36-0c0a34c71388

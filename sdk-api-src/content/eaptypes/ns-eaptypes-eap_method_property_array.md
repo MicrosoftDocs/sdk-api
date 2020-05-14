@@ -2,6 +2,7 @@
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_ARRAY
 title: EAP_METHOD_PROPERTY_ARRAY (eaptypes.h)
 description: Contains an array of EAP method properties.
+helpviewer_keywords: ["EAP_METHOD_PROPERTY_ARRAY","EAP_METHOD_PROPERTY_ARRAY structure [EAPHost]","PEAP_METHOD_PROPERTY_ARRAY","PEAP_METHOD_PROPERTY_ARRAY structure pointer [EAPHost]","eaphost.eap_method_property_array","eaptypes/EAP_METHOD_PROPERTY_ARRAY","eaptypes/PEAP_METHOD_PROPERTY_ARRAY"]
 old-location: eaphost\eap_method_property_array.htm
 tech.root: eaphost
 ms.assetid: 1dfe2fb2-a4e5-4c14-8cde-083e45134f7b
@@ -87,7 +88,7 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 
-[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
+[EAPHost Supplicant Structures](/windows/win32/eaphost/eap-host-supplicant-structures)
 
 
 

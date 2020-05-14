@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMREBAR
 title: NMREBAR (commctrl.h)
-description: Contains information used in handling various rebar notifications.
+description: Contains information used in handling various rebar notifications.helpviewer_keywords: ["*LPNMREBAR","LPNMREBAR","LPNMREBAR structure pointer [Windows Controls]","NMREBAR","NMREBAR structure [Windows Controls]","RBNM_ID","RBNM_LPARAM","RBNM_STYLE","_win32_NMREBAR","_win32_NMREBAR_cpp","commctrl/LPNMREBAR","commctrl/NMREBAR","controls.NMREBAR","controls._win32_NMREBAR"]
 old-location: controls\NMREBAR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebar.htm

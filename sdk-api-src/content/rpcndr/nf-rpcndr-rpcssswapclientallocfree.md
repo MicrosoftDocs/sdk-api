@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSsSwapClientAllocFree
 title: RpcSsSwapClientAllocFree function (rpcndr.h)
-description: The RpcSsSwapClientAllocFree function exchanges the memory allocation and release mechanisms used by the client stubs with those supplied by the client.
+description: The RpcSsSwapClientAllocFree function exchanges the memory allocation and release mechanisms used by the client stubs with those supplied by the client.helpviewer_keywords: ["RpcSsSwapClientAllocFree","RpcSsSwapClientAllocFree function [RPC]","_rpc_rpcssswapclientallocfree","rpc.rpcssswapclientallocfree","rpcndr/RpcSsSwapClientAllocFree"]
 old-location: rpc\rpcssswapclientallocfree.htm
 tech.root: Rpc
 ms.assetid: 1ed7161b-f49c-48bc-8b64-3a9596833f19

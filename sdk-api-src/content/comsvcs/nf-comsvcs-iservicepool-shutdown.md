@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IServicePool.Shutdown
 title: IServicePool::Shutdown (comsvcs.h)
-description: Shuts down an object pool.
+description: Shuts down an object pool.helpviewer_keywords: ["IServicePool interface [COM+]","Shutdown method","IServicePool.Shutdown","IServicePool::Shutdown","Shutdown","Shutdown method [COM+]","Shutdown method [COM+]","IServicePool interface","_cos_IServicePool_Shutdown","comsvcs/IServicePool::Shutdown","cos.iservicepool_shutdown"]
 old-location: cos\iservicepool_shutdown.htm
 tech.root: cossdk
 ms.assetid: d06f4227-e85a-4779-b240-5a2e71d9756b

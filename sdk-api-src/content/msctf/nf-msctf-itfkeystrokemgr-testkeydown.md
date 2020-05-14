@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.TestKeyDown
 title: ITfKeystrokeMgr::TestKeyDown (msctf.h)
-description: ITfKeystrokeMgr::TestKeyDown method
+description: ITfKeystrokeMgr::TestKeyDown methodhelpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","TestKeyDown method","ITfKeystrokeMgr.TestKeyDown","ITfKeystrokeMgr::TestKeyDown","TestKeyDown","TestKeyDown method [Text Services Framework]","TestKeyDown method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_testkeydown_ref","msctf/ITfKeystrokeMgr::TestKeyDown","tsf.itfkeystrokemgr_testkeydown"]
 old-location: tsf\itfkeystrokemgr_testkeydown.htm
 tech.root: TSF
 ms.assetid: e1f03aff-ce6e-4bb6-ad08-666e04cf6c13
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if the keystroke manager will handle a key down event.
 
 ## -parameters
 

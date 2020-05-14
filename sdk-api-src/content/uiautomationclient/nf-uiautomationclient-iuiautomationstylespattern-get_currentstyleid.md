@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentStyleId
 title: IUIAutomationStylesPattern::get_CurrentStyleId (uiautomationclient.h)
-description: Retrieves the identifier of the visual style associated with an element in a document.
+description: Retrieves the identifier of the visual style associated with an element in a document.helpviewer_keywords: ["CurrentStyleId property [Windows Accessibility]","CurrentStyleId property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CurrentStyleId property","IUIAutomationStylesPattern.CurrentStyleId","IUIAutomationStylesPattern.get_CurrentStyleId","IUIAutomationStylesPattern::CurrentStyleId","IUIAutomationStylesPattern::get_CurrentStyleId","get_CurrentStyleId","uiautomationclient/IUIAutomationStylesPattern::CurrentStyleId","uiautomationclient/IUIAutomationStylesPattern::get_CurrentStyleId","winauto.uiauto_IUIAutomationStylesPattern_CurrentStyleId"]
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentStyleId.htm
 tech.root: WinAuto
 ms.assetid: 0A27D032-5FC2-4095-A454-C1D6E7255D2A

@@ -1,7 +1,7 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationCompositor2
 title: IDirectManipulationCompositor2 (directmanipulation.h)
-description: Represents a compositor object that associates manipulated content with drawing surfaces across multiple processes.
+description: Represents a compositor object that associates manipulated content with drawing surfaces across multiple processes.helpviewer_keywords: ["IDirectManipulationCompositor2","IDirectManipulationCompositor2 interface [Direct Manipulation]","IDirectManipulationCompositor2 interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationcompositor2","directmanipulation/IDirectManipulationCompositor2"]
 old-location: directmanipulation\idirectmanipulationcompositor2.htm
 tech.root: directmanipulation
 ms.assetid: e428ddaa-3913-498a-a3fd-bed10289cd8d

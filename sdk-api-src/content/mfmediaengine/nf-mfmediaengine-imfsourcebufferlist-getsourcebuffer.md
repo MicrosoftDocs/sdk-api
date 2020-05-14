@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferList.GetSourceBuffer
 title: IMFSourceBufferList::GetSourceBuffer (mfmediaengine.h)
-description: Gets the IMFSourceBuffer at the specified index in the list.
+description: Gets the IMFSourceBuffer at the specified index in the list.helpviewer_keywords: ["GetSourceBuffer","GetSourceBuffer method [Media Foundation]","GetSourceBuffer method [Media Foundation]","IMFSourceBufferList interface","IMFSourceBufferList interface [Media Foundation]","GetSourceBuffer method","IMFSourceBufferList.GetSourceBuffer","IMFSourceBufferList::GetSourceBuffer","mf.imfsourcebufferlist_getsourcebuffer","mfmediaengine/IMFSourceBufferList::GetSourceBuffer"]
 old-location: mf\imfsourcebufferlist_getsourcebuffer.htm
 tech.root: medfound
 ms.assetid: 7f756c2e-79d0-400b-a84a-bc0e268f4f5b

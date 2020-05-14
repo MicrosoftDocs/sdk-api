@@ -1,7 +1,7 @@
 ---
 UID: NF:winusb.WinUsb_GetDescriptor
 title: WinUsb_GetDescriptor function (winusb.h)
-description: The WinUsb_GetDescriptor function returns the requested descriptor. This is a synchronous operation.
+description: The WinUsb_GetDescriptor function returns the requested descriptor. This is a synchronous operation.helpviewer_keywords: ["WinUsb_GetDescriptor","WinUsb_GetDescriptor function [Buses]","buses.winusb_getdescriptor","winusb/WinUsb_GetDescriptor","winusbfunc_abc6ce9f-1e6f-470f-8770-6376cc9ffebf.xml"]
 old-location: buses\winusb_getdescriptor.htm
 tech.root: usbref
 ms.assetid: 59393a8f-4da9-44fd-8380-bb97e50cdb51

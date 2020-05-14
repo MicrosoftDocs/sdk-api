@@ -1,7 +1,7 @@
 ---
 UID: NS:vsbackup._VSS_COMPONENTINFO
 title: VSS_COMPONENTINFO (vsbackup.h)
-description: Contains information about a given component.
+description: Contains information about a given component.helpviewer_keywords: ["PVSSCOMPONENTINFO","PVSSCOMPONENTINFO structure pointer [VSS]","VSS_COMPONENTINFO","VSS_COMPONENTINFO structure [VSS]","_win32_vss_componentinfo","base.vss_componentinfo","vsbackup/PVSSCOMPONENTINFO","vsbackup/VSS_COMPONENTINFO"]
 old-location: base\vss_componentinfo.htm
 tech.root: VSS
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45

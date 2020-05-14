@@ -2,6 +2,7 @@
 UID: NF:tom.ITextFont2.IsEqual2
 title: ITextFont2::IsEqual2 (tom.h)
 description: Determines whether this text font object has the same properties as the specified text font object.
+helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","IsEqual2 method","ITextFont2.IsEqual2","ITextFont2::IsEqual2","IsEqual2","IsEqual2 method [Windows Controls]","IsEqual2 method [Windows Controls]","ITextFont2 interface","controls.itextfont2_isequal2","tom/ITextFont2::IsEqual2"]
 old-location: controls\itextfont2_isequal2.htm
 tech.root: Controls
 ms.assetid: c423bbdb-a108-4f29-8dc4-3dd35849f39a
@@ -88,7 +89,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
  For two text font objects to be equal, both must belong to the same Text Object Model (TOM) object. 
 
-The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a> value.
+The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a> value.
 
 
 

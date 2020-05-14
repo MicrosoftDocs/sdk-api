@@ -1,7 +1,7 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTFIELDDATA
 title: DD_GETVPORTFIELDDATA (ddrawint.h)
-description: The DD_GETVPORTFIELDDATA structure contains the information required for the driver to determine whether the current field of an interlaced signal is even or odd.
+description: The DD_GETVPORTFIELDDATA structure contains the information required for the driver to determine whether the current field of an interlaced signal is even or odd.helpviewer_keywords: ["*PDD_GETVPORTFIELDDATA","DD_GETVPORTFIELDDATA","DD_GETVPORTFIELDDATA structure [Display Devices]","ddrawint/DD_GETVPORTFIELDDATA","ddstrcts_777ca41f-3364-4f07-96cb-cd249ff16179.xml","display.dd_getvportfielddata"]
 old-location: display\dd_getvportfielddata.htm
 tech.root: display
 ms.assetid: 549956f8-c39f-4cc3-b72a-b1e3785463e8

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DrawEdge
 title: DrawEdge function (winuser.h)
-description: The DrawEdge function draws one or more edges of rectangle.
+description: The DrawEdge function draws one or more edges of rectangle.helpviewer_keywords: ["BDR_RAISEDINNER","BDR_RAISEDOUTER","BDR_SUNKENINNER","BDR_SUNKENOUTER","BF_ADJUST","BF_BOTTOM","BF_BOTTOMLEFT","BF_BOTTOMRIGHT","BF_DIAGONAL","BF_DIAGONAL_ENDBOTTOMLEFT","BF_DIAGONAL_ENDBOTTOMRIGHT","BF_DIAGONAL_ENDTOPLEFT","BF_DIAGONAL_ENDTOPRIGHT","BF_FLAT","BF_LEFT","BF_MIDDLE","BF_MONO","BF_RECT","BF_RIGHT","BF_SOFT","BF_TOP","BF_TOPLEFT","BF_TOPRIGHT","DrawEdge","DrawEdge function [Windows GDI]","EDGE_BUMP","EDGE_ETCHED","EDGE_RAISED","EDGE_SUNKEN","_win32_DrawEdge","gdi.drawedge","winuser/DrawEdge"]
 old-location: gdi\drawedge.htm
 tech.root: gdi
 ms.assetid: 07d5216e-b577-4ff3-9e3f-eefb486b1ebd

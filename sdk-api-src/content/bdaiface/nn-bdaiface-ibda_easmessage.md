@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_EasMessage
 title: IBDA_EasMessage (bdaiface.h)
-description: The IBDA_EasMessage interface represents an ATSC emergency alert system (EAS) message table.
+description: The IBDA_EasMessage interface represents an ATSC emergency alert system (EAS) message table.helpviewer_keywords: ["IBDA_EasMessage","IBDA_EasMessage interface [Microsoft TV Technologies]","IBDA_EasMessage interface [Microsoft TV Technologies]","described","IBDA_EasMessageInterface","bdaiface/IBDA_EasMessage","mstv.ibda_easmessage"]
 old-location: mstv\ibda_easmessage.htm
 tech.root: mstv
 ms.assetid: dfacaa47-c844-434f-951a-9ee38fa8af4a

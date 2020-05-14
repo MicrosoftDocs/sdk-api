@@ -1,7 +1,7 @@
 ---
 UID: NF:mgm.MgmDeRegisterMProtocol
 title: MgmDeRegisterMProtocol function (mgm.h)
-description: The MgmDeRegisterMProtocol function deregisters a client handle obtained from a call to MgmRegisterMProtocol.
+description: The MgmDeRegisterMProtocol function deregisters a client handle obtained from a call to MgmRegisterMProtocol.helpviewer_keywords: ["MgmDeRegisterMProtocol","MgmDeRegisterMProtocol function [RAS]","_mpr_mgmderegistermprotocol","mgm/MgmDeRegisterMProtocol","rras.mgmderegistermprotocol"]
 old-location: rras\mgmderegistermprotocol.htm
 tech.root: RRAS
 ms.assetid: e9b2613e-4e52-4993-81dd-0be50a072db6

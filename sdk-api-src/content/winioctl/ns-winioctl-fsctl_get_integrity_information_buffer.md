@@ -2,6 +2,7 @@
 UID: NS:winioctl._FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 description: Contains the integrity information for a file or directory.
+helpviewer_keywords: ["*PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER","CHECKSUM_TYPE_CRC64","CHECKSUM_TYPE_NONE","FSCTL_GET_INTEGRITY_INFORMATION_BUFFER","FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure [Files]","FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF","PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER","PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files]","fs.fsctl_get_integrity_information_buffer","winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER","winioctl/PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER"]
 old-location: fs\fsctl_get_integrity_information_buffer.htm
 tech.root: FileIO
 ms.assetid: ab87f987-b734-4ad0-af16-1ba967db48d7
@@ -151,7 +152,7 @@ Size in bytes of a cluster for this volume. This value must be a power of 2, mus
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

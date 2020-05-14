@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualQuery
 title: VirtualQuery function (memoryapi.h)
-description: Retrieves information about a range of pages in the virtual address space of the calling process.
+description: Retrieves information about a range of pages in the virtual address space of the calling process.helpviewer_keywords: ["VirtualQuery","VirtualQuery function","_win32_virtualquery","base.virtualquery","winbase/VirtualQuery"]
 old-location: base\virtualquery.htm
 tech.root: Memory
 ms.assetid: 3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3

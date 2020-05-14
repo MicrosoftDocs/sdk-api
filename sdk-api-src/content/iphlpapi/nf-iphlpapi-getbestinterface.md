@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetBestInterface
 title: GetBestInterface function (iphlpapi.h)
-description: The GetBestInterface function retrieves the index of the interface that has the best route to the specified IPv4 address.
+description: The GetBestInterface function retrieves the index of the interface that has the best route to the specified IPv4 address.helpviewer_keywords: ["GetBestInterface","GetBestInterface function [IP Helper]","_iphlp_getbestinterface","iphlp.getbestinterface","iphlpapi/GetBestInterface"]
 old-location: iphlp\getbestinterface.htm
 tech.root: IpHlp
 ms.assetid: 9171cdf7-4057-4a8d-a34c-1b7b1f94bcb1

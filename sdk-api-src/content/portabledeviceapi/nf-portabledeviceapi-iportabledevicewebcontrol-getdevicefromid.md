@@ -2,6 +2,7 @@
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromId
 title: IPortableDeviceWebControl::GetDeviceFromId (portabledeviceapi.h)
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
+helpviewer_keywords: ["GetDeviceFromId","GetDeviceFromId method [WPD Automation]","GetDeviceFromId method [WPD Automation]","IPortableDeviceWebControl interface","IPortableDeviceWebControl interface [WPD Automation]","GetDeviceFromId method","IPortableDeviceWebControl.GetDeviceFromId","IPortableDeviceWebControl::GetDeviceFromId","portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId","wpdauto.iportabledevicewebcontrol_getdevicefromid"]
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
 tech.root: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
@@ -123,31 +124,15 @@ For WPD devices that use an MTP device service, you can create a COM Automation 
 
 
 ```javascript
-
- 
 deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
  
 var device = deviceFactory.getDeviceFromId(deviceId);
 // Get the first service on the device
 var deviceService = device.services[0];
-
 ```
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicewebcontrol">IPortableDeviceWebControl</a>
 
-
-
-<a href="https://code.msdn.microsoft.com/windowsapps/Portable-Device-f97089b5">Portable Device Service Sample</a>
- 
-
- 
-
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PortableDeviceServices">Portable Device Service Sample</a>

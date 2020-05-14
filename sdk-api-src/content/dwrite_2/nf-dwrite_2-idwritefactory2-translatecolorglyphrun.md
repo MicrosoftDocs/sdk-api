@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.TranslateColorGlyphRun
 title: IDWriteFactory2::TranslateColorGlyphRun (dwrite_2.h)
-description: This method is called on a glyph run to translate it in to multiple color glyph runs.
+description: This method is called on a glyph run to translate it in to multiple color glyph runs.helpviewer_keywords: ["IDWriteFactory2 interface [Direct Write]","TranslateColorGlyphRun method","IDWriteFactory2.TranslateColorGlyphRun","IDWriteFactory2::TranslateColorGlyphRun","TranslateColorGlyphRun","TranslateColorGlyphRun method [Direct Write]","TranslateColorGlyphRun method [Direct Write]","IDWriteFactory2 interface","directwrite.idwritefactory2_translatecolorglyphrun","dwrite_2/IDWriteFactory2::TranslateColorGlyphRun"]
 old-location: directwrite\idwritefactory2_translatecolorglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: 1D31F807-C3F2-466F-9723-E6F12B13BFA1

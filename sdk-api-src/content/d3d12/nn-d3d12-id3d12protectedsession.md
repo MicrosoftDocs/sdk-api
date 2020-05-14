@@ -2,6 +2,7 @@
 UID: NN:d3d12.ID3D12ProtectedSession
 title: ID3D12ProtectedSession (d3d12.h)
 description: Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions.
+helpviewer_keywords: ["ID3D12ProtectedSession","ID3D12ProtectedSession interface","ID3D12ProtectedSession interface","described","d3d12/ID3D12ProtectedSession","direct3d12.id3d12protectedsession"]
 old-location: direct3d12\id3d12protectedsession.htm
 tech.root: direct3d12
 ms.assetid: BBB87F18-A4F4-44E7-AFD8-803BD2C7C753
@@ -66,7 +67,7 @@ The <b>ID3D12ProtectedSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
+<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the protected session.
@@ -75,7 +76,7 @@ Gets the status of the protected session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
+<a href="/windows/win32/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.

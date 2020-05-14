@@ -2,6 +2,7 @@
 UID: NF:roerrorapi.RoOriginateError
 title: RoOriginateError function
 description: Reports an error and an informative string to an attached debugger.
+helpviewer_keywords: ["RoOriginateError","RoOriginateError function [Windows Runtime]","WinRTOriginateError","roerrorapi/RoOriginateError","roerrorapi/WinRTOriginateError","winrt.rooriginateerror","winrt.winrtoriginateerror"]
 old-location: winrt\rooriginateerror.htm
 tech.root: WinRT
 ms.assetid: ED647880-5A18-4F75-B7E5-3B9BF36229D3
@@ -132,7 +133,7 @@ The error is communicated to the debugger by raising a structured exception.  Th
 
 Depending on the current configuration of the debugger, the <b>RoOriginateError</b> function may cause execution to halt in the debugger at the site of the exception.
 
- If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
+ If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
 
 
 

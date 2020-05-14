@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.FindTypeRef
 title: IMetaDataImport::FindTypeRef (rometadataapi.h)
-description: Gets a pointer to the TypeRef token for the Type reference that is in the specified scope and that has the specified name.
+description: Gets a pointer to the TypeRef token for the Type reference that is in the specified scope and that has the specified name.helpviewer_keywords: ["FindTypeRef","FindTypeRef method [Windows Runtime]","FindTypeRef method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","FindTypeRef method","IMetaDataImport.FindTypeRef","IMetaDataImport::FindTypeRef","rometadataapi/IMetaDataImport::FindTypeRef","winrt.imetadataimport_findtyperef"]
 old-location: winrt\imetadataimport_findtyperef.htm
 tech.root: WinRT
 ms.assetid: ec89d7c0-b607-4885-b819-3eb8022ad46d

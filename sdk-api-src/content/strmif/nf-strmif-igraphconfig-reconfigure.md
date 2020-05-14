@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IGraphConfig.Reconfigure
 title: IGraphConfig::Reconfigure (strmif.h)
-description: The Reconfigure method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.
+description: The Reconfigure method locks the filter graph and calls a callback function in the application or filter to perform a dynamic reconfiguration.helpviewer_keywords: ["IGraphConfig interface [DirectShow]","Reconfigure method","IGraphConfig.Reconfigure","IGraphConfig::Reconfigure","IGraphConfigReconfigure","Reconfigure","Reconfigure method [DirectShow]","Reconfigure method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_reconfigure","strmif/IGraphConfig::Reconfigure"]
 old-location: dshow\igraphconfig_reconfigure.htm
 tech.root: DirectShow
 ms.assetid: 924087c0-e3ad-437b-96e5-de39bbce2ea7

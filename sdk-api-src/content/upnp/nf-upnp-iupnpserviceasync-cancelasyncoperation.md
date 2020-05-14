@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.CancelAsyncOperation
 title: IUPnPServiceAsync::CancelAsyncOperation (upnp.h)
-description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.
+description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.helpviewer_keywords: ["CancelAsyncOperation","CancelAsyncOperation method [UPnP APIs]","CancelAsyncOperation method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","CancelAsyncOperation method","IUPnPServiceAsync.CancelAsyncOperation","IUPnPServiceAsync::CancelAsyncOperation","upnp.iupnpserviceasync_cancelasyncoperation","upnp/IUPnPServiceAsync::CancelAsyncOperation"]
 old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm
 tech.root: upnp
 ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6

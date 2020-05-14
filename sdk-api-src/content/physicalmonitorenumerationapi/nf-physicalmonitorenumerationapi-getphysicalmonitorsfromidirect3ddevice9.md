@@ -2,6 +2,7 @@
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromIDirect3DDevice9
 title: GetPhysicalMonitorsFromIDirect3DDevice9 function (physicalmonitorenumerationapi.h)
 description: Retrieves the physical monitors associated with a Direct3D device.
+helpviewer_keywords: ["GetPhysicalMonitorsFromIDirect3DDevice9","GetPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration]","monitor.getphysicalmonitorsfromidirect3ddevice9","physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9"]
 old-location: monitor\getphysicalmonitorsfromidirect3ddevice9.htm
 tech.root: Monitor
 ms.assetid: 1e0e9749-8ee4-42d5-ab7b-182222b6c429
@@ -71,7 +72,7 @@ Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of 
 
 ### -param pPhysicalMonitorArray [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
+Pointer to an array of <a href="/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
           
 
 

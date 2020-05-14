@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_SetValue
 title: LegacyIAccessiblePattern_SetValue function (uiautomationcoreapi.h)
-description: Sets the Microsoft Active Accessibility value property for the node.
+description: Sets the Microsoft Active Accessibility value property for the node.helpviewer_keywords: ["LegacyIAccessiblePattern_SetValue","LegacyIAccessiblePattern_SetValue function [Windows Accessibility]","uiauto.uiauto_LegacyIAccessiblePattern_SetValue","uiauto_LegacyIAccessiblePattern_SetValue","uiautomationcoreapi/LegacyIAccessiblePattern_SetValue","winauto.uiauto_LegacyIAccessiblePattern_SetValue"]
 old-location: winauto\uiauto_LegacyIAccessiblePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: ce3fc72b-ddef-4add-a9ff-42763af7ec48

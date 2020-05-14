@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation) (dcomp.h)
 description: Animates the value of the OffsetX property of a 3D translation transform effect. The OffsetX property specifies the distance to translate along the x-axis.
+helpviewer_keywords: ["IDCompositionTranslateTransform3D interface [DirectComposition]","SetOffsetX method","IDCompositionTranslateTransform3D.SetOffsetX","IDCompositionTranslateTransform3D.SetOffsetX(IDCompositionAnimation)","IDCompositionTranslateTransform3D::SetOffsetX","IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation)","IDCompositionTranslateTransform3D::SetOffsetX(IDCompositionAnimation*)","SetOffsetX","SetOffsetX method [DirectComposition]","SetOffsetX method [DirectComposition]","IDCompositionTranslateTransform3D interface","dcomp/IDCompositionTranslateTransform3D::SetOffsetX","directcomp.idcompositiontranslatetransform3d_setoffsetx_idcompositionanimation"]
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 0F68BE7E-C413-429F-BA0C-36A26B2DFA72
@@ -98,11 +99,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(float)">IDCompositionTranslateTransform3D::SetOffsetY</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsety(float)">IDCompositionTranslateTransform3D::SetOffsetY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetz(float)">IDCompositionTranslateTransform3D::SetOffsetZ</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetz(float)">IDCompositionTranslateTransform3D::SetOffsetZ</a>
  
 
  

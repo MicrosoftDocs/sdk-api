@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_LAYER0_
 title: FWPM_LAYER0 (fwpmtypes.h)
 description: Schema information for a layer.
+helpviewer_keywords: ["FWPM_LAYER0","FWPM_LAYER0 structure [Filtering]","FWPM_LAYER_FLAG_BUFFERED","FWPM_LAYER_FLAG_BUILTIN","FWPM_LAYER_FLAG_CLASSIFY_MOSTLY","FWPM_LAYER_FLAG_KERNEL","fwp.fwpm_layer0_struct","fwpmtypes/FWPM_LAYER0"]
 old-location: fwp\fwpm_layer0_struct.htm
 tech.root: fwp
 ms.assetid: 77d567a7-9495-4f16-9b02-e44a1ef67022
@@ -64,7 +65,7 @@ Uniquely identifies the layer.
 
 ### -field displayData
 
-Allows layers to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is not <b>NULL</b>.
+Allows layers to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is not <b>NULL</b>.
 
 
 ### -field flags
@@ -129,7 +130,7 @@ Number of fields in the layer.
 
 Schema information for the layer's fields.
 
-See [FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)a> for more information.
+See [FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0) for more information.
 
 
 ### -field defaultSubLayerKey
@@ -156,11 +157,11 @@ LUID that identifies this layer.
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 
-[FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)a>
+[FWPM_FIELD0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_field0)
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderGetByKey0
 title: FwpmProviderGetByKey0 function (fwpmu.h)
 description: Retrieves a provider.
+helpviewer_keywords: ["FwpmProviderGetByKey0","FwpmProviderGetByKey0 function [Filtering]","fwp.fwpmprovidergetbykey0_func","fwpmu/FwpmProviderGetByKey0"]
 old-location: fwp\fwpmprovidergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: e5ed3f8e-a740-4cd9-9311-278abc9444e1
@@ -73,7 +74,7 @@ A runtime identifier for the desired object. This is the same GUID that was spec
 
 ### -param provider [out]
 
-Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>**</b>
+Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)**</b>
 
 The provider information.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>
+[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)
 
 
 

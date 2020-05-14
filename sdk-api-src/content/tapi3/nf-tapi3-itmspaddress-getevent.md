@@ -2,6 +2,7 @@
 UID: NF:tapi3.ITMSPAddress.GetEvent
 title: ITMSPAddress::GetEvent (tapi3.h)
 description: Retrieves event information.
+helpviewer_keywords: ["GetEvent","GetEvent method [TAPI 2.2]","GetEvent method [TAPI 2.2]","ITMSPAddress interface","ITMSPAddress interface [TAPI 2.2]","GetEvent method","ITMSPAddress.GetEvent","ITMSPAddress::GetEvent","_tapi3_itmspaddress_getevent","msp/ITMSPAddress::GetEvent","tapi3.itmspaddress_getevent"]
 old-location: tapi3\itmspaddress_getevent.htm
 tech.root: Tapi
 ms.assetid: df5263f2-9d76-472d-b7fc-724d36f0b58f
@@ -67,7 +68,7 @@ A pointer to a DWORD that contains the size, in bytes, of <i>pEventBuffer</i>.  
 ### -param pEventBuffer
 
 [in, out, size_is(*<i>pdwSize</i>)] A pointer to buffer that contains 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP event_info</a> information.
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP event_info</a> information.
 
 
 ## -returns

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetClipboardData
 title: SetClipboardData function (winuser.h)
-description: Places data on the clipboard in a specified clipboard format.
+description: Places data on the clipboard in a specified clipboard format.helpviewer_keywords: ["SetClipboardData","SetClipboardData function [Data Exchange]","_win32_SetClipboardData","_win32_setclipboarddata_cpp","dataxchg.setclipboarddata","winui._win32_setclipboarddata","winuser/SetClipboardData"]
 old-location: dataxchg\setclipboarddata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboarddata.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device5.RemoveDevice
 title: ID3D12Device5::RemoveDevice
-description: You can call **RemoveDevice** to indicate to the Direct3D 12 runtime that the GPU device encountered a problem, and can no longer be used.
+description: You can call **RemoveDevice** to indicate to the Direct3D 12 runtime that the GPU device encountered a problem, and can no longer be used.helpviewer_keywords: ["ID3D12Device5::RemoveDevice"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::RemoveDevice

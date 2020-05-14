@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.RpcErrorSaveErrorInfo
 title: RpcErrorSaveErrorInfo function (rpcasync.h)
-description: The RpcErrorSaveErrorInfo function returns all error information for an enumeration handle as a BLOB.
+description: The RpcErrorSaveErrorInfo function returns all error information for an enumeration handle as a BLOB.helpviewer_keywords: ["RpcErrorSaveErrorInfo","RpcErrorSaveErrorInfo function [RPC]","_rpc_rpcerrorsaveerrorinfo","rpc.rpcerrorsaveerrorinfo","rpcasync/RpcErrorSaveErrorInfo"]
 old-location: rpc\rpcerrorsaveerrorinfo.htm
 tech.root: Rpc
 ms.assetid: 59a3ba71-10bd-47d1-91b0-eba5ffa5051b

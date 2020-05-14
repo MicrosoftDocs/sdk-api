@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnEndEditTransaction
 title: ITextStoreAnchorSink::OnEndEditTransaction (textstor.h)
-description: ITextStoreAnchorSink::OnEndEditTransaction method
+description: ITextStoreAnchorSink::OnEndEditTransaction methodhelpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnEndEditTransaction method","ITextStoreAnchorSink.OnEndEditTransaction","ITextStoreAnchorSink::OnEndEditTransaction","OnEndEditTransaction","OnEndEditTransaction method [Text Services Framework]","OnEndEditTransaction method [Text Services Framework]","ITextStoreAnchorSink interface","_tsf_itextstoreanchorsink_onendedittransaction_ref","textstor/ITextStoreAnchorSink::OnEndEditTransaction","tsf.itextstoreanchorsink_onendedittransaction"]
 old-location: tsf\itextstoreanchorsink_onendedittransaction.htm
 tech.root: TSF
 ms.assetid: fe7610b3-02f0-491a-8c55-f9dc9843073b
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when an edit transaction is terminated.
 
 ## -parameters
 

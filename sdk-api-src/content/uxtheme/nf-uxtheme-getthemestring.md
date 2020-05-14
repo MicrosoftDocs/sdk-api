@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeString
 title: GetThemeString function (uxtheme.h)
-description: Retrieves the value of a string property.
+description: Retrieves the value of a string property.helpviewer_keywords: ["GetThemeString","GetThemeString function [Windows Controls]","controls.GetThemeString","controls.inet_GetThemeString","inet_GetThemeString","inet_GetThemeString_cpp","uxtheme/GetThemeString"]
 old-location: controls\GetThemeString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestring.htm

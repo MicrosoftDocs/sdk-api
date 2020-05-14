@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorBrightness
 title: SetMonitorBrightness function (highlevelmonitorconfigurationapi.h)
-description: Sets a monitor's brightness value.
+description: Sets a monitor's brightness value.helpviewer_keywords: ["SetMonitorBrightness","SetMonitorBrightness function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorBrightness","monitor.setmonitorbrightness"]
 old-location: monitor\setmonitorbrightness.htm
 tech.root: Monitor
 ms.assetid: e7cf47f2-f833-4f34-89d2-3143ab57b561

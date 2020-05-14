@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.DPtoLP
 title: DPtoLP function (wingdi.h)
-description: The DPtoLP function converts device coordinates into logical coordinates. The conversion depends on the mapping mode of the device context, the settings of the origins and extents for the window and viewport, and the world transformation.
+description: The DPtoLP function converts device coordinates into logical coordinates. The conversion depends on the mapping mode of the device context, the settings of the origins and extents for the window and viewport, and the world transformation.helpviewer_keywords: ["DPtoLP","DPtoLP function [Windows GDI]","_win32_DPtoLP","gdi.dptolp","wingdi/DPtoLP"]
 old-location: gdi\dptolp.htm
 tech.root: gdi
 ms.assetid: 0106867c-e8c5-4826-8cba-60c29e1d021a

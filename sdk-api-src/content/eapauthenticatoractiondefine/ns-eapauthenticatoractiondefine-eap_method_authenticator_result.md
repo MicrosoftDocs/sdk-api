@@ -2,6 +2,7 @@
 UID: NS:eapauthenticatoractiondefine._EAP_METHOD_AUTHENTICATOR_RESULT
 title: EAP_METHOD_AUTHENTICATOR_RESULT (eapauthenticatoractiondefine.h)
 description: Contains authentication results returned by an EAP authenticator method.
+helpviewer_keywords: ["EAP_METHOD_AUTHENTICATOR_RESULT","EAP_METHOD_AUTHENTICATOR_RESULT structure [EAPHost]","eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT","eaphost.eap_method_authenticator_result"]
 old-location: eaphost\eap_method_authenticator_result.htm
 tech.root: eaphost
 ms.assetid: 8367fd35-852b-4cdf-9a86-7d07a5a1a2ef
@@ -77,7 +78,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 
 
-[EAPHost Authenticator Method Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-structures)a>
+[EAPHost Authenticator Method Structures](/windows/win32/eaphost/eap-host-authenticator-method-structures)
  
 
  

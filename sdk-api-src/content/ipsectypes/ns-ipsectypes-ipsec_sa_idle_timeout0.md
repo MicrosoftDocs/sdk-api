@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_IDLE_TIMEOUT0_
 title: IPSEC_SA_IDLE_TIMEOUT0 (ipsectypes.h)
-description: The security association (SA) idle timeout in IPsec policy.
+description: The security association (SA) idle timeout in IPsec policy.helpviewer_keywords: ["IPSEC_SA_IDLE_TIMEOUT0","IPSEC_SA_IDLE_TIMEOUT0 structure [Filtering]","fwp.ipsec_sa_idle_timeout0","ipsectypes/IPSEC_SA_IDLE_TIMEOUT0"]
 old-location: fwp\ipsec_sa_idle_timeout0.htm
 tech.root: fwp
 ms.assetid: 99113c80-1e2a-4878-9b18-502cfb1e43cc

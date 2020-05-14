@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetLastPoint
 title: GraphicsPath::GetLastPoint (gdipluspath.h)
-description: The GraphicsPath::GetLastPoint method gets the ending point of the last figure in this path.
+description: The GraphicsPath::GetLastPoint method gets the ending point of the last figure in this path.helpviewer_keywords: ["GetLastPoint","GetLastPoint method [GDI+]","GetLastPoint method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","GetLastPoint method","GraphicsPath.GetLastPoint","GraphicsPath::GetLastPoint","_gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_","gdiplus._gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getlastpoint.htm

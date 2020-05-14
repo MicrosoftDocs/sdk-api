@@ -2,6 +2,7 @@
 UID: NF:ctffunc.ITfCandidateList.SetResult
 title: ITfCandidateList::SetResult (ctffunc.h)
 description: ITfCandidateList::SetResult method
+helpviewer_keywords: ["ITfCandidateList interface [Text Services Framework]","SetResult method","ITfCandidateList.SetResult","ITfCandidateList::SetResult","SetResult","SetResult method [Text Services Framework]","SetResult method [Text Services Framework]","ITfCandidateList interface","_tsf_itfcandidatelist_setresult_ref","ctffunc/ITfCandidateList::SetResult","tsf.itfcandidatelist_setresult"]
 old-location: tsf\itfcandidatelist_setresult.htm
 tech.root: TSF
 ms.assetid: dcc172f9-4fc3-46f4-a1db-0e75fceafb28
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Specifies the result of a reconversion operation for s specific candidate string.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Specifies the zero-based index of the candidate string to set the result for. Th
 
 ### -param imcr [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult</a> values that specifies the result of the reconversion operation.
+Contains one of the <a href="/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult</a> values that specifies the result of the reconversion operation.
 
 
 ## -returns
@@ -130,7 +130,7 @@ A typical reconversion operation would include the following operations.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult
+<a href="/windows/win32/api/ctffunc/ne-ctffunc-tfcandidateresult">TfCandidateResult
       </a>
  
 

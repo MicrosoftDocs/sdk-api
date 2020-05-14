@@ -1,7 +1,7 @@
 ---
 UID: NN:mstask.IEnumWorkItems
 title: IEnumWorkItems (mstask.h)
-description: Provides the methods for enumerating the tasks in the Scheduled Tasks folder.
+description: Provides the methods for enumerating the tasks in the Scheduled Tasks folder.helpviewer_keywords: ["IEnumWorkItems","IEnumWorkItems interface [Task Scheduler]","IEnumWorkItems interface [Task Scheduler]","described","_msb_ienumworkitems","mstask/IEnumWorkItems","taskschd.ienumworkitems"]
 old-location: taskschd\ienumworkitems.htm
 tech.root: taskschd
 ms.assetid: 1af162e5-8ba1-4d2e-9451-39c80ac0eecf

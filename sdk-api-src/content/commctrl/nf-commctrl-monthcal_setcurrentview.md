@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_SetCurrentView
 title: MonthCal_SetCurrentView macro (commctrl.h)
-description: Sets the view for a month calendar control. You can use this macro or send the MCM_SETCURRENTVIEW message explicitly.
+description: Sets the view for a month calendar control. You can use this macro or send the MCM_SETCURRENTVIEW message explicitly.helpviewer_keywords: ["MCMV_CENTURY","MCMV_DECADE","MCMV_MONTH","MCMV_YEAR","MonthCal_SetCurrentView","MonthCal_SetCurrentView macro [Windows Controls]","_shell_MonthCal_SetCurrentView","_shell_MonthCal_SetCurrentView_cpp","commctrl/MonthCal_SetCurrentView","controls.MonthCal_SetCurrentView","controls._shell_MonthCal_SetCurrentView"]
 old-location: controls\MonthCal_SetCurrentView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm

@@ -1,7 +1,7 @@
 ---
 UID: NE:oleidl.tagOLEGETMONIKER
 title: OLEGETMONIKER (oleidl.h)
-description: Controls aspects of the behavior of the IOleObject::GetMoniker and IOleClientSite::GetMoniker methods.
+description: Controls aspects of the behavior of the IOleObject::GetMoniker and IOleClientSite::GetMoniker methods.helpviewer_keywords: ["OLEGETMONIKER","OLEGETMONIKER enumeration [COM]","OLEGETMONIKER_FORCEASSIGN","OLEGETMONIKER_ONLYIFTHERE","OLEGETMONIKER_TEMPFORUSER","OLEGETMONIKER_UNASSIGN","_ole_OLEGETMONIKER","com.olegetmoniker","oleidl/OLEGETMONIKER","oleidl/OLEGETMONIKER_FORCEASSIGN","oleidl/OLEGETMONIKER_ONLYIFTHERE","oleidl/OLEGETMONIKER_TEMPFORUSER","oleidl/OLEGETMONIKER_UNASSIGN"]
 old-location: com\olegetmoniker.htm
 tech.root: com
 ms.assetid: b69e3213-08c4-45f8-b1b3-4ca78e966251

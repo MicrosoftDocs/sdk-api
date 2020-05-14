@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl.TitlePlay
 title: IDvdControl::TitlePlay (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Finds the media file with the specified title index and plays it back.
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Finds the media file with the specified title index and plays it back.helpviewer_keywords: ["IDvdControl interface [DirectShow]","TitlePlay method","IDvdControl.TitlePlay","IDvdControl::TitlePlay","IDvdControlTitlePlay","TitlePlay","TitlePlay method [DirectShow]","TitlePlay method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_titleplay","strmif/IDvdControl::TitlePlay"]
 old-location: dshow\idvdcontrol_titleplay.htm
 tech.root: DirectShow
 ms.assetid: 5ca710f0-8f08-43d6-8cc1-a25068d5e0ef

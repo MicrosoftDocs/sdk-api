@@ -2,6 +2,7 @@
 UID: NE:dxvahd._DXVAHD_FRAME_FORMAT
 title: DXVAHD_FRAME_FORMAT (dxvahd.h)
 description: Describes how a video stream is interlaced.
+helpviewer_keywords: ["DXVAHD_FRAME_FORMAT","DXVAHD_FRAME_FORMAT enumeration [Media Foundation]","DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST","DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST","DXVAHD_FRAME_FORMAT_PROGRESSIVE","dxvahd/DXVAHD_FRAME_FORMAT","dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST","dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST","dxvahd/DXVAHD_FRAME_FORMAT_PROGRESSIVE","mf.dxvahd_frame_format"]
 old-location: mf\dxvahd_frame_format.htm
 tech.root: medfound
 ms.assetid: fc720dd3-e9c1-4b92-ac09-8e53cff44bec
@@ -85,7 +86,7 @@ Frame are interlaced. The bottom field of each frame is displayed first.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_frame_format_data">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a>
+<a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_frame_format_data">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a>
 
 
 

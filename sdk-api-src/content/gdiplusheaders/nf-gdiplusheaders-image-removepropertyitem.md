@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Image.RemovePropertyItem
 title: Image::RemovePropertyItem (gdiplusheaders.h)
-description: The Image::RemovePropertyItem method removes a property item (piece of metadata) from this Image object.
+description: The Image::RemovePropertyItem method removes a property item (piece of metadata) from this Image object.helpviewer_keywords: ["Image class [GDI+]","RemovePropertyItem method","Image.RemovePropertyItem","Image::RemovePropertyItem","RemovePropertyItem","RemovePropertyItem method [GDI+]","RemovePropertyItem method [GDI+]","Image class","_gdiplus_CLASS_Image_RemovePropertyItem_propId_","gdiplus._gdiplus_CLASS_Image_RemovePropertyItem_propId_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_RemovePropertyItem_propId_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\removepropertyitem.htm

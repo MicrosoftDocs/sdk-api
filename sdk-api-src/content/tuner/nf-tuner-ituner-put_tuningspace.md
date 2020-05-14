@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuner.put_TuningSpace
 title: ITuner::put_TuningSpace (tuner.h)
-description: The put_TuningSpace method sets the tuning space for the Network Provider.
+description: The put_TuningSpace method sets the tuning space for the Network Provider.helpviewer_keywords: ["ITuner interface [Microsoft TV Technologies]","put_TuningSpace method","ITuner.put_TuningSpace","ITuner::put_TuningSpace","ITunerput_TuningSpace","mstv.ituner_put_tuningspace","put_TuningSpace","put_TuningSpace method [Microsoft TV Technologies]","put_TuningSpace method [Microsoft TV Technologies]","ITuner interface","tuner/ITuner::put_TuningSpace"]
 old-location: mstv\ituner_put_tuningspace.htm
 tech.root: mstv
 ms.assetid: ae764317-3441-4abb-90e8-f7720cdfd957

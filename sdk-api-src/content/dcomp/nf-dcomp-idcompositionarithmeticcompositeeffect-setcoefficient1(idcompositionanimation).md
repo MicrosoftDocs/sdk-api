@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient1(IDCompositionAnimation)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient1(IDCompositionAnimation) (dcomp.h)
-description: Sets the first coefficient for the equation used to composite the two input images.
+description: Sets the first coefficient for the equation used to composite the two input images.helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient1 method","IDCompositionArithmeticCompositeEffect.SetCoefficient1","IDCompositionArithmeticCompositeEffect.SetCoefficient1(IDCompositionAnimation)","IDCompositionArithmeticCompositeEffect::SetCoefficient1","IDCompositionArithmeticCompositeEffect::SetCoefficient1(IDCompositionAnimation)","SetCoefficient1","SetCoefficient1 method [DirectComposition]","SetCoefficient1 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient1","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1_2"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1_2.htm
 tech.root: directcomp
 ms.assetid: 475F112E-5A00-47C1-97F9-E2BB2CBD10D2

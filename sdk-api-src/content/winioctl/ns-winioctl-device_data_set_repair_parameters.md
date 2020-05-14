@@ -2,6 +2,7 @@
 UID: NS:winioctl._DEVICE_DATA_SET_REPAIR_PARAMETERS
 title: DEVICE_DATA_SET_REPAIR_PARAMETERS
 description: Specifies parameters for the repair operation.
+helpviewer_keywords: ["*PDEVICE_DATA_SET_REPAIR_PARAMETERS","*PDEVICE_DSM_REPAIR_PARAMETERS","DEVICE_DATA_SET_REPAIR_PARAMETERS","DEVICE_DATA_SET_REPAIR_PARAMETERS structure","DEVICE_DSM_REPAIR_PARAMETERS","PDEVICE_DATA_SET_REPAIR_PARAMETERS","PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer","base.device_data_set_repair_parameters","winioctl/DEVICE_DATA_SET_REPAIR_PARAMETERS","winioctl/PDEVICE_DATA_SET_REPAIR_PARAMETERS"]
 old-location: base\device_data_set_repair_parameters.htm
 tech.root: devio
 ms.assetid: 95bc892c-9bb7-464c-8084-7cc6e643fa28
@@ -51,7 +52,7 @@ req.redist:
 Specifies parameters for the repair operation. A repair operation is 
     initiated by specifying <b>DeviceDsmAction_Repair</b> in the 
     <b>Action</b> member of the 
-    <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     structure passed in a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
@@ -82,7 +83,7 @@ The copy numbers of all the copies that will be repaired.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

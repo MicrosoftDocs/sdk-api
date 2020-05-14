@@ -2,6 +2,7 @@
 UID: NS:tspubplugin2com.__MIDL_ItsPubPlugin2_0002
 title: pluginResource2 (tspubplugin2com.h)
 description: Contains additional information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
+helpviewer_keywords: ["pluginResource2","pluginResource2 structure [Remote Desktop Services]","termserv.pluginresource2","tspubplugin2com/pluginResource2"]
 old-location: termserv\pluginresource2.htm
 tech.root: TermServ
 ms.assetid: BD4761C7-377C-499C-B984-3B126C704089
@@ -59,7 +60,7 @@ Contains additional information about a resource that can be assigned to users i
 
 ### -field resourceV1
 
-A <a href="https://docs.microsoft.com/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a> structure that contains the basic information about the resource.
+A <a href="/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a> structure that contains the basic information about the resource.
 
 
 ### -field pceFileAssocListSize
@@ -111,7 +112,7 @@ The <b>pluginFolderName</b> type is defined as follows:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a>
+<a href="/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a>
  
 
  

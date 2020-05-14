@@ -2,6 +2,7 @@
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
 title: STRUCTURED_QUERY_SYNTAX (structuredquery.h)
 description: Specifies the type of query syntax.
+helpviewer_keywords: ["SQS_ADVANCED_QUERY_SYNTAX","SQS_NATURAL_QUERY_SYNTAX","SQS_NO_SYNTAX","STRUCTURED_QUERY_SYNTAX","STRUCTURED_QUERY_SYNTAX enumeration [search]","_search_STRUCTURED_QUERY_SYNTAX","search._search_STRUCTURED_QUERY_SYNTAX","structuredquery/SQS_ADVANCED_QUERY_SYNTAX","structuredquery/SQS_NATURAL_QUERY_SYNTAX","structuredquery/SQS_NO_SYNTAX","structuredquery/STRUCTURED_QUERY_SYNTAX"]
 old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
@@ -79,7 +80,7 @@ Specifies the Natural Query Syntax. This syntax removes the requirement for a co
 
 
 
-Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setoption">IQueryParser::SetOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getoption">IQueryParser::GetOption</a>.
+Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setoption">IQueryParser::SetOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getoption">IQueryParser::GetOption</a>.
 
 
 

@@ -2,6 +2,7 @@
 UID: NF:commctrl.Header_GetItem
 title: Header_GetItem macro (commctrl.h)
 description: Gets information about an item in a header control. You can use this macro or send the HDM_GETITEM message explicitly.
+helpviewer_keywords: ["Header_GetItem","Header_GetItem macro [Windows Controls]","_win32_Header_GetItem","_win32_Header_GetItem_cpp","commctrl/Header_GetItem","controls.Header_GetItem","controls._win32_Header_GetItem"]
 old-location: controls\Header_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
@@ -75,7 +76,7 @@ The index of the item for which information is to be retrieved.
 
 Type: <b>LPHDITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure. When the message is sent, the <b>mask</b> member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the 
+A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure. When the message is sent, the <b>mask</b> member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the 
 <b>mask</b> member specifies zero, the message returns <b>TRUE</b> but copies no information to the structure. 
 
 
@@ -84,7 +85,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/n
 
 
 If the HDI_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure, the control may change the 
+				<b>mask</b> member of the <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure, the control may change the 
 				<b>pszText</b> member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
 
 The <b>Header_GetItem</b> macro is defined as follows:

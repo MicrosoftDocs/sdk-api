@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptInitOIDFunctionSet
 title: CryptInitOIDFunctionSet function (wincrypt.h)
-description: The CryptInitOIDFunctionSet initializes and returns the handle of the OID function set identified by a supplied function set name.
+description: The CryptInitOIDFunctionSet initializes and returns the handle of the OID function set identified by a supplied function set name.helpviewer_keywords: ["CryptInitOIDFunctionSet","CryptInitOIDFunctionSet function [Security]","_crypto2_cryptinitoidfunctionset","security.cryptinitoidfunctionset","wincrypt/CryptInitOIDFunctionSet"]
 old-location: security\cryptinitoidfunctionset.htm
 tech.root: SecCrypto
 ms.assetid: 576a2989-ed7f-417d-b60e-24baf90a6554

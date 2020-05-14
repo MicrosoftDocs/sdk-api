@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.HitTestTextPosition
 title: IDWriteTextLayout::HitTestTextPosition (dwrite.h)
-description: The application calls this function to get the pixel location relative to the top-left of the layout box given the text position and the logical side of the position.
+description: The application calls this function to get the pixel location relative to the top-left of the layout box given the text position and the logical side of the position.helpviewer_keywords: ["HitTestTextPosition","HitTestTextPosition method [Direct Write]","HitTestTextPosition method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","HitTestTextPosition method","IDWriteTextLayout.HitTestTextPosition","IDWriteTextLayout::HitTestTextPosition","directwrite.IDWriteTextLayout_HitTestTextPosition","dwrite/IDWriteTextLayout::HitTestTextPosition"]
 old-location: directwrite\IDWriteTextLayout_HitTestTextPosition.htm
 tech.root: DirectWrite
 ms.assetid: a7a8d82a-74a6-4e4a-a57d-60194e20a087

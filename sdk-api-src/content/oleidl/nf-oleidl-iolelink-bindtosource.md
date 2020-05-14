@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleLink.BindToSource
 title: IOleLink::BindToSource (oleidl.h)
-description: Activates the connection to the link source by binding the moniker stored within the linked object.
+description: Activates the connection to the link source by binding the moniker stored within the linked object.helpviewer_keywords: ["BindToSource","BindToSource method [COM]","BindToSource method [COM]","IOleLink interface","IOleLink interface [COM]","BindToSource method","IOleLink.BindToSource","IOleLink::BindToSource","_ole_iolelink_bindtosource","com.iolelink_bindtosource","oleidl/IOleLink::BindToSource"]
 old-location: com\iolelink_bindtosource.htm
 tech.root: com
 ms.assetid: 1fadd27d-cb2c-47fc-891a-16f82bdac0f6

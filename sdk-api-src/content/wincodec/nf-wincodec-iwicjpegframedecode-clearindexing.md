@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.ClearIndexing
 title: IWICJpegFrameDecode::ClearIndexing (wincodec.h)
-description: Removes the indexing from a JPEG that has been indexed using IWICJpegFrameDecode::SetIndexing.
+description: Removes the indexing from a JPEG that has been indexed using IWICJpegFrameDecode::SetIndexing.helpviewer_keywords: ["ClearIndexing","ClearIndexing method [Windows Imaging Component]","ClearIndexing method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","ClearIndexing method","IWICJpegFrameDecode.ClearIndexing","IWICJpegFrameDecode::ClearIndexing","wic.iwicjpegframedecode_clearindexing","wincodec/IWICJpegFrameDecode::ClearIndexing"]
 old-location: wic\iwicjpegframedecode_clearindexing.htm
 tech.root: wic
 ms.assetid: 467E0100-F00B-4D2D-BF2A-8138765C787E

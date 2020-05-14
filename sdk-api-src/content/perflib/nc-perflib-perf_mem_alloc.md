@@ -2,6 +2,7 @@
 UID: NC:perflib.PERF_MEM_ALLOC
 title: PERF_MEM_ALLOC (perflib.h)
 description: Providers implement this function to provide custom memory management for PERFLIB.
+helpviewer_keywords: ["AllocateMemory","AllocateMemory callback function [Perf]","PERF_MEM_ALLOC","PERF_MEM_ALLOC callback","perf.allocatememory","perflib/AllocateMemory"]
 old-location: perf\allocatememory.htm
 tech.root: perfctrs
 ms.assetid: 09af7e56-2174-4a82-b45b-59f4180e4aab
@@ -66,7 +67,7 @@ Number of bytes to allocate.
 
 ### -param pContext [in]
 
-Context information set in the <b>pMemContext</b> member of <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>.
+Context information set in the <b>pMemContext</b> member of <a href="/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>.
 
 
 ## -returns
@@ -98,7 +99,7 @@ If you used the <b>-MemoryRoutines</b> when calling <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>
+<a href="/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>
  
 
  

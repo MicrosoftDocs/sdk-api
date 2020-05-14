@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ConcreteTransform.SetOutputBuffer
 title: ID2D1ConcreteTransform::SetOutputBuffer (d2d1effectauthor.h)
-description: Sets the properties of the output buffer of the specified transform node.
+description: Sets the properties of the output buffer of the specified transform node.helpviewer_keywords: ["ID2D1ConcreteTransform interface [Direct2D]","SetOutputBuffer method","ID2D1ConcreteTransform.SetOutputBuffer","ID2D1ConcreteTransform::SetOutputBuffer","SetOutputBuffer","SetOutputBuffer method [Direct2D]","SetOutputBuffer method [Direct2D]","ID2D1ConcreteTransform interface","d2d1effectauthor/ID2D1ConcreteTransform::SetOutputBuffer","direct2d.id2d1concretetransform_setoutputbuffer"]
 old-location: direct2d\id2d1concretetransform_setoutputbuffer.htm
 tech.root: Direct2D
 ms.assetid: DCA691ED-B9DF-4B1A-8662-0981BFB359CE

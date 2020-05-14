@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GlobalDeleteAtom
 title: GlobalDeleteAtom function (winbase.h)
-description: Decrements the reference count of a global string atom. If the atom's reference count reaches zero, GlobalDeleteAtom removes the string associated with the atom from the global atom table.
+description: Decrements the reference count of a global string atom. If the atom's reference count reaches zero, GlobalDeleteAtom removes the string associated with the atom from the global atom table.helpviewer_keywords: ["GlobalDeleteAtom","GlobalDeleteAtom function [Data Exchange]","_win32_GlobalDeleteAtom","_win32_globaldeleteatom_cpp","dataxchg.globaldeleteatom","winbase/GlobalDeleteAtom","winui._win32_globaldeleteatom"]
 old-location: dataxchg\globaldeleteatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaldeleteatom.htm

@@ -2,6 +2,7 @@
 UID: NF:d3d12.ID3D12Device1.CreatePipelineLibrary
 title: ID3D12Device1::CreatePipelineLibrary (d3d12.h)
 description: Creates a cached pipeline library.
+helpviewer_keywords: ["CreatePipelineLibrary","CreatePipelineLibrary method","CreatePipelineLibrary method","ID3D12Device1 interface","ID3D12Device1 interface","CreatePipelineLibrary method","ID3D12Device1.CreatePipelineLibrary","ID3D12Device1::CreatePipelineLibrary","d3d12/ID3D12Device1::CreatePipelineLibrary","direct3d12.id3d12device1_createpipelinelibrary"]
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
@@ -67,7 +68,7 @@ Specifies the length of *pLibraryBlob* in bytes.
 
 Type: **REFIID**
 
-Specifies a unique REFIID for the [ID3D12PipelineLibrary](/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary) object. Typically set this and the following parameter with the macro `IID_PPV_ARGS(&amp;Library)`, where **Library** is the name of the object.
+Specifies a unique REFIID for the [ID3D12PipelineLibrary](/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary) object. Typically set this and the following parameter with the macro `IID_PPV_ARGS(&Library)`, where **Library** is the name of the object.
 
 ### -param ppPipelineLibrary [out]
 
@@ -97,24 +98,29 @@ At no point in the lifecycle of a pipeline library is there duplication between 
 
 A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
 
+#### Thread Safety
+
+The pipeline library is thread-safe to use, and will internally synchronize as necessary, with one exception: multiple threads loading the same PSO (via [**LoadComputePipeline**](nf-d3d12-id3d12pipelinelibrary-loadcomputepipeline.md),
+[**LoadGraphicsPipeline**](nf-d3d12-id3d12pipelinelibrary-loadgraphicspipeline.md), or [**LoadPipeline**](nf-d3d12-id3d12pipelinelibrary1-loadpipeline.md)) should synchronize themselves, as this act may modify the state of that pipeline within the library in a non-thread-safe manner.
+
 #### Examples
 
 Create a PSO library and add PSOs to it. Note the macro IID_PPV_ARGS expands to become two parameters.
 
 ```cpp
 ID3D12Device* Device; 
-    VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&amp;Device))); 
+    VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&Device))); 
     ID3D12PipelineState* PSO1, PSO2; 
 
     // Fill out the PSO descs and then call CreateGraphicsPipelineState or CreateComputePipelineState  
 
     ID3D12PipelineLibrary* Library; 
-    VERIFY_SUCCEEDED(Device-&gt;CreatePipelineLibrary(nullptr, 0, IID_PPV_ARGS(&amp;Library))); 
-    VERIFY_SUCCEEDED(Library-&gt;StorePipeline(L“PSO1”, PSO1)); 
-    VERIFY_SUCCEEDED(Library-&gt;StorePipeline(L“PSO2”, PSO2)); 
-    SIZE_T LibrarySize = Library-&gt;GetSerializedSize(); 
+    VERIFY_SUCCEEDED(Device->CreatePipelineLibrary(nullptr, 0, IID_PPV_ARGS(&Library))); 
+    VERIFY_SUCCEEDED(Library->StorePipeline(L“PSO1”, PSO1)); 
+    VERIFY_SUCCEEDED(Library->StorePipeline(L“PSO2”, PSO2)); 
+    SIZE_T LibrarySize = Library->GetSerializedSize(); 
     void* pData = new BYTE[LibrarySize]; 
-    VERIFY_SUCCEEDED(Library-&gt;Serialize(LibrarySize, pData)); 
+    VERIFY_SUCCEEDED(Library->Serialize(LibrarySize, pData)); 
 
     // Save pData to disk 
     ...
@@ -124,7 +130,7 @@ Create a PSO library using data loaded off of disk and retrieve PSOs out of it. 
 
 ```cpp
     ID3D12Device* Device; 
-    VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&amp;Device))); 
+    VERIFY_SUCCEEDED(D3D12CreateDevice(nullptr, IID_PPV_ARGS(&Device))); 
     ID3D12PipelineState* PSO1, PSO2; 
     const void* LibraryData; 
     SIZE_T LibraryDataSize; 
@@ -132,9 +138,9 @@ Create a PSO library using data loaded off of disk and retrieve PSOs out of it. 
     // Load library data from disk  
 
     ID3D12PipelineLibrary* Library; 
-    VERIFY_SUCCEEDED(Device-&gt;CreatePipelineLibrary(LibraryData, LibraryDataSize, IID_PPV_ARGS(&amp;Library))); 
-    VERIFY_SUCCEEDED(Library-&gt;LoadGraphicsPipeline(L“PSO1”, IID_PPV_ARGS(&amp;PSO1))); 
-    VERIFY_SUCCEEDED(Library-&gt;LoadComputePipeline(L“PSO2”, IID_PPV_ARGS(&amp;PSO2)));
+    VERIFY_SUCCEEDED(Device->CreatePipelineLibrary(LibraryData, LibraryDataSize, IID_PPV_ARGS(&Library))); 
+    VERIFY_SUCCEEDED(Library->LoadGraphicsPipeline(L“PSO1”, IID_PPV_ARGS(&PSO1))); 
+    VERIFY_SUCCEEDED(Library->LoadComputePipeline(L“PSO2”, IID_PPV_ARGS(&PSO2)));
 ```
 
 ## -see-also

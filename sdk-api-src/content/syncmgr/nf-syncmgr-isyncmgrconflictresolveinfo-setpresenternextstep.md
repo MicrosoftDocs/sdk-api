@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetPresenterNextStep
 title: ISyncMgrConflictResolveInfo::SetPresenterNextStep (syncmgr.h)
-description: Sets what the presenter wants to do as the next step in the sync manager conflict resolution.
+description: Sets what the presenter wants to do as the next step in the sync manager conflict resolution.helpviewer_keywords: ["ISyncMgrConflictResolveInfo interface [Windows Shell]","SetPresenterNextStep method","ISyncMgrConflictResolveInfo.SetPresenterNextStep","ISyncMgrConflictResolveInfo::SetPresenterNextStep","SetPresenterNextStep","SetPresenterNextStep method [Windows Shell]","SetPresenterNextStep method [Windows Shell]","ISyncMgrConflictResolveInfo interface","_shell_ISyncMgrConflictResolveInfo_SetPresenterNextStep","shell.ISyncMgrConflictResolveInfo_SetPresenterNextStep","syncmgr/ISyncMgrConflictResolveInfo::SetPresenterNextStep"]
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterNextStep.htm
 tech.root: shell
 ms.assetid: a56ca252-89e5-4ad0-bc9a-f8c7b70bd536

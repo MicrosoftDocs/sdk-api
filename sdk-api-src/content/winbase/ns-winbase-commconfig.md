@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._COMMCONFIG
 title: COMMCONFIG (winbase.h)
-description: Contains information about the configuration state of a communications device.
+description: Contains information about the configuration state of a communications device.helpviewer_keywords: ["*LPCOMMCONFIG","COMMCONFIG","COMMCONFIG structure","LPCOMMCONFIG","LPCOMMCONFIG structure pointer","_COMMCONFIG","_win32_commconfig_str","base.commconfig_str","winbase/COMMCONFIG","winbase/LPCOMMCONFIG"]
 old-location: base\commconfig_str.htm
 tech.root: devio
 ms.assetid: 9fd66f39-06a2-4159-9d1e-4ba84570c510

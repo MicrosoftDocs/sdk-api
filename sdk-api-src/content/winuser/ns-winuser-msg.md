@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMSG
 title: MSG (winuser.h)
-description: Contains message information from a thread's message queue.
+description: Contains message information from a thread's message queue.helpviewer_keywords: ["*LPMSG","*NPMSG","*PMSG","LPMSG","LPMSG structure pointer [Windows and Messages]","MSG","MSG structure [Windows and Messages]","PMSG","PMSG structure pointer [Windows and Messages]","_win32_MSG_str","_win32_msg_str_cpp","winmsg.msg","winui._win32_msg_str","winuser/LPMSG","winuser/MSG","winuser/PMSG"]
 old-location: winmsg\msg.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messageandmessagequeuestructures\msg.htm

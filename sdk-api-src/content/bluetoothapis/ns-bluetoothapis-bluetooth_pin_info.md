@@ -2,6 +2,7 @@
 UID: NS:bluetoothapis._BLUETOOTH_PIN_INFO
 title: BLUETOOTH_PIN_INFO (bluetoothapis.h)
 description: BLUETOOTH_PIN_INFO structure contains information used for authentication via PIN.
+helpviewer_keywords: ["*PBLUETOOTH_PIN_INFO","BLUETOOTH_PIN_INFO","BLUETOOTH_PIN_INFO structure [Bluetooth]","PBLUETOOTH_PIN_INFO","PBLUETOOTH_PIN_INFO structure pointer [Bluetooth]","bluetooth.bluetooth_pin_info","bluetoothapis/BLUETOOTH_PIN_INFO","bluetoothapis/PBLUETOOTH_PIN_INFO"]
 old-location: bluetooth\bluetooth_pin_info.htm
 tech.root: bluetooth
 ms.assetid: 9fae3b95-eeed-4f06-af27-762b8de615ed
@@ -72,7 +73,7 @@ The length of <i>pin</i>.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

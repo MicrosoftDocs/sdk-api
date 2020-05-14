@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.RootDevice
 title: IUPnPDescriptionDocument::RootDevice (upnp.h)
-description: The RootDevice method returns the root device of the currently loaded document's device tree.
+description: The RootDevice method returns the root device of the currently loaded document's device tree.helpviewer_keywords: ["IUPnPDescriptionDocument interface [UPnP APIs]","RootDevice method","IUPnPDescriptionDocument.RootDevice","IUPnPDescriptionDocument::RootDevice","RootDevice","RootDevice method [UPnP APIs]","RootDevice method [UPnP APIs]","IUPnPDescriptionDocument interface","_upnp_iupnpdescriptiondocument_rootdevice","upnp.iupnpdescriptiondocument_rootdevice","upnp/IUPnPDescriptionDocument::RootDevice"]
 old-location: upnp\iupnpdescriptiondocument_rootdevice.htm
 tech.root: upnp
 ms.assetid: 0caa4f1e-0c74-4654-be26-6178aefa3ee4

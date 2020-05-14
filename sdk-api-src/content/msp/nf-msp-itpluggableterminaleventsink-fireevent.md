@@ -2,6 +2,7 @@
 UID: NF:msp.ITPluggableTerminalEventSink.FireEvent
 title: ITPluggableTerminalEventSink::FireEvent (msp.h)
 description: The FireEvent method results in a message that notifies the client application of a change in the pluggable terminal.
+helpviewer_keywords: ["FireEvent","FireEvent method [TAPI 2.2]","FireEvent method [TAPI 2.2]","ITPluggableTerminalEventSink interface","ITPluggableTerminalEventSink interface [TAPI 2.2]","FireEvent method","ITPluggableTerminalEventSink.FireEvent","ITPluggableTerminalEventSink::FireEvent","_tapi3_itpluggableterminaleventsink_fireevent","msp/ITPluggableTerminalEventSink::FireEvent","tapi3.itpluggableterminaleventsink_fireevent"]
 old-location: tapi3\itpluggableterminaleventsink_fireevent.htm
 tech.root: Tapi
 ms.assetid: 67386c32-5714-4b01-b860-25192349aa6c
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>FireEvent</b> method results in a message that notifies the client application of a change in the pluggable terminal. For example, if the terminal is no longer available, the <b>event</b> member of the 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure is set to <b>ME_ADDRESS_EVENT</b> and the <b>type</b> member is set to <b>ADDRESS_TERMINAL_UNAVAILABLE</b>.
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure is set to <b>ME_ADDRESS_EVENT</b> and the <b>type</b> member is set to <b>ADDRESS_TERMINAL_UNAVAILABLE</b>.
 
 
 ## -parameters
@@ -62,7 +63,7 @@ The
 ### -param pMspEventInfo [in]
 
 Pointer to a const cast of the 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure.
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structure.
 
 
 ## -returns
@@ -83,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
  
 
  

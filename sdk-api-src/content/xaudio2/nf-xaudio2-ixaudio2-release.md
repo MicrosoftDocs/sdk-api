@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2.Release
 title: IXAudio2::Release (xaudio2.h)
-description: Releases a reference to the XAudio2 object.
+description: Releases a reference to the XAudio2 object.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","Release method","IXAudio2.Release","IXAudio2::Release","Release","Release method [XAudio2 Audio Mixing APIs]","Release method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_release","xaudio2/IXAudio2::Release"]
 old-location: xaudio2\ixaudio2_interface_release.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.Release

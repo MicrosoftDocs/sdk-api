@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetService
 title: IMFCaptureSource::GetService (mfcaptureengine.h)
-description: Gets a pointer to the underlying Source Reader object.
+description: Gets a pointer to the underlying Source Reader object.helpviewer_keywords: ["GetService","GetService method [Media Foundation]","GetService method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetService method","IMFCaptureSource.GetService","IMFCaptureSource::GetService","mf.imfcapturesource_getservice","mfcaptureengine/IMFCaptureSource::GetService"]
 old-location: mf\imfcapturesource_getservice.htm
 tech.root: medfound
 ms.assetid: 67A77196-A499-4C28-8A35-CFB130B85D79

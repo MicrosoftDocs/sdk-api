@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_LIFETIME_STATE
 title: D3D12_LIFETIME_STATE
-description: Defines constants that specify the lifetime state of a lifetime-tracked object.
+description: Defines constants that specify the lifetime state of a lifetime-tracked object.helpviewer_keywords: ["D3D12_LIFETIME_STATE"]
 ms.date: 10/30/2019
 ms.keywords: D3D12_LIFETIME_STATE
 f1_keywords:

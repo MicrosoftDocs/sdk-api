@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFAsyncCallbackLogging
 title: IMFAsyncCallbackLogging (mfobjects.h)
-description: Provides logging information about the parent object the async callback is associated with.
+description: Provides logging information about the parent object the async callback is associated with.helpviewer_keywords: ["IMFAsyncCallbackLogging","IMFAsyncCallbackLogging interface [Media Foundation]","IMFAsyncCallbackLogging interface [Media Foundation]","described","mf.imfasynccallbacklogging","mfobjects/IMFAsyncCallbackLogging"]
 old-location: mf\imfasynccallbacklogging.htm
 tech.root: medfound
 ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae

@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.IAnchor.ClearChangeHistory
 title: IAnchor::ClearChangeHistory (textstor.h)
-description: The IAnchor::ClearChangeHistory method clears the anchor change history flags.
+description: The IAnchor::ClearChangeHistory method clears the anchor change history flags.helpviewer_keywords: ["ClearChangeHistory","ClearChangeHistory method [Text Services Framework]","ClearChangeHistory method [Text Services Framework]","IAnchor interface","IAnchor interface [Text Services Framework]","ClearChangeHistory method","IAnchor.ClearChangeHistory","IAnchor::ClearChangeHistory","textstor/IAnchor::ClearChangeHistory","tsf.ianchor_clearchangehistory"]
 old-location: tsf\ianchor_clearchangehistory.htm
 tech.root: TSF
 ms.assetid: 3780ab3d-6b77-45bc-9630-747fa5caaecc

@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetQuotaState
 title: IDiskQuotaControl::GetQuotaState (dskquota.h)
-description: Retrieves a set of flags describing the state of the quota system.
+description: Retrieves a set of flags describing the state of the quota system.helpviewer_keywords: ["DISKQUOTA_FILESTATE_INCOMPLETE","DISKQUOTA_FILESTATE_REBUILDING","DISKQUOTA_STATE_DISABLED","DISKQUOTA_STATE_ENFORCE","DISKQUOTA_STATE_TRACK","GetQuotaState","GetQuotaState method [Files]","GetQuotaState method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetQuotaState method","IDiskQuotaControl.GetQuotaState","IDiskQuotaControl::GetQuotaState","_win32_idiskquotacontrol_getquotastate","base.idiskquotacontrol_getquotastate","dskquota/IDiskQuotaControl::GetQuotaState","fs.idiskquotacontrol_getquotastate"]
 old-location: fs\idiskquotacontrol_getquotastate.htm
 tech.root: FileIO
 ms.assetid: 1e35be3e-095a-4299-933d-6ebf3ccc5a1c

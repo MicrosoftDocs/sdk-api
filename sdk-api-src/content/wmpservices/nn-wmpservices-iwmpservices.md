@@ -1,7 +1,7 @@
 ---
 UID: NN:wmpservices.IWMPServices
 title: IWMPServices (wmpservices.h)
-description: The IWMPServices interface is implemented by Windows Media Player. It provides methods to retrieve the current stream state and current stream time.
+description: The IWMPServices interface is implemented by Windows Media Player. It provides methods to retrieve the current stream state and current stream time.helpviewer_keywords: ["IWMPServices","IWMPServices interface [Windows Media Player]","IWMPServices interface [Windows Media Player]","described","IWMPServicesInterfaceDSP","wmp.iwmpservices","wmpservices/IWMPServices"]
 old-location: wmp\iwmpservices.htm
 tech.root: WMP
 ms.assetid: 26d68b4b-4eeb-42e2-a1d1-0d0e73725059

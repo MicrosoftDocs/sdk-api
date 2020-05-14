@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPControls.playItem
 title: IWMPControls::playItem (wmp.h)
-description: The playItem method plays the specified media item.
+description: The playItem method plays the specified media item.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","playItem method","IWMPControls.playItem","IWMPControls::playItem","IWMPControlsplayItem","playItem","playItem method [Windows Media Player]","playItem method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_playitem","wmp/IWMPControls::playItem"]
 old-location: wmp\iwmpcontrols_playitem.htm
 tech.root: WMP
 ms.assetid: 8d4282b0-08a9-4c66-ab8b-93429e77e05d

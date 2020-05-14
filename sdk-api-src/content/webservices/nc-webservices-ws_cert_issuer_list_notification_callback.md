@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
 title: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK (webservices.h)
-description: Notifies the client of the list of certificate issuers that are acceptable to the server.
+description: Notifies the client of the list of certificate issuers that are acceptable to the server.helpviewer_keywords: ["WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK","WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback","WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function [Web Services for Windows]","webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK","wsw.ws_cert_issuer_list_notification_callback"]
 old-location: wsw\ws_cert_issuer_list_notification_callback.htm
 tech.root: wsw
 ms.assetid: a8417d3f-5932-4993-b206-b43b6a93ef8f

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._REPARSE_GUID_DATA_BUFFER
 title: REPARSE_GUID_DATA_BUFFER (winnt.h)
-description: Contains information about a reparse point.
+description: Contains information about a reparse point.helpviewer_keywords: ["*PREPARSE_GUID_DATA_BUFFER","PREPARSE_GUID_DATA_BUFFER","PREPARSE_GUID_DATA_BUFFER structure pointer [Files]","REPARSE_GUID_DATA_BUFFER","REPARSE_GUID_DATA_BUFFER structure [Files]","_REPARSE_GUID_DATA_BUFFER","_win32_reparse_guid_data_buffer_str","base.reparse_guid_data_buffer_str","fs.reparse_guid_data_buffer_str","winnt/PREPARSE_GUID_DATA_BUFFER","winnt/REPARSE_GUID_DATA_BUFFER"]
 old-location: fs\reparse_guid_data_buffer_str.htm
 tech.root: FileIO
 ms.assetid: 2d49c1bc-0b1d-40b1-a3a2-6b30f0b3cca0

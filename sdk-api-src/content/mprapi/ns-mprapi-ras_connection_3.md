@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_3
 title: RAS_CONNECTION_3 (mprapi.h)
-description: The RAS_CONNECTION_3 structure contains information for the connection, including the Globally Unique Identifier (GUID) that identifies the connection and the quarantine state of the connection.
+description: The RAS_CONNECTION_3 structure contains information for the connection, including the Globally Unique Identifier (GUID) that identifies the connection and the quarantine state of the connection.helpviewer_keywords: ["*PRAS_CONNECTION_3","PRAS_CONNECTION_3","PRAS_CONNECTION_3 structure pointer [RAS]","RAS_CONNECTION_3","RAS_CONNECTION_3 structure [RAS]","mprapi/PRAS_CONNECTION_3","mprapi/RAS_CONNECTION_3","rras.ras_connection_3"]
 old-location: rras\ras_connection_3.htm
 tech.root: RRAS
 ms.assetid: f474563e-01c5-4f2a-aec4-477e0ffc7ab2

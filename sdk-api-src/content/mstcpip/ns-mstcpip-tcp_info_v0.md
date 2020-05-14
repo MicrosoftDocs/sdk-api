@@ -2,6 +2,7 @@
 UID: NS:mstcpip._TCP_INFO_v0
 title: TCP_INFO_v0 (mstcpip.h)
 description: Contains the Transmission Control Protocol (TCP) statistics that were collected for a socket.
+helpviewer_keywords: ["*PTCP_INFO_v0","PTCP_INFO_v0","PTCP_INFO_v0 structure pointer [Winsock]","TCP_INFO_v0","TCP_INFO_v0 structure [Winsock]","mstcpip/PTCP_INFO_v0","mstcpip/TCP_INFO_v0","winsock.tcp_info_v0"]
 old-location: winsock\tcp_info_v0.htm
 tech.root: WinSock
 ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
@@ -99,12 +100,12 @@ The size of the current congestion window, in bytes.
 
 ### -field SndWnd
 
-The size of the send window (SND.WND in <a href="https://go.microsoft.com/fwlink/p/?linkid=852445">RFC 793</a>),  in bytes. 
+The size of the send window (SND.WND in <a href="https://tools.ietf.org/html/rfc793">RFC 793</a>),  in bytes. 
 
 
 ### -field RcvWnd
 
- The size of the receive window (RCV.WND in <a href="https://go.microsoft.com/fwlink/p/?linkid=852445">RFC 793</a>), in bytes.
+ The size of the receive window (RCV.WND in <a href="https://tools.ietf.org/html/rfc793">RFC 793</a>), in bytes.
 
 
 ### -field RcvBuf

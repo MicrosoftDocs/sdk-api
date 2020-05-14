@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Next
 title: IEnumIDList::Next (shobjidl_core.h)
-description: Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
+description: Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.helpviewer_keywords: ["IEnumIDList interface [Windows Shell]","Next method","IEnumIDList.Next","IEnumIDList::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumIDList interface","_win32_IEnumIDList_Next","shell.IEnumIDList_Next","shobjidl_core/IEnumIDList::Next"]
 old-location: shell\IEnumIDList_Next.htm
 tech.root: shell
 ms.assetid: 4b2cd7a3-687c-4a51-b9af-a01576463f0b

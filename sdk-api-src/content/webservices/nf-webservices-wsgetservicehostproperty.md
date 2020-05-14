@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetServiceHostProperty
 title: WsGetServiceHostProperty function (webservices.h)
-description: Retrieves a specified Service Host property. The property to retrieve is identified by a WS_SERVICE_PROPERTY_ID input parameter.
+description: Retrieves a specified Service Host property. The property to retrieve is identified by a WS_SERVICE_PROPERTY_ID input parameter.helpviewer_keywords: ["WsGetServiceHostProperty","WsGetServiceHostProperty function [Web Services for Windows]","webservices/WsGetServiceHostProperty","wsw.wsgetservicehostproperty"]
 old-location: wsw\wsgetservicehostproperty.htm
 tech.root: wsw
 ms.assetid: 3793cb79-37b9-4d94-9932-9eb3b259b60e

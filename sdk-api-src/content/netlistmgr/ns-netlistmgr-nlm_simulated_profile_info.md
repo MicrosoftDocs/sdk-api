@@ -1,7 +1,7 @@
 ---
 UID: NS:netlistmgr.NLM_SIMULATED_PROFILE_INFO
 title: NLM_SIMULATED_PROFILE_INFO (netlistmgr.h)
-description: Used to specify values that are used by SetSimulatedProfileInfo to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
+description: Used to specify values that are used by SetSimulatedProfileInfo to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.helpviewer_keywords: ["NLM_SIMULATED_PROFILE_INFO","NLM_SIMULATED_PROFILE_INFO structure [Network Awareness]","PNLM_SIMULATED_PROFILE_INFO","PNLM_SIMULATED_PROFILE_INFO structure pointer [Network Awareness]","netlistmgr/NLM_SIMULATED_PROFILE_INFO","netlistmgr/PNLM_SIMULATED_PROFILE_INFO","nla.nlm_simulated_profile_info"]
 old-location: nla\nlm_simulated_profile_info.htm
 tech.root: nla
 ms.assetid: 1DC80EB0-E63A-4352-8269-D795E1573851

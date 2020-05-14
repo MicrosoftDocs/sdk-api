@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixLookToLH
 title: XMMatrixLookToLH function (directxmath.h)
-description: Builds a view matrix for a left-handed coordinate system using a camera position, an up direction, and a camera direction.
+description: Builds a view matrix for a left-handed coordinate system using a camera position, an up direction, and a camera direction.helpviewer_keywords: ["Use DirectX..XMMatrixLookToLH","XMMatrixLookToLH","XMMatrixLookToLH method [DirectX Math Support APIs]","dxmath.xmmatrixlooktolh"]
 old-location: dxmath\xmmatrixlooktolh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookToLH(XMVECTOR,XMVECTOR,XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NS:digitalv.__unnamed_struct_19
 title: MCI_DGV_RESERVE_PARMSW (digitalv.h)
-description: The MCI_DGV_RESERVE_PARMS structure contains information for the MCI_RESERVE command for digital-video devices.
+description: The MCI_DGV_RESERVE_PARMS structure contains information for the MCI_RESERVE command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_RESERVE_PARMSW","MCI_DGV_RESERVE_PARMS","MCI_DGV_RESERVE_PARMS structure [Windows Multimedia]","MCI_DGV_RESERVE_PARMSW","_win32_MCI_DGV_RESERVE_PARMS_str","digitalv/MCI_DGV_RESERVE_PARMS","multimedia.mci_dgv_reserve_parms"]
 old-location: multimedia\mci_dgv_reserve_parms.htm
 tech.root: Multimedia
 ms.assetid: f3105822-bdef-4e8d-912c-9d4b8d78cc47

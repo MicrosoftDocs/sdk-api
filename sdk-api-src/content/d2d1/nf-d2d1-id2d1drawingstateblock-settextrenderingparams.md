@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.SetTextRenderingParams
 title: ID2D1DrawingStateBlock::SetTextRenderingParams (d2d1.h)
-description: Specifies the text-rendering configuration of the drawing state.
+description: Specifies the text-rendering configuration of the drawing state.helpviewer_keywords: ["ID2D1DrawingStateBlock interface [Direct2D]","SetTextRenderingParams method","ID2D1DrawingStateBlock.SetTextRenderingParams","ID2D1DrawingStateBlock::SetTextRenderingParams","SetTextRenderingParams","SetTextRenderingParams method [Direct2D]","SetTextRenderingParams method [Direct2D]","ID2D1DrawingStateBlock interface","d2d1/ID2D1DrawingStateBlock::SetTextRenderingParams","direct2d.ID2D1DrawingStateBlock_SetTextRenderingParams"]
 old-location: direct2d\ID2D1DrawingStateBlock_SetTextRenderingParams.htm
 tech.root: Direct2D
 ms.assetid: 449bd558-a3f1-4168-a803-d2f00b2250d2
@@ -59,7 +59,7 @@ Specifies the text-rendering configuration of the drawing state.
 
 ### -param textRenderingParams [optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
 
 The text-rendering configuration of the drawing state, or NULL to use default settings.
 
@@ -69,7 +69,7 @@ The text-rendering configuration of the drawing state, or NULL to use default se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
  
 
  

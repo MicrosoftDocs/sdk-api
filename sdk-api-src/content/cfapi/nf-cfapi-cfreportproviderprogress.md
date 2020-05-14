@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfReportProviderProgress
 title: CfReportProviderProgress function (cfapi.h)
-description: Allows a sync provider to report progress out-of-band.
+description: Allows a sync provider to report progress out-of-band.helpviewer_keywords: ["CfReportProviderProgress","CfReportProviderProgress function","cfapi/CfReportProviderProgress","cloudApi.cfreportproviderprogress"]
 old-location: cloudapi\cfreportproviderprogress.htm
 tech.root: cfApi
 ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069

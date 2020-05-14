@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.ApplyPropertiesToItems
 title: IFileOperation::ApplyPropertiesToItems (shobjidl_core.h)
-description: Declares a set of items for which to apply a common set of property values.
+description: Declares a set of items for which to apply a common set of property values.helpviewer_keywords: ["ApplyPropertiesToItems","ApplyPropertiesToItems method [Windows Shell]","ApplyPropertiesToItems method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","ApplyPropertiesToItems method","IFileOperation.ApplyPropertiesToItems","IFileOperation::ApplyPropertiesToItems","_shell_IFileOperation_ApplyPropertiesToItems","shell.IFileOperation_ApplyPropertiesToItems","shobjidl_core/IFileOperation::ApplyPropertiesToItems"]
 old-location: shell\IFileOperation_ApplyPropertiesToItems.htm
 tech.root: shell
 ms.assetid: d24aa63e-99ef-470c-9723-e561ee0a56bc

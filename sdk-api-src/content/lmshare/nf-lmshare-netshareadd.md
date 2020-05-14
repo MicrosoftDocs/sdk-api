@@ -1,7 +1,7 @@
 ---
 UID: NF:lmshare.NetShareAdd
 title: NetShareAdd function (lmshare.h)
-description: Shares a server resource.
+description: Shares a server resource.helpviewer_keywords: ["2","502","503","NetShareAdd","NetShareAdd function [Files]","_win32_netshareadd","fs.netshareadd","lmshare/NetShareAdd","netmgmt.netshareadd"]
 old-location: fs\netshareadd.htm
 tech.root: NetShare
 ms.assetid: 8b51c155-24e8-4d39-b818-eb2d1bb0ee8b

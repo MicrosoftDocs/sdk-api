@@ -2,6 +2,7 @@
 UID: NF:d2d1_1.ID2D1GradientStopCollection1.GetPreInterpolationSpace
 title: ID2D1GradientStopCollection1::GetPreInterpolationSpace (d2d1_1.h)
 description: Gets the color space of the input colors as well as the space in which gradient stops are interpolated.
+helpviewer_keywords: ["GetPreInterpolationSpace","GetPreInterpolationSpace method [Direct2D]","GetPreInterpolationSpace method [Direct2D]","ID2D1GradientStopCollection1 interface","ID2D1GradientStopCollection1 interface [Direct2D]","GetPreInterpolationSpace method","ID2D1GradientStopCollection1.GetPreInterpolationSpace","ID2D1GradientStopCollection1::GetPreInterpolationSpace","d2d1_1/ID2D1GradientStopCollection1::GetPreInterpolationSpace","direct2d.id2d1gradientstopcollection1_getpreinterpolationspace"]
 old-location: direct2d\id2d1gradientstopcollection1_getpreinterpolationspace.htm
 tech.root: Direct2D
 ms.assetid: 8222d713-c47e-4e4c-92aa-040dc9085ce9
@@ -74,7 +75,7 @@ This method returns the color space.
 
 
 
-If this object was created using <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method  returns the color space related to the color interpolation gamma.
+If this object was created using <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method  returns the color space related to the color interpolation gamma.
  
 
 
@@ -97,7 +98,7 @@ If this object was created using <a href="https://docs.microsoft.com/windows/win
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

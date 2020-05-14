@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetCurrentFolderFlags
 title: IFolderView2::SetCurrentFolderFlags (shobjidl_core.h)
-description: Sets and applies specified folder flags.
+description: Sets and applies specified folder flags.helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetCurrentFolderFlags method","IFolderView2.SetCurrentFolderFlags","IFolderView2::SetCurrentFolderFlags","SetCurrentFolderFlags","SetCurrentFolderFlags method [Windows Shell]","SetCurrentFolderFlags method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetCurrentFolderFlags","shell.IFolderView2_SetCurrentFolderFlags","shobjidl_core/IFolderView2::SetCurrentFolderFlags"]
 old-location: shell\IFolderView2_SetCurrentFolderFlags.htm
 tech.root: shell
 ms.assetid: 94999ac7-c9dd-439e-8f63-eeb226763200

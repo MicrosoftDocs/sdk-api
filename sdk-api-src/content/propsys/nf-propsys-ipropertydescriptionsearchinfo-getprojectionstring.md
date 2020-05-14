@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetProjectionString
 title: IPropertyDescriptionSearchInfo::GetProjectionString (propsys.h)
-description: Returns a pointer to a string containing the canonical name of the item.
+description: Returns a pointer to a string containing the canonical name of the item.helpviewer_keywords: ["GetProjectionString","GetProjectionString method [Windows Properties]","GetProjectionString method [Windows Properties]","IPropertyDescriptionSearchInfo interface","IPropertyDescriptionSearchInfo interface [Windows Properties]","GetProjectionString method","IPropertyDescriptionSearchInfo.GetProjectionString","IPropertyDescriptionSearchInfo::GetProjectionString","_shell_IPropertyDescriptionSearchInfo_GetProjectionString","properties.IPropertyDescriptionSearchInfo_GetProjectionString","propsys/IPropertyDescriptionSearchInfo::GetProjectionString","shell.IPropertyDescriptionSearchInfo_GetProjectionString"]
 old-location: properties\IPropertyDescriptionSearchInfo_GetProjectionString.htm
 tech.root: properties
 ms.assetid: 06881c29-fafb-47be-abdb-906e289ee5fc

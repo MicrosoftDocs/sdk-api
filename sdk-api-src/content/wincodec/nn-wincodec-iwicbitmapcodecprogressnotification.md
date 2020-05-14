@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICBitmapCodecProgressNotification
 title: IWICBitmapCodecProgressNotification (wincodec.h)
-description: Exposes methods used for progress notification for encoders and decoders.
+description: Exposes methods used for progress notification for encoders and decoders.helpviewer_keywords: ["IWICBitmapCodecProgressNotification","IWICBitmapCodecProgressNotification interface [Windows Imaging Component]","IWICBitmapCodecProgressNotification interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapcodecprogressnotification","wic._wic_codec_iwicbitmapcodecprogressnotification","wincodec/IWICBitmapCodecProgressNotification"]
 old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification.htm
 tech.root: wic
 ms.assetid: 8cf3fbca-0953-4dd7-aa44-3e1924cfd8b0

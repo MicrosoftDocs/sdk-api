@@ -1,7 +1,7 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentPersistInfo
 title: ISceSvcAttachmentPersistInfo (scesvc.h)
-description: The ISceSvcAttachmentPersistInfo interface retrieves any modified configuration or analysis information from an attachment snap-in.
+description: The ISceSvcAttachmentPersistInfo interface retrieves any modified configuration or analysis information from an attachment snap-in.helpviewer_keywords: ["ISceSvcAttachmentPersistInfo","ISceSvcAttachmentPersistInfo interface [Security]","ISceSvcAttachmentPersistInfo interface [Security]","described","_config_iscesvcattachmentpersistinfo","scesvc/ISceSvcAttachmentPersistInfo","security.iscesvcattachmentpersistinfo"]
 old-location: security\iscesvcattachmentpersistinfo.htm
 tech.root: SecMgmt
 ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b

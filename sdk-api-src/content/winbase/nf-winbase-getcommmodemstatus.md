@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetCommModemStatus
 title: GetCommModemStatus function (winbase.h)
-description: Retrieves the modem control-register values.
+description: Retrieves the modem control-register values.helpviewer_keywords: ["GetCommModemStatus","GetCommModemStatus function","MS_CTS_ON","MS_DSR_ON","MS_RING_ON","MS_RLSD_ON","_win32_getcommmodemstatus","base.getcommmodemstatus","winbase/GetCommModemStatus"]
 old-location: base\getcommmodemstatus.htm
 tech.root: devio
 ms.assetid: 937bb623-d02d-452e-a8a2-21d9a6c5cac0

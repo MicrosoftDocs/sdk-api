@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1HwndRenderTarget.GetHwnd
 title: ID2D1HwndRenderTarget::GetHwnd (d2d1.h)
-description: Returns the HWND associated with this render target.
+description: Returns the HWND associated with this render target.helpviewer_keywords: ["GetHwnd","GetHwnd method [Direct2D]","GetHwnd method [Direct2D]","ID2D1HwndRenderTarget interface","ID2D1HwndRenderTarget interface [Direct2D]","GetHwnd method","ID2D1HwndRenderTarget.GetHwnd","ID2D1HwndRenderTarget::GetHwnd","d2d1/ID2D1HwndRenderTarget::GetHwnd","direct2d.ID2D1HwndRenderTarget_GetHwnd"]
 old-location: direct2d\ID2D1HwndRenderTarget_GetHwnd.htm
 tech.root: Direct2D
 ms.assetid: ba43ed30-fd29-4163-a2ea-15ba42e819db
@@ -75,7 +75,7 @@ The HWND associated with this render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>
  
 
  

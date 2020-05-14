@@ -2,6 +2,7 @@
 UID: NS:gdiplusinit.GdiplusStartupInput
 title: GdiplusStartupInput
 description: The **GdiplusStartupInput** structure holds a block of arguments that are required by the [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) function.
+helpviewer_keywords: ["GdiplusStartupInput"]
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupinput.htm
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupInput.htm
 tech.root: gdiplus
@@ -49,9 +50,9 @@ Type: **UINT32**
 Specifies the version of GDI+. Must be 1. 
 
 ### -field DebugEventCallback
-Type: **DebugEventProc**
+Type: **[DebugEventProc](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc)**
 
-Pointer to a callback function that GDI+ can call, on debug builds, for assertions and warnings. The default value is **NULL**. 
+Pointer to a callback function that GDI+ can call, on debug builds, for assertions and warnings. The default value is **NULL**.
 
 ### -field SuppressBackgroundThread
 Type: **BOOL**
@@ -61,11 +62,7 @@ Boolean value that specifies whether to suppress the GDI+ background thread. If 
 ### -field SuppressExternalCodecs
 Type: **BOOL**
 
-Boolean value that specifies whether you want GDI+ to suppress external image codecs. GDI+ version 1.0 doesn't support external image codecs, so this parameter is ignored.
-
-### -field void GdiplusStartupInput(  DebugEventProc debugEventCallback,  BOOL           suppressBackgroundThread,  BOOL           suppressExternalCodecs)
-
-A constructor for the structure.
+Boolean value that specifies whether you want GDI+ to suppress external image codecs. GDI+ version 1.0 doesn't support external image codecs, so this field is ignored. The default value is **FALSE**.
 
 ## -remarks
 The **GdiplusStartupInput** structure provides a constructor that sets the **GdiplusVersion** member to 1, and allows you to specify values for the other three members. All of the constructor parameters are optional, so you can declare a variable of type **GdiplusStartupInput** without passing any arguments to the constructor, and all of the members will be initialized with appropriate default values.

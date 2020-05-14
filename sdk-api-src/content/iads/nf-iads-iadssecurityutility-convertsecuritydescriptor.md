@@ -2,6 +2,7 @@
 UID: NF:iads.IADsSecurityUtility.ConvertSecurityDescriptor
 title: IADsSecurityUtility::ConvertSecurityDescriptor (iads.h)
 description: Converts a security descriptor from one format to another.
+helpviewer_keywords: ["ADS_SD_FORMAT_HEXSTRING","ADS_SD_FORMAT_IID","ADS_SD_FORMAT_RAW","ConvertSecurityDescriptor","ConvertSecurityDescriptor method [ADSI]","ConvertSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","IADsSecurityUtility interface [ADSI]","ConvertSecurityDescriptor method","IADsSecurityUtility.ConvertSecurityDescriptor","IADsSecurityUtility::ConvertSecurityDescriptor","_ds_iadssecurityutility_convertsecuritydescriptor","adsi.iadssecurityutility__convertsecuritydescriptor","adsi.iadssecurityutility_convertsecuritydescriptor","iads/IADsSecurityUtility::ConvertSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_convertsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: ea6509bd-5625-458b-be7a-abb43ba2f46e
@@ -64,7 +65,7 @@ A <b>VARIANT</b> that contains the security descriptor to convert. The format of
 
 ### -param lDataFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor in the <i>varSD</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>varSD</i> parameter.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor in the <i>varSD</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>varSD</i> parameter.
 
 
 
@@ -87,7 +88,7 @@ Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/n
 
 ### -param lOutFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format that the security descriptor should be converted to. The following list identifies the possible values for this parameter and the format of the <i>pvResult</i> parameter.
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format that the security descriptor should be converted to. The following list identifies the possible values for this parameter and the format of the <i>pvResult</i> parameter.
 
 
 
@@ -127,11 +128,11 @@ Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possib
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 

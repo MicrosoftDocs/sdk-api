@@ -2,12 +2,12 @@
 UID: NF:wingdi.GetNearestPaletteIndex
 title: GetNearestPaletteIndex function (wingdi.h)
 description: The GetNearestPaletteIndex function retrieves the index for the entry in the specified logical palette most closely matching a specified color value.
+helpviewer_keywords: ["GetNearestPaletteIndex","GetNearestPaletteIndex function [Windows GDI]","_win32_GetNearestPaletteIndex","gdi.getnearestpaletteindex","wingdi/GetNearestPaletteIndex"]
 old-location: gdi\getnearestpaletteindex.htm
 tech.root: gdi
 ms.assetid: df54532d-dcdb-4927-8f48-c9c92a7e0121
 ms.date: 12/05/2018
 ms.keywords: GetNearestPaletteIndex, GetNearestPaletteIndex function [Windows GDI], _win32_GetNearestPaletteIndex, gdi.getnearestpaletteindex, wingdi/GetNearestPaletteIndex
-ms.topic: function
 f1_keywords:
 - wingdi/GetNearestPaletteIndex
 dev_langs:

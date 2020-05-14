@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncConflictHandler
 title: IOfflineFilesSyncConflictHandler (cscobj.h)
-description: Used by a client calling the IOfflineFilesCache::Synchronize method to prescribe a conflict resolution strategy for sync conflicts as they are detected.
+description: Used by a client calling the IOfflineFilesCache::Synchronize method to prescribe a conflict resolution strategy for sync conflicts as they are detected.helpviewer_keywords: ["IOfflineFilesSyncConflictHandler","IOfflineFilesSyncConflictHandler interface [Offline Files]","IOfflineFilesSyncConflictHandler interface [Offline Files]","described","cscobj/IOfflineFilesSyncConflictHandler","of.iofflinefilessyncconflicthandler"]
 old-location: of\iofflinefilessyncconflicthandler.htm
 tech.root: offlinefiles
 ms.assetid: f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64

@@ -2,6 +2,7 @@
 UID: NF:winuser.DefRawInputProc
 title: DefRawInputProc function (winuser.h)
 description: Verifies that the size of the RAWINPUTHEADER structure is correct.
+helpviewer_keywords: ["DefRawInputProc","DefRawInputProc function [Keyboard and Mouse Input]","_win32_DefRawInputProc","_win32_defrawinputproc_cpp","inputdev.defrawinputproc","winui._win32_defrawinputproc","winuser/DefRawInputProc"]
 old-location: inputdev\defrawinputproc.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\defrawinputproc.htm

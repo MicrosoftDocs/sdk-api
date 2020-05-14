@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IResourceManager.RequestResource
 title: IResourceManager::RequestResource (strmif.h)
-description: The RequestResource method requests the use of a given registered resource.
+description: The RequestResource method requests the use of a given registered resource.helpviewer_keywords: ["IResourceManager interface [DirectShow]","RequestResource method","IResourceManager.RequestResource","IResourceManager::RequestResource","IResourceManagerRequestResource","RequestResource","RequestResource method [DirectShow]","RequestResource method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_requestresource","strmif/IResourceManager::RequestResource"]
 old-location: dshow\iresourcemanager_requestresource.htm
 tech.root: DirectShow
 ms.assetid: b52dc38a-9246-4cef-ba1a-cf1927223183

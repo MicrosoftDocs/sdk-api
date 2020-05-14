@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapInvalidRect
 title: ID2D1Transform::MapInvalidRect (d2d1effectauthor.h)
-description: Sets the input rectangles for this rendering pass into the transform.
+description: Sets the input rectangles for this rendering pass into the transform.helpviewer_keywords: ["ID2D1Transform interface [Direct2D]","MapInvalidRect method","ID2D1Transform.MapInvalidRect","ID2D1Transform::MapInvalidRect","MapInvalidRect","MapInvalidRect method [Direct2D]","MapInvalidRect method [Direct2D]","ID2D1Transform interface","d2d1effectauthor/ID2D1Transform::MapInvalidRect","direct2d.id2d1transform_setinputrects"]
 old-location: direct2d\id2d1transform_setinputrects.htm
 tech.root: Direct2D
 ms.assetid: 46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5

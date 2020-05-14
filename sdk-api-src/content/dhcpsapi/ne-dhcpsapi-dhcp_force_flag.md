@@ -1,7 +1,7 @@
 ---
 UID: NE:dhcpsapi._DHCP_FORCE_FLAG
 title: DHCP_FORCE_FLAG (dhcpsapi.h)
-description: The DHCP_FORCE_FLAG enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.
+description: The DHCP_FORCE_FLAG enumeration defines the set of flags describing the force level of a DHCP subnet element deletion operation.helpviewer_keywords: ["*LPDHCP_FORCE_FLAG","DHCP_FORCE_FLAG","DHCP_FORCE_FLAG enumeration [DHCP]","DhcpFailoverForce","DhcpFullForce","DhcpNoForce","LPDHCP_FORCE_FLAG","LPDHCP_FORCE_FLAG enumeration pointer [DHCP]","dhcp.dhcp_force_flag","dhcpsapi/DHCP_FORCE_FLAG","dhcpsapi/DhcpFailoverForce","dhcpsapi/DhcpFullForce","dhcpsapi/DhcpNoForce","dhcpsapi/LPDHCP_FORCE_FLAG"]
 old-location: dhcp\dhcp_force_flag.htm
 tech.root: DHCP
 ms.assetid: 2ec45a99-432d-4218-9048-81714ceff36b

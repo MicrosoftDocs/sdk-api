@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineSetNumRings
 title: lineSetNumRings function (tapi.h)
-description: The lineSetNumRings function sets the number of rings that must occur before an incoming call is answered.
+description: The lineSetNumRings function sets the number of rings that must occur before an incoming call is answered.helpviewer_keywords: ["_tapi2_linesetnumrings","lineSetNumRings","lineSetNumRings function [TAPI 2.2]","tapi/lineSetNumRings","tapi2.linesetnumrings"]
 old-location: tapi2\linesetnumrings.htm
 tech.root: Tapi
 ms.assetid: d600fd39-4e58-421c-81bf-1555f5745f5e

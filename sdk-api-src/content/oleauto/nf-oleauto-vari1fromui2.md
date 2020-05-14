@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI1FromUI2
 title: VarI1FromUI2 function (oleauto.h)
-description: Converts an unsigned short value to a char value.
+description: Converts an unsigned short value to a char value.helpviewer_keywords: ["VarI1FromUI2","VarI1FromUI2 function [Automation]","_oa96_VarI1FromUI2","automat.vari1fromui2","oleauto/VarI1FromUI2"]
 old-location: automat\vari1fromui2.htm
 tech.root: automat
 ms.assetid: 193a2690-2436-4746-b6a7-e703853aef15

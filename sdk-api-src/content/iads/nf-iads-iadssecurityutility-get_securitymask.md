@@ -2,6 +2,7 @@
 UID: NF:iads.IADsSecurityUtility.get_SecurityMask
 title: IADsSecurityUtility::get_SecurityMask (iads.h)
 description: Determines which elements of the security descriptor to retrieve or set.
+helpviewer_keywords: ["IADsSecurityUtility interface [ADSI]","SecurityMask property","IADsSecurityUtility.SecurityMask","IADsSecurityUtility.get_SecurityMask","IADsSecurityUtility::SecurityMask","IADsSecurityUtility::get_SecurityMask","IADsSecurityUtility::put_SecurityMask","SecurityMask property [ADSI]","SecurityMask property [ADSI]","IADsSecurityUtility interface","adsi.iadssecurityutility_securitymask","get_SecurityMask","iads/IADsSecurityUtility::SecurityMask","iads/IADsSecurityUtility::get_SecurityMask","iads/IADsSecurityUtility::put_SecurityMask"]
 old-location: adsi\iadssecurityutility_securitymask.htm
 tech.root: adsi
 ms.assetid: b54ebe68-f7ce-484e-9378-04662b7a1051
@@ -64,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
 
 
 

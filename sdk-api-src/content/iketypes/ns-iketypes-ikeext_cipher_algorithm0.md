@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_CIPHER_ALGORITHM0_
 title: IKEEXT_CIPHER_ALGORITHM0 (iketypes.h)
 description: Stores information about the IKE/AuthIP encryption algorithm.
+helpviewer_keywords: ["IKEEXT_CIPHER_ALGORITHM0","IKEEXT_CIPHER_ALGORITHM0 structure [Filtering]","fwp.ikeext_cipher_algorithm0","iketypes/IKEEXT_CIPHER_ALGORITHM0"]
 old-location: fwp\ikeext_cipher_algorithm0.htm
 tech.root: fwp
 ms.assetid: 940714a3-d098-4d02-9209-fcf3b24ee4e7
@@ -61,7 +62,7 @@ The <b>IKEEXT_CIPHER_ALGORITHM0</b> structure stores information about the IKE/A
 
 The type of encryption algorithm.
 
-See [IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type)a> for more information.
+See [IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type) for more information.
 
 
 ### -field keyLen
@@ -88,7 +89,7 @@ Unused parameter, always set it to 0.
 
 
 
-[IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type)a>
+[IKEEXT_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cipher_type)
 
 
 

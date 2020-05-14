@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetResidencyPriority
 title: ID3D12Device1::SetResidencyPriority (d3d12.h)
-description: This method sets residency priorities of a specified list of objects.
+description: This method sets residency priorities of a specified list of objects.helpviewer_keywords: ["ID3D12Device1 interface","SetResidencyPriority method","ID3D12Device1.SetResidencyPriority","ID3D12Device1::SetResidencyPriority","SetResidencyPriority","SetResidencyPriority method","SetResidencyPriority method","ID3D12Device1 interface","d3d12/ID3D12Device1::SetResidencyPriority","direct3d12.id3d12device1_setresidencypriority"]
 old-location: direct3d12\id3d12device1_setresidencypriority.htm
 tech.root: direct3d12
 ms.assetid: C489AA41-B2FC-418D-8268-9C02E5E10E0D

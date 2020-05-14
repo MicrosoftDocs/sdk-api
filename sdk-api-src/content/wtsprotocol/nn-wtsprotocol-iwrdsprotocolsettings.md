@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolSettings
 title: IWRdsProtocolSettings (wtsprotocol.h)
-description: Exposes methods for retrieving and adding policy-related settings.
+description: Exposes methods for retrieving and adding policy-related settings.helpviewer_keywords: ["IWRdsProtocolSettings","IWRdsProtocolSettings interface [Remote Desktop Services]","IWRdsProtocolSettings interface [Remote Desktop Services]","described","termserv.iwrdsprotocolsettings","wtsprotocol/IWRdsProtocolSettings"]
 old-location: termserv\iwrdsprotocolsettings.htm
 tech.root: TermServ
 ms.assetid: 3680a001-e162-4930-985f-5c50c2e8a8b9

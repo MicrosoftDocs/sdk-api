@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_DESTROYDDLOCAL
 title: PDD_DESTROYDDLOCAL (ddrawint.h)
-description: The D3dDestroyDDLocal function destroys all the Microsoft Direct3D surfaces previously created by the D3dCreateSurfaceEx function that belong to the same given local Microsoft DirectDraw object.
+description: The D3dDestroyDDLocal function destroys all the Microsoft Direct3D surfaces previously created by the D3dCreateSurfaceEx function that belong to the same given local Microsoft DirectDraw object.helpviewer_keywords: ["D3dDestroyDDLocal","D3dDestroyDDLocal callback function [Display Devices]","PDD_DESTROYDDLOCAL","PDD_DESTROYDDLOCAL callback","d3dfncs_3480b8ff-c19d-4495-ab5e-d5ef4e326967.xml","ddrawint/D3dDestroyDDLocal","display.d3ddestroyddlocal"]
 old-location: display\d3ddestroyddlocal.htm
 tech.root: display
 ms.assetid: c68b924b-422d-4a01-8dac-674835833798

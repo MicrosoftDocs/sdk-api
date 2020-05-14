@@ -1,7 +1,7 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0008
 title: ValueMapType (pla.h)
-description: Defines the type of the value.
+description: Defines the type of the value.helpviewer_keywords: ["ValueMapType","ValueMapType enumeration [PLA]","base.valuemaptype","pla.valuemaptype","pla/ValueMapType","pla/plaFlag","pla/plaFlagArray","pla/plaIndex","pla/plaValidation","plaFlag","plaFlagArray","plaIndex","plaValidation"]
 old-location: pla\valuemaptype.htm
 tech.root: PLA
 ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec

@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPReregistrar.ReregisterRunningDevice
 title: IUPnPReregistrar::ReregisterRunningDevice (upnphost.h)
-description: The ReregisterRunningDevice method re-registers a running device with the device host.
+description: The ReregisterRunningDevice method re-registers a running device with the device host.helpviewer_keywords: ["IUPnPReregistrar interface [UPnP APIs]","ReregisterRunningDevice method","IUPnPReregistrar.ReregisterRunningDevice","IUPnPReregistrar::ReregisterRunningDevice","ReregisterRunningDevice","ReregisterRunningDevice method [UPnP APIs]","ReregisterRunningDevice method [UPnP APIs]","IUPnPReregistrar interface","_upnp_iupnpreregistrar_reregisterrunningdevice","upnp.iupnpreregistrar_reregisterrunningdevice","upnphost/IUPnPReregistrar::ReregisterRunningDevice"]
 old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm
 tech.root: upnp
 ms.assetid: e5e9257e-1143-416c-8862-a69b726f5e23

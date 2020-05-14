@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.CreatePersistentUdpPortReservation
 title: CreatePersistentUdpPortReservation function (iphlpapi.h)
-description: Creates a persistent UDP port reservation for a consecutive block of UDP ports on the local computer.
+description: Creates a persistent UDP port reservation for a consecutive block of UDP ports on the local computer.helpviewer_keywords: ["CreatePersistentUdpPortReservation","CreatePersistentUdpPortReservation function [IP Helper]","iphlp.createpersistentudpportreservation","iphlpapi/CreatePersistentUdpPortReservation"]
 old-location: iphlp\createpersistentudpportreservation.htm
 tech.root: IpHlp
 ms.assetid: AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94

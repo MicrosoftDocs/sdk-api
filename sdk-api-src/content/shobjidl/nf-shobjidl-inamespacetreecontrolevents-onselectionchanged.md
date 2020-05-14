@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnSelectionChanged
 title: INameSpaceTreeControlEvents::OnSelectionChanged (shobjidl.h)
-description: Called when the selection changes.
+description: Called when the selection changes.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnSelectionChanged method","INameSpaceTreeControlEvents.OnSelectionChanged","INameSpaceTreeControlEvents::OnSelectionChanged","OnSelectionChanged","OnSelectionChanged method [Windows Shell]","OnSelectionChanged method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnSelectionChanged","shell.INameSpaceTreeControlEvents_OnSelectionChanged","shobjidl/INameSpaceTreeControlEvents::OnSelectionChanged"]
 old-location: shell\INameSpaceTreeControlEvents_OnSelectionChanged.htm
 tech.root: shell
 ms.assetid: ecc84586-ec37-4ece-a890-6adfc7a94ad6

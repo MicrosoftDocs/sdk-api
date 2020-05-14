@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation5.RemoveNotificationEventHandler
 title: IUIAutomation5::RemoveNotificationEventHandler (uiautomationclient.h)
-description: Removes a notification event handler.
+description: Removes a notification event handler.helpviewer_keywords: ["IUIAutomation5 interface [Windows Accessibility]","RemoveNotificationEventHandler method","IUIAutomation5.RemoveNotificationEventHandler","IUIAutomation5::RemoveNotificationEventHandler","RemoveNotificationEventHandler","RemoveNotificationEventHandler method [Windows Accessibility]","RemoveNotificationEventHandler method [Windows Accessibility]","IUIAutomation5 interface","uiautomationclient/IUIAutomation5::RemoveNotificationEventHandler","winauto.uiauto_IUIAutomation5_RemoveNotificationEventHandler"]
 old-location: winauto\uiauto_IUIAutomation5_RemoveNotificationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: E0775AB3-814F-4420-9764-333572DAD201

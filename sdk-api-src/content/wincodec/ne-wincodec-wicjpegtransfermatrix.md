@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICJpegTransferMatrix
 title: WICJpegTransferMatrix (wincodec.h)
-description: Specifies conversion matrix from Y'Cb'Cr' to R'G'B'.
+description: Specifies conversion matrix from Y'Cb'Cr' to R'G'B'.helpviewer_keywords: ["WICJpegTransferMatrix","WICJpegTransferMatrix enumeration [Windows Imaging Component]","WICJpegTransferMatrixBT601","WICJpegTransferMatrixIdentity","WICJpegTransferMatrix_FORCE_DWORD","wic.wicjpegtransfermatrix","wincodec/WICJpegTransferMatrix","wincodec/WICJpegTransferMatrixBT601","wincodec/WICJpegTransferMatrixIdentity","wincodec/WICJpegTransferMatrix_FORCE_DWORD"]
 old-location: wic\wicjpegtransfermatrix.htm
 tech.root: wic
 ms.assetid: 393342C4-A906-4427-BEAA-842FF77C9E9D

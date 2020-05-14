@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToStringArray
 title: VariantToStringArray function (propvarutil.h)
-description: Extracts data from a vector structure into a String array.
+description: Extracts data from a vector structure into a String array.helpviewer_keywords: ["VariantToStringArray","VariantToStringArray function [Windows Properties]","_shell_VariantToStringArray","properties.VariantToStringArray","propvarutil/VariantToStringArray","shell.VariantToStringArray"]
 old-location: properties\VariantToStringArray.htm
 tech.root: properties
 ms.assetid: d19b12ad-408c-4502-ad59-49386784bd69

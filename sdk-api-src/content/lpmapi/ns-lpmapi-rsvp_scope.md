@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_10
 title: RSVP_SCOPE (lpmapi.h)
-description: The RSVP_SCOPE structure provides RSVP scope information.
+description: The RSVP_SCOPE structure provides RSVP scope information.helpviewer_keywords: ["RSVP_SCOPE","RSVP_SCOPE structure [QOS]","lpmapi/RSVP_SCOPE","qos.rsvp_scope"]
 old-location: qos\rsvp_scope.htm
 tech.root: QOS
 ms.assetid: 64a7e461-d767-4571-97ca-cf7862a05d18

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbServiceNotification.NotifyServiceSuccess
 title: ITsSbServiceNotification::NotifyServiceSuccess (sbtsv.h)
-description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.
+description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.helpviewer_keywords: ["ITsSbServiceNotification interface [Remote Desktop Services]","NotifyServiceSuccess method","ITsSbServiceNotification.NotifyServiceSuccess","ITsSbServiceNotification::NotifyServiceSuccess","NotifyServiceSuccess","NotifyServiceSuccess method [Remote Desktop Services]","NotifyServiceSuccess method [Remote Desktop Services]","ITsSbServiceNotification interface","sbtsv/ITsSbServiceNotification::NotifyServiceSuccess","termserv.itssbservicenotification_notifyservicesuccess"]
 old-location: termserv\itssbservicenotification_notifyservicesuccess.htm
 tech.root: TermServ
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129

@@ -2,6 +2,7 @@
 UID: NF:callobj.ICallFrame.Unmarshal
 title: ICallFrame::Unmarshal (callobj.h)
 description: Unmarshals a packet of data containing the previously marshaled [out] parameters of a call into this already existing activation record.
+helpviewer_keywords: ["ICallFrame interface [COM]","Unmarshal method","ICallFrame.Unmarshal","ICallFrame::Unmarshal","Unmarshal","Unmarshal method [COM]","Unmarshal method [COM]","ICallFrame interface","_com_icallframe_unmarshal","callobj/ICallFrame::Unmarshal","com.icallframe_unmarshal"]
 old-location: com\icallframe_unmarshal.htm
 tech.root: com
 ms.assetid: 9f604366-0e1f-4e04-9843-13c77ea573ab
@@ -74,7 +75,7 @@ The NDR data representation with which the data was marshaled. For more informat
 
 ### -param pcontext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how unmarshalling is carried out.
+A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marshalcontext">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how unmarshalling is carried out.
 
 
 ### -param pcbUnmarshalled [out]

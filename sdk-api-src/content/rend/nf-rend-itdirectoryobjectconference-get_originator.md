@@ -1,7 +1,7 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Originator
 title: ITDirectoryObjectConference::get_Originator (rend.h)
-description: The get_Originator method gets the originator's user name.
+description: The get_Originator method gets the originator's user name.helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Originator method","ITDirectoryObjectConference.get_Originator","ITDirectoryObjectConference::get_Originator","_tapi3_itdirectoryobjectconference_get_originator","get_Originator","get_Originator method [TAPI 2.2]","get_Originator method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Originator","tapi3.itdirectoryobjectconference_get_originator"]
 old-location: tapi3\itdirectoryobjectconference_get_originator.htm
 tech.root: Tapi
 ms.assetid: b17be92c-eee6-43ec-bec0-75d4c30ad22f

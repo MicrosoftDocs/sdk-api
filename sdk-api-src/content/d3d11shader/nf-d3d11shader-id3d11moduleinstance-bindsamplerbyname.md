@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindSamplerByName
 title: ID3D11ModuleInstance::BindSamplerByName (d3d11shader.h)
-description: Rebinds a sampler by name to destination slots.
+description: Rebinds a sampler by name to destination slots.helpviewer_keywords: ["BindSamplerByName","BindSamplerByName method [Direct3D 11]","BindSamplerByName method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindSamplerByName method","ID3D11ModuleInstance.BindSamplerByName","ID3D11ModuleInstance::BindSamplerByName","d3d11shader/ID3D11ModuleInstance::BindSamplerByName","direct3d11.id3d11moduleinstance_bindsamplerbyname"]
 old-location: direct3d11\id3d11moduleinstance_bindsamplerbyname.htm
 tech.root: direct3d11
 ms.assetid: 3AB143F9-6AF7-4C1A-8330-AAA4A7723327

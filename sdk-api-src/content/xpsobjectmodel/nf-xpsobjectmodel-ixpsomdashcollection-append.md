@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.Append
 title: IXpsOMDashCollection::Append (xpsobjectmodel.h)
 description: Appends an XPS_DASH structure to the end of the collection.
+helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMDashCollection interface","IXpsOMDashCollection interface [XPS Documents and Packaging]","Append method","IXpsOMDashCollection.Append","IXpsOMDashCollection::Append","xps.ixpsomdashcollection_append","xpsobjectmodel/IXpsOMDashCollection::Append"]
 old-location: xps\ixpsomdashcollection_append.htm
 tech.root: printdocs
 ms.assetid: e8d2baf5-e36e-4363-bde6-1731c97e702f
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Appends an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure to the end of the collection.
+Appends an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure to the end of the collection.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Appends an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/
 
 ### -param dash [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that is to be appended  to the collection.
+A pointer to the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that is to be appended  to the collection.
 
 
 ## -returns
@@ -94,7 +95,7 @@ The figure that follows illustrates how the collection is changed by the <b>Appe
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

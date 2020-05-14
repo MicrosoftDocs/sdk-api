@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
 title: WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION (webservices.h)
-description: Describes the policy specifying TCP channel binding with windows SSPI transport security and username/password message security.
+description: Describes the policy specifying TCP channel binding with windows SSPI transport security and username/password message security.helpviewer_keywords: ["WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION","WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION structure [Web Services for Windows]","webservices/WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION","wsw.ws_tcp_sspi_username_policy_description"]
 old-location: wsw\ws_tcp_sspi_username_policy_description.htm
 tech.root: wsw
 ms.assetid: ddec8602-5a94-49ec-a2b6-37f4b77d2e9b

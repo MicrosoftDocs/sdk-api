@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference1.CreateFontFace
 title: IDWriteFontFaceReference1::CreateFontFace
-description: Uses the reference to create a font face, for use with layout, shaping, or rendering.
+description: Uses the reference to create a font face, for use with layout, shaping, or rendering.helpviewer_keywords: ["IDWriteFontFaceReference1 interface [Direct Write]","CreateFontFace method","IDWriteFontFaceReference1.CreateFontFace","IDWriteFontFaceReference1::CreateFontFace","CreateFontFace","CreateFontFace method [Direct Write]","CreateFontFace method [Direct Write]","IDWriteFontFaceReference1 interface","directwrite.idwritefontfacereference1_createfontface","dwrite_3/IDWriteFontFaceReference1::CreateFontFace"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFaceReference1 interface [Direct Write],CreateFontFace method, IDWriteFontFaceReference1.CreateFontFace, IDWriteFontFaceReference1::CreateFontFace, CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFontFaceReference1 interface, directwrite.idwritefontfacereference1_createfontface, dwrite_3/IDWriteFontFaceReference1::CreateFontFace

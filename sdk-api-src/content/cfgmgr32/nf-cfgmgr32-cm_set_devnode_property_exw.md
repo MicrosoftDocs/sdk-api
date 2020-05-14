@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Property_ExW
 title: CM_Set_DevNode_Property_ExW function (cfgmgr32.h)
-description: The CM_Set_DevNode_Property_ExW function sets a device instance property.
+description: The CM_Set_DevNode_Property_ExW function sets a device instance property.helpviewer_keywords: ["CM_Set_DevNode_Property_ExW","CM_Set_DevNode_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Set_DevNode_Property_ExW","devinst.cm_set_devnode_property_exw"]
 old-location: devinst\cm_set_devnode_property_exw.htm
 tech.root: devinst
 ms.assetid: FB725245-DB20-4363-BEC0-D7C837BED78A

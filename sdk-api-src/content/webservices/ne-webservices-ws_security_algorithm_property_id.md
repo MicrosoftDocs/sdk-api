@@ -2,6 +2,7 @@
 UID: NE:webservices.__unnamed_enum_58
 title: WS_SECURITY_ALGORITHM_PROPERTY_ID (webservices.h)
 description: Identifies the properties representing security algorithm knobs.
+helpviewer_keywords: ["WS_SECURITY_ALGORITHM_PROPERTY_ID","WS_SECURITY_ALGORITHM_PROPERTY_ID enumeration [Web Services for Windows]","webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID","wsw.ws_security_algorithm_property_id"]
 old-location: wsw\ws_security_algorithm_property_id.htm
 tech.root: wsw
 ms.assetid: eef63792-9dc6-49f5-bca3-e8056d0750f3
@@ -62,7 +63,7 @@ Identifies the properties representing security algorithm knobs.
 
 All properties defined by the keys here have reasonable defaults; so
 specifying them is optional.  In the common case, one should be able
-to create a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> without setting any of
+to create a <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> without setting any of
 the properties below.
             
 

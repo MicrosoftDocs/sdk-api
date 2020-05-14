@@ -1,7 +1,7 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.get_Item
 title: IWindowsMediaLibrarySharingDevices::get_Item (wmlss.h)
-description: The get_Item method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
+description: The get_Item method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.helpviewer_keywords: ["IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services]","get_Item method","IWindowsMediaLibrarySharingDevices.get_Item","IWindowsMediaLibrarySharingDevices::get_Item","get_Item","get_Item method [Windows Media Library Sharing Services]","get_Item method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevices interface","wmlss.IWMLSDevicesget_Item","wmlss/IWindowsMediaLibrarySharingDevices::get_Item"]
 old-location: wmlss\IWMLSDevicesget_Item.htm
 tech.root: WMLSS
 ms.assetid: 1ab420b7-ee40-405f-9125-0f9b3c074ef0

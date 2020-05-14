@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromPoints
 title: BoundingOrientedBox::CreateFromPoints
-description: Creates a BoundingOrientedBox from a collection of points.
+description: Creates a BoundingOrientedBox from a collection of points.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","CreateFromPoints method","BoundingOrientedBox.CreateFromPoints","BoundingOrientedBox::CreateFromPoints","CreateFromPoints","CreateFromPoints method [DirectX Math Support APIs]","CreateFromPoints method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_createfrompoints"]
 old-location: dxmath\boundingorientedbox_createfrompoints.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromPoints(BoundingOrientedBox@,size_t,XMFLOAT3,size_t)

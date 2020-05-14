@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchNotifyInlineSite
 title: ISearchNotifyInlineSite (searchapi.h)
-description: Provides methods the Search service uses to send updates on catalog and index status to notification providers.
+description: Provides methods the Search service uses to send updates on catalog and index status to notification providers.helpviewer_keywords: ["ISearchNotifyInlineSite","ISearchNotifyInlineSite interface [search]","ISearchNotifyInlineSite interface [search]","described","_search_ISearchNotifyInlineSite","search._search_ISearchNotifyInlineSite","searchapi/ISearchNotifyInlineSite"]
 old-location: search\_search_ISearchNotifyInlineSite.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\isearchnotifyinlinesite.htm

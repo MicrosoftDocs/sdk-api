@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetBaseClass
 title: ID3D11ShaderReflectionType::GetBaseClass (d3d11shader.h)
-description: Gets an ID3D11ShaderReflectionType Interface interface containing the variable base class type.
+description: Gets an ID3D11ShaderReflectionType Interface interface containing the variable base class type.helpviewer_keywords: ["GetBaseClass","GetBaseClass method [Direct3D 11]","GetBaseClass method [Direct3D 11]","ID3D11ShaderReflectionType interface","ID3D11ShaderReflectionType interface [Direct3D 11]","GetBaseClass method","ID3D11ShaderReflectionType.GetBaseClass","ID3D11ShaderReflectionType::GetBaseClass","c4667670-6e30-71f1-a36b-acb187487fdc","d3d11shader/ID3D11ShaderReflectionType::GetBaseClass","direct3d11.id3d11shaderreflectiontype_getbaseclass"]
 old-location: direct3d11\id3d11shaderreflectiontype_getbaseclass.htm
 tech.root: direct3d11
 ms.assetid: edca3d7a-2d7e-4593-ae74-7819c8b46ac2

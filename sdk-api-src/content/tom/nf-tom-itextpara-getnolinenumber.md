@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.GetNoLineNumber
 title: ITextPara::GetNoLineNumber (tom.h)
-description: Determines whether paragraph numbering is enabled.
+description: Determines whether paragraph numbering is enabled.helpviewer_keywords: ["GetNoLineNumber","GetNoLineNumber method [Windows Controls]","GetNoLineNumber method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetNoLineNumber method","ITextPara.GetNoLineNumber","ITextPara::GetNoLineNumber","_win32_ITextPara_GetNoLineNumber","_win32_ITextPara_GetNoLineNumber_cpp","controls.ITextPara_GetNoLineNumber","controls._win32_ITextPara_GetNoLineNumber","tom/ITextPara::GetNoLineNumber"]
 old-location: controls\ITextPara_GetNoLineNumber.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getnolinenumber.htm

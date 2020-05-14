@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidRect.put_HWnd
 title: IMSVidRect::put_HWnd (segment.h)
-description: The put_HWnd method specifies the window associated with the rectangle.
+description: The put_HWnd method specifies the window associated with the rectangle.helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","put_HWnd method","IMSVidRect.put_HWnd","IMSVidRect::put_HWnd","IMSVidRectput_HWnd","mstv.imsvidrect_put_hwnd","put_HWnd","put_HWnd method [Microsoft TV Technologies]","put_HWnd method [Microsoft TV Technologies]","IMSVidRect interface","segment/IMSVidRect::put_HWnd"]
 old-location: mstv\imsvidrect_put_hwnd.htm
 tech.root: mstv
 ms.assetid: bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb

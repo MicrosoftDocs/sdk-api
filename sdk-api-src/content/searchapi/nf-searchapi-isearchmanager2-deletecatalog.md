@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchManager2.DeleteCatalog
 title: ISearchManager2::DeleteCatalog (searchapi.h)
-description: Deletes an existing catalog and all associated indexed data from the Windows Search indexer.
+description: Deletes an existing catalog and all associated indexed data from the Windows Search indexer.helpviewer_keywords: ["DeleteCatalog","DeleteCatalog method [search]","DeleteCatalog method [search]","ISearchManager2 interface","ISearchManager2 interface [search]","DeleteCatalog method","ISearchManager2.DeleteCatalog","ISearchManager2::DeleteCatalog","search.isearchmanager2_deletecatalog","searchapi/ISearchManager2::DeleteCatalog"]
 old-location: search\isearchmanager2_deletecatalog.htm
 tech.root: search
 ms.assetid: E9515AEE-6854-4FF8-9A83-10E6BC247D4D

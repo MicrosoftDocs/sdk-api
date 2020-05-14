@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetSurroundColors
 title: PathGradientBrush::SetSurroundColors (gdipluspath.h)
-description: The PathGradientBrush::SetSurroundColors method sets the surround colors of this path gradient brush. The surround colors are colors specified for discrete points on the brush's boundary path.
+description: The PathGradientBrush::SetSurroundColors method sets the surround colors of this path gradient brush. The surround colors are colors specified for discrete points on the brush's boundary path.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetSurroundColors method","PathGradientBrush.SetSurroundColors","PathGradientBrush::SetSurroundColors","SetSurroundColors","SetSurroundColors method [GDI+]","SetSurroundColors method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setsurroundcolors.htm

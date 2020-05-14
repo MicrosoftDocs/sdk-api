@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.DeleteProxyArpEntry
 title: DeleteProxyArpEntry function (iphlpapi.h)
-description: The DeleteProxyArpEntry function deletes the PARP entry on the local computer specified by the dwAddress and dwIfIndex parameters.
+description: The DeleteProxyArpEntry function deletes the PARP entry on the local computer specified by the dwAddress and dwIfIndex parameters.helpviewer_keywords: ["DeleteProxyArpEntry","DeleteProxyArpEntry function [IP Helper]","_iphlp_deleteproxyarpentry","iphlp.deleteproxyarpentry","iphlpapi/DeleteProxyArpEntry"]
 old-location: iphlp\deleteproxyarpentry.htm
 tech.root: IpHlp
 ms.assetid: 26e08e4d-ac69-49f8-8a1a-1ba1a04d085c

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetThumbnailResource
 title: IXpsOMPackage::SetThumbnailResource (xpsobjectmodel.h)
 description: Sets the thumbnail image of the XPS document.
+helpviewer_keywords: ["IXpsOMPackage interface [XPS Documents and Packaging]","SetThumbnailResource method","IXpsOMPackage.SetThumbnailResource","IXpsOMPackage::SetThumbnailResource","SetThumbnailResource","SetThumbnailResource method [XPS Documents and Packaging]","SetThumbnailResource method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_setthumbnailresource","xpsobjectmodel/IXpsOMPackage::SetThumbnailResource"]
 old-location: xps\ixpsompackage_setthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: 1d5d5332-f6e1-4fad-8b45-c518196c17d2
@@ -118,7 +119,7 @@ The image in  <i>imageResource</i> is not a supported image type.
 
 The thumbnail image is a small, visual representation of the document's   contents.
 
-The image type of the image resource must be either  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE_JPEG</a> or <b>XPS_IMAGE_TYPE_PNG</b>.
+The image type of the image resource must be either  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE_JPEG</a> or <b>XPS_IMAGE_TYPE_PNG</b>.
 
 
 
@@ -144,7 +145,7 @@ The image type of the image resource must be either  <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
  
 
  

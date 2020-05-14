@@ -1,7 +1,7 @@
 ---
 UID: NS:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001
 title: AudioExtensionParams (mmdeviceapi.h)
-description: This structure is passed to the Control Panel Endpoint Extension property page through IShellPropSheetExt::AddPages and is used to create endpoint PropertyPages.
+description: This structure is passed to the Control Panel Endpoint Extension property page through IShellPropSheetExt::AddPages and is used to create endpoint PropertyPages.helpviewer_keywords: ["AudioExtensionParams","AudioExtensionParams structure [Core Audio]","PAudioExtensionParams","PAudioExtensionParams structure pointer [Core Audio]","coreaudio.audioextensionparams","mmdeviceapi/AudioExtensionParams","mmdeviceapi/PAudioExtensionParams"]
 old-location: coreaudio\audioextensionparams.htm
 tech.root: CoreAudio
 ms.assetid: 02A38355-104D-46C0-A34E-C0BB482323A9

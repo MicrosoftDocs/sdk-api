@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_HTTP_HEADER_MAPPING
 title: WS_HTTP_HEADER_MAPPING (webservices.h)
 description: Specifies an individual header that is mapped as part of WS_HTTP_MESSAGE_MAPPING.
+helpviewer_keywords: ["WS_HTTP_HEADER_MAPPING","WS_HTTP_HEADER_MAPPING structure [Web Services for Windows]","webservices/WS_HTTP_HEADER_MAPPING","wsw.ws_http_header_mapping"]
 old-location: wsw\ws_http_header_mapping.htm
 tech.root: wsw
 ms.assetid: bca1f244-4692-42bb-bbd7-c96647038a06
@@ -67,6 +68,6 @@ The name of the HTTP header.
 ### -field headerMappingOptions
 
 A set of flags that control how headers are mapped.  
-                    See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
+                    See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
                 
 

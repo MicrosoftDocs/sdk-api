@@ -1,7 +1,7 @@
 ---
 UID: NS:mmreg.heaacwaveinfo_tag
 title: HEAACWAVEINFO (mmreg.h)
-description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
+description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.helpviewer_keywords: ["*LPHEAACWAVEINFO","*NPHEAACWAVEINFO","*PHEAACWAVEINFO","HEAACWAVEINFO","HEAACWAVEINFO structure [DirectShow]","PHEAACWAVEINFO","PHEAACWAVEINFO structure pointer [DirectShow]","dshow.heaacwaveinfo","heaacwaveinfo_tag","mmreg/HEAACWAVEINFO","mmreg/PHEAACWAVEINFO"]
 old-location: dshow\heaacwaveinfo.htm
 tech.root: DirectShow
 ms.assetid: a9b888fb-b4a5-44c3-a715-687cc751063d

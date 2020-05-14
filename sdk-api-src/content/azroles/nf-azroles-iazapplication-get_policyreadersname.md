@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.get_PolicyReadersName
 title: IAzApplication::get_PolicyReadersName (azroles.h)
-description: The IAzApplication::PolicyReadersName property retrieves the account names of principals that act as policy readers.
+description: The IAzApplication::PolicyReadersName property retrieves the account names of principals that act as policy readers.helpviewer_keywords: ["AzApplication object [Security]","PolicyReadersName property","IAzApplication interface [Security]","PolicyReadersName property","IAzApplication.PolicyReadersName","IAzApplication.get_PolicyReadersName","IAzApplication::PolicyReadersName","IAzApplication::get_PolicyReadersName","PolicyReadersName property [Security]","PolicyReadersName property [Security]","AzApplication object","PolicyReadersName property [Security]","IAzApplication interface","azroles/IAzApplication::PolicyReadersName","azroles/IAzApplication::get_PolicyReadersName","get_PolicyReadersName","security.iazapplication_policyreadersname"]
 old-location: security\iazapplication_policyreadersname.htm
 tech.root: SecAuthZ
 ms.assetid: e6ed4504-0df1-438b-87c7-1861264d02bd

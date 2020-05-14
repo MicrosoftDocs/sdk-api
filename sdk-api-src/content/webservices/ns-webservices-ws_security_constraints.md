@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_SECURITY_CONSTRAINTS
 title: WS_SECURITY_CONSTRAINTS (webservices.h)
 description: This structure specifies the security related constraints as part of WS_POLICY_CONSTRAINTS.
+helpviewer_keywords: ["WS_SECURITY_CONSTRAINTS","WS_SECURITY_CONSTRAINTS structure [Web Services for Windows]","webservices/WS_SECURITY_CONSTRAINTS","wsw.ws_security_constraints"]
 old-location: wsw\ws_security_constraints.htm
 tech.root: wsw
 ms.assetid: 17fe7602-c050-46a2-b55c-aac6c277a5ce
@@ -69,11 +70,11 @@ An array of security property constraints which override the default
 
 If a security property constraint is not specified for a given property,
                     then a default constraint value will be used.
-                    See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> for the
+                    See <a href="/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
                 
 
-Note that the defaults constraints for <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
+Note that the defaults constraints for <a href="/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
                     are the same as the defaults for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a>.
                 
 
@@ -94,7 +95,7 @@ Any array of security binding constraints which taken as a unit specify
                     the type of security to match in the policy.
                 
 
-The type of each <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
+The type of each <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
                     to the types of security that is specified using a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
                     each security binding constraint specifies constraints on one security token.
                 

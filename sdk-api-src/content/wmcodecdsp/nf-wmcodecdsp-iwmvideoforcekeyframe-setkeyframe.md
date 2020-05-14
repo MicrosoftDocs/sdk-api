@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoForceKeyFrame.SetKeyFrame
 title: IWMVideoForceKeyFrame::SetKeyFrame (wmcodecdsp.h)
-description: Specifies that the current frame will be encoded as a key frame.
+description: Specifies that the current frame will be encoded as a key frame.helpviewer_keywords: ["IWMVideoForceKeyFrame interface [Media Foundation]","SetKeyFrame method","IWMVideoForceKeyFrame.SetKeyFrame","IWMVideoForceKeyFrame::SetKeyFrame","SetKeyFrame","SetKeyFrame method [Media Foundation]","SetKeyFrame method [Media Foundation]","IWMVideoForceKeyFrame interface","codecapi.iwmvideoforcekeyframe_setkeyframe","codecapi.iwmvideoforcekeyframesetkeyframe","mf.iwmvideoforcekeyframesetkeyframe","wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame"]
 old-location: mf\iwmvideoforcekeyframesetkeyframe.htm
 tech.root: medfound
 ms.assetid: 5cfebe9f-45b1-4cba-8813-6c9405657323

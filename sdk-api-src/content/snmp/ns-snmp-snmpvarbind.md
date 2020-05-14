@@ -1,7 +1,7 @@
 ---
 UID: NS:snmp.__unnamed_struct_3
 title: SnmpVarBind (snmp.h)
-description: The SnmpVarBind structure represents an SNMP variable binding. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
+description: The SnmpVarBind structure represents an SNMP variable binding. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.helpviewer_keywords: ["SnmpVarBind","SnmpVarBind structure [SNMP]","_snmp_snmpvarbind_str","snmp.snmpvarbind_str","snmp/SnmpVarBind"]
 old-location: snmp\snmpvarbind_str.htm
 tech.root: SNMP
 ms.assetid: 40f9930d-93d1-45eb-aa3a-499947004fcf

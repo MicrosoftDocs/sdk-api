@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE
 title: WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE (webservices.h)
-description: Security template information to be filled in by application. Associated with WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE.
+description: Security template information to be filled in by application. Associated with WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE.helpviewer_keywords: ["WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE","WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_BINDING_TEMPLATE","wsw.ws_tcp_sspi_kerberos_apreq_security_context_binding_template"]
 old-location: wsw\ws_tcp_sspi_kerberos_apreq_security_context_binding_template.htm
 tech.root: wsw
 ms.assetid: 2499125c-757c-4960-a1b6-aa41c55e7594

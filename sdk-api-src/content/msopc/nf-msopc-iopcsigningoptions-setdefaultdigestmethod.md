@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetDefaultDigestMethod
 title: IOpcSigningOptions::SetDefaultDigestMethod (msopc.h)
-description: Sets the default digest method that will be used to compute digest values for objects to be signed.
+description: Sets the default digest method that will be used to compute digest values for objects to be signed.helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetDefaultDigestMethod method","IOpcSigningOptions.SetDefaultDigestMethod","IOpcSigningOptions::SetDefaultDigestMethod","SetDefaultDigestMethod","SetDefaultDigestMethod method [Open Packaging Conventions]","SetDefaultDigestMethod method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetDefaultDigestMethod","opc.iopcsigningoptions_setdefaultdigestmethod"]
 old-location: opc\iopcsigningoptions_setdefaultdigestmethod.htm
 tech.root: OPC
 ms.assetid: 8de18a0e-cb3a-4232-90cb-718abdc9fb28

@@ -1,7 +1,7 @@
 ---
 UID: NS:vmr9._VMR9DeinterlaceCaps
 title: VMR9DeinterlaceCaps (vmr9.h)
-description: The VMR9DeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
+description: The VMR9DeinterlaceCaps structure describes the capabilities of a deinterlacing mode.helpviewer_keywords: ["VMR9DeinterlaceCaps","VMR9DeinterlaceCaps structure [DirectShow]","VMR9DeinterlaceCapsStructure","dshow.vmr9deinterlacecaps","vmr9/VMR9DeinterlaceCaps"]
 old-location: dshow\vmr9deinterlacecaps.htm
 tech.root: DirectShow
 ms.assetid: ae71c9d6-2540-4679-927c-e1d759df7009

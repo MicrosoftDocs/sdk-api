@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerEndEnumeration
 title: PeerEndEnumeration function (p2p.h)
-description: The PeerEndEnumeration function releases an enumeration, for example, a record or member enumeration, and deallocates all resources associated with the enumeration.
+description: The PeerEndEnumeration function releases an enumeration, for example, a record or member enumeration, and deallocates all resources associated with the enumeration.helpviewer_keywords: ["PeerEndEnumeration","PeerEndEnumeration function [Peer Networking]","p2p.peerendenumeration","p2p/PeerEndEnumeration"]
 old-location: p2p\peerendenumeration.htm
 tech.root: P2PSdk
 ms.assetid: cc9484fb-57b9-4970-91b8-c74db6bf2248

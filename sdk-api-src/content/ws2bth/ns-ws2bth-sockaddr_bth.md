@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2bth._SOCKADDR_BTH
 title: SOCKADDR_BTH (ws2bth.h)
-description: The SOCKADDR_BTH structure is used in conjunction with Bluetooth socket operations, defined by address family AF_BTH.
+description: The SOCKADDR_BTH structure is used in conjunction with Bluetooth socket operations, defined by address family AF_BTH.helpviewer_keywords: ["*PSOCKADDR_BTH","PSOCKADDR_BTH","PSOCKADDR_BTH structure pointer [Bluetooth]","SOCKADDR_BTH","SOCKADDR_BTH structure [Bluetooth]","_bth_sockaddr_bth","bluetooth.sockaddr_bth","ws2bth/PSOCKADDR_BTH","ws2bth/SOCKADDR_BTH"]
 old-location: bluetooth\sockaddr_bth.htm
 tech.root: bluetooth
 ms.assetid: e8eefa1d-94fa-45f3-a7c2-ea12a372a43b

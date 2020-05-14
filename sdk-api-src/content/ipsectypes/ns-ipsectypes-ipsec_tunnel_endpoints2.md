@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_TUNNEL_ENDPOINTS2_
 title: IPSEC_TUNNEL_ENDPOINTS2 (ipsectypes.h)
 description: Is used to store end points of a tunnel mode SA.
+helpviewer_keywords: ["IPSEC_TUNNEL_ENDPOINTS2","IPSEC_TUNNEL_ENDPOINTS2 structure [Filtering]","fwp.ipsec_tunnel_endpoints2","ipsectypes/IPSEC_TUNNEL_ENDPOINTS2"]
 old-location: fwp\ipsec_tunnel_endpoints2.htm
 tech.root: fwp
 ms.assetid: 091daec1-2c35-4d24-89be-fcdb0354b674
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TUNNEL_ENDPOINTS2</b> structure is used to store end points of a tunnel mode SA.
-[IPSEC_TUNNEL_ENDPOINTS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1)a> is available. For Windows Vista, [IPSEC_TUNNEL_ENDPOINTS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0)a> is available.</div><div> </div>
+[IPSEC_TUNNEL_ENDPOINTS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) is available. For Windows Vista, [IPSEC_TUNNEL_ENDPOINTS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +60,7 @@ The <b>IPSEC_TUNNEL_ENDPOINTS2</b> structure is used to store end points of a tu
 
 ### -field ipVersion
 
-Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a></b>
+Type: [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)</b>
 
 Specifies the IP version. In tunnel mode, this is the version of the outer header.
 
@@ -107,7 +108,7 @@ The number of remote tunnel addresses.
 
 ### -field remoteAddresses
 
-Type: [IPSEC_TUNNEL_ENDPOINT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)a>*</b>
+Type: [IPSEC_TUNNEL_ENDPOINT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)*</b>
 
  [size_is(numAddresses)]
 
@@ -162,7 +163,7 @@ case(FWP_IP_VERSION_V6)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 

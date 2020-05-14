@@ -1,7 +1,7 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_FILEDOWNLOADEVENT
 title: WPC_ARGS_FILEDOWNLOADEVENT (wpcevent.h)
-description: Indicates information about a file that has been downloaded.
+description: Indicates information about a file that has been downloaded.helpviewer_keywords: ["WPC_ARGS_FILEDOWNLOADEVENT","WPC_ARGS_FILEDOWNLOADEVENT enumeration","WPC_ARGS_FILEDOWNLOADEVENT_APPNAME","WPC_ARGS_FILEDOWNLOADEVENT_BLOCKED","WPC_ARGS_FILEDOWNLOADEVENT_CARGS","WPC_ARGS_FILEDOWNLOADEVENT_PATH","WPC_ARGS_FILEDOWNLOADEVENT_URL","WPC_ARGS_FILEDOWNLOADEVENT_VERSION","parcon.wpc_args_filedownloadevent","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT_APPNAME","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT_BLOCKED","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT_CARGS","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT_PATH","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT_URL","wpcevent/WPC_ARGS_FILEDOWNLOADEVENT_VERSION"]
 old-location: parcon\wpc_args_filedownloadevent.htm
 tech.root: parcon
 ms.assetid: d332f4c2-50c3-4feb-969c-e30fddd67b48

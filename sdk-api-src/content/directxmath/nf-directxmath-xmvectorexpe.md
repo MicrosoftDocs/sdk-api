@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorExpE
 title: XMVectorExpE function (directxmath.h)
-description: Computes e (~2.71828) raised to the power for each component.
+description: Computes e (~2.71828) raised to the power for each component.helpviewer_keywords: ["Use DirectX..XMVectorExpE","XMVectorExpE","XMVectorExpE method [DirectX Math Support APIs]","dxmath.xmvectorexpe"]
 old-location: dxmath\xmvectorexpe.htm
 tech.root: dxmath
 ms.assetid: C4A5E4E0-56CC-46E3-87C5-CA99EF512B11

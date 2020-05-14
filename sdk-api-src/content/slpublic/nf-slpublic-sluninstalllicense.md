@@ -1,7 +1,7 @@
 ---
 UID: NF:slpublic.SLUninstallLicense
 title: SLUninstallLicense function (slpublic.h)
-description: Uninstalls the license specified by the license file ID and target user option.
+description: Uninstalls the license specified by the license file ID and target user option.helpviewer_keywords: ["SLUninstallLicense","SLUninstallLicense function [Security]","security.sluninstalllicense","slpublic/SLUninstallLicense"]
 old-location: security\sluninstalllicense.htm
 tech.root: SecSLApi
 ms.assetid: 1f79a26e-7605-46ad-9854-e90e73320184

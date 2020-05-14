@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.IAccessible.get_accChild
 title: IAccessible::get_accChild (oleacc.h)
-description: The IAccessible::get_accChild method retrieves an IDispatch for the specified child, if one exists. All objects must support this property.
+description: The IAccessible::get_accChild method retrieves an IDispatch for the specified child, if one exists. All objects must support this property.helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accChild method","IAccessible.get_accChild","IAccessible::get_accChild","_msaa_IAccessible_get_accChild","get_accChild","get_accChild method [Windows Accessibility]","get_accChild method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_accchild","oleacc/IAccessible::get_accChild","winauto.iaccessible_iaccessible__get_accchild"]
 old-location: winauto\iaccessible_iaccessible__get_accchild.htm
 tech.root: WinAuto
 ms.assetid: 64b0c24d-778a-4f13-8c70-6be3436a98cd

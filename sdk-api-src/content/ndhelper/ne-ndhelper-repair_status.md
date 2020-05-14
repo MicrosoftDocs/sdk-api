@@ -1,7 +1,7 @@
 ---
 UID: NE:ndhelper.tagREPAIR_STATUS
 title: REPAIR_STATUS (ndhelper.h)
-description: The REPAIR_STATUS enumeration describes the result of a helper class attempting a repair option.
+description: The REPAIR_STATUS enumeration describes the result of a helper class attempting a repair option.helpviewer_keywords: ["REPAIR_STATUS","REPAIR_STATUS enumeration [NDF]","RS_DEFERRED","RS_NOT_IMPLEMENTED","RS_REPAIRED","RS_UNREPAIRED","RS_USER_ACTION","ndf.repair_status","ndhelper/REPAIR_STATUS","ndhelper/RS_DEFERRED","ndhelper/RS_NOT_IMPLEMENTED","ndhelper/RS_REPAIRED","ndhelper/RS_UNREPAIRED","ndhelper/RS_USER_ACTION"]
 old-location: ndf\repair_status.htm
 tech.root: NDF
 ms.assetid: efc3b64f-d3f3-41da-ae43-c7d8df9bf8e1

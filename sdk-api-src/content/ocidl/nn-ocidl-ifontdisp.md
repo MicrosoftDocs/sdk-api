@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IFontDisp
 title: IFontDisp (ocidl.h)
-description: Exposes a font object's properties through Automation. It provides a subset of the IFont methods.
+description: Exposes a font object's properties through Automation. It provides a subset of the IFont methods.helpviewer_keywords: ["IFontDisp","IFontDisp interface [COM]","IFontDisp interface [COM]","described","_ctrl_ifontdisp","com.ifontdisp","ocidl/IFontDisp"]
 old-location: com\ifontdisp.htm
 tech.root: com
 ms.assetid: c2ee251e-2419-4436-96e4-caaf6acc2550

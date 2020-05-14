@@ -1,7 +1,7 @@
 ---
 UID: NE:gdipluscolormatrix.ColorMatrixFlags
 title: ColorMatrixFlags (gdipluscolormatrix.h)
-description: The ColorMatrixFlags enumeration specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an ImageAttributes object.
+description: The ColorMatrixFlags enumeration specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an ImageAttributes object.helpviewer_keywords: ["ColorMatrixFlags","ColorMatrixFlags enumeration [GDI+]","ColorMatrixFlagsAltGray","ColorMatrixFlagsDefault","ColorMatrixFlagsSkipGrays","_gdiplus_ENUM_ColorMatrixFlags","gdiplus._gdiplus_ENUM_ColorMatrixFlags","gdipluscolormatrix/ColorMatrixFlags","gdipluscolormatrix/ColorMatrixFlagsAltGray","gdipluscolormatrix/ColorMatrixFlagsDefault","gdipluscolormatrix/ColorMatrixFlagsSkipGrays"]
 old-location: gdiplus\_gdiplus_ENUM_ColorMatrixFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colormatrixflags.htm

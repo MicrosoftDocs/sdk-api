@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetRecord
 title: IBitsPeerCacheAdministration::GetRecord (bits3_0.h)
-description: Gets a record from the cache.
+description: Gets a record from the cache.helpviewer_keywords: ["GetRecord","GetRecord method [BITS]","GetRecord method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","GetRecord method","IBitsPeerCacheAdministration.GetRecord","IBitsPeerCacheAdministration::GetRecord","bits.ibitspeercacheadministration_getrecord","bits3_0/IBitsPeerCacheAdministration::GetRecord"]
 old-location: bits\ibitspeercacheadministration_getrecord.htm
 tech.root: Bits
 ms.assetid: 7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c

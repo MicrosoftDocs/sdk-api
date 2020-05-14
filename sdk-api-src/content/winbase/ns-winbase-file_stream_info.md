@@ -1,7 +1,7 @@
 ---
 UID: NS:winbase._FILE_STREAM_INFO
 title: FILE_STREAM_INFO (winbase.h)
-description: Receives file stream information for the specified file.
+description: Receives file stream information for the specified file.helpviewer_keywords: ["*PFILE_STREAM_INFO","FILE_STREAM_INFO","FILE_STREAM_INFO structure [Files]","PFILE_STREAM_INFO","PFILE_STREAM_INFO structure pointer [Files]","fileextd/FILE_STREAM_INFO","fileextd/PFILE_STREAM_INFO","fs.file_stream_info","winbase/FILE_STREAM_INFO","winbase/PFILE_STREAM_INFO"]
 old-location: fs\file_stream_info.htm
 tech.root: FileIO
 ms.assetid: 36d1b0b3-bd6b-41e7-937a-4e8deef6f9da

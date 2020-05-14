@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadDWORD
 title: PSPropertyBag_ReadDWORD function (propsys.h)
-description: Reads a DWORD data value from property in a property bag.
+description: Reads a DWORD data value from property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadDWORD","PSPropertyBag_ReadDWORD function [Windows Properties]","properties.PSPropertyBag_ReadDWORD","propsys/PSPropertyBag_ReadDWORD","shell.PSPropertyBag_ReadDWORD","shell_PSPropertyBag_ReadDWORD"]
 old-location: properties\PSPropertyBag_ReadDWORD.htm
 tech.root: properties
 ms.assetid: 31977E3F-FA2F-4c2d-8A95-6BF937EDC45C

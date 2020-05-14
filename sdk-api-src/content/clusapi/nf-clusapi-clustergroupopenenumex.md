@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterGroupOpenEnumEx
 title: ClusterGroupOpenEnumEx function (clusapi.h)
-description: Opens a handle to the group enumeration.
+description: Opens a handle to the group enumeration.helpviewer_keywords: ["ClusterGroupOpenEnumEx","ClusterGroupOpenEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX","PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX function [Failover Cluster]","clusapi/ClusterGroupOpenEnumEx","clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX","mscs.clustergroupopenenumex"]
 old-location: mscs\clustergroupopenenumex.htm
 tech.root: MsCS
 ms.assetid: 1BEF74A2-8230-4698-A3B7-FC2AA495D294

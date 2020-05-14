@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_EX
 title: PARTITION_INFORMATION_EX
-description: Contains partition information for standard AT-style master boot record (MBR) and Extensible Firmware Interface (EFI) disks.
+description: Contains partition information for standard AT-style master boot record (MBR) and Extensible Firmware Interface (EFI) disks.helpviewer_keywords: ["*PPARTITION_INFORMATION_EX","PARTITION_INFORMATION_EX","PARTITION_INFORMATION_EX structure [Files]","_win32_partition_information_ex_str","base.partition_information_ex_str","fs.partition_information_ex_str","winioctl/PARTITION_INFORMATION_EX"]
 old-location: fs\partition_information_ex_str.htm
 tech.root: FileIO
 ms.assetid: 3c88ebae-274e-403a-8f57-58fdf863f511

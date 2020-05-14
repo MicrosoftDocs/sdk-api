@@ -1,7 +1,7 @@
 ---
 UID: NF:winbio.WinBioControlUnit
 title: WinBioControlUnit function (winbio.h)
-description: Allows the caller to perform vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+description: Allows the caller to perform vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WINBIO_COMPONENT_ENGINE","WINBIO_COMPONENT_SENSOR","WINBIO_COMPONENT_STORAGE","WinBioControlUnit","WinBioControlUnit function [Windows Biometric Framework API]","secbiomet.winbiocontrolunit","winbio/WinBioControlUnit"]
 old-location: secbiomet\winbiocontrolunit.htm
 tech.root: SecBioMet
 ms.assetid: 5d11f72a-3392-4089-a563-1771f8c2c8f7

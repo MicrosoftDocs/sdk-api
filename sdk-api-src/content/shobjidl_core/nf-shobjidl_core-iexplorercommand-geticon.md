@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetIcon
 title: IExplorerCommand::GetIcon (shobjidl_core.h)
-description: Gets an icon resource string of the icon associated with the specified Windows Explorer command item.
+description: Gets an icon resource string of the icon associated with the specified Windows Explorer command item.helpviewer_keywords: ["GetIcon","GetIcon method [Windows Shell]","GetIcon method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","GetIcon method","IExplorerCommand.GetIcon","IExplorerCommand::GetIcon","_shell_IExplorerCommand_GetIcon","shell.IExplorerCommand_GetIcon","shobjidl_core/IExplorerCommand::GetIcon"]
 old-location: shell\IExplorerCommand_GetIcon.htm
 tech.root: shell
 ms.assetid: e71b6748-84fc-4944-90b8-a5b0bf97079d

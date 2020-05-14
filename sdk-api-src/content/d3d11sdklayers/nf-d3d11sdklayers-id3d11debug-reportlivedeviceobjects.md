@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.ReportLiveDeviceObjects
 title: ID3D11Debug::ReportLiveDeviceObjects (d3d11sdklayers.h)
-description: Report information about a device object's lifetime.
+description: Report information about a device object's lifetime.helpviewer_keywords: ["734af011-a2b7-a89f-361d-01350006a197","ID3D11Debug interface [Direct3D 11]","ReportLiveDeviceObjects method","ID3D11Debug.ReportLiveDeviceObjects","ID3D11Debug::ReportLiveDeviceObjects","ReportLiveDeviceObjects","ReportLiveDeviceObjects method [Direct3D 11]","ReportLiveDeviceObjects method [Direct3D 11]","ID3D11Debug interface","d3d11sdklayers/ID3D11Debug::ReportLiveDeviceObjects","direct3d11.id3d11debug_reportlivedeviceobjects"]
 old-location: direct3d11\id3d11debug_reportlivedeviceobjects.htm
 tech.root: direct3d11
 ms.assetid: a4e5f3c1-8b67-488b-8476-464c5ea5abc6

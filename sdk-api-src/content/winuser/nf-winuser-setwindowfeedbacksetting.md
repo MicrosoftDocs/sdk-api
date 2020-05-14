@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetWindowFeedbackSetting
 title: SetWindowFeedbackSetting function (winuser.h)
-description: Sets the feedback configuration for a window.
+description: Sets the feedback configuration for a window.helpviewer_keywords: ["SetWindowFeedbackSetting","SetWindowFeedbackSetting function","input_feedback.setwindowfeedbacksetting","inputfeedbackui.setwindowfeedbacksetting","winuser/SetWindowFeedbackSetting"]
 old-location: input_feedback\setwindowfeedbacksetting.htm
 tech.root: Input_Feedback
 ms.assetid: 72bee160-7004-40be-9c91-e431b06ccaed

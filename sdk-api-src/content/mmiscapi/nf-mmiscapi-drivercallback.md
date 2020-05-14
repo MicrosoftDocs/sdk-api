@@ -1,7 +1,7 @@
 ---
 UID: NF:mmiscapi.DriverCallback
 title: DriverCallback function (mmiscapi.h)
-description: Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the DriverProc function of an installable driver.
+description: Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the DriverProc function of an installable driver.helpviewer_keywords: ["DCB_FUNCTION","DCB_NOSWITCH","DCB_TASK","DCB_WINDOW","DriverCallback","DriverCallback function [Windows Multimedia]","_win32_DriverCallback","digitalv/DriverCallback","multimedia.drivercallback"]
 old-location: multimedia\drivercallback.htm
 tech.root: Multimedia
 ms.assetid: 89afeb47-0a98-4db1-8664-6a0fe66d3413

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.GetUnicodeRanges
 title: IDWriteFont1::GetUnicodeRanges (dwrite_1.h)
-description: Retrieves the list of character ranges supported by a font.
+description: Retrieves the list of character ranges supported by a font.helpviewer_keywords: ["GetUnicodeRanges","GetUnicodeRanges method [Direct Write]","GetUnicodeRanges method [Direct Write]","IDWriteFont1 interface","IDWriteFont1 interface [Direct Write]","GetUnicodeRanges method","IDWriteFont1.GetUnicodeRanges","IDWriteFont1::GetUnicodeRanges","directwrite.idwritefont1_getunicoderanges","dwrite_1/IDWriteFont1::GetUnicodeRanges"]
 old-location: directwrite\idwritefont1_getunicoderanges.htm
 tech.root: DirectWrite
 ms.assetid: B92E8500-AF63-43F2-A581-688B2CFCF2BF

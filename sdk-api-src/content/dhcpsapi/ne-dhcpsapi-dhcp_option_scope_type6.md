@@ -1,7 +1,7 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_SCOPE_TYPE6
 title: DHCP_OPTION_SCOPE_TYPE6 (dhcpsapi.h)
-description: Defines the set of possible scopes for DHCP options.
+description: Defines the set of possible scopes for DHCP options.helpviewer_keywords: ["*LPDHCP_OPTION_SCOPE_TYPE6","DHCP_OPTION_SCOPE_TYPE6","DHCP_OPTION_SCOPE_TYPE6 enumeration [DHCP]","DhcpDefaultOptions6","DhcpReservedOptions6","DhcpScopeOptions6","dhcp.dhcp_option_scope_type6","dhcpsapi/DHCP_OPTION_SCOPE_TYPE6","dhcpsapi/DhcpDefaultOptions6","dhcpsapi/DhcpReservedOptions6","dhcpsapi/DhcpScopeOptions6"]
 old-location: dhcp\dhcp_option_scope_type6.htm
 tech.root: DHCP
 ms.assetid: dc6811ca-571e-4d63-ac30-8a9038cb28af

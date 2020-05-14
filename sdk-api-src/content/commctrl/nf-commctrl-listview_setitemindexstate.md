@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_SetItemIndexState
 title: ListView_SetItemIndexState macro (commctrl.h)
-description: Sets the state of a specified list-view item. Use this macro or send the LVM_SETITEMINDEXSTATE message explicitly.
+description: Sets the state of a specified list-view item. Use this macro or send the LVM_SETITEMINDEXSTATE message explicitly.helpviewer_keywords: ["ListView_SetItemIndexState","ListView_SetItemIndexState macro [Windows Controls]","_shell_ListView_SetItemIndexState","_shell_ListView_SetItemIndexState_cpp","commctrl/ListView_SetItemIndexState","controls.ListView_SetItemIndexState","controls._shell_ListView_SetItemIndexState"]
 old-location: controls\ListView_SetItemIndexState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemindexstate.htm

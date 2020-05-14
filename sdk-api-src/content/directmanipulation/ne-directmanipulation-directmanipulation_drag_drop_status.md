@@ -1,7 +1,7 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_DRAG_DROP_STATUS
 title: DIRECTMANIPULATION_DRAG_DROP_STATUS (directmanipulation.h)
-description: Defines the drag-and-drop interaction states for the viewport.
+description: Defines the drag-and-drop interaction states for the viewport.helpviewer_keywords: ["DIRECTMANIPULATION_DRAG_DROP_CANCELLED","DIRECTMANIPULATION_DRAG_DROP_COMMITTED","DIRECTMANIPULATION_DRAG_DROP_DRAGGING","DIRECTMANIPULATION_DRAG_DROP_PRESELECT","DIRECTMANIPULATION_DRAG_DROP_READY","DIRECTMANIPULATION_DRAG_DROP_SELECTING","DIRECTMANIPULATION_DRAG_DROP_STATUS","DIRECTMANIPULATION_DRAG_DROP_STATUS enumeration [Direct Manipulation]","directmanipulation.directmanipulation_drag_drop_status","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CANCELLED","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_COMMITTED","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_DRAGGING","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_PRESELECT","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_READY","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_SELECTING","directmanipulation/DIRECTMANIPULATION_DRAG_DROP_STATUS"]
 old-location: directmanipulation\directmanipulation_drag_drop_status.htm
 tech.root: directmanipulation
 ms.assetid: BC3B8541-E18B-4654-80C8-C5EC1359BE2F

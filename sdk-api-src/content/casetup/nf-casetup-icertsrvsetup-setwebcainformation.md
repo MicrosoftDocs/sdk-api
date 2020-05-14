@@ -2,6 +2,7 @@
 UID: NF:casetup.ICertSrvSetup.SetWebCAInformation
 title: ICertSrvSetup::SetWebCAInformation (casetup.h)
 description: Sets the certification authority (CA) information for the Certification Authority Web Enrollment role.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetWebCAInformation method","ICertSrvSetup.SetWebCAInformation","ICertSrvSetup::SetWebCAInformation","SetWebCAInformation","SetWebCAInformation method [Security]","SetWebCAInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetWebCAInformation","security.icertsrvsetup_setwebcainformation"]
 old-location: security\icertsrvsetup_setwebcainformation.htm
 tech.root: SecCrypto
 ms.assetid: 6c8d6b06-d36c-496f-8d5a-da20f09a2b0a
@@ -69,7 +70,7 @@ A string that contains a valid configuration for the CA. The string must be in t
 The <b>SetWebCAInformation</b> method pings the CA computer to verify that it is available on the network.
 
 Upon success, <b>SetWebCAInformation</b> sets the ENUM_SETUPPROP_WEBCAMACHINE and ENUM_SETUPPROP_WEBCANAME properties for the Certification Authority Web Enrollment role configuration.
-For more information about setup properties, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
+For more information about setup properties, see <a href="/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 

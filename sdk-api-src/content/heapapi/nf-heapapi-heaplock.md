@@ -2,6 +2,7 @@
 UID: NF:heapapi.HeapLock
 title: HeapLock function (heapapi.h)
 description: Attempts to acquire the critical section object, or lock, that is associated with a specified heap.
+helpviewer_keywords: ["HeapLock","HeapLock function","_win32_heaplock","base.heaplock","heapapi/HeapLock","winbase/HeapLock"]
 old-location: base\heaplock.htm
 tech.root: Memory
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
@@ -92,7 +93,7 @@ The
 <b>HeapLock</b> function is primarily useful for preventing the allocation and release of heap memory by other threads while the calling thread uses the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function.
 
-If the <b>HeapLock</b> function is called on a heap created with the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HEAP_NO_SERIALIZATION</a> flag, the results are undefined.
+If the <b>HeapLock</b> function is called on a heap created with the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HEAP_NO_SERIALIZE</a> flag, the results are undefined.
 
 Each successful call to 
 <b>HeapLock</b> must be matched by a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a>. Failure to call 

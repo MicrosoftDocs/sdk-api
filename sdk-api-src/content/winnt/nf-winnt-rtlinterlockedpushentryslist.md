@@ -2,6 +2,7 @@
 UID: NF:winnt.RtlInterlockedPushEntrySList
 title: RtlInterlockedPushEntrySList function (winnt.h)
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
+helpviewer_keywords: ["RtlInterlockedPushEntrySList","RtlInterlockedPushEntrySList function","base.rtlinterlockedpushentryslist","winnt/RtlInterlockedPushEntrySList"]
 old-location: base\rtlinterlockedpushentryslist.htm
 tech.root: Sync
 ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
@@ -65,7 +66,7 @@ A pointer to an <b>SLIST_HEADER</b> structure that represents the head of a sing
 ### -param ListEntry [in]
 
 A pointer to an 
-[SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry)a> structure that represents an item in a singly linked list.
+[SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry) structure that represents an item in a singly linked list.
 
 
 ## -returns

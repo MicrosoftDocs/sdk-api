@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.DEFINE_MEDIATYPE_GUID
 title: DEFINE_MEDIATYPE_GUID macro (mfapi.h)
-description: Defines a media subtype GUID from a FOURCC code, D3DFORMAT value, or audio format type.
+description: Defines a media subtype GUID from a FOURCC code, D3DFORMAT value, or audio format type.helpviewer_keywords: ["DEFINE_MEDIATYPE_GUID","DEFINE_MEDIATYPE_GUID macro [Media Foundation]","be094ccc-a475-480a-a345-bdad70b11f45","mf.define_mediatype_guid_macro","mfapi/DEFINE_MEDIATYPE_GUID"]
 old-location: mf\define_mediatype_guid_macro.htm
 tech.root: medfound
 ms.assetid: be094ccc-a475-480a-a345-bdad70b11f45

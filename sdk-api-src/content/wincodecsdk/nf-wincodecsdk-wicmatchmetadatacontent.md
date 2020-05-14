@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.WICMatchMetadataContent
 title: WICMatchMetadataContent function (wincodecsdk.h)
-description: Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.
+description: Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.helpviewer_keywords: ["WICMatchMetadataContent","WICMatchMetadataContent function [Windows Imaging Component]","_wic_codec_wicmatchmetadatacontent","wic._wic_codec_wicmatchmetadatacontent","wincodecsdk/WICMatchMetadataContent"]
 old-location: wic\_wic_codec_wicmatchmetadatacontent.htm
 tech.root: wic
 ms.assetid: 2d1ab317-a77c-4e91-9455-e6738fd40e88
@@ -25,8 +25,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -35,7 +35,7 @@ api_type:
 - DllExport
 api_location:
 - Windowscodecs.dll
-- Wincodec.lib
+- Windowscodecs.lib
 api_name:
 - WICMatchMetadataContent
 targetos: Windows

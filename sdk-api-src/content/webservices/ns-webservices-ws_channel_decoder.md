@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_CHANNEL_DECODER
 title: WS_CHANNEL_DECODER (webservices.h)
-description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a received message.
+description: A structure that is used to specify a set of callbacks that can transform the content type and encoded bytes of a received message.helpviewer_keywords: ["WS_CHANNEL_DECODER","WS_CHANNEL_DECODER structure [Web Services for Windows]","webservices/WS_CHANNEL_DECODER","wsw.ws_channel_decoder"]
 old-location: wsw\ws_channel_decoder.htm
 tech.root: wsw
 ms.assetid: d634f203-cf98-4f4e-85ce-5df23653a3ad

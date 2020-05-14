@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.UnadviseEventSink
 title: ITfLangBarMgr::UnadviseEventSink (ctfutb.h)
-description: ITfLangBarMgr::UnadviseEventSink method
+description: ITfLangBarMgr::UnadviseEventSink methodhelpviewer_keywords: ["ITfLangBarMgr interface [Text Services Framework]","UnadviseEventSink method","ITfLangBarMgr.UnadviseEventSink","ITfLangBarMgr::UnadviseEventSink","UnadviseEventSink","UnadviseEventSink method [Text Services Framework]","UnadviseEventSink method [Text Services Framework]","ITfLangBarMgr interface","_tsf_itflangbarmgr_unadviseeventsink_ref","ctfutb/ITfLangBarMgr::UnadviseEventSink","tsf.itflangbarmgr_unadviseeventsink"]
 old-location: tsf\itflangbarmgr_unadviseeventsink.htm
 tech.root: TSF
 ms.assetid: 29dc5276-04fa-4219-a64d-10d775d73fdd
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Uninstalls an advise event sink.
 
 ## -parameters
 

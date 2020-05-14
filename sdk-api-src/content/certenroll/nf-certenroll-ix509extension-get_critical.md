@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Extension.get_Critical
 title: IX509Extension::get_Critical (certenroll.h)
-description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.
+description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.helpviewer_keywords: ["Critical property [Security]","Critical property [Security]","IX509Extension interface","IX509Extension interface [Security]","Critical property","IX509Extension.Critical","IX509Extension.get_Critical","IX509Extension::Critical","IX509Extension::get_Critical","IX509Extension::put_Critical","certenroll/IX509Extension::Critical","certenroll/IX509Extension::get_Critical","certenroll/IX509Extension::put_Critical","get_Critical","security.ix509extension_critical_property"]
 old-location: security\ix509extension_critical_property.htm
 tech.root: seccertenroll
 ms.assetid: b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072

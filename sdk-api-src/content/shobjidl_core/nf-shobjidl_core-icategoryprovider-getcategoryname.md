@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetCategoryName
 title: ICategoryProvider::GetCategoryName (shobjidl_core.h)
-description: Gets the name of the specified category.
+description: Gets the name of the specified category.helpviewer_keywords: ["GetCategoryName","GetCategoryName method [Windows Shell]","GetCategoryName method [Windows Shell]","ICategoryProvider interface","ICategoryProvider interface [Windows Shell]","GetCategoryName method","ICategoryProvider.GetCategoryName","ICategoryProvider::GetCategoryName","inet_ICategoryProvider_GetCategoryName","shell.ICategoryProvider_GetCategoryName","shobjidl_core/ICategoryProvider::GetCategoryName"]
 old-location: shell\ICategoryProvider_GetCategoryName.htm
 tech.root: shell
 ms.assetid: 3730394a-8720-46cc-a9da-cd5cf0df7eeb

@@ -2,6 +2,7 @@
 UID: NS:windns.__unnamed_struct_9
 title: DNS_MX_DATAW (windns.h)
 description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035.
+helpviewer_keywords: ["*PDNS_MX_DATA","*PDNS_MX_DATAW","DNS_MX_DATA","DNS_MX_DATA structure [DNS]","DNS_MX_DATAW","PDNS_MX_DATA","PDNS_MX_DATA structure pointer [DNS]","_dns_dns_mx_data","dns.dns_mx_data","windns/DNS_MX_DATA","windns/PDNS_MX_DATA"]
 old-location: dns\dns_mx_data.htm
 tech.root: DNS
 ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
@@ -79,7 +80,7 @@ Reserved for padding. Do not use.
 
 The 
 <b>DNS_MX_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -89,7 +90,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

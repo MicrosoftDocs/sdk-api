@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcDigitalSignatureManager.Sign
 title: IOpcDigitalSignatureManager::Sign (msopc.h)
 description: Signs the package by generating a signature by using the specified certificate and IOpcSigningOptions interface pointer.
+helpviewer_keywords: ["IOpcDigitalSignatureManager interface [Open Packaging Conventions]","Sign method","IOpcDigitalSignatureManager.Sign","IOpcDigitalSignatureManager::Sign","Sign","Sign method [Open Packaging Conventions]","Sign method [Open Packaging Conventions]","IOpcDigitalSignatureManager interface","msopc/IOpcDigitalSignatureManager::Sign","opc.iopcdigitalsignaturemanager_sign"]
 old-location: opc\iopcdigitalsignaturemanager_sign.htm
 tech.root: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
@@ -138,7 +139,7 @@ Cannot get the  digest value of a package component or an element in the signatu
 </dl>
 </td>
 <td width="60%">
-The signature's time format is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> enumeration value.
+The signature's time format is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> enumeration value.
 
 </td>
 </tr>
@@ -150,7 +151,7 @@ The signature's time format is not a valid <a href="https://docs.microsoft.com/w
 </dl>
 </td>
 <td width="60%">
-An indicated  relationship signing option is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a> enumeration value.
+An indicated  relationship signing option is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_relationships_signing_option">OPC_RELATIONSHIPS_SIGNING_OPTION</a> enumeration value.
 
 </td>
 </tr>

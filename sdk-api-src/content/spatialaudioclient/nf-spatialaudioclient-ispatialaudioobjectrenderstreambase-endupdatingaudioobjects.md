@@ -2,6 +2,7 @@
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
 title: ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects (spatialaudioclient.h)
 description: Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with ActivateSpatialAudioObject.
+helpviewer_keywords: ["EndUpdatingAudioObjects","EndUpdatingAudioObjects method [Core Audio]","EndUpdatingAudioObjects method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","EndUpdatingAudioObjects method","ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects","ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects","coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_endupdatingaudioobjects.htm
 tech.root: CoreAudio
 ms.assetid: 111DB695-66F6-45DD-B3B6-1DFB0D5D29FC
@@ -89,7 +90,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>
@@ -170,7 +171,7 @@ The pointers retrieved with <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

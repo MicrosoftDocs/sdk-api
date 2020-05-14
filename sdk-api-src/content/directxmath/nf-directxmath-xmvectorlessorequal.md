@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorLessOrEqual
 title: XMVectorLessOrEqual function (directxmath.h)
-description: Performs a per-component test for less-than-or-equal between two vectors.
+description: Performs a per-component test for less-than-or-equal between two vectors.helpviewer_keywords: ["Use DirectX..XMVectorLessOrEqual","XMVectorLessOrEqual","XMVectorLessOrEqual method [DirectX Math Support APIs]","dxmath.xmvectorlessorequal"]
 old-location: dxmath\xmvectorlessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorLessOrEqual(XMVECTOR,XMVECTOR)

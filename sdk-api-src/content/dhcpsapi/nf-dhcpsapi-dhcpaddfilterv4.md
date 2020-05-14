@@ -2,6 +2,7 @@
 UID: NF:dhcpsapi.DhcpAddFilterV4
 title: DhcpAddFilterV4 function (dhcpsapi.h)
 description: Adds a link-layer address or address pattern to the allow/deny lists.
+helpviewer_keywords: ["DhcpAddFilterV4","DhcpAddFilterV4 function [DHCP]","dhcp.dhcpaddfilterv4","dhcpsapi/DhcpAddFilterV4"]
 old-location: dhcp\dhcpaddfilterv4.htm
 tech.root: DHCP
 ms.assetid: 5543ef67-d095-44b8-b511-e6754aeb9881
@@ -64,7 +65,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param AddFilterInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_add_info">DHCP_FILTER_ADD_INFO</a> structure that contains a link-layer address or address pattern to add to the DHCP server's allow/deny list.
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_add_info">DHCP_FILTER_ADD_INFO</a> structure that contains a link-layer address or address pattern to add to the DHCP server's allow/deny list.
 
 
 ### -param ForceFlag [in]
@@ -136,7 +137,7 @@ This API allows DHCP clients whose addresses have been added to the allow list t
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_add_info">DHCP_FILTER_ADD_INFO</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_add_info">DHCP_FILTER_ADD_INFO</a>
 
 
 

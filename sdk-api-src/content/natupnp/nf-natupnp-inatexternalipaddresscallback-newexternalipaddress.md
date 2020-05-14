@@ -1,7 +1,7 @@
 ---
 UID: NF:natupnp.INATExternalIPAddressCallback.NewExternalIPAddress
 title: INATExternalIPAddressCallback::NewExternalIPAddress (natupnp.h)
-description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.
+description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.helpviewer_keywords: ["INATExternalIPAddressCallback interface [ICS/ICF]","NewExternalIPAddress method","INATExternalIPAddressCallback.NewExternalIPAddress","INATExternalIPAddressCallback::NewExternalIPAddress","NewExternalIPAddress","NewExternalIPAddress method [ICS/ICF]","NewExternalIPAddress method [ICS/ICF]","INATExternalIPAddressCallback interface","_ics_inatexternalipaddresscallback_newexternalipaddress","ics.inatexternalipaddresscallback_newexternalipaddress","natupnp/INATExternalIPAddressCallback::NewExternalIPAddress"]
 old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm
 tech.root: ics
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b

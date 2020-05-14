@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetTitle
 title: IFileDialog::SetTitle (shobjidl_core.h)
-description: Sets the title of the dialog.
+description: Sets the title of the dialog.helpviewer_keywords: ["IFileDialog interface [Windows Shell]","SetTitle method","IFileDialog.SetTitle","IFileDialog::SetTitle","SetTitle","SetTitle method [Windows Shell]","SetTitle method [Windows Shell]","IFileDialog interface","shell.IFileDialog_SetTitle","shell_IFileDialog_SetTitle","shobjidl_core/IFileDialog::SetTitle"]
 old-location: shell\IFileDialog_SetTitle.htm
 tech.root: shell
 ms.assetid: 9ae3d226-e825-443a-a2b0-4b5bb07fc9f7

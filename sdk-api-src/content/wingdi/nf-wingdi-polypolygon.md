@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PolyPolygon
 title: PolyPolygon function (wingdi.h)
-description: The PolyPolygon function draws a series of closed polygons. Each polygon is outlined by using the current pen and filled by using the current brush and polygon fill mode. The polygons drawn by this function can overlap.
+description: The PolyPolygon function draws a series of closed polygons. Each polygon is outlined by using the current pen and filled by using the current brush and polygon fill mode. The polygons drawn by this function can overlap.helpviewer_keywords: ["PolyPolygon","PolyPolygon function [Windows GDI]","_win32_PolyPolygon","gdi.polypolygon","wingdi/PolyPolygon"]
 old-location: gdi\polypolygon.htm
 tech.root: gdi
 ms.assetid: ac0a2802-c8b0-4cd7-9521-5b179f2c70b9

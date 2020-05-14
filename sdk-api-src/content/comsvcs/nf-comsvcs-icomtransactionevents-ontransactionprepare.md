@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionPrepare
 title: IComTransactionEvents::OnTransactionPrepare (comsvcs.h)
 description: Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
+helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionPrepare method","IComTransactionEvents.OnTransactionPrepare","IComTransactionEvents::OnTransactionPrepare","OnTransactionPrepare","OnTransactionPrepare method [COM+]","OnTransactionPrepare method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionPrepare","comsvcs/IComTransactionEvents::OnTransactionPrepare","cos.icomtransactionevents_ontransactionprepare"]
 old-location: cos\icomtransactionevents_ontransactionprepare.htm
 tech.root: cossdk
 ms.assetid: ab56c3fc-daeb-4c7a-ac7f-a2c6d70c1006
@@ -59,7 +60,7 @@ Generated when the prepare phase of the two-phase commit protocol of the transac
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidTx [in]

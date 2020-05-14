@@ -2,6 +2,7 @@
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateInkPresenter
 title: IInkDesktopHost::CreateInkPresenter (inkpresenterdesktop.h)
 description: Creates an IInkPresenterDesktop object on an application thread.
+helpviewer_keywords: ["CreateInkPresenter","CreateInkPresenter method","CreateInkPresenter method","IInkDesktopHost interface","IInkDesktopHost interface","CreateInkPresenter method","IInkDesktopHost.CreateInkPresenter","IInkDesktopHost::CreateInkPresenter","InkPresenterDesktop.iinkdesktophost_createinkpresenter","inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter","input_ink.iinkdesktophost_createinkpresenter"]
 old-location: input_ink\iinkdesktophost_createinkpresenter.htm
 tech.root: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
@@ -93,7 +94,7 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

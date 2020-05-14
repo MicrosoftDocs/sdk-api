@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.EndMenu
 title: EndMenu function (winuser.h)
-description: Ends the calling thread's active menu.
+description: Ends the calling thread's active menu.helpviewer_keywords: ["EndMenu","EndMenu function [Menus and Other Resources]","_win32_EndMenu","_win32_endmenu_cpp","menurc.endmenu","winui._win32_endmenu","winuser/EndMenu"]
 old-location: menurc\endmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\endmenu.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.XMHALF4(HALF,HALF,HALF,HALF)
 title: XMHALF4::XMHALF4(HALF,HALF,HALF,HALF) (directxpackedvector.h)
-description: Initializes a new instance of XMHALF4 from four HALF arguments.
+description: Initializes a new instance of XMHALF4 from four HALF arguments.helpviewer_keywords: ["XMHALF4","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 structure","XMHALF4 structure [DirectX Math Support APIs]","XMHALF4 constructor","XMHALF4.XMHALF4","XMHALF4.XMHALF4(HALF","HALF","HALF","HALF)","XMHALF4::XMHALF4","XMHALF4::XMHALF4(HALF","HALF","HALF","HALF)","dxmath.xmhalf4_ctor_2"]
 old-location: dxmath\xmhalf4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor(HALF,HALF,HALF,HALF)

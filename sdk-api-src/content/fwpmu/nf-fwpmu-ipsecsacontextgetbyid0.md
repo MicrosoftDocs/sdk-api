@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextGetById0
 title: IPsecSaContextGetById0 function (fwpmu.h)
 description: Retrieves an IPsec security association (SA) context.
+helpviewer_keywords: ["IPsecSaContextGetById0","IPsecSaContextGetById0 function [Filtering]","fwp.ipsecsacontextgetbyid0","fwpmu/IPsecSaContextGetById0"]
 old-location: fwp\ipsecsacontextgetbyid0.htm
 tech.root: fwp
 ms.assetid: a5bfd0e6-0113-4953-954c-d58e9cda91f0
@@ -73,7 +74,7 @@ A runtime identifier for the SA context. This identifier was received from the s
 
 ### -param saContext [out]
 
-Type: [IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)a>**</b>
+Type: [IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)**</b>
 
 Address of the IPsec SA context.
 
@@ -147,7 +148,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)a>
+[IPSEC_SA_CONTEXT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context0)
 
 
 

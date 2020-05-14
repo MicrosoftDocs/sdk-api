@@ -1,7 +1,7 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_CAPS
 title: DXVAHD_DEVICE_CAPS (dxvahd.h)
-description: Defines video processing capabilities for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+description: Defines video processing capabilities for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["DXVAHD_DEVICE_CAPS","DXVAHD_DEVICE_CAPS enumeration [Media Foundation]","DXVAHD_DEVICE_CAPS_LINEAR_SPACE","DXVAHD_DEVICE_CAPS_RGB_RANGE_CONVERSION","DXVAHD_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION","DXVAHD_DEVICE_CAPS_xvYCC","dxvahd/DXVAHD_DEVICE_CAPS","dxvahd/DXVAHD_DEVICE_CAPS_LINEAR_SPACE","dxvahd/DXVAHD_DEVICE_CAPS_RGB_RANGE_CONVERSION","dxvahd/DXVAHD_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION","dxvahd/DXVAHD_DEVICE_CAPS_xvYCC","mf.dxvahd_device_caps"]
 old-location: mf\dxvahd_device_caps.htm
 tech.root: medfound
 ms.assetid: 1f3dde4c-cd9d-4361-b2b2-db3c9d2ea146

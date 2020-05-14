@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.MaxRatingsLevel
 title: IMSVidStreamBufferSource::MaxRatingsLevel (segment.h)
-description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
+description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","MaxRatingsLevel method","IMSVidStreamBufferSource.MaxRatingsLevel","IMSVidStreamBufferSource::MaxRatingsLevel","IMSVidStreamBufferSourceMaxRatingsLevel","MaxRatingsLevel","MaxRatingsLevel method [Microsoft TV Technologies]","MaxRatingsLevel method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","mstv.imsvidstreambuffersource_maxratingslevel","segment/IMSVidStreamBufferSource::MaxRatingsLevel"]
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
 tech.root: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19

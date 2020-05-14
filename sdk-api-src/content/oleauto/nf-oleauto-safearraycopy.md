@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayCopy
 title: SafeArrayCopy function (oleauto.h)
-description: Creates a copy of an existing safe array.
+description: Creates a copy of an existing safe array.helpviewer_keywords: ["SafeArrayCopy","SafeArrayCopy function [Automation]","_oa96_SafeArrayCopy","automat.safearraycopy","oleauto/SafeArrayCopy"]
 old-location: automat\safearraycopy.htm
 tech.root: automat
 ms.assetid: 8f84d4f6-1852-4ad8-b174-f3fa37e5bbd6

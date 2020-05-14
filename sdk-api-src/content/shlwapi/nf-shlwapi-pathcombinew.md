@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathCombineW
 title: PathCombineW function (shlwapi.h)
-description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
+description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.helpviewer_keywords: ["PathCombine","PathCombine function [Windows Shell]","PathCombineA","PathCombineW","_win32_PathCombine","shell.PathCombine","shlwapi/PathCombine","shlwapi/PathCombineA","shlwapi/PathCombineW"]
 old-location: shell\PathCombine.htm
 tech.root: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
@@ -113,7 +113,7 @@ The directory path should be in the form of A:,B:, ..., Z:. The file path should
 #include <iostream.h>
 #include "Shlwapi.h"
 
-void main( void )
+int main( void )
 {
 // Buffer to hold combined path.
 char buffer_1[MAX_PATH] = "";

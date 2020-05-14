@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.Reset
 title: IAudioClient::Reset (audioclient.h)
-description: The Reset method resets the audio stream.
+description: The Reset method resets the audio stream.helpviewer_keywords: ["IAudioClient interface [Core Audio]","Reset method","IAudioClient.Reset","IAudioClient::Reset","IAudioClientReset","Reset","Reset method [Core Audio]","Reset method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::Reset","coreaudio.iaudioclient_reset"]
 old-location: coreaudio\iaudioclient_reset.htm
 tech.root: CoreAudio
 ms.assetid: c1a4f673-ecbf-4855-b8bb-c0f0807dedd4

@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsResource
 title: IADsResource (iads.h)
-description: The IADsResource interface is a dual interface that inherits from IADs. It is designed to manage an open resource for a file service across a network.
+description: The IADsResource interface is a dual interface that inherits from IADs. It is designed to manage an open resource for a file service across a network.helpviewer_keywords: ["IADsResource","IADsResource interface [ADSI]","IADsResource interface [ADSI]","described","_ds_iadsresource","adsi.iadsresource","iads/IADsResource"]
 old-location: adsi\iadsresource.htm
 tech.root: adsi
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666

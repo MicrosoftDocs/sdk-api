@@ -1,7 +1,7 @@
 ---
 UID: NS:eventtoken.EventRegistrationToken
 title: EventRegistrationToken (eventtoken.h)
-description: Identifies an event handler that has been registered with an event source.
+description: Identifies an event handler that has been registered with an event source.helpviewer_keywords: ["EventRegistrationToken","EventRegistrationToken structure [Windows Runtime]","eventtoken/EventRegistrationToken","winrt.eventregistrationtoken"]
 old-location: winrt\eventregistrationtoken.htm
 tech.root: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B

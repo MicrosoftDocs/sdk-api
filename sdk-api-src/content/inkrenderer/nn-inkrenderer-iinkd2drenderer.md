@@ -2,6 +2,7 @@
 UID: NN:inkrenderer.IInkD2DRenderer
 title: IInkD2DRenderer (inkrenderer.h)
 description: An IInkD2DRenderer object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default InkCanvas control.
+helpviewer_keywords: ["IInkD2DRenderer","IInkD2DRenderer interface","IInkD2DRenderer interface","described","inkrenderer/IInkD2DRenderer","input_ink.iinkd2drenderer"]
 old-location: input_ink\iinkd2drenderer.htm
 tech.root: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
@@ -95,7 +96,7 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

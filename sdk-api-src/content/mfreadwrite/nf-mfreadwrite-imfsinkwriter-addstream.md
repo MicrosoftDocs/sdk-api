@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.AddStream
 title: IMFSinkWriter::AddStream (mfreadwrite.h)
-description: Adds a stream to the sink writer.
+description: Adds a stream to the sink writer.helpviewer_keywords: ["AddStream","AddStream method [Media Foundation]","AddStream method [Media Foundation]","IMFSinkWriter interface","IMFSinkWriter interface [Media Foundation]","AddStream method","IMFSinkWriter.AddStream","IMFSinkWriter::AddStream","mf.imfsinkwriter_addstream","mfreadwrite/IMFSinkWriter::AddStream"]
 old-location: mf\imfsinkwriter_addstream.htm
 tech.root: medfound
 ms.assetid: 9f9b1216-e915-4188-bcfd-6c41e1821ec4

@@ -1,7 +1,7 @@
 ---
 UID: NF:drt.DrtContinueSearch
 title: DrtContinueSearch function (drt.h)
-description: DrtContinueSearch function continues an iterative search for a key.
+description: DrtContinueSearch function continues an iterative search for a key.helpviewer_keywords: ["DrtContinueSearch","DrtContinueSearch function [Peer Networking]","drt/DrtContinueSearch","p2p.drtcontinuesearch"]
 old-location: p2p\drtcontinuesearch.htm
 tech.root: P2PSdk
 ms.assetid: 04bdeb53-4901-41d4-835e-da665095edc5

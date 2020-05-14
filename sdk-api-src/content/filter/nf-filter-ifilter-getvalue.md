@@ -1,7 +1,7 @@
 ---
 UID: NF:filter.IFilter.GetValue
 title: IFilter::GetValue (filter.h)
-description: Retrieves a value (internal value-type property) from a chunk, which must have a CHUNKSTATE enumeration value of CHUNK_VALUE.
+description: Retrieves a value (internal value-type property) from a chunk, which must have a CHUNKSTATE enumeration value of CHUNK_VALUE.helpviewer_keywords: ["GetValue","GetValue method [Indexing Service]","GetValue method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetValue method","IFilter.GetValue","IFilter::GetValue","_idxs_IFilter_GetValue","filter/IFilter::GetValue","indexsrv.ifilter_getvalue"]
 old-location: indexsrv\ifilter_getvalue.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cpx.htm

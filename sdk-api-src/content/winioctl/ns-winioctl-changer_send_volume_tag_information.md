@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._CHANGER_SEND_VOLUME_TAG_INFORMATION
 title: CHANGER_SEND_VOLUME_TAG_INFORMATION
-description: Contains information that the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code uses to determine the volume information to be retrieved.
+description: Contains information that the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code uses to determine the volume information to be retrieved.helpviewer_keywords: ["*PCHANGER_SEND_VOLUME_TAG_INFORMATION","ASSERT_ALTERNATE","ASSERT_PRIMARY","CHANGER_SEND_VOLUME_TAG_INFORMATION","CHANGER_SEND_VOLUME_TAG_INFORMATION structure","PCHANGER_SEND_VOLUME_TAG_INFORMATION","PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer","REPLACE_ALTERNATE","REPLACE_PRIMARY","SEARCH_ALL","SEARCH_ALL_NO_SEQ","SEARCH_ALTERNATE","SEARCH_ALT_NO_SEQ","SEARCH_PRIMARY","SEARCH_PRI_NO_SEQ","UNDEFINE_ALTERNATE","UNDEFINE_PRIMARY","_win32_changer_send_volume_tag_information_str","base.changer_send_volume_tag_information_str","winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION","winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION"]
 old-location: base\changer_send_volume_tag_information_str.htm
 tech.root: devio
 ms.assetid: 96148983-48be-466d-be7f-c1dbf6910c20

@@ -2,6 +2,7 @@
 UID: NC:bluetoothapis.PFN_AUTHENTICATION_CALLBACK_EX
 title: PFN_AUTHENTICATION_CALLBACK_EX (bluetoothapis.h)
 description: PFN_AUTHENTICATION_CALLBACK_EX function is a callback function prototype used in conjunction with the BluetoothRegisterForAuthenticationEx function.
+helpviewer_keywords: ["PFN_AUTHENTICATION_CALLBACK_EX","PFN_AUTHENTICATION_CALLBACK_EX callback","PFN_AUTHENTICATION_CALLBACK_EX callback function [Bluetooth]","bluetooth.pfn_authentication_callback_ex","bluetoothapis/PFN_AUTHENTICATION_CALLBACK_EX"]
 old-location: bluetooth\pfn_authentication_callback_ex.htm
 tech.root: bluetooth
 ms.assetid: 835a624f-c08d-402c-940b-4443e1b38d58
@@ -64,7 +65,7 @@ Optional. A context pointer previously passed into the <a href="https://docs.mic
 
 ### -param pAuthCallbackParams [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</a> structure that contains device and authentication configuration information specific to the Bluetooth device responding to an authentication request.
+A <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authentication_callback_params">BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS</a> structure that contains device and authentication configuration information specific to the Bluetooth device responding to an authentication request.
 
 
 ## -returns

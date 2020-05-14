@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.GetStatus
 title: IWMDMDeviceControl::GetStatus (mswmdm.h)
-description: The GetStatus method retrieves the control status of the device.
+description: The GetStatus method retrieves the control status of the device.helpviewer_keywords: ["GetStatus","GetStatus method [windows Media Device Manager]","GetStatus method [windows Media Device Manager]","IWMDMDeviceControl interface","IWMDMDeviceControl interface [windows Media Device Manager]","GetStatus method","IWMDMDeviceControl.GetStatus","IWMDMDeviceControl::GetStatus","IWMDMDeviceControlGetDCStatus","mswmdm/IWMDMDeviceControl::GetStatus","wmdm.iwmdmdevicecontrol_getstatus"]
 old-location: wmdm\iwmdmdevicecontrol_getstatus.htm
 tech.root: WMDM
 ms.assetid: e39fb2ed-a3b4-4167-9404-6b7c706f0941

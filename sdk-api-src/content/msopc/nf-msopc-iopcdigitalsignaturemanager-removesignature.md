@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.RemoveSignature
 title: IOpcDigitalSignatureManager::RemoveSignature (msopc.h)
-description: Removes from the package a specified signature part that stores signature markup.
+description: Removes from the package a specified signature part that stores signature markup.helpviewer_keywords: ["IOpcDigitalSignatureManager interface [Open Packaging Conventions]","RemoveSignature method","IOpcDigitalSignatureManager.RemoveSignature","IOpcDigitalSignatureManager::RemoveSignature","RemoveSignature","RemoveSignature method [Open Packaging Conventions]","RemoveSignature method [Open Packaging Conventions]","IOpcDigitalSignatureManager interface","msopc/IOpcDigitalSignatureManager::RemoveSignature","opc.iopcdigitalsignaturemanager_removesignature"]
 old-location: opc\iopcdigitalsignaturemanager_removesignature.htm
 tech.root: OPC
 ms.assetid: bc022b81-f61d-4efa-9c68-f798b2d929c2

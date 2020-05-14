@@ -1,7 +1,7 @@
 ---
 UID: NF:indexsrv.IStemmer.Init
 title: IStemmer::Init (indexsrv.h)
-description: Initializes the stemmer.
+description: Initializes the stemmer.helpviewer_keywords: ["IStemmer interface [search]","Init method","IStemmer.Init","IStemmer::Init","Init","Init method [search]","Init method [search]","IStemmer interface","_search_IStemmer_Init","indexsrv/IStemmer::Init","search._search_IStemmer_Init"]
 old-location: search\_search_IStemmer_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\init.htm

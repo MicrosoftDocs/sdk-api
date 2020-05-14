@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHGetViewStatePropertyBag
 title: SHGetViewStatePropertyBag function (shlwapi.h)
-description: SHGetViewStatePropertyBag may be altered or unavailable.
+description: SHGetViewStatePropertyBag may be altered or unavailable.helpviewer_keywords: ["SHGVSPB_ALLFOLDERS","SHGVSPB_ALLUSERS","SHGVSPB_FOLDER","SHGVSPB_FOLDERNODEFAULTS","SHGVSPB_GLOBALDEFAULTS","SHGVSPB_INHERIT","SHGVSPB_NOAUTODEFAULTS","SHGVSPB_PERFOLDER","SHGVSPB_PERUSER","SHGVSPB_ROAM","SHGVSPB_USERDEFAULTS","SHGetViewStatePropertyBag","SHGetViewStatePropertyBag function [Windows Shell]","shell.SHGetViewStatePropertyBag","shell_SHGetViewStatePropertyBag","shlwapi/SHGetViewStatePropertyBag"]
 old-location: shell\SHGetViewStatePropertyBag.htm
 tech.root: shell
 ms.assetid: 6852867a-30a5-4d4e-b790-3746104e3ed8

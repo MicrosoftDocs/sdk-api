@@ -1,7 +1,7 @@
 ---
 UID: NS:strmif.REGFILTER2
 title: REGFILTER2 (strmif.h)
-description: The REGFILTER2 structure contains information for registering a filter.
+description: The REGFILTER2 structure contains information for registering a filter.helpviewer_keywords: ["REGFILTER2","REGFILTER2 structure [DirectShow]","REGFILTER2Structure","dshow.regfilter2","strmif/REGFILTER2"]
 old-location: dshow\regfilter2.htm
 tech.root: DirectShow
 ms.assetid: 651b94e6-b343-4957-9781-768b04c098dd

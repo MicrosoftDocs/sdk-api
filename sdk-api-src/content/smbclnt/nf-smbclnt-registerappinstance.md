@@ -1,7 +1,7 @@
 ---
 UID: NF:smbclnt.RegisterAppInstance
 title: RegisterAppInstance function (smbclnt.h)
-description: Registers the AppInstance ID for a process.
+description: Registers the AppInstance ID for a process.helpviewer_keywords: ["PREGISTER_APPINSTANCE","PREGISTER_APPINSTANCE function [Failover Cluster]","RegisterAppInstance","RegisterAppInstance function [Failover Cluster]","mscs.registerappinstance","smbclnt/PREGISTER_APPINSTANCE","smbclnt/RegisterAppInstance"]
 old-location: mscs\registerappinstance.htm
 tech.root: MsCS
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926

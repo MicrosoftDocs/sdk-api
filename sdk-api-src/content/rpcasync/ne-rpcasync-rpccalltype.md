@@ -1,7 +1,7 @@
 ---
 UID: NE:rpcasync.tagRpcCallType
 title: RpcCallType (rpcasync.h)
-description: Specifies the set of RPC call types.
+description: Specifies the set of RPC call types.helpviewer_keywords: ["RpcCallType","RpcCallType enumeration [RPC]","rctGuaranteed","rctInvalid","rctNormal","rctTraining","rpc.rpccalltype","rpcasync/RpcCallType","rpcasync/rctGuaranteed","rpcasync/rctInvalid","rpcasync/rctNormal","rpcasync/rctTraining"]
 old-location: rpc\rpccalltype.htm
 tech.root: Rpc
 ms.assetid: b7b95f51-ced4-423f-88b7-b1ec705af66f

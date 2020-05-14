@@ -1,7 +1,7 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_INIT
 title: PRADIUS_EXTENSION_INIT (authif.h)
-description: The RadiusExtensionInit function is an application-defined function and is called by NPS while the service is starting up. Use RadiusExtensionInit to perform any initialization operations for the Extension DLL.
+description: The RadiusExtensionInit function is an application-defined function and is called by NPS while the service is starting up. Use RadiusExtensionInit to perform any initialization operations for the Extension DLL.helpviewer_keywords: ["PRADIUS_EXTENSION_INIT","PRADIUS_EXTENSION_INIT callback","PRADIUS_EXTENSION_INIT callback function [Network Policy Server]","RadiusExtensionInit","_ias_radiusextensioninit","authif/PRADIUS_EXTENSION_INIT","ias.radiusextensioninit","nps.IAS_radiusextensioninit"]
 old-location: nps\IAS_radiusextensioninit.htm
 tech.root: Nps
 ms.assetid: a463927f-550d-4078-8c0f-35c8742d887a

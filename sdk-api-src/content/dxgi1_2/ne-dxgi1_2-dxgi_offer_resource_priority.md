@@ -1,7 +1,7 @@
 ---
 UID: NE:dxgi1_2._DXGI_OFFER_RESOURCE_PRIORITY
 title: DXGI_OFFER_RESOURCE_PRIORITY (dxgi1_2.h)
-description: Identifies the importance of a resource’s content when you call the IDXGIDevice2::OfferResources method to offer the resource.
+description: Identifies the importance of a resource’s content when you call the IDXGIDevice2::OfferResources method to offer the resource.helpviewer_keywords: ["DXGI_OFFER_RESOURCE_PRIORITY","DXGI_OFFER_RESOURCE_PRIORITY enumeration [DXGI]","DXGI_OFFER_RESOURCE_PRIORITY_HIGH","DXGI_OFFER_RESOURCE_PRIORITY_LOW","DXGI_OFFER_RESOURCE_PRIORITY_NORMAL","direct3ddxgi._dxgi_offer_resource_priority","dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY","dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_HIGH","dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_LOW","dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_NORMAL"]
 old-location: direct3ddxgi\_dxgi_offer_resource_priority.htm
 tech.root: direct3ddxgi
 ms.assetid: BDC0AAA3-2B72-4732-82CE-458C14B0D993

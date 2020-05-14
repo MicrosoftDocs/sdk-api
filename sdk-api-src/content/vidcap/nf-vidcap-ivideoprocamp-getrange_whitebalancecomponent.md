@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_WhiteBalanceComponent
 title: IVideoProcAmp::getRange_WhiteBalanceComponent (vidcap.h)
-description: The getRange_WhiteBalanceComponent method returns the range of white balance settings supported by the camera, expressed as red and blue component values.
+description: The getRange_WhiteBalanceComponent method returns the range of white balance settings supported by the camera, expressed as red and blue component values.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_WhiteBalanceComponent method","IVideoProcAmp.getRange_WhiteBalanceComponent","IVideoProcAmp::getRange_WhiteBalanceComponent","IVideoProcAmpgetRange_WhiteBalanceComponent","dshow.ivideoprocamp_getrange_whitebalancecomponent","getRange_WhiteBalanceComponent","getRange_WhiteBalanceComponent method [DirectShow]","getRange_WhiteBalanceComponent method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent"]
 old-location: dshow\ivideoprocamp_getrange_whitebalancecomponent.htm
 tech.root: DirectShow
 ms.assetid: dec23c5a-3999-4f9b-81f3-2718b38d5835

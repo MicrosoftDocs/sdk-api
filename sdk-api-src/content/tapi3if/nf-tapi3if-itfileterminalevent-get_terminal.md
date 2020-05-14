@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Terminal
 title: ITFileTerminalEvent::get_Terminal (tapi3if.h)
-description: The get_Terminal method returns the file terminal that generated this event.
+description: The get_Terminal method returns the file terminal that generated this event.helpviewer_keywords: ["ITFileTerminalEvent interface [TAPI 2.2]","get_Terminal method","ITFileTerminalEvent.get_Terminal","ITFileTerminalEvent::get_Terminal","_tapi3_itfileterminalevent_get_terminal","get_Terminal","get_Terminal method [TAPI 2.2]","get_Terminal method [TAPI 2.2]","ITFileTerminalEvent interface","tapi3.itfileterminalevent_get_terminal","tapi3if/ITFileTerminalEvent::get_Terminal"]
 old-location: tapi3\itfileterminalevent_get_terminal.htm
 tech.root: Tapi
 ms.assetid: 515d9c65-1c24-485a-b7e4-1640e4e8c382

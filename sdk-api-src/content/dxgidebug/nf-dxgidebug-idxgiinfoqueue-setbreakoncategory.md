@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnCategory
 title: IDXGIInfoQueue::SetBreakOnCategory (dxgidebug.h)
-description: Sets a message category to break on when a message with that category passes through the storage filter.
+description: Sets a message category to break on when a message with that category passes through the storage filter.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetBreakOnCategory method","IDXGIInfoQueue.SetBreakOnCategory","IDXGIInfoQueue::SetBreakOnCategory","SetBreakOnCategory","SetBreakOnCategory method [DXGI]","SetBreakOnCategory method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setbreakoncategory","dxgidebug/IDXGIInfoQueue::SetBreakOnCategory"]
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakoncategory.htm
 tech.root: direct3ddxgi
 ms.assetid: 834C803B-EA7D-4D4C-B74E-9CF7914E0A4E

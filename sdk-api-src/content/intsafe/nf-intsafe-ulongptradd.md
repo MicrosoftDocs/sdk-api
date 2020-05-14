@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongPtrAdd
 title: ULongPtrAdd function (intsafe.h)
-description: Adds two values of type ULONG_PTR.
+description: Adds two values of type ULONG_PTR.helpviewer_keywords: ["ULongPtrAdd","ULongPtrAdd function [Windows Shell]","_shell_ULongPtrAdd","intsafe/ULongPtrAdd","shell.ULongPtrAdd"]
 old-location: shell\ULongPtrAdd.htm
 tech.root: shell
 ms.assetid: 83f89ca7-0625-4705-9645-b2b739a9d664

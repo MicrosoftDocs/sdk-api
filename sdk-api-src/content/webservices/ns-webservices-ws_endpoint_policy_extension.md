@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_ENDPOINT_POLICY_EXTENSION
 title: WS_ENDPOINT_POLICY_EXTENSION (webservices.h)
 description: This structure is used to specify an endpoint policy extension.
+helpviewer_keywords: ["WS_ENDPOINT_POLICY_EXTENSION","WS_ENDPOINT_POLICY_EXTENSION structure [Web Services for Windows]","webservices/WS_ENDPOINT_POLICY_EXTENSION","wsw.ws_endpoint_policy_extension"]
 old-location: wsw\ws_endpoint_policy_extension.htm
 tech.root: wsw
 ms.assetid: 8bcb2466-fb07-4a15-82a2-87fc7f0f3d92
@@ -99,7 +100,7 @@ This extension can be used to specify a custom assertion or an assertion that is
               retrieve the original XML form of the assertion. If one of the supported assertions
               is specified as an extension, the corresponding constraint should not be specified.
               For example, if http://schemas.xmlsoap.org/ws/2005/07/securitypolicy:TransportBinding
-              is specified as an endpoint extension, <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>cannot be specified as a constraint.
+              is specified as an endpoint extension, <a href="/windows/win32/api/webservices/ns-webservices-ws_ssl_transport_security_binding_constraint">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>cannot be specified as a constraint.
           
 
 The following assertions are not allowed as policy extension because they might affect constraint 

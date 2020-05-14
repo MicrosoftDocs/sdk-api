@@ -1,7 +1,7 @@
 ---
 UID: NN:qmgr.IBackgroundCopyJob1
 title: IBackgroundCopyJob1 (qmgr.h)
-description: Use the IBackgroundCopyJob1 interface to add files to the job and retrieve the job's status.
+description: Use the IBackgroundCopyJob1 interface to add files to the job and retrieve the job's status.helpviewer_keywords: ["IBackgroundCopyJob1","IBackgroundCopyJob1 interface [BITS]","IBackgroundCopyJob1 interface [BITS]","described","bits.ibackgroundcopyjob1","qmgr/IBackgroundCopyJob1"]
 old-location: bits\ibackgroundcopyjob1.htm
 tech.root: Bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777

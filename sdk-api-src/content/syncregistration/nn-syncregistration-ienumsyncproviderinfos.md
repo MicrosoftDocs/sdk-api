@@ -1,7 +1,7 @@
 ---
 UID: NN:syncregistration.IEnumSyncProviderInfos
 title: IEnumSyncProviderInfos (syncregistration.h)
-description: Enumerates ISyncProviderInfo objects that contain the information used to create an instance of a synchronization provider.
+description: Enumerates ISyncProviderInfo objects that contain the information used to create an instance of a synchronization provider.helpviewer_keywords: ["IEnumSyncProviderInfos","IEnumSyncProviderInfos interface [Windows Sync]","IEnumSyncProviderInfos interface [Windows Sync]","described","syncregistration/IEnumSyncProviderInfos","winsync.ienumsyncproviderinfos"]
 old-location: winsync\ienumsyncproviderinfos.htm
 tech.root: winsync
 ms.assetid: 58b0dcc2-861a-4138-872a-cbbe2bb2cc4d

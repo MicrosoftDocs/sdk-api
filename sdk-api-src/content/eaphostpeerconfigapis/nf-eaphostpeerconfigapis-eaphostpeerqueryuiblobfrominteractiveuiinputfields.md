@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerQueryUIBlobFromInteractiveUIInputFields
 title: EapHostPeerQueryUIBlobFromInteractiveUIInputFields function (eaphostpeerconfigapis.h)
 description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
+helpviewer_keywords: ["EAPHOST_PEER_API_VERSION","EapHostPeerQueryUIBlobFromInteractiveUIInputFields","EapHostPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost]","eaphost.eaphostpeerqueryuiblobfrominteractiveuiinputfields","eaphostpeerconfigapis/EapHostPeerQueryUIBlobFromInteractiveUIInputFields"]
 old-location: eaphost\eaphostpeerqueryuiblobfrominteractiveuiinputfields.htm
 tech.root: eaphost
 ms.assetid: 2c4b1a0b-8c3f-47c5-8829-2f9c9bfda946
@@ -83,7 +84,7 @@ The version of the EAPHost Peer APIs.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param dwSizeofUIContextData [in]
@@ -127,7 +128,7 @@ Reserved for future use. This parameter must be set to 0.
 
 
 
-[Supplicant API Call Sequence](https://docs.microsoft.com/windows/win32/eaphost/supplicant-api-call-sequence)a>.
+[Supplicant API Call Sequence](/windows/win32/eaphost/supplicant-api-call-sequence).
 
 
 
@@ -137,11 +138,11 @@ Reserved for future use. This parameter must be set to 0.
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[SSO and PLAP](https://docs.microsoft.com/windows/win32/eaphost/understanding-sso-and-plap)a>
+[SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
  
 
  

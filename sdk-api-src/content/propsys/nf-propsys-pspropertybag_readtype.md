@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadType
 title: PSPropertyBag_ReadType function (propsys.h)
-description: Reads the type of data value of a property that is stored in a property bag.
+description: Reads the type of data value of a property that is stored in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadType","PSPropertyBag_ReadType function [Windows Properties]","properties.PSPropertyBag_ReadType","propsys/PSPropertyBag_ReadType","shell.PSPropertyBag_ReadType","shell_PSPropertyBag_ReadType"]
 old-location: properties\PSPropertyBag_ReadType.htm
 tech.root: properties
 ms.assetid: 826038F7-FD93-474e-BCA7-910E214F3E01

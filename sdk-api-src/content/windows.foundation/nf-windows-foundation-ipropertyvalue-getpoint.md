@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetPoint
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the Point value that is stored in the current IPropertyValue object.
+description: Gets the Point value that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetPoint","GetPoint method [Windows Runtime]","GetPoint method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetPoint method","IPropertyValue.GetPoint","IPropertyValue.IPropertyValue","IPropertyValue::GetPoint","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetPoint","winrt.ipropertyvalue_getpoint"]
 old-location: winrt\ipropertyvalue_getpoint.htm
 tech.root: WinRT
 ms.assetid: c42dabae-008e-4dc2-b7dd-2856adc8e610

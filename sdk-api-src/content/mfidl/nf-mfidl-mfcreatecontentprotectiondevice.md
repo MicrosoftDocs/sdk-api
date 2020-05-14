@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateContentProtectionDevice
 title: MFCreateContentProtectionDevice function (mfidl.h)
-description: Creates an IMFContentProtectionDevice interface for the specified media protection system.
+description: Creates an IMFContentProtectionDevice interface for the specified media protection system.helpviewer_keywords: ["MFCreateContentProtectionDevice","MFCreateContentProtectionDevice function [Media Foundation]","mf.mfcreatecontentprotectiondevice","mfidl/MFCreateContentProtectionDevice"]
 old-location: mf\mfcreatecontentprotectiondevice.htm
 tech.root: medfound
 ms.assetid: 6C301184-255B-4FE7-8DD6-962B236F90A6

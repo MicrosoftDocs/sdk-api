@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorDescription
 title: IWMPErrorItem::get_errorDescription (wmp.h)
-description: The get_errorDescription method retrieves a description of the error.
+description: The get_errorDescription method retrieves a description of the error.helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_errorDescription method","IWMPErrorItem.get_errorDescription","IWMPErrorItem::get_errorDescription","IWMPErrorItemget_errorDescription","get_errorDescription","get_errorDescription method [Windows Media Player]","get_errorDescription method [Windows Media Player]","IWMPErrorItem interface","wmp.iwmperroritem_get_errordescription","wmp/IWMPErrorItem::get_errorDescription"]
 old-location: wmp\iwmperroritem_get_errordescription.htm
 tech.root: WMP
 ms.assetid: eb322580-2cc6-4094-9da3-9b8d78a5cb48

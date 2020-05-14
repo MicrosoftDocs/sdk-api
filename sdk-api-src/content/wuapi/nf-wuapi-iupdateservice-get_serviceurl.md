@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceUrl
 title: IUpdateService::get_ServiceUrl (wuapi.h)
-description: Retrieves the URL for the service.
+description: Retrieves the URL for the service.helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","ServiceUrl property","IUpdateService.ServiceUrl","IUpdateService.get_ServiceUrl","IUpdateService::ServiceUrl","IUpdateService::get_ServiceUrl","ServiceUrl property [Windows Update Agent]","ServiceUrl property [Windows Update Agent]","IUpdateService interface","get_ServiceUrl","wua.iupdateservice_serviceurl","wuapi/IUpdateService::ServiceUrl","wuapi/IUpdateService::get_ServiceUrl"]
 old-location: wua\iupdateservice_serviceurl.htm
 tech.root: Wua_Sdk
 ms.assetid: 6671dabb-a13d-45cc-9a1d-5ee538dec09f

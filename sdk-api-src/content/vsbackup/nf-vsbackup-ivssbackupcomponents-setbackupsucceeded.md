@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupSucceeded
 title: IVssBackupComponents::SetBackupSucceeded (vsbackup.h)
-description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.
+description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetBackupSucceeded method","IVssBackupComponents.SetBackupSucceeded","IVssBackupComponents::SetBackupSucceeded","SetBackupSucceeded","SetBackupSucceeded method [VSS]","SetBackupSucceeded method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setbackupsucceeded","base.ivssbackupcomponents_setbackupsucceeded","vsbackup/IVssBackupComponents::SetBackupSucceeded"]
 old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
 tech.root: VSS
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2

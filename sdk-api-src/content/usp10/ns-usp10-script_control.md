@@ -2,6 +2,7 @@
 UID: NS:usp10.tag_SCRIPT_CONTROL
 title: SCRIPT_CONTROL (usp10.h)
 description: Contains script control flags for several Uniscribe functions, for example, ScriptItemize.
+helpviewer_keywords: ["FALSE","SCRIPT_CONTROL","SCRIPT_CONTROL structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_CONTROL_str","intl.script_control","usp10/SCRIPT_CONTROL"]
 old-location: intl\script_control.htm
 tech.root: Intl
 ms.assetid: 4623f606-f67e-48ad-8c1d-d27da5ba556c
@@ -62,7 +63,7 @@ Contains script control flags for several Uniscribe functions, for example, <a h
 
 ### -field uDefaultLanguage
 
-Primary <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the language to use when Unicode values are ambiguous. This value is used in numeric processing to select digit shape when the <b>fDigitSubstitute</b> member of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> is set.
+Primary <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the language to use when Unicode values are ambiguous. This value is used in numeric processing to select digit shape when the <b>fDigitSubstitute</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> is set.
 
 
 ### -field fContextDigits
@@ -409,7 +410,7 @@ Reserved; always initialize to 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
 
 
 

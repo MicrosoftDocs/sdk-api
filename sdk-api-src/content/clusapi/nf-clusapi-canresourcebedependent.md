@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CanResourceBeDependent
 title: CanResourceBeDependent function (clusapi.h)
-description: Determines if one resource can be dependent upon another resource.
+description: Determines if one resource can be dependent upon another resource.helpviewer_keywords: ["CanResourceBeDependent","CanResourceBeDependent function [Failover Cluster]","PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT","PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT function [Failover Cluster]","_wolf_canresourcebedependent","clusapi/CanResourceBeDependent","clusapi/PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT","mscs.canresourcebedependent"]
 old-location: mscs\canresourcebedependent.htm
 tech.root: MsCS
 ms.assetid: 974ec036-3dd3-4453-9ce5-029f58d99d81

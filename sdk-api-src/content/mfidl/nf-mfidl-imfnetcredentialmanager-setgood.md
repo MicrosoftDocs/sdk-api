@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.SetGood
 title: IMFNetCredentialManager::SetGood (mfidl.h)
-description: Specifies whether the user's credentials succeeded in the authentication challenge. The network source calls this method to informs the application whether the user's credentials were authenticated.
+description: Specifies whether the user's credentials succeeded in the authentication challenge. The network source calls this method to informs the application whether the user's credentials were authenticated.helpviewer_keywords: ["IMFNetCredentialManager interface [Media Foundation]","SetGood method","IMFNetCredentialManager.SetGood","IMFNetCredentialManager::SetGood","SetGood","SetGood method [Media Foundation]","SetGood method [Media Foundation]","IMFNetCredentialManager interface","f58e30ba-3e9b-41b5-9c13-0f9dac541033","mf.imfnetcredentialmanager_setgood","mfidl/IMFNetCredentialManager::SetGood"]
 old-location: mf\imfnetcredentialmanager_setgood.htm
 tech.root: medfound
 ms.assetid: f58e30ba-3e9b-41b5-9c13-0f9dac541033

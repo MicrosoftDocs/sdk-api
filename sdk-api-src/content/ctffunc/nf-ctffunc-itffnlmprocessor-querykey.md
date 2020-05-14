@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryKey
 title: ITfFnLMProcessor::QueryKey (ctffunc.h)
-description: ITfFnLMProcessor::QueryKey method
+description: ITfFnLMProcessor::QueryKey methodhelpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","QueryKey method","ITfFnLMProcessor.QueryKey","ITfFnLMProcessor::QueryKey","QueryKey","QueryKey method [Text Services Framework]","QueryKey method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_querykey_ref","ctffunc/ITfFnLMProcessor::QueryKey","tsf.itffnlmprocessor_querykey"]
 old-location: tsf\itffnlmprocessor_querykey.htm
 tech.root: TSF
 ms.assetid: 9d28c2c2-ed0e-4987-ace9-25ed9d7a40a0
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to determine if the language model text service handles a key event.
 
 ## -parameters
 

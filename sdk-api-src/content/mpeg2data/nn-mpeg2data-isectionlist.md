@@ -1,7 +1,7 @@
 ---
 UID: NN:mpeg2data.ISectionList
 title: ISectionList (mpeg2data.h)
-description: The ISectionList interface represents a list of MPEG-2 table sections.
+description: The ISectionList interface represents a list of MPEG-2 table sections.helpviewer_keywords: ["ISectionList","ISectionList interface [Microsoft TV Technologies]","ISectionList interface [Microsoft TV Technologies]","described","ISectionListInterface","mpeg2data/ISectionList","mstv.isectionlist"]
 old-location: mstv\isectionlist.htm
 tech.root: mstv
 ms.assetid: eb6d31b4-ee4a-468f-9e58-115159095858

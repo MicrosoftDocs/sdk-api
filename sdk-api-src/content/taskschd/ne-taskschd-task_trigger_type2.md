@@ -1,7 +1,7 @@
 ---
 UID: NE:taskschd._TASK_TRIGGER_TYPE2
 title: TASK_TRIGGER_TYPE2 (taskschd.h)
-description: Defines the type of triggers that can be used by tasks.
+description: Defines the type of triggers that can be used by tasks.helpviewer_keywords: ["TASK_TRIGGER_BOOT","TASK_TRIGGER_DAILY","TASK_TRIGGER_EVENT","TASK_TRIGGER_IDLE","TASK_TRIGGER_LOGON","TASK_TRIGGER_MONTHLY","TASK_TRIGGER_MONTHLYDOW","TASK_TRIGGER_REGISTRATION","TASK_TRIGGER_SESSION_STATE_CHANGE","TASK_TRIGGER_TIME","TASK_TRIGGER_TYPE2","TASK_TRIGGER_TYPE2 enumeration [Task Scheduler]","TASK_TRIGGER_WEEKLY","taskschd.triggertype","taskschd/TASK_TRIGGER_BOOT","taskschd/TASK_TRIGGER_DAILY","taskschd/TASK_TRIGGER_EVENT","taskschd/TASK_TRIGGER_IDLE","taskschd/TASK_TRIGGER_LOGON","taskschd/TASK_TRIGGER_MONTHLY","taskschd/TASK_TRIGGER_MONTHLYDOW","taskschd/TASK_TRIGGER_REGISTRATION","taskschd/TASK_TRIGGER_SESSION_STATE_CHANGE","taskschd/TASK_TRIGGER_TIME","taskschd/TASK_TRIGGER_TYPE2","taskschd/TASK_TRIGGER_WEEKLY"]
 old-location: taskschd\triggertype.htm
 tech.root: taskschd
 ms.assetid: 489015a1-5a3c-4994-aa1f-bc02dfff149d

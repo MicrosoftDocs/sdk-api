@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetFormat
 title: IAMStreamConfig::GetFormat (strmif.h)
-description: The GetFormat method retrieves the current or preferred output format.
+description: The GetFormat method retrieves the current or preferred output format.helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetFormat method","IAMStreamConfig.GetFormat","IAMStreamConfig::GetFormat","IAMStreamConfigGetFormat","dshow.iamstreamconfig_getformat","strmif/IAMStreamConfig::GetFormat"]
 old-location: dshow\iamstreamconfig_getformat.htm
 tech.root: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602

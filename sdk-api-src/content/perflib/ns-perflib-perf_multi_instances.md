@@ -1,7 +1,7 @@
 ---
 UID: NS:perflib._PERF_MULTI_INSTANCES
 title: PERF_MULTI_INSTANCES (perflib.h)
-description: Provides information about the PERF_MULTI_INSTANCES block that contains the structure.
+description: Provides information about the PERF_MULTI_INSTANCES block that contains the structure.helpviewer_keywords: ["*PPERF_MULTI_INSTANCES","PERF_MULTI_INSTANCES","PERF_MULTI_INSTANCES structure [Perf]","PPERF_MULTI_INSTANCES","PPERF_MULTI_INSTANCES structure pointer [Perf]","perf.perf_multi_instances","perflib/PERF_MULTI_INSTANCES","perflib/PPERF_MULTI_INSTANCES"]
 old-location: perf\perf_multi_instances.htm
 tech.root: perfctrs
 ms.assetid: 5EC34ECD-D240-4B44-A52B-C5518918400C

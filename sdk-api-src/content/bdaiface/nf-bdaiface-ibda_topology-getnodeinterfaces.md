@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetNodeInterfaces
 title: IBDA_Topology::GetNodeInterfaces (bdaiface.h)
-description: The GetNodeInterfaces method retrieves a list of the interfaces supported by a node type.
+description: The GetNodeInterfaces method retrieves a list of the interfaces supported by a node type.helpviewer_keywords: ["GetNodeInterfaces","GetNodeInterfaces method [Microsoft TV Technologies]","GetNodeInterfaces method [Microsoft TV Technologies]","IBDA_Topology interface","IBDA_Topology interface [Microsoft TV Technologies]","GetNodeInterfaces method","IBDA_Topology.GetNodeInterfaces","IBDA_Topology::GetNodeInterfaces","IBDA_TopologyGetNodeInterfaces","bdaiface/IBDA_Topology::GetNodeInterfaces","mstv.ibda_topology_getnodeinterfaces"]
 old-location: mstv\ibda_topology_getnodeinterfaces.htm
 tech.root: mstv
 ms.assetid: c3dc4b38-933c-4aeb-b6eb-7273ce334ba2

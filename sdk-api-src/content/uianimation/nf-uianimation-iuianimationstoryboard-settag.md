@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetTag
 title: IUIAnimationStoryboard::SetTag (uianimation.h)
-description: Sets the tag for the storyboard.
+description: Sets the tag for the storyboard.helpviewer_keywords: ["IUIAnimationStoryboard interface [Windows Animation]","SetTag method","IUIAnimationStoryboard.SetTag","IUIAnimationStoryboard::SetTag","SetTag","SetTag method [Windows Animation]","SetTag method [Windows Animation]","IUIAnimationStoryboard interface","uianimation.iuianimationstoryboard_settag","uianimation/IUIAnimationStoryboard::SetTag"]
 old-location: uianimation\iuianimationstoryboard_settag.htm
 tech.root: UIAnimation
 ms.assetid: ade41b03-9194-4b1a-a672-32bb48a2f5ba

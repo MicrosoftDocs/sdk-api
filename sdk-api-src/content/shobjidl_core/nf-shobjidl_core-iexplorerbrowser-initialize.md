@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Initialize
 title: IExplorerBrowser::Initialize (shobjidl_core.h)
-description: Prepares the browser to be navigated.
+description: Prepares the browser to be navigated.helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","Initialize method","IExplorerBrowser.Initialize","IExplorerBrowser::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_Initialize","shell.IExplorerBrowser_Initialize","shobjidl_core/IExplorerBrowser::Initialize"]
 old-location: shell\IExplorerBrowser_Initialize.htm
 tech.root: shell
 ms.assetid: 4b86646a-a20c-4bb5-a4c8-5c2e11e18862

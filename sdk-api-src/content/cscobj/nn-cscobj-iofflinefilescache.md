@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesCache
 title: IOfflineFilesCache (cscobj.h)
-description: Used to manage the Offline Files cache.
+description: Used to manage the Offline Files cache.helpviewer_keywords: ["IOfflineFilesCache","IOfflineFilesCache interface [Offline Files]","IOfflineFilesCache interface [Offline Files]","described","cscobj/IOfflineFilesCache","of.iofflinefilescache"]
 old-location: of\iofflinefilescache.htm
 tech.root: offlinefiles
 ms.assetid: 7b1b5ef6-355a-4760-9d54-ec73cc66fb8a

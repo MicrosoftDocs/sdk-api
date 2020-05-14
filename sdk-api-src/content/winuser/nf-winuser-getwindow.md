@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindow
 title: GetWindow function (winuser.h)
-description: Retrieves a handle to a window that has the specified relationship (Z-Order or owner) to the specified window.
+description: Retrieves a handle to a window that has the specified relationship (Z-Order or owner) to the specified window.helpviewer_keywords: ["GW_CHILD","GW_ENABLEDPOPUP","GW_HWNDFIRST","GW_HWNDLAST","GW_HWNDNEXT","GW_HWNDPREV","GW_OWNER","GetWindow","GetWindow function [Windows and Messages]","_win32_GetWindow","_win32_getwindow_cpp","winmsg.getwindow","winui._win32_getwindow","winuser/GetWindow"]
 old-location: winmsg\getwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindow.htm

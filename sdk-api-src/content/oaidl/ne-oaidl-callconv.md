@@ -1,7 +1,7 @@
 ---
 UID: NE:oaidl.tagCALLCONV
 title: CALLCONV (oaidl.h)
-description: Identifies the calling convention used by a member function described in the METHODDATA structure.
+description: Identifies the calling convention used by a member function described in the METHODDATA structure.helpviewer_keywords: ["CALLCONV","CALLCONV enumeration [Automation]","CC_CDECL","CC_FASTCALL","CC_FPFASTCALL","CC_MACPASCAL","CC_MAX","CC_MPWCDECL","CC_MPWPASCAL","CC_MSCPASCAL","CC_PASCAL","CC_STDCALL","CC_SYSCALL","_oa96_CALLCONV","automat.callconv","oaidl/CALLCONV","oaidl/CC_CDECL","oaidl/CC_FASTCALL","oaidl/CC_FPFASTCALL","oaidl/CC_MACPASCAL","oaidl/CC_MAX","oaidl/CC_MPWCDECL","oaidl/CC_MPWPASCAL","oaidl/CC_MSCPASCAL","oaidl/CC_PASCAL","oaidl/CC_STDCALL","oaidl/CC_SYSCALL"]
 old-location: automat\callconv.htm
 tech.root: automat
 ms.assetid: 1dadd0e2-5b99-49ea-965f-9bdfd3b904fb

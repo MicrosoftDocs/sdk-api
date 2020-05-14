@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IQuickActivate.GetContentExtent
 title: IQuickActivate::GetContentExtent (ocidl.h)
-description: Gets the content extent of a control.
+description: Gets the content extent of a control.helpviewer_keywords: ["GetContentExtent","GetContentExtent method [COM]","GetContentExtent method [COM]","IQuickActivate interface","IQuickActivate interface [COM]","GetContentExtent method","IQuickActivate.GetContentExtent","IQuickActivate::GetContentExtent","_ctrl_iquickactivate_getcontentextent","com.iquickactivate_getcontentextent","ocidl/IQuickActivate::GetContentExtent"]
 old-location: com\iquickactivate_getcontentextent.htm
 tech.root: com
 ms.assetid: ead9bf4d-44a1-4237-ad03-28a4253819b8

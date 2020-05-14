@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.StopAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Instructs the DMR asynchronously to stop playing the current content.
+description: Instructs the DMR asynchronously to stop playing the current content.helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","StopAsync method","IMediaRenderer.StopAsync","IMediaRenderer.streaming","IMediaRenderer::StopAsync","IMediaRenderer::streaming","StopAsync","StopAsync method [Media Streaming API]","StopAsync method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_stopasync","windows/IMediaRenderer::StopAsync"]
 old-location: mediastreaming\imediarenderer_stopasync.htm
 tech.root: mediastreaming
 ms.assetid: B6B0F3F2-E95E-4A58-9CBD-CF4CB24FDAD0

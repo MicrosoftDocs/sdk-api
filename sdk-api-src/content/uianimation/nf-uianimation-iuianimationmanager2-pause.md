@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationManager2.Pause
 title: IUIAnimationManager2::Pause (uianimation.h)
 description: Pauses all animations.
+helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","Pause method","IUIAnimationManager2.Pause","IUIAnimationManager2::Pause","Pause","Pause method [Windows Animation]","Pause method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_pause","uianimation/IUIAnimationManager2::Pause"]
 old-location: uianimation\iuianimationmanager2_pause.htm
 tech.root: UIAnimation
 ms.assetid: AA8EEFD5-A386-4DF1-BCBE-12A92D235E98
@@ -72,7 +73,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-When an animation manager is paused, its status is set to <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_IDLE</a>.
+When an animation manager is paused, its status is set to <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_IDLE</a>.
 
 
 
@@ -98,7 +99,7 @@ When an animation manager is paused, its status is set to <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

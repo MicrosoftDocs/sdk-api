@@ -1,7 +1,7 @@
 ---
 UID: NN:objidlbase.IPipeLong
 title: IPipeLong (objidlbase.h)
-description: Transfers data of the long integer type (which is 32 bits wide).
+description: Transfers data of the long integer type (which is 32 bits wide).helpviewer_keywords: ["IPipeLong","IPipeLong interface [COM]","IPipeLong interface [COM]","described","_com_ipipelong","com.ipipelong","objidlbase/IPipeLong"]
 old-location: com\ipipelong.htm
 tech.root: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27

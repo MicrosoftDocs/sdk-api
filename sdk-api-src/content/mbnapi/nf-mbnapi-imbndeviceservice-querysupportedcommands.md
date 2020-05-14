@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QuerySupportedCommands
 title: IMbnDeviceService::QuerySupportedCommands (mbnapi.h)
-description: Gets the list of commands IDs supported by the Mobile Broadband device service.
+description: Gets the list of commands IDs supported by the Mobile Broadband device service.helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","QuerySupportedCommands method","IMbnDeviceService.QuerySupportedCommands","IMbnDeviceService::QuerySupportedCommands","QuerySupportedCommands","QuerySupportedCommands method [Microsoft Broadband Networks]","QuerySupportedCommands method [Microsoft Broadband Networks]","IMbnDeviceService interface","mbn.imbndeviceservice_querysupportedcommands","mbnapi/IMbnDeviceService::QuerySupportedCommands"]
 old-location: mbn\imbndeviceservice_querysupportedcommands.htm
 tech.root: mbn
 ms.assetid: E82AAD40-1E91-449D-8F1C-CE31B394B2DF

@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_5
 title: EXP_PROPERTYSTORAGE (shlobj_core.h)
-description: Stores information about the Shell link state. This structure is used for extra data sections that are tagged with EXP_PROPERTYSTORAGE_SIG.
+description: Stores information about the Shell link state. This structure is used for extra data sections that are tagged with EXP_PROPERTYSTORAGE_SIG.helpviewer_keywords: ["EXP_PROPERTYSTORAGE","EXP_PROPERTYSTORAGE structure [Windows Shell]","_shell_EXP_PROPERTYSTORAGE","shell.EXP_PROPERTYSTORAGE","shlobj_core/EXP_PROPERTYSTORAGE"]
 old-location: shell\EXP_PROPERTYSTORAGE.htm
 tech.root: shell
 ms.assetid: b7228610-c28a-4e19-80c9-30997a360b9c

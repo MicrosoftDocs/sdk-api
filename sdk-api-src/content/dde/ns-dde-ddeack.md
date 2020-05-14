@@ -1,7 +1,7 @@
 ---
 UID: NS:dde.__unnamed_struct_0
 title: DDEACK (dde.h)
-description: Contains status flags that a DDE application passes to its partner as part of the WM_DDE_ACK message.
+description: Contains status flags that a DDE application passes to its partner as part of the WM_DDE_ACK message.helpviewer_keywords: ["DDEACK","DDEACK structure [Data Exchange]","_win32_DDEACK_str","_win32_ddeack_str_cpp","dataxchg.ddeack","dde/DDEACK","winui._win32_ddeack_str"]
 old-location: dataxchg\ddeack.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeack.htm

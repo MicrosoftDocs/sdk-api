@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIRibbon.GetHeight
 title: IUIRibbon::GetHeight (uiribbon.h)
-description: Retrieves the height of the ribbon.
+description: Retrieves the height of the ribbon.helpviewer_keywords: ["GetHeight","GetHeight method [Windows Ribbon]","GetHeight method [Windows Ribbon]","IUIRibbon interface","IUIRibbon interface [Windows Ribbon]","GetHeight method","IUIRibbon.GetHeight","IUIRibbon::GetHeight","scenicintent_IUIRibbon_GetHeight","uiribbon/IUIRibbon::GetHeight","windowsribbon.windowsribbon_iuiribbon_getheight"]
 old-location: windowsribbon\windowsribbon_iuiribbon_getheight.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\getheight.htm

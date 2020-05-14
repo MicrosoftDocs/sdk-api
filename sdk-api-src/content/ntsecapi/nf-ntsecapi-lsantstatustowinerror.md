@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaNtStatusToWinError
 title: LsaNtStatusToWinError function (ntsecapi.h)
-description: The LsaNtStatusToWinError function converts an NTSTATUS code returned by an LSA function to a Windows error code.
+description: The LsaNtStatusToWinError function converts an NTSTATUS code returned by an LSA function to a Windows error code.helpviewer_keywords: ["LsaNtStatusToWinError","LsaNtStatusToWinError function [Security]","_lsa_lsantstatustowinerror","ntsecapi/LsaNtStatusToWinError","security.lsantstatustowinerror"]
 old-location: security\lsantstatustowinerror.htm
 tech.root: SecMgmt
 ms.assetid: fa91794c-c502-4b36-84cc-a8d77c8e9d9f

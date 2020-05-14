@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32
 title: PropVariantToUInt32 function (propvarutil.h)
-description: Extracts an ULONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
+description: Extracts an ULONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.helpviewer_keywords: ["PropVariantToUInt32","PropVariantToUInt32 function [Windows Properties]","properties.PropVariantToUInt32","propvarutil/PropVariantToUInt32","shell.PropVariantToUInt32","shell_PropVariantToUInt32"]
 old-location: properties\PropVariantToUInt32.htm
 tech.root: properties
 ms.assetid: ce1d8d07-2532-48bd-be8b-7650230dbe0d

@@ -1,7 +1,7 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessBltStatePrivate
 title: PDXVAHDSW_GetVideoProcessBltStatePrivate (dxvahd.h)
-description: Gets a private blit state from a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+description: Gets a private blit state from a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessBltStatePrivate","PDXVAHDSW_GetVideoProcessBltStatePrivate callback","PDXVAHDSW_GetVideoProcessBltStatePrivate callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate","mf.pdxvahdsw_getvideoprocessbltstateprivate"]
 old-location: mf\pdxvahdsw_getvideoprocessbltstateprivate.htm
 tech.root: medfound
 ms.assetid: 32154457-5270-4e60-a16c-bca72c6a9673

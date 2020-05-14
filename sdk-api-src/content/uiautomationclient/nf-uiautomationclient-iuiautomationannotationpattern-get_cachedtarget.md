@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CachedTarget
 title: IUIAutomationAnnotationPattern::get_CachedTarget (uiautomationclient.h)
-description: Retrieves the cached element that is being annotated.
+description: Retrieves the cached element that is being annotated.helpviewer_keywords: ["CachedTarget property [Windows Accessibility]","CachedTarget property [Windows Accessibility]","IUIAutomationAnnotationPattern interface","IUIAutomationAnnotationPattern interface [Windows Accessibility]","CachedTarget property","IUIAutomationAnnotationPattern.CachedTarget","IUIAutomationAnnotationPattern.get_CachedTarget","IUIAutomationAnnotationPattern::CachedTarget","IUIAutomationAnnotationPattern::get_CachedTarget","get_CachedTarget","uiautomationclient/IUIAutomationAnnotationPattern::CachedTarget","uiautomationclient/IUIAutomationAnnotationPattern::get_CachedTarget","winauto.uiauto_IUIAutomationAnnotationPattern_CachedTarget"]
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedTarget.htm
 tech.root: WinAuto
 ms.assetid: AAE5557B-4851-4B72-8C42-083457CD75CC

@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsCommandSessionOpen
 title: IMbnDeviceService::get_IsCommandSessionOpen (mbnapi.h)
-description: Reports if the device service command session is open.
+description: Reports if the device service command session is open.helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","IsCommandSessionOpen property","IMbnDeviceService.IsCommandSessionOpen","IMbnDeviceService.get_IsCommandSessionOpen","IMbnDeviceService::IsCommandSessionOpen","IMbnDeviceService::get_IsCommandSessionOpen","IsCommandSessionOpen property [Microsoft Broadband Networks]","IsCommandSessionOpen property [Microsoft Broadband Networks]","IMbnDeviceService interface","get_IsCommandSessionOpen","mbn.imbndeviceservice_iscommandsessionopen","mbnapi/IMbnDeviceService::IsCommandSessionOpen","mbnapi/IMbnDeviceService::get_IsCommandSessionOpen"]
 old-location: mbn\imbndeviceservice_iscommandsessionopen.htm
 tech.root: mbn
 ms.assetid: 7A986AD8-9DC3-4543-8FB9-5F633DEC95C7

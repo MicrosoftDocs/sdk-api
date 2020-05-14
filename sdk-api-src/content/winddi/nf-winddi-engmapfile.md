@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMapFile
 title: EngMapFile function (winddi.h)
-description: The EngMapFile function creates or opens a file and maps it into system space.
+description: The EngMapFile function creates or opens a file and maps it into system space.helpviewer_keywords: ["EngMapFile","EngMapFile function [Display Devices]","display.engmapfile","gdifncs_efc9de46-c5dc-446b-9686-8cf868bfa1e9.xml","winddi/EngMapFile"]
 old-location: display\engmapfile.htm
 tech.root: display
 ms.assetid: 6887f7e1-f94f-421c-be7a-14a41d621ce1

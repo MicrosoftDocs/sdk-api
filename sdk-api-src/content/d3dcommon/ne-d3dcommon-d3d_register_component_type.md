@@ -2,6 +2,7 @@
 UID: NE:d3dcommon.D3D_REGISTER_COMPONENT_TYPE
 title: D3D_REGISTER_COMPONENT_TYPE (d3dcommon.h)
 description: Values that identify the data types that can be stored in a register.
+helpviewer_keywords: ["D3D10_REGISTER_COMPONENT_FLOAT32","D3D10_REGISTER_COMPONENT_SINT32","D3D10_REGISTER_COMPONENT_UINT32","D3D10_REGISTER_COMPONENT_UNKNOWN","D3D_REGISTER_COMPONENT_FLOAT32","D3D_REGISTER_COMPONENT_SINT32","D3D_REGISTER_COMPONENT_TYPE","D3D_REGISTER_COMPONENT_TYPE enumeration [Direct3D 11]","D3D_REGISTER_COMPONENT_UINT32","D3D_REGISTER_COMPONENT_UNKNOWN","d3dcommon/D3D10_REGISTER_COMPONENT_FLOAT32","d3dcommon/D3D10_REGISTER_COMPONENT_SINT32","d3dcommon/D3D10_REGISTER_COMPONENT_UINT32","d3dcommon/D3D10_REGISTER_COMPONENT_UNKNOWN","d3dcommon/D3D_REGISTER_COMPONENT_FLOAT32","d3dcommon/D3D_REGISTER_COMPONENT_SINT32","d3dcommon/D3D_REGISTER_COMPONENT_TYPE","d3dcommon/D3D_REGISTER_COMPONENT_UINT32","d3dcommon/D3D_REGISTER_COMPONENT_UNKNOWN","direct3d11.d3d_register_component_type"]
 old-location: direct3d11\d3d_register_component_type.htm
 tech.root: direct3d11
 ms.assetid: 71e3c707-745b-40b4-ba3c-6c501196e3d3
@@ -101,7 +102,7 @@ The data type is unknown.
 
 
 
-A register component type is specified in the <b>ComponentType</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
+A register component type is specified in the <b>ComponentType</b> member of the <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
 
 
 

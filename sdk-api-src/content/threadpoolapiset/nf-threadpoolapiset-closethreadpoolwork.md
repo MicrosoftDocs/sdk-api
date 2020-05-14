@@ -1,7 +1,7 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolWork
 title: CloseThreadpoolWork function (threadpoolapiset.h)
-description: Releases the specified work object.
+description: Releases the specified work object.helpviewer_keywords: ["CloseThreadpoolWork","CloseThreadpoolWork function","base.closethreadpoolwork","threadpoolapiset/CloseThreadpoolWork","winbase/CloseThreadpoolWork"]
 old-location: base\closethreadpoolwork.htm
 tech.root: ProcThread
 ms.assetid: 89d7362e-0814-4f7e-a27f-8a297e210559

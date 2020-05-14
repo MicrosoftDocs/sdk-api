@@ -1,7 +1,7 @@
 ---
 UID: NS:dxgi1_6.DXGI_ADAPTER_DESC3
 title: DXGI_ADAPTER_DESC3 (dxgi1_6.h)
-description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.6.
+description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.6.helpviewer_keywords: ["DXGI_ADAPTER_DESC3","DXGI_ADAPTER_DESC3 structure [DXGI]","direct3ddxgi.dxgi_adapter_desc3","dxgi1_6/DXGI_ADAPTER_DESC3"]
 old-location: direct3ddxgi\dxgi_adapter_desc3.htm
 tech.root: direct3ddxgi
 ms.assetid: A04B37C9-9F83-4812-AAF6-14FA49976051

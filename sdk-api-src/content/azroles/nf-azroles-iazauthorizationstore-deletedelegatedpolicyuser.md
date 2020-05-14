@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUser
 title: IAzAuthorizationStore::DeleteDelegatedPolicyUser (azroles.h)
-description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
+description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeleteDelegatedPolicyUser method","DeleteDelegatedPolicyUser","DeleteDelegatedPolicyUser method [Security]","DeleteDelegatedPolicyUser method [Security]","AzAuthorizationStore object","DeleteDelegatedPolicyUser method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeleteDelegatedPolicyUser method","IAzAuthorizationStore.DeleteDelegatedPolicyUser","IAzAuthorizationStore::DeleteDelegatedPolicyUser","azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser","security.azauthorizationstore_deletedelegatedpolicyuser"]
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm
 tech.root: SecAuthZ
 ms.assetid: cb00abca-7116-4a71-aed0-87ed9caff0fb

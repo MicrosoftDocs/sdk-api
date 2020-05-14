@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreatePool
 title: IComObjectPoolEvents2::OnObjPoolCreatePool (comsvcs.h)
 description: Generated when a new pool is created.
+helpviewer_keywords: ["IComObjectPoolEvents2 interface [COM+]","OnObjPoolCreatePool method","IComObjectPoolEvents2.OnObjPoolCreatePool","IComObjectPoolEvents2::OnObjPoolCreatePool","OnObjPoolCreatePool","OnObjPoolCreatePool method [COM+]","OnObjPoolCreatePool method [COM+]","IComObjectPoolEvents2 interface","_dtc_IComObjectPoolEvents2_OnObjPoolCreatePool","comsvcs/IComObjectPoolEvents2::OnObjPoolCreatePool","cos.icomobjectpoolevents2_onobjpoolcreatepool"]
 old-location: cos\icomobjectpoolevents2_onobjpoolcreatepool.htm
 tech.root: cossdk
 ms.assetid: fa7a5ee4-8304-426c-9063-d25e2ed69668
@@ -59,7 +60,7 @@ Generated when a new pool is created.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidObject [in]

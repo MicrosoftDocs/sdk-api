@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector2LengthSq
 title: XMVector2LengthSq function (directxmath.h)
-description: Computes the square of the length of a 2D vector.
+description: Computes the square of the length of a 2D vector.helpviewer_keywords: ["Use DirectX..XMVector2LengthSq","XMVector2LengthSq","XMVector2LengthSq method [DirectX Math Support APIs]","dxmath.xmvector2lengthsq"]
 old-location: dxmath\xmvector2lengthsq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2LengthSq(XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Initialize
 title: IDirectDraw7::Initialize (ddraw.h)
-description: Initializes a DirectDraw object that was created by using the CoCreateInstance COM function.
+description: Initializes a DirectDraw object that was created by using the CoCreateInstance COM function.helpviewer_keywords: ["IDirectDraw7 interface [DirectDraw]","Initialize method","IDirectDraw7.Initialize","IDirectDraw7::Initialize","Initialize","Initialize method [DirectDraw]","Initialize method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::Initialize","directdraw.idirectdraw7_initialize"]
 old-location: directdraw\idirectdraw7_initialize.htm
 tech.root: directdraw
 ms.assetid: e641d8e7-ce29-454a-80fc-d404a27e9b63

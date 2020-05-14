@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost.TxGetBackStyle
 title: ITextHost::TxGetBackStyle (textserv.h)
-description: Requests the background style of the text host.
+description: Requests the background style of the text host.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetBackStyle method","ITextHost.TxGetBackStyle","ITextHost::TxGetBackStyle","TXTBACK_OPAQUE","TXTBACK_TRANSPARENT","TxGetBackStyle","TxGetBackStyle method [Windows Controls]","TxGetBackStyle method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetBackStyle","_win32_ITextHost_TxGetBackStyle_cpp","controls.ITextHost_TxGetBackStyle","controls._win32_ITextHost_TxGetBackStyle","textserv/ITextHost::TxGetBackStyle"]
 old-location: controls\ITextHost_TxGetBackStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbackstyle.htm

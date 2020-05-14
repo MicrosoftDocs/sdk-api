@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayGetVartype
 title: SafeArrayGetVartype function (oleauto.h)
-description: Gets the VARTYPE stored in the specified safe array.
+description: Gets the VARTYPE stored in the specified safe array.helpviewer_keywords: ["SafeArrayGetVartype","SafeArrayGetVartype function [Automation]","_oa96_SafeArrayGetVartype","automat.safearraygetvartype","oleauto/SafeArrayGetVartype"]
 old-location: automat\safearraygetvartype.htm
 tech.root: automat
 ms.assetid: 8ec0e736-bac8-4df4-ba32-433cd8478c55

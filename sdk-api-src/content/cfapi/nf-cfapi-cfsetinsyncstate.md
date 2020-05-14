@@ -1,7 +1,7 @@
 ---
 UID: NF:cfapi.CfSetInSyncState
 title: CfSetInSyncState function (cfapi.h)
-description: Sets the in-sync state for a placeholder file or folder.
+description: Sets the in-sync state for a placeholder file or folder.helpviewer_keywords: ["CfSetInSyncState","CfSetInSyncState function","cfapi/CfSetInSyncState","cloudApi.cfsetinsyncstate"]
 old-location: cloudapi\cfsetinsyncstate.htm
 tech.root: cfApi
 ms.assetid: 1CB7955D-E530-4F34-8D67-BC608F8B6AF1

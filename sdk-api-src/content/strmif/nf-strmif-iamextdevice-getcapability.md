@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtDevice.GetCapability
 title: IAMExtDevice::GetCapability (strmif.h)
-description: The GetCapability method retrieves the capabilities of the external device.
+description: The GetCapability method retrieves the capabilities of the external device.helpviewer_keywords: ["GetCapability","GetCapability method [DirectShow]","GetCapability method [DirectShow]","IAMExtDevice interface","IAMExtDevice interface [DirectShow]","GetCapability method","IAMExtDevice.GetCapability","IAMExtDevice::GetCapability","IAMExtDeviceGetCapability","dshow.iamextdevice_getcapability","strmif/IAMExtDevice::GetCapability"]
 old-location: dshow\iamextdevice_getcapability.htm
 tech.root: DirectShow
 ms.assetid: 4efed2b8-a62c-4a82-bc2d-c6d3a202263c

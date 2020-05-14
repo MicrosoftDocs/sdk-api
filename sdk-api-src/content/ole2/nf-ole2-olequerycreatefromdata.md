@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleQueryCreateFromData
 title: OleQueryCreateFromData function (ole2.h)
-description: Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the OleCreateFromData or OleCreateStaticFromData function.
+description: Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the OleCreateFromData or OleCreateStaticFromData function.helpviewer_keywords: ["OleQueryCreateFromData","OleQueryCreateFromData function [COM]","_ole_OleQueryCreateFromData","com.olequerycreatefromdata","ole2/OleQueryCreateFromData"]
 old-location: com\olequerycreatefromdata.htm
 tech.root: com
 ms.assetid: 58fffb8c-9726-4801-84ce-6fb670b865c8

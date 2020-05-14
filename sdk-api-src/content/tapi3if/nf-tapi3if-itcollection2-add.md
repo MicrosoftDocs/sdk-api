@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCollection2.Add
 title: ITCollection2::Add (tapi3if.h)
-description: The Add method inserts a new item into the collection at the specified index.
+description: The Add method inserts a new item into the collection at the specified index.helpviewer_keywords: ["Add","Add method [TAPI 2.2]","Add method [TAPI 2.2]","ITCollection2 interface","ITCollection2 interface [TAPI 2.2]","Add method","ITCollection2.Add","ITCollection2::Add","_tapi3_itcollection2_add","tapi3.itcollection2_add","tapi3if/ITCollection2::Add"]
 old-location: tapi3\itcollection2_add.htm
 tech.root: Tapi
 ms.assetid: 96c26f76-3835-4140-8379-91171fc4ad37

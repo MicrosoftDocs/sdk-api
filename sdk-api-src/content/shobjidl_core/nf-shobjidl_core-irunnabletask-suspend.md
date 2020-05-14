@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Suspend
 title: IRunnableTask::Suspend (shobjidl_core.h)
-description: Requests that a task be suspended.
+description: Requests that a task be suspended.helpviewer_keywords: ["IRunnableTask interface [Windows Shell]","Suspend method","IRunnableTask.Suspend","IRunnableTask::Suspend","Suspend","Suspend method [Windows Shell]","Suspend method [Windows Shell]","IRunnableTask interface","_win32_IRunnableTask_Suspend","shell.IRunnableTask_Suspend","shobjidl_core/IRunnableTask::Suspend"]
 old-location: shell\IRunnableTask_Suspend.htm
 tech.root: shell
 ms.assetid: f376d8e7-65d2-4824-a20f-e8604295df3f

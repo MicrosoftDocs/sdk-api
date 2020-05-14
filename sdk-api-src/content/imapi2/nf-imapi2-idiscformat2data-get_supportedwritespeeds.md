@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_SupportedWriteSpeeds
 title: IDiscFormat2Data::get_SupportedWriteSpeeds (imapi2.h)
-description: Retrieves a list of the write speeds supported by the disc recorder and current media.
+description: Retrieves a list of the write speeds supported by the disc recorder and current media.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_SupportedWriteSpeeds method","IDiscFormat2Data.get_SupportedWriteSpeeds","IDiscFormat2Data::get_SupportedWriteSpeeds","get_SupportedWriteSpeeds","get_SupportedWriteSpeeds method [IMAPI]","get_SupportedWriteSpeeds method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_supportedwritespeeds","imapi2/IDiscFormat2Data::get_SupportedWriteSpeeds"]
 old-location: imapi\idiscformat2data_get_supportedwritespeeds.htm
 tech.root: imapi
 ms.assetid: 09d8019d-b3d5-47e1-8fda-58c542d5829d

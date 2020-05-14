@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,BOOL)
 title: ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,BOOL) (d2d1.h)
-description: Indicates whether the area filled by the geometry would contain the specified point.
+description: Indicates whether the area filled by the geometry would contain the specified point.helpviewer_keywords: ["FillContainsPoint","FillContainsPoint method [Direct2D]","FillContainsPoint method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","FillContainsPoint method","ID2D1Geometry.FillContainsPoint","ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F","const D2D1_MATRIX_3X2_F &","BOOL)","ID2D1Geometry::FillContainsPoint","ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F","const D2D1_MATRIX_3X2_F &","BOOL)","d2d1/ID2D1Geometry::FillContainsPoint","direct2d.ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_ptr_BOOL"]
 old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_ptr_BOOL.htm
 tech.root: Direct2D
 ms.assetid: d78efac3-2751-4a7e-8682-59b1a36c28cd
@@ -59,7 +59,7 @@ Indicates whether the area filled by the geometry would contain the specified po
 
 ### -param point
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point to test.
 
@@ -67,7 +67,7 @@ The point to test.
 
 ### -param worldTransform [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform to apply to the geometry prior to testing for containment.
 
@@ -86,7 +86,7 @@ You must allocate storage for this parameter.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:certpoleng.PstGetCertificates
 title: PstGetCertificates function (certpoleng.h)
-description: Retrieves certificate chains that specify certificates that can be used to authenticate a user on the specified server.
+description: Retrieves certificate chains that specify certificates that can be used to authenticate a user on the specified server.helpviewer_keywords: ["PstGetCertificates","PstGetCertificates function [Security]","certpoleng/PstGetCertificates","security.pstgetcertificates"]
 old-location: security\pstgetcertificates.htm
 tech.root: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5

@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimeAsFileTime
 title: GetSystemTimeAsFileTime function (sysinfoapi.h)
-description: Retrieves the current system date and time. The information is in Coordinated Universal Time (UTC) format.
+description: Retrieves the current system date and time. The information is in Coordinated Universal Time (UTC) format.helpviewer_keywords: ["GetSystemTimeAsFileTime","GetSystemTimeAsFileTime function","_win32_getsystemtimeasfiletime","base.getsystemtimeasfiletime","sysinfoapi/GetSystemTimeAsFileTime"]
 old-location: base\getsystemtimeasfiletime.htm
 tech.root: SysInfo
 ms.assetid: adf7ff5d-2d30-4490-9868-9ad78ef7a0b6

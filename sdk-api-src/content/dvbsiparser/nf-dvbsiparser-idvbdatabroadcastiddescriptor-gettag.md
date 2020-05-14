@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetTag
 title: IDvbDataBroadcastIDDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies a Digital Video Broadcast (DVB) data broadcast ID descriptor.
+description: Gets the tag that identifies a Digital Video Broadcast (DVB) data broadcast ID descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbDataBroadcastIDDescriptor interface","IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbDataBroadcastIDDescriptor.GetTag","IDvbDataBroadcastIDDescriptor::GetTag","dvbsiparser/IDvbDataBroadcastIDDescriptor::GetTag","mstv.idvbdatabroadcastiddescriptor_gettag"]
 old-location: mstv\idvbdatabroadcastiddescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 7c3c13f0-03b0-47fe-bd87-5bb6d32ef838

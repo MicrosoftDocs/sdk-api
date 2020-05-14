@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoGetPSClsid
 title: CoGetPSClsid function (combaseapi.h)
-description: Returns the CLSID of the DLL that implements the proxy and stub for the specified interface.
+description: Returns the CLSID of the DLL that implements the proxy and stub for the specified interface.helpviewer_keywords: ["CoGetPSClsid","CoGetPSClsid function [COM]","_com_CoGetPSClsid","com.cogetpsclsid","combaseapi/CoGetPSClsid"]
 old-location: com\cogetpsclsid.htm
 tech.root: com
 ms.assetid: dfe6b514-a80a-4adb-bf43-d9a7d0e5f4a3

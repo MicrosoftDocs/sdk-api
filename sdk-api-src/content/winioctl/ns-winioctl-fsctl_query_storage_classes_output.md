@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 title: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
-description: Contains information for all tiers of a specific volume.
+description: Contains information for all tiers of a specific volume.helpviewer_keywords: ["*PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT","FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY","FSCTL_QUERY_STORAGE_CLASSES_OUTPUT","FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure [Files]","PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT","PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure pointer [Files]","fs.fsctl_query_storage_classes_output","winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT","winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT"]
 old-location: fs\fsctl_query_storage_classes_output.htm
 tech.root: FileIO
 ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA

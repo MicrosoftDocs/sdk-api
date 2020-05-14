@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0013_0001
 title: CLUSION_REASON (searchapi.h)
-description: These flags enumerate reasons why URLs are included or excluded from the current crawl scope.
+description: These flags enumerate reasons why URLs are included or excluded from the current crawl scope.helpviewer_keywords: ["CLUSIONREASON_DEFAULT","CLUSIONREASON_GROUPPOLICY","CLUSIONREASON_UNKNOWNSCOPE","CLUSIONREASON_USER","CLUSION_REASON","CLUSION_REASON enumeration [search]","_search_CLUSION_REASON","search._search_CLUSION_REASON","searchapi/CLUSIONREASON_DEFAULT","searchapi/CLUSIONREASON_GROUPPOLICY","searchapi/CLUSIONREASON_UNKNOWNSCOPE","searchapi/CLUSIONREASON_USER","searchapi/CLUSION_REASON"]
 old-location: search\_search_CLUSION_REASON.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm

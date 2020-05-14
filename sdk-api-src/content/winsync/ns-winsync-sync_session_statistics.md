@@ -1,7 +1,7 @@
 ---
 UID: NS:winsync._SYNC_SESSION_STATISTICS
 title: SYNC_SESSION_STATISTICS (winsync.h)
-description: Represents statistics about a single, unidirectional synchronization session.
+description: Represents statistics about a single, unidirectional synchronization session.helpviewer_keywords: ["SYNC_SESSION_STATISTICS","SYNC_SESSION_STATISTICS structure [Windows Sync]","winsync.sync_session_statistics","winsync/SYNC_SESSION_STATISTICS"]
 old-location: winsync\sync_session_statistics.htm
 tech.root: winsync
 ms.assetid: e6d1fe9e-6cf2-414a-9be6-b444af2c7525

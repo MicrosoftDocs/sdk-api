@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngStretchBltROP
 title: EngStretchBltROP function (winddi.h)
-description: The EngStretchBltROP function performs a stretching bit-block transfer using a ROP.
+description: The EngStretchBltROP function performs a stretching bit-block transfer using a ROP.helpviewer_keywords: ["EngStretchBltROP","EngStretchBltROP function [Display Devices]","display.engstretchbltrop","gdifncs_344d6d6a-0691-4dfd-92fa-918b2c4c63b8.xml","winddi/EngStretchBltROP"]
 old-location: display\engstretchbltrop.htm
 tech.root: display
 ms.assetid: d353fab2-ba5d-42a5-8ce7-04fdc731f6ee

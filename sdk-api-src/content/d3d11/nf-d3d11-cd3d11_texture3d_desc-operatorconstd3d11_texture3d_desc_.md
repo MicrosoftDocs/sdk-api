@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE3D_DESC.operator const D3D11_TEXTURE3D_DESC&
 title: CD3D11_TEXTURE3D_DESC::operator const D3D11_TEXTURE3D_DESC& (d3d11.h)
-description: This operator returns the address of a D3D11_TEXTURE3D_DESC structure that contains the data from the CD3D11_TEXTURE3D_DESC instance.
+description: This operator returns the address of a D3D11_TEXTURE3D_DESC structure that contains the data from the CD3D11_TEXTURE3D_DESC instance.helpviewer_keywords: ["CD3D11_TEXTURE3D_DESC interface [Direct3D 11]","operator const D3D11_TEXTURE3D_DESC& method","CD3D11_TEXTURE3D_DESC.operator const D3D11_TEXTURE3D_DESC&","CD3D11_TEXTURE3D_DESC::operator const D3D11_TEXTURE3D_DESC&","CD3D11_TEXTURE3D_DESC::operator const D3D11_TEXTURE3D_DESC&()","d3d11/CD3D11_TEXTURE3D_DESC::operator const D3D11_TEXTURE3D_DESC&","direct3d11.cd3d11_texture3d_desc_d3d11_texture3d_desc__","operator const D3D11_TEXTURE3D_DESC&","operator const D3D11_TEXTURE3D_DESC& method [Direct3D 11]","operator const D3D11_TEXTURE3D_DESC& method [Direct3D 11]","CD3D11_TEXTURE3D_DESC interface"]
 old-location: direct3d11\cd3d11_texture3d_desc_d3d11_texture3d_desc__.htm
 tech.root: direct3d11
 ms.assetid: A7D6E400-9C19-41F5-950A-2E110BB1166A

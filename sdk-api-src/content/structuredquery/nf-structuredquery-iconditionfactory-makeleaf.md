@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory.MakeLeaf
 title: IConditionFactory::MakeLeaf (structuredquery.h)
 description: Creates a leaf condition node that represents a comparison of property value and constant value.
+helpviewer_keywords: ["IConditionFactory interface [search]","MakeLeaf method","IConditionFactory.MakeLeaf","IConditionFactory::MakeLeaf","MakeLeaf","MakeLeaf method [search]","MakeLeaf method [search]","IConditionFactory interface","_search_IConditionFactory_MakeLeaf","search._search_IConditionFactory_MakeLeaf","structuredquery/IConditionFactory::MakeLeaf"]
 old-location: search\_search_IConditionFactory_MakeLeaf.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeleaf.htm
@@ -67,9 +68,9 @@ The name of a property to be compared, or <b>NULL</b> for an unspecified propert
 
 ### -param cop [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
+A <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
             
 
 
@@ -158,11 +159,11 @@ A virtual property has one or more metadata items in which the key is "MapsToRel
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

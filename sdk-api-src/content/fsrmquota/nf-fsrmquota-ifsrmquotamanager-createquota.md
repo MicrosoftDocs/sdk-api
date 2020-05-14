@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateQuota
 title: IFsrmQuotaManager::CreateQuota (fsrmquota.h)
-description: Creates a quota for the specified directory.
+description: Creates a quota for the specified directory.helpviewer_keywords: ["CreateQuota","CreateQuota method [File Server Resource Manager]","CreateQuota method [File Server Resource Manager]","FsrmQuotaManager class","CreateQuota method [File Server Resource Manager]","IFsrmQuotaManager interface","CreateQuota method [File Server Resource Manager]","IFsrmQuotaManagerEx interface","FsrmQuotaManager class [File Server Resource Manager]","CreateQuota method","IFsrmQuotaManager interface [File Server Resource Manager]","CreateQuota method","IFsrmQuotaManager.CreateQuota","IFsrmQuotaManager::CreateQuota","IFsrmQuotaManagerEx interface [File Server Resource Manager]","CreateQuota method","IFsrmQuotaManagerEx::CreateQuota","fs.ifsrmquotamanager_createquota","fsrm.ifsrmquotamanager_createquota","fsrmquota/IFsrmQuotaManager::CreateQuota","fsrmquota/IFsrmQuotaManagerEx::CreateQuota"]
 old-location: fsrm\ifsrmquotamanager_createquota.htm
 tech.root: fsrm
 ms.assetid: 09f0b952-e24f-4388-8e82-6b34145f9ad4

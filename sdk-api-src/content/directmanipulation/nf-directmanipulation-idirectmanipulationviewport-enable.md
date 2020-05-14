@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Enable
 title: IDirectManipulationViewport::Enable (directmanipulation.h)
-description: Starts or resumes input processing by the viewport.
+description: Starts or resumes input processing by the viewport.helpviewer_keywords: ["Enable","Enable method [Direct Manipulation]","Enable method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","Enable method","IDirectManipulationViewport.Enable","IDirectManipulationViewport::Enable","directmanipulation.idirectmanipulationviewport_enable","directmanipulation/IDirectManipulationViewport::Enable"]
 old-location: directmanipulation\idirectmanipulationviewport_enable.htm
 tech.root: directmanipulation
 ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755

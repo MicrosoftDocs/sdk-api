@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMessageFilter.HandleInComingCall
 title: IMessageFilter::HandleInComingCall (objidl.h)
-description: Provides a single entry point for incoming calls.
+description: Provides a single entry point for incoming calls.helpviewer_keywords: ["HandleInComingCall","HandleInComingCall method [COM]","HandleInComingCall method [COM]","IMessageFilter interface","IMessageFilter interface [COM]","HandleInComingCall method","IMessageFilter.HandleInComingCall","IMessageFilter::HandleInComingCall","_com_imessagefilter_handleincomingcall","com.imessagefilter_handleincomingcall","objidl/IMessageFilter::HandleInComingCall"]
 old-location: com\imessagefilter_handleincomingcall.htm
 tech.root: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetAlphaMode
 title: IDCompositionColorMatrixEffect::SetAlphaMode (dcomp.h)
-description: Sets the alpha mode of the output for the color matrix effect.
+description: Sets the alpha mode of the output for the color matrix effect.helpviewer_keywords: ["IDCompositionColorMatrixEffect interface [DirectComposition]","SetAlphaMode method","IDCompositionColorMatrixEffect.SetAlphaMode","IDCompositionColorMatrixEffect::SetAlphaMode","SetAlphaMode","SetAlphaMode method [DirectComposition]","SetAlphaMode method [DirectComposition]","IDCompositionColorMatrixEffect interface","dcomp/IDCompositionColorMatrixEffect::SetAlphaMode","directcomp.idcompositioncolormatrixeffect_setalphamode"]
 old-location: directcomp\idcompositioncolormatrixeffect_setalphamode.htm
 tech.root: directcomp
 ms.assetid: BB1464B4-BCF3-4A38-88F0-2B2637DCCBC6

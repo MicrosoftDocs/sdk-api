@@ -2,6 +2,7 @@
 UID: NF:cryptuiapi.CryptUIDlgViewCertificateW
 title: CryptUIDlgViewCertificateW function (cryptuiapi.h)
 description: Presents a dialog box that displays a specified certificate.
+helpviewer_keywords: ["CryptUIDlgViewCertificate","CryptUIDlgViewCertificate function [Security]","CryptUIDlgViewCertificateA","CryptUIDlgViewCertificateW","cryptuiapi/CryptUIDlgViewCertificate","cryptuiapi/CryptUIDlgViewCertificateA","cryptuiapi/CryptUIDlgViewCertificateW","security.cryptuidlgviewcertificate"]
 old-location: security\cryptuidlgviewcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
@@ -64,7 +65,7 @@ The <b>CryptUIDlgViewCertificate</b> function presents a dialog box that display
 
 ### -param pCertViewInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure that contains information about the certificate to view.
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure that contains information about the certificate to view.
 
 
 ### -param pfPropertiesChanged [out]
@@ -89,7 +90,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a>
+<a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_viewcertificate_structa">CRYPTUI_VIEWCERTIFICATE_STRUCT</a>
  
 
  

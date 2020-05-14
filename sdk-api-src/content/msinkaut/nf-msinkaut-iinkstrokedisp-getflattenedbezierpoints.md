@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetFlattenedBezierPoints
 title: IInkStrokeDisp::GetFlattenedBezierPoints (msinkaut.h)
-description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or a InkStrokes collection.
+description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or a InkStrokes collection.helpviewer_keywords: ["GetFlattenedBezierPoints","GetFlattenedBezierPoints method [Tablet PC]","GetFlattenedBezierPoints method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetFlattenedBezierPoints method","IInkStrokeDisp.GetFlattenedBezierPoints","IInkStrokeDisp::GetFlattenedBezierPoints","e39e3fc3-bcdc-4d88-8051-18ed8b183c79","msinkaut/IInkStrokeDisp::GetFlattenedBezierPoints","tablet.iinkstrokedisp_getflattenedbezierpoints"]
 old-location: tablet\iinkstrokedisp_getflattenedbezierpoints.htm
 tech.root: tablet
 ms.assetid: e39e3fc3-bcdc-4d88-8051-18ed8b183c79

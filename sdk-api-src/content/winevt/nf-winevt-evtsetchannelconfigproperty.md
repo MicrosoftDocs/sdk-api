@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtSetChannelConfigProperty
 title: EvtSetChannelConfigProperty function (winevt.h)
-description: Sets the specified configuration property of a channel.
+description: Sets the specified configuration property of a channel.helpviewer_keywords: ["EvtSetChannelConfigProperty","EvtSetChannelConfigProperty function [EventLog]","wes.evtsetchannelconfigproperty","winevt/EvtSetChannelConfigProperty"]
 old-location: wes\evtsetchannelconfigproperty.htm
 tech.root: wes
 ms.assetid: f5f11bd9-5eb0-4afe-8c8b-57fa3850ad56

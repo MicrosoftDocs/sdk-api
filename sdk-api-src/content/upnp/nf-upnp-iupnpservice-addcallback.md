@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPService.AddCallback
 title: IUPnPService::AddCallback (upnp.h)
-description: The AddCallback method registers an application's callback with the UPnP framework.
+description: The AddCallback method registers an application's callback with the UPnP framework.helpviewer_keywords: ["AddCallback","AddCallback method [UPnP APIs]","AddCallback method [UPnP APIs]","IUPnPService interface","IUPnPService interface [UPnP APIs]","AddCallback method","IUPnPService.AddCallback","IUPnPService::AddCallback","_upnp_iupnpservice_addcallback","upnp.iupnpservice_addcallback","upnp/IUPnPService::AddCallback"]
 old-location: upnp\iupnpservice_addcallback.htm
 tech.root: upnp
 ms.assetid: f5797907-ae65-48e6-adf8-b717bfb5101f

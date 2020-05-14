@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiCallClassInstaller
 title: SetupDiCallClassInstaller function (setupapi.h)
-description: The SetupDiCallClassInstaller function calls the appropriate class installer, and any registered co-installers, with the specified installation request (DIF code).
+description: The SetupDiCallClassInstaller function calls the appropriate class installer, and any registered co-installers, with the specified installation request (DIF code).helpviewer_keywords: ["SetupDiCallClassInstaller","SetupDiCallClassInstaller function [Device and Driver Installation]","devinst.setupdicallclassinstaller","di-rtns_eff914b0-a2db-4eb5-a9b8-f2990efcf252.xml","setupapi/SetupDiCallClassInstaller"]
 old-location: devinst\setupdicallclassinstaller.htm
 tech.root: devinst
 ms.assetid: 2aa631c3-8d00-4309-a37c-efaa7eda3efa

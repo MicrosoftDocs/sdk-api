@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITSubStream.get_Stream
 title: ITSubStream::get_Stream (tapi3if.h)
-description: The get_Stream method retrieves the pointer to the ITStream interface for the current substream.
+description: The get_Stream method retrieves the pointer to the ITStream interface for the current substream.helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","get_Stream method","ITSubStream.get_Stream","ITSubStream::get_Stream","_tapi3_itsubstream_get_stream","get_Stream","get_Stream method [TAPI 2.2]","get_Stream method [TAPI 2.2]","ITSubStream interface","tapi3.itsubstream_get_stream","tapi3if/ITSubStream::get_Stream"]
 old-location: tapi3\itsubstream_get_stream.htm
 tech.root: Tapi
 ms.assetid: ec97e621-3789-46a4-b6b6-96639c5e7d4f

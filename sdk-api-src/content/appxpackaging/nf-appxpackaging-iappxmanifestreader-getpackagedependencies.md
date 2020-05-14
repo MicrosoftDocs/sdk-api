@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPackageDependencies
 title: IAppxManifestReader::GetPackageDependencies (appxpackaging.h)
-description: Gets an enumerator that iterates through dependencies defined in the manifest.
+description: Gets an enumerator that iterates through dependencies defined in the manifest.helpviewer_keywords: ["GetPackageDependencies","GetPackageDependencies method [App packaging and management]","GetPackageDependencies method [App packaging and management]","IAppxManifestReader interface","IAppxManifestReader interface [App packaging and management]","GetPackageDependencies method","IAppxManifestReader.GetPackageDependencies","IAppxManifestReader::GetPackageDependencies","appxpackaging/IAppxManifestReader::GetPackageDependencies","appxpkg.iappxmanifestreader_getpackagedependencies"]
 old-location: appxpkg\iappxmanifestreader_getpackagedependencies.htm
 tech.root: appxpkg
 ms.assetid: C40276CC-8F97-4DCF-A5C4-193453B8FA02

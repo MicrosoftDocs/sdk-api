@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingRegisterEx
 title: TraceLoggingRegisterEx function (traceloggingprovider.h)
-description: Registers a TraceLogging provider with callback so that it can be used for to log events.
+description: Registers a TraceLogging provider with callback so that it can be used for to log events.helpviewer_keywords: ["TraceLoggingRegisterEx","TraceLoggingRegisterEx function","tracelogging.traceloggingregisterex","traceloggingprovider/TraceLoggingRegisterEx"]
 old-location: tracelogging\traceloggingregisterex.htm
 tech.root: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79

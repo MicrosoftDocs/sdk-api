@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AudioRenderersAvailable
 title: IMSVidCtl::get_AudioRenderersAvailable (msvidctl.h)
-description: The get_AudioRenderersAvailable method retrieves the available audio renderers.
+description: The get_AudioRenderersAvailable method retrieves the available audio renderers.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_AudioRenderersAvailable method","IMSVidCtl.get_AudioRenderersAvailable","IMSVidCtl::get_AudioRenderersAvailable","IMSVidCtlget_AudioRenderersAvailable","get_AudioRenderersAvailable","get_AudioRenderersAvailable method [Microsoft TV Technologies]","get_AudioRenderersAvailable method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_audiorenderersavailable","msvidctl/IMSVidCtl::get_AudioRenderersAvailable"]
 old-location: mstv\imsvidctl_get_audiorenderersavailable.htm
 tech.root: mstv
 ms.assetid: 6ab81536-2701-408e-be3a-f44375ef8193

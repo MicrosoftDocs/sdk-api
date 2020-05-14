@@ -1,7 +1,7 @@
 ---
 UID: NF:magnification.MagSetFullscreenColorEffect
 title: MagSetFullscreenColorEffect function (magnification.h)
-description: Changes the color transformation matrix associated with the full-screen magnifier.
+description: Changes the color transformation matrix associated with the full-screen magnifier.helpviewer_keywords: ["MagSetFullscreenColorEffect","MagSetFullscreenColorEffect function [Magnification API]","magapi.magapi_magsetfullscreencoloreffect","magnification/MagSetFullscreenColorEffect"]
 old-location: magapi\magapi_magsetfullscreencoloreffect.htm
 tech.root: magapi
 ms.assetid: F6CE5453-E427-46E4-81E8-6E96BA28C05C

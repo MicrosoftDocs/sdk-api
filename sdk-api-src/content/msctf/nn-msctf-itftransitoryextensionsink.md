@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfTransitoryExtensionSink
 title: ITfTransitoryExtensionSink (msctf.h)
-description: The ITfTransitoryExtensionSink interface is implemented by the application that uses Transitory Extension dim. The application can track the changes that happened in the transitory extension by using this sink interface.
+description: The ITfTransitoryExtensionSink interface is implemented by the application that uses Transitory Extension dim. The application can track the changes that happened in the transitory extension by using this sink interface.helpviewer_keywords: ["ITfTransitoryExtensionSink","ITfTransitoryExtensionSink interface [Text Services Framework]","ITfTransitoryExtensionSink interface [Text Services Framework]","described","_tsf_itftransitoryextensionsink_ref","msctf/ITfTransitoryExtensionSink","tsf.itftransitoryextensionsink"]
 old-location: tsf\itftransitoryextensionsink.htm
 tech.root: TSF
 ms.assetid: c2c11bd9-ae33-462e-8534-dc57a5131846
@@ -71,7 +71,7 @@ The <b>ITfTransitoryExtensionSink</b> interface has these methods.
 <td align="left" width="37%">
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftransitoryextensionsink-ontransitoryextensionupdated">OnTransitoryExtensionUpdated</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">Transitory Document has been updated.</td>
 </tr>
 </table> 
 

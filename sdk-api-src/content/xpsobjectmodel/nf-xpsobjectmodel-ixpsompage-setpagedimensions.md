@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPage.SetPageDimensions
 title: IXpsOMPage::SetPageDimensions (xpsobjectmodel.h)
 description: Sets dimensions of the page.
+helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetPageDimensions method","IXpsOMPage.SetPageDimensions","IXpsOMPage::SetPageDimensions","SetPageDimensions","SetPageDimensions method [XPS Documents and Packaging]","SetPageDimensions method [XPS Documents and Packaging]","IXpsOMPage interface","pageDimensions.height","pageDimensions.width","xps.ixpsompage_setpagedimensions","xpsobjectmodel/IXpsOMPage::SetPageDimensions"]
 old-location: xps\ixpsompage_setpagedimensions.htm
 tech.root: printdocs
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
@@ -63,7 +64,7 @@ Dimensions of the page.
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
-The  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure has the following properties:
+The  <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure has the following properties:
 
 
 
@@ -141,7 +142,7 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
  
 
  

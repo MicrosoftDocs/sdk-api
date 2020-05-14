@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.SetThreadErrorMode
 title: SetThreadErrorMode function (errhandlingapi.h)
-description: Controls whether the system will handle the specified types of serious errors or whether the calling thread will handle them.
+description: Controls whether the system will handle the specified types of serious errors or whether the calling thread will handle them.helpviewer_keywords: ["SEM_FAILCRITICALERRORS","SEM_NOGPFAULTERRORBOX","SEM_NOOPENFILEERRORBOX","SetThreadErrorMode","SetThreadErrorMode function","base.setthreaderrormode","errhandlingapi/SetThreadErrorMode"]
 old-location: base\setthreaderrormode.htm
 tech.root: Debug
 ms.assetid: f5acb4ba-d328-47c2-8c41-17df197f12ea

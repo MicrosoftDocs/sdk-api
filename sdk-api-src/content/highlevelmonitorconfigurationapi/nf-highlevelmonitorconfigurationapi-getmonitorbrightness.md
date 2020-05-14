@@ -1,7 +1,7 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorBrightness
 title: GetMonitorBrightness function (highlevelmonitorconfigurationapi.h)
-description: Retrieves a monitor's minimum, maximum, and current brightness settings.
+description: Retrieves a monitor's minimum, maximum, and current brightness settings.helpviewer_keywords: ["GetMonitorBrightness","GetMonitorBrightness function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorBrightness","monitor.getmonitorbrightness"]
 old-location: monitor\getmonitorbrightness.htm
 tech.root: Monitor
 ms.assetid: eafdec51-067c-4b57-ac07-ca6237bcde14

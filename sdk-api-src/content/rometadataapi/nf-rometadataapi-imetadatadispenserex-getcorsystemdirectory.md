@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.GetCORSystemDirectory
 title: IMetaDataDispenserEx::GetCORSystemDirectory (rometadataapi.h)
-description: Gets the directory that holds the current common language runtime (CLR). This method is supported only for use by out-of-process debuggers. If called from another component, it will return E_NOTIMPL.
+description: Gets the directory that holds the current common language runtime (CLR). This method is supported only for use by out-of-process debuggers. If called from another component, it will return E_NOTIMPL.helpviewer_keywords: ["GetCORSystemDirectory","GetCORSystemDirectory method [Windows Runtime]","GetCORSystemDirectory method [Windows Runtime]","IMetaDataDispenserEx interface","IMetaDataDispenserEx interface [Windows Runtime]","GetCORSystemDirectory method","IMetaDataDispenserEx.GetCORSystemDirectory","IMetaDataDispenserEx::GetCORSystemDirectory","rometadataapi/IMetaDataDispenserEx::GetCORSystemDirectory","winrt.imetadatadispenserex_getcorsystemdirectory"]
 old-location: winrt\imetadatadispenserex_getcorsystemdirectory.htm
 tech.root: WinRT
 ms.assetid: 4f061c7f-bcb8-4b1e-b84b-0398f08a6d69

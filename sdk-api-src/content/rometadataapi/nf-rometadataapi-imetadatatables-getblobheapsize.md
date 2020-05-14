@@ -1,7 +1,7 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetBlobHeapSize
 title: IMetaDataTables::GetBlobHeapSize (rometadataapi.h)
-description: A pointer to a pointer to the binary data retrieved.
+description: A pointer to a pointer to the binary data retrieved.helpviewer_keywords: ["GetBlobHeapSize","GetBlobHeapSize method [Windows Runtime]","GetBlobHeapSize method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetBlobHeapSize method","IMetaDataTables.GetBlobHeapSize","IMetaDataTables::GetBlobHeapSize","rometadataapi/IMetaDataTables::GetBlobHeapSize","winrt.imetadatatables_getblobheapsize"]
 old-location: winrt\imetadatatables_getblobheapsize.htm
 tech.root: WinRT
 ms.assetid: 9001b2ee-846e-476b-b1db-7860c25075ee

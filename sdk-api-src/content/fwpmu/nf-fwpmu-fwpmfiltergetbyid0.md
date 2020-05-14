@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmFilterGetById0
 title: FwpmFilterGetById0 function (fwpmu.h)
 description: Retrieves a filter object.
+helpviewer_keywords: ["FwpmFilterGetById0","FwpmFilterGetById0 function [Filtering]","fwp.fwpmfiltergetbyid0_func","fwpmu/FwpmFilterGetById0"]
 old-location: fwp\fwpmfiltergetbyid0_func.htm
 tech.root: fwp
 ms.assetid: 87372308-4ff8-460c-ba90-7126275c0e3c
@@ -73,7 +74,7 @@ A runtime identifier for the desired object. This identifier was received from t
 
 ### -param filter [out]
 
-Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>**</b>
+Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)**</b>
 
 The filter information.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>
+[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 
 
 

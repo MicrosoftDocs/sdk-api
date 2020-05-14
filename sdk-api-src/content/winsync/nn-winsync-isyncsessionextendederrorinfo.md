@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncSessionExtendedErrorInfo
 title: ISyncSessionExtendedErrorInfo (winsync.h)
-description: Represents information about which provider caused synchronization to fail.
+description: Represents information about which provider caused synchronization to fail.helpviewer_keywords: ["ISyncSessionExtendedErrorInfo","ISyncSessionExtendedErrorInfo interface [Windows Sync]","ISyncSessionExtendedErrorInfo interface [Windows Sync]","described","winsync.isyncsessionextendederrorinfo","winsync/ISyncSessionExtendedErrorInfo"]
 old-location: winsync\isyncsessionextendederrorinfo.htm
 tech.root: winsync
 ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2

@@ -2,6 +2,7 @@
 UID: NF:manipulations.IInertiaProcessor.get_InitialVelocityX
 title: IInertiaProcessor::get_InitialVelocityX (manipulations.h)
 description: The InitialVelocityX property specifies the initial movement of the target object on the horizontal axis.
+helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialVelocityX property","IInertiaProcessor.InitialVelocityX","IInertiaProcessor.get_InitialVelocityX","IInertiaProcessor::InitialVelocityX","IInertiaProcessor::get_InitialVelocityX","IInertiaProcessor::put_InitialVelocityX","InitialVelocityX property [Windows Touch]","InitialVelocityX property [Windows Touch]","IInertiaProcessor interface","get_InitialVelocityX","manipulations/IInertiaProcessor::InitialVelocityX","manipulations/IInertiaProcessor::get_InitialVelocityX","manipulations/IInertiaProcessor::put_InitialVelocityX","wintouch.iinertiaprocessor_initialvelocityx"]
 old-location: wintouch\iinertiaprocessor_initialvelocityx.htm
 tech.root: wintouch
 ms.assetid: 23ae7083-0a78-4628-8a04-f9bd762aac02
@@ -66,7 +67,7 @@ This property is read/write.
 If Inertia processing has already started, setting <b>InitialVelocityX</b> will reset the inertia engine to the initial state with new velocity values applied.	 		
 	 
 
-Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
+Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
 
 

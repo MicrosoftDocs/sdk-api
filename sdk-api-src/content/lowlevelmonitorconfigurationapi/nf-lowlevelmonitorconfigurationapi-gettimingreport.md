@@ -2,6 +2,7 @@
 UID: NF:lowlevelmonitorconfigurationapi.GetTimingReport
 title: GetTimingReport function (lowlevelmonitorconfigurationapi.h)
 description: Retrieves a monitor's horizontal and vertical synchronization frequencies.
+helpviewer_keywords: ["GetTimingReport","GetTimingReport function [Monitor Configuration]","lowlevelmonitorconfigurationapi/GetTimingReport","monitor.gettimingreport"]
 old-location: monitor\gettimingreport.htm
 tech.root: Monitor
 ms.assetid: 17b5a7e4-936f-451f-b586-032f94a99be5
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param pmtrMonitorTimingReport [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/lowlevelmonitorconfigurationapi/ns-lowlevelmonitorconfigurationapi-mc_timing_report">MC_TIMING_REPORT</a> structure that receives the timing information.
+Pointer to an <a href="/windows/win32/api/lowlevelmonitorconfigurationapi/ns-lowlevelmonitorconfigurationapi-mc_timing_report">MC_TIMING_REPORT</a> structure that receives the timing information.
           
 
 

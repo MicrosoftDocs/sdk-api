@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.EnumSettingObjects
 title: IOfflineFilesCache::EnumSettingObjects (cscobj.h)
-description: Creates an enumerator of instances of IOfflineFilesSetting.
+description: Creates an enumerator of instances of IOfflineFilesSetting.helpviewer_keywords: ["EnumSettingObjects","EnumSettingObjects method [Offline Files]","EnumSettingObjects method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","EnumSettingObjects method","IOfflineFilesCache.EnumSettingObjects","IOfflineFilesCache::EnumSettingObjects","cscobj/IOfflineFilesCache::EnumSettingObjects","of.iofflinefilescache_enumsettingobjects"]
 old-location: of\iofflinefilescache_enumsettingobjects.htm
 tech.root: offlinefiles
 ms.assetid: 1f2bb562-810a-4cc1-a072-eb870149954a

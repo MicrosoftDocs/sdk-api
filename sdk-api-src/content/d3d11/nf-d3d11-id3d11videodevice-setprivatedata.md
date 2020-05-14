@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.SetPrivateData
 title: ID3D11VideoDevice::SetPrivateData (d3d11.h)
-description: Sets private data on the video device and associates that data with a GUID.
+description: Sets private data on the video device and associates that data with a GUID.helpviewer_keywords: ["ID3D11VideoDevice interface [Media Foundation]","SetPrivateData method","ID3D11VideoDevice.SetPrivateData","ID3D11VideoDevice::SetPrivateData","SetPrivateData","SetPrivateData method [Media Foundation]","SetPrivateData method [Media Foundation]","ID3D11VideoDevice interface","d3d11/ID3D11VideoDevice::SetPrivateData","mf.id3d11videodevice_setprivatedata"]
 old-location: mf\id3d11videodevice_setprivatedata.htm
 tech.root: medfound
 ms.assetid: B7B9E225-A27E-4278-B191-08C0C93C86AC

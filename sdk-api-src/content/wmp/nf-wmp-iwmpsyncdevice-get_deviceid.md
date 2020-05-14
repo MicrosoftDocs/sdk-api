@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceId
 title: IWMPSyncDevice::get_deviceId (wmp.h)
-description: The get_deviceId method retrieves the device identifier string.
+description: The get_deviceId method retrieves the device identifier string.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_deviceId method","IWMPSyncDevice.get_deviceId","IWMPSyncDevice::get_deviceId","IWMPSyncDeviceget_deviceId","get_deviceId","get_deviceId method [Windows Media Player]","get_deviceId method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_get_deviceid","wmp/IWMPSyncDevice::get_deviceId"]
 old-location: wmp\iwmpsyncdevice_get_deviceid.htm
 tech.root: WMP
 ms.assetid: 36d40dc4-5641-49dd-9ef4-31d2acd0f41d

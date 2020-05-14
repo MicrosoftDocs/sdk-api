@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataItems
 title: ISpatialAudioMetadataItems (spatialaudiometadata.h)
-description: Represents a buffer of spatial audio metadata items.
+description: Represents a buffer of spatial audio metadata items.helpviewer_keywords: ["ISpatialAudioMetadataItems","ISpatialAudioMetadataItems interface [Core Audio]","ISpatialAudioMetadataItems interface [Core Audio]","described","coreaudio.ispatialaudiometadataitems","spatialaudiometadata/ISpatialAudioMetadataItems"]
 old-location: coreaudio\ispatialaudiometadataitems.htm
 tech.root: CoreAudio
 ms.assetid: 54A6B7DE-A41E-4214-AF02-CC19250B9037

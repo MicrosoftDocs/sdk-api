@@ -2,6 +2,7 @@
 UID: NF:casetup.ICertSrvSetup.SetCADistinguishedName
 title: ICertSrvSetup::SetCADistinguishedName (casetup.h)
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetCADistinguishedName method","ICertSrvSetup.SetCADistinguishedName","ICertSrvSetup::SetCADistinguishedName","SetCADistinguishedName","SetCADistinguishedName method [Security]","SetCADistinguishedName method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetCADistinguishedName","security.icertsrvsetup_setcadistinguishedname"]
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
 tech.root: SecCrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
@@ -127,7 +128,7 @@ A value that indicates whether to allow the name in <i>bstrCADN</i>, even though
 
 
 
-Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
+Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
 

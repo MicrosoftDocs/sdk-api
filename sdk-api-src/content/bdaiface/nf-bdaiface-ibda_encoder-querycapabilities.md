@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.QueryCapabilities
 title: IBDA_Encoder::QueryCapabilities (bdaiface.h)
-description: Gets the number of encoding formats supported by the device.
+description: Gets the number of encoding formats supported by the device.helpviewer_keywords: ["IBDA_Encoder interface [Microsoft TV Technologies]","QueryCapabilities method","IBDA_Encoder.QueryCapabilities","IBDA_Encoder::QueryCapabilities","QueryCapabilities","QueryCapabilities method [Microsoft TV Technologies]","QueryCapabilities method [Microsoft TV Technologies]","IBDA_Encoder interface","bdaiface/IBDA_Encoder::QueryCapabilities","mstv.ibda_encoder_querycapabilities"]
 old-location: mstv\ibda_encoder_querycapabilities.htm
 tech.root: mstv
 ms.assetid: 038f9360-0515-4655-9397-cd1bfb6c3d21

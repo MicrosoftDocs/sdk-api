@@ -1,7 +1,7 @@
 ---
 UID: NS:vfw.__unnamed_struct_17
 title: AVICOMPRESSOPTIONS (vfw.h)
-description: The AVICOMPRESSOPTIONS structure contains information about a stream and how it is compressed and saved. This structure passes data to the AVIMakeCompressedStream function (or the AVISave function, which uses AVIMakeCompressedStream).
+description: The AVICOMPRESSOPTIONS structure contains information about a stream and how it is compressed and saved. This structure passes data to the AVIMakeCompressedStream function (or the AVISave function, which uses AVIMakeCompressedStream).helpviewer_keywords: ["*LPAVICOMPRESSOPTIONS","AVICOMPRESSF_DATARATE","AVICOMPRESSF_INTERLEAVE","AVICOMPRESSF_KEYFRAMES","AVICOMPRESSF_VALID","AVICOMPRESSOPTIONS","AVICOMPRESSOPTIONS structure [Windows Multimedia]","_win32_AVICOMPRESSOPTIONS_str","multimedia.avicompressoptions","streamtypeAUDIO","streamtypeMIDI","streamtypeTEXT","streamtypeVIDEO","vfw/AVICOMPRESSOPTIONS"]
 old-location: multimedia\avicompressoptions.htm
 tech.root: Multimedia
 ms.assetid: 8084adc3-792f-4a6c-b407-51e0e435e629

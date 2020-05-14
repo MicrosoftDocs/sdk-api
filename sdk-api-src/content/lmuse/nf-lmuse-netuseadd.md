@@ -1,7 +1,7 @@
 ---
 UID: NF:lmuse.NetUseAdd
 title: NetUseAdd function (lmuse.h)
-description: The NetUseAdd function establishes a connection between the local computer and a remote server.
+description: The NetUseAdd function establishes a connection between the local computer and a remote server.helpviewer_keywords: ["1","2","NetUseAdd","NetUseAdd function [Network Management]","_win32_netuseadd","lmuse/NetUseAdd","netmgmt.netuseadd"]
 old-location: netmgmt\netuseadd.htm
 tech.root: NetMgmt
 ms.assetid: 22550c17-003a-4f59-80f0-58fa3e286844

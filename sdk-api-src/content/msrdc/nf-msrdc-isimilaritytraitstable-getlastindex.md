@@ -2,12 +2,12 @@
 UID: NF:msrdc.ISimilarityTraitsTable.GetLastIndex
 title: ISimilarityTraitsTable::GetLastIndex (msrdc.h)
 description: Retrieves the index of the last entry that was stored in the similarity traits table.
+helpviewer_keywords: ["GetLastIndex","GetLastIndex method [Remote Differential Compression]","GetLastIndex method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","GetLastIndex method","ISimilarityTraitsTable.GetLastIndex","ISimilarityTraitsTable::GetLastIndex","fs.isimilaritytraitstable_getlastindex","msrdc/ISimilarityTraitsTable::GetLastIndex","rdc.isimilaritytraitstable_getlastindex"]
 old-location: rdc\isimilaritytraitstable_getlastindex.htm
 tech.root: rdc
 ms.assetid: 4e6cb7b4-0dcf-4a51-acf9-3263d73eee63
 ms.date: 12/05/2018
 ms.keywords: GetLastIndex, GetLastIndex method [Remote Differential Compression], GetLastIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],GetLastIndex method, ISimilarityTraitsTable.GetLastIndex, ISimilarityTraitsTable::GetLastIndex, fs.isimilaritytraitstable_getlastindex, msrdc/ISimilarityTraitsTable::GetLastIndex, rdc.isimilaritytraitstable_getlastindex
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarityTraitsTable.GetLastIndex
 dev_langs:

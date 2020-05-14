@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetWindowRect
 title: GetWindowRect function (winuser.h)
-description: Retrieves the dimensions of the bounding rectangle of the specified window. The dimensions are given in screen coordinates that are relative to the upper-left corner of the screen.
+description: Retrieves the dimensions of the bounding rectangle of the specified window. The dimensions are given in screen coordinates that are relative to the upper-left corner of the screen.helpviewer_keywords: ["GetWindowRect","GetWindowRect function [Windows and Messages]","_win32_GetWindowRect","_win32_getwindowrect_cpp","winmsg.getwindowrect","winui._win32_getwindowrect","winuser/GetWindowRect"]
 old-location: winmsg\getwindowrect.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowrect.htm

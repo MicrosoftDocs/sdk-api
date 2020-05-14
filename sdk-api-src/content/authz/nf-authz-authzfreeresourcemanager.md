@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzFreeResourceManager
 title: AuthzFreeResourceManager function (authz.h)
-description: Frees a resource manager object.
+description: Frees a resource manager object.helpviewer_keywords: ["AuthzFreeResourceManager","AuthzFreeResourceManager function [Security]","_win32_authzfreeresourcemanager","authz/AuthzFreeResourceManager","security.authzfreeresourcemanager"]
 old-location: security\authzfreeresourcemanager.htm
 tech.root: SecAuthZ
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8

@@ -1,7 +1,7 @@
 ---
 UID: NF:encdec.IXDSCodec.GetXDSPacket
 title: IXDSCodec::GetXDSPacket (encdec.h)
-description: The GetXDSPacket method retrieves the most recent XDS packet.
+description: The GetXDSPacket method retrieves the most recent XDS packet.helpviewer_keywords: ["GetXDSPacket","GetXDSPacket method [Microsoft TV Technologies]","GetXDSPacket method [Microsoft TV Technologies]","IXDSCodec interface","IXDSCodec interface [Microsoft TV Technologies]","GetXDSPacket method","IXDSCodec.GetXDSPacket","IXDSCodec::GetXDSPacket","IXDSCodecGetXDSPacket","encdec/IXDSCodec::GetXDSPacket","mstv.ixdscodec_getxdspacket"]
 old-location: mstv\ixdscodec_getxdspacket.htm
 tech.root: mstv
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c

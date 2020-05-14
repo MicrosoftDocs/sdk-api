@@ -1,7 +1,7 @@
 ---
 UID: NS:gdipluseffects.ColorBalanceParams
 title: ColorBalanceParams (gdipluseffects.h)
-description: A ColorBalanceParams structure contains members that specify the nature of a color balance adjustment.
+description: A ColorBalanceParams structure contains members that specify the nature of a color balance adjustment.helpviewer_keywords: ["ColorBalanceParams","ColorBalanceParams structure [GDI+]","_gdiplus_STRUC_ColorBalanceParams","gdiplus._gdiplus_STRUC_ColorBalanceParams","gdipluseffects/ColorBalanceParams"]
 old-location: gdiplus\_gdiplus_STRUC_ColorBalanceParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorbalanceparams.htm

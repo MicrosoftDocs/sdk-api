@@ -1,7 +1,7 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.EndProcess
 title: CXAPOParametersBase::EndProcess (xapobase.h)
-description: Notifies CXAPOParametersBase that the XAPO has finished accessing the current process parameters.
+description: Notifies CXAPOParametersBase that the XAPO has finished accessing the current process parameters.helpviewer_keywords: ["CXAPOParametersBase interface [XAudio2 Audio Mixing APIs]","EndProcess method","CXAPOParametersBase.EndProcess","CXAPOParametersBase::EndProcess","EndProcess","EndProcess method [XAudio2 Audio Mixing APIs]","EndProcess method [XAudio2 Audio Mixing APIs]","CXAPOParametersBase interface","xapobase/CXAPOParametersBase::EndProcess","xaudio2.cxapoparametersbase_endprocess"]
 old-location: xaudio2\cxapoparametersbase_endprocess.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.EndProcess

@@ -1,7 +1,7 @@
 ---
 UID: NS:appmodel.PACKAGE_ID
 title: PACKAGE_ID (appmodel.h)
-description: Represents package identification information, such as name, version, and publisher.
+description: Represents package identification information, such as name, version, and publisher.helpviewer_keywords: ["PACKAGE_ID","PACKAGE_ID structure [App packaging and management]","appmodel/PACKAGE_IDW","appxpkg.package_id"]
 old-location: appxpkg\package_id.htm
 tech.root: appxpkg
 ms.assetid: 4B15281A-2227-47B7-A750-0A01DB8543FC

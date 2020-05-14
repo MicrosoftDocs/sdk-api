@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngMultiByteToUnicodeN
 title: EngMultiByteToUnicodeN function (winddi.h)
-description: The EngMultiByteToUnicodeN function converts the specified ANSI source string into a Unicode string using the current ANSI code page.
+description: The EngMultiByteToUnicodeN function converts the specified ANSI source string into a Unicode string using the current ANSI code page.helpviewer_keywords: ["EngMultiByteToUnicodeN","EngMultiByteToUnicodeN function [Display Devices]","display.engmultibytetounicoden","gdifncs_ad2cf58d-ac6c-438f-b9be-74e2617a857c.xml","winddi/EngMultiByteToUnicodeN"]
 old-location: display\engmultibytetounicoden.htm
 tech.root: display
 ms.assetid: fa7a4e64-46be-49c8-9862-04348b9dc79e

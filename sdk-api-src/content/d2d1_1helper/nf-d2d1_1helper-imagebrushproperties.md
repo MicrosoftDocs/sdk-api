@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.ImageBrushProperties
 title: ImageBrushProperties function (d2d1_1helper.h)
-description: Creates a D2D1_IMAGE_BRUSH_PROPERTIES structure.
+description: Creates a D2D1_IMAGE_BRUSH_PROPERTIES structure.helpviewer_keywords: ["ImageBrushProperties","ImageBrushProperties function [Direct2D]","d2d1_1helper/ImageBrushProperties","direct2d.imagebrushproperties"]
 old-location: direct2d\imagebrushproperties.htm
 tech.root: Direct2D
 ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77

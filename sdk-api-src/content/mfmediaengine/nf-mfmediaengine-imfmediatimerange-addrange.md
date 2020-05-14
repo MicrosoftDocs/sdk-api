@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.AddRange
 title: IMFMediaTimeRange::AddRange (mfmediaengine.h)
-description: Adds a new range to the list of time ranges.
+description: Adds a new range to the list of time ranges.helpviewer_keywords: ["AddRange","AddRange method [Media Foundation]","AddRange method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","AddRange method","IMFMediaTimeRange.AddRange","IMFMediaTimeRange::AddRange","mf.imfmediatimerange_addrange","mfmediaengine/IMFMediaTimeRange::AddRange"]
 old-location: mf\imfmediatimerange_addrange.htm
 tech.root: medfound
 ms.assetid: 6BA36A44-78AC-4868-9E6A-601C0740E67A

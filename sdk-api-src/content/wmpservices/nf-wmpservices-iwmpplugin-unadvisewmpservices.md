@@ -1,7 +1,7 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.UnAdviseWMPServices
 title: IWMPPlugin::UnAdviseWMPServices (wmpservices.h)
-description: The IWMPPlugin::UnAdviseWMPServices method is used to release the pointer provided by AdviseWMPServices.
+description: The IWMPPlugin::UnAdviseWMPServices method is used to release the pointer provided by AdviseWMPServices.helpviewer_keywords: ["IWMPPlugin interface [Windows Media Player]","UnAdviseWMPServices method","IWMPPlugin.UnAdviseWMPServices","IWMPPlugin::UnAdviseWMPServices","IWMPPluginUnAdviseWMPServicesDSP","UnAdviseWMPServices","UnAdviseWMPServices method [Windows Media Player]","UnAdviseWMPServices method [Windows Media Player]","IWMPPlugin interface","wmp.iwmpplugin_unadvisewmpservices","wmpservices/IWMPPlugin::UnAdviseWMPServices"]
 old-location: wmp\iwmpplugin_unadvisewmpservices.htm
 tech.root: WMP
 ms.assetid: 377a6853-94fb-4467-a893-508b56637a16

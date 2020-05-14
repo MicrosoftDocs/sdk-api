@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtNextEventMetadata
 title: EvtNextEventMetadata function (winevt.h)
-description: Gets an event definition from the enumerator.
+description: Gets an event definition from the enumerator.helpviewer_keywords: ["EvtNextEventMetadata","EvtNextEventMetadata function [EventLog]","wes.evtnexteventmetadata","winevt/EvtNextEventMetadata"]
 old-location: wes\evtnexteventmetadata.htm
 tech.root: wes
 ms.assetid: 1077dc7c-3e73-4135-9020-20d086e30e71

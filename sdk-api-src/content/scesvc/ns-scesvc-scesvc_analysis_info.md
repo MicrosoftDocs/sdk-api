@@ -2,6 +2,7 @@
 UID: NS:scesvc._SCESVC_ANALYSIS_INFO_
 title: SCESVC_ANALYSIS_INFO (scesvc.h)
 description: Contains the analysis information.
+helpviewer_keywords: ["*PSCESVC_ANALYSIS_INFO","PSCESVC_ANALYSIS_INFO","PSCESVC_ANALYSIS_INFO structure pointer [Security]","SCESVC_ANALYSIS_INFO","SCESVC_ANALYSIS_INFO structure [Security]","_config_scesvc_analysis_info","scesvc/PSCESVC_ANALYSIS_INFO","scesvc/SCESVC_ANALYSIS_INFO","security.scesvc_analysis_info"]
 old-location: security\scesvc_analysis_info.htm
 tech.root: SecMgmt
 ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>SCESVC_ANALYSIS_INFO</b> structure contains the analysis information. It contains a 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structure that contains lines of analysis information, and it also contains a counter that indicates the number of lines.
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structure that contains lines of analysis information, and it also contains a counter that indicates the number of lines.
 
 A pointer to this structure is returned by calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> and 
@@ -70,7 +71,7 @@ A <b>DWORD</b> that indicates the number of lines in the array.
 ### -field Lines
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structures which contain the analysis information.
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structures which contain the analysis information.
 
 
 ## -see-also
@@ -86,7 +87,7 @@ Pointer to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a>
 
 
 

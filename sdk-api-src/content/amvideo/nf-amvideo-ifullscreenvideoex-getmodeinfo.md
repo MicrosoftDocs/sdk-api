@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetModeInfo
 title: IFullScreenVideoEx::GetModeInfo (amvideo.h)
-description: The GetModeInfo method retrieves information about a specified display mode supported by the Full Screen Renderer filter.
+description: The GetModeInfo method retrieves information about a specified display mode supported by the Full Screen Renderer filter.helpviewer_keywords: ["GetModeInfo","GetModeInfo method [DirectShow]","GetModeInfo method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetModeInfo method","IFullScreenVideoEx.GetModeInfo","IFullScreenVideoEx::GetModeInfo","IFullScreenVideoGetModeInfo","amvideo/IFullScreenVideoEx::GetModeInfo","dshow.ifullscreenvideoex_getmodeinfo"]
 old-location: dshow\ifullscreenvideoex_getmodeinfo.htm
 tech.root: DirectShow
 ms.assetid: c1a4aea8-8c48-4073-80ed-060db5adb514

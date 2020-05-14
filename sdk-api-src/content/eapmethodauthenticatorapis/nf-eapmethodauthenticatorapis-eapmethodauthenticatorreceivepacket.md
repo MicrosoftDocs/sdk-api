@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorReceivePacket
 title: EapMethodAuthenticatorReceivePacket function (eapmethodauthenticatorapis.h)
 description: Processes an EAP authentication packet received by the server EAPHost and returns a response action.
+helpviewer_keywords: ["EapMethodAuthenticatorReceivePacket","EapMethodAuthenticatorReceivePacket function [EAPHost]","eaphost.eapmethodauthenticatorreceivepacket","eapmethodauthenticatorapis/EapMethodAuthenticatorReceivePacket"]
 old-location: eaphost\eapmethodauthenticatorreceivepacket.htm
 tech.root: eaphost
 ms.assetid: 93505c06-fc77-44e6-8ca2-e52ee67ca267
@@ -76,7 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmetho
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that indicates the next action the supplicant must take in the EAP authentication session.
+A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that indicates the next action the supplicant must take in the EAP authentication session.
 
 
 ### -param ppEapError [out]
@@ -98,7 +99,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 
 
 

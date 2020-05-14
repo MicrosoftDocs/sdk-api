@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderContextAdd1
 title: FwpmProviderContextAdd1 function (fwpmu.h)
 description: Adds a new provider context to the system.
+helpviewer_keywords: ["FwpmProviderContextAdd1","FwpmProviderContextAdd1 function [Filtering]","fwp.fwpmprovidercontextadd1_func","fwpmu/FwpmProviderContextAdd1"]
 old-location: fwp\fwpmprovidercontextadd1_func.htm
 tech.root: fwp
 ms.assetid: 2a840f23-96e4-4b3d-b92e-53b3d10ab2bb
@@ -68,7 +69,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param providerContext [in]
 
-Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)*</b>
 
 The provider context object to be added.
 
@@ -118,7 +119,7 @@ The provider context was successfully added.
 </dl>
 </td>
 <td width="60%">
-The [IKEEXT_IPV6_CGA](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type)a> authentication method in the <b>authenticationMethods</b> array, but cryptographically generated address (CGA) is not enabled in
+The [IKEEXT_IPV6_CGA](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type) authentication method in the <b>authenticationMethods</b> array, but cryptographically generated address (CGA) is not enabled in
       the registry.
 
 </td>
@@ -157,7 +158,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-Some fields in the [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmProviderContextAdd1</b>. 
+Some fields in the [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1) structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmProviderContextAdd1</b>. 
 
 If the caller supplies a <b>NULL</b> security descriptor, the system will assign a default security descriptor.
 
@@ -174,7 +175,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)a>
+[FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)
  
 
  

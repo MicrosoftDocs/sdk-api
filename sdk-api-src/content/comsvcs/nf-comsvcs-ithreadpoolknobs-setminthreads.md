@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMinThreads
 title: IThreadPoolKnobs::SetMinThreads (comsvcs.h)
-description: Sets the minimum number of threads to be maintained in the pool.
+description: Sets the minimum number of threads to be maintained in the pool.helpviewer_keywords: ["IThreadPoolKnobs interface [COM+]","SetMinThreads method","IThreadPoolKnobs.SetMinThreads","IThreadPoolKnobs::SetMinThreads","SetMinThreads","SetMinThreads method [COM+]","SetMinThreads method [COM+]","IThreadPoolKnobs interface","_cos_IThreadPoolKnobs_SetMinThreads","comsvcs/IThreadPoolKnobs::SetMinThreads","cos.ithreadpoolknobs_setminthreads"]
 old-location: cos\ithreadpoolknobs_setminthreads.htm
 tech.root: cossdk
 ms.assetid: 17852fb8-7e8e-44bb-99f2-b7b7a5053f49

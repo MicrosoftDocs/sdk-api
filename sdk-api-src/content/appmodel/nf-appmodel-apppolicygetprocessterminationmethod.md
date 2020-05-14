@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.AppPolicyGetProcessTerminationMethod
 title: AppPolicyGetProcessTerminationMethod function (appmodel.h)
-description: Retrieves the method used to end a process.
+description: Retrieves the method used to end a process.helpviewer_keywords: ["AppPolicyGetProcessTerminationMethod","AppPolicyGetProcessTerminationMethod function [App packaging and management]","appmodel/AppPolicyGetProcessTerminationMethod","appxpkg.apppolicygetprocessterminationmethod_function"]
 old-location: appxpkg\apppolicygetprocessterminationmethod_function.htm
 tech.root: appxpkg
 ms.assetid: 7278DF60-A656-4FEE-A5D1-8C159A0B076D

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.CancelObjectCreation
 title: IMFMediaEngineExtension::CancelObjectCreation (mfmediaengine.h)
-description: Cancels the current request to create an object.
+description: Cancels the current request to create an object.helpviewer_keywords: ["CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFMediaEngineExtension interface","IMFMediaEngineExtension interface [Media Foundation]","CancelObjectCreation method","IMFMediaEngineExtension.CancelObjectCreation","IMFMediaEngineExtension::CancelObjectCreation","mf.imfmediaengineextension_cancelobjectcreation","mfmediaengine/IMFMediaEngineExtension::CancelObjectCreation"]
 old-location: mf\imfmediaengineextension_cancelobjectcreation.htm
 tech.root: medfound
 ms.assetid: E2FEC865-221E-41B5-8271-32A53D60619E

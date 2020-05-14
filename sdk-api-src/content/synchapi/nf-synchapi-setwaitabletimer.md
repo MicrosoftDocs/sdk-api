@@ -2,6 +2,7 @@
 UID: NF:synchapi.SetWaitableTimer
 title: SetWaitableTimer function (synchapi.h)
 description: Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
+helpviewer_keywords: ["SetWaitableTimer","SetWaitableTimer function","_win32_setwaitabletimer","base.setwaitabletimer","synchapi/SetWaitableTimer","winbase/SetWaitableTimer"]
 old-location: base\setwaitabletimer.htm
 tech.root: Sync
 ms.assetid: 237e22dc-696d-473f-8bb5-c28f7c7c75b2
@@ -164,11 +165,11 @@ For an example that uses
 
 
 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)a>
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)
 
 
 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a>
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)
 
 
 

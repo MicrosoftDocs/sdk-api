@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.Initialize
 title: ITfSpeechUIServer::Initialize (ctfspui.h)
-description: ITfSpeechUIServer::Initialize method
+description: ITfSpeechUIServer::Initialize methodhelpviewer_keywords: ["ITfSpeechUIServer interface [Text Services Framework]","Initialize method","ITfSpeechUIServer.Initialize","ITfSpeechUIServer::Initialize","Initialize","Initialize method [Text Services Framework]","Initialize method [Text Services Framework]","ITfSpeechUIServer interface","ctfspui/ITfSpeechUIServer::Initialize","tsf.itfspeechuiserver_initialize"]
 old-location: tsf\itfspeechuiserver_initialize.htm
 tech.root: TSF
 ms.assetid: 5a51b8c7-3d29-4566-8cfa-f76dfd067aa8
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Initializes the speech-related user interface elements on the TSF language bar.
 
 ## -parameters
 

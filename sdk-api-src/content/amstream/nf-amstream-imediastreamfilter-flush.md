@@ -1,7 +1,7 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.Flush
 title: IMediaStreamFilter::Flush (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The Flush method notifies the filter that one of its pins has flushed data. The filter's input pins call this method.
+description: Note  This interface is deprecated. New applications should not use it. The Flush method notifies the filter that one of its pins has flushed data. The filter's input pins call this method.helpviewer_keywords: ["Flush","Flush method [DirectShow]","Flush method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","Flush method","IMediaStreamFilter.Flush","IMediaStreamFilter::Flush","IMediaStreamFilterFlush","amstream/IMediaStreamFilter::Flush","dshow.imediastreamfilter_flush"]
 old-location: dshow\imediastreamfilter_flush.htm
 tech.root: DirectShow
 ms.assetid: 30b5d8f7-e3ab-48e4-aefe-3b3e04aba638

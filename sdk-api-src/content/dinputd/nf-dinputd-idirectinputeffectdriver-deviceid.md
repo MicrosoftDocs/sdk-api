@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.DeviceID
 title: IDirectInputEffectDriver::DeviceID (dinputd.h)
-description: The IDirectInputEffectDriver::DeviceID method sends the driver the identity of the device.
+description: The IDirectInputEffectDriver::DeviceID method sends the driver the identity of the device.helpviewer_keywords: ["DeviceID","DeviceID method [Human Input Devices]","DeviceID method [Human Input Devices]","IDirectInputEffectDriver interface","IDirectInputEffectDriver interface [Human Input Devices]","DeviceID method","IDirectInputEffectDriver.DeviceID","IDirectInputEffectDriver::DeviceID","di_ref_80f2cc7f-de04-4497-a245-b6abaf0a98d1.xml","dinputd/IDirectInputEffectDriver::DeviceID","hid.idirectinputeffectdriver_deviceid"]
 old-location: hid\idirectinputeffectdriver_deviceid.htm
 tech.root: hid
 ms.assetid: 80abcfef-edd9-48df-8e47-96731ae41f8a

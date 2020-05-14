@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_ModulationType
 title: IBDA_DigitalDemodulator::get_ModulationType (bdaiface.h)
-description: The get_ModulationType method retrieves the modulation type for the signal.
+description: The get_ModulationType method retrieves the modulation type for the signal.helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","get_ModulationType method","IBDA_DigitalDemodulator.get_ModulationType","IBDA_DigitalDemodulator::get_ModulationType","IBDA_DigitalDemodulatorget_ModulationType","bdaiface/IBDA_DigitalDemodulator::get_ModulationType","get_ModulationType","get_ModulationType method [Microsoft TV Technologies]","get_ModulationType method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface","mstv.ibda_digitaldemodulator_get_modulationtype"]
 old-location: mstv\ibda_digitaldemodulator_get_modulationtype.htm
 tech.root: mstv
 ms.assetid: 0f00553f-c0b1-4ff5-9c92-fe3a1990ef20

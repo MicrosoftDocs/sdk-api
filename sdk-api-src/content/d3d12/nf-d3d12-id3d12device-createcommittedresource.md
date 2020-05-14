@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommittedResource
 title: ID3D12Device::CreateCommittedResource (d3d12.h)
-description: Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+description: Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.helpviewer_keywords: ["CreateCommittedResource","CreateCommittedResource method","CreateCommittedResource method","ID3D12Device interface","ID3D12Device interface","CreateCommittedResource method","ID3D12Device.CreateCommittedResource","ID3D12Device::CreateCommittedResource","d3d12/ID3D12Device::CreateCommittedResource","direct3d12.id3d12device_createcommittedresource"]
 old-location: direct3d12\id3d12device_createcommittedresource.htm
 tech.root: direct3d12
 ms.assetid: FF9E8F11-F2C5-4A96-8E25-140870D15DA9
@@ -132,10 +132,12 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12Bundles</a> sample 
 Create a vertex buffer.
 
 ```cpp
+auto heapProperties = CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT);
+auto resourceDesc = CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize);
 ThrowIfFailed(m_device->CreateCommittedResource(
-    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+    &heapProperties,
     D3D12_HEAP_FLAG_NONE,
-    &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
+    &resourceDesc,
     D3D12_RESOURCE_STATE_COPY_DEST,
     nullptr,
     IID_PPV_ARGS(&m_vertexBuffer)));

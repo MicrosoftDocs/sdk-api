@@ -1,7 +1,7 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.GetDevice
 title: IWindowsMediaLibrarySharingDevices::GetDevice (wmlss.h)
-description: The GetDevice method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
+description: The GetDevice method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.helpviewer_keywords: ["GetDevice","GetDevice method [Windows Media Library Sharing Services]","GetDevice method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevices interface","IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services]","GetDevice method","IWindowsMediaLibrarySharingDevices.GetDevice","IWindowsMediaLibrarySharingDevices::GetDevice","wmlss.IWMLSDevicesGetDevice","wmlss/IWindowsMediaLibrarySharingDevices::GetDevice"]
 old-location: wmlss\IWMLSDevicesGetDevice.htm
 tech.root: WMLSS
 ms.assetid: 38a1f5d2-0347-4564-9403-2bf726198aa6

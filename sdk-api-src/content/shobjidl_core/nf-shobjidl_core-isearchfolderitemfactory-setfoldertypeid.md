@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetFolderTypeID
 title: ISearchFolderItemFactory::SetFolderTypeID (shobjidl_core.h)
-description: Sets a search folder type ID, as specified.
+description: Sets a search folder type ID, as specified.helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetFolderTypeID method","ISearchFolderItemFactory.SetFolderTypeID","ISearchFolderItemFactory::SetFolderTypeID","SetFolderTypeID","SetFolderTypeID method [Windows Shell]","SetFolderTypeID method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetFolderTypeID","shell.ISearchFolderItemFactory_SetFolderTypeID","shobjidl_core/ISearchFolderItemFactory::SetFolderTypeID"]
 old-location: shell\ISearchFolderItemFactory_SetFolderTypeID.htm
 tech.root: shell
 ms.assetid: a9b09dc6-751e-4d5f-b016-0b26c15c68f6

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IMediaSample.IsSyncPoint
 title: IMediaSample::IsSyncPoint (strmif.h)
-description: The IsSyncPoint method determines if the beginning of this sample is a synchronization point.
+description: The IsSyncPoint method determines if the beginning of this sample is a synchronization point.helpviewer_keywords: ["IMediaSample interface [DirectShow]","IsSyncPoint method","IMediaSample.IsSyncPoint","IMediaSample::IsSyncPoint","IMediaSampleIsSyncPoint","IsSyncPoint","IsSyncPoint method [DirectShow]","IsSyncPoint method [DirectShow]","IMediaSample interface","dshow.imediasample_issyncpoint","strmif/IMediaSample::IsSyncPoint"]
 old-location: dshow\imediasample_issyncpoint.htm
 tech.root: DirectShow
 ms.assetid: eed64bd9-1300-4db3-a3ed-c7e8ff9c7c8f

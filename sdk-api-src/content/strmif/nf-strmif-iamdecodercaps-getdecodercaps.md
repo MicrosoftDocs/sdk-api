@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMDecoderCaps.GetDecoderCaps
 title: IAMDecoderCaps::GetDecoderCaps (strmif.h)
-description: The GetDecoderCaps method queries the decoder for its capabilities.
+description: The GetDecoderCaps method queries the decoder for its capabilities.helpviewer_keywords: ["GetDecoderCaps","GetDecoderCaps method [DirectShow]","GetDecoderCaps method [DirectShow]","IAMDecoderCaps interface","IAMDecoderCaps interface [DirectShow]","GetDecoderCaps method","IAMDecoderCaps.GetDecoderCaps","IAMDecoderCaps::GetDecoderCaps","IAMDecoderCapsGetDecoderCaps","dshow.iamdecodercaps_getdecodercaps","strmif/IAMDecoderCaps::GetDecoderCaps"]
 old-location: dshow\iamdecodercaps_getdecodercaps.htm
 tech.root: DirectShow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2

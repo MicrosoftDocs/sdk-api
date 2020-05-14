@@ -2,12 +2,12 @@
 UID: NF:netioapi.ConvertInterfaceLuidToIndex
 title: ConvertInterfaceLuidToIndex function (netioapi.h)
 description: Converts a locally unique identifier (LUID) for a network interface to the local index for the interface.
+helpviewer_keywords: ["ConvertInterfaceLuidToIndex","ConvertInterfaceLuidToIndex function [IP Helper]","iphlp.convertinterfaceluidtoindex","netioapi/ConvertInterfaceLuidToIndex"]
 old-location: iphlp\convertinterfaceluidtoindex.htm
 tech.root: IpHlp
 ms.assetid: 904cd94c-dd46-42ac-aef2-ffed4b3e5899
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceLuidToIndex, ConvertInterfaceLuidToIndex function [IP Helper], iphlp.convertinterfaceluidtoindex, netioapi/ConvertInterfaceLuidToIndex
-ms.topic: function
 f1_keywords:
 - netioapi/ConvertInterfaceLuidToIndex
 dev_langs:

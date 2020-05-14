@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1501
 title: SERVER_INFO_1501 (lmserver.h)
-description: The SERVER_INFO_1501 structure specifies the number of files that can be open in one session on the specified server.
+description: The SERVER_INFO_1501 structure specifies the number of files that can be open in one session on the specified server.helpviewer_keywords: ["*LPSERVER_INFO_1501","*PSERVER_INFO_1501","LPSERVER_INFO_1501","LPSERVER_INFO_1501 structure pointer [Network Management]","PSERVER_INFO_1501","PSERVER_INFO_1501 structure pointer [Network Management]","SERVER_INFO_1501","SERVER_INFO_1501 structure [Network Management]","_win32_server_info_1501_str","lmserver/LPSERVER_INFO_1501","lmserver/PSERVER_INFO_1501","lmserver/SERVER_INFO_1501","netmgmt.server_info_1501_str"]
 old-location: netmgmt\server_info_1501_str.htm
 tech.root: NetMgmt
 ms.assetid: ed0325ed-1e4b-465b-931c-ff3a4bb3b103

@@ -2,6 +2,7 @@
 UID: NS:mftransform._MFT_OUTPUT_DATA_BUFFER
 title: MFT_OUTPUT_DATA_BUFFER (mftransform.h)
 description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
+helpviewer_keywords: ["*PMFT_OUTPUT_DATA_BUFFER","57623c8f-f7b6-4cb3-8d54-4ee516c706c3","MFT_OUTPUT_DATA_BUFFER","MFT_OUTPUT_DATA_BUFFER structure [Media Foundation]","mf.mft_output_data_buffer","mftransform/MFT_OUTPUT_DATA_BUFFER"]
 old-location: mf\mft_output_data_buffer.htm
 tech.root: medfound
 ms.assetid: 57623c8f-f7b6-4cb3-8d54-4ee516c706c3
@@ -74,7 +75,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects
 
 ### -field dwStatus
 
-Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member to zero. When the method returns, the MFT might set the member equal to a value from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags">_MFT_OUTPUT_DATA_BUFFER_FLAGS</a> enumeration. Otherwise, the MFT leaves this member equal to zero.
+Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member to zero. When the method returns, the MFT might set the member equal to a value from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags">_MFT_OUTPUT_DATA_BUFFER_FLAGS</a> enumeration. Otherwise, the MFT leaves this member equal to zero.
 
 
 ### -field pEvents

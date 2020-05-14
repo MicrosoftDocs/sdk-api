@@ -2,6 +2,7 @@
 UID: NF:pla.IDataCollectorSet.Commit
 title: IDataCollectorSet::Commit (pla.h)
 description: Saves, updates, or validates the data collector set. You can also use this method to flush a trace session.
+helpviewer_keywords: ["Commit","Commit method [PLA]","Commit method [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","Commit method","IDataCollectorSet.Commit","IDataCollectorSet::Commit","base.idatacollectorset_commit","pla.idatacollectorset_commit","pla/IDataCollectorSet::Commit"]
 old-location: pla\idatacollectorset_commit.htm
 tech.root: PLA
 ms.assetid: 7e432e1f-4b86-45dc-93d5-df603068273d
@@ -69,7 +70,7 @@ The computer on which you want to save the set. You can specify a computer name,
 
 ### -param mode [in]
 
-Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-commitmode">CommitMode</a> enumeration.
+Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="/windows/win32/api/pla/ne-pla-commitmode">CommitMode</a> enumeration.
 
 
 ### -param validation [out]

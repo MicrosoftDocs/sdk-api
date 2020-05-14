@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmConnectionGetSecurityInfo0
 title: FwpmConnectionGetSecurityInfo0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor for a connection object change event.
+description: Retrieves a copy of the security descriptor for a connection object change event.helpviewer_keywords: ["FwpmConnectionGetSecurityInfo0","FwpmConnectionGetSecurityInfo0 function [Filtering]","fwp.fwpmconnectiongetsecurityinfo0","fwpmu/FwpmConnectionGetSecurityInfo0"]
 old-location: fwp\fwpmconnectiongetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 872f0ab0-0cac-43e6-b4d6-ad62bde707ea

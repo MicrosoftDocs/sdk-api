@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmap.DrawBitmap
 title: ITfLangBarItemBitmap::DrawBitmap (ctfutb.h)
-description: ITfLangBarItemBitmap::DrawBitmap method
+description: ITfLangBarItemBitmap::DrawBitmap methodhelpviewer_keywords: ["DrawBitmap","DrawBitmap method [Text Services Framework]","DrawBitmap method [Text Services Framework]","ITfLangBarItemBitmap interface","ITfLangBarItemBitmap interface [Text Services Framework]","DrawBitmap method","ITfLangBarItemBitmap.DrawBitmap","ITfLangBarItemBitmap::DrawBitmap","_tsf_itflangbaritembitmap_drawbitmap_ref","ctfutb/ITfLangBarItemBitmap::DrawBitmap","tsf.itflangbaritembitmap_drawbitmap"]
 old-location: tsf\itflangbaritembitmap_drawbitmap.htm
 tech.root: TSF
 ms.assetid: ac8c384e-1d92-4092-940d-17a88a316a4d
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the bitmap and mask for the bitmap item.
 
 ## -parameters
 

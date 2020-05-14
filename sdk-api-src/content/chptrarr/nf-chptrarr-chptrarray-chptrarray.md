@@ -1,7 +1,7 @@
 ---
 UID: NF:chptrarr.CHPtrArray.CHPtrArray
 title: CHPtrArray::CHPtrArray (chptrarr.h)
-description: The CHPtrArray method constructor initializes a new instance of CHPtrArray.
+description: The CHPtrArray method constructor initializes a new instance of CHPtrArray.helpviewer_keywords: ["??0CHPtrArray@@QAE@XZ","CHPtrArray","CHPtrArray interface [Windows Management Instrumentation]","CHPtrArray method","CHPtrArray method [Windows Management Instrumentation]","CHPtrArray method [Windows Management Instrumentation]","CHPtrArray interface","CHPtrArray.CHPtrArray","CHPtrArray::CHPtrArray","chptrarr/CHPtrArray::CHPtrArray","wmi.chptrarray_chptrarray"]
 old-location: wmi\chptrarray_chptrarray.htm
 tech.root: WmiSdk
 ms.assetid: 9435d0e6-bb26-40a9-a13f-a744588cc0b0

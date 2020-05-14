@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComIdentityEvents.OnIISRequestInfo
 title: IComIdentityEvents::OnIISRequestInfo (comsvcs.h)
 description: Generated when an activity is part of an ASP page.
+helpviewer_keywords: ["IComIdentityEvents interface [COM+]","OnIISRequestInfo method","IComIdentityEvents.OnIISRequestInfo","IComIdentityEvents::OnIISRequestInfo","OnIISRequestInfo","OnIISRequestInfo method [COM+]","OnIISRequestInfo method [COM+]","IComIdentityEvents interface","_dtc_IComIdentityEvents_OnIISRequestInfo","comsvcs/IComIdentityEvents::OnIISRequestInfo","cos.icomidentityevents_oniisrequestinfo"]
 old-location: cos\icomidentityevents_oniisrequestinfo.htm
 tech.root: cossdk
 ms.assetid: 88beaef9-d042-4836-8223-6063c87ba06a
@@ -59,7 +60,7 @@ Generated when an activity is part of an ASP page.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ObjId [in]

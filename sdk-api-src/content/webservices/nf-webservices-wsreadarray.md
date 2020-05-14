@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsReadArray
 title: WsReadArray function (webservices.h)
-description: Reads a series of elements from the reader and interprets their content according to the specified value type.
+description: Reads a series of elements from the reader and interprets their content according to the specified value type.helpviewer_keywords: ["WsReadArray","WsReadArray function [Web Services for Windows]","webservices/WsReadArray","wsw.wsreadarray"]
 old-location: wsw\wsreadarray.htm
 tech.root: wsw
 ms.assetid: ab545d74-7a61-48db-8c84-11017ee65605

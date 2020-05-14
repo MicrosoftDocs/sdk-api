@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING
 title: WS_SECURITY_BINDING (webservices.h)
-description: The abstract base type for all security bindings.
+description: The abstract base type for all security bindings.helpviewer_keywords: ["WS_SECURITY_BINDING","WS_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_SECURITY_BINDING","wsw.ws_security_binding"]
 old-location: wsw\ws_security_binding.htm
 tech.root: wsw
 ms.assetid: 6c0663e8-ae73-41a2-9273-50f53534926b

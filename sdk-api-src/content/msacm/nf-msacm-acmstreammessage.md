@@ -1,7 +1,7 @@
 ---
 UID: NF:msacm.acmStreamMessage
 title: acmStreamMessage function (msacm.h)
-description: The acmStreamMessage function sends a driver-specific message to an ACM driver.
+description: The acmStreamMessage function sends a driver-specific message to an ACM driver.helpviewer_keywords: ["_win32_acmStreamMessage","acmStreamMessage","acmStreamMessage function [Windows Multimedia]","msacm/acmStreamMessage","multimedia.acmstreammessage"]
 old-location: multimedia\acmstreammessage.htm
 tech.root: Multimedia
 ms.assetid: 30f77126-a874-4014-bbde-ce194da2c61c

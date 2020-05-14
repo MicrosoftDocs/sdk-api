@@ -2,6 +2,7 @@
 UID: NF:winsync.IChangeConflict.SetResolveActionForChangeUnit
 title: IChangeConflict::SetResolveActionForChangeUnit (winsync.h)
 description: Sets a conflict resolution action for the conflicting change unit change.
+helpviewer_keywords: ["IChangeConflict interface [Windows Sync]","SetResolveActionForChangeUnit method","IChangeConflict.SetResolveActionForChangeUnit","IChangeConflict::SetResolveActionForChangeUnit","SetResolveActionForChangeUnit","SetResolveActionForChangeUnit method [Windows Sync]","SetResolveActionForChangeUnit method [Windows Sync]","IChangeConflict interface","winsync.ichangeconflict_setresolveactionforchangeunit","winsync/IChangeConflict::SetResolveActionForChangeUnit"]
 old-location: winsync\ichangeconflict_setresolveactionforchangeunit.htm
 tech.root: winsync
 ms.assetid: 8594a888-21a1-4cfb-964c-9c670e3a7438
@@ -141,7 +142,7 @@ By setting this action in an event handler for <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesDirectoryItem
 title: IOfflineFilesDirectoryItem (cscobj.h)
-description: Represents a directory item in the Offline Files cache.
+description: Represents a directory item in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesDirectoryItem","IOfflineFilesDirectoryItem interface [Offline Files]","IOfflineFilesDirectoryItem interface [Offline Files]","described","cscobj/IOfflineFilesDirectoryItem","of.iofflinefilesdirectoryitem"]
 old-location: of\iofflinefilesdirectoryitem.htm
 tech.root: offlinefiles
 ms.assetid: 9300b4f3-1261-40d2-ae05-fb1be2f857b9

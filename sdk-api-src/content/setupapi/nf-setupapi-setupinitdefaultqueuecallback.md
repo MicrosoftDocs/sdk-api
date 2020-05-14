@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupInitDefaultQueueCallback
 title: SetupInitDefaultQueueCallback function (setupapi.h)
-description: The SetupInitDefaultQueueCallback function initializes the context used by the default queue callback routine included with the Setup API.
+description: The SetupInitDefaultQueueCallback function initializes the context used by the default queue callback routine included with the Setup API.helpviewer_keywords: ["SetupInitDefaultQueueCallback","SetupInitDefaultQueueCallback function [Setup API]","_setupapi_setupinitdefaultqueuecallback","setup.setupinitdefaultqueuecallback","setupapi/SetupInitDefaultQueueCallback"]
 old-location: setup\setupinitdefaultqueuecallback.htm
 tech.root: SetupApi
 ms.assetid: 3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4

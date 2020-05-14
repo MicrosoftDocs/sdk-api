@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendKeyboardEvent
 title: IRDPViewerInputSink::SendKeyboardEvent (rdpencomapi.h)
-description: Sends a keyboard event message.
+description: Sends a keyboard event message.helpviewer_keywords: ["IRDPViewerInputSink interface [RDP]","SendKeyboardEvent method","IRDPViewerInputSink.SendKeyboardEvent","IRDPViewerInputSink::SendKeyboardEvent","SendKeyboardEvent","SendKeyboardEvent method [RDP]","SendKeyboardEvent method [RDP]","IRDPViewerInputSink interface","rdp.irdpviewerinputsink_sendkeyboardevent","rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent"]
 old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm
 tech.root: rdp
 ms.assetid: 28EDA0AD-9669-4232-BD41-4ADEC90CA3A7

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerTraceV
 title: WdsTransportServerTraceV function (wdstpdi.h)
-description: Sends a debugging message.
+description: Sends a debugging message.helpviewer_keywords: ["WDS_MC_TRACE_ERROR","WDS_MC_TRACE_FATAL","WDS_MC_TRACE_INFO","WDS_MC_TRACE_VERBOSE","WDS_MC_TRACE_WARNING","WdsTransportServerTraceV","WdsTransportServerTraceV function [Windows Deployment Services]","wds.wdstransportservertracev","wdstpdi/WdsTransportServerTraceV"]
 old-location: wds\wdstransportservertracev.htm
 tech.root: wds
 ms.assetid: d7b85bc4-0f8e-416d-848f-2486f979ac1b

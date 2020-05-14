@@ -1,7 +1,7 @@
 ---
 UID: NF:ndfapi.NdfCreateInboundIncident
 title: NdfCreateInboundIncident function (ndfapi.h)
-description: Creates a session to diagnose inbound connectivity for a specific application or service.
+description: Creates a session to diagnose inbound connectivity for a specific application or service.helpviewer_keywords: ["@FirewallAPI.dll","-28502","@FirewallAPI.dll","-28752","@FirewallAPI.dll","-32752","NDF_INBOUND_FLAG_EDGETRAVERSAL","NDF_INBOUND_FLAG_HEALTHCHECK","NdfCreateInboundIncident","NdfCreateInboundIncident function [NDF]","ndf.ndfcreateinboundincident","ndfapi/NdfCreateInboundIncident"]
 old-location: ndf\ndfcreateinboundincident.htm
 tech.root: NDF
 ms.assetid: 8cc2c605-96b6-4eca-9e18-f3296187a28f

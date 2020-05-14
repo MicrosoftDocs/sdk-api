@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.OpenRegStream
 title: OpenRegStream function (shlobj_core.h)
-description: OpenRegStream may be altered or unavailable. Instead, use SHOpenRegStream2 or SHOpenRegStream.
+description: OpenRegStream may be altered or unavailable. Instead, use SHOpenRegStream2 or SHOpenRegStream.helpviewer_keywords: ["OpenRegStream","OpenRegStream function [Windows Shell]","STGM_READ","STGM_READWRITE","STGM_WRITE","_win32_OpenRegStream","shell.OpenRegStream","shlobj_core/OpenRegStream"]
 old-location: shell\OpenRegStream.htm
 tech.root: shell
 ms.assetid: e1e35c94-84ac-4aa1-b2a1-47b37a7f224e

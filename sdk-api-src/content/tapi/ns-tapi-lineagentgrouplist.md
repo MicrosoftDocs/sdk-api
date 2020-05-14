@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.lineagentgrouplist_tag
 title: LINEAGENTGROUPLIST (tapi.h)
-description: The LINEAGENTGROUPLIST structure describes a list of ACD agent groups. This structure can contain an array of LINEAGENTGROUPENTRY structures.
+description: The LINEAGENTGROUPLIST structure describes a list of ACD agent groups. This structure can contain an array of LINEAGENTGROUPENTRY structures.helpviewer_keywords: ["*LPLINEAGENTGROUPLIST","LINEAGENTGROUPLIST","LINEAGENTGROUPLIST structure [TAPI 2.2]","LPLINEAGENTGROUPLIST","LPLINEAGENTGROUPLIST structure pointer [TAPI 2.2]","_tapi2_lineagentgrouplist_str","tapi/LINEAGENTGROUPLIST","tapi/LPLINEAGENTGROUPLIST","tapi2.lineagentgrouplist_str"]
 old-location: tapi2\lineagentgrouplist_str.htm
 tech.root: Tapi
 ms.assetid: 6189eb8e-20a4-4c87-bc7f-0a6af9605be7

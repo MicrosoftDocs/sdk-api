@@ -1,7 +1,7 @@
 ---
 UID: NE:uiribbon.UI_FONTPROPERTIES
 title: UI_FONTPROPERTIES (uiribbon.h)
-description: Specifies values that identify the font property state of a FontControl, such as Strikethrough.
+description: Specifies values that identify the font property state of a FontControl, such as Strikethrough.helpviewer_keywords: ["UI_FONTPROPERTIES","UI_FONTPROPERTIES enumeration [Windows Ribbon]","UI_FONTPROPERTIES_NOTAVAILABLE","UI_FONTPROPERTIES_NOTSET","UI_FONTPROPERTIES_SET","scenicintent_UI_FONTPROPERTIES","uiribbon/UI_FONTPROPERTIES","uiribbon/UI_FONTPROPERTIES_NOTAVAILABLE","uiribbon/UI_FONTPROPERTIES_NOTSET","uiribbon/UI_FONTPROPERTIES_SET","windowsribbon.windowsribbon_ui_fontproperties"]
 old-location: windowsribbon\windowsribbon_ui_fontproperties.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontproperties.htm

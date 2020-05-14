@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CRYPT_KEY_PROV_INFO
 title: CRYPT_KEY_PROV_INFO (wincrypt.h)
-description: The CRYPT_KEY_PROV_INFO structure contains information about a key container within a cryptographic service provider (CSP).
+description: The CRYPT_KEY_PROV_INFO structure contains information about a key container within a cryptographic service provider (CSP).helpviewer_keywords: ["*PCRYPT_KEY_PROV_INFO","AT_KEYEXCHANGE","AT_SIGNATURE","CERT_SET_KEY_PROV_HANDLE_PROP_ID / CERT_SET_KEY_CONTEXT_PROP_ID","CRYPT_KEY_PROV_INFO","CRYPT_KEY_PROV_INFO structure [Security]","CRYPT_MACHINE_KEYSET / NCRYPT_MACHINE_KEY_FLAG","CRYPT_SILENT / NCRYPT_SILENT_FLAG","PCRYPT_KEY_PROV_INFO","PCRYPT_KEY_PROV_INFO structure pointer [Security]","_crypto2_crypt_key_prov_info","security.crypt_key_prov_info","wincrypt/CRYPT_KEY_PROV_INFO","wincrypt/PCRYPT_KEY_PROV_INFO"]
 old-location: security\crypt_key_prov_info.htm
 tech.root: SecCrypto
 ms.assetid: 6aea2f47-9d4a-4069-ac6d-f28907df00be

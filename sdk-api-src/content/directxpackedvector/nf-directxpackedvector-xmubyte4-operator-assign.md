@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.operator-assign
 title: XMUBYTE4::operator-assign (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMUBYTE4 to the current instance of XMUBYTE4.
+description: Assigns the vector component data from one instance of XMUBYTE4 to the current instance of XMUBYTE4.helpviewer_keywords: ["DirectX::PackedVector.XMUBYTE4.operator =","DirectX::PackedVector::XMUBYTE4::operator =","XMUBYTE4 structure [DirectX Math Support APIs]","operator = method","XMUBYTE4.operator =","XMUBYTE4.operator-assign","XMUBYTE4.operator=","XMUBYTE4::operator-assign","XMUBYTE4::operator=","dxmath.xmubyte4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUBYTE4 structure","operator="]
 old-location: dxmath\xmubyte4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE4.operator = (const XMUBYTE4)

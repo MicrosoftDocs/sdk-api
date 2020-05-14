@@ -2,6 +2,7 @@
 UID: NS:windns._DnsAddrArray
 title: DNS_ADDR_ARRAY (windns.h)
 description: Stores an array of IPv4 or IPv6 addresses.
+helpviewer_keywords: ["*PDNS_ADDR_ARRAY","AF_INET","AF_INET6","DNS_ADDR_ARRAY","DNS_ADDR_ARRAY structure [DNS]","PDNS_ADDR_ARRAY","PDNS_ADDR_ARRAY structure pointer [DNS]","dns.dns_addr_array","windns/DNS_ADDR_ARRAY","windns/PDNS_ADDR_ARRAY"]
 old-location: dns\dns_addr_array.htm
 tech.root: DNS
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
@@ -64,7 +65,7 @@ Indicates, the size, in bytes,  of this structure.
 
 ### -field AddrCount
 
-Indicates the number of <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> structures contained in the <b>AddrArray</b> member.
+Indicates the number of <a href="/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> structures contained in the <b>AddrArray</b> member.
 
 
 ### -field Tag
@@ -132,7 +133,7 @@ Reserved. Do not use.
 
 ### -field AddrArray
 
-An array of <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> structures that each contain an IP address.
+An array of <a href="/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a> structures that each contain an IP address.
 
 
 ### -field AddrArray.size_is
@@ -152,7 +153,7 @@ An array of <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-wind
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_addr">DNS_ADDR</a>
 
 
 

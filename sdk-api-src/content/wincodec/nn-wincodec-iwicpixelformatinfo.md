@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICPixelFormatInfo
 title: IWICPixelFormatInfo (wincodec.h)
-description: Exposes methods that provide information about a pixel format.
+description: Exposes methods that provide information about a pixel format.helpviewer_keywords: ["IWICPixelFormatInfo","IWICPixelFormatInfo interface [Windows Imaging Component]","IWICPixelFormatInfo interface [Windows Imaging Component]","described","_wic_codec_iwicpixelformatinfo","wic._wic_codec_iwicpixelformatinfo","wincodec/IWICPixelFormatInfo"]
 old-location: wic\_wic_codec_iwicpixelformatinfo.htm
 tech.root: wic
 ms.assetid: d5853b27-4329-40d8-bfd0-b4b0f39ba6d5

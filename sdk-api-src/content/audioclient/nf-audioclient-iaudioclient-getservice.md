@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient.GetService
 title: IAudioClient::GetService (audioclient.h)
-description: The GetService method accesses additional services from the audio client object.
+description: The GetService method accesses additional services from the audio client object.helpviewer_keywords: ["GetService","GetService method [Core Audio]","GetService method [Core Audio]","IAudioClient interface","IAudioClient interface [Core Audio]","GetService method","IAudioClient.GetService","IAudioClient::GetService","IAudioClientGetService","audioclient/IAudioClient::GetService","coreaudio.iaudioclient_getservice"]
 old-location: coreaudio\iaudioclient_getservice.htm
 tech.root: CoreAudio
 ms.assetid: 233d4471-037f-4df9-bef6-57f2544dedb5

@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.ResolveNeighbor
 title: ResolveNeighbor function (iphlpapi.h)
-description: Resolves the physical address for a neighbor IP address entry on the local computer.
+description: Resolves the physical address for a neighbor IP address entry on the local computer.helpviewer_keywords: ["ResolveNeighbor","ResolveNeighbor function [IP Helper]","iphlp.resolveneighbor","iphlpapi/ResolveNeighbor"]
 old-location: iphlp\resolveneighbor.htm
 tech.root: IpHlp
 ms.assetid: c9d902c7-6543-4811-8116-003a5153bd27

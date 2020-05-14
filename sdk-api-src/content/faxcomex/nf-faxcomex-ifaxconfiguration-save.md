@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Save
 title: IFaxConfiguration::Save (faxcomex.h)
-description: Saves the object.
+description: Saves the object.helpviewer_keywords: ["IFaxConfiguration interface [Fax Service]","Save method","IFaxConfiguration.Save","IFaxConfiguration::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxConfiguration interface","_mfax_IFaxConfiguration_Save","fax._mfax_IFaxConfiguration_Save","faxcomex/IFaxConfiguration::Save"]
 old-location: fax\_mfax_IFaxConfiguration_Save.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm

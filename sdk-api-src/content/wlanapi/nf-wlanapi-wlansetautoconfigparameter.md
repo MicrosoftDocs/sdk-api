@@ -2,6 +2,7 @@
 UID: NF:wlanapi.WlanSetAutoConfigParameter
 title: WlanSetAutoConfigParameter function (wlanapi.h)
 description: Sets parameters for the automatic configuration service.
+helpviewer_keywords: ["WlanSetAutoConfigParameter","WlanSetAutoConfigParameter function [NativeWIFI]","nwifi.wlansetautoconfigparameter","wlan_autoconf_opcode_allow_explicit_creds","wlan_autoconf_opcode_allow_virtual_station_extensibility","wlan_autoconf_opcode_block_period","wlan_autoconf_opcode_show_denied_networks","wlanapi/WlanSetAutoConfigParameter"]
 old-location: nwifi\wlansetautoconfigparameter.htm
 tech.root: NativeWiFi
 ms.assetid: 4f2514be-f05e-4be6-8c74-ef7a9ffe1c53
@@ -64,7 +65,7 @@ The client's session handle, obtained by a previous call to the <a href="https:/
 
 ### -param OpCode [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> value that specifies the parameter to be set. Only some of the opcodes in the <b>WLAN_AUTOCONF_OPCODE</b> enumeration support set operations.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> value that specifies the parameter to be set. Only some of the opcodes in the <b>WLAN_AUTOCONF_OPCODE</b> enumeration support set operations.
 
 <table>
 <tr>
@@ -167,7 +168,7 @@ This error is also returned if the configuration parameter is set by group polic
 </dl>
 </td>
 <td width="60%">
-A parameter was bad. This error is returned if the <i>hClientHandle</i> parameter is <b>NULL</b>, the <i>pData</i> parameter is <b>NULL</b>, or the <i>pReserved</i> parameter is not <b>NULL</b>. This error is also returned if <i>OpCode</i> parameter specified is not one of the <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> values for a configuration parameter that can be set. This error is also returned if the <i>dwDataSize</i> parameter is not set to <code>sizeof(BOOL)</code>, or the <i>dwDataSize</i> is not set to <code>sizeof(BOOL)</code> depending on the value of the <i>OpCode</i> parameter.
+A parameter was bad. This error is returned if the <i>hClientHandle</i> parameter is <b>NULL</b>, the <i>pData</i> parameter is <b>NULL</b>, or the <i>pReserved</i> parameter is not <b>NULL</b>. This error is also returned if <i>OpCode</i> parameter specified is not one of the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> values for a configuration parameter that can be set. This error is also returned if the <i>dwDataSize</i> parameter is not set to <code>sizeof(BOOL)</code>, or the <i>dwDataSize</i> is not set to <code>sizeof(BOOL)</code> depending on the value of the <i>OpCode</i> parameter.
 
 </td>
 </tr>
@@ -226,7 +227,7 @@ Depending on the value of the <i>OpCode</i> parameter, the data pointed to by <i
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 

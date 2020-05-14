@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Balance
 title: IMSVidAudioRenderer::get_Balance (segment.h)
-description: .
+description: .helpviewer_keywords: ["IMSVidAudioRenderer interface [Microsoft TV Technologies]","get_Balance method","IMSVidAudioRenderer.get_Balance","IMSVidAudioRenderer::get_Balance","IMSVidAudioRendererget_Balance","get_Balance","get_Balance method [Microsoft TV Technologies]","get_Balance method [Microsoft TV Technologies]","IMSVidAudioRenderer interface","mstv.imsvidaudiorenderer_get_balance","segment/IMSVidAudioRenderer::get_Balance"]
 old-location: mstv\imsvidaudiorenderer_get_balance.htm
 tech.root: mstv
 ms.assetid: 59def393-ab3d-41a8-968a-cd22429874a0

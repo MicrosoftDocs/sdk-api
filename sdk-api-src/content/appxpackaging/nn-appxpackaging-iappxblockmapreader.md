@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapReader
 title: IAppxBlockMapReader (appxpackaging.h)
-description: Represents a read-only object model for block maps that provides access to the file attributes and block hashes.
+description: Represents a read-only object model for block maps that provides access to the file attributes and block hashes.helpviewer_keywords: ["IAppxBlockMapReader","IAppxBlockMapReader interface [App packaging and management]","IAppxBlockMapReader interface [App packaging and management]","described","appxpackaging/IAppxBlockMapReader","appxpkg.iappxblockmapreader"]
 old-location: appxpkg\iappxblockmapreader.htm
 tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE

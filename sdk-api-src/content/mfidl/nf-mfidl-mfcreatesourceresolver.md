@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.MFCreateSourceResolver
 title: MFCreateSourceResolver function (mfidl.h)
-description: Creates the source resolver, which is used to create a media source from a URL or byte stream.
+description: Creates the source resolver, which is used to create a media source from a URL or byte stream.helpviewer_keywords: ["60d6b0e2-5ab2-4a20-99d9-e6b806a1f576","MFCreateSourceResolver","MFCreateSourceResolver function [Media Foundation]","mf.mfcreatesourceresolver","mfidl/MFCreateSourceResolver"]
 old-location: mf\mfcreatesourceresolver.htm
 tech.root: medfound
 ms.assetid: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576

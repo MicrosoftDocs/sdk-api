@@ -1,7 +1,7 @@
 ---
 UID: NN:wmsdkidl.IWMCredentialCallback
 title: IWMCredentialCallback (wmsdkidl.h)
-description: The IWMCredentialCallback interface is a callback interface used by the reader object to acquire user credentials.
+description: The IWMCredentialCallback interface is a callback interface used by the reader object to acquire user credentials.helpviewer_keywords: ["IWMCredentialCallback","IWMCredentialCallback interface [windows Media Format]","IWMCredentialCallback interface [windows Media Format]","described","IWMCredentialCallbackInterface","wmformat.iwmcredentialcallback","wmsdkidl/IWMCredentialCallback"]
 old-location: wmformat\iwmcredentialcallback.htm
 tech.root: wmformat
 ms.assetid: 846d4e21-5255-491a-a8aa-5bb19b62a050

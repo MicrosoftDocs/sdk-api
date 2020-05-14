@@ -1,7 +1,7 @@
 ---
 UID: NS:dxva2api._DXVA2_AYUVSample8
 title: DXVA2_AYUVSample8 (dxva2api.h)
-description: Defines an 8-bit AYUV pixel value.
+description: Defines an 8-bit AYUV pixel value.helpviewer_keywords: ["4d296764-a00a-407d-a963-62c138976ccc","DXVA2_AYUVSample8","DXVA2_AYUVSample8 structure [Media Foundation]","dxva2api/DXVA2_AYUVSample8","mf.dxva2_ayuvsample8"]
 old-location: mf\dxva2_ayuvsample8.htm
 tech.root: medfound
 ms.assetid: 4d296764-a00a-407d-a963-62c138976ccc

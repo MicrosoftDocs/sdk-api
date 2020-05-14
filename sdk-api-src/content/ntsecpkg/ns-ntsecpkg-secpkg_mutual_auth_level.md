@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecpkg._SECPKG_MUTUAL_AUTH_LEVEL
 title: SECPKG_MUTUAL_AUTH_LEVEL (ntsecpkg.h)
-description: The SECPKG_MUTUAL_AUTH_LEVEL structure contains the authentication level used by a security package.
+description: The SECPKG_MUTUAL_AUTH_LEVEL structure contains the authentication level used by a security package.helpviewer_keywords: ["*PSECPKG_MUTUAL_AUTH_LEVEL","PSECPKG_MUTUAL_AUTH_LEVEL","PSECPKG_MUTUAL_AUTH_LEVEL structure pointer [Security]","SECPKG_MUTUAL_AUTH_LEVEL","SECPKG_MUTUAL_AUTH_LEVEL structure [Security]","_ssp_secpkg_mutual_auth_level","ntsecpkg/PSECPKG_MUTUAL_AUTH_LEVEL","ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL","security.secpkg_mutual_auth_level"]
 old-location: security\secpkg_mutual_auth_level.htm
 tech.root: SecAuthN
 ms.assetid: f56cd322-8f82-43d7-a666-7067bf23b0a7

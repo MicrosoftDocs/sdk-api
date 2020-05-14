@@ -1,7 +1,7 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHwndIdentityString
 title: IAccPropServices::DecomposeHwndIdentityString (oleacc.h)
-description: Use this method to determine the HWND, object ID, and child ID for the accessible element identified by the identity string.
+description: Use this method to determine the HWND, object ID, and child ID for the accessible element identified by the identity string.helpviewer_keywords: ["DecomposeHwndIdentityString","DecomposeHwndIdentityString method [Windows Accessibility]","DecomposeHwndIdentityString method [Windows Accessibility]","IAccPropServices interface","IAccPropServices interface [Windows Accessibility]","DecomposeHwndIdentityString method","IAccPropServices.DecomposeHwndIdentityString","IAccPropServices::DecomposeHwndIdentityString","_msaa_IAccPropServices_DecomposeHwndIdentityString","msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring","oleacc/IAccPropServices::DecomposeHwndIdentityString","winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring"]
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentitystring.htm
 tech.root: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee

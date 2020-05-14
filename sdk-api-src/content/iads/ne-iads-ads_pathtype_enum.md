@@ -2,6 +2,7 @@
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0088_0001
 title: ADS_PATHTYPE_ENUM (iads.h)
 description: The ADS_PATHTYPE_ENUM enumeration specifies the type of object on which the IADsSecurityUtility interface is going to add or modify a security descriptor.
+helpviewer_keywords: ["ADS_PATHTYPE_ENUM","ADS_PATHTYPE_ENUM enumeration [ADSI]","ADS_PATH_FILE","ADS_PATH_FILESHARE","ADS_PATH_REGISTRY","_ds_ads_pathtype_enum","adsi.ads__pathtype__enum","adsi.ads_pathtype_enum","iads/ADS_PATHTYPE_ENUM","iads/ADS_PATH_FILE","iads/ADS_PATH_FILESHARE","iads/ADS_PATH_REGISTRY"]
 old-location: adsi\ads_pathtype_enum.htm
 tech.root: adsi
 ms.assetid: 3ae0ec98-9184-4ab3-b859-39c0d677eb0d
@@ -81,7 +82,7 @@ Indicates that the security descriptor will be retrieved or set on a registry ke
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 

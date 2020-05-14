@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetHelpFileName
 title: ICreateTypeLib::SetHelpFileName (oaidl.h)
-description: Sets the name of the Help file.
+description: Sets the name of the Help file.helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetHelpFileName method","ICreateTypeLib.SetHelpFileName","ICreateTypeLib::SetHelpFileName","SetHelpFileName","SetHelpFileName method [Automation]","SetHelpFileName method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetHelpFileName","automat.icreatetypelib_sethelpfilename","oaidl/ICreateTypeLib::SetHelpFileName"]
 old-location: automat\icreatetypelib_sethelpfilename.htm
 tech.root: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f

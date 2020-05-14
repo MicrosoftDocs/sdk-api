@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_VolumeName
 title: IFsrmPropertyBag::get_VolumeName (fsrmpipeline.h)
-description: The name of the volume on which the file exists.
+description: The name of the volume on which the file exists.helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","VolumeName property","IFsrmPropertyBag.VolumeName","IFsrmPropertyBag.get_VolumeName","IFsrmPropertyBag::VolumeName","IFsrmPropertyBag::get_VolumeName","VolumeName property [File Server Resource Manager]","VolumeName property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_volumename","fsrm.ifsrmpropertybag_volumename","fsrmpipeline/IFsrmPropertyBag::VolumeName","fsrmpipeline/IFsrmPropertyBag::get_VolumeName","get_VolumeName"]
 old-location: fsrm\ifsrmpropertybag_volumename.htm
 tech.root: fsrm
 ms.assetid: 65b47ad3-eb81-468e-a4fb-8a52d6b99998

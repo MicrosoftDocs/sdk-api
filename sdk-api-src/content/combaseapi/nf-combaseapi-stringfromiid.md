@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.StringFromIID
 title: StringFromIID function (combaseapi.h)
-description: Converts an interface identifier into a string of printable characters.
+description: Converts an interface identifier into a string of printable characters.helpviewer_keywords: ["StringFromIID","StringFromIID function [COM]","_com_StringFromIID","com.stringfromiid","combaseapi/StringFromIID"]
 old-location: com\stringfromiid.htm
 tech.root: com
 ms.assetid: 92e59631-0675-4bca-bcd4-a1f83ab6ec8a

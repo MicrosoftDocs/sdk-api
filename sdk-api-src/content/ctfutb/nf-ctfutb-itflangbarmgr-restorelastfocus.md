@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.RestoreLastFocus
 title: ITfLangBarMgr::RestoreLastFocus (ctfutb.h)
-description: ITfLangBarMgr::RestoreLastFocus method
+description: ITfLangBarMgr::RestoreLastFocus methodhelpviewer_keywords: ["ITfLangBarMgr interface [Text Services Framework]","RestoreLastFocus method","ITfLangBarMgr.RestoreLastFocus","ITfLangBarMgr::RestoreLastFocus","RestoreLastFocus","RestoreLastFocus method [Text Services Framework]","RestoreLastFocus method [Text Services Framework]","ITfLangBarMgr interface","_tsf_itflangbarmgr_restorelastfocus_ref","ctfutb/ITfLangBarMgr::RestoreLastFocus","tsf.itflangbarmgr_restorelastfocus"]
 old-location: tsf\itflangbarmgr_restorelastfocus.htm
 tech.root: TSF
 ms.assetid: 376e1f64-1a4f-4800-a049-7f2abb4ea605
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Should not be used.
 
 ## -parameters
 

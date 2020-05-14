@@ -1,7 +1,7 @@
 ---
 UID: NF:interactioncontext.ResetInteractionContext
 title: ResetInteractionContext function (interactioncontext.h)
-description: Resets the interaction state, interaction configuration settings, and all parameters to their initial state. Current interactions are cancelled without notifications. Interaction Context must be reconfigured before next use.
+description: Resets the interaction state, interaction configuration settings, and all parameters to their initial state. Current interactions are cancelled without notifications. Interaction Context must be reconfigured before next use.helpviewer_keywords: ["ResetInteractionContext","ResetInteractionContext function","input_intcontext.resetinteractioncontext","interactioncontext.resetinteractioncontext","interactioncontext/ResetInteractionContext"]
 old-location: input_intcontext\resetinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21

@@ -1,7 +1,7 @@
 ---
 UID: NN:spellcheck.ISpellChecker
 title: ISpellChecker (spellcheck.h)
-description: Represents a particular spell checker for a particular language.
+description: Represents a particular spell checker for a particular language.helpviewer_keywords: ["ISpellChecker","ISpellChecker interface [Internationalization for Windows Applications]","ISpellChecker interface [Internationalization for Windows Applications]","described","intl.ispellchecker","spellcheck/ISpellChecker"]
 old-location: intl\ispellchecker.htm
 tech.root: Intl
 ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18

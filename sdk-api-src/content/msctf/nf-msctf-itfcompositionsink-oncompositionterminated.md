@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompositionSink.OnCompositionTerminated
 title: ITfCompositionSink::OnCompositionTerminated (msctf.h)
-description: ITfCompositionSink::OnCompositionTerminated method
+description: ITfCompositionSink::OnCompositionTerminated methodhelpviewer_keywords: ["ITfCompositionSink interface [Text Services Framework]","OnCompositionTerminated method","ITfCompositionSink.OnCompositionTerminated","ITfCompositionSink::OnCompositionTerminated","OnCompositionTerminated","OnCompositionTerminated method [Text Services Framework]","OnCompositionTerminated method [Text Services Framework]","ITfCompositionSink interface","_tsf_itfcompositionsink_oncompositionterminated_ref","msctf/ITfCompositionSink::OnCompositionTerminated","tsf.itfcompositionsink_oncompositionterminated"]
 old-location: tsf\itfcompositionsink_oncompositionterminated.htm
 tech.root: TSF
 ms.assetid: 4b7c3993-6d01-492f-9bb5-241a1cbd4b63

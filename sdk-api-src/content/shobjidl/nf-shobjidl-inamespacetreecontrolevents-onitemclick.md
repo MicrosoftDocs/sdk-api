@@ -2,6 +2,7 @@
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemClick
 title: INameSpaceTreeControlEvents::OnItemClick (shobjidl.h)
 description: Called when the user clicks a button on the mouse.
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemClick method","INameSpaceTreeControlEvents.OnItemClick","INameSpaceTreeControlEvents::OnItemClick","NSTCECT_BUTTON","NSTCECT_DBLCLICK","NSTCECT_LBUTTON","NSTCECT_MBUTTON","NSTCECT_RBUTTON","NSTCEHT_NOWHERE","NSTCEHT_ONITEM","NSTCEHT_ONITEMBUTTON","NSTCEHT_ONITEMICON","NSTCEHT_ONITEMINDENT","NSTCEHT_ONITEMLABEL","NSTCEHT_ONITEMRIGHT","NSTCEHT_ONITEMSTATEICON","NSTCEHT_ONITEMTABBUTTON","OnItemClick","OnItemClick method [Windows Shell]","OnItemClick method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemClick","shell.INameSpaceTreeControlEvents_OnItemClick","shobjidl/INameSpaceTreeControlEvents::OnItemClick"]
 old-location: shell\INameSpaceTreeControlEvents_OnItemClick.htm
 tech.root: shell
 ms.assetid: a595ffd0-edc6-4726-b7b2-ad1aed9e9701
@@ -127,7 +128,7 @@ The click was on the tab button of the <a href="https://docs.microsoft.com/windo
 
 ### -param nstceClickType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcstyle">NSTCSTYLE</a></b>
 
 Indicates which button was clicked and the kind of click. One of the following values:
 

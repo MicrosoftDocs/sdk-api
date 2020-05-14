@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetFillMode
 title: GraphicsPath::GetFillMode (gdipluspath.h)
-description: The GraphicsPath::GetFillMode method gets the fill mode of this path.
+description: The GraphicsPath::GetFillMode method gets the fill mode of this path.helpviewer_keywords: ["GetFillMode","GetFillMode method [GDI+]","GetFillMode method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","GetFillMode method","GraphicsPath.GetFillMode","GraphicsPath::GetFillMode","_gdiplus_CLASS_GraphicsPath_GetFillMode_","gdiplus._gdiplus_CLASS_GraphicsPath_GetFillMode_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetFillMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getfillmode.htm

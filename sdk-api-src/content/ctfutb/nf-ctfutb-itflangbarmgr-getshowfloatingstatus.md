@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetShowFloatingStatus
 title: ITfLangBarMgr::GetShowFloatingStatus (ctfutb.h)
-description: ITfLangBarMgr::GetShowFloatingStatus method
+description: ITfLangBarMgr::GetShowFloatingStatus methodhelpviewer_keywords: ["GetShowFloatingStatus","GetShowFloatingStatus method [Text Services Framework]","GetShowFloatingStatus method [Text Services Framework]","ITfLangBarMgr interface","ITfLangBarMgr interface [Text Services Framework]","GetShowFloatingStatus method","ITfLangBarMgr.GetShowFloatingStatus","ITfLangBarMgr::GetShowFloatingStatus","_tsf_itflangbarmgr_getshowfloatingstatus_ref","ctfutb/ITfLangBarMgr::GetShowFloatingStatus","tsf.itflangbarmgr_getshowfloatingstatus"]
 old-location: tsf\itflangbarmgr_getshowfloatingstatus.htm
 tech.root: TSF
 ms.assetid: ec187bf0-edf7-4d90-a102-92bb5b58ebdc
@@ -48,8 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains current language bar display settings.
 
 ## -parameters
 

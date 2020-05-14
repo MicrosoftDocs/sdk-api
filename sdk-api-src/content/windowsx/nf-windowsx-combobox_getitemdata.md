@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ComboBox_GetItemData
 title: ComboBox_GetItemData macro (windowsx.h)
-description: Gets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_GETITEMDATA message explicitly.
+description: Gets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_GETITEMDATA message explicitly.helpviewer_keywords: ["ComboBox_GetItemData","ComboBox_GetItemData macro [Windows Controls]","_win32_ComboBox_GetItemData","_win32_ComboBox_GetItemData_cpp","controls.ComboBox_GetItemData","controls._win32_ComboBox_GetItemData","windowsx/ComboBox_GetItemData"]
 old-location: controls\ComboBox_GetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemdata.htm

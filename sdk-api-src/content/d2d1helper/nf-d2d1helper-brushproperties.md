@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.BrushProperties
 title: BrushProperties function (d2d1helper.h)
-description: Creates a D2D1_BRUSH_PROPERTIES structure.
+description: Creates a D2D1_BRUSH_PROPERTIES structure.helpviewer_keywords: ["BrushProperties","BrushProperties function [Direct2D]","d2d1helper/BrushProperties","direct2d.brushproperties"]
 old-location: direct2d\brushproperties.htm
 tech.root: Direct2D
 ms.assetid: eeb438e4-300a-4d7d-b8bf-91baba4a729e

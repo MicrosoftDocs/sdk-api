@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRunningTaskCollection.get_Count
 title: IRunningTaskCollection::get_Count (taskschd.h)
-description: Gets the number of running tasks in the collection.
+description: Gets the number of running tasks in the collection.helpviewer_keywords: ["Count property [Task Scheduler]","Count property [Task Scheduler]","IRunningTaskCollection interface","IRunningTaskCollection interface [Task Scheduler]","Count property","IRunningTaskCollection.Count","IRunningTaskCollection.get_Count","IRunningTaskCollection::Count","IRunningTaskCollection::get_Count","get_Count","taskschd.irunningtaskcollection_count","taskschd/IRunningTaskCollection::Count","taskschd/IRunningTaskCollection::get_Count"]
 old-location: taskschd\irunningtaskcollection_count.htm
 tech.root: taskschd
 ms.assetid: 0365b804-6450-494d-8a5b-8fc805766611

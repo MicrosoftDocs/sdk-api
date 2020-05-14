@@ -1,7 +1,7 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_1101
 title: WKSTA_USER_INFO_1101 (lmwksta.h)
-description: The WKSTA_USER_INFO_1101 structure contains information about the domains accessed by a workstation.
+description: The WKSTA_USER_INFO_1101 structure contains information about the domains accessed by a workstation.helpviewer_keywords: ["*LPWKSTA_USER_INFO_1101","*PWKSTA_USER_INFO_1101","LPWKSTA_USER_INFO_1101","LPWKSTA_USER_INFO_1101 structure pointer [Network Management]","PWKSTA_USER_INFO_1101","PWKSTA_USER_INFO_1101 structure pointer [Network Management]","WKSTA_USER_INFO_1101","WKSTA_USER_INFO_1101 structure [Network Management]","_win32_wksta_user_info_1101_str","lmwksta/LPWKSTA_USER_INFO_1101","lmwksta/PWKSTA_USER_INFO_1101","lmwksta/WKSTA_USER_INFO_1101","netmgmt.wksta_user_info_1101_str"]
 old-location: netmgmt\wksta_user_info_1101_str.htm
 tech.root: NetMgmt
 ms.assetid: 88772ba2-046b-4b03-ae02-d851075e4363

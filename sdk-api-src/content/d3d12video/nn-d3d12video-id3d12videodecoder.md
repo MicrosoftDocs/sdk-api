@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecoder
 title: ID3D12VideoDecoder
-description: Represents a Direct3D 12 video decoder.
+description: Represents a Direct3D 12 video decoder.helpviewer_keywords: ["- ID3D12VideoDecoder"]
 tech.root: mf
 ms.assetid: 21a497e0-2bc6-4373-b240-bdd7da41fc18
 ms.date: 05/28/2019

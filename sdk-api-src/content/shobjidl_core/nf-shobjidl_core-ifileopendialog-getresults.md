@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileOpenDialog.GetResults
 title: IFileOpenDialog::GetResults (shobjidl_core.h)
-description: Gets the user's choices in a dialog that allows multiple selection.
+description: Gets the user's choices in a dialog that allows multiple selection.helpviewer_keywords: ["GetResults","GetResults method [Windows Shell]","GetResults method [Windows Shell]","IFileOpenDialog interface","IFileOpenDialog interface [Windows Shell]","GetResults method","IFileOpenDialog.GetResults","IFileOpenDialog::GetResults","shell.IFileOpenDialog_GetResults","shell_IFileOpenDialog_GetResults","shobjidl_core/IFileOpenDialog::GetResults"]
 old-location: shell\IFileOpenDialog_GetResults.htm
 tech.root: shell
 ms.assetid: 5c710dae-4988-4f19-beb5-2ff9cd11c596

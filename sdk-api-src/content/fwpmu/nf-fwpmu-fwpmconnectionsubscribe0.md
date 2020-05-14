@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmConnectionSubscribe0
 title: FwpmConnectionSubscribe0 function (fwpmu.h)
 description: Is used to request the delivery of notifications about changes to a connection object.
+helpviewer_keywords: ["FwpmConnectionSubscribe0","FwpmConnectionSubscribe0 function [Filtering]","fwp.fwpmconnectionsubscribe0","fwpmu/FwpmConnectionSubscribe0"]
 old-location: fwp\fwpmconnectionsubscribe0.htm
 tech.root: fwp
 ms.assetid: 86fe40b0-aada-44e1-91dd-0e825589159d
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: [FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>*</b>
+Type: [FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)*</b>
 
 The notifications which will be delivered.
 
@@ -166,7 +167,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>
+[FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)
 
 
 

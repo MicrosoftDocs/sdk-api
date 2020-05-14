@@ -1,7 +1,7 @@
 ---
 UID: NS:directxmath.XMUINT3
 title: XMUINT3 (directxmath.h)
-description: A 3D vector where each component is an unsigned integer.
+description: A 3D vector where each component is an unsigned integer.helpviewer_keywords: ["XMUINT3","XMUINT3 structure [DirectX Math Support APIs]","directxmath/XMUINT3","dxmath.xmuint3"]
 old-location: dxmath\xmuint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT3

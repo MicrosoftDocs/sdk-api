@@ -2,6 +2,7 @@
 UID: NS:mstcpip.TRANSPORT_SETTING_ID
 title: TRANSPORT_SETTING_ID (mstcpip.h)
 description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket.
+helpviewer_keywords: ["*PTRANSPORT_SETTING_ID","PTRANSPORT_SETTING_ID","PTRANSPORT_SETTING_ID structure pointer [Winsock]","TRANSPORT_SETTING_ID","TRANSPORT_SETTING_ID structure [Winsock]","transportsettingcommon/PTRANSPORT_SETTING_ID","transportsettingcommon/TRANSPORT_SETTING_ID","winsock.transport_setting_id"]
 old-location: winsock\transport_setting_id.htm
 tech.root: WinSock
 ms.assetid: 8ECBF92A-0AF9-4419-A4E8-0EDEF63FCE16
@@ -85,7 +86,7 @@ The only transport setting currently defines is for the <b>REAL_TIME_NOTIFICATIO
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
+<a href="/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_setting_output">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:ndhelper.tagDiagnosticsInfo
 title: DiagnosticsInfo (ndhelper.h)
-description: The DiagnosticsInfo structure contains the estimate of diagnosis time, and flags for invocation.
+description: The DiagnosticsInfo structure contains the estimate of diagnosis time, and flags for invocation.helpviewer_keywords: ["*PDiagnosticsInfo","DiagnosticsInfo","DiagnosticsInfo structure [NDF]","DiagnosticsInfo","*PDiagnosticsInfo","DiagnosticsInfo","*PDiagnosticsInfo structure [NDF]","ndf.diagnosticsinfo","ndhelper/DiagnosticsInfo"]
 old-location: ndf\diagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: c84cc4ef-ff47-447e-b216-b704cb02719a

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12StateObjectProperties
 title: ID3D12StateObjectProperties (d3d12.h)
-description: Provides methods for getting and setting the properties of an ID3D12StateObject.
+description: Provides methods for getting and setting the properties of an ID3D12StateObject.helpviewer_keywords: ["ID3D12StateObjectProperties","ID3D12StateObjectProperties interface","ID3D12StateObjectProperties interface","described","d3d12/ID3D12StateObjectProperties","direct3d12.id3d12stateobjectproperties"]
 old-location: direct3d12\id3d12stateobjectproperties.htm
 tech.root: direct3d12
 ms.assetid: 3971089A-2779-42FA-8FF9-6C7C8E39C7F9

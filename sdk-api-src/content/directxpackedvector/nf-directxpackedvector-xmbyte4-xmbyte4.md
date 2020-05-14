@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4
 title: XMBYTE4::XMBYTE4 (directxpackedvector.h)
-description: Default constructor for XMBYTE4.
+description: Default constructor for XMBYTE4.helpviewer_keywords: ["XMBYTE4","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 structure","XMBYTE4 structure [DirectX Math Support APIs]","XMBYTE4 constructor","XMBYTE4.XMBYTE4","XMBYTE4.XMBYTE4()","XMBYTE4::XMBYTE4","dxmath.xmbyte4_ctor_1"]
 old-location: dxmath\xmbyte4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE4.#ctor

@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertRequest.GetCACertificate
 title: ICertRequest::GetCACertificate (certcli.h)
-description: Returns the certification authority (CA) certificate for the Certificate Services server.
+description: Returns the certification authority (CA) certificate for the Certificate Services server.helpviewer_keywords: ["CCertRequest object [Security]","GetCACertificate method","CR_OUT_BASE64","CR_OUT_BASE64HEADER","CR_OUT_BINARY","CR_OUT_CHAIN","GetCACertificate","GetCACertificate method [Security]","GetCACertificate method [Security]","CCertRequest object","GetCACertificate method [Security]","ICertRequest interface","GetCACertificate method [Security]","ICertRequest2 interface","GetCACertificate method [Security]","ICertRequest3 interface","ICertRequest interface [Security]","GetCACertificate method","ICertRequest.GetCACertificate","ICertRequest2 interface [Security]","GetCACertificate method","ICertRequest2::GetCACertificate","ICertRequest3 interface [Security]","GetCACertificate method","ICertRequest3::GetCACertificate","ICertRequest::GetCACertificate","certcli/ICertRequest2::GetCACertificate","certcli/ICertRequest3::GetCACertificate","certcli/ICertRequest::GetCACertificate","security.icertrequest2_getcacertificate"]
 old-location: security\icertrequest2_getcacertificate.htm
 tech.root: SecCrypto
 ms.assetid: 711fdcec-0a07-4559-a577-1eb73053dd38

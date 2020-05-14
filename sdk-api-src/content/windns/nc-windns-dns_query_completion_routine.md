@@ -1,7 +1,7 @@
 ---
 UID: NC:windns.DNS_QUERY_COMPLETION_ROUTINE
 title: DNS_QUERY_COMPLETION_ROUTINE (windns.h)
-description: The DNS_QUERY_COMPLETION_ROUTINE callback is used to asynchronously return the results of a DNS query.
+description: The DNS_QUERY_COMPLETION_ROUTINE callback is used to asynchronously return the results of a DNS query.helpviewer_keywords: ["DNS_QUERY_COMPLETION_ROUTINE","DNS_QUERY_COMPLETION_ROUTINE callback","DNS_QUERY_COMPLETION_ROUTINE callback function [DNS]","dns.dns_query_completion_routine","windns/DNS_QUERY_COMPLETION_ROUTINE"]
 old-location: dns\dns_query_completion_routine.htm
 tech.root: DNS
 ms.assetid: 35D78208-FFC1-48B0-8267-EE583DE2D783

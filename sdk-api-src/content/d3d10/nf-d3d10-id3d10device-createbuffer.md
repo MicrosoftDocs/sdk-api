@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateBuffer
 title: ID3D10Device::CreateBuffer (d3d10.h)
-description: Create a buffer (vertex buffer, index buffer, or shader-constant buffer).
+description: Create a buffer (vertex buffer, index buffer, or shader-constant buffer).helpviewer_keywords: ["CreateBuffer","CreateBuffer method [Direct3D 10]","CreateBuffer method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateBuffer method","ID3D10Device.CreateBuffer","ID3D10Device::CreateBuffer","d3d10/ID3D10Device::CreateBuffer","direct3d10.id3d10device_createbuffer","f67833a5-95f8-0430-5015-e074533c6dd1"]
 old-location: direct3d10\id3d10device_createbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createbuffer.htm

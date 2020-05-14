@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetResourceUri
 title: MI_OperationOptions_SetResourceUri function (mi.h)
-description: Sets the resource URI to use for an operation.
+description: Sets the resource URI to use for an operation.helpviewer_keywords: ["MI_OperationOptions_SetResourceUri","MI_OperationOptions_SetResourceUri function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_SetResourceUri","wmi_v2.mi_operationoptions_setresourceuri"]
 old-location: wmi_v2\mi_operationoptions_setresourceuri.htm
 tech.root: wmi_v2
 ms.assetid: 0722bc88-59a6-476b-a325-343d0eb43086

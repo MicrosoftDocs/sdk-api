@@ -2,12 +2,12 @@
 UID: NF:certenroll.ICspAlgorithms.get_ItemByIndex
 title: ICspAlgorithms::get_ItemByIndex (certenroll.h)
 description: Retrieves an ICspAlgorithm object from the collection by index number.
+helpviewer_keywords: ["ICspAlgorithms interface [Security]","ItemByIndex property","ICspAlgorithms.ItemByIndex","ICspAlgorithms.get_ItemByIndex","ICspAlgorithms::ItemByIndex","ICspAlgorithms::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","ICspAlgorithms interface","certenroll/ICspAlgorithms::ItemByIndex","certenroll/ICspAlgorithms::get_ItemByIndex","get_ItemByIndex","security.icspalgorithms_itembyindex_property"]
 old-location: security\icspalgorithms_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: a9016683-fc62-4440-9c15-318199810091
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByIndex property, ICspAlgorithms.ItemByIndex, ICspAlgorithms.get_ItemByIndex, ICspAlgorithms::ItemByIndex, ICspAlgorithms::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByIndex, certenroll/ICspAlgorithms::get_ItemByIndex, get_ItemByIndex, security.icspalgorithms_itembyindex_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICspAlgorithms.ItemByIndex
 dev_langs:

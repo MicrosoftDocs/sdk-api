@@ -1,7 +1,7 @@
 ---
 UID: NN:cluadmex.IGetClusterNetworkInfo
 title: IGetClusterNetworkInfo (cluadmex.h)
-description: Called by a Failover Cluster Administrator extension to retrieve information about a network.
+description: Called by a Failover Cluster Administrator extension to retrieve information about a network.helpviewer_keywords: ["IGetClusterNetworkInfo","IGetClusterNetworkInfo interface [Failover Cluster]","IGetClusterNetworkInfo interface [Failover Cluster]","described","_wolf_igetclusternetworkinfo","cluadmex/IGetClusterNetworkInfo","mscs.igetclusternetworkinfo"]
 old-location: mscs\igetclusternetworkinfo.htm
 tech.root: MsCS
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4

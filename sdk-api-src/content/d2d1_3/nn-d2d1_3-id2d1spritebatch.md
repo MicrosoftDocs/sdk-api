@@ -2,6 +2,7 @@
 UID: NN:d2d1_3.ID2D1SpriteBatch
 title: ID2D1SpriteBatch (d2d1_3.h)
 description: Represents a single group of sprites with their associated drawing properties.
+helpviewer_keywords: ["ID2D1SpriteBatch","ID2D1SpriteBatch interface [Direct2D]","ID2D1SpriteBatch interface [Direct2D]","described","d2d1_3/ID2D1SpriteBatch","direct2d.id2d1spritebatch"]
 old-location: direct2d\id2d1spritebatch.htm
 tech.root: Direct2D
 ms.assetid: D33958D5-D31C-47DC-B172-CADB1F1B81AE
@@ -120,7 +121,7 @@ Updates the properties of the specified sprites in this sprite batch.
 
 
 Create a new sprite batch using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch">ID2D1DeviceContext3::CreateSpriteBatch</a>. 
-          Use [ID2D1DeviceContext3::DrawSpriteBatch](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch)a> to draw them.
+          Use [ID2D1DeviceContext3::DrawSpriteBatch](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch) to draw them.
         
 
 Sprites are a way for apps to draw a large number of images very efficiently. 

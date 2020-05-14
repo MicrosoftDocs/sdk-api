@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._NETINFOSTRUCT
 title: NETINFOSTRUCT (winnetwk.h)
-description: Contains information describing the network provider returned by the WNetGetNetworkInformation function.
+description: Contains information describing the network provider returned by the WNetGetNetworkInformation function.helpviewer_keywords: ["*LPNETINFOSTRUCT","ERROR_BUSY","ERROR_NO_NETWORK","LPNETINFOSTRUCT","LPNETINFOSTRUCT structure pointer [Windows Networking (WNet)]","NETINFOSTRUCT","NETINFOSTRUCT structure [Windows Networking (WNet)]","NETINFO_DISKRED","NETINFO_DLL16","NETINFO_PRINTERRED","NO_ERROR","_win32_netinfostruct_str","winnetwk/LPNETINFOSTRUCT","winnetwk/NETINFOSTRUCT","wnet.netinfostruct_str"]
 old-location: wnet\netinfostruct_str.htm
 tech.root: WNet
 ms.assetid: 2f60209f-7777-4130-b212-245673dd0055

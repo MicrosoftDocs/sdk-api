@@ -1,7 +1,7 @@
 ---
 UID: NN:tsvirtualchannels.IWTSBitmapRenderService
 title: IWTSBitmapRenderService (tsvirtualchannels.h)
-description: This service is used to create a visual mapping on the client corresponding to a mapped window on the server.
+description: This service is used to create a visual mapping on the client corresponding to a mapped window on the server.helpviewer_keywords: ["IWTSBitmapRenderService","IWTSBitmapRenderService interface [Remote Desktop Services]","IWTSBitmapRenderService interface [Remote Desktop Services]","described","termserv.iwtsbitmaprenderservice","tsvirtualchannels/IWTSBitmapRenderService"]
 old-location: termserv\iwtsbitmaprenderservice.htm
 tech.root: TermServ
 ms.assetid: 5ddc6ad8-1006-473e-b0f4-a5829045219a

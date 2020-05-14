@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetDescription
 title: ICreateErrorInfo::SetDescription (oaidl.h)
-description: Sets the textual description of the error.
+description: Sets the textual description of the error.helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetDescription method","ICreateErrorInfo.SetDescription","ICreateErrorInfo::SetDescription","SetDescription","SetDescription method [Automation]","SetDescription method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetDescription","automat.icreateerrorinfo_setdescription","oaidl/ICreateErrorInfo::SetDescription"]
 old-location: automat\icreateerrorinfo_setdescription.htm
 tech.root: automat
 ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2

@@ -1,7 +1,7 @@
 ---
 UID: NF:imagehlp.ImageEnumerateCertificates
 title: ImageEnumerateCertificates function (imagehlp.h)
-description: Retrieves information about the certificates currently contained in an image file.
+description: Retrieves information about the certificates currently contained in an image file.helpviewer_keywords: ["ImageEnumerateCertificates","ImageEnumerateCertificates function","_win32_imageenumeratecertificates","base.imageenumeratecertificates","imagehlp/ImageEnumerateCertificates"]
 old-location: base\imageenumeratecertificates.htm
 tech.root: Debug
 ms.assetid: 5f2e4fb7-180a-4172-9c38-5f65dfd29f69

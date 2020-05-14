@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.CreateWellKnownSid
 title: CreateWellKnownSid function (securitybaseapi.h)
-description: Creates a SID for predefined aliases.
+description: Creates a SID for predefined aliases.helpviewer_keywords: ["CreateWellKnownSid","CreateWellKnownSid function [Security]","_win32_createwellknownsid","security.createwellknownsid","securitybaseapi/CreateWellKnownSid"]
 old-location: security\createwellknownsid.htm
 tech.root: SecAuthZ
 ms.assetid: 00e75bae-fbce-41a3-a0bc-c345c36f2c84

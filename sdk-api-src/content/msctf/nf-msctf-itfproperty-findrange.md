@@ -2,6 +2,7 @@
 UID: NF:msctf.ITfProperty.FindRange
 title: ITfProperty::FindRange (msctf.h)
 description: ITfProperty::FindRange method
+helpviewer_keywords: ["FindRange","FindRange method [Text Services Framework]","FindRange method [Text Services Framework]","ITfProperty interface","ITfProperty interface [Text Services Framework]","FindRange method","ITfProperty.FindRange","ITfProperty::FindRange","_tsf_itfproperty_findrange_ref","msctf/ITfProperty::FindRange","tsf.itfproperty_findrange"]
 old-location: tsf\itfproperty_findrange.htm
 tech.root: TSF
 ms.assetid: 08e9c9c1-768b-406c-96ae-e0776b59344d
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range that covers the text that contains a non-empty value for the property.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ Pointer to an <b>ITfRange</b> interface pointer that receives the requested rang
 
 ### -param aPos [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values which specifies which anchor of <i>pRange</i> is used as the point to obtain the property range for.
+Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a> values which specifies which anchor of <i>pRange</i> is used as the point to obtain the property range for.
 
 
 ## -returns
@@ -199,7 +199,7 @@ TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a>
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a>
  
 
  

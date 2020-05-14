@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetCurrentInputMessageSource
 title: GetCurrentInputMessageSource function (winuser.h)
-description: Retrieves the source of the input message.
+description: Retrieves the source of the input message.helpviewer_keywords: ["GetCurrentInputMessageSource","GetCurrentInputMessageSource function","input_sourceid.getcurrentinputmessagesource","inputsourceid.getcurrentinputmessagesource","winuser/GetCurrentInputMessageSource"]
 old-location: input_sourceid\getcurrentinputmessagesource.htm
 tech.root: Input_SourceId
 ms.assetid: 35e4ebf5-df9d-4168-9996-355204c2ab93

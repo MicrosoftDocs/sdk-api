@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_PUSH_BYTES_CALLBACK
 title: WS_PUSH_BYTES_CALLBACK (webservices.h)
-description: Used by the WsPushBytes function to request that data be written.
+description: Used by the WsPushBytes function to request that data be written.helpviewer_keywords: ["WS_PUSH_BYTES_CALLBACK","WS_PUSH_BYTES_CALLBACK callback","WS_PUSH_BYTES_CALLBACK callback function [Web Services for Windows]","webservices/WS_PUSH_BYTES_CALLBACK","wsw.ws_push_bytes_callback"]
 old-location: wsw\ws_push_bytes_callback.htm
 tech.root: wsw
 ms.assetid: e2f88488-94b7-41c8-95ae-9c409b132466

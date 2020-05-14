@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabGetEndpointName
 title: PeerCollabGetEndpointName function (p2p.h)
-description: Retrieves the name of the current endpoint of the calling peer, as previously set by a call to PeerCollabSetEndpointName.
+description: Retrieves the name of the current endpoint of the calling peer, as previously set by a call to PeerCollabSetEndpointName.helpviewer_keywords: ["PeerCollabGetEndpointName","PeerCollabGetEndpointName function [Peer Networking]","p2p.peercollabgetendpointname","p2p/PeerCollabGetEndpointName"]
 old-location: p2p\peercollabgetendpointname.htm
 tech.root: P2PSdk
 ms.assetid: f6165772-be55-4b56-bc70-dfa2c4a40c61

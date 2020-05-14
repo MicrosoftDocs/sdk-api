@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_REGISTER_STATE
 title: MBN_REGISTER_STATE (mbnapi.h)
-description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.
+description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.helpviewer_keywords: ["MBN_REGISTER_STATE","MBN_REGISTER_STATE enumeration [Microsoft Broadband Networks]","MBN_REGISTER_STATE_DENIED","MBN_REGISTER_STATE_DEREGISTERED","MBN_REGISTER_STATE_HOME","MBN_REGISTER_STATE_NONE","MBN_REGISTER_STATE_PARTNER","MBN_REGISTER_STATE_ROAMING","MBN_REGISTER_STATE_SEARCHING","mbn.mbn_register_state","mbnapi/MBN_REGISTER_STATE","mbnapi/MBN_REGISTER_STATE_DENIED","mbnapi/MBN_REGISTER_STATE_DEREGISTERED","mbnapi/MBN_REGISTER_STATE_HOME","mbnapi/MBN_REGISTER_STATE_NONE","mbnapi/MBN_REGISTER_STATE_PARTNER","mbnapi/MBN_REGISTER_STATE_ROAMING","mbnapi/MBN_REGISTER_STATE_SEARCHING"]
 old-location: mbn\mbn_register_state.htm
 tech.root: mbn
 ms.assetid: cbe29357-b374-4764-9322-6308b98ddc3e

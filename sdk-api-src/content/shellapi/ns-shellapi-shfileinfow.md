@@ -1,7 +1,7 @@
 ---
 UID: NS:shellapi._SHFILEINFOW
 title: SHFILEINFOW (shellapi.h)
-description: Contains information about a file object.
+description: Contains information about a file object.helpviewer_keywords: ["SHFILEINFO","SHFILEINFO structure [Windows Shell]","SHFILEINFOW","_win32_SHFILEINFO","shell.SHFILEINFO","shellapi/SHFILEINFO"]
 old-location: shell\SHFILEINFO.htm
 tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe

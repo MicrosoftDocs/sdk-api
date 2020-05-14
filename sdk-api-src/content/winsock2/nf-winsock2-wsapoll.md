@@ -2,6 +2,7 @@
 UID: NF:winsock2.WSAPoll
 title: WSAPoll function (winsock2.h)
 description: The WSAPoll function determines status of one or more sockets.
+helpviewer_keywords: ["WSAPoll","WSAPoll function [Winsock]","mswsock/WSAPoll","winsock.wsapoll"]
 old-location: winsock\wsapoll.htm
 tech.root: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
@@ -154,7 +155,7 @@ An exception occurred while reading user input parameters.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)a> structures  pointed to by the <i>fdarray</i> parameter when requesting socket
+An invalid parameter was passed. This error is returned if the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structures  pointed to by the <i>fdarray</i> parameter when requesting socket
                        status. This error is also returned if none of the sockets specified in the <b>fd</b> member of any of the <b>WSAPOLLFD</b> structures  pointed to by the <i>fdarray</i> parameter were valid. 
 
 </td>
@@ -260,15 +261,15 @@ When the [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd) structur
 With regard to TCP and UDP sockets:
 
 <ul>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure as normal data as <b>POLLRDNORM</b>.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure, a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> operation is guaranteed to complete without blocking.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure by <b>POLLWRNORM</b>.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a>  structure by <b>POLLRDNORM</b>. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> is guaranteed to complete without blocking.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure by <b>POLLRDBAND</b>.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when a remote peer shuts down a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> operation (a TCP FIN was received). A subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function request will return zero bytes.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when the remote peer initiates a graceful disconnect.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure returned when a remote peer suddenly disconnects.</li>
-<li><a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when the local socket is closed.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure as normal data as <b>POLLRDNORM</b>.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure, a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> operation is guaranteed to complete without blocking.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure by <b>POLLWRNORM</b>.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a>  structure by <b>POLLRDNORM</b>. A subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> is guaranteed to complete without blocking.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure by <b>POLLRDBAND</b>.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when a remote peer shuts down a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> operation (a TCP FIN was received). A subsequent <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function request will return zero bytes.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when the remote peer initiates a graceful disconnect.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure returned when a remote peer suddenly disconnects.</li>
+<li><a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structure when the local socket is closed.</li>
 </ul>
 
 

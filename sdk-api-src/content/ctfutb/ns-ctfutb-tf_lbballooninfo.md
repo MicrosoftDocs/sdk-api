@@ -2,6 +2,7 @@
 UID: NS:ctfutb.TF_LBBALLOONINFO
 title: TF_LBBALLOONINFO (ctfutb.h)
 description: The TF_LBBALLOONINFO structure contains information about a language bar balloon item.
+helpviewer_keywords: ["TF_LBBALLOONINFO","TF_LBBALLOONINFO structure [Text Services Framework]","_tsf_tf_lbballooninfo_ref","ctfutb/TF_LBBALLOONINFO","tsf.tf_lbballooninfo"]
 old-location: tsf\tf_lbballooninfo.htm
 tech.root: TSF
 ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79
@@ -62,7 +63,7 @@ The <b>TF_LBBALLOONINFO</b> structure contains information about a language bar 
 
 ### -field style
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> values that specify the type of balloon to display.
+Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> values that specify the type of balloon to display.
 
 
 ### -field bstrText
@@ -88,7 +89,7 @@ Contains a <b>BSTR</b> that contains the string for the balloon. This string mus
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
  
 

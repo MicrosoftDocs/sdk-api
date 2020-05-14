@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_DESC
 title: D3DX11_FFT_DESC (d3dcsx.h)
-description: Describes an FFT.
+description: Describes an FFT.helpviewer_keywords: ["68cda090-9f5e-c349-40c7-a6e3b2bd2960","D3DX11_FFT_DESC","D3DX11_FFT_DESC structure [Direct3D 11]","d3dcsx/D3DX11_FFT_DESC","direct3d11.d3dx11_fft_desc"]
 old-location: direct3d11\d3dx11_fft_desc.htm
 tech.root: direct3d11
 ms.assetid: b410e7c4-3b16-4510-9555-fc8b22fd3e2c

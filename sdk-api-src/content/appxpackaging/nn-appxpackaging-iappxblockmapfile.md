@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapFile
 title: IAppxBlockMapFile (appxpackaging.h)
-description: Represents a file in the block map.
+description: Represents a file in the block map.helpviewer_keywords: ["IAppxBlockMapFile","IAppxBlockMapFile interface [App packaging and management]","IAppxBlockMapFile interface [App packaging and management]","described","appxpackaging/IAppxBlockMapFile","appxpkg.iappxblockmapfile"]
 old-location: appxpkg\iappxblockmapfile.htm
 tech.root: appxpkg
 ms.assetid: 4C380E2F-8125-4147-97F5-BEDF5BEFB81D

@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Clone
 title: IWMDMEnumStorage::Clone (mswmdm.h)
-description: The Clone method creates another enumerator with the same enumeration state as the current enumerator.
+description: The Clone method creates another enumerator with the same enumeration state as the current enumerator.helpviewer_keywords: ["Clone","Clone method [windows Media Device Manager]","Clone method [windows Media Device Manager]","IWMDMEnumStorage interface","IWMDMEnumStorage interface [windows Media Device Manager]","Clone method","IWMDMEnumStorage.Clone","IWMDMEnumStorage::Clone","IWMDMEnumStorageClone","mswmdm/IWMDMEnumStorage::Clone","wmdm.iwmdmenumstorage_clone"]
 old-location: wmdm\iwmdmenumstorage_clone.htm
 tech.root: WMDM
 ms.assetid: 3b4bc213-8345-45ae-90bd-49e89684fd9a

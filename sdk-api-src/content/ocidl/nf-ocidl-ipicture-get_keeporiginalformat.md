@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IPicture.get_KeepOriginalFormat
 title: IPicture::get_KeepOriginalFormat (ocidl.h)
-description: Retrieves the current value of the picture's KeepOriginalFormat property.
+description: Retrieves the current value of the picture's KeepOriginalFormat property.helpviewer_keywords: ["IPicture interface [COM]","get_KeepOriginalFormat method","IPicture.get_KeepOriginalFormat","IPicture::get_KeepOriginalFormat","_ctrl_ipicture_get_keeporiginalformat","com.ipicture_get_keeporiginalformat","get_KeepOriginalFormat","get_KeepOriginalFormat method [COM]","get_KeepOriginalFormat method [COM]","IPicture interface","ocidl/IPicture::get_KeepOriginalFormat"]
 old-location: com\ipicture_get_keeporiginalformat.htm
 tech.root: com
 ms.assetid: 90befcb7-138f-4c63-a6ec-ec06c89b3317

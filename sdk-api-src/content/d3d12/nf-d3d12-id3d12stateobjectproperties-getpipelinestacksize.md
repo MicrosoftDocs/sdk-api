@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.GetPipelineStackSize
 title: ID3D12StateObjectProperties::GetPipelineStackSize (d3d12.h)
-description: Gets the current pipeline stack size.
+description: Gets the current pipeline stack size.helpviewer_keywords: ["GetPipelineStackSize","GetPipelineStackSize method","GetPipelineStackSize method","ID3D12StateObjectProperties interface","ID3D12StateObjectProperties interface","GetPipelineStackSize method","ID3D12StateObjectProperties.GetPipelineStackSize","ID3D12StateObjectProperties::GetPipelineStackSize","d3d12/ID3D12StateObjectProperties::GetPipelineStackSize","direct3d12.id3d12stateobjectproperties_getpipelinestacksize"]
 old-location: direct3d12\id3d12stateobjectproperties_getpipelinestacksize.htm
 tech.root: direct3d12
 ms.assetid: 6570D84B-F589-4090-8F08-F91B12B0E283

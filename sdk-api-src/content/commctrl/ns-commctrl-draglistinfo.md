@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagDRAGLISTINFO
 title: DRAGLISTINFO (commctrl.h)
-description: Contains information about a drag event. The pointer to DRAGLISTINFO is passed as the lParam parameter of the drag list message.
+description: Contains information about a drag event. The pointer to DRAGLISTINFO is passed as the lParam parameter of the drag list message.helpviewer_keywords: ["*LPDRAGLISTINFO","DL_BEGINDRAG","DL_CANCELDRAG","DL_DRAGGING","DL_DROPPED","DRAGLISTINFO","DRAGLISTINFO structure [Windows Controls]","LPDRAGLISTINFO","LPDRAGLISTINFO structure pointer [Windows Controls]","_win32_DRAGLISTINFO","_win32_DRAGLISTINFO_cpp","commctrl/DRAGLISTINFO","commctrl/LPDRAGLISTINFO","controls.DRAGLISTINFO","controls._win32_DRAGLISTINFO"]
 old-location: controls\DRAGLISTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\structures\draglistinfo.htm

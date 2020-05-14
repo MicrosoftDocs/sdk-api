@@ -1,7 +1,7 @@
 ---
 UID: NS:searchapi._PROXY_INFO
 title: PROXY_INFO (searchapi.h)
-description: Stores information about a proxy. Used by ISearchProtocol.
+description: Stores information about a proxy. Used by ISearchProtocol.helpviewer_keywords: ["PROXY_INFO","PROXY_INFO structure [search]","_search_PROXY_INFO","search._search_PROXY_INFO","searchapi/PROXY_INFO"]
 old-location: search\_search_PROXY_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\proxy_info.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketSize
 title: IInkStrokeDisp::get_PacketSize (msinkaut.h)
-description: Gets the size, in bytes, of a packet.
+description: Gets the size, in bytes, of a packet.helpviewer_keywords: ["42016aa0-7cc4-43d5-a055-7007a4bf9f07","IInkStrokeDisp interface [Tablet PC]","PacketSize property","IInkStrokeDisp.PacketSize","IInkStrokeDisp.get_PacketSize","IInkStrokeDisp::PacketSize","IInkStrokeDisp::get_PacketSize","PacketSize property [Tablet PC]","PacketSize property [Tablet PC]","IInkStrokeDisp interface","get_PacketSize","msinkaut/IInkStrokeDisp::PacketSize","msinkaut/IInkStrokeDisp::get_PacketSize","tablet.iinkstrokedisp_packetsize"]
 old-location: tablet\iinkstrokedisp_packetsize.htm
 tech.root: tablet
 ms.assetid: 42016aa0-7cc4-43d5-a055-7007a4bf9f07

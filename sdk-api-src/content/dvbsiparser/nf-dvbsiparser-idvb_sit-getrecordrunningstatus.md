@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetRecordRunningStatus
 title: IDVB_SIT::GetRecordRunningStatus (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordRunningStatus","GetRecordRunningStatus method [Microsoft TV Technologies]","GetRecordRunningStatus method [Microsoft TV Technologies]","IDVB_SIT interface","IDVB_SIT interface [Microsoft TV Technologies]","GetRecordRunningStatus method","IDVB_SIT.GetRecordRunningStatus","IDVB_SIT::GetRecordRunningStatus","IDVB_SITGetRecordRunningStatus","dvbsiparser/IDVB_SIT::GetRecordRunningStatus","mstv.idvb_sit_getrecordrunningstatus"]
 old-location: mstv\idvb_sit_getrecordrunningstatus.htm
 tech.root: mstv
 ms.assetid: 223b7f11-b2fa-4f63-9c9d-bee02e721670

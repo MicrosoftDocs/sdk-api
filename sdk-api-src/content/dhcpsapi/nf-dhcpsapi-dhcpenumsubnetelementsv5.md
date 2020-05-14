@@ -2,6 +2,7 @@
 UID: NF:dhcpsapi.DhcpEnumSubnetElementsV5
 title: DhcpEnumSubnetElementsV5 function (dhcpsapi.h)
 description: The DhcpEnumSubnetElementsV5 function returns an enumerated list of elements for a specific DHCP subnet.
+helpviewer_keywords: ["DhcpEnumSubnetElementsV5","DhcpEnumSubnetElementsV5 function [DHCP]","dhcp.dhcpenumsubnetelementsv5","dhcpsapi/DhcpEnumSubnetElementsV5"]
 old-location: dhcp\dhcpenumsubnetelementsv5.htm
 tech.root: DHCP
 ms.assetid: d6fd543c-5036-469e-9e48-02573c7dcb9f
@@ -71,7 +72,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param EnumElementType [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
+<a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
 
 
 ### -param ResumeHandle [in, out]
@@ -90,7 +91,7 @@ To retrieve all the subnet client elements for the default user and vendor class
 
 ### -param EnumElementInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array_v5">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5</a> structure containing an enumerated list of all elements available for the specified subnet. If no elements are available for enumeration, this value will be null.
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array_v5">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5</a> structure containing an enumerated list of all elements available for the specified subnet. If no elements are available for enumeration, this value will be null.
 
 
 ### -param ElementsRead [out]
@@ -167,11 +168,11 @@ When no longer needed, the resources consumed for the  enumerated data, and all 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array_v5">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5</a>
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array_v5">DHCP_SUBNET_ELEMENT_INFO_ARRAY_V5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
  
 
  

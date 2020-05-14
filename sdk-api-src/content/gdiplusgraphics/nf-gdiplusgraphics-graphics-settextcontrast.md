@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetTextContrast
 title: Graphics::SetTextContrast (gdiplusgraphics.h)
-description: The Graphics::SetTextContrast method sets the contrast value of this Graphics object. The contrast value is used for antialiasing text.
+description: The Graphics::SetTextContrast method sets the contrast value of this Graphics object. The contrast value is used for antialiasing text.helpviewer_keywords: ["Graphics class [GDI+]","SetTextContrast method","Graphics.SetTextContrast","Graphics::SetTextContrast","SetTextContrast","SetTextContrast method [GDI+]","SetTextContrast method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetTextContrast_contrast_","gdiplus._gdiplus_CLASS_Graphics_SetTextContrast_contrast_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetTextContrast_contrast_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\settextcontrast.htm

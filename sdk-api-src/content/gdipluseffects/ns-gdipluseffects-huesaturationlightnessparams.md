@@ -1,7 +1,7 @@
 ---
 UID: NS:gdipluseffects.HueSaturationLightnessParams
 title: HueSaturationLightnessParams (gdipluseffects.h)
-description: The HueSaturationLightnessParams structure contains members that specify hue, saturation and lightness adjustments to a bitmap.
+description: The HueSaturationLightnessParams structure contains members that specify hue, saturation and lightness adjustments to a bitmap.helpviewer_keywords: ["HueSaturationLightnessParams","HueSaturationLightnessParams structure [GDI+]","_gdiplus_STRUC_HueSaturationLightnessParams","gdiplus._gdiplus_STRUC_HueSaturationLightnessParams","gdipluseffects/HueSaturationLightnessParams"]
 old-location: gdiplus\_gdiplus_STRUC_HueSaturationLightnessParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\huesaturationlightnessparams.htm

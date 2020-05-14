@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_Elevation
 title: IDVBSLocator::put_Elevation (tuner.h)
-description: The put_Elevation method sets the elevation of the satellite in tenths of a degree.
+description: The put_Elevation method sets the elevation of the satellite in tenths of a degree.helpviewer_keywords: ["IDVBSLocator interface [Microsoft TV Technologies]","put_Elevation method","IDVBSLocator.put_Elevation","IDVBSLocator::put_Elevation","IDVBSLocatorput_Elevation","mstv.idvbslocator_put_elevation","put_Elevation","put_Elevation method [Microsoft TV Technologies]","put_Elevation method [Microsoft TV Technologies]","IDVBSLocator interface","tuner/IDVBSLocator::put_Elevation"]
 old-location: mstv\idvbslocator_put_elevation.htm
 tech.root: mstv
 ms.assetid: 12db3e20-9102-483c-a4ef-8a90a376b7af

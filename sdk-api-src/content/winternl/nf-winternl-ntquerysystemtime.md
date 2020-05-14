@@ -2,6 +2,7 @@
 UID: NF:winternl.NtQuerySystemTime
 title: NtQuerySystemTime function (winternl.h)
 description: Retrieves the current system time.
+helpviewer_keywords: ["NtQuerySystemTime","NtQuerySystemTime function","base.ntquerysystemtime","winternl/NtQuerySystemTime"]
 old-location: base\ntquerysystemtime.htm
 tech.root: SysInfo
 ms.assetid: 5b083c4f-ec2b-4118-b49e-1ca3e0af342e
@@ -61,7 +62,7 @@ Retrieves the current system time.
 
 ### -param SystemTime [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that receives the system time. This is a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that receives the system time. This is a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 
 
 ## -returns

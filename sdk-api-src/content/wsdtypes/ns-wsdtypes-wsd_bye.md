@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_BYE
 title: WSD_BYE (wsdtypes.h)
-description: Represents a Bye message.
+description: Represents a Bye message.helpviewer_keywords: ["WSD_BYE","WSD_BYE structure","ncd.wsd_bye_struct","wsdtypes/WSD_BYE"]
 old-location: ncd\wsd_bye_struct.htm
 tech.root: WsdApi
 ms.assetid: b0eb67e1-1408-45ab-b7a7-ecde6619a277

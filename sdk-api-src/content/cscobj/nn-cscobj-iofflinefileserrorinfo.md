@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesErrorInfo
 title: IOfflineFilesErrorInfo (cscobj.h)
-description: Provides a text description and raw data block associated with an error.
+description: Provides a text description and raw data block associated with an error.helpviewer_keywords: ["IOfflineFilesErrorInfo","IOfflineFilesErrorInfo interface [Offline Files]","IOfflineFilesErrorInfo interface [Offline Files]","described","cscobj/IOfflineFilesErrorInfo","of.iofflinefileserrorinfo"]
 old-location: of\iofflinefileserrorinfo.htm
 tech.root: offlinefiles
 ms.assetid: 6c78d475-aa63-49e4-863f-1a197801f2f9

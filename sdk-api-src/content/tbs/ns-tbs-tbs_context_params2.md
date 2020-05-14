@@ -1,7 +1,7 @@
 ---
 UID: NS:tbs.tdTBS_CONTEXT_PARAMS2
 title: TBS_CONTEXT_PARAMS2 (tbs.h)
-description: Specifies the version of the TBS context implementation. You must use this structure if your application works with both versions of TPM.
+description: Specifies the version of the TBS context implementation. You must use this structure if your application works with both versions of TPM.helpviewer_keywords: ["*PTBS_CONTEXT_PARAMS2","PTBS_CONTEXT_PARAMS2","PTBS_CONTEXT_PARAMS2 structure pointer [TBS]","TBS_CONTEXT_PARAMS2","TBS_CONTEXT_PARAMS2 structure [TBS]","tbs.tbs_context_params2","tbs/PTBS_CONTEXT_PARAMS2","tbs/TBS_CONTEXT_PARAMS2"]
 old-location: tbs\tbs_context_params2.htm
 tech.root: TBS
 ms.assetid: B113B422-A66E-4498-99DA-65D4ED0B84B1

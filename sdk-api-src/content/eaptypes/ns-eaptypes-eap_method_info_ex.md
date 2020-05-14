@@ -2,6 +2,7 @@
 UID: NS:eaptypes._EAP_METHOD_INFO_EX
 title: EAP_METHOD_INFO_EX (eaptypes.h)
 description: Contains information about an EAP method.
+helpviewer_keywords: ["EAP_METHOD_INFO_EX","EAP_METHOD_INFO_EX structure [EAPHost]","eaphost.eap_method_info_ex","eaptypes/EAP_METHOD_INFO_EX"]
 old-location: eaphost\eap_method_info_ex.htm
 tech.root: eaphost
 ms.assetid: 2d25f418-2130-4f9c-b3f4-f639dfba020a
@@ -74,7 +75,7 @@ Pointer to a zero-terminated Unicode string that contains the display name of th
 
 ### -field eapProperties
 
-Set of flags that describe specific properties of the EAP methods. For flag descriptions, see [EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>.
+Set of flags that describe specific properties of the EAP methods. For flag descriptions, see [EAP Method Properties](/windows/win32/eaphost/eap-method-properties).
 
 
 ### -field pInnerMethodInfoArray
@@ -92,11 +93,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 
 
-[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
+[Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 
 
-[EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>
+[EAP Method Properties](/windows/win32/eaphost/eap-method-properties)
 
 
 

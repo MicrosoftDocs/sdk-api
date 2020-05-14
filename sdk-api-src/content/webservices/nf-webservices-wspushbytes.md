@@ -2,6 +2,7 @@
 UID: NF:webservices.WsPushBytes
 title: WsPushBytes function (webservices.h)
 description: Establishes a callback to be invoked to write bytes within an element. In some encodings this can be more efficient by eliminating a copy of the data.
+helpviewer_keywords: ["WsPushBytes","WsPushBytes function [Web Services for Windows]","webservices/WsPushBytes","wsw.wspushbytes"]
 old-location: wsw\wspushbytes.htm
 tech.root: wsw
 ms.assetid: 295eb530-00f1-4e80-bd8a-ffb3eb1fad5b
@@ -126,7 +127,7 @@ The operation is not allowed due to the current state of the object.
 
 
 
-When writing with the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, <b>WsPushBytes</b> provides a way
+When writing with the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, <b>WsPushBytes</b> provides a way
         to write bytes directly into its own MIME part and avoid a copy.  However, the writer at its discretion,
         may choose to invoke the callback immediately, so the caller should be prepared for this.
       

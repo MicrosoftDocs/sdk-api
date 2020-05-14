@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMLVEMPTYMARKUP
 title: NMLVEMPTYMARKUP (commctrl.h)
-description: Contains information used with the LVN_GETEMPTYMARKUP notification code.
+description: Contains information used with the LVN_GETEMPTYMARKUP notification code.helpviewer_keywords: ["EMF_CENTERED","NMLVEMPTYMARKUP","NMLVEMPTYMARKUP structure [Windows Controls]","commctrl/NMLVEMPTYMARKUP","controls.NMLVEMPTYMARKUP","controls.shell_NMLVEMPTYMARKUP","shell_NMLVEMPTYMARKUP","shell_NMLVEMPTYMARKUP_cpp"]
 old-location: controls\NMLVEMPTYMARKUP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm

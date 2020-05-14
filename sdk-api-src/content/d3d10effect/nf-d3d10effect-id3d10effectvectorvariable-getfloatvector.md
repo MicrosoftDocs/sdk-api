@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetFloatVector
 title: ID3D10EffectVectorVariable::GetFloatVector (d3d10effect.h)
-description: Get a four-component vector that contains floating-point data.
+description: Get a four-component vector that contains floating-point data.helpviewer_keywords: ["7e29e81e-7c50-74b7-f1b6-8f9aa750deb0","GetFloatVector","GetFloatVector method [Direct3D 10]","GetFloatVector method [Direct3D 10]","ID3D10EffectVectorVariable interface","ID3D10EffectVectorVariable interface [Direct3D 10]","GetFloatVector method","ID3D10EffectVectorVariable.GetFloatVector","ID3D10EffectVectorVariable::GetFloatVector","d3d10effect/ID3D10EffectVectorVariable::GetFloatVector","direct3d10.id3d10effectvectorvariable_getfloatvector"]
 old-location: direct3d10\id3d10effectvectorvariable_getfloatvector.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getfloatvector.htm

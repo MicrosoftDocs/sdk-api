@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetCloseHandle
 title: InternetCloseHandle function (wininet.h)
-description: Closes a single Internet handle.
+description: Closes a single Internet handle.helpviewer_keywords: ["InternetCloseHandle","InternetCloseHandle function [WinINet]","_win32_internetclosehandle","wininet.internetclosehandle","wininet/InternetCloseHandle"]
 old-location: wininet\internetclosehandle.htm
 tech.root: wininet
 ms.assetid: 52b57e3c-3cfe-40bc-b87b-90cf39c5c38d

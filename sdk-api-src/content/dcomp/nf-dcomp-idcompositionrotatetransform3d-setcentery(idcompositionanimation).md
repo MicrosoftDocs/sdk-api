@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation) (dcomp.h)
 description: Animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
+helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterY method","IDCompositionRotateTransform3D.SetCenterY","IDCompositionRotateTransform3D.SetCenterY(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetCenterY","IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetCenterY(IDCompositionAnimation*)","SetCenterY","SetCenterY method [DirectComposition]","SetCenterY method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterY","directcomp.idcompositionrotatetransform3d_setcentery_idcompositionanimation"]
 old-location: directcomp\idcompositionrotatetransform3d_setcentery_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 051E01E0-1A1B-4724-A8F2-F12F2EC27C4C
@@ -98,11 +99,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx(float)">IDCompositionRotateTransform3D::SetCenterX</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterx(float)">IDCompositionRotateTransform3D::SetCenterX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(float)">IDCompositionRotateTransform3D::SetCenterZ</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(float)">IDCompositionRotateTransform3D::SetCenterZ</a>
  
 
  

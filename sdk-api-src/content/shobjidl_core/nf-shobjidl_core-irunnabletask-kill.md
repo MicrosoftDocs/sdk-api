@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Kill
 title: IRunnableTask::Kill (shobjidl_core.h)
-description: Requests that a task be stopped.
+description: Requests that a task be stopped.helpviewer_keywords: ["IRunnableTask interface [Windows Shell]","Kill method","IRunnableTask.Kill","IRunnableTask::Kill","Kill","Kill method [Windows Shell]","Kill method [Windows Shell]","IRunnableTask interface","_win32_IRunnableTask_Kill","shell.IRunnableTask_Kill","shobjidl_core/IRunnableTask::Kill"]
 old-location: shell\IRunnableTask_Kill.htm
 tech.root: shell
 ms.assetid: 7465aded-43ff-4b63-8a90-b9f55240625b

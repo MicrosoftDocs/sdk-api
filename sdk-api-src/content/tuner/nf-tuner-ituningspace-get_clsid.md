@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpace.get_CLSID
 title: ITuningSpace::get_CLSID (tuner.h)
-description: The get_CLSID method gets the CLSID of the tuning space as a BSTR.
+description: The get_CLSID method gets the CLSID of the tuning space as a BSTR.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","get_CLSID method","ITuningSpace.get_CLSID","ITuningSpace::get_CLSID","ITuningSpaceget_CLSID","get_CLSID","get_CLSID method [Microsoft TV Technologies]","get_CLSID method [Microsoft TV Technologies]","ITuningSpace interface","mstv.ituningspace_get_clsid","tuner/ITuningSpace::get_CLSID"]
 old-location: mstv\ituningspace_get_clsid.htm
 tech.root: mstv
 ms.assetid: def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d

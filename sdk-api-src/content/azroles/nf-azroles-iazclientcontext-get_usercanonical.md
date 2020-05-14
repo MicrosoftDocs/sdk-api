@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserCanonical
 title: IAzClientContext::get_UserCanonical (azroles.h)
-description: Retrieves the name of the current client in canonical format.
+description: Retrieves the name of the current client in canonical format.helpviewer_keywords: ["AzClientContext object [Security]","UserCanonical property","IAzClientContext interface [Security]","UserCanonical property","IAzClientContext.UserCanonical","IAzClientContext.get_UserCanonical","IAzClientContext::UserCanonical","IAzClientContext::get_UserCanonical","UserCanonical property [Security]","UserCanonical property [Security]","AzClientContext object","UserCanonical property [Security]","IAzClientContext interface","azroles/IAzClientContext::UserCanonical","azroles/IAzClientContext::get_UserCanonical","get_UserCanonical","security.iazclientcontext_usercanonical"]
 old-location: security\iazclientcontext_usercanonical.htm
 tech.root: SecAuthZ
 ms.assetid: 413cdbbd-a9c6-4117-9df5-d7eb202191a4

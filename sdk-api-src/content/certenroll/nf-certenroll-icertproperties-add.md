@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ICertProperties.Add
 title: ICertProperties::Add (certenroll.h)
-description: Adds a property to the collection.
+description: Adds a property to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertProperties interface","ICertProperties interface [Security]","Add method","ICertProperties.Add","ICertProperties::Add","certenroll/ICertProperties::Add","security.icertproperties_add_method"]
 old-location: security\icertproperties_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8

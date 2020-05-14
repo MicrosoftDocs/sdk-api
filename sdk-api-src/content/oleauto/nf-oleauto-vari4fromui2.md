@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarI4FromUI2
 title: VarI4FromUI2 function (oleauto.h)
-description: Converts an unsigned short value to a long value.
+description: Converts an unsigned short value to a long value.helpviewer_keywords: ["VarI4FromUI2","VarI4FromUI2 function [Automation]","_oa96_VarI4FromUI2","automat.vari4fromui2","oleauto/VarI4FromUI2"]
 old-location: automat\vari4fromui2.htm
 tech.root: automat
 ms.assetid: 5703927e-97a2-405a-9a2e-c1e2722c2845

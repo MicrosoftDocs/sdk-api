@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetTabStops
 title: StringFormat::SetTabStops (gdiplusstringformat.h)
-description: The StringFormat::SetTabStops method sets the offsets for tab stops in this StringFormat object.
+description: The StringFormat::SetTabStops method sets the offsets for tab stops in this StringFormat object.helpviewer_keywords: ["SetTabStops","SetTabStops method [GDI+]","SetTabStops method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetTabStops method","StringFormat.SetTabStops","StringFormat::SetTabStops","_gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_","gdiplus._gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\settabstops.htm

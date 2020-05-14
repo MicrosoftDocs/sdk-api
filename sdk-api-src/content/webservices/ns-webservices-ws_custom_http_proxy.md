@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_CUSTOM_HTTP_PROXY
 title: WS_CUSTOM_HTTP_PROXY (webservices.h)
-description: A structure that is used to specify the custom proxy for the channel, using the WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY.
+description: A structure that is used to specify the custom proxy for the channel, using the WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY.helpviewer_keywords: ["WS_CUSTOM_HTTP_PROXY","WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows]","webservices/WS_CUSTOM_HTTP_PROXY","wsw.ws_custom_http_proxy"]
 old-location: wsw\ws_custom_http_proxy.htm
 tech.root: wsw
 ms.assetid: cb666185-6a33-4e4c-a0b2-290f2f0bce4b

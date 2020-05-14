@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleConvertIStorageToOLESTREAM
 title: OleConvertIStorageToOLESTREAM function (ole2.h)
-description: The OleConvertIStorageToOLESTREAM function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model but does not include the presentation data. This is one of several compatibility functions.
+description: The OleConvertIStorageToOLESTREAM function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model but does not include the presentation data. This is one of several compatibility functions.helpviewer_keywords: ["OleConvertIStorageToOLESTREAM","OleConvertIStorageToOLESTREAM function [Structured Storage]","_stg_oleconvertistoragetoolestream","ole2/OleConvertIStorageToOLESTREAM","stg.oleconvertistoragetoolestream"]
 old-location: stg\oleconvertistoragetoolestream.htm
 tech.root: Stg
 ms.assetid: d100d32a-6559-4a7c-a0ae-780bc9d82611
