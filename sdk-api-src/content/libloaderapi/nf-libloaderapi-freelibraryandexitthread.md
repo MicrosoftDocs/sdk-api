@@ -73,7 +73,7 @@ A handle to the DLL module whose reference count the function decrements. The
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandleexa">GetModuleHandleEx</a> function returns this handle.
 
-This function decrements the reference count for the module. Do not call this function with a handle returned by <b>GetModuleHandleEx</b> with the GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT flag or the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function, since they do not maintain a reference count for the module.
+Do not call this function with a handle returned by either the <b>GetModuleHandleEx</b> function (with the GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT flag) or the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function, as they do not maintain a reference count for the module.
 
 
 ### -param dwExitCode [in]
