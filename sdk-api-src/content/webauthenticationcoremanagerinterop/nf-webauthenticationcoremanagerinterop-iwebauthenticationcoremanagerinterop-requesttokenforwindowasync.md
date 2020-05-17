@@ -63,7 +63,7 @@ interface.
 Must refer to the [interface identifier (IID)](https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
 for the interface
 [IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)&lt;[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)&gt;.
-This IID is automatically generated but you can obtain it programatically:
+This IID is automatically generated but you can obtain it using code like this:
 
 ```cppwinrt
 using winrt::Windows::Foundation::IAsyncOperation;
