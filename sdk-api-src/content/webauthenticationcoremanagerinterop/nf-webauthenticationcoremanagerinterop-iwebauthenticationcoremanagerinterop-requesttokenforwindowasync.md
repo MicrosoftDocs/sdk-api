@@ -48,7 +48,7 @@ Asynchronously requests a token from a web account provider. If necessary, the u
 
 ### -param appWindow
 
-The window to be used as the parent for the window prompting the user for credentials,
+The window to be used as the owner for the window prompting the user for credentials,
 in case such a window becomes necessary.
 
 ### -param request
