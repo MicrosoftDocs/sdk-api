@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetThreadDescription
 title: GetThreadDescription function (processthreadsapi.h)
-description: Retrieves the description that was assigned to a thread by calling SetThreadDescription.helpviewer_keywords: ["GetThreadDescription","GetThreadDescription function","base.getthreaddescription","processthreadsapi/GetThreadDescription"]
+description: Retrieves the description that was assigned to a thread by calling SetThreadDescription.
+helpviewer_keywords: ["GetThreadDescription","GetThreadDescription function","base.getthreaddescription","processthreadsapi/GetThreadDescription"]
 old-location: base\getthreaddescription.htm
 tech.root: ProcThread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
@@ -89,6 +90,8 @@ The description for a thread can change at any time. For example, a different th
 Thread descriptions do not need to be unique.
 
 To free the memory for the thread description, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> method.
+
+GetThreadDescription is only available by <a href="https://docs.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking"> Run Time Dynamic Linking</a> on Windows Server 2016, 1607.
 
 
 #### Examples
