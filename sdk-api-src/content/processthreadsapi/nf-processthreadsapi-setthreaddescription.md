@@ -87,6 +87,8 @@ If the function fails, the return value is an <b>HRESULT</b> that denotes the er
 
 The description of a thread can be set more than once; the most recently set value is used. You can retrieve the description of a thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreaddescription">GetThreadDescription</a>.
 
+SetThreadDescription is only available by <a href="https://docs.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking"> Run Time Dynamic Linking</a> on Windows Server 2016, 1607.
+
 
 #### Examples
 
