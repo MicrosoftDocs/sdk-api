@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdef.InitializeObjectAttributes
 title: InitializeObjectAttributes macro (ntdef.h)
-description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.helpviewer_keywords: ["InitializeObjectAttributes","InitializeObjectAttributes macro [Kernel-Mode Driver Architecture]","k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml","kernel.initializeobjectattributes","ntdef/InitializeObjectAttributes"]
+description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.
+helpviewer_keywords: ["InitializeObjectAttributes","InitializeObjectAttributes macro [Kernel-Mode Driver Architecture]","k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml","kernel.initializeobjectattributes","ntdef/InitializeObjectAttributes"]
 old-location: kernel\initializeobjectattributes.htm
 tech.root: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
@@ -47,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes">OBJECT_ATTRIBUTES</a> structure, which specifies the properties of an object handle to routines that open handles.
+The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="https://docs.microsoft.com/en-us/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure, which specifies the properties of an object handle to routines that open handles.
 
 ## -syntax
 
@@ -69,7 +70,7 @@ VOID InitializeObjectAttributes(
 
 ### -param p
 
-A pointer to the [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdef/ns-ntdef-_object_attributes) structure to initialize.
+A pointer to the [OBJECT_ATTRIBUTES](https://docs.microsoft.com/en-us/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure to initialize.
 
 
 ### -param n
