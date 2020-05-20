@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetDescriptorHeaps
 title: ID3D12GraphicsCommandList::SetDescriptorHeaps (d3d12.h)
-description: Changes the currently bound descriptor heaps that are associated with a command list.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetDescriptorHeaps method","ID3D12GraphicsCommandList.SetDescriptorHeaps","ID3D12GraphicsCommandList::SetDescriptorHeaps","SetDescriptorHeaps","SetDescriptorHeaps method","SetDescriptorHeaps method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps","direct3d12.id3d12graphicscommandlist_setdescriptorheaps"]
+description: Changes the currently bound descriptor heaps that are associated with a command list.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetDescriptorHeaps method","ID3D12GraphicsCommandList.SetDescriptorHeaps","ID3D12GraphicsCommandList::SetDescriptorHeaps","SetDescriptorHeaps","SetDescriptorHeaps method","SetDescriptorHeaps method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps","direct3d12.id3d12graphicscommandlist_setdescriptorheaps"]
 old-location: direct3d12\id3d12graphicscommandlist_setdescriptorheaps.htm
 tech.root: direct3d12
 ms.assetid: EE475B68-1DCA-44D4-994E-717D40F47DFA
@@ -79,6 +80,9 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/recording-command-lists-and-bundles">Creating and Recording Command Lists and Bundles</a>.
+
+
+All previously set heaps are unset by the call. At most one heap of each shader-visible type can be set in the call.
 
 
 #### Examples
