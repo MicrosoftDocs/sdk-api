@@ -44,52 +44,33 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D12GraphicsCommandList::SetDescriptorHeaps
-
-
 ## -description
 
-
 Changes the currently bound descriptor heaps that are associated with a command list.
-        
-
 
 ## -parameters
 
+### -param NumDescriptorHeaps
 
-
-
-### -param NumDescriptorHeaps [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of descriptor heaps to bind.
-          
 
+### -param ppDescriptorHeaps
 
-### -param ppDescriptorHeaps [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>*</b>
+Type: [in] <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>*</b>
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> objects for the heaps to set on the command list.
-            
-
 
 ## -remarks
 
-
-
 <b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/recording-command-lists-and-bundles">Creating and Recording Command Lists and Bundles</a>.
-
 
 All previously set heaps are unset by the call. At most one heap of each shader-visible type can be set in the call.
 
-
-#### Examples
+## Examples
 
 The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::SetDescriptorHeaps</b> as follows:
-        
-
 
 ```cpp
 void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
@@ -142,28 +123,12 @@ void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
 
     ThrowIfFailed(m_commandList->Close());
 }
-
 ```
 
-
 See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
-        
-
-<div class="code"></div>
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
