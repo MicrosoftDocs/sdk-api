@@ -46,11 +46,8 @@ ms.custom: 19H1
 
 # IEAPProviderConfig interface
 
-
 ## -description
-
-
-
+The **IEAPProviderConfig** interface is used to initialize, configure and shut down EAP configuration sessions.
 
 ## -inheritance
 
@@ -125,7 +122,3 @@ Shuts down an EAP configuration session.
 
 
 [Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
- 
-
- 
-

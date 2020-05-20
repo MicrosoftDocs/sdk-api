@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.InitializeContext
 title: InitializeContext function (winbase.h)
-description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment.helpviewer_keywords: ["InitializeContext","InitializeContext function","base.initializecontext","winbase/InitializeContext"]
+description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment.
+helpviewer_keywords: ["InitializeContext","InitializeContext function","base.initializecontext","winbase/InitializeContext"]
 old-location: base\initializecontext.htm
 tech.root: Debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
@@ -56,8 +57,6 @@ Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 
 
 ## -parameters
-
-
 
 
 ### -param Buffer [out, optional]
@@ -119,7 +118,7 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 <i>InitializeContext</i> can be used to initialize a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure within a buffer with the required size and 
-    alignment characteristics.  This routine is required if the <b>CONTEXT_XSTATE</b><i>ContextFlag</i> is specified since the required context size and alignment may change 
+    alignment characteristics.  This routine is required if the <b>CONTEXT_XSTATE</b> <i>ContextFlag</i> is specified since the required context size and alignment may change 
     depending on which processor features are enabled on the system.
 
 First, call this function with the 
@@ -148,10 +147,6 @@ First, call this function with the
        details.
 
 
-
-
-
-
 ## -see-also
 
 
@@ -170,7 +165,3 @@ First, call this function with the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
- 
-
- 
-

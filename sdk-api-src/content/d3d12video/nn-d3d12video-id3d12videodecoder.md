@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecoder
 title: ID3D12VideoDecoder
-description: Represents a Direct3D 12 video decoder.helpviewer_keywords: ["- ID3D12VideoDecoder"]
+description: Represents a Direct3D 12 video decoder.
+helpviewer_keywords: ["- ID3D12VideoDecoder"]
 tech.root: mf
 ms.assetid: 21a497e0-2bc6-4373-b240-bdd7da41fc18
 ms.date: 05/28/2019
@@ -39,23 +40,6 @@ targetos: Windows
 ## -description
 
 Represents a Direct3D 12 video decoder that contains resolution-independent resources and state for performing the decode operation.
-
-
-## -inheritance
-ID3D12VideoDecoder interits from ID3D12Pageable. 
-## -members
-
-<p>ID3D12VideoDecoder has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>GetDesc</td>
-		<td>TBD</td>
-	</tr>
-</table>
 
 ## -remarks
 
