@@ -1,7 +1,8 @@
 ---
 UID: NN:effects.IWMPEffects
 title: IWMPEffects (effects.h)
-description: IWMPEffects interfacehelpviewer_keywords: ["EffectsInterface","IWMPEffects","IWMPEffects interface [Windows Media Player]","IWMPEffects interface [Windows Media Player]","described","effects/IWMPEffects","wmp.iwmpeffects"]
+description: IWMPEffects interface
+helpviewer_keywords: ["EffectsInterface","IWMPEffects","IWMPEffects interface [Windows Media Player]","IWMPEffects interface [Windows Media Player]","described","effects/IWMPEffects","wmp.iwmpeffects"]
 old-location: wmp\iwmpeffects.htm
 tech.root: WMP
 ms.assetid: 0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba
@@ -49,6 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
+The IWMPEffects interface.
 
 
 ## -inheritance
@@ -178,7 +180,3 @@ Sets the current preset by number.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
- 
-
- 
-
