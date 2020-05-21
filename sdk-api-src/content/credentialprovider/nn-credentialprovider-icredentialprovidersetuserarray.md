@@ -98,8 +98,6 @@ This interface is used only by the Windows credential provider framework. Its me
 
 
 
-<a href="http://download.microsoft.com/download/F/3/5/F3536898-FF3C-4548-8418-08D79555A0DB/Credential Provider Framework Changes in Windows 8.docx">Credential Provider Framework Changes in Windows 8.docx</a>
-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
