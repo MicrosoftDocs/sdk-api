@@ -44,47 +44,23 @@ req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
 ---
 
-# WLAN_NOTIFICATION_CALLBACK callback function
-
-
 ## -description
-
 
 The <b>WLAN_NOTIFICATION_CALLBACK</b> callback function prototype defines the type of notification callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
-### -param Arg2
-
-
-
-
-
-
-
-
-#### - context
-
 A pointer to the context information provided by the client when it registered for the notification.
 
-
-#### - data
+### -param Arg2
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure that contains the notification information.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the wlan_notification_acm_connection_complete and wlan_notification_acm_disconnected notifications are available.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function is used by an application to register and unregister notifications on all wireless interfaces. When registering for notifications, an application must provide a callback function pointed to by the <i>funcCallback</i> parameter passed to the <b>WlanRegisterNotification</b> function. The prototype for this callback function is the <b>WLAN_NOTIFICATION_CALLBACK</b>. This callback function will receive notifications that have been registered in the <i>dwNotifSource</i> parameter passed to the <b>WlanRegisterNotification</b> function. 
 
@@ -109,36 +85,16 @@ If the <b>NotificationSource</b> member of the  <a href="https://docs.microsoft.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Notifications are handled by the Netman service. If the Netman service is disabled or unavailable, notifications will not be received. If a notification is not received within a reasonable period of time, an application should time out and query the current interface state.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
 
-
-
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_hosted_network_notification_code">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
-
-
 
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
 
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
-
-
 
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
-
