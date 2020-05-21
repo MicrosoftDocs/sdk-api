@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapBlock
 title: IAppxBlockMapBlock (appxpackaging.h)
-description: The IAppxBlockMapBlock interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package.helpviewer_keywords: ["IAppxBlockMapBlock","IAppxBlockMapBlock interface [App packaging and management]","IAppxBlockMapBlock interface [App packaging and management]","described","appxpackaging/IAppxBlockMapBlock","appxpkg.iappxblockmapblock"]
+description: The IAppxBlockMapBlock interface provides a read-only object that represents an individual block within a file contained in the block map file (AppxBlockMap.xml) for the App package.
+helpviewer_keywords: ["IAppxBlockMapBlock","IAppxBlockMapBlock interface [App packaging and management]","IAppxBlockMapBlock interface [App packaging and management]","described","appxpackaging/IAppxBlockMapBlock","appxpkg.iappxblockmapblock"]
 old-location: appxpkg\iappxblockmapblock.htm
 tech.root: appxpkg
 ms.assetid: 39B0680A-F27B-478F-8E83-FE1BFCF61AC4
@@ -95,10 +96,7 @@ Retrieves the hash value of the block.
 
 Each <b>Block</b> element has an attribute for the hash value and compressed size of the block.
 
-
-#### Examples
-
-For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>.
+For a code example, see the [Query app package and app manifest sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx).
 
 <div class="code"></div>
 
@@ -125,16 +123,4 @@ For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
-
-
-
-<b>Reference</b>
-
-
-
-<b>Samples</b>
- 
-
- 
-
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx">Query app package and app manifest sample</a>
