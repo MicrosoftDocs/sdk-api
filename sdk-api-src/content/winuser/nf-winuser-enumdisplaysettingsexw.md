@@ -69,7 +69,7 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 A pointer to a null-terminated string that specifies the display device about which graphics mode the function will obtain information.
 
-This parameter is either <b>NULL</b> or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>.<b>DeviceName</b> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer that the calling thread is running on.
+This parameter is either <b>NULL</b> or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>. <b>DeviceName</b> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer that the calling thread is running on.
 
 
 ### -param iModeNum [in]

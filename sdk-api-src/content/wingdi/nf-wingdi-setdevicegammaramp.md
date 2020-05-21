@@ -52,19 +52,23 @@ ms.custom: 19H1
 The <b>SetDeviceGammaRamp</b> function sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/g">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 > [!IMPORTANT]
-> **SetDeviceGammaRamp** implements basic heuristics to check whether or not you're trying to set what it considers to be a reasonable ramp. If you violate those heuristics, then the function fails silently (that is, it returns **TRUE**, but it doesn't set your ramp). For that reason, you can't expect to use this function to set *just any arbitrary* gamma ramp.
+> We strongly recommend that you don't use this API. Use of this API is subject to major limitations:
+>
+> * **SetDeviceGammaRamp** implements heuristics to check whether a provided ramp will result in an unreadable screen. If a ramp violates those heuristics, then the function fails silently (that is, it returns **TRUE**, but it doesn't set your ramp). For that reason, you can't expect to use this function to set *just any arbitrary* gamma ramp. In particular, the heuristics prevent ramps that would result in nearly all pixels approaching a single value (such as fullscreen black/white) as this may prevent a user from recovering the screen.
 > 
-> Also, because of the function's global nature, any other application on the system could, at any time, overwrite any ramp that you've set. So you can't be certain that any ramp you set is in effect.
+> * Because of the function's global nature, any other application on the system could, at any time, overwrite any ramp that you've set. In some cases the operating system itself may reserve the use of this function, causing any existing ramp to be overwritten. The gamma ramp is also reset on most display events (connecting/disconnecting a monitor, resolution changes, etc.). So you can't be certain that any ramp you set is in effect.
+>
+> * This API has undefined behavior in HDR modes.
+>
+> * This API has undefined interaction with both built-in and third-party color calibration solutions.
 > 
-> For these reasons, we strongly recommend that you don't use this API.
+> For color calibration, we recommend that you create an International Color Consortium (ICC) profile, and let the OS apply the profile. For advanced original equipment manufacturer (OEM) scenarios, there's a device driver model that you can use to customize color calibration more directly. See the [Windows Color System](/previous-versions/windows/desktop/wcs/windows-color-system) for information on managing color profiles.
 > 
-> For color calibration, we recommend that you create an International Color Consortium (ICC) profile, and let the OS apply the profile. For advanced original equipment manufacturer (OEM) scenarios, there's a device driver model that you can use to customize color calibration more directly.
+> For blue light filtering, Windows now provides built-in support called [**Night Light**](https://support.microsoft.com/help/4027563/windows-10-set-your-display-for-night-time). We recommend directing users to this feature.
 > 
-> For blue light filtering, there is a built-in operating system (OS) feature called **Night Light** that does this now. We recommend that you direct your users to that feature.
+> For color adaptation (for example, adjusting color calibration based on ambient light sensors), Windows now provides built-in support, which we recommend for use by OEMs.
 > 
-> For color adaptation (for example, adjusting color calibration based on ambient light sensors), we also have a built-in OS feature, which we recommend that OEMs use.
-> 
-> For custom filter effects, there are a variety of built-in accessibility color filters to help with a range of cases.
+> For custom filter effects, there are a variety of built-in accessibility [color filters](https://support.microsoft.com/help/4344736/windows-10-use-color-filters) to help with a range of cases.
 
 ## -parameters
 
@@ -86,11 +90,10 @@ If this function fails, the return value is <b>FALSE</b>.
 
 Direct color display modes do not use color lookup tables and are usually 16, 24, or 32 bit. Not all direct color video boards support loadable gamma ramps. <b>SetDeviceGammaRamp</b> succeeds only for devices with drivers that support downloadable gamma ramps in hardware.
 
+> [!NOTE] This API can take a non-trivial amount of time to execute. It may take as long as 200ms to return on some hardware.
+
 ## -see-also
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
