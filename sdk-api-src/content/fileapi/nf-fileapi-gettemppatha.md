@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.GetTempPathA
 title: GetTempPathA function (fileapi.h)
-description: Retrieves the path of the directory designated for temporary files.helpviewer_keywords: ["GetTempPath","GetTempPath function [Files]","GetTempPathA","GetTempPathW","_win32_gettemppath","base.gettemppath","fileapi/GetTempPath","fileapi/GetTempPathA","fileapi/GetTempPathW","fs.gettemppath","winbase/GetTempPath","winbase/GetTempPathA","winbase/GetTempPathW"]
+description: Retrieves the path of the directory designated for temporary files.
+helpviewer_keywords: ["GetTempPath","GetTempPath function [Files]","GetTempPathA","GetTempPathW","_win32_gettemppath","base.gettemppath","fileapi/GetTempPath","fileapi/GetTempPathA","fileapi/GetTempPathW","fs.gettemppath","winbase/GetTempPath","winbase/GetTempPathA","winbase/GetTempPathW"]
 old-location: fs\gettemppath.htm
 tech.root: FileIO
 ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
@@ -82,7 +83,7 @@ The size of the string buffer identified by <i>lpBuffer</i>, in
 ### -param lpBuffer [out]
 
 A pointer to a string buffer that receives the null-terminated string specifying the temporary file path. 
-      The returned string ends with a backslash, for example, "C:\TEMP\".
+      The returned string ends with a backslash, for example, "C:\\TEMP\\".
 
 
 ## -returns
