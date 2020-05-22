@@ -52,6 +52,8 @@ ms.custom: 19H1
 
 Values that identify shader-input options.
 
+> [!NOTE]
+> For programming with Direct3D 10, this API has a type alias that begins `D3D10_` instead of `D3D_`. These Direct3D 10 type aliases are defined in `d3d10.h`, `d3d10misc.h`, and `d3d10shader.h`.
 
 ## -enum-fields
 

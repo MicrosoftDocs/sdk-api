@@ -44,104 +44,82 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D_SRV_DIMENSION enumeration
-
-
 ## -description
-
 
 Values that identify the type of resource to be viewed as a shader resource.
 
+> [!NOTE]
+> For programming with Direct3D 10, this API has a type alias that begins `D3D10_` instead of `D3D_`. These Direct3D 10 type aliases are defined in `d3d10.h`, `d3d10misc.h`, and `d3d10shader.h`.
 
 ## -enum-fields
-
-
-
 
 ### -field D3D_SRV_DIMENSION_UNKNOWN
 
 The type is unknown.
 
-
 ### -field D3D_SRV_DIMENSION_BUFFER
 
 The resource is a buffer.
-
 
 ### -field D3D_SRV_DIMENSION_TEXTURE1D
 
 The resource is a 1D texture.
 
-
 ### -field D3D_SRV_DIMENSION_TEXTURE1DARRAY
 
 The resource is an array of 1D textures.
-
 
 ### -field D3D_SRV_DIMENSION_TEXTURE2D
 
 The resource is a 2D texture.
 
-
 ### -field D3D_SRV_DIMENSION_TEXTURE2DARRAY
 
 The resource is an array of 2D textures.
-
 
 ### -field D3D_SRV_DIMENSION_TEXTURE2DMS
 
 The resource is a multisampling 2D texture.
 
-
 ### -field D3D_SRV_DIMENSION_TEXTURE2DMSARRAY
 
 The resource is an array of multisampling 2D textures.
-
 
 ### -field D3D_SRV_DIMENSION_TEXTURE3D
 
 The resource is a 3D texture.
 
-
 ### -field D3D_SRV_DIMENSION_TEXTURECUBE
 
 The resource is a cube texture.
-
 
 ### -field D3D_SRV_DIMENSION_TEXTURECUBEARRAY
 
 The resource is an array of cube textures.
 
-
 ### -field D3D_SRV_DIMENSION_BUFFEREX
 
 The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
-
 
 ### -field D3D10_SRV_DIMENSION_UNKNOWN
 
 The type is unknown.
 
-
 ### -field D3D10_SRV_DIMENSION_BUFFER
 
 The resource is a buffer.
-
 
 ### -field D3D10_SRV_DIMENSION_TEXTURE1D
 
 The resource is a 1D texture.
 
-
 ### -field D3D10_SRV_DIMENSION_TEXTURE1DARRAY
 
 The resource is an array of 1D textures.
 
-
 ### -field D3D10_SRV_DIMENSION_TEXTURE2D
 
 The resource is a 2D texture.
-
 
 ### -field D3D10_SRV_DIMENSION_TEXTURE2DARRAY
 
@@ -298,7 +276,3 @@ A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
- 
-
- 
-

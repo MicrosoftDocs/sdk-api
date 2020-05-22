@@ -1,7 +1,8 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_VARIABLE_FLAGS
 title: D3D_SHADER_VARIABLE_FLAGS (d3dcommon.h)
-description: Values that identify information about a shader variable.helpviewer_keywords: ["D3D10_SVF_USED","D3D10_SVF_USERPACKED","D3D11_SVF_INTERFACE_PARAMETER","D3D11_SVF_INTERFACE_POINTER","D3D_SHADER_VARIABLE_FLAGS","D3D_SHADER_VARIABLE_FLAGS enumeration [Direct3D 11]","D3D_SVF_FORCE_DWORD","D3D_SVF_INTERFACE_PARAMETER","D3D_SVF_INTERFACE_POINTER","D3D_SVF_USED","D3D_SVF_USERPACKED","d3dcommon/D3D10_SVF_USED","d3dcommon/D3D10_SVF_USERPACKED","d3dcommon/D3D11_SVF_INTERFACE_PARAMETER","d3dcommon/D3D11_SVF_INTERFACE_POINTER","d3dcommon/D3D_SHADER_VARIABLE_FLAGS","d3dcommon/D3D_SVF_FORCE_DWORD","d3dcommon/D3D_SVF_INTERFACE_PARAMETER","d3dcommon/D3D_SVF_INTERFACE_POINTER","d3dcommon/D3D_SVF_USED","d3dcommon/D3D_SVF_USERPACKED","direct3d11.d3d_shader_variable_flags"]
+description: Values that identify information about a shader variable.
+helpviewer_keywords: ["D3D10_SVF_USED","D3D10_SVF_USERPACKED","D3D11_SVF_INTERFACE_PARAMETER","D3D11_SVF_INTERFACE_POINTER","D3D_SHADER_VARIABLE_FLAGS","D3D_SHADER_VARIABLE_FLAGS enumeration [Direct3D 11]","D3D_SVF_FORCE_DWORD","D3D_SVF_INTERFACE_PARAMETER","D3D_SVF_INTERFACE_POINTER","D3D_SVF_USED","D3D_SVF_USERPACKED","d3dcommon/D3D10_SVF_USED","d3dcommon/D3D10_SVF_USERPACKED","d3dcommon/D3D11_SVF_INTERFACE_PARAMETER","d3dcommon/D3D11_SVF_INTERFACE_POINTER","d3dcommon/D3D_SHADER_VARIABLE_FLAGS","d3dcommon/D3D_SVF_FORCE_DWORD","d3dcommon/D3D_SVF_INTERFACE_PARAMETER","d3dcommon/D3D_SVF_INTERFACE_POINTER","d3dcommon/D3D_SVF_USED","d3dcommon/D3D_SVF_USERPACKED","direct3d11.d3d_shader_variable_flags"]
 old-location: direct3d11\d3d_shader_variable_flags.htm
 tech.root: direct3d11
 ms.assetid: b89dc001-c335-4994-a644-88bfbeb7d663
@@ -51,6 +52,8 @@ ms.custom: 19H1
 
 Values that identify information about a shader variable.
 
+> [!NOTE]
+> For programming with Direct3D 10, this API has a type alias that begins `D3D10_` instead of `D3D_`. These Direct3D 10 type aliases are defined in `d3d10.h`, `d3d10misc.h`, and `d3d10shader.h`.
 
 ## -enum-fields
 
