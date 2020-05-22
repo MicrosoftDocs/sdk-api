@@ -110,8 +110,7 @@ Name of the device.
 
 
 
-See the Bluetooth specification at https://www.bluetooth.org/Technical/AssignedNumbers/references.htm for class of device (COD) information.
-
+See the [Bluetooth class-of-device (CoD) codes](https://www.bluetooth.com/specifications/assigned-numbers/baseband/).
 
 
 
