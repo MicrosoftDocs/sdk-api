@@ -4,7 +4,7 @@ title: GdiplusAbort::Abort
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: **Abort** is an application-defined method that is called periodically by Windows GDI+ during time-consuming rendering operations. See the [**GdiplusAbort**](ns-gdiplustypes-gdiplusabort) structure.
+description: \**Abort** is an application-defined method that is called periodically by Windows GDI+ during time-consuming rendering operations. See the [**GdiplusAbort**](ns-gdiplustypes-gdiplusabort) structure.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -27,7 +27,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - COM
 api_location:
  - gdiplustypes.h
 api_name:
