@@ -1,7 +1,8 @@
 ---
 UID: NN:structuredquery.IQuerySolution
 title: IQuerySolution (structuredquery.h)
-description: Provides methods that retrieve information about the interpretation of a parsed query.helpviewer_keywords: ["IQuerySolution","IQuerySolution interface [search]","IQuerySolution interface [search]","described","_search_IQuerySolution","search._search_IQuerySolution","structuredquery/IQuerySolution"]
+description: Provides methods that retrieve information about the interpretation of a parsed query.
+helpviewer_keywords: ["IQuerySolution","IQuerySolution interface [search]","IQuerySolution interface [search]","described","_search_IQuerySolution","search._search_IQuerySolution","structuredquery/IQuerySolution"]
 old-location: search\_search_IQuerySolution.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
@@ -105,7 +106,7 @@ Retrieves the condition tree and the semantic type of the solution.
 
 
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 

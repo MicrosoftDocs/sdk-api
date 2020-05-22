@@ -1,7 +1,8 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest2
 title: IXMLHTTPRequest2 (msxml6.h)
-description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing. Note  This interface is supported on Windows Phone 8.1.  .helpviewer_keywords: ["IXMLHTTPRequest2","IXMLHTTPRequest2 interface [XMLHttpRequest2]","IXMLHTTPRequest2 interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest2","msxml6/IXMLHTTPRequest2"]
+description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing. Note  This interface is supported on Windows Phone 8.1.  .
+helpviewer_keywords: ["IXMLHTTPRequest2","IXMLHTTPRequest2 interface [XMLHttpRequest2]","IXMLHTTPRequest2 interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest2","msxml6/IXMLHTTPRequest2"]
 old-location: ixhr2\ixmlhttprequest2.htm
 tech.root: ixhr2
 ms.assetid: BBC11C4A-AECF-4D6D-8275-3E852E309908
@@ -208,7 +209,10 @@ The <b>IXMLHTTPRequest2</b> interface supports the following features:
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsapps/Web-Authentication-d0485122">Web authentication sample</a>
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2GetRequest">XML HTTP Request 2 GET sample</a>
+
+
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2PostRequest">XML HTTP Request 2 POST sample</a>
  
 
  
