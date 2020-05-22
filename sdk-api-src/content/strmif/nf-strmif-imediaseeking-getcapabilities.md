@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetCapabilities
 title: IMediaSeeking::GetCapabilities (strmif.h)
-description: The GetCapabilities method retrieves all the seeking capabilities of the stream.helpviewer_keywords: ["GetCapabilities","GetCapabilities method [DirectShow]","GetCapabilities method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetCapabilities method","IMediaSeeking.GetCapabilities","IMediaSeeking::GetCapabilities","IMediaSeekingGetCapabilities","dshow.imediaseeking_getcapabilities","strmif/IMediaSeeking::GetCapabilities"]
+description: The GetCapabilities method retrieves all the seeking capabilities of the stream.
+helpviewer_keywords: ["GetCapabilities","GetCapabilities method [DirectShow]","GetCapabilities method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetCapabilities method","IMediaSeeking.GetCapabilities","IMediaSeeking::GetCapabilities","IMediaSeekingGetCapabilities","dshow.imediaseeking_getcapabilities","strmif/IMediaSeeking::GetCapabilities"]
 old-location: dshow\imediaseeking_getcapabilities.htm
 tech.root: DirectShow
 ms.assetid: 84dd3c21-9c72-4433-bd03-29520dc138ca
@@ -63,7 +64,7 @@ The <code>GetCapabilities</code> method retrieves all the seeking capabilities o
 
 ### -param pCapabilities [out]
 
-Pointer to a variable that receives a bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
+Pointer to a variable that receives a bitwise combination of <a href="https://docs.microsoft.com/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
 
 
 ## -returns

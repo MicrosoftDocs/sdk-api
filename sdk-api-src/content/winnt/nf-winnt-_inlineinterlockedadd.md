@@ -127,7 +127,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedexchangeadd">InterlockedExchangeAdd</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd">InterlockedExchangeAdd</a>
 
 
 

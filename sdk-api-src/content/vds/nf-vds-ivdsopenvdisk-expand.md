@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Expand
 title: IVdsOpenVDisk::Expand (vds.h)
-description: Increases the size of a virtual disk to the maximum size available on a fixed or expandable disk.helpviewer_keywords: ["Expand","Expand method","Expand method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Expand method","IVdsOpenVDisk.Expand","IVdsOpenVDisk::Expand","base.ivdsopenvdisk_expand","vds/IVdsOpenVDisk::Expand"]
+description: Increases the size of a virtual disk to the maximum size available on a fixed or expandable disk.
+helpviewer_keywords: ["Expand","Expand method","Expand method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Expand method","IVdsOpenVDisk.Expand","IVdsOpenVDisk::Expand","base.ivdsopenvdisk_expand","vds/IVdsOpenVDisk::Expand"]
 old-location: base\ivdsopenvdisk_expand.htm
 tech.root: VDS
 ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
@@ -109,7 +110,7 @@ The method completed successfully.
 
 A virtual disk can be expanded only if it is detached.
 
-The virtual disk must have been opened with access to perform metadata operations. This corresponds to the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
+The virtual disk must have been opened with access to perform metadata operations. This corresponds to the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask~r1">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
 
 

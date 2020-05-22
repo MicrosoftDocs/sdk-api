@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetStreamCaps
 title: IAMStreamConfig::GetStreamCaps (strmif.h)
-description: The GetStreamCaps method retrieves a set of format capabilities.helpviewer_keywords: ["GetStreamCaps","GetStreamCaps method [DirectShow]","GetStreamCaps method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetStreamCaps method","IAMStreamConfig.GetStreamCaps","IAMStreamConfig::GetStreamCaps","IAMStreamConfigGetStreamCaps","dshow.iamstreamconfig_getstreamcaps","strmif/IAMStreamConfig::GetStreamCaps"]
+description: The GetStreamCaps method retrieves a set of format capabilities.
+helpviewer_keywords: ["GetStreamCaps","GetStreamCaps method [DirectShow]","GetStreamCaps method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetStreamCaps method","IAMStreamConfig.GetStreamCaps","IAMStreamConfig::GetStreamCaps","IAMStreamConfigGetStreamCaps","dshow.iamstreamconfig_getstreamcaps","strmif/IAMStreamConfig::GetStreamCaps"]
 old-location: dshow\iamstreamconfig_getstreamcaps.htm
 tech.root: DirectShow
 ms.assetid: 9dd84847-2cae-42f2-a858-7106cd2ac075
@@ -73,7 +74,7 @@ Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/a
 
 ### -param pSCC [out]
 
-Pointer to a byte array allocated by the caller. For video, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure (see Remarks). For audio, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure. To determine the required size of the array, call the <b>GetNumberOfCapabilities</b> method. The size is returned in the <i>piSize</i> parameter.
+Pointer to a byte array allocated by the caller. For video, use the <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure (see Remarks). For audio, use the <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure. To determine the required size of the array, call the <b>GetNumberOfCapabilities</b> method. The size is returned in the <i>piSize</i> parameter.
 
 
 ## -returns
@@ -167,13 +168,13 @@ This method returns two pieces of information:
 
 <ul>
 <li>The <i>pmt</i> parameter receives a filled-in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure, which describes one supported output format.</li>
-<li>The <i>pSCC</i> parameter receives a structure that contains additional format information. For video, <i>pSCC</i> receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure. For audio, it receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure.</li>
+<li>The <i>pSCC</i> parameter receives a structure that contains additional format information. For video, <i>pSCC</i> receives a <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure. For audio, it receives an <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure.</li>
 </ul>
-<div class="alert"><b>Note</b>  Use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure to configure a video device is deprecated. Although the caller must allocate the buffer, it should ignore the contents after the method returns. The capture device will return its supported formats through the <i>pmt</i> parameter.</div>
+<div class="alert"><b>Note</b>  Use of the <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure to configure a video device is deprecated. Although the caller must allocate the buffer, it should ignore the contents after the method returns. The capture device will return its supported formats through the <i>pmt</i> parameter.</div>
 <div> </div>
 To configure the output pin so that it uses this format, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method and pass in the value of <i>pmt</i>.
 
-Before calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">SetFormat</a>, you can modify the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure in <i>pmt</i>, using the information in <i>pSCC</i>. For example, an audio pin might return a default media type of 44-kHz, 16-bit stereo in the <i>pmt</i> parameter. Based on the values returned in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure, you might change this format to 8-bit mono before calling <b>SetFormat</b>.
+Before calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">SetFormat</a>, you can modify the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure in <i>pmt</i>, using the information in <i>pSCC</i>. For example, an audio pin might return a default media type of 44-kHz, 16-bit stereo in the <i>pmt</i> parameter. Based on the values returned in the <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure, you might change this format to 8-bit mono before calling <b>SetFormat</b>.
 
 The method allocates the memory for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that is returned in the <i>pmt</i> parameter. The caller must release the memory, including the format block. You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> helper function in the base class library. The caller must allocate the memory for the <i>pSCC</i> parameter.
 

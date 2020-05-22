@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-Returns the provider ID that was specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](tracelogging-define-provider.md).
+Returns the provider ID that was specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](https://docs.microsoft.com/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider).
 
 ## -parameters
 
@@ -49,7 +49,7 @@ The handle of the TraceLogging provider.
 
 ## -returns
 
-The GUID of the provider ID specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](tracelogging-define-provider.md).
+The GUID of the provider ID specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](https://docs.microsoft.com/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider).
 
 ## -remarks
 

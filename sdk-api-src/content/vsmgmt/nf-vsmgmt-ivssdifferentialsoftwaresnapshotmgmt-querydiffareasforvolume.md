@@ -1,7 +1,8 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume
 title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume (vsmgmt.h)
-description: Queries shadow copy storage areas in use by the volume.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryDiffAreasForVolume method","IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume","IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume","QueryDiffAreasForVolume","QueryDiffAreasForVolume method [VSS]","QueryDiffAreasForVolume method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume"]
+description: Queries shadow copy storage areas in use by the volume.
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryDiffAreasForVolume method","IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume","IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume","QueryDiffAreasForVolume","QueryDiffAreasForVolume method [VSS]","QueryDiffAreasForVolume method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume.htm
 tech.root: VSS
 ms.assetid: 381f8a4a-c88f-4bd3-bff1-6828fe034e66
@@ -173,7 +174,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 The returned <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
     will contain <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> union inside the 
+    <a href="https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union inside the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventHandler.RespondToWinEvent
 title: IProxyProviderWinEventHandler::RespondToWinEvent (uiautomationcore.h)
-description: Handles a WinEvent.helpviewer_keywords: ["IProxyProviderWinEventHandler interface [Windows Accessibility]","RespondToWinEvent method","IProxyProviderWinEventHandler.RespondToWinEvent","IProxyProviderWinEventHandler::RespondToWinEvent","RespondToWinEvent","RespondToWinEvent method [Windows Accessibility]","RespondToWinEvent method [Windows Accessibility]","IProxyProviderWinEventHandler interface","uiauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiautomationcore/IProxyProviderWinEventHandler::RespondToWinEvent","winauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent"]
+description: Handles a WinEvent.
+helpviewer_keywords: ["IProxyProviderWinEventHandler interface [Windows Accessibility]","RespondToWinEvent method","IProxyProviderWinEventHandler.RespondToWinEvent","IProxyProviderWinEventHandler::RespondToWinEvent","RespondToWinEvent","RespondToWinEvent method [Windows Accessibility]","RespondToWinEvent method [Windows Accessibility]","IProxyProviderWinEventHandler interface","uiauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiautomationcore/IProxyProviderWinEventHandler::RespondToWinEvent","winauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent"]
 old-location: winauto\uiauto_IProxyProviderWinEventHandler_RespondToWinEvent.htm
 tech.root: WinAuto
 ms.assetid: b3a63cb9-3eae-43ec-aba1-2f038ca0896f
@@ -61,7 +62,7 @@ Handles a WinEvent.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The identifier of the incoming <a href="https://docs.microsoft.com/windows/desktop/WinAuto/winevents-collision169">WinEvent</a>. For a list of WinEvent IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">Event Constants</a>.
+The identifier of the incoming WinEvent. For a list of WinEvent IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">Event Constants</a>.
 
 
 ### -param hwnd [in]

@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2spi._WSATHREADID
 title: WSATHREADID
-description: The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.helpviewer_keywords: ["_WSATHREADID","WSATHREADID"]
+description: The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.
+helpviewer_keywords: ["_WSATHREADID","WSATHREADID"]
 ms.date: 4/26/2019
 ms.keywords: _WSATHREADID, WSATHREADID
 targetos: Windows
@@ -32,7 +33,7 @@ api_name:
 ---
 
 ## -description
-The **WSATHREADID** structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](wpuqueueapc-2.md) function.
+The **WSATHREADID** structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the [**WPUQueueApc**](/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc.md) function.
 
 ## -struct-fields
 ```C++
@@ -50,7 +51,7 @@ Reserved.
 <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>
    
 
- <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl">LPWSPIoctl</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl">LPWSPIoctl</a></b>
    
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>

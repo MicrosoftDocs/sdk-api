@@ -1,7 +1,8 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas
 title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas (vsmgmt.h)
-description: Queries volumes that support shadow copy storage areas (including volumes with disabled shadow copy storage areas).helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryVolumesSupportedForDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas","IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas","QueryVolumesSupportedForDiffAreas","QueryVolumesSupportedForDiffAreas method [VSS]","QueryVolumesSupportedForDiffAreas method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas"]
+description: Queries volumes that support shadow copy storage areas (including volumes with disabled shadow copy storage areas).
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryVolumesSupportedForDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt.QueryVolumesSupportedForDiffAreas","IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas","QueryVolumesSupportedForDiffAreas","QueryVolumesSupportedForDiffAreas method [VSS]","QueryVolumesSupportedForDiffAreas method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas.htm
 tech.root: VSS
 ms.assetid: 2aad75e3-0228-4cc4-b813-c70a7ebfdea5
@@ -172,7 +173,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 The returned <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
     will contain <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a> structures inside 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> union inside the 
+    the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union inside the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 

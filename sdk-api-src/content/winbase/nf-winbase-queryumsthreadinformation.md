@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.QueryUmsThreadInformation
 title: QueryUmsThreadInformation function (winbase.h)
-description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.helpviewer_keywords: ["QueryUmsThreadInformation","QueryUmsThreadInformation function","base.queryumsthreadinformation","winbase/QueryUmsThreadInformation"]
+description: Retrieves information about the specified user-mode scheduling (UMS) worker thread.
+helpviewer_keywords: ["QueryUmsThreadInformation","QueryUmsThreadInformation function","base.queryumsthreadinformation","winbase/QueryUmsThreadInformation"]
 old-location: base\queryumsthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
@@ -65,7 +66,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to retrieve. 
+A UMS_THREAD_INFO_CLASS value that specifies the kind of information to retrieve. 
 
 
 ### -param UmsThreadInformation [out]
@@ -147,9 +148,4 @@ The underlying structures for UMS worker threads are managed by the system. Info
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
- 
-
- 
 

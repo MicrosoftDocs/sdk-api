@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.ShowMenu
 title: IDvdControl2::ShowMenu (strmif.h)
-description: The ShowMenu method displays the specified menu, if available.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","ShowMenu method","IDvdControl2.ShowMenu","IDvdControl2::ShowMenu","IDvdControl2ShowMenu","ShowMenu","ShowMenu method [DirectShow]","ShowMenu method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_showmenu","strmif/IDvdControl2::ShowMenu"]
+description: The ShowMenu method displays the specified menu, if available.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","ShowMenu method","IDvdControl2.ShowMenu","IDvdControl2::ShowMenu","IDvdControl2ShowMenu","ShowMenu","ShowMenu method [DirectShow]","ShowMenu method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_showmenu","strmif/IDvdControl2::ShowMenu"]
 old-location: dshow\idvdcontrol2_showmenu.htm
 tech.root: DirectShow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
@@ -63,7 +64,7 @@ The <code>ShowMenu</code> method displays the specified menu, if available.
 
 ### -param MenuID [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
+A <a href="https://docs.microsoft.com/windows/win32/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
 
 
 ### -param dwFlags [in]

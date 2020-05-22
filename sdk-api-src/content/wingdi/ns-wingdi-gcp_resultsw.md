@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagGCP_RESULTSW
 title: GCP_RESULTSW (wingdi.h)
-description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.helpviewer_keywords: ["*LPGCP_RESULTSW","GCPCLASS_ARABIC","GCPCLASS_HEBREW","GCPCLASS_LATIN","GCPCLASS_LATINNUMBER","GCPCLASS_LATINNUMERICSEPARATOR","GCPCLASS_LATINNUMERICTERMINATOR","GCPCLASS_LOCALNUMBER","GCPCLASS_NEUTRAL","GCPCLASS_NUMERICSEPARATOR","GCPCLASS_POSTBOUNDLTR","GCPCLASS_POSTBOUNDRTL","GCPCLASS_PREBOUNDLTR","GCPCLASS_PREBOUNDRTL","GCP_RESULTS","GCP_RESULTS structure [Windows GDI]","GCP_RESULTSA","GCP_RESULTSW","LPGCP_RESULTS","LPGCP_RESULTS structure pointer [Windows GDI]","_win32_GCP_RESULTS_str","gdi.gcp_results","wingdi/GCP_RESULTS","wingdi/GCP_RESULTSA","wingdi/GCP_RESULTSW","wingdi/LPGCP_RESULTS"]
+description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
+helpviewer_keywords: ["*LPGCP_RESULTSW","GCPCLASS_ARABIC","GCPCLASS_HEBREW","GCPCLASS_LATIN","GCPCLASS_LATINNUMBER","GCPCLASS_LATINNUMERICSEPARATOR","GCPCLASS_LATINNUMERICTERMINATOR","GCPCLASS_LOCALNUMBER","GCPCLASS_NEUTRAL","GCPCLASS_NUMERICSEPARATOR","GCPCLASS_POSTBOUNDLTR","GCPCLASS_POSTBOUNDRTL","GCPCLASS_PREBOUNDLTR","GCPCLASS_PREBOUNDRTL","GCP_RESULTS","GCP_RESULTS structure [Windows GDI]","GCP_RESULTSA","GCP_RESULTSW","LPGCP_RESULTS","LPGCP_RESULTS structure pointer [Windows GDI]","_win32_GCP_RESULTS_str","gdi.gcp_results","wingdi/GCP_RESULTS","wingdi/GCP_RESULTSA","wingdi/GCP_RESULTSW","wingdi/LPGCP_RESULTS"]
 old-location: gdi\gcp_results.htm
 tech.root: gdi
 ms.assetid: 7692637e-963a-4e0a-8a04-e05a6d01c417
@@ -101,7 +102,7 @@ position = lpCaretPos[i];
 
 ### -field lpClass
 
-A pointer to the array that contains and/or receives character classifications. The values indicate how to lay out characters in the string and are similar (but not identical) to the CT_CTYPE2 values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> function. Each element of the array can be set to zero or one of the following values.
+A pointer to the array that contains and/or receives character classifications. The values indicate how to lay out characters in the string and are similar (but not identical) to the CT_CTYPE2 values returned by the <a href="https://docs.microsoft.com/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw">GetStringTypeEx</a> function. Each element of the array can be set to zero or one of the following values.
 
 <table>
 <tr>

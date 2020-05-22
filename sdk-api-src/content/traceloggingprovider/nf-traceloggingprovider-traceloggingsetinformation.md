@@ -67,7 +67,7 @@ If you call this function from kernel mode code, the function returns a NTSTATUS
 
 ## -remarks
 
-This function serves as a wrapper around the [**EventSetInformation**](win32/api/evntprov/nf-evntprov-eventsetinformation.md) function.
+This function serves as a wrapper around the [**EventSetInformation**](https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventsetinformation) function.
 
 To control the behavior of this function, use macros TLG\_EVENT\_SET\_INFORMATION and TLG\_HAVE\_EVENT\_SET\_INFORMATION.
 

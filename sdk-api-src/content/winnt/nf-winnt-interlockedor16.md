@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedOr16
 title: InterlockedOr16 function (winnt.h)
-description: Performs an atomic OR operation on the specified SHORT values.helpviewer_keywords: ["InterlockedOr16","InterlockedOr16 function","base.interlockedor16","winnt/InterlockedOr16"]
+description: Performs an atomic OR operation on the specified SHORT values.
+helpviewer_keywords: ["InterlockedOr16","InterlockedOr16 function","base.interlockedor16","winnt/InterlockedOr16"]
 old-location: base\interlockedor16.htm
 tech.root: Sync
 ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716
@@ -102,7 +103,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedor">InterlockedOr</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedor">InterlockedOr</a>
 
 
 
