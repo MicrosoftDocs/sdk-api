@@ -1,7 +1,8 @@
 ---
 UID: NF:stringapiset.GetStringTypeW
 title: GetStringTypeW function (stringapiset.h)
-description: Retrieves character type information for the characters in the specified Unicode source string.helpviewer_keywords: ["CT_CTYPE1","CT_CTYPE2","CT_CTYPE3","GetStringTypeW","GetStringTypeW function [Internationalization for Windows Applications]","_win32_GetStringTypeW","_win32_GetStringTypeW_cpp","intl.getstringtypew","stringapiset/GetStringTypeW","winui._win32_GetStringTypeW"]
+description: Retrieves character type information for the characters in the specified Unicode source string.
+helpviewer_keywords: ["CT_CTYPE1","CT_CTYPE2","CT_CTYPE3","GetStringTypeW","GetStringTypeW function [Internationalization for Windows Applications]","_win32_GetStringTypeW","_win32_GetStringTypeW_cpp","intl.getstringtypew","stringapiset/GetStringTypeW","winui._win32_GetStringTypeW"]
 old-location: intl\getstringtypew.htm
 tech.root: Intl
 ms.assetid: 092541ea-e568-4aa3-b99e-ce0bac9c120b
@@ -142,7 +143,7 @@ For an overview of the use of the string functions, see <a href="https://docs.mi
 
 The values of the <i>lpSrcStr</i> and <i>lpCharType</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
 
-The <i>Locale</i> parameter used by the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a> function is not used by this function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>, which is the recommended function.
+The <i>Locale</i> parameter used by the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a> function is not used by this function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using GetStringTypeEx, which is the recommended function.
 
 <b>Supported Character Types</b>
 
@@ -441,10 +442,6 @@ C3_HIGHSURROGATE and C3_LOWSURROGATE are listed only for completeness, and shoul
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>
 
 
 

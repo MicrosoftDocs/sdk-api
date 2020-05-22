@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_CurrentProfileTypes
 title: INetFwPolicy2::get_CurrentProfileTypes (netfw.h)
-description: Retrieves the currently active firewall profile.helpviewer_keywords: ["CurrentProfileTypes property [ICS/ICF]","CurrentProfileTypes property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","CurrentProfileTypes property","INetFwPolicy2.CurrentProfileTypes","INetFwPolicy2.get_CurrentProfileTypes","INetFwPolicy2::CurrentProfileTypes","INetFwPolicy2::get_CurrentProfileTypes","get_CurrentProfileTypes","ics.inetfwpolicy2_currentprofiletypes","netfw/INetFwPolicy2::CurrentProfileTypes","netfw/INetFwPolicy2::get_CurrentProfileTypes"]
+description: Retrieves the currently active firewall profile.
+helpviewer_keywords: ["CurrentProfileTypes property [ICS/ICF]","CurrentProfileTypes property [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","CurrentProfileTypes property","INetFwPolicy2.CurrentProfileTypes","INetFwPolicy2.get_CurrentProfileTypes","INetFwPolicy2::CurrentProfileTypes","INetFwPolicy2::get_CurrentProfileTypes","get_CurrentProfileTypes","ics.inetfwpolicy2_currentprofiletypes","netfw/INetFwPolicy2::CurrentProfileTypes","netfw/INetFwPolicy2::get_CurrentProfileTypes"]
 old-location: ics\inetfwpolicy2_currentprofiletypes.htm
 tech.root: ics
 ms.assetid: 93f4b508-30db-45a9-a7aa-df4a993dc50b
@@ -76,7 +77,6 @@ Multiple profiles can be returned in the profiles bitmask.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type2_">NET_FW_PROFILE_TYPE2</a>
  
 
  

@@ -143,15 +143,7 @@ Under normal circumstances the minimum and maximum number of inputs to the effec
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
 
 
 

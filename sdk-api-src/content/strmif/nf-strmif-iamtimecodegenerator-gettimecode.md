@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.GetTimecode
 title: IAMTimecodeGenerator::GetTimecode (strmif.h)
-description: The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimecode method [DirectShow]","IAMTimecodeGenerator interface","IAMTimecodeGenerator interface [DirectShow]","GetTimecode method","IAMTimecodeGenerator.GetTimecode","IAMTimecodeGenerator::GetTimecode","IAMTimecodeGeneratorGetTimecode","dshow.iamtimecodegenerator_gettimecode","strmif/IAMTimecodeGenerator::GetTimecode"]
+description: The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.
+helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimecode method [DirectShow]","IAMTimecodeGenerator interface","IAMTimecodeGenerator interface [DirectShow]","GetTimecode method","IAMTimecodeGenerator.GetTimecode","IAMTimecodeGenerator::GetTimecode","IAMTimecodeGeneratorGetTimecode","dshow.iamtimecodegenerator_gettimecode","strmif/IAMTimecodeGenerator::GetTimecode"]
 old-location: dshow\iamtimecodegenerator_gettimecode.htm
 tech.root: DirectShow
 ms.assetid: 40f24a99-5a6b-4aff-b22c-e05811c910f4
@@ -63,7 +64,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode and/or us
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/en-us/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns

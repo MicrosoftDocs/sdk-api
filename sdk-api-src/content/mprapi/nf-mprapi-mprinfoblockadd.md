@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprInfoBlockAdd
 title: MprInfoBlockAdd function (mprapi.h)
-description: The MprInfoBlockAdd function creates a new header that is identical to an existing header with the addition of a new block.helpviewer_keywords: ["MprInfoBlockAdd","MprInfoBlockAdd function [RAS]","_mpr_mprinfoblockadd","mprapi/MprInfoBlockAdd","rras.mprinfoblockadd"]
+description: The MprInfoBlockAdd function creates a new header that is identical to an existing header with the addition of a new block.
+helpviewer_keywords: ["MprInfoBlockAdd","MprInfoBlockAdd function [RAS]","_mpr_mprinfoblockadd","mprapi/MprInfoBlockAdd","rras.mprinfoblockadd"]
 old-location: rras\mprinfoblockadd.htm
 tech.root: RRAS
 ms.assetid: 94d8fc3b-1ed6-4555-85c0-40e32d197a72
@@ -68,7 +69,7 @@ Pointer to the header in which to add the new block.
 Specifies the type of block to add. The types available depend on the transport: 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IPv4</a>, <a href="https://docs.microsoft.com/windows/desktop/RRAS/ipv6-information-types-for-router-information-blocks">IPv6</a>, or <a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
 
-<b>Windows Server 2008:  </b>If <i>dwInfoTYpe</i> contains <a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP_ROUTE_INFO</a>, <i>lpItemData</i> must point to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/interface-route-info">INTERFACE_ROUTE_INFO</a> structure.
+<b>Windows Server 2008:  </b>If <i>dwInfoTYpe</i> contains <a href="https://docs.microsoft.com/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP_ROUTE_INFO</a>, <i>lpItemData</i> must point to a INTERFACE_ROUTE_INFO structure.
 
 
 ### -param dwItemSize [in]

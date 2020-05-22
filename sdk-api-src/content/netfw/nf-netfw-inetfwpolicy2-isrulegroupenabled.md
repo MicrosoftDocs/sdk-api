@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwPolicy2.IsRuleGroupEnabled
 title: INetFwPolicy2::IsRuleGroupEnabled (netfw.h)
-description: Determines whether a specified group of firewall rules are enabled or disabled.helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","IsRuleGroupEnabled method","INetFwPolicy2.IsRuleGroupEnabled","INetFwPolicy2::IsRuleGroupEnabled","IsRuleGroupEnabled","IsRuleGroupEnabled method [ICS/ICF]","IsRuleGroupEnabled method [ICS/ICF]","INetFwPolicy2 interface","ics.inetfwpolicy2_isrulegroupenabled","netfw/INetFwPolicy2::IsRuleGroupEnabled"]
+description: Determines whether a specified group of firewall rules are enabled or disabled.
+helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","IsRuleGroupEnabled method","INetFwPolicy2.IsRuleGroupEnabled","INetFwPolicy2::IsRuleGroupEnabled","IsRuleGroupEnabled","IsRuleGroupEnabled method [ICS/ICF]","IsRuleGroupEnabled method [ICS/ICF]","INetFwPolicy2 interface","ics.inetfwpolicy2_isrulegroupenabled","netfw/INetFwPolicy2::IsRuleGroupEnabled"]
 old-location: ics\inetfwpolicy2_isrulegroupenabled.htm
 tech.root: ics
 ms.assetid: b6f27763-6ceb-4bc3-be6f-f02908dc0387
@@ -59,7 +60,7 @@ The <b>IsRuleGroupEnabled</b> method determines whether a specified group of fir
 
 ### -param profileTypesBitmask [in]
 
-A bitmask of profiles from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type2_">NET_FW_PROFILE_TYPE2</a>.
+A bitmask of profiles from NET_FW_PROFILE_TYPE2.
 
 
 ### -param group [in]

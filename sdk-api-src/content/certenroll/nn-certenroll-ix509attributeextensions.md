@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509AttributeExtensions
 title: IX509AttributeExtensions (certenroll.h)
-description: Defines methods and properties that initialize and retrieve certificate extensions in a certificate request.helpviewer_keywords: ["IX509AttributeExtensions","IX509AttributeExtensions interface [Security]","IX509AttributeExtensions interface [Security]","described","certenroll/IX509AttributeExtensions","security.ix509attributeextensions"]
+description: Defines methods and properties that initialize and retrieve certificate extensions in a certificate request.
+helpviewer_keywords: ["IX509AttributeExtensions","IX509AttributeExtensions interface [Security]","IX509AttributeExtensions interface [Security]","described","certenroll/IX509AttributeExtensions","security.ix509attributeextensions"]
 old-location: security\ix509attributeextensions.htm
 tech.root: seccertenroll
 ms.assetid: d216bcfd-50be-4445-87a5-d1cb223aa70c
@@ -58,7 +59,7 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPKInfo SubjectPublicKeyInfo{{ PKInfoAlgorithms }},
    attributes    [0] Attributes{{ CRIAttributes }}
 }
-</code></pre>Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/attributes">Attributes</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>.
+</code></pre>Also, extensions are included in a CMC request by adding them to the <b>TaggedAttributes</b> structure shown in the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) syntax example. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/attributes">Attributes</a> and Extensions.
 <pre class="syntax" xml:space="preserve"><code>
 CmcData ::= SEQUENCE 
 {

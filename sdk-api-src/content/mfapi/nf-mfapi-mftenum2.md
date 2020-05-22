@@ -304,7 +304,7 @@ Hardware codecs should also be registered under an <a href="https://docs.microso
 
 #### Examples
 
-The following example retrieves the first available <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a> and gets the adapters <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-_luid">LUID</a>, which is needed to identify the adapter for the subsequent examples.
+The following example retrieves the first available <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a> and gets the adapters LUID, which is needed to identify the adapter for the subsequent examples.
 
 
 ```cpp

@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.IsEqualGUID
 title: IsEqualGUID macro (objbase.h)
-description: Determines whether two GUIDs are equal.helpviewer_keywords: ["IsEqualGUID","IsEqualGUID function [COM]","_com_IsEqualGUID","com.isequalguid","winddi/IsEqualGUID"]
+description: Determines whether two GUIDs are equal.
+helpviewer_keywords: ["IsEqualGUID","IsEqualGUID function [COM]","_com_IsEqualGUID","com.isequalguid","winddi/IsEqualGUID"]
 old-location: com\isequalguid.htm
 tech.root: com
 ms.assetid: 3580a0c4-e1f8-4bb7-ba66-c4702ecd11f1
@@ -73,7 +74,8 @@ The second GUID.
 
 
 
-<b>IsEqualGUID</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a> and <a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a> functions.
+<b>IsEqualGUID</b> is used by the IsEqualCLSID
+ and <a href="https://docs.microsoft.com/en-us/windows/win32/api/guiddef/nf-guiddef-isequalguid">IsEqualIID</a> functions.
 
 
 
@@ -83,12 +85,7 @@ The second GUID.
 
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/guiddef/nf-guiddef-isequalguid">IsEqualIID</a>
  
 
  

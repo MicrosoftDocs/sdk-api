@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPWSPGETSOCKNAME
 title: LPWSPGETSOCKNAME
-description: The LPWSPGetSockName function gets the local name for a socket.helpviewer_keywords: ["LPWSPGETSOCKNAME"]
+description: The LPWSPGetSockName function gets the local name for a socket.
+helpviewer_keywords: ["LPWSPGETSOCKNAME"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETSOCKNAME
 targetos: Windows
@@ -125,7 +126,6 @@ If a socket was bound to an unspecified address (for example, ADDR_ANY), indicat
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>
 
-<b><a href="/windows/win32/api/ws2spi/ns-ws2spi-lpwspgetpeername">LPWSPGetPeerName</a></b>
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a></b>
 </dt> </dl>

@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi1_3.DXGI_MATRIX_3X2_F
 title: DXGI_MATRIX_3X2_F (dxgi1_3.h)
-description: Represents a 3x2 matrix. Used with GetMatrixTransform and SetMatrixTransform to indicate the scaling and translation transform for SwapChainPanel swap chains.helpviewer_keywords: ["DXGI_MATRIX_3X2_F","DXGI_MATRIX_3X2_F structure [DXGI]","direct3ddxgi.dxgi_matrix_3x2_f","dxgi1_3/DXGI_MATRIX_3X2_F"]
+description: Represents a 3x2 matrix. Used with GetMatrixTransform and SetMatrixTransform to indicate the scaling and translation transform for SwapChainPanel swap chains.
+helpviewer_keywords: ["DXGI_MATRIX_3X2_F","DXGI_MATRIX_3X2_F structure [DXGI]","direct3ddxgi.dxgi_matrix_3x2_f","dxgi1_3/DXGI_MATRIX_3X2_F"]
 old-location: direct3ddxgi\dxgi_matrix_3x2_f.htm
 tech.root: direct3ddxgi
 ms.assetid: 5EA0FAD4-5F19-4E5A-97D4-11AE750E8560
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a 3x2 matrix. Used with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmatrixtransform">SetMatrixTransform</a> to indicate the scaling and translation transform for <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainpanel0">SwapChainPanel</a> swap chains.
+Represents a 3x2 matrix. Used with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmatrixtransform">GetMatrixTransform</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmatrixtransform">SetMatrixTransform</a> to indicate the scaling and translation transform for SwapChainPanel swap chains.
 
 
 ## -struct-fields

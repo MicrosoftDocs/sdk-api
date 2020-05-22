@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IEmailAction
 title: IEmailAction (taskschd.h)
-description: Represents an action that sends an email message.helpviewer_keywords: ["IEmailAction","IEmailAction interface [Task Scheduler]","IEmailAction interface [Task Scheduler]","described","taskschd.iemailaction","taskschd/IEmailAction"]
+description: Represents an action that sends an email message.
+helpviewer_keywords: ["IEmailAction","IEmailAction interface [Task Scheduler]","IEmailAction interface [Task Scheduler]","described","taskschd.iemailaction","taskschd/IEmailAction"]
 old-location: taskschd\iemailaction.htm
 tech.root: taskschd
 ms.assetid: 2f08fd42-233a-40ee-96d0-f0ac8b25b847
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell Send-MailMessage cmdlet as a workaround.]
 
 Represents an action that sends an email message.
 
@@ -62,7 +63,7 @@ The email action must have a valid value for the <a href="https://docs.microsoft
 
 When reading or writing your own XML for a task, an email action is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-sendemail-actiongroup-element">SendEmail</a> element of the Task Scheduler schema.
 
-<b>Windows 8 and Windows Server 2012:  </b>This interface has been removed. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.
+<b>Windows 8 and Windows Server 2012:  </b>This interface has been removed. Please use IExecAction with the  powershell Send-MailMessage cmdlet as a workaround.
 
 
 #### Examples

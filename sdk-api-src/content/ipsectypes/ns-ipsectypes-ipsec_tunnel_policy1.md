@@ -189,7 +189,7 @@ See [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/
 
 Tunnel endpoints of the IPsec security association (SA) generated from this policy.
 
-See [IPSEC_TUNNEL_ENDPOINTS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1) for more information.
+See IPSEC_TUNNEL_ENDPOINTS1 for more information.
 
 
 ### -field saIdleTimeout
@@ -221,7 +221,7 @@ See [IKEEXT_EM_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0_">IPSEC_TUNNEL_ENDPOINTS1</a>
+IPSEC_TUNNEL_ENDPOINTS1
 
 
 

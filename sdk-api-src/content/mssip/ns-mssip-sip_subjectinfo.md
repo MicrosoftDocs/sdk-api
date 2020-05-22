@@ -1,7 +1,8 @@
 ---
 UID: NS:mssip.SIP_SUBJECTINFO_
 title: SIP_SUBJECTINFO (mssip.h)
-description: Specifies subject information data to the subject interface package (SIP) APIs.helpviewer_keywords: ["*LPSIP_SUBJECTINFO","LPSIP_SUBJECTINFO","LPSIP_SUBJECTINFO structure pointer [Security]","MSSIP_ADDINFO_BLOB","MSSIP_ADDINFO_CATMEMBER","MSSIP_ADDINFO_FLAT","MSSIP_ADDINFO_NONE","MSSIP_ADDINFO_NONMSSIP","SIP_SUBJECTINFO","SIP_SUBJECTINFO structure [Security]","mssip/LPSIP_SUBJECTINFO","mssip/SIP_SUBJECTINFO","security.sip_subjectinfo"]
+description: Specifies subject information data to the subject interface package (SIP) APIs.
+helpviewer_keywords: ["*LPSIP_SUBJECTINFO","LPSIP_SUBJECTINFO","LPSIP_SUBJECTINFO structure pointer [Security]","MSSIP_ADDINFO_BLOB","MSSIP_ADDINFO_CATMEMBER","MSSIP_ADDINFO_FLAT","MSSIP_ADDINFO_NONE","MSSIP_ADDINFO_NONMSSIP","SIP_SUBJECTINFO","SIP_SUBJECTINFO structure [Security]","mssip/LPSIP_SUBJECTINFO","mssip/SIP_SUBJECTINFO","security.sip_subjectinfo"]
 old-location: security\sip_subjectinfo.htm
 tech.root: SecCrypto
 ms.assetid: 6274cd08-d67f-410d-9303-3a42b7f1edc6
@@ -204,17 +205,17 @@ The additional information is in a user defined format.
 
 ### -field psFlat
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-ms_addinfo_flat_">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
+An <a href="https://docs.microsoft.com/en-us/windows/win32/api/mssip/ns-mssip-ms_addinfo_flat">MS_ADDINFO_FLAT</a> structure that contains additional information for flat file subject types.
 
 
 ### -field psCatMember
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-ms_addinfo_catalogmember_">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
+An <a href="https://docs.microsoft.com/en-us/windows/win32/api/mssip/ns-mssip-ms_addinfo_catalogmember">MS_ADDINFO_CATALOGMEMBER</a> structure that contains additional information for catalog member subject types.
 
 
 ### -field psBlob
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-ms_addinfo_blob_">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
+An <a href="https://docs.microsoft.com/en-us/windows/win32/api/mssip/ns-mssip-ms_addinfo_blob">MS_ADDINFO_BLOB</a> structure that contains additional information for BLOB subject types.
 
 
 ### -field pClientData

@@ -239,19 +239,19 @@ Use the certificate pointed to by <b>pCert</b>.
 ### -field pFile
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_file_info_">WINTRUST_FILE_INFO</a> structure.
+WINTRUST_FILE_INFO structure.
 
 
 ### -field pCatalog
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_catalog_info_">WINTRUST_CATALOG_INFO</a> structure.
+WINTRUST_CATALOG_INFO structure.
 
 
 ### -field pBlob
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info_">WINTRUST_BLOB_INFO</a> structure.
+WINTRUST_BLOB_INFO structure.
 
 
 ### -field pSgnr
@@ -263,7 +263,7 @@ A pointer to a
 ### -field pCert
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_cert_info_">WINTRUST_CERT_INFO</a> structure.
+WINTRUST_CERT_INFO structure.
 
 
 ### -field dwStateAction

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketData
 title: IInkStrokeDisp::GetPacketData (msinkaut.h)
-description: Retrieves the packet data for a range of packets within the IInkStrokeDisp object.helpviewer_keywords: ["015ca2ca-3bcc-443c-a38c-7f67b69c5907","GetPacketData","GetPacketData method [Tablet PC]","GetPacketData method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetPacketData method","IInkStrokeDisp.GetPacketData","IInkStrokeDisp::GetPacketData","msinkaut/IInkStrokeDisp::GetPacketData","tablet.iinkstrokedisp_getpacketdata"]
+description: Retrieves the packet data for a range of packets within the IInkStrokeDisp object.
+helpviewer_keywords: ["015ca2ca-3bcc-443c-a38c-7f67b69c5907","GetPacketData","GetPacketData method [Tablet PC]","GetPacketData method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetPacketData method","IInkStrokeDisp.GetPacketData","IInkStrokeDisp::GetPacketData","msinkaut/IInkStrokeDisp::GetPacketData","tablet.iinkstrokedisp_getpacketdata"]
 old-location: tablet\iinkstrokedisp_getpacketdata.htm
 tech.root: tablet
 ms.assetid: 015ca2ca-3bcc-443c-a38c-7f67b69c5907
@@ -197,10 +198,6 @@ To retrieve the description of the packet data, use the stroke's <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
 
 
 

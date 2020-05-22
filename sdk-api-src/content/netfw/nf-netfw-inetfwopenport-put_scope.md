@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Scope
 title: INetFwOpenPort::put_Scope (netfw.h)
-description: Controls the network scope from which the port can listen.helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Scope property","INetFwOpenPort.Scope","INetFwOpenPort.put_Scope","INetFwOpenPort::Scope","INetFwOpenPort::get_Scope","INetFwOpenPort::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwOpenPort interface","ics.inetfwopenport_scope","netfw/INetFwOpenPort::Scope","netfw/INetFwOpenPort::get_Scope","netfw/INetFwOpenPort::put_Scope","put_Scope"]
+description: Controls the network scope from which the port can listen.
+helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Scope property","INetFwOpenPort.Scope","INetFwOpenPort.put_Scope","INetFwOpenPort::Scope","INetFwOpenPort::get_Scope","INetFwOpenPort::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwOpenPort interface","ics.inetfwopenport_scope","netfw/INetFwOpenPort::Scope","netfw/INetFwOpenPort::get_Scope","netfw/INetFwOpenPort::put_Scope","put_Scope"]
 old-location: ics\inetfwopenport_scope.htm
 tech.root: ics
 ms.assetid: a5bd787f-e00c-4a57-adc7-a9618809198a
@@ -89,9 +90,6 @@ To create a custom scope, use the <a href="https://docs.microsoft.com/previous-v
 <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_scope_">NET_FW_SCOPE</a>
- 
 
  
 

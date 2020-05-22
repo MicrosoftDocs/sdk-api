@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS12_PBE_PARAMS
 title: CRYPT_PKCS12_PBE_PARAMS (wincrypt.h)
-description: Contains parameters used to create an encryption key, initialization vector (IV), or Message Authentication Code (MAC) key for a PKCShelpviewer_keywords: ["CRYPT_PKCS12_PBE_PARAMS","CRYPT_PKCS12_PBE_PARAMS structure [Security]","security.crypt_pkcs12_pbe_params","wincrypt/CRYPT_PKCS12_PBE_PARAMS"]
+description: Contains parameters used to create an encryption key, initialization vector (IV), or Message Authentication Code (MAC) key for a PKCS
+helpviewer_keywords: ["CRYPT_PKCS12_PBE_PARAMS","CRYPT_PKCS12_PBE_PARAMS structure [Security]","security.crypt_pkcs12_pbe_params","wincrypt/CRYPT_PKCS12_PBE_PARAMS"]
 old-location: security\crypt_pkcs12_pbe_params.htm
 tech.root: SecCrypto
 ms.assetid: 8923bb7f-b26a-4ffc-98a3-3ae74e941329
@@ -73,7 +74,7 @@ An integer that specifies the size, in bytes, of the salt used to create the key
 
 The buffer that contains the salt immediately follows the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions consume the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure as an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a> structure in the <i>pParameterList</i> parameter.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions consume the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure as an NCryptBuffer structure in the <i>pParameterList</i> parameter.
 
 The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a> standard recommends a value of 1024 or greater for the <b>iIterations</b> member.
 

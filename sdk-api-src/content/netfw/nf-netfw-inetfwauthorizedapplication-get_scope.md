@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Scope
 title: INetFwAuthorizedApplication::get_Scope (netfw.h)
-description: Controls the network scope from which the port can listen.helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","Scope property","INetFwAuthorizedApplication.Scope","INetFwAuthorizedApplication.get_Scope","INetFwAuthorizedApplication::Scope","INetFwAuthorizedApplication::get_Scope","INetFwAuthorizedApplication::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwAuthorizedApplication interface","get_Scope","ics.inetfwauthorizedapplication_scope","netfw/INetFwAuthorizedApplication::Scope","netfw/INetFwAuthorizedApplication::get_Scope","netfw/INetFwAuthorizedApplication::put_Scope"]
+description: Controls the network scope from which the port can listen.
+helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","Scope property","INetFwAuthorizedApplication.Scope","INetFwAuthorizedApplication.get_Scope","INetFwAuthorizedApplication::Scope","INetFwAuthorizedApplication::get_Scope","INetFwAuthorizedApplication::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwAuthorizedApplication interface","get_Scope","ics.inetfwauthorizedapplication_scope","netfw/INetFwAuthorizedApplication::Scope","netfw/INetFwAuthorizedApplication::get_Scope","netfw/INetFwAuthorizedApplication::put_Scope"]
 old-location: ics\inetfwauthorizedapplication_scope.htm
 tech.root: ics
 ms.assetid: f9784736-2af0-4bd4-980c-2365a1cdc20b
@@ -91,8 +92,6 @@ To create a custom scope, use the <a href="https://docs.microsoft.com/previous-v
 <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_scope_">NET_FW_SCOPE</a>
  
 
  

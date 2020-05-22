@@ -65,7 +65,7 @@ If <b>TRUE</b>, the <b>BackgroundColor</b> member specifies a YCbCr color. Other
 
 ### -field BackgroundColor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_color">DXVAHD_COLOR</a> union that specifies the background color. The default state value is (0.0, 0.0, 0.0, 1.0).
+A DXVAHD_COLOR union that specifies the background color. The default state value is (0.0, 0.0, 0.0, 1.0).
 
 
 ## -remarks

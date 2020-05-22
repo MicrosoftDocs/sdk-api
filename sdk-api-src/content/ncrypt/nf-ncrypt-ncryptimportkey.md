@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptImportKey
 title: NCryptImportKey function (ncrypt.h)
-description: Imports a Cryptography API:\_Next Generation (CNG) key from a memory BLOB.helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptImportKey","NCryptImportKey function [Security]","ncrypt/NCryptImportKey","security.ncryptimportkey_func"]
+description: Imports a Cryptography API:\_Next Generation (CNG) key from a memory BLOB.
+helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptImportKey","NCryptImportKey function [Security]","ncrypt/NCryptImportKey","security.ncryptimportkey_func"]
 old-location: security\ncryptimportkey_func.htm
 tech.root: SecCNG
 ms.assetid: ede0e7e0-cb2c-44c0-b724-58db3480b781
@@ -74,7 +75,7 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 
 ### -param pParameterList [in, optional]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that points to an array of buffers that contain parameter information for the key.
+The address of an NCryptBufferDesc structure that points to an array of buffers that contain parameter information for the key.
 
 
 ### -param phKey [out]
@@ -314,13 +315,4 @@ If the key container name is <b>NULL</b>, the Microsoft Smart Card KSP treats th
 
 
 
-## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>
- 
-
- 
 

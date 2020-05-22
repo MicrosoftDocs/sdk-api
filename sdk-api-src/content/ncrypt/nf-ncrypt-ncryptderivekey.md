@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
 title: NCryptDeriveKey function (ncrypt.h)
-description: Derives a key from a secret agreement value.helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","NCryptDeriveKey","NCryptDeriveKey function [Security]","ncrypt/NCryptDeriveKey","security.ncryptderivekey"]
+description: Derives a key from a secret agreement value.
+helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","NCryptDeriveKey","NCryptDeriveKey function [Security]","ncrypt/NCryptDeriveKey","security.ncryptderivekey"]
 old-location: security\ncryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
@@ -396,7 +397,7 @@ The call to the KDF is made as shown in the following pseudocode.
 
 ### -param pParameterList [in, optional]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
+The address of a NCryptBufferDesc structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 
 ### -param pbDerivedKey [out, optional]
@@ -532,15 +533,6 @@ Value: {0x01, 0x10, 0x11, 0x12}, length 4
 A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a>
- 
 
  
 

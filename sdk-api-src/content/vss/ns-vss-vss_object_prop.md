@@ -1,7 +1,8 @@
 ---
 UID: NS:vss._VSS_OBJECT_PROP
 title: VSS_OBJECT_PROP (vss.h)
-description: Defines the properties of a provider, volume, shadow copy, or shadow copy set.helpviewer_keywords: ["*PVSS_OBJECT_PROP","PVSS_OBJECT_PROP","PVSS_OBJECT_PROP structure pointer [VSS]","VSS_OBJECT_PROP","VSS_OBJECT_PROP structure [VSS]","_win32_vss_object_prop","base.vss_object_prop","vss/PVSS_OBJECT_PROP","vss/VSS_OBJECT_PROP"]
+description: Defines the properties of a provider, volume, shadow copy, or shadow copy set.
+helpviewer_keywords: ["*PVSS_OBJECT_PROP","PVSS_OBJECT_PROP","PVSS_OBJECT_PROP structure pointer [VSS]","VSS_OBJECT_PROP","VSS_OBJECT_PROP structure [VSS]","_win32_vss_object_prop","base.vss_object_prop","vss/PVSS_OBJECT_PROP","vss/VSS_OBJECT_PROP"]
 old-location: base\vss_object_prop.htm
 tech.root: VSS
 ms.assetid: 90664042-e9a0-4959-a975-9289477d2394
@@ -67,7 +68,7 @@ Object type. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/vs
 
 Object properties: a union of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
       and <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a> structures. (See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>.) 
+      VSS_OBJECT_UNION.) 
      
 
 It contains information for an object of the type specified by the <b>Type</b> member of 
@@ -104,9 +105,6 @@ In the case of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vs
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_object_type">VSS_OBJECT_TYPE</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>
 
 
 

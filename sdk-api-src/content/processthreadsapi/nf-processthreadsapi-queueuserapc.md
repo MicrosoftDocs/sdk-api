@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.QueueUserAPC
 title: QueueUserAPC function (processthreadsapi.h)
-description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.helpviewer_keywords: ["QueueUserAPC","QueueUserAPC function","_win32_queueuserapc","base.queueuserapc","processthreadsapi/QueueUserAPC","winbase/QueueUserAPC"]
+description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
+helpviewer_keywords: ["QueueUserAPC","QueueUserAPC function","_win32_queueuserapc","base.queueuserapc","processthreadsapi/QueueUserAPC","winbase/QueueUserAPC"]
 old-location: base\queueuserapc.htm
 tech.root: Sync
 ms.assetid: 5b141372-7c95-4eb2-987b-64fdf7d0783d
@@ -107,7 +108,7 @@ Each thread has its own APC queue. The queuing of an APC is a request for the th
 
 When a user-mode APC is queued, the thread is not directed to call the APC function unless it is in an alertable state. After the thread is in an alertable state, the thread handles all pending APCs in first in, first out (FIFO) order, and the wait operation returns <b>WAIT_IO_COMPLETION</b>. A thread enters an alertable state by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-signalobjectandwait">SignalObjectAndWait</a>, 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait">SignalObjectAndWait</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> to perform an alertable wait operation.

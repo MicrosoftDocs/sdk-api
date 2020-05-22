@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.NotifyWinEvent
 title: NotifyWinEvent function (winuser.h)
-description: Signals the system that a predefined event occurred. If any client applications have registered a hook function for the event, the system calls the client's hook function.helpviewer_keywords: ["NotifyWinEvent","NotifyWinEvent function [Windows Accessibility]","_msaa_NotifyWinEvent","msaa.notifywinevent","winauto.notifywinevent","winuser/NotifyWinEvent"]
+description: Signals the system that a predefined event occurred. If any client applications have registered a hook function for the event, the system calls the client's hook function.
+helpviewer_keywords: ["NotifyWinEvent","NotifyWinEvent function [Windows Accessibility]","_msaa_NotifyWinEvent","msaa.notifywinevent","winauto.notifywinevent","winuser/NotifyWinEvent"]
 old-location: winauto\notifywinevent.htm
 tech.root: WinAuto
 ms.assetid: 08e74d45-95b6-44c2-a2e0-5ba6ffdcd56a
@@ -125,8 +126,6 @@ When servers call this function, they must be ready to handle <a href="https://d
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwinevent">UnHookWinEvent</a>
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/winevents">WinEvents</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELINIT
 title: VIRTUALCHANNELINIT (cchannel.h)
-description: Initializes a client DLL's access to Remote Desktop Services virtual channels.helpviewer_keywords: ["VirtualChannelInit","VirtualChannelInit callback","VirtualChannelInit callback function [Remote Desktop Services]","_win32_virtualchannelinit","cchannel/VirtualChannelInit","termserv.virtualchannelinit"]
+description: Initializes a client DLL's access to Remote Desktop Services virtual channels.
+helpviewer_keywords: ["VirtualChannelInit","VirtualChannelInit callback","VirtualChannelInit callback function [Remote Desktop Services]","_win32_virtualchannelinit","cchannel/VirtualChannelInit","termserv.virtualchannelinit"]
 old-location: termserv\virtualchannelinit.htm
 tech.root: TermServ
 ms.assetid: 3dae59dc-e70f-450e-a324-a4d68341a72e
@@ -71,7 +72,7 @@ Pointer to a variable that receives a handle that identifies the client connecti
 
 ### -param pChannel [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> 
+Pointer to an array of CHANNEL_DEF 
       structures. Each structure contains the name and initialization options of a virtual channel that the client 
       DLL will open. Note that the <b>VirtualChannelInit</b> call does not open these 
       virtual channels; it only reserves the names for use by this application.
@@ -124,7 +125,7 @@ You should not make assumptions about the number of available virtual channels b
    <b>CHANNEL_RC_TOO_MANY_CHANNELS</b> return code after calling this function.
 
 When <b>VirtualChannelInit</b> returns, the <b>options</b> member of each 
-   <a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> structure includes 
+   CHANNEL_DEF structure includes 
    <b>CHANNEL_OPTION_INITIALIZED</b> if the channel was successfully initialized.
 
 The maximum number of channels per client session is <b>CHANNEL_MAX_COUNT</b>.
@@ -133,11 +134,6 @@ The maximum number of channels per client session is <b>CHANNEL_MAX_COUNT</b>.
 
 
 ## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a>
 
 
 

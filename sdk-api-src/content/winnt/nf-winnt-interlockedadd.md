@@ -128,11 +128,6 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683514(v=vs.85)">InterlockedAddRelease64</a>
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedexchangeadd">InterlockedExchangeAdd</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 

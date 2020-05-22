@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptExportKey
 title: NCryptExportKey function (ncrypt.h)
-description: Exports a CNG key to a memory BLOB.helpviewer_keywords: ["BCRYPT_DH_PRIVATE_BLOB","BCRYPT_DH_PUBLIC_BLOB","BCRYPT_DSA_PRIVATE_BLOB","BCRYPT_DSA_PUBLIC_BLOB","BCRYPT_ECCPRIVATE_BLOB","BCRYPT_ECCPUBLIC_BLOB","BCRYPT_PRIVATE_KEY_BLOB","BCRYPT_PUBLIC_KEY_BLOB","BCRYPT_RSAFULLPRIVATE_BLOB","BCRYPT_RSAPRIVATE_BLOB","BCRYPT_RSAPUBLIC_BLOB","LEGACY_DH_PRIVATE_BLOB","LEGACY_DH_PUBLIC_BLOB","LEGACY_DSA_PRIVATE_BLOB","LEGACY_DSA_PUBLIC_BLOB","LEGACY_RSAPRIVATE_BLOB","LEGACY_RSAPUBLIC_BLOB","NCRYPT_CIPHER_KEY_BLOB","NCRYPT_OPAQUETRANSPORT_BLOB","NCRYPT_PKCS7_ENVELOPE_BLOB","NCRYPT_PKCS8_PRIVATE_KEY_BLOB","NCRYPT_PROTECTED_KEY_BLOB","NCRYPT_SILENT_FLAG","NCryptExportKey","NCryptExportKey function [Security]","ncrypt/NCryptExportKey","security.ncryptexportkey_func"]
+description: Exports a CNG key to a memory BLOB.
+helpviewer_keywords: ["BCRYPT_DH_PRIVATE_BLOB","BCRYPT_DH_PUBLIC_BLOB","BCRYPT_DSA_PRIVATE_BLOB","BCRYPT_DSA_PUBLIC_BLOB","BCRYPT_ECCPRIVATE_BLOB","BCRYPT_ECCPUBLIC_BLOB","BCRYPT_PRIVATE_KEY_BLOB","BCRYPT_PUBLIC_KEY_BLOB","BCRYPT_RSAFULLPRIVATE_BLOB","BCRYPT_RSAPRIVATE_BLOB","BCRYPT_RSAPUBLIC_BLOB","LEGACY_DH_PRIVATE_BLOB","LEGACY_DH_PUBLIC_BLOB","LEGACY_DSA_PRIVATE_BLOB","LEGACY_DSA_PUBLIC_BLOB","LEGACY_RSAPRIVATE_BLOB","LEGACY_RSAPUBLIC_BLOB","NCRYPT_CIPHER_KEY_BLOB","NCRYPT_OPAQUETRANSPORT_BLOB","NCRYPT_PKCS7_ENVELOPE_BLOB","NCRYPT_PKCS8_PRIVATE_KEY_BLOB","NCRYPT_PROTECTED_KEY_BLOB","NCRYPT_SILENT_FLAG","NCryptExportKey","NCryptExportKey function [Security]","ncrypt/NCryptExportKey","security.ncryptexportkey_func"]
 old-location: security\ncryptexportkey_func.htm
 tech.root: SecCNG
 ms.assetid: 1588eb29-4026-4d1c-8bee-a035df38444a
@@ -298,7 +299,7 @@ Export a protected key in a <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -param pParameterList [in, optional]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that receives parameter information for the key. This parameter can be <b>NULL</b> if this information is not needed.
+The address of an NCryptBufferDesc structure that receives parameter information for the key. This parameter can be <b>NULL</b> if this information is not needed.
 
 
 ### -param pbOutput [out, optional]
@@ -433,16 +434,4 @@ One or more parameters are not valid.
 
 A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
-
-
-
-## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>
- 
-
- 
 

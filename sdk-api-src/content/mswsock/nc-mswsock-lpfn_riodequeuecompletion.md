@@ -1,7 +1,8 @@
 ---
 UID: NC:mswsock.LPFN_RIODEQUEUECOMPLETION
 title: LPFN_RIODEQUEUECOMPLETION
-description: Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.helpviewer_keywords: ["LPFN_RIODEQUEUECOMPLETION"]
+description: Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.
+helpviewer_keywords: ["LPFN_RIODEQUEUECOMPLETION"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 658729C0-2963-45F0-B616-01372A7144D1
@@ -84,7 +85,7 @@ Only after a request’s completion has been dequeued does the system release th
  
 
 > [!Note]  
-> The function pointer to the **RIODequeueCompletion** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctld) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIODequeueCompletion** function must be obtained at run time by making a call to the [**WSAIoctl**](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedAnd16
 title: InterlockedAnd16 function (winnt.h)
-description: Performs an atomic AND operation on the specified SHORT values.helpviewer_keywords: ["InterlockedAnd16","InterlockedAnd16 function","base.interlockedand16","winnt/InterlockedAnd16"]
+description: Performs an atomic AND operation on the specified SHORT values.
+helpviewer_keywords: ["InterlockedAnd16","InterlockedAnd16 function","base.interlockedand16","winnt/InterlockedAnd16"]
 old-location: base\interlockedand16.htm
 tech.root: Sync
 ms.assetid: 2fadfee3-929e-4087-a1c9-789a881c7a25
@@ -99,11 +100,6 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedand">InterlockedAnd</a>
-
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683521(v=vs.85)">InterlockedAnd16Acquire</a>

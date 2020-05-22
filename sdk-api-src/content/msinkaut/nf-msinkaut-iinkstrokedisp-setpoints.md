@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPoints
 title: IInkStrokeDisp::SetPoints (msinkaut.h)
-description: Sets the points of the IInkStrokeDisp using an array of X, Y values.helpviewer_keywords: ["759e3195-e1de-45eb-a9de-8ec8fe2347c1","IInkStrokeDisp interface [Tablet PC]","SetPoints method","IInkStrokeDisp.SetPoints","IInkStrokeDisp::SetPoints","SetPoints","SetPoints method [Tablet PC]","SetPoints method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::SetPoints","tablet.iinkstrokedisp_setpoints"]
+description: Sets the points of the IInkStrokeDisp using an array of X, Y values.
+helpviewer_keywords: ["759e3195-e1de-45eb-a9de-8ec8fe2347c1","IInkStrokeDisp interface [Tablet PC]","SetPoints method","IInkStrokeDisp.SetPoints","IInkStrokeDisp::SetPoints","SetPoints","SetPoints method [Tablet PC]","SetPoints method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::SetPoints","tablet.iinkstrokedisp_setpoints"]
 old-location: tablet\iinkstrokedisp_setpoints.htm
 tech.root: tablet
 ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
@@ -70,12 +71,12 @@ For more information about the VARIANT structure, see <a href="https://docs.micr
 
 ### -param Index [in, optional]
 
-Optional. The zero-based index of the first point in the stroke to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_FirstElement</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that the first point in the stroke is modified.
+Optional. The zero-based index of the first point in the stroke to be modified. The default value ISC_FirstElement, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that the first point in the stroke is modified.
 
 
 ### -param Count [in, optional]
 
-Optional. The count of points in the stroke to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_AllElements</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all points in the stroke are modified.
+Optional. The count of points in the stroke to be modified. The default value ISC_AllElements, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all points in the stroke are modified.
 
 
 ### -param NumberOfPointsSet [out, retval]
@@ -167,8 +168,6 @@ In order to draw the stroke after calling <b>SetPoints</b>, call the <a href="ht
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
  
 
  

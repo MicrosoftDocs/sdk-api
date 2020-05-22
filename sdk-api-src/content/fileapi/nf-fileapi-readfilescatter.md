@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.ReadFileScatter
 title: ReadFileScatter function (fileapi.h)
-description: Reads data from a file and stores it in an array of buffers.helpviewer_keywords: ["ReadFileScatter","ReadFileScatter function [Files]","_win32_readfilescatter","base.readfilescatter","fileapi/ReadFileScatter","fs.readfilescatter","winbase/ReadFileScatter"]
+description: Reads data from a file and stores it in an array of buffers.
+helpviewer_keywords: ["ReadFileScatter","ReadFileScatter function [Files]","_win32_readfilescatter","base.readfilescatter","fileapi/ReadFileScatter","fs.readfilescatter","winbase/ReadFileScatter"]
 old-location: fs\readfilescatter.htm
 tech.root: FileIO
 ms.assetid: 4ed7c47b-d40b-4016-8550-0af17ee9e86d
@@ -80,7 +81,7 @@ The file handle must be created with the <b>GENERIC_READ</b> right, and the
 
 ### -param aSegmentArray [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a> 
+A pointer to an array of FILE_SEGMENT_ELEMENT 
        buffers that receives the data. For a description of this union, see Remarks.
 
 Each element can receive one page of data.
@@ -171,7 +172,7 @@ If the function returns before the read operation is complete, the function retu
 
 This function is not supported for 32-bit applications by WOW64 on Itanium-based systems.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a> union is defined as follows:
+The FILE_SEGMENT_ELEMENT union is defined as follows:
 
 
 ```cpp
@@ -263,9 +264,6 @@ If there is a transaction bound to the file handle, then the function returns da
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_segment_element">FILE_SEGMENT_ELEMENT</a>
 
 
 

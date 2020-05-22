@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedXor8
 title: InterlockedXor8 function (winnt.h)
-description: Performs an atomic XOR operation on the specified char values.helpviewer_keywords: ["InterlockedXor8","InterlockedXor8 function","base.interlockedxor8","winnt/InterlockedXor8"]
+description: Performs an atomic XOR operation on the specified char values.
+helpviewer_keywords: ["InterlockedXor8","InterlockedXor8 function","base.interlockedxor8","winnt/InterlockedXor8"]
 old-location: base\interlockedxor8.htm
 tech.root: Sync
 ms.assetid: 9b96417e-dc2e-4b67-8084-0c0219444299
@@ -99,10 +100,6 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedxor">InterlockedXor</a>
 
 
 

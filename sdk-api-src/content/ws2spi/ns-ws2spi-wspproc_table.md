@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2spi._WSPPROC_TABLE
 title: WSPPROC_TABLE
-description: Contains a table of pointers to service provider functions.helpviewer_keywords: ["_WSPPROC_TABLE","WSPPROC_TABLE"]
+description: Contains a table of pointers to service provider functions.
+helpviewer_keywords: ["_WSPPROC_TABLE","WSPPROC_TABLE"]
 ms.date: 4/26/2019
 ms.keywords: _WSPPROC_TABLE, WSPPROC_TABLE
 targetos: Windows
@@ -70,7 +71,7 @@ A pointer to the [**WSPCleanup**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspclean
 
  
 
-A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> function.
+A pointer to the <b>LPWSPCloseSocket</b> function.
 
 ### -field lpWSPConnect
 
@@ -222,8 +223,6 @@ The **WSPPROC_TABLE** structure contains a table of pointers to service provider
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">LPWSPCancelBlockingCall</a></b>
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcleanup">LPWSPCleanup</a></b>
-
-<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
 

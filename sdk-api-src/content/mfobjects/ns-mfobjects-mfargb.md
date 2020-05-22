@@ -1,7 +1,8 @@
 ---
 UID: NS:mfobjects._MFARGB
 title: MFARGB (mfobjects.h)
-description: Describes an ARGB color value.helpviewer_keywords: ["MFARGB","MFARGB structure [Media Foundation]","ce7ac174-9f00-42a4-9b48-ed86b406d83e","mf.mfargb","mfobjects/MFARGB"]
+description: Describes an ARGB color value.
+helpviewer_keywords: ["MFARGB","MFARGB structure [Media Foundation]","ce7ac174-9f00-42a4-9b48-ed86b406d83e","mf.mfargb","mfobjects/MFARGB"]
 old-location: mf\mfargb.htm
 tech.root: medfound
 ms.assetid: ce7ac174-9f00-42a4-9b48-ed86b406d83e
@@ -81,11 +82,6 @@ Alpha value.
 
 
 ## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>
 
 
 

@@ -323,7 +323,8 @@ Queries the name associated with the context.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_nativenamesa">SecPkgContext_NativeNames</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a SecPkgContext_NativeNames
+ structure.
 
 Returns the principal name (CNAME) from the outbound ticket.
 
@@ -349,7 +350,8 @@ Returns information about the security package to be used with the negotiation p
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a SecPkgContext_PackageInfo
+ structure.
 
 Returns information on the SSP in use.
 

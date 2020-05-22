@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_connect
 title: ldap_connect function (winldap.h)
-description: The ldap_connect function establishes a connection with the server.helpviewer_keywords: ["_ldap_ldap_connect","ldap.ldap__connect","ldap.ldap_connect","ldap_connect","ldap_connect function [LDAP]","winldap/ldap_connect"]
+description: The ldap_connect function establishes a connection with the server.
+helpviewer_keywords: ["_ldap_ldap_connect","ldap.ldap__connect","ldap.ldap_connect","ldap_connect","ldap_connect function [LDAP]","winldap/ldap_connect"]
 old-location: ldap\ldap_connect.htm
 tech.root: ldap
 ms.assetid: 783e52fd-d758-47ba-b350-878a2efec8a3
@@ -64,7 +65,7 @@ The session handle obtained from <a href="https://docs.microsoft.com/previous-ve
 
 ### -param timeout [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-l_timeval">LDAP_TIMEVAL</a> structure that specifies the number of seconds to spend in an attempt to establish a connection before a timeout. If <b>NULL</b>, the function uses a default timeout value.
+A pointer to an LDAP_TIMEVAL structure that specifies the number of seconds to spend in an attempt to establish a connection before a timeout. If <b>NULL</b>, the function uses a default timeout value.
 
 
 ## -returns
@@ -106,12 +107,7 @@ If the <b>ldap_connect</b> call fails, the session handle should be freed with a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-l_timeval">LDAP_TIMEVAL</a>
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
-
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_init">ldap_init</a>

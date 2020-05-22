@@ -1,7 +1,8 @@
 ---
 UID: NE:vss._VSS_PROVIDER_TYPE
 title: VSS_PROVIDER_TYPE (vss.h)
-description: Specifies the provider type.helpviewer_keywords: ["*PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE enumeration pointer [VSS]","VSS_PROVIDER_TYPE","VSS_PROVIDER_TYPE enumeration [VSS]","VSS_PROV_FILESHARE","VSS_PROV_HARDWARE","VSS_PROV_SOFTWARE","VSS_PROV_SYSTEM","VSS_PROV_UNKNOWN","_win32_vss_provider_type","base.vss_provider_type","vss/PVSS_PROVIDER_TYPE","vss/VSS_PROVIDER_TYPE","vss/VSS_PROV_FILESHARE","vss/VSS_PROV_HARDWARE","vss/VSS_PROV_SOFTWARE","vss/VSS_PROV_SYSTEM","vss/VSS_PROV_UNKNOWN"]
+description: Specifies the provider type.
+helpviewer_keywords: ["*PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE","PVSS_PROVIDER_TYPE enumeration pointer [VSS]","VSS_PROVIDER_TYPE","VSS_PROVIDER_TYPE enumeration [VSS]","VSS_PROV_FILESHARE","VSS_PROV_HARDWARE","VSS_PROV_SOFTWARE","VSS_PROV_SYSTEM","VSS_PROV_UNKNOWN","_win32_vss_provider_type","base.vss_provider_type","vss/PVSS_PROVIDER_TYPE","vss/VSS_PROVIDER_TYPE","vss/VSS_PROV_FILESHARE","vss/VSS_PROV_HARDWARE","vss/VSS_PROV_SOFTWARE","vss/VSS_PROV_SYSTEM","vss/VSS_PROV_UNKNOWN"]
 old-location: base\vss_provider_type.htm
 tech.root: VSS
 ms.assetid: 76a85ff4-df3c-4280-a6f1-2a1cff96ccfd
@@ -102,10 +103,6 @@ A file share provider.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>
 
 
 

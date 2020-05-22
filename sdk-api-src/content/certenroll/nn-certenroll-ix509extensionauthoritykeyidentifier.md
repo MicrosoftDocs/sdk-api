@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509ExtensionAuthorityKeyIdentifier
 title: IX509ExtensionAuthorityKeyIdentifier (certenroll.h)
-description: Enables you to specify an AuthorityKeyIdentifier extension.helpviewer_keywords: ["IX509ExtensionAuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier interface [Security]","IX509ExtensionAuthorityKeyIdentifier interface [Security]","described","certenroll/IX509ExtensionAuthorityKeyIdentifier","security.ix509extensionauthoritykeyidentifier"]
+description: Enables you to specify an AuthorityKeyIdentifier extension.
+helpviewer_keywords: ["IX509ExtensionAuthorityKeyIdentifier","IX509ExtensionAuthorityKeyIdentifier interface [Security]","IX509ExtensionAuthorityKeyIdentifier interface [Security]","described","certenroll/IX509ExtensionAuthorityKeyIdentifier","security.ix509extensionauthoritykeyidentifier"]
 old-location: security\ix509extensionauthoritykeyidentifier.htm
 tech.root: seccertenroll
 ms.assetid: 68889c3e-25ea-440a-a776-ef3d11dc6b54
@@ -131,10 +132,6 @@ Retrieves a byte array  that contains the extension value.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
 
 
 

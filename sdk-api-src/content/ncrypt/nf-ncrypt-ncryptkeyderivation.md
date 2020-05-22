@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptKeyDerivation
 title: NCryptKeyDerivation function (ncrypt.h)
-description: Creates a key from another key by using the specified key derivation function.helpviewer_keywords: ["BCRYPT_CAPI_AES_FLAG","NCRYPT_SILENT_FLAG","NCryptKeyDerivation","NCryptKeyDerivation function [Security]","ncrypt/NCryptKeyDerivation","security.ncryptkeyderivation"]
+description: Creates a key from another key by using the specified key derivation function.
+helpviewer_keywords: ["BCRYPT_CAPI_AES_FLAG","NCRYPT_SILENT_FLAG","NCryptKeyDerivation","NCryptKeyDerivation function [Security]","ncrypt/NCryptKeyDerivation","security.ncryptkeyderivation"]
 old-location: security\ncryptkeyderivation.htm
 tech.root: SecCNG
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
@@ -64,7 +65,7 @@ Handle of the key derivation function (KDF) key.
 
 ### -param pParameterList [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
+The address of a NCryptBufferDesc structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
 
 <table>
 <tr>

@@ -1,7 +1,8 @@
 ---
 UID: NS:mfobjects._MFVideoSurfaceInfo
 title: MFVideoSurfaceInfo (mfobjects.h)
-description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.helpviewer_keywords: ["MFVideoSurfaceInfo","MFVideoSurfaceInfo structure [Media Foundation]","b48099a2-8427-496c-9a60-ace5b89d81e9","mf.mfvideosurfaceinfo","mfobjects/MFVideoSurfaceInfo"]
+description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.
+helpviewer_keywords: ["MFVideoSurfaceInfo","MFVideoSurfaceInfo structure [Media Foundation]","b48099a2-8427-496c-9a60-ace5b89d81e9","mf.mfvideosurfaceinfo","mfobjects/MFVideoSurfaceInfo"]
 old-location: mf\mfvideosurfaceinfo.htm
 tech.root: medfound
 ms.assetid: b48099a2-8427-496c-9a60-ace5b89d81e9
@@ -72,7 +73,7 @@ Number of palette entries. The value must be between 0 and 256.
 
 ### -field Palette
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
+Array of MFPaletteEntry Union s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
 
 
 ## -see-also

@@ -1,7 +1,8 @@
 ---
 UID: NF:urlmon.CreateAsyncBindCtx
 title: CreateAsyncBindCtx function (urlmon.h)
-description: Creates an asynchronous bind context for use with asynchronous monikers.helpviewer_keywords: ["CreateAsyncBindCtx","CreateAsyncBindCtx function [COM]","_com_CreateAsyncBindCtx","com.createasyncbindctx","urlmon/CreateAsyncBindCtx"]
+description: Creates an asynchronous bind context for use with asynchronous monikers.
+helpviewer_keywords: ["CreateAsyncBindCtx","CreateAsyncBindCtx function [COM]","_com_CreateAsyncBindCtx","com.createasyncbindctx","urlmon/CreateAsyncBindCtx"]
 old-location: com\createasyncbindctx.htm
 tech.root: com
 ms.assetid: 0c79b61b-d3d6-48fd-aaee-21cddad09208
@@ -131,7 +132,7 @@ One or more parameters are invalid.
 
 
 
-This function automatically registers the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)">IBindStatusCallback</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interfaces with the bind context. The client can specify flags from <a href="https://docs.microsoft.com/windows/desktop/com/bsco-option">BSCO_OPTION</a> to indicate which callback notifications the client is capable of receiving. If the client does not wish to receive certain notification, it can choose to implement those callback methods as empty function stubs (returning E_NOTIMPL), and they should not be called.
+This function automatically registers the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)">IBindStatusCallback</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interfaces with the bind context. The client can specify flags from BSCO_OPTION to indicate which callback notifications the client is capable of receiving. If the client does not wish to receive certain notification, it can choose to implement those callback methods as empty function stubs (returning E_NOTIMPL), and they should not be called.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)">RegisterBindStatusCallback</a> function can also be used to register callback interfaces in the bind context.
 

@@ -119,15 +119,12 @@ An index sub-property used by the elements of the <b>D2D1_SUBPROPERTY_FIELDS</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/direct2d/id2d1properties-getvaluesize-overload
+">ID2D1Properties::GetValueSize</a>
 
 
 

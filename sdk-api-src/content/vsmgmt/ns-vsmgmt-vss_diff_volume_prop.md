@@ -1,7 +1,8 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_VOLUME_PROP
 title: VSS_DIFF_VOLUME_PROP (vsmgmt.h)
-description: Describes a shadow copy storage area volume.helpviewer_keywords: ["*PVSS_DIFF_VOLUME_PROP","PVSS_DIFF_VOLUME_PROP","PVSS_DIFF_VOLUME_PROP structure pointer [VSS]","VSS_DIFF_VOLUME_PROP","VSS_DIFF_VOLUME_PROP structure [VSS]","base.vss_diff_volume_prop","vsmgmt/PVSS_DIFF_VOLUME_PROP","vsmgmt/VSS_DIFF_VOLUME_PROP"]
+description: Describes a shadow copy storage area volume.
+helpviewer_keywords: ["*PVSS_DIFF_VOLUME_PROP","PVSS_DIFF_VOLUME_PROP","PVSS_DIFF_VOLUME_PROP structure pointer [VSS]","VSS_DIFF_VOLUME_PROP","VSS_DIFF_VOLUME_PROP structure [VSS]","base.vss_diff_volume_prop","vsmgmt/PVSS_DIFF_VOLUME_PROP","vsmgmt/VSS_DIFF_VOLUME_PROP"]
 old-location: base\vss_diff_volume_prop.htm
 tech.root: VSS
 ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
@@ -77,15 +78,4 @@ Free space, in bytes, on the shadow copy storage area volume.
 ### -field m_llVolumeTotalSpace
 
 Total space, in bytes, on the shadow copy storage area volume.
-
-
-## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
- 
-
- 
 

@@ -1,7 +1,8 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingThreadActivity
 title: TraceLoggingThreadActivity (traceloggingactivity.h)
-description: Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity class","TraceLoggingThreadActivity class","described","tracelogging.traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity"]
+description: Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.
+helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity class","TraceLoggingThreadActivity class","described","tracelogging.traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity"]
 old-location: tracelogging\traceloggingthreadactivity.htm
 tech.root: tracelogging
 ms.assetid: 7666A28B-42B2-473F-852F-BD3F6CAA6AC7
@@ -251,7 +252,7 @@ Contains the value of the level that will be used in the activity’s start and 
 
 This class works by setting a per-thread variable. Only events occurring on the active thread will be automatically tagged.
 
-In order to use TraceLogging activities, you need to define an instance of either <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> or <b>TraceLoggingThreadActivity</b>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingfunction">TraceLoggingFunction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
+In order to use TraceLogging activities, you need to define an instance of either <a href="https://docs.microsoft.com/en-us/windows/win32/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity">TraceLoggingActivity</a> or <b>TraceLoggingThreadActivity</b>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingfunction">TraceLoggingFunction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
          
 
 Any active threads will be automatically nested in this instance when you start logging with a <b>TraceLoggingThreadActivity</b> object. In addition, all events will be automatically logged with this object's unique identifier.
@@ -275,7 +276,7 @@ This class is not available for store applications.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity Class</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity">TraceLoggingActivity Class</a>
  
 
  

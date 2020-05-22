@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.GetTimecode
 title: IAMTimecodeReader::GetTimecode (strmif.h)
-description: The GetTimecode method retrieves the most recent timecode, userbit, and flag values available in the stream.helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimecode method [DirectShow]","IAMTimecodeReader interface","IAMTimecodeReader interface [DirectShow]","GetTimecode method","IAMTimecodeReader.GetTimecode","IAMTimecodeReader::GetTimecode","IAMTimecodeReaderGetTimecode","dshow.iamtimecodereader_gettimecode","strmif/IAMTimecodeReader::GetTimecode"]
+description: The GetTimecode method retrieves the most recent timecode, userbit, and flag values available in the stream.
+helpviewer_keywords: ["GetTimecode","GetTimecode method [DirectShow]","GetTimecode method [DirectShow]","IAMTimecodeReader interface","IAMTimecodeReader interface [DirectShow]","GetTimecode method","IAMTimecodeReader.GetTimecode","IAMTimecodeReader::GetTimecode","IAMTimecodeReaderGetTimecode","dshow.iamtimecodereader_gettimecode","strmif/IAMTimecodeReader::GetTimecode"]
 old-location: dshow\iamtimecodereader_gettimecode.htm
 tech.root: DirectShow
 ms.assetid: c4ed646f-677e-4703-8197-036636f20561
@@ -63,7 +64,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode, userbit,
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/en-us/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns
@@ -86,7 +87,7 @@ The timecode contains undefined bits, called <i>userbits</i>. Applications can u
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
 The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> driver supports reading SMPTE timecode or absolute track numbers (ATN). The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> driver supports reading the relative time counter (RTC). To read time information on these devices, do the following:
 
-Set the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure to one of the following values.
+Set the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure to one of the following values.
 
 <table>
 <tr>

@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509ExtensionCertificatePolicies
 title: IX509ExtensionCertificatePolicies (certenroll.h)
-description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.helpviewer_keywords: ["IX509ExtensionCertificatePolicies","IX509ExtensionCertificatePolicies interface [Security]","IX509ExtensionCertificatePolicies interface [Security]","described","certenroll/IX509ExtensionCertificatePolicies","security.ix509extensioncertificatepolicies"]
+description: Enables you to specify a collection of policy information terms, each of which consists of an object identifier (OID) and optional policy qualifiers. A single policy term is defined by an ICertificatePolicy object.
+helpviewer_keywords: ["IX509ExtensionCertificatePolicies","IX509ExtensionCertificatePolicies interface [Security]","IX509ExtensionCertificatePolicies interface [Security]","described","certenroll/IX509ExtensionCertificatePolicies","security.ix509extensioncertificatepolicies"]
 old-location: security\ix509extensioncertificatepolicies.htm
 tech.root: seccertenroll
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
@@ -228,10 +229,6 @@ Retrieves a collection of certificate policies.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
 
 
 
