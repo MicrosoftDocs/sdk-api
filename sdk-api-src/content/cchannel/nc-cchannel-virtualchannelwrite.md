@@ -1,7 +1,8 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELWRITE
 title: VIRTUALCHANNELWRITE (cchannel.h)
-description: Sends data from the client end of a virtual channel to a partner application on the server end.helpviewer_keywords: ["VirtualChannelWrite","VirtualChannelWrite callback","VirtualChannelWrite callback function [Remote Desktop Services]","_win32_virtualchannelwrite","cchannel/VirtualChannelWrite","termserv.virtualchannelwrite"]
+description: Sends data from the client end of a virtual channel to a partner application on the server end.
+helpviewer_keywords: ["VirtualChannelWrite","VirtualChannelWrite callback","VirtualChannelWrite callback function [Remote Desktop Services]","_win32_virtualchannelwrite","cchannel/VirtualChannelWrite","termserv.virtualchannelwrite"]
 old-location: termserv\virtualchannelwrite.htm
 tech.root: TermServ
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
@@ -117,7 +118,7 @@ The server add-in at the server end of the virtual channel calls the
 ## -see-also
 
 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread">WTSVirtualChannelRead</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
 
@@ -127,7 +128,7 @@ The server add-in at the server end of the virtual channel calls the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelread">WTSVirtualChannelRead</a>
+
  
 
  
