@@ -48,10 +48,13 @@ Asynchronously requests a token from a web account provider. If necessary, the u
 
 ### -param appWindow
 
-The window to be used as the owner for the window prompting the user for credentials,
-in case such a window becomes necessary.
+Type: **[HWND](/windows/win32/winprog/windows-data-types)**
+
+The window to be used as the owner for the window prompting the user for credentials, in case such a window becomes necessary.
 
 ### -param request
+
+Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
 
 The web token request, given as an instance of the
 [WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest)
@@ -60,10 +63,11 @@ interface.
 
 ### -param riid
 
-Must refer to the [interface identifier (IID)](https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
-for the interface
-[IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)&lt;[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)&gt;.
-This IID is automatically generated but you can obtain it using code like this:
+Type: **REFIID**
+
+Must be a reference to the [interface identifier (IID)](/openspecs/windows_protocols/ms-oaut/5583e1b8-454c-4147-9f56-f72416a15bee#gt_76ad3105-3f05-479d-a40c-c9c8fa2ebd83) for the interface
+[IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)\<[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)\>.
+This IID is automatically generated, and you can obtain it using code like this:
 
 ```cppwinrt
 using winrt::Windows::Foundation::IAsyncOperation;
@@ -74,12 +78,13 @@ constexpr winrt::guid iidAsyncRequestResult{ winrt::guid_of<IAsyncOperation<WebT
 
 ### -param asyncInfo
 
-The address of a pointer to
-[IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)&lt;[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)&gt;.
-On successful return from this method, the pointer will be set to the
-asynchronous request operation object for the request operation just started.
+Type: **void\*\***
+
+The address of a pointer to [IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)\<[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)\>. On successful return from this method, the pointer will be set to the asynchronous request operation object for the request operation just started.
 
 ## -returns
+
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
 A status code for the attempt to start the asynchronous request operation.
 
