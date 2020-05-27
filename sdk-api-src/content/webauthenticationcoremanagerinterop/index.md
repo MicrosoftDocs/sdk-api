@@ -40,6 +40,9 @@ tech.root: winrt
 
 ## -description
 
+Provides Win32 apps with access to certain functions of [WebAuthenticationCoreManager](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager)
+that are otherwise available only to UWP apps.
+
 ## -remarks
 
 This header is used by Windows Runtime C++ reference. For more information, see:
