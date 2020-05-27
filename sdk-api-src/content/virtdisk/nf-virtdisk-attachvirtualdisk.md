@@ -68,7 +68,7 @@ A handle to an open virtual disk. For information on how to open a virtual disk,
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the attached 
+      <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the attached 
       virtual disk. If this parameter is <b>NULL</b>, the security descriptor of the virtual disk 
       image file is used.
 
@@ -96,9 +96,9 @@ A pointer to a valid
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> 
+An optional pointer to a valid <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> 
       structure if 
-      <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is 
+      <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is 
       desired.
 
 
@@ -111,7 +111,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -143,7 +143,7 @@ The host volume that contains the virtual disk image file cannot be compressed o
 This function will fail if a provider cannot be found, if the VHD or ISO image file is not valid, if the VHD 
     image is already attached, or if the caller does not have <b>SE_MANAGE_VOLUME_PRIVILEGE</b> 
     access rights. For more information about file security, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+    <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 The intended access mode of the virtual disk must be considered when opening the virtual disk handle. For 
     example, if the virtual disk is being attached for read/write access, the 
@@ -163,11 +163,11 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  
