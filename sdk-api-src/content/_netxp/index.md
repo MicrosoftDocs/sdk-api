@@ -16,5 +16,5 @@ Overview of the Network Drivers Prior to Windows Vista technology.
 The Network Drivers Prior to Windows Vista technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Network Drivers Prior to Windows Vista](https://docs.microsoft.com/windows-hardware/drivers/network/network-drivers-prior-to-windows-vista)
+* [Network Drivers Prior to Windows Vista](/windows-hardware/drivers/network/network-drivers-prior-to-windows-vista)
 

@@ -98,7 +98,7 @@ Use this method on a multi-monitor system to specify to the Video Port Manager w
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/strmif/nf-strmif-ivpmanager-getvideoportindex">IVPManager::GetVideoPortIndex</a>
+<a href="/windows/win32/api/strmif/nf-strmif-ivpmanager-getvideoportindex">IVPManager::GetVideoPortIndex</a>
  
 
  
