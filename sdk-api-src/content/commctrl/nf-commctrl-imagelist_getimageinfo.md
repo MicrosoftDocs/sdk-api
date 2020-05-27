@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_GetImageInfo
 title: ImageList_GetImageInfo function (commctrl.h)
-description: Retrieves information about an image.helpviewer_keywords: ["ImageList_GetImageInfo","ImageList_GetImageInfo function [Windows Controls]","_win32_ImageList_GetImageInfo","_win32_ImageList_GetImageInfo_cpp","commctrl/ImageList_GetImageInfo","controls.ImageList_GetImageInfo","controls._win32_ImageList_GetImageInfo"]
+description: Retrieves information about an image.
+helpviewer_keywords: ["ImageList_GetImageInfo","ImageList_GetImageInfo function [Windows Controls]","_win32_ImageList_GetImageInfo","_win32_ImageList_GetImageInfo_cpp","commctrl/ImageList_GetImageInfo","controls.ImageList_GetImageInfo","controls._win32_ImageList_GetImageInfo"]
 old-location: controls\ImageList_GetImageInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimageinfo.htm

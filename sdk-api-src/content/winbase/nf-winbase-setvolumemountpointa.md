@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetVolumeMountPointA
 title: SetVolumeMountPointA function (winbase.h)
-description: Associates a volume with a drive letter or a directory on another volume.helpviewer_keywords: ["SetVolumeMountPoint","SetVolumeMountPoint function [Files]","SetVolumeMountPointA","SetVolumeMountPointW","_win32_setvolumemountpoint","base.setvolumemountpoint","fs.setvolumemountpoint","winbase/SetVolumeMountPoint","winbase/SetVolumeMountPointA","winbase/SetVolumeMountPointW"]
+description: Associates a volume with a drive letter or a directory on another volume.
+helpviewer_keywords: ["SetVolumeMountPoint","SetVolumeMountPoint function [Files]","SetVolumeMountPointA","SetVolumeMountPointW","_win32_setvolumemountpoint","base.setvolumemountpoint","fs.setvolumemountpoint","winbase/SetVolumeMountPoint","winbase/SetVolumeMountPointA","winbase/SetVolumeMountPointW"]
 old-location: fs\setvolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598

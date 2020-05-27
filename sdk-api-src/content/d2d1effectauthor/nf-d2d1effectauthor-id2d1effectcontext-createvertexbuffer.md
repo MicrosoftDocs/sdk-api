@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateVertexBuffer
 title: ID2D1EffectContext::CreateVertexBuffer (d2d1effectauthor.h)
-description: Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices.helpviewer_keywords: ["CreateVertexBuffer","CreateVertexBuffer method [Direct2D]","CreateVertexBuffer method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateVertexBuffer method","ID2D1EffectContext.CreateVertexBuffer","ID2D1EffectContext::CreateVertexBuffer","d2d1effectauthor/ID2D1EffectContext::CreateVertexBuffer","direct2d.id2d1contextinternal_createvertexbuffer"]
+description: Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices.
+helpviewer_keywords: ["CreateVertexBuffer","CreateVertexBuffer method [Direct2D]","CreateVertexBuffer method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateVertexBuffer method","ID2D1EffectContext.CreateVertexBuffer","ID2D1EffectContext::CreateVertexBuffer","d2d1effectauthor/ID2D1EffectContext::CreateVertexBuffer","direct2d.id2d1contextinternal_createvertexbuffer"]
 old-location: direct2d\id2d1contextinternal_createvertexbuffer.htm
 tech.root: Direct2D
 ms.assetid: 8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD

@@ -1,7 +1,8 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_CHLGKEY
 title: AM_DVDCOPY_CHLGKEY (dvdmedia.h)
-description: Identifies the DVD challenge key.helpviewer_keywords: ["*PAM_DVDCOPY_CHLGKEY","AM_DVDCOPY_CHLGKEY","AM_DVDCOPY_CHLGKEY structure [DirectShow]","PAM_DVDCOPY_CHLGKEY","PAM_DVDCOPY_CHLGKEY structure pointer [DirectShow]","dshow.am_dvdcopy_chlgkey","dvdmedia/AM_DVDCOPY_CHLGKEY","dvdmedia/PAM_DVDCOPY_CHLGKEY"]
+description: Identifies the DVD challenge key.
+helpviewer_keywords: ["*PAM_DVDCOPY_CHLGKEY","AM_DVDCOPY_CHLGKEY","AM_DVDCOPY_CHLGKEY structure [DirectShow]","PAM_DVDCOPY_CHLGKEY","PAM_DVDCOPY_CHLGKEY structure pointer [DirectShow]","dshow.am_dvdcopy_chlgkey","dvdmedia/AM_DVDCOPY_CHLGKEY","dvdmedia/PAM_DVDCOPY_CHLGKEY"]
 old-location: dshow\am_dvdcopy_chlgkey.htm
 tech.root: DirectShow
 ms.assetid: da129f9c-fe30-42f7-b7ca-dfb352b1810d

@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextServices.TxGetHScroll
 title: ITextServices::TxGetHScroll (textserv.h)
-description: Returns horizontal scroll bar information.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetHScroll method","ITextServices.TxGetHScroll","ITextServices::TxGetHScroll","TxGetHScroll","TxGetHScroll method [Windows Controls]","TxGetHScroll method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetHScroll","_win32_ITextServices_TxGetHScroll_cpp","controls.ITextServices_TxGetHScroll","controls._win32_ITextServices_TxGetHScroll","textserv/ITextServices::TxGetHScroll"]
+description: Returns horizontal scroll bar information.
+helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetHScroll method","ITextServices.TxGetHScroll","ITextServices::TxGetHScroll","TxGetHScroll","TxGetHScroll method [Windows Controls]","TxGetHScroll method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetHScroll","_win32_ITextServices_TxGetHScroll_cpp","controls.ITextServices_TxGetHScroll","controls._win32_ITextServices_TxGetHScroll","textserv/ITextServices::TxGetHScroll"]
 old-location: controls\ITextServices_TxGetHScroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgethscroll.htm

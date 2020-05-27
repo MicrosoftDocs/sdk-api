@@ -1,7 +1,8 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceReportMessage.IsErrorMessageRegistered
 title: IWorkspaceReportMessage::IsErrorMessageRegistered (workspaceruntime.h)
-description: Determines whether a specified error message is registered in a specified workspace.helpviewer_keywords: ["IWorkspaceReportMessage interface [Remote Desktop Services]","IsErrorMessageRegistered method","IWorkspaceReportMessage.IsErrorMessageRegistered","IWorkspaceReportMessage::IsErrorMessageRegistered","IsErrorMessageRegistered","IsErrorMessageRegistered method [Remote Desktop Services]","IsErrorMessageRegistered method [Remote Desktop Services]","IWorkspaceReportMessage interface","IsErrorMessageRegistered method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","IsErrorMessageRegistered method","termserv.iworkspacereportmessage_iserrormessageregistered","workspaceruntime/IWorkspaceReportMessage::IsErrorMessageRegistered"]
+description: Determines whether a specified error message is registered in a specified workspace.
+helpviewer_keywords: ["IWorkspaceReportMessage interface [Remote Desktop Services]","IsErrorMessageRegistered method","IWorkspaceReportMessage.IsErrorMessageRegistered","IWorkspaceReportMessage::IsErrorMessageRegistered","IsErrorMessageRegistered","IsErrorMessageRegistered method [Remote Desktop Services]","IsErrorMessageRegistered method [Remote Desktop Services]","IWorkspaceReportMessage interface","IsErrorMessageRegistered method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","IsErrorMessageRegistered method","termserv.iworkspacereportmessage_iserrormessageregistered","workspaceruntime/IWorkspaceReportMessage::IsErrorMessageRegistered"]
 old-location: termserv\iworkspacereportmessage_iserrormessageregistered.htm
 tech.root: TermServ
 ms.assetid: ea66553b-915b-4244-add7-08c7bc255203

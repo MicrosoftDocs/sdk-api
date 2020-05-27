@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumObjectsW
 title: PdhEnumObjectsW function (pdh.h)
-description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.helpviewer_keywords: ["FALSE","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjects","PdhEnumObjects function [Perf]","PdhEnumObjectsA","PdhEnumObjectsW","TRUE","_win32_pdhenumobjects","base.pdhenumobjects","pdh/PdhEnumObjects","pdh/PdhEnumObjectsA","pdh/PdhEnumObjectsW","perf.pdhenumobjects"]
+description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.
+helpviewer_keywords: ["FALSE","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjects","PdhEnumObjects function [Perf]","PdhEnumObjectsA","PdhEnumObjectsW","TRUE","_win32_pdhenumobjects","base.pdhenumobjects","pdh/PdhEnumObjects","pdh/PdhEnumObjectsA","pdh/PdhEnumObjectsW","perf.pdhenumobjects"]
 old-location: perf\pdhenumobjects.htm
 tech.root: perfctrs
 ms.assetid: dfa4b10f-5134-4620-a6b0-0fa2c13a33ec

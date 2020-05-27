@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetHeight
 title: Image::GetHeight (gdiplusheaders.h)
-description: The Image::GetHeight method gets the image height, in pixels, of this image.helpviewer_keywords: ["GetHeight","GetHeight method [GDI+]","GetHeight method [GDI+]","Image class","Image class [GDI+]","GetHeight method","Image.GetHeight","Image::GetHeight","_gdiplus_CLASS_Image_GetHeight_","gdiplus._gdiplus_CLASS_Image_GetHeight_"]
+description: The Image::GetHeight method gets the image height, in pixels, of this image.
+helpviewer_keywords: ["GetHeight","GetHeight method [GDI+]","GetHeight method [GDI+]","Image class","Image class [GDI+]","GetHeight method","Image.GetHeight","Image::GetHeight","_gdiplus_CLASS_Image_GetHeight_","gdiplus._gdiplus_CLASS_Image_GetHeight_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetHeight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getheight_27.htm

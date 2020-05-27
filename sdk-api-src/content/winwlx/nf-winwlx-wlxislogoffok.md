@@ -1,7 +1,8 @@
 ---
 UID: NF:winwlx.WlxIsLogoffOk
 title: WlxIsLogoffOk function (winwlx.h)
-description: Winlogon calls this function when the user initiates a logoff operation.helpviewer_keywords: ["WlxIsLogoffOk","WlxIsLogoffOk function [Security]","_gina_wlxislogoffok","security.wlxislogoffok","winwlx/WlxIsLogoffOk"]
+description: Winlogon calls this function when the user initiates a logoff operation.
+helpviewer_keywords: ["WlxIsLogoffOk","WlxIsLogoffOk function [Security]","_gina_wlxislogoffok","security.wlxislogoffok","winwlx/WlxIsLogoffOk"]
 old-location: security\wlxislogoffok.htm
 tech.root: SecAuthN
 ms.assetid: fe718ae7-d19e-430c-8d84-41682dca30a1

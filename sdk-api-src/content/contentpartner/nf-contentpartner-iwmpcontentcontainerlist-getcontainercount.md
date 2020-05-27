@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentContainerList.GetContainerCount
 title: IWMPContentContainerList::GetContainerCount (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainerCount method retrieves the count of content containers in the container list.helpviewer_keywords: ["GetContainerCount","GetContainerCount method [Windows Media Player]","GetContainerCount method [Windows Media Player]","IWMPContentContainerList interface","IWMPContentContainerList interface [Windows Media Player]","GetContainerCount method","IWMPContentContainerList.GetContainerCount","IWMPContentContainerList::GetContainerCount","IWMPContentContainerListGetContainerCount","contentpartner/IWMPContentContainerList::GetContainerCount","wmp.iwmpcontentcontainerlist_getcontainercount"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainerCount method retrieves the count of content containers in the container list.
+helpviewer_keywords: ["GetContainerCount","GetContainerCount method [Windows Media Player]","GetContainerCount method [Windows Media Player]","IWMPContentContainerList interface","IWMPContentContainerList interface [Windows Media Player]","GetContainerCount method","IWMPContentContainerList.GetContainerCount","IWMPContentContainerList::GetContainerCount","IWMPContentContainerListGetContainerCount","contentpartner/IWMPContentContainerList::GetContainerCount","wmp.iwmpcontentcontainerlist_getcontainercount"]
 old-location: wmp\iwmpcontentcontainerlist_getcontainercount.htm
 tech.root: WMP
 ms.assetid: e1ed4873-5d07-4a96-bd99-31ceeb423f98

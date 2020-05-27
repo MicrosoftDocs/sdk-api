@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._TOKEN_MANDATORY_POLICY
 title: TOKEN_MANDATORY_POLICY (winnt.h)
-description: Specifies the mandatory integrity policy for a token.helpviewer_keywords: ["*PTOKEN_MANDATORY_POLICY","PTOKEN_MANDATORY_POLICY","PTOKEN_MANDATORY_POLICY structure pointer [Security]","TOKEN_MANDATORY_POLICY","TOKEN_MANDATORY_POLICY structure [Security]","TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN","TOKEN_MANDATORY_POLICY_NO_WRITE_UP","TOKEN_MANDATORY_POLICY_OFF","TOKEN_MANDATORY_POLICY_VALID_MASK","_TOKEN_MANDATORY_POLICY","security.token_mandatory_policy","winnt/PTOKEN_MANDATORY_POLICY","winnt/TOKEN_MANDATORY_POLICY"]
+description: Specifies the mandatory integrity policy for a token.
+helpviewer_keywords: ["*PTOKEN_MANDATORY_POLICY","PTOKEN_MANDATORY_POLICY","PTOKEN_MANDATORY_POLICY structure pointer [Security]","TOKEN_MANDATORY_POLICY","TOKEN_MANDATORY_POLICY structure [Security]","TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN","TOKEN_MANDATORY_POLICY_NO_WRITE_UP","TOKEN_MANDATORY_POLICY_OFF","TOKEN_MANDATORY_POLICY_VALID_MASK","_TOKEN_MANDATORY_POLICY","security.token_mandatory_policy","winnt/PTOKEN_MANDATORY_POLICY","winnt/TOKEN_MANDATORY_POLICY"]
 old-location: security\token_mandatory_policy.htm
 tech.root: SecAuthZ
 ms.assetid: f5fc438b-c4f0-46f6-a188-52ce660d13da

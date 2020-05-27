@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.StgMakeUniqueName
 title: StgMakeUniqueName function (shlobj_core.h)
-description: Creates a unique name for a stream or storage object from a template.helpviewer_keywords: ["StgMakeUniqueName","StgMakeUniqueName function [Windows Shell]","_shell_StgMakeUniqueName","shell.StgMakeUniqueName","shlobj_core/StgMakeUniqueName"]
+description: Creates a unique name for a stream or storage object from a template.
+helpviewer_keywords: ["StgMakeUniqueName","StgMakeUniqueName function [Windows Shell]","_shell_StgMakeUniqueName","shell.StgMakeUniqueName","shlobj_core/StgMakeUniqueName"]
 old-location: shell\StgMakeUniqueName.htm
 tech.root: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349

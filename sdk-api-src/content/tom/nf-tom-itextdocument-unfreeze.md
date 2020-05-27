@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument.Unfreeze
 title: ITextDocument::Unfreeze (tom.h)
-description: Decrements the freeze count.helpviewer_keywords: ["ITextDocument interface [Windows Controls]","Unfreeze method","ITextDocument.Unfreeze","ITextDocument::Unfreeze","Unfreeze","Unfreeze method [Windows Controls]","Unfreeze method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_Unfreeze","_win32_ITextDocument_Unfreeze_cpp","controls.ITextDocument_Unfreeze","controls._win32_ITextDocument_Unfreeze","tom/ITextDocument::Unfreeze"]
+description: Decrements the freeze count.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","Unfreeze method","ITextDocument.Unfreeze","ITextDocument::Unfreeze","Unfreeze","Unfreeze method [Windows Controls]","Unfreeze method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_Unfreeze","_win32_ITextDocument_Unfreeze_cpp","controls.ITextDocument_Unfreeze","controls._win32_ITextDocument_Unfreeze","tom/ITextDocument::Unfreeze"]
 old-location: controls\ITextDocument_Unfreeze.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\unfreeze.htm

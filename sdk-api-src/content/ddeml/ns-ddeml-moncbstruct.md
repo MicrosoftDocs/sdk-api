@@ -1,7 +1,8 @@
 ---
 UID: NS:ddeml.tagMONCBSTRUCT
 title: MONCBSTRUCT (ddeml.h)
-description: Contains information about the current Dynamic Data Exchange (DDE) transaction. A DDE debugging application can use this structure when monitoring transactions that the system passes to the DDE callback functions of other applications.helpviewer_keywords: ["*PMONCBSTRUCT","MONCBSTRUCT","MONCBSTRUCT structure [Data Exchange]","PMONCBSTRUCT","PMONCBSTRUCT structure pointer [Data Exchange]","_win32_MONCBSTRUCT_str","_win32_moncbstruct_str_cpp","dataxchg.moncbstruct_str","ddeml/MONCBSTRUCT","ddeml/PMONCBSTRUCT","winui._win32_moncbstruct_str"]
+description: Contains information about the current Dynamic Data Exchange (DDE) transaction. A DDE debugging application can use this structure when monitoring transactions that the system passes to the DDE callback functions of other applications.
+helpviewer_keywords: ["*PMONCBSTRUCT","MONCBSTRUCT","MONCBSTRUCT structure [Data Exchange]","PMONCBSTRUCT","PMONCBSTRUCT structure pointer [Data Exchange]","_win32_MONCBSTRUCT_str","_win32_moncbstruct_str_cpp","dataxchg.moncbstruct_str","ddeml/MONCBSTRUCT","ddeml/PMONCBSTRUCT","winui._win32_moncbstruct_str"]
 old-location: dataxchg\moncbstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\moncbstruct.htm

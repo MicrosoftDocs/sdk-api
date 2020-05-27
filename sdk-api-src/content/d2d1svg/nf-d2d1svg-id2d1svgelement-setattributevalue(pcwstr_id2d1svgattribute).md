@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,ID2D1SvgAttribute)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,ID2D1SvgAttribute) (d2d1svg.h)
-description: Sets an attribute of this element using an interface.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","ID2D1SvgAttribute)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","ID2D1SvgAttribute)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_3"]
+description: Sets an attribute of this element using an interface.
+helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","ID2D1SvgAttribute)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","ID2D1SvgAttribute)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_3"]
 old-location: direct2d\id2d1svgelement_setattributevalue_3.htm
 tech.root: Direct2D
 ms.assetid: 1E4AAA78-6746-4DD8-8BD8-C1AB63A51A9B

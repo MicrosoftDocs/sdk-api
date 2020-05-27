@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetFont
 title: IGetClusterUIInfo::GetFont (cluadmex.h)
-description: Returns a handle to the font to be displayed on property and wizard pages.helpviewer_keywords: ["GetFont","GetFont method [Failover Cluster]","GetFont method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetFont method","IGetClusterUIInfo.GetFont","IGetClusterUIInfo::GetFont","_wolf_igetclusteruiinfo_getfont","cluadmex/IGetClusterUIInfo::GetFont","mscs.igetclusteruiinfo_getfont"]
+description: Returns a handle to the font to be displayed on property and wizard pages.
+helpviewer_keywords: ["GetFont","GetFont method [Failover Cluster]","GetFont method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetFont method","IGetClusterUIInfo.GetFont","IGetClusterUIInfo::GetFont","_wolf_igetclusteruiinfo_getfont","cluadmex/IGetClusterUIInfo::GetFont","mscs.igetclusteruiinfo_getfont"]
 old-location: mscs\igetclusteruiinfo_getfont.htm
 tech.root: MsCS
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179

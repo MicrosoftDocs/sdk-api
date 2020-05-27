@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Server
 title: MI_Server (mi.h)
-description: This structure defines default function tables for all types:\_Context, Instance, PropertySet, and Filter.helpviewer_keywords: ["MI_Server","MI_Server structure [Windows Management Infrastructure (MI)]","mi/MI_Server","wmi._mi_server","wmi_v2.mi_server"]
+description: This structure defines default function tables for all types:\_Context, Instance, PropertySet, and Filter.
+helpviewer_keywords: ["MI_Server","MI_Server structure [Windows Management Infrastructure (MI)]","mi/MI_Server","wmi._mi_server","wmi_v2.mi_server"]
 old-location: wmi_v2\mi_server.htm
 tech.root: wmi_v2
 ms.assetid: bbe367c4-1964-4f6d-9345-fa19c090e018

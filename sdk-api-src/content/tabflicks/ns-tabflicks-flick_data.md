@@ -1,7 +1,8 @@
 ---
 UID: NS:tabflicks.FLICK_DATA
 title: FLICK_DATA (tabflicks.h)
-description: Contains information about a pen flick.helpviewer_keywords: ["FLICK_DATA","FLICK_DATA structure [Tablet PC]","f83994ca-7ebe-42bc-bb54-f101a0a62e52","tabflicks/FLICK_DATA","tablet.flick_data"]
+description: Contains information about a pen flick.
+helpviewer_keywords: ["FLICK_DATA","FLICK_DATA structure [Tablet PC]","f83994ca-7ebe-42bc-bb54-f101a0a62e52","tabflicks/FLICK_DATA","tablet.flick_data"]
 old-location: tablet\flick_data.htm
 tech.root: tablet
 ms.assetid: f83994ca-7ebe-42bc-bb54-f101a0a62e52

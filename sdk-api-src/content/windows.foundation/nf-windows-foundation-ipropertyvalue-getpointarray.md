@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetPointArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of Point values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetPointArray","GetPointArray method [Windows Runtime]","GetPointArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetPointArray method","IPropertyValue.GetPointArray","IPropertyValue.IPropertyValue","IPropertyValue::GetPointArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetPointArray","winrt.ipropertyvalue_getpointarray"]
+description: Gets the array of Point values that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetPointArray","GetPointArray method [Windows Runtime]","GetPointArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetPointArray method","IPropertyValue.GetPointArray","IPropertyValue.IPropertyValue","IPropertyValue::GetPointArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetPointArray","winrt.ipropertyvalue_getpointarray"]
 old-location: winrt\ipropertyvalue_getpointarray.htm
 tech.root: WinRT
 ms.assetid: 7df4ad4e-3ca6-4956-b907-02c2cb6e481b

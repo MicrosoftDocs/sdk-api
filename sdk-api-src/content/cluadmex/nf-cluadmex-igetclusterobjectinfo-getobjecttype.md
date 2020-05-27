@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectType
 title: IGetClusterObjectInfo::GetObjectType (cluadmex.h)
-description: Returns the type of a cluster object.helpviewer_keywords: ["GetObjectType","GetObjectType method [Failover Cluster]","GetObjectType method [Failover Cluster]","IGetClusterObjectInfo interface","IGetClusterObjectInfo interface [Failover Cluster]","GetObjectType method","IGetClusterObjectInfo.GetObjectType","IGetClusterObjectInfo::GetObjectType","_wolf_igetclusterobjectinfo_getobjecttype","cluadmex/IGetClusterObjectInfo::GetObjectType","mscs.igetclusterobjectinfo_getobjecttype"]
+description: Returns the type of a cluster object.
+helpviewer_keywords: ["GetObjectType","GetObjectType method [Failover Cluster]","GetObjectType method [Failover Cluster]","IGetClusterObjectInfo interface","IGetClusterObjectInfo interface [Failover Cluster]","GetObjectType method","IGetClusterObjectInfo.GetObjectType","IGetClusterObjectInfo::GetObjectType","_wolf_igetclusterobjectinfo_getobjecttype","cluadmex/IGetClusterObjectInfo::GetObjectType","mscs.igetclusterobjectinfo_getobjecttype"]
 old-location: mscs\igetclusterobjectinfo_getobjecttype.htm
 tech.root: MsCS
 ms.assetid: f01a1ada-bb4d-4042-ac56-3658262d1110

@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactManager.GetMeContact
 title: IContactManager::GetMeContact (icontact.h)
-description: Retrieves the local user account concept of 'me'.helpviewer_keywords: ["GetMeContact","GetMeContact method [Windows Contacts]","GetMeContact method [Windows Contacts]","IContactManager interface","IContactManager interface [Windows Contacts]","GetMeContact method","IContactManager.GetMeContact","IContactManager::GetMeContact","_wincontacts_IContactManager_GetMeContact","icontact/IContactManager::GetMeContact","wincontacts._wincontacts_IContactManager_GetMeContact"]
+description: Retrieves the local user account concept of 'me'.
+helpviewer_keywords: ["GetMeContact","GetMeContact method [Windows Contacts]","GetMeContact method [Windows Contacts]","IContactManager interface","IContactManager interface [Windows Contacts]","GetMeContact method","IContactManager.GetMeContact","IContactManager::GetMeContact","_wincontacts_IContactManager_GetMeContact","icontact/IContactManager::GetMeContact","wincontacts._wincontacts_IContactManager_GetMeContact"]
 old-location: wincontacts\_wincontacts_IContactManager_GetMeContact.htm
 tech.root: wincontacts
 ms.assetid: 0fcf5700-399f-4388-9741-6be3b7aef6a9

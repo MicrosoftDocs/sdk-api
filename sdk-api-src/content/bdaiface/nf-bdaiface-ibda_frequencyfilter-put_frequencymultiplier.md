@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_FrequencyMultiplier
 title: IBDA_FrequencyFilter::put_FrequencyMultiplier (bdaiface.h)
-description: The put_FrequencyMultiplier method specifies the frequency multiplier. The frequency multiplier determines the frequency units for the methods on this interface. The default value is 1000, meaning that frequencies are expressed in kilohertz (kHz).helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","put_FrequencyMultiplier method","IBDA_FrequencyFilter.put_FrequencyMultiplier","IBDA_FrequencyFilter::put_FrequencyMultiplier","IBDA_FrequencyFilterput_FrequencyMultiplier","bdaiface/IBDA_FrequencyFilter::put_FrequencyMultiplier","mstv.ibda_frequencyfilter_put_frequencymultiplier","put_FrequencyMultiplier","put_FrequencyMultiplier method [Microsoft TV Technologies]","put_FrequencyMultiplier method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface"]
+description: The put_FrequencyMultiplier method specifies the frequency multiplier. The frequency multiplier determines the frequency units for the methods on this interface. The default value is 1000, meaning that frequencies are expressed in kilohertz (kHz).
+helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","put_FrequencyMultiplier method","IBDA_FrequencyFilter.put_FrequencyMultiplier","IBDA_FrequencyFilter::put_FrequencyMultiplier","IBDA_FrequencyFilterput_FrequencyMultiplier","bdaiface/IBDA_FrequencyFilter::put_FrequencyMultiplier","mstv.ibda_frequencyfilter_put_frequencymultiplier","put_FrequencyMultiplier","put_FrequencyMultiplier method [Microsoft TV Technologies]","put_FrequencyMultiplier method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface"]
 old-location: mstv\ibda_frequencyfilter_put_frequencymultiplier.htm
 tech.root: mstv
 ms.assetid: b67bd442-26cf-4104-906c-e9510b99ad90

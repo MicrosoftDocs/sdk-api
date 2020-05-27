@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_FILL_MODE
 title: D2D1_FILL_MODE (d2d1.h)
-description: Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.helpviewer_keywords: ["D2D1_FILL_MODE","D2D1_FILL_MODE enumeration [Direct2D]","D2D1_FILL_MODE_ALTERNATE","D2D1_FILL_MODE_WINDING","d2d1/D2D1_FILL_MODE","d2d1/D2D1_FILL_MODE_ALTERNATE","d2d1/D2D1_FILL_MODE_WINDING","direct2d.D2D1_FILL_MODE"]
+description: Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
+helpviewer_keywords: ["D2D1_FILL_MODE","D2D1_FILL_MODE enumeration [Direct2D]","D2D1_FILL_MODE_ALTERNATE","D2D1_FILL_MODE_WINDING","d2d1/D2D1_FILL_MODE","d2d1/D2D1_FILL_MODE_ALTERNATE","d2d1/D2D1_FILL_MODE_WINDING","direct2d.D2D1_FILL_MODE"]
 old-location: direct2d\D2D1_FILL_MODE.htm
 tech.root: Direct2D
 ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6

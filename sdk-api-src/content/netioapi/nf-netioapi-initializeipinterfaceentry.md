@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.InitializeIpInterfaceEntry
 title: InitializeIpInterfaceEntry function (netioapi.h)
-description: Initializes the members of an MIB_IPINTERFACE_ROW entry with default values.helpviewer_keywords: ["InitializeIpInterfaceEntry","InitializeIpInterfaceEntry function [IP Helper]","iphlp.initializeipinterfaceentry","netioapi/InitializeIpInterfaceEntry"]
+description: Initializes the members of an MIB_IPINTERFACE_ROW entry with default values.
+helpviewer_keywords: ["InitializeIpInterfaceEntry","InitializeIpInterfaceEntry function [IP Helper]","iphlp.initializeipinterfaceentry","netioapi/InitializeIpInterfaceEntry"]
 old-location: iphlp\initializeipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 5e7aed65-63e1-4e7b-bccf-9a2485212432

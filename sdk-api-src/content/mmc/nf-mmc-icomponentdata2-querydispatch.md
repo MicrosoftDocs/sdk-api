@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IComponentData2.QueryDispatch
 title: IComponentData2::QueryDispatch (mmc.h)
-description: The QueryDispatch method returns the snap-in's IDispatch interface for a specified item.helpviewer_keywords: ["CCT_RESULT = 0x8001","CCT_SCOPE = 0x8000","IComponentData2 interface [MMC]","QueryDispatch method","IComponentData2.QueryDispatch","IComponentData2::QueryDispatch","QueryDispatch","QueryDispatch method [MMC]","QueryDispatch method [MMC]","IComponentData2 interface","_slate_icomponentdata2_querydispatch","mmc.icomponentdata2_querydispatch","mmc/IComponentData2::QueryDispatch"]
+description: The QueryDispatch method returns the snap-in's IDispatch interface for a specified item.
+helpviewer_keywords: ["CCT_RESULT = 0x8001","CCT_SCOPE = 0x8000","IComponentData2 interface [MMC]","QueryDispatch method","IComponentData2.QueryDispatch","IComponentData2::QueryDispatch","QueryDispatch","QueryDispatch method [MMC]","QueryDispatch method [MMC]","IComponentData2 interface","_slate_icomponentdata2_querydispatch","mmc.icomponentdata2_querydispatch","mmc/IComponentData2::QueryDispatch"]
 old-location: mmc\icomponentdata2_querydispatch.htm
 tech.root: mmc
 ms.assetid: efff70f9-0226-4cf1-a6b3-475d90b379f9

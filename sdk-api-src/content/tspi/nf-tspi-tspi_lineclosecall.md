@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineCloseCall
 title: TSPI_lineCloseCall function (tspi.h)
-description: The TSPI_lineCloseCall function deallocates the call after completing or aborting all outstanding asynchronous operations on the call.helpviewer_keywords: ["TSPI_lineCloseCall","TSPI_lineCloseCall function [TAPI 2.2]","_tspi_tspi_lineclosecall","tspi.tspi_lineclosecall","tspi/TSPI_lineCloseCall"]
+description: The TSPI_lineCloseCall function deallocates the call after completing or aborting all outstanding asynchronous operations on the call.
+helpviewer_keywords: ["TSPI_lineCloseCall","TSPI_lineCloseCall function [TAPI 2.2]","_tspi_tspi_lineclosecall","tspi.tspi_lineclosecall","tspi/TSPI_lineCloseCall"]
 old-location: tspi\tspi_lineclosecall.htm
 tech.root: Tapi
 ms.assetid: 86f5490c-8401-4235-8ddd-313794bd5bf1

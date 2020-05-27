@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(float,float,float,float)
 title: XMUBYTE4::XMUBYTE4(float,float,float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMUBYTE4 from four float arguments.helpviewer_keywords: ["XMUBYTE4","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 structure","XMUBYTE4 structure [DirectX Math Support APIs]","XMUBYTE4 constructor","XMUBYTE4.XMUBYTE4","XMUBYTE4.XMUBYTE4(float","float","float","float)","XMUBYTE4::XMUBYTE4","XMUBYTE4::XMUBYTE4(float","float","float","float)","dxmath.xmubyte4_ctor_4"]
+description: Initializes a new instance of XMUBYTE4 from four float arguments.
+helpviewer_keywords: ["XMUBYTE4","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 structure","XMUBYTE4 structure [DirectX Math Support APIs]","XMUBYTE4 constructor","XMUBYTE4.XMUBYTE4","XMUBYTE4.XMUBYTE4(float","float","float","float)","XMUBYTE4::XMUBYTE4","XMUBYTE4::XMUBYTE4(float","float","float","float)","dxmath.xmubyte4_ctor_4"]
 old-location: dxmath\xmubyte4_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE4.#ctor(float,float,float,float)

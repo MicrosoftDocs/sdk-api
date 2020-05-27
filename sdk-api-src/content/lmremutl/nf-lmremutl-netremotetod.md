@@ -1,7 +1,8 @@
 ---
 UID: NF:lmremutl.NetRemoteTOD
 title: NetRemoteTOD function (lmremutl.h)
-description: The NetRemoteTOD function returns the time of day information from a specified server.helpviewer_keywords: ["NetRemoteTOD","NetRemoteTOD function [Network Management]","_win32_netremotetod","lmremutl/NetRemoteTOD","netmgmt.netremotetod"]
+description: The NetRemoteTOD function returns the time of day information from a specified server.
+helpviewer_keywords: ["NetRemoteTOD","NetRemoteTOD function [Network Management]","_win32_netremotetod","lmremutl/NetRemoteTOD","netmgmt.netremotetod"]
 old-location: netmgmt\netremotetod.htm
 tech.root: NetMgmt
 ms.assetid: 5a935e09-f188-4ee1-b998-c67488475baa

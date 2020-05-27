@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.QueryTraceProcessingHandle
 title: QueryTraceProcessingHandle function (evntrace.h)
-description: Queries the system for the trace processing handle.helpviewer_keywords: ["QueryTraceProcessingHandle","QueryTraceProcessingHandle function [ETW]","etw.querytraceprocessinghandle","evntrace/QueryTraceProcessingHandle"]
+description: Queries the system for the trace processing handle.
+helpviewer_keywords: ["QueryTraceProcessingHandle","QueryTraceProcessingHandle function [ETW]","etw.querytraceprocessinghandle","evntrace/QueryTraceProcessingHandle"]
 old-location: etw\querytraceprocessinghandle.htm
 tech.root: ETW
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8

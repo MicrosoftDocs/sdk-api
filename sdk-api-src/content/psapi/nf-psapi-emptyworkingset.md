@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.EmptyWorkingSet
 title: EmptyWorkingSet function (psapi.h)
-description: Removes as many pages as possible from the working set of the specified process.helpviewer_keywords: ["EmptyWorkingSet","EmptyWorkingSet function [PSAPI]","K32EmptyWorkingSet","_win32_emptyworkingset","base.emptyworkingset","psapi.emptyworkingset","psapi/EmptyWorkingSet","psapi/K32EmptyWorkingSet"]
+description: Removes as many pages as possible from the working set of the specified process.
+helpviewer_keywords: ["EmptyWorkingSet","EmptyWorkingSet function [PSAPI]","K32EmptyWorkingSet","_win32_emptyworkingset","base.emptyworkingset","psapi.emptyworkingset","psapi/EmptyWorkingSet","psapi/K32EmptyWorkingSet"]
 old-location: psapi\emptyworkingset.htm
 tech.root: psapi
 ms.assetid: 76f2252e-7305-46b0-b1af-40ac084e6696

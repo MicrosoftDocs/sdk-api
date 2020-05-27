@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetText
 title: ISearchBoxInfo::GetText (shobjidl.h)
-description: Retrieves the contents of the search box as plain text.helpviewer_keywords: ["GetText","GetText method [Windows Shell]","GetText method [Windows Shell]","ISearchBoxInfo interface","ISearchBoxInfo interface [Windows Shell]","GetText method","ISearchBoxInfo.GetText","ISearchBoxInfo::GetText","_shell_ISearchBoxInfo_GetText","shell.ISearchBoxInfo_GetText","shobjidl/ISearchBoxInfo::GetText"]
+description: Retrieves the contents of the search box as plain text.
+helpviewer_keywords: ["GetText","GetText method [Windows Shell]","GetText method [Windows Shell]","ISearchBoxInfo interface","ISearchBoxInfo interface [Windows Shell]","GetText method","ISearchBoxInfo.GetText","ISearchBoxInfo::GetText","_shell_ISearchBoxInfo_GetText","shell.ISearchBoxInfo_GetText","shobjidl/ISearchBoxInfo::GetText"]
 old-location: shell\ISearchBoxInfo_GetText.htm
 tech.root: shell
 ms.assetid: 2bfb65d5-a27e-41f7-883e-2e1afe912586

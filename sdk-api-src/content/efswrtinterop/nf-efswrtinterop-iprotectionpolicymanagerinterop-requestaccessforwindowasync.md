@@ -1,7 +1,8 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop.RequestAccessForWindowAsync
 title: IProtectionPolicyManagerInterop::RequestAccessForWindowAsync (efswrtinterop.h)
-description: Request access to enterprise protected content for an identity.helpviewer_keywords: ["EDP.iprotectionpolicymanager_requestaccessforwindowasync","IProtectionPolicyManagerInterop interface","RequestAccessForWindowAsync method","IProtectionPolicyManagerInterop.RequestAccessForWindowAsync","IProtectionPolicyManagerInterop::RequestAccessForWindowAsync","RequestAccessForWindowAsync","RequestAccessForWindowAsync method","RequestAccessForWindowAsync method","IProtectionPolicyManagerInterop interface","efswrtinterop/IProtectionPolicyManagerInterop::RequestAccessForWindowAsync"]
+description: Request access to enterprise protected content for an identity.
+helpviewer_keywords: ["EDP.iprotectionpolicymanager_requestaccessforwindowasync","IProtectionPolicyManagerInterop interface","RequestAccessForWindowAsync method","IProtectionPolicyManagerInterop.RequestAccessForWindowAsync","IProtectionPolicyManagerInterop::RequestAccessForWindowAsync","RequestAccessForWindowAsync","RequestAccessForWindowAsync method","RequestAccessForWindowAsync method","IProtectionPolicyManagerInterop interface","efswrtinterop/IProtectionPolicyManagerInterop::RequestAccessForWindowAsync"]
 old-location: edp\iprotectionpolicymanager_requestaccessforwindowasync.htm
 tech.root: EDP
 ms.assetid: F32A24C6-0913-4EB9-8462-6AA734429D7E

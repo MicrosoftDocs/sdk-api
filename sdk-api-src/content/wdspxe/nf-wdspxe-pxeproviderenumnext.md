@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeProviderEnumNext
 title: PxeProviderEnumNext function (wdspxe.h)
-description: Enumerates registered providers.helpviewer_keywords: ["PxeProviderEnumNext","PxeProviderEnumNext function [Windows Deployment Services]","wds.pxeproviderenumnext","wdspxe/PxeProviderEnumNext"]
+description: Enumerates registered providers.
+helpviewer_keywords: ["PxeProviderEnumNext","PxeProviderEnumNext function [Windows Deployment Services]","wds.pxeproviderenumnext","wdspxe/PxeProviderEnumNext"]
 old-location: wds\pxeproviderenumnext.htm
 tech.root: wds
 ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe

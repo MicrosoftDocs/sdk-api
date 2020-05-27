@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.IsVarTypeInteger
 title: IsVarTypeInteger function (propvarutil.h)
-description: Returns whether a VARTYPE is an integer.helpviewer_keywords: ["IsVarTypeInteger","IsVarTypeInteger function [Windows Properties]","_shell_IsVarTypeInteger","properties.IsVarTypeInteger","propvarutil/IsVarTypeInteger","shell.IsVarTypeInteger"]
+description: Returns whether a VARTYPE is an integer.
+helpviewer_keywords: ["IsVarTypeInteger","IsVarTypeInteger function [Windows Properties]","_shell_IsVarTypeInteger","properties.IsVarTypeInteger","propvarutil/IsVarTypeInteger","shell.IsVarTypeInteger"]
 old-location: properties\IsVarTypeInteger.htm
 tech.root: properties
 ms.assetid: 3e183355-8e71-4f6d-a348-c9dde9aa5953

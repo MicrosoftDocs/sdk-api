@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IBlockRangeList
 title: IBlockRangeList (imapi2.h)
-description: Use this interface to retrieve a list of continuous sector ranges on the media. This interface is used to describe the sectors that need to be updated on a rewritable disc when a new logical session is recorded.helpviewer_keywords: ["IBlockRangeList","IBlockRangeList interface [IMAPI]","IBlockRangeList interface [IMAPI]","described","imapi.iblockrangelist","imapi2/IBlockRangeList"]
+description: Use this interface to retrieve a list of continuous sector ranges on the media. This interface is used to describe the sectors that need to be updated on a rewritable disc when a new logical session is recorded.
+helpviewer_keywords: ["IBlockRangeList","IBlockRangeList interface [IMAPI]","IBlockRangeList interface [IMAPI]","described","imapi.iblockrangelist","imapi2/IBlockRangeList"]
 old-location: imapi\iblockrangelist.htm
 tech.root: imapi
 ms.assetid: f2a3bd54-4f40-4bf0-9cbf-b507819d669f

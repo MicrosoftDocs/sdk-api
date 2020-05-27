@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamAttribute
 title: IMFMediaEngineEx::GetStreamAttribute (mfmediaengine.h)
-description: Gets a stream-level attribute from the media resource.helpviewer_keywords: ["GetStreamAttribute","GetStreamAttribute method [Media Foundation]","GetStreamAttribute method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetStreamAttribute method","IMFMediaEngineEx.GetStreamAttribute","IMFMediaEngineEx::GetStreamAttribute","mf.imfmediaengineex_getstreamattribute","mfmediaengine/IMFMediaEngineEx::GetStreamAttribute"]
+description: Gets a stream-level attribute from the media resource.
+helpviewer_keywords: ["GetStreamAttribute","GetStreamAttribute method [Media Foundation]","GetStreamAttribute method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetStreamAttribute method","IMFMediaEngineEx.GetStreamAttribute","IMFMediaEngineEx::GetStreamAttribute","mf.imfmediaengineex_getstreamattribute","mfmediaengine/IMFMediaEngineEx::GetStreamAttribute"]
 old-location: mf\imfmediaengineex_getstreamattribute.htm
 tech.root: medfound
 ms.assetid: 2C64CD7B-F376-47DF-AD5A-DE5EBC665288

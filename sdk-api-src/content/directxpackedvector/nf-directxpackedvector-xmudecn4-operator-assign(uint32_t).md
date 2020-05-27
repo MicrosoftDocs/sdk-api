@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMUDECN4.operator-assign(uint32_t)
 title: XMUDECN4::operator-assign(uint32_t) (directxpackedvector.h)
-description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMUDECN4.helpviewer_keywords: ["XMUDECN4 structure [DirectX Math Support APIs]","operator = method","XMUDECN4.operator =(const uint32_t)","XMUDECN4.operator-assign(uint32_t)","XMUDECN4.operator=","XMUDECN4::operator-assign(uint32_t)","XMUDECN4::operator=","dxmath.xmudecn4_operator_eq_2","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUDECN4 structure","operator="]
+description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMUDECN4.
+helpviewer_keywords: ["XMUDECN4 structure [DirectX Math Support APIs]","operator = method","XMUDECN4.operator =(const uint32_t)","XMUDECN4.operator-assign(uint32_t)","XMUDECN4.operator=","XMUDECN4::operator-assign(uint32_t)","XMUDECN4::operator=","dxmath.xmudecn4_operator_eq_2","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUDECN4 structure","operator="]
 old-location: dxmath\xmudecn4_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.operator = (const uint32_t)

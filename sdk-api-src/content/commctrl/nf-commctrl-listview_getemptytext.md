@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetEmptyText
 title: ListView_GetEmptyText macro (commctrl.h)
-description: Gets the text meant for display when the list-view control appears empty. Use this macro or send the LVM_GETEMPTYTEXT message explicitly.helpviewer_keywords: ["ListView_GetEmptyText","ListView_GetEmptyText macro [Windows Controls]","_shell_ListView_GetEmptyText","_shell_ListView_GetEmptyText_cpp","commctrl/ListView_GetEmptyText","controls.ListView_GetEmptyText","controls._shell_ListView_GetEmptyText"]
+description: Gets the text meant for display when the list-view control appears empty. Use this macro or send the LVM_GETEMPTYTEXT message explicitly.
+helpviewer_keywords: ["ListView_GetEmptyText","ListView_GetEmptyText macro [Windows Controls]","_shell_ListView_GetEmptyText","_shell_ListView_GetEmptyText_cpp","commctrl/ListView_GetEmptyText","controls.ListView_GetEmptyText","controls._shell_ListView_GetEmptyText"]
 old-location: controls\ListView_GetEmptyText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getemptytext.htm

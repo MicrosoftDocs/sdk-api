@@ -1,7 +1,8 @@
 ---
 UID: NS:mobsync._tagSYNCMGRPROGRESSITEM
 title: SYNCMGRPROGRESSITEM (mobsync.h)
-description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.helpviewer_keywords: ["*LPSYNCMGRPROGRESSITEM","LPSYNCMGRPROGRESSITEM","LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell]","SYNCMGRPROGRESSITEM","SYNCMGRPROGRESSITEM structure [Windows Shell]","mobsync/LPSYNCMGRPROGRESSITEM","mobsync/SYNCMGRPROGRESSITEM","shell.syncmgr_syncmgrprogressitem","syncmgr.syncmgrprogressitem"]
+description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.
+helpviewer_keywords: ["*LPSYNCMGRPROGRESSITEM","LPSYNCMGRPROGRESSITEM","LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell]","SYNCMGRPROGRESSITEM","SYNCMGRPROGRESSITEM structure [Windows Shell]","mobsync/LPSYNCMGRPROGRESSITEM","mobsync/SYNCMGRPROGRESSITEM","shell.syncmgr_syncmgrprogressitem","syncmgr.syncmgrprogressitem"]
 old-location: shell\syncmgr_syncmgrprogressitem.htm
 tech.root: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca

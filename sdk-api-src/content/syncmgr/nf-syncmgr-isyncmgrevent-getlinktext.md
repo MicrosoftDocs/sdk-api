@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLinkText
 title: ISyncMgrEvent::GetLinkText (syncmgr.h)
-description: Gets the text for the hot link for the event.helpviewer_keywords: ["GetLinkText","GetLinkText method [Windows Shell]","GetLinkText method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetLinkText method","ISyncMgrEvent.GetLinkText","ISyncMgrEvent::GetLinkText","_shell_ISyncMgrEvent_GetLinkText","shell.ISyncMgrEvent_GetLinkText","syncmgr/ISyncMgrEvent::GetLinkText"]
+description: Gets the text for the hot link for the event.
+helpviewer_keywords: ["GetLinkText","GetLinkText method [Windows Shell]","GetLinkText method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetLinkText method","ISyncMgrEvent.GetLinkText","ISyncMgrEvent::GetLinkText","_shell_ISyncMgrEvent_GetLinkText","shell.ISyncMgrEvent_GetLinkText","syncmgr/ISyncMgrEvent::GetLinkText"]
 old-location: shell\ISyncMgrEvent_GetLinkText.htm
 tech.root: shell
 ms.assetid: f8a7226b-270e-495e-a43f-8e6a9c7a77df

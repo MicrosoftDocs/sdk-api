@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11on12.D3D11_RESOURCE_FLAGS
 title: D3D11_RESOURCE_FLAGS (d3d11on12.h)
-description: Used with ID3D11On12Device::CreateWrappedResourceto override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.helpviewer_keywords: ["D3D11_RESOURCE_FLAGS","D3D11_RESOURCE_FLAGS structure","d3d11on12/D3D11_RESOURCE_FLAGS","direct3d12.d3d11_resource_flags"]
+description: Used with ID3D11On12Device::CreateWrappedResourceto override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
+helpviewer_keywords: ["D3D11_RESOURCE_FLAGS","D3D11_RESOURCE_FLAGS structure","d3d11on12/D3D11_RESOURCE_FLAGS","direct3d12.d3d11_resource_flags"]
 old-location: direct3d12\d3d11_resource_flags.htm
 tech.root: direct3d12
 ms.assetid: 50C1ACA1-714C-467A-A548-B5EE50DA3E3D

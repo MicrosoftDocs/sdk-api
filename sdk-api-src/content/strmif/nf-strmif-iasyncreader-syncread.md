@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncRead
 title: IAsyncReader::SyncRead (strmif.h)
-description: The SyncRead method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address do not have to be aligned. If the request is not aligned, the method performs a buffered read operation.helpviewer_keywords: ["IAsyncReader interface [DirectShow]","SyncRead method","IAsyncReader.SyncRead","IAsyncReader::SyncRead","IAsyncReaderSyncRead","SyncRead","SyncRead method [DirectShow]","SyncRead method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_syncread","strmif/IAsyncReader::SyncRead"]
+description: The SyncRead method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address do not have to be aligned. If the request is not aligned, the method performs a buffered read operation.
+helpviewer_keywords: ["IAsyncReader interface [DirectShow]","SyncRead method","IAsyncReader.SyncRead","IAsyncReader::SyncRead","IAsyncReaderSyncRead","SyncRead","SyncRead method [DirectShow]","SyncRead method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_syncread","strmif/IAsyncReader::SyncRead"]
 old-location: dshow\iasyncreader_syncread.htm
 tech.root: DirectShow
 ms.assetid: 21806449-97b1-4890-9182-a1244c21ba30

@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadMessageEnd
 title: WsReadMessageEnd function (webservices.h)
-description: Read the closing elements of a message from a channel.helpviewer_keywords: ["WsReadMessageEnd","WsReadMessageEnd function [Web Services for Windows]","webservices/WsReadMessageEnd","wsw.wsreadmessageend"]
+description: Read the closing elements of a message from a channel.
+helpviewer_keywords: ["WsReadMessageEnd","WsReadMessageEnd function [Web Services for Windows]","webservices/WsReadMessageEnd","wsw.wsreadmessageend"]
 old-location: wsw\wsreadmessageend.htm
 tech.root: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540

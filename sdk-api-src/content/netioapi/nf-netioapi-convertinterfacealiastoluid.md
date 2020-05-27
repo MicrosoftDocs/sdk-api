@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.ConvertInterfaceAliasToLuid
 title: ConvertInterfaceAliasToLuid function (netioapi.h)
-description: Converts an interface alias name for a network interface to the locally unique identifier (LUID) for the interface.helpviewer_keywords: ["ConvertInterfaceAliasToLuid","ConvertInterfaceAliasToLuid function [IP Helper]","iphlp.convertinterfacealiastoluid","netioapi/ConvertInterfaceAliasToLuid"]
+description: Converts an interface alias name for a network interface to the locally unique identifier (LUID) for the interface.
+helpviewer_keywords: ["ConvertInterfaceAliasToLuid","ConvertInterfaceAliasToLuid function [IP Helper]","iphlp.convertinterfacealiastoluid","netioapi/ConvertInterfaceAliasToLuid"]
 old-location: iphlp\convertinterfacealiastoluid.htm
 tech.root: IpHlp
 ms.assetid: 7fa80938-d475-4ace-b463-a53aac26e88b

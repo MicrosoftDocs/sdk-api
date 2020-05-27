@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMessageFilter.MessagePending
 title: IMessageFilter::MessagePending (objidl.h)
-description: Indicates that a message has arrived while COM is waiting to respond to a remote call.helpviewer_keywords: ["IMessageFilter interface [COM]","MessagePending method","IMessageFilter.MessagePending","IMessageFilter::MessagePending","MessagePending","MessagePending method [COM]","MessagePending method [COM]","IMessageFilter interface","_com_imessagefilter_messagepending","com.imessagefilter_messagepending","objidl/IMessageFilter::MessagePending"]
+description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
+helpviewer_keywords: ["IMessageFilter interface [COM]","MessagePending method","IMessageFilter.MessagePending","IMessageFilter::MessagePending","MessagePending","MessagePending method [COM]","MessagePending method [COM]","IMessageFilter interface","_com_imessagefilter_messagepending","com.imessagefilter_messagepending","objidl/IMessageFilter::MessagePending"]
 old-location: com\imessagefilter_messagepending.htm
 tech.root: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a

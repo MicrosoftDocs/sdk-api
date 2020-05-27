@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
 title: PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN (winbio_adapter.h)
-description: Accepts a raw biometric sample and extracts a feature set.helpviewer_keywords: ["EngineAdapterAcceptSampleData","EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API]","PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN","PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback","secbiomet.engineadapteracceptsampledata","winbio_adapter/EngineAdapterAcceptSampleData"]
+description: Accepts a raw biometric sample and extracts a feature set.
+helpviewer_keywords: ["EngineAdapterAcceptSampleData","EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API]","PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN","PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback","secbiomet.engineadapteracceptsampledata","winbio_adapter/EngineAdapterAcceptSampleData"]
 old-location: secbiomet\engineadapteracceptsampledata.htm
 tech.root: SecBioMet
 ms.assetid: fa6c5aa4-a9f4-421e-bc43-ced7fade4144

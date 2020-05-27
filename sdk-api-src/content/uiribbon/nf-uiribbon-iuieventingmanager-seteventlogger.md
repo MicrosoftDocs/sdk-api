@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUIEventingManager.SetEventLogger
 title: IUIEventingManager::SetEventLogger (uiribbon.h)
-description: Sets the event logger for ribbon events.helpviewer_keywords: ["IUIEventingManager interface [Windows Ribbon]","SetEventLogger method","IUIEventingManager.SetEventLogger","IUIEventingManager::SetEventLogger","SetEventLogger","SetEventLogger method [Windows Ribbon]","SetEventLogger method [Windows Ribbon]","IUIEventingManager interface","uiribbon/IUIEventingManager::SetEventLogger","windowsribbon.iuieventingmanager_seteventlogger"]
+description: Sets the event logger for ribbon events.
+helpviewer_keywords: ["IUIEventingManager interface [Windows Ribbon]","SetEventLogger method","IUIEventingManager.SetEventLogger","IUIEventingManager::SetEventLogger","SetEventLogger","SetEventLogger method [Windows Ribbon]","SetEventLogger method [Windows Ribbon]","IUIEventingManager interface","uiribbon/IUIEventingManager::SetEventLogger","windowsribbon.iuieventingmanager_seteventlogger"]
 old-location: windowsribbon\iuieventingmanager_seteventlogger.htm
 tech.root: windowsribbon
 ms.assetid: C0228AB3-790A-469E-B185-06A26D02A96F

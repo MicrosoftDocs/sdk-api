@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsServiceRegister
 title: DnsServiceRegister function
-description: Used to register a discoverable service on this device.helpviewer_keywords: ["DnsServiceRegister"]
+description: Used to register a discoverable service on this device.
+helpviewer_keywords: ["DnsServiceRegister"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceRegister
 f1_keywords:

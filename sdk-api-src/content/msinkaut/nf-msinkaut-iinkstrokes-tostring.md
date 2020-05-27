@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ToString
 title: IInkStrokes::ToString (msinkaut.h)
-description: ToString is no longer available for use as of Windows Vista.helpviewer_keywords: ["702ec977-2d87-4d52-916e-423f1df03829","IInkStrokes interface [Tablet PC]","ToString method","IInkStrokes.ToString","IInkStrokes::ToString","ToString","ToString method [Tablet PC]","ToString method [Tablet PC]","IInkStrokes interface","msinkaut/IInkStrokes::ToString","tablet.inkstrokes_tostring"]
+description: ToString is no longer available for use as of Windows Vista.
+helpviewer_keywords: ["702ec977-2d87-4d52-916e-423f1df03829","IInkStrokes interface [Tablet PC]","ToString method","IInkStrokes.ToString","IInkStrokes::ToString","ToString","ToString method [Tablet PC]","ToString method [Tablet PC]","IInkStrokes interface","msinkaut/IInkStrokes::ToString","tablet.inkstrokes_tostring"]
 old-location: tablet\inkstrokes_tostring.htm
 tech.root: tablet
 ms.assetid: e1f1d68b-16c2-4d97-ae5f-091e5ec285c2

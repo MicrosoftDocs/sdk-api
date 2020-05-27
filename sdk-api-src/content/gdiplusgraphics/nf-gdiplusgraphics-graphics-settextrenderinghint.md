@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetTextRenderingHint
 title: Graphics::SetTextRenderingHint (gdiplusgraphics.h)
-description: The Graphics::SetTextRenderingHint method sets the text rendering mode of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","SetTextRenderingHint method","Graphics.SetTextRenderingHint","Graphics::SetTextRenderingHint","SetTextRenderingHint","SetTextRenderingHint method [GDI+]","SetTextRenderingHint method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_","gdiplus._gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_"]
+description: The Graphics::SetTextRenderingHint method sets the text rendering mode of this Graphics object.
+helpviewer_keywords: ["Graphics class [GDI+]","SetTextRenderingHint method","Graphics.SetTextRenderingHint","Graphics::SetTextRenderingHint","SetTextRenderingHint","SetTextRenderingHint method [GDI+]","SetTextRenderingHint method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_","gdiplus._gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\settextrenderinghint.htm

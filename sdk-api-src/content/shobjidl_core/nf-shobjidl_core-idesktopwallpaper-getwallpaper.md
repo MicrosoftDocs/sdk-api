@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetWallpaper
 title: IDesktopWallpaper::GetWallpaper (shobjidl_core.h)
-description: Gets the current desktop wallpaper.helpviewer_keywords: ["GetWallpaper","GetWallpaper method [Windows Shell]","GetWallpaper method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetWallpaper method","IDesktopWallpaper.GetWallpaper","IDesktopWallpaper::GetWallpaper","shell.IDesktopWallpaper_GetWallpaper","shobjidl_core/IDesktopWallpaper::GetWallpaper"]
+description: Gets the current desktop wallpaper.
+helpviewer_keywords: ["GetWallpaper","GetWallpaper method [Windows Shell]","GetWallpaper method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetWallpaper method","IDesktopWallpaper.GetWallpaper","IDesktopWallpaper::GetWallpaper","shell.IDesktopWallpaper_GetWallpaper","shobjidl_core/IDesktopWallpaper::GetWallpaper"]
 old-location: shell\IDesktopWallpaper_GetWallpaper.htm
 tech.root: shell
 ms.assetid: A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC

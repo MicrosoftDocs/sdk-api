@@ -1,7 +1,8 @@
 ---
 UID: NE:oleidl.tagOLECONTF
 title: OLECONTF (oleidl.h)
-description: Indicates the type of objects to be enumerated.helpviewer_keywords: ["OLECONTF","OLECONTF enumeration [COM]","OLECONTF_EMBEDDINGS","OLECONTF_LINKS","OLECONTF_ONLYIFRUNNING","OLECONTF_ONLYUSER","OLECONTF_OTHERS","_ole_OLECONTF","com.olecontf","oleidl/OLECONTF","oleidl/OLECONTF_EMBEDDINGS","oleidl/OLECONTF_LINKS","oleidl/OLECONTF_ONLYIFRUNNING","oleidl/OLECONTF_ONLYUSER","oleidl/OLECONTF_OTHERS"]
+description: Indicates the type of objects to be enumerated.
+helpviewer_keywords: ["OLECONTF","OLECONTF enumeration [COM]","OLECONTF_EMBEDDINGS","OLECONTF_LINKS","OLECONTF_ONLYIFRUNNING","OLECONTF_ONLYUSER","OLECONTF_OTHERS","_ole_OLECONTF","com.olecontf","oleidl/OLECONTF","oleidl/OLECONTF_EMBEDDINGS","oleidl/OLECONTF_LINKS","oleidl/OLECONTF_ONLYIFRUNNING","oleidl/OLECONTF_ONLYUSER","oleidl/OLECONTF_OTHERS"]
 old-location: com\olecontf.htm
 tech.root: com
 ms.assetid: 9c70fc86-7166-47dd-a424-741f18e381e3

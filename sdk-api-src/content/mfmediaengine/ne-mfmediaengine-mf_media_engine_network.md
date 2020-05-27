@@ -1,7 +1,8 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_NETWORK
 title: MF_MEDIA_ENGINE_NETWORK (mfmediaengine.h)
-description: Defines network status codes for the Media Engine.helpviewer_keywords: ["MF_MEDIA_ENGINE_NETWORK","MF_MEDIA_ENGINE_NETWORK enumeration [Media Foundation]","MF_MEDIA_ENGINE_NETWORK_EMPTY","MF_MEDIA_ENGINE_NETWORK_IDLE","MF_MEDIA_ENGINE_NETWORK_LOADING","MF_MEDIA_ENGINE_NETWORK_NO_SOURCE","mf.mf_media_engine_network","mfmediaengine/MF_MEDIA_ENGINE_NETWORK","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_EMPTY","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_IDLE","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_LOADING","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_NO_SOURCE"]
+description: Defines network status codes for the Media Engine.
+helpviewer_keywords: ["MF_MEDIA_ENGINE_NETWORK","MF_MEDIA_ENGINE_NETWORK enumeration [Media Foundation]","MF_MEDIA_ENGINE_NETWORK_EMPTY","MF_MEDIA_ENGINE_NETWORK_IDLE","MF_MEDIA_ENGINE_NETWORK_LOADING","MF_MEDIA_ENGINE_NETWORK_NO_SOURCE","mf.mf_media_engine_network","mfmediaengine/MF_MEDIA_ENGINE_NETWORK","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_EMPTY","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_IDLE","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_LOADING","mfmediaengine/MF_MEDIA_ENGINE_NETWORK_NO_SOURCE"]
 old-location: mf\mf_media_engine_network.htm
 tech.root: medfound
 ms.assetid: A2A73A54-C360-452C-8887-D3065274358A

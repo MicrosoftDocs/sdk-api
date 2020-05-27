@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory
 title: IAppxEncryptionFactory (appxpackaging.h)
-description: Creates objects for encrypting, decrypting, reading, and writing packages and bundles.helpviewer_keywords: ["IAppxEncryptionFactory","IAppxEncryptionFactory interface [App packaging and management]","IAppxEncryptionFactory interface [App packaging and management]","described","appxpackaging/IAppxEncryptionFactory","appxpkg.iappxencryptionfactory"]
+description: Creates objects for encrypting, decrypting, reading, and writing packages and bundles.
+helpviewer_keywords: ["IAppxEncryptionFactory","IAppxEncryptionFactory interface [App packaging and management]","IAppxEncryptionFactory interface [App packaging and management]","described","appxpackaging/IAppxEncryptionFactory","appxpkg.iappxencryptionfactory"]
 old-location: appxpkg\iappxencryptionfactory.htm
 tech.root: appxpkg
 ms.assetid: F07138FE-340F-4493-A3A9-AED075B2CEEA

@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11shader.ID3D11Module
 title: ID3D11Module (d3d11shader.h)
-description: A module interface creates an instance of a module that is used for resource rebinding.helpviewer_keywords: ["ID3D11Module","ID3D11Module interface [Direct3D 11]","ID3D11Module interface [Direct3D 11]","described","d3d11shader/ID3D11Module","direct3d11.id3d11module"]
+description: A module interface creates an instance of a module that is used for resource rebinding.
+helpviewer_keywords: ["ID3D11Module","ID3D11Module interface [Direct3D 11]","ID3D11Module interface [Direct3D 11]","described","d3d11shader/ID3D11Module","direct3d11.id3d11module"]
 old-location: direct3d11\id3d11module.htm
 tech.root: direct3d11
 ms.assetid: 5915DACB-1D3A-496C-96C6-77D85CC6560B

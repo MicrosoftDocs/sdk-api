@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsapi32._WTSINFOEXW
 title: WTSINFOEXW (wtsapi32.h)
-description: Contains a WTSINFOEX_LEVEL union that contains extended information about a Remote Desktop Services session.helpviewer_keywords: ["*PWTSINFOEXW","PWTSINFOEX","PWTSINFOEX structure pointer [Remote Desktop Services]","WTSINFOEX","WTSINFOEX structure [Remote Desktop Services]","WTSINFOEXA","WTSINFOEXW","termserv.wtsinfoex","wtsapi32/PWTSINFOEX","wtsapi32/WTSINFOEX","wtsapi32/WTSINFOEXA","wtsapi32/WTSINFOEXW"]
+description: Contains a WTSINFOEX_LEVEL union that contains extended information about a Remote Desktop Services session.
+helpviewer_keywords: ["*PWTSINFOEXW","PWTSINFOEX","PWTSINFOEX structure pointer [Remote Desktop Services]","WTSINFOEX","WTSINFOEX structure [Remote Desktop Services]","WTSINFOEXA","WTSINFOEXW","termserv.wtsinfoex","wtsapi32/PWTSINFOEX","wtsapi32/WTSINFOEX","wtsapi32/WTSINFOEXA","wtsapi32/WTSINFOEXW"]
 old-location: termserv\wtsinfoex.htm
 tech.root: TermServ
 ms.assetid: 94aa2db0-d7e3-4ff2-bff0-d80983d2e8b2

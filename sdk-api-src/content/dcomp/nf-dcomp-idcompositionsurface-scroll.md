@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.Scroll
 title: IDCompositionSurface::Scroll (dcomp.h)
-description: Scrolls a rectangular area of a Microsoft DirectComposition logical surface.helpviewer_keywords: ["IDCompositionSurface interface [DirectComposition]","Scroll method","IDCompositionSurface.Scroll","IDCompositionSurface::Scroll","Scroll","Scroll method [DirectComposition]","Scroll method [DirectComposition]","IDCompositionSurface interface","dcomp/IDCompositionSurface::Scroll","directcomp.idcompositionsurface_scroll"]
+description: Scrolls a rectangular area of a Microsoft DirectComposition logical surface.
+helpviewer_keywords: ["IDCompositionSurface interface [DirectComposition]","Scroll method","IDCompositionSurface.Scroll","IDCompositionSurface::Scroll","Scroll","Scroll method [DirectComposition]","Scroll method [DirectComposition]","IDCompositionSurface interface","dcomp/IDCompositionSurface::Scroll","directcomp.idcompositionsurface_scroll"]
 old-location: directcomp\idcompositionsurface_scroll.htm
 tech.root: directcomp
 ms.assetid: 0764C59A-DDDE-420C-B044-827B7EDC6CF1

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHCreateShellPalette
 title: SHCreateShellPalette function (shlwapi.h)
-description: Creates a halftone palette for the specified device context.helpviewer_keywords: ["SHCreateShellPalette","SHCreateShellPalette function [Windows Shell]","_win32_SHCreateShellPalette","shell.SHCreateShellPalette","shlwapi/SHCreateShellPalette"]
+description: Creates a halftone palette for the specified device context.
+helpviewer_keywords: ["SHCreateShellPalette","SHCreateShellPalette function [Windows Shell]","_win32_SHCreateShellPalette","shell.SHCreateShellPalette","shlwapi/SHCreateShellPalette"]
 old-location: shell\SHCreateShellPalette.htm
 tech.root: shell
 ms.assetid: 49afb04a-34e3-4696-a046-bc9308ae7adf

@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.CloseMapping
 title: ISimilarityTraitsMapping::CloseMapping (msrdc.h)
-description: Closes a file mapping object for a similarity traits table file.helpviewer_keywords: ["CloseMapping","CloseMapping method [Remote Differential Compression]","CloseMapping method [Remote Differential Compression]","ISimilarityTraitsMapping interface","ISimilarityTraitsMapping interface [Remote Differential Compression]","CloseMapping method","ISimilarityTraitsMapping.CloseMapping","ISimilarityTraitsMapping::CloseMapping","fs.isimilaritytraitsmapping_closemapping","msrdc/ISimilarityTraitsMapping::CloseMapping","rdc.isimilaritytraitsmapping_closemapping"]
+description: Closes a file mapping object for a similarity traits table file.
+helpviewer_keywords: ["CloseMapping","CloseMapping method [Remote Differential Compression]","CloseMapping method [Remote Differential Compression]","ISimilarityTraitsMapping interface","ISimilarityTraitsMapping interface [Remote Differential Compression]","CloseMapping method","ISimilarityTraitsMapping.CloseMapping","ISimilarityTraitsMapping::CloseMapping","fs.isimilaritytraitsmapping_closemapping","msrdc/ISimilarityTraitsMapping::CloseMapping","rdc.isimilaritytraitsmapping_closemapping"]
 old-location: rdc\isimilaritytraitsmapping_closemapping.htm
 tech.root: rdc
 ms.assetid: 9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2

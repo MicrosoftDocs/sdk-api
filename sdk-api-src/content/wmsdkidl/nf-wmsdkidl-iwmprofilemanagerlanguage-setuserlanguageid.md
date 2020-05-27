@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.SetUserLanguageID
 title: IWMProfileManagerLanguage::SetUserLanguageID (wmsdkidl.h)
-description: The SetUserLanguageID method sets the language of the system profiles that will be parsed by the profile manager object.helpviewer_keywords: ["IWMProfileManagerLanguage interface [windows Media Format]","SetUserLanguageID method","IWMProfileManagerLanguage.SetUserLanguageID","IWMProfileManagerLanguage::SetUserLanguageID","IWMProfileManagerLanguageSetUserLanguageID","SetUserLanguageID","SetUserLanguageID method [windows Media Format]","SetUserLanguageID method [windows Media Format]","IWMProfileManagerLanguage interface","wmformat.iwmprofilemanagerlanguage_setuserlanguageid","wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID"]
+description: The SetUserLanguageID method sets the language of the system profiles that will be parsed by the profile manager object.
+helpviewer_keywords: ["IWMProfileManagerLanguage interface [windows Media Format]","SetUserLanguageID method","IWMProfileManagerLanguage.SetUserLanguageID","IWMProfileManagerLanguage::SetUserLanguageID","IWMProfileManagerLanguageSetUserLanguageID","SetUserLanguageID","SetUserLanguageID method [windows Media Format]","SetUserLanguageID method [windows Media Format]","IWMProfileManagerLanguage interface","wmformat.iwmprofilemanagerlanguage_setuserlanguageid","wmsdkidl/IWMProfileManagerLanguage::SetUserLanguageID"]
 old-location: wmformat\iwmprofilemanagerlanguage_setuserlanguageid.htm
 tech.root: wmformat
 ms.assetid: e2154057-ea76-43bb-92d9-b52f16eb6b1b

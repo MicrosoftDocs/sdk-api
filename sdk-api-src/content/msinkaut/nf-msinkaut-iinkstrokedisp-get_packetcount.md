@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketCount
 title: IInkStrokeDisp::get_PacketCount (msinkaut.h)
-description: Gets the number of packets received for an IInkStrokeDisp object.helpviewer_keywords: ["IInkStrokeDisp interface [Tablet PC]","PacketCount property","IInkStrokeDisp.PacketCount","IInkStrokeDisp.get_PacketCount","IInkStrokeDisp::PacketCount","IInkStrokeDisp::get_PacketCount","PacketCount property [Tablet PC]","PacketCount property [Tablet PC]","IInkStrokeDisp interface","f7cd47f8-809b-455d-873f-81dba80549b9","get_PacketCount","msinkaut/IInkStrokeDisp::PacketCount","msinkaut/IInkStrokeDisp::get_PacketCount","tablet.iinkstrokedisp_packetcount"]
+description: Gets the number of packets received for an IInkStrokeDisp object.
+helpviewer_keywords: ["IInkStrokeDisp interface [Tablet PC]","PacketCount property","IInkStrokeDisp.PacketCount","IInkStrokeDisp.get_PacketCount","IInkStrokeDisp::PacketCount","IInkStrokeDisp::get_PacketCount","PacketCount property [Tablet PC]","PacketCount property [Tablet PC]","IInkStrokeDisp interface","f7cd47f8-809b-455d-873f-81dba80549b9","get_PacketCount","msinkaut/IInkStrokeDisp::PacketCount","msinkaut/IInkStrokeDisp::get_PacketCount","tablet.iinkstrokedisp_packetcount"]
 old-location: tablet\iinkstrokedisp_packetcount.htm
 tech.root: tablet
 ms.assetid: f7cd47f8-809b-455d-873f-81dba80549b9

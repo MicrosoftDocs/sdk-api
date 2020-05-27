@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Clone
 title: IEnumSearchScopeRules::Clone (searchapi.h)
-description: Creates a copy of this IEnumSearchScopeRules object with the same contents and state as the current one.helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","IEnumSearchScopeRules interface","IEnumSearchScopeRules interface [search]","Clone method","IEnumSearchScopeRules.Clone","IEnumSearchScopeRules::Clone","_search_IEnumSearchScopeRules_Clone","search._search_IEnumSearchScopeRules_Clone","searchapi/IEnumSearchScopeRules::Clone"]
+description: Creates a copy of this IEnumSearchScopeRules object with the same contents and state as the current one.
+helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","IEnumSearchScopeRules interface","IEnumSearchScopeRules interface [search]","Clone method","IEnumSearchScopeRules.Clone","IEnumSearchScopeRules::Clone","_search_IEnumSearchScopeRules_Clone","search._search_IEnumSearchScopeRules_Clone","searchapi/IEnumSearchScopeRules::Clone"]
 old-location: search\_search_IEnumSearchScopeRules_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\clone.htm

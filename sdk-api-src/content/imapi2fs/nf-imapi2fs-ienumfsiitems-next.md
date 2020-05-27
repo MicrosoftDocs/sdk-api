@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Next
 title: IEnumFsiItems::Next (imapi2fs.h)
-description: Retrieves a specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumFsiItems interface [IMAPI]","Next method","IEnumFsiItems.Next","IEnumFsiItems::Next","Next","Next method [IMAPI]","Next method [IMAPI]","IEnumFsiItems interface","imapi.ienumfsiitems_next","imapi2fs/IEnumFsiItems::Next"]
+description: Retrieves a specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumFsiItems interface [IMAPI]","Next method","IEnumFsiItems.Next","IEnumFsiItems::Next","Next","Next method [IMAPI]","Next method [IMAPI]","IEnumFsiItems interface","imapi.ienumfsiitems_next","imapi2fs/IEnumFsiItems::Next"]
 old-location: imapi\ienumfsiitems_next.htm
 tech.root: imapi
 ms.assetid: 3aad9540-7fbc-4eda-9619-187a9c5b4b2d

@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasGetProjectionInfoEx
 title: RasGetProjectionInfoEx function (ras.h)
-description: Obtains information about Point-to-Point Protocol (PPP) or Internet Key Exchange version 2 (IKEv2) remote access projection operations for all RAS connections on the local client.helpviewer_keywords: ["RasGetProjectionInfoEx","RasGetProjectionInfoEx function [RAS]","ras/RasGetProjectionInfoEx","rras.rasgetprojectioninfoex"]
+description: Obtains information about Point-to-Point Protocol (PPP) or Internet Key Exchange version 2 (IKEv2) remote access projection operations for all RAS connections on the local client.
+helpviewer_keywords: ["RasGetProjectionInfoEx","RasGetProjectionInfoEx function [RAS]","ras/RasGetProjectionInfoEx","rras.rasgetprojectioninfoex"]
 old-location: rras\rasgetprojectioninfoex.htm
 tech.root: RRAS
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd

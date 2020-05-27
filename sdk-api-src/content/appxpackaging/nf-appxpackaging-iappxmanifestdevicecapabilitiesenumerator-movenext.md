@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext (appxpackaging.h)
-description: Advances the position of the enumerator to the next device capability.helpviewer_keywords: ["IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management]","MoveNext method","IAppxManifestDeviceCapabilitiesEnumerator.MoveNext","IAppxManifestDeviceCapabilitiesEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxManifestDeviceCapabilitiesEnumerator interface","appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext","appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext"]
+description: Advances the position of the enumerator to the next device capability.
+helpviewer_keywords: ["IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management]","MoveNext method","IAppxManifestDeviceCapabilitiesEnumerator.MoveNext","IAppxManifestDeviceCapabilitiesEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxManifestDeviceCapabilitiesEnumerator interface","appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext","appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext"]
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: 2FD0F98C-2B20-47B2-8F86-F59E3E9B9086

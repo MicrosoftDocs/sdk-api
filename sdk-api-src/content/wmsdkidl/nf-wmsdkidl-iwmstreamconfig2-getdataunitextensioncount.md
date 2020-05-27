@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtensionCount
 title: IWMStreamConfig2::GetDataUnitExtensionCount (wmsdkidl.h)
-description: The GetDataUnitExtensionCount method retrieves the total number of data unit extension systems that have been added to the stream.helpviewer_keywords: ["GetDataUnitExtensionCount","GetDataUnitExtensionCount method [windows Media Format]","GetDataUnitExtensionCount method [windows Media Format]","IWMStreamConfig2 interface","IWMStreamConfig2 interface [windows Media Format]","GetDataUnitExtensionCount method","IWMStreamConfig2.GetDataUnitExtensionCount","IWMStreamConfig2::GetDataUnitExtensionCount","IWMStreamConfig2GetDataUnitExtensionCount","wmformat.iwmstreamconfig2_getdataunitextensioncount","wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount"]
+description: The GetDataUnitExtensionCount method retrieves the total number of data unit extension systems that have been added to the stream.
+helpviewer_keywords: ["GetDataUnitExtensionCount","GetDataUnitExtensionCount method [windows Media Format]","GetDataUnitExtensionCount method [windows Media Format]","IWMStreamConfig2 interface","IWMStreamConfig2 interface [windows Media Format]","GetDataUnitExtensionCount method","IWMStreamConfig2.GetDataUnitExtensionCount","IWMStreamConfig2::GetDataUnitExtensionCount","IWMStreamConfig2GetDataUnitExtensionCount","wmformat.iwmstreamconfig2_getdataunitextensioncount","wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount"]
 old-location: wmformat\iwmstreamconfig2_getdataunitextensioncount.htm
 tech.root: wmformat
 ms.assetid: f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce

@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilSetPropertyParameterBlockEx
 title: ResUtilSetPropertyParameterBlockEx function (resapi.h)
-description: Sets properties in the cluster database from a parameter block.helpviewer_keywords: ["PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX","PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX function [Failover Cluster]","ResUtilSetPropertyParameterBlockEx","ResUtilSetPropertyParameterBlockEx function [Failover Cluster]","_wolf_resutilsetpropertyparameterblockex","mscs.resutilsetpropertyparameterblockex","resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX","resapi/ResUtilSetPropertyParameterBlockEx"]
+description: Sets properties in the cluster database from a parameter block.
+helpviewer_keywords: ["PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX","PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX function [Failover Cluster]","ResUtilSetPropertyParameterBlockEx","ResUtilSetPropertyParameterBlockEx function [Failover Cluster]","_wolf_resutilsetpropertyparameterblockex","mscs.resutilsetpropertyparameterblockex","resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX","resapi/ResUtilSetPropertyParameterBlockEx"]
 old-location: mscs\resutilsetpropertyparameterblockex.htm
 tech.root: MsCS
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109

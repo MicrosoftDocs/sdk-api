@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcoreapi.UiaEventArgs
 title: UiaEventArgs (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains information about a Microsoft UI Automation event.helpviewer_keywords: ["UiaEventArgs","UiaEventArgs structure [Windows Accessibility]","uiauto.uiauto_UiaEventArgsStruct","uiauto_UiaEventArgsStruct","uiautomationcoreapi/UiaEventArgs","winauto.uiauto_UiaEventArgsStruct"]
+description: Note  This structure is deprecated.  Contains information about a Microsoft UI Automation event.
+helpviewer_keywords: ["UiaEventArgs","UiaEventArgs structure [Windows Accessibility]","uiauto.uiauto_UiaEventArgsStruct","uiauto_UiaEventArgsStruct","uiautomationcoreapi/UiaEventArgs","winauto.uiauto_UiaEventArgsStruct"]
 old-location: winauto\uiauto_UiaEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: 7598936c-85da-40bc-8e94-94543371d915

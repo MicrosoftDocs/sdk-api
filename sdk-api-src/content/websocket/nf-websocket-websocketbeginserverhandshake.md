@@ -1,7 +1,8 @@
 ---
 UID: NF:websocket.WebSocketBeginServerHandshake
 title: WebSocketBeginServerHandshake function (websocket.h)
-description: Begins the server-side handshake.helpviewer_keywords: ["WebSocketBeginServerHandshake","WebSocketBeginServerHandshake function [Websocket Protocol Component API]","websock.websocketbeginserverhandshake","websocket/WebSocketBeginServerHandshake"]
+description: Begins the server-side handshake.
+helpviewer_keywords: ["WebSocketBeginServerHandshake","WebSocketBeginServerHandshake function [Websocket Protocol Component API]","websock.websocketbeginserverhandshake","websocket/WebSocketBeginServerHandshake"]
 old-location: websock\websocketbeginserverhandshake.htm
 tech.root: WebSock
 ms.assetid: 4009b56c-a92c-43fe-9e7b-2c38048aa748

@@ -1,7 +1,8 @@
 ---
 UID: NS:ntddmou._MOUSE_UNIT_ID_PARAMETER
 title: MOUSE_UNIT_ID_PARAMETER (ntddmou.h)
-description: MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.helpviewer_keywords: ["*PMOUSE_UNIT_ID_PARAMETER","MOUSE_UNIT_ID_PARAMETER","MOUSE_UNIT_ID_PARAMETER structure [Human Input Devices]","PMOUSE_UNIT_ID_PARAMETER","PMOUSE_UNIT_ID_PARAMETER structure pointer [Human Input Devices]","hid.mouse_unit_id_parameter","mref_596482c8-d90d-4505-9b30-567bd8468691.xml","ntddmou/MOUSE_UNIT_ID_PARAMETER","ntddmou/PMOUSE_UNIT_ID_PARAMETER"]
+description: MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.
+helpviewer_keywords: ["*PMOUSE_UNIT_ID_PARAMETER","MOUSE_UNIT_ID_PARAMETER","MOUSE_UNIT_ID_PARAMETER structure [Human Input Devices]","PMOUSE_UNIT_ID_PARAMETER","PMOUSE_UNIT_ID_PARAMETER structure pointer [Human Input Devices]","hid.mouse_unit_id_parameter","mref_596482c8-d90d-4505-9b30-567bd8468691.xml","ntddmou/MOUSE_UNIT_ID_PARAMETER","ntddmou/PMOUSE_UNIT_ID_PARAMETER"]
 old-location: hid\mouse_unit_id_parameter.htm
 tech.root: hid
 ms.assetid: c121e9af-29c3-4638-9c21-2dc45c572858

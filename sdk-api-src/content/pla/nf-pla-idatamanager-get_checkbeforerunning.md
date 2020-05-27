@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataManager.get_CheckBeforeRunning
 title: IDataManager::get_CheckBeforeRunning (pla.h)
-description: Retrieves or sets a value that indicates whether the data manager should check imposed limits, such as the minimum available free disk space, before collecting data.helpviewer_keywords: ["CheckBeforeRunning property [PLA]","CheckBeforeRunning property [PLA]","IDataManager interface","IDataManager interface [PLA]","CheckBeforeRunning property","IDataManager.CheckBeforeRunning","IDataManager.get_CheckBeforeRunning","IDataManager::CheckBeforeRunning","IDataManager::get_CheckBeforeRunning","IDataManager::put_CheckBeforeRunning","base.idatamanager_checkbeforerunning","get_CheckBeforeRunning","pla.idatamanager_checkbeforerunning","pla/IDataManager::CheckBeforeRunning","pla/IDataManager::get_CheckBeforeRunning","pla/IDataManager::put_CheckBeforeRunning"]
+description: Retrieves or sets a value that indicates whether the data manager should check imposed limits, such as the minimum available free disk space, before collecting data.
+helpviewer_keywords: ["CheckBeforeRunning property [PLA]","CheckBeforeRunning property [PLA]","IDataManager interface","IDataManager interface [PLA]","CheckBeforeRunning property","IDataManager.CheckBeforeRunning","IDataManager.get_CheckBeforeRunning","IDataManager::CheckBeforeRunning","IDataManager::get_CheckBeforeRunning","IDataManager::put_CheckBeforeRunning","base.idatamanager_checkbeforerunning","get_CheckBeforeRunning","pla.idatamanager_checkbeforerunning","pla/IDataManager::CheckBeforeRunning","pla/IDataManager::get_CheckBeforeRunning","pla/IDataManager::put_CheckBeforeRunning"]
 old-location: pla\idatamanager_checkbeforerunning.htm
 tech.root: PLA
 ms.assetid: 23c7aced-d159-4d5e-a9ff-f0ca5b3e4470

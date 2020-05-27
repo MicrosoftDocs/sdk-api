@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IkeextSaDbGetSecurityInfo0
 title: IkeextSaDbGetSecurityInfo0 function (fwpmu.h)
-description: The IkeextSaDbGetSecurityInfo0 function retrieves a copy of the security descriptor for a security association (SA) database.helpviewer_keywords: ["IkeextSaDbGetSecurityInfo0","IkeextSaDbGetSecurityInfo0 function [Filtering]","fwp.ikeextsadbgetsecurityinfo0","fwpmu/IkeextSaDbGetSecurityInfo0"]
+description: The IkeextSaDbGetSecurityInfo0 function retrieves a copy of the security descriptor for a security association (SA) database.
+helpviewer_keywords: ["IkeextSaDbGetSecurityInfo0","IkeextSaDbGetSecurityInfo0 function [Filtering]","fwp.ikeextsadbgetsecurityinfo0","fwpmu/IkeextSaDbGetSecurityInfo0"]
 old-location: fwp\ikeextsadbgetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: e84fef94-3e75-4812-8427-b20a023588fa

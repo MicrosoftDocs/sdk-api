@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnumInputProcessorInfo
 title: ITfInputProcessorProfiles::EnumInputProcessorInfo (msctf.h)
-description: ITfInputProcessorProfiles::EnumInputProcessorInfo methodhelpviewer_keywords: ["EnumInputProcessorInfo","EnumInputProcessorInfo method [Text Services Framework]","EnumInputProcessorInfo method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","EnumInputProcessorInfo method","ITfInputProcessorProfiles.EnumInputProcessorInfo","ITfInputProcessorProfiles::EnumInputProcessorInfo","_tsf_itfinputprocessorprofiles_enuminputprocessorinfo_ref","msctf/ITfInputProcessorProfiles::EnumInputProcessorInfo","tsf.itfinputprocessorprofiles_enuminputprocessorinfo"]
+description: ITfInputProcessorProfiles::EnumInputProcessorInfo method
+helpviewer_keywords: ["EnumInputProcessorInfo","EnumInputProcessorInfo method [Text Services Framework]","EnumInputProcessorInfo method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","EnumInputProcessorInfo method","ITfInputProcessorProfiles.EnumInputProcessorInfo","ITfInputProcessorProfiles::EnumInputProcessorInfo","_tsf_itfinputprocessorprofiles_enuminputprocessorinfo_ref","msctf/ITfInputProcessorProfiles::EnumInputProcessorInfo","tsf.itfinputprocessorprofiles_enuminputprocessorinfo"]
 old-location: tsf\itfinputprocessorprofiles_enuminputprocessorinfo.htm
 tech.root: TSF
 ms.assetid: 55b85ff3-35da-4126-861a-2aa4e2e8422f

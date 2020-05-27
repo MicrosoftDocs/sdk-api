@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.Enter
 title: ID3D11Multithread::Enter (d3d11_4.h)
-description: Enter a device's critical section.helpviewer_keywords: ["Enter","Enter method [Direct3D 11]","Enter method [Direct3D 11]","ID3D11Multithread interface","ID3D11Multithread interface [Direct3D 11]","Enter method","ID3D11Multithread.Enter","ID3D11Multithread::Enter","d3d11_4/ID3D11Multithread::Enter","direct3d11.id3d11multithread_enter"]
+description: Enter a device's critical section.
+helpviewer_keywords: ["Enter","Enter method [Direct3D 11]","Enter method [Direct3D 11]","ID3D11Multithread interface","ID3D11Multithread interface [Direct3D 11]","Enter method","ID3D11Multithread.Enter","ID3D11Multithread::Enter","d3d11_4/ID3D11Multithread::Enter","direct3d11.id3d11multithread_enter"]
 old-location: direct3d11\id3d11multithread_enter.htm
 tech.root: direct3d11
 ms.assetid: A742D03A-0A47-4B08-952A-836A272D1519

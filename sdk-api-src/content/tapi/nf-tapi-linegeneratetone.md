@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineGenerateTone
 title: lineGenerateTone function (tapi.h)
-description: The lineGenerateTone function generates the specified inband tone over the specified call.helpviewer_keywords: ["_tapi2_linegeneratetone","lineGenerateTone","lineGenerateTone function [TAPI 2.2]","tapi/lineGenerateTone","tapi2.linegeneratetone"]
+description: The lineGenerateTone function generates the specified inband tone over the specified call.
+helpviewer_keywords: ["_tapi2_linegeneratetone","lineGenerateTone","lineGenerateTone function [TAPI 2.2]","tapi/lineGenerateTone","tapi2.linegeneratetone"]
 old-location: tapi2\linegeneratetone.htm
 tech.root: Tapi
 ms.assetid: d5975bd0-2406-45a8-9631-80f40a860204

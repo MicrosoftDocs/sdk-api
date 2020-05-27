@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent.OverlayUnavailable
 title: IMSVidVideoRendererEvent::OverlayUnavailable (segment.h)
-description: This topic applies to Windows XP or later.helpviewer_keywords: ["IMSVidVideoRendererEvent interface [Microsoft TV Technologies]","OverlayUnavailable method","IMSVidVideoRendererEvent.OverlayUnavailable","IMSVidVideoRendererEvent::OverlayUnavailable","IMSVidVideoRendererEventOverlayUnavailable","OverlayUnavailable","OverlayUnavailable method [Microsoft TV Technologies]","OverlayUnavailable method [Microsoft TV Technologies]","IMSVidVideoRendererEvent interface","mstv.imsvidvideorendererevent_overlayunavailable","segment/IMSVidVideoRendererEvent::OverlayUnavailable"]
+description: This topic applies to Windows XP or later.
+helpviewer_keywords: ["IMSVidVideoRendererEvent interface [Microsoft TV Technologies]","OverlayUnavailable method","IMSVidVideoRendererEvent.OverlayUnavailable","IMSVidVideoRendererEvent::OverlayUnavailable","IMSVidVideoRendererEventOverlayUnavailable","OverlayUnavailable","OverlayUnavailable method [Microsoft TV Technologies]","OverlayUnavailable method [Microsoft TV Technologies]","IMSVidVideoRendererEvent interface","mstv.imsvidvideorendererevent_overlayunavailable","segment/IMSVidVideoRendererEvent::OverlayUnavailable"]
 old-location: mstv\imsvidvideorendererevent_overlayunavailable.htm
 tech.root: mstv
 ms.assetid: cb58e84f-1a45-4b72-aafd-d7a80a4b5b9d

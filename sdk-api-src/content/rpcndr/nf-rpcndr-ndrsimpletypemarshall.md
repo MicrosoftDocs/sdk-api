@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrSimpleTypeMarshall
 title: NdrSimpleTypeMarshall function (rpcndr.h)
-description: The NdrSimpleTypeMarshall function marshalls a simple type.helpviewer_keywords: ["NdrSimpleTypeMarshall","NdrSimpleTypeMarshall function [RPC]","rpc.ndrsimpletypemarshall","rpcndr/NdrSimpleTypeMarshall"]
+description: The NdrSimpleTypeMarshall function marshalls a simple type.
+helpviewer_keywords: ["NdrSimpleTypeMarshall","NdrSimpleTypeMarshall function [RPC]","rpc.ndrsimpletypemarshall","rpcndr/NdrSimpleTypeMarshall"]
 old-location: rpc\ndrsimpletypemarshall.htm
 tech.root: Rpc
 ms.assetid: af2bea36-d576-4144-8e21-3f89772465ed

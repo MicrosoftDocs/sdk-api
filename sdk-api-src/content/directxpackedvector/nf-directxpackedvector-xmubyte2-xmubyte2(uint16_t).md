@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(uint16_t)
 title: XMUBYTE2::XMUBYTE2(uint16_t) (directxpackedvector.h)
-description: A constructor for XMUBYTE2.helpviewer_keywords: ["XMUBYTE2","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 structure","XMUBYTE2 structure [DirectX Math Support APIs]","XMUBYTE2 constructor","XMUBYTE2.XMUBYTE2","XMUBYTE2.XMUBYTE2()","XMUBYTE2.XMUBYTE2(uint16_t)","XMUBYTE2::XMUBYTE2","XMUBYTE2::XMUBYTE2(uint16_t)","dxmath.xmubyte2_ctor_1"]
+description: A constructor for XMUBYTE2.
+helpviewer_keywords: ["XMUBYTE2","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 structure","XMUBYTE2 structure [DirectX Math Support APIs]","XMUBYTE2 constructor","XMUBYTE2.XMUBYTE2","XMUBYTE2.XMUBYTE2()","XMUBYTE2.XMUBYTE2(uint16_t)","XMUBYTE2::XMUBYTE2","XMUBYTE2::XMUBYTE2(uint16_t)","dxmath.xmubyte2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 

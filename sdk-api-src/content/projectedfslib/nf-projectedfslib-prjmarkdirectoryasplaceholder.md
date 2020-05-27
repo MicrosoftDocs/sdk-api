@@ -1,7 +1,8 @@
 ---
 UID: NF:projectedfslib.PrjMarkDirectoryAsPlaceholder
 title: PrjMarkDirectoryAsPlaceholder function (projectedfslib.h)
-description: Converts an existing directory to a directory placeholder.helpviewer_keywords: ["PrjMarkDirectoryAsPlaceholder","PrjMarkDirectoryAsPlaceholder function","ProjFS.prjmarkdirectoryasplaceholder","projectedfslib/PrjMarkDirectoryAsPlaceholder"]
+description: Converts an existing directory to a directory placeholder.
+helpviewer_keywords: ["PrjMarkDirectoryAsPlaceholder","PrjMarkDirectoryAsPlaceholder function","ProjFS.prjmarkdirectoryasplaceholder","projectedfslib/PrjMarkDirectoryAsPlaceholder"]
 old-location: projfs\prjmarkdirectoryasplaceholder.htm
 tech.root: ProjFS
 ms.assetid: 6C92275E-B9A6-4556-A709-8EFBAEDB94B5

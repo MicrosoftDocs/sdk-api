@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_AudioHasPreemphasis
 title: IRawCDImageTrackInfo::get_AudioHasPreemphasis (imapi2.h)
-description: Retrieves the value that specifies if an audio track has an additional pre-emphasis added to the audio data.helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_AudioHasPreemphasis method","IRawCDImageTrackInfo.get_AudioHasPreemphasis","IRawCDImageTrackInfo::get_AudioHasPreemphasis","get_AudioHasPreemphasis","get_AudioHasPreemphasis method [IMAPI]","get_AudioHasPreemphasis method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_audiohaspreemphasis","imapi2/IRawCDImageTrackInfo::get_AudioHasPreemphasis"]
+description: Retrieves the value that specifies if an audio track has an additional pre-emphasis added to the audio data.
+helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_AudioHasPreemphasis method","IRawCDImageTrackInfo.get_AudioHasPreemphasis","IRawCDImageTrackInfo::get_AudioHasPreemphasis","get_AudioHasPreemphasis","get_AudioHasPreemphasis method [IMAPI]","get_AudioHasPreemphasis method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_audiohaspreemphasis","imapi2/IRawCDImageTrackInfo::get_AudioHasPreemphasis"]
 old-location: imapi\irawcdimagetrackinfo_get_audiohaspreemphasis.htm
 tech.root: imapi
 ms.assetid: 3e322485-4542-4229-9b3e-17c9774d14b5

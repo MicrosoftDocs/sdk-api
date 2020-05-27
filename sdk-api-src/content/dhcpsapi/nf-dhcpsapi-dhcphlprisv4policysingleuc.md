@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprIsV4PolicySingleUC
 title: DhcpHlprIsV4PolicySingleUC function (dhcpsapi.h)
-description: Verifies that a DHCP server policy is based on a single user class.helpviewer_keywords: ["DhcpHlprIsV4PolicySingleUC","DhcpHlprIsV4PolicySingleUC function [DHCP]","dhcp.dhcphlprisv4policysingleuc","dhcpsapi/DhcpHlprIsV4PolicySingleUC"]
+description: Verifies that a DHCP server policy is based on a single user class.
+helpviewer_keywords: ["DhcpHlprIsV4PolicySingleUC","DhcpHlprIsV4PolicySingleUC function [DHCP]","dhcp.dhcphlprisv4policysingleuc","dhcpsapi/DhcpHlprIsV4PolicySingleUC"]
 old-location: dhcp\dhcphlprisv4policysingleuc.htm
 tech.root: DHCP
 ms.assetid: 46c20727-0e7a-42cf-a571-c1198b124ed0

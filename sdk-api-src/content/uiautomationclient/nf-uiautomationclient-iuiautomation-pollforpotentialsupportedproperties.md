@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.PollForPotentialSupportedProperties
 title: IUIAutomation::PollForPotentialSupportedProperties (uiautomationclient.h)
-description: Retrieves the properties that might be supported on a UI Automation element.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","PollForPotentialSupportedProperties method","IUIAutomation.PollForPotentialSupportedProperties","IUIAutomation::PollForPotentialSupportedProperties","PollForPotentialSupportedProperties","PollForPotentialSupportedProperties method [Windows Accessibility]","PollForPotentialSupportedProperties method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties","uiauto_IUIAutomation_PollForPotentialSupportedProperties","uiautomationclient/IUIAutomation::PollForPotentialSupportedProperties","winauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties"]
+description: Retrieves the properties that might be supported on a UI Automation element.
+helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","PollForPotentialSupportedProperties method","IUIAutomation.PollForPotentialSupportedProperties","IUIAutomation::PollForPotentialSupportedProperties","PollForPotentialSupportedProperties","PollForPotentialSupportedProperties method [Windows Accessibility]","PollForPotentialSupportedProperties method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties","uiauto_IUIAutomation_PollForPotentialSupportedProperties","uiautomationclient/IUIAutomation::PollForPotentialSupportedProperties","winauto.uiauto_IUIAutomation_PollForPotentialSupportedProperties"]
 old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedProperties.htm
 tech.root: WinAuto
 ms.assetid: 2cb78604-3c61-4362-9d8a-e40d5ddb4047

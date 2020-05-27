@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IAMStats.get_Count
 title: IAMStats::get_Count (control.h)
-description: The get_Count method retrieves the number of statistics.helpviewer_keywords: ["IAMStats interface [DirectShow]","get_Count method","IAMStats.get_Count","IAMStats::get_Count","IAMStatsget_Count","control/IAMStats::get_Count","dshow.iamstats_get_count","get_Count","get_Count method [DirectShow]","get_Count method [DirectShow]","IAMStats interface"]
+description: The get_Count method retrieves the number of statistics.
+helpviewer_keywords: ["IAMStats interface [DirectShow]","get_Count method","IAMStats.get_Count","IAMStats::get_Count","IAMStatsget_Count","control/IAMStats::get_Count","dshow.iamstats_get_count","get_Count","get_Count method [DirectShow]","get_Count method [DirectShow]","IAMStats interface"]
 old-location: dshow\iamstats_get_count.htm
 tech.root: DirectShow
 ms.assetid: 48f2543a-7c93-4d4f-a568-b8066e9545fd

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPLibrary2
 title: IWMPLibrary2 (wmp.h)
-description: The IWMPLibrary2 interface represents a media library.helpviewer_keywords: ["IWMPLibrary2","IWMPLibrary2 interface [Windows Media Player]","IWMPLibrary2 interface [Windows Media Player]","described","wmp.iwmplibrary2","wmp/IWMPLibrary2"]
+description: The IWMPLibrary2 interface represents a media library.
+helpviewer_keywords: ["IWMPLibrary2","IWMPLibrary2 interface [Windows Media Player]","IWMPLibrary2 interface [Windows Media Player]","described","wmp.iwmplibrary2","wmp/IWMPLibrary2"]
 old-location: wmp\iwmplibrary2.htm
 tech.root: WMP
 ms.assetid: 028250e7-7415-4643-b798-af0112c1ea93

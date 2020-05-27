@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Version
 title: IRegistrationInfo::get_Version (taskschd.h)
-description: Gets or sets the version number of the task.helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","Version property","IRegistrationInfo.Version","IRegistrationInfo.get_Version","IRegistrationInfo::Version","IRegistrationInfo::get_Version","IRegistrationInfo::put_Version","Version property [Task Scheduler]","Version property [Task Scheduler]","IRegistrationInfo interface","get_Version","taskschd.iregistrationinfo_version","taskschd/IRegistrationInfo::Version","taskschd/IRegistrationInfo::get_Version","taskschd/IRegistrationInfo::put_Version"]
+description: Gets or sets the version number of the task.
+helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","Version property","IRegistrationInfo.Version","IRegistrationInfo.get_Version","IRegistrationInfo::Version","IRegistrationInfo::get_Version","IRegistrationInfo::put_Version","Version property [Task Scheduler]","Version property [Task Scheduler]","IRegistrationInfo interface","get_Version","taskschd.iregistrationinfo_version","taskschd/IRegistrationInfo::Version","taskschd/IRegistrationInfo::get_Version","taskschd/IRegistrationInfo::put_Version"]
 old-location: taskschd\iregistrationinfo_version.htm
 tech.root: taskschd
 ms.assetid: e2305dbd-bb81-4854-86bd-d0c4f3cf78a1

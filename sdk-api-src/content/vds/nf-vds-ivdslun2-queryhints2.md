@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsLun2.QueryHints2
 title: IVdsLun2::QueryHints2 (vds.h)
-description: Returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.helpviewer_keywords: ["IVdsLun2 interface","QueryHints2 method","IVdsLun2.QueryHints2","IVdsLun2::QueryHints2","QueryHints2","QueryHints2 method","QueryHints2 method","IVdsLun2 interface","base.ivdslun2_queryhints2","vds/IVdsLun2::QueryHints2","vdshwprv/IVdsLun2::QueryHints2"]
+description: Returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
+helpviewer_keywords: ["IVdsLun2 interface","QueryHints2 method","IVdsLun2.QueryHints2","IVdsLun2::QueryHints2","QueryHints2","QueryHints2 method","QueryHints2 method","IVdsLun2 interface","base.ivdslun2_queryhints2","vds/IVdsLun2::QueryHints2","vdshwprv/IVdsLun2::QueryHints2"]
 old-location: base\ivdslun2_queryhints2.htm
 tech.root: VDS
 ms.assetid: 077d200a-2eab-4dbe-b7b9-873061fa2c4b

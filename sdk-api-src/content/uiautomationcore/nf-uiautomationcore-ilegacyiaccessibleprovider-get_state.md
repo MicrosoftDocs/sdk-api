@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_State
 title: ILegacyIAccessibleProvider::get_State (uiautomationcore.h)
-description: Specifies the state of this element.helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","State property","ILegacyIAccessibleProvider.State","ILegacyIAccessibleProvider.get_State","ILegacyIAccessibleProvider::State","ILegacyIAccessibleProvider::get_State","State property [Windows Accessibility]","State property [Windows Accessibility]","ILegacyIAccessibleProvider interface","get_State","uiauto.uiauto_ILegacyIAccessibleProvider_State","uiauto_ILegacyIAccessibleProvider_State","uiautomationcore/ILegacyIAccessibleProvider::State","uiautomationcore/ILegacyIAccessibleProvider::get_State","winauto.uiauto_ILegacyIAccessibleProvider_State"]
+description: Specifies the state of this element.
+helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","State property","ILegacyIAccessibleProvider.State","ILegacyIAccessibleProvider.get_State","ILegacyIAccessibleProvider::State","ILegacyIAccessibleProvider::get_State","State property [Windows Accessibility]","State property [Windows Accessibility]","ILegacyIAccessibleProvider interface","get_State","uiauto.uiauto_ILegacyIAccessibleProvider_State","uiauto_ILegacyIAccessibleProvider_State","uiautomationcore/ILegacyIAccessibleProvider::State","uiautomationcore/ILegacyIAccessibleProvider::get_State","winauto.uiauto_ILegacyIAccessibleProvider_State"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_State.htm
 tech.root: WinAuto
 ms.assetid: fe1a3ffe-b532-4bb4-850f-032fa32e4c56

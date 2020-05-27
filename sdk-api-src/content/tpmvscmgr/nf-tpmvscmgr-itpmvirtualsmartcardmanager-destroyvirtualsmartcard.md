@@ -1,7 +1,8 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard (tpmvscmgr.h)
-description: Destroys the TPM virtual smart card that has the given instance ID.helpviewer_keywords: ["DestroyVirtualSmartCard","DestroyVirtualSmartCard method [Security]","DestroyVirtualSmartCard method [Security]","ITpmVirtualSmartCardManager interface","ITpmVirtualSmartCardManager interface [Security]","DestroyVirtualSmartCard method","ITpmVirtualSmartCardManager.DestroyVirtualSmartCard","ITpmVirtualSmartCardManager::DestroyVirtualSmartCard","security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard","tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard"]
+description: Destroys the TPM virtual smart card that has the given instance ID.
+helpviewer_keywords: ["DestroyVirtualSmartCard","DestroyVirtualSmartCard method [Security]","DestroyVirtualSmartCard method [Security]","ITpmVirtualSmartCardManager interface","ITpmVirtualSmartCardManager interface [Security]","DestroyVirtualSmartCard method","ITpmVirtualSmartCardManager.DestroyVirtualSmartCard","ITpmVirtualSmartCardManager::DestroyVirtualSmartCard","security.itpmvirtualsmartcardmanager_destroyvirtualsmartcard","tpmvscmgr/ITpmVirtualSmartCardManager::DestroyVirtualSmartCard"]
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
 tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D

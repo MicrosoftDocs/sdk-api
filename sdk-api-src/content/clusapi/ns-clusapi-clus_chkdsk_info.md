@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._CLUS_CHKDSK_INFO
 title: CLUS_CHKDSK_INFO (clusapi.h)
-description: Represents information about a Chkdsk operation.helpviewer_keywords: ["*PCLUS_CHKDSK_INFO","CLUS_CHKDSK_INFO","CLUS_CHKDSK_INFO structure [Failover Cluster]","PCLUS_CHKDSK_INFO","PCLUS_CHKDSK_INFO structure pointer [Failover Cluster]","clusapi/CLUS_CHKDSK_INFO","clusapi/PCLUS_CHKDSK_INFO","mscs.clus_chkdsk_info"]
+description: Represents information about a Chkdsk operation.
+helpviewer_keywords: ["*PCLUS_CHKDSK_INFO","CLUS_CHKDSK_INFO","CLUS_CHKDSK_INFO structure [Failover Cluster]","PCLUS_CHKDSK_INFO","PCLUS_CHKDSK_INFO structure pointer [Failover Cluster]","clusapi/CLUS_CHKDSK_INFO","clusapi/PCLUS_CHKDSK_INFO","mscs.clus_chkdsk_info"]
 old-location: mscs\clus_chkdsk_info.htm
 tech.root: MsCS
 ms.assetid: 455DD59C-B54D-4B42-B661-2E3994E69718

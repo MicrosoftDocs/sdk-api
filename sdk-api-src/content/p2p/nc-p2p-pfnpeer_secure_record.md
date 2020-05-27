@@ -1,7 +1,8 @@
 ---
 UID: NC:p2p.PFNPEER_SECURE_RECORD
 title: PFNPEER_SECURE_RECORD (p2p.h)
-description: The PFNPEER_SECURE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to secure records.helpviewer_keywords: ["PFNPEER_SECURE_RECORD","PFNPEER_SECURE_RECORD callback","PFNPEER_SECURE_RECORD callback function [Peer Networking]","p2p.pfnpeer_secure_record","p2p/PFNPEER_SECURE_RECORD"]
+description: The PFNPEER_SECURE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to secure records.
+helpviewer_keywords: ["PFNPEER_SECURE_RECORD","PFNPEER_SECURE_RECORD callback","PFNPEER_SECURE_RECORD callback function [Peer Networking]","p2p.pfnpeer_secure_record","p2p/PFNPEER_SECURE_RECORD"]
 old-location: p2p\pfnpeer_secure_record.htm
 tech.root: P2PSdk
 ms.assetid: 454b40f6-a7de-4b59-ae35-a809c4510133

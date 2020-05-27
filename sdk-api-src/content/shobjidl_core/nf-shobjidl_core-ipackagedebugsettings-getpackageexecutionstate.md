@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.GetPackageExecutionState
 title: IPackageDebugSettings::GetPackageExecutionState (shobjidl_core.h)
-description: Returns the current execution state of the specified package.helpviewer_keywords: ["GetPackageExecutionState","GetPackageExecutionState method [Windows Shell]","GetPackageExecutionState method [Windows Shell]","IPackageDebugSettings interface","IPackageDebugSettings interface [Windows Shell]","GetPackageExecutionState method","IPackageDebugSettings.GetPackageExecutionState","IPackageDebugSettings::GetPackageExecutionState","shell.IPackageDebugSettings_GetPackageExecutionState","shobjidl_core/IPackageDebugSettings::GetPackageExecutionState"]
+description: Returns the current execution state of the specified package.
+helpviewer_keywords: ["GetPackageExecutionState","GetPackageExecutionState method [Windows Shell]","GetPackageExecutionState method [Windows Shell]","IPackageDebugSettings interface","IPackageDebugSettings interface [Windows Shell]","GetPackageExecutionState method","IPackageDebugSettings.GetPackageExecutionState","IPackageDebugSettings::GetPackageExecutionState","shell.IPackageDebugSettings_GetPackageExecutionState","shobjidl_core/IPackageDebugSettings::GetPackageExecutionState"]
 old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm
 tech.root: shell
 ms.assetid: 39560adc-9d35-48ec-8b70-2ed4b83dd1f6

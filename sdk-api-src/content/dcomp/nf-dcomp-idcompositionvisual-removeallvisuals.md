@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.RemoveAllVisuals
 title: IDCompositionVisual::RemoveAllVisuals (dcomp.h)
-description: Removes all visuals from the children list of this visual.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","RemoveAllVisuals method","IDCompositionVisual.RemoveAllVisuals","IDCompositionVisual::RemoveAllVisuals","RemoveAllVisuals","RemoveAllVisuals method [DirectComposition]","RemoveAllVisuals method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::RemoveAllVisuals","directcomp.idcompositionvisual_removeallvisuals"]
+description: Removes all visuals from the children list of this visual.
+helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","RemoveAllVisuals method","IDCompositionVisual.RemoveAllVisuals","IDCompositionVisual::RemoveAllVisuals","RemoveAllVisuals","RemoveAllVisuals method [DirectComposition]","RemoveAllVisuals method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::RemoveAllVisuals","directcomp.idcompositionvisual_removeallvisuals"]
 old-location: directcomp\idcompositionvisual_removeallvisuals.htm
 tech.root: directcomp
 ms.assetid: b3872d6a-f3f8-4343-b01d-6db5490abb13

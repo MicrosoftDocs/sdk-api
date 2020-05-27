@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_VPCAPS
 title: DXVAHD_VPCAPS (dxvahd.h)
-description: Specifies the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.helpviewer_keywords: ["DXVAHD_VPCAPS","DXVAHD_VPCAPS structure [Media Foundation]","dxvahd/DXVAHD_VPCAPS","mf.dxvahd_vpcaps"]
+description: Specifies the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+helpviewer_keywords: ["DXVAHD_VPCAPS","DXVAHD_VPCAPS structure [Media Foundation]","dxvahd/DXVAHD_VPCAPS","mf.dxvahd_vpcaps"]
 old-location: mf\dxvahd_vpcaps.htm
 tech.root: medfound
 ms.assetid: 25ec6802-ca6e-42d4-b1d5-de7597e3d042

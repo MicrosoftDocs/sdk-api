@@ -1,7 +1,8 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_READ
 title: PFN_CRYPT_XML_DATA_PROVIDER_READ (cryptxml.h)
-description: Reads XML data.helpviewer_keywords: ["PFN_CRYPT_XML_DATA_PROVIDER_READ","PFN_CRYPT_XML_DATA_PROVIDER_READ callback","PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security]","cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ","security.pfn_crypt_xml_data_provider_read"]
+description: Reads XML data.
+helpviewer_keywords: ["PFN_CRYPT_XML_DATA_PROVIDER_READ","PFN_CRYPT_XML_DATA_PROVIDER_READ callback","PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security]","cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ","security.pfn_crypt_xml_data_provider_read"]
 old-location: security\pfn_crypt_xml_data_provider_read.htm
 tech.root: SecCrypto
 ms.assetid: 86c7003e-eee2-4adf-adf4-8f9d1acb5c45

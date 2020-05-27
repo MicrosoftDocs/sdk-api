@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetFillState
 title: AdjustableArrowCap::SetFillState (gdipluslinecaps.h)
-description: The AdjustableArrowCap::SetFillState method sets the fill state of the arrow cap. If the arrow cap is not filled, only the outline is drawn.helpviewer_keywords: ["AdjustableArrowCap class [GDI+]","SetFillState method","AdjustableArrowCap.SetFillState","AdjustableArrowCap::SetFillState","SetFillState","SetFillState method [GDI+]","SetFillState method [GDI+]","AdjustableArrowCap class","_gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_"]
+description: The AdjustableArrowCap::SetFillState method sets the fill state of the arrow cap. If the arrow cap is not filled, only the outline is drawn.
+helpviewer_keywords: ["AdjustableArrowCap class [GDI+]","SetFillState method","AdjustableArrowCap.SetFillState","AdjustableArrowCap::SetFillState","SetFillState","SetFillState method [GDI+]","SetFillState method [GDI+]","AdjustableArrowCap class","_gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setfillstate.htm

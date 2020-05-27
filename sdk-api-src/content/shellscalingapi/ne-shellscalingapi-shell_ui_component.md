@@ -1,7 +1,8 @@
 ---
 UID: NE:shellscalingapi.__unnamed_enum_2
 title: SHELL_UI_COMPONENT (shellscalingapi.h)
-description: Identifies the type of UI component that is needed in the shell.helpviewer_keywords: ["SHELL_UI_COMPONENT","SHELL_UI_COMPONENT enumeration [Windows Shell]","SHELL_UI_COMPONENT_DESKBAND","SHELL_UI_COMPONENT_NOTIFICATIONAREA","SHELL_UI_COMPONENT_TASKBARS","shell.shell_ui_component","shellscalingapi/SHELL_UI_COMPONENT","shellscalingapi/SHELL_UI_COMPONENT_DESKBAND","shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA","shellscalingapi/SHELL_UI_COMPONENT_TASKBARS"]
+description: Identifies the type of UI component that is needed in the shell.
+helpviewer_keywords: ["SHELL_UI_COMPONENT","SHELL_UI_COMPONENT enumeration [Windows Shell]","SHELL_UI_COMPONENT_DESKBAND","SHELL_UI_COMPONENT_NOTIFICATIONAREA","SHELL_UI_COMPONENT_TASKBARS","shell.shell_ui_component","shellscalingapi/SHELL_UI_COMPONENT","shellscalingapi/SHELL_UI_COMPONENT_DESKBAND","shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA","shellscalingapi/SHELL_UI_COMPONENT_TASKBARS"]
 old-location: shell\shell_ui_component.htm
 tech.root: shell
 ms.assetid: 40919C36-228A-4909-A517-8B152BE47D36

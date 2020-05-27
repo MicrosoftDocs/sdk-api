@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetColorSpace
 title: SetColorSpace function (wingdi.h)
-description: The SetColorSpace function defines the input color space for a given device context.helpviewer_keywords: ["SetColorSpace","SetColorSpace function [Windows Color System]","_color_SetColorSpace","wcs.setcolorspace","wingdi/SetColorSpace"]
+description: The SetColorSpace function defines the input color space for a given device context.
+helpviewer_keywords: ["SetColorSpace","SetColorSpace function [Windows Color System]","_color_SetColorSpace","wcs.setcolorspace","wingdi/SetColorSpace"]
 old-location: wcs\setcolorspace.htm
 tech.root: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743

@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetDatabaseState
 title: MsiGetDatabaseState function (msiquery.h)
-description: The MsiGetDatabaseState function returns the state of the database.helpviewer_keywords: ["MsiGetDatabaseState","MsiGetDatabaseState function","_msi_msigetdatabasestate","msiquery/MsiGetDatabaseState","setup.msigetdatabasestate"]
+description: The MsiGetDatabaseState function returns the state of the database.
+helpviewer_keywords: ["MsiGetDatabaseState","MsiGetDatabaseState function","_msi_msigetdatabasestate","msiquery/MsiGetDatabaseState","setup.msigetdatabasestate"]
 old-location: setup\msigetdatabasestate.htm
 tech.root: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329

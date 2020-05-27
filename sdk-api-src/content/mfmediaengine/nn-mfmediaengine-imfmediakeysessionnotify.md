@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeySessionNotify
 title: IMFMediaKeySessionNotify (mfmediaengine.h)
-description: Provides a mechanism for notifying the app about information regarding the media key session.helpviewer_keywords: ["IMFMediaKeySessionNotify","IMFMediaKeySessionNotify interface [Media Foundation]","IMFMediaKeySessionNotify interface [Media Foundation]","described","mf.imfmediakeysessionnotify","mfmediaengine/IMFMediaKeySessionNotify"]
+description: Provides a mechanism for notifying the app about information regarding the media key session.
+helpviewer_keywords: ["IMFMediaKeySessionNotify","IMFMediaKeySessionNotify interface [Media Foundation]","IMFMediaKeySessionNotify interface [Media Foundation]","described","mf.imfmediakeysessionnotify","mfmediaengine/IMFMediaKeySessionNotify"]
 old-location: mf\imfmediakeysessionnotify.htm
 tech.root: medfound
 ms.assetid: d28c16a8-4a74-40c3-be95-ff7e4b1cdc09

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.AcceptParentalLevelChange
 title: IDvdControl2::AcceptParentalLevelChange (strmif.h)
-description: The AcceptParentalLevelChange method accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.helpviewer_keywords: ["AcceptParentalLevelChange","AcceptParentalLevelChange method [DirectShow]","AcceptParentalLevelChange method [DirectShow]","IDvdControl2 interface","IDvdControl2 interface [DirectShow]","AcceptParentalLevelChange method","IDvdControl2.AcceptParentalLevelChange","IDvdControl2::AcceptParentalLevelChange","IDvdControl2AcceptParentalLevelChange","dshow.idvdcontrol2_acceptparentallevelchange","strmif/IDvdControl2::AcceptParentalLevelChange"]
+description: The AcceptParentalLevelChange method accepts or rejects a request from the DVD Navigator to play content at a higher parental management level.
+helpviewer_keywords: ["AcceptParentalLevelChange","AcceptParentalLevelChange method [DirectShow]","AcceptParentalLevelChange method [DirectShow]","IDvdControl2 interface","IDvdControl2 interface [DirectShow]","AcceptParentalLevelChange method","IDvdControl2.AcceptParentalLevelChange","IDvdControl2::AcceptParentalLevelChange","IDvdControl2AcceptParentalLevelChange","dshow.idvdcontrol2_acceptparentallevelchange","strmif/IDvdControl2::AcceptParentalLevelChange"]
 old-location: dshow\idvdcontrol2_acceptparentallevelchange.htm
 tech.root: DirectShow
 ms.assetid: a990544e-6600-44b1-91f2-8b88fa43ccaf

@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcproxy.tagProxyFileInfo
 title: ProxyFileInfo (rpcproxy.h)
-description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.helpviewer_keywords: ["ExtendedProxyFileInfo","ProxyFileInfo","ProxyFileInfo structure [RPC]","rpc.proxyfileinfo","rpcproxy/ProxyFileInfo"]
+description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.
+helpviewer_keywords: ["ExtendedProxyFileInfo","ProxyFileInfo","ProxyFileInfo structure [RPC]","rpc.proxyfileinfo","rpcproxy/ProxyFileInfo"]
 old-location: rpc\proxyfileinfo.htm
 tech.root: Rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401

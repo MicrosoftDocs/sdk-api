@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Discard
 title: IWdsTransportCacheable::Discard (wdstptmgmt.h)
-description: Discards all changes made to the object data members by clearing the IWdsTransportCacheable::Dirty property and then calling the object's IWdsTransportCacheable::Refresh method to reread the current object data.helpviewer_keywords: ["Discard","Discard method [Windows Deployment Services]","Discard method [Windows Deployment Services]","IWdsTransportCacheable interface","IWdsTransportCacheable interface [Windows Deployment Services]","Discard method","IWdsTransportCacheable.Discard","IWdsTransportCacheable::Discard","wds.iwdstransportcacheable_discard","wdstptmgmt/IWdsTransportCacheable::Discard"]
+description: Discards all changes made to the object data members by clearing the IWdsTransportCacheable::Dirty property and then calling the object's IWdsTransportCacheable::Refresh method to reread the current object data.
+helpviewer_keywords: ["Discard","Discard method [Windows Deployment Services]","Discard method [Windows Deployment Services]","IWdsTransportCacheable interface","IWdsTransportCacheable interface [Windows Deployment Services]","Discard method","IWdsTransportCacheable.Discard","IWdsTransportCacheable::Discard","wds.iwdstransportcacheable_discard","wdstptmgmt/IWdsTransportCacheable::Discard"]
 old-location: wds\iwdstransportcacheable_discard.htm
 tech.root: wds
 ms.assetid: 5c8495b9-6c76-4bb0-8237-5f9008cefc91

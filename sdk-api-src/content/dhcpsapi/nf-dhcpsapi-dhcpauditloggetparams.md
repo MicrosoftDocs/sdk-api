@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpAuditLogGetParams
 title: DhcpAuditLogGetParams function (dhcpsapi.h)
-description: Returns the audit log configuration settings from the DHCP server.helpviewer_keywords: ["DhcpAuditLogGetParams","DhcpAuditLogGetParams function [DHCP]","dhcp.dhcpauditloggetparams","dhcpsapi/DhcpAuditLogGetParams"]
+description: Returns the audit log configuration settings from the DHCP server.
+helpviewer_keywords: ["DhcpAuditLogGetParams","DhcpAuditLogGetParams function [DHCP]","dhcp.dhcpauditloggetparams","dhcpsapi/DhcpAuditLogGetParams"]
 old-location: dhcp\dhcpauditloggetparams.htm
 tech.root: DHCP
 ms.assetid: 3d0f8f06-d6a6-40b0-a3e8-0e155caee883

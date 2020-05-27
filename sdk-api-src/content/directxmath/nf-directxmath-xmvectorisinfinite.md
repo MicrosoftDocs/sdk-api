@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorIsInfinite
 title: XMVectorIsInfinite function (directxmath.h)
-description: Performs a per-component test for +/- infinity on a vector.helpviewer_keywords: ["Use DirectX..XMVectorIsInfinite","XMVectorIsInfinite","XMVectorIsInfinite method [DirectX Math Support APIs]","dxmath.xmvectorisinfinite"]
+description: Performs a per-component test for +/- infinity on a vector.
+helpviewer_keywords: ["Use DirectX..XMVectorIsInfinite","XMVectorIsInfinite","XMVectorIsInfinite method [DirectX Math Support APIs]","dxmath.xmvectorisinfinite"]
 old-location: dxmath\xmvectorisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorIsInfinite(XMVECTOR)

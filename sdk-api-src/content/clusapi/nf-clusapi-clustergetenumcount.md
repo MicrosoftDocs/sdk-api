@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterGetEnumCount
 title: ClusterGetEnumCount function (clusapi.h)
-description: Returns the number of cluster objects associated with a cluster enumeration handle.helpviewer_keywords: ["ClusterGetEnumCount","ClusterGetEnumCount function [Failover Cluster]","PCLUSAPI_CLUSTER_GET_ENUM_COUNT","PCLUSAPI_CLUSTER_GET_ENUM_COUNT function [Failover Cluster]","_wolf_clustergetenumcount","clusapi/ClusterGetEnumCount","clusapi/PCLUSAPI_CLUSTER_GET_ENUM_COUNT","mscs.clustergetenumcount"]
+description: Returns the number of cluster objects associated with a cluster enumeration handle.
+helpviewer_keywords: ["ClusterGetEnumCount","ClusterGetEnumCount function [Failover Cluster]","PCLUSAPI_CLUSTER_GET_ENUM_COUNT","PCLUSAPI_CLUSTER_GET_ENUM_COUNT function [Failover Cluster]","_wolf_clustergetenumcount","clusapi/ClusterGetEnumCount","clusapi/PCLUSAPI_CLUSTER_GET_ENUM_COUNT","mscs.clustergetenumcount"]
 old-location: mscs\clustergetenumcount.htm
 tech.root: MsCS
 ms.assetid: 1f99a1d8-6d91-4114-b885-80775572ea7f

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.SetResultOnStrokes
 title: IInkRecognitionResult::SetResultOnStrokes (msinkaut.h)
-description: Assigns the recognition results to the strokes that were used to create the results.helpviewer_keywords: ["928f6f39-1b8f-403a-8c18-0931c5a6dc5d","IInkRecognitionResult interface [Tablet PC]","SetResultOnStrokes method","IInkRecognitionResult.SetResultOnStrokes","IInkRecognitionResult::SetResultOnStrokes","SetResultOnStrokes","SetResultOnStrokes method [Tablet PC]","SetResultOnStrokes method [Tablet PC]","IInkRecognitionResult interface","msinkaut/IInkRecognitionResult::SetResultOnStrokes","tablet.iinkrecognitionresult_setresultonstrokes"]
+description: Assigns the recognition results to the strokes that were used to create the results.
+helpviewer_keywords: ["928f6f39-1b8f-403a-8c18-0931c5a6dc5d","IInkRecognitionResult interface [Tablet PC]","SetResultOnStrokes method","IInkRecognitionResult.SetResultOnStrokes","IInkRecognitionResult::SetResultOnStrokes","SetResultOnStrokes","SetResultOnStrokes method [Tablet PC]","SetResultOnStrokes method [Tablet PC]","IInkRecognitionResult interface","msinkaut/IInkRecognitionResult::SetResultOnStrokes","tablet.iinkrecognitionresult_setresultonstrokes"]
 old-location: tablet\iinkrecognitionresult_setresultonstrokes.htm
 tech.root: tablet
 ms.assetid: 928f6f39-1b8f-403a-8c18-0931c5a6dc5d

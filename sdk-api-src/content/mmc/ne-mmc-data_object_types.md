@@ -1,7 +1,8 @@
 ---
 UID: NE:mmc._DATA_OBJECT_TYPES
 title: DATA_OBJECT_TYPES (mmc.h)
-description: The DATA_OBJECT_TYPES enumeration is used by the type parameter of IComponentData::QueryDataObject and IComponent::QueryDataObject to obtain context information about a specified cookie.helpviewer_keywords: ["CCT_RESULT","CCT_SCOPE","CCT_SNAPIN_MANAGER","CCT_UNINITIALIZED","DATA_OBJECT_TYPES","DATA_OBJECT_TYPES enumeration [MMC]","_slate_data_object_types","mmc.data_object_types","mmc/CCT_RESULT","mmc/CCT_SCOPE","mmc/CCT_SNAPIN_MANAGER","mmc/CCT_UNINITIALIZED","mmc/DATA_OBJECT_TYPES"]
+description: The DATA_OBJECT_TYPES enumeration is used by the type parameter of IComponentData::QueryDataObject and IComponent::QueryDataObject to obtain context information about a specified cookie.
+helpviewer_keywords: ["CCT_RESULT","CCT_SCOPE","CCT_SNAPIN_MANAGER","CCT_UNINITIALIZED","DATA_OBJECT_TYPES","DATA_OBJECT_TYPES enumeration [MMC]","_slate_data_object_types","mmc.data_object_types","mmc/CCT_RESULT","mmc/CCT_SCOPE","mmc/CCT_SNAPIN_MANAGER","mmc/CCT_UNINITIALIZED","mmc/DATA_OBJECT_TYPES"]
 old-location: mmc\data_object_types.htm
 tech.root: mmc
 ms.assetid: 6f1cb622-b066-4208-9e25-cdd7e9c4dcd2

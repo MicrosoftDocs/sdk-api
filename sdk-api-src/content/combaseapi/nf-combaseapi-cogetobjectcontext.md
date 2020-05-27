@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetObjectContext
 title: CoGetObjectContext function (combaseapi.h)
-description: Returns the context for the current object.helpviewer_keywords: ["CoGetObjectContext","CoGetObjectContext function [COM]","_com_CoGetObjectContext","com.cogetobjectcontext","combaseapi/CoGetObjectContext"]
+description: Returns the context for the current object.
+helpviewer_keywords: ["CoGetObjectContext","CoGetObjectContext function [COM]","_com_CoGetObjectContext","com.cogetobjectcontext","combaseapi/CoGetObjectContext"]
 old-location: com\cogetobjectcontext.htm
 tech.root: com
 ms.assetid: 97a0c6c3-a011-44dc-b428-aabdad7d4364

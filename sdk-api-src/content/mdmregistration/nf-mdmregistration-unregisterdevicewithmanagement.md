@@ -1,7 +1,8 @@
 ---
 UID: NF:mdmregistration.UnregisterDeviceWithManagement
 title: UnregisterDeviceWithManagement function (mdmregistration.h)
-description: Unregisters a device with the MDM service.helpviewer_keywords: ["UnregisterDeviceWithManagement","UnregisterDeviceWithManagement function [MDM Registration]","mdmreg.unregisterdevicewithmanagement","mdmregistration/UnregisterDeviceWithManagement"]
+description: Unregisters a device with the MDM service.
+helpviewer_keywords: ["UnregisterDeviceWithManagement","UnregisterDeviceWithManagement function [MDM Registration]","mdmreg.unregisterdevicewithmanagement","mdmregistration/UnregisterDeviceWithManagement"]
 old-location: mdmreg\unregisterdevicewithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 4095197d-40c9-4f51-b28f-fd2fd6d0bba2

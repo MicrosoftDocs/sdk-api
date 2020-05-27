@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFactory.GetSystemFontCollection
 title: IDWriteFactory::GetSystemFontCollection (dwrite.h)
-description: Gets an object which represents the set of installed fonts.helpviewer_keywords: ["GetSystemFontCollection","GetSystemFontCollection method [Direct Write]","GetSystemFontCollection method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","GetSystemFontCollection method","IDWriteFactory.GetSystemFontCollection","IDWriteFactory::GetSystemFontCollection","directwrite.IDWriteFactory_GetSystemFontCollection","dwrite/IDWriteFactory::GetSystemFontCollection"]
+description: Gets an object which represents the set of installed fonts.
+helpviewer_keywords: ["GetSystemFontCollection","GetSystemFontCollection method [Direct Write]","GetSystemFontCollection method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","GetSystemFontCollection method","IDWriteFactory.GetSystemFontCollection","IDWriteFactory::GetSystemFontCollection","directwrite.IDWriteFactory_GetSystemFontCollection","dwrite/IDWriteFactory::GetSystemFontCollection"]
 old-location: directwrite\IDWriteFactory_GetSystemFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: 4f5cbea1-9775-4266-aa3c-7c15892d61b1

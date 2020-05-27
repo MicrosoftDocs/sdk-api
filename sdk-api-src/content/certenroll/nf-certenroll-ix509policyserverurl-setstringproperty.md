@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.SetStringProperty
 title: IX509PolicyServerUrl::SetStringProperty (certenroll.h)
-description: Specifies the certificate enrollment policy (CEP) server ID or the display name of the CEP server.helpviewer_keywords: ["IX509PolicyServerUrl interface [Security]","SetStringProperty method","IX509PolicyServerUrl.SetStringProperty","IX509PolicyServerUrl::SetStringProperty","PsFriendlyName","PsPolicyID","SetStringProperty","SetStringProperty method [Security]","SetStringProperty method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::SetStringProperty","security.ix509policyserverurl_setstringproperty"]
+description: Specifies the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
+helpviewer_keywords: ["IX509PolicyServerUrl interface [Security]","SetStringProperty method","IX509PolicyServerUrl.SetStringProperty","IX509PolicyServerUrl::SetStringProperty","PsFriendlyName","PsPolicyID","SetStringProperty","SetStringProperty method [Security]","SetStringProperty method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::SetStringProperty","security.ix509policyserverurl_setstringproperty"]
 old-location: security\ix509policyserverurl_setstringproperty.htm
 tech.root: seccertenroll
 ms.assetid: b02ca192-274a-4d15-8c16-4975134c92b4

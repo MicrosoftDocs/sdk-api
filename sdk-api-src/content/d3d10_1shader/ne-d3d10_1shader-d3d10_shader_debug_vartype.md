@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_VARTYPE
 title: D3D10_SHADER_DEBUG_VARTYPE (d3d10_1shader.h)
-description: Distinguishes variables from functions in a scope.helpviewer_keywords: ["D3D10_SHADER_DEBUG_VARTYPE","D3D10_SHADER_DEBUG_VARTYPE enumeration [Direct3D 10]","D3D10_SHADER_DEBUG_VAR_FORCE_DWORD","D3D10_SHADER_DEBUG_VAR_FUNCTION","D3D10_SHADER_DEBUG_VAR_VARIABLE","b5386346-ff95-5c6c-abe3-00938e5aa5ea","d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FORCE_DWORD","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FUNCTION","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_VARIABLE","direct3d10.d3d10_shader_debug_vartype"]
+description: Distinguishes variables from functions in a scope.
+helpviewer_keywords: ["D3D10_SHADER_DEBUG_VARTYPE","D3D10_SHADER_DEBUG_VARTYPE enumeration [Direct3D 10]","D3D10_SHADER_DEBUG_VAR_FORCE_DWORD","D3D10_SHADER_DEBUG_VAR_FUNCTION","D3D10_SHADER_DEBUG_VAR_VARIABLE","b5386346-ff95-5c6c-abe3-00938e5aa5ea","d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FORCE_DWORD","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FUNCTION","d3d10_1shader/D3D10_SHADER_DEBUG_VAR_VARIABLE","direct3d10.d3d10_shader_debug_vartype"]
 old-location: direct3d10\d3d10_shader_debug_vartype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_vartype.htm

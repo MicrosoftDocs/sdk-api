@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.waveOutGetVolume
 title: waveOutGetVolume function (mmeapi.h)
-description: The waveOutGetVolume function retrieves the current volume level of the specified waveform-audio output device.helpviewer_keywords: ["_win32_waveOutGetVolume","mmeapi/waveOutGetVolume","multimedia.waveoutgetvolume","waveOutGetVolume","waveOutGetVolume function [Windows Multimedia]"]
+description: The waveOutGetVolume function retrieves the current volume level of the specified waveform-audio output device.
+helpviewer_keywords: ["_win32_waveOutGetVolume","mmeapi/waveOutGetVolume","multimedia.waveoutgetvolume","waveOutGetVolume","waveOutGetVolume function [Windows Multimedia]"]
 old-location: multimedia\waveoutgetvolume.htm
 tech.root: Multimedia
 ms.assetid: 7f1b3ae0-8890-49f7-b249-bab934095cca

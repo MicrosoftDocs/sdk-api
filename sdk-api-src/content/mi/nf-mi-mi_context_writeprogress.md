@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_WriteProgress
 title: MI_Context_WriteProgress function (mi.h)
-description: Sends a progress message to the client.helpviewer_keywords: ["MI_Context_WriteProgress","MI_Context_WriteProgress function [Windows Management Infrastructure (MI)]","mi/MI_Context_WriteProgress","wmi.mi_writeprogress","wmi_v2.mi_context_writeprogress"]
+description: Sends a progress message to the client.
+helpviewer_keywords: ["MI_Context_WriteProgress","MI_Context_WriteProgress function [Windows Management Infrastructure (MI)]","mi/MI_Context_WriteProgress","wmi.mi_writeprogress","wmi_v2.mi_context_writeprogress"]
 old-location: wmi_v2\mi_context_writeprogress.htm
 tech.root: wmi_v2
 ms.assetid: 260d46f3-b048-4278-acde-724323166ba2

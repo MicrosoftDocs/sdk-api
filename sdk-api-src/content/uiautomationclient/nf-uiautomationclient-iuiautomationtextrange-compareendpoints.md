@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.CompareEndpoints
 title: IUIAutomationTextRange::CompareEndpoints (uiautomationclient.h)
-description: Retrieves a value that specifies whether the start or end endpoint of this text range is the same as the start or end endpoint of another text range.helpviewer_keywords: ["CompareEndpoints","CompareEndpoints method [Windows Accessibility]","CompareEndpoints method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","CompareEndpoints method","IUIAutomationTextRange.CompareEndpoints","IUIAutomationTextRange::CompareEndpoints","uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints","uiauto_IUIAutomationTextRange_CompareEndpoints","uiautomationclient/IUIAutomationTextRange::CompareEndpoints","winauto.uiauto_IUIAutomationTextRange_CompareEndpoints"]
+description: Retrieves a value that specifies whether the start or end endpoint of this text range is the same as the start or end endpoint of another text range.
+helpviewer_keywords: ["CompareEndpoints","CompareEndpoints method [Windows Accessibility]","CompareEndpoints method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","CompareEndpoints method","IUIAutomationTextRange.CompareEndpoints","IUIAutomationTextRange::CompareEndpoints","uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints","uiauto_IUIAutomationTextRange_CompareEndpoints","uiautomationclient/IUIAutomationTextRange::CompareEndpoints","winauto.uiauto_IUIAutomationTextRange_CompareEndpoints"]
 old-location: winauto\uiauto_IUIAutomationTextRange_CompareEndpoints.htm
 tech.root: WinAuto
 ms.assetid: 7071ae46-3f2d-4fdb-9908-366ac1fde691

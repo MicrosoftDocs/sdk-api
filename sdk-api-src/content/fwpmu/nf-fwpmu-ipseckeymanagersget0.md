@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagersGet0
 title: IPsecKeyManagersGet0 function (fwpmu.h)
-description: Returns a list of current Trusted Intermediary Agents (TIAs).helpviewer_keywords: ["IPsecKeyManagersGet0","IPsecKeyManagersGet0 function [Filtering]","fwp.ipseckeymanagersget0","fwpmu/IPsecKeyManagersGet0"]
+description: Returns a list of current Trusted Intermediary Agents (TIAs).
+helpviewer_keywords: ["IPsecKeyManagersGet0","IPsecKeyManagersGet0 function [Filtering]","fwp.ipseckeymanagersget0","fwpmu/IPsecKeyManagersGet0"]
 old-location: fwp\ipseckeymanagersget0.htm
 tech.root: fwp
 ms.assetid: 5456C126-DF5F-472D-A3A2-37C2C0C1E2FE

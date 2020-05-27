@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.CommandLineToArgvW
 title: CommandLineToArgvW function (shellapi.h)
-description: Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values.helpviewer_keywords: ["CommandLineToArgvW","CommandLineToArgvW function [Windows Shell]","_shell_CommandLineToArgvW","shell.CommandLineToArgvW","shellapi/CommandLineToArgvW"]
+description: Parses a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values.
+helpviewer_keywords: ["CommandLineToArgvW","CommandLineToArgvW function [Windows Shell]","_shell_CommandLineToArgvW","shell.CommandLineToArgvW","shellapi/CommandLineToArgvW"]
 old-location: shell\CommandLineToArgvW.htm
 tech.root: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3

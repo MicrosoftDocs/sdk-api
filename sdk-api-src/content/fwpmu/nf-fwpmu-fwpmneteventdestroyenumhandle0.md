@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmNetEventDestroyEnumHandle0
 title: FwpmNetEventDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmNetEventCreateEnumHandle0.helpviewer_keywords: ["FwpmNetEventDestroyEnumHandle0","FwpmNetEventDestroyEnumHandle0 function [Filtering]","fwp.fwpmneteventdestroyenumhandle0","fwpmu/FwpmNetEventDestroyEnumHandle0"]
+description: Frees a handle returned by FwpmNetEventCreateEnumHandle0.
+helpviewer_keywords: ["FwpmNetEventDestroyEnumHandle0","FwpmNetEventDestroyEnumHandle0 function [Filtering]","fwp.fwpmneteventdestroyenumhandle0","fwpmu/FwpmNetEventDestroyEnumHandle0"]
 old-location: fwp\fwpmneteventdestroyenumhandle0.htm
 tech.root: fwp
 ms.assetid: c9a0b31b-28f2-4f55-8a08-5fea182f8954

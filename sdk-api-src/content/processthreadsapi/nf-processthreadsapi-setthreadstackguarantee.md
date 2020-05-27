@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.SetThreadStackGuarantee
 title: SetThreadStackGuarantee function (processthreadsapi.h)
-description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.helpviewer_keywords: ["SetThreadStackGuarantee","SetThreadStackGuarantee function","base.setthreadstackguarantee","processthreadsapi/SetThreadStackGuarantee","winbase/SetThreadStackGuarantee"]
+description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
+helpviewer_keywords: ["SetThreadStackGuarantee","SetThreadStackGuarantee function","base.setthreadstackguarantee","processthreadsapi/SetThreadStackGuarantee","winbase/SetThreadStackGuarantee"]
 old-location: base\setthreadstackguarantee.htm
 tech.root: ProcThread
 ms.assetid: 42595cba-413b-4b71-8d32-f873ed78c39c

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetWindowOrgEx
 title: SetWindowOrgEx function (wingdi.h)
-description: The SetWindowOrgEx function specifies which window point maps to the viewport origin (0,0).helpviewer_keywords: ["SetWindowOrgEx","SetWindowOrgEx function [Windows GDI]","_win32_SetWindowOrgEx","gdi.setwindoworgex","wingdi/SetWindowOrgEx"]
+description: The SetWindowOrgEx function specifies which window point maps to the viewport origin (0,0).
+helpviewer_keywords: ["SetWindowOrgEx","SetWindowOrgEx function [Windows GDI]","_win32_SetWindowOrgEx","gdi.setwindoworgex","wingdi/SetWindowOrgEx"]
 old-location: gdi\setwindoworgex.htm
 tech.root: gdi
 ms.assetid: 75409b5a-c003-49f2-aceb-a28330b92b0a

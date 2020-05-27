@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._DRM_VAL16
 title: DRM_VAL16 (wmsdkidl.h)
-description: The DRM_VAL16 structure is used by some DRM-related methods for passing 128-bit device identification values.helpviewer_keywords: ["DRM_VAL16","DRM_VAL16 structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_val16","wmsdkidl/DRM_VAL16"]
+description: The DRM_VAL16 structure is used by some DRM-related methods for passing 128-bit device identification values.
+helpviewer_keywords: ["DRM_VAL16","DRM_VAL16 structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_val16","wmsdkidl/DRM_VAL16"]
 old-location: wmformat\drm_val16.htm
 tech.root: wmformat
 ms.assetid: 8981042a-f11d-458d-be27-3b1749f9e995

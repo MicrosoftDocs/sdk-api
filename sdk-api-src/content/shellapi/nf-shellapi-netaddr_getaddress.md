@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.NetAddr_GetAddress
 title: NetAddr_GetAddress macro (shellapi.h)
-description: Indicates whether a network address conforms to a specified type and format.helpviewer_keywords: ["NetAddr_GetAddress","NetAddr_GetAddress macro [Windows Shell]","_shell_NetAddr_GetAddress","shell.NetAddr_GetAddress","shellapi/NetAddr_GetAddress"]
+description: Indicates whether a network address conforms to a specified type and format.
+helpviewer_keywords: ["NetAddr_GetAddress","NetAddr_GetAddress macro [Windows Shell]","_shell_NetAddr_GetAddress","shell.NetAddr_GetAddress","shellapi/NetAddr_GetAddress"]
 old-location: shell\NetAddr_GetAddress.htm
 tech.root: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba

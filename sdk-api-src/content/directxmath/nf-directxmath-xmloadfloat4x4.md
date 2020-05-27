@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadFloat4x4
 title: XMLoadFloat4x4 function (directxmath.h)
-description: Loads an XMFLOAT4X4 into an XMMATRIX.helpviewer_keywords: ["Use DirectX..XMLoadFloat4x4","XMLoadFloat4x4","XMLoadFloat4x4 method [DirectX Math Support APIs]","dxmath.xmloadfloat4x4"]
+description: Loads an XMFLOAT4X4 into an XMMATRIX.
+helpviewer_keywords: ["Use DirectX..XMLoadFloat4x4","XMLoadFloat4x4","XMLoadFloat4x4 method [DirectX Math Support APIs]","dxmath.xmloadfloat4x4"]
 old-location: dxmath\xmloadfloat4x4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4x4(const XMFLOAT4X4)

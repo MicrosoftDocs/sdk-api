@@ -1,7 +1,8 @@
 ---
 UID: NN:xamlom.IXamlDiagnostics
 title: IXamlDiagnostics (xamlom.h)
-description: Represents a XAML Diagnostics session.helpviewer_keywords: ["IXamlDiagnostics","IXamlDiagnostics interface","IXamlDiagnostics interface","described","xaml_diagnostics.ixamldiagnostics","xamlom/IXamlDiagnostics"]
+description: Represents a XAML Diagnostics session.
+helpviewer_keywords: ["IXamlDiagnostics","IXamlDiagnostics interface","IXamlDiagnostics interface","described","xaml_diagnostics.ixamldiagnostics","xamlom/IXamlDiagnostics"]
 old-location: xaml_diagnostics\ixamldiagnostics.htm
 tech.root: xaml_diagnostics
 ms.assetid: 1BCE3EC3-8B48-4F16-8E91-78776C07F309

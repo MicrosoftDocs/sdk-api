@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.CVssWriter.GetRestoreType
 title: CVssWriter::GetRestoreType (vswriter.h)
-description: The GetRestoreType method returns the type of restore a writer is participating in.helpviewer_keywords: ["CVssWriter interface [VSS]","GetRestoreType method","CVssWriter.GetRestoreType","CVssWriter::GetRestoreType","GetRestoreType","GetRestoreType method [VSS]","GetRestoreType method [VSS]","CVssWriter interface","_win32_cvsswriter_getrestoretype","base.cvsswriter_getrestoretype","vswriter/CVssWriter::GetRestoreType"]
+description: The GetRestoreType method returns the type of restore a writer is participating in.
+helpviewer_keywords: ["CVssWriter interface [VSS]","GetRestoreType method","CVssWriter.GetRestoreType","CVssWriter::GetRestoreType","GetRestoreType","GetRestoreType method [VSS]","GetRestoreType method [VSS]","CVssWriter interface","_win32_cvsswriter_getrestoretype","base.cvsswriter_getrestoretype","vswriter/CVssWriter::GetRestoreType"]
 old-location: base\cvsswriter_getrestoretype.htm
 tech.root: VSS
 ms.assetid: 438298ee-ab8b-4604-9d43-5acefd7cabd5

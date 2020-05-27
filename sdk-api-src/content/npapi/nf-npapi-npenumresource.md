@@ -1,7 +1,8 @@
 ---
 UID: NF:npapi.NPEnumResource
 title: NPEnumResource function (npapi.h)
-description: Performs an enumeration based on a handle returned by NPOpenEnum.helpviewer_keywords: ["NPEnumResource","NPEnumResource function [Security]","_mnp_npenumresource","npapi/NPEnumResource","security.npenumresource"]
+description: Performs an enumeration based on a handle returned by NPOpenEnum.
+helpviewer_keywords: ["NPEnumResource","NPEnumResource function [Security]","_mnp_npenumresource","npapi/NPEnumResource","security.npenumresource"]
 old-location: security\npenumresource.htm
 tech.root: SecAuthN
 ms.assetid: 286a6865-478a-41e5-a48f-42f9fc117f14

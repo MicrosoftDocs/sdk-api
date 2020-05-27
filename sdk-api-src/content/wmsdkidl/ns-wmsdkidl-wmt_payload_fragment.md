@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMT_PAYLOAD_FRAGMENT
 title: WMT_PAYLOAD_FRAGMENT (wmsdkidl.h)
-description: The WMT_PAYLOAD_FRAGMENT structure contains the information needed to extract a payload fragment from a buffer and identifies the payload to which the fragment belongs.helpviewer_keywords: ["WMT_PAYLOAD_FRAGMENT","WMT_PAYLOAD_FRAGMENT structure [windows Media Format]","wmformat.wmt_payload_fragment","wmsdkidl/WMT_PAYLOAD_FRAGMENT"]
+description: The WMT_PAYLOAD_FRAGMENT structure contains the information needed to extract a payload fragment from a buffer and identifies the payload to which the fragment belongs.
+helpviewer_keywords: ["WMT_PAYLOAD_FRAGMENT","WMT_PAYLOAD_FRAGMENT structure [windows Media Format]","wmformat.wmt_payload_fragment","wmsdkidl/WMT_PAYLOAD_FRAGMENT"]
 old-location: wmformat\wmt_payload_fragment.htm
 tech.root: wmformat
 ms.assetid: 5a99c772-0e8a-4f6d-a13f-9bf7b4fa7d89

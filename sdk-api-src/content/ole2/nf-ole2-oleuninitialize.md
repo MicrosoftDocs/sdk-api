@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleUninitialize
 title: OleUninitialize function (ole2.h)
-description: Closes the COM library on the apartment, releases any class factories, other COM objects, or servers held by the apartment, disables RPC on the apartment, and frees any resources the apartment maintains.helpviewer_keywords: ["OleUninitialize","OleUninitialize function [COM]","_ole_OleUninitialize","com.oleuninitialize","ole2/OleUninitialize"]
+description: Closes the COM library on the apartment, releases any class factories, other COM objects, or servers held by the apartment, disables RPC on the apartment, and frees any resources the apartment maintains.
+helpviewer_keywords: ["OleUninitialize","OleUninitialize function [COM]","_ole_OleUninitialize","com.oleuninitialize","ole2/OleUninitialize"]
 old-location: com\oleuninitialize.htm
 tech.root: com
 ms.assetid: b2a8233f-7e1b-4c54-9363-7478c40c3830

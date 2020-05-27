@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.ICategory.get_CategoryID
 title: ICategory::get_CategoryID (wuapi.h)
-description: Gets the identifier of the category.helpviewer_keywords: ["CategoryID property [Windows Update Agent]","CategoryID property [Windows Update Agent]","ICategory interface","ICategory interface [Windows Update Agent]","CategoryID property","ICategory.CategoryID","ICategory.get_CategoryID","ICategory::CategoryID","ICategory::get_CategoryID","get_CategoryID","wua.icategory_categoryid","wuapi/ICategory::CategoryID","wuapi/ICategory::get_CategoryID"]
+description: Gets the identifier of the category.
+helpviewer_keywords: ["CategoryID property [Windows Update Agent]","CategoryID property [Windows Update Agent]","ICategory interface","ICategory interface [Windows Update Agent]","CategoryID property","ICategory.CategoryID","ICategory.get_CategoryID","ICategory::CategoryID","ICategory::get_CategoryID","get_CategoryID","wua.icategory_categoryid","wuapi/ICategory::CategoryID","wuapi/ICategory::get_CategoryID"]
 old-location: wua\icategory_categoryid.htm
 tech.root: Wua_Sdk
 ms.assetid: 56982453-6f2d-4401-83a9-672c0d8a2409

@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSupportsSourceTransfer
 title: IMFMediaEngineSupportsSourceTransfer (mfmediaengine.h)
-description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","described","mf.imfmediaenginesupportssourcetransfer","mfmediaengine/IMFMediaEngineSupportsSourceTransfer"]
+description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.
+helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","described","mf.imfmediaenginesupportssourcetransfer","mfmediaengine/IMFMediaEngineSupportsSourceTransfer"]
 old-location: mf\imfmediaenginesupportssourcetransfer.htm
 tech.root: medfound
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604

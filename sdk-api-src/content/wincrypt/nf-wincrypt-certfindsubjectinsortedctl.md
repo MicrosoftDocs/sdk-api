@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertFindSubjectInSortedCTL
 title: CertFindSubjectInSortedCTL function (wincrypt.h)
-description: The CertFindSubjectInSortedCTL function attempts to find the specified subject in a sorted certificate trust list (CTL).helpviewer_keywords: ["CertFindSubjectInSortedCTL","CertFindSubjectInSortedCTL function [Security]","_crypto2_certfindsubjectinsortedctl","security.certfindsubjectinsortedctl","wincrypt/CertFindSubjectInSortedCTL"]
+description: The CertFindSubjectInSortedCTL function attempts to find the specified subject in a sorted certificate trust list (CTL).
+helpviewer_keywords: ["CertFindSubjectInSortedCTL","CertFindSubjectInSortedCTL function [Security]","_crypto2_certfindsubjectinsortedctl","security.certfindsubjectinsortedctl","wincrypt/CertFindSubjectInSortedCTL"]
 old-location: security\certfindsubjectinsortedctl.htm
 tech.root: SecCrypto
 ms.assetid: 027e89e6-3de0-440d-be70-2281778f9a1e

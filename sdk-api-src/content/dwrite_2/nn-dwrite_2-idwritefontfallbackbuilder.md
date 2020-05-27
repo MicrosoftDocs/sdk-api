@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_2.IDWriteFontFallbackBuilder
 title: IDWriteFontFallbackBuilder (dwrite_2.h)
-description: Allows you to create Unicode font fallback mappings and create a font fall back object from those mappings.helpviewer_keywords: ["IDWriteFontFallbackBuilder","IDWriteFontFallbackBuilder interface [Direct Write]","IDWriteFontFallbackBuilder interface [Direct Write]","described","directwrite.idwritefontfallbackbuilder","dwrite_2/IDWriteFontFallbackBuilder"]
+description: Allows you to create Unicode font fallback mappings and create a font fall back object from those mappings.
+helpviewer_keywords: ["IDWriteFontFallbackBuilder","IDWriteFontFallbackBuilder interface [Direct Write]","IDWriteFontFallbackBuilder interface [Direct Write]","described","directwrite.idwritefontfallbackbuilder","dwrite_2/IDWriteFontFallbackBuilder"]
 old-location: directwrite\idwritefontfallbackbuilder.htm
 tech.root: DirectWrite
 ms.assetid: 462AC12E-C856-4D8F-83AF-FAC3221425C2

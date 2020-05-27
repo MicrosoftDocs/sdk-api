@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_NamesW
 title: SecPkgContext_NamesW (sspi.h)
-description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.helpviewer_keywords: ["*PSecPkgContext_NamesW","SecPkgContext_Names","SecPkgContext_Names structure [Security]","SecPkgContext_NamesA","SecPkgContext_NamesW","_ssp_secpkgcontext_names","pSecPkgContext_Names","pSecPkgContext_Names structure pointer [Security]","security.secpkgcontext_names","sspi/SecPkgContext_Names","sspi/SecPkgContext_NamesA","sspi/SecPkgContext_NamesW","sspi/pSecPkgContext_Names"]
+description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
+helpviewer_keywords: ["*PSecPkgContext_NamesW","SecPkgContext_Names","SecPkgContext_Names structure [Security]","SecPkgContext_NamesA","SecPkgContext_NamesW","_ssp_secpkgcontext_names","pSecPkgContext_Names","pSecPkgContext_Names structure pointer [Security]","security.secpkgcontext_names","sspi/SecPkgContext_Names","sspi/SecPkgContext_NamesA","sspi/SecPkgContext_NamesW","sspi/pSecPkgContext_Names"]
 old-location: security\secpkgcontext_names.htm
 tech.root: SecAuthN
 ms.assetid: 9df0bf7c-ad5f-4cb8-8934-76062789735f

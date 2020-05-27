@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.putref_Strokes
 title: IInkRecognizerContext::putref_Strokes (msinkaut.h)
-description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object.helpviewer_keywords: ["IInkRecognizerContext interface [Tablet PC]","Strokes property","IInkRecognizerContext.Strokes","IInkRecognizerContext.putref_Strokes","IInkRecognizerContext::Strokes","IInkRecognizerContext::get_Strokes","IInkRecognizerContext::putref_Strokes","InkRecognizerContext.get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkRecognizerContext interface","af31559b-741e-4af2-8c35-9e34ad1af85f","get_Strokes","msinkaut/IInkRecognizerContext::Strokes","msinkaut/IInkRecognizerContext::get_Strokes","msinkaut/IInkRecognizerContext::putref_Strokes","putref_Strokes","tablet.inkrecognizercontext_strokes"]
+description: Gets or sets the InkStrokes collection associated with the InkRecognizerContext object.
+helpviewer_keywords: ["IInkRecognizerContext interface [Tablet PC]","Strokes property","IInkRecognizerContext.Strokes","IInkRecognizerContext.putref_Strokes","IInkRecognizerContext::Strokes","IInkRecognizerContext::get_Strokes","IInkRecognizerContext::putref_Strokes","InkRecognizerContext.get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkRecognizerContext interface","af31559b-741e-4af2-8c35-9e34ad1af85f","get_Strokes","msinkaut/IInkRecognizerContext::Strokes","msinkaut/IInkRecognizerContext::get_Strokes","msinkaut/IInkRecognizerContext::putref_Strokes","putref_Strokes","tablet.inkrecognizercontext_strokes"]
 old-location: tablet\inkrecognizercontext_strokes.htm
 tech.root: tablet
 ms.assetid: af31559b-741e-4af2-8c35-9e34ad1af85f

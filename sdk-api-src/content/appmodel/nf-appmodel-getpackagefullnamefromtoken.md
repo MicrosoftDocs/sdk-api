@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetPackageFullNameFromToken
 title: GetPackageFullNameFromToken function (appmodel.h)
-description: Gets the package full name for the specified token.helpviewer_keywords: ["GetPackageFullNameFromToken","GetPackageFullNameFromToken function [App packaging and management]","appmodel/GetPackageFullNameFromToken","appxpkg.getpackagefullnamefromtoken"]
+description: Gets the package full name for the specified token.
+helpviewer_keywords: ["GetPackageFullNameFromToken","GetPackageFullNameFromToken function [App packaging and management]","appmodel/GetPackageFullNameFromToken","appxpkg.getpackagefullnamefromtoken"]
 old-location: appxpkg\getpackagefullnamefromtoken.htm
 tech.root: appxpkg
 ms.assetid: 7B0D574E-A2F5-4D08-AEFB-9E040BBC729F

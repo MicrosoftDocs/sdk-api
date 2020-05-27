@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMStorageControl3
 title: IWMDMStorageControl3 (mswmdm.h)
-description: The IWMDMStorageControl3 interface extends IWMDMStorageControl2 by providing an Insert method that accepts an IWMDMMetaData interface pointer.helpviewer_keywords: ["IWMDMStorageControl3","IWMDMStorageControl3 interface [windows Media Device Manager]","IWMDMStorageControl3 interface [windows Media Device Manager]","described","IWMDMStorageControl3Interface","mswmdm/IWMDMStorageControl3","wmdm.iwmdmstoragecontrol3"]
+description: The IWMDMStorageControl3 interface extends IWMDMStorageControl2 by providing an Insert method that accepts an IWMDMMetaData interface pointer.
+helpviewer_keywords: ["IWMDMStorageControl3","IWMDMStorageControl3 interface [windows Media Device Manager]","IWMDMStorageControl3 interface [windows Media Device Manager]","described","IWMDMStorageControl3Interface","mswmdm/IWMDMStorageControl3","wmdm.iwmdmstoragecontrol3"]
 old-location: wmdm\iwmdmstoragecontrol3.htm
 tech.root: WMDM
 ms.assetid: bc5165c2-791d-4549-a271-78728625b219

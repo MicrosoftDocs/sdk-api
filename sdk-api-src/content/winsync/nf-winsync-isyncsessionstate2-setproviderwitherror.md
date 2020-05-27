@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncSessionState2.SetProviderWithError
 title: ISyncSessionState2::SetProviderWithError (winsync.h)
-description: Indicates which provider caused synchronization to fail.helpviewer_keywords: ["ISyncSessionState2 interface [Windows Sync]","SetProviderWithError method","ISyncSessionState2.SetProviderWithError","ISyncSessionState2::SetProviderWithError","SetProviderWithError","SetProviderWithError method [Windows Sync]","SetProviderWithError method [Windows Sync]","ISyncSessionState2 interface","winsync.isyncsessionstate2_setproviderwitherror","winsync/ISyncSessionState2::SetProviderWithError"]
+description: Indicates which provider caused synchronization to fail.
+helpviewer_keywords: ["ISyncSessionState2 interface [Windows Sync]","SetProviderWithError method","ISyncSessionState2.SetProviderWithError","ISyncSessionState2::SetProviderWithError","SetProviderWithError","SetProviderWithError method [Windows Sync]","SetProviderWithError method [Windows Sync]","ISyncSessionState2 interface","winsync.isyncsessionstate2_setproviderwitherror","winsync/ISyncSessionState2::SetProviderWithError"]
 old-location: winsync\isyncsessionstate2_setproviderwitherror.htm
 tech.root: winsync
 ms.assetid: dcbfcc13-5a8f-4062-baef-899f81413768

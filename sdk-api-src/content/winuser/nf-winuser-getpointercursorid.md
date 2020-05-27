@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetPointerCursorId
 title: GetPointerCursorId function (winuser.h)
-description: Retrieves the cursor identifier associated with the specified pointer.helpviewer_keywords: ["GetPointerCursorId","GetPointerCursorId function [Input Messages and Notifications]","inputmsg.getpointercursorid","winuser/GetPointerCursorId"]
+description: Retrieves the cursor identifier associated with the specified pointer.
+helpviewer_keywords: ["GetPointerCursorId","GetPointerCursorId function [Input Messages and Notifications]","inputmsg.getpointercursorid","winuser/GetPointerCursorId"]
 old-location: inputmsg\getpointercursorid.htm
 tech.root: InputMsg
 ms.assetid: 43211600-ee82-416f-860f-423c581eda75

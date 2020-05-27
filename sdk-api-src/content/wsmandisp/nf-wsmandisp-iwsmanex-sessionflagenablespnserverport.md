@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagEnableSPNServerPort
 title: IWSManEx::SessionFlagEnableSPNServerPort (wsmandisp.h)
-description: Returns the value of the authentication flag WSManFlagEnableSPNServerPort for use in the flags parameter of IWSMan::CreateSession.helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagEnableSPNServerPort method","IWSManEx.SessionFlagEnableSPNServerPort","IWSManEx::SessionFlagEnableSPNServerPort","SessionFlagEnableSPNServerPort","SessionFlagEnableSPNServerPort method [Windows Remote Management]","SessionFlagEnableSPNServerPort method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagenablespnserverport","wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort"]
+description: Returns the value of the authentication flag WSManFlagEnableSPNServerPort for use in the flags parameter of IWSMan::CreateSession.
+helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagEnableSPNServerPort method","IWSManEx.SessionFlagEnableSPNServerPort","IWSManEx::SessionFlagEnableSPNServerPort","SessionFlagEnableSPNServerPort","SessionFlagEnableSPNServerPort method [Windows Remote Management]","SessionFlagEnableSPNServerPort method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagenablespnserverport","wsmandisp/IWSManEx::SessionFlagEnableSPNServerPort"]
 old-location: winrm\iwsmanex_sessionflagenablespnserverport.htm
 tech.root: winrm
 ms.assetid: a8fe2077-0606-4517-8e50-dc42a4c39b77

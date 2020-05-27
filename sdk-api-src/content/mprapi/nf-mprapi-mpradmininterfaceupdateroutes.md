@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceUpdateRoutes
 title: MprAdminInterfaceUpdateRoutes function (mprapi.h)
-description: The MprAdminInterfaceUpdateRoutes function requests a specified router manager to update its routing information for a specified interface.helpviewer_keywords: ["MprAdminInterfaceUpdateRoutes","MprAdminInterfaceUpdateRoutes function [RAS]","_mpr_mpradmininterfaceupdateroutes","mprapi/MprAdminInterfaceUpdateRoutes","rras.mpradmininterfaceupdateroutes"]
+description: The MprAdminInterfaceUpdateRoutes function requests a specified router manager to update its routing information for a specified interface.
+helpviewer_keywords: ["MprAdminInterfaceUpdateRoutes","MprAdminInterfaceUpdateRoutes function [RAS]","_mpr_mpradmininterfaceupdateroutes","mprapi/MprAdminInterfaceUpdateRoutes","rras.mpradmininterfaceupdateroutes"]
 old-location: rras\mpradmininterfaceupdateroutes.htm
 tech.root: RRAS
 ms.assetid: b06ce009-c52f-4d3b-a452-785c75638c89

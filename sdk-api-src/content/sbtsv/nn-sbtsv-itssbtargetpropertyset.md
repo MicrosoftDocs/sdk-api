@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbTargetPropertySet
 title: ITsSbTargetPropertySet (sbtsv.h)
-description: Derive from this interface to define a custom target property set.helpviewer_keywords: ["ITsSbTargetPropertySet","ITsSbTargetPropertySet interface [Remote Desktop Services]","ITsSbTargetPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbTargetPropertySet","termserv.itssbtargetpropertyset"]
+description: Derive from this interface to define a custom target property set.
+helpviewer_keywords: ["ITsSbTargetPropertySet","ITsSbTargetPropertySet interface [Remote Desktop Services]","ITsSbTargetPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbTargetPropertySet","termserv.itssbtargetpropertyset"]
 old-location: termserv\itssbtargetpropertyset.htm
 tech.root: TermServ
 ms.assetid: 74ea8132-cb06-40ce-b3bf-4bd8babe3711

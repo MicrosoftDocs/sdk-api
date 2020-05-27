@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorAdd
 title: XMVectorAdd function (directxmath.h)
-description: Computes the sum of two vectors.helpviewer_keywords: ["Use DirectX..XMVectorAdd","XMVectorAdd","XMVectorAdd method [DirectX Math Support APIs]","dxmath.xmvectoradd"]
+description: Computes the sum of two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorAdd","XMVectorAdd","XMVectorAdd method [DirectX Math Support APIs]","dxmath.xmvectoradd"]
 old-location: dxmath\xmvectoradd.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorAdd(XMVECTOR,XMVECTOR)

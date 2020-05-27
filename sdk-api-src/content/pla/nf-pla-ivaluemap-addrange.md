@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IValueMap.AddRange
 title: IValueMap::AddRange (pla.h)
-description: Adds one or more items to the collection.helpviewer_keywords: ["AddRange","AddRange method [PLA]","AddRange method [PLA]","IValueMap interface","IValueMap interface [PLA]","AddRange method","IValueMap.AddRange","IValueMap::AddRange","base.ivaluemap_addrange","pla.ivaluemap_addrange","pla/IValueMap::AddRange"]
+description: Adds one or more items to the collection.
+helpviewer_keywords: ["AddRange","AddRange method [PLA]","AddRange method [PLA]","IValueMap interface","IValueMap interface [PLA]","AddRange method","IValueMap.AddRange","IValueMap::AddRange","base.ivaluemap_addrange","pla.ivaluemap_addrange","pla/IValueMap::AddRange"]
 old-location: pla\ivaluemap_addrange.htm
 tech.root: PLA
 ms.assetid: 80893a3d-fcfc-475f-86ad-d19bb9e43ee0

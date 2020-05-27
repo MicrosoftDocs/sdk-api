@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.PowerRestoreIndividualDefaultPowerScheme
 title: PowerRestoreIndividualDefaultPowerScheme function (powrprof.h)
-description: Replaces a specific power scheme for the current user with one from the default user (stored in HKEY_USERS\.Default).helpviewer_keywords: ["PowerRestoreIndividualDefaultPowerScheme","PowerRestoreIndividualDefaultPowerScheme function","base.powerrestoreindividualdefaultpowerscheme","powrprof/PowerRestoreIndividualDefaultPowerScheme"]
+description: Replaces a specific power scheme for the current user with one from the default user (stored in HKEY_USERS\.Default).
+helpviewer_keywords: ["PowerRestoreIndividualDefaultPowerScheme","PowerRestoreIndividualDefaultPowerScheme function","base.powerrestoreindividualdefaultpowerscheme","powrprof/PowerRestoreIndividualDefaultPowerScheme"]
 old-location: base\powerrestoreindividualdefaultpowerscheme.htm
 tech.root: power
 ms.assetid: f1a9cfb1-1b56-4873-994b-7fe929fdc86c

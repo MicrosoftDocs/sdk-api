@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusheaders.Metafile
 title: Metafile (gdiplusheaders.h)
-description: The Metafile class defines a graphic metafile. A metafile contains records that describe a sequence of graphics API calls. Metafiles can be recorded (constructed) and played back (displayed).helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile class [GDI+]","described","_gdiplus_CLASS_Metafile_Class","gdiplus._gdiplus_CLASS_Metafile_Class","gdiplusheaders/Metafile"]
+description: The Metafile class defines a graphic metafile. A metafile contains records that describe a sequence of graphics API calls. Metafiles can be recorded (constructed) and played back (displayed).
+helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile class [GDI+]","described","_gdiplus_CLASS_Metafile_Class","gdiplus._gdiplus_CLASS_Metafile_Class","gdiplusheaders/Metafile"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafile.htm

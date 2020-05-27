@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecQuery
 title: IWbemServices::ExecQuery (wbemcli.h)
-description: The IWbemServices::ExecQuery method executes a query to retrieve objects.helpviewer_keywords: ["ExecQuery","ExecQuery method [Windows Management Instrumentation]","ExecQuery method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecQuery method","IWbemServices.ExecQuery","IWbemServices::ExecQuery","WBEM_FLAG_BIDIRECTIONAL","WBEM_FLAG_DIRECT_READ","WBEM_FLAG_ENSURE_LOCATABLE","WBEM_FLAG_FORWARD_ONLY","WBEM_FLAG_PROTOTYPE","WBEM_FLAG_RETURN_IMMEDIATELY","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_execquery","wbemcli/IWbemServices::ExecQuery","wmi.iwbemservices_execquery"]
+description: The IWbemServices::ExecQuery method executes a query to retrieve objects.
+helpviewer_keywords: ["ExecQuery","ExecQuery method [Windows Management Instrumentation]","ExecQuery method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecQuery method","IWbemServices.ExecQuery","IWbemServices::ExecQuery","WBEM_FLAG_BIDIRECTIONAL","WBEM_FLAG_DIRECT_READ","WBEM_FLAG_ENSURE_LOCATABLE","WBEM_FLAG_FORWARD_ONLY","WBEM_FLAG_PROTOTYPE","WBEM_FLAG_RETURN_IMMEDIATELY","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_execquery","wbemcli/IWbemServices::ExecQuery","wmi.iwbemservices_execquery"]
 old-location: wmi\iwbemservices_execquery.htm
 tech.root: WmiSdk
 ms.assetid: 8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a

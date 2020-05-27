@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxActivity.Refresh
 title: IFaxActivity::Refresh (faxcomex.h)
-description: The IFaxActivity::Refresh method refreshes FaxActivity information from the fax server.helpviewer_keywords: ["IFaxActivity interface [Fax Service]","Refresh method","IFaxActivity.Refresh","IFaxActivity::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxActivity interface","_mfax_faxactivity.refresh","fax._mfax_faxactivity_cpp_mfax_faxactivity_refresh_cpp","fax._mfax_faxactivity_refresh","faxcomex/IFaxActivity::Refresh"]
+description: The IFaxActivity::Refresh method refreshes FaxActivity information from the fax server.
+helpviewer_keywords: ["IFaxActivity interface [Fax Service]","Refresh method","IFaxActivity.Refresh","IFaxActivity::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxActivity interface","_mfax_faxactivity.refresh","fax._mfax_faxactivity_cpp_mfax_faxactivity_refresh_cpp","fax._mfax_faxactivity_refresh","faxcomex/IFaxActivity::Refresh"]
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4krs.htm

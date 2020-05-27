@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionTranslateTransform3D
 title: IDCompositionTranslateTransform3D (dcomp.h)
-description: Represents a 3D transformation that affects the offset of a visual along the x-axis, y-axis, and z-axis.helpviewer_keywords: ["IDCompositionTranslateTransform3D","IDCompositionTranslateTransform3D interface [DirectComposition]","IDCompositionTranslateTransform3D interface [DirectComposition]","described","dcomp/IDCompositionTranslateTransform3D","directcomp.idcompositiontranslatetransform3d"]
+description: Represents a 3D transformation that affects the offset of a visual along the x-axis, y-axis, and z-axis.
+helpviewer_keywords: ["IDCompositionTranslateTransform3D","IDCompositionTranslateTransform3D interface [DirectComposition]","IDCompositionTranslateTransform3D interface [DirectComposition]","described","dcomp/IDCompositionTranslateTransform3D","directcomp.idcompositiontranslatetransform3d"]
 old-location: directcomp\idcompositiontranslatetransform3d.htm
 tech.root: directcomp
 ms.assetid: C265E5FC-F7A1-4E87-8311-C4D0613DD7BC

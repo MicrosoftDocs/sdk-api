@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_MOVE_RECT
 title: DXGI_OUTDUPL_MOVE_RECT (dxgi1_2.h)
-description: The DXGI_OUTDUPL_MOVE_RECT structure describes the movement of a rectangle.helpviewer_keywords: ["DXGI_OUTDUPL_MOVE_RECT","DXGI_OUTDUPL_MOVE_RECT structure [DXGI]","direct3ddxgi.dxgi_outdupl_move_rect","dxgi1_2/DXGI_OUTDUPL_MOVE_RECT"]
+description: The DXGI_OUTDUPL_MOVE_RECT structure describes the movement of a rectangle.
+helpviewer_keywords: ["DXGI_OUTDUPL_MOVE_RECT","DXGI_OUTDUPL_MOVE_RECT structure [DXGI]","direct3ddxgi.dxgi_outdupl_move_rect","dxgi1_2/DXGI_OUTDUPL_MOVE_RECT"]
 old-location: direct3ddxgi\dxgi_outdupl_move_rect.htm
 tech.root: direct3ddxgi
 ms.assetid: B19DB70A-83B4-4683-9E9B-3DA5D33AB564

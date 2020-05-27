@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.GetCells
 title: ITextRange2::GetCells (tom.h)
-description: Gets a cells object with the parameters of cells in the currently selected table row or column.helpviewer_keywords: ["GetCells","GetCells method [Windows Controls]","GetCells method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetCells method","ITextRange2.GetCells","ITextRange2::GetCells","controls.itextrange2_getcells","tom/ITextRange2::GetCells"]
+description: Gets a cells object with the parameters of cells in the currently selected table row or column.
+helpviewer_keywords: ["GetCells","GetCells method [Windows Controls]","GetCells method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetCells method","ITextRange2.GetCells","ITextRange2::GetCells","controls.itextrange2_getcells","tom/ITextRange2::GetCells"]
 old-location: controls\itextrange2_getcells.htm
 tech.root: Controls
 ms.assetid: caaee637-d80a-44c6-9d9b-ed16a980afd9

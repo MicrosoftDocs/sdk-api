@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTuner.get_Mode
 title: IAMTuner::get_Mode (strmif.h)
-description: The get_Mode method retrieves the current mode on a multifunction tuner.helpviewer_keywords: ["IAMTuner interface [DirectShow]","get_Mode method","IAMTuner.get_Mode","IAMTuner::get_Mode","IAMTunerget_Mode","dshow.iamtuner_get_mode","get_Mode","get_Mode method [DirectShow]","get_Mode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::get_Mode"]
+description: The get_Mode method retrieves the current mode on a multifunction tuner.
+helpviewer_keywords: ["IAMTuner interface [DirectShow]","get_Mode method","IAMTuner.get_Mode","IAMTuner::get_Mode","IAMTunerget_Mode","dshow.iamtuner_get_mode","get_Mode","get_Mode method [DirectShow]","get_Mode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::get_Mode"]
 old-location: dshow\iamtuner_get_mode.htm
 tech.root: DirectShow
 ms.assetid: 9a5f4cd8-8fde-4777-b9b6-caa7860b005c

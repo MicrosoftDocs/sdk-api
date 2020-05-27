@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IGlobalInterfaceTable
 title: IGlobalInterfaceTable (objidl.h)
-description: Enables any apartment in a process to get access to an interface implemented on an object in any other apartment in the process.helpviewer_keywords: ["IGlobalInterfaceTable","IGlobalInterfaceTable interface [COM]","IGlobalInterfaceTable interface [COM]","described","_com_iglobalinterfacetable","com.iglobalinterfacetable","objidl/IGlobalInterfaceTable"]
+description: Enables any apartment in a process to get access to an interface implemented on an object in any other apartment in the process.
+helpviewer_keywords: ["IGlobalInterfaceTable","IGlobalInterfaceTable interface [COM]","IGlobalInterfaceTable interface [COM]","described","_com_iglobalinterfacetable","com.iglobalinterfacetable","objidl/IGlobalInterfaceTable"]
 old-location: com\iglobalinterfacetable.htm
 tech.root: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947

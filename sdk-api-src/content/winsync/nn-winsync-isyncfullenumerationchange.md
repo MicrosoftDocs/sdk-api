@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChange
 title: ISyncFullEnumerationChange (winsync.h)
-description: Represents additional information about an ISyncChange object during recovery synchronization.helpviewer_keywords: ["ISyncFullEnumerationChange","ISyncFullEnumerationChange interface [Windows Sync]","ISyncFullEnumerationChange interface [Windows Sync]","described","winsync.isyncfullenumerationchange","winsync/ISyncFullEnumerationChange"]
+description: Represents additional information about an ISyncChange object during recovery synchronization.
+helpviewer_keywords: ["ISyncFullEnumerationChange","ISyncFullEnumerationChange interface [Windows Sync]","ISyncFullEnumerationChange interface [Windows Sync]","described","winsync.isyncfullenumerationchange","winsync/ISyncFullEnumerationChange"]
 old-location: winsync\isyncfullenumerationchange.htm
 tech.root: winsync
 ms.assetid: 1e666737-c5dc-4394-9f41-6e77832dd9f6

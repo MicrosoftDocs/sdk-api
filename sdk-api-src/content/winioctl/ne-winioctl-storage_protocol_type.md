@@ -1,7 +1,8 @@
 ---
 UID: NE:winioctl._STORAGE_PROTOCOL_TYPE
 title: STORAGE_PROTOCOL_TYPE
-description: Specifies the protocol of a storage device.helpviewer_keywords: ["*PSTORAGE_PROTOCOL_TYPE","PSTORAGE_PROTOCOL_TYPE","PSTORAGE_PROTOCOL_TYPE enumeration pointer [Files]","ProtocolTypeAta","ProtocolTypeMaxReserved","ProtocolTypeNvme","ProtocolTypeProprietary","ProtocolTypeScsi","ProtocolTypeSd","ProtocolTypeUnknown","STORAGE_PROTOCOL_TYPE","_STORAGE_PROTOCOL_TYPE","_STORAGE_PROTOCOL_TYPE enumeration [Files]","fs.storage_protocol_type","winioctl/PSTORAGE_PROTOCOL_TYPE","winioctl/ProtocolTypeAta","winioctl/ProtocolTypeMaxReserved","winioctl/ProtocolTypeNvme","winioctl/ProtocolTypeProprietary","winioctl/ProtocolTypeScsi","winioctl/ProtocolTypeSd","winioctl/ProtocolTypeUnknown","winioctl/_STORAGE_PROTOCOL_TYPE"]
+description: Specifies the protocol of a storage device.
+helpviewer_keywords: ["*PSTORAGE_PROTOCOL_TYPE","PSTORAGE_PROTOCOL_TYPE","PSTORAGE_PROTOCOL_TYPE enumeration pointer [Files]","ProtocolTypeAta","ProtocolTypeMaxReserved","ProtocolTypeNvme","ProtocolTypeProprietary","ProtocolTypeScsi","ProtocolTypeSd","ProtocolTypeUnknown","STORAGE_PROTOCOL_TYPE","_STORAGE_PROTOCOL_TYPE","_STORAGE_PROTOCOL_TYPE enumeration [Files]","fs.storage_protocol_type","winioctl/PSTORAGE_PROTOCOL_TYPE","winioctl/ProtocolTypeAta","winioctl/ProtocolTypeMaxReserved","winioctl/ProtocolTypeNvme","winioctl/ProtocolTypeProprietary","winioctl/ProtocolTypeScsi","winioctl/ProtocolTypeSd","winioctl/ProtocolTypeUnknown","winioctl/_STORAGE_PROTOCOL_TYPE"]
 old-location: fs\storage_protocol_type.htm
 tech.root: FileIO
 ms.assetid: 8055B633-99EF-4AAE-AA80-FC09F357BEAB

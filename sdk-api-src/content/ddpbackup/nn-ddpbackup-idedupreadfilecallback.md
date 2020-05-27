@@ -1,7 +1,8 @@
 ---
 UID: NN:ddpbackup.IDedupReadFileCallback
 title: IDedupReadFileCallback (ddpbackup.h)
-description: A callback interface, implemented by backup applications, that enables Data Deduplication to read content from metadata and container files residing in a backup store and optionally improve restore efficiency.helpviewer_keywords: ["IDedupReadFileCallback","IDedupReadFileCallback interface [Data Deduplication API]","IDedupReadFileCallback interface [Data Deduplication API]","described","ddpbackup/IDedupReadFileCallback","dedup.idedupreadfilecallback"]
+description: A callback interface, implemented by backup applications, that enables Data Deduplication to read content from metadata and container files residing in a backup store and optionally improve restore efficiency.
+helpviewer_keywords: ["IDedupReadFileCallback","IDedupReadFileCallback interface [Data Deduplication API]","IDedupReadFileCallback interface [Data Deduplication API]","described","ddpbackup/IDedupReadFileCallback","dedup.idedupreadfilecallback"]
 old-location: dedup\idedupreadfilecallback.htm
 tech.root: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C

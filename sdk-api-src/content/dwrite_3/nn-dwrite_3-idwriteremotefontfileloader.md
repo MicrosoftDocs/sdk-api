@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_3.IDWriteRemoteFontFileLoader
 title: IDWriteRemoteFontFileLoader (dwrite_3.h)
-description: Represents a font file loader that can access remote (i.e., downloadable) fonts.helpviewer_keywords: ["IDWriteRemoteFontFileLoader","IDWriteRemoteFontFileLoader interface [Direct Write]","IDWriteRemoteFontFileLoader interface [Direct Write]","described","directwrite.idwriteremotefontfileloader","dwrite_3/IDWriteRemoteFontFileLoader"]
+description: Represents a font file loader that can access remote (i.e., downloadable) fonts.
+helpviewer_keywords: ["IDWriteRemoteFontFileLoader","IDWriteRemoteFontFileLoader interface [Direct Write]","IDWriteRemoteFontFileLoader interface [Direct Write]","described","directwrite.idwriteremotefontfileloader","dwrite_3/IDWriteRemoteFontFileLoader"]
 old-location: directwrite\idwriteremotefontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: 16CFF7ED-642A-48D8-8C72-3EC68B702E50

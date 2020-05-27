@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorLog2
 title: XMVectorLog2 function (directxmath.h)
-description: Computes the base two logarithm of each component of a vector.helpviewer_keywords: ["Use DirectX..XMVectorLog2","XMVectorLog2","XMVectorLog2 method [DirectX Math Support APIs]","dxmath.xmvectorlog2"]
+description: Computes the base two logarithm of each component of a vector.
+helpviewer_keywords: ["Use DirectX..XMVectorLog2","XMVectorLog2","XMVectorLog2 method [DirectX Math Support APIs]","dxmath.xmvectorlog2"]
 old-location: dxmath\xmvectorlog2.htm
 tech.root: dxmath
 ms.assetid: 92C911B4-5BC7-443D-BCBB-F4838E24E607

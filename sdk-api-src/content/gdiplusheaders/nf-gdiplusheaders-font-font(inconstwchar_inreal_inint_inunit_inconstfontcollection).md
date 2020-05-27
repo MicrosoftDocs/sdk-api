@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Font.Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection)
 title: Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection) (gdiplusheaders.h)
-description: Creates a Font::Font object based on a font family, a size, a font style, a unit of measurement, and a FontCollection object.helpviewer_keywords: ["Font","Font class [GDI+]","Font constructor","Font constructor [GDI+]","Font constructor [GDI+]","Font class","Font.Font","Font.Font(IN const WCHAR","IN REAL","IN INT","IN Unit","IN const FontCollection)","Font.Font(const WCHAR*","REAL","INT","Unit","const FontCollection*)","Font::Font","Font::Font(IN const WCHAR","IN REAL","IN INT","IN Unit","IN const FontCollection)","_gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_","gdiplus._gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_"]
+description: Creates a Font::Font object based on a font family, a size, a font style, a unit of measurement, and a FontCollection object.
+helpviewer_keywords: ["Font","Font class [GDI+]","Font constructor","Font constructor [GDI+]","Font constructor [GDI+]","Font class","Font.Font","Font.Font(IN const WCHAR","IN REAL","IN INT","IN Unit","IN const FontCollection)","Font.Font(const WCHAR*","REAL","INT","Unit","const FontCollection*)","Font::Font","Font::Font(IN const WCHAR","IN REAL","IN INT","IN Unit","IN const FontCollection)","_gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_","gdiplus._gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_74familyname_emsize_style_unit_fontcolle.htm

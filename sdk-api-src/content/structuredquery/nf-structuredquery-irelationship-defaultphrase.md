@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IRelationship.DefaultPhrase
 title: IRelationship::DefaultPhrase (structuredquery.h)
-description: Retrieves the default phrase to use for this relationship in restatements.helpviewer_keywords: ["DefaultPhrase","DefaultPhrase method [search]","DefaultPhrase method [search]","IRelationship interface","IRelationship interface [search]","DefaultPhrase method","IRelationship.DefaultPhrase","IRelationship::DefaultPhrase","_search_IRelationship_DefaultPhrase","search._search_IRelationship_DefaultPhrase","structuredquery/IRelationship::DefaultPhrase"]
+description: Retrieves the default phrase to use for this relationship in restatements.
+helpviewer_keywords: ["DefaultPhrase","DefaultPhrase method [search]","DefaultPhrase method [search]","IRelationship interface","IRelationship interface [search]","DefaultPhrase method","IRelationship.DefaultPhrase","IRelationship::DefaultPhrase","_search_IRelationship_DefaultPhrase","search._search_IRelationship_DefaultPhrase","structuredquery/IRelationship::DefaultPhrase"]
 old-location: search\_search_IRelationship_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\defaultphrase.htm

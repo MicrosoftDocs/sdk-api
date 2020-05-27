@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.RemoveContent
 title: IDirectManipulationCompositor::RemoveContent (directmanipulation.h)
-description: Removes content from the compositor.helpviewer_keywords: ["IDirectManipulationCompositor interface [Direct Manipulation]","RemoveContent method","IDirectManipulationCompositor.RemoveContent","IDirectManipulationCompositor::RemoveContent","RemoveContent","RemoveContent method [Direct Manipulation]","RemoveContent method [Direct Manipulation]","IDirectManipulationCompositor interface","directmanipulation.idirectmanipulationcompositor_removecontent","directmanipulation/IDirectManipulationCompositor::RemoveContent"]
+description: Removes content from the compositor.
+helpviewer_keywords: ["IDirectManipulationCompositor interface [Direct Manipulation]","RemoveContent method","IDirectManipulationCompositor.RemoveContent","IDirectManipulationCompositor::RemoveContent","RemoveContent","RemoveContent method [Direct Manipulation]","RemoveContent method [Direct Manipulation]","IDirectManipulationCompositor interface","directmanipulation.idirectmanipulationcompositor_removecontent","directmanipulation/IDirectManipulationCompositor::RemoveContent"]
 old-location: directmanipulation\idirectmanipulationcompositor_removecontent.htm
 tech.root: directmanipulation
 ms.assetid: 9bfb7fe4-abf9-4bb7-8d3f-673508053573

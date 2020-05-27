@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IAnalogLocator.put_VideoStandard
 title: IAnalogLocator::put_VideoStandard (tuner.h)
-description: The put_VideoStandard method specifies the format of the analog television signal.helpviewer_keywords: ["IAnalogLocator interface [Microsoft TV Technologies]","put_VideoStandard method","IAnalogLocator.put_VideoStandard","IAnalogLocator::put_VideoStandard","IAnalogLocatorput_VideoStandard","mstv.ianaloglocator_put_videostandard","put_VideoStandard","put_VideoStandard method [Microsoft TV Technologies]","put_VideoStandard method [Microsoft TV Technologies]","IAnalogLocator interface","tuner/IAnalogLocator::put_VideoStandard"]
+description: The put_VideoStandard method specifies the format of the analog television signal.
+helpviewer_keywords: ["IAnalogLocator interface [Microsoft TV Technologies]","put_VideoStandard method","IAnalogLocator.put_VideoStandard","IAnalogLocator::put_VideoStandard","IAnalogLocatorput_VideoStandard","mstv.ianaloglocator_put_videostandard","put_VideoStandard","put_VideoStandard method [Microsoft TV Technologies]","put_VideoStandard method [Microsoft TV Technologies]","IAnalogLocator interface","tuner/IAnalogLocator::put_VideoStandard"]
 old-location: mstv\ianaloglocator_put_videostandard.htm
 tech.root: mstv
 ms.assetid: 6af47a98-ceea-45dd-8a34-3f82ed8a66b1

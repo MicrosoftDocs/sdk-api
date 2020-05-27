@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYOUT
 title: DDGETPOLARITYOUT (ddkmapi.h)
-description: The DDGETPOLARITYOUT structure contains the requested polarity information.helpviewer_keywords: ["*LPDDGETPOLARITYOUT","DDGETPOLARITYOUT","DDGETPOLARITYOUT structure [Display Devices]","LPDDGETPOLARITYOUT","LPDDGETPOLARITYOUT structure pointer [Display Devices]","ddkmapi/DDGETPOLARITYOUT","ddkmapi/LPDDGETPOLARITYOUT","ddstrcts_fa20dcb8-4818-4c9d-8378-93c0fda09eff.xml","display.ddgetpolarityout"]
+description: The DDGETPOLARITYOUT structure contains the requested polarity information.
+helpviewer_keywords: ["*LPDDGETPOLARITYOUT","DDGETPOLARITYOUT","DDGETPOLARITYOUT structure [Display Devices]","LPDDGETPOLARITYOUT","LPDDGETPOLARITYOUT structure pointer [Display Devices]","ddkmapi/DDGETPOLARITYOUT","ddkmapi/LPDDGETPOLARITYOUT","ddstrcts_fa20dcb8-4818-4c9d-8378-93c0fda09eff.xml","display.ddgetpolarityout"]
 old-location: display\ddgetpolarityout.htm
 tech.root: display
 ms.assetid: f659ceff-39ba-4d74-98f2-ad12be730ffb

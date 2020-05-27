@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsAsync.Wait
 title: IVdsAsync::Wait (vdshwprv.h)
-description: Returns when the asynchronous operation has either finished successfully or failed.helpviewer_keywords: ["IVdsAsync interface [VDS]","Wait method","IVdsAsync.Wait","IVdsAsync::Wait","Wait","Wait method [VDS]","Wait method [VDS]","IVdsAsync interface","base.ivdsasync_wait","vds/IVdsAsync::Wait","vdshwprv/IVdsAsync::Wait"]
+description: Returns when the asynchronous operation has either finished successfully or failed.
+helpviewer_keywords: ["IVdsAsync interface [VDS]","Wait method","IVdsAsync.Wait","IVdsAsync::Wait","Wait","Wait method [VDS]","Wait method [VDS]","IVdsAsync interface","base.ivdsasync_wait","vds/IVdsAsync::Wait","vdshwprv/IVdsAsync::Wait"]
 old-location: base\ivdsasync_wait.htm
 tech.root: VDS
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2

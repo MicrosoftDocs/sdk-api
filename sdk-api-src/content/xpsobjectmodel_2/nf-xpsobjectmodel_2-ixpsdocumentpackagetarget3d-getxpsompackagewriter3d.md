@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 title: IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D (xpsobjectmodel_2.h)
-description: Gets a new IXpsOMPackageWriter3D object for the document package.helpviewer_keywords: ["GetXpsOMPackageWriter3D","GetXpsOMPackageWriter3D method [XPS Documents and Packaging]","GetXpsOMPackageWriter3D method [XPS Documents and Packaging]","IXpsDocumentPackageTarget3D interface","IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging]","GetXpsOMPackageWriter3D method","IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D","IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D","xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d","xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D"]
+description: Gets a new IXpsOMPackageWriter3D object for the document package.
+helpviewer_keywords: ["GetXpsOMPackageWriter3D","GetXpsOMPackageWriter3D method [XPS Documents and Packaging]","GetXpsOMPackageWriter3D method [XPS Documents and Packaging]","IXpsDocumentPackageTarget3D interface","IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging]","GetXpsOMPackageWriter3D method","IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D","IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D","xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d","xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D"]
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsompackagewriter3d.htm
 tech.root: printdocs
 ms.assetid: 2F3A6997-B325-4406-A731-5C2EAD875125

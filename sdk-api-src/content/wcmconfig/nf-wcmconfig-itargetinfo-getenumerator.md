@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetEnumerator
 title: ITargetInfo::GetEnumerator (wcmconfig.h)
-description: Gets the enumerator used to access the collection of offline properties.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [SMI]","GetEnumerator method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetEnumerator method","ITargetInfo.GetEnumerator","ITargetInfo::GetEnumerator","smi.itargetinfo_getenumerator","wcmconfig/ITargetInfo::GetEnumerator"]
+description: Gets the enumerator used to access the collection of offline properties.
+helpviewer_keywords: ["GetEnumerator","GetEnumerator method [SMI]","GetEnumerator method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetEnumerator method","ITargetInfo.GetEnumerator","ITargetInfo::GetEnumerator","smi.itargetinfo_getenumerator","wcmconfig/ITargetInfo::GetEnumerator"]
 old-location: smi\itargetinfo_getenumerator.htm
 tech.root: SMI
 ms.assetid: 2e7854dd-93eb-4626-a67d-4bd3dd79a75b

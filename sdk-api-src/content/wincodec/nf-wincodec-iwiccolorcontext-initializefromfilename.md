@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromFilename
 title: IWICColorContext::InitializeFromFilename (wincodec.h)
-description: Initializes the color context from the given file.helpviewer_keywords: ["IWICColorContext interface [Windows Imaging Component]","InitializeFromFilename method","IWICColorContext.InitializeFromFilename","IWICColorContext::InitializeFromFilename","InitializeFromFilename","InitializeFromFilename method [Windows Imaging Component]","InitializeFromFilename method [Windows Imaging Component]","IWICColorContext interface","_wic_codec_iwiccolorcontext_initializefromfilename","wic._wic_codec_iwiccolorcontext_initializefromfilename","wincodec/IWICColorContext::InitializeFromFilename"]
+description: Initializes the color context from the given file.
+helpviewer_keywords: ["IWICColorContext interface [Windows Imaging Component]","InitializeFromFilename method","IWICColorContext.InitializeFromFilename","IWICColorContext::InitializeFromFilename","InitializeFromFilename","InitializeFromFilename method [Windows Imaging Component]","InitializeFromFilename method [Windows Imaging Component]","IWICColorContext interface","_wic_codec_iwiccolorcontext_initializefromfilename","wic._wic_codec_iwiccolorcontext_initializefromfilename","wincodec/IWICColorContext::InitializeFromFilename"]
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromfilename.htm
 tech.root: wic
 ms.assetid: df1f841b-6b01-42d5-967d-47ec402f9b8c

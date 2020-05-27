@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Ex
 title: CM_Free_Log_Conf_Ex function (cfgmgr32.h)
-description: The CM_Free_Log_Conf_Ex function removes a logical configuration and all associated resource descriptors from either a local or a remote machine.helpviewer_keywords: ["CM_Free_Log_Conf_Ex","CM_Free_Log_Conf_Ex function [Device and Driver Installation]","cfgmgr32/CM_Free_Log_Conf_Ex","cfgmgrfn_fc80be77-fd05-4cca-9614-c8b5e524766a.xml","devinst.cm_free_log_conf_ex"]
+description: The CM_Free_Log_Conf_Ex function removes a logical configuration and all associated resource descriptors from either a local or a remote machine.
+helpviewer_keywords: ["CM_Free_Log_Conf_Ex","CM_Free_Log_Conf_Ex function [Device and Driver Installation]","cfgmgr32/CM_Free_Log_Conf_Ex","cfgmgrfn_fc80be77-fd05-4cca-9614-c8b5e524766a.xml","devinst.cm_free_log_conf_ex"]
 old-location: devinst\cm_free_log_conf_ex.htm
 tech.root: devinst
 ms.assetid: dd19400b-e83e-4feb-a968-b57656c9996c

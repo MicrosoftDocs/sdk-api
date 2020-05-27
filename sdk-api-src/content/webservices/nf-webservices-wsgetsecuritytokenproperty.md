@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetSecurityTokenProperty
 title: WsGetSecurityTokenProperty function (webservices.h)
-description: Extracts a field or a property from a security token.helpviewer_keywords: ["WsGetSecurityTokenProperty","WsGetSecurityTokenProperty function [Web Services for Windows]","webservices/WsGetSecurityTokenProperty","wsw.wsgetsecuritytokenproperty"]
+description: Extracts a field or a property from a security token.
+helpviewer_keywords: ["WsGetSecurityTokenProperty","WsGetSecurityTokenProperty function [Web Services for Windows]","webservices/WsGetSecurityTokenProperty","wsw.wsgetsecuritytokenproperty"]
 old-location: wsw\wsgetsecuritytokenproperty.htm
 tech.root: wsw
 ms.assetid: ce41062f-5125-4a4b-acc1-5df15b26276b

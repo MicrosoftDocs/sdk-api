@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.GetLastStatus
 title: Matrix::GetLastStatus (gdiplusmatrix.h)
-description: The Matrix::GetLastStatus method returns a value that indicates the nature of this Matrix object's most recent method failure.helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Matrix class","Matrix class [GDI+]","GetLastStatus method","Matrix.GetLastStatus","Matrix::GetLastStatus","_gdiplus_CLASS_Matrix_GetLastStatus_","gdiplus._gdiplus_CLASS_Matrix_GetLastStatus_"]
+description: The Matrix::GetLastStatus method returns a value that indicates the nature of this Matrix object's most recent method failure.
+helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Matrix class","Matrix class [GDI+]","GetLastStatus method","Matrix.GetLastStatus","Matrix::GetLastStatus","_gdiplus_CLASS_Matrix_GetLastStatus_","gdiplus._gdiplus_CLASS_Matrix_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getlaststatus_49.htm

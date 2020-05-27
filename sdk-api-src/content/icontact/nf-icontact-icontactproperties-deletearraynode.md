@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteArrayNode
 title: IContactProperties::DeleteArrayNode (icontact.h)
-description: Deletes the data at a specified array entry.helpviewer_keywords: ["DeleteArrayNode","DeleteArrayNode method [Windows Contacts]","DeleteArrayNode method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","DeleteArrayNode method","IContactProperties.DeleteArrayNode","IContactProperties::DeleteArrayNode","_wincontacts_IContactProperties_DeleteArrayNode","icontact/IContactProperties::DeleteArrayNode","wincontacts._wincontacts_IContactProperties_DeleteArrayNode"]
+description: Deletes the data at a specified array entry.
+helpviewer_keywords: ["DeleteArrayNode","DeleteArrayNode method [Windows Contacts]","DeleteArrayNode method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","DeleteArrayNode method","IContactProperties.DeleteArrayNode","IContactProperties::DeleteArrayNode","_wincontacts_IContactProperties_DeleteArrayNode","icontact/IContactProperties::DeleteArrayNode","wincontacts._wincontacts_IContactProperties_DeleteArrayNode"]
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteArrayNode.htm
 tech.root: wincontacts
 ms.assetid: a26dc392-1dd7-4dba-9802-b45c01d97493

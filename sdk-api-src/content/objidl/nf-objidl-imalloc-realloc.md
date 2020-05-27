@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMalloc.Realloc
 title: IMalloc::Realloc (objidl.h)
-description: Changes the size of a previously allocated block of memory.helpviewer_keywords: ["IMalloc interface [COM]","Realloc method","IMalloc.Realloc","IMalloc::Realloc","Realloc","Realloc method [COM]","Realloc method [COM]","IMalloc interface","_com_imalloc_realloc","com.imalloc_realloc","objidlbase/IMalloc::Realloc"]
+description: Changes the size of a previously allocated block of memory.
+helpviewer_keywords: ["IMalloc interface [COM]","Realloc method","IMalloc.Realloc","IMalloc::Realloc","Realloc","Realloc method [COM]","Realloc method [COM]","IMalloc interface","_com_imalloc_realloc","com.imalloc_realloc","objidlbase/IMalloc::Realloc"]
 old-location: com\imalloc_realloc.htm
 tech.root: com
 ms.assetid: 37de166a-04a5-4a10-83b3-dd19d0bb48a4

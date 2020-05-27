@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnInitDocumentMgr
 title: ITfThreadMgrEventSink::OnInitDocumentMgr (msctf.h)
-description: ITfThreadMgrEventSink::OnInitDocumentMgr methodhelpviewer_keywords: ["ITfThreadMgrEventSink interface [Text Services Framework]","OnInitDocumentMgr method","ITfThreadMgrEventSink.OnInitDocumentMgr","ITfThreadMgrEventSink::OnInitDocumentMgr","OnInitDocumentMgr","OnInitDocumentMgr method [Text Services Framework]","OnInitDocumentMgr method [Text Services Framework]","ITfThreadMgrEventSink interface","_tsf_itfthreadmgreventsink_oninitdocumentmgr_ref","msctf/ITfThreadMgrEventSink::OnInitDocumentMgr","tsf.itfthreadmgreventsink_oninitdocumentmgr"]
+description: ITfThreadMgrEventSink::OnInitDocumentMgr method
+helpviewer_keywords: ["ITfThreadMgrEventSink interface [Text Services Framework]","OnInitDocumentMgr method","ITfThreadMgrEventSink.OnInitDocumentMgr","ITfThreadMgrEventSink::OnInitDocumentMgr","OnInitDocumentMgr","OnInitDocumentMgr method [Text Services Framework]","OnInitDocumentMgr method [Text Services Framework]","ITfThreadMgrEventSink interface","_tsf_itfthreadmgreventsink_oninitdocumentmgr_ref","msctf/ITfThreadMgrEventSink::OnInitDocumentMgr","tsf.itfthreadmgreventsink_oninitdocumentmgr"]
 old-location: tsf\itfthreadmgreventsink_oninitdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 18586e51-66b6-4071-88b4-9b92d5449a45

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetUnderline
 title: ITextFont::SetUnderline (tom.h)
-description: Sets the type of underlining for the characters in a range.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetUnderline method","ITextFont.SetUnderline","ITextFont::SetUnderline","SetUnderline","SetUnderline method [Windows Controls]","SetUnderline method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetUnderline","_win32_ITextFont_SetUnderline_cpp","controls.ITextFont_SetUnderline","controls._win32_ITextFont_SetUnderline","tom/ITextFont::SetUnderline","tomDash","tomDashDot","tomDashDotDot","tomDotted","tomDouble","tomDoubleWave","tomHair","tomHeavyWave","tomLongDash","tomNone","tomSingle","tomThick","tomThickDash","tomThickDashDot","tomThickDashDotDot","tomThickDotted","tomThickLongDash","tomWave","tomWords"]
+description: Sets the type of underlining for the characters in a range.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetUnderline method","ITextFont.SetUnderline","ITextFont::SetUnderline","SetUnderline","SetUnderline method [Windows Controls]","SetUnderline method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetUnderline","_win32_ITextFont_SetUnderline_cpp","controls.ITextFont_SetUnderline","controls._win32_ITextFont_SetUnderline","tom/ITextFont::SetUnderline","tomDash","tomDashDot","tomDashDotDot","tomDotted","tomDouble","tomDoubleWave","tomHair","tomHeavyWave","tomLongDash","tomNone","tomSingle","tomThick","tomThickDash","tomThickDashDot","tomThickDashDotDot","tomThickDotted","tomThickLongDash","tomWave","tomWords"]
 old-location: controls\ITextFont_SetUnderline.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setunderline.htm

@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICEBEGIN
 title: LPNSPLOOKUPSERVICEBEGIN (ws2spi.h)
-description: Initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.helpviewer_keywords: ["LPNSPLOOKUPSERVICEBEGIN","LUP_ADDRCONFIG","LUP_CONTAINERS","LUP_DEEP","LUP_DUAL_ADDR","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_NON_AUTHORITATIVE","LUP_RES_RESERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_PREFERRED_NAMES","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","LUP_SECURE","NSPLookupServiceBegin","NSPLookupServiceBegin function [Winsock]","_win32_nsplookupservicebegin_2","winsock.nsplookupservicebegin_2","ws2spi/NSPLookupServiceBegin"]
+description: Initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
+helpviewer_keywords: ["LPNSPLOOKUPSERVICEBEGIN","LUP_ADDRCONFIG","LUP_CONTAINERS","LUP_DEEP","LUP_DUAL_ADDR","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_NON_AUTHORITATIVE","LUP_RES_RESERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_PREFERRED_NAMES","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","LUP_SECURE","NSPLookupServiceBegin","NSPLookupServiceBegin function [Winsock]","_win32_nsplookupservicebegin_2","winsock.nsplookupservicebegin_2","ws2spi/NSPLookupServiceBegin"]
 old-location: winsock\nsplookupservicebegin_2.htm
 tech.root: WinSock
 ms.assetid: a0b71821-4434-470f-b729-370d7e1722ec

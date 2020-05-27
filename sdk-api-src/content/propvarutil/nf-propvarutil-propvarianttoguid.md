@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToGUID
 title: PropVariantToGUID function (propvarutil.h)
-description: Extracts a GUID value from a PROPVARIANT structure.helpviewer_keywords: ["PropVariantToGUID","PropVariantToGUID function [Windows Properties]","properties.PropVariantToGUID","propvarutil/PropVariantToGUID","shell.PropVariantToGUID","shell_PropVariantToGUID"]
+description: Extracts a GUID value from a PROPVARIANT structure.
+helpviewer_keywords: ["PropVariantToGUID","PropVariantToGUID function [Windows Properties]","properties.PropVariantToGUID","propvarutil/PropVariantToGUID","shell.PropVariantToGUID","shell_PropVariantToGUID"]
 old-location: properties\PropVariantToGUID.htm
 tech.root: properties
 ms.assetid: cf1d884b-41d4-429a-afb7-c66c67526796

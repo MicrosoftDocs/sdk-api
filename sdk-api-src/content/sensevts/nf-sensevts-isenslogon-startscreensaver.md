@@ -1,7 +1,8 @@
 ---
 UID: NF:sensevts.ISensLogon.StartScreenSaver
 title: ISensLogon::StartScreenSaver (sensevts.h)
-description: The StartScreenSaver method notifies an application that a screen saver is started.helpviewer_keywords: ["ISensLogon interface [SENS]","StartScreenSaver method","ISensLogon.StartScreenSaver","ISensLogon::StartScreenSaver","StartScreenSaver","StartScreenSaver method [SENS]","StartScreenSaver method [SENS]","ISensLogon interface","_zaw_isenslogon_startscreensaver","sens.isenslogon_startscreensaver","sensevts/ISensLogon::StartScreenSaver","syncmgr.isenslogon_startscreensaver"]
+description: The StartScreenSaver method notifies an application that a screen saver is started.
+helpviewer_keywords: ["ISensLogon interface [SENS]","StartScreenSaver method","ISensLogon.StartScreenSaver","ISensLogon::StartScreenSaver","StartScreenSaver","StartScreenSaver method [SENS]","StartScreenSaver method [SENS]","ISensLogon interface","_zaw_isenslogon_startscreensaver","sens.isenslogon_startscreensaver","sensevts/ISensLogon::StartScreenSaver","syncmgr.isenslogon_startscreensaver"]
 old-location: sens\isenslogon_startscreensaver.htm
 tech.root: Sens
 ms.assetid: 47531e1f-e2d4-4475-a109-e213c903a7ba

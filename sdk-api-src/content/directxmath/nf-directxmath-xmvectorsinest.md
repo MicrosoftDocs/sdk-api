@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSinEst
 title: XMVectorSinEst function (directxmath.h)
-description: Estimates the sine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorSinEst","XMVectorSinEst","XMVectorSinEst method [DirectX Math Support APIs]","dxmath.xmvectorsinest"]
+description: Estimates the sine of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorSinEst","XMVectorSinEst","XMVectorSinEst method [DirectX Math Support APIs]","dxmath.xmvectorsinest"]
 old-location: dxmath\xmvectorsinest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinEst(XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.IsStringSupported
 title: IInkRecognizerContext::IsStringSupported (msinkaut.h)
-description: Indicates whether the system dictionary, user dictionary, or word list contain a specified string.helpviewer_keywords: ["5344044a-0973-4ab2-bf5c-74e0d07d4e76","IInkRecognizerContext interface [Tablet PC]","IsStringSupported method","IInkRecognizerContext.IsStringSupported","IInkRecognizerContext::IsStringSupported","IsStringSupported","IsStringSupported method [Tablet PC]","IsStringSupported method [Tablet PC]","IInkRecognizerContext interface","msinkaut/IInkRecognizerContext::IsStringSupported","tablet.inkrecognizercontext_isstringsupported"]
+description: Indicates whether the system dictionary, user dictionary, or word list contain a specified string.
+helpviewer_keywords: ["5344044a-0973-4ab2-bf5c-74e0d07d4e76","IInkRecognizerContext interface [Tablet PC]","IsStringSupported method","IInkRecognizerContext.IsStringSupported","IInkRecognizerContext::IsStringSupported","IsStringSupported","IsStringSupported method [Tablet PC]","IsStringSupported method [Tablet PC]","IInkRecognizerContext interface","msinkaut/IInkRecognizerContext::IsStringSupported","tablet.inkrecognizercontext_isstringsupported"]
 old-location: tablet\inkrecognizercontext_isstringsupported.htm
 tech.root: tablet
 ms.assetid: 5344044a-0973-4ab2-bf5c-74e0d07d4e76

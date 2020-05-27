@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleId
 title: IIsdbDownloadContentDescriptor::GetRecordModuleId (dvbsiparser.h)
-description: Gets the identifier from an Integrated Services Digital Broadcasting (ISDB) download content descriptor that specifies the carousel used for downloading.helpviewer_keywords: ["GetRecordModuleId","GetRecordModuleId method [Microsoft TV Technologies]","GetRecordModuleId method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetRecordModuleId method","IIsdbDownloadContentDescriptor.GetRecordModuleId","IIsdbDownloadContentDescriptor::GetRecordModuleId","dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleId","mstv.iisdbdownloadcontentdescriptor_getrecordmoduleid"]
+description: Gets the identifier from an Integrated Services Digital Broadcasting (ISDB) download content descriptor that specifies the carousel used for downloading.
+helpviewer_keywords: ["GetRecordModuleId","GetRecordModuleId method [Microsoft TV Technologies]","GetRecordModuleId method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetRecordModuleId method","IIsdbDownloadContentDescriptor.GetRecordModuleId","IIsdbDownloadContentDescriptor::GetRecordModuleId","dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleId","mstv.iisdbdownloadcontentdescriptor_getrecordmoduleid"]
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleid.htm
 tech.root: mstv
 ms.assetid: c714b2f2-e787-40cc-b57b-d56b54dc8966

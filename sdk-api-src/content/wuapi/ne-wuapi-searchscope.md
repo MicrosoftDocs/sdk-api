@@ -1,7 +1,8 @@
 ---
 UID: NE:wuapi.tagSearchScope
 title: SearchScope (wuapi.h)
-description: Defines the variety of updates that should be returned by the search:\_per-machine updates, per-user updates, or both.helpviewer_keywords: ["SearchScope","SearchScope","SearchScope enumeration [Windows Update Agent]","searchScopeAllUsers","searchScopeCurrentUserOnly","searchScopeDefault","searchScopeMachineAndAllUsers","searchScopeMachineAndCurrentUser","searchScopeMachineOnly","wua.searchscope","wuapi/SearchScope","wuapi/searchScopeAllUsers","wuapi/searchScopeCurrentUserOnly","wuapi/searchScopeDefault","wuapi/searchScopeMachineAndAllUsers","wuapi/searchScopeMachineAndCurrentUser","wuapi/searchScopeMachineOnly"]
+description: Defines the variety of updates that should be returned by the search:\_per-machine updates, per-user updates, or both.
+helpviewer_keywords: ["SearchScope","SearchScope","SearchScope enumeration [Windows Update Agent]","searchScopeAllUsers","searchScopeCurrentUserOnly","searchScopeDefault","searchScopeMachineAndAllUsers","searchScopeMachineAndCurrentUser","searchScopeMachineOnly","wua.searchscope","wuapi/SearchScope","wuapi/searchScopeAllUsers","wuapi/searchScopeCurrentUserOnly","wuapi/searchScopeDefault","wuapi/searchScopeMachineAndAllUsers","wuapi/searchScopeMachineAndCurrentUser","wuapi/searchScopeMachineOnly"]
 old-location: wua\searchscope.htm
 tech.root: Wua_Sdk
 ms.assetid: a7b6a930-7b79-42dc-a4b0-da2eca0dff5c

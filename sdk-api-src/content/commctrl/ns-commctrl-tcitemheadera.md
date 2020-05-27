@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTCITEMHEADERA
 title: TCITEMHEADERA (commctrl.h)
-description: Specifies or receives the attributes of a tab. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEMHEADER structure.helpviewer_keywords: ["*LPTCITEMHEADERA","LPTCITEMHEADER","LPTCITEMHEADER structure pointer [Windows Controls]","TCIF_IMAGE","TCIF_RTLREADING","TCIF_TEXT","TCITEMHEADER","TCITEMHEADER structure [Windows Controls]","TCITEMHEADERA","TCITEMHEADERW","_win32_TCITEMHEADER","_win32_TCITEMHEADER_cpp","commctrl/LPTCITEMHEADER","commctrl/TCITEMHEADER","commctrl/TCITEMHEADERA","commctrl/TCITEMHEADERW","controls.TCITEMHEADER","controls._win32_TCITEMHEADER"]
+description: Specifies or receives the attributes of a tab. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEMHEADER structure.
+helpviewer_keywords: ["*LPTCITEMHEADERA","LPTCITEMHEADER","LPTCITEMHEADER structure pointer [Windows Controls]","TCIF_IMAGE","TCIF_RTLREADING","TCIF_TEXT","TCITEMHEADER","TCITEMHEADER structure [Windows Controls]","TCITEMHEADERA","TCITEMHEADERW","_win32_TCITEMHEADER","_win32_TCITEMHEADER_cpp","commctrl/LPTCITEMHEADER","commctrl/TCITEMHEADER","commctrl/TCITEMHEADERA","commctrl/TCITEMHEADERW","controls.TCITEMHEADER","controls._win32_TCITEMHEADER"]
 old-location: controls\TCITEMHEADER.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitemheader.htm

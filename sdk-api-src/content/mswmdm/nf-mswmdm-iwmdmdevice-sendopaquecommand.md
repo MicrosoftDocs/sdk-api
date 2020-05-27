@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.SendOpaqueCommand
 title: IWMDMDevice::SendOpaqueCommand (mswmdm.h)
-description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.helpviewer_keywords: ["IWMDMDevice interface [windows Media Device Manager]","SendOpaqueCommand method","IWMDMDevice.SendOpaqueCommand","IWMDMDevice::SendOpaqueCommand","IWMDMDeviceSendOpaqueCommand","SendOpaqueCommand","SendOpaqueCommand method [windows Media Device Manager]","SendOpaqueCommand method [windows Media Device Manager]","IWMDMDevice interface","mswmdm/IWMDMDevice::SendOpaqueCommand","wmdm.iwmdmdevice_sendopaquecommand"]
+description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
+helpviewer_keywords: ["IWMDMDevice interface [windows Media Device Manager]","SendOpaqueCommand method","IWMDMDevice.SendOpaqueCommand","IWMDMDevice::SendOpaqueCommand","IWMDMDeviceSendOpaqueCommand","SendOpaqueCommand","SendOpaqueCommand method [windows Media Device Manager]","SendOpaqueCommand method [windows Media Device Manager]","IWMDMDevice interface","mswmdm/IWMDMDevice::SendOpaqueCommand","wmdm.iwmdmdevice_sendopaquecommand"]
 old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
 tech.root: WMDM
 ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992

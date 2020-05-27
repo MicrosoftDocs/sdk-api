@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmLockNextHop
 title: RtmLockNextHop function (rtmv2.h)
-description: The RtmLockNextHop function locks or unlocks a next hop. This function should be called by the next hop's owner to lock the next hop before making changes to the next hop. A pointer to the next hop is returned.helpviewer_keywords: ["RtmLockNextHop","RtmLockNextHop function [RAS]","_rtmv2ref_rtmlocknexthop","rras.rtmlocknexthop","rtmv2/RtmLockNextHop"]
+description: The RtmLockNextHop function locks or unlocks a next hop. This function should be called by the next hop's owner to lock the next hop before making changes to the next hop. A pointer to the next hop is returned.
+helpviewer_keywords: ["RtmLockNextHop","RtmLockNextHop function [RAS]","_rtmv2ref_rtmlocknexthop","rras.rtmlocknexthop","rtmv2/RtmLockNextHop"]
 old-location: rras\rtmlocknexthop.htm
 tech.root: RRAS
 ms.assetid: f5b6d430-a50e-49fc-8274-81bac1300477

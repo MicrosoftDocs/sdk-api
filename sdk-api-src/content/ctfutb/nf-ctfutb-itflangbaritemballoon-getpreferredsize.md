@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetPreferredSize
 title: ITfLangBarItemBalloon::GetPreferredSize (ctfutb.h)
-description: ITfLangBarItemBalloon::GetPreferredSize methodhelpviewer_keywords: ["GetPreferredSize","GetPreferredSize method [Text Services Framework]","GetPreferredSize method [Text Services Framework]","ITfLangBarItemBalloon interface","ITfLangBarItemBalloon interface [Text Services Framework]","GetPreferredSize method","ITfLangBarItemBalloon.GetPreferredSize","ITfLangBarItemBalloon::GetPreferredSize","_tsf_itflangbaritemballoon_getpreferredsize_ref","ctfutb/ITfLangBarItemBalloon::GetPreferredSize","tsf.itflangbaritemballoon_getpreferredsize"]
+description: ITfLangBarItemBalloon::GetPreferredSize method
+helpviewer_keywords: ["GetPreferredSize","GetPreferredSize method [Text Services Framework]","GetPreferredSize method [Text Services Framework]","ITfLangBarItemBalloon interface","ITfLangBarItemBalloon interface [Text Services Framework]","GetPreferredSize method","ITfLangBarItemBalloon.GetPreferredSize","ITfLangBarItemBalloon::GetPreferredSize","_tsf_itflangbaritemballoon_getpreferredsize_ref","ctfutb/ITfLangBarItemBalloon::GetPreferredSize","tsf.itflangbaritemballoon_getpreferredsize"]
 old-location: tsf\itflangbaritemballoon_getpreferredsize.htm
 tech.root: TSF
 ms.assetid: 73f3a12e-b787-424e-9998-276baee63264

@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IEnumComponents
 title: IEnumComponents (tuner.h)
-description: The IEnumComponents interface provides a standard COM enumeration object for the components (substreams) in a given program stream.helpviewer_keywords: ["IEnumComponents","IEnumComponents interface [Microsoft TV Technologies]","IEnumComponents interface [Microsoft TV Technologies]","described","IEnumComponentsInterface","mstv.ienumcomponents","tuner/IEnumComponents"]
+description: The IEnumComponents interface provides a standard COM enumeration object for the components (substreams) in a given program stream.
+helpviewer_keywords: ["IEnumComponents","IEnumComponents interface [Microsoft TV Technologies]","IEnumComponents interface [Microsoft TV Technologies]","described","IEnumComponentsInterface","mstv.ienumcomponents","tuner/IEnumComponents"]
 old-location: mstv\ienumcomponents.htm
 tech.root: mstv
 ms.assetid: 8811021c-8c14-4be6-8802-76b942bb34d8

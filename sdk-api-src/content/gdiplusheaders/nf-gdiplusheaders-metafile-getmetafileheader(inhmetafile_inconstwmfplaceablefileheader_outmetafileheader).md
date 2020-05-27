@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader)
 title: Metafile::GetMetafileHeader
-description: The Metafile::GetMetafileHeader method gets the metafile header of this metafile.helpviewer_keywords: ["Metafile::GetMetafileHeader"]
+description: The Metafile::GetMetafileHeader method gets the metafile header of this metafile.
+helpviewer_keywords: ["Metafile::GetMetafileHeader"]
 ms.assetid: 5d12078c-4492-4bd1-a68b-8ff06dede784
 ms.date: 05/20/2019
 ms.keywords: Metafile::GetMetafileHeader

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByID
 title: IWMProfileManager::LoadProfileByID (wmsdkidl.h)
-description: The LoadProfileByID method loads a system profile identified by its globally unique identifier. To load a custom profile, use IWMProfileManager::LoadProfileByData.helpviewer_keywords: ["IWMProfileManager interface [windows Media Format]","LoadProfileByID method","IWMProfileManager.LoadProfileByID","IWMProfileManager::LoadProfileByID","IWMProfileManagerLoadProfileByID","LoadProfileByID","LoadProfileByID method [windows Media Format]","LoadProfileByID method [windows Media Format]","IWMProfileManager interface","wmformat.iwmprofilemanager_loadprofilebyid","wmsdkidl/IWMProfileManager::LoadProfileByID"]
+description: The LoadProfileByID method loads a system profile identified by its globally unique identifier. To load a custom profile, use IWMProfileManager::LoadProfileByData.
+helpviewer_keywords: ["IWMProfileManager interface [windows Media Format]","LoadProfileByID method","IWMProfileManager.LoadProfileByID","IWMProfileManager::LoadProfileByID","IWMProfileManagerLoadProfileByID","LoadProfileByID","LoadProfileByID method [windows Media Format]","LoadProfileByID method [windows Media Format]","IWMProfileManager interface","wmformat.iwmprofilemanager_loadprofilebyid","wmsdkidl/IWMProfileManager::LoadProfileByID"]
 old-location: wmformat\iwmprofilemanager_loadprofilebyid.htm
 tech.root: wmformat
 ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb

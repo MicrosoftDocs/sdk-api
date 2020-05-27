@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterX(IDCompositionAnimation)
 title: IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the CenterX property of a 2D rotation transform.helpviewer_keywords: ["IDCompositionRotateTransform interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform.SetCenterX","IDCompositionRotateTransform.SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform::SetCenterX","IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation*)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform interface","dcomp/IDCompositionRotateTransform::SetCenterX","directcomp.idcompositionrotatetransform_setcenterx_idcompositionanimation"]
+description: Animates the value of the CenterX property of a 2D rotation transform.
+helpviewer_keywords: ["IDCompositionRotateTransform interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform.SetCenterX","IDCompositionRotateTransform.SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform::SetCenterX","IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform::SetCenterX(IDCompositionAnimation*)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform interface","dcomp/IDCompositionRotateTransform::SetCenterX","directcomp.idcompositionrotatetransform_setcenterx_idcompositionanimation"]
 old-location: directcomp\idcompositionrotatetransform_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 9E04CEF1-FC36-46AE-BD63-3154BDB26034

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1GradientMesh.GetPatchCount
 title: ID2D1GradientMesh::GetPatchCount (d2d1_3.h)
-description: Returns the number of patches that make up this gradient mesh.helpviewer_keywords: ["GetPatchCount","GetPatchCount method [Direct2D]","GetPatchCount method [Direct2D]","ID2D1GradientMesh interface","ID2D1GradientMesh interface [Direct2D]","GetPatchCount method","ID2D1GradientMesh.GetPatchCount","ID2D1GradientMesh::GetPatchCount","d2d1_3/ID2D1GradientMesh::GetPatchCount","direct2d.id2d1gradientmesh_getpatchcount"]
+description: Returns the number of patches that make up this gradient mesh.
+helpviewer_keywords: ["GetPatchCount","GetPatchCount method [Direct2D]","GetPatchCount method [Direct2D]","ID2D1GradientMesh interface","ID2D1GradientMesh interface [Direct2D]","GetPatchCount method","ID2D1GradientMesh.GetPatchCount","ID2D1GradientMesh::GetPatchCount","d2d1_3/ID2D1GradientMesh::GetPatchCount","direct2d.id2d1gradientmesh_getpatchcount"]
 old-location: direct2d\id2d1gradientmesh_getpatchcount.htm
 tech.root: Direct2D
 ms.assetid: 389bc25d-832c-56de-3568-d136f60b935f

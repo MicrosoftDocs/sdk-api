@@ -1,7 +1,8 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerFree
 title: PssWalkMarkerFree function (processsnapshot.h)
-description: Frees a walk marker created by PssWalkMarkerCreate.helpviewer_keywords: ["PssWalkMarkerFree","PssWalkMarkerFree function","proc_snap.psswalkmarkerfree","processsnapshot/PssWalkMarkerFree"]
+description: Frees a walk marker created by PssWalkMarkerCreate.
+helpviewer_keywords: ["PssWalkMarkerFree","PssWalkMarkerFree function","proc_snap.psswalkmarkerfree","processsnapshot/PssWalkMarkerFree"]
 old-location: proc_snap\psswalkmarkerfree.htm
 tech.root: proc_snap
 ms.assetid: 74158846-6A5F-4F81-B4D7-46DED1EE017C

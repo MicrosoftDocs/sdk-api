@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.DeleteIPAddress
 title: DeleteIPAddress function (iphlpapi.h)
-description: The DeleteIPAddress function deletes an IP address previously added using AddIPAddress.helpviewer_keywords: ["DeleteIPAddress","DeleteIPAddress function [IP Helper]","_iphlp_deleteipaddress","iphlp.deleteipaddress","iphlpapi/DeleteIPAddress"]
+description: The DeleteIPAddress function deletes an IP address previously added using AddIPAddress.
+helpviewer_keywords: ["DeleteIPAddress","DeleteIPAddress function [IP Helper]","_iphlp_deleteipaddress","iphlp.deleteipaddress","iphlpapi/DeleteIPAddress"]
 old-location: iphlp\deleteipaddress.htm
 tech.root: IpHlp
 ms.assetid: d7ed986d-d62e-4723-ab74-85c3edfdf4ff

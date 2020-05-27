@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSARecvDisconnect
 title: WSARecvDisconnect function (winsock2.h)
-description: The WSARecvDisconnect function terminates reception on a socket, and retrieves the disconnect data if the socket is connection oriented.helpviewer_keywords: ["WSARecvDisconnect","WSARecvDisconnect function [Winsock]","_win32_wsarecvdisconnect_2","winsock.wsarecvdisconnect_2","winsock2/WSARecvDisconnect"]
+description: The WSARecvDisconnect function terminates reception on a socket, and retrieves the disconnect data if the socket is connection oriented.
+helpviewer_keywords: ["WSARecvDisconnect","WSARecvDisconnect function [Winsock]","_win32_wsarecvdisconnect_2","winsock.wsarecvdisconnect_2","winsock2/WSARecvDisconnect"]
 old-location: winsock\wsarecvdisconnect_2.htm
 tech.root: WinSock
 ms.assetid: 33e0fb8e-3ece-427f-b3ef-43a0f5cf0cc8

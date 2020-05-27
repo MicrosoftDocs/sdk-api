@@ -1,7 +1,8 @@
 ---
 UID: NN:rendezvoussession.IRendezvousSession
 title: IRendezvousSession (rendezvoussession.h)
-description: Exposes methods that send data about the session and that can terminate it.helpviewer_keywords: ["IRendezvousSession","IRendezvousSession interface [Remote Assistance]","IRendezvousSession interface [Remote Assistance]","described","remoteassist.remoteassist_IRendezvousSession","remoteassist_IRendezvousSession","rendezvoussession/IRendezvousSession"]
+description: Exposes methods that send data about the session and that can terminate it.
+helpviewer_keywords: ["IRendezvousSession","IRendezvousSession interface [Remote Assistance]","IRendezvousSession interface [Remote Assistance]","described","remoteassist.remoteassist_IRendezvousSession","remoteassist_IRendezvousSession","rendezvoussession/IRendezvousSession"]
 old-location: remoteassist\remoteassist_IRendezvousSession.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\iRendezvousSession.htm

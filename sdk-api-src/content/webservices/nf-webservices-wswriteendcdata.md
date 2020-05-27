@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteEndCData
 title: WsWriteEndCData function (webservices.h)
-description: Ends a CDATA section in the writer.helpviewer_keywords: ["WsWriteEndCData","WsWriteEndCData function [Web Services for Windows]","webservices/WsWriteEndCData","wsw.wswriteendcdata"]
+description: Ends a CDATA section in the writer.
+helpviewer_keywords: ["WsWriteEndCData","WsWriteEndCData function [Web Services for Windows]","webservices/WsWriteEndCData","wsw.wswriteendcdata"]
 old-location: wsw\wswriteendcdata.htm
 tech.root: wsw
 ms.assetid: 7b8c27b8-4540-4d47-9622-904428233d30

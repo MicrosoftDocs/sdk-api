@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMTVTuner
 title: IAMTVTuner (strmif.h)
-description: The IAMTVTuner interface controls a TV tuner.helpviewer_keywords: ["IAMTVTuner","IAMTVTuner interface [DirectShow]","IAMTVTuner interface [DirectShow]","described","IAMTVTunerInterface","dshow.iamtvtuner","strmif/IAMTVTuner"]
+description: The IAMTVTuner interface controls a TV tuner.
+helpviewer_keywords: ["IAMTVTuner","IAMTVTuner interface [DirectShow]","IAMTVTuner interface [DirectShow]","described","IAMTVTunerInterface","dshow.iamtvtuner","strmif/IAMTVTuner"]
 old-location: dshow\iamtvtuner.htm
 tech.root: DirectShow
 ms.assetid: 1c8300c2-be13-4e4c-aa0c-53ce57bc9152

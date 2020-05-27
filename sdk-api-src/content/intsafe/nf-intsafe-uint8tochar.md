@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UInt8ToChar
 title: UInt8ToChar function (intsafe.h)
-description: Converts a value of type UINT8 to a value of type CHAR.helpviewer_keywords: ["UInt8ToChar","UInt8ToChar function [Windows Shell]","intsafe/UInt8ToChar","shell.UInt8ToChar"]
+description: Converts a value of type UINT8 to a value of type CHAR.
+helpviewer_keywords: ["UInt8ToChar","UInt8ToChar function [Windows Shell]","intsafe/UInt8ToChar","shell.UInt8ToChar"]
 old-location: shell\UInt8ToChar.htm
 tech.root: shell
 ms.assetid: f622eab3-4815-465a-823e-c52f1cb1c126

@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICPngBkgdProperties
 title: WICPngBkgdProperties (wincodec.h)
-description: Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.helpviewer_keywords: ["WICPngBkgdBackgroundColor","WICPngBkgdProperties","WICPngBkgdProperties enumeration [Windows Imaging Component]","_wic_codec_wicpngbkgdproperties","wic._wic_codec_wicpngbkgdproperties","wincodec/WICPngBkgdBackgroundColor","wincodec/WICPngBkgdProperties"]
+description: Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
+helpviewer_keywords: ["WICPngBkgdBackgroundColor","WICPngBkgdProperties","WICPngBkgdProperties enumeration [Windows Imaging Component]","_wic_codec_wicpngbkgdproperties","wic._wic_codec_wicpngbkgdproperties","wincodec/WICPngBkgdBackgroundColor","wincodec/WICPngBkgdProperties"]
 old-location: wic\_wic_codec_wicpngbkgdproperties.htm
 tech.root: wic
 ms.assetid: 979f6a91-79a2-4eba-8957-e2908636cdc5

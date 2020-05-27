@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPicture.SelectPicture
 title: IPicture::SelectPicture (ocidl.h)
-description: Selects a bitmap picture into a given device context, and returns the device context in which the picture was previously selected as well as the picture's GDI handle. This method works in conjunction with IPicture::get_CurDC.helpviewer_keywords: ["IPicture interface [COM]","SelectPicture method","IPicture.SelectPicture","IPicture::SelectPicture","SelectPicture","SelectPicture method [COM]","SelectPicture method [COM]","IPicture interface","_ctrl_ipicture_selectpicture","com.ipicture_selectpicture","ocidl/IPicture::SelectPicture"]
+description: Selects a bitmap picture into a given device context, and returns the device context in which the picture was previously selected as well as the picture's GDI handle. This method works in conjunction with IPicture::get_CurDC.
+helpviewer_keywords: ["IPicture interface [COM]","SelectPicture method","IPicture.SelectPicture","IPicture::SelectPicture","SelectPicture","SelectPicture method [COM]","SelectPicture method [COM]","IPicture interface","_ctrl_ipicture_selectpicture","com.ipicture_selectpicture","ocidl/IPicture::SelectPicture"]
 old-location: com\ipicture_selectpicture.htm
 tech.root: com
 ms.assetid: 4168dbf7-ccc3-49ee-9b04-b0370eb389af

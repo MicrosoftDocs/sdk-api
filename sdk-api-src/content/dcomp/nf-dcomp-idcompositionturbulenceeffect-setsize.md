@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetSize
 title: IDCompositionTurbulenceEffect::SetSize (dcomp.h)
-description: Sets the size of the turbulence output.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetSize method","IDCompositionTurbulenceEffect.SetSize","IDCompositionTurbulenceEffect::SetSize","SetSize","SetSize method [DirectComposition]","SetSize method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetSize","directcomp.idcompositionturbulenceeffect_setsize"]
+description: Sets the size of the turbulence output.
+helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetSize method","IDCompositionTurbulenceEffect.SetSize","IDCompositionTurbulenceEffect::SetSize","SetSize","SetSize method [DirectComposition]","SetSize method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetSize","directcomp.idcompositionturbulenceeffect_setsize"]
 old-location: directcomp\idcompositionturbulenceeffect_setsize.htm
 tech.root: directcomp
 ms.assetid: A25788DC-83EE-455F-BC73-67639F47FFEC

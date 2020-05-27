@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMStreamControl.StartAt
 title: IAMStreamControl::StartAt (strmif.h)
-description: The StartAt method informs the pin when to start delivering data.helpviewer_keywords: ["IAMStreamControl interface [DirectShow]","StartAt method","IAMStreamControl.StartAt","IAMStreamControl::StartAt","IAMStreamControlStartAt","StartAt","StartAt method [DirectShow]","StartAt method [DirectShow]","IAMStreamControl interface","dshow.iamstreamcontrol_startat","strmif/IAMStreamControl::StartAt"]
+description: The StartAt method informs the pin when to start delivering data.
+helpviewer_keywords: ["IAMStreamControl interface [DirectShow]","StartAt method","IAMStreamControl.StartAt","IAMStreamControl::StartAt","IAMStreamControlStartAt","StartAt","StartAt method [DirectShow]","StartAt method [DirectShow]","IAMStreamControl interface","dshow.iamstreamcontrol_startat","strmif/IAMStreamControl::StartAt"]
 old-location: dshow\iamstreamcontrol_startat.htm
 tech.root: DirectShow
 ms.assetid: ce155b83-ee4a-47d4-9258-a1d18cf25f8b

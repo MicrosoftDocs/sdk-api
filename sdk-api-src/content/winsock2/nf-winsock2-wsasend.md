@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSASend
 title: WSASend function (winsock2.h)
-description: Sends data on a connected socket.helpviewer_keywords: ["WSASend","WSASend function [Winsock]","_win32_wsasend_2","winsock.wsasend_2","winsock2/WSASend"]
+description: Sends data on a connected socket.
+helpviewer_keywords: ["WSASend","WSASend function [Winsock]","_win32_wsasend_2","winsock.wsasend_2","winsock2/WSASend"]
 old-location: winsock\wsasend_2.htm
 tech.root: WinSock
 ms.assetid: 764339e6-a1ac-455d-8ebd-ad0fa50dc3b0

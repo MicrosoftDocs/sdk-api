@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocator
 title: IMFVideoSampleAllocator (mfidl.h)
-description: Allocates video samples for a video media sink.helpviewer_keywords: ["IMFVideoSampleAllocator","IMFVideoSampleAllocator interface [Media Foundation]","IMFVideoSampleAllocator interface [Media Foundation]","described","bef92133-ae6c-4013-9210-5e0f0be2002c","mf.imfvideosampleallocator","mfidl/IMFVideoSampleAllocator"]
+description: Allocates video samples for a video media sink.
+helpviewer_keywords: ["IMFVideoSampleAllocator","IMFVideoSampleAllocator interface [Media Foundation]","IMFVideoSampleAllocator interface [Media Foundation]","described","bef92133-ae6c-4013-9210-5e0f0be2002c","mf.imfvideosampleallocator","mfidl/IMFVideoSampleAllocator"]
 old-location: mf\imfvideosampleallocator.htm
 tech.root: medfound
 ms.assetid: bef92133-ae6c-4013-9210-5e0f0be2002c

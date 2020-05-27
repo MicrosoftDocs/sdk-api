@@ -1,7 +1,8 @@
 ---
 UID: NF:mgm.MgmGetFirstMfeStats
 title: MgmGetFirstMfeStats function (mgm.h)
-description: The MgmGetFirstMfeStats function retrieves MFE statistics starting at the beginning of the MFE list.helpviewer_keywords: ["MGM_MFE_STATS_0","MGM_MFE_STATS_1","MgmGetFirstMfeStats","MgmGetFirstMfeStats function [RAS]","_mpr_mgmgetfirstmfestats","mgm/MgmGetFirstMfeStats","rras.mgmgetfirstmfestats"]
+description: The MgmGetFirstMfeStats function retrieves MFE statistics starting at the beginning of the MFE list.
+helpviewer_keywords: ["MGM_MFE_STATS_0","MGM_MFE_STATS_1","MgmGetFirstMfeStats","MgmGetFirstMfeStats function [RAS]","_mpr_mgmgetfirstmfestats","mgm/MgmGetFirstMfeStats","rras.mgmgetfirstmfestats"]
 old-location: rras\mgmgetfirstmfestats.htm
 tech.root: RRAS
 ms.assetid: b546c1a6-31a7-4053-9494-6903faa4df52

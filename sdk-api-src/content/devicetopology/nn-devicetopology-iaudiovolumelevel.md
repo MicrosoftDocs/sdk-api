@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioVolumeLevel
 title: IAudioVolumeLevel (devicetopology.h)
-description: The IAudioVolumeLevel interface provides access to a hardware volume control.helpviewer_keywords: ["IAudioVolumeLevel","IAudioVolumeLevel interface [Core Audio]","IAudioVolumeLevel interface [Core Audio]","described","coreaudio.iaudiovolumelevel","devicetopology/IAudioVolumeLevel"]
+description: The IAudioVolumeLevel interface provides access to a hardware volume control.
+helpviewer_keywords: ["IAudioVolumeLevel","IAudioVolumeLevel interface [Core Audio]","IAudioVolumeLevel interface [Core Audio]","described","coreaudio.iaudiovolumelevel","devicetopology/IAudioVolumeLevel"]
 old-location: coreaudio\iaudiovolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 5e7d7111-e4b0-43b3-af35-9878d1a19e5f

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetSpaceBefore
 title: ITextPara::GetSpaceBefore (tom.h)
-description: Retrieves the amount of vertical space above a paragraph.helpviewer_keywords: ["GetSpaceBefore","GetSpaceBefore method [Windows Controls]","GetSpaceBefore method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetSpaceBefore method","ITextPara.GetSpaceBefore","ITextPara::GetSpaceBefore","_win32_ITextPara_GetSpaceBefore","_win32_ITextPara_GetSpaceBefore_cpp","controls.ITextPara_GetSpaceBefore","controls._win32_ITextPara_GetSpaceBefore","tom/ITextPara::GetSpaceBefore"]
+description: Retrieves the amount of vertical space above a paragraph.
+helpviewer_keywords: ["GetSpaceBefore","GetSpaceBefore method [Windows Controls]","GetSpaceBefore method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetSpaceBefore method","ITextPara.GetSpaceBefore","ITextPara::GetSpaceBefore","_win32_ITextPara_GetSpaceBefore","_win32_ITextPara_GetSpaceBefore_cpp","controls.ITextPara_GetSpaceBefore","controls._win32_ITextPara_GetSpaceBefore","tom/ITextPara::GetSpaceBefore"]
 old-location: controls\ITextPara_GetSpaceBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacebefore.htm

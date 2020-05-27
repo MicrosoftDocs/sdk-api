@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.AllocateNtmsMedia
 title: AllocateNtmsMedia function (ntmsapi.h)
-description: The AllocateNtmsMedia function allocates a piece of available media.helpviewer_keywords: ["AllocateNtmsMedia","AllocateNtmsMedia function [Files]","NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE","NTMS_ALLOCATE_NEW","NTMS_ALLOCATE_NEXT","_zaw_allocatentmsmedia","base.allocatentmsmedia","fs.allocatentmsmedia","ntmsapi/AllocateNtmsMedia"]
+description: The AllocateNtmsMedia function allocates a piece of available media.
+helpviewer_keywords: ["AllocateNtmsMedia","AllocateNtmsMedia function [Files]","NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE","NTMS_ALLOCATE_NEW","NTMS_ALLOCATE_NEXT","_zaw_allocatentmsmedia","base.allocatentmsmedia","fs.allocatentmsmedia","ntmsapi/AllocateNtmsMedia"]
 old-location: fs\allocatentmsmedia.htm
 tech.root: Rsm
 ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600

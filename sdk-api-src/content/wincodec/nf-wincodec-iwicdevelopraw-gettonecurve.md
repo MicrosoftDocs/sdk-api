@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetToneCurve
 title: IWICDevelopRaw::GetToneCurve (wincodec.h)
-description: Gets the tone curve of the raw image.helpviewer_keywords: ["GetToneCurve","GetToneCurve method [Windows Imaging Component]","GetToneCurve method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetToneCurve method","IWICDevelopRaw.GetToneCurve","IWICDevelopRaw::GetToneCurve","_wic_codec_iwicdevelopraw_gettonecurve","wic._wic_codec_iwicdevelopraw_gettonecurve","wincodec/IWICDevelopRaw::GetToneCurve"]
+description: Gets the tone curve of the raw image.
+helpviewer_keywords: ["GetToneCurve","GetToneCurve method [Windows Imaging Component]","GetToneCurve method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetToneCurve method","IWICDevelopRaw.GetToneCurve","IWICDevelopRaw::GetToneCurve","_wic_codec_iwicdevelopraw_gettonecurve","wic._wic_codec_iwicdevelopraw_gettonecurve","wincodec/IWICDevelopRaw::GetToneCurve"]
 old-location: wic\_wic_codec_iwicdevelopraw_gettonecurve.htm
 tech.root: wic
 ms.assetid: 651f9efb-145a-400b-8d7c-255aee67c385

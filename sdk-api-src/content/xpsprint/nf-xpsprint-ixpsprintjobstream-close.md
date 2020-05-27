@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsprint.IXpsPrintJobStream.Close
 title: IXpsPrintJobStream::Close (xpsprint.h)
-description: Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.helpviewer_keywords: ["Close","Close method [Windows GDI]","Close method [Windows GDI]","IXpsPrintJobStream interface","IXpsPrintJobStream interface [Windows GDI]","Close method","IXpsPrintJobStream.Close","IXpsPrintJobStream::Close","gdi.ixpsprintjobstream_close","xpsprint/IXpsPrintJobStream::Close"]
+description: Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
+helpviewer_keywords: ["Close","Close method [Windows GDI]","Close method [Windows GDI]","IXpsPrintJobStream interface","IXpsPrintJobStream interface [Windows GDI]","Close method","IXpsPrintJobStream.Close","IXpsPrintJobStream::Close","gdi.ixpsprintjobstream_close","xpsprint/IXpsPrintJobStream::Close"]
 old-location: gdi\ixpsprintjobstream_close.htm
 tech.root: printdocs
 ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a

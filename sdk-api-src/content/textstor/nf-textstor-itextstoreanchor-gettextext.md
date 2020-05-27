@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetTextExt
 title: ITextStoreAnchor::GetTextExt (textstor.h)
-description: The ITextStoreAnchor::GetTextExt method returns the bounding box, in screen coordinates, of a range of text. The caller must have a read-only lock on the document before calling this method.helpviewer_keywords: ["GetTextExt","GetTextExt method [Text Services Framework]","GetTextExt method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetTextExt method","ITextStoreAnchor.GetTextExt","ITextStoreAnchor::GetTextExt","textstor/ITextStoreAnchor::GetTextExt","tsf.itextstoreanchor_gettextext"]
+description: The ITextStoreAnchor::GetTextExt method returns the bounding box, in screen coordinates, of a range of text. The caller must have a read-only lock on the document before calling this method.
+helpviewer_keywords: ["GetTextExt","GetTextExt method [Text Services Framework]","GetTextExt method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetTextExt method","ITextStoreAnchor.GetTextExt","ITextStoreAnchor::GetTextExt","textstor/ITextStoreAnchor::GetTextExt","tsf.itextstoreanchor_gettextext"]
 old-location: tsf\itextstoreanchor_gettextext.htm
 tech.root: TSF
 ms.assetid: b8e21544-e5d2-4048-93aa-82a87562a70a

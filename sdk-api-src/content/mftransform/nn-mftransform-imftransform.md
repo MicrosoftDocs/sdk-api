@@ -1,7 +1,8 @@
 ---
 UID: NN:mftransform.IMFTransform
 title: IMFTransform (mftransform.h)
-description: Implemented by all Media Foundation Transforms (MFTs).helpviewer_keywords: ["3cc502d8-d364-43b9-b0b6-d9474c002b20","IMFTransform","IMFTransform interface [Media Foundation]","IMFTransform interface [Media Foundation]","described","mf.imftransform","mftransform/IMFTransform"]
+description: Implemented by all Media Foundation Transforms (MFTs).
+helpviewer_keywords: ["3cc502d8-d364-43b9-b0b6-d9474c002b20","IMFTransform","IMFTransform interface [Media Foundation]","IMFTransform interface [Media Foundation]","described","mf.imftransform","mftransform/IMFTransform"]
 old-location: mf\imftransform.htm
 tech.root: medfound
 ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20

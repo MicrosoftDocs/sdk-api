@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetModulation
 title: IDvbSatelliteDeliverySystemDescriptor::GetModulation (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetModulation","GetModulation method [Microsoft TV Technologies]","GetModulation method [Microsoft TV Technologies]","IDvbSatelliteDeliverySystemDescriptor interface","IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetModulation method","IDvbSatelliteDeliverySystemDescriptor.GetModulation","IDvbSatelliteDeliverySystemDescriptor::GetModulation","IDvbSatelliteDeliverySystemDescriptorGetModulation","dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetModulation","mstv.idvbsatellitedeliverysystemdescriptor_getmodulation"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetModulation","GetModulation method [Microsoft TV Technologies]","GetModulation method [Microsoft TV Technologies]","IDvbSatelliteDeliverySystemDescriptor interface","IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetModulation method","IDvbSatelliteDeliverySystemDescriptor.GetModulation","IDvbSatelliteDeliverySystemDescriptor::GetModulation","IDvbSatelliteDeliverySystemDescriptorGetModulation","dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetModulation","mstv.idvbsatellitedeliverysystemdescriptor_getmodulation"]
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getmodulation.htm
 tech.root: mstv
 ms.assetid: 66578df9-35f7-4a2b-91ce-3f60cab16dd3

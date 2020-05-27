@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IComponents
 title: IComponents (tuner.h)
-description: The IComponents interface represents a collection of components.helpviewer_keywords: ["IComponents","IComponents interface [Microsoft TV Technologies]","IComponents interface [Microsoft TV Technologies]","described","IComponentsInterface","mstv.icomponents","tuner/IComponents"]
+description: The IComponents interface represents a collection of components.
+helpviewer_keywords: ["IComponents","IComponents interface [Microsoft TV Technologies]","IComponents interface [Microsoft TV Technologies]","described","IComponentsInterface","mstv.icomponents","tuner/IComponents"]
 old-location: mstv\icomponents.htm
 tech.root: mstv
 ms.assetid: 670b47ba-bcbd-4281-95e3-a5d784f0610b

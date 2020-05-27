@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PreferredAddresses
 title: ITPhone::get_PreferredAddresses (tapi3if.h)
-description: The get_PreferredAddresses method returns a collection of addresses that the phone is preferred for use on. The application does not have to call ITPhone::Open before executing this method.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_PreferredAddresses method","ITPhone.get_PreferredAddresses","ITPhone::get_PreferredAddresses","_tapi3_itphone_get_preferredaddresses","get_PreferredAddresses","get_PreferredAddresses method [TAPI 2.2]","get_PreferredAddresses method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_preferredaddresses","tapi3if/ITPhone::get_PreferredAddresses"]
+description: The get_PreferredAddresses method returns a collection of addresses that the phone is preferred for use on. The application does not have to call ITPhone::Open before executing this method.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_PreferredAddresses method","ITPhone.get_PreferredAddresses","ITPhone::get_PreferredAddresses","_tapi3_itphone_get_preferredaddresses","get_PreferredAddresses","get_PreferredAddresses method [TAPI 2.2]","get_PreferredAddresses method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_preferredaddresses","tapi3if/ITPhone::get_PreferredAddresses"]
 old-location: tapi3\itphone_get_preferredaddresses.htm
 tech.root: Tapi
 ms.assetid: bda43c65-a1f9-4143-b808-2a4e61220b1b

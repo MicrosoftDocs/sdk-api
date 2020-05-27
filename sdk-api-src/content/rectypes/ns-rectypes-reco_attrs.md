@@ -1,7 +1,8 @@
 ---
 UID: NS:rectypes.tagRECO_ATTRS
 title: RECO_ATTRS (rectypes.h)
-description: Retrieves the attributes of a recognizer or specifies which attributes to use when you search for an installed recognizer.helpviewer_keywords: ["5ebbb47f-1a11-4e97-8e45-29dbe07fe86d","RECO_ATTRS","RECO_ATTRS structure [Tablet PC]","rectypes/RECO_ATTRS","tablet.reco_attrs"]
+description: Retrieves the attributes of a recognizer or specifies which attributes to use when you search for an installed recognizer.
+helpviewer_keywords: ["5ebbb47f-1a11-4e97-8e45-29dbe07fe86d","RECO_ATTRS","RECO_ATTRS structure [Tablet PC]","rectypes/RECO_ATTRS","tablet.reco_attrs"]
 old-location: tablet\reco_attrs.htm
 tech.root: tablet
 ms.assetid: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d

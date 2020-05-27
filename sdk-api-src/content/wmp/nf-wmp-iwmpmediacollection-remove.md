@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.remove
 title: IWMPMediaCollection::remove (wmp.h)
-description: The remove method removes a specified item from the media collection.helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","remove method","IWMPMediaCollection.remove","IWMPMediaCollection::remove","IWMPMediaCollectionremove","remove","remove method [Windows Media Player]","remove method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_remove","wmp/IWMPMediaCollection::remove"]
+description: The remove method removes a specified item from the media collection.
+helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","remove method","IWMPMediaCollection.remove","IWMPMediaCollection::remove","IWMPMediaCollectionremove","remove","remove method [Windows Media Player]","remove method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_remove","wmp/IWMPMediaCollection::remove"]
 old-location: wmp\iwmpmediacollection_remove.htm
 tech.root: WMP
 ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae

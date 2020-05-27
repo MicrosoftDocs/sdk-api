@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiInReset
 title: midiInReset function (mmeapi.h)
-description: The midiInReset function stops input on a given MIDI input device.helpviewer_keywords: ["_win32_midiInReset","midiInReset","midiInReset function [Windows Multimedia]","mmeapi/midiInReset","multimedia.midiinreset"]
+description: The midiInReset function stops input on a given MIDI input device.
+helpviewer_keywords: ["_win32_midiInReset","midiInReset","midiInReset function [Windows Multimedia]","mmeapi/midiInReset","multimedia.midiinreset"]
 old-location: multimedia\midiinreset.htm
 tech.root: Multimedia
 ms.assetid: 74df14c2-df28-40c0-81f2-aed2147f7072

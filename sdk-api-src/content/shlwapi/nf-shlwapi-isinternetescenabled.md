@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.IsInternetESCEnabled
 title: IsInternetESCEnabled function (shlwapi.h)
-description: Determines whether Windows Internet Explorer is in the Enhanced Security Configuration.helpviewer_keywords: ["IsInternetESCEnabled","IsInternetESCEnabled function [Windows Shell]","_win32_IsInternetESCEnabled","shell.IsInternetESCEnabled","shlwapi/IsInternetESCEnabled"]
+description: Determines whether Windows Internet Explorer is in the Enhanced Security Configuration.
+helpviewer_keywords: ["IsInternetESCEnabled","IsInternetESCEnabled function [Windows Shell]","_win32_IsInternetESCEnabled","shell.IsInternetESCEnabled","shlwapi/IsInternetESCEnabled"]
 old-location: shell\IsInternetESCEnabled.htm
 tech.root: shell
 ms.assetid: 2f803b69-9734-484c-9392-a48e116cf506

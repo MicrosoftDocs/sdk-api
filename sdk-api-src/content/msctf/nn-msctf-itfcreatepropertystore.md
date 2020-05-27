@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfCreatePropertyStore
 title: ITfCreatePropertyStore (msctf.h)
-description: The ITfCreatePropertyStore interface is implemented by a text service to support persistence of property store data.helpviewer_keywords: ["ITfCreatePropertyStore","ITfCreatePropertyStore interface [Text Services Framework]","ITfCreatePropertyStore interface [Text Services Framework]","described","_tsf_itfcreatepropertystore_ref","msctf/ITfCreatePropertyStore","tsf.itfcreatepropertystore"]
+description: The ITfCreatePropertyStore interface is implemented by a text service to support persistence of property store data.
+helpviewer_keywords: ["ITfCreatePropertyStore","ITfCreatePropertyStore interface [Text Services Framework]","ITfCreatePropertyStore interface [Text Services Framework]","described","_tsf_itfcreatepropertystore_ref","msctf/ITfCreatePropertyStore","tsf.itfcreatepropertystore"]
 old-location: tsf\itfcreatepropertystore.htm
 tech.root: TSF
 ms.assetid: f21619c5-5f59-4cc4-9f84-fa5f8a178d40

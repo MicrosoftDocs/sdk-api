@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_item
 title: IWMPPlaylist::get_item (wmp.h)
-description: The get_item method retrieves the media item at the specified index.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_item method","IWMPPlaylist.get_item","IWMPPlaylist::get_item","IWMPPlaylistget_item","get_item","get_item method [Windows Media Player]","get_item method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_get_item","wmp/IWMPPlaylist::get_item"]
+description: The get_item method retrieves the media item at the specified index.
+helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_item method","IWMPPlaylist.get_item","IWMPPlaylist::get_item","IWMPPlaylistget_item","get_item","get_item method [Windows Media Player]","get_item method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_get_item","wmp/IWMPPlaylist::get_item"]
 old-location: wmp\iwmpplaylist_get_item.htm
 tech.root: WMP
 ms.assetid: 20da6e49-720c-4291-9fb7-def441c7fc66

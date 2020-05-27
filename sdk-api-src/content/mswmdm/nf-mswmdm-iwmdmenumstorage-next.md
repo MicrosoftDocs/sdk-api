@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Next
 title: IWMDMEnumStorage::Next (mswmdm.h)
-description: The Next method retrieves a pointer to the next sibling storage.helpviewer_keywords: ["IWMDMEnumStorage interface [windows Media Device Manager]","Next method","IWMDMEnumStorage.Next","IWMDMEnumStorage::Next","IWMDMEnumStorageNext","Next","Next method [windows Media Device Manager]","Next method [windows Media Device Manager]","IWMDMEnumStorage interface","mswmdm/IWMDMEnumStorage::Next","wmdm.iwmdmenumstorage_next"]
+description: The Next method retrieves a pointer to the next sibling storage.
+helpviewer_keywords: ["IWMDMEnumStorage interface [windows Media Device Manager]","Next method","IWMDMEnumStorage.Next","IWMDMEnumStorage::Next","IWMDMEnumStorageNext","Next","Next method [windows Media Device Manager]","Next method [windows Media Device Manager]","IWMDMEnumStorage interface","mswmdm/IWMDMEnumStorage::Next","wmdm.iwmdmenumstorage_next"]
 old-location: wmdm\iwmdmenumstorage_next.htm
 tech.root: WMDM
 ms.assetid: aec244c3-93e4-4093-b49c-9c74ec93ce0f

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetOPMWindow
 title: IMFMediaEngineProtectedContent::SetOPMWindow (mfmediaengine.h)
-description: Specifies the window that should receive output link protections.helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","SetOPMWindow method","IMFMediaEngineProtectedContent.SetOPMWindow","IMFMediaEngineProtectedContent::SetOPMWindow","SetOPMWindow","SetOPMWindow method [Media Foundation]","SetOPMWindow method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_setopmwindow","mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow"]
+description: Specifies the window that should receive output link protections.
+helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","SetOPMWindow method","IMFMediaEngineProtectedContent.SetOPMWindow","IMFMediaEngineProtectedContent::SetOPMWindow","SetOPMWindow","SetOPMWindow method [Media Foundation]","SetOPMWindow method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_setopmwindow","mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow"]
 old-location: mf\imfmediaengineprotectedcontent_setopmwindow.htm
 tech.root: medfound
 ms.assetid: 0102A98E-5EE0-4FBE-AF82-97C7A25038FB

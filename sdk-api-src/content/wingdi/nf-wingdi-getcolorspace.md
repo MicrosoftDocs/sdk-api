@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetColorSpace
 title: GetColorSpace function (wingdi.h)
-description: The GetColorSpace function retrieves the handle to the input color space from a specified device context.helpviewer_keywords: ["GetColorSpace","GetColorSpace function [Windows Color System]","_color_GetColorSpace","wcs.getcolorspace","wingdi/GetColorSpace"]
+description: The GetColorSpace function retrieves the handle to the input color space from a specified device context.
+helpviewer_keywords: ["GetColorSpace","GetColorSpace function [Windows Color System]","_color_GetColorSpace","wcs.getcolorspace","wingdi/GetColorSpace"]
 old-location: wcs\getcolorspace.htm
 tech.root: WCS
 ms.assetid: 6d092755-2c7a-46a7-9127-df72c26c3ae9

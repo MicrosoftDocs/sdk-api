@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_WRITE_TYPE_CALLBACK
 title: WS_WRITE_TYPE_CALLBACK (webservices.h)
-description: Invoked to write an element when WS_CUSTOM_TYPEhas been specified.helpviewer_keywords: ["WS_WRITE_TYPE_CALLBACK","WS_WRITE_TYPE_CALLBACK callback","WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows]","webservices/WS_WRITE_TYPE_CALLBACK","wsw.ws_write_type_callback"]
+description: Invoked to write an element when WS_CUSTOM_TYPEhas been specified.
+helpviewer_keywords: ["WS_WRITE_TYPE_CALLBACK","WS_WRITE_TYPE_CALLBACK callback","WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows]","webservices/WS_WRITE_TYPE_CALLBACK","wsw.ws_write_type_callback"]
 old-location: wsw\ws_write_type_callback.htm
 tech.root: wsw
 ms.assetid: f94bdf80-abea-4a97-9d41-add498e314b1

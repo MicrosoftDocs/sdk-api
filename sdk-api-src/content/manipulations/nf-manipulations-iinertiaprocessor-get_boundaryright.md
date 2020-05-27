@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_BoundaryRight
 title: IInertiaProcessor::get_BoundaryRight (manipulations.h)
-description: The BoundaryRight property limits how far towards the right of the screen the target object can move.helpviewer_keywords: ["BoundaryRight property [Windows Touch]","BoundaryRight property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","BoundaryRight property","IInertiaProcessor.BoundaryRight","IInertiaProcessor.get_BoundaryRight","IInertiaProcessor::BoundaryRight","IInertiaProcessor::get_BoundaryRight","IInertiaProcessor::put_BoundaryRight","get_BoundaryRight","manipulations/IInertiaProcessor::BoundaryRight","manipulations/IInertiaProcessor::get_BoundaryRight","manipulations/IInertiaProcessor::put_BoundaryRight","wintouch.iinertiaprocessor_rightboundary"]
+description: The BoundaryRight property limits how far towards the right of the screen the target object can move.
+helpviewer_keywords: ["BoundaryRight property [Windows Touch]","BoundaryRight property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","BoundaryRight property","IInertiaProcessor.BoundaryRight","IInertiaProcessor.get_BoundaryRight","IInertiaProcessor::BoundaryRight","IInertiaProcessor::get_BoundaryRight","IInertiaProcessor::put_BoundaryRight","get_BoundaryRight","manipulations/IInertiaProcessor::BoundaryRight","manipulations/IInertiaProcessor::get_BoundaryRight","manipulations/IInertiaProcessor::put_BoundaryRight","wintouch.iinertiaprocessor_rightboundary"]
 old-location: wintouch\iinertiaprocessor_rightboundary.htm
 tech.root: wintouch
 ms.assetid: ff8e0602-4e35-40ad-afae-a03046dda954

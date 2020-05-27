@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetIpAddrTable
 title: GetIpAddrTable function (iphlpapi.h)
-description: The GetIpAddrTable function retrieves the interface&#8211;to&#8211;IPv4 address mapping table.helpviewer_keywords: ["GetIpAddrTable","GetIpAddrTable function [IP Helper]","_iphlp_getipaddrtable","iphlp.getipaddrtable","iphlpapi/GetIpAddrTable"]
+description: The GetIpAddrTable function retrieves the interface&#8211;to&#8211;IPv4 address mapping table.
+helpviewer_keywords: ["GetIpAddrTable","GetIpAddrTable function [IP Helper]","_iphlp_getipaddrtable","iphlp.getipaddrtable","iphlpapi/GetIpAddrTable"]
 old-location: iphlp\getipaddrtable.htm
 tech.root: IpHlp
 ms.assetid: 03bf5645-8237-4c78-a921-47315cab1c44

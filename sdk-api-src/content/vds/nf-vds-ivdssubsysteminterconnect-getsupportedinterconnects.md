@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsSubSystemInterconnect.GetSupportedInterconnects
 title: IVdsSubSystemInterconnect::GetSupportedInterconnects (vds.h)
-description: Returns the interconnect types that the subsystem supports.helpviewer_keywords: ["GetSupportedInterconnects","GetSupportedInterconnects method","GetSupportedInterconnects method","IVdsSubSystemInterconnect interface","IVdsSubSystemInterconnect interface","GetSupportedInterconnects method","IVdsSubSystemInterconnect.GetSupportedInterconnects","IVdsSubSystemInterconnect::GetSupportedInterconnects","base.ivdssubsysteminterconnect_getsupportedinterconnects","vds/IVdsSubSystemInterconnect::GetSupportedInterconnects","vdshwprv/IVdsSubSystemInterconnect::GetSupportedInterconnects"]
+description: Returns the interconnect types that the subsystem supports.
+helpviewer_keywords: ["GetSupportedInterconnects","GetSupportedInterconnects method","GetSupportedInterconnects method","IVdsSubSystemInterconnect interface","IVdsSubSystemInterconnect interface","GetSupportedInterconnects method","IVdsSubSystemInterconnect.GetSupportedInterconnects","IVdsSubSystemInterconnect::GetSupportedInterconnects","base.ivdssubsysteminterconnect_getsupportedinterconnects","vds/IVdsSubSystemInterconnect::GetSupportedInterconnects","vdshwprv/IVdsSubSystemInterconnect::GetSupportedInterconnects"]
 old-location: base\ivdssubsysteminterconnect_getsupportedinterconnects.htm
 tech.root: VDS
 ms.assetid: 5e8e69b4-023d-49f7-a363-bae1ae9536ac

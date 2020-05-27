@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingRegion
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingRegion (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordRatingRegion","GetRecordRatingRegion method [Microsoft TV Technologies]","GetRecordRatingRegion method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingRegion method","IAtscContentAdvisoryDescriptor.GetRecordRatingRegion","IAtscContentAdvisoryDescriptor::GetRecordRatingRegion","IAtscContentAdvisoryDescriptorGetRecordRatingRegion","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingRegion","mstv.iatsccontentadvisorydescriptor_getrecordratingregion"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordRatingRegion","GetRecordRatingRegion method [Microsoft TV Technologies]","GetRecordRatingRegion method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingRegion method","IAtscContentAdvisoryDescriptor.GetRecordRatingRegion","IAtscContentAdvisoryDescriptor::GetRecordRatingRegion","IAtscContentAdvisoryDescriptorGetRecordRatingRegion","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingRegion","mstv.iatsccontentadvisorydescriptor_getrecordratingregion"]
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingregion.htm
 tech.root: mstv
 ms.assetid: fb828399-d4aa-4e35-bb77-16795a598b35

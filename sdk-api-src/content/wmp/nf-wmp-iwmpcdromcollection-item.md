@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.item
 title: IWMPCdromCollection::item (wmp.h)
-description: The item method retrieves a pointer to an IWMPCdrom interface at the given index.helpviewer_keywords: ["IWMPCdromCollection interface [Windows Media Player]","item method","IWMPCdromCollection.item","IWMPCdromCollection::item","IWMPCdromCollectionitem","item","item method [Windows Media Player]","item method [Windows Media Player]","IWMPCdromCollection interface","wmp.iwmpcdromcollection_item","wmp/IWMPCdromCollection::item"]
+description: The item method retrieves a pointer to an IWMPCdrom interface at the given index.
+helpviewer_keywords: ["IWMPCdromCollection interface [Windows Media Player]","item method","IWMPCdromCollection.item","IWMPCdromCollection::item","IWMPCdromCollectionitem","item","item method [Windows Media Player]","item method [Windows Media Player]","IWMPCdromCollection interface","wmp.iwmpcdromcollection_item","wmp/IWMPCdromCollection::item"]
 old-location: wmp\iwmpcdromcollection_item.htm
 tech.root: WMP
 ms.assetid: 4604e53d-914f-4888-99c7-64d0683ac2e0

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_EnumerationDepth
 title: ISearchRoot::put_EnumerationDepth (searchapi.h)
-description: Sets the enumeration depth for this search root.helpviewer_keywords: ["ISearchRoot interface [search]","put_EnumerationDepth method","ISearchRoot.put_EnumerationDepth","ISearchRoot::put_EnumerationDepth","_search_ISearchRoot_put_EnumerationDepth","put_EnumerationDepth","put_EnumerationDepth method [search]","put_EnumerationDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_put_EnumerationDepth","searchapi/ISearchRoot::put_EnumerationDepth"]
+description: Sets the enumeration depth for this search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","put_EnumerationDepth method","ISearchRoot.put_EnumerationDepth","ISearchRoot::put_EnumerationDepth","_search_ISearchRoot_put_EnumerationDepth","put_EnumerationDepth","put_EnumerationDepth method [search]","put_EnumerationDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_put_EnumerationDepth","searchapi/ISearchRoot::put_EnumerationDepth"]
 old-location: search\_search_ISearchRoot_put_EnumerationDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_enumerationdepth.htm

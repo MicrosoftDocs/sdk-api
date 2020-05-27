@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4
 title: XMSHORTN4::XMSHORTN4 (directxpackedvector.h)
-description: Default constructor for XMSHORTN4.helpviewer_keywords: ["XMSHORTN4","XMSHORTN4 constructor [DirectX Math Support APIs]","XMSHORTN4 constructor [DirectX Math Support APIs]","XMSHORTN4 structure","XMSHORTN4 structure [DirectX Math Support APIs]","XMSHORTN4 constructor","XMSHORTN4.XMSHORTN4","XMSHORTN4.XMSHORTN4()","XMSHORTN4::XMSHORTN4","dxmath.xmshortn4_ctor_1"]
+description: Default constructor for XMSHORTN4.
+helpviewer_keywords: ["XMSHORTN4","XMSHORTN4 constructor [DirectX Math Support APIs]","XMSHORTN4 constructor [DirectX Math Support APIs]","XMSHORTN4 structure","XMSHORTN4 structure [DirectX Math Support APIs]","XMSHORTN4 constructor","XMSHORTN4.XMSHORTN4","XMSHORTN4.XMSHORTN4()","XMSHORTN4::XMSHORTN4","dxmath.xmshortn4_ctor_1"]
 old-location: dxmath\xmshortn4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.#ctor

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSSetShader
 title: ID3D11DeviceContext::GSSetShader (d3d11.h)
-description: Set a geometry shader to the device.helpviewer_keywords: ["52389497-00e9-1a7b-1543-a60e2a6b6479","GSSetShader","GSSetShader method [Direct3D 11]","GSSetShader method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSSetShader method","ID3D11DeviceContext.GSSetShader","ID3D11DeviceContext::GSSetShader","d3d11/ID3D11DeviceContext::GSSetShader","direct3d11.id3d11devicecontext_gssetshader"]
+description: Set a geometry shader to the device.
+helpviewer_keywords: ["52389497-00e9-1a7b-1543-a60e2a6b6479","GSSetShader","GSSetShader method [Direct3D 11]","GSSetShader method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GSSetShader method","ID3D11DeviceContext.GSSetShader","ID3D11DeviceContext::GSSetShader","d3d11/ID3D11DeviceContext::GSSetShader","direct3d11.id3d11devicecontext_gssetshader"]
 old-location: direct3d11\id3d11devicecontext_gssetshader.htm
 tech.root: direct3d11
 ms.assetid: 6c42d028-b832-470c-ab15-1cf46a3f8414

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileBits
 title: GetEnhMetaFileBits function (wingdi.h)
-description: The GetEnhMetaFileBits function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer.helpviewer_keywords: ["GetEnhMetaFileBits","GetEnhMetaFileBits function [Windows GDI]","_win32_GetEnhMetaFileBits","gdi.getenhmetafilebits","wingdi/GetEnhMetaFileBits"]
+description: The GetEnhMetaFileBits function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer.
+helpviewer_keywords: ["GetEnhMetaFileBits","GetEnhMetaFileBits function [Windows GDI]","_win32_GetEnhMetaFileBits","gdi.getenhmetafilebits","wingdi/GetEnhMetaFileBits"]
 old-location: gdi\getenhmetafilebits.htm
 tech.root: gdi
 ms.assetid: 2bbfa0da-5b1e-4843-9777-c2e4c5fd3b78

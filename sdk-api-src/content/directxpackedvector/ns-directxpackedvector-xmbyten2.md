@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMBYTEN2
 title: XMBYTEN2 (directxpackedvector.h)
-description: A 2D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 structure [DirectX Math Support APIs]","directxpackedvector/XMBYTEN2","dxmath.xmbyten2"]
+description: A 2D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
+helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 structure [DirectX Math Support APIs]","directxpackedvector/XMBYTEN2","dxmath.xmbyten2"]
 old-location: dxmath\xmbyten2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN2

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamEndStreaming
 title: AVIStreamEndStreaming function (vfw.h)
-description: The AVIStreamEndStreaming function ends streaming.helpviewer_keywords: ["AVIStreamEndStreaming","AVIStreamEndStreaming function [Windows Multimedia]","_win32_AVIStreamEndStreaming","multimedia.avistreamendstreaming","vfw/AVIStreamEndStreaming"]
+description: The AVIStreamEndStreaming function ends streaming.
+helpviewer_keywords: ["AVIStreamEndStreaming","AVIStreamEndStreaming function [Windows Multimedia]","_win32_AVIStreamEndStreaming","multimedia.avistreamendstreaming","vfw/AVIStreamEndStreaming"]
 old-location: multimedia\avistreamendstreaming.htm
 tech.root: Multimedia
 ms.assetid: 8555bc24-c017-4d02-854b-e64cf9e8ae1b

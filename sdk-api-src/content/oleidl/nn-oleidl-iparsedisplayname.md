@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IParseDisplayName
 title: IParseDisplayName (oleidl.h)
-description: Parses a displayable name string to convert it into a moniker for custom moniker implementations.helpviewer_keywords: ["IParseDisplayName","IParseDisplayName interface [COM]","IParseDisplayName interface [COM]","described","_com_iparsedisplayname","com.iparsedisplayname","oleidl/IParseDisplayName"]
+description: Parses a displayable name string to convert it into a moniker for custom moniker implementations.
+helpviewer_keywords: ["IParseDisplayName","IParseDisplayName interface [COM]","IParseDisplayName interface [COM]","described","_com_iparsedisplayname","com.iparsedisplayname","oleidl/IParseDisplayName"]
 old-location: com\iparsedisplayname.htm
 tech.root: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f

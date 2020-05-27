@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.GetPointsCount
 title: ID2D1SvgPointCollection::GetPointsCount (d2d1svg.h)
-description: Gets the number of points in the array.helpviewer_keywords: ["GetPointsCount","GetPointsCount method [Direct2D]","GetPointsCount method [Direct2D]","ID2D1SvgPointCollection interface","ID2D1SvgPointCollection interface [Direct2D]","GetPointsCount method","ID2D1SvgPointCollection.GetPointsCount","ID2D1SvgPointCollection::GetPointsCount","d2d1svg/ID2D1SvgPointCollection::GetPointsCount","direct2d.id2d1svgpointcollection_getpointscount"]
+description: Gets the number of points in the array.
+helpviewer_keywords: ["GetPointsCount","GetPointsCount method [Direct2D]","GetPointsCount method [Direct2D]","ID2D1SvgPointCollection interface","ID2D1SvgPointCollection interface [Direct2D]","GetPointsCount method","ID2D1SvgPointCollection.GetPointsCount","ID2D1SvgPointCollection::GetPointsCount","d2d1svg/ID2D1SvgPointCollection::GetPointsCount","direct2d.id2d1svgpointcollection_getpointscount"]
 old-location: direct2d\id2d1svgpointcollection_getpointscount.htm
 tech.root: Direct2D
 ms.assetid: 57D125F0-F2CF-411C-93DA-13E13234E13E

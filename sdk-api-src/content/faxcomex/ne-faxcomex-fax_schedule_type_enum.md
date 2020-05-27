@@ -1,7 +1,8 @@
 ---
 UID: NE:faxcomex.FAX_SCHEDULE_TYPE_ENUM
 title: FAX_SCHEDULE_TYPE_ENUM (faxcomex.h)
-description: The FAX_SCHEDULE_TYPE_ENUM enumeration defines the types of scheduling for outbound faxes.helpviewer_keywords: ["FAX_SCHEDULE_TYPE_ENUM","FAX_SCHEDULE_TYPE_ENUM enumeration [Fax Service]","_mfax_fax_schedule_type_enum","fax._mfax_fax_schedule_type_enum","faxcomex/FAX_SCHEDULE_TYPE_ENUM","faxcomex/fstDISCOUNT_PERIOD","faxcomex/fstNOW","faxcomex/fstSPECIFIC_TIME","fstDISCOUNT_PERIOD","fstNOW","fstSPECIFIC_TIME"]
+description: The FAX_SCHEDULE_TYPE_ENUM enumeration defines the types of scheduling for outbound faxes.
+helpviewer_keywords: ["FAX_SCHEDULE_TYPE_ENUM","FAX_SCHEDULE_TYPE_ENUM enumeration [Fax Service]","_mfax_fax_schedule_type_enum","fax._mfax_fax_schedule_type_enum","faxcomex/FAX_SCHEDULE_TYPE_ENUM","faxcomex/fstDISCOUNT_PERIOD","faxcomex/fstNOW","faxcomex/fstSPECIFIC_TIME","fstDISCOUNT_PERIOD","fstNOW","fstSPECIFIC_TIME"]
 old-location: fax\_mfax_fax_schedule_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ust.htm

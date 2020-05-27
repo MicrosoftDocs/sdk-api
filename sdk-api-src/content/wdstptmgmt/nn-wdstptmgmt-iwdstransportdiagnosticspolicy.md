@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportDiagnosticsPolicy
 title: IWdsTransportDiagnosticsPolicy (wdstptmgmt.h)
-description: Represents the diagnostics policy part of the WDS transport server's configuration.helpviewer_keywords: ["IWdsTransportDiagnosticsPolicy","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","described","wds.iwdstransportdiagnosticspolicy","wdstptmgmt/IWdsTransportDiagnosticsPolicy"]
+description: Represents the diagnostics policy part of the WDS transport server's configuration.
+helpviewer_keywords: ["IWdsTransportDiagnosticsPolicy","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","described","wds.iwdstransportdiagnosticspolicy","wdstptmgmt/IWdsTransportDiagnosticsPolicy"]
 old-location: wds\iwdstransportdiagnosticspolicy.htm
 tech.root: wds
 ms.assetid: 01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2

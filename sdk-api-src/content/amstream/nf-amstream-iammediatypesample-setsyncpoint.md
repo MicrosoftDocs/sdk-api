@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetSyncPoint
 title: IAMMediaTypeSample::SetSyncPoint (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetSyncPoint method","IAMMediaTypeSample.SetSyncPoint","IAMMediaTypeSample::SetSyncPoint","IAMMediaTypeSampleSetSyncPoint","SetSyncPoint","SetSyncPoint method [DirectShow]","SetSyncPoint method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetSyncPoint","dshow.iammediatypesample_setsyncpoint"]
+description: Note  This interface is deprecated. New applications should not use it. The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetSyncPoint method","IAMMediaTypeSample.SetSyncPoint","IAMMediaTypeSample::SetSyncPoint","IAMMediaTypeSampleSetSyncPoint","SetSyncPoint","SetSyncPoint method [DirectShow]","SetSyncPoint method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetSyncPoint","dshow.iammediatypesample_setsyncpoint"]
 old-location: dshow\iammediatypesample_setsyncpoint.htm
 tech.root: DirectShow
 ms.assetid: d2ff9b33-c49c-4715-b580-f05670a0f405

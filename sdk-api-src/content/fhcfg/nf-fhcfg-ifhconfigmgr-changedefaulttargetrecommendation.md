@@ -1,7 +1,8 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ChangeDefaultTargetRecommendation
 title: IFhConfigMgr::ChangeDefaultTargetRecommendation (fhcfg.h)
-description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.helpviewer_keywords: ["ChangeDefaultTargetRecommendation","ChangeDefaultTargetRecommendation method [Windows API]","ChangeDefaultTargetRecommendation method [Windows API]","FhConfigMgr class","ChangeDefaultTargetRecommendation method [Windows API]","IFhConfigMgr interface","FhConfigMgr class [Windows API]","ChangeDefaultTargetRecommendation method","IFhConfigMgr interface [Windows API]","ChangeDefaultTargetRecommendation method","IFhConfigMgr.ChangeDefaultTargetRecommendation","IFhConfigMgr::ChangeDefaultTargetRecommendation","fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation","winprog.ifhconfigmgr_changedefaulttargetrecommendation"]
+description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
+helpviewer_keywords: ["ChangeDefaultTargetRecommendation","ChangeDefaultTargetRecommendation method [Windows API]","ChangeDefaultTargetRecommendation method [Windows API]","FhConfigMgr class","ChangeDefaultTargetRecommendation method [Windows API]","IFhConfigMgr interface","FhConfigMgr class [Windows API]","ChangeDefaultTargetRecommendation method","IFhConfigMgr interface [Windows API]","ChangeDefaultTargetRecommendation method","IFhConfigMgr.ChangeDefaultTargetRecommendation","IFhConfigMgr::ChangeDefaultTargetRecommendation","fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation","winprog.ifhconfigmgr_changedefaulttargetrecommendation"]
 old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm
 tech.root: DevNotes
 ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83

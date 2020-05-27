@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IActionCollection
 title: IActionCollection (taskschd.h)
-description: Contains the actions that are performed by the task.helpviewer_keywords: ["IActionCollection","IActionCollection interface [Task Scheduler]","IActionCollection interface [Task Scheduler]","described","actions [Task Scheduler]","collection interface","taskschd.iactioncollection","taskschd/IActionCollection"]
+description: Contains the actions that are performed by the task.
+helpviewer_keywords: ["IActionCollection","IActionCollection interface [Task Scheduler]","IActionCollection interface [Task Scheduler]","described","actions [Task Scheduler]","collection interface","taskschd.iactioncollection","taskschd/IActionCollection"]
 old-location: taskschd\iactioncollection.htm
 tech.root: taskschd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetDevConfigW
 title: lineSetDevConfigW function (tapi.h)
-description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.helpviewer_keywords: ["_tapi2_linesetdevconfig","lineSetDevConfig","lineSetDevConfig function [TAPI 2.2]","lineSetDevConfigA","lineSetDevConfigW","tapi/lineSetDevConfig","tapi/lineSetDevConfigA","tapi/lineSetDevConfigW","tapi2.linesetdevconfig"]
+description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.
+helpviewer_keywords: ["_tapi2_linesetdevconfig","lineSetDevConfig","lineSetDevConfig function [TAPI 2.2]","lineSetDevConfigA","lineSetDevConfigW","tapi/lineSetDevConfig","tapi/lineSetDevConfigA","tapi/lineSetDevConfigW","tapi2.linesetdevconfig"]
 old-location: tapi2\linesetdevconfig.htm
 tech.root: Tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8

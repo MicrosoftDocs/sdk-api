@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLVTILEVIEWINFO
 title: LVTILEVIEWINFO (commctrl.h)
-description: Provides information about a list-view control when it is displayed in tile view.helpviewer_keywords: ["*PLVTILEVIEWINFO","LVTILEVIEWINFO","LVTILEVIEWINFO structure [Windows Controls]","LVTVIF_EXTENDED","PLVTILEVIEWINFO","PLVTILEVIEWINFO structure pointer [Windows Controls]","commctrl/LVTILEVIEWINFO","commctrl/PLVTILEVIEWINFO","controls.LVTILEVIEWINFO","controls.inet_LVTILEVIEWINFO","inet_LVTILEVIEWINFO","inet_LVTILEVIEWINFO_cpp"]
+description: Provides information about a list-view control when it is displayed in tile view.
+helpviewer_keywords: ["*PLVTILEVIEWINFO","LVTILEVIEWINFO","LVTILEVIEWINFO structure [Windows Controls]","LVTVIF_EXTENDED","PLVTILEVIEWINFO","PLVTILEVIEWINFO structure pointer [Windows Controls]","commctrl/LVTILEVIEWINFO","commctrl/PLVTILEVIEWINFO","controls.LVTILEVIEWINFO","controls.inet_LVTILEVIEWINFO","inet_LVTILEVIEWINFO","inet_LVTILEVIEWINFO_cpp"]
 old-location: controls\LVTILEVIEWINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm

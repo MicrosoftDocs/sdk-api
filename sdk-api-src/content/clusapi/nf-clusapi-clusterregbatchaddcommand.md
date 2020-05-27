@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegBatchAddCommand
 title: ClusterRegBatchAddCommand function (clusapi.h)
-description: Adds a command to a batch that will be executed on a cluster registry key.helpviewer_keywords: ["CLUSREG_CREATE_KEY","CLUSREG_DELETE_KEY","CLUSREG_DELETE_VALUE","CLUSREG_SET_VALUE","ClusterRegBatchAddCommand","ClusterRegBatchAddCommand function [Failover Cluster]","PCLUSTER_REG_BATCH_ADD_COMMAND","clusapi/ClusterRegBatchAddCommand","mscs.clusterregbatchaddcommand"]
+description: Adds a command to a batch that will be executed on a cluster registry key.
+helpviewer_keywords: ["CLUSREG_CREATE_KEY","CLUSREG_DELETE_KEY","CLUSREG_DELETE_VALUE","CLUSREG_SET_VALUE","ClusterRegBatchAddCommand","ClusterRegBatchAddCommand function [Failover Cluster]","PCLUSTER_REG_BATCH_ADD_COMMAND","clusapi/ClusterRegBatchAddCommand","mscs.clusterregbatchaddcommand"]
 old-location: mscs\clusterregbatchaddcommand.htm
 tech.root: MsCS
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6

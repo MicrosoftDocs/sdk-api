@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl_core.CM_COLUMNINFO
 title: CM_COLUMNINFO (shobjidl_core.h)
-description: Defines column information. Used by members of the IColumnManager interface.helpviewer_keywords: ["CM_COLUMNINFO","CM_COLUMNINFO structure [Windows Shell]","shell.CM_COLUMNINFO","shell_CM_COLUMNINFO","shobjidl_core/CM_COLUMNINFO"]
+description: Defines column information. Used by members of the IColumnManager interface.
+helpviewer_keywords: ["CM_COLUMNINFO","CM_COLUMNINFO structure [Windows Shell]","shell.CM_COLUMNINFO","shell_CM_COLUMNINFO","shobjidl_core/CM_COLUMNINFO"]
 old-location: shell\CM_COLUMNINFO.htm
 tech.root: shell
 ms.assetid: b4437aa7-9682-4819-a353-936179e84005

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDVolumeInfo
 title: IDvdInfo2::GetDVDVolumeInfo (strmif.h)
-description: The GetDVDVolumeInfo method retrieves the current DVD volume information.helpviewer_keywords: ["GetDVDVolumeInfo","GetDVDVolumeInfo method [DirectShow]","GetDVDVolumeInfo method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDVolumeInfo method","IDvdInfo2.GetDVDVolumeInfo","IDvdInfo2::GetDVDVolumeInfo","IDvdInfo2GetDVDVolumeInfo","dshow.idvdinfo2_getdvdvolumeinfo","strmif/IDvdInfo2::GetDVDVolumeInfo"]
+description: The GetDVDVolumeInfo method retrieves the current DVD volume information.
+helpviewer_keywords: ["GetDVDVolumeInfo","GetDVDVolumeInfo method [DirectShow]","GetDVDVolumeInfo method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDVolumeInfo method","IDvdInfo2.GetDVDVolumeInfo","IDvdInfo2::GetDVDVolumeInfo","IDvdInfo2GetDVDVolumeInfo","dshow.idvdinfo2_getdvdvolumeinfo","strmif/IDvdInfo2::GetDVDVolumeInfo"]
 old-location: dshow\idvdinfo2_getdvdvolumeinfo.htm
 tech.root: DirectShow
 ms.assetid: d55973af-5f56-4e22-b3b0-2cee9f57c2d4

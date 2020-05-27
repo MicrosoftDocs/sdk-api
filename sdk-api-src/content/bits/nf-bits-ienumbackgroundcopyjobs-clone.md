@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyJobs.Clone
 title: IEnumBackgroundCopyJobs::Clone (bits.h)
-description: Creates another IEnumBackgroundCopyJobs enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [BITS]","Clone method [BITS]","IEnumBackgroundCopyJobs interface","IEnumBackgroundCopyJobs interface [BITS]","Clone method","IEnumBackgroundCopyJobs.Clone","IEnumBackgroundCopyJobs::Clone","_drz_ienumbackgroundcopyjobs_clone","bits.ienumbackgroundcopyjobs_clone","bits/IEnumBackgroundCopyJobs::Clone"]
+description: Creates another IEnumBackgroundCopyJobs enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [BITS]","Clone method [BITS]","IEnumBackgroundCopyJobs interface","IEnumBackgroundCopyJobs interface [BITS]","Clone method","IEnumBackgroundCopyJobs.Clone","IEnumBackgroundCopyJobs::Clone","_drz_ienumbackgroundcopyjobs_clone","bits.ienumbackgroundcopyjobs_clone","bits/IEnumBackgroundCopyJobs::Clone"]
 old-location: bits\ienumbackgroundcopyjobs_clone.htm
 tech.root: Bits
 ms.assetid: 5d83af74-c24c-41e2-aef4-d7210a1d0160

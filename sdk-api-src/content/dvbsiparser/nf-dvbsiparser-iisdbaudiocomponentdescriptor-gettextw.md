@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetTextW
 title: IIsdbAudioComponentDescriptor::GetTextW (dvbsiparser.h)
-description: Gets the component stream description from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in Unicode text format,.helpviewer_keywords: ["GetTextW","GetTextW method [Microsoft TV Technologies]","GetTextW method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetTextW method","IIsdbAudioComponentDescriptor.GetTextW","IIsdbAudioComponentDescriptor::GetTextW","dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW","mstv.iisdbaudiocomponentdescriptor_gettextw"]
+description: Gets the component stream description from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in Unicode text format,.
+helpviewer_keywords: ["GetTextW","GetTextW method [Microsoft TV Technologies]","GetTextW method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetTextW method","IIsdbAudioComponentDescriptor.GetTextW","IIsdbAudioComponentDescriptor::GetTextW","dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW","mstv.iisdbaudiocomponentdescriptor_gettextw"]
 old-location: mstv\iisdbaudiocomponentdescriptor_gettextw.htm
 tech.root: mstv
 ms.assetid: beeb31dd-28f8-45bb-bda0-0dbf6bca679b

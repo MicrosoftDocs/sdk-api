@@ -1,7 +1,8 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialEvents
 title: ICredentialProviderCredentialEvents (credentialprovider.h)
-description: Provides an asynchronous callback mechanism used by a credential to notify it of state or text change events in the Logon UI or Credential UI.helpviewer_keywords: ["ICredentialProviderCredentialEvents","ICredentialProviderCredentialEvents interface [Windows Shell]","ICredentialProviderCredentialEvents interface [Windows Shell]","described","credentialprovider/ICredentialProviderCredentialEvents","shell.ICredentialProviderCredentialEvents","shell_ICredentialProviderCredentialEvents"]
+description: Provides an asynchronous callback mechanism used by a credential to notify it of state or text change events in the Logon UI or Credential UI.
+helpviewer_keywords: ["ICredentialProviderCredentialEvents","ICredentialProviderCredentialEvents interface [Windows Shell]","ICredentialProviderCredentialEvents interface [Windows Shell]","described","credentialprovider/ICredentialProviderCredentialEvents","shell.ICredentialProviderCredentialEvents","shell_ICredentialProviderCredentialEvents"]
 old-location: shell\ICredentialProviderCredentialEvents.htm
 tech.root: shell
 ms.assetid: 258449a4-78e2-475e-ab16-6481207e7354

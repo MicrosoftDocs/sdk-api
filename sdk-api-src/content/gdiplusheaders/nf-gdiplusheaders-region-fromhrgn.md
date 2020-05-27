@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Region.FromHRGN
 title: Region::FromHRGN (gdiplusheaders.h)
-description: The Region::FromHRGN method creates a Windows GDI+Region object from a Windows Graphics Device Interface (GDI)  region.helpviewer_keywords: ["FromHRGN","FromHRGN method [GDI+]","FromHRGN method [GDI+]","Region class","Region class [GDI+]","FromHRGN method","Region.FromHRGN","Region::FromHRGN","_gdiplus_CLASS_Region_FromHRGN_hRgn_","gdiplus._gdiplus_CLASS_Region_FromHRGN_hRgn_"]
+description: The Region::FromHRGN method creates a Windows GDI+Region object from a Windows Graphics Device Interface (GDI)  region.
+helpviewer_keywords: ["FromHRGN","FromHRGN method [GDI+]","FromHRGN method [GDI+]","Region class","Region class [GDI+]","FromHRGN method","Region.FromHRGN","Region::FromHRGN","_gdiplus_CLASS_Region_FromHRGN_hRgn_","gdiplus._gdiplus_CLASS_Region_FromHRGN_hRgn_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_FromHRGN_hRgn_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\fromhrgn.htm

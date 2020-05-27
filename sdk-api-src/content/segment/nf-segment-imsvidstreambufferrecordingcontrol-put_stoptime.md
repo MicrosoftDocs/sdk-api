@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.put_StopTime
 title: IMSVidStreamBufferRecordingControl::put_StopTime (segment.h)
-description: The put_StopTime method sets the stop time for the recording.helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","put_StopTime method","IMSVidStreamBufferRecordingControl.put_StopTime","IMSVidStreamBufferRecordingControl::put_StopTime","IMSVidStreamBufferRecordingControlput_StopTime","mstv.imsvidstreambufferrecordingcontrol_put_stoptime","put_StopTime","put_StopTime method [Microsoft TV Technologies]","put_StopTime method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","segment/IMSVidStreamBufferRecordingControl::put_StopTime"]
+description: The put_StopTime method sets the stop time for the recording.
+helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","put_StopTime method","IMSVidStreamBufferRecordingControl.put_StopTime","IMSVidStreamBufferRecordingControl::put_StopTime","IMSVidStreamBufferRecordingControlput_StopTime","mstv.imsvidstreambufferrecordingcontrol_put_stoptime","put_StopTime","put_StopTime method [Microsoft TV Technologies]","put_StopTime method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","segment/IMSVidStreamBufferRecordingControl::put_StopTime"]
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_stoptime.htm
 tech.root: mstv
 ms.assetid: 5ff338e8-4b91-4947-9ec6-fe35a3fcad3f

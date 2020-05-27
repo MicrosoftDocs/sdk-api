@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_VALIDATE_SAML_CALLBACK
 title: WS_VALIDATE_SAML_CALLBACK (webservices.h)
-description: Validates a SAML assertion.helpviewer_keywords: ["WS_VALIDATE_SAML_CALLBACK","WS_VALIDATE_SAML_CALLBACK callback","WS_VALIDATE_SAML_CALLBACK callback function [Web Services for Windows]","webservices/WS_VALIDATE_SAML_CALLBACK","wsw.ws_validate_saml_callback"]
+description: Validates a SAML assertion.
+helpviewer_keywords: ["WS_VALIDATE_SAML_CALLBACK","WS_VALIDATE_SAML_CALLBACK callback","WS_VALIDATE_SAML_CALLBACK callback function [Web Services for Windows]","webservices/WS_VALIDATE_SAML_CALLBACK","wsw.ws_validate_saml_callback"]
 old-location: wsw\ws_validate_saml_callback.htm
 tech.root: wsw
 ms.assetid: 72cc10ae-ba0e-4f3a-a376-c0b1999b074e

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Font.GetUnit
 title: Font::GetUnit (gdiplusheaders.h)
-description: The Font::GetUnit method returns the unit of measure of this Font object.helpviewer_keywords: ["Font class [GDI+]","GetUnit method","Font.GetUnit","Font::GetUnit","GetUnit","GetUnit method [GDI+]","GetUnit method [GDI+]","Font class","_gdiplus_CLASS_Font_GetUnit_","gdiplus._gdiplus_CLASS_Font_GetUnit_"]
+description: The Font::GetUnit method returns the unit of measure of this Font object.
+helpviewer_keywords: ["Font class [GDI+]","GetUnit method","Font.GetUnit","Font::GetUnit","GetUnit","GetUnit method [GDI+]","GetUnit method [GDI+]","Font class","_gdiplus_CLASS_Font_GetUnit_","gdiplus._gdiplus_CLASS_Font_GetUnit_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_GetUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getunit.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioInputSelector
 title: IAudioInputSelector (devicetopology.h)
-description: The IAudioInputSelector interface provides access to a hardware multiplexer control (input selector).helpviewer_keywords: ["IAudioInputSelector","IAudioInputSelector interface [Core Audio]","IAudioInputSelector interface [Core Audio]","described","coreaudio.iaudioinputselector","devicetopology/IAudioInputSelector"]
+description: The IAudioInputSelector interface provides access to a hardware multiplexer control (input selector).
+helpviewer_keywords: ["IAudioInputSelector","IAudioInputSelector interface [Core Audio]","IAudioInputSelector interface [Core Audio]","described","coreaudio.iaudioinputselector","devicetopology/IAudioInputSelector"]
 old-location: coreaudio\iaudioinputselector.htm
 tech.root: CoreAudio
 ms.assetid: 6f5ce9c0-39e4-4fab-910c-9a11b90fcde7

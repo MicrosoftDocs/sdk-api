@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt32Array
 title: InitVariantFromUInt32Array function (propvarutil.h)
-description: Initializes a VARIANT structure with an array of unsigned 32-bit integer values.helpviewer_keywords: ["InitVariantFromUInt32Array","InitVariantFromUInt32Array function [Windows Properties]","_shell_InitVariantFromUInt32Array","properties.InitVariantFromUInt32Array","propvarutil/InitVariantFromUInt32Array","shell.InitVariantFromUInt32Array"]
+description: Initializes a VARIANT structure with an array of unsigned 32-bit integer values.
+helpviewer_keywords: ["InitVariantFromUInt32Array","InitVariantFromUInt32Array function [Windows Properties]","_shell_InitVariantFromUInt32Array","properties.InitVariantFromUInt32Array","propvarutil/InitVariantFromUInt32Array","shell.InitVariantFromUInt32Array"]
 old-location: properties\InitVariantFromUInt32Array.htm
 tech.root: properties
 ms.assetid: b08e61bc-8b76-4baf-acf7-9eb97e521b65

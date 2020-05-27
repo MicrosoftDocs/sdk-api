@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices
 title: IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices (wmlss.h)
-description: The get_allowSharingToAllDevices method retrieves a value that indicates whether the current user's media library is shared with all devices on the home network.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","get_allowSharingToAllDevices method","IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices","IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices","get_allowSharingToAllDevices","get_allowSharingToAllDevices method [Windows Media Library Sharing Services]","get_allowSharingToAllDevices method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSget_allowSharingToAllDevices","wmlss/IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices"]
+description: The get_allowSharingToAllDevices method retrieves a value that indicates whether the current user's media library is shared with all devices on the home network.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","get_allowSharingToAllDevices method","IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices","IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices","get_allowSharingToAllDevices","get_allowSharingToAllDevices method [Windows Media Library Sharing Services]","get_allowSharingToAllDevices method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSget_allowSharingToAllDevices","wmlss/IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices"]
 old-location: wmlss\IWMLSSget_allowSharingToAllDevices.htm
 tech.root: WMLSS
 ms.assetid: f166eca1-9413-4f14-be2f-ef433f3e391a

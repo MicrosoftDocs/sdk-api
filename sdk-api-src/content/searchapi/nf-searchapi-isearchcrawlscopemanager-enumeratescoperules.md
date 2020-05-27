@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateScopeRules
 title: ISearchCrawlScopeManager::EnumerateScopeRules (searchapi.h)
-description: Returns an enumeration of all the scope rules of which this instance of the ISearchCrawlScopeManager interface is aware.helpviewer_keywords: ["EnumerateScopeRules","EnumerateScopeRules method [search]","EnumerateScopeRules method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","EnumerateScopeRules method","ISearchCrawlScopeManager.EnumerateScopeRules","ISearchCrawlScopeManager::EnumerateScopeRules","_search_ISearchCrawlScopeManager_EnumerateScopeRules","search._search_ISearchCrawlScopeManager_EnumerateScopeRules","searchapi/ISearchCrawlScopeManager::EnumerateScopeRules"]
+description: Returns an enumeration of all the scope rules of which this instance of the ISearchCrawlScopeManager interface is aware.
+helpviewer_keywords: ["EnumerateScopeRules","EnumerateScopeRules method [search]","EnumerateScopeRules method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","EnumerateScopeRules method","ISearchCrawlScopeManager.EnumerateScopeRules","ISearchCrawlScopeManager::EnumerateScopeRules","_search_ISearchCrawlScopeManager_EnumerateScopeRules","search._search_ISearchCrawlScopeManager_EnumerateScopeRules","searchapi/ISearchCrawlScopeManager::EnumerateScopeRules"]
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumeratescoperules.htm

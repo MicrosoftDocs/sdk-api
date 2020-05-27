@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IRegistrationTrigger
 title: IRegistrationTrigger (taskschd.h)
-description: Represents a trigger that starts a task when the task is registered or updated.helpviewer_keywords: ["IRegistrationTrigger","IRegistrationTrigger interface [Task Scheduler]","IRegistrationTrigger interface [Task Scheduler]","described","registration trigger [Task Scheduler]","interface","taskschd.iregistrationtrigger","taskschd/IRegistrationTrigger"]
+description: Represents a trigger that starts a task when the task is registered or updated.
+helpviewer_keywords: ["IRegistrationTrigger","IRegistrationTrigger interface [Task Scheduler]","IRegistrationTrigger interface [Task Scheduler]","described","registration trigger [Task Scheduler]","interface","taskschd.iregistrationtrigger","taskschd/IRegistrationTrigger"]
 old-location: taskschd\iregistrationtrigger.htm
 tech.root: taskschd
 ms.assetid: 0862f7ac-69d6-4271-8d39-c5bd7038a95e

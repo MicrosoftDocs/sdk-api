@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._DRIVEROBJ
 title: DRIVEROBJ (winddi.h)
-description: The DRIVEROBJ structure is used to track a resource, allocated by a driver, that requires use GDI services.helpviewer_keywords: ["DRIVEROBJ","DRIVEROBJ structure [Display Devices]","display.driverobj","grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml","winddi/DRIVEROBJ"]
+description: The DRIVEROBJ structure is used to track a resource, allocated by a driver, that requires use GDI services.
+helpviewer_keywords: ["DRIVEROBJ","DRIVEROBJ structure [Display Devices]","display.driverobj","grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml","winddi/DRIVEROBJ"]
 old-location: display\driverobj.htm
 tech.root: display
 ms.assetid: 313ee1bf-ee0c-4283-b5e1-5bbabb944a4a

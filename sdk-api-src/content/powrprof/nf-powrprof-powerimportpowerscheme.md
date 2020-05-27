@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.PowerImportPowerScheme
 title: PowerImportPowerScheme function (powrprof.h)
-description: Imports a power scheme from a file.helpviewer_keywords: ["PowerImportPowerScheme","PowerImportPowerScheme function","base.powerimportpowerscheme","powrprof/PowerImportPowerScheme"]
+description: Imports a power scheme from a file.
+helpviewer_keywords: ["PowerImportPowerScheme","PowerImportPowerScheme function","base.powerimportpowerscheme","powrprof/PowerImportPowerScheme"]
 old-location: base\powerimportpowerscheme.htm
 tech.root: power
 ms.assetid: 84ba8cb6-13ad-459b-b154-c495aaeb67f3

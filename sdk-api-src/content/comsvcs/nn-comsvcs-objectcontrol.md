@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ObjectControl
 title: ObjectControl (comsvcs.h)
-description: If you implement this interface in your component, the COM+ run-time environment automatically calls its methods on your objects at the appropriate times.helpviewer_keywords: ["ObjectControl","ObjectControl interface [COM+]","ObjectControl interface [COM+]","described","_cos_ObjectControl","comsvcs/ObjectControl","cos.objectcontrol"]
+description: If you implement this interface in your component, the COM+ run-time environment automatically calls its methods on your objects at the appropriate times.
+helpviewer_keywords: ["ObjectControl","ObjectControl interface [COM+]","ObjectControl interface [COM+]","described","_cos_ObjectControl","comsvcs/ObjectControl","cos.objectcontrol"]
 old-location: cos\objectcontrol.htm
 tech.root: cossdk
 ms.assetid: 3ca939de-31ce-4ce6-84cd-4b4191a0753c

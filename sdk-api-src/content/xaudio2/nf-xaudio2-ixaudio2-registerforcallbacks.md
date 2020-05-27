@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2.RegisterForCallbacks
 title: IXAudio2::RegisterForCallbacks (xaudio2.h)
-description: Adds an IXAudio2EngineCallback pointer to the XAudio2 engine callback list.helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","RegisterForCallbacks method","IXAudio2.RegisterForCallbacks","IXAudio2::RegisterForCallbacks","RegisterForCallbacks","RegisterForCallbacks method [XAudio2 Audio Mixing APIs]","RegisterForCallbacks method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_registerforcallbacks","xaudio2/IXAudio2::RegisterForCallbacks"]
+description: Adds an IXAudio2EngineCallback pointer to the XAudio2 engine callback list.
+helpviewer_keywords: ["IXAudio2 interface [XAudio2 Audio Mixing APIs]","RegisterForCallbacks method","IXAudio2.RegisterForCallbacks","IXAudio2::RegisterForCallbacks","RegisterForCallbacks","RegisterForCallbacks method [XAudio2 Audio Mixing APIs]","RegisterForCallbacks method [XAudio2 Audio Mixing APIs]","IXAudio2 interface","xaudio2.ixaudio2_interface_registerforcallbacks","xaudio2/IXAudio2::RegisterForCallbacks"]
 old-location: xaudio2\ixaudio2_interface_registerforcallbacks.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.RegisterForCallbacks(IXAudio2EngineCallback)

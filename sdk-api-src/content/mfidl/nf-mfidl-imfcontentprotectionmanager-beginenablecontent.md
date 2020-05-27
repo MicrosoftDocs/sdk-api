@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFContentProtectionManager.BeginEnableContent
 title: IMFContentProtectionManager::BeginEnableContent (mfidl.h)
-description: Begins an asynchronous request to perform a content enabling action.helpviewer_keywords: ["2f422135-8e5f-41fb-a709-77636d1b451b","BeginEnableContent","BeginEnableContent method [Media Foundation]","BeginEnableContent method [Media Foundation]","IMFContentProtectionManager interface","IMFContentProtectionManager interface [Media Foundation]","BeginEnableContent method","IMFContentProtectionManager.BeginEnableContent","IMFContentProtectionManager::BeginEnableContent","mf.imfcontentprotectionmanager_beginenablecontent","mfidl/IMFContentProtectionManager::BeginEnableContent"]
+description: Begins an asynchronous request to perform a content enabling action.
+helpviewer_keywords: ["2f422135-8e5f-41fb-a709-77636d1b451b","BeginEnableContent","BeginEnableContent method [Media Foundation]","BeginEnableContent method [Media Foundation]","IMFContentProtectionManager interface","IMFContentProtectionManager interface [Media Foundation]","BeginEnableContent method","IMFContentProtectionManager.BeginEnableContent","IMFContentProtectionManager::BeginEnableContent","mf.imfcontentprotectionmanager_beginenablecontent","mfidl/IMFContentProtectionManager::BeginEnableContent"]
 old-location: mf\imfcontentprotectionmanager_beginenablecontent.htm
 tech.root: medfound
 ms.assetid: 2f422135-8e5f-41fb-a709-77636d1b451b

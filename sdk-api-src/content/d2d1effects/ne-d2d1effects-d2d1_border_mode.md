@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects.D2D1_BORDER_MODE
 title: D2D1_BORDER_MODE (d2d1effects.h)
-description: Specifies how the Crop effect handles the crop rectangle falling on fractional pixel coordinates.helpviewer_keywords: ["D2D1_BORDER_MODE","D2D1_BORDER_MODE enumeration [Direct2D]","D2D1_BORDER_MODE_HARD","D2D1_BORDER_MODE_SOFT","d2d1effects/D2D1_BORDER_MODE","d2d1effects/D2D1_BORDER_MODE_HARD","d2d1effects/D2D1_BORDER_MODE_SOFT","direct2d.d2d1_border_mode"]
+description: Specifies how the Crop effect handles the crop rectangle falling on fractional pixel coordinates.
+helpviewer_keywords: ["D2D1_BORDER_MODE","D2D1_BORDER_MODE enumeration [Direct2D]","D2D1_BORDER_MODE_HARD","D2D1_BORDER_MODE_SOFT","d2d1effects/D2D1_BORDER_MODE","d2d1effects/D2D1_BORDER_MODE_HARD","d2d1effects/D2D1_BORDER_MODE_SOFT","direct2d.d2d1_border_mode"]
 old-location: direct2d\d2d1_border_mode.htm
 tech.root: Direct2D
 ms.assetid: 093C7028-9C0E-4BB5-9769-C456B7A23B6F

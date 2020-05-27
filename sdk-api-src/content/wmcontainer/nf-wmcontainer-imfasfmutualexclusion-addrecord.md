@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.AddRecord
 title: IMFASFMutualExclusion::AddRecord (wmcontainer.h)
-description: Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.helpviewer_keywords: ["AddRecord","AddRecord method [Media Foundation]","AddRecord method [Media Foundation]","IMFASFMutualExclusion interface","IMFASFMutualExclusion interface [Media Foundation]","AddRecord method","IMFASFMutualExclusion.AddRecord","IMFASFMutualExclusion::AddRecord","f5dedc87-a29c-4c8d-b493-486d975f9ac4","mf.imfasfmutualexclusion_addrecord","wmcontainer/IMFASFMutualExclusion::AddRecord"]
+description: Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.
+helpviewer_keywords: ["AddRecord","AddRecord method [Media Foundation]","AddRecord method [Media Foundation]","IMFASFMutualExclusion interface","IMFASFMutualExclusion interface [Media Foundation]","AddRecord method","IMFASFMutualExclusion.AddRecord","IMFASFMutualExclusion::AddRecord","f5dedc87-a29c-4c8d-b493-486d975f9ac4","mf.imfasfmutualexclusion_addrecord","wmcontainer/IMFASFMutualExclusion::AddRecord"]
 old-location: mf\imfasfmutualexclusion_addrecord.htm
 tech.root: medfound
 ms.assetid: f5dedc87-a29c-4c8d-b493-486d975f9ac4

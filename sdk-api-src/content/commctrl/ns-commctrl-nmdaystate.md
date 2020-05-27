@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMDAYSTATE
 title: NMDAYSTATE (commctrl.h)
-description: Carries information required to process the MCN_GETDAYSTATE notification code. All members of this structure are for input, except prgDayState, which the receiving application must set when processing MCN_GETDAYSTATE.helpviewer_keywords: ["*LPNMDAYSTATE","LPNMDAYSTATE","LPNMDAYSTATE structure pointer [Windows Controls]","NMDAYSTATE","NMDAYSTATE structure [Windows Controls]","_win32_NMDAYSTATE","_win32_NMDAYSTATE_cpp","commctrl/LPNMDAYSTATE","commctrl/NMDAYSTATE","controls.NMDAYSTATE","controls._win32_NMDAYSTATE"]
+description: Carries information required to process the MCN_GETDAYSTATE notification code. All members of this structure are for input, except prgDayState, which the receiving application must set when processing MCN_GETDAYSTATE.
+helpviewer_keywords: ["*LPNMDAYSTATE","LPNMDAYSTATE","LPNMDAYSTATE structure pointer [Windows Controls]","NMDAYSTATE","NMDAYSTATE structure [Windows Controls]","_win32_NMDAYSTATE","_win32_NMDAYSTATE_cpp","commctrl/LPNMDAYSTATE","commctrl/NMDAYSTATE","controls.NMDAYSTATE","controls._win32_NMDAYSTATE"]
 old-location: controls\NMDAYSTATE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmdaystate.htm

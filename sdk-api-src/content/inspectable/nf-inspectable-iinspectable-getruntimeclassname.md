@@ -1,7 +1,8 @@
 ---
 UID: NF:inspectable.IInspectable.GetRuntimeClassName
 title: IInspectable::GetRuntimeClassName (inspectable.h)
-description: Gets the fully qualified name of the current Windows Runtime object.helpviewer_keywords: ["GetRuntimeClassName","GetRuntimeClassName method [Windows Runtime]","GetRuntimeClassName method [Windows Runtime]","IInputPaneInterop interface","GetRuntimeClassName method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetRuntimeClassName method","IInputPaneInterop::GetRuntimeClassName","IInspectable interface [Windows Runtime]","GetRuntimeClassName method","IInspectable.GetRuntimeClassName","IInspectable::GetRuntimeClassName","inspectable/IInputPaneInterop::GetRuntimeClassName","inspectable/IInspectable::GetRuntimeClassName","winrt.iinspectable_getruntimeclassname"]
+description: Gets the fully qualified name of the current Windows Runtime object.
+helpviewer_keywords: ["GetRuntimeClassName","GetRuntimeClassName method [Windows Runtime]","GetRuntimeClassName method [Windows Runtime]","IInputPaneInterop interface","GetRuntimeClassName method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetRuntimeClassName method","IInputPaneInterop::GetRuntimeClassName","IInspectable interface [Windows Runtime]","GetRuntimeClassName method","IInspectable.GetRuntimeClassName","IInspectable::GetRuntimeClassName","inspectable/IInputPaneInterop::GetRuntimeClassName","inspectable/IInspectable::GetRuntimeClassName","winrt.iinspectable_getruntimeclassname"]
 old-location: winrt\iinspectable_getruntimeclassname.htm
 tech.root: WinRT
 ms.assetid: E0A0B56D-E676-46FD-873D-11309102DFFD

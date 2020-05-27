@@ -1,7 +1,8 @@
 ---
 UID: NF:certpoleng.PstGetTrustAnchors
 title: PstGetTrustAnchors function (certpoleng.h)
-description: Retrieves a list of certification authorities (CAs) trusted by the specified server.helpviewer_keywords: ["PstGetTrustAnchors","PstGetTrustAnchors function [Security]","certpoleng/PstGetTrustAnchors","security.pstgettrustanchors"]
+description: Retrieves a list of certification authorities (CAs) trusted by the specified server.
+helpviewer_keywords: ["PstGetTrustAnchors","PstGetTrustAnchors function [Security]","certpoleng/PstGetTrustAnchors","security.pstgettrustanchors"]
 old-location: security\pstgettrustanchors.htm
 tech.root: SecAuthN
 ms.assetid: bbd69763-6801-4321-be18-802d48850d8c

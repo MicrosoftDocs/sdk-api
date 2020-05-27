@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.ICurrentWorkingDirectory
 title: ICurrentWorkingDirectory (shlobj.h)
-description: Exposes methods that enable a client to retrieve or set an object's current working directory.helpviewer_keywords: ["ICurrentWorkingDirectory","ICurrentWorkingDirectory interface [Windows Shell]","ICurrentWorkingDirectory interface [Windows Shell]","described","_win32_ICurrentWorkingDirectory","shell.ICurrentWorkingDirectory","shlobj/ICurrentWorkingDirectory"]
+description: Exposes methods that enable a client to retrieve or set an object's current working directory.
+helpviewer_keywords: ["ICurrentWorkingDirectory","ICurrentWorkingDirectory interface [Windows Shell]","ICurrentWorkingDirectory interface [Windows Shell]","described","_win32_ICurrentWorkingDirectory","shell.ICurrentWorkingDirectory","shlobj/ICurrentWorkingDirectory"]
 old-location: shell\ICurrentWorkingDirectory.htm
 tech.root: shell
 ms.assetid: 1fdbe616-3ca3-4f07-b89c-4c76561ba169

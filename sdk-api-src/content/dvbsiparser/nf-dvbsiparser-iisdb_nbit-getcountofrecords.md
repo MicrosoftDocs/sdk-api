@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetCountOfRecords
 title: IISDB_NBIT::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetCountOfRecords method","IISDB_NBIT.GetCountOfRecords","IISDB_NBIT::GetCountOfRecords","dvbsiparser/IISDB_NBIT::GetCountOfRecords","mstv.iisdb_nbit_getcountofrecords"]
+description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetCountOfRecords method","IISDB_NBIT.GetCountOfRecords","IISDB_NBIT::GetCountOfRecords","dvbsiparser/IISDB_NBIT::GetCountOfRecords","mstv.iisdb_nbit_getcountofrecords"]
 old-location: mstv\iisdb_nbit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: c747278a-dea7-4772-b37d-89c1deaaf91f

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MinorVersion
 title: IFaxDeviceProvider::get_MinorVersion (faxcomex.h)
-description: The IFaxDeviceProvider::get_MinorVersion property is a value that specifies the minor part of the version number for the fax service provider (FSP)Â DLL.helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","MinorVersion property","IFaxDeviceProvider.MinorVersion","IFaxDeviceProvider.get_MinorVersion","IFaxDeviceProvider::MinorVersion","IFaxDeviceProvider::get_MinorVersion","MinorVersion property [Fax Service]","MinorVersion property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.minorversion","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorversion_cpp","fax._mfax_faxdeviceprovider_minorversion","faxcomex/IFaxDeviceProvider::MinorVersion","faxcomex/IFaxDeviceProvider::get_MinorVersion","get_MinorVersion"]
+description: The IFaxDeviceProvider::get_MinorVersion property is a value that specifies the minor part of the version number for the fax service provider (FSP)Â DLL.
+helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","MinorVersion property","IFaxDeviceProvider.MinorVersion","IFaxDeviceProvider.get_MinorVersion","IFaxDeviceProvider::MinorVersion","IFaxDeviceProvider::get_MinorVersion","MinorVersion property [Fax Service]","MinorVersion property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.minorversion","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorversion_cpp","fax._mfax_faxdeviceprovider_minorversion","faxcomex/IFaxDeviceProvider::MinorVersion","faxcomex/IFaxDeviceProvider::get_MinorVersion","get_MinorVersion"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_417y.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.RemoveStream
 title: IWMStreamList::RemoveStream (wmsdkidl.h)
-description: The RemoveStream method removes a stream from the list.helpviewer_keywords: ["IWMStreamList interface [windows Media Format]","RemoveStream method","IWMStreamList.RemoveStream","IWMStreamList::RemoveStream","IWMStreamListRemoveStream","RemoveStream","RemoveStream method [windows Media Format]","RemoveStream method [windows Media Format]","IWMStreamList interface","wmformat.iwmstreamlist_removestream","wmsdkidl/IWMStreamList::RemoveStream"]
+description: The RemoveStream method removes a stream from the list.
+helpviewer_keywords: ["IWMStreamList interface [windows Media Format]","RemoveStream method","IWMStreamList.RemoveStream","IWMStreamList::RemoveStream","IWMStreamListRemoveStream","RemoveStream","RemoveStream method [windows Media Format]","RemoveStream method [windows Media Format]","IWMStreamList interface","wmformat.iwmstreamlist_removestream","wmsdkidl/IWMStreamList::RemoveStream"]
 old-location: wmformat\iwmstreamlist_removestream.htm
 tech.root: wmformat
 ms.assetid: 3b69f516-a321-49f1-a299-666143eaf8a5

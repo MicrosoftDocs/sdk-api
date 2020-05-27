@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.isIdentical
 title: IWMPSyncDevice::isIdentical (wmp.h)
-description: The isIdentical method compares the current device to the specified device and retrieves a value indicating whether they are the same device.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","isIdentical method","IWMPSyncDevice.isIdentical","IWMPSyncDevice::isIdentical","IWMPSyncDeviceisIdentical","isIdentical","isIdentical method [Windows Media Player]","isIdentical method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_isidentical","wmp/IWMPSyncDevice::isIdentical"]
+description: The isIdentical method compares the current device to the specified device and retrieves a value indicating whether they are the same device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","isIdentical method","IWMPSyncDevice.isIdentical","IWMPSyncDevice::isIdentical","IWMPSyncDeviceisIdentical","isIdentical","isIdentical method [Windows Media Player]","isIdentical method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_isidentical","wmp/IWMPSyncDevice::isIdentical"]
 old-location: wmp\iwmpsyncdevice_isidentical.htm
 tech.root: WMP
 ms.assetid: 4335d480-5af0-4764-b8f8-0e6edc1598b7

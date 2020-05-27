@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKey
 title: BCryptDeriveKey function (bcrypt.h)
-description: Derives a key from a secret agreement value.helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","BCryptDeriveKey","BCryptDeriveKey function [Security]","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","bcrypt/BCryptDeriveKey","security.bcryptderivekey"]
+description: Derives a key from a secret agreement value.
+helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","BCryptDeriveKey","BCryptDeriveKey function [Security]","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","bcrypt/BCryptDeriveKey","security.bcryptderivekey"]
 old-location: security\bcryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 33c3cbf7-6c08-42ed-ac3f-feb71f3a9cbf

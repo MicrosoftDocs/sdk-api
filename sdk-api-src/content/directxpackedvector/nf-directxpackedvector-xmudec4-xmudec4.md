@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4
 title: XMUDEC4::XMUDEC4 (directxpackedvector.h)
-description: Default constructor for XMUDEC4.helpviewer_keywords: ["XMUDEC4","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 structure","XMUDEC4 structure [DirectX Math Support APIs]","XMUDEC4 constructor","XMUDEC4.XMUDEC4","XMUDEC4.XMUDEC4()","XMUDEC4::XMUDEC4","dxmath.xmudec4_ctor_1"]
+description: Default constructor for XMUDEC4.
+helpviewer_keywords: ["XMUDEC4","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 structure","XMUDEC4 structure [DirectX Math Support APIs]","XMUDEC4 constructor","XMUDEC4.XMUDEC4","XMUDEC4.XMUDEC4()","XMUDEC4::XMUDEC4","dxmath.xmudec4_ctor_1"]
 old-location: dxmath\xmudec4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.#ctor

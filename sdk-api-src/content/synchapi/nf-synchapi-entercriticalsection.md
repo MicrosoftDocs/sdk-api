@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.EnterCriticalSection
 title: EnterCriticalSection function (synchapi.h)
-description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.helpviewer_keywords: ["EnterCriticalSection","EnterCriticalSection function","_win32_entercriticalsection","base.entercriticalsection","synchapi/EnterCriticalSection","winbase/EnterCriticalSection"]
+description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
+helpviewer_keywords: ["EnterCriticalSection","EnterCriticalSection function","_win32_entercriticalsection","base.entercriticalsection","synchapi/EnterCriticalSection","winbase/EnterCriticalSection"]
 old-location: base\entercriticalsection.htm
 tech.root: Sync
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492

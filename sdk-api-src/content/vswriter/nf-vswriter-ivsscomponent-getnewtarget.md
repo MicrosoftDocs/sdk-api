@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponent.GetNewTarget
 title: IVssComponent::GetNewTarget (vswriter.h)
-description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.helpviewer_keywords: ["GetNewTarget","GetNewTarget method [VSS]","GetNewTarget method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetNewTarget method","IVssComponent.GetNewTarget","IVssComponent::GetNewTarget","_win32_ivsscomponent_getnewtarget","base.ivsscomponent_getnewtarget","vswriter/IVssComponent::GetNewTarget"]
+description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.
+helpviewer_keywords: ["GetNewTarget","GetNewTarget method [VSS]","GetNewTarget method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetNewTarget method","IVssComponent.GetNewTarget","IVssComponent::GetNewTarget","_win32_ivsscomponent_getnewtarget","base.ivsscomponent_getnewtarget","vswriter/IVssComponent::GetNewTarget"]
 old-location: base\ivsscomponent_getnewtarget.htm
 tech.root: VSS
 ms.assetid: 21f22fae-2230-418b-8942-754c863a9213

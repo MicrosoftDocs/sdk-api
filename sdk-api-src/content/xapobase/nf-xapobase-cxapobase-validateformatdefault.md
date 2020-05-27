@@ -1,7 +1,8 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatDefault
 title: CXAPOBase::ValidateFormatDefault (xapobase.h)
-description: Verifies that an audio format falls within the default ranges supported.helpviewer_keywords: ["CXAPOBase interface [XAudio2 Audio Mixing APIs]","ValidateFormatDefault method","CXAPOBase.ValidateFormatDefault","CXAPOBase::ValidateFormatDefault","ValidateFormatDefault","ValidateFormatDefault method [XAudio2 Audio Mixing APIs]","ValidateFormatDefault method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","xapobase/CXAPOBase::ValidateFormatDefault","xaudio2.cxapobase_validateformatdefault"]
+description: Verifies that an audio format falls within the default ranges supported.
+helpviewer_keywords: ["CXAPOBase interface [XAudio2 Audio Mixing APIs]","ValidateFormatDefault method","CXAPOBase.ValidateFormatDefault","CXAPOBase::ValidateFormatDefault","ValidateFormatDefault","ValidateFormatDefault method [XAudio2 Audio Mixing APIs]","ValidateFormatDefault method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","xapobase/CXAPOBase::ValidateFormatDefault","xaudio2.cxapobase_validateformatdefault"]
 old-location: xaudio2\cxapobase_validateformatdefault.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatDefault(WAVEFORMATEX,BOOL)

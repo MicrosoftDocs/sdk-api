@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestResourcesEnumerator
 title: IAppxManifestResourcesEnumerator (appxpackaging.h)
-description: Enumerates the resources defined in the package manifest.helpviewer_keywords: ["IAppxManifestResourcesEnumerator","IAppxManifestResourcesEnumerator interface [App packaging and management]","IAppxManifestResourcesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestResourcesEnumerator","appxpkg.iappxmanifestresourcesenumerator"]
+description: Enumerates the resources defined in the package manifest.
+helpviewer_keywords: ["IAppxManifestResourcesEnumerator","IAppxManifestResourcesEnumerator interface [App packaging and management]","IAppxManifestResourcesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestResourcesEnumerator","appxpkg.iappxmanifestresourcesenumerator"]
 old-location: appxpkg\iappxmanifestresourcesenumerator.htm
 tech.root: appxpkg
 ms.assetid: D76C7512-962F-4AFE-934F-BBC215B5FE99

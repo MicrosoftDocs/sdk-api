@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabExportContact
 title: PeerCollabExportContact function (p2p.h)
-description: Exports the contact data associated with a peer name to a string buffer. The buffer contains contact data in XML format.helpviewer_keywords: ["PeerCollabExportContact","PeerCollabExportContact function [Peer Networking]","p2p.peercollabexportcontact","p2p/PeerCollabExportContact"]
+description: Exports the contact data associated with a peer name to a string buffer. The buffer contains contact data in XML format.
+helpviewer_keywords: ["PeerCollabExportContact","PeerCollabExportContact function [Peer Networking]","p2p.peercollabexportcontact","p2p/PeerCollabExportContact"]
 old-location: p2p\peercollabexportcontact.htm
 tech.root: P2PSdk
 ms.assetid: 8239e42f-3d86-416e-ad1b-93a37091811f

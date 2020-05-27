@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_ParameterSet_GetParameter
 title: MI_ParameterSet_GetParameter function (mi.h)
-description: Gets a method's parameter information based on a parameter name.helpviewer_keywords: ["MI_ParameterSet_GetParameter","MI_ParameterSet_GetParameter function [Windows Management Infrastructure (MI)]","mi/MI_ParameterSet_GetParameter","wmi_v2.mi_parameterset_getparameter"]
+description: Gets a method's parameter information based on a parameter name.
+helpviewer_keywords: ["MI_ParameterSet_GetParameter","MI_ParameterSet_GetParameter function [Windows Management Infrastructure (MI)]","mi/MI_ParameterSet_GetParameter","wmi_v2.mi_parameterset_getparameter"]
 old-location: wmi_v2\mi_parameterset_getparameter.htm
 tech.root: wmi_v2
 ms.assetid: ff895beb-8354-488d-9c97-2d0448da954a

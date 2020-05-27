@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_16
 title: WS_CHANNEL_STATE (webservices.h)
-description: The different states that a channel can be in.helpviewer_keywords: ["WS_CHANNEL_STATE","WS_CHANNEL_STATE enumeration [Web Services for Windows]","WS_CHANNEL_STATE_ACCEPTING","WS_CHANNEL_STATE_CLOSED","WS_CHANNEL_STATE_CLOSING","WS_CHANNEL_STATE_CREATED","WS_CHANNEL_STATE_FAULTED","WS_CHANNEL_STATE_OPEN","WS_CHANNEL_STATE_OPENING","webservices/WS_CHANNEL_STATE","webservices/WS_CHANNEL_STATE_ACCEPTING","webservices/WS_CHANNEL_STATE_CLOSED","webservices/WS_CHANNEL_STATE_CLOSING","webservices/WS_CHANNEL_STATE_CREATED","webservices/WS_CHANNEL_STATE_FAULTED","webservices/WS_CHANNEL_STATE_OPEN","webservices/WS_CHANNEL_STATE_OPENING","wsw.ws_channel_state"]
+description: The different states that a channel can be in.
+helpviewer_keywords: ["WS_CHANNEL_STATE","WS_CHANNEL_STATE enumeration [Web Services for Windows]","WS_CHANNEL_STATE_ACCEPTING","WS_CHANNEL_STATE_CLOSED","WS_CHANNEL_STATE_CLOSING","WS_CHANNEL_STATE_CREATED","WS_CHANNEL_STATE_FAULTED","WS_CHANNEL_STATE_OPEN","WS_CHANNEL_STATE_OPENING","webservices/WS_CHANNEL_STATE","webservices/WS_CHANNEL_STATE_ACCEPTING","webservices/WS_CHANNEL_STATE_CLOSED","webservices/WS_CHANNEL_STATE_CLOSING","webservices/WS_CHANNEL_STATE_CREATED","webservices/WS_CHANNEL_STATE_FAULTED","webservices/WS_CHANNEL_STATE_OPEN","webservices/WS_CHANNEL_STATE_OPENING","wsw.ws_channel_state"]
 old-location: wsw\ws_channel_state.htm
 tech.root: wsw
 ms.assetid: 3a7f5bbd-e484-4a7e-8e5d-df229a7227a5

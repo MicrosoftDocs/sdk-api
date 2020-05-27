@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_StartOfLeadout
 title: IRawCDImageCreator::get_StartOfLeadout (imapi2.h)
-description: Retrieves the value that defines the LBA for the start of the Leadout. This method can be utilized to determine if the image can be written to a piece of media by comparing it against the LastPossibleStartOfLeadout for the media.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_StartOfLeadout method","IRawCDImageCreator.get_StartOfLeadout","IRawCDImageCreator::get_StartOfLeadout","get_StartOfLeadout","get_StartOfLeadout method [IMAPI]","get_StartOfLeadout method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_startofleadout","imapi2/IRawCDImageCreator::get_StartOfLeadout"]
+description: Retrieves the value that defines the LBA for the start of the Leadout. This method can be utilized to determine if the image can be written to a piece of media by comparing it against the LastPossibleStartOfLeadout for the media.
+helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","get_StartOfLeadout method","IRawCDImageCreator.get_StartOfLeadout","IRawCDImageCreator::get_StartOfLeadout","get_StartOfLeadout","get_StartOfLeadout method [IMAPI]","get_StartOfLeadout method [IMAPI]","IRawCDImageCreator interface","imapi.irawcdimagecreator_get_startofleadout","imapi2/IRawCDImageCreator::get_StartOfLeadout"]
 old-location: imapi\irawcdimagecreator_get_startofleadout.htm
 tech.root: imapi
 ms.assetid: 5bf40179-31f5-453f-a989-4bcd116a45aa

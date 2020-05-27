@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientProperties
 title: IWMClientConnections::GetClientProperties (wmsdkidl.h)
-description: The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.helpviewer_keywords: ["GetClientProperties","GetClientProperties method [windows Media Format]","GetClientProperties method [windows Media Format]","IWMClientConnections interface","IWMClientConnections interface [windows Media Format]","GetClientProperties method","IWMClientConnections.GetClientProperties","IWMClientConnections::GetClientProperties","IWMClientConnectionsGetClientProperties","wmformat.iwmclientconnections_getclientproperties","wmsdkidl/IWMClientConnections::GetClientProperties"]
+description: The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.
+helpviewer_keywords: ["GetClientProperties","GetClientProperties method [windows Media Format]","GetClientProperties method [windows Media Format]","IWMClientConnections interface","IWMClientConnections interface [windows Media Format]","GetClientProperties method","IWMClientConnections.GetClientProperties","IWMClientConnections::GetClientProperties","IWMClientConnectionsGetClientProperties","wmformat.iwmclientconnections_getclientproperties","wmsdkidl/IWMClientConnections::GetClientProperties"]
 old-location: wmformat\iwmclientconnections_getclientproperties.htm
 tech.root: wmformat
 ms.assetid: a05d7d1e-21dc-4e2a-a17b-5f04e639b143

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsRectEmpty
 title: IsRectEmpty function (winuser.h)
-description: The IsRectEmpty function determines whether the specified rectangle is empty.helpviewer_keywords: ["IsRectEmpty","IsRectEmpty function [Windows GDI]","_win32_IsRectEmpty","gdi.isrectempty","winuser/IsRectEmpty"]
+description: The IsRectEmpty function determines whether the specified rectangle is empty.
+helpviewer_keywords: ["IsRectEmpty","IsRectEmpty function [Windows GDI]","_win32_IsRectEmpty","gdi.isrectempty","winuser/IsRectEmpty"]
 old-location: gdi\isrectempty.htm
 tech.root: gdi
 ms.assetid: 9deeed4f-304e-47a3-8259-ed7bc3815fd7

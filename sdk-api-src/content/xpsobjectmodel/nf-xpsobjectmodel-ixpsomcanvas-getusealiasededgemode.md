@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetUseAliasedEdgeMode
 title: IXpsOMCanvas::GetUseAliasedEdgeMode (xpsobjectmodel.h)
-description: Gets a Boolean value that determines whether the edges of the objects in the canvas are to be rendered using the aliased edge mode.helpviewer_keywords: ["FALSE","GetUseAliasedEdgeMode","GetUseAliasedEdgeMode method [XPS Documents and Packaging]","GetUseAliasedEdgeMode method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetUseAliasedEdgeMode method","IXpsOMCanvas.GetUseAliasedEdgeMode","IXpsOMCanvas::GetUseAliasedEdgeMode","TRUE","xps.ixpsomcanvas_getusealiasededgemode","xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode"]
+description: Gets a Boolean value that determines whether the edges of the objects in the canvas are to be rendered using the aliased edge mode.
+helpviewer_keywords: ["FALSE","GetUseAliasedEdgeMode","GetUseAliasedEdgeMode method [XPS Documents and Packaging]","GetUseAliasedEdgeMode method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetUseAliasedEdgeMode method","IXpsOMCanvas.GetUseAliasedEdgeMode","IXpsOMCanvas::GetUseAliasedEdgeMode","TRUE","xps.ixpsomcanvas_getusealiasededgemode","xpsobjectmodel/IXpsOMCanvas::GetUseAliasedEdgeMode"]
 old-location: xps\ixpsomcanvas_getusealiasededgemode.htm
 tech.root: printdocs
 ms.assetid: 9d3f0660-227a-4b0f-bd41-112bd89e4605

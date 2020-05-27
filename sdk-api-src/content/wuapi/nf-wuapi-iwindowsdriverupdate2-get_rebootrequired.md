@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_RebootRequired
 title: IWindowsDriverUpdate2::get_RebootRequired (wuapi.h)
-description: Gets a Boolean value that indicates whether the computer must be restarted after you install or uninstall an update.helpviewer_keywords: ["IWindowsDriverUpdate2 interface [Windows Update Agent]","RebootRequired property","IWindowsDriverUpdate2.RebootRequired","IWindowsDriverUpdate2.get_RebootRequired","IWindowsDriverUpdate2::RebootRequired","IWindowsDriverUpdate2::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IWindowsDriverUpdate2 interface","get_RebootRequired","wua.iwindowsdriverupdate2_rebootrequired","wuapi/IWindowsDriverUpdate2::RebootRequired","wuapi/IWindowsDriverUpdate2::get_RebootRequired"]
+description: Gets a Boolean value that indicates whether the computer must be restarted after you install or uninstall an update.
+helpviewer_keywords: ["IWindowsDriverUpdate2 interface [Windows Update Agent]","RebootRequired property","IWindowsDriverUpdate2.RebootRequired","IWindowsDriverUpdate2.get_RebootRequired","IWindowsDriverUpdate2::RebootRequired","IWindowsDriverUpdate2::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IWindowsDriverUpdate2 interface","get_RebootRequired","wua.iwindowsdriverupdate2_rebootrequired","wuapi/IWindowsDriverUpdate2::RebootRequired","wuapi/IWindowsDriverUpdate2::get_RebootRequired"]
 old-location: wua\iwindowsdriverupdate2_rebootrequired.htm
 tech.root: Wua_Sdk
 ms.assetid: 32c6982e-9654-4f8f-acca-ba1e4d52b210

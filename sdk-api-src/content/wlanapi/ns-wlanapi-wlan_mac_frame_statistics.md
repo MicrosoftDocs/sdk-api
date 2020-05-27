@@ -1,7 +1,8 @@
 ---
 UID: NS:wlanapi.WLAN_MAC_FRAME_STATISTICS
 title: WLAN_MAC_FRAME_STATISTICS (wlanapi.h)
-description: Contains information about sent and received MAC frames.helpviewer_keywords: ["*PWLAN_MAC_FRAME_STATISTICS","PWLAN_MAC_FRAME_STATISTICS","PWLAN_MAC_FRAME_STATISTICS structure pointer [NativeWIFI]","WLAN_MAC_FRAME_STATISTICS","WLAN_MAC_FRAME_STATISTICS structure [NativeWIFI]","nwifi.wlan_mac_frame_statistics","wlanapi/PWLAN_MAC_FRAME_STATISTICS","wlanapi/WLAN_MAC_FRAME_STATISTICS"]
+description: Contains information about sent and received MAC frames.
+helpviewer_keywords: ["*PWLAN_MAC_FRAME_STATISTICS","PWLAN_MAC_FRAME_STATISTICS","PWLAN_MAC_FRAME_STATISTICS structure pointer [NativeWIFI]","WLAN_MAC_FRAME_STATISTICS","WLAN_MAC_FRAME_STATISTICS structure [NativeWIFI]","nwifi.wlan_mac_frame_statistics","wlanapi/PWLAN_MAC_FRAME_STATISTICS","wlanapi/WLAN_MAC_FRAME_STATISTICS"]
 old-location: nwifi\wlan_mac_frame_statistics.htm
 tech.root: NativeWiFi
 ms.assetid: b5bb4ec9-aeec-4a64-977d-e875c3835196

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSinCos
 title: XMVectorSinCos function (directxmath.h)
-description: Computes the sine and cosine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorSinCos","XMVectorSinCos","XMVectorSinCos method [DirectX Math Support APIs]","dxmath.xmvectorsincos"]
+description: Computes the sine and cosine of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorSinCos","XMVectorSinCos","XMVectorSinCos method [DirectX Math Support APIs]","dxmath.xmvectorsincos"]
 old-location: dxmath\xmvectorsincos.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinCos(XMVECTOR@,XMVECTOR@,XMVECTOR)

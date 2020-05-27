@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IAppVisibility
 title: IAppVisibility (shobjidl_core.h)
-description: Provides functionality to determine whether the display is showing Windows Store apps.helpviewer_keywords: ["IAppVisibility","IAppVisibility interface [Windows Shell]","IAppVisibility interface [Windows Shell]","described","shell.IAppVisibility","shobjidl_core/IAppVisibility"]
+description: Provides functionality to determine whether the display is showing Windows Store apps.
+helpviewer_keywords: ["IAppVisibility","IAppVisibility interface [Windows Shell]","IAppVisibility interface [Windows Shell]","described","shell.IAppVisibility","shobjidl_core/IAppVisibility"]
 old-location: shell\IAppVisibility.htm
 tech.root: shell
 ms.assetid: 89E26D36-3536-45F5-9396-83CCFB26890B

@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.Process
 title: Process function (recapis.h)
-description: Performs ink recognition synchronously.helpviewer_keywords: ["564a2734-1a90-4566-a39d-7e16eff870ff","Process","Process function [Tablet PC]","recapis/Process","tablet.process"]
+description: Performs ink recognition synchronously.
+helpviewer_keywords: ["564a2734-1a90-4566-a39d-7e16eff870ff","Process","Process function [Tablet PC]","recapis/Process","tablet.process"]
 old-location: tablet\process.htm
 tech.root: tablet
 ms.assetid: 564a2734-1a90-4566-a39d-7e16eff870ff

@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IComponent
 title: IComponent (tuner.h)
-description: The IComponent interface a base class for all derived interfaces such as IMPEG2Component and it describes the general characteristics of a component, which is an elementary stream within the program stream.helpviewer_keywords: ["IComponent","IComponent interface [Microsoft TV Technologies]","IComponent interface [Microsoft TV Technologies]","described","IComponentInterface","mstv.icomponent","tuner/IComponent"]
+description: The IComponent interface a base class for all derived interfaces such as IMPEG2Component and it describes the general characteristics of a component, which is an elementary stream within the program stream.
+helpviewer_keywords: ["IComponent","IComponent interface [Microsoft TV Technologies]","IComponent interface [Microsoft TV Technologies]","described","IComponentInterface","mstv.icomponent","tuner/IComponent"]
 old-location: mstv\icomponent.htm
 tech.root: mstv
 ms.assetid: 516b30ba-4f55-49b7-8085-d436bf4a94e1

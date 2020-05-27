@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IComponents.get__NewEnum
 title: IComponents::get__NewEnum (tuner.h)
-description: The get__NewEnum enumeration method supports For...Each loops in Automation clients.helpviewer_keywords: ["IComponents interface [Microsoft TV Technologies]","get__NewEnum method","IComponents.get__NewEnum","IComponents::get__NewEnum","IComponentsget__NewEnum","get__NewEnum","get__NewEnum method [Microsoft TV Technologies]","get__NewEnum method [Microsoft TV Technologies]","IComponents interface","mstv.icomponents_get__newenum","tuner/IComponents::get__NewEnum"]
+description: The get__NewEnum enumeration method supports For...Each loops in Automation clients.
+helpviewer_keywords: ["IComponents interface [Microsoft TV Technologies]","get__NewEnum method","IComponents.get__NewEnum","IComponents::get__NewEnum","IComponentsget__NewEnum","get__NewEnum","get__NewEnum method [Microsoft TV Technologies]","get__NewEnum method [Microsoft TV Technologies]","IComponents interface","mstv.icomponents_get__newenum","tuner/IComponents::get__NewEnum"]
 old-location: mstv\icomponents_get__newenum.htm
 tech.root: mstv
 ms.assetid: fcb965f4-8fd6-415f-8fb6-a80d0c92731d

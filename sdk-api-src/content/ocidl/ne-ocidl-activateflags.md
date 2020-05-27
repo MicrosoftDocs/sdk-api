@@ -1,7 +1,8 @@
 ---
 UID: NE:ocidl.tagACTIVATEFLAGS
 title: ACTIVATEFLAGS (ocidl.h)
-description: Indicates whether an object is activated as a windowless object. It is used in IOleInPlaceSiteEx::OnInPlaceActivateEx.helpviewer_keywords: ["ACTIVATEFLAGS","ACTIVATEFLAGS enumeration [COM]","ACTIVATE_WINDOWLESS","_ole_ACTIVATEFLAGS","com.activateflags","ocidl/ACTIVATEFLAGS","ocidl/ACTIVATE_WINDOWLESS"]
+description: Indicates whether an object is activated as a windowless object. It is used in IOleInPlaceSiteEx::OnInPlaceActivateEx.
+helpviewer_keywords: ["ACTIVATEFLAGS","ACTIVATEFLAGS enumeration [COM]","ACTIVATE_WINDOWLESS","_ole_ACTIVATEFLAGS","com.activateflags","ocidl/ACTIVATEFLAGS","ocidl/ACTIVATE_WINDOWLESS"]
 old-location: com\activateflags.htm
 tech.root: com
 ms.assetid: 8748d3aa-3fea-4705-959c-3bc86b13a868

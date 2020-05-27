@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit
 title: IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit (dvbsiparser.h)
-description: Gets the number of conditional access unit records in a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.helpviewer_keywords: ["GetRecordNumberOfCAUnit","GetRecordNumberOfCAUnit method [Microsoft TV Technologies]","GetRecordNumberOfCAUnit method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetRecordNumberOfCAUnit method","IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit","IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit","dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit","mstv.iisdbcomponentgroupdescriptor_getrecordnumberofcaunit"]
+description: Gets the number of conditional access unit records in a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
+helpviewer_keywords: ["GetRecordNumberOfCAUnit","GetRecordNumberOfCAUnit method [Microsoft TV Technologies]","GetRecordNumberOfCAUnit method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetRecordNumberOfCAUnit method","IIsdbComponentGroupDescriptor.GetRecordNumberOfCAUnit","IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit","dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordNumberOfCAUnit","mstv.iisdbcomponentgroupdescriptor_getrecordnumberofcaunit"]
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordnumberofcaunit.htm
 tech.root: mstv
 ms.assetid: 239d952f-908d-4aa9-86c0-f58f7616987f

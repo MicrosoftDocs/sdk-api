@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandGetDataFromDevice
 title: IDiscRecorder2Ex::SendCommandGetDataFromDevice (imapi2.h)
-description: Sends a MMC command to the recording device requesting data from the device.helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendCommandGetDataFromDevice method","IDiscRecorder2Ex.SendCommandGetDataFromDevice","IDiscRecorder2Ex::SendCommandGetDataFromDevice","SendCommandGetDataFromDevice","SendCommandGetDataFromDevice method [IMAPI]","SendCommandGetDataFromDevice method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_sendcommandgetdatafromdevice","imapi2/IDiscRecorder2Ex::SendCommandGetDataFromDevice"]
+description: Sends a MMC command to the recording device requesting data from the device.
+helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendCommandGetDataFromDevice method","IDiscRecorder2Ex.SendCommandGetDataFromDevice","IDiscRecorder2Ex::SendCommandGetDataFromDevice","SendCommandGetDataFromDevice","SendCommandGetDataFromDevice method [IMAPI]","SendCommandGetDataFromDevice method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_sendcommandgetdatafromdevice","imapi2/IDiscRecorder2Ex::SendCommandGetDataFromDevice"]
 old-location: imapi\idiscrecorder2ex_sendcommandgetdatafromdevice.htm
 tech.root: imapi
 ms.assetid: d3142b79-4e46-4cb8-ab4a-3bf5823cd26e

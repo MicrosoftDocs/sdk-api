@@ -1,7 +1,8 @@
 ---
 UID: NS:perflib._PERF_COUNTER_HEADER
 title: PERF_COUNTER_HEADER (perflib.h)
-description: Contains information about the PERF_COUNTER_HEADER block that contains the structure.helpviewer_keywords: ["*PPERF_COUNTER_HEADER","PERF_COUNTERSET","PERF_COUNTER_HEADER","PERF_COUNTER_HEADER structure [Perf]","PERF_ERROR_RETURN","PERF_MULTIPLE_COUNTERS","PERF_MULTIPLE_INSTANCES","PERF_SINGLE_COUNTER","PPERF_COUNTER_HEADER","PPERF_COUNTER_HEADER structure pointer [Perf]","perf.perf_counter_header","perflib/PERF_COUNTER_HEADER","perflib/PPERF_COUNTER_HEADER"]
+description: Contains information about the PERF_COUNTER_HEADER block that contains the structure.
+helpviewer_keywords: ["*PPERF_COUNTER_HEADER","PERF_COUNTERSET","PERF_COUNTER_HEADER","PERF_COUNTER_HEADER structure [Perf]","PERF_ERROR_RETURN","PERF_MULTIPLE_COUNTERS","PERF_MULTIPLE_INSTANCES","PERF_SINGLE_COUNTER","PPERF_COUNTER_HEADER","PPERF_COUNTER_HEADER structure pointer [Perf]","perf.perf_counter_header","perflib/PERF_COUNTER_HEADER","perflib/PPERF_COUNTER_HEADER"]
 old-location: perf\perf_counter_header.htm
 tech.root: perfctrs
 ms.assetid: 8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F

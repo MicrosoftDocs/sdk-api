@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Next
 title: IEnumSearchRoots::Next (searchapi.h)
-description: Retrieves the specified number of ISearchRoot elements.helpviewer_keywords: ["IEnumSearchRoots interface [search]","Next method","IEnumSearchRoots.Next","IEnumSearchRoots::Next","Next","Next method [search]","Next method [search]","IEnumSearchRoots interface","_search_IEnumSearchRoots_Next","search._search_IEnumSearchRoots_Next","searchapi/IEnumSearchRoots::Next"]
+description: Retrieves the specified number of ISearchRoot elements.
+helpviewer_keywords: ["IEnumSearchRoots interface [search]","Next method","IEnumSearchRoots.Next","IEnumSearchRoots::Next","Next","Next method [search]","Next method [search]","IEnumSearchRoots interface","_search_IEnumSearchRoots_Next","search._search_IEnumSearchRoots_Next","searchapi/IEnumSearchRoots::Next"]
 old-location: search\_search_IEnumSearchRoots_Next.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm

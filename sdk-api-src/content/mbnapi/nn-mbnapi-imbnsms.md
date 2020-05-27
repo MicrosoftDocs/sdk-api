@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnSms
 title: IMbnSms (mbnapi.h)
-description: SMS interface for sending and receiving messages as well as controlling the messaging configuration.helpviewer_keywords: ["IMbnSms","IMbnSms interface [Microsoft Broadband Networks]","IMbnSms interface [Microsoft Broadband Networks]","described","mbn.imbnsms","mbnapi/IMbnSms"]
+description: SMS interface for sending and receiving messages as well as controlling the messaging configuration.
+helpviewer_keywords: ["IMbnSms","IMbnSms interface [Microsoft Broadband Networks]","IMbnSms interface [Microsoft Broadband Networks]","described","mbn.imbnsms","mbnapi/IMbnSms"]
 old-location: mbn\imbnsms.htm
 tech.root: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc

@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUPER_SCOPE_TABLE_ENTRY
 title: DHCP_SUPER_SCOPE_TABLE_ENTRY (dhcpsapi.h)
-description: Defines a subnet entry within the superscope table.helpviewer_keywords: ["*LPDHCP_SUPER_SCOPE_TABLE_ENTRY","DHCP_SUPER_SCOPE_TABLE_ENTRY","DHCP_SUPER_SCOPE_TABLE_ENTRY structure [DHCP]","LPDHCP_SUPER_SCOPE_TABLE_ENTRY","LPDHCP_SUPER_SCOPE_TABLE_ENTRY structure pointer [DHCP]","dhcp.dhcp_super_scope_table_entry","dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE_ENTRY","dhcpsapi/_DHCP_SUPER_SCOPE_TABLE_ENTRY"]
+description: Defines a subnet entry within the superscope table.
+helpviewer_keywords: ["*LPDHCP_SUPER_SCOPE_TABLE_ENTRY","DHCP_SUPER_SCOPE_TABLE_ENTRY","DHCP_SUPER_SCOPE_TABLE_ENTRY structure [DHCP]","LPDHCP_SUPER_SCOPE_TABLE_ENTRY","LPDHCP_SUPER_SCOPE_TABLE_ENTRY structure pointer [DHCP]","dhcp.dhcp_super_scope_table_entry","dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE_ENTRY","dhcpsapi/_DHCP_SUPER_SCOPE_TABLE_ENTRY"]
 old-location: dhcp\dhcp_super_scope_table_entry.htm
 tech.root: DHCP
 ms.assetid: affaa0b0-3bd1-4d17-adec-518d2cb7e5b6

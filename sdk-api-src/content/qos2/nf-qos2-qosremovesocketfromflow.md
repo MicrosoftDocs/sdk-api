@@ -1,7 +1,8 @@
 ---
 UID: NF:qos2.QOSRemoveSocketFromFlow
 title: QOSRemoveSocketFromFlow function (qos2.h)
-description: Notifies the QOS subsystem that a previously added flow has been terminated.helpviewer_keywords: ["QOSRemoveSocketFromFlow","QOSRemoveSocketFromFlow function [QOS]","qos.qosremovesocketfromflow","qos2/QOSRemoveSocketFromFlow"]
+description: Notifies the QOS subsystem that a previously added flow has been terminated.
+helpviewer_keywords: ["QOSRemoveSocketFromFlow","QOSRemoveSocketFromFlow function [QOS]","qos.qosremovesocketfromflow","qos2/QOSRemoveSocketFromFlow"]
 old-location: qos\qosremovesocketfromflow.htm
 tech.root: QOS
 ms.assetid: c67dc959-2511-4a95-87e4-1689f49c167a

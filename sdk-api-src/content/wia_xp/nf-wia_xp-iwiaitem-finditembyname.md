@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaItem.FindItemByName
 title: IWiaItem::FindItemByName (wia_xp.h)
-description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.helpviewer_keywords: ["FindItemByName","FindItemByName method [WIA]","FindItemByName method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","FindItemByName method","IWiaItem.FindItemByName","IWiaItem::FindItemByName","_wia_IWiaItem_FindItemByName","wia._wia_IWiaItem_FindItemByName","wia_xp/IWiaItem::FindItemByName"]
+description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.
+helpviewer_keywords: ["FindItemByName","FindItemByName method [WIA]","FindItemByName method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","FindItemByName method","IWiaItem.FindItemByName","IWiaItem::FindItemByName","_wia_IWiaItem_FindItemByName","wia._wia_IWiaItem_FindItemByName","wia_xp/IWiaItem::FindItemByName"]
 old-location: wia\_wia_IWiaItem_FindItemByName.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm

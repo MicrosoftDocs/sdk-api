@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevsA
 title: SetupDiGetClassDevsA
-description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.helpviewer_keywords: ["SetupDiGetClassDevsA"]
+description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
+helpviewer_keywords: ["SetupDiGetClassDevsA"]
 ms.date: 4/26/2019
 ms.keywords: SetupDiGetClassDevsA
 targetos: Windows

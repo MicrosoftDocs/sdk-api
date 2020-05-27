@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_12
 title: WS_XML_WRITER_ENCODING_TYPE (webservices.h)
-description: The type of WS_XML_WRITER_ENCODING structure.helpviewer_keywords: ["WS_XML_WRITER_ENCODING_TYPE","WS_XML_WRITER_ENCODING_TYPE enumeration [Web Services for Windows]","WS_XML_WRITER_ENCODING_TYPE_BINARY","WS_XML_WRITER_ENCODING_TYPE_MTOM","WS_XML_WRITER_ENCODING_TYPE_TEXT","webservices/WS_XML_WRITER_ENCODING_TYPE","webservices/WS_XML_WRITER_ENCODING_TYPE_BINARY","webservices/WS_XML_WRITER_ENCODING_TYPE_MTOM","webservices/WS_XML_WRITER_ENCODING_TYPE_TEXT","wsw.ws_xml_writer_encoding_type"]
+description: The type of WS_XML_WRITER_ENCODING structure.
+helpviewer_keywords: ["WS_XML_WRITER_ENCODING_TYPE","WS_XML_WRITER_ENCODING_TYPE enumeration [Web Services for Windows]","WS_XML_WRITER_ENCODING_TYPE_BINARY","WS_XML_WRITER_ENCODING_TYPE_MTOM","WS_XML_WRITER_ENCODING_TYPE_TEXT","webservices/WS_XML_WRITER_ENCODING_TYPE","webservices/WS_XML_WRITER_ENCODING_TYPE_BINARY","webservices/WS_XML_WRITER_ENCODING_TYPE_MTOM","webservices/WS_XML_WRITER_ENCODING_TYPE_TEXT","wsw.ws_xml_writer_encoding_type"]
 old-location: wsw\ws_xml_writer_encoding_type.htm
 tech.root: wsw
 ms.assetid: 3974f8f7-f58f-4df7-85b0-7df3fcf76cf3

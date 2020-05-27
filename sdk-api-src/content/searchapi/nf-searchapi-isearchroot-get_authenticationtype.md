@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_AuthenticationType
 title: ISearchRoot::get_AuthenticationType (searchapi.h)
-description: Retrieves the type of authentication needed to access the URLs under this this search root.helpviewer_keywords: ["ISearchRoot interface [search]","get_AuthenticationType method","ISearchRoot.get_AuthenticationType","ISearchRoot::get_AuthenticationType","_search_ISearchRoot_get_AuthenticationType","get_AuthenticationType","get_AuthenticationType method [search]","get_AuthenticationType method [search]","ISearchRoot interface","search._search_ISearchRoot_get_AuthenticationType","searchapi/ISearchRoot::get_AuthenticationType"]
+description: Retrieves the type of authentication needed to access the URLs under this this search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_AuthenticationType method","ISearchRoot.get_AuthenticationType","ISearchRoot::get_AuthenticationType","_search_ISearchRoot_get_AuthenticationType","get_AuthenticationType","get_AuthenticationType method [search]","get_AuthenticationType method [search]","ISearchRoot interface","search._search_ISearchRoot_get_AuthenticationType","searchapi/ISearchRoot::get_AuthenticationType"]
 old-location: search\_search_ISearchRoot_get_AuthenticationType.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_authenticationtype.htm

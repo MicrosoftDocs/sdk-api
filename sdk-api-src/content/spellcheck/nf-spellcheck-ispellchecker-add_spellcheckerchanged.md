@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellChecker.add_SpellCheckerChanged
 title: ISpellChecker::add_SpellCheckerChanged (spellcheck.h)
-description: Adds an event handler (ISpellCheckerChangedEventHandler) for the SpellCheckerChanged event.helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","add_SpellCheckerChanged method","ISpellChecker.add_SpellCheckerChanged","ISpellChecker::add_SpellCheckerChanged","add_SpellCheckerChanged","add_SpellCheckerChanged method [Internationalization for Windows Applications]","add_SpellCheckerChanged method [Internationalization for Windows Applications]","ISpellChecker interface","intl.ispellchecker_add_spellcheckerchanged","spellcheck/ISpellChecker::add_SpellCheckerChanged"]
+description: Adds an event handler (ISpellCheckerChangedEventHandler) for the SpellCheckerChanged event.
+helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","add_SpellCheckerChanged method","ISpellChecker.add_SpellCheckerChanged","ISpellChecker::add_SpellCheckerChanged","add_SpellCheckerChanged","add_SpellCheckerChanged method [Internationalization for Windows Applications]","add_SpellCheckerChanged method [Internationalization for Windows Applications]","ISpellChecker interface","intl.ispellchecker_add_spellcheckerchanged","spellcheck/ISpellChecker::add_SpellCheckerChanged"]
 old-location: intl\ispellchecker_add_spellcheckerchanged.htm
 tech.root: Intl
 ms.assetid: d539ab54-8a09-4857-8b48-5d19a34a5865

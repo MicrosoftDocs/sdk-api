@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByOrdinal
 title: ICspStatuses::get_ItemByOrdinal (certenroll.h)
-description: Retrieves an ICspStatus object from the collection by ordinal number.helpviewer_keywords: ["ICspStatuses interface [Security]","ItemByOrdinal property","ICspStatuses.ItemByOrdinal","ICspStatuses.get_ItemByOrdinal","ICspStatuses::ItemByOrdinal","ICspStatuses::get_ItemByOrdinal","ItemByOrdinal property [Security]","ItemByOrdinal property [Security]","ICspStatuses interface","certenroll/ICspStatuses::ItemByOrdinal","certenroll/ICspStatuses::get_ItemByOrdinal","get_ItemByOrdinal","security.icspstatuses_itembyordinal_property"]
+description: Retrieves an ICspStatus object from the collection by ordinal number.
+helpviewer_keywords: ["ICspStatuses interface [Security]","ItemByOrdinal property","ICspStatuses.ItemByOrdinal","ICspStatuses.get_ItemByOrdinal","ICspStatuses::ItemByOrdinal","ICspStatuses::get_ItemByOrdinal","ItemByOrdinal property [Security]","ItemByOrdinal property [Security]","ICspStatuses interface","certenroll/ICspStatuses::ItemByOrdinal","certenroll/ICspStatuses::get_ItemByOrdinal","get_ItemByOrdinal","security.icspstatuses_itembyordinal_property"]
 old-location: security\icspstatuses_itembyordinal_property.htm
 tech.root: seccertenroll
 ms.assetid: 94b5f741-eceb-4ef9-8010-5033ce042018

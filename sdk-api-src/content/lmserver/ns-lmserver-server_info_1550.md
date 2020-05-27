@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1550
 title: SERVER_INFO_1550 (lmserver.h)
-description: The SERVER_INFO_1550 structure specifies the percentage of free disk space remaining before an alert message is sent.helpviewer_keywords: ["*LPSERVER_INFO_1550","*PSERVER_INFO_1550","LPSERVER_INFO_1550","LPSERVER_INFO_1550 structure pointer [Network Management]","PSERVER_INFO_1550","PSERVER_INFO_1550 structure pointer [Network Management]","SERVER_INFO_1550","SERVER_INFO_1550 structure [Network Management]","_win32_server_info_1550_str","lmserver/LPSERVER_INFO_1550","lmserver/PSERVER_INFO_1550","lmserver/SERVER_INFO_1550","netmgmt.server_info_1550_str"]
+description: The SERVER_INFO_1550 structure specifies the percentage of free disk space remaining before an alert message is sent.
+helpviewer_keywords: ["*LPSERVER_INFO_1550","*PSERVER_INFO_1550","LPSERVER_INFO_1550","LPSERVER_INFO_1550 structure pointer [Network Management]","PSERVER_INFO_1550","PSERVER_INFO_1550 structure pointer [Network Management]","SERVER_INFO_1550","SERVER_INFO_1550 structure [Network Management]","_win32_server_info_1550_str","lmserver/LPSERVER_INFO_1550","lmserver/PSERVER_INFO_1550","lmserver/SERVER_INFO_1550","netmgmt.server_info_1550_str"]
 old-location: netmgmt\server_info_1550_str.htm
 tech.root: NetMgmt
 ms.assetid: 1f352eca-c4dd-4cac-8640-5ff61195be66

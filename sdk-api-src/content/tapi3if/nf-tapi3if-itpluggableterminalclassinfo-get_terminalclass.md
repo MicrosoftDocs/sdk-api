@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_TerminalClass
 title: ITPluggableTerminalClassInfo::get_TerminalClass (tapi3if.h)
-description: The get_TerminalClass method gets the terminal's terminal class.helpviewer_keywords: ["ITPluggableTerminalClassInfo interface [TAPI 2.2]","get_TerminalClass method","ITPluggableTerminalClassInfo.get_TerminalClass","ITPluggableTerminalClassInfo::get_TerminalClass","_tapi3_itpluggableterminalclassinfo_get_terminalclass","get_TerminalClass","get_TerminalClass method [TAPI 2.2]","get_TerminalClass method [TAPI 2.2]","ITPluggableTerminalClassInfo interface","tapi3.itpluggableterminalclassinfo_get_terminalclass","tapi3if/ITPluggableTerminalClassInfo::get_TerminalClass"]
+description: The get_TerminalClass method gets the terminal's terminal class.
+helpviewer_keywords: ["ITPluggableTerminalClassInfo interface [TAPI 2.2]","get_TerminalClass method","ITPluggableTerminalClassInfo.get_TerminalClass","ITPluggableTerminalClassInfo::get_TerminalClass","_tapi3_itpluggableterminalclassinfo_get_terminalclass","get_TerminalClass","get_TerminalClass method [TAPI 2.2]","get_TerminalClass method [TAPI 2.2]","ITPluggableTerminalClassInfo interface","tapi3.itpluggableterminalclassinfo_get_terminalclass","tapi3if/ITPluggableTerminalClassInfo::get_TerminalClass"]
 old-location: tapi3\itpluggableterminalclassinfo_get_terminalclass.htm
 tech.root: Tapi
 ms.assetid: 7dfa6cf8-23b8-4959-ba39-6efda1d71562

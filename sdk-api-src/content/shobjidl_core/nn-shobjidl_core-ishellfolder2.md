@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IShellFolder2
 title: IShellFolder2 (shobjidl_core.h)
-description: Extends the capabilities of IShellFolder. Its methods provide a variety of information about the contents of a Shell folder.helpviewer_keywords: ["IShellFolder2","IShellFolder2 interface [Windows Shell]","IShellFolder2 interface [Windows Shell]","described","_win32_IShellFolder2","shell.IShellFolder2","shobjidl_core/IShellFolder2"]
+description: Extends the capabilities of IShellFolder. Its methods provide a variety of information about the contents of a Shell folder.
+helpviewer_keywords: ["IShellFolder2","IShellFolder2 interface [Windows Shell]","IShellFolder2 interface [Windows Shell]","described","_win32_IShellFolder2","shell.IShellFolder2","shobjidl_core/IShellFolder2"]
 old-location: shell\IShellFolder2.htm
 tech.root: shell
 ms.assetid: 9b008034-3576-429e-b67c-e2222592ca46

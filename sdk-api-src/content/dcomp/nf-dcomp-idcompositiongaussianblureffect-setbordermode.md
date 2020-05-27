@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetBorderMode
 title: IDCompositionGaussianBlurEffect::SetBorderMode (dcomp.h)
-description: Sets the mode used to calculate the border of the image.helpviewer_keywords: ["IDCompositionGaussianBlurEffect interface [DirectComposition]","SetBorderMode method","IDCompositionGaussianBlurEffect.SetBorderMode","IDCompositionGaussianBlurEffect::SetBorderMode","SetBorderMode","SetBorderMode method [DirectComposition]","SetBorderMode method [DirectComposition]","IDCompositionGaussianBlurEffect interface","dcomp/IDCompositionGaussianBlurEffect::SetBorderMode","directcomp.idcompositiongaussianblureffect_setbordermode"]
+description: Sets the mode used to calculate the border of the image.
+helpviewer_keywords: ["IDCompositionGaussianBlurEffect interface [DirectComposition]","SetBorderMode method","IDCompositionGaussianBlurEffect.SetBorderMode","IDCompositionGaussianBlurEffect::SetBorderMode","SetBorderMode","SetBorderMode method [DirectComposition]","SetBorderMode method [DirectComposition]","IDCompositionGaussianBlurEffect interface","dcomp/IDCompositionGaussianBlurEffect::SetBorderMode","directcomp.idcompositiongaussianblureffect_setbordermode"]
 old-location: directcomp\idcompositiongaussianblureffect_setbordermode.htm
 tech.root: directcomp
 ms.assetid: 34A96D63-E6F3-48F3-8105-A7E30C1D4E7D

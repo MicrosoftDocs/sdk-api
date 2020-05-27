@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SelectPalette
 title: SelectPalette function (wingdi.h)
-description: The SelectPalette function selects the specified logical palette into a device context.helpviewer_keywords: ["SelectPalette","SelectPalette function [Windows GDI]","_win32_SelectPalette","gdi.selectpalette","wingdi/SelectPalette"]
+description: The SelectPalette function selects the specified logical palette into a device context.
+helpviewer_keywords: ["SelectPalette","SelectPalette function [Windows GDI]","_win32_SelectPalette","gdi.selectpalette","wingdi/SelectPalette"]
 old-location: gdi\selectpalette.htm
 tech.root: gdi
 ms.assetid: 1fc3356f-6fa3-444f-b224-b953acd2394b

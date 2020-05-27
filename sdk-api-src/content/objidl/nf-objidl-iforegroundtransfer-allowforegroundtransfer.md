@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IForegroundTransfer.AllowForegroundTransfer
 title: IForegroundTransfer::AllowForegroundTransfer (objidl.h)
-description: Yields the foreground window to the COM server process.helpviewer_keywords: ["AllowForegroundTransfer","AllowForegroundTransfer method [COM]","AllowForegroundTransfer method [COM]","IForegroundTransfer interface","IForegroundTransfer interface [COM]","AllowForegroundTransfer method","IForegroundTransfer.AllowForegroundTransfer","IForegroundTransfer::AllowForegroundTransfer","_com_iforegroundtransfer_allowforegroundtransfer","com.iforegroundtransfer_allowforegroundtransfer","objidl/IForegroundTransfer::AllowForegroundTransfer"]
+description: Yields the foreground window to the COM server process.
+helpviewer_keywords: ["AllowForegroundTransfer","AllowForegroundTransfer method [COM]","AllowForegroundTransfer method [COM]","IForegroundTransfer interface","IForegroundTransfer interface [COM]","AllowForegroundTransfer method","IForegroundTransfer.AllowForegroundTransfer","IForegroundTransfer::AllowForegroundTransfer","_com_iforegroundtransfer_allowforegroundtransfer","com.iforegroundtransfer_allowforegroundtransfer","objidl/IForegroundTransfer::AllowForegroundTransfer"]
 old-location: com\iforegroundtransfer_allowforegroundtransfer.htm
 tech.root: com
 ms.assetid: 54d138f5-5f16-4eb8-bbac-2d057b7dab2f

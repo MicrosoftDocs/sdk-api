@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_EnumCallback
 title: DPA_EnumCallback function (dpa_dsa.h)
-description: Iterates through the Dynamic Pointer Array (DPA) and calls pfnCB on each item.helpviewer_keywords: ["DPA_EnumCallback","DPA_EnumCallback function [Windows Controls]","_win32_DPA_EnumCallback","_win32_DPA_EnumCallback_cpp","controls.DPA_EnumCallback","controls._win32_DPA_EnumCallback","dpa_dsa/DPA_EnumCallback"]
+description: Iterates through the Dynamic Pointer Array (DPA) and calls pfnCB on each item.
+helpviewer_keywords: ["DPA_EnumCallback","DPA_EnumCallback function [Windows Controls]","_win32_DPA_EnumCallback","_win32_DPA_EnumCallback_cpp","controls.DPA_EnumCallback","controls._win32_DPA_EnumCallback","dpa_dsa/DPA_EnumCallback"]
 old-location: controls\DPA_EnumCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_enumcallback.htm

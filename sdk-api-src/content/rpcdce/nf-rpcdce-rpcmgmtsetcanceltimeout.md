@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetCancelTimeout
 title: RpcMgmtSetCancelTimeout function (rpcdce.h)
-description: The RpcMgmtSetCancelTimeout function sets the lower bound on the time to wait before timing out after forwarding a cancel.helpviewer_keywords: ["RpcMgmtSetCancelTimeout","RpcMgmtSetCancelTimeout function [RPC]","_rpc_rpcmgmtsetcanceltimeout","rpc.rpcmgmtsetcanceltimeout","rpcdce/RpcMgmtSetCancelTimeout"]
+description: The RpcMgmtSetCancelTimeout function sets the lower bound on the time to wait before timing out after forwarding a cancel.
+helpviewer_keywords: ["RpcMgmtSetCancelTimeout","RpcMgmtSetCancelTimeout function [RPC]","_rpc_rpcmgmtsetcanceltimeout","rpc.rpcmgmtsetcanceltimeout","rpcdce/RpcMgmtSetCancelTimeout"]
 old-location: rpc\rpcmgmtsetcanceltimeout.htm
 tech.root: Rpc
 ms.assetid: 0a616f5d-b30a-4cd3-9348-19f09f373c50

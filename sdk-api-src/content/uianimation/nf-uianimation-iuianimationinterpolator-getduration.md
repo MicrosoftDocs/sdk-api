@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDuration
 title: IUIAnimationInterpolator::GetDuration (uianimation.h)
-description: Gets the duration of a transition.helpviewer_keywords: ["GetDuration","GetDuration method [Windows Animation]","GetDuration method [Windows Animation]","IUIAnimationInterpolator interface","IUIAnimationInterpolator interface [Windows Animation]","GetDuration method","IUIAnimationInterpolator.GetDuration","IUIAnimationInterpolator::GetDuration","uianimation.iuianimationinterpolator_getduration","uianimation/IUIAnimationInterpolator::GetDuration"]
+description: Gets the duration of a transition.
+helpviewer_keywords: ["GetDuration","GetDuration method [Windows Animation]","GetDuration method [Windows Animation]","IUIAnimationInterpolator interface","IUIAnimationInterpolator interface [Windows Animation]","GetDuration method","IUIAnimationInterpolator.GetDuration","IUIAnimationInterpolator::GetDuration","uianimation.iuianimationinterpolator_getduration","uianimation/IUIAnimationInterpolator::GetDuration"]
 old-location: uianimation\iuianimationinterpolator_getduration.htm
 tech.root: UIAnimation
 ms.assetid: c39acf72-7c03-4d8b-b4f2-776e4b32f781

@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._SFV_CREATE
 title: SFV_CREATE (shlobj_core.h)
-description: This structure is used with the SHCreateShellFolderView function.helpviewer_keywords: ["SFV_CREATE","SFV_CREATE structure [Windows Shell]","_SFV_CREATE","_win32_SFV_CREATE","shell.SFV_CREATE","shlobj_core/SFV_CREATE"]
+description: This structure is used with the SHCreateShellFolderView function.
+helpviewer_keywords: ["SFV_CREATE","SFV_CREATE structure [Windows Shell]","_SFV_CREATE","_win32_SFV_CREATE","shell.SFV_CREATE","shlobj_core/SFV_CREATE"]
 old-location: shell\SFV_CREATE.htm
 tech.root: shell
 ms.assetid: c6f3d9a6-5f39-4124-9340-78352f6be117

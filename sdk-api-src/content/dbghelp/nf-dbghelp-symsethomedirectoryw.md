@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSetHomeDirectoryW
 title: SymSetHomeDirectoryW function (dbghelp.h)
-description: Sets the home directory used by Dbghelp.helpviewer_keywords: ["SymSetHomeDirectory","SymSetHomeDirectory function","SymSetHomeDirectoryW","base.symsethomedirectory","dbghelp/SymSetHomeDirectory","dbghelp/SymSetHomeDirectoryW"]
+description: Sets the home directory used by Dbghelp.
+helpviewer_keywords: ["SymSetHomeDirectory","SymSetHomeDirectory function","SymSetHomeDirectoryW","base.symsethomedirectory","dbghelp/SymSetHomeDirectory","dbghelp/SymSetHomeDirectoryW"]
 old-location: base\symsethomedirectory.htm
 tech.root: Debug
 ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5

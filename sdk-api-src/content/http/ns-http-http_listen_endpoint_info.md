@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_LISTEN_ENDPOINT_INFO
 title: HTTP_LISTEN_ENDPOINT_INFO (http.h)
-description: Controls whether IP-based URLs should listen on the specific IP address or on a wildcard.helpviewer_keywords: ["*PHTTP_LISTEN_ENDPOINT_INFO","HTTP_LISTEN_ENDPOINT_INFO","HTTP_LISTEN_ENDPOINT_INFO structure [HTTP]","PHTTP_LISTEN_ENDPOINT_INFO","PHTTP_LISTEN_ENDPOINT_INFO structure pointer [HTTP]","http.http_listen_endpoint_info","http/HTTP_LISTEN_ENDPOINT_INFO","http/PHTTP_LISTEN_ENDPOINT_INFO"]
+description: Controls whether IP-based URLs should listen on the specific IP address or on a wildcard.
+helpviewer_keywords: ["*PHTTP_LISTEN_ENDPOINT_INFO","HTTP_LISTEN_ENDPOINT_INFO","HTTP_LISTEN_ENDPOINT_INFO structure [HTTP]","PHTTP_LISTEN_ENDPOINT_INFO","PHTTP_LISTEN_ENDPOINT_INFO structure pointer [HTTP]","http.http_listen_endpoint_info","http/HTTP_LISTEN_ENDPOINT_INFO","http/PHTTP_LISTEN_ENDPOINT_INFO"]
 old-location: http\http_listen_endpoint_info.htm
 tech.root: http
 ms.assetid: ad6553ba-4272-44af-af77-2bf1a4102b60

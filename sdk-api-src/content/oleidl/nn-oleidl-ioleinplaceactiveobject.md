@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IOleInPlaceActiveObject
 title: IOleInPlaceActiveObject (oleidl.h)
-description: Provides a direct channel of communication between an in-place object and the associated application's outer-most frame window and the document window within the application that contains the embedded object.helpviewer_keywords: ["IOleInPlaceActiveObject","IOleInPlaceActiveObject interface [COM]","IOleInPlaceActiveObject interface [COM]","described","_ole_ioleinplaceactiveobject","com.ioleinplaceactiveobject","oleidl/IOleInPlaceActiveObject"]
+description: Provides a direct channel of communication between an in-place object and the associated application's outer-most frame window and the document window within the application that contains the embedded object.
+helpviewer_keywords: ["IOleInPlaceActiveObject","IOleInPlaceActiveObject interface [COM]","IOleInPlaceActiveObject interface [COM]","described","_ole_ioleinplaceactiveobject","com.ioleinplaceactiveobject","oleidl/IOleInPlaceActiveObject"]
 old-location: com\ioleinplaceactiveobject.htm
 tech.root: com
 ms.assetid: b077c256-1109-494c-95c2-2d33bccbe47b

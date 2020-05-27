@@ -1,7 +1,8 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_USERDEFINED
 title: _DEV_BROADCAST_USERDEFINED (dbt.h)
-description: Contains the user-defined event and optional data associated with the DBT_USERDEFINED device event.helpviewer_keywords: ["_DEV_BROADCAST_USERDEFINED","_DEV_BROADCAST_USERDEFINED structure","_win32__dev_broadcast_userdefined_str","base._dev_broadcast_userdefined_str","dbt/_DEV_BROADCAST_USERDEFINED"]
+description: Contains the user-defined event and optional data associated with the DBT_USERDEFINED device event.
+helpviewer_keywords: ["_DEV_BROADCAST_USERDEFINED","_DEV_BROADCAST_USERDEFINED structure","_win32__dev_broadcast_userdefined_str","base._dev_broadcast_userdefined_str","dbt/_DEV_BROADCAST_USERDEFINED"]
 old-location: base\_dev_broadcast_userdefined_str.htm
 tech.root: devio
 ms.assetid: e90fbce2-cae7-4e78-b6f5-82b200390cb7

@@ -1,7 +1,8 @@
 ---
 UID: NN:vsmgmt.IVssEnumMgmtObject
 title: IVssEnumMgmtObject (vsmgmt.h)
-description: Contains methods to iterate over and perform other operations on a list of enumerated objects.helpviewer_keywords: ["IVssEnumMgmtObject","IVssEnumMgmtObject interface [Files]","IVssEnumMgmtObject interface [Files]","described","base.ivssenummgmtobject","vsmgmt/IVssEnumMgmtObject"]
+description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
+helpviewer_keywords: ["IVssEnumMgmtObject","IVssEnumMgmtObject interface [Files]","IVssEnumMgmtObject interface [Files]","described","base.ivssenummgmtobject","vsmgmt/IVssEnumMgmtObject"]
 old-location: base\ivssenummgmtobject.htm
 tech.root: VSS
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3

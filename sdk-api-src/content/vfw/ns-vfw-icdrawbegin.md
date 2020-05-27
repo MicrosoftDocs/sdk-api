@@ -1,7 +1,8 @@
 ---
 UID: NS:vfw.__unnamed_struct_7
 title: ICDRAWBEGIN (vfw.h)
-description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.helpviewer_keywords: ["ICDRAWBEGIN","ICDRAWBEGIN structure [Windows Multimedia]","ICDRAW_ANIMATE","ICDRAW_BUFFER","ICDRAW_CONTINUE","ICDRAW_FULLSCREEN","ICDRAW_HDC","ICDRAW_MEMORYDC","ICDRAW_QUERY","ICDRAW_RENDER","ICDRAW_UPDATING","multimedia.icdrawbegin_COLLISION9","multimedia.icdrawbegin_struct","vfw/ICDRAWBEGIN"]
+description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.
+helpviewer_keywords: ["ICDRAWBEGIN","ICDRAWBEGIN structure [Windows Multimedia]","ICDRAW_ANIMATE","ICDRAW_BUFFER","ICDRAW_CONTINUE","ICDRAW_FULLSCREEN","ICDRAW_HDC","ICDRAW_MEMORYDC","ICDRAW_QUERY","ICDRAW_RENDER","ICDRAW_UPDATING","multimedia.icdrawbegin_COLLISION9","multimedia.icdrawbegin_struct","vfw/ICDRAWBEGIN"]
 old-location: multimedia\icdrawbegin_struct.htm
 tech.root: Multimedia
 ms.assetid: 1ec2309c-7ea8-423e-aee3-5e0c650f0b3d

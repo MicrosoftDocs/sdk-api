@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoder.GetDriverHandle
 title: ID3D11VideoDecoder::GetDriverHandle (d3d11.h)
-description: Gets a handle to the driver.helpviewer_keywords: ["GetDriverHandle","GetDriverHandle method [Media Foundation]","GetDriverHandle method [Media Foundation]","ID3D11VideoDecoder interface","ID3D11VideoDecoder interface [Media Foundation]","GetDriverHandle method","ID3D11VideoDecoder.GetDriverHandle","ID3D11VideoDecoder::GetDriverHandle","d3d11/ID3D11VideoDecoder::GetDriverHandle","mf.id3d11videodecoder_getdriverhandle"]
+description: Gets a handle to the driver.
+helpviewer_keywords: ["GetDriverHandle","GetDriverHandle method [Media Foundation]","GetDriverHandle method [Media Foundation]","ID3D11VideoDecoder interface","ID3D11VideoDecoder interface [Media Foundation]","GetDriverHandle method","ID3D11VideoDecoder.GetDriverHandle","ID3D11VideoDecoder::GetDriverHandle","d3d11/ID3D11VideoDecoder::GetDriverHandle","mf.id3d11videodecoder_getdriverhandle"]
 old-location: mf\id3d11videodecoder_getdriverhandle.htm
 tech.root: medfound
 ms.assetid: CD9A46DB-C16D-4DF4-972B-2CE8398CEE98

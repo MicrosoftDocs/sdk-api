@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetOutputFilenameTemplate
 title: IPhotoAcquireSettings::GetOutputFilenameTemplate (photoacquire.h)
-description: The GetOutputFilenameTemplate method retrieves a format string (template) that specifies the format of file names.helpviewer_keywords: ["GetOutputFilenameTemplate","GetOutputFilenameTemplate method [Picture Acquisition]","GetOutputFilenameTemplate method [Picture Acquisition]","IPhotoAcquireSettings interface","IPhotoAcquireSettings interface [Picture Acquisition]","GetOutputFilenameTemplate method","IPhotoAcquireSettings.GetOutputFilenameTemplate","IPhotoAcquireSettings::GetOutputFilenameTemplate","IPhotoAcquireSettingsGetOutputFilenameTemplate","photoacquire/IPhotoAcquireSettings::GetOutputFilenameTemplate","picacq.iphotoacquiresettings_getoutputfilenametemplate"]
+description: The GetOutputFilenameTemplate method retrieves a format string (template) that specifies the format of file names.
+helpviewer_keywords: ["GetOutputFilenameTemplate","GetOutputFilenameTemplate method [Picture Acquisition]","GetOutputFilenameTemplate method [Picture Acquisition]","IPhotoAcquireSettings interface","IPhotoAcquireSettings interface [Picture Acquisition]","GetOutputFilenameTemplate method","IPhotoAcquireSettings.GetOutputFilenameTemplate","IPhotoAcquireSettings::GetOutputFilenameTemplate","IPhotoAcquireSettingsGetOutputFilenameTemplate","photoacquire/IPhotoAcquireSettings::GetOutputFilenameTemplate","picacq.iphotoacquiresettings_getoutputfilenametemplate"]
 old-location: picacq\iphotoacquiresettings_getoutputfilenametemplate.htm
 tech.root: acquisition
 ms.assetid: ca36e3f9-74ad-4704-adeb-d3102668da30

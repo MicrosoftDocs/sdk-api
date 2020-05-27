@@ -1,7 +1,8 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetMetadataItems
 title: IMFSpatialAudioObjectBuffer::GetMetadataItems (mfspatialaudio.h)
-description: Retrieves a pointer to a buffer that may contain spatial audio metadata.helpviewer_keywords: ["GetMetadataItems","GetMetadataItems method [Media Foundation]","GetMetadataItems method [Media Foundation]","IMFSpatialAudioObjectBuffer interface","IMFSpatialAudioObjectBuffer interface [Media Foundation]","GetMetadataItems method","IMFSpatialAudioObjectBuffer.GetMetadataItems","IMFSpatialAudioObjectBuffer::GetMetadataItems","mf.imfspatialaudioobjectbuffer_getmetadataitems","mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems"]
+description: Retrieves a pointer to a buffer that may contain spatial audio metadata.
+helpviewer_keywords: ["GetMetadataItems","GetMetadataItems method [Media Foundation]","GetMetadataItems method [Media Foundation]","IMFSpatialAudioObjectBuffer interface","IMFSpatialAudioObjectBuffer interface [Media Foundation]","GetMetadataItems method","IMFSpatialAudioObjectBuffer.GetMetadataItems","IMFSpatialAudioObjectBuffer::GetMetadataItems","mf.imfspatialaudioobjectbuffer_getmetadataitems","mfspatialaudio/IMFSpatialAudioObjectBuffer::GetMetadataItems"]
 old-location: mf\imfspatialaudioobjectbuffer_getmetadataitems.htm
 tech.root: medfound
 ms.assetid: 19BF7AC6-B21F-47D1-8573-48C5E4869574

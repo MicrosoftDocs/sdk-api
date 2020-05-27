@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock.recv
 title: recv function (winsock.h)
-description: Receives data from a connected socket or a bound connectionless socket.helpviewer_keywords: ["_win32_recv_2","recv","recv function [Winsock]","winsock.recv_2","winsock/recv"]
+description: Receives data from a connected socket or a bound connectionless socket.
+helpviewer_keywords: ["_win32_recv_2","recv","recv function [Winsock]","winsock.recv_2","winsock/recv"]
 old-location: winsock\recv_2.htm
 tech.root: WinSock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73

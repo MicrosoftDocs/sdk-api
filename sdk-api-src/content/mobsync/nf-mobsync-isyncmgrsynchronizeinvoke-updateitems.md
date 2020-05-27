@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateItems
 title: ISyncMgrSynchronizeInvoke::UpdateItems (mobsync.h)
-description: Programmatically starts an update for specified items.helpviewer_keywords: ["ISyncMgrSynchronizeInvoke interface [Windows Shell]","UpdateItems method","ISyncMgrSynchronizeInvoke.UpdateItems","ISyncMgrSynchronizeInvoke::UpdateItems","UpdateItems","UpdateItems method [Windows Shell]","UpdateItems method [Windows Shell]","ISyncMgrSynchronizeInvoke interface","mobsync/ISyncMgrSynchronizeInvoke::UpdateItems","shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems","syncmgr.isyncmgrsynchronizeinvoke_updateitems"]
+description: Programmatically starts an update for specified items.
+helpviewer_keywords: ["ISyncMgrSynchronizeInvoke interface [Windows Shell]","UpdateItems method","ISyncMgrSynchronizeInvoke.UpdateItems","ISyncMgrSynchronizeInvoke::UpdateItems","UpdateItems","UpdateItems method [Windows Shell]","UpdateItems method [Windows Shell]","ISyncMgrSynchronizeInvoke interface","mobsync/ISyncMgrSynchronizeInvoke::UpdateItems","shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems","syncmgr.isyncmgrsynchronizeinvoke_updateitems"]
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
 tech.root: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3

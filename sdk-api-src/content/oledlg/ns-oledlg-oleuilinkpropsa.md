@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSA
 title: OLEUILINKPROPSA (oledlg.h)
-description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.helpviewer_keywords: ["*LPOLEUILINKPROPSA","*POLEUILINKPROPSA","LPOLEUILINKPROPS","LPOLEUILINKPROPS structure pointer [COM]","OLEUILINKPROPS","OLEUILINKPROPS structure [COM]","OLEUILINKPROPSA","OLEUILINKPROPSW","POLEUILINKPROPS","POLEUILINKPROPS structure pointer [COM]","_ole_OLEUILINKPROPS","com.oleuilinkprops_struct","oledlg/LPOLEUILINKPROPS","oledlg/OLEUILINKPROPS","oledlg/OLEUILINKPROPSA","oledlg/OLEUILINKPROPSW","oledlg/POLEUILINKPROPS"]
+description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
+helpviewer_keywords: ["*LPOLEUILINKPROPSA","*POLEUILINKPROPSA","LPOLEUILINKPROPS","LPOLEUILINKPROPS structure pointer [COM]","OLEUILINKPROPS","OLEUILINKPROPS structure [COM]","OLEUILINKPROPSA","OLEUILINKPROPSW","POLEUILINKPROPS","POLEUILINKPROPS structure pointer [COM]","_ole_OLEUILINKPROPS","com.oleuilinkprops_struct","oledlg/LPOLEUILINKPROPS","oledlg/OLEUILINKPROPS","oledlg/OLEUILINKPROPSA","oledlg/OLEUILINKPROPSW","oledlg/POLEUILINKPROPS"]
 old-location: com\oleuilinkprops_struct.htm
 tech.root: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1

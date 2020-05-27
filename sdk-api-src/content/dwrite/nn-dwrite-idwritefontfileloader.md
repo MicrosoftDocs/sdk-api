@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteFontFileLoader
 title: IDWriteFontFileLoader (dwrite.h)
-description: Handles loading font file resources of a particular type from a font file reference key into a font file stream object.helpviewer_keywords: ["IDWriteFontFileLoader","IDWriteFontFileLoader interface [Direct Write]","IDWriteFontFileLoader interface [Direct Write]","described","directwrite.IDWriteFontFileLoader","dwrite/IDWriteFontFileLoader"]
+description: Handles loading font file resources of a particular type from a font file reference key into a font file stream object.
+helpviewer_keywords: ["IDWriteFontFileLoader","IDWriteFontFileLoader interface [Direct Write]","IDWriteFontFileLoader interface [Direct Write]","described","directwrite.IDWriteFontFileLoader","dwrite/IDWriteFontFileLoader"]
 old-location: directwrite\IDWriteFontFileLoader.htm
 tech.root: DirectWrite
 ms.assetid: 855e281e-3855-4c11-af87-68f8e0dadbf8

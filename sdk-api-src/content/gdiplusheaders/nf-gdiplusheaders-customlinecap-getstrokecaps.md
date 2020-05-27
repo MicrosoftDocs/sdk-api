@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetStrokeCaps
 title: CustomLineCap::GetStrokeCaps (gdiplusheaders.h)
-description: The CustomLineCap::GetStrokeCaps method gets the end cap styles for both the start line cap and the end line cap. Line caps are LineCap objects that end the individual lines within a path.helpviewer_keywords: ["CustomLineCap class [GDI+]","GetStrokeCaps method","CustomLineCap.GetStrokeCaps","CustomLineCap::GetStrokeCaps","GetStrokeCaps","GetStrokeCaps method [GDI+]","GetStrokeCaps method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_","gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_"]
+description: The CustomLineCap::GetStrokeCaps method gets the end cap styles for both the start line cap and the end line cap. Line caps are LineCap objects that end the individual lines within a path.
+helpviewer_keywords: ["CustomLineCap class [GDI+]","GetStrokeCaps method","CustomLineCap.GetStrokeCaps","CustomLineCap::GetStrokeCaps","GetStrokeCaps","GetStrokeCaps method [GDI+]","GetStrokeCaps method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_","gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getstrokecaps.htm

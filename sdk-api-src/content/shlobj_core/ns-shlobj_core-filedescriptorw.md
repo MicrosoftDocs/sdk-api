@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._FILEDESCRIPTORW
 title: FILEDESCRIPTORW (shlobj_core.h)
-description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.helpviewer_keywords: ["*LPFILEDESCRIPTORW","FD_ACCESSTIME","FD_ATTRIBUTES","FD_CLSID","FD_CREATETIME","FD_FILESIZE","FD_LINKUI","FD_PROGRESSUI","FD_SIZEPOINT","FD_UNICODE","FD_WRITESTIME","FILEDESCRIPTOR","FILEDESCRIPTOR structure [Windows Shell]","FILEDESCRIPTORA","FILEDESCRIPTORW","LPFILEDESCRIPTOR","LPFILEDESCRIPTOR structure pointer [Windows Shell]","_FILEDESCRIPTORA","_FILEDESCRIPTORW","_win32_FILEDESCRIPTOR","shell.FILEDESCRIPTOR","shlobj_core/FILEDESCRIPTOR","shlobj_core/LPFILEDESCRIPTOR"]
+description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
+helpviewer_keywords: ["*LPFILEDESCRIPTORW","FD_ACCESSTIME","FD_ATTRIBUTES","FD_CLSID","FD_CREATETIME","FD_FILESIZE","FD_LINKUI","FD_PROGRESSUI","FD_SIZEPOINT","FD_UNICODE","FD_WRITESTIME","FILEDESCRIPTOR","FILEDESCRIPTOR structure [Windows Shell]","FILEDESCRIPTORA","FILEDESCRIPTORW","LPFILEDESCRIPTOR","LPFILEDESCRIPTOR structure pointer [Windows Shell]","_FILEDESCRIPTORA","_FILEDESCRIPTORW","_win32_FILEDESCRIPTOR","shell.FILEDESCRIPTOR","shlobj_core/FILEDESCRIPTOR","shlobj_core/LPFILEDESCRIPTOR"]
 old-location: shell\FILEDESCRIPTOR.htm
 tech.root: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0

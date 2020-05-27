@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcoreapi.UiaStructureChangedEventArgs
 title: UiaStructureChangedEventArgs (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains information about an event that is raised when the structure of the Microsoft UI Automation tree changes.helpviewer_keywords: ["UiaStructureChangedEventArgs","UiaStructureChangedEventArgs structure [Windows Accessibility]","uiauto.uiauto_UiaStructureChangedEventArgsStruct","uiauto_UiaStructureChangedEventArgsStruct","uiautomationcoreapi/UiaStructureChangedEventArgs","winauto.uiauto_UiaStructureChangedEventArgsStruct"]
+description: Note  This structure is deprecated.  Contains information about an event that is raised when the structure of the Microsoft UI Automation tree changes.
+helpviewer_keywords: ["UiaStructureChangedEventArgs","UiaStructureChangedEventArgs structure [Windows Accessibility]","uiauto.uiauto_UiaStructureChangedEventArgsStruct","uiauto_UiaStructureChangedEventArgsStruct","uiautomationcoreapi/UiaStructureChangedEventArgs","winauto.uiauto_UiaStructureChangedEventArgsStruct"]
 old-location: winauto\uiauto_UiaStructureChangedEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: 3bd47116-e6e7-4535-a939-460d460a3eb5

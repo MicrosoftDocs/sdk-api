@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionScaleTransform
 title: IDCompositionScaleTransform (dcomp.h)
-description: Represents a 2D transformation that affects the scale of a visual along the x-axis and y-axis. The coordinate system is scaled from the specified center point.helpviewer_keywords: ["IDCompositionScaleTransform","IDCompositionScaleTransform interface [DirectComposition]","IDCompositionScaleTransform interface [DirectComposition]","described","dcomp/IDCompositionScaleTransform","directcomp.idcompositionscaletransform"]
+description: Represents a 2D transformation that affects the scale of a visual along the x-axis and y-axis. The coordinate system is scaled from the specified center point.
+helpviewer_keywords: ["IDCompositionScaleTransform","IDCompositionScaleTransform interface [DirectComposition]","IDCompositionScaleTransform interface [DirectComposition]","described","dcomp/IDCompositionScaleTransform","directcomp.idcompositionscaletransform"]
 old-location: directcomp\idcompositionscaletransform.htm
 tech.root: directcomp
 ms.assetid: 8e59c484-b7c5-446a-a5d6-e00371e2c08a

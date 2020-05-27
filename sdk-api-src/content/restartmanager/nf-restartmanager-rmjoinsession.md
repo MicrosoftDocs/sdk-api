@@ -1,7 +1,8 @@
 ---
 UID: NF:restartmanager.RmJoinSession
 title: RmJoinSession function (restartmanager.h)
-description: Joins a secondary installer to an existing Restart Manager session.helpviewer_keywords: ["RmJoinSession","RmJoinSession function [Restart Mgr]","restartmanager/RmJoinSession","rstmgr.rmjoinsession"]
+description: Joins a secondary installer to an existing Restart Manager session.
+helpviewer_keywords: ["RmJoinSession","RmJoinSession function [Restart Mgr]","restartmanager/RmJoinSession","rstmgr.rmjoinsession"]
 old-location: rstmgr\rmjoinsession.htm
 tech.root: rstmgr
 ms.assetid: f9cb2d81-a2bc-4bb7-920a-1630354ea942

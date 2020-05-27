@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._SHChangeNotifyEntry
 title: SHChangeNotifyEntry (shlobj_core.h)
-description: Contains and receives information for change notifications. This structure is used with the SHChangeNotifyRegister function and the SFVM_QUERYFSNOTIFY notification.helpviewer_keywords: ["SHChangeNotifyEntry","SHChangeNotifyEntry structure [Windows Shell]","_SHChangeNotifyEntry","_win32_SHChangeNotifyEntry","shell.SHChangeNotifyEntry","shlobj_core/SHChangeNotifyEntry"]
+description: Contains and receives information for change notifications. This structure is used with the SHChangeNotifyRegister function and the SFVM_QUERYFSNOTIFY notification.
+helpviewer_keywords: ["SHChangeNotifyEntry","SHChangeNotifyEntry structure [Windows Shell]","_SHChangeNotifyEntry","_win32_SHChangeNotifyEntry","shell.SHChangeNotifyEntry","shlobj_core/SHChangeNotifyEntry"]
 old-location: shell\SHChangeNotifyEntry.htm
 tech.root: shell
 ms.assetid: cb11435a-86f0-4b06-bfc6-e0417f2897a1

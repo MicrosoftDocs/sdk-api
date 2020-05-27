@@ -1,7 +1,8 @@
 ---
 UID: NE:ndattrib.__MIDL___MIDL_itf_ndattrib_0000_0000_0003
 title: UI_INFO_TYPE (ndattrib.h)
-description: The UI_INFO_TYPE enumeration identifies repairs that perform user interface tasks.helpviewer_keywords: ["UIT_DUI","UIT_HELP_PANE","UIT_NONE","UIT_SHELL_COMMAND","UI_INFO_TYPE","UI_INFO_TYPE enumeration [NDF]","ndattrib/UIT_DUI","ndattrib/UIT_HELP_PANE","ndattrib/UIT_NONE","ndattrib/UIT_SHELL_COMMAND","ndattrib/UI_INFO_TYPE","ndf.ui_info_type"]
+description: The UI_INFO_TYPE enumeration identifies repairs that perform user interface tasks.
+helpviewer_keywords: ["UIT_DUI","UIT_HELP_PANE","UIT_NONE","UIT_SHELL_COMMAND","UI_INFO_TYPE","UI_INFO_TYPE enumeration [NDF]","ndattrib/UIT_DUI","ndattrib/UIT_HELP_PANE","ndattrib/UIT_NONE","ndattrib/UIT_SHELL_COMMAND","ndattrib/UI_INFO_TYPE","ndf.ui_info_type"]
 old-location: ndf\ui_info_type.htm
 tech.root: NDF
 ms.assetid: 819ab594-860b-42a0-be6e-bab0e669c200

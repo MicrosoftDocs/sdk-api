@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromMFVideoFormat
 title: MFInitMediaTypeFromMFVideoFormat function (mfapi.h)
-description: Initializes a media type from an MFVIDEOFORMAT structure.helpviewer_keywords: ["45400b67-df81-4fae-a24d-80020eb07151","MFInitMediaTypeFromMFVideoFormat","MFInitMediaTypeFromMFVideoFormat function [Media Foundation]","mf.mfinitmediatypefrommfvideoformat","mfapi/MFInitMediaTypeFromMFVideoFormat"]
+description: Initializes a media type from an MFVIDEOFORMAT structure.
+helpviewer_keywords: ["45400b67-df81-4fae-a24d-80020eb07151","MFInitMediaTypeFromMFVideoFormat","MFInitMediaTypeFromMFVideoFormat function [Media Foundation]","mf.mfinitmediatypefrommfvideoformat","mfapi/MFInitMediaTypeFromMFVideoFormat"]
 old-location: mf\mfinitmediatypefrommfvideoformat.htm
 tech.root: medfound
 ms.assetid: 45400b67-df81-4fae-a24d-80020eb07151

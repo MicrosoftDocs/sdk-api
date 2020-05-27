@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.GetEnd
 title: ITextRange::GetEnd (tom.h)
-description: Gets the end character position of the range.helpviewer_keywords: ["GetEnd","GetEnd method [Windows Controls]","GetEnd method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetEnd method","ITextRange.GetEnd","ITextRange::GetEnd","_win32_ITextRange_GetEnd","_win32_ITextRange_GetEnd_cpp","controls.ITextRange_GetEnd","controls._win32_ITextRange_GetEnd","tom/ITextRange::GetEnd"]
+description: Gets the end character position of the range.
+helpviewer_keywords: ["GetEnd","GetEnd method [Windows Controls]","GetEnd method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetEnd method","ITextRange.GetEnd","ITextRange::GetEnd","_win32_ITextRange_GetEnd","_win32_ITextRange_GetEnd_cpp","controls.ITextRange_GetEnd","controls._win32_ITextRange_GetEnd","tom/ITextRange::GetEnd"]
 old-location: controls\ITextRange_GetEnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getend.htm

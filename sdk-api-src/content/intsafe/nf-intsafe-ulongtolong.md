@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongToLong
 title: ULongToLong function (intsafe.h)
-description: Converts a value of type ULONG to a value of type LONG.helpviewer_keywords: ["DWordToLong","ULongToLong","ULongToLong function [Windows Shell]","_shell_ULongToLong","intsafe/ULongToLong","shell.ULongToLong"]
+description: Converts a value of type ULONG to a value of type LONG.
+helpviewer_keywords: ["DWordToLong","ULongToLong","ULongToLong function [Windows Shell]","_shell_ULongToLong","intsafe/ULongToLong","shell.ULongToLong"]
 old-location: shell\ULongToLong.htm
 tech.root: shell
 ms.assetid: 0cf73a49-84a9-4062-9dd3-6e0ad1a00b1c

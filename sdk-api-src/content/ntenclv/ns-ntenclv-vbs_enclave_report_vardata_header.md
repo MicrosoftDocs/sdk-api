@@ -1,7 +1,8 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_VARDATA_HEADER
 title: VBS_ENCLAVE_REPORT_VARDATA_HEADER (ntenclv.h)
-description: Describes the format of a variable data block contained in a report that the EnclaveGetAttestationReport function generates.helpviewer_keywords: ["VBS_ENCLAVE_REPORT_VARDATA_HEADER","VBS_ENCLAVE_REPORT_VARDATA_HEADER structure","VBS_ENCLAVE_VARDATA_INVALID","VBS_ENCLAVE_VARDATA_MODULE","base.vbs_enclave_report_vardata_header","ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER"]
+description: Describes the format of a variable data block contained in a report that the EnclaveGetAttestationReport function generates.
+helpviewer_keywords: ["VBS_ENCLAVE_REPORT_VARDATA_HEADER","VBS_ENCLAVE_REPORT_VARDATA_HEADER structure","VBS_ENCLAVE_VARDATA_INVALID","VBS_ENCLAVE_VARDATA_MODULE","base.vbs_enclave_report_vardata_header","ntenclv/VBS_ENCLAVE_REPORT_VARDATA_HEADER"]
 old-location: base\vbs_enclave_report_vardata_header.htm
 tech.root: Memory
 ms.assetid: A0B02839-E8F4-45A1-B2BA-73E6EF9DA7C8

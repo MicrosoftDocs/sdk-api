@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Font.IsAvailable
 title: Font::IsAvailable (gdiplusheaders.h)
-description: The Font::IsAvailable method determines whether this Font object was created successfully.helpviewer_keywords: ["Font class [GDI+]","IsAvailable method","Font.IsAvailable","Font::IsAvailable","IsAvailable","IsAvailable method [GDI+]","IsAvailable method [GDI+]","Font class","_gdiplus_CLASS_Font_IsAvailable_","gdiplus._gdiplus_CLASS_Font_IsAvailable_"]
+description: The Font::IsAvailable method determines whether this Font object was created successfully.
+helpviewer_keywords: ["Font class [GDI+]","IsAvailable method","Font.IsAvailable","Font::IsAvailable","IsAvailable","IsAvailable method [GDI+]","IsAvailable method [GDI+]","Font class","_gdiplus_CLASS_Font_IsAvailable_","gdiplus._gdiplus_CLASS_Font_IsAvailable_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_IsAvailable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\isavailable.htm

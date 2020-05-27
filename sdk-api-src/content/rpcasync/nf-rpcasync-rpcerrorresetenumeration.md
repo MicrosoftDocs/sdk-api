@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcErrorResetEnumeration
 title: RpcErrorResetEnumeration function (rpcasync.h)
-description: The RpcErrorResetEnumeration function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the RpcErrorGetNextRecord retrieves the first extended error information record.helpviewer_keywords: ["RpcErrorResetEnumeration","RpcErrorResetEnumeration function [RPC]","_rpc_rpcerrorresetenumeration","rpc.rpcerrorresetenumeration","rpcasync/RpcErrorResetEnumeration"]
+description: The RpcErrorResetEnumeration function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the RpcErrorGetNextRecord retrieves the first extended error information record.
+helpviewer_keywords: ["RpcErrorResetEnumeration","RpcErrorResetEnumeration function [RPC]","_rpc_rpcerrorresetenumeration","rpc.rpcerrorresetenumeration","rpcasync/RpcErrorResetEnumeration"]
 old-location: rpc\rpcerrorresetenumeration.htm
 tech.root: Rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872

@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.GetAllRecognizers
 title: GetAllRecognizers function (recapis.h)
-description: Gets all recognizers.helpviewer_keywords: ["GetAllRecognizers","GetAllRecognizers function [Tablet PC]","recapis/GetAllRecognizers","tablet.getallrecognizers"]
+description: Gets all recognizers.
+helpviewer_keywords: ["GetAllRecognizers","GetAllRecognizers function [Tablet PC]","recapis/GetAllRecognizers","tablet.getallrecognizers"]
 old-location: tablet\getallrecognizers.htm
 tech.root: tablet
 ms.assetid: F2039094-E3B0-4FF4-9B69-ED29D681B388

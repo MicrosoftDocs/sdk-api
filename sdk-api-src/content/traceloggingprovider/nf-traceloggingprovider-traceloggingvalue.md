@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingValue
 title: TraceLoggingValue macro (traceloggingprovider.h)
-description: Wrapper macro for event fields. Automatically deduces value type.helpviewer_keywords: ["TraceLoggingValue","TraceLoggingValue macro","tracelogging.traceloggingvalue","traceloggingprovider/TraceLoggingValue"]
+description: Wrapper macro for event fields. Automatically deduces value type.
+helpviewer_keywords: ["TraceLoggingValue","TraceLoggingValue macro","tracelogging.traceloggingvalue","traceloggingprovider/TraceLoggingValue"]
 old-location: tracelogging\traceloggingvalue.htm
 tech.root: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8

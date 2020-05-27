@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateDetectToneObject
 title: ITLegacyCallMediaControl2::CreateDetectToneObject (tapi3if.h)
-description: The CreateDetectToneObject method creates a detect tone object to use with the DetectTonesByCollection method.helpviewer_keywords: ["CreateDetectToneObject","CreateDetectToneObject method [TAPI 2.2]","CreateDetectToneObject method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","CreateDetectToneObject method","ITLegacyCallMediaControl2.CreateDetectToneObject","ITLegacyCallMediaControl2::CreateDetectToneObject","_tapi3_itlegacycallmediacontrol2_createdetecttoneobject","tapi3.itlegacycallmediacontrol2_createdetecttoneobject","tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject"]
+description: The CreateDetectToneObject method creates a detect tone object to use with the DetectTonesByCollection method.
+helpviewer_keywords: ["CreateDetectToneObject","CreateDetectToneObject method [TAPI 2.2]","CreateDetectToneObject method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","CreateDetectToneObject method","ITLegacyCallMediaControl2.CreateDetectToneObject","ITLegacyCallMediaControl2::CreateDetectToneObject","_tapi3_itlegacycallmediacontrol2_createdetecttoneobject","tapi3.itlegacycallmediacontrol2_createdetecttoneobject","tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject"]
 old-location: tapi3\itlegacycallmediacontrol2_createdetecttoneobject.htm
 tech.root: Tapi
 ms.assetid: 3f00391f-b63f-4fa7-82af-44584fbcd8a3

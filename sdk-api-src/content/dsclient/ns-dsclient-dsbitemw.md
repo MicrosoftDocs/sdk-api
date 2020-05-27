@@ -1,7 +1,8 @@
 ---
 UID: NS:dsclient.__unnamed_struct_7
 title: DSBITEMW (dsclient.h)
-description: Contains data about an item in the Active Directory container browser dialog box.helpviewer_keywords: ["*PDSBITEMW","DSBF_DISPLAYNAME","DSBF_ICONLOCATION","DSBF_STATE","DSBITEM","DSBITEM structure [Active Directory]","DSBITEMA","DSBITEMW","DSBS_CHECKED","DSBS_HIDDEN","DSBS_ROOT","PDSBITEM","PDSBITEM structure pointer [Active Directory]","_glines_dsbitem","ad.dsbitem","dsclient/DSBITEM","dsclient/DSBITEMA","dsclient/DSBITEMW","dsclient/PDSBITEM"]
+description: Contains data about an item in the Active Directory container browser dialog box.
+helpviewer_keywords: ["*PDSBITEMW","DSBF_DISPLAYNAME","DSBF_ICONLOCATION","DSBF_STATE","DSBITEM","DSBITEM structure [Active Directory]","DSBITEMA","DSBITEMW","DSBS_CHECKED","DSBS_HIDDEN","DSBS_ROOT","PDSBITEM","PDSBITEM structure pointer [Active Directory]","_glines_dsbitem","ad.dsbitem","dsclient/DSBITEM","dsclient/DSBITEMA","dsclient/DSBITEMW","dsclient/PDSBITEM"]
 old-location: ad\dsbitem.htm
 tech.root: ad
 ms.assetid: 580b8aea-8411-41de-a2d9-1c3e3b35dd5a

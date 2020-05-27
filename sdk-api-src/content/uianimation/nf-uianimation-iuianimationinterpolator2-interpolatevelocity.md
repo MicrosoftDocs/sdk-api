@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.InterpolateVelocity
 title: IUIAnimationInterpolator2::InterpolateVelocity (uianimation.h)
-description: Interpolates the velocity, or rate of change, at the specified offset for the given dimension.helpviewer_keywords: ["IUIAnimationInterpolator2 interface [Windows Animation]","InterpolateVelocity method","IUIAnimationInterpolator2.InterpolateVelocity","IUIAnimationInterpolator2::InterpolateVelocity","InterpolateVelocity","InterpolateVelocity method [Windows Animation]","InterpolateVelocity method [Windows Animation]","IUIAnimationInterpolator2 interface","uianimation.iuianimationinterpolator2_interpolatevelocity","uianimation/IUIAnimationInterpolator2::InterpolateVelocity"]
+description: Interpolates the velocity, or rate of change, at the specified offset for the given dimension.
+helpviewer_keywords: ["IUIAnimationInterpolator2 interface [Windows Animation]","InterpolateVelocity method","IUIAnimationInterpolator2.InterpolateVelocity","IUIAnimationInterpolator2::InterpolateVelocity","InterpolateVelocity","InterpolateVelocity method [Windows Animation]","InterpolateVelocity method [Windows Animation]","IUIAnimationInterpolator2 interface","uianimation.iuianimationinterpolator2_interpolatevelocity","uianimation/IUIAnimationInterpolator2::InterpolateVelocity"]
 old-location: uianimation\iuianimationinterpolator2_interpolatevelocity.htm
 tech.root: UIAnimation
 ms.assetid: B6BD1B9D-3553-4A83-BB57-629611F9CA18

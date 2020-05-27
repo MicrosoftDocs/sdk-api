@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.DllInstall
 title: DllInstall function (shlwapi.h)
-description: Handles installation and setup for a DLL.helpviewer_keywords: ["DllInstall","DllInstall function [Windows Shell]","_win32_DllInstall","shell.DllInstall","shlwapi/DllInstall"]
+description: Handles installation and setup for a DLL.
+helpviewer_keywords: ["DllInstall","DllInstall function [Windows Shell]","_win32_DllInstall","shell.DllInstall","shlwapi/DllInstall"]
 old-location: shell\DllInstall.htm
 tech.root: shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816

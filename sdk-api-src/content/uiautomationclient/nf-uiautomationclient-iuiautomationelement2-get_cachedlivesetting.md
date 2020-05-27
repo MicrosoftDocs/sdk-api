@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CachedLiveSetting
 title: IUIAutomationElement2::get_CachedLiveSetting (uiautomationclient.h)
-description: Retrieves a cached value that indicates the type of notifications, if any, that the element sends when the content of the element changes.helpviewer_keywords: ["CachedLiveSetting property [Windows Accessibility]","CachedLiveSetting property [Windows Accessibility]","IUIAutomationElement2 interface","IUIAutomationElement2 interface [Windows Accessibility]","CachedLiveSetting property","IUIAutomationElement2.CachedLiveSetting","IUIAutomationElement2.get_CachedLiveSetting","IUIAutomationElement2::CachedLiveSetting","IUIAutomationElement2::get_CachedLiveSetting","get_CachedLiveSetting","uiautomationclient/IUIAutomationElement2::CachedLiveSetting","uiautomationclient/IUIAutomationElement2::get_CachedLiveSetting","winauto.uiauto_iuiautomationelement2_cachedlivesetting"]
+description: Retrieves a cached value that indicates the type of notifications, if any, that the element sends when the content of the element changes.
+helpviewer_keywords: ["CachedLiveSetting property [Windows Accessibility]","CachedLiveSetting property [Windows Accessibility]","IUIAutomationElement2 interface","IUIAutomationElement2 interface [Windows Accessibility]","CachedLiveSetting property","IUIAutomationElement2.CachedLiveSetting","IUIAutomationElement2.get_CachedLiveSetting","IUIAutomationElement2::CachedLiveSetting","IUIAutomationElement2::get_CachedLiveSetting","get_CachedLiveSetting","uiautomationclient/IUIAutomationElement2::CachedLiveSetting","uiautomationclient/IUIAutomationElement2::get_CachedLiveSetting","winauto.uiauto_iuiautomationelement2_cachedlivesetting"]
 old-location: winauto\uiauto_iuiautomationelement2_cachedlivesetting.htm
 tech.root: WinAuto
 ms.assetid: 5DAE4E4B-A93D-4743-907E-29FC4B6D9101

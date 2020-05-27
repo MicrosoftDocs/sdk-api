@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemprov.IWbemProviderInitSink.SetStatus
 title: IWbemProviderInitSink::SetStatus (wbemprov.h)
-description: The IWbemProviderInitSink::SetStatus method indicates to Windows Management whether a provider is fully or partially initialized.helpviewer_keywords: ["IWbemProviderInitSink interface [Windows Management Instrumentation]","SetStatus method","IWbemProviderInitSink.SetStatus","IWbemProviderInitSink::SetStatus","SetStatus","SetStatus method [Windows Management Instrumentation]","SetStatus method [Windows Management Instrumentation]","IWbemProviderInitSink interface","WBEM_E_FAILED","WBEM_S_INITIALIZED","_hmm_iwbemproviderinitsink_setstatus","wbemprov/IWbemProviderInitSink::SetStatus","wmi.iwbemproviderinitsink_setstatus"]
+description: The IWbemProviderInitSink::SetStatus method indicates to Windows Management whether a provider is fully or partially initialized.
+helpviewer_keywords: ["IWbemProviderInitSink interface [Windows Management Instrumentation]","SetStatus method","IWbemProviderInitSink.SetStatus","IWbemProviderInitSink::SetStatus","SetStatus","SetStatus method [Windows Management Instrumentation]","SetStatus method [Windows Management Instrumentation]","IWbemProviderInitSink interface","WBEM_E_FAILED","WBEM_S_INITIALIZED","_hmm_iwbemproviderinitsink_setstatus","wbemprov/IWbemProviderInitSink::SetStatus","wmi.iwbemproviderinitsink_setstatus"]
 old-location: wmi\iwbemproviderinitsink_setstatus.htm
 tech.root: WmiSdk
 ms.assetid: 909935ba-ae3a-477d-a466-1f2679764b10

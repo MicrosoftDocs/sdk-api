@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_VideoFrequency
 title: IAMTVTuner::get_VideoFrequency (strmif.h)
-description: The get_VideoFrequency method retrieves the current video frequency.helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_VideoFrequency method","IAMTVTuner.get_VideoFrequency","IAMTVTuner::get_VideoFrequency","IAMTVTunerget_VideoFrequency","dshow.iamtvtuner_get_videofrequency","get_VideoFrequency","get_VideoFrequency method [DirectShow]","get_VideoFrequency method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_VideoFrequency"]
+description: The get_VideoFrequency method retrieves the current video frequency.
+helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_VideoFrequency method","IAMTVTuner.get_VideoFrequency","IAMTVTuner::get_VideoFrequency","IAMTVTunerget_VideoFrequency","dshow.iamtvtuner_get_videofrequency","get_VideoFrequency","get_VideoFrequency method [DirectShow]","get_VideoFrequency method [DirectShow]","IAMTVTuner interface","strmif/IAMTVTuner::get_VideoFrequency"]
 old-location: dshow\iamtvtuner_get_videofrequency.htm
 tech.root: DirectShow
 ms.assetid: d19552ce-1314-4217-9bd3-72369b4334cf

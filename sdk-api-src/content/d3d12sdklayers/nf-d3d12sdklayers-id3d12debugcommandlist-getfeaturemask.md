@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.GetFeatureMask
 title: ID3D12DebugCommandList::GetFeatureMask (d3d12sdklayers.h)
-description: Returns the debug feature flags that have been set on a command list.helpviewer_keywords: ["GetFeatureMask","GetFeatureMask method","GetFeatureMask method","ID3D12DebugCommandList interface","ID3D12DebugCommandList interface","GetFeatureMask method","ID3D12DebugCommandList.GetFeatureMask","ID3D12DebugCommandList::GetFeatureMask","d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask","direct3d12.id3d12debugcommandlist_getfeaturemask"]
+description: Returns the debug feature flags that have been set on a command list.
+helpviewer_keywords: ["GetFeatureMask","GetFeatureMask method","GetFeatureMask method","ID3D12DebugCommandList interface","ID3D12DebugCommandList interface","GetFeatureMask method","ID3D12DebugCommandList.GetFeatureMask","ID3D12DebugCommandList::GetFeatureMask","d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask","direct3d12.id3d12debugcommandlist_getfeaturemask"]
 old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281

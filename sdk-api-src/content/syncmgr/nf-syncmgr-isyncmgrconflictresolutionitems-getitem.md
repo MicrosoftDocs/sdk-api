@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolutionItems.GetItem
 title: ISyncMgrConflictResolutionItems::GetItem (syncmgr.h)
-description: Gets result information for a specified item, when successful.helpviewer_keywords: ["GetItem","GetItem method [Windows Shell]","GetItem method [Windows Shell]","ISyncMgrConflictResolutionItems interface","ISyncMgrConflictResolutionItems interface [Windows Shell]","GetItem method","ISyncMgrConflictResolutionItems.GetItem","ISyncMgrConflictResolutionItems::GetItem","_shell_ISyncMgrConflictResolutionItems_GetItem","shell.ISyncMgrConflictResolutionItems_GetItem","syncmgr/ISyncMgrConflictResolutionItems::GetItem"]
+description: Gets result information for a specified item, when successful.
+helpviewer_keywords: ["GetItem","GetItem method [Windows Shell]","GetItem method [Windows Shell]","ISyncMgrConflictResolutionItems interface","ISyncMgrConflictResolutionItems interface [Windows Shell]","GetItem method","ISyncMgrConflictResolutionItems.GetItem","ISyncMgrConflictResolutionItems::GetItem","_shell_ISyncMgrConflictResolutionItems_GetItem","shell.ISyncMgrConflictResolutionItems_GetItem","syncmgr/ISyncMgrConflictResolutionItems::GetItem"]
 old-location: shell\ISyncMgrConflictResolutionItems_GetItem.htm
 tech.root: shell
 ms.assetid: c98ec4fa-bbca-4213-95c3-b50ccafbbfdb

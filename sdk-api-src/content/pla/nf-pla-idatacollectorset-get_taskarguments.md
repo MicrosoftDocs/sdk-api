@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_TaskArguments
 title: IDataCollectorSet::get_TaskArguments (pla.h)
-description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IDataCollectorSet::Task property.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","TaskArguments property","IDataCollectorSet.TaskArguments","IDataCollectorSet.get_TaskArguments","IDataCollectorSet::TaskArguments","IDataCollectorSet::get_TaskArguments","IDataCollectorSet::put_TaskArguments","TaskArguments property [PLA]","TaskArguments property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_taskarguments","get_TaskArguments","pla.idatacollectorset_get_taskarguments","pla/IDataCollectorSet::TaskArguments","pla/IDataCollectorSet::get_TaskArguments","pla/IDataCollectorSet::put_TaskArguments"]
+description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IDataCollectorSet::Task property.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","TaskArguments property","IDataCollectorSet.TaskArguments","IDataCollectorSet.get_TaskArguments","IDataCollectorSet::TaskArguments","IDataCollectorSet::get_TaskArguments","IDataCollectorSet::put_TaskArguments","TaskArguments property [PLA]","TaskArguments property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_taskarguments","get_TaskArguments","pla.idatacollectorset_get_taskarguments","pla/IDataCollectorSet::TaskArguments","pla/IDataCollectorSet::get_TaskArguments","pla/IDataCollectorSet::put_TaskArguments"]
 old-location: pla\idatacollectorset_get_taskarguments.htm
 tech.root: PLA
 ms.assetid: 7bd045df-379b-40fb-b309-cec531493018

@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IInstallationJob.GetProgress
 title: IInstallationJob::GetProgress (wuapi.h)
-description: Returns an IInstallationProgress interface that describes the current progress of an installation or uninstallation.helpviewer_keywords: ["GetProgress","GetProgress method [Windows Update Agent]","GetProgress method [Windows Update Agent]","IInstallationJob interface","IInstallationJob interface [Windows Update Agent]","GetProgress method","IInstallationJob.GetProgress","IInstallationJob::GetProgress","wua.iinstallationjob_getprogress","wuapi/IInstallationJob::GetProgress"]
+description: Returns an IInstallationProgress interface that describes the current progress of an installation or uninstallation.
+helpviewer_keywords: ["GetProgress","GetProgress method [Windows Update Agent]","GetProgress method [Windows Update Agent]","IInstallationJob interface","IInstallationJob interface [Windows Update Agent]","GetProgress method","IInstallationJob.GetProgress","IInstallationJob::GetProgress","wua.iinstallationjob_getprogress","wuapi/IInstallationJob::GetProgress"]
 old-location: wua\iinstallationjob_getprogress.htm
 tech.root: Wua_Sdk
 ms.assetid: 7d63ec9d-bf7a-4c5d-a1e7-4dcc0f236d07

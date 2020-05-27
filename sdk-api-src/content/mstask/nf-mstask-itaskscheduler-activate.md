@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.ITaskScheduler.Activate
 title: ITaskScheduler::Activate (mstask.h)
-description: The Activate method returns an active interface for a specified work item.helpviewer_keywords: ["Activate","Activate method [Task Scheduler]","Activate method [Task Scheduler]","ITaskScheduler interface","ITaskScheduler interface [Task Scheduler]","Activate method","ITaskScheduler.Activate","ITaskScheduler::Activate","_msb_itaskscheduler_activate","mstask/ITaskScheduler::Activate","taskschd.itaskscheduler_activate"]
+description: The Activate method returns an active interface for a specified work item.
+helpviewer_keywords: ["Activate","Activate method [Task Scheduler]","Activate method [Task Scheduler]","ITaskScheduler interface","ITaskScheduler interface [Task Scheduler]","Activate method","ITaskScheduler.Activate","ITaskScheduler::Activate","_msb_itaskscheduler_activate","mstask/ITaskScheduler::Activate","taskschd.itaskscheduler_activate"]
 old-location: taskschd\itaskscheduler_activate.htm
 tech.root: taskschd
 ms.assetid: 27391e34-8632-4ab5-9d6e-d2fde7942f80

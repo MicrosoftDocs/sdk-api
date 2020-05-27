@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetCurrentProcess
 title: CoGetCurrentProcess function (combaseapi.h)
-description: Returns a value that is unique to the current thread. CoGetCurrentProcess can be used to avoid thread ID reuse problems.helpviewer_keywords: ["CoGetCurrentProcess","CoGetCurrentProcess function [COM]","_com_CoGetCurrentProcess","com.cogetcurrentprocess","combaseapi/CoGetCurrentProcess"]
+description: Returns a value that is unique to the current thread. CoGetCurrentProcess can be used to avoid thread ID reuse problems.
+helpviewer_keywords: ["CoGetCurrentProcess","CoGetCurrentProcess function [COM]","_com_CoGetCurrentProcess","com.cogetcurrentprocess","combaseapi/CoGetCurrentProcess"]
 old-location: com\cogetcurrentprocess.htm
 tech.root: com
 ms.assetid: 46b0448f-f1c5-4da7-8489-bbd6d0fab79e

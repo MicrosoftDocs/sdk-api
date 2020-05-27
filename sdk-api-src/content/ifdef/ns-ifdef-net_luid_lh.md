@@ -1,7 +1,8 @@
 ---
 UID: NS:ifdef._NET_LUID_LH
 title: NET_LUID_LH (ifdef.h)
-description: The locally unique identifier (LUID) for a network interface.helpviewer_keywords: ["*PIF_LUID","*PNET_LUID","*PNET_LUID_LH","IF_LUID","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","NET_LUID","NET_LUID union [IP Helper]","NET_LUID_LH","PNET_LUID","PNET_LUID union pointer [IP Helper]","ifdef/NET_LUID","ifdef/PNET_LUID","iphlp.net_luid"]
+description: The locally unique identifier (LUID) for a network interface.
+helpviewer_keywords: ["*PIF_LUID","*PNET_LUID","*PNET_LUID_LH","IF_LUID","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","NET_LUID","NET_LUID union [IP Helper]","NET_LUID_LH","PNET_LUID","PNET_LUID union pointer [IP Helper]","ifdef/NET_LUID","ifdef/PNET_LUID","iphlp.net_luid"]
 old-location: iphlp\net_luid.htm
 tech.root: IpHlp
 ms.assetid: c4956c5a-3c6c-4f1c-b9d7-2e377b66f197

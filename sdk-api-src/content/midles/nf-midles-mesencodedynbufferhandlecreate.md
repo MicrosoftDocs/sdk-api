@@ -1,7 +1,8 @@
 ---
 UID: NF:midles.MesEncodeDynBufferHandleCreate
 title: MesEncodeDynBufferHandleCreate function (midles.h)
-description: The MesEncodeDynBufferHandleCreate function creates an encoding handle and then initializes it for a dynamic buffer style of serialization.helpviewer_keywords: ["MesEncodeDynBufferHandleCreate","MesEncodeDynBufferHandleCreate function [RPC]","_rpc_mesencodedynbufferhandlecreate","midles/MesEncodeDynBufferHandleCreate","rpc.mesencodedynbufferhandlecreate"]
+description: The MesEncodeDynBufferHandleCreate function creates an encoding handle and then initializes it for a dynamic buffer style of serialization.
+helpviewer_keywords: ["MesEncodeDynBufferHandleCreate","MesEncodeDynBufferHandleCreate function [RPC]","_rpc_mesencodedynbufferhandlecreate","midles/MesEncodeDynBufferHandleCreate","rpc.mesencodedynbufferhandlecreate"]
 old-location: rpc\mesencodedynbufferhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 4d8cb8e3-aa5a-4354-87e7-57543baa57e8

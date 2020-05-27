@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.ReleaseSemaphore
 title: ReleaseSemaphore function (synchapi.h)
-description: Increases the count of the specified semaphore object by a specified amount.helpviewer_keywords: ["ReleaseSemaphore","ReleaseSemaphore function","_win32_releasesemaphore","base.releasesemaphore","synchapi/ReleaseSemaphore","winbase/ReleaseSemaphore"]
+description: Increases the count of the specified semaphore object by a specified amount.
+helpviewer_keywords: ["ReleaseSemaphore","ReleaseSemaphore function","_win32_releasesemaphore","base.releasesemaphore","synchapi/ReleaseSemaphore","winbase/ReleaseSemaphore"]
 old-location: base\releasesemaphore.htm
 tech.root: Sync
 ms.assetid: 9d444318-4d66-4ec3-a65d-bd3b75db9d9b

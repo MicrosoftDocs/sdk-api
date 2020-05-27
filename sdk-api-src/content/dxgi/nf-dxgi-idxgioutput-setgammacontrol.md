@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIOutput.SetGammaControl
 title: IDXGIOutput::SetGammaControl (dxgi.h)
-description: Sets the gamma controls.helpviewer_keywords: ["1363de75-ecbe-4dfc-a09c-6cb809f2a5cf","IDXGIOutput interface [DXGI]","SetGammaControl method","IDXGIOutput.SetGammaControl","IDXGIOutput::SetGammaControl","SetGammaControl","SetGammaControl method [DXGI]","SetGammaControl method [DXGI]","IDXGIOutput interface","direct3ddxgi.idxgioutput_setgammacontrol","dxgi/IDXGIOutput::SetGammaControl"]
+description: Sets the gamma controls.
+helpviewer_keywords: ["1363de75-ecbe-4dfc-a09c-6cb809f2a5cf","IDXGIOutput interface [DXGI]","SetGammaControl method","IDXGIOutput.SetGammaControl","IDXGIOutput::SetGammaControl","SetGammaControl","SetGammaControl method [DXGI]","SetGammaControl method [DXGI]","IDXGIOutput interface","direct3ddxgi.idxgioutput_setgammacontrol","dxgi/IDXGIOutput::SetGammaControl"]
 old-location: direct3ddxgi\idxgioutput_setgammacontrol.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setgammacontrol.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverHardwareID
 title: IWindowsDriverUpdateEntry::get_DriverHardwareID (wuapi.h)
-description: Gets the hardware or the compatible identifier that the Windows driver update must match to be installable.helpviewer_keywords: ["DriverHardwareID property [Windows Update Agent]","DriverHardwareID property [Windows Update Agent]","IWindowsDriverUpdateEntry interface","IWindowsDriverUpdateEntry interface [Windows Update Agent]","DriverHardwareID property","IWindowsDriverUpdateEntry.DriverHardwareID","IWindowsDriverUpdateEntry.get_DriverHardwareID","IWindowsDriverUpdateEntry::DriverHardwareID","IWindowsDriverUpdateEntry::get_DriverHardwareID","get_DriverHardwareID","wua.iwindowsdriverupdateentry_driverhardwareid","wuapi/IWindowsDriverUpdateEntry::DriverHardwareID","wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID"]
+description: Gets the hardware or the compatible identifier that the Windows driver update must match to be installable.
+helpviewer_keywords: ["DriverHardwareID property [Windows Update Agent]","DriverHardwareID property [Windows Update Agent]","IWindowsDriverUpdateEntry interface","IWindowsDriverUpdateEntry interface [Windows Update Agent]","DriverHardwareID property","IWindowsDriverUpdateEntry.DriverHardwareID","IWindowsDriverUpdateEntry.get_DriverHardwareID","IWindowsDriverUpdateEntry::DriverHardwareID","IWindowsDriverUpdateEntry::get_DriverHardwareID","get_DriverHardwareID","wua.iwindowsdriverupdateentry_driverhardwareid","wuapi/IWindowsDriverUpdateEntry::DriverHardwareID","wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID"]
 old-location: wua\iwindowsdriverupdateentry_driverhardwareid.htm
 tech.root: Wua_Sdk
 ms.assetid: ff8e2336-634f-4217-b08a-fb3131ec8986

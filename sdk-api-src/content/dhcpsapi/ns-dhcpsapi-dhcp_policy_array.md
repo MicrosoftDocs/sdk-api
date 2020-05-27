@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_POLICY_ARRAY
 title: DHCP_POLICY_ARRAY (dhcpsapi.h)
-description: The DHCP_POLICY_ARRAY structure defines an array of DHCP server policies.helpviewer_keywords: ["*LPDHCP_POLICY_ARRAY","*PDHCP_POLICY_ARRAY","DHCP_POLICY_ARRAY","DHCP_POLICY_ARRAY structure [DHCP]","LPDHCP_POLICY_ARRAY","LPDHCP_POLICY_ARRAY structure pointer [DHCP]","PDHCP_POLICY_ARRAY","PDHCP_POLICY_ARRAY structure pointer [DHCP]","dhcp.dhcp_policy_array","dhcpsapi/DHCP_POLICY_ARRAY","dhcpsapi/LPDHCP_POLICY_ARRAY","dhcpsapi/PDHCP_POLICY_ARRAY"]
+description: The DHCP_POLICY_ARRAY structure defines an array of DHCP server policies.
+helpviewer_keywords: ["*LPDHCP_POLICY_ARRAY","*PDHCP_POLICY_ARRAY","DHCP_POLICY_ARRAY","DHCP_POLICY_ARRAY structure [DHCP]","LPDHCP_POLICY_ARRAY","LPDHCP_POLICY_ARRAY structure pointer [DHCP]","PDHCP_POLICY_ARRAY","PDHCP_POLICY_ARRAY structure pointer [DHCP]","dhcp.dhcp_policy_array","dhcpsapi/DHCP_POLICY_ARRAY","dhcpsapi/LPDHCP_POLICY_ARRAY","dhcpsapi/PDHCP_POLICY_ARRAY"]
 old-location: dhcp\dhcp_policy_array.htm
 tech.root: DHCP
 ms.assetid: 220CD2F8-AFB4-4B87-9B10-904AD04E4C1F

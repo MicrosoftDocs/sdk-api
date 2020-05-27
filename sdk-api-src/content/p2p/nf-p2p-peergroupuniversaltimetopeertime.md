@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGroupUniversalTimeToPeerTime
 title: PeerGroupUniversalTimeToPeerTime function (p2p.h)
-description: The PeerGroupUniversalTimeToPeerTime function converts a local time value from a peer's computer to a common peer group time value.helpviewer_keywords: ["PeerGroupUniversalTimeToPeerTime","PeerGroupUniversalTimeToPeerTime function [Peer Networking]","p2p.peergroupuniversaltimetopeertime","p2p/PeerGroupUniversalTimeToPeerTime"]
+description: The PeerGroupUniversalTimeToPeerTime function converts a local time value from a peer's computer to a common peer group time value.
+helpviewer_keywords: ["PeerGroupUniversalTimeToPeerTime","PeerGroupUniversalTimeToPeerTime function [Peer Networking]","p2p.peergroupuniversaltimetopeertime","p2p/PeerGroupUniversalTimeToPeerTime"]
 old-location: p2p\peergroupuniversaltimetopeertime.htm
 tech.root: P2PSdk
 ms.assetid: 8d64c66a-96c3-48c4-82fa-c57554074729

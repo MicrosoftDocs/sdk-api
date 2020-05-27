@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._RUN
 title: RUN (winddi.h)
-description: The RUN structure is used to describe a linear set of pixels that is not clipped by the CLIPLINE structure.helpviewer_keywords: ["*PRUN","PRUN","PRUN structure pointer [Display Devices]","RUN","RUN structure [Display Devices]","display.run","grstrcts_ccdf6b98-1c92-4d72-b777-e4c075e53064.xml","winddi/PRUN","winddi/RUN"]
+description: The RUN structure is used to describe a linear set of pixels that is not clipped by the CLIPLINE structure.
+helpviewer_keywords: ["*PRUN","PRUN","PRUN structure pointer [Display Devices]","RUN","RUN structure [Display Devices]","display.run","grstrcts_ccdf6b98-1c92-4d72-b777-e4c075e53064.xml","winddi/PRUN","winddi/RUN"]
 old-location: display\run.htm
 tech.root: display
 ms.assetid: 7c53ec29-2541-40d3-95df-bf73d900a6d6

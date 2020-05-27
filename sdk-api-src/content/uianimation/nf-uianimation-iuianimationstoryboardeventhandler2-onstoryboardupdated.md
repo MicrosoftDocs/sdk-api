@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler2.OnStoryboardUpdated
 title: IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated (uianimation.h)
-description: Handles storyboard update events.helpviewer_keywords: ["IUIAnimationStoryboardEventHandler2 interface [Windows Animation]","OnStoryboardUpdated method","IUIAnimationStoryboardEventHandler2.OnStoryboardUpdated","IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated","OnStoryboardUpdated","OnStoryboardUpdated method [Windows Animation]","OnStoryboardUpdated method [Windows Animation]","IUIAnimationStoryboardEventHandler2 interface","uianimation.iuianimationstoryboardeventhandler2_onstoryboardupdated","uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated"]
+description: Handles storyboard update events.
+helpviewer_keywords: ["IUIAnimationStoryboardEventHandler2 interface [Windows Animation]","OnStoryboardUpdated method","IUIAnimationStoryboardEventHandler2.OnStoryboardUpdated","IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated","OnStoryboardUpdated","OnStoryboardUpdated method [Windows Animation]","OnStoryboardUpdated method [Windows Animation]","IUIAnimationStoryboardEventHandler2 interface","uianimation.iuianimationstoryboardeventhandler2_onstoryboardupdated","uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated"]
 old-location: uianimation\iuianimationstoryboardeventhandler2_onstoryboardupdated.htm
 tech.root: UIAnimation
 ms.assetid: 30AB185A-D555-47CA-A2E6-DAAEB0C56FCD

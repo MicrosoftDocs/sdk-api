@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_EXTERNAL_NAME
 title: KERB_EXTERNAL_NAME (ntsecapi.h)
-description: Contains information about an external name.helpviewer_keywords: ["*PKERB_EXTERNAL_NAME","KERB_EXTERNAL_NAME","KERB_EXTERNAL_NAME structure [Security]","KRB_NT_ENTERPRISE_PRINCIPAL","KRB_NT_ENT_PRINCIPAL_AND_ID","KRB_NT_MS_PRINCIPAL_AND_ID","KRB_NT_MS_PRINICPAL","KRB_NT_PRINCIPAL","KRB_NT_SRV_HST","KRB_NT_SRV_INST","KRB_NT_SRV_XHST","KRB_NT_UID","KRB_NT_UNKNOWN","PKERB_EXTERNAL_NAME","PKERB_EXTERNAL_NAME structure pointer [Security]","_lsa_kerb_external_name","ntsecapi/KERB_EXTERNAL_NAME","ntsecapi/PKERB_EXTERNAL_NAME","security.kerb_external_name"]
+description: Contains information about an external name.
+helpviewer_keywords: ["*PKERB_EXTERNAL_NAME","KERB_EXTERNAL_NAME","KERB_EXTERNAL_NAME structure [Security]","KRB_NT_ENTERPRISE_PRINCIPAL","KRB_NT_ENT_PRINCIPAL_AND_ID","KRB_NT_MS_PRINCIPAL_AND_ID","KRB_NT_MS_PRINICPAL","KRB_NT_PRINCIPAL","KRB_NT_SRV_HST","KRB_NT_SRV_INST","KRB_NT_SRV_XHST","KRB_NT_UID","KRB_NT_UNKNOWN","PKERB_EXTERNAL_NAME","PKERB_EXTERNAL_NAME structure pointer [Security]","_lsa_kerb_external_name","ntsecapi/KERB_EXTERNAL_NAME","ntsecapi/PKERB_EXTERNAL_NAME","security.kerb_external_name"]
 old-location: security\kerb_external_name.htm
 tech.root: SecAuthN
 ms.assetid: 8ed37546-6443-4010-a078-4359dd1c2861

@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_6
 title: MCI_DGV_DELETE_PARMS (digitalv.h)
-description: The MCI_DGV_DELETE_PARMS structure contains parameters for the MCI_DELETE command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_DELETE_PARMS","MCI_DGV_DELETE_PARMS","MCI_DGV_DELETE_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_DELETE_PARMS_str","digitalv/MCI_DGV_DELETE_PARMS","multimedia.mci_dgv_delete_parms"]
+description: The MCI_DGV_DELETE_PARMS structure contains parameters for the MCI_DELETE command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_DELETE_PARMS","MCI_DGV_DELETE_PARMS","MCI_DGV_DELETE_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_DELETE_PARMS_str","digitalv/MCI_DGV_DELETE_PARMS","multimedia.mci_dgv_delete_parms"]
 old-location: multimedia\mci_dgv_delete_parms.htm
 tech.root: Multimedia
 ms.assetid: 0150a749-c8f3-4cc1-b212-c2a280f55afd

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.CreateSession
 title: IMFMediaKeys::CreateSession (mfmediaengine.h)
-description: Creates a media key session object using the specified initialization data and custom data. .helpviewer_keywords: ["CreateSession","CreateSession method [Media Foundation]","CreateSession method [Media Foundation]","IMFMediaKeys interface","IMFMediaKeys interface [Media Foundation]","CreateSession method","IMFMediaKeys.CreateSession","IMFMediaKeys::CreateSession","mf.imfmediakeys_createsession","mfmediaengine/IMFMediaKeys::CreateSession"]
+description: Creates a media key session object using the specified initialization data and custom data. .
+helpviewer_keywords: ["CreateSession","CreateSession method [Media Foundation]","CreateSession method [Media Foundation]","IMFMediaKeys interface","IMFMediaKeys interface [Media Foundation]","CreateSession method","IMFMediaKeys.CreateSession","IMFMediaKeys::CreateSession","mf.imfmediakeys_createsession","mfmediaengine/IMFMediaKeys::CreateSession"]
 old-location: mf\imfmediakeys_createsession.htm
 tech.root: medfound
 ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf

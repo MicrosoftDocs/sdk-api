@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPropertyPage.Show
 title: IPropertyPage::Show (ocidl.h)
-description: Makes the property page dialog box visible or invisible. If the page is made visible, the page should set the focus to itself, specifically to the first property on the page.helpviewer_keywords: ["IPropertyPage interface [COM]","Show method","IPropertyPage.Show","IPropertyPage::Show","Show","Show method [COM]","Show method [COM]","IPropertyPage interface","_ctrl_ipropertypage_show","com.ipropertypage_show","ocidl/IPropertyPage::Show"]
+description: Makes the property page dialog box visible or invisible. If the page is made visible, the page should set the focus to itself, specifically to the first property on the page.
+helpviewer_keywords: ["IPropertyPage interface [COM]","Show method","IPropertyPage.Show","IPropertyPage::Show","Show","Show method [COM]","Show method [COM]","IPropertyPage interface","_ctrl_ipropertypage_show","com.ipropertypage_show","ocidl/IPropertyPage::Show"]
 old-location: com\ipropertypage_show.htm
 tech.root: com
 ms.assetid: f89aa820-a3d3-4a41-b2b2-9ee48354fbeb

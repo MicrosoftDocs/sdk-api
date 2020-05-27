@@ -1,7 +1,8 @@
 ---
 UID: NS:cpl.tagNEWCPLINFOA
 title: NEWCPLINFOA (cpl.h)
-description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.helpviewer_keywords: ["*LPNEWCPLINFOA","LPNEWCPLINFO","LPNEWCPLINFO structure pointer [Windows Shell]","NEWCPLINFO","NEWCPLINFO structure [Windows Shell]","NEWCPLINFOA","_win32_NEWCPLINFO","cpl/LPNEWCPLINFO","cpl/NEWCPLINFO","shell.NEWCPLINFO"]
+description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
+helpviewer_keywords: ["*LPNEWCPLINFOA","LPNEWCPLINFO","LPNEWCPLINFO structure pointer [Windows Shell]","NEWCPLINFO","NEWCPLINFO structure [Windows Shell]","NEWCPLINFOA","_win32_NEWCPLINFO","cpl/LPNEWCPLINFO","cpl/NEWCPLINFO","shell.NEWCPLINFO"]
 old-location: shell\NEWCPLINFO.htm
 tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VariantChangeTypeEx
 title: VariantChangeTypeEx function (oleauto.h)
-description: Converts a variant from one type to another, using an LCID.helpviewer_keywords: ["VARIANT_ALPHABOOL","VARIANT_LOCALBOOL","VARIANT_NOUSEROVERRIDE","VARIANT_NOVALUEPROP","VariantChangeTypeEx","VariantChangeTypeEx function [Automation]","_oa96_VariantChangeTypeEx","automat.variantchangetypeex","oleauto/VariantChangeTypeEx"]
+description: Converts a variant from one type to another, using an LCID.
+helpviewer_keywords: ["VARIANT_ALPHABOOL","VARIANT_LOCALBOOL","VARIANT_NOUSEROVERRIDE","VARIANT_NOVALUEPROP","VariantChangeTypeEx","VariantChangeTypeEx function [Automation]","_oa96_VariantChangeTypeEx","automat.variantchangetypeex","oleauto/VariantChangeTypeEx"]
 old-location: automat\variantchangetypeex.htm
 tech.root: automat
 ms.assetid: f2ef2e5f-e247-4abd-890f-f096d956cf4f

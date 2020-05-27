@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMCertifiedOutputProtection
 title: IAMCertifiedOutputProtection (strmif.h)
-description: The IAMCertifiedOutputProtection interface sends Certified Output Protection Protocol (COPP) messages to the graphics driver.helpviewer_keywords: ["IAMCertifiedOutputProtection","IAMCertifiedOutputProtection interface [DirectShow]","IAMCertifiedOutputProtection interface [DirectShow]","described","IAMCertifiedOutputProtectionInterface","dshow.iamcertifiedoutputprotection","strmif/IAMCertifiedOutputProtection"]
+description: The IAMCertifiedOutputProtection interface sends Certified Output Protection Protocol (COPP) messages to the graphics driver.
+helpviewer_keywords: ["IAMCertifiedOutputProtection","IAMCertifiedOutputProtection interface [DirectShow]","IAMCertifiedOutputProtection interface [DirectShow]","described","IAMCertifiedOutputProtectionInterface","dshow.iamcertifiedoutputprotection","strmif/IAMCertifiedOutputProtection"]
 old-location: dshow\iamcertifiedoutputprotection.htm
 tech.root: DirectShow
 ms.assetid: e5da271d-9528-4bcb-8b76-56fbec2e5855

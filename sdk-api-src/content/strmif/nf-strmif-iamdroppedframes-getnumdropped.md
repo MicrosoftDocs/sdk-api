@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetNumDropped
 title: IAMDroppedFrames::GetNumDropped (strmif.h)
-description: The GetNumDropped method retrieves the total number of frames that the filter has dropped since it started streaming.helpviewer_keywords: ["GetNumDropped","GetNumDropped method [DirectShow]","GetNumDropped method [DirectShow]","IAMDroppedFrames interface","IAMDroppedFrames interface [DirectShow]","GetNumDropped method","IAMDroppedFrames.GetNumDropped","IAMDroppedFrames::GetNumDropped","IAMDroppedFramesGetNumDropped","dshow.iamdroppedframes_getnumdropped","strmif/IAMDroppedFrames::GetNumDropped"]
+description: The GetNumDropped method retrieves the total number of frames that the filter has dropped since it started streaming.
+helpviewer_keywords: ["GetNumDropped","GetNumDropped method [DirectShow]","GetNumDropped method [DirectShow]","IAMDroppedFrames interface","IAMDroppedFrames interface [DirectShow]","GetNumDropped method","IAMDroppedFrames.GetNumDropped","IAMDroppedFrames::GetNumDropped","IAMDroppedFramesGetNumDropped","dshow.iamdroppedframes_getnumdropped","strmif/IAMDroppedFrames::GetNumDropped"]
 old-location: dshow\iamdroppedframes_getnumdropped.htm
 tech.root: DirectShow
 ms.assetid: d7e91efb-0755-4319-ac85-abc6ecdc3e2a

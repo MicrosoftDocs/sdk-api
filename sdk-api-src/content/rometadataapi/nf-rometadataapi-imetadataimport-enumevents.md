@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumEvents
 title: IMetaDataImport::EnumEvents (rometadataapi.h)
-description: Enumerates event definition tokens for the specified TypeDef token.helpviewer_keywords: ["EnumEvents","EnumEvents method [Windows Runtime]","EnumEvents method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumEvents method","IMetaDataImport.EnumEvents","IMetaDataImport::EnumEvents","rometadataapi/IMetaDataImport::EnumEvents","winrt.imetadataimport_enumevents"]
+description: Enumerates event definition tokens for the specified TypeDef token.
+helpviewer_keywords: ["EnumEvents","EnumEvents method [Windows Runtime]","EnumEvents method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumEvents method","IMetaDataImport.EnumEvents","IMetaDataImport::EnumEvents","rometadataapi/IMetaDataImport::EnumEvents","winrt.imetadataimport_enumevents"]
 old-location: winrt\imetadataimport_enumevents.htm
 tech.root: WinRT
 ms.assetid: 442b5db1-1e5f-4314-9c53-dbd0f0651d3c

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.GetErrorInfo
 title: GetErrorInfo function (oleauto.h)
-description: Obtains the error information pointer set by the previous call to SetErrorInfo in the current logical thread.helpviewer_keywords: ["GetErrorInfo","GetErrorInfo function [Automation]","_oa96_GetErrorInfo","automat.geterrorinfo","oleauto/GetErrorInfo"]
+description: Obtains the error information pointer set by the previous call to SetErrorInfo in the current logical thread.
+helpviewer_keywords: ["GetErrorInfo","GetErrorInfo function [Automation]","_oa96_GetErrorInfo","automat.geterrorinfo","oleauto/GetErrorInfo"]
 old-location: automat\geterrorinfo.htm
 tech.root: automat
 ms.assetid: 03317526-8c4f-4173-bc10-110c8112676a

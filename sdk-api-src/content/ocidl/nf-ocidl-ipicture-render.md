@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPicture.Render
 title: IPicture::Render (ocidl.h)
-description: Renders (draws) a specified portion of the picture defined by the offset (xSrc,ySrc) of the source picture and the dimensions to copy (cxSrc,xySrc).helpviewer_keywords: ["IPicture interface [COM]","Render method","IPicture.Render","IPicture::Render","Render","Render method [COM]","Render method [COM]","IPicture interface","_ctrl_ipicture_render","com.ipicture_render","ocidl/IPicture::Render"]
+description: Renders (draws) a specified portion of the picture defined by the offset (xSrc,ySrc) of the source picture and the dimensions to copy (cxSrc,xySrc).
+helpviewer_keywords: ["IPicture interface [COM]","Render method","IPicture.Render","IPicture::Render","Render","Render method [COM]","Render method [COM]","IPicture interface","_ctrl_ipicture_render","com.ipicture_render","ocidl/IPicture::Render"]
 old-location: com\ipicture_render.htm
 tech.root: com
 ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3

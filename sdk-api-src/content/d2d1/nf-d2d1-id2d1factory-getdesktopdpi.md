@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Factory.GetDesktopDpi
 title: ID2D1Factory::GetDesktopDpi (d2d1.h)
-description: Retrieves the current desktop dots per inch (DPI). To refresh this value, call ReloadSystemMetrics.helpviewer_keywords: ["GetDesktopDpi","GetDesktopDpi method [Direct2D]","GetDesktopDpi method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","GetDesktopDpi method","ID2D1Factory.GetDesktopDpi","ID2D1Factory::GetDesktopDpi","d2d1/ID2D1Factory::GetDesktopDpi","direct2d.ID2D1Factory_GetDesktopDpi"]
+description: Retrieves the current desktop dots per inch (DPI). To refresh this value, call ReloadSystemMetrics.
+helpviewer_keywords: ["GetDesktopDpi","GetDesktopDpi method [Direct2D]","GetDesktopDpi method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","GetDesktopDpi method","ID2D1Factory.GetDesktopDpi","ID2D1Factory::GetDesktopDpi","d2d1/ID2D1Factory::GetDesktopDpi","direct2d.ID2D1Factory_GetDesktopDpi"]
 old-location: direct2d\ID2D1Factory_GetDesktopDpi.htm
 tech.root: Direct2D
 ms.assetid: dd46252b-80eb-42c2-a2b4-5c49ef124bd5

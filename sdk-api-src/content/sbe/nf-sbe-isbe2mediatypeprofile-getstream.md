@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.GetStream
 title: ISBE2MediaTypeProfile::GetStream (sbe.h)
-description: Gets the media type of a stream that appears at a specific index in a media type profile.helpviewer_keywords: ["GetStream","GetStream method [Microsoft TV Technologies]","GetStream method [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","GetStream method","ISBE2MediaTypeProfile.GetStream","ISBE2MediaTypeProfile::GetStream","mstv.isbe2mediatypeprofile_getstream","sbe/ISBE2MediaTypeProfile::GetStream"]
+description: Gets the media type of a stream that appears at a specific index in a media type profile.
+helpviewer_keywords: ["GetStream","GetStream method [Microsoft TV Technologies]","GetStream method [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","GetStream method","ISBE2MediaTypeProfile.GetStream","ISBE2MediaTypeProfile::GetStream","mstv.isbe2mediatypeprofile_getstream","sbe/ISBE2MediaTypeProfile::GetStream"]
 old-location: mstv\isbe2mediatypeprofile_getstream.htm
 tech.root: mstv
 ms.assetid: 14c48484-59b0-4e39-8684-9875edfd6556

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyExW
 title: SetupDiGetClassPropertyExW function (setupapi.h)
-description: The SetupDiGetClassPropertyEx function retrieves a class property for a device setup class or a device interface class on a local or remote computer.helpviewer_keywords: ["SetupDiGetClassPropertyEx","SetupDiGetClassPropertyEx function [Device and Driver Installation]","SetupDiGetClassPropertyExW","devinst.setupdigetclasspropertyex","di-rtns_b2221d4f-34d3-4206-b1f2-fbaa8d7886cc.xml","setupapi/SetupDiGetClassPropertyEx"]
+description: The SetupDiGetClassPropertyEx function retrieves a class property for a device setup class or a device interface class on a local or remote computer.
+helpviewer_keywords: ["SetupDiGetClassPropertyEx","SetupDiGetClassPropertyEx function [Device and Driver Installation]","SetupDiGetClassPropertyExW","devinst.setupdigetclasspropertyex","di-rtns_b2221d4f-34d3-4206-b1f2-fbaa8d7886cc.xml","setupapi/SetupDiGetClassPropertyEx"]
 old-location: devinst\setupdigetclasspropertyex.htm
 tech.root: devinst
 ms.assetid: 74b6cd23-5741-4f0c-b5e1-6cdea2074c28

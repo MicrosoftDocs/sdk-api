@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeTransitionDuration
 title: GetThemeTransitionDuration function (uxtheme.h)
-description: Gets the duration for the specified transition.helpviewer_keywords: ["GetThemeTransitionDuration","GetThemeTransitionDuration function [Windows Controls]","_shell_GetThemeTransitionDuration","_shell_GetThemeTransitionDuration_cpp","controls.GetThemeTransitionDuration","controls._shell_GetThemeTransitionDuration","uxtheme/GetThemeTransitionDuration"]
+description: Gets the duration for the specified transition.
+helpviewer_keywords: ["GetThemeTransitionDuration","GetThemeTransitionDuration function [Windows Controls]","_shell_GetThemeTransitionDuration","_shell_GetThemeTransitionDuration_cpp","controls.GetThemeTransitionDuration","controls._shell_GetThemeTransitionDuration","uxtheme/GetThemeTransitionDuration"]
 old-location: controls\GetThemeTransitionDuration.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetransitionduration.htm

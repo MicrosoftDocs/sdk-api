@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_ARRAY_SRV
 title: D3D12_TEX1D_ARRAY_SRV (d3d12.h)
-description: Describes the subresources from an array of 1D textures to use in a shader-resource view.helpviewer_keywords: ["D3D12_TEX1D_ARRAY_SRV","D3D12_TEX1D_ARRAY_SRV structure","d3d12/D3D12_TEX1D_ARRAY_SRV","direct3d12.d3d12_tex1d_array_srv"]
+description: Describes the subresources from an array of 1D textures to use in a shader-resource view.
+helpviewer_keywords: ["D3D12_TEX1D_ARRAY_SRV","D3D12_TEX1D_ARRAY_SRV structure","d3d12/D3D12_TEX1D_ARRAY_SRV","direct3d12.d3d12_tex1d_array_srv"]
 old-location: direct3d12\d3d12_tex1d_array_srv.htm
 tech.root: direct3d12
 ms.assetid: 12931858-3E3C-4D4E-9459-7C15A73A485B

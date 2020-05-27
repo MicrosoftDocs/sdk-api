@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_5.IDXGIDevice4
 title: IDXGIDevice4 (dxgi1_5.h)
-description: This interface provides updated methods to offer and reclaim resources.helpviewer_keywords: ["IDXGIDevice4","IDXGIDevice4 interface [DXGI]","IDXGIDevice4 interface [DXGI]","described","direct3ddxgi.idxgidevice4","dxgi1_5/IDXGIDevice4"]
+description: This interface provides updated methods to offer and reclaim resources.
+helpviewer_keywords: ["IDXGIDevice4","IDXGIDevice4 interface [DXGI]","IDXGIDevice4 interface [DXGI]","described","direct3ddxgi.idxgidevice4","dxgi1_5/IDXGIDevice4"]
 old-location: direct3ddxgi\idxgidevice4.htm
 tech.root: direct3ddxgi
 ms.assetid: 15EA6B68-587E-4D92-A70D-7DDA9915EBC2

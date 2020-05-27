@@ -1,7 +1,8 @@
 ---
 UID: NF:wintrust.WintrustAddActionID
 title: WintrustAddActionID function (wintrust.h)
-description: Adds a trust provider action to the user's system.helpviewer_keywords: ["HTTPSPROV_ACTION","WINTRUST_ACTION_GENERIC_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WintrustAddActionID","WintrustAddActionID function [Security]","security.wintrustaddactionid","wintrust/WintrustAddActionID"]
+description: Adds a trust provider action to the user's system.
+helpviewer_keywords: ["HTTPSPROV_ACTION","WINTRUST_ACTION_GENERIC_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WintrustAddActionID","WintrustAddActionID function [Security]","security.wintrustaddactionid","wintrust/WintrustAddActionID"]
 old-location: security\wintrustaddactionid.htm
 tech.root: SecCrypto
 ms.assetid: 3b282342-9c86-42fa-b745-e5194d2885dc

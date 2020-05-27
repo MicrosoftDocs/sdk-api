@@ -1,7 +1,8 @@
 ---
 UID: NN:wbemprov.IWbemProviderInitSink
 title: IWbemProviderInitSink (wbemprov.h)
-description: The IWbemProviderInitSink interface is implemented by WMI and called by providers to report initialization status.helpviewer_keywords: ["IWbemProviderInitSink","IWbemProviderInitSink interface [Windows Management Instrumentation]","IWbemProviderInitSink interface [Windows Management Instrumentation]","described","_hmm_iwbemproviderinitsink","wbemprov/IWbemProviderInitSink","wmi.iwbemproviderinitsink"]
+description: The IWbemProviderInitSink interface is implemented by WMI and called by providers to report initialization status.
+helpviewer_keywords: ["IWbemProviderInitSink","IWbemProviderInitSink interface [Windows Management Instrumentation]","IWbemProviderInitSink interface [Windows Management Instrumentation]","described","_hmm_iwbemproviderinitsink","wbemprov/IWbemProviderInitSink","wmi.iwbemproviderinitsink"]
 old-location: wmi\iwbemproviderinitsink.htm
 tech.root: WmiSdk
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534

@@ -1,7 +1,8 @@
 ---
 UID: NF:tvratings.IEvalRat.put_BlockUnRated
 title: IEvalRat::put_BlockUnRated (tvratings.h)
-description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.helpviewer_keywords: ["IEvalRat interface [Microsoft TV Technologies]","put_BlockUnRated method","IEvalRat.put_BlockUnRated","IEvalRat::put_BlockUnRated","IEvalRatput_BlockUnRated","mstv.ievalrat_put_blockunrated","put_BlockUnRated","put_BlockUnRated method [Microsoft TV Technologies]","put_BlockUnRated method [Microsoft TV Technologies]","IEvalRat interface","tvratings/IEvalRat::put_BlockUnRated"]
+description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
+helpviewer_keywords: ["IEvalRat interface [Microsoft TV Technologies]","put_BlockUnRated method","IEvalRat.put_BlockUnRated","IEvalRat::put_BlockUnRated","IEvalRatput_BlockUnRated","mstv.ievalrat_put_blockunrated","put_BlockUnRated","put_BlockUnRated method [Microsoft TV Technologies]","put_BlockUnRated method [Microsoft TV Technologies]","IEvalRat interface","tvratings/IEvalRat::put_BlockUnRated"]
 old-location: mstv\ievalrat_put_blockunrated.htm
 tech.root: mstv
 ms.assetid: 22f6bc32-3f41-45d4-83e5-f501cbeb772e

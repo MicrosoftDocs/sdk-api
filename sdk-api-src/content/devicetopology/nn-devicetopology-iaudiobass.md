@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioBass
 title: IAudioBass (devicetopology.h)
-description: The IAudioBass interface provides access to a hardware bass-level control.helpviewer_keywords: ["IAudioBass","IAudioBass interface [Core Audio]","IAudioBass interface [Core Audio]","described","coreaudio.iaudiobass","devicetopology/IAudioBass"]
+description: The IAudioBass interface provides access to a hardware bass-level control.
+helpviewer_keywords: ["IAudioBass","IAudioBass interface [Core Audio]","IAudioBass interface [Core Audio]","described","coreaudio.iaudiobass","devicetopology/IAudioBass"]
 old-location: coreaudio\iaudiobass.htm
 tech.root: CoreAudio
 ms.assetid: 036ca996-8612-4905-9afa-a4c3b4624652

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleLink.Update
 title: IOleLink::Update (oleidl.h)
-description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.helpviewer_keywords: ["IOleLink interface [COM]","Update method","IOleLink.Update","IOleLink::Update","Update","Update method [COM]","Update method [COM]","IOleLink interface","_ole_iolelink_update","com.iolelink_update","oleidl/IOleLink::Update"]
+description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
+helpviewer_keywords: ["IOleLink interface [COM]","Update method","IOleLink.Update","IOleLink::Update","Update","Update method [COM]","Update method [COM]","IOleLink interface","_ole_iolelink_update","com.iolelink_update","oleidl/IOleLink::Update"]
 old-location: com\iolelink_update.htm
 tech.root: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4

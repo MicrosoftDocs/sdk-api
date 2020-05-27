@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetRadiusX
 title: ID2D1RadialGradientBrush::GetRadiusX (d2d1.h)
-description: Retrieves the x-radius of the gradient ellipse.helpviewer_keywords: ["GetRadiusX","GetRadiusX method [Direct2D]","GetRadiusX method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetRadiusX method","ID2D1RadialGradientBrush.GetRadiusX","ID2D1RadialGradientBrush::GetRadiusX","d2d1/ID2D1RadialGradientBrush::GetRadiusX","direct2d.ID2D1RadialGradientBrush_GetRadiusX"]
+description: Retrieves the x-radius of the gradient ellipse.
+helpviewer_keywords: ["GetRadiusX","GetRadiusX method [Direct2D]","GetRadiusX method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetRadiusX method","ID2D1RadialGradientBrush.GetRadiusX","ID2D1RadialGradientBrush::GetRadiusX","d2d1/ID2D1RadialGradientBrush::GetRadiusX","direct2d.ID2D1RadialGradientBrush_GetRadiusX"]
 old-location: direct2d\ID2D1RadialGradientBrush_GetRadiusX.htm
 tech.root: Direct2D
 ms.assetid: 044979f0-df61-4a05-9d64-ac1af28bc568

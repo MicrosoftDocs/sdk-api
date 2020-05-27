@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WS_XML_STRING_DICTIONARY_VALUE
 title: WS_XML_STRING_DICTIONARY_VALUE macro (webservices.h)
-description: Provides an initializer for a WS_XML_STRING structure when there is an associated dictionary ID.helpviewer_keywords: ["WS_XML_STRING_DICTIONARY_VALUE","WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows]","webservices/WS_XML_STRING_DICTIONARY_VALUE","wsw.ws_xml_string_dictionary_value"]
+description: Provides an initializer for a WS_XML_STRING structure when there is an associated dictionary ID.
+helpviewer_keywords: ["WS_XML_STRING_DICTIONARY_VALUE","WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows]","webservices/WS_XML_STRING_DICTIONARY_VALUE","wsw.ws_xml_string_dictionary_value"]
 old-location: wsw\ws_xml_string_dictionary_value.htm
 tech.root: wsw
 ms.assetid: 1e2045c0-11c5-4369-9b82-dc759eb1412e

@@ -1,7 +1,8 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Close
 title: ICreateDeviceAccessAsync::Close (deviceaccess.h)
-description: The Close method performs cleanup after the asynchronous operation is completed and you retrieve the results.helpviewer_keywords: ["Close","Close method [Device Access Broker API]","Close method [Device Access Broker API]","ICreateDeviceAccessAsync interface","ICreateDeviceAccessAsync interface [Device Access Broker API]","Close method","ICreateDeviceAccessAsync.Close","ICreateDeviceAccessAsync::Close","deviceaccess.icreatedeviceaccessasync_close","deviceaccess/ICreateDeviceAccessAsync::Close"]
+description: The Close method performs cleanup after the asynchronous operation is completed and you retrieve the results.
+helpviewer_keywords: ["Close","Close method [Device Access Broker API]","Close method [Device Access Broker API]","ICreateDeviceAccessAsync interface","ICreateDeviceAccessAsync interface [Device Access Broker API]","Close method","ICreateDeviceAccessAsync.Close","ICreateDeviceAccessAsync::Close","deviceaccess.icreatedeviceaccessasync_close","deviceaccess/ICreateDeviceAccessAsync::Close"]
 old-location: deviceaccess\icreatedeviceaccessasync_close.htm
 tech.root: deviceaccess
 ms.assetid: 58887745-6a36-4600-9a1b-f9709a0e37e8

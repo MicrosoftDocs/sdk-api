@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_FindStringExact
 title: ComboBox_FindStringExact macro (windowsx.h)
-description: Finds the first string in a combo box list that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the CB_FINDSTRINGEXACT message explicitly.helpviewer_keywords: ["ComboBox_FindStringExact","ComboBox_FindStringExact macro [Windows Controls]","_win32_ComboBox_FindStringExact","_win32_ComboBox_FindStringExact_cpp","controls.ComboBox_FindStringExact","controls._win32_ComboBox_FindStringExact","windowsx/ComboBox_FindStringExact"]
+description: Finds the first string in a combo box list that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the CB_FINDSTRINGEXACT message explicitly.
+helpviewer_keywords: ["ComboBox_FindStringExact","ComboBox_FindStringExact macro [Windows Controls]","_win32_ComboBox_FindStringExact","_win32_ComboBox_FindStringExact_cpp","controls.ComboBox_FindStringExact","controls._win32_ComboBox_FindStringExact","windowsx/ComboBox_FindStringExact"]
 old-location: controls\ComboBox_FindStringExact.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_findstringexact.htm

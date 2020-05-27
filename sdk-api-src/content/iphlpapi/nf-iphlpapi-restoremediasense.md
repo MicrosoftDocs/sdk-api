@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.RestoreMediaSense
 title: RestoreMediaSense function (iphlpapi.h)
-description: The RestoreMediaSense function restores the media sensing capability of the TCP/IP stack on a local computer on which the DisableMediaSense function was previously called.helpviewer_keywords: ["RestoreMediaSense","RestoreMediaSense function [IP Helper]","iphlp.restoremediasense","iphlpapi/RestoreMediaSense"]
+description: The RestoreMediaSense function restores the media sensing capability of the TCP/IP stack on a local computer on which the DisableMediaSense function was previously called.
+helpviewer_keywords: ["RestoreMediaSense","RestoreMediaSense function [IP Helper]","iphlp.restoremediasense","iphlpapi/RestoreMediaSense"]
 old-location: iphlp\restoremediasense.htm
 tech.root: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea

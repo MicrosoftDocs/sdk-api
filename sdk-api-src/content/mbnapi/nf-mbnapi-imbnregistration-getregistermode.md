@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterMode
 title: IMbnRegistration::GetRegisterMode (mbnapi.h)
-description: Gets the network registration mode of a Mobile Broadband device.helpviewer_keywords: ["GetRegisterMode","GetRegisterMode method [Microsoft Broadband Networks]","GetRegisterMode method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetRegisterMode method","IMbnRegistration.GetRegisterMode","IMbnRegistration::GetRegisterMode","mbn.imbnregistration_getregistermode","mbnapi/IMbnRegistration::GetRegisterMode"]
+description: Gets the network registration mode of a Mobile Broadband device.
+helpviewer_keywords: ["GetRegisterMode","GetRegisterMode method [Microsoft Broadband Networks]","GetRegisterMode method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetRegisterMode method","IMbnRegistration.GetRegisterMode","IMbnRegistration::GetRegisterMode","mbn.imbnregistration_getregistermode","mbnapi/IMbnRegistration::GetRegisterMode"]
 old-location: mbn\imbnregistration_getregistermode.htm
 tech.root: mbn
 ms.assetid: 30030eb8-3b08-4583-a7ba-0560db32007f

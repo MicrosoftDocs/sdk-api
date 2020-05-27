@@ -1,7 +1,8 @@
 ---
 UID: NF:faxext.FaxExtGetData
 title: FaxExtGetData function (faxext.h)
-description: The FaxExtGetData callback function retrieves configuration data for a specific device and GUID.helpviewer_keywords: ["DEV_ID_SRC_FAX","DEV_ID_SRC_TAPI","FaxExtGetData","FaxExtGetData function [Fax Service]","_mfax_faxextgetdata","fax._mfax_faxextgetdata","faxext/FaxExtGetData"]
+description: The FaxExtGetData callback function retrieves configuration data for a specific device and GUID.
+helpviewer_keywords: ["DEV_ID_SRC_FAX","DEV_ID_SRC_TAPI","FaxExtGetData","FaxExtGetData function [Fax Service]","_mfax_faxextgetdata","fax._mfax_faxextgetdata","faxext/FaxExtGetData"]
 old-location: fax\_mfax_faxextgetdata.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4s0x.htm

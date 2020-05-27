@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN IStream,OUT MetafileHeader)
 title: Metafile::GetMetafileHeader(IN IStream,OUT MetafileHeader) (gdiplusheaders.h)
-description: The Metafile::GetMetafileHeader method gets the header.helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(IN IStream","OUT MetafileHeader)","Metafile.GetMetafileHeader(IStream*","MetafileHeader*)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN IStream","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_"]
+description: The Metafile::GetMetafileHeader method gets the header.
+helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(IN IStream","OUT MetafileHeader)","Metafile.GetMetafileHeader(IStream*","MetafileHeader*)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN IStream","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods\getmetafileheader_98stream_header.htm

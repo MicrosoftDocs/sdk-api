@@ -1,7 +1,8 @@
 ---
 UID: NS:ntenclv.ENCLAVE_IDENTITY
 title: ENCLAVE_IDENTITY (ntenclv.h)
-description: Describes the identity of the primary module of an enclave.helpviewer_keywords: ["ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE","ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED","ENCLAVE_FLAG_FULL_DEBUG_ENABLED","ENCLAVE_IDENTITY","ENCLAVE_IDENTITY structure","base.enclave_identity","ntenclv/ENCLAVE_IDENTITY"]
+description: Describes the identity of the primary module of an enclave.
+helpviewer_keywords: ["ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE","ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED","ENCLAVE_FLAG_FULL_DEBUG_ENABLED","ENCLAVE_IDENTITY","ENCLAVE_IDENTITY structure","base.enclave_identity","ntenclv/ENCLAVE_IDENTITY"]
 old-location: base\enclave_identity.htm
 tech.root: Memory
 ms.assetid: D584D824-3C86-4BBB-9086-6DBE0290E0A4

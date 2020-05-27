@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Next
 title: IMDSPEnumStorage::Next (mswmdm.h)
-description: The Next method returns a pointer to the next celtIMDSPStorage interfaces.helpviewer_keywords: ["IMDSPEnumStorage interface [windows Media Device Manager]","Next method","IMDSPEnumStorage.Next","IMDSPEnumStorage::Next","IMDSPEnumStorageNext","Next","Next method [windows Media Device Manager]","Next method [windows Media Device Manager]","IMDSPEnumStorage interface","mswmdm/IMDSPEnumStorage::Next","wmdm.imdspenumstorage_next"]
+description: The Next method returns a pointer to the next celtIMDSPStorage interfaces.
+helpviewer_keywords: ["IMDSPEnumStorage interface [windows Media Device Manager]","Next method","IMDSPEnumStorage.Next","IMDSPEnumStorage::Next","IMDSPEnumStorageNext","Next","Next method [windows Media Device Manager]","Next method [windows Media Device Manager]","IMDSPEnumStorage interface","mswmdm/IMDSPEnumStorage::Next","wmdm.imdspenumstorage_next"]
 old-location: wmdm\imdspenumstorage_next.htm
 tech.root: WMDM
 ms.assetid: 7874912a-6350-445c-a7c8-0f885d756aa0

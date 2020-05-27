@@ -1,7 +1,8 @@
 ---
 UID: NS:faxroute._FAX_ROUTE_CALLBACKROUTINES
 title: FAX_ROUTE_CALLBACKROUTINES (faxroute.h)
-description: The FAX_ROUTE_CALLBACKROUTINES structure contains pointers to callback functions the fax service provides.helpviewer_keywords: ["*PFAX_ROUTE_CALLBACKROUTINES","FAX_ROUTE_CALLBACKROUTINES","FAX_ROUTE_CALLBACKROUTINES structure [Fax Service]","PFAX_ROUTE_CALLBACKROUTINES","PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service]","_mfax_fax_route_callbackroutines_str","fax._mfax_fax_route_callbackroutines_str","faxroute/FAX_ROUTE_CALLBACKROUTINES","faxroute/PFAX_ROUTE_CALLBACKROUTINES"]
+description: The FAX_ROUTE_CALLBACKROUTINES structure contains pointers to callback functions the fax service provides.
+helpviewer_keywords: ["*PFAX_ROUTE_CALLBACKROUTINES","FAX_ROUTE_CALLBACKROUTINES","FAX_ROUTE_CALLBACKROUTINES structure [Fax Service]","PFAX_ROUTE_CALLBACKROUTINES","PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service]","_mfax_fax_route_callbackroutines_str","fax._mfax_fax_route_callbackroutines_str","faxroute/FAX_ROUTE_CALLBACKROUTINES","faxroute/PFAX_ROUTE_CALLBACKROUTINES"]
 old-location: fax\_mfax_fax_route_callbackroutines_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm

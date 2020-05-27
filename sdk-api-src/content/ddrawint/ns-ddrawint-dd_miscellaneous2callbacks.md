@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_MISCELLANEOUS2CALLBACKS
 title: DD_MISCELLANEOUS2CALLBACKS (ddrawint.h)
-description: The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines.helpviewer_keywords: ["*PDD_MISCELLANEOUS2CALLBACKS","DD_MISCELLANEOUS2CALLBACKS","DD_MISCELLANEOUS2CALLBACKS structure [Display Devices]","PDD_MISCELLANEOUS2CALLBACKS","PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices]","ddrawint/DD_MISCELLANEOUS2CALLBACKS","ddrawint/PDD_MISCELLANEOUS2CALLBACKS","ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml","display.dd_miscellaneous2callbacks"]
+description: The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines.
+helpviewer_keywords: ["*PDD_MISCELLANEOUS2CALLBACKS","DD_MISCELLANEOUS2CALLBACKS","DD_MISCELLANEOUS2CALLBACKS structure [Display Devices]","PDD_MISCELLANEOUS2CALLBACKS","PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices]","ddrawint/DD_MISCELLANEOUS2CALLBACKS","ddrawint/PDD_MISCELLANEOUS2CALLBACKS","ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml","display.dd_miscellaneous2callbacks"]
 old-location: display\dd_miscellaneous2callbacks.htm
 tech.root: display
 ms.assetid: bb3e91c0-5399-4760-a12e-0a47f0fbd2f9

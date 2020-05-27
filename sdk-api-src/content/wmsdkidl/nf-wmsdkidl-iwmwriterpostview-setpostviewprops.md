@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewProps
 title: IWMWriterPostView::SetPostViewProps (wmsdkidl.h)
-description: The SetPostViewProps method specifies the format for the specified output stream.helpviewer_keywords: ["IWMWriterPostView interface [windows Media Format]","SetPostViewProps method","IWMWriterPostView.SetPostViewProps","IWMWriterPostView::SetPostViewProps","IWMWriterPostViewSetPostViewProps","SetPostViewProps","SetPostViewProps method [windows Media Format]","SetPostViewProps method [windows Media Format]","IWMWriterPostView interface","wmformat.iwmwriterpostview_setpostviewprops","wmsdkidl/IWMWriterPostView::SetPostViewProps"]
+description: The SetPostViewProps method specifies the format for the specified output stream.
+helpviewer_keywords: ["IWMWriterPostView interface [windows Media Format]","SetPostViewProps method","IWMWriterPostView.SetPostViewProps","IWMWriterPostView::SetPostViewProps","IWMWriterPostViewSetPostViewProps","SetPostViewProps","SetPostViewProps method [windows Media Format]","SetPostViewProps method [windows Media Format]","IWMWriterPostView interface","wmformat.iwmwriterpostview_setpostviewprops","wmsdkidl/IWMWriterPostView::SetPostViewProps"]
 old-location: wmformat\iwmwriterpostview_setpostviewprops.htm
 tech.root: wmformat
 ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.IsDBCSLeadByteEx
 title: IsDBCSLeadByteEx function (winnls.h)
-description: Determines if a specified character is potentially a lead byte. A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_THREAD_ACP","IsDBCSLeadByteEx","IsDBCSLeadByteEx function [Internationalization for Windows Applications]","_win32_IsDBCSLeadByteEx","intl.isdbcsleadbyteex","winnls/IsDBCSLeadByteEx"]
+description: Determines if a specified character is potentially a lead byte. A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.
+helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_THREAD_ACP","IsDBCSLeadByteEx","IsDBCSLeadByteEx function [Internationalization for Windows Applications]","_win32_IsDBCSLeadByteEx","intl.isdbcsleadbyteex","winnls/IsDBCSLeadByteEx"]
 old-location: intl\isdbcsleadbyteex.htm
 tech.root: Intl
 ms.assetid: 1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354

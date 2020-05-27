@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2AngleBetweenNormalsEst
 title: XMVector2AngleBetweenNormalsEst function (directxmath.h)
-description: Estimates the radian angle between two normalized 2D vectors.helpviewer_keywords: ["Use DirectX..XMVector2AngleBetweenNormalsEst","XMVector2AngleBetweenNormalsEst","XMVector2AngleBetweenNormalsEst method [DirectX Math Support APIs]","dxmath.xmvector2anglebetweennormalsest"]
+description: Estimates the radian angle between two normalized 2D vectors.
+helpviewer_keywords: ["Use DirectX..XMVector2AngleBetweenNormalsEst","XMVector2AngleBetweenNormalsEst","XMVector2AngleBetweenNormalsEst method [DirectX Math Support APIs]","dxmath.xmvector2anglebetweennormalsest"]
 old-location: dxmath\xmvector2anglebetweennormalsest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2AngleBetweenNormalsEst(XMVECTOR,XMVECTOR)

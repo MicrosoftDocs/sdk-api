@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationPatternHandler
 title: IUIAutomationPatternHandler (uiautomationcore.h)
-description: Returns a client API wrapper object and to unmarshal property and method requests to an actual provider instance.helpviewer_keywords: ["IUIAutomationPatternHandler","IUIAutomationPatternHandler interface [Windows Accessibility]","IUIAutomationPatternHandler interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationPatternHandler","uiauto_IUIAutomationPatternHandler","uiautomationcore/IUIAutomationPatternHandler","winauto.uiauto_IUIAutomationPatternHandler"]
+description: Returns a client API wrapper object and to unmarshal property and method requests to an actual provider instance.
+helpviewer_keywords: ["IUIAutomationPatternHandler","IUIAutomationPatternHandler interface [Windows Accessibility]","IUIAutomationPatternHandler interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationPatternHandler","uiauto_IUIAutomationPatternHandler","uiautomationcore/IUIAutomationPatternHandler","winauto.uiauto_IUIAutomationPatternHandler"]
 old-location: winauto\uiauto_IUIAutomationPatternHandler.htm
 tech.root: WinAuto
 ms.assetid: 6d0edd8e-3fd4-47d6-ab53-582eb81f38bd

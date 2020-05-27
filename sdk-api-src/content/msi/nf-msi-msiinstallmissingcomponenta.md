@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiInstallMissingComponentA
 title: MsiInstallMissingComponentA function (msi.h)
-description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.helpviewer_keywords: ["INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiInstallMissingComponent","MsiInstallMissingComponent function","MsiInstallMissingComponentA","MsiInstallMissingComponentW","_msi_msiinstallmissingcomponent","msi/MsiInstallMissingComponent","msi/MsiInstallMissingComponentA","msi/MsiInstallMissingComponentW","setup.msiinstallmissingcomponent"]
+description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
+helpviewer_keywords: ["INSTALLSTATE_DEFAULT","INSTALLSTATE_LOCAL","INSTALLSTATE_SOURCE","MsiInstallMissingComponent","MsiInstallMissingComponent function","MsiInstallMissingComponentA","MsiInstallMissingComponentW","_msi_msiinstallmissingcomponent","msi/MsiInstallMissingComponent","msi/MsiInstallMissingComponentA","msi/MsiInstallMissingComponentW","setup.msiinstallmissingcomponent"]
 old-location: setup\msiinstallmissingcomponent.htm
 tech.root: Msi
 ms.assetid: 81b44b77-e972-409c-b933-8fcae8887266

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3TransformCoord
 title: XMVector3TransformCoord function (directxmath.h)
-description: Transforms a 3D vector by a given matrix, projecting the result back into w = 1.helpviewer_keywords: ["Use DirectX..XMVector3TransformCoord","XMVector3TransformCoord","XMVector3TransformCoord method [DirectX Math Support APIs]","dxmath.xmvector3transformcoord"]
+description: Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
+helpviewer_keywords: ["Use DirectX..XMVector3TransformCoord","XMVector3TransformCoord","XMVector3TransformCoord method [DirectX Math Support APIs]","dxmath.xmvector3transformcoord"]
 old-location: dxmath\xmvector3transformcoord.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformCoord(XMVECTOR,XMMATRIX)

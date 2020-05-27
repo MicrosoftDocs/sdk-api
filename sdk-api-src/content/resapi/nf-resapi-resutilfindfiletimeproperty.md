@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilFindFileTimeProperty
 title: ResUtilFindFileTimeProperty function (resapi.h)
-description: TBD. The PRESUTIL_FIND_FILETIME_PROPERTY type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_FIND_FILETIME_PROPERTY","PRESUTIL_FIND_FILETIME_PROPERTY function [Failover Cluster]","ResUtilFindFileTimeProperty","ResUtilFindFileTimeProperty function [Failover Cluster]","mscs.resutilfindfiletimeproperty","resapi/PRESUTIL_FIND_FILETIME_PROPERTY","resapi/ResUtilFindFileTimeProperty"]
+description: TBD. The PRESUTIL_FIND_FILETIME_PROPERTY type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_FIND_FILETIME_PROPERTY","PRESUTIL_FIND_FILETIME_PROPERTY function [Failover Cluster]","ResUtilFindFileTimeProperty","ResUtilFindFileTimeProperty function [Failover Cluster]","mscs.resutilfindfiletimeproperty","resapi/PRESUTIL_FIND_FILETIME_PROPERTY","resapi/ResUtilFindFileTimeProperty"]
 old-location: mscs\resutilfindfiletimeproperty.htm
 tech.root: MsCS
 ms.assetid: 089a7016-47bd-4878-81e6-8854e24b9220

@@ -1,7 +1,8 @@
 ---
 UID: NC:winuser.PROPENUMPROCW
 title: PROPENUMPROCW (winuser.h)
-description: An application-defined callback function used with the EnumProps function.helpviewer_keywords: ["PropEnumProc","PropEnumProc callback","PropEnumProc callback function [Windows and Messages]","PropEnumProcA","PropEnumProcW","_win32_PropEnumProc","_win32_propenumproc_cpp","winmsg.propenumproc","winui._win32_propenumproc","winuser/PropEnumProc","winuser/PropEnumProcA","winuser/PropEnumProcW"]
+description: An application-defined callback function used with the EnumProps function.
+helpviewer_keywords: ["PropEnumProc","PropEnumProc callback","PropEnumProc callback function [Windows and Messages]","PropEnumProcA","PropEnumProcW","_win32_PropEnumProc","_win32_propenumproc_cpp","winmsg.propenumproc","winui._win32_propenumproc","winuser/PropEnumProc","winuser/PropEnumProcA","winuser/PropEnumProcW"]
 old-location: winmsg\propenumproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\propenumproc.htm

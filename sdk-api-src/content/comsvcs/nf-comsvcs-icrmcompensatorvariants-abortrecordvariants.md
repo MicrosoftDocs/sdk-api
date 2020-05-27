@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.AbortRecordVariants
 title: ICrmCompensatorVariants::AbortRecordVariants (comsvcs.h)
-description: Delivers a log record to the CRM Compensator during the abort phase.helpviewer_keywords: ["AbortRecordVariants","AbortRecordVariants method [COM+]","AbortRecordVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","AbortRecordVariants method","ICrmCompensatorVariants.AbortRecordVariants","ICrmCompensatorVariants::AbortRecordVariants","_dtc_ICrmCompensatorVariants_AbortRecordVariants","comsvcs/ICrmCompensatorVariants::AbortRecordVariants","cos.icrmcompensatorvariants_abortrecordvariants"]
+description: Delivers a log record to the CRM Compensator during the abort phase.
+helpviewer_keywords: ["AbortRecordVariants","AbortRecordVariants method [COM+]","AbortRecordVariants method [COM+]","ICrmCompensatorVariants interface","ICrmCompensatorVariants interface [COM+]","AbortRecordVariants method","ICrmCompensatorVariants.AbortRecordVariants","ICrmCompensatorVariants::AbortRecordVariants","_dtc_ICrmCompensatorVariants_AbortRecordVariants","comsvcs/ICrmCompensatorVariants::AbortRecordVariants","cos.icrmcompensatorvariants_abortrecordvariants"]
 old-location: cos\icrmcompensatorvariants_abortrecordvariants.htm
 tech.root: cossdk
 ms.assetid: a1ea366d-f3c6-4987-9f5b-32e3dd3e5d12

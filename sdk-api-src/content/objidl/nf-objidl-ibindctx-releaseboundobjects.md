@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IBindCtx.ReleaseBoundObjects
 title: IBindCtx::ReleaseBoundObjects (objidl.h)
-description: Releases all pointers to all objects that were previously registered by calls to RegisterObjectBound.helpviewer_keywords: ["IBindCtx interface [COM]","ReleaseBoundObjects method","IBindCtx.ReleaseBoundObjects","IBindCtx::ReleaseBoundObjects","ReleaseBoundObjects","ReleaseBoundObjects method [COM]","ReleaseBoundObjects method [COM]","IBindCtx interface","_com_ibindctx_releaseboundobjects","com.ibindctx_releaseboundobjects","objidl/IBindCtx::ReleaseBoundObjects"]
+description: Releases all pointers to all objects that were previously registered by calls to RegisterObjectBound.
+helpviewer_keywords: ["IBindCtx interface [COM]","ReleaseBoundObjects method","IBindCtx.ReleaseBoundObjects","IBindCtx::ReleaseBoundObjects","ReleaseBoundObjects","ReleaseBoundObjects method [COM]","ReleaseBoundObjects method [COM]","IBindCtx interface","_com_ibindctx_releaseboundobjects","com.ibindctx_releaseboundobjects","objidl/IBindCtx::ReleaseBoundObjects"]
 old-location: com\ibindctx_releaseboundobjects.htm
 tech.root: com
 ms.assetid: 12107633-6e7f-4d41-8e5c-5739cff98552

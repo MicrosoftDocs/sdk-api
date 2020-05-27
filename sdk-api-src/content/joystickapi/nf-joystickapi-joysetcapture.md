@@ -1,7 +1,8 @@
 ---
 UID: NF:joystickapi.joySetCapture
 title: joySetCapture function (joystickapi.h)
-description: The joySetCapture function captures a joystick by causing its messages to be sent to the specified window.helpviewer_keywords: ["_win32_joySetCapture","joySetCapture","joySetCapture function [Windows Multimedia]","joystickapi/joySetCapture","multimedia.joysetcapture"]
+description: The joySetCapture function captures a joystick by causing its messages to be sent to the specified window.
+helpviewer_keywords: ["_win32_joySetCapture","joySetCapture","joySetCapture function [Windows Multimedia]","joystickapi/joySetCapture","multimedia.joysetcapture"]
 old-location: multimedia\joysetcapture.htm
 tech.root: Multimedia
 ms.assetid: d4511c2c-54b3-48f5-aa30-e198292a4728

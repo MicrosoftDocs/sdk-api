@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.EnumStorage
 title: IWMDMStorage::EnumStorage (mswmdm.h)
-description: The EnumStorage method retrieves an IWMDMEnumStorage interface to enumerate the immediate child storages of the current storage.helpviewer_keywords: ["EnumStorage","EnumStorage method [windows Media Device Manager]","EnumStorage method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","EnumStorage method","IWMDMStorage.EnumStorage","IWMDMStorage::EnumStorage","IWMDMStorageEnumStorage","mswmdm/IWMDMStorage::EnumStorage","wmdm.iwmdmstorage_enumstorage"]
+description: The EnumStorage method retrieves an IWMDMEnumStorage interface to enumerate the immediate child storages of the current storage.
+helpviewer_keywords: ["EnumStorage","EnumStorage method [windows Media Device Manager]","EnumStorage method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","EnumStorage method","IWMDMStorage.EnumStorage","IWMDMStorage::EnumStorage","IWMDMStorageEnumStorage","mswmdm/IWMDMStorage::EnumStorage","wmdm.iwmdmstorage_enumstorage"]
 old-location: wmdm\iwmdmstorage_enumstorage.htm
 tech.root: WMDM
 ms.assetid: ab3c6a17-5a86-419b-b528-fd0db718de8f

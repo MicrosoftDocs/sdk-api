@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.GetProvider
 title: IVdsSubSystem::GetProvider (vdshwprv.h)
-description: Returns the provider that manages the subsystem.helpviewer_keywords: ["GetProvider","GetProvider method [VDS]","GetProvider method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","GetProvider method","IVdsSubSystem.GetProvider","IVdsSubSystem::GetProvider","base.ivdssubsystem_getprovider","vds/IVdsSubSystem::GetProvider","vdshwprv/IVdsSubSystem::GetProvider"]
+description: Returns the provider that manages the subsystem.
+helpviewer_keywords: ["GetProvider","GetProvider method [VDS]","GetProvider method [VDS]","IVdsSubSystem interface","IVdsSubSystem interface [VDS]","GetProvider method","IVdsSubSystem.GetProvider","IVdsSubSystem::GetProvider","base.ivdssubsystem_getprovider","vds/IVdsSubSystem::GetProvider","vdshwprv/IVdsSubSystem::GetProvider"]
 old-location: base\ivdssubsystem_getprovider.htm
 tech.root: VDS
 ms.assetid: 317e4aa3-2635-4e1b-af2d-ad7c6170bf33

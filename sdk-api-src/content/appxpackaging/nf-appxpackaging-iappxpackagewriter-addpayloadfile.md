@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter.AddPayloadFile
 title: IAppxPackageWriter::AddPayloadFile (appxpackaging.h)
-description: Adds a new payload file to the app package.helpviewer_keywords: ["AddPayloadFile","AddPayloadFile method [App packaging and management]","AddPayloadFile method [App packaging and management]","IAppxPackageWriter interface","IAppxPackageWriter interface [App packaging and management]","AddPayloadFile method","IAppxPackageWriter.AddPayloadFile","IAppxPackageWriter::AddPayloadFile","appxpackaging/IAppxPackageWriter::AddPayloadFile","appxpkg.iappxpackagewriter_addpayloadfile"]
+description: Adds a new payload file to the app package.
+helpviewer_keywords: ["AddPayloadFile","AddPayloadFile method [App packaging and management]","AddPayloadFile method [App packaging and management]","IAppxPackageWriter interface","IAppxPackageWriter interface [App packaging and management]","AddPayloadFile method","IAppxPackageWriter.AddPayloadFile","IAppxPackageWriter::AddPayloadFile","appxpackaging/IAppxPackageWriter::AddPayloadFile","appxpkg.iappxpackagewriter_addpayloadfile"]
 old-location: appxpkg\iappxpackagewriter_addpayloadfile.htm
 tech.root: appxpkg
 ms.assetid: 2BFC725A-CD56-46CA-983A-FD1BFB6CB474

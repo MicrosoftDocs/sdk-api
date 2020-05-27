@@ -1,7 +1,8 @@
 ---
 UID: NE:fhcfg._FH_RETENTION_TYPES
 title: FH_RETENTION_TYPES (fhcfg.h)
-description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.helpviewer_keywords: ["FH_RETENTION_AGE_BASED","FH_RETENTION_DISABLED","FH_RETENTION_TYPES","FH_RETENTION_TYPES enumeration [Windows API]","FH_RETENTION_UNLIMITED","MAX_RETENTION_TYPE","fhcfg/FH_RETENTION_AGE_BASED","fhcfg/FH_RETENTION_DISABLED","fhcfg/FH_RETENTION_TYPES","fhcfg/FH_RETENTION_UNLIMITED","fhcfg/MAX_RETENTION_TYPE","winprog.fh_retention_types"]
+description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.
+helpviewer_keywords: ["FH_RETENTION_AGE_BASED","FH_RETENTION_DISABLED","FH_RETENTION_TYPES","FH_RETENTION_TYPES enumeration [Windows API]","FH_RETENTION_UNLIMITED","MAX_RETENTION_TYPE","fhcfg/FH_RETENTION_AGE_BASED","fhcfg/FH_RETENTION_DISABLED","fhcfg/FH_RETENTION_TYPES","fhcfg/FH_RETENTION_UNLIMITED","fhcfg/MAX_RETENTION_TYPE","winprog.fh_retention_types"]
 old-location: winprog\fh_retention_types.htm
 tech.root: DevNotes
 ms.assetid: B80EC7BF-1825-462C-ACE3-5163C14EE15D

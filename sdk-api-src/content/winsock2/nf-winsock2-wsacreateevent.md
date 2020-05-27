@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSACreateEvent
 title: WSACreateEvent function (winsock2.h)
-description: The WSACreateEvent function creates a new event object.helpviewer_keywords: ["WSACreateEvent","WSACreateEvent function [Winsock]","_win32_wsacreateevent_2","winsock.wsacreateevent_2","winsock2/WSACreateEvent"]
+description: The WSACreateEvent function creates a new event object.
+helpviewer_keywords: ["WSACreateEvent","WSACreateEvent function [Winsock]","_win32_wsacreateevent_2","winsock.wsacreateevent_2","winsock2/WSACreateEvent"]
 old-location: winsock\wsacreateevent_2.htm
 tech.root: WinSock
 ms.assetid: cff3bc31-f34c-4bb2-9004-5ec31d0a704a

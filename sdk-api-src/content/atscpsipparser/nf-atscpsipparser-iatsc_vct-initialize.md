@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.Initialize
 title: IATSC_VCT::Initialize (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IATSC_VCT interface [Microsoft TV Technologies]","Initialize method","IATSC_VCT.Initialize","IATSC_VCT::Initialize","IATSC_VCTInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IATSC_VCT interface","atscpsipparser/IATSC_VCT::Initialize","mstv.iatsc_vct_initialize"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IATSC_VCT interface [Microsoft TV Technologies]","Initialize method","IATSC_VCT.Initialize","IATSC_VCT::Initialize","IATSC_VCTInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IATSC_VCT interface","atscpsipparser/IATSC_VCT::Initialize","mstv.iatsc_vct_initialize"]
 old-location: mstv\iatsc_vct_initialize.htm
 tech.root: mstv
 ms.assetid: 9a127b94-7591-47b4-b631-50a347b540c6

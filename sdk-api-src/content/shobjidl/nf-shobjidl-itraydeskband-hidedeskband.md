@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.HideDeskBand
 title: ITrayDeskBand::HideDeskBand (shobjidl.h)
-description: Hides a specified deskband.helpviewer_keywords: ["HideDeskBand","HideDeskBand method [Windows Shell]","HideDeskBand method [Windows Shell]","ITrayDeskBand interface","ITrayDeskBand interface [Windows Shell]","HideDeskBand method","ITrayDeskBand.HideDeskBand","ITrayDeskBand::HideDeskBand","_shell_ITrayDeskBand_HideDeskBand","shell.ITrayDeskBand_HideDeskBand","shobjidl/ITrayDeskBand::HideDeskBand"]
+description: Hides a specified deskband.
+helpviewer_keywords: ["HideDeskBand","HideDeskBand method [Windows Shell]","HideDeskBand method [Windows Shell]","ITrayDeskBand interface","ITrayDeskBand interface [Windows Shell]","HideDeskBand method","ITrayDeskBand.HideDeskBand","ITrayDeskBand::HideDeskBand","_shell_ITrayDeskBand_HideDeskBand","shell.ITrayDeskBand_HideDeskBand","shobjidl/ITrayDeskBand::HideDeskBand"]
 old-location: shell\ITrayDeskBand_HideDeskBand.htm
 tech.root: shell
 ms.assetid: 586ead4b-94fe-4da1-b78e-d4f1c61b9ee2

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.StartNewDocument
 title: IXpsOMPackageWriter::StartNewDocument (xpsobjectmodel.h)
-description: Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.helpviewer_keywords: ["IXpsOMPackageWriter interface [XPS Documents and Packaging]","StartNewDocument method","IXpsOMPackageWriter.StartNewDocument","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","StartNewDocument method","IXpsOMPackageWriter3D::StartNewDocument","IXpsOMPackageWriter::StartNewDocument","StartNewDocument","StartNewDocument method [XPS Documents and Packaging]","StartNewDocument method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","StartNewDocument method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","xps.ixpsompackagewriter_startnewdocument","xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument","xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument"]
+description: Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
+helpviewer_keywords: ["IXpsOMPackageWriter interface [XPS Documents and Packaging]","StartNewDocument method","IXpsOMPackageWriter.StartNewDocument","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","StartNewDocument method","IXpsOMPackageWriter3D::StartNewDocument","IXpsOMPackageWriter::StartNewDocument","StartNewDocument","StartNewDocument method [XPS Documents and Packaging]","StartNewDocument method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","StartNewDocument method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","xps.ixpsompackagewriter_startnewdocument","xpsobjectmodel/IXpsOMPackageWriter3D::StartNewDocument","xpsobjectmodel/IXpsOMPackageWriter::StartNewDocument"]
 old-location: xps\ixpsompackagewriter_startnewdocument.htm
 tech.root: printdocs
 ms.assetid: da5fdbcd-ff3c-403a-a565-1590908cf333

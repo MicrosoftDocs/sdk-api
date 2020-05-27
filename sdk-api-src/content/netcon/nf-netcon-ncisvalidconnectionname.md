@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.NcIsValidConnectionName
 title: NcIsValidConnectionName function (netcon.h)
-description: The NcIsValidConnectionName function verifies if the passed in connection name is valid.helpviewer_keywords: ["NcIsValidConnectionName","NcIsValidConnectionName function [ICS/ICF]","ics.ncisvalidconnectionname","netcon/NcIsValidConnectionName"]
+description: The NcIsValidConnectionName function verifies if the passed in connection name is valid.
+helpviewer_keywords: ["NcIsValidConnectionName","NcIsValidConnectionName function [ICS/ICF]","ics.ncisvalidconnectionname","netcon/NcIsValidConnectionName"]
 old-location: ics\ncisvalidconnectionname.htm
 tech.root: ics
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560

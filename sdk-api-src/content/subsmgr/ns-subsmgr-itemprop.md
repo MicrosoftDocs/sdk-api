@@ -1,7 +1,8 @@
 ---
 UID: NS:subsmgr._tagITEMPROP
 title: ITEMPROP (subsmgr.h)
-description: Stores information about properties in the Windows Property System, and is used by the IItemPropertyBag interface.helpviewer_keywords: ["*LPITEMPROP","ITEMPROP","ITEMPROP structure [search]","PITEMPROP","PITEMPROP structure pointer [search]","search.itemprop","subsmgr/ITEMPROP","subsmgr/PITEMPROP"]
+description: Stores information about properties in the Windows Property System, and is used by the IItemPropertyBag interface.
+helpviewer_keywords: ["*LPITEMPROP","ITEMPROP","ITEMPROP structure [search]","PITEMPROP","PITEMPROP structure pointer [search]","search.itemprop","subsmgr/ITEMPROP","subsmgr/PITEMPROP"]
 old-location: search\itemprop.htm
 tech.root: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF

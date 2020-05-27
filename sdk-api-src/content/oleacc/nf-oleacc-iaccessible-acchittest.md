@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccessible.accHitTest
 title: IAccessible::accHitTest (oleacc.h)
-description: The IAccessible::accHitTest method retrieves the child element or child object that is displayed at a specific point on the screen.helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","accHitTest method","IAccessible.accHitTest","IAccessible::accHitTest","_msaa_IAccessible_accHitTest","accHitTest","accHitTest method [Windows Accessibility]","accHitTest method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__acchittest","oleacc/IAccessible::accHitTest","winauto.iaccessible_iaccessible__acchittest"]
+description: The IAccessible::accHitTest method retrieves the child element or child object that is displayed at a specific point on the screen.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","accHitTest method","IAccessible.accHitTest","IAccessible::accHitTest","_msaa_IAccessible_accHitTest","accHitTest","accHitTest method [Windows Accessibility]","accHitTest method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__acchittest","oleacc/IAccessible::accHitTest","winauto.iaccessible_iaccessible__acchittest"]
 old-location: winauto\iaccessible_iaccessible__acchittest.htm
 tech.root: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a

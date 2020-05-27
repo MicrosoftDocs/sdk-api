@@ -1,7 +1,8 @@
 ---
 UID: NS:keycredmgr.KeyCredentialManagerInfo
 title: KeyCredentialManagerInfo (keycredmgr.h)
-description: Data structure returned from KeyCredentialManagerGetInformation.helpviewer_keywords: ["KeyCredentialManagerInfo","KeyCredentialManagerInfo structure [Security]","PKeyCredentialManagerInfo","PKeyCredentialManagerInfo structure pointer [Security]","keycredmgr/KeyCredentialManagerInfo","keycredmgr/PKeyCredentialManagerInfo","security.keycredentialmanagerinfo"]
+description: Data structure returned from KeyCredentialManagerGetInformation.
+helpviewer_keywords: ["KeyCredentialManagerInfo","KeyCredentialManagerInfo structure [Security]","PKeyCredentialManagerInfo","PKeyCredentialManagerInfo structure pointer [Security]","keycredmgr/KeyCredentialManagerInfo","keycredmgr/PKeyCredentialManagerInfo","security.keycredentialmanagerinfo"]
 old-location: security\keycredentialmanagerinfo.htm
 tech.root: SecAuthN
 ms.assetid: BF573834-FA5A-4ADE-9E19-389B1A15A1F8

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.GetHostNameW
 title: GetHostNameW function (winsock2.h)
-description: The GetHostNameW function retrieves the standard host name for the local computer as a Unicode string.helpviewer_keywords: ["GetHostNameW","GetHostNameW function [Winsock]","winsock.gethostnamew","winsock2/GetHostNameW"]
+description: The GetHostNameW function retrieves the standard host name for the local computer as a Unicode string.
+helpviewer_keywords: ["GetHostNameW","GetHostNameW function [Winsock]","winsock.gethostnamew","winsock2/GetHostNameW"]
 old-location: winsock\gethostnamew.htm
 tech.root: WinSock
 ms.assetid: 787EB209-5944-4F0A-8550-FE1115C2298A

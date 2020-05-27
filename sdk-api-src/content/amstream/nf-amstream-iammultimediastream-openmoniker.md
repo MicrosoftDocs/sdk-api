@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.OpenMoniker
 title: IAMMultiMediaStream::OpenMoniker (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The OpenMoniker method opens a file or device moniker; you can read media data from this moniker if DirectShow supports the moniker.helpviewer_keywords: ["IAMMultiMediaStream interface [DirectShow]","OpenMoniker method","IAMMultiMediaStream.OpenMoniker","IAMMultiMediaStream::OpenMoniker","IAMMultiMediaStreamOpenMoniker","OpenMoniker","OpenMoniker method [DirectShow]","OpenMoniker method [DirectShow]","IAMMultiMediaStream interface","amstream/IAMMultiMediaStream::OpenMoniker","dshow.iammultimediastream_openmoniker"]
+description: Note  This interface is deprecated. New applications should not use it. The OpenMoniker method opens a file or device moniker; you can read media data from this moniker if DirectShow supports the moniker.
+helpviewer_keywords: ["IAMMultiMediaStream interface [DirectShow]","OpenMoniker method","IAMMultiMediaStream.OpenMoniker","IAMMultiMediaStream::OpenMoniker","IAMMultiMediaStreamOpenMoniker","OpenMoniker","OpenMoniker method [DirectShow]","OpenMoniker method [DirectShow]","IAMMultiMediaStream interface","amstream/IAMMultiMediaStream::OpenMoniker","dshow.iammultimediastream_openmoniker"]
 old-location: dshow\iammultimediastream_openmoniker.htm
 tech.root: DirectShow
 ms.assetid: ccfed197-6637-4283-9996-56049da49b84

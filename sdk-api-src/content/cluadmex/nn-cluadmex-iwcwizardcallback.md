@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IWCWizardCallback
 title: IWCWizardCallback (cluadmex.h)
-description: The IWCWizardCallback interface is called by a Failover Cluster Administrator extension to add a property page to a Failover Cluster Administrator Wizard and to manage navigation.helpviewer_keywords: ["IWCWizardCallback","IWCWizardCallback interface [Failover Cluster]","IWCWizardCallback interface [Failover Cluster]","described","_wolf_iwcwizardcallback","cluadmex/IWCWizardCallback","mscs.iwcwizardcallback"]
+description: The IWCWizardCallback interface is called by a Failover Cluster Administrator extension to add a property page to a Failover Cluster Administrator Wizard and to manage navigation.
+helpviewer_keywords: ["IWCWizardCallback","IWCWizardCallback interface [Failover Cluster]","IWCWizardCallback interface [Failover Cluster]","described","_wolf_iwcwizardcallback","cluadmex/IWCWizardCallback","mscs.iwcwizardcallback"]
 old-location: mscs\iwcwizardcallback.htm
 tech.root: MsCS
 ms.assetid: 0d5f45c4-6091-4ea4-875a-69be7f1258db

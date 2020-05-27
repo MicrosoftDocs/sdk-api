@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.SpImportSecurityContextFn
 title: SpImportSecurityContextFn (ntsecpkg.h)
-description: Imports a security context from another process.helpviewer_keywords: ["SpImportSecurityContext","SpImportSecurityContext callback function [Security]","SpImportSecurityContextFn","SpImportSecurityContextFn callback","_ssp_spimportsecuritycontext","ntsecpkg/SpImportSecurityContext","security.spimportsecuritycontext"]
+description: Imports a security context from another process.
+helpviewer_keywords: ["SpImportSecurityContext","SpImportSecurityContext callback function [Security]","SpImportSecurityContextFn","SpImportSecurityContextFn callback","_ssp_spimportsecuritycontext","ntsecpkg/SpImportSecurityContext","security.spimportsecuritycontext"]
 old-location: security\spimportsecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: f3a9427b-37f0-464a-9f67-3b4e09597a98

@@ -1,7 +1,8 @@
 ---
 UID: NF:batclass.BatteryClassIoctl
 title: BatteryClassIoctl function (batclass.h)
-description: BatteryClassIoctl handles system-defined battery IOCTLs.helpviewer_keywords: ["BatteryClassIoctl","BatteryClassIoctl function [Battery Devices]","bat-rtn_bb0fcbcf-a26f-4f06-9f28-40bdc55b9d61.xml","batclass/BatteryClassIoctl","battery.batteryclassioctl"]
+description: BatteryClassIoctl handles system-defined battery IOCTLs.
+helpviewer_keywords: ["BatteryClassIoctl","BatteryClassIoctl function [Battery Devices]","bat-rtn_bb0fcbcf-a26f-4f06-9f28-40bdc55b9d61.xml","batclass/BatteryClassIoctl","battery.batteryclassioctl"]
 old-location: battery\batteryclassioctl.htm
 tech.root: battery
 ms.assetid: 8208552a-42a3-414f-849c-2bb0086c9f80

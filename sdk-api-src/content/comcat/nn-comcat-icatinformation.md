@@ -1,7 +1,8 @@
 ---
 UID: NN:comcat.ICatInformation
 title: ICatInformation (comcat.h)
-description: Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.helpviewer_keywords: ["ICatInformation","ICatInformation interface [COM]","ICatInformation interface [COM]","described","_com_icatinformation","com.icatinformation","comcat/ICatInformation"]
+description: Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.
+helpviewer_keywords: ["ICatInformation","ICatInformation interface [COM]","ICatInformation interface [COM]","described","_com_icatinformation","com.icatinformation","comcat/ICatInformation"]
 old-location: com\icatinformation.htm
 tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0

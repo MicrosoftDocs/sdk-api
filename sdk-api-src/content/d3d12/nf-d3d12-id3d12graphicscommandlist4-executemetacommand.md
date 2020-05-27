@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.ExecuteMetaCommand
 title: ID3D12GraphicsCommandList4::ExecuteMetaCommand (d3d12.h)
-description: Records the execution (or invocation) of the specified meta command into a graphics command list.helpviewer_keywords: ["ExecuteMetaCommand","ExecuteMetaCommand method","ExecuteMetaCommand method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","ExecuteMetaCommand method","ID3D12GraphicsCommandList4.ExecuteMetaCommand","ID3D12GraphicsCommandList4::ExecuteMetaCommand","d3d12/ID3D12GraphicsCommandList4::ExecuteMetaCommand","direct3d12.id3d12graphicscommandlist4_executemetacommand"]
+description: Records the execution (or invocation) of the specified meta command into a graphics command list.
+helpviewer_keywords: ["ExecuteMetaCommand","ExecuteMetaCommand method","ExecuteMetaCommand method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","ExecuteMetaCommand method","ID3D12GraphicsCommandList4.ExecuteMetaCommand","ID3D12GraphicsCommandList4::ExecuteMetaCommand","d3d12/ID3D12GraphicsCommandList4::ExecuteMetaCommand","direct3d12.id3d12graphicscommandlist4_executemetacommand"]
 old-location: direct3d12\id3d12graphicscommandlist4_executemetacommand.htm
 tech.root: direct3d12
 ms.assetid: 208D3152-C0CA-40C4-A990-8815C69E73FB

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSelectDevice
 title: SetupDiSelectDevice function (setupapi.h)
-description: The SetupDiSelectDevice function is the default handler for the DIF_SELECTDEVICE request.helpviewer_keywords: ["SetupDiSelectDevice","SetupDiSelectDevice function [Device and Driver Installation]","devinst.setupdiselectdevice","di-rtns_0cbab99d-4106-4e25-81fc-68034d9f464d.xml","setupapi/SetupDiSelectDevice"]
+description: The SetupDiSelectDevice function is the default handler for the DIF_SELECTDEVICE request.
+helpviewer_keywords: ["SetupDiSelectDevice","SetupDiSelectDevice function [Device and Driver Installation]","devinst.setupdiselectdevice","di-rtns_0cbab99d-4106-4e25-81fc-68034d9f464d.xml","setupapi/SetupDiSelectDevice"]
 old-location: devinst\setupdiselectdevice.htm
 tech.root: devinst
 ms.assetid: c6a512ad-bcc6-4dc5-873e-33bdaab129e2

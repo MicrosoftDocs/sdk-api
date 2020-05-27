@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteAttribute
 title: WsWriteAttribute function (webservices.h)
-description: Write a typed value as an XML attribute.helpviewer_keywords: ["WsWriteAttribute","WsWriteAttribute function [Web Services for Windows]","webservices/WsWriteAttribute","wsw.wswriteattribute"]
+description: Write a typed value as an XML attribute.
+helpviewer_keywords: ["WsWriteAttribute","WsWriteAttribute function [Web Services for Windows]","webservices/WsWriteAttribute","wsw.wswriteattribute"]
 old-location: wsw\wswriteattribute.htm
 tech.root: wsw
 ms.assetid: d1c02344-f5b9-4a59-b1c2-2dfb41df5ce1

@@ -1,7 +1,8 @@
 ---
 UID: NF:fxsutility.SendToFaxRecipient
 title: SendToFaxRecipient function (fxsutility.h)
-description: Called by an application to fax a file.helpviewer_keywords: ["SendToFaxRecipient","SendToFaxRecipient function [Fax Service]","_mfax_sendtofaxrecipient","fax._mfax_sendtofaxrecipient","fxsutility/SendToFaxRecipient"]
+description: Called by an application to fax a file.
+helpviewer_keywords: ["SendToFaxRecipient","SendToFaxRecipient function [Fax Service]","_mfax_sendtofaxrecipient","fax._mfax_sendtofaxrecipient","fxsutility/SendToFaxRecipient"]
 old-location: fax\_mfax_sendtofaxrecipient.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.htm

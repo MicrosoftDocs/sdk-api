@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetWriteFile
 title: InternetWriteFile function (wininet.h)
-description: Writes data to an open Internet file.helpviewer_keywords: ["InternetWriteFile","InternetWriteFile function [WinINet]","_inet_internetwritefile_function","wininet.internetwritefile","wininet/InternetWriteFile"]
+description: Writes data to an open Internet file.
+helpviewer_keywords: ["InternetWriteFile","InternetWriteFile function [WinINet]","_inet_internetwritefile_function","wininet.internetwritefile","wininet/InternetWriteFile"]
 old-location: wininet\internetwritefile.htm
 tech.root: wininet
 ms.assetid: 3bf8d4d8-9193-4aed-acf9-8d7207b332a5

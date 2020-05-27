@@ -1,7 +1,8 @@
 ---
 UID: NF:comadmin.ICatalogObject.get_Key
 title: ICatalogObject::get_Key (comadmin.h)
-description: Retrieves the key property of the object.helpviewer_keywords: ["ICatalogObject interface [COM+]","Key property","ICatalogObject.Key","ICatalogObject.get_Key","ICatalogObject::Key","ICatalogObject::get_Key","Key property [COM+]","Key property [COM+]","ICatalogObject interface","_cos_ICatalogObject_get_Key","comadmin/ICatalogObject::Key","comadmin/ICatalogObject::get_Key","cos.icatalogobject_key","get_Key"]
+description: Retrieves the key property of the object.
+helpviewer_keywords: ["ICatalogObject interface [COM+]","Key property","ICatalogObject.Key","ICatalogObject.get_Key","ICatalogObject::Key","ICatalogObject::get_Key","Key property [COM+]","Key property [COM+]","ICatalogObject interface","_cos_ICatalogObject_get_Key","comadmin/ICatalogObject::Key","comadmin/ICatalogObject::get_Key","cos.icatalogobject_key","get_Key"]
 old-location: cos\icatalogobject_key.htm
 tech.root: cossdk
 ms.assetid: 1937cd5a-742f-4248-a4c2-0b39a03eed20

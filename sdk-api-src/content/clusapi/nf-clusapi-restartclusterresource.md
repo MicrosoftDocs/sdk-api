@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.RestartClusterResource
 title: RestartClusterResource function (clusapi.h)
-description: Restarts a cluster resource.helpviewer_keywords: ["PCLUSAPI_RESTART_CLUSTER_RESOURCE","PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster]","RestartClusterResource","RestartClusterResource function [Failover Cluster]","clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE","clusapi/RestartClusterResource","mscs.restartclusterresource"]
+description: Restarts a cluster resource.
+helpviewer_keywords: ["PCLUSAPI_RESTART_CLUSTER_RESOURCE","PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster]","RestartClusterResource","RestartClusterResource function [Failover Cluster]","clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE","clusapi/RestartClusterResource","mscs.restartclusterresource"]
 old-location: mscs\restartclusterresource.htm
 tech.root: MsCS
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92

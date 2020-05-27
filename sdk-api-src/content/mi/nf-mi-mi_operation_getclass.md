@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Operation_GetClass
 title: MI_Operation_GetClass function (mi.h)
-description: Gets a synchronous result for a class operation.helpviewer_keywords: ["MI_Operation_GetClass","MI_Operation_GetClass function [Windows Management Infrastructure (MI)]","mi/MI_Operation_GetClass","wmi_v2.mi_operation_getclass"]
+description: Gets a synchronous result for a class operation.
+helpviewer_keywords: ["MI_Operation_GetClass","MI_Operation_GetClass function [Windows Management Infrastructure (MI)]","mi/MI_Operation_GetClass","wmi_v2.mi_operation_getclass"]
 old-location: wmi_v2\mi_operation_getclass.htm
 tech.root: wmi_v2
 ms.assetid: f29f5a03-2b0b-4d36-97cb-f3b38f6037b3

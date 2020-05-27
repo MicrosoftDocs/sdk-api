@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.EndRenderPass
 title: ID3D12GraphicsCommandList4::EndRenderPass (d3d12.h)
-description: Marks the ending of a render pass.helpviewer_keywords: ["EndRenderPass","EndRenderPass method","EndRenderPass method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","EndRenderPass method","ID3D12GraphicsCommandList4.EndRenderPass","ID3D12GraphicsCommandList4::EndRenderPass","d3d12/ID3D12GraphicsCommandList4::EndRenderPass","direct3d12.id3d12graphicscommandlist4_endrenderpass"]
+description: Marks the ending of a render pass.
+helpviewer_keywords: ["EndRenderPass","EndRenderPass method","EndRenderPass method","ID3D12GraphicsCommandList4 interface","ID3D12GraphicsCommandList4 interface","EndRenderPass method","ID3D12GraphicsCommandList4.EndRenderPass","ID3D12GraphicsCommandList4::EndRenderPass","d3d12/ID3D12GraphicsCommandList4::EndRenderPass","direct3d12.id3d12graphicscommandlist4_endrenderpass"]
 old-location: direct3d12\id3d12graphicscommandlist4_endrenderpass.htm
 tech.root: direct3d12
 ms.assetid: 6CFF2A67-F2F0-41F8-8BEC-D52003DE2767

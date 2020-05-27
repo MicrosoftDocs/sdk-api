@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetGamma
 title: ImageAttributes::SetGamma (gdiplusimageattributes.h)
-description: The ImageAttributes::SetGamma method sets the gamma value for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetGamma method","ImageAttributes.SetGamma","ImageAttributes::SetGamma","SetGamma","SetGamma method [GDI+]","SetGamma method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_"]
+description: The ImageAttributes::SetGamma method sets the gamma value for a specified category.
+helpviewer_keywords: ["ImageAttributes class [GDI+]","SetGamma method","ImageAttributes.SetGamma","ImageAttributes::SetGamma","SetGamma","SetGamma method [GDI+]","SetGamma method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetGamma_gamma_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setgamma.htm

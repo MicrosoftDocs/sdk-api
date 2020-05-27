@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetVersion
 title: IWMProfile::GetVersion (wmsdkidl.h)
-description: The GetVersion method retrieves the version number of the Windows Media Format SDK used to create the profile.helpviewer_keywords: ["GetVersion","GetVersion method [windows Media Format]","GetVersion method [windows Media Format]","IWMProfile interface","GetVersion method [windows Media Format]","IWMProfile2 interface","GetVersion method [windows Media Format]","IWMProfile3 interface","IWMProfile interface [windows Media Format]","GetVersion method","IWMProfile.GetVersion","IWMProfile2 interface [windows Media Format]","GetVersion method","IWMProfile2::GetVersion","IWMProfile3 interface [windows Media Format]","GetVersion method","IWMProfile3::GetVersion","IWMProfile::GetVersion","IWMProfileGetVersion","wmformat.iwmprofile_getversion","wmsdkidl/IWMProfile2::GetVersion","wmsdkidl/IWMProfile3::GetVersion","wmsdkidl/IWMProfile::GetVersion"]
+description: The GetVersion method retrieves the version number of the Windows Media Format SDK used to create the profile.
+helpviewer_keywords: ["GetVersion","GetVersion method [windows Media Format]","GetVersion method [windows Media Format]","IWMProfile interface","GetVersion method [windows Media Format]","IWMProfile2 interface","GetVersion method [windows Media Format]","IWMProfile3 interface","IWMProfile interface [windows Media Format]","GetVersion method","IWMProfile.GetVersion","IWMProfile2 interface [windows Media Format]","GetVersion method","IWMProfile2::GetVersion","IWMProfile3 interface [windows Media Format]","GetVersion method","IWMProfile3::GetVersion","IWMProfile::GetVersion","IWMProfileGetVersion","wmformat.iwmprofile_getversion","wmsdkidl/IWMProfile2::GetVersion","wmsdkidl/IWMProfile3::GetVersion","wmsdkidl/IWMProfile::GetVersion"]
 old-location: wmformat\iwmprofile_getversion.htm
 tech.root: wmformat
 ms.assetid: 4f74378e-4b60-4b49-8107-26eebdfab02a

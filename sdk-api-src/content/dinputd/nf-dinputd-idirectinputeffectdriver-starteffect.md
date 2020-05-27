@@ -1,7 +1,8 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.StartEffect
 title: IDirectInputEffectDriver::StartEffect (dinputd.h)
-description: The IDirectInputEffectDriver::StartEffect method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning.helpviewer_keywords: ["IDirectInputEffectDriver interface [Human Input Devices]","StartEffect method","IDirectInputEffectDriver.StartEffect","IDirectInputEffectDriver::StartEffect","StartEffect","StartEffect method [Human Input Devices]","StartEffect method [Human Input Devices]","IDirectInputEffectDriver interface","di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml","dinputd/IDirectInputEffectDriver::StartEffect","hid.idirectinputeffectdriver_starteffect"]
+description: The IDirectInputEffectDriver::StartEffect method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning.
+helpviewer_keywords: ["IDirectInputEffectDriver interface [Human Input Devices]","StartEffect method","IDirectInputEffectDriver.StartEffect","IDirectInputEffectDriver::StartEffect","StartEffect","StartEffect method [Human Input Devices]","StartEffect method [Human Input Devices]","IDirectInputEffectDriver interface","di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml","dinputd/IDirectInputEffectDriver::StartEffect","hid.idirectinputeffectdriver_starteffect"]
 old-location: hid\idirectinputeffectdriver_starteffect.htm
 tech.root: hid
 ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f

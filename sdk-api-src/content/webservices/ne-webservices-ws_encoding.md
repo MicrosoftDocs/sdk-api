@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_15
 title: WS_ENCODING (webservices.h)
-description: The different encodings (message formats).helpviewer_keywords: ["WS_ENCODING","WS_ENCODING enumeration [Web Services for Windows]","WS_ENCODING_XML_BINARY_1","WS_ENCODING_XML_BINARY_SESSION_1","WS_ENCODING_XML_MTOM_UTF16BE","WS_ENCODING_XML_MTOM_UTF16LE","WS_ENCODING_XML_MTOM_UTF8","WS_ENCODING_XML_UTF16BE","WS_ENCODING_XML_UTF16LE","WS_ENCODING_XML_UTF8","webservices/WS_ENCODING","webservices/WS_ENCODING_XML_BINARY_1","webservices/WS_ENCODING_XML_BINARY_SESSION_1","webservices/WS_ENCODING_XML_MTOM_UTF16BE","webservices/WS_ENCODING_XML_MTOM_UTF16LE","webservices/WS_ENCODING_XML_MTOM_UTF8","webservices/WS_ENCODING_XML_UTF16BE","webservices/WS_ENCODING_XML_UTF16LE","webservices/WS_ENCODING_XML_UTF8","wsw.ws_encoding"]
+description: The different encodings (message formats).
+helpviewer_keywords: ["WS_ENCODING","WS_ENCODING enumeration [Web Services for Windows]","WS_ENCODING_XML_BINARY_1","WS_ENCODING_XML_BINARY_SESSION_1","WS_ENCODING_XML_MTOM_UTF16BE","WS_ENCODING_XML_MTOM_UTF16LE","WS_ENCODING_XML_MTOM_UTF8","WS_ENCODING_XML_UTF16BE","WS_ENCODING_XML_UTF16LE","WS_ENCODING_XML_UTF8","webservices/WS_ENCODING","webservices/WS_ENCODING_XML_BINARY_1","webservices/WS_ENCODING_XML_BINARY_SESSION_1","webservices/WS_ENCODING_XML_MTOM_UTF16BE","webservices/WS_ENCODING_XML_MTOM_UTF16LE","webservices/WS_ENCODING_XML_MTOM_UTF8","webservices/WS_ENCODING_XML_UTF16BE","webservices/WS_ENCODING_XML_UTF16LE","webservices/WS_ENCODING_XML_UTF8","wsw.ws_encoding"]
 old-location: wsw\ws_encoding.htm
 tech.root: wsw
 ms.assetid: 37858df7-ae76-41c1-8fd2-fc810b8927bf

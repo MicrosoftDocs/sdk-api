@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIDeactivate
 title: IOleInPlaceSite::OnUIDeactivate (oleidl.h)
-description: Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.helpviewer_keywords: ["IOleInPlaceSite interface [COM]","OnUIDeactivate method","IOleInPlaceSite.OnUIDeactivate","IOleInPlaceSite::OnUIDeactivate","IOleInPlaceSiteWindowless.OnUIDeactivate","OnUIDeactivate","OnUIDeactivate method [COM]","OnUIDeactivate method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_onuideactivate","com.ioleinplacesite_onuideactivate","oleidl/IOleInPlaceSite::OnUIDeactivate"]
+description: Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.
+helpviewer_keywords: ["IOleInPlaceSite interface [COM]","OnUIDeactivate method","IOleInPlaceSite.OnUIDeactivate","IOleInPlaceSite::OnUIDeactivate","IOleInPlaceSiteWindowless.OnUIDeactivate","OnUIDeactivate","OnUIDeactivate method [COM]","OnUIDeactivate method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_onuideactivate","com.ioleinplacesite_onuideactivate","oleidl/IOleInPlaceSite::OnUIDeactivate"]
 old-location: com\ioleinplacesite_onuideactivate.htm
 tech.root: com
 ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a

@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpCloseRequestQueue
 title: HttpCloseRequestQueue function (http.h)
-description: Closes the handle to the specified request queue created by HttpCreateRequestQueue.helpviewer_keywords: ["HttpCloseRequestQueue","HttpCloseRequestQueue function [HTTP]","http.httpcloserequestqueue","http/HttpCloseRequestQueue"]
+description: Closes the handle to the specified request queue created by HttpCreateRequestQueue.
+helpviewer_keywords: ["HttpCloseRequestQueue","HttpCloseRequestQueue function [HTTP]","http.httpcloserequestqueue","http/HttpCloseRequestQueue"]
 old-location: http\httpcloserequestqueue.htm
 tech.root: http
 ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1

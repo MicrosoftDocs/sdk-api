@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetIntVectorArray
 title: ID3D10EffectVectorVariable::GetIntVectorArray (d3d10effect.h)
-description: Get an array of four-component vectors that contain integer data.helpviewer_keywords: ["4e3ca029-17ed-c553-b92b-d01300a4477f","GetIntVectorArray","GetIntVectorArray method [Direct3D 10]","GetIntVectorArray method [Direct3D 10]","ID3D10EffectVectorVariable interface","ID3D10EffectVectorVariable interface [Direct3D 10]","GetIntVectorArray method","ID3D10EffectVectorVariable.GetIntVectorArray","ID3D10EffectVectorVariable::GetIntVectorArray","d3d10effect/ID3D10EffectVectorVariable::GetIntVectorArray","direct3d10.id3d10effectvectorvariable_getintvectorarray"]
+description: Get an array of four-component vectors that contain integer data.
+helpviewer_keywords: ["4e3ca029-17ed-c553-b92b-d01300a4477f","GetIntVectorArray","GetIntVectorArray method [Direct3D 10]","GetIntVectorArray method [Direct3D 10]","ID3D10EffectVectorVariable interface","ID3D10EffectVectorVariable interface [Direct3D 10]","GetIntVectorArray method","ID3D10EffectVectorVariable.GetIntVectorArray","ID3D10EffectVectorVariable::GetIntVectorArray","d3d10effect/ID3D10EffectVectorVariable::GetIntVectorArray","direct3d10.id3d10effectvectorvariable_getintvectorarray"]
 old-location: direct3d10\id3d10effectvectorvariable_getintvectorarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getintvectorarray.htm

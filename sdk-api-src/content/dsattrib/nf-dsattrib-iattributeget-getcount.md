@@ -1,7 +1,8 @@
 ---
 UID: NF:dsattrib.IAttributeGet.GetCount
 title: IAttributeGet::GetCount (dsattrib.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCount","GetCount method [Microsoft TV Technologies]","GetCount method [Microsoft TV Technologies]","IAttributeGet interface","IAttributeGet interface [Microsoft TV Technologies]","GetCount method","IAttributeGet.GetCount","IAttributeGet::GetCount","IAttributeGetGetCount","dsattrib/IAttributeGet::GetCount","mstv.iattributeget_getcount"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCount","GetCount method [Microsoft TV Technologies]","GetCount method [Microsoft TV Technologies]","IAttributeGet interface","IAttributeGet interface [Microsoft TV Technologies]","GetCount method","IAttributeGet.GetCount","IAttributeGet::GetCount","IAttributeGetGetCount","dsattrib/IAttributeGet::GetCount","mstv.iattributeget_getcount"]
 old-location: mstv\iattributeget_getcount.htm
 tech.root: mstv
 ms.assetid: 340a0a0d-26e9-4c63-8552-15f7c841c759

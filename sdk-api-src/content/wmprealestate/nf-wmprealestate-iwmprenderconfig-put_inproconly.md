@@ -1,7 +1,8 @@
 ---
 UID: NF:wmprealestate.IWMPRenderConfig.put_inProcOnly
 title: IWMPRenderConfig::put_inProcOnly (wmprealestate.h)
-description: The put_inProcOnly method specifies a value indicating whether playback is restricted to the current process.helpviewer_keywords: ["IWMPRenderConfig interface [Windows Media Player]","put_inProcOnly method","IWMPRenderConfig.put_inProcOnly","IWMPRenderConfig::put_inProcOnly","IWMPRenderConfigputInProcOnly","put_inProcOnly","put_inProcOnly method [Windows Media Player]","put_inProcOnly method [Windows Media Player]","IWMPRenderConfig interface","wmp.iwmprenderconfig_put_inproconly","wmprealestate/IWMPRenderConfig::put_inProcOnly"]
+description: The put_inProcOnly method specifies a value indicating whether playback is restricted to the current process.
+helpviewer_keywords: ["IWMPRenderConfig interface [Windows Media Player]","put_inProcOnly method","IWMPRenderConfig.put_inProcOnly","IWMPRenderConfig::put_inProcOnly","IWMPRenderConfigputInProcOnly","put_inProcOnly","put_inProcOnly method [Windows Media Player]","put_inProcOnly method [Windows Media Player]","IWMPRenderConfig interface","wmp.iwmprenderconfig_put_inproconly","wmprealestate/IWMPRenderConfig::put_inProcOnly"]
 old-location: wmp\iwmprenderconfig_put_inproconly.htm
 tech.root: WMP
 ms.assetid: fd7c7cbc-f428-46e1-b239-74b78cbf5835

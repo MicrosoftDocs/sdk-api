@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetMode
 title: ITargetInfo::GetTargetMode (wcmconfig.h)
-description: Gets the current target mode.helpviewer_keywords: ["GetTargetMode","GetTargetMode method [SMI]","GetTargetMode method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetTargetMode method","ITargetInfo.GetTargetMode","ITargetInfo::GetTargetMode","smi.itargetinfo_gettargetmode","wcmconfig/ITargetInfo::GetTargetMode"]
+description: Gets the current target mode.
+helpviewer_keywords: ["GetTargetMode","GetTargetMode method [SMI]","GetTargetMode method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetTargetMode method","ITargetInfo.GetTargetMode","ITargetInfo::GetTargetMode","smi.itargetinfo_gettargetmode","wcmconfig/ITargetInfo::GetTargetMode"]
 old-location: smi\itargetinfo_gettargetmode.htm
 tech.root: SMI
 ms.assetid: b21137a0-537f-43a4-857b-158a1642ea1c

@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IEGetDisplayName
 title: IBrowserService::IEGetDisplayName (shdeprecated.h)
-description: Deprecated. Retrieves the URL that corresponds to a pointer to an item identifier list (PIDL).helpviewer_keywords: ["IBrowserService interface [Windows Shell]","IEGetDisplayName method","IBrowserService.IEGetDisplayName","IBrowserService::IEGetDisplayName","IEGetDisplayName","IEGetDisplayName method [Windows Shell]","IEGetDisplayName method [Windows Shell]","IBrowserService interface","SHGDN_FORADDRESSBAR","SHGDN_FORPARSING","SHGDN_NORMAL","shdeprecated/IBrowserService::IEGetDisplayName","shell.IBrowserService_IEGetDisplayName","zone_IBrowserService_IEGetDisplayName"]
+description: Deprecated. Retrieves the URL that corresponds to a pointer to an item identifier list (PIDL).
+helpviewer_keywords: ["IBrowserService interface [Windows Shell]","IEGetDisplayName method","IBrowserService.IEGetDisplayName","IBrowserService::IEGetDisplayName","IEGetDisplayName","IEGetDisplayName method [Windows Shell]","IEGetDisplayName method [Windows Shell]","IBrowserService interface","SHGDN_FORADDRESSBAR","SHGDN_FORPARSING","SHGDN_NORMAL","shdeprecated/IBrowserService::IEGetDisplayName","shell.IBrowserService_IEGetDisplayName","zone_IBrowserService_IEGetDisplayName"]
 old-location: shell\IBrowserService_IEGetDisplayName.htm
 tech.root: shell
 ms.assetid: 012d794a-9823-4af2-b628-ad33a93dbbb5

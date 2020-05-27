@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncChangeWithPrerequisite
 title: ISyncChangeWithPrerequisite (winsync.h)
-description: Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.helpviewer_keywords: ["ISyncChangeWithPrerequisite","ISyncChangeWithPrerequisite interface [Windows Sync]","ISyncChangeWithPrerequisite interface [Windows Sync]","described","winsync.isyncchangewithprerequisite","winsync/ISyncChangeWithPrerequisite"]
+description: Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.
+helpviewer_keywords: ["ISyncChangeWithPrerequisite","ISyncChangeWithPrerequisite interface [Windows Sync]","ISyncChangeWithPrerequisite interface [Windows Sync]","described","winsync.isyncchangewithprerequisite","winsync/ISyncChangeWithPrerequisite"]
 old-location: winsync\isyncchangewithprerequisite.htm
 tech.root: winsync
 ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d

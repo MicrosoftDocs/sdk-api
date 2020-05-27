@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITPropList.GetFirst
 title: IITPropList::GetFirst (infotech.h)
-description: Returns the first property object in a property list.helpviewer_keywords: ["GetFirst","GetFirst method [HTML Help Workshop]","GetFirst method [HTML Help Workshop]","IITPropList interface","IITPropList interface [HTML Help Workshop]","GetFirst method","IITPropList.GetFirst","IITPropList::GetFirst","htmlhelp.iitproplist_getfirst","infotech/IITPropList::GetFirst","refIITPropListGetFirst"]
+description: Returns the first property object in a property list.
+helpviewer_keywords: ["GetFirst","GetFirst method [HTML Help Workshop]","GetFirst method [HTML Help Workshop]","IITPropList interface","IITPropList interface [HTML Help Workshop]","GetFirst method","IITPropList.GetFirst","IITPropList::GetFirst","htmlhelp.iitproplist_getfirst","infotech/IITPropList::GetFirst","refIITPropListGetFirst"]
 old-location: htmlhelp\iitproplist_getfirst.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistgetfirst.htm

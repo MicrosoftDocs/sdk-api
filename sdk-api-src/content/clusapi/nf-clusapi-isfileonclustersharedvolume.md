@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.IsFileOnClusterSharedVolume
 title: IsFileOnClusterSharedVolume function (clusapi.h)
-description: Specifies whether the file is on the cluster shared volume.helpviewer_keywords: ["IsFileOnClusterSharedVolume","IsFileOnClusterSharedVolume function [Failover Cluster]","PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME","PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME function [Failover Cluster]","clusapi/IsFileOnClusterSharedVolume","clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME","mscs.isfileonclustersharedvolume"]
+description: Specifies whether the file is on the cluster shared volume.
+helpviewer_keywords: ["IsFileOnClusterSharedVolume","IsFileOnClusterSharedVolume function [Failover Cluster]","PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME","PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME function [Failover Cluster]","clusapi/IsFileOnClusterSharedVolume","clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME","mscs.isfileonclustersharedvolume"]
 old-location: mscs\isfileonclustersharedvolume.htm
 tech.root: MsCS
 ms.assetid: BEE71433-3408-47AA-A7EB-5E212ABC1023

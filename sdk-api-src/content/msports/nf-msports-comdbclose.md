@@ -1,7 +1,8 @@
 ---
 UID: NF:msports.ComDBClose
 title: ComDBClose function (msports.h)
-description: ComDBClose closes a handle to the COM port database.helpviewer_keywords: ["ComDBClose","ComDBClose function [Serial Ports]","comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml","msports/ComDBClose","serports.comdbclose"]
+description: ComDBClose closes a handle to the COM port database.
+helpviewer_keywords: ["ComDBClose","ComDBClose function [Serial Ports]","comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml","msports/ComDBClose","serports.comdbclose"]
 old-location: serports\comdbclose.htm
 tech.root: serports
 ms.assetid: 3ea720ba-6cc9-4862-83d2-4f87e5c13da4

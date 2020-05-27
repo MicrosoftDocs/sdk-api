@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(float,float,float)
 title: XMFLOAT3SE::XMFLOAT3SE(float,float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMFLOAT3SE from three float arguments.helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE structure","XMFLOAT3SE structure [DirectX Math Support APIs]","XMFLOAT3SE constructor","XMFLOAT3SE.XMFLOAT3SE","XMFLOAT3SE.XMFLOAT3SE(float","float","float)","XMFLOAT3SE::XMFLOAT3SE","XMFLOAT3SE::XMFLOAT3SE(float","float","float)","dxmath.xmfloat3se_ctor_2"]
+description: Initializes a new instance of XMFLOAT3SE from three float arguments.
+helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE structure","XMFLOAT3SE structure [DirectX Math Support APIs]","XMFLOAT3SE constructor","XMFLOAT3SE.XMFLOAT3SE","XMFLOAT3SE.XMFLOAT3SE(float","float","float)","XMFLOAT3SE::XMFLOAT3SE","XMFLOAT3SE::XMFLOAT3SE(float","float","float)","dxmath.xmfloat3se_ctor_2"]
 old-location: dxmath\xmfloat3se_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.#ctor(float,float,float)

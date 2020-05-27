@@ -1,7 +1,8 @@
 ---
 UID: NF:provider.Provider.Provider
 title: Provider::Provider (provider.h)
-description: The Provider method creates an instance of a provider. This method is part of the WMI Provider Framework.helpviewer_keywords: ["??0Provider@@QAE@PBG0@Z","??0Provider@@QEAA@PEBG0@Z","Provider","Provider interface [Windows Management Instrumentation]","Provider method","Provider method [Windows Management Instrumentation]","Provider method [Windows Management Instrumentation]","Provider interface","Provider.Provider","Provider::Provider","provider/Provider::Provider","wmi.provider_provider"]
+description: The Provider method creates an instance of a provider. This method is part of the WMI Provider Framework.
+helpviewer_keywords: ["??0Provider@@QAE@PBG0@Z","??0Provider@@QEAA@PEBG0@Z","Provider","Provider interface [Windows Management Instrumentation]","Provider method","Provider method [Windows Management Instrumentation]","Provider method [Windows Management Instrumentation]","Provider interface","Provider.Provider","Provider::Provider","provider/Provider::Provider","wmi.provider_provider"]
 old-location: wmi\provider_provider.htm
 tech.root: WmiSdk
 ms.assetid: 1859c921-a0dc-4fd4-9c0b-680a24eab936

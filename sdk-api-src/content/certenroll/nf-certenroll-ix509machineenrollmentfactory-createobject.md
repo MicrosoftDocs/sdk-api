@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509MachineEnrollmentFactory.CreateObject
 title: IX509MachineEnrollmentFactory::CreateObject (certenroll.h)
-description: Creates an IX509EnrollmentHelper object on a webpage.helpviewer_keywords: ["CreateObject","CreateObject method [Security]","CreateObject method [Security]","IX509MachineEnrollmentFactory interface","IX509MachineEnrollmentFactory interface [Security]","CreateObject method","IX509MachineEnrollmentFactory.CreateObject","IX509MachineEnrollmentFactory::CreateObject","certenroll/IX509MachineEnrollmentFactory::CreateObject","security.ix509machineenrollmentfactory_createobject"]
+description: Creates an IX509EnrollmentHelper object on a webpage.
+helpviewer_keywords: ["CreateObject","CreateObject method [Security]","CreateObject method [Security]","IX509MachineEnrollmentFactory interface","IX509MachineEnrollmentFactory interface [Security]","CreateObject method","IX509MachineEnrollmentFactory.CreateObject","IX509MachineEnrollmentFactory::CreateObject","certenroll/IX509MachineEnrollmentFactory::CreateObject","security.ix509machineenrollmentfactory_createobject"]
 old-location: security\ix509machineenrollmentfactory_createobject.htm
 tech.root: seccertenroll
 ms.assetid: f9a45219-1c88-4946-ad57-81b95c609066

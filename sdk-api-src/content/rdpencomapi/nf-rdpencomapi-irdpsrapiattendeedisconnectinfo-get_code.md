@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo.get_Code
 title: IRDPSRAPIAttendeeDisconnectInfo::get_Code (rdpencomapi.h)
-description: The status of the disconnect operation.helpviewer_keywords: ["Code property [RDP]","Code property [RDP]","IRDPSRAPIAttendeeDisconnectInfo interface","Code property [RDP]","RDPSRAPIAttendeeDisconnectInfo object","IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","Code property","IRDPSRAPIAttendeeDisconnectInfo.Code","IRDPSRAPIAttendeeDisconnectInfo.get_Code","IRDPSRAPIAttendeeDisconnectInfo::Code","IRDPSRAPIAttendeeDisconnectInfo::get_Code","RDPSRAPIAttendeeDisconnectInfo object [RDP]","Code property","get_Code","rdp.irdpsrapiattendeedisconnectinfo_code","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Code","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Code"]
+description: The status of the disconnect operation.
+helpviewer_keywords: ["Code property [RDP]","Code property [RDP]","IRDPSRAPIAttendeeDisconnectInfo interface","Code property [RDP]","RDPSRAPIAttendeeDisconnectInfo object","IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","Code property","IRDPSRAPIAttendeeDisconnectInfo.Code","IRDPSRAPIAttendeeDisconnectInfo.get_Code","IRDPSRAPIAttendeeDisconnectInfo::Code","IRDPSRAPIAttendeeDisconnectInfo::get_Code","RDPSRAPIAttendeeDisconnectInfo object [RDP]","Code property","get_Code","rdp.irdpsrapiattendeedisconnectinfo_code","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Code","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Code"]
 old-location: rdp\irdpsrapiattendeedisconnectinfo_code.htm
 tech.root: rdp
 ms.assetid: 00af373f-ebbc-4e9f-9a94-2089910db0ce

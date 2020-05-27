@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.ITaskSettings3
 title: ITaskSettings3 (taskschd.h)
-description: Provides the extended settings that the Task Scheduler uses to run the task.helpviewer_keywords: ["ITaskSettings3","ITaskSettings3 interface [Task Scheduler]","ITaskSettings3 interface [Task Scheduler]","described","taskschd.itasksettings3","taskschd/ITaskSettings3"]
+description: Provides the extended settings that the Task Scheduler uses to run the task.
+helpviewer_keywords: ["ITaskSettings3","ITaskSettings3 interface [Task Scheduler]","ITaskSettings3 interface [Task Scheduler]","described","taskschd.itasksettings3","taskschd/ITaskSettings3"]
 old-location: taskschd\itasksettings3.htm
 tech.root: taskschd
 ms.assetid: B0315585-A41C-423C-A059-14C2F04F6652

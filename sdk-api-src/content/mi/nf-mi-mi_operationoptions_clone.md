@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_Clone
 title: MI_OperationOptions_Clone function (mi.h)
-description: Creates a copy of a MI_OperationOptions structure.helpviewer_keywords: ["MI_OperationOptions_Clone","MI_OperationOptions_Clone function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_Clone","wmi_v2.mi_operationoptions_clone"]
+description: Creates a copy of a MI_OperationOptions structure.
+helpviewer_keywords: ["MI_OperationOptions_Clone","MI_OperationOptions_Clone function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_Clone","wmi_v2.mi_operationoptions_clone"]
 old-location: wmi_v2\mi_operationoptions_clone.htm
 tech.root: wmi_v2
 ms.assetid: 22cce14f-55f0-4d31-a6cf-ea5e0a733d68

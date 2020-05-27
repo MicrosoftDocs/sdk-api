@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigTransportGetHandle
 title: MprConfigTransportGetHandle function (mprapi.h)
-description: The MprConfigTransportGetHandle function retrieves a handle to the specified transport protocol's configuration in the specified router configuration.helpviewer_keywords: ["MprConfigTransportGetHandle","MprConfigTransportGetHandle function [RAS]","_mpr_mprconfigtransportgethandle","mprapi/MprConfigTransportGetHandle","rras.mprconfigtransportgethandle"]
+description: The MprConfigTransportGetHandle function retrieves a handle to the specified transport protocol's configuration in the specified router configuration.
+helpviewer_keywords: ["MprConfigTransportGetHandle","MprConfigTransportGetHandle function [RAS]","_mpr_mprconfigtransportgethandle","mprapi/MprConfigTransportGetHandle","rras.mprconfigtransportgethandle"]
 old-location: rras\mprconfigtransportgethandle.htm
 tech.root: RRAS
 ms.assetid: 2d3a2300-de10-4ee0-ba0e-bda26cf9a910

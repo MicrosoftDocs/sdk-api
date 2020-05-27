@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_Quality
 title: IAMVideoCompression::get_Quality (strmif.h)
-description: The get_Quality method retrieves the current compression quality.helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","get_Quality method","IAMVideoCompression.get_Quality","IAMVideoCompression::get_Quality","IAMVideoCompressionget_Quality","dshow.iamvideocompression_get_quality","get_Quality","get_Quality method [DirectShow]","get_Quality method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::get_Quality"]
+description: The get_Quality method retrieves the current compression quality.
+helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","get_Quality method","IAMVideoCompression.get_Quality","IAMVideoCompression::get_Quality","IAMVideoCompressionget_Quality","dshow.iamvideocompression_get_quality","get_Quality","get_Quality method [DirectShow]","get_Quality method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::get_Quality"]
 old-location: dshow\iamvideocompression_get_quality.htm
 tech.root: DirectShow
 ms.assetid: a34b6d15-3c84-476e-bd2f-ee10b59ded82

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayAccessData
 title: SafeArrayAccessData function (oleauto.h)
-description: Increments the lock count of an array, and retrieves a pointer to the array data.helpviewer_keywords: ["SafeArrayAccessData","SafeArrayAccessData function [Automation]","_oa96_SafeArrayAccessData","automat.safearrayaccessdata","oleauto/SafeArrayAccessData"]
+description: Increments the lock count of an array, and retrieves a pointer to the array data.
+helpviewer_keywords: ["SafeArrayAccessData","SafeArrayAccessData function [Automation]","_oa96_SafeArrayAccessData","automat.safearrayaccessdata","oleauto/SafeArrayAccessData"]
 old-location: automat\safearrayaccessdata.htm
 tech.root: automat
 ms.assetid: ded2112e-f6cd-4982-bacb-b95370e80187

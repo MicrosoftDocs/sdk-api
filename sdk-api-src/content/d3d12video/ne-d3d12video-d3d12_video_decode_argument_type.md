@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_ARGUMENT_TYPE
 title: D3D12_VIDEO_DECODE_ARGUMENT_TYPE
-description: Specifies the argument type of a D3D12_VIDEO_DECODE_FRAME_ARGUMENThelpviewer_keywords: ["D3D12_VIDEO_DECODE_ARGUMENT_TYPE","D3D12_VIDEO_DECODE_ARGUMENT_TYPE",""]
+description: Specifies the argument type of a D3D12_VIDEO_DECODE_FRAME_ARGUMENT
+helpviewer_keywords: ["D3D12_VIDEO_DECODE_ARGUMENT_TYPE","D3D12_VIDEO_DECODE_ARGUMENT_TYPE",""]
 tech.root: mf
 ms.assetid: e9b5e3dd-d04e-4df5-9427-53255fcff245
 ms.date: 05/28/2019

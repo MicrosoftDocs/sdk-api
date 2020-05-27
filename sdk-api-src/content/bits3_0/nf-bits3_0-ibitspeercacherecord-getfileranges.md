@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileRanges
 title: IBitsPeerCacheRecord::GetFileRanges (bits3_0.h)
-description: Gets the ranges of the file that are in the cache.helpviewer_keywords: ["GetFileRanges","GetFileRanges method [BITS]","GetFileRanges method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileRanges method","IBitsPeerCacheRecord.GetFileRanges","IBitsPeerCacheRecord::GetFileRanges","bits.ibitspeercacherecord_getfileranges","bits3_0/IBitsPeerCacheRecord::GetFileRanges"]
+description: Gets the ranges of the file that are in the cache.
+helpviewer_keywords: ["GetFileRanges","GetFileRanges method [BITS]","GetFileRanges method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileRanges method","IBitsPeerCacheRecord.GetFileRanges","IBitsPeerCacheRecord::GetFileRanges","bits.ibitspeercacherecord_getfileranges","bits3_0/IBitsPeerCacheRecord::GetFileRanges"]
 old-location: bits\ibitspeercacherecord_getfileranges.htm
 tech.root: Bits
 ms.assetid: 63f9821c-f5b6-4646-96e0-4ec61ce16e9b

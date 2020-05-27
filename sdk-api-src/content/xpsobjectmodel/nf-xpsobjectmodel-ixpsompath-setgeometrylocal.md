@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetGeometryLocal
 title: IXpsOMPath::SetGeometryLocal (xpsobjectmodel.h)
-description: Sets the pointer to the local, unshared IXpsOMGeometry interface that contains the geometry of the resolved fill area to be set for this path.helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetGeometryLocal method","IXpsOMPath.SetGeometryLocal","IXpsOMPath::SetGeometryLocal","SetGeometryLocal","SetGeometryLocal method [XPS Documents and Packaging]","SetGeometryLocal method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setgeometrylocal","xpsobjectmodel/IXpsOMPath::SetGeometryLocal"]
+description: Sets the pointer to the local, unshared IXpsOMGeometry interface that contains the geometry of the resolved fill area to be set for this path.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetGeometryLocal method","IXpsOMPath.SetGeometryLocal","IXpsOMPath::SetGeometryLocal","SetGeometryLocal","SetGeometryLocal method [XPS Documents and Packaging]","SetGeometryLocal method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setgeometrylocal","xpsobjectmodel/IXpsOMPath::SetGeometryLocal"]
 old-location: xps\ixpsompath_setgeometrylocal.htm
 tech.root: printdocs
 ms.assetid: 32657c0d-3be5-466c-98a7-6bbd46f710d1

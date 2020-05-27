@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer
 title: INSSBuffer (wmsbuffer.h)
-description: The INSSBuffer interface is the basic interface of a buffer object.helpviewer_keywords: ["INSSBuffer","INSSBuffer interface [windows Media Format]","INSSBuffer interface [windows Media Format]","described","INSSBufferInterface","wmformat.inssbuffer","wmsbuffer/INSSBuffer"]
+description: The INSSBuffer interface is the basic interface of a buffer object.
+helpviewer_keywords: ["INSSBuffer","INSSBuffer interface [windows Media Format]","INSSBuffer interface [windows Media Format]","described","INSSBufferInterface","wmformat.inssbuffer","wmsbuffer/INSSBuffer"]
 old-location: wmformat\inssbuffer.htm
 tech.root: wmformat
 ms.assetid: c47c016a-e7eb-4a2c-b365-5537749db5bc

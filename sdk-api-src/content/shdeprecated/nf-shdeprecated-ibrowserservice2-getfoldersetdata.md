@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetFolderSetData
 title: IBrowserService2::GetFolderSetData (shdeprecated.h)
-description: Deprecated. Gets a structure containing folder information.helpviewer_keywords: ["GetFolderSetData","GetFolderSetData method [Windows Shell]","GetFolderSetData method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","GetFolderSetData method","IBrowserService2.GetFolderSetData","IBrowserService2::GetFolderSetData","shdeprecated/IBrowserService2::GetFolderSetData","shell.IBrowserService2_GetFolderSetData","zone_IBrowserService2_GetFolderSetData"]
+description: Deprecated. Gets a structure containing folder information.
+helpviewer_keywords: ["GetFolderSetData","GetFolderSetData method [Windows Shell]","GetFolderSetData method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","GetFolderSetData method","IBrowserService2.GetFolderSetData","IBrowserService2::GetFolderSetData","shdeprecated/IBrowserService2::GetFolderSetData","shell.IBrowserService2_GetFolderSetData","zone_IBrowserService2_GetFolderSetData"]
 old-location: shell\IBrowserService2_GetFolderSetData.htm
 tech.root: shell
 ms.assetid: fac9323b-bf32-45d0-95c4-798a1aab4d02

@@ -1,7 +1,8 @@
 ---
 UID: NF:wofapi.WofEnumEntries
 title: WofEnumEntries function (wofapi.h)
-description: Enumerates all the data sources from a specified provider for a specified volume.helpviewer_keywords: ["WofEnumEntries","WofEnumEntries function [Files]","fs.wofenumentries","wofapi/WofEnumEntries"]
+description: Enumerates all the data sources from a specified provider for a specified volume.
+helpviewer_keywords: ["WofEnumEntries","WofEnumEntries function [Files]","fs.wofenumentries","wofapi/WofEnumEntries"]
 old-location: fs\wofenumentries.htm
 tech.root: FileIO
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B

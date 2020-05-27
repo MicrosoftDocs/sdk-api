@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigServerInstall
 title: MprConfigServerInstall function (mprapi.h)
-description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.helpviewer_keywords: ["MprConfigServerInstall","MprConfigServerInstall function [RAS]","_mpr_mprconfigserverinstall","mprapi/MprConfigServerInstall","rras.mprconfigserverinstall"]
+description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.
+helpviewer_keywords: ["MprConfigServerInstall","MprConfigServerInstall function [RAS]","_mpr_mprconfigserverinstall","mprapi/MprConfigServerInstall","rras.mprconfigserverinstall"]
 old-location: rras\mprconfigserverinstall.htm
 tech.root: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9

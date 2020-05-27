@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.RemoveAllEffects
 title: IMFMediaEngineEx::RemoveAllEffects (mfmediaengine.h)
-description: Removes all audio and video effects.helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","RemoveAllEffects method","IMFMediaEngineEx.RemoveAllEffects","IMFMediaEngineEx::RemoveAllEffects","RemoveAllEffects","RemoveAllEffects method [Media Foundation]","RemoveAllEffects method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_removealleffects","mfmediaengine/IMFMediaEngineEx::RemoveAllEffects"]
+description: Removes all audio and video effects.
+helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","RemoveAllEffects method","IMFMediaEngineEx.RemoveAllEffects","IMFMediaEngineEx::RemoveAllEffects","RemoveAllEffects","RemoveAllEffects method [Media Foundation]","RemoveAllEffects method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_removealleffects","mfmediaengine/IMFMediaEngineEx::RemoveAllEffects"]
 old-location: mf\imfmediaengineex_removealleffects.htm
 tech.root: medfound
 ms.assetid: B9EF1440-27DA-48C6-B840-FF61DBF19E63

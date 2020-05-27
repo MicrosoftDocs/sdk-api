@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyBypassForLocal
 title: IWMReaderNetworkConfig::SetProxyBypassForLocal (wmsdkidl.h)
-description: The SetProxyBypassForLocal method specifies the configuration setting for bypassing the proxy for local hosts.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetProxyBypassForLocal method","IWMReaderNetworkConfig.SetProxyBypassForLocal","IWMReaderNetworkConfig::SetProxyBypassForLocal","IWMReaderNetworkConfigSetProxyBypassForLocal","SetProxyBypassForLocal","SetProxyBypassForLocal method [windows Media Format]","SetProxyBypassForLocal method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setproxybypassforlocal","wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal"]
+description: The SetProxyBypassForLocal method specifies the configuration setting for bypassing the proxy for local hosts.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetProxyBypassForLocal method","IWMReaderNetworkConfig.SetProxyBypassForLocal","IWMReaderNetworkConfig::SetProxyBypassForLocal","IWMReaderNetworkConfigSetProxyBypassForLocal","SetProxyBypassForLocal","SetProxyBypassForLocal method [windows Media Format]","SetProxyBypassForLocal method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setproxybypassforlocal","wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal"]
 old-location: wmformat\iwmreadernetworkconfig_setproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 4a012718-a815-4e01-97f8-69ed2ba881ea

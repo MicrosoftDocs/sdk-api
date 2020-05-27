@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbResourcePlugin
 title: ITsSbResourcePlugin (sbtsv.h)
-description: Exposes methods that extend the capabilities of Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["ITsSbResourcePlugin","ITsSbResourcePlugin interface [Remote Desktop Services]","ITsSbResourcePlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbResourcePlugin","termserv.itssbresourceplugin"]
+description: Exposes methods that extend the capabilities of Remote Desktop Connection Broker (RD Connection Broker).
+helpviewer_keywords: ["ITsSbResourcePlugin","ITsSbResourcePlugin interface [Remote Desktop Services]","ITsSbResourcePlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbResourcePlugin","termserv.itssbresourceplugin"]
 old-location: termserv\itssbresourceplugin.htm
 tech.root: TermServ
 ms.assetid: a5223902-2e2a-4fba-ae05-240824a140ac

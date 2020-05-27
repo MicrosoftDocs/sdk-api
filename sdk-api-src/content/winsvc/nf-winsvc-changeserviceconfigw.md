@@ -1,7 +1,8 @@
 ---
 UID: NF:winsvc.ChangeServiceConfigW
 title: ChangeServiceConfigW function (winsvc.h)
-description: Changes the configuration parameters of a service.helpviewer_keywords: ["ChangeServiceConfig","ChangeServiceConfig function","ChangeServiceConfigA","ChangeServiceConfigW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_changeserviceconfig","base.changeserviceconfig","winsvc/ChangeServiceConfig","winsvc/ChangeServiceConfigA","winsvc/ChangeServiceConfigW"]
+description: Changes the configuration parameters of a service.
+helpviewer_keywords: ["ChangeServiceConfig","ChangeServiceConfig function","ChangeServiceConfigA","ChangeServiceConfigW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_changeserviceconfig","base.changeserviceconfig","winsvc/ChangeServiceConfig","winsvc/ChangeServiceConfigA","winsvc/ChangeServiceConfigW"]
 old-location: base\changeserviceconfig.htm
 tech.root: Services
 ms.assetid: add8a99b-aced-4341-9790-86efac76df6b

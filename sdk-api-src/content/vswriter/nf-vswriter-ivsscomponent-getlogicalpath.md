@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponent.GetLogicalPath
 title: IVssComponent::GetLogicalPath (vswriter.h)
-description: The GetLogicalPath method returns the logical path of this component.helpviewer_keywords: ["GetLogicalPath","GetLogicalPath method [VSS]","GetLogicalPath method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetLogicalPath method","IVssComponent.GetLogicalPath","IVssComponent::GetLogicalPath","_win32_ivsscomponent_getlogicalpath","base.ivsscomponent_getlogicalpath","vswriter/IVssComponent::GetLogicalPath"]
+description: The GetLogicalPath method returns the logical path of this component.
+helpviewer_keywords: ["GetLogicalPath","GetLogicalPath method [VSS]","GetLogicalPath method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetLogicalPath method","IVssComponent.GetLogicalPath","IVssComponent::GetLogicalPath","_win32_ivsscomponent_getlogicalpath","base.ivsscomponent_getlogicalpath","vswriter/IVssComponent::GetLogicalPath"]
 old-location: base\ivsscomponent_getlogicalpath.htm
 tech.root: VSS
 ms.assetid: 16c85322-5127-40aa-8393-df7684cd1c92

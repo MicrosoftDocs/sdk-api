@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.LresultFromObject
 title: LresultFromObject function (oleacc.h)
-description: Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling WM_GETOBJECT.helpviewer_keywords: ["LresultFromObject","LresultFromObject function [Windows Accessibility]","_msaa_LresultFromObject","msaa.lresultfromobject","oleacc/LresultFromObject","winauto.lresultfromobject"]
+description: Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling WM_GETOBJECT.
+helpviewer_keywords: ["LresultFromObject","LresultFromObject function [Windows Accessibility]","_msaa_LresultFromObject","msaa.lresultfromobject","oleacc/LresultFromObject","winauto.lresultfromobject"]
 old-location: winauto\lresultfromobject.htm
 tech.root: WinAuto
 ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f

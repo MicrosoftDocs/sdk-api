@@ -1,7 +1,8 @@
 ---
 UID: NS:psapi._PERFORMANCE_INFORMATION
 title: PERFORMANCE_INFORMATION (psapi.h)
-description: Contains performance information.helpviewer_keywords: ["*PPERFORMACE_INFORMATION","*PPERFORMANCE_INFORMATION","PERFORMACE_INFORMATION","PERFORMANCE_INFORMATION","PERFORMANCE_INFORMATION structure [PSAPI]","PPERFORMANCE_INFORMATION","PPERFORMANCE_INFORMATION structure pointer [PSAPI]","_win32_performance_information_str","base.performance_information_str","psapi.performance_information_str","psapi/PERFORMANCE_INFORMATION","psapi/PPERFORMANCE_INFORMATION"]
+description: Contains performance information.
+helpviewer_keywords: ["*PPERFORMACE_INFORMATION","*PPERFORMANCE_INFORMATION","PERFORMACE_INFORMATION","PERFORMANCE_INFORMATION","PERFORMANCE_INFORMATION structure [PSAPI]","PPERFORMANCE_INFORMATION","PPERFORMANCE_INFORMATION structure pointer [PSAPI]","_win32_performance_information_str","base.performance_information_str","psapi.performance_information_str","psapi/PERFORMANCE_INFORMATION","psapi/PPERFORMANCE_INFORMATION"]
 old-location: psapi\performance_information_str.htm
 tech.root: psapi
 ms.assetid: efc47f6e-1a60-4e77-9e5d-c725f9042ab8

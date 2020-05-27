@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetId
 title: IBackgroundCopyJob::GetId (bits.h)
-description: Retrieves the identifier used to identify the job in the queue.helpviewer_keywords: ["GetId","GetId method [BITS]","GetId method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetId method","IBackgroundCopyJob.GetId","IBackgroundCopyJob::GetId","_drz_ibackgroundcopyjob_getid","bits.ibackgroundcopyjob_getid","bits/IBackgroundCopyJob::GetId"]
+description: Retrieves the identifier used to identify the job in the queue.
+helpviewer_keywords: ["GetId","GetId method [BITS]","GetId method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetId method","IBackgroundCopyJob.GetId","IBackgroundCopyJob::GetId","_drz_ibackgroundcopyjob_getid","bits.ibackgroundcopyjob_getid","bits/IBackgroundCopyJob::GetId"]
 old-location: bits\ibackgroundcopyjob_getid.htm
 tech.root: Bits
 ms.assetid: bc214b2e-fbf3-446e-abce-56e515dcfadf

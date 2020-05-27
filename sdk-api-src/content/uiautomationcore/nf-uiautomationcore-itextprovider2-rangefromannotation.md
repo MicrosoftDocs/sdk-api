@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.RangeFromAnnotation
 title: ITextProvider2::RangeFromAnnotation (uiautomationcore.h)
-description: Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.helpviewer_keywords: ["ITextProvider2 interface [Windows Accessibility]","RangeFromAnnotation method","ITextProvider2.RangeFromAnnotation","ITextProvider2::RangeFromAnnotation","RangeFromAnnotation","RangeFromAnnotation method [Windows Accessibility]","RangeFromAnnotation method [Windows Accessibility]","ITextProvider2 interface","uiautomationcore/ITextProvider2::RangeFromAnnotation","winauto.uiauto_itextprovider2_rangefromannotation"]
+description: Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.
+helpviewer_keywords: ["ITextProvider2 interface [Windows Accessibility]","RangeFromAnnotation method","ITextProvider2.RangeFromAnnotation","ITextProvider2::RangeFromAnnotation","RangeFromAnnotation","RangeFromAnnotation method [Windows Accessibility]","RangeFromAnnotation method [Windows Accessibility]","ITextProvider2 interface","uiautomationcore/ITextProvider2::RangeFromAnnotation","winauto.uiauto_itextprovider2_rangefromannotation"]
 old-location: winauto\uiauto_itextprovider2_rangefromannotation.htm
 tech.root: WinAuto
 ms.assetid: 908DEDED-1AF9-4DFF-AC1D-F06818B06925

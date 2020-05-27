@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher2
 title: WSDCreateDiscoveryPublisher2 function (wsddisco.h)
-description: Creates an IWSDiscoveryPublisher object that supports signed messages.helpviewer_keywords: ["WSDCreateDiscoveryPublisher2","WSDCreateDiscoveryPublisher2 function","ncd.wsdcreatediscoverypublisher2","wsddisco/WSDCreateDiscoveryPublisher2"]
+description: Creates an IWSDiscoveryPublisher object that supports signed messages.
+helpviewer_keywords: ["WSDCreateDiscoveryPublisher2","WSDCreateDiscoveryPublisher2 function","ncd.wsdcreatediscoverypublisher2","wsddisco/WSDCreateDiscoveryPublisher2"]
 old-location: ncd\wsdcreatediscoverypublisher2.htm
 tech.root: WsdApi
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0

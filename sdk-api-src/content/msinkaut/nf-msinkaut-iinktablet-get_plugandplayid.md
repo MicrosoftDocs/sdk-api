@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_PlugAndPlayId
 title: IInkTablet::get_PlugAndPlayId (msinkaut.h)
-description: Gets a string representation of the Plug and Play identifier of the IInkTablet object.helpviewer_keywords: ["5b33bd06-fee3-41b0-b3c1-d16b43685c60","IInkTablet interface [Tablet PC]","PlugAndPlayID property","IInkTablet.PlugAndPlayID","IInkTablet.get_PlugAndPlayID","IInkTablet.get_PlugAndPlayId","IInkTablet::PlugAndPlayID","IInkTablet::get_PlugAndPlayID","IInkTablet::get_PlugAndPlayId","PlugAndPlayID property [Tablet PC]","PlugAndPlayID property [Tablet PC]","IInkTablet interface","get_PlugAndPlayId","msinkaut/IInkTablet::PlugAndPlayID","msinkaut/IInkTablet::get_PlugAndPlayID","tablet.iinktablet_plugandplayid"]
+description: Gets a string representation of the Plug and Play identifier of the IInkTablet object.
+helpviewer_keywords: ["5b33bd06-fee3-41b0-b3c1-d16b43685c60","IInkTablet interface [Tablet PC]","PlugAndPlayID property","IInkTablet.PlugAndPlayID","IInkTablet.get_PlugAndPlayID","IInkTablet.get_PlugAndPlayId","IInkTablet::PlugAndPlayID","IInkTablet::get_PlugAndPlayID","IInkTablet::get_PlugAndPlayId","PlugAndPlayID property [Tablet PC]","PlugAndPlayID property [Tablet PC]","IInkTablet interface","get_PlugAndPlayId","msinkaut/IInkTablet::PlugAndPlayID","msinkaut/IInkTablet::get_PlugAndPlayID","tablet.iinktablet_plugandplayid"]
 old-location: tablet\iinktablet_plugandplayid.htm
 tech.root: tablet
 ms.assetid: 5b33bd06-fee3-41b0-b3c1-d16b43685c60

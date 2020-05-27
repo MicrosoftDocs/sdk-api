@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.GetHasCurrent
 title: IAppxManifestResourcesEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a resource at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxManifestResourcesEnumerator interface","IAppxManifestResourcesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxManifestResourcesEnumerator.GetHasCurrent","IAppxManifestResourcesEnumerator::GetHasCurrent","appxpackaging/IAppxManifestResourcesEnumerator::GetHasCurrent","appxpkg.iappxmanifestresourcesenumerator_gethascurrent"]
+description: Determines whether there is a resource at the current position of the enumerator.
+helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxManifestResourcesEnumerator interface","IAppxManifestResourcesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxManifestResourcesEnumerator.GetHasCurrent","IAppxManifestResourcesEnumerator::GetHasCurrent","appxpackaging/IAppxManifestResourcesEnumerator::GetHasCurrent","appxpkg.iappxmanifestresourcesenumerator_gethascurrent"]
 old-location: appxpkg\iappxmanifestresourcesenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: 72798FDF-3296-4AC7-9BA0-212457F9BEC7

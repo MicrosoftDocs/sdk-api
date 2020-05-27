@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpClient
 title: IWdsTransportTftpClient (wdstptmgmt.h)
-description: This interface is used to specify information of a TFTP client session currently active in the server.helpviewer_keywords: ["IWdsTransportTftpClient","IWdsTransportTftpClient interface [Windows Deployment Services]","IWdsTransportTftpClient interface [Windows Deployment Services]","described","wds.iwdstransporttftpclient","wdstptmgmt/IWdsTransportTftpClient"]
+description: This interface is used to specify information of a TFTP client session currently active in the server.
+helpviewer_keywords: ["IWdsTransportTftpClient","IWdsTransportTftpClient interface [Windows Deployment Services]","IWdsTransportTftpClient interface [Windows Deployment Services]","described","wds.iwdstransporttftpclient","wdstptmgmt/IWdsTransportTftpClient"]
 old-location: wds\iwdstransporttftpclient.htm
 tech.root: wds
 ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329

@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMAsyncReaderTimestampScaling
 title: IAMAsyncReaderTimestampScaling (strmif.h)
-description: Enables a pull-mode source filter to support larger file sizes.helpviewer_keywords: ["IAMAsyncReaderTimestampScaling","IAMAsyncReaderTimestampScaling interface [DirectShow]","IAMAsyncReaderTimestampScaling interface [DirectShow]","described","dshow.iamasyncreadertimestampscaling","strmif/IAMAsyncReaderTimestampScaling"]
+description: Enables a pull-mode source filter to support larger file sizes.
+helpviewer_keywords: ["IAMAsyncReaderTimestampScaling","IAMAsyncReaderTimestampScaling interface [DirectShow]","IAMAsyncReaderTimestampScaling interface [DirectShow]","described","dshow.iamasyncreadertimestampscaling","strmif/IAMAsyncReaderTimestampScaling"]
 old-location: dshow\iamasyncreadertimestampscaling.htm
 tech.root: DirectShow
 ms.assetid: 159ed107-383d-4a1a-b172-f2e339d6bc83

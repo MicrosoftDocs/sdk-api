@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName
 title: ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName (d3d11shader.h)
-description: Rebinds a resource by name as an unordered access view (UAV) to destination slots.helpviewer_keywords: ["BindResourceAsUnorderedAccessViewByName","BindResourceAsUnorderedAccessViewByName method [Direct3D 11]","BindResourceAsUnorderedAccessViewByName method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindResourceAsUnorderedAccessViewByName method","ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName","ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName","d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName","direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessviewbyname"]
+description: Rebinds a resource by name as an unordered access view (UAV) to destination slots.
+helpviewer_keywords: ["BindResourceAsUnorderedAccessViewByName","BindResourceAsUnorderedAccessViewByName method [Direct3D 11]","BindResourceAsUnorderedAccessViewByName method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindResourceAsUnorderedAccessViewByName method","ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName","ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName","d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName","direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessviewbyname"]
 old-location: direct3d11\id3d11moduleinstance_bindresourceasunorderedaccessviewbyname.htm
 tech.root: direct3d11
 ms.assetid: B9A9BA35-7CAB-411D-8168-B126CB8C3139

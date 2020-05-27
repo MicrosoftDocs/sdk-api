@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentSubpicture
 title: IDvdInfo::GetCurrentSubpicture (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available subpicture streams, the currently selected subpicture stream number, and whether the subpicture display is disabled.helpviewer_keywords: ["GetCurrentSubpicture","GetCurrentSubpicture method [DirectShow]","GetCurrentSubpicture method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentSubpicture method","IDvdInfo.GetCurrentSubpicture","IDvdInfo::GetCurrentSubpicture","IDvdInfoGetCurrentSubpicture","dshow.idvdinfo_getcurrentsubpicture","strmif/IDvdInfo::GetCurrentSubpicture"]
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available subpicture streams, the currently selected subpicture stream number, and whether the subpicture display is disabled.
+helpviewer_keywords: ["GetCurrentSubpicture","GetCurrentSubpicture method [DirectShow]","GetCurrentSubpicture method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentSubpicture method","IDvdInfo.GetCurrentSubpicture","IDvdInfo::GetCurrentSubpicture","IDvdInfoGetCurrentSubpicture","dshow.idvdinfo_getcurrentsubpicture","strmif/IDvdInfo::GetCurrentSubpicture"]
 old-location: dshow\idvdinfo_getcurrentsubpicture.htm
 tech.root: DirectShow
 ms.assetid: 92731904-2fb7-4dc2-b77f-1c40a002c469

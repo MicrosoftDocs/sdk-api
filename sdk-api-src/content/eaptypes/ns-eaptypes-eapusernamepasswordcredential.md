@@ -1,7 +1,8 @@
 ---
 UID: NS:eaptypes._EapUsernamePasswordCredential
 title: EapUsernamePasswordCredential
-description: Contains the username and password that is used by the EAP method for authenticating the user.helpviewer_keywords: ["_EapUsernamePasswordCredential","EapUsernamePasswordCredential"]
+description: Contains the username and password that is used by the EAP method for authenticating the user.
+helpviewer_keywords: ["_EapUsernamePasswordCredential","EapUsernamePasswordCredential"]
 old-location: eaphost\eapusernamepasswordcredential.htm
 tech.root: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26

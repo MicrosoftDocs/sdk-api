@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.SetRect
 title: IPreviewHandler::SetRect (shobjidl_core.h)
-description: Directs the preview handler to change the area within the parent hwnd that it draws into.helpviewer_keywords: ["IPreviewHandler interface [Windows Shell]","SetRect method","IPreviewHandler.SetRect","IPreviewHandler::SetRect","SetRect","SetRect method [Windows Shell]","SetRect method [Windows Shell]","IPreviewHandler interface","_shell_IPreviewHandler_SetRect","shell.IPreviewHandler_SetRect","shobjidl_core/IPreviewHandler::SetRect"]
+description: Directs the preview handler to change the area within the parent hwnd that it draws into.
+helpviewer_keywords: ["IPreviewHandler interface [Windows Shell]","SetRect method","IPreviewHandler.SetRect","IPreviewHandler::SetRect","SetRect","SetRect method [Windows Shell]","SetRect method [Windows Shell]","IPreviewHandler interface","_shell_IPreviewHandler_SetRect","shell.IPreviewHandler_SetRect","shobjidl_core/IPreviewHandler::SetRect"]
 old-location: shell\IPreviewHandler_SetRect.htm
 tech.root: shell
 ms.assetid: 03353962-6905-4b13-bf7a-f1767767a7df

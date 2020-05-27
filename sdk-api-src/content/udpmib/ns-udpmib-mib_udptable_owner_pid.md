@@ -1,7 +1,8 @@
 ---
 UID: NS:udpmib._MIB_UDPTABLE_OWNER_PID
 title: MIB_UDPTABLE_OWNER_PID (udpmib.h)
-description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer. The table also includes the process ID (PID) that issued the call to the bind function for each UDP endpoint.helpviewer_keywords: ["*PMIB_UDPTABLE_OWNER_PID","MIB_UDPTABLE_OWNER_PID","MIB_UDPTABLE_OWNER_PID structure [MIB]","PMIB_UDPTABLE_OWNER_PID","PMIB_UDPTABLE_OWNER_PID structure pointer [MIB]","iprtrmib/MIB_UDPTABLE_OWNER_PID","iprtrmib/PMIB_UDPTABLE_OWNER_PID","mib.mib_udptable_owner_pid","udpmib/MIB_UDPTABLE_OWNER_PID","udpmib/PMIB_UDPTABLE_OWNER_PID"]
+description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer. The table also includes the process ID (PID) that issued the call to the bind function for each UDP endpoint.
+helpviewer_keywords: ["*PMIB_UDPTABLE_OWNER_PID","MIB_UDPTABLE_OWNER_PID","MIB_UDPTABLE_OWNER_PID structure [MIB]","PMIB_UDPTABLE_OWNER_PID","PMIB_UDPTABLE_OWNER_PID structure pointer [MIB]","iprtrmib/MIB_UDPTABLE_OWNER_PID","iprtrmib/PMIB_UDPTABLE_OWNER_PID","mib.mib_udptable_owner_pid","udpmib/MIB_UDPTABLE_OWNER_PID","udpmib/PMIB_UDPTABLE_OWNER_PID"]
 old-location: mib\mib_udptable_owner_pid.htm
 tech.root: MIB
 ms.assetid: 7c51a1e4-1e07-4fb1-8db3-e48229f12aca

@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrix
 title: IDCompositionMatrixTransform3D::SetMatrix (dcomp.h)
-description: Changes all values of the matrix of this 3D transformation effect.helpviewer_keywords: ["IDCompositionMatrixTransform3D interface [DirectComposition]","SetMatrix method","IDCompositionMatrixTransform3D.SetMatrix","IDCompositionMatrixTransform3D::SetMatrix","SetMatrix","SetMatrix method [DirectComposition]","SetMatrix method [DirectComposition]","IDCompositionMatrixTransform3D interface","dcomp/IDCompositionMatrixTransform3D::SetMatrix","directcomp.idcompositionmatrixtransform3d_setmatrix"]
+description: Changes all values of the matrix of this 3D transformation effect.
+helpviewer_keywords: ["IDCompositionMatrixTransform3D interface [DirectComposition]","SetMatrix method","IDCompositionMatrixTransform3D.SetMatrix","IDCompositionMatrixTransform3D::SetMatrix","SetMatrix","SetMatrix method [DirectComposition]","SetMatrix method [DirectComposition]","IDCompositionMatrixTransform3D interface","dcomp/IDCompositionMatrixTransform3D::SetMatrix","directcomp.idcompositionmatrixtransform3d_setmatrix"]
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 0F1DBC1C-154A-4785-B9B9-924353FD5836

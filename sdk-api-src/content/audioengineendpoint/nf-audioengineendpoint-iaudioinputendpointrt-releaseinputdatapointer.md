@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.ReleaseInputDataPointer
 title: IAudioInputEndpointRT::ReleaseInputDataPointer (audioengineendpoint.h)
-description: Releases the acquired data pointer.helpviewer_keywords: ["IAudioInputEndpointRT interface [Remote Desktop Services]","ReleaseInputDataPointer method","IAudioInputEndpointRT.ReleaseInputDataPointer","IAudioInputEndpointRT::ReleaseInputDataPointer","ReleaseInputDataPointer","ReleaseInputDataPointer method [Remote Desktop Services]","ReleaseInputDataPointer method [Remote Desktop Services]","IAudioInputEndpointRT interface","audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer","termserv.iaudioinputendpointrt_releaseinputdatapointer"]
+description: Releases the acquired data pointer.
+helpviewer_keywords: ["IAudioInputEndpointRT interface [Remote Desktop Services]","ReleaseInputDataPointer method","IAudioInputEndpointRT.ReleaseInputDataPointer","IAudioInputEndpointRT::ReleaseInputDataPointer","ReleaseInputDataPointer","ReleaseInputDataPointer method [Remote Desktop Services]","ReleaseInputDataPointer method [Remote Desktop Services]","IAudioInputEndpointRT interface","audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer","termserv.iaudioinputendpointrt_releaseinputdatapointer"]
 old-location: termserv\iaudioinputendpointrt_releaseinputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 9dd3f72a-79fe-4d07-a301-d0960e30a2d1

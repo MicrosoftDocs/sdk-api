@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_INFO
 title: BLUETOOTH_DEVICE_INFO_STRUCT (bluetoothapis.h)
-description: The BLUETOOTH_DEVICE_INFO structure provides information about a Bluetooth device.helpviewer_keywords: ["BLUETOOTH_DEVICE_INFO","BLUETOOTH_DEVICE_INFO structure [Bluetooth]","BLUETOOTH_DEVICE_INFO_STRUCT","_BLUETOOTH_DEVICE_INFO","_bth_bluetooth_device_info","bluetooth.bluetooth_device_info","bluetoothapis/BLUETOOTH_DEVICE_INFO"]
+description: The BLUETOOTH_DEVICE_INFO structure provides information about a Bluetooth device.
+helpviewer_keywords: ["BLUETOOTH_DEVICE_INFO","BLUETOOTH_DEVICE_INFO structure [Bluetooth]","BLUETOOTH_DEVICE_INFO_STRUCT","_BLUETOOTH_DEVICE_INFO","_bth_bluetooth_device_info","bluetooth.bluetooth_device_info","bluetoothapis/BLUETOOTH_DEVICE_INFO"]
 old-location: bluetooth\bluetooth_device_info.htm
 tech.root: bluetooth
 ms.assetid: 41b14980-8217-4948-b084-1f44051d12f7

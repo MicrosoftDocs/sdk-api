@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ReleaseFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Indicates each time that a tracker source calls IUnknown::Release on the reference tracker; must be called before the Release call.helpviewer_keywords: ["IReferenceTracker interface [Windows Runtime]","ReleaseFromTrackerSource method","IReferenceTracker.ReleaseFromTrackerSource","IReferenceTracker.xaml","IReferenceTracker::ReleaseFromTrackerSource","IReferenceTracker::xaml","ReleaseFromTrackerSource","ReleaseFromTrackerSource method [Windows Runtime]","ReleaseFromTrackerSource method [Windows Runtime]","IReferenceTracker interface","windows/IReferenceTracker::ReleaseFromTrackerSource","winrt.ireferencetracker_releasefromtrackersource"]
+description: Indicates each time that a tracker source calls IUnknown::Release on the reference tracker; must be called before the Release call.
+helpviewer_keywords: ["IReferenceTracker interface [Windows Runtime]","ReleaseFromTrackerSource method","IReferenceTracker.ReleaseFromTrackerSource","IReferenceTracker.xaml","IReferenceTracker::ReleaseFromTrackerSource","IReferenceTracker::xaml","ReleaseFromTrackerSource","ReleaseFromTrackerSource method [Windows Runtime]","ReleaseFromTrackerSource method [Windows Runtime]","IReferenceTracker interface","windows/IReferenceTracker::ReleaseFromTrackerSource","winrt.ireferencetracker_releasefromtrackersource"]
 old-location: winrt\ireferencetracker_releasefromtrackersource.htm
 tech.root: WinRT
 ms.assetid: 70ecc98e-30bd-48e6-966b-4b5955a58d8a

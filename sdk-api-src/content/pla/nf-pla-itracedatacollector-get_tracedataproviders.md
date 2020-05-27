@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_TraceDataProviders
 title: ITraceDataCollector::get_TraceDataProviders (pla.h)
-description: Retrieves the list of providers enabled for this trace session.helpviewer_keywords: ["ITraceDataCollector interface [PLA]","TraceDataProviders property","ITraceDataCollector.TraceDataProviders","ITraceDataCollector.get_TraceDataProviders","ITraceDataCollector::TraceDataProviders","ITraceDataCollector::get_TraceDataProviders","TraceDataProviders property [PLA]","TraceDataProviders property [PLA]","ITraceDataCollector interface","base.itracedatacollector_tracedataprovider","get_TraceDataProviders","pla.itracedatacollector_tracedataprovider","pla/ITraceDataCollector::TraceDataProviders","pla/ITraceDataCollector::get_TraceDataProviders"]
+description: Retrieves the list of providers enabled for this trace session.
+helpviewer_keywords: ["ITraceDataCollector interface [PLA]","TraceDataProviders property","ITraceDataCollector.TraceDataProviders","ITraceDataCollector.get_TraceDataProviders","ITraceDataCollector::TraceDataProviders","ITraceDataCollector::get_TraceDataProviders","TraceDataProviders property [PLA]","TraceDataProviders property [PLA]","ITraceDataCollector interface","base.itracedatacollector_tracedataprovider","get_TraceDataProviders","pla.itracedatacollector_tracedataprovider","pla/ITraceDataCollector::TraceDataProviders","pla/ITraceDataCollector::get_TraceDataProviders"]
 old-location: pla\itracedatacollector_tracedataprovider.htm
 tech.root: PLA
 ms.assetid: 7a2006e8-3c4c-4441-8c9e-be9ce584dd63

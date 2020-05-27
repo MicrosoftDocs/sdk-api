@@ -1,7 +1,8 @@
 ---
 UID: NN:ctfutb.ITfLangBarEventSink
 title: ITfLangBarEventSink (ctfutb.h)
-description: The ITfLangBarEventSink interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar.helpviewer_keywords: ["ITfLangBarEventSink","ITfLangBarEventSink interface [Text Services Framework]","ITfLangBarEventSink interface [Text Services Framework]","described","_tsf_itflangbareventsink_ref","ctfutb/ITfLangBarEventSink","tsf.itflangbareventsink"]
+description: The ITfLangBarEventSink interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar.
+helpviewer_keywords: ["ITfLangBarEventSink","ITfLangBarEventSink interface [Text Services Framework]","ITfLangBarEventSink interface [Text Services Framework]","described","_tsf_itflangbareventsink_ref","ctfutb/ITfLangBarEventSink","tsf.itflangbareventsink"]
 old-location: tsf\itflangbareventsink.htm
 tech.root: TSF
 ms.assetid: 2ef8b8ff-6549-41f8-baf3-3c5b8e2411a3

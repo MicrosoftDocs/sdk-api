@@ -1,7 +1,8 @@
 ---
 UID: NS:comcat.tagCATEGORYINFO
 title: CATEGORYINFO (comcat.h)
-description: Describes a component category.helpviewer_keywords: ["*LPCATEGORYINFO","CATEGORYINFO","CATEGORYINFO structure [COM]","_com_categoryinfo_structure","com.categoryinfo","comcat/CATEGORYINFO"]
+description: Describes a component category.
+helpviewer_keywords: ["*LPCATEGORYINFO","CATEGORYINFO","CATEGORYINFO structure [COM]","_com_categoryinfo_structure","com.categoryinfo","comcat/CATEGORYINFO"]
 old-location: com\categoryinfo.htm
 tech.root: com
 ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b

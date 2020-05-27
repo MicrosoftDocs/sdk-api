@@ -1,7 +1,8 @@
 ---
 UID: NF:objectarray.IObjectCollection.RemoveObjectAt
 title: IObjectCollection::RemoveObjectAt (objectarray.h)
-description: Removes a single, specified object from the collection.helpviewer_keywords: ["IObjectCollection interface [Windows Shell]","RemoveObjectAt method","IObjectCollection.RemoveObjectAt","IObjectCollection::RemoveObjectAt","RemoveObjectAt","RemoveObjectAt method [Windows Shell]","RemoveObjectAt method [Windows Shell]","IObjectCollection interface","_shell_IObjectCollection_RemoveObjectAt","objectarray/IObjectCollection::RemoveObjectAt","shell.IObjectCollection_RemoveObjectAt"]
+description: Removes a single, specified object from the collection.
+helpviewer_keywords: ["IObjectCollection interface [Windows Shell]","RemoveObjectAt method","IObjectCollection.RemoveObjectAt","IObjectCollection::RemoveObjectAt","RemoveObjectAt","RemoveObjectAt method [Windows Shell]","RemoveObjectAt method [Windows Shell]","IObjectCollection interface","_shell_IObjectCollection_RemoveObjectAt","objectarray/IObjectCollection::RemoveObjectAt","shell.IObjectCollection_RemoveObjectAt"]
 old-location: shell\IObjectCollection_RemoveObjectAt.htm
 tech.root: shell
 ms.assetid: a0e526c0-a374-4952-8fe1-2a5aa53d9c41

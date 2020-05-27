@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetBaseBrowserData
 title: IBrowserService2::GetBaseBrowserData (shdeprecated.h)
-description: Deprecated. Gets a read-only structure containing the protected elements owned by the base class, for the purpose of determining state.helpviewer_keywords: ["GetBaseBrowserData","GetBaseBrowserData method [Windows Shell]","GetBaseBrowserData method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","GetBaseBrowserData method","IBrowserService2.GetBaseBrowserData","IBrowserService2::GetBaseBrowserData","shdeprecated/IBrowserService2::GetBaseBrowserData","shell.IBrowserService2_GetBaseBrowserData","zone_IBrowserService2_GetBaseBrowserData"]
+description: Deprecated. Gets a read-only structure containing the protected elements owned by the base class, for the purpose of determining state.
+helpviewer_keywords: ["GetBaseBrowserData","GetBaseBrowserData method [Windows Shell]","GetBaseBrowserData method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","GetBaseBrowserData method","IBrowserService2.GetBaseBrowserData","IBrowserService2::GetBaseBrowserData","shdeprecated/IBrowserService2::GetBaseBrowserData","shell.IBrowserService2_GetBaseBrowserData","zone_IBrowserService2_GetBaseBrowserData"]
 old-location: shell\IBrowserService2_GetBaseBrowserData.htm
 tech.root: shell
 ms.assetid: 60a9bbd1-5c11-4c6a-bae2-b85979ab8bda

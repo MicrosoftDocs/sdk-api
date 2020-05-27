@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_ENCODER_END_CALLBACK
 title: WS_ENCODER_END_CALLBACK (webservices.h)
-description: Encodes the end of a message.helpviewer_keywords: ["WS_ENCODER_END_CALLBACK","WS_ENCODER_END_CALLBACK callback","WS_ENCODER_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_ENCODER_END_CALLBACK","wsw.ws_encoder_end_callback"]
+description: Encodes the end of a message.
+helpviewer_keywords: ["WS_ENCODER_END_CALLBACK","WS_ENCODER_END_CALLBACK callback","WS_ENCODER_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_ENCODER_END_CALLBACK","wsw.ws_encoder_end_callback"]
 old-location: wsw\ws_encoder_end_callback.htm
 tech.root: wsw
 ms.assetid: ab0f88f7-e2b4-48e0-9041-ac4aa66f1575

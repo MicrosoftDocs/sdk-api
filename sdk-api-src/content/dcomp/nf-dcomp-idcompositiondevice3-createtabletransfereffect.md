@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateTableTransferEffect
 title: IDCompositionDevice3::CreateTableTransferEffect (dcomp.h)
-description: Creates an instance of IDCompositionTableTransferEffect.helpviewer_keywords: ["CreateTableTransferEffect","CreateTableTransferEffect method [DirectComposition]","CreateTableTransferEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateTableTransferEffect method","IDCompositionDevice3.CreateTableTransferEffect","IDCompositionDevice3::CreateTableTransferEffect","dcomp/IDCompositionDevice3::CreateTableTransferEffect","directcomp.idcompositiondevice3_createtabletransfereffect"]
+description: Creates an instance of IDCompositionTableTransferEffect.
+helpviewer_keywords: ["CreateTableTransferEffect","CreateTableTransferEffect method [DirectComposition]","CreateTableTransferEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateTableTransferEffect method","IDCompositionDevice3.CreateTableTransferEffect","IDCompositionDevice3::CreateTableTransferEffect","dcomp/IDCompositionDevice3::CreateTableTransferEffect","directcomp.idcompositiondevice3_createtabletransfereffect"]
 old-location: directcomp\idcompositiondevice3_createtabletransfereffect.htm
 tech.root: directcomp
 ms.assetid: C6438DB2-26DA-451A-B748-901C809C1369

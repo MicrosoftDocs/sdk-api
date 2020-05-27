@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObject.Lock
 title: IMediaObject::Lock (mediaobj.h)
-description: The Lock method acquires or releases a lock on the DMO. Call this method to keep the DMO serialized when performing multiple operations.helpviewer_keywords: ["IMediaObject interface [DirectShow]","Lock method","IMediaObject.Lock","IMediaObject::Lock","IMediaObjectLock","Lock","Lock method [DirectShow]","Lock method [DirectShow]","IMediaObject interface","dshow.imediaobject_lock","mediaobj/IMediaObject::Lock"]
+description: The Lock method acquires or releases a lock on the DMO. Call this method to keep the DMO serialized when performing multiple operations.
+helpviewer_keywords: ["IMediaObject interface [DirectShow]","Lock method","IMediaObject.Lock","IMediaObject::Lock","IMediaObjectLock","Lock","Lock method [DirectShow]","Lock method [DirectShow]","IMediaObject interface","dshow.imediaobject_lock","mediaobj/IMediaObject::Lock"]
 old-location: dshow\imediaobject_lock.htm
 tech.root: DirectShow
 ms.assetid: 6923dd91-7bdb-4a0c-833d-4742973825ee

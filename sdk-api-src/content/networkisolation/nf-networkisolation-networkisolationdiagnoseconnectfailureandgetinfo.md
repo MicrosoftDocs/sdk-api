@@ -1,7 +1,8 @@
 ---
 UID: NF:networkisolation.NetworkIsolationDiagnoseConnectFailureAndGetInfo
 title: NetworkIsolationDiagnoseConnectFailureAndGetInfo function (networkisolation.h)
-description: Gets information about a network isolation connection failure due to a missing capability.helpviewer_keywords: ["NetworkIsolationDiagnoseConnectFailureAndGetInfo","NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF]","ics.networkisolationdiagnoseconnectfailureandgetinfo","networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo"]
+description: Gets information about a network isolation connection failure due to a missing capability.
+helpviewer_keywords: ["NetworkIsolationDiagnoseConnectFailureAndGetInfo","NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF]","ics.networkisolationdiagnoseconnectfailureandgetinfo","networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo"]
 old-location: ics\networkisolationdiagnoseconnectfailureandgetinfo.htm
 tech.root: ics
 ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d

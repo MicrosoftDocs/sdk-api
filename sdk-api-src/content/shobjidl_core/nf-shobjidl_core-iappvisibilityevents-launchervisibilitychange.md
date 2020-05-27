@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAppVisibilityEvents.LauncherVisibilityChange
 title: IAppVisibilityEvents::LauncherVisibilityChange (shobjidl_core.h)
-description: Notifies a client that visibility of the Start screen has changed.helpviewer_keywords: ["IAppVisibilityEvents interface [Windows Shell]","LauncherVisibilityChange method","IAppVisibilityEvents.LauncherVisibilityChange","IAppVisibilityEvents::LauncherVisibilityChange","LauncherVisibilityChange","LauncherVisibilityChange method [Windows Shell]","LauncherVisibilityChange method [Windows Shell]","IAppVisibilityEvents interface","shell.IAppVisibilityEvents_LauncherVisibilityChange","shobjidl_core/IAppVisibilityEvents::LauncherVisibilityChange"]
+description: Notifies a client that visibility of the Start screen has changed.
+helpviewer_keywords: ["IAppVisibilityEvents interface [Windows Shell]","LauncherVisibilityChange method","IAppVisibilityEvents.LauncherVisibilityChange","IAppVisibilityEvents::LauncherVisibilityChange","LauncherVisibilityChange","LauncherVisibilityChange method [Windows Shell]","LauncherVisibilityChange method [Windows Shell]","IAppVisibilityEvents interface","shell.IAppVisibilityEvents_LauncherVisibilityChange","shobjidl_core/IAppVisibilityEvents::LauncherVisibilityChange"]
 old-location: shell\IAppVisibilityEvents_LauncherVisibilityChange.htm
 tech.root: shell
 ms.assetid: 26789ef4-015a-4dfd-8265-e27b50c565c4

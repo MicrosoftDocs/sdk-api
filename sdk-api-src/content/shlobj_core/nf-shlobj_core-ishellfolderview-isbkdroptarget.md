@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.IsBkDropTarget
 title: IShellFolderView::IsBkDropTarget (shlobj_core.h)
-description: IsBkDropTarget may be altered or unavailable.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","IsBkDropTarget method","IShellFolderView.IsBkDropTarget","IShellFolderView::IsBkDropTarget","IsBkDropTarget","IsBkDropTarget method [Windows Shell]","IsBkDropTarget method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_IsBkDropTarget","shell.IShellFolderView_IsBkDropTarget","shlobj_core/IShellFolderView::IsBkDropTarget"]
+description: IsBkDropTarget may be altered or unavailable.
+helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","IsBkDropTarget method","IShellFolderView.IsBkDropTarget","IShellFolderView::IsBkDropTarget","IsBkDropTarget","IsBkDropTarget method [Windows Shell]","IsBkDropTarget method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_IsBkDropTarget","shell.IShellFolderView_IsBkDropTarget","shlobj_core/IShellFolderView::IsBkDropTarget"]
 old-location: shell\IShellFolderView_IsBkDropTarget.htm
 tech.root: shell
 ms.assetid: 6de58057-2bcd-480e-8b4a-6e59aad168dc

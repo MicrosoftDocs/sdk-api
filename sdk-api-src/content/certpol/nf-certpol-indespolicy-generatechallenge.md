@@ -1,7 +1,8 @@
 ---
 UID: NF:certpol.INDESPolicy.GenerateChallenge
 title: INDESPolicy::GenerateChallenge (certpol.h)
-description: Performs the policy decision whether to issue a challenge password to the SCEP client.helpviewer_keywords: ["GenerateChallenge","GenerateChallenge method [Security]","GenerateChallenge method [Security]","INDESPolicy interface","INDESPolicy interface [Security]","GenerateChallenge method","INDESPolicy.GenerateChallenge","INDESPolicy::GenerateChallenge","certpol/INDESPolicy::GenerateChallenge","security.indespolicy_generatechallenge"]
+description: Performs the policy decision whether to issue a challenge password to the SCEP client.
+helpviewer_keywords: ["GenerateChallenge","GenerateChallenge method [Security]","GenerateChallenge method [Security]","INDESPolicy interface","INDESPolicy interface [Security]","GenerateChallenge method","INDESPolicy.GenerateChallenge","INDESPolicy::GenerateChallenge","certpol/INDESPolicy::GenerateChallenge","security.indespolicy_generatechallenge"]
 old-location: security\indespolicy_generatechallenge.htm
 tech.root: SecCrypto
 ms.assetid: e09ef64c-5b4c-41ef-942a-1080cd566a5b

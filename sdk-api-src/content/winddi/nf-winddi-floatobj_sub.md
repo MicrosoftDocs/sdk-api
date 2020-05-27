@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.FLOATOBJ_Sub
 title: FLOATOBJ_Sub function (winddi.h)
-description: The FLOATOBJ_Sub function subtracts the second FLOATOBJ from the first, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_Sub","FLOATOBJ_Sub function [Display Devices]","display.floatobj_sub","gdifncs_b1e31de5-5ada-4dc0-9946-a758cae47594.xml","winddi/FLOATOBJ_Sub"]
+description: The FLOATOBJ_Sub function subtracts the second FLOATOBJ from the first, and returns with the result in the first parameter.
+helpviewer_keywords: ["FLOATOBJ_Sub","FLOATOBJ_Sub function [Display Devices]","display.floatobj_sub","gdifncs_b1e31de5-5ada-4dc0-9946-a758cae47594.xml","winddi/FLOATOBJ_Sub"]
 old-location: display\floatobj_sub.htm
 tech.root: display
 ms.assetid: 0ba6edfa-2de6-4eaa-8853-0e20c01cedf8

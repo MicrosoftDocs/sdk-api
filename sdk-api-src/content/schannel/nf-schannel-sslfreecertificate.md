@@ -1,7 +1,8 @@
 ---
 UID: NF:schannel.SslFreeCertificate
 title: SslFreeCertificate function (schannel.h)
-description: Frees a certificate that was allocated by a previous call to the SslCrackCertificate function.helpviewer_keywords: ["SslFreeCertificate","SslFreeCertificate function [Security]","schannel/SslFreeCertificate","security.sslfreecertificate"]
+description: Frees a certificate that was allocated by a previous call to the SslCrackCertificate function.
+helpviewer_keywords: ["SslFreeCertificate","SslFreeCertificate function [Security]","schannel/SslFreeCertificate","security.sslfreecertificate"]
 old-location: security\sslfreecertificate.htm
 tech.root: SecAuthN
 ms.assetid: bf643ece-fe79-4f6e-a216-108fce6757a4

@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_Flags
 title: SecPkgContext_Flags (sspi.h)
-description: The SecPkgContext_Flags structure contains information about the flags in the current security context. This structure is returned by QueryContextAttributes (General).helpviewer_keywords: ["*PSecPkgContext_Flags","PSecPkgContext_Flags","PSecPkgContext_Flags structure pointer [Security]","SecPkgContext_Flags","SecPkgContext_Flags structure [Security]","security.secpkgcontext_flags","sspi/PSecPkgContext_Flags","sspi/SecPkgContext_Flags"]
+description: The SecPkgContext_Flags structure contains information about the flags in the current security context. This structure is returned by QueryContextAttributes (General).
+helpviewer_keywords: ["*PSecPkgContext_Flags","PSecPkgContext_Flags","PSecPkgContext_Flags structure pointer [Security]","SecPkgContext_Flags","SecPkgContext_Flags structure [Security]","security.secpkgcontext_flags","sspi/PSecPkgContext_Flags","sspi/SecPkgContext_Flags"]
 old-location: security\secpkgcontext_flags.htm
 tech.root: SecAuthN
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e

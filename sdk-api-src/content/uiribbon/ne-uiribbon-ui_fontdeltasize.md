@@ -1,7 +1,8 @@
 ---
 UID: NE:uiribbon.UI_FONTDELTASIZE
 title: UI_FONTDELTASIZE (uiribbon.h)
-description: Specifies values that identify whether the font size of a highlighted text run should be incremented or decremented.helpviewer_keywords: ["UI_FONTDELTASIZE","UI_FONTDELTASIZE enumeration [Windows Ribbon]","UI_FONTDELTASIZE_GROW","UI_FONTDELTASIZE_SHRINK","scenicintent_UI_FONTDELTASIZE","uiribbon/UI_FONTDELTASIZE","uiribbon/UI_FONTDELTASIZE_GROW","uiribbon/UI_FONTDELTASIZE_SHRINK","windowsribbon.windowsribbon_ui_fontdeltasize"]
+description: Specifies values that identify whether the font size of a highlighted text run should be incremented or decremented.
+helpviewer_keywords: ["UI_FONTDELTASIZE","UI_FONTDELTASIZE enumeration [Windows Ribbon]","UI_FONTDELTASIZE_GROW","UI_FONTDELTASIZE_SHRINK","scenicintent_UI_FONTDELTASIZE","uiribbon/UI_FONTDELTASIZE","uiribbon/UI_FONTDELTASIZE_GROW","uiribbon/UI_FONTDELTASIZE_SHRINK","windowsribbon.windowsribbon_ui_fontdeltasize"]
 old-location: windowsribbon\windowsribbon_ui_fontdeltasize.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontdeltasize.htm

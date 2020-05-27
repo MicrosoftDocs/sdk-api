@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.ISearchBoxInfo
 title: ISearchBoxInfo (shobjidl.h)
-description: Exposes methods that allow the caller to retrieve information entered into a search box.helpviewer_keywords: ["ISearchBoxInfo","ISearchBoxInfo interface [Windows Shell]","ISearchBoxInfo interface [Windows Shell]","described","_shell_ISearchBoxInfo","shell.ISearchBoxInfo","shobjidl/ISearchBoxInfo"]
+description: Exposes methods that allow the caller to retrieve information entered into a search box.
+helpviewer_keywords: ["ISearchBoxInfo","ISearchBoxInfo interface [Windows Shell]","ISearchBoxInfo interface [Windows Shell]","described","_shell_ISearchBoxInfo","shell.ISearchBoxInfo","shobjidl/ISearchBoxInfo"]
 old-location: shell\ISearchBoxInfo.htm
 tech.root: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474

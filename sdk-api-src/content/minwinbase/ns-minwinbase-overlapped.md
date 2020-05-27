@@ -1,7 +1,8 @@
 ---
 UID: NS:minwinbase._OVERLAPPED
 title: OVERLAPPED (minwinbase.h)
-description: Contains information used in asynchronous (or overlapped) input and output (I/O).helpviewer_keywords: ["*LPOVERLAPPED","LPOVERLAPPED","LPOVERLAPPED structure pointer","OVERLAPPED","OVERLAPPED structure","_win32_overlapped_str","base.overlapped_str","minwinbase/LPOVERLAPPED","minwinbase/OVERLAPPED","winbase/LPOVERLAPPED","winbase/OVERLAPPED"]
+description: Contains information used in asynchronous (or overlapped) input and output (I/O).
+helpviewer_keywords: ["*LPOVERLAPPED","LPOVERLAPPED","LPOVERLAPPED structure pointer","OVERLAPPED","OVERLAPPED structure","_win32_overlapped_str","base.overlapped_str","minwinbase/LPOVERLAPPED","minwinbase/OVERLAPPED","winbase/LPOVERLAPPED","winbase/OVERLAPPED"]
 old-location: base\overlapped_str.htm
 tech.root: Sync
 ms.assetid: 5037f6b9-e316-483b-a8e2-b58d2587ebd9

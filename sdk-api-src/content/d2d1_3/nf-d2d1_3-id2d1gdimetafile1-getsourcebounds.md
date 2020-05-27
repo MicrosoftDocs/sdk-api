@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1GdiMetafile1.GetSourceBounds
 title: ID2D1GdiMetafile1::GetSourceBounds (d2d1_3.h)
-description: Gets the bounds of the metafile in source space in DIPs. This corresponds to the frame rect in an EMF/EMF+.helpviewer_keywords: ["GetSourceBounds","GetSourceBounds method [Direct2D]","GetSourceBounds method [Direct2D]","ID2D1GdiMetafile1 interface","ID2D1GdiMetafile1 interface [Direct2D]","GetSourceBounds method","ID2D1GdiMetafile1.GetSourceBounds","ID2D1GdiMetafile1::GetSourceBounds","d2d1_3/ID2D1GdiMetafile1::GetSourceBounds","direct2d.id2d1gdimetafile1_getsourcebounds"]
+description: Gets the bounds of the metafile in source space in DIPs. This corresponds to the frame rect in an EMF/EMF+.
+helpviewer_keywords: ["GetSourceBounds","GetSourceBounds method [Direct2D]","GetSourceBounds method [Direct2D]","ID2D1GdiMetafile1 interface","ID2D1GdiMetafile1 interface [Direct2D]","GetSourceBounds method","ID2D1GdiMetafile1.GetSourceBounds","ID2D1GdiMetafile1::GetSourceBounds","d2d1_3/ID2D1GdiMetafile1::GetSourceBounds","direct2d.id2d1gdimetafile1_getsourcebounds"]
 old-location: direct2d\id2d1gdimetafile1_getsourcebounds.htm
 tech.root: Direct2D
 ms.assetid: 7e7502ee-678e-ce26-cc0b-266faa1c320b

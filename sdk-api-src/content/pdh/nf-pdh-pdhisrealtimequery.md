@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhIsRealTimeQuery
 title: PdhIsRealTimeQuery function (pdh.h)
-description: Determines if the specified query is a real-time query.helpviewer_keywords: ["PdhIsRealTimeQuery","PdhIsRealTimeQuery function [Perf]","_win32_pdhisrealtimequery","base.pdhisrealtimequery","pdh/PdhIsRealTimeQuery","perf.pdhisrealtimequery"]
+description: Determines if the specified query is a real-time query.
+helpviewer_keywords: ["PdhIsRealTimeQuery","PdhIsRealTimeQuery function [Perf]","_win32_pdhisrealtimequery","base.pdhisrealtimequery","pdh/PdhIsRealTimeQuery","perf.pdhisrealtimequery"]
 old-location: perf\pdhisrealtimequery.htm
 tech.root: perfctrs
 ms.assetid: 4f6b2d8d-3a0f-4346-8b8e-a7aea11fbc40

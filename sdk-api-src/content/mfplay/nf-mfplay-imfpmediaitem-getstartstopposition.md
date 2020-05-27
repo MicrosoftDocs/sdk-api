@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStartStopPosition
 title: IMFPMediaItem::GetStartStopPosition (mfplay.h)
-description: Gets the start and stop times for the media item.helpviewer_keywords: ["GetStartStopPosition","GetStartStopPosition method [Media Foundation]","GetStartStopPosition method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStartStopPosition method","IMFPMediaItem.GetStartStopPosition","IMFPMediaItem::GetStartStopPosition","mf.imfpmediaitem_getstartstopposition","mfplay/IMFPMediaItem::GetStartStopPosition"]
+description: Gets the start and stop times for the media item.
+helpviewer_keywords: ["GetStartStopPosition","GetStartStopPosition method [Media Foundation]","GetStartStopPosition method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStartStopPosition method","IMFPMediaItem.GetStartStopPosition","IMFPMediaItem::GetStartStopPosition","mf.imfpmediaitem_getstartstopposition","mfplay/IMFPMediaItem::GetStartStopPosition"]
 old-location: mf\imfpmediaitem_getstartstopposition.htm
 tech.root: medfound
 ms.assetid: c992bbec-a5ca-4ece-a883-2a7d7b5d49b3

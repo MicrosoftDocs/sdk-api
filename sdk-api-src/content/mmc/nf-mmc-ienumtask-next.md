@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IEnumTASK.Next
 title: IEnumTASK::Next (mmc.h)
-description: The IEnumTASK::Next method enables MMC to retrieve the next task in the snap-in's list of tasks.helpviewer_keywords: ["IEnumTASK interface [MMC]","Next method","IEnumTASK.Next","IEnumTASK::Next","Next","Next method [MMC]","Next method [MMC]","IEnumTASK interface","_slate_ienumtask_next","mmc.ienumtask_next","mmc/IEnumTASK::Next"]
+description: The IEnumTASK::Next method enables MMC to retrieve the next task in the snap-in's list of tasks.
+helpviewer_keywords: ["IEnumTASK interface [MMC]","Next method","IEnumTASK.Next","IEnumTASK::Next","Next","Next method [MMC]","Next method [MMC]","IEnumTASK interface","_slate_ienumtask_next","mmc.ienumtask_next","mmc/IEnumTASK::Next"]
 old-location: mmc\ienumtask_next.htm
 tech.root: mmc
 ms.assetid: cb568307-7172-4941-a888-ff059f5256b6

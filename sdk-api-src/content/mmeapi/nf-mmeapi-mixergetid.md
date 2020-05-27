@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerGetID
 title: mixerGetID function (mmeapi.h)
-description: The mixerGetID function retrieves the device identifier for a mixer device associated with a specified device handle.helpviewer_keywords: ["_win32_mixerGetID","mixerGetID","mixerGetID function [Windows Multimedia]","mmeapi/mixerGetID","multimedia.mixergetid"]
+description: The mixerGetID function retrieves the device identifier for a mixer device associated with a specified device handle.
+helpviewer_keywords: ["_win32_mixerGetID","mixerGetID","mixerGetID function [Windows Multimedia]","mmeapi/mixerGetID","multimedia.mixergetid"]
 old-location: multimedia\mixergetid.htm
 tech.root: Multimedia
 ms.assetid: e70d6be0-858c-4042-bfaf-6a62bafa269c

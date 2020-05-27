@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer3
 title: INSSBuffer3 (wmsbuffer.h)
-description: The INSSBuffer3 interface enhances the INSSBuffer interface by adding the ability to set and retrieve single properties for a sample.helpviewer_keywords: ["INSSBuffer3","INSSBuffer3 interface [windows Media Format]","INSSBuffer3 interface [windows Media Format]","described","INSSBuffer3Interface","wmformat.inssbuffer3","wmsbuffer/INSSBuffer3"]
+description: The INSSBuffer3 interface enhances the INSSBuffer interface by adding the ability to set and retrieve single properties for a sample.
+helpviewer_keywords: ["INSSBuffer3","INSSBuffer3 interface [windows Media Format]","INSSBuffer3 interface [windows Media Format]","described","INSSBuffer3Interface","wmformat.inssbuffer3","wmsbuffer/INSSBuffer3"]
 old-location: wmformat\inssbuffer3.htm
 tech.root: wmformat
 ms.assetid: 3ebf80d0-b5b0-4024-805d-e0a3855574bf

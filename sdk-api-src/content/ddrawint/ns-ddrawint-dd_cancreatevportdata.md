@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_CANCREATEVPORTDATA
 title: DD_CANCREATEVPORTDATA (ddrawint.h)
-description: The DD_CANCREATEVPORTDATA structure contains the information required for the driver to determine whether a video port extensions (VPE) object can be created.helpviewer_keywords: ["*PDD_CANCREATEVPORTDATA","DD_CANCREATEVPORTDATA","DD_CANCREATEVPORTDATA structure [Display Devices]","ddrawint/DD_CANCREATEVPORTDATA","ddstrcts_72b44069-d635-4675-b632-d0d077aa96e8.xml","display.dd_cancreatevportdata"]
+description: The DD_CANCREATEVPORTDATA structure contains the information required for the driver to determine whether a video port extensions (VPE) object can be created.
+helpviewer_keywords: ["*PDD_CANCREATEVPORTDATA","DD_CANCREATEVPORTDATA","DD_CANCREATEVPORTDATA structure [Display Devices]","ddrawint/DD_CANCREATEVPORTDATA","ddstrcts_72b44069-d635-4675-b632-d0d077aa96e8.xml","display.dd_cancreatevportdata"]
 old-location: display\dd_cancreatevportdata.htm
 tech.root: display
 ms.assetid: 60116f1d-fca2-4282-95a9-2af8da113a20

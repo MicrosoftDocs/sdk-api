@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.RemoveVectoredExceptionHandler
 title: RemoveVectoredExceptionHandler function (errhandlingapi.h)
-description: Unregisters a vectored exception handler.helpviewer_keywords: ["RemoveVectoredExceptionHandler","RemoveVectoredExceptionHandler function","_win32_removevectoredexceptionhandler","base.removevectoredexceptionhandler","errhandlingapi/RemoveVectoredExceptionHandler"]
+description: Unregisters a vectored exception handler.
+helpviewer_keywords: ["RemoveVectoredExceptionHandler","RemoveVectoredExceptionHandler function","_win32_removevectoredexceptionhandler","base.removevectoredexceptionhandler","errhandlingapi/RemoveVectoredExceptionHandler"]
 old-location: base\removevectoredexceptionhandler.htm
 tech.root: Debug
 ms.assetid: 94d54b75-e992-477f-ad4f-9b8a3bb44ffb

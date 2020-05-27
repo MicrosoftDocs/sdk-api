@@ -1,7 +1,8 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Clone
 title: IVssEnumMgmtObject::Clone (vsmgmt.h)
-description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumMgmtObject enumerator object.helpviewer_keywords: ["Clone","Clone method [VSS]","Clone method [VSS]","IVssEnumMgmtObject interface","IVssEnumMgmtObject interface [VSS]","Clone method","IVssEnumMgmtObject.Clone","IVssEnumMgmtObject::Clone","base.ivssenummgmtobject_clone","vsmgmt/IVssEnumMgmtObject::Clone"]
+description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumMgmtObject enumerator object.
+helpviewer_keywords: ["Clone","Clone method [VSS]","Clone method [VSS]","IVssEnumMgmtObject interface","IVssEnumMgmtObject interface [VSS]","Clone method","IVssEnumMgmtObject.Clone","IVssEnumMgmtObject::Clone","base.ivssenummgmtobject_clone","vsmgmt/IVssEnumMgmtObject::Clone"]
 old-location: base\ivssenummgmtobject_clone.htm
 tech.root: VSS
 ms.assetid: f957052a-5511-4f00-b864-1f03ead2ba58

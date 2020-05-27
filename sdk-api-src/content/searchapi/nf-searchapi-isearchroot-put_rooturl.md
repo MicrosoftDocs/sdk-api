@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_RootURL
 title: ISearchRoot::put_RootURL (searchapi.h)
-description: Sets the URL of the current search root.helpviewer_keywords: ["ISearchRoot interface [search]","put_RootURL method","ISearchRoot.put_RootURL","ISearchRoot::put_RootURL","_search_ISearchRoot_put_RootURL","put_RootURL","put_RootURL method [search]","put_RootURL method [search]","ISearchRoot interface","search._search_ISearchRoot_put_RootURL","searchapi/ISearchRoot::put_RootURL"]
+description: Sets the URL of the current search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","put_RootURL method","ISearchRoot.put_RootURL","ISearchRoot::put_RootURL","_search_ISearchRoot_put_RootURL","put_RootURL","put_RootURL method [search]","put_RootURL method [search]","ISearchRoot interface","search._search_ISearchRoot_put_RootURL","searchapi/ISearchRoot::put_RootURL"]
 old-location: search\_search_ISearchRoot_put_RootURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_rooturl.htm

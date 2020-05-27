@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetAt
 title: IPropertyChangeArray::GetAt (propsys.h)
-description: Gets the change operation at a specified array index.helpviewer_keywords: ["GetAt","GetAt method [Windows Properties]","GetAt method [Windows Properties]","IPropertyChangeArray interface","IPropertyChangeArray interface [Windows Properties]","GetAt method","IPropertyChangeArray.GetAt","IPropertyChangeArray::GetAt","_shell_IPropertyChangeArray_GetAt","properties.IPropertyChangeArray_GetAt","propsys/IPropertyChangeArray::GetAt","shell.IPropertyChangeArray_GetAt"]
+description: Gets the change operation at a specified array index.
+helpviewer_keywords: ["GetAt","GetAt method [Windows Properties]","GetAt method [Windows Properties]","IPropertyChangeArray interface","IPropertyChangeArray interface [Windows Properties]","GetAt method","IPropertyChangeArray.GetAt","IPropertyChangeArray::GetAt","_shell_IPropertyChangeArray_GetAt","properties.IPropertyChangeArray_GetAt","propsys/IPropertyChangeArray::GetAt","shell.IPropertyChangeArray_GetAt"]
 old-location: properties\IPropertyChangeArray_GetAt.htm
 tech.root: properties
 ms.assetid: bc20e4a3-1405-494a-98ea-cca4c87e4984

@@ -1,7 +1,8 @@
 ---
 UID: NF:wslapi.WslLaunchInteractive
 title: WslLaunchInteractive function (wslapi.h)
-description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.helpviewer_keywords: ["WslLaunchInteractive","WslLaunchInteractive function","wsl.wsllaunchinteractive","wslapi/WslLaunchInteractive"]
+description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
+helpviewer_keywords: ["WslLaunchInteractive","WslLaunchInteractive function","wsl.wsllaunchinteractive","wslapi/WslLaunchInteractive"]
 old-location: wsl\wsllaunchinteractive.htm
 tech.root: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C

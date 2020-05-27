@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPathname.GetNumElements
 title: IADsPathname::GetNumElements (iads.h)
-description: Retrieves the number of elements in the path.helpviewer_keywords: ["GetNumElements","GetNumElements method [ADSI]","GetNumElements method [ADSI]","IADsPathname interface","IADsPathname interface [ADSI]","GetNumElements method","IADsPathname.GetNumElements","IADsPathname::GetNumElements","_ds_iadspathname_getnumelements","adsi.iadspathname__getnumelements","adsi.iadspathname_getnumelements","iads/IADsPathname::GetNumElements"]
+description: Retrieves the number of elements in the path.
+helpviewer_keywords: ["GetNumElements","GetNumElements method [ADSI]","GetNumElements method [ADSI]","IADsPathname interface","IADsPathname interface [ADSI]","GetNumElements method","IADsPathname.GetNumElements","IADsPathname::GetNumElements","_ds_iadspathname_getnumelements","adsi.iadspathname__getnumelements","adsi.iadspathname_getnumelements","iads/IADsPathname::GetNumElements"]
 old-location: adsi\iadspathname_getnumelements.htm
 tech.root: adsi
 ms.assetid: ad6518c8-d379-4062-888f-cbf84995fc39

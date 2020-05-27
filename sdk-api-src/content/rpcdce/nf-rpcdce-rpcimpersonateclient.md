@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClient
 title: RpcImpersonateClient function (rpcdce.h)
-description: A server thread that is processing client remote procedure calls can call the RpcImpersonateClient function to impersonate the active client.helpviewer_keywords: ["RpcImpersonateClient","RpcImpersonateClient function [RPC]","_rpc_rpcimpersonateclient","rpc.rpcimpersonateclient","rpcdce/RpcImpersonateClient"]
+description: A server thread that is processing client remote procedure calls can call the RpcImpersonateClient function to impersonate the active client.
+helpviewer_keywords: ["RpcImpersonateClient","RpcImpersonateClient function [RPC]","_rpc_rpcimpersonateclient","rpc.rpcimpersonateclient","rpcdce/RpcImpersonateClient"]
 old-location: rpc\rpcimpersonateclient.htm
 tech.root: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21

@@ -1,7 +1,8 @@
 ---
 UID: NS:dcommon.D2D_SIZE_U
 title: D2D_SIZE_U (dcommon.h)
-description: Stores an ordered pair of integers, typically the width and height of a rectangle.helpviewer_keywords: ["D2D1_SIZE_U","D2D_SIZE_U","D2D_SIZE_U structure [Direct2D]","dcommon/D2D_SIZE_U","direct2d.D2D_SIZE_U"]
+description: Stores an ordered pair of integers, typically the width and height of a rectangle.
+helpviewer_keywords: ["D2D1_SIZE_U","D2D_SIZE_U","D2D_SIZE_U structure [Direct2D]","dcommon/D2D_SIZE_U","direct2d.D2D_SIZE_U"]
 old-location: direct2d\D2D_SIZE_U.htm
 tech.root: Direct2D
 ms.assetid: d9ea9df5-7c5f-4afa-9859-14d77b017904

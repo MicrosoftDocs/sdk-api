@@ -1,7 +1,8 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPSP1OrGreater
 title: IsWindowsXPSP1OrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 1 (SP1) version.helpviewer_keywords: ["IsWindowsXPSP1OrGreater","IsWindowsXPSP1OrGreater function","base.iswindowsxpsp1orgreater","versionhelpers/IsWindowsXPSP1OrGreater"]
+description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 1 (SP1) version.
+helpviewer_keywords: ["IsWindowsXPSP1OrGreater","IsWindowsXPSP1OrGreater function","base.iswindowsxpsp1orgreater","versionhelpers/IsWindowsXPSP1OrGreater"]
 old-location: base\iswindowsxpsp1orgreater.htm
 tech.root: SysInfo
 ms.assetid: F8921444-B13D-4522-84F2-4792F4F37EA5

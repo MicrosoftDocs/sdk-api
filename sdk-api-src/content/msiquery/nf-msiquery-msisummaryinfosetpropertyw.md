@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoSetPropertyW
 title: MsiSummaryInfoSetPropertyW function (msiquery.h)
-description: The MsiSummaryInfoSetProperty function sets a single summary information property.helpviewer_keywords: ["MsiSummaryInfoSetProperty","MsiSummaryInfoSetProperty function","MsiSummaryInfoSetPropertyA","MsiSummaryInfoSetPropertyW","_msi_msisummaryinfosetproperty","msiquery/MsiSummaryInfoSetProperty","msiquery/MsiSummaryInfoSetPropertyA","msiquery/MsiSummaryInfoSetPropertyW","setup.msisummaryinfosetproperty"]
+description: The MsiSummaryInfoSetProperty function sets a single summary information property.
+helpviewer_keywords: ["MsiSummaryInfoSetProperty","MsiSummaryInfoSetProperty function","MsiSummaryInfoSetPropertyA","MsiSummaryInfoSetPropertyW","_msi_msisummaryinfosetproperty","msiquery/MsiSummaryInfoSetProperty","msiquery/MsiSummaryInfoSetPropertyA","msiquery/MsiSummaryInfoSetPropertyW","setup.msisummaryinfosetproperty"]
 old-location: setup\msisummaryinfosetproperty.htm
 tech.root: Msi
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87

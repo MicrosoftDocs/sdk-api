@@ -1,7 +1,8 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetIdealVideoSize
 title: IMFVideoDisplayControl::GetIdealVideoSize (evr.h)
-description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.helpviewer_keywords: ["GetIdealVideoSize","GetIdealVideoSize method [Media Foundation]","GetIdealVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetIdealVideoSize method","IMFVideoDisplayControl.GetIdealVideoSize","IMFVideoDisplayControl::GetIdealVideoSize","c580778b-fe7c-4c62-9bcd-8a5fde370b9d","evr/IMFVideoDisplayControl::GetIdealVideoSize","mf.imfvideodisplaycontrol_getidealvideosize"]
+description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
+helpviewer_keywords: ["GetIdealVideoSize","GetIdealVideoSize method [Media Foundation]","GetIdealVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetIdealVideoSize method","IMFVideoDisplayControl.GetIdealVideoSize","IMFVideoDisplayControl::GetIdealVideoSize","c580778b-fe7c-4c62-9bcd-8a5fde370b9d","evr/IMFVideoDisplayControl::GetIdealVideoSize","mf.imfvideodisplaycontrol_getidealvideosize"]
 old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm
 tech.root: medfound
 ms.assetid: c580778b-fe7c-4c62-9bcd-8a5fde370b9d

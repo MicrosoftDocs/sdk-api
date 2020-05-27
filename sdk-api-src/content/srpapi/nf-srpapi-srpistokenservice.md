@@ -1,7 +1,8 @@
 ---
 UID: NF:srpapi.SrpIsTokenService
 title: SrpIsTokenService function (srpapi.h)
-description: Identifies whether a service is a token service.helpviewer_keywords: ["EDP.srpistokenservice","SrpIsTokenService","SrpIsTokenService function","srpapi/SrpIsTokenService"]
+description: Identifies whether a service is a token service.
+helpviewer_keywords: ["EDP.srpistokenservice","SrpIsTokenService","SrpIsTokenService function","srpapi/SrpIsTokenService"]
 old-location: edp\srpistokenservice.htm
 tech.root: EDP
 ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2

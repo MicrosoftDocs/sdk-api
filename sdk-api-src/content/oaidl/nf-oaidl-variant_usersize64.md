@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.VARIANT_UserSize64
 title: VARIANT_UserSize64 function (oaidl.h)
-description: Calculates the wire size of the VARIANT object, and gets its handle and data.helpviewer_keywords: ["VARIANT_UserSize64","VARIANT_UserSize64 function [Automation]","automat.variant_usersize64","oaidl/VARIANT_UserSize64"]
+description: Calculates the wire size of the VARIANT object, and gets its handle and data.
+helpviewer_keywords: ["VARIANT_UserSize64","VARIANT_UserSize64 function [Automation]","automat.variant_usersize64","oaidl/VARIANT_UserSize64"]
 old-location: automat\variant_usersize64.htm
 tech.root: automat
 ms.assetid: a6ae00a6-f126-4550-ae46-96c5ba1aee35

@@ -1,7 +1,8 @@
 ---
 UID: NN:atscpsipparser.IATSC_VCT
 title: IATSC_VCT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IATSC_VCT","IATSC_VCT interface [Microsoft TV Technologies]","IATSC_VCT interface [Microsoft TV Technologies]","described","IATSC_VCTInterface","atscpsipparser/IATSC_VCT","mstv.iatsc_vct"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IATSC_VCT","IATSC_VCT interface [Microsoft TV Technologies]","IATSC_VCT interface [Microsoft TV Technologies]","described","IATSC_VCTInterface","atscpsipparser/IATSC_VCT","mstv.iatsc_vct"]
 old-location: mstv\iatsc_vct.htm
 tech.root: mstv
 ms.assetid: 3ff9cd6e-0d25-462c-93a7-2399395f68b0

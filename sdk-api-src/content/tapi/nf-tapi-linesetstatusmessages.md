@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetStatusMessages
 title: lineSetStatusMessages function (tapi.h)
-description: The lineSetStatusMessages function enables an application to specify which notification messages to receive for events related to status changes for the specified line or any of its addresses.helpviewer_keywords: ["_tapi2_linesetstatusmessages","lineSetStatusMessages","lineSetStatusMessages function [TAPI 2.2]","tapi/lineSetStatusMessages","tapi2.linesetstatusmessages"]
+description: The lineSetStatusMessages function enables an application to specify which notification messages to receive for events related to status changes for the specified line or any of its addresses.
+helpviewer_keywords: ["_tapi2_linesetstatusmessages","lineSetStatusMessages","lineSetStatusMessages function [TAPI 2.2]","tapi/lineSetStatusMessages","tapi2.linesetstatusmessages"]
 old-location: tapi2\linesetstatusmessages.htm
 tech.root: Tapi
 ms.assetid: 08a93874-b0d5-4c00-b541-b51c312cfef6

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetRenderMode
 title: IWICDevelopRaw::SetRenderMode (wincodec.h)
-description: Sets the current WICRawRenderMode.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetRenderMode method","IWICDevelopRaw.SetRenderMode","IWICDevelopRaw::SetRenderMode","SetRenderMode","SetRenderMode method [Windows Imaging Component]","SetRenderMode method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setrendermode","wic._wic_codec_iwicdevelopraw_setrendermode","wincodec/IWICDevelopRaw::SetRenderMode"]
+description: Sets the current WICRawRenderMode.
+helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetRenderMode method","IWICDevelopRaw.SetRenderMode","IWICDevelopRaw::SetRenderMode","SetRenderMode","SetRenderMode method [Windows Imaging Component]","SetRenderMode method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setrendermode","wic._wic_codec_iwicdevelopraw_setrendermode","wincodec/IWICDevelopRaw::SetRenderMode"]
 old-location: wic\_wic_codec_iwicdevelopraw_setrendermode.htm
 tech.root: wic
 ms.assetid: 3150abb3-795d-416d-b3eb-0001796f510d

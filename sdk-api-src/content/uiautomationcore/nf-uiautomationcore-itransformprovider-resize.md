@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Resize
 title: ITransformProvider::Resize (uiautomationcore.h)
-description: Resizes the control.helpviewer_keywords: ["ITransformProvider interface [Windows Accessibility]","Resize method","ITransformProvider.Resize","ITransformProvider::Resize","Resize","Resize method [Windows Accessibility]","Resize method [Windows Accessibility]","ITransformProvider interface","uiauto.uiauto_ITransformProvider_Resize","uiauto_ITransformProvider_Resize","uiautomationcore/ITransformProvider::Resize","winauto.uiauto_ITransformProvider_Resize"]
+description: Resizes the control.
+helpviewer_keywords: ["ITransformProvider interface [Windows Accessibility]","Resize method","ITransformProvider.Resize","ITransformProvider::Resize","Resize","Resize method [Windows Accessibility]","Resize method [Windows Accessibility]","ITransformProvider interface","uiauto.uiauto_ITransformProvider_Resize","uiauto_ITransformProvider_Resize","uiautomationcore/ITransformProvider::Resize","winauto.uiauto_ITransformProvider_Resize"]
 old-location: winauto\uiauto_ITransformProvider_Resize.htm
 tech.root: WinAuto
 ms.assetid: ba22f770-1306-4c15-bc72-a928b91e0eb5

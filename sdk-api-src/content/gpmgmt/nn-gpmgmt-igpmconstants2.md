@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMConstants2
 title: IGPMConstants2 (gpmgmt.h)
-description: The IGPMConstants2 interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants.helpviewer_keywords: ["IGPMConstants2","IGPMConstants2 interface [GPMC]","IGPMConstants2 interface [GPMC]","described","gpmc.igpmconstants2","gpmgmt/IGPMConstants2"]
+description: The IGPMConstants2 interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants.
+helpviewer_keywords: ["IGPMConstants2","IGPMConstants2 interface [GPMC]","IGPMConstants2 interface [GPMC]","described","gpmc.igpmconstants2","gpmgmt/IGPMConstants2"]
 old-location: gpmc\igpmconstants2.htm
 tech.root: gpmc
 ms.assetid: daef093b-679b-411d-ba04-5d48b4695cf7

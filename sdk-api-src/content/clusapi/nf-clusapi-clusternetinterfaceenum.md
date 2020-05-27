@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceEnum
 title: ClusterNetInterfaceEnum function (clusapi.h)
-description: Enumerates the network interfaces installed on a cluster, returning one name with each call.helpviewer_keywords: ["ClusterNetInterfaceEnum","ClusterNetInterfaceEnum function [Failover Cluster]","clusapi/ClusterNetInterfaceEnum","mscs.clusternetinterfaceenum"]
+description: Enumerates the network interfaces installed on a cluster, returning one name with each call.
+helpviewer_keywords: ["ClusterNetInterfaceEnum","ClusterNetInterfaceEnum function [Failover Cluster]","clusapi/ClusterNetInterfaceEnum","mscs.clusternetinterfaceenum"]
 old-location: mscs\clusternetinterfaceenum.htm
 tech.root: MsCS
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4

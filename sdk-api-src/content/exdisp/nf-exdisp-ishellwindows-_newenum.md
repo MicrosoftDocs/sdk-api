@@ -1,7 +1,8 @@
 ---
 UID: NF:exdisp.IShellWindows._NewEnum
 title: IShellWindows::_NewEnum (exdisp.h)
-description: Retrieves an enumerator for the collection of Shell windows.helpviewer_keywords: ["IShellWindows interface [Windows Shell]","_NewEnum method","IShellWindows._NewEnum","IShellWindows::_NewEnum","_NewEnum","_NewEnum method [Windows Shell]","_NewEnum method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_NewEnum","exdisp/IShellWindows::_NewEnum","shell.IShellWindows_NewEnum"]
+description: Retrieves an enumerator for the collection of Shell windows.
+helpviewer_keywords: ["IShellWindows interface [Windows Shell]","_NewEnum method","IShellWindows._NewEnum","IShellWindows::_NewEnum","_NewEnum","_NewEnum method [Windows Shell]","_NewEnum method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_NewEnum","exdisp/IShellWindows::_NewEnum","shell.IShellWindows_NewEnum"]
 old-location: shell\IShellWindows_NewEnum.htm
 tech.root: shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961

@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhGetEventInformation
 title: TdhGetEventInformation function (tdh.h)
-description: Retrieves metadata about an event.helpviewer_keywords: ["TdhGetEventInformation","TdhGetEventInformation function [ETW]","etw.tdhgeteventinformation_func","tdh.tdhgeteventinformation_func","tdh/TdhGetEventInformation"]
+description: Retrieves metadata about an event.
+helpviewer_keywords: ["TdhGetEventInformation","TdhGetEventInformation function [ETW]","etw.tdhgeteventinformation_func","tdh.tdhgeteventinformation_func","tdh/TdhGetEventInformation"]
 old-location: etw\tdhgeteventinformation_func.htm
 tech.root: ETW
 ms.assetid: 81542550-79aa-4d67-a472-ac3ee3a3ce63

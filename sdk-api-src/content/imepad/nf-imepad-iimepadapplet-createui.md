@@ -1,7 +1,8 @@
 ---
 UID: NF:imepad.IImePadApplet.CreateUI
 title: IImePadApplet::CreateUI (imepad.h)
-description: Called from IImePad to get the applet's window handle, style, and size.helpviewer_keywords: ["CreateUI","CreateUI method [Internationalization for Windows Applications]","CreateUI method [Internationalization for Windows Applications]","IImePadApplet interface","IImePadApplet interface [Internationalization for Windows Applications]","CreateUI method","IImePadApplet.CreateUI","IImePadApplet::CreateUI","imepad/IImePadApplet::CreateUI","intl.iimepadapplet_createui"]
+description: Called from IImePad to get the applet's window handle, style, and size.
+helpviewer_keywords: ["CreateUI","CreateUI method [Internationalization for Windows Applications]","CreateUI method [Internationalization for Windows Applications]","IImePadApplet interface","IImePadApplet interface [Internationalization for Windows Applications]","CreateUI method","IImePadApplet.CreateUI","IImePadApplet::CreateUI","imepad/IImePadApplet::CreateUI","intl.iimepadapplet_createui"]
 old-location: intl\iimepadapplet_createui.htm
 tech.root: Intl
 ms.assetid: B4F79A20-E69E-4EA0-A992-4415B8AA4790

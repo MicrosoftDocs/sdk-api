@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI8FromCy
 title: VarI8FromCy function (oleauto.h)
-description: Converts a currency value to an 8-byte integer value.helpviewer_keywords: ["VarI8FromCy","VarI8FromCy function [Automation]","_oa96_VarI8FromCy","automat.vari8fromcy","oleauto/VarI8FromCy"]
+description: Converts a currency value to an 8-byte integer value.
+helpviewer_keywords: ["VarI8FromCy","VarI8FromCy function [Automation]","_oa96_VarI8FromCy","automat.vari8fromcy","oleauto/VarI8FromCy"]
 old-location: automat\vari8fromcy.htm
 tech.root: automat
 ms.assetid: b3a82903-eba7-44a7-9a63-0c008bdc618b

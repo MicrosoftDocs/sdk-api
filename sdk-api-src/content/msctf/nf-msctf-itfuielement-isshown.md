@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfUIElement.IsShown
 title: ITfUIElement::IsShown (msctf.h)
-description: The ITfUIElement::IsShown method returns true if the UI is currently shown by a text service; otherwise false.helpviewer_keywords: ["ITfUIElement interface [Text Services Framework]","IsShown method","ITfUIElement.IsShown","ITfUIElement::IsShown","IsShown","IsShown method [Text Services Framework]","IsShown method [Text Services Framework]","ITfUIElement interface","msctf/ITfUIElement::IsShown","tsf.itfuielement_isshown"]
+description: The ITfUIElement::IsShown method returns true if the UI is currently shown by a text service; otherwise false.
+helpviewer_keywords: ["ITfUIElement interface [Text Services Framework]","IsShown method","ITfUIElement.IsShown","ITfUIElement::IsShown","IsShown","IsShown method [Text Services Framework]","IsShown method [Text Services Framework]","ITfUIElement interface","msctf/ITfUIElement::IsShown","tsf.itfuielement_isshown"]
 old-location: tsf\itfuielement_isshown.htm
 tech.root: TSF
 ms.assetid: 84253cbe-a30e-4def-b268-0f5f1b7d54dc

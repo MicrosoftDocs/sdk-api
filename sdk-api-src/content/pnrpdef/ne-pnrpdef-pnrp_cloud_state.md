@@ -1,7 +1,8 @@
 ---
 UID: NE:pnrpdef._PNRP_CLOUD_STATE
 title: PNRP_CLOUD_STATE (pnrpdef.h)
-description: The PNRP_CLOUD_STATE enumeration specifies the different states a PNRP cloud can be in.helpviewer_keywords: ["PNRP_CLOUD_STATE","PNRP_CLOUD_STATE enumeration [Peer Networking]","PNRP_CLOUD_STATE_ACTIVE","PNRP_CLOUD_STATE_ALONE","PNRP_CLOUD_STATE_DEAD","PNRP_CLOUD_STATE_DISABLED","PNRP_CLOUD_STATE_NO_NET","PNRP_CLOUD_STATE_SYNCHRONISING","PNRP_CLOUD_STATE_VIRTUAL","p2p.pnrp_cloud_state","pnrpdef/PNRP_CLOUD_STATE","pnrpdef/PNRP_CLOUD_STATE_ACTIVE","pnrpdef/PNRP_CLOUD_STATE_ALONE","pnrpdef/PNRP_CLOUD_STATE_DEAD","pnrpdef/PNRP_CLOUD_STATE_DISABLED","pnrpdef/PNRP_CLOUD_STATE_NO_NET","pnrpdef/PNRP_CLOUD_STATE_SYNCHRONISING","pnrpdef/PNRP_CLOUD_STATE_VIRTUAL"]
+description: The PNRP_CLOUD_STATE enumeration specifies the different states a PNRP cloud can be in.
+helpviewer_keywords: ["PNRP_CLOUD_STATE","PNRP_CLOUD_STATE enumeration [Peer Networking]","PNRP_CLOUD_STATE_ACTIVE","PNRP_CLOUD_STATE_ALONE","PNRP_CLOUD_STATE_DEAD","PNRP_CLOUD_STATE_DISABLED","PNRP_CLOUD_STATE_NO_NET","PNRP_CLOUD_STATE_SYNCHRONISING","PNRP_CLOUD_STATE_VIRTUAL","p2p.pnrp_cloud_state","pnrpdef/PNRP_CLOUD_STATE","pnrpdef/PNRP_CLOUD_STATE_ACTIVE","pnrpdef/PNRP_CLOUD_STATE_ALONE","pnrpdef/PNRP_CLOUD_STATE_DEAD","pnrpdef/PNRP_CLOUD_STATE_DISABLED","pnrpdef/PNRP_CLOUD_STATE_NO_NET","pnrpdef/PNRP_CLOUD_STATE_SYNCHRONISING","pnrpdef/PNRP_CLOUD_STATE_VIRTUAL"]
 old-location: p2p\pnrp_cloud_state.htm
 tech.root: P2PSdk
 ms.assetid: 0263d742-f82b-4158-9343-86a8abf4cde1

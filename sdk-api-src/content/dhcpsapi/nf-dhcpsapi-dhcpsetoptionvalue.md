@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpSetOptionValue
 title: DhcpSetOptionValue function (dhcpsapi.h)
-description: Sets information for a specific option value on the DHCP server.helpviewer_keywords: ["DhcpSetOptionValue","DhcpSetOptionValue function [DHCP]","dhcp.dhcpsetoptionvalue","dhcpsapi/DhcpSetOptionValue"]
+description: Sets information for a specific option value on the DHCP server.
+helpviewer_keywords: ["DhcpSetOptionValue","DhcpSetOptionValue function [DHCP]","dhcp.dhcpsetoptionvalue","dhcpsapi/DhcpSetOptionValue"]
 old-location: dhcp\dhcpsetoptionvalue.htm
 tech.root: DHCP
 ms.assetid: 0bcd8c1e-e2ae-46ae-b5ee-6e3373125e71

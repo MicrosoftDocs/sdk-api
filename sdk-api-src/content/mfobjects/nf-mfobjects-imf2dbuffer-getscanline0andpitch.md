@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.GetScanline0AndPitch
 title: IMF2DBuffer::GetScanline0AndPitch (mfobjects.h)
-description: Retrieves a pointer to the buffer memory and the surface stride.helpviewer_keywords: ["08a5f659-609d-4a86-a24e-b30bb7f9e835","GetScanline0AndPitch","GetScanline0AndPitch method [Media Foundation]","GetScanline0AndPitch method [Media Foundation]","IMF2DBuffer interface","IMF2DBuffer interface [Media Foundation]","GetScanline0AndPitch method","IMF2DBuffer.GetScanline0AndPitch","IMF2DBuffer::GetScanline0AndPitch","mf.imf2dbuffer_getscanline0andpitch","mfobjects/IMF2DBuffer::GetScanline0AndPitch"]
+description: Retrieves a pointer to the buffer memory and the surface stride.
+helpviewer_keywords: ["08a5f659-609d-4a86-a24e-b30bb7f9e835","GetScanline0AndPitch","GetScanline0AndPitch method [Media Foundation]","GetScanline0AndPitch method [Media Foundation]","IMF2DBuffer interface","IMF2DBuffer interface [Media Foundation]","GetScanline0AndPitch method","IMF2DBuffer.GetScanline0AndPitch","IMF2DBuffer::GetScanline0AndPitch","mf.imf2dbuffer_getscanline0andpitch","mfobjects/IMF2DBuffer::GetScanline0AndPitch"]
 old-location: mf\imf2dbuffer_getscanline0andpitch.htm
 tech.root: medfound
 ms.assetid: 08a5f659-609d-4a86-a24e-b30bb7f9e835

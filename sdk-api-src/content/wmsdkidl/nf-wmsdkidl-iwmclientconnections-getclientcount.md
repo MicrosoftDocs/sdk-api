@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientCount
 title: IWMClientConnections::GetClientCount (wmsdkidl.h)
-description: The GetClientCount method retrieves the number of connected clients.helpviewer_keywords: ["GetClientCount","GetClientCount method [windows Media Format]","GetClientCount method [windows Media Format]","IWMClientConnections interface","IWMClientConnections interface [windows Media Format]","GetClientCount method","IWMClientConnections.GetClientCount","IWMClientConnections::GetClientCount","IWMClientConnectionsGetClientCount","wmformat.iwmclientconnections_getclientcount","wmsdkidl/IWMClientConnections::GetClientCount"]
+description: The GetClientCount method retrieves the number of connected clients.
+helpviewer_keywords: ["GetClientCount","GetClientCount method [windows Media Format]","GetClientCount method [windows Media Format]","IWMClientConnections interface","IWMClientConnections interface [windows Media Format]","GetClientCount method","IWMClientConnections.GetClientCount","IWMClientConnections::GetClientCount","IWMClientConnectionsGetClientCount","wmformat.iwmclientconnections_getclientcount","wmsdkidl/IWMClientConnections::GetClientCount"]
 old-location: wmformat\iwmclientconnections_getclientcount.htm
 tech.root: wmformat
 ms.assetid: 208b40cd-c138-4311-8702-18a61713b71a

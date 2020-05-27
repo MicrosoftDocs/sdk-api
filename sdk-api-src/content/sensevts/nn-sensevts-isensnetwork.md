@@ -1,7 +1,8 @@
 ---
 UID: NN:sensevts.ISensNetwork
 title: ISensNetwork (sensevts.h)
-description: The ISensNetwork interface handles network events fired by the System Event Notification Service (SENS).helpviewer_keywords: ["ISensNetwork","ISensNetwork interface [SENS]","ISensNetwork interface [SENS]","described","_zaw_isensnetwork","sens.isensnetwork","sensevts/ISensNetwork","syncmgr.isensnetwork"]
+description: The ISensNetwork interface handles network events fired by the System Event Notification Service (SENS).
+helpviewer_keywords: ["ISensNetwork","ISensNetwork interface [SENS]","ISensNetwork interface [SENS]","described","_zaw_isensnetwork","sens.isensnetwork","sensevts/ISensNetwork","syncmgr.isensnetwork"]
 old-location: sens\isensnetwork.htm
 tech.root: Sens
 ms.assetid: 1cea5dff-13ea-4afb-84ac-7b8df4f55fc8

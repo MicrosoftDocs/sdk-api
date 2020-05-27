@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.GetAt
 title: IXpsSignatureRequestCollection::GetAt (xpsdigitalsignature.h)
-description: Gets an IXpsSignatureRequest interface pointer from a specified location in the collection.helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsSignatureRequestCollection interface","IXpsSignatureRequestCollection interface [XPS Documents and Packaging]","GetAt method","IXpsSignatureRequestCollection.GetAt","IXpsSignatureRequestCollection::GetAt","xps.ixpssignaturerequestcollection_getat","xpsdigitalsignature/IXpsSignatureRequestCollection::GetAt"]
+description: Gets an IXpsSignatureRequest interface pointer from a specified location in the collection.
+helpviewer_keywords: ["GetAt","GetAt method [XPS Documents and Packaging]","GetAt method [XPS Documents and Packaging]","IXpsSignatureRequestCollection interface","IXpsSignatureRequestCollection interface [XPS Documents and Packaging]","GetAt method","IXpsSignatureRequestCollection.GetAt","IXpsSignatureRequestCollection::GetAt","xps.ixpssignaturerequestcollection_getat","xpsdigitalsignature/IXpsSignatureRequestCollection::GetAt"]
 old-location: xps\ixpssignaturerequestcollection_getat.htm
 tech.root: printdocs
 ms.assetid: f3bf89d4-468e-4514-a192-165d18fd12e4

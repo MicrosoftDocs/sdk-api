@@ -1,7 +1,8 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_AREA_PROP
 title: VSS_DIFF_AREA_PROP (vsmgmt.h)
-description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.helpviewer_keywords: ["*PVSS_DIFF_AREA_PROP","PVSS_DIFF_AREA_PROP","PVSS_DIFF_AREA_PROP structure pointer [VSS]","VSS_DIFF_AREA_PROP","VSS_DIFF_AREA_PROP structure [VSS]","base.vss_diff_area_prop","vsmgmt/PVSS_DIFF_AREA_PROP","vsmgmt/VSS_DIFF_AREA_PROP"]
+description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.
+helpviewer_keywords: ["*PVSS_DIFF_AREA_PROP","PVSS_DIFF_AREA_PROP","PVSS_DIFF_AREA_PROP structure pointer [VSS]","VSS_DIFF_AREA_PROP","VSS_DIFF_AREA_PROP structure [VSS]","base.vss_diff_area_prop","vsmgmt/PVSS_DIFF_AREA_PROP","vsmgmt/VSS_DIFF_AREA_PROP"]
 old-location: base\vss_diff_area_prop.htm
 tech.root: VSS
 ms.assetid: 9627d7b0-e9d0-425f-9051-cf4ab6b75a8c

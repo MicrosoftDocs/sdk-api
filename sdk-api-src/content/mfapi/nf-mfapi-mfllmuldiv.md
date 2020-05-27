@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFllMulDiv
 title: MFllMulDiv function (mfapi.h)
-description: Calculates ((a * b) + d) / c, where each term is a 64-bit signed value.helpviewer_keywords: ["MFllMulDiv","MFllMulDiv function [Media Foundation]","mf.mfllmuldiv","mfapi/MFllMulDiv"]
+description: Calculates ((a * b) + d) / c, where each term is a 64-bit signed value.
+helpviewer_keywords: ["MFllMulDiv","MFllMulDiv function [Media Foundation]","mf.mfllmuldiv","mfapi/MFllMulDiv"]
 old-location: mf\mfllmuldiv.htm
 tech.root: medfound
 ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269

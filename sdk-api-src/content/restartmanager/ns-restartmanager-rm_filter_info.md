@@ -1,7 +1,8 @@
 ---
 UID: NS:restartmanager._RM_FILTER_INFO
 title: RM_FILTER_INFO (restartmanager.h)
-description: Contains information about modifications to restart or shutdown actions.helpviewer_keywords: ["*PRM_FILTER_INFO","PRM_FILTER_INFO","PRM_FILTER_INFO structure pointer [Restart Mgr]","RM_FILTER_INFO","RM_FILTER_INFO structure [Restart Mgr]","restartmanager/PRM_FILTER_INFO","restartmanager/RM_FILTER_INFO","rstmgr.rm_filter_info"]
+description: Contains information about modifications to restart or shutdown actions.
+helpviewer_keywords: ["*PRM_FILTER_INFO","PRM_FILTER_INFO","PRM_FILTER_INFO structure pointer [Restart Mgr]","RM_FILTER_INFO","RM_FILTER_INFO structure [Restart Mgr]","restartmanager/PRM_FILTER_INFO","restartmanager/RM_FILTER_INFO","rstmgr.rm_filter_info"]
 old-location: rstmgr\rm_filter_info.htm
 tech.root: rstmgr
 ms.assetid: b0fd12e4-20e3-48d1-a2db-c1e0334ed427

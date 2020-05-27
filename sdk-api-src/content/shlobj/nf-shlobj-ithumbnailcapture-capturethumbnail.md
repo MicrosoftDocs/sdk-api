@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IThumbnailCapture.CaptureThumbnail
 title: IThumbnailCapture::CaptureThumbnail (shlobj.h)
-description: Retrieves a thumbnail representation of an IHTMLDocument2 document.helpviewer_keywords: ["CaptureThumbnail","CaptureThumbnail method [Windows Shell]","CaptureThumbnail method [Windows Shell]","IThumbnailCapture interface","IThumbnailCapture interface [Windows Shell]","CaptureThumbnail method","IThumbnailCapture.CaptureThumbnail","IThumbnailCapture::CaptureThumbnail","_shell_IThumbnailCapture_CaptureThumbnail","shell.IThumbnailCapture_CaptureThumbnail","shlobj/IThumbnailCapture::CaptureThumbnail"]
+description: Retrieves a thumbnail representation of an IHTMLDocument2 document.
+helpviewer_keywords: ["CaptureThumbnail","CaptureThumbnail method [Windows Shell]","CaptureThumbnail method [Windows Shell]","IThumbnailCapture interface","IThumbnailCapture interface [Windows Shell]","CaptureThumbnail method","IThumbnailCapture.CaptureThumbnail","IThumbnailCapture::CaptureThumbnail","_shell_IThumbnailCapture_CaptureThumbnail","shell.IThumbnailCapture_CaptureThumbnail","shlobj/IThumbnailCapture::CaptureThumbnail"]
 old-location: shell\IThumbnailCapture_CaptureThumbnail.htm
 tech.root: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709

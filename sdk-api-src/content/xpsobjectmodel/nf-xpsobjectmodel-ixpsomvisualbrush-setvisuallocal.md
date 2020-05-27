@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLocal
 title: IXpsOMVisualBrush::SetVisualLocal (xpsobjectmodel.h)
-description: Sets the interface pointer of the local, unshared visual used as the source for the brush.helpviewer_keywords: ["IXpsOMVisualBrush interface [XPS Documents and Packaging]","SetVisualLocal method","IXpsOMVisualBrush.SetVisualLocal","IXpsOMVisualBrush::SetVisualLocal","SetVisualLocal","SetVisualLocal method [XPS Documents and Packaging]","SetVisualLocal method [XPS Documents and Packaging]","IXpsOMVisualBrush interface","xps.ixpsomvisualbrush_setvisuallocal","xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal"]
+description: Sets the interface pointer of the local, unshared visual used as the source for the brush.
+helpviewer_keywords: ["IXpsOMVisualBrush interface [XPS Documents and Packaging]","SetVisualLocal method","IXpsOMVisualBrush.SetVisualLocal","IXpsOMVisualBrush::SetVisualLocal","SetVisualLocal","SetVisualLocal method [XPS Documents and Packaging]","SetVisualLocal method [XPS Documents and Packaging]","IXpsOMVisualBrush interface","xps.ixpsomvisualbrush_setvisuallocal","xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal"]
 old-location: xps\ixpsomvisualbrush_setvisuallocal.htm
 tech.root: printdocs
 ms.assetid: 8ef37838-ff5f-4c8f-9fa3-30d11417c09d

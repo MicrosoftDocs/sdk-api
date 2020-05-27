@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdef.InitializeObjectAttributes
 title: InitializeObjectAttributes macro (ntdef.h)
-description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.helpviewer_keywords: ["InitializeObjectAttributes","InitializeObjectAttributes macro [Kernel-Mode Driver Architecture]","k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml","kernel.initializeobjectattributes","ntdef/InitializeObjectAttributes"]
+description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.
+helpviewer_keywords: ["InitializeObjectAttributes","InitializeObjectAttributes macro [Kernel-Mode Driver Architecture]","k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml","kernel.initializeobjectattributes","ntdef/InitializeObjectAttributes"]
 old-location: kernel\initializeobjectattributes.htm
 tech.root: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d

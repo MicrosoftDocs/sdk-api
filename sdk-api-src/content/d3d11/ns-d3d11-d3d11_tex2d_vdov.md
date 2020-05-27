@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_VDOV
 title: D3D11_TEX2D_VDOV (d3d11.h)
-description: Identifies the texture resource for a video decoder output view.helpviewer_keywords: ["D3D11_TEX2D_VDOV","D3D11_TEX2D_VDOV structure [Media Foundation]","d3d11/D3D11_TEX2D_VDOV","mf.d3d11_tex2d_vdov"]
+description: Identifies the texture resource for a video decoder output view.
+helpviewer_keywords: ["D3D11_TEX2D_VDOV","D3D11_TEX2D_VDOV structure [Media Foundation]","d3d11/D3D11_TEX2D_VDOV","mf.d3d11_tex2d_vdov"]
 old-location: mf\d3d11_tex2d_vdov.htm
 tech.root: medfound
 ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0

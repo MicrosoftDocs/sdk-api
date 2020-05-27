@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetRecordUserNibbles
 title: IDvbContentDescriptor::GetRecordUserNibbles (dvbsiparser.h)
-description: Gets the two 4-bit fields that make up a broadcaster-defined identifier for a content descriptor.helpviewer_keywords: ["GetRecordUserNibbles","GetRecordUserNibbles method [Microsoft TV Technologies]","GetRecordUserNibbles method [Microsoft TV Technologies]","IDvbContentDescriptor interface","IDvbContentDescriptor interface [Microsoft TV Technologies]","GetRecordUserNibbles method","IDvbContentDescriptor.GetRecordUserNibbles","IDvbContentDescriptor::GetRecordUserNibbles","dvbsiparser/IDvbContentDescriptor::GetRecordUserNibbles","mstv.idvbcontentdescriptor_getrecordusernibbles"]
+description: Gets the two 4-bit fields that make up a broadcaster-defined identifier for a content descriptor.
+helpviewer_keywords: ["GetRecordUserNibbles","GetRecordUserNibbles method [Microsoft TV Technologies]","GetRecordUserNibbles method [Microsoft TV Technologies]","IDvbContentDescriptor interface","IDvbContentDescriptor interface [Microsoft TV Technologies]","GetRecordUserNibbles method","IDvbContentDescriptor.GetRecordUserNibbles","IDvbContentDescriptor::GetRecordUserNibbles","dvbsiparser/IDvbContentDescriptor::GetRecordUserNibbles","mstv.idvbcontentdescriptor_getrecordusernibbles"]
 old-location: mstv\idvbcontentdescriptor_getrecordusernibbles.htm
 tech.root: mstv
 ms.assetid: a071e725-c98d-4061-bda5-d7eca8b4b0e0

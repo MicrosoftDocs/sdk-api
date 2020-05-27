@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._SFVM_HELPTOPIC_DATA
 title: SFVM_HELPTOPIC_DATA (shlobj_core.h)
-description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.helpviewer_keywords: ["SFVM_HELPTOPIC_DATA","SFVM_HELPTOPIC_DATA structure [Windows Shell]","_SFVM_HELPTOPIC_DATA","_win32_SFVM_HELPTOPIC_DATA_str","shell.SFVM_HELPTOPIC_DATA_str","shlobj_core/SFVM_HELPTOPIC_DATA"]
+description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
+helpviewer_keywords: ["SFVM_HELPTOPIC_DATA","SFVM_HELPTOPIC_DATA structure [Windows Shell]","_SFVM_HELPTOPIC_DATA","_win32_SFVM_HELPTOPIC_DATA_str","shell.SFVM_HELPTOPIC_DATA_str","shlobj_core/SFVM_HELPTOPIC_DATA"]
 old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
 tech.root: shell
 ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba

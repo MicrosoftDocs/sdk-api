@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.QueryMemoryResourceNotification
 title: QueryMemoryResourceNotification function (memoryapi.h)
-description: Retrieves the state of the specified memory resource object.helpviewer_keywords: ["QueryMemoryResourceNotification","QueryMemoryResourceNotification function","_win32_querymemoryresourcenotification","base.querymemoryresourcenotification","winbase/QueryMemoryResourceNotification"]
+description: Retrieves the state of the specified memory resource object.
+helpviewer_keywords: ["QueryMemoryResourceNotification","QueryMemoryResourceNotification function","_win32_querymemoryresourcenotification","base.querymemoryresourcenotification","winbase/QueryMemoryResourceNotification"]
 old-location: base\querymemoryresourcenotification.htm
 tech.root: Memory
 ms.assetid: 95a38b97-7fae-4ec6-aa9e-cc800d40594b

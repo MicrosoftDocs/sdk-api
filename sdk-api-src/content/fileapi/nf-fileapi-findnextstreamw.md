@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.FindNextStreamW
 title: FindNextStreamW function (fileapi.h)
-description: Continues a stream search started by a previous call to the FindFirstStreamW function.helpviewer_keywords: ["FindNextStreamW","FindNextStreamW function [Files]","_win32_findnextstreamw","base.findnextstreamw","fileapi/FindNextStreamW","fs.findnextstreamw"]
+description: Continues a stream search started by a previous call to the FindFirstStreamW function.
+helpviewer_keywords: ["FindNextStreamW","FindNextStreamW function [Files]","_win32_findnextstreamw","base.findnextstreamw","fileapi/FindNextStreamW","fs.findnextstreamw"]
 old-location: fs\findnextstreamw.htm
 tech.root: FileIO
 ms.assetid: 2bb0301c-b2be-4056-913c-e4102386135e

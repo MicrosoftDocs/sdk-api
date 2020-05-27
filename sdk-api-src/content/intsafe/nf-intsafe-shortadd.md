@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ShortAdd
 title: ShortAdd function (intsafe.h)
-description: Adds two values of type SHORT.helpviewer_keywords: ["ShortAdd","ShortAdd function [Windows Shell]","intsafe/ShortAdd","shell.ShortAdd"]
+description: Adds two values of type SHORT.
+helpviewer_keywords: ["ShortAdd","ShortAdd function [Windows Shell]","intsafe/ShortAdd","shell.ShortAdd"]
 old-location: shell\ShortAdd.htm
 tech.root: shell
 ms.assetid: 8a26d824-6ed9-4f4f-8ee7-3616fec1bbc1

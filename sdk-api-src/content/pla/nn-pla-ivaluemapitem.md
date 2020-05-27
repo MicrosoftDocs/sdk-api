@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.IValueMapItem
 title: IValueMapItem (pla.h)
-description: Defines a name/value pair.To get this interface, call the IValueMap::Item property. To create this interface, call the IValueMap::CreateValueMapItem method.helpviewer_keywords: ["IValueMapItem","IValueMapItem interface [PLA]","IValueMapItem interface [PLA]","described","base.ivaluemapitem","pla.ivaluemapitem","pla/IValueMapItem"]
+description: Defines a name/value pair.To get this interface, call the IValueMap::Item property. To create this interface, call the IValueMap::CreateValueMapItem method.
+helpviewer_keywords: ["IValueMapItem","IValueMapItem interface [PLA]","IValueMapItem interface [PLA]","described","base.ivaluemapitem","pla.ivaluemapitem","pla/IValueMapItem"]
 old-location: pla\ivaluemapitem.htm
 tech.root: PLA
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c

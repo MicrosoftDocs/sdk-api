@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IEnumPins
 title: IEnumPins (strmif.h)
-description: Enumerates pins on a filter.The IBaseFilter::EnumPins method returns this interface.helpviewer_keywords: ["IEnumPins","IEnumPins interface [DirectShow]","IEnumPins interface [DirectShow]","described","IEnumPinsInterface","dshow.ienumpins","strmif/IEnumPins"]
+description: Enumerates pins on a filter.The IBaseFilter::EnumPins method returns this interface.
+helpviewer_keywords: ["IEnumPins","IEnumPins interface [DirectShow]","IEnumPins interface [DirectShow]","described","IEnumPinsInterface","dshow.ienumpins","strmif/IEnumPins"]
 old-location: dshow\ienumpins.htm
 tech.root: DirectShow
 ms.assetid: 839190b4-fd29-4a94-8838-d84adfdd9668

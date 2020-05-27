@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_DataSize32BitHigh
 title: IFsiFileItem::get_DataSize32BitHigh (imapi2fs.h)
-description: Retrieves the most significant 32 bits of the IFsiFileItem::get_DataSize property.helpviewer_keywords: ["IFsiFileItem interface [IMAPI]","get_DataSize32BitHigh method","IFsiFileItem.get_DataSize32BitHigh","IFsiFileItem::get_DataSize32BitHigh","get_DataSize32BitHigh","get_DataSize32BitHigh method [IMAPI]","get_DataSize32BitHigh method [IMAPI]","IFsiFileItem interface","imapi.ifsifileitem_get_datasize32bithigh","imapi2fs/IFsiFileItem::get_DataSize32BitHigh"]
+description: Retrieves the most significant 32 bits of the IFsiFileItem::get_DataSize property.
+helpviewer_keywords: ["IFsiFileItem interface [IMAPI]","get_DataSize32BitHigh method","IFsiFileItem.get_DataSize32BitHigh","IFsiFileItem::get_DataSize32BitHigh","get_DataSize32BitHigh","get_DataSize32BitHigh method [IMAPI]","get_DataSize32BitHigh method [IMAPI]","IFsiFileItem interface","imapi.ifsifileitem_get_datasize32bithigh","imapi2fs/IFsiFileItem::get_DataSize32BitHigh"]
 old-location: imapi\ifsifileitem_get_datasize32bithigh.htm
 tech.root: imapi
 ms.assetid: 2f4f06e7-10a6-4aa0-b7b1-bf8799fcd41e

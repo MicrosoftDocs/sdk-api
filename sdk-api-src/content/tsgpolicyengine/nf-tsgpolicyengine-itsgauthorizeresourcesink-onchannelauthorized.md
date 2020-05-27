@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeResourceSink.OnChannelAuthorized
 title: ITSGAuthorizeResourceSink::OnChannelAuthorized (tsgpolicyengine.h)
-description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.helpviewer_keywords: ["ITSGAuthorizeResourceSink interface [Remote Desktop Services]","OnChannelAuthorized method","ITSGAuthorizeResourceSink.OnChannelAuthorized","ITSGAuthorizeResourceSink::OnChannelAuthorized","OnChannelAuthorized","OnChannelAuthorized method [Remote Desktop Services]","OnChannelAuthorized method [Remote Desktop Services]","ITSGAuthorizeResourceSink interface","termserv.itsgauthorizeresourcesink_onchannelauthorized","tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized"]
+description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
+helpviewer_keywords: ["ITSGAuthorizeResourceSink interface [Remote Desktop Services]","OnChannelAuthorized method","ITSGAuthorizeResourceSink.OnChannelAuthorized","ITSGAuthorizeResourceSink::OnChannelAuthorized","OnChannelAuthorized","OnChannelAuthorized method [Remote Desktop Services]","OnChannelAuthorized method [Remote Desktop Services]","ITSGAuthorizeResourceSink interface","termserv.itsgauthorizeresourcesink_onchannelauthorized","tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized"]
 old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm
 tech.root: TermServ
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29

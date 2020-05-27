@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IContactManagerInterop.ShowContactCardForWindow
 title: IContactManagerInterop::ShowContactCardForWindow (shobjidl_core.h)
-description: Displays the UI for a contact on the specified window.helpviewer_keywords: ["FP_ABOVE","FP_BELOW","FP_DEFAULT","FP_LEFT","FP_RIGHT","IContactManagerInterop interface [Windows Shell]","ShowContactCardForWindow method","IContactManagerInterop.ShowContactCardForWindow","IContactManagerInterop::ShowContactCardForWindow","ShowContactCardForWindow","ShowContactCardForWindow method [Windows Shell]","ShowContactCardForWindow method [Windows Shell]","IContactManagerInterop interface","shell.IContactManagerInterop_ShowContactCardForWindow","shobjidl_core/IContactManagerInterop::ShowContactCardForWindow"]
+description: Displays the UI for a contact on the specified window.
+helpviewer_keywords: ["FP_ABOVE","FP_BELOW","FP_DEFAULT","FP_LEFT","FP_RIGHT","IContactManagerInterop interface [Windows Shell]","ShowContactCardForWindow method","IContactManagerInterop.ShowContactCardForWindow","IContactManagerInterop::ShowContactCardForWindow","ShowContactCardForWindow","ShowContactCardForWindow method [Windows Shell]","ShowContactCardForWindow method [Windows Shell]","IContactManagerInterop interface","shell.IContactManagerInterop_ShowContactCardForWindow","shobjidl_core/IContactManagerInterop::ShowContactCardForWindow"]
 old-location: shell\IContactManagerInterop_ShowContactCardForWindow.htm
 tech.root: shell
 ms.assetid: 2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D

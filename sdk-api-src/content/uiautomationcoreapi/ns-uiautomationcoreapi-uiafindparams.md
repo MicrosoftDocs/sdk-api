@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcoreapi.UiaFindParams
 title: UiaFindParams (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains parameters used in the UiaFind function.helpviewer_keywords: ["UiaFindParams","UiaFindParams structure [Windows Accessibility]","uiauto.uiauto_UiaFindParamsStruct","uiauto_UiaFindParamsStruct","uiautomationcoreapi/UiaFindParams","winauto.uiauto_UiaFindParamsStruct"]
+description: Note  This structure is deprecated.  Contains parameters used in the UiaFind function.
+helpviewer_keywords: ["UiaFindParams","UiaFindParams structure [Windows Accessibility]","uiauto.uiauto_UiaFindParamsStruct","uiauto_UiaFindParamsStruct","uiautomationcoreapi/UiaFindParams","winauto.uiauto_UiaFindParamsStruct"]
 old-location: winauto\uiauto_UiaFindParamsStruct.htm
 tech.root: WinAuto
 ms.assetid: eb3c16d1-3e64-4f8e-aa03-c72c7a87b67f

@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.INewShortcutHookA
 title: INewShortcutHookA (shlobj.h)
-description: Exposes methods to create a new Internet shortcut.helpviewer_keywords: ["INewShortcutHook","INewShortcutHook interface [Windows Shell]","INewShortcutHook interface [Windows Shell]","described","INewShortcutHookA","INewShortcutHookW","_win32_INewShortcutHook","shell.INewShortcutHook","shlobj/INewShortcutHook"]
+description: Exposes methods to create a new Internet shortcut.
+helpviewer_keywords: ["INewShortcutHook","INewShortcutHook interface [Windows Shell]","INewShortcutHook interface [Windows Shell]","described","INewShortcutHookA","INewShortcutHookW","_win32_INewShortcutHook","shell.INewShortcutHook","shlobj/INewShortcutHook"]
 old-location: shell\INewShortcutHook.htm
 tech.root: shell
 ms.assetid: 5a097e96-178a-44bd-9d3d-ed53338b97d5

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument.SetSaved
 title: ITextDocument::SetSaved (tom.h)
-description: Sets the document Saved property.helpviewer_keywords: ["ITextDocument interface [Windows Controls]","SetSaved method","ITextDocument.SetSaved","ITextDocument::SetSaved","SetSaved","SetSaved method [Windows Controls]","SetSaved method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_SetSaved","_win32_ITextDocument_SetSaved_cpp","controls.ITextDocument_SetSaved","controls._win32_ITextDocument_SetSaved","tom/ITextDocument::SetSaved","tomFalse","tomTrue"]
+description: Sets the document Saved property.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","SetSaved method","ITextDocument.SetSaved","ITextDocument::SetSaved","SetSaved","SetSaved method [Windows Controls]","SetSaved method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_SetSaved","_win32_ITextDocument_SetSaved_cpp","controls.ITextDocument_SetSaved","controls._win32_ITextDocument_SetSaved","tom/ITextDocument::SetSaved","tomFalse","tomTrue"]
 old-location: controls\ITextDocument_SetSaved.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsaved.htm

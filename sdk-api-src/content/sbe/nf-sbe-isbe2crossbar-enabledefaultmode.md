@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.EnableDefaultMode
 title: ISBE2Crossbar::EnableDefaultMode (sbe.h)
-description: Enables or disables the profile default mode and stream default mode for a crossbar in a Stream Buffer Source filter.helpviewer_keywords: ["EnableDefaultMode","EnableDefaultMode method [Microsoft TV Technologies]","EnableDefaultMode method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","EnableDefaultMode method","ISBE2Crossbar.EnableDefaultMode","ISBE2Crossbar::EnableDefaultMode","mstv.isbe2crossbar_enabledefaultmode","sbe/ISBE2Crossbar::EnableDefaultMode"]
+description: Enables or disables the profile default mode and stream default mode for a crossbar in a Stream Buffer Source filter.
+helpviewer_keywords: ["EnableDefaultMode","EnableDefaultMode method [Microsoft TV Technologies]","EnableDefaultMode method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","EnableDefaultMode method","ISBE2Crossbar.EnableDefaultMode","ISBE2Crossbar::EnableDefaultMode","mstv.isbe2crossbar_enabledefaultmode","sbe/ISBE2Crossbar::EnableDefaultMode"]
 old-location: mstv\isbe2crossbar_enabledefaultmode.htm
 tech.root: mstv
 ms.assetid: 5038050b-319d-488a-9cea-a2fc59b90cc8

@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.SetEngineDeviceFormat
 title: IHardwareAudioEngineBase::SetEngineDeviceFormat (audioengineendpoint.h)
-description: The SetEngineDeviceFormat method sets the waveform audio format for the hardware audio engine.helpviewer_keywords: ["IHardwareAudioEngineBase interface [Core Audio]","SetEngineDeviceFormat method","IHardwareAudioEngineBase.SetEngineDeviceFormat","IHardwareAudioEngineBase::SetEngineDeviceFormat","SetEngineDeviceFormat","SetEngineDeviceFormat method [Core Audio]","SetEngineDeviceFormat method [Core Audio]","IHardwareAudioEngineBase interface","audioengineendpoint/IHardwareAudioEngineBase::SetEngineDeviceFormat","coreaudio.ihardwareaudioenginebase_setenginedeviceformat"]
+description: The SetEngineDeviceFormat method sets the waveform audio format for the hardware audio engine.
+helpviewer_keywords: ["IHardwareAudioEngineBase interface [Core Audio]","SetEngineDeviceFormat method","IHardwareAudioEngineBase.SetEngineDeviceFormat","IHardwareAudioEngineBase::SetEngineDeviceFormat","SetEngineDeviceFormat","SetEngineDeviceFormat method [Core Audio]","SetEngineDeviceFormat method [Core Audio]","IHardwareAudioEngineBase interface","audioengineendpoint/IHardwareAudioEngineBase::SetEngineDeviceFormat","coreaudio.ihardwareaudioenginebase_setenginedeviceformat"]
 old-location: coreaudio\ihardwareaudioenginebase_setenginedeviceformat.htm
 tech.root: CoreAudio
 ms.assetid: BE4644E7-DBC7-4B30-AD26-483889425195

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.SetBandwidth
 title: IWMBandwidthSharing::SetBandwidth (wmsdkidl.h)
-description: The SetBandwidth method sets the bandwidth and maximum buffer size for a combined stream.helpviewer_keywords: ["IWMBandwidthSharing interface [windows Media Format]","SetBandwidth method","IWMBandwidthSharing.SetBandwidth","IWMBandwidthSharing::SetBandwidth","IWMBandwidthSharingSetBandwidth","SetBandwidth","SetBandwidth method [windows Media Format]","SetBandwidth method [windows Media Format]","IWMBandwidthSharing interface","wmformat.iwmbandwidthsharing_setbandwidth","wmsdkidl/IWMBandwidthSharing::SetBandwidth"]
+description: The SetBandwidth method sets the bandwidth and maximum buffer size for a combined stream.
+helpviewer_keywords: ["IWMBandwidthSharing interface [windows Media Format]","SetBandwidth method","IWMBandwidthSharing.SetBandwidth","IWMBandwidthSharing::SetBandwidth","IWMBandwidthSharingSetBandwidth","SetBandwidth","SetBandwidth method [windows Media Format]","SetBandwidth method [windows Media Format]","IWMBandwidthSharing interface","wmformat.iwmbandwidthsharing_setbandwidth","wmsdkidl/IWMBandwidthSharing::SetBandwidth"]
 old-location: wmformat\iwmbandwidthsharing_setbandwidth.htm
 tech.root: wmformat
 ms.assetid: 1f2ac613-3674-46d9-ae7c-26389dbede02

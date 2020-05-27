@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyStore.SetValue
 title: IPropertyStore::SetValue (propsys.h)
-description: This method sets a property value or replaces or removes an existing value.helpviewer_keywords: ["IPropertyStore interface [Audio Devices]","SetValue method","IPropertyStore.SetValue","IPropertyStore::SetValue","SetValue","SetValue (IpropertyStore)","SetValue method [Audio Devices]","SetValue method [Audio Devices]","IPropertyStore interface","audio.ipropertystore_setvalue","audio_syseffects_r_0f840b2a-35e2-4a93-9c50-84671d662b7d.xml","propsys/IPropertyStore::SetValue"]
+description: This method sets a property value or replaces or removes an existing value.
+helpviewer_keywords: ["IPropertyStore interface [Audio Devices]","SetValue method","IPropertyStore.SetValue","IPropertyStore::SetValue","SetValue","SetValue (IpropertyStore)","SetValue method [Audio Devices]","SetValue method [Audio Devices]","IPropertyStore interface","audio.ipropertystore_setvalue","audio_syseffects_r_0f840b2a-35e2-4a93-9c50-84671d662b7d.xml","propsys/IPropertyStore::SetValue"]
 old-location: audio\ipropertystore_setvalue.htm
 tech.root: audio
 ms.assetid: be21bcb2-6875-4559-abd7-a496f0fcddd6

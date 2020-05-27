@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_get_paged_count
 title: ldap_get_paged_count function (winldap.h)
-description: Records the number of paged results that the server has returned for a search.helpviewer_keywords: ["_ldap_ldap_get_paged_count","ldap.ldap__get__paged__count","ldap.ldap_get_paged_count","ldap_get_paged_count","ldap_get_paged_count function [LDAP]","winldap/ldap_get_paged_count"]
+description: Records the number of paged results that the server has returned for a search.
+helpviewer_keywords: ["_ldap_ldap_get_paged_count","ldap.ldap__get__paged__count","ldap.ldap_get_paged_count","ldap_get_paged_count","ldap_get_paged_count function [LDAP]","winldap/ldap_get_paged_count"]
 old-location: ldap\ldap_get_paged_count.htm
 tech.root: ldap
 ms.assetid: 17ad1c7e-c3a1-4f6a-8303-fbbedfc36409

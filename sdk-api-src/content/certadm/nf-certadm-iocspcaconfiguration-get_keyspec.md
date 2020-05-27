@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_KeySpec
 title: IOCSPCAConfiguration::get_KeySpec (certadm.h)
-description: Gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content.helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","KeySpec property","IOCSPCAConfiguration.KeySpec","IOCSPCAConfiguration.get_KeySpec","IOCSPCAConfiguration::KeySpec","IOCSPCAConfiguration::get_KeySpec","KeySpec property [Security]","KeySpec property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::KeySpec","certadm/IOCSPCAConfiguration::get_KeySpec","get_KeySpec","security.iocspcaconfiguration_keyspec_method"]
+description: Gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content.
+helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","KeySpec property","IOCSPCAConfiguration.KeySpec","IOCSPCAConfiguration.get_KeySpec","IOCSPCAConfiguration::KeySpec","IOCSPCAConfiguration::get_KeySpec","KeySpec property [Security]","KeySpec property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::KeySpec","certadm/IOCSPCAConfiguration::get_KeySpec","get_KeySpec","security.iocspcaconfiguration_keyspec_method"]
 old-location: security\iocspcaconfiguration_keyspec_method.htm
 tech.root: SecCrypto
 ms.assetid: 86f1e52f-bce2-497c-98e7-848ffc3243a0

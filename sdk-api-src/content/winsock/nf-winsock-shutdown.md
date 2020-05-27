@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock.shutdown
 title: shutdown function (winsock.h)
-description: The shutdown function disables sends or receives on a socket.helpviewer_keywords: ["SD_BOTH","SD_RECEIVE","SD_SEND","_win32_shutdown_2","shutdown","shutdown function [Winsock]","winsock.shutdown_2","winsock/shutdown"]
+description: The shutdown function disables sends or receives on a socket.
+helpviewer_keywords: ["SD_BOTH","SD_RECEIVE","SD_SEND","_win32_shutdown_2","shutdown","shutdown function [Winsock]","winsock.shutdown_2","winsock/shutdown"]
 old-location: winsock\shutdown_2.htm
 tech.root: WinSock
 ms.assetid: 6998f0c6-adc9-481f-b9fb-75f9c9f5caaf

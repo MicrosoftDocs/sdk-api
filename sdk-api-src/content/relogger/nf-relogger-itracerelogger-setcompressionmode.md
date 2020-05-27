@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetCompressionMode
 title: ITraceRelogger::SetCompressionMode (relogger.h)
-description: Enables or disables compression on the relogged trace.helpviewer_keywords: ["ITraceRelogger interface [ETW]","SetCompressionMode method","ITraceRelogger.SetCompressionMode","ITraceRelogger::SetCompressionMode","SetCompressionMode","SetCompressionMode method [ETW]","SetCompressionMode method [ETW]","ITraceRelogger interface","etw.itracerelogger_setcompressionmode","relogger/ITraceRelogger::SetCompressionMode"]
+description: Enables or disables compression on the relogged trace.
+helpviewer_keywords: ["ITraceRelogger interface [ETW]","SetCompressionMode method","ITraceRelogger.SetCompressionMode","ITraceRelogger::SetCompressionMode","SetCompressionMode","SetCompressionMode method [ETW]","SetCompressionMode method [ETW]","ITraceRelogger interface","etw.itracerelogger_setcompressionmode","relogger/ITraceRelogger::SetCompressionMode"]
 old-location: etw\itracerelogger_setcompressionmode.htm
 tech.root: ETW
 ms.assetid: 2a758af0-2316-4c4b-8717-ee1ebad205ee

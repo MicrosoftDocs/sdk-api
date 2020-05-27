@@ -1,7 +1,8 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamAttributesManager
 title: IMFMuxStreamAttributesManager (mfobjects.h)
-description: Provides access to the IMFAttributes of the substreams of a multiplexed media source.helpviewer_keywords: ["IMFMuxStreamAttributesManager","IMFMuxStreamAttributesManager interface [Media Foundation]","IMFMuxStreamAttributesManager interface [Media Foundation]","described","mf.imfmuxstreamattributesmanager","mfobjects/IMFMuxStreamAttributesManager"]
+description: Provides access to the IMFAttributes of the substreams of a multiplexed media source.
+helpviewer_keywords: ["IMFMuxStreamAttributesManager","IMFMuxStreamAttributesManager interface [Media Foundation]","IMFMuxStreamAttributesManager interface [Media Foundation]","described","mf.imfmuxstreamattributesmanager","mfobjects/IMFMuxStreamAttributesManager"]
 old-location: mf\imfmuxstreamattributesmanager.htm
 tech.root: medfound
 ms.assetid: 3C3D4AC2-93A1-48E9-8FB0-75650BFFB4F6

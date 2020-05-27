@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMFLOAT3.operator-assign
 title: XMFLOAT3::operator-assign
-description: Assigns the vector component data from one instance of XMFLOAT3 to the current instance of XMFLOAT3.helpviewer_keywords: ["Use DirectX..XMFLOAT3.operator =","Use DirectX::::XMFLOAT3::operator =","XMFLOAT3 structure [DirectX Math Support APIs]","operator = method","XMFLOAT3.operator =","XMFLOAT3.operator-assign","XMFLOAT3.operator=","XMFLOAT3::operator-assign","XMFLOAT3::operator=","dxmath.xmfloat3_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3 structure","operator="]
+description: Assigns the vector component data from one instance of XMFLOAT3 to the current instance of XMFLOAT3.
+helpviewer_keywords: ["Use DirectX..XMFLOAT3.operator =","Use DirectX::::XMFLOAT3::operator =","XMFLOAT3 structure [DirectX Math Support APIs]","operator = method","XMFLOAT3.operator =","XMFLOAT3.operator-assign","XMFLOAT3.operator=","XMFLOAT3::operator-assign","XMFLOAT3::operator=","dxmath.xmfloat3_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3 structure","operator="]
 old-location: dxmath\xmfloat3_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.operator = (const XMFLOAT3)

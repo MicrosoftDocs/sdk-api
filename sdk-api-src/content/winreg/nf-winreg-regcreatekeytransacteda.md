@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegCreateKeyTransactedA
 title: RegCreateKeyTransactedA function (winreg.h)
-description: Creates the specified registry key and associates it with a transaction.helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyTransacted","RegCreateKeyTransacted function","RegCreateKeyTransactedA","RegCreateKeyTransactedW","base.regcreatekeytransacted","winreg/RegCreateKeyTransacted","winreg/RegCreateKeyTransactedA","winreg/RegCreateKeyTransactedW"]
+description: Creates the specified registry key and associates it with a transaction.
+helpviewer_keywords: ["REG_CREATED_NEW_KEY","REG_OPENED_EXISTING_KEY","REG_OPTION_BACKUP_RESTORE","REG_OPTION_NON_VOLATILE","REG_OPTION_VOLATILE","RegCreateKeyTransacted","RegCreateKeyTransacted function","RegCreateKeyTransactedA","RegCreateKeyTransactedW","base.regcreatekeytransacted","winreg/RegCreateKeyTransacted","winreg/RegCreateKeyTransactedA","winreg/RegCreateKeyTransactedW"]
 old-location: base\regcreatekeytransacted.htm
 tech.root: SysInfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2

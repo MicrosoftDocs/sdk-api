@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertFindCertificateInCRL
 title: CertFindCertificateInCRL function (wincrypt.h)
-description: The CertFindCertificateInCRL function searches the certificate revocation list (CRL) for the specified certificate.helpviewer_keywords: ["CertFindCertificateInCRL","CertFindCertificateInCRL function [Security]","_crypto2_certfindcertificateincrl","security.certfindcertificateincrl","wincrypt/CertFindCertificateInCRL"]
+description: The CertFindCertificateInCRL function searches the certificate revocation list (CRL) for the specified certificate.
+helpviewer_keywords: ["CertFindCertificateInCRL","CertFindCertificateInCRL function [Security]","_crypto2_certfindcertificateincrl","security.certfindcertificateincrl","wincrypt/CertFindCertificateInCRL"]
 old-location: security\certfindcertificateincrl.htm
 tech.root: SecCrypto
 ms.assetid: c05a99e6-da38-431e-8d02-04056047a211

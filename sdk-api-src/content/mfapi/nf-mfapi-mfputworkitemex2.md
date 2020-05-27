@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFPutWorkItemEx2
 title: MFPutWorkItemEx2 function (mfapi.h)
-description: Puts an asynchronous operation on a work queue, with a specified priority.helpviewer_keywords: ["MFPutWorkItemEx2","MFPutWorkItemEx2 function [Media Foundation]","mf.mfputworkitemex2","mfapi/MFPutWorkItemEx2"]
+description: Puts an asynchronous operation on a work queue, with a specified priority.
+helpviewer_keywords: ["MFPutWorkItemEx2","MFPutWorkItemEx2 function [Media Foundation]","mf.mfputworkitemex2","mfapi/MFPutWorkItemEx2"]
 old-location: mf\mfputworkitemex2.htm
 tech.root: medfound
 ms.assetid: A29DC852-AF0F-4269-97FB-DA1F725E7C09

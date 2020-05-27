@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndPutSource
 title: MCIWndPutSource macro (vfw.h)
-description: The MCIWndPutSource macro redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_PUT_SOURCE message.helpviewer_keywords: ["MCIWndPutSource","MCIWndPutSource macro [Windows Multimedia]","_win32_MCIWndPutSource","multimedia.mciwndputsource","vfw/MCIWndPutSource"]
+description: The MCIWndPutSource macro redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_PUT_SOURCE message.
+helpviewer_keywords: ["MCIWndPutSource","MCIWndPutSource macro [Windows Multimedia]","_win32_MCIWndPutSource","multimedia.mciwndputsource","vfw/MCIWndPutSource"]
 old-location: multimedia\mciwndputsource.htm
 tech.root: Multimedia
 ms.assetid: a55e72e3-47af-4846-a20d-5f0176127459

@@ -1,7 +1,8 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleasePrimaryBufferInterface
 title: IAMDirectSound::ReleasePrimaryBufferInterface (amaudio.h)
-description: The ReleasePrimaryBufferInterface method is not implemented.helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleasePrimaryBufferInterface method","IAMDirectSound.ReleasePrimaryBufferInterface","IAMDirectSound::ReleasePrimaryBufferInterface","IAMDirectSoundReleasePrimaryBufferInterface","ReleasePrimaryBufferInterface","ReleasePrimaryBufferInterface method [DirectShow]","ReleasePrimaryBufferInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleasePrimaryBufferInterface","dshow.iamdirectsound_releaseprimarybufferinterface"]
+description: The ReleasePrimaryBufferInterface method is not implemented.
+helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleasePrimaryBufferInterface method","IAMDirectSound.ReleasePrimaryBufferInterface","IAMDirectSound::ReleasePrimaryBufferInterface","IAMDirectSoundReleasePrimaryBufferInterface","ReleasePrimaryBufferInterface","ReleasePrimaryBufferInterface method [DirectShow]","ReleasePrimaryBufferInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleasePrimaryBufferInterface","dshow.iamdirectsound_releaseprimarybufferinterface"]
 old-location: dshow\iamdirectsound_releaseprimarybufferinterface.htm
 tech.root: DirectShow
 ms.assetid: 9a04d344-394e-4a93-a601-0aa419182d9b

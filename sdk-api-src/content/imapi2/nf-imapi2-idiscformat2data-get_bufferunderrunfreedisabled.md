@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_BufferUnderrunFreeDisabled
 title: IDiscFormat2Data::get_BufferUnderrunFreeDisabled (imapi2.h)
-description: Determines if Buffer Underrun Free recording is enabled for CDR, CD-RW, and DVD-R media.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_BufferUnderrunFreeDisabled method","IDiscFormat2Data.get_BufferUnderrunFreeDisabled","IDiscFormat2Data::get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled method [IMAPI]","get_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_bufferunderrunfreedisabled","imapi2/IDiscFormat2Data::get_BufferUnderrunFreeDisabled"]
+description: Determines if Buffer Underrun Free recording is enabled for CDR, CD-RW, and DVD-R media.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_BufferUnderrunFreeDisabled method","IDiscFormat2Data.get_BufferUnderrunFreeDisabled","IDiscFormat2Data::get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled method [IMAPI]","get_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_bufferunderrunfreedisabled","imapi2/IDiscFormat2Data::get_BufferUnderrunFreeDisabled"]
 old-location: imapi\idiscformat2data_get_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 2b85f13c-33c2-4b19-9b70-5a829f9de3ea

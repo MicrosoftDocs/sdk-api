@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolSettings.MergeSettings
 title: IWRdsProtocolSettings::MergeSettings (wtsprotocol.h)
-description: Adds (merges) the specified policy-related settings into the larger group of connection settings.helpviewer_keywords: ["IWRdsProtocolSettings interface [Remote Desktop Services]","MergeSettings method","IWRdsProtocolSettings.MergeSettings","IWRdsProtocolSettings::MergeSettings","MergeSettings","MergeSettings method [Remote Desktop Services]","MergeSettings method [Remote Desktop Services]","IWRdsProtocolSettings interface","termserv.iwrdsprotocolsettings_mergesettings","wtsprotocol/IWRdsProtocolSettings::MergeSettings"]
+description: Adds (merges) the specified policy-related settings into the larger group of connection settings.
+helpviewer_keywords: ["IWRdsProtocolSettings interface [Remote Desktop Services]","MergeSettings method","IWRdsProtocolSettings.MergeSettings","IWRdsProtocolSettings::MergeSettings","MergeSettings","MergeSettings method [Remote Desktop Services]","MergeSettings method [Remote Desktop Services]","IWRdsProtocolSettings interface","termserv.iwrdsprotocolsettings_mergesettings","wtsprotocol/IWRdsProtocolSettings::MergeSettings"]
 old-location: termserv\iwrdsprotocolsettings_mergesettings.htm
 tech.root: TermServ
 ms.assetid: fa05bcde-e4db-481b-88ab-57d070153517

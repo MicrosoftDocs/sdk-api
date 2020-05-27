@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtOpenChannelConfig
 title: EvtOpenChannelConfig function (winevt.h)
-description: Gets a handle that you use to read or modify a channel's configuration property.helpviewer_keywords: ["EvtOpenChannelConfig","EvtOpenChannelConfig function [EventLog]","wes.evtopenchannelconfig","winevt/EvtOpenChannelConfig"]
+description: Gets a handle that you use to read or modify a channel's configuration property.
+helpviewer_keywords: ["EvtOpenChannelConfig","EvtOpenChannelConfig function [EventLog]","wes.evtopenchannelconfig","winevt/EvtOpenChannelConfig"]
 old-location: wes\evtopenchannelconfig.htm
 tech.root: wes
 ms.assetid: d197f04e-01e8-4ef6-a9ca-61e5178d825b

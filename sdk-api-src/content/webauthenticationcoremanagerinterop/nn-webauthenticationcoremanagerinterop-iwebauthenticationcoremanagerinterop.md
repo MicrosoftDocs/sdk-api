@@ -1,7 +1,8 @@
 ---
 UID: NN:webauthenticationcoremanagerinterop.IWebAuthenticationCoreManagerInterop
 title: IWebAuthenticationCoreManagerInterop
-description: Contains core methods for obtaining tokens from web account providers.helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop"]
+description: Contains core methods for obtaining tokens from web account providers.
+helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop
 f1_keywords:

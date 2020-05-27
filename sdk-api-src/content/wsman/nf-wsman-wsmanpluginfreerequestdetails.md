@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManPluginFreeRequestDetails
 title: WSManPluginFreeRequestDetails function (wsman.h)
-description: Releases memory that is allocated for the WSMAN_PLUGIN_REQUEST structure, which is passed into operation plug-in entry points.helpviewer_keywords: ["WSManPluginFreeRequestDetails","WSManPluginFreeRequestDetails function [Windows Remote Management]","winrm.wsmanpluginfreerequestdetails","wsman/WSManPluginFreeRequestDetails"]
+description: Releases memory that is allocated for the WSMAN_PLUGIN_REQUEST structure, which is passed into operation plug-in entry points.
+helpviewer_keywords: ["WSManPluginFreeRequestDetails","WSManPluginFreeRequestDetails function [Windows Remote Management]","winrm.wsmanpluginfreerequestdetails","wsman/WSManPluginFreeRequestDetails"]
 old-location: winrm\wsmanpluginfreerequestdetails.htm
 tech.root: winrm
 ms.assetid: 43716391-536c-49ae-9266-a8ae72621a0b

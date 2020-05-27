@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetConfigVQ
 title: DhcpServerSetConfigVQ function (dhcpsapi.h)
-description: Sets or updates DHCP server settings.helpviewer_keywords: ["DhcpServerSetConfigVQ","DhcpServerSetConfigVQ function [DHCP]","dhcp.dhcpserversetconfigvq","dhcpsapi/DhcpServerSetConfigVQ"]
+description: Sets or updates DHCP server settings.
+helpviewer_keywords: ["DhcpServerSetConfigVQ","DhcpServerSetConfigVQ function [DHCP]","dhcp.dhcpserversetconfigvq","dhcpsapi/DhcpServerSetConfigVQ"]
 old-location: dhcp\dhcpserversetconfigvq.htm
 tech.root: DHCP
 ms.assetid: 3498b674-5771-47b6-9dfa-a8e3e10bca40

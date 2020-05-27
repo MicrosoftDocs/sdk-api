@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IInputObjectSite.OnFocusChangeIS
 title: IInputObjectSite::OnFocusChangeIS (shobjidl_core.h)
-description: Informs the browser that the focus has changed.helpviewer_keywords: ["IInputObjectSite interface [Windows Shell]","OnFocusChangeIS method","IInputObjectSite.OnFocusChangeIS","IInputObjectSite::OnFocusChangeIS","OnFocusChangeIS","OnFocusChangeIS method [Windows Shell]","OnFocusChangeIS method [Windows Shell]","IInputObjectSite interface","_win32_IInputObjectSite_OnFocusChangeIS","shell.IInputObjectSite_OnFocusChangeIS","shobjidl_core/IInputObjectSite::OnFocusChangeIS"]
+description: Informs the browser that the focus has changed.
+helpviewer_keywords: ["IInputObjectSite interface [Windows Shell]","OnFocusChangeIS method","IInputObjectSite.OnFocusChangeIS","IInputObjectSite::OnFocusChangeIS","OnFocusChangeIS","OnFocusChangeIS method [Windows Shell]","OnFocusChangeIS method [Windows Shell]","IInputObjectSite interface","_win32_IInputObjectSite_OnFocusChangeIS","shell.IInputObjectSite_OnFocusChangeIS","shobjidl_core/IInputObjectSite::OnFocusChangeIS"]
 old-location: shell\IInputObjectSite_OnFocusChangeIS.htm
 tech.root: shell
 ms.assetid: b779beea-534b-4cf0-9426-db2bbcb52277

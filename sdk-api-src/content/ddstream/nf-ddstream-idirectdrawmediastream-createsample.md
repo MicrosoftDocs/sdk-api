@@ -1,7 +1,8 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.CreateSample
 title: IDirectDrawMediaStream::CreateSample (ddstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Creates a stream sample using the specified DirectDraw surface object.helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","CreateSample method","IDirectDrawMediaStream.CreateSample","IDirectDrawMediaStream::CreateSample","IDirectDrawMediaStreamCreateSample","ddstream/IDirectDrawMediaStream::CreateSample","dshow.idirectdrawmediastream_createsample"]
+description: Note  This interface is deprecated. New applications should not use it. Creates a stream sample using the specified DirectDraw surface object.
+helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","CreateSample method","IDirectDrawMediaStream.CreateSample","IDirectDrawMediaStream::CreateSample","IDirectDrawMediaStreamCreateSample","ddstream/IDirectDrawMediaStream::CreateSample","dshow.idirectdrawmediastream_createsample"]
 old-location: dshow\idirectdrawmediastream_createsample.htm
 tech.root: DirectShow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b

@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_2.IDXGIDisplayControl
 title: IDXGIDisplayControl (dxgi1_2.h)
-description: The IDXGIDisplayControl interface exposes methods to indicate user preference for the operating system's stereoscopic 3D display behavior and to set stereoscopic 3D display status to enable or disable.helpviewer_keywords: ["IDXGIDisplayControl","IDXGIDisplayControl interface [DXGI]","IDXGIDisplayControl interface [DXGI]","described","direct3ddxgi.idxgidisplaycontrol","dxgi1_2/IDXGIDisplayControl"]
+description: The IDXGIDisplayControl interface exposes methods to indicate user preference for the operating system's stereoscopic 3D display behavior and to set stereoscopic 3D display status to enable or disable.
+helpviewer_keywords: ["IDXGIDisplayControl","IDXGIDisplayControl interface [DXGI]","IDXGIDisplayControl interface [DXGI]","described","direct3ddxgi.idxgidisplaycontrol","dxgi1_2/IDXGIDisplayControl"]
 old-location: direct3ddxgi\idxgidisplaycontrol.htm
 tech.root: direct3ddxgi
 ms.assetid: 8E9A059E-D7E2-4179-9ECA-D66BC9CD3757

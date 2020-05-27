@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_Description
 title: IAzAuthorizationStore::put_Description (azroles.h)
-description: Sets or retrieves a comment that describes the operation.helpviewer_keywords: ["AzAuthorizationStore object [Security]","Description property","Description property [Security]","Description property [Security]","AzAuthorizationStore object","Description property [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","Description property","IAzAuthorizationStore.Description","IAzAuthorizationStore.put_Description","IAzAuthorizationStore::Description","IAzAuthorizationStore::get_Description","IAzAuthorizationStore::put_Description","azroles/IAzAuthorizationStore::Description","azroles/IAzAuthorizationStore::get_Description","azroles/IAzAuthorizationStore::put_Description","put_Description","security.azauthorizationstore_description"]
+description: Sets or retrieves a comment that describes the operation.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","Description property","Description property [Security]","Description property [Security]","AzAuthorizationStore object","Description property [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","Description property","IAzAuthorizationStore.Description","IAzAuthorizationStore.put_Description","IAzAuthorizationStore::Description","IAzAuthorizationStore::get_Description","IAzAuthorizationStore::put_Description","azroles/IAzAuthorizationStore::Description","azroles/IAzAuthorizationStore::get_Description","azroles/IAzAuthorizationStore::put_Description","put_Description","security.azauthorizationstore_description"]
 old-location: security\azauthorizationstore_description.htm
 tech.root: SecAuthZ
 ms.assetid: 79ef0e2f-3178-4310-832c-b0eea06cf1b0

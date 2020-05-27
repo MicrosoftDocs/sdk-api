@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.AdviseInkChange
 title: AdviseInkChange function (recapis.h)
-description: Stops the recognizer from processing ink because a stroke has been added or deleted.helpviewer_keywords: ["326bbbff-4adc-46ae-aab3-626b55fecf0c","AdviseInkChange","AdviseInkChange function [Tablet PC]","recapis/AdviseInkChange","tablet.adviseinkchange"]
+description: Stops the recognizer from processing ink because a stroke has been added or deleted.
+helpviewer_keywords: ["326bbbff-4adc-46ae-aab3-626b55fecf0c","AdviseInkChange","AdviseInkChange function [Tablet PC]","recapis/AdviseInkChange","tablet.adviseinkchange"]
 old-location: tablet\adviseinkchange.htm
 tech.root: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_LastWrittenAddress
 title: IMultisessionRandomWrite::get_LastWrittenAddress (imapi2.h)
-description: Retrieves the last written address on the media.helpviewer_keywords: ["IMultisessionRandomWrite interface [IMAPI]","get_LastWrittenAddress method","IMultisessionRandomWrite.get_LastWrittenAddress","IMultisessionRandomWrite::get_LastWrittenAddress","get_LastWrittenAddress","get_LastWrittenAddress method [IMAPI]","get_LastWrittenAddress method [IMAPI]","IMultisessionRandomWrite interface","imapi.imultisessionrandomwrite_get_lastwrittenaddress","imapi2/IMultisessionRandomWrite::get_LastWrittenAddress"]
+description: Retrieves the last written address on the media.
+helpviewer_keywords: ["IMultisessionRandomWrite interface [IMAPI]","get_LastWrittenAddress method","IMultisessionRandomWrite.get_LastWrittenAddress","IMultisessionRandomWrite::get_LastWrittenAddress","get_LastWrittenAddress","get_LastWrittenAddress method [IMAPI]","get_LastWrittenAddress method [IMAPI]","IMultisessionRandomWrite interface","imapi.imultisessionrandomwrite_get_lastwrittenaddress","imapi2/IMultisessionRandomWrite::get_LastWrittenAddress"]
 old-location: imapi\imultisessionrandomwrite_get_lastwrittenaddress.htm
 tech.root: imapi
 ms.assetid: 04d5c8ad-347c-4f2d-aa3d-3db77067a51e

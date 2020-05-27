@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IDockProvider
 title: IDockProvider (uiautomationcore.h)
-description: Provides access to an element in a docking container.helpviewer_keywords: ["IDockProvider","IDockProvider interface [Windows Accessibility]","IDockProvider interface [Windows Accessibility]","described","uiauto.uiauto_IDockProvider","uiauto_IDockProvider","uiautomationcore/IDockProvider","winauto.uiauto_IDockProvider"]
+description: Provides access to an element in a docking container.
+helpviewer_keywords: ["IDockProvider","IDockProvider interface [Windows Accessibility]","IDockProvider interface [Windows Accessibility]","described","uiauto.uiauto_IDockProvider","uiauto_IDockProvider","uiautomationcore/IDockProvider","winauto.uiauto_IDockProvider"]
 old-location: winauto\uiauto_IDockProvider.htm
 tech.root: WinAuto
 ms.assetid: 106ca4b4-1304-4942-88a4-79a3895b552f

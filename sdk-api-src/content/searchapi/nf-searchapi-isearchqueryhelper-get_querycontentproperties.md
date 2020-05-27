@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryContentProperties
 title: ISearchQueryHelper::get_QueryContentProperties (searchapi.h)
-description: Gets the list of properties included in the query when search terms do not explicitly specify a property.helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QueryContentProperties method","ISearchQueryHelper.get_QueryContentProperties","ISearchQueryHelper::get_QueryContentProperties","_search_ISearchQueryHelper_get_QueryContentProperties","get_QueryContentProperties","get_QueryContentProperties method [search]","get_QueryContentProperties method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QueryContentProperties","searchapi/ISearchQueryHelper::get_QueryContentProperties"]
+description: Gets the list of properties included in the query when search terms do not explicitly specify a property.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QueryContentProperties method","ISearchQueryHelper.get_QueryContentProperties","ISearchQueryHelper::get_QueryContentProperties","_search_ISearchQueryHelper_get_QueryContentProperties","get_QueryContentProperties","get_QueryContentProperties method [search]","get_QueryContentProperties method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QueryContentProperties","searchapi/ISearchQueryHelper::get_QueryContentProperties"]
 old-location: search\_search_ISearchQueryHelper_get_QueryContentProperties.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querycontentproperties.htm

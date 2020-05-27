@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateNetSchemePlugin
 title: MFCreateNetSchemePlugin function (mfidl.h)
-description: Creates the scheme handler for the network source.helpviewer_keywords: ["MFCreateNetSchemePlugin","MFCreateNetSchemePlugin function [Media Foundation]","f08de332-2b05-4fee-be45-d4928f5f4ef2","mf.mfcreatenetschemeplugin","mfidl/MFCreateNetSchemePlugin"]
+description: Creates the scheme handler for the network source.
+helpviewer_keywords: ["MFCreateNetSchemePlugin","MFCreateNetSchemePlugin function [Media Foundation]","f08de332-2b05-4fee-be45-d4928f5f4ef2","mf.mfcreatenetschemeplugin","mfidl/MFCreateNetSchemePlugin"]
 old-location: mf\mfcreatenetschemeplugin.htm
 tech.root: medfound
 ms.assetid: f08de332-2b05-4fee-be45-d4928f5f4ef2

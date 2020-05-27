@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_SupportedProperties
 title: IInkRecognizer::get_SupportedProperties (msinkaut.h)
-description: Gets an array of globally unique identifiers (GUIDs) that describe the properties that the IInkRecognizer object supports.helpviewer_keywords: ["11153c7f-5284-483b-b1d5-01e670d924b4","IInkRecognizer interface [Tablet PC]","SupportedProperties property","IInkRecognizer.SupportedProperties","IInkRecognizer.get_SupportedProperties","IInkRecognizer::SupportedProperties","IInkRecognizer::get_SupportedProperties","SupportedProperties property [Tablet PC]","SupportedProperties property [Tablet PC]","IInkRecognizer interface","get_SupportedProperties","msinkaut/IInkRecognizer::SupportedProperties","msinkaut/IInkRecognizer::get_SupportedProperties","tablet.iinkrecognizer_supportedproperties"]
+description: Gets an array of globally unique identifiers (GUIDs) that describe the properties that the IInkRecognizer object supports.
+helpviewer_keywords: ["11153c7f-5284-483b-b1d5-01e670d924b4","IInkRecognizer interface [Tablet PC]","SupportedProperties property","IInkRecognizer.SupportedProperties","IInkRecognizer.get_SupportedProperties","IInkRecognizer::SupportedProperties","IInkRecognizer::get_SupportedProperties","SupportedProperties property [Tablet PC]","SupportedProperties property [Tablet PC]","IInkRecognizer interface","get_SupportedProperties","msinkaut/IInkRecognizer::SupportedProperties","msinkaut/IInkRecognizer::get_SupportedProperties","tablet.iinkrecognizer_supportedproperties"]
 old-location: tablet\iinkrecognizer_supportedproperties.htm
 tech.root: tablet
 ms.assetid: 11153c7f-5284-483b-b1d5-01e670d924b4

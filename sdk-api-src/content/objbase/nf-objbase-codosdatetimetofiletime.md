@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoDosDateTimeToFileTime
 title: CoDosDateTimeToFileTime function (objbase.h)
-description: Converts the MS-DOS representation of the time and date to a FILETIME structure used by Windows.helpviewer_keywords: ["CoDosDateTimeToFileTime","CoDosDateTimeToFileTime function [COM]","_com_CoDosDateTimeToFileTime","com.codosdatetimetofiletime","objbase/CoDosDateTimeToFileTime"]
+description: Converts the MS-DOS representation of the time and date to a FILETIME structure used by Windows.
+helpviewer_keywords: ["CoDosDateTimeToFileTime","CoDosDateTimeToFileTime function [COM]","_com_CoDosDateTimeToFileTime","com.codosdatetimetofiletime","objbase/CoDosDateTimeToFileTime"]
 old-location: com\codosdatetimetofiletime.htm
 tech.root: com
 ms.assetid: eb7af6a3-7547-405e-b96e-3e68a1ac273b

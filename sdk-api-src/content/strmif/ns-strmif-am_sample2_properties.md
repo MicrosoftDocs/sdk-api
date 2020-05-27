@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.tagAM_SAMPLE2_PROPERTIES
 title: AM_SAMPLE2_PROPERTIES (strmif.h)
-description: The AM_SAMPLE2_PROPERTIES structure describes the properties of a media sample. The IMediaSample2 interface uses this structure.helpviewer_keywords: ["AM_ReverseBlockEnd","AM_ReverseBlockStart","AM_SAMPLE2_PROPERTIES","AM_SAMPLE2_PROPERTIES structure [DirectShow]","AM_SAMPLE2_PROPERTIESStructure","AM_UseNewCSSKey","AM_VIDEO_FLAG_FIELD1","AM_VIDEO_FLAG_FIELD1FIRST","AM_VIDEO_FLAG_FIELD2","AM_VIDEO_FLAG_FIELD_MASK","AM_VIDEO_FLAG_INTERLEAVED_FRAME","AM_VIDEO_FLAG_REPEAT_FIELD","AM_VIDEO_FLAG_WEAVE","dshow.am_sample2_properties","strmif/AM_SAMPLE2_PROPERTIES"]
+description: The AM_SAMPLE2_PROPERTIES structure describes the properties of a media sample. The IMediaSample2 interface uses this structure.
+helpviewer_keywords: ["AM_ReverseBlockEnd","AM_ReverseBlockStart","AM_SAMPLE2_PROPERTIES","AM_SAMPLE2_PROPERTIES structure [DirectShow]","AM_SAMPLE2_PROPERTIESStructure","AM_UseNewCSSKey","AM_VIDEO_FLAG_FIELD1","AM_VIDEO_FLAG_FIELD1FIRST","AM_VIDEO_FLAG_FIELD2","AM_VIDEO_FLAG_FIELD_MASK","AM_VIDEO_FLAG_INTERLEAVED_FRAME","AM_VIDEO_FLAG_REPEAT_FIELD","AM_VIDEO_FLAG_WEAVE","dshow.am_sample2_properties","strmif/AM_SAMPLE2_PROPERTIES"]
 old-location: dshow\am_sample2_properties.htm
 tech.root: DirectShow
 ms.assetid: 4fda7f64-130c-42c8-a671-2e24bdd0b09b

@@ -1,7 +1,8 @@
 ---
 UID: NE:winsafer._SAFER_POLICY_INFO_CLASS
 title: SAFER_POLICY_INFO_CLASS (winsafer.h)
-description: Defines the ways in which a policy may be queried.helpviewer_keywords: ["SAFER_POLICY_INFO_CLASS","SAFER_POLICY_INFO_CLASS enumeration [Security]","SaferPolicyDefaultLevel","SaferPolicyEnableTransparentEnforcement","SaferPolicyEvaluateUserScope","SaferPolicyLevelList","SaferPolicyScopeFlags","_mnp_safer_policy_info_class","security.safer_policy_info_class","winsafer/SAFER_POLICY_INFO_CLASS","winsafer/SaferPolicyDefaultLevel","winsafer/SaferPolicyEnableTransparentEnforcement","winsafer/SaferPolicyEvaluateUserScope","winsafer/SaferPolicyLevelList","winsafer/SaferPolicyScopeFlags"]
+description: Defines the ways in which a policy may be queried.
+helpviewer_keywords: ["SAFER_POLICY_INFO_CLASS","SAFER_POLICY_INFO_CLASS enumeration [Security]","SaferPolicyDefaultLevel","SaferPolicyEnableTransparentEnforcement","SaferPolicyEvaluateUserScope","SaferPolicyLevelList","SaferPolicyScopeFlags","_mnp_safer_policy_info_class","security.safer_policy_info_class","winsafer/SAFER_POLICY_INFO_CLASS","winsafer/SaferPolicyDefaultLevel","winsafer/SaferPolicyEnableTransparentEnforcement","winsafer/SaferPolicyEvaluateUserScope","winsafer/SaferPolicyLevelList","winsafer/SaferPolicyScopeFlags"]
 old-location: security\safer_policy_info_class.htm
 tech.root: SecMgmt
 ms.assetid: e1438a9f-abca-463d-8a3a-3a820cba16e8

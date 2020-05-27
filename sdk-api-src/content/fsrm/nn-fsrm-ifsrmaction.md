@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrm.IFsrmAction
 title: IFsrmAction (fsrm.h)
-description: The base class for all FSRM action interfaces.helpviewer_keywords: ["IFsrmAction","IFsrmAction interface [File Server Resource Manager]","IFsrmAction interface [File Server Resource Manager]","described","fs.ifsrmaction","fsrm.ifsrmaction","fsrm/IFsrmAction"]
+description: The base class for all FSRM action interfaces.
+helpviewer_keywords: ["IFsrmAction","IFsrmAction interface [File Server Resource Manager]","IFsrmAction interface [File Server Resource Manager]","described","fs.ifsrmaction","fsrm.ifsrmaction","fsrm/IFsrmAction"]
 old-location: fsrm\ifsrmaction.htm
 tech.root: fsrm
 ms.assetid: 81bfae1d-7d09-4ddc-9669-1da40dc72fd4

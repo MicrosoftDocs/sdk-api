@@ -1,7 +1,8 @@
 ---
 UID: NF:qos2.QOSSetFlow
 title: QOSSetFlow function (qos2.h)
-description: Is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.helpviewer_keywords: ["QOSSetFlow","QOSSetFlow function [QOS]","QOSSetOutgoingDSCPValue","QOSSetOutgoingRate","QOSSetTrafficType","qos.qossetoutgoingrate","qos2/QOSSetFlow"]
+description: Is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.
+helpviewer_keywords: ["QOSSetFlow","QOSSetFlow function [QOS]","QOSSetOutgoingDSCPValue","QOSSetOutgoingRate","QOSSetTrafficType","qos.qossetoutgoingrate","qos2/QOSSetFlow"]
 old-location: qos\qossetoutgoingrate.htm
 tech.root: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648

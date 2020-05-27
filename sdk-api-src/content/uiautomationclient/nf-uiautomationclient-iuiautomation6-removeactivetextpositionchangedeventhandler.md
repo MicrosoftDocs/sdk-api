@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
 title: IUIAutomation6::RemoveActiveTextPositionChangedEventHandler (uiautomationclient.h)
-description: Removes an active text position changed event handler.helpviewer_keywords: ["IUIAutomation6 interface [Windows Accessibility]","RemoveActiveTextPositionChangedEventHandler method","IUIAutomation6.RemoveActiveTextPositionChangedEventHandler","IUIAutomation6::RemoveActiveTextPositionChangedEventHandler","RemoveActiveTextPositionChangedEventHandler","RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility]","RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility]","IUIAutomation6 interface","uiautomationclient/IUIAutomation6::RemoveActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomation6_RemoveActiveTextPositionChangedEventHandler"]
+description: Removes an active text position changed event handler.
+helpviewer_keywords: ["IUIAutomation6 interface [Windows Accessibility]","RemoveActiveTextPositionChangedEventHandler method","IUIAutomation6.RemoveActiveTextPositionChangedEventHandler","IUIAutomation6::RemoveActiveTextPositionChangedEventHandler","RemoveActiveTextPositionChangedEventHandler","RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility]","RemoveActiveTextPositionChangedEventHandler method [Windows Accessibility]","IUIAutomation6 interface","uiautomationclient/IUIAutomation6::RemoveActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomation6_RemoveActiveTextPositionChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation6_RemoveActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 92A6E9BA-0B68-4890-90EE-16F4B0929340

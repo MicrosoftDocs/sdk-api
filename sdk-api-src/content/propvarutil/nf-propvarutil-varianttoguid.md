@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToGUID
 title: VariantToGUID function (propvarutil.h)
-description: Extracts a GUID property value of a variant structure.helpviewer_keywords: ["VariantToGUID","VariantToGUID function [Windows Properties]","_shell_VariantToGUID","properties.VariantToGUID","propvarutil/VariantToGUID","shell.VariantToGUID"]
+description: Extracts a GUID property value of a variant structure.
+helpviewer_keywords: ["VariantToGUID","VariantToGUID function [Windows Properties]","_shell_VariantToGUID","properties.VariantToGUID","propvarutil/VariantToGUID","shell.VariantToGUID"]
 old-location: properties\VariantToGUID.htm
 tech.root: properties
 ms.assetid: 1af84b55-da7e-430c-97fe-1c544a40c039

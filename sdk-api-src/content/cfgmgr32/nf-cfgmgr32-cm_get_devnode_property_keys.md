@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Property_Keys
 title: CM_Get_DevNode_Property_Keys function (cfgmgr32.h)
-description: The CM_Get_DevNode_Property_Keys function retrieves an array of the device property keys that represent the device properties that are set for a device instance.helpviewer_keywords: ["CM_Get_DevNode_Property_Keys","CM_Get_DevNode_Property_Keys function [Device and Driver Installation]","cfgmgr32/CM_Get_DevNode_Property_Keys","devinst.cm_get_devnode_property_keys"]
+description: The CM_Get_DevNode_Property_Keys function retrieves an array of the device property keys that represent the device properties that are set for a device instance.
+helpviewer_keywords: ["CM_Get_DevNode_Property_Keys","CM_Get_DevNode_Property_Keys function [Device and Driver Installation]","cfgmgr32/CM_Get_DevNode_Property_Keys","devinst.cm_get_devnode_property_keys"]
 old-location: devinst\cm_get_devnode_property_keys.htm
 tech.root: devinst
 ms.assetid: 3476FAA7-32EA-43A9-B7CF-3938F08E0AD1

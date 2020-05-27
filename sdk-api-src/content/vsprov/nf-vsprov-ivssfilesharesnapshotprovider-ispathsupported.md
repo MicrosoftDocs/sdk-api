@@ -1,7 +1,8 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.IsPathSupported
 title: IVssFileShareSnapshotProvider::IsPathSupported (vsprov.h)
-description: Determines whether the given Universal Naming Convention (UNC) path is supported by this provider.helpviewer_keywords: ["IVssFileShareSnapshotProvider interface [VSS]","IsPathSupported method","IVssFileShareSnapshotProvider.IsPathSupported","IVssFileShareSnapshotProvider::IsPathSupported","IsPathSupported","IsPathSupported method [VSS]","IsPathSupported method [VSS]","IVssFileShareSnapshotProvider interface","base.ivssfilesharesnapshotprovider_ispathsupported","vsprov/IVssFileShareSnapshotProvider::IsPathSupported"]
+description: Determines whether the given Universal Naming Convention (UNC) path is supported by this provider.
+helpviewer_keywords: ["IVssFileShareSnapshotProvider interface [VSS]","IsPathSupported method","IVssFileShareSnapshotProvider.IsPathSupported","IVssFileShareSnapshotProvider::IsPathSupported","IsPathSupported","IsPathSupported method [VSS]","IsPathSupported method [VSS]","IVssFileShareSnapshotProvider interface","base.ivssfilesharesnapshotprovider_ispathsupported","vsprov/IVssFileShareSnapshotProvider::IsPathSupported"]
 old-location: base\ivssfilesharesnapshotprovider_ispathsupported.htm
 tech.root: VSS
 ms.assetid: 6a4db9dd-3854-414f-ba5c-83e36de6f19b

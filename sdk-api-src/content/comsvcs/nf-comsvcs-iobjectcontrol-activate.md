@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IObjectControl.Activate
 title: IObjectControl::Activate (comsvcs.h)
-description: Enables a COM+ object to perform context-specific initialization whenever it is activated.helpviewer_keywords: ["Activate","Activate method [COM+]","Activate method [COM+]","IObjectControl interface","IObjectControl interface [COM+]","Activate method","IObjectControl.Activate","IObjectControl::Activate","_cos_IObjectControl_Activate","comsvcs/IObjectControl::Activate","cos.iobjectcontrol_activate"]
+description: Enables a COM+ object to perform context-specific initialization whenever it is activated.
+helpviewer_keywords: ["Activate","Activate method [COM+]","Activate method [COM+]","IObjectControl interface","IObjectControl interface [COM+]","Activate method","IObjectControl.Activate","IObjectControl::Activate","_cos_IObjectControl_Activate","comsvcs/IObjectControl::Activate","cos.iobjectcontrol_activate"]
 old-location: cos\iobjectcontrol_activate.htm
 tech.root: cossdk
 ms.assetid: 53bf55a2-0cfa-4612-bca7-c6693f84e18f

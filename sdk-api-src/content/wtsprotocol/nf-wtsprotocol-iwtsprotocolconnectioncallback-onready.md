@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.OnReady
 title: IWTSProtocolConnectionCallback::OnReady (wtsprotocol.h)
-description: IWTSProtocolConnectionCallback::OnReady is no longer available. Instead, use IWRdsProtocolConnectionCallback::OnReady.helpviewer_keywords: ["IWTSProtocolConnectionCallback interface [Remote Desktop Services]","OnReady method","IWTSProtocolConnectionCallback.OnReady","IWTSProtocolConnectionCallback::OnReady","OnReady","OnReady method [Remote Desktop Services]","OnReady method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","termserv.iwtsprotocolconnectioncallback_onready","wtsprotocol/IWTSProtocolConnectionCallback::OnReady"]
+description: IWTSProtocolConnectionCallback::OnReady is no longer available. Instead, use IWRdsProtocolConnectionCallback::OnReady.
+helpviewer_keywords: ["IWTSProtocolConnectionCallback interface [Remote Desktop Services]","OnReady method","IWTSProtocolConnectionCallback.OnReady","IWTSProtocolConnectionCallback::OnReady","OnReady","OnReady method [Remote Desktop Services]","OnReady method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","termserv.iwtsprotocolconnectioncallback_onready","wtsprotocol/IWTSProtocolConnectionCallback::OnReady"]
 old-location: termserv\iwtsprotocolconnectioncallback_onready.htm
 tech.root: TermServ
 ms.assetid: a1289aca-bcf6-4fd2-a288-d401bece005d

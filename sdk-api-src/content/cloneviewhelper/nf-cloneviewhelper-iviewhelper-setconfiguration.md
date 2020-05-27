@@ -1,7 +1,8 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.SetConfiguration
 title: IViewHelper::SetConfiguration (cloneviewhelper.h)
-description: The SetConfiguration method passes in display data (display modes and topology data) to the underlying user-mode display driver that the driver should set.helpviewer_keywords: ["IViewHelper interface [Display Devices]","SetConfiguration method","IViewHelper.SetConfiguration","IViewHelper::SetConfiguration","SetConfiguration","SetConfiguration method [Display Devices]","SetConfiguration method [Display Devices]","IViewHelper interface","TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml","cloneviewhelper/IViewHelper::SetConfiguration","display.iviewhelper_setconfiguration"]
+description: The SetConfiguration method passes in display data (display modes and topology data) to the underlying user-mode display driver that the driver should set.
+helpviewer_keywords: ["IViewHelper interface [Display Devices]","SetConfiguration method","IViewHelper.SetConfiguration","IViewHelper::SetConfiguration","SetConfiguration","SetConfiguration method [Display Devices]","SetConfiguration method [Display Devices]","IViewHelper interface","TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml","cloneviewhelper/IViewHelper::SetConfiguration","display.iviewhelper_setconfiguration"]
 old-location: display\iviewhelper_setconfiguration.htm
 tech.root: display
 ms.assetid: 8ec09950-afb6-43ff-8e05-4c801e49ba4b

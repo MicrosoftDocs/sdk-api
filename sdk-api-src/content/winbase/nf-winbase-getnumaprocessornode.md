@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetNumaProcessorNode
 title: GetNumaProcessorNode function (winbase.h)
-description: Retrieves the node number for the specified processor.helpviewer_keywords: ["GetNumaProcessorNode","GetNumaProcessorNode function","_win32_getnumaprocessornode","base.getnumaprocessornode","winbase/GetNumaProcessorNode"]
+description: Retrieves the node number for the specified processor.
+helpviewer_keywords: ["GetNumaProcessorNode","GetNumaProcessorNode function","_win32_getnumaprocessornode","base.getnumaprocessornode","winbase/GetNumaProcessorNode"]
 old-location: base\getnumaprocessornode.htm
 tech.root: ProcThread
 ms.assetid: 88e6c6b3-7ec5-43e5-8cf3-21402925f718

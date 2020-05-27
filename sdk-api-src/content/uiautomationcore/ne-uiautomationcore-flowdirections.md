@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcore.FlowDirections
 title: FlowDirections (uiautomationcore.h)
-description: Contains values for the TextFlowDirections text attribute.helpviewer_keywords: ["FlowDirections","FlowDirections enumeration [Windows Accessibility]","FlowDirections_BottomToTop","FlowDirections_Default","FlowDirections_RightToLeft","FlowDirections_Vertical","uiauto.uiauto_FlowDirectionsEnum","uiauto_FlowDirectionsEnum","uiautomationcore/FlowDirections","uiautomationcore/FlowDirections_BottomToTop","uiautomationcore/FlowDirections_Default","uiautomationcore/FlowDirections_RightToLeft","uiautomationcore/FlowDirections_Vertical","winauto.uiauto_FlowDirectionsEnum"]
+description: Contains values for the TextFlowDirections text attribute.
+helpviewer_keywords: ["FlowDirections","FlowDirections enumeration [Windows Accessibility]","FlowDirections_BottomToTop","FlowDirections_Default","FlowDirections_RightToLeft","FlowDirections_Vertical","uiauto.uiauto_FlowDirectionsEnum","uiauto_FlowDirectionsEnum","uiautomationcore/FlowDirections","uiautomationcore/FlowDirections_BottomToTop","uiautomationcore/FlowDirections_Default","uiautomationcore/FlowDirections_RightToLeft","uiautomationcore/FlowDirections_Vertical","winauto.uiauto_FlowDirectionsEnum"]
 old-location: winauto\uiauto_FlowDirectionsEnum.htm
 tech.root: WinAuto
 ms.assetid: 5c18758c-8b0d-4c54-babb-78dc6c8eba02

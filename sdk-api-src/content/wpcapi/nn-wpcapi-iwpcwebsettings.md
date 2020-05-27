@@ -1,7 +1,8 @@
 ---
 UID: NN:wpcapi.IWPCWebSettings
 title: IWPCWebSettings (wpcapi.h)
-description: Accesses web restrictions settings for the user.helpviewer_keywords: ["IWPCWebSettings","IWPCWebSettings interface","IWPCWebSettings interface","described","parcon.iwpcwebsettings","wpcapi/IWPCWebSettings"]
+description: Accesses web restrictions settings for the user.
+helpviewer_keywords: ["IWPCWebSettings","IWPCWebSettings interface","IWPCWebSettings interface","described","parcon.iwpcwebsettings","wpcapi/IWPCWebSettings"]
 old-location: parcon\iwpcwebsettings.htm
 tech.root: parcon
 ms.assetid: 80629db8-0040-4545-a313-5cf7aa3d7f8b

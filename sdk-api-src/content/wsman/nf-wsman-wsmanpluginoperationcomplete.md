@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManPluginOperationComplete
 title: WSManPluginOperationComplete function (wsman.h)
-description: Reports the completion of an operation by all operation entry points except for the WSManPluginStartup and WSManPluginShutdown methods.helpviewer_keywords: ["WSManPluginOperationComplete","WSManPluginOperationComplete function [Windows Remote Management]","winrm.wsmanpluginoperationcomplete","wsman/WSManPluginOperationComplete"]
+description: Reports the completion of an operation by all operation entry points except for the WSManPluginStartup and WSManPluginShutdown methods.
+helpviewer_keywords: ["WSManPluginOperationComplete","WSManPluginOperationComplete function [Windows Remote Management]","winrm.wsmanpluginoperationcomplete","wsman/WSManPluginOperationComplete"]
 old-location: winrm\wsmanpluginoperationcomplete.htm
 tech.root: winrm
 ms.assetid: 6cb47762-edfc-48d7-88ec-d62056ea1751

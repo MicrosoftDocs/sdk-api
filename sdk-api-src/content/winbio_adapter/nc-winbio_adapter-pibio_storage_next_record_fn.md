@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_NEXT_RECORD_FN
 title: PIBIO_STORAGE_NEXT_RECORD_FN (winbio_adapter.h)
-description: Advances the result set cursor by one record.helpviewer_keywords: ["PIBIO_STORAGE_NEXT_RECORD_FN","PIBIO_STORAGE_NEXT_RECORD_FN callback","StorageAdapterNextRecord","StorageAdapterNextRecord callback function [Windows Biometric Framework API]","secbiomet.storageadapternextrecord","winbio_adapter/StorageAdapterNextRecord"]
+description: Advances the result set cursor by one record.
+helpviewer_keywords: ["PIBIO_STORAGE_NEXT_RECORD_FN","PIBIO_STORAGE_NEXT_RECORD_FN callback","StorageAdapterNextRecord","StorageAdapterNextRecord callback function [Windows Biometric Framework API]","secbiomet.storageadapternextrecord","winbio_adapter/StorageAdapterNextRecord"]
 old-location: secbiomet\storageadapternextrecord.htm
 tech.root: SecBioMet
 ms.assetid: e0025167-0778-474e-baca-ffc767822893

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTimecodeTranslate.BeginConvertTimecodeToHNS
 title: IMFTimecodeTranslate::BeginConvertTimecodeToHNS (mfidl.h)
-description: Starts an asynchronous call to convert Society of Motion Picture and Television Engineers (SMPTE) time code to 100-nanosecond units.helpviewer_keywords: ["BeginConvertTimecodeToHNS","BeginConvertTimecodeToHNS method [Media Foundation]","BeginConvertTimecodeToHNS method [Media Foundation]","IMFTimecodeTranslate interface","IMFTimecodeTranslate interface [Media Foundation]","BeginConvertTimecodeToHNS method","IMFTimecodeTranslate.BeginConvertTimecodeToHNS","IMFTimecodeTranslate::BeginConvertTimecodeToHNS","mf.imftimecodetranslate_beginconverttimecodetohns","mfidl/IMFTimecodeTranslate::BeginConvertTimecodeToHNS"]
+description: Starts an asynchronous call to convert Society of Motion Picture and Television Engineers (SMPTE) time code to 100-nanosecond units.
+helpviewer_keywords: ["BeginConvertTimecodeToHNS","BeginConvertTimecodeToHNS method [Media Foundation]","BeginConvertTimecodeToHNS method [Media Foundation]","IMFTimecodeTranslate interface","IMFTimecodeTranslate interface [Media Foundation]","BeginConvertTimecodeToHNS method","IMFTimecodeTranslate.BeginConvertTimecodeToHNS","IMFTimecodeTranslate::BeginConvertTimecodeToHNS","mf.imftimecodetranslate_beginconverttimecodetohns","mfidl/IMFTimecodeTranslate::BeginConvertTimecodeToHNS"]
 old-location: mf\imftimecodetranslate_beginconverttimecodetohns.htm
 tech.root: medfound
 ms.assetid: 4e25d5e4-b4d7-4ca4-81c9-12c6d712322d

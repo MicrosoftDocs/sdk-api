@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngGetPrinterDriver
 title: EngGetPrinterDriver function (winddi.h)
-description: The EngGetPrinterDriver function retrieves driver data for the specified printer.helpviewer_keywords: ["EngGetPrinterDriver","EngGetPrinterDriver function [Display Devices]","display.enggetprinterdriver","gdifncs_0aead020-6bf8-4eda-8d72-dd2d59f4663d.xml","winddi/EngGetPrinterDriver"]
+description: The EngGetPrinterDriver function retrieves driver data for the specified printer.
+helpviewer_keywords: ["EngGetPrinterDriver","EngGetPrinterDriver function [Display Devices]","display.enggetprinterdriver","gdifncs_0aead020-6bf8-4eda-8d72-dd2d59f4663d.xml","winddi/EngGetPrinterDriver"]
 old-location: display\enggetprinterdriver.htm
 tech.root: display
 ms.assetid: baf6826f-511d-4820-9990-be82ceba23fe

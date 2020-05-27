@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsServiceDeRegister
 title: DnsServiceDeRegister function
-description: Used to remove a registered service.helpviewer_keywords: ["DnsServiceDeRegister"]
+description: Used to remove a registered service.
+helpviewer_keywords: ["DnsServiceDeRegister"]
 ms.date: 02/14/2019
 ms.keywords: DnsServiceDeRegister
 f1_keywords:

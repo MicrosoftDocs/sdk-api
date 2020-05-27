@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagHistogramGrid
 title: HistogramGrid (mfapi.h)
-description: The HistogramGrid structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.helpviewer_keywords: ["HistogramGrid","HistogramGrid structure [Streaming Media Devices]","mfapi/HistogramGrid","stream.histogramgrid"]
+description: The HistogramGrid structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.
+helpviewer_keywords: ["HistogramGrid","HistogramGrid structure [Streaming Media Devices]","mfapi/HistogramGrid","stream.histogramgrid"]
 old-location: stream\histogramgrid.htm
 tech.root: stream
 ms.assetid: 2B0BA5EC-3120-41A2-B06A-B63E57DC8766

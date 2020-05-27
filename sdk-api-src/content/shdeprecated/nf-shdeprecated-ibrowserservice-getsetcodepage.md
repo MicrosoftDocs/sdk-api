@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetSetCodePage
 title: IBrowserService::GetSetCodePage (shdeprecated.h)
-description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.helpviewer_keywords: ["GetSetCodePage","GetSetCodePage method [Windows Shell]","GetSetCodePage method [Windows Shell]","IBrowserService interface","IBrowserService interface [Windows Shell]","GetSetCodePage method","IBrowserService.GetSetCodePage","IBrowserService::GetSetCodePage","shdeprecated/IBrowserService::GetSetCodePage","shell.IBrowserService_GetSetCodePage","zone_IBrowserService_GetSetCodePage"]
+description: Deprecated. Sets a new character code page and retrieves a pointer to the previous code page.
+helpviewer_keywords: ["GetSetCodePage","GetSetCodePage method [Windows Shell]","GetSetCodePage method [Windows Shell]","IBrowserService interface","IBrowserService interface [Windows Shell]","GetSetCodePage method","IBrowserService.GetSetCodePage","IBrowserService::GetSetCodePage","shdeprecated/IBrowserService::GetSetCodePage","shell.IBrowserService_GetSetCodePage","zone_IBrowserService_GetSetCodePage"]
 old-location: shell\IBrowserService_GetSetCodePage.htm
 tech.root: shell
 ms.assetid: 2d194f9a-cf82-47ed-8218-d0d5824be435

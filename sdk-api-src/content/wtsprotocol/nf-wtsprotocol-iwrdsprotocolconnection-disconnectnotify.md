@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.DisconnectNotify
 title: IWRdsProtocolConnection::DisconnectNotify (wtsprotocol.h)
-description: Notifies the protocol that the session has been disconnected.helpviewer_keywords: ["DisconnectNotify","DisconnectNotify method [Remote Desktop Services]","DisconnectNotify method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","DisconnectNotify method","IWRdsProtocolConnection.DisconnectNotify","IWRdsProtocolConnection::DisconnectNotify","termserv.iwrdsprotocolconnection_disconnectnotify","wtsprotocol/IWRdsProtocolConnection::DisconnectNotify"]
+description: Notifies the protocol that the session has been disconnected.
+helpviewer_keywords: ["DisconnectNotify","DisconnectNotify method [Remote Desktop Services]","DisconnectNotify method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","DisconnectNotify method","IWRdsProtocolConnection.DisconnectNotify","IWRdsProtocolConnection::DisconnectNotify","termserv.iwrdsprotocolconnection_disconnectnotify","wtsprotocol/IWRdsProtocolConnection::DisconnectNotify"]
 old-location: termserv\iwrdsprotocolconnection_disconnectnotify.htm
 tech.root: TermServ
 ms.assetid: 2399677b-0859-4e43-9dbc-0b08fa0647b0

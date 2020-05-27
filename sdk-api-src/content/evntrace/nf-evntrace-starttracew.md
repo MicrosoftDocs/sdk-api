@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.StartTraceW
 title: StartTraceW function (evntrace.h)
-description: The StartTrace function registers and starts an event tracing session.helpviewer_keywords: ["StartTrace","StartTrace function [ETW]","StartTraceA","StartTraceW","_evt_starttrace","base.starttrace","etw.starttrace","evntrace/StartTrace","evntrace/StartTraceA","evntrace/StartTraceW"]
+description: The StartTrace function registers and starts an event tracing session.
+helpviewer_keywords: ["StartTrace","StartTrace function [ETW]","StartTraceA","StartTraceW","_evt_starttrace","base.starttrace","etw.starttrace","evntrace/StartTrace","evntrace/StartTraceA","evntrace/StartTraceW"]
 old-location: etw\starttrace.htm
 tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3

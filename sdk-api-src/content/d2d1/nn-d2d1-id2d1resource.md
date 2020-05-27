@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1Resource
 title: ID2D1Resource (d2d1.h)
-description: Represents a Direct2D drawing resource.helpviewer_keywords: ["ID2D1Resource","ID2D1Resource interface [Direct2D]","ID2D1Resource interface [Direct2D]","described","d2d1/ID2D1Resource","direct2d.ID2D1Resource"]
+description: Represents a Direct2D drawing resource.
+helpviewer_keywords: ["ID2D1Resource","ID2D1Resource interface [Direct2D]","ID2D1Resource interface [Direct2D]","described","d2d1/ID2D1Resource","direct2d.ID2D1Resource"]
 old-location: direct2d\ID2D1Resource.htm
 tech.root: Direct2D
 ms.assetid: 8f19e74a-f010-4082-a4da-d1dc3cfe3192

@@ -1,7 +1,8 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerGetInformation
 title: KeyCredentialManagerGetInformation function (keycredmgr.h)
-description: API to get a unique identifier of the users enrollment.helpviewer_keywords: ["KeyCredentialManagerGetInformation","KeyCredentialManagerGetInformation function [Security]","keycredmgr/KeyCredentialManagerGetInformation","security.keycredentialmanagergetinformation"]
+description: API to get a unique identifier of the users enrollment.
+helpviewer_keywords: ["KeyCredentialManagerGetInformation","KeyCredentialManagerGetInformation function [Security]","keycredmgr/KeyCredentialManagerGetInformation","security.keycredentialmanagergetinformation"]
 old-location: security\keycredentialmanagergetinformation.htm
 tech.root: SecAuthN
 ms.assetid: 21664FAC-F380-4D32-A3A3-5F9326F5C79E

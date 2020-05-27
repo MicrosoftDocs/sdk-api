@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.__unnamed_struct_1
 title: TBREPLACEBITMAP (commctrl.h)
-description: Used with the TB_REPLACEBITMAP message to replace one toolbar bitmap with another.helpviewer_keywords: ["*LPTBREPLACEBITMAP","LPTBREPLACEBITMAP","LPTBREPLACEBITMAP structure pointer [Windows Controls]","TBREPLACEBITMAP","TBREPLACEBITMAP structure [Windows Controls]","_win32_TBREPLACEBITMAP","_win32_TBREPLACEBITMAP_cpp","commctrl/LPTBREPLACEBITMAP","commctrl/TBREPLACEBITMAP","controls.TBREPLACEBITMAP","controls._win32_TBREPLACEBITMAP"]
+description: Used with the TB_REPLACEBITMAP message to replace one toolbar bitmap with another.
+helpviewer_keywords: ["*LPTBREPLACEBITMAP","LPTBREPLACEBITMAP","LPTBREPLACEBITMAP structure pointer [Windows Controls]","TBREPLACEBITMAP","TBREPLACEBITMAP structure [Windows Controls]","_win32_TBREPLACEBITMAP","_win32_TBREPLACEBITMAP_cpp","commctrl/LPTBREPLACEBITMAP","commctrl/TBREPLACEBITMAP","controls.TBREPLACEBITMAP","controls._win32_TBREPLACEBITMAP"]
 old-location: controls\TBREPLACEBITMAP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbreplacebitmap.htm

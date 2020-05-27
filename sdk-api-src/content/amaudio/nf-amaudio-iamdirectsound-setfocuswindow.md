@@ -1,7 +1,8 @@
 ---
 UID: NF:amaudio.IAMDirectSound.SetFocusWindow
 title: IAMDirectSound::SetFocusWindow (amaudio.h)
-description: The SetFocusWindow method specifies a window to handle sound playback.helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","SetFocusWindow method","IAMDirectSound.SetFocusWindow","IAMDirectSound::SetFocusWindow","IAMDirectSoundSetWindowFocus","SetFocusWindow","SetFocusWindow method [DirectShow]","SetFocusWindow method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::SetFocusWindow","dshow.iamdirectsound_setfocuswindow"]
+description: The SetFocusWindow method specifies a window to handle sound playback.
+helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","SetFocusWindow method","IAMDirectSound.SetFocusWindow","IAMDirectSound::SetFocusWindow","IAMDirectSoundSetWindowFocus","SetFocusWindow","SetFocusWindow method [DirectShow]","SetFocusWindow method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::SetFocusWindow","dshow.iamdirectsound_setfocuswindow"]
 old-location: dshow\iamdirectsound_setfocuswindow.htm
 tech.root: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe

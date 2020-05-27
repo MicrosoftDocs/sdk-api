@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsTouchWindow
 title: IsTouchWindow function (winuser.h)
-description: Checks whether a specified window is touch-capable and, optionally, retrieves the modifier flags set for the window's touch capability.helpviewer_keywords: ["IsTouchWindow","IsTouchWindow function [Windows Touch]","wintouch.istouchwindow","winuser/IsTouchWindow"]
+description: Checks whether a specified window is touch-capable and, optionally, retrieves the modifier flags set for the window's touch capability.
+helpviewer_keywords: ["IsTouchWindow","IsTouchWindow function [Windows Touch]","wintouch.istouchwindow","winuser/IsTouchWindow"]
 old-location: wintouch\istouchwindow.htm
 tech.root: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetSlideshowOptions
 title: IDesktopWallpaper::SetSlideshowOptions (shobjidl_core.h)
-description: Sets the desktop wallpaper slideshow settings for shuffle and timing.helpviewer_keywords: ["DSO_SHUFFLEIMAGES","IDesktopWallpaper interface [Windows Shell]","SetSlideshowOptions method","IDesktopWallpaper.SetSlideshowOptions","IDesktopWallpaper::SetSlideshowOptions","SetSlideshowOptions","SetSlideshowOptions method [Windows Shell]","SetSlideshowOptions method [Windows Shell]","IDesktopWallpaper interface","shell.IDesktopWallpaper_SetSlideshowOptions","shobjidl_core/IDesktopWallpaper::SetSlideshowOptions"]
+description: Sets the desktop wallpaper slideshow settings for shuffle and timing.
+helpviewer_keywords: ["DSO_SHUFFLEIMAGES","IDesktopWallpaper interface [Windows Shell]","SetSlideshowOptions method","IDesktopWallpaper.SetSlideshowOptions","IDesktopWallpaper::SetSlideshowOptions","SetSlideshowOptions","SetSlideshowOptions method [Windows Shell]","SetSlideshowOptions method [Windows Shell]","IDesktopWallpaper interface","shell.IDesktopWallpaper_SetSlideshowOptions","shobjidl_core/IDesktopWallpaper::SetSlideshowOptions"]
 old-location: shell\IDesktopWallpaper_SetSlideshowOptions.htm
 tech.root: shell
 ms.assetid: B3106354-C321-4770-834F-D2EF790AE114

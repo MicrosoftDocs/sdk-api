@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Invalidate
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-description: Invalidates a specific region of the shared surface for drawing.helpviewer_keywords: ["IVirtualSurfaceImageSourceNative interface [Windows Runtime]","Invalidate method","IVirtualSurfaceImageSourceNative.Invalidate","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::Invalidate","IVirtualSurfaceImageSourceNative::xaml","Invalidate","Invalidate method [Windows Runtime]","Invalidate method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","windows/IVirtualSurfaceImageSourceNative::Invalidate","winrt.ivirtualsurfaceimagesourcenative_invalidate"]
+description: Invalidates a specific region of the shared surface for drawing.
+helpviewer_keywords: ["IVirtualSurfaceImageSourceNative interface [Windows Runtime]","Invalidate method","IVirtualSurfaceImageSourceNative.Invalidate","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::Invalidate","IVirtualSurfaceImageSourceNative::xaml","Invalidate","Invalidate method [Windows Runtime]","Invalidate method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","windows/IVirtualSurfaceImageSourceNative::Invalidate","winrt.ivirtualsurfaceimagesourcenative_invalidate"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_invalidate.htm
 tech.root: WinRT
 ms.assetid: BC3BC983-9A78-4B0F-927D-06B299031C80

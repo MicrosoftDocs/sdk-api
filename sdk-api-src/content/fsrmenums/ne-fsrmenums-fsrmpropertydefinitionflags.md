@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionFlags
 title: FsrmPropertyDefinitionFlags (fsrmenums.h)
-description: Flags the describe the type of classification property.helpviewer_keywords: ["FsrmPropertyDefinitionFlags","FsrmPropertyDefinitionFlags enumeration [File Server Resource Manager]","FsrmPropertyDefinitionFlags_Deprecated","FsrmPropertyDefinitionFlags_Global","FsrmPropertyDefinitionFlags_Secure","fs.fsrmpropertydefinitionflags","fsrm.fsrmpropertydefinitionflags","fsrmenums/FsrmPropertyDefinitionFlags","fsrmenums/FsrmPropertyDefinitionFlags_Deprecated","fsrmenums/FsrmPropertyDefinitionFlags_Global","fsrmenums/FsrmPropertyDefinitionFlags_Secure"]
+description: Flags the describe the type of classification property.
+helpviewer_keywords: ["FsrmPropertyDefinitionFlags","FsrmPropertyDefinitionFlags enumeration [File Server Resource Manager]","FsrmPropertyDefinitionFlags_Deprecated","FsrmPropertyDefinitionFlags_Global","FsrmPropertyDefinitionFlags_Secure","fs.fsrmpropertydefinitionflags","fsrm.fsrmpropertydefinitionflags","fsrmenums/FsrmPropertyDefinitionFlags","fsrmenums/FsrmPropertyDefinitionFlags_Deprecated","fsrmenums/FsrmPropertyDefinitionFlags_Global","fsrmenums/FsrmPropertyDefinitionFlags_Secure"]
 old-location: fsrm\fsrmpropertydefinitionflags.htm
 tech.root: fsrm
 ms.assetid: a31f2401-affa-438b-a484-7b70ea6e9181

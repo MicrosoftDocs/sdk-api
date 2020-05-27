@@ -1,7 +1,8 @@
 ---
 UID: NN:weakreference.IWeakReferenceSource
 title: IWeakReferenceSource (weakreference.h)
-description: Represents a source object to which a weak reference can be retrieved.helpviewer_keywords: ["IWeakReferenceSource","IWeakReferenceSource interface [Windows Runtime]","IWeakReferenceSource interface [Windows Runtime]","described","weakreference/IWeakReferenceSource","winrt.iweakreferencesource"]
+description: Represents a source object to which a weak reference can be retrieved.
+helpviewer_keywords: ["IWeakReferenceSource","IWeakReferenceSource interface [Windows Runtime]","IWeakReferenceSource interface [Windows Runtime]","described","weakreference/IWeakReferenceSource","winrt.iweakreferencesource"]
 old-location: winrt\iweakreferencesource.htm
 tech.root: WinRT
 ms.assetid: f4b85374-192b-4024-80c2-a46bfebb16c1

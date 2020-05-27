@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetPrivateData
 title: ID3D10Device::SetPrivateData (d3d10.h)
-description: Set data to a device and associate that data with a guid.helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","SetPrivateData method","ID3D10Device.SetPrivateData","ID3D10Device::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 10]","SetPrivateData method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::SetPrivateData","direct3d10.id3d10device_setprivatedata","eaeabbc7-7fa6-0ea4-315b-75d083b44da6"]
+description: Set data to a device and associate that data with a guid.
+helpviewer_keywords: ["ID3D10Device interface [Direct3D 10]","SetPrivateData method","ID3D10Device.SetPrivateData","ID3D10Device::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 10]","SetPrivateData method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::SetPrivateData","direct3d10.id3d10device_setprivatedata","eaeabbc7-7fa6-0ea4-315b-75d083b44da6"]
 old-location: direct3d10\id3d10device_setprivatedata.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setprivatedata.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:traffic._IP_PATTERN
 title: IP_PATTERN (traffic.h)
-description: The IP_PATTERN structure applies a specific pattern or corresponding mask for the IP protocol. The IP_PATTERN structure designation is used by the traffic control interface in the application of packet filters.helpviewer_keywords: ["*PIP_PATTERN","IP_PATTERN","IP_PATTERN structure [QOS]","PIP_PATTERN","PIP_PATTERN structure pointer [QOS]","_gqos_ip_pattern","qos.ip_pattern","traffic/IP_PATTERN","traffic/PIP_PATTERN"]
+description: The IP_PATTERN structure applies a specific pattern or corresponding mask for the IP protocol. The IP_PATTERN structure designation is used by the traffic control interface in the application of packet filters.
+helpviewer_keywords: ["*PIP_PATTERN","IP_PATTERN","IP_PATTERN structure [QOS]","PIP_PATTERN","PIP_PATTERN structure pointer [QOS]","_gqos_ip_pattern","qos.ip_pattern","traffic/IP_PATTERN","traffic/PIP_PATTERN"]
 old-location: qos\ip_pattern.htm
 tech.root: QOS
 ms.assetid: c8c3bd92-8120-4a3b-af8b-0a2c0a9bee0f

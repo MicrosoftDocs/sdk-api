@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_METADATA_ENDPOINT
 title: WS_METADATA_ENDPOINT (webservices.h)
-description: Information about a single endpoint that was read from metadata documents.helpviewer_keywords: ["WS_METADATA_ENDPOINT","WS_METADATA_ENDPOINT structure [Web Services for Windows]","webservices/WS_METADATA_ENDPOINT","wsw.ws_metadata_endpoint"]
+description: Information about a single endpoint that was read from metadata documents.
+helpviewer_keywords: ["WS_METADATA_ENDPOINT","WS_METADATA_ENDPOINT structure [Web Services for Windows]","webservices/WS_METADATA_ENDPOINT","wsw.ws_metadata_endpoint"]
 old-location: wsw\ws_metadata_endpoint.htm
 tech.root: wsw
 ms.assetid: ce2a45a8-c2e6-4867-b8f1-dcc4f137ef94

@@ -1,7 +1,8 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributesClose
 title: ICertServerPolicy::EnumerateAttributesClose (certif.h)
-description: Frees the resources connected with attribute enumeration.helpviewer_keywords: ["CCertServerPolicy object [Security]","EnumerateAttributesClose method","EnumerateAttributesClose","EnumerateAttributesClose method [Security]","EnumerateAttributesClose method [Security]","CCertServerPolicy object","EnumerateAttributesClose method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","EnumerateAttributesClose method","ICertServerPolicy.EnumerateAttributesClose","ICertServerPolicy::EnumerateAttributesClose","_certsrv_icertserverpolicy_enumerateattributesclose","certif/ICertServerPolicy::EnumerateAttributesClose","security.icertserverpolicy_enumerateattributesclose"]
+description: Frees the resources connected with attribute enumeration.
+helpviewer_keywords: ["CCertServerPolicy object [Security]","EnumerateAttributesClose method","EnumerateAttributesClose","EnumerateAttributesClose method [Security]","EnumerateAttributesClose method [Security]","CCertServerPolicy object","EnumerateAttributesClose method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","EnumerateAttributesClose method","ICertServerPolicy.EnumerateAttributesClose","ICertServerPolicy::EnumerateAttributesClose","_certsrv_icertserverpolicy_enumerateattributesclose","certif/ICertServerPolicy::EnumerateAttributesClose","security.icertserverpolicy_enumerateattributesclose"]
 old-location: security\icertserverpolicy_enumerateattributesclose.htm
 tech.root: SecCrypto
 ms.assetid: 91cb8edd-7735-44c5-b2c5-d46fa1e33e41

@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMDuplicateHandle
 title: DRMDuplicateHandle function (msdrm.h)
-description: Creates a copy of a DRMHANDLE.helpviewer_keywords: ["DRMDuplicateHandle","DRMDuplicateHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDuplicateHandle","rm.drmduplicatehandle"]
+description: Creates a copy of a DRMHANDLE.
+helpviewer_keywords: ["DRMDuplicateHandle","DRMDuplicateHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMDuplicateHandle","rm.drmduplicatehandle"]
 old-location: rm\drmduplicatehandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 967519da-0471-4615-aec0-b30717239dd5

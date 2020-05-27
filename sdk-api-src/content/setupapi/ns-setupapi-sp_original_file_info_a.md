@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._SP_ORIGINAL_FILE_INFO_A
 title: SP_ORIGINAL_FILE_INFO_A (setupapi.h)
-description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.helpviewer_keywords: ["*PSP_ORIGINAL_FILE_INFO_A","PSP_ORIGINAL_FILE_INFO","PSP_ORIGINAL_FILE_INFO structure pointer [Setup API]","SP_ORIGINAL_FILE_INFO","SP_ORIGINAL_FILE_INFO structure [Setup API]","SP_ORIGINAL_FILE_INFO_A","_setupapi_sp_original_file_info","setup.sp_original_file_info","setupapi/PSP_ORIGINAL_FILE_INFO","setupapi/SP_ORIGINAL_FILE_INFO"]
+description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
+helpviewer_keywords: ["*PSP_ORIGINAL_FILE_INFO_A","PSP_ORIGINAL_FILE_INFO","PSP_ORIGINAL_FILE_INFO structure pointer [Setup API]","SP_ORIGINAL_FILE_INFO","SP_ORIGINAL_FILE_INFO structure [Setup API]","SP_ORIGINAL_FILE_INFO_A","_setupapi_sp_original_file_info","setup.sp_original_file_info","setupapi/PSP_ORIGINAL_FILE_INFO","setupapi/SP_ORIGINAL_FILE_INFO"]
 old-location: setup\sp_original_file_info.htm
 tech.root: SetupApi
 ms.assetid: 9ce09717-7f01-4044-ad6b-edd04a2445f5

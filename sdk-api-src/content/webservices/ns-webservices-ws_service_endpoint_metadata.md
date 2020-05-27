@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT_METADATA
 title: WS_SERVICE_ENDPOINT_METADATA (webservices.h)
-description: Represents the port element for the endpoint. The port element is generated for the service element as specified by serviceName and serviceNs for WS_SERVICE_PROPERTY_METADATA property on the WS_SERVICE_HOST.helpviewer_keywords: ["WS_SERVICE_ENDPOINT_METADATA","WS_SERVICE_ENDPOINT_METADATA structure [Web Services for Windows]","webservices/WS_SERVICE_ENDPOINT_METADATA","wsw.ws_service_endpoint_metadata"]
+description: Represents the port element for the endpoint. The port element is generated for the service element as specified by serviceName and serviceNs for WS_SERVICE_PROPERTY_METADATA property on the WS_SERVICE_HOST.
+helpviewer_keywords: ["WS_SERVICE_ENDPOINT_METADATA","WS_SERVICE_ENDPOINT_METADATA structure [Web Services for Windows]","webservices/WS_SERVICE_ENDPOINT_METADATA","wsw.ws_service_endpoint_metadata"]
 old-location: wsw\ws_service_endpoint_metadata.htm
 tech.root: wsw
 ms.assetid: e02ea746-ed56-48a7-8cd4-9e51d100ef2a

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMallocSpy.PreRealloc
 title: IMallocSpy::PreRealloc (objidl.h)
-description: Performs operations required before calling IMalloc::Realloc.helpviewer_keywords: ["IMallocSpy interface [COM]","PreRealloc method","IMallocSpy.PreRealloc","IMallocSpy::PreRealloc","PreRealloc","PreRealloc method [COM]","PreRealloc method [COM]","IMallocSpy interface","_com_imallocspy_prerealloc","com.imallocspy_prerealloc","objidl/IMallocSpy::PreRealloc"]
+description: Performs operations required before calling IMalloc::Realloc.
+helpviewer_keywords: ["IMallocSpy interface [COM]","PreRealloc method","IMallocSpy.PreRealloc","IMallocSpy::PreRealloc","PreRealloc","PreRealloc method [COM]","PreRealloc method [COM]","IMallocSpy interface","_com_imallocspy_prerealloc","com.imallocspy_prerealloc","objidl/IMallocSpy::PreRealloc"]
 old-location: com\imallocspy_prerealloc.htm
 tech.root: com
 ms.assetid: dd4db69c-3369-4aca-bc05-4c3c6850cc09

@@ -1,7 +1,8 @@
 ---
 UID: NN:msaatext.ICoCreateLocally
 title: ICoCreateLocally (msaatext.h)
-description: Exposes a method that enables a client application to create a helper object in the server context.helpviewer_keywords: ["ICoCreateLocally","ICoCreateLocally interface [Windows Accessibility]","ICoCreateLocally interface [Windows Accessibility]","described","msaa.icocreatelocally","msaatext/ICoCreateLocally","winauto.icocreatelocally"]
+description: Exposes a method that enables a client application to create a helper object in the server context.
+helpviewer_keywords: ["ICoCreateLocally","ICoCreateLocally interface [Windows Accessibility]","ICoCreateLocally interface [Windows Accessibility]","described","msaa.icocreatelocally","msaatext/ICoCreateLocally","winauto.icocreatelocally"]
 old-location: winauto\icocreatelocally.htm
 tech.root: WinAuto
 ms.assetid: df432ace-01ff-4100-a9df-4ed6abea7f1c

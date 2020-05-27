@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_2
 title: USER_MODALS_INFO_2 (lmaccess.h)
-description: The USER_MODALS_INFO_2 structure contains the Security Account Manager (SAM) domain name and identifier.helpviewer_keywords: ["*LPUSER_MODALS_INFO_2","*PUSER_MODALS_INFO_2","LPUSER_MODALS_INFO_2","LPUSER_MODALS_INFO_2 structure pointer [Network Management]","PUSER_MODALS_INFO_2","PUSER_MODALS_INFO_2 structure pointer [Network Management]","USER_MODALS_INFO_2","USER_MODALS_INFO_2 structure [Network Management]","_win32_user_modals_info_2_str","lmaccess/LPUSER_MODALS_INFO_2","lmaccess/PUSER_MODALS_INFO_2","lmaccess/USER_MODALS_INFO_2","netmgmt.user_modals_info_2_str"]
+description: The USER_MODALS_INFO_2 structure contains the Security Account Manager (SAM) domain name and identifier.
+helpviewer_keywords: ["*LPUSER_MODALS_INFO_2","*PUSER_MODALS_INFO_2","LPUSER_MODALS_INFO_2","LPUSER_MODALS_INFO_2 structure pointer [Network Management]","PUSER_MODALS_INFO_2","PUSER_MODALS_INFO_2 structure pointer [Network Management]","USER_MODALS_INFO_2","USER_MODALS_INFO_2 structure [Network Management]","_win32_user_modals_info_2_str","lmaccess/LPUSER_MODALS_INFO_2","lmaccess/PUSER_MODALS_INFO_2","lmaccess/USER_MODALS_INFO_2","netmgmt.user_modals_info_2_str"]
 old-location: netmgmt\user_modals_info_2_str.htm
 tech.root: NetMgmt
 ms.assetid: 9a4b3fc1-03b5-4ba7-948f-e455c34fa234

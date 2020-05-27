@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2ipdef.in6_pktinfo
 title: IN6_PKTINFO (ws2ipdef.h)
-description: The in6_pktinfo structure is used to store received IPv6 packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv6 address to use for sending packets.helpviewer_keywords: ["*PIN6_PKTINFO","IN6_PKTINFO","IN6_PKTINFO structure [Winsock]","PIN6_PKTINFO","PIN6_PKTINFO structure pointer [Winsock]","_win32_in6_pktinfo_2","in6_pktinfo","in6_pktinfo structure [Winsock]","winsock.in6_pktinfo_2","ws2ipdef/PIN6_PKTINFO","ws2ipdef/in6_pktinfo","ws2tcpip/PIN6_PKTINFO","ws2tcpip/in6_pktinfo"]
+description: The in6_pktinfo structure is used to store received IPv6 packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv6 address to use for sending packets.
+helpviewer_keywords: ["*PIN6_PKTINFO","IN6_PKTINFO","IN6_PKTINFO structure [Winsock]","PIN6_PKTINFO","PIN6_PKTINFO structure pointer [Winsock]","_win32_in6_pktinfo_2","in6_pktinfo","in6_pktinfo structure [Winsock]","winsock.in6_pktinfo_2","ws2ipdef/PIN6_PKTINFO","ws2ipdef/in6_pktinfo","ws2tcpip/PIN6_PKTINFO","ws2tcpip/in6_pktinfo"]
 old-location: winsock\in6_pktinfo_2.htm
 tech.root: WinSock
 ms.assetid: d0f1006c-2b6f-4bc9-855b-e268c27f6ca2

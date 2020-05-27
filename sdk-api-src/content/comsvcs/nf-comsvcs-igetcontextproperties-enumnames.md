@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.EnumNames
 title: IGetContextProperties::EnumNames (comsvcs.h)
-description: Retrieves a list of the names of the current context properties.helpviewer_keywords: ["EnumNames","EnumNames method [COM+]","EnumNames method [COM+]","IGetContextProperties interface","IGetContextProperties interface [COM+]","EnumNames method","IGetContextProperties.EnumNames","IGetContextProperties::EnumNames","_cos_IGetContextProperties_EnumNames","comsvcs/IGetContextProperties::EnumNames","cos.igetcontextproperties_enumnames"]
+description: Retrieves a list of the names of the current context properties.
+helpviewer_keywords: ["EnumNames","EnumNames method [COM+]","EnumNames method [COM+]","IGetContextProperties interface","IGetContextProperties interface [COM+]","EnumNames method","IGetContextProperties.EnumNames","IGetContextProperties::EnumNames","_cos_IGetContextProperties_EnumNames","comsvcs/IGetContextProperties::EnumNames","cos.igetcontextproperties_enumnames"]
 old-location: cos\igetcontextproperties_enumnames.htm
 tech.root: cossdk
 ms.assetid: 01ff9650-f7f1-440c-88d2-75ba793a2396

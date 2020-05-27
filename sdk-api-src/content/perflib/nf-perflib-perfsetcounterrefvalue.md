@@ -1,7 +1,8 @@
 ---
 UID: NF:perflib.PerfSetCounterRefValue
 title: PerfSetCounterRefValue function (perflib.h)
-description: Updates the value of a counter whose value is a pointer to the actual data. Providers use this function.helpviewer_keywords: ["PerfSetCounterRefValue","PerfSetCounterRefValue function [Perf]","base.perfsetcounterrefvalue","perf.perfsetcounterrefvalue","perflib/PerfSetCounterRefValue"]
+description: Updates the value of a counter whose value is a pointer to the actual data. Providers use this function.
+helpviewer_keywords: ["PerfSetCounterRefValue","PerfSetCounterRefValue function [Perf]","base.perfsetcounterrefvalue","perf.perfsetcounterrefvalue","perflib/PerfSetCounterRefValue"]
 old-location: perf\perfsetcounterrefvalue.htm
 tech.root: perfctrs
 ms.assetid: 0694ff8c-4c36-4bf7-a2b3-c032bf7a2f65

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.UnregisterFolder
 title: IKnownFolderManager::UnregisterFolder (shobjidl_core.h)
-description: Remove a known folder from the registry, which makes it unknown to the known folder system. This method does not remove the folder itself.helpviewer_keywords: ["IKnownFolderManager interface [Windows Shell]","UnregisterFolder method","IKnownFolderManager.UnregisterFolder","IKnownFolderManager::UnregisterFolder","UnregisterFolder","UnregisterFolder method [Windows Shell]","UnregisterFolder method [Windows Shell]","IKnownFolderManager interface","_shell_IKnownFolderManager_UnregisterFolder","shell.IKnownFolderManager_UnregisterFolder","shobjidl_core/IKnownFolderManager::UnregisterFolder"]
+description: Remove a known folder from the registry, which makes it unknown to the known folder system. This method does not remove the folder itself.
+helpviewer_keywords: ["IKnownFolderManager interface [Windows Shell]","UnregisterFolder method","IKnownFolderManager.UnregisterFolder","IKnownFolderManager::UnregisterFolder","UnregisterFolder","UnregisterFolder method [Windows Shell]","UnregisterFolder method [Windows Shell]","IKnownFolderManager interface","_shell_IKnownFolderManager_UnregisterFolder","shell.IKnownFolderManager_UnregisterFolder","shobjidl_core/IKnownFolderManager::UnregisterFolder"]
 old-location: shell\IKnownFolderManager_UnregisterFolder.htm
 tech.root: shell
 ms.assetid: 2c66f5e3-3479-414c-8888-0a888708dbe0

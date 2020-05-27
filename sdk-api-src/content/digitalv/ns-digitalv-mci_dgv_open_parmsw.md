@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_13
 title: MCI_DGV_OPEN_PARMSW (digitalv.h)
-description: The MCI_DGV_OPEN_PARMS structure contains information for the MCI_OPEN command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_OPEN_PARMSW","MCI_DGV_OPEN_PARMS","MCI_DGV_OPEN_PARMS structure [Windows Multimedia]","MCI_DGV_OPEN_PARMSW","_win32_MCI_DGV_OPEN_PARMS_str","digitalv/MCI_DGV_OPEN_PARMS","multimedia.mci_dgv_open_parms"]
+description: The MCI_DGV_OPEN_PARMS structure contains information for the MCI_OPEN command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_OPEN_PARMSW","MCI_DGV_OPEN_PARMS","MCI_DGV_OPEN_PARMS structure [Windows Multimedia]","MCI_DGV_OPEN_PARMSW","_win32_MCI_DGV_OPEN_PARMS_str","digitalv/MCI_DGV_OPEN_PARMS","multimedia.mci_dgv_open_parms"]
 old-location: multimedia\mci_dgv_open_parms.htm
 tech.root: Multimedia
 ms.assetid: 9256ab7f-1259-4c74-9766-fe3ed1c7215c

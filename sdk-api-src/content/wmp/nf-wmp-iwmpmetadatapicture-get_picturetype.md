@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_pictureType
 title: IWMPMetadataPicture::get_pictureType (wmp.h)
-description: The get_pictureType method retrieves a pointer to a string specifying the picture type of the metadata image.helpviewer_keywords: ["IWMPMetadataPicture interface [Windows Media Player]","get_pictureType method","IWMPMetadataPicture.get_pictureType","IWMPMetadataPicture::get_pictureType","IWMPMetadataPictureget_pictureType","get_pictureType","get_pictureType method [Windows Media Player]","get_pictureType method [Windows Media Player]","IWMPMetadataPicture interface","wmp.iwmpmetadatapicture_get_picturetype","wmp/IWMPMetadataPicture::get_pictureType"]
+description: The get_pictureType method retrieves a pointer to a string specifying the picture type of the metadata image.
+helpviewer_keywords: ["IWMPMetadataPicture interface [Windows Media Player]","get_pictureType method","IWMPMetadataPicture.get_pictureType","IWMPMetadataPicture::get_pictureType","IWMPMetadataPictureget_pictureType","get_pictureType","get_pictureType method [Windows Media Player]","get_pictureType method [Windows Media Player]","IWMPMetadataPicture interface","wmp.iwmpmetadatapicture_get_picturetype","wmp/IWMPMetadataPicture::get_pictureType"]
 old-location: wmp\iwmpmetadatapicture_get_picturetype.htm
 tech.root: WMP
 ms.assetid: 2c81d59a-9447-48bd-b95b-40e191e73a0f

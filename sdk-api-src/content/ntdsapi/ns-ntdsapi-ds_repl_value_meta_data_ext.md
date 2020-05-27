@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdsapi._DS_REPL_VALUE_META_DATA_EXT
 title: DS_REPL_VALUE_META_DATA_EXT (ntdsapi.h)
-description: Contains attribute replication meta data for the DS_REPL_ATTR_VALUE_META_DATA_EXT structure.helpviewer_keywords: ["DS_REPL_VALUE_META_DATA_EXT","DS_REPL_VALUE_META_DATA_EXT structure [Active Directory]","PDS_REPL_VALUE_META_DATA_EXT","PDS_REPL_VALUE_META_DATA_EXT structure pointer [Active Directory]","ad.ds_repl_value_meta_data_ext","ntdsapi/DS_REPL_VALUE_META_DATA_EXT","ntdsapi/PDS_REPL_VALUE_META_DATA_EXT"]
+description: Contains attribute replication meta data for the DS_REPL_ATTR_VALUE_META_DATA_EXT structure.
+helpviewer_keywords: ["DS_REPL_VALUE_META_DATA_EXT","DS_REPL_VALUE_META_DATA_EXT structure [Active Directory]","PDS_REPL_VALUE_META_DATA_EXT","PDS_REPL_VALUE_META_DATA_EXT structure pointer [Active Directory]","ad.ds_repl_value_meta_data_ext","ntdsapi/DS_REPL_VALUE_META_DATA_EXT","ntdsapi/PDS_REPL_VALUE_META_DATA_EXT"]
 old-location: ad\ds_repl_value_meta_data_ext.htm
 tech.root: ad
 ms.assetid: 2BE0F9C4-D688-4DE6-8DB2-15666D8BD070

@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderInfos.Skip
 title: IEnumSyncProviderInfos::Skip (syncregistration.h)
-description: Skips the specified number of ISyncProviderInfo objects.helpviewer_keywords: ["IEnumSyncProviderInfos interface [Windows Sync]","Skip method","IEnumSyncProviderInfos.Skip","IEnumSyncProviderInfos::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumSyncProviderInfos interface","syncregistration/IEnumSyncProviderInfos::Skip","winsync.ienumsyncproviderinfos_skip"]
+description: Skips the specified number of ISyncProviderInfo objects.
+helpviewer_keywords: ["IEnumSyncProviderInfos interface [Windows Sync]","Skip method","IEnumSyncProviderInfos.Skip","IEnumSyncProviderInfos::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumSyncProviderInfos interface","syncregistration/IEnumSyncProviderInfos::Skip","winsync.ienumsyncproviderinfos_skip"]
 old-location: winsync\ienumsyncproviderinfos_skip.htm
 tech.root: winsync
 ms.assetid: da59a26a-8df3-4a19-b771-6fd11f69576e

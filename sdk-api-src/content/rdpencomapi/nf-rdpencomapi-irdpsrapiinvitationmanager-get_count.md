@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Count
 title: IRDPSRAPIInvitationManager::get_Count (rdpencomapi.h)
-description: The number of invitations in the collection.helpviewer_keywords: ["Count property [RDP]","Count property [RDP]","IRDPSRAPIInvitationManager interface","Count property [RDP]","RDPSRAPIInvitationManager object","IRDPSRAPIInvitationManager interface [RDP]","Count property","IRDPSRAPIInvitationManager.Count","IRDPSRAPIInvitationManager.get_Count","IRDPSRAPIInvitationManager::Count","IRDPSRAPIInvitationManager::get_Count","RDPSRAPIInvitationManager object [RDP]","Count property","get_Count","rdp.irdpsrapiinvitationmanager_count","rdpencomapi/IRDPSRAPIInvitationManager::Count","rdpencomapi/IRDPSRAPIInvitationManager::get_Count"]
+description: The number of invitations in the collection.
+helpviewer_keywords: ["Count property [RDP]","Count property [RDP]","IRDPSRAPIInvitationManager interface","Count property [RDP]","RDPSRAPIInvitationManager object","IRDPSRAPIInvitationManager interface [RDP]","Count property","IRDPSRAPIInvitationManager.Count","IRDPSRAPIInvitationManager.get_Count","IRDPSRAPIInvitationManager::Count","IRDPSRAPIInvitationManager::get_Count","RDPSRAPIInvitationManager object [RDP]","Count property","get_Count","rdp.irdpsrapiinvitationmanager_count","rdpencomapi/IRDPSRAPIInvitationManager::Count","rdpencomapi/IRDPSRAPIInvitationManager::get_Count"]
 old-location: rdp\irdpsrapiinvitationmanager_count.htm
 tech.root: rdp
 ms.assetid: 5b421537-ce9f-42d3-83b8-f051631c78de

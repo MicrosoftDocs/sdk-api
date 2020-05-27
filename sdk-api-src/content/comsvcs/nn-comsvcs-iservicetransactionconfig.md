@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IServiceTransactionConfig
 title: IServiceTransactionConfig (comsvcs.h)
-description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.helpviewer_keywords: ["IServiceTransactionConfig","IServiceTransactionConfig interface [COM+]","IServiceTransactionConfig interface [COM+]","described","_cos_IServiceTransactionConfig","comsvcs/IServiceTransactionConfig","cos.iservicetransactionconfig"]
+description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
+helpviewer_keywords: ["IServiceTransactionConfig","IServiceTransactionConfig interface [COM+]","IServiceTransactionConfig interface [COM+]","described","_cos_IServiceTransactionConfig","comsvcs/IServiceTransactionConfig","cos.iservicetransactionconfig"]
 old-location: cos\iservicetransactionconfig.htm
 tech.root: cossdk
 ms.assetid: 7f31c590-8290-4556-9fcf-e27db01bad93

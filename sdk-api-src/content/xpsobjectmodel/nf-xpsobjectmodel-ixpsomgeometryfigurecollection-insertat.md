@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.InsertAt
 title: IXpsOMGeometryFigureCollection::InsertAt (xpsobjectmodel.h)
-description: Inserts an IXpsOMGeometryFigure interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMGeometryFigureCollection.InsertAt","IXpsOMGeometryFigureCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMGeometryFigureCollection interface","xps.ixpsomgeometryfigurecollection_insertat","xpsobjectmodel/IXpsOMGeometryFigureCollection::InsertAt"]
+description: Inserts an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMGeometryFigureCollection.InsertAt","IXpsOMGeometryFigureCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMGeometryFigureCollection interface","xps.ixpsomgeometryfigurecollection_insertat","xpsobjectmodel/IXpsOMGeometryFigureCollection::InsertAt"]
 old-location: xps\ixpsomgeometryfigurecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 1d550f36-ef0a-4a01-9c40-83e022634f73

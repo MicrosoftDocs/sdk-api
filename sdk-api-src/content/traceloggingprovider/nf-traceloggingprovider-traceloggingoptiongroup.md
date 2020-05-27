@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOptionGroup
 title: TraceLoggingOptionGroup macro (traceloggingprovider.h)
-description: Wrapper macro for use in TRACELOGGING_DEFINE_PROVIDER to declare the GUID of the provider group that the provider is a member of.helpviewer_keywords: ["TraceLoggingOptionGroup","TraceLoggingOptionGroup macro","tracelogging.traceloggingoptiongroup","traceloggingprovider/TraceLoggingOptionGroup"]
+description: Wrapper macro for use in TRACELOGGING_DEFINE_PROVIDER to declare the GUID of the provider group that the provider is a member of.
+helpviewer_keywords: ["TraceLoggingOptionGroup","TraceLoggingOptionGroup macro","tracelogging.traceloggingoptiongroup","traceloggingprovider/TraceLoggingOptionGroup"]
 old-location: tracelogging\traceloggingoptiongroup.htm
 tech.root: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42

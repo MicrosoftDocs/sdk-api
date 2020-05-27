@@ -1,7 +1,8 @@
 ---
 UID: NN:ctffunc.ITfCandidateList
 title: ITfCandidateList (ctffunc.h)
-description: The ITfCandidateList interface is implemented by a text service and is used by the TSF manager or a client (application or other text service) to obtain and manipulate candidate string objects.helpviewer_keywords: ["ITfCandidateList","ITfCandidateList interface [Text Services Framework]","ITfCandidateList interface [Text Services Framework]","described","_tsf_itfcandidatelist_ref","ctffunc/ITfCandidateList","tsf.itfcandidatelist"]
+description: The ITfCandidateList interface is implemented by a text service and is used by the TSF manager or a client (application or other text service) to obtain and manipulate candidate string objects.
+helpviewer_keywords: ["ITfCandidateList","ITfCandidateList interface [Text Services Framework]","ITfCandidateList interface [Text Services Framework]","described","_tsf_itfcandidatelist_ref","ctffunc/ITfCandidateList","tsf.itfcandidatelist"]
 old-location: tsf\itfcandidatelist.htm
 tech.root: TSF
 ms.assetid: e41ba461-6337-4feb-ba16-3942920ebb9f

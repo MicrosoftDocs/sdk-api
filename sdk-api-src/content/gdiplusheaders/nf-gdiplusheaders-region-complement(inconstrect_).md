@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Region.Complement(IN const Rect &)
 title: Region::Complement
-description: The Region::Complement method updates a region that does not intersect this region.helpviewer_keywords: ["Region::Complement"]
+description: The Region::Complement method updates a region that does not intersect this region.
+helpviewer_keywords: ["Region::Complement"]
 ms.assetid: a83d400f-0a3d-4486-a9a7-831455908ff8
 ms.date: 05/20/2019
 ms.keywords: Region::Complement

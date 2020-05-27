@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Backup
 title: IGPMGPO::Backup (gpmgmt.h)
-description: Backs up a Group Policy object (GPO) to the specified directory.helpviewer_keywords: ["Backup","Backup method [GPMC]","Backup method [GPMC]","GPMGPO object","Backup method [GPMC]","IGPMGPO interface","GPMGPO object [GPMC]","Backup method","IGPMGPO interface [GPMC]","Backup method","IGPMGPO.Backup","IGPMGPO::Backup","_win32_igpmgpo_backup","gpmc.igpmgpo_backup","gpmgmt/IGPMGPO::Backup"]
+description: Backs up a Group Policy object (GPO) to the specified directory.
+helpviewer_keywords: ["Backup","Backup method [GPMC]","Backup method [GPMC]","GPMGPO object","Backup method [GPMC]","IGPMGPO interface","GPMGPO object [GPMC]","Backup method","IGPMGPO interface [GPMC]","Backup method","IGPMGPO.Backup","IGPMGPO::Backup","_win32_igpmgpo_backup","gpmc.igpmgpo_backup","gpmgmt/IGPMGPO::Backup"]
 old-location: gpmc\igpmgpo_backup.htm
 tech.root: gpmc
 ms.assetid: 5ba8d2f7-4989-4882-9ceb-4f77b8745442

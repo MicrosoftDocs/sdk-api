@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHGetImageList
 title: SHGetImageList function (shellapi.h)
-description: Retrieves an image list.helpviewer_keywords: ["SHGetImageList","SHGetImageList function [Windows Shell]","SHIL_EXTRALARGE","SHIL_JUMBO","SHIL_LARGE","SHIL_LAST","SHIL_SMALL","SHIL_SYSSMALL","_shell_SHGetImageList","shell.SHGetImageList","shellapi/SHGetImageList"]
+description: Retrieves an image list.
+helpviewer_keywords: ["SHGetImageList","SHGetImageList function [Windows Shell]","SHIL_EXTRALARGE","SHIL_JUMBO","SHIL_LARGE","SHIL_LAST","SHIL_SMALL","SHIL_SYSSMALL","_shell_SHGetImageList","shell.SHGetImageList","shellapi/SHGetImageList"]
 old-location: shell\SHGetImageList.htm
 tech.root: shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e

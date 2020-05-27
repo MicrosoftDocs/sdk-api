@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetPageBreakBefore
 title: ITextPara::GetPageBreakBefore (tom.h)
-description: Determines whether each paragraph in the range must begin on a new page.helpviewer_keywords: ["GetPageBreakBefore","GetPageBreakBefore method [Windows Controls]","GetPageBreakBefore method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetPageBreakBefore method","ITextPara.GetPageBreakBefore","ITextPara::GetPageBreakBefore","_win32_ITextPara_GetPageBreakBefore","_win32_ITextPara_GetPageBreakBefore_cpp","controls.ITextPara_GetPageBreakBefore","controls._win32_ITextPara_GetPageBreakBefore","tom/ITextPara::GetPageBreakBefore"]
+description: Determines whether each paragraph in the range must begin on a new page.
+helpviewer_keywords: ["GetPageBreakBefore","GetPageBreakBefore method [Windows Controls]","GetPageBreakBefore method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetPageBreakBefore method","ITextPara.GetPageBreakBefore","ITextPara::GetPageBreakBefore","_win32_ITextPara_GetPageBreakBefore","_win32_ITextPara_GetPageBreakBefore_cpp","controls.ITextPara_GetPageBreakBefore","controls._win32_ITextPara_GetPageBreakBefore","tom/ITextPara::GetPageBreakBefore"]
 old-location: controls\ITextPara_GetPageBreakBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpagebreakbefore.htm

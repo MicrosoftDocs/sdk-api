@@ -1,7 +1,8 @@
 ---
 UID: NE:mswsock._RIO_NOTIFICATION_COMPLETION_TYPE
 title: RIO_NOTIFICATION_COMPLETION_TYPE (mswsock.h)
-description: Specifies the type of completion queue notifications to use with the RIONotify function when sending or receiving data using the Winsock registered I/O extensions.helpviewer_keywords: ["*PRIO_NOTIFICATION_COMPLETION_TYPE","RIO_EVENT_COMPLETION","RIO_IOCP_COMPLETION","RIO_NOTIFICATION_COMPLETION_TYPE","RIO_NOTIFICATION_COMPLETION_TYPE enumeration [Winsock]","mswsock/RIO_EVENT_COMPLETION","mswsock/RIO_IOCP_COMPLETION","mswsock/RIO_NOTIFICATION_COMPLETION_TYPE","winsock.rio_notification_completion_type"]
+description: Specifies the type of completion queue notifications to use with the RIONotify function when sending or receiving data using the Winsock registered I/O extensions.
+helpviewer_keywords: ["*PRIO_NOTIFICATION_COMPLETION_TYPE","RIO_EVENT_COMPLETION","RIO_IOCP_COMPLETION","RIO_NOTIFICATION_COMPLETION_TYPE","RIO_NOTIFICATION_COMPLETION_TYPE enumeration [Winsock]","mswsock/RIO_EVENT_COMPLETION","mswsock/RIO_IOCP_COMPLETION","mswsock/RIO_NOTIFICATION_COMPLETION_TYPE","winsock.rio_notification_completion_type"]
 old-location: winsock\rio_notification_completion_type.htm
 tech.root: WinSock
 ms.assetid: F60DC5AD-9114-46FA-BCFF-981D637B3683

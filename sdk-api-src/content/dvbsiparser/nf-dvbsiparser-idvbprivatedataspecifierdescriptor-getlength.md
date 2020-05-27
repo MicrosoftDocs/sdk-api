@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetLength
 title: IDvbPrivateDataSpecifierDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of a Digital Video Broadcast (DVB) private data descriptor.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbPrivateDataSpecifierDescriptor interface","IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbPrivateDataSpecifierDescriptor.GetLength","IDvbPrivateDataSpecifierDescriptor::GetLength","dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetLength","mstv.idvbprivatedataspecifierdescriptor_getlength"]
+description: Gets the body length of a Digital Video Broadcast (DVB) private data descriptor.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbPrivateDataSpecifierDescriptor interface","IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbPrivateDataSpecifierDescriptor.GetLength","IDvbPrivateDataSpecifierDescriptor::GetLength","dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetLength","mstv.idvbprivatedataspecifierdescriptor_getlength"]
 old-location: mstv\idvbprivatedataspecifierdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 9a3b550c-3082-4ac8-9568-6ccdec26d193

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasChildScopeRule
 title: ISearchCrawlScopeManager::HasChildScopeRule (searchapi.h)
-description: Identifies whether a given URL has a child rule in scope.helpviewer_keywords: ["HasChildScopeRule","HasChildScopeRule method [search]","HasChildScopeRule method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","HasChildScopeRule method","ISearchCrawlScopeManager.HasChildScopeRule","ISearchCrawlScopeManager::HasChildScopeRule","_search_ISearchCrawlScopeManager_HasChildScopeRule","search._search_ISearchCrawlScopeManager_HasChildScopeRule","searchapi/ISearchCrawlScopeManager::HasChildScopeRule"]
+description: Identifies whether a given URL has a child rule in scope.
+helpviewer_keywords: ["HasChildScopeRule","HasChildScopeRule method [search]","HasChildScopeRule method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","HasChildScopeRule method","ISearchCrawlScopeManager.HasChildScopeRule","ISearchCrawlScopeManager::HasChildScopeRule","_search_ISearchCrawlScopeManager_HasChildScopeRule","search._search_ISearchCrawlScopeManager_HasChildScopeRule","searchapi/ISearchCrawlScopeManager::HasChildScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_HasChildScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\haschildscoperule.htm

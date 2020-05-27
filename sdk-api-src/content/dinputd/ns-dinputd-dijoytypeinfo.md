@@ -1,7 +1,8 @@
 ---
 UID: NS:dinputd.DIJOYTYPEINFO
 title: DIJOYTYPEINFO (dinputd.h)
-description: The DIJOYTYPEINFO structure contains information about a joystick type.helpviewer_keywords: ["*LPDIJOYTYPEINFO","DIJOYTYPEINFO","DIJOYTYPEINFO structure [Human Input Devices]","DIJOYTYPEINFO","*LPDIJOYTYPEINFO","DIJOYTYPEINFO","*LPDIJOYTYPEINFO structure [Human Input Devices]","di_ref_5b0a815b-710c-4f46-afa7-b8d051c7a5d6.xml","dinputd/DIJOYTYPEINFO","hid.dijoytypeinfo"]
+description: The DIJOYTYPEINFO structure contains information about a joystick type.
+helpviewer_keywords: ["*LPDIJOYTYPEINFO","DIJOYTYPEINFO","DIJOYTYPEINFO structure [Human Input Devices]","DIJOYTYPEINFO","*LPDIJOYTYPEINFO","DIJOYTYPEINFO","*LPDIJOYTYPEINFO structure [Human Input Devices]","di_ref_5b0a815b-710c-4f46-afa7-b8d051c7a5d6.xml","dinputd/DIJOYTYPEINFO","hid.dijoytypeinfo"]
 old-location: hid\dijoytypeinfo.htm
 tech.root: hid
 ms.assetid: 54f52839-59ed-4edd-8d28-e3504f9900d0

@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.SwapNtmsMedia
 title: SwapNtmsMedia function (ntmsapi.h)
-description: The SwapNtmsMedia function swaps the sides associated with the two specified LMIDs. The specified LMIDs must be in the same media pool.helpviewer_keywords: ["SwapNtmsMedia","SwapNtmsMedia function [Files]","_zaw_swapntmsmedia","base.swapntmsmedia","fs.swapntmsmedia","ntmsapi/SwapNtmsMedia"]
+description: The SwapNtmsMedia function swaps the sides associated with the two specified LMIDs. The specified LMIDs must be in the same media pool.
+helpviewer_keywords: ["SwapNtmsMedia","SwapNtmsMedia function [Files]","_zaw_swapntmsmedia","base.swapntmsmedia","fs.swapntmsmedia","ntmsapi/SwapNtmsMedia"]
 old-location: fs\swapntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 1e931ae0-b15c-48c8-b6a0-6fa1689263a2

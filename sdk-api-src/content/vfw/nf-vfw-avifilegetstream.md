@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIFileGetStream
 title: AVIFileGetStream function (vfw.h)
-description: The AVIFileGetStream function returns the address of a stream interface that is associated with a specified AVI file.helpviewer_keywords: ["AVIFileGetStream","AVIFileGetStream function [Windows Multimedia]","_win32_AVIFileGetStream","multimedia.avifilegetstream","vfw/AVIFileGetStream"]
+description: The AVIFileGetStream function returns the address of a stream interface that is associated with a specified AVI file.
+helpviewer_keywords: ["AVIFileGetStream","AVIFileGetStream function [Windows Multimedia]","_win32_AVIFileGetStream","multimedia.avifilegetstream","vfw/AVIFileGetStream"]
 old-location: multimedia\avifilegetstream.htm
 tech.root: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757

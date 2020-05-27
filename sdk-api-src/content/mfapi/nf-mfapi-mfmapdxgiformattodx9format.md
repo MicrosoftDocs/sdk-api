@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFMapDXGIFormatToDX9Format
 title: MFMapDXGIFormatToDX9Format function (mfapi.h)
-description: Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to a Microsoft Direct3D 9 format identifier.helpviewer_keywords: ["MFMapDXGIFormatToDX9Format","MFMapDXGIFormatToDX9Format function [Media Foundation]","mf.mfmapdxgiformattodx9format","mfapi/MFMapDXGIFormatToDX9Format"]
+description: Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to a Microsoft Direct3D 9 format identifier.
+helpviewer_keywords: ["MFMapDXGIFormatToDX9Format","MFMapDXGIFormatToDX9Format function [Media Foundation]","mf.mfmapdxgiformattodx9format","mfapi/MFMapDXGIFormatToDX9Format"]
 old-location: mf\mfmapdxgiformattodx9format.htm
 tech.root: medfound
 ms.assetid: D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF

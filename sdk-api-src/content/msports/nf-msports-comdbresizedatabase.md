@@ -1,7 +1,8 @@
 ---
 UID: NF:msports.ComDBResizeDatabase
 title: ComDBResizeDatabase function (msports.h)
-description: ComDBResizeDatabase resizes the COM port database.helpviewer_keywords: ["ComDBResizeDatabase","ComDBResizeDatabase function [Serial Ports]","comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml","msports/ComDBResizeDatabase","serports.comdbresizedatabase"]
+description: ComDBResizeDatabase resizes the COM port database.
+helpviewer_keywords: ["ComDBResizeDatabase","ComDBResizeDatabase function [Serial Ports]","comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml","msports/ComDBResizeDatabase","serports.comdbresizedatabase"]
 old-location: serports\comdbresizedatabase.htm
 tech.root: serports
 ms.assetid: fef761be-57c5-4188-8de9-dbca31d91870

@@ -1,7 +1,8 @@
 ---
 UID: NN:sensorsapi.ISensorEvents
 title: ISensorEvents (sensorsapi.h)
-description: The callback interface you must implement if you want to receive sensor events.helpviewer_keywords: ["ISensorEvents","ISensorEvents interface [WinSensors]","ISensorEvents interface [WinSensors]","described","sensorsapi/ISensorEvents","winsensors.isensorevents"]
+description: The callback interface you must implement if you want to receive sensor events.
+helpviewer_keywords: ["ISensorEvents","ISensorEvents interface [WinSensors]","ISensorEvents interface [WinSensors]","described","sensorsapi/ISensorEvents","winsensors.isensorevents"]
 old-location: winsensors\isensorevents.htm
 tech.root: SensorsAPI
 ms.assetid: 41acbb4f-b4f8-4573-a993-ed93ec9494f0

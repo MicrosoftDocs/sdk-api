@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.TraceEvent
 title: TraceEvent function (evntrace.h)
-description: The TraceEvent function sends an event to an event tracing session.helpviewer_keywords: ["TraceEvent","TraceEvent function [ETW]","_evt_traceevent","base.traceevent","etw.traceevent","evntrace/TraceEvent"]
+description: The TraceEvent function sends an event to an event tracing session.
+helpviewer_keywords: ["TraceEvent","TraceEvent function [ETW]","_evt_traceevent","base.traceevent","etw.traceevent","evntrace/TraceEvent"]
 old-location: etw\traceevent.htm
 tech.root: ETW
 ms.assetid: 9b21f6f0-dd9b-4f9c-a879-846901a3bab7

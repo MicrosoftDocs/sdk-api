@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataProvider.Resolve
 title: ITraceDataProvider::Resolve (pla.h)
-description: Merges the details about a provider with this instance.helpviewer_keywords: ["ITraceDataProvider interface [PLA]","Resolve method","ITraceDataProvider.Resolve","ITraceDataProvider::Resolve","Resolve","Resolve method [PLA]","Resolve method [PLA]","ITraceDataProvider interface","base.itracedataprovider_resolve","pla.itracedataprovider_resolve","pla/ITraceDataProvider::Resolve"]
+description: Merges the details about a provider with this instance.
+helpviewer_keywords: ["ITraceDataProvider interface [PLA]","Resolve method","ITraceDataProvider.Resolve","ITraceDataProvider::Resolve","Resolve","Resolve method [PLA]","Resolve method [PLA]","ITraceDataProvider interface","base.itracedataprovider_resolve","pla.itracedataprovider_resolve","pla/ITraceDataProvider::Resolve"]
 old-location: pla\itracedataprovider_resolve.htm
 tech.root: PLA
 ms.assetid: cabe7207-30f9-4382-bc29-b435d6e4c218

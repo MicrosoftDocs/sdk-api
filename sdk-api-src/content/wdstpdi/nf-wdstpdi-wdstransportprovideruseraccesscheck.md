@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderUserAccessCheck
 title: WdsTransportProviderUserAccessCheck function (wdstpdi.h)
-description: Specifies access to a content stream based on a user's token.helpviewer_keywords: ["WdsTransportProviderUserAccessCheck","WdsTransportProviderUserAccessCheck callback","WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services]","wds.wdstransportprovideruseraccesscheck","wdstpdi/WdsTransportProviderUserAccessCheck"]
+description: Specifies access to a content stream based on a user's token.
+helpviewer_keywords: ["WdsTransportProviderUserAccessCheck","WdsTransportProviderUserAccessCheck callback","WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services]","wds.wdstransportprovideruseraccesscheck","wdstpdi/WdsTransportProviderUserAccessCheck"]
 old-location: wds\wdstransportprovideruseraccesscheck.htm
 tech.root: wds
 ms.assetid: 3ce381d3-d6f6-4f64-a825-116c3cff4747

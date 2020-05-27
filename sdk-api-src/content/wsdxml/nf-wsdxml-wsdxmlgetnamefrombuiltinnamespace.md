@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdxml.WSDXMLGetNameFromBuiltinNamespace
 title: WSDXMLGetNameFromBuiltinNamespace function (wsdxml.h)
-description: Gets a specified name from the built-in namespace.helpviewer_keywords: ["WSDXMLGetNameFromBuiltinNamespace","WSDXMLGetNameFromBuiltinNamespace function","ncd.wsdxmlgetnamefrombuiltinnamespace","wsdxml/WSDXMLGetNameFromBuiltinNamespace"]
+description: Gets a specified name from the built-in namespace.
+helpviewer_keywords: ["WSDXMLGetNameFromBuiltinNamespace","WSDXMLGetNameFromBuiltinNamespace function","ncd.wsdxmlgetnamefrombuiltinnamespace","wsdxml/WSDXMLGetNameFromBuiltinNamespace"]
 old-location: ncd\wsdxmlgetnamefrombuiltinnamespace.htm
 tech.root: WsdApi
 ms.assetid: b7a5ac45-ee87-4290-9cbb-de523c0f2775

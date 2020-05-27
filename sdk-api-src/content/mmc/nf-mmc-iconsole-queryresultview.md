@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsole.QueryResultView
 title: IConsole::QueryResultView (mmc.h)
-description: Queries IConsole for the result view object IUnknown interface pointer.helpviewer_keywords: ["IConsole interface [MMC]","QueryResultView method","IConsole.QueryResultView","IConsole::QueryResultView","QueryResultView","QueryResultView method [MMC]","QueryResultView method [MMC]","IConsole interface","mmc.iconsole_queryresultview","mmc/IConsole::QueryResultView"]
+description: Queries IConsole for the result view object IUnknown interface pointer.
+helpviewer_keywords: ["IConsole interface [MMC]","QueryResultView method","IConsole.QueryResultView","IConsole::QueryResultView","QueryResultView","QueryResultView method [MMC]","QueryResultView method [MMC]","IConsole interface","mmc.iconsole_queryresultview","mmc/IConsole::QueryResultView"]
 old-location: mmc\iconsole_queryresultview.htm
 tech.root: mmc
 ms.assetid: A13410D1-38F3-489A-8AAC-BD2909341ACB

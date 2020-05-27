@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemAt
 title: IPhotoAcquireItem::GetSubItemAt (photoacquire.h)
-description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.helpviewer_keywords: ["GetSubItemAt","GetSubItemAt method [Picture Acquisition]","GetSubItemAt method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetSubItemAt method","IPhotoAcquireItem.GetSubItemAt","IPhotoAcquireItem::GetSubItemAt","IPhotoAcquireItemGetSubItemAt","photoacquire/IPhotoAcquireItem::GetSubItemAt","picacq.iphotoacquireitem_getsubitemat"]
+description: The GetSubItemAt method retrieves a subitem of an item, given the index of the subitem.
+helpviewer_keywords: ["GetSubItemAt","GetSubItemAt method [Picture Acquisition]","GetSubItemAt method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetSubItemAt method","IPhotoAcquireItem.GetSubItemAt","IPhotoAcquireItem::GetSubItemAt","IPhotoAcquireItemGetSubItemAt","photoacquire/IPhotoAcquireItem::GetSubItemAt","picacq.iphotoacquireitem_getsubitemat"]
 old-location: picacq\iphotoacquireitem_getsubitemat.htm
 tech.root: acquisition
 ms.assetid: 2fd410a0-20b5-4e16-9d36-89a14443c8bd

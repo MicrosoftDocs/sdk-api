@@ -1,7 +1,8 @@
 ---
 UID: NS:coml2api.tagSTGOPTIONS
 title: STGOPTIONS (coml2api.h)
-description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.helpviewer_keywords: ["STGOPTIONS","STGOPTIONS structure [Structured Storage]","_stg_stgoptions","coml2api/STGOPTIONS","stg.stgoptions"]
+description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
+helpviewer_keywords: ["STGOPTIONS","STGOPTIONS structure [Structured Storage]","_stg_stgoptions","coml2api/STGOPTIONS","stg.stgoptions"]
 old-location: stg\stgoptions.htm
 tech.root: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810

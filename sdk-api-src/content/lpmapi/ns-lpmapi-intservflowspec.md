@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_28
 title: IntServFlowSpec (lpmapi.h)
-description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.helpviewer_keywords: ["IntServFlowSpec","IntServFlowSpec structure [QOS]","lpmapi/IntServFlowSpec","qos.intservflowspec"]
+description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
+helpviewer_keywords: ["IntServFlowSpec","IntServFlowSpec structure [QOS]","lpmapi/IntServFlowSpec","qos.intservflowspec"]
 old-location: qos\intservflowspec.htm
 tech.root: QOS
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792

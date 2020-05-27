@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.ITunerCapEx
 title: ITunerCapEx (tuner.h)
-description: Provides information about the capabilities of a BDA device filter that represents a TV tuner. This interface extends the ITunerCap interface.helpviewer_keywords: ["ITunerCapEx","ITunerCapEx interface [Microsoft TV Technologies]","ITunerCapEx interface [Microsoft TV Technologies]","described","mstv.itunercapex","tuner/ITunerCapEx"]
+description: Provides information about the capabilities of a BDA device filter that represents a TV tuner. This interface extends the ITunerCap interface.
+helpviewer_keywords: ["ITunerCapEx","ITunerCapEx interface [Microsoft TV Technologies]","ITunerCapEx interface [Microsoft TV Technologies]","described","mstv.itunercapex","tuner/ITunerCapEx"]
 old-location: mstv\itunercapex.htm
 tech.root: mstv
 ms.assetid: 414492d0-33d5-4b39-9884-36ed44e530cd

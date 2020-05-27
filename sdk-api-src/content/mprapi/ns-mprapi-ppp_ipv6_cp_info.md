@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._PPP_IPV6_CP_INFO
 title: PPP_IPV6_CP_INFO (mprapi.h)
-description: Contains the result of an IPv6 control protocol negotiation.helpviewer_keywords: ["PPPP_IPV6_CP_INFO","PPPP_IPV6_CP_INFO structure pointer [RAS]","PPP_IPV6_CP_INFO","PPP_IPV6_CP_INFO structure [RAS]","mprapi/PPPP_IPV6_CP_INFO","mprapi/PPP_IPV6_CP_INFO","rras.ppp_ipv6cp_info"]
+description: Contains the result of an IPv6 control protocol negotiation.
+helpviewer_keywords: ["PPPP_IPV6_CP_INFO","PPPP_IPV6_CP_INFO structure pointer [RAS]","PPP_IPV6_CP_INFO","PPP_IPV6_CP_INFO structure [RAS]","mprapi/PPPP_IPV6_CP_INFO","mprapi/PPP_IPV6_CP_INFO","rras.ppp_ipv6cp_info"]
 old-location: rras\ppp_ipv6cp_info.htm
 tech.root: RRAS
 ms.assetid: fb77a15d-a513-456d-9d55-258b93fe8db5

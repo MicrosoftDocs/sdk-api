@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite.DWRITE_PIXEL_GEOMETRY
 title: DWRITE_PIXEL_GEOMETRY (dwrite.h)
-description: Represents the internal structure of a device pixel (that is, the physical arrangement of red, green, and blue color components) that is assumed for purposes of rendering text.helpviewer_keywords: ["DWRITE_PIXEL_GEOMETRY","DWRITE_PIXEL_GEOMETRY enumeration [Direct Write]","DWRITE_PIXEL_GEOMETRY_BGR","DWRITE_PIXEL_GEOMETRY_FLAT","DWRITE_PIXEL_GEOMETRY_RGB","directwrite.dwrite_pixel_geometry","dwrite/DWRITE_PIXEL_GEOMETRY","dwrite/DWRITE_PIXEL_GEOMETRY_BGR","dwrite/DWRITE_PIXEL_GEOMETRY_FLAT","dwrite/DWRITE_PIXEL_GEOMETRY_RGB"]
+description: Represents the internal structure of a device pixel (that is, the physical arrangement of red, green, and blue color components) that is assumed for purposes of rendering text.
+helpviewer_keywords: ["DWRITE_PIXEL_GEOMETRY","DWRITE_PIXEL_GEOMETRY enumeration [Direct Write]","DWRITE_PIXEL_GEOMETRY_BGR","DWRITE_PIXEL_GEOMETRY_FLAT","DWRITE_PIXEL_GEOMETRY_RGB","directwrite.dwrite_pixel_geometry","dwrite/DWRITE_PIXEL_GEOMETRY","dwrite/DWRITE_PIXEL_GEOMETRY_BGR","dwrite/DWRITE_PIXEL_GEOMETRY_FLAT","dwrite/DWRITE_PIXEL_GEOMETRY_RGB"]
 old-location: directwrite\dwrite_pixel_geometry.htm
 tech.root: DirectWrite
 ms.assetid: de84b37b-bcb1-432c-8876-d84eaa0e30e0

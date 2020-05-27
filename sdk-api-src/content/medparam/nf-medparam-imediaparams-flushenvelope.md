@@ -1,7 +1,8 @@
 ---
 UID: NF:medparam.IMediaParams.FlushEnvelope
 title: IMediaParams::FlushEnvelope (medparam.h)
-description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.helpviewer_keywords: ["FlushEnvelope","FlushEnvelope method [DirectShow]","FlushEnvelope method [DirectShow]","IMediaParams interface","IMediaParams interface [DirectShow]","FlushEnvelope method","IMediaParams.FlushEnvelope","IMediaParams::FlushEnvelope","IMediaParamsFlushEnvelope","dshow.imediaparams_flushenvelope","medparam/IMediaParams::FlushEnvelope"]
+description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
+helpviewer_keywords: ["FlushEnvelope","FlushEnvelope method [DirectShow]","FlushEnvelope method [DirectShow]","IMediaParams interface","IMediaParams interface [DirectShow]","FlushEnvelope method","IMediaParams.FlushEnvelope","IMediaParams::FlushEnvelope","IMediaParamsFlushEnvelope","dshow.imediaparams_flushenvelope","medparam/IMediaParams::FlushEnvelope"]
 old-location: dshow\imediaparams_flushenvelope.htm
 tech.root: DirectShow
 ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720

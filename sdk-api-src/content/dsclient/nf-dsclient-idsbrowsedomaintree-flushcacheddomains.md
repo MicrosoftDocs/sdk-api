@@ -1,7 +1,8 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.FlushCachedDomains
 title: IDsBrowseDomainTree::FlushCachedDomains (dsclient.h)
-description: The IDsBrowseDomainTree::FlushCachedDomains method frees the cached domain list.helpviewer_keywords: ["FlushCachedDomains","FlushCachedDomains method [Active Directory]","FlushCachedDomains method [Active Directory]","IDsBrowseDomainTree interface","IDsBrowseDomainTree interface [Active Directory]","FlushCachedDomains method","IDsBrowseDomainTree.FlushCachedDomains","IDsBrowseDomainTree::FlushCachedDomains","_glines_idsbrowsedomaintree_flushcacheddomains","ad.idsbrowsedomaintree__flushcacheddomains","ad.idsbrowsedomaintree_flushcacheddomains","dsclient/IDsBrowseDomainTree::FlushCachedDomains"]
+description: The IDsBrowseDomainTree::FlushCachedDomains method frees the cached domain list.
+helpviewer_keywords: ["FlushCachedDomains","FlushCachedDomains method [Active Directory]","FlushCachedDomains method [Active Directory]","IDsBrowseDomainTree interface","IDsBrowseDomainTree interface [Active Directory]","FlushCachedDomains method","IDsBrowseDomainTree.FlushCachedDomains","IDsBrowseDomainTree::FlushCachedDomains","_glines_idsbrowsedomaintree_flushcacheddomains","ad.idsbrowsedomaintree__flushcacheddomains","ad.idsbrowsedomaintree_flushcacheddomains","dsclient/IDsBrowseDomainTree::FlushCachedDomains"]
 old-location: ad\idsbrowsedomaintree_flushcacheddomains.htm
 tech.root: ad
 ms.assetid: e6f4dbbb-5e2f-470a-bfc0-5bb6e96c7a6c

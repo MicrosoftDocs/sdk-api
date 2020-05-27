@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_Delete
 title: MI_DestinationOptions_Delete function (mi.h)
-description: Deletes the destination options structure created by using the MI_Application_NewDestinationOptions or MI_DestinationOptions_Clone function.helpviewer_keywords: ["MI_DestinationOptions_Delete","MI_DestinationOptions_Delete function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_Delete","wmi_v2.mi_destinationoptions_delete"]
+description: Deletes the destination options structure created by using the MI_Application_NewDestinationOptions or MI_DestinationOptions_Clone function.
+helpviewer_keywords: ["MI_DestinationOptions_Delete","MI_DestinationOptions_Delete function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_Delete","wmi_v2.mi_destinationoptions_delete"]
 old-location: wmi_v2\mi_destinationoptions_delete.htm
 tech.root: wmi_v2
 ms.assetid: c4cc8622-1adb-4e91-877f-11a260ca4bd7

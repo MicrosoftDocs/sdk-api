@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantGetBooleanElem
 title: PropVariantGetBooleanElem function (propvarutil.h)
-description: Extracts a single Boolean element from a PROPVARIANT structure of type VT_BOOL, VT_VECTOR | VT_BOOL, or VT_ARRAY | VT_BOOL.helpviewer_keywords: ["PropVariantGetBooleanElem","PropVariantGetBooleanElem function [Windows Properties]","_shell_PropVariantGetBooleanElem","properties.PropVariantGetBooleanElem","propvarutil/PropVariantGetBooleanElem","shell.PropVariantGetBooleanElem"]
+description: Extracts a single Boolean element from a PROPVARIANT structure of type VT_BOOL, VT_VECTOR | VT_BOOL, or VT_ARRAY | VT_BOOL.
+helpviewer_keywords: ["PropVariantGetBooleanElem","PropVariantGetBooleanElem function [Windows Properties]","_shell_PropVariantGetBooleanElem","properties.PropVariantGetBooleanElem","propvarutil/PropVariantGetBooleanElem","shell.PropVariantGetBooleanElem"]
 old-location: properties\PropVariantGetBooleanElem.htm
 tech.root: properties
 ms.assetid: 830dca70-1777-418d-b3ac-78028411700e

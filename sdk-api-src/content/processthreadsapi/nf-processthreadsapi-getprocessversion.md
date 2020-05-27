@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetProcessVersion
 title: GetProcessVersion function (processthreadsapi.h)
-description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.helpviewer_keywords: ["GetProcessVersion","GetProcessVersion function","_win32_getprocessversion","base.getprocessversion","processthreadsapi/GetProcessVersion","winbase/GetProcessVersion"]
+description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.
+helpviewer_keywords: ["GetProcessVersion","GetProcessVersion function","_win32_getprocessversion","base.getprocessversion","processthreadsapi/GetProcessVersion","winbase/GetProcessVersion"]
 old-location: base\getprocessversion.htm
 tech.root: ProcThread
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c

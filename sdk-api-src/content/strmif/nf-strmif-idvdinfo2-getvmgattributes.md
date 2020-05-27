@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetVMGAttributes
 title: IDvdInfo2::GetVMGAttributes (strmif.h)
-description: The GetVMGAttributes method retrieves attributes of all video, audio, and subpicture streams for the Video Manager Menu.helpviewer_keywords: ["GetVMGAttributes","GetVMGAttributes method [DirectShow]","GetVMGAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetVMGAttributes method","IDvdInfo2.GetVMGAttributes","IDvdInfo2::GetVMGAttributes","IDvdInfo2GetVMGAttributes","dshow.idvdinfo2_getvmgattributes","strmif/IDvdInfo2::GetVMGAttributes"]
+description: The GetVMGAttributes method retrieves attributes of all video, audio, and subpicture streams for the Video Manager Menu.
+helpviewer_keywords: ["GetVMGAttributes","GetVMGAttributes method [DirectShow]","GetVMGAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetVMGAttributes method","IDvdInfo2.GetVMGAttributes","IDvdInfo2::GetVMGAttributes","IDvdInfo2GetVMGAttributes","dshow.idvdinfo2_getvmgattributes","strmif/IDvdInfo2::GetVMGAttributes"]
 old-location: dshow\idvdinfo2_getvmgattributes.htm
 tech.root: DirectShow
 ms.assetid: ddb1059a-e1c5-4506-b565-fd871ad8385f

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryDestination
 title: MI_SubscriptionDeliveryOptions_SetDeliveryDestination function (mi.h)
-description: Sets the destination endpoint that an indication will be delivered to.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetDeliveryDestination","MI_SubscriptionDeliveryOptions_SetDeliveryDestination function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetDeliveryDestination","wmi_v2.mi_subscriptiondeliveryoptions_setdeliverydestination"]
+description: Sets the destination endpoint that an indication will be delivered to.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetDeliveryDestination","MI_SubscriptionDeliveryOptions_SetDeliveryDestination function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetDeliveryDestination","wmi_v2.mi_subscriptiondeliveryoptions_setdeliverydestination"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliverydestination.htm
 tech.root: wmi_v2
 ms.assetid: 01405c64-83ab-4c39-975c-7786659e2c18

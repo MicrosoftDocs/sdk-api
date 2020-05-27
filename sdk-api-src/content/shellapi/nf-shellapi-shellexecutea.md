@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteA
 title: ShellExecuteA function (shellapi.h)
-description: Performs an operation on a specified file.helpviewer_keywords: ["NULL","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWDEFAULT","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","ShellExecute","ShellExecute function [Windows Shell]","ShellExecuteA","ShellExecuteW","_win32_ShellExecute","_win32_ShellExecute_cpp","edit","explore","find","open","print","shell.ShellExecute","shellapi/ShellExecute","shellapi/ShellExecuteA","shellapi/ShellExecuteW"]
+description: Performs an operation on a specified file.
+helpviewer_keywords: ["NULL","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWDEFAULT","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","ShellExecute","ShellExecute function [Windows Shell]","ShellExecuteA","ShellExecuteW","_win32_ShellExecute","_win32_ShellExecute_cpp","edit","explore","find","open","print","shell.ShellExecute","shellapi/ShellExecute","shellapi/ShellExecuteA","shellapi/ShellExecuteW"]
 old-location: shell\ShellExecute.htm
 tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection
 title: IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection (wmsdkidl.h)
-description: The SetForceRerunAutoProxyDetection method enables or disables forced rerun detection.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetForceRerunAutoProxyDetection method","IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection","IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection","IWMReaderNetworkConfigSetForceRerunAutoProxyDetection","SetForceRerunAutoProxyDetection","SetForceRerunAutoProxyDetection method [windows Media Format]","SetForceRerunAutoProxyDetection method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setforcererunautoproxydetection","wmsdkidl/IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection"]
+description: The SetForceRerunAutoProxyDetection method enables or disables forced rerun detection.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetForceRerunAutoProxyDetection method","IWMReaderNetworkConfig.SetForceRerunAutoProxyDetection","IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection","IWMReaderNetworkConfigSetForceRerunAutoProxyDetection","SetForceRerunAutoProxyDetection","SetForceRerunAutoProxyDetection method [windows Media Format]","SetForceRerunAutoProxyDetection method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setforcererunautoproxydetection","wmsdkidl/IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection"]
 old-location: wmformat\iwmreadernetworkconfig_setforcererunautoproxydetection.htm
 tech.root: wmformat
 ms.assetid: 3c84fc2a-5933-45da-a7a3-728a8837d851

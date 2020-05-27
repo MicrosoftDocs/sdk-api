@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Rect.Inflate(IN const Point &)
 title: Rect::Inflate(IN const Point &) (gdiplustypes.h)
-description: The Rect::Inflate method expands the rectangle by the value of point.X on the left and right edges, and by the value of point.Y on the top and bottom edges.helpviewer_keywords: ["Inflate","Inflate method [GDI+]","Inflate method [GDI+]","Rect class","Rect class [GDI+]","Inflate method","Rect.Inflate","Rect.Inflate(IN const Point &)","Rect.Inflate(const Point&)","Rect::Inflate","Rect::Inflate(IN const Point &)","_gdiplus_CLASS_Rect_Inflate_point_","gdiplus._gdiplus_CLASS_Rect_Inflate_point_"]
+description: The Rect::Inflate method expands the rectangle by the value of point.X on the left and right edges, and by the value of point.Y on the top and bottom edges.
+helpviewer_keywords: ["Inflate","Inflate method [GDI+]","Inflate method [GDI+]","Rect class","Rect class [GDI+]","Inflate method","Rect.Inflate","Rect.Inflate(IN const Point &)","Rect.Inflate(const Point&)","Rect::Inflate","Rect::Inflate(IN const Point &)","_gdiplus_CLASS_Rect_Inflate_point_","gdiplus._gdiplus_CLASS_Rect_Inflate_point_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods\inflate_0point.htm

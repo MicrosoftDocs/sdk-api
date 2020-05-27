@@ -1,7 +1,8 @@
 ---
 UID: NS:appmodel.PACKAGE_INFO
 title: PACKAGE_INFO (appmodel.h)
-description: Represents package identification information that includes the package identifier, full name, and install location.helpviewer_keywords: ["PACKAGE_INFO","PACKAGE_INFO structure [App packaging and management]","appmodel/PACKAGE_INFO","appxpkg.package_info"]
+description: Represents package identification information that includes the package identifier, full name, and install location.
+helpviewer_keywords: ["PACKAGE_INFO","PACKAGE_INFO structure [App packaging and management]","appmodel/PACKAGE_INFO","appxpkg.package_info"]
 old-location: appxpkg\package_info.htm
 tech.root: appxpkg
 ms.assetid: 0DDE00D1-9C5F-4F2B-8110-A92B1FFA1B64

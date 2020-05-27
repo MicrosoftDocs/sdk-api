@@ -1,7 +1,8 @@
 ---
 UID: NS:winnetwk._UNIVERSAL_NAME_INFOW
 title: UNIVERSAL_NAME_INFOW (winnetwk.h)
-description: The UNIVERSAL_NAME_INFO structure contains information about the UNC form of a universal name. It is used by the NPGetUniversalName function.helpviewer_keywords: ["*LPUNIVERSAL_NAME_INFOW","LPUNIVERSAL_NAME_INFO","LPUNIVERSAL_NAME_INFO structure pointer [Security]","UNIVERSAL_NAME_INFO","UNIVERSAL_NAME_INFO structure [Security]","UNIVERSAL_NAME_INFOA","UNIVERSAL_NAME_INFOW","_mnp_universal_name_info","security.universal_name_info","winnetwk/LPUNIVERSAL_NAME_INFO","winnetwk/UNIVERSAL_NAME_INFO","winnetwk/UNIVERSAL_NAME_INFOA","winnetwk/UNIVERSAL_NAME_INFOW"]
+description: The UNIVERSAL_NAME_INFO structure contains information about the UNC form of a universal name. It is used by the NPGetUniversalName function.
+helpviewer_keywords: ["*LPUNIVERSAL_NAME_INFOW","LPUNIVERSAL_NAME_INFO","LPUNIVERSAL_NAME_INFO structure pointer [Security]","UNIVERSAL_NAME_INFO","UNIVERSAL_NAME_INFO structure [Security]","UNIVERSAL_NAME_INFOA","UNIVERSAL_NAME_INFOW","_mnp_universal_name_info","security.universal_name_info","winnetwk/LPUNIVERSAL_NAME_INFO","winnetwk/UNIVERSAL_NAME_INFO","winnetwk/UNIVERSAL_NAME_INFOA","winnetwk/UNIVERSAL_NAME_INFOW"]
 old-location: security\universal_name_info.htm
 tech.root: SecAuthN
 ms.assetid: 505bcd3e-4043-4856-9a6f-a6f074dc6076

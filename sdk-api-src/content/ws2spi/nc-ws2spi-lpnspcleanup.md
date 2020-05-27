@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPNSPCLEANUP
 title: LPNSPCLEANUP (ws2spi.h)
-description: Terminates the use of a particular Windows Sockets namespace service provider.helpviewer_keywords: ["LPNSPCLEANUP","NSPCleanup","NSPCleanup function [Winsock]","_win32_nspcleanup_2","winsock.nspcleanup_2","ws2spi/NSPCleanup"]
+description: Terminates the use of a particular Windows Sockets namespace service provider.
+helpviewer_keywords: ["LPNSPCLEANUP","NSPCleanup","NSPCleanup function [Winsock]","_win32_nspcleanup_2","winsock.nspcleanup_2","ws2spi/NSPCleanup"]
 old-location: winsock\nspcleanup_2.htm
 tech.root: WinSock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365

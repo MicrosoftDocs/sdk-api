@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpTimeFromSystemTime
 title: WinHttpTimeFromSystemTime function (winhttp.h)
-description: Formats a date and time according to the HTTP version 1.0 specification.helpviewer_keywords: ["WinHttpTimeFromSystemTime","WinHttpTimeFromSystemTime function [WinHTTP]","http.winhttptimefromsystemtime","winhttp.winhttptimefromsystemtime_function","winhttp/WinHttpTimeFromSystemTime"]
+description: Formats a date and time according to the HTTP version 1.0 specification.
+helpviewer_keywords: ["WinHttpTimeFromSystemTime","WinHttpTimeFromSystemTime function [WinHTTP]","http.winhttptimefromsystemtime","winhttp.winhttptimefromsystemtime_function","winhttp/WinHttpTimeFromSystemTime"]
 old-location: http\winhttptimefromsystemtime.htm
 tech.root: WinHttp
 ms.assetid: 8d55e3bb-0b86-41d9-ba39-62feb2acc707

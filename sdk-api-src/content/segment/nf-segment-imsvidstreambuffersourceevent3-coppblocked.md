@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent3.COPPBlocked
 title: IMSVidStreamBufferSourceEvent3::COPPBlocked (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["COPPBlocked","COPPBlocked method [Microsoft TV Technologies]","COPPBlocked method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent3 interface","IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies]","COPPBlocked method","IMSVidStreamBufferSourceEvent3.COPPBlocked","IMSVidStreamBufferSourceEvent3::COPPBlocked","IMSVidStreamBufferSourceEvent3COPPBlocked","mstv.imsvidstreambuffersourceevent3_coppblocked","segment/IMSVidStreamBufferSourceEvent3::COPPBlocked"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["COPPBlocked","COPPBlocked method [Microsoft TV Technologies]","COPPBlocked method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent3 interface","IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies]","COPPBlocked method","IMSVidStreamBufferSourceEvent3.COPPBlocked","IMSVidStreamBufferSourceEvent3::COPPBlocked","IMSVidStreamBufferSourceEvent3COPPBlocked","mstv.imsvidstreambuffersourceevent3_coppblocked","segment/IMSVidStreamBufferSourceEvent3::COPPBlocked"]
 old-location: mstv\imsvidstreambuffersourceevent3_coppblocked.htm
 tech.root: mstv
 ms.assetid: a3da78ea-4694-45a4-9284-d40c08f12fe5

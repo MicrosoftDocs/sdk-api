@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.StartService
 title: ISdoServiceControl::StartService (sdoias.h)
-description: The StartService method starts the service administered through SDO.helpviewer_keywords: ["ISdoServiceControl interface [Network Policy Server]","StartService method","ISdoServiceControl.StartService","ISdoServiceControl::StartService","StartService","StartService method [Network Policy Server]","StartService method [Network Policy Server]","ISdoServiceControl interface","_sdo_isdoservicecontrol_startservice","nps.SDO_isdoservicecontrol_startservice","sdo.isdoservicecontrol_startservice","sdoias/ISdoServiceControl::StartService"]
+description: The StartService method starts the service administered through SDO.
+helpviewer_keywords: ["ISdoServiceControl interface [Network Policy Server]","StartService method","ISdoServiceControl.StartService","ISdoServiceControl::StartService","StartService","StartService method [Network Policy Server]","StartService method [Network Policy Server]","ISdoServiceControl interface","_sdo_isdoservicecontrol_startservice","nps.SDO_isdoservicecontrol_startservice","sdo.isdoservicecontrol_startservice","sdoias/ISdoServiceControl::StartService"]
 old-location: nps\SDO_isdoservicecontrol_startservice.htm
 tech.root: Nps
 ms.assetid: f024a3b8-c527-4a43-99df-c5b146dae1b8

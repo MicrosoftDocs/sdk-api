@@ -1,7 +1,8 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKW
 title: LPDDENUMCALLBACKW (ddraw.h)
-description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.helpviewer_keywords: ["DDEnumCallback","DDEnumCallback callback function [DirectDraw]","LPDDENUMCALLBACK","LPDDENUMCALLBACK callback","LPDDENUMCALLBACKA","LPDDENUMCALLBACKW","ddraw/DDEnumCallback","directdraw.ddenumcallback"]
+description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.
+helpviewer_keywords: ["DDEnumCallback","DDEnumCallback callback function [DirectDraw]","LPDDENUMCALLBACK","LPDDENUMCALLBACK callback","LPDDENUMCALLBACKA","LPDDENUMCALLBACKW","ddraw/DDEnumCallback","directdraw.ddenumcallback"]
 old-location: directdraw\ddenumcallback.htm
 tech.root: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85

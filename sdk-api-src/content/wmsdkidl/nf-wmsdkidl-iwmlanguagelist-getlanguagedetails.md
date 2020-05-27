@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageDetails
 title: IWMLanguageList::GetLanguageDetails (wmsdkidl.h)
-description: The GetLanguageDetails method retrieves the RFC 1766-compliant language tag for an entry in the list of supported languages.helpviewer_keywords: ["GetLanguageDetails","GetLanguageDetails method [windows Media Format]","GetLanguageDetails method [windows Media Format]","IWMLanguageList interface","IWMLanguageList interface [windows Media Format]","GetLanguageDetails method","IWMLanguageList.GetLanguageDetails","IWMLanguageList::GetLanguageDetails","IWMLanguageListGetLanguageDetails","wmformat.iwmlanguagelist_getlanguagedetails","wmsdkidl/IWMLanguageList::GetLanguageDetails"]
+description: The GetLanguageDetails method retrieves the RFC 1766-compliant language tag for an entry in the list of supported languages.
+helpviewer_keywords: ["GetLanguageDetails","GetLanguageDetails method [windows Media Format]","GetLanguageDetails method [windows Media Format]","IWMLanguageList interface","IWMLanguageList interface [windows Media Format]","GetLanguageDetails method","IWMLanguageList.GetLanguageDetails","IWMLanguageList::GetLanguageDetails","IWMLanguageListGetLanguageDetails","wmformat.iwmlanguagelist_getlanguagedetails","wmsdkidl/IWMLanguageList::GetLanguageDetails"]
 old-location: wmformat\iwmlanguagelist_getlanguagedetails.htm
 tech.root: wmformat
 ms.assetid: beb9f4fb-0acf-4693-b98e-2c197b330de5

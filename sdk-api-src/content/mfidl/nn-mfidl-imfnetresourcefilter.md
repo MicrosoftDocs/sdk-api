@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFNetResourceFilter
 title: IMFNetResourceFilter (mfidl.h)
-description: Notifies the application when a byte stream requests a URL, and enables the application to block URL redirection.helpviewer_keywords: ["IMFNetResourceFilter","IMFNetResourceFilter interface [Media Foundation]","IMFNetResourceFilter interface [Media Foundation]","described","mf.imfnetresourcefilter","mfidl/IMFNetResourceFilter"]
+description: Notifies the application when a byte stream requests a URL, and enables the application to block URL redirection.
+helpviewer_keywords: ["IMFNetResourceFilter","IMFNetResourceFilter interface [Media Foundation]","IMFNetResourceFilter interface [Media Foundation]","described","mf.imfnetresourcefilter","mfidl/IMFNetResourceFilter"]
 old-location: mf\imfnetresourcefilter.htm
 tech.root: medfound
 ms.assetid: AC8FBD93-B39B-4530-8475-275D3D0DA512

@@ -1,7 +1,8 @@
 ---
 UID: NE:hrtfapoapi.HrtfEnvironment
 title: HrtfEnvironment (hrtfapoapi.h)
-description: Indicates one of several stock environment types.helpviewer_keywords: ["HrtfEnvironment","HrtfEnvironment enumeration [XAudio2 Audio Mixing APIs]","Large","Medium","Outdoors","Small","hrtfapoapi/HrtfEnvironment","hrtfapoapi/Large","hrtfapoapi/Medium","hrtfapoapi/Outdoors","hrtfapoapi/Small","xaudio2.hrtfenvironment"]
+description: Indicates one of several stock environment types.
+helpviewer_keywords: ["HrtfEnvironment","HrtfEnvironment enumeration [XAudio2 Audio Mixing APIs]","Large","Medium","Outdoors","Small","hrtfapoapi/HrtfEnvironment","hrtfapoapi/Large","hrtfapoapi/Medium","hrtfapoapi/Outdoors","hrtfapoapi/Small","xaudio2.hrtfenvironment"]
 old-location: xaudio2\hrtfenvironment.htm
 tech.root: xaudio2
 ms.assetid: C7A11F70-E94D-4A90-98A7-FA3B4DF5043B

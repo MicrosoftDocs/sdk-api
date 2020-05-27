@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D11_OPTIONS2
 title: D3D11_FEATURE_DATA_D3D11_OPTIONS2 (d3d11.h)
-description: Describes Direct3D 11.3 feature options in the current graphics driver.helpviewer_keywords: ["D3D11_FEATURE_DATA_D3D11_OPTIONS2","D3D11_FEATURE_DATA_D3D11_OPTIONS2 structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS2","direct3d11.d3d11_feature_data_d3d11_options2"]
+description: Describes Direct3D 11.3 feature options in the current graphics driver.
+helpviewer_keywords: ["D3D11_FEATURE_DATA_D3D11_OPTIONS2","D3D11_FEATURE_DATA_D3D11_OPTIONS2 structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS2","direct3d11.d3d11_feature_data_d3d11_options2"]
 old-location: direct3d11\d3d11_feature_data_d3d11_options2.htm
 tech.root: direct3d11
 ms.assetid: D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4

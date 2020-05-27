@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Reset
 title: IEnumStreamBufferRecordingAttrib::Reset (sbe.h)
-description: The Reset method resets the enumeration sequence to the beginning.helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","Reset method","IEnumStreamBufferRecordingAttrib.Reset","IEnumStreamBufferRecordingAttrib::Reset","IEnumStreamBufferRecordingAttribReset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface","mstv.ienumstreambufferrecordingattrib_reset","sbe/IEnumStreamBufferRecordingAttrib::Reset"]
+description: The Reset method resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","Reset method","IEnumStreamBufferRecordingAttrib.Reset","IEnumStreamBufferRecordingAttrib::Reset","IEnumStreamBufferRecordingAttribReset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface","mstv.ienumstreambufferrecordingattrib_reset","sbe/IEnumStreamBufferRecordingAttrib::Reset"]
 old-location: mstv\ienumstreambufferrecordingattrib_reset.htm
 tech.root: mstv
 ms.assetid: 6fd3c56a-7804-4d7b-9d1f-6732cdadaf88

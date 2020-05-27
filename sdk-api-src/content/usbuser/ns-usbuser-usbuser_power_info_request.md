@@ -1,7 +1,8 @@
 ---
 UID: NS:usbuser._USBUSER_POWER_INFO_REQUEST
 title: USBUSER_POWER_INFO_REQUEST (usbuser.h)
-description: The USBUSER_POWER_INFO_REQUEST structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to retrieve power policy information concerning the relationship of a specific system state to the power state of the host controller and the root hub.helpviewer_keywords: ["*PUSBUSER_POWER_INFO_REQUEST","PUSBUSER_POWER_INFO_REQUEST","PUSBUSER_POWER_INFO_REQUEST structure pointer [Buses]","USBUSER_POWER_INFO_REQUEST","USBUSER_POWER_INFO_REQUEST structure [Buses]","buses.usbuser_power_info_request","usbstrct_1cbb73ef-b3d5-4568-a5b1-ea3a52cbe771.xml","usbuser/PUSBUSER_POWER_INFO_REQUEST","usbuser/USBUSER_POWER_INFO_REQUEST"]
+description: The USBUSER_POWER_INFO_REQUEST structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to retrieve power policy information concerning the relationship of a specific system state to the power state of the host controller and the root hub.
+helpviewer_keywords: ["*PUSBUSER_POWER_INFO_REQUEST","PUSBUSER_POWER_INFO_REQUEST","PUSBUSER_POWER_INFO_REQUEST structure pointer [Buses]","USBUSER_POWER_INFO_REQUEST","USBUSER_POWER_INFO_REQUEST structure [Buses]","buses.usbuser_power_info_request","usbstrct_1cbb73ef-b3d5-4568-a5b1-ea3a52cbe771.xml","usbuser/PUSBUSER_POWER_INFO_REQUEST","usbuser/USBUSER_POWER_INFO_REQUEST"]
 old-location: buses\usbuser_power_info_request.htm
 tech.root: usbref
 ms.assetid: f2d60a3b-0ba9-4c2d-b830-f0eca735434b

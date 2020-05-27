@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetStringType
 title: ICertEncodeStringArray::GetStringType (certenc.h)
-description: Returns the type of string values that the string array contains.helpviewer_keywords: ["CCertEncodeStringArray object [Security]","GetStringType method","GetStringType","GetStringType method [Security]","GetStringType method [Security]","CCertEncodeStringArray object","GetStringType method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","GetStringType method","ICertEncodeStringArray.GetStringType","ICertEncodeStringArray::GetStringType","_certsrv_icertencodestringarray_getstringtype","certenc/ICertEncodeStringArray::GetStringType","security.icertencodestringarray_getstringtype"]
+description: Returns the type of string values that the string array contains.
+helpviewer_keywords: ["CCertEncodeStringArray object [Security]","GetStringType method","GetStringType","GetStringType method [Security]","GetStringType method [Security]","CCertEncodeStringArray object","GetStringType method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","GetStringType method","ICertEncodeStringArray.GetStringType","ICertEncodeStringArray::GetStringType","_certsrv_icertencodestringarray_getstringtype","certenc/ICertEncodeStringArray::GetStringType","security.icertencodestringarray_getstringtype"]
 old-location: security\icertencodestringarray_getstringtype.htm
 tech.root: SecCrypto
 ms.assetid: 7020f364-4f92-46b8-a8e8-360d8e0fa051

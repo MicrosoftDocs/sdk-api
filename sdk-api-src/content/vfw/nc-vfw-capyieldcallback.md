@@ -1,7 +1,8 @@
 ---
 UID: NC:vfw.CAPYIELDCALLBACK
 title: CAPYIELDCALLBACK (vfw.h)
-description: The capYieldCallback function is the yield callback function used with video capture. The name capYieldCallback is a placeholder for the application-supplied function name.helpviewer_keywords: ["_win32_capYieldCallback","capYieldCallback","capYieldCallback callback","capYieldCallback callback function [Windows Multimedia]","multimedia.capyieldcallback","vfw/capYieldCallback"]
+description: The capYieldCallback function is the yield callback function used with video capture. The name capYieldCallback is a placeholder for the application-supplied function name.
+helpviewer_keywords: ["_win32_capYieldCallback","capYieldCallback","capYieldCallback callback","capYieldCallback callback function [Windows Multimedia]","multimedia.capyieldcallback","vfw/capYieldCallback"]
 old-location: multimedia\capyieldcallback.htm
 tech.root: Multimedia
 ms.assetid: 4d92ab5e-5cde-4fed-a661-0458b5399c2a

@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.UnloadStore
 title: ISettingsEngine::UnloadStore (wcmconfig.h)
-description: Unloads the schema store hive and frees resources.helpviewer_keywords: ["ISettingsEngine interface [SMI]","UnloadStore method","ISettingsEngine.UnloadStore","ISettingsEngine::UnloadStore","UnloadStore","UnloadStore method [SMI]","UnloadStore method [SMI]","ISettingsEngine interface","smi.isettingsengine_unloadstore","wcmconfig/ISettingsEngine::UnloadStore"]
+description: Unloads the schema store hive and frees resources.
+helpviewer_keywords: ["ISettingsEngine interface [SMI]","UnloadStore method","ISettingsEngine.UnloadStore","ISettingsEngine::UnloadStore","UnloadStore","UnloadStore method [SMI]","UnloadStore method [SMI]","ISettingsEngine interface","smi.isettingsengine_unloadstore","wcmconfig/ISettingsEngine::UnloadStore"]
 old-location: smi\isettingsengine_unloadstore.htm
 tech.root: SMI
 ms.assetid: 10c0e5c7-41df-4ebb-86be-0c2c6e013849

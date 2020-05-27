@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_CLIENT_INFO
 title: LSA_GET_CLIENT_INFO (ntsecpkg.h)
-description: The GetClientInfo function gets information about the client process, such as thread and process ID, and flags indicating the client's state and privileges.helpviewer_keywords: ["GetClientInfo","GetClientInfo callback function [Security]","LSA_GET_CLIENT_INFO","LSA_GET_CLIENT_INFO callback","_ssp_getclientinfo","ntsecpkg/GetClientInfo","security.getclientinfo"]
+description: The GetClientInfo function gets information about the client process, such as thread and process ID, and flags indicating the client's state and privileges.
+helpviewer_keywords: ["GetClientInfo","GetClientInfo callback function [Security]","LSA_GET_CLIENT_INFO","LSA_GET_CLIENT_INFO callback","_ssp_getclientinfo","ntsecpkg/GetClientInfo","security.getclientinfo"]
 old-location: security\getclientinfo.htm
 tech.root: SecAuthN
 ms.assetid: 3669f2e2-da70-4195-bdd0-f8415d97ae99

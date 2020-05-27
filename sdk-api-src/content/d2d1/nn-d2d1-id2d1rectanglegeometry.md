@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1RectangleGeometry
 title: ID2D1RectangleGeometry (d2d1.h)
-description: Describes a two-dimensional rectangle.helpviewer_keywords: ["ID2D1RectangleGeometry","ID2D1RectangleGeometry interface [Direct2D]","ID2D1RectangleGeometry interface [Direct2D]","described","d2d1/ID2D1RectangleGeometry","direct2d.ID2D1RectangleGeometry"]
+description: Describes a two-dimensional rectangle.
+helpviewer_keywords: ["ID2D1RectangleGeometry","ID2D1RectangleGeometry interface [Direct2D]","ID2D1RectangleGeometry interface [Direct2D]","described","d2d1/ID2D1RectangleGeometry","direct2d.ID2D1RectangleGeometry"]
 old-location: direct2d\ID2D1RectangleGeometry.htm
 tech.root: Direct2D
 ms.assetid: bb5f65ba-34d4-418b-863c-2431046bce8e

@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsMultipage
 title: IShellImageData::IsMultipage (shimgdata.h)
-description: Determines whether the image is a multipage Tagged Image File Format (TIFF) image.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsMultipage method","IShellImageData.IsMultipage","IShellImageData::IsMultipage","IsMultipage","IsMultipage method [Windows Shell]","IsMultipage method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsMultipage","shell.IShellImageData_IsMultipage","shimgdata/IShellImageData::IsMultipage"]
+description: Determines whether the image is a multipage Tagged Image File Format (TIFF) image.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsMultipage method","IShellImageData.IsMultipage","IShellImageData::IsMultipage","IsMultipage","IsMultipage method [Windows Shell]","IsMultipage method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsMultipage","shell.IShellImageData_IsMultipage","shimgdata/IShellImageData::IsMultipage"]
 old-location: shell\IShellImageData_IsMultipage.htm
 tech.root: shell
 ms.assetid: a9c86f0e-5237-432c-a2bb-4054a23d707e

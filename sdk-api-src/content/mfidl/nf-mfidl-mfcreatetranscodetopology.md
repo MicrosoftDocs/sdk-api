@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeTopology
 title: MFCreateTranscodeTopology function (mfidl.h)
-description: Creates a partial transcode topology.helpviewer_keywords: ["MFCreateTranscodeTopology","MFCreateTranscodeTopology function [Media Foundation]","mf.mfcreatetranscodetopology","mfidl/MFCreateTranscodeTopology"]
+description: Creates a partial transcode topology.
+helpviewer_keywords: ["MFCreateTranscodeTopology","MFCreateTranscodeTopology function [Media Foundation]","mf.mfcreatetranscodetopology","mfidl/MFCreateTranscodeTopology"]
 old-location: mf\mfcreatetranscodetopology.htm
 tech.root: medfound
 ms.assetid: ef3f19bf-1db9-459d-9617-d6cca9d6aba7

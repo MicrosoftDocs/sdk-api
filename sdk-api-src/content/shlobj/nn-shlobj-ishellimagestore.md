@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.IShellImageStore
 title: IShellImageStore (shlobj.h)
-description: Deprecated. Exposes methods that manipulate the image cache.helpviewer_keywords: ["IShellImageStore","IShellImageStore interface [Windows Shell]","IShellImageStore interface [Windows Shell]","described","_win32_IShellImageStore","shell.IShellImageStore","shlobj/IShellImageStore"]
+description: Deprecated. Exposes methods that manipulate the image cache.
+helpviewer_keywords: ["IShellImageStore","IShellImageStore interface [Windows Shell]","IShellImageStore interface [Windows Shell]","described","_win32_IShellImageStore","shell.IShellImageStore","shlobj/IShellImageStore"]
 old-location: shell\IShellImageStore.htm
 tech.root: shell
 ms.assetid: 746bd660-17b6-4669-8f23-254f5d7dde82

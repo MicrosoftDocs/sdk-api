@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ICoreFragment.GetColumnCount
 title: ICoreFragment::GetColumnCount (winsync.h)
-description: Gets the number of columns that are contained in this knowledge fragment.helpviewer_keywords: ["GetColumnCount","GetColumnCount method [Windows Sync]","GetColumnCount method [Windows Sync]","ICoreFragment interface","ICoreFragment interface [Windows Sync]","GetColumnCount method","ICoreFragment.GetColumnCount","ICoreFragment::GetColumnCount","winsync.icorefragment_getcolumncount","winsync/ICoreFragment::GetColumnCount"]
+description: Gets the number of columns that are contained in this knowledge fragment.
+helpviewer_keywords: ["GetColumnCount","GetColumnCount method [Windows Sync]","GetColumnCount method [Windows Sync]","ICoreFragment interface","ICoreFragment interface [Windows Sync]","GetColumnCount method","ICoreFragment.GetColumnCount","ICoreFragment::GetColumnCount","winsync.icorefragment_getcolumncount","winsync/ICoreFragment::GetColumnCount"]
 old-location: winsync\icorefragment_getcolumncount.htm
 tech.root: winsync
 ms.assetid: 5f1aff6d-4fdf-48e1-9c7b-c003ec27f354

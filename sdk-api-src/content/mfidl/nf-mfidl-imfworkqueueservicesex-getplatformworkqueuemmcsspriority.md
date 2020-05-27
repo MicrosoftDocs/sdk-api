@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority
 title: IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority (mfidl.h)
-description: Gets the priority of the Multimedia Class Scheduler Service (MMCSS) priority associated with the specified platform work queue.helpviewer_keywords: ["GetPlatformWorkQueueMMCSSPriority","GetPlatformWorkQueueMMCSSPriority method [Media Foundation]","GetPlatformWorkQueueMMCSSPriority method [Media Foundation]","IMFWorkQueueServicesEx interface","IMFWorkQueueServicesEx interface [Media Foundation]","GetPlatformWorkQueueMMCSSPriority method","IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority","IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority","mf.imfworkqueueservicesex_getplatformworkqueuemmcsspriority","mfidl/IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority"]
+description: Gets the priority of the Multimedia Class Scheduler Service (MMCSS) priority associated with the specified platform work queue.
+helpviewer_keywords: ["GetPlatformWorkQueueMMCSSPriority","GetPlatformWorkQueueMMCSSPriority method [Media Foundation]","GetPlatformWorkQueueMMCSSPriority method [Media Foundation]","IMFWorkQueueServicesEx interface","IMFWorkQueueServicesEx interface [Media Foundation]","GetPlatformWorkQueueMMCSSPriority method","IMFWorkQueueServicesEx.GetPlatformWorkQueueMMCSSPriority","IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority","mf.imfworkqueueservicesex_getplatformworkqueuemmcsspriority","mfidl/IMFWorkQueueServicesEx::GetPlatformWorkQueueMMCSSPriority"]
 old-location: mf\imfworkqueueservicesex_getplatformworkqueuemmcsspriority.htm
 tech.root: medfound
 ms.assetid: e9271439-8785-4743-9e6f-81342af117f8

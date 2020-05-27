@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertEnumCertificatesInStore
 title: CertEnumCertificatesInStore function (wincrypt.h)
-description: Retrieves the first or next certificate in a certificate store. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.helpviewer_keywords: ["CertEnumCertificatesInStore","CertEnumCertificatesInStore function [Security]","_crypto2_certenumcertificatesinstore","security.certenumcertificatesinstore","wincrypt/CertEnumCertificatesInStore"]
+description: Retrieves the first or next certificate in a certificate store. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
+helpviewer_keywords: ["CertEnumCertificatesInStore","CertEnumCertificatesInStore function [Security]","_crypto2_certenumcertificatesinstore","security.certenumcertificatesinstore","wincrypt/CertEnumCertificatesInStore"]
 old-location: security\certenumcertificatesinstore.htm
 tech.root: SecCrypto
 ms.assetid: c5ab5b4c-dc0c-416b-aa9e-b939398cfa6d

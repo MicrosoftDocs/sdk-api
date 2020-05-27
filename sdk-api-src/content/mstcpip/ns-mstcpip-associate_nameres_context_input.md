@@ -1,7 +1,8 @@
 ---
 UID: NS:mstcpip._ASSOCIATE_NAMERES_CONTEXT_INPUT
 title: ASSOCIATE_NAMERES_CONTEXT_INPUT (mstcpip.h)
-description: Contains the transport setting ID and handle to a fully qualified domain name.helpviewer_keywords: ["*PASSOCIATE_NAMERES_CONTEXT_INPUT","ASSOCIATE_NAMERES_CONTEXT_INPUT","ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock]","PASSOCIATE_NAMERES_CONTEXT_INPUT","PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock]","mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT","mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT","winsock.associate_nameres_context_input"]
+description: Contains the transport setting ID and handle to a fully qualified domain name.
+helpviewer_keywords: ["*PASSOCIATE_NAMERES_CONTEXT_INPUT","ASSOCIATE_NAMERES_CONTEXT_INPUT","ASSOCIATE_NAMERES_CONTEXT_INPUT structure [Winsock]","PASSOCIATE_NAMERES_CONTEXT_INPUT","PASSOCIATE_NAMERES_CONTEXT_INPUT structure pointer [Winsock]","mstcpip/ASSOCIATE_NAMERES_CONTEXT_INPUT","mstcpip/PASSOCIATE_NAMERES_CONTEXT_INPUT","winsock.associate_nameres_context_input"]
 old-location: winsock\associate_nameres_context_input.htm
 tech.root: WinSock
 ms.assetid: 8B6EB9A4-47B9-40C3-B647-BB05B657B7CE

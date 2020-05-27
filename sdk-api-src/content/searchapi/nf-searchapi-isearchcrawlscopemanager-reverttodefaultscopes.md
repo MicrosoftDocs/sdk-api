@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RevertToDefaultScopes
 title: ISearchCrawlScopeManager::RevertToDefaultScopes (searchapi.h)
-description: Reverts to the default scopes.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RevertToDefaultScopes method","ISearchCrawlScopeManager.RevertToDefaultScopes","ISearchCrawlScopeManager::RevertToDefaultScopes","RevertToDefaultScopes","RevertToDefaultScopes method [search]","RevertToDefaultScopes method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RevertToDefaultScopes","search._search_ISearchCrawlScopeManager_RevertToDefaultScopes","searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes"]
+description: Reverts to the default scopes.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RevertToDefaultScopes method","ISearchCrawlScopeManager.RevertToDefaultScopes","ISearchCrawlScopeManager::RevertToDefaultScopes","RevertToDefaultScopes","RevertToDefaultScopes method [search]","RevertToDefaultScopes method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RevertToDefaultScopes","search._search_ISearchCrawlScopeManager_RevertToDefaultScopes","searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes"]
 old-location: search\_search_ISearchCrawlScopeManager_RevertToDefaultScopes.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\reverttodefaultscopes.htm

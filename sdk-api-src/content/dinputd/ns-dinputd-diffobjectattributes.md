@@ -1,7 +1,8 @@
 ---
 UID: NS:dinputd.DIFFOBJECTATTRIBUTES
 title: DIFFOBJECTATTRIBUTES (dinputd.h)
-description: The DIFFOBJECTATTRIBUTES structure describes the information contained in the &#0034;FFAttributes&#0034; value of the registry key for each &#0034;object&#0034; on a force-feedback device.helpviewer_keywords: ["*LPDIFFOBJECTATTRIBUTES","DIFFOBJECTATTRIBUTES","DIFFOBJECTATTRIBUTES structure [Human Input Devices]","di_ref_d710ceb3-0885-4f22-a4f3-326f24a1e29f.xml","dinputd/DIFFOBJECTATTRIBUTES","hid.diffobjectattributes"]
+description: The DIFFOBJECTATTRIBUTES structure describes the information contained in the &#0034;FFAttributes&#0034; value of the registry key for each &#0034;object&#0034; on a force-feedback device.
+helpviewer_keywords: ["*LPDIFFOBJECTATTRIBUTES","DIFFOBJECTATTRIBUTES","DIFFOBJECTATTRIBUTES structure [Human Input Devices]","di_ref_d710ceb3-0885-4f22-a4f3-326f24a1e29f.xml","dinputd/DIFFOBJECTATTRIBUTES","hid.diffobjectattributes"]
 old-location: hid\diffobjectattributes.htm
 tech.root: hid
 ms.assetid: b5006cf1-619d-4521-b902-ab89a3f079a4

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Object.SetPrivateData
 title: ID3D12Object::SetPrivateData (d3d12.h)
-description: Sets application-defined data to a device object and associates that data with an application-defined GUID.helpviewer_keywords: ["ID3D12Object interface","SetPrivateData method","ID3D12Object.SetPrivateData","ID3D12Object::SetPrivateData","SetPrivateData","SetPrivateData method","SetPrivateData method","ID3D12Object interface","d3d12/ID3D12Object::SetPrivateData","direct3d12.id3d12object_setprivatedata"]
+description: Sets application-defined data to a device object and associates that data with an application-defined GUID.
+helpviewer_keywords: ["ID3D12Object interface","SetPrivateData method","ID3D12Object.SetPrivateData","ID3D12Object::SetPrivateData","SetPrivateData","SetPrivateData method","SetPrivateData method","ID3D12Object interface","d3d12/ID3D12Object::SetPrivateData","direct3d12.id3d12object_setprivatedata"]
 old-location: direct3d12\id3d12object_setprivatedata.htm
 tech.root: direct3d12
 ms.assetid: 1B3E8202-7CB3-4D9F-A1AE-70E66652773C

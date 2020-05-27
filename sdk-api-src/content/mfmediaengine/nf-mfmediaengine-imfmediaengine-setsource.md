@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetSource
 title: IMFMediaEngine::SetSource (mfmediaengine.h)
-description: Sets the URL of a media resource.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetSource method","IMFMediaEngine.SetSource","IMFMediaEngine::SetSource","SetSource","SetSource method [Media Foundation]","SetSource method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setsource","mfmediaengine/IMFMediaEngine::SetSource"]
+description: Sets the URL of a media resource.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetSource method","IMFMediaEngine.SetSource","IMFMediaEngine::SetSource","SetSource","SetSource method [Media Foundation]","SetSource method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setsource","mfmediaengine/IMFMediaEngine::SetSource"]
 old-location: mf\imfmediaengine_setsource.htm
 tech.root: medfound
 ms.assetid: 80C41EAB-9B8F-4723-A4A7-A17F56FF5773

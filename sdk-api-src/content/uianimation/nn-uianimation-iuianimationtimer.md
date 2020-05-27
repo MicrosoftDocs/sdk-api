@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationTimer
 title: IUIAnimationTimer (uianimation.h)
-description: Defines an animation timer, which provides services for managing animation timing.helpviewer_keywords: ["IUIAnimationTimer","IUIAnimationTimer interface [Windows Animation]","IUIAnimationTimer interface [Windows Animation]","described","uianimation.iuianimationtimer","uianimation/IUIAnimationTimer"]
+description: Defines an animation timer, which provides services for managing animation timing.
+helpviewer_keywords: ["IUIAnimationTimer","IUIAnimationTimer interface [Windows Animation]","IUIAnimationTimer interface [Windows Animation]","described","uianimation.iuianimationtimer","uianimation/IUIAnimationTimer"]
 old-location: uianimation\iuianimationtimer.htm
 tech.root: UIAnimation
 ms.assetid: 75d29528-005e-4f49-b8ff-651b58d58fc7

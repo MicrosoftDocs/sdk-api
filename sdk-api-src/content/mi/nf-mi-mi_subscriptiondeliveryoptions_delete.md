@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_Delete
 title: MI_SubscriptionDeliveryOptions_Delete function (mi.h)
-description: Deletes the specified subscription delivery options structure.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_Delete","MI_SubscriptionDeliveryOptions_Delete function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_Delete","wmi_v2.mi_subscriptiondeliveryoptions_delete"]
+description: Deletes the specified subscription delivery options structure.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_Delete","MI_SubscriptionDeliveryOptions_Delete function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_Delete","wmi_v2.mi_subscriptiondeliveryoptions_delete"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_delete.htm
 tech.root: wmi_v2
 ms.assetid: 658dcb26-4ba1-42ef-a404-b431d0c92864

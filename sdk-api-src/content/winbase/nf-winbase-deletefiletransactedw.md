@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.DeleteFileTransactedW
 title: DeleteFileTransactedW function (winbase.h)
-description: Deletes an existing file as a transacted operation.helpviewer_keywords: ["DeleteFileTransacted","DeleteFileTransacted function [Files]","DeleteFileTransactedA","DeleteFileTransactedW","fs.deletefiletransacted","winbase/DeleteFileTransacted","winbase/DeleteFileTransactedA","winbase/DeleteFileTransactedW"]
+description: Deletes an existing file as a transacted operation.
+helpviewer_keywords: ["DeleteFileTransacted","DeleteFileTransacted function [Files]","DeleteFileTransactedA","DeleteFileTransactedW","fs.deletefiletransacted","winbase/DeleteFileTransacted","winbase/DeleteFileTransactedA","winbase/DeleteFileTransactedW"]
 old-location: fs\deletefiletransacted.htm
 tech.root: FileIO
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DGetInputSignatureBlob
 title: D3DGetInputSignatureBlob function (d3dcompiler.h)
-description: Note  D3DGetInputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D_BLOB_INPUT_SIGNATURE_BLOB value.  Gets the input signature from a compilation result.helpviewer_keywords: ["4f2b8180-4af5-06c2-bd88-b229e19ce686","D3DGetInputSignatureBlob","D3DGetInputSignatureBlob function [HLSL]","d3dcompiler/D3DGetInputSignatureBlob","direct3dhlsl.d3dgetinputsignatureblob"]
+description: Note  D3DGetInputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D_BLOB_INPUT_SIGNATURE_BLOB value.  Gets the input signature from a compilation result.
+helpviewer_keywords: ["4f2b8180-4af5-06c2-bd88-b229e19ce686","D3DGetInputSignatureBlob","D3DGetInputSignatureBlob function [HLSL]","d3dcompiler/D3DGetInputSignatureBlob","direct3dhlsl.d3dgetinputsignatureblob"]
 old-location: direct3dhlsl\d3dgetinputsignatureblob.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetinputsignatureblob.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.RemoveFromSyncSet
 title: ISyncMgrResolutionHandler::RemoveFromSyncSet (syncmgr.h)
-description: Deletes the conflict and removes the IShellItem from synchronization.helpviewer_keywords: ["ISyncMgrResolutionHandler interface [Windows Shell]","RemoveFromSyncSet method","ISyncMgrResolutionHandler.RemoveFromSyncSet","ISyncMgrResolutionHandler::RemoveFromSyncSet","RemoveFromSyncSet","RemoveFromSyncSet method [Windows Shell]","RemoveFromSyncSet method [Windows Shell]","ISyncMgrResolutionHandler interface","_shell_ISyncMgrResolutionHandler_RemoveFromSyncSet","shell.ISyncMgrResolutionHandler_RemoveFromSyncSet","syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet"]
+description: Deletes the conflict and removes the IShellItem from synchronization.
+helpviewer_keywords: ["ISyncMgrResolutionHandler interface [Windows Shell]","RemoveFromSyncSet method","ISyncMgrResolutionHandler.RemoveFromSyncSet","ISyncMgrResolutionHandler::RemoveFromSyncSet","RemoveFromSyncSet","RemoveFromSyncSet method [Windows Shell]","RemoveFromSyncSet method [Windows Shell]","ISyncMgrResolutionHandler interface","_shell_ISyncMgrResolutionHandler_RemoveFromSyncSet","shell.ISyncMgrResolutionHandler_RemoveFromSyncSet","syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet"]
 old-location: shell\ISyncMgrResolutionHandler_RemoveFromSyncSet.htm
 tech.root: shell
 ms.assetid: 3f65f844-efa2-43b9-91f2-c9c0ed4e3a9e

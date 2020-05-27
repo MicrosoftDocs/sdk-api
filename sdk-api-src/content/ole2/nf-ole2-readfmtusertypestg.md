@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.ReadFmtUserTypeStg
 title: ReadFmtUserTypeStg function (ole2.h)
-description: The ReadFmtUserTypeStg function returns the clipboard format and user type previously saved with the WriteFmtUserTypeStg function.helpviewer_keywords: ["ReadFmtUserTypeStg","ReadFmtUserTypeStg function [Structured Storage]","_stg_readfmtusertypestg","ole2/ReadFmtUserTypeStg","stg.readfmtusertypestg"]
+description: The ReadFmtUserTypeStg function returns the clipboard format and user type previously saved with the WriteFmtUserTypeStg function.
+helpviewer_keywords: ["ReadFmtUserTypeStg","ReadFmtUserTypeStg function [Structured Storage]","_stg_readfmtusertypestg","ole2/ReadFmtUserTypeStg","stg.readfmtusertypestg"]
 old-location: stg\readfmtusertypestg.htm
 tech.root: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff

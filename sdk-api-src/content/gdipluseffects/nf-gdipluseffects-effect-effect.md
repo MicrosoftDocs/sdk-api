@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Effect.Effect
 title: Effect::Effect (gdipluseffects.h)
-description: Creates an Effect object.helpviewer_keywords: ["Effect","Effect class [GDI+]","Effect constructor","Effect constructor [GDI+]","Effect constructor [GDI+]","Effect class","Effect.Effect","Effect::Effect","_gdiplus_CLASS_Effect_Effect_","gdiplus._gdiplus_CLASS_Effect_Effect_"]
+description: Creates an Effect object.
+helpviewer_keywords: ["Effect","Effect class [GDI+]","Effect constructor","Effect constructor [GDI+]","Effect constructor [GDI+]","Effect class","Effect.Effect","Effect::Effect","_gdiplus_CLASS_Effect_Effect_","gdiplus._gdiplus_CLASS_Effect_Effect_"]
 old-location: gdiplus\_gdiplus_CLASS_Effect_Effect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectconstructors\effect.htm

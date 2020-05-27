@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITTAPI.RegisterCallNotifications
 title: ITTAPI::RegisterCallNotifications (tapi3if.h)
-description: The RegisterCallNotifications method sets which new call notifications an application will receive. The application must call the method for each address, indicating media type or types it can handle, and specifying the privileges it requests.helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","RegisterCallNotifications method","ITTAPI.RegisterCallNotifications","ITTAPI::RegisterCallNotifications","RegisterCallNotifications","RegisterCallNotifications method [TAPI 2.2]","RegisterCallNotifications method [TAPI 2.2]","ITTAPI interface","_tapi3_ittapi_registercallnotifications","tapi3.ittapi_registercallnotifications","tapi3if/ITTAPI::RegisterCallNotifications"]
+description: The RegisterCallNotifications method sets which new call notifications an application will receive. The application must call the method for each address, indicating media type or types it can handle, and specifying the privileges it requests.
+helpviewer_keywords: ["ITTAPI interface [TAPI 2.2]","RegisterCallNotifications method","ITTAPI.RegisterCallNotifications","ITTAPI::RegisterCallNotifications","RegisterCallNotifications","RegisterCallNotifications method [TAPI 2.2]","RegisterCallNotifications method [TAPI 2.2]","ITTAPI interface","_tapi3_ittapi_registercallnotifications","tapi3.ittapi_registercallnotifications","tapi3if/ITTAPI::RegisterCallNotifications"]
 old-location: tapi3\ittapi_registercallnotifications.htm
 tech.root: Tapi
 ms.assetid: 335deb2c-7700-4101-b6fa-f7fe0f248307

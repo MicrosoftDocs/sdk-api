@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUISimplePropertySet.GetValue
 title: IUISimplePropertySet::GetValue (uiribbon.h)
-description: Retrieves the value identified by a property key.helpviewer_keywords: ["GetValue","GetValue method [Windows Ribbon]","GetValue method [Windows Ribbon]","IUISimplePropertySet interface","IUISimplePropertySet interface [Windows Ribbon]","GetValue method","IUISimplePropertySet.GetValue","IUISimplePropertySet::GetValue","scenicintent_IUISimplePropertySet_GetValue","uiribbon/IUISimplePropertySet::GetValue","windowsribbon.windowsribbon_iuisimplepropertyset_getvalue"]
+description: Retrieves the value identified by a property key.
+helpviewer_keywords: ["GetValue","GetValue method [Windows Ribbon]","GetValue method [Windows Ribbon]","IUISimplePropertySet interface","IUISimplePropertySet interface [Windows Ribbon]","GetValue method","IUISimplePropertySet.GetValue","IUISimplePropertySet::GetValue","scenicintent_IUISimplePropertySet_GetValue","uiribbon/IUISimplePropertySet::GetValue","windowsribbon.windowsribbon_iuisimplepropertyset_getvalue"]
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset_getvalue.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\getvalue.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:activation.IActivationFactory
 title: IActivationFactory (activation.h)
-description: Enables classes to be activated by the Windows Runtime.helpviewer_keywords: ["IActivationFactory","IActivationFactory interface [Windows Runtime]","IActivationFactory interface [Windows Runtime]","described","activation/IActivationFactory","winrt.iactivationfactory"]
+description: Enables classes to be activated by the Windows Runtime.
+helpviewer_keywords: ["IActivationFactory","IActivationFactory interface [Windows Runtime]","IActivationFactory interface [Windows Runtime]","described","activation/IActivationFactory","winrt.iactivationfactory"]
 old-location: winrt\iactivationfactory.htm
 tech.root: WinRT
 ms.assetid: C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC

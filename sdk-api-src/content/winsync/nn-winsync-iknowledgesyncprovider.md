@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IKnowledgeSyncProvider
 title: IKnowledgeSyncProvider (winsync.h)
-description: Represents a synchronization provider that uses knowledge to perform synchronization.helpviewer_keywords: ["IKnowledgeSyncProvider","IKnowledgeSyncProvider interface [Windows Sync]","IKnowledgeSyncProvider interface [Windows Sync]","described","winsync.iknowledgesyncprovider","winsync/IKnowledgeSyncProvider"]
+description: Represents a synchronization provider that uses knowledge to perform synchronization.
+helpviewer_keywords: ["IKnowledgeSyncProvider","IKnowledgeSyncProvider interface [Windows Sync]","IKnowledgeSyncProvider interface [Windows Sync]","described","winsync.iknowledgesyncprovider","winsync/IKnowledgeSyncProvider"]
 old-location: winsync\iknowledgesyncprovider.htm
 tech.root: winsync
 ms.assetid: 396bbf7e-7fd0-4a2e-8304-f87097cd5e50

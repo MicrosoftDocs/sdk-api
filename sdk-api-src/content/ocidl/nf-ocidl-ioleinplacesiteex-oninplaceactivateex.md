@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceActivateEx
 title: IOleInPlaceSiteEx::OnInPlaceActivateEx (ocidl.h)
-description: Called by the embedded object to determine whether it needs to redraw itself upon activation.helpviewer_keywords: ["IOleInPlaceSiteEx interface [COM]","OnInPlaceActivateEx method","IOleInPlaceSiteEx.OnInPlaceActivateEx","IOleInPlaceSiteEx::OnInPlaceActivateEx","OnInPlaceActivateEx","OnInPlaceActivateEx method [COM]","OnInPlaceActivateEx method [COM]","IOleInPlaceSiteEx interface","_ole_ioleinplacesiteex_oninplaceactivateex","com.ioleinplacesiteex_oninplaceactivateex","ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx"]
+description: Called by the embedded object to determine whether it needs to redraw itself upon activation.
+helpviewer_keywords: ["IOleInPlaceSiteEx interface [COM]","OnInPlaceActivateEx method","IOleInPlaceSiteEx.OnInPlaceActivateEx","IOleInPlaceSiteEx::OnInPlaceActivateEx","OnInPlaceActivateEx","OnInPlaceActivateEx method [COM]","OnInPlaceActivateEx method [COM]","IOleInPlaceSiteEx interface","_ole_ioleinplacesiteex_oninplaceactivateex","com.ioleinplacesiteex_oninplaceactivateex","ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx"]
 old-location: com\ioleinplacesiteex_oninplaceactivateex.htm
 tech.root: com
 ms.assetid: 11c96c79-9884-4bac-828b-53ac4de65182

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddProperty
 title: IUIAutomationCacheRequest::AddProperty (uiautomationclient.h)
-description: Adds a property to the cache request.helpviewer_keywords: ["AddProperty","AddProperty method [Windows Accessibility]","AddProperty method [Windows Accessibility]","IUIAutomationCacheRequest interface","IUIAutomationCacheRequest interface [Windows Accessibility]","AddProperty method","IUIAutomationCacheRequest.AddProperty","IUIAutomationCacheRequest::AddProperty","uiauto.uiauto_IUIAutomationCacheRequest_AddProperty","uiauto_IUIAutomationCacheRequest_AddProperty","uiautomationclient/IUIAutomationCacheRequest::AddProperty","winauto.uiauto_IUIAutomationCacheRequest_AddProperty"]
+description: Adds a property to the cache request.
+helpviewer_keywords: ["AddProperty","AddProperty method [Windows Accessibility]","AddProperty method [Windows Accessibility]","IUIAutomationCacheRequest interface","IUIAutomationCacheRequest interface [Windows Accessibility]","AddProperty method","IUIAutomationCacheRequest.AddProperty","IUIAutomationCacheRequest::AddProperty","uiauto.uiauto_IUIAutomationCacheRequest_AddProperty","uiauto_IUIAutomationCacheRequest_AddProperty","uiautomationclient/IUIAutomationCacheRequest::AddProperty","winauto.uiauto_IUIAutomationCacheRequest_AddProperty"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddProperty.htm
 tech.root: WinAuto
 ms.assetid: 61e56133-fb9e-4556-a9be-f7270b1d2bfb

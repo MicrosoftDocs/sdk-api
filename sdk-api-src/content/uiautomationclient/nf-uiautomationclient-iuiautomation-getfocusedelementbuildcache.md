@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetFocusedElementBuildCache
 title: IUIAutomation::GetFocusedElementBuildCache (uiautomationclient.h)
-description: Retrieves the UI Automation element that has the input focus, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.helpviewer_keywords: ["GetFocusedElementBuildCache","GetFocusedElementBuildCache method [Windows Accessibility]","GetFocusedElementBuildCache method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetFocusedElementBuildCache method","IUIAutomation.GetFocusedElementBuildCache","IUIAutomation::GetFocusedElementBuildCache","uiauto.uiauto_IUIAutomation_GetFocusedElementBuildCache","uiauto_IUIAutomation_GetFocusedElementBuildCache","uiautomationclient/IUIAutomation::GetFocusedElementBuildCache","winauto.uiauto_IUIAutomation_GetFocusedElementBuildCache"]
+description: Retrieves the UI Automation element that has the input focus, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
+helpviewer_keywords: ["GetFocusedElementBuildCache","GetFocusedElementBuildCache method [Windows Accessibility]","GetFocusedElementBuildCache method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetFocusedElementBuildCache method","IUIAutomation.GetFocusedElementBuildCache","IUIAutomation::GetFocusedElementBuildCache","uiauto.uiauto_IUIAutomation_GetFocusedElementBuildCache","uiauto_IUIAutomation_GetFocusedElementBuildCache","uiautomationclient/IUIAutomation::GetFocusedElementBuildCache","winauto.uiauto_IUIAutomation_GetFocusedElementBuildCache"]
 old-location: winauto\uiauto_IUIAutomation_GetFocusedElementBuildCache.htm
 tech.root: WinAuto
 ms.assetid: c37c2703-ce01-44fe-a959-33b9f7d66e98

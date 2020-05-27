@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IkeextSaDeleteById0
 title: IkeextSaDeleteById0 function (fwpmu.h)
-description: The IkeextSaDeleteById0 function removes a security association (SA) from the database.helpviewer_keywords: ["IkeextSaDeleteById0","IkeextSaDeleteById0 function [Filtering]","fwp.ikeextsadeletebyid0","fwpmu/IkeextSaDeleteById0"]
+description: The IkeextSaDeleteById0 function removes a security association (SA) from the database.
+helpviewer_keywords: ["IkeextSaDeleteById0","IkeextSaDeleteById0 function [Filtering]","fwp.ikeextsadeletebyid0","fwpmu/IkeextSaDeleteById0"]
 old-location: fwp\ikeextsadeletebyid0.htm
 tech.root: fwp
 ms.assetid: de3d1f4e-7b8a-46f5-9c3a-c6a504d5aabb

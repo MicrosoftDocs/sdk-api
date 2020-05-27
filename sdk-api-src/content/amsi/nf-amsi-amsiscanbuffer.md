@@ -1,7 +1,8 @@
 ---
 UID: NF:amsi.AmsiScanBuffer
 title: AmsiScanBuffer function (amsi.h)
-description: Scans a buffer-full of content for malware.helpviewer_keywords: ["AmsiScanBuffer","AmsiScanBuffer function [Antimalware Scan Interface]","amsi.amsiscanbuffer","amsi/AmsiScanBuffer"]
+description: Scans a buffer-full of content for malware.
+helpviewer_keywords: ["AmsiScanBuffer","AmsiScanBuffer function [Antimalware Scan Interface]","amsi.amsiscanbuffer","amsi/AmsiScanBuffer"]
 old-location: amsi\amsiscanbuffer.htm
 tech.root: AMSI
 ms.assetid: D1F2EBE7-FD6B-4CD4-BE4F-F536F08EE339

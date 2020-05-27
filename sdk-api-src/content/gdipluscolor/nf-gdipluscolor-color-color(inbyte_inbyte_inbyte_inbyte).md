@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluscolor.Color.Color(IN BYTE,IN BYTE,IN BYTE,IN BYTE)
 title: Color::Color(IN BYTE,IN BYTE,IN BYTE,IN BYTE) (gdipluscolor.h)
-description: Creates a Color::Color object by using specified values for the alpha, red, green, and blue components.helpviewer_keywords: ["Color","Color class [GDI+]","Color constructor","Color constructor [GDI+]","Color constructor [GDI+]","Color class","Color.Color","Color.Color(BYTE","BYTE","BYTE","BYTE)","Color.Color(IN BYTE","IN BYTE","IN BYTE","IN BYTE)","Color::Color","Color::Color(IN BYTE","IN BYTE","IN BYTE","IN BYTE)","_gdiplus_CLASS_Color_Color_a_r_g_b_","gdiplus._gdiplus_CLASS_Color_Color_a_r_g_b_"]
+description: Creates a Color::Color object by using specified values for the alpha, red, green, and blue components.
+helpviewer_keywords: ["Color","Color class [GDI+]","Color constructor","Color constructor [GDI+]","Color constructor [GDI+]","Color class","Color.Color","Color.Color(BYTE","BYTE","BYTE","BYTE)","Color.Color(IN BYTE","IN BYTE","IN BYTE","IN BYTE)","Color::Color","Color::Color(IN BYTE","IN BYTE","IN BYTE","IN BYTE)","_gdiplus_CLASS_Color_Color_a_r_g_b_","gdiplus._gdiplus_CLASS_Color_Color_a_r_g_b_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_Color_a_r_g_b_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_14a_r_g_b.htm

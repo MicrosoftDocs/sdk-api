@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwServices
 title: INetFwServices (netfw.h)
-description: The INetFwServices interface is a standard Automation interface which provides access to a collection of services that may be authorized to listen through the firewall.helpviewer_keywords: ["INetFwServices","INetFwServices interface [ICS/ICF]","INetFwServices interface [ICS/ICF]","described","ics.inetfwservices","netfw/INetFwServices"]
+description: The INetFwServices interface is a standard Automation interface which provides access to a collection of services that may be authorized to listen through the firewall.
+helpviewer_keywords: ["INetFwServices","INetFwServices interface [ICS/ICF]","INetFwServices interface [ICS/ICF]","described","ics.inetfwservices","netfw/INetFwServices"]
 old-location: ics\inetfwservices.htm
 tech.root: ics
 ms.assetid: b99464c5-dabc-405a-ad3e-da06a6faef47

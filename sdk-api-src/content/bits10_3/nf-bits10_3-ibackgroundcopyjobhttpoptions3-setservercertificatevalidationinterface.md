@@ -3,7 +3,8 @@ UID: NF:bits10_3.IBackgroundCopyJobHttpOptions3.SetServerCertificateValidationIn
 title: IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface
-description: Server certificates are sent when an HTTPS connection is opened. Use this method to set a callback to be called to validate those server certificates.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface"]
+description: Server certificates are sent when an HTTPS connection is opened. Use this method to set a callback to be called to validate those server certificates.
+helpviewer_keywords: ["IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface"]
 tech.root: Bits
 f1_keywords:
 - bits10_3/IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface

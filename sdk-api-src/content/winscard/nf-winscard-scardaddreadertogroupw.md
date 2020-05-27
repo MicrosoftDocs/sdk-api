@@ -1,7 +1,8 @@
 ---
 UID: NF:winscard.SCardAddReaderToGroupW
 title: SCardAddReaderToGroupW function (winscard.h)
-description: Adds a reader to a reader group.helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardAddReaderToGroup","SCardAddReaderToGroup function [Security]","SCardAddReaderToGroupA","SCardAddReaderToGroupW","_smart_scardaddreadertogroup","security.scardaddreadertogroup","winscard/SCardAddReaderToGroup","winscard/SCardAddReaderToGroupA","winscard/SCardAddReaderToGroupW"]
+description: Adds a reader to a reader group.
+helpviewer_keywords: ["SCARD_ALL_READERS","SCARD_DEFAULT_READERS","SCARD_LOCAL_READERS","SCARD_SYSTEM_READERS","SCardAddReaderToGroup","SCardAddReaderToGroup function [Security]","SCardAddReaderToGroupA","SCardAddReaderToGroupW","_smart_scardaddreadertogroup","security.scardaddreadertogroup","winscard/SCardAddReaderToGroup","winscard/SCardAddReaderToGroupA","winscard/SCardAddReaderToGroupW"]
 old-location: security\scardaddreadertogroup.htm
 tech.root: SecAuthN
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35

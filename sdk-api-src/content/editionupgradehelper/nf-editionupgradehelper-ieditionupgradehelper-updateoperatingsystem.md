@@ -1,7 +1,8 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.UpdateOperatingSystem
 title: IEditionUpgradeHelper::UpdateOperatingSystem (editionupgradehelper.h)
-description: Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.helpviewer_keywords: ["IEditionUpgradeHelper interface [Windows API]","UpdateOperatingSystem method","IEditionUpgradeHelper.UpdateOperatingSystem","IEditionUpgradeHelper::UpdateOperatingSystem","UpdateOperatingSystem","UpdateOperatingSystem method [Windows API]","UpdateOperatingSystem method [Windows API]","IEditionUpgradeHelper interface","editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem","winprog.ieditionupgradehelper_updateoperatingsystem"]
+description: Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
+helpviewer_keywords: ["IEditionUpgradeHelper interface [Windows API]","UpdateOperatingSystem method","IEditionUpgradeHelper.UpdateOperatingSystem","IEditionUpgradeHelper::UpdateOperatingSystem","UpdateOperatingSystem","UpdateOperatingSystem method [Windows API]","UpdateOperatingSystem method [Windows API]","IEditionUpgradeHelper interface","editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem","winprog.ieditionupgradehelper_updateoperatingsystem"]
 old-location: winprog\ieditionupgradehelper_updateoperatingsystem.htm
 tech.root: DevNotes
 ms.assetid: C7A97C7E-654D-4717-975F-41B05F3BE901

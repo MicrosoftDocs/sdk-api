@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneSetButtonInfoA
 title: phoneSetButtonInfoA function (tapi.h)
-description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.helpviewer_keywords: ["_tapi2_phonesetbuttoninfo","phoneSetButtonInfo","phoneSetButtonInfo function [TAPI 2.2]","phoneSetButtonInfoA","phoneSetButtonInfoW","tapi/phoneSetButtonInfo","tapi/phoneSetButtonInfoA","tapi/phoneSetButtonInfoW","tapi2.phonesetbuttoninfo"]
+description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
+helpviewer_keywords: ["_tapi2_phonesetbuttoninfo","phoneSetButtonInfo","phoneSetButtonInfo function [TAPI 2.2]","phoneSetButtonInfoA","phoneSetButtonInfoW","tapi/phoneSetButtonInfo","tapi/phoneSetButtonInfoA","tapi/phoneSetButtonInfoW","tapi2.phonesetbuttoninfo"]
 old-location: tapi2\phonesetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648

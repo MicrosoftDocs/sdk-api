@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.ReadThreadProfilingData
 title: ReadThreadProfilingData function (winbase.h)
-description: Reads the specified profiling data associated with the thread.helpviewer_keywords: ["READ_THREAD_PROFILING_FLAG_DISPATCHING","READ_THREAD_PROFILING_FLAG_HARDWARE_COUNTERS","ReadThreadProfilingData","ReadThreadProfilingData function [Hardware Counter Profiling]","hcp.readthreadprofilingdata","winbase/ReadThreadProfilingData"]
+description: Reads the specified profiling data associated with the thread.
+helpviewer_keywords: ["READ_THREAD_PROFILING_FLAG_DISPATCHING","READ_THREAD_PROFILING_FLAG_HARDWARE_COUNTERS","ReadThreadProfilingData","ReadThreadProfilingData function [Hardware Counter Profiling]","hcp.readthreadprofilingdata","winbase/ReadThreadProfilingData"]
 old-location: hcp\readthreadprofilingdata.htm
 tech.root: hcp
 ms.assetid: e7335caf-d89b-45b4-831d-9ead4448a6a3

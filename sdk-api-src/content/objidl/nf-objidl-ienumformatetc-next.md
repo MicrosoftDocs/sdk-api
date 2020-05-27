@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Next
 title: IEnumFORMATETC::Next (objidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumFORMATETC interface [COM]","Next method","IEnumFORMATETC.Next","IEnumFORMATETC::Next","Next","Next method [COM]","Next method [COM]","IEnumFORMATETC interface","_ole_ienumformatetc_next","com.ienumformatetc_next","objidl/IEnumFORMATETC::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumFORMATETC interface [COM]","Next method","IEnumFORMATETC.Next","IEnumFORMATETC::Next","Next","Next method [COM]","Next method [COM]","IEnumFORMATETC interface","_ole_ienumformatetc_next","com.ienumformatetc_next","objidl/IEnumFORMATETC::Next"]
 old-location: com\ienumformatetc_next.htm
 tech.root: com
 ms.assetid: 041c3f20-bd8c-482d-9716-99f49a6bc902

@@ -1,7 +1,8 @@
 ---
 UID: NE:winnt._TRANSACTION_OUTCOME
 title: TRANSACTION_OUTCOME (winnt.h)
-description: Defines the outcomes (results) that KTM can assign to a transaction.helpviewer_keywords: ["TRANSACTION_OUTCOME","TRANSACTION_OUTCOME enumeration [Files]","TransactionOutcomeAborted","TransactionOutcomeCommitted","TransactionOutcomeUndetermined","fs.transaction_outcome","winnt/TRANSACTION_OUTCOME","winnt/TransactionOutcomeAborted","winnt/TransactionOutcomeCommitted","winnt/TransactionOutcomeUndetermined"]
+description: Defines the outcomes (results) that KTM can assign to a transaction.
+helpviewer_keywords: ["TRANSACTION_OUTCOME","TRANSACTION_OUTCOME enumeration [Files]","TransactionOutcomeAborted","TransactionOutcomeCommitted","TransactionOutcomeUndetermined","fs.transaction_outcome","winnt/TRANSACTION_OUTCOME","winnt/TransactionOutcomeAborted","winnt/TransactionOutcomeCommitted","winnt/TransactionOutcomeUndetermined"]
 old-location: fs\transaction_outcome.htm
 tech.root: ktm
 ms.assetid: d4315a62-b65f-4744-8084-2317ad39c32c

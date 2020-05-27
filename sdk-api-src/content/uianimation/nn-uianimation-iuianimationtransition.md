@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationTransition
 title: IUIAnimationTransition (uianimation.h)
-description: Defines a transition, which determines how an animation variable changes over time.helpviewer_keywords: ["IUIAnimationTransition","IUIAnimationTransition interface [Windows Animation]","IUIAnimationTransition interface [Windows Animation]","described","uianimation.iuianimationtransition","uianimation/IUIAnimationTransition"]
+description: Defines a transition, which determines how an animation variable changes over time.
+helpviewer_keywords: ["IUIAnimationTransition","IUIAnimationTransition interface [Windows Animation]","IUIAnimationTransition interface [Windows Animation]","described","uianimation.iuianimationtransition","uianimation/IUIAnimationTransition"]
 old-location: uianimation\iuianimationtransition.htm
 tech.root: UIAnimation
 ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef

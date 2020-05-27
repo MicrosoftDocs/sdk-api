@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IMessageView
 title: IMessageView (mmc.h)
-description: The IMessageView interface is introduced in MMC 1.2.helpviewer_keywords: ["IMessageView","IMessageView interface [MMC]","IMessageView interface [MMC]","described","_slate_imessageview","mmc.imessageview","mmc/IMessageView"]
+description: The IMessageView interface is introduced in MMC 1.2.
+helpviewer_keywords: ["IMessageView","IMessageView interface [MMC]","IMessageView interface [MMC]","described","_slate_imessageview","mmc.imessageview","mmc/IMessageView"]
 old-location: mmc\imessageview.htm
 tech.root: mmc
 ms.assetid: e1ea6bb2-f35e-4379-b4e4-70d4e5d77b93

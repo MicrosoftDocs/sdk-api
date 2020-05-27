@@ -1,7 +1,8 @@
 ---
 UID: NF:thumbcache.IThumbnailCache.GetThumbnailByID
 title: IThumbnailCache::GetThumbnailByID (thumbcache.h)
-description: Gets a thumbnail from the thumbnail cache, given its ID.helpviewer_keywords: ["GetThumbnailByID","GetThumbnailByID method [Windows Shell]","GetThumbnailByID method [Windows Shell]","IThumbnailCache interface","IThumbnailCache interface [Windows Shell]","GetThumbnailByID method","IThumbnailCache.GetThumbnailByID","IThumbnailCache::GetThumbnailByID","WTS_CACHED","WTS_DEFAULT","WTS_LOWQUALITY","_shell__GetThumbnailByID","shell.IThumbnailCache_GetThumbnailByID","thumbcache/IThumbnailCache::GetThumbnailByID"]
+description: Gets a thumbnail from the thumbnail cache, given its ID.
+helpviewer_keywords: ["GetThumbnailByID","GetThumbnailByID method [Windows Shell]","GetThumbnailByID method [Windows Shell]","IThumbnailCache interface","IThumbnailCache interface [Windows Shell]","GetThumbnailByID method","IThumbnailCache.GetThumbnailByID","IThumbnailCache::GetThumbnailByID","WTS_CACHED","WTS_DEFAULT","WTS_LOWQUALITY","_shell__GetThumbnailByID","shell.IThumbnailCache_GetThumbnailByID","thumbcache/IThumbnailCache::GetThumbnailByID"]
 old-location: shell\IThumbnailCache_GetThumbnailByID.htm
 tech.root: shell
 ms.assetid: 3b5069e2-f20b-4c43-a9e7-334366980f5c

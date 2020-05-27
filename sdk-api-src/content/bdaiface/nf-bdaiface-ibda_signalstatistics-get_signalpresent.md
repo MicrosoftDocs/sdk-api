@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalPresent
 title: IBDA_SignalStatistics::get_SignalPresent (bdaiface.h)
-description: The get_SignalPresent method retrieves a Boolean value indicating whether a signal is present.helpviewer_keywords: ["IBDA_SignalStatistics interface [Microsoft TV Technologies]","get_SignalPresent method","IBDA_SignalStatistics.get_SignalPresent","IBDA_SignalStatistics::get_SignalPresent","IBDA_SignalStatisticsget_SignalPresent","bdaiface/IBDA_SignalStatistics::get_SignalPresent","get_SignalPresent","get_SignalPresent method [Microsoft TV Technologies]","get_SignalPresent method [Microsoft TV Technologies]","IBDA_SignalStatistics interface","mstv.ibda_signalstatistics_get_signalpresent"]
+description: The get_SignalPresent method retrieves a Boolean value indicating whether a signal is present.
+helpviewer_keywords: ["IBDA_SignalStatistics interface [Microsoft TV Technologies]","get_SignalPresent method","IBDA_SignalStatistics.get_SignalPresent","IBDA_SignalStatistics::get_SignalPresent","IBDA_SignalStatisticsget_SignalPresent","bdaiface/IBDA_SignalStatistics::get_SignalPresent","get_SignalPresent","get_SignalPresent method [Microsoft TV Technologies]","get_SignalPresent method [Microsoft TV Technologies]","IBDA_SignalStatistics interface","mstv.ibda_signalstatistics_get_signalpresent"]
 old-location: mstv\ibda_signalstatistics_get_signalpresent.htm
 tech.root: mstv
 ms.assetid: 834149e1-50b7-42f6-8fee-a357ed4bc8b8

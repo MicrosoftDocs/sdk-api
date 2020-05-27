@@ -1,7 +1,8 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorCaps
 title: IDirectXVideoProcessorService::GetVideoProcessorCaps (dxva2api.h)
-description: Gets the capabilities of a specified video processor device.helpviewer_keywords: ["GetVideoProcessorCaps","GetVideoProcessorCaps method [Media Foundation]","GetVideoProcessorCaps method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetVideoProcessorCaps method","IDirectXVideoProcessorService.GetVideoProcessorCaps","IDirectXVideoProcessorService::GetVideoProcessorCaps","bb94f221-cca7-48e1-96ef-b5a6f7c24a47","dxva2api/IDirectXVideoProcessorService::GetVideoProcessorCaps","mf.idirectxvideoprocessorservice_getvideoprocessorcaps"]
+description: Gets the capabilities of a specified video processor device.
+helpviewer_keywords: ["GetVideoProcessorCaps","GetVideoProcessorCaps method [Media Foundation]","GetVideoProcessorCaps method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetVideoProcessorCaps method","IDirectXVideoProcessorService.GetVideoProcessorCaps","IDirectXVideoProcessorService::GetVideoProcessorCaps","bb94f221-cca7-48e1-96ef-b5a6f7c24a47","dxva2api/IDirectXVideoProcessorService::GetVideoProcessorCaps","mf.idirectxvideoprocessorservice_getvideoprocessorcaps"]
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorcaps.htm
 tech.root: medfound
 ms.assetid: bb94f221-cca7-48e1-96ef-b5a6f7c24a47

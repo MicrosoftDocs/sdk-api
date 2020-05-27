@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._tableCellParms
 title: TABLECELLPARMS (richedit.h)
-description: Defines the attributes of cells in a table row.helpviewer_keywords: ["TABLECELLPARMS","TABLECELLPARMS structure [Windows Controls]","controls.tablecellparms","richedit/TABLECELLPARMS"]
+description: Defines the attributes of cells in a table row.
+helpviewer_keywords: ["TABLECELLPARMS","TABLECELLPARMS structure [Windows Controls]","controls.tablecellparms","richedit/TABLECELLPARMS"]
 old-location: controls\tablecellparms.htm
 tech.root: Controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e

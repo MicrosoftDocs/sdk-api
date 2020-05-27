@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Union
 title: ISyncKnowledge::Union (winsync.h)
-description: Combines the specified knowledge with the current knowledge.helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","Union method","ISyncKnowledge.Union","ISyncKnowledge::Union","Union","Union method [Windows Sync]","Union method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_union","winsync/ISyncKnowledge::Union"]
+description: Combines the specified knowledge with the current knowledge.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","Union method","ISyncKnowledge.Union","ISyncKnowledge::Union","Union","Union method [Windows Sync]","Union method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_union","winsync/ISyncKnowledge::Union"]
 old-location: winsync\isyncknowledge_union.htm
 tech.root: winsync
 ms.assetid: 95d88d28-57b7-4b4a-abda-a69f25b1e8b8

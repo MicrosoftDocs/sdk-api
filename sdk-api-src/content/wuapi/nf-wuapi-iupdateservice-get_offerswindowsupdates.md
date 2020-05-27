@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateService.get_OffersWindowsUpdates
 title: IUpdateService::get_OffersWindowsUpdates (wuapi.h)
-description: Gets a Boolean value indicates whether the current service offers updates from Windows Updates.helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","OffersWindowsUpdates property","IUpdateService.OffersWindowsUpdates","IUpdateService.get_OffersWindowsUpdates","IUpdateService::OffersWindowsUpdates","IUpdateService::get_OffersWindowsUpdates","OffersWindowsUpdates property [Windows Update Agent]","OffersWindowsUpdates property [Windows Update Agent]","IUpdateService interface","get_OffersWindowsUpdates","wua.iupdateservice_offerswindowsupdates","wuapi/IUpdateService::OffersWindowsUpdates","wuapi/IUpdateService::get_OffersWindowsUpdates"]
+description: Gets a Boolean value indicates whether the current service offers updates from Windows Updates.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","OffersWindowsUpdates property","IUpdateService.OffersWindowsUpdates","IUpdateService.get_OffersWindowsUpdates","IUpdateService::OffersWindowsUpdates","IUpdateService::get_OffersWindowsUpdates","OffersWindowsUpdates property [Windows Update Agent]","OffersWindowsUpdates property [Windows Update Agent]","IUpdateService interface","get_OffersWindowsUpdates","wua.iupdateservice_offerswindowsupdates","wuapi/IUpdateService::OffersWindowsUpdates","wuapi/IUpdateService::get_OffersWindowsUpdates"]
 old-location: wua\iupdateservice_offerswindowsupdates.htm
 tech.root: Wua_Sdk
 ms.assetid: 926230ea-e8cf-4ecb-980a-88852d033c70

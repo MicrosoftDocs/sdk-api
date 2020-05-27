@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.CreateAnycastIpAddressEntry
 title: CreateAnycastIpAddressEntry function (netioapi.h)
-description: Adds a new anycast IP address entry on the local computer.helpviewer_keywords: ["CreateAnycastIpAddressEntry","CreateAnycastIpAddressEntry function [IP Helper]","iphlp.createanycastipaddressentry","netioapi/CreateAnycastIpAddressEntry"]
+description: Adds a new anycast IP address entry on the local computer.
+helpviewer_keywords: ["CreateAnycastIpAddressEntry","CreateAnycastIpAddressEntry function [IP Helper]","iphlp.createanycastipaddressentry","netioapi/CreateAnycastIpAddressEntry"]
 old-location: iphlp\createanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 30393132-0fad-4687-b9e3-7b5cf47fbb96

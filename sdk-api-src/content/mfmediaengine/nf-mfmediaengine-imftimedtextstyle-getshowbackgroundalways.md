@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetShowBackgroundAlways
 title: IMFTimedTextStyle::GetShowBackgroundAlways (mfmediaengine.h)
-description: Determines whether the style of timed text always shows the background.helpviewer_keywords: ["GetShowBackgroundAlways","GetShowBackgroundAlways method [Media Foundation]","GetShowBackgroundAlways method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetShowBackgroundAlways method","IMFTimedTextStyle.GetShowBackgroundAlways","IMFTimedTextStyle::GetShowBackgroundAlways","mf.imftimedtextstyle_getshowbackgroundalways","mfmediaengine/IMFTimedTextStyle::GetShowBackgroundAlways"]
+description: Determines whether the style of timed text always shows the background.
+helpviewer_keywords: ["GetShowBackgroundAlways","GetShowBackgroundAlways method [Media Foundation]","GetShowBackgroundAlways method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetShowBackgroundAlways method","IMFTimedTextStyle.GetShowBackgroundAlways","IMFTimedTextStyle::GetShowBackgroundAlways","mf.imftimedtextstyle_getshowbackgroundalways","mfmediaengine/IMFTimedTextStyle::GetShowBackgroundAlways"]
 old-location: mf\imftimedtextstyle_getshowbackgroundalways.htm
 tech.root: medfound
 ms.assetid: 3FE2327F-542B-45D3-95F4-09CF0CE26403

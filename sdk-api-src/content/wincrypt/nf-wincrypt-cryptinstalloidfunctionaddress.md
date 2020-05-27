@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptInstallOIDFunctionAddress
 title: CryptInstallOIDFunctionAddress function (wincrypt.h)
-description: The CryptInstallOIDFunctionAddress function installs a set of callable object identifier (OID) function addresses.helpviewer_keywords: ["CryptInstallOIDFunctionAddress","CryptInstallOIDFunctionAddress function [Security]","_crypto2_cryptinstalloidfunctionaddress","security.cryptinstalloidfunctionaddress","wincrypt/CryptInstallOIDFunctionAddress"]
+description: The CryptInstallOIDFunctionAddress function installs a set of callable object identifier (OID) function addresses.
+helpviewer_keywords: ["CryptInstallOIDFunctionAddress","CryptInstallOIDFunctionAddress function [Security]","_crypto2_cryptinstalloidfunctionaddress","security.cryptinstalloidfunctionaddress","wincrypt/CryptInstallOIDFunctionAddress"]
 old-location: security\cryptinstalloidfunctionaddress.htm
 tech.root: SecCrypto
 ms.assetid: 934e8278-0e0b-4402-a2b6-ff1e913d54c9

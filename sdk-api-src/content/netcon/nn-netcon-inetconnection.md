@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.INetConnection
 title: INetConnection (netcon.h)
-description: The INetConnection interface provides methods to manage network connections.helpviewer_keywords: ["INetConnection","INetConnection interface [ICS/ICF]","INetConnection interface [ICS/ICF]","described","_ics_inetconnection","ics.inetconnection","netcon/INetConnection"]
+description: The INetConnection interface provides methods to manage network connections.
+helpviewer_keywords: ["INetConnection","INetConnection interface [ICS/ICF]","INetConnection interface [ICS/ICF]","described","_ics_inetconnection","ics.inetconnection","netcon/INetConnection"]
 old-location: ics\inetconnection.htm
 tech.root: ics
 ms.assetid: 7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f

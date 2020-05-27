@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ISelector.get_NumSources
 title: ISelector::get_NumSources (vidcap.h)
-description: The get_NumSources method returns the number of source nodes connected to the selector node.helpviewer_keywords: ["ISelector interface [DirectShow]","get_NumSources method","ISelector.get_NumSources","ISelector::get_NumSources","ISelectorget_NumSources","dshow.iselector_get_numsources","get_NumSources","get_NumSources method [DirectShow]","get_NumSources method [DirectShow]","ISelector interface","vidcap/ISelector::get_NumSources"]
+description: The get_NumSources method returns the number of source nodes connected to the selector node.
+helpviewer_keywords: ["ISelector interface [DirectShow]","get_NumSources method","ISelector.get_NumSources","ISelector::get_NumSources","ISelectorget_NumSources","dshow.iselector_get_numsources","get_NumSources","get_NumSources method [DirectShow]","get_NumSources method [DirectShow]","ISelector interface","vidcap/ISelector::get_NumSources"]
 old-location: dshow\iselector_get_numsources.htm
 tech.root: DirectShow
 ms.assetid: ff04e32f-7902-417e-b0d4-125914928679

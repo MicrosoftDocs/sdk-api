@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.EnumAttributes
 title: IStreamBufferRecordingAttribute::EnumAttributes (sbe.h)
-description: The EnumAttributes method enumerates the existing attributes of the stream buffer file. This method returns an enumerator object, which the caller can then use to enumerate the attributes.helpviewer_keywords: ["EnumAttributes","EnumAttributes method [Microsoft TV Technologies]","EnumAttributes method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","EnumAttributes method","IStreamBufferRecordingAttribute.EnumAttributes","IStreamBufferRecordingAttribute::EnumAttributes","IStreamBufferRecordingAttributeEnumAttributes","mstv.istreambufferrecordingattribute_enumattributes","sbe/IStreamBufferRecordingAttribute::EnumAttributes"]
+description: The EnumAttributes method enumerates the existing attributes of the stream buffer file. This method returns an enumerator object, which the caller can then use to enumerate the attributes.
+helpviewer_keywords: ["EnumAttributes","EnumAttributes method [Microsoft TV Technologies]","EnumAttributes method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","EnumAttributes method","IStreamBufferRecordingAttribute.EnumAttributes","IStreamBufferRecordingAttribute::EnumAttributes","IStreamBufferRecordingAttributeEnumAttributes","mstv.istreambufferrecordingattribute_enumattributes","sbe/IStreamBufferRecordingAttribute::EnumAttributes"]
 old-location: mstv\istreambufferrecordingattribute_enumattributes.htm
 tech.root: mstv
 ms.assetid: 2944d1c4-a4ed-47a7-a0c4-a75cddb9cc99

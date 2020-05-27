@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetLanguageCount
 title: IWMReaderAdvanced4::GetLanguageCount (wmsdkidl.h)
-description: The GetLanguageCount method retrieves the total number of languages supported by an output. Only outputs associated with streams mutually exclusive by language will have more than one supported language.helpviewer_keywords: ["GetLanguageCount","GetLanguageCount method [windows Media Format]","GetLanguageCount method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","GetLanguageCount method","IWMReaderAdvanced4.GetLanguageCount","IWMReaderAdvanced4::GetLanguageCount","IWMReaderAdvanced4GetLanguageCount","wmformat.iwmreaderadvanced4_getlanguagecount","wmsdkidl/IWMReaderAdvanced4::GetLanguageCount"]
+description: The GetLanguageCount method retrieves the total number of languages supported by an output. Only outputs associated with streams mutually exclusive by language will have more than one supported language.
+helpviewer_keywords: ["GetLanguageCount","GetLanguageCount method [windows Media Format]","GetLanguageCount method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","GetLanguageCount method","IWMReaderAdvanced4.GetLanguageCount","IWMReaderAdvanced4::GetLanguageCount","IWMReaderAdvanced4GetLanguageCount","wmformat.iwmreaderadvanced4_getlanguagecount","wmsdkidl/IWMReaderAdvanced4::GetLanguageCount"]
 old-location: wmformat\iwmreaderadvanced4_getlanguagecount.htm
 tech.root: wmformat
 ms.assetid: c63084cb-f4cf-413b-a3f1-eb6b1400ac93

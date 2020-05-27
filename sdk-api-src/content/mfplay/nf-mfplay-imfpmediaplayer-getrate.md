@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetRate
 title: IMFPMediaPlayer::GetRate (mfplay.h)
-description: Gets the current playback rate.helpviewer_keywords: ["GetRate","GetRate method [Media Foundation]","GetRate method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetRate method","IMFPMediaPlayer.GetRate","IMFPMediaPlayer::GetRate","mf.imfpmediaplayer_getrate","mfplay/IMFPMediaPlayer::GetRate"]
+description: Gets the current playback rate.
+helpviewer_keywords: ["GetRate","GetRate method [Media Foundation]","GetRate method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetRate method","IMFPMediaPlayer.GetRate","IMFPMediaPlayer::GetRate","mf.imfpmediaplayer_getrate","mfplay/IMFPMediaPlayer::GetRate"]
 old-location: mf\imfpmediaplayer_getrate.htm
 tech.root: medfound
 ms.assetid: 51257361-0362-43c4-8aca-81fd49be8482

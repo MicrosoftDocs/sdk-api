@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetComponentGroupType
 title: IIsdbComponentGroupDescriptor::GetComponentGroupType (dvbsiparser.h)
-description: Gets the value of the component_group_type field from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.helpviewer_keywords: ["GetComponentGroupType","GetComponentGroupType method [Microsoft TV Technologies]","GetComponentGroupType method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetComponentGroupType method","IIsdbComponentGroupDescriptor.GetComponentGroupType","IIsdbComponentGroupDescriptor::GetComponentGroupType","dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType","mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype"]
+description: Gets the value of the component_group_type field from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.
+helpviewer_keywords: ["GetComponentGroupType","GetComponentGroupType method [Microsoft TV Technologies]","GetComponentGroupType method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetComponentGroupType method","IIsdbComponentGroupDescriptor.GetComponentGroupType","IIsdbComponentGroupDescriptor::GetComponentGroupType","dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType","mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype"]
 old-location: mstv\iisdbcomponentgroupdescriptor_getcomponentgrouptype.htm
 tech.root: mstv
 ms.assetid: 6bf17c29-ee43-4de8-a536-bea44238aa53

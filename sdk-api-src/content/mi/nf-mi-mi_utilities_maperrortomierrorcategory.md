@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Utilities_MapErrorToMiErrorCategory
 title: MI_Utilities_MapErrorToMiErrorCategory function (mi.h)
-description: Maps an operating system specific error code to an error category.helpviewer_keywords: ["MI_RESULT_TYPE_HRESULT","MI_RESULT_TYPE_MI","MI_RESULT_TYPE_WIN32","MI_Utilities_MapErrorToMiErrorCategory","MI_Utilities_MapErrorToMiErrorCategory function [Windows Management Infrastructure (MI)]","mi/MI_Utilities_MapErrorToMiErrorCategory","wmi_v2.mi_utilities_maperrortomierrorcategory"]
+description: Maps an operating system specific error code to an error category.
+helpviewer_keywords: ["MI_RESULT_TYPE_HRESULT","MI_RESULT_TYPE_MI","MI_RESULT_TYPE_WIN32","MI_Utilities_MapErrorToMiErrorCategory","MI_Utilities_MapErrorToMiErrorCategory function [Windows Management Infrastructure (MI)]","mi/MI_Utilities_MapErrorToMiErrorCategory","wmi_v2.mi_utilities_maperrortomierrorcategory"]
 old-location: wmi_v2\mi_utilities_maperrortomierrorcategory.htm
 tech.root: wmi_v2
 ms.assetid: 58ac8e3e-ae87-40b1-bf27-1b32168a033e

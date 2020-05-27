@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataISOGains
 title: CapturedMetadataISOGains (mfapi.h)
-description: The CapturedMetadataISOGains structure describes the blob format for MF_CAPTURE_METADATA_ISO_GAINS.helpviewer_keywords: ["CapturedMetadataISOGains","CapturedMetadataISOGains structure [Streaming Media Devices]","mfapi/CapturedMetadataISOGains","stream.capturedmetadataisogains"]
+description: The CapturedMetadataISOGains structure describes the blob format for MF_CAPTURE_METADATA_ISO_GAINS.
+helpviewer_keywords: ["CapturedMetadataISOGains","CapturedMetadataISOGains structure [Streaming Media Devices]","mfapi/CapturedMetadataISOGains","stream.capturedmetadataisogains"]
 old-location: stream\capturedmetadataisogains.htm
 tech.root: stream
 ms.assetid: 6B87BDFB-EAD5-496D-BE6A-9AE709119515

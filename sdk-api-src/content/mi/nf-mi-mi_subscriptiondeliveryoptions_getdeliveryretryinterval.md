@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval
 title: MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval function (mi.h)
-description: Gets the delivery retry interval&#8212;the amount of time to wait before retrying the delivery.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval","MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval","wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryretryinterval"]
+description: Gets the delivery retry interval&#8212;the amount of time to wait before retrying the delivery.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval","MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval","wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryretryinterval"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliveryretryinterval.htm
 tech.root: wmi_v2
 ms.assetid: 74ece97b-edf9-43f9-9afb-bb946ce13e89

@@ -1,7 +1,8 @@
 ---
 UID: NC:winfax.PFAX_ROUTING_INSTALLATION_CALLBACKW
 title: PFAX_ROUTING_INSTALLATION_CALLBACKW (winfax.h)
-description: The FaxRoutingInstallationCallback function is a library-defined callback function that the FaxRegisterRoutingExtension function calls to install a fax routing extension DLL.helpviewer_keywords: ["FaxRoutingInstallationCallback","PFAX_ROUTING_INSTALLATION_CALLBACKW","PFAX_ROUTING_INSTALLATION_CALLBACKW callback","PFAX_ROUTING_INSTALLATION_CALLBACKW callback function [Fax Service]","_mfax_faxroutinginstallationcallback","fax._mfax_faxroutinginstallationcallback","winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW"]
+description: The FaxRoutingInstallationCallback function is a library-defined callback function that the FaxRegisterRoutingExtension function calls to install a fax routing extension DLL.
+helpviewer_keywords: ["FaxRoutingInstallationCallback","PFAX_ROUTING_INSTALLATION_CALLBACKW","PFAX_ROUTING_INSTALLATION_CALLBACKW callback","PFAX_ROUTING_INSTALLATION_CALLBACKW callback function [Fax Service]","_mfax_faxroutinginstallationcallback","fax._mfax_faxroutinginstallationcallback","winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW"]
 old-location: fax\_mfax_faxroutinginstallationcallback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9aqz.htm

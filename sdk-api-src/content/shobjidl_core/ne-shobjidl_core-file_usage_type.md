@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.FILE_USAGE_TYPE
 title: FILE_USAGE_TYPE (shobjidl_core.h)
-description: Constants used by IFileIsInUse::GetUsage to indicate how a file in use is being used.helpviewer_keywords: ["FILE_USAGE_TYPE","FILE_USAGE_TYPE enumeration [Windows Shell]","FUT_EDITING","FUT_GENERIC","FUT_PLAYING","_shell_FILE_USAGE_TYPE","shell.FILE_USAGE_TYPE","shobjidl_core/FILE_USAGE_TYPE","shobjidl_core/FUT_EDITING","shobjidl_core/FUT_GENERIC","shobjidl_core/FUT_PLAYING"]
+description: Constants used by IFileIsInUse::GetUsage to indicate how a file in use is being used.
+helpviewer_keywords: ["FILE_USAGE_TYPE","FILE_USAGE_TYPE enumeration [Windows Shell]","FUT_EDITING","FUT_GENERIC","FUT_PLAYING","_shell_FILE_USAGE_TYPE","shell.FILE_USAGE_TYPE","shobjidl_core/FILE_USAGE_TYPE","shobjidl_core/FUT_EDITING","shobjidl_core/FUT_GENERIC","shobjidl_core/FUT_PLAYING"]
 old-location: shell\FILE_USAGE_TYPE.htm
 tech.root: shell
 ms.assetid: 32b0e148-499a-401d-837c-8cea74cf9cac

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetCursorInfo
 title: GetCursorInfo function (winuser.h)
-description: Retrieves information about the global cursor.helpviewer_keywords: ["GetCursorInfo","GetCursorInfo function [Menus and Other Resources]","_win32_GetCursorInfo","_win32_getcursorinfo_cpp","menurc.getcursorinfo","winui._win32_getcursorinfo","winuser/GetCursorInfo"]
+description: Retrieves information about the global cursor.
+helpviewer_keywords: ["GetCursorInfo","GetCursorInfo function [Menus and Other Resources]","_win32_GetCursorInfo","_win32_getcursorinfo_cpp","menurc.getcursorinfo","winui._win32_getcursorinfo","winuser/GetCursorInfo"]
 old-location: menurc\getcursorinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursorinfo.htm

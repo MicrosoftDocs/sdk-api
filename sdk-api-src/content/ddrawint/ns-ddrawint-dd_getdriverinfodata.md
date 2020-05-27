@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_GETDRIVERINFODATA
 title: DD_GETDRIVERINFODATA (ddrawint.h)
-description: The DD_GETDRIVERINFODATA structure is used to pass data to and from the DdGetDriverInfo callback routine.helpviewer_keywords: ["*PDD_GETDRIVERINFODATA","DD_GETDRIVERINFODATA","DD_GETDRIVERINFODATA structure [Display Devices]","PDD_GETDRIVERINFODATA","PDD_GETDRIVERINFODATA structure pointer [Display Devices]","ddrawint/DD_GETDRIVERINFODATA","ddrawint/PDD_GETDRIVERINFODATA","ddstrcts_1c0cf063-699e-497d-8554-db34185a1668.xml","display.dd_getdriverinfodata"]
+description: The DD_GETDRIVERINFODATA structure is used to pass data to and from the DdGetDriverInfo callback routine.
+helpviewer_keywords: ["*PDD_GETDRIVERINFODATA","DD_GETDRIVERINFODATA","DD_GETDRIVERINFODATA structure [Display Devices]","PDD_GETDRIVERINFODATA","PDD_GETDRIVERINFODATA structure pointer [Display Devices]","ddrawint/DD_GETDRIVERINFODATA","ddrawint/PDD_GETDRIVERINFODATA","ddstrcts_1c0cf063-699e-497d-8554-db34185a1668.xml","display.dd_getdriverinfodata"]
 old-location: display\dd_getdriverinfodata.htm
 tech.root: display
 ms.assetid: 15a4e80d-2186-4683-a05f-405ca75044e5

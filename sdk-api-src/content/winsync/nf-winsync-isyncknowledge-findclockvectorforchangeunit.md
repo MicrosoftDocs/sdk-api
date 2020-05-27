@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForChangeUnit
 title: ISyncKnowledge::FindClockVectorForChangeUnit (winsync.h)
-description: Gets the clock vector that is associated with the specified change unit ID.helpviewer_keywords: ["FindClockVectorForChangeUnit","FindClockVectorForChangeUnit method [Windows Sync]","FindClockVectorForChangeUnit method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","FindClockVectorForChangeUnit method","ISyncKnowledge.FindClockVectorForChangeUnit","ISyncKnowledge::FindClockVectorForChangeUnit","winsync.isyncknowledge_findclockvectorforchangeunit","winsync/ISyncKnowledge::FindClockVectorForChangeUnit"]
+description: Gets the clock vector that is associated with the specified change unit ID.
+helpviewer_keywords: ["FindClockVectorForChangeUnit","FindClockVectorForChangeUnit method [Windows Sync]","FindClockVectorForChangeUnit method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","FindClockVectorForChangeUnit method","ISyncKnowledge.FindClockVectorForChangeUnit","ISyncKnowledge::FindClockVectorForChangeUnit","winsync.isyncknowledge_findclockvectorforchangeunit","winsync/ISyncKnowledge::FindClockVectorForChangeUnit"]
 old-location: winsync\isyncknowledge_findclockvectorforchangeunit.htm
 tech.root: winsync
 ms.assetid: b5114f66-419f-4fea-87ad-3c2cc43eb2fd

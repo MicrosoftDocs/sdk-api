@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetTextBkColor
 title: ListView_GetTextBkColor macro (commctrl.h)
-description: Gets the text background color of a list-view control. You can use this macro or send the LVM_GETTEXTBKCOLOR message explicitly.helpviewer_keywords: ["ListView_GetTextBkColor","ListView_GetTextBkColor macro [Windows Controls]","_win32_ListView_GetTextBkColor","_win32_ListView_GetTextBkColor_cpp","commctrl/ListView_GetTextBkColor","controls.ListView_GetTextBkColor","controls._win32_ListView_GetTextBkColor"]
+description: Gets the text background color of a list-view control. You can use this macro or send the LVM_GETTEXTBKCOLOR message explicitly.
+helpviewer_keywords: ["ListView_GetTextBkColor","ListView_GetTextBkColor macro [Windows Controls]","_win32_ListView_GetTextBkColor","_win32_ListView_GetTextBkColor_cpp","commctrl/ListView_GetTextBkColor","controls.ListView_GetTextBkColor","controls._win32_ListView_GetTextBkColor"]
 old-location: controls\ListView_GetTextBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettextbkcolor.htm

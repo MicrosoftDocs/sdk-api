@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpCloseHandle
 title: WinHttpCloseHandle function (winhttp.h)
-description: The WinHttpCloseHandle function closes a single **HINTERNET** handle.helpviewer_keywords: ["- WinHttpCloseHandle"]
+description: The WinHttpCloseHandle function closes a single **HINTERNET** handle.
+helpviewer_keywords: ["- WinHttpCloseHandle"]
 old-location: http\winhttpclosehandle.htm
 tech.root: WinHttp
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f

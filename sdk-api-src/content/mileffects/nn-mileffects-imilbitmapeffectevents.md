@@ -1,7 +1,8 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectEvents
 title: IMILBitmapEffectEvents (mileffects.h)
-description: Exposes methods that define an effect event.helpviewer_keywords: ["IMILBitmapEffectEvents","IMILBitmapEffectEvents interface [WPF Bitmap Effects]","IMILBitmapEffectEvents interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectevents","mileffects/IMILBitmapEffectEvents","wibe._wibe_imilbitmapeffectevents"]
+description: Exposes methods that define an effect event.
+helpviewer_keywords: ["IMILBitmapEffectEvents","IMILBitmapEffectEvents interface [WPF Bitmap Effects]","IMILBitmapEffectEvents interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectevents","mileffects/IMILBitmapEffectEvents","wibe._wibe_imilbitmapeffectevents"]
 old-location: wibe\_wibe_imilbitmapeffectevents.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\imilbitmapeffectevents.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetCommProperties
 title: GetCommProperties function (winbase.h)
-description: Retrieves information about the communications properties for a specified communications device.helpviewer_keywords: ["GetCommProperties","GetCommProperties function","_win32_getcommproperties","base.getcommproperties","winbase/GetCommProperties"]
+description: Retrieves information about the communications properties for a specified communications device.
+helpviewer_keywords: ["GetCommProperties","GetCommProperties function","_win32_getcommproperties","base.getcommproperties","winbase/GetCommProperties"]
 old-location: base\getcommproperties.htm
 tech.root: devio
 ms.assetid: dbbf55d6-d369-4b28-bdc7-1fd9a736e658

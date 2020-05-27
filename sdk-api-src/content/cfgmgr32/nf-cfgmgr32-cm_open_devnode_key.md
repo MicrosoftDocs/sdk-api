@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Open_DevNode_Key
 title: CM_Open_DevNode_Key function (cfgmgr32.h)
-description: The CM_Open_DevNode_Key function opens a registry key for device-specific configuration information.helpviewer_keywords: ["CM_Open_DevNode_Key","CM_Open_DevNode_Key function [Device and Driver Installation]","cfgmgr32/CM_Open_DevNode_Key","cfgmgrfn_951f31d2-624f-4ef2-b954-1b33f9a779e7.xml","devinst.cm_open_devnode_key"]
+description: The CM_Open_DevNode_Key function opens a registry key for device-specific configuration information.
+helpviewer_keywords: ["CM_Open_DevNode_Key","CM_Open_DevNode_Key function [Device and Driver Installation]","cfgmgr32/CM_Open_DevNode_Key","cfgmgrfn_951f31d2-624f-4ef2-b954-1b33f9a779e7.xml","devinst.cm_open_devnode_key"]
 old-location: devinst\cm_open_devnode_key.htm
 tech.root: devinst
 ms.assetid: bd69ec16-e8a3-4372-babf-65f8abb7a012

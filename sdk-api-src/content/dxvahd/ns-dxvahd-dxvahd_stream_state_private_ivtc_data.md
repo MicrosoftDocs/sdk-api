@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA
 title: DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA (dxvahd.h)
-description: Contains inverse telecine (IVTC) statistics from a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA","DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA","mf.dxvahd_stream_state_private_ivtc_data"]
+description: Contains inverse telecine (IVTC) statistics from a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA","DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_PRIVATE_IVTC_DATA","mf.dxvahd_stream_state_private_ivtc_data"]
 old-location: mf\dxvahd_stream_state_private_ivtc_data.htm
 tech.root: medfound
 ms.assetid: 166fc57e-3b49-44c1-8c6c-691950e7b675

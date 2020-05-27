@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFolderFilterSite
 title: IFolderFilterSite (shobjidl_core.h)
-description: Exported by a host to allow clients to specify how to filter a Shell folder enumeration.helpviewer_keywords: ["IFolderFilterSite","IFolderFilterSite interface [Windows Shell]","IFolderFilterSite interface [Windows Shell]","described","_shell_IFolderFilterSite","shell.IFolderFilterSite","shobjidl_core/IFolderFilterSite"]
+description: Exported by a host to allow clients to specify how to filter a Shell folder enumeration.
+helpviewer_keywords: ["IFolderFilterSite","IFolderFilterSite interface [Windows Shell]","IFolderFilterSite interface [Windows Shell]","described","_shell_IFolderFilterSite","shell.IFolderFilterSite","shobjidl_core/IFolderFilterSite"]
 old-location: shell\IFolderFilterSite.htm
 tech.root: shell
 ms.assetid: 8b6fe1a3-9977-42a8-af95-da0fc6809b1b

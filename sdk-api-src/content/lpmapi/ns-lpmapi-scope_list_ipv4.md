@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_9
 title: Scope_list_ipv4 (lpmapi.h)
-description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.helpviewer_keywords: ["Scope_list_ipv4","Scope_list_ipv4 structure [QOS]","lpmapi/Scope_list_ipv4","qos.scope_list_ipv4"]
+description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.
+helpviewer_keywords: ["Scope_list_ipv4","Scope_list_ipv4 structure [QOS]","lpmapi/Scope_list_ipv4","qos.scope_list_ipv4"]
 old-location: qos\scope_list_ipv4.htm
 tech.root: QOS
 ms.assetid: f1651371-d192-45d9-9a9e-d272b624f40d

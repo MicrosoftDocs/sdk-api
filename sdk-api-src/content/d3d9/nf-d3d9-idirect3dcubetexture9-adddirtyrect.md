@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9.IDirect3DCubeTexture9.AddDirtyRect
 title: IDirect3DCubeTexture9::AddDirtyRect (d3d9.h)
-description: Adds a dirty region to a cube texture resource.helpviewer_keywords: ["AddDirtyRect","AddDirtyRect method [Direct3D 9]","AddDirtyRect method [Direct3D 9]","IDirect3DCubeTexture9 interface","IDirect3DCubeTexture9 interface [Direct3D 9]","AddDirtyRect method","IDirect3DCubeTexture9.AddDirtyRect","IDirect3DCubeTexture9::AddDirtyRect","b0dc98c8-8a1a-85fb-09ae-35df9bd8edc0","d3d9helper/IDirect3DCubeTexture9::AddDirtyRect","direct3d9.idirect3dcubetexture9__adddirtyrect"]
+description: Adds a dirty region to a cube texture resource.
+helpviewer_keywords: ["AddDirtyRect","AddDirtyRect method [Direct3D 9]","AddDirtyRect method [Direct3D 9]","IDirect3DCubeTexture9 interface","IDirect3DCubeTexture9 interface [Direct3D 9]","AddDirtyRect method","IDirect3DCubeTexture9.AddDirtyRect","IDirect3DCubeTexture9::AddDirtyRect","b0dc98c8-8a1a-85fb-09ae-35df9bd8edc0","d3d9helper/IDirect3DCubeTexture9::AddDirtyRect","direct3d9.idirect3dcubetexture9__adddirtyrect"]
 old-location: direct3d9\idirect3dcubetexture9__adddirtyrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__adddirtyrect.htm

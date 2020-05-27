@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 title: IDvbSatelliteDeliverySystemDescriptor::GetFECInner (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetFECInner","GetFECInner method [Microsoft TV Technologies]","GetFECInner method [Microsoft TV Technologies]","IDvbSatelliteDeliverySystemDescriptor interface","IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetFECInner method","IDvbSatelliteDeliverySystemDescriptor.GetFECInner","IDvbSatelliteDeliverySystemDescriptor::GetFECInner","IDvbSatelliteDeliverySystemDescriptorGetFECInner","dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner","mstv.idvbsatellitedeliverysystemdescriptor_getfecinner"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetFECInner","GetFECInner method [Microsoft TV Technologies]","GetFECInner method [Microsoft TV Technologies]","IDvbSatelliteDeliverySystemDescriptor interface","IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetFECInner method","IDvbSatelliteDeliverySystemDescriptor.GetFECInner","IDvbSatelliteDeliverySystemDescriptor::GetFECInner","IDvbSatelliteDeliverySystemDescriptorGetFECInner","dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner","mstv.idvbsatellitedeliverysystemdescriptor_getfecinner"]
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getfecinner.htm
 tech.root: mstv
 ms.assetid: fe90fcd7-e77b-42c8-935f-4cf02957400f

@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetTargetRect
 title: IDXGIDecodeSwapChain::SetTargetRect (dxgi1_3.h)
-description: Sets the rectangle that defines the target region for the video processing blit operation.helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetTargetRect method","IDXGIDecodeSwapChain.SetTargetRect","IDXGIDecodeSwapChain::SetTargetRect","SetTargetRect","SetTargetRect method [DXGI]","SetTargetRect method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_settargetrect","dxgi1_3/IDXGIDecodeSwapChain::SetTargetRect"]
+description: Sets the rectangle that defines the target region for the video processing blit operation.
+helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetTargetRect method","IDXGIDecodeSwapChain.SetTargetRect","IDXGIDecodeSwapChain::SetTargetRect","SetTargetRect","SetTargetRect method [DXGI]","SetTargetRect method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_settargetrect","dxgi1_3/IDXGIDecodeSwapChain::SetTargetRect"]
 old-location: direct3ddxgi\idxgidecodeswapchain_settargetrect.htm
 tech.root: direct3ddxgi
 ms.assetid: 2B3D71F9-B13B-4680-8284-41B32CA58CEE

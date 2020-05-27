@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IServiceSynchronizationConfig
 title: IServiceSynchronizationConfig (comsvcs.h)
-description: Configures the synchronization for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.helpviewer_keywords: ["IServiceSynchronizationConfig","IServiceSynchronizationConfig interface [COM+]","IServiceSynchronizationConfig interface [COM+]","described","_cos_IServiceSynchronizationConfig","comsvcs/IServiceSynchronizationConfig","cos.iservicesynchronizationconfig"]
+description: Configures the synchronization for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
+helpviewer_keywords: ["IServiceSynchronizationConfig","IServiceSynchronizationConfig interface [COM+]","IServiceSynchronizationConfig interface [COM+]","described","_cos_IServiceSynchronizationConfig","comsvcs/IServiceSynchronizationConfig","cos.iservicesynchronizationconfig"]
 old-location: cos\iservicesynchronizationconfig.htm
 tech.root: cossdk
 ms.assetid: c4856738-66bf-4982-9440-83b72148c85c

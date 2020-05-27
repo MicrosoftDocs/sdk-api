@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbContentIdentifierDescriptor.GetRecordCrid
 title: IDvbContentIdentifierDescriptor::GetRecordCrid (dvbsiparser.h)
-description: Gets the content reference identifier (CRID) from a Digital Video Broadcast (DVB) content identifier descriptor.helpviewer_keywords: ["GetRecordCrid","GetRecordCrid method [Microsoft TV Technologies]","GetRecordCrid method [Microsoft TV Technologies]","IDvbContentIdentifierDescriptor interface","IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies]","GetRecordCrid method","IDvbContentIdentifierDescriptor.GetRecordCrid","IDvbContentIdentifierDescriptor::GetRecordCrid","dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid","mstv.idvbcontentidentifierdescriptor_getrecordcrid"]
+description: Gets the content reference identifier (CRID) from a Digital Video Broadcast (DVB) content identifier descriptor.
+helpviewer_keywords: ["GetRecordCrid","GetRecordCrid method [Microsoft TV Technologies]","GetRecordCrid method [Microsoft TV Technologies]","IDvbContentIdentifierDescriptor interface","IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies]","GetRecordCrid method","IDvbContentIdentifierDescriptor.GetRecordCrid","IDvbContentIdentifierDescriptor::GetRecordCrid","dvbsiparser/IDvbContentIdentifierDescriptor::GetRecordCrid","mstv.idvbcontentidentifierdescriptor_getrecordcrid"]
 old-location: mstv\idvbcontentidentifierdescriptor_getrecordcrid.htm
 tech.root: mstv
 ms.assetid: de3593a6-f39c-4c4a-9ddf-1343186d98e3

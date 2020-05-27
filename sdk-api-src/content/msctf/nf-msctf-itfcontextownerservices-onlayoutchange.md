@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnLayoutChange
 title: ITfContextOwnerServices::OnLayoutChange (msctf.h)
-description: The ITfContextOwnerServices::OnLayoutChange method is called by the context owner when the on-screen representation of the text stream is updated during a composition.helpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","OnLayoutChange method","ITfContextOwnerServices.OnLayoutChange","ITfContextOwnerServices::OnLayoutChange","OnLayoutChange","OnLayoutChange method [Text Services Framework]","OnLayoutChange method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_onlayoutchange_ref","msctf/ITfContextOwnerServices::OnLayoutChange","tsf.itfcontextownerservices_onlayoutchange"]
+description: The ITfContextOwnerServices::OnLayoutChange method is called by the context owner when the on-screen representation of the text stream is updated during a composition.
+helpviewer_keywords: ["ITfContextOwnerServices interface [Text Services Framework]","OnLayoutChange method","ITfContextOwnerServices.OnLayoutChange","ITfContextOwnerServices::OnLayoutChange","OnLayoutChange","OnLayoutChange method [Text Services Framework]","OnLayoutChange method [Text Services Framework]","ITfContextOwnerServices interface","_tsf_itfcontextownerservices_onlayoutchange_ref","msctf/ITfContextOwnerServices::OnLayoutChange","tsf.itfcontextownerservices_onlayoutchange"]
 old-location: tsf\itfcontextownerservices_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: a9e17687-6be6-4d2d-ba3a-6c128e71de26

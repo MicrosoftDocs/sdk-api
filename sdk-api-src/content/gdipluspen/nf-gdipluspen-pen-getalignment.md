@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetAlignment
 title: Pen::GetAlignment (gdipluspen.h)
-description: The Pen::GetAlignment method gets the alignment currently set for this Pen object.helpviewer_keywords: ["GetAlignment","GetAlignment method [GDI+]","GetAlignment method [GDI+]","Pen class","Pen class [GDI+]","GetAlignment method","Pen.GetAlignment","Pen::GetAlignment","_gdiplus_CLASS_Pen_GetAlignment_","gdiplus._gdiplus_CLASS_Pen_GetAlignment_"]
+description: The Pen::GetAlignment method gets the alignment currently set for this Pen object.
+helpviewer_keywords: ["GetAlignment","GetAlignment method [GDI+]","GetAlignment method [GDI+]","Pen class","Pen class [GDI+]","GetAlignment method","Pen.GetAlignment","Pen::GetAlignment","_gdiplus_CLASS_Pen_GetAlignment_","gdiplus._gdiplus_CLASS_Pen_GetAlignment_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetAlignment_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getalignment.htm

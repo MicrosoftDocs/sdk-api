@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi.DXGI_OUTPUT_DESC
 title: DXGI_OUTPUT_DESC (dxgi.h)
-description: Describes an output or physical connection between the adapter (video card) and a device.helpviewer_keywords: ["DXGI_OUTPUT_DESC","DXGI_OUTPUT_DESC structure [DXGI]","d70793ef-13c9-f3fa-6590-c3b793e1191b","direct3ddxgi.dxgi_output_desc","dxgi/DXGI_OUTPUT_DESC"]
+description: Describes an output or physical connection between the adapter (video card) and a device.
+helpviewer_keywords: ["DXGI_OUTPUT_DESC","DXGI_OUTPUT_DESC structure [DXGI]","d70793ef-13c9-f3fa-6590-c3b793e1191b","direct3ddxgi.dxgi_output_desc","dxgi/DXGI_OUTPUT_DESC"]
 old-location: direct3ddxgi\dxgi_output_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_output_desc.htm

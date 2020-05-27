@@ -1,7 +1,8 @@
 ---
 UID: NF:prsht.PropSheet_SetFinishText
 title: PropSheet_SetFinishText macro (prsht.h)
-description: Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the PSM_SETFINISHTEXT message explicitly.helpviewer_keywords: ["PropSheet_SetFinishText","PropSheet_SetFinishText macro [Windows Controls]","_win32_PropSheet_SetFinishText","_win32_PropSheet_SetFinishText_cpp","controls.PropSheet_SetFinishText","controls._win32_PropSheet_SetFinishText","prsht/PropSheet_SetFinishText"]
+description: Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the PSM_SETFINISHTEXT message explicitly.
+helpviewer_keywords: ["PropSheet_SetFinishText","PropSheet_SetFinishText macro [Windows Controls]","_win32_PropSheet_SetFinishText","_win32_PropSheet_SetFinishText_cpp","controls.PropSheet_SetFinishText","controls._win32_PropSheet_SetFinishText","prsht/PropSheet_SetFinishText"]
 old-location: controls\PropSheet_SetFinishText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setfinishtext.htm

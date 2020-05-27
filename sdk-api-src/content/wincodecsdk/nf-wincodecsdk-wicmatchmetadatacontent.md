@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.WICMatchMetadataContent
 title: WICMatchMetadataContent function (wincodecsdk.h)
-description: Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.helpviewer_keywords: ["WICMatchMetadataContent","WICMatchMetadataContent function [Windows Imaging Component]","_wic_codec_wicmatchmetadatacontent","wic._wic_codec_wicmatchmetadatacontent","wincodecsdk/WICMatchMetadataContent"]
+description: Obtains a metadata format GUID for a specified container format and vendor that best matches the content within a given stream.
+helpviewer_keywords: ["WICMatchMetadataContent","WICMatchMetadataContent function [Windows Imaging Component]","_wic_codec_wicmatchmetadatacontent","wic._wic_codec_wicmatchmetadatacontent","wincodecsdk/WICMatchMetadataContent"]
 old-location: wic\_wic_codec_wicmatchmetadatacontent.htm
 tech.root: wic
 ms.assetid: 2d1ab317-a77c-4e91-9455-e6738fd40e88

@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IETFilter.GetCurrLicenseExpDate
 title: IETFilter::GetCurrLicenseExpDate (encdec.h)
-description: This method is currently not supported.helpviewer_keywords: ["GetCurrLicenseExpDate","GetCurrLicenseExpDate method [Microsoft TV Technologies]","GetCurrLicenseExpDate method [Microsoft TV Technologies]","IETFilter interface","IETFilter interface [Microsoft TV Technologies]","GetCurrLicenseExpDate method","IETFilter.GetCurrLicenseExpDate","IETFilter::GetCurrLicenseExpDate","IETFilterGetCurrLicenseExpDate","encdec/IETFilter::GetCurrLicenseExpDate","mstv.ietfilter_getcurrlicenseexpdate"]
+description: This method is currently not supported.
+helpviewer_keywords: ["GetCurrLicenseExpDate","GetCurrLicenseExpDate method [Microsoft TV Technologies]","GetCurrLicenseExpDate method [Microsoft TV Technologies]","IETFilter interface","IETFilter interface [Microsoft TV Technologies]","GetCurrLicenseExpDate method","IETFilter.GetCurrLicenseExpDate","IETFilter::GetCurrLicenseExpDate","IETFilterGetCurrLicenseExpDate","encdec/IETFilter::GetCurrLicenseExpDate","mstv.ietfilter_getcurrlicenseexpdate"]
 old-location: mstv\ietfilter_getcurrlicenseexpdate.htm
 tech.root: mstv
 ms.assetid: d2ec57fc-ad5b-4f7b-a6d7-68f5ee0607b6

@@ -1,7 +1,8 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.ResyncLuns
 title: IVssHardwareSnapshotProviderEx::ResyncLuns (vsprov.h)
-description: The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.helpviewer_keywords: ["IVssHardwareSnapshotProviderEx interface","ResyncLuns method","IVssHardwareSnapshotProviderEx.ResyncLuns","IVssHardwareSnapshotProviderEx::ResyncLuns","ResyncLuns","ResyncLuns method","ResyncLuns method","IVssHardwareSnapshotProviderEx interface","base.ivsshardwaresnapshotproviderex_resyncluns","vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns"]
+description: The VSS service calls this method to notify hardware providers that a LUN resynchronization is needed.
+helpviewer_keywords: ["IVssHardwareSnapshotProviderEx interface","ResyncLuns method","IVssHardwareSnapshotProviderEx.ResyncLuns","IVssHardwareSnapshotProviderEx::ResyncLuns","ResyncLuns","ResyncLuns method","ResyncLuns method","IVssHardwareSnapshotProviderEx interface","base.ivsshardwaresnapshotproviderex_resyncluns","vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns"]
 old-location: base\ivsshardwaresnapshotproviderex_resyncluns.htm
 tech.root: VSS
 ms.assetid: 27322ba0-e318-45d4-824e-8c81a18abd49

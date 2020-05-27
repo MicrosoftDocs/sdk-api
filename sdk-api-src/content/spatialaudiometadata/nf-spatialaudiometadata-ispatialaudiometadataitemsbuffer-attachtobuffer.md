@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToBuffer
 title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer (spatialaudiometadata.h)
-description: Attaches caller-provided memory for storage of ISpatialAudioMetadataItems objects.helpviewer_keywords: ["AttachToBuffer","AttachToBuffer method [Core Audio]","AttachToBuffer method [Core Audio]","ISpatialAudioMetadataItemsBuffer interface","ISpatialAudioMetadataItemsBuffer interface [Core Audio]","AttachToBuffer method","ISpatialAudioMetadataItemsBuffer.AttachToBuffer","ISpatialAudioMetadataItemsBuffer::AttachToBuffer","coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer","spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer"]
+description: Attaches caller-provided memory for storage of ISpatialAudioMetadataItems objects.
+helpviewer_keywords: ["AttachToBuffer","AttachToBuffer method [Core Audio]","AttachToBuffer method [Core Audio]","ISpatialAudioMetadataItemsBuffer interface","ISpatialAudioMetadataItemsBuffer interface [Core Audio]","AttachToBuffer method","ISpatialAudioMetadataItemsBuffer.AttachToBuffer","ISpatialAudioMetadataItemsBuffer::AttachToBuffer","coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer","spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer"]
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtobuffer.htm
 tech.root: CoreAudio
 ms.assetid: CAB1E4C6-5572-47D0-B96F-0479773B8106

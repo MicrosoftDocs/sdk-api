@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.OleLoadPictureFile
 title: OleLoadPictureFile function (olectl.h)
-description: Creates an IPictureDisp object from a picture file on disk.helpviewer_keywords: ["OleLoadPictureFile","OleLoadPictureFile function [Automation]","_oa96_OleLoadPictureFile","automat.oleloadpicturefile","olectl/OleLoadPictureFile"]
+description: Creates an IPictureDisp object from a picture file on disk.
+helpviewer_keywords: ["OleLoadPictureFile","OleLoadPictureFile function [Automation]","_oa96_OleLoadPictureFile","automat.oleloadpicturefile","olectl/OleLoadPictureFile"]
 old-location: automat\oleloadpicturefile.htm
 tech.root: automat
 ms.assetid: ecfbf297-88fa-42bf-afa7-f7884be17b15

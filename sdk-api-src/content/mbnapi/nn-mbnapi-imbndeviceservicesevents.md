@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesEvents
 title: IMbnDeviceServicesEvents (mbnapi.h)
-description: Signals an application about notification events related to Mobile Broadband device services on the system.helpviewer_keywords: ["IMbnDeviceServicesEvents","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservicesevents","mbnapi/IMbnDeviceServicesEvents"]
+description: Signals an application about notification events related to Mobile Broadband device services on the system.
+helpviewer_keywords: ["IMbnDeviceServicesEvents","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservicesevents","mbnapi/IMbnDeviceServicesEvents"]
 old-location: mbn\imbndeviceservicesevents.htm
 tech.root: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774

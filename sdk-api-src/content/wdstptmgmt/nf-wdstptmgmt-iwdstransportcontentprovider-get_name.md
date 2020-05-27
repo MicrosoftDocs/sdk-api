@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_Name
 title: IWdsTransportContentProvider::get_Name (wdstptmgmt.h)
-description: Retrieves the name of the content provider.helpviewer_keywords: ["IWdsTransportContentProvider interface [Windows Deployment Services]","Name property","IWdsTransportContentProvider.Name","IWdsTransportContentProvider.get_Name","IWdsTransportContentProvider::Name","IWdsTransportContentProvider::get_Name","Name property [Windows Deployment Services]","Name property [Windows Deployment Services]","IWdsTransportContentProvider interface","get_Name","wds.iwdstransportcontentprovider_name","wdstptmgmt/IWdsTransportContentProvider::Name","wdstptmgmt/IWdsTransportContentProvider::get_Name"]
+description: Retrieves the name of the content provider.
+helpviewer_keywords: ["IWdsTransportContentProvider interface [Windows Deployment Services]","Name property","IWdsTransportContentProvider.Name","IWdsTransportContentProvider.get_Name","IWdsTransportContentProvider::Name","IWdsTransportContentProvider::get_Name","Name property [Windows Deployment Services]","Name property [Windows Deployment Services]","IWdsTransportContentProvider interface","get_Name","wds.iwdstransportcontentprovider_name","wdstptmgmt/IWdsTransportContentProvider::Name","wdstptmgmt/IWdsTransportContentProvider::get_Name"]
 old-location: wds\iwdstransportcontentprovider_name.htm
 tech.root: wds
 ms.assetid: 2A897617-F7AA-4EF7-AE44-78EBC98C3B5F

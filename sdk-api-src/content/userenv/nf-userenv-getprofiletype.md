@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.GetProfileType
 title: GetProfileType function (userenv.h)
-description: Retrieves the type of profile loaded for the current user.helpviewer_keywords: ["GetProfileType","GetProfileType function [Windows Shell]","PT_MANDATORY","PT_ROAMING","PT_ROAMING_PREEXISTING","PT_TEMPORARY","_shell_GetProfileType","shell.GetProfileType","userenv/GetProfileType"]
+description: Retrieves the type of profile loaded for the current user.
+helpviewer_keywords: ["GetProfileType","GetProfileType function [Windows Shell]","PT_MANDATORY","PT_ROAMING","PT_ROAMING_PREEXISTING","PT_TEMPORARY","_shell_GetProfileType","shell.GetProfileType","userenv/GetProfileType"]
 old-location: shell\GetProfileType.htm
 tech.root: shell
 ms.assetid: 55ee76c8-1735-43eb-a98e-9e6c87ee1ba7

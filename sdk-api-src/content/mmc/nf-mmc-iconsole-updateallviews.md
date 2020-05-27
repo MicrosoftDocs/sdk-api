@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsole.UpdateAllViews
 title: IConsole::UpdateAllViews (mmc.h)
-description: Called by a snap-in when there is a content change in the result pane. This method can be called either by IComponent or IComponentData.helpviewer_keywords: ["IConsole interface [MMC]","UpdateAllViews method","IConsole.UpdateAllViews","IConsole::UpdateAllViews","UpdateAllViews","UpdateAllViews method [MMC]","UpdateAllViews method [MMC]","IConsole interface","mmc.iconsole_updateallviews","mmc/IConsole::UpdateAllViews"]
+description: Called by a snap-in when there is a content change in the result pane. This method can be called either by IComponent or IComponentData.
+helpviewer_keywords: ["IConsole interface [MMC]","UpdateAllViews method","IConsole.UpdateAllViews","IConsole::UpdateAllViews","UpdateAllViews","UpdateAllViews method [MMC]","UpdateAllViews method [MMC]","IConsole interface","mmc.iconsole_updateallviews","mmc/IConsole::UpdateAllViews"]
 old-location: mmc\iconsole_updateallviews.htm
 tech.root: mmc
 ms.assetid: 72A0FFF3-4084-4AD0-94E4-A7EB03F40BF2

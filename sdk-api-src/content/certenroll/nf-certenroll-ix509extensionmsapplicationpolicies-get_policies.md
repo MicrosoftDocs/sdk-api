@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.get_Policies
 title: IX509ExtensionMSApplicationPolicies::get_Policies (certenroll.h)
-description: Retrieves a collection of application policies.helpviewer_keywords: ["IX509ExtensionMSApplicationPolicies interface [Security]","Policies property","IX509ExtensionMSApplicationPolicies.Policies","IX509ExtensionMSApplicationPolicies.get_Policies","IX509ExtensionMSApplicationPolicies::Policies","IX509ExtensionMSApplicationPolicies::get_Policies","Policies property [Security]","Policies property [Security]","IX509ExtensionMSApplicationPolicies interface","certenroll/IX509ExtensionMSApplicationPolicies::Policies","certenroll/IX509ExtensionMSApplicationPolicies::get_Policies","get_Policies","security.ix509extensionmsapplicationpolicies_policies_property"]
+description: Retrieves a collection of application policies.
+helpviewer_keywords: ["IX509ExtensionMSApplicationPolicies interface [Security]","Policies property","IX509ExtensionMSApplicationPolicies.Policies","IX509ExtensionMSApplicationPolicies.get_Policies","IX509ExtensionMSApplicationPolicies::Policies","IX509ExtensionMSApplicationPolicies::get_Policies","Policies property [Security]","Policies property [Security]","IX509ExtensionMSApplicationPolicies interface","certenroll/IX509ExtensionMSApplicationPolicies::Policies","certenroll/IX509ExtensionMSApplicationPolicies::get_Policies","get_Policies","security.ix509extensionmsapplicationpolicies_policies_property"]
 old-location: security\ix509extensionmsapplicationpolicies_policies_property.htm
 tech.root: seccertenroll
 ms.assetid: e20c7e75-ec08-4336-b932-f0bb0a5dfee8

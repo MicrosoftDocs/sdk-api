@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagPOLYTEXTW
 title: POLYTEXTW (wingdi.h)
-description: The POLYTEXT structure describes how the PolyTextOut function should draw a string of text.helpviewer_keywords: ["*LPPOLYTEXTW","*NPPOLYTEXTW","*PPOLYTEXTW","POLYTEXT","POLYTEXT structure [Windows GDI]","POLYTEXTA","POLYTEXTW","PPOLYTEXT","PPOLYTEXT structure pointer [Windows GDI]","_win32_POLYTEXT_str","gdi.polytext","wingdi/POLYTEXT","wingdi/POLYTEXTA","wingdi/POLYTEXTW","wingdi/PPOLYTEXT"]
+description: The POLYTEXT structure describes how the PolyTextOut function should draw a string of text.
+helpviewer_keywords: ["*LPPOLYTEXTW","*NPPOLYTEXTW","*PPOLYTEXTW","POLYTEXT","POLYTEXT structure [Windows GDI]","POLYTEXTA","POLYTEXTW","PPOLYTEXT","PPOLYTEXT structure pointer [Windows GDI]","_win32_POLYTEXT_str","gdi.polytext","wingdi/POLYTEXT","wingdi/POLYTEXTA","wingdi/POLYTEXTW","wingdi/PPOLYTEXT"]
 old-location: gdi\polytext.htm
 tech.root: gdi
 ms.assetid: 6f03e2ff-c15f-498c-8c3d-33106222279e

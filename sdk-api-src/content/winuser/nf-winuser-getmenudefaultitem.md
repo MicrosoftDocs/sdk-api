@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMenuDefaultItem
 title: GetMenuDefaultItem function (winuser.h)
-description: Determines the default menu item on the specified menu.helpviewer_keywords: ["GMDI_GOINTOPOPUPS","GMDI_USEDISABLED","GetMenuDefaultItem","GetMenuDefaultItem function [Menus and Other Resources]","_win32_GetMenuDefaultItem","_win32_getmenudefaultitem_cpp","menurc.getmenudefaultitem","winui._win32_getmenudefaultitem","winuser/GetMenuDefaultItem"]
+description: Determines the default menu item on the specified menu.
+helpviewer_keywords: ["GMDI_GOINTOPOPUPS","GMDI_USEDISABLED","GetMenuDefaultItem","GetMenuDefaultItem function [Menus and Other Resources]","_win32_GetMenuDefaultItem","_win32_getmenudefaultitem_cpp","menurc.getmenudefaultitem","winui._win32_getmenudefaultitem","winuser/GetMenuDefaultItem"]
 old-location: menurc\getmenudefaultitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenudefaultitem.htm

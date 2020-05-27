@@ -1,7 +1,8 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngine
 title: IMFCaptureEngine (mfcaptureengine.h)
-description: Controls one or more capture devices.helpviewer_keywords: ["IMFCaptureEngine","IMFCaptureEngine interface [Media Foundation]","IMFCaptureEngine interface [Media Foundation]","described","mf.imfcaptureengine","mfcaptureengine/IMFCaptureEngine"]
+description: Controls one or more capture devices.
+helpviewer_keywords: ["IMFCaptureEngine","IMFCaptureEngine interface [Media Foundation]","IMFCaptureEngine interface [Media Foundation]","described","mf.imfcaptureengine","mfcaptureengine/IMFCaptureEngine"]
 old-location: mf\imfcaptureengine.htm
 tech.root: medfound
 ms.assetid: 4A2A0536-4255-40AB-BCAB-228B09343583

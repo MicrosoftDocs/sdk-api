@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureMethod
 title: IOpcDigitalSignature::GetSignatureMethod (msopc.h)
-description: Gets the signature method used to calculate the value in the SignatureValue element of the signature markup.helpviewer_keywords: ["GetSignatureMethod","GetSignatureMethod method [Open Packaging Conventions]","GetSignatureMethod method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSignatureMethod method","IOpcDigitalSignature.GetSignatureMethod","IOpcDigitalSignature::GetSignatureMethod","msopc/IOpcDigitalSignature::GetSignatureMethod","opc.iopcdigitalsignature_getsignaturemethod"]
+description: Gets the signature method used to calculate the value in the SignatureValue element of the signature markup.
+helpviewer_keywords: ["GetSignatureMethod","GetSignatureMethod method [Open Packaging Conventions]","GetSignatureMethod method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetSignatureMethod method","IOpcDigitalSignature.GetSignatureMethod","IOpcDigitalSignature::GetSignatureMethod","msopc/IOpcDigitalSignature::GetSignatureMethod","opc.iopcdigitalsignature_getsignaturemethod"]
 old-location: opc\iopcdigitalsignature_getsignaturemethod.htm
 tech.root: OPC
 ms.assetid: a4dfd99f-16d7-4bf1-9852-d6d1fd4a3f06

@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_SessionName
 title: ITraceDataCollector::get_SessionName (pla.h)
-description: Retrieves or sets the name of the session.helpviewer_keywords: ["ITraceDataCollector interface [PLA]","SessionName property","ITraceDataCollector.SessionName","ITraceDataCollector.get_SessionName","ITraceDataCollector::SessionName","ITraceDataCollector::get_SessionName","ITraceDataCollector::put_SessionName","SessionName property [PLA]","SessionName property [PLA]","ITraceDataCollector interface","base.itracedatacollector_sessionname","get_SessionName","pla.itracedatacollector_sessionname","pla/ITraceDataCollector::SessionName","pla/ITraceDataCollector::get_SessionName","pla/ITraceDataCollector::put_SessionName"]
+description: Retrieves or sets the name of the session.
+helpviewer_keywords: ["ITraceDataCollector interface [PLA]","SessionName property","ITraceDataCollector.SessionName","ITraceDataCollector.get_SessionName","ITraceDataCollector::SessionName","ITraceDataCollector::get_SessionName","ITraceDataCollector::put_SessionName","SessionName property [PLA]","SessionName property [PLA]","ITraceDataCollector interface","base.itracedatacollector_sessionname","get_SessionName","pla.itracedatacollector_sessionname","pla/ITraceDataCollector::SessionName","pla/ITraceDataCollector::get_SessionName","pla/ITraceDataCollector::put_SessionName"]
 old-location: pla\itracedatacollector_sessionname.htm
 tech.root: PLA
 ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996

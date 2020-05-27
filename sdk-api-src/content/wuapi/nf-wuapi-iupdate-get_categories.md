@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate.get_Categories
 title: IUpdate::get_Categories (wuapi.h)
-description: Gets an interface that contains a collection of categories to which the update belongs.helpviewer_keywords: ["Categories property [Windows Update Agent]","Categories property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","Categories property","IUpdate.Categories","IUpdate.get_Categories","IUpdate::Categories","IUpdate::get_Categories","get_Categories","wua.iupdate_categories","wuapi/IUpdate::Categories","wuapi/IUpdate::get_Categories"]
+description: Gets an interface that contains a collection of categories to which the update belongs.
+helpviewer_keywords: ["Categories property [Windows Update Agent]","Categories property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","Categories property","IUpdate.Categories","IUpdate.get_Categories","IUpdate::Categories","IUpdate::get_Categories","get_Categories","wua.iupdate_categories","wuapi/IUpdate::Categories","wuapi/IUpdate::get_Categories"]
 old-location: wua\iupdate_categories.htm
 tech.root: Wua_Sdk
 ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c

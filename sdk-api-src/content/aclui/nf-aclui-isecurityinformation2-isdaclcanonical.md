@@ -1,7 +1,8 @@
 ---
 UID: NF:aclui.ISecurityInformation2.IsDaclCanonical
 title: ISecurityInformation2::IsDaclCanonical (aclui.h)
-description: The IsDaclCanonical method determines whether the ACEs contained in the specified DACL structure are ordered according to the definition of DACL ordering implemented by the client.helpviewer_keywords: ["ISecurityInformation2 interface [Security]","IsDaclCanonical method","ISecurityInformation2.IsDaclCanonical","ISecurityInformation2::IsDaclCanonical","IsDaclCanonical","IsDaclCanonical method [Security]","IsDaclCanonical method [Security]","ISecurityInformation2 interface","_win32_isecurityinformation2_isdaclcanonical","aclui/ISecurityInformation2::IsDaclCanonical","security.isecurityinformation2_isdaclcanonical"]
+description: The IsDaclCanonical method determines whether the ACEs contained in the specified DACL structure are ordered according to the definition of DACL ordering implemented by the client.
+helpviewer_keywords: ["ISecurityInformation2 interface [Security]","IsDaclCanonical method","ISecurityInformation2.IsDaclCanonical","ISecurityInformation2::IsDaclCanonical","IsDaclCanonical","IsDaclCanonical method [Security]","IsDaclCanonical method [Security]","ISecurityInformation2 interface","_win32_isecurityinformation2_isdaclcanonical","aclui/ISecurityInformation2::IsDaclCanonical","security.isecurityinformation2_isdaclcanonical"]
 old-location: security\isecurityinformation2_isdaclcanonical.htm
 tech.root: SecAuthZ
 ms.assetid: 54b83592-0cfb-45db-9788-05459c9ec35c

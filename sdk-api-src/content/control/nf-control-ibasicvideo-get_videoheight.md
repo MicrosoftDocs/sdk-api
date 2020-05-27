@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IBasicVideo.get_VideoHeight
 title: IBasicVideo::get_VideoHeight (control.h)
-description: The get_VideoHeight method retrieves the native height of the video.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_VideoHeight method","IBasicVideo.get_VideoHeight","IBasicVideo::get_VideoHeight","IBasicVideoget_VideoHeight","control/IBasicVideo::get_VideoHeight","dshow.ibasicvideo_get_videoheight","get_VideoHeight","get_VideoHeight method [DirectShow]","get_VideoHeight method [DirectShow]","IBasicVideo interface"]
+description: The get_VideoHeight method retrieves the native height of the video.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_VideoHeight method","IBasicVideo.get_VideoHeight","IBasicVideo::get_VideoHeight","IBasicVideoget_VideoHeight","control/IBasicVideo::get_VideoHeight","dshow.ibasicvideo_get_videoheight","get_VideoHeight","get_VideoHeight method [DirectShow]","get_VideoHeight method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_videoheight.htm
 tech.root: DirectShow
 ms.assetid: 872d26e5-b765-4c1f-b494-45df39f06a41

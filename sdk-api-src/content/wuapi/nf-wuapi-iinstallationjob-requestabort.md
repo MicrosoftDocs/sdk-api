@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IInstallationJob.RequestAbort
 title: IInstallationJob::RequestAbort (wuapi.h)
-description: Makes a request to cancel the installation or uninstallation.helpviewer_keywords: ["IInstallationJob interface [Windows Update Agent]","RequestAbort method","IInstallationJob.RequestAbort","IInstallationJob::RequestAbort","RequestAbort","RequestAbort method [Windows Update Agent]","RequestAbort method [Windows Update Agent]","IInstallationJob interface","wua.iinstallationjob_requestabort","wuapi/IInstallationJob::RequestAbort"]
+description: Makes a request to cancel the installation or uninstallation.
+helpviewer_keywords: ["IInstallationJob interface [Windows Update Agent]","RequestAbort method","IInstallationJob.RequestAbort","IInstallationJob::RequestAbort","RequestAbort","RequestAbort method [Windows Update Agent]","RequestAbort method [Windows Update Agent]","IInstallationJob interface","wua.iinstallationjob_requestabort","wuapi/IInstallationJob::RequestAbort"]
 old-location: wua\iinstallationjob_requestabort.htm
 tech.root: Wua_Sdk
 ms.assetid: efe0c51c-1193-4a25-88ae-ad74550f42ba
