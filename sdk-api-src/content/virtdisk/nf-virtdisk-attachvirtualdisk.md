@@ -149,7 +149,7 @@ The intended access mode of the virtual disk must be considered when opening the
     example, if the virtual disk is being attached for read/write access, the 
     <i>VirtualDiskHandle</i> parameter must have been opened using the 
     <b>VIRTUAL_DISK_ACCESS_ATTACH_RW</b> access flag. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> and 
+    <a href="/openspecs/windows_protocols/ms-vds/4fa2f54d-00b3-4cd9-b673-a6b8d64ed57f">VIRTUAL_DISK_ACCESS_MASK</a> and 
     <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 

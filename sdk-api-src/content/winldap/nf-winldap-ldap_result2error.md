@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_result2error
 title: ldap_result2error function (winldap.h)
-description: The ldap_result2error function parses a message and returns the error code.helpviewer_keywords: ["_ldap_ldap_result2error","ldap.ldap__result2error","ldap.ldap_result2error","ldap_result2error","ldap_result2error function [LDAP]","winldap/ldap_result2error"]
+description: The ldap_result2error function parses a message and returns the error code.
+helpviewer_keywords: ["_ldap_ldap_result2error","ldap.ldap__result2error","ldap.ldap_result2error","ldap_result2error","ldap_result2error function [LDAP]","winldap/ldap_result2error"]
 old-location: ldap\ldap_result2error.htm
 tech.root: ldap
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d
@@ -70,7 +71,7 @@ The result of an LDAP operation, as returned by
 
 ### -param freeit [in]
 
-Determines whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>, pointed to by the <i>res</i> parameter, is freed. Setting <i>freeit</i> to <b>TRUE</b> frees the message by calling the 
+Determines whether the <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>, pointed to by the <i>res</i> parameter, is freed. Setting <i>freeit</i> to <b>TRUE</b> frees the message by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a> function.
 
 

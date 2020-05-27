@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedOr8
 title: InterlockedOr8 function (winnt.h)
-description: Performs an atomic OR operation on the specified char values.helpviewer_keywords: ["InterlockedOr8","InterlockedOr8 function","base.interlockedor8","winnt/InterlockedOr8"]
+description: Performs an atomic OR operation on the specified char values.
+helpviewer_keywords: ["InterlockedOr8","InterlockedOr8 function","base.interlockedor8","winnt/InterlockedOr8"]
 old-location: base\interlockedor8.htm
 tech.root: Sync
 ms.assetid: fa5cfecf-dde7-4d54-8dfd-68387aa86083
@@ -102,7 +103,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedor">InterlockedOr</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-interlockedor">InterlockedOr</a>
 
 
 

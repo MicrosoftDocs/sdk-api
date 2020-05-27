@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_parse_referenceA
 title: ldap_parse_referenceA function (winldap.h)
-description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.helpviewer_keywords: ["_ldap_ldap_parse_reference","ldap.ldap__parse__reference","ldap.ldap_parse_reference","ldap_parse_reference","ldap_parse_reference function [LDAP]","ldap_parse_referenceA","ldap_parse_referenceW","winldap/ldap_parse_reference","winldap/ldap_parse_referenceA","winldap/ldap_parse_referenceW"]
+description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.
+helpviewer_keywords: ["_ldap_ldap_parse_reference","ldap.ldap__parse__reference","ldap.ldap_parse_reference","ldap_parse_reference","ldap_parse_reference function [LDAP]","ldap_parse_referenceA","ldap_parse_referenceW","winldap/ldap_parse_reference","winldap/ldap_parse_referenceA","winldap/ldap_parse_referenceW"]
 old-location: ldap\ldap_parse_reference.htm
 tech.root: ldap
 ms.assetid: 106db7dd-ee1e-48c9-9357-e14d4f8e8782
@@ -67,7 +68,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure containing the search response.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure containing the search response.
 
 
 ### -param Referrals [out]
@@ -109,7 +110,7 @@ When it is no longer needed, free the <i>Referrals</i> pointer by calling
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 
