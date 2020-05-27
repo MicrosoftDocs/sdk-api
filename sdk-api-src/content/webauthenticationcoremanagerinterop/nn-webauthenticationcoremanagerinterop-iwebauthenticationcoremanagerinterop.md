@@ -1,7 +1,8 @@
 ---
 UID: NN:webauthenticationcoremanagerinterop.IWebAuthenticationCoreManagerInterop
 title: IWebAuthenticationCoreManagerInterop
-description: Contains core methods for obtaining tokens from web account providers.helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop"]
+description: Contains core methods for obtaining tokens from web account providers.
+helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop
 f1_keywords:
@@ -37,7 +38,7 @@ tech.root: winrt
 
 ## -description
 
-Provides desktop apps with access to certain functions of [WebAuthenticationCoreManager](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager)
+Provides Win32 apps with access to certain functions of [WebAuthenticationCoreManager](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager)
 that are otherwise available only to UWP apps.
 
 ## -remarks
