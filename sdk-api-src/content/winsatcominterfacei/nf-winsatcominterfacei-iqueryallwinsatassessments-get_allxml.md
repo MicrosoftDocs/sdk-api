@@ -1,7 +1,8 @@
 ---
 UID: NF:winsatcominterfacei.IQueryAllWinSATAssessments.get_AllXML
 title: IQueryAllWinSATAssessments::get_AllXML (winsatcominterfacei.h)
-description: Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.helpviewer_keywords: ["AllXML property [WinSAT]","AllXML property [WinSAT]","IQueryAllWinSATAssessments interface","IQueryAllWinSATAssessments interface [WinSAT]","AllXML property","IQueryAllWinSATAssessments.AllXML","IQueryAllWinSATAssessments.get_AllXML","IQueryAllWinSATAssessments::AllXML","IQueryAllWinSATAssessments::get_AllXML","get_AllXML","winsat.iqueryallwinsatassessments_allxml","winsatcominterfacei/IQueryAllWinSATAssessments::AllXML","winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML"]
+description: Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
+helpviewer_keywords: ["AllXML property [WinSAT]","AllXML property [WinSAT]","IQueryAllWinSATAssessments interface","IQueryAllWinSATAssessments interface [WinSAT]","AllXML property","IQueryAllWinSATAssessments.AllXML","IQueryAllWinSATAssessments.get_AllXML","IQueryAllWinSATAssessments::AllXML","IQueryAllWinSATAssessments::get_AllXML","get_AllXML","winsat.iqueryallwinsatassessments_allxml","winsatcominterfacei/IQueryAllWinSATAssessments::AllXML","winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML"]
 old-location: winsat\iqueryallwinsatassessments_allxml.htm
 tech.root: WinSAT
 ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a

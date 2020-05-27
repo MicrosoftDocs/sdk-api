@@ -1,7 +1,8 @@
 ---
 UID: NE:clfs._CLFS_IOSTATS_CLASS
 title: CLFS_IOSTATS_CLASS (clfs.h)
-description: Defines types of I/O statistics reported by CLFS and is used when a client calls GetLogIoStatistics.helpviewer_keywords: ["*PCLFS_IOSTATS_CLASS","CLFS_IOSTATS_CLASS","CLFS_IOSTATS_CLASS enumeration [Files]","ClfsIoStatsDefault","ClfsIoStatsMax","PCLFS_IOSTATS_CLASS","PCLFS_IOSTATS_CLASS enumeration pointer [Files]","PPCLFS_IOSTATS_CLASS","PPCLFS_IOSTATS_CLASS enumeration pointer [Files]","clfs/CLFS_IOSTATS_CLASS","clfs/ClfsIoStatsDefault","clfs/ClfsIoStatsMax","clfs/PCLFS_IOSTATS_CLASS","clfs/PPCLFS_IOSTATS_CLASS","fs.clfs_iostats_class"]
+description: Defines types of I/O statistics reported by CLFS and is used when a client calls GetLogIoStatistics.
+helpviewer_keywords: ["*PCLFS_IOSTATS_CLASS","CLFS_IOSTATS_CLASS","CLFS_IOSTATS_CLASS enumeration [Files]","ClfsIoStatsDefault","ClfsIoStatsMax","PCLFS_IOSTATS_CLASS","PCLFS_IOSTATS_CLASS enumeration pointer [Files]","PPCLFS_IOSTATS_CLASS","PPCLFS_IOSTATS_CLASS enumeration pointer [Files]","clfs/CLFS_IOSTATS_CLASS","clfs/ClfsIoStatsDefault","clfs/ClfsIoStatsMax","clfs/PCLFS_IOSTATS_CLASS","clfs/PPCLFS_IOSTATS_CLASS","fs.clfs_iostats_class"]
 old-location: fs\clfs_iostats_class.htm
 tech.root: Clfs
 ms.assetid: 8ba1f5e4-9af3-4c8a-8b57-b6075d0560d6

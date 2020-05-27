@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndCanWindow
 title: MCIWndCanWindow macro (vfw.h)
-description: The MCIWndCanWindow macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the MCIWNDM_CAN_WINDOW message.helpviewer_keywords: ["MCIWndCanWindow","MCIWndCanWindow macro [Windows Multimedia]","_win32_MCIWndCanWindow","multimedia.mciwndcanwindow","vfw/MCIWndCanWindow"]
+description: The MCIWndCanWindow macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the MCIWNDM_CAN_WINDOW message.
+helpviewer_keywords: ["MCIWndCanWindow","MCIWndCanWindow macro [Windows Multimedia]","_win32_MCIWndCanWindow","multimedia.mciwndcanwindow","vfw/MCIWndCanWindow"]
 old-location: multimedia\mciwndcanwindow.htm
 tech.root: Multimedia
 ms.assetid: 2db1d83a-3e03-474e-b36e-8b3b3e3faa82

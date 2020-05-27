@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDateFromDec
 title: VarDateFromDec function (oleauto.h)
-description: Converts a decimal value to a date value.helpviewer_keywords: ["VarDateFromDec","VarDateFromDec function [Automation]","_oa96_VarDateFromDec","automat.vardatefromdec","oleauto/VarDateFromDec"]
+description: Converts a decimal value to a date value.
+helpviewer_keywords: ["VarDateFromDec","VarDateFromDec function [Automation]","_oa96_VarDateFromDec","automat.vardatefromdec","oleauto/VarDateFromDec"]
 old-location: automat\vardatefromdec.htm
 tech.root: automat
 ms.assetid: 37cba5ec-5e17-474a-8d63-422f7e828ab3

@@ -1,7 +1,8 @@
 ---
 UID: NS:ntquery.tagCIPROPERTYDEF
 title: CIPROPERTYDEF (ntquery.h)
-description: Represents the friendly name, type, and property identifier (ID) information.helpviewer_keywords: ["CIPROPERTYDEF","CIPROPERTYDEF structure [Indexing Service]","_idxs_CIPROPERTYDEF","indexsrv.cipropertydef","ntquery/CIPROPERTYDEF"]
+description: Represents the friendly name, type, and property identifier (ID) information.
+helpviewer_keywords: ["CIPROPERTYDEF","CIPROPERTYDEF structure [Indexing Service]","_idxs_CIPROPERTYDEF","indexsrv.cipropertydef","ntquery/CIPROPERTYDEF"]
 old-location: indexsrv\cipropertydef.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0ucm.htm

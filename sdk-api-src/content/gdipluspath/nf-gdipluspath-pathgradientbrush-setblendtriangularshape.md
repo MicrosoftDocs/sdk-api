@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlendTriangularShape
 title: PathGradientBrush::SetBlendTriangularShape (gdipluspath.h)
-description: The PathGradientBrush::SetBlendTriangularShape method sets the blend shape of this path gradient brush.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetBlendTriangularShape method","PathGradientBrush.SetBlendTriangularShape","PathGradientBrush::SetBlendTriangularShape","SetBlendTriangularShape","SetBlendTriangularShape method [GDI+]","SetBlendTriangularShape method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_"]
+description: The PathGradientBrush::SetBlendTriangularShape method sets the blend shape of this path gradient brush.
+helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetBlendTriangularShape method","PathGradientBrush.SetBlendTriangularShape","PathGradientBrush::SetBlendTriangularShape","SetBlendTriangularShape","SetBlendTriangularShape method [GDI+]","SetBlendTriangularShape method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblendtriangularshape_1focus_scale.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.RevertToSelf
 title: RevertToSelf function (securitybaseapi.h)
-description: Terminates the impersonation of a client application.helpviewer_keywords: ["RevertToSelf","RevertToSelf function [Security]","_win32_reverttoself","security.reverttoself","securitybaseapi/RevertToSelf"]
+description: Terminates the impersonation of a client application.
+helpviewer_keywords: ["RevertToSelf","RevertToSelf function [Security]","_win32_reverttoself","security.reverttoself","securitybaseapi/RevertToSelf"]
 old-location: security\reverttoself.htm
 tech.root: SecAuthZ
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283

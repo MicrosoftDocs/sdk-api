@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetPropertyBag
 title: IExplorerBrowser::SetPropertyBag (shobjidl_core.h)
-description: Sets the name of the property bag.helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","SetPropertyBag method","IExplorerBrowser.SetPropertyBag","IExplorerBrowser::SetPropertyBag","SetPropertyBag","SetPropertyBag method [Windows Shell]","SetPropertyBag method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_SetPropertyBag","shell.IExplorerBrowser_SetPropertyBag","shobjidl_core/IExplorerBrowser::SetPropertyBag"]
+description: Sets the name of the property bag.
+helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","SetPropertyBag method","IExplorerBrowser.SetPropertyBag","IExplorerBrowser::SetPropertyBag","SetPropertyBag","SetPropertyBag method [Windows Shell]","SetPropertyBag method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_SetPropertyBag","shell.IExplorerBrowser_SetPropertyBag","shobjidl_core/IExplorerBrowser::SetPropertyBag"]
 old-location: shell\IExplorerBrowser_SetPropertyBag.htm
 tech.root: shell
 ms.assetid: e43cc4a0-2ff4-42a2-ac60-78a884c37d75

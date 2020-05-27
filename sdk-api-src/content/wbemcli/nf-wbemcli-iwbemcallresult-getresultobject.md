@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultObject
 title: IWbemCallResult::GetResultObject (wbemcli.h)
-description: The IWbemCallResult::GetResultObject method attempts to retrieve an object from a previous semisynchronous call to IWbemServices::GetObject or IWbemServices::ExecMethod.helpviewer_keywords: ["GetResultObject","GetResultObject method [Windows Management Instrumentation]","GetResultObject method [Windows Management Instrumentation]","IWbemCallResult interface","IWbemCallResult interface [Windows Management Instrumentation]","GetResultObject method","IWbemCallResult.GetResultObject","IWbemCallResult::GetResultObject","_hmm_iwbemcallresult_getresultobject","wbemcli/IWbemCallResult::GetResultObject","wmi.iwbemcallresult_getresultobject"]
+description: The IWbemCallResult::GetResultObject method attempts to retrieve an object from a previous semisynchronous call to IWbemServices::GetObject or IWbemServices::ExecMethod.
+helpviewer_keywords: ["GetResultObject","GetResultObject method [Windows Management Instrumentation]","GetResultObject method [Windows Management Instrumentation]","IWbemCallResult interface","IWbemCallResult interface [Windows Management Instrumentation]","GetResultObject method","IWbemCallResult.GetResultObject","IWbemCallResult::GetResultObject","_hmm_iwbemcallresult_getresultobject","wbemcli/IWbemCallResult::GetResultObject","wmi.iwbemcallresult_getresultobject"]
 old-location: wmi\iwbemcallresult_getresultobject.htm
 tech.root: WmiSdk
 ms.assetid: 06603f26-587f-4aff-8ae3-7f77f9b266f5

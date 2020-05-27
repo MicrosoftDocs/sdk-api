@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryDelete
 title: MprAdminMIBEntryDelete function (mprapi.h)
-description: The MprAdminMIBEntryDelete function deletes an entry for one of the variables exported by a routing protocol or router manager.helpviewer_keywords: ["MprAdminMIBEntryDelete","MprAdminMIBEntryDelete function [RAS]","_mpr_mpradminmibentrydelete","mprapi/MprAdminMIBEntryDelete","rras.mpradminmibentrydelete"]
+description: The MprAdminMIBEntryDelete function deletes an entry for one of the variables exported by a routing protocol or router manager.
+helpviewer_keywords: ["MprAdminMIBEntryDelete","MprAdminMIBEntryDelete function [RAS]","_mpr_mpradminmibentrydelete","mprapi/MprAdminMIBEntryDelete","rras.mpradminmibentrydelete"]
 old-location: rras\mpradminmibentrydelete.htm
 tech.root: RRAS
 ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65

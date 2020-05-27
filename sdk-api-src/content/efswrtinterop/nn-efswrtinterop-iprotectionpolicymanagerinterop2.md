@@ -1,7 +1,8 @@
 ---
 UID: NN:efswrtinterop.IProtectionPolicyManagerInterop2
 title: IProtectionPolicyManagerInterop2 (efswrtinterop.h)
-description: Manages enterprise protection policy on protected content.helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop2","IProtectionPolicyManagerInterop2","IProtectionPolicyManagerInterop2 interface","IProtectionPolicyManagerInterop2 interface","described","efswrtinterop/IProtectionPolicyManagerInterop2 interface"]
+description: Manages enterprise protection policy on protected content.
+helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop2","IProtectionPolicyManagerInterop2","IProtectionPolicyManagerInterop2 interface","IProtectionPolicyManagerInterop2 interface","described","efswrtinterop/IProtectionPolicyManagerInterop2 interface"]
 old-location: edp\iprotectionpolicymanagerinterop2.htm
 tech.root: EDP
 ms.assetid: B4B5BD4B-8F5F-4C1A-902E-5FB7FF75616B

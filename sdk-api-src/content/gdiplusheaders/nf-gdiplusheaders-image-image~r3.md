@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.Image~r3
 title: Image::Image~r3 (gdiplusheaders.h)
-description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.helpviewer_keywords: ["Image","Image constructors [GDI+]","Image.Image","Image.Image~r3","Image::Image","Image::Image~r3","_gdiplus_CLASS_Image_Constructors","gdiplus._gdiplus_CLASS_Image_Constructors","gdiplusheaders/Image"]
+description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
+helpviewer_keywords: ["Image","Image constructors [GDI+]","Image.Image","Image.Image~r3","Image::Image","Image::Image~r3","_gdiplus_CLASS_Image_Constructors","gdiplus._gdiplus_CLASS_Image_Constructors","gdiplusheaders/Image"]
 old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm

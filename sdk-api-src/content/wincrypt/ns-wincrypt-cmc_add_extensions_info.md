@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CMC_ADD_EXTENSIONS_INFO
 title: CMC_ADD_EXTENSIONS_INFO (wincrypt.h)
-description: Contains certificate extension control attributes to be added to a certificate.helpviewer_keywords: ["*PCMC_ADD_EXTENSIONS_INFO","CMC_ADD_EXTENSIONS_INFO","CMC_ADD_EXTENSIONS_INFO structure [Security]","PCMC_ADD_EXTENSIONS_INFO","PCMC_ADD_EXTENSIONS_INFO structure pointer [Security]","_crypto2_cmc_add_extensions_info","security.cmc_add_extensions_info","wincrypt/CMC_ADD_EXTENSIONS_INFO","wincrypt/PCMC_ADD_EXTENSIONS_INFO"]
+description: Contains certificate extension control attributes to be added to a certificate.
+helpviewer_keywords: ["*PCMC_ADD_EXTENSIONS_INFO","CMC_ADD_EXTENSIONS_INFO","CMC_ADD_EXTENSIONS_INFO structure [Security]","PCMC_ADD_EXTENSIONS_INFO","PCMC_ADD_EXTENSIONS_INFO structure pointer [Security]","_crypto2_cmc_add_extensions_info","security.cmc_add_extensions_info","wincrypt/CMC_ADD_EXTENSIONS_INFO","wincrypt/PCMC_ADD_EXTENSIONS_INFO"]
 old-location: security\cmc_add_extensions_info.htm
 tech.root: SecCrypto
 ms.assetid: 46fbea57-8a9d-48f3-8b65-8f28a843d6d9

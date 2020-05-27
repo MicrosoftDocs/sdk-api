@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1RenderInfo
 title: ID2D1RenderInfo (d2d1effectauthor.h)
-description: Describes the render information common to all of the various transform implementations.helpviewer_keywords: ["ID2D1RenderInfo","ID2D1RenderInfo interface [Direct2D]","ID2D1RenderInfo interface [Direct2D]","described","d2d1effectauthor/ID2D1RenderInfo","direct2d.id2d1renderinfo"]
+description: Describes the render information common to all of the various transform implementations.
+helpviewer_keywords: ["ID2D1RenderInfo","ID2D1RenderInfo interface [Direct2D]","ID2D1RenderInfo interface [Direct2D]","described","d2d1effectauthor/ID2D1RenderInfo","direct2d.id2d1renderinfo"]
 old-location: direct2d\id2d1renderinfo.htm
 tech.root: Direct2D
 ms.assetid: 26FB6D27-7EE0-43DA-A575-D9FF77846A16

@@ -1,7 +1,8 @@
 ---
 UID: NE:structuredquery.tagINTERVAL_LIMIT_KIND
 title: INTERVAL_LIMIT_KIND (structuredquery.h)
-description: These values are returned by IInterval::GetLimits as pairs to specify a range with an upper and lower limit.helpviewer_keywords: ["ILK_EXPLICIT_EXCLUDED","ILK_EXPLICIT_INCLUDED","ILK_NEGATIVE_INFINITY","ILK_POSITIVE_INFINITY","INTERVAL_LIMIT_KIND","INTERVAL_LIMIT_KIND enumeration [search]","_search_INTERVAL_LIMIT_KIND","search._search_INTERVAL_LIMIT_KIND","structuredquery/ILK_EXPLICIT_EXCLUDED","structuredquery/ILK_EXPLICIT_INCLUDED","structuredquery/ILK_NEGATIVE_INFINITY","structuredquery/ILK_POSITIVE_INFINITY","structuredquery/INTERVAL_LIMIT_KIND"]
+description: These values are returned by IInterval::GetLimits as pairs to specify a range with an upper and lower limit.
+helpviewer_keywords: ["ILK_EXPLICIT_EXCLUDED","ILK_EXPLICIT_INCLUDED","ILK_NEGATIVE_INFINITY","ILK_POSITIVE_INFINITY","INTERVAL_LIMIT_KIND","INTERVAL_LIMIT_KIND enumeration [search]","_search_INTERVAL_LIMIT_KIND","search._search_INTERVAL_LIMIT_KIND","structuredquery/ILK_EXPLICIT_EXCLUDED","structuredquery/ILK_EXPLICIT_INCLUDED","structuredquery/ILK_NEGATIVE_INFINITY","structuredquery/ILK_POSITIVE_INFINITY","structuredquery/INTERVAL_LIMIT_KIND"]
 old-location: search\_search_INTERVAL_LIMIT_KIND.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\interval_limit_kind.htm

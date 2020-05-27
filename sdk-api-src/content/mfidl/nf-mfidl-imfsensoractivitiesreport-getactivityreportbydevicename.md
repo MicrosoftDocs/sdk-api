@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReport.GetActivityReportByDeviceName
 title: IMFSensorActivitiesReport::GetActivityReportByDeviceName (mfidl.h)
-description: Retrieves an IMFSensorActivityReport based on the specified device name.helpviewer_keywords: ["GetActivityReportByDeviceName","GetActivityReportByDeviceName method [Media Foundation]","GetActivityReportByDeviceName method [Media Foundation]","IMFSensorActivitiesReport interface","IMFSensorActivitiesReport interface [Media Foundation]","GetActivityReportByDeviceName method","IMFSensorActivitiesReport.GetActivityReportByDeviceName","IMFSensorActivitiesReport::GetActivityReportByDeviceName","mf.imfsensoractivityreport_getactivityreportbydevicename","mfidl/IMFSensorActivitiesReport::GetActivityReportByDeviceName"]
+description: Retrieves an IMFSensorActivityReport based on the specified device name.
+helpviewer_keywords: ["GetActivityReportByDeviceName","GetActivityReportByDeviceName method [Media Foundation]","GetActivityReportByDeviceName method [Media Foundation]","IMFSensorActivitiesReport interface","IMFSensorActivitiesReport interface [Media Foundation]","GetActivityReportByDeviceName method","IMFSensorActivitiesReport.GetActivityReportByDeviceName","IMFSensorActivitiesReport::GetActivityReportByDeviceName","mf.imfsensoractivityreport_getactivityreportbydevicename","mfidl/IMFSensorActivitiesReport::GetActivityReportByDeviceName"]
 old-location: mf\imfsensoractivityreport_getactivityreportbydevicename.htm
 tech.root: medfound
 ms.assetid: 66FDBCE0-E3F3-43A4-B34A-7FE6C7F3F918

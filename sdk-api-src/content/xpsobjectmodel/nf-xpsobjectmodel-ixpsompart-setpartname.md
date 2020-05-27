@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPart.SetPartName
 title: IXpsOMPart::SetPartName (xpsobjectmodel.h)
-description: Sets the name that will be used when the part is serialized.helpviewer_keywords: ["IXpsOMPart interface [XPS Documents and Packaging]","SetPartName method","IXpsOMPart.SetPartName","IXpsOMPart::SetPartName","SetPartName","SetPartName method [XPS Documents and Packaging]","SetPartName method [XPS Documents and Packaging]","IXpsOMPart interface","xps.ixpsompart_setpartname","xpsobjectmodel/IXpsOMPart::SetPartName"]
+description: Sets the name that will be used when the part is serialized.
+helpviewer_keywords: ["IXpsOMPart interface [XPS Documents and Packaging]","SetPartName method","IXpsOMPart.SetPartName","IXpsOMPart::SetPartName","SetPartName","SetPartName method [XPS Documents and Packaging]","SetPartName method [XPS Documents and Packaging]","IXpsOMPart interface","xps.ixpsompart_setpartname","xpsobjectmodel/IXpsOMPart::SetPartName"]
 old-location: xps\ixpsompart_setpartname.htm
 tech.root: printdocs
 ms.assetid: d17083f3-38b2-43bd-8e87-1092cf397f29

@@ -1,7 +1,8 @@
 ---
 UID: NN:structuredquery.ITokenCollection
 title: ITokenCollection (structuredquery.h)
-description: Gets the tokens that result from using a word breaker.helpviewer_keywords: ["ITokenCollection","ITokenCollection interface [search]","ITokenCollection interface [search]","described","_search_ITokenCollection","search._search_ITokenCollection","structuredquery/ITokenCollection"]
+description: Gets the tokens that result from using a word breaker.
+helpviewer_keywords: ["ITokenCollection","ITokenCollection interface [search]","ITokenCollection interface [search]","described","_search_ITokenCollection","search._search_ITokenCollection","structuredquery/ITokenCollection"]
 old-location: search\_search_ITokenCollection.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\itokencollection.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.Escape
 title: IDirectInputEffectDriver::Escape (dinputd.h)
-description: The IDirectInputEffectDriver::Escape method escapes to the driver. This method is called in response to an application invoking the IDirectInputEffect::Escape or IDirectInputDevice::Escape methods.helpviewer_keywords: ["Escape","Escape method [Human Input Devices]","Escape method [Human Input Devices]","IDirectInputEffectDriver interface","IDirectInputEffectDriver interface [Human Input Devices]","Escape method","IDirectInputEffectDriver.Escape","IDirectInputEffectDriver::Escape","di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml","dinputd/IDirectInputEffectDriver::Escape","hid.idirectinputeffectdriver_escape"]
+description: The IDirectInputEffectDriver::Escape method escapes to the driver. This method is called in response to an application invoking the IDirectInputEffect::Escape or IDirectInputDevice::Escape methods.
+helpviewer_keywords: ["Escape","Escape method [Human Input Devices]","Escape method [Human Input Devices]","IDirectInputEffectDriver interface","IDirectInputEffectDriver interface [Human Input Devices]","Escape method","IDirectInputEffectDriver.Escape","IDirectInputEffectDriver::Escape","di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml","dinputd/IDirectInputEffectDriver::Escape","hid.idirectinputeffectdriver_escape"]
 old-location: hid\idirectinputeffectdriver_escape.htm
 tech.root: hid
 ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf

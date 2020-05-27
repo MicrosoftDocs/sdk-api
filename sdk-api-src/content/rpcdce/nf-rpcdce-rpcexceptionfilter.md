@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcExceptionFilter
 title: RpcExceptionFilter function (rpcdce.h)
-description: A default exception filter that determines whether an exception is fatal or non-fatal.helpviewer_keywords: ["RpcExceptionFilter","RpcExceptionFilter function [RPC]","STATUS_ACCESS_VIOLATION","STATUS_ASSERTION_FAILURE","STATUS_BREAKPOINT","STATUS_DATATYPE_MISALIGNMENT","STATUS_GUARD_PAGE_VIOLATION","STATUS_HANDLE_NOT_CLOSABLE","STATUS_ILLEGAL_INSTRUCTION","STATUS_INSTRUCTION_MISALIGNMENT","STATUS_IN_PAGE_ERROR","STATUS_POSSIBLE_DEADLOCK","STATUS_PRIVILEGED_INSTRUCTION","STATUS_REG_NAT_CONSUMPTION","STATUS_STACK_BUFFER_OVERRUN","STATUS_STACK_OVERFLOW","rpc.rpcexceptionfilter","rpcdce/RpcExceptionFilter"]
+description: A default exception filter that determines whether an exception is fatal or non-fatal.
+helpviewer_keywords: ["RpcExceptionFilter","RpcExceptionFilter function [RPC]","STATUS_ACCESS_VIOLATION","STATUS_ASSERTION_FAILURE","STATUS_BREAKPOINT","STATUS_DATATYPE_MISALIGNMENT","STATUS_GUARD_PAGE_VIOLATION","STATUS_HANDLE_NOT_CLOSABLE","STATUS_ILLEGAL_INSTRUCTION","STATUS_INSTRUCTION_MISALIGNMENT","STATUS_IN_PAGE_ERROR","STATUS_POSSIBLE_DEADLOCK","STATUS_PRIVILEGED_INSTRUCTION","STATUS_REG_NAT_CONSUMPTION","STATUS_STACK_BUFFER_OVERRUN","STATUS_STACK_OVERFLOW","rpc.rpcexceptionfilter","rpcdce/RpcExceptionFilter"]
 old-location: rpc\rpcexceptionfilter.htm
 tech.root: Rpc
 ms.assetid: AB1AE035-5874-4415-8B85-BDC0E2139416

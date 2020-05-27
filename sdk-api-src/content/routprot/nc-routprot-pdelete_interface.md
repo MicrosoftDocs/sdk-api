@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PDELETE_INTERFACE
 title: PDELETE_INTERFACE (routprot.h)
-description: The DeleteInterface function removes an interface from the set managed by the routing protocol.helpviewer_keywords: ["DeleteInterface","DeleteInterface callback function [RAS]","PDELETE_INTERFACE","PDELETE_INTERFACE callback","_mpr_deleteinterface","routprot/DeleteInterface","rras.deleteinterface"]
+description: The DeleteInterface function removes an interface from the set managed by the routing protocol.
+helpviewer_keywords: ["DeleteInterface","DeleteInterface callback function [RAS]","PDELETE_INTERFACE","PDELETE_INTERFACE callback","_mpr_deleteinterface","routprot/DeleteInterface","rras.deleteinterface"]
 old-location: rras\deleteinterface.htm
 tech.root: RRAS
 ms.assetid: 0b4c24d4-2588-412e-b3ec-dd73cbdac921

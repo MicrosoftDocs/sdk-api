@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnSetHomeProviderComplete
 title: IMbnMultiCarrierEvents::OnSetHomeProviderComplete (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation.helpviewer_keywords: ["E_FAIL","E_INVALIDARG","E_MBN_PROVIDER_NOT_VISIBLE","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","OnSetHomeProviderComplete method","IMbnMultiCarrierEvents.OnSetHomeProviderComplete","IMbnMultiCarrierEvents::OnSetHomeProviderComplete","OnSetHomeProviderComplete","OnSetHomeProviderComplete method [Microsoft Broadband Networks]","OnSetHomeProviderComplete method [Microsoft Broadband Networks]","IMbnMultiCarrierEvents interface","S_OK","mbn.imbnmulticarrierevents_onsethomeprovidercomplete","mbnapi/IMbnMultiCarrierEvents::OnSetHomeProviderComplete"]
+description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetHomeProvider operation.
+helpviewer_keywords: ["E_FAIL","E_INVALIDARG","E_MBN_PROVIDER_NOT_VISIBLE","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","OnSetHomeProviderComplete method","IMbnMultiCarrierEvents.OnSetHomeProviderComplete","IMbnMultiCarrierEvents::OnSetHomeProviderComplete","OnSetHomeProviderComplete","OnSetHomeProviderComplete method [Microsoft Broadband Networks]","OnSetHomeProviderComplete method [Microsoft Broadband Networks]","IMbnMultiCarrierEvents interface","S_OK","mbn.imbnmulticarrierevents_onsethomeprovidercomplete","mbnapi/IMbnMultiCarrierEvents::OnSetHomeProviderComplete"]
 old-location: mbn\imbnmulticarrierevents_onsethomeprovidercomplete.htm
 tech.root: mbn
 ms.assetid: 6D0B5692-4D8C-45B1-B0AF-D507FD752B1F

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.LoadComputePipeline
 title: ID3D12PipelineLibrary::LoadComputePipeline (d3d12.h)
-description: Retrieves the requested PSO from the library. The input desc is matched against the data in the current library database, and remembered in order to prevent duplication of PSO contents.helpviewer_keywords: ["ID3D12PipelineLibrary interface","LoadComputePipeline method","ID3D12PipelineLibrary.LoadComputePipeline","ID3D12PipelineLibrary::LoadComputePipeline","LoadComputePipeline","LoadComputePipeline method","LoadComputePipeline method","ID3D12PipelineLibrary interface","d3d12/ID3D12PipelineLibrary::LoadComputePipeline","direct3d12.id3d12pipelinelibrary_loadcomputepipeline"]
+description: Retrieves the requested PSO from the library. The input desc is matched against the data in the current library database, and remembered in order to prevent duplication of PSO contents.
+helpviewer_keywords: ["ID3D12PipelineLibrary interface","LoadComputePipeline method","ID3D12PipelineLibrary.LoadComputePipeline","ID3D12PipelineLibrary::LoadComputePipeline","LoadComputePipeline","LoadComputePipeline method","LoadComputePipeline method","ID3D12PipelineLibrary interface","d3d12/ID3D12PipelineLibrary::LoadComputePipeline","direct3d12.id3d12pipelinelibrary_loadcomputepipeline"]
 old-location: direct3d12\id3d12pipelinelibrary_loadcomputepipeline.htm
 tech.root: direct3d12
 ms.assetid: 8295D6E3-8353-46AD-A741-170244495F8B

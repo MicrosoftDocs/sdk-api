@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifySessionChange
 title: ITsSbResourceNotification::NotifySessionChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a session object.helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifySessionChange method","ITsSbResourceNotification.NotifySessionChange","ITsSbResourceNotification::NotifySessionChange","NotifySessionChange","NotifySessionChange method [Remote Desktop Services]","NotifySessionChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifySessionChange","termserv.itssbresourcenotification_notifysessionchange"]
+description: Notifies registered plug-ins about state changes in a session object.
+helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifySessionChange method","ITsSbResourceNotification.NotifySessionChange","ITsSbResourceNotification::NotifySessionChange","NotifySessionChange","NotifySessionChange method [Remote Desktop Services]","NotifySessionChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifySessionChange","termserv.itssbresourcenotification_notifysessionchange"]
 old-location: termserv\itssbresourcenotification_notifysessionchange.htm
 tech.root: TermServ
 ms.assetid: c1efe806-a448-42d7-8bcd-bd763c00c732

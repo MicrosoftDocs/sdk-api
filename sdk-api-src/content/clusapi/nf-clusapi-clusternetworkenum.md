@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterNetworkEnum
 title: ClusterNetworkEnum function (clusapi.h)
-description: Enumerates cluster objects on a network, returning the name of one object with each call.helpviewer_keywords: ["CLUSTER_NETWORK_ENUM_NETINTERFACES","ClusterNetworkEnum","ClusterNetworkEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_NETWORK_ENUM","PCLUSAPI_CLUSTER_NETWORK_ENUM function [Failover Cluster]","_wolf_clusternetworkenum","clusapi/ClusterNetworkEnum","clusapi/PCLUSAPI_CLUSTER_NETWORK_ENUM","mscs.clusternetworkenum"]
+description: Enumerates cluster objects on a network, returning the name of one object with each call.
+helpviewer_keywords: ["CLUSTER_NETWORK_ENUM_NETINTERFACES","ClusterNetworkEnum","ClusterNetworkEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_NETWORK_ENUM","PCLUSAPI_CLUSTER_NETWORK_ENUM function [Failover Cluster]","_wolf_clusternetworkenum","clusapi/ClusterNetworkEnum","clusapi/PCLUSAPI_CLUSTER_NETWORK_ENUM","mscs.clusternetworkenum"]
 old-location: mscs\clusternetworkenum.htm
 tech.root: MsCS
 ms.assetid: 41cfb436-7494-4065-b287-075c4c771278

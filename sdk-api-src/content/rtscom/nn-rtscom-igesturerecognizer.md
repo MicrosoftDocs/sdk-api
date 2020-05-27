@@ -1,7 +1,8 @@
 ---
 UID: NN:rtscom.IGestureRecognizer
 title: IGestureRecognizer (rtscom.h)
-description: Reacts to events by recognizing gestures and adding gesture data to the input queue.helpviewer_keywords: ["IGestureRecognizer","IGestureRecognizer interface [Tablet PC]","IGestureRecognizer interface [Tablet PC]","described","dfdc00d6-c843-4298-9773-92775406fbf7","rtscom/IGestureRecognizer","tablet.igesturerecognizer"]
+description: Reacts to events by recognizing gestures and adding gesture data to the input queue.
+helpviewer_keywords: ["IGestureRecognizer","IGestureRecognizer interface [Tablet PC]","IGestureRecognizer interface [Tablet PC]","described","dfdc00d6-c843-4298-9773-92775406fbf7","rtscom/IGestureRecognizer","tablet.igesturerecognizer"]
 old-location: tablet\igesturerecognizer.htm
 tech.root: tablet
 ms.assetid: dfdc00d6-c843-4298-9773-92775406fbf7

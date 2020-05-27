@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetNumberInputs
 title: IMILBitmapEffectConnectionsInfo::GetNumberInputs (mileffects.h)
-description: Retrieves the number of input pins the bitmap effect implements.helpviewer_keywords: ["GetNumberInputs","GetNumberInputs method [WPF Bitmap Effects]","GetNumberInputs method [WPF Bitmap Effects]","IMILBitmapEffectConnectionsInfo interface","IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects]","GetNumberInputs method","IMILBitmapEffectConnectionsInfo.GetNumberInputs","IMILBitmapEffectConnectionsInfo::GetNumberInputs","_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs","mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs","wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs"]
+description: Retrieves the number of input pins the bitmap effect implements.
+helpviewer_keywords: ["GetNumberInputs","GetNumberInputs method [WPF Bitmap Effects]","GetNumberInputs method [WPF Bitmap Effects]","IMILBitmapEffectConnectionsInfo interface","IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects]","GetNumberInputs method","IMILBitmapEffectConnectionsInfo.GetNumberInputs","IMILBitmapEffectConnectionsInfo::GetNumberInputs","_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs","mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs","wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs"]
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getnumberinputs.htm

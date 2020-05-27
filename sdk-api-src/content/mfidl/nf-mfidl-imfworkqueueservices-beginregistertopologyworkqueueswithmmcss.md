@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 title: IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS (mfidl.h)
-description: Registers the topology work queues with the Multimedia Class Scheduler Service (MMCSS).helpviewer_keywords: ["62256ae8-a18a-4160-9f3f-a08ab3e93d6b","BeginRegisterTopologyWorkQueuesWithMMCSS","BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","BeginRegisterTopologyWorkQueuesWithMMCSS method","IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS","IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS","mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss","mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS"]
+description: Registers the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
+helpviewer_keywords: ["62256ae8-a18a-4160-9f3f-a08ab3e93d6b","BeginRegisterTopologyWorkQueuesWithMMCSS","BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","BeginRegisterTopologyWorkQueuesWithMMCSS method","IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS","IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS","mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss","mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS"]
 old-location: mf\imfworkqueueservices_beginregistertopologyworkqueueswithmmcss.htm
 tech.root: medfound
 ms.assetid: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetMiterLimit
 title: ID2D1StrokeStyle::GetMiterLimit (d2d1.h)
-description: Retrieves the limit on the ratio of the miter length to half the stroke's thickness.helpviewer_keywords: ["GetMiterLimit","GetMiterLimit method [Direct2D]","GetMiterLimit method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetMiterLimit method","ID2D1StrokeStyle.GetMiterLimit","ID2D1StrokeStyle::GetMiterLimit","d2d1/ID2D1StrokeStyle::GetMiterLimit","direct2d.ID2D1StrokeStyle_GetMiterLimit"]
+description: Retrieves the limit on the ratio of the miter length to half the stroke's thickness.
+helpviewer_keywords: ["GetMiterLimit","GetMiterLimit method [Direct2D]","GetMiterLimit method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetMiterLimit method","ID2D1StrokeStyle.GetMiterLimit","ID2D1StrokeStyle::GetMiterLimit","d2d1/ID2D1StrokeStyle::GetMiterLimit","direct2d.ID2D1StrokeStyle_GetMiterLimit"]
 old-location: direct2d\ID2D1StrokeStyle_GetMiterLimit.htm
 tech.root: Direct2D
 ms.assetid: 29748b05-830b-48ae-9303-a5f7852792e7

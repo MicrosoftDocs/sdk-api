@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType
 title: IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType (imapi2.h)
-description: Retrieves the type of media in the disc device.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_CurrentPhysicalMediaType method","IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType","IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType method [IMAPI]","get_CurrentPhysicalMediaType method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_currentphysicalmediatype","imapi2/IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType"]
+description: Retrieves the type of media in the disc device.
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_CurrentPhysicalMediaType method","IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType","IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType method [IMAPI]","get_CurrentPhysicalMediaType method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_currentphysicalmediatype","imapi2/IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType"]
 old-location: imapi\idiscformat2trackatonce_get_currentphysicalmediatype.htm
 tech.root: imapi
 ms.assetid: 8c921a12-9e9d-48af-af3d-0f62aff49e65

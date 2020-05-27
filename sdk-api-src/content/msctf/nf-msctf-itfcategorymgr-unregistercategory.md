@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterCategory
 title: ITfCategoryMgr::UnregisterCategory (msctf.h)
-description: ITfCategoryMgr::UnregisterCategory methodhelpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","UnregisterCategory method","ITfCategoryMgr.UnregisterCategory","ITfCategoryMgr::UnregisterCategory","UnregisterCategory","UnregisterCategory method [Text Services Framework]","UnregisterCategory method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_unregistercategory_ref","msctf/ITfCategoryMgr::UnregisterCategory","tsf.itfcategorymgr_unregistercategory"]
+description: ITfCategoryMgr::UnregisterCategory method
+helpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","UnregisterCategory method","ITfCategoryMgr.UnregisterCategory","ITfCategoryMgr::UnregisterCategory","UnregisterCategory","UnregisterCategory method [Text Services Framework]","UnregisterCategory method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_unregistercategory_ref","msctf/ITfCategoryMgr::UnregisterCategory","tsf.itfcategorymgr_unregistercategory"]
 old-location: tsf\itfcategorymgr_unregistercategory.htm
 tech.root: TSF
 ms.assetid: 73013bc1-4623-4e00-b87b-29ea3d728e9f

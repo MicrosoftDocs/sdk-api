@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.EndDraw
 title: ID2D1CommandSink::EndDraw (d2d1_1.h)
-description: Indicates when ID2D1CommandSink processing has completed.helpviewer_keywords: ["EndDraw","EndDraw method [Direct2D]","EndDraw method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","EndDraw method","ID2D1CommandSink.EndDraw","ID2D1CommandSink::EndDraw","d2d1_1/ID2D1CommandSink::EndDraw","direct2d.id2d1commandsink_enddraw"]
+description: Indicates when ID2D1CommandSink processing has completed.
+helpviewer_keywords: ["EndDraw","EndDraw method [Direct2D]","EndDraw method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","EndDraw method","ID2D1CommandSink.EndDraw","ID2D1CommandSink::EndDraw","d2d1_1/ID2D1CommandSink::EndDraw","direct2d.id2d1commandsink_enddraw"]
 old-location: direct2d\id2d1commandsink_enddraw.htm
 tech.root: Direct2D
 ms.assetid: 7324d66b-b415-4e07-9fe3-d79a1c0a49b0

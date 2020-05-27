@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetSpecifiedAttributeName
 title: ID2D1SvgElement::GetSpecifiedAttributeName (d2d1svg.h)
-description: Gets the name of the attribute at the given index.helpviewer_keywords: ["GetSpecifiedAttributeName","GetSpecifiedAttributeName method [Direct2D]","GetSpecifiedAttributeName method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetSpecifiedAttributeName method","ID2D1SvgElement.GetSpecifiedAttributeName","ID2D1SvgElement::GetSpecifiedAttributeName","d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeName","direct2d.id2d1svgelement_getspecifiedattributename"]
+description: Gets the name of the attribute at the given index.
+helpviewer_keywords: ["GetSpecifiedAttributeName","GetSpecifiedAttributeName method [Direct2D]","GetSpecifiedAttributeName method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetSpecifiedAttributeName method","ID2D1SvgElement.GetSpecifiedAttributeName","ID2D1SvgElement::GetSpecifiedAttributeName","d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeName","direct2d.id2d1svgelement_getspecifiedattributename"]
 old-location: direct2d\id2d1svgelement_getspecifiedattributename.htm
 tech.root: Direct2D
 ms.assetid: 08419C4C-4EED-406F-884C-84532C6AF1CC

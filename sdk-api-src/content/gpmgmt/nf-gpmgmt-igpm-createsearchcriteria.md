@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateSearchCriteria
 title: IGPM::CreateSearchCriteria (gpmgmt.h)
-description: Creates and returns a GPMSearchCriteria that represents the criteria to use for performing search operations when you use the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["CreateSearchCriteria","CreateSearchCriteria method [GPMC]","CreateSearchCriteria method [GPMC]","GPM class","CreateSearchCriteria method [GPMC]","IGPM interface","GPM class [GPMC]","CreateSearchCriteria method","IGPM interface [GPMC]","CreateSearchCriteria method","IGPM.CreateSearchCriteria","IGPM::CreateSearchCriteria","_win32_igpm_createsearchcriteria","gpmc.igpm_createsearchcriteria","gpmgmt/IGPM::CreateSearchCriteria"]
+description: Creates and returns a GPMSearchCriteria that represents the criteria to use for performing search operations when you use the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["CreateSearchCriteria","CreateSearchCriteria method [GPMC]","CreateSearchCriteria method [GPMC]","GPM class","CreateSearchCriteria method [GPMC]","IGPM interface","GPM class [GPMC]","CreateSearchCriteria method","IGPM interface [GPMC]","CreateSearchCriteria method","IGPM.CreateSearchCriteria","IGPM::CreateSearchCriteria","_win32_igpm_createsearchcriteria","gpmc.igpm_createsearchcriteria","gpmgmt/IGPM::CreateSearchCriteria"]
 old-location: gpmc\igpm_createsearchcriteria.htm
 tech.root: gpmc
 ms.assetid: 7bb99109-c0d6-47cb-9ea4-6c60c1607b79

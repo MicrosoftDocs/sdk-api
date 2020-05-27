@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_HIT_TEST_METRICS
 title: DWRITE_HIT_TEST_METRICS (dwrite.h)
-description: Describes the region obtained by a hit test.helpviewer_keywords: ["DWRITE_HIT_TEST_METRICS","DWRITE_HIT_TEST_METRICS structure [Direct Write]","directwrite.dwrite_hit_test_metrics","dwrite/DWRITE_HIT_TEST_METRICS"]
+description: Describes the region obtained by a hit test.
+helpviewer_keywords: ["DWRITE_HIT_TEST_METRICS","DWRITE_HIT_TEST_METRICS structure [Direct Write]","directwrite.dwrite_hit_test_metrics","dwrite/DWRITE_HIT_TEST_METRICS"]
 old-location: directwrite\dwrite_hit_test_metrics.htm
 tech.root: DirectWrite
 ms.assetid: 00aaed92-7078-4823-95c5-855c063c744a

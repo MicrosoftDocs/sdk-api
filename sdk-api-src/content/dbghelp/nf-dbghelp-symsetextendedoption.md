@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSetExtendedOption
 title: SymSetExtendedOption function (dbghelp.h)
-description: Turns the specified extended symbol option on or off.helpviewer_keywords: ["SYMOPT_EX_DISABLEACCESSTIMEUPDATE","SymSetExtendedOption","SymSetExtendedOption function","base.symsetextendedoption","dbghelp/SymSetExtendedOption"]
+description: Turns the specified extended symbol option on or off.
+helpviewer_keywords: ["SYMOPT_EX_DISABLEACCESSTIMEUPDATE","SymSetExtendedOption","SymSetExtendedOption function","base.symsetextendedoption","dbghelp/SymSetExtendedOption"]
 old-location: base\symsetextendedoption.htm
 tech.root: Debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093

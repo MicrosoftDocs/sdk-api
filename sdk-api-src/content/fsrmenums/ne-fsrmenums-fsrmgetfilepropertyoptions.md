@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmGetFilePropertyOptions
 title: FsrmGetFilePropertyOptions (fsrmenums.h)
-description: Flags that defines how classification properties associated with a file are retrieved.helpviewer_keywords: ["FsrmGetFilePropertyOptions","FsrmGetFilePropertyOptions enumeration [File Server Resource Manager]","FsrmGetFilePropertyOptions_FailOnPersistErrors","FsrmGetFilePropertyOptions_NoRuleEvaluation","FsrmGetFilePropertyOptions_None","FsrmGetFilePropertyOptions_Persistent","FsrmGetFilePropertyOptions_SkipOrphaned","fs.fsrmgetfilepropertyoptions","fsrm.fsrmgetfilepropertyoptions","fsrm/FsrmGetFilePropertyOptions","fsrm/FsrmGetFilePropertyOptions_FailOnPersistErrors","fsrm/FsrmGetFilePropertyOptions_NoRuleEvaluation","fsrm/FsrmGetFilePropertyOptions_None","fsrm/FsrmGetFilePropertyOptions_Persistent","fsrm/FsrmGetFilePropertyOptions_SkipOrphaned"]
+description: Flags that defines how classification properties associated with a file are retrieved.
+helpviewer_keywords: ["FsrmGetFilePropertyOptions","FsrmGetFilePropertyOptions enumeration [File Server Resource Manager]","FsrmGetFilePropertyOptions_FailOnPersistErrors","FsrmGetFilePropertyOptions_NoRuleEvaluation","FsrmGetFilePropertyOptions_None","FsrmGetFilePropertyOptions_Persistent","FsrmGetFilePropertyOptions_SkipOrphaned","fs.fsrmgetfilepropertyoptions","fsrm.fsrmgetfilepropertyoptions","fsrm/FsrmGetFilePropertyOptions","fsrm/FsrmGetFilePropertyOptions_FailOnPersistErrors","fsrm/FsrmGetFilePropertyOptions_NoRuleEvaluation","fsrm/FsrmGetFilePropertyOptions_None","fsrm/FsrmGetFilePropertyOptions_Persistent","fsrm/FsrmGetFilePropertyOptions_SkipOrphaned"]
 old-location: fsrm\fsrmgetfilepropertyoptions.htm
 tech.root: fsrm
 ms.assetid: d909e244-344f-4da9-987c-de406c2dc359

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContext.GetProperty
 title: ITfContext::GetProperty (msctf.h)
-description: ITfContext::GetProperty methodhelpviewer_keywords: ["GetProperty","GetProperty method [Text Services Framework]","GetProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetProperty method","ITfContext.GetProperty","ITfContext::GetProperty","_tsf_itfcontext_getproperty_ref","msctf/ITfContext::GetProperty","tsf.itfcontext_getproperty"]
+description: ITfContext::GetProperty method
+helpviewer_keywords: ["GetProperty","GetProperty method [Text Services Framework]","GetProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetProperty method","ITfContext.GetProperty","ITfContext::GetProperty","_tsf_itfcontext_getproperty_ref","msctf/ITfContext::GetProperty","tsf.itfcontext_getproperty"]
 old-location: tsf\itfcontext_getproperty.htm
 tech.root: TSF
 ms.assetid: e5d76443-f767-47fb-be3a-8cbac224d299

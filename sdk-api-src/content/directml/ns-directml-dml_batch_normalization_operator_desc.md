@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_BATCH_NORMALIZATION_OPERATOR_DESC
 title: DML_BATCH_NORMALIZATION_OPERATOR_DESC
-description: Describes a DirectML operator that performs a batch normalization function on the input, y = scale * (x - batchMean) / sqrt(batchVariance + epsilon) + bias.helpviewer_keywords: ["DML_BATCH_NORMALIZATION_OPERATOR_DESC","DML_BATCH_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_batch_normalization_operator_desc","directml/DML_BATCH_NORMALIZATION_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a batch normalization function on the input, y = scale * (x - batchMean) / sqrt(batchVariance + epsilon) + bias.
+helpviewer_keywords: ["DML_BATCH_NORMALIZATION_OPERATOR_DESC","DML_BATCH_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_batch_normalization_operator_desc","directml/DML_BATCH_NORMALIZATION_OPERATOR_DESC"]
 old-location: direct3d12\dml_batch_normalization_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 6589B3EF-1DB9-4E52-B0D2-31C94A725F07

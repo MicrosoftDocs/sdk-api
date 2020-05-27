@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_11
 title: Error_Spec_IPv4 (lpmapi.h)
-description: The Error_Spec_IPv4 structure stores error code information for RSVP transmissions.helpviewer_keywords: ["Error_Spec_IPv4","Error_Spec_IPv4 structure [QOS]","lpmapi/Error_Spec_IPv4","qos.error_spec_ipv4"]
+description: The Error_Spec_IPv4 structure stores error code information for RSVP transmissions.
+helpviewer_keywords: ["Error_Spec_IPv4","Error_Spec_IPv4 structure [QOS]","lpmapi/Error_Spec_IPv4","qos.error_spec_ipv4"]
 old-location: qos\error_spec_ipv4.htm
 tech.root: QOS
 ms.assetid: 23df7278-8f37-426f-98ff-0cf02d780b76

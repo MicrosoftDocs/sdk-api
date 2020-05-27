@@ -1,7 +1,8 @@
 ---
 UID: NS:comsvcs._ApplicationSummary
 title: ApplicationSummary (comsvcs.h)
-description: Represents a COM+ application hosted in a particular process. It can also represent a pseudo-application entry for all Services Without Components (SWC) contexts in the process.helpviewer_keywords: ["ApplicationSummary","ApplicationSummary structure [COM+]","comsvcs/ApplicationSummary","cos.applicationsummary"]
+description: Represents a COM+ application hosted in a particular process. It can also represent a pseudo-application entry for all Services Without Components (SWC) contexts in the process.
+helpviewer_keywords: ["ApplicationSummary","ApplicationSummary structure [COM+]","comsvcs/ApplicationSummary","cos.applicationsummary"]
 old-location: cos\applicationsummary.htm
 tech.root: cossdk
 ms.assetid: 3291eede-5318-4d97-a969-ce54381f30af

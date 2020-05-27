@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxJob.get_RecipientName
 title: IFaxJob::get_RecipientName (faxcom.h)
-description: The IFaxJob::get_RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.helpviewer_keywords: ["IFaxJob interface [Fax Service]","RecipientName property","IFaxJob.RecipientName","IFaxJob.get_RecipientName","IFaxJob::RecipientName","IFaxJob::get_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_recipientname","fax._mfax_ifaxjob_get_recipientname","fax._mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp","faxcom/IFaxJob::RecipientName","faxcom/IFaxJob::get_RecipientName","get_RecipientName"]
+description: The IFaxJob::get_RecipientName property is a null-terminated string that contains the name of the recipient of the fax job.
+helpviewer_keywords: ["IFaxJob interface [Fax Service]","RecipientName property","IFaxJob.RecipientName","IFaxJob.get_RecipientName","IFaxJob::RecipientName","IFaxJob::get_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_recipientname","fax._mfax_ifaxjob_get_recipientname","fax._mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp","faxcom/IFaxJob::RecipientName","faxcom/IFaxJob::get_RecipientName","get_RecipientName"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_recipientname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5vvp.htm

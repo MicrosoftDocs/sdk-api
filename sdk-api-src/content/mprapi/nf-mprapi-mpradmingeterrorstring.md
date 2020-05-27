@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminGetErrorString
 title: MprAdminGetErrorString function (mprapi.h)
-description: The MprAdminGetErrorString function returns the string associated with a router error from Mprerror.h.helpviewer_keywords: ["MprAdminGetErrorString","MprAdminGetErrorString function [RAS]","_mpr_mpradmingeterrorstring","mprapi/MprAdminGetErrorString","rras.mpradmingeterrorstring"]
+description: The MprAdminGetErrorString function returns the string associated with a router error from Mprerror.h.
+helpviewer_keywords: ["MprAdminGetErrorString","MprAdminGetErrorString function [RAS]","_mpr_mpradmingeterrorstring","mprapi/MprAdminGetErrorString","rras.mpradmingeterrorstring"]
 old-location: rras\mpradmingeterrorstring.htm
 tech.root: RRAS
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757

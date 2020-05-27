@@ -1,7 +1,8 @@
 ---
 UID: NN:dinputd.IDirectInputEffectDriver
 title: IDirectInputEffectDriver (dinputd.h)
-description: These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.helpviewer_keywords: ["IDirectInputEffectDriver","IDirectInputEffectDriver interface [Human Input Devices]","IDirectInputEffectDriver interface [Human Input Devices]","described","di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml","dinputd/IDirectInputEffectDriver","hid.idirectinputeffectdriver"]
+description: These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.
+helpviewer_keywords: ["IDirectInputEffectDriver","IDirectInputEffectDriver interface [Human Input Devices]","IDirectInputEffectDriver interface [Human Input Devices]","described","di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml","dinputd/IDirectInputEffectDriver","hid.idirectinputeffectdriver"]
 old-location: hid\idirectinputeffectdriver.htm
 tech.root: hid
 ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303

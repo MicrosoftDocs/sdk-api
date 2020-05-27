@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IFolderViewOptions.SetFolderViewOptions
 title: IFolderViewOptions::SetFolderViewOptions (shobjidl.h)
-description: Sets specified options for the view.helpviewer_keywords: ["IFolderViewOptions interface [Windows Shell]","SetFolderViewOptions method","IFolderViewOptions.SetFolderViewOptions","IFolderViewOptions::SetFolderViewOptions","SetFolderViewOptions","SetFolderViewOptions method [Windows Shell]","SetFolderViewOptions method [Windows Shell]","IFolderViewOptions interface","_shell_IFolderViewOptions_SetFolderViewOptions","shell.IFolderViewOptions_SetFolderViewOptions","shobjidl/IFolderViewOptions::SetFolderViewOptions"]
+description: Sets specified options for the view.
+helpviewer_keywords: ["IFolderViewOptions interface [Windows Shell]","SetFolderViewOptions method","IFolderViewOptions.SetFolderViewOptions","IFolderViewOptions::SetFolderViewOptions","SetFolderViewOptions","SetFolderViewOptions method [Windows Shell]","SetFolderViewOptions method [Windows Shell]","IFolderViewOptions interface","_shell_IFolderViewOptions_SetFolderViewOptions","shell.IFolderViewOptions_SetFolderViewOptions","shobjidl/IFolderViewOptions::SetFolderViewOptions"]
 old-location: shell\IFolderViewOptions_SetFolderViewOptions.htm
 tech.root: shell
 ms.assetid: e170f60f-9b6c-4765-8aad-b370b08db053

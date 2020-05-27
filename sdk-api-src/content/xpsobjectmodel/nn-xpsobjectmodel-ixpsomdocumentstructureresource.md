@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentStructureResource
 title: IXpsOMDocumentStructureResource (xpsobjectmodel.h)
-description: Provides access to the XML content of the resource stream of the DocumentStructure part.helpviewer_keywords: ["IXpsOMDocumentStructureResource","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","described","xps.ixpsomdocumentstructureresource","xpsobjectmodel/IXpsOMDocumentStructureResource"]
+description: Provides access to the XML content of the resource stream of the DocumentStructure part.
+helpviewer_keywords: ["IXpsOMDocumentStructureResource","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","described","xps.ixpsomdocumentstructureresource","xpsobjectmodel/IXpsOMDocumentStructureResource"]
 old-location: xps\ixpsomdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: a0cc8748-08b2-4471-9961-603786e983a4

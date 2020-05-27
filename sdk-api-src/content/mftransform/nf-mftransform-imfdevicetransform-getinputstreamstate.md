@@ -1,7 +1,8 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputStreamState
 title: IMFDeviceTransform::GetInputStreamState (mftransform.h)
-description: The GetInputStreamState method gets the Device MFT’s input stream state.helpviewer_keywords: ["GetInputStreamState","GetInputStreamState method [Streaming Media Devices]","GetInputStreamState method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetInputStreamState method","IMFDeviceTransform.GetInputStreamState","IMFDeviceTransform::GetInputStreamState","mftransform/IMFDeviceTransform::GetInputStreamState","stream.imfdevicetransform_getinputstreamstate"]
+description: The GetInputStreamState method gets the Device MFT’s input stream state.
+helpviewer_keywords: ["GetInputStreamState","GetInputStreamState method [Streaming Media Devices]","GetInputStreamState method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetInputStreamState method","IMFDeviceTransform.GetInputStreamState","IMFDeviceTransform::GetInputStreamState","mftransform/IMFDeviceTransform::GetInputStreamState","stream.imfdevicetransform_getinputstreamstate"]
 old-location: stream\imfdevicetransform_getinputstreamstate.htm
 tech.root: stream
 ms.assetid: B5319512-EC6C-4940-881E-3DB1CA7BF0E3

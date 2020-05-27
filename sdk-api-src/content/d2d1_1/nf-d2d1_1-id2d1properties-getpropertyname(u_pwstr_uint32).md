@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyName(U,PWSTR,UINT32)
 title: ID2D1Properties::GetPropertyName(U,PWSTR,UINT32,) (d2d1_1.h)
-description: Gets the property name that corresponds to the given index. This is a template overload. See Remarks.helpviewer_keywords: ["GetPropertyName","GetPropertyName method [Direct2D]","GetPropertyName method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetPropertyName method","ID2D1Properties.GetPropertyName","ID2D1Properties.GetPropertyName(U","PWSTR","UINT32",")","ID2D1Properties::GetPropertyName","ID2D1Properties::GetPropertyName(U","PWSTR","UINT32)","ID2D1Properties::GetPropertyName(U","PWSTR","UINT32",")","d2d1_1/ID2D1Properties::GetPropertyName","direct2d.id2d1properties_getpropertyname2"]
+description: Gets the property name that corresponds to the given index. This is a template overload. See Remarks.
+helpviewer_keywords: ["GetPropertyName","GetPropertyName method [Direct2D]","GetPropertyName method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetPropertyName method","ID2D1Properties.GetPropertyName","ID2D1Properties.GetPropertyName(U","PWSTR","UINT32",")","ID2D1Properties::GetPropertyName","ID2D1Properties::GetPropertyName(U","PWSTR","UINT32)","ID2D1Properties::GetPropertyName(U","PWSTR","UINT32",")","d2d1_1/ID2D1Properties::GetPropertyName","direct2d.id2d1properties_getpropertyname2"]
 old-location: direct2d\id2d1properties_getpropertyname2.htm
 tech.root: Direct2D
 ms.assetid: 777BF543-F2AF-4B17-BF2B-845D713EA5CA

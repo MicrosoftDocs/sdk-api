@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.GetBackgroundColor
 title: HatchBrush::GetBackgroundColor (gdiplusbrush.h)
-description: The HatchBrush::GetBackgroundColor method gets the background color of this hatch brush.helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [GDI+]","GetBackgroundColor method [GDI+]","HatchBrush class","HatchBrush class [GDI+]","GetBackgroundColor method","HatchBrush.GetBackgroundColor","HatchBrush::GetBackgroundColor","_gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_","gdiplus._gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_"]
+description: The HatchBrush::GetBackgroundColor method gets the background color of this hatch brush.
+helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [GDI+]","GetBackgroundColor method [GDI+]","HatchBrush class","HatchBrush class [GDI+]","GetBackgroundColor method","HatchBrush.GetBackgroundColor","HatchBrush::GetBackgroundColor","_gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_","gdiplus._gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_"]
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetBackgroundColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrushmethods\getbackgroundcolor.htm

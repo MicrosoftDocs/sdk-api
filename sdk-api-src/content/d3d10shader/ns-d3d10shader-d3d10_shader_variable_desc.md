@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_VARIABLE_DESC
 title: D3D10_SHADER_VARIABLE_DESC (d3d10shader.h)
-description: Describes a shader variable.helpviewer_keywords: ["93d99a1e-6d9e-3991-2e0b-086cd3eee8c0","D3D10_SHADER_VARIABLE_DESC","D3D10_SHADER_VARIABLE_DESC structure [Direct3D 10]","d3d10shader/D3D10_SHADER_VARIABLE_DESC","direct3d10.d3d10_shader_variable_desc"]
+description: Describes a shader variable.
+helpviewer_keywords: ["93d99a1e-6d9e-3991-2e0b-086cd3eee8c0","D3D10_SHADER_VARIABLE_DESC","D3D10_SHADER_VARIABLE_DESC structure [Direct3D 10]","d3d10shader/D3D10_SHADER_VARIABLE_DESC","direct3d10.d3d10_shader_variable_desc"]
 old-location: direct3d10\d3d10_shader_variable_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_variable_desc.htm

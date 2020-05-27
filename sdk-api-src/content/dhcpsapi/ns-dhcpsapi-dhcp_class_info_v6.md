@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO_V6
 title: DHCP_CLASS_INFO_V6 (dhcpsapi.h)
-description: Contains the information for a particular DHCPv6 user class or vendor class.helpviewer_keywords: ["*LPDHCP_CLASS_INFO_V6","DHCP_CLASS_INFO_V6","DHCP_CLASS_INFO_V6 structure [DHCP]","PDHCP_CLASS_INFO_V6","PDHCP_CLASS_INFO_V6 structure pointer [DHCP]","dhcp.dhcp_class_info_v6","dhcpsapi/DHCP_CLASS_INFO_V6","dhcpsapi/PDHCP_CLASS_INFO_V6"]
+description: Contains the information for a particular DHCPv6 user class or vendor class.
+helpviewer_keywords: ["*LPDHCP_CLASS_INFO_V6","DHCP_CLASS_INFO_V6","DHCP_CLASS_INFO_V6 structure [DHCP]","PDHCP_CLASS_INFO_V6","PDHCP_CLASS_INFO_V6 structure pointer [DHCP]","dhcp.dhcp_class_info_v6","dhcpsapi/DHCP_CLASS_INFO_V6","dhcpsapi/PDHCP_CLASS_INFO_V6"]
 old-location: dhcp\dhcp_class_info_v6.htm
 tech.root: DHCP
 ms.assetid: 76d9a46b-6958-4c29-8512-e6299b28ca01

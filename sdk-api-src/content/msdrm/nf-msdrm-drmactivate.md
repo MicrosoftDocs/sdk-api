@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMActivate
 title: DRMActivate function (msdrm.h)
-description: Obtains a lockbox and machine certificate for a machine or a rights account certificate for a user.helpviewer_keywords: ["DRMActivate","DRMActivate function [Active Directory Rights Management Services SDK 1.0]","DRM_ACTIVATE_CANCEL","DRM_ACTIVATE_DELAYED","DRM_ACTIVATE_GROUPIDENTITY","DRM_ACTIVATE_MACHINE","DRM_ACTIVATE_SHARED_GROUPIDENTITY","DRM_ACTIVATE_SILENT","DRM_ACTIVATE_TEMPORARY","msdrm/DRMActivate","rm.drmactivate"]
+description: Obtains a lockbox and machine certificate for a machine or a rights account certificate for a user.
+helpviewer_keywords: ["DRMActivate","DRMActivate function [Active Directory Rights Management Services SDK 1.0]","DRM_ACTIVATE_CANCEL","DRM_ACTIVATE_DELAYED","DRM_ACTIVATE_GROUPIDENTITY","DRM_ACTIVATE_MACHINE","DRM_ACTIVATE_SHARED_GROUPIDENTITY","DRM_ACTIVATE_SILENT","DRM_ACTIVATE_TEMPORARY","msdrm/DRMActivate","rm.drmactivate"]
 old-location: rm\drmactivate.htm
 tech.root: AdRms_Sdk
 ms.assetid: d3f4ac2c-95d9-4273-a679-81670dd62d28

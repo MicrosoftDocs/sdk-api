@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICBitmapSource
 title: IWICBitmapSource (wincodec.h)
-description: Exposes methods that refers to a source from which pixels are retrieved, but cannot be written back to.helpviewer_keywords: ["IWICBitmapSource","IWICBitmapSource interface [Windows Imaging Component]","IWICBitmapSource interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapsource","wic._wic_codec_iwicbitmapsource","wincodec/IWICBitmapSource"]
+description: Exposes methods that refers to a source from which pixels are retrieved, but cannot be written back to.
+helpviewer_keywords: ["IWICBitmapSource","IWICBitmapSource interface [Windows Imaging Component]","IWICBitmapSource interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapsource","wic._wic_codec_iwicbitmapsource","wincodec/IWICBitmapSource"]
 old-location: wic\_wic_codec_iwicbitmapsource.htm
 tech.root: wic
 ms.assetid: abcc84af-6067-4856-8618-fb66aff4255a

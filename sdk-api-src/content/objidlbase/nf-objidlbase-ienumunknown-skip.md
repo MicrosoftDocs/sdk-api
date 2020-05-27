@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Skip
 title: IEnumUnknown::Skip (objidlbase.h)
-description: Skips over the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumUnknown interface [COM]","Skip method","IEnumUnknown.Skip","IEnumUnknown::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumUnknown interface","_com_ienumunknown_skip","com.ienumunknown_skip","objidlbase/IEnumUnknown::Skip"]
+description: Skips over the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumUnknown interface [COM]","Skip method","IEnumUnknown.Skip","IEnumUnknown::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumUnknown interface","_com_ienumunknown_skip","com.ienumunknown_skip","objidlbase/IEnumUnknown::Skip"]
 old-location: com\ienumunknown_skip.htm
 tech.root: com
 ms.assetid: 6d73a119-0da8-4754-92c3-53f75d7be9e0

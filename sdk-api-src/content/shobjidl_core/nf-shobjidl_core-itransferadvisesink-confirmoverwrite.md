@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.ConfirmOverwrite
 title: ITransferAdviseSink::ConfirmOverwrite (shobjidl_core.h)
-description: Displays a message to the user confirming that overwriting existing items is acceptable.helpviewer_keywords: ["ConfirmOverwrite","ConfirmOverwrite method [Windows Shell]","ConfirmOverwrite method [Windows Shell]","ITransferAdviseSink interface","ITransferAdviseSink interface [Windows Shell]","ConfirmOverwrite method","ITransferAdviseSink.ConfirmOverwrite","ITransferAdviseSink::ConfirmOverwrite","_shell_ITransferAdviseSink_ConfirmOverwrite","shell.ITransferAdviseSink_ConfirmOverwrite","shobjidl_core/ITransferAdviseSink::ConfirmOverwrite"]
+description: Displays a message to the user confirming that overwriting existing items is acceptable.
+helpviewer_keywords: ["ConfirmOverwrite","ConfirmOverwrite method [Windows Shell]","ConfirmOverwrite method [Windows Shell]","ITransferAdviseSink interface","ITransferAdviseSink interface [Windows Shell]","ConfirmOverwrite method","ITransferAdviseSink.ConfirmOverwrite","ITransferAdviseSink::ConfirmOverwrite","_shell_ITransferAdviseSink_ConfirmOverwrite","shell.ITransferAdviseSink_ConfirmOverwrite","shobjidl_core/ITransferAdviseSink::ConfirmOverwrite"]
 old-location: shell\ITransferAdviseSink_ConfirmOverwrite.htm
 tech.root: shell
 ms.assetid: 1c7705c5-1a56-47c2-9b9b-3f72a4323cd7

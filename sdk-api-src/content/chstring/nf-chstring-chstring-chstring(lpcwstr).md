@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.CHString(LPCWSTR)
 title: CHString::CHString(LPCWSTR) (chstring.h)
-description: Initializes a new CHString object with the specified data.helpviewer_keywords: ["??0CHString@@QAE@PBG@Z","??0CHString@@QEAA@PEBG@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(LPCWSTR)","CHString::CHString","CHString::CHString(LPCWSTR)","chstring/CHString::CHString","wmi.chstring_chstring_lpcwstr_"]
+description: Initializes a new CHString object with the specified data.
+helpviewer_keywords: ["??0CHString@@QAE@PBG@Z","??0CHString@@QEAA@PEBG@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(LPCWSTR)","CHString::CHString","CHString::CHString(LPCWSTR)","chstring/CHString::CHString","wmi.chstring_chstring_lpcwstr_"]
 old-location: wmi\chstring_chstring_lpcwstr_.htm
 tech.root: WmiSdk
 ms.assetid: 11780ce1-b7d8-4a79-89fc-656ea5d71048

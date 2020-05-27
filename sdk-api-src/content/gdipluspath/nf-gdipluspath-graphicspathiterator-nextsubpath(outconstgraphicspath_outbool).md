@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL)
 title: GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL) (gdipluspath.h)
-description: The GraphicsPathIterator::NextSubpath method gets the next figure (subpath) from this iterator's associated path.helpviewer_keywords: ["GraphicsPathIterator class [GDI+]","NextSubpath method","GraphicsPathIterator.NextSubpath","GraphicsPathIterator.NextSubpath(GraphicsPath*","BOOL*)","GraphicsPathIterator.NextSubpath(OUT const GraphicsPath","OUT BOOL)","GraphicsPathIterator::NextSubpath","GraphicsPathIterator::NextSubpath(OUT const GraphicsPath","OUT BOOL)","NextSubpath","NextSubpath method [GDI+]","NextSubpath method [GDI+]","GraphicsPathIterator class","_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_"]
+description: The GraphicsPathIterator::NextSubpath method gets the next figure (subpath) from this iterator's associated path.
+helpviewer_keywords: ["GraphicsPathIterator class [GDI+]","NextSubpath method","GraphicsPathIterator.NextSubpath","GraphicsPathIterator.NextSubpath(GraphicsPath*","BOOL*)","GraphicsPathIterator.NextSubpath(OUT const GraphicsPath","OUT BOOL)","GraphicsPathIterator::NextSubpath","GraphicsPathIterator::NextSubpath(OUT const GraphicsPath","OUT BOOL)","NextSubpath","NextSubpath method [GDI+]","NextSubpath method [GDI+]","GraphicsPathIterator class","_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextsubpathmethods\nextsubpath.htm

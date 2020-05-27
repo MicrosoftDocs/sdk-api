@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Security
 title: ObjectContext::get_Security (comsvcs.h)
-description: Retrieves the security object of the current object's context.helpviewer_keywords: ["ObjectContext interface [COM+]","get_Security method","ObjectContext.get_Security","ObjectContext::get_Security","_cos_ObjectContext_get_Security","comsvcs/ObjectContext::get_Security","cos.objectcontext_get_security","get_Security","get_Security method [COM+]","get_Security method [COM+]","ObjectContext interface"]
+description: Retrieves the security object of the current object's context.
+helpviewer_keywords: ["ObjectContext interface [COM+]","get_Security method","ObjectContext.get_Security","ObjectContext::get_Security","_cos_ObjectContext_get_Security","comsvcs/ObjectContext::get_Security","cos.objectcontext_get_security","get_Security","get_Security method [COM+]","get_Security method [COM+]","ObjectContext interface"]
 old-location: cos\objectcontext_get_security.htm
 tech.root: cossdk
 ms.assetid: a160d214-b807-47cd-a712-b4cad941a157

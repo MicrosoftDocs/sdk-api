@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CurrentValue
 title: IUIAutomationValuePattern::get_CurrentValue (uiautomationclient.h)
-description: Retrieves the value of the element.helpviewer_keywords: ["CurrentValue property [Windows Accessibility]","CurrentValue property [Windows Accessibility]","IUIAutomationValuePattern interface","IUIAutomationValuePattern interface [Windows Accessibility]","CurrentValue property","IUIAutomationValuePattern.CurrentValue","IUIAutomationValuePattern.get_CurrentValue","IUIAutomationValuePattern::CurrentValue","IUIAutomationValuePattern::get_CurrentValue","get_CurrentValue","uiauto.uiauto_IUIAutomationValuePattern_CurrentValue","uiauto_IUIAutomationValuePattern_CurrentValue","uiautomationclient/IUIAutomationValuePattern::CurrentValue","uiautomationclient/IUIAutomationValuePattern::get_CurrentValue","winauto.uiauto_IUIAutomationValuePattern_CurrentValue"]
+description: Retrieves the value of the element.
+helpviewer_keywords: ["CurrentValue property [Windows Accessibility]","CurrentValue property [Windows Accessibility]","IUIAutomationValuePattern interface","IUIAutomationValuePattern interface [Windows Accessibility]","CurrentValue property","IUIAutomationValuePattern.CurrentValue","IUIAutomationValuePattern.get_CurrentValue","IUIAutomationValuePattern::CurrentValue","IUIAutomationValuePattern::get_CurrentValue","get_CurrentValue","uiauto.uiauto_IUIAutomationValuePattern_CurrentValue","uiauto_IUIAutomationValuePattern_CurrentValue","uiautomationclient/IUIAutomationValuePattern::CurrentValue","uiautomationclient/IUIAutomationValuePattern::get_CurrentValue","winauto.uiauto_IUIAutomationValuePattern_CurrentValue"]
 old-location: winauto\uiauto_IUIAutomationValuePattern_CurrentValue.htm
 tech.root: WinAuto
 ms.assetid: df7d4e74-34d1-435c-86cd-a8fee52f6a94

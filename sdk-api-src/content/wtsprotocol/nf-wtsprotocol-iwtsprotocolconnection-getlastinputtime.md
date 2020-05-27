@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLastInputTime
 title: IWTSProtocolConnection::GetLastInputTime (wtsprotocol.h)
-description: IWTSProtocolConnection::GetLastInputTime is no longer available. Instead, use IWRdsProtocolConnection::GetLastInputTime.helpviewer_keywords: ["GetLastInputTime","GetLastInputTime method [Remote Desktop Services]","GetLastInputTime method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","GetLastInputTime method","IWTSProtocolConnection.GetLastInputTime","IWTSProtocolConnection::GetLastInputTime","termserv.iwtsprotocolconnection_getlastinputtime","wtsprotocol/IWTSProtocolConnection::GetLastInputTime"]
+description: IWTSProtocolConnection::GetLastInputTime is no longer available. Instead, use IWRdsProtocolConnection::GetLastInputTime.
+helpviewer_keywords: ["GetLastInputTime","GetLastInputTime method [Remote Desktop Services]","GetLastInputTime method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","GetLastInputTime method","IWTSProtocolConnection.GetLastInputTime","IWTSProtocolConnection::GetLastInputTime","termserv.iwtsprotocolconnection_getlastinputtime","wtsprotocol/IWTSProtocolConnection::GetLastInputTime"]
 old-location: termserv\iwtsprotocolconnection_getlastinputtime.htm
 tech.root: TermServ
 ms.assetid: 8daecbde-8866-4ae9-a07c-32d28d321392

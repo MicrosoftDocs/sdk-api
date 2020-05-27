@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteUrl
 title: IBitsPeerCacheAdministration::DeleteUrl (bits3_0.h)
-description: Deletes all cache records and the file from the cache for the given URL.helpviewer_keywords: ["DeleteUrl","DeleteUrl method [BITS]","DeleteUrl method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","DeleteUrl method","IBitsPeerCacheAdministration.DeleteUrl","IBitsPeerCacheAdministration::DeleteUrl","bits.ibitspeercacheadministration_deleteurl","bits3_0/IBitsPeerCacheAdministration::DeleteUrl"]
+description: Deletes all cache records and the file from the cache for the given URL.
+helpviewer_keywords: ["DeleteUrl","DeleteUrl method [BITS]","DeleteUrl method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","DeleteUrl method","IBitsPeerCacheAdministration.DeleteUrl","IBitsPeerCacheAdministration::DeleteUrl","bits.ibitspeercacheadministration_deleteurl","bits3_0/IBitsPeerCacheAdministration::DeleteUrl"]
 old-location: bits\ibitspeercacheadministration_deleteurl.htm
 tech.root: Bits
 ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e

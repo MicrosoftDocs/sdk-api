@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetOffset
 title: IDCompositionTurbulenceEffect::SetOffset (dcomp.h)
-description: Sets the coordinates where the turbulence output is generated.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetOffset method","IDCompositionTurbulenceEffect.SetOffset","IDCompositionTurbulenceEffect::SetOffset","SetOffset","SetOffset method [DirectComposition]","SetOffset method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetOffset","directcomp.idcompositionturbulenceeffect_setoffset"]
+description: Sets the coordinates where the turbulence output is generated.
+helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetOffset method","IDCompositionTurbulenceEffect.SetOffset","IDCompositionTurbulenceEffect::SetOffset","SetOffset","SetOffset method [DirectComposition]","SetOffset method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetOffset","directcomp.idcompositionturbulenceeffect_setoffset"]
 old-location: directcomp\idcompositionturbulenceeffect_setoffset.htm
 tech.root: directcomp
 ms.assetid: 6C27C707-93CE-4EAD-ACFB-2DA36EFB1FB5

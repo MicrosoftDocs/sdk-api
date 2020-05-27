@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetExposureCompensation
 title: IWICDevelopRaw::SetExposureCompensation (wincodec.h)
-description: Sets the exposure compensation stop value.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetExposureCompensation method","IWICDevelopRaw.SetExposureCompensation","IWICDevelopRaw::SetExposureCompensation","SetExposureCompensation","SetExposureCompensation method [Windows Imaging Component]","SetExposureCompensation method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setexposurecompensation","wic._wic_codec_iwicdevelopraw_setexposurecompensation","wincodec/IWICDevelopRaw::SetExposureCompensation"]
+description: Sets the exposure compensation stop value.
+helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetExposureCompensation method","IWICDevelopRaw.SetExposureCompensation","IWICDevelopRaw::SetExposureCompensation","SetExposureCompensation","SetExposureCompensation method [Windows Imaging Component]","SetExposureCompensation method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setexposurecompensation","wic._wic_codec_iwicdevelopraw_setexposurecompensation","wincodec/IWICDevelopRaw::SetExposureCompensation"]
 old-location: wic\_wic_codec_iwicdevelopraw_setexposurecompensation.htm
 tech.root: wic
 ms.assetid: 57ee5b96-2e49-415c-b1a8-41436a761b23

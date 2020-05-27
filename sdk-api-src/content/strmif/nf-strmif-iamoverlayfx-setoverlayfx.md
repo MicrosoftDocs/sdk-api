@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMOverlayFX.SetOverlayFX
 title: IAMOverlayFX::SetOverlayFX (strmif.h)
-description: The SetOverlayFX method applies the specified effects to the overlay surface.helpviewer_keywords: ["IAMOverlayFX interface [DirectShow]","SetOverlayFX method","IAMOverlayFX.SetOverlayFX","IAMOverlayFX::SetOverlayFX","IAMOverlayFXSetOverlayFX","SetOverlayFX","SetOverlayFX method [DirectShow]","SetOverlayFX method [DirectShow]","IAMOverlayFX interface","dshow.iamoverlayfx_setoverlayfx","strmif/IAMOverlayFX::SetOverlayFX"]
+description: The SetOverlayFX method applies the specified effects to the overlay surface.
+helpviewer_keywords: ["IAMOverlayFX interface [DirectShow]","SetOverlayFX method","IAMOverlayFX.SetOverlayFX","IAMOverlayFX::SetOverlayFX","IAMOverlayFXSetOverlayFX","SetOverlayFX","SetOverlayFX method [DirectShow]","SetOverlayFX method [DirectShow]","IAMOverlayFX interface","dshow.iamoverlayfx_setoverlayfx","strmif/IAMOverlayFX::SetOverlayFX"]
 old-location: dshow\iamoverlayfx_setoverlayfx.htm
 tech.root: DirectShow
 ms.assetid: 08e44f4e-924a-4a4d-9fc5-c13b3c21c038

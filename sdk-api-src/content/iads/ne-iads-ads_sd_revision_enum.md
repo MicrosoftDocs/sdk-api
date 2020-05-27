@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0006
 title: ADS_SD_REVISION_ENUM (iads.h)
-description: Specifies the revision number of the access-control entry (ACE), or the access-control list (ACL), for Active Directory.helpviewer_keywords: ["ADS_SD_REVISION_DS","ADS_SD_REVISION_ENUM","ADS_SD_REVISION_ENUM enumeration [ADSI]","_ds_ads_sd_revision_enum","adsi.ads__sd__revision__enum","adsi.ads_sd_revision_enum","iads/ADS_SD_REVISION_DS","iads/ADS_SD_REVISION_ENUM"]
+description: Specifies the revision number of the access-control entry (ACE), or the access-control list (ACL), for Active Directory.
+helpviewer_keywords: ["ADS_SD_REVISION_DS","ADS_SD_REVISION_ENUM","ADS_SD_REVISION_ENUM enumeration [ADSI]","_ds_ads_sd_revision_enum","adsi.ads__sd__revision__enum","adsi.ads_sd_revision_enum","iads/ADS_SD_REVISION_DS","iads/ADS_SD_REVISION_ENUM"]
 old-location: adsi\ads_sd_revision_enum.htm
 tech.root: adsi
 ms.assetid: 3a8c7b5c-5846-4f50-88d2-5a9c86b15480

@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity
 title: TraceLoggingActivity::TraceLoggingActivity (traceloggingactivity.h)
-description: Creates a new TraceLoggingActivity object.helpviewer_keywords: ["TraceLoggingActivity","TraceLoggingActivity interface","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity interface","TraceLoggingActivity.TraceLoggingActivity","TraceLoggingActivity::TraceLoggingActivity","tracelogging.traceloggingactivity_traceloggingactivity","traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity"]
+description: Creates a new TraceLoggingActivity object.
+helpviewer_keywords: ["TraceLoggingActivity","TraceLoggingActivity interface","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity interface","TraceLoggingActivity.TraceLoggingActivity","TraceLoggingActivity::TraceLoggingActivity","tracelogging.traceloggingactivity_traceloggingactivity","traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity"]
 old-location: tracelogging\traceloggingactivity_traceloggingactivity.htm
 tech.root: tracelogging
 ms.assetid: 21A4BB42-1D78-48A9-A037-64A3508A9957

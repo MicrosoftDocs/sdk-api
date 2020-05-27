@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.KspDeleteContextFn
 title: KspDeleteContextFn (ntsecpkg.h)
-description: Deletes a security context.helpviewer_keywords: ["KspDeleteContextFn","KspDeleteContextFn callback","SpDeleteContext","SpDeleteContext callback function [Security]","_ssp_spdeletecontext","ntsecpkg/SpDeleteContext","security.spdeletecontext"]
+description: Deletes a security context.
+helpviewer_keywords: ["KspDeleteContextFn","KspDeleteContextFn callback","SpDeleteContext","SpDeleteContext callback function [Security]","_ssp_spdeletecontext","ntsecpkg/SpDeleteContext","security.spdeletecontext"]
 old-location: security\spdeletecontext.htm
 tech.root: SecAuthN
 ms.assetid: 70e64bd3-7fdf-464b-bc0a-a0384a3e1a59

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWritePixelSnapping.GetCurrentTransform
 title: IDWritePixelSnapping::GetCurrentTransform (dwrite.h)
-description: Gets a transform that maps abstract coordinates to DIPs.helpviewer_keywords: ["GetCurrentTransform","GetCurrentTransform method [Direct Write]","GetCurrentTransform method [Direct Write]","IDWritePixelSnapping interface","IDWritePixelSnapping interface [Direct Write]","GetCurrentTransform method","IDWritePixelSnapping.GetCurrentTransform","IDWritePixelSnapping::GetCurrentTransform","directwrite.IDWritePixelSnapping_GetCurrentTransform","dwrite/IDWritePixelSnapping::GetCurrentTransform"]
+description: Gets a transform that maps abstract coordinates to DIPs.
+helpviewer_keywords: ["GetCurrentTransform","GetCurrentTransform method [Direct Write]","GetCurrentTransform method [Direct Write]","IDWritePixelSnapping interface","IDWritePixelSnapping interface [Direct Write]","GetCurrentTransform method","IDWritePixelSnapping.GetCurrentTransform","IDWritePixelSnapping::GetCurrentTransform","directwrite.IDWritePixelSnapping_GetCurrentTransform","dwrite/IDWritePixelSnapping::GetCurrentTransform"]
 old-location: directwrite\IDWritePixelSnapping_GetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: d3cfbea6-c240-47e9-a072-a59626e39ee9

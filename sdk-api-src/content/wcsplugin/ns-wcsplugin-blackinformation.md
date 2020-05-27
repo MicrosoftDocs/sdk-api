@@ -1,7 +1,8 @@
 ---
 UID: NS:wcsplugin._BlackInformation
 title: BlackInformation (wcsplugin.h)
-description: Contains information for device models that have a black color channel.helpviewer_keywords: ["BlackInformation","BlackInformation structure [Windows Color System]","_color_BlackInformation_str","wcs.blackinformation","wcsplugin/BlackInformation"]
+description: Contains information for device models that have a black color channel.
+helpviewer_keywords: ["BlackInformation","BlackInformation structure [Windows Color System]","_color_BlackInformation_str","wcs.blackinformation","wcsplugin/BlackInformation"]
 old-location: wcs\blackinformation.htm
 tech.root: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802

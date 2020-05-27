@@ -1,7 +1,8 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByDevNum
 title: IWiaVideo::CreateVideoByDevNum (wiavideo.h)
-description: The IWiaVideo::CreateVideoByDevNum method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.helpviewer_keywords: ["CreateVideoByDevNum","CreateVideoByDevNum method [WIA]","CreateVideoByDevNum method [WIA]","IWiaVideo interface","IWiaVideo interface [WIA]","CreateVideoByDevNum method","IWiaVideo.CreateVideoByDevNum","IWiaVideo::CreateVideoByDevNum","_wia_IWiaVideo_CreateVideoByDevNum","wia._wia_IWiaVideo_CreateVideoByDevNum","wiavideo/IWiaVideo::CreateVideoByDevNum"]
+description: The IWiaVideo::CreateVideoByDevNum method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
+helpviewer_keywords: ["CreateVideoByDevNum","CreateVideoByDevNum method [WIA]","CreateVideoByDevNum method [WIA]","IWiaVideo interface","IWiaVideo interface [WIA]","CreateVideoByDevNum method","IWiaVideo.CreateVideoByDevNum","IWiaVideo::CreateVideoByDevNum","_wia_IWiaVideo_CreateVideoByDevNum","wia._wia_IWiaVideo_CreateVideoByDevNum","wiavideo/IWiaVideo::CreateVideoByDevNum"]
 old-location: wia\_wia_IWiaVideo_CreateVideoByDevNum.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobydevnum.htm

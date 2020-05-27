@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.InternalGetWindowText
 title: InternalGetWindowText function (winuser.h)
-description: Copies the text of the specified window's title bar (if it has one) into a buffer.helpviewer_keywords: ["InternalGetWindowText","InternalGetWindowText function [Windows and Messages]","_win32_InternalGetWindowText","_win32_internalgetwindowtext_cpp","winmsg.internalgetwindowtext","winui._win32_internalgetwindowtext","winuser/InternalGetWindowText"]
+description: Copies the text of the specified window's title bar (if it has one) into a buffer.
+helpviewer_keywords: ["InternalGetWindowText","InternalGetWindowText function [Windows and Messages]","_win32_InternalGetWindowText","_win32_internalgetwindowtext_cpp","winmsg.internalgetwindowtext","winui._win32_internalgetwindowtext","winuser/InternalGetWindowText"]
 old-location: winmsg\internalgetwindowtext.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm

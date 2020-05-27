@@ -1,7 +1,8 @@
 ---
 UID: NS:thumbcache.WTS_THUMBNAILID
 title: WTS_THUMBNAILID (thumbcache.h)
-description: Contains a unique identifier for a thumbnail in the system thumbnail cache.helpviewer_keywords: ["WTS_THUMBNAILID","WTS_THUMBNAILID structure [Windows Shell]","_shell_WTS_THUMBNAILID","shell.WTS_THUMBNAILID","thumbcache/WTS_THUMBNAILID"]
+description: Contains a unique identifier for a thumbnail in the system thumbnail cache.
+helpviewer_keywords: ["WTS_THUMBNAILID","WTS_THUMBNAILID structure [Windows Shell]","_shell_WTS_THUMBNAILID","shell.WTS_THUMBNAILID","thumbcache/WTS_THUMBNAILID"]
 old-location: shell\WTS_THUMBNAILID.htm
 tech.root: shell
 ms.assetid: 3006d1a8-c9cf-4528-9aea-8ad5d97ddff0

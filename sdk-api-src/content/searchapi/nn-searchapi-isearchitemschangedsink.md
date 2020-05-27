@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchItemsChangedSink
 title: ISearchItemsChangedSink (searchapi.h)
-description: Provides notifications for changes to indexed items. Also provides notification of the hierarchical scope that is being monitored for changed items.helpviewer_keywords: ["ISearchItemsChangedSink","ISearchItemsChangedSink interface [search]","ISearchItemsChangedSink interface [search]","described","_search_ISearchItemsChangedSink","search._search_ISearchItemsChangedSink","searchapi/ISearchItemsChangedSink"]
+description: Provides notifications for changes to indexed items. Also provides notification of the hierarchical scope that is being monitored for changed items.
+helpviewer_keywords: ["ISearchItemsChangedSink","ISearchItemsChangedSink interface [search]","ISearchItemsChangedSink interface [search]","described","_search_ISearchItemsChangedSink","search._search_ISearchItemsChangedSink","searchapi/ISearchItemsChangedSink"]
 old-location: search\_search_ISearchItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\isearchitemschangedsink.htm

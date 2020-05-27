@@ -1,7 +1,8 @@
 ---
 UID: NF:wow64apiset.GetSystemWow64DirectoryA
 title: GetSystemWow64DirectoryA function (wow64apiset.h)
-description: Retrieves the path of the system directory used by WOW64.helpviewer_keywords: ["GetSystemWow64Directory","GetSystemWow64Directory function","GetSystemWow64DirectoryA","GetSystemWow64DirectoryW","_win32_getsystemwow64directory","base.getsystemwow64directory","wow64apiset/GetSystemWow64Directory","wow64apiset/GetSystemWow64DirectoryA","wow64apiset/GetSystemWow64DirectoryW"]
+description: Retrieves the path of the system directory used by WOW64.
+helpviewer_keywords: ["GetSystemWow64Directory","GetSystemWow64Directory function","GetSystemWow64DirectoryA","GetSystemWow64DirectoryW","_win32_getsystemwow64directory","base.getsystemwow64directory","wow64apiset/GetSystemWow64Directory","wow64apiset/GetSystemWow64DirectoryA","wow64apiset/GetSystemWow64DirectoryW"]
 old-location: base\getsystemwow64directory.htm
 tech.root: SysInfo
 ms.assetid: 31ccd1bf-87c7-4df6-ae9d-5a3dfbd8b38b

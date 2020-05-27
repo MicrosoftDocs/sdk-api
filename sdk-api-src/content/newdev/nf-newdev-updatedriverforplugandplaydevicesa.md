@@ -1,7 +1,8 @@
 ---
 UID: NF:newdev.UpdateDriverForPlugAndPlayDevicesA
 title: UpdateDriverForPlugAndPlayDevicesA function (newdev.h)
-description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.helpviewer_keywords: ["UpdateDriverForPlugAndPlayDevices","UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation]","UpdateDriverForPlugAndPlayDevicesA","UpdateDriverForPlugAndPlayDevicesW","devinst.updatedriverforplugandplaydevices","di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml","newdev/UpdateDriverForPlugAndPlayDevices"]
+description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.
+helpviewer_keywords: ["UpdateDriverForPlugAndPlayDevices","UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation]","UpdateDriverForPlugAndPlayDevicesA","UpdateDriverForPlugAndPlayDevicesW","devinst.updatedriverforplugandplaydevices","di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml","newdev/UpdateDriverForPlugAndPlayDevices"]
 old-location: devinst\updatedriverforplugandplaydevices.htm
 tech.root: devinst
 ms.assetid: dd5022df-5b65-4ed4-ac54-68149df2c851

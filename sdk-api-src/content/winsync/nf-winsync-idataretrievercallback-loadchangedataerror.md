@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IDataRetrieverCallback.LoadChangeDataError
 title: IDataRetrieverCallback::LoadChangeDataError (winsync.h)
-description: Indicates that an IAsynchronousDataRetriever method failed.helpviewer_keywords: ["IDataRetrieverCallback interface [Windows Sync]","LoadChangeDataError method","IDataRetrieverCallback.LoadChangeDataError","IDataRetrieverCallback::LoadChangeDataError","LoadChangeDataError","LoadChangeDataError method [Windows Sync]","LoadChangeDataError method [Windows Sync]","IDataRetrieverCallback interface","winsync.idataretrievercallback_loadchangedataerror","winsync/IDataRetrieverCallback::LoadChangeDataError"]
+description: Indicates that an IAsynchronousDataRetriever method failed.
+helpviewer_keywords: ["IDataRetrieverCallback interface [Windows Sync]","LoadChangeDataError method","IDataRetrieverCallback.LoadChangeDataError","IDataRetrieverCallback::LoadChangeDataError","LoadChangeDataError","LoadChangeDataError method [Windows Sync]","LoadChangeDataError method [Windows Sync]","IDataRetrieverCallback interface","winsync.idataretrievercallback_loadchangedataerror","winsync/IDataRetrieverCallback::LoadChangeDataError"]
 old-location: winsync\idataretrievercallback_loadchangedataerror.htm
 tech.root: winsync
 ms.assetid: 93185b3d-458d-4254-af2d-02cf7b1c5be7

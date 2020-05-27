@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Clone
 title: IEnumStreamIdMap::Clone (strmif.h)
-description: The Clone method copies the collection.helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumStreamIdMap interface","IEnumStreamIdMap interface [DirectShow]","Clone method","IEnumStreamIdMap.Clone","IEnumStreamIdMap::Clone","IEnumStreamIdMapClone","dshow.ienumstreamidmap_clone","strmif/IEnumStreamIdMap::Clone"]
+description: The Clone method copies the collection.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumStreamIdMap interface","IEnumStreamIdMap interface [DirectShow]","Clone method","IEnumStreamIdMap.Clone","IEnumStreamIdMap::Clone","IEnumStreamIdMapClone","dshow.ienumstreamidmap_clone","strmif/IEnumStreamIdMap::Clone"]
 old-location: dshow\ienumstreamidmap_clone.htm
 tech.root: DirectShow
 ms.assetid: 2c6ef2a8-a5d7-434f-8de2-221502b7c5cf

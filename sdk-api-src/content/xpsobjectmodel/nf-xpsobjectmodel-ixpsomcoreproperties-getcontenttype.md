@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentType
 title: IXpsOMCoreProperties::GetContentType (xpsobjectmodel.h)
-description: Gets the contentType property.helpviewer_keywords: ["GetContentType","GetContentType method [XPS Documents and Packaging]","GetContentType method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetContentType method","IXpsOMCoreProperties.GetContentType","IXpsOMCoreProperties::GetContentType","xps.ixpsomcoreproperties_getcontenttype","xpsobjectmodel/IXpsOMCoreProperties::GetContentType"]
+description: Gets the contentType property.
+helpviewer_keywords: ["GetContentType","GetContentType method [XPS Documents and Packaging]","GetContentType method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetContentType method","IXpsOMCoreProperties.GetContentType","IXpsOMCoreProperties::GetContentType","xps.ixpsomcoreproperties_getcontenttype","xpsobjectmodel/IXpsOMCoreProperties::GetContentType"]
 old-location: xps\ixpsomcoreproperties_getcontenttype.htm
 tech.root: printdocs
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23

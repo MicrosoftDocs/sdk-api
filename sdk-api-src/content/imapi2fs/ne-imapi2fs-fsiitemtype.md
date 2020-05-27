@@ -1,7 +1,8 @@
 ---
 UID: NE:imapi2fs.FsiItemType
 title: FsiItemType (imapi2fs.h)
-description: Defines values for the file system item that was found using the IFileSystemImage::Exists method.helpviewer_keywords: ["FsiItemDirectory","FsiItemFile","FsiItemNotFound","FsiItemType","FsiItemType enumeration [IMAPI]","imapi.fsiitemtype","imapi2fs/FsiItemDirectory","imapi2fs/FsiItemFile","imapi2fs/FsiItemNotFound","imapi2fs/FsiItemType"]
+description: Defines values for the file system item that was found using the IFileSystemImage::Exists method.
+helpviewer_keywords: ["FsiItemDirectory","FsiItemFile","FsiItemNotFound","FsiItemType","FsiItemType enumeration [IMAPI]","imapi.fsiitemtype","imapi2fs/FsiItemDirectory","imapi2fs/FsiItemFile","imapi2fs/FsiItemNotFound","imapi2fs/FsiItemType"]
 old-location: imapi\fsiitemtype.htm
 tech.root: imapi
 ms.assetid: b0ddf0fc-30db-464d-8761-da400386a609

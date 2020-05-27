@@ -1,7 +1,8 @@
 ---
 UID: NS:xaudio2.XAUDIO2_BUFFER_WMA
 title: XAUDIO2_BUFFER_WMA (xaudio2.h)
-description: Used with IXAudio2SourceVoice::SubmitSourceBuffer when submitting xWMA data.helpviewer_keywords: ["XAUDIO2_BUFFER_WMA","XAUDIO2_BUFFER_WMA structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_buffer_wma","xaudio2/XAUDIO2_BUFFER_WMA"]
+description: Used with IXAudio2SourceVoice::SubmitSourceBuffer when submitting xWMA data.
+helpviewer_keywords: ["XAUDIO2_BUFFER_WMA","XAUDIO2_BUFFER_WMA structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_buffer_wma","xaudio2/XAUDIO2_BUFFER_WMA"]
 old-location: xaudio2\xaudio2_buffer_wma.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER_WMA

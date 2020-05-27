@@ -1,7 +1,8 @@
 ---
 UID: NF:ddrawgdi.DdReenableDirectDrawObject
 title: DdReenableDirectDrawObject function (ddrawgdi.h)
-description: Wrapper for the NtGdiDdReenableDirectDrawObject function.helpviewer_keywords: ["DdReenableDirectDrawObject","DdReenableDirectDrawObject function [Windows API]","GdiEntry10","_dxgkernel_ddreenabledirectdrawobject","ddrawgdi/DdReenableDirectDrawObject","ddrawgdi/GdiEntry10","winprog._dxgkernel_ddreenabledirectdrawobject","winui._dxgkernel_ddreenabledirectdrawobject"]
+description: Wrapper for the NtGdiDdReenableDirectDrawObject function.
+helpviewer_keywords: ["DdReenableDirectDrawObject","DdReenableDirectDrawObject function [Windows API]","GdiEntry10","_dxgkernel_ddreenabledirectdrawobject","ddrawgdi/DdReenableDirectDrawObject","ddrawgdi/GdiEntry10","winprog._dxgkernel_ddreenabledirectdrawobject","winui._dxgkernel_ddreenabledirectdrawobject"]
 old-location: winprog\_dxgkernel_ddreenabledirectdrawobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreenabledirectdrawobject.htm

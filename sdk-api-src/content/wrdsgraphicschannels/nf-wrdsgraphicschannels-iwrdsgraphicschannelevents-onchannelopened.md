@@ -1,7 +1,8 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnChannelOpened
 title: IWRdsGraphicsChannelEvents::OnChannelOpened (wrdsgraphicschannels.h)
-description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnChannelOpened method","IWRdsGraphicsChannelEvents.OnChannelOpened","IWRdsGraphicsChannelEvents::OnChannelOpened","OnChannelOpened","OnChannelOpened method [Remote Desktop Services]","OnChannelOpened method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_onchannelopened","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened"]
+description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.
+helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnChannelOpened method","IWRdsGraphicsChannelEvents.OnChannelOpened","IWRdsGraphicsChannelEvents::OnChannelOpened","OnChannelOpened","OnChannelOpened method [Remote Desktop Services]","OnChannelOpened method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_onchannelopened","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened"]
 old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm
 tech.root: TermServ
 ms.assetid: dafff806-8b63-40cd-8b04-efb0497cb043

@@ -1,7 +1,8 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Pause
 title: IWiaVideo::Pause (wiavideo.h)
-description: The IWiaVideo::Pause method pauses video playback.helpviewer_keywords: ["IWiaVideo interface [WIA]","Pause method","IWiaVideo.Pause","IWiaVideo::Pause","Pause","Pause method [WIA]","Pause method [WIA]","IWiaVideo interface","_wia_IWiaVideo_Pause","wia._wia_IWiaVideo_Pause","wiavideo/IWiaVideo::Pause"]
+description: The IWiaVideo::Pause method pauses video playback.
+helpviewer_keywords: ["IWiaVideo interface [WIA]","Pause method","IWiaVideo.Pause","IWiaVideo::Pause","Pause","Pause method [WIA]","Pause method [WIA]","IWiaVideo interface","_wia_IWiaVideo_Pause","wia._wia_IWiaVideo_Pause","wiavideo/IWiaVideo::Pause"]
 old-location: wia\_wia_IWiaVideo_Pause.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\pause.htm

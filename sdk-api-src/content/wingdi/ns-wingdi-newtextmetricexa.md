@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICEXA
 title: NEWTEXTMETRICEXA (wingdi.h)
-description: The NEWTEXTMETRICEX structure contains information about a physical font.helpviewer_keywords: ["NEWTEXTMETRICEX","NEWTEXTMETRICEX structure [Windows GDI]","NEWTEXTMETRICEXA","NEWTEXTMETRICEXW","_win32_NEWTEXTMETRICEX_str","gdi.newtextmetricex","wingdi/NEWTEXTMETRICEX","wingdi/NEWTEXTMETRICEXA","wingdi/NEWTEXTMETRICEXW"]
+description: The NEWTEXTMETRICEX structure contains information about a physical font.
+helpviewer_keywords: ["NEWTEXTMETRICEX","NEWTEXTMETRICEX structure [Windows GDI]","NEWTEXTMETRICEXA","NEWTEXTMETRICEXW","_win32_NEWTEXTMETRICEX_str","gdi.newtextmetricex","wingdi/NEWTEXTMETRICEX","wingdi/NEWTEXTMETRICEXA","wingdi/NEWTEXTMETRICEXW"]
 old-location: gdi\newtextmetricex.htm
 tech.root: gdi
 ms.assetid: b85ff705-2dd4-4877-9905-d4c2a0894e24

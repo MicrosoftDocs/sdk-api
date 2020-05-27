@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.LoadStore
 title: ISettingsEngine::LoadStore (wcmconfig.h)
-description: Initializes and loads the schema store hive.helpviewer_keywords: ["ISettingsEngine interface [SMI]","LoadStore method","ISettingsEngine.LoadStore","ISettingsEngine::LoadStore","LoadStore","LoadStore method [SMI]","LoadStore method [SMI]","ISettingsEngine interface","smi.isettingsengine_loadstore","wcmconfig/ISettingsEngine::LoadStore"]
+description: Initializes and loads the schema store hive.
+helpviewer_keywords: ["ISettingsEngine interface [SMI]","LoadStore method","ISettingsEngine.LoadStore","ISettingsEngine::LoadStore","LoadStore","LoadStore method [SMI]","LoadStore method [SMI]","ISettingsEngine interface","smi.isettingsengine_loadstore","wcmconfig/ISettingsEngine::LoadStore"]
 old-location: smi\isettingsengine_loadstore.htm
 tech.root: SMI
 ms.assetid: dd255730-1c42-41a3-b274-e2abe53f210e

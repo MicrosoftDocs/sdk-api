@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_SERVICE_SECURITY_CALLBACK
 title: WS_SERVICE_SECURITY_CALLBACK (webservices.h)
-description: Invoked when headers of the incoming message are received and the body is not processed.helpviewer_keywords: ["WS_SERVICE_SECURITY_CALLBACK","WS_SERVICE_SECURITY_CALLBACK callback","WS_SERVICE_SECURITY_CALLBACK callback function [Web Services for Windows]","webservices/WS_SERVICE_SECURITY_CALLBACK","wsw.ws_service_security_callback"]
+description: Invoked when headers of the incoming message are received and the body is not processed.
+helpviewer_keywords: ["WS_SERVICE_SECURITY_CALLBACK","WS_SERVICE_SECURITY_CALLBACK callback","WS_SERVICE_SECURITY_CALLBACK callback function [Web Services for Windows]","webservices/WS_SERVICE_SECURITY_CALLBACK","wsw.ws_service_security_callback"]
 old-location: wsw\ws_service_security_callback.htm
 tech.root: wsw
 ms.assetid: 0fa127ea-a715-4f21-8b49-3c2705c2bf5d

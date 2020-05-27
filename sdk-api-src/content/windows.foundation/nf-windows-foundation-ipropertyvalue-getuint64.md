@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt64
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the unsigned 64-bit integer value that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetUInt64","GetUInt64 method [Windows Runtime]","GetUInt64 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt64 method","IPropertyValue.GetUInt64","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt64","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt64","winrt.ipropertyvalue_getuint64"]
+description: Gets the unsigned 64-bit integer value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetUInt64","GetUInt64 method [Windows Runtime]","GetUInt64 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt64 method","IPropertyValue.GetUInt64","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt64","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt64","winrt.ipropertyvalue_getuint64"]
 old-location: winrt\ipropertyvalue_getuint64.htm
 tech.root: WinRT
 ms.assetid: 2FD209CA-9A8D-40F3-B82E-E80A7D212A5D

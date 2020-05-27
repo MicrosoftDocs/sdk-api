@@ -1,7 +1,8 @@
 ---
 UID: NC:fwpmu.IPSEC_SA_CONTEXT_CALLBACK0
 title: IPSEC_SA_CONTEXT_CALLBACK0 (fwpmu.h)
-description: Is used to add custom behavior to the IPsec security association (SA) context subscription process.helpviewer_keywords: ["IPSEC_SA_CONTEXT_CALLBACK0","IPSEC_SA_CONTEXT_CALLBACK0 callback","IPSEC_SA_CONTEXT_CALLBACK0 callback function [Filtering]","fwp.ipsec_sa_context_callback0","fwpmu/IPSEC_SA_CONTEXT_CALLBACK0"]
+description: Is used to add custom behavior to the IPsec security association (SA) context subscription process.
+helpviewer_keywords: ["IPSEC_SA_CONTEXT_CALLBACK0","IPSEC_SA_CONTEXT_CALLBACK0 callback","IPSEC_SA_CONTEXT_CALLBACK0 callback function [Filtering]","fwp.ipsec_sa_context_callback0","fwpmu/IPSEC_SA_CONTEXT_CALLBACK0"]
 old-location: fwp\ipsec_sa_context_callback0.htm
 tech.root: fwp
 ms.assetid: a4515d39-8566-4418-a6be-687f4f7d9969

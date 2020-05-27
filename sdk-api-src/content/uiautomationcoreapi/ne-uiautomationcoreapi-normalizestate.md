@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcoreapi.NormalizeState
 title: NormalizeState (uiautomationcoreapi.h)
-description: Contains values that specify the behavior of UiaGetUpdatedCache.helpviewer_keywords: ["NormalizeState","NormalizeState enumeration [Windows Accessibility]","NormalizeState_Custom","NormalizeState_None","NormalizeState_View","uiauto.uiauto_NormalizeStateEnum","uiauto_NormalizeStateEnum","uiautomationcoreapi/NormalizeState","uiautomationcoreapi/NormalizeState_Custom","uiautomationcoreapi/NormalizeState_None","uiautomationcoreapi/NormalizeState_View","winauto.uiauto_NormalizeStateEnum"]
+description: Contains values that specify the behavior of UiaGetUpdatedCache.
+helpviewer_keywords: ["NormalizeState","NormalizeState enumeration [Windows Accessibility]","NormalizeState_Custom","NormalizeState_None","NormalizeState_View","uiauto.uiauto_NormalizeStateEnum","uiauto_NormalizeStateEnum","uiautomationcoreapi/NormalizeState","uiautomationcoreapi/NormalizeState_Custom","uiautomationcoreapi/NormalizeState_None","uiautomationcoreapi/NormalizeState_View","winauto.uiauto_NormalizeStateEnum"]
 old-location: winauto\uiauto_NormalizeStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 242b3770-1082-4df9-b21b-cc78e587a2b5

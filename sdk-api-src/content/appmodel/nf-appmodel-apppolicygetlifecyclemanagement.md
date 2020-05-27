@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.AppPolicyGetLifecycleManagement
 title: AppPolicyGetLifecycleManagement function (appmodel.h)
-description: Retrieves a value indicating whether a process can be suspended/resumed by the Process Lifecycle Manager (PLM).helpviewer_keywords: ["AppPolicyGetLifecycleManagement","AppPolicyGetLifecycleManagement function [App packaging and management]","appmodel/AppPolicyGetLifecycleManagement","appxpkg.apppolicygetlifecyclemanagement_function"]
+description: Retrieves a value indicating whether a process can be suspended/resumed by the Process Lifecycle Manager (PLM).
+helpviewer_keywords: ["AppPolicyGetLifecycleManagement","AppPolicyGetLifecycleManagement function [App packaging and management]","appmodel/AppPolicyGetLifecycleManagement","appxpkg.apppolicygetlifecyclemanagement_function"]
 old-location: appxpkg\apppolicygetlifecyclemanagement_function.htm
 tech.root: appxpkg
 ms.assetid: FED6C183-7AA9-428F-8815-F6BC9844B360

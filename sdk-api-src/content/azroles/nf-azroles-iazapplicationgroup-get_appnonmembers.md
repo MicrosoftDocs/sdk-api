@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_AppNonMembers
 title: IAzApplicationGroup::get_AppNonMembers (azroles.h)
-description: Retrieves the application groups that are refused membership in this application group.helpviewer_keywords: ["AppNonMembers property [Security]","AppNonMembers property [Security]","AzApplicationGroup object","AppNonMembers property [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AppNonMembers property","IAzApplicationGroup interface [Security]","AppNonMembers property","IAzApplicationGroup.AppNonMembers","IAzApplicationGroup.get_AppNonMembers","IAzApplicationGroup::AppNonMembers","IAzApplicationGroup::get_AppNonMembers","azroles/IAzApplicationGroup::AppNonMembers","azroles/IAzApplicationGroup::get_AppNonMembers","get_AppNonMembers","security.iazapplicationgroup_appnonmembers"]
+description: Retrieves the application groups that are refused membership in this application group.
+helpviewer_keywords: ["AppNonMembers property [Security]","AppNonMembers property [Security]","AzApplicationGroup object","AppNonMembers property [Security]","IAzApplicationGroup interface","AzApplicationGroup object [Security]","AppNonMembers property","IAzApplicationGroup interface [Security]","AppNonMembers property","IAzApplicationGroup.AppNonMembers","IAzApplicationGroup.get_AppNonMembers","IAzApplicationGroup::AppNonMembers","IAzApplicationGroup::get_AppNonMembers","azroles/IAzApplicationGroup::AppNonMembers","azroles/IAzApplicationGroup::get_AppNonMembers","get_AppNonMembers","security.iazapplicationgroup_appnonmembers"]
 old-location: security\iazapplicationgroup_appnonmembers.htm
 tech.root: SecAuthZ
 ms.assetid: a85a9004-f3f5-44ce-a0d7-fa450af74917

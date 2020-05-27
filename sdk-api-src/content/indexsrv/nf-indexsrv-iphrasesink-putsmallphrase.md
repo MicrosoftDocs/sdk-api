@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutSmallPhrase
 title: IPhraseSink::PutSmallPhrase (indexsrv.h)
-description: Puts a small query-time phrase in the IPhraseSink object for WordBreaker.helpviewer_keywords: ["IPhraseSink interface [search]","PutSmallPhrase method","IPhraseSink.PutSmallPhrase","IPhraseSink::PutSmallPhrase","PutSmallPhrase","PutSmallPhrase method [search]","PutSmallPhrase method [search]","IPhraseSink interface","indexsrv/IPhraseSink::PutSmallPhrase","search.iphrasesink_putsmallphrase"]
+description: Puts a small query-time phrase in the IPhraseSink object for WordBreaker.
+helpviewer_keywords: ["IPhraseSink interface [search]","PutSmallPhrase method","IPhraseSink.PutSmallPhrase","IPhraseSink::PutSmallPhrase","PutSmallPhrase","PutSmallPhrase method [search]","PutSmallPhrase method [search]","IPhraseSink interface","indexsrv/IPhraseSink::PutSmallPhrase","search.iphrasesink_putsmallphrase"]
 old-location: search\iphrasesink_putsmallphrase.htm
 tech.root: search
 ms.assetid: AC666D12-220B-4D22-997E-CCBE9967B6AB

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.SetThreadLocale
 title: SetThreadLocale function (winnls.h)
-description: Sets the current locale of the calling thread.helpviewer_keywords: ["SetThreadLocale","SetThreadLocale function [Internationalization for Windows Applications]","_win32_SetThreadLocale","intl.setthreadlocale","winnls/SetThreadLocale"]
+description: Sets the current locale of the calling thread.
+helpviewer_keywords: ["SetThreadLocale","SetThreadLocale function [Internationalization for Windows Applications]","_win32_SetThreadLocale","intl.setthreadlocale","winnls/SetThreadLocale"]
 old-location: intl\setthreadlocale.htm
 tech.root: Intl
 ms.assetid: d86193c7-9b3a-422b-b76c-ff1992f68958

@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_MacAddress
 title: IWdsTransportClient::get_MacAddress (wdstptmgmt.h)
-description: Receives the MAC address of the WDS client.helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","MacAddress property","IWdsTransportClient.MacAddress","IWdsTransportClient.get_MacAddress","IWdsTransportClient::MacAddress","IWdsTransportClient::get_MacAddress","MacAddress property [Windows Deployment Services]","MacAddress property [Windows Deployment Services]","IWdsTransportClient interface","get_MacAddress","wds.iwdstransportclient_macaddress","wdstptmgmt/IWdsTransportClient::MacAddress","wdstptmgmt/IWdsTransportClient::get_MacAddress"]
+description: Receives the MAC address of the WDS client.
+helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","MacAddress property","IWdsTransportClient.MacAddress","IWdsTransportClient.get_MacAddress","IWdsTransportClient::MacAddress","IWdsTransportClient::get_MacAddress","MacAddress property [Windows Deployment Services]","MacAddress property [Windows Deployment Services]","IWdsTransportClient interface","get_MacAddress","wds.iwdstransportclient_macaddress","wdstptmgmt/IWdsTransportClient::MacAddress","wdstptmgmt/IWdsTransportClient::get_MacAddress"]
 old-location: wds\iwdstransportclient_macaddress.htm
 tech.root: wds
 ms.assetid: cc05d24a-54c8-40e7-85e4-640813538116

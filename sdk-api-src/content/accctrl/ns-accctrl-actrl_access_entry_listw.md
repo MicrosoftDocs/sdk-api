@@ -1,7 +1,8 @@
 ---
 UID: NS:accctrl._ACTRL_ACCESS_ENTRY_LISTW
 title: ACTRL_ACCESS_ENTRY_LISTW (accctrl.h)
-description: Contains a list of access entries.helpviewer_keywords: ["*PACTRL_ACCESS_ENTRY_LISTW","ACTRL_ACCESS_ENTRY_LIST","ACTRL_ACCESS_ENTRY_LIST structure [COM]","ACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LISTW","PACTRL_ACCESS_ENTRY_LIST","PACTRL_ACCESS_ENTRY_LIST structure pointer [COM]","_ACTRL_ACCESS_ENTRY_LISTA","_ACTRL_ACCESS_ENTRY_LISTW","accctrl/ACTRL_ACCESS_ENTRY_LIST","accctrl/ACTRL_ACCESS_ENTRY_LISTA","accctrl/ACTRL_ACCESS_ENTRY_LISTW","accctrl/PACTRL_ACCESS_ENTRY_LIST","com.actrl_access_entry_list"]
+description: Contains a list of access entries.
+helpviewer_keywords: ["*PACTRL_ACCESS_ENTRY_LISTW","ACTRL_ACCESS_ENTRY_LIST","ACTRL_ACCESS_ENTRY_LIST structure [COM]","ACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LISTW","PACTRL_ACCESS_ENTRY_LIST","PACTRL_ACCESS_ENTRY_LIST structure pointer [COM]","_ACTRL_ACCESS_ENTRY_LISTA","_ACTRL_ACCESS_ENTRY_LISTW","accctrl/ACTRL_ACCESS_ENTRY_LIST","accctrl/ACTRL_ACCESS_ENTRY_LISTA","accctrl/ACTRL_ACCESS_ENTRY_LISTW","accctrl/PACTRL_ACCESS_ENTRY_LIST","com.actrl_access_entry_list"]
 old-location: com\actrl_access_entry_list.htm
 tech.root: com
 ms.assetid: d0e71756-0247-4c6b-b8b5-a343121b7406

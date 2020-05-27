@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DateTime_CloseMonthCal
 title: DateTime_CloseMonthCal macro (commctrl.h)
-description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.helpviewer_keywords: ["DateTime_CloseMonthCal","DateTime_CloseMonthCal macro [Windows Controls]","_shell_DateTime_CloseMonthCal","_shell_DateTime_CloseMonthCal_cpp","commctrl/DateTime_CloseMonthCal","controls.DateTime_CloseMonthCal","controls._shell_DateTime_CloseMonthCal"]
+description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.
+helpviewer_keywords: ["DateTime_CloseMonthCal","DateTime_CloseMonthCal macro [Windows Controls]","_shell_DateTime_CloseMonthCal","_shell_DateTime_CloseMonthCal_cpp","commctrl/DateTime_CloseMonthCal","controls.DateTime_CloseMonthCal","controls._shell_DateTime_CloseMonthCal"]
 old-location: controls\DateTime_CloseMonthCal.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm

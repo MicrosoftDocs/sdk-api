@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IPlaybackControl
 title: IPlaybackControl (comsvcs.h)
-description: Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism.helpviewer_keywords: ["IPlaybackControl","IPlaybackControl interface [COM+]","IPlaybackControl interface [COM+]","described","_cos_IPlaybackControl","comsvcs/IPlaybackControl","cos.iplaybackcontrol"]
+description: Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism.
+helpviewer_keywords: ["IPlaybackControl","IPlaybackControl interface [COM+]","IPlaybackControl interface [COM+]","described","_cos_IPlaybackControl","comsvcs/IPlaybackControl","cos.iplaybackcontrol"]
 old-location: cos\iplaybackcontrol.htm
 tech.root: cossdk
 ms.assetid: 3a528e92-37ac-4108-b52a-557a90da4a47

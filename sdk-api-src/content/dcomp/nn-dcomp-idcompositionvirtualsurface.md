@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionVirtualSurface
 title: IDCompositionVirtualSurface (dcomp.h)
-description: Represents a sparsely allocated bitmap that can be associated with a visual for composition in a visual tree.helpviewer_keywords: ["IDCompositionVirtualSurface","IDCompositionVirtualSurface interface [DirectComposition]","IDCompositionVirtualSurface interface [DirectComposition]","described","dcomp/IDCompositionVirtualSurface","directcomp.idcompositionvirtualsurface"]
+description: Represents a sparsely allocated bitmap that can be associated with a visual for composition in a visual tree.
+helpviewer_keywords: ["IDCompositionVirtualSurface","IDCompositionVirtualSurface interface [DirectComposition]","IDCompositionVirtualSurface interface [DirectComposition]","described","dcomp/IDCompositionVirtualSurface","directcomp.idcompositionvirtualsurface"]
 old-location: directcomp\idcompositionvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC

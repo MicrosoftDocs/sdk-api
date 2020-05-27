@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent
 title: IMSVidAudioRendererEvent (segment.h)
-description: This topic applies to Windows XP or later.helpviewer_keywords: ["IMSVidAudioRendererEvent","IMSVidAudioRendererEvent interface [Microsoft TV Technologies]","IMSVidAudioRendererEvent interface [Microsoft TV Technologies]","described","IMSVidAudioRendererEventInterface","mstv.imsvidaudiorendererevent","segment/IMSVidAudioRendererEvent"]
+description: This topic applies to Windows XP or later.
+helpviewer_keywords: ["IMSVidAudioRendererEvent","IMSVidAudioRendererEvent interface [Microsoft TV Technologies]","IMSVidAudioRendererEvent interface [Microsoft TV Technologies]","described","IMSVidAudioRendererEventInterface","mstv.imsvidaudiorendererevent","segment/IMSVidAudioRendererEvent"]
 old-location: mstv\imsvidaudiorendererevent.htm
 tech.root: mstv
 ms.assetid: 50b43d78-7df0-4b23-86c5-76655e22425f

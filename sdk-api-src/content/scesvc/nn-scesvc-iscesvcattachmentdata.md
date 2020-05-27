@@ -1,7 +1,8 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentData
 title: ISceSvcAttachmentData (scesvc.h)
-description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.helpviewer_keywords: ["ISceSvcAttachmentData","ISceSvcAttachmentData interface [Security]","ISceSvcAttachmentData interface [Security]","described","_config_iscesvcattachmentdata","scesvc/ISceSvcAttachmentData","security.iscesvcattachmentdata"]
+description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
+helpviewer_keywords: ["ISceSvcAttachmentData","ISceSvcAttachmentData interface [Security]","ISceSvcAttachmentData interface [Security]","described","_config_iscesvcattachmentdata","scesvc/ISceSvcAttachmentData","security.iscesvcattachmentdata"]
 old-location: security\iscesvcattachmentdata.htm
 tech.root: SecMgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12

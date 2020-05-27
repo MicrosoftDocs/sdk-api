@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.SetLength
 title: INSSBuffer::SetLength (wmsbuffer.h)
-description: The SetLength method specifies the size of the used portion of the buffer.helpviewer_keywords: ["INSSBuffer interface [windows Media Format]","SetLength method","INSSBuffer.SetLength","INSSBuffer::SetLength","INSSBufferSetLength","SetLength","SetLength method [windows Media Format]","SetLength method [windows Media Format]","INSSBuffer interface","wmformat.inssbuffer_setlength","wmsbuffer/INSSBuffer::SetLength"]
+description: The SetLength method specifies the size of the used portion of the buffer.
+helpviewer_keywords: ["INSSBuffer interface [windows Media Format]","SetLength method","INSSBuffer.SetLength","INSSBuffer::SetLength","INSSBufferSetLength","SetLength","SetLength method [windows Media Format]","SetLength method [windows Media Format]","INSSBuffer interface","wmformat.inssbuffer_setlength","wmsbuffer/INSSBuffer::SetLength"]
 old-location: wmformat\inssbuffer_setlength.htm
 tech.root: wmformat
 ms.assetid: 3f0e8d8a-efc7-4f1b-8a42-7907439ed8af

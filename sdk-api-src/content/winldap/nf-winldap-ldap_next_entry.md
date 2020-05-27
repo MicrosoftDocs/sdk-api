@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_next_entry
 title: ldap_next_entry function (winldap.h)
-description: The ldap_next_entry function retrieves an entry from a search result chain.helpviewer_keywords: ["_ldap_ldap_next_entry","ldap.ldap__next__entry","ldap.ldap_next_entry","ldap_next_entry","ldap_next_entry function [LDAP]","winldap/ldap_next_entry"]
+description: The ldap_next_entry function retrieves an entry from a search result chain.
+helpviewer_keywords: ["_ldap_ldap_next_entry","ldap.ldap__next__entry","ldap.ldap_next_entry","ldap_next_entry","ldap_next_entry function [LDAP]","winldap/ldap_next_entry"]
 old-location: ldap\ldap_next_entry.htm
 tech.root: ldap
 ms.assetid: a0920107-6f99-4d28-a12f-c7f952933472

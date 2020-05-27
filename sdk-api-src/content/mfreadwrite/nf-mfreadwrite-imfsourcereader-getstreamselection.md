@@ -1,7 +1,8 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetStreamSelection
 title: IMFSourceReader::GetStreamSelection (mfreadwrite.h)
-description: Queries whether a stream is selected.helpviewer_keywords: ["GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetStreamSelection method","IMFSourceReader.GetStreamSelection","IMFSourceReader::GetStreamSelection","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_getstreamselection","mfreadwrite/IMFSourceReader::GetStreamSelection"]
+description: Queries whether a stream is selected.
+helpviewer_keywords: ["GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetStreamSelection method","IMFSourceReader.GetStreamSelection","IMFSourceReader::GetStreamSelection","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_getstreamselection","mfreadwrite/IMFSourceReader::GetStreamSelection"]
 old-location: mf\imfsourcereader_getstreamselection.htm
 tech.root: medfound
 ms.assetid: 40301426-4bf2-442c-91b5-9916d1314617

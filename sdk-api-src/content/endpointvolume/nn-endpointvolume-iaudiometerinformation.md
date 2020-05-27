@@ -1,7 +1,8 @@
 ---
 UID: NN:endpointvolume.IAudioMeterInformation
 title: IAudioMeterInformation (endpointvolume.h)
-description: The IAudioMeterInformation interface represents a peak meter on an audio stream to or from an audio endpoint device.helpviewer_keywords: ["IAudioMeterInformation","IAudioMeterInformation interface [Core Audio]","IAudioMeterInformation interface [Core Audio]","described","coreaudio.iaudiometerinformation","endpointvolume/IAudioMeterInformation"]
+description: The IAudioMeterInformation interface represents a peak meter on an audio stream to or from an audio endpoint device.
+helpviewer_keywords: ["IAudioMeterInformation","IAudioMeterInformation interface [Core Audio]","IAudioMeterInformation interface [Core Audio]","described","coreaudio.iaudiometerinformation","endpointvolume/IAudioMeterInformation"]
 old-location: coreaudio\iaudiometerinformation.htm
 tech.root: CoreAudio
 ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005

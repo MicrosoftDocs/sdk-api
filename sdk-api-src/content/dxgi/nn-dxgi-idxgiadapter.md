@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi.IDXGIAdapter
 title: IDXGIAdapter (dxgi.h)
-description: The IDXGIAdapter interface represents a display subsystem (including one or more GPUs, DACs and video memory).helpviewer_keywords: ["5f145307-fa6f-0182-45d3-5fa9da029cf2","IDXGIAdapter","IDXGIAdapter interface [DXGI]","IDXGIAdapter interface [DXGI]","described","direct3ddxgi.idxgiadapter","dxgi/IDXGIAdapter"]
+description: The IDXGIAdapter interface represents a display subsystem (including one or more GPUs, DACs and video memory).
+helpviewer_keywords: ["5f145307-fa6f-0182-45d3-5fa9da029cf2","IDXGIAdapter","IDXGIAdapter interface [DXGI]","IDXGIAdapter interface [DXGI]","described","direct3ddxgi.idxgiadapter","dxgi/IDXGIAdapter"]
 old-location: direct3ddxgi\idxgiadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter.htm

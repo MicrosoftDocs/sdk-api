@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkTablet
 title: IInkTablet (msinkaut.h)
-description: Represents the digitizer device of Tablet PC that receives tablet device messages or events.helpviewer_keywords: ["9a945740-b191-41f5-8b3d-49b7e2d1e463","IInkTablet","IInkTablet interface [Tablet PC]","IInkTablet interface [Tablet PC]","described","msinkaut/IInkTablet","tablet.iinktablet"]
+description: Represents the digitizer device of Tablet PC that receives tablet device messages or events.
+helpviewer_keywords: ["9a945740-b191-41f5-8b3d-49b7e2d1e463","IInkTablet","IInkTablet interface [Tablet PC]","IInkTablet interface [Tablet PC]","described","msinkaut/IInkTablet","tablet.iinktablet"]
 old-location: tablet\iinktablet.htm
 tech.root: tablet
 ms.assetid: 9a945740-b191-41f5-8b3d-49b7e2d1e463

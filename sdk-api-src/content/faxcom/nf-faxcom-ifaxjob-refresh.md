@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxJob.Refresh
 title: IFaxJob::Refresh (faxcom.h)
-description: The IFaxJob::Refresh method updates FaxJob object information for the associated fax job.helpviewer_keywords: ["IFaxJob interface [Fax Service]","Refresh method","IFaxJob.Refresh","IFaxJob::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxJob interface","_mfax_ifaxjob_refresh","fax._mfax_ifaxjob_mfax_ifaxjob_refresh_cpp","fax._mfax_ifaxjob_refresh","faxcom/IFaxJob::Refresh"]
+description: The IFaxJob::Refresh method updates FaxJob object information for the associated fax job.
+helpviewer_keywords: ["IFaxJob interface [Fax Service]","Refresh method","IFaxJob.Refresh","IFaxJob::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxJob interface","_mfax_ifaxjob_refresh","fax._mfax_ifaxjob_mfax_ifaxjob_refresh_cpp","fax._mfax_ifaxjob_refresh","faxcom/IFaxJob::Refresh"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7bqg.htm

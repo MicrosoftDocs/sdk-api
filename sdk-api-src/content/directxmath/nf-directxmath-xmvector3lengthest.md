@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3LengthEst
 title: XMVector3LengthEst function (directxmath.h)
-description: Estimates the length of a 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3LengthEst","XMVector3LengthEst","XMVector3LengthEst method [DirectX Math Support APIs]","dxmath.xmvector3lengthest"]
+description: Estimates the length of a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3LengthEst","XMVector3LengthEst","XMVector3LengthEst method [DirectX Math Support APIs]","dxmath.xmvector3lengthest"]
 old-location: dxmath\xmvector3lengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3LengthEst(XMVECTOR)

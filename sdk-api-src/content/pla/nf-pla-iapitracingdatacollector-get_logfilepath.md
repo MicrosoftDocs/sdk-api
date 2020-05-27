@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogFilePath
 title: IApiTracingDataCollector::get_LogFilePath (pla.h)
-description: Retrieves or sets the name of the log file that contains the API trace data.helpviewer_keywords: ["IApiTracingDataCollector interface [PLA]","LogFilePath property","IApiTracingDataCollector.LogFilePath","IApiTracingDataCollector.get_LogFilePath","IApiTracingDataCollector::LogFilePath","IApiTracingDataCollector::get_LogFilePath","IApiTracingDataCollector::put_LogFilePath","LogFilePath property [PLA]","LogFilePath property [PLA]","IApiTracingDataCollector interface","base.iapitracingdatacollector_logfilepath","get_LogFilePath","pla.iapitracingdatacollector_logfilepath","pla/IApiTracingDataCollector::LogFilePath","pla/IApiTracingDataCollector::get_LogFilePath","pla/IApiTracingDataCollector::put_LogFilePath"]
+description: Retrieves or sets the name of the log file that contains the API trace data.
+helpviewer_keywords: ["IApiTracingDataCollector interface [PLA]","LogFilePath property","IApiTracingDataCollector.LogFilePath","IApiTracingDataCollector.get_LogFilePath","IApiTracingDataCollector::LogFilePath","IApiTracingDataCollector::get_LogFilePath","IApiTracingDataCollector::put_LogFilePath","LogFilePath property [PLA]","LogFilePath property [PLA]","IApiTracingDataCollector interface","base.iapitracingdatacollector_logfilepath","get_LogFilePath","pla.iapitracingdatacollector_logfilepath","pla/IApiTracingDataCollector::LogFilePath","pla/IApiTracingDataCollector::get_LogFilePath","pla/IApiTracingDataCollector::put_LogFilePath"]
 old-location: pla\iapitracingdatacollector_logfilepath.htm
 tech.root: PLA
 ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d

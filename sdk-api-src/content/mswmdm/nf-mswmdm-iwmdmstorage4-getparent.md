@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.GetParent
 title: IWMDMStorage4::GetParent (mswmdm.h)
-description: The GetParent method retrieves the parent of the storage.helpviewer_keywords: ["GetParent","GetParent method [windows Media Device Manager]","GetParent method [windows Media Device Manager]","IWMDMStorage4 interface","IWMDMStorage4 interface [windows Media Device Manager]","GetParent method","IWMDMStorage4.GetParent","IWMDMStorage4::GetParent","IWMDMStorage4GetParent","mswmdm/IWMDMStorage4::GetParent","wmdm.iwmdmstorage4_getparent"]
+description: The GetParent method retrieves the parent of the storage.
+helpviewer_keywords: ["GetParent","GetParent method [windows Media Device Manager]","GetParent method [windows Media Device Manager]","IWMDMStorage4 interface","IWMDMStorage4 interface [windows Media Device Manager]","GetParent method","IWMDMStorage4.GetParent","IWMDMStorage4::GetParent","IWMDMStorage4GetParent","mswmdm/IWMDMStorage4::GetParent","wmdm.iwmdmstorage4_getparent"]
 old-location: wmdm\iwmdmstorage4_getparent.htm
 tech.root: WMDM
 ms.assetid: e3281501-ec4b-4437-b462-d5b0fd1ac4e0

@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPWSPCLOSESOCKET
 title: LPWSPCLOSESOCKET
-description: The LPWSPCloseSocket function closes a socket.helpviewer_keywords: ["LPWSPCLOSESOCKET"]
+description: The LPWSPCloseSocket function closes a socket.
+helpviewer_keywords: ["LPWSPCLOSESOCKET"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPCLOSESOCKET
 targetos: Windows

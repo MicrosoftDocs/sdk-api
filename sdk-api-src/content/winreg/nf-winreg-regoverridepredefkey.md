@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegOverridePredefKey
 title: RegOverridePredefKey function (winreg.h)
-description: Maps a predefined registry key to the specified registry key.helpviewer_keywords: ["RegOverridePredefKey","RegOverridePredefKey function","_win32_regoverridepredefkey","base.regoverridepredefkey","winreg/RegOverridePredefKey"]
+description: Maps a predefined registry key to the specified registry key.
+helpviewer_keywords: ["RegOverridePredefKey","RegOverridePredefKey function","_win32_regoverridepredefkey","base.regoverridepredefkey","winreg/RegOverridePredefKey"]
 old-location: base\regoverridepredefkey.htm
 tech.root: SysInfo
 ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0

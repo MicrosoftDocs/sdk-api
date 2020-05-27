@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMBackupCollection
 title: IGPMBackupCollection (gpmgmt.h)
-description: The IGPMBackupCollection interface contains methods that enable applications to access a collection of GPMBackup objects when using the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMBackupCollection","IGPMBackupCollection","IGPMBackupCollection interface [GPMC]","IGPMBackupCollection interface [GPMC]","described","_win32_igpmbackupcollection","gpmc.igpmbackupcollection","gpmgmt/IGPMBackupCollection"]
+description: The IGPMBackupCollection interface contains methods that enable applications to access a collection of GPMBackup objects when using the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["GPMBackupCollection","IGPMBackupCollection","IGPMBackupCollection interface [GPMC]","IGPMBackupCollection interface [GPMC]","described","_win32_igpmbackupcollection","gpmc.igpmbackupcollection","gpmgmt/IGPMBackupCollection"]
 old-location: gpmc\igpmbackupcollection.htm
 tech.root: gpmc
 ms.assetid: cd9e6b58-6fbc-449a-9941-b33761797199

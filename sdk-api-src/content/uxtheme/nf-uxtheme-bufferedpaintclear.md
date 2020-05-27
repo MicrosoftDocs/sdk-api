@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.BufferedPaintClear
 title: BufferedPaintClear function (uxtheme.h)
-description: Clears a specified rectangle in the buffer to ARGB = {0,0,0,0}.helpviewer_keywords: ["BufferedPaintClear","BufferedPaintClear function [Windows Controls]","_shell_BufferedPaintClear","_shell_BufferedPaintClear_cpp","controls.BufferedPaintClear","controls._shell_BufferedPaintClear","uxtheme/BufferedPaintClear"]
+description: Clears a specified rectangle in the buffer to ARGB = {0,0,0,0}.
+helpviewer_keywords: ["BufferedPaintClear","BufferedPaintClear function [Windows Controls]","_shell_BufferedPaintClear","_shell_BufferedPaintClear_cpp","controls.BufferedPaintClear","controls._shell_BufferedPaintClear","uxtheme/BufferedPaintClear"]
 old-location: controls\BufferedPaintClear.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintclear.htm

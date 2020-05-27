@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_IpVersion
 title: INetFwAuthorizedApplication::put_IpVersion (netfw.h)
-description: Specifies the IP version setting for this application.helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","IpVersion property","INetFwAuthorizedApplication.IpVersion","INetFwAuthorizedApplication.put_IpVersion","INetFwAuthorizedApplication::IpVersion","INetFwAuthorizedApplication::get_IpVersion","INetFwAuthorizedApplication::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwAuthorizedApplication interface","ics.inetfwauthorizedapplication_ipversion","netfw/INetFwAuthorizedApplication::IpVersion","netfw/INetFwAuthorizedApplication::get_IpVersion","netfw/INetFwAuthorizedApplication::put_IpVersion","put_IpVersion"]
+description: Specifies the IP version setting for this application.
+helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","IpVersion property","INetFwAuthorizedApplication.IpVersion","INetFwAuthorizedApplication.put_IpVersion","INetFwAuthorizedApplication::IpVersion","INetFwAuthorizedApplication::get_IpVersion","INetFwAuthorizedApplication::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwAuthorizedApplication interface","ics.inetfwauthorizedapplication_ipversion","netfw/INetFwAuthorizedApplication::IpVersion","netfw/INetFwAuthorizedApplication::get_IpVersion","netfw/INetFwAuthorizedApplication::put_IpVersion","put_IpVersion"]
 old-location: ics\inetfwauthorizedapplication_ipversion.htm
 tech.root: ics
 ms.assetid: f0a4127f-4f81-4b71-a5c5-ba9e30927820

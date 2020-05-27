@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstci.WdsTransportClientInitialize
 title: WdsTransportClientInitialize function (wdstci.h)
-description: Initializes the Multicast Client.helpviewer_keywords: ["WdsTransportClientInitialize","WdsTransportClientInitialize function [Windows Deployment Services]","wds.wdstransportclientinitialize","wdstci/WdsTransportClientInitialize"]
+description: Initializes the Multicast Client.
+helpviewer_keywords: ["WdsTransportClientInitialize","WdsTransportClientInitialize function [Windows Deployment Services]","wds.wdstransportclientinitialize","wdstci/WdsTransportClientInitialize"]
 old-location: wds\wdstransportclientinitialize.htm
 tech.root: wds
 ms.assetid: 6494a155-61de-40bd-a29a-79134da96bbe

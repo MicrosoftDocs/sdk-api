@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2Refract
 title: XMVector2Refract function (directxmath.h)
-description: Refracts an incident 2D vector across a 2D normal vector.helpviewer_keywords: ["Use DirectX..XMVector2Refract","XMVector2Refract","XMVector2Refract method [DirectX Math Support APIs]","dxmath.xmvector2refract"]
+description: Refracts an incident 2D vector across a 2D normal vector.
+helpviewer_keywords: ["Use DirectX..XMVector2Refract","XMVector2Refract","XMVector2Refract method [DirectX Math Support APIs]","dxmath.xmvector2refract"]
 old-location: dxmath\xmvector2refract.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Refract(XMVECTOR,XMVECTOR,float)

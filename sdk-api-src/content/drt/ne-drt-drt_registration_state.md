@@ -1,7 +1,8 @@
 ---
 UID: NE:drt._DRT_REGISTRATION_STATE
 title: DRT_REGISTRATION_STATE (drt.h)
-description: The DRT_REGISTRATION_STATE enumeration defines the set of legal states for a registered key.helpviewer_keywords: ["*PDRT_REGISTRATION_STATE","DRT_REGISTRATION_STATE","DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables]","DRT_REGISTRATION_STATE_UNRESOLVEABLE","drt/DRT_REGISTRATION_STATE","drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE","p2p.drt_registration_state"]
+description: The DRT_REGISTRATION_STATE enumeration defines the set of legal states for a registered key.
+helpviewer_keywords: ["*PDRT_REGISTRATION_STATE","DRT_REGISTRATION_STATE","DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables]","DRT_REGISTRATION_STATE_UNRESOLVEABLE","drt/DRT_REGISTRATION_STATE","drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE","p2p.drt_registration_state"]
 old-location: p2p\drt_registration_state.htm
 tech.root: P2PSdk
 ms.assetid: 4c383efb-fedb-4f6f-9ae7-48fdf42887ac

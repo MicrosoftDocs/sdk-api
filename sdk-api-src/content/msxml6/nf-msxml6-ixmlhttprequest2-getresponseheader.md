@@ -1,7 +1,8 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.GetResponseHeader
 title: IXMLHTTPRequest2::GetResponseHeader (msxml6.h)
-description: Retrieves the value of an HTTP header from the response headers.helpviewer_keywords: ["GetResponseHeader","GetResponseHeader method [XMLHttpRequest2]","GetResponseHeader method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","IXMLHTTPRequest2 interface [XMLHttpRequest2]","GetResponseHeader method","IXMLHTTPRequest2.GetResponseHeader","IXMLHTTPRequest2::GetResponseHeader","ixhr2.ixmlhttprequest2_getresponseheader","msxml6/IXMLHTTPRequest2::GetResponseHeader"]
+description: Retrieves the value of an HTTP header from the response headers.
+helpviewer_keywords: ["GetResponseHeader","GetResponseHeader method [XMLHttpRequest2]","GetResponseHeader method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","IXMLHTTPRequest2 interface [XMLHttpRequest2]","GetResponseHeader method","IXMLHTTPRequest2.GetResponseHeader","IXMLHTTPRequest2::GetResponseHeader","ixhr2.ixmlhttprequest2_getresponseheader","msxml6/IXMLHTTPRequest2::GetResponseHeader"]
 old-location: ixhr2\ixmlhttprequest2_getresponseheader.htm
 tech.root: ixhr2
 ms.assetid: 5D68DAAA-D359-4FDF-8250-14A8D732FFFA

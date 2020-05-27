@@ -1,7 +1,8 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.GetData
 title: ISceSvcAttachmentData::GetData (scesvc.h)
-description: The GetData method retrieves configuration information from the Security Configuration snap-in.helpviewer_keywords: ["GetData","GetData method [Security]","GetData method [Security]","ISceSvcAttachmentData interface","ISceSvcAttachmentData interface [Security]","GetData method","ISceSvcAttachmentData.GetData","ISceSvcAttachmentData::GetData","SCE_SERVICE_ANALYSIS_INFO","SCE_SERVICE_CONFIGURATION_INFO","_config_iscesvcattachmentdata_getdata","scesvc/ISceSvcAttachmentData::GetData","security.iscesvcattachmentdata_getdata"]
+description: The GetData method retrieves configuration information from the Security Configuration snap-in.
+helpviewer_keywords: ["GetData","GetData method [Security]","GetData method [Security]","ISceSvcAttachmentData interface","ISceSvcAttachmentData interface [Security]","GetData method","ISceSvcAttachmentData.GetData","ISceSvcAttachmentData::GetData","SCE_SERVICE_ANALYSIS_INFO","SCE_SERVICE_CONFIGURATION_INFO","_config_iscesvcattachmentdata_getdata","scesvc/ISceSvcAttachmentData::GetData","security.iscesvcattachmentdata_getdata"]
 old-location: security\iscesvcattachmentdata_getdata.htm
 tech.root: SecMgmt
 ms.assetid: f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1

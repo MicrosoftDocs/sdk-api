@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IConsoleVerb
 title: IConsoleVerb (mmc.h)
-description: The IConsoleVerb interface allows snap-ins to enable standard verbs including cut, copy, paste, delete, properties, rename, refresh, and print. When an item is selected, the snap-in can update the state of these verbs.helpviewer_keywords: ["IConsoleVerb","IConsoleVerb interface [MMC]","IConsoleVerb interface [MMC]","described","_slate_iconsoleverb","mmc.iconsoleverb","mmc/IConsoleVerb"]
+description: The IConsoleVerb interface allows snap-ins to enable standard verbs including cut, copy, paste, delete, properties, rename, refresh, and print. When an item is selected, the snap-in can update the state of these verbs.
+helpviewer_keywords: ["IConsoleVerb","IConsoleVerb interface [MMC]","IConsoleVerb interface [MMC]","described","_slate_iconsoleverb","mmc.iconsoleverb","mmc/IConsoleVerb"]
 old-location: mmc\iconsoleverb.htm
 tech.root: mmc
 ms.assetid: 9c4338c1-eb5e-47f3-8b5b-0623690bd5f6

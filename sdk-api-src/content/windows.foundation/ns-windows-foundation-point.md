@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.foundation.Point
 title: Point (windows.foundation.h)
-description: Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane.helpviewer_keywords: ["Point","Point structure [Windows Runtime]","windows/Point","winrt.point"]
+description: Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane.
+helpviewer_keywords: ["Point","Point structure [Windows Runtime]","windows/Point","winrt.point"]
 old-location: winrt\point.htm
 tech.root: WinRT
 ms.assetid: 0cdd5b17-2f7e-4e17-896c-7d7784c8643d

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const GraphicsPath)
 title: PathGradientBrush::PathGradientBrush(IN const GraphicsPath) (gdipluspath.h)
-description: Creates a PathGradientBrush::PathGradientBrush object based on a GraphicsPath object.helpviewer_keywords: ["PathGradientBrush","PathGradientBrush class [GDI+]","PathGradientBrush constructor","PathGradientBrush constructor [GDI+]","PathGradientBrush constructor [GDI+]","PathGradientBrush class","PathGradientBrush.PathGradientBrush","PathGradientBrush.PathGradientBrush(IN const GraphicsPath)","PathGradientBrush.PathGradientBrush(const GraphicsPath*)","PathGradientBrush::PathGradientBrush","PathGradientBrush::PathGradientBrush(IN const GraphicsPath)","_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_","gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_"]
+description: Creates a PathGradientBrush::PathGradientBrush object based on a GraphicsPath object.
+helpviewer_keywords: ["PathGradientBrush","PathGradientBrush class [GDI+]","PathGradientBrush constructor","PathGradientBrush constructor [GDI+]","PathGradientBrush constructor [GDI+]","PathGradientBrush class","PathGradientBrush.PathGradientBrush","PathGradientBrush.PathGradientBrush(IN const GraphicsPath)","PathGradientBrush.PathGradientBrush(const GraphicsPath*)","PathGradientBrush::PathGradientBrush","PathGradientBrush::PathGradientBrush(IN const GraphicsPath)","_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_","gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors\pathgradientbrush_39path.htm

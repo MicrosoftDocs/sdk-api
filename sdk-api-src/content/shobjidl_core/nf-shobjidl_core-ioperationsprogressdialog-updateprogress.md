@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.UpdateProgress
 title: IOperationsProgressDialog::UpdateProgress (shobjidl_core.h)
-description: Updates the current progress dialog, as specified.helpviewer_keywords: ["IOperationsProgressDialog interface [Windows Shell]","UpdateProgress method","IOperationsProgressDialog.UpdateProgress","IOperationsProgressDialog::UpdateProgress","UpdateProgress","UpdateProgress method [Windows Shell]","UpdateProgress method [Windows Shell]","IOperationsProgressDialog interface","_shell_IOperationsProgressDialog_UpdateProgress","shell.IOperationsProgressDialog_UpdateProgress","shobjidl_core/IOperationsProgressDialog::UpdateProgress"]
+description: Updates the current progress dialog, as specified.
+helpviewer_keywords: ["IOperationsProgressDialog interface [Windows Shell]","UpdateProgress method","IOperationsProgressDialog.UpdateProgress","IOperationsProgressDialog::UpdateProgress","UpdateProgress","UpdateProgress method [Windows Shell]","UpdateProgress method [Windows Shell]","IOperationsProgressDialog interface","_shell_IOperationsProgressDialog_UpdateProgress","shell.IOperationsProgressDialog_UpdateProgress","shobjidl_core/IOperationsProgressDialog::UpdateProgress"]
 old-location: shell\IOperationsProgressDialog_UpdateProgress.htm
 tech.root: shell
 ms.assetid: 5ff2def3-f320-412c-8f98-bd1a58866d03

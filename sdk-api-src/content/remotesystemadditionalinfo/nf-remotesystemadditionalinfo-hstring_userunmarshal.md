@@ -1,7 +1,8 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (remotesystemadditionalinfo.h)
-description: Unmarshals an HSTRING object from the RPC buffer.helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
+description: Unmarshals an HSTRING object from the RPC buffer.
+helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686

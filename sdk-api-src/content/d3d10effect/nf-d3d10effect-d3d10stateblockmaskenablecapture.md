@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskEnableCapture
 title: D3D10StateBlockMaskEnableCapture function (d3d10effect.h)
-description: Enable a range of state values in a state block mask.helpviewer_keywords: ["D3D10StateBlockMaskEnableCapture","D3D10StateBlockMaskEnableCapture function [Direct3D 10]","d3d10effect/D3D10StateBlockMaskEnableCapture","direct3d10.d3d10stateblockmaskenablecapture","facce8d7-c03d-439b-89fb-733b2d013965"]
+description: Enable a range of state values in a state block mask.
+helpviewer_keywords: ["D3D10StateBlockMaskEnableCapture","D3D10StateBlockMaskEnableCapture function [Direct3D 10]","d3d10effect/D3D10StateBlockMaskEnableCapture","direct3d10.d3d10stateblockmaskenablecapture","facce8d7-c03d-439b-89fb-733b2d013965"]
 old-location: direct3d10\d3d10stateblockmaskenablecapture.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskenablecapture.htm

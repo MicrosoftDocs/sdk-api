@@ -1,7 +1,8 @@
 ---
 UID: NE:winnt._ACL_INFORMATION_CLASS
 title: ACL_INFORMATION_CLASS (winnt.h)
-description: Contains values that specify the type of information being assigned to or retrieved from an access control list (ACL).helpviewer_keywords: ["ACL_INFORMATION_CLASS","ACL_INFORMATION_CLASS enumeration [Security]","AclRevisionInformation","AclSizeInformation","_win32_acl_information_class_str","security.acl_information_class","winnt/ACL_INFORMATION_CLASS","winnt/AclRevisionInformation","winnt/AclSizeInformation"]
+description: Contains values that specify the type of information being assigned to or retrieved from an access control list (ACL).
+helpviewer_keywords: ["ACL_INFORMATION_CLASS","ACL_INFORMATION_CLASS enumeration [Security]","AclRevisionInformation","AclSizeInformation","_win32_acl_information_class_str","security.acl_information_class","winnt/ACL_INFORMATION_CLASS","winnt/AclRevisionInformation","winnt/AclSizeInformation"]
 old-location: security\acl_information_class.htm
 tech.root: SecAuthZ
 ms.assetid: e1abf877-9757-4ee4-b7da-f3e7eb53bddd

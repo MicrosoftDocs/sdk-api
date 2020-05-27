@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IMediaControl.Stop
 title: IMediaControl::Stop (control.h)
-description: The Stop method stops all the filters in the graph.helpviewer_keywords: ["IMediaControl interface [DirectShow]","Stop method","IMediaControl.Stop","IMediaControl::Stop","IMediaControlStop","Stop","Stop method [DirectShow]","Stop method [DirectShow]","IMediaControl interface","control/IMediaControl::Stop","dshow.imediacontrol_stop"]
+description: The Stop method stops all the filters in the graph.
+helpviewer_keywords: ["IMediaControl interface [DirectShow]","Stop method","IMediaControl.Stop","IMediaControl::Stop","IMediaControlStop","Stop","Stop method [DirectShow]","Stop method [DirectShow]","IMediaControl interface","control/IMediaControl::Stop","dshow.imediacontrol_stop"]
 old-location: dshow\imediacontrol_stop.htm
 tech.root: DirectShow
 ms.assetid: 89e48d43-a31f-4912-98ff-36ba2069812d

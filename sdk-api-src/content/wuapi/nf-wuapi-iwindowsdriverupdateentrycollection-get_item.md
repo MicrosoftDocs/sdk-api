@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Item
 title: IWindowsDriverUpdateEntryCollection::get_Item (wuapi.h)
-description: Gets an IWindowsDriverUpdateEntry interface in the collection.helpviewer_keywords: ["IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","Item property","IWindowsDriverUpdateEntryCollection.Item","IWindowsDriverUpdateEntryCollection.get_Item","IWindowsDriverUpdateEntryCollection::Item","IWindowsDriverUpdateEntryCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","get_Item","wua.iwindowsdriverupdateentrycollection_item","wuapi/IWindowsDriverUpdateEntryCollection::Item","wuapi/IWindowsDriverUpdateEntryCollection::get_Item"]
+description: Gets an IWindowsDriverUpdateEntry interface in the collection.
+helpviewer_keywords: ["IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","Item property","IWindowsDriverUpdateEntryCollection.Item","IWindowsDriverUpdateEntryCollection.get_Item","IWindowsDriverUpdateEntryCollection::Item","IWindowsDriverUpdateEntryCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","get_Item","wua.iwindowsdriverupdateentrycollection_item","wuapi/IWindowsDriverUpdateEntryCollection::Item","wuapi/IWindowsDriverUpdateEntryCollection::get_Item"]
 old-location: wua\iwindowsdriverupdateentrycollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: 4d91a59d-895b-41a5-b631-e954fa60b80c

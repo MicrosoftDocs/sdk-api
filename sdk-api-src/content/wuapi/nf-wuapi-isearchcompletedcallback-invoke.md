@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.ISearchCompletedCallback.Invoke
 title: ISearchCompletedCallback::Invoke (wuapi.h)
-description: Handles the notification of the completion of an asynchronous search that is initiated by calling the IUpdateSearcher.BeginSearch method.helpviewer_keywords: ["ISearchCompletedCallback interface [Windows Update Agent]","Invoke method","ISearchCompletedCallback.Invoke","ISearchCompletedCallback::Invoke","Invoke","Invoke method [Windows Update Agent]","Invoke method [Windows Update Agent]","ISearchCompletedCallback interface","wua.isearchcompletedcallback_invoke","wuapi/ISearchCompletedCallback::Invoke"]
+description: Handles the notification of the completion of an asynchronous search that is initiated by calling the IUpdateSearcher.BeginSearch method.
+helpviewer_keywords: ["ISearchCompletedCallback interface [Windows Update Agent]","Invoke method","ISearchCompletedCallback.Invoke","ISearchCompletedCallback::Invoke","Invoke","Invoke method [Windows Update Agent]","Invoke method [Windows Update Agent]","ISearchCompletedCallback interface","wua.isearchcompletedcallback_invoke","wuapi/ISearchCompletedCallback::Invoke"]
 old-location: wua\isearchcompletedcallback_invoke.htm
 tech.root: Wua_Sdk
 ms.assetid: 2d06754a-5750-4986-9f54-98f91dcc705b

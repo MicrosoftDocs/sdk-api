@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseDigest
 title: IWSManEx::SessionFlagUseDigest (wsmandisp.h)
-description: Returns the value of the authentication flag WSManFlagUseDigest for use in the flags parameter of IWSMan::CreateSession.helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagUseDigest method","IWSManEx.SessionFlagUseDigest","IWSManEx::SessionFlagUseDigest","SessionFlagUseDigest","SessionFlagUseDigest method [Windows Remote Management]","SessionFlagUseDigest method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagusedigest","wsmandisp/IWSManEx::SessionFlagUseDigest"]
+description: Returns the value of the authentication flag WSManFlagUseDigest for use in the flags parameter of IWSMan::CreateSession.
+helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagUseDigest method","IWSManEx.SessionFlagUseDigest","IWSManEx::SessionFlagUseDigest","SessionFlagUseDigest","SessionFlagUseDigest method [Windows Remote Management]","SessionFlagUseDigest method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagusedigest","wsmandisp/IWSManEx::SessionFlagUseDigest"]
 old-location: winrm\iwsmanex_sessionflagusedigest.htm
 tech.root: winrm
 ms.assetid: 3aa44847-932e-49c6-a7fd-966a2bb3539d

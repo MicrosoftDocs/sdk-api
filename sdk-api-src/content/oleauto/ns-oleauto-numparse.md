@@ -1,7 +1,8 @@
 ---
 UID: NS:oleauto.__unnamed_struct_0
 title: NUMPARSE (oleauto.h)
-description: Specifies numeric parsing information.helpviewer_keywords: ["NUMPARSE","NUMPARSE structure [Automation]","NUMPRS_CURRENCY","NUMPRS_DECIMAL","NUMPRS_EXPONENT","NUMPRS_HEX_OCT","NUMPRS_INEXACT","NUMPRS_LEADING_MINUS","NUMPRS_LEADING_PLUS","NUMPRS_LEADING_WHITE","NUMPRS_NEG","NUMPRS_PARENS","NUMPRS_STD","NUMPRS_THOUSANDS","NUMPRS_TRAILING_MINUS","NUMPRS_TRAILING_PLUS","NUMPRS_TRAILING_WHITE","NUMPRS_USE_ALL","_oa96_NUMPARSE","automat.numparse","oleauto/NUMPARSE"]
+description: Specifies numeric parsing information.
+helpviewer_keywords: ["NUMPARSE","NUMPARSE structure [Automation]","NUMPRS_CURRENCY","NUMPRS_DECIMAL","NUMPRS_EXPONENT","NUMPRS_HEX_OCT","NUMPRS_INEXACT","NUMPRS_LEADING_MINUS","NUMPRS_LEADING_PLUS","NUMPRS_LEADING_WHITE","NUMPRS_NEG","NUMPRS_PARENS","NUMPRS_STD","NUMPRS_THOUSANDS","NUMPRS_TRAILING_MINUS","NUMPRS_TRAILING_PLUS","NUMPRS_TRAILING_WHITE","NUMPRS_USE_ALL","_oa96_NUMPARSE","automat.numparse","oleauto/NUMPARSE"]
 old-location: automat\numparse.htm
 tech.root: automat
 ms.assetid: d55034ff-4407-40ba-bee3-8e82cd5c497e

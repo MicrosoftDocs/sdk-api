@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetFormatFlags
 title: StringFormat::GetFormatFlags (gdiplusstringformat.h)
-description: The StringFormat::GetFormatFlags method gets the string format flags for this StringFormat object.helpviewer_keywords: ["GetFormatFlags","GetFormatFlags method [GDI+]","GetFormatFlags method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetFormatFlags method","StringFormat.GetFormatFlags","StringFormat::GetFormatFlags","_gdiplus_CLASS_StringFormat_GetFormatFlags_","gdiplus._gdiplus_CLASS_StringFormat_GetFormatFlags_"]
+description: The StringFormat::GetFormatFlags method gets the string format flags for this StringFormat object.
+helpviewer_keywords: ["GetFormatFlags","GetFormatFlags method [GDI+]","GetFormatFlags method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetFormatFlags method","StringFormat.GetFormatFlags","StringFormat::GetFormatFlags","_gdiplus_CLASS_StringFormat_GetFormatFlags_","gdiplus._gdiplus_CLASS_StringFormat_GetFormatFlags_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetFormatFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getformatflags.htm

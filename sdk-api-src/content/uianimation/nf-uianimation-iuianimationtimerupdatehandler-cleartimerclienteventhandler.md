@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
 title: IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler (uianimation.h)
-description: Clears the handler for timer client status change events.helpviewer_keywords: ["ClearTimerClientEventHandler","ClearTimerClientEventHandler method [Windows Animation]","ClearTimerClientEventHandler method [Windows Animation]","IUIAnimationTimerUpdateHandler interface","IUIAnimationTimerUpdateHandler interface [Windows Animation]","ClearTimerClientEventHandler method","IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler","IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler","uianimation.iuianimationtimerupdatehandler_cleartimerclienteventhandler","uianimation/IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler"]
+description: Clears the handler for timer client status change events.
+helpviewer_keywords: ["ClearTimerClientEventHandler","ClearTimerClientEventHandler method [Windows Animation]","ClearTimerClientEventHandler method [Windows Animation]","IUIAnimationTimerUpdateHandler interface","IUIAnimationTimerUpdateHandler interface [Windows Animation]","ClearTimerClientEventHandler method","IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler","IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler","uianimation.iuianimationtimerupdatehandler_cleartimerclienteventhandler","uianimation/IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler"]
 old-location: uianimation\iuianimationtimerupdatehandler_cleartimerclienteventhandler.htm
 tech.root: UIAnimation
 ms.assetid: c7383df5-dbd4-4cae-a682-47f84c2e8106

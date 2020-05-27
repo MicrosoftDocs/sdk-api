@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetID
 title: IWSDHttpMessageParameters::SetID (wsdbase.h)
-description: Sets the transport ID for the current transaction.helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetID method","IWSDHttpMessageParameters.SetID","IWSDHttpMessageParameters::SetID","SetID","SetID method","SetID method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setid","ncd.iwsdhttpmessasgeparameters_setid","wsdbase/IWSDHttpMessageParameters::SetID"]
+description: Sets the transport ID for the current transaction.
+helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetID method","IWSDHttpMessageParameters.SetID","IWSDHttpMessageParameters::SetID","SetID","SetID method","SetID method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setid","ncd.iwsdhttpmessasgeparameters_setid","wsdbase/IWSDHttpMessageParameters::SetID"]
 old-location: ncd\iwsdhttpmessageparameters_setid.htm
 tech.root: WsdApi
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0

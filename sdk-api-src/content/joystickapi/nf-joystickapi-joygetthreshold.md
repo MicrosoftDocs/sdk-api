@@ -1,7 +1,8 @@
 ---
 UID: NF:joystickapi.joyGetThreshold
 title: joyGetThreshold function (joystickapi.h)
-description: The joyGetThreshold function queries a joystick for its current movement threshold.helpviewer_keywords: ["_win32_joyGetThreshold","joyGetThreshold","joyGetThreshold function [Windows Multimedia]","joystickapi/joyGetThreshold","multimedia.joygetthreshold"]
+description: The joyGetThreshold function queries a joystick for its current movement threshold.
+helpviewer_keywords: ["_win32_joyGetThreshold","joyGetThreshold","joyGetThreshold function [Windows Multimedia]","joystickapi/joyGetThreshold","multimedia.joygetthreshold"]
 old-location: multimedia\joygetthreshold.htm
 tech.root: Multimedia
 ms.assetid: 17084365-3fb2-422c-97dc-4501aec7a86c

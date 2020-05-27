@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_3.IDWriteFactory4
 title: IDWriteFactory4 (dwrite_3.h)
-description: The root factory interface for all DirectWrite objects.helpviewer_keywords: ["IDWriteFactory4","IDWriteFactory4 interface [Direct Write]","IDWriteFactory4 interface [Direct Write]","described","directwrite.idwritefactory4","dwrite_3/IDWriteFactory4"]
+description: The root factory interface for all DirectWrite objects.
+helpviewer_keywords: ["IDWriteFactory4","IDWriteFactory4 interface [Direct Write]","IDWriteFactory4 interface [Direct Write]","described","directwrite.idwritefactory4","dwrite_3/IDWriteFactory4"]
 old-location: directwrite\idwritefactory4.htm
 tech.root: DirectWrite
 ms.assetid: D3C5E48A-A062-430A-A196-CAC621F346FC

@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.get_IsConnectedToInternet
 title: INetworkConnection::get_IsConnectedToInternet (netlistmgr.h)
-description: The get_IsConnectedToInternet property specifies if the associated network connection has internet connectivity.helpviewer_keywords: ["INetworkConnection interface [Network Awareness]","get_IsConnectedToInternet method","INetworkConnection.get_IsConnectedToInternet","INetworkConnection::get_IsConnectedToInternet","get_IsConnectedToInternet","get_IsConnectedToInternet method [Network Awareness]","get_IsConnectedToInternet method [Network Awareness]","INetworkConnection interface","netlistmgr/INetworkConnection::get_IsConnectedToInternet","nla.inetworkconnection_get_isconnectedtointernet"]
+description: The get_IsConnectedToInternet property specifies if the associated network connection has internet connectivity.
+helpviewer_keywords: ["INetworkConnection interface [Network Awareness]","get_IsConnectedToInternet method","INetworkConnection.get_IsConnectedToInternet","INetworkConnection::get_IsConnectedToInternet","get_IsConnectedToInternet","get_IsConnectedToInternet method [Network Awareness]","get_IsConnectedToInternet method [Network Awareness]","INetworkConnection interface","netlistmgr/INetworkConnection::get_IsConnectedToInternet","nla.inetworkconnection_get_isconnectedtointernet"]
 old-location: nla\inetworkconnection_get_isconnectedtointernet.htm
 tech.root: nla
 ms.assetid: c5ac2d6b-c96a-478f-add3-617c544dfaf0

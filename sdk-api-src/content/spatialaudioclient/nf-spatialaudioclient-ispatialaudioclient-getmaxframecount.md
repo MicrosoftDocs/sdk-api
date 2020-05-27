@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxFrameCount
 title: ISpatialAudioClient::GetMaxFrameCount (spatialaudioclient.h)
-description: Gets the maximum possible frame count per processing pass. This method can be used to determine the size of the source buffer that should be allocated to convey audio data for each processing pass.helpviewer_keywords: ["GetMaxFrameCount","GetMaxFrameCount method [Core Audio]","GetMaxFrameCount method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","GetMaxFrameCount method","ISpatialAudioClient.GetMaxFrameCount","ISpatialAudioClient::GetMaxFrameCount","coreaudio.ispatialaudioclient_getmaxframecount","spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount"]
+description: Gets the maximum possible frame count per processing pass. This method can be used to determine the size of the source buffer that should be allocated to convey audio data for each processing pass.
+helpviewer_keywords: ["GetMaxFrameCount","GetMaxFrameCount method [Core Audio]","GetMaxFrameCount method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","GetMaxFrameCount method","ISpatialAudioClient.GetMaxFrameCount","ISpatialAudioClient::GetMaxFrameCount","coreaudio.ispatialaudioclient_getmaxframecount","spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount"]
 old-location: coreaudio\ispatialaudioclient_getmaxframecount.htm
 tech.root: CoreAudio
 ms.assetid: CA28103B-6C9C-46C8-9C21-73573B42DDC4

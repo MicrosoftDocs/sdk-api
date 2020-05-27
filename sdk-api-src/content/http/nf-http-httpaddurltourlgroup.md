@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpAddUrlToUrlGroup
 title: HttpAddUrlToUrlGroup function (http.h)
-description: Adds the specified URL to the URL Group identified by the URL Group ID.helpviewer_keywords: ["HttpAddUrlToUrlGroup","HttpAddUrlToUrlGroup function [HTTP]","http.httpaddurltourlgroup","http/HttpAddUrlToUrlGroup"]
+description: Adds the specified URL to the URL Group identified by the URL Group ID.
+helpviewer_keywords: ["HttpAddUrlToUrlGroup","HttpAddUrlToUrlGroup function [HTTP]","http.httpaddurltourlgroup","http/HttpAddUrlToUrlGroup"]
 old-location: http\httpaddurltourlgroup.htm
 tech.root: http
 ms.assetid: e6bf68aa-d6a5-4079-b689-49cfc2303ba5

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamSelector
 title: IMFASFStreamSelector (wmcontainer.h)
-description: Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header.helpviewer_keywords: ["IMFASFStreamSelector","IMFASFStreamSelector interface [Media Foundation]","IMFASFStreamSelector interface [Media Foundation]","described","d2e1fc15-2e12-4698-a4b1-ca8046d228de","mf.imfasfstreamselector","wmcontainer/IMFASFStreamSelector"]
+description: Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header.
+helpviewer_keywords: ["IMFASFStreamSelector","IMFASFStreamSelector interface [Media Foundation]","IMFASFStreamSelector interface [Media Foundation]","described","d2e1fc15-2e12-4698-a4b1-ca8046d228de","mf.imfasfstreamselector","wmcontainer/IMFASFStreamSelector"]
 old-location: mf\imfasfstreamselector.htm
 tech.root: medfound
 ms.assetid: d2e1fc15-2e12-4698-a4b1-ca8046d228de

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkPicture.GetGestureStatus
 title: IInkPicture::GetGestureStatus (msinkaut.h)
-description: Retrieves a value that indicates whether the InkPicture control has interest in a particular application gesture.helpviewer_keywords: ["GetGestureStatus","GetGestureStatus method [Tablet PC]","GetGestureStatus method [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","GetGestureStatus method","IInkPicture.GetGestureStatus","IInkPicture::GetGestureStatus","b4ccc35d-35b5-4633-acc9-efd4c7eb05e3","msinkaut/IInkPicture::GetGestureStatus","tablet.inkpicture_getgesturestatus"]
+description: Retrieves a value that indicates whether the InkPicture control has interest in a particular application gesture.
+helpviewer_keywords: ["GetGestureStatus","GetGestureStatus method [Tablet PC]","GetGestureStatus method [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","GetGestureStatus method","IInkPicture.GetGestureStatus","IInkPicture::GetGestureStatus","b4ccc35d-35b5-4633-acc9-efd4c7eb05e3","msinkaut/IInkPicture::GetGestureStatus","tablet.inkpicture_getgesturestatus"]
 old-location: tablet\inkpicture_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: b4ccc35d-35b5-4633-acc9-efd4c7eb05e3

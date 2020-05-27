@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFRemoteDesktopPlugin.UpdateTopology
 title: IMFRemoteDesktopPlugin::UpdateTopology (mfidl.h)
-description: Modifies a topology for use in a Terminal Services environment.helpviewer_keywords: ["799ba0b4-b015-4899-9496-d8c23d033b24","IMFRemoteDesktopPlugin interface [Media Foundation]","UpdateTopology method","IMFRemoteDesktopPlugin.UpdateTopology","IMFRemoteDesktopPlugin::UpdateTopology","UpdateTopology","UpdateTopology method [Media Foundation]","UpdateTopology method [Media Foundation]","IMFRemoteDesktopPlugin interface","mf.imfremotedesktopplugin_updatetopology","mfidl/IMFRemoteDesktopPlugin::UpdateTopology"]
+description: Modifies a topology for use in a Terminal Services environment.
+helpviewer_keywords: ["799ba0b4-b015-4899-9496-d8c23d033b24","IMFRemoteDesktopPlugin interface [Media Foundation]","UpdateTopology method","IMFRemoteDesktopPlugin.UpdateTopology","IMFRemoteDesktopPlugin::UpdateTopology","UpdateTopology","UpdateTopology method [Media Foundation]","UpdateTopology method [Media Foundation]","IMFRemoteDesktopPlugin interface","mf.imfremotedesktopplugin_updatetopology","mfidl/IMFRemoteDesktopPlugin::UpdateTopology"]
 old-location: mf\imfremotedesktopplugin_updatetopology.htm
 tech.root: medfound
 ms.assetid: 799ba0b4-b015-4899-9496-d8c23d033b24

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Instance_ClearElement
 title: MI_Instance_ClearElement function (mi.h)
-description: Clears the value of the named element (CIM property) and sets it to NULL.helpviewer_keywords: ["MI_Instance_ClearElement","MI_Instance_ClearElement function [Windows Management Infrastructure (MI)]","mi/MI_Instance_ClearElement","wmi_v2.mi_instance_clearelement"]
+description: Clears the value of the named element (CIM property) and sets it to NULL.
+helpviewer_keywords: ["MI_Instance_ClearElement","MI_Instance_ClearElement function [Windows Management Infrastructure (MI)]","mi/MI_Instance_ClearElement","wmi_v2.mi_instance_clearelement"]
 old-location: wmi_v2\mi_instance_clearelement.htm
 tech.root: wmi_v2
 ms.assetid: de945902-4b10-47d1-a374-a1aeab02a787

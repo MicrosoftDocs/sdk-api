@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWritePixelSnapping
 title: IDWritePixelSnapping (dwrite.h)
-description: Defines the pixel snapping properties such as pixels per DIP(device-independent pixel) and the current transform matrix of a text renderer.helpviewer_keywords: ["IDWritePixelSnapping","IDWritePixelSnapping interface [Direct Write]","IDWritePixelSnapping interface [Direct Write]","described","directwrite.IDWritePixelSnapping","dwrite/IDWritePixelSnapping"]
+description: Defines the pixel snapping properties such as pixels per DIP(device-independent pixel) and the current transform matrix of a text renderer.
+helpviewer_keywords: ["IDWritePixelSnapping","IDWritePixelSnapping interface [Direct Write]","IDWritePixelSnapping interface [Direct Write]","described","directwrite.IDWritePixelSnapping","dwrite/IDWritePixelSnapping"]
 old-location: directwrite\IDWritePixelSnapping.htm
 tech.root: DirectWrite
 ms.assetid: b1b1eeb7-934f-42f4-ac01-50973a94996e

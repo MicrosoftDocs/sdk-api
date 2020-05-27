@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._OnFocusChange
 title: IBrowserService2::_OnFocusChange (shdeprecated.h)
-description: Deprecated. Coordinates focus between the base and the derived class when the focus shifts between the derived class's browser toolbars and its view.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_OnFocusChange method","IBrowserService2._OnFocusChange","IBrowserService2::_OnFocusChange","_OnFocusChange","_OnFocusChange method [Windows Shell]","_OnFocusChange method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_OnFocusChange","shell.IBrowserService2__OnFocusChange","zone_IBrowserService2__OnFocusChange"]
+description: Deprecated. Coordinates focus between the base and the derived class when the focus shifts between the derived class's browser toolbars and its view.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_OnFocusChange method","IBrowserService2._OnFocusChange","IBrowserService2::_OnFocusChange","_OnFocusChange","_OnFocusChange method [Windows Shell]","_OnFocusChange method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_OnFocusChange","shell.IBrowserService2__OnFocusChange","zone_IBrowserService2__OnFocusChange"]
 old-location: shell\IBrowserService2__OnFocusChange.htm
 tech.root: shell
 ms.assetid: 724b6f35-c419-4b67-bffd-c509e54715d0

@@ -1,7 +1,8 @@
 ---
 UID: NE:dvdevcod._tagDVD_WARNING
 title: DVD_WARNING (dvdevcod.h)
-description: Specifies DVD warning conditions.helpviewer_keywords: ["DVD_WARNING","DVD_WARNING","DVD_WARNING enumeration [DirectShow]","DVD_WARNINGEnumeration","DVD_WARNING_FormatNotSupported","DVD_WARNING_IllegalNavCommand","DVD_WARNING_InvalidDVD1_0Disc","DVD_WARNING_Open","DVD_WARNING_Read","DVD_WARNING_Seek","dshow.dvd_warning","dvdevcod/DVD_WARNING","dvdevcod/DVD_WARNING_FormatNotSupported","dvdevcod/DVD_WARNING_IllegalNavCommand","dvdevcod/DVD_WARNING_InvalidDVD1_0Disc","dvdevcod/DVD_WARNING_Open","dvdevcod/DVD_WARNING_Read","dvdevcod/DVD_WARNING_Seek"]
+description: Specifies DVD warning conditions.
+helpviewer_keywords: ["DVD_WARNING","DVD_WARNING","DVD_WARNING enumeration [DirectShow]","DVD_WARNINGEnumeration","DVD_WARNING_FormatNotSupported","DVD_WARNING_IllegalNavCommand","DVD_WARNING_InvalidDVD1_0Disc","DVD_WARNING_Open","DVD_WARNING_Read","DVD_WARNING_Seek","dshow.dvd_warning","dvdevcod/DVD_WARNING","dvdevcod/DVD_WARNING_FormatNotSupported","dvdevcod/DVD_WARNING_IllegalNavCommand","dvdevcod/DVD_WARNING_InvalidDVD1_0Disc","dvdevcod/DVD_WARNING_Open","dvdevcod/DVD_WARNING_Read","dvdevcod/DVD_WARNING_Seek"]
 old-location: dshow\dvd_warning.htm
 tech.root: DirectShow
 ms.assetid: e36904de-a28f-4372-8ed1-6b7f38e7dd5e

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetProtocolHandles
 title: IWTSProtocolConnection::GetProtocolHandles (wtsprotocol.h)
-description: IWTSProtocolConnection::GetProtocolHandles is no longer available.helpviewer_keywords: ["GetProtocolHandles","GetProtocolHandles method [Remote Desktop Services]","GetProtocolHandles method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","GetProtocolHandles method","IWTSProtocolConnection.GetProtocolHandles","IWTSProtocolConnection::GetProtocolHandles","termserv.iwtsprotocolconnection_getprotocolhandles","wtsprotocol/IWTSProtocolConnection::GetProtocolHandles"]
+description: IWTSProtocolConnection::GetProtocolHandles is no longer available.
+helpviewer_keywords: ["GetProtocolHandles","GetProtocolHandles method [Remote Desktop Services]","GetProtocolHandles method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","GetProtocolHandles method","IWTSProtocolConnection.GetProtocolHandles","IWTSProtocolConnection::GetProtocolHandles","termserv.iwtsprotocolconnection_getprotocolhandles","wtsprotocol/IWTSProtocolConnection::GetProtocolHandles"]
 old-location: termserv\iwtsprotocolconnection_getprotocolhandles.htm
 tech.root: TermServ
 ms.assetid: d453ac71-4733-4a68-892c-ffca2d2954c6

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.IGetFrame.Begin
 title: IGetFrame::Begin (vfw.h)
-description: The Begin method prepares to extract and decompress copies of frames from a stream. Called when an application uses the AVIStreamGetFrameOpen function.helpviewer_keywords: ["Begin","Begin method [Windows Multimedia]","Begin method [Windows Multimedia]","IGetFrame interface","IGetFrame interface [Windows Multimedia]","Begin method","IGetFrame.Begin","IGetFrame::Begin","_win32_IGetFrame_Begin","multimedia.igetframe_begin","vfw/IGetFrame::Begin"]
+description: The Begin method prepares to extract and decompress copies of frames from a stream. Called when an application uses the AVIStreamGetFrameOpen function.
+helpviewer_keywords: ["Begin","Begin method [Windows Multimedia]","Begin method [Windows Multimedia]","IGetFrame interface","IGetFrame interface [Windows Multimedia]","Begin method","IGetFrame.Begin","IGetFrame::Begin","_win32_IGetFrame_Begin","multimedia.igetframe_begin","vfw/IGetFrame::Begin"]
 old-location: multimedia\igetframe_begin.htm
 tech.root: Multimedia
 ms.assetid: 2d2c1872-e0c3-4fea-bfb9-45b814973072

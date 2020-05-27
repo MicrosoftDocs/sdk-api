@@ -1,7 +1,8 @@
 ---
 UID: NS:uxtheme._BP_ANIMATIONPARAMS
 title: BP_ANIMATIONPARAMS (uxtheme.h)
-description: Defines animation parameters for the BP_PAINTPARAMS structure used by BeginBufferedPaint.helpviewer_keywords: ["*PBP_ANIMATIONPARAMS","BP_ANIMATIONPARAMS","BP_ANIMATIONPARAMS structure [Windows Controls]","PBP_ANIMATIONPARAMS","PBP_ANIMATIONPARAMS structure pointer [Windows Controls]","_shell_BP_ANIMATIONPARAMS","_shell_BP_ANIMATIONPARAMS_cpp","controls.BP_ANIMATIONPARAMS","controls._shell_BP_ANIMATIONPARAMS","uxtheme/BP_ANIMATIONPARAMS","uxtheme/PBP_ANIMATIONPARAMS"]
+description: Defines animation parameters for the BP_PAINTPARAMS structure used by BeginBufferedPaint.
+helpviewer_keywords: ["*PBP_ANIMATIONPARAMS","BP_ANIMATIONPARAMS","BP_ANIMATIONPARAMS structure [Windows Controls]","PBP_ANIMATIONPARAMS","PBP_ANIMATIONPARAMS structure pointer [Windows Controls]","_shell_BP_ANIMATIONPARAMS","_shell_BP_ANIMATIONPARAMS_cpp","controls.BP_ANIMATIONPARAMS","controls._shell_BP_ANIMATIONPARAMS","uxtheme/BP_ANIMATIONPARAMS","uxtheme/PBP_ANIMATIONPARAMS"]
 old-location: controls\BP_ANIMATIONPARAMS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_animationparams.htm

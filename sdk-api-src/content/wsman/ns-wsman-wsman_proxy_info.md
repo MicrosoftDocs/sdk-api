@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_PROXY_INFO
 title: WSMAN_PROXY_INFO (wsman.h)
-description: Specifies proxy information.helpviewer_keywords: ["WSMAN_PROXY_INFO","WSMAN_PROXY_INFO structure [Windows Remote Management]","winrm.wsman_proxy_info","wsman/WSMAN_PROXY_INFO"]
+description: Specifies proxy information.
+helpviewer_keywords: ["WSMAN_PROXY_INFO","WSMAN_PROXY_INFO structure [Windows Remote Management]","winrm.wsman_proxy_info","wsman/WSMAN_PROXY_INFO"]
 old-location: winrm\wsman_proxy_info.htm
 tech.root: winrm
 ms.assetid: 0542fa39-c574-4a5e-b8eb-6ddf8a58600a

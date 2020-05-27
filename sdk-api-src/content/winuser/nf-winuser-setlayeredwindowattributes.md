@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetLayeredWindowAttributes
 title: SetLayeredWindowAttributes function (winuser.h)
-description: Sets the opacity and transparency color key of a layered window.helpviewer_keywords: ["LWA_ALPHA","LWA_COLORKEY","SetLayeredWindowAttributes","SetLayeredWindowAttributes function [Windows and Messages]","_win32_SetLayeredWindowAttributes","_win32_setlayeredwindowattributes_cpp","winmsg.setlayeredwindowattributes","winui._win32_setlayeredwindowattributes","winuser/SetLayeredWindowAttributes"]
+description: Sets the opacity and transparency color key of a layered window.
+helpviewer_keywords: ["LWA_ALPHA","LWA_COLORKEY","SetLayeredWindowAttributes","SetLayeredWindowAttributes function [Windows and Messages]","_win32_SetLayeredWindowAttributes","_win32_setlayeredwindowattributes_cpp","winmsg.setlayeredwindowattributes","winui._win32_setlayeredwindowattributes","winuser/SetLayeredWindowAttributes"]
 old-location: winmsg\setlayeredwindowattributes.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setlayeredwindowattributes.htm

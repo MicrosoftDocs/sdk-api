@@ -1,7 +1,8 @@
 ---
 UID: NS:fwptypes.FWP_BYTE_BLOB_
 title: FWP_BYTE_BLOB (fwptypes.h)
-description: Stores an array containing a variable number of bytes.helpviewer_keywords: ["FWP_BYTE_BLOB","FWP_BYTE_BLOB structure [Filtering]","fwp.fwp_byte_blob_struct","fwptypes/FWP_BYTE_BLOB"]
+description: Stores an array containing a variable number of bytes.
+helpviewer_keywords: ["FWP_BYTE_BLOB","FWP_BYTE_BLOB structure [Filtering]","fwp.fwp_byte_blob_struct","fwptypes/FWP_BYTE_BLOB"]
 old-location: fwp\fwp_byte_blob_struct.htm
 tech.root: fwp
 ms.assetid: 85f360bf-5ee4-4980-b4ce-15ff310d8fbe

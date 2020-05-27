@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmFileSystemPropertyId
 title: FsrmFileSystemPropertyId (fsrmenums.h)
-description: Defines the possible types of file system property ids.helpviewer_keywords: ["FsrmFileSystemPropertyId","FsrmFileSystemPropertyId enumeration [File Server Resource Manager]","FsrmFileSystemPropertyId_DateCreated","FsrmFileSystemPropertyId_DateLastAccessed","FsrmFileSystemPropertyId_DateLastModified","FsrmFileSystemPropertyId_DateNow","FsrmFileSystemPropertyId_FileName","FsrmFileSystemPropertyId_Undefined","fs.fsrmfilesystempropertyid","fsrm.fsrmfilesystempropertyid","fsrmenums/FsrmFileSystemPropertyId","fsrmenums/FsrmFileSystemPropertyId_DateCreated","fsrmenums/FsrmFileSystemPropertyId_DateLastAccessed","fsrmenums/FsrmFileSystemPropertyId_DateLastModified","fsrmenums/FsrmFileSystemPropertyId_DateNow","fsrmenums/FsrmFileSystemPropertyId_FileName","fsrmenums/FsrmFileSystemPropertyId_Undefined"]
+description: Defines the possible types of file system property ids.
+helpviewer_keywords: ["FsrmFileSystemPropertyId","FsrmFileSystemPropertyId enumeration [File Server Resource Manager]","FsrmFileSystemPropertyId_DateCreated","FsrmFileSystemPropertyId_DateLastAccessed","FsrmFileSystemPropertyId_DateLastModified","FsrmFileSystemPropertyId_DateNow","FsrmFileSystemPropertyId_FileName","FsrmFileSystemPropertyId_Undefined","fs.fsrmfilesystempropertyid","fsrm.fsrmfilesystempropertyid","fsrmenums/FsrmFileSystemPropertyId","fsrmenums/FsrmFileSystemPropertyId_DateCreated","fsrmenums/FsrmFileSystemPropertyId_DateLastAccessed","fsrmenums/FsrmFileSystemPropertyId_DateLastModified","fsrmenums/FsrmFileSystemPropertyId_DateNow","fsrmenums/FsrmFileSystemPropertyId_FileName","fsrmenums/FsrmFileSystemPropertyId_Undefined"]
 old-location: fsrm\fsrmfilesystempropertyid.htm
 tech.root: fsrm
 ms.assetid: 01745ffe-c50b-49a3-909f-6c32af6c656f

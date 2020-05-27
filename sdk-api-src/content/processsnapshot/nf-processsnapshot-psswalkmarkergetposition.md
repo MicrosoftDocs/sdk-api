@@ -1,7 +1,8 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerGetPosition
 title: PssWalkMarkerGetPosition function (processsnapshot.h)
-description: Returns the current position of a walk marker.helpviewer_keywords: ["PssWalkMarkerGetPosition","PssWalkMarkerGetPosition function","proc_snap.psswalkmarkergetposition","processsnapshot/PssWalkMarkerGetPosition"]
+description: Returns the current position of a walk marker.
+helpviewer_keywords: ["PssWalkMarkerGetPosition","PssWalkMarkerGetPosition function","proc_snap.psswalkmarkergetposition","processsnapshot/PssWalkMarkerGetPosition"]
 old-location: proc_snap\psswalkmarkergetposition.htm
 tech.root: proc_snap
 ms.assetid: A2058E81-2B01-4436-ACC6-2A3E58BC4E27

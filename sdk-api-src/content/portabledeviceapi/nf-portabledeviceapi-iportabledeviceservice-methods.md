@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Methods
 title: IPortableDeviceService::Methods (portabledeviceapi.h)
-description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.helpviewer_keywords: ["IPortableDeviceService interface [Windows Portable Devices SDK]","Methods method","IPortableDeviceService.Methods","IPortableDeviceService::Methods","Methods","Methods method [Windows Portable Devices SDK]","Methods method [Windows Portable Devices SDK]","IPortableDeviceService interface","portabledeviceapi/IPortableDeviceService::Methods","wpdsdk.iportabledeviceservice_methods"]
+description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.
+helpviewer_keywords: ["IPortableDeviceService interface [Windows Portable Devices SDK]","Methods method","IPortableDeviceService.Methods","IPortableDeviceService::Methods","Methods","Methods method [Windows Portable Devices SDK]","Methods method [Windows Portable Devices SDK]","IPortableDeviceService interface","portabledeviceapi/IPortableDeviceService::Methods","wpdsdk.iportabledeviceservice_methods"]
 old-location: wpdsdk\iportabledeviceservice_methods.htm
 tech.root: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07

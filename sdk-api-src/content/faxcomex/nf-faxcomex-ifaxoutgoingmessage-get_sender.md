@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Sender
 title: IFaxOutgoingMessage::get_Sender (faxcomex.h)
-description: The IFaxOutgoingMessage::get_Sender property retrieves an interface containing information about the sender of the fax message.helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Sender property","IFaxOutgoingMessage.Sender","IFaxOutgoingMessage.get_Sender","IFaxOutgoingMessage::Sender","IFaxOutgoingMessage::get_Sender","Sender property [Fax Service]","Sender property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.sender_cpp","fax._mfax_faxoutgoingmessage_sender_cpp","faxcomex/IFaxOutgoingMessage::Sender","faxcomex/IFaxOutgoingMessage::get_Sender","get_Sender"]
+description: The IFaxOutgoingMessage::get_Sender property retrieves an interface containing information about the sender of the fax message.
+helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Sender property","IFaxOutgoingMessage.Sender","IFaxOutgoingMessage.get_Sender","IFaxOutgoingMessage::Sender","IFaxOutgoingMessage::get_Sender","Sender property [Fax Service]","Sender property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.sender_cpp","fax._mfax_faxoutgoingmessage_sender_cpp","faxcomex/IFaxOutgoingMessage::Sender","faxcomex/IFaxOutgoingMessage::get_Sender","get_Sender"]
 old-location: fax\_mfax_faxoutgoingmessage_sender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1iya_cpp.htm

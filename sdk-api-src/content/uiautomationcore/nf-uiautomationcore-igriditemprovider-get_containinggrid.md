@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_ContainingGrid
 title: IGridItemProvider::get_ContainingGrid (uiautomationcore.h)
-description: Specifies the UI Automation provider that implements IGridProvider and represents the container of this cell or item.helpviewer_keywords: ["ContainingGrid property [Windows Accessibility]","ContainingGrid property [Windows Accessibility]","IGridItemProvider interface","IGridItemProvider interface [Windows Accessibility]","ContainingGrid property","IGridItemProvider.ContainingGrid","IGridItemProvider.get_ContainingGrid","IGridItemProvider::ContainingGrid","IGridItemProvider::get_ContainingGrid","get_ContainingGrid","uiauto.uiauto_IGridItemProvider_ContainingGrid","uiauto_IGridItemProvider_ContainingGrid","uiautomationcore/IGridItemProvider::ContainingGrid","uiautomationcore/IGridItemProvider::get_ContainingGrid","winauto.uiauto_IGridItemProvider_ContainingGrid"]
+description: Specifies the UI Automation provider that implements IGridProvider and represents the container of this cell or item.
+helpviewer_keywords: ["ContainingGrid property [Windows Accessibility]","ContainingGrid property [Windows Accessibility]","IGridItemProvider interface","IGridItemProvider interface [Windows Accessibility]","ContainingGrid property","IGridItemProvider.ContainingGrid","IGridItemProvider.get_ContainingGrid","IGridItemProvider::ContainingGrid","IGridItemProvider::get_ContainingGrid","get_ContainingGrid","uiauto.uiauto_IGridItemProvider_ContainingGrid","uiauto_IGridItemProvider_ContainingGrid","uiautomationcore/IGridItemProvider::ContainingGrid","uiautomationcore/IGridItemProvider::get_ContainingGrid","winauto.uiauto_IGridItemProvider_ContainingGrid"]
 old-location: winauto\uiauto_IGridItemProvider_ContainingGrid.htm
 tech.root: WinAuto
 ms.assetid: 760abeea-e432-49e3-a2df-0f6f30b029f0

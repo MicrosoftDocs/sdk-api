@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayPutElement
 title: SafeArrayPutElement function (oleauto.h)
-description: Stores the data element at the specified location in the array.helpviewer_keywords: ["SafeArrayPutElement","SafeArrayPutElement function [Automation]","_oa96_SafeArrayPutElement","automat.safearrayputelement","oleauto/SafeArrayPutElement"]
+description: Stores the data element at the specified location in the array.
+helpviewer_keywords: ["SafeArrayPutElement","SafeArrayPutElement function [Automation]","_oa96_SafeArrayPutElement","automat.safearrayputelement","oleauto/SafeArrayPutElement"]
 old-location: automat\safearrayputelement.htm
 tech.root: automat
 ms.assetid: 7c837b4f-d319-4d98-934a-b585fe521bf8

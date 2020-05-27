@@ -1,7 +1,8 @@
 ---
 UID: NS:psapi._PSAPI_WS_WATCH_INFORMATION_EX
 title: PSAPI_WS_WATCH_INFORMATION_EX (psapi.h)
-description: Contains extended information about a page added to a process working set.helpviewer_keywords: ["*PPSAPI_WS_WATCH_INFORMATION_EX","PPSAPI_WS_WATCH_INFORMATION_EX","PPSAPI_WS_WATCH_INFORMATION_EX structure pointer [PSAPI]","PSAPI_WS_WATCH_INFORMATION_EX","PSAPI_WS_WATCH_INFORMATION_EX structure [PSAPI]","base.psapi_ws_watch_information_ex","psapi.psapi_ws_watch_information_ex","psapi/PPSAPI_WS_WATCH_INFORMATION_EX","psapi/PSAPI_WS_WATCH_INFORMATION_EX"]
+description: Contains extended information about a page added to a process working set.
+helpviewer_keywords: ["*PPSAPI_WS_WATCH_INFORMATION_EX","PPSAPI_WS_WATCH_INFORMATION_EX","PPSAPI_WS_WATCH_INFORMATION_EX structure pointer [PSAPI]","PSAPI_WS_WATCH_INFORMATION_EX","PSAPI_WS_WATCH_INFORMATION_EX structure [PSAPI]","base.psapi_ws_watch_information_ex","psapi.psapi_ws_watch_information_ex","psapi/PPSAPI_WS_WATCH_INFORMATION_EX","psapi/PSAPI_WS_WATCH_INFORMATION_EX"]
 old-location: psapi\psapi_ws_watch_information_ex.htm
 tech.root: psapi
 ms.assetid: fb0429b1-ec93-401c-aeb1-f7e9d9acfa47

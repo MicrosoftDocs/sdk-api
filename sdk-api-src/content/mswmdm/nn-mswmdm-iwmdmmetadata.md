@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMMetaData
 title: IWMDMMetaData (mswmdm.h)
-description: The IWMDMMetaData interface sets and retrieves metadata properties (such as artist, album, genre, and so on) of a storage.helpviewer_keywords: ["IWMDMMetaData","IWMDMMetaData interface [windows Media Device Manager]","IWMDMMetaData interface [windows Media Device Manager]","described","IWMDMMetaDataInterface","mswmdm/IWMDMMetaData","wmdm.iwmdmmetadata"]
+description: The IWMDMMetaData interface sets and retrieves metadata properties (such as artist, album, genre, and so on) of a storage.
+helpviewer_keywords: ["IWMDMMetaData","IWMDMMetaData interface [windows Media Device Manager]","IWMDMMetaData interface [windows Media Device Manager]","described","IWMDMMetaDataInterface","mswmdm/IWMDMMetaData","wmdm.iwmdmmetadata"]
 old-location: wmdm\iwmdmmetadata.htm
 tech.root: WMDM
 ms.assetid: ea57a851-0b9f-444c-9819-a278f2ece2b0

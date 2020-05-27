@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.CreateViewWindow
 title: IBrowserService2::CreateViewWindow (shdeprecated.h)
-description: Deprecated. Coordinates the updating of state when creating a new browser view window.helpviewer_keywords: ["CreateViewWindow","CreateViewWindow method [Windows Shell]","CreateViewWindow method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","CreateViewWindow method","IBrowserService2.CreateViewWindow","IBrowserService2::CreateViewWindow","shdeprecated/IBrowserService2::CreateViewWindow","shell.IBrowserService2_CreateViewWindow","zone_IBrowserService2_CreateViewWindow"]
+description: Deprecated. Coordinates the updating of state when creating a new browser view window.
+helpviewer_keywords: ["CreateViewWindow","CreateViewWindow method [Windows Shell]","CreateViewWindow method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","CreateViewWindow method","IBrowserService2.CreateViewWindow","IBrowserService2::CreateViewWindow","shdeprecated/IBrowserService2::CreateViewWindow","shell.IBrowserService2_CreateViewWindow","zone_IBrowserService2_CreateViewWindow"]
 old-location: shell\IBrowserService2_CreateViewWindow.htm
 tech.root: shell
 ms.assetid: f5e7f18b-86b3-4a30-bbb0-8c7f615c7186

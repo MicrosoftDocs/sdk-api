@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICPersistStream.SaveEx
 title: IWICPersistStream::SaveEx (wincodecsdk.h)
-description: Saves the IWICPersistStream to the given input IStream using the given parameters.helpviewer_keywords: ["IWICPersistStream interface [Windows Imaging Component]","SaveEx method","IWICPersistStream.SaveEx","IWICPersistStream::SaveEx","SaveEx","SaveEx method [Windows Imaging Component]","SaveEx method [Windows Imaging Component]","IWICPersistStream interface","_wic_codec_iwicpersiststream_saveex","wic._wic_codec_iwicpersiststream_saveex","wincodecsdk/IWICPersistStream::SaveEx"]
+description: Saves the IWICPersistStream to the given input IStream using the given parameters.
+helpviewer_keywords: ["IWICPersistStream interface [Windows Imaging Component]","SaveEx method","IWICPersistStream.SaveEx","IWICPersistStream::SaveEx","SaveEx","SaveEx method [Windows Imaging Component]","SaveEx method [Windows Imaging Component]","IWICPersistStream interface","_wic_codec_iwicpersiststream_saveex","wic._wic_codec_iwicpersiststream_saveex","wincodecsdk/IWICPersistStream::SaveEx"]
 old-location: wic\_wic_codec_iwicpersiststream_saveex.htm
 tech.root: wic
 ms.assetid: 8820ad87-a808-48db-91d8-c76bca1c832c

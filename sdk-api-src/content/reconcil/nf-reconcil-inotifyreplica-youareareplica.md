@@ -1,7 +1,8 @@
 ---
 UID: NF:reconcil.INotifyReplica.YouAreAReplica
 title: INotifyReplica::YouAreAReplica (reconcil.h)
-description: Notifies an object that it may be subject to subsequent reconciliation through the Reconcile method.helpviewer_keywords: ["INotifyReplica interface [Windows Shell]","YouAreAReplica method","INotifyReplica.YouAreAReplica","INotifyReplica::YouAreAReplica","YouAreAReplica","YouAreAReplica method [Windows Shell]","YouAreAReplica method [Windows Shell]","INotifyReplica interface","_win32_INotifyReplica_YouAreAReplica","reconcil/INotifyReplica::YouAreAReplica","shell.INotifyReplica_YouAreAReplica"]
+description: Notifies an object that it may be subject to subsequent reconciliation through the Reconcile method.
+helpviewer_keywords: ["INotifyReplica interface [Windows Shell]","YouAreAReplica method","INotifyReplica.YouAreAReplica","INotifyReplica::YouAreAReplica","YouAreAReplica","YouAreAReplica method [Windows Shell]","YouAreAReplica method [Windows Shell]","INotifyReplica interface","_win32_INotifyReplica_YouAreAReplica","reconcil/INotifyReplica::YouAreAReplica","shell.INotifyReplica_YouAreAReplica"]
 old-location: shell\INotifyReplica_YouAreAReplica.htm
 tech.root: shell
 ms.assetid: e6cbdb94-1804-4d6d-890e-d3fd596fec89

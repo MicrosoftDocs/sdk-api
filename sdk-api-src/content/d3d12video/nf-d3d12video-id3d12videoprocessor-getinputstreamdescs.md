@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessor.GetInputStreamDescs
 title: ID3D12VideoProcessor::GetInputStreamDescs
-description: Gets the input stream descriptions provided when the video processor was created with a call to ID3D12VideoDevice::CreateVideoProcessor.helpviewer_keywords: ["ID3D12VideoProcessor::GetInputStreamDescs","GetInputStreamDescs","ID3D12VideoProcessor.GetInputStreamDescs","ID3D12VideoProcessor::GetInputStreamDescs","ID3D12VideoProcessor.GetInputStreamDescs"]
+description: Gets the input stream descriptions provided when the video processor was created with a call to ID3D12VideoDevice::CreateVideoProcessor.
+helpviewer_keywords: ["ID3D12VideoProcessor::GetInputStreamDescs","GetInputStreamDescs","ID3D12VideoProcessor.GetInputStreamDescs","ID3D12VideoProcessor::GetInputStreamDescs","ID3D12VideoProcessor.GetInputStreamDescs"]
 tech.root: mf
 ms.assetid: 1973387b-966f-4a85-8a28-74a324d80697
 ms.date: 05/28/2019

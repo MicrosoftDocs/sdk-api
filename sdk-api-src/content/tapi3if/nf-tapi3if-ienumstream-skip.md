@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.IEnumStream.Skip
 title: IEnumStream::Skip (tapi3if.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumStream interface [TAPI 2.2]","Skip method","IEnumStream.Skip","IEnumStream::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumStream interface","_tapi3_ienumstream_skip","tapi3.ienumstream_skip","tapi3if/IEnumStream::Skip"]
+description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumStream interface [TAPI 2.2]","Skip method","IEnumStream.Skip","IEnumStream::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumStream interface","_tapi3_ienumstream_skip","tapi3.ienumstream_skip","tapi3if/IEnumStream::Skip"]
 old-location: tapi3\ienumstream_skip.htm
 tech.root: Tapi
 ms.assetid: aa9f3a77-4e5c-43b7-9526-b621a300c2ec

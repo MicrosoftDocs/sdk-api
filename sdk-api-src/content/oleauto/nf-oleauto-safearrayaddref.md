@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayAddRef
 title: SafeArrayAddRef function (oleauto.h)
-description: Increases the pinning reference count of the descriptor for the specified safe array by one, and may increase the pinning reference count of the data for the specified safe array by one if that data was dynamically allocated, as determined by the descriptor of the safe array.helpviewer_keywords: ["SafeArrayAddRef","SafeArrayAddRef function [Automation]","automat.safearrayaddref","oleauto/SafeArrayAddRef"]
+description: Increases the pinning reference count of the descriptor for the specified safe array by one, and may increase the pinning reference count of the data for the specified safe array by one if that data was dynamically allocated, as determined by the descriptor of the safe array.
+helpviewer_keywords: ["SafeArrayAddRef","SafeArrayAddRef function [Automation]","automat.safearrayaddref","oleauto/SafeArrayAddRef"]
 old-location: automat\safearrayaddref.htm
 tech.root: automat
 ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB

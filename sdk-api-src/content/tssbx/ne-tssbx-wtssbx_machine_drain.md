@@ -1,7 +1,8 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0001
 title: WTSSBX_MACHINE_DRAIN (tssbx.h)
-description: Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["WTSSBX_MACHINE_DRAIN","WTSSBX_MACHINE_DRAIN enumeration [Remote Desktop Services]","WTSSBX_MACHINE_DRAIN_OFF","WTSSBX_MACHINE_DRAIN_ON","WTSSBX_MACHINE_DRAIN_UNSPEC","termserv.wtssbx_machine_drain","tssbx/WTSSBX_MACHINE_DRAIN","tssbx/WTSSBX_MACHINE_DRAIN_OFF","tssbx/WTSSBX_MACHINE_DRAIN_ON","tssbx/WTSSBX_MACHINE_DRAIN_UNSPEC"]
+description: Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
+helpviewer_keywords: ["WTSSBX_MACHINE_DRAIN","WTSSBX_MACHINE_DRAIN enumeration [Remote Desktop Services]","WTSSBX_MACHINE_DRAIN_OFF","WTSSBX_MACHINE_DRAIN_ON","WTSSBX_MACHINE_DRAIN_UNSPEC","termserv.wtssbx_machine_drain","tssbx/WTSSBX_MACHINE_DRAIN","tssbx/WTSSBX_MACHINE_DRAIN_OFF","tssbx/WTSSBX_MACHINE_DRAIN_ON","tssbx/WTSSBX_MACHINE_DRAIN_UNSPEC"]
 old-location: termserv\wtssbx_machine_drain.htm
 tech.root: TermServ
 ms.assetid: 251d1534-0571-427a-a9a1-2327eba55c2d

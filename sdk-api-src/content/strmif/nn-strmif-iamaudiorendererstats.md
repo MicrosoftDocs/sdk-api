@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMAudioRendererStats
 title: IAMAudioRendererStats (strmif.h)
-description: The IAMAudioRendererStats interface retrieves statistical performance information from an audio renderer filter.This interface is intended for use during development, to log performance data from the audio renderer.helpviewer_keywords: ["IAMAudioRendererStats","IAMAudioRendererStats interface [DirectShow]","IAMAudioRendererStats interface [DirectShow]","described","IAMAudioRendererStatsInterface","dshow.iamaudiorendererstats","strmif/IAMAudioRendererStats"]
+description: The IAMAudioRendererStats interface retrieves statistical performance information from an audio renderer filter.This interface is intended for use during development, to log performance data from the audio renderer.
+helpviewer_keywords: ["IAMAudioRendererStats","IAMAudioRendererStats interface [DirectShow]","IAMAudioRendererStats interface [DirectShow]","described","IAMAudioRendererStatsInterface","dshow.iamaudiorendererstats","strmif/IAMAudioRendererStats"]
 old-location: dshow\iamaudiorendererstats.htm
 tech.root: DirectShow
 ms.assetid: f5cca658-73ce-4f4d-8992-afb7824f4117

@@ -1,7 +1,8 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryPublisherNotify
 title: IWSDiscoveryPublisherNotify (wsddisco.h)
-description: Is implemented by the client program to receive callback notifications from IWSDiscoveryPublisher.helpviewer_keywords: ["IWSDiscoveryPublisherNotify","IWSDiscoveryPublisherNotify interface","IWSDiscoveryPublisherNotify interface","described","ncd.iwsdiscoverypublishernotify","wsddisco/IWSDiscoveryPublisherNotify"]
+description: Is implemented by the client program to receive callback notifications from IWSDiscoveryPublisher.
+helpviewer_keywords: ["IWSDiscoveryPublisherNotify","IWSDiscoveryPublisherNotify interface","IWSDiscoveryPublisherNotify interface","described","ncd.iwsdiscoverypublishernotify","wsddisco/IWSDiscoveryPublisherNotify"]
 old-location: ncd\iwsdiscoverypublishernotify.htm
 tech.root: WsdApi
 ms.assetid: 6e7e0ab8-dffe-47c2-916c-a6734eb4ac44

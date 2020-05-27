@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Serialize
 title: ISyncKnowledge::Serialize (winsync.h)
-description: Serializes the knowledge object data to a byte array.helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","Serialize method","ISyncKnowledge.Serialize","ISyncKnowledge::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_serialize","winsync/ISyncKnowledge::Serialize"]
+description: Serializes the knowledge object data to a byte array.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","Serialize method","ISyncKnowledge.Serialize","ISyncKnowledge::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_serialize","winsync/ISyncKnowledge::Serialize"]
 old-location: winsync\isyncknowledge_serialize.htm
 tech.root: winsync
 ms.assetid: 1feb0626-78f0-4d37-b3a0-c87a7fb22753

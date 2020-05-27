@@ -1,7 +1,8 @@
 ---
 UID: NF:winerror.MAKE_HRESULT
 title: MAKE_HRESULT macro (winerror.h)
-description: Creates an HRESULT value from its component pieces.helpviewer_keywords: ["MAKE_HRESULT","MAKE_HRESULT macro [COM]","_com_MAKE_HRESULT","com.make_hresult","com.make_hresult_macro","dmerror/MAKE_HRESULT"]
+description: Creates an HRESULT value from its component pieces.
+helpviewer_keywords: ["MAKE_HRESULT","MAKE_HRESULT macro [COM]","_com_MAKE_HRESULT","com.make_hresult","com.make_hresult_macro","dmerror/MAKE_HRESULT"]
 old-location: com\make_hresult_macro.htm
 tech.root: com
 ms.assetid: f9624cbd-35a4-4e44-a796-cf463366299a

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteRecord
 title: IBitsPeerCacheAdministration::DeleteRecord (bits3_0.h)
-description: Deletes a record and file from the cache. This method uses the record's identifier to identify the record to delete.helpviewer_keywords: ["DeleteRecord","DeleteRecord method [BITS]","DeleteRecord method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","DeleteRecord method","IBitsPeerCacheAdministration.DeleteRecord","IBitsPeerCacheAdministration::DeleteRecord","bits.ibitspeercacheadministration_deleterecord","bits3_0/IBitsPeerCacheAdministration::DeleteRecord"]
+description: Deletes a record and file from the cache. This method uses the record's identifier to identify the record to delete.
+helpviewer_keywords: ["DeleteRecord","DeleteRecord method [BITS]","DeleteRecord method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","DeleteRecord method","IBitsPeerCacheAdministration.DeleteRecord","IBitsPeerCacheAdministration::DeleteRecord","bits.ibitspeercacheadministration_deleterecord","bits3_0/IBitsPeerCacheAdministration::DeleteRecord"]
 old-location: bits\ibitspeercacheadministration_deleterecord.htm
 tech.root: Bits
 ms.assetid: c86199c3-9fe7-4d8f-8b33-b12b65b94e54

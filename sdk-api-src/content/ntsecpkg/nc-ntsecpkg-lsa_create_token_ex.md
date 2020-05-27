@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_TOKEN_EX
 title: LSA_CREATE_TOKEN_EX (ntsecpkg.h)
-description: Creates tokens while processing calls to SpAcceptLsaModeContext.helpviewer_keywords: ["CreateTokenEx","CreateTokenEx callback function [Security]","LSA_CREATE_TOKEN_EX","LSA_CREATE_TOKEN_EX callback","LsaTokenInformationNull","LsaTokenInformationV1","ntsecpkg/CreateTokenEx","security.createtokenex"]
+description: Creates tokens while processing calls to SpAcceptLsaModeContext.
+helpviewer_keywords: ["CreateTokenEx","CreateTokenEx callback function [Security]","LSA_CREATE_TOKEN_EX","LSA_CREATE_TOKEN_EX callback","LsaTokenInformationNull","LsaTokenInformationV1","ntsecpkg/CreateTokenEx","security.createtokenex"]
 old-location: security\createtokenex.htm
 tech.root: SecAuthN
 ms.assetid: 1f12d8a4-6cbd-43e3-98a7-eaf3d30a053e

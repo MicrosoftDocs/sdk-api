@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._endcomposition
 title: ENDCOMPOSITIONNOTIFY (richedit.h)
-description: Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.helpviewer_keywords: ["ECN_ENDCOMPOSITION","ECN_NEWTEXT","ENDCOMPOSITIONNOTIFY","ENDCOMPOSITIONNOTIFY structure [Windows Controls]","controls.endcompositionnotify","richedit/ENDCOMPOSITIONNOTIFY"]
+description: Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.
+helpviewer_keywords: ["ECN_ENDCOMPOSITION","ECN_NEWTEXT","ENDCOMPOSITIONNOTIFY","ENDCOMPOSITIONNOTIFY structure [Windows Controls]","controls.endcompositionnotify","richedit/ENDCOMPOSITIONNOTIFY"]
 old-location: controls\endcompositionnotify.htm
 tech.root: Controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7

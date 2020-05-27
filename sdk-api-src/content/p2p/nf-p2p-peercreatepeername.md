@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCreatePeerName
 title: PeerCreatePeerName function (p2p.h)
-description: The PeerCreatePeerName function creates a new name based on the existing name of the specified peer identity and classifier. However, a new identity is not created by a call to PeerCreatePeerName.helpviewer_keywords: ["PeerCreatePeerName","PeerCreatePeerName function [Peer Networking]","p2p.peercreatepeername","p2p/PeerCreatePeerName"]
+description: The PeerCreatePeerName function creates a new name based on the existing name of the specified peer identity and classifier. However, a new identity is not created by a call to PeerCreatePeerName.
+helpviewer_keywords: ["PeerCreatePeerName","PeerCreatePeerName function [Peer Networking]","p2p.peercreatepeername","p2p/PeerCreatePeerName"]
 old-location: p2p\peercreatepeername.htm
 tech.root: P2PSdk
 ms.assetid: 8248b0ae-5d35-4d6e-91ef-c210033c99ef

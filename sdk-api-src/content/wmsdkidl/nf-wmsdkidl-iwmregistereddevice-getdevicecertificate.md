@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceCertificate
 title: IWMRegisteredDevice::GetDeviceCertificate (wmsdkidl.h)
-description: The GetDeviceCertificate method retrieves the certificate of the device.helpviewer_keywords: ["GetDeviceCertificate","GetDeviceCertificate method [windows Media Format]","GetDeviceCertificate method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetDeviceCertificate method","IWMRegisteredDevice.GetDeviceCertificate","IWMRegisteredDevice::GetDeviceCertificate","IWMRegisteredDeviceGetDeviceCertificate","wmformat.iwmregistereddevice_getdevicecertificate","wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate"]
+description: The GetDeviceCertificate method retrieves the certificate of the device.
+helpviewer_keywords: ["GetDeviceCertificate","GetDeviceCertificate method [windows Media Format]","GetDeviceCertificate method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetDeviceCertificate method","IWMRegisteredDevice.GetDeviceCertificate","IWMRegisteredDevice::GetDeviceCertificate","IWMRegisteredDeviceGetDeviceCertificate","wmformat.iwmregistereddevice_getdevicecertificate","wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate"]
 old-location: wmformat\iwmregistereddevice_getdevicecertificate.htm
 tech.root: wmformat
 ms.assetid: 80313abc-2212-4b1a-9d4e-9f3015370ea7

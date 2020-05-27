@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYA
 title: OLEUIPASTEENTRYA (oledlg.h)
-description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.helpviewer_keywords: ["*LPOLEUIPASTEENTRYA","*POLEUIPASTEENTRYA","LPOLEUIPASTEENTRY","LPOLEUIPASTEENTRY structure pointer [COM]","OLEUIPASTEENTRY","OLEUIPASTEENTRY structure [COM]","OLEUIPASTEENTRYA","OLEUIPASTEENTRYW","POLEUIPASTEENTRY","POLEUIPASTEENTRY structure pointer [COM]","_ole_OLEUIPASTEENTRY","com.oleuipasteentry_struct","oledlg/LPOLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRYA","oledlg/OLEUIPASTEENTRYW","oledlg/POLEUIPASTEENTRY"]
+description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
+helpviewer_keywords: ["*LPOLEUIPASTEENTRYA","*POLEUIPASTEENTRYA","LPOLEUIPASTEENTRY","LPOLEUIPASTEENTRY structure pointer [COM]","OLEUIPASTEENTRY","OLEUIPASTEENTRY structure [COM]","OLEUIPASTEENTRYA","OLEUIPASTEENTRYW","POLEUIPASTEENTRY","POLEUIPASTEENTRY structure pointer [COM]","_ole_OLEUIPASTEENTRY","com.oleuipasteentry_struct","oledlg/LPOLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRYA","oledlg/OLEUIPASTEENTRYW","oledlg/POLEUIPASTEENTRY"]
 old-location: com\oleuipasteentry_struct.htm
 tech.root: com
 ms.assetid: 9c84bb0e-d998-4e35-bf34-2377f5cd0cb7

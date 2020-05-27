@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsZoomed
 title: IsZoomed function (winuser.h)
-description: Determines whether a window is maximized.helpviewer_keywords: ["IsZoomed","IsZoomed function [Windows and Messages]","_win32_IsZoomed","_win32_iszoomed_cpp","winmsg.iszoomed","winui._win32_iszoomed","winuser/IsZoomed"]
+description: Determines whether a window is maximized.
+helpviewer_keywords: ["IsZoomed","IsZoomed function [Windows and Messages]","_win32_IsZoomed","_win32_iszoomed_cpp","winmsg.iszoomed","winui._win32_iszoomed","winuser/IsZoomed"]
 old-location: winmsg\iszoomed.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iszoomed.htm

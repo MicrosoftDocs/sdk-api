@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.Close
 title: ID3D12VideoProcessCommandList::Close
-description: Indicates that recording to the command list has finished.helpviewer_keywords: ["ID3D12VideoProcessCommandList::Close","Close","ID3D12VideoProcessCommandList.Close","ID3D12VideoProcessCommandList::Close","ID3D12VideoProcessCommandList.Close"]
+description: Indicates that recording to the command list has finished.
+helpviewer_keywords: ["ID3D12VideoProcessCommandList::Close","Close","ID3D12VideoProcessCommandList.Close","ID3D12VideoProcessCommandList::Close","ID3D12VideoProcessCommandList.Close"]
 tech.root: mf
 ms.assetid: 2d8a7a37-32b4-4fb0-b8db-d8460624aa63
 ms.date: 05/28/2019

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfComposition
 title: ITfComposition (msctf.h)
-description: The ITfComposition interface is implemented by the TSF manager and is used by a text service to obtain data about and terminate a composition. An instance of this interface is provided by the ITfContextComposition::StartComposition method.helpviewer_keywords: ["ITfComposition","ITfComposition interface [Text Services Framework]","ITfComposition interface [Text Services Framework]","described","_tsf_itfcomposition_ref","msctf/ITfComposition","tsf.itfcomposition"]
+description: The ITfComposition interface is implemented by the TSF manager and is used by a text service to obtain data about and terminate a composition. An instance of this interface is provided by the ITfContextComposition::StartComposition method.
+helpviewer_keywords: ["ITfComposition","ITfComposition interface [Text Services Framework]","ITfComposition interface [Text Services Framework]","described","_tsf_itfcomposition_ref","msctf/ITfComposition","tsf.itfcomposition"]
 old-location: tsf\itfcomposition.htm
 tech.root: TSF
 ms.assetid: b1eb5782-13e3-4cbb-8c37-ce7219d1e838

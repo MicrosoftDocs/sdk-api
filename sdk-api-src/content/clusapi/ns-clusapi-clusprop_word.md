@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_WORD
 title: CLUSPROP_WORD (clusapi.h)
-description: Describes numeric data.helpviewer_keywords: ["*PCLUSPROP_WORD","CLUSPROP_WORD","CLUSPROP_WORD structure [Failover Cluster]","PCLUSPROP_WORD","PCLUSPROP_WORD structure pointer [Failover Cluster]","_wolf_clusprop_word","clusapi/CLUSPROP_WORD","clusapi/PCLUSPROP_WORD","mscs.clusprop_word"]
+description: Describes numeric data.
+helpviewer_keywords: ["*PCLUSPROP_WORD","CLUSPROP_WORD","CLUSPROP_WORD structure [Failover Cluster]","PCLUSPROP_WORD","PCLUSPROP_WORD structure pointer [Failover Cluster]","_wolf_clusprop_word","clusapi/CLUSPROP_WORD","clusapi/PCLUSPROP_WORD","mscs.clusprop_word"]
 old-location: mscs\clusprop_word.htm
 tech.root: MsCS
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef

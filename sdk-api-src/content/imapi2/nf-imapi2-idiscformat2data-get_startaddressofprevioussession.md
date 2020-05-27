@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_StartAddressOfPreviousSession
 title: IDiscFormat2Data::get_StartAddressOfPreviousSession (imapi2.h)
-description: Retrieves the first sector of the previous write session.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_StartAddressOfPreviousSession method","IDiscFormat2Data.get_StartAddressOfPreviousSession","IDiscFormat2Data::get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession method [IMAPI]","get_StartAddressOfPreviousSession method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_startaddressofprevioussession","imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession"]
+description: Retrieves the first sector of the previous write session.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_StartAddressOfPreviousSession method","IDiscFormat2Data.get_StartAddressOfPreviousSession","IDiscFormat2Data::get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession method [IMAPI]","get_StartAddressOfPreviousSession method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_startaddressofprevioussession","imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession"]
 old-location: imapi\idiscformat2data_get_startaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: a2f75240-9334-42a3-82d6-5ce9ddf1f3a2

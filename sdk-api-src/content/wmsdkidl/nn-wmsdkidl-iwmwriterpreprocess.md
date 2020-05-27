@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPreprocess
 title: IWMWriterPreprocess (wmsdkidl.h)
-description: The IWMWriterPreprocess interface handles multi-pass encoding.helpviewer_keywords: ["IWMWriterPreprocess","IWMWriterPreprocess interface [windows Media Format]","IWMWriterPreprocess interface [windows Media Format]","described","IWMWriterPreprocessInterface","wmformat.iwmwriterpreprocess","wmsdkidl/IWMWriterPreprocess"]
+description: The IWMWriterPreprocess interface handles multi-pass encoding.
+helpviewer_keywords: ["IWMWriterPreprocess","IWMWriterPreprocess interface [windows Media Format]","IWMWriterPreprocess interface [windows Media Format]","described","IWMWriterPreprocessInterface","wmformat.iwmwriterpreprocess","wmsdkidl/IWMWriterPreprocess"]
 old-location: wmformat\iwmwriterpreprocess.htm
 tech.root: wmformat
 ms.assetid: 06803639-3f21-4003-a460-16a0b5cc6d6f

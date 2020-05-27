@@ -1,7 +1,8 @@
 ---
 UID: NS:nspapi._SERVICE_TYPE_INFO_ABSA
 title: SERVICE_TYPE_INFO_ABSA (nspapi.h)
-description: The SERVICE_TYPE_INFO_ABS structure contains information about a network service type. Use SERVICE_TYPE_INFO_ABS to add a network service type to a namespace.helpviewer_keywords: ["*LPSERVICE_TYPE_INFO_ABSA","*PSERVICE_TYPE_INFO_ABSA","SERVICE_TYPE_INFO_ABS","SERVICE_TYPE_INFO_ABS structure [Winsock]","SERVICE_TYPE_INFO_ABSA","SERVICE_TYPE_INFO_ABSW","_win32_service_type_info_abs_2","nspapi/SERVICE_TYPE_INFO_ABS","nspapi/SERVICE_TYPE_INFO_ABSA","nspapi/SERVICE_TYPE_INFO_ABSW","winsock.service_type_info_abs_2"]
+description: The SERVICE_TYPE_INFO_ABS structure contains information about a network service type. Use SERVICE_TYPE_INFO_ABS to add a network service type to a namespace.
+helpviewer_keywords: ["*LPSERVICE_TYPE_INFO_ABSA","*PSERVICE_TYPE_INFO_ABSA","SERVICE_TYPE_INFO_ABS","SERVICE_TYPE_INFO_ABS structure [Winsock]","SERVICE_TYPE_INFO_ABSA","SERVICE_TYPE_INFO_ABSW","_win32_service_type_info_abs_2","nspapi/SERVICE_TYPE_INFO_ABS","nspapi/SERVICE_TYPE_INFO_ABSA","nspapi/SERVICE_TYPE_INFO_ABSW","winsock.service_type_info_abs_2"]
 old-location: winsock\service_type_info_abs_2.htm
 tech.root: WinSock
 ms.assetid: 9adf92b0-1268-48c1-91e4-d05ad696ff06

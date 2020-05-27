@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_HostDepth
 title: ISearchRoot::get_HostDepth (searchapi.h)
-description: Gets a value that indicates how far into a host tree to crawl when indexing.helpviewer_keywords: ["ISearchRoot interface [search]","get_HostDepth method","ISearchRoot.get_HostDepth","ISearchRoot::get_HostDepth","_search_ISearchRoot_get_HostDepth","get_HostDepth","get_HostDepth method [search]","get_HostDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_HostDepth","searchapi/ISearchRoot::get_HostDepth"]
+description: Gets a value that indicates how far into a host tree to crawl when indexing.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_HostDepth method","ISearchRoot.get_HostDepth","ISearchRoot::get_HostDepth","_search_ISearchRoot_get_HostDepth","get_HostDepth","get_HostDepth method [search]","get_HostDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_HostDepth","searchapi/ISearchRoot::get_HostDepth"]
 old-location: search\_search_ISearchRoot_get_HostDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_hostdepth.htm

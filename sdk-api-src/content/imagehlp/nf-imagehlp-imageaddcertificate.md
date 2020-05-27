@@ -1,7 +1,8 @@
 ---
 UID: NF:imagehlp.ImageAddCertificate
 title: ImageAddCertificate function (imagehlp.h)
-description: Adds a certificate to the specified file.helpviewer_keywords: ["ImageAddCertificate","ImageAddCertificate function","_win32_imageaddcertificate","base.imageaddcertificate","imagehlp/ImageAddCertificate"]
+description: Adds a certificate to the specified file.
+helpviewer_keywords: ["ImageAddCertificate","ImageAddCertificate function","_win32_imageaddcertificate","base.imageaddcertificate","imagehlp/ImageAddCertificate"]
 old-location: base\imageaddcertificate.htm
 tech.root: Debug
 ms.assetid: c0cf3845-749b-4d20-ab67-6ace2ac30793

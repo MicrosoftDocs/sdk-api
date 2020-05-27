@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFNetProxyLocatorFactory
 title: IMFNetProxyLocatorFactory (mfidl.h)
-description: Creates a proxy locator object, which determines the proxy to use.helpviewer_keywords: ["6dd5bf50-2d07-47c7-869e-035d7e92a6bc","IMFNetProxyLocatorFactory","IMFNetProxyLocatorFactory interface [Media Foundation]","IMFNetProxyLocatorFactory interface [Media Foundation]","described","mf.imfnetproxylocatorfactory","mfidl/IMFNetProxyLocatorFactory"]
+description: Creates a proxy locator object, which determines the proxy to use.
+helpviewer_keywords: ["6dd5bf50-2d07-47c7-869e-035d7e92a6bc","IMFNetProxyLocatorFactory","IMFNetProxyLocatorFactory interface [Media Foundation]","IMFNetProxyLocatorFactory interface [Media Foundation]","described","mf.imfnetproxylocatorfactory","mfidl/IMFNetProxyLocatorFactory"]
 old-location: mf\imfnetproxylocatorfactory.htm
 tech.root: medfound
 ms.assetid: 6dd5bf50-2d07-47c7-869e-035d7e92a6bc

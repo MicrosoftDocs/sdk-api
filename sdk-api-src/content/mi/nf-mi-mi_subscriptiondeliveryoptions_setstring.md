@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetString
 title: MI_SubscriptionDeliveryOptions_SetString function (mi.h)
-description: Sets the value of a named string option that is not covered by a dedicated function.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetString","MI_SubscriptionDeliveryOptions_SetString function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetString","wmi_v2.mi_subscriptiondeliveryoptions_setstring"]
+description: Sets the value of a named string option that is not covered by a dedicated function.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetString","MI_SubscriptionDeliveryOptions_SetString function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetString","wmi_v2.mi_subscriptiondeliveryoptions_setstring"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setstring.htm
 tech.root: wmi_v2
 ms.assetid: c2bcf5b7-24c1-43cd-bf65-18ad891be7b8

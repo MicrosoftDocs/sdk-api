@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSeeking.CheckCapabilities
 title: IMediaSeeking::CheckCapabilities (strmif.h)
-description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.helpviewer_keywords: ["CheckCapabilities","CheckCapabilities method [DirectShow]","CheckCapabilities method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","CheckCapabilities method","IMediaSeeking.CheckCapabilities","IMediaSeeking::CheckCapabilities","IMediaSeekingCheckCapabilities","dshow.imediaseeking_checkcapabilities","strmif/IMediaSeeking::CheckCapabilities"]
+description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.
+helpviewer_keywords: ["CheckCapabilities","CheckCapabilities method [DirectShow]","CheckCapabilities method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","CheckCapabilities method","IMediaSeeking.CheckCapabilities","IMediaSeeking::CheckCapabilities","IMediaSeekingCheckCapabilities","dshow.imediaseeking_checkcapabilities","strmif/IMediaSeeking::CheckCapabilities"]
 old-location: dshow\imediaseeking_checkcapabilities.htm
 tech.root: DirectShow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432

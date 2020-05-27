@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRPOLYTEXTOUTA
 title: EMRPOLYTEXTOUTA (wingdi.h)
-description: The EMRPOLYTEXTOUTA and EMRPOLYTEXTOUTW structures contain members for the PolyTextOut enhanced metafile record.helpviewer_keywords: ["*PEMRPOLYTEXTOUTA","*PEMRPOLYTEXTOUTW","EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTA structure [Windows GDI]","EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTW","EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTW structure [Windows GDI]","EMRPOLYTEXTOUTW","EMRPOLYTEXTOUTW structure [Windows GDI]","PEMRPOLYTEXTOUTA","PEMRPOLYTEXTOUTA structure pointer [Windows GDI]","PEMRPOLYTEXTOUTW","PEMRPOLYTEXTOUTW structure pointer [Windows GDI]","_win32_EMRPOLYTEXTOUTA_str","gdi.emrpolytextouta__emrpolytextoutw","wingdi/EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTW","wingdi/EMRPOLYTEXTOUTW","wingdi/PEMRPOLYTEXTOUTA","wingdi/PEMRPOLYTEXTOUTW"]
+description: The EMRPOLYTEXTOUTA and EMRPOLYTEXTOUTW structures contain members for the PolyTextOut enhanced metafile record.
+helpviewer_keywords: ["*PEMRPOLYTEXTOUTA","*PEMRPOLYTEXTOUTW","EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTA structure [Windows GDI]","EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTW","EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTW structure [Windows GDI]","EMRPOLYTEXTOUTW","EMRPOLYTEXTOUTW structure [Windows GDI]","PEMRPOLYTEXTOUTA","PEMRPOLYTEXTOUTA structure pointer [Windows GDI]","PEMRPOLYTEXTOUTW","PEMRPOLYTEXTOUTW structure pointer [Windows GDI]","_win32_EMRPOLYTEXTOUTA_str","gdi.emrpolytextouta__emrpolytextoutw","wingdi/EMRPOLYTEXTOUTA","EMRPOLYTEXTOUTW","wingdi/EMRPOLYTEXTOUTW","wingdi/PEMRPOLYTEXTOUTA","wingdi/PEMRPOLYTEXTOUTW"]
 old-location: gdi\emrpolytextouta__emrpolytextoutw.htm
 tech.root: gdi
 ms.assetid: 9c1decdd-fe6f-4220-abba-7547ab5427ba

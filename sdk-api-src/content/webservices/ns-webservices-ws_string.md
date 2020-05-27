@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_STRING
 title: WS_STRING (webservices.h)
-description: An array of Unicode characters and a length.helpviewer_keywords: ["WS_STRING","WS_STRING structure [Web Services for Windows]","webservices/WS_STRING","wsw.ws_string"]
+description: An array of Unicode characters and a length.
+helpviewer_keywords: ["WS_STRING","WS_STRING structure [Web Services for Windows]","webservices/WS_STRING","wsw.ws_string"]
 old-location: wsw\ws_string.htm
 tech.root: wsw
 ms.assetid: eb6c7397-6b15-4e79-89ec-585861113edf

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.Clone
 title: IMFNetProxyLocator::Clone (mfidl.h)
-description: Creates a new instance of the default proxy locator.helpviewer_keywords: ["551372b3-b9aa-4057-8c14-19e582053e00","Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFNetProxyLocator interface","IMFNetProxyLocator interface [Media Foundation]","Clone method","IMFNetProxyLocator.Clone","IMFNetProxyLocator::Clone","mf.imfnetproxylocator_clone","mfidl/IMFNetProxyLocator::Clone"]
+description: Creates a new instance of the default proxy locator.
+helpviewer_keywords: ["551372b3-b9aa-4057-8c14-19e582053e00","Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFNetProxyLocator interface","IMFNetProxyLocator interface [Media Foundation]","Clone method","IMFNetProxyLocator.Clone","IMFNetProxyLocator::Clone","mf.imfnetproxylocator_clone","mfidl/IMFNetProxyLocator::Clone"]
 old-location: mf\imfnetproxylocator_clone.htm
 tech.root: medfound
 ms.assetid: 551372b3-b9aa-4057-8c14-19e582053e00

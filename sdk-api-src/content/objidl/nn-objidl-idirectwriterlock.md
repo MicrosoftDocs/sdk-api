@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IDirectWriterLock
 title: IDirectWriterLock (objidl.h)
-description: The IDirectWriterLock interface enables a single writer to obtain exclusive write access to a root storage object opened in direct mode while allowing concurrent access by multiple readers.helpviewer_keywords: ["IDirectWriterLock","IDirectWriterLock interface [Structured Storage]","IDirectWriterLock interface [Structured Storage]","described","_stg_idirectwriterlock","objidl/IDirectWriterLock","stg.idirectwriterlock"]
+description: The IDirectWriterLock interface enables a single writer to obtain exclusive write access to a root storage object opened in direct mode while allowing concurrent access by multiple readers.
+helpviewer_keywords: ["IDirectWriterLock","IDirectWriterLock interface [Structured Storage]","IDirectWriterLock interface [Structured Storage]","described","_stg_idirectwriterlock","objidl/IDirectWriterLock","stg.idirectwriterlock"]
 old-location: stg\idirectwriterlock.htm
 tech.root: Stg
 ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42

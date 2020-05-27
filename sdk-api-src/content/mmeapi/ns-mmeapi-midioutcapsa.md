@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.tagMIDIOUTCAPSA
 title: MIDIOUTCAPSA (mmeapi.h)
-description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.helpviewer_keywords: ["*LPMIDIOUTCAPSA","*NPMIDIOUTCAPSA","*PMIDIOUTCAPSA","MIDICAPS_CACHE","MIDICAPS_LRVOLUME","MIDICAPS_STREAM","MIDICAPS_VOLUME","MIDIOUTCAPS","MIDIOUTCAPS structure [Windows Multimedia]","MIDIOUTCAPSA","MOD_FMSYNTH","MOD_MAPPER","MOD_MIDIPORT","MOD_SQSYNTH","MOD_SWSYNTH","MOD_SYNTH","MOD_WAVETABLE","_win32_MIDIOUTCAPS_str","midioutcaps_tag","mmeapi/MIDIOUTCAPS","multimedia.midioutcaps","tagMIDIOUTCAPSA","tagMIDIOUTCAPSW"]
+description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.
+helpviewer_keywords: ["*LPMIDIOUTCAPSA","*NPMIDIOUTCAPSA","*PMIDIOUTCAPSA","MIDICAPS_CACHE","MIDICAPS_LRVOLUME","MIDICAPS_STREAM","MIDICAPS_VOLUME","MIDIOUTCAPS","MIDIOUTCAPS structure [Windows Multimedia]","MIDIOUTCAPSA","MOD_FMSYNTH","MOD_MAPPER","MOD_MIDIPORT","MOD_SQSYNTH","MOD_SWSYNTH","MOD_SYNTH","MOD_WAVETABLE","_win32_MIDIOUTCAPS_str","midioutcaps_tag","mmeapi/MIDIOUTCAPS","multimedia.midioutcaps","tagMIDIOUTCAPSA","tagMIDIOUTCAPSW"]
 old-location: multimedia\midioutcaps.htm
 tech.root: Multimedia
 ms.assetid: 395d5fc2-cf34-48f0-a0b0-185247309e2c

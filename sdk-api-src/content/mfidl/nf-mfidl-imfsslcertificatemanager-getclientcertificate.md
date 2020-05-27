@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.GetClientCertificate
 title: IMFSSLCertificateManager::GetClientCertificate (mfidl.h)
-description: Gets the client SSL certificate synchronously.helpviewer_keywords: ["GetClientCertificate","GetClientCertificate method [Media Foundation]","GetClientCertificate method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","GetClientCertificate method","IMFSSLCertificateManager.GetClientCertificate","IMFSSLCertificateManager::GetClientCertificate","mf.imfsslcertificatemanager_getclientcertificate","mfidl/IMFSSLCertificateManager::GetClientCertificate"]
+description: Gets the client SSL certificate synchronously.
+helpviewer_keywords: ["GetClientCertificate","GetClientCertificate method [Media Foundation]","GetClientCertificate method [Media Foundation]","IMFSSLCertificateManager interface","IMFSSLCertificateManager interface [Media Foundation]","GetClientCertificate method","IMFSSLCertificateManager.GetClientCertificate","IMFSSLCertificateManager::GetClientCertificate","mf.imfsslcertificatemanager_getclientcertificate","mfidl/IMFSSLCertificateManager::GetClientCertificate"]
 old-location: mf\imfsslcertificatemanager_getclientcertificate.htm
 tech.root: medfound
 ms.assetid: 11a575e8-5eb2-4cbb-a460-f1ea5d54d324

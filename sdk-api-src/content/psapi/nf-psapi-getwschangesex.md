@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.GetWsChangesEx
 title: GetWsChangesEx function (psapi.h)
-description: Retrieves extended information about the pages that have been added to the working set of the specified process since the last time this function or the InitializeProcessForWsWatch function was called.helpviewer_keywords: ["GetWsChangesEx","GetWsChangesEx function [PSAPI]","K32GetWsChangesEx","base.getwschangesex","psapi.getwschangesex","psapi/GetWsChangesEx","psapi/K32GetWsChangesEx"]
+description: Retrieves extended information about the pages that have been added to the working set of the specified process since the last time this function or the InitializeProcessForWsWatch function was called.
+helpviewer_keywords: ["GetWsChangesEx","GetWsChangesEx function [PSAPI]","K32GetWsChangesEx","base.getwschangesex","psapi.getwschangesex","psapi/GetWsChangesEx","psapi/K32GetWsChangesEx"]
 old-location: psapi\getwschangesex.htm
 tech.root: psapi
 ms.assetid: 8572db5c-2ffc-424f-8cec-b6a6902fed62

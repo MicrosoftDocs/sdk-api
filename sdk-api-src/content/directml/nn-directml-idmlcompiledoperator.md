@@ -1,7 +1,8 @@
 ---
 UID: NN:directml.IDMLCompiledOperator
 title: IDMLCompiledOperator
-description: Represents a compiled, efficient form of an operator suitable for execution on the GPU. To create this object, call IDMLDevice::CompileOperator.helpviewer_keywords: ["IDMLCompiledOperator","IDMLCompiledOperator interface","IDMLCompiledOperator interface","described","direct3d12.idmlcompiledoperator","directml/IDMLCompiledOperator"]
+description: Represents a compiled, efficient form of an operator suitable for execution on the GPU. To create this object, call IDMLDevice::CompileOperator.
+helpviewer_keywords: ["IDMLCompiledOperator","IDMLCompiledOperator interface","IDMLCompiledOperator interface","described","direct3d12.idmlcompiledoperator","directml/IDMLCompiledOperator"]
 old-location: direct3d12\idmlcompiledoperator.htm
 tech.root: direct3d12
 ms.assetid: B8819F85-CF53-428C-806F-2B3B61D5D869

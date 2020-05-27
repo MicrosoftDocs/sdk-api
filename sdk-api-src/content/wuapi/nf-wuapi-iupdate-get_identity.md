@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate.get_Identity
 title: IUpdate::get_Identity (wuapi.h)
-description: Gets an interface that contains the unique identifier of the update.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Identity property","IUpdate.Identity","IUpdate.get_Identity","IUpdate::Identity","IUpdate::get_Identity","Identity property [Windows Update Agent]","Identity property [Windows Update Agent]","IUpdate interface","get_Identity","wua.iupdate_identity","wuapi/IUpdate::Identity","wuapi/IUpdate::get_Identity"]
+description: Gets an interface that contains the unique identifier of the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Identity property","IUpdate.Identity","IUpdate.get_Identity","IUpdate::Identity","IUpdate::get_Identity","Identity property [Windows Update Agent]","Identity property [Windows Update Agent]","IUpdate interface","get_Identity","wua.iupdate_identity","wuapi/IUpdate::Identity","wuapi/IUpdate::get_Identity"]
 old-location: wua\iupdate_identity.htm
 tech.root: Wua_Sdk
 ms.assetid: e34019e4-54f4-486d-b5e7-5e65f65d1941

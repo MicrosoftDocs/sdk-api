@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbResourcePluginStore
 title: ITsSbResourcePluginStore (sbtsv.h)
-description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.helpviewer_keywords: ["ITsSbResourcePluginStore","ITsSbResourcePluginStore interface [Remote Desktop Services]","ITsSbResourcePluginStore interface [Remote Desktop Services]","described","sbtsv/ITsSbResourcePluginStore","termserv.itssbresourcepluginstore"]
+description: Exposes methods that enable resource plug-ins to store objects such as sessions and targets.
+helpviewer_keywords: ["ITsSbResourcePluginStore","ITsSbResourcePluginStore interface [Remote Desktop Services]","ITsSbResourcePluginStore interface [Remote Desktop Services]","described","sbtsv/ITsSbResourcePluginStore","termserv.itssbresourcepluginstore"]
 old-location: termserv\itssbresourcepluginstore.htm
 tech.root: TermServ
 ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd

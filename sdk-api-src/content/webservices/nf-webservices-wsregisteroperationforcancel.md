@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsRegisterOperationForCancel
 title: WsRegisterOperationForCancel function (webservices.h)
-description: A service operation can use this function to register for a cancel notification. It is only valid to call this API when the service operation is executing. The behavior for calling it after the completion of Service Operation is not supported.helpviewer_keywords: ["WsRegisterOperationForCancel","WsRegisterOperationForCancel function [Web Services for Windows]","webservices/WsRegisterOperationForCancel","wsw.wsregisteroperationforcancel"]
+description: A service operation can use this function to register for a cancel notification. It is only valid to call this API when the service operation is executing. The behavior for calling it after the completion of Service Operation is not supported.
+helpviewer_keywords: ["WsRegisterOperationForCancel","WsRegisterOperationForCancel function [Web Services for Windows]","webservices/WsRegisterOperationForCancel","wsw.wsregisteroperationforcancel"]
 old-location: wsw\wsregisteroperationforcancel.htm
 tech.root: wsw
 ms.assetid: 3e456814-f70f-47ab-b866-f0b73d5cd35e

@@ -1,7 +1,8 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetRelativePosition
 title: IMixerPinConfig::SetRelativePosition (mpconfig.h)
-description: The SetRelativePosition method sets the position of the stream in the display window.helpviewer_keywords: ["IMixerPinConfig interface [DirectShow]","SetRelativePosition method","IMixerPinConfig.SetRelativePosition","IMixerPinConfig::SetRelativePosition","IMixerPinConfigSetRelativePosition","SetRelativePosition","SetRelativePosition method [DirectShow]","SetRelativePosition method [DirectShow]","IMixerPinConfig interface","dshow.imixerpinconfig_setrelativeposition","mpconfig/IMixerPinConfig::SetRelativePosition"]
+description: The SetRelativePosition method sets the position of the stream in the display window.
+helpviewer_keywords: ["IMixerPinConfig interface [DirectShow]","SetRelativePosition method","IMixerPinConfig.SetRelativePosition","IMixerPinConfig::SetRelativePosition","IMixerPinConfigSetRelativePosition","SetRelativePosition","SetRelativePosition method [DirectShow]","SetRelativePosition method [DirectShow]","IMixerPinConfig interface","dshow.imixerpinconfig_setrelativeposition","mpconfig/IMixerPinConfig::SetRelativePosition"]
 old-location: dshow\imixerpinconfig_setrelativeposition.htm
 tech.root: DirectShow
 ms.assetid: 2b8ff58b-04df-4a6a-b501-f5c138b8abbf

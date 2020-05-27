@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IHeaderCtrl
 title: IHeaderCtrl (mmc.h)
-description: Enables the manipulation of columns and indicates the kind of information that is to be presented in the result view pane of the console.helpviewer_keywords: ["IHeaderCtrl","IHeaderCtrl interface [MMC]","IHeaderCtrl interface [MMC]","described","mmc.iheaderctrl","mmc/IHeaderCtrl"]
+description: Enables the manipulation of columns and indicates the kind of information that is to be presented in the result view pane of the console.
+helpviewer_keywords: ["IHeaderCtrl","IHeaderCtrl interface [MMC]","IHeaderCtrl interface [MMC]","described","mmc.iheaderctrl","mmc/IHeaderCtrl"]
 old-location: mmc\iheaderctrl.htm
 tech.root: mmc
 ms.assetid: 8F7ACE7E-4B44-448A-A3BB-4563DDC9C34E

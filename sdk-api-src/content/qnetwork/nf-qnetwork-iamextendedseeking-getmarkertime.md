@@ -1,7 +1,8 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerTime
 title: IAMExtendedSeeking::GetMarkerTime (qnetwork.h)
-description: The GetMarkerTime method retrieves the presentation time associated with the specified marker.helpviewer_keywords: ["GetMarkerTime","GetMarkerTime method [DirectShow]","GetMarkerTime method [DirectShow]","IAMExtendedSeeking interface","IAMExtendedSeeking interface [DirectShow]","GetMarkerTime method","IAMExtendedSeeking.GetMarkerTime","IAMExtendedSeeking::GetMarkerTime","IAMExtendedSeekingGetMarkerTime","dshow.iamextendedseeking_getmarkertime","qnetwork/IAMExtendedSeeking::GetMarkerTime"]
+description: The GetMarkerTime method retrieves the presentation time associated with the specified marker.
+helpviewer_keywords: ["GetMarkerTime","GetMarkerTime method [DirectShow]","GetMarkerTime method [DirectShow]","IAMExtendedSeeking interface","IAMExtendedSeeking interface [DirectShow]","GetMarkerTime method","IAMExtendedSeeking.GetMarkerTime","IAMExtendedSeeking::GetMarkerTime","IAMExtendedSeekingGetMarkerTime","dshow.iamextendedseeking_getmarkertime","qnetwork/IAMExtendedSeeking::GetMarkerTime"]
 old-location: dshow\iamextendedseeking_getmarkertime.htm
 tech.root: DirectShow
 ms.assetid: 719e87c5-7d38-4b02-8342-055e42405511

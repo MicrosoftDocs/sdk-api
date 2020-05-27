@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RevokeCallback
 title: IAsynchronousDataRetriever::RevokeCallback (winsync.h)
-description: Indicates that the IAsynchronousDataRetriever object must no longer use the specified callback interface and must release any references to it.helpviewer_keywords: ["IAsynchronousDataRetriever interface [Windows Sync]","RevokeCallback method","IAsynchronousDataRetriever.RevokeCallback","IAsynchronousDataRetriever::RevokeCallback","RevokeCallback","RevokeCallback method [Windows Sync]","RevokeCallback method [Windows Sync]","IAsynchronousDataRetriever interface","winsync.iasynchronousdataretriever_revokecallback","winsync/IAsynchronousDataRetriever::RevokeCallback"]
+description: Indicates that the IAsynchronousDataRetriever object must no longer use the specified callback interface and must release any references to it.
+helpviewer_keywords: ["IAsynchronousDataRetriever interface [Windows Sync]","RevokeCallback method","IAsynchronousDataRetriever.RevokeCallback","IAsynchronousDataRetriever::RevokeCallback","RevokeCallback","RevokeCallback method [Windows Sync]","RevokeCallback method [Windows Sync]","IAsynchronousDataRetriever interface","winsync.iasynchronousdataretriever_revokecallback","winsync/IAsynchronousDataRetriever::RevokeCallback"]
 old-location: winsync\iasynchronousdataretriever_revokecallback.htm
 tech.root: winsync
 ms.assetid: bb7b1457-03aa-47e0-9e61-6195706a0fcd

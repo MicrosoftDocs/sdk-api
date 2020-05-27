@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDelete
 title: MprAdminInterfaceDelete function (mprapi.h)
-description: The MprAdminInterfaceDelete function deletes an interface on a specified server.helpviewer_keywords: ["MprAdminInterfaceDelete","MprAdminInterfaceDelete function [RAS]","_mpr_mpradmininterfacedelete","mprapi/MprAdminInterfaceDelete","rras.mpradmininterfacedelete"]
+description: The MprAdminInterfaceDelete function deletes an interface on a specified server.
+helpviewer_keywords: ["MprAdminInterfaceDelete","MprAdminInterfaceDelete function [RAS]","_mpr_mpradmininterfacedelete","mprapi/MprAdminInterfaceDelete","rras.mpradmininterfacedelete"]
 old-location: rras\mpradmininterfacedelete.htm
 tech.root: RRAS
 ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6

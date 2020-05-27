@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR)
 title: XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR) (directxmath.h)
-description: Initializes a new instance of the XMMATRIX structure from four instances of XMVECTOR.helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX.XMMATRIX(FXMVECTOR","FXMVECTOR","FXMVECTOR","CXMVECTOR)","XMMATRIX::XMMATRIX","XMMATRIX::XMMATRIX(FXMVECTOR","FXMVECTOR","FXMVECTOR","CXMVECTOR)","dxmath.xmmatrix_ctor_1"]
+description: Initializes a new instance of the XMMATRIX structure from four instances of XMVECTOR.
+helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX.XMMATRIX(FXMVECTOR","FXMVECTOR","FXMVECTOR","CXMVECTOR)","XMMATRIX::XMMATRIX","XMMATRIX::XMMATRIX(FXMVECTOR","FXMVECTOR","FXMVECTOR","CXMVECTOR)","dxmath.xmmatrix_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 8b405a17-be16-4001-b076-95acca0ce467

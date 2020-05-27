@@ -1,7 +1,8 @@
 ---
 UID: NS:lmdfs._DFS_INFO_104
 title: DFS_INFO_104 (lmdfs.h)
-description: Contains the priority of a DFS root target or link target.helpviewer_keywords: ["*LPDFS_INFO_104","*PDFS_INFO_104","DFS_INFO_104","DFS_INFO_104 structure [Distributed File System]","LPDFS_INFO_104","LPDFS_INFO_104 structure pointer [Distributed File System]","PDFS_INFO_104","PDFS_INFO_104 structure pointer [Distributed File System]","dfs.dfs_info_104","fs.dfs_info_104","lmdfs/DFS_INFO_104","lmdfs/LPDFS_INFO_104","lmdfs/PDFS_INFO_104","netmgmt.dfs_info_104"]
+description: Contains the priority of a DFS root target or link target.
+helpviewer_keywords: ["*LPDFS_INFO_104","*PDFS_INFO_104","DFS_INFO_104","DFS_INFO_104 structure [Distributed File System]","LPDFS_INFO_104","LPDFS_INFO_104 structure pointer [Distributed File System]","PDFS_INFO_104","PDFS_INFO_104 structure pointer [Distributed File System]","dfs.dfs_info_104","fs.dfs_info_104","lmdfs/DFS_INFO_104","lmdfs/LPDFS_INFO_104","lmdfs/PDFS_INFO_104","netmgmt.dfs_info_104"]
 old-location: dfs\dfs_info_104.htm
 tech.root: Dfs
 ms.assetid: 95b2cd36-4933-440d-889d-ebf36d7b9cc7

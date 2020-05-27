@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpTerminate
 title: HttpTerminate function (http.h)
-description: Cleans up resources used by the HTTP Server API to process calls by an application.helpviewer_keywords: ["HTTP_INITIALIZE_CONFIG","HTTP_INITIALIZE_SERVER","HttpTerminate","HttpTerminate function [HTTP]","_http_httpterminate","http.httpterminate","http/HttpTerminate"]
+description: Cleans up resources used by the HTTP Server API to process calls by an application.
+helpviewer_keywords: ["HTTP_INITIALIZE_CONFIG","HTTP_INITIALIZE_SERVER","HttpTerminate","HttpTerminate function [HTTP]","_http_httpterminate","http.httpterminate","http/HttpTerminate"]
 old-location: http\httpterminate.htm
 tech.root: http
 ms.assetid: d1922375-3d59-45a7-9d1d-08dbce1111ff

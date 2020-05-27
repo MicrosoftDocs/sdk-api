@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SND_CONG_RW_v0
 title: TCP_ESTATS_SND_CONG_RW_v0 (tcpestats.h)
-description: Contains read/write configuration information for extended TCP statistics on sender congestion for a TCP connection.helpviewer_keywords: ["*PTCP_ESTATS_SND_CONG_RW_v0","PTCP_ESTATS_SND_CONG_RW_v0","PTCP_ESTATS_SND_CONG_RW_v0 structure pointer [IP Helper]","TCP_ESTATS_SND_CONG_RW_v0","TCP_ESTATS_SND_CONG_RW_v0 structure [IP Helper]","iphlp.tcp_estats_snd_cong_rw_v0","tcpestats/PTCP_ESTATS_SND_CONG_RW_v0","tcpestats/TCP_ESTATS_SND_CONG_RW_v0"]
+description: Contains read/write configuration information for extended TCP statistics on sender congestion for a TCP connection.
+helpviewer_keywords: ["*PTCP_ESTATS_SND_CONG_RW_v0","PTCP_ESTATS_SND_CONG_RW_v0","PTCP_ESTATS_SND_CONG_RW_v0 structure pointer [IP Helper]","TCP_ESTATS_SND_CONG_RW_v0","TCP_ESTATS_SND_CONG_RW_v0 structure [IP Helper]","iphlp.tcp_estats_snd_cong_rw_v0","tcpestats/PTCP_ESTATS_SND_CONG_RW_v0","tcpestats/TCP_ESTATS_SND_CONG_RW_v0"]
 old-location: iphlp\tcp_estats_snd_cong_rw_v0.htm
 tech.root: IpHlp
 ms.assetid: 7fc7fb6a-4486-450f-b60e-8cf07b33c79a

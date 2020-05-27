@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetTransform(const D2D_MATRIX_4X4_F &)
 title: IDCompositionVisual3::SetTransform (dcomp.h)
-description: Sets the Transform property of this visual to the specified 4-by-4 transform matrix.helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetTransform method","IDCompositionVisual3.SetTransform","IDCompositionVisual3::SetTransform","IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &)","IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&)","SetTransform","SetTransform method [DirectComposition]","SetTransform method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetTransform","directcomp.idcompositionvisual3_settransform_1"]
+description: Sets the Transform property of this visual to the specified 4-by-4 transform matrix.
+helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetTransform method","IDCompositionVisual3.SetTransform","IDCompositionVisual3::SetTransform","IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &)","IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&)","SetTransform","SetTransform method [DirectComposition]","SetTransform method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetTransform","directcomp.idcompositionvisual3_settransform_1"]
 old-location: directcomp\idcompositionvisual3_settransform_1.htm
 tech.root: directcomp
 ms.assetid: 1deb9c84-1a5b-5dac-af0f-ae6b49a9c473

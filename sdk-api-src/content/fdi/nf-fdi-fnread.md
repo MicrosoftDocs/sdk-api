@@ -1,7 +1,8 @@
 ---
 UID: NF:fdi.FNREAD
 title: FNREAD macro (fdi.h)
-description: The FNREAD macro provides the declaration for the application-defined callback function to read data from a file in an FDI context.helpviewer_keywords: ["FNREAD","FNREAD macro [Windows API]","fdi/FNREAD","winprog.fnread"]
+description: The FNREAD macro provides the declaration for the application-defined callback function to read data from a file in an FDI context.
+helpviewer_keywords: ["FNREAD","FNREAD macro [Windows API]","fdi/FNREAD","winprog.fnread"]
 old-location: winprog\fnread.htm
 tech.root: DevNotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c

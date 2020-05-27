@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioUnlockUnit
 title: WinBioUnlockUnit function (winbio.h)
-description: Releases the session lock on the specified biometric unit.helpviewer_keywords: ["WinBioUnlockUnit","WinBioUnlockUnit function [Windows Biometric Framework API]","secbiomet.winbiounlockunit","winbio/WinBioUnlockUnit"]
+description: Releases the session lock on the specified biometric unit.
+helpviewer_keywords: ["WinBioUnlockUnit","WinBioUnlockUnit function [Windows Biometric Framework API]","secbiomet.winbiounlockunit","winbio/WinBioUnlockUnit"]
 old-location: secbiomet\winbiounlockunit.htm
 tech.root: SecBioMet
 ms.assetid: 689adf39-da62-4e83-94e9-e2daa7bd4753

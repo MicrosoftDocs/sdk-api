@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditEnumerateSubCategories
 title: AuditEnumerateSubCategories function (ntsecapi.h)
-description: Enumerates the available audit-policy subcategories.helpviewer_keywords: ["AuditEnumerateSubCategories","AuditEnumerateSubCategories function [Security]","ntsecapi/AuditEnumerateSubCategories","security.auditenumeratesubcategories_func"]
+description: Enumerates the available audit-policy subcategories.
+helpviewer_keywords: ["AuditEnumerateSubCategories","AuditEnumerateSubCategories function [Security]","ntsecapi/AuditEnumerateSubCategories","security.auditenumeratesubcategories_func"]
 old-location: security\auditenumeratesubcategories_func.htm
 tech.root: SecAuthZ
 ms.assetid: c5af83f4-9524-4a39-ad1d-39b21bb073bd

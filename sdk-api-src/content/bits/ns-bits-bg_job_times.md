@@ -1,7 +1,8 @@
 ---
 UID: NS:bits._BG_JOB_TIMES
 title: BG_JOB_TIMES (bits.h)
-description: Provides job-related time stamps.helpviewer_keywords: ["BG_JOB_TIMES","BG_JOB_TIMES structure [BITS]","_drz_bg_job_times","bits.bg_job_times","bits/BG_JOB_TIMES"]
+description: Provides job-related time stamps.
+helpviewer_keywords: ["BG_JOB_TIMES","BG_JOB_TIMES structure [BITS]","_drz_bg_job_times","bits.bg_job_times","bits/BG_JOB_TIMES"]
 old-location: bits\bg_job_times.htm
 tech.root: Bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21

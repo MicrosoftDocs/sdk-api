@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetLastStatus
 title: Pen::GetLastStatus (gdipluspen.h)
-description: The Pen::GetLastStatus method returns a value that indicates the nature of this Pen object's most recent method failure.helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Pen class","Pen class [GDI+]","GetLastStatus method","Pen.GetLastStatus","Pen::GetLastStatus","_gdiplus_CLASS_Pen_GetLastStatus_","gdiplus._gdiplus_CLASS_Pen_GetLastStatus_"]
+description: The Pen::GetLastStatus method returns a value that indicates the nature of this Pen object's most recent method failure.
+helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Pen class","Pen class [GDI+]","GetLastStatus method","Pen.GetLastStatus","Pen::GetLastStatus","_gdiplus_CLASS_Pen_GetLastStatus_","gdiplus._gdiplus_CLASS_Pen_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlaststatus_88.htm

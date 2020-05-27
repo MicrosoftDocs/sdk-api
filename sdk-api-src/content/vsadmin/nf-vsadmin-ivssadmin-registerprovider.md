@@ -1,7 +1,8 @@
 ---
 UID: NF:vsadmin.IVssAdmin.RegisterProvider
 title: IVssAdmin::RegisterProvider (vsadmin.h)
-description: Registers a new shadow copy provider.helpviewer_keywords: ["IVssAdmin interface [VSS]","RegisterProvider method","IVssAdmin.RegisterProvider","IVssAdmin::RegisterProvider","RegisterProvider","RegisterProvider method [VSS]","RegisterProvider method [VSS]","IVssAdmin interface","base.ivssadmin_registerprovider","vsadmin/IVssAdmin::RegisterProvider"]
+description: Registers a new shadow copy provider.
+helpviewer_keywords: ["IVssAdmin interface [VSS]","RegisterProvider method","IVssAdmin.RegisterProvider","IVssAdmin::RegisterProvider","RegisterProvider","RegisterProvider method [VSS]","RegisterProvider method [VSS]","IVssAdmin interface","base.ivssadmin_registerprovider","vsadmin/IVssAdmin::RegisterProvider"]
 old-location: base\ivssadmin_registerprovider.htm
 tech.root: VSS
 ms.assetid: c17aee22-3afc-4ac5-a0c5-3fa1164ceee0

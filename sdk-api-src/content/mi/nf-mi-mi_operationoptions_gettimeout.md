@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetTimeout
 title: MI_OperationOptions_GetTimeout function (mi.h)
-description: Gets the operation timeout value.helpviewer_keywords: ["MI_OperationOptions_GetTimeout","MI_OperationOptions_GetTimeout function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetTimeout","wmi_v2.mi_operationoptions_gettimeout"]
+description: Gets the operation timeout value.
+helpviewer_keywords: ["MI_OperationOptions_GetTimeout","MI_OperationOptions_GetTimeout function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetTimeout","wmi_v2.mi_operationoptions_gettimeout"]
 old-location: wmi_v2\mi_operationoptions_gettimeout.htm
 tech.root: wmi_v2
 ms.assetid: b55e75cc-86e5-4a4e-8bb7-2fec196033cc

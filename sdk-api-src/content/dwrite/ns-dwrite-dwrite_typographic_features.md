@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_TYPOGRAPHIC_FEATURES
 title: DWRITE_TYPOGRAPHIC_FEATURES (dwrite.h)
-description: Contains a set of typographic features to be applied during text shaping.helpviewer_keywords: ["DWRITE_TYPOGRAPHIC_FEATURES","DWRITE_TYPOGRAPHIC_FEATURES structure [Direct Write]","directwrite.dwrite_typographic_features","dwrite/DWRITE_TYPOGRAPHIC_FEATURES"]
+description: Contains a set of typographic features to be applied during text shaping.
+helpviewer_keywords: ["DWRITE_TYPOGRAPHIC_FEATURES","DWRITE_TYPOGRAPHIC_FEATURES structure [Direct Write]","directwrite.dwrite_typographic_features","dwrite/DWRITE_TYPOGRAPHIC_FEATURES"]
 old-location: directwrite\dwrite_typographic_features.htm
 tech.root: DirectWrite
 ms.assetid: 21ef4266-5dd6-48b6-9175-452b74e94a07

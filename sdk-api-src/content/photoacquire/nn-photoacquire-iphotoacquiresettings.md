@@ -1,7 +1,8 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireSettings
 title: IPhotoAcquireSettings (photoacquire.h)
-description: The IPhotoAcquireSettings interface is used to work with image acquisition settings, such as file name format.helpviewer_keywords: ["IPhotoAcquireSettings","IPhotoAcquireSettings interface [Picture Acquisition]","IPhotoAcquireSettings interface [Picture Acquisition]","described","IPhotoAcquireSettingsInterface","photoacquire/IPhotoAcquireSettings","picacq.iphotoacquiresettings"]
+description: The IPhotoAcquireSettings interface is used to work with image acquisition settings, such as file name format.
+helpviewer_keywords: ["IPhotoAcquireSettings","IPhotoAcquireSettings interface [Picture Acquisition]","IPhotoAcquireSettings interface [Picture Acquisition]","described","IPhotoAcquireSettingsInterface","photoacquire/IPhotoAcquireSettings","picacq.iphotoacquiresettings"]
 old-location: picacq\iphotoacquiresettings.htm
 tech.root: acquisition
 ms.assetid: c86d0c97-f9ef-4a73-865b-8aea7972193b

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IDisplayItem
 title: IDisplayItem (shobjidl_core.h)
-description: Exposes methods that find a version of the current item to be used to get display properties, such as the item name, that will be displayed in the UI.helpviewer_keywords: ["IDisplayItem","IDisplayItem interface [Windows Shell]","IDisplayItem interface [Windows Shell]","described","_shell_IDisplayItem","shell.IDisplayItem","shobjidl_core/IDisplayItem"]
+description: Exposes methods that find a version of the current item to be used to get display properties, such as the item name, that will be displayed in the UI.
+helpviewer_keywords: ["IDisplayItem","IDisplayItem interface [Windows Shell]","IDisplayItem interface [Windows Shell]","described","_shell_IDisplayItem","shell.IDisplayItem","shobjidl_core/IDisplayItem"]
 old-location: shell\IDisplayItem.htm
 tech.root: shell
 ms.assetid: 78e06db0-9440-4578-bc17-96444946432a

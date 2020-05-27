@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplustypes.PathData
 title: PathData (gdiplustypes.h)
-description: The PathData class is a helper class for the GraphicsPath and GraphicsPathIterator classes.helpviewer_keywords: ["PathData","PathData class [GDI+]","PathData class [GDI+]","described","_gdiplus_CLASS_PathData_Class","gdiplus._gdiplus_CLASS_PathData_Class","gdiplustypes/PathData"]
+description: The PathData class is a helper class for the GraphicsPath and GraphicsPathIterator classes.
+helpviewer_keywords: ["PathData","PathData class [GDI+]","PathData class [GDI+]","described","_gdiplus_CLASS_PathData_Class","gdiplus._gdiplus_CLASS_PathData_Class","gdiplustypes/PathData"]
 old-location: gdiplus\_gdiplus_CLASS_PathData_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdata.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.SetProperty
 title: IBackgroundCopyJob5::SetProperty (bits5_0.h)
-description: A generic method for setting BITS job properties.helpviewer_keywords: ["IBackgroundCopyJob5 interface [BITS]","SetProperty method","IBackgroundCopyJob5.SetProperty","IBackgroundCopyJob5::SetProperty","SetProperty","SetProperty method [BITS]","SetProperty method [BITS]","IBackgroundCopyJob5 interface","bits.ibackgroundcopyjob5_setproperty","bits5_0/IBackgroundCopyJob5::SetProperty"]
+description: A generic method for setting BITS job properties.
+helpviewer_keywords: ["IBackgroundCopyJob5 interface [BITS]","SetProperty method","IBackgroundCopyJob5.SetProperty","IBackgroundCopyJob5::SetProperty","SetProperty","SetProperty method [BITS]","SetProperty method [BITS]","IBackgroundCopyJob5 interface","bits.ibackgroundcopyjob5_setproperty","bits5_0/IBackgroundCopyJob5::SetProperty"]
 old-location: bits\ibackgroundcopyjob5_setproperty.htm
 tech.root: Bits
 ms.assetid: D5DB8A96-7417-4142-BA27-783314835CED

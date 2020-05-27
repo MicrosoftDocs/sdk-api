@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceRelogger.CreateEventInstance
 title: ITraceRelogger::CreateEventInstance (relogger.h)
-description: Generates a new event.helpviewer_keywords: ["CreateEventInstance","CreateEventInstance method [ETW]","CreateEventInstance method [ETW]","ITraceRelogger interface","ITraceRelogger interface [ETW]","CreateEventInstance method","ITraceRelogger.CreateEventInstance","ITraceRelogger::CreateEventInstance","etw.itracerelogger_createeventinstance","relogger/ITraceRelogger::CreateEventInstance"]
+description: Generates a new event.
+helpviewer_keywords: ["CreateEventInstance","CreateEventInstance method [ETW]","CreateEventInstance method [ETW]","ITraceRelogger interface","ITraceRelogger interface [ETW]","CreateEventInstance method","ITraceRelogger.CreateEventInstance","ITraceRelogger::CreateEventInstance","etw.itracerelogger_createeventinstance","relogger/ITraceRelogger::CreateEventInstance"]
 old-location: etw\itracerelogger_createeventinstance.htm
 tech.root: ETW
 ms.assetid: 1a000e38-018d-4077-bf4c-0bfec6cdb676

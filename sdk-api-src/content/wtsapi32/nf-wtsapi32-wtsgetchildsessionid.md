@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSGetChildSessionId
 title: WTSGetChildSessionId function (wtsapi32.h)
-description: Retrieves the child session identifier, if present.helpviewer_keywords: ["WTSGetChildSessionId","WTSGetChildSessionId function [Remote Desktop Services]","termserv.wtsgetchildsessionid","wtsapi32/WTSGetChildSessionId"]
+description: Retrieves the child session identifier, if present.
+helpviewer_keywords: ["WTSGetChildSessionId","WTSGetChildSessionId function [Remote Desktop Services]","termserv.wtsgetchildsessionid","wtsapi32/WTSGetChildSessionId"]
 old-location: termserv\wtsgetchildsessionid.htm
 tech.root: TermServ
 ms.assetid: EA78660C-438D-458C-B723-ED1C8AA60FA5

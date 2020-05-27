@@ -1,7 +1,8 @@
 ---
 UID: NF:websocket.WebSocketReceive
 title: WebSocketReceive function (websocket.h)
-description: Adds a receive operation to the protocol component operation queue.helpviewer_keywords: ["WebSocketReceive","WebSocketReceive function [Websocket Protocol Component API]","websock.websocketreceive","websocket/WebSocketReceive"]
+description: Adds a receive operation to the protocol component operation queue.
+helpviewer_keywords: ["WebSocketReceive","WebSocketReceive function [Websocket Protocol Component API]","websock.websocketreceive","websocket/WebSocketReceive"]
 old-location: websock\websocketreceive.htm
 tech.root: WebSock
 ms.assetid: 6285c6fc-1f7a-45f3-ba28-94992e73693e

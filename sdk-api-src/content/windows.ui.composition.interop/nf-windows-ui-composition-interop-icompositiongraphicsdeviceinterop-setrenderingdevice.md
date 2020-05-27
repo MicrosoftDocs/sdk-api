@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop.SetRenderingDevice
 title: ICompositionGraphicsDeviceInterop::composition (windows.ui.composition.interop.h)
-description: Sets the rendering device.helpviewer_keywords: ["ICompositionGraphicsDeviceInterop interface","SetRenderingDevice method","ICompositionGraphicsDeviceInterop.SetRenderingDevice","ICompositionGraphicsDeviceInterop.composition","ICompositionGraphicsDeviceInterop::SetRenderingDevice","ICompositionGraphicsDeviceInterop::composition","SetRenderingDevice","SetRenderingDevice method","SetRenderingDevice method","ICompositionGraphicsDeviceInterop interface","w_ui_comp.icompositiongraphicsdeviceinterop_setrenderingdevice","windows/ICompositionGraphicsDeviceInterop::SetRenderingDevice"]
+description: Sets the rendering device.
+helpviewer_keywords: ["ICompositionGraphicsDeviceInterop interface","SetRenderingDevice method","ICompositionGraphicsDeviceInterop.SetRenderingDevice","ICompositionGraphicsDeviceInterop.composition","ICompositionGraphicsDeviceInterop::SetRenderingDevice","ICompositionGraphicsDeviceInterop::composition","SetRenderingDevice","SetRenderingDevice method","SetRenderingDevice method","ICompositionGraphicsDeviceInterop interface","w_ui_comp.icompositiongraphicsdeviceinterop_setrenderingdevice","windows/ICompositionGraphicsDeviceInterop::SetRenderingDevice"]
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop_setrenderingdevice.htm
 tech.root: w_ui_comp
 ms.assetid: 3A25F450-7182-49E3-A6FB-8DB875D25987

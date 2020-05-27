@@ -1,7 +1,8 @@
 ---
 UID: NS:winternl._TEB
 title: TEB (winternl.h)
-description: The Thread Environment Block (TEB structure) describes the state of a thread.helpviewer_keywords: ["*PTEB","PTEB","PTEB structure pointer","TEB","TEB structure","base.teb","winternl/PTEB","winternl/TEB"]
+description: The Thread Environment Block (TEB structure) describes the state of a thread.
+helpviewer_keywords: ["*PTEB","PTEB","PTEB structure pointer","TEB","TEB structure","base.teb","winternl/PTEB","winternl/TEB"]
 old-location: base\teb.htm
 tech.root: ProcThread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800

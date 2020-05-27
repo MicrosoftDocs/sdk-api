@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore.get_controls
 title: IWMPCore::get_controls (wmp.h)
-description: The get_controls method retrieves a pointer to an IWMPControls interface.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_controls method","IWMPCore.get_controls","IWMPCore::get_controls","IWMPCoreget_controls","get_controls","get_controls method [Windows Media Player]","get_controls method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_controls","wmp/IWMPCore::get_controls"]
+description: The get_controls method retrieves a pointer to an IWMPControls interface.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_controls method","IWMPCore.get_controls","IWMPCore::get_controls","IWMPCoreget_controls","get_controls","get_controls method [Windows Media Player]","get_controls method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_controls","wmp/IWMPCore::get_controls"]
 old-location: wmp\iwmpcore_get_controls.htm
 tech.root: WMP
 ms.assetid: 54d013f1-d71b-4b6a-90b4-0226022a2a0f

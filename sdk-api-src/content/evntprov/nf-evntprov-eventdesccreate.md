@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescCreate
 title: EventDescCreate function (evntprov.h)
-description: Sets the values of an event descriptor.helpviewer_keywords: ["EventDescCreate","EventDescCreate function [ETW]","base.eventdesccreate_func","etw.eventdesccreate_func","evntprov/EventDescCreate"]
+description: Sets the values of an event descriptor.
+helpviewer_keywords: ["EventDescCreate","EventDescCreate function [ETW]","base.eventdesccreate_func","etw.eventdesccreate_func","evntprov/EventDescCreate"]
 old-location: etw\eventdesccreate_func.htm
 tech.root: ETW
 ms.assetid: 05ce400e-c2e5-4852-9c41-d98ac2a6b467

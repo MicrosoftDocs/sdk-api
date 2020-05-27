@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetLastStatus
 title: FontFamily::GetLastStatus (gdiplusheaders.h)
-description: The FontFamily::GetLastStatus method returns a value that indicates the nature of this FontFamily object's most recent method failure.helpviewer_keywords: ["FontFamily class [GDI+]","GetLastStatus method","FontFamily.GetLastStatus","FontFamily::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetLastStatus_","gdiplus._gdiplus_CLASS_FontFamily_GetLastStatus_"]
+description: The FontFamily::GetLastStatus method returns a value that indicates the nature of this FontFamily object's most recent method failure.
+helpviewer_keywords: ["FontFamily class [GDI+]","GetLastStatus method","FontFamily.GetLastStatus","FontFamily::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetLastStatus_","gdiplus._gdiplus_CLASS_FontFamily_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getlaststatus_12.htm

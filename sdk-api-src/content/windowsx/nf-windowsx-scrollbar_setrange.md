@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ScrollBar_SetRange
 title: ScrollBar_SetRange macro (windowsx.h)
-description: Sets the range of a scroll bar.helpviewer_keywords: ["ScrollBar_SetRange","ScrollBar_SetRange macro [Windows Controls]","_win32_ScrollBar_SetRange","_win32_ScrollBar_SetRange_cpp","controls.ScrollBar_SetRange","controls._win32_ScrollBar_SetRange","windowsx/ScrollBar_SetRange"]
+description: Sets the range of a scroll bar.
+helpviewer_keywords: ["ScrollBar_SetRange","ScrollBar_SetRange macro [Windows Controls]","_win32_ScrollBar_SetRange","_win32_ScrollBar_SetRange_cpp","controls.ScrollBar_SetRange","controls._win32_ScrollBar_SetRange","windowsx/ScrollBar_SetRange"]
 old-location: controls\ScrollBar_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_setrange.htm

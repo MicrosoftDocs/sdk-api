@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfRange.IsEmpty
 title: ITfRange::IsEmpty (msctf.h)
-description: The ITfRange::IsEmpty method verifies that the range of text is empty because the start and end anchors occupy the same position.helpviewer_keywords: ["ITfRange interface [Text Services Framework]","IsEmpty method","ITfRange.IsEmpty","ITfRange::IsEmpty","IsEmpty","IsEmpty method [Text Services Framework]","IsEmpty method [Text Services Framework]","ITfRange interface","_tsf_itfrange_isempty_ref","msctf/ITfRange::IsEmpty","tsf.itfrange_isempty"]
+description: The ITfRange::IsEmpty method verifies that the range of text is empty because the start and end anchors occupy the same position.
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","IsEmpty method","ITfRange.IsEmpty","ITfRange::IsEmpty","IsEmpty","IsEmpty method [Text Services Framework]","IsEmpty method [Text Services Framework]","ITfRange interface","_tsf_itfrange_isempty_ref","msctf/ITfRange::IsEmpty","tsf.itfrange_isempty"]
 old-location: tsf\itfrange_isempty.htm
 tech.root: TSF
 ms.assetid: 4cc720c1-acc1-445e-830e-91135fdfeeed

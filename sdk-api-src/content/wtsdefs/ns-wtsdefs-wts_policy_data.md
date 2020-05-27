@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsdefs._WTS_POLICY_DATA
 title: WTS_POLICY_DATA (wtsdefs.h)
-description: Contains policy information that is passed by the Remote Desktop Services service to the protocol.helpviewer_keywords: ["*PWTS_POLICY_DATA","1","2","3","4","5","PWTS_POLICY_DATA","PWTS_POLICY_DATA structure pointer [Remote Desktop Services]","WTS_POLICY_DATA","WTS_POLICY_DATA structure [Remote Desktop Services]","termserv.wts_policy_data","wtsdefs/PWTS_POLICY_DATA","wtsdefs/WTS_POLICY_DATA"]
+description: Contains policy information that is passed by the Remote Desktop Services service to the protocol.
+helpviewer_keywords: ["*PWTS_POLICY_DATA","1","2","3","4","5","PWTS_POLICY_DATA","PWTS_POLICY_DATA structure pointer [Remote Desktop Services]","WTS_POLICY_DATA","WTS_POLICY_DATA structure [Remote Desktop Services]","termserv.wts_policy_data","wtsdefs/PWTS_POLICY_DATA","wtsdefs/WTS_POLICY_DATA"]
 old-location: termserv\wts_policy_data.htm
 tech.root: TermServ
 ms.assetid: 407de671-f6e3-407e-9c97-11ea9ac8bdde

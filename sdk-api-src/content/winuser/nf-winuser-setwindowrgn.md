@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetWindowRgn
 title: SetWindowRgn function (winuser.h)
-description: The SetWindowRgn function sets the window region of a window.helpviewer_keywords: ["SetWindowRgn","SetWindowRgn function [Windows GDI]","_win32_SetWindowRgn","gdi.setwindowrgn","winuser/SetWindowRgn"]
+description: The SetWindowRgn function sets the window region of a window.
+helpviewer_keywords: ["SetWindowRgn","SetWindowRgn function [Windows GDI]","_win32_SetWindowRgn","gdi.setwindowrgn","winuser/SetWindowRgn"]
 old-location: gdi\setwindowrgn.htm
 tech.root: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa

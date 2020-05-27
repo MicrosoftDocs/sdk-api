@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMFLOAT4.operator-assign
 title: XMFLOAT4::operator-assign
-description: Assigns the vector component data from one instance of XMFLOAT4 to the current instance of XMFLOAT4.helpviewer_keywords: ["Use DirectX..XMFLOAT4.operator =","Use DirectX::::XMFLOAT4::operator =","XMFLOAT4 structure [DirectX Math Support APIs]","operator = method","XMFLOAT4.operator =","XMFLOAT4.operator-assign","XMFLOAT4.operator=","XMFLOAT4::operator-assign","XMFLOAT4::operator=","dxmath.xmfloat4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT4 structure","operator="]
+description: Assigns the vector component data from one instance of XMFLOAT4 to the current instance of XMFLOAT4.
+helpviewer_keywords: ["Use DirectX..XMFLOAT4.operator =","Use DirectX::::XMFLOAT4::operator =","XMFLOAT4 structure [DirectX Math Support APIs]","operator = method","XMFLOAT4.operator =","XMFLOAT4.operator-assign","XMFLOAT4.operator=","XMFLOAT4::operator-assign","XMFLOAT4::operator=","dxmath.xmfloat4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT4 structure","operator="]
 old-location: dxmath\xmfloat4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.operator = (const XMFLOAT4)

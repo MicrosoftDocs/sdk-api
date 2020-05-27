@@ -1,7 +1,8 @@
 ---
 UID: NC:imagehlp.PIMAGEHLP_STATUS_ROUTINE
 title: PIMAGEHLP_STATUS_ROUTINE (imagehlp.h)
-description: An application-defined callback function used with the BindImageEx function. The status routine is called during the process of the image binding.helpviewer_keywords: ["BindExpandFileHeaders","BindForwarder","BindForwarderNOT","BindImageComplete","BindImageModified","BindImportModule","BindImportModuleFailed","BindImportProcedure","BindImportProcedureFailed","BindMismatchedSymbols","BindNoRoomInImage","BindOutOfMemory","BindRvaToVaFailed","BindSymbolsNotUpdated","PIMAGEHLP_STATUS_ROUTINE","StatusRoutine","StatusRoutine callback","StatusRoutine callback function","_win32_statusroutine","base.statusroutine","imagehlp/StatusRoutine"]
+description: An application-defined callback function used with the BindImageEx function. The status routine is called during the process of the image binding.
+helpviewer_keywords: ["BindExpandFileHeaders","BindForwarder","BindForwarderNOT","BindImageComplete","BindImageModified","BindImportModule","BindImportModuleFailed","BindImportProcedure","BindImportProcedureFailed","BindMismatchedSymbols","BindNoRoomInImage","BindOutOfMemory","BindRvaToVaFailed","BindSymbolsNotUpdated","PIMAGEHLP_STATUS_ROUTINE","StatusRoutine","StatusRoutine callback","StatusRoutine callback function","_win32_statusroutine","base.statusroutine","imagehlp/StatusRoutine"]
 old-location: base\statusroutine.htm
 tech.root: Debug
 ms.assetid: 38a6ddee-5ef1-416f-99ca-11a50643fc97

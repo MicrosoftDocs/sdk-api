@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRestoreOptions
 title: IVssBackupComponents::SetRestoreOptions (vsbackup.h)
-description: The SetRestoreOptions method sets a string of private, or writer-dependent, restore parameters for a writer component.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetRestoreOptions method","IVssBackupComponents.SetRestoreOptions","IVssBackupComponents::SetRestoreOptions","SetRestoreOptions","SetRestoreOptions method [VSS]","SetRestoreOptions method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setrestoreoptions","base.ivssbackupcomponents_setrestoreoptions","vsbackup/IVssBackupComponents::SetRestoreOptions"]
+description: The SetRestoreOptions method sets a string of private, or writer-dependent, restore parameters for a writer component.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetRestoreOptions method","IVssBackupComponents.SetRestoreOptions","IVssBackupComponents::SetRestoreOptions","SetRestoreOptions","SetRestoreOptions method [VSS]","SetRestoreOptions method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setrestoreoptions","base.ivssbackupcomponents_setrestoreoptions","vsbackup/IVssBackupComponents::SetRestoreOptions"]
 old-location: base\ivssbackupcomponents_setrestoreoptions.htm
 tech.root: VSS
 ms.assetid: 4a872594-dcd8-463d-9f6b-6bc40c17df38

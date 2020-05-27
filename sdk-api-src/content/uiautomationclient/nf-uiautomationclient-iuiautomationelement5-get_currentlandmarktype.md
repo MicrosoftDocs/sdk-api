@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement5.get_CurrentLandmarkType
 title: IUIAutomationElement5::get_CurrentLandmarkType (uiautomationclient.h)
-description: Gets the current landmark type ID for the automation element.helpviewer_keywords: ["CurrentLandmarkType property [Windows Accessibility]","CurrentLandmarkType property [Windows Accessibility]","IUIAutomationElement5 interface","IUIAutomationElement5 interface [Windows Accessibility]","CurrentLandmarkType property","IUIAutomationElement5.CurrentLandmarkType","IUIAutomationElement5.get_CurrentLandmarkType","IUIAutomationElement5::CurrentLandmarkType","IUIAutomationElement5::get_CurrentLandmarkType","get_CurrentLandmarkType","uiautomationclient/IUIAutomationElement5::CurrentLandmarkType","uiautomationclient/IUIAutomationElement5::get_CurrentLandmarkType","winauto.uiauto_IUIAutomationElement5_CurrentLandmarkType"]
+description: Gets the current landmark type ID for the automation element.
+helpviewer_keywords: ["CurrentLandmarkType property [Windows Accessibility]","CurrentLandmarkType property [Windows Accessibility]","IUIAutomationElement5 interface","IUIAutomationElement5 interface [Windows Accessibility]","CurrentLandmarkType property","IUIAutomationElement5.CurrentLandmarkType","IUIAutomationElement5.get_CurrentLandmarkType","IUIAutomationElement5::CurrentLandmarkType","IUIAutomationElement5::get_CurrentLandmarkType","get_CurrentLandmarkType","uiautomationclient/IUIAutomationElement5::CurrentLandmarkType","uiautomationclient/IUIAutomationElement5::get_CurrentLandmarkType","winauto.uiauto_IUIAutomationElement5_CurrentLandmarkType"]
 old-location: winauto\uiauto_IUIAutomationElement5_CurrentLandmarkType.htm
 tech.root: WinAuto
 ms.assetid: 85A5612D-7BCB-4E0C-B6DC-EAC0D3F6789D

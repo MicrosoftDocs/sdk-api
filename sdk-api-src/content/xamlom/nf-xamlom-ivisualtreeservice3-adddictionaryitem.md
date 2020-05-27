@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.AddDictionaryItem
 title: IVisualTreeService3::AddDictionaryItem (xamlom.h)
-description: Adds an item to a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key.helpviewer_keywords: ["AddDictionaryItem","AddDictionaryItem method","AddDictionaryItem method","IVisualTreeService3 interface","IVisualTreeService3 interface","AddDictionaryItem method","IVisualTreeService3.AddDictionaryItem","IVisualTreeService3::AddDictionaryItem","xaml_diagnostics.ivisualtreeservice3_adddictionaryitem","xamlom/IVisualTreeService3::AddDictionaryItem"]
+description: Adds an item to a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key.
+helpviewer_keywords: ["AddDictionaryItem","AddDictionaryItem method","AddDictionaryItem method","IVisualTreeService3 interface","IVisualTreeService3 interface","AddDictionaryItem method","IVisualTreeService3.AddDictionaryItem","IVisualTreeService3::AddDictionaryItem","xaml_diagnostics.ivisualtreeservice3_adddictionaryitem","xamlom/IVisualTreeService3::AddDictionaryItem"]
 old-location: xaml_diagnostics\ivisualtreeservice3_adddictionaryitem.htm
 tech.root: xaml_diagnostics
 ms.assetid: 86590A71-8BFC-4214-9F7C-1DF5B8391552

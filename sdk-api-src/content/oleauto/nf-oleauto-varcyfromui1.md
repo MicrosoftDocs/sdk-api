@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyFromUI1
 title: VarCyFromUI1 function (oleauto.h)
-description: Converts an unsigned char value to a currency value.helpviewer_keywords: ["VarCyFromUI1","VarCyFromUI1 function [Automation]","_oa96_VarCyFromUI1","automat.varcyfromui1","oleauto/VarCyFromUI1"]
+description: Converts an unsigned char value to a currency value.
+helpviewer_keywords: ["VarCyFromUI1","VarCyFromUI1 function [Automation]","_oa96_VarCyFromUI1","automat.varcyfromui1","oleauto/VarCyFromUI1"]
 old-location: automat\varcyfromui1.htm
 tech.root: automat
 ms.assetid: f7796e49-24c2-4ed7-9d1c-a2e48ad33c2b

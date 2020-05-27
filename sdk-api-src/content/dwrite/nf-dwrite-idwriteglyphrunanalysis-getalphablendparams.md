@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaBlendParams
 title: IDWriteGlyphRunAnalysis::GetAlphaBlendParams (dwrite.h)
-description: Gets alpha blending properties required for ClearType blending.helpviewer_keywords: ["GetAlphaBlendParams","GetAlphaBlendParams method [Direct Write]","GetAlphaBlendParams method [Direct Write]","IDWriteGlyphRunAnalysis interface","IDWriteGlyphRunAnalysis interface [Direct Write]","GetAlphaBlendParams method","IDWriteGlyphRunAnalysis.GetAlphaBlendParams","IDWriteGlyphRunAnalysis::GetAlphaBlendParams","directwrite.IDWriteGlyphRunAnalysis_GetAlphaBlendParams","dwrite/IDWriteGlyphRunAnalysis::GetAlphaBlendParams"]
+description: Gets alpha blending properties required for ClearType blending.
+helpviewer_keywords: ["GetAlphaBlendParams","GetAlphaBlendParams method [Direct Write]","GetAlphaBlendParams method [Direct Write]","IDWriteGlyphRunAnalysis interface","IDWriteGlyphRunAnalysis interface [Direct Write]","GetAlphaBlendParams method","IDWriteGlyphRunAnalysis.GetAlphaBlendParams","IDWriteGlyphRunAnalysis::GetAlphaBlendParams","directwrite.IDWriteGlyphRunAnalysis_GetAlphaBlendParams","dwrite/IDWriteGlyphRunAnalysis::GetAlphaBlendParams"]
 old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaBlendParams.htm
 tech.root: DirectWrite
 ms.assetid: 21991479-f041-40f9-83d5-0718ede26b92

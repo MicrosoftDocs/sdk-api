@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF(IN REAL,IN REAL)
 title: PointF::PointF(IN REAL,IN REAL) (gdiplustypes.h)
-description: Creates a PointF object using two real numbers to specify the X and Y data members.helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF constructor","PointF constructor [GDI+]","PointF constructor [GDI+]","PointF class","PointF.PointF","PointF.PointF(IN REAL","IN REAL)","PointF.PointF(REAL","REAL)","PointF::PointF","PointF::PointF(IN REAL","IN REAL)","_gdiplus_CLASS_PointF_PointF_x_y_","gdiplus._gdiplus_CLASS_PointF_PointF_x_y_"]
+description: Creates a PointF object using two real numbers to specify the X and Y data members.
+helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF constructor","PointF constructor [GDI+]","PointF constructor [GDI+]","PointF class","PointF.PointF","PointF.PointF(IN REAL","IN REAL)","PointF.PointF(REAL","REAL)","PointF::PointF","PointF::PointF(IN REAL","IN REAL)","_gdiplus_CLASS_PointF_PointF_x_y_","gdiplus._gdiplus_CLASS_PointF_PointF_x_y_"]
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_49x_y.htm

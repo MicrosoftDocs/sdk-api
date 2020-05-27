@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetListenerProperty
 title: WsGetListenerProperty function (webservices.h)
-description: Retrieves a specified Listener object property. The property to retrieve is identified by a WS_LISTENER_PROPERTY_ID input parameter.helpviewer_keywords: ["WsGetListenerProperty","WsGetListenerProperty function [Web Services for Windows]","webservices/WsGetListenerProperty","wsw.wsgetlistenerproperty"]
+description: Retrieves a specified Listener object property. The property to retrieve is identified by a WS_LISTENER_PROPERTY_ID input parameter.
+helpviewer_keywords: ["WsGetListenerProperty","WsGetListenerProperty function [Web Services for Windows]","webservices/WsGetListenerProperty","wsw.wsgetlistenerproperty"]
 old-location: wsw\wsgetlistenerproperty.htm
 tech.root: wsw
 ms.assetid: cc4fb48a-8282-471a-aed0-1ca3134f9bd0

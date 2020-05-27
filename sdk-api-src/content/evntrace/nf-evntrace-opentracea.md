@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.OpenTraceA
 title: OpenTraceA function (evntrace.h)
-description: The OpenTrace function opens a real-time trace session or log file for consuming.helpviewer_keywords: ["OpenTrace","OpenTrace function [ETW]","OpenTraceA","OpenTraceW","_evt_opentrace","base.opentrace","etw.opentrace","evntrace/OpenTrace","evntrace/OpenTraceA","evntrace/OpenTraceW"]
+description: The OpenTrace function opens a real-time trace session or log file for consuming.
+helpviewer_keywords: ["OpenTrace","OpenTrace function [ETW]","OpenTraceA","OpenTraceW","_evt_opentrace","base.opentrace","etw.opentrace","evntrace/OpenTrace","evntrace/OpenTraceA","evntrace/OpenTraceW"]
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234

@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetDiskSpaceInformation
 title: IOfflineFilesCache::GetDiskSpaceInformation (cscobj.h)
-description: Retrieves the amount of disk space used by the Offline Files cache as well as the space limits applied to cache usage.helpviewer_keywords: ["GetDiskSpaceInformation","GetDiskSpaceInformation method [Offline Files]","GetDiskSpaceInformation method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","GetDiskSpaceInformation method","IOfflineFilesCache.GetDiskSpaceInformation","IOfflineFilesCache::GetDiskSpaceInformation","cscobj/IOfflineFilesCache::GetDiskSpaceInformation","of.iofflinefilescache_getdiskspaceinformation"]
+description: Retrieves the amount of disk space used by the Offline Files cache as well as the space limits applied to cache usage.
+helpviewer_keywords: ["GetDiskSpaceInformation","GetDiskSpaceInformation method [Offline Files]","GetDiskSpaceInformation method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","GetDiskSpaceInformation method","IOfflineFilesCache.GetDiskSpaceInformation","IOfflineFilesCache::GetDiskSpaceInformation","cscobj/IOfflineFilesCache::GetDiskSpaceInformation","of.iofflinefilescache_getdiskspaceinformation"]
 old-location: of\iofflinefilescache_getdiskspaceinformation.htm
 tech.root: offlinefiles
 ms.assetid: 94ea826a-bfc4-4010-a57f-c3a1af985d03

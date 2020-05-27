@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRetrieveCertificateMessage
 title: IX509SCEPEnrollment::CreateRetrieveCertificateMessage (certenroll.h)
-description: Retrieve a previously issued certificate.helpviewer_keywords: ["CreateRetrieveCertificateMessage","CreateRetrieveCertificateMessage method [Security]","CreateRetrieveCertificateMessage method [Security]","IX509SCEPEnrollment interface","IX509SCEPEnrollment interface [Security]","CreateRetrieveCertificateMessage method","IX509SCEPEnrollment.CreateRetrieveCertificateMessage","IX509SCEPEnrollment::CreateRetrieveCertificateMessage","certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage","security.ix509scepenrollment_createretrievecertificatemessage"]
+description: Retrieve a previously issued certificate.
+helpviewer_keywords: ["CreateRetrieveCertificateMessage","CreateRetrieveCertificateMessage method [Security]","CreateRetrieveCertificateMessage method [Security]","IX509SCEPEnrollment interface","IX509SCEPEnrollment interface [Security]","CreateRetrieveCertificateMessage method","IX509SCEPEnrollment.CreateRetrieveCertificateMessage","IX509SCEPEnrollment::CreateRetrieveCertificateMessage","certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage","security.ix509scepenrollment_createretrievecertificatemessage"]
 old-location: security\ix509scepenrollment_createretrievecertificatemessage.htm
 tech.root: seccertenroll
 ms.assetid: 238a837f-4464-49ce-b87a-03abcfc0abea

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GlobalHandle
 title: GlobalHandle function (winbase.h)
-description: Retrieves the handle associated with the specified pointer to a global memory block.helpviewer_keywords: ["GlobalHandle","GlobalHandle function","_win32_globalhandle","base.globalhandle","winbase/GlobalHandle"]
+description: Retrieves the handle associated with the specified pointer to a global memory block.
+helpviewer_keywords: ["GlobalHandle","GlobalHandle function","_win32_globalhandle","base.globalhandle","winbase/GlobalHandle"]
 old-location: base\globalhandle.htm
 tech.root: Memory
 ms.assetid: 18ed3446-060a-4874-8187-5c54fb936da9

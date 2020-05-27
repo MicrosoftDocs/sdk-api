@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.AssocCreateForClasses
 title: AssocCreateForClasses function (shellapi.h)
-description: Retrieves an object that implements an IQueryAssociations interface.helpviewer_keywords: ["AssocCreateForClasses","AssocCreateForClasses function [Windows Shell]","_shell_AssocCreateForClasses","shell.AssocCreateForClasses","shellapi/AssocCreateForClasses"]
+description: Retrieves an object that implements an IQueryAssociations interface.
+helpviewer_keywords: ["AssocCreateForClasses","AssocCreateForClasses function [Windows Shell]","_shell_AssocCreateForClasses","shell.AssocCreateForClasses","shellapi/AssocCreateForClasses"]
 old-location: shell\AssocCreateForClasses.htm
 tech.root: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5

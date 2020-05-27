@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetDispatcher
 title: IXamlDiagnostics::GetDispatcher (xamlom.h)
-description: Gets the core dispatcher used to access elements on the UI thread.helpviewer_keywords: ["GetDispatcher","GetDispatcher method","GetDispatcher method","IXamlDiagnostics interface","IXamlDiagnostics interface","GetDispatcher method","IXamlDiagnostics.GetDispatcher","IXamlDiagnostics::GetDispatcher","xaml_diagnostics.ixamldiagnostics_getdispatcher","xamlom/IXamlDiagnostics::GetDispatcher"]
+description: Gets the core dispatcher used to access elements on the UI thread.
+helpviewer_keywords: ["GetDispatcher","GetDispatcher method","GetDispatcher method","IXamlDiagnostics interface","IXamlDiagnostics interface","GetDispatcher method","IXamlDiagnostics.GetDispatcher","IXamlDiagnostics::GetDispatcher","xaml_diagnostics.ixamldiagnostics_getdispatcher","xamlom/IXamlDiagnostics::GetDispatcher"]
 old-location: xaml_diagnostics\ixamldiagnostics_getdispatcher.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6C7605F7-BBD7-4FAD-AA35-A3DC18AA6FF3

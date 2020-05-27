@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.UnregisterGPNotification
 title: UnregisterGPNotification function (userenv.h)
-description: The UnregisterGPNotification function unregisters the specified policy-notification handle from receiving policy change notifications.helpviewer_keywords: ["UnregisterGPNotification","UnregisterGPNotification function [Group Policy]","_win32_unregistergpnotification","policy.unregistergpnotification","userenv/UnregisterGPNotification"]
+description: The UnregisterGPNotification function unregisters the specified policy-notification handle from receiving policy change notifications.
+helpviewer_keywords: ["UnregisterGPNotification","UnregisterGPNotification function [Group Policy]","_win32_unregistergpnotification","policy.unregistergpnotification","userenv/UnregisterGPNotification"]
 old-location: policy\unregistergpnotification.htm
 tech.root: Policy
 ms.assetid: 39ac1361-0160-44e3-8b99-ff50978cc425

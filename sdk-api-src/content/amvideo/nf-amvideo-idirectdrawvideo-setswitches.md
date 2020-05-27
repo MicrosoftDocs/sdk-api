@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetSwitches
 title: IDirectDrawVideo::SetSwitches (amvideo.h)
-description: The SetSwitches method sets the surface types that the renderer is allowed to use.helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","SetSwitches method","IDirectDrawVideo.SetSwitches","IDirectDrawVideo::SetSwitches","IDirectDrawVideoSetSwitches","SetSwitches","SetSwitches method [DirectShow]","SetSwitches method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::SetSwitches","dshow.idirectdrawvideo_setswitches"]
+description: The SetSwitches method sets the surface types that the renderer is allowed to use.
+helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","SetSwitches method","IDirectDrawVideo.SetSwitches","IDirectDrawVideo::SetSwitches","IDirectDrawVideoSetSwitches","SetSwitches","SetSwitches method [DirectShow]","SetSwitches method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::SetSwitches","dshow.idirectdrawvideo_setswitches"]
 old-location: dshow\idirectdrawvideo_setswitches.htm
 tech.root: DirectShow
 ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed

@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServiceID
 title: IUpdateHistoryEntry::get_ServiceID (wuapi.h)
-description: Gets the service identifier of an update service that is not a Windows update.helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","ServiceID property","IUpdateHistoryEntry.ServiceID","IUpdateHistoryEntry.get_ServiceID","IUpdateHistoryEntry::ServiceID","IUpdateHistoryEntry::get_ServiceID","ServiceID property [Windows Update Agent]","ServiceID property [Windows Update Agent]","IUpdateHistoryEntry interface","get_ServiceID","wua.iupdatehistoryentry_serviceid","wuapi/IUpdateHistoryEntry::ServiceID","wuapi/IUpdateHistoryEntry::get_ServiceID"]
+description: Gets the service identifier of an update service that is not a Windows update.
+helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","ServiceID property","IUpdateHistoryEntry.ServiceID","IUpdateHistoryEntry.get_ServiceID","IUpdateHistoryEntry::ServiceID","IUpdateHistoryEntry::get_ServiceID","ServiceID property [Windows Update Agent]","ServiceID property [Windows Update Agent]","IUpdateHistoryEntry interface","get_ServiceID","wua.iupdatehistoryentry_serviceid","wuapi/IUpdateHistoryEntry::ServiceID","wuapi/IUpdateHistoryEntry::get_ServiceID"]
 old-location: wua\iupdatehistoryentry_serviceid.htm
 tech.root: Wua_Sdk
 ms.assetid: 01e430fa-6ff6-47f9-bac7-7d611b0f934f

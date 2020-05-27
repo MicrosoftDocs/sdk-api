@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IntersectRect
 title: IntersectRect function (winuser.h)
-description: The IntersectRect function calculates the intersection of two source rectangles and places the coordinates of the intersection rectangle into the destination rectangle.helpviewer_keywords: ["IntersectRect","IntersectRect function [Windows GDI]","_win32_IntersectRect","gdi.intersectrect","winuser/IntersectRect"]
+description: The IntersectRect function calculates the intersection of two source rectangles and places the coordinates of the intersection rectangle into the destination rectangle.
+helpviewer_keywords: ["IntersectRect","IntersectRect function [Windows GDI]","_win32_IntersectRect","gdi.intersectrect","winuser/IntersectRect"]
 old-location: gdi\intersectrect.htm
 tech.root: gdi
 ms.assetid: da686f78-e557-4ff2-9f24-b229f0c01563

@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsService.IsServiceReady
 title: IVdsService::IsServiceReady (vds.h)
-description: Returns the initialization status of VDS.helpviewer_keywords: ["IVdsService interface [VDS]","IsServiceReady method","IVdsService.IsServiceReady","IVdsService::IsServiceReady","IsServiceReady","IsServiceReady method [VDS]","IsServiceReady method [VDS]","IVdsService interface","base.ivdsservice_isserviceready","vds/IVdsService::IsServiceReady"]
+description: Returns the initialization status of VDS.
+helpviewer_keywords: ["IVdsService interface [VDS]","IsServiceReady method","IVdsService.IsServiceReady","IVdsService::IsServiceReady","IsServiceReady","IsServiceReady method [VDS]","IsServiceReady method [VDS]","IVdsService interface","base.ivdsservice_isserviceready","vds/IVdsService::IsServiceReady"]
 old-location: base\ivdsservice_isserviceready.htm
 tech.root: VDS
 ms.assetid: 79ef68db-6bc6-40b3-a133-86f00eb70ee3

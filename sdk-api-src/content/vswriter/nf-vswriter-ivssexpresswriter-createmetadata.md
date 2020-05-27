@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.CreateMetadata
 title: IVssExpressWriter::CreateMetadata (vswriter.h)
-description: Creates an express writer metadata object and returns an IVssCreateExpressWriterMetadata interface pointer to it.helpviewer_keywords: ["CreateMetadata","CreateMetadata method","CreateMetadata method","IVssExpressWriter interface","IVssExpressWriter interface","CreateMetadata method","IVssExpressWriter.CreateMetadata","IVssExpressWriter::CreateMetadata","base.ivssexpresswriter_createwritermetadata","vswriter/IVssExpressWriter::CreateMetadata"]
+description: Creates an express writer metadata object and returns an IVssCreateExpressWriterMetadata interface pointer to it.
+helpviewer_keywords: ["CreateMetadata","CreateMetadata method","CreateMetadata method","IVssExpressWriter interface","IVssExpressWriter interface","CreateMetadata method","IVssExpressWriter.CreateMetadata","IVssExpressWriter::CreateMetadata","base.ivssexpresswriter_createwritermetadata","vswriter/IVssExpressWriter::CreateMetadata"]
 old-location: base\ivssexpresswriter_createwritermetadata.htm
 tech.root: VSS
 ms.assetid: 254f4a32-cb33-494e-8fb4-06ab1cc2b184

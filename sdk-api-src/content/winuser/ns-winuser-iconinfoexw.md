@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser._ICONINFOEXW
 title: ICONINFOEXW (winuser.h)
-description: Contains information about an icon or a cursor. Extends ICONINFO. Used by GetIconInfoEx.helpviewer_keywords: ["*PICONINFOEXW","ICONINFOEX","ICONINFOEX structure [Menus and Other Resources]","ICONINFOEXA","ICONINFOEXW","_win32_ICONINFOEX","_win32_iconinfoex_cpp","menurc.iconinfoex","winui._win32_iconinfoex","winuser/ICONINFOEX","winuser/ICONINFOEXA","winuser/ICONINFOEXW"]
+description: Contains information about an icon or a cursor. Extends ICONINFO. Used by GetIconInfoEx.
+helpviewer_keywords: ["*PICONINFOEXW","ICONINFOEX","ICONINFOEX structure [Menus and Other Resources]","ICONINFOEXA","ICONINFOEXW","_win32_ICONINFOEX","_win32_iconinfoex_cpp","menurc.iconinfoex","winui._win32_iconinfoex","winuser/ICONINFOEX","winuser/ICONINFOEXA","winuser/ICONINFOEXW"]
 old-location: menurc\iconinfoex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconinfoex.htm

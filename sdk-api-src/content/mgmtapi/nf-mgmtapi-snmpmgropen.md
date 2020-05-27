@@ -1,7 +1,8 @@
 ---
 UID: NF:mgmtapi.SnmpMgrOpen
 title: SnmpMgrOpen function (mgmtapi.h)
-description: The SnmpMgrOpen function initializes communications sockets and data structures, allowing communications with the specified SNMP agent. This function is an element of the SNMP Management API.helpviewer_keywords: ["SnmpMgrOpen","SnmpMgrOpen function [SNMP]","_snmp_snmpmgropen","mgmtapi/SnmpMgrOpen","snmp.snmpmgropen"]
+description: The SnmpMgrOpen function initializes communications sockets and data structures, allowing communications with the specified SNMP agent. This function is an element of the SNMP Management API.
+helpviewer_keywords: ["SnmpMgrOpen","SnmpMgrOpen function [SNMP]","_snmp_snmpmgropen","mgmtapi/SnmpMgrOpen","snmp.snmpmgropen"]
 old-location: snmp\snmpmgropen.htm
 tech.root: SNMP
 ms.assetid: e2827352-f1aa-477e-933c-942c73cea487

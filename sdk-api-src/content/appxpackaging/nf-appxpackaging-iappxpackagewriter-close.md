@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter.Close
 title: IAppxPackageWriter::Close (appxpackaging.h)
-description: Writes footprint files at the end of the app package, and closes the package writer object's output stream.helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxPackageWriter interface","IAppxPackageWriter interface [App packaging and management]","Close method","IAppxPackageWriter.Close","IAppxPackageWriter::Close","appxpackaging/IAppxPackageWriter::Close","appxpkg.iappxpackagewriter_close"]
+description: Writes footprint files at the end of the app package, and closes the package writer object's output stream.
+helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxPackageWriter interface","IAppxPackageWriter interface [App packaging and management]","Close method","IAppxPackageWriter.Close","IAppxPackageWriter::Close","appxpackaging/IAppxPackageWriter::Close","appxpkg.iappxpackagewriter_close"]
 old-location: appxpkg\iappxpackagewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 294625B2-1141-44EE-A769-365C3B37EBD9

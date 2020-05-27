@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore.close
 title: IWMPCore::close (wmp.h)
-description: The close method releases Windows Media Player resources.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","close method","IWMPCore.close","IWMPCore::close","IWMPCoreclose","close","close method [Windows Media Player]","close method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_close","wmp/IWMPCore::close"]
+description: The close method releases Windows Media Player resources.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","close method","IWMPCore.close","IWMPCore::close","IWMPCoreclose","close","close method [Windows Media Player]","close method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_close","wmp/IWMPCore::close"]
 old-location: wmp\iwmpcore_close.htm
 tech.root: WMP
 ms.assetid: e6e21995-5dbd-4893-a9f2-6ce918d3fbc4

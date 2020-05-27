@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfGetSyncRootInfoByPath
 title: CfGetSyncRootInfoByPath function (cfapi.h)
-description: Gets various sync root information given a file under the sync root.helpviewer_keywords: ["CfGetSyncRootInfoByPath","CfGetSyncRootInfoByPath function","cfapi/CfGetSyncRootInfoByPath","cloudApi.cfgetsyncrootinfobypath"]
+description: Gets various sync root information given a file under the sync root.
+helpviewer_keywords: ["CfGetSyncRootInfoByPath","CfGetSyncRootInfoByPath function","cfapi/CfGetSyncRootInfoByPath","cloudApi.cfgetsyncrootinfobypath"]
 old-location: cloudapi\cfgetsyncrootinfobypath.htm
 tech.root: cfApi
 ms.assetid: 0FEEF910-3545-4D94-BFF9-88AEE084F454

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.Win32DeleteFile
 title: Win32DeleteFile function (shlobj_core.h)
-description: Win32DeleteFile may be altered or unavailable.helpviewer_keywords: ["Win32DeleteFile","Win32DeleteFile function [Windows Shell]","_shell_Win32DeleteFile","shell.Win32DeleteFile","shlobj_core/Win32DeleteFile"]
+description: Win32DeleteFile may be altered or unavailable.
+helpviewer_keywords: ["Win32DeleteFile","Win32DeleteFile function [Windows Shell]","_shell_Win32DeleteFile","shell.Win32DeleteFile","shlobj_core/Win32DeleteFile"]
 old-location: shell\Win32DeleteFile.htm
 tech.root: shell
 ms.assetid: e6b2ac77-a206-413e-aba7-0fd627799a95

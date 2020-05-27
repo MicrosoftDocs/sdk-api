@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHostProviderFromHwnd
 title: UiaHostProviderFromHwnd function (uiautomationcoreapi.h)
-description: Gets the host provider for a window.helpviewer_keywords: ["UiaHostProviderFromHwnd","UiaHostProviderFromHwnd function [Windows Accessibility]","uiauto.uiauto_UiaHostProviderFromHwndFunction","uiauto_UiaHostProviderFromHwndFunction","uiautomationcoreapi/UiaHostProviderFromHwnd","winauto.uiauto_UiaHostProviderFromHwndFunction"]
+description: Gets the host provider for a window.
+helpviewer_keywords: ["UiaHostProviderFromHwnd","UiaHostProviderFromHwnd function [Windows Accessibility]","uiauto.uiauto_UiaHostProviderFromHwndFunction","uiauto_UiaHostProviderFromHwndFunction","uiautomationcoreapi/UiaHostProviderFromHwnd","winauto.uiauto_UiaHostProviderFromHwndFunction"]
 old-location: winauto\uiauto_UiaHostProviderFromHwndFunction.htm
 tech.root: WinAuto
 ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1

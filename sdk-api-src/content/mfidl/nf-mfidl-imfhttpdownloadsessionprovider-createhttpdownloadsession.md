@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 title: IMFHttpDownloadSessionProvider::CreateHttpDownloadSession (mfidl.h)
-description: Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of using the default implementation.helpviewer_keywords: ["CreateHttpDownloadSession","CreateHttpDownloadSession method [Media Foundation]","CreateHttpDownloadSession method [Media Foundation]","IMFHttpDownloadSessionProvider interface","IMFHttpDownloadSessionProvider interface [Media Foundation]","CreateHttpDownloadSession method","IMFHttpDownloadSessionProvider.CreateHttpDownloadSession","IMFHttpDownloadSessionProvider::CreateHttpDownloadSession","mf.imfhttpdownloadsessionprovider_createhttpdownloadsession","mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession"]
+description: Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of using the default implementation.
+helpviewer_keywords: ["CreateHttpDownloadSession","CreateHttpDownloadSession method [Media Foundation]","CreateHttpDownloadSession method [Media Foundation]","IMFHttpDownloadSessionProvider interface","IMFHttpDownloadSessionProvider interface [Media Foundation]","CreateHttpDownloadSession method","IMFHttpDownloadSessionProvider.CreateHttpDownloadSession","IMFHttpDownloadSessionProvider::CreateHttpDownloadSession","mf.imfhttpdownloadsessionprovider_createhttpdownloadsession","mfidl/IMFHttpDownloadSessionProvider::CreateHttpDownloadSession"]
 old-location: mf\imfhttpdownloadsessionprovider_createhttpdownloadsession.htm
 tech.root: medfound
 ms.assetid: D9DAE789-1C0E-42B4-87B6-593D3B67FE1F

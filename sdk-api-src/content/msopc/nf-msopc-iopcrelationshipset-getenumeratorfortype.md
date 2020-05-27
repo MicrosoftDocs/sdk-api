@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetEnumeratorForType
 title: IOpcRelationshipSet::GetEnumeratorForType (msopc.h)
-description: Gets an enumerator of the IOpcRelationship interface pointers in the set that point to representations of relationships that have a specified relationship type.helpviewer_keywords: ["GetEnumeratorForType","GetEnumeratorForType method [Open Packaging Conventions]","GetEnumeratorForType method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","GetEnumeratorForType method","IOpcRelationshipSet.GetEnumeratorForType","IOpcRelationshipSet::GetEnumeratorForType","msopc/IOpcRelationshipSet::GetEnumeratorForType","opc.iopcrelationshipset_getenumeratorfortype"]
+description: Gets an enumerator of the IOpcRelationship interface pointers in the set that point to representations of relationships that have a specified relationship type.
+helpviewer_keywords: ["GetEnumeratorForType","GetEnumeratorForType method [Open Packaging Conventions]","GetEnumeratorForType method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","GetEnumeratorForType method","IOpcRelationshipSet.GetEnumeratorForType","IOpcRelationshipSet::GetEnumeratorForType","msopc/IOpcRelationshipSet::GetEnumeratorForType","opc.iopcrelationshipset_getenumeratorfortype"]
 old-location: opc\iopcrelationshipset_getenumeratorfortype.htm
 tech.root: OPC
 ms.assetid: 5b389660-f74d-48ae-a16b-5822661f0015

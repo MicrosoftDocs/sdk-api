@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_SERIALIZATION
 title: D3D12_FEATURE_DATA_SERIALIZATION
-description: Indicates the level of support for heap serialization.helpviewer_keywords: ["D3D12_FEATURE_DATA_SERIALIZATION"]
+description: Indicates the level of support for heap serialization.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_SERIALIZATION"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_SERIALIZATION
 f1_keywords:

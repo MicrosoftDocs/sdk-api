@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATA
 title: NMDATETIMEFORMATA (commctrl.h)
-description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.helpviewer_keywords: ["*LPNMDATETIMEFORMATA","LPNMDATETIMEFORMAT","LPNMDATETIMEFORMAT structure pointer [Windows Controls]","NMDATETIMEFORMAT","NMDATETIMEFORMAT structure [Windows Controls]","NMDATETIMEFORMATA","NMDATETIMEFORMATW","_win32_NMDATETIMEFORMAT","_win32_NMDATETIMEFORMAT_cpp","commctrl/LPNMDATETIMEFORMAT","commctrl/NMDATETIMEFORMAT","commctrl/NMDATETIMEFORMATA","commctrl/NMDATETIMEFORMATW","controls.NMDATETIMEFORMAT","controls._win32_NMDATETIMEFORMAT"]
+description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.
+helpviewer_keywords: ["*LPNMDATETIMEFORMATA","LPNMDATETIMEFORMAT","LPNMDATETIMEFORMAT structure pointer [Windows Controls]","NMDATETIMEFORMAT","NMDATETIMEFORMAT structure [Windows Controls]","NMDATETIMEFORMATA","NMDATETIMEFORMATW","_win32_NMDATETIMEFORMAT","_win32_NMDATETIMEFORMAT_cpp","commctrl/LPNMDATETIMEFORMAT","commctrl/NMDATETIMEFORMAT","commctrl/NMDATETIMEFORMATA","commctrl/NMDATETIMEFORMATW","controls.NMDATETIMEFORMAT","controls._win32_NMDATETIMEFORMAT"]
 old-location: controls\NMDATETIMEFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformat.htm

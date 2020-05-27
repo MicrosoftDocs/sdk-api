@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.ITaskSettings
 title: ITaskSettings (taskschd.h)
-description: Provides the settings that the Task Scheduler service uses to perform the task.helpviewer_keywords: ["ITaskSettings","ITaskSettings interface [Task Scheduler]","ITaskSettings interface [Task Scheduler]","described","taskschd.itasksettings","taskschd/ITaskSettings"]
+description: Provides the settings that the Task Scheduler service uses to perform the task.
+helpviewer_keywords: ["ITaskSettings","ITaskSettings interface [Task Scheduler]","ITaskSettings interface [Task Scheduler]","described","taskschd.itasksettings","taskschd/ITaskSettings"]
 old-location: taskschd\itasksettings.htm
 tech.root: taskschd
 ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6

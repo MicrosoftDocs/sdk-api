@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreatePalette
 title: IWICImagingFactory::CreatePalette (wincodec.h)
-description: Creates a new instance of the IWICPalette class.helpviewer_keywords: ["CreatePalette","CreatePalette method [Windows Imaging Component]","CreatePalette method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreatePalette method","IWICImagingFactory.CreatePalette","IWICImagingFactory::CreatePalette","_wic_codec_iwicimagingfactory_createpalette","wic._wic_codec_iwicimagingfactory_createpalette","wincodec/IWICImagingFactory::CreatePalette"]
+description: Creates a new instance of the IWICPalette class.
+helpviewer_keywords: ["CreatePalette","CreatePalette method [Windows Imaging Component]","CreatePalette method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreatePalette method","IWICImagingFactory.CreatePalette","IWICImagingFactory::CreatePalette","_wic_codec_iwicimagingfactory_createpalette","wic._wic_codec_iwicimagingfactory_createpalette","wincodec/IWICImagingFactory::CreatePalette"]
 old-location: wic\_wic_codec_iwicimagingfactory_createpalette.htm
 tech.root: wic
 ms.assetid: 135440ee-ea70-40da-9ee1-618a8e10170a

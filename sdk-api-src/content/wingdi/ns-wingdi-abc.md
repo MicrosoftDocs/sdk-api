@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi._ABC
 title: ABC (wingdi.h)
-description: The ABC structure contains the width of a character in a TrueType font.helpviewer_keywords: ["*LPABC","*NPABC","*PABC","ABC","ABC structure [Windows GDI]","PABC","PABC structure pointer [Windows GDI]","_win32_ABC_str","gdi.abc","wingdi/ABC","wingdi/PABC"]
+description: The ABC structure contains the width of a character in a TrueType font.
+helpviewer_keywords: ["*LPABC","*NPABC","*PABC","ABC","ABC structure [Windows GDI]","PABC","PABC structure pointer [Windows GDI]","_win32_ABC_str","gdi.abc","wingdi/ABC","wingdi/PABC"]
 old-location: gdi\abc.htm
 tech.root: gdi
 ms.assetid: 00000000-0000-0000-0000-000000000001

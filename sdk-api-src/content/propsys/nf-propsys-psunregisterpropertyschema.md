@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSUnregisterPropertySchema
 title: PSUnregisterPropertySchema function (propsys.h)
-description: Informs the schema subsystem of the removal of a property description schema file.helpviewer_keywords: ["PSUnregisterPropertySchema","PSUnregisterPropertySchema function [Windows Properties]","properties.PSUnregisterPropertySchema","propsys/PSUnregisterPropertySchema","shell.PSUnregisterPropertySchema","shell_PSUnregisterPropertySchema"]
+description: Informs the schema subsystem of the removal of a property description schema file.
+helpviewer_keywords: ["PSUnregisterPropertySchema","PSUnregisterPropertySchema function [Windows Properties]","properties.PSUnregisterPropertySchema","propsys/PSUnregisterPropertySchema","shell.PSUnregisterPropertySchema","shell_PSUnregisterPropertySchema"]
 old-location: properties\PSUnregisterPropertySchema.htm
 tech.root: properties
 ms.assetid: 57df82a9-8954-4c2b-b794-82ac542149e2

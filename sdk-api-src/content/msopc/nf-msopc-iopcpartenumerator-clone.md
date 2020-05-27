@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.Clone
 title: IOpcPartEnumerator::Clone (msopc.h)
-description: Creates a copy of the current enumerator and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcPartEnumerator interface","IOpcPartEnumerator interface [Open Packaging Conventions]","Clone method","IOpcPartEnumerator.Clone","IOpcPartEnumerator::Clone","msopc/IOpcPartEnumerator::Clone","opc.iopcpartenumerator_clone"]
+description: Creates a copy of the current enumerator and all its descendants.
+helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcPartEnumerator interface","IOpcPartEnumerator interface [Open Packaging Conventions]","Clone method","IOpcPartEnumerator.Clone","IOpcPartEnumerator::Clone","msopc/IOpcPartEnumerator::Clone","opc.iopcpartenumerator_clone"]
 old-location: opc\iopcpartenumerator_clone.htm
 tech.root: OPC
 ms.assetid: b2719b6b-dcbd-4f8b-bb53-42114b95d6b3

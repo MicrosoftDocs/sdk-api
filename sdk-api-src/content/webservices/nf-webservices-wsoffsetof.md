@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsOffsetOf
 title: WsOffsetOf macro (webservices.h)
-description: Returns the offset in bytes of a field within a structure given the names of the structure and field.helpviewer_keywords: ["WsOffsetOf","WsOffsetOf macro [Web Services for Windows]","webservices/WsOffsetOf","wsw.wsoffsetof"]
+description: Returns the offset in bytes of a field within a structure given the names of the structure and field.
+helpviewer_keywords: ["WsOffsetOf","WsOffsetOf macro [Web Services for Windows]","webservices/WsOffsetOf","wsw.wsoffsetof"]
 old-location: wsw\wsoffsetof.htm
 tech.root: wsw
 ms.assetid: a3965e97-c818-4dd3-95e7-60a844181b96

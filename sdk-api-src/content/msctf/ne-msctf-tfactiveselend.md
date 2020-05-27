@@ -1,7 +1,8 @@
 ---
 UID: NE:msctf.__MIDL_ITfContext_0001
 title: TfActiveSelEnd (msctf.h)
-description: Elements of the TfActiveSelEnd enumeration specify which end of a selected range of text is active.helpviewer_keywords: ["TF_AE_END","TF_AE_NONE","TF_AE_START","TfActiveSelEnd","TfActiveSelEnd enumeration [Text Services Framework]","_tsf_tfactiveselend_ref","msctf/TF_AE_END","msctf/TF_AE_NONE","msctf/TF_AE_START","msctf/TfActiveSelEnd","tsf.tfactiveselend"]
+description: Elements of the TfActiveSelEnd enumeration specify which end of a selected range of text is active.
+helpviewer_keywords: ["TF_AE_END","TF_AE_NONE","TF_AE_START","TfActiveSelEnd","TfActiveSelEnd enumeration [Text Services Framework]","_tsf_tfactiveselend_ref","msctf/TF_AE_END","msctf/TF_AE_NONE","msctf/TF_AE_START","msctf/TfActiveSelEnd","tsf.tfactiveselend"]
 old-location: tsf\tfactiveselend.htm
 tech.root: TSF
 ms.assetid: bb89f0b4-a0b4-42ea-8467-6fc634e37aec

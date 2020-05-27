@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetHotkeyPrefix
 title: StringFormat::SetHotkeyPrefix (gdiplusstringformat.h)
-description: The StringFormat::SetHotkeyPrefix method sets the type of processing that is performed on a string when the hot key prefix, an ampersand (&), is encountered.helpviewer_keywords: ["SetHotkeyPrefix","SetHotkeyPrefix method [GDI+]","SetHotkeyPrefix method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetHotkeyPrefix method","StringFormat.SetHotkeyPrefix","StringFormat::SetHotkeyPrefix","_gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_","gdiplus._gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_"]
+description: The StringFormat::SetHotkeyPrefix method sets the type of processing that is performed on a string when the hot key prefix, an ampersand (&), is encountered.
+helpviewer_keywords: ["SetHotkeyPrefix","SetHotkeyPrefix method [GDI+]","SetHotkeyPrefix method [GDI+]","StringFormat class","StringFormat class [GDI+]","SetHotkeyPrefix method","StringFormat.SetHotkeyPrefix","StringFormat::SetHotkeyPrefix","_gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_","gdiplus._gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\sethotkeyprefix.htm

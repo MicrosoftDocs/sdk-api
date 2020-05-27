@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultPropertyCollection
 title: IEventPublisher::GetDefaultPropertyCollection (eventsys.h)
-description: Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.helpviewer_keywords: ["GetDefaultPropertyCollection","GetDefaultPropertyCollection method [COM]","GetDefaultPropertyCollection method [COM]","IEventPublisher interface","IEventPublisher interface [COM]","GetDefaultPropertyCollection method","IEventPublisher.GetDefaultPropertyCollection","IEventPublisher::GetDefaultPropertyCollection","_com_ieventpublisher_getdefaultpropertycollection","com.ieventpublisher_getdefaultpropertycollection","eventsys/IEventPublisher::GetDefaultPropertyCollection"]
+description: Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.
+helpviewer_keywords: ["GetDefaultPropertyCollection","GetDefaultPropertyCollection method [COM]","GetDefaultPropertyCollection method [COM]","IEventPublisher interface","IEventPublisher interface [COM]","GetDefaultPropertyCollection method","IEventPublisher.GetDefaultPropertyCollection","IEventPublisher::GetDefaultPropertyCollection","_com_ieventpublisher_getdefaultpropertycollection","com.ieventpublisher_getdefaultpropertycollection","eventsys/IEventPublisher::GetDefaultPropertyCollection"]
 old-location: com\ieventpublisher_getdefaultpropertycollection.htm
 tech.root: com
 ms.assetid: ca5d116a-b995-4311-9c58-6b957fca6b53

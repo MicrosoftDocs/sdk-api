@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSSetSamplers
 title: ID3D11DeviceContext::VSSetSamplers (d3d11.h)
-description: Set an array of sampler states to the vertex shader pipeline stage.helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","VSSetSamplers method","ID3D11DeviceContext.VSSetSamplers","ID3D11DeviceContext::VSSetSamplers","VSSetSamplers","VSSetSamplers method [Direct3D 11]","VSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","d33a9d82-8e5e-f982-a29f-bcaff20393ff","d3d11/ID3D11DeviceContext::VSSetSamplers","direct3d11.id3d11devicecontext_vssetsamplers"]
+description: Set an array of sampler states to the vertex shader pipeline stage.
+helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","VSSetSamplers method","ID3D11DeviceContext.VSSetSamplers","ID3D11DeviceContext::VSSetSamplers","VSSetSamplers","VSSetSamplers method [Direct3D 11]","VSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","d33a9d82-8e5e-f982-a29f-bcaff20393ff","d3d11/ID3D11DeviceContext::VSSetSamplers","direct3d11.id3d11devicecontext_vssetsamplers"]
 old-location: direct3d11\id3d11devicecontext_vssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: bfbf557c-f355-4d4d-beb0-f36e1c6f32ed

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetFuncCustData
 title: ITypeInfo2::GetFuncCustData (oaidl.h)
-description: Gets the custom data from the specified function.helpviewer_keywords: ["GetFuncCustData","GetFuncCustData method [Automation]","GetFuncCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetFuncCustData method","ITypeInfo2.GetFuncCustData","ITypeInfo2::GetFuncCustData","_oa96_ITypeInfo2_GetFuncCustData","automat.itypeinfo2_getfunccustdata","oaidl/ITypeInfo2::GetFuncCustData"]
+description: Gets the custom data from the specified function.
+helpviewer_keywords: ["GetFuncCustData","GetFuncCustData method [Automation]","GetFuncCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetFuncCustData method","ITypeInfo2.GetFuncCustData","ITypeInfo2::GetFuncCustData","_oa96_ITypeInfo2_GetFuncCustData","automat.itypeinfo2_getfunccustdata","oaidl/ITypeInfo2::GetFuncCustData"]
 old-location: automat\itypeinfo2_getfunccustdata.htm
 tech.root: automat
 ms.assetid: d3a7b13f-6296-45ee-9697-4d52b5965c4b

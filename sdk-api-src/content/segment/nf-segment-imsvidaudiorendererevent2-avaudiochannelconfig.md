@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioChannelConfig
 title: IMSVidAudioRendererEvent2::AVAudioChannelConfig (segment.h)
-description: Indicates a change in the AVDecAudioDualMono codec property.helpviewer_keywords: ["AVAudioChannelConfig","AVAudioChannelConfig method [Microsoft TV Technologies]","AVAudioChannelConfig method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVAudioChannelConfig method","IMSVidAudioRendererEvent2.AVAudioChannelConfig","IMSVidAudioRendererEvent2::AVAudioChannelConfig","mstv.imsvidaudiorendererevent2_avaudiochannelconfig","segment/IMSVidAudioRendererEvent2::AVAudioChannelConfig"]
+description: Indicates a change in the AVDecAudioDualMono codec property.
+helpviewer_keywords: ["AVAudioChannelConfig","AVAudioChannelConfig method [Microsoft TV Technologies]","AVAudioChannelConfig method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVAudioChannelConfig method","IMSVidAudioRendererEvent2.AVAudioChannelConfig","IMSVidAudioRendererEvent2::AVAudioChannelConfig","mstv.imsvidaudiorendererevent2_avaudiochannelconfig","segment/IMSVidAudioRendererEvent2::AVAudioChannelConfig"]
 old-location: mstv\imsvidaudiorendererevent2_avaudiochannelconfig.htm
 tech.root: mstv
 ms.assetid: 6e7ee8a5-fd3f-418c-905a-85e7579d3ffc

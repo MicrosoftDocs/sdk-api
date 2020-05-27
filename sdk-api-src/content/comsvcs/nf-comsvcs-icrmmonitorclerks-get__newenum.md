@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.get__NewEnum
 title: ICrmMonitorClerks::get__NewEnum (comsvcs.h)
-description: Retrieves an enumerator for the instance CLSIDs of the CRM clerks.helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","get__NewEnum method","ICrmMonitorClerks.get__NewEnum","ICrmMonitorClerks::get__NewEnum","_dtc_ICrmMonitorClerks__NewEnum","comsvcs/ICrmMonitorClerks::get__NewEnum","cos.icrmmonitorclerks_get__newenum","get__NewEnum","get__NewEnum method [COM+]","get__NewEnum method [COM+]","ICrmMonitorClerks interface"]
+description: Retrieves an enumerator for the instance CLSIDs of the CRM clerks.
+helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","get__NewEnum method","ICrmMonitorClerks.get__NewEnum","ICrmMonitorClerks::get__NewEnum","_dtc_ICrmMonitorClerks__NewEnum","comsvcs/ICrmMonitorClerks::get__NewEnum","cos.icrmmonitorclerks_get__newenum","get__NewEnum","get__NewEnum method [COM+]","get__NewEnum method [COM+]","ICrmMonitorClerks interface"]
 old-location: cos\icrmmonitorclerks_get__newenum.htm
 tech.root: cossdk
 ms.assetid: bbebfa75-7ca1-46fb-b246-7f3c312987fa

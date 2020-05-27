@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_INT32_DESCRIPTION
 title: WS_INT32_DESCRIPTION (webservices.h)
-description: An optional type description used with WS_INT32_TYPE to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_INT32_DESCRIPTION","WS_INT32_DESCRIPTION structure [Web Services for Windows]","webservices/WS_INT32_DESCRIPTION","wsw.ws_int32_description"]
+description: An optional type description used with WS_INT32_TYPE to specify constraints on the set of values which can be deserialized.
+helpviewer_keywords: ["WS_INT32_DESCRIPTION","WS_INT32_DESCRIPTION structure [Web Services for Windows]","webservices/WS_INT32_DESCRIPTION","wsw.ws_int32_description"]
 old-location: wsw\ws_int32_description.htm
 tech.root: wsw
 ms.assetid: 98761df2-b195-4f22-90ba-3dac8920f3ef

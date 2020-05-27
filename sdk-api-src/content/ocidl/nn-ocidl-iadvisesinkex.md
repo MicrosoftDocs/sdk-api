@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IAdviseSinkEx
 title: IAdviseSinkEx (ocidl.h)
-description: This interface is derived from IAdviseSink to provide extensions for notifying the sink of changes in an object's view status.helpviewer_keywords: ["IAdviseSinkEx","IAdviseSinkEx interface [COM]","IAdviseSinkEx interface [COM]","described","_ole_iadvisesinkex","com.iadvisesinkex","ocidl/IAdviseSinkEx"]
+description: This interface is derived from IAdviseSink to provide extensions for notifying the sink of changes in an object's view status.
+helpviewer_keywords: ["IAdviseSinkEx","IAdviseSinkEx interface [COM]","IAdviseSinkEx interface [COM]","described","_ole_iadvisesinkex","com.iadvisesinkex","ocidl/IAdviseSinkEx"]
 old-location: com\iadvisesinkex.htm
 tech.root: com
 ms.assetid: d1a52353-dd86-4083-9dbc-3a6f363a1a57

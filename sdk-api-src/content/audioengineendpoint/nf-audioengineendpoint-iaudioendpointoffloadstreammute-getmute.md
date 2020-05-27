@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMute.GetMute
 title: IAudioEndpointOffloadStreamMute::GetMute (audioengineendpoint.h)
-description: The GetMute method retrieves the mute status of the offloaded audio stream.helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","IAudioEndpointOffloadStreamMute interface","IAudioEndpointOffloadStreamMute interface [Core Audio]","GetMute method","IAudioEndpointOffloadStreamMute.GetMute","IAudioEndpointOffloadStreamMute::GetMute","audioengineendpoint/IAudioEndpointOffloadStreamMute::GetMute","coreaudio.iaudioendpointoffloadstreammute_getmute"]
+description: The GetMute method retrieves the mute status of the offloaded audio stream.
+helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","IAudioEndpointOffloadStreamMute interface","IAudioEndpointOffloadStreamMute interface [Core Audio]","GetMute method","IAudioEndpointOffloadStreamMute.GetMute","IAudioEndpointOffloadStreamMute::GetMute","audioengineendpoint/IAudioEndpointOffloadStreamMute::GetMute","coreaudio.iaudioendpointoffloadstreammute_getmute"]
 old-location: coreaudio\iaudioendpointoffloadstreammute_getmute.htm
 tech.root: CoreAudio
 ms.assetid: 0A8F254B-1287-4633-A14D-7F620CB64818

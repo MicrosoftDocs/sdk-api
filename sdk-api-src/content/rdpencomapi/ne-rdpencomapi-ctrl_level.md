@@ -1,7 +1,8 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0001
 title: CTRL_LEVEL (rdpencomapi.h)
-description: Defines the level of control that an attendee has on a session.helpviewer_keywords: ["CTRL_LEVEL","CTRL_LEVEL enumeration [RDP]","CTRL_LEVEL_INTERACTIVE","CTRL_LEVEL_INVALID","CTRL_LEVEL_MAX","CTRL_LEVEL_MIN","CTRL_LEVEL_NONE","CTRL_LEVEL_REQCTRL_INTERACTIVE","CTRL_LEVEL_REQCTRL_VIEW","CTRL_LEVEL_VIEW","rdp.ctrl_level","rdpencomapi/CTRL_LEVEL","rdpencomapi/CTRL_LEVEL_INTERACTIVE","rdpencomapi/CTRL_LEVEL_INVALID","rdpencomapi/CTRL_LEVEL_MAX","rdpencomapi/CTRL_LEVEL_MIN","rdpencomapi/CTRL_LEVEL_NONE","rdpencomapi/CTRL_LEVEL_REQCTRL_INTERACTIVE","rdpencomapi/CTRL_LEVEL_REQCTRL_VIEW","rdpencomapi/CTRL_LEVEL_VIEW"]
+description: Defines the level of control that an attendee has on a session.
+helpviewer_keywords: ["CTRL_LEVEL","CTRL_LEVEL enumeration [RDP]","CTRL_LEVEL_INTERACTIVE","CTRL_LEVEL_INVALID","CTRL_LEVEL_MAX","CTRL_LEVEL_MIN","CTRL_LEVEL_NONE","CTRL_LEVEL_REQCTRL_INTERACTIVE","CTRL_LEVEL_REQCTRL_VIEW","CTRL_LEVEL_VIEW","rdp.ctrl_level","rdpencomapi/CTRL_LEVEL","rdpencomapi/CTRL_LEVEL_INTERACTIVE","rdpencomapi/CTRL_LEVEL_INVALID","rdpencomapi/CTRL_LEVEL_MAX","rdpencomapi/CTRL_LEVEL_MIN","rdpencomapi/CTRL_LEVEL_NONE","rdpencomapi/CTRL_LEVEL_REQCTRL_INTERACTIVE","rdpencomapi/CTRL_LEVEL_REQCTRL_VIEW","rdpencomapi/CTRL_LEVEL_VIEW"]
 old-location: rdp\ctrl_level.htm
 tech.root: rdp
 ms.assetid: f97b0493-82bf-487e-adc1-2dc40eeeb36c

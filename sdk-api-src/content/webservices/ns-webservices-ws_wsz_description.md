@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_WSZ_DESCRIPTION
 title: WS_WSZ_DESCRIPTION (webservices.h)
-description: This type description is used with WS_WSZ_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_WSZ_DESCRIPTION","WS_WSZ_DESCRIPTION structure [Web Services for Windows]","webservices/WS_WSZ_DESCRIPTION","wsw.ws_wsz_description"]
+description: This type description is used with WS_WSZ_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
+helpviewer_keywords: ["WS_WSZ_DESCRIPTION","WS_WSZ_DESCRIPTION structure [Web Services for Windows]","webservices/WS_WSZ_DESCRIPTION","wsw.ws_wsz_description"]
 old-location: wsw\ws_wsz_description.htm
 tech.root: wsw
 ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b

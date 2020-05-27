@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpContextToStr
 title: SnmpContextToStr function (winsnmp.h)
-description: The WinSNMP SnmpContextToStr function returns a string that identifies an SNMP context, which is a set of managed object resources. The function returns the string in an smiOCTETS structure.helpviewer_keywords: ["SnmpContextToStr","SnmpContextToStr function [SNMP]","_snmp_snmpcontexttostr","snmp.snmpcontexttostr","winsnmp/SnmpContextToStr"]
+description: The WinSNMP SnmpContextToStr function returns a string that identifies an SNMP context, which is a set of managed object resources. The function returns the string in an smiOCTETS structure.
+helpviewer_keywords: ["SnmpContextToStr","SnmpContextToStr function [SNMP]","_snmp_snmpcontexttostr","snmp.snmpcontexttostr","winsnmp/SnmpContextToStr"]
 old-location: snmp\snmpcontexttostr.htm
 tech.root: SNMP
 ms.assetid: d82c352d-8685-4276-b58c-ce89557f074a

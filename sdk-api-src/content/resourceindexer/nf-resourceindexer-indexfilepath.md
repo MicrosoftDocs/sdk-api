@@ -1,7 +1,8 @@
 ---
 UID: NF:resourceindexer.IndexFilePath
 title: IndexFilePath function (resourceindexer.h)
-description: Indexes a file path for file and folder naming conventions.helpviewer_keywords: ["IndexFilePath","IndexFilePath function [Menus and Other Resources]","menurc.indexfilepath","resourceindexer/IndexFilePath"]
+description: Indexes a file path for file and folder naming conventions.
+helpviewer_keywords: ["IndexFilePath","IndexFilePath function [Menus and Other Resources]","menurc.indexfilepath","resourceindexer/IndexFilePath"]
 old-location: menurc\indexfilepath.htm
 tech.root: menurc
 ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B

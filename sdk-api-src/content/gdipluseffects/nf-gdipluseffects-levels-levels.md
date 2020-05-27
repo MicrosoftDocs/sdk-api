@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Levels.Levels
 title: Levels::Levels (gdipluseffects.h)
-description: Creates a Levels object.helpviewer_keywords: ["Levels","Levels class [GDI+]","Levels constructor","Levels constructor [GDI+]","Levels constructor [GDI+]","Levels class","Levels.Levels","Levels::Levels","_gdiplus_CLASS_Levels_Levels_","gdiplus._gdiplus_CLASS_Levels_Levels_"]
+description: Creates a Levels object.
+helpviewer_keywords: ["Levels","Levels class [GDI+]","Levels constructor","Levels constructor [GDI+]","Levels constructor [GDI+]","Levels class","Levels.Levels","Levels::Levels","_gdiplus_CLASS_Levels_Levels_","gdiplus._gdiplus_CLASS_Levels_Levels_"]
 old-location: gdiplus\_gdiplus_CLASS_Levels_Levels_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconstructors\levels.htm

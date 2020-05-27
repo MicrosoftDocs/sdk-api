@@ -1,7 +1,8 @@
 ---
 UID: NC:netsh.NS_CONTEXT_COMMIT_FN
 title: NS_CONTEXT_COMMIT_FN (netsh.h)
-description: Is the commit function for helpers.helpviewer_keywords: ["NETSH_COMMIT","NETSH_FLUSH","NETSH_SAVE","NETSH_UNCOMMIT","NS_CONTEXT_COMMIT_FN","NS_CONTEXT_COMMIT_FN callback","NS_CONTEXT_COMMIT_FN callback function [NetShell]","SampleCommit","_netsh_ns_context_commit_fn","netsh/NS_CONTEXT_COMMIT_FN","netshell.ns_context_commit_fn"]
+description: Is the commit function for helpers.
+helpviewer_keywords: ["NETSH_COMMIT","NETSH_FLUSH","NETSH_SAVE","NETSH_UNCOMMIT","NS_CONTEXT_COMMIT_FN","NS_CONTEXT_COMMIT_FN callback","NS_CONTEXT_COMMIT_FN callback function [NetShell]","SampleCommit","_netsh_ns_context_commit_fn","netsh/NS_CONTEXT_COMMIT_FN","netshell.ns_context_commit_fn"]
 old-location: netshell\ns_context_commit_fn.htm
 tech.root: netshell
 ms.assetid: 2380cd4e-5e41-4bfb-874c-50be09044c85

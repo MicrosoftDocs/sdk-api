@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanGetProfileList
 title: WlanGetProfileList function (wlanapi.h)
-description: Retrieves the list of profiles.helpviewer_keywords: ["WlanGetProfileList","WlanGetProfileList function [NativeWIFI]","nwifi.wlangetprofilelist","wlanapi/WlanGetProfileList"]
+description: Retrieves the list of profiles.
+helpviewer_keywords: ["WlanGetProfileList","WlanGetProfileList function [NativeWIFI]","nwifi.wlangetprofilelist","wlanapi/WlanGetProfileList"]
 old-location: nwifi\wlangetprofilelist.htm
 tech.root: NativeWiFi
 ms.assetid: f4336113-538f-4161-a71f-64a432e31f1c

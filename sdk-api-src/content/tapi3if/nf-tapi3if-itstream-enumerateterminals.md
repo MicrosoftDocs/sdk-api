@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITStream.EnumerateTerminals
 title: ITStream::EnumerateTerminals (tapi3if.h)
-description: The EnumerateTerminals method enumerates terminals selected on the stream. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Terminals method.helpviewer_keywords: ["EnumerateTerminals","EnumerateTerminals method [TAPI 2.2]","EnumerateTerminals method [TAPI 2.2]","ITStream interface","ITStream interface [TAPI 2.2]","EnumerateTerminals method","ITStream.EnumerateTerminals","ITStream::EnumerateTerminals","_tapi3_itstream_enumerateterminals","tapi3.itstream_enumerateterminals","tapi3if/ITStream::EnumerateTerminals"]
+description: The EnumerateTerminals method enumerates terminals selected on the stream. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Terminals method.
+helpviewer_keywords: ["EnumerateTerminals","EnumerateTerminals method [TAPI 2.2]","EnumerateTerminals method [TAPI 2.2]","ITStream interface","ITStream interface [TAPI 2.2]","EnumerateTerminals method","ITStream.EnumerateTerminals","ITStream::EnumerateTerminals","_tapi3_itstream_enumerateterminals","tapi3.itstream_enumerateterminals","tapi3if/ITStream::EnumerateTerminals"]
 old-location: tapi3\itstream_enumerateterminals.htm
 tech.root: Tapi
 ms.assetid: c57af2a9-a2ec-45ba-9e10-7b5f41bdeb00

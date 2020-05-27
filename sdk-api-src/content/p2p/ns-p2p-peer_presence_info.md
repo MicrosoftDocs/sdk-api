@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_presence_info_tag
 title: PEER_PRESENCE_INFO (p2p.h)
-description: The PEER_PRESENCE_INFO structure contains specific peer presence information.helpviewer_keywords: ["*PPEER_PRESENCE_INFO","PCPEER_PRESENCE_INFO","PCPEER_PRESENCE_INFO structure pointer [Peer Networking]","PEER_PRESENCE_INFO","PEER_PRESENCE_INFO structure [Peer Networking]","PPEER_PRESENCE_INFO","PPEER_PRESENCE_INFO structure pointer [Peer Networking]","p2p.peer_presence_info","p2p/PCPEER_PRESENCE_INFO","p2p/PEER_PRESENCE_INFO","p2p/PPEER_PRESENCE_INFO"]
+description: The PEER_PRESENCE_INFO structure contains specific peer presence information.
+helpviewer_keywords: ["*PPEER_PRESENCE_INFO","PCPEER_PRESENCE_INFO","PCPEER_PRESENCE_INFO structure pointer [Peer Networking]","PEER_PRESENCE_INFO","PEER_PRESENCE_INFO structure [Peer Networking]","PPEER_PRESENCE_INFO","PPEER_PRESENCE_INFO structure pointer [Peer Networking]","p2p.peer_presence_info","p2p/PCPEER_PRESENCE_INFO","p2p/PEER_PRESENCE_INFO","p2p/PPEER_PRESENCE_INFO"]
 old-location: p2p\peer_presence_info.htm
 tech.root: P2PSdk
 ms.assetid: e8f83ba8-81a3-4083-bc15-e00b2bec1cd4

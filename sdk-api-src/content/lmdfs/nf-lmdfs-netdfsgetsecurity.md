@@ -1,7 +1,8 @@
 ---
 UID: NF:lmdfs.NetDfsGetSecurity
 title: NetDfsGetSecurity function (lmdfs.h)
-description: Retrieves the security descriptor for the root object of the specified DFS namespace.helpviewer_keywords: ["NetDfsGetSecurity","NetDfsGetSecurity function [Distributed File System]","dfs.netdfsgetsecurity","fs.netdfsgetsecurity","lmdfs/NetDfsGetSecurity","netmgmt.netdfsgetsecurity"]
+description: Retrieves the security descriptor for the root object of the specified DFS namespace.
+helpviewer_keywords: ["NetDfsGetSecurity","NetDfsGetSecurity function [Distributed File System]","dfs.netdfsgetsecurity","fs.netdfsgetsecurity","lmdfs/NetDfsGetSecurity","netmgmt.netdfsgetsecurity"]
 old-location: dfs\netdfsgetsecurity.htm
 tech.root: Dfs
 ms.assetid: a6db7c82-c2ec-464a-8c05-2360622880b4

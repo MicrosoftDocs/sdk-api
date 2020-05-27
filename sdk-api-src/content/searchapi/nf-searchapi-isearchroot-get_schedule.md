@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_Schedule
 title: ISearchRoot::get_Schedule (searchapi.h)
-description: Not implemented.helpviewer_keywords: ["ISearchRoot interface [search]","get_Schedule method","ISearchRoot.get_Schedule","ISearchRoot::get_Schedule","_search_ISearchRoot_get_Schedule","get_Schedule","get_Schedule method [search]","get_Schedule method [search]","ISearchRoot interface","search._search_ISearchRoot_get_Schedule","searchapi/ISearchRoot::get_Schedule"]
+description: Not implemented.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_Schedule method","ISearchRoot.get_Schedule","ISearchRoot::get_Schedule","_search_ISearchRoot_get_Schedule","get_Schedule","get_Schedule method [search]","get_Schedule method [search]","ISearchRoot interface","search._search_ISearchRoot_get_Schedule","searchapi/ISearchRoot::get_Schedule"]
 old-location: search\_search_ISearchRoot_get_Schedule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_schedule.htm

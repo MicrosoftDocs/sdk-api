@@ -1,7 +1,8 @@
 ---
 UID: NF:heapapi.HeapWalk
 title: HeapWalk function (heapapi.h)
-description: Enumerates the memory blocks in the specified heap.helpviewer_keywords: ["HeapWalk","HeapWalk function","_win32_heapwalk","base.heapwalk","heapapi/HeapWalk","winbase/HeapWalk"]
+description: Enumerates the memory blocks in the specified heap.
+helpviewer_keywords: ["HeapWalk","HeapWalk function","_win32_heapwalk","base.heapwalk","heapapi/HeapWalk","winbase/HeapWalk"]
 old-location: base\heapwalk.htm
 tech.root: Memory
 ms.assetid: ba4b7372-973b-4dea-9a93-faf847a047e5

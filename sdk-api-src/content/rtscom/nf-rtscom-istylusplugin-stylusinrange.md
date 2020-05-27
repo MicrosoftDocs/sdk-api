@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusInRange
 title: IStylusPlugin::StylusInRange (rtscom.h)
-description: Notifies the implementing plug-in that the stylus is entering the detection range of the digitizer.helpviewer_keywords: ["586e7fee-6340-46b6-941f-1316b2925e1c","IStylusPlugin interface [Tablet PC]","StylusInRange method","IStylusPlugin.StylusInRange","IStylusPlugin::StylusInRange","StylusInRange","StylusInRange method [Tablet PC]","StylusInRange method [Tablet PC]","IStylusPlugin interface","rtscom/IStylusPlugin::StylusInRange","tablet.istylusplugin_stylusinrange"]
+description: Notifies the implementing plug-in that the stylus is entering the detection range of the digitizer.
+helpviewer_keywords: ["586e7fee-6340-46b6-941f-1316b2925e1c","IStylusPlugin interface [Tablet PC]","StylusInRange method","IStylusPlugin.StylusInRange","IStylusPlugin::StylusInRange","StylusInRange","StylusInRange method [Tablet PC]","StylusInRange method [Tablet PC]","IStylusPlugin interface","rtscom/IStylusPlugin::StylusInRange","tablet.istylusplugin_stylusinrange"]
 old-location: tablet\istylusplugin_stylusinrange.htm
 tech.root: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c

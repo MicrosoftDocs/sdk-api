@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3TransformNormal
 title: XMVector3TransformNormal function (directxmath.h)
-description: Transforms the 3D vector normal by the given matrix.helpviewer_keywords: ["Use DirectX..XMVector3TransformNormal","XMVector3TransformNormal","XMVector3TransformNormal method [DirectX Math Support APIs]","dxmath.xmvector3transformnormal"]
+description: Transforms the 3D vector normal by the given matrix.
+helpviewer_keywords: ["Use DirectX..XMVector3TransformNormal","XMVector3TransformNormal","XMVector3TransformNormal method [DirectX Math Support APIs]","dxmath.xmvector3transformnormal"]
 old-location: dxmath\xmvector3transformnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformNormal(XMVECTOR,XMMATRIX)

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeGetEnumCount
 title: ClusterResourceTypeGetEnumCount function (clusapi.h)
-description: Returns the number of cluster objects associated with a resource_type enumeration handle.helpviewer_keywords: ["ClusterResourceTypeGetEnumCount","ClusterResourceTypeGetEnumCount function [Failover Cluster]","PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT","PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT function [Failover Cluster]","_wolf_clusterresourcetypegetenumcount","clusapi/ClusterResourceTypeGetEnumCount","clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT","mscs.clusterresourcetypegetenumcount"]
+description: Returns the number of cluster objects associated with a resource_type enumeration handle.
+helpviewer_keywords: ["ClusterResourceTypeGetEnumCount","ClusterResourceTypeGetEnumCount function [Failover Cluster]","PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT","PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT function [Failover Cluster]","_wolf_clusterresourcetypegetenumcount","clusapi/ClusterResourceTypeGetEnumCount","clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT","mscs.clusterresourcetypegetenumcount"]
 old-location: mscs\clusterresourcetypegetenumcount.htm
 tech.root: MsCS
 ms.assetid: 1960dc1a-778e-4bad-b6ad-07c0a8547cc6

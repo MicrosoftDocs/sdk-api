@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentInfo
 title: lineGetAgentInfo function (tapi.h)
-description: The lineGetAgentInfo function returns a structure holding the ACD information associated with a particular agent handle.helpviewer_keywords: ["_tapi2_linegetagentinfo","lineGetAgentInfo","lineGetAgentInfo function [TAPI 2.2]","tapi/lineGetAgentInfo","tapi2.linegetagentinfo"]
+description: The lineGetAgentInfo function returns a structure holding the ACD information associated with a particular agent handle.
+helpviewer_keywords: ["_tapi2_linegetagentinfo","lineGetAgentInfo","lineGetAgentInfo function [TAPI 2.2]","tapi/lineGetAgentInfo","tapi2.linegetagentinfo"]
 old-location: tapi2\linegetagentinfo.htm
 tech.root: Tapi
 ms.assetid: 166b0595-2df0-431f-924c-6899b47408ac

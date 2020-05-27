@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.SspiEncodeStringsAsAuthIdentity
 title: SspiEncodeStringsAsAuthIdentity function (sspi.h)
-description: Encodes a set of three credential strings as an authentication identity structure.helpviewer_keywords: ["SspiEncodeStringsAsAuthIdentity","SspiEncodeStringsAsAuthIdentity function [Security]","security.sspiencodestringsasauthidentity","sspi/SspiEncodeStringsAsAuthIdentity"]
+description: Encodes a set of three credential strings as an authentication identity structure.
+helpviewer_keywords: ["SspiEncodeStringsAsAuthIdentity","SspiEncodeStringsAsAuthIdentity function [Security]","security.sspiencodestringsasauthidentity","sspi/SspiEncodeStringsAsAuthIdentity"]
 old-location: security\sspiencodestringsasauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 0aea2f00-fcf1-4c4e-a22f-a669dd4fb294

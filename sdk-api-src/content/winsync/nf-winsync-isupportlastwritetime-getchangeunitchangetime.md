@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISupportLastWriteTime.GetChangeUnitChangeTime
 title: ISupportLastWriteTime::GetChangeUnitChangeTime (winsync.h)
-description: Gets the date and time when the specified change unit was last changed.helpviewer_keywords: ["GetChangeUnitChangeTime","GetChangeUnitChangeTime method [Windows Sync]","GetChangeUnitChangeTime method [Windows Sync]","ISupportLastWriteTime interface","ISupportLastWriteTime interface [Windows Sync]","GetChangeUnitChangeTime method","ISupportLastWriteTime.GetChangeUnitChangeTime","ISupportLastWriteTime::GetChangeUnitChangeTime","winsync.isupportlastwritetime_getchangeunitchangetime","winsync/ISupportLastWriteTime::GetChangeUnitChangeTime"]
+description: Gets the date and time when the specified change unit was last changed.
+helpviewer_keywords: ["GetChangeUnitChangeTime","GetChangeUnitChangeTime method [Windows Sync]","GetChangeUnitChangeTime method [Windows Sync]","ISupportLastWriteTime interface","ISupportLastWriteTime interface [Windows Sync]","GetChangeUnitChangeTime method","ISupportLastWriteTime.GetChangeUnitChangeTime","ISupportLastWriteTime::GetChangeUnitChangeTime","winsync.isupportlastwritetime_getchangeunitchangetime","winsync/ISupportLastWriteTime::GetChangeUnitChangeTime"]
 old-location: winsync\isupportlastwritetime_getchangeunitchangetime.htm
 tech.root: winsync
 ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c

@@ -1,7 +1,8 @@
 ---
 UID: NS:windns._DNS_SERVICE_INSTANCE
 title: DNS_SERVICE_INSTANCE structure
-description: Represents a DNS service running on the network.helpviewer_keywords: ["_DNS_SERVICE_INSTANCE","DNS_SERVICE_INSTANCE"]
+description: Represents a DNS service running on the network.
+helpviewer_keywords: ["_DNS_SERVICE_INSTANCE","DNS_SERVICE_INSTANCE"]
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_INSTANCE, DNS_SERVICE_INSTANCE
 f1_keywords:

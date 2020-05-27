@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerRegisterCustomMetadata
 title: WerRegisterCustomMetadata function (werapi.h)
-description: Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.helpviewer_keywords: ["WerRegisterCustomMetadata","WerRegisterCustomMetadata function [Windows Error Reporting]","wer.werregistercustommetadata","werapi/WerRegisterCustomMetadata"]
+description: Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
+helpviewer_keywords: ["WerRegisterCustomMetadata","WerRegisterCustomMetadata function [Windows Error Reporting]","wer.werregistercustommetadata","werapi/WerRegisterCustomMetadata"]
 old-location: wer\werregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 55FB3110-314A-4327-AA8F-3AF77B7006DD

@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetSecurityInfoByKey0
 title: FwpmProviderContextGetSecurityInfoByKey0 function (fwpmu.h)
-description: Retrieves a copy of the security descriptor for a provider context object.helpviewer_keywords: ["FwpmProviderContextGetSecurityInfoByKey0","FwpmProviderContextGetSecurityInfoByKey0 function [Filtering]","fwp.fwpmprovidercontextgetsecurityinfobykey0_func","fwpmu/FwpmProviderContextGetSecurityInfoByKey0"]
+description: Retrieves a copy of the security descriptor for a provider context object.
+helpviewer_keywords: ["FwpmProviderContextGetSecurityInfoByKey0","FwpmProviderContextGetSecurityInfoByKey0 function [Filtering]","fwp.fwpmprovidercontextgetsecurityinfobykey0_func","fwpmu/FwpmProviderContextGetSecurityInfoByKey0"]
 old-location: fwp\fwpmprovidercontextgetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: da2740e5-352b-4f00-bfeb-2eeaab3f470a

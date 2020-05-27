@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Zoom
 title: ICameraControl::getRange_Zoom (vidcap.h)
-description: The getRange_Zoom method returns the range of zoom levels supported by the camera.helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_Zoom method","ICameraControl.getRange_Zoom","ICameraControl::getRange_Zoom","ICameraControlgetRange_Zoom","dshow.icameracontrol_getrange_zoom","getRange_Zoom","getRange_Zoom method [DirectShow]","getRange_Zoom method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_Zoom"]
+description: The getRange_Zoom method returns the range of zoom levels supported by the camera.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_Zoom method","ICameraControl.getRange_Zoom","ICameraControl::getRange_Zoom","ICameraControlgetRange_Zoom","dshow.icameracontrol_getrange_zoom","getRange_Zoom","getRange_Zoom method [DirectShow]","getRange_Zoom method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_Zoom"]
 old-location: dshow\icameracontrol_getrange_zoom.htm
 tech.root: DirectShow
 ms.assetid: 93a81b65-4b63-45c9-b065-f4aa5cf2e4ae

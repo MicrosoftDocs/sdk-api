@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetAt
 title: IPropertyDescriptionList::GetAt (propsys.h)
-description: Gets the property description at the specified index in a property description list.helpviewer_keywords: ["GetAt","GetAt method [Windows Properties]","GetAt method [Windows Properties]","IPropertyDescriptionList interface","IPropertyDescriptionList interface [Windows Properties]","GetAt method","IPropertyDescriptionList.GetAt","IPropertyDescriptionList::GetAt","_shell_IPropertyDescriptionList_GetAt","properties.IPropertyDescriptionList_GetAt","propsys/IPropertyDescriptionList::GetAt","shell.IPropertyDescriptionList_GetAt"]
+description: Gets the property description at the specified index in a property description list.
+helpviewer_keywords: ["GetAt","GetAt method [Windows Properties]","GetAt method [Windows Properties]","IPropertyDescriptionList interface","IPropertyDescriptionList interface [Windows Properties]","GetAt method","IPropertyDescriptionList.GetAt","IPropertyDescriptionList::GetAt","_shell_IPropertyDescriptionList_GetAt","properties.IPropertyDescriptionList_GetAt","propsys/IPropertyDescriptionList::GetAt","shell.IPropertyDescriptionList_GetAt"]
 old-location: properties\IPropertyDescriptionList_GetAt.htm
 tech.root: properties
 ms.assetid: ab4967b8-6650-49fa-b6d5-d72688b080db

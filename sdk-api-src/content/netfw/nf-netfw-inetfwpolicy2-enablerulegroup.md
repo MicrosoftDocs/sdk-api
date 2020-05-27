@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwPolicy2.EnableRuleGroup
 title: INetFwPolicy2::EnableRuleGroup (netfw.h)
-description: Enables or disables a specified group of firewall rules.helpviewer_keywords: ["EnableRuleGroup","EnableRuleGroup method [ICS/ICF]","EnableRuleGroup method [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","EnableRuleGroup method","INetFwPolicy2.EnableRuleGroup","INetFwPolicy2::EnableRuleGroup","ics.inetfwpolicy2_enablerulegroup","netfw/INetFwPolicy2::EnableRuleGroup"]
+description: Enables or disables a specified group of firewall rules.
+helpviewer_keywords: ["EnableRuleGroup","EnableRuleGroup method [ICS/ICF]","EnableRuleGroup method [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","EnableRuleGroup method","INetFwPolicy2.EnableRuleGroup","INetFwPolicy2::EnableRuleGroup","ics.inetfwpolicy2_enablerulegroup","netfw/INetFwPolicy2::EnableRuleGroup"]
 old-location: ics\inetfwpolicy2_enablerulegroup.htm
 tech.root: ics
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHParseDisplayName
 title: SHParseDisplayName function (shlobj_core.h)
-description: Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).helpviewer_keywords: ["SHParseDisplayName","SHParseDisplayName function [Windows Shell]","_shell_SHParseDisplayName","shell.SHParseDisplayName","shlobj_core/SHParseDisplayName"]
+description: Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).
+helpviewer_keywords: ["SHParseDisplayName","SHParseDisplayName function [Windows Shell]","_shell_SHParseDisplayName","shell.SHParseDisplayName","shlobj_core/SHParseDisplayName"]
 old-location: shell\SHParseDisplayName.htm
 tech.root: shell
 ms.assetid: 7bdfeed5-dcd0-40f6-a9d0-08ce816ee055

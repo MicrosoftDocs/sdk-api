@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontStretch
 title: IDWriteTextFormat::GetFontStretch (dwrite.h)
-description: Gets the font stretch of the text.helpviewer_keywords: ["GetFontStretch","GetFontStretch method [Direct Write]","GetFontStretch method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontStretch method","IDWriteTextFormat.GetFontStretch","IDWriteTextFormat::GetFontStretch","directwrite.IDWriteTextFormat_GetFontStretch","dwrite/IDWriteTextFormat::GetFontStretch"]
+description: Gets the font stretch of the text.
+helpviewer_keywords: ["GetFontStretch","GetFontStretch method [Direct Write]","GetFontStretch method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontStretch method","IDWriteTextFormat.GetFontStretch","IDWriteTextFormat::GetFontStretch","directwrite.IDWriteTextFormat_GetFontStretch","dwrite/IDWriteTextFormat::GetFontStretch"]
 old-location: directwrite\IDWriteTextFormat_GetFontStretch.htm
 tech.root: DirectWrite
 ms.assetid: 57ff471d-5daa-4657-8bfa-1fd6e173411f

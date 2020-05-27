@@ -1,7 +1,8 @@
 ---
 UID: NE:taskschd._TASK_STATE
 title: TASK_STATE (taskschd.h)
-description: Defines the different states that a registered task can be in.helpviewer_keywords: ["TASK_STATE","TASK_STATE enumeration [Task Scheduler]","TASK_STATE_DISABLED","TASK_STATE_QUEUED","TASK_STATE_READY","TASK_STATE_RUNNING","TASK_STATE_UNKNOWN","taskschd.task_state","taskschd/TASK_STATE","taskschd/TASK_STATE_DISABLED","taskschd/TASK_STATE_QUEUED","taskschd/TASK_STATE_READY","taskschd/TASK_STATE_RUNNING","taskschd/TASK_STATE_UNKNOWN"]
+description: Defines the different states that a registered task can be in.
+helpviewer_keywords: ["TASK_STATE","TASK_STATE enumeration [Task Scheduler]","TASK_STATE_DISABLED","TASK_STATE_QUEUED","TASK_STATE_READY","TASK_STATE_RUNNING","TASK_STATE_UNKNOWN","taskschd.task_state","taskschd/TASK_STATE","taskschd/TASK_STATE_DISABLED","taskschd/TASK_STATE_QUEUED","taskschd/TASK_STATE_READY","taskschd/TASK_STATE_RUNNING","taskschd/TASK_STATE_UNKNOWN"]
 old-location: taskschd\task_state.htm
 tech.root: taskschd
 ms.assetid: 89fd8b0b-1cdf-4222-99cc-d8c55a3e68d6

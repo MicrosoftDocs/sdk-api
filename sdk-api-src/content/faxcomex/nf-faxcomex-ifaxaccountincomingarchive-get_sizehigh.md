@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxAccountIncomingArchive.get_SizeHigh
 title: IFaxAccountIncomingArchive::get_SizeHigh (faxcomex.h)
-description: Specifies the high 32-bit value (in bytes) for the size of the archive of inbound fax messages for a particular fax account.helpviewer_keywords: ["IFaxAccountIncomingArchive interface [Fax Service]","SizeHigh property","IFaxAccountIncomingArchive.SizeHigh","IFaxAccountIncomingArchive.get_SizeHigh","IFaxAccountIncomingArchive::SizeHigh","IFaxAccountIncomingArchive::get_SizeHigh","SizeHigh property [Fax Service]","SizeHigh property [Fax Service]","IFaxAccountIncomingArchive interface","_mfax_faxaccountincomingarchive.sizehigh","fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_sizehigh_cpp","fax._mfax_faxaccountincomingarchive_sizehigh","faxcomex/IFaxAccountIncomingArchive::SizeHigh","faxcomex/IFaxAccountIncomingArchive::get_SizeHigh","get_SizeHigh"]
+description: Specifies the high 32-bit value (in bytes) for the size of the archive of inbound fax messages for a particular fax account.
+helpviewer_keywords: ["IFaxAccountIncomingArchive interface [Fax Service]","SizeHigh property","IFaxAccountIncomingArchive.SizeHigh","IFaxAccountIncomingArchive.get_SizeHigh","IFaxAccountIncomingArchive::SizeHigh","IFaxAccountIncomingArchive::get_SizeHigh","SizeHigh property [Fax Service]","SizeHigh property [Fax Service]","IFaxAccountIncomingArchive interface","_mfax_faxaccountincomingarchive.sizehigh","fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_sizehigh_cpp","fax._mfax_faxaccountincomingarchive_sizehigh","faxcomex/IFaxAccountIncomingArchive::SizeHigh","faxcomex/IFaxAccountIncomingArchive::get_SizeHigh","get_SizeHigh"]
 old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_sizehigh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\sizehigh.htm

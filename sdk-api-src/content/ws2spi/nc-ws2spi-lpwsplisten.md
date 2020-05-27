@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPWSPLISTEN
 title: LPWSPLISTEN
-description: The LPWSPListen function establishes a socket to listen for incoming connections.helpviewer_keywords: ["LPWSPLISTEN"]
+description: The LPWSPListen function establishes a socket to listen for incoming connections.
+helpviewer_keywords: ["LPWSPLISTEN"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPLISTEN
 targetos: Windows

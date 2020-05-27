@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayer4.openPlayer
 title: IWMPPlayer4::openPlayer (wmp.h)
-description: The openPlayer method opens Windows Media Player using the specified URL.helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","openPlayer method","IWMPPlayer4.openPlayer","IWMPPlayer4::openPlayer","IWMPPlayer4openPlayer","openPlayer","openPlayer method [Windows Media Player]","openPlayer method [Windows Media Player]","IWMPPlayer4 interface","wmp.iwmpplayer4_openplayer","wmp/IWMPPlayer4::openPlayer"]
+description: The openPlayer method opens Windows Media Player using the specified URL.
+helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","openPlayer method","IWMPPlayer4.openPlayer","IWMPPlayer4::openPlayer","IWMPPlayer4openPlayer","openPlayer","openPlayer method [Windows Media Player]","openPlayer method [Windows Media Player]","IWMPPlayer4 interface","wmp.iwmpplayer4_openplayer","wmp/IWMPPlayer4::openPlayer"]
 old-location: wmp\iwmpplayer4_openplayer.htm
 tech.root: WMP
 ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2

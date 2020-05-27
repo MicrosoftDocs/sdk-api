@@ -1,7 +1,8 @@
 ---
 UID: NS:vfw._AVISTREAMINFOW
 title: AVISTREAMINFOW (vfw.h)
-description: The AVISTREAMINFO structure contains information for a single stream.helpviewer_keywords: ["*LPAVISTREAMINFOW","AVISTREAMINFO","AVISTREAMINFO structure [Windows Multimedia]","AVISTREAMINFOA","AVISTREAMINFOW","AVISTREAMINFO_DISABLED","AVISTREAMINFO_FORMATCHANGES","multimedia.avistreaminfo_COLLISION869","multimedia.avistreaminfo_struct","streamtypeAUDIO","streamtypeMIDI","streamtypeTEXT","streamtypeVIDEO","vfw/AVISTREAMINFO"]
+description: The AVISTREAMINFO structure contains information for a single stream.
+helpviewer_keywords: ["*LPAVISTREAMINFOW","AVISTREAMINFO","AVISTREAMINFO structure [Windows Multimedia]","AVISTREAMINFOA","AVISTREAMINFOW","AVISTREAMINFO_DISABLED","AVISTREAMINFO_FORMATCHANGES","multimedia.avistreaminfo_COLLISION869","multimedia.avistreaminfo_struct","streamtypeAUDIO","streamtypeMIDI","streamtypeTEXT","streamtypeVIDEO","vfw/AVISTREAMINFO"]
 old-location: multimedia\avistreaminfo_struct.htm
 tech.root: Multimedia
 ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetFuncCustData
 title: ICreateTypeInfo2::SetFuncCustData (oaidl.h)
-description: Sets a value for custom data for the specified function.helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetFuncCustData method","ICreateTypeInfo2.SetFuncCustData","ICreateTypeInfo2::SetFuncCustData","SetFuncCustData","SetFuncCustData method [Automation]","SetFuncCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetFuncCustData","automat.icreatetypeinfo2_setfunccustdata","oaidl/ICreateTypeInfo2::SetFuncCustData"]
+description: Sets a value for custom data for the specified function.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetFuncCustData method","ICreateTypeInfo2.SetFuncCustData","ICreateTypeInfo2::SetFuncCustData","SetFuncCustData","SetFuncCustData method [Automation]","SetFuncCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetFuncCustData","automat.icreatetypeinfo2_setfunccustdata","oaidl/ICreateTypeInfo2::SetFuncCustData"]
 old-location: automat\icreatetypeinfo2_setfunccustdata.htm
 tech.root: automat
 ms.assetid: 553e872f-0620-4b36-a01d-86088bd12f80

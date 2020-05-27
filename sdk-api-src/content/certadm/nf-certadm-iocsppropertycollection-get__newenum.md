@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get__NewEnum
 title: IOCSPPropertyCollection::get__NewEnum (certadm.h)
-description: Gets an enumerator for a property set.helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","_NewEnum property","IOCSPPropertyCollection._NewEnum","IOCSPPropertyCollection.get__NewEnum","IOCSPPropertyCollection::_NewEnum","IOCSPPropertyCollection::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::_NewEnum","certadm/IOCSPPropertyCollection::get__NewEnum","get__NewEnum","security.iocsppropertycollection__newenum_method"]
+description: Gets an enumerator for a property set.
+helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","_NewEnum property","IOCSPPropertyCollection._NewEnum","IOCSPPropertyCollection.get__NewEnum","IOCSPPropertyCollection::_NewEnum","IOCSPPropertyCollection::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::_NewEnum","certadm/IOCSPPropertyCollection::get__NewEnum","get__NewEnum","security.iocsppropertycollection__newenum_method"]
 old-location: security\iocsppropertycollection__newenum_method.htm
 tech.root: SecCrypto
 ms.assetid: 09ed83ce-ebab-4d03-a508-304f54206921

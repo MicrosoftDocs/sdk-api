@@ -1,7 +1,8 @@
 ---
 UID: NC:wct.PWAITCHAINCALLBACK
 title: PWAITCHAINCALLBACK (wct.h)
-description: An application-defined callback function that receives a wait chain. Specify this address when calling the OpenThreadWaitChainSession function.helpviewer_keywords: ["ERROR_ACCESS_DENIED","ERROR_CANCELLED","ERROR_MORE_DATA","ERROR_OBJECT_NOT_FOUND","ERROR_SUCCESS","ERROR_TOO_MANY_THREADS","PWAITCHAINCALLBACK","PWAITCHAINCALLBACK callback","PWAITCHAINCALLBACK callback function","base.waitchaincallback","wct/PWAITCHAINCALLBACK"]
+description: An application-defined callback function that receives a wait chain. Specify this address when calling the OpenThreadWaitChainSession function.
+helpviewer_keywords: ["ERROR_ACCESS_DENIED","ERROR_CANCELLED","ERROR_MORE_DATA","ERROR_OBJECT_NOT_FOUND","ERROR_SUCCESS","ERROR_TOO_MANY_THREADS","PWAITCHAINCALLBACK","PWAITCHAINCALLBACK callback","PWAITCHAINCALLBACK callback function","base.waitchaincallback","wct/PWAITCHAINCALLBACK"]
 old-location: base\waitchaincallback.htm
 tech.root: Debug
 ms.assetid: 07d987b4-3ee4-4957-a6e8-542c427b94dd

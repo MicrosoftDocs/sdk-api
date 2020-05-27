@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCreatorSID
 title: ISecurityProperty::GetDirectCreatorSID (comsvcs.h)
-description: In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.helpviewer_keywords: ["GetDirectCreatorSID","GetDirectCreatorSID method [COM+]","GetDirectCreatorSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetDirectCreatorSID method","ISecurityProperty.GetDirectCreatorSID","ISecurityProperty::GetDirectCreatorSID","_cos_ISecurityProperty_GetDirectCreatorSID","comsvcs/ISecurityProperty::GetDirectCreatorSID","cos.isecurityproperty_getdirectcreatorsid"]
+description: In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
+helpviewer_keywords: ["GetDirectCreatorSID","GetDirectCreatorSID method [COM+]","GetDirectCreatorSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetDirectCreatorSID method","ISecurityProperty.GetDirectCreatorSID","ISecurityProperty::GetDirectCreatorSID","_cos_ISecurityProperty_GetDirectCreatorSID","comsvcs/ISecurityProperty::GetDirectCreatorSID","cos.isecurityproperty_getdirectcreatorsid"]
 old-location: cos\isecurityproperty_getdirectcreatorsid.htm
 tech.root: cossdk
 ms.assetid: cd06e71b-563a-45d2-91fb-f57375016dc3

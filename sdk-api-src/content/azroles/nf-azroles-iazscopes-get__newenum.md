@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzScopes.get__NewEnum
 title: IAzScopes::get__NewEnum (azroles.h)
-description: The _NewEnum property of IAzScopes retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).helpviewer_keywords: ["AzScopes object [Security]","_NewEnum property","IAzScopes interface [Security]","_NewEnum property","IAzScopes._NewEnum","IAzScopes.get__NewEnum","IAzScopes::_NewEnum","IAzScopes::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzScopes object","_NewEnum property [Security]","IAzScopes interface","azroles/IAzScopes::_NewEnum","azroles/IAzScopes::get__NewEnum","get__NewEnum","security.iazscopes_newenum"]
+description: The _NewEnum property of IAzScopes retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+helpviewer_keywords: ["AzScopes object [Security]","_NewEnum property","IAzScopes interface [Security]","_NewEnum property","IAzScopes._NewEnum","IAzScopes.get__NewEnum","IAzScopes::_NewEnum","IAzScopes::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzScopes object","_NewEnum property [Security]","IAzScopes interface","azroles/IAzScopes::_NewEnum","azroles/IAzScopes::get__NewEnum","get__NewEnum","security.iazscopes_newenum"]
 old-location: security\iazscopes_newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 3f3420ab-6153-4094-80e1-8011f4776139

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUICollection.GetCount
 title: IUICollection::GetCount (uiribbon.h)
-description: Retrieves the number of items contained in the IUICollection.helpviewer_keywords: ["GetCount","GetCount method [Windows Ribbon]","GetCount method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","GetCount method","IUICollection.GetCount","IUICollection::GetCount","scenicintent_IUICollection_GetCount","uiribbon/IUICollection::GetCount","windowsribbon.windowsribbon_iuicollection_getcount"]
+description: Retrieves the number of items contained in the IUICollection.
+helpviewer_keywords: ["GetCount","GetCount method [Windows Ribbon]","GetCount method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","GetCount method","IUICollection.GetCount","IUICollection::GetCount","scenicintent_IUICollection_GetCount","uiribbon/IUICollection::GetCount","windowsribbon.windowsribbon_iuicollection_getcount"]
 old-location: windowsribbon\windowsribbon_iuicollection_getcount.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getcount.htm

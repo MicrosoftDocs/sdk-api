@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IMenuPopup
 title: IMenuPopup (shobjidl_core.h)
-description: IMenuPopup may be altered or unavailable.helpviewer_keywords: ["IMenuPopup","IMenuPopup interface [Windows Shell]","IMenuPopup interface [Windows Shell]","described","_win32_IMenuPopup","shell.IMenuPopup","shobjidl_core/IMenuPopup"]
+description: IMenuPopup may be altered or unavailable.
+helpviewer_keywords: ["IMenuPopup","IMenuPopup interface [Windows Shell]","IMenuPopup interface [Windows Shell]","described","_win32_IMenuPopup","shell.IMenuPopup","shobjidl_core/IMenuPopup"]
 old-location: shell\IMenuPopup.htm
 tech.root: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149

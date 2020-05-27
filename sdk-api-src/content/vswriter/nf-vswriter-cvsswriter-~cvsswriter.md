@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.CVssWriter.~CVssWriter
 title: CVssWriter::~CVssWriter (vswriter.h)
-description: ~CVssWriter is the destructor of the CVssWriter class object.helpviewer_keywords: ["CVssWriter interface [VSS]","~CVssWriter method","CVssWriter.~CVssWriter","CVssWriter::~CVssWriter","_win32_cvsswriter_cvsswriterdestructor","base.cvsswriter_cvsswriterdestructor","vswriter/CVssWriter::~CVssWriter","~CVssWriter","~CVssWriter method [VSS]","~CVssWriter method [VSS]","CVssWriter interface"]
+description: ~CVssWriter is the destructor of the CVssWriter class object.
+helpviewer_keywords: ["CVssWriter interface [VSS]","~CVssWriter method","CVssWriter.~CVssWriter","CVssWriter::~CVssWriter","_win32_cvsswriter_cvsswriterdestructor","base.cvsswriter_cvsswriterdestructor","vswriter/CVssWriter::~CVssWriter","~CVssWriter","~CVssWriter method [VSS]","~CVssWriter method [VSS]","CVssWriter interface"]
 old-location: base\cvsswriter_cvsswriterdestructor.htm
 tech.root: VSS
 ms.assetid: 5ae3f144-24c4-4833-ac8f-44e12df6fbc3

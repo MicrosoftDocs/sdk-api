@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetSelection
 title: ITextStoreACP::GetSelection (textstor.h)
-description: The ITextStoreACP::GetSelection method returns the character position of a text selection in a document. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.helpviewer_keywords: ["GetSelection","GetSelection method [Text Services Framework]","GetSelection method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetSelection method","ITextStoreACP.GetSelection","ITextStoreACP::GetSelection","_tsf_itextstoreacp_getselection_ref","textstor/ITextStoreACP::GetSelection","tsf.itextstoreacp_getselection"]
+description: The ITextStoreACP::GetSelection method returns the character position of a text selection in a document. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.
+helpviewer_keywords: ["GetSelection","GetSelection method [Text Services Framework]","GetSelection method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetSelection method","ITextStoreACP.GetSelection","ITextStoreACP::GetSelection","_tsf_itextstoreacp_getselection_ref","textstor/ITextStoreACP::GetSelection","tsf.itextstoreacp_getselection"]
 old-location: tsf\itextstoreacp_getselection.htm
 tech.root: TSF
 ms.assetid: e2052daf-4168-4266-ae8d-a09ecbfeb422

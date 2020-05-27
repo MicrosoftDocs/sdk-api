@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartSyncAll
 title: ISyncMgrControl::StartSyncAll (syncmgr.h)
-description: Synchronizes all items managed by all handlers.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","StartSyncAll method","ISyncMgrControl.StartSyncAll","ISyncMgrControl::StartSyncAll","StartSyncAll","StartSyncAll method [Windows Shell]","StartSyncAll method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_StartSyncAll","shell.ISyncMgrControl_StartSyncAll","syncmgr/ISyncMgrControl::StartSyncAll"]
+description: Synchronizes all items managed by all handlers.
+helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","StartSyncAll method","ISyncMgrControl.StartSyncAll","ISyncMgrControl::StartSyncAll","StartSyncAll","StartSyncAll method [Windows Shell]","StartSyncAll method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_StartSyncAll","shell.ISyncMgrControl_StartSyncAll","syncmgr/ISyncMgrControl::StartSyncAll"]
 old-location: shell\ISyncMgrControl_StartSyncAll.htm
 tech.root: shell
 ms.assetid: 3b0d5070-1866-4346-b2bf-93b48a952af6

@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPProperty.put_Value
 title: IOCSPProperty::put_Value (certadm.h)
-description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.helpviewer_keywords: ["IOCSPProperty interface [Security]","Value property","IOCSPProperty.Value","IOCSPProperty.put_Value","IOCSPProperty::Value","IOCSPProperty::get_Value","IOCSPProperty::put_Value","Value property [Security]","Value property [Security]","IOCSPProperty interface","certadm/IOCSPProperty::Value","certadm/IOCSPProperty::get_Value","certadm/IOCSPProperty::put_Value","put_Value","security.iocspproperty_value_method"]
+description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
+helpviewer_keywords: ["IOCSPProperty interface [Security]","Value property","IOCSPProperty.Value","IOCSPProperty.put_Value","IOCSPProperty::Value","IOCSPProperty::get_Value","IOCSPProperty::put_Value","Value property [Security]","Value property [Security]","IOCSPProperty interface","certadm/IOCSPProperty::Value","certadm/IOCSPProperty::get_Value","certadm/IOCSPProperty::put_Value","put_Value","security.iocspproperty_value_method"]
 old-location: security\iocspproperty_value_method.htm
 tech.root: SecCrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e

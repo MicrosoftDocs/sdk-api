@@ -1,7 +1,8 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireDeviceSelectionDialog
 title: IPhotoAcquireDeviceSelectionDialog (photoacquire.h)
-description: Provides a dialog box for selecting the device to acquire images from.helpviewer_keywords: ["IPhotoAcquireDeviceSelectionDialog","IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","described","IPhotoAcquireDeviceSelectionDialogInterface","photoacquire/IPhotoAcquireDeviceSelectionDialog","picacq.iphotoacquiredeviceselectiondialog"]
+description: Provides a dialog box for selecting the device to acquire images from.
+helpviewer_keywords: ["IPhotoAcquireDeviceSelectionDialog","IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","described","IPhotoAcquireDeviceSelectionDialogInterface","photoacquire/IPhotoAcquireDeviceSelectionDialog","picacq.iphotoacquiredeviceselectiondialog"]
 old-location: picacq\iphotoacquiredeviceselectiondialog.htm
 tech.root: acquisition
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d

@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_THREAD
 title: LSA_CREATE_THREAD (ntsecpkg.h)
-description: A wrapper for the Windows CreateThread function that should be used by the Local Security Authority (LSA).helpviewer_keywords: ["CreateThread","CreateThread callback function [Security]","LSA_CREATE_THREAD","LSA_CREATE_THREAD callback","_ssp_createthread","ntsecpkg/CreateThread","security.createthread"]
+description: A wrapper for the Windows CreateThread function that should be used by the Local Security Authority (LSA).
+helpviewer_keywords: ["CreateThread","CreateThread callback function [Security]","LSA_CREATE_THREAD","LSA_CREATE_THREAD callback","_ssp_createthread","ntsecpkg/CreateThread","security.createthread"]
 old-location: security\createthread.htm
 tech.root: SecAuthN
 ms.assetid: dc02abb9-ab05-4a7f-a125-15530619633b

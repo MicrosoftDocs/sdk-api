@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetProcessId
 title: GetProcessId function (processthreadsapi.h)
-description: Retrieves the process identifier of the specified process.helpviewer_keywords: ["GetProcessId","GetProcessId function","base.getprocessid","processthreadsapi/GetProcessId","winbase/GetProcessId"]
+description: Retrieves the process identifier of the specified process.
+helpviewer_keywords: ["GetProcessId","GetProcessId function","base.getprocessid","processthreadsapi/GetProcessId","winbase/GetProcessId"]
 old-location: base\getprocessid.htm
 tech.root: ProcThread
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38

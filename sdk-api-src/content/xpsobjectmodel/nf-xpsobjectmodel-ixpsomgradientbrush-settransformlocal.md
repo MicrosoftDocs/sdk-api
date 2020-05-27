@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetTransformLocal
 title: IXpsOMGradientBrush::SetTransformLocal (xpsobjectmodel.h)
-description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform that is to be used for the brush.helpviewer_keywords: ["IXpsOMGradientBrush interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMGradientBrush.SetTransformLocal","IXpsOMGradientBrush::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","xps.ixpsomgradientbrush_settransformlocal","xpsobjectmodel/IXpsOMGradientBrush::SetTransformLocal"]
+description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform that is to be used for the brush.
+helpviewer_keywords: ["IXpsOMGradientBrush interface [XPS Documents and Packaging]","SetTransformLocal method","IXpsOMGradientBrush.SetTransformLocal","IXpsOMGradientBrush::SetTransformLocal","SetTransformLocal","SetTransformLocal method [XPS Documents and Packaging]","SetTransformLocal method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","xps.ixpsomgradientbrush_settransformlocal","xpsobjectmodel/IXpsOMGradientBrush::SetTransformLocal"]
 old-location: xps\ixpsomgradientbrush_settransformlocal.htm
 tech.root: printdocs
 ms.assetid: aabb0410-bdff-4b6b-8d8a-de1cc6fca68b

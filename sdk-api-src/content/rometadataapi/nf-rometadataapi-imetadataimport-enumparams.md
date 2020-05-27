@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumParams
 title: IMetaDataImport::EnumParams (rometadataapi.h)
-description: Enumerates ParamDef tokens representing the parameters of the method referenced by the specified MethodDef token.helpviewer_keywords: ["EnumParams","EnumParams method [Windows Runtime]","EnumParams method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumParams method","IMetaDataImport.EnumParams","IMetaDataImport::EnumParams","rometadataapi/IMetaDataImport::EnumParams","winrt.imetadataimport_enumparams"]
+description: Enumerates ParamDef tokens representing the parameters of the method referenced by the specified MethodDef token.
+helpviewer_keywords: ["EnumParams","EnumParams method [Windows Runtime]","EnumParams method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumParams method","IMetaDataImport.EnumParams","IMetaDataImport::EnumParams","rometadataapi/IMetaDataImport::EnumParams","winrt.imetadataimport_enumparams"]
 old-location: winrt\imetadataimport_enumparams.htm
 tech.root: WinRT
 ms.assetid: 0d3cc66e-575d-4451-bab7-e3dd24fd5060

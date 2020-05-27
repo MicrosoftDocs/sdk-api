@@ -1,7 +1,8 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth8
 title: IDirectMusicSynth8 (dmusics.h)
-description: IDirectMusicSynth8is unsupported and may be altered or unavailable in the future.helpviewer_keywords: ["IDirectMusicSynth8","IDirectMusicSynth8 interface [Audio Devices]","IDirectMusicSynth8 interface [Audio Devices]","described","audio.idirectmusicsynth8","dmusics/IDirectMusicSynth8"]
+description: IDirectMusicSynth8is unsupported and may be altered or unavailable in the future.
+helpviewer_keywords: ["IDirectMusicSynth8","IDirectMusicSynth8 interface [Audio Devices]","IDirectMusicSynth8 interface [Audio Devices]","described","audio.idirectmusicsynth8","dmusics/IDirectMusicSynth8"]
 old-location: audio\idirectmusicsynth8.htm
 tech.root: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF

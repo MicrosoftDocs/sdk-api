@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetConnection
 title: IMbnInterface::GetConnection (mbnapi.h)
-description: Gets the IMbnConnection object.helpviewer_keywords: ["GetConnection","GetConnection method [Microsoft Broadband Networks]","GetConnection method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetConnection method","IMbnInterface.GetConnection","IMbnInterface::GetConnection","mbn.imbninterface_getconnection","mbnapi/IMbnInterface::GetConnection"]
+description: Gets the IMbnConnection object.
+helpviewer_keywords: ["GetConnection","GetConnection method [Microsoft Broadband Networks]","GetConnection method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetConnection method","IMbnInterface.GetConnection","IMbnInterface::GetConnection","mbn.imbninterface_getconnection","mbnapi/IMbnInterface::GetConnection"]
 old-location: mbn\imbninterface_getconnection.htm
 tech.root: mbn
 ms.assetid: 919772f5-1e86-424c-b3de-079a03bbc8e5

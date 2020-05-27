@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_2.IDXGISwapChain1
 title: IDXGISwapChain1 (dxgi1_2.h)
-description: Provides presentation capabilities that are enhanced from IDXGISwapChain. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.helpviewer_keywords: ["IDXGISwapChain1","IDXGISwapChain1 interface [DXGI]","IDXGISwapChain1 interface [DXGI]","described","direct3ddxgi.idxgiswapchain1","dxgi1_2/IDXGISwapChain1"]
+description: Provides presentation capabilities that are enhanced from IDXGISwapChain. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.
+helpviewer_keywords: ["IDXGISwapChain1","IDXGISwapChain1 interface [DXGI]","IDXGISwapChain1 interface [DXGI]","described","direct3ddxgi.idxgiswapchain1","dxgi1_2/IDXGISwapChain1"]
 old-location: direct3ddxgi\idxgiswapchain1.htm
 tech.root: direct3ddxgi
 ms.assetid: A674E006-4323-4967-9B9B-0E3965040DBF

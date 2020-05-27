@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IIOCancelInformation.GetCancelInformation
 title: IIOCancelInformation::GetCancelInformation (shobjidl_core.h)
-description: Returns information that is posted when a user selects Cancel from the progress UI.helpviewer_keywords: ["GetCancelInformation","GetCancelInformation method [Windows Shell]","GetCancelInformation method [Windows Shell]","IIOCancelInformation interface","IIOCancelInformation interface [Windows Shell]","GetCancelInformation method","IIOCancelInformation.GetCancelInformation","IIOCancelInformation::GetCancelInformation","_shell_IIOCancelInformation_GetCancelInformation","shell.IIOCancelInformation_GetCancelInformation","shobjidl_core/IIOCancelInformation::GetCancelInformation"]
+description: Returns information that is posted when a user selects Cancel from the progress UI.
+helpviewer_keywords: ["GetCancelInformation","GetCancelInformation method [Windows Shell]","GetCancelInformation method [Windows Shell]","IIOCancelInformation interface","IIOCancelInformation interface [Windows Shell]","GetCancelInformation method","IIOCancelInformation.GetCancelInformation","IIOCancelInformation::GetCancelInformation","_shell_IIOCancelInformation_GetCancelInformation","shell.IIOCancelInformation_GetCancelInformation","shobjidl_core/IIOCancelInformation::GetCancelInformation"]
 old-location: shell\IIOCancelInformation_GetCancelInformation.htm
 tech.root: shell
 ms.assetid: 201537b5-1866-4df6-a51d-3f07c18fe0c8

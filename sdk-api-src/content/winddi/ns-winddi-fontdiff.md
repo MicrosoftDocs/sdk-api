@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._FONTDIFF
 title: FONTDIFF (winddi.h)
-description: The FONTDIFF structure describes all of the characteristics that are different between a base font and one of its simulations.helpviewer_keywords: ["FONTDIFF","FONTDIFF structure [Display Devices]","display.fontdiff","grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml","winddi/FONTDIFF"]
+description: The FONTDIFF structure describes all of the characteristics that are different between a base font and one of its simulations.
+helpviewer_keywords: ["FONTDIFF","FONTDIFF structure [Display Devices]","display.fontdiff","grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml","winddi/FONTDIFF"]
 old-location: display\fontdiff.htm
 tech.root: display
 ms.assetid: c590359b-4652-4673-9e43-bf76a0a45d58

@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropEventHandler.OnDragDropStatusChange
 title: IDirectManipulationDragDropEventHandler::OnDragDropStatusChange (directmanipulation.h)
-description: Called when a status change happens in the viewport that the drag-and-drop behavior is attached to.helpviewer_keywords: ["IDirectManipulationDragDropEventHandler interface [Direct Manipulation]","OnDragDropStatusChange method","IDirectManipulationDragDropEventHandler.OnDragDropStatusChange","IDirectManipulationDragDropEventHandler::OnDragDropStatusChange","OnDragDropStatusChange","OnDragDropStatusChange method [Direct Manipulation]","OnDragDropStatusChange method [Direct Manipulation]","IDirectManipulationDragDropEventHandler interface","directmanipulation.idirectmanipulationdragdropeventhandler_ondragdropstatuschange","directmanipulation/IDirectManipulationDragDropEventHandler::OnDragDropStatusChange"]
+description: Called when a status change happens in the viewport that the drag-and-drop behavior is attached to.
+helpviewer_keywords: ["IDirectManipulationDragDropEventHandler interface [Direct Manipulation]","OnDragDropStatusChange method","IDirectManipulationDragDropEventHandler.OnDragDropStatusChange","IDirectManipulationDragDropEventHandler::OnDragDropStatusChange","OnDragDropStatusChange","OnDragDropStatusChange method [Direct Manipulation]","OnDragDropStatusChange method [Direct Manipulation]","IDirectManipulationDragDropEventHandler interface","directmanipulation.idirectmanipulationdragdropeventhandler_ondragdropstatuschange","directmanipulation/IDirectManipulationDragDropEventHandler::OnDragDropStatusChange"]
 old-location: directmanipulation\idirectmanipulationdragdropeventhandler_ondragdropstatuschange.htm
 tech.root: directmanipulation
 ms.assetid: 4AC5DB55-57EF-4182-B4B9-3A4F1DE0E6B0

@@ -1,7 +1,8 @@
 ---
 UID: NS:fwptypes.FWP_V4_ADDR_AND_MASK_
 title: FWP_V4_ADDR_AND_MASK (fwptypes.h)
-description: Specifies IPv4 address and mask in host order.helpviewer_keywords: ["FWP_V4_ADDR_AND_MASK","FWP_V4_ADDR_AND_MASK structure [Filtering]","fwp.fwp_v4_addr_and_mask_struct","fwptypes/FWP_V4_ADDR_AND_MASK"]
+description: Specifies IPv4 address and mask in host order.
+helpviewer_keywords: ["FWP_V4_ADDR_AND_MASK","FWP_V4_ADDR_AND_MASK structure [Filtering]","fwp.fwp_v4_addr_and_mask_struct","fwptypes/FWP_V4_ADDR_AND_MASK"]
 old-location: fwp\fwp_v4_addr_and_mask_struct.htm
 tech.root: fwp
 ms.assetid: da6315af-264e-4dcb-b5eb-ac308128a511

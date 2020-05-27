@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICBitmapFlipRotator
 title: IWICBitmapFlipRotator (wincodec.h)
-description: Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. The flip is done before the rotation.helpviewer_keywords: ["IWICBitmapFlipRotator","IWICBitmapFlipRotator interface [Windows Imaging Component]","IWICBitmapFlipRotator interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapfliprotator","wic._wic_codec_iwicbitmapfliprotator","wincodec/IWICBitmapFlipRotator"]
+description: Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. The flip is done before the rotation.
+helpviewer_keywords: ["IWICBitmapFlipRotator","IWICBitmapFlipRotator interface [Windows Imaging Component]","IWICBitmapFlipRotator interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapfliprotator","wic._wic_codec_iwicbitmapfliprotator","wincodec/IWICBitmapFlipRotator"]
 old-location: wic\_wic_codec_iwicbitmapfliprotator.htm
 tech.root: wic
 ms.assetid: 1fcb19ba-34bd-48c0-9964-0c973c31cacc

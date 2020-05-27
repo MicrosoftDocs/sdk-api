@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Add
 title: ISignerCertificates::Add (certenroll.h)
-description: Adds an ISignerCertificate object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ISignerCertificates interface","ISignerCertificates interface [Security]","Add method","ISignerCertificates.Add","ISignerCertificates::Add","certenroll/ISignerCertificates::Add","security.isignercertificates_add_method"]
+description: Adds an ISignerCertificate object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ISignerCertificates interface","ISignerCertificates interface [Security]","Add method","ISignerCertificates.Add","ISignerCertificates::Add","certenroll/ISignerCertificates::Add","security.isignercertificates_add_method"]
 old-location: security\isignercertificates_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa

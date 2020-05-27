@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetLinkageType
 title: IDvbLinkageDescriptor::GetLinkageType (dvbsiparser.h)
-description: Gets a code that uniquely identifies the linkage type from a Digital Video Broadcast (DVB) linkage descriptor.helpviewer_keywords: ["GetLinkageType","GetLinkageType method [Microsoft TV Technologies]","GetLinkageType method [Microsoft TV Technologies]","IDvbLinkageDescriptor interface","IDvbLinkageDescriptor interface [Microsoft TV Technologies]","GetLinkageType method","IDvbLinkageDescriptor.GetLinkageType","IDvbLinkageDescriptor::GetLinkageType","dvbsiparser/IDvbLinkageDescriptor::GetLinkageType","mstv.idvblinkagedescriptor_getlinkagetype"]
+description: Gets a code that uniquely identifies the linkage type from a Digital Video Broadcast (DVB) linkage descriptor.
+helpviewer_keywords: ["GetLinkageType","GetLinkageType method [Microsoft TV Technologies]","GetLinkageType method [Microsoft TV Technologies]","IDvbLinkageDescriptor interface","IDvbLinkageDescriptor interface [Microsoft TV Technologies]","GetLinkageType method","IDvbLinkageDescriptor.GetLinkageType","IDvbLinkageDescriptor::GetLinkageType","dvbsiparser/IDvbLinkageDescriptor::GetLinkageType","mstv.idvblinkagedescriptor_getlinkagetype"]
 old-location: mstv\idvblinkagedescriptor_getlinkagetype.htm
 tech.root: mstv
 ms.assetid: 54e17da4-df93-40a5-a359-274da77f585d

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.EvictClusterNode
 title: EvictClusterNode function (clusapi.h)
-description: Deletes a node from the cluster database.helpviewer_keywords: ["EvictClusterNode","EvictClusterNode function [Failover Cluster]","PCLUSAPI_EVICT_CLUSTER_NODE","PCLUSAPI_EVICT_CLUSTER_NODE function [Failover Cluster]","_wolf_evictclusternode","clusapi/EvictClusterNode","clusapi/PCLUSAPI_EVICT_CLUSTER_NODE","mscs.evictclusternode"]
+description: Deletes a node from the cluster database.
+helpviewer_keywords: ["EvictClusterNode","EvictClusterNode function [Failover Cluster]","PCLUSAPI_EVICT_CLUSTER_NODE","PCLUSAPI_EVICT_CLUSTER_NODE function [Failover Cluster]","_wolf_evictclusternode","clusapi/EvictClusterNode","clusapi/PCLUSAPI_EVICT_CLUSTER_NODE","mscs.evictclusternode"]
 old-location: mscs\evictclusternode.htm
 tech.root: MsCS
 ms.assetid: 0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9

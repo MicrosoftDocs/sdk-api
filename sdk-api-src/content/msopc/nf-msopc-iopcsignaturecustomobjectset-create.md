@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Create
 title: IOpcSignatureCustomObjectSet::Create (msopc.h)
-description: Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignatureCustomObjectSet interface","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","Create method","IOpcSignatureCustomObjectSet.Create","IOpcSignatureCustomObjectSet::Create","msopc/IOpcSignatureCustomObjectSet::Create","opc.iopcsignaturecustomobjectset_create"]
+description: Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.
+helpviewer_keywords: ["Create","Create method [Open Packaging Conventions]","Create method [Open Packaging Conventions]","IOpcSignatureCustomObjectSet interface","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","Create method","IOpcSignatureCustomObjectSet.Create","IOpcSignatureCustomObjectSet::Create","msopc/IOpcSignatureCustomObjectSet::Create","opc.iopcsignaturecustomobjectset_create"]
 old-location: opc\iopcsignaturecustomobjectset_create.htm
 tech.root: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65

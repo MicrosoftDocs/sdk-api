@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet)
 title: IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet) (dwrite_3.h)
-description: Returns a subset of fonts filtered by the given properties.helpviewer_keywords: ["GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetMatchingFonts method","IDWriteFontSet.GetMatchingFonts","IDWriteFontSet.GetMatchingFonts(WCHAR const","DWRITE_FONT_WEIGHT","DWRITE_FONT_STRETCH","DWRITE_FONT_STYLE","IDWriteFontSet)","IDWriteFontSet::GetMatchingFonts","IDWriteFontSet::GetMatchingFonts(WCHAR const","DWRITE_FONT_WEIGHT","DWRITE_FONT_STRETCH","DWRITE_FONT_STYLE","IDWriteFontSet)","directwrite.idwritefontset_getmatchingfonts_1","dwrite_3/IDWriteFontSet::GetMatchingFonts"]
+description: Returns a subset of fonts filtered by the given properties.
+helpviewer_keywords: ["GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","GetMatchingFonts method","IDWriteFontSet.GetMatchingFonts","IDWriteFontSet.GetMatchingFonts(WCHAR const","DWRITE_FONT_WEIGHT","DWRITE_FONT_STRETCH","DWRITE_FONT_STYLE","IDWriteFontSet)","IDWriteFontSet::GetMatchingFonts","IDWriteFontSet::GetMatchingFonts(WCHAR const","DWRITE_FONT_WEIGHT","DWRITE_FONT_STRETCH","DWRITE_FONT_STYLE","IDWriteFontSet)","directwrite.idwritefontset_getmatchingfonts_1","dwrite_3/IDWriteFontSet::GetMatchingFonts"]
 old-location: directwrite\idwritefontset_getmatchingfonts_1.htm
 tech.root: DirectWrite
 ms.assetid: 3282d528-9997-ee8f-c001-34650551f0e5

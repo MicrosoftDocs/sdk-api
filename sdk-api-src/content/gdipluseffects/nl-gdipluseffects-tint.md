@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.Tint
 title: Tint (gdipluseffects.h)
-description: The Tint class enables you to apply a tint to a bitmap.helpviewer_keywords: ["Tint","Tint class [GDI+]","Tint class [GDI+]","described","_gdiplus_CLASS_Tint_Class","gdiplus._gdiplus_CLASS_Tint_Class","gdipluseffects/Tint"]
+description: The Tint class enables you to apply a tint to a bitmap.
+helpviewer_keywords: ["Tint","Tint class [GDI+]","Tint class [GDI+]","described","_gdiplus_CLASS_Tint_Class","gdiplus._gdiplus_CLASS_Tint_Class","gdipluseffects/Tint"]
 old-location: gdiplus\_gdiplus_CLASS_Tint_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tint.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMLVLINK
 title: NMLVLINK (commctrl.h)
-description: Contains information about an LVN_LINKCLICK notification code.helpviewer_keywords: ["*PNMLVLINK","LPNMLVLINK","LPNMLVLINK structure pointer [Windows Controls]","NMLVLINK","NMLVLINK structure [Windows Controls]","commctrl/LPNMLVLINK","commctrl/NMLVLINK","controls.NMLVLINK","controls.shell_NMLVLINK","shell_NMLVLINK","shell_NMLVLINK_cpp"]
+description: Contains information about an LVN_LINKCLICK notification code.
+helpviewer_keywords: ["*PNMLVLINK","LPNMLVLINK","LPNMLVLINK structure pointer [Windows Controls]","NMLVLINK","NMLVLINK structure [Windows Controls]","commctrl/LPNMLVLINK","commctrl/NMLVLINK","controls.NMLVLINK","controls.shell_NMLVLINK","shell_NMLVLINK","shell_NMLVLINK_cpp"]
 old-location: controls\NMLVLINK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvlink.htm

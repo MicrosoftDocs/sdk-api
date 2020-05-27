@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHUnicodeToUnicode
 title: SHUnicodeToUnicode function (shlwapi.h)
-description: Copies a Unicode string.helpviewer_keywords: ["SHUnicodeToUnicode","SHUnicodeToUnicode function [Windows Shell]","_win32_SHUnicodeToUnicode","shell.SHUnicodeToUnicode","shlwapi/SHUnicodeToUnicode"]
+description: Copies a Unicode string.
+helpviewer_keywords: ["SHUnicodeToUnicode","SHUnicodeToUnicode function [Windows Shell]","_win32_SHUnicodeToUnicode","shell.SHUnicodeToUnicode","shlwapi/SHUnicodeToUnicode"]
 old-location: shell\SHUnicodeToUnicode.htm
 tech.root: shell
 ms.assetid: 1a208c2d-e627-4aac-9a28-b579c734a2a8

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetSize
 title: IWICBitmapSource::GetSize (wincodec.h)
-description: Retrieves the pixel width and height of the bitmap.helpviewer_keywords: ["GetSize","GetSize method [Windows Imaging Component]","GetSize method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","GetSize method","IWICBitmapSource.GetSize","IWICBitmapSource::GetSize","_wic_codec_iwicbitmapsource_getsize","wic._wic_codec_iwicbitmapsource_getsize","wincodec/IWICBitmapSource::GetSize"]
+description: Retrieves the pixel width and height of the bitmap.
+helpviewer_keywords: ["GetSize","GetSize method [Windows Imaging Component]","GetSize method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","GetSize method","IWICBitmapSource.GetSize","IWICBitmapSource::GetSize","_wic_codec_iwicbitmapsource_getsize","wic._wic_codec_iwicbitmapsource_getsize","wincodec/IWICBitmapSource::GetSize"]
 old-location: wic\_wic_codec_iwicbitmapsource_getsize.htm
 tech.root: wic
 ms.assetid: 2fba35fd-288c-4095-83b8-d2320dc5916c

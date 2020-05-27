@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminPortDisconnect
 title: MprAdminPortDisconnect function (mprapi.h)
-description: The MprAdminPortDisconnect function disconnects a connection on a specific port.helpviewer_keywords: ["MprAdminPortDisconnect","MprAdminPortDisconnect function [RAS]","_mpr_mpradminportdisconnect","mprapi/MprAdminPortDisconnect","rras.mpradminportdisconnect"]
+description: The MprAdminPortDisconnect function disconnects a connection on a specific port.
+helpviewer_keywords: ["MprAdminPortDisconnect","MprAdminPortDisconnect function [RAS]","_mpr_mpradminportdisconnect","mprapi/MprAdminPortDisconnect","rras.mpradminportdisconnect"]
 old-location: rras\mpradminportdisconnect.htm
 tech.root: RRAS
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013

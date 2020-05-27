@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreatePropertyConditionEx
 title: IUIAutomation::CreatePropertyConditionEx (uiautomationclient.h)
-description: Creates a condition that selects elements that have a property with the specified value, using optional flags.helpviewer_keywords: ["CreatePropertyConditionEx","CreatePropertyConditionEx method [Windows Accessibility]","CreatePropertyConditionEx method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreatePropertyConditionEx method","IUIAutomation.CreatePropertyConditionEx","IUIAutomation::CreatePropertyConditionEx","uiauto.uiauto_IUIAutomation_CreatePropertyConditionEx","uiauto_IUIAutomation_CreatePropertyConditionEx","uiautomationclient/IUIAutomation::CreatePropertyConditionEx","winauto.uiauto_IUIAutomation_CreatePropertyConditionEx"]
+description: Creates a condition that selects elements that have a property with the specified value, using optional flags.
+helpviewer_keywords: ["CreatePropertyConditionEx","CreatePropertyConditionEx method [Windows Accessibility]","CreatePropertyConditionEx method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreatePropertyConditionEx method","IUIAutomation.CreatePropertyConditionEx","IUIAutomation::CreatePropertyConditionEx","uiauto.uiauto_IUIAutomation_CreatePropertyConditionEx","uiauto_IUIAutomation_CreatePropertyConditionEx","uiautomationclient/IUIAutomation::CreatePropertyConditionEx","winauto.uiauto_IUIAutomation_CreatePropertyConditionEx"]
 old-location: winauto\uiauto_IUIAutomation_CreatePropertyConditionEx.htm
 tech.root: WinAuto
 ms.assetid: dc7ad9e8-b315-40b1-af02-997a38c4ee66

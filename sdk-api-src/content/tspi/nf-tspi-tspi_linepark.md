@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_linePark
 title: TSPI_linePark function (tspi.h)
-description: The TSPI_linePark function parks the specified call according to the specified park mode.helpviewer_keywords: ["TSPI_linePark","TSPI_linePark function [TAPI 2.2]","_tspi_tspi_linepark","tspi.tspi_linepark","tspi/TSPI_linePark"]
+description: The TSPI_linePark function parks the specified call according to the specified park mode.
+helpviewer_keywords: ["TSPI_linePark","TSPI_linePark function [TAPI 2.2]","_tspi_tspi_linepark","tspi.tspi_linepark","tspi/TSPI_linePark"]
 old-location: tspi\tspi_linepark.htm
 tech.root: Tapi
 ms.assetid: 6ff14bfc-ba48-4f70-b732-81c19dba92c5

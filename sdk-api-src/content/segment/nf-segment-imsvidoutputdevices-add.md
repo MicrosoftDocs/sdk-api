@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.Add
 title: IMSVidOutputDevices::Add (segment.h)
-description: The Add method adds an output device to the collection.helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IMSVidOutputDevices interface","IMSVidOutputDevices interface [Microsoft TV Technologies]","Add method","IMSVidOutputDevices.Add","IMSVidOutputDevices::Add","IMSVidOutputDevicesAdd","mstv.imsvidoutputdevices_add","segment/IMSVidOutputDevices::Add"]
+description: The Add method adds an output device to the collection.
+helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IMSVidOutputDevices interface","IMSVidOutputDevices interface [Microsoft TV Technologies]","Add method","IMSVidOutputDevices.Add","IMSVidOutputDevices::Add","IMSVidOutputDevicesAdd","mstv.imsvidoutputdevices_add","segment/IMSVidOutputDevices::Add"]
 old-location: mstv\imsvidoutputdevices_add.htm
 tech.root: mstv
 ms.assetid: 4f8386bb-5494-4534-adec-d37ac105a3a4

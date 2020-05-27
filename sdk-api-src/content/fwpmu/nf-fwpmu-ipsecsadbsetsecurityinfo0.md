@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecSaDbSetSecurityInfo0
 title: IPsecSaDbSetSecurityInfo0 function (fwpmu.h)
-description: Sets specified security information in the security descriptor of the IPsec security association database.helpviewer_keywords: ["IPsecSaDbSetSecurityInfo0","IPsecSaDbSetSecurityInfo0 function [Filtering]","fwp.ipsecsadbsetsecurityinfo0","fwpmu/IPsecSaDbSetSecurityInfo0"]
+description: Sets specified security information in the security descriptor of the IPsec security association database.
+helpviewer_keywords: ["IPsecSaDbSetSecurityInfo0","IPsecSaDbSetSecurityInfo0 function [Filtering]","fwp.ipsecsadbsetsecurityinfo0","fwpmu/IPsecSaDbSetSecurityInfo0"]
 old-location: fwp\ipsecsadbsetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 6e51c04f-c829-4452-9e40-2c97551ad0f0

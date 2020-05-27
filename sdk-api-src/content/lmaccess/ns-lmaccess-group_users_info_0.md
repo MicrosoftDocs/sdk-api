@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._GROUP_USERS_INFO_0
 title: GROUP_USERS_INFO_0 (lmaccess.h)
-description: The GROUP_USERS_INFO_0 structure contains global group member information.helpviewer_keywords: ["*LPGROUP_USERS_INFO_0","*PGROUP_USERS_INFO_0","GROUP_USERS_INFO_0","GROUP_USERS_INFO_0 structure [Network Management]","LPGROUP_USERS_INFO_0","LPGROUP_USERS_INFO_0 structure pointer [Network Management]","PGROUP_USERS_INFO_0","PGROUP_USERS_INFO_0 structure pointer [Network Management]","_win32_group_users_info_0_str","lmaccess/GROUP_USERS_INFO_0","lmaccess/LPGROUP_USERS_INFO_0","lmaccess/PGROUP_USERS_INFO_0","netmgmt.group_users_info_0_str"]
+description: The GROUP_USERS_INFO_0 structure contains global group member information.
+helpviewer_keywords: ["*LPGROUP_USERS_INFO_0","*PGROUP_USERS_INFO_0","GROUP_USERS_INFO_0","GROUP_USERS_INFO_0 structure [Network Management]","LPGROUP_USERS_INFO_0","LPGROUP_USERS_INFO_0 structure pointer [Network Management]","PGROUP_USERS_INFO_0","PGROUP_USERS_INFO_0 structure pointer [Network Management]","_win32_group_users_info_0_str","lmaccess/GROUP_USERS_INFO_0","lmaccess/LPGROUP_USERS_INFO_0","lmaccess/PGROUP_USERS_INFO_0","netmgmt.group_users_info_0_str"]
 old-location: netmgmt\group_users_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: cc0e5d27-91f1-4640-bb80-e73899fabba9

@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhCloseDecodingHandle
 title: TdhCloseDecodingHandle function (tdh.h)
-description: Frees any resources associated with the input decoding handle.helpviewer_keywords: ["TdhCloseDecodingHandle","TdhCloseDecodingHandle function [ETW]","etw.tdhclosedecodinghandle","tdh/TdhCloseDecodingHandle"]
+description: Frees any resources associated with the input decoding handle.
+helpviewer_keywords: ["TdhCloseDecodingHandle","TdhCloseDecodingHandle function [ETW]","etw.tdhclosedecodinghandle","tdh/TdhCloseDecodingHandle"]
 old-location: etw\tdhclosedecodinghandle.htm
 tech.root: ETW
 ms.assetid: f3cf6b1e-c970-4b91-aa54-370d46a6e86a

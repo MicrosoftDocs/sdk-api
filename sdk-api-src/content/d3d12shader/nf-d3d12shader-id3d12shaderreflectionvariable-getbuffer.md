@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetBuffer
 title: ID3D12ShaderReflectionVariable::GetBuffer (d3d12shader.h)
-description: Returns the ID3D12ShaderReflectionConstantBuffer of the present ID3D12ShaderReflectionVariable.helpviewer_keywords: ["GetBuffer","GetBuffer method","GetBuffer method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetBuffer method","ID3D12ShaderReflectionVariable.GetBuffer","ID3D12ShaderReflectionVariable::GetBuffer","d3d12shader/ID3D12ShaderReflectionVariable::GetBuffer","direct3d12.id3d12shaderreflectionvariable_getbuffer"]
+description: Returns the ID3D12ShaderReflectionConstantBuffer of the present ID3D12ShaderReflectionVariable.
+helpviewer_keywords: ["GetBuffer","GetBuffer method","GetBuffer method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetBuffer method","ID3D12ShaderReflectionVariable.GetBuffer","ID3D12ShaderReflectionVariable::GetBuffer","d3d12shader/ID3D12ShaderReflectionVariable::GetBuffer","direct3d12.id3d12shaderreflectionvariable_getbuffer"]
 old-location: direct3d12\id3d12shaderreflectionvariable_getbuffer.htm
 tech.root: direct3d12
 ms.assetid: 433FABE2-D0BB-4E97-84BB-D20566D32571

@@ -1,7 +1,8 @@
 ---
 UID: NF:roapi.RoRegisterActivationFactories
 title: RoRegisterActivationFactories function (roapi.h)
-description: Registers an array out-of-process activation factories for a Windows Runtime exe server.helpviewer_keywords: ["RoRegisterActivationFactories","RoRegisterActivationFactories function [Windows Runtime]","WinRTRegisterActivationFactories","roapi/RoRegisterActivationFactories","roapi/WinRTRegisterActivationFactories","winrt.roregisteractivationfactories","winrt.winrtregisteractivationfactories"]
+description: Registers an array out-of-process activation factories for a Windows Runtime exe server.
+helpviewer_keywords: ["RoRegisterActivationFactories","RoRegisterActivationFactories function [Windows Runtime]","WinRTRegisterActivationFactories","roapi/RoRegisterActivationFactories","roapi/WinRTRegisterActivationFactories","winrt.roregisteractivationfactories","winrt.winrtregisteractivationfactories"]
 old-location: winrt\roregisteractivationfactories.htm
 tech.root: WinRT
 ms.assetid: 8213f5de-3b1c-44c3-ad37-b2ebac8dbcd8

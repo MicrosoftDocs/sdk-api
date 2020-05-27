@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingJob2
 title: IFaxOutgoingJob2 (faxcomex.h)
-description: Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue.helpviewer_keywords: ["IFaxOutgoingJob2","IFaxOutgoingJob2 interface [Fax Service]","IFaxOutgoingJob2 interface [Fax Service]","described","_mfax_faxoutgoingjob2_cpp","fax._mfax_faxoutgoingjob2_cpp","faxcomex/IFaxOutgoingJob2"]
+description: Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue.
+helpviewer_keywords: ["IFaxOutgoingJob2","IFaxOutgoingJob2 interface [Fax Service]","IFaxOutgoingJob2 interface [Fax Service]","described","_mfax_faxoutgoingjob2_cpp","fax._mfax_faxoutgoingjob2_cpp","faxcomex/IFaxOutgoingJob2"]
 old-location: fax\_mfax_faxoutgoingjob2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\faxinto_z_ifaxoutgoingjob2.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.GetUserSummary
 title: IWPCProviderConfig::GetUserSummary (wpcapi.h)
-description: Retrieves the information for each user by using the Parental Controls Control Panel.helpviewer_keywords: ["GetUserSummary","GetUserSummary method","GetUserSummary method","IWPCProviderConfig interface","IWPCProviderConfig interface","GetUserSummary method","IWPCProviderConfig.GetUserSummary","IWPCProviderConfig::GetUserSummary","parcon.iwpcproviderconfig_getusersummary","wpcapi/IWPCProviderConfig::GetUserSummary"]
+description: Retrieves the information for each user by using the Parental Controls Control Panel.
+helpviewer_keywords: ["GetUserSummary","GetUserSummary method","GetUserSummary method","IWPCProviderConfig interface","IWPCProviderConfig interface","GetUserSummary method","IWPCProviderConfig.GetUserSummary","IWPCProviderConfig::GetUserSummary","parcon.iwpcproviderconfig_getusersummary","wpcapi/IWPCProviderConfig::GetUserSummary"]
 old-location: parcon\iwpcproviderconfig_getusersummary.htm
 tech.root: parcon
 ms.assetid: 89d70aef-9bca-4984-99d1-082041257393

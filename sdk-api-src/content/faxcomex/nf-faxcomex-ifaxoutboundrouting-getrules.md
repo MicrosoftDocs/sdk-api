@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRouting.GetRules
 title: IFaxOutboundRouting::GetRules (faxcomex.h)
-description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.helpviewer_keywords: ["GetRules","GetRules method [Fax Service]","GetRules method [Fax Service]","IFaxOutboundRouting interface","IFaxOutboundRouting interface [Fax Service]","GetRules method","IFaxOutboundRouting.GetRules","IFaxOutboundRouting::GetRules","_mfax_faxoutboundrouting.getrules_cpp","fax._mfax_faxoutboundrouting_getrules_cpp","faxcomex/IFaxOutboundRouting::GetRules"]
+description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.
+helpviewer_keywords: ["GetRules","GetRules method [Fax Service]","GetRules method [Fax Service]","IFaxOutboundRouting interface","IFaxOutboundRouting interface [Fax Service]","GetRules method","IFaxOutboundRouting.GetRules","IFaxOutboundRouting::GetRules","_mfax_faxoutboundrouting.getrules_cpp","fax._mfax_faxoutboundrouting_getrules_cpp","faxcomex/IFaxOutboundRouting::GetRules"]
 old-location: fax\_mfax_faxoutboundrouting_getrules_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2v1v_cpp.htm

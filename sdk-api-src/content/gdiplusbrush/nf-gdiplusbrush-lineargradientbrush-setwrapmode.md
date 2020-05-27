@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetWrapMode
 title: LinearGradientBrush::SetWrapMode (gdiplusbrush.h)
-description: The LinearGradientBrush::SetWrapMode method sets the wrap mode of this linear gradient brush.helpviewer_keywords: ["LinearGradientBrush class [GDI+]","SetWrapMode method","LinearGradientBrush.SetWrapMode","LinearGradientBrush::SetWrapMode","SetWrapMode","SetWrapMode method [GDI+]","SetWrapMode method [GDI+]","LinearGradientBrush class","_gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_","gdiplus._gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_"]
+description: The LinearGradientBrush::SetWrapMode method sets the wrap mode of this linear gradient brush.
+helpviewer_keywords: ["LinearGradientBrush class [GDI+]","SetWrapMode method","LinearGradientBrush.SetWrapMode","LinearGradientBrush::SetWrapMode","SetWrapMode","SetWrapMode method [GDI+]","SetWrapMode method [GDI+]","LinearGradientBrush class","_gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_","gdiplus._gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setwrapmode_76wrapmode.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.remove_TransportParametersUpdate
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Unregisters an event handler for the TransportParametersUpdate event.helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","remove_TransportParametersUpdate method","IMediaRenderer.remove_TransportParametersUpdate","IMediaRenderer.streaming","IMediaRenderer::remove_TransportParametersUpdate","IMediaRenderer::streaming","mediastreaming.imediarenderer_remove_transportparametersupdate","remove_TransportParametersUpdate","remove_TransportParametersUpdate method [Media Streaming API]","remove_TransportParametersUpdate method [Media Streaming API]","IMediaRenderer interface","windows/IMediaRenderer::remove_TransportParametersUpdate"]
+description: Unregisters an event handler for the TransportParametersUpdate event.
+helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","remove_TransportParametersUpdate method","IMediaRenderer.remove_TransportParametersUpdate","IMediaRenderer.streaming","IMediaRenderer::remove_TransportParametersUpdate","IMediaRenderer::streaming","mediastreaming.imediarenderer_remove_transportparametersupdate","remove_TransportParametersUpdate","remove_TransportParametersUpdate method [Media Streaming API]","remove_TransportParametersUpdate method [Media Streaming API]","IMediaRenderer interface","windows/IMediaRenderer::remove_TransportParametersUpdate"]
 old-location: mediastreaming\imediarenderer_remove_transportparametersupdate.htm
 tech.root: mediastreaming
 ms.assetid: 7AA7B336-5C51-4774-89A1-F710603A7B23

@@ -1,7 +1,8 @@
 ---
 UID: NN:aclui.ISecurityInformation2
 title: ISecurityInformation2 (aclui.h)
-description: Enables the access control editor to obtain information from the client that is not provided by the ISecurityInformation interface.helpviewer_keywords: ["ISecurityInformation2","ISecurityInformation2 interface [Security]","ISecurityInformation2 interface [Security]","described","_win32_isecurityinformation2","aclui/ISecurityInformation2","security.isecurityinformation2"]
+description: Enables the access control editor to obtain information from the client that is not provided by the ISecurityInformation interface.
+helpviewer_keywords: ["ISecurityInformation2","ISecurityInformation2 interface [Security]","ISecurityInformation2 interface [Security]","described","_win32_isecurityinformation2","aclui/ISecurityInformation2","security.isecurityinformation2"]
 old-location: security\isecurityinformation2.htm
 tech.root: SecAuthZ
 ms.assetid: 5cb7a096-5088-424a-82d1-0351ce5bb413

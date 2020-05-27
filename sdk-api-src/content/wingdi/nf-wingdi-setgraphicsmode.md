@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetGraphicsMode
 title: SetGraphicsMode function (wingdi.h)
-description: The SetGraphicsMode function sets the graphics mode for the specified device context.helpviewer_keywords: ["GM_ADVANCED","GM_COMPATIBLE","SetGraphicsMode","SetGraphicsMode function [Windows GDI]","_win32_SetGraphicsMode","gdi.setgraphicsmode","wingdi/SetGraphicsMode"]
+description: The SetGraphicsMode function sets the graphics mode for the specified device context.
+helpviewer_keywords: ["GM_ADVANCED","GM_COMPATIBLE","SetGraphicsMode","SetGraphicsMode function [Windows GDI]","_win32_SetGraphicsMode","gdi.setgraphicsmode","wingdi/SetGraphicsMode"]
 old-location: gdi\setgraphicsmode.htm
 tech.root: gdi
 ms.assetid: 73824a14-2951-45a2-98cd-156418c59a2d

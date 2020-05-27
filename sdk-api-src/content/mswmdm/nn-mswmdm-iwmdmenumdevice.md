@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMEnumDevice
 title: IWMDMEnumDevice (mswmdm.h)
-description: The IWMDMEnumDevice interface enumerates portable devices attached to a computer. To obtain this interface, call IWMDeviceManager::EnumDevices.helpviewer_keywords: ["IWMDMEnumDevice","IWMDMEnumDevice interface [windows Media Device Manager]","IWMDMEnumDevice interface [windows Media Device Manager]","described","IWMDMEnumDeviceInterface","mswmdm/IWMDMEnumDevice","wmdm.iwmdmenumdevice"]
+description: The IWMDMEnumDevice interface enumerates portable devices attached to a computer. To obtain this interface, call IWMDeviceManager::EnumDevices.
+helpviewer_keywords: ["IWMDMEnumDevice","IWMDMEnumDevice interface [windows Media Device Manager]","IWMDMEnumDevice interface [windows Media Device Manager]","described","IWMDMEnumDeviceInterface","mswmdm/IWMDMEnumDevice","wmdm.iwmdmenumdevice"]
 old-location: wmdm\iwmdmenumdevice.htm
 tech.root: WMDM
 ms.assetid: fcb93d2a-2107-4aa9-9b3a-130044d7dc96

@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaEvents.OnUserNameChanged
 title: IDiskQuotaEvents::OnUserNameChanged (dskquota.h)
-description: Notifies the client's connection sink whenever a user's SID has been asynchronously resolved.helpviewer_keywords: ["IDiskQuotaEvents interface [Files]","OnUserNameChanged method","IDiskQuotaEvents.OnUserNameChanged","IDiskQuotaEvents::OnUserNameChanged","OnUserNameChanged","OnUserNameChanged method [Files]","OnUserNameChanged method [Files]","IDiskQuotaEvents interface","_win32_idiskquotaevents_onusernamechanged","base.idiskquotaevents_onusernamechanged","dskquota/IDiskQuotaEvents::OnUserNameChanged","fs.idiskquotaevents_onusernamechanged"]
+description: Notifies the client's connection sink whenever a user's SID has been asynchronously resolved.
+helpviewer_keywords: ["IDiskQuotaEvents interface [Files]","OnUserNameChanged method","IDiskQuotaEvents.OnUserNameChanged","IDiskQuotaEvents::OnUserNameChanged","OnUserNameChanged","OnUserNameChanged method [Files]","OnUserNameChanged method [Files]","IDiskQuotaEvents interface","_win32_idiskquotaevents_onusernamechanged","base.idiskquotaevents_onusernamechanged","dskquota/IDiskQuotaEvents::OnUserNameChanged","fs.idiskquotaevents_onusernamechanged"]
 old-location: fs\idiskquotaevents_onusernamechanged.htm
 tech.root: FileIO
 ms.assetid: d01cb679-03e2-4b76-b068-f64e576709fb

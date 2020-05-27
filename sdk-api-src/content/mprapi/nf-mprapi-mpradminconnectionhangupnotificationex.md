@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminConnectionHangupNotificationEx
 title: MprAdminConnectionHangupNotificationEx function (mprapi.h)
-description: Remote Access Service (RAS) calls the MprAdminConnectionHangupNotificationEx function after the last link for the specified connection has been dismantled.helpviewer_keywords: ["MprAdminConnectionHangupNotificationEx","MprAdminConnectionHangupNotificationEx callback","MprAdminConnectionHangupNotificationEx callback function [RAS]","mprapi/MprAdminConnectionHangupNotificationEx","rras.mpradminconnectionhangupnotificationex"]
+description: Remote Access Service (RAS) calls the MprAdminConnectionHangupNotificationEx function after the last link for the specified connection has been dismantled.
+helpviewer_keywords: ["MprAdminConnectionHangupNotificationEx","MprAdminConnectionHangupNotificationEx callback","MprAdminConnectionHangupNotificationEx callback function [RAS]","mprapi/MprAdminConnectionHangupNotificationEx","rras.mpradminconnectionhangupnotificationex"]
 old-location: rras\mpradminconnectionhangupnotificationex.htm
 tech.root: RRAS
 ms.assetid: de251e1b-53ff-45c8-8e2e-65ac26b4a7f5

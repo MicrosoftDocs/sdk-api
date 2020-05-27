@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndGetMode
 title: MCIWndGetMode macro (vfw.h)
-description: The MCIWndGetMode macro retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can use this macro or explicitly send the MCIWNDM_GETMODE message.helpviewer_keywords: ["MCIWndGetMode","MCIWndGetMode macro [Windows Multimedia]","_win32_MCIWndGetMode","multimedia.mciwndgetmode","vfw/MCIWndGetMode"]
+description: The MCIWndGetMode macro retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can use this macro or explicitly send the MCIWNDM_GETMODE message.
+helpviewer_keywords: ["MCIWndGetMode","MCIWndGetMode macro [Windows Multimedia]","_win32_MCIWndGetMode","multimedia.mciwndgetmode","vfw/MCIWndGetMode"]
 old-location: multimedia\mciwndgetmode.htm
 tech.root: Multimedia
 ms.assetid: d5b5d200-459c-4437-9685-1c95e8acc52f

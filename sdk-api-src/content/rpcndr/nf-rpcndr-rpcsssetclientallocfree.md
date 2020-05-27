@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.RpcSsSetClientAllocFree
 title: RpcSsSetClientAllocFree function (rpcndr.h)
-description: The RpcSsSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.helpviewer_keywords: ["RpcSsSetClientAllocFree","RpcSsSetClientAllocFree function [RPC]","_rpc_rpcsssetclientallocfree","rpc.rpcsssetclientallocfree","rpcndr/RpcSsSetClientAllocFree"]
+description: The RpcSsSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.
+helpviewer_keywords: ["RpcSsSetClientAllocFree","RpcSsSetClientAllocFree function [RPC]","_rpc_rpcsssetclientallocfree","rpc.rpcsssetclientallocfree","rpcndr/RpcSsSetClientAllocFree"]
 old-location: rpc\rpcsssetclientallocfree.htm
 tech.root: Rpc
 ms.assetid: a63dab9e-0644-4a24-9762-8cc8a4f6ea05

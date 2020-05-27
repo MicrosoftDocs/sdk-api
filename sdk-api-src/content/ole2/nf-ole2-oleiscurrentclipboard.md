@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleIsCurrentClipboard
 title: OleIsCurrentClipboard function (ole2.h)
-description: Determines whether the data object pointer previously placed on the clipboard by the OleSetClipboard function is still on the clipboard.helpviewer_keywords: ["OleIsCurrentClipboard","OleIsCurrentClipboard function [COM]","_ole_OleIsCurrentClipboard","com.oleiscurrentclipboard","ole2/OleIsCurrentClipboard"]
+description: Determines whether the data object pointer previously placed on the clipboard by the OleSetClipboard function is still on the clipboard.
+helpviewer_keywords: ["OleIsCurrentClipboard","OleIsCurrentClipboard function [COM]","_ole_OleIsCurrentClipboard","com.oleiscurrentclipboard","ole2/OleIsCurrentClipboard"]
 old-location: com\oleiscurrentclipboard.htm
 tech.root: com
 ms.assetid: 12844504-ef47-4a4d-b31b-f765e0f2ace6

@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidVMR9
 title: IMSVidVMR9 (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidVMR9 interface represents the Video Mixing Renderer Filter 9 (VMR-9) within the Video Control filter graph. The MSVidVMR9 object exposes this interface.helpviewer_keywords: ["IMSVidVMR9","IMSVidVMR9 interface [Microsoft TV Technologies]","IMSVidVMR9 interface [Microsoft TV Technologies]","described","IMSVidVMR9Interface","mstv.imsvidvmr9","segment/IMSVidVMR9"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidVMR9 interface represents the Video Mixing Renderer Filter 9 (VMR-9) within the Video Control filter graph. The MSVidVMR9 object exposes this interface.
+helpviewer_keywords: ["IMSVidVMR9","IMSVidVMR9 interface [Microsoft TV Technologies]","IMSVidVMR9 interface [Microsoft TV Technologies]","described","IMSVidVMR9Interface","mstv.imsvidvmr9","segment/IMSVidVMR9"]
 old-location: mstv\imsvidvmr9.htm
 tech.root: mstv
 ms.assetid: c96f91d4-fc6c-4422-8fc9-ea5fed10bd80

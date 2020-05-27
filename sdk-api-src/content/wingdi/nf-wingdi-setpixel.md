@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetPixel
 title: SetPixel function (wingdi.h)
-description: The SetPixel function sets the pixel at the specified coordinates to the specified color.helpviewer_keywords: ["SetPixel","SetPixel function [Windows GDI]","_win32_SetPixel","gdi.setpixel","wingdi/SetPixel"]
+description: The SetPixel function sets the pixel at the specified coordinates to the specified color.
+helpviewer_keywords: ["SetPixel","SetPixel function [Windows GDI]","_win32_SetPixel","gdi.setpixel","wingdi/SetPixel"]
 old-location: gdi\setpixel.htm
 tech.root: gdi
 ms.assetid: 652e2e7a-79ae-4668-b269-153ee08a5de9

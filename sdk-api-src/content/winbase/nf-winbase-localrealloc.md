@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.LocalReAlloc
 title: LocalReAlloc function (winbase.h)
-description: Changes the size or the attributes of a specified local memory object. The size can increase or decrease.helpviewer_keywords: ["LMEM_MOVEABLE","LMEM_ZEROINIT","LocalReAlloc","LocalReAlloc function","_win32_localrealloc","base.localrealloc","winbase/LocalReAlloc"]
+description: Changes the size or the attributes of a specified local memory object. The size can increase or decrease.
+helpviewer_keywords: ["LMEM_MOVEABLE","LMEM_ZEROINIT","LocalReAlloc","LocalReAlloc function","_win32_localrealloc","base.localrealloc","winbase/LocalReAlloc"]
 old-location: base\localrealloc.htm
 tech.root: Memory
 ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a

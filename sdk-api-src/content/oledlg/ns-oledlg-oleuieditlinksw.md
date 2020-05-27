@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUIEDITLINKSW
 title: OLEUIEDITLINKSW (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed.helpviewer_keywords: ["*LPOLEUIEDITLINKSW","*POLEUIEDITLINKSW","ELF_DISABLECANCELLINK","ELF_DISABLECHANGESOURCE","ELF_DISABLEOPENSOURCE","ELF_DISABLEUPDATENOW","ELF_SHOWHELP","LPOLEUIEDITLINKS","LPOLEUIEDITLINKS structure pointer [COM]","OLEUIEDITLINKS","OLEUIEDITLINKS structure [COM]","OLEUIEDITLINKSA","OLEUIEDITLINKSW","POLEUIEDITLINKS","POLEUIEDITLINKS structure pointer [COM]","_ole_OLEUIEDITLINKS_str","com.oleuieditlinks_struct","oledlg/LPOLEUIEDITLINKS","oledlg/OLEUIEDITLINKS","oledlg/OLEUIEDITLINKSA","oledlg/OLEUIEDITLINKSW","oledlg/POLEUIEDITLINKS"]
+description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed.
+helpviewer_keywords: ["*LPOLEUIEDITLINKSW","*POLEUIEDITLINKSW","ELF_DISABLECANCELLINK","ELF_DISABLECHANGESOURCE","ELF_DISABLEOPENSOURCE","ELF_DISABLEUPDATENOW","ELF_SHOWHELP","LPOLEUIEDITLINKS","LPOLEUIEDITLINKS structure pointer [COM]","OLEUIEDITLINKS","OLEUIEDITLINKS structure [COM]","OLEUIEDITLINKSA","OLEUIEDITLINKSW","POLEUIEDITLINKS","POLEUIEDITLINKS structure pointer [COM]","_ole_OLEUIEDITLINKS_str","com.oleuieditlinks_struct","oledlg/LPOLEUIEDITLINKS","oledlg/OLEUIEDITLINKS","oledlg/OLEUIEDITLINKSA","oledlg/OLEUIEDITLINKSW","oledlg/POLEUIEDITLINKS"]
 old-location: com\oleuieditlinks_struct.htm
 tech.root: com
 ms.assetid: 0a139936-bda4-40c8-85d6-b52ff042f2d9

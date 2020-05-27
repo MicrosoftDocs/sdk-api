@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmMetrics
 title: acmMetrics function (msacm.h)
-description: The acmMetrics function returns various metrics for the ACM or related ACM objects.helpviewer_keywords: ["_win32_acmMetrics","acmMetrics","acmMetrics function [Windows Multimedia]","msacm/acmMetrics","multimedia.acmmetrics"]
+description: The acmMetrics function returns various metrics for the ACM or related ACM objects.
+helpviewer_keywords: ["_win32_acmMetrics","acmMetrics","acmMetrics function [Windows Multimedia]","msacm/acmMetrics","multimedia.acmmetrics"]
 old-location: multimedia\acmmetrics.htm
 tech.root: Multimedia
 ms.assetid: 30b6dc13-b523-4c42-aa35-c86b3ebe04c3

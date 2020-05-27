@@ -1,7 +1,8 @@
 ---
 UID: NE:mmc._MMC_CONTROL_TYPE
 title: MMC_CONTROL_TYPE (mmc.h)
-description: The MMC_CONTROL_TYPE enumeration defines the kinds of controls that can appear in the control bar. The values can be used in the nType parameter of the IControlbar::Attach and IControlbar::Create methods.helpviewer_keywords: ["COMBOBOXBAR","MENUBUTTON","MMC_CONTROL_TYPE","MMC_CONTROL_TYPE enumeration [MMC]","TOOLBAR","_slate_mmc_control_type","mmc.mmc_control_type","mmc/COMBOBOXBAR","mmc/MENUBUTTON","mmc/MMC_CONTROL_TYPE","mmc/TOOLBAR"]
+description: The MMC_CONTROL_TYPE enumeration defines the kinds of controls that can appear in the control bar. The values can be used in the nType parameter of the IControlbar::Attach and IControlbar::Create methods.
+helpviewer_keywords: ["COMBOBOXBAR","MENUBUTTON","MMC_CONTROL_TYPE","MMC_CONTROL_TYPE enumeration [MMC]","TOOLBAR","_slate_mmc_control_type","mmc.mmc_control_type","mmc/COMBOBOXBAR","mmc/MENUBUTTON","mmc/MMC_CONTROL_TYPE","mmc/TOOLBAR"]
 old-location: mmc\mmc_control_type.htm
 tech.root: mmc
 ms.assetid: f4f64769-a3d0-46eb-8520-a6cb7237d007

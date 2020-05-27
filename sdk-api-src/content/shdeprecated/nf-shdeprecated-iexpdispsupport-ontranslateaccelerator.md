@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnTranslateAccelerator
 title: IExpDispSupport::OnTranslateAccelerator (shdeprecated.h)
-description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.helpviewer_keywords: ["IExpDispSupport interface [Windows Shell]","OnTranslateAccelerator method","IExpDispSupport.OnTranslateAccelerator","IExpDispSupport::OnTranslateAccelerator","OnTranslateAccelerator","OnTranslateAccelerator method [Windows Shell]","OnTranslateAccelerator method [Windows Shell]","IExpDispSupport interface","shdeprecated/IExpDispSupport::OnTranslateAccelerator","shell.IExpDispSupport_OnTranslateAccelerator","zone_IExpDispSupport_OnTranslateAccelerator"]
+description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.
+helpviewer_keywords: ["IExpDispSupport interface [Windows Shell]","OnTranslateAccelerator method","IExpDispSupport.OnTranslateAccelerator","IExpDispSupport::OnTranslateAccelerator","OnTranslateAccelerator","OnTranslateAccelerator method [Windows Shell]","OnTranslateAccelerator method [Windows Shell]","IExpDispSupport interface","shdeprecated/IExpDispSupport::OnTranslateAccelerator","shell.IExpDispSupport_OnTranslateAccelerator","zone_IExpDispSupport_OnTranslateAccelerator"]
 old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902

@@ -1,7 +1,8 @@
 ---
 UID: NS:dot1x._ONEX_STATUS
 title: ONEX_STATUS (dot1x.h)
-description: Contains the current 802.1X authentication status.helpviewer_keywords: ["*PONEX_STATUS","ONEX_STATUS","ONEX_STATUS structure [NativeWIFI]","PONEX_STATUS","PONEX_STATUS structure pointer [NativeWIFI]","dot1x/ONEX_STATUS","dot1x/PONEX_STATUS","nwifi.onex_status"]
+description: Contains the current 802.1X authentication status.
+helpviewer_keywords: ["*PONEX_STATUS","ONEX_STATUS","ONEX_STATUS structure [NativeWIFI]","PONEX_STATUS","PONEX_STATUS structure pointer [NativeWIFI]","dot1x/ONEX_STATUS","dot1x/PONEX_STATUS","nwifi.onex_status"]
 old-location: nwifi\onex_status.htm
 tech.root: NativeWiFi
 ms.assetid: 2c19c65b-0943-4561-a28f-0104e1cbd229

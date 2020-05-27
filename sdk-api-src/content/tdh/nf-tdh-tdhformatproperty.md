@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhFormatProperty
 title: TdhFormatProperty function (tdh.h)
-description: Formats a property value for display.helpviewer_keywords: ["TdhFormatProperty","TdhFormatProperty function [ETW]","etw.tdhformatproperty","tdh/TdhFormatProperty"]
+description: Formats a property value for display.
+helpviewer_keywords: ["TdhFormatProperty","TdhFormatProperty function [ETW]","etw.tdhformatproperty","tdh/TdhFormatProperty"]
 old-location: etw\tdhformatproperty.htm
 tech.root: ETW
 ms.assetid: ecc954f8-840e-4963-a0c8-64aac25355e3

@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitationManager
 title: IRDPSRAPIInvitationManager (rdpencomapi.h)
-description: Manages invitation objects.helpviewer_keywords: ["IRDPSRAPIInvitationManager","IRDPSRAPIInvitationManager interface [RDP]","IRDPSRAPIInvitationManager interface [RDP]","described","rdp.irdpsrapiinvitationmanager","rdpencomapi/IRDPSRAPIInvitationManager"]
+description: Manages invitation objects.
+helpviewer_keywords: ["IRDPSRAPIInvitationManager","IRDPSRAPIInvitationManager interface [RDP]","IRDPSRAPIInvitationManager interface [RDP]","described","rdp.irdpsrapiinvitationmanager","rdpencomapi/IRDPSRAPIInvitationManager"]
 old-location: rdp\irdpsrapiinvitationmanager.htm
 tech.root: rdp
 ms.assetid: 300940ef-e8a6-4dd9-a078-d4325e20ae91

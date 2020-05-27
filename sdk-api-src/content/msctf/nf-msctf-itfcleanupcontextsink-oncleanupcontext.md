@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCleanupContextSink.OnCleanupContext
 title: ITfCleanupContextSink::OnCleanupContext (msctf.h)
-description: ITfCleanupContextSink::OnCleanupContext methodhelpviewer_keywords: ["ITfCleanupContextSink interface [Text Services Framework]","OnCleanupContext method","ITfCleanupContextSink.OnCleanupContext","ITfCleanupContextSink::OnCleanupContext","OnCleanupContext","OnCleanupContext method [Text Services Framework]","OnCleanupContext method [Text Services Framework]","ITfCleanupContextSink interface","_tsf_itfcleanupcontextsink_oncleanupcontext_ref","msctf/ITfCleanupContextSink::OnCleanupContext","tsf.itfcleanupcontextsink_oncleanupcontext"]
+description: ITfCleanupContextSink::OnCleanupContext method
+helpviewer_keywords: ["ITfCleanupContextSink interface [Text Services Framework]","OnCleanupContext method","ITfCleanupContextSink.OnCleanupContext","ITfCleanupContextSink::OnCleanupContext","OnCleanupContext","OnCleanupContext method [Text Services Framework]","OnCleanupContext method [Text Services Framework]","ITfCleanupContextSink interface","_tsf_itfcleanupcontextsink_oncleanupcontext_ref","msctf/ITfCleanupContextSink::OnCleanupContext","tsf.itfcleanupcontextsink_oncleanupcontext"]
 old-location: tsf\itfcleanupcontextsink_oncleanupcontext.htm
 tech.root: TSF
 ms.assetid: 6af597e6-f997-4b28-8994-a8dbabcaaa68

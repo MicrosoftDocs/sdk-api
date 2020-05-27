@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.TransactionTimeout
 title: IServiceTransactionConfigBase::TransactionTimeout (comsvcs.h)
-description: Sets the transaction time-out for a new transaction.helpviewer_keywords: ["IServiceTransactionConfigBase interface [COM+]","TransactionTimeout method","IServiceTransactionConfigBase.TransactionTimeout","IServiceTransactionConfigBase::TransactionTimeout","TransactionTimeout","TransactionTimeout method [COM+]","TransactionTimeout method [COM+]","IServiceTransactionConfigBase interface","_cos_IServiceTransactionConfigBase_TransactionTimeout","comsvcs/IServiceTransactionConfigBase::TransactionTimeout","cos.iservicetransactionconfigbase_transactiontimeout"]
+description: Sets the transaction time-out for a new transaction.
+helpviewer_keywords: ["IServiceTransactionConfigBase interface [COM+]","TransactionTimeout method","IServiceTransactionConfigBase.TransactionTimeout","IServiceTransactionConfigBase::TransactionTimeout","TransactionTimeout","TransactionTimeout method [COM+]","TransactionTimeout method [COM+]","IServiceTransactionConfigBase interface","_cos_IServiceTransactionConfigBase_TransactionTimeout","comsvcs/IServiceTransactionConfigBase::TransactionTimeout","cos.iservicetransactionconfigbase_transactiontimeout"]
 old-location: cos\iservicetransactionconfigbase_transactiontimeout.htm
 tech.root: cossdk
 ms.assetid: 87943fe9-ef88-49ae-96d0-99d1011478dc

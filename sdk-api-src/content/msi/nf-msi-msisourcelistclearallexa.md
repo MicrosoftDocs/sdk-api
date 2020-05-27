@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListClearAllExA
 title: MsiSourceListClearAllExA function (msi.h)
-description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_MEDIA","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListClearAllEx","MsiSourceListClearAllEx function","MsiSourceListClearAllExA","MsiSourceListClearAllExW","msi/MsiSourceListClearAllEx","msi/MsiSourceListClearAllExA","msi/MsiSourceListClearAllExW","setup.msisourcelistclearallex"]
+description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_MEDIA","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListClearAllEx","MsiSourceListClearAllEx function","MsiSourceListClearAllExA","MsiSourceListClearAllExW","msi/MsiSourceListClearAllEx","msi/MsiSourceListClearAllExA","msi/MsiSourceListClearAllExW","setup.msisourcelistclearallex"]
 old-location: setup\msisourcelistclearallex.htm
 tech.root: Msi
 ms.assetid: 3caa16f0-da9e-44a9-82c3-79d881278b81

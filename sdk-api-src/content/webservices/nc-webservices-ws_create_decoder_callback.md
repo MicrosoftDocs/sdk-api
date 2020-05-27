@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_CREATE_DECODER_CALLBACK
 title: WS_CREATE_DECODER_CALLBACK (webservices.h)
-description: Handles creating an decoder instance.helpviewer_keywords: ["WS_CREATE_DECODER_CALLBACK","WS_CREATE_DECODER_CALLBACK callback","WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_DECODER_CALLBACK","wsw.ws_create_decoder_callback"]
+description: Handles creating an decoder instance.
+helpviewer_keywords: ["WS_CREATE_DECODER_CALLBACK","WS_CREATE_DECODER_CALLBACK callback","WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_DECODER_CALLBACK","wsw.ws_create_decoder_callback"]
 old-location: wsw\ws_create_decoder_callback.htm
 tech.root: wsw
 ms.assetid: 85311349-5c82-4545-8a2b-d8b9e629f04d

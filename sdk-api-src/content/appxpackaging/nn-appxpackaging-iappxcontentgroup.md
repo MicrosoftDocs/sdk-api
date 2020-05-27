@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroup
 title: IAppxContentGroup (appxpackaging.h)
-description: Retrieves information about a content group.helpviewer_keywords: ["IAppxContentGroup","IAppxContentGroup interface [App packaging and management]","IAppxContentGroup interface [App packaging and management]","described","appxpackaging/IAppxContentGroup","appxpkg.iappxcontentgroup"]
+description: Retrieves information about a content group.
+helpviewer_keywords: ["IAppxContentGroup","IAppxContentGroup interface [App packaging and management]","IAppxContentGroup interface [App packaging and management]","described","appxpackaging/IAppxContentGroup","appxpkg.iappxcontentgroup"]
 old-location: appxpkg\iappxcontentgroup.htm
 tech.root: appxpkg
 ms.assetid: 3FB070C7-EAEA-461B-8A68-B29822D0560E

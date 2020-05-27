@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMRepair
 title: DRMRepair function (msdrm.h)
-description: Repairs a client machine by deleting certificates previously created for the machine or user.helpviewer_keywords: ["DRMRepair","DRMRepair function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMRepair","rm.drmrepair"]
+description: Repairs a client machine by deleting certificates previously created for the machine or user.
+helpviewer_keywords: ["DRMRepair","DRMRepair function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMRepair","rm.drmrepair"]
 old-location: rm\drmrepair.htm
 tech.root: AdRms_Sdk
 ms.assetid: d3abebcd-1200-417c-a0ec-64768b3c320a

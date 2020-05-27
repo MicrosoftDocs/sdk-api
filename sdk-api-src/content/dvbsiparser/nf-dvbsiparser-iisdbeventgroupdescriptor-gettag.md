@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetTag
 title: IIsdbEventGroupDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) event group descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbEventGroupDescriptor interface","IIsdbEventGroupDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbEventGroupDescriptor.GetTag","IIsdbEventGroupDescriptor::GetTag","dvbsiparser/IIsdbEventGroupDescriptor::GetTag","mstv.iisdbeventgroupdescriptor_gettag"]
+description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbEventGroupDescriptor interface","IIsdbEventGroupDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbEventGroupDescriptor.GetTag","IIsdbEventGroupDescriptor::GetTag","dvbsiparser/IIsdbEventGroupDescriptor::GetTag","mstv.iisdbeventgroupdescriptor_gettag"]
 old-location: mstv\iisdbeventgroupdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 249c57a6-dcf8-4701-975d-39f8e8735798

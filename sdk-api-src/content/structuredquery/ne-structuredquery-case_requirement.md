@@ -1,7 +1,8 @@
 ---
 UID: NE:structuredquery.CASE_REQUIREMENT
 title: CASE_REQUIREMENT (structuredquery.h)
-description: Specifies the case requirements of keywords, if any, for a query.helpviewer_keywords: ["CASE_REQUIREMENT","CASE_REQUIREMENT enumeration [search]","CASE_REQUIREMENT_ANY","CASE_REQUIREMENT_UPPER_IF_AQS","_search_CASE_REQUIREMENT","search._search_CASE_REQUIREMENT","structuredquery/CASE_REQUIREMENT","structuredquery/CASE_REQUIREMENT_ANY","structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS"]
+description: Specifies the case requirements of keywords, if any, for a query.
+helpviewer_keywords: ["CASE_REQUIREMENT","CASE_REQUIREMENT enumeration [search]","CASE_REQUIREMENT_ANY","CASE_REQUIREMENT_UPPER_IF_AQS","_search_CASE_REQUIREMENT","search._search_CASE_REQUIREMENT","structuredquery/CASE_REQUIREMENT","structuredquery/CASE_REQUIREMENT_ANY","structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS"]
 old-location: search\_search_CASE_REQUIREMENT.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\case_requirement.htm

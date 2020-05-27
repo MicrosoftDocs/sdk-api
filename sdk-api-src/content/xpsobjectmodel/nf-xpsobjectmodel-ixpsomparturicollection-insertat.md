@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.InsertAt
 title: IXpsOMPartUriCollection::InsertAt (xpsobjectmodel.h)
-description: Inserts an IOpcPartUri interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMPartUriCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMPartUriCollection.InsertAt","IXpsOMPartUriCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMPartUriCollection interface","xps.ixpsomparturicollection_insertat","xpsobjectmodel/IXpsOMPartUriCollection::InsertAt"]
+description: Inserts an IOpcPartUri interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMPartUriCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMPartUriCollection.InsertAt","IXpsOMPartUriCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMPartUriCollection interface","xps.ixpsomparturicollection_insertat","xpsobjectmodel/IXpsOMPartUriCollection::InsertAt"]
 old-location: xps\ixpsomparturicollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 672e3cc7-ac25-4d9d-9983-66cf6d26f574

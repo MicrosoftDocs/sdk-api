@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Effect.GetParameterSize
 title: Effect::GetParameterSize (gdipluseffects.h)
-description: The Effect::GetParameterSize method gets the total size, in bytes, of the parameters currently set for this Effect. The Effect::GetParameterSize method is usually called on an object that is an instance of a descendant of the Effect class.helpviewer_keywords: ["Effect class [GDI+]","GetParameterSize method","Effect.GetParameterSize","Effect::GetParameterSize","GetParameterSize","GetParameterSize method [GDI+]","GetParameterSize method [GDI+]","Effect class","_gdiplus_CLASS_Effect_GetParameterSize_","gdiplus._gdiplus_CLASS_Effect_GetParameterSize_"]
+description: The Effect::GetParameterSize method gets the total size, in bytes, of the parameters currently set for this Effect. The Effect::GetParameterSize method is usually called on an object that is an instance of a descendant of the Effect class.
+helpviewer_keywords: ["Effect class [GDI+]","GetParameterSize method","Effect.GetParameterSize","Effect::GetParameterSize","GetParameterSize","GetParameterSize method [GDI+]","GetParameterSize method [GDI+]","Effect class","_gdiplus_CLASS_Effect_GetParameterSize_","gdiplus._gdiplus_CLASS_Effect_GetParameterSize_"]
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetParameterSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getparametersize.htm

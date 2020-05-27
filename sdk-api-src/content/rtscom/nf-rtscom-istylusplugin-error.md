@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Error
 title: IStylusPlugin::Error (rtscom.h)
-description: Notifies the implementing object that this plug-in or one of the previous plug-ins in either the IStylusAsyncPlugin or IStylusSyncPlugin collection threw an exception.helpviewer_keywords: ["236589f8-a6ae-4db3-8be4-68c5babeb9f0","Error","Error method [Tablet PC]","Error method [Tablet PC]","IStylusPlugin interface","IStylusPlugin interface [Tablet PC]","Error method","IStylusPlugin.Error","IStylusPlugin::Error","rtscom/IStylusPlugin::Error","tablet.istylusplugin_error"]
+description: Notifies the implementing object that this plug-in or one of the previous plug-ins in either the IStylusAsyncPlugin or IStylusSyncPlugin collection threw an exception.
+helpviewer_keywords: ["236589f8-a6ae-4db3-8be4-68c5babeb9f0","Error","Error method [Tablet PC]","Error method [Tablet PC]","IStylusPlugin interface","IStylusPlugin interface [Tablet PC]","Error method","IStylusPlugin.Error","IStylusPlugin::Error","rtscom/IStylusPlugin::Error","tablet.istylusplugin_error"]
 old-location: tablet\istylusplugin_error.htm
 tech.root: tablet
 ms.assetid: 236589f8-a6ae-4db3-8be4-68c5babeb9f0

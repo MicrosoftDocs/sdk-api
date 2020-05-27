@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRectIsEmpty
 title: UiaRectIsEmpty function (uiautomationcoreapi.h)
-description: Gets a Boolean value that specifies whether a rectangle has all its coordinates set to 0.helpviewer_keywords: ["UiaRectIsEmpty","UiaRectIsEmpty function [Windows Accessibility]","uiauto.uiauto_UiaRectIsEmptyFunction","uiauto_UiaRectIsEmptyFunction","uiautomationcoreapi/UiaRectIsEmpty","winauto.uiauto_UiaRectIsEmptyFunction"]
+description: Gets a Boolean value that specifies whether a rectangle has all its coordinates set to 0.
+helpviewer_keywords: ["UiaRectIsEmpty","UiaRectIsEmpty function [Windows Accessibility]","uiauto.uiauto_UiaRectIsEmptyFunction","uiauto_UiaRectIsEmptyFunction","uiautomationcoreapi/UiaRectIsEmpty","winauto.uiauto_UiaRectIsEmptyFunction"]
 old-location: winauto\uiauto_UiaRectIsEmptyFunction.htm
 tech.root: WinAuto
 ms.assetid: a1bcf983-a40c-4a9f-95f8-3124d62e07a3

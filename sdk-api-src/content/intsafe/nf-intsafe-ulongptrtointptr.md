@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongPtrToIntPtr
 title: ULongPtrToIntPtr function (intsafe.h)
-description: Converts a value of type ULONG_PTR to a value of type INT_PTR.helpviewer_keywords: ["DWordPtrToIntPtr","DWordPtrToPtrdiffT","SIZETToIntPtr","SIZETToPtrdiffT","ULongPtrToIntPtr","ULongPtrToIntPtr function [Windows Shell]","ULongPtrToPtrdiffT","_shell_ULongPtrToIntPtr","intsafe/ULongPtrToIntPtr","shell.ULongPtrToIntPtr"]
+description: Converts a value of type ULONG_PTR to a value of type INT_PTR.
+helpviewer_keywords: ["DWordPtrToIntPtr","DWordPtrToPtrdiffT","SIZETToIntPtr","SIZETToPtrdiffT","ULongPtrToIntPtr","ULongPtrToIntPtr function [Windows Shell]","ULongPtrToPtrdiffT","_shell_ULongPtrToIntPtr","intsafe/ULongPtrToIntPtr","shell.ULongPtrToIntPtr"]
 old-location: shell\ULongPtrToIntPtr.htm
 tech.root: shell
 ms.assetid: 06d85c02-8ccf-4913-aec5-f338eebdf366

@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.FOLDERLOGICALVIEWMODE
 title: FOLDERLOGICALVIEWMODE (shobjidl_core.h)
-description: Used by IFolderViewSettings::GetViewMode and ISearchFolderItemFactory::SetFolderLogicalViewMode to describe the view mode.helpviewer_keywords: ["FLVM_CONTENT","FLVM_DETAILS","FLVM_FIRST","FLVM_ICONS","FLVM_LAST","FLVM_LIST","FLVM_TILES","FLVM_UNSPECIFIED","FOLDERLOGICALVIEWMODE","FOLDERLOGICALVIEWMODE enumeration [Windows Shell]","_shell_FOLDERLOGICALVIEWMODE","shell.FOLDERLOGICALVIEWMODE","shobjidl_core/FLVM_CONTENT","shobjidl_core/FLVM_DETAILS","shobjidl_core/FLVM_FIRST","shobjidl_core/FLVM_ICONS","shobjidl_core/FLVM_LAST","shobjidl_core/FLVM_LIST","shobjidl_core/FLVM_TILES","shobjidl_core/FLVM_UNSPECIFIED","shobjidl_core/FOLDERLOGICALVIEWMODE"]
+description: Used by IFolderViewSettings::GetViewMode and ISearchFolderItemFactory::SetFolderLogicalViewMode to describe the view mode.
+helpviewer_keywords: ["FLVM_CONTENT","FLVM_DETAILS","FLVM_FIRST","FLVM_ICONS","FLVM_LAST","FLVM_LIST","FLVM_TILES","FLVM_UNSPECIFIED","FOLDERLOGICALVIEWMODE","FOLDERLOGICALVIEWMODE enumeration [Windows Shell]","_shell_FOLDERLOGICALVIEWMODE","shell.FOLDERLOGICALVIEWMODE","shobjidl_core/FLVM_CONTENT","shobjidl_core/FLVM_DETAILS","shobjidl_core/FLVM_FIRST","shobjidl_core/FLVM_ICONS","shobjidl_core/FLVM_LAST","shobjidl_core/FLVM_LIST","shobjidl_core/FLVM_TILES","shobjidl_core/FLVM_UNSPECIFIED","shobjidl_core/FOLDERLOGICALVIEWMODE"]
 old-location: shell\FOLDERLOGICALVIEWMODE.htm
 tech.root: shell
 ms.assetid: 4b30a335-ed80-4774-82d4-bc93c95ee80c

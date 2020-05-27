@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMWatermarkInfo
 title: IWMWatermarkInfo (wmsdkidl.h)
-description: The IWMWatermarkInfo interface retrieves information about available watermarking systems.helpviewer_keywords: ["IWMWatermarkInfo","IWMWatermarkInfo interface [windows Media Format]","IWMWatermarkInfo interface [windows Media Format]","described","IWMWatermarkInfoInterface","wmformat.iwmwatermarkinfo","wmsdkidl/IWMWatermarkInfo"]
+description: The IWMWatermarkInfo interface retrieves information about available watermarking systems.
+helpviewer_keywords: ["IWMWatermarkInfo","IWMWatermarkInfo interface [windows Media Format]","IWMWatermarkInfo interface [windows Media Format]","described","IWMWatermarkInfoInterface","wmformat.iwmwatermarkinfo","wmsdkidl/IWMWatermarkInfo"]
 old-location: wmformat\iwmwatermarkinfo.htm
 tech.root: wmformat
 ms.assetid: 4bdad433-31d1-442c-9701-f3748245070d

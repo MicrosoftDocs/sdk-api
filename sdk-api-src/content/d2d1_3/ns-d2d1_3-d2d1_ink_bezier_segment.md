@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1_3.D2D1_INK_BEZIER_SEGMENT
 title: D2D1_INK_BEZIER_SEGMENT (d2d1_3.h)
-description: Represents a Bezier segment to be used in the creation of an ID2D1Ink object. This structure differs from D2D1_BEZIER_SEGMENT in that it is composed of D2D1_INK_POINTs, which contain a radius in addition to x- and y-coordinates.helpviewer_keywords: ["D2D1_INK_BEZIER_SEGMENT","D2D1_INK_BEZIER_SEGMENT structure [Direct2D]","d2d1_3/D2D1_INK_BEZIER_SEGMENT","direct2d.d2d1_ink_bezier_segment"]
+description: Represents a Bezier segment to be used in the creation of an ID2D1Ink object. This structure differs from D2D1_BEZIER_SEGMENT in that it is composed of D2D1_INK_POINTs, which contain a radius in addition to x- and y-coordinates.
+helpviewer_keywords: ["D2D1_INK_BEZIER_SEGMENT","D2D1_INK_BEZIER_SEGMENT structure [Direct2D]","d2d1_3/D2D1_INK_BEZIER_SEGMENT","direct2d.d2d1_ink_bezier_segment"]
 old-location: direct2d\d2d1_ink_bezier_segment.htm
 tech.root: Direct2D
 ms.assetid: 27F1F78B-2478-4F5D-BF56-9931E767C358

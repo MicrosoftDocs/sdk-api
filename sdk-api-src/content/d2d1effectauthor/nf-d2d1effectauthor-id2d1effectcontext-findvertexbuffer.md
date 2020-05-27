@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.FindVertexBuffer
 title: ID2D1EffectContext::FindVertexBuffer (d2d1effectauthor.h)
-description: This finds the given vertex buffer if it has already been created with ID2D1EffectContext::CreateVertexBuffer with the same GUID.helpviewer_keywords: ["FindVertexBuffer","FindVertexBuffer method [Direct2D]","FindVertexBuffer method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","FindVertexBuffer method","ID2D1EffectContext.FindVertexBuffer","ID2D1EffectContext::FindVertexBuffer","d2d1effectauthor/ID2D1EffectContext::FindVertexBuffer","direct2d.id2d1contextinternal_findvertexbuffer"]
+description: This finds the given vertex buffer if it has already been created with ID2D1EffectContext::CreateVertexBuffer with the same GUID.
+helpviewer_keywords: ["FindVertexBuffer","FindVertexBuffer method [Direct2D]","FindVertexBuffer method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","FindVertexBuffer method","ID2D1EffectContext.FindVertexBuffer","ID2D1EffectContext::FindVertexBuffer","d2d1effectauthor/ID2D1EffectContext::FindVertexBuffer","direct2d.id2d1contextinternal_findvertexbuffer"]
 old-location: direct2d\id2d1contextinternal_findvertexbuffer.htm
 tech.root: Direct2D
 ms.assetid: 8CAC0872-2368-4926-8FF9-87D73136986F

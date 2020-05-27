@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderWindowlessSite
 title: IRawElementProviderWindowlessSite (uiautomationcore.h)
-description: A Microsoft ActiveX control site implements this interface to enable a Microsoft UI Automation-enabled ActiveX control to express its accessibility.helpviewer_keywords: ["IRawElementProviderWindowlessSite","IRawElementProviderWindowlessSite interface [Windows Accessibility]","IRawElementProviderWindowlessSite interface [Windows Accessibility]","described","uiautomationcore/IRawElementProviderWindowlessSite","winauto.uiauto_IRawElementProviderWindowlessSite"]
+description: A Microsoft ActiveX control site implements this interface to enable a Microsoft UI Automation-enabled ActiveX control to express its accessibility.
+helpviewer_keywords: ["IRawElementProviderWindowlessSite","IRawElementProviderWindowlessSite interface [Windows Accessibility]","IRawElementProviderWindowlessSite interface [Windows Accessibility]","described","uiautomationcore/IRawElementProviderWindowlessSite","winauto.uiauto_IRawElementProviderWindowlessSite"]
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite.htm
 tech.root: WinAuto
 ms.assetid: E6BE069B-C639-4578-9E5F-8CFE1267A847

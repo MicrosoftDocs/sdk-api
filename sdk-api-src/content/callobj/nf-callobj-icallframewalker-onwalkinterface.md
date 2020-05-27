@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallFrameWalker.OnWalkInterface
 title: ICallFrameWalker::OnWalkInterface (callobj.h)
-description: Walks through a call frame to look for the specified interface in the call frame. The interface can be manipulated or replaced by paying close attention to the reference count.helpviewer_keywords: ["ICallFrameWalker interface [COM]","OnWalkInterface method","ICallFrameWalker.OnWalkInterface","ICallFrameWalker::OnWalkInterface","OnWalkInterface","OnWalkInterface method [COM]","OnWalkInterface method [COM]","ICallFrameWalker interface","_com_icallframewalker_onwalkinterface","callobj/ICallFrameWalker::OnWalkInterface","com.icallframewalker_onwalkinterface"]
+description: Walks through a call frame to look for the specified interface in the call frame. The interface can be manipulated or replaced by paying close attention to the reference count.
+helpviewer_keywords: ["ICallFrameWalker interface [COM]","OnWalkInterface method","ICallFrameWalker.OnWalkInterface","ICallFrameWalker::OnWalkInterface","OnWalkInterface","OnWalkInterface method [COM]","OnWalkInterface method [COM]","ICallFrameWalker interface","_com_icallframewalker_onwalkinterface","callobj/ICallFrameWalker::OnWalkInterface","com.icallframewalker_onwalkinterface"]
 old-location: com\icallframewalker_onwalkinterface.htm
 tech.root: com
 ms.assetid: e599536f-87a3-4f71-ac0e-21bdafafd029

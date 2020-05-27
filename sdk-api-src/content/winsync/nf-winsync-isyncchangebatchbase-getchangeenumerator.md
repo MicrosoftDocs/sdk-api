@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetChangeEnumerator
 title: ISyncChangeBatchBase::GetChangeEnumerator (winsync.h)
-description: Gets an IEnumSyncChanges object that enumerates the item changes in this change batch.helpviewer_keywords: ["GetChangeEnumerator","GetChangeEnumerator method [Windows Sync]","GetChangeEnumerator method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","GetChangeEnumerator method","ISyncChangeBatchBase.GetChangeEnumerator","ISyncChangeBatchBase::GetChangeEnumerator","winsync.isyncchangebatchbase_getchangeenumerator","winsync/ISyncChangeBatchBase::GetChangeEnumerator"]
+description: Gets an IEnumSyncChanges object that enumerates the item changes in this change batch.
+helpviewer_keywords: ["GetChangeEnumerator","GetChangeEnumerator method [Windows Sync]","GetChangeEnumerator method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","GetChangeEnumerator method","ISyncChangeBatchBase.GetChangeEnumerator","ISyncChangeBatchBase::GetChangeEnumerator","winsync.isyncchangebatchbase_getchangeenumerator","winsync/ISyncChangeBatchBase::GetChangeEnumerator"]
 old-location: winsync\isyncchangebatchbase_getchangeenumerator.htm
 tech.root: winsync
 ms.assetid: af979d71-1eb4-463d-8e90-27a985ea289d

@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.GetCount
 title: IEnumWIA_FORMAT_INFO::GetCount (wia_xp.h)
-description: The IEnumWIA_FORMAT_INFO::GetCount method returns the number of elements stored by this enumerator.helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IEnumWIA_FORMAT_INFO interface","IEnumWIA_FORMAT_INFO interface [WIA]","GetCount method","IEnumWIA_FORMAT_INFO.GetCount","IEnumWIA_FORMAT_INFO::GetCount","_wia_IEnumWIA_FORMAT_INFO_GetCount","wia._wia_IEnumWIA_FORMAT_INFO_GetCount","wia_xp/IEnumWIA_FORMAT_INFO::GetCount"]
+description: The IEnumWIA_FORMAT_INFO::GetCount method returns the number of elements stored by this enumerator.
+helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IEnumWIA_FORMAT_INFO interface","IEnumWIA_FORMAT_INFO interface [WIA]","GetCount method","IEnumWIA_FORMAT_INFO.GetCount","IEnumWIA_FORMAT_INFO::GetCount","_wia_IEnumWIA_FORMAT_INFO_GetCount","wia._wia_IEnumWIA_FORMAT_INFO_GetCount","wia_xp/IEnumWIA_FORMAT_INFO::GetCount"]
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_format_info\getcount.htm

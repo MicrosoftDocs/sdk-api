@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_phoneGetIcon
 title: TSPI_phoneGetIcon function (tspi.h)
-description: The TSPI_phoneGetIcon function retrieves a service phone device-specific (or provider-specific) icon to display to the user.helpviewer_keywords: ["TSPI_phoneGetIcon","TSPI_phoneGetIcon function [TAPI 2.2]","_tspi_tspi_phonegeticon","tspi.tspi_phonegeticon","tspi/TSPI_phoneGetIcon"]
+description: The TSPI_phoneGetIcon function retrieves a service phone device-specific (or provider-specific) icon to display to the user.
+helpviewer_keywords: ["TSPI_phoneGetIcon","TSPI_phoneGetIcon function [TAPI 2.2]","_tspi_tspi_phonegeticon","tspi.tspi_phonegeticon","tspi/TSPI_phoneGetIcon"]
 old-location: tspi\tspi_phonegeticon.htm
 tech.root: Tapi
 ms.assetid: 765a0f52-9360-4190-abc8-597028f781ac

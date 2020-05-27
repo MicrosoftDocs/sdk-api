@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddCheckButton
 title: IFileDialogCustomize::AddCheckButton (shobjidl_core.h)
-description: Adds a check button (check box) to the dialog.helpviewer_keywords: ["AddCheckButton","AddCheckButton method [Windows Shell]","AddCheckButton method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddCheckButton method","IFileDialogCustomize.AddCheckButton","IFileDialogCustomize::AddCheckButton","shell.IFileDialogCustomize_AddCheckButton","shell_IFileDialogCustomize_AddCheckButton","shobjidl_core/IFileDialogCustomize::AddCheckButton"]
+description: Adds a check button (check box) to the dialog.
+helpviewer_keywords: ["AddCheckButton","AddCheckButton method [Windows Shell]","AddCheckButton method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddCheckButton method","IFileDialogCustomize.AddCheckButton","IFileDialogCustomize::AddCheckButton","shell.IFileDialogCustomize_AddCheckButton","shell_IFileDialogCustomize_AddCheckButton","shobjidl_core/IFileDialogCustomize::AddCheckButton"]
 old-location: shell\IFileDialogCustomize_AddCheckButton.htm
 tech.root: shell
 ms.assetid: 273ec875-43c1-454f-a4fc-01a513554e68

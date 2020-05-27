@@ -1,7 +1,8 @@
 ---
 UID: NF:mftransform.IMFDeviceTransformCallback.OnBufferSent
 title: IMFDeviceTransformCallback::OnBufferSent (mftransform.h)
-description: Called when system-allocated frame buffers are sent to the device driver.helpviewer_keywords: ["IMFDeviceTransformCallback interface [Streaming Media Devices]","OnBufferSent method","IMFDeviceTransformCallback.OnBufferSent","IMFDeviceTransformCallback::OnBufferSent","OnBufferSent","OnBufferSent method [Streaming Media Devices]","OnBufferSent method [Streaming Media Devices]","IMFDeviceTransformCallback interface","mftransform/IMFDeviceTransformCallback::OnBufferSent","stream.imfdevicetransformcallback_onbuffersent"]
+description: Called when system-allocated frame buffers are sent to the device driver.
+helpviewer_keywords: ["IMFDeviceTransformCallback interface [Streaming Media Devices]","OnBufferSent method","IMFDeviceTransformCallback.OnBufferSent","IMFDeviceTransformCallback::OnBufferSent","OnBufferSent","OnBufferSent method [Streaming Media Devices]","OnBufferSent method [Streaming Media Devices]","IMFDeviceTransformCallback interface","mftransform/IMFDeviceTransformCallback::OnBufferSent","stream.imfdevicetransformcallback_onbuffersent"]
 old-location: stream\imfdevicetransformcallback_onbuffersent.htm
 tech.root: stream
 ms.assetid: 8736BF02-636A-4894-AA74-92A805152D52

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetMediaPlayer
 title: IMFPMediaItem::GetMediaPlayer (mfplay.h)
-description: Gets a pointer to the MFPlay player object that created the media item.helpviewer_keywords: ["GetMediaPlayer","GetMediaPlayer method [Media Foundation]","GetMediaPlayer method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetMediaPlayer method","IMFPMediaItem.GetMediaPlayer","IMFPMediaItem::GetMediaPlayer","mf.imfpmediaitem_getmediaplayer","mfplay/IMFPMediaItem::GetMediaPlayer"]
+description: Gets a pointer to the MFPlay player object that created the media item.
+helpviewer_keywords: ["GetMediaPlayer","GetMediaPlayer method [Media Foundation]","GetMediaPlayer method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetMediaPlayer method","IMFPMediaItem.GetMediaPlayer","IMFPMediaItem::GetMediaPlayer","mf.imfpmediaitem_getmediaplayer","mfplay/IMFPMediaItem::GetMediaPlayer"]
 old-location: mf\imfpmediaitem_getmediaplayer.htm
 tech.root: medfound
 ms.assetid: 6d6f822a-d599-437e-a73a-2242d4d3fe3a

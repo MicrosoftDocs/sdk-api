@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetNumberFormatW
 title: GetNumberFormatW function (winnls.h)
-description: Formats a number string as a number string customized for a locale specified by identifier.helpviewer_keywords: ["GetNumberFormat","GetNumberFormat function [Internationalization for Windows Applications]","GetNumberFormatA","GetNumberFormatW","_win32_GetNumberFormat","intl.getnumberformat","winnls/GetNumberFormat","winnls/GetNumberFormatA","winnls/GetNumberFormatW"]
+description: Formats a number string as a number string customized for a locale specified by identifier.
+helpviewer_keywords: ["GetNumberFormat","GetNumberFormat function [Internationalization for Windows Applications]","GetNumberFormatA","GetNumberFormatW","_win32_GetNumberFormat","intl.getnumberformat","winnls/GetNumberFormat","winnls/GetNumberFormatA","winnls/GetNumberFormatW"]
 old-location: intl\getnumberformat.htm
 tech.root: Intl
 ms.assetid: acbfebed-71bd-4266-b639-66f453158442

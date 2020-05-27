@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetFileLineOffsets64
 title: SymGetFileLineOffsets64 function (dbghelp.h)
-description: Locates line information for the specified module and file name.helpviewer_keywords: ["SymGetFileLineOffsets64","SymGetFileLineOffsets64 function","base.symgetfilelineoffsets64","dbghelp/SymGetFileLineOffsets64"]
+description: Locates line information for the specified module and file name.
+helpviewer_keywords: ["SymGetFileLineOffsets64","SymGetFileLineOffsets64 function","base.symgetfilelineoffsets64","dbghelp/SymGetFileLineOffsets64"]
 old-location: base\symgetfilelineoffsets64.htm
 tech.root: Debug
 ms.assetid: c83deef1-3476-4d06-a2e1-a3428c2f44d7

@@ -1,7 +1,8 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_7
 title: PSS_PERFORMANCE_COUNTERS (processsnapshot.h)
-description: Holds performance counters returned by PssQuerySnapshot.helpviewer_keywords: ["PSS_PERFORMANCE_COUNTERS","PSS_PERFORMANCE_COUNTERS structure","proc_snap.pss_performance_counters","processsnapshot/PSS_PERFORMANCE_COUNTERS"]
+description: Holds performance counters returned by PssQuerySnapshot.
+helpviewer_keywords: ["PSS_PERFORMANCE_COUNTERS","PSS_PERFORMANCE_COUNTERS structure","proc_snap.pss_performance_counters","processsnapshot/PSS_PERFORMANCE_COUNTERS"]
 old-location: proc_snap\pss_performance_counters.htm
 tech.root: proc_snap
 ms.assetid: 298C1FC8-D19D-4DB3-84AA-3870D06B16A1

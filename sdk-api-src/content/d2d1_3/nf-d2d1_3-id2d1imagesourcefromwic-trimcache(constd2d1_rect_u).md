@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U)
 title: ID2D1ImageSourceFromWic::TrimCache (d2d1_3.h)
-description: This method trims the populated regions of the image source cache to just the specified rectangle.helpviewer_keywords: ["ID2D1ImageSourceFromWic interface [Direct2D]","TrimCache method","ID2D1ImageSourceFromWic.TrimCache","ID2D1ImageSourceFromWic::TrimCache","ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U)","TrimCache","TrimCache method [Direct2D]","TrimCache method [Direct2D]","ID2D1ImageSourceFromWic interface","d2d1_3/ID2D1ImageSourceFromWic::TrimCache","direct2d.id2d1imagesourcefromwic_trimcache"]
+description: This method trims the populated regions of the image source cache to just the specified rectangle.
+helpviewer_keywords: ["ID2D1ImageSourceFromWic interface [Direct2D]","TrimCache method","ID2D1ImageSourceFromWic.TrimCache","ID2D1ImageSourceFromWic::TrimCache","ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U)","TrimCache","TrimCache method [Direct2D]","TrimCache method [Direct2D]","ID2D1ImageSourceFromWic interface","d2d1_3/ID2D1ImageSourceFromWic::TrimCache","direct2d.id2d1imagesourcefromwic_trimcache"]
 old-location: direct2d\id2d1imagesourcefromwic_trimcache.htm
 tech.root: Direct2D
 ms.assetid: 8C6A42BB-D7CA-4766-BE59-B9F8150C0AC1

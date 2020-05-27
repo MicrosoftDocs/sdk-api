@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngMarkBandingSurface
 title: EngMarkBandingSurface function (winddi.h)
-description: The EngMarkBandingSurface function marks the specified surface as a banding surface.helpviewer_keywords: ["EngMarkBandingSurface","EngMarkBandingSurface function [Display Devices]","display.engmarkbandingsurface","gdifncs_b597b27e-e521-40ec-a16f-7961b64dead2.xml","winddi/EngMarkBandingSurface"]
+description: The EngMarkBandingSurface function marks the specified surface as a banding surface.
+helpviewer_keywords: ["EngMarkBandingSurface","EngMarkBandingSurface function [Display Devices]","display.engmarkbandingsurface","gdifncs_b597b27e-e521-40ec-a16f-7961b64dead2.xml","winddi/EngMarkBandingSurface"]
 old-location: display\engmarkbandingsurface.htm
 tech.root: display
 ms.assetid: 0ee3d697-42aa-4117-9d85-63472e4a042f

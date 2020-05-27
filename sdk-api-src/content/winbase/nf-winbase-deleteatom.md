@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.DeleteAtom
 title: DeleteAtom function (winbase.h)
-description: Decrements the reference count of a local string atom. If the atom's reference count is reduced to zero, DeleteAtom removes the string associated with the atom from the local atom table.helpviewer_keywords: ["DeleteAtom","DeleteAtom function [Data Exchange]","_win32_DeleteAtom","_win32_deleteatom_cpp","dataxchg.deleteatom","winbase/DeleteAtom","winui._win32_deleteatom"]
+description: Decrements the reference count of a local string atom. If the atom's reference count is reduced to zero, DeleteAtom removes the string associated with the atom from the local atom table.
+helpviewer_keywords: ["DeleteAtom","DeleteAtom function [Data Exchange]","_win32_DeleteAtom","_win32_deleteatom_cpp","dataxchg.deleteatom","winbase/DeleteAtom","winui._win32_deleteatom"]
 old-location: dataxchg\deleteatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\deleteatom.htm

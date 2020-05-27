@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringId
 title: IUserInputString::GetStringId (photoacquire.h)
-description: The GetStringId method retrieves the unlocalized canonical name for the requested string. For example, when requesting a tag name, the canonical name might be &#0034;TagName&#0034;.helpviewer_keywords: ["GetStringId","GetStringId method [Picture Acquisition]","GetStringId method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetStringId method","IUserInputString.GetStringId","IUserInputString::GetStringId","IUserInputStringGetStringId","photoacquire/IUserInputString::GetStringId","picacq.iuserinputstring_getstringid"]
+description: The GetStringId method retrieves the unlocalized canonical name for the requested string. For example, when requesting a tag name, the canonical name might be &#0034;TagName&#0034;.
+helpviewer_keywords: ["GetStringId","GetStringId method [Picture Acquisition]","GetStringId method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetStringId method","IUserInputString.GetStringId","IUserInputString::GetStringId","IUserInputStringGetStringId","photoacquire/IUserInputString::GetStringId","picacq.iuserinputstring_getstringid"]
 old-location: picacq\iuserinputstring_getstringid.htm
 tech.root: acquisition
 ms.assetid: 29c4b592-fa6a-4f9b-a390-e8bc0928a26d

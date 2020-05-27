@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference)
 title: IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference) (dwrite_3.h)
-description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet.helpviewer_keywords: ["AddFontFaceReference","AddFontFaceReference method [Direct Write]","AddFontFaceReference method [Direct Write]","IDWriteFontSetBuilder interface","IDWriteFontSetBuilder interface [Direct Write]","AddFontFaceReference method","IDWriteFontSetBuilder.AddFontFaceReference","IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference)","IDWriteFontSetBuilder::AddFontFaceReference","IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference)","directwrite.idwritefontsetbuilder_addfontfacereference_1","dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference"]
+description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet.
+helpviewer_keywords: ["AddFontFaceReference","AddFontFaceReference method [Direct Write]","AddFontFaceReference method [Direct Write]","IDWriteFontSetBuilder interface","IDWriteFontSetBuilder interface [Direct Write]","AddFontFaceReference method","IDWriteFontSetBuilder.AddFontFaceReference","IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference)","IDWriteFontSetBuilder::AddFontFaceReference","IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference)","directwrite.idwritefontsetbuilder_addfontfacereference_1","dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference"]
 old-location: directwrite\idwritefontsetbuilder_addfontfacereference_1.htm
 tech.root: DirectWrite
 ms.assetid: 0E67F5EF-F8BB-47D9-995D-40879351DC17

@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStrAlloc
 title: PSPropertyBag_ReadStrAlloc function (propsys.h)
-description: Reads a string data value from a property in a property bag and allocates memory for the string that is read.helpviewer_keywords: ["PSPropertyBag_ReadStrAlloc","PSPropertyBag_ReadStrAlloc function [Windows Properties]","properties.PSPropertyBag_ReadStrAlloc","propsys/PSPropertyBag_ReadStrAlloc","shell.PSPropertyBag_ReadStrAlloc","shell_PSPropertyBag_ReadStrAlloc"]
+description: Reads a string data value from a property in a property bag and allocates memory for the string that is read.
+helpviewer_keywords: ["PSPropertyBag_ReadStrAlloc","PSPropertyBag_ReadStrAlloc function [Windows Properties]","properties.PSPropertyBag_ReadStrAlloc","propsys/PSPropertyBag_ReadStrAlloc","shell.PSPropertyBag_ReadStrAlloc","shell_PSPropertyBag_ReadStrAlloc"]
 old-location: properties\PSPropertyBag_ReadStrAlloc.htm
 tech.root: properties
 ms.assetid: 2F58A6DB-3563-42fa-9B6F-327D0A87AE81

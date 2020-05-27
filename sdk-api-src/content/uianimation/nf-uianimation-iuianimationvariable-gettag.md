@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetTag
 title: IUIAnimationVariable::GetTag (uianimation.h)
-description: Gets the tag for an animation variable.helpviewer_keywords: ["GetTag","GetTag method [Windows Animation]","GetTag method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetTag method","IUIAnimationVariable.GetTag","IUIAnimationVariable::GetTag","uianimation.iuianimationvariable_gettag","uianimation/IUIAnimationVariable::GetTag"]
+description: Gets the tag for an animation variable.
+helpviewer_keywords: ["GetTag","GetTag method [Windows Animation]","GetTag method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetTag method","IUIAnimationVariable.GetTag","IUIAnimationVariable::GetTag","uianimation.iuianimationvariable_gettag","uianimation/IUIAnimationVariable::GetTag"]
 old-location: uianimation\iuianimationvariable_gettag.htm
 tech.root: UIAnimation
 ms.assetid: 2731d302-dc52-4a10-8012-a246856d132b

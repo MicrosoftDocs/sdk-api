@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateChainEngine
 title: CertFreeCertificateChainEngine function (wincrypt.h)
-description: The CertFreeCertificateChainEngine function frees a certificate trust engine.helpviewer_keywords: ["CertFreeCertificateChainEngine","CertFreeCertificateChainEngine function [Security]","_crypto2_certfreecertificatechainengine","security.certfreecertificatechainengine","wincrypt/CertFreeCertificateChainEngine"]
+description: The CertFreeCertificateChainEngine function frees a certificate trust engine.
+helpviewer_keywords: ["CertFreeCertificateChainEngine","CertFreeCertificateChainEngine function [Security]","_crypto2_certfreecertificatechainengine","security.certfreecertificatechainengine","wincrypt/CertFreeCertificateChainEngine"]
 old-location: security\certfreecertificatechainengine.htm
 tech.root: SecCrypto
 ms.assetid: 5aebc09d-342d-4938-8a1a-0cbfdc147bb5

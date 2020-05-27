@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictPresenter
 title: ISyncMgrConflictPresenter (syncmgr.h)
-description: Exposes a method that presents a conflict to the user.helpviewer_keywords: ["ISyncMgrConflictPresenter","ISyncMgrConflictPresenter interface [Windows Shell]","ISyncMgrConflictPresenter interface [Windows Shell]","described","_shell_ISyncMgrConflictPresenter","shell.ISyncMgrConflictPresenter","syncmgr/ISyncMgrConflictPresenter"]
+description: Exposes a method that presents a conflict to the user.
+helpviewer_keywords: ["ISyncMgrConflictPresenter","ISyncMgrConflictPresenter interface [Windows Shell]","ISyncMgrConflictPresenter interface [Windows Shell]","described","_shell_ISyncMgrConflictPresenter","shell.ISyncMgrConflictPresenter","syncmgr/ISyncMgrConflictPresenter"]
 old-location: shell\ISyncMgrConflictPresenter.htm
 tech.root: shell
 ms.assetid: ec9a2050-23ad-4478-a705-0a7324e8f84d

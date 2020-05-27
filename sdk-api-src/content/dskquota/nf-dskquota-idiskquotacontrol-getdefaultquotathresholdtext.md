@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaThresholdText
 title: IDiskQuotaControl::GetDefaultQuotaThresholdText (dskquota.h)
-description: Retrieves the default warning threshold for the volume.helpviewer_keywords: ["GetDefaultQuotaThresholdText","GetDefaultQuotaThresholdText method [Files]","GetDefaultQuotaThresholdText method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetDefaultQuotaThresholdText method","IDiskQuotaControl.GetDefaultQuotaThresholdText","IDiskQuotaControl::GetDefaultQuotaThresholdText","_win32_idiskquotacontrol_getdefaultquotathresholdtext","base.idiskquotacontrol_getdefaultquotathresholdtext","dskquota/IDiskQuotaControl::GetDefaultQuotaThresholdText","fs.idiskquotacontrol_getdefaultquotathresholdtext"]
+description: Retrieves the default warning threshold for the volume.
+helpviewer_keywords: ["GetDefaultQuotaThresholdText","GetDefaultQuotaThresholdText method [Files]","GetDefaultQuotaThresholdText method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetDefaultQuotaThresholdText method","IDiskQuotaControl.GetDefaultQuotaThresholdText","IDiskQuotaControl::GetDefaultQuotaThresholdText","_win32_idiskquotacontrol_getdefaultquotathresholdtext","base.idiskquotacontrol_getdefaultquotathresholdtext","dskquota/IDiskQuotaControl::GetDefaultQuotaThresholdText","fs.idiskquotacontrol_getdefaultquotathresholdtext"]
 old-location: fs\idiskquotacontrol_getdefaultquotathresholdtext.htm
 tech.root: FileIO
 ms.assetid: faeb2fc5-92b0-49bf-a233-6b21683693bd

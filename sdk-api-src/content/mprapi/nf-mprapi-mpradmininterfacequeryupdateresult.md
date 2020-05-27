@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceQueryUpdateResult
 title: MprAdminInterfaceQueryUpdateResult function (mprapi.h)
-description: The MprAdminInterfaceQueryUpdateResult function returns the result of the last request to a specified router manager to update its routes for an interface. For more information, see MprAdminInterfaceUpdateRoutes.helpviewer_keywords: ["MprAdminInterfaceQueryUpdateResult","MprAdminInterfaceQueryUpdateResult function [RAS]","_mpr_mpradmininterfacequeryupdateresult","mprapi/MprAdminInterfaceQueryUpdateResult","rras.mpradmininterfacequeryupdateresult"]
+description: The MprAdminInterfaceQueryUpdateResult function returns the result of the last request to a specified router manager to update its routes for an interface. For more information, see MprAdminInterfaceUpdateRoutes.
+helpviewer_keywords: ["MprAdminInterfaceQueryUpdateResult","MprAdminInterfaceQueryUpdateResult function [RAS]","_mpr_mpradmininterfacequeryupdateresult","mprapi/MprAdminInterfaceQueryUpdateResult","rras.mpradmininterfacequeryupdateresult"]
 old-location: rras\mpradmininterfacequeryupdateresult.htm
 tech.root: RRAS
 ms.assetid: df06d847-2448-4a64-bb1b-d60a3eb4f7a8

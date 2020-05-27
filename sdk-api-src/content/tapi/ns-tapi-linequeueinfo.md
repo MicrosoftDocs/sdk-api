@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.linequeueinfo_tag
 title: LINEQUEUEINFO (tapi.h)
-description: The LINEQUEUEINFO structure provides information about a queue on a line device. The lineGetQueueInfo function returns the LINEQUEUEINFO structure. This structure requires TAPI 3.0 version negotiation.helpviewer_keywords: ["*LPLINEQUEUEINFO","LINEQUEUEINFO","LINEQUEUEINFO structure [TAPI 2.2]","LPLINEQUEUEINFO","LPLINEQUEUEINFO structure pointer [TAPI 2.2]","_tapi2_linequeueinfo","tapi/LINEQUEUEINFO","tapi/LPLINEQUEUEINFO","tapi2.linequeueinfo"]
+description: The LINEQUEUEINFO structure provides information about a queue on a line device. The lineGetQueueInfo function returns the LINEQUEUEINFO structure. This structure requires TAPI 3.0 version negotiation.
+helpviewer_keywords: ["*LPLINEQUEUEINFO","LINEQUEUEINFO","LINEQUEUEINFO structure [TAPI 2.2]","LPLINEQUEUEINFO","LPLINEQUEUEINFO structure pointer [TAPI 2.2]","_tapi2_linequeueinfo","tapi/LINEQUEUEINFO","tapi/LPLINEQUEUEINFO","tapi2.linequeueinfo"]
 old-location: tapi2\linequeueinfo.htm
 tech.root: Tapi
 ms.assetid: ba49404f-eb84-485f-be27-60760986d489

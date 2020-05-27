@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IDirectorySearch.FreeColumn
 title: IDirectorySearch::FreeColumn (iads.h)
-description: The IDirectorySearch::FreeColumn method releases memory that the IDirectorySearch::GetColumn method allocated for data for the column.helpviewer_keywords: ["FreeColumn","FreeColumn method [ADSI]","FreeColumn method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","FreeColumn method","IDirectorySearch.FreeColumn","IDirectorySearch::FreeColumn","_ds_idirectorysearch_freecolumn","adsi.idirectorysearch__freecolumn","adsi.idirectorysearch_freecolumn","iads/IDirectorySearch::FreeColumn"]
+description: The IDirectorySearch::FreeColumn method releases memory that the IDirectorySearch::GetColumn method allocated for data for the column.
+helpviewer_keywords: ["FreeColumn","FreeColumn method [ADSI]","FreeColumn method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","FreeColumn method","IDirectorySearch.FreeColumn","IDirectorySearch::FreeColumn","_ds_idirectorysearch_freecolumn","adsi.idirectorysearch__freecolumn","adsi.idirectorysearch_freecolumn","iads/IDirectorySearch::FreeColumn"]
 old-location: adsi\idirectorysearch_freecolumn.htm
 tech.root: adsi
 ms.assetid: 72e75429-d22c-490f-a1f7-d771628067c9

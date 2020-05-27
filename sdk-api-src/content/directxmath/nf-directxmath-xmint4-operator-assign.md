@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMINT4.operator-assign
 title: XMINT4::operator-assign
-description: Assigns the vector component data from one instance of XMINT4 to the current instance of XMINT4.helpviewer_keywords: ["Use DirectX..XMINT4.operator =","Use DirectX::::XMINT4::operator =","XMINT4 structure [DirectX Math Support APIs]","operator = method","XMINT4.operator =","XMINT4.operator-assign","XMINT4.operator=","XMINT4::operator-assign","XMINT4::operator=","dxmath.xmint4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMINT4 structure","operator="]
+description: Assigns the vector component data from one instance of XMINT4 to the current instance of XMINT4.
+helpviewer_keywords: ["Use DirectX..XMINT4.operator =","Use DirectX::::XMINT4::operator =","XMINT4 structure [DirectX Math Support APIs]","operator = method","XMINT4.operator =","XMINT4.operator-assign","XMINT4.operator=","XMINT4::operator-assign","XMINT4::operator=","dxmath.xmint4_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMINT4 structure","operator="]
 old-location: dxmath\xmint4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.operator = (const XMINT4)

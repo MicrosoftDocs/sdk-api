@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsContainer.GetObject
 title: IADsContainer::GetObject (iads.h)
-description: Retrieves an interface for a directory object in the container.helpviewer_keywords: ["GetObject","GetObject method [ADSI]","GetObject method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","GetObject method","IADsContainer.GetObject","IADsContainer::GetObject","_ds_iadscontainer_getobject","adsi.iadscontainer__getobject","adsi.iadscontainer_getobject","iads/IADsContainer::GetObject"]
+description: Retrieves an interface for a directory object in the container.
+helpviewer_keywords: ["GetObject","GetObject method [ADSI]","GetObject method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","GetObject method","IADsContainer.GetObject","IADsContainer::GetObject","_ds_iadscontainer_getobject","adsi.iadscontainer__getobject","adsi.iadscontainer_getobject","iads/IADsContainer::GetObject"]
 old-location: adsi\iadscontainer_getobject.htm
 tech.root: adsi
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1

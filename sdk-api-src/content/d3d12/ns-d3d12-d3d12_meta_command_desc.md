@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_META_COMMAND_DESC
 title: D3D12_META_COMMAND_DESC (d3d12.h)
-description: Describes a meta command.helpviewer_keywords: ["D3D12_META_COMMAND_DESC","D3D12_META_COMMAND_DESC structure","d3d12/D3D12_META_COMMAND_DESC","direct3d12.d3d12_meta_command_desc"]
+description: Describes a meta command.
+helpviewer_keywords: ["D3D12_META_COMMAND_DESC","D3D12_META_COMMAND_DESC structure","d3d12/D3D12_META_COMMAND_DESC","direct3d12.d3d12_meta_command_desc"]
 old-location: direct3d12\d3d12_meta_command_desc.htm
 tech.root: direct3d12
 ms.assetid: 0783068A-21D0-4316-9F50-8566535747C8

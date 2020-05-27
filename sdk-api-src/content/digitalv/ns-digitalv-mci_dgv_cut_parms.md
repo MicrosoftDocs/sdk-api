@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_5
 title: MCI_DGV_CUT_PARMS (digitalv.h)
-description: The MCI_DGV_CUT_PARMS structure contains parameters for the MCI_CUT command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_CUT_PARMS","MCI_DGV_CUT_PARMS","MCI_DGV_CUT_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_CUT_PARMS_str","digitalv/MCI_DGV_CUT_PARMS","multimedia.mci_dgv_cut_parms"]
+description: The MCI_DGV_CUT_PARMS structure contains parameters for the MCI_CUT command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_CUT_PARMS","MCI_DGV_CUT_PARMS","MCI_DGV_CUT_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_CUT_PARMS_str","digitalv/MCI_DGV_CUT_PARMS","multimedia.mci_dgv_cut_parms"]
 old-location: multimedia\mci_dgv_cut_parms.htm
 tech.root: Multimedia
 ms.assetid: fe3e2bbb-7874-421d-90ca-f7d718cd8c27

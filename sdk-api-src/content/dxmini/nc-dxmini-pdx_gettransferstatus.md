@@ -1,7 +1,8 @@
 ---
 UID: NC:dxmini.PDX_GETTRANSFERSTATUS
 title: PDX_GETTRANSFERSTATUS (dxmini.h)
-description: The DxGetTransferStatus callback function is used by DirectDraw to determine which hardware bus master has completed.helpviewer_keywords: ["DxGetTransferStatus","DxGetTransferStatus callback function [Display Devices]","PDX_GETTRANSFERSTATUS","PDX_GETTRANSFERSTATUS callback","VideoMiniPort_DxApiFunctions_f0260ee6-8e6c-4ab0-bad3-8d5c2ce42488.xml","display.dxgettransferstatus","dxmini/DxGetTransferStatus"]
+description: The DxGetTransferStatus callback function is used by DirectDraw to determine which hardware bus master has completed.
+helpviewer_keywords: ["DxGetTransferStatus","DxGetTransferStatus callback function [Display Devices]","PDX_GETTRANSFERSTATUS","PDX_GETTRANSFERSTATUS callback","VideoMiniPort_DxApiFunctions_f0260ee6-8e6c-4ab0-bad3-8d5c2ce42488.xml","display.dxgettransferstatus","dxmini/DxGetTransferStatus"]
 old-location: display\dxgettransferstatus.htm
 tech.root: display
 ms.assetid: e33ec8f0-2d1c-42cf-8b82-8f316f52e2a8

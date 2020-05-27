@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.GetRightsWithProgress
 title: IWMDMStorage4::GetRightsWithProgress (mswmdm.h)
-description: The GetRightsWithProgress method retrieves the rights information for the storage object, providing a callback mechanism for monitoring progress.helpviewer_keywords: ["GetRightsWithProgress","GetRightsWithProgress method [windows Media Device Manager]","GetRightsWithProgress method [windows Media Device Manager]","IWMDMStorage4 interface","IWMDMStorage4 interface [windows Media Device Manager]","GetRightsWithProgress method","IWMDMStorage4.GetRightsWithProgress","IWMDMStorage4::GetRightsWithProgress","IWMDMStorage4GetRightsWithProgress","mswmdm/IWMDMStorage4::GetRightsWithProgress","wmdm.iwmdmstorage4_getrightswithprogress"]
+description: The GetRightsWithProgress method retrieves the rights information for the storage object, providing a callback mechanism for monitoring progress.
+helpviewer_keywords: ["GetRightsWithProgress","GetRightsWithProgress method [windows Media Device Manager]","GetRightsWithProgress method [windows Media Device Manager]","IWMDMStorage4 interface","IWMDMStorage4 interface [windows Media Device Manager]","GetRightsWithProgress method","IWMDMStorage4.GetRightsWithProgress","IWMDMStorage4::GetRightsWithProgress","IWMDMStorage4GetRightsWithProgress","mswmdm/IWMDMStorage4::GetRightsWithProgress","wmdm.iwmdmstorage4_getrightswithprogress"]
 old-location: wmdm\iwmdmstorage4_getrightswithprogress.htm
 tech.root: WMDM
 ms.assetid: 63df4448-75f0-4152-a308-15f6f10e8564

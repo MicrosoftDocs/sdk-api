@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_4
 title: MCI_DGV_CUE_PARMS (digitalv.h)
-description: The MCI_DGV_CUE_PARMS structure contains parameters for the MCI_CUE command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_CUE_PARMS","MCI_DGV_CUE_PARMS","MCI_DGV_CUE_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_CUE_PARMS_str","digitalv/MCI_DGV_CUE_PARMS","multimedia.mci_dgv_cue_parms"]
+description: The MCI_DGV_CUE_PARMS structure contains parameters for the MCI_CUE command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_CUE_PARMS","MCI_DGV_CUE_PARMS","MCI_DGV_CUE_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_CUE_PARMS_str","digitalv/MCI_DGV_CUE_PARMS","multimedia.mci_dgv_cue_parms"]
 old-location: multimedia\mci_dgv_cue_parms.htm
 tech.root: Multimedia
 ms.assetid: 26905280-3470-4fe9-9464-e7e4a04e2bd3

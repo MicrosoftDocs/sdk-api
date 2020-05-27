@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.NotifySessionId
 title: IWTSProtocolConnection::NotifySessionId (wtsprotocol.h)
-description: IWTSProtocolConnection::NotifySessionId is no longer available. Instead, use IWRdsProtocolConnection::NotifySessionId.helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","NotifySessionId method","IWTSProtocolConnection.NotifySessionId","IWTSProtocolConnection::NotifySessionId","NotifySessionId","NotifySessionId method [Remote Desktop Services]","NotifySessionId method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_notifysessionid","wtsprotocol/IWTSProtocolConnection::NotifySessionId"]
+description: IWTSProtocolConnection::NotifySessionId is no longer available. Instead, use IWRdsProtocolConnection::NotifySessionId.
+helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","NotifySessionId method","IWTSProtocolConnection.NotifySessionId","IWTSProtocolConnection::NotifySessionId","NotifySessionId","NotifySessionId method [Remote Desktop Services]","NotifySessionId method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_notifysessionid","wtsprotocol/IWTSProtocolConnection::NotifySessionId"]
 old-location: termserv\iwtsprotocolconnection_notifysessionid.htm
 tech.root: TermServ
 ms.assetid: 5a545f66-7143-419d-9e0c-a96070472ce5

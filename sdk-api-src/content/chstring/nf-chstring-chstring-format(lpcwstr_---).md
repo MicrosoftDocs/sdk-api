@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.Format(LPCWSTR,...)
 title: CHString::Format
-description: helpviewer_keywords: ["CHString::Format"]
+description: 
+helpviewer_keywords: ["CHString::Format"]
 ms.assetid: 2187385b-8e30-4620-be1a-8c95c4d870b1
 ms.date: 05/13/2019
 ms.keywords: CHString::Format

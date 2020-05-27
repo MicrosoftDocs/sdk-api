@@ -1,7 +1,8 @@
 ---
 UID: NE:gdipluscolormatrix.ColorAdjustType
 title: ColorAdjustType (gdipluscolormatrix.h)
-description: The ColorAdjustType enumeration specifies which GDI+ objects use color-adjustment information.helpviewer_keywords: ["ColorAdjustType","ColorAdjustType enumeration [GDI+]","ColorAdjustTypeAny","ColorAdjustTypeBitmap","ColorAdjustTypeBrush","ColorAdjustTypeCount","ColorAdjustTypeDefault","ColorAdjustTypePen","ColorAdjustTypeText","_gdiplus_ENUM_ColorAdjustType","gdiplus._gdiplus_ENUM_ColorAdjustType","gdipluscolormatrix/ColorAdjustType","gdipluscolormatrix/ColorAdjustTypeAny","gdipluscolormatrix/ColorAdjustTypeBitmap","gdipluscolormatrix/ColorAdjustTypeBrush","gdipluscolormatrix/ColorAdjustTypeCount","gdipluscolormatrix/ColorAdjustTypeDefault","gdipluscolormatrix/ColorAdjustTypePen","gdipluscolormatrix/ColorAdjustTypeText"]
+description: The ColorAdjustType enumeration specifies which GDI+ objects use color-adjustment information.
+helpviewer_keywords: ["ColorAdjustType","ColorAdjustType enumeration [GDI+]","ColorAdjustTypeAny","ColorAdjustTypeBitmap","ColorAdjustTypeBrush","ColorAdjustTypeCount","ColorAdjustTypeDefault","ColorAdjustTypePen","ColorAdjustTypeText","_gdiplus_ENUM_ColorAdjustType","gdiplus._gdiplus_ENUM_ColorAdjustType","gdipluscolormatrix/ColorAdjustType","gdipluscolormatrix/ColorAdjustTypeAny","gdipluscolormatrix/ColorAdjustTypeBitmap","gdipluscolormatrix/ColorAdjustTypeBrush","gdipluscolormatrix/ColorAdjustTypeCount","gdipluscolormatrix/ColorAdjustTypeDefault","gdipluscolormatrix/ColorAdjustTypePen","gdipluscolormatrix/ColorAdjustTypeText"]
 old-location: gdiplus\_gdiplus_ENUM_ColorAdjustType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coloradjusttype.htm

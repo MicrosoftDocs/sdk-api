@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiStreamPause
 title: midiStreamPause function (mmeapi.h)
-description: The midiStreamPause function pauses playback of a specified MIDI stream.helpviewer_keywords: ["_win32_midiStreamPause","midiStreamPause","midiStreamPause function [Windows Multimedia]","mmeapi/midiStreamPause","multimedia.midistreampause"]
+description: The midiStreamPause function pauses playback of a specified MIDI stream.
+helpviewer_keywords: ["_win32_midiStreamPause","midiStreamPause","midiStreamPause function [Windows Multimedia]","mmeapi/midiStreamPause","multimedia.midistreampause"]
 old-location: multimedia\midistreampause.htm
 tech.root: Multimedia
 ms.assetid: d5e09d45-cfd2-4639-b539-0c6ff03ab3b7

@@ -1,7 +1,8 @@
 ---
 UID: NN:audioengineendpoint.IAudioOutputEndpointRT
 title: IAudioOutputEndpointRT (audioengineendpoint.h)
-description: Gets the output buffer for each processing pass.helpviewer_keywords: ["IAudioOutputEndpointRT","IAudioOutputEndpointRT interface [Remote Desktop Services]","IAudioOutputEndpointRT interface [Remote Desktop Services]","described","audioengineendpoint/IAudioOutputEndpointRT","termserv.iaudiooutputendpointrt"]
+description: Gets the output buffer for each processing pass.
+helpviewer_keywords: ["IAudioOutputEndpointRT","IAudioOutputEndpointRT interface [Remote Desktop Services]","IAudioOutputEndpointRT interface [Remote Desktop Services]","described","audioengineendpoint/IAudioOutputEndpointRT","termserv.iaudiooutputendpointrt"]
 old-location: termserv\iaudiooutputendpointrt.htm
 tech.root: TermServ
 ms.assetid: b881b2f9-ffe9-46ff-94aa-eef0af172a3e

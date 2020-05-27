@@ -1,7 +1,8 @@
 ---
 UID: NF:netsh.MatchEnumTag
 title: MatchEnumTag function (netsh.h)
-description: Searches a table of legal values to find a value that matches a specific token.helpviewer_keywords: ["MatchEnumTag","MatchEnumTag function [NetShell]","_netsh_matchenumtag","netsh/MatchEnumTag","netshell.matchenumtag"]
+description: Searches a table of legal values to find a value that matches a specific token.
+helpviewer_keywords: ["MatchEnumTag","MatchEnumTag function [NetShell]","_netsh_matchenumtag","netsh/MatchEnumTag","netshell.matchenumtag"]
 old-location: netshell\matchenumtag.htm
 tech.root: netshell
 ms.assetid: def20f98-76a2-4d92-a954-152474e25f05

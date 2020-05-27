@@ -1,7 +1,8 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputType
 title: IMediaObjectImpl::InputType (dmoimpl.h)
-description: The InputType method retrieves the current media type for a specified input stream.helpviewer_keywords: ["IMediaObjectImpl interface [DirectShow]","InputType method","IMediaObjectImpl.InputType","IMediaObjectImpl::InputType","IMediaObjectImplInputType","InputType","InputType method [DirectShow]","InputType method [DirectShow]","IMediaObjectImpl interface","dmoimpl/IMediaObjectImpl::InputType","dshow.imediaobjectimpl_inputtype"]
+description: The InputType method retrieves the current media type for a specified input stream.
+helpviewer_keywords: ["IMediaObjectImpl interface [DirectShow]","InputType method","IMediaObjectImpl.InputType","IMediaObjectImpl::InputType","IMediaObjectImplInputType","InputType","InputType method [DirectShow]","InputType method [DirectShow]","IMediaObjectImpl interface","dmoimpl/IMediaObjectImpl::InputType","dshow.imediaobjectimpl_inputtype"]
 old-location: dshow\imediaobjectimpl_inputtype.htm
 tech.root: DirectShow
 ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02

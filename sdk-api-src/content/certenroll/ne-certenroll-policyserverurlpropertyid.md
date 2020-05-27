@@ -1,7 +1,8 @@
 ---
 UID: NE:certenroll.PolicyServerUrlPropertyID
 title: PolicyServerUrlPropertyID (certenroll.h)
-description: Contains values that specify the type of property value to be returned by the GetStringProperty method or set by the SetStringProperty method on the IX509PolicyServerUrl interface.helpviewer_keywords: ["PolicyServerUrlPropertyID","PolicyServerUrlPropertyID enumeration [Security]","PsFriendlyName","PsPolicyID","certenroll/PolicyServerUrlPropertyID","certenroll/PsFriendlyName","certenroll/PsPolicyID","security.policyserverurlpropertyid"]
+description: Contains values that specify the type of property value to be returned by the GetStringProperty method or set by the SetStringProperty method on the IX509PolicyServerUrl interface.
+helpviewer_keywords: ["PolicyServerUrlPropertyID","PolicyServerUrlPropertyID enumeration [Security]","PsFriendlyName","PsPolicyID","certenroll/PolicyServerUrlPropertyID","certenroll/PsFriendlyName","certenroll/PsPolicyID","security.policyserverurlpropertyid"]
 old-location: security\policyserverurlpropertyid.htm
 tech.root: seccertenroll
 ms.assetid: 7b2f898d-9730-4f86-a7b2-dd625889c00a

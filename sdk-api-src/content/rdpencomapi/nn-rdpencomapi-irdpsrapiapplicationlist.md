@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplicationList
 title: IRDPSRAPIApplicationList (rdpencomapi.h)
-description: Manages the application list.helpviewer_keywords: ["IRDPSRAPIApplicationList","IRDPSRAPIApplicationList interface [RDP]","IRDPSRAPIApplicationList interface [RDP]","described","rdp.irdpsrapiapplicationlist","rdpencomapi/IRDPSRAPIApplicationList"]
+description: Manages the application list.
+helpviewer_keywords: ["IRDPSRAPIApplicationList","IRDPSRAPIApplicationList interface [RDP]","IRDPSRAPIApplicationList interface [RDP]","described","rdp.irdpsrapiapplicationlist","rdpencomapi/IRDPSRAPIApplicationList"]
 old-location: rdp\irdpsrapiapplicationlist.htm
 tech.root: rdp
 ms.assetid: 275bb93c-dc93-4884-82a9-e87f5c3ab475

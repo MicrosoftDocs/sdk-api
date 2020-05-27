@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1_3.D2D1_GAMMA1
 title: D2D1_GAMMA1 (d2d1_3.h)
-description: Determines what gamma is used for interpolation and blending.helpviewer_keywords: ["D2D1_GAMMA1","D2D1_GAMMA1 enumeration [Direct2D]","D2D1_GAMMA1_FORCE_DWORD","D2D1_GAMMA1_G10","D2D1_GAMMA1_G2084","D2D1_GAMMA1_G22","d2d1_3/D2D1_GAMMA1","d2d1_3/D2D1_GAMMA1_FORCE_DWORD","d2d1_3/D2D1_GAMMA1_G10","d2d1_3/D2D1_GAMMA1_G2084","d2d1_3/D2D1_GAMMA1_G22","direct2d.d2d1_gamma1"]
+description: Determines what gamma is used for interpolation and blending.
+helpviewer_keywords: ["D2D1_GAMMA1","D2D1_GAMMA1 enumeration [Direct2D]","D2D1_GAMMA1_FORCE_DWORD","D2D1_GAMMA1_G10","D2D1_GAMMA1_G2084","D2D1_GAMMA1_G22","d2d1_3/D2D1_GAMMA1","d2d1_3/D2D1_GAMMA1_FORCE_DWORD","d2d1_3/D2D1_GAMMA1_G10","d2d1_3/D2D1_GAMMA1_G2084","d2d1_3/D2D1_GAMMA1_G22","direct2d.d2d1_gamma1"]
 old-location: direct2d\d2d1_gamma1.htm
 tech.root: Direct2D
 ms.assetid: DEB1A17C-FD71-43C9-A3D4-B3D4F4B9A2A5

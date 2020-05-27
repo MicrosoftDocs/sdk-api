@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminReleaseIpAddress
 title: MprAdminReleaseIpAddress function (mprapi.h)
-description: The MprAdminReleaseIpAddress function is called when a user disconnects and the user's IP address is about to be released.helpviewer_keywords: ["MprAdminReleaseIpAddress","MprAdminReleaseIpAddress callback","MprAdminReleaseIpAddress callback function [RAS]","_mpr_mpradminreleaseipaddress","mprapi/MprAdminReleaseIpAddress","rras.mpradminreleaseipaddress"]
+description: The MprAdminReleaseIpAddress function is called when a user disconnects and the user's IP address is about to be released.
+helpviewer_keywords: ["MprAdminReleaseIpAddress","MprAdminReleaseIpAddress callback","MprAdminReleaseIpAddress callback function [RAS]","_mpr_mpradminreleaseipaddress","mprapi/MprAdminReleaseIpAddress","rras.mpradminreleaseipaddress"]
 old-location: rras\mpradminreleaseipaddress.htm
 tech.root: RRAS
 ms.assetid: 7a1570a9-b43f-4603-a5ed-6d078a5bbb7c

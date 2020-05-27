@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateService.get_Name
 title: IUpdateService::get_Name (wuapi.h)
-description: Gets the name of the service.helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","Name property","IUpdateService.Name","IUpdateService.get_Name","IUpdateService::Name","IUpdateService::get_Name","Name property [Windows Update Agent]","Name property [Windows Update Agent]","IUpdateService interface","get_Name","wua.iupdateservice_name","wuapi/IUpdateService::Name","wuapi/IUpdateService::get_Name"]
+description: Gets the name of the service.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","Name property","IUpdateService.Name","IUpdateService.get_Name","IUpdateService::Name","IUpdateService::get_Name","Name property [Windows Update Agent]","Name property [Windows Update Agent]","IUpdateService interface","get_Name","wua.iupdateservice_name","wuapi/IUpdateService::Name","wuapi/IUpdateService::get_Name"]
 old-location: wua\iupdateservice_name.htm
 tech.root: Wua_Sdk
 ms.assetid: 37c84d46-628f-4af9-ac40-8ba2c5a24fd6

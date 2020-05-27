@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetAllVolumes
 title: IMFAudioStreamVolume::GetAllVolumes (mfidl.h)
-description: Retrieves the volume levels for all of the channels in the audio stream.helpviewer_keywords: ["GetAllVolumes","GetAllVolumes method [Media Foundation]","GetAllVolumes method [Media Foundation]","IMFAudioStreamVolume interface","IMFAudioStreamVolume interface [Media Foundation]","GetAllVolumes method","IMFAudioStreamVolume.GetAllVolumes","IMFAudioStreamVolume::GetAllVolumes","cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2","mf.imfaudiostreamvolume_getallvolumes","mfidl/IMFAudioStreamVolume::GetAllVolumes"]
+description: Retrieves the volume levels for all of the channels in the audio stream.
+helpviewer_keywords: ["GetAllVolumes","GetAllVolumes method [Media Foundation]","GetAllVolumes method [Media Foundation]","IMFAudioStreamVolume interface","IMFAudioStreamVolume interface [Media Foundation]","GetAllVolumes method","IMFAudioStreamVolume.GetAllVolumes","IMFAudioStreamVolume::GetAllVolumes","cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2","mf.imfaudiostreamvolume_getallvolumes","mfidl/IMFAudioStreamVolume::GetAllVolumes"]
 old-location: mf\imfaudiostreamvolume_getallvolumes.htm
 tech.root: medfound
 ms.assetid: cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_WindowInteractionState
 title: IWindowProvider::get_WindowInteractionState (uiautomationcore.h)
-description: Specifies the current state of the window for the purposes of user interaction.helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","WindowInteractionState property","IWindowProvider.WindowInteractionState","IWindowProvider.get_WindowInteractionState","IWindowProvider::WindowInteractionState","IWindowProvider::get_WindowInteractionState","WindowInteractionState property [Windows Accessibility]","WindowInteractionState property [Windows Accessibility]","IWindowProvider interface","get_WindowInteractionState","uiauto.uiauto_IWindowProvider_WindowInteractionState","uiauto_IWindowProvider_WindowInteractionState","uiautomationcore/IWindowProvider::WindowInteractionState","uiautomationcore/IWindowProvider::get_WindowInteractionState","winauto.uiauto_IWindowProvider_WindowInteractionState"]
+description: Specifies the current state of the window for the purposes of user interaction.
+helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","WindowInteractionState property","IWindowProvider.WindowInteractionState","IWindowProvider.get_WindowInteractionState","IWindowProvider::WindowInteractionState","IWindowProvider::get_WindowInteractionState","WindowInteractionState property [Windows Accessibility]","WindowInteractionState property [Windows Accessibility]","IWindowProvider interface","get_WindowInteractionState","uiauto.uiauto_IWindowProvider_WindowInteractionState","uiauto_IWindowProvider_WindowInteractionState","uiautomationcore/IWindowProvider::WindowInteractionState","uiautomationcore/IWindowProvider::get_WindowInteractionState","winauto.uiauto_IWindowProvider_WindowInteractionState"]
 old-location: winauto\uiauto_IWindowProvider_WindowInteractionState.htm
 tech.root: WinAuto
 ms.assetid: b7fcd5e6-1232-4096-a913-5fd870c83e62

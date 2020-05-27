@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumerateAddresses
 title: ITPhone::EnumerateAddresses (tapi3if.h)
-description: The EnumerateAddresses method enumerates the addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.helpviewer_keywords: ["EnumerateAddresses","EnumerateAddresses method [TAPI 2.2]","EnumerateAddresses method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","EnumerateAddresses method","ITPhone.EnumerateAddresses","ITPhone::EnumerateAddresses","_tapi3_itphone_enumerateaddresses","tapi3.itphone_enumerateaddresses","tapi3if/ITPhone::EnumerateAddresses"]
+description: The EnumerateAddresses method enumerates the addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
+helpviewer_keywords: ["EnumerateAddresses","EnumerateAddresses method [TAPI 2.2]","EnumerateAddresses method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","EnumerateAddresses method","ITPhone.EnumerateAddresses","ITPhone::EnumerateAddresses","_tapi3_itphone_enumerateaddresses","tapi3.itphone_enumerateaddresses","tapi3if/ITPhone::EnumerateAddresses"]
 old-location: tapi3\itphone_enumerateaddresses.htm
 tech.root: Tapi
 ms.assetid: d72f6877-eb89-400e-a1bc-393116a9666f

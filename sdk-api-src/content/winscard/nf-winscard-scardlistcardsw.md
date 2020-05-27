@@ -1,7 +1,8 @@
 ---
 UID: NF:winscard.SCardListCardsW
 title: SCardListCardsW function (winscard.h)
-description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.helpviewer_keywords: ["SCardListCards","SCardListCards function [Security]","SCardListCardsA","SCardListCardsW","_smart_scardlistcards","security.scardlistcards","winscard/SCardListCards","winscard/SCardListCardsA","winscard/SCardListCardsW"]
+description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.
+helpviewer_keywords: ["SCardListCards","SCardListCards function [Security]","SCardListCardsA","SCardListCardsW","_smart_scardlistcards","security.scardlistcards","winscard/SCardListCards","winscard/SCardListCardsA","winscard/SCardListCardsW"]
 old-location: security\scardlistcards.htm
 tech.root: SecAuthN
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1

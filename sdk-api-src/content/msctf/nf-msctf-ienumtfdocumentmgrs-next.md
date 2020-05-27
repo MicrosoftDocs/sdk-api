@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Next
 title: IEnumTfDocumentMgrs::Next (msctf.h)
-description: IEnumTfDocumentMgrs::Next methodhelpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Next method","IEnumTfDocumentMgrs.Next","IEnumTfDocumentMgrs::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_next_ref","msctf/IEnumTfDocumentMgrs::Next","tsf.ienumtfdocumentmgrs_next"]
+description: IEnumTfDocumentMgrs::Next method
+helpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Next method","IEnumTfDocumentMgrs.Next","IEnumTfDocumentMgrs::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_next_ref","msctf/IEnumTfDocumentMgrs::Next","tsf.ienumtfdocumentmgrs_next"]
 old-location: tsf\ienumtfdocumentmgrs_next.htm
 tech.root: TSF
 ms.assetid: 2fe1beed-9952-4e6c-9c45-eb21c4918288

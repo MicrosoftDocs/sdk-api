@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.IncludeItems
 title: INewMenuClient::IncludeItems (shobjidl_core.h)
-description: Allows the view to filter the items shown in the menu.helpviewer_keywords: ["INewMenuClient interface [Windows Shell]","IncludeItems method","INewMenuClient.IncludeItems","INewMenuClient::IncludeItems","IncludeItems","IncludeItems method [Windows Shell]","IncludeItems method [Windows Shell]","INewMenuClient interface","NMCII_FOLDERS","NMCII_ITEMS","NMCII_NONE","_shell_INewMenuClient_IncludeItems","shell.INewMenuClient_IncludeItems","shobjidl_core/INewMenuClient::IncludeItems"]
+description: Allows the view to filter the items shown in the menu.
+helpviewer_keywords: ["INewMenuClient interface [Windows Shell]","IncludeItems method","INewMenuClient.IncludeItems","INewMenuClient::IncludeItems","IncludeItems","IncludeItems method [Windows Shell]","IncludeItems method [Windows Shell]","INewMenuClient interface","NMCII_FOLDERS","NMCII_ITEMS","NMCII_NONE","_shell_INewMenuClient_IncludeItems","shell.INewMenuClient_IncludeItems","shobjidl_core/INewMenuClient::IncludeItems"]
 old-location: shell\INewMenuClient_IncludeItems.htm
 tech.root: shell
 ms.assetid: 666bf93c-cc99-4530-852e-5ef05ea72348

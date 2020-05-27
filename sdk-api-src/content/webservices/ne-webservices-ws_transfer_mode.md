@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_20
 title: WS_TRANSFER_MODE (webservices.h)
-description: Whether messages that are sent or received are streamed or buffered.helpviewer_keywords: ["WS_BUFFERED_TRANSFER_MODE","WS_STREAMED_INPUT_TRANSFER_MODE","WS_STREAMED_OUTPUT_TRANSFER_MODE","WS_STREAMED_TRANSFER_MODE","WS_TRANSFER_MODE","WS_TRANSFER_MODE enumeration [Web Services for Windows]","webservices/WS_BUFFERED_TRANSFER_MODE","webservices/WS_STREAMED_INPUT_TRANSFER_MODE","webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE","webservices/WS_STREAMED_TRANSFER_MODE","webservices/WS_TRANSFER_MODE","wsw.ws_transfer_mode"]
+description: Whether messages that are sent or received are streamed or buffered.
+helpviewer_keywords: ["WS_BUFFERED_TRANSFER_MODE","WS_STREAMED_INPUT_TRANSFER_MODE","WS_STREAMED_OUTPUT_TRANSFER_MODE","WS_STREAMED_TRANSFER_MODE","WS_TRANSFER_MODE","WS_TRANSFER_MODE enumeration [Web Services for Windows]","webservices/WS_BUFFERED_TRANSFER_MODE","webservices/WS_STREAMED_INPUT_TRANSFER_MODE","webservices/WS_STREAMED_OUTPUT_TRANSFER_MODE","webservices/WS_STREAMED_TRANSFER_MODE","webservices/WS_TRANSFER_MODE","wsw.ws_transfer_mode"]
 old-location: wsw\ws_transfer_mode.htm
 tech.root: wsw
 ms.assetid: 6153bef6-f37f-4bc6-b1c5-5fbedd6bd234

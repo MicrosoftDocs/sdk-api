@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT2.GetSegmentInfo
 title: IDVB_EIT2::GetSegmentInfo (dvbsiparser.h)
-description: Gets the table identifier and segment number for the current EIT segment.helpviewer_keywords: ["GetSegmentInfo","GetSegmentInfo method [Microsoft TV Technologies]","GetSegmentInfo method [Microsoft TV Technologies]","IDVB_EIT2 interface","IDVB_EIT2 interface [Microsoft TV Technologies]","GetSegmentInfo method","IDVB_EIT2.GetSegmentInfo","IDVB_EIT2::GetSegmentInfo","dvbsiparser/IDVB_EIT2::GetSegmentInfo","mstv.idvb_eit2_getsegmentinfo"]
+description: Gets the table identifier and segment number for the current EIT segment.
+helpviewer_keywords: ["GetSegmentInfo","GetSegmentInfo method [Microsoft TV Technologies]","GetSegmentInfo method [Microsoft TV Technologies]","IDVB_EIT2 interface","IDVB_EIT2 interface [Microsoft TV Technologies]","GetSegmentInfo method","IDVB_EIT2.GetSegmentInfo","IDVB_EIT2::GetSegmentInfo","dvbsiparser/IDVB_EIT2::GetSegmentInfo","mstv.idvb_eit2_getsegmentinfo"]
 old-location: mstv\idvb_eit2_getsegmentinfo.htm
 tech.root: mstv
 ms.assetid: acc83c4e-7ec5-43f3-8d29-5c974fea91b8

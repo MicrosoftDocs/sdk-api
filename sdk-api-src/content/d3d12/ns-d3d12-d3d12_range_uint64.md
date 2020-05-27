@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_RANGE_UINT64
 title: D3D12_RANGE_UINT64 (d3d12.h)
-description: Describes a memory range in a 64-bit address space.helpviewer_keywords: ["D3D12_RANGE_UINT64","D3D12_RANGE_UINT64 structure","d3d12/D3D12_RANGE_UINT64","direct3d12.d3d12_range_uint64"]
+description: Describes a memory range in a 64-bit address space.
+helpviewer_keywords: ["D3D12_RANGE_UINT64","D3D12_RANGE_UINT64 structure","d3d12/D3D12_RANGE_UINT64","direct3d12.d3d12_range_uint64"]
 old-location: direct3d12\d3d12_range_uint64.htm
 tech.root: direct3d12
 ms.assetid: 9A907848-285C-4489-8F53-DA02FBC0AC0C

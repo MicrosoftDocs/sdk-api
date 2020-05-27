@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfProperty.SetValueStore
 title: ITfProperty::SetValueStore (msctf.h)
-description: ITfProperty::SetValueStore methodhelpviewer_keywords: ["ITfProperty interface [Text Services Framework]","SetValueStore method","ITfProperty.SetValueStore","ITfProperty::SetValueStore","SetValueStore","SetValueStore method [Text Services Framework]","SetValueStore method [Text Services Framework]","ITfProperty interface","_tsf_itfproperty_setvaluestore_ref","msctf/ITfProperty::SetValueStore","tsf.itfproperty_setvaluestore"]
+description: ITfProperty::SetValueStore method
+helpviewer_keywords: ["ITfProperty interface [Text Services Framework]","SetValueStore method","ITfProperty.SetValueStore","ITfProperty::SetValueStore","SetValueStore","SetValueStore method [Text Services Framework]","SetValueStore method [Text Services Framework]","ITfProperty interface","_tsf_itfproperty_setvaluestore_ref","msctf/ITfProperty::SetValueStore","tsf.itfproperty_setvaluestore"]
 old-location: tsf\itfproperty_setvaluestore.htm
 tech.root: TSF
 ms.assetid: 146af429-54a8-41b6-b44e-b5d35f933435

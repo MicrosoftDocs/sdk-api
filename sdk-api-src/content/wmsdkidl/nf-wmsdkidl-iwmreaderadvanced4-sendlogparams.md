@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.SendLogParams
 title: IWMReaderAdvanced4::SendLogParams (wmsdkidl.h)
-description: The SendLogParams method sends log entries to the originating server. Call this method after calling AddLogParam.helpviewer_keywords: ["IWMReaderAdvanced4 interface [windows Media Format]","SendLogParams method","IWMReaderAdvanced4.SendLogParams","IWMReaderAdvanced4::SendLogParams","IWMReaderAdvanced4SendLogParams","SendLogParams","SendLogParams method [windows Media Format]","SendLogParams method [windows Media Format]","IWMReaderAdvanced4 interface","wmformat.iwmreaderadvanced4_sendlogparams","wmsdkidl/IWMReaderAdvanced4::SendLogParams"]
+description: The SendLogParams method sends log entries to the originating server. Call this method after calling AddLogParam.
+helpviewer_keywords: ["IWMReaderAdvanced4 interface [windows Media Format]","SendLogParams method","IWMReaderAdvanced4.SendLogParams","IWMReaderAdvanced4::SendLogParams","IWMReaderAdvanced4SendLogParams","SendLogParams","SendLogParams method [windows Media Format]","SendLogParams method [windows Media Format]","IWMReaderAdvanced4 interface","wmformat.iwmreaderadvanced4_sendlogparams","wmsdkidl/IWMReaderAdvanced4::SendLogParams"]
 old-location: wmformat\iwmreaderadvanced4_sendlogparams.htm
 tech.root: wmformat
 ms.assetid: 3b345573-bdca-4a1f-b272-716e2ca4c88c

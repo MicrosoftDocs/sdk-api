@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetSchemaType
 title: IMFOutputSchema::GetSchemaType (mfidl.h)
-description: Retrieves the output protection system that is represented by this object. Output protection systems are identified by GUID value.helpviewer_keywords: ["6015e636-f1ea-4f4a-85d5-e8e896a0ec3c","GetSchemaType","GetSchemaType method [Media Foundation]","GetSchemaType method [Media Foundation]","IMFOutputSchema interface","IMFOutputSchema interface [Media Foundation]","GetSchemaType method","IMFOutputSchema.GetSchemaType","IMFOutputSchema::GetSchemaType","mf.imfoutputschema_getschematype","mfidl/IMFOutputSchema::GetSchemaType"]
+description: Retrieves the output protection system that is represented by this object. Output protection systems are identified by GUID value.
+helpviewer_keywords: ["6015e636-f1ea-4f4a-85d5-e8e896a0ec3c","GetSchemaType","GetSchemaType method [Media Foundation]","GetSchemaType method [Media Foundation]","IMFOutputSchema interface","IMFOutputSchema interface [Media Foundation]","GetSchemaType method","IMFOutputSchema.GetSchemaType","IMFOutputSchema::GetSchemaType","mf.imfoutputschema_getschematype","mfidl/IMFOutputSchema::GetSchemaType"]
 old-location: mf\imfoutputschema_getschematype.htm
 tech.root: medfound
 ms.assetid: 6015e636-f1ea-4f4a-85d5-e8e896a0ec3c

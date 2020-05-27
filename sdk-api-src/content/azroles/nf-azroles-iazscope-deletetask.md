@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzScope.DeleteTask
 title: IAzScope::DeleteTask (azroles.h)
-description: Removes the IAzTask object with the specified name from the IAzScope object.helpviewer_keywords: ["AzScope object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzScope object","DeleteTask method [Security]","IAzScope interface","IAzScope interface [Security]","DeleteTask method","IAzScope.DeleteTask","IAzScope::DeleteTask","azroles/IAzScope::DeleteTask","security.iazscope_deletetask"]
+description: Removes the IAzTask object with the specified name from the IAzScope object.
+helpviewer_keywords: ["AzScope object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzScope object","DeleteTask method [Security]","IAzScope interface","IAzScope interface [Security]","DeleteTask method","IAzScope.DeleteTask","IAzScope::DeleteTask","azroles/IAzScope::DeleteTask","security.iazscope_deletetask"]
 old-location: security\iazscope_deletetask.htm
 tech.root: SecAuthZ
 ms.assetid: de72b944-2796-4445-9fdd-4d56526dc903

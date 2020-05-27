@@ -1,7 +1,8 @@
 ---
 UID: NC:ras.RASADFUNCA
 title: RASADFUNCA (ras.h)
-description: The RASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.helpviewer_keywords: ["RASADFunc","RASADFunc callback","RASADFunc callback function [RAS]","RASADFuncA","RASADFuncW","_ras_rasadfunc","ras/RASADFunc","ras/RASADFuncA","ras/RASADFuncW","rras.rasadfunc"]
+description: The RASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
+helpviewer_keywords: ["RASADFunc","RASADFunc callback","RASADFunc callback function [RAS]","RASADFuncA","RASADFuncW","_ras_rasadfunc","ras/RASADFunc","ras/RASADFuncA","ras/RASADFuncW","rras.rasadfunc"]
 old-location: rras\rasadfunc.htm
 tech.root: RRAS
 ms.assetid: e014624a-1ee1-4de3-ba59-cd090b3fa711

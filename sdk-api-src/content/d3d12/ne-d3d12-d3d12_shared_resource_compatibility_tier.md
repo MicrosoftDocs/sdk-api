@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
 title: D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
-description: Defines constants that specify a cross-API sharing support tier.helpviewer_keywords: ["D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER"]
+description: Defines constants that specify a cross-API sharing support tier.
+helpviewer_keywords: ["D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
 f1_keywords:

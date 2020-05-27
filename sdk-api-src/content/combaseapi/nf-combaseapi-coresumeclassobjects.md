@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoResumeClassObjects
 title: CoResumeClassObjects function (combaseapi.h)
-description: Called by a server that can register multiple class objects to inform the SCM about all registered classes, and permits activation requests for those class objects.helpviewer_keywords: ["CoResumeClassObjects","CoResumeClassObjects function [COM]","_com_CoResumeClassObjects","com.coresumeclassobjects","combaseapi/CoResumeClassObjects"]
+description: Called by a server that can register multiple class objects to inform the SCM about all registered classes, and permits activation requests for those class objects.
+helpviewer_keywords: ["CoResumeClassObjects","CoResumeClassObjects function [COM]","_com_CoResumeClassObjects","com.coresumeclassobjects","combaseapi/CoResumeClassObjects"]
 old-location: com\coresumeclassobjects.htm
 tech.root: com
 ms.assetid: c2b6e8d8-99a1-4af3-9881-bfe6932e4a76

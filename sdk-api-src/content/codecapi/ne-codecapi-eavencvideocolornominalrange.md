@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorNominalRange
 title: eAVEncVideoColorNominalRange (codecapi.h)
-description: Specifies the nominal range for a video source. This enumeration is used with the AVEncVideoInputChromaSubsampling and AVEncVideoOutputChromaSubsampling properties.helpviewer_keywords: ["codecapi/eAVEncVideoColorNominalRange","codecapi/eAVEncVideoColorNominalRange_0_255","codecapi/eAVEncVideoColorNominalRange_16_235","codecapi/eAVEncVideoColorNominalRange_48_208","codecapi/eAVEncVideoColorNominalRange_SameAsSource","dshow.eavencvideocolornominalrange","eAVEncVideoColorNominalRange","eAVEncVideoColorNominalRange enumeration [DirectShow]","eAVEncVideoColorNominalRangeEnumeration","eAVEncVideoColorNominalRange_0_255","eAVEncVideoColorNominalRange_16_235","eAVEncVideoColorNominalRange_48_208","eAVEncVideoColorNominalRange_SameAsSource"]
+description: Specifies the nominal range for a video source. This enumeration is used with the AVEncVideoInputChromaSubsampling and AVEncVideoOutputChromaSubsampling properties.
+helpviewer_keywords: ["codecapi/eAVEncVideoColorNominalRange","codecapi/eAVEncVideoColorNominalRange_0_255","codecapi/eAVEncVideoColorNominalRange_16_235","codecapi/eAVEncVideoColorNominalRange_48_208","codecapi/eAVEncVideoColorNominalRange_SameAsSource","dshow.eavencvideocolornominalrange","eAVEncVideoColorNominalRange","eAVEncVideoColorNominalRange enumeration [DirectShow]","eAVEncVideoColorNominalRangeEnumeration","eAVEncVideoColorNominalRange_0_255","eAVEncVideoColorNominalRange_16_235","eAVEncVideoColorNominalRange_48_208","eAVEncVideoColorNominalRange_SameAsSource"]
 old-location: dshow\eavencvideocolornominalrange.htm
 tech.root: DirectShow
 ms.assetid: e3f49d42-b683-463b-8e09-9497a9bfad25

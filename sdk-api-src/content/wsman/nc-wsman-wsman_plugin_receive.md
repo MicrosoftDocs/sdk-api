@@ -1,7 +1,8 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RECEIVE
 title: WSMAN_PLUGIN_RECEIVE (wsman.h)
-description: Defines the receive callback for a plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_RECEIVE","WSMAN_PLUGIN_RECEIVE callback","WSMAN_PLUGIN_RECEIVE callback function [Windows Remote Management]","WSManPluginReceive","winrm.wsman_plugin_receive","wsman/WSMAN_PLUGIN_RECEIVE"]
+description: Defines the receive callback for a plug-in.
+helpviewer_keywords: ["WSMAN_PLUGIN_RECEIVE","WSMAN_PLUGIN_RECEIVE callback","WSMAN_PLUGIN_RECEIVE callback function [Windows Remote Management]","WSManPluginReceive","winrm.wsman_plugin_receive","wsman/WSMAN_PLUGIN_RECEIVE"]
 old-location: winrm\wsman_plugin_receive.htm
 tech.root: winrm
 ms.assetid: 59dff87b-17d5-4875-ad24-1520a04b05d2

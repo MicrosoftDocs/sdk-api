@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.PSSetConstantBuffers1
 title: ID3D11DeviceContext1::PSSetConstantBuffers1 (d3d11_1.h)
-description: Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.helpviewer_keywords: ["ID3D11DeviceContext1 interface [Direct3D 11]","PSSetConstantBuffers1 method","ID3D11DeviceContext1.PSSetConstantBuffers1","ID3D11DeviceContext1::PSSetConstantBuffers1","PSSetConstantBuffers1","PSSetConstantBuffers1 method [Direct3D 11]","PSSetConstantBuffers1 method [Direct3D 11]","ID3D11DeviceContext1 interface","d3d11_1/ID3D11DeviceContext1::PSSetConstantBuffers1","direct3d11.id3d11devicecontext1_pssetconstantbuffers1"]
+description: Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
+helpviewer_keywords: ["ID3D11DeviceContext1 interface [Direct3D 11]","PSSetConstantBuffers1 method","ID3D11DeviceContext1.PSSetConstantBuffers1","ID3D11DeviceContext1::PSSetConstantBuffers1","PSSetConstantBuffers1","PSSetConstantBuffers1 method [Direct3D 11]","PSSetConstantBuffers1 method [Direct3D 11]","ID3D11DeviceContext1 interface","d3d11_1/ID3D11DeviceContext1::PSSetConstantBuffers1","direct3d11.id3d11devicecontext1_pssetconstantbuffers1"]
 old-location: direct3d11\id3d11devicecontext1_pssetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 4B05144B-7766-4AE6-9B9F-C439B4BF0220

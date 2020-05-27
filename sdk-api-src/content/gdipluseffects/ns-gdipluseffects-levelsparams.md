@@ -1,7 +1,8 @@
 ---
 UID: NS:gdipluseffects.LevelsParams
 title: LevelsParams (gdipluseffects.h)
-description: The LevelsParams structure contains members that specify adjustments to the light, midtone, or dark areas of a bitmap.helpviewer_keywords: ["LevelsParams","LevelsParams structure [GDI+]","_gdiplus_STRUC_LevelsParams","gdiplus._gdiplus_STRUC_LevelsParams","gdipluseffects/LevelsParams"]
+description: The LevelsParams structure contains members that specify adjustments to the light, midtone, or dark areas of a bitmap.
+helpviewer_keywords: ["LevelsParams","LevelsParams structure [GDI+]","_gdiplus_STRUC_LevelsParams","gdiplus._gdiplus_STRUC_LevelsParams","gdipluseffects/LevelsParams"]
 old-location: gdiplus\_gdiplus_STRUC_LevelsParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\levelsparams.htm

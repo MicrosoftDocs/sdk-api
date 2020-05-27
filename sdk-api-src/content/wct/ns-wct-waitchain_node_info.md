@@ -1,7 +1,8 @@
 ---
 UID: NS:wct._WAITCHAIN_NODE_INFO
 title: WAITCHAIN_NODE_INFO (wct.h)
-description: Represents a node in a wait chain.helpviewer_keywords: ["*PWAITCHAIN_NODE_INFO","PWAITCHAIN_NODE_INFO","PWAITCHAIN_NODE_INFO structure pointer","WAITCHAIN_NODE_INFO","WAITCHAIN_NODE_INFO structure","WctAlpcType","WctComActivationType","WctComType","WctCriticalSectionType","WctMutexType","WctProcessWaitType","WctSendMessageType","WctStatusAbandoned","WctStatusBlocked","WctStatusError","WctStatusNoAccess","WctStatusNotOwned","WctStatusOwned","WctStatusPidOnly","WctStatusPidOnlyRpcss","WctStatusRunning","WctStatusUnknown","WctThreadType","WctThreadWaitType","WctUnknownType","base.waitchain_node_info","wct/PWAITCHAIN_NODE_INFO","wct/WAITCHAIN_NODE_INFO"]
+description: Represents a node in a wait chain.
+helpviewer_keywords: ["*PWAITCHAIN_NODE_INFO","PWAITCHAIN_NODE_INFO","PWAITCHAIN_NODE_INFO structure pointer","WAITCHAIN_NODE_INFO","WAITCHAIN_NODE_INFO structure","WctAlpcType","WctComActivationType","WctComType","WctCriticalSectionType","WctMutexType","WctProcessWaitType","WctSendMessageType","WctStatusAbandoned","WctStatusBlocked","WctStatusError","WctStatusNoAccess","WctStatusNotOwned","WctStatusOwned","WctStatusPidOnly","WctStatusPidOnlyRpcss","WctStatusRunning","WctStatusUnknown","WctThreadType","WctThreadWaitType","WctUnknownType","base.waitchain_node_info","wct/PWAITCHAIN_NODE_INFO","wct/WAITCHAIN_NODE_INFO"]
 old-location: base\waitchain_node_info.htm
 tech.root: Debug
 ms.assetid: 7a333924-79a3-4522-aa5a-4fc60690667d

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStory.SetType
 title: ITextStory::SetType (tom.h)
-description: Sets the story type.helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetType method","ITextStory.SetType","ITextStory::SetType","SetType","SetType method [Windows Controls]","SetType method [Windows Controls]","ITextStory interface","controls.itextstory_settype","tom/ITextStory::SetType"]
+description: Sets the story type.
+helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetType method","ITextStory.SetType","ITextStory::SetType","SetType","SetType method [Windows Controls]","SetType method [Windows Controls]","ITextStory interface","controls.itextstory_settype","tom/ITextStory::SetType"]
 old-location: controls\itextstory_settype.htm
 tech.root: Controls
 ms.assetid: b1fda663-cbfa-4972-bc40-004b82631f92

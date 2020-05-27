@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCustomReferenceEnumerator
 title: IOpcDigitalSignature::GetCustomReferenceEnumerator (msopc.h)
-description: Gets an enumerator of the IOpcSignatureReference interface pointers that represent references to application-specific XML elements that have been signed.helpviewer_keywords: ["GetCustomReferenceEnumerator","GetCustomReferenceEnumerator method [Open Packaging Conventions]","GetCustomReferenceEnumerator method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetCustomReferenceEnumerator method","IOpcDigitalSignature.GetCustomReferenceEnumerator","IOpcDigitalSignature::GetCustomReferenceEnumerator","msopc/IOpcDigitalSignature::GetCustomReferenceEnumerator","opc.iopcdigitalsignature_getcustomreferenceenumerator"]
+description: Gets an enumerator of the IOpcSignatureReference interface pointers that represent references to application-specific XML elements that have been signed.
+helpviewer_keywords: ["GetCustomReferenceEnumerator","GetCustomReferenceEnumerator method [Open Packaging Conventions]","GetCustomReferenceEnumerator method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetCustomReferenceEnumerator method","IOpcDigitalSignature.GetCustomReferenceEnumerator","IOpcDigitalSignature::GetCustomReferenceEnumerator","msopc/IOpcDigitalSignature::GetCustomReferenceEnumerator","opc.iopcdigitalsignature_getcustomreferenceenumerator"]
 old-location: opc\iopcdigitalsignature_getcustomreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: 8cc5ae5d-faef-451d-8ad8-db4b8b5c0e22

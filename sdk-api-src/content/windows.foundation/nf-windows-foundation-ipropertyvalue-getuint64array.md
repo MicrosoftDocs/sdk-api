@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt64Array
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of unsigned 64-bit integer values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetUInt64Array","GetUInt64Array method [Windows Runtime]","GetUInt64Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt64Array method","IPropertyValue.GetUInt64Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt64Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt64Array","winrt.ipropertyvalue_getuint64array"]
+description: Gets the array of unsigned 64-bit integer values that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetUInt64Array","GetUInt64Array method [Windows Runtime]","GetUInt64Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt64Array method","IPropertyValue.GetUInt64Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt64Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt64Array","winrt.ipropertyvalue_getuint64array"]
 old-location: winrt\ipropertyvalue_getuint64array.htm
 tech.root: WinRT
 ms.assetid: 2981b2dc-d3ec-4886-a191-4dade13c7f32

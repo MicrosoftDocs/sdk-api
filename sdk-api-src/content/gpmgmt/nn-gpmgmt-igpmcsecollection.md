@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMCSECollection
 title: IGPMCSECollection (gpmgmt.h)
-description: The IGPMCSECollection interface contains methods that enable applications to query a collection of client-side extensions (CSEs) when you use the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMCSECollection","IGPMCSECollection","IGPMCSECollection interface [GPMC]","IGPMCSECollection interface [GPMC]","described","_win32_igpmcsecollection","gpmc.igpmcsecollection","gpmgmt/IGPMCSECollection"]
+description: The IGPMCSECollection interface contains methods that enable applications to query a collection of client-side extensions (CSEs) when you use the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["GPMCSECollection","IGPMCSECollection","IGPMCSECollection interface [GPMC]","IGPMCSECollection interface [GPMC]","described","_win32_igpmcsecollection","gpmc.igpmcsecollection","gpmgmt/IGPMCSECollection"]
 old-location: gpmc\igpmcsecollection.htm
 tech.root: gpmc
 ms.assetid: e32c1c39-b817-4db6-ad76-b2e66b54d79d

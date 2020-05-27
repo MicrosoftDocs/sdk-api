@@ -1,7 +1,8 @@
 ---
 UID: NF:rtworkq.RtwqBeginUnregisterWorkQueueWithMMCSS
 title: RtwqBeginUnregisterWorkQueueWithMMCSS function (rtworkq.h)
-description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.helpviewer_keywords: ["RtwqBeginUnregisterWorkQueueWithMMCSS","RtwqBeginUnregisterWorkQueueWithMMCSS function","base.rtwqbeginunregisterworkqueuewithmmcss","rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"]
+description: Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
+helpviewer_keywords: ["RtwqBeginUnregisterWorkQueueWithMMCSS","RtwqBeginUnregisterWorkQueueWithMMCSS function","base.rtwqbeginunregisterworkqueuewithmmcss","rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS"]
 old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
 tech.root: ProcThread
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9

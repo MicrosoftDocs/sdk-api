@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt32Array
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of unsigned 32-bit integer values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetUInt32Array","GetUInt32Array method [Windows Runtime]","GetUInt32Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt32Array method","IPropertyValue.GetUInt32Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt32Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt32Array","winrt.ipropertyvalue_getuint32array"]
+description: Gets the array of unsigned 32-bit integer values that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetUInt32Array","GetUInt32Array method [Windows Runtime]","GetUInt32Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt32Array method","IPropertyValue.GetUInt32Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt32Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt32Array","winrt.ipropertyvalue_getuint32array"]
 old-location: winrt\ipropertyvalue_getuint32array.htm
 tech.root: WinRT
 ms.assetid: abea0460-73f1-4828-9cf7-d6bcad90f2ab

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndGetLength
 title: MCIWndGetLength macro (vfw.h)
-description: The MCIWndGetLength macro retrieves the length of the content or file currently used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETLENGTH message.helpviewer_keywords: ["MCIWndGetLength","MCIWndGetLength macro [Windows Multimedia]","_win32_MCIWndGetLength","multimedia.mciwndgetlength","vfw/MCIWndGetLength"]
+description: The MCIWndGetLength macro retrieves the length of the content or file currently used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETLENGTH message.
+helpviewer_keywords: ["MCIWndGetLength","MCIWndGetLength macro [Windows Multimedia]","_win32_MCIWndGetLength","multimedia.mciwndgetlength","vfw/MCIWndGetLength"]
 old-location: multimedia\mciwndgetlength.htm
 tech.root: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d

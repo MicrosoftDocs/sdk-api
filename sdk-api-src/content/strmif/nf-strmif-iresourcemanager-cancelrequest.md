@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IResourceManager.CancelRequest
 title: IResourceManager::CancelRequest (strmif.h)
-description: The CancelRequest method cancels the request for a resource.helpviewer_keywords: ["CancelRequest","CancelRequest method [DirectShow]","CancelRequest method [DirectShow]","IResourceManager interface","IResourceManager interface [DirectShow]","CancelRequest method","IResourceManager.CancelRequest","IResourceManager::CancelRequest","IResourceManagerCancelRequest","dshow.iresourcemanager_cancelrequest","strmif/IResourceManager::CancelRequest"]
+description: The CancelRequest method cancels the request for a resource.
+helpviewer_keywords: ["CancelRequest","CancelRequest method [DirectShow]","CancelRequest method [DirectShow]","IResourceManager interface","IResourceManager interface [DirectShow]","CancelRequest method","IResourceManager.CancelRequest","IResourceManager::CancelRequest","IResourceManagerCancelRequest","dshow.iresourcemanager_cancelrequest","strmif/IResourceManager::CancelRequest"]
 old-location: dshow\iresourcemanager_cancelrequest.htm
 tech.root: DirectShow
 ms.assetid: 49372654-8e69-4a7a-915e-16e791c63fb2

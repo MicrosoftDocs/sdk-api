@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.QueryAllTracesA
 title: QueryAllTracesA function (evntrace.h)
-description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.helpviewer_keywords: ["QueryAllTraces","QueryAllTraces function [ETW]","QueryAllTracesA","QueryAllTracesW","_evt_queryalltraces","base.queryalltraces","etw.queryalltraces","evntrace/QueryAllTraces","evntrace/QueryAllTracesA","evntrace/QueryAllTracesW"]
+description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
+helpviewer_keywords: ["QueryAllTraces","QueryAllTraces function [ETW]","QueryAllTracesA","QueryAllTracesW","_evt_queryalltraces","base.queryalltraces","etw.queryalltraces","evntrace/QueryAllTraces","evntrace/QueryAllTracesA","evntrace/QueryAllTracesW"]
 old-location: etw\queryalltraces.htm
 tech.root: ETW
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084

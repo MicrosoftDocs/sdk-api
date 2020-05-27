@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_first_entry
 title: ldap_first_entry function (winldap.h)
-description: The ldap_first_entry function returns the first entry of a message.helpviewer_keywords: ["_ldap_ldap_first_entry","ldap.ldap__first__entry","ldap.ldap_first_entry","ldap_first_entry","ldap_first_entry function [LDAP]","winldap/ldap_first_entry"]
+description: The ldap_first_entry function returns the first entry of a message.
+helpviewer_keywords: ["_ldap_ldap_first_entry","ldap.ldap__first__entry","ldap.ldap_first_entry","ldap_first_entry","ldap_first_entry function [LDAP]","winldap/ldap_first_entry"]
 old-location: ldap\ldap_first_entry.htm
 tech.root: ldap
 ms.assetid: 1692d091-7963-492d-9998-5680a2a81088

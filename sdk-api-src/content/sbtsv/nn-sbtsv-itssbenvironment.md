@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbEnvironment
 title: ITsSbEnvironment (sbtsv.h)
-description: Exposes methods and properties that contain information about the environment that hosts the target computer. This interface can be used to store information about a physical server that hosts virtual machines.helpviewer_keywords: ["ITsSbEnvironment","ITsSbEnvironment interface [Remote Desktop Services]","ITsSbEnvironment interface [Remote Desktop Services]","described","sbtsv/ITsSbEnvironment","termserv.itssbenvironment"]
+description: Exposes methods and properties that contain information about the environment that hosts the target computer. This interface can be used to store information about a physical server that hosts virtual machines.
+helpviewer_keywords: ["ITsSbEnvironment","ITsSbEnvironment interface [Remote Desktop Services]","ITsSbEnvironment interface [Remote Desktop Services]","described","sbtsv/ITsSbEnvironment","termserv.itssbenvironment"]
 old-location: termserv\itssbenvironment.htm
 tech.root: TermServ
 ms.assetid: 287cea18-c13c-4396-8970-39dd7f9b960e

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamStartTime
 title: AVIStreamStartTime macro (vfw.h)
-description: The AVIStreamStartTime macro returns the starting time of a stream's first sample.helpviewer_keywords: ["AVIStreamStartTime","AVIStreamStartTime macro [Windows Multimedia]","_win32_AVIStreamStartTime","multimedia.avistreamstarttime","vfw/AVIStreamStartTime"]
+description: The AVIStreamStartTime macro returns the starting time of a stream's first sample.
+helpviewer_keywords: ["AVIStreamStartTime","AVIStreamStartTime macro [Windows Multimedia]","_win32_AVIStreamStartTime","multimedia.avistreamstarttime","vfw/AVIStreamStartTime"]
 old-location: multimedia\avistreamstarttime.htm
 tech.root: Multimedia
 ms.assetid: 6bfa053f-26ca-4dc8-8896-11ee9f0d9b77

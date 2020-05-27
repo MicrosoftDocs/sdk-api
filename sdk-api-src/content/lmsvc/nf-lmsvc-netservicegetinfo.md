@@ -1,7 +1,8 @@
 ---
 UID: NF:lmsvc.NetServiceGetInfo
 title: NetServiceGetInfo function (lmsvc.h)
-description: The NetServiceGetInfo function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.helpviewer_keywords: ["NetServiceGetInfo","NetServiceGetInfo function [Network Management]","_win32_netservicegetinfo","lmsvc/NetServiceGetInfo","netmgmt.netservicegetinfo"]
+description: The NetServiceGetInfo function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
+helpviewer_keywords: ["NetServiceGetInfo","NetServiceGetInfo function [Network Management]","_win32_netservicegetinfo","lmsvc/NetServiceGetInfo","netmgmt.netservicegetinfo"]
 old-location: netmgmt\netservicegetinfo.htm
 tech.root: NetMgmt
 ms.assetid: dcbea171-75fd-4d92-a2a0-ebd2867b233e

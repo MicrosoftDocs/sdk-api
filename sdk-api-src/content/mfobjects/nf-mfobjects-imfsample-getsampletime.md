@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleTime
 title: IMFSample::GetSampleTime (mfobjects.h)
-description: Retrieves the presentation time of the sample.helpviewer_keywords: ["GetSampleTime","GetSampleTime method [Media Foundation]","GetSampleTime method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleTime method","IMFSample.GetSampleTime","IMFSample::GetSampleTime","fc4aac9e-e7a9-43f0-af7b-54a39666044a","mf.imfsample_getsampletime","mfobjects/IMFSample::GetSampleTime"]
+description: Retrieves the presentation time of the sample.
+helpviewer_keywords: ["GetSampleTime","GetSampleTime method [Media Foundation]","GetSampleTime method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleTime method","IMFSample.GetSampleTime","IMFSample::GetSampleTime","fc4aac9e-e7a9-43f0-af7b-54a39666044a","mf.imfsample_getsampletime","mfobjects/IMFSample::GetSampleTime"]
 old-location: mf\imfsample_getsampletime.htm
 tech.root: medfound
 ms.assetid: fc4aac9e-e7a9-43f0-af7b-54a39666044a

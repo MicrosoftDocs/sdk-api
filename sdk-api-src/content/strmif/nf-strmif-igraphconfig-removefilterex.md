@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterEx
 title: IGraphConfig::RemoveFilterEx (strmif.h)
-description: The RemoveFilterEx method removes a filter from the filter graph.helpviewer_keywords: ["IGraphConfig interface [DirectShow]","RemoveFilterEx method","IGraphConfig.RemoveFilterEx","IGraphConfig::RemoveFilterEx","IGraphConfigRemoveFilterEx","RemoveFilterEx","RemoveFilterEx method [DirectShow]","RemoveFilterEx method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_removefilterex","strmif/IGraphConfig::RemoveFilterEx"]
+description: The RemoveFilterEx method removes a filter from the filter graph.
+helpviewer_keywords: ["IGraphConfig interface [DirectShow]","RemoveFilterEx method","IGraphConfig.RemoveFilterEx","IGraphConfig::RemoveFilterEx","IGraphConfigRemoveFilterEx","RemoveFilterEx","RemoveFilterEx method [DirectShow]","RemoveFilterEx method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_removefilterex","strmif/IGraphConfig::RemoveFilterEx"]
 old-location: dshow\igraphconfig_removefilterex.htm
 tech.root: DirectShow
 ms.assetid: c3298aa2-4eb2-4e47-9f36-5f2cf541d13e

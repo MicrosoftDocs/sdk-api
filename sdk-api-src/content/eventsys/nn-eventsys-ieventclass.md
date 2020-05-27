@@ -1,7 +1,8 @@
 ---
 UID: NN:eventsys.IEventClass
 title: IEventClass (eventsys.h)
-description: Associates a class of event objects with the event interface those objects implement.helpviewer_keywords: ["IEventClass","IEventClass interface [COM+]","IEventClass interface [COM+]","described","_cos_IEventClass","cos.ieventclass","eventsys/IEventClass"]
+description: Associates a class of event objects with the event interface those objects implement.
+helpviewer_keywords: ["IEventClass","IEventClass interface [COM+]","IEventClass interface [COM+]","described","_cos_IEventClass","cos.ieventclass","eventsys/IEventClass"]
 old-location: cos\ieventclass.htm
 tech.root: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651

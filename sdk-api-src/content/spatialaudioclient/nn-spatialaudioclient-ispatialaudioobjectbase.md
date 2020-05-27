@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectBase
 title: ISpatialAudioObjectBase (spatialaudioclient.h)
-description: Base interface that represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.helpviewer_keywords: ["ISpatialAudioObjectBase","ISpatialAudioObjectBase interface [Core Audio]","ISpatialAudioObjectBase interface [Core Audio]","described","coreaudio.ispatialaudioobjectbase","spatialaudioclient/ISpatialAudioObjectBase"]
+description: Base interface that represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.
+helpviewer_keywords: ["ISpatialAudioObjectBase","ISpatialAudioObjectBase interface [Core Audio]","ISpatialAudioObjectBase interface [Core Audio]","described","coreaudio.ispatialaudioobjectbase","spatialaudioclient/ISpatialAudioObjectBase"]
 old-location: coreaudio\ispatialaudioobjectbase.htm
 tech.root: CoreAudio
 ms.assetid: 54721875-D93A-4C7E-A07E-C286E1A409D3

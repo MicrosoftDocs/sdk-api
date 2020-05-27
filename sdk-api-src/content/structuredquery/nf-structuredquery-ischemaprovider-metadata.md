@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.MetaData
 title: ISchemaProvider::MetaData (structuredquery.h)
-description: Retrieves an enumeration of global IMetaData objects for the loaded schema.helpviewer_keywords: ["ISchemaProvider interface [search]","MetaData method","ISchemaProvider.MetaData","ISchemaProvider::MetaData","MetaData","MetaData method [search]","MetaData method [search]","ISchemaProvider interface","_search_ISchemaProvider_MetaData","search._search_ISchemaProvider_MetaData","structuredquery/ISchemaProvider::MetaData"]
+description: Retrieves an enumeration of global IMetaData objects for the loaded schema.
+helpviewer_keywords: ["ISchemaProvider interface [search]","MetaData method","ISchemaProvider.MetaData","ISchemaProvider::MetaData","MetaData","MetaData method [search]","MetaData method [search]","ISchemaProvider interface","_search_ISchemaProvider_MetaData","search._search_ISchemaProvider_MetaData","structuredquery/ISchemaProvider::MetaData"]
 old-location: search\_search_ISchemaProvider_MetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\metadata.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_ARRAY_RTV
 title: D3D12_TEX2D_ARRAY_RTV (d3d12.h)
-description: Describes the subresources from an array of 2D textures to use in a render-target view.helpviewer_keywords: ["D3D12_TEX2D_ARRAY_RTV","D3D12_TEX2D_ARRAY_RTV structure","d3d12/D3D12_TEX2D_ARRAY_RTV","direct3d12.d3d12_tex2d_array_rtv"]
+description: Describes the subresources from an array of 2D textures to use in a render-target view.
+helpviewer_keywords: ["D3D12_TEX2D_ARRAY_RTV","D3D12_TEX2D_ARRAY_RTV structure","d3d12/D3D12_TEX2D_ARRAY_RTV","direct3d12.d3d12_tex2d_array_rtv"]
 old-location: direct3d12\d3d12_tex2d_array_rtv.htm
 tech.root: direct3d12
 ms.assetid: E20A8045-46A4-40CB-98E9-B148AD2B9BDA

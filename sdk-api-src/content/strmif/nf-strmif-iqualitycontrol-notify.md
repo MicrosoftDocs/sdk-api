@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IQualityControl.Notify
 title: IQualityControl::Notify (strmif.h)
-description: The Notify method notifies the filter that a quality change is requested.helpviewer_keywords: ["IQualityControl interface [DirectShow]","Notify method","IQualityControl.Notify","IQualityControl::Notify","IQualityControlNotify","Notify","Notify method [DirectShow]","Notify method [DirectShow]","IQualityControl interface","dshow.iqualitycontrol_notify","strmif/IQualityControl::Notify"]
+description: The Notify method notifies the filter that a quality change is requested.
+helpviewer_keywords: ["IQualityControl interface [DirectShow]","Notify method","IQualityControl.Notify","IQualityControl::Notify","IQualityControlNotify","Notify","Notify method [DirectShow]","Notify method [DirectShow]","IQualityControl interface","dshow.iqualitycontrol_notify","strmif/IQualityControl::Notify"]
 old-location: dshow\iqualitycontrol_notify.htm
 tech.root: DirectShow
 ms.assetid: c7a34356-b0b2-49c1-bdc2-d8043fdc2862

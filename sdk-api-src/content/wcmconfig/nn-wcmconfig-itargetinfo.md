@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ITargetInfo
 title: ITargetInfo (wcmconfig.h)
-description: Defines the offline target information, specifically, file and registry locations as well as wow64 information.helpviewer_keywords: ["ITargetInfo","ITargetInfo interface [SMI]","ITargetInfo interface [SMI]","described","smi.itargetinfo","wcmconfig/ITargetInfo"]
+description: Defines the offline target information, specifically, file and registry locations as well as wow64 information.
+helpviewer_keywords: ["ITargetInfo","ITargetInfo interface [SMI]","ITargetInfo interface [SMI]","described","smi.itargetinfo","wcmconfig/ITargetInfo"]
 old-location: smi\itargetinfo.htm
 tech.root: SMI
 ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IBandSite.AddBand
 title: IBandSite::AddBand (shobjidl_core.h)
-description: Adds a band to a band site object.helpviewer_keywords: ["AddBand","AddBand method [Windows Shell]","AddBand method [Windows Shell]","IBandSite interface","IBandSite interface [Windows Shell]","AddBand method","IBandSite.AddBand","IBandSite::AddBand","_win32_IBandSite_AddBand","shell.IBandSite_AddBand","shobjidl_core/IBandSite::AddBand"]
+description: Adds a band to a band site object.
+helpviewer_keywords: ["AddBand","AddBand method [Windows Shell]","AddBand method [Windows Shell]","IBandSite interface","IBandSite interface [Windows Shell]","AddBand method","IBandSite.AddBand","IBandSite::AddBand","_win32_IBandSite_AddBand","shell.IBandSite_AddBand","shobjidl_core/IBandSite::AddBand"]
 old-location: shell\IBandSite_AddBand.htm
 tech.root: shell
 ms.assetid: a954aaf2-f862-4aea-8643-a5b453a8d8ee

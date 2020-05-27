@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.GetCandidateNum
 title: ITfCandidateList::GetCandidateNum (ctffunc.h)
-description: ITfCandidateList::GetCandidateNum methodhelpviewer_keywords: ["GetCandidateNum","GetCandidateNum method [Text Services Framework]","GetCandidateNum method [Text Services Framework]","ITfCandidateList interface","ITfCandidateList interface [Text Services Framework]","GetCandidateNum method","ITfCandidateList.GetCandidateNum","ITfCandidateList::GetCandidateNum","_tsf_itfcandidatelist_getcandidatenum_ref","ctffunc/ITfCandidateList::GetCandidateNum","tsf.itfcandidatelist_getcandidatenum"]
+description: ITfCandidateList::GetCandidateNum method
+helpviewer_keywords: ["GetCandidateNum","GetCandidateNum method [Text Services Framework]","GetCandidateNum method [Text Services Framework]","ITfCandidateList interface","ITfCandidateList interface [Text Services Framework]","GetCandidateNum method","ITfCandidateList.GetCandidateNum","ITfCandidateList::GetCandidateNum","_tsf_itfcandidatelist_getcandidatenum_ref","ctffunc/ITfCandidateList::GetCandidateNum","tsf.itfcandidatelist_getcandidatenum"]
 old-location: tsf\itfcandidatelist_getcandidatenum.htm
 tech.root: TSF
 ms.assetid: 53b8f8cc-776c-454a-86fa-6fa3b6ac097b

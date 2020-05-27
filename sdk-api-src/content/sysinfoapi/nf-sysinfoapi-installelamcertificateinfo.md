@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.InstallELAMCertificateInfo
 title: InstallELAMCertificateInfo function (sysinfoapi.h)
-description: Installs the certificate information specified in the resource file, which is linked into the ELAM driver at build time.helpviewer_keywords: ["InstallELAMCertificateInfo","InstallELAMCertificateInfo function","base.installelamcertificateinfo","sysinfoapi/InstallELAMCertificateInfo"]
+description: Installs the certificate information specified in the resource file, which is linked into the ELAM driver at build time.
+helpviewer_keywords: ["InstallELAMCertificateInfo","InstallELAMCertificateInfo function","base.installelamcertificateinfo","sysinfoapi/InstallELAMCertificateInfo"]
 old-location: base\installelamcertificateinfo.htm
 tech.root: Services
 ms.assetid: 0EF40169-A078-4B1E-96EC-5390C75639F8

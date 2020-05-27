@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.IsVarTypeNumber
 title: IsVarTypeNumber function (propvarutil.h)
-description: Specifies whether VARTYPE is a number.helpviewer_keywords: ["IsVarTypeNumber","IsVarTypeNumber function [Windows Properties]","_shell_IsVarTypeNumber","properties.IsVarTypeNumber","propvarutil/IsVarTypeNumber","shell.IsVarTypeNumber"]
+description: Specifies whether VARTYPE is a number.
+helpviewer_keywords: ["IsVarTypeNumber","IsVarTypeNumber function [Windows Properties]","_shell_IsVarTypeNumber","properties.IsVarTypeNumber","propvarutil/IsVarTypeNumber","shell.IsVarTypeNumber"]
 old-location: properties\IsVarTypeNumber.htm
 tech.root: properties
 ms.assetid: 57051571-4871-46dd-8319-9c9f29890603

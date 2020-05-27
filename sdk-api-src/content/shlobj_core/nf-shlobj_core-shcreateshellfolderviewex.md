@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHCreateShellFolderViewEx
 title: SHCreateShellFolderViewEx function (shlobj_core.h)
-description: Creates a new instance of the default Shell folder view object. It is recommended that you use SHCreateShellFolderView rather than this function.helpviewer_keywords: ["SHCreateShellFolderViewEx","SHCreateShellFolderViewEx function [Windows Shell]","_win32_SHCreateShellFolderViewEx","shell.SHCreateShellFolderViewEx","shlobj_core/SHCreateShellFolderViewEx"]
+description: Creates a new instance of the default Shell folder view object. It is recommended that you use SHCreateShellFolderView rather than this function.
+helpviewer_keywords: ["SHCreateShellFolderViewEx","SHCreateShellFolderViewEx function [Windows Shell]","_win32_SHCreateShellFolderViewEx","shell.SHCreateShellFolderViewEx","shlobj_core/SHCreateShellFolderViewEx"]
 old-location: shell\SHCreateShellFolderViewEx.htm
 tech.root: shell
 ms.assetid: 7edd6786-7d74-4065-8cf1-cbb489007a46

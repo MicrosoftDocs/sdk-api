@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange (uianimation.h)
-description: Creates a sinusoidal-range transition, with a specified range of oscillation.helpviewer_keywords: ["CreateSinusoidalTransitionFromRange","CreateSinusoidalTransitionFromRange method [Windows Animation]","CreateSinusoidalTransitionFromRange method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateSinusoidalTransitionFromRange method","IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange","IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange","uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromrange","uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange"]
+description: Creates a sinusoidal-range transition, with a specified range of oscillation.
+helpviewer_keywords: ["CreateSinusoidalTransitionFromRange","CreateSinusoidalTransitionFromRange method [Windows Animation]","CreateSinusoidalTransitionFromRange method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateSinusoidalTransitionFromRange method","IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange","IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange","uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromrange","uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange"]
 old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransitionfromrange.htm
 tech.root: UIAnimation
 ms.assetid: 7164bcac-3de3-4b52-8eb3-d38156573feb

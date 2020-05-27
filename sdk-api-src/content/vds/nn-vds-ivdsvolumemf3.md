@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsVolumeMF3
 title: IVdsVolumeMF3 (vds.h)
-description: Provides methods to perform additional file system management operations on the volume object.helpviewer_keywords: ["IVdsVolumeMF3","IVdsVolumeMF3 interface","IVdsVolumeMF3 interface","described","base.ivdsvolumemf3","vds/IVdsVolumeMF3"]
+description: Provides methods to perform additional file system management operations on the volume object.
+helpviewer_keywords: ["IVdsVolumeMF3","IVdsVolumeMF3 interface","IVdsVolumeMF3 interface","described","base.ivdsvolumemf3","vds/IVdsVolumeMF3"]
 old-location: base\ivdsvolumemf3.htm
 tech.root: VDS
 ms.assetid: 46b8ff26-c00b-45ef-ac30-0aa82786bf9b

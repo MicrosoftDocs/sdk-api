@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.SetIpsecTunnelAddress
 title: IVdsIscsiPortal::SetIpsecTunnelAddress (vds.h)
-description: Not supported.This method is reserved for future use.helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetIpsecTunnelAddress method","IVdsIscsiPortal.SetIpsecTunnelAddress","IVdsIscsiPortal::SetIpsecTunnelAddress","SetIpsecTunnelAddress","SetIpsecTunnelAddress method [VDS]","SetIpsecTunnelAddress method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setipsectunneladdress","vds/IVdsIscsiPortal::SetIpsecTunnelAddress","vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress"]
+description: Not supported.This method is reserved for future use.
+helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetIpsecTunnelAddress method","IVdsIscsiPortal.SetIpsecTunnelAddress","IVdsIscsiPortal::SetIpsecTunnelAddress","SetIpsecTunnelAddress","SetIpsecTunnelAddress method [VDS]","SetIpsecTunnelAddress method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setipsectunneladdress","vds/IVdsIscsiPortal::SetIpsecTunnelAddress","vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress"]
 old-location: base\ivdsiscsiportal_setipsectunneladdress.htm
 tech.root: VDS
 ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7

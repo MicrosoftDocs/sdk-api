@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList.Remove
 title: IImageList::Remove (commoncontrols.h)
-description: Removes an image from an image list.helpviewer_keywords: ["IImageList interface [Windows Controls]","Remove method","IImageList.Remove","IImageList::Remove","Remove","Remove method [Windows Controls]","Remove method [Windows Controls]","IImageList interface","comctl_IImageList_Remove","comctl_IImageList_Remove_cpp","commoncontrols/IImageList::Remove","controls.IImageList_Remove","controls.comctl_IImageList_Remove"]
+description: Removes an image from an image list.
+helpviewer_keywords: ["IImageList interface [Windows Controls]","Remove method","IImageList.Remove","IImageList::Remove","Remove","Remove method [Windows Controls]","Remove method [Windows Controls]","IImageList interface","comctl_IImageList_Remove","comctl_IImageList_Remove_cpp","commoncontrols/IImageList::Remove","controls.IImageList_Remove","controls.comctl_IImageList_Remove"]
 old-location: controls\IImageList_Remove.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\remove.htm

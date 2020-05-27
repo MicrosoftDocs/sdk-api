@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IDiscFormat2
 title: IDiscFormat2 (imapi2.h)
-description: This is a base interface. Use the following interfaces which inherit this interface IDiscFormat2Data, IDiscFormat2Erase, IDiscFormat2TrackAtOnce, IDiscFormat2RawCDhelpviewer_keywords: ["IDiscFormat2","IDiscFormat2 interface [IMAPI]","IDiscFormat2 interface [IMAPI]","described","imapi.idiscformat2","imapi2/IDiscFormat2"]
+description: This is a base interface. Use the following interfaces which inherit this interface IDiscFormat2Data, IDiscFormat2Erase, IDiscFormat2TrackAtOnce, IDiscFormat2RawCD
+helpviewer_keywords: ["IDiscFormat2","IDiscFormat2 interface [IMAPI]","IDiscFormat2 interface [IMAPI]","described","imapi.idiscformat2","imapi2/IDiscFormat2"]
 old-location: imapi\idiscformat2.htm
 tech.root: imapi
 ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3

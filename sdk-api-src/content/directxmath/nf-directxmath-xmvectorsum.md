@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSum
 title: XMVectorSum function (directxmath.h)
-description: Computes the horizontal sum of the components of an XMVECTOR. The horizontal sum is the result of adding each component in the vector together.helpviewer_keywords: ["Use DirectX..XMVectorSum","XMVectorSum","XMVectorSum method [DirectX Math Support APIs]","dxmath.xmvectorsum"]
+description: Computes the horizontal sum of the components of an XMVECTOR. The horizontal sum is the result of adding each component in the vector together.
+helpviewer_keywords: ["Use DirectX..XMVectorSum","XMVectorSum","XMVectorSum method [DirectX Math Support APIs]","dxmath.xmvectorsum"]
 old-location: dxmath\xmvectorsum.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSum(FXMVECTOR)

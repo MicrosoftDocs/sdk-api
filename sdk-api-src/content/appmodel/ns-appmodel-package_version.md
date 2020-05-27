@@ -1,7 +1,8 @@
 ---
 UID: NS:appmodel.PACKAGE_VERSION
 title: PACKAGE_VERSION (appmodel.h)
-description: Represents the package version information.helpviewer_keywords: ["PACKAGE_VERSION","PACKAGE_VERSION structure [App packaging and management]","appmodel/PACKAGE_VERSION","appxpkg.package_version"]
+description: Represents the package version information.
+helpviewer_keywords: ["PACKAGE_VERSION","PACKAGE_VERSION structure [App packaging and management]","appmodel/PACKAGE_VERSION","appxpkg.package_version"]
 old-location: appxpkg\package_version.htm
 tech.root: appxpkg
 ms.assetid: 8543DF84-A908-4DF5-AEE6-169FECB2AA97

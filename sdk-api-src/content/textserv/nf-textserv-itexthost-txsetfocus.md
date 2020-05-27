@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxSetFocus
 title: ITextHost::TxSetFocus (textserv.h)
-description: Sets the focus to the text host window.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxSetFocus method","ITextHost.TxSetFocus","ITextHost::TxSetFocus","TxSetFocus","TxSetFocus method [Windows Controls]","TxSetFocus method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxSetFocus","_win32_ITextHost_TxSetFocus_cpp","controls.ITextHost_TxSetFocus","controls._win32_ITextHost_TxSetFocus","textserv/ITextHost::TxSetFocus"]
+description: Sets the focus to the text host window.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxSetFocus method","ITextHost.TxSetFocus","ITextHost::TxSetFocus","TxSetFocus","TxSetFocus method [Windows Controls]","TxSetFocus method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxSetFocus","_win32_ITextHost_TxSetFocus_cpp","controls.ITextHost_TxSetFocus","controls._win32_ITextHost_TxSetFocus","textserv/ITextHost::TxSetFocus"]
 old-location: controls\ITextHost_TxSetFocus.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetfocus.htm

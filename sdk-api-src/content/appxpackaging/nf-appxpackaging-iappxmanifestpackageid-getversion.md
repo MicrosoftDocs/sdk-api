@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetVersion
 title: IAppxManifestPackageId::GetVersion (appxpackaging.h)
-description: Gets the version of the package as defined in the manifest.helpviewer_keywords: ["GetVersion","GetVersion method [App packaging and management]","GetVersion method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","GetVersion method","IAppxManifestPackageId.GetVersion","IAppxManifestPackageId::GetVersion","appxpackaging/IAppxManifestPackageId::GetVersion","appxpkg.iappxmanifestpackageid_getversion"]
+description: Gets the version of the package as defined in the manifest.
+helpviewer_keywords: ["GetVersion","GetVersion method [App packaging and management]","GetVersion method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","GetVersion method","IAppxManifestPackageId.GetVersion","IAppxManifestPackageId::GetVersion","appxpackaging/IAppxManifestPackageId::GetVersion","appxpkg.iappxmanifestpackageid_getversion"]
 old-location: appxpkg\iappxmanifestpackageid_getversion.htm
 tech.root: appxpkg
 ms.assetid: 85684359-9244-4130-BF0F-56DDB6427345

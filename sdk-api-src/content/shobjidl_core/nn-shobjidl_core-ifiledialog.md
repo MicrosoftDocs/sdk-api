@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFileDialog
 title: IFileDialog (shobjidl_core.h)
-description: Exposes methods that initialize, show, and get results from the common file dialog.helpviewer_keywords: ["IFileDialog","IFileDialog interface [Windows Shell]","IFileDialog interface [Windows Shell]","described","shell.IFileDialog","shell_IFileDialog","shobjidl_core/IFileDialog"]
+description: Exposes methods that initialize, show, and get results from the common file dialog.
+helpviewer_keywords: ["IFileDialog","IFileDialog interface [Windows Shell]","IFileDialog interface [Windows Shell]","described","shell.IFileDialog","shell_IFileDialog","shobjidl_core/IFileDialog"]
 old-location: shell\IFileDialog.htm
 tech.root: shell
 ms.assetid: 9341bb68-2410-4e03-8acd-fef29287b61c

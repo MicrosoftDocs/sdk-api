@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4CreateClientInfo
 title: DhcpV4CreateClientInfo function (dhcpsapi.h)
-description: Creates a DHCPv4 client lease record in the DHCP server database.helpviewer_keywords: ["DhcpV4CreateClientInfo","DhcpV4CreateClientInfo function [DHCP]","dhcp.dhcpv4createclientinfo","dhcpsapi/DhcpV4CreateClientInfo"]
+description: Creates a DHCPv4 client lease record in the DHCP server database.
+helpviewer_keywords: ["DhcpV4CreateClientInfo","DhcpV4CreateClientInfo function [DHCP]","dhcp.dhcpv4createclientinfo","dhcpsapi/DhcpV4CreateClientInfo"]
 old-location: dhcp\dhcpv4createclientinfo.htm
 tech.root: DHCP
 ms.assetid: 467aa6c3-9ccb-4984-8ad7-409d593ac856

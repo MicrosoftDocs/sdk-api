@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
 title: IVdsDiskPartitionMF::GetPartitionFileSystemTypeName (vds.h)
-description: Retrieves the name of the file system on a partition on the disk at a specified byte offset.helpviewer_keywords: ["GetPartitionFileSystemTypeName","GetPartitionFileSystemTypeName method","GetPartitionFileSystemTypeName method","IVdsDiskPartitionMF interface","IVdsDiskPartitionMF interface","GetPartitionFileSystemTypeName method","IVdsDiskPartitionMF.GetPartitionFileSystemTypeName","IVdsDiskPartitionMF::GetPartitionFileSystemTypeName","base.ivdsdiskpartitionmf_getpartitionfilesystemtypename","vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName"]
+description: Retrieves the name of the file system on a partition on the disk at a specified byte offset.
+helpviewer_keywords: ["GetPartitionFileSystemTypeName","GetPartitionFileSystemTypeName method","GetPartitionFileSystemTypeName method","IVdsDiskPartitionMF interface","IVdsDiskPartitionMF interface","GetPartitionFileSystemTypeName method","IVdsDiskPartitionMF.GetPartitionFileSystemTypeName","IVdsDiskPartitionMF::GetPartitionFileSystemTypeName","base.ivdsdiskpartitionmf_getpartitionfilesystemtypename","vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName"]
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemtypename.htm
 tech.root: VDS
 ms.assetid: ad2f8c5b-6a85-437a-bb51-0c4552a015b2

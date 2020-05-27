@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_PropertyConditions
 title: IFsrmFileManagementJob::get_PropertyConditions (fsrmreports.h)
-description: A list of property conditions specified for the job.helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","PropertyConditions property","IFsrmFileManagementJob.PropertyConditions","IFsrmFileManagementJob.get_PropertyConditions","IFsrmFileManagementJob::PropertyConditions","IFsrmFileManagementJob::get_PropertyConditions","PropertyConditions property [File Server Resource Manager]","PropertyConditions property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_propertyconditions","fsrm.ifsrmfilemanagementjob_propertyconditions","fsrmreports/IFsrmFileManagementJob::PropertyConditions","fsrmreports/IFsrmFileManagementJob::get_PropertyConditions","get_PropertyConditions"]
+description: A list of property conditions specified for the job.
+helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","PropertyConditions property","IFsrmFileManagementJob.PropertyConditions","IFsrmFileManagementJob.get_PropertyConditions","IFsrmFileManagementJob::PropertyConditions","IFsrmFileManagementJob::get_PropertyConditions","PropertyConditions property [File Server Resource Manager]","PropertyConditions property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_propertyconditions","fsrm.ifsrmfilemanagementjob_propertyconditions","fsrmreports/IFsrmFileManagementJob::PropertyConditions","fsrmreports/IFsrmFileManagementJob::get_PropertyConditions","get_PropertyConditions"]
 old-location: fsrm\ifsrmfilemanagementjob_propertyconditions.htm
 tech.root: fsrm
 ms.assetid: 49435c4b-211e-4aae-a6b3-ad40de811526

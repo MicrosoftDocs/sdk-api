@@ -1,7 +1,8 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNeutralAxis
 title: IDeviceModelPlugIn::GetNeutralAxis (wcsplugin.h)
-description: The IDeviceModelPlugIn::GetNeutralAxis return the XYZ colorimetry of sample points along the device's neutral axis.helpviewer_keywords: ["GetNeutralAxis","GetNeutralAxis method [Windows Color System]","GetNeutralAxis method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","GetNeutralAxis method","IDeviceModelPlugIn.GetNeutralAxis","IDeviceModelPlugIn::GetNeutralAxis","_color_IDeviceModelPlugIn::GetNeutralAxis","wcs.IDeviceModelPlugIn_GetNeutralAxis","wcsplugin/IDeviceModelPlugIn::GetNeutralAxis"]
+description: The IDeviceModelPlugIn::GetNeutralAxis return the XYZ colorimetry of sample points along the device's neutral axis.
+helpviewer_keywords: ["GetNeutralAxis","GetNeutralAxis method [Windows Color System]","GetNeutralAxis method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","GetNeutralAxis method","IDeviceModelPlugIn.GetNeutralAxis","IDeviceModelPlugIn::GetNeutralAxis","_color_IDeviceModelPlugIn::GetNeutralAxis","wcs.IDeviceModelPlugIn_GetNeutralAxis","wcsplugin/IDeviceModelPlugIn::GetNeutralAxis"]
 old-location: wcs\IDeviceModelPlugIn_GetNeutralAxis.htm
 tech.root: WCS
 ms.assetid: 9a3557e0-d533-4357-aa2a-7e168482927a

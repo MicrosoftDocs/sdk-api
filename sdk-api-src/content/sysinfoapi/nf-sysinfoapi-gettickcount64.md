@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetTickCount64
 title: GetTickCount64 function (sysinfoapi.h)
-description: Retrieves the number of milliseconds that have elapsed since the system was started.helpviewer_keywords: ["GetTickCount64","GetTickCount64 function","base.gettickcount64","sysinfoapi/GetTickCount64"]
+description: Retrieves the number of milliseconds that have elapsed since the system was started.
+helpviewer_keywords: ["GetTickCount64","GetTickCount64 function","base.gettickcount64","sysinfoapi/GetTickCount64"]
 old-location: base\gettickcount64.htm
 tech.root: SysInfo
 ms.assetid: 3ebf05b9-cc53-43ae-bbcb-7841793a9d84

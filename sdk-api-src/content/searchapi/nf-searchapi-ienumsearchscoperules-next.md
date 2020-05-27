@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Next
 title: IEnumSearchScopeRules::Next (searchapi.h)
-description: Retrieves the specified number of ISearchScopeRule elements.helpviewer_keywords: ["IEnumSearchScopeRules interface [search]","Next method","IEnumSearchScopeRules.Next","IEnumSearchScopeRules::Next","Next","Next method [search]","Next method [search]","IEnumSearchScopeRules interface","_search_IEnumSearchScopeRules_Next","search._search_IEnumSearchScopeRules_Next","searchapi/IEnumSearchScopeRules::Next"]
+description: Retrieves the specified number of ISearchScopeRule elements.
+helpviewer_keywords: ["IEnumSearchScopeRules interface [search]","Next method","IEnumSearchScopeRules.Next","IEnumSearchScopeRules::Next","Next","Next method [search]","Next method [search]","IEnumSearchScopeRules interface","_search_IEnumSearchScopeRules_Next","search._search_IEnumSearchScopeRules_Next","searchapi/IEnumSearchScopeRules::Next"]
 old-location: search\_search_IEnumSearchScopeRules_Next.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\next.htm

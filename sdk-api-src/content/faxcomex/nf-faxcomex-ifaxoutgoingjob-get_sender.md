@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Sender
 title: IFaxOutgoingJob::get_Sender (faxcomex.h)
-description: The IFaxOutgoingJob::get_Sender property retrieves an object containing information about the sender of the fax.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Sender property","IFaxOutgoingJob.Sender","IFaxOutgoingJob.get_Sender","IFaxOutgoingJob::Sender","IFaxOutgoingJob::get_Sender","Sender property [Fax Service]","Sender property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.sender_cpp","fax._mfax_faxoutgoingjob_sender_cpp","faxcomex/IFaxOutgoingJob::Sender","faxcomex/IFaxOutgoingJob::get_Sender","get_Sender"]
+description: The IFaxOutgoingJob::get_Sender property retrieves an object containing information about the sender of the fax.
+helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Sender property","IFaxOutgoingJob.Sender","IFaxOutgoingJob.get_Sender","IFaxOutgoingJob::Sender","IFaxOutgoingJob::get_Sender","Sender property [Fax Service]","Sender property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.sender_cpp","fax._mfax_faxoutgoingjob_sender_cpp","faxcomex/IFaxOutgoingJob::Sender","faxcomex/IFaxOutgoingJob::get_Sender","get_Sender"]
 old-location: fax\_mfax_faxoutgoingjob_sender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qsy_cpp.htm

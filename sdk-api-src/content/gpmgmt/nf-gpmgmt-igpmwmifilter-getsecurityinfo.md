@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.GetSecurityInfo
 title: IGPMWMIFilter::GetSecurityInfo (gpmgmt.h)
-description: Returns an interface or object that represents the list of permissions for the current WMI filter.helpviewer_keywords: ["GPMWMIFilter class [GPMC]","GetSecurityInfo method","GetSecurityInfo","GetSecurityInfo method [GPMC]","GetSecurityInfo method [GPMC]","GPMWMIFilter class","GetSecurityInfo method [GPMC]","IGPMWMIFilter interface","IGPMWMIFilter interface [GPMC]","GetSecurityInfo method","IGPMWMIFilter.GetSecurityInfo","IGPMWMIFilter::GetSecurityInfo","_win32_igpmwmifilter_getsecurityinfo","gpmc.igpmwmifilter_getsecurityinfo","gpmgmt/IGPMWMIFilter::GetSecurityInfo"]
+description: Returns an interface or object that represents the list of permissions for the current WMI filter.
+helpviewer_keywords: ["GPMWMIFilter class [GPMC]","GetSecurityInfo method","GetSecurityInfo","GetSecurityInfo method [GPMC]","GetSecurityInfo method [GPMC]","GPMWMIFilter class","GetSecurityInfo method [GPMC]","IGPMWMIFilter interface","IGPMWMIFilter interface [GPMC]","GetSecurityInfo method","IGPMWMIFilter.GetSecurityInfo","IGPMWMIFilter::GetSecurityInfo","_win32_igpmwmifilter_getsecurityinfo","gpmc.igpmwmifilter_getsecurityinfo","gpmgmt/IGPMWMIFilter::GetSecurityInfo"]
 old-location: gpmc\igpmwmifilter_getsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: c576c842-53ce-40af-8dba-4f15e25cf493

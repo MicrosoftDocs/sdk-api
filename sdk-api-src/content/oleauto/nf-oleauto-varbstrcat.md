@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBstrCat
 title: VarBstrCat function (oleauto.h)
-description: Concatenates two variants of type BSTR and returns the resulting BSTR.helpviewer_keywords: ["VarBstrCat","VarBstrCat function [Automation]","_oa96_VarBstrCat","automat.varbstrcat","oleauto/VarBstrCat"]
+description: Concatenates two variants of type BSTR and returns the resulting BSTR.
+helpviewer_keywords: ["VarBstrCat","VarBstrCat function [Automation]","_oa96_VarBstrCat","automat.varbstrcat","oleauto/VarBstrCat"]
 old-location: automat\varbstrcat.htm
 tech.root: automat
 ms.assetid: e23e1130-dd95-43ec-8ea3-c213fd6b0b25

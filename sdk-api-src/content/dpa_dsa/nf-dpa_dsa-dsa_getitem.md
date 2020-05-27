@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DSA_GetItem
 title: DSA_GetItem function (dpa_dsa.h)
-description: Gets an element from a dynamic structure array (DSA).helpviewer_keywords: ["DSA_GetItem","DSA_GetItem function [Windows Controls]","_win32_DSA_GetItem","_win32_DSA_GetItem_cpp","controls.DSA_GetItem","controls._win32_DSA_GetItem","dpa_dsa/DSA_GetItem"]
+description: Gets an element from a dynamic structure array (DSA).
+helpviewer_keywords: ["DSA_GetItem","DSA_GetItem function [Windows Controls]","_win32_DSA_GetItem","_win32_DSA_GetItem_cpp","controls.DSA_GetItem","controls._win32_DSA_GetItem","dpa_dsa/DSA_GetItem"]
 old-location: controls\DSA_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitem.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetDefaultIcon
 title: IDefaultExtractIconInit::SetDefaultIcon (shobjidl_core.h)
-description: Sets the default icon.helpviewer_keywords: ["IDefaultExtractIconInit interface [Windows Shell]","SetDefaultIcon method","IDefaultExtractIconInit.SetDefaultIcon","IDefaultExtractIconInit::SetDefaultIcon","SetDefaultIcon","SetDefaultIcon method [Windows Shell]","SetDefaultIcon method [Windows Shell]","IDefaultExtractIconInit interface","_shell_IDefaultExtractIconInit_SetDefaultIcon","shell.IDefaultExtractIconInit_SetDefaultIcon","shobjidl_core/IDefaultExtractIconInit::SetDefaultIcon"]
+description: Sets the default icon.
+helpviewer_keywords: ["IDefaultExtractIconInit interface [Windows Shell]","SetDefaultIcon method","IDefaultExtractIconInit.SetDefaultIcon","IDefaultExtractIconInit::SetDefaultIcon","SetDefaultIcon","SetDefaultIcon method [Windows Shell]","SetDefaultIcon method [Windows Shell]","IDefaultExtractIconInit interface","_shell_IDefaultExtractIconInit_SetDefaultIcon","shell.IDefaultExtractIconInit_SetDefaultIcon","shobjidl_core/IDefaultExtractIconInit::SetDefaultIcon"]
 old-location: shell\IDefaultExtractIconInit_SetDefaultIcon.htm
 tech.root: shell
 ms.assetid: 7a834c1e-602a-4736-8807-7dd04c6dc5c2

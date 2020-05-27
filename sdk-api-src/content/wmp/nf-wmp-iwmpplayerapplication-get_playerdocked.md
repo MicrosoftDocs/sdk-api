@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.get_playerDocked
 title: IWMPPlayerApplication::get_playerDocked (wmp.h)
-description: The get_playerDocked method retrieves a value indicating whether Windows Media Player is in a docked state.helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","get_playerDocked method","IWMPPlayerApplication.get_playerDocked","IWMPPlayerApplication::get_playerDocked","IWMPPlayerApplicationget_playerDocked","get_playerDocked","get_playerDocked method [Windows Media Player]","get_playerDocked method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_get_playerdocked","wmp/IWMPPlayerApplication::get_playerDocked"]
+description: The get_playerDocked method retrieves a value indicating whether Windows Media Player is in a docked state.
+helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","get_playerDocked method","IWMPPlayerApplication.get_playerDocked","IWMPPlayerApplication::get_playerDocked","IWMPPlayerApplicationget_playerDocked","get_playerDocked","get_playerDocked method [Windows Media Player]","get_playerDocked method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_get_playerdocked","wmp/IWMPPlayerApplication::get_playerDocked"]
 old-location: wmp\iwmpplayerapplication_get_playerdocked.htm
 tech.root: WMP
 ms.assetid: ca590b80-433d-4a9f-9d6b-cbb33d328fda

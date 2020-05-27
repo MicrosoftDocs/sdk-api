@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemprov.IWbemEventProvider.ProvideEvents
 title: IWbemEventProvider::ProvideEvents (wbemprov.h)
-description: Windows Management calls the IWbemEventProvider::ProvideEvents method to signal an event provider to begin delivery of its events.helpviewer_keywords: ["IWbemEventProvider interface [Windows Management Instrumentation]","ProvideEvents method","IWbemEventProvider.ProvideEvents","IWbemEventProvider::ProvideEvents","ProvideEvents","ProvideEvents method [Windows Management Instrumentation]","ProvideEvents method [Windows Management Instrumentation]","IWbemEventProvider interface","_hmm_iwbemeventprovider_provideevents","wbemprov/IWbemEventProvider::ProvideEvents","wmi.iwbemeventprovider_provideevents"]
+description: Windows Management calls the IWbemEventProvider::ProvideEvents method to signal an event provider to begin delivery of its events.
+helpviewer_keywords: ["IWbemEventProvider interface [Windows Management Instrumentation]","ProvideEvents method","IWbemEventProvider.ProvideEvents","IWbemEventProvider::ProvideEvents","ProvideEvents","ProvideEvents method [Windows Management Instrumentation]","ProvideEvents method [Windows Management Instrumentation]","IWbemEventProvider interface","_hmm_iwbemeventprovider_provideevents","wbemprov/IWbemEventProvider::ProvideEvents","wmi.iwbemeventprovider_provideevents"]
 old-location: wmi\iwbemeventprovider_provideevents.htm
 tech.root: WmiSdk
 ms.assetid: 0ebabdaf-fd91-49f8-8454-38ff77952662

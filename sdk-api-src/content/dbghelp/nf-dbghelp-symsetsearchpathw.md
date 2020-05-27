@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSetSearchPathW
 title: SymSetSearchPathW function (dbghelp.h)
-description: Sets the search path for the specified process.helpviewer_keywords: ["SymSetSearchPath","SymSetSearchPath function","SymSetSearchPathW","_win32_symsetsearchpath","base.symsetsearchpath","dbghelp/SymSetSearchPath","dbghelp/SymSetSearchPathW"]
+description: Sets the search path for the specified process.
+helpviewer_keywords: ["SymSetSearchPath","SymSetSearchPath function","SymSetSearchPathW","_win32_symsetsearchpath","base.symsetsearchpath","dbghelp/SymSetSearchPath","dbghelp/SymSetSearchPathW"]
 old-location: base\symsetsearchpath.htm
 tech.root: Debug
 ms.assetid: 564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d

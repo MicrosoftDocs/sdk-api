@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetStatus
 title: IDesktopWallpaper::GetStatus (shobjidl_core.h)
-description: Gets the current status of the slideshow.helpviewer_keywords: ["DSS_DISABLED_BY_REMOTE_SESSION","DSS_ENABLED","DSS_SLIDESHOW","GetStatus","GetStatus method [Windows Shell]","GetStatus method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetStatus method","IDesktopWallpaper.GetStatus","IDesktopWallpaper::GetStatus","shell.IDesktopWallpaper_GetStatus","shobjidl_core/IDesktopWallpaper::GetStatus"]
+description: Gets the current status of the slideshow.
+helpviewer_keywords: ["DSS_DISABLED_BY_REMOTE_SESSION","DSS_ENABLED","DSS_SLIDESHOW","GetStatus","GetStatus method [Windows Shell]","GetStatus method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetStatus method","IDesktopWallpaper.GetStatus","IDesktopWallpaper::GetStatus","shell.IDesktopWallpaper_GetStatus","shobjidl_core/IDesktopWallpaper::GetStatus"]
 old-location: shell\IDesktopWallpaper_GetStatus.htm
 tech.root: shell
 ms.assetid: 19F2776E-0B5F-45c9-962A-08BFC0273066

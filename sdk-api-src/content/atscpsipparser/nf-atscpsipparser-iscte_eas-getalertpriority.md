@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetAlertPriority
 title: ISCTE_EAS::GetAlertPriority (atscpsipparser.h)
-description: The GetAlertPriority method returns the alert priority.helpviewer_keywords: ["GetAlertPriority","GetAlertPriority method [Microsoft TV Technologies]","GetAlertPriority method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetAlertPriority method","ISCTE_EAS.GetAlertPriority","ISCTE_EAS::GetAlertPriority","ISCTE_EASGetAlertPriority","atscpsipparser/ISCTE_EAS::GetAlertPriority","mstv.iscte_eas_getalertpriority"]
+description: The GetAlertPriority method returns the alert priority.
+helpviewer_keywords: ["GetAlertPriority","GetAlertPriority method [Microsoft TV Technologies]","GetAlertPriority method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetAlertPriority method","ISCTE_EAS.GetAlertPriority","ISCTE_EAS::GetAlertPriority","ISCTE_EASGetAlertPriority","atscpsipparser/ISCTE_EAS::GetAlertPriority","mstv.iscte_eas_getalertpriority"]
 old-location: mstv\iscte_eas_getalertpriority.htm
 tech.root: mstv
 ms.assetid: 3862ae19-972b-4822-8b52-5a868a2fc58d

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySorting
 title: ISearchQueryHelper::put_QuerySorting (searchapi.h)
-description: Sets the sort order for the query result set.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QuerySorting method","ISearchQueryHelper.put_QuerySorting","ISearchQueryHelper::put_QuerySorting","_search_ISearchQueryHelper_put_QuerySorting","put_QuerySorting","put_QuerySorting method [search]","put_QuerySorting method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QuerySorting","searchapi/ISearchQueryHelper::put_QuerySorting"]
+description: Sets the sort order for the query result set.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QuerySorting method","ISearchQueryHelper.put_QuerySorting","ISearchQueryHelper::put_QuerySorting","_search_ISearchQueryHelper_put_QuerySorting","put_QuerySorting","put_QuerySorting method [search]","put_QuerySorting method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QuerySorting","searchapi/ISearchQueryHelper::put_QuerySorting"]
 old-location: search\_search_ISearchQueryHelper_put_QuerySorting.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysorting.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnVendorSpecificOperation
 title: IMbnVendorSpecificOperation (mbnapi.h)
-description: Interface to pass requests from an application to the underlying Mobile Broadband miniport drivers.helpviewer_keywords: ["IMbnVendorSpecificOperation","IMbnVendorSpecificOperation interface [Microsoft Broadband Networks]","IMbnVendorSpecificOperation interface [Microsoft Broadband Networks]","described","mbn.imbnvendorspecificoperation","mbnapi/IMbnVendorSpecificOperation"]
+description: Interface to pass requests from an application to the underlying Mobile Broadband miniport drivers.
+helpviewer_keywords: ["IMbnVendorSpecificOperation","IMbnVendorSpecificOperation interface [Microsoft Broadband Networks]","IMbnVendorSpecificOperation interface [Microsoft Broadband Networks]","described","mbn.imbnvendorspecificoperation","mbnapi/IMbnVendorSpecificOperation"]
 old-location: mbn\imbnvendorspecificoperation.htm
 tech.root: mbn
 ms.assetid: cbc905f6-c5ac-4c6a-9021-4ec00b938bb2

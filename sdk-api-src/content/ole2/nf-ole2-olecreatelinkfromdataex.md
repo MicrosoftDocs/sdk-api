@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateLinkFromDataEx
 title: OleCreateLinkFromDataEx function (ole2.h)
-description: Extends OleCreateLinkFromData functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkFromData.helpviewer_keywords: ["OleCreateLinkFromDataEx","OleCreateLinkFromDataEx function [COM]","_ole_OleCreateLinkFromDataEx","com.olecreatelinkfromdataex","ole2/OleCreateLinkFromDataEx"]
+description: Extends OleCreateLinkFromData functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkFromData.
+helpviewer_keywords: ["OleCreateLinkFromDataEx","OleCreateLinkFromDataEx function [COM]","_ole_OleCreateLinkFromDataEx","com.olecreatelinkfromdataex","ole2/OleCreateLinkFromDataEx"]
 old-location: com\olecreatelinkfromdataex.htm
 tech.root: com
 ms.assetid: f486dc73-3cb9-4839-931a-91cc3a5837d3

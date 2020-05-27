@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink)
 title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink) (d2d1_3.h)
-description: Retrieves a geometric representation of this ink object.helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","StreamAsGeometry method","ID2D1Ink.StreamAsGeometry","ID2D1Ink.StreamAsGeometry(ID2D1InkStyle","const D2D1_MATRIX_3X2_F &","ID2D1SimplifiedGeometrySink)","ID2D1Ink::StreamAsGeometry","ID2D1Ink::StreamAsGeometry(ID2D1InkStyle","const D2D1_MATRIX_3X2_F &","ID2D1SimplifiedGeometrySink)","StreamAsGeometry","StreamAsGeometry method [Direct2D]","StreamAsGeometry method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::StreamAsGeometry","direct2d.id2d1ink_streamasgeometry_4"]
+description: Retrieves a geometric representation of this ink object.
+helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","StreamAsGeometry method","ID2D1Ink.StreamAsGeometry","ID2D1Ink.StreamAsGeometry(ID2D1InkStyle","const D2D1_MATRIX_3X2_F &","ID2D1SimplifiedGeometrySink)","ID2D1Ink::StreamAsGeometry","ID2D1Ink::StreamAsGeometry(ID2D1InkStyle","const D2D1_MATRIX_3X2_F &","ID2D1SimplifiedGeometrySink)","StreamAsGeometry","StreamAsGeometry method [Direct2D]","StreamAsGeometry method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::StreamAsGeometry","direct2d.id2d1ink_streamasgeometry_4"]
 old-location: direct2d\id2d1ink_streamasgeometry_4.htm
 tech.root: Direct2D
 ms.assetid: CCAC4872-47FF-4E0D-BE43-2DF6D5882E26

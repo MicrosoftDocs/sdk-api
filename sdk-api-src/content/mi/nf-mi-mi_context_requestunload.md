@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_RequestUnload
 title: MI_Context_RequestUnload function (mi.h)
-description: Requests to unload the module or the provider.helpviewer_keywords: ["MI_Context_RequestUnload","MI_Context_RequestUnload function [Windows Management Infrastructure (MI)]","mi/MI_Context_RequestUnload","wmi.mi_requestunload","wmi_v2.mi_context_requestunload"]
+description: Requests to unload the module or the provider.
+helpviewer_keywords: ["MI_Context_RequestUnload","MI_Context_RequestUnload function [Windows Management Infrastructure (MI)]","mi/MI_Context_RequestUnload","wmi.mi_requestunload","wmi_v2.mi_context_requestunload"]
 old-location: wmi_v2\mi_context_requestunload.htm
 tech.root: wmi_v2
 ms.assetid: 1eb20bff-326d-4d2f-9b71-a14ca8975597

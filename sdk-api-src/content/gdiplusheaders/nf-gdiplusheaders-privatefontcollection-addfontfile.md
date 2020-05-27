@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.AddFontFile
 title: PrivateFontCollection::AddFontFile (gdiplusheaders.h)
-description: The PrivateFontCollection::AddFontFile method adds a font file to this private font collection.helpviewer_keywords: ["AddFontFile","AddFontFile method [GDI+]","AddFontFile method [GDI+]","PrivateFontCollection class","PrivateFontCollection class [GDI+]","AddFontFile method","PrivateFontCollection.AddFontFile","PrivateFontCollection::AddFontFile","_gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_","gdiplus._gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_"]
+description: The PrivateFontCollection::AddFontFile method adds a font file to this private font collection.
+helpviewer_keywords: ["AddFontFile","AddFontFile method [GDI+]","AddFontFile method [GDI+]","PrivateFontCollection class","PrivateFontCollection class [GDI+]","AddFontFile method","PrivateFontCollection.AddFontFile","PrivateFontCollection::AddFontFile","_gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_","gdiplus._gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_"]
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_AddFontFile_filename_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollectionmethods\addfontfile.htm

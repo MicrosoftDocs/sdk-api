@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLVDISPINFOW
 title: NMLVDISPINFOW (commctrl.h)
-description: Contains information about an LVN_GETDISPINFO or LVN_SETDISPINFO notification code. This structure is the same as the LV_DISPINFO structure, but has been renamed to fit standard naming conventions.helpviewer_keywords: ["*LPNMLVDISPINFOW","NMLVDISPINFO","NMLVDISPINFO structure [Windows Controls]","NMLVDISPINFOA","NMLVDISPINFOW","_win32_NMLVDISPINFO","_win32_NMLVDISPINFO_cpp","commctrl/NMLVDISPINFO","commctrl/NMLVDISPINFOA","commctrl/NMLVDISPINFOW","controls.NMLVDISPINFO","controls._win32_NMLVDISPINFO"]
+description: Contains information about an LVN_GETDISPINFO or LVN_SETDISPINFO notification code. This structure is the same as the LV_DISPINFO structure, but has been renamed to fit standard naming conventions.
+helpviewer_keywords: ["*LPNMLVDISPINFOW","NMLVDISPINFO","NMLVDISPINFO structure [Windows Controls]","NMLVDISPINFOA","NMLVDISPINFOW","_win32_NMLVDISPINFO","_win32_NMLVDISPINFO_cpp","commctrl/NMLVDISPINFO","commctrl/NMLVDISPINFOA","commctrl/NMLVDISPINFOW","controls.NMLVDISPINFO","controls._win32_NMLVDISPINFO"]
 old-location: controls\NMLVDISPINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvdispinfo.htm

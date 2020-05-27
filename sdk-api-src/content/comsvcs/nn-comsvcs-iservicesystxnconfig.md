@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IServiceSysTxnConfig
 title: IServiceSysTxnConfig (comsvcs.h)
-description: Enables you to run a set of code in the scope of an existing transaction that you specify with a transaction proxy.helpviewer_keywords: ["IServiceSysTxnConfig","IServiceSysTxnConfig interface [COM+]","IServiceSysTxnConfig interface [COM+]","described","comsvcs/IServiceSysTxnConfig","cos.iservicesystxnconfig"]
+description: Enables you to run a set of code in the scope of an existing transaction that you specify with a transaction proxy.
+helpviewer_keywords: ["IServiceSysTxnConfig","IServiceSysTxnConfig interface [COM+]","IServiceSysTxnConfig interface [COM+]","described","comsvcs/IServiceSysTxnConfig","cos.iservicesystxnconfig"]
 old-location: cos\iservicesystxnconfig.htm
 tech.root: cossdk
 ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6

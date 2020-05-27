@@ -1,7 +1,8 @@
 ---
 UID: NE:wbemdisp.WbemChangeFlagEnum
 title: WbemChangeFlagEnum (wbemdisp.h)
-description: Define how a write operation to a class or an instance is carried out.helpviewer_keywords: ["WbemChangeFlagEnum","WbemChangeFlagEnum enumeration [Windows Management Instrumentation]","_hmm_wbemchangeflagenum","wbemChangeFlagCreateOnly","wbemChangeFlagCreateOrUpdate","wbemChangeFlagStrongValidation","wbemChangeFlagUpdateCompatible","wbemChangeFlagUpdateForceMode","wbemChangeFlagUpdateOnly","wbemChangeFlagUpdateSafeMode","wbemdisp/WbemChangeFlagEnum","wbemdisp/wbemChangeFlagCreateOnly","wbemdisp/wbemChangeFlagCreateOrUpdate","wbemdisp/wbemChangeFlagStrongValidation","wbemdisp/wbemChangeFlagUpdateCompatible","wbemdisp/wbemChangeFlagUpdateForceMode","wbemdisp/wbemChangeFlagUpdateOnly","wbemdisp/wbemChangeFlagUpdateSafeMode","wmi.wbemchangeflagenum"]
+description: Define how a write operation to a class or an instance is carried out.
+helpviewer_keywords: ["WbemChangeFlagEnum","WbemChangeFlagEnum enumeration [Windows Management Instrumentation]","_hmm_wbemchangeflagenum","wbemChangeFlagCreateOnly","wbemChangeFlagCreateOrUpdate","wbemChangeFlagStrongValidation","wbemChangeFlagUpdateCompatible","wbemChangeFlagUpdateForceMode","wbemChangeFlagUpdateOnly","wbemChangeFlagUpdateSafeMode","wbemdisp/WbemChangeFlagEnum","wbemdisp/wbemChangeFlagCreateOnly","wbemdisp/wbemChangeFlagCreateOrUpdate","wbemdisp/wbemChangeFlagStrongValidation","wbemdisp/wbemChangeFlagUpdateCompatible","wbemdisp/wbemChangeFlagUpdateForceMode","wbemdisp/wbemChangeFlagUpdateOnly","wbemdisp/wbemChangeFlagUpdateSafeMode","wmi.wbemchangeflagenum"]
 old-location: wmi\wbemchangeflagenum.htm
 tech.root: WmiSdk
 ms.assetid: 586a4a26-2044-4044-a90d-b45d05f6ce66

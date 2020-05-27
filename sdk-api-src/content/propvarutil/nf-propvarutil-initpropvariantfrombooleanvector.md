@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBooleanVector
 title: InitPropVariantFromBooleanVector function (propvarutil.h)
-description: Initializes a PROPVARIANT structure from a specified Boolean vector.helpviewer_keywords: ["InitPropVariantFromBooleanVector","InitPropVariantFromBooleanVector function [Windows Properties]","_shell_InitPropVariantFromBooleanVector","properties.InitPropVariantFromBooleanVector","propvarutil/InitPropVariantFromBooleanVector","shell.InitPropVariantFromBooleanVector"]
+description: Initializes a PROPVARIANT structure from a specified Boolean vector.
+helpviewer_keywords: ["InitPropVariantFromBooleanVector","InitPropVariantFromBooleanVector function [Windows Properties]","_shell_InitPropVariantFromBooleanVector","properties.InitPropVariantFromBooleanVector","propvarutil/InitPropVariantFromBooleanVector","shell.InitPropVariantFromBooleanVector"]
 old-location: properties\InitPropVariantFromBooleanVector.htm
 tech.root: properties
 ms.assetid: d2e34efb-d5d9-4adf-b582-d3f82d04597f

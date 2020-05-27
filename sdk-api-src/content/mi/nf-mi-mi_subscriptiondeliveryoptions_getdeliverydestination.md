@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDeliveryDestination
 title: MI_SubscriptionDeliveryOptions_GetDeliveryDestination function (mi.h)
-description: Gets the previously set subscription delivery destination.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetDeliveryDestination","MI_SubscriptionDeliveryOptions_GetDeliveryDestination function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetDeliveryDestination","wmi_v2.mi_subscriptiondeliveryoptions_getdeliverydestination"]
+description: Gets the previously set subscription delivery destination.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetDeliveryDestination","MI_SubscriptionDeliveryOptions_GetDeliveryDestination function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetDeliveryDestination","wmi_v2.mi_subscriptiondeliveryoptions_getdeliverydestination"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliverydestination.htm
 tech.root: wmi_v2
 ms.assetid: ef5476e0-8538-4446-bb30-6b77153d5896

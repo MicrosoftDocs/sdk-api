@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationRule
 title: IFsrmClassificationRule (fsrmpipeline.h)
-description: Defines a classification rule.helpviewer_keywords: ["IFsrmClassificationRule","IFsrmClassificationRule interface [File Server Resource Manager]","IFsrmClassificationRule interface [File Server Resource Manager]","described","fs.ifsrmclassificationrule","fsrm.ifsrmclassificationrule","fsrm/IFsrmClassificationRule"]
+description: Defines a classification rule.
+helpviewer_keywords: ["IFsrmClassificationRule","IFsrmClassificationRule interface [File Server Resource Manager]","IFsrmClassificationRule interface [File Server Resource Manager]","described","fs.ifsrmclassificationrule","fsrm.ifsrmclassificationrule","fsrm/IFsrmClassificationRule"]
 old-location: fsrm\ifsrmclassificationrule.htm
 tech.root: fsrm
 ms.assetid: d76e4b07-66d6-426f-853d-f52ea08d9b81

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.Encode
 title: ICertEncodeBitString::Encode (certenc.h)
-description: Performs Abstract Syntax Notation One (ASN.1) encoding on a given bit string.helpviewer_keywords: ["CCertEncodeBitString object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeBitString object","Encode method [Security]","ICertEncodeBitString interface","ICertEncodeBitString interface [Security]","Encode method","ICertEncodeBitString.Encode","ICertEncodeBitString::Encode","_certsrv_icertencodebitstring_encode","certenc/ICertEncodeBitString::Encode","security.icertencodebitstring_encode"]
+description: Performs Abstract Syntax Notation One (ASN.1) encoding on a given bit string.
+helpviewer_keywords: ["CCertEncodeBitString object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeBitString object","Encode method [Security]","ICertEncodeBitString interface","ICertEncodeBitString interface [Security]","Encode method","ICertEncodeBitString.Encode","ICertEncodeBitString::Encode","_certsrv_icertencodebitstring_encode","certenc/ICertEncodeBitString::Encode","security.icertencodebitstring_encode"]
 old-location: security\icertencodebitstring_encode.htm
 tech.root: SecCrypto
 ms.assetid: 2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetRemoteTransportAddress
 title: IWSDiscoveredService::GetRemoteTransportAddress (wsddisco.h)
-description: Retrieves the string representation of the remote transport (IP) address.helpviewer_keywords: ["GetRemoteTransportAddress","GetRemoteTransportAddress method","GetRemoteTransportAddress method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetRemoteTransportAddress method","IWSDiscoveredService.GetRemoteTransportAddress","IWSDiscoveredService::GetRemoteTransportAddress","ncd.iwsdiscoveredservice_getremotetransportaddress","wsddisco/IWSDiscoveredService::GetRemoteTransportAddress"]
+description: Retrieves the string representation of the remote transport (IP) address.
+helpviewer_keywords: ["GetRemoteTransportAddress","GetRemoteTransportAddress method","GetRemoteTransportAddress method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetRemoteTransportAddress method","IWSDiscoveredService.GetRemoteTransportAddress","IWSDiscoveredService::GetRemoteTransportAddress","ncd.iwsdiscoveredservice_getremotetransportaddress","wsddisco/IWSDiscoveredService::GetRemoteTransportAddress"]
 old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
 tech.root: WsdApi
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3

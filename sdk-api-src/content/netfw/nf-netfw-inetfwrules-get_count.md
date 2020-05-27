@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwRules.get_Count
 title: INetFwRules::get_Count (netfw.h)
-description: Returns the number of rules in a collection.helpviewer_keywords: ["Count property [ICS/ICF]","Count property [ICS/ICF]","INetFwRules interface","INetFwRules interface [ICS/ICF]","Count property","INetFwRules.Count","INetFwRules.get_Count","INetFwRules::Count","INetFwRules::get_Count","get_Count","ics.inetfwrules_count","netfw/INetFwRules::Count","netfw/INetFwRules::get_Count"]
+description: Returns the number of rules in a collection.
+helpviewer_keywords: ["Count property [ICS/ICF]","Count property [ICS/ICF]","INetFwRules interface","INetFwRules interface [ICS/ICF]","Count property","INetFwRules.Count","INetFwRules.get_Count","INetFwRules::Count","INetFwRules::get_Count","get_Count","ics.inetfwrules_count","netfw/INetFwRules::Count","netfw/INetFwRules::get_Count"]
 old-location: ics\inetfwrules_count.htm
 tech.root: ics
 ms.assetid: 0a5b1103-3280-4a0c-93a7-e5d805d5bf5e

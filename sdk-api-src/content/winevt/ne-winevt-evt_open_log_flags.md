@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_OPEN_LOG_FLAGS
 title: EVT_OPEN_LOG_FLAGS (winevt.h)
-description: Defines the values that specify whether to open a channel or exported log file.helpviewer_keywords: ["EVT_OPEN_LOG_FLAGS","EVT_OPEN_LOG_FLAGS enumeration [EventLog]","EvtOpenChannelPath","EvtOpenFilePath","wes.evt_open_log_flags","winevt/EVT_OPEN_LOG_FLAGS","winevt/EvtOpenChannelPath","winevt/EvtOpenFilePath"]
+description: Defines the values that specify whether to open a channel or exported log file.
+helpviewer_keywords: ["EVT_OPEN_LOG_FLAGS","EVT_OPEN_LOG_FLAGS enumeration [EventLog]","EvtOpenChannelPath","EvtOpenFilePath","wes.evt_open_log_flags","winevt/EVT_OPEN_LOG_FLAGS","winevt/EvtOpenChannelPath","winevt/EvtOpenFilePath"]
 old-location: wes\evt_open_log_flags.htm
 tech.root: wes
 ms.assetid: c5badaee-4b3b-448a-9a91-df58be1ec884

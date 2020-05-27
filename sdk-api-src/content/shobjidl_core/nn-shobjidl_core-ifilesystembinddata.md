@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFileSystemBindData
 title: IFileSystemBindData (shobjidl_core.h)
-description: Exposes methods that store file system information for optimizing calls to IShellFolder::ParseDisplayName.helpviewer_keywords: ["IFileSystemBindData","IFileSystemBindData interface [Windows Shell]","IFileSystemBindData interface [Windows Shell]","described","_shell_ifilesystembinddata","shell.IFileSystemBindData","shobjidl_core/IFileSystemBindData"]
+description: Exposes methods that store file system information for optimizing calls to IShellFolder::ParseDisplayName.
+helpviewer_keywords: ["IFileSystemBindData","IFileSystemBindData interface [Windows Shell]","IFileSystemBindData interface [Windows Shell]","described","_shell_ifilesystembinddata","shell.IFileSystemBindData","shobjidl_core/IFileSystemBindData"]
 old-location: shell\IFileSystemBindData.htm
 tech.root: shell
 ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614

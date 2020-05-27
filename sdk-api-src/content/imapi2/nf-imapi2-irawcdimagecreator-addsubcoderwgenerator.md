@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSubcodeRWGenerator
 title: IRawCDImageCreator::AddSubcodeRWGenerator (imapi2.h)
-description: Allows the addition of custom R-W subcode, provided by the IStream. The provided object must have a size equal to the number of sectors in the raw disc image * 96 bytes when the final image is created.helpviewer_keywords: ["AddSubcodeRWGenerator","AddSubcodeRWGenerator method [IMAPI]","AddSubcodeRWGenerator method [IMAPI]","IRawCDImageCreator interface","IRawCDImageCreator interface [IMAPI]","AddSubcodeRWGenerator method","IRawCDImageCreator.AddSubcodeRWGenerator","IRawCDImageCreator::AddSubcodeRWGenerator","imapi.irawcdimagecreator_addsubcoderwgenerator","imapi2/IRawCDImageCreator::AddSubcodeRWGenerator"]
+description: Allows the addition of custom R-W subcode, provided by the IStream. The provided object must have a size equal to the number of sectors in the raw disc image * 96 bytes when the final image is created.
+helpviewer_keywords: ["AddSubcodeRWGenerator","AddSubcodeRWGenerator method [IMAPI]","AddSubcodeRWGenerator method [IMAPI]","IRawCDImageCreator interface","IRawCDImageCreator interface [IMAPI]","AddSubcodeRWGenerator method","IRawCDImageCreator.AddSubcodeRWGenerator","IRawCDImageCreator::AddSubcodeRWGenerator","imapi.irawcdimagecreator_addsubcoderwgenerator","imapi2/IRawCDImageCreator::AddSubcodeRWGenerator"]
 old-location: imapi\irawcdimagecreator_addsubcoderwgenerator.htm
 tech.root: imapi
 ms.assetid: b952d31e-812e-41b0-98b0-0f9afbe4b01e

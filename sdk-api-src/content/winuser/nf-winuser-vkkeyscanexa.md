@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.VkKeyScanExA
 title: VkKeyScanExA function (winuser.h)
-description: Translates a character to the corresponding virtual-key code and shift state. The function translates the character using the input language and physical keyboard layout identified by the input locale identifier.helpviewer_keywords: ["VkKeyScanEx","VkKeyScanEx function [Keyboard and Mouse Input]","VkKeyScanExA","VkKeyScanExW","_win32_VkKeyScanEx","_win32_vkkeyscanex_cpp","inputdev.vkkeyscanex","winui._win32_vkkeyscanex","winuser/VkKeyScanEx","winuser/VkKeyScanExA","winuser/VkKeyScanExW"]
+description: Translates a character to the corresponding virtual-key code and shift state. The function translates the character using the input language and physical keyboard layout identified by the input locale identifier.
+helpviewer_keywords: ["VkKeyScanEx","VkKeyScanEx function [Keyboard and Mouse Input]","VkKeyScanExA","VkKeyScanExW","_win32_VkKeyScanEx","_win32_vkkeyscanex_cpp","inputdev.vkkeyscanex","winui._win32_vkkeyscanex","winuser/VkKeyScanEx","winuser/VkKeyScanExA","winuser/VkKeyScanExW"]
 old-location: inputdev\vkkeyscanex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\vkkeyscanex.htm

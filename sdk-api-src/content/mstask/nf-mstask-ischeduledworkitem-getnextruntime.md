@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetNextRunTime
 title: IScheduledWorkItem::GetNextRunTime (mstask.h)
-description: Retrieves the next time the work item will run.helpviewer_keywords: ["GetNextRunTime","GetNextRunTime method [Task Scheduler]","GetNextRunTime method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetNextRunTime method","IScheduledWorkItem.GetNextRunTime","IScheduledWorkItem::GetNextRunTime","_msb_ischeduledworkitem_getnextruntime","mstask/IScheduledWorkItem::GetNextRunTime","taskschd.ischeduledworkitem_getnextruntime"]
+description: Retrieves the next time the work item will run.
+helpviewer_keywords: ["GetNextRunTime","GetNextRunTime method [Task Scheduler]","GetNextRunTime method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetNextRunTime method","IScheduledWorkItem.GetNextRunTime","IScheduledWorkItem::GetNextRunTime","_msb_ischeduledworkitem_getnextruntime","mstask/IScheduledWorkItem::GetNextRunTime","taskschd.ischeduledworkitem_getnextruntime"]
 old-location: taskschd\ischeduledworkitem_getnextruntime.htm
 tech.root: taskschd
 ms.assetid: a53700f7-0e2c-413f-b7b3-64aa2e970f11

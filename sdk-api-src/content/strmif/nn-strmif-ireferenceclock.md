@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IReferenceClock
 title: IReferenceClock (strmif.h)
-description: The IReferenceClock interface provides the reference time for the filter graph.Filters that can act as a reference clock can expose this interface.helpviewer_keywords: ["IReferenceClock","IReferenceClock interface [DirectShow]","IReferenceClock interface [DirectShow]","described","IReferenceClockInterface","dshow.ireferenceclock","strmif/IReferenceClock"]
+description: The IReferenceClock interface provides the reference time for the filter graph.Filters that can act as a reference clock can expose this interface.
+helpviewer_keywords: ["IReferenceClock","IReferenceClock interface [DirectShow]","IReferenceClock interface [DirectShow]","described","IReferenceClockInterface","dshow.ireferenceclock","strmif/IReferenceClock"]
 old-location: dshow\ireferenceclock.htm
 tech.root: DirectShow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58

@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.RecoverResourceManager
 title: RecoverResourceManager function (ktmw32.h)
-description: Recovers a resource manager's state from its log file.helpviewer_keywords: ["RecoverResourceManager","RecoverResourceManager function [Files]","fs.recoverresourcemanager","ktmw32/RecoverResourceManager"]
+description: Recovers a resource manager's state from its log file.
+helpviewer_keywords: ["RecoverResourceManager","RecoverResourceManager function [Files]","fs.recoverresourcemanager","ktmw32/RecoverResourceManager"]
 old-location: fs\recoverresourcemanager.htm
 tech.root: ktm
 ms.assetid: 616ff873-c0d0-464e-9b1b-74a426b99abd

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentHelpText
 title: IUIAutomationElement::get_CurrentHelpText (uiautomationclient.h)
-description: Retrieves the help text for the element.helpviewer_keywords: ["CurrentHelpText property [Windows Accessibility]","CurrentHelpText property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentHelpText property","IUIAutomationElement.CurrentHelpText","IUIAutomationElement.get_CurrentHelpText","IUIAutomationElement::CurrentHelpText","IUIAutomationElement::get_CurrentHelpText","get_CurrentHelpText","uiauto.uiauto_IUIAutomationElement_CurrentHelpText","uiauto_IUIAutomationElement_CurrentHelpText","uiautomationclient/IUIAutomationElement::CurrentHelpText","uiautomationclient/IUIAutomationElement::get_CurrentHelpText","winauto.uiauto_IUIAutomationElement_CurrentHelpText"]
+description: Retrieves the help text for the element.
+helpviewer_keywords: ["CurrentHelpText property [Windows Accessibility]","CurrentHelpText property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentHelpText property","IUIAutomationElement.CurrentHelpText","IUIAutomationElement.get_CurrentHelpText","IUIAutomationElement::CurrentHelpText","IUIAutomationElement::get_CurrentHelpText","get_CurrentHelpText","uiauto.uiauto_IUIAutomationElement_CurrentHelpText","uiauto_IUIAutomationElement_CurrentHelpText","uiautomationclient/IUIAutomationElement::CurrentHelpText","uiautomationclient/IUIAutomationElement::get_CurrentHelpText","winauto.uiauto_IUIAutomationElement_CurrentHelpText"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentHelpText.htm
 tech.root: WinAuto
 ms.assetid: 02ecfecc-5c3d-458b-827a-a598b8f98916

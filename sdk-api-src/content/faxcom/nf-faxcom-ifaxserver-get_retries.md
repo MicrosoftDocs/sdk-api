@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxServer.get_Retries
 title: IFaxServer::get_Retries (faxcom.h)
-description: Sets or retrieves the Retries property for a FaxServer object. The Retries property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.helpviewer_keywords: ["IFaxServer interface [Fax Service]","Retries property","IFaxServer.Retries","IFaxServer.get_Retries","IFaxServer.put_Retries","IFaxServer::Retries","IFaxServer::get_Retries","IFaxServer::put_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxServer interface","_mfax_ifaxserver_get_retries","fax._mfax_ifaxserver_client_mfax_ifaxserver_get_retries_cpp","fax._mfax_ifaxserver_get_retries","faxcom/IFaxServer::Retries","faxcom/IFaxServer::get_Retries","faxcom/IFaxServer::put_Retries","get_Retries"]
+description: Sets or retrieves the Retries property for a FaxServer object. The Retries property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.
+helpviewer_keywords: ["IFaxServer interface [Fax Service]","Retries property","IFaxServer.Retries","IFaxServer.get_Retries","IFaxServer.put_Retries","IFaxServer::Retries","IFaxServer::get_Retries","IFaxServer::put_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxServer interface","_mfax_ifaxserver_get_retries","fax._mfax_ifaxserver_client_mfax_ifaxserver_get_retries_cpp","fax._mfax_ifaxserver_get_retries","faxcom/IFaxServer::Retries","faxcom/IFaxServer::get_Retries","faxcom/IFaxServer::put_Retries","get_Retries"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3veb.htm

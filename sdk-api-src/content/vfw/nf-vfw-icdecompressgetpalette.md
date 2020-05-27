@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICDecompressGetPalette
 title: ICDecompressGetPalette macro (vfw.h)
-description: The ICDecompressGetPalette macro requests that the video decompression driver supply the color table of the output BITMAPINFOHEADER structure. You can use this macro or explicitly call the ICM_DECOMPRESS_GET_PALETTE message.helpviewer_keywords: ["ICDecompressGetPalette","ICDecompressGetPalette macro [Windows Multimedia]","_win32_ICDecompressGetPalette","multimedia.icdecompressgetpalette","vfw/ICDecompressGetPalette"]
+description: The ICDecompressGetPalette macro requests that the video decompression driver supply the color table of the output BITMAPINFOHEADER structure. You can use this macro or explicitly call the ICM_DECOMPRESS_GET_PALETTE message.
+helpviewer_keywords: ["ICDecompressGetPalette","ICDecompressGetPalette macro [Windows Multimedia]","_win32_ICDecompressGetPalette","multimedia.icdecompressgetpalette","vfw/ICDecompressGetPalette"]
 old-location: multimedia\icdecompressgetpalette.htm
 tech.root: Multimedia
 ms.assetid: 433155ce-f9a1-408d-9caa-43a736fbdc67

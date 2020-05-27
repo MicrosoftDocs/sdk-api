@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_NODE
 title: WS_XML_NODE (webservices.h)
-description: The base type for all the different kinds of XML nodes. An XML node is unit of data in XML.helpviewer_keywords: ["WS_XML_NODE","WS_XML_NODE structure [Web Services for Windows]","webservices/WS_XML_NODE","wsw.ws_xml_node"]
+description: The base type for all the different kinds of XML nodes. An XML node is unit of data in XML.
+helpviewer_keywords: ["WS_XML_NODE","WS_XML_NODE structure [Web Services for Windows]","webservices/WS_XML_NODE","wsw.ws_xml_node"]
 old-location: wsw\ws_xml_node.htm
 tech.root: wsw
 ms.assetid: 98c40d57-ee71-40f8-9416-5b29adc30489

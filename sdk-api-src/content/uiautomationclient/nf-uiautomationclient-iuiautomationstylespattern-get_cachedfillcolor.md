@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedFillColor
 title: IUIAutomationStylesPattern::get_CachedFillColor (uiautomationclient.h)
-description: Retrieves the cached fill color of an element in a document.helpviewer_keywords: ["CachedFillColor property [Windows Accessibility]","CachedFillColor property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CachedFillColor property","IUIAutomationStylesPattern.CachedFillColor","IUIAutomationStylesPattern.get_CachedFillColor","IUIAutomationStylesPattern::CachedFillColor","IUIAutomationStylesPattern::get_CachedFillColor","get_CachedFillColor","uiautomationclient/IUIAutomationStylesPattern::CachedFillColor","uiautomationclient/IUIAutomationStylesPattern::get_CachedFillColor","winauto.uiauto_IUIAutomationStylesPattern_CachedFillColor"]
+description: Retrieves the cached fill color of an element in a document.
+helpviewer_keywords: ["CachedFillColor property [Windows Accessibility]","CachedFillColor property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CachedFillColor property","IUIAutomationStylesPattern.CachedFillColor","IUIAutomationStylesPattern.get_CachedFillColor","IUIAutomationStylesPattern::CachedFillColor","IUIAutomationStylesPattern::get_CachedFillColor","get_CachedFillColor","uiautomationclient/IUIAutomationStylesPattern::CachedFillColor","uiautomationclient/IUIAutomationStylesPattern::get_CachedFillColor","winauto.uiauto_IUIAutomationStylesPattern_CachedFillColor"]
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedFillColor.htm
 tech.root: WinAuto
 ms.assetid: 6623D66E-E79C-4E50-BC5F-B2B226B1FC65

@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetStatus
 title: IDirectManipulationViewport::GetStatus (directmanipulation.h)
-description: Gets the state of the viewport.helpviewer_keywords: ["GetStatus","GetStatus method [Direct Manipulation]","GetStatus method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","GetStatus method","IDirectManipulationViewport.GetStatus","IDirectManipulationViewport::GetStatus","directmanipulation.idirectmanipulationviewport_getstatus","directmanipulation/IDirectManipulationViewport::GetStatus"]
+description: Gets the state of the viewport.
+helpviewer_keywords: ["GetStatus","GetStatus method [Direct Manipulation]","GetStatus method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","GetStatus method","IDirectManipulationViewport.GetStatus","IDirectManipulationViewport::GetStatus","directmanipulation.idirectmanipulationviewport_getstatus","directmanipulation/IDirectManipulationViewport::GetStatus"]
 old-location: directmanipulation\idirectmanipulationviewport_getstatus.htm
 tech.root: directmanipulation
 ms.assetid: 1c02b2b2-8291-4151-b9c9-d80bf71f5ef5

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptMsgCountersignEncoded
 title: CryptMsgCountersignEncoded function (wincrypt.h)
-description: Countersigns an existing PKCShelpviewer_keywords: ["CryptMsgCountersignEncoded","CryptMsgCountersignEncoded function [Security]","_crypto2_cryptmsgcountersignencoded","security.cryptmsgcountersignencoded","wincrypt/CryptMsgCountersignEncoded"]
+description: Countersigns an existing PKCS
+helpviewer_keywords: ["CryptMsgCountersignEncoded","CryptMsgCountersignEncoded function [Security]","_crypto2_cryptmsgcountersignencoded","security.cryptmsgcountersignencoded","wincrypt/CryptMsgCountersignEncoded"]
 old-location: security\cryptmsgcountersignencoded.htm
 tech.root: SecCrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4

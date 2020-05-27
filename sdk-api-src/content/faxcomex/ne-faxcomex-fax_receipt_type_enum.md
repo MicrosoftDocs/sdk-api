@@ -1,7 +1,8 @@
 ---
 UID: NE:faxcomex.FAX_RECEIPT_TYPE_ENUM
 title: FAX_RECEIPT_TYPE_ENUM (faxcomex.h)
-description: The FAX_RECEIPT_TYPE_ENUM enumeration defines the types of delivery reports (delivery receipt formats) for outbound faxes. The members of this enumeration are bit values and can be used in combination.helpviewer_keywords: ["FAX_RECEIPT_TYPE_ENUM","FAX_RECEIPT_TYPE_ENUM enumeration [Fax Service]","_mfax_fax_receipt_type_enum","fax._mfax_fax_receipt_type_enum","faxcomex/FAX_RECEIPT_TYPE_ENUM","faxcomex/frtMAIL","faxcomex/frtMSGBOX","faxcomex/frtNONE","frtMAIL","frtMSGBOX","frtNONE"]
+description: The FAX_RECEIPT_TYPE_ENUM enumeration defines the types of delivery reports (delivery receipt formats) for outbound faxes. The members of this enumeration are bit values and can be used in combination.
+helpviewer_keywords: ["FAX_RECEIPT_TYPE_ENUM","FAX_RECEIPT_TYPE_ENUM enumeration [Fax Service]","_mfax_fax_receipt_type_enum","fax._mfax_fax_receipt_type_enum","faxcomex/FAX_RECEIPT_TYPE_ENUM","faxcomex/frtMAIL","faxcomex/frtMSGBOX","faxcomex/frtNONE","frtMAIL","frtMSGBOX","frtNONE"]
 old-location: fax\_mfax_fax_receipt_type_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1igd.htm

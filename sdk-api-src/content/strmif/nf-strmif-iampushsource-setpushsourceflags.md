@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMPushSource.SetPushSourceFlags
 title: IAMPushSource::SetPushSourceFlags (strmif.h)
-description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.helpviewer_keywords: ["IAMPushSource interface [DirectShow]","SetPushSourceFlags method","IAMPushSource.SetPushSourceFlags","IAMPushSource::SetPushSourceFlags","IAMPushSourceSetPushSourceFlags","SetPushSourceFlags","SetPushSourceFlags method [DirectShow]","SetPushSourceFlags method [DirectShow]","IAMPushSource interface","dshow.iampushsource_setpushsourceflags","strmif/IAMPushSource::SetPushSourceFlags"]
+description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
+helpviewer_keywords: ["IAMPushSource interface [DirectShow]","SetPushSourceFlags method","IAMPushSource.SetPushSourceFlags","IAMPushSource::SetPushSourceFlags","IAMPushSourceSetPushSourceFlags","SetPushSourceFlags","SetPushSourceFlags method [DirectShow]","SetPushSourceFlags method [DirectShow]","IAMPushSource interface","dshow.iampushsource_setpushsourceflags","strmif/IAMPushSource::SetPushSourceFlags"]
 old-location: dshow\iampushsource_setpushsourceflags.htm
 tech.root: DirectShow
 ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35

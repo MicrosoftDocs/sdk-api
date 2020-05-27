@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilViewVariable.GetDepthStencil
 title: ID3D10EffectDepthStencilViewVariable::GetDepthStencil (d3d10effect.h)
-description: Get a depth-stencil-view resource.helpviewer_keywords: ["852af7c1-873e-c51e-adfe-23b78be73a12","GetDepthStencil","GetDepthStencil method [Direct3D 10]","GetDepthStencil method [Direct3D 10]","ID3D10EffectDepthStencilViewVariable interface","ID3D10EffectDepthStencilViewVariable interface [Direct3D 10]","GetDepthStencil method","ID3D10EffectDepthStencilViewVariable.GetDepthStencil","ID3D10EffectDepthStencilViewVariable::GetDepthStencil","d3d10effect/ID3D10EffectDepthStencilViewVariable::GetDepthStencil","direct3d10.id3d10effectdepthstencilviewvariable_getdepthstencil"]
+description: Get a depth-stencil-view resource.
+helpviewer_keywords: ["852af7c1-873e-c51e-adfe-23b78be73a12","GetDepthStencil","GetDepthStencil method [Direct3D 10]","GetDepthStencil method [Direct3D 10]","ID3D10EffectDepthStencilViewVariable interface","ID3D10EffectDepthStencilViewVariable interface [Direct3D 10]","GetDepthStencil method","ID3D10EffectDepthStencilViewVariable.GetDepthStencil","ID3D10EffectDepthStencilViewVariable::GetDepthStencil","d3d10effect/ID3D10EffectDepthStencilViewVariable::GetDepthStencil","direct3d10.id3d10effectdepthstencilviewvariable_getdepthstencil"]
 old-location: direct3d10\id3d10effectdepthstencilviewvariable_getdepthstencil.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_getdepthstencil.htm

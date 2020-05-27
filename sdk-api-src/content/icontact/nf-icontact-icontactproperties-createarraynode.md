@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactProperties.CreateArrayNode
 title: IContactProperties::CreateArrayNode (icontact.h)
-description: Creates a new array node in a multi-value property.helpviewer_keywords: ["CreateArrayNode","CreateArrayNode method [Windows Contacts]","CreateArrayNode method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","CreateArrayNode method","IContactProperties.CreateArrayNode","IContactProperties::CreateArrayNode","_wincontacts_IContactProperties_CreateArrayNode","icontact/IContactProperties::CreateArrayNode","wincontacts._wincontacts_IContactProperties_CreateArrayNode"]
+description: Creates a new array node in a multi-value property.
+helpviewer_keywords: ["CreateArrayNode","CreateArrayNode method [Windows Contacts]","CreateArrayNode method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","CreateArrayNode method","IContactProperties.CreateArrayNode","IContactProperties::CreateArrayNode","_wincontacts_IContactProperties_CreateArrayNode","icontact/IContactProperties::CreateArrayNode","wincontacts._wincontacts_IContactProperties_CreateArrayNode"]
 old-location: wincontacts\_wincontacts_IContactProperties_CreateArrayNode.htm
 tech.root: wincontacts
 ms.assetid: 422b9991-c8ac-4e8b-9432-1ccba02f7cfd

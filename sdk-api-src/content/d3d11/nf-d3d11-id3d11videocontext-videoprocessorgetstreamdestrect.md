@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamDestRect
 title: ID3D11VideoContext::VideoProcessorGetStreamDestRect (d3d11.h)
-description: Gets the destination rectangle for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamDestRect method","ID3D11VideoContext.VideoProcessorGetStreamDestRect","ID3D11VideoContext::VideoProcessorGetStreamDestRect","VideoProcessorGetStreamDestRect","VideoProcessorGetStreamDestRect method [Media Foundation]","VideoProcessorGetStreamDestRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamDestRect","mf.id3d11videocontext_videoprocessorgetstreamdestrect"]
+description: Gets the destination rectangle for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamDestRect method","ID3D11VideoContext.VideoProcessorGetStreamDestRect","ID3D11VideoContext::VideoProcessorGetStreamDestRect","VideoProcessorGetStreamDestRect","VideoProcessorGetStreamDestRect method [Media Foundation]","VideoProcessorGetStreamDestRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamDestRect","mf.id3d11videocontext_videoprocessorgetstreamdestrect"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamdestrect.htm
 tech.root: medfound
 ms.assetid: F7968C74-8053-4A16-88C7-30729900B95D

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1DrawingStateBlock
 title: ID2D1DrawingStateBlock (d2d1.h)
-description: Represents the drawing state of a render target:\_the antialiasing mode, transform, tags, and text-rendering options.helpviewer_keywords: ["ID2D1DrawingStateBlock","ID2D1DrawingStateBlock interface [Direct2D]","ID2D1DrawingStateBlock interface [Direct2D]","described","d2d1/ID2D1DrawingStateBlock","direct2d.ID2D1DrawingStateBlock"]
+description: Represents the drawing state of a render target:\_the antialiasing mode, transform, tags, and text-rendering options.
+helpviewer_keywords: ["ID2D1DrawingStateBlock","ID2D1DrawingStateBlock interface [Direct2D]","ID2D1DrawingStateBlock interface [Direct2D]","described","d2d1/ID2D1DrawingStateBlock","direct2d.ID2D1DrawingStateBlock"]
 old-location: direct2d\ID2D1DrawingStateBlock.htm
 tech.root: Direct2D
 ms.assetid: 9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b

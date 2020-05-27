@@ -1,7 +1,8 @@
 ---
 UID: NF:sensevts.ISensLogon.StartShell
 title: ISensLogon::StartShell (sensevts.h)
-description: The StartShell method notifies an application that the shell is started.helpviewer_keywords: ["ISensLogon interface [SENS]","StartShell method","ISensLogon.StartShell","ISensLogon::StartShell","StartShell","StartShell method [SENS]","StartShell method [SENS]","ISensLogon interface","_zaw_isenslogon_startshell","sens.isenslogon_startshell","sensevts/ISensLogon::StartShell","syncmgr.isenslogon_startshell"]
+description: The StartShell method notifies an application that the shell is started.
+helpviewer_keywords: ["ISensLogon interface [SENS]","StartShell method","ISensLogon.StartShell","ISensLogon::StartShell","StartShell","StartShell method [SENS]","StartShell method [SENS]","ISensLogon interface","_zaw_isenslogon_startshell","sens.isenslogon_startshell","sensevts/ISensLogon::StartShell","syncmgr.isenslogon_startshell"]
 old-location: sens\isenslogon_startshell.htm
 tech.root: Sens
 ms.assetid: 0bde3bda-c0ed-4303-b6c1-dd667e9b7504

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleLink.GetUpdateOptions
 title: IOleLink::GetUpdateOptions (oleidl.h)
-description: Retrieves a value indicating how often the linked object updates its cached data.helpviewer_keywords: ["GetUpdateOptions","GetUpdateOptions method [COM]","GetUpdateOptions method [COM]","IOleLink interface","IOleLink interface [COM]","GetUpdateOptions method","IOleLink.GetUpdateOptions","IOleLink::GetUpdateOptions","_ole_iolelink_getupdateoptions","com.iolelink_getupdateoptions","oleidl/IOleLink::GetUpdateOptions"]
+description: Retrieves a value indicating how often the linked object updates its cached data.
+helpviewer_keywords: ["GetUpdateOptions","GetUpdateOptions method [COM]","GetUpdateOptions method [COM]","IOleLink interface","IOleLink interface [COM]","GetUpdateOptions method","IOleLink.GetUpdateOptions","IOleLink::GetUpdateOptions","_ole_iolelink_getupdateoptions","com.iolelink_getupdateoptions","oleidl/IOleLink::GetUpdateOptions"]
 old-location: com\iolelink_getupdateoptions.htm
 tech.root: com
 ms.assetid: 2cb91b48-0026-4afa-80ab-16ac6fbce04d

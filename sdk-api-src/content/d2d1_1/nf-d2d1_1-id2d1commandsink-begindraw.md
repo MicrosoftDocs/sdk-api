@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.BeginDraw
 title: ID2D1CommandSink::BeginDraw (d2d1_1.h)
-description: Notifies the implementation of the command sink that drawing is about to commence.helpviewer_keywords: ["BeginDraw","BeginDraw method [Direct2D]","BeginDraw method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","BeginDraw method","ID2D1CommandSink.BeginDraw","ID2D1CommandSink::BeginDraw","d2d1_1/ID2D1CommandSink::BeginDraw","direct2d.id2d1commandsink_begindraw"]
+description: Notifies the implementation of the command sink that drawing is about to commence.
+helpviewer_keywords: ["BeginDraw","BeginDraw method [Direct2D]","BeginDraw method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","BeginDraw method","ID2D1CommandSink.BeginDraw","ID2D1CommandSink::BeginDraw","d2d1_1/ID2D1CommandSink::BeginDraw","direct2d.id2d1commandsink_begindraw"]
 old-location: direct2d\id2d1commandsink_begindraw.htm
 tech.root: Direct2D
 ms.assetid: acadc36f-5028-4f8f-93c6-7fbc0de3c3d5

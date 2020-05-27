@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDesktopDevice.CreateSurfaceFromHwnd
 title: IDCompositionDesktopDevice::CreateSurfaceFromHwnd (dcomp.h)
-description: Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.helpviewer_keywords: ["CreateSurfaceFromHwnd","CreateSurfaceFromHwnd method [DirectComposition]","CreateSurfaceFromHwnd method [DirectComposition]","IDCompositionDesktopDevice interface","IDCompositionDesktopDevice interface [DirectComposition]","CreateSurfaceFromHwnd method","IDCompositionDesktopDevice.CreateSurfaceFromHwnd","IDCompositionDesktopDevice::CreateSurfaceFromHwnd","dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHwnd","directcomp.idcompositiondesktopdevice_createsurfacefromhwnd"]
+description: Creates a wrapper object that represents the rasterization of a layered window, and that can be associated with a visual for composition.
+helpviewer_keywords: ["CreateSurfaceFromHwnd","CreateSurfaceFromHwnd method [DirectComposition]","CreateSurfaceFromHwnd method [DirectComposition]","IDCompositionDesktopDevice interface","IDCompositionDesktopDevice interface [DirectComposition]","CreateSurfaceFromHwnd method","IDCompositionDesktopDevice.CreateSurfaceFromHwnd","IDCompositionDesktopDevice::CreateSurfaceFromHwnd","dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHwnd","directcomp.idcompositiondesktopdevice_createsurfacefromhwnd"]
 old-location: directcomp\idcompositiondesktopdevice_createsurfacefromhwnd.htm
 tech.root: directcomp
 ms.assetid: 89A4F321-26BE-4175-A052-FE5734DDB524

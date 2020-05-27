@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustomAttribute
 title: TraceLoggingCustomAttribute macro (traceloggingprovider.h)
-description: Wrapper macro for adding custom information about an event to the PDB.helpviewer_keywords: ["TraceLoggingCustomAttribute","TraceLoggingCustomAttribute macro","tracelogging.traceloggingcustomattribute","traceloggingprovider/TraceLoggingCustomAttribute"]
+description: Wrapper macro for adding custom information about an event to the PDB.
+helpviewer_keywords: ["TraceLoggingCustomAttribute","TraceLoggingCustomAttribute macro","tracelogging.traceloggingcustomattribute","traceloggingprovider/TraceLoggingCustomAttribute"]
 old-location: tracelogging\traceloggingcustomattribute.htm
 tech.root: tracelogging
 ms.assetid: D58950A3-105D-43C7-8B8B-61CC1F0D4DA0

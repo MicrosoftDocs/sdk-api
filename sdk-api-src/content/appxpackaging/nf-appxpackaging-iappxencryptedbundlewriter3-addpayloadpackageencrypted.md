@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
 title: IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted (appxpackaging.h)
-description: Encrypts a new payload package to the bundle.helpviewer_keywords: ["AddPayloadPackageEncrypted","AddPayloadPackageEncrypted method [App packaging and management]","AddPayloadPackageEncrypted method [App packaging and management]","IAppxEncryptedBundleWriter3 interface","IAppxEncryptedBundleWriter3 interface [App packaging and management]","AddPayloadPackageEncrypted method","IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted","IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted","appxpackaging/IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted","appxpkg.iappxencryptedbundlewriter3_addpayloadpackageencrypted"]
+description: Encrypts a new payload package to the bundle.
+helpviewer_keywords: ["AddPayloadPackageEncrypted","AddPayloadPackageEncrypted method [App packaging and management]","AddPayloadPackageEncrypted method [App packaging and management]","IAppxEncryptedBundleWriter3 interface","IAppxEncryptedBundleWriter3 interface [App packaging and management]","AddPayloadPackageEncrypted method","IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted","IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted","appxpackaging/IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted","appxpkg.iappxencryptedbundlewriter3_addpayloadpackageencrypted"]
 old-location: appxpkg\iappxencryptedbundlewriter3_addpayloadpackageencrypted.htm
 tech.root: appxpkg
 ms.assetid: DB20D7FE-BB30-4E66-9617-BDDF1E00BB6A

@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Skip
 title: IEnumTfLangBarItems::Skip (ctfutb.h)
-description: IEnumTfLangBarItems::Skip methodhelpviewer_keywords: ["IEnumTfLangBarItems interface [Text Services Framework]","Skip method","IEnumTfLangBarItems.Skip","IEnumTfLangBarItems::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfLangBarItems interface","_tsf_ienumtflangbaritems_skip_ref","ctfutb/IEnumTfLangBarItems::Skip","tsf.ienumtflangbaritems_skip"]
+description: IEnumTfLangBarItems::Skip method
+helpviewer_keywords: ["IEnumTfLangBarItems interface [Text Services Framework]","Skip method","IEnumTfLangBarItems.Skip","IEnumTfLangBarItems::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfLangBarItems interface","_tsf_ienumtflangbaritems_skip_ref","ctfutb/IEnumTfLangBarItems::Skip","tsf.ienumtflangbaritems_skip"]
 old-location: tsf\ienumtflangbaritems_skip.htm
 tech.root: TSF
 ms.assetid: f9b4b899-1bcc-4ba5-a1e7-ca0a45749678

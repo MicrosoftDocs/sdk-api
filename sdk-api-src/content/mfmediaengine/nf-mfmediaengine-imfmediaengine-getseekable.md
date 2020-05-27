@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetSeekable
 title: IMFMediaEngine::GetSeekable (mfmediaengine.h)
-description: Gets the time ranges to which the Media Engine can currently seek.helpviewer_keywords: ["GetSeekable","GetSeekable method [Media Foundation]","GetSeekable method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetSeekable method","IMFMediaEngine.GetSeekable","IMFMediaEngine::GetSeekable","mf.imfmediaengine_getseekable","mfmediaengine/IMFMediaEngine::GetSeekable"]
+description: Gets the time ranges to which the Media Engine can currently seek.
+helpviewer_keywords: ["GetSeekable","GetSeekable method [Media Foundation]","GetSeekable method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetSeekable method","IMFMediaEngine.GetSeekable","IMFMediaEngine::GetSeekable","mf.imfmediaengine_getseekable","mfmediaengine/IMFMediaEngine::GetSeekable"]
 old-location: mf\imfmediaengine_getseekable.htm
 tech.root: medfound
 ms.assetid: FB238892-B172-4E31-B4E5-68C96E135345

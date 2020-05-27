@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.StartSnapshotSet
 title: IVssBackupComponents::StartSnapshotSet (vsbackup.h)
-description: The StartSnapshotSet method creates a new, empty shadow copy set.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","StartSnapshotSet method","IVssBackupComponents.StartSnapshotSet","IVssBackupComponents::StartSnapshotSet","StartSnapshotSet","StartSnapshotSet method [VSS]","StartSnapshotSet method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_startsnapshotset","base.ivssbackupcomponents_startsnapshotset","vsbackup/IVssBackupComponents::StartSnapshotSet"]
+description: The StartSnapshotSet method creates a new, empty shadow copy set.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","StartSnapshotSet method","IVssBackupComponents.StartSnapshotSet","IVssBackupComponents::StartSnapshotSet","StartSnapshotSet","StartSnapshotSet method [VSS]","StartSnapshotSet method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_startsnapshotset","base.ivssbackupcomponents_startsnapshotset","vsbackup/IVssBackupComponents::StartSnapshotSet"]
 old-location: base\ivssbackupcomponents_startsnapshotset.htm
 tech.root: VSS
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b

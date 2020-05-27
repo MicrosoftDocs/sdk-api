@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_result2error
 title: ldap_result2error function (winldap.h)
-description: The ldap_result2error function parses a message and returns the error code.helpviewer_keywords: ["_ldap_ldap_result2error","ldap.ldap__result2error","ldap.ldap_result2error","ldap_result2error","ldap_result2error function [LDAP]","winldap/ldap_result2error"]
+description: The ldap_result2error function parses a message and returns the error code.
+helpviewer_keywords: ["_ldap_ldap_result2error","ldap.ldap__result2error","ldap.ldap_result2error","ldap_result2error","ldap_result2error function [LDAP]","winldap/ldap_result2error"]
 old-location: ldap\ldap_result2error.htm
 tech.root: ldap
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d

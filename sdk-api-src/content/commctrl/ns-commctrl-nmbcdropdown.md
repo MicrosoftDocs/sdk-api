@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMBCDROPDOWN
 title: NMBCDROPDOWN (commctrl.h)
-description: Contains information about a BCN_DROPDOWN notification.helpviewer_keywords: ["*LPNMBCDROPDOWN","LPNMBCDROPDOWN","LPNMBCDROPDOWN structure pointer [Windows Controls]","NMBCDROPDOWN","NMBCDROPDOWN structure [Windows Controls]","_shell_NMBCDROPDOWN","_shell_NMBCDROPDOWN_cpp","commctrl/LPNMBCDROPDOWN","commctrl/NMBCDROPDOWN","controls.NMBCDROPDOWN","controls._shell_NMBCDROPDOWN"]
+description: Contains information about a BCN_DROPDOWN notification.
+helpviewer_keywords: ["*LPNMBCDROPDOWN","LPNMBCDROPDOWN","LPNMBCDROPDOWN structure pointer [Windows Controls]","NMBCDROPDOWN","NMBCDROPDOWN structure [Windows Controls]","_shell_NMBCDROPDOWN","_shell_NMBCDROPDOWN_cpp","commctrl/LPNMBCDROPDOWN","commctrl/NMBCDROPDOWN","controls.NMBCDROPDOWN","controls._shell_NMBCDROPDOWN"]
 old-location: controls\NMBCDROPDOWN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbcdropdown.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfRange
 title: ITfRange (msctf.h)
-description: The ITfRange interface is used by text services and applications to reference and manipulate text within a given context. The interface ID is IID_ITfRange.helpviewer_keywords: ["ITfRange","ITfRange interface [Text Services Framework]","ITfRange interface [Text Services Framework]","described","_tsf_itfrange_ref","msctf/ITfRange","tsf.itfrange"]
+description: The ITfRange interface is used by text services and applications to reference and manipulate text within a given context. The interface ID is IID_ITfRange.
+helpviewer_keywords: ["ITfRange","ITfRange interface [Text Services Framework]","ITfRange interface [Text Services Framework]","described","_tsf_itfrange_ref","msctf/ITfRange","tsf.itfrange"]
 old-location: tsf\itfrange.htm
 tech.root: TSF
 ms.assetid: b8889f7d-3228-4ecc-8d24-c04234d3101e

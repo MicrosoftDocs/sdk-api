@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument.SetDefaultTabStop
 title: ITextDocument::SetDefaultTabStop (tom.h)
-description: Sets the default tab stop, which is used when no tab exists beyond the current display position.helpviewer_keywords: ["ITextDocument interface [Windows Controls]","SetDefaultTabStop method","ITextDocument.SetDefaultTabStop","ITextDocument::SetDefaultTabStop","SetDefaultTabStop","SetDefaultTabStop method [Windows Controls]","SetDefaultTabStop method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_SetDefaultTabStop","_win32_ITextDocument_SetDefaultTabStop_cpp","controls.ITextDocument_SetDefaultTabStop","controls._win32_ITextDocument_SetDefaultTabStop","tom/ITextDocument::SetDefaultTabStop"]
+description: Sets the default tab stop, which is used when no tab exists beyond the current display position.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","SetDefaultTabStop method","ITextDocument.SetDefaultTabStop","ITextDocument::SetDefaultTabStop","SetDefaultTabStop","SetDefaultTabStop method [Windows Controls]","SetDefaultTabStop method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_SetDefaultTabStop","_win32_ITextDocument_SetDefaultTabStop_cpp","controls.ITextDocument_SetDefaultTabStop","controls._win32_ITextDocument_SetDefaultTabStop","tom/ITextDocument::SetDefaultTabStop"]
 old-location: controls\ITextDocument_SetDefaultTabStop.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setdefaulttabstop.htm

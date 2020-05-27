@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphGetStatus
 title: PeerGraphGetStatus function (p2p.h)
-description: The PeerGraphGetStatus function returns the current status of the peer graph.helpviewer_keywords: ["PeerGraphGetStatus","PeerGraphGetStatus function [Peer Networking]","p2p.peergraphgetstatus","p2p/PeerGraphGetStatus"]
+description: The PeerGraphGetStatus function returns the current status of the peer graph.
+helpviewer_keywords: ["PeerGraphGetStatus","PeerGraphGetStatus function [Peer Networking]","p2p.peergraphgetstatus","p2p/PeerGraphGetStatus"]
 old-location: p2p\peergraphgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: a7d23640-4f69-4ce0-996f-562807db7768

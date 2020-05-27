@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2spi._WSATHREADID
 title: WSATHREADID
-description: The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.helpviewer_keywords: ["_WSATHREADID","WSATHREADID"]
+description: The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.
+helpviewer_keywords: ["_WSATHREADID","WSATHREADID"]
 ms.date: 4/26/2019
 ms.keywords: _WSATHREADID, WSATHREADID
 targetos: Windows

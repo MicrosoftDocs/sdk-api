@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetMibInfoV6
 title: DhcpGetMibInfoV6 function (dhcpsapi.h)
-description: Retrieves the IPv6 counter values of the DHCP server.helpviewer_keywords: ["DhcpGetMibInfoV6","DhcpGetMibInfoV6 function [DHCP]","dhcp.dhcpgetmibinfov6","dhcpsapi/DhcpGetMibInfoV6"]
+description: Retrieves the IPv6 counter values of the DHCP server.
+helpviewer_keywords: ["DhcpGetMibInfoV6","DhcpGetMibInfoV6 function [DHCP]","dhcp.dhcpgetmibinfov6","dhcpsapi/DhcpGetMibInfoV6"]
 old-location: dhcp\dhcpgetmibinfov6.htm
 tech.root: DHCP
 ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74

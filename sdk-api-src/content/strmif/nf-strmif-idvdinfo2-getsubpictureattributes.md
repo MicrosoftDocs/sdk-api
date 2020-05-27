@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetSubpictureAttributes
 title: IDvdInfo2::GetSubpictureAttributes (strmif.h)
-description: The GetSubpictureAttributes method retrieves the attributes of the specified subpicture stream in the specified title or menu.helpviewer_keywords: ["GetSubpictureAttributes","GetSubpictureAttributes method [DirectShow]","GetSubpictureAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetSubpictureAttributes method","IDvdInfo2.GetSubpictureAttributes","IDvdInfo2::GetSubpictureAttributes","IDvdInfo2GetSubpictureAttributes","dshow.idvdinfo2_getsubpictureattributes","strmif/IDvdInfo2::GetSubpictureAttributes"]
+description: The GetSubpictureAttributes method retrieves the attributes of the specified subpicture stream in the specified title or menu.
+helpviewer_keywords: ["GetSubpictureAttributes","GetSubpictureAttributes method [DirectShow]","GetSubpictureAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetSubpictureAttributes method","IDvdInfo2.GetSubpictureAttributes","IDvdInfo2::GetSubpictureAttributes","IDvdInfo2GetSubpictureAttributes","dshow.idvdinfo2_getsubpictureattributes","strmif/IDvdInfo2::GetSubpictureAttributes"]
 old-location: dshow\idvdinfo2_getsubpictureattributes.htm
 tech.root: DirectShow
 ms.assetid: 3dce0c01-1d39-4f49-984b-8cce08a2e67b

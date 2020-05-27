@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCompartment.SetValue
 title: ITfCompartment::SetValue (msctf.h)
-description: ITfCompartment::SetValue methodhelpviewer_keywords: ["ITfCompartment interface [Text Services Framework]","SetValue method","ITfCompartment.SetValue","ITfCompartment::SetValue","SetValue","SetValue method [Text Services Framework]","SetValue method [Text Services Framework]","ITfCompartment interface","_tsf_itfcompartment_setvalue_ref","msctf/ITfCompartment::SetValue","tsf.itfcompartment_setvalue"]
+description: ITfCompartment::SetValue method
+helpviewer_keywords: ["ITfCompartment interface [Text Services Framework]","SetValue method","ITfCompartment.SetValue","ITfCompartment::SetValue","SetValue","SetValue method [Text Services Framework]","SetValue method [Text Services Framework]","ITfCompartment interface","_tsf_itfcompartment_setvalue_ref","msctf/ITfCompartment::SetValue","tsf.itfcompartment_setvalue"]
 old-location: tsf\itfcompartment_setvalue.htm
 tech.root: TSF
 ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486

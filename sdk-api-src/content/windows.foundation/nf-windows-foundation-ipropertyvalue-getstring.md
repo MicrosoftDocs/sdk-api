@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetString
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the string value that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetString","GetString method [Windows Runtime]","GetString method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetString method","IPropertyValue.GetString","IPropertyValue.IPropertyValue","IPropertyValue::GetString","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetString","winrt.ipropertyvalue_getstring"]
+description: Gets the string value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetString","GetString method [Windows Runtime]","GetString method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetString method","IPropertyValue.GetString","IPropertyValue.IPropertyValue","IPropertyValue::GetString","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetString","winrt.ipropertyvalue_getstring"]
 old-location: winrt\ipropertyvalue_getstring.htm
 tech.root: WinRT
 ms.assetid: 56376A64-78F7-4C28-B3A7-9CE6594342E4

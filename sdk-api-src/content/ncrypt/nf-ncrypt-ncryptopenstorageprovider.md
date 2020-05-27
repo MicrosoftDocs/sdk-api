@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptOpenStorageProvider
 title: NCryptOpenStorageProvider function (ncrypt.h)
-description: Loads and initializes a CNG key storage provider.helpviewer_keywords: ["MS_KEY_STORAGE_PROVIDER","MS_SMART_CARD_KEY_STORAGE_PROVIDER","MS_PLATFORM_CRYPTO_PROVIDER","NCryptOpenStorageProvider","NCryptOpenStorageProvider function [Security]","ncrypt/NCryptOpenStorageProvider","security.ncryptopenstorageprovider_func"]
+description: Loads and initializes a CNG key storage provider.
+helpviewer_keywords: ["MS_KEY_STORAGE_PROVIDER","MS_SMART_CARD_KEY_STORAGE_PROVIDER","MS_PLATFORM_CRYPTO_PROVIDER","NCryptOpenStorageProvider","NCryptOpenStorageProvider function [Security]","ncrypt/NCryptOpenStorageProvider","security.ncryptopenstorageprovider_func"]
 old-location: security\ncryptopenstorageprovider_func.htm
 tech.root: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50

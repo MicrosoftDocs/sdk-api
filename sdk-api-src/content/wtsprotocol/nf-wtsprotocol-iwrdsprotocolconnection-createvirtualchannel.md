@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.CreateVirtualChannel
 title: IWRdsProtocolConnection::CreateVirtualChannel (wtsprotocol.h)
-description: Requests that the protocol create a virtual channel.helpviewer_keywords: ["CreateVirtualChannel","CreateVirtualChannel method [Remote Desktop Services]","CreateVirtualChannel method [Remote Desktop Services]","IWRdsProtocolConnection interface","FALSE","IWRdsProtocolConnection interface [Remote Desktop Services]","CreateVirtualChannel method","IWRdsProtocolConnection.CreateVirtualChannel","IWRdsProtocolConnection::CreateVirtualChannel","TRUE","termserv.iwrdsprotocolconnection_createvirtualchannel","wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel"]
+description: Requests that the protocol create a virtual channel.
+helpviewer_keywords: ["CreateVirtualChannel","CreateVirtualChannel method [Remote Desktop Services]","CreateVirtualChannel method [Remote Desktop Services]","IWRdsProtocolConnection interface","FALSE","IWRdsProtocolConnection interface [Remote Desktop Services]","CreateVirtualChannel method","IWRdsProtocolConnection.CreateVirtualChannel","IWRdsProtocolConnection::CreateVirtualChannel","TRUE","termserv.iwrdsprotocolconnection_createvirtualchannel","wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel"]
 old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm
 tech.root: TermServ
 ms.assetid: c0302081-06af-44af-a9ed-936d705e711b

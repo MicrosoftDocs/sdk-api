@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPushSink.Connect
 title: IWMWriterPushSink::Connect (wmsdkidl.h)
-description: The Connect method connects to a publishing point on a Windows Media server.helpviewer_keywords: ["Connect","Connect method [windows Media Format]","Connect method [windows Media Format]","IWMWriterPushSink interface","IWMWriterPushSink interface [windows Media Format]","Connect method","IWMWriterPushSink.Connect","IWMWriterPushSink::Connect","IWMWriterPushSinkConnect","wmformat.iwmwriterpushsink_connect","wmsdkidl/IWMWriterPushSink::Connect"]
+description: The Connect method connects to a publishing point on a Windows Media server.
+helpviewer_keywords: ["Connect","Connect method [windows Media Format]","Connect method [windows Media Format]","IWMWriterPushSink interface","IWMWriterPushSink interface [windows Media Format]","Connect method","IWMWriterPushSink.Connect","IWMWriterPushSink::Connect","IWMWriterPushSinkConnect","wmformat.iwmwriterpushsink_connect","wmsdkidl/IWMWriterPushSink::Connect"]
 old-location: wmformat\iwmwriterpushsink_connect.htm
 tech.root: wmformat
 ms.assetid: 5934697e-5d7c-4681-a424-9ad764dfeab1

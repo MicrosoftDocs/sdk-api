@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.InitOnceInitialize
 title: InitOnceInitialize function (synchapi.h)
-description: Initializes a one-time initialization structure.helpviewer_keywords: ["InitOnceInitialize","InitOnceInitialize function","base.initonceinitialize","synchapi/InitOnceInitialize","winbase/InitOnceInitialize"]
+description: Initializes a one-time initialization structure.
+helpviewer_keywords: ["InitOnceInitialize","InitOnceInitialize function","base.initonceinitialize","synchapi/InitOnceInitialize","winbase/InitOnceInitialize"]
 old-location: base\initonceinitialize.htm
 tech.root: Sync
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08

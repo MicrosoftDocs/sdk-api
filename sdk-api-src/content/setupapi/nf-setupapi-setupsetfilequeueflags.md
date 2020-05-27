@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupSetFileQueueFlags
 title: SetupSetFileQueueFlags function (setupapi.h)
-description: The SetupSetFileQueueFlags function sets the flags on a setup file queue.helpviewer_keywords: ["SPQ_FLAG_ABORT_IF_UNSIGNED","SPQ_FLAG_BACKUP_AWARE","SPQ_FLAG_VALID","SetupSetFileQueueFlags","SetupSetFileQueueFlags function [Setup API]","_setupapi_setupsetfilequeueflags","setup.setupsetfilequeueflags","setupapi/SetupSetFileQueueFlags"]
+description: The SetupSetFileQueueFlags function sets the flags on a setup file queue.
+helpviewer_keywords: ["SPQ_FLAG_ABORT_IF_UNSIGNED","SPQ_FLAG_BACKUP_AWARE","SPQ_FLAG_VALID","SetupSetFileQueueFlags","SetupSetFileQueueFlags function [Setup API]","_setupapi_setupsetfilequeueflags","setup.setupsetfilequeueflags","setupapi/SetupSetFileQueueFlags"]
 old-location: setup\setupsetfilequeueflags.htm
 tech.root: SetupApi
 ms.assetid: 63a4dfbb-bd48-4183-9e7d-ce337f2707fb

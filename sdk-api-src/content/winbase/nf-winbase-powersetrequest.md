@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.PowerSetRequest
 title: PowerSetRequest function (winbase.h)
-description: Increments the count of power requests of the specified type for a power request object.helpviewer_keywords: ["PowerRequestAwayModeRequired","PowerRequestDisplayRequired","PowerRequestExecutionRequired","PowerRequestSystemRequired","PowerSetRequest","PowerSetRequest function","base.powersetrequest","winbase/PowerSetRequest"]
+description: Increments the count of power requests of the specified type for a power request object.
+helpviewer_keywords: ["PowerRequestAwayModeRequired","PowerRequestDisplayRequired","PowerRequestExecutionRequired","PowerRequestSystemRequired","PowerSetRequest","PowerSetRequest function","base.powersetrequest","winbase/PowerSetRequest"]
 old-location: base\powersetrequest.htm
 tech.root: power
 ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0

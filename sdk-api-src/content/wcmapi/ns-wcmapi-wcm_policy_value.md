@@ -1,7 +1,8 @@
 ---
 UID: NS:wcmapi._WCM_POLICY_VALUE
 title: WCM_POLICY_VALUE (wcmapi.h)
-description: Contains information about the current value of a policy.helpviewer_keywords: ["*PWCM_POLICY_VALUE","PWCM_POLICY_VALUE","PWCM_POLICY_VALUE structure pointer [Windows Connection Manager]","WCM_POLICY_VALUE","WCM_POLICY_VALUE structure [Windows Connection Manager]","wcm.wcm_policy_value","wcmapi/PWCM_POLICY_VALUE","wcmapi/WCM_POLICY_VALUE"]
+description: Contains information about the current value of a policy.
+helpviewer_keywords: ["*PWCM_POLICY_VALUE","PWCM_POLICY_VALUE","PWCM_POLICY_VALUE structure pointer [Windows Connection Manager]","WCM_POLICY_VALUE","WCM_POLICY_VALUE structure [Windows Connection Manager]","wcm.wcm_policy_value","wcmapi/PWCM_POLICY_VALUE","wcmapi/WCM_POLICY_VALUE"]
 old-location: wcm\wcm_policy_value.htm
 tech.root: wcm
 ms.assetid: 0f259661-723b-4c76-8652-c86e0b8c9ebf

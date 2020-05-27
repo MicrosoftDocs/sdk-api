@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ManufacturerURL
 title: IUPnPDevice::get_ManufacturerURL (upnp.h)
-description: The ManufacturerURL property specifies the URL for the manufacturer's Web site.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ManufacturerURL method","IUPnPDevice.get_ManufacturerURL","IUPnPDevice::get_ManufacturerURL","_upnp_iupnpdevice_manufacturerurl","get_ManufacturerURL","get_ManufacturerURL method [UPnP APIs]","get_ManufacturerURL method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_manufacturerurl","upnp/IUPnPDevice::get_ManufacturerURL"]
+description: The ManufacturerURL property specifies the URL for the manufacturer's Web site.
+helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ManufacturerURL method","IUPnPDevice.get_ManufacturerURL","IUPnPDevice::get_ManufacturerURL","_upnp_iupnpdevice_manufacturerurl","get_ManufacturerURL","get_ManufacturerURL method [UPnP APIs]","get_ManufacturerURL method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_manufacturerurl","upnp/IUPnPDevice::get_ManufacturerURL"]
 old-location: upnp\iupnpdevice_manufacturerurl.htm
 tech.root: upnp
 ms.assetid: 7019716a-4a64-43cd-bb44-21bdb6b022c2

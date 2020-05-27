@@ -1,7 +1,8 @@
 ---
 UID: NF:peerdist.PeerDistUnregisterForStatusChangeNotification
 title: PeerDistUnregisterForStatusChangeNotification function (peerdist.h)
-description: PeerDistUnregisterForStatusChangeNotification function unregisters the status change notification for the session associated with the specified handle.helpviewer_keywords: ["PeerDistUnregisterForStatusChangeNotification","PeerDistUnregisterForStatusChangeNotification function [Peer Networking]","p2p.peerdistunregisterforstatuschangenotification","peerdist/PeerDistUnregisterForStatusChangeNotification"]
+description: PeerDistUnregisterForStatusChangeNotification function unregisters the status change notification for the session associated with the specified handle.
+helpviewer_keywords: ["PeerDistUnregisterForStatusChangeNotification","PeerDistUnregisterForStatusChangeNotification function [Peer Networking]","p2p.peerdistunregisterforstatuschangenotification","peerdist/PeerDistUnregisterForStatusChangeNotification"]
 old-location: p2p\peerdistunregisterforstatuschangenotification.htm
 tech.root: P2PSdk
 ms.assetid: cb18c8bb-92b3-4d4e-9ce8-77c5628a9a1a

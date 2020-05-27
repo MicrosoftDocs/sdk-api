@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongPtrToUChar
 title: LongPtrToUChar function (intsafe.h)
-description: Converts a value of type LONG_PTR to a value of type UCHAR.helpviewer_keywords: ["LongPtrToUChar","LongPtrToUChar function [Windows Shell]","intsafe/LongPtrToUChar","shell.LongPtrToUChar"]
+description: Converts a value of type LONG_PTR to a value of type UCHAR.
+helpviewer_keywords: ["LongPtrToUChar","LongPtrToUChar function [Windows Shell]","intsafe/LongPtrToUChar","shell.LongPtrToUChar"]
 old-location: shell\LongPtrToUChar.htm
 tech.root: shell
 ms.assetid: f509120e-3cb4-4696-b68b-4304155eff3b

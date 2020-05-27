@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.SSIZETSub
 title: SSIZETSub function (intsafe.h)
-description: Subtracts one SSIZE_T value from another.helpviewer_keywords: ["SSIZETSub","SSIZETSub function [Windows Shell]","intsafe/SSIZETSub","shell.SSIZETSub"]
+description: Subtracts one SSIZE_T value from another.
+helpviewer_keywords: ["SSIZETSub","SSIZETSub function [Windows Shell]","intsafe/SSIZETSub","shell.SSIZETSub"]
 old-location: shell\SSIZETSub.htm
 tech.root: shell
 ms.assetid: 8c7ca2cb-3753-4d65-9179-5c8e1782c7ff

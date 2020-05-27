@@ -1,7 +1,8 @@
 ---
 UID: NS:nspapi._SERVICE_INFOA
 title: SERVICE_INFOA (nspapi.h)
-description: Contains information about a network service or a network service type.helpviewer_keywords: ["*LPSERVICE_INFOA","*PSERVICE_INFOA","RESOURCEDISPLAYTYPE_DOMAIN","RESOURCEDISPLAYTYPE_FILE","RESOURCEDISPLAYTYPE_GENERIC","RESOURCEDISPLAYTYPE_GROUP","RESOURCEDISPLAYTYPE_SERVER","RESOURCEDISPLAYTYPE_SHARE","RESOURCEDISPLAYTYPE_TREE","SERVICE_INFO","SERVICE_INFO structure [Winsock]","SERVICE_INFOA","SERVICE_INFOW","_win32_service_info_2","nspapi/SERVICE_INFO","nspapi/SERVICE_INFOA","nspapi/SERVICE_INFOW","winsock.service_info_2"]
+description: Contains information about a network service or a network service type.
+helpviewer_keywords: ["*LPSERVICE_INFOA","*PSERVICE_INFOA","RESOURCEDISPLAYTYPE_DOMAIN","RESOURCEDISPLAYTYPE_FILE","RESOURCEDISPLAYTYPE_GENERIC","RESOURCEDISPLAYTYPE_GROUP","RESOURCEDISPLAYTYPE_SERVER","RESOURCEDISPLAYTYPE_SHARE","RESOURCEDISPLAYTYPE_TREE","SERVICE_INFO","SERVICE_INFO structure [Winsock]","SERVICE_INFOA","SERVICE_INFOW","_win32_service_info_2","nspapi/SERVICE_INFO","nspapi/SERVICE_INFOA","nspapi/SERVICE_INFOW","winsock.service_info_2"]
 old-location: winsock\service_info_2.htm
 tech.root: WinSock
 ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d

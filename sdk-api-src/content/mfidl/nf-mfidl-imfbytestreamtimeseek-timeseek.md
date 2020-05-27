@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.TimeSeek
 title: IMFByteStreamTimeSeek::TimeSeek (mfidl.h)
-description: Seeks to a new position in the byte stream.helpviewer_keywords: ["IMFByteStreamTimeSeek interface [Media Foundation]","TimeSeek method","IMFByteStreamTimeSeek.TimeSeek","IMFByteStreamTimeSeek::TimeSeek","TimeSeek","TimeSeek method [Media Foundation]","TimeSeek method [Media Foundation]","IMFByteStreamTimeSeek interface","mf.imfbytestreamtimeseek_timeseek","mfidl/IMFByteStreamTimeSeek::TimeSeek"]
+description: Seeks to a new position in the byte stream.
+helpviewer_keywords: ["IMFByteStreamTimeSeek interface [Media Foundation]","TimeSeek method","IMFByteStreamTimeSeek.TimeSeek","IMFByteStreamTimeSeek::TimeSeek","TimeSeek","TimeSeek method [Media Foundation]","TimeSeek method [Media Foundation]","IMFByteStreamTimeSeek interface","mf.imfbytestreamtimeseek_timeseek","mfidl/IMFByteStreamTimeSeek::TimeSeek"]
 old-location: mf\imfbytestreamtimeseek_timeseek.htm
 tech.root: medfound
 ms.assetid: 786F1299-A9E2-4B2C-A6AE-F88E6BF022DC

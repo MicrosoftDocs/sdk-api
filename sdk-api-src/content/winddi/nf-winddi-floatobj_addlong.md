@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.FLOATOBJ_AddLong
 title: FLOATOBJ_AddLong function (winddi.h)
-description: The FLOATOBJ_AddLong function adds the value of type LONG to the FLOATOBJ, and returns with the result in the first parameter.helpviewer_keywords: ["FLOATOBJ_AddLong","FLOATOBJ_AddLong function [Display Devices]","display.floatobj_addlong","gdifncs_d669d0ec-1d1e-4e14-b259-cd7b8bfe5d85.xml","winddi/FLOATOBJ_AddLong"]
+description: The FLOATOBJ_AddLong function adds the value of type LONG to the FLOATOBJ, and returns with the result in the first parameter.
+helpviewer_keywords: ["FLOATOBJ_AddLong","FLOATOBJ_AddLong function [Display Devices]","display.floatobj_addlong","gdifncs_d669d0ec-1d1e-4e14-b259-cd7b8bfe5d85.xml","winddi/FLOATOBJ_AddLong"]
 old-location: display\floatobj_addlong.htm
 tech.root: display
 ms.assetid: a6355e47-5373-4b03-bafc-308a64e8e0aa

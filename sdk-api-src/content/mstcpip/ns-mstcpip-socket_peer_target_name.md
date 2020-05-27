@@ -1,7 +1,8 @@
 ---
 UID: NS:mstcpip._SOCKET_PEER_TARGET_NAME
 title: SOCKET_PEER_TARGET_NAME (mstcpip.h)
-description: Contains the IP address and name for a peer target and the type of security protocol to be used on a socket.helpviewer_keywords: ["SOCKET_PEER_TARGET_NAME","SOCKET_PEER_TARGET_NAME structure [Winsock]","mstcpip/SOCKET_PEER_TARGET_NAME","winsock.socket_peer_target_name"]
+description: Contains the IP address and name for a peer target and the type of security protocol to be used on a socket.
+helpviewer_keywords: ["SOCKET_PEER_TARGET_NAME","SOCKET_PEER_TARGET_NAME structure [Winsock]","mstcpip/SOCKET_PEER_TARGET_NAME","winsock.socket_peer_target_name"]
 old-location: winsock\socket_peer_target_name.htm
 tech.root: WinSock
 ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2

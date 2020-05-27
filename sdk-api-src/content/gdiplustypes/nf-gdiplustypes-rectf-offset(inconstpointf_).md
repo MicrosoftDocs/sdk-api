@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.RectF.Offset(IN const PointF &)
 title: RectF::Offset (gdiplustypes.h)
-description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.helpviewer_keywords: ["Offset","Offset methods [GDI+]","RectF.Offset","RectF::Offset","_gdiplus_CLASS_RectF_Offset_Methods","gdiplus._gdiplus_CLASS_RectF_Offset_Methods","gdiplustypes/Offset"]
+description: This topic lists the Offset methods of the RectF class. For a complete list of methods for the RectF class, see Rect Methods.
+helpviewer_keywords: ["Offset","Offset methods [GDI+]","RectF.Offset","RectF::Offset","_gdiplus_CLASS_RectF_Offset_Methods","gdiplus._gdiplus_CLASS_RectF_Offset_Methods","gdiplustypes/Offset"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods.htm

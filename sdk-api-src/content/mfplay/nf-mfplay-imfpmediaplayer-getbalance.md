@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetBalance
 title: IMFPMediaPlayer::GetBalance (mfplay.h)
-description: Gets the current audio balance.helpviewer_keywords: ["GetBalance","GetBalance method [Media Foundation]","GetBalance method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetBalance method","IMFPMediaPlayer.GetBalance","IMFPMediaPlayer::GetBalance","mf.imfpmediaplayer_getbalance","mfplay/IMFPMediaPlayer::GetBalance"]
+description: Gets the current audio balance.
+helpviewer_keywords: ["GetBalance","GetBalance method [Media Foundation]","GetBalance method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetBalance method","IMFPMediaPlayer.GetBalance","IMFPMediaPlayer::GetBalance","mf.imfpmediaplayer_getbalance","mfplay/IMFPMediaPlayer::GetBalance"]
 old-location: mf\imfpmediaplayer_getbalance.htm
 tech.root: medfound
 ms.assetid: 27deeb41-5347-4a6d-bfd4-4e4444540651

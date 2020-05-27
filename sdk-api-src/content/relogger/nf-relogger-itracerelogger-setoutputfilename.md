@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetOutputFilename
 title: ITraceRelogger::SetOutputFilename (relogger.h)
-description: Indicates the file to which ETW should write the new, relogged trace.helpviewer_keywords: ["ITraceRelogger interface [ETW]","SetOutputFilename method","ITraceRelogger.SetOutputFilename","ITraceRelogger::SetOutputFilename","SetOutputFilename","SetOutputFilename method [ETW]","SetOutputFilename method [ETW]","ITraceRelogger interface","etw.itracerelogger_setoutputfilename","relogger/ITraceRelogger::SetOutputFilename"]
+description: Indicates the file to which ETW should write the new, relogged trace.
+helpviewer_keywords: ["ITraceRelogger interface [ETW]","SetOutputFilename method","ITraceRelogger.SetOutputFilename","ITraceRelogger::SetOutputFilename","SetOutputFilename","SetOutputFilename method [ETW]","SetOutputFilename method [ETW]","ITraceRelogger interface","etw.itracerelogger_setoutputfilename","relogger/ITraceRelogger::SetOutputFilename"]
 old-location: etw\itracerelogger_setoutputfilename.htm
 tech.root: ETW
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97

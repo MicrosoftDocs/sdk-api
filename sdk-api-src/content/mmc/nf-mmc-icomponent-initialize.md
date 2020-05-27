@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IComponent.Initialize
 title: IComponent::Initialize (mmc.h)
-description: The IComponent::Initialize method provides an entry point to the console.helpviewer_keywords: ["IComponent interface [MMC]","Initialize method","IComponent.Initialize","IComponent::Initialize","Initialize","Initialize method [MMC]","Initialize method [MMC]","IComponent interface","_slate_icomponent_initialize","mmc.icomponent_initialize","mmc/IComponent::Initialize"]
+description: The IComponent::Initialize method provides an entry point to the console.
+helpviewer_keywords: ["IComponent interface [MMC]","Initialize method","IComponent.Initialize","IComponent::Initialize","Initialize","Initialize method [MMC]","Initialize method [MMC]","IComponent interface","_slate_icomponent_initialize","mmc.icomponent_initialize","mmc/IComponent::Initialize"]
 old-location: mmc\icomponent_initialize.htm
 tech.root: mmc
 ms.assetid: 2a8b8f79-05c0-49e8-8210-7c1002ee5978

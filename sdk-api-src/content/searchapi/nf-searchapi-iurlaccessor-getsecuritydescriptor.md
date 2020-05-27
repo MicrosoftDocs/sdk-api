@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityDescriptor
 title: IUrlAccessor::GetSecurityDescriptor (searchapi.h)
-description: Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.helpviewer_keywords: ["GetSecurityDescriptor","GetSecurityDescriptor method [search]","GetSecurityDescriptor method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetSecurityDescriptor method","IUrlAccessor.GetSecurityDescriptor","IUrlAccessor::GetSecurityDescriptor","_search_IUrlAccessor_GetSecurityDescriptor","search._search_IUrlAccessor_GetSecurityDescriptor","searchapi/IUrlAccessor::GetSecurityDescriptor"]
+description: Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
+helpviewer_keywords: ["GetSecurityDescriptor","GetSecurityDescriptor method [search]","GetSecurityDescriptor method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetSecurityDescriptor method","IUrlAccessor.GetSecurityDescriptor","IUrlAccessor::GetSecurityDescriptor","_search_IUrlAccessor_GetSecurityDescriptor","search._search_IUrlAccessor_GetSecurityDescriptor","searchapi/IUrlAccessor::GetSecurityDescriptor"]
 old-location: search\_search_IUrlAccessor_GetSecurityDescriptor.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecuritydescriptor.htm

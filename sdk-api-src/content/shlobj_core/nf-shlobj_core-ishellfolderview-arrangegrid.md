@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.ArrangeGrid
 title: IShellFolderView::ArrangeGrid (shlobj_core.h)
-description: Arranges moved icons so that they align to an invisible grid.helpviewer_keywords: ["ArrangeGrid","ArrangeGrid method [Windows Shell]","ArrangeGrid method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","ArrangeGrid method","IShellFolderView.ArrangeGrid","IShellFolderView::ArrangeGrid","_shell_IShellFolderView_ArrangeGrid","shell.IShellFolderView_ArrangeGrid","shlobj_core/IShellFolderView::ArrangeGrid"]
+description: Arranges moved icons so that they align to an invisible grid.
+helpviewer_keywords: ["ArrangeGrid","ArrangeGrid method [Windows Shell]","ArrangeGrid method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","ArrangeGrid method","IShellFolderView.ArrangeGrid","IShellFolderView::ArrangeGrid","_shell_IShellFolderView_ArrangeGrid","shell.IShellFolderView_ArrangeGrid","shlobj_core/IShellFolderView::ArrangeGrid"]
 old-location: shell\IShellFolderView_ArrangeGrid.htm
 tech.root: shell
 ms.assetid: 3cb77a02-82da-42d3-97a3-ff47a9ce1831

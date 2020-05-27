@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TabCtrl_DeleteItem
 title: TabCtrl_DeleteItem macro (commctrl.h)
-description: Removes an item from a tab control. You can use this macro or send the TCM_DELETEITEM message explicitly.helpviewer_keywords: ["TabCtrl_DeleteItem","TabCtrl_DeleteItem macro [Windows Controls]","_win32_TabCtrl_DeleteItem","_win32_TabCtrl_DeleteItem_cpp","commctrl/TabCtrl_DeleteItem","controls.TabCtrl_DeleteItem","controls._win32_TabCtrl_DeleteItem"]
+description: Removes an item from a tab control. You can use this macro or send the TCM_DELETEITEM message explicitly.
+helpviewer_keywords: ["TabCtrl_DeleteItem","TabCtrl_DeleteItem macro [Windows Controls]","_win32_TabCtrl_DeleteItem","_win32_TabCtrl_DeleteItem_cpp","commctrl/TabCtrl_DeleteItem","controls.TabCtrl_DeleteItem","controls._win32_TabCtrl_DeleteItem"]
 old-location: controls\TabCtrl_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteitem.htm

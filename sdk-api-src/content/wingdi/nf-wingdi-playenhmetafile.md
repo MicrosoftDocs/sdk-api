@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.PlayEnhMetaFile
 title: PlayEnhMetaFile function (wingdi.h)
-description: The PlayEnhMetaFile function displays the picture stored in the specified enhanced-format metafile.helpviewer_keywords: ["PlayEnhMetaFile","PlayEnhMetaFile function [Windows GDI]","_win32_PlayEnhMetaFile","gdi.playenhmetafile","wingdi/PlayEnhMetaFile"]
+description: The PlayEnhMetaFile function displays the picture stored in the specified enhanced-format metafile.
+helpviewer_keywords: ["PlayEnhMetaFile","PlayEnhMetaFile function [Windows GDI]","_win32_PlayEnhMetaFile","gdi.playenhmetafile","wingdi/PlayEnhMetaFile"]
 old-location: gdi\playenhmetafile.htm
 tech.root: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IEnterpriseDropTarget.SetDropSourceEnterpriseId
 title: IEnterpriseDropTarget::SetDropSourceEnterpriseId (oleidl.h)
-description: Provides the drop target with the enterprise ID of the drop source.helpviewer_keywords: ["IEnterpriseDropTarget interface [COM]","SetDropSourceEnterpriseId method","IEnterpriseDropTarget.SetDropSourceEnterpriseId","IEnterpriseDropTarget::SetDropSourceEnterpriseId","SetDropSourceEnterpriseId","SetDropSourceEnterpriseId method [COM]","SetDropSourceEnterpriseId method [COM]","IEnterpriseDropTarget interface","com.setdropsourceenterpriseid_requestaccessforappwithmessageforwindowasync","com.setdropsourceenterpriseid_setdropsourceenterpriseId","oleidl/IEnterpriseDropTarget::SetDropSourceEnterpriseId"]
+description: Provides the drop target with the enterprise ID of the drop source.
+helpviewer_keywords: ["IEnterpriseDropTarget interface [COM]","SetDropSourceEnterpriseId method","IEnterpriseDropTarget.SetDropSourceEnterpriseId","IEnterpriseDropTarget::SetDropSourceEnterpriseId","SetDropSourceEnterpriseId","SetDropSourceEnterpriseId method [COM]","SetDropSourceEnterpriseId method [COM]","IEnterpriseDropTarget interface","com.setdropsourceenterpriseid_requestaccessforappwithmessageforwindowasync","com.setdropsourceenterpriseid_setdropsourceenterpriseId","oleidl/IEnterpriseDropTarget::SetDropSourceEnterpriseId"]
 old-location: com\setdropsourceenterpriseid_setdropsourceenterpriseId.htm
 tech.root: com
 ms.assetid: FFC64D7F-CBEA-4913-93B2-F19F4D0EA81E

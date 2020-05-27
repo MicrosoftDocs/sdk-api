@@ -1,7 +1,8 @@
 ---
 UID: NF:magnification.MagGetFullscreenTransform
 title: MagGetFullscreenTransform function (magnification.h)
-description: Retrieves the magnification settings for the full-screen magnifier.helpviewer_keywords: ["MagGetFullscreenTransform","MagGetFullscreenTransform function [Magnification API]","magapi.magapi_maggetfullscreentransform","magnification/MagGetFullscreenTransform"]
+description: Retrieves the magnification settings for the full-screen magnifier.
+helpviewer_keywords: ["MagGetFullscreenTransform","MagGetFullscreenTransform function [Magnification API]","magapi.magapi_maggetfullscreentransform","magnification/MagGetFullscreenTransform"]
 old-location: magapi\magapi_maggetfullscreentransform.htm
 tech.root: magapi
 ms.assetid: 6270047A-8823-41D6-AD57-72A7E60F3696

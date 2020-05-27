@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundContentRect
 title: GetThemeBackgroundContentRect function (uxtheme.h)
-description: Retrieves the size of the content area for the background defined by the visual style.helpviewer_keywords: ["GetThemeBackgroundContentRect","GetThemeBackgroundContentRect function [Windows Controls]","controls.GetThemeBackgroundContentRect","controls.inet_GetThemeBackgroundContentRect","inet_GetThemeBackgroundContentRect","inet_GetThemeBackgroundContentRect_cpp","uxtheme/GetThemeBackgroundContentRect"]
+description: Retrieves the size of the content area for the background defined by the visual style.
+helpviewer_keywords: ["GetThemeBackgroundContentRect","GetThemeBackgroundContentRect function [Windows Controls]","controls.GetThemeBackgroundContentRect","controls.inet_GetThemeBackgroundContentRect","inet_GetThemeBackgroundContentRect","inet_GetThemeBackgroundContentRect_cpp","uxtheme/GetThemeBackgroundContentRect"]
 old-location: controls\GetThemeBackgroundContentRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm

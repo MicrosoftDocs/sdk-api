@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Interval
 title: MI_Interval (mi.h)
-description: MI_Interval represents an interval of time.helpviewer_keywords: ["MI_Interval","MI_Interval structure [Windows Management Infrastructure (MI)]","mi/MI_Interval","wmi._mi_interval","wmi_v2.mi_interval"]
+description: MI_Interval represents an interval of time.
+helpviewer_keywords: ["MI_Interval","MI_Interval structure [Windows Management Infrastructure (MI)]","mi/MI_Interval","wmi._mi_interval","wmi_v2.mi_interval"]
 old-location: wmi_v2\mi_interval.htm
 tech.root: wmi_v2
 ms.assetid: b6bf3d47-c292-4140-8bc6-f15ad8a8019f

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySelectColumns
 title: ISearchQueryHelper::put_QuerySelectColumns (searchapi.h)
-description: Sets the columns (or properties) requested in the select statement.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QuerySelectColumns method","ISearchQueryHelper.put_QuerySelectColumns","ISearchQueryHelper::put_QuerySelectColumns","_search_ISearchQueryHelper_put_QuerySelectColumns","put_QuerySelectColumns","put_QuerySelectColumns method [search]","put_QuerySelectColumns method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QuerySelectColumns","searchapi/ISearchQueryHelper::put_QuerySelectColumns"]
+description: Sets the columns (or properties) requested in the select statement.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QuerySelectColumns method","ISearchQueryHelper.put_QuerySelectColumns","ISearchQueryHelper::put_QuerySelectColumns","_search_ISearchQueryHelper_put_QuerySelectColumns","put_QuerySelectColumns","put_QuerySelectColumns method [search]","put_QuerySelectColumns method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QuerySelectColumns","searchapi/ISearchQueryHelper::put_QuerySelectColumns"]
 old-location: search\_search_ISearchQueryHelper_put_QuerySelectColumns.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_queryselectcolumns.htm

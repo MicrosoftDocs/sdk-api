@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterPattern
 title: IUIAutomationRegistrar::RegisterPattern (uiautomationcore.h)
-description: Registers a third-party control pattern.helpviewer_keywords: ["IUIAutomationRegistrar interface [Windows Accessibility]","RegisterPattern method","IUIAutomationRegistrar.RegisterPattern","IUIAutomationRegistrar::RegisterPattern","RegisterPattern","RegisterPattern method [Windows Accessibility]","RegisterPattern method [Windows Accessibility]","IUIAutomationRegistrar interface","uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern","uiauto_IUIAutomationRegistrar_RegisterPattern","uiautomationcore/IUIAutomationRegistrar::RegisterPattern","winauto.uiauto_IUIAutomationRegistrar_RegisterPattern"]
+description: Registers a third-party control pattern.
+helpviewer_keywords: ["IUIAutomationRegistrar interface [Windows Accessibility]","RegisterPattern method","IUIAutomationRegistrar.RegisterPattern","IUIAutomationRegistrar::RegisterPattern","RegisterPattern","RegisterPattern method [Windows Accessibility]","RegisterPattern method [Windows Accessibility]","IUIAutomationRegistrar interface","uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern","uiauto_IUIAutomationRegistrar_RegisterPattern","uiautomationcore/IUIAutomationRegistrar::RegisterPattern","winauto.uiauto_IUIAutomationRegistrar_RegisterPattern"]
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterPattern.htm
 tech.root: WinAuto
 ms.assetid: 6aa61295-e035-4a51-9157-7cf9cfaee37a

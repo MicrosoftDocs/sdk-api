@@ -1,7 +1,8 @@
 ---
 UID: NS:cmdtree.tagDBRELEVANTDOCUMENT
 title: DBRELEVANTDOCUMENT (cmdtree.h)
-description: The DBRELEVANTDOCUMENT structure is reserved for future use.helpviewer_keywords: ["DBRELEVANTDOCUMENT","DBRELEVANTDOCUMENT structure [Indexing Service]","_idxs_DBRELEVANTDOCUMENT","cmdtree/DBRELEVANTDOCUMENT","indexsrv.dbrelevantdocument","tagDBRELEVANTDOCUMENT"]
+description: The DBRELEVANTDOCUMENT structure is reserved for future use.
+helpviewer_keywords: ["DBRELEVANTDOCUMENT","DBRELEVANTDOCUMENT structure [Indexing Service]","_idxs_DBRELEVANTDOCUMENT","cmdtree/DBRELEVANTDOCUMENT","indexsrv.dbrelevantdocument","tagDBRELEVANTDOCUMENT"]
 old-location: indexsrv\dbrelevantdocument.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8ph0.htm

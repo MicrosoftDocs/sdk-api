@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Blur.GetParameters
 title: Blur::GetParameters (gdipluseffects.h)
-description: The Blur::GetParameters method gets the current values of the parameters of this Blur object.helpviewer_keywords: ["Blur class [GDI+]","GetParameters method","Blur.GetParameters","Blur::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","Blur class","_gdiplus_CLASS_Blur_GetParameters_","gdiplus._gdiplus_CLASS_Blur_GetParameters_"]
+description: The Blur::GetParameters method gets the current values of the parameters of this Blur object.
+helpviewer_keywords: ["Blur class [GDI+]","GetParameters method","Blur.GetParameters","Blur::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","Blur class","_gdiplus_CLASS_Blur_GetParameters_","gdiplus._gdiplus_CLASS_Blur_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_Blur_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurmethods\getparameters.htm

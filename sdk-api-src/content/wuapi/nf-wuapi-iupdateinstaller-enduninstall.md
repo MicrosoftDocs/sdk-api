@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.EndUninstall
 title: IUpdateInstaller::EndUninstall (wuapi.h)
-description: Completes an asynchronous uninstallation of the updates.helpviewer_keywords: ["EndUninstall","EndUninstall method [Windows Update Agent]","EndUninstall method [Windows Update Agent]","IUpdateInstaller interface","IUpdateInstaller interface [Windows Update Agent]","EndUninstall method","IUpdateInstaller.EndUninstall","IUpdateInstaller::EndUninstall","wua.iupdateinstaller_enduninstall","wuapi/IUpdateInstaller::EndUninstall"]
+description: Completes an asynchronous uninstallation of the updates.
+helpviewer_keywords: ["EndUninstall","EndUninstall method [Windows Update Agent]","EndUninstall method [Windows Update Agent]","IUpdateInstaller interface","IUpdateInstaller interface [Windows Update Agent]","EndUninstall method","IUpdateInstaller.EndUninstall","IUpdateInstaller::EndUninstall","wua.iupdateinstaller_enduninstall","wuapi/IUpdateInstaller::EndUninstall"]
 old-location: wua\iupdateinstaller_enduninstall.htm
 tech.root: Wua_Sdk
 ms.assetid: a035f566-7ec6-41d5-b5b4-69c2acaa8aae

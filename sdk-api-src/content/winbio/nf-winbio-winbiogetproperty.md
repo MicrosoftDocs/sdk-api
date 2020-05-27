@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioGetProperty
 title: WinBioGetProperty function (winbio.h)
-description: Retrieves a session, unit, or template property. Starting with Windows 10, build 1607, this function is available to use with a mobile image.helpviewer_keywords: ["WINBIO_PROPERTY_ANTI_SPOOF_POLICY","WINBIO_PROPERTY_EXTENDED_ENGINE_INFO","WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS","WINBIO_PROPERTY_EXTENDED_SENSOR_INFO","WINBIO_PROPERTY_EXTENDED_STORAGE_INFO","WINBIO_PROPERTY_SAMPLE_HINT","WinBioGetProperty","WinBioGetProperty function [Windows Biometric Framework API]","secbiomet.winbiogetproperty","winbio/WinBioGetProperty"]
+description: Retrieves a session, unit, or template property. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
+helpviewer_keywords: ["WINBIO_PROPERTY_ANTI_SPOOF_POLICY","WINBIO_PROPERTY_EXTENDED_ENGINE_INFO","WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS","WINBIO_PROPERTY_EXTENDED_SENSOR_INFO","WINBIO_PROPERTY_EXTENDED_STORAGE_INFO","WINBIO_PROPERTY_SAMPLE_HINT","WinBioGetProperty","WinBioGetProperty function [Windows Biometric Framework API]","secbiomet.winbiogetproperty","winbio/WinBioGetProperty"]
 old-location: secbiomet\winbiogetproperty.htm
 tech.root: SecBioMet
 ms.assetid: 63e38e74-3d46-4474-a31c-eaf724156bc6

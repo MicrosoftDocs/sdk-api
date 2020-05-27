@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl_core._PERSIST_FOLDER_TARGET_INFO
 title: PERSIST_FOLDER_TARGET_INFO (shobjidl_core.h)
-description: Specifies a folder shortcut's target folder and its attributes. This structure is used by IPersistFolder3::GetFolderTargetInfo and IPersistFolder3::InitializeEx.helpviewer_keywords: ["CSIDL_FLAG_CREATE","CSIDL_FLAG_PFTI_TRACKTARGET","PERSIST_FOLDER_TARGET_INFO","PERSIST_FOLDER_TARGET_INFO structure [Windows Shell]","_PERSIST_FOLDER_TARGET_INFO","_win32_PERSIST_FOLDER_TARGET_INFO_str","shell.PERSIST_FOLDER_TARGET_INFO_str","shobjidl_core/PERSIST_FOLDER_TARGET_INFO"]
+description: Specifies a folder shortcut's target folder and its attributes. This structure is used by IPersistFolder3::GetFolderTargetInfo and IPersistFolder3::InitializeEx.
+helpviewer_keywords: ["CSIDL_FLAG_CREATE","CSIDL_FLAG_PFTI_TRACKTARGET","PERSIST_FOLDER_TARGET_INFO","PERSIST_FOLDER_TARGET_INFO structure [Windows Shell]","_PERSIST_FOLDER_TARGET_INFO","_win32_PERSIST_FOLDER_TARGET_INFO_str","shell.PERSIST_FOLDER_TARGET_INFO_str","shobjidl_core/PERSIST_FOLDER_TARGET_INFO"]
 old-location: shell\PERSIST_FOLDER_TARGET_INFO_str.htm
 tech.root: shell
 ms.assetid: 74441551-c315-4203-a4f5-cd4e6c57b58b

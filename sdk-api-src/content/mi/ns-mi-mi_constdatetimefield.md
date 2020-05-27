@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ConstDatetimeField
 title: MI_ConstDatetimeField (mi.h)
-description: Represents a property inside an MI_Instance structure.helpviewer_keywords: ["MI_ConstDatetimeField","MI_ConstDatetimeField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstDatetimeField","wmi._mi_constdatetimefield","wmi_v2.mi_constdatetimefield"]
+description: Represents a property inside an MI_Instance structure.
+helpviewer_keywords: ["MI_ConstDatetimeField","MI_ConstDatetimeField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstDatetimeField","wmi._mi_constdatetimefield","wmi_v2.mi_constdatetimefield"]
 old-location: wmi_v2\mi_constdatetimefield.htm
 tech.root: wmi_v2
 ms.assetid: 60174a65-b4e7-41fe-b27b-94a3fd857cea

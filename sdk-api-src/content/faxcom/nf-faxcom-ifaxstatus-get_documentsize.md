@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentSize
 title: IFaxStatus::get_DocumentSize (faxcom.h)
-description: Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.helpviewer_keywords: ["DocumentSize property [Fax Service]","DocumentSize property [Fax Service]","IFaxStatus interface","IFaxStatus interface [Fax Service]","DocumentSize property","IFaxStatus.DocumentSize","IFaxStatus.get_DocumentSize","IFaxStatus::DocumentSize","IFaxStatus::get_DocumentSize","_mfax_ifaxstatus_get_documentsize","fax._mfax_ifaxstatus_get_documentsize","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp","faxcom/IFaxStatus::DocumentSize","faxcom/IFaxStatus::get_DocumentSize","get_DocumentSize"]
+description: Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.
+helpviewer_keywords: ["DocumentSize property [Fax Service]","DocumentSize property [Fax Service]","IFaxStatus interface","IFaxStatus interface [Fax Service]","DocumentSize property","IFaxStatus.DocumentSize","IFaxStatus.get_DocumentSize","IFaxStatus::DocumentSize","IFaxStatus::get_DocumentSize","_mfax_ifaxstatus_get_documentsize","fax._mfax_ifaxstatus_get_documentsize","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp","faxcom/IFaxStatus::DocumentSize","faxcom/IFaxStatus::get_DocumentSize","get_DocumentSize"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_documentsize_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5d5x.htm

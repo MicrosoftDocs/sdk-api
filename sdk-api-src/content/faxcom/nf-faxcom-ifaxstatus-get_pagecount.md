@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_PageCount
 title: IFaxStatus::get_PageCount (faxcom.h)
-description: Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.helpviewer_keywords: ["IFaxStatus interface [Fax Service]","PageCount property","IFaxStatus.PageCount","IFaxStatus.get_PageCount","IFaxStatus::PageCount","IFaxStatus::get_PageCount","PageCount property [Fax Service]","PageCount property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_pagecount","fax._mfax_ifaxstatus_get_pagecount","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp","faxcom/IFaxStatus::PageCount","faxcom/IFaxStatus::get_PageCount","get_PageCount"]
+description: Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.
+helpviewer_keywords: ["IFaxStatus interface [Fax Service]","PageCount property","IFaxStatus.PageCount","IFaxStatus.get_PageCount","IFaxStatus::PageCount","IFaxStatus::get_PageCount","PageCount property [Fax Service]","PageCount property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_pagecount","fax._mfax_ifaxstatus_get_pagecount","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp","faxcom/IFaxStatus::PageCount","faxcom/IFaxStatus::get_PageCount","get_PageCount"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6xv8.htm

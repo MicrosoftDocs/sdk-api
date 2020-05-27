@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_Status
 title: IFaxOutboundRoutingGroup::get_Status (faxcomex.h)
-description: The Status property indicates the collective status of the fax devices in the outbound routing group.helpviewer_keywords: ["IFaxOutboundRoutingGroup interface [Fax Service]","Status property","IFaxOutboundRoutingGroup.Status","IFaxOutboundRoutingGroup.get_Status","IFaxOutboundRoutingGroup::Status","IFaxOutboundRoutingGroup::get_Status","Status property [Fax Service]","Status property [Fax Service]","IFaxOutboundRoutingGroup interface","_mfax_faxoutboundroutinggroup.status","fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_status_cpp","fax._mfax_faxoutboundroutinggroup_status","faxcomex/IFaxOutboundRoutingGroup::Status","faxcomex/IFaxOutboundRoutingGroup::get_Status","get_Status"]
+description: The Status property indicates the collective status of the fax devices in the outbound routing group.
+helpviewer_keywords: ["IFaxOutboundRoutingGroup interface [Fax Service]","Status property","IFaxOutboundRoutingGroup.Status","IFaxOutboundRoutingGroup.get_Status","IFaxOutboundRoutingGroup::Status","IFaxOutboundRoutingGroup::get_Status","Status property [Fax Service]","Status property [Fax Service]","IFaxOutboundRoutingGroup interface","_mfax_faxoutboundroutinggroup.status","fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_status_cpp","fax._mfax_faxoutboundroutinggroup_status","faxcomex/IFaxOutboundRoutingGroup::Status","faxcomex/IFaxOutboundRoutingGroup::get_Status","get_Status"]
 old-location: fax\_mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_status_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2aib.htm

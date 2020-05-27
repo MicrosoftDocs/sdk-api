@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
-description: Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.helpviewer_keywords: ["GetTransmissionMode","GetTransmissionMode method [Microsoft TV Technologies]","GetTransmissionMode method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTransmissionMode method","IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode","IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode"]
+description: Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
+helpviewer_keywords: ["GetTransmissionMode","GetTransmissionMode method [Microsoft TV Technologies]","GetTransmissionMode method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTransmissionMode method","IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode","IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode"]
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm
 tech.root: mstv
 ms.assetid: d7f4659f-0aa6-46a6-a352-da801d132866

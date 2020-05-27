@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IOleCacheControl
 title: IOleCacheControl (oleidl.h)
-description: Provides proper maintenance of caches. It maintains the caches by connecting the running object's IDataObject implementation to the cache, allowing the cache to receive notifications from the running object.helpviewer_keywords: ["IOleCacheControl","IOleCacheControl interface [COM]","IOleCacheControl interface [COM]","described","_ole_iolecachecontrol","com.iolecachecontrol","oleidl/IOleCacheControl"]
+description: Provides proper maintenance of caches. It maintains the caches by connecting the running object's IDataObject implementation to the cache, allowing the cache to receive notifications from the running object.
+helpviewer_keywords: ["IOleCacheControl","IOleCacheControl interface [COM]","IOleCacheControl interface [COM]","described","_ole_iolecachecontrol","com.iolecachecontrol","oleidl/IOleCacheControl"]
 old-location: com\iolecachecontrol.htm
 tech.root: com
 ms.assetid: 64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a

@@ -1,7 +1,8 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Item
 title: IFunctionInstanceCollection::Item (functiondiscoveryapi.h)
-description: Gets the specified function instance, by index.helpviewer_keywords: ["IFunctionInstanceCollection interface","Item method","IFunctionInstanceCollection.Item","IFunctionInstanceCollection::Item","Item","Item method","Item method","IFunctionInstanceCollection interface","functiondiscoveryapi/IFunctionInstanceCollection::Item","ncd.ifunctioninstancecollection_item_method"]
+description: Gets the specified function instance, by index.
+helpviewer_keywords: ["IFunctionInstanceCollection interface","Item method","IFunctionInstanceCollection.Item","IFunctionInstanceCollection::Item","Item","Item method","Item method","IFunctionInstanceCollection interface","functiondiscoveryapi/IFunctionInstanceCollection::Item","ncd.ifunctioninstancecollection_item_method"]
 old-location: ncd\ifunctioninstancecollection_item_method.htm
 tech.root: FunDisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa

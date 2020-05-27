@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetSectionNumber
 title: IISDB_CDT::GetSectionNumber (dvbsiparser.h)
-description: Gets the section_number field value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).helpviewer_keywords: ["GetSectionNumber","GetSectionNumber method [Microsoft TV Technologies]","GetSectionNumber method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetSectionNumber method","IISDB_CDT.GetSectionNumber","IISDB_CDT::GetSectionNumber","dvbsiparser/IISDB_CDT::GetSectionNumber","mstv.iisdb_cdt_getsectionnumber"]
+description: Gets the section_number field value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+helpviewer_keywords: ["GetSectionNumber","GetSectionNumber method [Microsoft TV Technologies]","GetSectionNumber method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetSectionNumber method","IISDB_CDT.GetSectionNumber","IISDB_CDT::GetSectionNumber","dvbsiparser/IISDB_CDT::GetSectionNumber","mstv.iisdb_cdt_getsectionnumber"]
 old-location: mstv\iisdb_cdt_getsectionnumber.htm
 tech.root: mstv
 ms.assetid: 61825be5-01c4-4d5f-be4a-6752ebf8dee8

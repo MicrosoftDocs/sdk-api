@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.SetEndCap
 title: Pen::SetEndCap (gdipluspen.h)
-description: The Pen::SetEndCap method sets the end cap for this Pen object.helpviewer_keywords: ["Pen class [GDI+]","SetEndCap method","Pen.SetEndCap","Pen::SetEndCap","SetEndCap","SetEndCap method [GDI+]","SetEndCap method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetEndCap_endCap_","gdiplus._gdiplus_CLASS_Pen_SetEndCap_endCap_"]
+description: The Pen::SetEndCap method sets the end cap for this Pen object.
+helpviewer_keywords: ["Pen class [GDI+]","SetEndCap method","Pen.SetEndCap","Pen::SetEndCap","SetEndCap","SetEndCap method [GDI+]","SetEndCap method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetEndCap_endCap_","gdiplus._gdiplus_CLASS_Pen_SetEndCap_endCap_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetEndCap_endCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setendcap.htm

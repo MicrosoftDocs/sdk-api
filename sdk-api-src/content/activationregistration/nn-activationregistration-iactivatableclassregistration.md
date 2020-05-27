@@ -1,7 +1,8 @@
 ---
 UID: NN:activationregistration.IActivatableClassRegistration
 title: IActivatableClassRegistration (activationregistration.h)
-description: Enables getting the registration info for a class.helpviewer_keywords: ["IActivatableClassRegistration","IActivatableClassRegistration interface [Windows Runtime]","IActivatableClassRegistration interface [Windows Runtime]","described","activationregistration/IActivatableClassRegistration","winrt.iactivatableclassregistration"]
+description: Enables getting the registration info for a class.
+helpviewer_keywords: ["IActivatableClassRegistration","IActivatableClassRegistration interface [Windows Runtime]","IActivatableClassRegistration interface [Windows Runtime]","described","activationregistration/IActivatableClassRegistration","winrt.iactivatableclassregistration"]
 old-location: winrt\iactivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812

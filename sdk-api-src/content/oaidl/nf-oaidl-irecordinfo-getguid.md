@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetGuid
 title: IRecordInfo::GetGuid (oaidl.h)
-description: Gets the GUID of the record type.helpviewer_keywords: ["GetGuid","GetGuid method [Automation]","GetGuid method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetGuid method","IRecordInfo.GetGuid","IRecordInfo::GetGuid","_oa96_IRecordInfo_GetGuid","automat.irecordinfo_getguid","oaidl/IRecordInfo::GetGuid"]
+description: Gets the GUID of the record type.
+helpviewer_keywords: ["GetGuid","GetGuid method [Automation]","GetGuid method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetGuid method","IRecordInfo.GetGuid","IRecordInfo::GetGuid","_oa96_IRecordInfo_GetGuid","automat.irecordinfo_getguid","oaidl/IRecordInfo::GetGuid"]
 old-location: automat\irecordinfo_getguid.htm
 tech.root: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e

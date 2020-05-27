@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileSize
 title: IBitsPeerCacheRecord::GetFileSize (bits3_0.h)
-description: Gets the size of the file.helpviewer_keywords: ["GetFileSize","GetFileSize method [BITS]","GetFileSize method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileSize method","IBitsPeerCacheRecord.GetFileSize","IBitsPeerCacheRecord::GetFileSize","bits.ibitspeercacherecord_getfilesize","bits3_0/IBitsPeerCacheRecord::GetFileSize"]
+description: Gets the size of the file.
+helpviewer_keywords: ["GetFileSize","GetFileSize method [BITS]","GetFileSize method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileSize method","IBitsPeerCacheRecord.GetFileSize","IBitsPeerCacheRecord::GetFileSize","bits.ibitspeercacherecord_getfilesize","bits3_0/IBitsPeerCacheRecord::GetFileSize"]
 old-location: bits\ibitspeercacherecord_getfilesize.htm
 tech.root: Bits
 ms.assetid: 3b997cd0-a947-4ce7-b047-85268ea46b70

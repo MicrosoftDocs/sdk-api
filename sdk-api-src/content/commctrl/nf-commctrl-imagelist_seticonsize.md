@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_SetIconSize
 title: ImageList_SetIconSize function (commctrl.h)
-description: Sets the dimensions of images in an image list and removes all images from the list.helpviewer_keywords: ["ImageList_SetIconSize","ImageList_SetIconSize function [Windows Controls]","_win32_ImageList_SetIconSize","_win32_ImageList_SetIconSize_cpp","commctrl/ImageList_SetIconSize","controls.ImageList_SetIconSize","controls._win32_ImageList_SetIconSize"]
+description: Sets the dimensions of images in an image list and removes all images from the list.
+helpviewer_keywords: ["ImageList_SetIconSize","ImageList_SetIconSize function [Windows Controls]","_win32_ImageList_SetIconSize","_win32_ImageList_SetIconSize_cpp","commctrl/ImageList_SetIconSize","controls.ImageList_SetIconSize","controls._win32_ImageList_SetIconSize"]
 old-location: controls\ImageList_SetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_seticonsize.htm

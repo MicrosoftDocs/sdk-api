@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICRawRotationCapabilities
 title: WICRawRotationCapabilities (wincodec.h)
-description: Specifies the rotation capabilities of the codec.helpviewer_keywords: ["WICRawRotationCapabilities","WICRawRotationCapabilities enumeration [Windows Imaging Component]","WICRawRotationCapabilityFullySupported","WICRawRotationCapabilityGetSupported","WICRawRotationCapabilityNinetyDegreesSupported","WICRawRotationCapabilityNotSupported","_wic_codec_wicrawrotationcapabilities","wic._wic_codec_wicrawrotationcapabilities","wincodec/WICRawRotationCapabilities","wincodec/WICRawRotationCapabilityFullySupported","wincodec/WICRawRotationCapabilityGetSupported","wincodec/WICRawRotationCapabilityNinetyDegreesSupported","wincodec/WICRawRotationCapabilityNotSupported"]
+description: Specifies the rotation capabilities of the codec.
+helpviewer_keywords: ["WICRawRotationCapabilities","WICRawRotationCapabilities enumeration [Windows Imaging Component]","WICRawRotationCapabilityFullySupported","WICRawRotationCapabilityGetSupported","WICRawRotationCapabilityNinetyDegreesSupported","WICRawRotationCapabilityNotSupported","_wic_codec_wicrawrotationcapabilities","wic._wic_codec_wicrawrotationcapabilities","wincodec/WICRawRotationCapabilities","wincodec/WICRawRotationCapabilityFullySupported","wincodec/WICRawRotationCapabilityGetSupported","wincodec/WICRawRotationCapabilityNinetyDegreesSupported","wincodec/WICRawRotationCapabilityNotSupported"]
 old-location: wic\_wic_codec_wicrawrotationcapabilities.htm
 tech.root: wic
 ms.assetid: f6713652-7d38-4ac6-80d8-fd53095c50a2

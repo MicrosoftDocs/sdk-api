@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilSetPrivatePropertyList
 title: ResUtilSetPrivatePropertyList function (resapi.h)
-description: Sets the private properties of a cluster object.helpviewer_keywords: ["PRESUTIL_SET_PRIVATE_PROPERTY_LIST","PRESUTIL_SET_PRIVATE_PROPERTY_LIST function [Failover Cluster]","ResUtilSetPrivatePropertyList","ResUtilSetPrivatePropertyList function [Failover Cluster]","_wolf_resutilsetprivatepropertylist","mscs.resutilsetprivatepropertylist","resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST","resapi/ResUtilSetPrivatePropertyList"]
+description: Sets the private properties of a cluster object.
+helpviewer_keywords: ["PRESUTIL_SET_PRIVATE_PROPERTY_LIST","PRESUTIL_SET_PRIVATE_PROPERTY_LIST function [Failover Cluster]","ResUtilSetPrivatePropertyList","ResUtilSetPrivatePropertyList function [Failover Cluster]","_wolf_resutilsetprivatepropertylist","mscs.resutilsetprivatepropertylist","resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST","resapi/ResUtilSetPrivatePropertyList"]
 old-location: mscs\resutilsetprivatepropertylist.htm
 tech.root: MsCS
 ms.assetid: 18bc7455-a004-4aff-bf33-0edcb96e0cb0

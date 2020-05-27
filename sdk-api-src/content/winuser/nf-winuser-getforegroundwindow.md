@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetForegroundWindow
 title: GetForegroundWindow function (winuser.h)
-description: Retrieves a handle to the foreground window (the window with which the user is currently working). The system assigns a slightly higher priority to the thread that creates the foreground window than it does to other threads.helpviewer_keywords: ["GetForegroundWindow","GetForegroundWindow function [Windows and Messages]","_win32_GetForegroundWindow","_win32_getforegroundwindow_cpp","winmsg.getforegroundwindow","winui._win32_getforegroundwindow","winuser/GetForegroundWindow"]
+description: Retrieves a handle to the foreground window (the window with which the user is currently working). The system assigns a slightly higher priority to the thread that creates the foreground window than it does to other threads.
+helpviewer_keywords: ["GetForegroundWindow","GetForegroundWindow function [Windows and Messages]","_win32_GetForegroundWindow","_win32_getforegroundwindow_cpp","winmsg.getforegroundwindow","winui._win32_getforegroundwindow","winuser/GetForegroundWindow"]
 old-location: winmsg\getforegroundwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getforegroundwindow.htm

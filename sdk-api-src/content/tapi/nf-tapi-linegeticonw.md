@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineGetIconW
 title: lineGetIconW function (tapi.h)
-description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.helpviewer_keywords: ["_tapi2_linegeticon","lineGetIcon","lineGetIcon function [TAPI 2.2]","lineGetIconA","lineGetIconW","tapi/lineGetIcon","tapi/lineGetIconA","tapi/lineGetIconW","tapi2.linegeticon"]
+description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.
+helpviewer_keywords: ["_tapi2_linegeticon","lineGetIcon","lineGetIcon function [TAPI 2.2]","lineGetIconA","lineGetIconW","tapi/lineGetIcon","tapi/lineGetIconA","tapi/lineGetIconW","tapi2.linegeticon"]
 old-location: tapi2\linegeticon.htm
 tech.root: Tapi
 ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058

@@ -1,7 +1,8 @@
 ---
 UID: NS:gdipluseffects.ColorLUTParams
 title: ColorLUTParams (gdipluseffects.h)
-description: A ColorLUTParams structure contains members (color lookup tables) that specify color adjustments to a bitmap.helpviewer_keywords: ["ColorLUTParams","ColorLUTParams structure [GDI+]","_gdiplus_STRUC_ColorLUTParams","gdiplus._gdiplus_STRUC_ColorLUTParams","gdipluseffects/ColorLUTParams"]
+description: A ColorLUTParams structure contains members (color lookup tables) that specify color adjustments to a bitmap.
+helpviewer_keywords: ["ColorLUTParams","ColorLUTParams structure [GDI+]","_gdiplus_STRUC_ColorLUTParams","gdiplus._gdiplus_STRUC_ColorLUTParams","gdipluseffects/ColorLUTParams"]
 old-location: gdiplus\_gdiplus_STRUC_ColorLUTParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorlutparams.htm

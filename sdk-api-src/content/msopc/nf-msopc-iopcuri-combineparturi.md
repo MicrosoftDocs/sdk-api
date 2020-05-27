@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcUri.CombinePartUri
 title: IOpcUri::CombinePartUri (msopc.h)
-description: Forms the part name of the part that is referenced by the specified relative URI.helpviewer_keywords: ["CombinePartUri","CombinePartUri method [Open Packaging Conventions]","CombinePartUri method [Open Packaging Conventions]","IOpcUri interface","IOpcUri interface [Open Packaging Conventions]","CombinePartUri method","IOpcUri.CombinePartUri","IOpcUri::CombinePartUri","msopc/IOpcUri::CombinePartUri","opc.iopcuri_combineparturi"]
+description: Forms the part name of the part that is referenced by the specified relative URI.
+helpviewer_keywords: ["CombinePartUri","CombinePartUri method [Open Packaging Conventions]","CombinePartUri method [Open Packaging Conventions]","IOpcUri interface","IOpcUri interface [Open Packaging Conventions]","CombinePartUri method","IOpcUri.CombinePartUri","IOpcUri::CombinePartUri","msopc/IOpcUri::CombinePartUri","opc.iopcuri_combineparturi"]
 old-location: opc\iopcuri_combineparturi.htm
 tech.root: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588

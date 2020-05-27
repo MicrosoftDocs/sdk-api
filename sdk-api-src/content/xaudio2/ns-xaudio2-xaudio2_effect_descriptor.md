@@ -1,7 +1,8 @@
 ---
 UID: NS:xaudio2.XAUDIO2_EFFECT_DESCRIPTOR
 title: XAUDIO2_EFFECT_DESCRIPTOR (xaudio2.h)
-description: Contains information about an XAPO for use in an effect chain.helpviewer_keywords: ["XAUDIO2_EFFECT_DESCRIPTOR","XAUDIO2_EFFECT_DESCRIPTOR structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_effect_descriptor","xaudio2/XAUDIO2_EFFECT_DESCRIPTOR"]
+description: Contains information about an XAPO for use in an effect chain.
+helpviewer_keywords: ["XAUDIO2_EFFECT_DESCRIPTOR","XAUDIO2_EFFECT_DESCRIPTOR structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_effect_descriptor","xaudio2/XAUDIO2_EFFECT_DESCRIPTOR"]
 old-location: xaudio2\xaudio2_effect_descriptor.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_EFFECT_DESCRIPTOR

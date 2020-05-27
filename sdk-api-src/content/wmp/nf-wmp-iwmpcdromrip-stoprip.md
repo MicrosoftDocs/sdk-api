@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromRip.stopRip
 title: IWMPCdromRip::stopRip (wmp.h)
-description: The stopRip method stops the CD ripping process.helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","stopRip method","IWMPCdromRip.stopRip","IWMPCdromRip::stopRip","IWMPCdromRipstopRip","stopRip","stopRip method [Windows Media Player]","stopRip method [Windows Media Player]","IWMPCdromRip interface","wmp.iwmpcdromrip_stoprip","wmp/IWMPCdromRip::stopRip"]
+description: The stopRip method stops the CD ripping process.
+helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","stopRip method","IWMPCdromRip.stopRip","IWMPCdromRip::stopRip","IWMPCdromRipstopRip","stopRip","stopRip method [Windows Media Player]","stopRip method [Windows Media Player]","IWMPCdromRip interface","wmp.iwmpcdromrip_stoprip","wmp/IWMPCdromRip::stopRip"]
 old-location: wmp\iwmpcdromrip_stoprip.htm
 tech.root: WMP
 ms.assetid: 2a6c5a25-f69c-4258-a92f-7f693b201a01

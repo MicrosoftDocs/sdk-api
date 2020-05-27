@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.IFolderActionCollection
 title: IFolderActionCollection (pla.h)
-description: Manages a collection of FolderAction objects.To get this interface, access the IDataManager::FolderActions property.helpviewer_keywords: ["IFolderActionCollection","IFolderActionCollection interface [PLA]","IFolderActionCollection interface [PLA]","described","base.ifolderactioncollection","pla.ifolderactioncollection","pla/IFolderActionCollection"]
+description: Manages a collection of FolderAction objects.To get this interface, access the IDataManager::FolderActions property.
+helpviewer_keywords: ["IFolderActionCollection","IFolderActionCollection interface [PLA]","IFolderActionCollection interface [PLA]","described","base.ifolderactioncollection","pla.ifolderactioncollection","pla/IFolderActionCollection"]
 old-location: pla\ifolderactioncollection.htm
 tech.root: PLA
 ms.assetid: 9b0ab26f-7e91-4d7a-9fd7-73332601dd7b

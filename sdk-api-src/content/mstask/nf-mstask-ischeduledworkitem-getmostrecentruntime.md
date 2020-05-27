@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetMostRecentRunTime
 title: IScheduledWorkItem::GetMostRecentRunTime (mstask.h)
-description: Retrieves the most recent time the work item began running.helpviewer_keywords: ["GetMostRecentRunTime","GetMostRecentRunTime method [Task Scheduler]","GetMostRecentRunTime method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetMostRecentRunTime method","IScheduledWorkItem.GetMostRecentRunTime","IScheduledWorkItem::GetMostRecentRunTime","_msb_ischeduledworkitem_getmostrecentruntime","mstask/IScheduledWorkItem::GetMostRecentRunTime","taskschd.ischeduledworkitem_getmostrecentruntime"]
+description: Retrieves the most recent time the work item began running.
+helpviewer_keywords: ["GetMostRecentRunTime","GetMostRecentRunTime method [Task Scheduler]","GetMostRecentRunTime method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetMostRecentRunTime method","IScheduledWorkItem.GetMostRecentRunTime","IScheduledWorkItem::GetMostRecentRunTime","_msb_ischeduledworkitem_getmostrecentruntime","mstask/IScheduledWorkItem::GetMostRecentRunTime","taskschd.ischeduledworkitem_getmostrecentruntime"]
 old-location: taskschd\ischeduledworkitem_getmostrecentruntime.htm
 tech.root: taskschd
 ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c

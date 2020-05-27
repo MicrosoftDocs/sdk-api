@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_SELECTION
 title: TF_SELECTION (msctf.h)
-description: The TF_SELECTION structure contains text selection data.helpviewer_keywords: ["TF_SELECTION","TF_SELECTION structure [Text Services Framework]","_tsf_tf_selection_ref","msctf/TF_SELECTION","tsf.tf_selection"]
+description: The TF_SELECTION structure contains text selection data.
+helpviewer_keywords: ["TF_SELECTION","TF_SELECTION structure [Text Services Framework]","_tsf_tf_selection_ref","msctf/TF_SELECTION","tsf.tf_selection"]
 old-location: tsf\tf_selection.htm
 tech.root: TSF
 ms.assetid: c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54

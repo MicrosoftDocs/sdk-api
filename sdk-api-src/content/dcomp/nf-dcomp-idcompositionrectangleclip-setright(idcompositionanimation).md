@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetRight(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetRight(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the Right property of a clip rectangle.helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetRight method","IDCompositionRectangleClip.SetRight","IDCompositionRectangleClip.SetRight(IDCompositionAnimation)","IDCompositionRectangleClip::SetRight","IDCompositionRectangleClip::SetRight(IDCompositionAnimation)","IDCompositionRectangleClip::SetRight(IDCompositionAnimation*)","SetRight","SetRight method [DirectComposition]","SetRight method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetRight","directcomp.idcompositionrectangleclip_setright_idcompositionanimation"]
+description: Animates the value of the Right property of a clip rectangle.
+helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetRight method","IDCompositionRectangleClip.SetRight","IDCompositionRectangleClip.SetRight(IDCompositionAnimation)","IDCompositionRectangleClip::SetRight","IDCompositionRectangleClip::SetRight(IDCompositionAnimation)","IDCompositionRectangleClip::SetRight(IDCompositionAnimation*)","SetRight","SetRight method [DirectComposition]","SetRight method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetRight","directcomp.idcompositionrectangleclip_setright_idcompositionanimation"]
 old-location: directcomp\idcompositionrectangleclip_setright_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 5514B37F-1F52-4A4B-89F7-830B1672A758

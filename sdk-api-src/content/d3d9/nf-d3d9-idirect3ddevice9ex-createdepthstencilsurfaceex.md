@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx
 title: IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx (d3d9.h)
-description: Creates a depth-stencil surface.helpviewer_keywords: ["CreateDepthStencilSurfaceEx","CreateDepthStencilSurfaceEx method [Direct3D 9]","CreateDepthStencilSurfaceEx method [Direct3D 9]","IDirect3DDevice9Ex interface","IDirect3DDevice9Ex interface [Direct3D 9]","CreateDepthStencilSurfaceEx method","IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx","IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx","cba58342-5f61-5670-e0b8-8fe6a23a5130","d3d9/IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx","direct3d9.idirect3ddevice9ex_createdepthstencilsurfaceex"]
+description: Creates a depth-stencil surface.
+helpviewer_keywords: ["CreateDepthStencilSurfaceEx","CreateDepthStencilSurfaceEx method [Direct3D 9]","CreateDepthStencilSurfaceEx method [Direct3D 9]","IDirect3DDevice9Ex interface","IDirect3DDevice9Ex interface [Direct3D 9]","CreateDepthStencilSurfaceEx method","IDirect3DDevice9Ex.CreateDepthStencilSurfaceEx","IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx","cba58342-5f61-5670-e0b8-8fe6a23a5130","d3d9/IDirect3DDevice9Ex::CreateDepthStencilSurfaceEx","direct3d9.idirect3ddevice9ex_createdepthstencilsurfaceex"]
 old-location: direct3d9\idirect3ddevice9ex_createdepthstencilsurfaceex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_createdepthstencilsurfaceex.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetPropertiesToParameterBlock
 title: ResUtilGetPropertiesToParameterBlock function (resapi.h)
-description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.helpviewer_keywords: ["PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK","PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster]","ResUtilGetPropertiesToParameterBlock","ResUtilGetPropertiesToParameterBlock function [Failover Cluster]","_wolf_resutilgetpropertiestoparameterblock","mscs.resutilgetpropertiestoparameterblock","resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK","resapi/ResUtilGetPropertiesToParameterBlock"]
+description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.
+helpviewer_keywords: ["PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK","PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster]","ResUtilGetPropertiesToParameterBlock","ResUtilGetPropertiesToParameterBlock function [Failover Cluster]","_wolf_resutilgetpropertiestoparameterblock","mscs.resutilgetpropertiestoparameterblock","resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK","resapi/ResUtilGetPropertiesToParameterBlock"]
 old-location: mscs\resutilgetpropertiestoparameterblock.htm
 tech.root: MsCS
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226

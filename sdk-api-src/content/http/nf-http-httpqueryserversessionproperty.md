@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpQueryServerSessionProperty
 title: HttpQueryServerSessionProperty function (http.h)
-description: Queries a server property on the specified server session.helpviewer_keywords: ["HttpQueryServerSessionProperty","HttpQueryServerSessionProperty function [HTTP]","HttpServerAuthenticationProperty","HttpServerChannelBindProperty","HttpServerQosProperty","HttpServerStateProperty","HttpServerTimeoutsProperty","http.httpqueryserversessionproperty","http/HttpQueryServerSessionProperty"]
+description: Queries a server property on the specified server session.
+helpviewer_keywords: ["HttpQueryServerSessionProperty","HttpQueryServerSessionProperty function [HTTP]","HttpServerAuthenticationProperty","HttpServerChannelBindProperty","HttpServerQosProperty","HttpServerStateProperty","HttpServerTimeoutsProperty","http.httpqueryserversessionproperty","http/HttpQueryServerSessionProperty"]
 old-location: http\httpqueryserversessionproperty.htm
 tech.root: http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680

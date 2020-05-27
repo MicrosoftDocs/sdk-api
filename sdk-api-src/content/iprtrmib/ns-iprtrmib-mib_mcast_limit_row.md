@@ -1,7 +1,8 @@
 ---
 UID: NS:iprtrmib.__unnamed_struct_1
 title: MIB_MCAST_LIMIT_ROW (iprtrmib.h)
-description: The MIB_MCAST_LIMIT_ROW structure contains the configurable limit information from a corresponding MIB_IPMCAST_IF_ENTRY structure.helpviewer_keywords: ["*PMIB_MCAST_LIMIT_ROW","MIB_MCAST_LIMIT_ROW","MIB_MCAST_LIMIT_ROW structure [MIB]","PMIB_MCAST_LIMIT_ROW","PMIB_MCAST_LIMIT_ROW structure pointer [MIB]","iprtrmib/MIB_MCAST_LIMIT_ROW","iprtrmib/PMIB_MCAST_LIMIT_ROW","mib.mib_mcast_limit_row"]
+description: The MIB_MCAST_LIMIT_ROW structure contains the configurable limit information from a corresponding MIB_IPMCAST_IF_ENTRY structure.
+helpviewer_keywords: ["*PMIB_MCAST_LIMIT_ROW","MIB_MCAST_LIMIT_ROW","MIB_MCAST_LIMIT_ROW structure [MIB]","PMIB_MCAST_LIMIT_ROW","PMIB_MCAST_LIMIT_ROW structure pointer [MIB]","iprtrmib/MIB_MCAST_LIMIT_ROW","iprtrmib/PMIB_MCAST_LIMIT_ROW","mib.mib_mcast_limit_row"]
 old-location: mib\mib_mcast_limit_row.htm
 tech.root: MIB
 ms.assetid: dc5be2f4-5c6e-43c7-95e8-6a74938ce063

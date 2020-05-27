@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.IsMarkedForDeletion
 title: IOfflineFilesItem::IsMarkedForDeletion (cscobj.h)
-description: Determines whether an item has been deleted from the Offline Files cache.helpviewer_keywords: ["IOfflineFilesItem interface [Offline Files]","IsMarkedForDeletion method","IOfflineFilesItem.IsMarkedForDeletion","IOfflineFilesItem::IsMarkedForDeletion","IsMarkedForDeletion","IsMarkedForDeletion method [Offline Files]","IsMarkedForDeletion method [Offline Files]","IOfflineFilesItem interface","cscobj/IOfflineFilesItem::IsMarkedForDeletion","of.iofflinefilesitem_ismarkedfordeletion"]
+description: Determines whether an item has been deleted from the Offline Files cache.
+helpviewer_keywords: ["IOfflineFilesItem interface [Offline Files]","IsMarkedForDeletion method","IOfflineFilesItem.IsMarkedForDeletion","IOfflineFilesItem::IsMarkedForDeletion","IsMarkedForDeletion","IsMarkedForDeletion method [Offline Files]","IsMarkedForDeletion method [Offline Files]","IOfflineFilesItem interface","cscobj/IOfflineFilesItem::IsMarkedForDeletion","of.iofflinefilesitem_ismarkedfordeletion"]
 old-location: of\iofflinefilesitem_ismarkedfordeletion.htm
 tech.root: offlinefiles
 ms.assetid: 03c0fec4-d320-4c46-a07c-3ebbec61cc54

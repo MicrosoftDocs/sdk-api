@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetTcpTable
 title: GetTcpTable function (iphlpapi.h)
-description: Retrieves the IPv4 TCP connection table.helpviewer_keywords: ["GetTcpTable","GetTcpTable function [IP Helper]","_iphlp_gettcptable","iphlp.gettcptable","iphlpapi/GetTcpTable"]
+description: Retrieves the IPv4 TCP connection table.
+helpviewer_keywords: ["GetTcpTable","GetTcpTable function [IP Helper]","_iphlp_gettcptable","iphlp.gettcptable","iphlpapi/GetTcpTable"]
 old-location: iphlp\gettcptable.htm
 tech.root: IpHlp
 ms.assetid: e90c5aa0-3126-489b-af44-bf86cb45a6d1

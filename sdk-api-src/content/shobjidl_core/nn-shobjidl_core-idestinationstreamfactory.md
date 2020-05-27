@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IDestinationStreamFactory
 title: IDestinationStreamFactory (shobjidl_core.h)
-description: Exposes a method for manually copying a stream or file before applying changes to properties.helpviewer_keywords: ["IDestinationStreamFactory","IDestinationStreamFactory interface [Windows Shell]","IDestinationStreamFactory interface [Windows Shell]","described","shell.IDestinationStreamFactory","shell_IDestinationStreamFactory","shobjidl_core/IDestinationStreamFactory"]
+description: Exposes a method for manually copying a stream or file before applying changes to properties.
+helpviewer_keywords: ["IDestinationStreamFactory","IDestinationStreamFactory interface [Windows Shell]","IDestinationStreamFactory interface [Windows Shell]","described","shell.IDestinationStreamFactory","shell_IDestinationStreamFactory","shobjidl_core/IDestinationStreamFactory"]
 old-location: shell\IDestinationStreamFactory.htm
 tech.root: shell
 ms.assetid: 7cedf8eb-b4ef-4889-bd7b-a734e939e872

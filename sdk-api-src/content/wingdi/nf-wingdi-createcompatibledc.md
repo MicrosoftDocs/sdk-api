@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CreateCompatibleDC
 title: CreateCompatibleDC function (wingdi.h)
-description: The CreateCompatibleDC function creates a memory device context (DC) compatible with the specified device.helpviewer_keywords: ["CreateCompatibleDC","CreateCompatibleDC function [Windows GDI]","_win32_CreateCompatibleDC","gdi.createcompatibledc","wingdi/CreateCompatibleDC"]
+description: The CreateCompatibleDC function creates a memory device context (DC) compatible with the specified device.
+helpviewer_keywords: ["CreateCompatibleDC","CreateCompatibleDC function [Windows GDI]","_win32_CreateCompatibleDC","gdi.createcompatibledc","wingdi/CreateCompatibleDC"]
 old-location: gdi\createcompatibledc.htm
 tech.root: gdi
 ms.assetid: 6ddc3705-2995-41af-af94-258aed597e17

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Complete
 title: IBackgroundCopyJob::Complete (bits.h)
-description: Ends the job and saves the transferred files on the client.helpviewer_keywords: ["Complete","Complete method [BITS]","Complete method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","Complete method","IBackgroundCopyJob.Complete","IBackgroundCopyJob::Complete","_drz_ibackgroundcopyjob_complete","bits.ibackgroundcopyjob_complete","bits/IBackgroundCopyJob::Complete"]
+description: Ends the job and saves the transferred files on the client.
+helpviewer_keywords: ["Complete","Complete method [BITS]","Complete method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","Complete method","IBackgroundCopyJob.Complete","IBackgroundCopyJob::Complete","_drz_ibackgroundcopyjob_complete","bits.ibackgroundcopyjob_complete","bits/IBackgroundCopyJob::Complete"]
 old-location: bits\ibackgroundcopyjob_complete.htm
 tech.root: Bits
 ms.assetid: d57b0b2e-1181-45ed-b7fc-d002d14527cf

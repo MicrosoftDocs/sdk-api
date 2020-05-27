@@ -1,7 +1,8 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCone
 title: SpatialAudioHrtfDirectivityCone (spatialaudiohrtf.h)
-description: Represents a cone-shaped directivity model for an ISpatialAudioObjectForHrtf.helpviewer_keywords: ["PSpatialAudioHrtfDirectivityCone","PSpatialAudioHrtfDirectivityCone structure pointer [Core Audio]","SpatialAudioHrtfDirectivityCone","SpatialAudioHrtfDirectivityCone structure [Core Audio]","coreaudio.spatialaudiohrtfdirectivitycone","spatialaudiohrtf/PSpatialAudioHrtfDirectivityCone","spatialaudiohrtf/SpatialAudioHrtfDirectivityCone"]
+description: Represents a cone-shaped directivity model for an ISpatialAudioObjectForHrtf.
+helpviewer_keywords: ["PSpatialAudioHrtfDirectivityCone","PSpatialAudioHrtfDirectivityCone structure pointer [Core Audio]","SpatialAudioHrtfDirectivityCone","SpatialAudioHrtfDirectivityCone structure [Core Audio]","coreaudio.spatialaudiohrtfdirectivitycone","spatialaudiohrtf/PSpatialAudioHrtfDirectivityCone","spatialaudiohrtf/SpatialAudioHrtfDirectivityCone"]
 old-location: coreaudio\spatialaudiohrtfdirectivitycone.htm
 tech.root: CoreAudio
 ms.assetid: C34F26C2-4979-4C06-8EAC-64547745238F

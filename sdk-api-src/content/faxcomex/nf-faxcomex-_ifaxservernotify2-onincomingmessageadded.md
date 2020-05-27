@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnIncomingMessageAdded
 title: _IFaxServerNotify2::OnIncomingMessageAdded (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnIncomingMessageAdded method when an incoming message is added to the inbound fax archive.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnIncomingMessageAdded method","IFaxServerNotify2.OnIncomingMessageAdded","IFaxServerNotify2::OnIncomingMessageAdded","OnIncomingMessageAdded","OnIncomingMessageAdded method [Fax Service]","OnIncomingMessageAdded method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnIncomingMessageAdded","_IFaxServerNotify2::OnIncomingMessageAdded","_mfax_ifaxservernotify2_onincomingmessageadded","fax._mfax_ifaxservernotify2_onincomingmessageadded","faxcomex/IFaxServerNotify2::OnIncomingMessageAdded"]
+description: The fax service calls the IFaxServerNotify2::OnIncomingMessageAdded method when an incoming message is added to the inbound fax archive.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnIncomingMessageAdded method","IFaxServerNotify2.OnIncomingMessageAdded","IFaxServerNotify2::OnIncomingMessageAdded","OnIncomingMessageAdded","OnIncomingMessageAdded method [Fax Service]","OnIncomingMessageAdded method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnIncomingMessageAdded","_IFaxServerNotify2::OnIncomingMessageAdded","_mfax_ifaxservernotify2_onincomingmessageadded","fax._mfax_ifaxservernotify2_onincomingmessageadded","faxcomex/IFaxServerNotify2::OnIncomingMessageAdded"]
 old-location: fax\_mfax_ifaxservernotify2_onincomingmessageadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onincomingmessageadded.htm

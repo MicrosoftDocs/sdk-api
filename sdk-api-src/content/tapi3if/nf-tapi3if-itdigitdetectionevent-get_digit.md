@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_Digit
 title: ITDigitDetectionEvent::get_Digit (tapi3if.h)
-description: The get_Digit method retrieves an unsigned char pointer to the digit that was detected.helpviewer_keywords: ["ITDigitDetectionEvent interface [TAPI 2.2]","get_Digit method","ITDigitDetectionEvent.get_Digit","ITDigitDetectionEvent::get_Digit","_tapi3_itdigitdetectionevent_get_digit","get_Digit","get_Digit method [TAPI 2.2]","get_Digit method [TAPI 2.2]","ITDigitDetectionEvent interface","tapi3.itdigitdetectionevent_get_digit","tapi3if/ITDigitDetectionEvent::get_Digit"]
+description: The get_Digit method retrieves an unsigned char pointer to the digit that was detected.
+helpviewer_keywords: ["ITDigitDetectionEvent interface [TAPI 2.2]","get_Digit method","ITDigitDetectionEvent.get_Digit","ITDigitDetectionEvent::get_Digit","_tapi3_itdigitdetectionevent_get_digit","get_Digit","get_Digit method [TAPI 2.2]","get_Digit method [TAPI 2.2]","ITDigitDetectionEvent interface","tapi3.itdigitdetectionevent_get_digit","tapi3if/ITDigitDetectionEvent::get_Digit"]
 old-location: tapi3\itdigitdetectionevent_get_digit.htm
 tech.root: Tapi
 ms.assetid: b62418de-9a3e-46f1-88d9-7e147859ec96

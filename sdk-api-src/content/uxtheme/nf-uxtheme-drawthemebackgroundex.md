@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.DrawThemeBackgroundEx
 title: DrawThemeBackgroundEx function (uxtheme.h)
-description: Draws the background image defined by the visual style for the specified control part.helpviewer_keywords: ["DrawThemeBackgroundEx","DrawThemeBackgroundEx function [Windows Controls]","controls.DrawThemeBackgroundEx","controls.inet_DrawThemeBackgroundEx","inet_DrawThemeBackgroundEx","inet_DrawThemeBackgroundEx_cpp","uxtheme/DrawThemeBackgroundEx"]
+description: Draws the background image defined by the visual style for the specified control part.
+helpviewer_keywords: ["DrawThemeBackgroundEx","DrawThemeBackgroundEx function [Windows Controls]","controls.DrawThemeBackgroundEx","controls.inet_DrawThemeBackgroundEx","inet_DrawThemeBackgroundEx","inet_DrawThemeBackgroundEx_cpp","uxtheme/DrawThemeBackgroundEx"]
 old-location: controls\DrawThemeBackgroundEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackgroundex.htm

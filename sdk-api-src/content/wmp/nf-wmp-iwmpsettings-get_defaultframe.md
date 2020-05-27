@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSettings.get_defaultFrame
 title: IWMPSettings::get_defaultFrame (wmp.h)
-description: The get_defaultFrame method retrieves the name of the frame used to display a URL that is received in a ScriptCommand event.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_defaultFrame method","IWMPSettings.get_defaultFrame","IWMPSettings::get_defaultFrame","IWMPSettingsget_defaultFrame","get_defaultFrame","get_defaultFrame method [Windows Media Player]","get_defaultFrame method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_defaultframe","wmp/IWMPSettings::get_defaultFrame"]
+description: The get_defaultFrame method retrieves the name of the frame used to display a URL that is received in a ScriptCommand event.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_defaultFrame method","IWMPSettings.get_defaultFrame","IWMPSettings::get_defaultFrame","IWMPSettingsget_defaultFrame","get_defaultFrame","get_defaultFrame method [Windows Media Player]","get_defaultFrame method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_defaultframe","wmp/IWMPSettings::get_defaultFrame"]
 old-location: wmp\iwmpsettings_get_defaultframe.htm
 tech.root: WMP
 ms.assetid: 815289bb-4ca5-45da-a27e-7484ba403316

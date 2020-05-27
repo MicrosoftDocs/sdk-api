@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeProviderFreeInfo
 title: PxeProviderFreeInfo function (wdspxe.h)
-description: Frees memory allocated by the PxeProviderEnumNext function.helpviewer_keywords: ["PxeProviderFreeInfo","PxeProviderFreeInfo function [Windows Deployment Services]","wds.pxeproviderfreeinfo","wdspxe/PxeProviderFreeInfo"]
+description: Frees memory allocated by the PxeProviderEnumNext function.
+helpviewer_keywords: ["PxeProviderFreeInfo","PxeProviderFreeInfo function [Windows Deployment Services]","wds.pxeproviderfreeinfo","wdspxe/PxeProviderFreeInfo"]
 old-location: wds\pxeproviderfreeinfo.htm
 tech.root: wds
 ms.assetid: dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7

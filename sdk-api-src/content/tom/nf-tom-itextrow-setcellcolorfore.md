@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorFore
 title: ITextRow::SetCellColorFore (tom.h)
-description: Sets the foreground color of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellColorFore method","ITextRow.SetCellColorFore","ITextRow::SetCellColorFore","SetCellColorFore","SetCellColorFore method [Windows Controls]","SetCellColorFore method [Windows Controls]","ITextRow interface","controls.itextrow_setcellcolorfore","tom/ITextRow::SetCellColorFore"]
+description: Sets the foreground color of the active cell.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellColorFore method","ITextRow.SetCellColorFore","ITextRow::SetCellColorFore","SetCellColorFore","SetCellColorFore method [Windows Controls]","SetCellColorFore method [Windows Controls]","ITextRow interface","controls.itextrow_setcellcolorfore","tom/ITextRow::SetCellColorFore"]
 old-location: controls\itextrow_setcellcolorfore.htm
 tech.root: Controls
 ms.assetid: 2eff9f39-b79d-4fcb-b8ee-ef067cff2c78

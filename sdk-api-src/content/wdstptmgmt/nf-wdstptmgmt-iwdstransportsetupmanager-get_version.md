@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_Version
 title: IWdsTransportSetupManager::get_Version (wdstptmgmt.h)
-description: Receives a value that indicates the operating system version of the WDS server.helpviewer_keywords: ["IWdsTransportSetupManager interface [Windows Deployment Services]","Version property","IWdsTransportSetupManager.Version","IWdsTransportSetupManager.get_Version","IWdsTransportSetupManager::Version","IWdsTransportSetupManager::get_Version","Version property [Windows Deployment Services]","Version property [Windows Deployment Services]","IWdsTransportSetupManager interface","get_Version","wds.iwdstransportsetupmanager_version","wdstptmgmt/IWdsTransportSetupManager::Version","wdstptmgmt/IWdsTransportSetupManager::get_Version"]
+description: Receives a value that indicates the operating system version of the WDS server.
+helpviewer_keywords: ["IWdsTransportSetupManager interface [Windows Deployment Services]","Version property","IWdsTransportSetupManager.Version","IWdsTransportSetupManager.get_Version","IWdsTransportSetupManager::Version","IWdsTransportSetupManager::get_Version","Version property [Windows Deployment Services]","Version property [Windows Deployment Services]","IWdsTransportSetupManager interface","get_Version","wds.iwdstransportsetupmanager_version","wdstptmgmt/IWdsTransportSetupManager::Version","wdstptmgmt/IWdsTransportSetupManager::get_Version"]
 old-location: wds\iwdstransportsetupmanager_version.htm
 tech.root: wds
 ms.assetid: 0477a219-0300-41de-bd2a-83052bd7b90f

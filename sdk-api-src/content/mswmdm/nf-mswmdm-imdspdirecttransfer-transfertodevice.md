@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPDirectTransfer.TransferToDevice
 title: IMDSPDirectTransfer::TransferToDevice (mswmdm.h)
-description: The TransferToDevice method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.helpviewer_keywords: ["IMDSPDirectTransfer interface [windows Media Device Manager]","TransferToDevice method","IMDSPDirectTransfer.TransferToDevice","IMDSPDirectTransfer::TransferToDevice","IMDSPDirectTransferTransferToDevice","TransferToDevice","TransferToDevice method [windows Media Device Manager]","TransferToDevice method [windows Media Device Manager]","IMDSPDirectTransfer interface","mswmdm/IMDSPDirectTransfer::TransferToDevice","wmdm.imdspdirecttransfer_transfertodevice"]
+description: The TransferToDevice method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.
+helpviewer_keywords: ["IMDSPDirectTransfer interface [windows Media Device Manager]","TransferToDevice method","IMDSPDirectTransfer.TransferToDevice","IMDSPDirectTransfer::TransferToDevice","IMDSPDirectTransferTransferToDevice","TransferToDevice","TransferToDevice method [windows Media Device Manager]","TransferToDevice method [windows Media Device Manager]","IMDSPDirectTransfer interface","mswmdm/IMDSPDirectTransfer::TransferToDevice","wmdm.imdspdirecttransfer_transfertodevice"]
 old-location: wmdm\imdspdirecttransfer_transfertodevice.htm
 tech.root: WMDM
 ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateSharedBitmap
 title: ID2D1RenderTarget::CreateSharedBitmap (d2d1.h)
-description: Creates an ID2D1Bitmap whose data is shared with another resource.helpviewer_keywords: ["CreateSharedBitmap","CreateSharedBitmap method [Direct2D]","CreateSharedBitmap method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateSharedBitmap method","ID2D1RenderTarget.CreateSharedBitmap","ID2D1RenderTarget::CreateSharedBitmap","d2d1/ID2D1RenderTarget::CreateSharedBitmap","direct2d.ID2D1RenderTarget_CreateSharedBitmap"]
+description: Creates an ID2D1Bitmap whose data is shared with another resource.
+helpviewer_keywords: ["CreateSharedBitmap","CreateSharedBitmap method [Direct2D]","CreateSharedBitmap method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateSharedBitmap method","ID2D1RenderTarget.CreateSharedBitmap","ID2D1RenderTarget::CreateSharedBitmap","d2d1/ID2D1RenderTarget::CreateSharedBitmap","direct2d.ID2D1RenderTarget_CreateSharedBitmap"]
 old-location: direct2d\ID2D1RenderTarget_CreateSharedBitmap.htm
 tech.root: Direct2D
 ms.assetid: c6377dbd-ffd9-458b-9e03-5a832f095818

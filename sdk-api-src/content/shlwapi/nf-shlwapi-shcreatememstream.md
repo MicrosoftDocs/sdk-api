@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHCreateMemStream
 title: SHCreateMemStream function (shlwapi.h)
-description: Creates a memory stream using a similar process to CreateStreamOnHGlobal.helpviewer_keywords: ["SHCreateMemStream","SHCreateMemStream function [Windows Shell]","_win32_SHCreateMemStream","shell.SHCreateMemStream","shlwapi/SHCreateMemStream"]
+description: Creates a memory stream using a similar process to CreateStreamOnHGlobal.
+helpviewer_keywords: ["SHCreateMemStream","SHCreateMemStream function [Windows Shell]","_win32_SHCreateMemStream","shell.SHCreateMemStream","shlwapi/SHCreateMemStream"]
 old-location: shell\SHCreateMemStream.htm
 tech.root: shell
 ms.assetid: f3ae8241-f3a6-4007-a10f-ff05960c5de8

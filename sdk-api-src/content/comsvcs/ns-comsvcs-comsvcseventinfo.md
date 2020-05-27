@@ -1,7 +1,8 @@
 ---
 UID: NS:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0013_0001
 title: COMSVCSEVENTINFO (comsvcs.h)
-description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.helpviewer_keywords: ["COMSVCSEVENTINFO","COMSVCSEVENTINFO structure [COM+]","_dtc_Event_Structure","comsvcs/COMSVCSEVENTINFO","cos.comsvcseventinfo"]
+description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.
+helpviewer_keywords: ["COMSVCSEVENTINFO","COMSVCSEVENTINFO structure [COM+]","_dtc_Event_Structure","comsvcs/COMSVCSEVENTINFO","cos.comsvcseventinfo"]
 old-location: cos\comsvcseventinfo.htm
 tech.root: cossdk
 ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389

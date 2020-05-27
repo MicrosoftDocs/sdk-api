@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashStyle
 title: Pen::GetDashStyle (gdipluspen.h)
-description: The Pen::GetDashStyle method gets the dash style currently set for this Pen object.helpviewer_keywords: ["GetDashStyle","GetDashStyle method [GDI+]","GetDashStyle method [GDI+]","Pen class","Pen class [GDI+]","GetDashStyle method","Pen.GetDashStyle","Pen::GetDashStyle","_gdiplus_CLASS_Pen_GetDashStyle_","gdiplus._gdiplus_CLASS_Pen_GetDashStyle_"]
+description: The Pen::GetDashStyle method gets the dash style currently set for this Pen object.
+helpviewer_keywords: ["GetDashStyle","GetDashStyle method [GDI+]","GetDashStyle method [GDI+]","Pen class","Pen class [GDI+]","GetDashStyle method","Pen.GetDashStyle","Pen::GetDashStyle","_gdiplus_CLASS_Pen_GetDashStyle_","gdiplus._gdiplus_CLASS_Pen_GetDashStyle_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashstyle.htm

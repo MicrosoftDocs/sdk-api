@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.FindText
 title: ITextRangeProvider::FindText (uiautomationcore.h)
-description: Returns a text range subset that contains the specified text.helpviewer_keywords: ["FindText","FindText method [Windows Accessibility]","FindText method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","FindText method","ITextRangeProvider.FindText","ITextRangeProvider::FindText","uiauto.uiauto_ITextRangeProvider_FindText","uiauto_ITextRangeProvider_FindText","uiautomationcore/ITextRangeProvider::FindText","winauto.uiauto_ITextRangeProvider_FindText"]
+description: Returns a text range subset that contains the specified text.
+helpviewer_keywords: ["FindText","FindText method [Windows Accessibility]","FindText method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","FindText method","ITextRangeProvider.FindText","ITextRangeProvider::FindText","uiauto.uiauto_ITextRangeProvider_FindText","uiauto_ITextRangeProvider_FindText","uiautomationcore/ITextRangeProvider::FindText","winauto.uiauto_ITextRangeProvider_FindText"]
 old-location: winauto\uiauto_ITextRangeProvider_FindText.htm
 tech.root: WinAuto
 ms.assetid: 6012bc1e-5c1c-4874-ba2b-5e16eaf21f1d

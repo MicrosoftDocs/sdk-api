@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMGetRightInfo
 title: DRMGetRightInfo function (msdrm.h)
-description: Obtains information about a previously created right.helpviewer_keywords: ["DRMGetRightInfo","DRMGetRightInfo function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetRightInfo","rm.drmgetrightinfo"]
+description: Obtains information about a previously created right.
+helpviewer_keywords: ["DRMGetRightInfo","DRMGetRightInfo function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetRightInfo","rm.drmgetrightinfo"]
 old-location: rm\drmgetrightinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 54581da2-d3d1-44ee-936a-568b7d66143b

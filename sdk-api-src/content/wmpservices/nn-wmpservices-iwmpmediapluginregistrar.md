@@ -1,7 +1,8 @@
 ---
 UID: NN:wmpservices.IWMPMediaPluginRegistrar
 title: IWMPMediaPluginRegistrar (wmpservices.h)
-description: The IWMPMediaPluginRegistrar interface manages plug-in registration.helpviewer_keywords: ["IWMPMediaPluginRegistrar","IWMPMediaPluginRegistrar interface [Windows Media Player]","IWMPMediaPluginRegistrar interface [Windows Media Player]","described","wmp.iwmpmediapluginregistrar","wmpservices/IWMPMediaPluginRegistrar"]
+description: The IWMPMediaPluginRegistrar interface manages plug-in registration.
+helpviewer_keywords: ["IWMPMediaPluginRegistrar","IWMPMediaPluginRegistrar interface [Windows Media Player]","IWMPMediaPluginRegistrar interface [Windows Media Player]","described","wmp.iwmpmediapluginregistrar","wmpservices/IWMPMediaPluginRegistrar"]
 old-location: wmp\iwmpmediapluginregistrar.htm
 tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08

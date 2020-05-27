@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._FILE_IN_CABINET_INFO_A
 title: FILE_IN_CABINET_INFO_A (setupapi.h)
-description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet.helpviewer_keywords: ["*PFILE_IN_CABINET_INFO_A","FILE_IN_CABINET_INFO","FILE_IN_CABINET_INFO structure [Setup API]","FILE_IN_CABINET_INFO_A","PFILE_IN_CABINET_INFO","PFILE_IN_CABINET_INFO structure pointer [Setup API]","_setupapi_file_in_cabinet_info_str","setup.file_in_cabinet_info_str","setupapi/FILE_IN_CABINET_INFO","setupapi/PFILE_IN_CABINET_INFO"]
+description: The FILE_IN_CABINET_INFO structure provides information about a file found in the cabinet.
+helpviewer_keywords: ["*PFILE_IN_CABINET_INFO_A","FILE_IN_CABINET_INFO","FILE_IN_CABINET_INFO structure [Setup API]","FILE_IN_CABINET_INFO_A","PFILE_IN_CABINET_INFO","PFILE_IN_CABINET_INFO structure pointer [Setup API]","_setupapi_file_in_cabinet_info_str","setup.file_in_cabinet_info_str","setupapi/FILE_IN_CABINET_INFO","setupapi/PFILE_IN_CABINET_INFO"]
 old-location: setup\file_in_cabinet_info_str.htm
 tech.root: SetupApi
 ms.assetid: 071491a8-f305-4e53-b0d7-16f7c9606e99

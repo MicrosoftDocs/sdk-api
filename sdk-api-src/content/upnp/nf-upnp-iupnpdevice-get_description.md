@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Description
 title: IUPnPDevice::get_Description (upnp.h)
-description: The Description property specifies a human-readable summary of the device's functionality.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_Description method","IUPnPDevice.get_Description","IUPnPDevice::get_Description","_upnp_iupnpdevice_description","get_Description","get_Description method [UPnP APIs]","get_Description method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_description","upnp/IUPnPDevice::get_Description"]
+description: The Description property specifies a human-readable summary of the device's functionality.
+helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_Description method","IUPnPDevice.get_Description","IUPnPDevice::get_Description","_upnp_iupnpdevice_description","get_Description","get_Description method [UPnP APIs]","get_Description method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_description","upnp/IUPnPDevice::get_Description"]
 old-location: upnp\iupnpdevice_description.htm
 tech.root: upnp
 ms.assetid: 99842f92-b57d-43fa-aa44-412f260b8af3

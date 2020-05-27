@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISelectCOMLBServer.GetLBServer
 title: ISelectCOMLBServer::GetLBServer (comsvcs.h)
-description: Retrieves the name of the load balancing server.helpviewer_keywords: ["GetLBServer","GetLBServer method [COM+]","GetLBServer method [COM+]","ISelectCOMLBServer interface","ISelectCOMLBServer interface [COM+]","GetLBServer method","ISelectCOMLBServer.GetLBServer","ISelectCOMLBServer::GetLBServer","_cos_ISelectCOMLBServer_GetLBServer","comsvcs/ISelectCOMLBServer::GetLBServer","cos.iselectcomlbserver_getlbserver"]
+description: Retrieves the name of the load balancing server.
+helpviewer_keywords: ["GetLBServer","GetLBServer method [COM+]","GetLBServer method [COM+]","ISelectCOMLBServer interface","ISelectCOMLBServer interface [COM+]","GetLBServer method","ISelectCOMLBServer.GetLBServer","ISelectCOMLBServer::GetLBServer","_cos_ISelectCOMLBServer_GetLBServer","comsvcs/ISelectCOMLBServer::GetLBServer","cos.iselectcomlbserver_getlbserver"]
 old-location: cos\iselectcomlbserver_getlbserver.htm
 tech.root: cossdk
 ms.assetid: 90b33e42-b26f-4dd8-bd91-939f452b7872

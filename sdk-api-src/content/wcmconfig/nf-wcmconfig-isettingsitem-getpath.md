@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetPath
 title: ISettingsItem::GetPath (wcmconfig.h)
-description: Gets the path for the item.helpviewer_keywords: ["GetPath","GetPath method [SMI]","GetPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetPath method","ISettingsItem.GetPath","ISettingsItem::GetPath","smi.isettingsitem_getpath","wcmconfig/ISettingsItem::GetPath"]
+description: Gets the path for the item.
+helpviewer_keywords: ["GetPath","GetPath method [SMI]","GetPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetPath method","ISettingsItem.GetPath","ISettingsItem::GetPath","smi.isettingsitem_getpath","wcmconfig/ISettingsItem::GetPath"]
 old-location: smi\isettingsitem_getpath.htm
 tech.root: SMI
 ms.assetid: 221b5929-7300-4d01-b93e-7c82c446f52b

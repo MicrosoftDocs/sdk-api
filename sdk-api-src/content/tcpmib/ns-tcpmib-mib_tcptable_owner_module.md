@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpmib._MIB_TCPTABLE_OWNER_MODULE
 title: MIB_TCPTABLE_OWNER_MODULE (tcpmib.h)
-description: Contains a table of process IDs (PIDs) and the IPv4 TCP links context bound to the PIDs, and any available ownership data.helpviewer_keywords: ["*PMIB_TCPTABLE_OWNER_MODULE","MIB_TCPTABLE_OWNER_MODULE","MIB_TCPTABLE_OWNER_MODULE structure [MIB]","PMIB_TCPTABLE_OWNER_MODULE","PMIB_TCPTABLE_OWNER_MODULE structure pointer [MIB]","iprtrmib/MIB_TCPTABLE_OWNER_MODULE","iprtrmib/PMIB_TCPTABLE_OWNER_MODULE","mib.mib_tcptable_owner_module","tcpmib/MIB_TCPTABLE_OWNER_MODULE","tcpmib/PMIB_TCPTABLE_OWNER_MODULE"]
+description: Contains a table of process IDs (PIDs) and the IPv4 TCP links context bound to the PIDs, and any available ownership data.
+helpviewer_keywords: ["*PMIB_TCPTABLE_OWNER_MODULE","MIB_TCPTABLE_OWNER_MODULE","MIB_TCPTABLE_OWNER_MODULE structure [MIB]","PMIB_TCPTABLE_OWNER_MODULE","PMIB_TCPTABLE_OWNER_MODULE structure pointer [MIB]","iprtrmib/MIB_TCPTABLE_OWNER_MODULE","iprtrmib/PMIB_TCPTABLE_OWNER_MODULE","mib.mib_tcptable_owner_module","tcpmib/MIB_TCPTABLE_OWNER_MODULE","tcpmib/PMIB_TCPTABLE_OWNER_MODULE"]
 old-location: mib\mib_tcptable_owner_module.htm
 tech.root: MIB
 ms.assetid: d44c9d82-906b-43ea-8edd-cf973864668d

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Intersects(FXMVECTOR,FXMVECTOR,float &)
 title: BoundingFrustum::Intersects(FXMVECTOR,FXMVECTOR,float &)
-description: Test the BoundingFrustum for intersection with a ray.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Intersects method","BoundingFrustum.Intersects","BoundingFrustum.Intersects(FXMVECTOR","FXMVECTOR","float &)","BoundingFrustum.Intersects(XMVECTOR","XMVECTOR","float&)","BoundingFrustum::Intersects","BoundingFrustum::Intersects(FXMVECTOR","FXMVECTOR","float &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_intersects_2"]
+description: Test the BoundingFrustum for intersection with a ray.
+helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Intersects method","BoundingFrustum.Intersects","BoundingFrustum.Intersects(FXMVECTOR","FXMVECTOR","float &)","BoundingFrustum.Intersects(XMVECTOR","XMVECTOR","float&)","BoundingFrustum::Intersects","BoundingFrustum::Intersects(FXMVECTOR","FXMVECTOR","float &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_intersects_2"]
 old-location: dxmath\boundingfrustum_intersects_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Intersects(XMVECTOR,XMVECTOR,float@)

@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromDouble
 title: InitPropVariantFromDouble function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on a specified double value.helpviewer_keywords: ["InitPropVariantFromDouble","InitPropVariantFromDouble function [Windows Properties]","properties.InitPropVariantFromDouble","propvarutil/InitPropVariantFromDouble","shell.InitPropVariantFromDouble","shell_InitPropVariantFromDouble"]
+description: Initializes a PROPVARIANT structure based on a specified double value.
+helpviewer_keywords: ["InitPropVariantFromDouble","InitPropVariantFromDouble function [Windows Properties]","properties.InitPropVariantFromDouble","propvarutil/InitPropVariantFromDouble","shell.InitPropVariantFromDouble","shell_InitPropVariantFromDouble"]
 old-location: properties\InitPropVariantFromDouble.htm
 tech.root: properties
 ms.assetid: aeae9091-3b1e-4112-8f50-79d77cb891c4

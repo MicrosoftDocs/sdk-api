@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._TAPE_ERASE
 title: TAPE_ERASE (winnt.h)
-description: Describes the partition to be erased.helpviewer_keywords: ["*PTAPE_ERASE","PTAPE_ERASE","PTAPE_ERASE structure pointer [Backup]","TAPE_ERASE","TAPE_ERASE structure [Backup]","TAPE_ERASE_LONG","TAPE_ERASE_SHORT","_TAPE_ERASE","_win32_tape_erase_str","backup.tape_erase_str","winnt/PTAPE_ERASE","winnt/TAPE_ERASE"]
+description: Describes the partition to be erased.
+helpviewer_keywords: ["*PTAPE_ERASE","PTAPE_ERASE","PTAPE_ERASE structure pointer [Backup]","TAPE_ERASE","TAPE_ERASE structure [Backup]","TAPE_ERASE_LONG","TAPE_ERASE_SHORT","_TAPE_ERASE","_win32_tape_erase_str","backup.tape_erase_str","winnt/PTAPE_ERASE","winnt/TAPE_ERASE"]
 old-location: backup\tape_erase_str.htm
 tech.root: Backup
 ms.assetid: 6b621635-7499-4819-95d8-bce17ef11146

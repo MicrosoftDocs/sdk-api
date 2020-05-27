@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoRevokeClassObject
 title: CoRevokeClassObject function (combaseapi.h)
-description: Informs OLE that a class object, previously registered with the CoRegisterClassObject function, is no longer available for use.helpviewer_keywords: ["CoRevokeClassObject","CoRevokeClassObject function [COM]","_com_CoRevokeClassObject","com.corevokeclassobject","combaseapi/CoRevokeClassObject"]
+description: Informs OLE that a class object, previously registered with the CoRegisterClassObject function, is no longer available for use.
+helpviewer_keywords: ["CoRevokeClassObject","CoRevokeClassObject function [COM]","_com_CoRevokeClassObject","com.corevokeclassobject","combaseapi/CoRevokeClassObject"]
 old-location: com\corevokeclassobject.htm
 tech.root: com
 ms.assetid: 90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec

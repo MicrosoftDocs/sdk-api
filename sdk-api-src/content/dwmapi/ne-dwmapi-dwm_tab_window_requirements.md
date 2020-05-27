@@ -1,7 +1,8 @@
 ---
 UID: NE:dwmapi.DWM_TAB_WINDOW_REQUIREMENTS
 title: DWM_TAB_WINDOW_REQUIREMENTS (dwmapi.h)
-description: Returned by DwmGetUnmetTabRequirements to indicate the requirements needed for a window to put tabs in the application title bar.helpviewer_keywords: ["DWMTWR_IMPLEMENTED_BY_SYSTEM","DWMTWR_NONE","DWMTWR_TABBING_ENABLED","DWMTWR_USER_POLICY","DWMTWR_WINDOW_DWM_ATTRIBUTES","DWMTWR_WINDOW_MARGINS","DWMTWR_WINDOW_REGION","DWMTWR_WINDOW_RELATIONSHIP","DWMTWR_WINDOW_STYLES","DWM_TAB_WINDOW_REQUIREMENTS","DWM_TAB_WINDOW_REQUIREMENTS enumeration [Desktop Window Manager]","dwm.dwm_tab_window_requirements","dwmapi/ DWMTWR_WINDOW_STYLES","dwmapi/DWMTWR_IMPLEMENTED_BY_SYSTEM","dwmapi/DWMTWR_NONE","dwmapi/DWMTWR_TABBING_ENABLED","dwmapi/DWMTWR_USER_POLICY","dwmapi/DWMTWR_WINDOW_DWM_ATTRIBUTES","dwmapi/DWMTWR_WINDOW_MARGINS","dwmapi/DWMTWR_WINDOW_REGION","dwmapi/DWMTWR_WINDOW_RELATIONSHIP","dwmapi/DWM_TAB_WINDOW_REQUIREMENTS"]
+description: Returned by DwmGetUnmetTabRequirements to indicate the requirements needed for a window to put tabs in the application title bar.
+helpviewer_keywords: ["DWMTWR_IMPLEMENTED_BY_SYSTEM","DWMTWR_NONE","DWMTWR_TABBING_ENABLED","DWMTWR_USER_POLICY","DWMTWR_WINDOW_DWM_ATTRIBUTES","DWMTWR_WINDOW_MARGINS","DWMTWR_WINDOW_REGION","DWMTWR_WINDOW_RELATIONSHIP","DWMTWR_WINDOW_STYLES","DWM_TAB_WINDOW_REQUIREMENTS","DWM_TAB_WINDOW_REQUIREMENTS enumeration [Desktop Window Manager]","dwm.dwm_tab_window_requirements","dwmapi/ DWMTWR_WINDOW_STYLES","dwmapi/DWMTWR_IMPLEMENTED_BY_SYSTEM","dwmapi/DWMTWR_NONE","dwmapi/DWMTWR_TABBING_ENABLED","dwmapi/DWMTWR_USER_POLICY","dwmapi/DWMTWR_WINDOW_DWM_ATTRIBUTES","dwmapi/DWMTWR_WINDOW_MARGINS","dwmapi/DWMTWR_WINDOW_REGION","dwmapi/DWMTWR_WINDOW_RELATIONSHIP","dwmapi/DWM_TAB_WINDOW_REQUIREMENTS"]
 old-location: dwm\dwm_tab_window_requirements.htm
 tech.root: dwm
 ms.assetid: 8366ABE4-263D-448D-9FC9-3F4DAF9B700D

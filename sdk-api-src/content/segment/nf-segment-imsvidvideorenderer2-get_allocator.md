@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_Allocator
 title: IMSVidVideoRenderer2::get_Allocator (segment.h)
-description: The get_Allocator method retrieves the allocator-presenter from the VMR as an IUnknown pointer.helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","get_Allocator method","IMSVidVideoRenderer2.get_Allocator","IMSVidVideoRenderer2::get_Allocator","IMSVidVideoRenderer2get_Allocator","get_Allocator","get_Allocator method [Microsoft TV Technologies]","get_Allocator method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_get_allocator","segment/IMSVidVideoRenderer2::get_Allocator"]
+description: The get_Allocator method retrieves the allocator-presenter from the VMR as an IUnknown pointer.
+helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","get_Allocator method","IMSVidVideoRenderer2.get_Allocator","IMSVidVideoRenderer2::get_Allocator","IMSVidVideoRenderer2get_Allocator","get_Allocator","get_Allocator method [Microsoft TV Technologies]","get_Allocator method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_get_allocator","segment/IMSVidVideoRenderer2::get_Allocator"]
 old-location: mstv\imsvidvideorenderer2_get_allocator.htm
 tech.root: mstv
 ms.assetid: 0ba2c9ba-c3ba-4095-8221-a424776f3fac

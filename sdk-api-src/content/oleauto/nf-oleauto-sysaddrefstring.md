@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SysAddRefString
 title: SysAddRefString function (oleauto.h)
-description: Increases the pinning reference count for the specified string by one.helpviewer_keywords: ["SysAddRefString","SysAddRefString function [Automation]","automat.sysaddrefstring","oleauto/SysAddRefString"]
+description: Increases the pinning reference count for the specified string by one.
+helpviewer_keywords: ["SysAddRefString","SysAddRefString function [Automation]","automat.sysaddrefstring","oleauto/SysAddRefString"]
 old-location: automat\sysaddrefstring.htm
 tech.root: automat
 ms.assetid: 9AE274F1-1517-4D55-B9AE-D75169404880

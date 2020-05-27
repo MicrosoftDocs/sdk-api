@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMColorYUVToRGB
 title: XMColorYUVToRGB function (directxmath.h)
-description: Converts YUV color values to RGB color values.helpviewer_keywords: ["Use DirectX..XMColorYUVToRGB","XMColorYUVToRGB","XMColorYUVToRGB method [DirectX Math Support APIs]","dxmath.xmcoloryuvtorgb"]
+description: Converts YUV color values to RGB color values.
+helpviewer_keywords: ["Use DirectX..XMColorYUVToRGB","XMColorYUVToRGB","XMColorYUVToRGB method [DirectX Math Support APIs]","dxmath.xmcoloryuvtorgb"]
 old-location: dxmath\xmcoloryuvtorgb.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorYUVToRGB(XMVECTOR)

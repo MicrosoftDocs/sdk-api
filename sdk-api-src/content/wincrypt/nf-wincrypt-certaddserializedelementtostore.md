@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertAddSerializedElementToStore
 title: CertAddSerializedElementToStore function (wincrypt.h)
-description: Adds a serialized certificate, certificate revocation list (CRL), or certificate trust list (CTL) element to the store.helpviewer_keywords: ["CERT_STORE_ADD_ALWAYS","CERT_STORE_ADD_NEW","CERT_STORE_ADD_NEWER","CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES","CERT_STORE_ADD_REPLACE_EXISTING","CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES","CERT_STORE_ADD_USE_EXISTING","CERT_STORE_ALL_CONTEXT_FLAG","CERT_STORE_CERTIFICATE_CONTEXT","CERT_STORE_CERTIFICATE_CONTEXT_FLAG","CERT_STORE_CRL_CONTEXT","CERT_STORE_CRL_CONTEXT_FLAG","CERT_STORE_CTL_CONTEXT","CERT_STORE_CTL_CONTEXT_FLAG","CertAddSerializedElementToStore","CertAddSerializedElementToStore function [Security]","_crypto2_certaddserializedelementtostore","security.certaddserializedelementtostore","wincrypt/CertAddSerializedElementToStore"]
+description: Adds a serialized certificate, certificate revocation list (CRL), or certificate trust list (CTL) element to the store.
+helpviewer_keywords: ["CERT_STORE_ADD_ALWAYS","CERT_STORE_ADD_NEW","CERT_STORE_ADD_NEWER","CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES","CERT_STORE_ADD_REPLACE_EXISTING","CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES","CERT_STORE_ADD_USE_EXISTING","CERT_STORE_ALL_CONTEXT_FLAG","CERT_STORE_CERTIFICATE_CONTEXT","CERT_STORE_CERTIFICATE_CONTEXT_FLAG","CERT_STORE_CRL_CONTEXT","CERT_STORE_CRL_CONTEXT_FLAG","CERT_STORE_CTL_CONTEXT","CERT_STORE_CTL_CONTEXT_FLAG","CertAddSerializedElementToStore","CertAddSerializedElementToStore function [Security]","_crypto2_certaddserializedelementtostore","security.certaddserializedelementtostore","wincrypt/CertAddSerializedElementToStore"]
 old-location: security\certaddserializedelementtostore.htm
 tech.root: SecCrypto
 ms.assetid: 2726cd34-51ba-4f68-9a3c-7cd505eb32a1

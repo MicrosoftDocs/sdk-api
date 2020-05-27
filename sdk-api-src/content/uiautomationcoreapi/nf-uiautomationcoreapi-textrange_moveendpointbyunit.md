@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_MoveEndpointByUnit
 title: TextRange_MoveEndpointByUnit function (uiautomationcoreapi.h)
-description: Moves an endpoint of the range the specified number of units.helpviewer_keywords: ["TextRange_MoveEndpointByUnit","TextRange_MoveEndpointByUnit function [Windows Accessibility]","uiauto.uiauto_TextRange_MoveEndpointByUnitConPat","uiauto_TextRange_MoveEndpointByUnitConPat","uiautomationcoreapi/TextRange_MoveEndpointByUnit","winauto.uiauto_TextRange_MoveEndpointByUnitConPat"]
+description: Moves an endpoint of the range the specified number of units.
+helpviewer_keywords: ["TextRange_MoveEndpointByUnit","TextRange_MoveEndpointByUnit function [Windows Accessibility]","uiauto.uiauto_TextRange_MoveEndpointByUnitConPat","uiauto_TextRange_MoveEndpointByUnitConPat","uiautomationcoreapi/TextRange_MoveEndpointByUnit","winauto.uiauto_TextRange_MoveEndpointByUnitConPat"]
 old-location: winauto\uiauto_TextRange_MoveEndpointByUnitConPat.htm
 tech.root: WinAuto
 ms.assetid: 15afd438-c662-4cc1-b6b5-87e5bf82ccaa

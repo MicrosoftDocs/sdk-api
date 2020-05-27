@@ -1,7 +1,8 @@
 ---
 UID: NE:nsemail.napi_provider_type_tag
 title: NAPI_PROVIDER_TYPE (nsemail.h)
-description: Specifies the type of hosting expected for a namespace provider.helpviewer_keywords: ["NAPI_PROVIDER_TYPE","NAPI_PROVIDER_TYPE enumeration [Winsock]","ProviderType_Application","ProviderType_Service","nsemail/NAPI_PROVIDER_TYPE","nsemail/ProviderType_Application","nsemail/ProviderType_Service","winsock.napi_provider_type"]
+description: Specifies the type of hosting expected for a namespace provider.
+helpviewer_keywords: ["NAPI_PROVIDER_TYPE","NAPI_PROVIDER_TYPE enumeration [Winsock]","ProviderType_Application","ProviderType_Service","nsemail/NAPI_PROVIDER_TYPE","nsemail/ProviderType_Application","nsemail/ProviderType_Service","winsock.napi_provider_type"]
 old-location: winsock\napi_provider_type.htm
 tech.root: WinSock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73

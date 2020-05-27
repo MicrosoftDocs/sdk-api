@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_SupportedProfiles
 title: IDiscRecorder2::get_SupportedProfiles (imapi2.h)
-description: Retrieves the list of MMC profiles that the device supports.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_SupportedProfiles method","IDiscRecorder2.get_SupportedProfiles","IDiscRecorder2::get_SupportedProfiles","get_SupportedProfiles","get_SupportedProfiles method [IMAPI]","get_SupportedProfiles method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_supportedprofiles","imapi2/IDiscRecorder2::get_SupportedProfiles"]
+description: Retrieves the list of MMC profiles that the device supports.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_SupportedProfiles method","IDiscRecorder2.get_SupportedProfiles","IDiscRecorder2::get_SupportedProfiles","get_SupportedProfiles","get_SupportedProfiles method [IMAPI]","get_SupportedProfiles method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_supportedprofiles","imapi2/IDiscRecorder2::get_SupportedProfiles"]
 old-location: imapi\idiscrecorder2_get_supportedprofiles.htm
 tech.root: imapi
 ms.assetid: 7ee1b58b-0289-42e8-a23d-2600b9dd2e21

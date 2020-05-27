@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveSubnetElementV4
 title: DhcpRemoveSubnetElementV4 function (dhcpsapi.h)
-description: Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server. The function extends the functionality provided by DhcpRemoveSubnetElement by allowing the specification of a subnet that contains client type (DHCP or BOOTP) information.helpviewer_keywords: ["DhcpRemoveSubnetElementV4","DhcpRemoveSubnetElementV4 function [DHCP]","dhcp.dhcpremovesubnetelementv4","dhcpsapi/DhcpRemoveSubnetElementV4"]
+description: Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server. The function extends the functionality provided by DhcpRemoveSubnetElement by allowing the specification of a subnet that contains client type (DHCP or BOOTP) information.
+helpviewer_keywords: ["DhcpRemoveSubnetElementV4","DhcpRemoveSubnetElementV4 function [DHCP]","dhcp.dhcpremovesubnetelementv4","dhcpsapi/DhcpRemoveSubnetElementV4"]
 old-location: dhcp\dhcpremovesubnetelementv4.htm
 tech.root: DHCP
 ms.assetid: 30edda5e-17de-46ec-9a6a-eab26a6ed29a

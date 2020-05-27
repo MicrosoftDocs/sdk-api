@@ -1,7 +1,8 @@
 ---
 UID: NN:infotech.IITPropList
 title: IITPropList (infotech.h)
-description: Use this interface to set properties for build objects such as word wheels and indexes. Call these methods in the document build process to define properties for all build objects.helpviewer_keywords: ["IITPropList","IITPropList interface [HTML Help Workshop]","IITPropList interface [HTML Help Workshop]","described","htmlhelp.iitproplist","infotech/IITPropList","refIITPropListInterface"]
+description: Use this interface to set properties for build objects such as word wheels and indexes. Call these methods in the document build process to define properties for all build objects.
+helpviewer_keywords: ["IITPropList","IITPropList interface [HTML Help Workshop]","IITPropList interface [HTML Help Workshop]","described","htmlhelp.iitproplist","infotech/IITPropList","refIITPropListInterface"]
 old-location: htmlhelp\iitproplist.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistinterface.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CTL_VERIFY_USAGE_PARA
 title: CTL_VERIFY_USAGE_PARA (wincrypt.h)
-description: The CTL_VERIFY_USAGE_PARA structure contains parameters used by CertVerifyCTLUsage to establish the validity of a CTL's usage.helpviewer_keywords: ["*PCTL_VERIFY_USAGE_PARA","CTL_VERIFY_USAGE_PARA","CTL_VERIFY_USAGE_PARA structure [Security]","PCTL_VERIFY_USAGE_PARA","PCTL_VERIFY_USAGE_PARA structure pointer [Security]","_crypto2_ctl_verify_usage_para","security.ctl_verify_usage_para","wincrypt/CTL_VERIFY_USAGE_PARA","wincrypt/PCTL_VERIFY_USAGE_PARA"]
+description: The CTL_VERIFY_USAGE_PARA structure contains parameters used by CertVerifyCTLUsage to establish the validity of a CTL's usage.
+helpviewer_keywords: ["*PCTL_VERIFY_USAGE_PARA","CTL_VERIFY_USAGE_PARA","CTL_VERIFY_USAGE_PARA structure [Security]","PCTL_VERIFY_USAGE_PARA","PCTL_VERIFY_USAGE_PARA structure pointer [Security]","_crypto2_ctl_verify_usage_para","security.ctl_verify_usage_para","wincrypt/CTL_VERIFY_USAGE_PARA","wincrypt/PCTL_VERIFY_USAGE_PARA"]
 old-location: security\ctl_verify_usage_para.htm
 tech.root: SecCrypto
 ms.assetid: bf9a3c81-f8c4-45a6-b045-8cbefebebbd3

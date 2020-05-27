@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupAdjustDiskSpaceListA
 title: SetupAdjustDiskSpaceListA function (setupapi.h)
-description: The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive.helpviewer_keywords: ["SetupAdjustDiskSpaceList","SetupAdjustDiskSpaceList function [Setup API]","SetupAdjustDiskSpaceListA","SetupAdjustDiskSpaceListW","setup.setupadjustdiskspacelist","setupapi/SetupAdjustDiskSpaceList","setupapi/SetupAdjustDiskSpaceListA","setupapi/SetupAdjustDiskSpaceListW"]
+description: The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive.
+helpviewer_keywords: ["SetupAdjustDiskSpaceList","SetupAdjustDiskSpaceList function [Setup API]","SetupAdjustDiskSpaceListA","SetupAdjustDiskSpaceListW","setup.setupadjustdiskspacelist","setupapi/SetupAdjustDiskSpaceList","setupapi/SetupAdjustDiskSpaceListA","setupapi/SetupAdjustDiskSpaceListW"]
 old-location: setup\setupadjustdiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: dcdcc43c-9b5c-495b-bf4b-331c4d9461e7

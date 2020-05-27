@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveAllBehaviors
 title: IDirectManipulationViewport2::RemoveAllBehaviors (directmanipulation.h)
-description: Removes all behaviors added to the viewport.helpviewer_keywords: ["IDirectManipulationViewport2 interface [Direct Manipulation]","RemoveAllBehaviors method","IDirectManipulationViewport2.RemoveAllBehaviors","IDirectManipulationViewport2::RemoveAllBehaviors","RemoveAllBehaviors","RemoveAllBehaviors method [Direct Manipulation]","RemoveAllBehaviors method [Direct Manipulation]","IDirectManipulationViewport2 interface","directmanipulation.idirectmanipulationviewport2_removeallbehaviors","directmanipulation/IDirectManipulationViewport2::RemoveAllBehaviors"]
+description: Removes all behaviors added to the viewport.
+helpviewer_keywords: ["IDirectManipulationViewport2 interface [Direct Manipulation]","RemoveAllBehaviors method","IDirectManipulationViewport2.RemoveAllBehaviors","IDirectManipulationViewport2::RemoveAllBehaviors","RemoveAllBehaviors","RemoveAllBehaviors method [Direct Manipulation]","RemoveAllBehaviors method [Direct Manipulation]","IDirectManipulationViewport2 interface","directmanipulation.idirectmanipulationviewport2_removeallbehaviors","directmanipulation/IDirectManipulationViewport2::RemoveAllBehaviors"]
 old-location: directmanipulation\idirectmanipulationviewport2_removeallbehaviors.htm
 tech.root: directmanipulation
 ms.assetid: 94CCF2F4-F6E7-4446-8F6A-3E058B98A328

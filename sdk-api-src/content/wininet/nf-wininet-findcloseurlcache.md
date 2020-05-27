@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.FindCloseUrlCache
 title: FindCloseUrlCache function (wininet.h)
-description: Closes the specified cache enumeration handle.helpviewer_keywords: ["FindCloseUrlCache","FindCloseUrlCache function [WinINet]","_inet_findcloseurlcache_function","wininet.findcloseurlcache","wininet/FindCloseUrlCache"]
+description: Closes the specified cache enumeration handle.
+helpviewer_keywords: ["FindCloseUrlCache","FindCloseUrlCache function [WinINet]","_inet_findcloseurlcache_function","wininet.findcloseurlcache","wininet/FindCloseUrlCache"]
 old-location: wininet\findcloseurlcache.htm
 tech.root: wininet
 ms.assetid: 54fc7bea-4cc1-4034-93c3-49ec88817648

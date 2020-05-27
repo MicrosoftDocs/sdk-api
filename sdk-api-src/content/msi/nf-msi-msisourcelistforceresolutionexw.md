@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionExW
 title: MsiSourceListForceResolutionExW function (msi.h)
-description: The MsiSourceListForceResolutionEx function removes the registration of the property called &#0034;LastUsedSource&#0034;.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListForceResolutionEx","MsiSourceListForceResolutionEx function","MsiSourceListForceResolutionExA","MsiSourceListForceResolutionExW","msi/MsiSourceListForceResolutionEx","msi/MsiSourceListForceResolutionExA","msi/MsiSourceListForceResolutionExW","setup.msisourcelistforceresolutionex"]
+description: The MsiSourceListForceResolutionEx function removes the registration of the property called &#0034;LastUsedSource&#0034;.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListForceResolutionEx","MsiSourceListForceResolutionEx function","MsiSourceListForceResolutionExA","MsiSourceListForceResolutionExW","msi/MsiSourceListForceResolutionEx","msi/MsiSourceListForceResolutionExA","msi/MsiSourceListForceResolutionExW","setup.msisourcelistforceresolutionex"]
 old-location: setup\msisourcelistforceresolutionex.htm
 tech.root: Msi
 ms.assetid: 8eb140bb-79c4-454a-9004-71905e430811

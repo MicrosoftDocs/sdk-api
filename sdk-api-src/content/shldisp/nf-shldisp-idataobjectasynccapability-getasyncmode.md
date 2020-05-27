@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.GetAsyncMode
 title: IDataObjectAsyncCapability::GetAsyncMode (shldisp.h)
-description: Called by a drop target to determine whether the data object supports asynchronous data extraction.helpviewer_keywords: ["GetAsyncMode","GetAsyncMode method [Windows Shell]","GetAsyncMode method [Windows Shell]","IDataObjectAsyncCapability interface","IDataObjectAsyncCapability interface [Windows Shell]","GetAsyncMode method","IDataObjectAsyncCapability.GetAsyncMode","IDataObjectAsyncCapability::GetAsyncMode","shell.IDataObjectAsyncCapability_GetAsyncMode","shldisp/IDataObjectAsyncCapability::GetAsyncMode"]
+description: Called by a drop target to determine whether the data object supports asynchronous data extraction.
+helpviewer_keywords: ["GetAsyncMode","GetAsyncMode method [Windows Shell]","GetAsyncMode method [Windows Shell]","IDataObjectAsyncCapability interface","IDataObjectAsyncCapability interface [Windows Shell]","GetAsyncMode method","IDataObjectAsyncCapability.GetAsyncMode","IDataObjectAsyncCapability::GetAsyncMode","shell.IDataObjectAsyncCapability_GetAsyncMode","shldisp/IDataObjectAsyncCapability::GetAsyncMode"]
 old-location: shell\IDataObjectAsyncCapability_GetAsyncMode.htm
 tech.root: shell
 ms.assetid: 0B7A4299-4D19-4c5a-99A5-9568F4D58061

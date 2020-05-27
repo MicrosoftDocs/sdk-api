@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPWSPSEND
 title: LPWSPSEND
-description: The LPWSPSend function sends data on a connected socket.helpviewer_keywords: ["LPWSPSEND"]
+description: The LPWSPSend function sends data on a connected socket.
+helpviewer_keywords: ["LPWSPSEND"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSEND
 targetos: Windows

@@ -1,7 +1,8 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ShutDown
 title: CMSPCallBase::ShutDown (mspcall.h)
-description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.helpviewer_keywords: ["CMSPCallBase interface [TAPI 2.2]","ShutDown method","CMSPCallBase.ShutDown","CMSPCallBase::ShutDown","ShutDown","ShutDown method [TAPI 2.2]","ShutDown method [TAPI 2.2]","CMSPCallBase interface","_tapi3_cmspcallbase_shutdown","mspcall/CMSPCallBase::ShutDown","tapi3.cmspcallbase_shutdown"]
+description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.
+helpviewer_keywords: ["CMSPCallBase interface [TAPI 2.2]","ShutDown method","CMSPCallBase.ShutDown","CMSPCallBase::ShutDown","ShutDown","ShutDown method [TAPI 2.2]","ShutDown method [TAPI 2.2]","CMSPCallBase interface","_tapi3_cmspcallbase_shutdown","mspcall/CMSPCallBase::ShutDown","tapi3.cmspcallbase_shutdown"]
 old-location: tapi3\cmspcallbase_shutdown.htm
 tech.root: Tapi
 ms.assetid: eec5b712-5cee-41f7-819f-60815d5fba5c

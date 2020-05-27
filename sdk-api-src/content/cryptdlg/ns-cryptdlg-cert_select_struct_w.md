@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptdlg.tagCSSW
 title: CERT_SELECT_STRUCT_W (cryptdlg.h)
-description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.helpviewer_keywords: ["*PCERT_SELECT_STRUCT_W","CERT_SELECT_STRUCT","CERT_SELECT_STRUCT structure [Security]","CERT_SELECT_STRUCT_A","CERT_SELECT_STRUCT_W","CSS_ALLOWMULTISELECT","CSS_ENABLEHOOK","CSS_ENABLETEMPLATE","CSS_ENABLETEMPLATEHANDLE","CSS_HIDE_PROPERTIES","CSS_SHOW_HELP","PCERT_SELECT_STRUCT","PCERT_SELECT_STRUCT structure pointer [Security]","cryptdlg/CERT_SELECT_STRUCT","cryptdlg/CERT_SELECT_STRUCT_A","cryptdlg/CERT_SELECT_STRUCT_W","cryptdlg/PCERT_SELECT_STRUCT","security.cert_select_struct","security.cert_select_struct_w"]
+description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.
+helpviewer_keywords: ["*PCERT_SELECT_STRUCT_W","CERT_SELECT_STRUCT","CERT_SELECT_STRUCT structure [Security]","CERT_SELECT_STRUCT_A","CERT_SELECT_STRUCT_W","CSS_ALLOWMULTISELECT","CSS_ENABLEHOOK","CSS_ENABLETEMPLATE","CSS_ENABLETEMPLATEHANDLE","CSS_HIDE_PROPERTIES","CSS_SHOW_HELP","PCERT_SELECT_STRUCT","PCERT_SELECT_STRUCT structure pointer [Security]","cryptdlg/CERT_SELECT_STRUCT","cryptdlg/CERT_SELECT_STRUCT_A","cryptdlg/CERT_SELECT_STRUCT_W","cryptdlg/PCERT_SELECT_STRUCT","security.cert_select_struct","security.cert_select_struct_w"]
 old-location: security\cert_select_struct.htm
 tech.root: SecCrypto
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21

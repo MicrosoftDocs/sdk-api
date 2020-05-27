@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtCreateDerivedKey
 title: DrtCreateDerivedKey function (drt.h)
-description: DrtCreateDerivedKey function creates a key that can be utilized by DrtRegisterKey when the DRT is using a derived key security provider.helpviewer_keywords: ["DrtCreateDerivedKey","DrtCreateDerivedKey function [Peer Networking]","drt/DrtCreateDerivedKey","p2p.drtcreatederivedkey"]
+description: DrtCreateDerivedKey function creates a key that can be utilized by DrtRegisterKey when the DRT is using a derived key security provider.
+helpviewer_keywords: ["DrtCreateDerivedKey","DrtCreateDerivedKey function [Peer Networking]","drt/DrtCreateDerivedKey","p2p.drtcreatederivedkey"]
 old-location: p2p\drtcreatederivedkey.htm
 tech.root: P2PSdk
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff

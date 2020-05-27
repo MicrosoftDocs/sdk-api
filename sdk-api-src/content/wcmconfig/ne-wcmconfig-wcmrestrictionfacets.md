@@ -1,7 +1,8 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0005
 title: WcmRestrictionFacets (wcmconfig.h)
-description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.helpviewer_keywords: ["WcmRestrictionFacets","WcmRestrictionFacets enumeration [SMI]","restrictionFacetEnumeration","restrictionFacetMaxInclusive","restrictionFacetMaxLength","restrictionFacetMinInclusive","smi.wcmrestrictionfacets","wcmconfig/WcmRestrictionFacets","wcmconfig/restrictionFacetEnumeration","wcmconfig/restrictionFacetMaxInclusive","wcmconfig/restrictionFacetMaxLength","wcmconfig/restrictionFacetMinInclusive"]
+description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.
+helpviewer_keywords: ["WcmRestrictionFacets","WcmRestrictionFacets enumeration [SMI]","restrictionFacetEnumeration","restrictionFacetMaxInclusive","restrictionFacetMaxLength","restrictionFacetMinInclusive","smi.wcmrestrictionfacets","wcmconfig/WcmRestrictionFacets","wcmconfig/restrictionFacetEnumeration","wcmconfig/restrictionFacetMaxInclusive","wcmconfig/restrictionFacetMaxLength","wcmconfig/restrictionFacetMinInclusive"]
 old-location: smi\wcmrestrictionfacets.htm
 tech.root: SMI
 ms.assetid: b9e62904-f6a9-4299-a558-51b57bd7d3db

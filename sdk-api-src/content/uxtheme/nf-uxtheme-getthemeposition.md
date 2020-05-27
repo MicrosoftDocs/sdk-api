@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemePosition
 title: GetThemePosition function (uxtheme.h)
-description: Retrieves the value of a position property.helpviewer_keywords: ["GetThemePosition","GetThemePosition function [Windows Controls]","controls.GetThemePosition","controls.inet_GetThemePosition","inet_GetThemePosition","inet_GetThemePosition_cpp","uxtheme/GetThemePosition"]
+description: Retrieves the value of a position property.
+helpviewer_keywords: ["GetThemePosition","GetThemePosition function [Windows Controls]","controls.GetThemePosition","controls.inet_GetThemePosition","inet_GetThemePosition","inet_GetThemePosition_cpp","uxtheme/GetThemePosition"]
 old-location: controls\GetThemePosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeposition.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.EndFigure
 title: ID2D1SimplifiedGeometrySink::EndFigure (d2d1.h)
-description: Ends the current figure; optionally, closes it.helpviewer_keywords: ["EndFigure","EndFigure method [Direct2D]","EndFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","EndFigure method","ID2D1SimplifiedGeometrySink.EndFigure","ID2D1SimplifiedGeometrySink::EndFigure","d2d1/ID2D1SimplifiedGeometrySink::EndFigure","direct2d.ID2D1SimplifiedGeometrySink_EndFigure"]
+description: Ends the current figure; optionally, closes it.
+helpviewer_keywords: ["EndFigure","EndFigure method [Direct2D]","EndFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","EndFigure method","ID2D1SimplifiedGeometrySink.EndFigure","ID2D1SimplifiedGeometrySink::EndFigure","d2d1/ID2D1SimplifiedGeometrySink::EndFigure","direct2d.ID2D1SimplifiedGeometrySink_EndFigure"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm
 tech.root: Direct2D
 ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f

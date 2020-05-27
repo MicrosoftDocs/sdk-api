@@ -1,7 +1,8 @@
 ---
 UID: NF:imagetranscode.ITranscodeImage.TranscodeImage
 title: ITranscodeImage::TranscodeImage (imagetranscode.h)
-description: Converts an image to JPEG or bitmap (BMP) image format.helpviewer_keywords: ["ITranscodeImage interface [Windows Shell]","TranscodeImage method","ITranscodeImage.TranscodeImage","ITranscodeImage::TranscodeImage","TI_BITMAP","TI_JPEG","TranscodeImage","TranscodeImage method [Windows Shell]","TranscodeImage method [Windows Shell]","ITranscodeImage interface","_shell_TranscodeImage","imagetranscode/ITranscodeImage::TranscodeImage","shell.TranscodeImage"]
+description: Converts an image to JPEG or bitmap (BMP) image format.
+helpviewer_keywords: ["ITranscodeImage interface [Windows Shell]","TranscodeImage method","ITranscodeImage.TranscodeImage","ITranscodeImage::TranscodeImage","TI_BITMAP","TI_JPEG","TranscodeImage","TranscodeImage method [Windows Shell]","TranscodeImage method [Windows Shell]","ITranscodeImage interface","_shell_TranscodeImage","imagetranscode/ITranscodeImage::TranscodeImage","shell.TranscodeImage"]
 old-location: shell\TranscodeImage.htm
 tech.root: shell
 ms.assetid: 56b8c871-5c44-497d-beac-5bde01b8bd8b

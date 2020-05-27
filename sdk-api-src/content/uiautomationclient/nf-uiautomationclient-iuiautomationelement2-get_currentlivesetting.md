@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentLiveSetting
 title: IUIAutomationElement2::get_CurrentLiveSetting (uiautomationclient.h)
-description: Indicates the type of notifications, if any, that the element sends when the content of the element changes.helpviewer_keywords: ["CurrentLiveSetting property [Windows Accessibility]","CurrentLiveSetting property [Windows Accessibility]","IUIAutomationElement2 interface","IUIAutomationElement2 interface [Windows Accessibility]","CurrentLiveSetting property","IUIAutomationElement2.CurrentLiveSetting","IUIAutomationElement2.get_CurrentLiveSetting","IUIAutomationElement2::CurrentLiveSetting","IUIAutomationElement2::get_CurrentLiveSetting","get_CurrentLiveSetting","uiautomationclient/IUIAutomationElement2::CurrentLiveSetting","uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting","winauto.uiauto_iuiautomationelement2_currentlivesetting"]
+description: Indicates the type of notifications, if any, that the element sends when the content of the element changes.
+helpviewer_keywords: ["CurrentLiveSetting property [Windows Accessibility]","CurrentLiveSetting property [Windows Accessibility]","IUIAutomationElement2 interface","IUIAutomationElement2 interface [Windows Accessibility]","CurrentLiveSetting property","IUIAutomationElement2.CurrentLiveSetting","IUIAutomationElement2.get_CurrentLiveSetting","IUIAutomationElement2::CurrentLiveSetting","IUIAutomationElement2::get_CurrentLiveSetting","get_CurrentLiveSetting","uiautomationclient/IUIAutomationElement2::CurrentLiveSetting","uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting","winauto.uiauto_iuiautomationelement2_currentlivesetting"]
 old-location: winauto\uiauto_iuiautomationelement2_currentlivesetting.htm
 tech.root: WinAuto
 ms.assetid: 3510E0AD-FB79-4636-B6EF-AE0FB62AD55C

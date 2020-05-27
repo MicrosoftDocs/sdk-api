@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetMalloc
 title: SHGetMalloc function (shlobj_core.h)
-description: Retrieves a pointer to the Shell's IMalloc interface.helpviewer_keywords: ["SHGetMalloc","SHGetMalloc function [Windows Shell]","_win32_SHGetMalloc","shell.SHGetMalloc","shlobj_core/SHGetMalloc"]
+description: Retrieves a pointer to the Shell's IMalloc interface.
+helpviewer_keywords: ["SHGetMalloc","SHGetMalloc function [Windows Shell]","_win32_SHGetMalloc","shell.SHGetMalloc","shlobj_core/SHGetMalloc"]
 old-location: shell\SHGetMalloc.htm
 tech.root: shell
 ms.assetid: 720cacb9-af54-41b7-9fb6-72dfa634c4c5

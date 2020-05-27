@@ -1,7 +1,8 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetVPDataInfo
 title: IVPBaseConfig::GetVPDataInfo (vpconfig.h)
-description: The GetVPDataInfo method retrieves the current video port data information.helpviewer_keywords: ["GetVPDataInfo","GetVPDataInfo method [DirectShow]","GetVPDataInfo method [DirectShow]","IVPBaseConfig interface","IVPBaseConfig interface [DirectShow]","GetVPDataInfo method","IVPBaseConfig.GetVPDataInfo","IVPBaseConfig::GetVPDataInfo","IVPBaseConfigGetVPDataInfo","dshow.ivpbaseconfig_getvpdatainfo","vpconfig/IVPBaseConfig::GetVPDataInfo"]
+description: The GetVPDataInfo method retrieves the current video port data information.
+helpviewer_keywords: ["GetVPDataInfo","GetVPDataInfo method [DirectShow]","GetVPDataInfo method [DirectShow]","IVPBaseConfig interface","IVPBaseConfig interface [DirectShow]","GetVPDataInfo method","IVPBaseConfig.GetVPDataInfo","IVPBaseConfig::GetVPDataInfo","IVPBaseConfigGetVPDataInfo","dshow.ivpbaseconfig_getvpdatainfo","vpconfig/IVPBaseConfig::GetVPDataInfo"]
 old-location: dshow\ivpbaseconfig_getvpdatainfo.htm
 tech.root: DirectShow
 ms.assetid: 385ab5e4-b904-4268-a97e-1c3e7789b0a2

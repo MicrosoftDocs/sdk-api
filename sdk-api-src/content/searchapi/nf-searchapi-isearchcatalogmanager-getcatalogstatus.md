@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCatalogStatus
 title: ISearchCatalogManager::GetCatalogStatus (searchapi.h)
-description: Gets the status of the catalog.helpviewer_keywords: ["GetCatalogStatus","GetCatalogStatus method [search]","GetCatalogStatus method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetCatalogStatus method","ISearchCatalogManager.GetCatalogStatus","ISearchCatalogManager::GetCatalogStatus","_search_ISearchCatalogManager_GetCatalogStatus","search._search_ISearchCatalogManager_GetCatalogStatus","searchapi/ISearchCatalogManager::GetCatalogStatus"]
+description: Gets the status of the catalog.
+helpviewer_keywords: ["GetCatalogStatus","GetCatalogStatus method [search]","GetCatalogStatus method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetCatalogStatus method","ISearchCatalogManager.GetCatalogStatus","ISearchCatalogManager::GetCatalogStatus","_search_ISearchCatalogManager_GetCatalogStatus","search._search_ISearchCatalogManager_GetCatalogStatus","searchapi/ISearchCatalogManager::GetCatalogStatus"]
 old-location: search\_search_ISearchCatalogManager_GetCatalogStatus.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcatalogstatus.htm

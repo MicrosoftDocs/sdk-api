@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetVersionHash
 title: IDVB_SDT::GetVersionHash (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetVersionHash","GetVersionHash method [Microsoft TV Technologies]","GetVersionHash method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetVersionHash method","IDVB_SDT.GetVersionHash","IDVB_SDT::GetVersionHash","IDVB_SDTGetVersionHash","dvbsiparser/IDVB_SDT::GetVersionHash","mstv.idvb_sdt_getversionhash"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetVersionHash","GetVersionHash method [Microsoft TV Technologies]","GetVersionHash method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetVersionHash method","IDVB_SDT.GetVersionHash","IDVB_SDT::GetVersionHash","IDVB_SDTGetVersionHash","dvbsiparser/IDVB_SDT::GetVersionHash","mstv.idvb_sdt_getversionhash"]
 old-location: mstv\idvb_sdt_getversionhash.htm
 tech.root: mstv
 ms.assetid: 56a52beb-d529-4119-a71f-c1f5d671e55b

@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_SelectString
 title: ComboBox_SelectString macro (windowsx.h)
-description: Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.helpviewer_keywords: ["ComboBox_SelectString","ComboBox_SelectString macro [Windows Controls]","_win32_ComboBox_SelectString","_win32_ComboBox_SelectString_cpp","controls.ComboBox_SelectString","controls._win32_ComboBox_SelectString","windowsx/ComboBox_SelectString"]
+description: Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
+helpviewer_keywords: ["ComboBox_SelectString","ComboBox_SelectString macro [Windows Controls]","_win32_ComboBox_SelectString","_win32_ComboBox_SelectString_cpp","controls.ComboBox_SelectString","controls._win32_ComboBox_SelectString","windowsx/ComboBox_SelectString"]
 old-location: controls\ComboBox_SelectString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectstring.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateLinkToFileEx
 title: OleCreateLinkToFileEx function (ole2.h)
-description: Extends OleCreateLinkToFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkToFile.helpviewer_keywords: ["OleCreateLinkToFileEx","OleCreateLinkToFileEx function [COM]","_ole_OleCreateLinkToFileEx","com.olecreatelinktofileex","ole2/OleCreateLinkToFileEx"]
+description: Extends OleCreateLinkToFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkToFile.
+helpviewer_keywords: ["OleCreateLinkToFileEx","OleCreateLinkToFileEx function [COM]","_ole_OleCreateLinkToFileEx","com.olecreatelinktofileex","ole2/OleCreateLinkToFileEx"]
 old-location: com\olecreatelinktofileex.htm
 tech.root: com
 ms.assetid: 9a333bac-8ee3-4941-8e4b-78a2befceff8

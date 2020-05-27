@@ -1,7 +1,8 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DocumentComplete
 title: IWebApplicationNavigationEvents::DocumentComplete (webapplication.h)
-description: Fired when the document being navigated to reaches ReadyState_Complete.helpviewer_keywords: ["DocumentComplete","DocumentComplete method [Debugging Windows Store apps]","DocumentComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","DocumentComplete method","IWebApplicationNavigationEvents.DocumentComplete","IWebApplicationNavigationEvents::DocumentComplete","debug.iwebapplicationnavigationevents_documentcomplete","webapplication/IWebApplicationNavigationEvents::DocumentComplete"]
+description: Fired when the document being navigated to reaches ReadyState_Complete.
+helpviewer_keywords: ["DocumentComplete","DocumentComplete method [Debugging Windows Store apps]","DocumentComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","DocumentComplete method","IWebApplicationNavigationEvents.DocumentComplete","IWebApplicationNavigationEvents::DocumentComplete","debug.iwebapplicationnavigationevents_documentcomplete","webapplication/IWebApplicationNavigationEvents::DocumentComplete"]
 old-location: debug\iwebapplicationnavigationevents_documentcomplete.htm
 tech.root: debug_wwahost
 ms.assetid: 18dabd8a-d35c-4095-985d-bf712c539df8

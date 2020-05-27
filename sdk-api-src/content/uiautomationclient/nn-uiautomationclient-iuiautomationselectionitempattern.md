@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSelectionItemPattern
 title: IUIAutomationSelectionItemPattern (uiautomationclient.h)
-description: Provides access to the selectable child items of a container control that supports IUIAutomationSelectionPattern.helpviewer_keywords: ["IUIAutomationSelectionItemPattern","IUIAutomationSelectionItemPattern interface [Windows Accessibility]","IUIAutomationSelectionItemPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationSelectionItemPattern","uiauto_IUIAutomationSelectionItemPattern","uiautomationclient/IUIAutomationSelectionItemPattern","winauto.uiauto_IUIAutomationSelectionItemPattern"]
+description: Provides access to the selectable child items of a container control that supports IUIAutomationSelectionPattern.
+helpviewer_keywords: ["IUIAutomationSelectionItemPattern","IUIAutomationSelectionItemPattern interface [Windows Accessibility]","IUIAutomationSelectionItemPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationSelectionItemPattern","uiauto_IUIAutomationSelectionItemPattern","uiautomationclient/IUIAutomationSelectionItemPattern","winauto.uiauto_IUIAutomationSelectionItemPattern"]
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern.htm
 tech.root: WinAuto
 ms.assetid: b76d5003-b9af-4a48-91d3-8075f45cf131

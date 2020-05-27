@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IInputObject
 title: IInputObject (shobjidl_core.h)
-description: Exposes methods that change UI activation and process accelerators for a user input object contained in the Shell.helpviewer_keywords: ["IInputObject","IInputObject interface [Windows Shell]","IInputObject interface [Windows Shell]","described","_win32_IInputObject","shell.IInputObject","shobjidl_core/IInputObject"]
+description: Exposes methods that change UI activation and process accelerators for a user input object contained in the Shell.
+helpviewer_keywords: ["IInputObject","IInputObject interface [Windows Shell]","IInputObject interface [Windows Shell]","described","_win32_IInputObject","shell.IInputObject","shobjidl_core/IInputObject"]
 old-location: shell\IInputObject.htm
 tech.root: shell
 ms.assetid: 5fbbcd26-c60a-4b6a-92cf-36b8bd429266

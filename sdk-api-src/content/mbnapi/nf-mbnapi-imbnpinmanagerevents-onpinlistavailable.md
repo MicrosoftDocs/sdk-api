@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnPinManagerEvents.OnPinListAvailable
 title: IMbnPinManagerEvents::OnPinListAvailable (mbnapi.h)
-description: Notification method called by the Mobile Broadband service to indicate that the list of device PINs is available.helpviewer_keywords: ["IMbnPinManagerEvents interface [Microsoft Broadband Networks]","OnPinListAvailable method","IMbnPinManagerEvents.OnPinListAvailable","IMbnPinManagerEvents::OnPinListAvailable","OnPinListAvailable","OnPinListAvailable method [Microsoft Broadband Networks]","OnPinListAvailable method [Microsoft Broadband Networks]","IMbnPinManagerEvents interface","mbn.imbnpinmanagerevents_onpinlistavailable","mbnapi/IMbnPinManagerEvents::OnPinListAvailable"]
+description: Notification method called by the Mobile Broadband service to indicate that the list of device PINs is available.
+helpviewer_keywords: ["IMbnPinManagerEvents interface [Microsoft Broadband Networks]","OnPinListAvailable method","IMbnPinManagerEvents.OnPinListAvailable","IMbnPinManagerEvents::OnPinListAvailable","OnPinListAvailable","OnPinListAvailable method [Microsoft Broadband Networks]","OnPinListAvailable method [Microsoft Broadband Networks]","IMbnPinManagerEvents interface","mbn.imbnpinmanagerevents_onpinlistavailable","mbnapi/IMbnPinManagerEvents::OnPinListAvailable"]
 old-location: mbn\imbnpinmanagerevents_onpinlistavailable.htm
 tech.root: mbn
 ms.assetid: 37347dd8-07c2-4521-a5f0-a51053634704

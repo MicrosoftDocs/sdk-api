@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.BufferedPaintUnInit
 title: BufferedPaintUnInit function (uxtheme.h)
-description: Closes down buffered painting for the current thread. Called once for each call to BufferedPaintInit after calls to BeginBufferedPaint are no longer needed.helpviewer_keywords: ["BufferedPaintUnInit","BufferedPaintUnInit function [Windows Controls]","_shell_BufferedPaintUnInit","_shell_BufferedPaintUnInit_cpp","controls.BufferedPaintUnInit","controls._shell_BufferedPaintUnInit","uxtheme/BufferedPaintUnInit"]
+description: Closes down buffered painting for the current thread. Called once for each call to BufferedPaintInit after calls to BeginBufferedPaint are no longer needed.
+helpviewer_keywords: ["BufferedPaintUnInit","BufferedPaintUnInit function [Windows Controls]","_shell_BufferedPaintUnInit","_shell_BufferedPaintUnInit_cpp","controls.BufferedPaintUnInit","controls._shell_BufferedPaintUnInit","uxtheme/BufferedPaintUnInit"]
 old-location: controls\BufferedPaintUnInit.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintuninit.htm

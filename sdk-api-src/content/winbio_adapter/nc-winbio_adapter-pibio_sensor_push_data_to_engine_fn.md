@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN
 title: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN (winbio_adapter.h)
-description: Makes the current contents of the sample buffer available to the engine adapter.helpviewer_keywords: ["PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN","PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback","SensorAdapterPushDataToEngine","SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API]","WINBIO_DATA_FLAG_INTEGRITY","WINBIO_DATA_FLAG_PRIVACY","WINBIO_DATA_FLAG_RAW","WINBIO_DATA_FLAG_SIGNED","secbiomet.sensoradapterpushdatatoengine","winbio_adapter/SensorAdapterPushDataToEngine"]
+description: Makes the current contents of the sample buffer available to the engine adapter.
+helpviewer_keywords: ["PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN","PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback","SensorAdapterPushDataToEngine","SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API]","WINBIO_DATA_FLAG_INTEGRITY","WINBIO_DATA_FLAG_PRIVACY","WINBIO_DATA_FLAG_RAW","WINBIO_DATA_FLAG_SIGNED","secbiomet.sensoradapterpushdatatoengine","winbio_adapter/SensorAdapterPushDataToEngine"]
 old-location: secbiomet\sensoradapterpushdatatoengine.htm
 tech.root: SecBioMet
 ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2

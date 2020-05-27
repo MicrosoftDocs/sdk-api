@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedAnd16
 title: InterlockedAnd16 function (winnt.h)
-description: Performs an atomic AND operation on the specified SHORT values.helpviewer_keywords: ["InterlockedAnd16","InterlockedAnd16 function","base.interlockedand16","winnt/InterlockedAnd16"]
+description: Performs an atomic AND operation on the specified SHORT values.
+helpviewer_keywords: ["InterlockedAnd16","InterlockedAnd16 function","base.interlockedand16","winnt/InterlockedAnd16"]
 old-location: base\interlockedand16.htm
 tech.root: Sync
 ms.assetid: 2fadfee3-929e-4087-a1c9-789a881c7a25

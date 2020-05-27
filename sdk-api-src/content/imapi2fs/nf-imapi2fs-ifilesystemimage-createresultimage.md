@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateResultImage
 title: IFileSystemImage::CreateResultImage (imapi2fs.h)
-description: Create the result object that contains the file system and file data.helpviewer_keywords: ["CreateResultImage","CreateResultImage method [IMAPI]","CreateResultImage method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","CreateResultImage method","IFileSystemImage.CreateResultImage","IFileSystemImage::CreateResultImage","imapi.ifilesystemimage_createresultimage","imapi2fs/IFileSystemImage::CreateResultImage"]
+description: Create the result object that contains the file system and file data.
+helpviewer_keywords: ["CreateResultImage","CreateResultImage method [IMAPI]","CreateResultImage method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","CreateResultImage method","IFileSystemImage.CreateResultImage","IFileSystemImage::CreateResultImage","imapi.ifilesystemimage_createresultimage","imapi2fs/IFileSystemImage::CreateResultImage"]
 old-location: imapi\ifilesystemimage_createresultimage.htm
 tech.root: imapi
 ms.assetid: 6f7d2438-5c80-4461-8b48-646f0ca44498

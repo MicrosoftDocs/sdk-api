@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCrawlScopeManager
 title: ISearchCatalogManager::GetCrawlScopeManager (searchapi.h)
-description: Gets an ISearchCrawlScopeManager interface for this search catalog.helpviewer_keywords: ["GetCrawlScopeManager","GetCrawlScopeManager method [search]","GetCrawlScopeManager method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetCrawlScopeManager method","ISearchCatalogManager.GetCrawlScopeManager","ISearchCatalogManager::GetCrawlScopeManager","_search_ISearchCatalogManager_GetCrawlScopeManager","search._search_ISearchCatalogManager_GetCrawlScopeManager","searchapi/ISearchCatalogManager::GetCrawlScopeManager"]
+description: Gets an ISearchCrawlScopeManager interface for this search catalog.
+helpviewer_keywords: ["GetCrawlScopeManager","GetCrawlScopeManager method [search]","GetCrawlScopeManager method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetCrawlScopeManager method","ISearchCatalogManager.GetCrawlScopeManager","ISearchCatalogManager::GetCrawlScopeManager","_search_ISearchCatalogManager_GetCrawlScopeManager","search._search_ISearchCatalogManager_GetCrawlScopeManager","searchapi/ISearchCatalogManager::GetCrawlScopeManager"]
 old-location: search\_search_ISearchCatalogManager_GetCrawlScopeManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcrawlscopemanager.htm

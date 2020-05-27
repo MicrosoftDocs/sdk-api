@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionShadowEffect
 title: IDCompositionShadowEffect (dcomp.h)
-description: The shadow effect is used to generate a shadow from the alpha channel of an image. The shadow is more opaque for higher alpha values and more transparent for lower alpha values. You can set the amount of blur and the color of the shadow.helpviewer_keywords: ["IDCompositionShadowEffect","IDCompositionShadowEffect interface [DirectComposition]","IDCompositionShadowEffect interface [DirectComposition]","described","dcomp/IDCompositionShadowEffect","directcomp.idcompositionshadoweffect"]
+description: The shadow effect is used to generate a shadow from the alpha channel of an image. The shadow is more opaque for higher alpha values and more transparent for lower alpha values. You can set the amount of blur and the color of the shadow.
+helpviewer_keywords: ["IDCompositionShadowEffect","IDCompositionShadowEffect interface [DirectComposition]","IDCompositionShadowEffect interface [DirectComposition]","described","dcomp/IDCompositionShadowEffect","directcomp.idcompositionshadoweffect"]
 old-location: directcomp\idcompositionshadoweffect.htm
 tech.root: directcomp
 ms.assetid: 115FD667-64D2-4538-9EB4-B133D5DCAF30

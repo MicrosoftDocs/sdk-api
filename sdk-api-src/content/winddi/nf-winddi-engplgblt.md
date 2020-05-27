@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngPlgBlt
 title: EngPlgBlt function (winddi.h)
-description: The EngPlgBlt function causes GDI to perform a rotate bit-block transfer.helpviewer_keywords: ["EngPlgBlt","EngPlgBlt function [Display Devices]","display.engplgblt","gdifncs_e7b5fc87-c1d3-4513-a101-742cd358ed85.xml","winddi/EngPlgBlt"]
+description: The EngPlgBlt function causes GDI to perform a rotate bit-block transfer.
+helpviewer_keywords: ["EngPlgBlt","EngPlgBlt function [Display Devices]","display.engplgblt","gdifncs_e7b5fc87-c1d3-4513-a101-742cd358ed85.xml","winddi/EngPlgBlt"]
 old-location: display\engplgblt.htm
 tech.root: display
 ms.assetid: a25a0fcd-1a61-483a-ba22-1214a9806b70

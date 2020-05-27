@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IProcessLock
 title: IProcessLock (objidl.h)
-description: Used by ISurrogateService to prevent the process from terminating due to a time-out.helpviewer_keywords: ["IProcessLock","IProcessLock interface [COM]","IProcessLock interface [COM]","described","_com_iprocesslock","com.iprocesslock","objidl/IProcessLock"]
+description: Used by ISurrogateService to prevent the process from terminating due to a time-out.
+helpviewer_keywords: ["IProcessLock","IProcessLock interface [COM]","IProcessLock interface [COM]","described","_com_iprocesslock","com.iprocesslock","objidl/IProcessLock"]
 old-location: com\iprocesslock.htm
 tech.root: com
 ms.assetid: 49ec5657-d54e-4af7-8c20-00de383ecf89

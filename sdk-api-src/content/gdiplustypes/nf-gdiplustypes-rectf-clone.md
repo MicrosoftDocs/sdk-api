@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.RectF.Clone
 title: RectF::Clone (gdiplustypes.h)
-description: The RectF::Clone method creates a new RectF object and initializes it with the contents of this RectF object.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","RectF class","RectF class [GDI+]","Clone method","RectF.Clone","RectF::Clone","_gdiplus_CLASS_RectF_Clone_","gdiplus._gdiplus_CLASS_RectF_Clone_"]
+description: The RectF::Clone method creates a new RectF object and initializes it with the contents of this RectF object.
+helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","RectF class","RectF class [GDI+]","Clone method","RectF.Clone","RectF::Clone","_gdiplus_CLASS_RectF_Clone_","gdiplus._gdiplus_CLASS_RectF_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\clone_47.htm

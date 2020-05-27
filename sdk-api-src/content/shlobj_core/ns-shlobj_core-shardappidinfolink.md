@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOLINK
 title: SHARDAPPIDINFOLINK (shlobj_core.h)
-description: Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with.helpviewer_keywords: ["SHARDAPPIDINFOLINK","SHARDAPPIDINFOLINK structure [Windows Shell]","_shell_SHARDAPPIDINFOLINK","shell.SHARDAPPIDINFOLINK","shlobj_core/SHARDAPPIDINFOLINK"]
+description: Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with.
+helpviewer_keywords: ["SHARDAPPIDINFOLINK","SHARDAPPIDINFOLINK structure [Windows Shell]","_shell_SHARDAPPIDINFOLINK","shell.SHARDAPPIDINFOLINK","shlobj_core/SHARDAPPIDINFOLINK"]
 old-location: shell\SHARDAPPIDINFOLINK.htm
 tech.root: shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2

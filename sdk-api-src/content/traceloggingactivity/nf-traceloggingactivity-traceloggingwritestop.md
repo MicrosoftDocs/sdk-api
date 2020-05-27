@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteStop
 title: TraceLoggingWriteStop macro (traceloggingactivity.h)
-description: Stops an activity and logs the stop event.helpviewer_keywords: ["TraceLoggingWriteStop","TraceLoggingWriteStop macro","tracelogging.traceloggingwritestop","traceloggingactivity/TraceLoggingWriteStop"]
+description: Stops an activity and logs the stop event.
+helpviewer_keywords: ["TraceLoggingWriteStop","TraceLoggingWriteStop macro","tracelogging.traceloggingwritestop","traceloggingactivity/TraceLoggingWriteStop"]
 old-location: tracelogging\traceloggingwritestop.htm
 tech.root: tracelogging
 ms.assetid: 638F08E3-5970-40B3-8025-E3D81ECA1D2A

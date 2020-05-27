@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdutil.WSDDetachLinkedMemory
 title: WSDDetachLinkedMemory function (wsdutil.h)
-description: Detaches a child memory block from its parent memory block.helpviewer_keywords: ["WSDDetachLinkedMemory","WSDDetachLinkedMemory function","ncd.wsddetachlinkedmemory_func","wsdutil/WSDDetachLinkedMemory"]
+description: Detaches a child memory block from its parent memory block.
+helpviewer_keywords: ["WSDDetachLinkedMemory","WSDDetachLinkedMemory function","ncd.wsddetachlinkedmemory_func","wsdutil/WSDDetachLinkedMemory"]
 old-location: ncd\wsddetachlinkedmemory_func.htm
 tech.root: WsdApi
 ms.assetid: a5009626-e0f8-4a04-919f-e1ae29863b05

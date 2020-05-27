@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetNumberOfStreams
 title: IMFPMediaItem::GetNumberOfStreams (mfplay.h)
-description: Gets the number of streams (audio, video, and other) in the media item.helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [Media Foundation]","GetNumberOfStreams method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetNumberOfStreams method","IMFPMediaItem.GetNumberOfStreams","IMFPMediaItem::GetNumberOfStreams","mf.imfpmediaitem_getnumberofstreams","mfplay/IMFPMediaItem::GetNumberOfStreams"]
+description: Gets the number of streams (audio, video, and other) in the media item.
+helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [Media Foundation]","GetNumberOfStreams method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetNumberOfStreams method","IMFPMediaItem.GetNumberOfStreams","IMFPMediaItem::GetNumberOfStreams","mf.imfpmediaitem_getnumberofstreams","mfplay/IMFPMediaItem::GetNumberOfStreams"]
 old-location: mf\imfpmediaitem_getnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 65a3cfc8-9171-4206-b1b6-54bb0d3ecdd1

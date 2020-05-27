@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetParentItem
 title: IConsoleNameSpace::GetParentItem (mmc.h)
-description: The IConsoleNameSpace2::GetParentItem method enables the snap-in to retrieve the handle to a parent item in the scope view.helpviewer_keywords: ["GetParentItem","GetParentItem method [MMC]","GetParentItem method [MMC]","IConsoleNameSpace interface","GetParentItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","GetParentItem method","IConsoleNameSpace.GetParentItem","IConsoleNameSpace2 interface [MMC]","GetParentItem method","IConsoleNameSpace2::GetParentItem","IConsoleNameSpace::GetParentItem","_slate_iconsolenamespace2_getparentitem","mmc.iconsolenamespace2_getparentitem","mmc/IConsoleNameSpace2::GetParentItem","mmc/IConsoleNameSpace::GetParentItem"]
+description: The IConsoleNameSpace2::GetParentItem method enables the snap-in to retrieve the handle to a parent item in the scope view.
+helpviewer_keywords: ["GetParentItem","GetParentItem method [MMC]","GetParentItem method [MMC]","IConsoleNameSpace interface","GetParentItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","GetParentItem method","IConsoleNameSpace.GetParentItem","IConsoleNameSpace2 interface [MMC]","GetParentItem method","IConsoleNameSpace2::GetParentItem","IConsoleNameSpace::GetParentItem","_slate_iconsolenamespace2_getparentitem","mmc.iconsolenamespace2_getparentitem","mmc/IConsoleNameSpace2::GetParentItem","mmc/IConsoleNameSpace::GetParentItem"]
 old-location: mmc\iconsolenamespace2_getparentitem.htm
 tech.root: mmc
 ms.assetid: c4534440-9fbe-41f1-bdf3-767c931a241b

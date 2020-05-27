@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsUnsubscribe0
 title: FwpmSystemPortsUnsubscribe0 function (fwpmu.h)
-description: Is used to cancel a system port subscription and stop receiving notifications.helpviewer_keywords: ["FwpmSystemPortsUnsubscribe0","FwpmSystemPortsUnsubscribe0 function [Filtering]","fwp.fwpmsystemportsunsubscribe0","fwpmu/FwpmSystemPortsUnsubscribe0"]
+description: Is used to cancel a system port subscription and stop receiving notifications.
+helpviewer_keywords: ["FwpmSystemPortsUnsubscribe0","FwpmSystemPortsUnsubscribe0 function [Filtering]","fwp.fwpmsystemportsunsubscribe0","fwpmu/FwpmSystemPortsUnsubscribe0"]
 old-location: fwp\fwpmsystemportsunsubscribe0.htm
 tech.root: fwp
 ms.assetid: d078ae73-32a7-4341-b142-d1fdf8388255

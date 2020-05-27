@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC
 title: DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC
-description: Describes a DirectML operator that performs a local response normalization (LRN) function on the input, y = x / (bias + (alpha / size) * sum(xi^2 for every xi in the local region))^beta.helpviewer_keywords: ["DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC","DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_local_response_normalization_operator_desc","directml/DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a local response normalization (LRN) function on the input, y = x / (bias + (alpha / size) * sum(xi^2 for every xi in the local region))^beta.
+helpviewer_keywords: ["DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC","DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_local_response_normalization_operator_desc","directml/DML_LOCAL_RESPONSE_NORMALIZATION_OPERATOR_DESC"]
 old-location: direct3d12\dml_local_response_normalization_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 43C494DC-4922-4944-A07F-802B43122575

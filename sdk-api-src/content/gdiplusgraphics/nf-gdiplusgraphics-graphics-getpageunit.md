@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPageUnit
 title: Graphics::GetPageUnit (gdiplusgraphics.h)
-description: The Graphics::GetPageUnit method gets the unit of measure currently set for this Graphics object.helpviewer_keywords: ["GetPageUnit","GetPageUnit method [GDI+]","GetPageUnit method [GDI+]","Graphics class","Graphics class [GDI+]","GetPageUnit method","Graphics.GetPageUnit","Graphics::GetPageUnit","_gdiplus_CLASS_Graphics_GetPageUnit_","gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_"]
+description: The Graphics::GetPageUnit method gets the unit of measure currently set for this Graphics object.
+helpviewer_keywords: ["GetPageUnit","GetPageUnit method [GDI+]","GetPageUnit method [GDI+]","Graphics class","Graphics class [GDI+]","GetPageUnit method","Graphics.GetPageUnit","Graphics::GetPageUnit","_gdiplus_CLASS_Graphics_GetPageUnit_","gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageUnit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpageunit.htm

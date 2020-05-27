@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkDeleted
 title: INetworkEvents::NetworkDeleted (netlistmgr.h)
-description: The NetworkDeleted method is called when a network is deleted.helpviewer_keywords: ["INetworkEvents interface [Network Awareness]","NetworkDeleted method","INetworkEvents.NetworkDeleted","INetworkEvents::NetworkDeleted","NetworkDeleted","NetworkDeleted method [Network Awareness]","NetworkDeleted method [Network Awareness]","INetworkEvents interface","netlistmgr/INetworkEvents::NetworkDeleted","nla.inetworkevents_networkdeleted"]
+description: The NetworkDeleted method is called when a network is deleted.
+helpviewer_keywords: ["INetworkEvents interface [Network Awareness]","NetworkDeleted method","INetworkEvents.NetworkDeleted","INetworkEvents::NetworkDeleted","NetworkDeleted","NetworkDeleted method [Network Awareness]","NetworkDeleted method [Network Awareness]","INetworkEvents interface","netlistmgr/INetworkEvents::NetworkDeleted","nla.inetworkevents_networkdeleted"]
 old-location: nla\inetworkevents_networkdeleted.htm
 tech.root: nla
 ms.assetid: ae54cc29-6da8-405d-92f9-654239150dd0

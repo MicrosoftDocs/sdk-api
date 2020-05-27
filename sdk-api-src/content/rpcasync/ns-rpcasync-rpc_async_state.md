@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcasync._RPC_ASYNC_STATE
 title: RPC_ASYNC_STATE (rpcasync.h)
-description: The RPC_ASYNC_STATE structure holds the state of an asynchronous remote procedure call. RPC_ASYNC_STATE is a handle to this structure, used to wait for, query, reply to, or cancel asynchronous calls.helpviewer_keywords: ["*PRPC_ASYNC_STATE","PRPC_ASYNC_STATE","PRPC_ASYNC_STATE structure pointer [RPC]","RPC_ASYNC_STATE","RPC_ASYNC_STATE structure [RPC]","RPC_C_NOTIFY_ON_SEND_COMPLETE","RpcNotificationTypeApc","RpcNotificationTypeCallback","RpcNotificationTypeEvent","RpcNotificationTypeHwnd","RpcNotificationTypeIoc","RpcNotificationTypeNone","_rpc_rpc_async_state","rpc.rpc_async_state","rpcasync/PRPC_ASYNC_STATE","rpcasync/RPC_ASYNC_STATE"]
+description: The RPC_ASYNC_STATE structure holds the state of an asynchronous remote procedure call. RPC_ASYNC_STATE is a handle to this structure, used to wait for, query, reply to, or cancel asynchronous calls.
+helpviewer_keywords: ["*PRPC_ASYNC_STATE","PRPC_ASYNC_STATE","PRPC_ASYNC_STATE structure pointer [RPC]","RPC_ASYNC_STATE","RPC_ASYNC_STATE structure [RPC]","RPC_C_NOTIFY_ON_SEND_COMPLETE","RpcNotificationTypeApc","RpcNotificationTypeCallback","RpcNotificationTypeEvent","RpcNotificationTypeHwnd","RpcNotificationTypeIoc","RpcNotificationTypeNone","_rpc_rpc_async_state","rpc.rpc_async_state","rpcasync/PRPC_ASYNC_STATE","rpcasync/RPC_ASYNC_STATE"]
 old-location: rpc\rpc_async_state.htm
 tech.root: Rpc
 ms.assetid: ad004f49-89a6-486c-80ec-5b85ab4b8db9

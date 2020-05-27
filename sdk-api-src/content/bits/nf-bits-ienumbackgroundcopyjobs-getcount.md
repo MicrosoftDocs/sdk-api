@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyJobs.GetCount
 title: IEnumBackgroundCopyJobs::GetCount (bits.h)
-description: Retrieves a count of the number of jobs in the enumeration.helpviewer_keywords: ["GetCount","GetCount method [BITS]","GetCount method [BITS]","IEnumBackgroundCopyJobs interface","IEnumBackgroundCopyJobs interface [BITS]","GetCount method","IEnumBackgroundCopyJobs.GetCount","IEnumBackgroundCopyJobs::GetCount","_drz_ienumbackgroundcopyjobs_getcount","bits.ienumbackgroundcopyjobs_getcount","bits/IEnumBackgroundCopyJobs::GetCount"]
+description: Retrieves a count of the number of jobs in the enumeration.
+helpviewer_keywords: ["GetCount","GetCount method [BITS]","GetCount method [BITS]","IEnumBackgroundCopyJobs interface","IEnumBackgroundCopyJobs interface [BITS]","GetCount method","IEnumBackgroundCopyJobs.GetCount","IEnumBackgroundCopyJobs::GetCount","_drz_ienumbackgroundcopyjobs_getcount","bits.ienumbackgroundcopyjobs_getcount","bits/IEnumBackgroundCopyJobs::GetCount"]
 old-location: bits\ienumbackgroundcopyjobs_getcount.htm
 tech.root: Bits
 ms.assetid: 024ffd11-5084-4ff5-b1b6-9aec3e802900

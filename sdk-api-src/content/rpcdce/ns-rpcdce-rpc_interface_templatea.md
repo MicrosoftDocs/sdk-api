@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_6
 title: RPC_INTERFACE_TEMPLATEA (rpcdce.h)
-description: Defines an RPC interface group server interface.helpviewer_keywords: ["*PRPC_INTERFACE_TEMPLATEA","PRPC_INTERFACE_TEMPLATE","PRPC_INTERFACE_TEMPLATE structure pointer [RPC]","RPC_INTERFACE_TEMPLATE","RPC_INTERFACE_TEMPLATE structure [RPC]","RPC_INTERFACE_TEMPLATEA","RPC_INTERFACE_TEMPLATEW","rpc.rpc_interface_template","rpcdce/PRPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATEA","rpcdce/RPC_INTERFACE_TEMPLATEW"]
+description: Defines an RPC interface group server interface.
+helpviewer_keywords: ["*PRPC_INTERFACE_TEMPLATEA","PRPC_INTERFACE_TEMPLATE","PRPC_INTERFACE_TEMPLATE structure pointer [RPC]","RPC_INTERFACE_TEMPLATE","RPC_INTERFACE_TEMPLATE structure [RPC]","RPC_INTERFACE_TEMPLATEA","RPC_INTERFACE_TEMPLATEW","rpc.rpc_interface_template","rpcdce/PRPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATE","rpcdce/RPC_INTERFACE_TEMPLATEA","rpcdce/RPC_INTERFACE_TEMPLATEW"]
 old-location: rpc\rpc_interface_template.htm
 tech.root: Rpc
 ms.assetid: 4DBD0B43-659B-4074-954B-FE9ABB0DCE63

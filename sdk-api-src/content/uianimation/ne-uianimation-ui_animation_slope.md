@@ -1,7 +1,8 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0009_0001
 title: UI_ANIMATION_SLOPE (uianimation.h)
-description: Defines animation slope characteristics.helpviewer_keywords: ["UI_ANIMATION_SLOPE","UI_ANIMATION_SLOPE enumeration [Windows Animation]","UI_ANIMATION_SLOPE_DECREASING","UI_ANIMATION_SLOPE_INCREASING","uianimation.ui_animation_slope","uianimation/UI_ANIMATION_SLOPE","uianimation/UI_ANIMATION_SLOPE_DECREASING","uianimation/UI_ANIMATION_SLOPE_INCREASING"]
+description: Defines animation slope characteristics.
+helpviewer_keywords: ["UI_ANIMATION_SLOPE","UI_ANIMATION_SLOPE enumeration [Windows Animation]","UI_ANIMATION_SLOPE_DECREASING","UI_ANIMATION_SLOPE_INCREASING","uianimation.ui_animation_slope","uianimation/UI_ANIMATION_SLOPE","uianimation/UI_ANIMATION_SLOPE_DECREASING","uianimation/UI_ANIMATION_SLOPE_INCREASING"]
 old-location: uianimation\ui_animation_slope.htm
 tech.root: UIAnimation
 ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542

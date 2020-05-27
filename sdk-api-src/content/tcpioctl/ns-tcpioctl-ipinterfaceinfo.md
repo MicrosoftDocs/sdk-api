@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpioctl.IPInterfaceInfo
 title: IPInterfaceInfo (tcpioctl.h)
-description: The IPInterfaceInfo structure contains information about a specific IP interface, returned by the IOCTL_TCP_QUERY_INFORMATION_EX control code.helpviewer_keywords: ["IPInterfaceInfo","IPInterfaceInfo structure [Windows API]","tcpioctl/IPInterfaceInfo","winprog.ipinterfaceinfo"]
+description: The IPInterfaceInfo structure contains information about a specific IP interface, returned by the IOCTL_TCP_QUERY_INFORMATION_EX control code.
+helpviewer_keywords: ["IPInterfaceInfo","IPInterfaceInfo structure [Windows API]","tcpioctl/IPInterfaceInfo","winprog.ipinterfaceinfo"]
 old-location: winprog\ipinterfaceinfo.htm
 tech.root: DevNotes
 ms.assetid: dc9de369-f739-475c-96f5-e2e058705fe8

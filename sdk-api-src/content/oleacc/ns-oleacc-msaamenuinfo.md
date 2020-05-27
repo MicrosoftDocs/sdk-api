@@ -1,7 +1,8 @@
 ---
 UID: NS:oleacc.tagMSAAMENUINFO
 title: MSAAMENUINFO (oleacc.h)
-description: Used by server developers to expose the names of owner-drawn menu items.helpviewer_keywords: ["*LPMSAAMENUINFO","LPMSAAMENUINFO","LPMSAAMENUINFO structure pointer [Windows Accessibility]","MSAAMENUINFO","MSAAMENUINFO structure [Windows Accessibility]","_msaa_MSAAMENUINFO","msaa.msaamenuinfo","oleacc/LPMSAAMENUINFO","oleacc/MSAAMENUINFO","winauto.msaamenuinfo"]
+description: Used by server developers to expose the names of owner-drawn menu items.
+helpviewer_keywords: ["*LPMSAAMENUINFO","LPMSAAMENUINFO","LPMSAAMENUINFO structure pointer [Windows Accessibility]","MSAAMENUINFO","MSAAMENUINFO structure [Windows Accessibility]","_msaa_MSAAMENUINFO","msaa.msaamenuinfo","oleacc/LPMSAAMENUINFO","oleacc/MSAAMENUINFO","winauto.msaamenuinfo"]
 old-location: winauto\msaamenuinfo.htm
 tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b

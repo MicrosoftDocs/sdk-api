@@ -1,7 +1,8 @@
 ---
 UID: NC:mgm.PMGM_LOCAL_JOIN_CALLBACK
 title: PMGM_LOCAL_JOIN_CALLBACK (mgm.h)
-description: The PMGM_LOCAL_JOIN_CALLBACK callback is a call into a routing protocol to notify the protocol that IGMP has detected new receivers for a group on an interface that is currently owned by the routing protocol.helpviewer_keywords: ["PMGM_LOCAL_JOIN_CALLBACK","PMGM_LOCAL_JOIN_CALLBACK callback","PMGM_LOCAL_JOIN_CALLBACK callback function [RAS]","_mpr_pmgm_local_join_callback","mgm/PMGM_LOCAL_JOIN_CALLBACK","rras.pmgm_local_join_callback"]
+description: The PMGM_LOCAL_JOIN_CALLBACK callback is a call into a routing protocol to notify the protocol that IGMP has detected new receivers for a group on an interface that is currently owned by the routing protocol.
+helpviewer_keywords: ["PMGM_LOCAL_JOIN_CALLBACK","PMGM_LOCAL_JOIN_CALLBACK callback","PMGM_LOCAL_JOIN_CALLBACK callback function [RAS]","_mpr_pmgm_local_join_callback","mgm/PMGM_LOCAL_JOIN_CALLBACK","rras.pmgm_local_join_callback"]
 old-location: rras\pmgm_local_join_callback.htm
 tech.root: RRAS
 ms.assetid: e8245b09-0fbc-49c3-a7bb-534115c74c88

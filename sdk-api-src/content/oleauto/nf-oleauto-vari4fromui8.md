@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI4FromUI8
 title: VarI4FromUI8 function (oleauto.h)
-description: Converts an 8-byte unsigned integer value to a long.helpviewer_keywords: ["VarI4FromUI8","VarI4FromUI8 function [Automation]","_oa96_VarI4FromUI8","automat.vari4fromui8","oleauto/VarI4FromUI8"]
+description: Converts an 8-byte unsigned integer value to a long.
+helpviewer_keywords: ["VarI4FromUI8","VarI4FromUI8 function [Automation]","_oa96_VarI4FromUI8","automat.vari4fromui8","oleauto/VarI4FromUI8"]
 old-location: automat\vari4fromui8.htm
 tech.root: automat
 ms.assetid: 4262aef9-d964-48ef-9eb0-b5b886808d70

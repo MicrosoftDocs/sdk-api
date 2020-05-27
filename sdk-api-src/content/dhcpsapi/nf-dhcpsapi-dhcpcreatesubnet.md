@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateSubnet
 title: DhcpCreateSubnet function (dhcpsapi.h)
-description: The DhcpCreateSubnet function creates a new subnet on the DHCP server.helpviewer_keywords: ["DhcpCreateSubnet","DhcpCreateSubnet function [DHCP]","dhcp.dhcpcreatesubnet","dhcpsapi/DhcpCreateSubnet"]
+description: The DhcpCreateSubnet function creates a new subnet on the DHCP server.
+helpviewer_keywords: ["DhcpCreateSubnet","DhcpCreateSubnet function [DHCP]","dhcp.dhcpcreatesubnet","dhcpsapi/DhcpCreateSubnet"]
 old-location: dhcp\dhcpcreatesubnet.htm
 tech.root: DHCP
 ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDateFromI1
 title: VarDateFromI1 function (oleauto.h)
-description: Converts a char value to a date value.helpviewer_keywords: ["VarDateFromI1","VarDateFromI1 function [Automation]","_oa96_VarDateFromI1","automat.vardatefromi1","oleauto/VarDateFromI1"]
+description: Converts a char value to a date value.
+helpviewer_keywords: ["VarDateFromI1","VarDateFromI1 function [Automation]","_oa96_VarDateFromI1","automat.vardatefromi1","oleauto/VarDateFromI1"]
 old-location: automat\vardatefromi1.htm
 tech.root: automat
 ms.assetid: 90d7fcbd-2a3b-442d-95d8-cb02dedfca52

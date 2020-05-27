@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetFramesPerPacket
 title: IAudioEndpoint::GetFramesPerPacket (audioengineendpoint.h)
-description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.helpviewer_keywords: ["GetFramesPerPacket","GetFramesPerPacket method [Remote Desktop Services]","GetFramesPerPacket method [Remote Desktop Services]","IAudioEndpoint interface","IAudioEndpoint interface [Remote Desktop Services]","GetFramesPerPacket method","IAudioEndpoint.GetFramesPerPacket","IAudioEndpoint::GetFramesPerPacket","audioengineendpoint/IAudioEndpoint::GetFramesPerPacket","termserv.iaudioendpoint_getframesperpacket"]
+description: Gets the maximum number of frames per packet that the audio endpoint can support, based on the endpoint's period and the sample rate.
+helpviewer_keywords: ["GetFramesPerPacket","GetFramesPerPacket method [Remote Desktop Services]","GetFramesPerPacket method [Remote Desktop Services]","IAudioEndpoint interface","IAudioEndpoint interface [Remote Desktop Services]","GetFramesPerPacket method","IAudioEndpoint.GetFramesPerPacket","IAudioEndpoint::GetFramesPerPacket","audioengineendpoint/IAudioEndpoint::GetFramesPerPacket","termserv.iaudioendpoint_getframesperpacket"]
 old-location: termserv\iaudioendpoint_getframesperpacket.htm
 tech.root: TermServ
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a

@@ -1,7 +1,8 @@
 ---
 UID: NS:winldap.ldap_apifeature_infoW
 title: LDAPAPIFeatureInfoW (winldap.h)
-description: Retrieves data about any supported LDAP API extensions.helpviewer_keywords: ["LDAPAPIFeatureInfo","LDAPAPIFeatureInfo structure [LDAP]","LDAPAPIFeatureInfoA","LDAPAPIFeatureInfoW","ldap.ldapapifeatureinfo","winldap/LDAPAPIFeatureInfo","winldap/LDAPAPIFeatureInfoA","winldap/LDAPAPIFeatureInfoW"]
+description: Retrieves data about any supported LDAP API extensions.
+helpviewer_keywords: ["LDAPAPIFeatureInfo","LDAPAPIFeatureInfo structure [LDAP]","LDAPAPIFeatureInfoA","LDAPAPIFeatureInfoW","ldap.ldapapifeatureinfo","winldap/LDAPAPIFeatureInfo","winldap/LDAPAPIFeatureInfoA","winldap/LDAPAPIFeatureInfoW"]
 old-location: ldap\ldapapifeatureinfo.htm
 tech.root: ldap
 ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423

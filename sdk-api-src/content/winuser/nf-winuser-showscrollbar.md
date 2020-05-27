@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ShowScrollBar
 title: ShowScrollBar function (winuser.h)
-description: The ShowScrollBar function shows or hides the specified scroll bar.helpviewer_keywords: ["SB_BOTH","SB_CTL","SB_HORZ","SB_VERT","ShowScrollBar","ShowScrollBar function [Windows Controls]","_win32_ShowScrollBar","_win32_ShowScrollBar_cpp","controls.ShowScrollBar","controls._win32_ShowScrollBar","winuser/ShowScrollBar"]
+description: The ShowScrollBar function shows or hides the specified scroll bar.
+helpviewer_keywords: ["SB_BOTH","SB_CTL","SB_HORZ","SB_VERT","ShowScrollBar","ShowScrollBar function [Windows Controls]","_win32_ShowScrollBar","_win32_ShowScrollBar_cpp","controls.ShowScrollBar","controls._win32_ShowScrollBar","winuser/ShowScrollBar"]
 old-location: controls\ShowScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\showscrollbar.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.put_AutoShow
 title: IVideoWindow::put_AutoShow (control.h)
-description: The put_AutoShow method specifies whether the video renderer automatically shows the video window when it receives video data.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_AutoShow method","IVideoWindow.put_AutoShow","IVideoWindow::put_AutoShow","IVideoWindowput_AutoShow","control/IVideoWindow::put_AutoShow","dshow.ivideowindow_put_autoshow","put_AutoShow","put_AutoShow method [DirectShow]","put_AutoShow method [DirectShow]","IVideoWindow interface"]
+description: The put_AutoShow method specifies whether the video renderer automatically shows the video window when it receives video data.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_AutoShow method","IVideoWindow.put_AutoShow","IVideoWindow::put_AutoShow","IVideoWindowput_AutoShow","control/IVideoWindow::put_AutoShow","dshow.ivideowindow_put_autoshow","put_AutoShow","put_AutoShow method [DirectShow]","put_AutoShow method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_autoshow.htm
 tech.root: DirectShow
 ms.assetid: 7481a7e8-4b57-43cc-8304-b70616bbd532

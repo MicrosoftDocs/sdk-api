@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.FLOATOBJ_LessThan
 title: FLOATOBJ_LessThan function (winddi.h)
-description: The FLOATOBJ_LessThan function determines whether the first FLOATOBJ is less than the second FLOATOBJ.helpviewer_keywords: ["FLOATOBJ_LessThan","FLOATOBJ_LessThan function [Display Devices]","display.floatobj_lessthan","gdifncs_226d15f4-cebd-45a4-b8e8-7ae7ee770b30.xml","winddi/FLOATOBJ_LessThan"]
+description: The FLOATOBJ_LessThan function determines whether the first FLOATOBJ is less than the second FLOATOBJ.
+helpviewer_keywords: ["FLOATOBJ_LessThan","FLOATOBJ_LessThan function [Display Devices]","display.floatobj_lessthan","gdifncs_226d15f4-cebd-45a4-b8e8-7ae7ee770b30.xml","winddi/FLOATOBJ_LessThan"]
 old-location: display\floatobj_lessthan.htm
 tech.root: display
 ms.assetid: acd1cc6d-c88f-4336-8a6c-a8b02cf726ee

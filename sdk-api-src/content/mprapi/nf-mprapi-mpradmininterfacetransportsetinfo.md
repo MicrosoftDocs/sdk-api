@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportSetInfo
 title: MprAdminInterfaceTransportSetInfo function (mprapi.h)
-description: The MprAdminInterfaceTransportSetInfo function sets information for a transport running on a specified interface.helpviewer_keywords: ["MprAdminInterfaceTransportSetInfo","MprAdminInterfaceTransportSetInfo function [RAS]","_mpr_mpradmininterfacetransportsetinfo","mprapi/MprAdminInterfaceTransportSetInfo","rras.mpradmininterfacetransportsetinfo"]
+description: The MprAdminInterfaceTransportSetInfo function sets information for a transport running on a specified interface.
+helpviewer_keywords: ["MprAdminInterfaceTransportSetInfo","MprAdminInterfaceTransportSetInfo function [RAS]","_mpr_mpradmininterfacetransportsetinfo","mprapi/MprAdminInterfaceTransportSetInfo","rras.mpradmininterfacetransportsetinfo"]
 old-location: rras\mpradmininterfacetransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: 340610af-6fd8-49e3-947a-e24346a9b888

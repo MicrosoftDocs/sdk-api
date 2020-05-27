@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.GetOldNumbers
 title: ITextFont2::GetOldNumbers (tom.h)
-description: Gets whether old-style numbers are active.helpviewer_keywords: ["GetOldNumbers","GetOldNumbers method [Windows Controls]","GetOldNumbers method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetOldNumbers method","ITextFont2.GetOldNumbers","ITextFont2::GetOldNumbers","controls.itextfont2_getoldnumbers","tom/ITextFont2::GetOldNumbers"]
+description: Gets whether old-style numbers are active.
+helpviewer_keywords: ["GetOldNumbers","GetOldNumbers method [Windows Controls]","GetOldNumbers method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetOldNumbers method","ITextFont2.GetOldNumbers","ITextFont2::GetOldNumbers","controls.itextfont2_getoldnumbers","tom/ITextFont2::GetOldNumbers"]
 old-location: controls\itextfont2_getoldnumbers.htm
 tech.root: Controls
 ms.assetid: 8e800840-5ca2-4fbf-94c2-d51aa73bf188

@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOpacity(float)
 title: IDCompositionVisual3::SetOpacity (dcomp.h)
-description: Sets the value of the visual's opacity property.helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetOpacity method","IDCompositionVisual3.SetOpacity","IDCompositionVisual3::SetOpacity","IDCompositionVisual3::SetOpacity(float)","SetOpacity","SetOpacity method [DirectComposition]","SetOpacity method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetOpacity","directcomp.idcompositionvisual3_setopacity"]
+description: Sets the value of the visual's opacity property.
+helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetOpacity method","IDCompositionVisual3.SetOpacity","IDCompositionVisual3::SetOpacity","IDCompositionVisual3::SetOpacity(float)","SetOpacity","SetOpacity method [DirectComposition]","SetOpacity method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetOpacity","directcomp.idcompositionvisual3_setopacity"]
 old-location: directcomp\idcompositionvisual3_setopacity.htm
 tech.root: directcomp
 ms.assetid: 7641B989-6D0F-4648-8C29-FF3B331CDF97

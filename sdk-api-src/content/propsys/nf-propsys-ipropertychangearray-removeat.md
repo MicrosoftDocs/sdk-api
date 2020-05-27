@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.RemoveAt
 title: IPropertyChangeArray::RemoveAt (propsys.h)
-description: Removes a specified change.helpviewer_keywords: ["IPropertyChangeArray interface [Windows Properties]","RemoveAt method","IPropertyChangeArray.RemoveAt","IPropertyChangeArray::RemoveAt","RemoveAt","RemoveAt method [Windows Properties]","RemoveAt method [Windows Properties]","IPropertyChangeArray interface","_shell_IPropertyChangeArray_RemoveAt","properties.IPropertyChangeArray_RemoveAt","propsys/IPropertyChangeArray::RemoveAt","shell.IPropertyChangeArray_RemoveAt"]
+description: Removes a specified change.
+helpviewer_keywords: ["IPropertyChangeArray interface [Windows Properties]","RemoveAt method","IPropertyChangeArray.RemoveAt","IPropertyChangeArray::RemoveAt","RemoveAt","RemoveAt method [Windows Properties]","RemoveAt method [Windows Properties]","IPropertyChangeArray interface","_shell_IPropertyChangeArray_RemoveAt","properties.IPropertyChangeArray_RemoveAt","propsys/IPropertyChangeArray::RemoveAt","shell.IPropertyChangeArray_RemoveAt"]
 old-location: properties\IPropertyChangeArray_RemoveAt.htm
 tech.root: properties
 ms.assetid: 59d98675-c934-4f2d-8018-f581017d5441

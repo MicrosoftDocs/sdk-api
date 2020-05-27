@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfSourceSingle.UnadviseSingleSink
 title: ITfSourceSingle::UnadviseSingleSink (msctf.h)
-description: ITfSourceSingle::UnadviseSingleSink methodhelpviewer_keywords: ["IID_ITfCleanupContextDurationSink","IID_ITfCleanupContextSink","IID_ITfFunctionProvider","ITfSourceSingle interface [Text Services Framework]","UnadviseSingleSink method","ITfSourceSingle.UnadviseSingleSink","ITfSourceSingle::UnadviseSingleSink","UnadviseSingleSink","UnadviseSingleSink method [Text Services Framework]","UnadviseSingleSink method [Text Services Framework]","ITfSourceSingle interface","_tsf_itfsourcesingle_unadvisesinglesink_ref","msctf/ITfSourceSingle::UnadviseSingleSink","tsf.itfsourcesingle_unadvisesinglesink"]
+description: ITfSourceSingle::UnadviseSingleSink method
+helpviewer_keywords: ["IID_ITfCleanupContextDurationSink","IID_ITfCleanupContextSink","IID_ITfFunctionProvider","ITfSourceSingle interface [Text Services Framework]","UnadviseSingleSink method","ITfSourceSingle.UnadviseSingleSink","ITfSourceSingle::UnadviseSingleSink","UnadviseSingleSink","UnadviseSingleSink method [Text Services Framework]","UnadviseSingleSink method [Text Services Framework]","ITfSourceSingle interface","_tsf_itfsourcesingle_unadvisesinglesink_ref","msctf/ITfSourceSingle::UnadviseSingleSink","tsf.itfsourcesingle_unadvisesinglesink"]
 old-location: tsf\itfsourcesingle_unadvisesinglesink.htm
 tech.root: TSF
 ms.assetid: 1689dedb-c168-4a05-b598-517c87d9afbd

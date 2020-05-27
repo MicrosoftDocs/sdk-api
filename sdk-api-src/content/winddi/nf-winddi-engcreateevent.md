@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngCreateEvent
 title: EngCreateEvent function (winddi.h)
-description: The EngCreateEvent function creates a synchronization event object that can be used to synchronize hardware access between a display driver and the video miniport driver.helpviewer_keywords: ["EngCreateEvent","EngCreateEvent function [Display Devices]","display.engcreateevent","gdifncs_d8f6efc2-d0a2-4790-88c5-16e4487e2ce2.xml","winddi/EngCreateEvent"]
+description: The EngCreateEvent function creates a synchronization event object that can be used to synchronize hardware access between a display driver and the video miniport driver.
+helpviewer_keywords: ["EngCreateEvent","EngCreateEvent function [Display Devices]","display.engcreateevent","gdifncs_d8f6efc2-d0a2-4790-88c5-16e4487e2ce2.xml","winddi/EngCreateEvent"]
 old-location: display\engcreateevent.htm
 tech.root: display
 ms.assetid: 0fe4c840-ba85-492c-ac3d-b7c8639d1210

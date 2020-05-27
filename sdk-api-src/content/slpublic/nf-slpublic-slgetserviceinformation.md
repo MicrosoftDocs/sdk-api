@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetServiceInformation
 title: SLGetServiceInformation function (slpublic.h)
-description: Gets global data information.helpviewer_keywords: ["SLGetServiceInformation","SLGetServiceInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_MULTI_SZ","SL_DATA_SZ","SL_INFO_KEY_ACTIVE_PLUGINS","SL_INFO_KEY_SECURE_STORE_ID","SL_INFO_KEY_SESSION_MACHINE_ID","SL_INFO_KEY_SYSTEM_STATE","SL_INFO_KEY_VERSION","security.slgetserviceinformation","slpublic/SLGetServiceInformation"]
+description: Gets global data information.
+helpviewer_keywords: ["SLGetServiceInformation","SLGetServiceInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_MULTI_SZ","SL_DATA_SZ","SL_INFO_KEY_ACTIVE_PLUGINS","SL_INFO_KEY_SECURE_STORE_ID","SL_INFO_KEY_SESSION_MACHINE_ID","SL_INFO_KEY_SYSTEM_STATE","SL_INFO_KEY_VERSION","security.slgetserviceinformation","slpublic/SLGetServiceInformation"]
 old-location: security\slgetserviceinformation.htm
 tech.root: SecSLApi
 ms.assetid: c8c932af-c716-425a-8c37-ad3b749dd985

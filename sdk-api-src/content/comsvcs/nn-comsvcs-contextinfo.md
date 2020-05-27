@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ContextInfo
 title: ContextInfo (comsvcs.h)
-description: Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.helpviewer_keywords: ["ContextInfo","ContextInfo interface [COM+]","ContextInfo interface [COM+]","described","_cos_ContextInfo","comsvcs/ContextInfo","cos.contextinfo"]
+description: Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
+helpviewer_keywords: ["ContextInfo","ContextInfo interface [COM+]","ContextInfo interface [COM+]","described","_cos_ContextInfo","comsvcs/ContextInfo","cos.contextinfo"]
 old-location: cos\contextinfo.htm
 tech.root: cossdk
 ms.assetid: ef8d7ef7-fae4-4a20-80fb-18f5daa9b564

@@ -1,7 +1,8 @@
 ---
 UID: NS:wininet.__unnamed_struct_8
 title: HTTP_VERSION_INFO (wininet.h)
-description: Contains the global HTTP version.helpviewer_keywords: ["*LPHTTP_VERSION_INFO","HTTP_VERSION_INFO","HTTP_VERSION_INFO structure [WinINet]","LPHTTP_VERSION_INFO","LPHTTP_VERSION_INFO structure pointer [WinINet]","_inet_http_version_info_structure","wininet.http_version_info","wininet/HTTP_VERSION_INFO","wininet/LPHTTP_VERSION_INFO"]
+description: Contains the global HTTP version.
+helpviewer_keywords: ["*LPHTTP_VERSION_INFO","HTTP_VERSION_INFO","HTTP_VERSION_INFO structure [WinINet]","LPHTTP_VERSION_INFO","LPHTTP_VERSION_INFO structure pointer [WinINet]","_inet_http_version_info_structure","wininet.http_version_info","wininet/HTTP_VERSION_INFO","wininet/LPHTTP_VERSION_INFO"]
 old-location: wininet\http_version_info.htm
 tech.root: wininet
 ms.assetid: 446da4aa-08be-4b2c-a436-dc8fa923a3a8

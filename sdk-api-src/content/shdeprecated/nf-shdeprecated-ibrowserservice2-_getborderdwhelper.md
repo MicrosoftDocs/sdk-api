@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetBorderDWHelper
 title: IBrowserService2::_GetBorderDWHelper (shdeprecated.h)
-description: Deprecated. A helper method for the implementation of GetBorderDW.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_GetBorderDWHelper method","IBrowserService2._GetBorderDWHelper","IBrowserService2::_GetBorderDWHelper","_GetBorderDWHelper","_GetBorderDWHelper method [Windows Shell]","_GetBorderDWHelper method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_GetBorderDWHelper","shell.IBrowserService2__GetBorderDWHelper","zone_IBrowserService2__GetBorderDWHelper"]
+description: Deprecated. A helper method for the implementation of GetBorderDW.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_GetBorderDWHelper method","IBrowserService2._GetBorderDWHelper","IBrowserService2::_GetBorderDWHelper","_GetBorderDWHelper","_GetBorderDWHelper method [Windows Shell]","_GetBorderDWHelper method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_GetBorderDWHelper","shell.IBrowserService2__GetBorderDWHelper","zone_IBrowserService2__GetBorderDWHelper"]
 old-location: shell\IBrowserService2__GetBorderDWHelper.htm
 tech.root: shell
 ms.assetid: 44477311-61c6-48d0-bef8-349ca114a891

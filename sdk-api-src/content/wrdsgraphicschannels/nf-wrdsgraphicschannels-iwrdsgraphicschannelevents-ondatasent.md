@@ -1,7 +1,8 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnDataSent
 title: IWRdsGraphicsChannelEvents::OnDataSent (wrdsgraphicschannels.h)
-description: Called when the IWRdsGraphicsChannel::Write method is called and the data has been sent.helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnDataSent method","IWRdsGraphicsChannelEvents.OnDataSent","IWRdsGraphicsChannelEvents::OnDataSent","OnDataSent","OnDataSent method [Remote Desktop Services]","OnDataSent method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_ondatasent","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent"]
+description: Called when the IWRdsGraphicsChannel::Write method is called and the data has been sent.
+helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnDataSent method","IWRdsGraphicsChannelEvents.OnDataSent","IWRdsGraphicsChannelEvents::OnDataSent","OnDataSent","OnDataSent method [Remote Desktop Services]","OnDataSent method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_ondatasent","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent"]
 old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm
 tech.root: TermServ
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446

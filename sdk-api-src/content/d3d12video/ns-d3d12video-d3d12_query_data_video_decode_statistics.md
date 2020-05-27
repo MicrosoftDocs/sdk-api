@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS
 title: D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS
-description: Represents data for a video decode statistics query invoked by calling ID3D12VideoDecodeCommandList::EndQuery.helpviewer_keywords: ["D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS","D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS",""]
+description: Represents data for a video decode statistics query invoked by calling ID3D12VideoDecodeCommandList::EndQuery.
+helpviewer_keywords: ["D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS","D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS",""]
 tech.root: mf
 ms.assetid: c5e06029-cab8-4e16-9bdb-c239818a2a63
 ms.date: 05/28/2019

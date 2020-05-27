@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcSsDontSerializeContext
 title: RpcSsDontSerializeContext function (rpcdce.h)
-description: The RpcSsDontSerializeContext function disables run-time serialization of multiple calls dispatched to server-manager routines on the same context handle.helpviewer_keywords: ["RpcSsDontSerializeContext","RpcSsDontSerializeContext function [RPC]","_rpc_rpcssdontserializecontext","rpc.rpcssdontserializecontext","rpcdce/RpcSsDontSerializeContext"]
+description: The RpcSsDontSerializeContext function disables run-time serialization of multiple calls dispatched to server-manager routines on the same context handle.
+helpviewer_keywords: ["RpcSsDontSerializeContext","RpcSsDontSerializeContext function [RPC]","_rpc_rpcssdontserializecontext","rpc.rpcssdontserializecontext","rpcdce/RpcSsDontSerializeContext"]
 old-location: rpc\rpcssdontserializecontext.htm
 tech.root: Rpc
 ms.assetid: 75c8bf34-1522-4db2-9c33-e1ca5ac11e4c

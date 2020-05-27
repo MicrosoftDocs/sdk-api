@@ -1,7 +1,8 @@
 ---
 UID: NS:wininet._INTERNET_BUFFERSA
 title: INTERNET_BUFFERSA (wininet.h)
-description: Contains both the data and header information.helpviewer_keywords: ["*LPINTERNET_BUFFERSA","INTERNET_BUFFERS","INTERNET_BUFFERS structure [WinINet]","INTERNET_BUFFERSA","INTERNET_BUFFERSW","LPINTERNET_BUFFERS","LPINTERNET_BUFFERS structure pointer [WinINet]","_win32_internet_buffers","wininet.internet_buffers","wininet/ LPINTERNET_BUFFERS","wininet/INTERNET_BUFFERS","wininet/INTERNET_BUFFERSA","wininet/INTERNET_BUFFERSW"]
+description: Contains both the data and header information.
+helpviewer_keywords: ["*LPINTERNET_BUFFERSA","INTERNET_BUFFERS","INTERNET_BUFFERS structure [WinINet]","INTERNET_BUFFERSA","INTERNET_BUFFERSW","LPINTERNET_BUFFERS","LPINTERNET_BUFFERS structure pointer [WinINet]","_win32_internet_buffers","wininet.internet_buffers","wininet/ LPINTERNET_BUFFERS","wininet/INTERNET_BUFFERS","wininet/INTERNET_BUFFERSA","wininet/INTERNET_BUFFERSW"]
 old-location: wininet\internet_buffers.htm
 tech.root: wininet
 ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9

@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_MayTranslateAccelerator
 title: IBrowserService2::v_MayTranslateAccelerator (shdeprecated.h)
-description: Deprecated. Called by a derived class to instruct the base class to proceed with the translation of keyboard mnemonics.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","v_MayTranslateAccelerator method","IBrowserService2.v_MayTranslateAccelerator","IBrowserService2::v_MayTranslateAccelerator","shdeprecated/IBrowserService2::v_MayTranslateAccelerator","shell.IBrowserService2_v_MayTranslateAccelerator","v_MayTranslateAccelerator","v_MayTranslateAccelerator method [Windows Shell]","v_MayTranslateAccelerator method [Windows Shell]","IBrowserService2 interface","zone_IBrowserService2_v_MayTranslateAccelerator"]
+description: Deprecated. Called by a derived class to instruct the base class to proceed with the translation of keyboard mnemonics.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","v_MayTranslateAccelerator method","IBrowserService2.v_MayTranslateAccelerator","IBrowserService2::v_MayTranslateAccelerator","shdeprecated/IBrowserService2::v_MayTranslateAccelerator","shell.IBrowserService2_v_MayTranslateAccelerator","v_MayTranslateAccelerator","v_MayTranslateAccelerator method [Windows Shell]","v_MayTranslateAccelerator method [Windows Shell]","IBrowserService2 interface","zone_IBrowserService2_v_MayTranslateAccelerator"]
 old-location: shell\IBrowserService2_v_MayTranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 99dc3bce-c661-4233-8457-0ce29e02c270

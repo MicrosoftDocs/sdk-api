@@ -1,7 +1,8 @@
 ---
 UID: NF:winsvc.StartServiceCtrlDispatcherA
 title: StartServiceCtrlDispatcherA function (winsvc.h)
-description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.helpviewer_keywords: ["StartServiceCtrlDispatcher","StartServiceCtrlDispatcher function","StartServiceCtrlDispatcherA","StartServiceCtrlDispatcherW","_win32_startservicectrldispatcher","base.startservicectrldispatcher","winsvc/StartServiceCtrlDispatcher","winsvc/StartServiceCtrlDispatcherA","winsvc/StartServiceCtrlDispatcherW"]
+description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
+helpviewer_keywords: ["StartServiceCtrlDispatcher","StartServiceCtrlDispatcher function","StartServiceCtrlDispatcherA","StartServiceCtrlDispatcherW","_win32_startservicectrldispatcher","base.startservicectrldispatcher","winsvc/StartServiceCtrlDispatcher","winsvc/StartServiceCtrlDispatcherA","winsvc/StartServiceCtrlDispatcherW"]
 old-location: base\startservicectrldispatcher.htm
 tech.root: Services
 ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad

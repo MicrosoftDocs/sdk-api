@@ -1,7 +1,8 @@
 ---
 UID: NF:msajtransport.AllJoynReceiveFromBus
 title: AllJoynReceiveFromBus function (msajtransport.h)
-description: Receives data from the bus via named pipe.helpviewer_keywords: ["AllJoynReceiveFromBus","AllJoynReceiveFromBus function [AllJoyn API]","alljoyn.alljoynreceivefrombus","msajtransport/AllJoynReceiveFromBus"]
+description: Receives data from the bus via named pipe.
+helpviewer_keywords: ["AllJoynReceiveFromBus","AllJoynReceiveFromBus function [AllJoyn API]","alljoyn.alljoynreceivefrombus","msajtransport/AllJoynReceiveFromBus"]
 old-location: alljoyn\alljoynreceivefrombus.htm
 tech.root: AllJoyn
 ms.assetid: 5E11BCDC-319C-4C53-914E-73B2FEC4747E

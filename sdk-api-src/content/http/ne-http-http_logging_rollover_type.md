@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_LOGGING_ROLLOVER_TYPE
 title: HTTP_LOGGING_ROLLOVER_TYPE (http.h)
-description: Defines the log file rollover types.helpviewer_keywords: ["*PHTTP_LOGGING_ROLLOVER_TYPE","*PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP]","HTTP_LOGGING_ROLLOVER_TYPE","HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP]","HttpLoggingRolloverDaily","HttpLoggingRolloverHourly","HttpLoggingRolloverMonthly","HttpLoggingRolloverSize","HttpLoggingRolloverWeekly","http.http_logging_rollover_type","http/*PHTTP_LOGGING_ROLLOVER_TYPE","http/HTTP_LOGGING_ROLLOVER_TYPE","http/HttpLoggingRolloverDaily","http/HttpLoggingRolloverHourly","http/HttpLoggingRolloverMonthly","http/HttpLoggingRolloverSize","http/HttpLoggingRolloverWeekly"]
+description: Defines the log file rollover types.
+helpviewer_keywords: ["*PHTTP_LOGGING_ROLLOVER_TYPE","*PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP]","HTTP_LOGGING_ROLLOVER_TYPE","HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP]","HttpLoggingRolloverDaily","HttpLoggingRolloverHourly","HttpLoggingRolloverMonthly","HttpLoggingRolloverSize","HttpLoggingRolloverWeekly","http.http_logging_rollover_type","http/*PHTTP_LOGGING_ROLLOVER_TYPE","http/HTTP_LOGGING_ROLLOVER_TYPE","http/HttpLoggingRolloverDaily","http/HttpLoggingRolloverHourly","http/HttpLoggingRolloverMonthly","http/HttpLoggingRolloverSize","http/HttpLoggingRolloverWeekly"]
 old-location: http\http_logging_rollover_type.htm
 tech.root: http
 ms.assetid: f1560f05-f7c4-46f1-ad9e-d737d0019b41

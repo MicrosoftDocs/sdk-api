@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPathname.RemoveLeafElement
 title: IADsPathname::RemoveLeafElement (iads.h)
-description: Removes the last element from the directory path that has been set on the Pathname object.helpviewer_keywords: ["IADsPathname interface [ADSI]","RemoveLeafElement method","IADsPathname.RemoveLeafElement","IADsPathname::RemoveLeafElement","RemoveLeafElement","RemoveLeafElement method [ADSI]","RemoveLeafElement method [ADSI]","IADsPathname interface","_ds_iadspathname_removeleafelement","adsi.iadspathname__removeleafelement","adsi.iadspathname_removeleafelement","iads/IADsPathname::RemoveLeafElement"]
+description: Removes the last element from the directory path that has been set on the Pathname object.
+helpviewer_keywords: ["IADsPathname interface [ADSI]","RemoveLeafElement method","IADsPathname.RemoveLeafElement","IADsPathname::RemoveLeafElement","RemoveLeafElement","RemoveLeafElement method [ADSI]","RemoveLeafElement method [ADSI]","IADsPathname interface","_ds_iadspathname_removeleafelement","adsi.iadspathname__removeleafelement","adsi.iadspathname_removeleafelement","iads/IADsPathname::RemoveLeafElement"]
 old-location: adsi\iadspathname_removeleafelement.htm
 tech.root: adsi
 ms.assetid: 90085c75-0a38-43e8-932e-2b89d167cfa5

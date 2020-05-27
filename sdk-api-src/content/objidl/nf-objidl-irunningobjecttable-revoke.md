@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Revoke
 title: IRunningObjectTable::Revoke (objidl.h)
-description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.helpviewer_keywords: ["IRunningObjectTable interface [COM]","Revoke method","IRunningObjectTable.Revoke","IRunningObjectTable::Revoke","Revoke","Revoke method [COM]","Revoke method [COM]","IRunningObjectTable interface","_com_irunningobjecttable_revoke","com.irunningobjecttable_revoke","objidl/IRunningObjectTable::Revoke"]
+description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.
+helpviewer_keywords: ["IRunningObjectTable interface [COM]","Revoke method","IRunningObjectTable.Revoke","IRunningObjectTable::Revoke","Revoke","Revoke method [COM]","Revoke method [COM]","IRunningObjectTable interface","_com_irunningobjecttable_revoke","com.irunningobjecttable_revoke","objidl/IRunningObjectTable::Revoke"]
 old-location: com\irunningobjecttable_revoke.htm
 tech.root: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132

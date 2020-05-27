@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetNumOctaves
 title: IDCompositionTurbulenceEffect::SetNumOctaves (dcomp.h)
-description: Sets the number of octaves for the noise function.helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetNumOctaves method","IDCompositionTurbulenceEffect.SetNumOctaves","IDCompositionTurbulenceEffect::SetNumOctaves","SetNumOctaves","SetNumOctaves method [DirectComposition]","SetNumOctaves method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetNumOctaves","directcomp.idcompositionturbulenceeffect_setnumoctaves"]
+description: Sets the number of octaves for the noise function.
+helpviewer_keywords: ["IDCompositionTurbulenceEffect interface [DirectComposition]","SetNumOctaves method","IDCompositionTurbulenceEffect.SetNumOctaves","IDCompositionTurbulenceEffect::SetNumOctaves","SetNumOctaves","SetNumOctaves method [DirectComposition]","SetNumOctaves method [DirectComposition]","IDCompositionTurbulenceEffect interface","dcomp/IDCompositionTurbulenceEffect::SetNumOctaves","directcomp.idcompositionturbulenceeffect_setnumoctaves"]
 old-location: directcomp\idcompositionturbulenceeffect_setnumoctaves.htm
 tech.root: directcomp
 ms.assetid: 759F03F2-4CA2-454D-8AAE-C18B5E3FD3D0

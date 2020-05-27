@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetFullscreenDesc
 title: IDXGISwapChain1::GetFullscreenDesc (dxgi1_2.h)
-description: Gets a description of a full-screen swap chain.helpviewer_keywords: ["GetFullscreenDesc","GetFullscreenDesc method [DXGI]","GetFullscreenDesc method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetFullscreenDesc method","IDXGISwapChain1.GetFullscreenDesc","IDXGISwapChain1::GetFullscreenDesc","direct3ddxgi.idxgiswapchain1_getfullscreendesc","dxgi1_2/IDXGISwapChain1::GetFullscreenDesc"]
+description: Gets a description of a full-screen swap chain.
+helpviewer_keywords: ["GetFullscreenDesc","GetFullscreenDesc method [DXGI]","GetFullscreenDesc method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetFullscreenDesc method","IDXGISwapChain1.GetFullscreenDesc","IDXGISwapChain1::GetFullscreenDesc","direct3ddxgi.idxgiswapchain1_getfullscreendesc","dxgi1_2/IDXGISwapChain1::GetFullscreenDesc"]
 old-location: direct3ddxgi\idxgiswapchain1_getfullscreendesc.htm
 tech.root: direct3ddxgi
 ms.assetid: 6056239A-B3CA-4C70-9081-499B0AAEFBEF

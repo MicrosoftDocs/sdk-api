@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.RenderDvdVideoVolume
 title: IDvdGraphBuilder::RenderDvdVideoVolume (strmif.h)
-description: The RenderDvdVideoVolume method completes building a filter graph according to user specifications for playing a DVD-Video volume.helpviewer_keywords: ["IDvdGraphBuilder interface [DirectShow]","RenderDvdVideoVolume method","IDvdGraphBuilder.RenderDvdVideoVolume","IDvdGraphBuilder::RenderDvdVideoVolume","IDvdGraphBuilderRenderDvdVideoVolume","RenderDvdVideoVolume","RenderDvdVideoVolume method [DirectShow]","RenderDvdVideoVolume method [DirectShow]","IDvdGraphBuilder interface","dshow.idvdgraphbuilder_renderdvdvideovolume","strmif/IDvdGraphBuilder::RenderDvdVideoVolume"]
+description: The RenderDvdVideoVolume method completes building a filter graph according to user specifications for playing a DVD-Video volume.
+helpviewer_keywords: ["IDvdGraphBuilder interface [DirectShow]","RenderDvdVideoVolume method","IDvdGraphBuilder.RenderDvdVideoVolume","IDvdGraphBuilder::RenderDvdVideoVolume","IDvdGraphBuilderRenderDvdVideoVolume","RenderDvdVideoVolume","RenderDvdVideoVolume method [DirectShow]","RenderDvdVideoVolume method [DirectShow]","IDvdGraphBuilder interface","dshow.idvdgraphbuilder_renderdvdvideovolume","strmif/IDvdGraphBuilder::RenderDvdVideoVolume"]
 old-location: dshow\idvdgraphbuilder_renderdvdvideovolume.htm
 tech.root: DirectShow
 ms.assetid: 731d2f4b-2a54-451a-8d98-b5fdf47c1dc8

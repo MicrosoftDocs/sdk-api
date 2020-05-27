@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterCloseEnumEx
 title: ClusterCloseEnumEx function (clusapi.h)
-description: Closes a handle to an enumeration that was opened by the ClusterOpenEnumEx function.helpviewer_keywords: ["ClusterCloseEnumEx","ClusterCloseEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_CLOSE_ENUM_EX","PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster]","clusapi/ClusterCloseEnumEx","clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX","mscs.clustercloseenumex"]
+description: Closes a handle to an enumeration that was opened by the ClusterOpenEnumEx function.
+helpviewer_keywords: ["ClusterCloseEnumEx","ClusterCloseEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_CLOSE_ENUM_EX","PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster]","clusapi/ClusterCloseEnumEx","clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX","mscs.clustercloseenumex"]
 old-location: mscs\clustercloseenumex.htm
 tech.root: MsCS
 ms.assetid: B62F1259-C4FF-45FC-9EA1-24CABFE1C0F3

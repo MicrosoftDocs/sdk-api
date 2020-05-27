@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsExtension.Operate
 title: IADsExtension::Operate (iads.h)
-description: Interprets the control code and input parameters according to the specifications of the provider.helpviewer_keywords: ["ADS_EXT_INITCREDENTIALS","IADsExtension interface [ADSI]","Operate method","IADsExtension.Operate","IADsExtension::Operate","Operate","Operate method [ADSI]","Operate method [ADSI]","IADsExtension interface","_ds_iadsextension_operate","adsi.iadsextension__operate","adsi.iadsextension_operate","iads/IADsExtension::Operate"]
+description: Interprets the control code and input parameters according to the specifications of the provider.
+helpviewer_keywords: ["ADS_EXT_INITCREDENTIALS","IADsExtension interface [ADSI]","Operate method","IADsExtension.Operate","IADsExtension::Operate","Operate","Operate method [ADSI]","Operate method [ADSI]","IADsExtension interface","_ds_iadsextension_operate","adsi.iadsextension__operate","adsi.iadsextension_operate","iads/IADsExtension::Operate"]
 old-location: adsi\iadsextension_operate.htm
 tech.root: adsi
 ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8

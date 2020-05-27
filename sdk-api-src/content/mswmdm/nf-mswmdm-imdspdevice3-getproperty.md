@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.GetProperty
 title: IMDSPDevice3::GetProperty (mswmdm.h)
-description: The GetProperty method retrieves a specific device property.helpviewer_keywords: ["GetProperty","GetProperty method [windows Media Device Manager]","GetProperty method [windows Media Device Manager]","IMDSPDevice3 interface","IMDSPDevice3 interface [windows Media Device Manager]","GetProperty method","IMDSPDevice3.GetProperty","IMDSPDevice3::GetProperty","IMDSPDevice3TransferSessionBegin","mswmdm/IMDSPDevice3::GetProperty","wmdm.imdspdevice3_getproperty"]
+description: The GetProperty method retrieves a specific device property.
+helpviewer_keywords: ["GetProperty","GetProperty method [windows Media Device Manager]","GetProperty method [windows Media Device Manager]","IMDSPDevice3 interface","IMDSPDevice3 interface [windows Media Device Manager]","GetProperty method","IMDSPDevice3.GetProperty","IMDSPDevice3::GetProperty","IMDSPDevice3TransferSessionBegin","mswmdm/IMDSPDevice3::GetProperty","wmdm.imdspdevice3_getproperty"]
 old-location: wmdm\imdspdevice3_getproperty.htm
 tech.root: WMDM
 ms.assetid: e0665ba6-361d-488c-9100-68f39855b736

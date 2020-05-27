@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.SetPrivateData
 title: IDirect3DVolume9::SetPrivateData (d3d9helper.h)
-description: Associates data with the volume that is intended for use by the application, not by Direct3D.helpviewer_keywords: ["IDirect3DVolume9 interface [Direct3D 9]","SetPrivateData method","IDirect3DVolume9.SetPrivateData","IDirect3DVolume9::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 9]","SetPrivateData method [Direct3D 9]","IDirect3DVolume9 interface","d3d9helper/IDirect3DVolume9::SetPrivateData","direct3d9.idirect3dvolume9__setprivatedata","e78e1093-63e6-c468-61fa-034b8ab6af7a"]
+description: Associates data with the volume that is intended for use by the application, not by Direct3D.
+helpviewer_keywords: ["IDirect3DVolume9 interface [Direct3D 9]","SetPrivateData method","IDirect3DVolume9.SetPrivateData","IDirect3DVolume9::SetPrivateData","SetPrivateData","SetPrivateData method [Direct3D 9]","SetPrivateData method [Direct3D 9]","IDirect3DVolume9 interface","d3d9helper/IDirect3DVolume9::SetPrivateData","direct3d9.idirect3dvolume9__setprivatedata","e78e1093-63e6-c468-61fa-034b8ab6af7a"]
 old-location: direct3d9\idirect3dvolume9__setprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__setprivatedata.htm

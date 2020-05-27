@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventRemoveWindow
 title: UiaEventRemoveWindow function (uiautomationcoreapi.h)
-description: Removes a window from the event listener.helpviewer_keywords: ["UiaEventRemoveWindow","UiaEventRemoveWindow function [Windows Accessibility]","uiauto.uiauto_UiaEventRemoveWindowFunction","uiauto_UiaEventRemoveWindowFunction","uiautomationcoreapi/UiaEventRemoveWindow","winauto.uiauto_UiaEventRemoveWindowFunction"]
+description: Removes a window from the event listener.
+helpviewer_keywords: ["UiaEventRemoveWindow","UiaEventRemoveWindow function [Windows Accessibility]","uiauto.uiauto_UiaEventRemoveWindowFunction","uiauto_UiaEventRemoveWindowFunction","uiautomationcoreapi/UiaEventRemoveWindow","winauto.uiauto_UiaEventRemoveWindowFunction"]
 old-location: winauto\uiauto_UiaEventRemoveWindowFunction.htm
 tech.root: WinAuto
 ms.assetid: 5c989cbf-b55a-4576-bacc-6e9955d4707f

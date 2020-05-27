@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDFLIPVIDEOPORT
 title: DDFLIPVIDEOPORT (ddkmapi.h)
-description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.helpviewer_keywords: ["*LPDDFLIPVIDEOPORT","DDFLIPVIDEOPORT","DDFLIPVIDEOPORT structure [Display Devices]","LPDDFLIPVIDEOPORT","LPDDFLIPVIDEOPORT structure pointer [Display Devices]","ddkmapi/DDFLIPVIDEOPORT","ddkmapi/LPDDFLIPVIDEOPORT","ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml","display.ddflipvideoport"]
+description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
+helpviewer_keywords: ["*LPDDFLIPVIDEOPORT","DDFLIPVIDEOPORT","DDFLIPVIDEOPORT structure [Display Devices]","LPDDFLIPVIDEOPORT","LPDDFLIPVIDEOPORT structure pointer [Display Devices]","ddkmapi/DDFLIPVIDEOPORT","ddkmapi/LPDDFLIPVIDEOPORT","ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml","display.ddflipvideoport"]
 old-location: display\ddflipvideoport.htm
 tech.root: display
 ms.assetid: c30c100c-8c91-44e2-b75b-92ce73d44047

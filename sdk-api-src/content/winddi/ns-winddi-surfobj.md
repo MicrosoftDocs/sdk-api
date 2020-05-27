@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._SURFOBJ
 title: SURFOBJ (winddi.h)
-description: The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a device-managed surface.helpviewer_keywords: ["SURFOBJ","SURFOBJ structure [Display Devices]","display.surfobj","grstrcts_ef22095d-660f-4276-9a10-1ce7451327fc.xml","winddi/SURFOBJ"]
+description: The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a device-managed surface.
+helpviewer_keywords: ["SURFOBJ","SURFOBJ structure [Display Devices]","display.surfobj","grstrcts_ef22095d-660f-4276-9a10-1ce7451327fc.xml","winddi/SURFOBJ"]
 old-location: display\surfobj.htm
 tech.root: display
 ms.assetid: cee7cb50-1e8a-422b-aebe-7030ae96fb34

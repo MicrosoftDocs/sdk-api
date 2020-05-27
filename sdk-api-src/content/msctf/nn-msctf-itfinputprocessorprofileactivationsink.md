@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfileActivationSink
 title: ITfInputProcessorProfileActivationSink (msctf.h)
-description: The ITfInputProcessorProfileActivationSink interface is implemented by an application to receive notifications when the profile changes.helpviewer_keywords: ["ITfInputProcessorProfileActivationSink","ITfInputProcessorProfileActivationSink interface [Text Services Framework]","ITfInputProcessorProfileActivationSink interface [Text Services Framework]","described","_tsf_itfinputprocessorprofileactivationsink_ref","msctf/ITfInputProcessorProfileActivationSink","tsf.itfinputprocessorprofileactivationsink"]
+description: The ITfInputProcessorProfileActivationSink interface is implemented by an application to receive notifications when the profile changes.
+helpviewer_keywords: ["ITfInputProcessorProfileActivationSink","ITfInputProcessorProfileActivationSink interface [Text Services Framework]","ITfInputProcessorProfileActivationSink interface [Text Services Framework]","described","_tsf_itfinputprocessorprofileactivationsink_ref","msctf/ITfInputProcessorProfileActivationSink","tsf.itfinputprocessorprofileactivationsink"]
 old-location: tsf\itfinputprocessorprofileactivationsink.htm
 tech.root: TSF
 ms.assetid: 97a6a820-8e0e-46b0-a359-da0a17fb4cae

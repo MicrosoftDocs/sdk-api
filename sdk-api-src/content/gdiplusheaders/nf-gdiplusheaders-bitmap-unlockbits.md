@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.UnlockBits
 title: Bitmap::UnlockBits (gdiplusheaders.h)
-description: The Bitmap::UnlockBits method unlocks a portion of this bitmap that was previously locked by a call to Bitmap::LockBits.helpviewer_keywords: ["Bitmap class [GDI+]","UnlockBits method","Bitmap.UnlockBits","Bitmap::UnlockBits","UnlockBits","UnlockBits method [GDI+]","UnlockBits method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_","gdiplus._gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_"]
+description: The Bitmap::UnlockBits method unlocks a portion of this bitmap that was previously locked by a call to Bitmap::LockBits.
+helpviewer_keywords: ["Bitmap class [GDI+]","UnlockBits method","Bitmap.UnlockBits","Bitmap::UnlockBits","UnlockBits","UnlockBits method [GDI+]","UnlockBits method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_","gdiplus._gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\unlockbits.htm

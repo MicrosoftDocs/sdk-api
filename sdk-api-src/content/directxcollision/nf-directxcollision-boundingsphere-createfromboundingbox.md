@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromBoundingBox
 title: BoundingSphere::CreateFromBoundingBox
-description: Creates a BoundingSphere containing the specified BoundingBox.helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","CreateFromBoundingBox method","BoundingSphere.CreateFromBoundingBox","BoundingSphere::CreateFromBoundingBox","CreateFromBoundingBox","CreateFromBoundingBox method [DirectX Math Support APIs]","CreateFromBoundingBox method [DirectX Math Support APIs]","BoundingSphere interface","Use DirectX..BoundingSphere.CreateFromBoundingBox","Use DirectX::::BoundingSphere::CreateFromBoundingBox","dxmath.boundingsphere_createfromboundingbox"]
+description: Creates a BoundingSphere containing the specified BoundingBox.
+helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","CreateFromBoundingBox method","BoundingSphere.CreateFromBoundingBox","BoundingSphere::CreateFromBoundingBox","CreateFromBoundingBox","CreateFromBoundingBox method [DirectX Math Support APIs]","CreateFromBoundingBox method [DirectX Math Support APIs]","BoundingSphere interface","Use DirectX..BoundingSphere.CreateFromBoundingBox","Use DirectX::::BoundingSphere::CreateFromBoundingBox","dxmath.boundingsphere_createfromboundingbox"]
 old-location: dxmath\boundingsphere_createfromboundingbox.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromBoundingBox(BoundingSphere@,BoundingBox)

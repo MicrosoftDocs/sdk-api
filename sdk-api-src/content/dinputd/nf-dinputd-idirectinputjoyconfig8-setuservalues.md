@@ -1,7 +1,8 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetUserValues
 title: IDirectInputJoyConfig8::SetUserValues (dinputd.h)
-description: The IDirectInputJoyConfig8::SetUserValues method sets the user settings for the joystick.helpviewer_keywords: ["IDirectInputJoyConfig8 interface [Human Input Devices]","SetUserValues method","IDirectInputJoyConfig8.SetUserValues","IDirectInputJoyConfig8::SetUserValues","SetUserValues","SetUserValues method [Human Input Devices]","SetUserValues method [Human Input Devices]","IDirectInputJoyConfig8 interface","di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml","dinputd/IDirectInputJoyConfig8::SetUserValues","hid.idirectinputjoyconfig8_setuservalues"]
+description: The IDirectInputJoyConfig8::SetUserValues method sets the user settings for the joystick.
+helpviewer_keywords: ["IDirectInputJoyConfig8 interface [Human Input Devices]","SetUserValues method","IDirectInputJoyConfig8.SetUserValues","IDirectInputJoyConfig8::SetUserValues","SetUserValues","SetUserValues method [Human Input Devices]","SetUserValues method [Human Input Devices]","IDirectInputJoyConfig8 interface","di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml","dinputd/IDirectInputJoyConfig8::SetUserValues","hid.idirectinputjoyconfig8_setuservalues"]
 old-location: hid\idirectinputjoyconfig8_setuservalues.htm
 tech.root: hid
 ms.assetid: 0e33a73b-0315-43a2-8563-f21a7776921c

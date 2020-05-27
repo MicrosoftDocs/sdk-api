@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_LINE_JOIN
 title: D2D1_LINE_JOIN (d2d1.h)
-description: Describes the shape that joins two lines or segments.helpviewer_keywords: ["D2D1_LINE_JOIN","D2D1_LINE_JOIN enumeration [Direct2D]","D2D1_LINE_JOIN_BEVEL","D2D1_LINE_JOIN_MITER","D2D1_LINE_JOIN_MITER_OR_BEVEL","D2D1_LINE_JOIN_ROUND","d2d1/D2D1_LINE_JOIN","d2d1/D2D1_LINE_JOIN_BEVEL","d2d1/D2D1_LINE_JOIN_MITER","d2d1/D2D1_LINE_JOIN_MITER_OR_BEVEL","d2d1/D2D1_LINE_JOIN_ROUND","direct2d.D2D1_LINE_JOIN"]
+description: Describes the shape that joins two lines or segments.
+helpviewer_keywords: ["D2D1_LINE_JOIN","D2D1_LINE_JOIN enumeration [Direct2D]","D2D1_LINE_JOIN_BEVEL","D2D1_LINE_JOIN_MITER","D2D1_LINE_JOIN_MITER_OR_BEVEL","D2D1_LINE_JOIN_ROUND","d2d1/D2D1_LINE_JOIN","d2d1/D2D1_LINE_JOIN_BEVEL","d2d1/D2D1_LINE_JOIN_MITER","d2d1/D2D1_LINE_JOIN_MITER_OR_BEVEL","d2d1/D2D1_LINE_JOIN_ROUND","direct2d.D2D1_LINE_JOIN"]
 old-location: direct2d\D2D1_LINE_JOIN.htm
 tech.root: Direct2D
 ms.assetid: 4368e93e-af69-4555-ac2b-c9c576c81372

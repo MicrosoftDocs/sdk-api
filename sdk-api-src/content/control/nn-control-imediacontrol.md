@@ -1,7 +1,8 @@
 ---
 UID: NN:control.IMediaControl
 title: IMediaControl (control.h)
-description: The IMediaControl interface provides methods for controlling the flow of data through the filter graph.helpviewer_keywords: ["IMediaControl","IMediaControl interface [DirectShow]","IMediaControl interface [DirectShow]","described","IMediaControlInterface","control/IMediaControl","dshow.imediacontrol"]
+description: The IMediaControl interface provides methods for controlling the flow of data through the filter graph.
+helpviewer_keywords: ["IMediaControl","IMediaControl interface [DirectShow]","IMediaControl interface [DirectShow]","described","IMediaControlInterface","control/IMediaControl","dshow.imediacontrol"]
 old-location: dshow\imediacontrol.htm
 tech.root: DirectShow
 ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198

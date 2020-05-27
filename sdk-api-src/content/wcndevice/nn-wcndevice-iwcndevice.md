@@ -1,7 +1,8 @@
 ---
 UID: NN:wcndevice.IWCNDevice
 title: IWCNDevice (wcndevice.h)
-description: Use this interface to configure the device and initiate the session.helpviewer_keywords: ["IWCNDevice","IWCNDevice interface [Windows Connect Now]","IWCNDevice interface [Windows Connect Now]","described","wcn.iwcndevice","wcndevice/IWCNDevice"]
+description: Use this interface to configure the device and initiate the session.
+helpviewer_keywords: ["IWCNDevice","IWCNDevice interface [Windows Connect Now]","IWCNDevice interface [Windows Connect Now]","described","wcn.iwcndevice","wcndevice/IWCNDevice"]
 old-location: wcn\iwcndevice.htm
 tech.root: wcn
 ms.assetid: a092406d-7af4-436d-9755-5a9b87aa6ca9

@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxCompleteJobParamsA
 title: FaxCompleteJobParamsA function (winfax.h)
-description: The FaxCompleteJobParams function creates both a FAX_COVERPAGE_INFO structure and a FAX_JOB_PARAM structure for a fax client application.helpviewer_keywords: ["FaxCompleteJobParams","FaxCompleteJobParams function [Fax Service]","FaxCompleteJobParamsA","FaxCompleteJobParamsW","_mfax_faxcompletejobparams","fax._mfax_faxcompletejobparams","winfax/FaxCompleteJobParams","winfax/FaxCompleteJobParamsA","winfax/FaxCompleteJobParamsW"]
+description: The FaxCompleteJobParams function creates both a FAX_COVERPAGE_INFO structure and a FAX_JOB_PARAM structure for a fax client application.
+helpviewer_keywords: ["FaxCompleteJobParams","FaxCompleteJobParams function [Fax Service]","FaxCompleteJobParamsA","FaxCompleteJobParamsW","_mfax_faxcompletejobparams","fax._mfax_faxcompletejobparams","winfax/FaxCompleteJobParams","winfax/FaxCompleteJobParamsA","winfax/FaxCompleteJobParamsW"]
 old-location: fax\_mfax_faxcompletejobparams.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9b8z.htm

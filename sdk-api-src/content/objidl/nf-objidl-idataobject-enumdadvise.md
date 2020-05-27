@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IDataObject.EnumDAdvise
 title: IDataObject::EnumDAdvise (objidl.h)
-description: Creates an object that can be used to enumerate the current advisory connections.helpviewer_keywords: ["EnumDAdvise","EnumDAdvise method [COM]","EnumDAdvise method [COM]","IDataObject interface","IDataObject interface [COM]","EnumDAdvise method","IDataObject.EnumDAdvise","IDataObject::EnumDAdvise","_ole_idataobject_enumdadvise","com.idataobject_enumdadvise","objidl/IDataObject::EnumDAdvise"]
+description: Creates an object that can be used to enumerate the current advisory connections.
+helpviewer_keywords: ["EnumDAdvise","EnumDAdvise method [COM]","EnumDAdvise method [COM]","IDataObject interface","IDataObject interface [COM]","EnumDAdvise method","IDataObject.EnumDAdvise","IDataObject::EnumDAdvise","_ole_idataobject_enumdadvise","com.idataobject_enumdadvise","objidl/IDataObject::EnumDAdvise"]
 old-location: com\idataobject_enumdadvise.htm
 tech.root: com
 ms.assetid: 319637fd-d9b5-4da0-ac92-4c52fa9f5231

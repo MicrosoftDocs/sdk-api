@@ -1,7 +1,8 @@
 ---
 UID: NS:sbe.__MIDL___MIDL_itf_sbe_0000_0015_0001
 title: SBE2_STREAM_DESC (sbe.h)
-description: Describes a stream produced by the stream buffer engine.helpviewer_keywords: ["SBE2_STREAM_DESC","SBE2_STREAM_DESC structure [Microsoft TV Technologies]","SBE2_STREAM_DESC_VERSION","mstv.sbe2_stream_desc","sbe/SBE2_STREAM_DESC"]
+description: Describes a stream produced by the stream buffer engine.
+helpviewer_keywords: ["SBE2_STREAM_DESC","SBE2_STREAM_DESC structure [Microsoft TV Technologies]","SBE2_STREAM_DESC_VERSION","mstv.sbe2_stream_desc","sbe/SBE2_STREAM_DESC"]
 old-location: mstv\sbe2_stream_desc.htm
 tech.root: mstv
 ms.assetid: ab7ccd5b-1ac8-4d33-aea6-49383025270b

@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDataStream.Cancel
 title: IPortableDeviceDataStream::Cancel (portabledeviceapi.h)
-description: The Cancel method cancels a call in progress on this interface.helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceDataStream interface","IPortableDeviceDataStream interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceDataStream.Cancel","IPortableDeviceDataStream::Cancel","IPortableDeviceDataStreamCancel","portabledeviceapi/IPortableDeviceDataStream::Cancel","wpdsdk.iportabledevicedatastream_cancel"]
+description: The Cancel method cancels a call in progress on this interface.
+helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceDataStream interface","IPortableDeviceDataStream interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceDataStream.Cancel","IPortableDeviceDataStream::Cancel","IPortableDeviceDataStreamCancel","portabledeviceapi/IPortableDeviceDataStream::Cancel","wpdsdk.iportabledevicedatastream_cancel"]
 old-location: wpdsdk\iportabledevicedatastream_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 4a86cc78-8ef8-45e1-b63a-dac4c9dcdd9c

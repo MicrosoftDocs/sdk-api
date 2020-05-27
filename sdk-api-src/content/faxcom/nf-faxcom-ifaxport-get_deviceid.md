@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxPort.get_DeviceId
 title: IFaxPort::get_DeviceId (faxcom.h)
-description: The IFaxPort::get_DeviceId property is a number representing the permanent line identifier for the fax port.helpviewer_keywords: ["DeviceId property [Fax Service]","DeviceId property [Fax Service]","IFaxPort interface","IFaxPort interface [Fax Service]","DeviceId property","IFaxPort.DeviceId","IFaxPort.get_DeviceId","IFaxPort::DeviceId","IFaxPort::get_DeviceId","_mfax_ifaxport_get_deviceid","fax._mfax_ifaxport_get_deviceid","fax._mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp","faxcom/IFaxPort::DeviceId","faxcom/IFaxPort::get_DeviceId","get_DeviceId"]
+description: The IFaxPort::get_DeviceId property is a number representing the permanent line identifier for the fax port.
+helpviewer_keywords: ["DeviceId property [Fax Service]","DeviceId property [Fax Service]","IFaxPort interface","IFaxPort interface [Fax Service]","DeviceId property","IFaxPort.DeviceId","IFaxPort.get_DeviceId","IFaxPort::DeviceId","IFaxPort::get_DeviceId","_mfax_ifaxport_get_deviceid","fax._mfax_ifaxport_get_deviceid","fax._mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp","faxcom/IFaxPort::DeviceId","faxcom/IFaxPort::get_DeviceId","get_DeviceId"]
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8gf8.htm

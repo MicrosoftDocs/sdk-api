@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_DEVICE_DATA
 title: STORAGE_PHYSICAL_DEVICE_DATA
-description: Describes a physical storage device.helpviewer_keywords: ["*PSTORAGE_PHYSICAL_DEVICE_DATA","PSTORAGE_PHYSICAL_DEVICE_DATA","PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Files]","STORAGE_PHYSICAL_DEVICE_DATA","STORAGE_PHYSICAL_DEVICE_DATA structure [Files]","fs.storage_physical_device_data","winioctl/PSTORAGE_PHYSICAL_DEVICE_DATA","winioctl/_STORAGE_PHYSICAL_DEVICE_DATA"]
+description: Describes a physical storage device.
+helpviewer_keywords: ["*PSTORAGE_PHYSICAL_DEVICE_DATA","PSTORAGE_PHYSICAL_DEVICE_DATA","PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Files]","STORAGE_PHYSICAL_DEVICE_DATA","STORAGE_PHYSICAL_DEVICE_DATA structure [Files]","fs.storage_physical_device_data","winioctl/PSTORAGE_PHYSICAL_DEVICE_DATA","winioctl/_STORAGE_PHYSICAL_DEVICE_DATA"]
 old-location: fs\storage_physical_device_data.htm
 tech.root: FileIO
 ms.assetid: 4B484F79-DDC8-4671-90EA-D793EA0A05C7

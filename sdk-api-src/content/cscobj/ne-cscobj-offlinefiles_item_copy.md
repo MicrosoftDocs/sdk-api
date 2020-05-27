@@ -1,7 +1,8 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_ITEM_COPY
 title: OFFLINEFILES_ITEM_COPY (cscobj.h)
-description: Specifies whether the local, remote, or original copy of an item is being queried.helpviewer_keywords: ["OFFLINEFILES_ITEM_COPY","OFFLINEFILES_ITEM_COPY enumeration [Offline Files]","OFFLINEFILES_ITEM_COPY_LOCAL","OFFLINEFILES_ITEM_COPY_ORIGINAL","OFFLINEFILES_ITEM_COPY_REMOTE","cscobj/OFFLINEFILES_ITEM_COPY","cscobj/OFFLINEFILES_ITEM_COPY_LOCAL","cscobj/OFFLINEFILES_ITEM_COPY_ORIGINAL","cscobj/OFFLINEFILES_ITEM_COPY_REMOTE","of.offlinefiles_item_copy"]
+description: Specifies whether the local, remote, or original copy of an item is being queried.
+helpviewer_keywords: ["OFFLINEFILES_ITEM_COPY","OFFLINEFILES_ITEM_COPY enumeration [Offline Files]","OFFLINEFILES_ITEM_COPY_LOCAL","OFFLINEFILES_ITEM_COPY_ORIGINAL","OFFLINEFILES_ITEM_COPY_REMOTE","cscobj/OFFLINEFILES_ITEM_COPY","cscobj/OFFLINEFILES_ITEM_COPY_LOCAL","cscobj/OFFLINEFILES_ITEM_COPY_ORIGINAL","cscobj/OFFLINEFILES_ITEM_COPY_REMOTE","of.offlinefiles_item_copy"]
 old-location: of\offlinefiles_item_copy.htm
 tech.root: offlinefiles
 ms.assetid: b956f186-962b-457e-9c03-ffd1a7f937ca

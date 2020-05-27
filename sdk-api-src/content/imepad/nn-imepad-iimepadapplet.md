@@ -1,7 +1,8 @@
 ---
 UID: NN:imepad.IImePadApplet
 title: IImePadApplet (imepad.h)
-description: The IImePadApplet interface inputs strings into apps through the IImePad interface.helpviewer_keywords: ["IImePadApplet","IImePadApplet interface [Internationalization for Windows Applications]","IImePadApplet interface [Internationalization for Windows Applications]","described","imepad/IImePadApplet","intl.iimepadapplet"]
+description: The IImePadApplet interface inputs strings into apps through the IImePad interface.
+helpviewer_keywords: ["IImePadApplet","IImePadApplet interface [Internationalization for Windows Applications]","IImePadApplet interface [Internationalization for Windows Applications]","described","imepad/IImePadApplet","intl.iimepadapplet"]
 old-location: intl\iimepadapplet.htm
 tech.root: Intl
 ms.assetid: F3BC7176-9659-47B6-AFCA-049807394961

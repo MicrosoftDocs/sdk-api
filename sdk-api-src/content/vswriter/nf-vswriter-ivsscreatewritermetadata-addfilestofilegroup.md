@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddFilesToFileGroup
 title: IVssCreateWriterMetadata::AddFilesToFileGroup (vswriter.h)
-description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.helpviewer_keywords: ["AddFilesToFileGroup","AddFilesToFileGroup method [VSS]","AddFilesToFileGroup method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddFilesToFileGroup method","IVssCreateWriterMetadata.AddFilesToFileGroup","IVssCreateWriterMetadata::AddFilesToFileGroup","_win32_ivsscreatewritermetadata_addfilestofilegroup","base.ivsscreatewritermetadata_addfilestofilegroup","vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup"]
+description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
+helpviewer_keywords: ["AddFilesToFileGroup","AddFilesToFileGroup method [VSS]","AddFilesToFileGroup method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddFilesToFileGroup method","IVssCreateWriterMetadata.AddFilesToFileGroup","IVssCreateWriterMetadata::AddFilesToFileGroup","_win32_ivsscreatewritermetadata_addfilestofilegroup","base.ivsscreatewritermetadata_addfilestofilegroup","vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup"]
 old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
 tech.root: VSS
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e

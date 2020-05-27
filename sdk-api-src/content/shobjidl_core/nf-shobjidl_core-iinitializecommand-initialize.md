@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IInitializeCommand.Initialize
 title: IInitializeCommand::Initialize (shobjidl_core.h)
-description: Initialize objects that share an implementation of IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.helpviewer_keywords: ["IInitializeCommand interface [Windows Shell]","Initialize method","IInitializeCommand.Initialize","IInitializeCommand::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeCommand interface","_shell_IInitializeCommand_Initialize","shell.IInitializeCommand_Initialize","shobjidl_core/IInitializeCommand::Initialize"]
+description: Initialize objects that share an implementation of IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.
+helpviewer_keywords: ["IInitializeCommand interface [Windows Shell]","Initialize method","IInitializeCommand.Initialize","IInitializeCommand::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeCommand interface","_shell_IInitializeCommand_Initialize","shell.IInitializeCommand_Initialize","shobjidl_core/IInitializeCommand::Initialize"]
 old-location: shell\IInitializeCommand_Initialize.htm
 tech.root: shell
 ms.assetid: ec115bee-7ce3-428b-9081-2f21f3793de4

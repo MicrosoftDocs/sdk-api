@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl3.Insert3
 title: IWMDMStorageControl3::Insert3 (mswmdm.h)
-description: The Insert3 method puts content into/next to the storage. This method extends IWMDMStorageControl2::Insert2 by allowing the application to explicitly specify the metadata and type of the object being sent.helpviewer_keywords: ["IWMDMStorageControl3 interface [windows Media Device Manager]","Insert3 method","IWMDMStorageControl3.Insert3","IWMDMStorageControl3::Insert3","IWMDMStorageControl3Insert3","Insert3","Insert3 method [windows Media Device Manager]","Insert3 method [windows Media Device Manager]","IWMDMStorageControl3 interface","mswmdm/IWMDMStorageControl3::Insert3","wmdm.iwmdmstoragecontrol3_insert3"]
+description: The Insert3 method puts content into/next to the storage. This method extends IWMDMStorageControl2::Insert2 by allowing the application to explicitly specify the metadata and type of the object being sent.
+helpviewer_keywords: ["IWMDMStorageControl3 interface [windows Media Device Manager]","Insert3 method","IWMDMStorageControl3.Insert3","IWMDMStorageControl3::Insert3","IWMDMStorageControl3Insert3","Insert3","Insert3 method [windows Media Device Manager]","Insert3 method [windows Media Device Manager]","IWMDMStorageControl3 interface","mswmdm/IWMDMStorageControl3::Insert3","wmdm.iwmdmstoragecontrol3_insert3"]
 old-location: wmdm\iwmdmstoragecontrol3_insert3.htm
 tech.root: WMDM
 ms.assetid: 044a6571-8ec0-48af-b105-07c60c25d68a

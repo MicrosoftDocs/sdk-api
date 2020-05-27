@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.LHashValOfNameSysA
 title: LHashValOfNameSysA function (oleauto.h)
-description: Computes a hash value for the specified name.helpviewer_keywords: ["LHashValOfNameSysA","LHashValOfNameSysA function [Automation]","_oa96_LHashValOfNameSysA","automat.lhashvalofnamesysa","oleauto/LHashValOfNameSysA"]
+description: Computes a hash value for the specified name.
+helpviewer_keywords: ["LHashValOfNameSysA","LHashValOfNameSysA function [Automation]","_oa96_LHashValOfNameSysA","automat.lhashvalofnamesysa","oleauto/LHashValOfNameSysA"]
 old-location: automat\lhashvalofnamesysa.htm
 tech.root: automat
 ms.assetid: 8a879533-c842-4ff7-b739-3f862281acaf

@@ -1,7 +1,8 @@
 ---
 UID: NS:lsalookup._LSA_OBJECT_ATTRIBUTES
 title: LSA_OBJECT_ATTRIBUTES (lsalookup.h)
-description: The LSA_OBJECT_ATTRIBUTES structure is used with the LsaOpenPolicy function to specify the attributes of the connection to the Policy object.helpviewer_keywords: ["*PLSA_OBJECT_ATTRIBUTES","LSA_OBJECT_ATTRIBUTES","LSA_OBJECT_ATTRIBUTES structure [Security]","PLSA_OBJECT_ATTRIBUTES","PLSA_OBJECT_ATTRIBUTES structure pointer [Security]","_lsa_lsa_object_attributes","lsalookup/LSA_OBJECT_ATTRIBUTES","lsalookup/PLSA_OBJECT_ATTRIBUTES","security.lsa_object_attributes"]
+description: The LSA_OBJECT_ATTRIBUTES structure is used with the LsaOpenPolicy function to specify the attributes of the connection to the Policy object.
+helpviewer_keywords: ["*PLSA_OBJECT_ATTRIBUTES","LSA_OBJECT_ATTRIBUTES","LSA_OBJECT_ATTRIBUTES structure [Security]","PLSA_OBJECT_ATTRIBUTES","PLSA_OBJECT_ATTRIBUTES structure pointer [Security]","_lsa_lsa_object_attributes","lsalookup/LSA_OBJECT_ATTRIBUTES","lsalookup/PLSA_OBJECT_ATTRIBUTES","security.lsa_object_attributes"]
 old-location: security\lsa_object_attributes.htm
 tech.root: SecMgmt
 ms.assetid: ad05cb52-8e58-46a9-b3e8-0c9c2a24a997

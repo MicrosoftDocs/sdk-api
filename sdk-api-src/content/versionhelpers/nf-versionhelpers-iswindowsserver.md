@@ -1,7 +1,8 @@
 ---
 UID: NF:versionhelpers.IsWindowsServer
 title: IsWindowsServer function (versionhelpers.h)
-description: Indicates if the current OS is a Windows Server release.helpviewer_keywords: ["IsWindowsServer","IsWindowsServer function","base.iswindowsserver","versionhelpers/IsWindowsServer"]
+description: Indicates if the current OS is a Windows Server release.
+helpviewer_keywords: ["IsWindowsServer","IsWindowsServer function","base.iswindowsserver","versionhelpers/IsWindowsServer"]
 old-location: base\iswindowsserver.htm
 tech.root: SysInfo
 ms.assetid: 7CC1DD25-762B-489F-AC20-1B57764923A2

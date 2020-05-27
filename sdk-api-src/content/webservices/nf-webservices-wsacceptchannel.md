@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsAcceptChannel
 title: WsAcceptChannel function (webservices.h)
-description: Accepts the next incoming message from the specified listener.helpviewer_keywords: ["WsAcceptChannel","WsAcceptChannel function [Web Services for Windows]","webservices/WsAcceptChannel","wsw.wsacceptchannel"]
+description: Accepts the next incoming message from the specified listener.
+helpviewer_keywords: ["WsAcceptChannel","WsAcceptChannel function [Web Services for Windows]","webservices/WsAcceptChannel","wsw.wsacceptchannel"]
 old-location: wsw\wsacceptchannel.htm
 tech.root: wsw
 ms.assetid: e18e0005-89bd-435e-9a12-6602c3c638b7

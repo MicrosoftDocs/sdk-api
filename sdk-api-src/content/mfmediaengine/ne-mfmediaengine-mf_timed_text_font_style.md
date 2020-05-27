@@ -1,7 +1,8 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_FONT_STYLE
 title: MF_TIMED_TEXT_FONT_STYLE (mfmediaengine.h)
-description: Specifies the font style of the timed text.helpviewer_keywords: ["MF_TIMED_TEXT_FONT_STYLE","MF_TIMED_TEXT_FONT_STYLE enumeration [Media Foundation]","MF_TIMED_TEXT_FONT_STYLE_ITALIC","MF_TIMED_TEXT_FONT_STYLE_NORMAL","MF_TIMED_TEXT_FONT_STYLE_OBLIQUE","mf.mf_timed_text_font_style","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_ITALIC","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_NORMAL","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_OBLIQUE"]
+description: Specifies the font style of the timed text.
+helpviewer_keywords: ["MF_TIMED_TEXT_FONT_STYLE","MF_TIMED_TEXT_FONT_STYLE enumeration [Media Foundation]","MF_TIMED_TEXT_FONT_STYLE_ITALIC","MF_TIMED_TEXT_FONT_STYLE_NORMAL","MF_TIMED_TEXT_FONT_STYLE_OBLIQUE","mf.mf_timed_text_font_style","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_ITALIC","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_NORMAL","mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_OBLIQUE"]
 old-location: mf\mf_timed_text_font_style.htm
 tech.root: medfound
 ms.assetid: 29D8CCBD-B69A-46B5-8320-06C0E2EA81AE
