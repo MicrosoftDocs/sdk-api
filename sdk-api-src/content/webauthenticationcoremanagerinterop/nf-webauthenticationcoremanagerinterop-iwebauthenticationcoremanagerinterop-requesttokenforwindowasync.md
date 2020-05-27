@@ -58,7 +58,7 @@ Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectabl
 
 The web token request, given as an instance of the
 [WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest)
-class type-casted to the [IInspectable](../inspectable/nn-inspectable-iinspectable.md)
+class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
 interface.
 
 ### -param riid
@@ -94,4 +94,4 @@ This method is the equivalent for desktop apps of
 [WebAuthenticationCoreManager.RequestTokenAsync(WebTokenRequest)](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager.requesttokenasync#Windows_Security_Authentication_Web_Core_WebAuthenticationCoreManager_RequestTokenAsync_Windows_Security_Authentication_Web_Core_WebTokenRequest_).
 
 ## -see-also
-[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)
+[Web account management sample app](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)
