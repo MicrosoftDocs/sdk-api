@@ -90,11 +90,11 @@ Use this method on a multi-monitor system to specify to the Video Port Manager w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
 
 
 
