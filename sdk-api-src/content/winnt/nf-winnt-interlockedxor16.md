@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedXor16
 title: InterlockedXor16 function (winnt.h)
-description: Performs an atomic XOR operation on the specified SHORT values.helpviewer_keywords: ["InterlockedXor16","InterlockedXor16 function","base.interlockedxor16","winnt/InterlockedXor16"]
+description: Performs an atomic XOR operation on the specified SHORT values.
+helpviewer_keywords: ["InterlockedXor16","InterlockedXor16 function","base.interlockedxor16","winnt/InterlockedXor16"]
 old-location: base\interlockedxor16.htm
 tech.root: Sync
 ms.assetid: 414830ba-ce2b-4ed0-96f4-db5edd8e4ebe
@@ -102,7 +103,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedxor">InterlockedXor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedxor">InterlockedXor</a>
 
 
 

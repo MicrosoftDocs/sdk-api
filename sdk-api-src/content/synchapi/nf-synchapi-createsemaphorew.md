@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.CreateSemaphoreW
 title: CreateSemaphoreW function (synchapi.h)
-description: Creates or opens a named or unnamed semaphore object.helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreW","CreateSemaphoreW function","_win32_createsemaphore","base.createsemaphore","synchapi/CreateSemaphoreA","synchapi/CreateSemaphoreW"]
+description: Creates or opens a named or unnamed semaphore object.
+helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreW","CreateSemaphoreW function","_win32_createsemaphore","base.createsemaphore","synchapi/CreateSemaphoreA","synchapi/CreateSemaphoreW"]
 old-location: base\createsemaphore.htm
 tech.root: Sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
@@ -145,7 +146,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> or 
+OpenSemaphore or 
 <b>CreateSemaphore</b> function.</li>
 </ul>
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.
@@ -183,10 +184,6 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/object-names">Object Names</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a>
 
 
 

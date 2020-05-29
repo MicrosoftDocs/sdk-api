@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTimecode
 title: IAMTimecodeGenerator::SetTimecode (strmif.h)
-description: The SetTimecode method sets the timecode, userbit value, or both.helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","SetTimecode method","IAMTimecodeGenerator.SetTimecode","IAMTimecodeGenerator::SetTimecode","IAMTimecodeGeneratorSetTimecode","SetTimecode","SetTimecode method [DirectShow]","SetTimecode method [DirectShow]","IAMTimecodeGenerator interface","dshow.iamtimecodegenerator_settimecode","strmif/IAMTimecodeGenerator::SetTimecode"]
+description: The SetTimecode method sets the timecode, userbit value, or both.
+helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","SetTimecode method","IAMTimecodeGenerator.SetTimecode","IAMTimecodeGenerator::SetTimecode","IAMTimecodeGeneratorSetTimecode","SetTimecode","SetTimecode method [DirectShow]","SetTimecode method [DirectShow]","IAMTimecodeGenerator interface","dshow.iamtimecodegenerator_settimecode","strmif/IAMTimecodeGenerator::SetTimecode"]
 old-location: dshow\iamtimecodegenerator_settimecode.htm
 tech.root: DirectShow
 ms.assetid: 6da4b7e0-e6cd-4555-b5a3-e5f0f20ff070
@@ -63,7 +64,7 @@ The <code>SetTimecode</code> method sets the timecode, userbit value, or both.
 
 ### -param pTimecodeSample [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns

@@ -63,7 +63,7 @@ Opens a handle to the specified virtual disk file and returns an <a href="https:
 
 ### -param AccessMask [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> flags specifying the access rights to be applied to the opened virtual disk.
+A bitmask of <a href="/windows/win32/api/virtdisk/ne-virtdisk-virtual_disk_access_mask~r1">VIRTUAL_DISK_ACCESS_MASK</a> flags specifying the access rights to be applied to the opened virtual disk.
 
 
 ### -param Flags [in]

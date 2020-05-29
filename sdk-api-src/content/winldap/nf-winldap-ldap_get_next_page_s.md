@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_get_next_page_s
 title: ldap_get_next_page_s function (winldap.h)
-description: Returns the next page in a sequence of synchronous paged search results.helpviewer_keywords: ["_ldap_ldap_get_next_page_s","ldap.ldap__get__next__page__s","ldap.ldap_get_next_page_s","ldap_get_next_page_s","ldap_get_next_page_s function [LDAP]","winldap/ldap_get_next_page_s"]
+description: Returns the next page in a sequence of synchronous paged search results.
+helpviewer_keywords: ["_ldap_ldap_get_next_page_s","ldap.ldap__get__next__page__s","ldap.ldap_get_next_page_s","ldap_get_next_page_s","ldap_get_next_page_s function [LDAP]","winldap/ldap_get_next_page_s"]
 old-location: ldap\ldap_get_next_page_s.htm
 tech.root: ldap
 ms.assetid: 44b1b298-9796-4627-945e-4051c20f3c92
@@ -85,7 +86,7 @@ The server estimate of the total number of entries in the entire result set. A v
 ### -param Results [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure that contains the results.
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure that contains the results.
 
 
 ## -returns
@@ -130,7 +131,7 @@ If <b>ldap_get_next_page_s</b> is used, it is not required that
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetUmsThreadInformation
 title: SetUmsThreadInformation function (winbase.h)
-description: Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.helpviewer_keywords: ["SetUmsThreadInformation","SetUmsThreadInformation function","base.setumsthreadinformation","winbase/SetUmsThreadInformation"]
+description: Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
+helpviewer_keywords: ["SetUmsThreadInformation","SetUmsThreadInformation function","base.setumsthreadinformation","winbase/SetUmsThreadInformation"]
 old-location: base\setumsthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: 19f190fd-1f78-4bb6-93eb-73a5c522b44d
@@ -65,7 +66,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
+A UMS_THREAD_INFO_CLASS value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
 
 
 ### -param UmsThreadInformation [in]

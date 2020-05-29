@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl.MenuCall
 title: IDvdControl::MenuCall (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Displays the specified menu on the screen.helpviewer_keywords: ["IDvdControl interface [DirectShow]","MenuCall method","IDvdControl.MenuCall","IDvdControl::MenuCall","IDvdControlMenuCall","MenuCall","MenuCall method [DirectShow]","MenuCall method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_menucall","strmif/IDvdControl::MenuCall"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Displays the specified menu on the screen.
+helpviewer_keywords: ["IDvdControl interface [DirectShow]","MenuCall method","IDvdControl.MenuCall","IDvdControl::MenuCall","IDvdControlMenuCall","MenuCall","MenuCall method [DirectShow]","MenuCall method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_menucall","strmif/IDvdControl::MenuCall"]
 old-location: dshow\idvdcontrol_menucall.htm
 tech.root: DirectShow
 ms.assetid: b0e27b7a-cf14-4b4c-849e-0fa7f6b1c0ed
@@ -64,7 +65,7 @@ Displays the specified menu on the screen.
 
 ### -param MenuID [in]
 
-Value that specifies the menu to display. Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumerated data type.
+Value that specifies the menu to display. Member of the <a href="https://docs.microsoft.com/windows/win32/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumerated data type.
 
 
 ## -returns

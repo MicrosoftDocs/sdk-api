@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IEncoderAPI
 title: IEncoderAPI (strmif.h)
-description: IEncoderAPI is no longer available for use.helpviewer_keywords: ["IEncoderAPI","IEncoderAPI interface [Microsoft TV Technologies]","IEncoderAPI interface [Microsoft TV Technologies]","described","IEncoderAPIInterface","mstv.iencoderapi","strmif/IEncoderAPI"]
+description: IEncoderAPI is no longer available for use.
+helpviewer_keywords: ["IEncoderAPI","IEncoderAPI interface [Microsoft TV Technologies]","IEncoderAPI interface [Microsoft TV Technologies]","described","IEncoderAPIInterface","mstv.iencoderapi","strmif/IEncoderAPI"]
 old-location: mstv\iencoderapi.htm
 tech.root: mstv
 ms.assetid: 823b79a1-1bf5-4aab-80dd-0e77ba950127
@@ -209,7 +210,7 @@ This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. 
 
 
 
-<a href="mstv.encoder_api.md">Encoder API</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
  
 
  
