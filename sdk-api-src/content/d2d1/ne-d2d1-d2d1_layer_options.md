@@ -84,7 +84,7 @@ A small performance hit from re-copying content occurs when <a href="/windows/wi
 
 ## Examples
 
-The following example shows how to use <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters_id2d1layer)">CreateLayer</a>, <a href="/windows/win32/api/d2d1/nf-d2d1-pushlayer">PushLayer</a>, and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>. All fields in the  <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>.
+The following example shows how to use <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters_id2d1layer)">CreateLayer</a>, PushLayer, and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>. All fields in the  <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>.
 
 
 ```cpp

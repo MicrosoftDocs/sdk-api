@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.GetSurface
 title: ID2D1Bitmap1::GetSurface (d2d1_1.h)
-description: Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created.helpviewer_keywords: ["GetSurface","GetSurface method [Direct2D]","GetSurface method [Direct2D]","ID2D1Bitmap1 interface","ID2D1Bitmap1 interface [Direct2D]","GetSurface method","ID2D1Bitmap1.GetSurface","ID2D1Bitmap1::GetSurface","d2d1_1/ID2D1Bitmap1::GetSurface","direct2d.id2d1bitmap1_getsurface"]
+description: Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created.
+helpviewer_keywords: ["GetSurface","GetSurface method [Direct2D]","GetSurface method [Direct2D]","ID2D1Bitmap1 interface","ID2D1Bitmap1 interface [Direct2D]","GetSurface method","ID2D1Bitmap1.GetSurface","ID2D1Bitmap1::GetSurface","d2d1_1/ID2D1Bitmap1::GetSurface","direct2d.id2d1bitmap1_getsurface"]
 old-location: direct2d\id2d1bitmap1_getsurface.htm
 tech.root: Direct2D
 ms.assetid: f9cb3830-7c1a-4254-a3fd-f1c056bec0c0
@@ -97,7 +98,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 The bitmap used must have been created from a DXGI surface render target, a derived render target, or a device context created from an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>.
 
-The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">ID2D1Factory::CreateDxgiSurfaceRenderTarget</a> or on a device context created on the same device.
+The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through ID2D1Factory::CreateDxgiSurfaceRenderTarget or on a device context created on the same device.
 
 
 

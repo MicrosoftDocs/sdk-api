@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1RoundedRectangleGeometry
 title: ID2D1RoundedRectangleGeometry (d2d1.h)
-description: Describes a rounded rectangle.helpviewer_keywords: ["ID2D1RoundedRectangleGeometry","ID2D1RoundedRectangleGeometry interface [Direct2D]","ID2D1RoundedRectangleGeometry interface [Direct2D]","described","d2d1/ID2D1RoundedRectangleGeometry","direct2d.ID2D1RoundedRectangleGeometry"]
+description: Describes a rounded rectangle.
+helpviewer_keywords: ["ID2D1RoundedRectangleGeometry","ID2D1RoundedRectangleGeometry interface [Direct2D]","ID2D1RoundedRectangleGeometry interface [Direct2D]","described","d2d1/ID2D1RoundedRectangleGeometry","direct2d.ID2D1RoundedRectangleGeometry"]
 old-location: direct2d\ID2D1RoundedRectangleGeometry.htm
 tech.root: Direct2D
 ms.assetid: e49e9be7-155a-4487-9931-035f18771c04
@@ -84,7 +85,7 @@ Retrieves a rounded rectangle that describes this rounded rectangle geometry.
 
 
 <h3><a id="Creating_ID2D1RoundedRectangleGeometry_Objects"></a><a id="creating_id2d1roundedrectanglegeometry_objects"></a><a id="CREATING_ID2D1ROUNDEDRECTANGLEGEOMETRY_OBJECTS"></a>Creating ID2D1RoundedRectangleGeometry Objects</h3>
-To create a rectangle geometry, use the <a href="/windows/win32/api/d2d1/nf-d2d1-createroundedrectanglegeometry">ID2D1Factory::CreateRoundedRectangleGeometry</a> method.
+To create a rectangle geometry, use the ID2D1Factory::CreateRoundedRectangleGeometry method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>. 
 
