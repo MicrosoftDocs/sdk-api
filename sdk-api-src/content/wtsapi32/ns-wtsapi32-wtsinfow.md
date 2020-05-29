@@ -139,3 +139,8 @@ The time that the user logged on to the session.
 
 The time that the <b>WTSINFO</b> data structure was called.
 
+## -remarks
+
+> [!NOTE]
+> The wtsapi32.h header defines WTSINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

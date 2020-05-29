@@ -338,3 +338,8 @@ In Windows XP and later systems, the best practice is to use a Windows XP-styl
 
 0x00000020. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71</a>. If the user types an invalid name into the edit box, the browse dialog box calls the application's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb762598(v=vs.85)">BrowseCallbackProc</a> with the <b>BFFM_VALIDATEFAILED</b> message. This flag is ignored if BIF_EDITBOX is not specified.
 
+## -remarks
+
+> [!NOTE]
+> The shlobj_core.h header defines BROWSEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
