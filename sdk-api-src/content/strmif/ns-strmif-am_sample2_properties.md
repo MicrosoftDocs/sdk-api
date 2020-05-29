@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.tagAM_SAMPLE2_PROPERTIES
 title: AM_SAMPLE2_PROPERTIES (strmif.h)
-description: The AM_SAMPLE2_PROPERTIES structure describes the properties of a media sample. The IMediaSample2 interface uses this structure.helpviewer_keywords: ["AM_ReverseBlockEnd","AM_ReverseBlockStart","AM_SAMPLE2_PROPERTIES","AM_SAMPLE2_PROPERTIES structure [DirectShow]","AM_SAMPLE2_PROPERTIESStructure","AM_UseNewCSSKey","AM_VIDEO_FLAG_FIELD1","AM_VIDEO_FLAG_FIELD1FIRST","AM_VIDEO_FLAG_FIELD2","AM_VIDEO_FLAG_FIELD_MASK","AM_VIDEO_FLAG_INTERLEAVED_FRAME","AM_VIDEO_FLAG_REPEAT_FIELD","AM_VIDEO_FLAG_WEAVE","dshow.am_sample2_properties","strmif/AM_SAMPLE2_PROPERTIES"]
+description: The AM_SAMPLE2_PROPERTIES structure describes the properties of a media sample. The IMediaSample2 interface uses this structure.
+helpviewer_keywords: ["AM_ReverseBlockEnd","AM_ReverseBlockStart","AM_SAMPLE2_PROPERTIES","AM_SAMPLE2_PROPERTIES structure [DirectShow]","AM_SAMPLE2_PROPERTIESStructure","AM_UseNewCSSKey","AM_VIDEO_FLAG_FIELD1","AM_VIDEO_FLAG_FIELD1FIRST","AM_VIDEO_FLAG_FIELD2","AM_VIDEO_FLAG_FIELD_MASK","AM_VIDEO_FLAG_INTERLEAVED_FRAME","AM_VIDEO_FLAG_REPEAT_FIELD","AM_VIDEO_FLAG_WEAVE","dshow.am_sample2_properties","strmif/AM_SAMPLE2_PROPERTIES"]
 old-location: dshow\am_sample2_properties.htm
 tech.root: DirectShow
 ms.assetid: 4fda7f64-130c-42c8-a671-2e24bdd0b09b
@@ -196,7 +197,7 @@ Other flags are defined but not currently used. See dvdmedia.h.
 
 ### -field dwSampleFlags
 
-Bitwise combination of flags the <a href="https://docs.microsoft.com/previous-versions/previous-versions/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a> enumerated data type. Undefined bits are reserved and must be zero.
+Bitwise combination of flags the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a> enumerated data type. Undefined bits are reserved and must be zero.
 
 
 ### -field lActual
@@ -216,7 +217,7 @@ Stop time, if valid. The <b>dwSampleFlags</b> member specifies whether this memb
 
 ### -field dwStreamId
 
-Stream identifier. If the value is AM_STREAM_MEDIA, the stream contains media data. If the value is AM_STREAM_CONTROL, the stream contains control information. Applications can define values of 0x80000000 or greater for their own use. (See <a href="https://docs.microsoft.com/previous-versions/previous-versions/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a>.)
+Stream identifier. If the value is AM_STREAM_MEDIA, the stream contains media data. If the value is AM_STREAM_CONTROL, the stream contains control information. Applications can define values of 0x80000000 or greater for their own use. (See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagam_sample_property_flags">AM_SAMPLE_PROPERTY_FLAGS</a>.)
 
 
 ### -field pMediaType
