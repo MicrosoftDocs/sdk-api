@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesEvents
 title: IMbnDeviceServicesEvents (mbnapi.h)
-description: Signals an application about notification events related to Mobile Broadband device services on the system.helpviewer_keywords: ["IMbnDeviceServicesEvents","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservicesevents","mbnapi/IMbnDeviceServicesEvents"]
+description: Signals an application about notification events related to Mobile Broadband device services on the system.
+helpviewer_keywords: ["IMbnDeviceServicesEvents","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservicesevents","mbnapi/IMbnDeviceServicesEvents"]
 old-location: mbn\imbndeviceservicesevents.htm
 tech.root: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774
@@ -184,7 +185,7 @@ The following procedure describes how to register for notifications.<ol>
 
 Notifications can be terminated by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> on the connection point returned in step 2.
 
-To view some code that registers for COM notifications, see the Client section of the <a href="https://msdn.microsoft.com/magazine/msdn-magazine-issues">COM Connection Points article</a>.
+To view some code that registers for COM notifications, see the Client section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.
 
 
 

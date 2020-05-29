@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DlgDirListComboBoxA
 title: DlgDirListComboBoxA function (winuser.h)
-description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE","DDL_HIDDEN","DDL_POSTMSGS","DDL_READONLY","DDL_READWRITE","DDL_SYSTEM","DlgDirListComboBox","DlgDirListComboBox function [Windows Controls]","DlgDirListComboBoxA","DlgDirListComboBoxW","_win32_DlgDirListComboBox","_win32_DlgDirListComboBox_cpp","controls.DlgDirListComboBox","controls._win32_DlgDirListComboBox","winuser/DlgDirListComboBox","winuser/DlgDirListComboBoxA","winuser/DlgDirListComboBoxW"]
+description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
+helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE","DDL_HIDDEN","DDL_POSTMSGS","DDL_READONLY","DDL_READWRITE","DDL_SYSTEM","DlgDirListComboBox","DlgDirListComboBox function [Windows Controls]","DlgDirListComboBoxA","DlgDirListComboBoxW","_win32_DlgDirListComboBox","_win32_DlgDirListComboBox_cpp","controls.DlgDirListComboBox","controls._win32_DlgDirListComboBox","winuser/DlgDirListComboBox","winuser/DlgDirListComboBoxA","winuser/DlgDirListComboBoxW"]
 old-location: controls\DlgDirListComboBox.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
@@ -217,7 +218,7 @@ If the function fails, the return value is zero. For example, if the string spec
 
 
 
-If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes the current directory to the specified directory before filling the combo box. The text of the static control identified by the	<i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
+If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes the current directory to the specified directory before filling the combo box. The text of the static control identified by the    <i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
 
 <b>DlgDirListComboBox</b> sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-resetcontent">CB_RESETCONTENT</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-dir">CB_DIR</a> messages to the combo box. 
 
@@ -229,7 +230,7 @@ Microsoft Windows NT 4.0 and later: The list displays long file names, if any.
 
 Windows 95 or later: The list displays short file names (the 8.3 form). You can use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> functions to get the corresponding long file name.
 
-Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/goglobal/bb688166.aspx">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/en-us/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 
