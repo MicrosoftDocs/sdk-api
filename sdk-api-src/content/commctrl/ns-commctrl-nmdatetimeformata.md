@@ -96,3 +96,8 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 64-character buffer that is to receive the zero-terminated string that the DTP control will display. It is not necessary to fill the entire buffer. 
 
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMDATETIMEFORMAT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

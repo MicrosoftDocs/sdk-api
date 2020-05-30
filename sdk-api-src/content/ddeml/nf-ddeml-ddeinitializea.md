@@ -391,6 +391,10 @@ There is an ANSI version and a Unicode version of <b>DdeInitialize</b>. The vers
 
 
 
+
+> [!NOTE]
+> The ddeml.h header defines DdeInitialize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 

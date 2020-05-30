@@ -250,6 +250,10 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 
+
+> [!NOTE]
+> The accctrl.h header defines TRUSTEE_ as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 

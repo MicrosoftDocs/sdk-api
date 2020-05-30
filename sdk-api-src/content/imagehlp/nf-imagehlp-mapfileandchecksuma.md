@@ -160,6 +160,10 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
+
+> [!NOTE]
+> The imagehlp.h header defines MapFileAndCheckSum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 

@@ -236,3 +236,8 @@ Type: <b>int</b>
 
 An integer value that receives the index of the image associated with the selected folder, stored in the system image list.
 
+## -remarks
+
+> [!NOTE]
+> The shlobj_core.h header defines BROWSEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

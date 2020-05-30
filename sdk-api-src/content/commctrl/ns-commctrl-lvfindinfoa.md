@@ -177,3 +177,8 @@ Virtual key code that specifies the direction to search. The following codes are
 </ul>
 This member is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines LVFINDINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

@@ -87,3 +87,8 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-m
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure containing the current date and time from the DTP control. The owner of the control must modify the time information based on the user's keystroke. 
 
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMDATETIMEWMKEYDOWN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
