@@ -1,7 +1,8 @@
 ---
 UID: NE:processthreadsapi._PROCESS_MEMORY_EXHAUSTION_TYPE
 title: PROCESS_MEMORY_EXHAUSTION_TYPE (processthreadsapi.h)
-description: Represents the different memory exhaustion types.helpviewer_keywords: ["*PPROCESS_MEMORY_EXHAUSTION_TYPE","PMETypeFailFastOnCommitFailure","PMETypeMax","PPROCESS_MEMORY_EXHAUSTION_TYPE","PPROCESS_MEMORY_EXHAUSTION_TYPE enumeration pointer","PROCESS_MEMORY_EXHAUSTION_TYPE","PROCESS_MEMORY_EXHAUSTION_TYPE enumeration","base.process_memory_exhaustion_type","processthreadsapi/ PMETypeFailFastOnCommitFailure","processthreadsapi/ PMETypeMax","processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_TYPE","processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"]
+description: Represents the different memory exhaustion types.
+helpviewer_keywords: ["*PPROCESS_MEMORY_EXHAUSTION_TYPE","PMETypeFailFastOnCommitFailure","PMETypeMax","PPROCESS_MEMORY_EXHAUSTION_TYPE","PPROCESS_MEMORY_EXHAUSTION_TYPE enumeration pointer","PROCESS_MEMORY_EXHAUSTION_TYPE","PROCESS_MEMORY_EXHAUSTION_TYPE enumeration","base.process_memory_exhaustion_type","processthreadsapi/ PMETypeFailFastOnCommitFailure","processthreadsapi/ PMETypeMax","processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_TYPE","processthreadsapi/PROCESS_MEMORY_EXHAUSTION_TYPE"]
 old-location: base\process_memory_exhaustion_type.htm
 tech.root: ProcThread
 ms.assetid: 0A5B6B4D-B2FF-4873-85E0-3CCB3EA3BF91
@@ -66,4 +67,6 @@ The failure cannot be caught and handled by the app.
 ### -field PMETypeMax
 
 The maximum value for this enumeration. This value may change in a future version.
+
+THIS IS A TEST.
 
