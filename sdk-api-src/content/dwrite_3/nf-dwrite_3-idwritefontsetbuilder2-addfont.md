@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFont
 title: IDWriteFontSetBuilder2::AddFont
-description: Adds a font to the set being built.helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFont method","IDWriteFontSetBuilder2.AddFont","IDWriteFontSetBuilder2::AddFont","AddFont","AddFont method [Direct Write]","AddFont method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfont","dwrite_3/IDWriteFontSetBuilder2::AddFont"]
+description: Adds a font to the set being built.
+helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFont method","IDWriteFontSetBuilder2.AddFont","IDWriteFontSetBuilder2::AddFont","AddFont","AddFont method [Direct Write]","AddFont method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfont","dwrite_3/IDWriteFontSetBuilder2::AddFont"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont
@@ -50,7 +51,7 @@ Adds a font to the set being built, with the caller supplying enough information
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
 
 Font file reference object to add to the set.
 
