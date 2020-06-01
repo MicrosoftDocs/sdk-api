@@ -44,80 +44,50 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D12_STENCIL_OP enumeration
-
-
 ## -description
-
 
 Identifies the stencil operations that can be performed during depth-stencil testing.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12_STENCIL_OP_KEEP
 
 Keep the existing stencil data.
 
-
 ### -field D3D12_STENCIL_OP_ZERO
 
 Set the stencil data to 0.
 
-
 ### -field D3D12_STENCIL_OP_REPLACE
 
-Set the stencil data to the reference value set by calling <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
-
+Set the stencil data to the reference value set by calling <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
 
 ### -field D3D12_STENCIL_OP_INCR_SAT
 
 Increment the stencil value by 1, and clamp the result.
 
-
 ### -field D3D12_STENCIL_OP_DECR_SAT
 
 Decrement the stencil value by 1, and clamp the result.
-
 
 ### -field D3D12_STENCIL_OP_INVERT
 
 Invert the stencil data.
 
-
 ### -field D3D12_STENCIL_OP_INCR
 
 Increment the stencil value by 1, and wrap the result if necessary.
-
 
 ### -field D3D12_STENCIL_OP_DECR
 
 Decrement the stencil value by 1, and wrap the result if necessary.
 
-
 ## -remarks
 
-
-
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencilop_desc">D3D12_DEPTH_STENCILOP_DESC</a> structure.
-
-
-
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencilop_desc">D3D12_DEPTH_STENCILOP_DESC</a> structure.
 
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/cd3dx12-depth-stencil-desc">CD3DX12_DEPTH_STENCIL_DESC</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-depth-stencil-desc">CD3DX12_DEPTH_STENCIL_DESC</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core enumerations</a>
