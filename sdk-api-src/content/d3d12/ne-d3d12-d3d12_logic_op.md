@@ -44,116 +44,80 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D12_LOGIC_OP enumeration
-
-
 ## -description
 
-
-Specifies logical operations to configure for a render target.
-
+Defines constants that specify logical operations to configure for a render target.
 
 ## -enum-fields
 
-
-
-
 ### -field D3D12_LOGIC_OP_CLEAR
 
-Clears the render target (`0`).
-
+Clears the render target (<code>0</code>).
 
 ### -field D3D12_LOGIC_OP_SET
 
-Sets the render target ( `1`).
-
+Sets the render target ( <code>1</code>).
 
 ### -field D3D12_LOGIC_OP_COPY
 
-Copys the render target (`s` source from Pixel Shader output).
-
+Copys the render target (<code>s<code> source from Pixel Shader output).
 
 ### -field D3D12_LOGIC_OP_COPY_INVERTED
 
-Performs an inverted-copy of the render target (`~s`).
-
+Performs an inverted-copy of the render target (<code>~s</code>).
 
 ### -field D3D12_LOGIC_OP_NOOP
 
-No operation is performed on the render target (`d` destination in the Render Target View).
-
+No operation is performed on the render target (<code>d</code> destination in the Render Target View).
 
 ### -field D3D12_LOGIC_OP_INVERT
 
-Inverts the render target (`~d`).
-
+Inverts the render target (<code>~d</code>).
 
 ### -field D3D12_LOGIC_OP_AND
 
-Performs a logical AND operation on the render target (`s & d`).
-
+Performs a logical AND operation on the render target (<code>s & d</code>).
 
 ### -field D3D12_LOGIC_OP_NAND
 
-Performs a logical NAND operation on the render target (`~(s & d)`).
-
+Performs a logical NAND operation on the render target (<code>~(s & d)</code>).
 
 ### -field D3D12_LOGIC_OP_OR
 
-Performs a logical OR operation on the render target (`s | d`).
-
+Performs a logical OR operation on the render target (<code>s | d</code>).
 
 ### -field D3D12_LOGIC_OP_NOR
 
-Performs a logical NOR operation on the render target (`~(s | d)`).
-
+Performs a logical NOR operation on the render target (<code>~(s | d)</code>).
 
 ### -field D3D12_LOGIC_OP_XOR
 
-Performs a logical XOR operation on the render target (`s ^ d`).
-
+Performs a logical XOR operation on the render target (<code>s ^ d</code>).
 
 ### -field D3D12_LOGIC_OP_EQUIV
 
-Performs a logical equal operation on the render target (`~(s ^ d)`).
-
+Performs a logical equal operation on the render target (<code>~(s ^ d)</code>).
 
 ### -field D3D12_LOGIC_OP_AND_REVERSE
 
-Performs a logical AND and reverse operation on the render target (`s & ~d`).
-
+Performs a logical AND and reverse operation on the render target (<code>s & ~d</code>).
 
 ### -field D3D12_LOGIC_OP_AND_INVERTED
 
-Performs a logical AND and invert operation on the render target (`~s & d`).
-
+Performs a logical AND and invert operation on the render target (<code>~s & d</code>).
 
 ### -field D3D12_LOGIC_OP_OR_REVERSE
 
-Performs a logical OR and reverse operation on the render target (`s | ~d`).
-
+Performs a logical OR and reverse operation on the render target (<code>s | ~d</code>).
 
 ### -field D3D12_LOGIC_OP_OR_INVERTED
 
-Performs a logical OR and invert operation on the render target (`~s | d`).
-
+Performs a logical OR and invert operation on the render target (<code>~s | d</code>).
 
 ## -remarks
 
-
-
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.
-
-
-
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
