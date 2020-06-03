@@ -317,7 +317,7 @@ The SSE3 instruction set is available.
 </dl>
 </td>
 <td width="60%">
-Virtualization is enabled in the firmware. 
+Virtualization is enabled in the firmware and made available by the operating system.
 
 </td>
 </tr>
