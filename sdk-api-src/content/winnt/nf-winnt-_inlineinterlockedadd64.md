@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt._InlineInterlockedAdd64
-title: _InlineInterlockedAdd64 function (winnt.h)
-description: Performs an atomic addition operation on the specified LONGLONG values.
+title: InterlockedAdd64 function (winnt.h)
+description: Performs an atomic addition operation on the specified LONG64 values.
 helpviewer_keywords: ["InterlockedAdd64","InterlockedAdd64 function","_InlineInterlockedAdd64","base.interlockedadd64","winnt/InterlockedAdd64"]
 old-location: base\interlockedadd64.htm
 tech.root: Sync
@@ -44,13 +44,13 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# _InlineInterlockedAdd64 function
+# InterlockedAdd64 function
 
 
 ## -description
 
 
-Performs an atomic addition operation on the specified <b>LONGLONG</b> values.
+Performs an atomic addition operation on the specified <b>LONG64</b> values.
 
 
 ## -parameters
