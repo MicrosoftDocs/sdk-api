@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.UrlFixupW
 title: UrlFixupW function (shlwapi.h)
-description: UrlFixupW may be altered or unavailable.
+description: UrlFixupW may be altered or unavailable.helpviewer_keywords: ["UrlFixupW","UrlFixupW function [Windows Shell]","_win32_UrlFixupW","shell.UrlFixupW","shlwapi/UrlFixupW"]
 old-location: shell\UrlFixupW.htm
 tech.root: shell
 ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb

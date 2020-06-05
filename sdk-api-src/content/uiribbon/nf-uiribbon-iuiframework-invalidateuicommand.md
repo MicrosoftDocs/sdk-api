@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIFramework.InvalidateUICommand
 title: IUIFramework::InvalidateUICommand (uiribbon.h)
-description: Invalidates a Windows Ribbon framework Command property, value, or state.
+description: Invalidates a Windows Ribbon framework Command property, value, or state.helpviewer_keywords: ["IUIFramework interface [Windows Ribbon]","InvalidateUICommand method","IUIFramework.InvalidateUICommand","IUIFramework::InvalidateUICommand","InvalidateUICommand","InvalidateUICommand method [Windows Ribbon]","InvalidateUICommand method [Windows Ribbon]","IUIFramework interface","scenicintent_IUIFramework_InvalidateUICommand","uiribbon/IUIFramework::InvalidateUICommand","windowsribbon.windowsribbon_iuiframework_invalidateuicommand"]
 old-location: windowsribbon\windowsribbon_iuiframework_invalidateuicommand.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\invalidateuicommand.htm

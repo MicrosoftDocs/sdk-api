@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.FindText
 title: IUIAutomationTextRange::FindText (uiautomationclient.h)
-description: Retrieves a text range subset that contains the specified text.
+description: Retrieves a text range subset that contains the specified text.helpviewer_keywords: ["FindText","FindText method [Windows Accessibility]","FindText method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","FindText method","IUIAutomationTextRange.FindText","IUIAutomationTextRange::FindText","uiauto.uiauto_IUIAutomationTextRange_FindText","uiauto_IUIAutomationTextRange_FindText","uiautomationclient/IUIAutomationTextRange::FindText","winauto.uiauto_IUIAutomationTextRange_FindText"]
 old-location: winauto\uiauto_IUIAutomationTextRange_FindText.htm
 tech.root: WinAuto
 ms.assetid: 1d6e9216-747b-45b5-90ac-ec19d36e5a0a

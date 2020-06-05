@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecPrivateData.SetPartialOutputType
 title: IWMCodecPrivateData::SetPartialOutputType (wmcodecdsp.h)
-description: Gives the codec the output media type without the codec data. This enables the codec to generate the private data.
+description: Gives the codec the output media type without the codec data. This enables the codec to generate the private data.helpviewer_keywords: ["IWMCodecPrivateData interface [Media Foundation]","SetPartialOutputType method","IWMCodecPrivateData.SetPartialOutputType","IWMCodecPrivateData::SetPartialOutputType","SetPartialOutputType","SetPartialOutputType method [Media Foundation]","SetPartialOutputType method [Media Foundation]","IWMCodecPrivateData interface","codecapi.iwmcodecprivatedatasetpartialoutputtype","mf.iwmcodecprivatedatasetpartialoutputtype","wmcodecdsp/IWMCodecPrivateData::SetPartialOutputType"]
 old-location: mf\iwmcodecprivatedatasetpartialoutputtype.htm
 tech.root: medfound
 ms.assetid: c906ac2d-b3e0-4ecd-8f0e-3fa1a2a0beea

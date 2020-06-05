@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecFromBool
 title: VarDecFromBool function (oleauto.h)
-description: Converts a Boolean value to a decimal value.
+description: Converts a Boolean value to a decimal value.helpviewer_keywords: ["VarDecFromBool","VarDecFromBool function [Automation]","_oa96_VarDecFromBool","automat.vardecfrombool","oleauto/VarDecFromBool"]
 old-location: automat\vardecfrombool.htm
 tech.root: automat
 ms.assetid: d0461861-6093-480c-9fd9-6387622e5b4f

@@ -1,7 +1,7 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputAvailableType
 title: IMFTransform::GetInputAvailableType (mftransform.h)
-description: Gets an available media type for an input stream on this Media Foundation transform (MFT).
+description: Gets an available media type for an input stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetInputAvailableType","GetInputAvailableType method [Media Foundation]","GetInputAvailableType method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetInputAvailableType method","IMFTransform.GetInputAvailableType","IMFTransform::GetInputAvailableType","ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf","mf.imftransform_getinputavailabletype","mftransform/IMFTransform::GetInputAvailableType"]
 old-location: mf\imftransform_getinputavailabletype.htm
 tech.root: medfound
 ms.assetid: ed4cfdd0-28d5-4775-aa32-c17c6b13e5bf

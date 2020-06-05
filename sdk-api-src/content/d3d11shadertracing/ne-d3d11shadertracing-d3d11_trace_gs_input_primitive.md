@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11shadertracing.D3D11_TRACE_GS_INPUT_PRIMITIVE
 title: D3D11_TRACE_GS_INPUT_PRIMITIVE (d3d11shadertracing.h)
-description: Identifies the type of geometry shader input primitive.
+description: Identifies the type of geometry shader input primitive.helpviewer_keywords: ["D3D11_TRACE_GS_INPUT_PRIMITIVE","D3D11_TRACE_GS_INPUT_PRIMITIVE enumeration [Direct3D 11]","D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE","D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ","D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT","D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE","D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ","D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ","d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED","direct3d11.d3d11_trace_gs_input_primitive"]
 old-location: direct3d11\d3d11_trace_gs_input_primitive.htm
 tech.root: direct3d11
 ms.assetid: 9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9

@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSelectionPattern2
 title: IUIAutomationSelectionPattern2 (uiautomationclient.h)
-description: Extends the IUIAutomationSelectionPattern interface to provide information about selected items.
+description: Extends the IUIAutomationSelectionPattern interface to provide information about selected items.helpviewer_keywords: ["IUIAutomationSelectionPattern2","IUIAutomationSelectionPattern2 interface [Windows Accessibility]","IUIAutomationSelectionPattern2 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationSelectionPattern2","winauto.uiauto_IUIAutomationSelectionPattern2"]
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2.htm
 tech.root: WinAuto
 ms.assetid: E237CE81-9C01-4EBB-AA75-4EB90123E8C8

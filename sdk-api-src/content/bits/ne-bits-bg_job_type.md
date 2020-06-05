@@ -1,7 +1,7 @@
 ---
 UID: NE:bits.BG_JOB_TYPE
 title: BG_JOB_TYPE (bits.h)
-description: Defines constants that specify the type of transfer job, such as download.
+description: Defines constants that specify the type of transfer job, such as download.helpviewer_keywords: ["BG_JOB_TYPE","BG_JOB_TYPE enumeration [BITS]","BG_JOB_TYPE_DOWNLOAD","BG_JOB_TYPE_UPLOAD","BG_JOB_TYPE_UPLOAD_REPLY","_drz_bg_job_type","bits.bg_job_type","bits/BG_JOB_TYPE","bits/BG_JOB_TYPE_DOWNLOAD","bits/BG_JOB_TYPE_UPLOAD","bits/BG_JOB_TYPE_UPLOAD_REPLY"]
 old-location: bits\bg_job_type.htm
 tech.root: Bits
 ms.assetid: b341a63f-3a1d-4518-8f05-17d28af603b4

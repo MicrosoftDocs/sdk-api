@@ -2,6 +2,7 @@
 UID: NF:casetup.ICertificateEnrollmentServerSetup.GetProperty
 title: ICertificateEnrollmentServerSetup::GetProperty (casetup.h)
 description: Retrieves a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+helpviewer_keywords: ["GetProperty","GetProperty method [Security]","GetProperty method [Security]","ICertificateEnrollmentServerSetup interface","ICertificateEnrollmentServerSetup interface [Security]","GetProperty method","ICertificateEnrollmentServerSetup.GetProperty","ICertificateEnrollmentServerSetup::GetProperty","casetup/ICertificateEnrollmentServerSetup::GetProperty","security.icertificateenrollmentserversetup_getproperty"]
 old-location: security\icertificateenrollmentserversetup_getproperty.htm
 tech.root: SecCrypto
 ms.assetid: 4B380551-742C-4D36-80C9-C92F62F916BB
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetProperty</b> method retrieves a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+The <b>GetProperty</b> method retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ The <b>GetProperty</b> method retrieves a <a href="https://docs.microsoft.com/wi
 
 ### -param propertyId [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value that specifies the property value to retrieve. For more information, see Remarks.
+A <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value that specifies the property value to retrieve. For more information, see Remarks.
 
 
 ### -param pPropertyValue [out]
@@ -83,7 +84,7 @@ A pointer to a <b>VARIANT</b> variable that contains the property value.
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration type.
+The <i>propertyId</i> argument is not a member of the <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration type.
 
 </td>
 </tr>
@@ -121,7 +122,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration type contains the following values:<ul>
+The <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration type contains the following values:<ul>
 <li><b>ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY</b></li>
 <li><b>ENUM_CESSETUPPROP_CACONFIG</b></li>
 <li><b>ENUM_CESSETUPPROP_AUTHENTICATION</b></li>

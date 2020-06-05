@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextStory.GetType
 title: ITextStory::GetType (tom.h)
-description: Gets this story's type.
+description: Gets this story's type.helpviewer_keywords: ["GetType","GetType method [Windows Controls]","GetType method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetType method","ITextStory.GetType","ITextStory::GetType","controls.itextstory_gettype","tom/ITextStory::GetType","tomCommentsStory","tomEndnotesStory","tomEvenPagesFooterStory","tomEvenPagesHeaderStory","tomFindStory","tomFirstPageFooterStory","tomFirstPageHeaderStory","tomFootnotesStory","tomMainTextStory","tomPrimaryFooterStory","tomPrimaryHeaderStory","tomReplaceStory","tomScratchStory","tomTextFrameStory","tomUnknownStory"]
 old-location: controls\itextstory_gettype.htm
 tech.root: Controls
 ms.assetid: 43a75284-c461-4118-834c-9ce5ded55094

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IObjectWithCancelEvent
 title: IObjectWithCancelEvent (shobjidl_core.h)
-description: Not supported.Supplies a caller with an event that will be signaled by the called object to denote cancellation of a task.
+description: Not supported.Supplies a caller with an event that will be signaled by the called object to denote cancellation of a task.helpviewer_keywords: ["IObjectWithCancelEvent","IObjectWithCancelEvent interface [Windows Shell]","IObjectWithCancelEvent interface [Windows Shell]","described","_shell_IObjectWithCancelEvent","shell.IObjectWithCancelEvent","shobjidl_core/IObjectWithCancelEvent"]
 old-location: shell\IObjectWithCancelEvent.htm
 tech.root: shell
 ms.assetid: 3bac219d-d9fd-4259-8f34-032554291327

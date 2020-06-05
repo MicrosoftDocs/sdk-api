@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IDirectoryObject.DeleteDSObject
 title: IDirectoryObject::DeleteDSObject (iads.h)
-description: Deletes a leaf object in a directory tree.
+description: Deletes a leaf object in a directory tree.helpviewer_keywords: ["DeleteDSObject","DeleteDSObject method [ADSI]","DeleteDSObject method [ADSI]","IDirectoryObject interface","IDirectoryObject interface [ADSI]","DeleteDSObject method","IDirectoryObject.DeleteDSObject","IDirectoryObject::DeleteDSObject","_ds_idirectoryobject_deletedsobject","adsi.idirectoryobject__deletedsobject","adsi.idirectoryobject_deletedsobject","iads/IDirectoryObject::DeleteDSObject"]
 old-location: adsi\idirectoryobject_deletedsobject.htm
 tech.root: adsi
 ms.assetid: bb7bed74-1420-4b46-92a9-ebe31f2d88fd

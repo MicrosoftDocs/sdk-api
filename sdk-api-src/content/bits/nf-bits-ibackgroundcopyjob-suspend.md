@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Suspend
 title: IBackgroundCopyJob::Suspend (bits.h)
-description: Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.
+description: Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","Suspend method","IBackgroundCopyJob.Suspend","IBackgroundCopyJob::Suspend","Suspend","Suspend method [BITS]","Suspend method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_suspend","bits.ibackgroundcopyjob_suspend","bits/IBackgroundCopyJob::Suspend"]
 old-location: bits\ibackgroundcopyjob_suspend.htm
 tech.root: Bits
 ms.assetid: 88429730-b8e5-4969-934c-f0945fdd46a6

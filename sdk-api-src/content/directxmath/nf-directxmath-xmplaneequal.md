@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMPlaneEqual
 title: XMPlaneEqual function (directxmath.h)
-description: Determines if two planes are equal.
+description: Determines if two planes are equal.helpviewer_keywords: ["Use DirectX..XMPlaneEqual","XMPlaneEqual","XMPlaneEqual method [DirectX Math Support APIs]","dxmath.xmplaneequal"]
 old-location: dxmath\xmplaneequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneEqual(XMVECTOR,XMVECTOR)

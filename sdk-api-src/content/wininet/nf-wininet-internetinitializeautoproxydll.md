@@ -2,6 +2,7 @@
 UID: NF:wininet.InternetInitializeAutoProxyDll
 title: InternetInitializeAutoProxyDll function (wininet.h)
 description: There are two WinINet functions named InternetInitializeAutoProxyDll.
+helpviewer_keywords: ["InternetInitializeAutoProxyDll","InternetInitializeAutoProxyDll function [WinINet]","_inet_internetinitializeautoproxydll_function","wininet.internetinitializeautoproxydll","winineti/InternetInitializeAutoProxyDll"]
 old-location: wininet\internetinitializeautoproxydll.htm
 tech.root: wininet
 ms.assetid: d55d64cb-ee92-4366-a1bb-f5d421ed81c8
@@ -45,13 +46,15 @@ ms.custom: 19H1
 
 # InternetInitializeAutoProxyDll function
 
+> [!Note]
+> This function is deprecated. For autoproxy support, use HTTP Services (WinHTTP) version 5.1 instead. For more information, see [WinHTTP AutoProxy Support](https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support).
+
 
 ## -description
 
+There are two WinINet functions named <b>InternetInitializeAutoProxyDll</b>. The first, which merely refreshes the internal state of proxy configuration information from the registry, has a single parameter as documented directly below.
 
-There are two WinINet functions named <b>InternetInitializeAutoProxyDll</b>. The first, which merely refreshes the internal state of proxy configuration information from the registry, has a single parameter as documented directly below. 
-
-The second function, prototyped as <b>pfnInternetInitializeAutoProxyDll</b>, is part of WinINet's limited autoproxy support, and must be called by dynamically linking to "JSProxy.dll". For autoproxy support, use Windows HTTP Services (WinHTTP) version 5.1. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support">WinHTTP AutoProxy Support</a>.
+The second function, prototyped as <b>pfnInternetInitializeAutoProxyDll</b>, is part of WinINet's limited autoproxy support, and must be called by dynamically linking to "JSProxy.dll".
 
 
 ## -parameters

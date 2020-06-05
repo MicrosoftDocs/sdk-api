@@ -1,7 +1,7 @@
 ---
 UID: NS:bcrypt._BCRYPT_KEY_BLOB
 title: BCRYPT_KEY_BLOB (bcrypt.h)
-description: Is the base structure for all CNG key BLOBs.
+description: Is the base structure for all CNG key BLOBs.helpviewer_keywords: ["BCRYPT_KEY_BLOB","BCRYPT_KEY_BLOB structure [Security]","bcrypt/BCRYPT_KEY_BLOB","security.bcrypt_key_blob"]
 old-location: security\bcrypt_key_blob.htm
 tech.root: SecCNG
 ms.assetid: ae7e8db3-858d-4573-afe1-c9bc14d76480

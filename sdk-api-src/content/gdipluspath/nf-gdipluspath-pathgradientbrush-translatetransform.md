@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.TranslateTransform
 title: PathGradientBrush::TranslateTransform (gdipluspath.h)
-description: The PathGradientBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
+description: The PathGradientBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.helpviewer_keywords: ["PathGradientBrush class [GDI+]","TranslateTransform method","PathGradientBrush.TranslateTransform","PathGradientBrush::TranslateTransform","TranslateTransform","TranslateTransform method [GDI+]","TranslateTransform method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_","gdiplus._gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\translatetransform_44dx_dy_order.htm

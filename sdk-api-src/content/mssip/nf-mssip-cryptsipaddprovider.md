@@ -2,6 +2,7 @@
 UID: NF:mssip.CryptSIPAddProvider
 title: CryptSIPAddProvider function (mssip.h)
 description: The CryptSIPAddProvider function registers functions that are exported by a given DLL file that implements a Subject Interface Package (SIP).
+helpviewer_keywords: ["CryptSIPAddProvider","CryptSIPAddProvider function [Security]","mssip/CryptSIPAddProvider","security.cryptsipaddprovider"]
 old-location: security\cryptsipaddprovider.htm
 tech.root: SecCrypto
 ms.assetid: 99633c2f-e5ed-49e4-9c98-7501f66e5571
@@ -59,7 +60,7 @@ The <b>CryptSIPAddProvider</b> function registers functions that are exported by
 
 ### -param psNewProv [in]
 
-A pointer to a [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider)a> structure that specifies the DLL file and function names to register.
+A pointer to a [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider) structure that specifies the DLL file and function names to register.
 
 
 ## -returns

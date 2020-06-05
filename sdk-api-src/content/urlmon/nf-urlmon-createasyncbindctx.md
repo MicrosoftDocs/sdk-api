@@ -1,7 +1,7 @@
 ---
 UID: NF:urlmon.CreateAsyncBindCtx
 title: CreateAsyncBindCtx function (urlmon.h)
-description: Creates an asynchronous bind context for use with asynchronous monikers.
+description: Creates an asynchronous bind context for use with asynchronous monikers.helpviewer_keywords: ["CreateAsyncBindCtx","CreateAsyncBindCtx function [COM]","_com_CreateAsyncBindCtx","com.createasyncbindctx","urlmon/CreateAsyncBindCtx"]
 old-location: com\createasyncbindctx.htm
 tech.root: com
 ms.assetid: 0c79b61b-d3d6-48fd-aaee-21cddad09208

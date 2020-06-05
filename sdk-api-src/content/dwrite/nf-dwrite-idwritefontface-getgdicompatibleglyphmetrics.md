@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGdiCompatibleGlyphMetrics
 title: IDWriteFontFace::GetGdiCompatibleGlyphMetrics (dwrite.h)
-description: Obtains glyph metrics in font design units with the return values compatible with what GDI would produce.
+description: Obtains glyph metrics in font design units with the return values compatible with what GDI would produce.helpviewer_keywords: ["GetGdiCompatibleGlyphMetrics","GetGdiCompatibleGlyphMetrics method [Direct Write]","GetGdiCompatibleGlyphMetrics method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetGdiCompatibleGlyphMetrics method","IDWriteFontFace.GetGdiCompatibleGlyphMetrics","IDWriteFontFace::GetGdiCompatibleGlyphMetrics","directwrite.idwritefontface_getgdicompatibleglyphmetrics","dwrite/IDWriteFontFace::GetGdiCompatibleGlyphMetrics"]
 old-location: directwrite\idwritefontface_getgdicompatibleglyphmetrics.htm
 tech.root: DirectWrite
 ms.assetid: 7bda3916-6db3-4f56-b18c-288506c0b646

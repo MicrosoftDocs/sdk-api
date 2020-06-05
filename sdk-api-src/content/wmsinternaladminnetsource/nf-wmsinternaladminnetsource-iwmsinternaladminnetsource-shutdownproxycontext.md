@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.ShutdownProxyContext
 title: IWMSInternalAdminNetSource::ShutdownProxyContext (wmsinternaladminnetsource.h)
-description: The ShutdownProxyContext method releases the internal resources used by IWMSInternalAdminNetSource::FindProxyForURL. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURL.
+description: The ShutdownProxyContext method releases the internal resources used by IWMSInternalAdminNetSource::FindProxyForURL. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURL.helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","ShutdownProxyContext method","IWMSInternalAdminNetSource.ShutdownProxyContext","IWMSInternalAdminNetSource::ShutdownProxyContext","IWMSInternalAdminNetSourceShutdownProxyContext","ShutdownProxyContext","ShutdownProxyContext method [windows Media Format]","ShutdownProxyContext method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_shutdownproxycontext","wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext"]
 old-location: wmformat\iwmsinternaladminnetsource_shutdownproxycontext.htm
 tech.root: wmformat
 ms.assetid: 95c6f641-e0b1-4391-b4bd-b43c03a330b4

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.ValuePattern_SetValue
 title: ValuePattern_SetValue function (uiautomationcoreapi.h)
-description: Sets the text value of an element.
+description: Sets the text value of an element.helpviewer_keywords: ["ValuePattern_SetValue","ValuePattern_SetValue function [Windows Accessibility]","uiauto.uiauto_ValuePattern_SetValueConPat","uiauto_ValuePattern_SetValueConPat","uiautomationcoreapi/ValuePattern_SetValue","winauto.uiauto_ValuePattern_SetValueConPat"]
 old-location: winauto\uiauto_ValuePattern_SetValueConPat.htm
 tech.root: WinAuto
 ms.assetid: 6233abb0-7d18-4d1f-a611-28931d874bda

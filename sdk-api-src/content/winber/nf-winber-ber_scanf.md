@@ -2,6 +2,7 @@
 UID: NF:winber.ber_scanf
 title: ber_scanf function (winber.h)
 description: The ber_scanf function decodes a BER element in a similar manner as sscanf_s.
+helpviewer_keywords: ["_ldap_ber_scanf","ber_scanf","ber_scanf function [LDAP]","ldap.ber__scanf","ldap.ber_scanf","winber/ber_scanf"]
 old-location: ldap\ber_scanf.htm
 tech.root: ldap
 ms.assetid: bca69428-27e1-4028-bfcd-ad67bee672cc
@@ -180,7 +181,7 @@ The function interprets the bytes according to the format string <i>fmt</i>, and
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
  
 
  

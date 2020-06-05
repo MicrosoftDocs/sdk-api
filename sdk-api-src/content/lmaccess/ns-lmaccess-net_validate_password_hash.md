@@ -2,6 +2,7 @@
 UID: NS:lmaccess._NET_VALIDATE_PASSWORD_HASH
 title: NET_VALIDATE_PASSWORD_HASH (lmaccess.h)
 description: The NET_VALIDATE_PASSWORD_HASH structure contains a password hash.
+helpviewer_keywords: ["*PNET_VALIDATE_PASSWORD_HASH","NET_VALIDATE_PASSWORD_HASH","NET_VALIDATE_PASSWORD_HASH structure [Network Management]","PNET_VALIDATE_PASSWORD_HASH","PNET_VALIDATE_PASSWORD_HASH structure pointer [Network Management]","lmaccess/NET_VALIDATE_PASSWORD_HASH","lmaccess/PNET_VALIDATE_PASSWORD_HASH","netmgmt.net_validate_password_hash"]
 old-location: netmgmt\net_validate_password_hash.htm
 tech.root: NetMgmt
 ms.assetid: 884e5b8c-1288-454e-862d-323d79123356
@@ -71,7 +72,7 @@ Password hash.
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structures contain a <b>NET_VALIDATE_PASSWORD_HASH</b> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure contains a pointer to this structure. 
+The <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structures contain a <b>NET_VALIDATE_PASSWORD_HASH</b> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure contains a pointer to this structure. 
 
 
 

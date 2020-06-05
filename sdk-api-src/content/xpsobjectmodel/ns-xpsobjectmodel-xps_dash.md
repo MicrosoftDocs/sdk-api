@@ -2,6 +2,7 @@
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0020
 title: XPS_DASH (xpsobjectmodel.h)
 description: This structure describes a dash element of a path.
+helpviewer_keywords: ["XPS_DASH","XPS_DASH structure [XPS Documents and Packaging]","xps.xps_dash","xpsobjectmodel/XPS_DASH"]
 old-location: xps\xps_dash.htm
 tech.root: printdocs
 ms.assetid: c8f43f91-eefb-4025-8042-c2601e89d315
@@ -75,7 +76,7 @@ The length must be non-negative and is measured in multiples of the path's strok
 
  Values of <b>length</b> do not include the end caps of the visible segments.
 
-The shape of the end caps of the visible segments is determined by the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value.
+The shape of the end caps of the visible segments is determined by the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a> value.
 
 
 
@@ -89,7 +90,7 @@ The shape of the end caps of the visible segments is determined by the <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
  
 
  

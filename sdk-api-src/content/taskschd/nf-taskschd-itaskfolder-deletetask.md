@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteTask
 title: ITaskFolder::DeleteTask (taskschd.h)
-description: Deletes a task from the folder.
+description: Deletes a task from the folder.helpviewer_keywords: ["DeleteTask","DeleteTask method [Task Scheduler]","DeleteTask method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","DeleteTask method","ITaskFolder.DeleteTask","ITaskFolder::DeleteTask","taskschd.itaskfolder_deletetask","taskschd/ITaskFolder::DeleteTask"]
 old-location: taskschd\itaskfolder_deletetask.htm
 tech.root: taskschd
 ms.assetid: 5b929abd-c40a-4f6b-9a0b-702d2f26f1fe

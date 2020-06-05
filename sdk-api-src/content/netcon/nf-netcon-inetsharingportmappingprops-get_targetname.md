@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_TargetName
 title: INetSharingPortMappingProps::get_TargetName (netcon.h)
-description: The get_TargetName method retrieves the name of the target computer for this port mapping.
+description: The get_TargetName method retrieves the name of the target computer for this port mapping.helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_TargetName method","INetSharingPortMappingProps.get_TargetName","INetSharingPortMappingProps::get_TargetName","_ics_inetsharingportmappingprops_get_targetname","get_TargetName","get_TargetName method [ICS/ICF]","get_TargetName method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_targetname","netcon/INetSharingPortMappingProps::get_TargetName"]
 old-location: ics\inetsharingportmappingprops_get_targetname.htm
 tech.root: ics
 ms.assetid: fc486e8d-a927-4e38-9fcd-ab4410270cad

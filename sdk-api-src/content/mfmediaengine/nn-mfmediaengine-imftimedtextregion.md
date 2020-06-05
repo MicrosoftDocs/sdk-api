@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextRegion
 title: IMFTimedTextRegion (mfmediaengine.h)
-description: Represents the display region of a timed-text object.
+description: Represents the display region of a timed-text object.helpviewer_keywords: ["IMFTimedTextRegion","IMFTimedTextRegion interface [Media Foundation]","IMFTimedTextRegion interface [Media Foundation]","described","mf.imftimedtextregion","mfmediaengine/IMFTimedTextRegion"]
 old-location: mf\imftimedtextregion.htm
 tech.root: medfound
 ms.assetid: 1A6E068F-2E01-4A72-8BCF-D645B1D21ECF

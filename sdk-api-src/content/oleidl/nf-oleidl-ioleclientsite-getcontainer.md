@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetContainer
 title: IOleClientSite::GetContainer (oleidl.h)
-description: Retrieves a pointer to the object's container.
+description: Retrieves a pointer to the object's container.helpviewer_keywords: ["GetContainer","GetContainer method [COM]","GetContainer method [COM]","IOleClientSite interface","IOleClientSite interface [COM]","GetContainer method","IOleClientSite.GetContainer","IOleClientSite::GetContainer","_ole_ioleclientsite_getcontainer","com.ioleclientsite_getcontainer","oleidl/IOleClientSite::GetContainer"]
 old-location: com\ioleclientsite_getcontainer.htm
 tech.root: com
 ms.assetid: 8f0caf07-f059-4e0c-9c28-c7ad0cc149e3

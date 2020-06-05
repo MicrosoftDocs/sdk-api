@@ -1,7 +1,7 @@
 ---
 UID: NN:wsdbase.IWSDAddress
 title: IWSDAddress (wsdbase.h)
-description: Provides access to the individual components of a transport address.
+description: Provides access to the individual components of a transport address.helpviewer_keywords: ["IWSDAddress","IWSDAddress interface","IWSDAddress interface","described","ncd.iwsdaddress","wsdbase/IWSDAddress"]
 old-location: ncd\iwsdaddress.htm
 tech.root: WsdApi
 ms.assetid: b19938b2-2fba-42fe-8c4e-5696c40acd58

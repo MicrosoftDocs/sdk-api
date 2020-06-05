@@ -2,6 +2,7 @@
 UID: NF:mfobjects.IMFMediaBuffer.Lock
 title: IMFMediaBuffer::Lock (mfobjects.h)
 description: Gives the caller access to the memory in the buffer, for reading or writing.
+helpviewer_keywords: ["28ac372a-6e73-4e66-bf69-bcc244821b71","IMFMediaBuffer interface [Media Foundation]","Lock method","IMFMediaBuffer.Lock","IMFMediaBuffer::Lock","Lock","Lock method [Media Foundation]","Lock method [Media Foundation]","IMFMediaBuffer interface","mf.imfmediabuffer_lock","mfobjects/IMFMediaBuffer::Lock"]
 old-location: mf\imfmediabuffer_lock.htm
 tech.root: medfound
 ms.assetid: 28ac372a-6e73-4e66-bf69-bcc244821b71
@@ -136,11 +137,13 @@ The pointer returned in <i>ppbBuffer</i> is guaranteed to be valid, and can safe
 
 Locking the buffer does not prevent other threads from calling <b>Lock</b>, so you should not rely on this method to synchronize threads.
 
-This method does not allocate any memory, or transfer ownership of the memory to the caller. Do not release or free the memory; the media buffer will free the memory when the media buffer is destroyed.
+This method may allocate memory, but does transfer ownership of the memory to the caller. Do not release or free the memory; the media buffer will free the memory when the media buffer is destroyed.
+
 
 If you modify the contents of the buffer, update the current length by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a>.
 
-If the buffer supports the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a> method to lock the buffer. For 2-D buffers, the <b>Lock2D</b> method is more efficient than the <b>Lock</b> method. If the buffer is locked using <b>Lock2D</b>, the Lock method might return <b>MF_E_INVALIDREQUEST</b>.
+
+This method may internally allocate some memory, so if the buffer supports the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a> method to lock the buffer instead. For 2-D buffers, the **Lock2DSize** method can be more efficient than the **Lock** method, depending on the **MF2DBuffer_LockFlags** value you specify.  Calling **Lock2DSize** with **MF2DBuffer_LockFlags_Read** won’t incur a copy back when the buffer is unlocked and calling it with **MF2DBuffer_LockFlags_Write** won’t incur a copy from the internal buffer. Calling **Lock2DSize** with **LockFlags_ReadWrite**  behaves the same as **Lock** and **Lock2D** and will incur a both copy from and copy back when unlocked. The general guidance for best performance is to avoid using **IMFMediaBuffer** and **IMF2DBuffer** whenever possible and instead use **IMF2DBuffer2** with the minimum required lock flags. Note that if the buffer is locked using **Lock2D**, the **Lock** method might return MF_E_INVALIDREQUEST.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_BOX.CD3D11_BOX(LONG,LONG,LONG,LONG,LONG,LONG)
 title: CD3D11_BOX::CD3D11_BOX(LONG,LONG,LONG,LONG,LONG,LONG) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_BOX structure that is initialized with the dimensions of a box.
+description: Instantiates a new instance of a CD3D11_BOX structure that is initialized with the dimensions of a box.helpviewer_keywords: ["CD3D11_BOX","CD3D11_BOX constructor [Direct3D 11]","CD3D11_BOX constructor [Direct3D 11]","CD3D11_BOX interface","CD3D11_BOX interface [Direct3D 11]","CD3D11_BOX constructor","CD3D11_BOX.CD3D11_BOX","CD3D11_BOX.CD3D11_BOX(LONG","LONG","LONG","LONG","LONG","LONG)","CD3D11_BOX::CD3D11_BOX","CD3D11_BOX::CD3D11_BOX(LONG","LONG","LONG","LONG","LONG","LONG)","d3d11/CD3D11_BOX::CD3D11_BOX","direct3d11.cd3d11_box_cd3d11_box_long_long_long_long_long_long_"]
 old-location: direct3d11\cd3d11_box_cd3d11_box_long_long_long_long_long_long_.htm
 tech.root: direct3d11
 ms.assetid: 506318A0-3B7F-4641-A63A-C4E80A035618

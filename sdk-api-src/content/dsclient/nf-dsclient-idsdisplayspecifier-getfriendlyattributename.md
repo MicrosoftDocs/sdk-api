@@ -1,7 +1,7 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetFriendlyAttributeName
 title: IDsDisplaySpecifier::GetFriendlyAttributeName (dsclient.h)
-description: The IDsDisplaySpecifier::GetFriendlyAttributeName method retrieves from the localized name of an attribute of a given object class.
+description: The IDsDisplaySpecifier::GetFriendlyAttributeName method retrieves from the localized name of an attribute of a given object class.helpviewer_keywords: ["GetFriendlyAttributeName","GetFriendlyAttributeName method [Active Directory]","GetFriendlyAttributeName method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetFriendlyAttributeName method","IDsDisplaySpecifier.GetFriendlyAttributeName","IDsDisplaySpecifier::GetFriendlyAttributeName","_glines_idsdisplayspecifier_getfriendlyattributename","ad.idsdisplayspecifier__getfriendlyattributename","ad.idsdisplayspecifier_getfriendlyattributename","dsclient/IDsDisplaySpecifier::GetFriendlyAttributeName"]
 old-location: ad\idsdisplayspecifier_getfriendlyattributename.htm
 tech.root: ad
 ms.assetid: 6a4551ec-0b73-4119-8fdd-1e1952f60bd2

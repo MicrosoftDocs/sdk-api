@@ -2,6 +2,7 @@
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptions
 title: ID3D11TracingDevice::SetShaderTrackingOptions (d3d11sdklayers.h)
 description: Sets the reference rasterizer's race-condition tracking options for a specific shader.
+helpviewer_keywords: ["ID3D11TracingDevice interface [Direct3D 11]","SetShaderTrackingOptions method","ID3D11TracingDevice.SetShaderTrackingOptions","ID3D11TracingDevice::SetShaderTrackingOptions","SetShaderTrackingOptions","SetShaderTrackingOptions method [Direct3D 11]","SetShaderTrackingOptions method [Direct3D 11]","ID3D11TracingDevice interface","d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptions","direct3d11.id3d11tracingdevice_setshadertrackingoptions"]
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: F62FCA38-AE44-427B-95B4-252AE800845C
@@ -65,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 ### -param Options [in]
 
-A combination of <a href="https://docs.microsoft.com/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
+A combination of <a href="/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
 
 
 ## -returns
@@ -81,7 +82,7 @@ This method returns one of the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS](/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options)a>) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
+[D3D11_SHADER_TRACKING_OPTION_UAV_SPECIFIC_FLAGS](/windows/win32/api/d3d11sdklayers/ne-d3d11sdklayers-d3d11_shader_tracking_options)) in the <i>Options</i> parameter for a compute shader, <b>SetShaderTrackingOptions</b> ignores it.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>

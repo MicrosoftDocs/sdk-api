@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBPARAMETER
 title: DBPARAMETER (cmdtree.h)
-description: The DBPARAMETER structure is used to define values for scalar parameters.
+description: The DBPARAMETER structure is used to define values for scalar parameters.helpviewer_keywords: ["DBPARAMETER","DBPARAMETER structure [Indexing Service]","_idxs_DBPARAMETER","cmdtree/DBPARAMETER","indexsrv.dbparameter","tagDBPARAMETER"]
 old-location: indexsrv\dbparameter.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2p0y.htm

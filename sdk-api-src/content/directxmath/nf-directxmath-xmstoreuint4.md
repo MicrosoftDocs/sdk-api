@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMStoreUInt4
 title: XMStoreUInt4 function (directxmath.h)
-description: Stores unsigned integer data from an XMVECTOR in an XMUINT4 structure.
+description: Stores unsigned integer data from an XMVECTOR in an XMUINT4 structure.helpviewer_keywords: ["Use DirectX..XMStoreUInt4","XMStoreUInt4","XMStoreUInt4 method [DirectX Math Support APIs]","dxmath.xmstoreuint4"]
 old-location: dxmath\xmstoreuint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUInt4(XMUINT4@,XMVECTOR)

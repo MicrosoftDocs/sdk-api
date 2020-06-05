@@ -1,7 +1,7 @@
 ---
 UID: NF:mgmtapi.SnmpMgrTrapListen
 title: SnmpMgrTrapListen function (mgmtapi.h)
-description: The SnmpMgrTrapListen function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.
+description: The SnmpMgrTrapListen function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.helpviewer_keywords: ["SnmpMgrTrapListen","SnmpMgrTrapListen function [SNMP]","_snmp_snmpmgrtraplisten","mgmtapi/SnmpMgrTrapListen","snmp.snmpmgrtraplisten"]
 old-location: snmp\snmpmgrtraplisten.htm
 tech.root: SNMP
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448

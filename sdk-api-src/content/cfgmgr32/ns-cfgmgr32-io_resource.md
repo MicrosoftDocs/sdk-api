@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.IO_Resource_s
 title: IO_RESOURCE (cfgmgr32.h)
 description: The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance.
+helpviewer_keywords: ["*PIO_RESOURCE","IO_RESOURCE","IO_RESOURCE structure [Device and Driver Installation]","PIO_RESOURCE","PIO_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/IO_RESOURCE","cfgmgr32/PIO_RESOURCE","cfgmgrst_4016b1e2-26af-4ccb-b2d9-823e0c4bf66c.xml","devinst.io_resource"]
 old-location: devinst\io_resource.htm
 tech.root: devinst
 ms.assetid: d18a1f92-b76c-4240-9a0e-7474c258436c
@@ -59,7 +60,7 @@ The IO_RESOURCE structure is used for specifying either a resource list or a res
 
 ### -field IO_Header
 
-An [IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)a> structure.
+An [IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure.
 
 
 ### -field IO_Data
@@ -76,7 +77,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)a> array.
+An [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range) array.
 
 
 ## -see-also
@@ -84,11 +85,11 @@ An [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr3
 
 
 
-[IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)a>
+[IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)
 
 
 
-[IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)a>
+[IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)
  
 
  

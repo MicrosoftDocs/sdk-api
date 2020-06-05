@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneGetLamp
 title: phoneGetLamp function (tapi.h)
-description: The phoneGetLamp function returns the current lamp mode of the specified lamp.
+description: The phoneGetLamp function returns the current lamp mode of the specified lamp.helpviewer_keywords: ["_tapi2_phonegetlamp","phoneGetLamp","phoneGetLamp function [TAPI 2.2]","tapi/phoneGetLamp","tapi2.phonegetlamp"]
 old-location: tapi2\phonegetlamp.htm
 tech.root: Tapi
 ms.assetid: 97bc1dc1-ac7e-479f-8fea-e2fcca88367b

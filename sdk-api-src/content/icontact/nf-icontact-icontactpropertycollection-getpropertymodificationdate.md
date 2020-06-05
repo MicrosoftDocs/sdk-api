@@ -1,7 +1,7 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyModificationDate
 title: IContactPropertyCollection::GetPropertyModificationDate (icontact.h)
-description: Retrieves the last modification date for the current property in the enumeration. If not modified, contact creation date is returned.
+description: Retrieves the last modification date for the current property in the enumeration. If not modified, contact creation date is returned.helpviewer_keywords: ["GetPropertyModificationDate","GetPropertyModificationDate method [Windows Contacts]","GetPropertyModificationDate method [Windows Contacts]","IContactPropertyCollection interface","IContactPropertyCollection interface [Windows Contacts]","GetPropertyModificationDate method","IContactPropertyCollection.GetPropertyModificationDate","IContactPropertyCollection::GetPropertyModificationDate","_wincontacts_IContactPropertyCollection_GetPropertyModificationDate","icontact/IContactPropertyCollection::GetPropertyModificationDate","wincontacts._wincontacts_IContactPropertyCollection_GetPropertyModificationDate"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyModificationDate.htm
 tech.root: wincontacts
 ms.assetid: 7ad95916-4e21-4607-b27d-584a931f9201

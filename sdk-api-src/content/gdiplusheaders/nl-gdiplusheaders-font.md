@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusheaders.Font
 title: Font (gdiplusheaders.h)
-description: The Font class encapsulates the characteristics, such as family, height, size, and style (or combination of styles), of a specific font. A Font object is used when drawing strings.
+description: The Font class encapsulates the characteristics, such as family, height, size, and style (or combination of styles), of a specific font. A Font object is used when drawing strings.helpviewer_keywords: ["Font","Font class [GDI+]","Font class [GDI+]","described","_gdiplus_CLASS_Font_Class","gdiplus._gdiplus_CLASS_Font_Class","gdiplusheaders/Font"]
 old-location: gdiplus\_gdiplus_CLASS_Font_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\font.htm

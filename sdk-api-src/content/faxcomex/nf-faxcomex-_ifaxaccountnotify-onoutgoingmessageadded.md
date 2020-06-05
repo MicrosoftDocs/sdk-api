@@ -2,6 +2,7 @@
 UID: NF:faxcomex._IFaxAccountNotify.OnOutgoingMessageAdded
 title: _IFaxAccountNotify::OnOutgoingMessageAdded (faxcomex.h)
 description: The fax service calls the IFaxAccountNotify::OnOutgoingMessageAdded method when an outgoing message is added to the outbound fax archive.
+helpviewer_keywords: ["IFaxAccountNotify.OnOutgoingMessageAdded","OnOutgoingMessageAdded","OnOutgoingMessageAdded method [Fax Service]","OnOutgoingMessageAdded method [Fax Service]","_IFaxAccountNotify interface","_IFaxAccountNotify interface [Fax Service]","OnOutgoingMessageAdded method","_IFaxAccountNotify.OnOutgoingMessageAdded","_IFaxAccountNotify::OnOutgoingMessageAdded","_mfax_ifaxaccountnotify_onoutgoingmessageadded","fax._mfax_ifaxaccountnotify_onoutgoingmessageadded","faxcomex/_IFaxAccountNotify::OnOutgoingMessageAdded"]
 old-location: fax\_mfax_ifaxaccountnotify_onoutgoingmessageadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutgoingmessageadded.htm
@@ -97,7 +98,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
  
 
  

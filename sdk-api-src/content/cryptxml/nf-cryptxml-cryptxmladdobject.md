@@ -1,7 +1,7 @@
 ---
 UID: NF:cryptxml.CryptXmlAddObject
 title: CryptXmlAddObject function (cryptxml.h)
-description: Adds the Object element to the Signature in the Document Context opened for encoding.
+description: Adds the Object element to the Signature in the Document Context opened for encoding.helpviewer_keywords: ["CRYPT_XML_ADD_OBJECT_CREATE_REFERENCE","CryptXmlAddObject","CryptXmlAddObject function [Security]","cryptxml/CryptXmlAddObject","security.cryptxmladdobject"]
 old-location: security\cryptxmladdobject.htm
 tech.root: SecCrypto
 ms.assetid: 906c17a2-d8f3-4f90-a697-432cae7c789a

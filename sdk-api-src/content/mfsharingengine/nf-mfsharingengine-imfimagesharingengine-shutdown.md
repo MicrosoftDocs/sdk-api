@@ -1,7 +1,7 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.Shutdown
 title: IMFImageSharingEngine::Shutdown (mfsharingengine.h)
-description: Shuts down the image sharing engine.
+description: Shuts down the image sharing engine.helpviewer_keywords: ["IMFImageSharingEngine interface [Media Foundation]","Shutdown method","IMFImageSharingEngine.Shutdown","IMFImageSharingEngine::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFImageSharingEngine interface","mf.imfimagesharingengine_shutdown","mfsharingengine/IMFImageSharingEngine::Shutdown"]
 old-location: mf\imfimagesharingengine_shutdown.htm
 tech.root: medfound
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0

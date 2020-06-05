@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothGetDeviceInfo
 title: BluetoothGetDeviceInfo function (bluetoothapis.h)
 description: Retrieves information about a remote Bluetooth device.
+helpviewer_keywords: ["BluetoothGetDeviceInfo","BluetoothGetDeviceInfo function [Bluetooth]","bluetooth.bluetoothgetdeviceinfo","bluetoothapis/BluetoothGetDeviceInfo"]
 old-location: bluetooth\bluetoothgetdeviceinfo.htm
 tech.root: bluetooth
 ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73
@@ -66,7 +67,7 @@ A handle to a local radio, obtained from a call to the <a href="https://docs.mic
 
 ### -param pbtdi
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure into which data about the first Bluetooth device will be placed. For more information, see Remarks.
+A pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure into which data about the first Bluetooth device will be placed. For more information, see Remarks.
 
 
 ## -returns
@@ -88,7 +89,7 @@ Returns <b>ERROR_SUCCESS</b> upon success, indicating that data about the remote
 </td>
 <td width="60%">
 The size of the BLUETOOTH_DEVICE_INFO is not compatible. Check
-the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure.
+the <b>dwSize</b> member of the <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure.
 
 </td>
 </tr>
@@ -99,7 +100,7 @@ the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/win3
 </dl>
 </td>
 <td width="60%">
-The radio is not known by the system, or the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure is all zeros.
+The radio is not known by the system, or the <b>Address</b> member of the <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure is all zeros.
 
 </td>
 </tr>
@@ -126,7 +127,7 @@ The <i>pbtdi</i> parameter is <b>NULL</b>.
 
 The Bluetooth device for which data is obtained must have been previously identified through a successful device inquiry function call.
 
-In the <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure pointed to by <i>pbtdi</i>, the  <b>dwSize</b> member must be equivalent to the size, in bytes, of the structure. The <b>Address</b>          member of the <b>BLUETOOTH_DEVICE_INFO</b> structure must contain the Bluetooth address of the remote
+In the <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure pointed to by <i>pbtdi</i>, the  <b>dwSize</b> member must be equivalent to the size, in bytes, of the structure. The <b>Address</b>          member of the <b>BLUETOOTH_DEVICE_INFO</b> structure must contain the Bluetooth address of the remote
 device.
 
 
@@ -137,11 +138,11 @@ device.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_search_params">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

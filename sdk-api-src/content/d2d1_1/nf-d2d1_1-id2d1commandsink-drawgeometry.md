@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawGeometry
 title: ID2D1CommandSink::DrawGeometry (d2d1_1.h)
-description: Indicates the geometry to be drawn to the command sink.
+description: Indicates the geometry to be drawn to the command sink.helpviewer_keywords: ["DrawGeometry","DrawGeometry method [Direct2D]","DrawGeometry method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","DrawGeometry method","ID2D1CommandSink.DrawGeometry","ID2D1CommandSink::DrawGeometry","d2d1_1/ID2D1CommandSink::DrawGeometry","direct2d.id2d1commandsink_drawgeometry"]
 old-location: direct2d\id2d1commandsink_drawgeometry.htm
 tech.root: Direct2D
 ms.assetid: ff91dd6c-0604-44aa-a30c-6b531cc3fb58

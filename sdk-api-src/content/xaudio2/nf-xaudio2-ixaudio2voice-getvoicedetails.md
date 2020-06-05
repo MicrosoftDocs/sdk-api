@@ -1,7 +1,7 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetVoiceDetails
 title: IXAudio2Voice::GetVoiceDetails (xaudio2.h)
-description: Returns information about the creation flags, input channels, and sample rate of a voice.
+description: Returns information about the creation flags, input channels, and sample rate of a voice.helpviewer_keywords: ["GetVoiceDetails","GetVoiceDetails method [XAudio2 Audio Mixing APIs]","GetVoiceDetails method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetVoiceDetails method","IXAudio2Voice.GetVoiceDetails","IXAudio2Voice::GetVoiceDetails","xaudio2.ixaudio2voice_interface_getvoicedetails","xaudio2/IXAudio2Voice::GetVoiceDetails"]
 old-location: xaudio2\ixaudio2voice_interface_getvoicedetails.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetVoiceDetails(XAUDIO2_VOICE_DETAILS@)

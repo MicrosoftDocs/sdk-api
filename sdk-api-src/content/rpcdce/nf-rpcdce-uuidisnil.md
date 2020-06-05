@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.UuidIsNil
 title: UuidIsNil function (rpcdce.h)
-description: An application calls the UuidIsNil function to determine whether the specified UUID is a nil-valued UUID.
+description: An application calls the UuidIsNil function to determine whether the specified UUID is a nil-valued UUID.helpviewer_keywords: ["UuidIsNil","UuidIsNil function [RPC]","_rpc_uuidisnil","rpc.uuidisnil","rpcdce/UuidIsNil"]
 old-location: rpc\uuidisnil.htm
 tech.root: Rpc
 ms.assetid: 0b764eca-552b-4431-812b-93fa0c03179e

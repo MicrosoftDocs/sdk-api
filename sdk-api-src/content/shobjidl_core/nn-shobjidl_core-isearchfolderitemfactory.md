@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ISearchFolderItemFactory
 title: ISearchFolderItemFactory (shobjidl_core.h)
-description: Exposes methods that create and modify search folders.
+description: Exposes methods that create and modify search folders.helpviewer_keywords: ["ISearchFolderItemFactory","ISearchFolderItemFactory interface [Windows Shell]","ISearchFolderItemFactory interface [Windows Shell]","described","_shell_ISearchFolderItemFactory","shell.ISearchFolderItemFactory","shobjidl_core/ISearchFolderItemFactory"]
 old-location: shell\ISearchFolderItemFactory.htm
 tech.root: shell
 ms.assetid: a684b373-6de4-4b4a-bbae-85e1c5a7e04a

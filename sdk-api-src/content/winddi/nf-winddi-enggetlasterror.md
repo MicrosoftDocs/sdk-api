@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngGetLastError
 title: EngGetLastError function (winddi.h)
-description: The EngGetLastError function returns the last error code logged by GDI for the calling thread.
+description: The EngGetLastError function returns the last error code logged by GDI for the calling thread.helpviewer_keywords: ["EngGetLastError","EngGetLastError function [Display Devices]","display.enggetlasterror","gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml","winddi/EngGetLastError"]
 old-location: display\enggetlasterror.htm
 tech.root: display
 ms.assetid: 47138077-125e-4da9-b0de-e437a9b1733d

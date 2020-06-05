@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetSubmitButtonText
 title: IUserInputString::GetSubmitButtonText (photoacquire.h)
-description: The GetSubmitButtonText method retrieves the text for the submit button.
+description: The GetSubmitButtonText method retrieves the text for the submit button.helpviewer_keywords: ["GetSubmitButtonText","GetSubmitButtonText method [Picture Acquisition]","GetSubmitButtonText method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetSubmitButtonText method","IUserInputString.GetSubmitButtonText","IUserInputString::GetSubmitButtonText","IUserInputStringGetSubmitButtonText","photoacquire/IUserInputString::GetSubmitButtonText","picacq.iuserinputstring_getsubmitbuttontext"]
 old-location: picacq\iuserinputstring_getsubmitbuttontext.htm
 tech.root: acquisition
 ms.assetid: 00cb081a-9077-4ecc-9a1f-002072e6ddda

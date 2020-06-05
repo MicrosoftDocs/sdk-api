@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.PropertyFailure
 title: ITransferAdviseSink::PropertyFailure (shobjidl_core.h)
-description: Called when there is a failure that involves file properties and user interaction is needed.
+description: Called when there is a failure that involves file properties and user interaction is needed.helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","PropertyFailure method","ITransferAdviseSink.PropertyFailure","ITransferAdviseSink::PropertyFailure","PropertyFailure","PropertyFailure method [Windows Shell]","PropertyFailure method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_PropertyFailure","shell.ITransferAdviseSink_PropertyFailure","shobjidl_core/ITransferAdviseSink::PropertyFailure"]
 old-location: shell\ITransferAdviseSink_PropertyFailure.htm
 tech.root: shell
 ms.assetid: c43cb166-6edf-4c45-93c1-16cb9b5c2d30

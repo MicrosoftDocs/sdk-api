@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IInterval.GetLimits
 title: IInterval::GetLimits (structuredquery.h)
 description: Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
+helpviewer_keywords: ["GetLimits","GetLimits method [search]","GetLimits method [search]","IInterval interface","IInterval interface [search]","GetLimits method","IInterval.GetLimits","IInterval::GetLimits","_search_IInterval_GetLimits","search._search_IInterval_GetLimits","structuredquery/IInterval::GetLimits"]
 old-location: search\_search_IInterval_GetLimits.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm
@@ -63,9 +64,9 @@ When a condition tree expresses that the value of a property must fall in a cert
 
 ### -param pilkLower [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
 
-Receives a pointer to a value from the <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the lower bound of the interval is inclusive, exclusive, or infinite.
+Receives a pointer to a value from the <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the lower bound of the interval is inclusive, exclusive, or infinite.
 
 
 ### -param ppropvarLower [out]
@@ -77,9 +78,9 @@ Receives a pointer to the value for the lower limit of the interval. If the <i>p
 
 ### -param pilkUpper [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
 
-Receives a pointer to a value from the <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the upper bound of the interval is inclusive, exclusive, or infinite. 
+Receives a pointer to a value from the <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the upper bound of the interval is inclusive, exclusive, or infinite. 
 
 
 ### -param ppropvarUpper [out]
@@ -104,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method retrieves interval limits in two <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>—<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
+This method retrieves interval limits in two <a href="/windows/win32/api/structuredquery/ne-structuredquery-interval_limit_kind">INTERVAL_LIMIT_KIND</a>—<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
 
 The lower limit must be less than the upper limit or the interval will be empty. The only exception is when the lower and upper limits are equal and both are set to <i>ILK_EXPLICIT_INCLUDED</i>. In this case the range is the single value to which both limits are set. The following table illustrates how the pairs work to define intervals.
 

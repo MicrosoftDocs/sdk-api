@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetIpNetEntry2
 title: GetIpNetEntry2 function (netioapi.h)
-description: Retrieves information for a neighbor IP address entry on the local computer.
+description: Retrieves information for a neighbor IP address entry on the local computer.helpviewer_keywords: ["GetIpNetEntry2","GetIpNetEntry2 function [IP Helper]","iphlp.getipnetentry2","netioapi/GetIpNetEntry2"]
 old-location: iphlp\getipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: c77e01da-2d5a-4c74-b581-62fa6ee52c9e

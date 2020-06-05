@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY
 title: PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY (winnt.h)
-description: Used to impose restrictions on what system calls can be invoked by a process.
+description: Used to impose restrictions on what system calls can be invoked by a process.helpviewer_keywords: ["*PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY","PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY","PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure pointer","PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY","PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY structure","_PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY","base.process_mitigation_system_call_disable_policy","winnt/PPROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY","winnt/PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY"]
 old-location: base\process_mitigation_system_call_disable_policy.htm
 tech.root: ProcThread
 ms.assetid: dfcdf4ae-c779-477c-8df6-de24b8037d62

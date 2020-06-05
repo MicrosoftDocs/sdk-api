@@ -1,7 +1,7 @@
 ---
 UID: NE:dwrite_1.DWRITE_TEXT_ANTIALIAS_MODE
 title: DWRITE_TEXT_ANTIALIAS_MODE (dwrite_1.h)
-description: The DWRITE_TEXT_ANTIALIAS_MODE enumeration contains values that specify the type of antialiasing to use for text when the rendering mode calls for antialiasing.
+description: The DWRITE_TEXT_ANTIALIAS_MODE enumeration contains values that specify the type of antialiasing to use for text when the rendering mode calls for antialiasing.helpviewer_keywords: ["DWRITE_TEXT_ANTIALIAS_MODE","DWRITE_TEXT_ANTIALIAS_MODE enumeration [Direct Write]","DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE","DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE","directwrite.dwrite_text_antialias_mode","dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE","dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE","dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE"]
 old-location: directwrite\dwrite_text_antialias_mode.htm
 tech.root: DirectWrite
 ms.assetid: 212B02C9-1265-4870-A059-F292640ECE15

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleObject.Close
 title: IOleObject::Close (oleidl.h)
-description: Changes an embedded object from the running to the loaded state. Disconnects a linked object from its link source.
+description: Changes an embedded object from the running to the loaded state. Disconnects a linked object from its link source.helpviewer_keywords: ["Close","Close method [COM]","Close method [COM]","IOleObject interface","IOleObject interface [COM]","Close method","IOleObject.Close","IOleObject::Close","_ole_ioleobject_close","com.ioleobject_close","oleidl/IOleObject::Close"]
 old-location: com\ioleobject_close.htm
 tech.root: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee

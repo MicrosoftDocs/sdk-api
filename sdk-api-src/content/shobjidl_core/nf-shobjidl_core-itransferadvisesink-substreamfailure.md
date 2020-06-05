@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.SubStreamFailure
 title: ITransferAdviseSink::SubStreamFailure (shobjidl_core.h)
-description: Called when there is a failure that involves secondary streams and user interaction is needed.
+description: Called when there is a failure that involves secondary streams and user interaction is needed.helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","SubStreamFailure method","ITransferAdviseSink.SubStreamFailure","ITransferAdviseSink::SubStreamFailure","SubStreamFailure","SubStreamFailure method [Windows Shell]","SubStreamFailure method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_SubStreamFailure","shell.ITransferAdviseSink_SubStreamFailure","shobjidl_core/ITransferAdviseSink::SubStreamFailure"]
 old-location: shell\ITransferAdviseSink_SubStreamFailure.htm
 tech.root: shell
 ms.assetid: 4cca3bc0-45c6-40ee-8050-7035faa1e601

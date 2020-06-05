@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IMofCompiler.CreateBMOF
 title: IMofCompiler::CreateBMOF (wbemcli.h)
 description: The IMofCompiler::CreateBMOF method creates a binary MOF file.
+helpviewer_keywords: ["CreateBMOF","CreateBMOF method [Windows Management Instrumentation]","CreateBMOF method [Windows Management Instrumentation]","IMofCompiler interface","IMofCompiler interface [Windows Management Instrumentation]","CreateBMOF method","IMofCompiler.CreateBMOF","IMofCompiler::CreateBMOF","WBEM_FLAG_CHECK_ONLY","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_UPDATE_FORCE_MODE","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_UPDATE_SAFE_MODE","WBEM_FLAG_WMI_CHECK","WBEM_FLAT_CONSOLE_PRINT","_hmm_imofcompiler_createbmof","wbemcli/IMofCompiler::CreateBMOF","wmi.imofcompiler_createbmof"]
 old-location: wmi\imofcompiler_createbmof.htm
 tech.root: WmiSdk
 ms.assetid: 39c5d621-0cdf-44e2-9ec0-c68299e85cb7
@@ -183,7 +184,7 @@ Permits only new instances.
 
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
@@ -206,11 +207,11 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuc
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 

@@ -2,6 +2,7 @@
 UID: NC:scesvc.PFSCE_SET_INFO
 title: PFSCE_SET_INFO (scesvc.h)
 description: Sets or overwrites service-specific configuration and analysis information.
+helpviewer_keywords: ["FALSE","PFSCE_SET_INFO","PFSCE_SET_INFO callback","PFSCE_SET_INFO callback function [Security]","SCESVC_ANALYSIS_INFO","SCESVC_CONFIGURATION_INFO","SCE_SERVICE_ANALYSIS_INFO","SCE_SERVICE_CONFIGURATION_INFO","TRUE","_config_pfsce_set_info","scesvc/PFSCE_SET_INFO","security.pfsce_set_info"]
 old-location: security\pfsce_set_info.htm
 tech.root: SecMgmt
 ms.assetid: 131585a9-b0a9-4686-84ba-237bcdcc4f5f
@@ -284,11 +285,11 @@ The specified record was not found in the security database.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
+<a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
  
 
  

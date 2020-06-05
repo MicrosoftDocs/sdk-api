@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIRibbon.LoadSettingsFromStream
 title: IUIRibbon::LoadSettingsFromStream (uiribbon.h)
-description: Reads ribbon settings from a binary stream.
+description: Reads ribbon settings from a binary stream.helpviewer_keywords: ["IUIRibbon interface [Windows Ribbon]","LoadSettingsFromStream method","IUIRibbon.LoadSettingsFromStream","IUIRibbon::LoadSettingsFromStream","LoadSettingsFromStream","LoadSettingsFromStream method [Windows Ribbon]","LoadSettingsFromStream method [Windows Ribbon]","IUIRibbon interface","scenicintent_IUIRibbon_LoadSettingsFromStream","uiribbon/IUIRibbon::LoadSettingsFromStream","windowsribbon.windowsribbon_iuiribbon_loadsettingsfromstream"]
 old-location: windowsribbon\windowsribbon_iuiribbon_loadsettingsfromstream.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\loadsettingsfromstream.htm

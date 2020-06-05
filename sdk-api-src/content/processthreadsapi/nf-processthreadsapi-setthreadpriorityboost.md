@@ -1,7 +1,7 @@
 ---
 UID: NF:processthreadsapi.SetThreadPriorityBoost
 title: SetThreadPriorityBoost function (processthreadsapi.h)
-description: Disables or enables the ability of the system to temporarily boost the priority of a thread.
+description: Disables or enables the ability of the system to temporarily boost the priority of a thread.helpviewer_keywords: ["SetThreadPriorityBoost","SetThreadPriorityBoost function","_win32_setthreadpriorityboost","base.setthreadpriorityboost","processthreadsapi/SetThreadPriorityBoost","winbase/SetThreadPriorityBoost"]
 old-location: base\setthreadpriorityboost.htm
 tech.root: ProcThread
 ms.assetid: 5cc16bfe-6792-40e8-91ef-6f54a38e6e33

@@ -2,6 +2,7 @@
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaSize
 title: GetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
 description: Retrieves a monitor's minimum, maximum, and current width or height.
+helpviewer_keywords: ["GetMonitorDisplayAreaSize","GetMonitorDisplayAreaSize function [Monitor Configuration]","highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize","monitor.getmonitordisplayareasize"]
 old-location: monitor\getmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param stSizeType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_size_type">MC_SIZE_TYPE</a> enumeration, specifying whether to retrieve the width or the height.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_size_type">MC_SIZE_TYPE</a> enumeration, specifying whether to retrieve the width or the height.
           
 
 

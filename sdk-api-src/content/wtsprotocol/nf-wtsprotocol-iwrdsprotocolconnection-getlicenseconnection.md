@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLicenseConnection
 title: IWRdsProtocolConnection::GetLicenseConnection (wtsprotocol.h)
-description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.
+description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.helpviewer_keywords: ["GetLicenseConnection","GetLicenseConnection method [Remote Desktop Services]","GetLicenseConnection method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetLicenseConnection method","IWRdsProtocolConnection.GetLicenseConnection","IWRdsProtocolConnection::GetLicenseConnection","termserv.iwrdsprotocolconnection_getlicenseconnection","wtsprotocol/IWRdsProtocolConnection::GetLicenseConnection"]
 old-location: termserv\iwrdsprotocolconnection_getlicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 6c75f80a-0d47-489d-b684-f718326e2b0d

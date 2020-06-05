@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaAccountId
 title: IXblIdpAuthTokenResult::GetMsaAccountId (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use.helpviewer_keywords: ["GetMsaAccountId","GetMsaAccountId method","GetMsaAccountId method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetMsaAccountId method","IXblIdpAuthTokenResult.GetMsaAccountId","IXblIdpAuthTokenResult::GetMsaAccountId","xblidp.ixblidpauthtokenresult_getmsaaccountid","xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAccountId"]
 old-location: xblidp\ixblidpauthtokenresult_getmsaaccountid.htm
 tech.root: xblidp
 ms.assetid: B26FFEF8-64B0-4F4B-9260-A97850893610

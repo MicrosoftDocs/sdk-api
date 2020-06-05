@@ -1,7 +1,7 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalPort
 title: IStaticPortMapping::EditInternalPort (natupnp.h)
-description: The EditInternalPort method sets the internal port for this port mapping.
+description: The EditInternalPort method sets the internal port for this port mapping.helpviewer_keywords: ["EditInternalPort","EditInternalPort method [ICS/ICF]","EditInternalPort method [ICS/ICF]","IStaticPortMapping interface","IStaticPortMapping interface [ICS/ICF]","EditInternalPort method","IStaticPortMapping.EditInternalPort","IStaticPortMapping::EditInternalPort","_ics_istaticportmapping_editinternalport","ics.istaticportmapping_editinternalport","natupnp/IStaticPortMapping::EditInternalPort"]
 old-location: ics\istaticportmapping_editinternalport.htm
 tech.root: ics
 ms.assetid: 8a43d828-327a-42be-8b8e-f3d669727fd7

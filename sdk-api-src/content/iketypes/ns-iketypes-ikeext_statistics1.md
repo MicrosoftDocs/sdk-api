@@ -2,6 +2,7 @@
 UID: NS:iketypes.IKEEXT_STATISTICS1_
 title: IKEEXT_STATISTICS1 (iketypes.h)
 description: Stores various IKE, AuthIP, and IKEv2 statistics.
+helpviewer_keywords: ["IKEEXT_STATISTICS1","IKEEXT_STATISTICS1 structure [Filtering]","fwp.ikeext_statistics1","iketypes/IKEEXT_STATISTICS1"]
 old-location: fwp\ikeext_statistics1.htm
 tech.root: fwp
 ms.assetid: 73c36ea1-d009-4724-8b1c-54503ad57e4d
@@ -49,8 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-The [IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics0)a> structure stores various IKE, AuthIP, and IKEv2 statistics.
-[IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics0)a> is the specific implementation of IKEEXT_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <b>IKEEXT_STATISTICS0</b> is available.</div><div> </div>
+The [IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics0) structure stores various IKE, AuthIP, and IKEv2 statistics.
+[IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics0) is the specific implementation of IKEEXT_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <b>IKEEXT_STATISTICS0</b> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +62,14 @@ The [IKEEXT_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes
 
 Statistics specific to IKE.
 
-See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1)a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1) for more information.
 
 
 ### -field authipStatistics
 
 Statistics specific to AuthIP.
 
-See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1)a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1) for more information.
 
 
 ### -field ikeV2Statistics
@@ -80,14 +81,14 @@ See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/ap
 
 Statistics common to IKE, AuthIP, and IKEv2.
 
-See [IKEEXT_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1)a> for more information.
+See [IKEEXT_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1) for more information.
 
 
 #### - ikev2Statistics
 
 Statistics specific to IKEv2.
 
-See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1)a> for more information.
+See [IKEEXT_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1) for more information.
 
 
 ## -see-also

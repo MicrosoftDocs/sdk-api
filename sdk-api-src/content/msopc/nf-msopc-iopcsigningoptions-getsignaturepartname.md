@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartName
 title: IOpcSigningOptions::GetSignaturePartName (msopc.h)
-description: Gets the part name of the signature part where the signature markup will be stored.
+description: Gets the part name of the signature part where the signature markup will be stored.helpviewer_keywords: ["GetSignaturePartName","GetSignaturePartName method [Open Packaging Conventions]","GetSignaturePartName method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetSignaturePartName method","IOpcSigningOptions.GetSignaturePartName","IOpcSigningOptions::GetSignaturePartName","msopc/IOpcSigningOptions::GetSignaturePartName","opc.iopcsigningoptions_getsignaturepartname"]
 old-location: opc\iopcsigningoptions_getsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 09481639-eea1-4203-932f-e97558408b42

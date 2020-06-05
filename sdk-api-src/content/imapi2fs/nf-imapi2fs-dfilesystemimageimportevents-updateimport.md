@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.DFileSystemImageImportEvents.UpdateImport
 title: DFileSystemImageImportEvents::UpdateImport (imapi2fs.h)
-description: Receives import notification for every file and directory item imported from an optical medium.
+description: Receives import notification for every file and directory item imported from an optical medium.helpviewer_keywords: ["DFileSystemImageImportEvents interface [IMAPI]","UpdateImport method","DFileSystemImageImportEvents.UpdateImport","DFileSystemImageImportEvents::UpdateImport","UpdateImport","UpdateImport method [IMAPI]","UpdateImport method [IMAPI]","DFileSystemImageImportEvents interface","imapi.dfilesystemimageimportevents_updateimport","imapi2fs/DFileSystemImageImportEvents::UpdateImport"]
 old-location: imapi\dfilesystemimageimportevents_updateimport.htm
 tech.root: imapi
 ms.assetid: 83617039-686d-4c03-9f43-02ecde2ca53e

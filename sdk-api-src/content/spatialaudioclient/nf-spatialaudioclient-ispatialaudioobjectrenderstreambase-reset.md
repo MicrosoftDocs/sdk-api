@@ -2,6 +2,7 @@
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Reset
 title: ISpatialAudioObjectRenderStreamBase::Reset (spatialaudioclient.h)
 description: Reset a stopped audio stream.
+helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase interface [Core Audio]","Reset method","ISpatialAudioObjectRenderStreamBase.Reset","ISpatialAudioObjectRenderStreamBase::Reset","Reset","Reset method [Core Audio]","Reset method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","coreaudio.ispatialaudioobjectrenderstream_reset","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Reset"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_reset.htm
 tech.root: CoreAudio
 ms.assetid: F6F096C0-3384-4463-B25F-99C6A7B3263B
@@ -91,7 +92,7 @@ The audio stream has not been stopped. Stop the stream by calling <a href="https
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>
@@ -164,7 +165,7 @@ The stream must have been previously stopped with a call to <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

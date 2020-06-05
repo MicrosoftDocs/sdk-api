@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.IsAttributeSpecified
 title: ID2D1SvgElement::IsAttributeSpecified (d2d1svg.h)
-description: Returns a boolean indicating if the attribute is explicitly set on the element.
+description: Returns a boolean indicating if the attribute is explicitly set on the element.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","IsAttributeSpecified method","ID2D1SvgElement.IsAttributeSpecified","ID2D1SvgElement::IsAttributeSpecified","IsAttributeSpecified","IsAttributeSpecified method [Direct2D]","IsAttributeSpecified method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::IsAttributeSpecified","direct2d.id2d1svgelement_isattributespecified"]
 old-location: direct2d\id2d1svgelement_isattributespecified.htm
 tech.root: Direct2D
 ms.assetid: 94B91C4E-B2E5-4E23-B381-5920EA0F8F31

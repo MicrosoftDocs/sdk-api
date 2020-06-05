@@ -2,6 +2,7 @@
 UID: NF:winhttp.WinHttpCrackUrl
 title: WinHttpCrackUrl function (winhttp.h)
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
+helpviewer_keywords: ["ICU_DECODE","ICU_ESCAPE","ICU_REJECT_USERPWD","WinHttpCrackUrl","WinHttpCrackUrl function [WinHTTP]","http.winhttpcrackurl","winhttp.winhttpcrackurl_function","winhttp/WinHttpCrackUrl"]
 old-location: http\winhttpcrackurl.htm
 tech.root: WinHttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
@@ -87,7 +88,7 @@ The flags that control the operation. This parameter can be a combination of one
 </dl>
 </td>
 <td width="60%">
-Converts characters that are "escape encoded" (%xx) to their non-escaped form.  This does not decode other encodings, such as UTF-8. This feature can be used only if the user provides buffers in the <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure to copy the components into.
+Converts characters that are "escape encoded" (%xx) to their non-escaped form.  This does not decode other encodings, such as UTF-8. This feature can be used only if the user provides buffers in the <a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure to copy the components into.
 
 
 
@@ -100,7 +101,7 @@ Converts characters that are "escape encoded" (%xx) to their non-escaped form.  
 </td>
 <td width="60%">
 Escapes certain characters to their escape sequences (%xx). Characters to be escaped are non-ASCII characters or those ASCII characters that must be escaped to be represented in an HTTP request.  This feature can be used only if the user provides buffers in the 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure to copy the components into. 
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure to copy the components into. 
 
 </td>
 </tr>
@@ -119,7 +120,7 @@ Rejects URLs as input that contain embedded credentials (either a username, a pa
 ### -param lpUrlComponents [in, out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that receives the URL components. 
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that receives the URL components. 
 
 
 ## -returns
@@ -192,7 +193,7 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The required components are indicated by members of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure. Each component has a pointer to the value and has a member that stores the length of the stored value. If both the value and the length for a component are equal to zero, that component is not returned. If the pointer to the value of the component is not <b>NULL</b> and the value of its corresponding length member is nonzero, the address of the first character of the corresponding component in the 
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure. Each component has a pointer to the value and has a member that stores the length of the stored value. If both the value and the length for a component are equal to zero, that component is not returned. If the pointer to the value of the component is not <b>NULL</b> and the value of its corresponding length member is nonzero, the address of the first character of the corresponding component in the 
 <i>pwszUrl</i> string is stored in the pointer, and the length of the component is stored in the length member.
 
 If the pointer contains the address of the user-supplied buffer, the length member must contain the size of the buffer. The 
@@ -200,8 +201,8 @@ If the pointer contains the address of the user-supplied buffer, the length memb
 
 For 
 <b>WinHttpCrackUrl</b> to work properly, the size of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure must be stored in the 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">dwStructSize</a> member of that structure.
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure must be stored in the 
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">dwStructSize</a> member of that structure.
 
 If the Internet protocol of the URL passed in for 
 <i>pwszUrl</i> is not HTTP or HTTPS, then 

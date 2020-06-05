@@ -2,12 +2,12 @@
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValueByIndex
 title: IWICMetadataWriter::RemoveValueByIndex (wincodecsdk.h)
 description: Removes the metadata item at the specified index.
+helpviewer_keywords: ["IWICMetadataWriter interface [Windows Imaging Component]","RemoveValueByIndex method","IWICMetadataWriter.RemoveValueByIndex","IWICMetadataWriter::RemoveValueByIndex","RemoveValueByIndex","RemoveValueByIndex method [Windows Imaging Component]","RemoveValueByIndex method [Windows Imaging Component]","IWICMetadataWriter interface","_wic_codec_iwicmetadatawriter_removevaluebyindex","wic._wic_codec_iwicmetadatawriter_removevaluebyindex","wincodecsdk/IWICMetadataWriter::RemoveValueByIndex"]
 old-location: wic\_wic_codec_iwicmetadatawriter_removevaluebyindex.htm
 tech.root: wic
 ms.assetid: 65cf7e21-e474-4652-9ee1-0802362f65ca
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValueByIndex method, IWICMetadataWriter.RemoveValueByIndex, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICMetadataWriter.RemoveValueByIndex
 dev_langs:

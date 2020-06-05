@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComMethod2Events.OnMethodReturn2
 title: IComMethod2Events::OnMethodReturn2 (comsvcs.h)
 description: Generated when an object's method returns.
+helpviewer_keywords: ["IComMethod2Events interface [COM+]","OnMethodReturn2 method","IComMethod2Events.OnMethodReturn2","IComMethod2Events::OnMethodReturn2","OnMethodReturn2","OnMethodReturn2 method [COM+]","OnMethodReturn2 method [COM+]","IComMethod2Events interface","_dtc_IComMethod2Events_OnMethodReturn2","comsvcs/IComMethod2Events::OnMethodReturn2","cos.icommethod2events_onmethodreturn2"]
 old-location: cos\icommethod2events_onmethodreturn2.htm
 tech.root: cossdk
 ms.assetid: cf5a7b69-a794-4497-99c9-20c41d454753
@@ -59,7 +60,7 @@ Generated when an object's method returns.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param oid [in]

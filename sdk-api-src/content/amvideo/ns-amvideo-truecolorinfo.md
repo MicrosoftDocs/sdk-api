@@ -1,7 +1,7 @@
 ---
 UID: NS:amvideo.tag_TRUECOLORINFO
 title: TRUECOLORINFO (amvideo.h)
-description: The TRUECOLORINFO structure contains color palette and bitmask information for a video image.
+description: The TRUECOLORINFO structure contains color palette and bitmask information for a video image.helpviewer_keywords: ["TRUECOLORINFO","TRUECOLORINFO structure [DirectShow]","TRUECOLORINFOStructure","amvideo/TRUECOLORINFO","dshow.truecolorinfostructure"]
 old-location: dshow\truecolorinfostructure.htm
 tech.root: DirectShow
 ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc

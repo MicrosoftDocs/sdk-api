@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_PIPELINE_INIT_FN
 title: PIBIO_STORAGE_PIPELINE_INIT_FN (winbio_adapter.h)
-description: Gives the Storage Adapter the chance to perform any initialization that remains incomplete.
+description: Gives the Storage Adapter the chance to perform any initialization that remains incomplete.helpviewer_keywords: ["PIBIO_STORAGE_PIPELINE_INIT_FN","PIBIO_STORAGE_PIPELINE_INIT_FN callback","StorageAdapterPipelineInit","StorageAdapterPipelineInit callback function [Windows Biometric Framework API]","secbiomet.storageadapterpipelineinit","winbio_adapter/StorageAdapterPipelineInit"]
 old-location: secbiomet\storageadapterpipelineinit.htm
 tech.root: SecBioMet
 ms.assetid: F969AC5A-6760-4904-A04E-F2FEF4290F7A

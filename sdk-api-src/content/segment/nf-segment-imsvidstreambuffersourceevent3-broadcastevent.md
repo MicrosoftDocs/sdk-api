@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent3.BroadcastEvent
 title: IMSVidStreamBufferSourceEvent3::BroadcastEvent (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["BroadcastEvent","BroadcastEvent method [Microsoft TV Technologies]","BroadcastEvent method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent3 interface","IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies]","BroadcastEvent method","IMSVidStreamBufferSourceEvent3.BroadcastEvent","IMSVidStreamBufferSourceEvent3::BroadcastEvent","IMSVidStreamBufferSourceEvent3BroadcastEvent","mstv.imsvidstreambuffersourceevent3_broadcastevent","segment/IMSVidStreamBufferSourceEvent3::BroadcastEvent"]
 old-location: mstv\imsvidstreambuffersourceevent3_broadcastevent.htm
 tech.root: mstv
 ms.assetid: 05eeb539-3a0a-4a00-abe5-0a014629d186

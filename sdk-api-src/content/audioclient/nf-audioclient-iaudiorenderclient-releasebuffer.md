@@ -2,6 +2,7 @@
 UID: NF:audioclient.IAudioRenderClient.ReleaseBuffer
 title: IAudioRenderClient::ReleaseBuffer (audioclient.h)
 description: The ReleaseBuffer method releases the buffer space acquired in the previous call to the IAudioRenderClient::GetBuffer method.
+helpviewer_keywords: ["IAudioRenderClient interface [Core Audio]","ReleaseBuffer method","IAudioRenderClient.ReleaseBuffer","IAudioRenderClient::ReleaseBuffer","IAudioRenderClientReleaseBuffer","ReleaseBuffer","ReleaseBuffer method [Core Audio]","ReleaseBuffer method [Core Audio]","IAudioRenderClient interface","audioclient/IAudioRenderClient::ReleaseBuffer","coreaudio.iaudiorenderclient_releasebuffer"]
 old-location: coreaudio\iaudiorenderclient_releasebuffer.htm
 tech.root: CoreAudio
 ms.assetid: 19d89b5e-2e73-4693-b970-7ebf452ef9a1
@@ -67,7 +68,7 @@ The number of audio frames written by the client to the data packet. The value o
 
 ### -param dwFlags [in]
 
-The buffer-configuration flags. The caller can set this parameter either to 0 or to the following <a href="https://docs.microsoft.com/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration value (a flag bit):
+The buffer-configuration flags. The caller can set this parameter either to 0 or to the following <a href="/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration value (a flag bit):
 
 AUDCLNT_BUFFERFLAGS_SILENT
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetAllocateForStream
 title: IWMReaderAdvanced::SetAllocateForStream (wmsdkidl.h)
-description: The SetAllocateForStream method specifies whether the reader uses IWMReaderCallbackAdvanced::AllocateForStream to allocate buffers for stream samples.
+description: The SetAllocateForStream method specifies whether the reader uses IWMReaderCallbackAdvanced::AllocateForStream to allocate buffers for stream samples.helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","SetAllocateForStream method","IWMReaderAdvanced.SetAllocateForStream","IWMReaderAdvanced::SetAllocateForStream","IWMReaderAdvancedSetAllocateForStream","SetAllocateForStream","SetAllocateForStream method [windows Media Format]","SetAllocateForStream method [windows Media Format]","IWMReaderAdvanced interface","wmformat.iwmreaderadvanced_setallocateforstream","wmsdkidl/IWMReaderAdvanced::SetAllocateForStream"]
 old-location: wmformat\iwmreaderadvanced_setallocateforstream.htm
 tech.root: wmformat
 ms.assetid: 58c396a9-5d1e-4a13-a877-5289649a6375

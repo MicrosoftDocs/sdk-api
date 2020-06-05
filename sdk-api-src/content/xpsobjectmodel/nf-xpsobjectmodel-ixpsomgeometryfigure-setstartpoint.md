@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetStartPoint
 title: IXpsOMGeometryFigure::SetStartPoint (xpsobjectmodel.h)
 description: Sets the starting point of the figure.
+helpviewer_keywords: ["IXpsOMGeometryFigure interface [XPS Documents and Packaging]","SetStartPoint method","IXpsOMGeometryFigure.SetStartPoint","IXpsOMGeometryFigure::SetStartPoint","SetStartPoint","SetStartPoint method [XPS Documents and Packaging]","SetStartPoint method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","xps.ixpsomgeometryfigure_setstartpoint","xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint"]
 old-location: xps\ixpsomgeometryfigure_setstartpoint.htm
 tech.root: printdocs
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
@@ -102,7 +103,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the fields in  the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a value that is not valid.
+One of the fields in  the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a value that is not valid.
 
 </td>
 </tr>
@@ -129,7 +130,7 @@ One of the fields in  the <a href="https://docs.microsoft.com/windows/win32/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

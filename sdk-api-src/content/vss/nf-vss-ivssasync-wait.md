@@ -1,7 +1,7 @@
 ---
 UID: NF:vss.IVssAsync.Wait
 title: IVssAsync::Wait (vss.h)
-description: The Wait method waits until an incomplete asynchronous operation finishes.
+description: The Wait method waits until an incomplete asynchronous operation finishes.helpviewer_keywords: ["IVssAsync interface [VSS]","Wait method","IVssAsync.Wait","IVssAsync::Wait","Wait","Wait method [VSS]","Wait method [VSS]","IVssAsync interface","_win32_ivssasync_wait","base.ivssasync_wait","vss/IVssAsync::Wait"]
 old-location: base\ivssasync_wait.htm
 tech.root: VSS
 ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199

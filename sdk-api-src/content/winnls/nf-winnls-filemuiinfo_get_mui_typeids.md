@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.FILEMUIINFO_GET_MUI_TYPEIDS
 title: FILEMUIINFO_GET_MUI_TYPEIDS macro (winnls.h)
-description: Gets the MUI module types array associated with the type identifier offset information in the dwTypeIDMUIOffset member of a FILEMUIINFO structure.
+description: Gets the MUI module types array associated with the type identifier offset information in the dwTypeIDMUIOffset member of a FILEMUIINFO structure.helpviewer_keywords: ["FILEMUIINFO_GET_MUI_TYPEIDS","FILEMUIINFO_GET_MUI_TYPEIDS macro [Internationalization for Windows Applications]","_win32_FILEMUIINFO_GET_MUI_TYPEIDS","intl.filemuiinfo_get_mui_typeids","winnls/FILEMUIINFO_GET_MUI_TYPEIDS"]
 old-location: intl\filemuiinfo_get_mui_typeids.htm
 tech.root: Intl
 ms.assetid: 7f42e8e3-d308-4c2a-96c4-26df9f032211

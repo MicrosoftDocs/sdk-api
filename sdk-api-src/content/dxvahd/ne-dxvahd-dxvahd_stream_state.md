@@ -2,6 +2,7 @@
 UID: NE:dxvahd._DXVAHD_STREAM_STATE
 title: DXVAHD_STREAM_STATE (dxvahd.h)
 description: Specifies state parameters for an input stream to a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+helpviewer_keywords: ["DXVAHD_STREAM_STATE","DXVAHD_STREAM_STATE enumeration [Media Foundation]","DXVAHD_STREAM_STATE_ALPHA","DXVAHD_STREAM_STATE_ASPECT_RATIO","DXVAHD_STREAM_STATE_D3DFORMAT","DXVAHD_STREAM_STATE_DESTINATION_RECT","DXVAHD_STREAM_STATE_FILTER_ANAMORPHIC_SCALING","DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS","DXVAHD_STREAM_STATE_FILTER_CONTRAST","DXVAHD_STREAM_STATE_FILTER_EDGE_ENHANCEMENT","DXVAHD_STREAM_STATE_FILTER_HUE","DXVAHD_STREAM_STATE_FILTER_NOISE_REDUCTION","DXVAHD_STREAM_STATE_FILTER_SATURATION","DXVAHD_STREAM_STATE_FRAME_FORMAT","DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE","DXVAHD_STREAM_STATE_LUMA_KEY","DXVAHD_STREAM_STATE_OUTPUT_RATE","DXVAHD_STREAM_STATE_PALETTE","DXVAHD_STREAM_STATE_PRIVATE","DXVAHD_STREAM_STATE_SOURCE_RECT","dxvahd/DXVAHD_STREAM_STATE","dxvahd/DXVAHD_STREAM_STATE_ALPHA","dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO","dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT","dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT","dxvahd/DXVAHD_STREAM_STATE_FILTER_ANAMORPHIC_SCALING","dxvahd/DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS","dxvahd/DXVAHD_STREAM_STATE_FILTER_CONTRAST","dxvahd/DXVAHD_STREAM_STATE_FILTER_EDGE_ENHANCEMENT","dxvahd/DXVAHD_STREAM_STATE_FILTER_HUE","dxvahd/DXVAHD_STREAM_STATE_FILTER_NOISE_REDUCTION","dxvahd/DXVAHD_STREAM_STATE_FILTER_SATURATION","dxvahd/DXVAHD_STREAM_STATE_FRAME_FORMAT","dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE","dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY","dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE","dxvahd/DXVAHD_STREAM_STATE_PALETTE","dxvahd/DXVAHD_STREAM_STATE_PRIVATE","dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT","mf.dxvahd_stream_state"]
 old-location: mf\dxvahd_stream_state.htm
 tech.root: medfound
 ms.assetid: 75036101-7498-4d66-afc3-df76ae3cca39
@@ -66,12 +67,12 @@ Specifies the video format of the input stream. The state data is a  <a href="ht
 
 ### -field DXVAHD_STREAM_STATE_FRAME_FORMAT
 
-Specifies how the input stream is interlaced. The state data is a  <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_frame_format_data">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a> structure.
+Specifies how the input stream is interlaced. The state data is a  <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_frame_format_data">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a> structure.
 
 
 ### -field DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE
 
-Specifies the color space for the input stream. The state data is a <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_input_color_space_data">DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>  structure.
+Specifies the color space for the input stream. The state data is a <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_input_color_space_data">DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>  structure.
 
 
 ### -field DXVAHD_STREAM_STATE_OUTPUT_RATE
@@ -86,7 +87,7 @@ Specifies the source rectangle. The source rectangle defines which portion of th
 
 ### -field DXVAHD_STREAM_STATE_DESTINATION_RECT
 
-Specifies the destination rectangle. The destination rectangle defines which portion of the destination rectangle receives the blit. The state data is a  <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_destination_rect_data">DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA</a> structure.
+Specifies the destination rectangle. The destination rectangle defines which portion of the destination rectangle receives the blit. The state data is a  <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_destination_rect_data">DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA</a> structure.
 
 
 ### -field DXVAHD_STREAM_STATE_ALPHA
@@ -110,7 +111,7 @@ This state is applicable only if the device supports luma keying. To find out if
 
 ### -field DXVAHD_STREAM_STATE_ASPECT_RATIO
 
-Specifies the pixel aspect ratio of the source and destination surfaces. The state data is a  <a href="https://docs.microsoft.com/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_aspect_ratio_data">DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA</a> structure.
+Specifies the pixel aspect ratio of the source and destination surfaces. The state data is a  <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_stream_state_aspect_ratio_data">DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA</a> structure.
 
 
 ### -field DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.GetLocalityFromKey
 title: IDWriteRemoteFontFileLoader::GetLocalityFromKey (dwrite_3.h)
-description: Gets the locality of the file resource identified by the unique key.
+description: Gets the locality of the file resource identified by the unique key.helpviewer_keywords: ["GetLocalityFromKey","GetLocalityFromKey method [Direct Write]","GetLocalityFromKey method [Direct Write]","IDWriteRemoteFontFileLoader interface","IDWriteRemoteFontFileLoader interface [Direct Write]","GetLocalityFromKey method","IDWriteRemoteFontFileLoader.GetLocalityFromKey","IDWriteRemoteFontFileLoader::GetLocalityFromKey","directwrite.idwriteremotefontfileloader_getlocalityfromkey","dwrite_3/IDWriteRemoteFontFileLoader::GetLocalityFromKey"]
 old-location: directwrite\idwriteremotefontfileloader_getlocalityfromkey.htm
 tech.root: DirectWrite
 ms.assetid: 997D8F04-8667-4D90-B097-CD48F979BE02

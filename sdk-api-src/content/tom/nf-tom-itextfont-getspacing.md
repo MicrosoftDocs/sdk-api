@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont.GetSpacing
 title: ITextFont::GetSpacing (tom.h)
-description: Gets the amount of horizontal spacing between characters.
+description: Gets the amount of horizontal spacing between characters.helpviewer_keywords: ["GetSpacing","GetSpacing method [Windows Controls]","GetSpacing method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetSpacing method","ITextFont.GetSpacing","ITextFont::GetSpacing","_win32_ITextFont_GetSpacing","_win32_ITextFont_GetSpacing_cpp","controls.ITextFont_GetSpacing","controls._win32_ITextFont_GetSpacing","tom/ITextFont::GetSpacing"]
 old-location: controls\ITextFont_GetSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacing.htm

@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostRenameItem
 title: IFileOperationProgressSink::PostRenameItem (shobjidl_core.h)
 description: Performs caller-implemented actions after the rename process for each item is complete.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PostRenameItem method","IFileOperationProgressSink.PostRenameItem","IFileOperationProgressSink::PostRenameItem","PostRenameItem","PostRenameItem method [Windows Shell]","PostRenameItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PostRenameItem","shell.IFileOperationProgressSink_PostRenameItem","shobjidl_core/IFileOperationProgressSink::PostRenameItem"]
 old-location: shell\IFileOperationProgressSink_PostRenameItem.htm
 tech.root: shell
 ms.assetid: 3bb55ecf-a975-4e7f-9e41-30e778d4cbac
@@ -61,7 +62,7 @@ Performs caller-implemented actions after the rename process for each item is co
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that were used during the rename operation. Some values can be set or changed during the rename operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that were used during the rename operation. Some values can be set or changed during the rename operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiItem [in]

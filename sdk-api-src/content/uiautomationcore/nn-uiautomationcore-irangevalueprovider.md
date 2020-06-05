@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IRangeValueProvider
 title: IRangeValueProvider (uiautomationcore.h)
-description: Provides access to controls that can be set to a value within a range.
+description: Provides access to controls that can be set to a value within a range.helpviewer_keywords: ["IRangeValueProvider","IRangeValueProvider interface [Windows Accessibility]","IRangeValueProvider interface [Windows Accessibility]","described","uiauto.uiauto_IRangeValueProvider","uiauto_IRangeValueProvider","uiautomationcore/IRangeValueProvider","winauto.uiauto_IRangeValueProvider"]
 old-location: winauto\uiauto_IRangeValueProvider.htm
 tech.root: WinAuto
 ms.assetid: 1e9e39f9-e728-4ed6-bc62-80d3bbe6302d

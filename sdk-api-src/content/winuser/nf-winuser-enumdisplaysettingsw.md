@@ -2,6 +2,7 @@
 UID: NF:winuser.EnumDisplaySettingsW
 title: EnumDisplaySettingsW function (winuser.h)
 description: The EnumDisplaySettings function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function.
+helpviewer_keywords: ["ENUM_CURRENT_SETTINGS","ENUM_REGISTRY_SETTINGS","EnumDisplaySettings","EnumDisplaySettings function [Windows GDI]","EnumDisplaySettingsA","EnumDisplaySettingsW","_win32_EnumDisplaySettings","gdi.enumdisplaysettings","winuser/EnumDisplaySettings","winuser/EnumDisplaySettingsA","winuser/EnumDisplaySettingsW"]
 old-location: gdi\enumdisplaysettings.htm
 tech.root: gdi
 ms.assetid: af73610b-bcd8-4660-800e-84fa0cc5b4eb
@@ -109,9 +110,9 @@ When you call <b>EnumDisplaySettings</b> with <i>iModeNum</i> set to zero, the o
 
 ### -param lpDevMode [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure into which the function stores information about the specified graphics mode. Before calling <b>EnumDisplaySettings</b>, set the <b>dmSize</b> member to <code>sizeof(DEVMODE)</code>, and set the <b>dmDriverExtra</b> member to indicate the size, in bytes, of the additional space available to receive private driver data.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure into which the function stores information about the specified graphics mode. Before calling <b>EnumDisplaySettings</b>, set the <b>dmSize</b> member to <code>sizeof(DEVMODE)</code>, and set the <b>dmDriverExtra</b> member to indicate the size, in bytes, of the additional space available to receive private driver data.
 
-The <b>EnumDisplaySettings</b> function sets values for the following five <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members:
+The <b>EnumDisplaySettings</b> function sets values for the following five <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members:
 
 <ul>
 <li><b>dmBitsPerPel</b></li>
@@ -165,7 +166,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IGetAppTrackerData
 title: IGetAppTrackerData (comsvcs.h)
-description: Enables administrative applications to retrieve statistical information about running COM+ applications.
+description: Enables administrative applications to retrieve statistical information about running COM+ applications.helpviewer_keywords: ["IGetAppTrackerData","IGetAppTrackerData interface [COM+]","IGetAppTrackerData interface [COM+]","described","comsvcs/IGetAppTrackerData","cos.igetapptrackerdata"]
 old-location: cos\igetapptrackerdata.htm
 tech.root: cossdk
 ms.assetid: f2f9c03b-4f57-4087-8fef-5cdccece91d9

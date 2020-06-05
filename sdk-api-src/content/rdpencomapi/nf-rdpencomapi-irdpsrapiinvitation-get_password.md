@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Password
 title: IRDPSRAPIInvitation::get_Password (rdpencomapi.h)
-description: The password string.
+description: The password string.helpviewer_keywords: ["IRDPSRAPIInvitation interface [RDP]","Password property","IRDPSRAPIInvitation.Password","IRDPSRAPIInvitation.get_Password","IRDPSRAPIInvitation::Password","IRDPSRAPIInvitation::get_Password","Password property [RDP]","Password property [RDP]","IRDPSRAPIInvitation interface","Password property [RDP]","RDPSRAPIInvitation object","RDPSRAPIInvitation object [RDP]","Password property","get_Password","rdp.irdpsrapiinvitation_password","rdpencomapi/IRDPSRAPIInvitation::Password","rdpencomapi/IRDPSRAPIInvitation::get_Password"]
 old-location: rdp\irdpsrapiinvitation_password.htm
 tech.root: rdp
 ms.assetid: 53d55a81-73c3-4196-b23e-b4719a1ceced

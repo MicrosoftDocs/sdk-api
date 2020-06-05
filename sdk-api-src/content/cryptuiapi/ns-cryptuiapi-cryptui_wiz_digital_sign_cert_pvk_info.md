@@ -2,6 +2,7 @@
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO (cryptuiapi.h)
 description: Contains information about the PVK file that contains the certificates used by the CryptUIWizDigitalSign function.
+helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure [Security]","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE","CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV","PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO","security.cryptui_wiz_digital_sign_cert_pvk_info"]
 old-location: security\cryptui_wiz_digital_sign_cert_pvk_info.htm
 tech.root: SecCrypto
 ms.assetid: 0316ed0b-d4e5-4102-9ab0-637e96c7d9f5
@@ -104,7 +105,7 @@ The entity is a PVK provider.
 
 ### -field pPvkFileInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_pvk_file_info">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_pvk_file_info">CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO</a> structure that contains the PVK file that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE</b> is specified for the <b>dwPvkChoice</b> member.
 
 
 ### -field pPvkProvInfo

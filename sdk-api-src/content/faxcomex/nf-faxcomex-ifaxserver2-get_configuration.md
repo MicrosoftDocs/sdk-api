@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxServer2.get_Configuration
 title: IFaxServer2::get_Configuration (faxcomex.h)
-description: The IFaxServer2::Configuration property holds a IFaxConfiguration object. The object permits a fax client application to access information about the configuration of the connected fax server.
+description: The IFaxServer2::Configuration property holds a IFaxConfiguration object. The object permits a fax client application to access information about the configuration of the connected fax server.helpviewer_keywords: ["Configuration property [Fax Service]","Configuration property [Fax Service]","IFaxServer2 interface","IFaxServer2 interface [Fax Service]","Configuration property","IFaxServer2.Configuration","IFaxServer2.get_Configuration","IFaxServer2::Configuration","IFaxServer2::get_Configuration","_mfax_faxserver2.configuration","fax._mfax_faxserver2_configuration","fax._mfax_faxserver2_cpp_mfax_faxserver2_configuration_cpp","faxcomex/IFaxServer2::Configuration","faxcomex/IFaxServer2::get_Configuration","get_Configuration"]
 old-location: fax\_mfax_faxserver2_cpp_mfax_faxserver2_configuration_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\configuration.htm

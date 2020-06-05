@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateJobObjectA
 title: CreateJobObjectA function (winbase.h)
-description: Creates or opens a job object.
+description: Creates or opens a job object.helpviewer_keywords: ["CreateJobObject","CreateJobObject function","CreateJobObjectA","CreateJobObjectW","_win32_createjobobject","base.createjobobject","winbase/CreateJobObject","winbase/CreateJobObjectA","winbase/CreateJobObjectW"]
 old-location: base\createjobobject.htm
 tech.root: ProcThread
 ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854

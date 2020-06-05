@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterClassReqCategories
 title: ICatRegister::UnRegisterClassReqCategories (comcat.h)
-description: Removes one or more required category identifiers from a class.
+description: Removes one or more required category identifiers from a class.helpviewer_keywords: ["ICatRegister interface [COM]","UnRegisterClassReqCategories method","ICatRegister.UnRegisterClassReqCategories","ICatRegister::UnRegisterClassReqCategories","UnRegisterClassReqCategories","UnRegisterClassReqCategories method [COM]","UnRegisterClassReqCategories method [COM]","ICatRegister interface","_com_icatregister_unregisterclassreqcategories","com.icatregister_unregisterclassreqcategories","comcat/ICatRegister::UnRegisterClassReqCategories"]
 old-location: com\icatregister_unregisterclassreqcategories.htm
 tech.root: com
 ms.assetid: d957bc13-f5f7-4cb3-925e-4867ba9622cd

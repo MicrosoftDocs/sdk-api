@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.InPlaceDeactivate
 title: IRichEditOle::InPlaceDeactivate (richole.h)
-description: Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
+description: Indicates when a rich edit control is to deactivate the currently active in-place object, if any.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","InPlaceDeactivate method","IRichEditOle.InPlaceDeactivate","IRichEditOle::InPlaceDeactivate","InPlaceDeactivate","InPlaceDeactivate method [Windows Controls]","InPlaceDeactivate method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_InPlaceDeactivate","_win32_IRichEditOle_InPlaceDeactivate_cpp","controls.IRichEditOle_InPlaceDeactivate","controls._win32_IRichEditOle_InPlaceDeactivate","richole/IRichEditOle::InPlaceDeactivate"]
 old-location: controls\IRichEditOle_InPlaceDeactivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinplacedeactivate.htm

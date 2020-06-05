@@ -1,7 +1,7 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_DISPLAY_TECHNOLOGY_TYPE
 title: MC_DISPLAY_TECHNOLOGY_TYPE (highlevelmonitorconfigurationapi.h)
-description: Identifies monitor display technologies.
+description: Identifies monitor display technologies.helpviewer_keywords: ["*LPMC_DISPLAY_TECHNOLOGY_TYPE","LPMC_DISPLAY_TECHNOLOGY_TYPE","LPMC_DISPLAY_TECHNOLOGY_TYPE enumeration pointer [Monitor Configuration]","MC_APERTURE_GRILL_CATHODE_RAY_TUBE","MC_DISPLAY_TECHNOLOGY_TYPE","MC_DISPLAY_TECHNOLOGY_TYPE","MC_DISPLAY_TECHNOLOGY_TYPE enumeration [Monitor Configuration]","MC_ELECTROLUMINESCENT","MC_FIELD_EMISSION_DEVICE","MC_LIQUID_CRYSTAL_ON_SILICON","MC_MICROELECTROMECHANICAL","MC_ORGANIC_LIGHT_EMITTING_DIODE","MC_PLASMA","MC_SHADOW_MASK_CATHODE_RAY_TUBE","MC_THIN_FILM_TRANSISTOR","highlevelmonitorconfigurationapi/LPMC_DISPLAY_TECHNOLOGY_TYPE","highlevelmonitorconfigurationapi/MC_APERTURE_GRILL_CATHODE_RAY_TUBE","highlevelmonitorconfigurationapi/MC_DISPLAY_TECHNOLOGY_TYPE","highlevelmonitorconfigurationapi/MC_ELECTROLUMINESCENT","highlevelmonitorconfigurationapi/MC_FIELD_EMISSION_DEVICE","highlevelmonitorconfigurationapi/MC_LIQUID_CRYSTAL_ON_SILICON","highlevelmonitorconfigurationapi/MC_MICROELECTROMECHANICAL","highlevelmonitorconfigurationapi/MC_ORGANIC_LIGHT_EMITTING_DIODE","highlevelmonitorconfigurationapi/MC_PLASMA","highlevelmonitorconfigurationapi/MC_SHADOW_MASK_CATHODE_RAY_TUBE","highlevelmonitorconfigurationapi/MC_THIN_FILM_TRANSISTOR","monitor.mc_display_technology_type"]
 old-location: monitor\mc_display_technology_type.htm
 tech.root: Monitor
 ms.assetid: 22cb7b73-931c-4cab-a359-f957ec457148

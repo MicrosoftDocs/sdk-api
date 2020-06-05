@@ -1,7 +1,7 @@
 ---
 UID: NF:provider.Provider.ValidateEnumerationFlags
 title: Provider::ValidateEnumerationFlags (provider.h)
-description: The ValidateEnumerationFlags method determines whether a set of flags is valid for an enumeration.
+description: The ValidateEnumerationFlags method determines whether a set of flags is valid for an enumeration.helpviewer_keywords: ["?ValidateEnumerationFlags@Provider@@MAEJJ@Z","?ValidateEnumerationFlags@Provider@@MEAAJJ@Z","Provider interface [Windows Management Instrumentation]","ValidateEnumerationFlags method","Provider.ValidateEnumerationFlags","Provider::ValidateEnumerationFlags","ValidateEnumerationFlags","ValidateEnumerationFlags method [Windows Management Instrumentation]","ValidateEnumerationFlags method [Windows Management Instrumentation]","Provider interface","_hmm_provider_validateenumerationflags","provider/Provider::ValidateEnumerationFlags","wmi.provider_validateenumerationflags"]
 old-location: wmi\provider_validateenumerationflags.htm
 tech.root: WmiSdk
 ms.assetid: 1f5ae240-2314-40c1-a6c8-2c395d284568

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionChange
 title: IWMPEvents::MediaCollectionChange (wmp.h)
-description: The MediaCollectionChange event occurs when the media collection changes.
+description: The MediaCollectionChange event occurs when the media collection changes.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaCollectionChange method","IWMPEvents.MediaCollectionChange","IWMPEvents::MediaCollectionChange","IWMPEventsMediaCollectionChange","MediaCollectionChange","MediaCollectionChange method [Windows Media Player]","MediaCollectionChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediacollectionchange","wmp/IWMPEvents::MediaCollectionChange"]
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionchange.htm
 tech.root: WMP
 ms.assetid: 8de74905-a0be-46a7-8653-bb955c098257

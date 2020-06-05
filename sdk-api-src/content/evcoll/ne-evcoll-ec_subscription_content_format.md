@@ -1,7 +1,7 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CONTENT_FORMAT
 title: EC_SUBSCRIPTION_CONTENT_FORMAT (evcoll.h)
-description: Specifies how events will be rendered on the computer that sends the events before the events are sent to the event collector computer.
+description: Specifies how events will be rendered on the computer that sends the events before the events are sent to the event collector computer.helpviewer_keywords: ["EC_SUBSCRIPTION_CONTENT_FORMAT","EC_SUBSCRIPTION_CONTENT_FORMAT enumeration","EcContentFormatEvents","EcContentFormatRenderedText","evcoll/EC_SUBSCRIPTION_CONTENT_FORMAT","evcoll/EcContentFormatEvents","evcoll/EcContentFormatRenderedText","wec.ec_subscription_content_format","wes.ec_subscription_content_format"]
 old-location: wec\ec_subscription_content_format.htm
 tech.root: WEC
 ms.assetid: 72db596e-ef94-4167-bf1a-176095e17f8d

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetInterpolationMode
 title: ID2D1BitmapBrush::GetInterpolationMode (d2d1.h)
-description: Gets the interpolation method used when the brush bitmap is scaled or rotated.
+description: Gets the interpolation method used when the brush bitmap is scaled or rotated.helpviewer_keywords: ["GetInterpolationMode","GetInterpolationMode method [Direct2D]","GetInterpolationMode method [Direct2D]","ID2D1BitmapBrush interface","ID2D1BitmapBrush interface [Direct2D]","GetInterpolationMode method","ID2D1BitmapBrush.GetInterpolationMode","ID2D1BitmapBrush::GetInterpolationMode","d2d1/ID2D1BitmapBrush::GetInterpolationMode","direct2d.ID2D1BitmapBrush_GetInterpolationMode"]
 old-location: direct2d\ID2D1BitmapBrush_GetInterpolationMode.htm
 tech.root: Direct2D
 ms.assetid: b0bc487b-3259-4f25-b4ab-7468ccf96d98
@@ -63,7 +63,7 @@ Gets the interpolation method used when the brush bitmap is scaled or rotated.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
 
 The interpolation method used when the brush bitmap is scaled or rotated.
 
@@ -74,7 +74,7 @@ The interpolation method used when the brush bitmap is scaled or rotated.
 
 
 
-This method gets the interpolation mode of a bitmap, which is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a> enumeration type.   <b>D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR</b> represents nearest neighbor filtering. It looks up the bitmap pixel nearest to the current rendering pixel and chooses its exact color. <b>D2D1_BITMAP_INTERPOLATION_MODE_LINEAR</b> represents linear filtering, and  interpolates a color from the four nearest bitmap pixels.
+This method gets the interpolation mode of a bitmap, which is specified by the <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a> enumeration type.   <b>D2D1_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR</b> represents nearest neighbor filtering. It looks up the bitmap pixel nearest to the current rendering pixel and chooses its exact color. <b>D2D1_BITMAP_INTERPOLATION_MODE_LINEAR</b> represents linear filtering, and  interpolates a color from the four nearest bitmap pixels.
 
 The interpolation mode of a bitmap also affects subpixel translations. In a subpixel translation, linear interpolation positions the bitmap more precisely to the application request, but blurs the bitmap in the process.
 
@@ -88,15 +88,15 @@ The interpolation mode of a bitmap also affects subpixel translations. In a subp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a>
+<a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setinterpolationmode">ID2D1BitmapBrush::SetInterpolationMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setinterpolationmode">ID2D1BitmapBrush::SetInterpolationMode</a>
  
 
  

@@ -2,6 +2,7 @@
 UID: NN:credentialprovider.ICredentialProviderCredential2
 title: ICredentialProviderCredential2 (credentialprovider.h)
 description: Extends the ICredentialProviderCredential interface by adding a method that retrieves the security identifier (SID) of a user. The credential is associated with that user and can be grouped under the user's tile.
+helpviewer_keywords: ["ICredentialProviderCredential2","ICredentialProviderCredential2 interface [Windows Shell]","ICredentialProviderCredential2 interface [Windows Shell]","described","credentialprovider/ICredentialProviderCredential2","shell.ICredentialProviderCredential2"]
 old-location: shell\ICredentialProviderCredential2.htm
 tech.root: shell
 ms.assetid: C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58
@@ -91,9 +92,9 @@ A useful tool for getting the available users and determining which ones you wan
 
 Using the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a> is optional, but it is a convenient way to get the necessary information to make valid SID values. In order to get a list of users that will be enumerated by the Logon UI, implement the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidersetuserarray">ICredentialProviderSetUserArray</a> interface to get the <b>ICredentialProviderUserArray</b> object from <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidersetuserarray-setuserarray">SetUserArray</a>. Logon UI calls <b>SetUserArray</b> before <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-getcredentialcount">GetCredentialCount</a>, so the <b>ICredentialProviderUserArray</b> object is ready when a credential provider is about to return credentials.
 
-A V2 credential provider  is represented by an icon displayed underneath the "Sign-in options" link. In order to provide an icon for your credential provider, define a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_TYPE</a> of  <b>CPFT_TILE_IMAGE</b> in the credential itself. Then make sure the <i>guidFieldType</i> of the  <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> is set to <b>CPFG_CREDENTIAL_PROVIDER_LOGO</b>. The recommended size for an icon is 72 by 72 pixels.
+A V2 credential provider  is represented by an icon displayed underneath the "Sign-in options" link. In order to provide an icon for your credential provider, define a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_TYPE</a> of  <b>CPFT_TILE_IMAGE</b> in the credential itself. Then make sure the <i>guidFieldType</i> of the  <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> is set to <b>CPFG_CREDENTIAL_PROVIDER_LOGO</b>. The recommended size for an icon is 72 by 72 pixels.
 
-Similar to specifying an icon for your credential provider, you can also specify a text string to identify your credential provider. This string appears in a pop-up window when a user hovers over the icon. To do this, define a <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_TYPE</a> of  <b>CPFT_SMALL_TEXT</b> in the credential itself. Then make sure the <i>guidFieldType</i> of the  <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> is set to <b>CPFG_CREDENTIAL_PROVIDER_LABEL</b>. This string should supplement the credential provider icon described above and be descriptive enough that users understand what it is. For example, the picture password provider's description is "Picture Password".
+Similar to specifying an icon for your credential provider, you can also specify a text string to identify your credential provider. This string appears in a pop-up window when a user hovers over the icon. To do this, define a <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_TYPE</a> of  <b>CPFT_SMALL_TEXT</b> in the credential itself. Then make sure the <i>guidFieldType</i> of the  <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-credential_provider_field_descriptor">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a> is set to <b>CPFG_CREDENTIAL_PROVIDER_LABEL</b>. This string should supplement the credential provider icon described above and be descriptive enough that users understand what it is. For example, the picture password provider's description is "Picture Password".
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
 Implement this interface to associate credential tiles with specific user tiles in the Logon UI.
@@ -105,8 +106,6 @@ Implement this interface to associate credential tiles with specific user tiles 
 
 
 
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=253508">Credential Provider Framework Changes in Windows 8.docx</a>
 
 
 

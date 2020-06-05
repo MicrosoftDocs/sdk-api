@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.StillOff
 title: IDvdControl2::StillOff (strmif.h)
-description: The StillOff method resumes playback, canceling still mode.
+description: The StillOff method resumes playback, canceling still mode.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","StillOff method","IDvdControl2.StillOff","IDvdControl2::StillOff","IDvdControl2StillOff","StillOff","StillOff method [DirectShow]","StillOff method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_stilloff","strmif/IDvdControl2::StillOff"]
 old-location: dshow\idvdcontrol2_stilloff.htm
 tech.root: DirectShow
 ms.assetid: 6c419a3b-482a-4b1b-afea-6cbf9373c5b9

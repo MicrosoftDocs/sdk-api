@@ -2,6 +2,7 @@
 UID: NE:winnt._LOGICAL_PROCESSOR_RELATIONSHIP
 title: LOGICAL_PROCESSOR_RELATIONSHIP (winnt.h)
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
+helpviewer_keywords: ["LOGICAL_PROCESSOR_RELATIONSHIP","LOGICAL_PROCESSOR_RELATIONSHIP enumeration","RelationAll","RelationCache","RelationGroup","RelationNumaNode","RelationProcessorCore","RelationProcessorPackage","base.logical_processor_relationship","winnt/LOGICAL_PROCESSOR_RELATIONSHIP","winnt/RelationAll","winnt/RelationCache","winnt/RelationGroup","winnt/RelationNumaNode","winnt/RelationProcessorCore","winnt/RelationProcessorPackage"]
 old-location: base\logical_processor_relationship.htm
 tech.root: ProcThread
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)a>  structure.
+Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)  structure.
 
 
 ## -enum-fields
@@ -99,7 +100,7 @@ On input, retrieves information about all possible relationship types. This valu
 
 
 
-The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)a>  structure. 
+The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)  structure. 
 
 
 #### Examples
@@ -127,7 +128,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/sysi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCloseInstance
 title: WdsTransportProviderCloseInstance function (wdstpdi.h)
-description: Closes an instance of a content provider specified by a handle.
+description: Closes an instance of a content provider specified by a handle.helpviewer_keywords: ["WdsTransportProviderCloseInstance","WdsTransportProviderCloseInstance callback","WdsTransportProviderCloseInstance callback function [Windows Deployment Services]","wds.wdstransportprovidercloseinstance","wdstpdi/WdsTransportProviderCloseInstance"]
 old-location: wds\wdstransportprovidercloseinstance.htm
 tech.root: wds
 ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429

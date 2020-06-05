@@ -2,6 +2,7 @@
 UID: NC:webservices.WS_CERTIFICATE_VALIDATION_CALLBACK
 title: WS_CERTIFICATE_VALIDATION_CALLBACK (webservices.h)
 description: The WS_CERTIFICATE_VALIDATION_CALLBACK callback is invoked to validate a certificate when a connection to an HTTP server has been established and headers sent.
+helpviewer_keywords: ["WS_CERTIFICATE_VALIDATION_CALLBACK","WS_CERTIFICATE_VALIDATION_CALLBACK callback","WS_CERTIFICATE_VALIDATION_CALLBACK callback function [Web Services for Windows]","webservices/WS_CERTIFICATE_VALIDATION_CALLBACK","wsw.ws_certificate_validation_callback"]
 old-location: wsw\ws_certificate_validation_callback.htm
 tech.root: wsw
 ms.assetid: 368A6162-F194-4C5C-B5FE-89633435168F
@@ -64,7 +65,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -param *state [in, optional]
 
-A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
+A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
 
 
 ## -returns
@@ -122,7 +123,7 @@ The callback implementation must avoid long computation times or long blocking c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
+<a href="/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
  
 
  

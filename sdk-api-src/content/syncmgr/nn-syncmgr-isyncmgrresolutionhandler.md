@@ -1,7 +1,7 @@
 ---
 UID: NN:syncmgr.ISyncMgrResolutionHandler
 title: ISyncMgrResolutionHandler (syncmgr.h)
-description: Exposes methods that manage synchronizing conflicts. Implement this interface to construct a sync conflict handler. The conflict resolution user interface (UI) will call this interface to resolve the conflict presented to the user.
+description: Exposes methods that manage synchronizing conflicts. Implement this interface to construct a sync conflict handler. The conflict resolution user interface (UI) will call this interface to resolve the conflict presented to the user.helpviewer_keywords: ["ISyncMgrResolutionHandler","ISyncMgrResolutionHandler interface [Windows Shell]","ISyncMgrResolutionHandler interface [Windows Shell]","described","_shell_ISyncMgrResolutionHandler","shell.ISyncMgrResolutionHandler","syncmgr/ISyncMgrResolutionHandler"]
 old-location: shell\ISyncMgrResolutionHandler.htm
 tech.root: shell
 ms.assetid: 5b77217d-5c63-41be-b4df-338714a90fb9

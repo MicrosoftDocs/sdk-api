@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_POINTDIFFUSE_SCALE_MODE
 title: D2D1_POINTDIFFUSE_SCALE_MODE (d2d1effects.h)
-description: The interpolation mode the Point-diffuse lighting effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
+description: The interpolation mode the Point-diffuse lighting effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.helpviewer_keywords: ["D2D1_POINTDIFFUSE_SCALE_MODE","D2D1_POINTDIFFUSE_SCALE_MODE enumeration [Direct2D]","D2D1_POINTDIFFUSE_SCALE_MODE_ANISOTROPIC","D2D1_POINTDIFFUSE_SCALE_MODE_CUBIC","D2D1_POINTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC","D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR","D2D1_POINTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR","D2D1_POINTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_ANISOTROPIC","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_CUBIC","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR","d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR","direct2d.d2d1_pointdiffuse_scale_mode"]
 old-location: direct2d\d2d1_pointdiffuse_scale_mode.htm
 tech.root: Direct2D
 ms.assetid: 552CCE58-0D79-468C-831D-EBEFE2F87F95

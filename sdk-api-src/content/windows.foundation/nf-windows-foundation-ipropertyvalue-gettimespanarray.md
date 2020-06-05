@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetTimeSpanArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of TimeSpan values that is stored in the current IPropertyValue object.
+description: Gets the array of TimeSpan values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetTimeSpanArray","GetTimeSpanArray method [Windows Runtime]","GetTimeSpanArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetTimeSpanArray method","IPropertyValue.GetTimeSpanArray","IPropertyValue.IPropertyValue","IPropertyValue::GetTimeSpanArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetTimeSpanArray","winrt.ipropertyvalue_gettimespanarray"]
 old-location: winrt\ipropertyvalue_gettimespanarray.htm
 tech.root: WinRT
 ms.assetid: a52a665c-4c3a-4489-bd7b-e8ecb8dfe9cc

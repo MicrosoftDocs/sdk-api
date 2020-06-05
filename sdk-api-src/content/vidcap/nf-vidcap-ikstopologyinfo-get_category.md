@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_Category
 title: IKsTopologyInfo::get_Category (vidcap.h)
-description: The get_Category method returns one of the filter categories for this stream class driver.
+description: The get_Category method returns one of the filter categories for this stream class driver.helpviewer_keywords: ["IKsTopologyInfo interface [DirectShow]","get_Category method","IKsTopologyInfo.get_Category","IKsTopologyInfo::get_Category","IKsTopologyInfoget_Category","dshow.ikstopologyinfo_get_category","get_Category","get_Category method [DirectShow]","get_Category method [DirectShow]","IKsTopologyInfo interface","vidcap/IKsTopologyInfo::get_Category"]
 old-location: dshow\ikstopologyinfo_get_category.htm
 tech.root: DirectShow
 ms.assetid: 1026ec92-1ccd-4658-b217-3dbc2ee9ca3a

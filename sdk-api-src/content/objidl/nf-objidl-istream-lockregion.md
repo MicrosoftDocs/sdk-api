@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStream.LockRegion
 title: IStream::LockRegion (objidl.h)
-description: The LockRegion method restricts access to a specified range of bytes in the stream.
+description: The LockRegion method restricts access to a specified range of bytes in the stream.helpviewer_keywords: ["IStream interface [Structured Storage]","LockRegion method","IStream.LockRegion","IStream::LockRegion","LockRegion","LockRegion method [Structured Storage]","LockRegion method [Structured Storage]","IStream interface","_stg_istream_lockregion","objidl/IStream::LockRegion","stg.istream_lockregion"]
 old-location: stg\istream_lockregion.htm
 tech.root: Stg
 ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8

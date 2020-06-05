@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcNsBindingInqEntryNameW
 title: RpcNsBindingInqEntryNameW function (rpcdce.h)
-description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.
+description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.helpviewer_keywords: ["RpcNsBindingInqEntryName","RpcNsBindingInqEntryName function [RPC]","RpcNsBindingInqEntryNameA","RpcNsBindingInqEntryNameW","_rpc_rpcnsbindinginqentryname","rpc.rpcnsbindinginqentryname","rpcdce/RpcNsBindingInqEntryName","rpcdce/RpcNsBindingInqEntryNameA","rpcdce/RpcNsBindingInqEntryNameW"]
 old-location: rpc\rpcnsbindinginqentryname.htm
 tech.root: Rpc
 ms.assetid: fff87506-4c3f-47cb-8130-78e46e906bf0

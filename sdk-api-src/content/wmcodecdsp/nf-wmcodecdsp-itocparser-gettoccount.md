@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocCount
 title: ITocParser::GetTocCount (wmcodecdsp.h)
-description: The GetTocCount method retrieves the number of tables of contents, of a specified position type, in the TOC Parser object.
+description: The GetTocCount method retrieves the number of tables of contents, of a specified position type, in the TOC Parser object.helpviewer_keywords: ["GetTocCount","GetTocCount method [Media Foundation]","GetTocCount method [Media Foundation]","ITocParser interface","ITocParser interface [Media Foundation]","GetTocCount method","ITocParser.GetTocCount","ITocParser::GetTocCount","codecapi.itocparser_gettoccount","mf.itocparser_gettoccount","wmcodecdsp/ITocParser::GetTocCount"]
 old-location: mf\itocparser_gettoccount.htm
 tech.root: medfound
 ms.assetid: 8ad80a20-cadb-4a0d-a39e-b627324df425

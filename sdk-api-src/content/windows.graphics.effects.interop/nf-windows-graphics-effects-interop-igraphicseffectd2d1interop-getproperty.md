@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetProperty
 title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
-description: Retrieves the effect property at the specified index.
+description: Retrieves the effect property at the specified index.helpviewer_keywords: ["GetProperty","GetProperty method","GetProperty method","IGraphicsEffectD2D1Interop interface","IGraphicsEffectD2D1Interop interface","GetProperty method","IGraphicsEffectD2D1Interop.GetProperty","IGraphicsEffectD2D1Interop.effects","IGraphicsEffectD2D1Interop::GetProperty","IGraphicsEffectD2D1Interop::effects","w_graph_fx.igraphicseffectd2d1interop_getproperty","windows/IGraphicsEffectD2D1Interop::GetProperty"]
 old-location: w_graph_fx\igraphicseffectd2d1interop_getproperty.htm
 tech.root: w_graph_fx
 ms.assetid: 415C12FA-C779-4F00-A83F-AB5D4EC0B8C2

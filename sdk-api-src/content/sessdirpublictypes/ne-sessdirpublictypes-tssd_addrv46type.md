@@ -2,6 +2,7 @@
 UID: NE:sessdirpublictypes._TSSD_AddrV46Type
 title: TSSD_AddrV46Type (sessdirpublictypes.h)
 description: Indicates the IP address type.
+helpviewer_keywords: ["TSSD_ADDR_IPv4","TSSD_ADDR_IPv6","TSSD_ADDR_UNDEFINED","TSSD_AddrV46Type","TSSD_AddrV46Type enumeration [Remote Desktop Services]","sessdirpublictypes/TSSD_ADDR_IPv4","sessdirpublictypes/TSSD_ADDR_IPv6","sessdirpublictypes/TSSD_ADDR_UNDEFINED","sessdirpublictypes/TSSD_AddrV46Type","termserv.tssd_addrv46type"]
 old-location: termserv\tssd_addrv46type.htm
 tech.root: TermServ
 ms.assetid: 3c79234e-3ded-4911-8a83-2e69d3a6294a
@@ -77,7 +78,7 @@ The address is in IPv6 format.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint">TSSD_ConnectionPoint</a>
+<a href="/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint">TSSD_ConnectionPoint</a>
  
 
  

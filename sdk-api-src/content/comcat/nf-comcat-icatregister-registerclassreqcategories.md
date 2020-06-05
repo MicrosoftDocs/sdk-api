@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterClassReqCategories
 title: ICatRegister::RegisterClassReqCategories (comcat.h)
-description: Registers the class as requiring one or more component categories.
+description: Registers the class as requiring one or more component categories.helpviewer_keywords: ["ICatRegister interface [COM]","RegisterClassReqCategories method","ICatRegister.RegisterClassReqCategories","ICatRegister::RegisterClassReqCategories","RegisterClassReqCategories","RegisterClassReqCategories method [COM]","RegisterClassReqCategories method [COM]","ICatRegister interface","_com_icatregister_registerclassreqcategories","com.icatregister_registerclassreqcategories","comcat/ICatRegister::RegisterClassReqCategories"]
 old-location: com\icatregister_registerclassreqcategories.htm
 tech.root: com
 ms.assetid: 56aa5fcd-b46a-4807-ba51-9b4b6d28ceeb

@@ -1,7 +1,7 @@
 ---
 UID: NF:snmp.SnmpUtilMemFree
 title: SnmpUtilMemFree function (snmp.h)
-description: The SnmpUtilMemFree function frees the specified memory object. This function is an element of the SNMP Utility API.
+description: The SnmpUtilMemFree function frees the specified memory object. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilMemFree","SnmpUtilMemFree function [SNMP]","_snmp_snmputilmemfree","snmp.snmputilmemfree","snmp/SnmpUtilMemFree"]
 old-location: snmp\snmputilmemfree.htm
 tech.root: SNMP
 ms.assetid: 57cf0398-d2c1-4dd9-ad77-0c453412034a

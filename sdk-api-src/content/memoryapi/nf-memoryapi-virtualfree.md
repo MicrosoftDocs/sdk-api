@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualFree
 title: VirtualFree function (memoryapi.h)
-description: Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.
+description: Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.helpviewer_keywords: ["MEM_COALESCE_PLACEHOLDERS","MEM_DECOMMIT","MEM_PRESERVE_PLACEHOLDER","MEM_RELEASE","VirtualFree","VirtualFree function","_win32_virtualfree","base.virtualfree","winbase/VirtualFree"]
 old-location: base\virtualfree.htm
 tech.root: Memory
 ms.assetid: d6f27be8-8929-4a4d-b52c-fa99044ca243

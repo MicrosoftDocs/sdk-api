@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestedSigner
 title: IXpsSignatureRequest::GetRequestedSigner (xpsdigitalsignature.h)
-description: Gets the identity of the person who has signed or is requesting to sign the package.
+description: Gets the identity of the person who has signed or is requesting to sign the package.helpviewer_keywords: ["GetRequestedSigner","GetRequestedSigner method [XPS Documents and Packaging]","GetRequestedSigner method [XPS Documents and Packaging]","IXpsSignatureRequest interface","IXpsSignatureRequest interface [XPS Documents and Packaging]","GetRequestedSigner method","IXpsSignatureRequest.GetRequestedSigner","IXpsSignatureRequest::GetRequestedSigner","xps.ixpssignaturerequest_getrequestedsigner","xpsdigitalsignature/IXpsSignatureRequest::GetRequestedSigner"]
 old-location: xps\ixpssignaturerequest_getrequestedsigner.htm
 tech.root: printdocs
 ms.assetid: fbe5872e-76af-4aa1-86ad-ed7c36fd6447

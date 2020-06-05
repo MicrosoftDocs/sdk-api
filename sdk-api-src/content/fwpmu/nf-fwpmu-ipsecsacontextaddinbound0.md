@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextAddInbound0
 title: IPsecSaContextAddInbound0 function (fwpmu.h)
 description: The IPsecSaContextAddInbound0 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound0 is the specific implementation of IPsecSaContextAddInbound used in Windows Vista.
+helpviewer_keywords: ["IPsecSaContextAddInbound0","IPsecSaContextAddInbound0 function [Filtering]","fwp.ipsecsacontextaddinbound0","fwpmu/IPsecSaContextAddInbound0"]
 old-location: fwp\ipsecsacontextaddinbound0.htm
 tech.root: fwp
 ms.assetid: e0798bcb-847d-481e-b9f0-b18c0bbad22c
@@ -73,7 +74,7 @@ Identifier for the existing IPsec SA context. This is the value returned in the 
 
 ### -param inboundBundle [in]
 
-Type: [IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)a>*</b>
+Type: [IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)*</b>
 
 The inbound IPsec SA bundle to be added to the SA context.
 
@@ -136,7 +137,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-[IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)a>
+[IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)
 
 
 

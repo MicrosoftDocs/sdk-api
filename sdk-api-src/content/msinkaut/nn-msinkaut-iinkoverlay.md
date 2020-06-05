@@ -2,6 +2,7 @@
 UID: NN:msinkaut.IInkOverlay
 title: IInkOverlay (msinkaut.h)
 description: .
+helpviewer_keywords: ["IInkOverlay","IInkOverlay interface [Tablet PC]","IInkOverlay interface [Tablet PC]","described","msinkaut/IInkOverlay","tablet.iinkoverlay"]
 old-location: tablet\iinkoverlay.htm
 tech.root: tablet
 ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141
@@ -795,4 +796,4 @@ Creating the InkOverlay control behind a transparent control (such as a GroupBox
 
 ## -see-also
 
-[IInkCollector interface](nn-msinkaut-iinkcollector.md), [IInkOverlay interface](nn-msinkaut-iinkoverlay.md), [InkOverlay class](https://docs.microsoft.com/windows/win32/tablet/inkoverlay-class)
+[IInkCollector interface](nn-msinkaut-iinkcollector.md), [IInkOverlay interface](nn-msinkaut-iinkoverlay.md), [InkOverlay class](/windows/win32/tablet/inkoverlay-class)

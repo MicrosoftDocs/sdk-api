@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoType
 title: ITypeLib::GetTypeInfoType (oaidl.h)
-description: Retrieves the type of a type description.
+description: Retrieves the type of a type description.helpviewer_keywords: ["GetTypeInfoType","GetTypeInfoType method [Automation]","GetTypeInfoType method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeInfoType method","ITypeLib.GetTypeInfoType","ITypeLib::GetTypeInfoType","_oa96_ITypeLib_GetTypeInfoType","automat.itypelib_gettypeinfotype","oaidl/ITypeLib::GetTypeInfoType"]
 old-location: automat\itypelib_gettypeinfotype.htm
 tech.root: automat
 ms.assetid: 2e0924ee-41f1-4f0a-a491-40b92bd0711e

@@ -2,6 +2,7 @@
 UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventAdded
 title: IRawElementProviderAdviseEvents::AdviseEventAdded (uiautomationcore.h)
 description: Notifies the Microsoft UI Automation provider when a UI Automation client begins listening for a specific event, including a property-changed event.
+helpviewer_keywords: ["AdviseEventAdded","AdviseEventAdded method [Windows Accessibility]","AdviseEventAdded method [Windows Accessibility]","IRawElementProviderAdviseEvents interface","IRawElementProviderAdviseEvents interface [Windows Accessibility]","AdviseEventAdded method","IRawElementProviderAdviseEvents.AdviseEventAdded","IRawElementProviderAdviseEvents::AdviseEventAdded","uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded","uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded","uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventAdded","winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded"]
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded.htm
 tech.root: WinAuto
 ms.assetid: b5902d9b-e008-4b91-933e-82506718eecd
@@ -67,7 +68,7 @@ The identifier of the event being added. For a list of event IDs, see <a href="h
 
 ### -param propertyIDs [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
 A pointer to the identifiers of properties being added, or <b>NULL</b> if the event listener 
 				being added is not listening for property events.

@@ -2,6 +2,7 @@
 UID: NF:bluetoothapis.BluetoothRegisterForAuthentication
 title: BluetoothRegisterForAuthentication function (bluetoothapis.h)
 description: The BluetoothRegisterForAuthentication function registers a callback function that is called when a particular Bluetooth device requests authentication.
+helpviewer_keywords: ["BluetoothRegisterForAuthentication","BluetoothRegisterForAuthentication function [Bluetooth]","bluetooth.bluetoothregisterforauthentication","bluetoothapis/BluetoothRegisterForAuthentication"]
 old-location: bluetooth\bluetoothregisterforauthentication.htm
 tech.root: bluetooth
 ms.assetid: f85dd076-9062-413f-863f-9d3baba322ad
@@ -59,7 +60,7 @@ The <b>BluetoothRegisterForAuthentication</b> function registers a callback func
 
 ### -param pbtdi
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure. The Address member is used for comparison.
+Pointer to a  <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure. The Address member is used for comparison.
 
 
 ### -param phRegHandle
@@ -112,7 +113,7 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

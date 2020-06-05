@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillMesh
 title: ID2D1RenderTarget::FillMesh (d2d1.h)
-description: Paints the interior of the specified mesh.
+description: Paints the interior of the specified mesh.helpviewer_keywords: ["FillMesh","FillMesh method [Direct2D]","FillMesh method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillMesh method","ID2D1RenderTarget.FillMesh","ID2D1RenderTarget::FillMesh","d2d1/ID2D1RenderTarget::FillMesh","direct2d.ID2D1RenderTarget_FillMesh"]
 old-location: direct2d\ID2D1RenderTarget_FillMesh.htm
 tech.root: Direct2D
 ms.assetid: e22c9169-e770-4f3d-819b-b9363b6e6542
@@ -59,14 +59,14 @@ Paints the interior of the specified mesh.
 
 ### -param mesh [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>*</b>
 
 The mesh to paint.
 
 
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the mesh.
 
@@ -75,11 +75,11 @@ The brush used to paint the mesh.
 
 
 
-The current antialias mode of the render target must be <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a> when <b>FillMesh</b> is called. To change the render target's antialias mode, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">SetAntialiasMode</a> method.
+The current antialias mode of the render target must be <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a> when <b>FillMesh</b> is called. To change the render target's antialias mode, use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">SetAntialiasMode</a> method.
 
-<b>FillMesh</b> does not expect a particular winding order for the triangles in the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>; both clockwise and counter-clockwise will work. 
+<b>FillMesh</b> does not expect a particular winding order for the triangles in the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>; both clockwise and counter-clockwise will work. 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>FillMesh</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>FillMesh</b>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 
@@ -89,15 +89,15 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a>
+<a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE_ALIASED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">SetAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">SetAntialiasMode</a>
  
 
  

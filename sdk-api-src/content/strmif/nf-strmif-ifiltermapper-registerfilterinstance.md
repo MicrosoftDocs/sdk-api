@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilterInstance
 title: IFilterMapper::RegisterFilterInstance (strmif.h)
-description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers an identifiable instance of a filter.
+description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers an identifiable instance of a filter.helpviewer_keywords: ["IFilterMapper interface [DirectShow]","RegisterFilterInstance method","IFilterMapper.RegisterFilterInstance","IFilterMapper::RegisterFilterInstance","IFilterMapperRegisterFilterInstance","RegisterFilterInstance","RegisterFilterInstance method [DirectShow]","RegisterFilterInstance method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_registerfilterinstance","strmif/IFilterMapper::RegisterFilterInstance"]
 old-location: dshow\ifiltermapper_registerfilterinstance.htm
 tech.root: DirectShow
 ms.assetid: ce42047c-0b74-4ad4-b5a1-ea66fc6bffc3

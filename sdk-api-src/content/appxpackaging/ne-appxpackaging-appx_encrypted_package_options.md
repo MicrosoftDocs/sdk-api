@@ -1,7 +1,7 @@
 ---
 UID: NE:appxpackaging.APPX_ENCRYPTED_PACKAGE_OPTIONS
 title: APPX_ENCRYPTED_PACKAGE_OPTIONS (appxpackaging.h)
-description: Encrypted app package options.
+description: Encrypted app package options.helpviewer_keywords: ["APPX_ENCRYPTED_PACKAGE_OPTIONS","APPX_ENCRYPTED_PACKAGE_OPTIONS enumeration [App packaging and management]","APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION","APPX_ENCRYPTED_PACKAGE_OPTION_NONE","APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING","appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTIONS","appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION","appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_NONE","appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING","appxpkg.appx_encrypted_package_options"]
 old-location: appxpkg\appx_encrypted_package_options.htm
 tech.root: appxpkg
 ms.assetid: BEF0AA21-AC0F-4DA5-BA5C-404E54B67953

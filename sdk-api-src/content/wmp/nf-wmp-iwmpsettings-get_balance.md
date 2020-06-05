@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSettings.get_balance
 title: IWMPSettings::get_balance (wmp.h)
-description: The get_balance method retrieves the current stereo balance.
+description: The get_balance method retrieves the current stereo balance.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_balance method","IWMPSettings.get_balance","IWMPSettings::get_balance","IWMPSettingsget_balance","get_balance","get_balance method [Windows Media Player]","get_balance method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_balance","wmp/IWMPSettings::get_balance"]
 old-location: wmp\iwmpsettings_get_balance.htm
 tech.root: WMP
 ms.assetid: 457ee1a8-44da-424d-9cc5-0f0421791757

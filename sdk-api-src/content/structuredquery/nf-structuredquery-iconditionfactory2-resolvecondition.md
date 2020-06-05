@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IConditionFactory2.ResolveCondition
 title: IConditionFactory2::ResolveCondition (structuredquery.h)
 description: Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports ICondition and ICondition2.
+helpviewer_keywords: ["IConditionFactory2 interface [search]","ResolveCondition method","IConditionFactory2.ResolveCondition","IConditionFactory2::ResolveCondition","ResolveCondition","ResolveCondition method [search]","ResolveCondition method [search]","IConditionFactory2 interface","_search_IConditionFactory2_ResolveCondition","search._search_IConditionFactory2_ResolveCondition","structuredquery/IConditionFactory2::ResolveCondition"]
 old-location: search\_search_IConditionFactory2_ResolveCondition.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\resolvecondition.htm
@@ -107,8 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting 
-condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-resolve">Resolve</a> method for additional detail.
 
@@ -124,11 +124,11 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/api/structuredq
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

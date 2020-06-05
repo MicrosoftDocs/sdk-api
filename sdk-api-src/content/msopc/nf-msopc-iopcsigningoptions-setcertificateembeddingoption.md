@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcSigningOptions.SetCertificateEmbeddingOption
 title: IOpcSigningOptions::SetCertificateEmbeddingOption (msopc.h)
 description: Set the storage location of the certificate to be used for the signature.
+helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetCertificateEmbeddingOption method","IOpcSigningOptions.SetCertificateEmbeddingOption","IOpcSigningOptions::SetCertificateEmbeddingOption","SetCertificateEmbeddingOption","SetCertificateEmbeddingOption method [Open Packaging Conventions]","SetCertificateEmbeddingOption method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetCertificateEmbeddingOption","opc.iopcsigningoptions_setcertificateembeddingoption"]
 old-location: opc\iopcsigningoptions_setcertificateembeddingoption.htm
 tech.root: OPC
 ms.assetid: afae4b98-c05f-4fa3-bb1e-f9f43ee86e64
@@ -59,7 +60,7 @@ Set the storage location of the certificate to be used for the signature.
 
 ### -param embeddingOption [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> value that describes the location of the certificate.
+The <a href="/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> value that describes the location of the certificate.
 
 
 ## -returns

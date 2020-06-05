@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerGetUIContext
 title: EapPeerGetUIContext function (eapmethodpeerapis.h)
 description: Obtains the user interface context from the EAP method.
+helpviewer_keywords: ["EapPeerGetUIContext","EapPeerGetUIContext function [EAPHost]","eaphost.eappeergetuicontext","eapmethodpeerapis/EapPeerGetUIContext"]
 old-location: eaphost\eappeergetuicontext.htm
 tech.root: eaphost
 ms.assetid: 14bbffde-da24-4632-bd73-2f96dc983117
@@ -93,7 +94,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
 
 
 

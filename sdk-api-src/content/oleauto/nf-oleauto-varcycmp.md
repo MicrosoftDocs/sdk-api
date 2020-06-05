@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyCmp
 title: VarCyCmp function (oleauto.h)
-description: Compares two variants of type currency.
+description: Compares two variants of type currency.helpviewer_keywords: ["VarCyCmp","VarCyCmp function [Automation]","_oa96_VarCyCmp","automat.varcycmp","oleauto/VarCyCmp"]
 old-location: automat\varcycmp.htm
 tech.root: automat
 ms.assetid: 18146c52-c4ca-48b6-b0be-d93a849cee96

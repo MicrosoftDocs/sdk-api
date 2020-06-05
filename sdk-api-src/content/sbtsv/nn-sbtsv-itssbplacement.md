@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbPlacement
 title: ITsSbPlacement (sbtsv.h)
-description: Exposes methods that prepare the environment (the computer that hosts the virtual machine).
+description: Exposes methods that prepare the environment (the computer that hosts the virtual machine).helpviewer_keywords: ["ITsSbPlacement","ITsSbPlacement interface [Remote Desktop Services]","ITsSbPlacement interface [Remote Desktop Services]","described","sbtsv/ITsSbPlacement","termserv.itssbplacement"]
 old-location: termserv\itssbplacement.htm
 tech.root: TermServ
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7

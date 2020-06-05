@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.IAVIStream.Write
 title: IAVIStream::Write (vfw.h)
-description: The Write method writes data to a stream. Called when an application uses the AVIStreamWrite function.
+description: The Write method writes data to a stream. Called when an application uses the AVIStreamWrite function.helpviewer_keywords: ["IAVIStream interface [Windows Multimedia]","Write method","IAVIStream.Write","IAVIStream::Write","Write","Write method [Windows Multimedia]","Write method [Windows Multimedia]","IAVIStream interface","_win32_IAVIStream_Write","multimedia.iavistream_write","vfw/IAVIStream::Write"]
 old-location: multimedia\iavistream_write.htm
 tech.root: Multimedia
 ms.assetid: 31252348-0830-4b1c-82a3-9f68818094da

@@ -1,7 +1,7 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnector.GetConnection
 title: IMILBitmapEffectOutputConnector::GetConnection (mileffects.h)
-description: Gets the IMILBitmapEffectInputConnector associated with the output connector.
+description: Gets the IMILBitmapEffectInputConnector associated with the output connector.helpviewer_keywords: ["GetConnection","GetConnection method [WPF Bitmap Effects]","GetConnection method [WPF Bitmap Effects]","IMILBitmapEffectOutputConnector interface","IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects]","GetConnection method","IMILBitmapEffectOutputConnector.GetConnection","IMILBitmapEffectOutputConnector::GetConnection","_wibe_imilbitmapeffectoutputconnector_getconnection","mileffects/IMILBitmapEffectOutputConnector::GetConnection","wibe._wibe_imilbitmapeffectoutputconnector_getconnection"]
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector_getconnection.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\getconnection.htm

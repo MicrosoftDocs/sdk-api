@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_WhiteBalanceComponent
 title: IVideoProcAmp::get_WhiteBalanceComponent (vidcap.h)
-description: The get_WhiteBalanceComponent method returns the camera's white balance, specified as red and blue component values.
+description: The get_WhiteBalanceComponent method returns the camera's white balance, specified as red and blue component values.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_WhiteBalanceComponent method","IVideoProcAmp.get_WhiteBalanceComponent","IVideoProcAmp::get_WhiteBalanceComponent","IVideoProcAmpget_WhiteBalanceComponent","dshow.ivideoprocamp_get_whitebalancecomponent","get_WhiteBalanceComponent","get_WhiteBalanceComponent method [DirectShow]","get_WhiteBalanceComponent method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_WhiteBalanceComponent"]
 old-location: dshow\ivideoprocamp_get_whitebalancecomponent.htm
 tech.root: DirectShow
 ms.assetid: b9beb89f-df55-4b76-a679-5e27cb0af9fb

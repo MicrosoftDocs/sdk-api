@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetLength
 title: IIsdbEmergencyInformationDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of an emergency information descriptor, in bytes.
+description: Gets the body length of an emergency information descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbEmergencyInformationDescriptor.GetLength","IIsdbEmergencyInformationDescriptor::GetLength","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetLength","mstv.iisdbemergencyinformationdescriptor_getlength"]
 old-location: mstv\iisdbemergencyinformationdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 22520f2f-8a7f-45f3-86b1-a747fb33d7dc

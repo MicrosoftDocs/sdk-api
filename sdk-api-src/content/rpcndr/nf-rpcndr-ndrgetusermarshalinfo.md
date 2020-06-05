@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrGetUserMarshalInfo
 title: NdrGetUserMarshalInfo function (rpcndr.h)
-description: The NdrGetUserMarshalInfo function provides additional information to wire_marshal and user_marshal helper functions.
+description: The NdrGetUserMarshalInfo function provides additional information to wire_marshal and user_marshal helper functions.helpviewer_keywords: ["NdrGetUserMarshalInfo","NdrGetUserMarshalInfo function [RPC]","_rpc_ndrgetusermarshalinfo","rpc.ndrgetusermarshalinfo","rpcndr/NdrGetUserMarshalInfo"]
 old-location: rpc\ndrgetusermarshalinfo.htm
 tech.root: Rpc
 ms.assetid: 772979eb-eb1c-4e41-91bf-f64766898c8a

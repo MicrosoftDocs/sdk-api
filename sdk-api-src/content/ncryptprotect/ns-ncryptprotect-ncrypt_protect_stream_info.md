@@ -1,7 +1,7 @@
 ---
 UID: NS:ncryptprotect.NCRYPT_PROTECT_STREAM_INFO
 title: NCRYPT_PROTECT_STREAM_INFO (ncryptprotect.h)
-description: Is used by the NCryptStreamOpenToProtect and NCryptStreamOpenToUnprotect functions to pass blocks of processed data to your application.
+description: Is used by the NCryptStreamOpenToProtect and NCryptStreamOpenToUnprotect functions to pass blocks of processed data to your application.helpviewer_keywords: ["NCRYPT_PROTECT_STREAM_INFO","NCRYPT_PROTECT_STREAM_INFO structure [Security]","PNCRYPT_PROTECT_STREAM_INFO","PNCRYPT_PROTECT_STREAM_INFO structure pointer [Security]","ncryptprotect/NCRYPT_PROTECT_STREAM_INFO","ncryptprotect/PNCRYPT_PROTECT_STREAM_INFO","security.ncrypt_protect_stream_info"]
 old-location: security\ncrypt_protect_stream_info.htm
 tech.root: SecCNG
 ms.assetid: 77FADFC1-6C66-4801-B0BD-263963555C3C

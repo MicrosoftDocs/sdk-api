@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Clone
 title: IEnumFsiItems::Clone (imapi2fs.h)
-description: Creates another enumerator that contains the same enumeration state as the current one.
+description: Creates another enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [IMAPI]","Clone method [IMAPI]","IEnumFsiItems interface","IEnumFsiItems interface [IMAPI]","Clone method","IEnumFsiItems.Clone","IEnumFsiItems::Clone","imapi.ienumfsiitems_clone","imapi2fs/IEnumFsiItems::Clone"]
 old-location: imapi\ienumfsiitems_clone.htm
 tech.root: imapi
 ms.assetid: 70806e80-c6b3-4f9c-8146-7dde1c895812

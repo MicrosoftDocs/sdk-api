@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.IsShareDfsJunction
 title: IOfflineFilesShareInfo::IsShareDfsJunction (cscobj.h)
-description: Determines whether the share item is a DFS junction or a shared folder on a server.
+description: Determines whether the share item is a DFS junction or a shared folder on a server.helpviewer_keywords: ["IOfflineFilesShareInfo interface [Offline Files]","IsShareDfsJunction method","IOfflineFilesShareInfo.IsShareDfsJunction","IOfflineFilesShareInfo::IsShareDfsJunction","IsShareDfsJunction","IsShareDfsJunction method [Offline Files]","IsShareDfsJunction method [Offline Files]","IOfflineFilesShareInfo interface","cscobj/IOfflineFilesShareInfo::IsShareDfsJunction","of.iofflinefilesshareinfo_issharedfsjunction"]
 old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm
 tech.root: offlinefiles
 ms.assetid: fdb29270-2fe5-4313-afd9-c21b82b1949a

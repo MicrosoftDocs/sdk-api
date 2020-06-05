@@ -1,7 +1,7 @@
 ---
 UID: NF:roerrorapi.RoResolveRestrictedErrorInfoReference
 title: RoResolveRestrictedErrorInfoReference function
-description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
+description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.helpviewer_keywords: ["RoResolveRestrictedErrorInfoReference","RoResolveRestrictedErrorInfoReference function [Windows Runtime]","roerrorapi/RoResolveRestrictedErrorInfoReference","winrt.roresolverestrictederrorinforeference"]
 old-location: winrt\roresolverestrictederrorinforeference.htm
 tech.root: WinRT
 ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD

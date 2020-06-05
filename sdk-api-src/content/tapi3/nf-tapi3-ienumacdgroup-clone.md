@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3.IEnumACDGroup.Clone
 title: IEnumACDGroup::Clone (tapi3.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumACDGroup interface","IEnumACDGroup interface [TAPI 2.2]","Clone method","IEnumACDGroup.Clone","IEnumACDGroup::Clone","_tapi3_ienumacdgroup_clone","tapi3.ienumacdgroup_clone","tapi3cc/IEnumACDGroup::Clone"]
 old-location: tapi3\ienumacdgroup_clone.htm
 tech.root: Tapi
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1

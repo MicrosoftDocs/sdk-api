@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmSubLayerCreateEnumHandle0
 title: FwpmSubLayerCreateEnumHandle0 function (fwpmu.h)
 description: Creates a handle used to enumerate a set of sublayers.
+helpviewer_keywords: ["FwpmSubLayerCreateEnumHandle0","FwpmSubLayerCreateEnumHandle0 function [Filtering]","fwp.fwpmsublayercreateenumhandle0_func","fwpmu/FwpmSubLayerCreateEnumHandle0"]
 old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)a>*</b>
+Type: [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -153,7 +154,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)a>
+[FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)
 
 
 

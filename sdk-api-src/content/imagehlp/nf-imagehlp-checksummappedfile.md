@@ -2,6 +2,7 @@
 UID: NF:imagehlp.CheckSumMappedFile
 title: CheckSumMappedFile function (imagehlp.h)
 description: Computes the checksum of the specified image file.
+helpviewer_keywords: ["CheckSumMappedFile","CheckSumMappedFile function","_win32_checksummappedfile","base.checksummappedfile","imagehlp/CheckSumMappedFile"]
 old-location: base\checksummappedfile.htm
 tech.root: Debug
 ms.assetid: 01a99601-64de-412d-991e-b1708286ca8c
@@ -84,7 +85,7 @@ A pointer to the variable that receives the computed checksum.
 
 
 If the function succeeds, the return value is a pointer to the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure contained in the mapped image.
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure contained in the mapped image.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -111,7 +112,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

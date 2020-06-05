@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_1.ID2D1GdiMetafileSink
 title: ID2D1GdiMetafileSink (d2d1_1.h)
-description: A developer implemented interface that allows a metafile to be replayed.
+description: A developer implemented interface that allows a metafile to be replayed.helpviewer_keywords: ["ID2D1GdiMetafileSink","ID2D1GdiMetafileSink interface [Direct2D]","ID2D1GdiMetafileSink interface [Direct2D]","described","d2d1_1/ID2D1GdiMetafileSink","direct2d.id2d1gdimetafilesink"]
 old-location: direct2d\id2d1gdimetafilesink.htm
 tech.root: Direct2D
 ms.assetid: 1E9866C3-2A07-48C2-A4C5-F9AE3C7B2272

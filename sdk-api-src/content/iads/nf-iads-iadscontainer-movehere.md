@@ -2,6 +2,7 @@
 UID: NF:iads.IADsContainer.MoveHere
 title: IADsContainer::MoveHere (iads.h)
 description: Moves a specified object to the container that implements this interface.
+helpviewer_keywords: ["IADsContainer interface [ADSI]","MoveHere method","IADsContainer.MoveHere","IADsContainer::MoveHere","MoveHere","MoveHere method [ADSI]","MoveHere method [ADSI]","IADsContainer interface","_ds_iadscontainer_movehere","adsi.iadscontainer__movehere","adsi.iadscontainer_movehere","iads/IADsContainer::MoveHere"]
 old-location: adsi\iadscontainer_movehere.htm
 tech.root: adsi
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
@@ -118,7 +119,7 @@ In Active Directory, you can move an object within the same domain
 <div class="alert"><b>Note</b>  When using the 
      <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
     an ADSI object, you must use the <b>ADS_USE_DELEGATION</b> flag of the 
-     <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
+     <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
     in order to create cross-domain moves with <b>IADsContainer::MoveHere</b>. The
     <b>ADsOpenObject</b> function is equivalent to the 
      <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
@@ -270,7 +271,7 @@ Cleanup:
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
 
 
 

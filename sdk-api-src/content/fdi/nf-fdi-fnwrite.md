@@ -1,7 +1,7 @@
 ---
 UID: NF:fdi.FNWRITE
 title: FNWRITE macro (fdi.h)
-description: The FNWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FDI context.
+description: The FNWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FDI context.helpviewer_keywords: ["FNWRITE","FNWRITE macro [Windows API]","fdi/FNWRITE","winprog.fnwrite"]
 old-location: winprog\fnwrite.htm
 tech.root: DevNotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436

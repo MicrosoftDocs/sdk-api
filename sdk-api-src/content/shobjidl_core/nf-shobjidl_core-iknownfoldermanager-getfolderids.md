@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolderIds
 title: IKnownFolderManager::GetFolderIds (shobjidl_core.h)
-description: Gets an array of all registered known folder IDs. This can be used in enumerating all known folders.
+description: Gets an array of all registered known folder IDs. This can be used in enumerating all known folders.helpviewer_keywords: ["GetFolderIds","GetFolderIds method [Windows Shell]","GetFolderIds method [Windows Shell]","IKnownFolderManager interface","IKnownFolderManager interface [Windows Shell]","GetFolderIds method","IKnownFolderManager.GetFolderIds","IKnownFolderManager::GetFolderIds","_shell_IKnownFolderManager_GetFolderIds","shell.IKnownFolderManager_GetFolderIds","shobjidl_core/IKnownFolderManager::GetFolderIds"]
 old-location: shell\IKnownFolderManager_GetFolderIds.htm
 tech.root: shell
 ms.assetid: 3ac09fc4-15c4-4346-94ad-2a4617c463d1

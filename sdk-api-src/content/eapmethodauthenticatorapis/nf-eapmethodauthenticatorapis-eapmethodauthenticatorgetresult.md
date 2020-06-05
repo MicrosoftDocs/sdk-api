@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetResult
 title: EapMethodAuthenticatorGetResult function (eapmethodauthenticatorapis.h)
 description: Obtains the authentication result from the EAP authenticator method.
+helpviewer_keywords: ["EapMethodAuthenticatorGetResult","EapMethodAuthenticatorGetResult function [EAPHost]","eaphost.eapmethodauthenticatorgetresult","eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult"]
 old-location: eaphost\eapmethodauthenticatorgetresult.htm
 tech.root: eaphost
 ms.assetid: 898b5465-a030-4df6-a51f-0725c6332e80
@@ -66,7 +67,7 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param pResult [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
+A pointer to a <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eap_method_authenticator_result">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
 
 
 ### -param ppEapError [out]
@@ -88,7 +89,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 
 
 

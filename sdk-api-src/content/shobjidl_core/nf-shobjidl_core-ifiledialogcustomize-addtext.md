@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddText
 title: IFileDialogCustomize::AddText (shobjidl_core.h)
-description: Adds text content to the dialog.
+description: Adds text content to the dialog.helpviewer_keywords: ["AddText","AddText method [Windows Shell]","AddText method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddText method","IFileDialogCustomize.AddText","IFileDialogCustomize::AddText","shell.IFileDialogCustomize_AddText","shell_IFileDialogCustomize_AddText","shobjidl_core/IFileDialogCustomize::AddText"]
 old-location: shell\IFileDialogCustomize_AddText.htm
 tech.root: shell
 ms.assetid: efea2fdb-4006-4567-b53c-faa891d18c7e

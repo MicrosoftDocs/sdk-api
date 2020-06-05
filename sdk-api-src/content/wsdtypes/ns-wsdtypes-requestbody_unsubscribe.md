@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_7
 title: REQUESTBODY_Unsubscribe (wsdtypes.h)
-description: Represents a WS-Eventing Unsubscribe request message.
+description: Represents a WS-Eventing Unsubscribe request message.helpviewer_keywords: ["REQUESTBODY_Unsubscribe","REQUESTBODY_Unsubscribe structure","ncd.requestbody_unsubscribe_struct","wsdtypes/REQUESTBODY_Unsubscribe"]
 old-location: ncd\requestbody_unsubscribe_struct.htm
 tech.root: WsdApi
 ms.assetid: 4032fe2b-1fd4-4e6d-998d-3fb80a5b906f

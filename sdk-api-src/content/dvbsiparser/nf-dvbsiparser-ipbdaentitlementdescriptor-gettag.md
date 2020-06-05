@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IPBDAEntitlementDescriptor.GetTag
 title: IPBDAEntitlementDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that uniquely identifies an entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
+description: Gets the tag that uniquely identifies an entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IPBDAEntitlementDescriptor interface","IPBDAEntitlementDescriptor interface [Microsoft TV Technologies]","GetTag method","IPBDAEntitlementDescriptor.GetTag","IPBDAEntitlementDescriptor::GetTag","dvbsiparser/IPBDAEntitlementDescriptor::GetTag","mstv.ipbdaentitlementdescriptor_gettag"]
 old-location: mstv\ipbdaentitlementdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 484de26a-24e5-431d-ba4d-f2f3005502a1

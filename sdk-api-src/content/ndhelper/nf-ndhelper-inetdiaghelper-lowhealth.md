@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.LowHealth
 title: INetDiagHelper::LowHealth (ndhelper.h)
-description: Check whether the component being diagnosed is healthy.
+description: Check whether the component being diagnosed is healthy.helpviewer_keywords: ["INetDiagHelper interface [NDF]","LowHealth method","INetDiagHelper.LowHealth","INetDiagHelper::LowHealth","LowHealth","LowHealth method [NDF]","LowHealth method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_lowhealth","ndhelper/INetDiagHelper::LowHealth"]
 old-location: ndf\inetdiaghelpe_lowhealth.htm
 tech.root: NDF
 ms.assetid: 623de90f-c2dc-4879-9baf-4051d2d3691c

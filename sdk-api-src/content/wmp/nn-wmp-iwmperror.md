@@ -1,7 +1,7 @@
 ---
 UID: NN:wmp.IWMPError
 title: IWMPError (wmp.h)
-description: The IWMPError interface provides methods for accessing a collection of IWMPErrorItem pointers.
+description: The IWMPError interface provides methods for accessing a collection of IWMPErrorItem pointers.helpviewer_keywords: ["IWMPError","IWMPError interface [Windows Media Player]","IWMPError interface [Windows Media Player]","described","IWMPErrorInterface","wmp.iwmperror","wmp/IWMPError"]
 old-location: wmp\iwmperror.htm
 tech.root: WMP
 ms.assetid: f22759cd-0ca7-4992-bb17-0272b35d6d75

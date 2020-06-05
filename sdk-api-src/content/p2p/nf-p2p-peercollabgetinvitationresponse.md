@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabGetInvitationResponse
 title: PeerCollabGetInvitationResponse function (p2p.h)
-description: Obtains the response from a peer previously invited to join a peer collaboration activity.
+description: Obtains the response from a peer previously invited to join a peer collaboration activity.helpviewer_keywords: ["PeerCollabGetInvitationResponse","PeerCollabGetInvitationResponse function [Peer Networking]","p2p.peercollabgetinvitationresponse","p2p/PeerCollabGetInvitationResponse"]
 old-location: p2p\peercollabgetinvitationresponse.htm
 tech.root: P2PSdk
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee

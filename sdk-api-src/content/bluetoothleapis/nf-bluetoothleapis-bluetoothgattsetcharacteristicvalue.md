@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTSetCharacteristicValue
 title: BluetoothGATTSetCharacteristicValue function (bluetoothleapis.h)
-description: Writes the specified characteristic value to the Bluetooth device.
+description: Writes the specified characteristic value to the Bluetooth device.helpviewer_keywords: ["BluetoothGATTSetCharacteristicValue","BluetoothGATTSetCharacteristicValue function [Bluetooth Devices]","bltooth.bluetoothgattsetcharacteristicvalue","bluetoothleapis/BluetoothGATTSetCharacteristicValue"]
 old-location: bltooth\bluetoothgattsetcharacteristicvalue.htm
 tech.root: bltooth
 ms.assetid: 114C1FCD-95F8-4358-8178-C9B283CA7323

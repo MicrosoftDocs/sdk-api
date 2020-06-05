@@ -1,7 +1,7 @@
 ---
 UID: NE:ocidl.tagGUIDKIND
 title: GUIDKIND (ocidl.h)
-description: Flags used to specify the kind of information requested from an object in the IProvideClassInfo2.
+description: Flags used to specify the kind of information requested from an object in the IProvideClassInfo2.helpviewer_keywords: ["GUIDKIND","GUIDKIND enumeration [COM]","GUIDKIND_DEFAULT_SOURCE_DISP_IID","_ctrl_GUIDKIND","com.guidkind","ocidl/GUIDKIND","ocidl/GUIDKIND_DEFAULT_SOURCE_DISP_IID"]
 old-location: com\guidkind.htm
 tech.root: com
 ms.assetid: b9ddd96b-0418-4e31-aaf9-ca060c405fa7

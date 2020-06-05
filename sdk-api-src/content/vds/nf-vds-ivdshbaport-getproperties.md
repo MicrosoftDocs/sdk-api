@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsHbaPort.GetProperties
 title: IVdsHbaPort::GetProperties (vds.h)
-description: Retrieves the properties of an HBA port.
+description: Retrieves the properties of an HBA port.helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsHbaPort interface","IVdsHbaPort interface [VDS]","GetProperties method","IVdsHbaPort.GetProperties","IVdsHbaPort::GetProperties","base.ivdshbaport_getproperties","vds/IVdsHbaPort::GetProperties"]
 old-location: base\ivdshbaport_getproperties.htm
 tech.root: VDS
 ms.assetid: 5472534f-66c8-4a78-a351-92f59e50ae32

@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ULongToUChar
 title: ULongToUChar function (intsafe.h)
-description: Converts a value of type ULONG to a value of type UCHAR.
+description: Converts a value of type ULONG to a value of type UCHAR.helpviewer_keywords: ["DWordToUChar","ULongToUChar","ULongToUChar function [Windows Shell]","_shell_ULongToUChar","intsafe/ULongToUChar","shell.ULongToUChar"]
 old-location: shell\ULongToUChar.htm
 tech.root: shell
 ms.assetid: 459c616d-8551-4112-850f-ddd4743fc2a6

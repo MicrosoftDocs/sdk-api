@@ -1,7 +1,7 @@
 ---
 UID: NF:networkisolation.NetworkIsolationEnumAppContainers
 title: NetworkIsolationEnumAppContainers function (networkisolation.h)
-description: Enumerates all of the app containers that have been created in the system.
+description: Enumerates all of the app containers that have been created in the system.helpviewer_keywords: ["NetworkIsolationEnumAppContainers","NetworkIsolationEnumAppContainers function [ICS/ICF]","ics.networkisolationenumappcontainers","networkisolation/NetworkIsolationEnumAppContainers"]
 old-location: ics\networkisolationenumappcontainers.htm
 tech.root: ics
 ms.assetid: 9a940eb5-712a-459e-9932-0115fdfb512b

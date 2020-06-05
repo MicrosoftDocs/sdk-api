@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ShowWindow
 title: ShowWindow function (winuser.h)
-description: Sets the specified window's show state.
+description: Sets the specified window's show state.helpviewer_keywords: ["SW_FORCEMINIMIZE","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWDEFAULT","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","ShowWindow","ShowWindow function [Windows and Messages]","_win32_ShowWindow","_win32_showwindow_cpp","winmsg.showwindow","winui._win32_showwindow","winuser/ShowWindow"]
 old-location: winmsg\showwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindow.htm

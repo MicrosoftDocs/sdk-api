@@ -1,7 +1,7 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Destroy
 title: IPhotoAcquireOptionsDialog::Destroy (photoacquire.h)
-description: The Destroy method closes and destroys the modeless dialog box created with the Create method.
+description: The Destroy method closes and destroys the modeless dialog box created with the Create method.helpviewer_keywords: ["Destroy","Destroy method [Picture Acquisition]","Destroy method [Picture Acquisition]","IPhotoAcquireOptionsDialog interface","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","Destroy method","IPhotoAcquireOptionsDialog.Destroy","IPhotoAcquireOptionsDialog::Destroy","IPhotoAcquireOptionsDialogDestroy","photoacquire/IPhotoAcquireOptionsDialog::Destroy","picacq.iphotoacquireoptionsdialog_destroy"]
 old-location: picacq\iphotoacquireoptionsdialog_destroy.htm
 tech.root: acquisition
 ms.assetid: 787e12e9-b134-416a-9191-5a2cc6a922fd

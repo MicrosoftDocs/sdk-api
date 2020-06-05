@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKeyCapi
 title: BCryptDeriveKeyCapi function (bcrypt.h)
-description: Derives a key from a hash value.
+description: Derives a key from a hash value.helpviewer_keywords: ["BCryptDeriveKeyCapi","BCryptDeriveKeyCapi function [Security]","bcrypt/BCryptDeriveKeyCapi","security.bcryptderivekeycapi"]
 old-location: security\bcryptderivekeycapi.htm
 tech.root: SecCNG
 ms.assetid: bebb0767-8c54-48b7-864c-f53caea7120d

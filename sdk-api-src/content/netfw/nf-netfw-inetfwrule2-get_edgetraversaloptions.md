@@ -2,6 +2,7 @@
 UID: NF:netfw.INetFwRule2.get_EdgeTraversalOptions
 title: INetFwRule2::get_EdgeTraversalOptions (netfw.h)
 description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE.
+helpviewer_keywords: ["EdgeTraversalOptions property [ICS/ICF]","EdgeTraversalOptions property [ICS/ICF]","INetFwRule2 interface","INetFwRule2 interface [ICS/ICF]","EdgeTraversalOptions property","INetFwRule2.EdgeTraversalOptions","INetFwRule2.get_EdgeTraversalOptions","INetFwRule2::EdgeTraversalOptions","INetFwRule2::get_EdgeTraversalOptions","INetFwRule2::put_EdgeTraversalOptions","get_EdgeTraversalOptions","ics.inetfwrule2_edgetraversaloptions","netfw/INetFwRule2::EdgeTraversalOptions","netfw/INetFwRule2::get_EdgeTraversalOptions","netfw/INetFwRule2::put_EdgeTraversalOptions"]
 old-location: ics\inetfwrule2_edgetraversaloptions.htm
 tech.root: ics
 ms.assetid: 99dfbe4c-dac5-4d04-890c-dbb32f07e556
@@ -51,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-This property can be used to access the edge properties of a firewall rule defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_edge_traversal_type_">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
+This property can be used to access the edge properties of a firewall rule defined by <a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
 
 This property is read/write.
 
@@ -68,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_edge_traversal_type_">NET_FW_EDGE_TRAVERSAL_TYPE</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>
  
 
  

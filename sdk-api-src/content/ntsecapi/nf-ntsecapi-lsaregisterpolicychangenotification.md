@@ -2,6 +2,7 @@
 UID: NF:ntsecapi.LsaRegisterPolicyChangeNotification
 title: LsaRegisterPolicyChangeNotification function (ntsecapi.h)
 description: The LsaRegisterPolicyChangeNotification function registers an event handle with the local security authority (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
+helpviewer_keywords: ["LsaRegisterPolicyChangeNotification","LsaRegisterPolicyChangeNotification function [Security]","PolicyNotifyAccountDomainInformation","PolicyNotifyAuditEventsInformation","PolicyNotifyDnsDomainInformation","PolicyNotifyDomainEfsInformation","PolicyNotifyDomainKerberosTicketInformation","PolicyNotifyServerRoleInformation","_lsa_lsaregisterpolicychangenotification","ntsecapi/LsaRegisterPolicyChangeNotification","security.lsaregisterpolicychangenotification"]
 old-location: security\lsaregisterpolicychangenotification.htm
 tech.root: SecMgmt
 ms.assetid: 0c713d2b-e13a-44e0-8b48-68b233d1c562
@@ -60,7 +61,7 @@ The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handl
 ### -param InformationClass [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ne-ntsecapi-policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the type of policy changes about which your application will be notified. Specify one of the following values. 
+<a href="/windows/win32/api/ntsecapi/ne-ntsecapi-policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the type of policy changes about which your application will be notified. Specify one of the following values. 
 
 
 

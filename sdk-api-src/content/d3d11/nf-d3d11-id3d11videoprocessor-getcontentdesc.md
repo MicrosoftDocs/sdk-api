@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetContentDesc
 title: ID3D11VideoProcessor::GetContentDesc (d3d11.h)
-description: Gets the content description that was used to create the video processor.
+description: Gets the content description that was used to create the video processor.helpviewer_keywords: ["GetContentDesc","GetContentDesc method [Media Foundation]","GetContentDesc method [Media Foundation]","ID3D11VideoProcessor interface","ID3D11VideoProcessor interface [Media Foundation]","GetContentDesc method","ID3D11VideoProcessor.GetContentDesc","ID3D11VideoProcessor::GetContentDesc","d3d11/ID3D11VideoProcessor::GetContentDesc","mf.id3d11videoprocessor_getcontentdesc"]
 old-location: mf\id3d11videoprocessor_getcontentdesc.htm
 tech.root: medfound
 ms.assetid: 8C8433BC-1DB9-45D9-817A-7175B4577818

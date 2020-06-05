@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingQueue.GetJob
 title: IFaxAccountOutgoingQueue::GetJob (faxcomex.h)
-description: Returns an outgoing fax job in the job queue of the current fax account according to the job's ID.
+description: Returns an outgoing fax job in the job queue of the current fax account according to the job's ID.helpviewer_keywords: ["GetJob","GetJob method [Fax Service]","GetJob method [Fax Service]","IFaxAccountOutgoingQueue interface","IFaxAccountOutgoingQueue interface [Fax Service]","GetJob method","IFaxAccountOutgoingQueue.GetJob","IFaxAccountOutgoingQueue::GetJob","_mfax_faxaccountoutgoingqueue.getjob","fax._mfax_faxaccountoutgoingqueue_cpp_mfax_faxaccountoutgoingqueue_getjob_cpp","fax._mfax_faxaccountoutgoingqueue_getjob","faxcomex/IFaxAccountOutgoingQueue::GetJob"]
 old-location: fax\_mfax_faxaccountoutgoingqueue_cpp_mfax_faxaccountoutgoingqueue_getjob_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingqueue\getjob.htm

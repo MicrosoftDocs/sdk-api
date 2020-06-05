@@ -1,7 +1,7 @@
 ---
 UID: NN:oleacc.IAccessible
 title: IAccessible (oleacc.h)
-description: Exposes methods and properties that make a user interface element and its children accessible to client applications.
+description: Exposes methods and properties that make a user interface element and its children accessible to client applications.helpviewer_keywords: ["IAccessible","IAccessible interface [Windows Accessibility]","IAccessible interface [Windows Accessibility]","described","_msaa_IAccessible","msaa.iaccessible","oleacc/IAccessible","winauto.iaccessible"]
 old-location: winauto\iaccessible.htm
 tech.root: WinAuto
 ms.assetid: 51e95b01-71e7-435b-85fb-28ee43eb08a7

@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStream.Revert
 title: IStream::Revert (objidl.h)
-description: The Revert method discards all changes that have been made to a transacted stream since the last IStream::Commit call. On streams open in direct mode and streams using the COM compound file implementation of IStream::Revert, this method has no effect.
+description: The Revert method discards all changes that have been made to a transacted stream since the last IStream::Commit call. On streams open in direct mode and streams using the COM compound file implementation of IStream::Revert, this method has no effect.helpviewer_keywords: ["IStream interface [Structured Storage]","Revert method","IStream.Revert","IStream::Revert","Revert","Revert method [Structured Storage]","Revert method [Structured Storage]","IStream interface","_stg_istream_revert","objidl/IStream::Revert","stg.istream_revert"]
 old-location: stg\istream_revert.htm
 tech.root: Stg
 ms.assetid: 1a707b17-840f-4cd2-9e43-97a8c02120b8

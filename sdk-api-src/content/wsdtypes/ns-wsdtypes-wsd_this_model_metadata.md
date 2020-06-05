@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes._WSD_THIS_MODEL_METADATA
 title: WSD_THIS_MODEL_METADATA (wsdtypes.h)
-description: Provides model-specific information relating to the device.
+description: Provides model-specific information relating to the device.helpviewer_keywords: ["WSD_THIS_MODEL_METADATA","WSD_THIS_MODEL_METADATA structure","ncd.wsd_this_model_metadata_struct","wsdtypes/WSD_THIS_MODEL_METADATA"]
 old-location: ncd\wsd_this_model_metadata_struct.htm
 tech.root: WsdApi
 ms.assetid: 614daaeb-76ac-4dec-93fe-f413164d5330

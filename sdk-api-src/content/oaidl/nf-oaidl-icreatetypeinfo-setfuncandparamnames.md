@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncAndParamNames
 title: ICreateTypeInfo::SetFuncAndParamNames (oaidl.h)
-description: Sets the name of a function and the names of its parameters to the specified names.
+description: Sets the name of a function and the names of its parameters to the specified names.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetFuncAndParamNames method","ICreateTypeInfo.SetFuncAndParamNames","ICreateTypeInfo::SetFuncAndParamNames","SetFuncAndParamNames","SetFuncAndParamNames method [Automation]","SetFuncAndParamNames method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetFuncAndParamNames","automat.icreatetypeinfo_setfuncandparamnames","oaidl/ICreateTypeInfo::SetFuncAndParamNames"]
 old-location: automat\icreatetypeinfo_setfuncandparamnames.htm
 tech.root: automat
 ms.assetid: e3764917-43ea-4151-95da-e01946a2ebb7

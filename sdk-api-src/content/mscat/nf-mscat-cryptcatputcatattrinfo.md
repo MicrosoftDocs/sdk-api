@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATPutCatAttrInfo
 title: CryptCATPutCatAttrInfo function (mscat.h)
 description: Allocates memory for a catalog file attribute and adds it to the catalog.
+helpviewer_keywords: ["CRYPTCAT_ATTR_AUTHENTICATED","CRYPTCAT_ATTR_DATAASCII","CRYPTCAT_ATTR_DATABASE64","CRYPTCAT_ATTR_DATAREPLACE","CRYPTCAT_ATTR_NAMEASCII","CRYPTCAT_ATTR_NAMEOBJID","CRYPTCAT_ATTR_UNAUTHENTICATED","CryptCATPutCatAttrInfo","CryptCATPutCatAttrInfo function [Security]","mscat/CryptCATPutCatAttrInfo","security.cryptcatputcatattrinfo"]
 old-location: security\cryptcatputcatattrinfo.htm
 tech.root: SecCrypto
 ms.assetid: 16bb8560-d4fc-4c81-8eed-21a2da7f396d
@@ -173,7 +174,7 @@ A pointer to a memory buffer that contains the attribute value.
 
 
 
-A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the catalog attribute. The caller must not free this pointer or any of its members.
 
 
 If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.

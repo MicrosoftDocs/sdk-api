@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplusbrush.LinearGradientBrush
 title: LinearGradientBrush (gdiplusbrush.h)
-description: The LinearGradientBrush class defines a brush that paints a color gradient in which the color changes evenly from the starting boundary line of the linear gradient brush to the ending boundary line of the linear gradient brush.
+description: The LinearGradientBrush class defines a brush that paints a color gradient in which the color changes evenly from the starting boundary line of the linear gradient brush to the ending boundary line of the linear gradient brush.helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush class [GDI+]","LinearGradientBrush class [GDI+]","described","_gdiplus_CLASS_LinearGradientBrush_Class","gdiplus._gdiplus_CLASS_LinearGradientBrush_Class","gdiplusbrush/LinearGradientBrush"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrush.htm

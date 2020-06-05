@@ -2,6 +2,7 @@
 UID: NF:winuser.DlgDirSelectExA
 title: DlgDirSelectExA function (winuser.h)
 description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
+helpviewer_keywords: ["DlgDirSelectEx","DlgDirSelectEx function [Windows Controls]","DlgDirSelectExA","DlgDirSelectExW","_win32_DlgDirSelectEx","_win32_DlgDirSelectEx_cpp","controls.DlgDirSelectEx","controls._win32_DlgDirSelectEx","winuser/DlgDirSelectEx","winuser/DlgDirSelectExA","winuser/DlgDirSelectExW"]
 old-location: controls\DlgDirSelectEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
@@ -78,8 +79,8 @@ A pointer to a buffer that receives the selected path.
 Type: <b>int</b>
 
 The length, in 
-					<b>TCHARs</b>, of the buffer pointed to by 
-					<i>lpString</i>. 
+                    <b>TCHARs</b>, of the buffer pointed to by 
+                    <i>lpString</i>. 
 
 
 ### -param idListBox [in]
@@ -107,15 +108,15 @@ If the current selection is not a directory name, the return value is zero. To g
 
 
 The <b>DlgDirSelectEx</b> function copies the selection to the buffer pointed to by the 
-				<i>lpString</i> parameter. If the current selection is a directory name or drive letter, <b>DlgDirSelectEx</b> removes the enclosing square brackets (and hyphens, for drive letters), so that the name or letter is ready to be inserted into a new path. If there is no selection, 
-				<i>lpString</i> does not change. 
+                <i>lpString</i> parameter. If the current selection is a directory name or drive letter, <b>DlgDirSelectEx</b> removes the enclosing square brackets (and hyphens, for drive letters), so that the name or letter is ready to be inserted into a new path. If there is no selection, 
+                <i>lpString</i> does not change. 
 
 If the string is as long or longer than the buffer, the buffer will contain the truncated string with a terminating null character.
 
 <b>DlgDirSelectEx</b> sends <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> messages to the list box. The function does not allow more than one filename to be returned from a list box. The list box must not be a multiple-selection list box. If it is, this function does not return a zero value and 
-				<i>lpString</i> remains unchanged. 
+                <i>lpString</i> remains unchanged. 
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/goglobal/bb688166.aspx">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectExW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/en-us/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 #### Examples

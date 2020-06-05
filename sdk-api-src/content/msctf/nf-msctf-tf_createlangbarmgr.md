@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.TF_CreateLangBarMgr
 title: TF_CreateLangBarMgr function (msctf.h)
-description: The TF_CreateLangBarMgr function creates a language bar manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.
+description: The TF_CreateLangBarMgr function creates a language bar manager object without having to initialize COM. Usage of this method is not recommended, because the calling process must maintain a proper reference count on an object that is owned by Msctf.dll.helpviewer_keywords: ["TF_CreateLangBarMgr","TF_CreateLangBarMgr function [Text Services Framework]","msctf/TF_CreateLangBarMgr","tsf.tf_createlangbarmgr"]
 old-location: tsf\tf_createlangbarmgr.htm
 tech.root: TSF
 ms.assetid: 202c5496-fc64-498e-a6f6-fffacc218990

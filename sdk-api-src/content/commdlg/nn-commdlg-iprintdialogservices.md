@@ -2,6 +2,7 @@
 UID: NN:commdlg.IPrintDialogServices
 title: IPrintDialogServices (commdlg.h)
 description: Provides methods that enable an application using the PrintDlgEx function to retrieve information about the currently selected printer.
+helpviewer_keywords: ["IPrintDialogServices","IPrintDialogServices interface [Dialog Boxes]","IPrintDialogServices interface [Dialog Boxes]","described","_win32_IPrintDialogServices","_win32_iprintdialogservices_cpp","commdlg/IPrintDialogServices","dlgbox.iprintdialogservices","winui._win32_iprintdialogservices"]
 old-location: dlgbox\iprintdialogservices.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices.htm
@@ -72,7 +73,7 @@ The <b>IPrintDialogServices</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getcurrentdevmode">GetCurrentDevMode</a>
 </td>
 <td align="left" width="63%">
-Fills a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 </td>
 </tr>

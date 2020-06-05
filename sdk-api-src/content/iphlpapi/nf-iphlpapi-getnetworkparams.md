@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetNetworkParams
 title: GetNetworkParams function (iphlpapi.h)
-description: The GetNetworkParams function retrieves network parameters for the local computer.
+description: The GetNetworkParams function retrieves network parameters for the local computer.helpviewer_keywords: ["GetNetworkParams","GetNetworkParams function [IP Helper]","_iphlp_getnetworkparams","iphlp.getnetworkparams","iphlpapi/GetNetworkParams"]
 old-location: iphlp\getnetworkparams.htm
 tech.root: IpHlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6

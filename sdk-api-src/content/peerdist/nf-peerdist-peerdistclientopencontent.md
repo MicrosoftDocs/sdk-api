@@ -2,6 +2,7 @@
 UID: NF:peerdist.PeerDistClientOpenContent
 title: PeerDistClientOpenContent function (peerdist.h)
 description: PeerDistClientOpenContent function opens and returns a PEERDIST_CONTENT_HANDLE. The client uses the content handle to retrieve data from the Peer Distribution service.
+helpviewer_keywords: ["PeerDistClientOpenContent","PeerDistClientOpenContent function [Peer Networking]","p2p.peerdistclientopencontent","peerdist/PeerDistClientOpenContent"]
 old-location: p2p\peerdistclientopencontent.htm
 tech.root: P2PSdk
 ms.assetid: bf9d4eb2-e939-42c6-8d71-669a949ca77a
@@ -65,7 +66,7 @@ A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.co
 
 ### -param pContentTag [in]
 
-Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a> structure that contains a 16 byte client specified identifier. This parameter is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientflushcontent">PeerDistClientFlushContent</a> function.  
+Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag) structure that contains a 16 byte client specified identifier. This parameter is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientflushcontent">PeerDistClientFlushContent</a> function.  
 
 
 ### -param hCompletionPort [in, optional]

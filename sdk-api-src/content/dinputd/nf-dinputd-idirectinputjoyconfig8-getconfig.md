@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetConfig
 title: IDirectInputJoyConfig8::GetConfig (dinputd.h)
-description: The IDirectInputJoyConfig8::GetConfig method obtains information about a joystick's configuration.
+description: The IDirectInputJoyConfig8::GetConfig method obtains information about a joystick's configuration.helpviewer_keywords: ["GetConfig","GetConfig method [Human Input Devices]","GetConfig method [Human Input Devices]","IDirectInputJoyConfig8 interface","IDirectInputJoyConfig8 interface [Human Input Devices]","GetConfig method","IDirectInputJoyConfig8.GetConfig","IDirectInputJoyConfig8::GetConfig","di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml","dinputd/IDirectInputJoyConfig8::GetConfig","hid.idirectinputjoyconfig8_getconfig"]
 old-location: hid\idirectinputjoyconfig8_getconfig.htm
 tech.root: hid
 ms.assetid: d8e2a702-d33e-48d2-8e1c-49e09e8f560f

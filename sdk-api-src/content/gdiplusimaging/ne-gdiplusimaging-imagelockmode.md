@@ -1,7 +1,7 @@
 ---
 UID: NE:gdiplusimaging.ImageLockMode
 title: ImageLockMode (gdiplusimaging.h)
-description: The ImageLockMode enumeration specifies flags that are passed to the flags parameter of the Bitmap::LockBits method. The Bitmap::LockBits method locks a portion of an image so that you can read or write the pixel data.
+description: The ImageLockMode enumeration specifies flags that are passed to the flags parameter of the Bitmap::LockBits method. The Bitmap::LockBits method locks a portion of an image so that you can read or write the pixel data.helpviewer_keywords: ["ImageLockMode","ImageLockMode enumeration [GDI+]","ImageLockModeRead","ImageLockModeUserInputBuf","ImageLockModeWrite","_gdiplus_ENUM_ImageLockMode","gdiplus._gdiplus_ENUM_ImageLockMode","gdiplusimaging/ImageLockMode","gdiplusimaging/ImageLockModeRead","gdiplusimaging/ImageLockModeUserInputBuf","gdiplusimaging/ImageLockModeWrite"]
 old-location: gdiplus\_gdiplus_ENUM_ImageLockMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagelockmode.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTuner.ChannelMinMax
 title: IAMTuner::ChannelMinMax (strmif.h)
-description: The ChannelMinMax method retrieves the highest and lowest channels available.
+description: The ChannelMinMax method retrieves the highest and lowest channels available.helpviewer_keywords: ["ChannelMinMax","ChannelMinMax method [DirectShow]","ChannelMinMax method [DirectShow]","IAMTuner interface","IAMTuner interface [DirectShow]","ChannelMinMax method","IAMTuner.ChannelMinMax","IAMTuner::ChannelMinMax","IAMTunerChannelMinMax","dshow.iamtuner_channelminmax","strmif/IAMTuner::ChannelMinMax"]
 old-location: dshow\iamtuner_channelminmax.htm
 tech.root: DirectShow
 ms.assetid: f46bf0ff-cdb3-41b1-829e-4e1b348bd808

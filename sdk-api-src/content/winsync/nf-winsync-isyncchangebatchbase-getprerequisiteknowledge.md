@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetPrerequisiteKnowledge
 title: ISyncChangeBatchBase::GetPrerequisiteKnowledge (winsync.h)
-description: Gets the minimum knowledge that a destination provider is required to have to process this change batch.
+description: Gets the minimum knowledge that a destination provider is required to have to process this change batch.helpviewer_keywords: ["GetPrerequisiteKnowledge","GetPrerequisiteKnowledge method [Windows Sync]","GetPrerequisiteKnowledge method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","GetPrerequisiteKnowledge method","ISyncChangeBatchBase.GetPrerequisiteKnowledge","ISyncChangeBatchBase::GetPrerequisiteKnowledge","winsync.isyncchangebatchbase_getprerequisiteknowledge","winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge"]
 old-location: winsync\isyncchangebatchbase_getprerequisiteknowledge.htm
 tech.root: winsync
 ms.assetid: dd078725-7fd8-4d6c-9b43-f6741b03f1e6

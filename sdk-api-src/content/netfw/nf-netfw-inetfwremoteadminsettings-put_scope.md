@@ -2,6 +2,7 @@
 UID: NF:netfw.INetFwRemoteAdminSettings.put_Scope
 title: INetFwRemoteAdminSettings::put_Scope (netfw.h)
 description: Controls the network scope from which remote administration is allowed.
+helpviewer_keywords: ["INetFwRemoteAdminSettings interface [ICS/ICF]","Scope property","INetFwRemoteAdminSettings.Scope","INetFwRemoteAdminSettings.put_Scope","INetFwRemoteAdminSettings::Scope","INetFwRemoteAdminSettings::get_Scope","INetFwRemoteAdminSettings::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwRemoteAdminSettings interface","ics.inetfwremoteadminsettings_scope","netfw/INetFwRemoteAdminSettings::Scope","netfw/INetFwRemoteAdminSettings::get_Scope","netfw/INetFwRemoteAdminSettings::put_Scope","put_Scope"]
 old-location: ics\inetfwremoteadminsettings_scope.htm
 tech.root: ics
 ms.assetid: 0ba9e6d1-82a4-4a58-9da0-0e07e79b0030
@@ -87,7 +88,7 @@ To create a custom scope, use the <a href="https://docs.microsoft.com/previous-v
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_scope_">NET_FW_SCOPE</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>
 
 
 

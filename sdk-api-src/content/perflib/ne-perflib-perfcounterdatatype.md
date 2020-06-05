@@ -1,7 +1,7 @@
 ---
 UID: NE:perflib._PerfCounterDataType
 title: PerfCounterDataType (perflib.h)
-description: Indicates the content type of a PERF_COUNTER_HEADER block that the PerfQueryCounterData function includes as part of the PERF_DATA_HEADER block that the function produces as output.
+description: Indicates the content type of a PERF_COUNTER_HEADER block that the PerfQueryCounterData function includes as part of the PERF_DATA_HEADER block that the function produces as output.helpviewer_keywords: ["PERF_COUNTERSET","PERF_ERROR_RETURN","PERF_MULTIPLE_COUNTERS","PERF_MULTIPLE_INSTANCES","PERF_SINGLE_COUNTER","PerfCounterDataType","PerfCounterDataType enumeration [Perf]","perf.perfcounterdatatype","perflib/PERF_COUNTERSET","perflib/PERF_ERROR_RETURN","perflib/PERF_MULTIPLE_COUNTERS","perflib/PERF_MULTIPLE_INSTANCES","perflib/PERF_SINGLE_COUNTER","perflib/PerfCounterDataType"]
 old-location: perf\perfcounterdatatype.htm
 tech.root: perfctrs
 ms.assetid: E64C73F0-034E-408B-8537-CE6855C01347

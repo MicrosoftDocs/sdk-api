@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_CHANNEL_PROPERTY
 title: WS_CHANNEL_PROPERTY (webservices.h)
-description: Specifies a channel specific setting.
+description: Specifies a channel specific setting.helpviewer_keywords: ["WS_CHANNEL_PROPERTY","WS_CHANNEL_PROPERTY structure [Web Services for Windows]","webservices/WS_CHANNEL_PROPERTY","wsw.ws_channel_property"]
 old-location: wsw\ws_channel_property.htm
 tech.root: wsw
 ms.assetid: 0298e8ae-67ad-4881-885f-2ed713316e76

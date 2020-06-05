@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_MIB_INFO
 title: DHCP_MIB_INFO (dhcpsapi.h)
-description: Defines information returned from the DHCP-specific SNMP Management Information Block (MIB) about the current DHCP service.
+description: Defines information returned from the DHCP-specific SNMP Management Information Block (MIB) about the current DHCP service.helpviewer_keywords: ["*LPDHCP_MIB_INFO","DHCP_MIB_INFO","DHCP_MIB_INFO structure [DHCP]","LPDHCP_MIB_INFO","LPDHCP_MIB_INFO structure pointer [DHCP]","dhcp.dhcp_mib_info","dhcpsapi/LPDHCP_MIB_INFO","dhcpsapi/_DHCP_MIB_INFO"]
 old-location: dhcp\dhcp_mib_info.htm
 tech.root: DHCP
 ms.assetid: 58f3e3a3-8246-48ff-be45-20a7eed1ed0e

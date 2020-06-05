@@ -1,7 +1,7 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjPrimarySite.Commit
 title: IDsAdminNewObjPrimarySite::Commit (dsadmin.h)
-description: The IDsAdminNewObjPrimarySite::Commit method causes a single-page primary object creation extension's IDsAdminNewObjExt::WriteData method to be called and writes the temporary object to persistent memory.
+description: The IDsAdminNewObjPrimarySite::Commit method causes a single-page primary object creation extension's IDsAdminNewObjExt::WriteData method to be called and writes the temporary object to persistent memory.helpviewer_keywords: ["Commit","Commit method [Active Directory]","Commit method [Active Directory]","IDsAdminNewObjPrimarySite interface","IDsAdminNewObjPrimarySite interface [Active Directory]","Commit method","IDsAdminNewObjPrimarySite.Commit","IDsAdminNewObjPrimarySite::Commit","_glines_idsadminnewobjprimarysite_commit","ad.idsadminnewobjprimarysite__commit","ad.idsadminnewobjprimarysite_commit","dsadmin/IDsAdminNewObjPrimarySite::Commit"]
 old-location: ad\idsadminnewobjprimarysite_commit.htm
 tech.root: ad
 ms.assetid: a7e56a9b-bd3c-4229-9735-32ec9549856d

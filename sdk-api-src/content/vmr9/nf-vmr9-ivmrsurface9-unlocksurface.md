@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRSurface9.UnlockSurface
 title: IVMRSurface9::UnlockSurface (vmr9.h)
-description: The UnlockSurface method unlocks the attached Direct3D surface.
+description: The UnlockSurface method unlocks the attached Direct3D surface.helpviewer_keywords: ["IVMRSurface9 interface [DirectShow]","UnlockSurface method","IVMRSurface9.UnlockSurface","IVMRSurface9::UnlockSurface","IVMRSurface9UnlockSurface","UnlockSurface","UnlockSurface method [DirectShow]","UnlockSurface method [DirectShow]","IVMRSurface9 interface","dshow.ivmrsurface9_unlocksurface","vmr9/IVMRSurface9::UnlockSurface"]
 old-location: dshow\ivmrsurface9_unlocksurface.htm
 tech.root: DirectShow
 ms.assetid: 2785b1b7-62ed-420d-ab98-264e1b03b578

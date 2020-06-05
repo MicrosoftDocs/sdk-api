@@ -2,6 +2,7 @@
 UID: NF:d3d12video.ID3D12VideoDecoderHeap.GetDesc
 title: ID3D12VideoDecoderHeap::GetDesc
 description: Gets the D3D12_VIDEO_DECODER_HEAP_DESC structure that was passed into ID3D12VideoDevice::CreateVideoDecoderHeap when the ID3D12VideoDecoderHeap was created.
+helpviewer_keywords: ["ID3D12VideoDecoderHeap::GetDesc","GetDesc","ID3D12VideoDecoderHeap.GetDesc","ID3D12VideoDecoderHeap::GetDesc","ID3D12VideoDecoderHeap.GetDesc"]
 tech.root: mf
 ms.assetid: 784d436a-f69d-4b62-b2f4-1954c92e774f
 ms.date: 05/28/2019
@@ -50,7 +51,9 @@ Gets the [D3D12_VIDEO_DECODER_HEAP_DESC](ns-d3d12video-d3d12_video_decoder_heap_
 
 
 ## -returns
+
 This method returns a **D3D12_VIDEO_DECODER_HEAP_DESC** structure.
+
 ## -remarks
 
 ## -see-also

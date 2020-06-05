@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SendControlMsg
 title: IShellBrowser::SendControlMsg (shobjidl_core.h)
-description: Sends control messages to either the toolbar or the status bar in a Windows Explorer window.
+description: Sends control messages to either the toolbar or the status bar in a Windows Explorer window.helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","SendControlMsg method","IShellBrowser.SendControlMsg","IShellBrowser::SendControlMsg","SendControlMsg","SendControlMsg method [Windows Shell]","SendControlMsg method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_SendControlMsg","shell.IShellBrowser_SendControlMsg","shobjidl_core/IShellBrowser::SendControlMsg"]
 old-location: shell\IShellBrowser_SendControlMsg.htm
 tech.root: shell
 ms.assetid: 4494870b-45a8-478a-807a-7ed3674f69f3

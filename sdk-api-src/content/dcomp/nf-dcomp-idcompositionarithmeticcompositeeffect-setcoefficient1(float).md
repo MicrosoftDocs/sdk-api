@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient1(float)
 title: IDCompositionArithmeticCompositeEffect::SetCoefficient1(float) (dcomp.h)
-description: Sets the first coefficient for the equation used to composite the two input images.
+description: Sets the first coefficient for the equation used to composite the two input images.helpviewer_keywords: ["IDCompositionArithmeticCompositeEffect interface [DirectComposition]","SetCoefficient1 method","IDCompositionArithmeticCompositeEffect.SetCoefficient1","IDCompositionArithmeticCompositeEffect.SetCoefficient1(float)","IDCompositionArithmeticCompositeEffect::SetCoefficient1","IDCompositionArithmeticCompositeEffect::SetCoefficient1(float)","SetCoefficient1","SetCoefficient1 method [DirectComposition]","SetCoefficient1 method [DirectComposition]","IDCompositionArithmeticCompositeEffect interface","dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient1","directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1"]
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient1.htm
 tech.root: directcomp
 ms.assetid: 060B4349-6143-4C97-A433-A1073F82A257

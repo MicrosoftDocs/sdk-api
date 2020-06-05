@@ -2,6 +2,7 @@
 UID: NS:winhttp._WINHTTP_WEB_SOCKET_ASYNC_RESULT
 title: WINHTTP_WEB_SOCKET_ASYNC_RESULT (winhttp.h)
 description: The WINHTTP_WEB_SOCKET_ASYNC_RESULT includes the result status of a WebSocket operation.
+helpviewer_keywords: ["WINHTTP_WEB_SOCKET_ASYNC_RESULT","WINHTTP_WEB_SOCKET_ASYNC_RESULT structure [HTTP]","http.http_web_socket_async_result","http.winhttp_web_socket_async_result","winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT"]
 old-location: http\winhttp_web_socket_async_result.htm
 tech.root: WinHttp
 ms.assetid: 90424980-9e30-465d-b948-820251c05357
@@ -59,7 +60,7 @@ ms.custom: 19H1
 
 ### -field AsyncResult
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a></b>
+Type: <b><a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a></b>
 
 The result of a WebSocket operation.
 
@@ -85,7 +86,7 @@ A <b>WINHTTP_WEB_SOCKET_ASYNC_RESULT</b> structure is passed to the completion c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a>
+<a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a>
 
 
 

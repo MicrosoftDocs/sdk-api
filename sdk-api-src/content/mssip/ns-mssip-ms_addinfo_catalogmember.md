@@ -2,6 +2,7 @@
 UID: NS:mssip.MS_ADDINFO_CATALOGMEMBER_
 title: MS_ADDINFO_CATALOGMEMBER (mssip.h)
 description: Provides additional information for catalog member subject types.
+helpviewer_keywords: ["*PMS_ADDINFO_CATALOGMEMBER","MS_ADDINFO_CATALOGMEMBER","MS_ADDINFO_CATALOGMEMBER structure [Security]","PMS_ADDINFO_CATALOGMEMBER","PMS_ADDINFO_CATALOGMEMBER structure pointer [Security]","mssip/MS_ADDINFO_CATALOGMEMBER_","mssip/PMS_ADDINFO_CATALOGMEMBER","security.ms_addinfo_catalogmember"]
 old-location: security\ms_addinfo_catalogmember.htm
 tech.root: SecCrypto
 ms.assetid: 40a00c8a-95e4-406c-b04e-0d29beb70d67
@@ -64,10 +65,10 @@ The size, in bytes, of this structure.
 
 ### -field pStore
 
-A [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure that contains a catalog file store.
+A [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains a catalog file store.
 
 
 ### -field pMember
 
-A [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that contains a catalog member.
+A [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains a catalog member.
 

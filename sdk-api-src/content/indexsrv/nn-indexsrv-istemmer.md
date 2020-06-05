@@ -1,7 +1,7 @@
 ---
 UID: NN:indexsrv.IStemmer
 title: IStemmer (indexsrv.h)
-description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.
+description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.helpviewer_keywords: ["IStemmer","IStemmer interface [search]","IStemmer interface [search]","described","_search_IStemmer","indexsrv/IStemmer","search._search_IStemmer"]
 old-location: search\_search_IStemmer.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\istemmer.htm

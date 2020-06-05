@@ -1,7 +1,7 @@
 ---
 UID: NF:appnotify.UnregisterAppStateChangeNotification
 title: UnregisterAppStateChangeNotification function (appnotify.h)
-description: Cancels a change notification registered through RegisterAppStateChangeNotification.
+description: Cancels a change notification registered through RegisterAppStateChangeNotification.helpviewer_keywords: ["UnregisterAppStateChangeNotification","UnregisterAppStateChangeNotification function [Windows Shell]","appnotify/UnregisterAppStateChangeNotification","shell.UnregisterAppStateChangeNotification"]
 old-location: shell\UnregisterAppStateChangeNotification.htm
 tech.root: shell
 ms.assetid: 97D92C75-5C73-4DCF-BE65-2558A1101789

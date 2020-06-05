@@ -2,6 +2,7 @@
 UID: NF:webauthenticationcoremanagerinterop.IWebAuthenticationCoreManagerInterop.RequestTokenForWindowAsync
 title: IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 description: Asynchronously requests a token from a web account provider. If necessary, the user is prompted to enter their credentials.
+helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 f1_keywords:
@@ -47,34 +48,50 @@ Asynchronously requests a token from a web account provider. If necessary, the u
 
 ### -param appWindow
 
-Type: [HWND](https://docs.microsoft.com/windows/desktop/winprog/windows-data-types)
+Type: **[HWND](/windows/win32/winprog/windows-data-types)**
 
-The app window.
+The window to be used as the owner for the window prompting the user for credentials, in case such a window becomes necessary.
 
 ### -param request
 
-Type: [IInspectable](../inspectable/nn-inspectable-iinspectable.md)\*
+Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
 
-The web token request.
+The web token request, given as an instance of the
+[WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest)
+class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+interface.
 
 ### -param riid
 
-Type: [REFIID](https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
+Type: **REFIID**
 
-The interface identifier.
+Must be a reference to the [interface identifier (IID)](/openspecs/windows_protocols/ms-oaut/5583e1b8-454c-4147-9f56-f72416a15bee#gt_76ad3105-3f05-479d-a40c-c9c8fa2ebd83) for the interface
+[IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)\<[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)\>.
+This IID is automatically generated, and you can obtain it using code like this:
+
+```cppwinrt
+using winrt::Windows::Foundation::IAsyncOperation;
+using winrt::Windows::Security::Authentication::Web::Core::WebTokenRequestResult;
+
+constexpr winrt::guid iidAsyncRequestResult{ winrt::guid_of<IAsyncOperation<WebTokenRequestResult>>() };
+```
 
 ### -param asyncInfo
 
-Type: **void**\*\*
+Type: **void\*\***
 
-The asynchronous operation.
+The address of a pointer to [IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)\<[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)\>. On successful return from this method, the pointer will be set to the asynchronous request operation object for the request operation just started.
 
 ## -returns
 
-Type: [HRESULT](https://docs.microsoft.com/windows/desktop/winprog/windows-data-types)
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-The result of the operation.
+A status code for the attempt to start the asynchronous request operation.
 
 ## -remarks
 
+This method is the equivalent for desktop apps of
+[WebAuthenticationCoreManager.RequestTokenAsync(WebTokenRequest)](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager.requesttokenasync#Windows_Security_Authentication_Web_Core_WebAuthenticationCoreManager_RequestTokenAsync_Windows_Security_Authentication_Web_Core_WebTokenRequest_).
+
 ## -see-also
+[Web account management sample app](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)

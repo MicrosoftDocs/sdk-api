@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Abandon
 title: IDirectManipulationViewport::Abandon (directmanipulation.h)
-description: Releases all resources that are used by the viewport and prepares it for destruction from memory.
+description: Releases all resources that are used by the viewport and prepares it for destruction from memory.helpviewer_keywords: ["Abandon","Abandon method [Direct Manipulation]","Abandon method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","Abandon method","IDirectManipulationViewport.Abandon","IDirectManipulationViewport::Abandon","directmanipulation.idirectmanipulationviewport_abandon","directmanipulation/IDirectManipulationViewport::Abandon"]
 old-location: directmanipulation\idirectmanipulationviewport_abandon.htm
 tech.root: directmanipulation
 ms.assetid: 83d0bcde-03d2-4eba-991a-399b5307c8bd

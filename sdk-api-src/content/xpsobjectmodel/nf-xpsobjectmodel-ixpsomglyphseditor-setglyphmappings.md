@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetGlyphMappings
 title: IXpsOMGlyphsEditor::SetGlyphMappings (xpsobjectmodel.h)
 description: Sets an array of XPS_GLYPH_MAPPING structures that describe how to map the UTF-16 scalar values in the UnicodeString property to entries in the array of XPS_GLYPH_INDEX structures.
+helpviewer_keywords: ["IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","SetGlyphMappings method","IXpsOMGlyphsEditor.SetGlyphMappings","IXpsOMGlyphsEditor::SetGlyphMappings","SetGlyphMappings","SetGlyphMappings method [XPS Documents and Packaging]","SetGlyphMappings method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","xps.ixpsomglyphseditor_setglyphmappings","xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphMappings"]
 old-location: xps\ixpsomglyphseditor_setglyphmappings.htm
 tech.root: printdocs
 ms.assetid: c09db1ca-b244-46bd-b01a-a40d260562eb
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures.
+Sets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures.
 
 
 
@@ -61,12 +62,12 @@ Sets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobject
 
 ### -param glyphMappingCount [in]
 
-The number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures in the array that is referenced by <i>glyphMappings</i>. A value of 0 clears the property.
+The number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures in the array that is referenced by <i>glyphMappings</i>. A value of 0 clears the property.
 
 
 ### -param glyphMappings [in]
 
-An  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structure array that contains the glyph mapping values. If <i>glyphMappingCount</i> is 0, this parameter is ignored and can be set to <b>NULL</b>.
+An  <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structure array that contains the glyph mapping values. If <i>glyphMappingCount</i> is 0, this parameter is ignored and can be set to <b>NULL</b>.
 
 
 ## -returns
@@ -98,7 +99,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-A member of one or more <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures has a value that  is not valid. This can occur in the following cases: the sum of string length and start position is less than the start position; the sum of index position and index length is less than the start position; and length of indices is 0.
+A member of one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures has a value that  is not valid. This can occur in the following cases: the sum of string length and start position is less than the start position; the sum of index position and index length is less than the start position; and length of indices is 0.
 
 </td>
 </tr>
@@ -120,7 +121,7 @@ A member of one or more <a href="https://docs.microsoft.com/windows/win32/api/xp
 </dl>
 </td>
 <td width="60%">
-In one or more <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures, an element  is out of sequence.
+In one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures, an element  is out of sequence.
 
 
 </td>
@@ -148,7 +149,7 @@ In one or more <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmo
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a>
  
 
  

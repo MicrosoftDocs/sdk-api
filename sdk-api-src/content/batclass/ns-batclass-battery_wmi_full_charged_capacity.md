@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_WMI_FULL_CHARGED_CAPACITY
 title: BATTERY_WMI_FULL_CHARGED_CAPACITY (batclass.h)
-description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).
+description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).helpviewer_keywords: ["*PBATTERY_WMI_FULL_CHARGED_CAPACITY","BATTERY_WMI_FULL_CHARGED_CAPACITY","BATTERY_WMI_FULL_CHARGED_CAPACITY structure [Battery Devices]","PBATTERY_WMI_FULL_CHARGED_CAPACITY","PBATTERY_WMI_FULL_CHARGED_CAPACITY structure pointer [Battery Devices]","batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY","batclass/PBATTERY_WMI_FULL_CHARGED_CAPACITY","battery.battery_wmi_full_charged_capacity"]
 old-location: battery\battery_wmi_full_charged_capacity.htm
 tech.root: battery
 ms.assetid: BE01DF36-71A8-464A-977B-499325DDB37E

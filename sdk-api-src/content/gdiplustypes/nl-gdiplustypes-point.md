@@ -1,7 +1,7 @@
 ---
 UID: NL:gdiplustypes.Point
 title: Point (gdiplustypes.h)
-description: The Point class encapsulates a point in a 2-D coordinate system.
+description: The Point class encapsulates a point in a 2-D coordinate system.helpviewer_keywords: ["Point","Point class [GDI+]","Point class [GDI+]","described","_gdiplus_CLASS_Point_Class","gdiplus._gdiplus_CLASS_Point_Class","gdiplustypes/Point"]
 old-location: gdiplus\_gdiplus_CLASS_Point_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\point.htm

@@ -2,12 +2,12 @@
 UID: NF:searchapi.ISearchCatalogManager.Reindex
 title: ISearchCatalogManager::Reindex (searchapi.h)
 description: Re-indexes all URLs in the catalog.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","Reindex method","ISearchCatalogManager.Reindex","ISearchCatalogManager::Reindex","Reindex","Reindex method [search]","Reindex method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_Reindex","search._search_ISearchCatalogManager_Reindex","searchapi/ISearchCatalogManager::Reindex"]
 old-location: search\_search_ISearchCatalogManager_Reindex.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindex.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],Reindex method, ISearchCatalogManager.Reindex, ISearchCatalogManager::Reindex, Reindex, Reindex method [search], Reindex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_Reindex, search._search_ISearchCatalogManager_Reindex, searchapi/ISearchCatalogManager::Reindex
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.Reindex
 dev_langs:

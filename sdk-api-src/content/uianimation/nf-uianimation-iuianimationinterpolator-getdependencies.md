@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationInterpolator.GetDependencies
 title: IUIAnimationInterpolator::GetDependencies (uianimation.h)
 description: Gets the aspects of the interpolator that depend on the initial value or velocity passed to SetInitialValueAndVelocity, or that depend on the duration passed to SetDuration.
+helpviewer_keywords: ["GetDependencies","GetDependencies method [Windows Animation]","GetDependencies method [Windows Animation]","IUIAnimationInterpolator interface","IUIAnimationInterpolator interface [Windows Animation]","GetDependencies method","IUIAnimationInterpolator.GetDependencies","IUIAnimationInterpolator::GetDependencies","uianimation.iuianimationinterpolator_getdependencies","uianimation/IUIAnimationInterpolator::GetDependencies"]
 old-location: uianimation\iuianimationinterpolator_getdependencies.htm
 tech.root: UIAnimation
 ms.assetid: a897caa9-8a03-465e-8b74-b4614efce00c
@@ -88,7 +89,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 This method is called to identify which aspects of the custom interpolator are affected by certain inputs: value, velocity, and duration. For each of these inputs, the interpolator returns either of the following:
 
 <ul>
-<li>The bitwise-OR of any members of <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
+<li>The bitwise-OR of any members of <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
 <li><b>UI_ANIMATION_DEPENDENCY_NONE</b> if nothing depends on the input.</li>
 </ul>
 For example, consider an interpolator (1) that accepts a final value as a parameter, (2) that always comes to a gradual stop at that final value, and (3) whose duration is determined by the difference between the final and initial values.  The interpolator should return <b>UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES</b>|<b>UI_ANIMATION_DURATION</b> for <i>initialValueDependencies</i>.  It should not return <b>UI_ANIMATION_DEPENDENCY_FINAL_VALUE</b> because this is set when the interpolator is created and is not affected by the initial value. Likewise it should not return <b>UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY</b> because the slope of the curve is defined to always be zero when it reaches the final value.
@@ -109,7 +110,7 @@ It is important that an interpolator return correct set of flags. If a flag is n
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a>
  
 
  

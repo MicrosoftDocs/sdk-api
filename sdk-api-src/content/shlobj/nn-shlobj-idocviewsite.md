@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.IDocViewSite
 title: IDocViewSite (shlobj.h)
-description: Used as a site object by the IShellView interface.
+description: Used as a site object by the IShellView interface.helpviewer_keywords: ["IDocViewSite","IDocViewSite interface [Windows Shell]","IDocViewSite interface [Windows Shell]","described","_win32_IDocViewSite","shell.IDocViewSite","shlobj/IDocViewSite"]
 old-location: shell\IDocViewSite.htm
 tech.root: shell
 ms.assetid: 031e0079-842e-4357-acb2-5d1160094e18

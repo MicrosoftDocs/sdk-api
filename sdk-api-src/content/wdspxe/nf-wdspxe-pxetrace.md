@@ -1,7 +1,7 @@
 ---
 UID: NF:wdspxe.PxeTrace
 title: PxeTrace function (wdspxe.h)
-description: Adds a trace entry to the PXE log.
+description: Adds a trace entry to the PXE log.helpviewer_keywords: ["PXE_TRACE_ERROR","PXE_TRACE_FATAL","PXE_TRACE_INFO","PXE_TRACE_VERBOSE","PXE_TRACE_WARNING","PxeTrace","PxeTrace function [Windows Deployment Services]","wds.pxetrace","wdspxe/PxeTrace"]
 old-location: wds\pxetrace.htm
 tech.root: wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0

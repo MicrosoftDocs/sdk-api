@@ -2,6 +2,7 @@
 UID: NN:casetup.ICertificateEnrollmentPolicyServerSetup
 title: ICertificateEnrollmentPolicyServerSetup (casetup.h)
 description: The ICertificateEnrollmentPolicyServerSetup interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS).
+helpviewer_keywords: ["ICertificateEnrollmentPolicyServerSetup","ICertificateEnrollmentPolicyServerSetup interface [Security]","ICertificateEnrollmentPolicyServerSetup interface [Security]","described","casetup/ICertificateEnrollmentPolicyServerSetup","security.icertificateenrollmentpolicyserversetup"]
 old-location: security\icertificateenrollmentpolicyserversetup.htm
 tech.root: SecCrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
@@ -75,7 +76,7 @@ The <b>ICertificateEnrollmentPolicyServerSetup</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the CEP configuration.
+Retrieves a <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the CEP configuration.
 
 </td>
 </tr>
@@ -102,7 +103,7 @@ Installs the CEP web service configured by this object.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
-Specifies a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the CEP configuration.
+Specifies a <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the CEP configuration.
 
 </td>
 </tr>

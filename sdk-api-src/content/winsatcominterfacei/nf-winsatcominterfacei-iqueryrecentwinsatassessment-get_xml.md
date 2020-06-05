@@ -1,7 +1,7 @@
 ---
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
 title: IQueryRecentWinSATAssessment::get_XML (winsatcominterfacei.h)
-description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
+description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.helpviewer_keywords: ["IQueryRecentWinSATAssessment interface [WinSAT]","XML property","IQueryRecentWinSATAssessment.XML","IQueryRecentWinSATAssessment.get_XML","IQueryRecentWinSATAssessment::XML","IQueryRecentWinSATAssessment::get_XML","XML property [WinSAT]","XML property [WinSAT]","IQueryRecentWinSATAssessment interface","get_XML","winsat.iqueryrecentwinsatassessment_xml","winsatcominterfacei/IQueryRecentWinSATAssessment::XML","winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML"]
 old-location: winsat\iqueryrecentwinsatassessment_xml.htm
 tech.root: WinSAT
 ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd

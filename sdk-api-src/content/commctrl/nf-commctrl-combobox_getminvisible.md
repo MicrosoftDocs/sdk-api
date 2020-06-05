@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ComboBox_GetMinVisible
 title: ComboBox_GetMinVisible macro (commctrl.h)
-description: Gets the minimum number of visible items in the drop-down list of a combo box.
+description: Gets the minimum number of visible items in the drop-down list of a combo box.helpviewer_keywords: ["ComboBox_GetMinVisible","ComboBox_GetMinVisible macro [Windows Controls]","_win32_ComboBox_GetMinVisible","_win32_ComboBox_GetMinVisible_cpp","commctrl/ComboBox_GetMinVisible","controls.ComboBox_GetMinVisible","controls._win32_ComboBox_GetMinVisible"]
 old-location: controls\ComboBox_GetMinVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getminvisible.htm

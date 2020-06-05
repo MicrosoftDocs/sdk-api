@@ -2,6 +2,7 @@
 UID: NF:d2d1_1.ID2D1CommandSink.PopAxisAlignedClip
 title: ID2D1CommandSink::PopAxisAlignedClip (d2d1_1.h)
 description: Removes an axis-aligned clip from the layer and clip stack.
+helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","PopAxisAlignedClip method","ID2D1CommandSink.PopAxisAlignedClip","ID2D1CommandSink::PopAxisAlignedClip","PopAxisAlignedClip","PopAxisAlignedClip method [Direct2D]","PopAxisAlignedClip method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::PopAxisAlignedClip","direct2d.id2d1commandsink_popaxisalignedclip"]
 old-location: direct2d\id2d1commandsink_popaxisalignedclip.htm
 tech.root: Direct2D
 ms.assetid: 602cede8-dce1-4032-b099-b8088bc57459
@@ -84,7 +85,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">ID2D1RenderTarget::PushAxisAlignedClip</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">ID2D1RenderTarget::PushAxisAlignedClip</a>
  
 
  

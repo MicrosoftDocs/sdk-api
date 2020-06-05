@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnThreadItemChange
 title: ITfLangBarEventSink::OnThreadItemChange (ctfutb.h)
-description: ITfLangBarEventSink::OnThreadItemChange method
+description: ITfLangBarEventSink::OnThreadItemChange methodhelpviewer_keywords: ["ITfLangBarEventSink interface [Text Services Framework]","OnThreadItemChange method","ITfLangBarEventSink.OnThreadItemChange","ITfLangBarEventSink::OnThreadItemChange","OnThreadItemChange","OnThreadItemChange method [Text Services Framework]","OnThreadItemChange method [Text Services Framework]","ITfLangBarEventSink interface","_tsf_itflangbareventsink_onthreaditemchange_ref","ctfutb/ITfLangBarEventSink::OnThreadItemChange","tsf.itflangbareventsink_onthreaditemchange"]
 old-location: tsf\itflangbareventsink_onthreaditemchange.htm
 tech.root: TSF
 ms.assetid: b59688f9-feb0-4598-bf4a-b0661dda5fad

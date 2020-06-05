@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IFileIsInUse
 title: IFileIsInUse (shobjidl_core.h)
-description: Exposes methods that can be called to get information on or close a file that is in use by another application.
+description: Exposes methods that can be called to get information on or close a file that is in use by another application.helpviewer_keywords: ["IFileIsInUse","IFileIsInUse interface [Windows Shell]","IFileIsInUse interface [Windows Shell]","described","_shell_IFileIsInUse","shell.IFileIsInUse","shobjidl_core/IFileIsInUse"]
 old-location: shell\IFileIsInUse.htm
 tech.root: shell
 ms.assetid: 68a4ab3d-165e-4917-8915-77f15901dbad

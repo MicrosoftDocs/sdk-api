@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.VariantToUInt32Array
 title: VariantToUInt32Array function (propvarutil.h)
-description: Extracts data from a vector structure into an unsigned Int32 array.
+description: Extracts data from a vector structure into an unsigned Int32 array.helpviewer_keywords: ["VariantToUInt32Array","VariantToUInt32Array function [Windows Properties]","_shell_VariantToUInt32Array","properties.VariantToUInt32Array","propvarutil/VariantToUInt32Array","shell.VariantToUInt32Array"]
 old-location: properties\VariantToUInt32Array.htm
 tech.root: properties
 ms.assetid: 506a02f8-6390-44a0-9f14-bfc8fb7ad180

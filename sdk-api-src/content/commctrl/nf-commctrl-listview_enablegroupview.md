@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ListView_EnableGroupView
 title: ListView_EnableGroupView macro (commctrl.h)
-description: Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the LVM_ENABLEGROUPVIEW message explicitly.
+description: Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the LVM_ENABLEGROUPVIEW message explicitly.helpviewer_keywords: ["ListView_EnableGroupView","ListView_EnableGroupView macro [Windows Controls]","_win32_ListView_EnableGroupView","_win32_ListView_EnableGroupView_cpp","commctrl/ListView_EnableGroupView","controls.ListView_EnableGroupView","controls._win32_ListView_EnableGroupView"]
 old-location: controls\ListView_EnableGroupView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_enablegroupview.htm

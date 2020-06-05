@@ -1,7 +1,7 @@
 ---
 UID: NN:windows.devices.display.core.interop.IDisplayDeviceInterop
 title: interop::IDisplayDeviceInterop
-description: Provides methods for interoperating between Direct3D (and other graphics APIs) and APIs in the Windows Runtime [Windows.Devices.Display.Core](/uwp/api/windows.devices.display.core) namespace.
+description: Provides methods for interoperating between Direct3D (and other graphics APIs) and APIs in the Windows Runtime [Windows.Devices.Display.Core](/uwp/api/windows.devices.display.core) namespace.helpviewer_keywords: ["interop::IDisplayDeviceInterop"]
 ms.date: 02/10/2020
 tech.root: winrt
 dev_langs:

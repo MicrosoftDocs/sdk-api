@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.SetCurrentView
 title: IUIAutomationMultipleViewPattern::SetCurrentView (uiautomationclient.h)
-description: Sets the view of the control.
+description: Sets the view of the control.helpviewer_keywords: ["IUIAutomationMultipleViewPattern interface [Windows Accessibility]","SetCurrentView method","IUIAutomationMultipleViewPattern.SetCurrentView","IUIAutomationMultipleViewPattern::SetCurrentView","SetCurrentView","SetCurrentView method [Windows Accessibility]","SetCurrentView method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","uiauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView","uiauto_IUIAutomationMultipleViewPattern_SetCurrentView","uiautomationclient/IUIAutomationMultipleViewPattern::SetCurrentView","winauto.uiauto_IUIAutomationMultipleViewPattern_SetCurrentView"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_SetCurrentView.htm
 tech.root: WinAuto
 ms.assetid: 43da5f4a-e6ce-4cc3-8981-85189d5e5158

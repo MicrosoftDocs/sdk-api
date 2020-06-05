@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetMutualExclusionCount
 title: IWMProfile::GetMutualExclusionCount (wmsdkidl.h)
-description: The GetMutualExclusionCount method retrieves the number of mutual exclusion objects in the profile.
+description: The GetMutualExclusionCount method retrieves the number of mutual exclusion objects in the profile.helpviewer_keywords: ["GetMutualExclusionCount","GetMutualExclusionCount method [windows Media Format]","GetMutualExclusionCount method [windows Media Format]","IWMProfile interface","GetMutualExclusionCount method [windows Media Format]","IWMProfile2 interface","GetMutualExclusionCount method [windows Media Format]","IWMProfile3 interface","IWMProfile interface [windows Media Format]","GetMutualExclusionCount method","IWMProfile.GetMutualExclusionCount","IWMProfile2 interface [windows Media Format]","GetMutualExclusionCount method","IWMProfile2::GetMutualExclusionCount","IWMProfile3 interface [windows Media Format]","GetMutualExclusionCount method","IWMProfile3::GetMutualExclusionCount","IWMProfile::GetMutualExclusionCount","IWMProfileGetMutualExclusionCount","wmformat.iwmprofile_getmutualexclusioncount","wmsdkidl/IWMProfile2::GetMutualExclusionCount","wmsdkidl/IWMProfile3::GetMutualExclusionCount","wmsdkidl/IWMProfile::GetMutualExclusionCount"]
 old-location: wmformat\iwmprofile_getmutualexclusioncount.htm
 tech.root: wmformat
 ms.assetid: c223f75b-87c6-49bd-a16a-14b4751d5f1b

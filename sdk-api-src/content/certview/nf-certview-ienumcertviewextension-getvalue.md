@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetValue
 title: IEnumCERTVIEWEXTENSION::GetValue (certview.h)
-description: Retrieves the value of the current extension in the extension-enumeration sequence.
+description: Retrieves the value of the current extension in the extension-enumeration sequence.helpviewer_keywords: ["CV_OUT_BASE64","CV_OUT_BASE64HEADER","CV_OUT_BASE64REQUESTHEADER","CV_OUT_BINARY","CV_OUT_HEX","CV_OUT_HEXADDR","CV_OUT_HEXASCII","CV_OUT_HEXASCIIADDR","GetValue","GetValue method [Security]","GetValue method [Security]","IEnumCERTVIEWEXTENSION interface","IEnumCERTVIEWEXTENSION interface [Security]","GetValue method","IEnumCERTVIEWEXTENSION.GetValue","IEnumCERTVIEWEXTENSION::GetValue","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","_certsrv_ienumcertviewextension_getvalue","certview/IEnumCERTVIEWEXTENSION::GetValue","security.ienumcertviewextension_getvalue"]
 old-location: security\ienumcertviewextension_getvalue.htm
 tech.root: SecCrypto
 ms.assetid: 7a81b096-36ba-416a-ad15-5bf1c4d512dd

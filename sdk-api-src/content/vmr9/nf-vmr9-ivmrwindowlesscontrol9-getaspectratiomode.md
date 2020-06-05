@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetAspectRatioMode
 title: IVMRWindowlessControl9::GetAspectRatioMode (vmr9.h)
-description: The GetAspectRatioMode method retrieves the current aspect ratio display mode.
+description: The GetAspectRatioMode method retrieves the current aspect ratio display mode.helpviewer_keywords: ["GetAspectRatioMode","GetAspectRatioMode method [DirectShow]","GetAspectRatioMode method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetAspectRatioMode method","IVMRWindowlessControl9.GetAspectRatioMode","IVMRWindowlessControl9::GetAspectRatioMode","IVMRWindowlessControl9GetAspectRatioMode","dshow.ivmrwindowlesscontrol9_getaspectratiomode","vmr9/IVMRWindowlessControl9::GetAspectRatioMode"]
 old-location: dshow\ivmrwindowlesscontrol9_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: c18ab567-5e0d-400a-8dc1-e9ad83650b7c

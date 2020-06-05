@@ -1,7 +1,7 @@
 ---
 UID: NS:udpmib._MIB_UDPTABLE
 title: MIB_UDPTABLE (udpmib.h)
-description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.
+description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer.helpviewer_keywords: ["*PMIB_UDPTABLE","MIB_UDPTABLE","MIB_UDPTABLE structure [MIB]","PMIB_UDPTABLE","PMIB_UDPTABLE structure pointer [MIB]","_mpr_mib_udptable","iprtrmib/MIB_UDPTABLE","iprtrmib/PMIB_UDPTABLE","mib.mib_udptable","rras.mib_udptable","udpmib/MIB_UDPTABLE","udpmib/PMIB_UDPTABLE"]
 old-location: mib\mib_udptable.htm
 tech.root: MIB
 ms.assetid: 83608d38-e352-483a-b284-2f9cb444e64f

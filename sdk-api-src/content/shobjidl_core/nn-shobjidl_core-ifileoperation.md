@@ -2,6 +2,7 @@
 UID: NN:shobjidl_core.IFileOperation
 title: IFileOperation (shobjidl_core.h)
 description: Exposes methods to copy, move, rename, create, and delete Shell items as well as methods to provide progress and error dialogs. This interface replaces the SHFileOperation function.
+helpviewer_keywords: ["IFileOperation","IFileOperation interface [Windows Shell]","IFileOperation interface [Windows Shell]","described","_shell_IFileOperation","shell.IFileOperation","shobjidl_core/IFileOperation"]
 old-location: shell\IFileOperation.htm
 tech.root: shell
 ms.assetid: 6596607e-0699-4eb6-b0d6-7cc2e5eb49c7
@@ -297,7 +298,7 @@ To accomplish a file operation using this interface, a sequence of calls must be
 </li>
 <li>Specify which operations to perform on which items using the following as needed.
 
-                        <ul>
+<ul>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">ApplyPropertiesToItem</a>
 </li>

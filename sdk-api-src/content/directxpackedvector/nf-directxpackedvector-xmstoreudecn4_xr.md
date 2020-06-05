@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMStoreUDecN4_XR
 title: XMStoreUDecN4_XR function (directxpackedvector.h)
-description: Stores an extended range XMUDECN4 into an XMVECTOR.
+description: Stores an extended range XMUDECN4 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMStoreUDecN4_XR","XMStoreUDecN4_XR","XMStoreUDecN4_XR method [DirectX Math Support APIs]","dxmath._xmstoreudecn4_xr"]
 old-location: dxmath\_xmstoreudecn4_xr.htm
 tech.root: dxmath
 ms.assetid: 4DCE74D6-48CF-43D8-BF69-368A95F823F1

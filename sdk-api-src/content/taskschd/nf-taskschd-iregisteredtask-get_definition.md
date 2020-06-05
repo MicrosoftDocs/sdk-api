@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Definition
 title: IRegisteredTask::get_Definition (taskschd.h)
-description: Gets the definition of the task.
+description: Gets the definition of the task.helpviewer_keywords: ["Definition property [Task Scheduler]","Definition property [Task Scheduler]","IRegisteredTask interface","IRegisteredTask interface [Task Scheduler]","Definition property","IRegisteredTask.Definition","IRegisteredTask.get_Definition","IRegisteredTask::Definition","IRegisteredTask::get_Definition","get_Definition","taskschd.iregisteredtask_definition","taskschd/IRegisteredTask::Definition","taskschd/IRegisteredTask::get_Definition"]
 old-location: taskschd\iregisteredtask_definition.htm
 tech.root: taskschd
 ms.assetid: 673d5e11-d2a3-4dcb-ad2e-46940574ba92

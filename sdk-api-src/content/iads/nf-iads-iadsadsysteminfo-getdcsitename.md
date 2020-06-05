@@ -2,6 +2,7 @@
 UID: NF:iads.IADsADSystemInfo.GetDCSiteName
 title: IADsADSystemInfo::GetDCSiteName (iads.h)
 description: Retrieves the name of the Active Directory site that contains the local computer.
+helpviewer_keywords: ["GetDCSiteName","GetDCSiteName method [ADSI]","GetDCSiteName method [ADSI]","IADsADSystemInfo interface","IADsADSystemInfo interface [ADSI]","GetDCSiteName method","IADsADSystemInfo.GetDCSiteName","IADsADSystemInfo::GetDCSiteName","_ds_iadsadsysteminfo_getdcsitename","adsi.iadsadsysteminfo__getdcsitename","adsi.iadsadsysteminfo_getdcsitename","iads/IADsADSystemInfo::GetDCSiteName"]
 old-location: adsi\iadsadsysteminfo_getdcsitename.htm
 tech.root: adsi
 ms.assetid: 2b9bb5f2-8312-4413-bbf2-4765fd33a2c6
@@ -172,7 +173,7 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/ad/core-concepts-of-active-directory-domain-services">Active Directory Core Concepts</a>
+<a href="/windows/win32/ad/core-concepts-of-active-directory-domain-services">Active Directory Core Concepts</a>
 
 
 

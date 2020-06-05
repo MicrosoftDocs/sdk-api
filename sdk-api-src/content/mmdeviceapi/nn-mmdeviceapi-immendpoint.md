@@ -1,7 +1,7 @@
 ---
 UID: NN:mmdeviceapi.IMMEndpoint
 title: IMMEndpoint (mmdeviceapi.h)
-description: The IMMEndpoint interface represents an audio endpoint device.
+description: The IMMEndpoint interface represents an audio endpoint device.helpviewer_keywords: ["IMMEndpoint","IMMEndpoint interface [Core Audio]","IMMEndpoint interface [Core Audio]","described","coreaudio.immendpoint","mmdeviceapi/IMMEndpoint"]
 old-location: coreaudio\immendpoint.htm
 tech.root: CoreAudio
 ms.assetid: 293de8eb-204a-4c18-807c-b1405db85b12

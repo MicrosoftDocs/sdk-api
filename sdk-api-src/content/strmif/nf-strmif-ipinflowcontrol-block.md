@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IPinFlowControl.Block
 title: IPinFlowControl::Block (strmif.h)
-description: The Block method blocks or unblocks the flow of data from the pin.
+description: The Block method blocks or unblocks the flow of data from the pin.helpviewer_keywords: ["Block","Block method [DirectShow]","Block method [DirectShow]","IPinFlowControl interface","IPinFlowControl interface [DirectShow]","Block method","IPinFlowControl.Block","IPinFlowControl::Block","IPinFlowControlBlock","dshow.ipinflowcontrol_block","strmif/IPinFlowControl::Block"]
 old-location: dshow\ipinflowcontrol_block.htm
 tech.root: DirectShow
 ms.assetid: 9bcd325d-41fc-4166-8fce-50fc921efdba

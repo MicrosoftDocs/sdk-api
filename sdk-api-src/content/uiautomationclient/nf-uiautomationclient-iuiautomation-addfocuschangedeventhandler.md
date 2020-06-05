@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddFocusChangedEventHandler
 title: IUIAutomation::AddFocusChangedEventHandler (uiautomationclient.h)
-description: Registers a method that handles focus-changed events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
+description: Registers a method that handles focus-changed events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.helpviewer_keywords: ["AddFocusChangedEventHandler","AddFocusChangedEventHandler method [Windows Accessibility]","AddFocusChangedEventHandler method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","AddFocusChangedEventHandler method","IUIAutomation.AddFocusChangedEventHandler","IUIAutomation::AddFocusChangedEventHandler","uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler","uiauto_IUIAutomation_AddFocusChangedEventHandler","uiautomationclient/IUIAutomation::AddFocusChangedEventHandler","winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation_AddFocusChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 469e9c3e-366f-4c13-8c27-58fdb705d4d9

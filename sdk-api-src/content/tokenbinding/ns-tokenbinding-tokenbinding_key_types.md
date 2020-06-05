@@ -1,7 +1,7 @@
 ---
 UID: NS:tokenbinding.TOKENBINDING_KEY_TYPES
 title: TOKENBINDING_KEY_TYPES (tokenbinding.h)
-description: Contains all of the combinations of types of token binding keys that a client device or server supports.
+description: Contains all of the combinations of types of token binding keys that a client device or server supports.helpviewer_keywords: ["TOKENBINDING_KEY_TYPES","TOKENBINDING_KEY_TYPES structure [Security]","security.tokenbinding_key_types","tokenbinding/TOKENBINDING_KEY_TYPES"]
 old-location: security\tokenbinding_key_types.htm
 tech.root: SecCNG
 ms.assetid: E5029CE3-CD23-4566-A951-35374DC7BC57

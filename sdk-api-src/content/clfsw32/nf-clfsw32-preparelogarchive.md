@@ -1,7 +1,7 @@
 ---
 UID: NF:clfsw32.PrepareLogArchive
 title: PrepareLogArchive function (clfsw32.h)
-description: Prepares a physical log for archival.
+description: Prepares a physical log for archival.helpviewer_keywords: ["PrepareLogArchive","PrepareLogArchive function [Files]","clfsw32/PrepareLogArchive","fs.preparelogarchive"]
 old-location: fs\preparelogarchive.htm
 tech.root: Clfs
 ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9

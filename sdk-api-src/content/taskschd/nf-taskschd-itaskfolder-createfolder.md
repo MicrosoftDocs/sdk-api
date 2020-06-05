@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskFolder.CreateFolder
 title: ITaskFolder::CreateFolder (taskschd.h)
-description: Creates a folder for related tasks.
+description: Creates a folder for related tasks.helpviewer_keywords: ["CreateFolder","CreateFolder method [Task Scheduler]","CreateFolder method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","CreateFolder method","ITaskFolder.CreateFolder","ITaskFolder::CreateFolder","taskschd.itaskfolder_createfolder","taskschd/ITaskFolder::CreateFolder"]
 old-location: taskschd\itaskfolder_createfolder.htm
 tech.root: taskschd
 ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118

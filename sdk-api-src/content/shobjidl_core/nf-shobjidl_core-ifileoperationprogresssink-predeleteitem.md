@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreDeleteItem
 title: IFileOperationProgressSink::PreDeleteItem (shobjidl_core.h)
 description: Performs caller-implemented actions before the delete process for each item begins.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","PreDeleteItem method","IFileOperationProgressSink.PreDeleteItem","IFileOperationProgressSink::PreDeleteItem","PreDeleteItem","PreDeleteItem method [Windows Shell]","PreDeleteItem method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_PreDeleteItem","shell.IFileOperationProgressSink_PreDeleteItem","shobjidl_core/IFileOperationProgressSink::PreDeleteItem"]
 old-location: shell\IFileOperationProgressSink_PreDeleteItem.htm
 tech.root: shell
 ms.assetid: bf54f2da-4861-4546-9b1e-35b5983e836c
@@ -61,7 +62,7 @@ Performs caller-implemented actions before the delete process for each item begi
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that control the operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that control the operation. See <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiItem [in]

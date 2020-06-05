@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHPatternObjectFromVariant
 title: UiaHPatternObjectFromVariant function (uiautomationcoreapi.h)
-description: Gets a control pattern object from a VARIANT type.
+description: Gets a control pattern object from a VARIANT type.helpviewer_keywords: ["UiaHPatternObjectFromVariant","UiaHPatternObjectFromVariant function [Windows Accessibility]","uiauto.uiauto_UiaHPatternObjectFromVariantFunction","uiauto_UiaHPatternObjectFromVariantFunction","uiautomationcoreapi/UiaHPatternObjectFromVariant","winauto.uiauto_UiaHPatternObjectFromVariantFunction"]
 old-location: winauto\uiauto_UiaHPatternObjectFromVariantFunction.htm
 tech.root: WinAuto
 ms.assetid: dd5d0d4b-75fa-4215-bd48-79d58a9a4862

@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngFillPath
 title: EngFillPath function (winddi.h)
-description: The EngFillPath function fills a path.
+description: The EngFillPath function fills a path.helpviewer_keywords: ["EngFillPath","EngFillPath function [Display Devices]","display.engfillpath","gdifncs_5128f1e3-265b-4570-8504-1782a07268d5.xml","winddi/EngFillPath"]
 old-location: display\engfillpath.htm
 tech.root: display
 ms.assetid: 81c4ae89-391c-482b-b5dc-ef34d41607a1

@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCreateUrlGroup
 title: HttpCreateUrlGroup function (http.h)
-description: Creates a URL Group under the specified server session.
+description: Creates a URL Group under the specified server session.helpviewer_keywords: ["HttpCreateUrlGroup","HttpCreateUrlGroup function [HTTP]","http.httpcreateurlgroup","http/HttpCreateUrlGroup"]
 old-location: http\httpcreateurlgroup.htm
 tech.root: http
 ms.assetid: 6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a

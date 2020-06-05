@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_CurrentMarker
 title: IAMExtendedSeeking::get_CurrentMarker (qnetwork.h)
-description: The get_CurrentMarker method retrieves the current marker.
+description: The get_CurrentMarker method retrieves the current marker.helpviewer_keywords: ["IAMExtendedSeeking interface [DirectShow]","get_CurrentMarker method","IAMExtendedSeeking.get_CurrentMarker","IAMExtendedSeeking::get_CurrentMarker","IAMExtendedSeekingget_CurrentMarker","dshow.iamextendedseeking_get_currentmarker","get_CurrentMarker","get_CurrentMarker method [DirectShow]","get_CurrentMarker method [DirectShow]","IAMExtendedSeeking interface","qnetwork/IAMExtendedSeeking::get_CurrentMarker"]
 old-location: dshow\iamextendedseeking_get_currentmarker.htm
 tech.root: DirectShow
 ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e

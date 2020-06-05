@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_DETAILED_INFORMATION
 title: ACTIVATION_CONTEXT_DETAILED_INFORMATION (winnt.h)
-description: The ACTIVATION_CONTEXT_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
+description: The ACTIVATION_CONTEXT_DETAILED_INFORMATION structure is used by the QueryActCtxW function.helpviewer_keywords: ["*PACTIVATION_CONTEXT_DETAILED_INFORMATION","ACTIVATION_CONTEXT_DETAILED_INFORMATION","ACTIVATION_CONTEXT_DETAILED_INFORMATION structure [Side-by-side Assemblies]","PACTIVATION_CONTEXT_DETAILED_INFORMATION","PACTIVATION_CONTEXT_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies]","_ACTIVATION_CONTEXT_DETAILED_INFORMATION","_win32_activation_context_detailed_information","setup.activation_context_detailed_information","winnt/ACTIVATION_CONTEXT_DETAILED_INFORMATION","winnt/PACTIVATION_CONTEXT_DETAILED_INFORMATION"]
 old-location: setup\activation_context_detailed_information.htm
 tech.root: SbsCs
 ms.assetid: 58e4acfe-d5c8-45ae-bf32-469229ffc836

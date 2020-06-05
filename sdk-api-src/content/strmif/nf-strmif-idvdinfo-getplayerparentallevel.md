@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdInfo.GetPlayerParentalLevel
 title: IDvdInfo::GetPlayerParentalLevel (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current parental level and country/region code settings for the DVD player.
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current parental level and country/region code settings for the DVD player.helpviewer_keywords: ["GetPlayerParentalLevel","GetPlayerParentalLevel method [DirectShow]","GetPlayerParentalLevel method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetPlayerParentalLevel method","IDvdInfo.GetPlayerParentalLevel","IDvdInfo::GetPlayerParentalLevel","IDvdInfoGetPlayerParentalLevel","dshow.idvdinfo_getplayerparentallevel","strmif/IDvdInfo::GetPlayerParentalLevel"]
 old-location: dshow\idvdinfo_getplayerparentallevel.htm
 tech.root: DirectShow
 ms.assetid: 2b4111db-fbb1-4da7-85e1-ddd3f5718225

@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPCLEANUP
 title: LPWSPCLEANUP
-description: The LPWSPCleanup function terminates use of the Windows Sockets service provider.
+description: The LPWSPCleanup function terminates use of the Windows Sockets service provider.helpviewer_keywords: ["LPWSPCLEANUP"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPCLEANUP
 targetos: Windows

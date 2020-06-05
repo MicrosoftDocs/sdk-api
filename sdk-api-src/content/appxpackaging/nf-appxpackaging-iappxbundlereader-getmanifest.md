@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetManifest
 title: IAppxBundleReader::GetManifest (appxpackaging.h)
-description: Retrieves a read-only manifest object from the bundle.
+description: Retrieves a read-only manifest object from the bundle.helpviewer_keywords: ["GetManifest","GetManifest method [App packaging and management]","GetManifest method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetManifest method","IAppxBundleReader.GetManifest","IAppxBundleReader::GetManifest","appxpackaging/IAppxBundleReader::GetManifest","appxpkg.iappxbundlereader_getmanifest"]
 old-location: appxpkg\iappxbundlereader_getmanifest.htm
 tech.root: appxpkg
 ms.assetid: C9D80910-8609-45D9-A3EC-05A033A36A4F

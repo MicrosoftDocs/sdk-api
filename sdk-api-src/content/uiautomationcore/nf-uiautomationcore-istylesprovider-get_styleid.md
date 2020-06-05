@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleId
 title: IStylesProvider::get_StyleId (uiautomationcore.h)
-description: Identifies the visual style of an element in a document.
+description: Identifies the visual style of an element in a document.helpviewer_keywords: ["IStylesProvider interface [Windows Accessibility]","StyleId property","IStylesProvider.StyleId","IStylesProvider.get_StyleId","IStylesProvider::StyleId","IStylesProvider::get_StyleId","StyleId property [Windows Accessibility]","StyleId property [Windows Accessibility]","IStylesProvider interface","get_StyleId","uiautomationcore/IStylesProvider::StyleId","uiautomationcore/IStylesProvider::get_StyleId","winauto.uiauto_istylesprovider_styleid"]
 old-location: winauto\uiauto_istylesprovider_styleid.htm
 tech.root: WinAuto
 ms.assetid: EFFEC853-595C-4304-8EDF-BA80EA8FEC5B

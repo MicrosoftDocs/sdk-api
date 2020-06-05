@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11DeviceContext
 title: ID3D11DeviceContext (d3d11.h)
-description: The ID3D11DeviceContext interface represents a device context which generates rendering commands.
+description: The ID3D11DeviceContext interface represents a device context which generates rendering commands.helpviewer_keywords: ["12a95af1-0ccb-3aa6-2a85-b8822bf74961","ID3D11DeviceContext","ID3D11DeviceContext interface [Direct3D 11]","ID3D11DeviceContext interface [Direct3D 11]","described","d3d11/ID3D11DeviceContext","direct3d11.id3d11devicecontext"]
 old-location: direct3d11\id3d11devicecontext.htm
 tech.root: direct3d11
 ms.assetid: afb32c09-77f2-4c33-bd93-8dce92a2e45e

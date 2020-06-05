@@ -1,7 +1,7 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolListenerCallback
 title: IWRdsProtocolListenerCallback (wtsprotocol.h)
-description: Exposes methods that notify the Remote Desktop Services service that a client has connected.
+description: Exposes methods that notify the Remote Desktop Services service that a client has connected.helpviewer_keywords: ["IWRdsProtocolListenerCallback","IWRdsProtocolListenerCallback interface [Remote Desktop Services]","IWRdsProtocolListenerCallback interface [Remote Desktop Services]","described","termserv.iwrdsprotocollistenercallback","wtsprotocol/IWRdsProtocolListenerCallback"]
 old-location: termserv\iwrdsprotocollistenercallback.htm
 tech.root: TermServ
 ms.assetid: 33f583a4-8311-4db1-9646-bed1cd06e479

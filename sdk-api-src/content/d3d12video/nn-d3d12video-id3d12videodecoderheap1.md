@@ -33,9 +33,11 @@ api_name:
 
 ## -inheritance
 
-ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap).
 
 ## -description
+
+ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap) and introduces support for protected resources.
+
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.SetTransformDeviceModelInfo
 title: IDeviceModelPlugIn::SetTransformDeviceModelInfo (wcsplugin.h)
-description: Provides the plug-in with parameters to determine where in the transform sequence the specific plug-in occurs.
+description: Provides the plug-in with parameters to determine where in the transform sequence the specific plug-in occurs.helpviewer_keywords: ["IDeviceModelPlugIn interface [Windows Color System]","SetTransformDeviceModelInfo method","IDeviceModelPlugIn.SetTransformDeviceModelInfo","IDeviceModelPlugIn::SetTransformDeviceModelInfo","SetTransformDeviceModelInfo","SetTransformDeviceModelInfo method [Windows Color System]","SetTransformDeviceModelInfo method [Windows Color System]","IDeviceModelPlugIn interface","_color_IDeviceModelPlugIn::SetTransformDeviceModelInfo","wcs.IDeviceModelPlugIn_SetTransformDeviceModelInfo","wcsplugin/IDeviceModelPlugIn::SetTransformDeviceModelInfo"]
 old-location: wcs\IDeviceModelPlugIn_SetTransformDeviceModelInfo.htm
 tech.root: WCS
 ms.assetid: 01d0815d-1a6b-48f3-9a81-65df0e185e8f

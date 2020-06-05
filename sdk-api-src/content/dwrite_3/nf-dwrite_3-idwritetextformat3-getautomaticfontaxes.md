@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.GetAutomaticFontAxes
 title: IDWriteTextFormat3::GetAutomaticFontAxes
-description: Retrieves the automatic axis options.
+description: Retrieves the automatic axis options.helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","GetAutomaticFontAxes method","IDWriteTextFormat3.GetAutomaticFontAxes","IDWriteTextFormat3::GetAutomaticFontAxes","GetAutomaticFontAxes","GetAutomaticFontAxes method [Direct Write]","GetAutomaticFontAxes method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_getautomaticfontaxes","dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetAutomaticFontAxes method, IDWriteTextFormat3.GetAutomaticFontAxes, IDWriteTextFormat3::GetAutomaticFontAxes, GetAutomaticFontAxes, GetAutomaticFontAxes method [Direct Write], GetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getautomaticfontaxes, dwrite_3/IDWriteTextFormat3::GetAutomaticFontAxes

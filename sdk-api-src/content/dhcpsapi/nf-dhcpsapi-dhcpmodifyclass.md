@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpModifyClass
 title: DhcpModifyClass function (dhcpsapi.h)
-description: Modifies a DHCP class defined on the server.
+description: Modifies a DHCP class defined on the server.helpviewer_keywords: ["DhcpModifyClass","DhcpModifyClass function [DHCP]","dhcp.dhcpmodifyclass","dhcpsapi/DhcpModifyClass"]
 old-location: dhcp\dhcpmodifyclass.htm
 tech.root: DHCP
 ms.assetid: 4ee8897f-d49a-4b60-a26e-e7e11c088353

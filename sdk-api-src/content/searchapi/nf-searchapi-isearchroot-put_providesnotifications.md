@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_ProvidesNotifications
 title: ISearchRoot::put_ProvidesNotifications (searchapi.h)
-description: Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
+description: Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.helpviewer_keywords: ["ISearchRoot interface [search]","put_ProvidesNotifications method","ISearchRoot.put_ProvidesNotifications","ISearchRoot::put_ProvidesNotifications","_search_ISearchRoot_put_ProvidesNotifications","put_ProvidesNotifications","put_ProvidesNotifications method [search]","put_ProvidesNotifications method [search]","ISearchRoot interface","search._search_ISearchRoot_put_ProvidesNotifications","searchapi/ISearchRoot::put_ProvidesNotifications"]
 old-location: search\_search_ISearchRoot_put_ProvidesNotifications.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_providesnotifications.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentApplicationUserModelId
 title: GetCurrentApplicationUserModelId function (appmodel.h)
-description: Gets the application user model ID for the current process.
+description: Gets the application user model ID for the current process.helpviewer_keywords: ["GetCurrentApplicationUserModelId","GetCurrentApplicationUserModelId function [App packaging and management]","appmodel/GetCurrentApplicationUserModelId","appxpkg.getcurrentapplicationusermodelid"]
 old-location: appxpkg\getcurrentapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195

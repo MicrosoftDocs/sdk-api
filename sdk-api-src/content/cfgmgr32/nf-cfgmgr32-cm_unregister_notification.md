@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Unregister_Notification
 title: CM_Unregister_Notification function (cfgmgr32.h)
-description: Use UnregisterDeviceNotification instead of CM_Unregister_Notification if your code targets Windows 7 or earlier versions of Windows.
+description: Use UnregisterDeviceNotification instead of CM_Unregister_Notification if your code targets Windows 7 or earlier versions of Windows.helpviewer_keywords: ["CM_Unregister_Notification","CM_Unregister_Notification function [Device and Driver Installation]","cfgmgr32/CM_Unregister_Notification","devinst.cm_unregister_notification"]
 old-location: devinst\cm_unregister_notification.htm
 tech.root: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444

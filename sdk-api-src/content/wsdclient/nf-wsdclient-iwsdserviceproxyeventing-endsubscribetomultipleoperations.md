@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndSubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::EndSubscribeToMultipleOperations (wsdclient.h)
-description: Completes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
+description: Completes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.helpviewer_keywords: ["EndSubscribeToMultipleOperations","EndSubscribeToMultipleOperations method","EndSubscribeToMultipleOperations method","IWSDServiceProxyEventing interface","IWSDServiceProxyEventing interface","EndSubscribeToMultipleOperations method","IWSDServiceProxyEventing.EndSubscribeToMultipleOperations","IWSDServiceProxyEventing::EndSubscribeToMultipleOperations","ncd.iwsdserviceproxyeventing_endsubscribetomultipleoperations","wsdclient/IWSDServiceProxyEventing::EndSubscribeToMultipleOperations"]
 old-location: ncd\iwsdserviceproxyeventing_endsubscribetomultipleoperations.htm
 tech.root: WsdApi
 ms.assetid: 2e3cdb10-fde9-4936-9a7d-61404a754faa

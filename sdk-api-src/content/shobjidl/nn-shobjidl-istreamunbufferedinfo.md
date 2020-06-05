@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IStreamUnbufferedInfo
 title: IStreamUnbufferedInfo (shobjidl.h)
-description: Exposes a method that determines the sector size as an aid to byte alignment.
+description: Exposes a method that determines the sector size as an aid to byte alignment.helpviewer_keywords: ["IStreamUnbufferedInfo","IStreamUnbufferedInfo interface [Windows Shell]","IStreamUnbufferedInfo interface [Windows Shell]","described","_shell_IStreamUnbufferedInfo","shell.IStreamUnbufferedInfo","shobjidl/IStreamUnbufferedInfo"]
 old-location: shell\IStreamUnbufferedInfo.htm
 tech.root: shell
 ms.assetid: 51c28816-91a2-47cf-86b9-327a538ebca1

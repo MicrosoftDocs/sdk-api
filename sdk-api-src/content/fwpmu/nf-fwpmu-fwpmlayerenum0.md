@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmLayerEnum0
 title: FwpmLayerEnum0 function (fwpmu.h)
 description: Returns the next page of results from the layer enumerator.
+helpviewer_keywords: ["FwpmLayerEnum0","FwpmLayerEnum0 function [Filtering]","fwp.fwpmlayerenum0_func","fwpmu/FwpmLayerEnum0"]
 old-location: fwp\fwpmlayerenum0_func.htm
 tech.root: fwp
 ms.assetid: 0bcf0b85-713f-4f82-9cb5-cb1725c8167b
@@ -80,7 +81,7 @@ The number of layer entries requested.
 
 ### -param entries [out]
 
-Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>***</b>
+Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -165,7 +166,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)a>
+[FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)
 
 
 

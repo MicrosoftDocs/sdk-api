@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_PROVIDER_CHANGE0_
 title: FWPM_PROVIDER_CHANGE0 (fwpmtypes.h)
 description: Change notification dispatched to subscribers.
+helpviewer_keywords: ["FWPM_PROVIDER_CHANGE0","FWPM_PROVIDER_CHANGE0 structure [Filtering]","fwp.fwpm_provider_change0_struct","fwpmtypes/FWPM_PROVIDER_CHANGE0"]
 old-location: fwp\fwpm_provider_change0_struct.htm
 tech.root: fwp
 ms.assetid: abd5c40c-5907-4f1e-8fb3-28d43ecebfc8
@@ -61,7 +62,7 @@ The <b>FWPM_PROVIDER_CHANGE0</b> structure specifies a change notification dispa
 
 Type of change.
 
-See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> for more information.
+See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type) for more information.
 
 
 ### -field providerKey
@@ -83,7 +84,7 @@ GUID of the provider that changed.
 
 
 
-[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 
 
 

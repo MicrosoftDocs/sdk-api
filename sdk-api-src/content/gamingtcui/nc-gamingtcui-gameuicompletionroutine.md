@@ -1,7 +1,7 @@
 ---
 UID: NC:gamingtcui.GameUICompletionRoutine
 title: GameUICompletionRoutine (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers.helpviewer_keywords: ["GameUICompletionRoutine","GameUICompletionRoutine callback","GameUICompletionRoutine callback function","gamingtcui/GameUICompletionRoutine","tcui.gameuicompletionroutine"]
 old-location: tcui\gameuicompletionroutine.htm
 tech.root: tcui
 ms.assetid: 673F840F-1A87-42F5-8EE1-8CEAEB0CE7F8

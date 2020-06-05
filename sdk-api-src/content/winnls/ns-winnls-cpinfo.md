@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._cpinfo
 title: CPINFO (winnls.h)
-description: Contains information about a code page. This structure is used by the GetCPInfo function.
+description: Contains information about a code page. This structure is used by the GetCPInfo function.helpviewer_keywords: ["*LPCPINFO","CPINFO","CPINFO structure [Internationalization for Windows Applications]","LPCPINFO","LPCPINFO structure pointer [Internationalization for Windows Applications]","_win32_CPINFO_str","intl.cpinfo","winnls/CPINFO","winnls/LPCPINFO"]
 old-location: intl\cpinfo.htm
 tech.root: Intl
 ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7

@@ -2,6 +2,7 @@
 UID: NF:mssip.CryptSIPGetCaps
 title: CryptSIPGetCaps function (mssip.h)
 description: Retrieves the capabilities of a subject interface package (SIP).
+helpviewer_keywords: ["CryptSIPGetCaps","CryptSIPGetCaps function [Security]","mssip/CryptSIPGetCaps","security.cryptsipgetcaps"]
 old-location: security\cryptsipgetcaps.htm
 tech.root: SecCrypto
 ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
@@ -59,7 +60,7 @@ The <b>CryptSIPGetCaps</b> function retrieves the capabilities of a <a href="htt
 
 ### -param pSubjInfo [in]
 
-Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that specifies subject information data to the SIP APIs.
+Pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that specifies subject information data to the SIP APIs.
 
 
 ### -param pCaps [in, out]
@@ -71,7 +72,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 
 
-Unlike other SIP functions, [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info)a> structure. Instead, callers must map the object identifier (OID) to the function entry point. 
+Unlike other SIP functions, [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure. Instead, callers must map the object identifier (OID) to the function entry point. 
 
 
 
@@ -85,7 +86,7 @@ Unlike other SIP functions, [SIP_DISPATCH_INFO](https://docs.microsoft.com/windo
 
 
 
-[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a>
+[SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)
 
 
 

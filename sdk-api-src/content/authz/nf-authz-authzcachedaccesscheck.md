@@ -1,7 +1,7 @@
 ---
 UID: NF:authz.AuthzCachedAccessCheck
 title: AuthzCachedAccessCheck function (authz.h)
-description: Performs a fast access check based on a cached handle containing the static granted bits from a previous AuthzAccessCheck call.
+description: Performs a fast access check based on a cached handle containing the static granted bits from a previous AuthzAccessCheck call.helpviewer_keywords: ["AuthzCachedAccessCheck","AuthzCachedAccessCheck function [Security]","_win32_authzcachedaccesscheck","authz/AuthzCachedAccessCheck","security.authzcachedaccesscheck"]
 old-location: security\authzcachedaccesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4

@@ -1,7 +1,7 @@
 ---
 UID: NS:d2d1.D2D1_STROKE_STYLE_PROPERTIES
 title: D2D1_STROKE_STYLE_PROPERTIES (d2d1.h)
-description: Describes the stroke that outlines a shape.
+description: Describes the stroke that outlines a shape.helpviewer_keywords: ["D2D1_STROKE_STYLE_PROPERTIES","D2D1_STROKE_STYLE_PROPERTIES structure [Direct2D]","d2d1/D2D1_STROKE_STYLE_PROPERTIES","direct2d.D2D1_STROKE_STYLE_PROPERTIES"]
 old-location: direct2d\D2D1_STROKE_STYLE_PROPERTIES.htm
 tech.root: Direct2D
 ms.assetid: 67f3701f-febd-4afe-803e-c5d9dbcd1b21
@@ -60,28 +60,28 @@ Describes the stroke that outlines a shape.
 
 ### -field startCap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
 The cap applied to the start of all the open figures in a stroked geometry.
 
 
 ### -field endCap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
 The cap applied to the end of all the open figures in a stroked geometry.
 
 
 ### -field dashCap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
 The shape  at either end of each dash segment.
 
 
 ### -field lineJoin
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN</a></b>
 
 A value that describes how segments are joined. This value is ignored for a vertex if the segment flags specify that the segment should have a smooth join. 
 
@@ -97,7 +97,7 @@ The limit of the thickness of the join on a mitered corner. This value is always
 
 ### -field dashStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE</a></b>
 
 A value that specifies whether the stroke has a dash pattern and, if so, the dash style. 
 

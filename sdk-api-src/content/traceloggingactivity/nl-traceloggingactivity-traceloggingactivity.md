@@ -2,6 +2,7 @@
 UID: NL:traceloggingactivity.TraceLoggingActivity
 title: TraceLoggingActivity
 description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
+helpviewer_keywords: ["TraceLoggingActivity","TraceLoggingActivity class","TraceLoggingActivity class","described","tracelogging.traceloggingactivity","traceloggingactivity/TraceLoggingActivity"]
 old-location: tracelogging\traceloggingactivity.htm
 tech.root: tracelogging
 ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD
@@ -288,7 +289,7 @@ Contains the value of the level that will be used in the activity’s start and 
 
 
 
-In order to use TraceLogging activities, you need to define an instance of either [TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)a>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingfunction">TraceLoggingFunction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
+In order to use TraceLogging activities, you need to define an instance of either [TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity). After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingfunction">TraceLoggingFunction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
          
 
 You can nest activities manually by providing unique identifiers to the <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a> and <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a> macros.
@@ -302,7 +303,7 @@ You can nest activities manually by providing unique identifiers to the <a href=
 
 
 
-[TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)a>
+[TraceLoggingThreadActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity)
  
 
  

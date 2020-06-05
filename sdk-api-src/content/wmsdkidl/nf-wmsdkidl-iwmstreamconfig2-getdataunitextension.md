@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtension
 title: IWMStreamConfig2::GetDataUnitExtension (wmsdkidl.h)
-description: The GetDataUnitExtension method retrieves information about an existing data unit extension system.
+description: The GetDataUnitExtension method retrieves information about an existing data unit extension system.helpviewer_keywords: ["GetDataUnitExtension","GetDataUnitExtension method [windows Media Format]","GetDataUnitExtension method [windows Media Format]","IWMStreamConfig2 interface","IWMStreamConfig2 interface [windows Media Format]","GetDataUnitExtension method","IWMStreamConfig2.GetDataUnitExtension","IWMStreamConfig2::GetDataUnitExtension","IWMStreamConfig2GetDataUnitExtension","wmformat.iwmstreamconfig2_getdataunitextension","wmsdkidl/IWMStreamConfig2::GetDataUnitExtension"]
 old-location: wmformat\iwmstreamconfig2_getdataunitextension.htm
 tech.root: wmformat
 ms.assetid: 766124f6-b376-421b-b2ee-2c280af3bd16

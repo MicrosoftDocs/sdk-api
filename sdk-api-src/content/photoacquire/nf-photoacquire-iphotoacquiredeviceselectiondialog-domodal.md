@@ -2,6 +2,7 @@
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.DoModal
 title: IPhotoAcquireDeviceSelectionDialog::DoModal (photoacquire.h)
 description: The DoModal method displays a device selection dialog box. The function returns when the user selects a device using the modal dialog box.
+helpviewer_keywords: ["DoModal","DoModal method [Picture Acquisition]","DoModal method [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface","IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","DoModal method","IPhotoAcquireDeviceSelectionDialog.DoModal","IPhotoAcquireDeviceSelectionDialog::DoModal","IPhotoAcquireDeviceSelectionDialogDoModal","photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal","picacq.iphotoacquiredeviceselectiondialog_domodal"]
 old-location: picacq\iphotoacquiredeviceselectiondialog_domodal.htm
 tech.root: acquisition
 ms.assetid: eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b
@@ -122,7 +123,7 @@ Pointer to a string containing the ID of the selected device.
 
 ### -param pnDeviceType [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/photoacquire/ne-photoacquire-device_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a> of the selected device.
+Pointer to the <a href="/windows/win32/api/photoacquire/ne-photoacquire-device_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a> of the selected device.
 
 
 ## -returns
@@ -158,7 +159,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/photoacquire/ne-photoacquire-device_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a>
+<a href="/windows/win32/api/photoacquire/ne-photoacquire-device_selection_device_type">DEVICE_SELECTION_DEVICE_TYPE</a>
 
 
 

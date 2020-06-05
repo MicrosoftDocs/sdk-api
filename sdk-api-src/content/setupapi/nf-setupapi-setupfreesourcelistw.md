@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupFreeSourceListW
 title: SetupFreeSourceListW function (setupapi.h)
-description: The SetupFreeSourceList function frees the system resources allocated to a source list.
+description: The SetupFreeSourceList function frees the system resources allocated to a source list.helpviewer_keywords: ["SetupFreeSourceList","SetupFreeSourceList function [Setup API]","SetupFreeSourceListA","SetupFreeSourceListW","_setupapi_setupfreesourcelist","setup.setupfreesourcelist","setupapi/SetupFreeSourceList","setupapi/SetupFreeSourceListA","setupapi/SetupFreeSourceListW"]
 old-location: setup\setupfreesourcelist.htm
 tech.root: SetupApi
 ms.assetid: ac326a2c-df67-4a3e-9290-663f84027a48

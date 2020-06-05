@@ -1,7 +1,7 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListenerCallback.OnConnected
 title: IWTSProtocolListenerCallback::OnConnected (wtsprotocol.h)
-description: IWTSProtocolListenerCallback::OnConnected is no longer available. Instead, use IWRdsProtocolListenerCallback::OnConnected.
+description: IWTSProtocolListenerCallback::OnConnected is no longer available. Instead, use IWRdsProtocolListenerCallback::OnConnected.helpviewer_keywords: ["IWTSProtocolListenerCallback interface [Remote Desktop Services]","OnConnected method","IWTSProtocolListenerCallback.OnConnected","IWTSProtocolListenerCallback::OnConnected","OnConnected","OnConnected method [Remote Desktop Services]","OnConnected method [Remote Desktop Services]","IWTSProtocolListenerCallback interface","termserv.iwtsprotocollistenercallback_onconnected","wtsprotocol/IWTSProtocolListenerCallback::OnConnected"]
 old-location: termserv\iwtsprotocollistenercallback_onconnected.htm
 tech.root: TermServ
 ms.assetid: 0874c394-6260-4ac1-b5a8-27879f562e19

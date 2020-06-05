@@ -2,6 +2,7 @@
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.RemoveInstance
 title: IFunctionDiscovery::RemoveInstance (functiondiscoveryapi.h)
 description: Removes the specified function instance, based on category and subcategory.
+helpviewer_keywords: ["IFunctionDiscovery interface","RemoveInstance method","IFunctionDiscovery.RemoveInstance","IFunctionDiscovery::RemoveInstance","RemoveInstance","RemoveInstance method","RemoveInstance method","IFunctionDiscovery interface","functiondiscoveryapi/IFunctionDiscovery::RemoveInstance","ncd.ifunctiondiscovery_removeinstance_method"]
 old-location: ncd\ifunctiondiscovery_removeinstance_method.htm
 tech.root: FunDisc
 ms.assetid: 743ec310-ea35-4c4b-92f0-bbfe0a2f6f30
@@ -61,7 +62,7 @@ Removes the specified function instance, based on category and subcategory.
 
 ### -param enumSystemVisibility [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-systemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the function instance is removed system-wide or only for the current user. 
+A <a href="/windows/win32/api/functiondiscoveryapi/ne-functiondiscoveryapi-systemvisibilityflags">SystemVisibilityFlags</a> value that specifies whether the function instance is removed system-wide or only for the current user. 
 
 
 ### -param pszCategory [in]

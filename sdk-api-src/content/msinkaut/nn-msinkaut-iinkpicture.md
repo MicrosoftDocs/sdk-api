@@ -2,6 +2,7 @@
 UID: NN:msinkaut.IInkPicture
 title: IInkPicture (msinkaut.h)
 description: .
+helpviewer_keywords: ["IInkPicture","IInkPicture interface [Tablet PC]","IInkPicture interface [Tablet PC]","described","msinkaut/IInkPicture","tablet.iinkpicture"]
 old-location: tablet\iinkpicture.htm
 tech.root: tablet
 ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
@@ -958,4 +959,4 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 
 ## -see-also
 
-[InkPicture Control](https://docs.microsoft.com/windows/win32/tablet/inkpicture-control-reference)
+[InkPicture Control](/windows/win32/tablet/inkpicture-control-reference)

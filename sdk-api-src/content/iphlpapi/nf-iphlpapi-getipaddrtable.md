@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetIpAddrTable
 title: GetIpAddrTable function (iphlpapi.h)
-description: The GetIpAddrTable function retrieves the interface&#8211;to&#8211;IPv4 address mapping table.
+description: The GetIpAddrTable function retrieves the interface&#8211;to&#8211;IPv4 address mapping table.helpviewer_keywords: ["GetIpAddrTable","GetIpAddrTable function [IP Helper]","_iphlp_getipaddrtable","iphlp.getipaddrtable","iphlpapi/GetIpAddrTable"]
 old-location: iphlp\getipaddrtable.htm
 tech.root: IpHlp
 ms.assetid: 03bf5645-8237-4c78-a921-47315cab1c44
@@ -76,8 +76,11 @@ On output, if the buffer is not large enough to hold the returned mapping table,
 
 ### -param bOrder [in]
 
-A Boolean value that specifies whether the returned mapping table should be sorted in ascending order by IPv4 address. If this parameter is <b>TRUE</b>, the table is sorted.
-
+If this parameter is <b>TRUE</b>, then
+the returned mapping table
+is sorted in ascending order by IPv4 address.
+The sorting is performed in network byte order.
+For example, 10.0.0.255 comes immediately before 10.0.1.0.
 
 ## -returns
 

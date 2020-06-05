@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.IsWriterShuttingDown
 title: CVssWriterEx2::IsWriterShuttingDown (vswriter.h)
-description: Determines whether the writer is shutting down.
+description: Determines whether the writer is shutting down.helpviewer_keywords: ["CVssWriterEx2 interface","IsWriterShuttingDown method","CVssWriterEx2.IsWriterShuttingDown","CVssWriterEx2::IsWriterShuttingDown","IsWriterShuttingDown","IsWriterShuttingDown method","IsWriterShuttingDown method","CVssWriterEx2 interface","base.cvsswriterex2_iswritershuttingdown","vswriter/CVssWriterEx2::IsWriterShuttingDown"]
 old-location: base\cvsswriterex2_iswritershuttingdown.htm
 tech.root: VSS
 ms.assetid: 78ea5993-ee86-435b-a225-8cb6e5f1a240

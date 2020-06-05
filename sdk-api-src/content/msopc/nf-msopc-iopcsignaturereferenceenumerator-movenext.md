@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceEnumerator.MoveNext
 title: IOpcSignatureReferenceEnumerator::MoveNext (msopc.h)
-description: Moves the current position of the enumerator to the next IOpcSignatureReference interface pointer.
+description: Moves the current position of the enumerator to the next IOpcSignatureReference interface pointer.helpviewer_keywords: ["IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcSignatureReferenceEnumerator.MoveNext","IOpcSignatureReferenceEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcSignatureReferenceEnumerator interface","msopc/IOpcSignatureReferenceEnumerator::MoveNext","opc.iopcsignaturereferenceenumerator_movenext"]
 old-location: opc\iopcsignaturereferenceenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: b7a260c3-cfe5-4dcb-9628-7cf7fdf382de

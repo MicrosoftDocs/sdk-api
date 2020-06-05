@@ -1,7 +1,7 @@
 ---
 UID: NF:winsnmp.SnmpSetRetransmitMode
 title: SnmpSetRetransmitMode function (winsnmp.h)
-description: The WinSNMP SnmpSetRetransmitMode function enables a WinSNMP application to set the retransmission mode.
+description: The WinSNMP SnmpSetRetransmitMode function enables a WinSNMP application to set the retransmission mode.helpviewer_keywords: ["SNMPAPI_OFF","SNMPAPI_ON","SnmpSetRetransmitMode","SnmpSetRetransmitMode function [SNMP]","_snmp_snmpsetretransmitmode","snmp.snmpsetretransmitmode","winsnmp/SnmpSetRetransmitMode"]
 old-location: snmp\snmpsetretransmitmode.htm
 tech.root: SNMP
 ms.assetid: d206ba15-a068-4579-bd6a-ab2444a723e0

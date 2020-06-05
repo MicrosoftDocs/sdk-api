@@ -1,7 +1,7 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.GetMarkerName
 title: IAMExtendedSeeking::GetMarkerName (qnetwork.h)
-description: The GetMarkerName method retrieves the name associated with the specified marker.
+description: The GetMarkerName method retrieves the name associated with the specified marker.helpviewer_keywords: ["GetMarkerName","GetMarkerName method [DirectShow]","GetMarkerName method [DirectShow]","IAMExtendedSeeking interface","IAMExtendedSeeking interface [DirectShow]","GetMarkerName method","IAMExtendedSeeking.GetMarkerName","IAMExtendedSeeking::GetMarkerName","IAMExtendedSeekingGetMarkerName","dshow.iamextendedseeking_getmarkername","qnetwork/IAMExtendedSeeking::GetMarkerName"]
 old-location: dshow\iamextendedseeking_getmarkername.htm
 tech.root: DirectShow
 ms.assetid: 899cc32e-3a9f-4be0-97a9-2ddd323bf9ce

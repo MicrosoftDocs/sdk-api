@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_downloadProgress
 title: IWMPNetwork::get_downloadProgress (wmp.h)
-description: The get_downloadProgress method retrieves the percentage of the download completed.
+description: The get_downloadProgress method retrieves the percentage of the download completed.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_downloadProgress method","IWMPNetwork.get_downloadProgress","IWMPNetwork::get_downloadProgress","IWMPNetworkget_downloadProgress","get_downloadProgress","get_downloadProgress method [Windows Media Player]","get_downloadProgress method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_downloadprogress","wmp/IWMPNetwork::get_downloadProgress"]
 old-location: wmp\iwmpnetwork_get_downloadprogress.htm
 tech.root: WMP
 ms.assetid: e9ed2027-cba4-4701-a416-a2190b51570c

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFilesW
 title: SymEnumSourceFilesW function (dbghelp.h)
-description: Enumerates all source files in a process.
+description: Enumerates all source files in a process.helpviewer_keywords: ["SymEnumSourceFiles","SymEnumSourceFiles function","SymEnumSourceFilesW","base.symenumsourcefiles","dbghelp/SymEnumSourceFiles","dbghelp/SymEnumSourceFilesW"]
 old-location: base\symenumsourcefiles.htm
 tech.root: Debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0

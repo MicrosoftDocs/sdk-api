@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.get_ClientApplicationID
 title: IUpdateDownloader::get_ClientApplicationID (wuapi.h)
-description: Gets and sets the current client application.
+description: Gets and sets the current client application.helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateDownloader interface","IUpdateDownloader interface [Windows Update Agent]","ClientApplicationID property","IUpdateDownloader.ClientApplicationID","IUpdateDownloader.get_ClientApplicationID","IUpdateDownloader::ClientApplicationID","IUpdateDownloader::get_ClientApplicationID","IUpdateDownloader::put_ClientApplicationID","get_ClientApplicationID","wua.iupdatedownloader_clientapplicationid","wuapi/IUpdateDownloader::ClientApplicationID","wuapi/IUpdateDownloader::get_ClientApplicationID","wuapi/IUpdateDownloader::put_ClientApplicationID"]
 old-location: wua\iupdatedownloader_clientapplicationid.htm
 tech.root: Wua_Sdk
 ms.assetid: 97feda21-b592-49af-8c3a-90abd086c190

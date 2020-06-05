@@ -1,7 +1,7 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemNum
 title: ITfLangBarItemMgr::GetItemNum (ctfutb.h)
-description: ITfLangBarItemMgr::GetItemNum method
+description: ITfLangBarItemMgr::GetItemNum methodhelpviewer_keywords: ["GetItemNum","GetItemNum method [Text Services Framework]","GetItemNum method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","GetItemNum method","ITfLangBarItemMgr.GetItemNum","ITfLangBarItemMgr::GetItemNum","_tsf_itflangbaritemmgr_getitemnum_ref","ctfutb/ITfLangBarItemMgr::GetItemNum","tsf.itflangbaritemmgr_getitemnum"]
 old-location: tsf\itflangbaritemmgr_getitemnum.htm
 tech.root: TSF
 ms.assetid: 0caf54b1-f862-4fc2-b593-c0e9f60d71cc

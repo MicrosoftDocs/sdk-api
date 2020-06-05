@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 title: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT (clusapi.h)
-description: Describes a set of data disks retrieved by a resource type control code operation for storage replication.
+description: Describes a set of data disks retrieved by a resource type control code operation for storage replication.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT","PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT","PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT","SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT","clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT","mscs.sr_resource_type_eligible_disks_result"]
 old-location: mscs\sr_resource_type_eligible_disks_result.htm
 tech.root: MsCS
 ms.assetid: EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHSetThreadRef
 title: SHSetThreadRef function (shlwapi.h)
-description: Stores a per-thread reference to a Component Object Model (COM) object. This allows the caller to control the thread's lifetime so that it can ensure that Windows won't shut down the thread before the caller is ready.
+description: Stores a per-thread reference to a Component Object Model (COM) object. This allows the caller to control the thread's lifetime so that it can ensure that Windows won't shut down the thread before the caller is ready.helpviewer_keywords: ["SHSetThreadRef","SHSetThreadRef function [Windows Shell]","_win32_SHSetThreadRef","shell.SHSetThreadRef","shlwapi/SHSetThreadRef"]
 old-location: shell\SHSetThreadRef.htm
 tech.root: shell
 ms.assetid: 1d0d70ca-a0e6-4620-9a01-8d4986990b9c

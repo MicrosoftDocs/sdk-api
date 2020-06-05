@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRange.SetEnd
 title: ITextRange::SetEnd (tom.h)
-description: Sets the end position of the range.
+description: Sets the end position of the range.helpviewer_keywords: ["ITextRange interface [Windows Controls]","SetEnd method","ITextRange.SetEnd","ITextRange::SetEnd","SetEnd","SetEnd method [Windows Controls]","SetEnd method [Windows Controls]","ITextRange interface","_win32_ITextRange_SetEnd","_win32_ITextRange_SetEnd_cpp","controls.ITextRange_SetEnd","controls._win32_ITextRange_SetEnd","tom/ITextRange::SetEnd"]
 old-location: controls\ITextRange_SetEnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setend.htm

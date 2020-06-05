@@ -1,7 +1,7 @@
 ---
 UID: NS:windns.__unnamed_struct_0
 title: IP6_ADDRESS (windns.h)
-description: The IP6_ADDRESS structure stores an IPv6 address.
+description: The IP6_ADDRESS structure stores an IPv6 address.helpviewer_keywords: ["*PIP6_ADDRESS","*PIP6_ADDRESS structure [DNS]","IP6_ADDRESS","IP6_ADDRESS structure [DNS]","dns.ip6_address","windns/*PIP6_ADDRESS","windns/IP6_ADDRESS"]
 old-location: dns\ip6_address.htm
 tech.root: DNS
 ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d

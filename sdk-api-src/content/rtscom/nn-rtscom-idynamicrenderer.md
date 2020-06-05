@@ -1,7 +1,7 @@
 ---
 UID: NN:rtscom.IDynamicRenderer
 title: IDynamicRenderer (rtscom.h)
-description: Displays the tablet pen data in real-time as that data is being handled by the RealTimeStylus Class object.
+description: Displays the tablet pen data in real-time as that data is being handled by the RealTimeStylus Class object.helpviewer_keywords: ["6435b297-d6a7-418b-afc0-f8cc0b329842","IDynamicRenderer","IDynamicRenderer interface [Tablet PC]","IDynamicRenderer interface [Tablet PC]","described","rtscom/IDynamicRenderer","tablet.idynamicrenderer"]
 old-location: tablet\idynamicrenderer.htm
 tech.root: tablet
 ms.assetid: 6435b297-d6a7-418b-afc0-f8cc0b329842

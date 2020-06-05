@@ -1,7 +1,7 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetText
 title: IWbemPath::GetText (wmiutils.h)
-description: The IWbemPath::GetText method returns a textual representation of a path that has previously been placed into a parser object.
+description: The IWbemPath::GetText method returns a textual representation of a path that has previously been placed into a parser object.helpviewer_keywords: ["GetText","GetText method [Windows Management Instrumentation]","GetText method [Windows Management Instrumentation]","IWbemPath interface","IWbemPath interface [Windows Management Instrumentation]","GetText method","IWbemPath.GetText","IWbemPath::GetText","WBEMPATH_COMPRESSED","WBEMPATH_GET_NAMESPACE_ONLY","WBEMPATH_GET_ORIGINAL","WBEMPATH_GET_RELATIVE_ONLY","WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY","WBEMPATH_GET_SERVER_TOO","_hmm_iwbempath_gettext","wmi.iwbempath_gettext","wmiutils/IWbemPath::GetText"]
 old-location: wmi\iwbempath_gettext.htm
 tech.root: WmiSdk
 ms.assetid: 427ff33a-3b46-481e-bf46-57b13d19332e

@@ -1,7 +1,7 @@
 ---
 UID: NN:devicetopology.IPartsList
 title: IPartsList (devicetopology.h)
-description: The IPartsList interface represents a list of parts, each of which is an object with an IPart interface that represents a connector or subunit.
+description: The IPartsList interface represents a list of parts, each of which is an object with an IPart interface that represents a connector or subunit.helpviewer_keywords: ["IPartsList","IPartsList interface [Core Audio]","IPartsList interface [Core Audio]","described","coreaudio.ipartslist","devicetopology/IPartsList"]
 old-location: coreaudio\ipartslist.htm
 tech.root: CoreAudio
 ms.assetid: 3ac48781-90c2-4b23-aa68-3453091bde61

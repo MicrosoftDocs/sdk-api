@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectVectorVariable
 title: ID3D10EffectVectorVariable (d3d10effect.h)
-description: A vector-variable interface accesses a four-component vector.
+description: A vector-variable interface accesses a four-component vector.helpviewer_keywords: ["1d5dd378-d11b-3553-f1bc-769225c1c1c5","ID3D10EffectVectorVariable","ID3D10EffectVectorVariable interface [Direct3D 10]","ID3D10EffectVectorVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectVectorVariable","direct3d10.id3d10effectvectorvariable"]
 old-location: direct3d10\id3d10effectvectorvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable.htm

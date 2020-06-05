@@ -2,6 +2,7 @@
 UID: NF:msrdc.ISimilarityTraitsTable.Append
 title: ISimilarityTraitsTable::Append (msrdc.h)
 description: Adds a SimilarityData structure to the similarity traits table.
+helpviewer_keywords: ["Append","Append method [Remote Differential Compression]","Append method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","Append method","ISimilarityTraitsTable.Append","ISimilarityTraitsTable::Append","fs.isimilaritytraitstable_append","msrdc/ISimilarityTraitsTable::Append","rdc.isimilaritytraitstable_append"]
 old-location: rdc\isimilaritytraitstable_append.htm
 tech.root: rdc
 ms.assetid: e4c5f75c-282e-4c99-8c5a-53421f4bfc92
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
+Adds a <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
 
 
 ## -parameters
@@ -59,12 +60,12 @@ Adds a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-simi
 
 ### -param data [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to be added to the similarity traits table.
+The <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to be added to the similarity traits table.
 
 
 ### -param fileIndex [in]
 
-The index in the similarity traits table where the <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure is to be inserted.
+The index in the similarity traits table where the <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure is to be inserted.
 
 
 ## -returns

@@ -2,6 +2,7 @@
 UID: NF:tom.ITextRow.Reset
 title: ITextRow::Reset (tom.h)
 description: Resets a row.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","Reset method","ITextRow.Reset","ITextRow::Reset","Reset","Reset method [Windows Controls]","Reset method [Windows Controls]","ITextRow interface","controls.itextrow_reset","tom/ITextRow::Reset"]
 old-location: controls\itextrow_reset.htm
 tech.root: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
@@ -61,7 +62,7 @@ Resets a row.
 
 Type: <b>long</b>
 
-The <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRowUpdate</a> reset value.
+The <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomRowUpdate</a> reset value.
 
 
 ## -returns

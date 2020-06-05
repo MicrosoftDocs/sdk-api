@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_BYTES
 title: WS_BYTES (webservices.h)
-description: Used to serialize and deserialize an array of bytes.
+description: Used to serialize and deserialize an array of bytes.helpviewer_keywords: ["WS_BYTES","WS_BYTES structure [Web Services for Windows]","webservices/WS_BYTES","wsw.ws_bytes"]
 old-location: wsw\ws_bytes.htm
 tech.root: wsw
 ms.assetid: 0106e372-80bf-4a62-b941-1a4501c92a9c

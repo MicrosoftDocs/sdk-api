@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentThreads
 title: IThreadPoolKnobs::GetCurrentThreads (comsvcs.h)
-description: Retrieves the number of threads currently in the pool.
+description: Retrieves the number of threads currently in the pool.helpviewer_keywords: ["GetCurrentThreads","GetCurrentThreads method [COM+]","GetCurrentThreads method [COM+]","IThreadPoolKnobs interface","IThreadPoolKnobs interface [COM+]","GetCurrentThreads method","IThreadPoolKnobs.GetCurrentThreads","IThreadPoolKnobs::GetCurrentThreads","_cos_IThreadPoolKnobs_GetCurrentThreads","comsvcs/IThreadPoolKnobs::GetCurrentThreads","cos.ithreadpoolknobs_getcurrentthreads"]
 old-location: cos\ithreadpoolknobs_getcurrentthreads.htm
 tech.root: cossdk
 ms.assetid: 138f6c25-5a64-469d-b3fd-d399d43f5084

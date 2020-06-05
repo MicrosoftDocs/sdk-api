@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VendorId
 title: IDiscRecorder2::get_VendorId (imapi2.h)
-description: Retrieves the vendor ID for the device.
+description: Retrieves the vendor ID for the device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_VendorId method","IDiscRecorder2.get_VendorId","IDiscRecorder2::get_VendorId","get_VendorId","get_VendorId method [IMAPI]","get_VendorId method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_vendorid","imapi2/IDiscRecorder2::get_VendorId"]
 old-location: imapi\idiscrecorder2_get_vendorid.htm
 tech.root: imapi
 ms.assetid: a3e76907-1960-4c13-b6e4-9f5c86de38c6

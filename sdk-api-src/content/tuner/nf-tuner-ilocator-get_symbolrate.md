@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ILocator.get_SymbolRate
 title: ILocator::get_SymbolRate (tuner.h)
-description: The get_SymbolRate method gets the QPSK symbol rate.
+description: The get_SymbolRate method gets the QPSK symbol rate.helpviewer_keywords: ["IDigitalLocatorget_SymbolRate","ILocator interface [Microsoft TV Technologies]","get_SymbolRate method","ILocator.get_SymbolRate","ILocator::get_SymbolRate","get_SymbolRate","get_SymbolRate method [Microsoft TV Technologies]","get_SymbolRate method [Microsoft TV Technologies]","ILocator interface","mstv.ilocator_get_symbolrate","tuner/ILocator::get_SymbolRate"]
 old-location: mstv\ilocator_get_symbolrate.htm
 tech.root: mstv
 ms.assetid: 828967df-6ce1-4320-ae83-7bfaec79f8c7

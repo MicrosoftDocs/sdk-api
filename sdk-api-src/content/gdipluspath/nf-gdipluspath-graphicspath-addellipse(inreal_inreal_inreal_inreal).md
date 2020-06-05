@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN REAL,IN REAL,IN REAL,IN REAL)
 title: GraphicsPath::AddEllipse(IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
+description: The GraphicsPath::AddEllipse method adds an ellipse to this path.helpviewer_keywords: ["AddEllipse","AddEllipse method [GDI+]","AddEllipse method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddEllipse method","GraphicsPath.AddEllipse","GraphicsPath.AddEllipse(IN REAL","IN REAL","IN REAL","IN REAL)","GraphicsPath.AddEllipse(REAL","REAL","REAL","REAL)","GraphicsPath::AddEllipse","GraphicsPath::AddEllipse(IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddEllipse_REAL_x_REAL_y_REAL_width_REAL_height_","gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_REAL_x_REAL_y_REAL_width_REAL_height_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_REAL_x_REAL_y_REAL_width_REAL_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddellipsemethods\addellipse_69realx_realy_realwidth_realheight.htm

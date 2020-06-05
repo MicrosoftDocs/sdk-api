@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.get_Services
 title: IUpdateServiceManager::get_Services (wuapi.h)
-description: Gets an IUpdateServiceCollection of the services that are registered with WUA.
+description: Gets an IUpdateServiceCollection of the services that are registered with WUA.helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","Services property","IUpdateServiceManager.Services","IUpdateServiceManager.get_Services","IUpdateServiceManager::Services","IUpdateServiceManager::get_Services","Services property [Windows Update Agent]","Services property [Windows Update Agent]","IUpdateServiceManager interface","get_Services","wua.iupdateservicemanager_services","wuapi/IUpdateServiceManager::Services","wuapi/IUpdateServiceManager::get_Services"]
 old-location: wua\iupdateservicemanager_services.htm
 tech.root: Wua_Sdk
 ms.assetid: 9810e56b-a884-454b-adc8-ad839269dae3

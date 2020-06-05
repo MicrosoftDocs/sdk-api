@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxJob.get_Tsid
 title: IFaxJob::get_Tsid (faxcom.h)
-description: The IFaxJob::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID)) associated with the fax job.
+description: The IFaxJob::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID)) associated with the fax job.helpviewer_keywords: ["IFaxJob interface [Fax Service]","Tsid property","IFaxJob.Tsid","IFaxJob.get_Tsid","IFaxJob::Tsid","IFaxJob::get_Tsid","Tsid property [Fax Service]","Tsid property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_tsid","fax._mfax_ifaxjob_get_tsid","fax._mfax_ifaxjob_mfax_ifaxjob_get_tsid_cpp","faxcom/IFaxJob::Tsid","faxcom/IFaxJob::get_Tsid","get_Tsid"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4zz8.htm

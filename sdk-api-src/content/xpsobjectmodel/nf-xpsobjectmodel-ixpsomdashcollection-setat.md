@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.SetAt
 title: IXpsOMDashCollection::SetAt (xpsobjectmodel.h)
 description: Replaces an XPS_DASH structure at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMDashCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMDashCollection.SetAt","IXpsOMDashCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMDashCollection interface","xps.ixpsomdashcollection_setat","xpsobjectmodel/IXpsOMDashCollection::SetAt"]
 old-location: xps\ixpsomdashcollection_setat.htm
 tech.root: printdocs
 ms.assetid: c0ea0ae0-2c28-4478-82fc-3e80bc70eef8
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Replaces an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
+Replaces an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure at a specified location in the collection.
 
 
 ## -parameters
@@ -59,12 +60,12 @@ Replaces an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel
 
 ### -param index [in]
 
-The zero-based index in the collection where an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure is to be replaced.
+The zero-based index in the collection where an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure is to be replaced.
 
 
 ### -param dash [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that will replace the current contents at the location specified by <i>index</i>.
+A pointer to the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure that will replace the current contents at the location specified by <i>index</i>.
 
 
 ## -returns
@@ -80,7 +81,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-At the location specified by <i>index</i>, this method frees the existing <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure then replaces it with the structure that is passed in <i>dash</i>.
+At the location specified by <i>index</i>, this method frees the existing <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure then replaces it with the structure that is passed in <i>dash</i>.
 
 The figure that follows illustrates how the collection is changed by the <b>SetAt</b> method.
 
@@ -101,7 +102,7 @@ The figure that follows illustrates how the collection is changed by the <b>SetA
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

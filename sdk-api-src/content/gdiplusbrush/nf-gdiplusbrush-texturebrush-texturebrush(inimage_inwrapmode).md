@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN WrapMode)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode) (gdiplusbrush.h)
-description: Creates a TextureBrush object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
+description: Creates a TextureBrush object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush constructor","TextureBrush constructor [GDI+]","TextureBrush constructor [GDI+]","TextureBrush class","TextureBrush.TextureBrush","TextureBrush.TextureBrush(IN Image","IN WrapMode)","TextureBrush.TextureBrush(Image*","WrapMode)","TextureBrush::TextureBrush","TextureBrush::TextureBrush(IN Image","IN WrapMode)","_gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_","gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_image_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_99image_wrapmode.htm

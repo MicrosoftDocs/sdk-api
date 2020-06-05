@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageName
 title: WdsCliGetImageName function (wdsclientapi.h)
-description: Returns the name of the current image.
+description: Returns the name of the current image.helpviewer_keywords: ["WdsCliGetImageName","WdsCliGetImageName function [Windows Deployment Services]","wds.wdscligetimagename","wdsclientapi/WdsCliGetImageName"]
 old-location: wds\wdscligetimagename.htm
 tech.root: wds
 ms.assetid: 09bcd4c1-ce80-4338-a457-80c46b17015a

@@ -1,7 +1,7 @@
 ---
 UID: NC:faxroute.PFAXROUTEGETFILE
 title: PFAXROUTEGETFILE (faxroute.h)
-description: A fax routing method calls the FaxRouteGetFile callback function to retrieve the name of a specific file from the fax file list associated with a received fax document.
+description: A fax routing method calls the FaxRouteGetFile callback function to retrieve the name of a specific file from the fax file list associated with a received fax document.helpviewer_keywords: ["FaxRouteGetFile","FaxRouteGetFile callback function [Fax Service]","PFAXROUTEGETFILE","PFAXROUTEGETFILE callback","_mfax_faxroutegetfile","fax._mfax_faxroutegetfile","faxroute/FaxRouteGetFile"]
 old-location: fax\_mfax_faxroutegetfile.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_4cf9.htm

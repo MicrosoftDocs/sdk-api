@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVDisk
 title: IVdsVDisk (vds.h)
-description: Defines methods for managing a virtual disk.
+description: Defines methods for managing a virtual disk.helpviewer_keywords: ["IVdsVDisk","IVdsVDisk interface","IVdsVDisk interface","described","base.ivdsvdisk","vds/IVdsVDisk"]
 old-location: base\ivdsvdisk.htm
 tech.root: VDS
 ms.assetid: 2b4f81f9-81ec-4288-a26c-8ed4d378358a

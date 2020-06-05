@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.DeselectStream
 title: IMFPresentationDescriptor::DeselectStream (mfidl.h)
-description: Deselects a stream in the presentation.
+description: Deselects a stream in the presentation.helpviewer_keywords: ["3de1f0d5-10fc-415b-898b-4643a391ba79","DeselectStream","DeselectStream method [Media Foundation]","DeselectStream method [Media Foundation]","IMFPresentationDescriptor interface","IMFPresentationDescriptor interface [Media Foundation]","DeselectStream method","IMFPresentationDescriptor.DeselectStream","IMFPresentationDescriptor::DeselectStream","mf.imfpresentationdescriptor_deselectstream","mfidl/IMFPresentationDescriptor::DeselectStream"]
 old-location: mf\imfpresentationdescriptor_deselectstream.htm
 tech.root: medfound
 ms.assetid: 3de1f0d5-10fc-415b-898b-4643a391ba79

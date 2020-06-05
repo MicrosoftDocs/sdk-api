@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
 title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) (d3d11.h)
-description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with D3D11_VIEWPORT values.
+description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with D3D11_VIEWPORT values.helpviewer_keywords: ["CD3D11_VIEWPORT","CD3D11_VIEWPORT constructor [Direct3D 11]","CD3D11_VIEWPORT constructor [Direct3D 11]","CD3D11_VIEWPORT interface","CD3D11_VIEWPORT interface [Direct3D 11]","CD3D11_VIEWPORT constructor","CD3D11_VIEWPORT.CD3D11_VIEWPORT","CD3D11_VIEWPORT.CD3D11_VIEWPORT(FLOAT","FLOAT","FLOAT","FLOAT","FLOAT","FLOAT)","CD3D11_VIEWPORT::CD3D11_VIEWPORT","CD3D11_VIEWPORT::CD3D11_VIEWPORT(FLOAT","FLOAT","FLOAT","FLOAT","FLOAT","FLOAT)","d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT","direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_values_"]
 old-location: direct3d11\cd3d11_viewport_cd3d11_viewport_d3d11_viewport_values_.htm
 tech.root: direct3d11
 ms.assetid: EDC5768A-0BF4-40B4-ABDC-67701A75FB8A

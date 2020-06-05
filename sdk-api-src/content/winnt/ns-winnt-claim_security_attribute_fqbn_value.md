@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 title: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE (winnt.h)
-description: Specifies the fully qualified binary name.
+description: Specifies the fully qualified binary name.helpviewer_keywords: ["*PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE","CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE","CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security]","PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE","PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security]","_CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE","security.claim_security_attribute_fqbn_value","winnt/CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE","winnt/PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE"]
 old-location: security\claim_security_attribute_fqbn_value.htm
 tech.root: SecAuthZ
 ms.assetid: 1FD9A519-40EA-4780-90F5-C9DF4ADAE72C

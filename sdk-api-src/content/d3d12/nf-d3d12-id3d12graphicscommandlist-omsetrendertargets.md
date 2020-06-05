@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetRenderTargets
 title: ID3D12GraphicsCommandList::OMSetRenderTargets (d3d12.h)
-description: Sets CPU descriptor handles for the render targets and depth stencil.
+description: Sets CPU descriptor handles for the render targets and depth stencil.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","OMSetRenderTargets method","ID3D12GraphicsCommandList.OMSetRenderTargets","ID3D12GraphicsCommandList::OMSetRenderTargets","OMSetRenderTargets","OMSetRenderTargets method","OMSetRenderTargets method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets","direct3d12.id3d12graphicscommandlist_omsetrendertargets"]
 old-location: direct3d12\id3d12graphicscommandlist_omsetrendertargets.htm
 tech.root: direct3d12
 ms.assetid: FE565AA2-FA34-4824-870E-9C4C7C19C93C
@@ -62,7 +62,7 @@ Sets CPU descriptor handles for the render targets and depth stencil.
 
 Type: <b>UINT</b>
 
-The number of entries in the <i>pRenderTargetDescriptors</i> array.
+The number of entries in the <i>pRenderTargetDescriptors</i> array (ranges between 0 and <b>D3D12_SIMULTANEOUS_RENDER_TARGET_COUNT</b>). If this parameter is nonzero, the number of entries in the array to which pRenderTargetDescriptors points must equal the number in this parameter.
           
 
 
@@ -70,7 +70,7 @@ The number of entries in the <i>pRenderTargetDescriptors</i> array.
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a>*</b>
 
-Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> structures that describe the CPU descriptor handles that represents the start of the heap of render target descriptors.
+Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> structures that describe the CPU descriptor handles that represents the start of the heap of render target descriptors. If this parameter is NULL and NumRenderTargetDescriptors is 0, no render targets are bound.
           
 
 
@@ -93,7 +93,7 @@ In this case the driver dereferences three handles that are expected to be adjac
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> structure that describes the CPU descriptor handle that represents the start of the heap that holds the depth stencil descriptor.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a> structure that describes the CPU descriptor handle that represents the start of the heap that holds the depth stencil descriptor. If this parameter is NULL, no depth stencil descriptor is bound.
           
 
 

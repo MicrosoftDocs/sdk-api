@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATStoreFromHandle
 title: CryptCATStoreFromHandle function (mscat.h)
 description: Retrieves a CRYPTCATSTORE structure from a catalog handle.
+helpviewer_keywords: ["CryptCATStoreFromHandle","CryptCATStoreFromHandle function [Security]","mscat/CryptCATStoreFromHandle","security.cryptcatstorefromhandle"]
 old-location: security\cryptcatstorefromhandle.htm
 tech.root: SecCrypto
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATStoreFromHandle</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure from a catalog handle.
+The [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure from a catalog handle.
 
 
 ## -parameters
@@ -68,7 +69,7 @@ A handle to the catalog obtained from the <a href="https://docs.microsoft.com/wi
 
 
 
-A pointer to a [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure that contains the catalog store. The caller must not free this pointer or any of its members.
+A pointer to a [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains the catalog store. The caller must not free this pointer or any of its members.
 
 
 

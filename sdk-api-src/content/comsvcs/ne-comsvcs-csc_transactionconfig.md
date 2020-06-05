@@ -1,7 +1,7 @@
 ---
 UID: NE:comsvcs.tagCSC_TransactionConfig
 title: CSC_TransactionConfig (comsvcs.h)
-description: Indicates how transactions are configured for CServiceConfig.
+description: Indicates how transactions are configured for CServiceConfig.helpviewer_keywords: ["CSC_CreateTransactionIfNecessary","CSC_IfContainerIsTransactional","CSC_NewTransaction","CSC_NoTransaction","CSC_TransactionConfig","CSC_TransactionConfig enumeration [COM+]","_cos_CSC_TransactionConfig","comsvcs/CSC_CreateTransactionIfNecessary","comsvcs/CSC_IfContainerIsTransactional","comsvcs/CSC_NewTransaction","comsvcs/CSC_NoTransaction","comsvcs/CSC_TransactionConfig","cos.csc_transactionconfig"]
 old-location: cos\csc_transactionconfig.htm
 tech.root: cossdk
 ms.assetid: 3524d7b3-4bcd-4e92-afc2-ddac98a23b7c

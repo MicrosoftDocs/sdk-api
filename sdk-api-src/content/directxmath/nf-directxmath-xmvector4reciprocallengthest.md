@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4ReciprocalLengthEst
 title: XMVector4ReciprocalLengthEst function (directxmath.h)
-description: Estimates the reciprocal of the length of a 4D vector.
+description: Estimates the reciprocal of the length of a 4D vector.helpviewer_keywords: ["Use DirectX..XMVector4ReciprocalLengthEst","XMVector4ReciprocalLengthEst","XMVector4ReciprocalLengthEst method [DirectX Math Support APIs]","dxmath.xmvector4reciprocallengthest"]
 old-location: dxmath\xmvector4reciprocallengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4ReciprocalLengthEst(XMVECTOR)

@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SECURITY_PACKAGE_OPTIONS
 title: SECURITY_PACKAGE_OPTIONS (sspi.h)
-description: Specifies information about a security package.
+description: Specifies information about a security package.helpviewer_keywords: ["*PSECURITY_PACKAGE_OPTIONS","PSECURITY_PACKAGE_OPTIONS","PSECURITY_PACKAGE_OPTIONS structure pointer [Security]","SECPKG_OPTIONS_TYPE_LSA","SECPKG_OPTIONS_TYPE_SSPI","SECPKG_OPTIONS_TYPE_UNKNOWN","SECURITY_PACKAGE_OPTIONS","SECURITY_PACKAGE_OPTIONS structure [Security]","security.security_package_options","sspi/PSECURITY_PACKAGE_OPTIONS","sspi/SECURITY_PACKAGE_OPTIONS"]
 old-location: security\security_package_options.htm
 tech.root: SecAuthN
 ms.assetid: 2e9f65ec-72a5-4d6f-aa63-f83369f0dd07

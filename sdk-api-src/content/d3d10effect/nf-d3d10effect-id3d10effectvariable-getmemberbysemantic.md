@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetMemberBySemantic
 title: ID3D10EffectVariable::GetMemberBySemantic (d3d10effect.h)
-description: Get a structure member by semantic.
+description: Get a structure member by semantic.helpviewer_keywords: ["39fcf4c4-6072-0377-d1b8-ca11cc848a0c","GetMemberBySemantic","GetMemberBySemantic method [Direct3D 10]","GetMemberBySemantic method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetMemberBySemantic method","ID3D10EffectVariable.GetMemberBySemantic","ID3D10EffectVariable::GetMemberBySemantic","d3d10effect/ID3D10EffectVariable::GetMemberBySemantic","direct3d10.id3d10effectvariable_getmemberbysemantic"]
 old-location: direct3d10\id3d10effectvariable_getmemberbysemantic.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbysemantic.htm

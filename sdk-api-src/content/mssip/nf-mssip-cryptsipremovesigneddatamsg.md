@@ -2,6 +2,7 @@
 UID: NF:mssip.CryptSIPRemoveSignedDataMsg
 title: CryptSIPRemoveSignedDataMsg function (mssip.h)
 description: Removes a specified Authenticode signature.
+helpviewer_keywords: ["CryptSIPRemoveSignedDataMsg","CryptSIPRemoveSignedDataMsg function [Security]","mssip/CryptSIPRemoveSignedDataMsg","security.cryptsipremovesigneddatamsg"]
 old-location: security\cryptsipremovesigneddatamsg.htm
 tech.root: SecCrypto
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
@@ -59,7 +60,7 @@ The <b>CryptSIPRemoveSignedDataMsg</b> function removes a specified <a href="htt
 
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 
 ### -param dwIndex [in]

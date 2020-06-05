@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.NearestPoint
 title: IInkStrokeDisp::NearestPoint (msinkaut.h)
-description: Finds the location on the stroke nearest to a known point and returns the distance that point is from the stroke. Everything is in ink space coordinates.
+description: Finds the location on the stroke nearest to a known point and returns the distance that point is from the stroke. Everything is in ink space coordinates.helpviewer_keywords: ["87c01f9d-b48a-459c-99f8-9634e1693fa0","IInkStrokeDisp interface [Tablet PC]","NearestPoint method","IInkStrokeDisp.NearestPoint","IInkStrokeDisp::NearestPoint","NearestPoint","NearestPoint method [Tablet PC]","NearestPoint method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::NearestPoint","tablet.iinkstrokedisp_nearestpoint"]
 old-location: tablet\iinkstrokedisp_nearestpoint.htm
 tech.root: tablet
 ms.assetid: 87c01f9d-b48a-459c-99f8-9634e1693fa0

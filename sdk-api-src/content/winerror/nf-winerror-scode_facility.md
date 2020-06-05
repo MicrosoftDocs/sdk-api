@@ -1,7 +1,7 @@
 ---
 UID: NF:winerror.SCODE_FACILITY
 title: SCODE_FACILITY macro (winerror.h)
-description: Extracts the facility of the specified SCODE.
+description: Extracts the facility of the specified SCODE.helpviewer_keywords: ["SCODE_FACILITY","SCODE_FACILITY macro [COM]","_com_SCODE_FACILITY","com.scode_facility","com.scode_facility_macro","winerror/SCODE_FACILITY"]
 old-location: com\scode_facility_macro.htm
 tech.root: com
 ms.assetid: 646e2d98-69c4-43ac-b939-c67a61d7cbce

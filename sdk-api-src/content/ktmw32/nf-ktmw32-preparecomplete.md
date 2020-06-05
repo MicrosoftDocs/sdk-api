@@ -2,6 +2,7 @@
 UID: NF:ktmw32.PrepareComplete
 title: PrepareComplete function (ktmw32.h)
 description: Indicates that the resource manager (RM) has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.
+helpviewer_keywords: ["PrepareComplete","PrepareComplete function [Files]","fs.preparecomplete","ktmw32/PrepareComplete"]
 old-location: fs\preparecomplete.htm
 tech.root: ktm
 ms.assetid: 47488c70-3409-4544-bcca-3415f91e7194
@@ -64,7 +65,7 @@ A handle to the enlistment.
 
 ### -param TmVirtualClock [in]
 
-The latest virtual clock value received for this prepare complete notification. If you specify <b>NULL</b>, the virtual clock value is not changed. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+The latest virtual clock value received for this prepare complete notification. If you specify <b>NULL</b>, the virtual clock value is not changed. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
 
 To change the virtual clock value, this value must be greater than the current value returned in the COMMIT notification.
 

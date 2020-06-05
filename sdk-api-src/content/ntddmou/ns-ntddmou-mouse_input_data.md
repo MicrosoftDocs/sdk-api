@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddmou._MOUSE_INPUT_DATA
 title: MOUSE_INPUT_DATA (ntddmou.h)
-description: MOUSE_INPUT_DATA contains one packet of mouse input data.
+description: MOUSE_INPUT_DATA contains one packet of mouse input data.helpviewer_keywords: ["*PMOUSE_INPUT_DATA","MOUSE_INPUT_DATA","MOUSE_INPUT_DATA structure [Human Input Devices]","PMOUSE_INPUT_DATA","PMOUSE_INPUT_DATA structure pointer [Human Input Devices]","hid.mouse_input_data","mref_7f184199-ae93-458c-8e4b-25fcacc57263.xml","ntddmou/MOUSE_INPUT_DATA","ntddmou/PMOUSE_INPUT_DATA"]
 old-location: hid\mouse_input_data.htm
 tech.root: hid
 ms.assetid: 363699d5-e91c-43ea-bae3-8ed997487e31

@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeBool
 title: GetThemeBool function (uxtheme.h)
-description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.
+description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.helpviewer_keywords: ["GetThemeBool","GetThemeBool function [Windows Controls]","TMT_ALWAYSSHOWSIZINGBAR","TMT_AUTOSIZE","TMT_BGFILL","TMT_BORDERONLY","TMT_COMPOSITED","TMT_GLYPHONLY","TMT_GLYPHTRANSPARENT","TMT_INTEGRALSIZING","TMT_MIRRORIMAGE","TMT_SOURCEGROW","TMT_SOURCESHRINK","TMT_TRANSPARENT","TMT_UNIFORMSIZING","TMT_USERPICTURE","controls.GetThemeBool","controls.inet_GetThemeBool","inet_GetThemeBool","inet_GetThemeBool_cpp","uxtheme/GetThemeBool"]
 old-location: controls\GetThemeBool.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebool.htm

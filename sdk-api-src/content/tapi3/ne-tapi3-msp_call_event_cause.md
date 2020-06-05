@@ -2,6 +2,7 @@
 UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0003
 title: MSP_CALL_EVENT_CAUSE (tapi3.h)
 description: The MSP_CALL_EVENT_CAUSE constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
+helpviewer_keywords: ["CALL_CAUSE_BAD_DEVICE","CALL_CAUSE_CONNECT_FAIL","CALL_CAUSE_LOCAL_REQUEST","CALL_CAUSE_MEDIA_RECOVERED","CALL_CAUSE_MEDIA_TIMEOUT","CALL_CAUSE_REMOTE_REQUEST","CALL_CAUSE_UNKNOWN","MSP_CALL_EVENT_CAUSE","MSP_CALL_EVENT_CAUSE enumeration [TAPI 2.2]","_tapi3_msp_call_event_cause","msp/CALL_CAUSE_BAD_DEVICE","msp/CALL_CAUSE_CONNECT_FAIL","msp/CALL_CAUSE_LOCAL_REQUEST","msp/CALL_CAUSE_MEDIA_RECOVERED","msp/CALL_CAUSE_MEDIA_TIMEOUT","msp/CALL_CAUSE_REMOTE_REQUEST","msp/CALL_CAUSE_UNKNOWN","msp/MSP_CALL_EVENT_CAUSE","tapi3.msp_call_event_cause"]
 old-location: tapi3\msp_call_event_cause.htm
 tech.root: Tapi
 ms.assetid: 3724bead-d16a-40dd-b55c-3c31846f1c1c
@@ -50,9 +51,9 @@ ms.custom: 19H1
 
 
 The <b>MSP_CALL_EVENT_CAUSE</b> constant is returned within the 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> struct by the 
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> struct by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method when 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a> is ME_CALL_EVENT.
+<a href="/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a> is ME_CALL_EVENT.
 
 
 ## -enum-fields
@@ -109,11 +110,11 @@ The media that carries the stream is back to normal from a temporary denial of s
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a>
+<a href="/windows/win32/api/msp/ne-msp-msp_event">MSP_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a>
 
 
 

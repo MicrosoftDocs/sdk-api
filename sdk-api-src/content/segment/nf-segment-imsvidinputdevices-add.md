@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidInputDevices.Add
 title: IMSVidInputDevices::Add (segment.h)
-description: The Add method adds an input device to the collection.
+description: The Add method adds an input device to the collection.helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IMSVidInputDevices interface","IMSVidInputDevices interface [Microsoft TV Technologies]","Add method","IMSVidInputDevices.Add","IMSVidInputDevices::Add","IMSVidInputDevicesAdd","mstv.imsvidinputdevices_add","segment/IMSVidInputDevices::Add"]
 old-location: mstv\imsvidinputdevices_add.htm
 tech.root: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42

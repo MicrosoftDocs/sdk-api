@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_mediaCollection
 title: IWMPLibrary::get_mediaCollection (wmp.h)
-description: The get_mediaCollection method retrieves a pointer to the IWMPMediaCollection interface for the current library.
+description: The get_mediaCollection method retrieves a pointer to the IWMPMediaCollection interface for the current library.helpviewer_keywords: ["IWMPLibrary interface [Windows Media Player]","get_mediaCollection method","IWMPLibrary.get_mediaCollection","IWMPLibrary::get_mediaCollection","IWMPLibraryget_mediaCollection","get_mediaCollection","get_mediaCollection method [Windows Media Player]","get_mediaCollection method [Windows Media Player]","IWMPLibrary interface","wmp.iwmplibrary_get_mediacollection","wmp/IWMPLibrary::get_mediaCollection"]
 old-location: wmp\iwmplibrary_get_mediacollection.htm
 tech.root: WMP
 ms.assetid: 6de39a4e-fcce-401b-9bbf-7b06d1fb0370

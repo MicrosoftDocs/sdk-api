@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.CachedBitmap.GetLastStatus
 title: CachedBitmap::GetLastStatus (gdiplusheaders.h)
-description: The CachedBitmap::GetLastStatus method returns a value that indicates whether this CachedBitmap object was constructed successfully.
+description: The CachedBitmap::GetLastStatus method returns a value that indicates whether this CachedBitmap object was constructed successfully.helpviewer_keywords: ["CachedBitmap class [GDI+]","GetLastStatus method","CachedBitmap.GetLastStatus","CachedBitmap::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","CachedBitmap class","_gdiplus_CLASS_CachedBitmap_GetLastStatus_","gdiplus._gdiplus_CLASS_CachedBitmap_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmapclass\getlaststatus_27.htm

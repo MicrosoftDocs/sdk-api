@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ILaunchTargetMonitor.GetMonitor
 title: ILaunchTargetMonitor::GetMonitor (shobjidl_core.h)
-description: Retrieves the target monitor for the application being launched.
+description: Retrieves the target monitor for the application being launched.helpviewer_keywords: ["GetMonitor","GetMonitor method [Windows Shell]","GetMonitor method [Windows Shell]","ILaunchTargetMonitor interface","ILaunchTargetMonitor interface [Windows Shell]","GetMonitor method","ILaunchTargetMonitor.GetMonitor","ILaunchTargetMonitor::GetMonitor","shell.ILaunchTargetMonitor_GetMonitor","shobjidl_core/ILaunchTargetMonitor::GetMonitor"]
 old-location: shell\ILaunchTargetMonitor_GetMonitor.htm
 tech.root: shell
 ms.assetid: 88437C86-DC0F-42F4-B58E-E732E1DAB9FD

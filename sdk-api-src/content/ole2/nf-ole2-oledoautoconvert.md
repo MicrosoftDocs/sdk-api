@@ -1,7 +1,7 @@
 ---
 UID: NF:ole2.OleDoAutoConvert
 title: OleDoAutoConvert function (ole2.h)
-description: Automatically converts an object to a new class if automatic conversion for that object class is set in the registry.
+description: Automatically converts an object to a new class if automatic conversion for that object class is set in the registry.helpviewer_keywords: ["OleDoAutoConvert","OleDoAutoConvert function [COM]","_com_OleDoAutoConvert","com.oledoautoconvert","ole2/OleDoAutoConvert"]
 old-location: com\oledoautoconvert.htm
 tech.root: com
 ms.assetid: fe470f8a-b2f0-48a4-a270-77420bd1472a

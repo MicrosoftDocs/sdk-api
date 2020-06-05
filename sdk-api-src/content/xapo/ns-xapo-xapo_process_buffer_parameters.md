@@ -1,7 +1,7 @@
 ---
 UID: NS:xapo.XAPO_PROCESS_BUFFER_PARAMETERS
 title: XAPO_PROCESS_BUFFER_PARAMETERS (xapo.h)
-description: Defines stream buffer parameters that may change from one call to the next. Used with the Process method.
+description: Defines stream buffer parameters that may change from one call to the next. Used with the Process method.helpviewer_keywords: ["XAPO_PROCESS_BUFFER_PARAMETERS","XAPO_PROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapo/XAPO_PROCESS_BUFFER_PARAMETERS","xaudio2.xapo_process_buffer_parameters"]
 old-location: xaudio2\xapo_process_buffer_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_PROCESS_BUFFER_PARAMETERS

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateTranslateTransform
 title: IDCompositionDevice2::CreateTranslateTransform (dcomp.h)
-description: Creates a 2D translation transform object.
+description: Creates a 2D translation transform object.helpviewer_keywords: ["CreateTranslateTransform","CreateTranslateTransform method [DirectComposition]","CreateTranslateTransform method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateTranslateTransform method","IDCompositionDevice2.CreateTranslateTransform","IDCompositionDevice2::CreateTranslateTransform","dcomp/IDCompositionDevice2::CreateTranslateTransform","directcomp.idcompositiondevice2_createtranslatetransform"]
 old-location: directcomp\idcompositiondevice2_createtranslatetransform.htm
 tech.root: directcomp
 ms.assetid: 83800B10-7992-4A3D-B8D6-6872BAEAF7DA

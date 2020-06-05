@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabInviteEndpoint
 title: PeerCollabInviteEndpoint function (p2p.h)
-description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. This call is synchronous and, if successful, obtains a response from the peer endpoint.
+description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. This call is synchronous and, if successful, obtains a response from the peer endpoint.helpviewer_keywords: ["PeerCollabInviteEndpoint","PeerCollabInviteEndpoint function [Peer Networking]","p2p.peercollabinviteendpoint","p2p/PeerCollabInviteEndpoint"]
 old-location: p2p\peercollabinviteendpoint.htm
 tech.root: P2PSdk
 ms.assetid: c77eee5b-6fee-4eaa-ac0e-94a0fd3df92e

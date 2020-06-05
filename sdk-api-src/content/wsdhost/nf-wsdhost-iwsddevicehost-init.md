@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Init
 title: IWSDDeviceHost::Init (wsdhost.h)
-description: Initializes an instance of an IWSDDeviceHost object.
+description: Initializes an instance of an IWSDDeviceHost object.helpviewer_keywords: ["IWSDDeviceHost interface","Init method","IWSDDeviceHost.Init","IWSDDeviceHost::Init","Init","Init method","Init method","IWSDDeviceHost interface","ncd.iwsddevicehost_init_method","wsdhost/IWSDDeviceHost::Init"]
 old-location: ncd\iwsddevicehost_init_method.htm
 tech.root: WsdApi
 ms.assetid: a66f0600-0bac-4bef-af43-6db60b60605e

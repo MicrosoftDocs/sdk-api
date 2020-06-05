@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_POLICY_CONSTRAINTS
 title: WS_POLICY_CONSTRAINTS (webservices.h)
 description: Specifies policy constraints for a channel.
+helpviewer_keywords: ["WS_POLICY_CONSTRAINTS","WS_POLICY_CONSTRAINTS structure [Web Services for Windows]","webservices/WS_POLICY_CONSTRAINTS","wsw.ws_policy_constraints"]
 old-location: wsw\ws_policy_constraints.htm
 tech.root: wsw
 ms.assetid: 2cf65426-336f-4148-ab3b-063a229db99f
@@ -83,7 +84,7 @@ An array of channel property constraints which override the default
 
 If a channel property constraint is not specified for a given property,
                     then a default constraint value will be used.
-                    See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_channel_property_constraint">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
+                    See <a href="/windows/win32/api/webservices/ns-webservices-ws_channel_property_constraint">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
                 
 

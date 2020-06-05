@@ -1,7 +1,7 @@
 ---
 UID: NE:wcmapi._WCM_CONNECTION_COST_SOURCE
 title: WCM_CONNECTION_COST_SOURCE (wcmapi.h)
-description: Specifies the source that provides connection cost information.
+description: Specifies the source that provides connection cost information.helpviewer_keywords: ["*PWCM_CONNECTION_COST_SOURCE","PWCM_CONNECTION_COST_SOURCE","PWCM_CONNECTION_COST_SOURCE enumeration pointer [Windows Connection Manager]","WCM_CONNECTION_COST_SOURCE","WCM_CONNECTION_COST_SOURCE enumeration [Windows Connection Manager]","WCM_CONNECTION_COST_SOURCE_DEFAULT","WCM_CONNECTION_COST_SOURCE_GP","WCM_CONNECTION_COST_SOURCE_OPERATOR","WCM_CONNECTION_COST_SOURCE_USER","wcm.wcm_connection_cost_source","wcmapi/PWCM_CONNECTION_COST_SOURCE","wcmapi/WCM_CONNECTION_COST_SOURCE","wcmapi/WCM_CONNECTION_COST_SOURCE_DEFAULT","wcmapi/WCM_CONNECTION_COST_SOURCE_GP","wcmapi/WCM_CONNECTION_COST_SOURCE_OPERATOR","wcmapi/WCM_CONNECTION_COST_SOURCE_USER"]
 old-location: wcm\wcm_connection_cost_source.htm
 tech.root: wcm
 ms.assetid: cd9e5562-dd50-46fc-be11-0ea89e6933c0

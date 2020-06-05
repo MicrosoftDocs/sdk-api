@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector4GreaterR
 title: XMVector4GreaterR function (directxmath.h)
-description: Tests whether one 4D vector is greater than another 4D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
+description: Tests whether one 4D vector is greater than another 4D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.helpviewer_keywords: ["Use DirectX..XMVector4GreaterR","XMVector4GreaterR","XMVector4GreaterR method [DirectX Math Support APIs]","dxmath.xmvector4greaterr"]
 old-location: dxmath\xmvector4greaterr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4GreaterR(XMVECTOR,XMVECTOR)

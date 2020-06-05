@@ -2,6 +2,7 @@
 UID: NS:mprapi._RAS_CONNECTION_4
 title: RAS_CONNECTION_4 (mprapi.h)
 description: Contains specific information for the connection that includes:\_the user name, domain, Globally Unique Identifier (GUID) associated with the connection, Network Access Protection (NAP) quarantine state, packet statistics, as well as its Point-to-Point (PPP) and Internet Key Exchange version 2 (IKEv2) related information.
+helpviewer_keywords: ["*PRAS_CONNECTION_4","PRAS_CONNECTION_4","PRAS_CONNECTION_4 structure pointer [RAS]","RAS_CONNECTION_4","RAS_CONNECTION_4 structure [RAS]","RAS_FLAGS_ARAP_CONNECTION","RAS_FLAGS_DORMANT","RAS_FLAGS_IKEV2_CONNECTION","RAS_FLAGS_MESSENGER_PRESENT","RAS_FLAGS_PPP_CONNECTION","RAS_FLAGS_QUARANTINE_PRESENT","RDT_Tunnel_IKev2","RDT_Tunnel_L2tp","RDT_Tunnel_Pptp","RDT_Tunnel_Sstp","mprapi/PRAS_CONNECTION_4","mprapi/RAS_CONNECTION_4","rras.ras_connection_4"]
 old-location: rras\ras_connection_4.htm
 tech.root: RRAS
 ms.assetid: b7cd637d-45ad-4e4c-b5b2-e85b142375ff
@@ -188,22 +189,26 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinba
 
 ### -field ullBytesXmited
 
-A value that specifies the number of frames transmitted on the connection.
 
+A value that specifies the number of bytes transmitted on the connection.
 
 ### -field ullBytesRcved
 
-A value that specifies the number of frames received on the connection.
 
+A value that specifies the number of bytes received on the connection.
 
 ### -field dwFramesXmited
 
- 
+A value that specifies the number of frames transmitted on the connection.
 
 
 ### -field dwFramesRcved
 
- 
+A value that specifies the number of frames received on the connection.
+
+
+
+
 
 
 ### -field dwCrcErr
@@ -329,12 +334,5 @@ IKEv2 tunnel
  
 
 
-#### - dwBytesRcved
 
-A value that specifies the number of bytes received on the connection.
-
-
-#### - dwBytesXmited
-
-A value that specifies the number of bytes transmitted on the connection.
 

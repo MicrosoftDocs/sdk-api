@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfFunctionProvider
 title: ITfFunctionProvider (msctf.h)
-description: The ITfFunctionProvider interface is implemented by an application or text service to provide various function objects.
+description: The ITfFunctionProvider interface is implemented by an application or text service to provide various function objects.helpviewer_keywords: ["ITfFunctionProvider","ITfFunctionProvider interface [Text Services Framework]","ITfFunctionProvider interface [Text Services Framework]","described","_tsf_itffunctionprovider_ref","msctf/ITfFunctionProvider","tsf.itffunctionprovider"]
 old-location: tsf\itffunctionprovider.htm
 tech.root: TSF
 ms.assetid: e63fd561-1157-49b1-a981-e578d9538876

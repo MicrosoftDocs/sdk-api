@@ -1,7 +1,7 @@
 ---
 UID: NF:ctffunc.ITfFnPlayBack.QueryRange
 title: ITfFnPlayBack::QueryRange (ctffunc.h)
-description: ITfFnPlayBack::QueryRange method
+description: ITfFnPlayBack::QueryRange methodhelpviewer_keywords: ["ITfFnPlayBack interface [Text Services Framework]","QueryRange method","ITfFnPlayBack.QueryRange","ITfFnPlayBack::QueryRange","QueryRange","QueryRange method [Text Services Framework]","QueryRange method [Text Services Framework]","ITfFnPlayBack interface","_tsf_itffnplayback_queryrange_ref","ctffunc/ITfFnPlayBack::QueryRange","tsf.itffnplayback_queryrange"]
 old-location: tsf\itffnplayback_queryrange.htm
 tech.root: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiribbon.IUIFramework.FlushPendingInvalidations
 title: IUIFramework::FlushPendingInvalidations (uiribbon.h)
-description: Processes all pending Command updates.
+description: Processes all pending Command updates.helpviewer_keywords: ["FlushPendingInvalidations","FlushPendingInvalidations method [Windows Ribbon]","FlushPendingInvalidations method [Windows Ribbon]","IUIFramework interface","IUIFramework interface [Windows Ribbon]","FlushPendingInvalidations method","IUIFramework.FlushPendingInvalidations","IUIFramework::FlushPendingInvalidations","scenicintent_IUIFramework_FlushPendingInvalidations","uiribbon/IUIFramework::FlushPendingInvalidations","windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations"]
 old-location: windowsribbon\windowsribbon_iuiframework_flushpendinginvalidations.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\flushpendinginvalidations.htm

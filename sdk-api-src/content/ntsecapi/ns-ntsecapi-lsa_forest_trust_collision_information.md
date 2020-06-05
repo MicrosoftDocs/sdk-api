@@ -2,6 +2,7 @@
 UID: NS:ntsecapi._LSA_FOREST_TRUST_COLLISION_INFORMATION
 title: LSA_FOREST_TRUST_COLLISION_INFORMATION (ntsecapi.h)
 description: Contains information about Local Security Authority forest trust collisions.
+helpviewer_keywords: ["*PLSA_FOREST_TRUST_COLLISION_INFORMATION","LSA_FOREST_TRUST_COLLISION_INFORMATION","LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security]","PLSA_FOREST_TRUST_COLLISION_INFORMATION","PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security]","_LSA_FOREST_TRUST_COLLISION_INFORMATION","ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION","ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION","security.lsa_forest_trust_collision_information"]
 old-location: security\lsa_forest_trust_collision_information.htm
 tech.root: SecAuthN
 ms.assetid: a4a3b040-c074-4756-a30f-408d8bca87ba
@@ -59,12 +60,12 @@ The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information
 
 ### -field RecordCount
 
-Number of <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
+Number of <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
 
 
 ### -field Entries
 
-Pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
+Pointer to a pointer to an array of <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
 
 
 ### -field Entries.size_is

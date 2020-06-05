@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmPipelineModuleType
 title: FsrmPipelineModuleType (fsrmenums.h)
-description: Defines the types of modules that you can define.
+description: Defines the types of modules that you can define.helpviewer_keywords: ["FsrmPipelineModuleType","FsrmPipelineModuleType enumeration [File Server Resource Manager]","FsrmPipelineModuleType_Classifier","FsrmPipelineModuleType_Storage","FsrmPipelineModuleType_Unknown","fs.fsrmpipelinemoduletype","fsrm.fsrmpipelinemoduletype","fsrmenums/FsrmPipelineModuleType","fsrmenums/FsrmPipelineModuleType_Classifier","fsrmenums/FsrmPipelineModuleType_Storage","fsrmenums/FsrmPipelineModuleType_Unknown"]
 old-location: fsrm\fsrmpipelinemoduletype.htm
 tech.root: fsrm
 ms.assetid: a482c371-a01c-486b-b25b-d22283dba652

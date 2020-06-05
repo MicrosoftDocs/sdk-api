@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IBindCtx.GetObjectParam
 title: IBindCtx::GetObjectParam (objidl.h)
-description: Retrieves an interface pointer to the object associated with the specified key in the bind context's string-keyed table of pointers.
+description: Retrieves an interface pointer to the object associated with the specified key in the bind context's string-keyed table of pointers.helpviewer_keywords: ["GetObjectParam","GetObjectParam method [COM]","GetObjectParam method [COM]","IBindCtx interface","IBindCtx interface [COM]","GetObjectParam method","IBindCtx.GetObjectParam","IBindCtx::GetObjectParam","_com_ibindctx_getobjectparam","com.ibindctx_getobjectparam","objidl/IBindCtx::GetObjectParam"]
 old-location: com\ibindctx_getobjectparam.htm
 tech.root: com
 ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a

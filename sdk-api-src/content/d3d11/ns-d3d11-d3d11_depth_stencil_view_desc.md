@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCIL_VIEW_DESC
 title: D3D11_DEPTH_STENCIL_VIEW_DESC (d3d11.h)
-description: Specifies the subresources of a texture that are accessible from a depth-stencil view.
+description: Specifies the subresources of a texture that are accessible from a depth-stencil view.helpviewer_keywords: ["3b37b2e7-77a6-e3c7-bed5-e8584a152e68","D3D11_DEPTH_STENCIL_VIEW_DESC","D3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11]","d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC","direct3d11.d3d11_depth_stencil_view_desc"]
 old-location: direct3d11\d3d11_depth_stencil_view_desc.htm
 tech.root: direct3d11
 ms.assetid: f073a798-edd5-4e6a-a8a7-1592721ce35d

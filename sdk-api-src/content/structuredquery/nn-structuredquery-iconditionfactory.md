@@ -2,6 +2,7 @@
 UID: NN:structuredquery.IConditionFactory
 title: IConditionFactory (structuredquery.h)
 description: Provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
+helpviewer_keywords: ["IConditionFactory","IConditionFactory interface [search]","IConditionFactory interface [search]","described","_search_IConditionFactory","search._search_IConditionFactory","structuredquery/IConditionFactory"]
 old-location: search\_search_IConditionFactory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\iconditionfactory.htm
@@ -111,8 +112,7 @@ Performs a variety of transformations on a condition tree, including the followi
 ## -remarks
 
 
-
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 
@@ -122,11 +122,11 @@ The StructuredQuerySample code sample, available on <a href="https://code.msdn.m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

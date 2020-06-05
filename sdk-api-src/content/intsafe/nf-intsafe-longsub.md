@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.LongSub
 title: LongSub function (intsafe.h)
-description: Subtracts one value of type LONG from another.
+description: Subtracts one value of type LONG from another.helpviewer_keywords: ["LongSub","LongSub function [Windows Shell]","intsafe/LongSub","shell.LongSub"]
 old-location: shell\LongSub.htm
 tech.root: shell
 ms.assetid: 8691044c-0706-4fff-a8fe-3ac9ad22de64

@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_6.IDXGIAdapter4
 title: IDXGIAdapter4 (dxgi1_6.h)
-description: This interface represents a display subsystem, and extends this family of interfaces to expose a method to check for an adapter's compatibility with Arbitrary Code Guard (ACG).
+description: This interface represents a display subsystem, and extends this family of interfaces to expose a method to check for an adapter's compatibility with Arbitrary Code Guard (ACG).helpviewer_keywords: ["IDXGIAdapter4","IDXGIAdapter4 interface [DXGI]","IDXGIAdapter4 interface [DXGI]","described","direct3ddxgi.idxgiadapter4","dxgi1_6/IDXGIAdapter4"]
 old-location: direct3ddxgi\idxgiadapter4.htm
 tech.root: direct3ddxgi
 ms.assetid: 176958F9-94C8-4F80-B9A4-96BC9634292E

@@ -1,7 +1,7 @@
 ---
 UID: NF:errhandlingapi.RaiseException
 title: RaiseException function (errhandlingapi.h)
-description: Raises an exception in the calling thread.
+description: Raises an exception in the calling thread.helpviewer_keywords: ["RaiseException","RaiseException function","_win32_raiseexception","base.raiseexception","errhandlingapi/RaiseException"]
 old-location: base\raiseexception.htm
 tech.root: Debug
 ms.assetid: 47c3c85e-15ca-4645-89c1-bbfd3bbd58e5

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendTwoWayRequestAsync
 title: IWSDEndpointProxy::SendTwoWayRequestAsync (wsdclient.h)
-description: Sends a two-way request message using an asynchronous call pattern.
+description: Sends a two-way request message using an asynchronous call pattern.helpviewer_keywords: ["IWSDEndpointProxy interface","SendTwoWayRequestAsync method","IWSDEndpointProxy.SendTwoWayRequestAsync","IWSDEndpointProxy::SendTwoWayRequestAsync","SendTwoWayRequestAsync","SendTwoWayRequestAsync method","SendTwoWayRequestAsync method","IWSDEndpointProxy interface","ncd.iwsdendpointproxy_sendtwowayrequestasync","wsdclient/IWSDEndpointProxy::SendTwoWayRequestAsync"]
 old-location: ncd\iwsdendpointproxy_sendtwowayrequestasync.htm
 tech.root: WsdApi
 ms.assetid: cf175e79-9df2-4481-b784-e2cc40e34222

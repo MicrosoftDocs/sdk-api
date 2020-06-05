@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderFragmentRoot
 title: IRawElementProviderFragmentRoot (uiautomationcore.h)
-description: Exposes methods and properties on the root element in a fragment.
+description: Exposes methods and properties on the root element in a fragment.helpviewer_keywords: ["IRawElementProviderFragmentRoot","IRawElementProviderFragmentRoot interface [Windows Accessibility]","IRawElementProviderFragmentRoot interface [Windows Accessibility]","described","uiauto.uiauto_IRawElementProviderFragmentRoot","uiauto_IRawElementProviderFragmentRoot","uiautomationcore/IRawElementProviderFragmentRoot","winauto.uiauto_IRawElementProviderFragmentRoot"]
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot.htm
 tech.root: WinAuto
 ms.assetid: 16e51962-915e-40ea-a7a1-6f5a5809ba05

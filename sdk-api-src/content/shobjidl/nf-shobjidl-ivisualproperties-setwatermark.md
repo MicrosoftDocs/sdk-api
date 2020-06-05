@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetWatermark
 title: IVisualProperties::SetWatermark (shobjidl.h)
-description: Provides a bitmap to use as a watermark.
+description: Provides a bitmap to use as a watermark.helpviewer_keywords: ["IVisualProperties interface [Windows Shell]","SetWatermark method","IVisualProperties.SetWatermark","IVisualProperties::SetWatermark","SetWatermark","SetWatermark method [Windows Shell]","SetWatermark method [Windows Shell]","IVisualProperties interface","_shell_IVisualProperties_SetWatermark","shell.IVisualProperties_SetWatermark","shobjidl/IVisualProperties::SetWatermark"]
 old-location: shell\IVisualProperties_SetWatermark.htm
 tech.root: shell
 ms.assetid: 14ce62f7-b464-4e52-8441-35f613b6c844

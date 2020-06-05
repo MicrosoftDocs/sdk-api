@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnError
 title: IFunctionDiscoveryNotification::OnError (functiondiscoveryapi.h)
-description: Receives errors that occur during asynchronous query processing.
+description: Receives errors that occur during asynchronous query processing.helpviewer_keywords: ["IFunctionDiscoveryNotification interface","OnError method","IFunctionDiscoveryNotification.OnError","IFunctionDiscoveryNotification::OnError","OnError","OnError method","OnError method","IFunctionDiscoveryNotification interface","functiondiscoveryapi/IFunctionDiscoveryNotification::OnError","ncd.ifunctiondiscoverynotification_onerror"]
 old-location: ncd\ifunctiondiscoverynotification_onerror.htm
 tech.root: FunDisc
 ms.assetid: c4dcc4e9-7acf-44d3-b337-1ac01afa19b0

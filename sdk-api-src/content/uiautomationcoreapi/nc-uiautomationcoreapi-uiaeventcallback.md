@@ -2,6 +2,7 @@
 UID: NC:uiautomationcoreapi.UiaEventCallback
 title: UiaEventCallback (uiautomationcoreapi.h)
 description: A client-implemented function that is called by UI Automation when an event is raised that the client has subscribed to.
+helpviewer_keywords: ["UiaEventCallback","UiaEventCallback callback","UiaEventCallback callback function [Windows Accessibility]","uiauto.uiauto_UiaEventCallbackClientEvent","uiauto_UiaEventCallbackClientEvent","uiautomationcoreapi/UiaEventCallback","winauto.uiauto_UiaEventCallbackClientEvent"]
 old-location: winauto\uiauto_UiaEventCallbackClientEvent.htm
 tech.root: WinAuto
 ms.assetid: a7dbe077-e059-4e92-8fb8-950cb67c4975
@@ -67,9 +68,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param *pRequestedData [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains data associated with the event.
+A <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains data associated with the event.
 
 
 ### -param pTreeStructure [in]

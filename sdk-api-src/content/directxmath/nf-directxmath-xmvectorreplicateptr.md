@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorReplicatePtr
 title: XMVectorReplicatePtr function (directxmath.h)
-description: Replicates a floating-point value referenced by pointer into all four components of a vector.
+description: Replicates a floating-point value referenced by pointer into all four components of a vector.helpviewer_keywords: ["Use DirectX..XMVectorReplicatePtr","XMVectorReplicatePtr","XMVectorReplicatePtr method [DirectX Math Support APIs]","dxmath.xmvectorreplicateptr"]
 old-location: dxmath\xmvectorreplicateptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicatePtr(Const float)

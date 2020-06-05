@@ -2,6 +2,7 @@
 UID: NF:tspubplugin2com.ItsPubPlugin2.ResolvePersonalDesktop
 title: ItsPubPlugin2::ResolvePersonalDesktop (tspubplugin2com.h)
 description: Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
+helpviewer_keywords: ["ItsPubPlugin2 interface [Remote Desktop Services]","ResolvePersonalDesktop method","ItsPubPlugin2.ResolvePersonalDesktop","ItsPubPlugin2::ResolvePersonalDesktop","ResolvePersonalDesktop","ResolvePersonalDesktop method [Remote Desktop Services]","ResolvePersonalDesktop method [Remote Desktop Services]","ItsPubPlugin2 interface","termserv.itspubplugin2_resolvepersonaldesktop","tspubplugin2com/ItsPubPlugin2::ResolvePersonalDesktop"]
 old-location: termserv\itspubplugin2_resolvepersonaldesktop.htm
 tech.root: TermServ
 ms.assetid: 1f88d7a6-c662-4a14-a288-9c346c8fb7f1
@@ -69,12 +70,12 @@ A null-terminated string that contains the identifier of the collection to obtai
 
 ### -param ePdResolutionType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_resolution_type">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
+A value of the <a href="/windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_resolution_type">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
 
 
 ### -param pPdAssignmentType [out]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_assignment_type">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
+A value of the <a href="/windows/win32/api/tspubplugin2com/ne-tspubplugin2com-tspub_plugin_pd_assignment_type">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
 
 
 ### -param endPointName [out]

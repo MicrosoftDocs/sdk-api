@@ -1,7 +1,7 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.IsQuarantineEnabled
 title: ITSGPolicyEngine::IsQuarantineEnabled (tsgpolicyengine.h)
-description: Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.
+description: Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.helpviewer_keywords: ["ITSGPolicyEngine interface [Remote Desktop Services]","IsQuarantineEnabled method","ITSGPolicyEngine.IsQuarantineEnabled","ITSGPolicyEngine::IsQuarantineEnabled","IsQuarantineEnabled","IsQuarantineEnabled method [Remote Desktop Services]","IsQuarantineEnabled method [Remote Desktop Services]","ITSGPolicyEngine interface","termserv.itsgpolicyengine_isquarantineenabled","tsgpolicyengine/ITSGPolicyEngine::IsQuarantineEnabled"]
 old-location: termserv\itsgpolicyengine_isquarantineenabled.htm
 tech.root: TermServ
 ms.assetid: e63b99ba-068f-4842-b00a-9bfc5f8dac73

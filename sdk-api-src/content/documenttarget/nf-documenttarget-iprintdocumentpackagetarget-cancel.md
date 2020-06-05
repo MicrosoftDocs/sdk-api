@@ -1,7 +1,7 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.Cancel
 title: IPrintDocumentPackageTarget::Cancel (documenttarget.h)
-description: Cancels the current print job.
+description: Cancels the current print job.helpviewer_keywords: ["Cancel","Cancel method [XPS Documents and Packaging]","Cancel method [XPS Documents and Packaging]","IPrintDocumentPackageTarget interface","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","Cancel method","IPrintDocumentPackageTarget.Cancel","IPrintDocumentPackageTarget::Cancel","documenttarget/IPrintDocumentPackageTarget::Cancel","xps.iprintdocumentpackagetarget_cancel"]
 old-location: xps\iprintdocumentpackagetarget_cancel.htm
 tech.root: printdocs
 ms.assetid: 57CE4050-2EC4-4137-A3EF-A72B07FF5232

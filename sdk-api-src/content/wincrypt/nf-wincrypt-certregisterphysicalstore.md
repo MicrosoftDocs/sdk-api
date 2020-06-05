@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertRegisterPhysicalStore
 title: CertRegisterPhysicalStore function (wincrypt.h)
-description: Adds a physical store to a registry system store collection.
+description: Adds a physical store to a registry system store collection.helpviewer_keywords: ["CERT_STORE_CREATE_NEW_FLAG","CERT_SYSTEM_STORE_RELOCATE_FLAG","CertRegisterPhysicalStore","CertRegisterPhysicalStore function [Security]","_crypto2_certregisterphysicalstore","security.certregisterphysicalstore","wincrypt/CertRegisterPhysicalStore"]
 old-location: security\certregisterphysicalstore.htm
 tech.root: SecCrypto
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9

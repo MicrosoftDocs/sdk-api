@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.OrientationType
 title: OrientationType (uiautomationcore.h)
-description: Contains values that specify the orientation of a control.
+description: Contains values that specify the orientation of a control.helpviewer_keywords: ["OrientationType","OrientationType enumeration [Windows Accessibility]","OrientationType_Horizontal","OrientationType_None","OrientationType_Vertical","uiauto.uiauto_orientationtype","uiauto_orientationtype","uiautomationcore/OrientationType","uiautomationcore/OrientationType_Horizontal","uiautomationcore/OrientationType_None","uiautomationcore/OrientationType_Vertical","winauto.uiauto_orientationtype"]
 old-location: winauto\uiauto_orientationtype.htm
 tech.root: WinAuto
 ms.assetid: 2f694be8-4e13-41bd-bb08-4c543baba574

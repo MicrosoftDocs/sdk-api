@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmEngineSetOption0
 title: FwpmEngineSetOption0 function (fwpmu.h)
 description: Changes the filter engine settings.
+helpviewer_keywords: ["FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND","FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE","FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND","FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST","FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST","FwpmEngineSetOption0","FwpmEngineSetOption0 function [Filtering]","fwp.fwpmenginesetoption0","fwpmu/FwpmEngineSetOption0"]
 old-location: fwp\fwpmenginesetoption0.htm
 tech.root: fwp
 ms.assetid: 6044a334-a1dc-4447-8581-cd0ffc5883db
@@ -66,14 +67,14 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param option [in]
 
-Type: [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)a></b>
+Type: [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)</b>
 
 The option to be set.
 
 
 ### -param newValue [in]
 
-Type: [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>*</b>
+Type: [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)*</b>
 
 The new   option value. The data type contained in the <i>newValue</i> parameter should be  <b>FWP_UINT32</b>. 
 
@@ -328,11 +329,11 @@ Disabling and re-enabling of network event collection (FWPM_ENGINE_COLLECT_NET_E
 
 
 
-[FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)a>
+[FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
+[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 

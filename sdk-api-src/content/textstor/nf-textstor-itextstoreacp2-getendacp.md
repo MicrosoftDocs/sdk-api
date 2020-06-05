@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetEndACP
 title: ITextStoreACP2::GetEndACP (textstor.h)
-description: Gets the number of characters in a document.
+description: Gets the number of characters in a document.helpviewer_keywords: ["GetEndACP","GetEndACP method [Text Services Framework]","GetEndACP method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","GetEndACP method","ITextStoreACP2.GetEndACP","ITextStoreACP2::GetEndACP","textstor/ITextStoreACP2::GetEndACP","tsf.itextstoreacp2_getendacp"]
 old-location: tsf\itextstoreacp2_getendacp.htm
 tech.root: TSF
 ms.assetid: 61429956-8996-450e-af24-0c91ea974865

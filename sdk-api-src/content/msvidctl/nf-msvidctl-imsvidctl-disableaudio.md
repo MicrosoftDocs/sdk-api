@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.DisableAudio
 title: IMSVidCtl::DisableAudio (msvidctl.h)
-description: The DisableAudio method disables the audio output device.
+description: The DisableAudio method disables the audio output device.helpviewer_keywords: ["DisableAudio","DisableAudio method [Microsoft TV Technologies]","DisableAudio method [Microsoft TV Technologies]","IMSVidCtl interface","IMSVidCtl interface [Microsoft TV Technologies]","DisableAudio method","IMSVidCtl.DisableAudio","IMSVidCtl::DisableAudio","IMSVidCtlDisableAudio","mstv.imsvidctl_disableaudio","msvidctl/IMSVidCtl::DisableAudio"]
 old-location: mstv\imsvidctl_disableaudio.htm
 tech.root: mstv
 ms.assetid: 0166cdc3-de1c-4505-855e-f69144cc71aa

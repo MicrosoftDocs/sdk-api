@@ -2,6 +2,7 @@
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.put_UdpPortPolicy
 title: IWdsTransportServicePolicy2::put_UdpPortPolicy (wdstptmgmt.h)
 description: Recieves the WDSTRANSPORT_UDP_PORT_POLICY value that specifies the UDP port allocation policy to be used by WDS transport services. The value enables a WDS client computer to configure the UDP port allocation policy.
+helpviewer_keywords: ["IWdsTransportServicePolicy2 interface [Windows Deployment Services]","UdpPortPolicy property","IWdsTransportServicePolicy2.UdpPortPolicy","IWdsTransportServicePolicy2.put_UdpPortPolicy","IWdsTransportServicePolicy2::UdpPortPolicy","IWdsTransportServicePolicy2::get_UdpPortPolicy","IWdsTransportServicePolicy2::put_UdpPortPolicy","UdpPortPolicy property [Windows Deployment Services]","UdpPortPolicy property [Windows Deployment Services]","IWdsTransportServicePolicy2 interface","put_UdpPortPolicy","wds.iwdstransportservicepolicy2_udpportpolicy","wdstptmgmt/IWdsTransportServicePolicy2::UdpPortPolicy","wdstptmgmt/IWdsTransportServicePolicy2::get_UdpPortPolicy","wdstptmgmt/IWdsTransportServicePolicy2::put_UdpPortPolicy"]
 old-location: wds\iwdstransportservicepolicy2_udpportpolicy.htm
 tech.root: wds
 ms.assetid: 420400D4-98A4-497A-BEB3-54BD4057B0BE
@@ -51,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Recieves the <a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a> value that specifies the UDP port allocation policy to be used by WDS transport services.  The value enables a WDS client computer to configure the UDP port allocation policy.
+Recieves the <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a> value that specifies the UDP port allocation policy to be used by WDS transport services.  The value enables a WDS client computer to configure the UDP port allocation policy.
 
 This property is read/write.
 
@@ -68,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_udp_port_policy">WDSTRANSPORT_UDP_PORT_POLICY</a>
  
 
  

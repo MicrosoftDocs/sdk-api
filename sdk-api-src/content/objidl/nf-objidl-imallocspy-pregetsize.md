@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IMallocSpy.PreGetSize
 title: IMallocSpy::PreGetSize (objidl.h)
-description: Performs operations required before calling IMalloc::GetSize.
+description: Performs operations required before calling IMalloc::GetSize.helpviewer_keywords: ["IMallocSpy interface [COM]","PreGetSize method","IMallocSpy.PreGetSize","IMallocSpy::PreGetSize","PreGetSize","PreGetSize method [COM]","PreGetSize method [COM]","IMallocSpy interface","_com_imallocspy_pregetsize","com.imallocspy_pregetsize","objidl/IMallocSpy::PreGetSize"]
 old-location: com\imallocspy_pregetsize.htm
 tech.root: com
 ms.assetid: 7bebc327-490e-4a41-8043-5d7211e645f5

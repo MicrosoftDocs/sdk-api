@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IPart.EnumPartsIncoming
 title: IPart::EnumPartsIncoming (devicetopology.h)
-description: The EnumPartsIncoming method gets a list of all the incoming parts&#8212;that is, the parts that reside on data paths that are upstream from this part.
+description: The EnumPartsIncoming method gets a list of all the incoming parts&#8212;that is, the parts that reside on data paths that are upstream from this part.helpviewer_keywords: ["EnumPartsIncoming","EnumPartsIncoming method [Core Audio]","EnumPartsIncoming method [Core Audio]","IPart interface","IPart interface [Core Audio]","EnumPartsIncoming method","IPart.EnumPartsIncoming","IPart::EnumPartsIncoming","IPartEnumPartsIncoming","coreaudio.ipart_enumpartsincoming","devicetopology/IPart::EnumPartsIncoming"]
 old-location: coreaudio\ipart_enumpartsincoming.htm
 tech.root: CoreAudio
 ms.assetid: 0d74837e-12d1-4d94-941e-6a81aeac1151

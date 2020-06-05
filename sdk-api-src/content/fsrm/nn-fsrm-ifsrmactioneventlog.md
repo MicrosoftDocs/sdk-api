@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmActionEventLog
 title: IFsrmActionEventLog (fsrm.h)
-description: Used to log an event to the Windows Application event log in response to a quota, file screen, or file management job event.
+description: Used to log an event to the Windows Application event log in response to a quota, file screen, or file management job event.helpviewer_keywords: ["IFsrmActionEventLog","IFsrmActionEventLog interface [File Server Resource Manager]","IFsrmActionEventLog interface [File Server Resource Manager]","described","fs.ifsrmactioneventlog","fsrm.ifsrmactioneventlog","fsrm/IFsrmActionEventLog"]
 old-location: fsrm\ifsrmactioneventlog.htm
 tech.root: fsrm
 ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f

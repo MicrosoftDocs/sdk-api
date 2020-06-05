@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnSave
 title: IOleAdviseHolder::SendOnSave (oleidl.h)
-description: Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.
+description: Sends notification to all advisory sinks currently registered with the advise holder that the object has been saved.helpviewer_keywords: ["IOleAdviseHolder interface [COM]","SendOnSave method","IOleAdviseHolder.SendOnSave","IOleAdviseHolder::SendOnSave","SendOnSave","SendOnSave method [COM]","SendOnSave method [COM]","IOleAdviseHolder interface","_ole_ioleadviseholder_sendonsave","com.ioleadviseholder_sendonsave","oleidl/IOleAdviseHolder::SendOnSave"]
 old-location: com\ioleadviseholder_sendonsave.htm
 tech.root: com
 ms.assetid: b64ceaf7-45ba-4a66-a5cf-aec352472d3d

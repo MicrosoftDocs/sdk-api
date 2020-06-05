@@ -1,7 +1,7 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RegisterWaitEvent
 title: CMSPCallMultiGraph::RegisterWaitEvent (mspcall.h)
-description: The RegisterWaitEvent method should be called only within a critical section on the call object.
+description: The RegisterWaitEvent method should be called only within a critical section on the call object.helpviewer_keywords: ["CMSPCallMultiGraph interface [TAPI 2.2]","RegisterWaitEvent method","CMSPCallMultiGraph.RegisterWaitEvent","CMSPCallMultiGraph::RegisterWaitEvent","RegisterWaitEvent","RegisterWaitEvent method [TAPI 2.2]","RegisterWaitEvent method [TAPI 2.2]","CMSPCallMultiGraph interface","_tapi3_cmspcallmultigraph_registerwaitevent","mspcall/CMSPCallMultiGraph::RegisterWaitEvent","tapi3.cmspcallmultigraph_registerwaitevent"]
 old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm
 tech.root: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f

@@ -1,7 +1,7 @@
 ---
 UID: NF:dhcpsapi.DhcpSetOptionInfoV5
 title: DhcpSetOptionInfoV5 function (dhcpsapi.h)
-description: Sets information for a specific DHCP option.
+description: Sets information for a specific DHCP option.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpSetOptionInfoV5","DhcpSetOptionInfoV5 function [DHCP]","dhcp.dhcpsetoptioninfov5","dhcpsapi/DhcpSetOptionInfoV5"]
 old-location: dhcp\dhcpsetoptioninfov5.htm
 tech.root: DHCP
 ms.assetid: 2a58706e-dfae-418e-867a-328830d47d5b

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDecCmp
 title: VarDecCmp function (oleauto.h)
-description: Compares two variants of type decimal.
+description: Compares two variants of type decimal.helpviewer_keywords: ["VarDecCmp","VarDecCmp function [Automation]","_oa96_VarDecCmp","automat.vardeccmp","oleauto/VarDecCmp"]
 old-location: automat\vardeccmp.htm
 tech.root: automat
 ms.assetid: ebb418c0-c15d-42c2-88a3-1ffcd36a2750

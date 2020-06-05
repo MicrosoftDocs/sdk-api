@@ -2,12 +2,12 @@
 UID: NF:windowsx.ListBox_GetTopIndex
 title: ListBox_GetTopIndex macro (windowsx.h)
 description: Gets the index of the first visible item in a list box. You can use this macro or send the LB_GETTOPINDEX message explicitly.
+helpviewer_keywords: ["ListBox_GetTopIndex","ListBox_GetTopIndex macro [Windows Controls]","_win32_ListBox_GetTopIndex","_win32_ListBox_GetTopIndex_cpp","controls.ListBox_GetTopIndex","controls._win32_ListBox_GetTopIndex","windowsx/ListBox_GetTopIndex"]
 old-location: controls\ListBox_GetTopIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettopindex.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetTopIndex, ListBox_GetTopIndex macro [Windows Controls], _win32_ListBox_GetTopIndex, _win32_ListBox_GetTopIndex_cpp, controls.ListBox_GetTopIndex, controls._win32_ListBox_GetTopIndex, windowsx/ListBox_GetTopIndex
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_GetTopIndex
 dev_langs:

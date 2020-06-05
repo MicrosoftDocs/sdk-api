@@ -1,7 +1,7 @@
 ---
 UID: NS:stm._IPX_SERVICE
 title: IPX_SERVICE (stm.h)
-description: The IPX_SERVICE structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.
+description: The IPX_SERVICE structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.helpviewer_keywords: ["*PIPX_SERVICE","IPX_SERVICE","IPX_SERVICE structure [RAS]","PIPX_SERVICE","PIPX_SERVICE structure pointer [RAS]","_mpr_ipx_service","rras.ipx_service","stm/IPX_SERVICE","stm/PIPX_SERVICE"]
 old-location: rras\ipx_service.htm
 tech.root: RRAS
 ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b

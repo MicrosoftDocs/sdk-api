@@ -1,7 +1,7 @@
 ---
 UID: NS:winml.WINML_MODEL_DESC
 title: WINML_MODEL_DESC (winml.h)
-description: Contains description properties of the model.
+description: Contains description properties of the model.helpviewer_keywords: ["MachineLearning.winml_model_desc","PWINML_MODEL_DESC","PWINML_MODEL_DESC structure pointer","WINML_MODEL_DESC","WINML_MODEL_DESC structure","winml/PWINML_MODEL_DESC","winml/WINML_MODEL_DESC"]
 old-location: machinelearning\winml_model_desc.htm
 tech.root: MachineLearning
 ms.assetid: 2EDFB412-0EE2-4CC7-9718-D35A815803B2

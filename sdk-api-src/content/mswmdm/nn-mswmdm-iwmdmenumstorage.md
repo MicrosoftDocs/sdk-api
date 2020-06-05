@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.IWMDMEnumStorage
 title: IWMDMEnumStorage (mswmdm.h)
-description: The IWMDMEnumStorage interface enumerates storages on a device.
+description: The IWMDMEnumStorage interface enumerates storages on a device.helpviewer_keywords: ["IWMDMEnumStorage","IWMDMEnumStorage interface [windows Media Device Manager]","IWMDMEnumStorage interface [windows Media Device Manager]","described","IWMDMEnumStorageInterface","mswmdm/IWMDMEnumStorage","wmdm.iwmdmenumstorage"]
 old-location: wmdm\iwmdmenumstorage.htm
 tech.root: WMDM
 ms.assetid: 6ea80ab2-718b-464e-a805-9910460931bb

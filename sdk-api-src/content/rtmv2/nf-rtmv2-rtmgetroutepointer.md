@@ -1,7 +1,7 @@
 ---
 UID: NF:rtmv2.RtmGetRoutePointer
 title: RtmGetRoutePointer function (rtmv2.h)
-description: The RtmGetRoutePointer function obtains a direct pointer to a route that allows the owner of the route read access.
+description: The RtmGetRoutePointer function obtains a direct pointer to a route that allows the owner of the route read access.helpviewer_keywords: ["RtmGetRoutePointer","RtmGetRoutePointer function [RAS]","_rtmv2ref_rtmgetroutepointer","rras.rtmgetroutepointer","rtmv2/RtmGetRoutePointer"]
 old-location: rras\rtmgetroutepointer.htm
 tech.root: RRAS
 ms.assetid: 889e318c-b515-48bc-9117-83e8c1bb6f1a

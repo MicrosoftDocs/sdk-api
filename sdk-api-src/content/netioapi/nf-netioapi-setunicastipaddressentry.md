@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.SetUnicastIpAddressEntry
 title: SetUnicastIpAddressEntry function (netioapi.h)
-description: Sets the properties of an existing unicast IP address entry on the local computer.
+description: Sets the properties of an existing unicast IP address entry on the local computer.helpviewer_keywords: ["SetUnicastIpAddressEntry","SetUnicastIpAddressEntry function [IP Helper]","iphlp.setunicastipaddressentry","netioapi/SetUnicastIpAddressEntry"]
 old-location: iphlp\setunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 906a3895-2e42-4bed-90a3-7c10487d76cb

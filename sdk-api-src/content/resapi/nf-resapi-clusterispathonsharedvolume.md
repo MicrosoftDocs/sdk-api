@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusterIsPathOnSharedVolume
 title: ClusterIsPathOnSharedVolume function (resapi.h)
-description: Determines whether a path is on a cluster shared volume.
+description: Determines whether a path is on a cluster shared volume.helpviewer_keywords: ["ClusterIsPathOnSharedVolume","ClusterIsPathOnSharedVolume function [Failover Cluster]","PCLUSTER_IS_PATH_ON_SHARED_VOLUME","PCLUSTER_IS_PATH_ON_SHARED_VOLUME function [Failover Cluster]","mscs.clusterispathonsharedvolume","resapi/ClusterIsPathOnSharedVolume","resapi/PCLUSTER_IS_PATH_ON_SHARED_VOLUME"]
 old-location: mscs\clusterispathonsharedvolume.htm
 tech.root: MsCS
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086

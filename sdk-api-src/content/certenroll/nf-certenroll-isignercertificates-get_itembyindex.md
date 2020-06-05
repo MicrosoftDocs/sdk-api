@@ -2,12 +2,12 @@
 UID: NF:certenroll.ISignerCertificates.get_ItemByIndex
 title: ISignerCertificates::get_ItemByIndex (certenroll.h)
 description: Retrieves an ISignerCertificate object from the collection by index number.
+helpviewer_keywords: ["ISignerCertificates interface [Security]","ItemByIndex property","ISignerCertificates.ItemByIndex","ISignerCertificates.get_ItemByIndex","ISignerCertificates::ItemByIndex","ISignerCertificates::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","ISignerCertificates interface","certenroll/ISignerCertificates::ItemByIndex","certenroll/ISignerCertificates::get_ItemByIndex","get_ItemByIndex","security.isignercertificates_itembyindex_property"]
 old-location: security\isignercertificates_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 44f9ff7d-5ed2-4575-a9c2-50096fffcf07
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates interface [Security],ItemByIndex property, ISignerCertificates.ItemByIndex, ISignerCertificates.get_ItemByIndex, ISignerCertificates::ItemByIndex, ISignerCertificates::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ISignerCertificates interface, certenroll/ISignerCertificates::ItemByIndex, certenroll/ISignerCertificates::get_ItemByIndex, get_ItemByIndex, security.isignercertificates_itembyindex_property
-ms.topic: method
 f1_keywords:
 - certenroll/ISignerCertificates.ItemByIndex
 dev_langs:

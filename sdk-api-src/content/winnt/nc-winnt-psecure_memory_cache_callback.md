@@ -1,7 +1,7 @@
 ---
 UID: NC:winnt.PSECURE_MEMORY_CACHE_CALLBACK
 title: PSECURE_MEMORY_CACHE_CALLBACK (winnt.h)
-description: An application-defined function previously registered with the AddSecureMemoryCacheCallback function that is called when a secured memory range is freed or its protections are changed.
+description: An application-defined function previously registered with the AddSecureMemoryCacheCallback function that is called when a secured memory range is freed or its protections are changed.helpviewer_keywords: ["PSECURE_MEMORY_CACHE_CALLBACK","PSECURE_MEMORY_CACHE_CALLBACK callback function","SecureMemoryCacheCallback","SecureMemoryCacheCallback callback","SecureMemoryCacheCallback callback function","base.securememorycachecallback","winnt/PSECURE_MEMORY_CACHE_CALLBACK","winnt/SecureMemoryCacheCallback"]
 old-location: base\securememorycachecallback.htm
 tech.root: Memory
 ms.assetid: abde4b6f-7cd8-4a4b-9b00-f035b2c29054

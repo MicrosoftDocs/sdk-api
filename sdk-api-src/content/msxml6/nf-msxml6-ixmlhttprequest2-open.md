@@ -2,6 +2,7 @@
 UID: NF:msxml6.IXMLHTTPRequest2.Open
 title: IXMLHTTPRequest2::Open (msxml6.h)
 description: Initializes an IXMLHTTPRequest2 request and specifies the method, URL, and authentication information for the request. After calling this method, you must call the Send method to send the request and data, if any, to the server.
+helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","Open method","IXMLHTTPRequest2.Open","IXMLHTTPRequest2::Open","Open","Open method [XMLHttpRequest2]","Open method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","ixhr2.ixmlhttprequest2_open","msxml6/IXMLHTTPRequest2::Open"]
 old-location: ixhr2\ixmlhttprequest2_open.htm
 tech.root: ixhr2
 ms.assetid: 8723F24B-0739-44D6-8443-1A378B585F42
@@ -139,7 +140,7 @@ hr = spXHR-&gt;Open(L"GET",              // Method.
 hr = spXHR-&gt;Send(NULL, 0);
 
 hr = spXhrCallback-&gt;WaitForComplete(&amp;dwStatus);</code></pre>
-For the complete examples download the <a href="https://code.msdn.microsoft.com/windowsapps/site/search">XML HTTP Request 2 GET  sample</a> and  <a href="https://code.msdn.microsoft.com/windowsapps/site/search">XML HTTP Request 2 POST  sample</a> from the Windows Sample Gallery.
+For the complete examples, see the <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2GetRequest">XML HTTP Request 2 GET  sample</a> and  <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2PostRequest">XML HTTP Request 2 POST  sample</a>.
 
 
 

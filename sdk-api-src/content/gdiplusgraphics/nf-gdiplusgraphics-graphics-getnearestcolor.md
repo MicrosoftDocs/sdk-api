@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetNearestColor
 title: Graphics::GetNearestColor (gdiplusgraphics.h)
-description: The Graphics::GetNearestColor method gets the nearest color to the color that is passed in. This method works on 8-bits per pixel or lower display devices for which there is an 8-bit color palette.
+description: The Graphics::GetNearestColor method gets the nearest color to the color that is passed in. This method works on 8-bits per pixel or lower display devices for which there is an 8-bit color palette.helpviewer_keywords: ["GetNearestColor","GetNearestColor method [GDI+]","GetNearestColor method [GDI+]","Graphics class","Graphics class [GDI+]","GetNearestColor method","Graphics.GetNearestColor","Graphics::GetNearestColor","_gdiplus_CLASS_Graphics_GetNearestColor_color_","gdiplus._gdiplus_CLASS_Graphics_GetNearestColor_color_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetNearestColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getnearestcolor.htm

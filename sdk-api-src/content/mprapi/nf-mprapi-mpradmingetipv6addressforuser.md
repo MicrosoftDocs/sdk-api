@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminGetIpv6AddressForUser
 title: MprAdminGetIpv6AddressForUser function (mprapi.h)
-description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.
+description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.helpviewer_keywords: ["MprAdminGetIpv6AddressForUser","MprAdminGetIpv6AddressForUser callback","MprAdminGetIpv6AddressForUser callback function [RAS]","mprapi/MprAdminGetIpv6AddressForUser","rras.mpradmingetipv6addressforuser"]
 old-location: rras\mpradmingetipv6addressforuser.htm
 tech.root: RRAS
 ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58

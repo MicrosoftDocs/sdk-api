@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetRangeSetValue
 title: IPropertyEnumType::GetRangeSetValue (propsys.h)
-description: Gets a set value from an enumeration information structure.
+description: Gets a set value from an enumeration information structure.helpviewer_keywords: ["GetRangeSetValue","GetRangeSetValue method [Windows Properties]","GetRangeSetValue method [Windows Properties]","IPropertyEnumType interface","IPropertyEnumType interface [Windows Properties]","GetRangeSetValue method","IPropertyEnumType.GetRangeSetValue","IPropertyEnumType::GetRangeSetValue","_shell_IPropertyEnumType_GetRangeSetValue","properties.IPropertyEnumType_GetRangeSetValue","propsys/IPropertyEnumType::GetRangeSetValue","shell.IPropertyEnumType_GetRangeSetValue"]
 old-location: properties\IPropertyEnumType_GetRangeSetValue.htm
 tech.root: properties
 ms.assetid: 63c5d2cd-70bc-45f6-a620-7b68ab94f8ff

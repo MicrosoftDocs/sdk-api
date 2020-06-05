@@ -2,6 +2,7 @@
 UID: NF:uiautomationcore.IProxyProviderWinEventHandler.RespondToWinEvent
 title: IProxyProviderWinEventHandler::RespondToWinEvent (uiautomationcore.h)
 description: Handles a WinEvent.
+helpviewer_keywords: ["IProxyProviderWinEventHandler interface [Windows Accessibility]","RespondToWinEvent method","IProxyProviderWinEventHandler.RespondToWinEvent","IProxyProviderWinEventHandler::RespondToWinEvent","RespondToWinEvent","RespondToWinEvent method [Windows Accessibility]","RespondToWinEvent method [Windows Accessibility]","IProxyProviderWinEventHandler interface","uiauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiauto_IProxyProviderWinEventHandler_RespondToWinEvent","uiautomationcore/IProxyProviderWinEventHandler::RespondToWinEvent","winauto.uiauto_IProxyProviderWinEventHandler_RespondToWinEvent"]
 old-location: winauto\uiauto_IProxyProviderWinEventHandler_RespondToWinEvent.htm
 tech.root: WinAuto
 ms.assetid: b3a63cb9-3eae-43ec-aba1-2f038ca0896f
@@ -59,44 +60,44 @@ Handles a WinEvent.
 
 ### -param idWinEvent [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The identifier of the incoming <a href="https://docs.microsoft.com/windows/desktop/WinAuto/winevents-collision169">WinEvent</a>. For a list of WinEvent IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">Event Constants</a>.
+The identifier of the incoming WinEvent. For a list of WinEvent IDs, see <a href="/windows/desktop/WinAuto/event-constants">Event Constants</a>.
 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle of the window for which the WinEvent was fired. This should also be the window for which the proxy was created.
 
 
 ### -param idObject [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-The object identifier (OBJID_*) of the accessible object associated with the event. For a list of object identifiers, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">Object Identifiers</a>.
+The object identifier (OBJID_*) of the accessible object associated with the event. For a list of object identifiers, see <a href="/windows/desktop/WinAuto/object-identifiers">Object Identifiers</a>.
 
 
 ### -param idChild [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The child identifier of the element associated with the event, or <b>CHILDID_SELF</b> if the element is not a child.
 
 
 ### -param pSink [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a> interface provided by the UI Automation core. Any event that the proxy needs to raise in response to the WinEvent being handled should be added to the sink.
+A pointer to the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a> interface provided by the UI Automation core. Any event that the proxy needs to raise in response to the WinEvent being handled should be added to the sink.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -117,11 +118,11 @@ The provider should review the event data. If the provider needs to raise a UI A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventhandler">IProxyProviderWinEventHandler</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventhandler">IProxyProviderWinEventHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>
 
 
 

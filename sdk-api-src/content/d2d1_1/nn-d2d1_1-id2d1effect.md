@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_1.ID2D1Effect
 title: ID2D1Effect (d2d1_1.h)
-description: Represents a basic image-processing construct in Direct2D.
+description: Represents a basic image-processing construct in Direct2D.helpviewer_keywords: ["ID2D1Effect","ID2D1Effect interface [Direct2D]","ID2D1Effect interface [Direct2D]","described","d2d1_1/ID2D1Effect","direct2d.id2d1effect"]
 old-location: direct2d\id2d1effect.htm
 tech.root: Direct2D
 ms.assetid: e90d1830-c356-48f1-ac7b-1d94c8c26569

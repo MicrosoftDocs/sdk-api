@@ -2,6 +2,7 @@
 UID: NF:peninputpanel.ITextInputPanelEventSink.CorrectionModeChanging
 title: ITextInputPanelEventSink::CorrectionModeChanging (peninputpanel.h)
 description: Occurs when the correction comb on the Tablet PC Input Panel is about to change modes.
+helpviewer_keywords: ["CorrectionModeChanging","CorrectionModeChanging method [Tablet PC]","CorrectionModeChanging method [Tablet PC]","ITextInputPanelEventSink interface","ITextInputPanelEventSink interface [Tablet PC]","CorrectionModeChanging method","ITextInputPanelEventSink.CorrectionModeChanging","ITextInputPanelEventSink::CorrectionModeChanging","f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8","peninputpanel/ITextInputPanelEventSink::CorrectionModeChanging","tablet.itextinputpaneleventsink_correctionmodechanging"]
 old-location: tablet\itextinputpaneleventsink_correctionmodechanging.htm
 tech.root: tablet
 ms.assetid: f20b77dc-a04f-4bd3-9aa0-3a0c3d98e4a8
@@ -62,12 +63,12 @@ Occurs when the correction comb on the Tablet PC Input Panel is about to change 
 
 ### -param oldCorrectionMode [in]
 
-The current correction mode, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
+The current correction mode, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
 
 
 ### -param newCorrectionMode [in]
 
-The correction mode the Input Panel is changing to, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
+The correction mode the Input Panel is changing to, as defined by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
 
 
 ## -returns

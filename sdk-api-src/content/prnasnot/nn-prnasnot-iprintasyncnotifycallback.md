@@ -1,7 +1,7 @@
 ---
 UID: NN:prnasnot.IPrintAsyncNotifyCallback
 title: IPrintAsyncNotifyCallback (prnasnot.h)
-description: Creates and manages a communication channel used by applications and components that are hosted by the print spooler.
+description: Creates and manages a communication channel used by applications and components that are hosted by the print spooler.helpviewer_keywords: ["IPrintAsyncNotifyCallback","IPrintAsyncNotifyCallback interface [Windows GDI]","IPrintAsyncNotifyCallback interface [Windows GDI]","described","_win32_IPrintAsyncNotifyCallback","gdi.iprintasyncnotifycallback","prnasnot/IPrintAsyncNotifyCallback"]
 old-location: gdi\iprintasyncnotifycallback.htm
 tech.root: printdocs
 ms.assetid: e2b021cd-1cfd-42b7-b6e4-7f8671b013f6

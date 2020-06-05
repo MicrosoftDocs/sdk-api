@@ -2,6 +2,7 @@
 UID: NF:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands
 title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands (spatialaudiometadata.h)
 description: Activate an ISpatialAudioObjectForMetadataCommands for rendering.
+helpviewer_keywords: ["ActivateSpatialAudioObjectForMetadataCommands","ActivateSpatialAudioObjectForMetadataCommands method [Core Audio]","ActivateSpatialAudioObjectForMetadataCommands method [Core Audio]","ISpatialAudioObjectRenderStreamForMetadata interface","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","ActivateSpatialAudioObjectForMetadataCommands method","ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands","ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands","coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadatacommands","coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands","spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands"]
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands.htm
 tech.root: CoreAudio
 ms.assetid: 6EB7A7B7-6B52-4EB0-81CB-0F9626761CA8
@@ -141,7 +142,7 @@ The value specified in the <i>type</i> parameter is not one of the values define
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>

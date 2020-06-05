@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateRoots
 title: ISearchCrawlScopeManager::EnumerateRoots (searchapi.h)
-description: Returns an enumeration of all the roots of which this instance of the ISearchCrawlScopeManager is aware.
+description: Returns an enumeration of all the roots of which this instance of the ISearchCrawlScopeManager is aware.helpviewer_keywords: ["EnumerateRoots","EnumerateRoots method [search]","EnumerateRoots method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","EnumerateRoots method","ISearchCrawlScopeManager.EnumerateRoots","ISearchCrawlScopeManager::EnumerateRoots","_search_ISearchCrawlScopeManager_EnumerateRoots","search._search_ISearchCrawlScopeManager_EnumerateRoots","searchapi/ISearchCrawlScopeManager::EnumerateRoots"]
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumerateroots.htm

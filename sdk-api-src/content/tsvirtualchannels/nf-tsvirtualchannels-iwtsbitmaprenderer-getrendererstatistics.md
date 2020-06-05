@@ -2,6 +2,7 @@
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.GetRendererStatistics
 title: IWTSBitmapRenderer::GetRendererStatistics (tsvirtualchannels.h)
 description: Retrieves statistics for the RemoteFX media redirection bitmap renderer.
+helpviewer_keywords: ["GetRendererStatistics","GetRendererStatistics method [Remote Desktop Services]","GetRendererStatistics method [Remote Desktop Services]","IWTSBitmapRenderer interface","IWTSBitmapRenderer interface [Remote Desktop Services]","GetRendererStatistics method","IWTSBitmapRenderer.GetRendererStatistics","IWTSBitmapRenderer::GetRendererStatistics","termserv.iwtsbitmaprenderer_getrendererstatistics","tsvirtualchannels/IWTSBitmapRenderer::GetRendererStatistics"]
 old-location: termserv\iwtsbitmaprenderer_getrendererstatistics.htm
 tech.root: TermServ
 ms.assetid: 9BC4C091-053E-4E94-BF65-91AEB03C355F
@@ -59,10 +60,10 @@ Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 
 ### -param pStatistics [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>*</b>
+Type: <b><a href="/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>*</b>
 
 The address of a 
-      <a href="https://docs.microsoft.com/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a> structure 
+      <a href="/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a> structure 
       that receives the bitmap rendering statistics.
 
 
@@ -82,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>
+<a href="/windows/win32/api/tsvirtualchannels/ns-tsvirtualchannels-bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>
 
 
 

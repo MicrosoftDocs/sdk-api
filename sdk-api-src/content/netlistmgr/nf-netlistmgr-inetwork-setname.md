@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetwork.SetName
 title: INetwork::SetName (netlistmgr.h)
-description: The SetName method sets or renames a network.
+description: The SetName method sets or renames a network.helpviewer_keywords: ["INetwork interface [Network Awareness]","SetName method","INetwork.SetName","INetwork::SetName","SetName","SetName method [Network Awareness]","SetName method [Network Awareness]","INetwork interface","netlistmgr/INetwork::SetName","nla.inetwork_setname"]
 old-location: nla\inetwork_setname.htm
 tech.root: nla
 ms.assetid: 7495e26f-b7cf-4abd-ab7d-82b0d4bd4d87

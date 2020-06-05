@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeConfigUI
 title: EapHostPeerInvokeConfigUI function (eaphostpeerconfigapis.h)
 description: Starts the configuration user interface of the specified EAP method.
+helpviewer_keywords: ["EapHostPeerInvokeConfigUI","EapHostPeerInvokeConfigUI function [EAPHost]","eaphost.eaphostpeerinvokeconfigui","eaphostpeerconfigapis/EapHostPeerInvokeConfigUI"]
 old-location: eaphost\eaphostpeerinvokeconfigui.htm
 tech.root: eaphost
 ms.assetid: afb20482-a439-437d-9c8f-c4e87e440113
@@ -66,7 +67,7 @@ The handle of the parent window under which configuration dialog appears.
 
 ### -param dwFlags [in]
 
-A combination of [EAP flags](https://docs.microsoft.com/windows/win32/eaphost/eap-method-flags)a> that describe the  EAP authentication session behavior.
+A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that describe the  EAP authentication session behavior.
 
 
 ### -param eapMethodType [in]
@@ -104,7 +105,7 @@ A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
  
 
  

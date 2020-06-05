@@ -1,7 +1,7 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_State
 title: IMSVidCtl::get_State (msvidctl.h)
-description: The get_State method retrieves the state of the filter graph.
+description: The get_State method retrieves the state of the filter graph.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_State method","IMSVidCtl.get_State","IMSVidCtl::get_State","IMSVidCtlget_State","get_State","get_State method [Microsoft TV Technologies]","get_State method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_state","msvidctl/IMSVidCtl::get_State"]
 old-location: mstv\imsvidctl_get_state.htm
 tech.root: mstv
 ms.assetid: 45f35832-709c-4f78-9e1a-a6ad489fc81f

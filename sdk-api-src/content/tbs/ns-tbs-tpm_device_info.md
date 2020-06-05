@@ -1,7 +1,7 @@
 ---
 UID: NS:tbs._TPM_DEVICE_INFO
 title: TPM_DEVICE_INFO (tbs.h)
-description: Provides information about the version of the TPM.
+description: Provides information about the version of the TPM.helpviewer_keywords: ["*PTPM_DEVICE_INFO","PTPM_DEVICE_INFO","PTPM_DEVICE_INFO structure pointer [TBS]","TPM_DEVICE_INFO","TPM_DEVICE_INFO structure [TBS]","tbs.tpm_device_info","tbs/PTPM_DEVICE_INFO","tbs/TPM_DEVICE_INFO"]
 old-location: tbs\tpm_device_info.htm
 tech.root: TBS
 ms.assetid: 59B8AB6D-82D8-4B15-AB62-AB2B9CA7B5E3

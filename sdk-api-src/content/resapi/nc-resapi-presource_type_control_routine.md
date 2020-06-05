@@ -1,7 +1,7 @@
 ---
 UID: NC:resapi.PRESOURCE_TYPE_CONTROL_ROUTINE
 title: PRESOURCE_TYPE_CONTROL_ROUTINE (resapi.h)
-description: Performs an operation that applies to a resource type.
+description: Performs an operation that applies to a resource type.helpviewer_keywords: ["PRESOURCE_TYPE_CONTROL_ROUTINE","PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster]","ResourceTypeControl","ResourceTypeControl callback","ResourceTypeControl callback function [Failover Cluster]","_wolf_resourcetypecontrol","mscs.resourcetypecontrol","resapi/PRESOURCE_TYPE_CONTROL_ROUTINE","resapi/ResourceTypeControl"]
 old-location: mscs\resourcetypecontrol.htm
 tech.root: MsCS
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d

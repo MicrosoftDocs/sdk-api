@@ -2,6 +2,7 @@
 UID: NF:webservices.WsFlushBody
 title: WsFlushBody function (webservices.h)
 description: Flushes all accumulated message body data that has been written.
+helpviewer_keywords: ["WsFlushBody","WsFlushBody function [Web Services for Windows]","webservices/WsFlushBody","wsw.wsflushbody"]
 old-location: wsw\wsflushbody.htm
 tech.root: wsw
 ms.assetid: f94c409b-94c0-4440-8587-74322777261f
@@ -58,7 +59,7 @@ When message uses <a href="https://docs.microsoft.com/windows/desktop/api/webser
 
 WsFlushBody is typically used when  channel I/O is set to 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an 
-                XML Writer  set to use <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a>.
+                XML Writer  set to use <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a>.
             
 
 
@@ -177,7 +178,7 @@ This function may return other errors not listed above.
 
 
 This function is a "no-op" when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
-                XML Writer with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> set.
+                XML Writer with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> set.
       
 
 This function is shortcut for calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a> for 

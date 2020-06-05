@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_BEGINNING_ACCESS
 title: D3D12_RENDER_PASS_BEGINNING_ACCESS (d3d12.h)
-description: Describes the access to resource(s) that is requested by an application at the transition into a render pass.
+description: Describes the access to resource(s) that is requested by an application at the transition into a render pass.helpviewer_keywords: ["D3D12_RENDER_PASS_BEGINNING_ACCESS","D3D12_RENDER_PASS_BEGINNING_ACCESS structure","d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS","direct3d12.d3d12_render_pass_beginning_access"]
 old-location: direct3d12\d3d12_render_pass_beginning_access.htm
 tech.root: direct3d12
 ms.assetid: 48356954-F233-4FD5-A32B-099E83DC46C0

@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextCreate1
 title: IPsecSaContextCreate1 function (fwpmu.h)
 description: Creates an IPsec security association (SA) context.
+helpviewer_keywords: ["IPsecSaContextCreate1","IPsecSaContextCreate1 function [Filtering]","fwp.ipsecsacontextcreate1","fwpmu/IPsecSaContextCreate1"]
 old-location: fwp\ipsecsacontextcreate1.htm
 tech.root: fwp
 ms.assetid: b0eab185-fae2-4133-b3f2-22d609cb94d1
@@ -66,14 +67,14 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param outboundTraffic [in]
 
-Type: [IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>*</b>
+Type: [IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)*</b>
 
 The outbound traffic of the SA.
 
 
 ### -param virtualIfTunnelInfo [in, optional]
 
-Type: [IPSEC_VIRTUAL_IF_TUNNEL_INFO0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)a>*</b>
+Type: [IPSEC_VIRTUAL_IF_TUNNEL_INFO0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)*</b>
 
 Details related to virtual interface tunneling.
 
@@ -164,11 +165,11 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a>
+[IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)
 
 
 
-[IPSEC_VIRTUAL_IF_TUNNEL_INFO0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)a>
+[IPSEC_VIRTUAL_IF_TUNNEL_INFO0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-ipsec_virtual_if_tunnel_info0)
  
 
  

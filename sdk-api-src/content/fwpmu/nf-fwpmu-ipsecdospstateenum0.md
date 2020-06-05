@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecDospStateEnum0
 title: IPsecDospStateEnum0 function (fwpmu.h)
 description: Returns the next page of results from the IPsec DoS Protection state enumerator. Each IPsec DoS Protection state entry corresponds to a flow that has successfully passed the IPsec DoS Protection authentication checks.
+helpviewer_keywords: ["IPsecDospStateEnum0","IPsecDospStateEnum0 function [Filtering]","fwp.ipsecdospstateenum0","fwpmu/IPsecDospStateEnum0"]
 old-location: fwp\ipsecdospstateenum0.htm
 tech.root: fwp
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
@@ -80,7 +81,7 @@ The number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: [IPSEC_DOSP_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state0)a>***</b>
+Type: [IPSEC_DOSP_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -165,7 +166,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[IPSEC_DOSP_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state0)a>
+[IPSEC_DOSP_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_state0)
 
 
 

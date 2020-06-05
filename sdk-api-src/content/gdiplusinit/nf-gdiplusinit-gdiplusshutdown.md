@@ -2,6 +2,7 @@
 UID: NF:gdiplusinit.GdiplusShutdown
 title: GdiplusShutdown function (gdiplusinit.h)
 description: The GdiplusShutdown function cleans up resources used by Windows GDI+. Each call to GdiplusStartup should be paired with a call to GdiplusShutdown.
+helpviewer_keywords: ["GdiplusShutdown","GdiplusShutdown function [GDI+]","_gdiplus_FUNC_GdiplusShutdown_","gdiplus._gdiplus_FUNC_GdiplusShutdown_","gdiplusinit/GdiplusShutdown"]
 old-location: gdiplus\_gdiplus_FUNC_GdiplusShutdown_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusshutdown.htm
@@ -44,30 +45,19 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# GdiplusShutdown function
-
-
 ## -description
-
 
 The <b>GdiplusShutdown</b> function cleans up resources used by Windows GDI+. Each call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a> should be paired with a call to <b>GdiplusShutdown</b>.
 
-
 ## -parameters
 
+### -param token
 
-
-
-### -param token [in]
-
-Type: <b>ULONG_PTR</b>
+Type: [in] <b>ULONG_PTR</b>
 
 Token returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>. 
 
-
 ## -remarks
-
-
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a> before you create any GDI+ objects, and you must delete all of your GDI+ objects (or have them go out of scope) before you call <b>GdiplusShutdown</b>.
 
@@ -78,29 +68,12 @@ You must call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusini
 
 For an example of calling <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a> and <b>GdiplusShutdown</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>.
 
-<div class="code"></div>
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>
- 
-
- 
-

@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.WinMain
 title: WinMain function (winbase.h)
-description: The user-provided entry point for a graphical Windows-based application.
+description: The user-provided entry point for a graphical Windows-based application.helpviewer_keywords: ["SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","WinMain","WinMain callback","WinMain callback function [Windows and Messages]","_win32_WinMain","_win32_winmain_cpp","winbase/WinMain","winmsg.winmain","winui._win32_winmain"]
 old-location: winmsg\winmain.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\winmain.htm

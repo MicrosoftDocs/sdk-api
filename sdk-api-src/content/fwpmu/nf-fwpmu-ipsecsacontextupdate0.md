@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaContextUpdate0
 title: IPsecSaContextUpdate0 function (fwpmu.h)
 description: Updates an IPsec security association (SA) context.
+helpviewer_keywords: ["IPSEC_SA_BUNDLE_UPDATE_FLAGS","IPSEC_SA_BUNDLE_UPDATE_KEY_MODULE_STATE","IPSEC_SA_BUNDLE_UPDATE_MM_SA_ID","IPSEC_SA_BUNDLE_UPDATE_NAP_CONTEXT","IPSEC_SA_BUNDLE_UPDATE_PEER_V4_PRIVATE_ADDRESS","IPSEC_SA_DETAILS_UPDATE_TRAFFIC","IPSEC_SA_DETAILS_UPDATE_UDP_ENCAPSULATION","IPsecSaContextUpdate0","IPsecSaContextUpdate0 function [Filtering]","fwp.ipsecsacontextupdate0","fwpmu/IPsecSaContextUpdate0"]
 old-location: fwp\ipsecsacontextupdate0.htm
 tech.root: fwp
 ms.assetid: ff19c7e6-569e-4bde-9a25-1661d50aea5e
@@ -68,7 +69,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 Type: <b>UINT32</b>
 
-Flags indicating the specific field in the [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a> structure that is being updated.
+Flags indicating the specific field in the [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1) structure that is being updated.
 
 Possible values:
 
@@ -83,7 +84,7 @@ Possible values:
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure.
+Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1) structure.
 
 </td>
 </tr>
@@ -93,7 +94,7 @@ Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/i
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)a> structure.
+Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1) structure.
 
 </td>
 </tr>
@@ -103,7 +104,7 @@ Updates the [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/i
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) structure.
 
 </td>
 </tr>
@@ -113,7 +114,7 @@ Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ip
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) structure.
 
 </td>
 </tr>
@@ -123,7 +124,7 @@ Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ip
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) structure.
 
 </td>
 </tr>
@@ -133,7 +134,7 @@ Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ip
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) structure.
 
 </td>
 </tr>
@@ -143,7 +144,7 @@ Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ip
 </dl>
 </td>
 <td width="60%">
-Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a> structure.
+Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) structure.
 
 </td>
 </tr>
@@ -153,7 +154,7 @@ Updates the [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ip
 
 ### -param newValues [in]
 
-Type: [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>*</b>
+Type: [IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)*</b>
 
 An inbound and outbound SA pair.
 
@@ -225,7 +226,7 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)a>
+[IPSEC_SA_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context1)
  
 
  

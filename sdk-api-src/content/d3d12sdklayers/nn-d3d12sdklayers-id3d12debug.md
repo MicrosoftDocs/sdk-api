@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug
 title: ID3D12Debug (d3d12sdklayers.h)
-description: A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.
+description: An interface used to turn on the debug layer.
+helpviewer_keywords: ["ID3D12Debug","ID3D12Debug interface","ID3D12Debug interface","described","d3d12sdklayers/ID3D12Debug","direct3d12.id3d12debug"]
 old-location: direct3d12\id3d12debug.htm
 tech.root: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9
@@ -49,8 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.
-
+An interface used to turn on the debug layer. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer">EnableDebugLayer</a> for more information.
 
 
 
@@ -86,7 +86,7 @@ Enables the debug layer.
 
 
 
-This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> using <code>IUnknown::QueryInterface</code>. 
+This interface is obtained by querying it from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-d3d12getdebuginterface">D3D12GetDebugInterface</a>. 
 
  
 

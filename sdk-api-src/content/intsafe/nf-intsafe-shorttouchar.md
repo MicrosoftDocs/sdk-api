@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ShortToUChar
 title: ShortToUChar function (intsafe.h)
-description: Converts a value of type SHORT to a value of UCHAR.
+description: Converts a value of type SHORT to a value of UCHAR.helpviewer_keywords: ["ShortToUChar","ShortToUChar function [Windows Shell]","_shell_ShortToUChar","intsafe/ShortToUChar","shell.ShortToUChar"]
 old-location: shell\ShortToUChar.htm
 tech.root: shell
 ms.assetid: dd3eab34-7cf1-4a60-8fd8-bcc9db1855d7

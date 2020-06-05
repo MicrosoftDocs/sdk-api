@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnOutputPropsChanged
 title: IWMReaderCallbackAdvanced::OnOutputPropsChanged (wmsdkidl.h)
-description: The OnOutputPropsChanged method indicates that the media properties for the specified output have changed. This change occurs as a result of a call to the IWMReader::SetOutputProps method.
+description: The OnOutputPropsChanged method indicates that the media properties for the specified output have changed. This change occurs as a result of a call to the IWMReader::SetOutputProps method.helpviewer_keywords: ["IWMReaderCallbackAdvanced interface [windows Media Format]","OnOutputPropsChanged method","IWMReaderCallbackAdvanced.OnOutputPropsChanged","IWMReaderCallbackAdvanced::OnOutputPropsChanged","IWMReaderCallbackAdvancedOnOutputPropsChanged","OnOutputPropsChanged","OnOutputPropsChanged method [windows Media Format]","OnOutputPropsChanged method [windows Media Format]","IWMReaderCallbackAdvanced interface","wmformat.iwmreadercallbackadvanced_onoutputpropschanged","wmsdkidl/IWMReaderCallbackAdvanced::OnOutputPropsChanged"]
 old-location: wmformat\iwmreadercallbackadvanced_onoutputpropschanged.htm
 tech.root: wmformat
 ms.assetid: 5e8193c4-5fc7-4b19-9f6e-6873ebe5156a

@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextRow.SetCellWidth
 title: ITextRow::SetCellWidth (tom.h)
-description: Sets the active cell width in twips.
+description: Sets the active cell width in twips.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellWidth method","ITextRow.SetCellWidth","ITextRow::SetCellWidth","SetCellWidth","SetCellWidth method [Windows Controls]","SetCellWidth method [Windows Controls]","ITextRow interface","controls.itextrow_setcellwidth","tom/ITextRow::SetCellWidth"]
 old-location: controls\itextrow_setcellwidth.htm
 tech.root: Controls
 ms.assetid: 321c5255-9cd5-46ea-a592-165d288bc452

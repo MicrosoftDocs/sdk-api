@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IQueryCodePage.GetCodePage
 title: IQueryCodePage::GetCodePage (shobjidl.h)
-description: Retrieves the numeric value (Code Page identifier) of the ANSI code page.
+description: Retrieves the numeric value (Code Page identifier) of the ANSI code page.helpviewer_keywords: ["GetCodePage","GetCodePage method [Windows Shell]","GetCodePage method [Windows Shell]","IQueryCodePage interface","IQueryCodePage interface [Windows Shell]","GetCodePage method","IQueryCodePage.GetCodePage","IQueryCodePage::GetCodePage","_shell_IQueryCodePage_GetCodePage","shell.IQueryCodePage_GetCodePage","shobjidl/IQueryCodePage::GetCodePage"]
 old-location: shell\IQueryCodePage_GetCodePage.htm
 tech.root: shell
 ms.assetid: 05644051-c64e-443c-bc98-ed296bc0b8d9

@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetUpdatedClipboardFormats
 title: GetUpdatedClipboardFormats function (winuser.h)
-description: Retrieves the currently supported clipboard formats.
+description: Retrieves the currently supported clipboard formats.helpviewer_keywords: ["GetUpdatedClipboardFormats","GetUpdatedClipboardFormats function [Data Exchange]","_win32_GetUpdatedClipboardFormats","_win32_getupdatedclipboardformats_cpp","dataxchg.getupdatedclipboardformats","winui._win32_getupdatedclipboardformats","winuser/GetUpdatedClipboardFormats"]
 old-location: dataxchg\getupdatedclipboardformats.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getupdatedclipboardformats.htm

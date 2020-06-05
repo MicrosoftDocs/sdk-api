@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IOleInPlaceSiteWindowless
 title: IOleInPlaceSiteWindowless (ocidl.h)
-description: Extends the IOleInPlaceSiteEx interface.
+description: Extends the IOleInPlaceSiteEx interface.helpviewer_keywords: ["IOleInPlaceSiteWindowless","IOleInPlaceSiteWindowless interface [COM]","IOleInPlaceSiteWindowless interface [COM]","described","_ole_ioleinplacesitewindowless","com.ioleinplacesitewindowless","ocidl/IOleInPlaceSiteWindowless"]
 old-location: com\ioleinplacesitewindowless.htm
 tech.root: com
 ms.assetid: 4ad83599-99d2-4b35-95de-cff845a8d5e4

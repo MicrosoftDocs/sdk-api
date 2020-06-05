@@ -1,7 +1,7 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.SetValue
 title: IDeviceSpecificProperty::SetValue (devicetopology.h)
-description: The SetValue method sets the value of the device-specific property.
+description: The SetValue method sets the value of the device-specific property.helpviewer_keywords: ["IDeviceSpecificProperty interface [Core Audio]","SetValue method","IDeviceSpecificProperty.SetValue","IDeviceSpecificProperty::SetValue","IDeviceSpecificPropertySetValue","SetValue","SetValue method [Core Audio]","SetValue method [Core Audio]","IDeviceSpecificProperty interface","coreaudio.idevicespecificproperty_setvalue","devicetopology/IDeviceSpecificProperty::SetValue"]
 old-location: coreaudio\idevicespecificproperty_setvalue.htm
 tech.root: CoreAudio
 ms.assetid: 48e7a638-f602-455f-96d1-9d1eb049a6c0

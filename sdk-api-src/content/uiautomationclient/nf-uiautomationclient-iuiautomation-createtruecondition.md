@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateTrueCondition
 title: IUIAutomation::CreateTrueCondition (uiautomationclient.h)
-description: Retrieves a predefined condition that selects all elements.
+description: Retrieves a predefined condition that selects all elements.helpviewer_keywords: ["CreateTrueCondition","CreateTrueCondition method [Windows Accessibility]","CreateTrueCondition method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateTrueCondition method","IUIAutomation.CreateTrueCondition","IUIAutomation::CreateTrueCondition","uiauto.uiauto_IUIAutomation_CreateTrueCondition","uiauto_IUIAutomation_CreateTrueCondition","uiautomationclient/IUIAutomation::CreateTrueCondition","winauto.uiauto_IUIAutomation_CreateTrueCondition"]
 old-location: winauto\uiauto_IUIAutomation_CreateTrueCondition.htm
 tech.root: WinAuto
 ms.assetid: 02f55293-5d2d-4578-9c31-3ed04dac428e

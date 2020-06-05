@@ -1,7 +1,7 @@
 ---
 UID: NS:naptypes.tagFailureCategoryMapping
 title: FailureCategoryMapping (naptypes.h)
-description: Contains optional compliance state information that is returned by the System Health Validator (SHV).
+description: Contains optional compliance state information that is returned by the System Health Validator (SHV).helpviewer_keywords: ["FailureCategoryMapping","FailureCategoryMapping structure [NAP]","nap.failurecategorymapping_struct","naptypes/FailureCategoryMapping"]
 old-location: nap\failurecategorymapping_struct.htm
 tech.root: NAP
 ms.assetid: dbf2978f-062a-417b-a6df-a82879e10ec8

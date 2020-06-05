@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.EnumFileGroups
 title: IFsrmFileGroupManager::EnumFileGroups (fsrmscreen.h)
-description: Enumerates the file groups in FSRM.
+description: Enumerates the file groups in FSRM.helpviewer_keywords: ["EnumFileGroups","EnumFileGroups method [File Server Resource Manager]","EnumFileGroups method [File Server Resource Manager]","FsrmFileGroupManager class","EnumFileGroups method [File Server Resource Manager]","IFsrmFileGroupManager interface","FsrmFileGroupManager class [File Server Resource Manager]","EnumFileGroups method","IFsrmFileGroupManager interface [File Server Resource Manager]","EnumFileGroups method","IFsrmFileGroupManager.EnumFileGroups","IFsrmFileGroupManager::EnumFileGroups","fs.ifsrmfilegroupmanager_enumfilegroups","fsrm.ifsrmfilegroupmanager_enumfilegroups","fsrmscreen/IFsrmFileGroupManager::EnumFileGroups"]
 old-location: fsrm\ifsrmfilegroupmanager_enumfilegroups.htm
 tech.root: fsrm
 ms.assetid: 317eb6cf-7bcc-4042-a7b7-05efac84a0c2

@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupSendData
 title: PeerGroupSendData function (p2p.h)
-description: The PeerGroupSendData function sends data to a member over a neighbor or direct connection.
+description: The PeerGroupSendData function sends data to a member over a neighbor or direct connection.helpviewer_keywords: ["PeerGroupSendData","PeerGroupSendData function [Peer Networking]","p2p.peergroupsenddata","p2p/PeerGroupSendData"]
 old-location: p2p\peergroupsenddata.htm
 tech.root: P2PSdk
 ms.assetid: 8dcc484d-2b96-4186-990d-c32b7b254d91

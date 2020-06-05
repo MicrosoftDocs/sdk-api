@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.GetCommConfig
 title: GetCommConfig function (winbase.h)
-description: Retrieves the current configuration of a communications device.
+description: Retrieves the current configuration of a communications device.helpviewer_keywords: ["GetCommConfig","GetCommConfig function","_win32_getcommconfig","base.getcommconfig","winbase/GetCommConfig"]
 old-location: base\getcommconfig.htm
 tech.root: devio
 ms.assetid: 8c5b74f7-54e3-42c1-a111-a8ddfb677d4e

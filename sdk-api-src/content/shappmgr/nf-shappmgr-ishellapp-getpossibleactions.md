@@ -1,7 +1,7 @@
 ---
 UID: NF:shappmgr.IShellApp.GetPossibleActions
 title: IShellApp::GetPossibleActions (shappmgr.h)
-description: Gets a bitmask of management actions allowed for an application.
+description: Gets a bitmask of management actions allowed for an application.helpviewer_keywords: ["GetPossibleActions","GetPossibleActions method [Windows Shell]","GetPossibleActions method [Windows Shell]","IShellApp interface","IShellApp interface [Windows Shell]","GetPossibleActions method","IShellApp.GetPossibleActions","IShellApp::GetPossibleActions","inet_IShellApp_GetPossibleActions","shappmgr/IShellApp::GetPossibleActions","shell.IShellApp_GetPossibleActions"]
 old-location: shell\IShellApp_GetPossibleActions.htm
 tech.root: shell
 ms.assetid: e2cdff59-1339-4d00-9bbc-e34e773da1c2

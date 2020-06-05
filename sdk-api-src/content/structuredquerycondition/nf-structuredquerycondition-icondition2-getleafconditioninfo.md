@@ -2,6 +2,7 @@
 UID: NF:structuredquerycondition.ICondition2.GetLeafConditionInfo
 title: ICondition2::GetLeafConditionInfo (structuredquerycondition.h)
 description: Retrieves the property name, operation, and value from a leaf search condition node.
+helpviewer_keywords: ["GetLeafConditionInfo","GetLeafConditionInfo method [search]","GetLeafConditionInfo method [search]","ICondition2 interface","ICondition2 interface [search]","GetLeafConditionInfo method","ICondition2.GetLeafConditionInfo","ICondition2::GetLeafConditionInfo","_search_ICondition2_GetLeafConditionInfo","search._search_ICondition2_GetLeafConditionInfo","structuredquerycondition/ICondition2::GetLeafConditionInfo"]
 old-location: search\_search_ICondition2_GetLeafConditionInfo.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getleafconditioninfo.htm
@@ -68,9 +69,9 @@ Receives the name of the property of the leaf condition as a PROPERTYKEY.
 
 ### -param pcop [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>*</b>
 
-Receives the operation of the leaf condition as a <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
+Receives the operation of the leaf condition as a <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
                 
 
 
@@ -99,8 +100,7 @@ Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value
 
 Any or all of the three parameters can be <b>NULL</b>.
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting 
-condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 
@@ -110,11 +110,11 @@ condition trees.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

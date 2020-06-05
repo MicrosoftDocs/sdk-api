@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspen.Pen.Clone
 title: Pen::Clone (gdipluspen.h)
-description: The Pen::Clone method copies a Pen object.
+description: The Pen::Clone method copies a Pen object.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","Pen class","Pen class [GDI+]","Clone method","Pen.Clone","Pen::Clone","_gdiplus_CLASS_Pen_Clone_","gdiplus._gdiplus_CLASS_Pen_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\clone_85.htm

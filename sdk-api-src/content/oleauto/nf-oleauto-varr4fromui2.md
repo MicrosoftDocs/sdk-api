@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarR4FromUI2
 title: VarR4FromUI2 function (oleauto.h)
-description: Converts an unsigned short value to a float value.
+description: Converts an unsigned short value to a float value.helpviewer_keywords: ["VarR4FromUI2","VarR4FromUI2 function [Automation]","_oa96_VarR4FromUI2","automat.varr4fromui2","oleauto/VarR4FromUI2"]
 old-location: automat\varr4fromui2.htm
 tech.root: automat
 ms.assetid: 8703ba8a-be55-493a-80f3-7f935462842b

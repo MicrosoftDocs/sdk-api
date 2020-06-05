@@ -2,6 +2,7 @@
 UID: NF:iads.IADsNameTranslate.Set
 title: IADsNameTranslate::Set (iads.h)
 description: Directs the directory service to set up a specified object for name translation.
+helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","Set method","IADsNameTranslate.Set","IADsNameTranslate::Set","Set","Set method [ADSI]","Set method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_set","adsi.iadsnametranslate__set","adsi.iadsnametranslate_set","iads/IADsNameTranslate::Set"]
 old-location: adsi\iadsnametranslate_set.htm
 tech.root: adsi
 ms.assetid: 1c126333-3d5c-4ba3-8c66-de778e26488f
@@ -59,7 +60,7 @@ The <b>IADsNameTranslate::Set</b> method directs the directory service to set up
 
 ### -param lnSetType
 
-The format of the name of a directory object. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
+The format of the name of a directory object. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
 
 
 ### -param bstrADsPath
@@ -166,7 +167,7 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::Set</b> m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

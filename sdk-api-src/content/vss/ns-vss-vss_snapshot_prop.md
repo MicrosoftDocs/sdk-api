@@ -1,7 +1,7 @@
 ---
 UID: NS:vss._VSS_SNAPSHOT_PROP
 title: VSS_SNAPSHOT_PROP (vss.h)
-description: Contains the properties of a shadow copy or shadow copy set.
+description: Contains the properties of a shadow copy or shadow copy set.helpviewer_keywords: ["*PVSS_SNAPSHOT_PROP","PVSS_SNAPSHOT_PROP","PVSS_SNAPSHOT_PROP structure pointer [VSS]","VSS_SNAPSHOT_PROP","VSS_SNAPSHOT_PROP structure [VSS]","_win32_vss_snapshot_prop","base.vss_snapshot_prop","vss/PVSS_SNAPSHOT_PROP","vss/VSS_SNAPSHOT_PROP"]
 old-location: base\vss_snapshot_prop.htm
 tech.root: VSS
 ms.assetid: 070ec204-e751-4ebf-8f99-3c415f203cb2
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api
 
 Number of volumes included with the shadow copy in the shadow copy set when it was created. Because it is 
       possible for applications to release individual shadow copies without releasing the shadow copy set, at any 
-      given time the number of shadow copies in the shadow copy set may be less then 
+      given time the number of shadow copies in the shadow copy set may be less than 
       <b>m_LSnapshotsCount</b>. 
       
 

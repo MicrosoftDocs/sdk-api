@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IFolderView2.GetSelectionState
 title: IFolderView2::GetSelectionState (shobjidl_core.h)
 description: Gets the selection state including check state.
+helpviewer_keywords: ["GetSelectionState","GetSelectionState method [Windows Shell]","GetSelectionState method [Windows Shell]","IFolderView2 interface","IFolderView2 interface [Windows Shell]","GetSelectionState method","IFolderView2.GetSelectionState","IFolderView2::GetSelectionState","_shell_IFolderView2_GetSelectionState","shell.IFolderView2_GetSelectionState","shobjidl_core/IFolderView2::GetSelectionState"]
 old-location: shell\IFolderView2_GetSelectionState.htm
 tech.root: shell
 ms.assetid: fc446188-c7f8-4158-a5b4-631fb374e0c4
@@ -68,7 +69,7 @@ A PIDL of the item.
 
 Type: <b>DWORD*</b>
 
-Zero or one of the following <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specify the current type of selection: <b>SVSI_FOCUSED</b>, <b>SVSI_SELECT</b>, <b>SVSI_CHECK</b>, or <b>SVSI_CHECK2</b>. Other <b>_SVSIF</b> constants are not returned by this API.
+Zero or one of the following <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specify the current type of selection: <b>SVSI_FOCUSED</b>, <b>SVSI_SELECT</b>, <b>SVSI_CHECK</b>, or <b>SVSI_CHECK2</b>. Other <b>_SVSIF</b> constants are not returned by this API.
 
 
 ## -returns

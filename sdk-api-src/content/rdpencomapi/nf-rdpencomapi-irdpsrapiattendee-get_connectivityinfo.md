@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_ConnectivityInfo
 title: IRDPSRAPIAttendee::get_ConnectivityInfo (rdpencomapi.h)
-description: Retrieves the connectivity information for the attendee.
+description: Retrieves the connectivity information for the attendee.helpviewer_keywords: ["ConnectivityInfo property [RDP]","ConnectivityInfo property [RDP]","IRDPSRAPIAttendee interface","ConnectivityInfo property [RDP]","RDPSRAPIAttendee object","IRDPSRAPIAttendee interface [RDP]","ConnectivityInfo property","IRDPSRAPIAttendee.ConnectivityInfo","IRDPSRAPIAttendee.get_ConnectivityInfo","IRDPSRAPIAttendee::ConnectivityInfo","IRDPSRAPIAttendee::get_ConnectivityInfo","RDPSRAPIAttendee object [RDP]","ConnectivityInfo property","get_ConnectivityInfo","rdp.irdpsrapiattendee_connectivityinfo","rdpencomapi/IRDPSRAPIAttendee::ConnectivityInfo","rdpencomapi/IRDPSRAPIAttendee::get_ConnectivityInfo"]
 old-location: rdp\irdpsrapiattendee_connectivityinfo.htm
 tech.root: rdp
 ms.assetid: 40112da5-c7b6-42f9-9acf-887161aceabf

@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Item
 title: IUpdateExceptionCollection::get_Item (wuapi.h)
-description: Gets an IUpdateException interface in the collection.
+description: Gets an IUpdateException interface in the collection.helpviewer_keywords: ["IUpdateExceptionCollection interface [Windows Update Agent]","Item property","IUpdateExceptionCollection.Item","IUpdateExceptionCollection.get_Item","IUpdateExceptionCollection::Item","IUpdateExceptionCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IUpdateExceptionCollection interface","get_Item","wua.iupdateexceptioncollection_item","wuapi/IUpdateExceptionCollection::Item","wuapi/IUpdateExceptionCollection::get_Item"]
 old-location: wua\iupdateexceptioncollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: 62f3992a-a295-4036-a488-cca0945574ec

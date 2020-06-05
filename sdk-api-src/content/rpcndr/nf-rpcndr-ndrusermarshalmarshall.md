@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalMarshall
 title: NdrUserMarshalMarshall function (rpcndr.h)
-description: The NdrUserMarshalMarshall function marshals the supplied data buffer.
+description: The NdrUserMarshalMarshall function marshals the supplied data buffer.helpviewer_keywords: ["NdrUserMarshalMarshall","NdrUserMarshalMarshall function [RPC]","rpc.ndrusermarshalmarshall","rpcndr/NdrUserMarshalMarshall"]
 old-location: rpc\ndrusermarshalmarshall.htm
 tech.root: Rpc
 ms.assetid: 9c89f342-2356-4a58-81bf-f9e53535468e

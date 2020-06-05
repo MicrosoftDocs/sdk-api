@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._LoadToolbars
 title: IBrowserService2::_LoadToolbars (shdeprecated.h)
-description: Deprecated. Loads the saved state of the browser's toolbars.
+description: Deprecated. Loads the saved state of the browser's toolbars.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_LoadToolbars method","IBrowserService2._LoadToolbars","IBrowserService2::_LoadToolbars","_LoadToolbars","_LoadToolbars method [Windows Shell]","_LoadToolbars method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_LoadToolbars","shell.IBrowserService2__LoadToolbars","zone_IBrowserService2__LoadToolbars"]
 old-location: shell\IBrowserService2__LoadToolbars.htm
 tech.root: shell
 ms.assetid: b3dd5b22-8834-4601-b91b-d5c4ded01549

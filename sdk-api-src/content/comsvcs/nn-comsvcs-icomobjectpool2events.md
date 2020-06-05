@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IComObjectPool2Events
 title: IComObjectPool2Events (comsvcs.h)
-description: Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool.
+description: Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool.helpviewer_keywords: ["IComObjectPool2Events","IComObjectPool2Events interface [COM+]","IComObjectPool2Events interface [COM+]","described","_dtc_icomobjectpool2events","comsvcs/IComObjectPool2Events","cos.icomobjectpool2events"]
 old-location: cos\icomobjectpool2events.htm
 tech.root: cossdk
 ms.assetid: 2aac494d-52ce-408c-8444-8792b5b53604

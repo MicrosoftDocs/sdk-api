@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmEnumOptions
 title: FsrmEnumOptions (fsrmenums.h)
-description: Defines the options for enumerating collections of objects.
+description: Defines the options for enumerating collections of objects.helpviewer_keywords: ["FsrmEnumOptions","FsrmEnumOptions enumeration [File Server Resource Manager]","FsrmEnumOptions_Asynchronous","FsrmEnumOptions_CheckRecycleBin","FsrmEnumOptions_IncludeClusterNodes","FsrmEnumOptions_IncludeDeprecatedObjects","FsrmEnumOptions_None","fs.fsrmenumoptions","fsrm.fsrmenumoptions","fsrmenums/FsrmEnumOptions","fsrmenums/FsrmEnumOptions_Asynchronous","fsrmenums/FsrmEnumOptions_CheckRecycleBin","fsrmenums/FsrmEnumOptions_IncludeClusterNodes","fsrmenums/FsrmEnumOptions_IncludeDeprecatedObjects","fsrmenums/FsrmEnumOptions_None"]
 old-location: fsrm\fsrmenumoptions.htm
 tech.root: fsrm
 ms.assetid: 9c613d0c-c49a-4010-b66f-a63c57d693f7

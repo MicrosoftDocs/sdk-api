@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagField
 title: FsrmPropertyBagField (fsrmenums.h)
-description: Describes the type of property bag.
+description: Describes the type of property bag.helpviewer_keywords: ["FsrmPropertyBagField","FsrmPropertyBagField enumeration [File Server Resource Manager]","FsrmPropertyBagField_AccessVolume","FsrmPropertyBagField_VolumeGuidName","fs.fsrmpropertybagfield","fsrm.fsrmpropertybagfield","fsrmenums/FsrmPropertyBagField","fsrmenums/FsrmPropertyBagField_AccessVolume","fsrmenums/FsrmPropertyBagField_VolumeGuidName"]
 old-location: fsrm\fsrmpropertybagfield.htm
 tech.root: fsrm
 ms.assetid: 7a8cd6a6-7933-4190-b4fc-1b1cd653bd14

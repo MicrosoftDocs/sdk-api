@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarParseNumFromStr
 title: VarParseNumFromStr function (oleauto.h)
-description: Parses a string, and creates a type-independent description of the number it represents.
+description: Parses a string, and creates a type-independent description of the number it represents.helpviewer_keywords: ["VarParseNumFromStr","VarParseNumFromStr function [Automation]","_oa96_VarParseNumFromStr","automat.varparsenumfromstr","oleauto/VarParseNumFromStr"]
 old-location: automat\varparsenumfromstr.htm
 tech.root: automat
 ms.assetid: b77ce0df-5635-4760-8b42-f3afec49482b

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.Commit
 title: ITocParser::Commit (wmcodecdsp.h)
-description: The Commit method stores the current state of the TOC Parser object in its associated media file.
+description: The Commit method stores the current state of the TOC Parser object in its associated media file.helpviewer_keywords: ["Commit","Commit method [Media Foundation]","Commit method [Media Foundation]","ITocParser interface","ITocParser interface [Media Foundation]","Commit method","ITocParser.Commit","ITocParser::Commit","codecapi.itocparser_commit","mf.itocparser_commit","wmcodecdsp/ITocParser::Commit"]
 old-location: mf\itocparser_commit.htm
 tech.root: medfound
 ms.assetid: 549c170e-2e4d-4edb-b84e-178bfbb13fed

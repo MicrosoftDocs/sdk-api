@@ -2,6 +2,7 @@
 UID: NN:devicetopology.IConnector
 title: IConnector (devicetopology.h)
 description: The IConnector interface represents a point of connection between components.
+helpviewer_keywords: ["IConnector","IConnector interface [Core Audio]","IConnector interface [Core Audio]","described","coreaudio.iconnector","devicetopology/IConnector"]
 old-location: coreaudio\iconnector.htm
 tech.root: CoreAudio
 ms.assetid: 6eb5b439-3ac7-4c0b-84e2-b246c1b946a5
@@ -59,7 +60,7 @@ An <b>IConnector</b> interface instance can represent:
 <li>An internal connection to an integrated endpoint device (for example, a built-in microphone in a laptop computer)</li>
 <li>A software connection implemented through DMA transfers</li>
 </ul>
-The methods in the <b>IConnector</b> interface can describe various kinds of connectors. A connector has a type (a <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType</a> enumeration constant) and a subtype (a GUID obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method).
+The methods in the <b>IConnector</b> interface can describe various kinds of connectors. A connector has a type (a <a href="/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType</a> enumeration constant) and a subtype (a GUID obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method).
 
 A part in a device topology can be either a connector or a subunit. The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface provides methods that are common to connectors and subunits.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.PowerReportThermalEvent
 title: PowerReportThermalEvent function (powrprof.h)
-description: Notifies the operating system of thermal events.
+description: Notifies the operating system of thermal events.helpviewer_keywords: ["PowerReportThermalEvent","PowerReportThermalEvent function","base.powerreportthermalevent","powrprof/PowerReportThermalEvent"]
 old-location: base\powerreportthermalevent.htm
 tech.root: power
 ms.assetid: DD3DE1B2-17C1-4FF8-9DF8-BEF35933D913

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlDropHandler
 title: INameSpaceTreeControlDropHandler (shobjidl.h)
-description: Exposes handler methods for drag-and-drop.
+description: Exposes handler methods for drag-and-drop.helpviewer_keywords: ["INameSpaceTreeControlDropHandler","INameSpaceTreeControlDropHandler interface [Windows Shell]","INameSpaceTreeControlDropHandler interface [Windows Shell]","described","_shell_INameSpaceTreeControlDropHandler","shell.INameSpaceTreeControlDropHandler","shobjidl/INameSpaceTreeControlDropHandler"]
 old-location: shell\INameSpaceTreeControlDropHandler.htm
 tech.root: shell
 ms.assetid: 5d2c1783-daeb-488d-93b9-34df2712d849

@@ -1,7 +1,7 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_OPERATION
 title: WSMAN_PLUGIN_AUTHORIZE_OPERATION (wsman.h)
-description: Authorizes a specific operation.
+description: Authorizes a specific operation.helpviewer_keywords: ["Command","Create","Delete","Enumerate","Get","Invoke","Put","Shell","Subscribe","WSMAN_PLUGIN_AUTHORIZE_OPERATION","WSMAN_PLUGIN_AUTHORIZE_OPERATION callback","WSMAN_PLUGIN_AUTHORIZE_OPERATION callback function [Windows Management Instrumentation]","winrm.wsman_plugin_authorize_operation","wsman/WSMAN_PLUGIN_AUTHORIZE_OPERATION"]
 old-location: winrm\wsman_plugin_authorize_operation.htm
 tech.root: winrm
 ms.assetid: 28fbd8db-557d-487b-8cf7-c550fe0826f7

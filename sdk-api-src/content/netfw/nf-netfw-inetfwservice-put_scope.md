@@ -2,6 +2,7 @@
 UID: NF:netfw.INetFwService.put_Scope
 title: INetFwService::put_Scope (netfw.h)
 description: Controls the network scope from which the port can listen.
+helpviewer_keywords: ["INetFwService interface [ICS/ICF]","Scope property","INetFwService.Scope","INetFwService.put_Scope","INetFwService::Scope","INetFwService::get_Scope","INetFwService::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwService interface","ics.inetfwservice_scope","netfw/INetFwService::Scope","netfw/INetFwService::get_Scope","netfw/INetFwService::put_Scope","put_Scope"]
 old-location: ics\inetfwservice_scope.htm
 tech.root: ics
 ms.assetid: 17a7e47d-2145-4439-9999-7384de9fd12c
@@ -95,7 +96,7 @@ To create a custom scope, use the <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_scope_">NET_FW_SCOPE</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>
  
 
  

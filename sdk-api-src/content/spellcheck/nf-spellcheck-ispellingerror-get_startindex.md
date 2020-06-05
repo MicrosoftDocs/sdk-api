@@ -2,12 +2,12 @@
 UID: NF:spellcheck.ISpellingError.get_StartIndex
 title: ISpellingError::get_StartIndex (spellcheck.h)
 description: Gets the position in the checked text where the error begins.
+helpviewer_keywords: ["ISpellingError interface [Internationalization for Windows Applications]","StartIndex property","ISpellingError.StartIndex","ISpellingError.get_StartIndex","ISpellingError::StartIndex","ISpellingError::get_StartIndex","StartIndex property [Internationalization for Windows Applications]","StartIndex property [Internationalization for Windows Applications]","ISpellingError interface","get_StartIndex","intl.ispellingerror_startindex","spellcheck/ISpellingError::StartIndex","spellcheck/ISpellingError::get_StartIndex"]
 old-location: intl\ispellingerror_startindex.htm
 tech.root: Intl
 ms.assetid: bf4e8981-9f7c-4f4f-bb22-866649af2727
 ms.date: 12/05/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],StartIndex property, ISpellingError.StartIndex, ISpellingError.get_StartIndex, ISpellingError::StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications],ISpellingError interface, get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellingError.StartIndex
 dev_langs:

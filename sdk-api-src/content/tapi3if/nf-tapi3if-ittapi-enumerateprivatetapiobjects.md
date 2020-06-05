@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITTAPI.EnumeratePrivateTAPIObjects
 title: ITTAPI::EnumeratePrivateTAPIObjects (tapi3if.h)
-description: The EnumeratePrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
+description: The EnumeratePrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.helpviewer_keywords: ["EnumeratePrivateTAPIObjects","EnumeratePrivateTAPIObjects method [TAPI 2.2]","EnumeratePrivateTAPIObjects method [TAPI 2.2]","ITTAPI interface","ITTAPI interface [TAPI 2.2]","EnumeratePrivateTAPIObjects method","ITTAPI.EnumeratePrivateTAPIObjects","ITTAPI::EnumeratePrivateTAPIObjects","_tapi3_ittapi_enumerateprivatetapiobjects","tapi3.ittapi_enumerateprivatetapiobjects","tapi3if/ITTAPI::EnumeratePrivateTAPIObjects"]
 old-location: tapi3\ittapi_enumerateprivatetapiobjects.htm
 tech.root: Tapi
 ms.assetid: 071166d9-99ff-4245-b4c8-0b89b8bae19c

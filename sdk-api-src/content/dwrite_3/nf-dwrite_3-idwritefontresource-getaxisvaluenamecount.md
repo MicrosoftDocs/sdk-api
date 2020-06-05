@@ -2,6 +2,7 @@
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisValueNameCount
 title: IDWriteFontResource::GetAxisValueNameCount
 description: Retrieves the number of named values for a specific axis.
+helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisValueNameCount method","IDWriteFontResource.GetAxisValueNameCount","IDWriteFontResource::GetAxisValueNameCount","GetAxisValueNameCount","GetAxisValueNameCount method [Direct Write]","GetAxisValueNameCount method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getaxisvaluenamecount","dwrite_3/IDWriteFontResource::GetAxisValueNameCount"]
 tech.root: DirectWrite
 ms.date: 09/15/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNameCount method, IDWriteFontResource.GetAxisValueNameCount, IDWriteFontResource::GetAxisValueNameCount, GetAxisValueNameCount, GetAxisValueNameCount method [Direct Write], GetAxisValueNameCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenamecount, dwrite_3/IDWriteFontResource::GetAxisValueNameCount
@@ -52,7 +53,7 @@ Retrieves the number of named values for a specific axis.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](https://docs.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
 
 ## -returns
 

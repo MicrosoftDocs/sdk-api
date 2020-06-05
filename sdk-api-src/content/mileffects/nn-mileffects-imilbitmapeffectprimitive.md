@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectPrimitive
 title: IMILBitmapEffectPrimitive (mileffects.h)
-description: Exposes methods that create a bitmap effect's output. This interface must be implemented to create third party Windows Presentation Foundation (WPF) bitmap effects.
+description: Exposes methods that create a bitmap effect's output. This interface must be implemented to create third party Windows Presentation Foundation (WPF) bitmap effects.helpviewer_keywords: ["IMILBitmapEffectPrimitive","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectprimitive","mileffects/IMILBitmapEffectPrimitive","wibe._wibe_imilbitmapeffectprimitive"]
 old-location: wibe\_wibe_imilbitmapeffectprimitive.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\imilbitmapeffectprimitive.htm

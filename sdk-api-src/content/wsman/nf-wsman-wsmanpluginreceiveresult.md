@@ -1,7 +1,7 @@
 ---
 UID: NF:wsman.WSManPluginReceiveResult
 title: WSManPluginReceiveResult function (wsman.h)
-description: Reports results for the WSMAN_PLUGIN_RECEIVE plug-in call and is used by most shell plug-ins that return results.
+description: Reports results for the WSMAN_PLUGIN_RECEIVE plug-in call and is used by most shell plug-ins that return results.helpviewer_keywords: ["WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION","WSMAN_RECEIVE_STATE_INPUT_REQUIRED","WSMAN_RECEIVE_STATE_NONE","WSMAN_RECEIVE_STATE_NORMAL_TERMINATION","WSMAN_RECEIVE_STATE_WAITING","WSManPluginReceiveResult","WSManPluginReceiveResult function [Windows Remote Management]","winrm.wsmanpluginreceiveresult","wsman/WSManPluginReceiveResult"]
 old-location: winrm\wsmanpluginreceiveresult.htm
 tech.root: winrm
 ms.assetid: 717c1e37-83e1-4caf-8b52-175999597fc0

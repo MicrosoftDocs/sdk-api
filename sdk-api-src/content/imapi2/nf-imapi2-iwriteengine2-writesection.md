@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IWriteEngine2.WriteSection
 title: IWriteEngine2::WriteSection (imapi2.h)
-description: Writes a data stream to the current recorder.
+description: Writes a data stream to the current recorder.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","WriteSection method","IWriteEngine2.WriteSection","IWriteEngine2::WriteSection","WriteSection","WriteSection method [IMAPI]","WriteSection method [IMAPI]","IWriteEngine2 interface","imapi.iwriteengine2_writesection","imapi2/IWriteEngine2::WriteSection"]
 old-location: imapi\iwriteengine2_writesection.htm
 tech.root: imapi
 ms.assetid: a6158984-04d3-4919-8a67-fc860b4b3a47

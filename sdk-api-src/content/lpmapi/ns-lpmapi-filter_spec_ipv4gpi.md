@@ -1,7 +1,7 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_7
 title: Filter_Spec_IPv4GPI (lpmapi.h)
-description: The Filter_Spec_IPv4GPI structure contains generalized port ID information about an IPv4 FILTERSPEC.
+description: The Filter_Spec_IPv4GPI structure contains generalized port ID information about an IPv4 FILTERSPEC.helpviewer_keywords: ["Filter_Spec_IPv4GPI","Filter_Spec_IPv4GPI structure [QOS]","lpmapi/Filter_Spec_IPv4GPI","qos.filter_spec_ipv4gpi"]
 old-location: qos\filter_spec_ipv4gpi.htm
 tech.root: QOS
 ms.assetid: c1546673-d1b5-4a7f-82d0-a8cc1c7c8752

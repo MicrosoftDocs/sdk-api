@@ -1,7 +1,7 @@
 ---
 UID: NE:shobjidl_core.SYNC_TRANSFER_STATUS
 title: SYNC_TRANSFER_STATUS (shobjidl_core.h)
-description: Specifies possible status values used in the System.SyncTransferStatus property.
+description: Specifies possible status values used in the System.SyncTransferStatus property.helpviewer_keywords: ["STS_FETCHING_METADATA","STS_HASERROR","STS_NEEDSDOWNLOAD","STS_NEEDSUPLOAD","STS_NONE","STS_PAUSED","STS_TRANSFERRING","SYNC_TRANSFER_STATUS","SYNC_TRANSFER_STATUS enumeration [Windows Properties]","properties.SYNC_TRANSFER_STATUS","shobjidl_core/STS_FETCHING_METADATA","shobjidl_core/STS_HASERROR","shobjidl_core/STS_NEEDSDOWNLOAD","shobjidl_core/STS_NEEDSUPLOAD","shobjidl_core/STS_NONE","shobjidl_core/STS_PAUSED","shobjidl_core/STS_TRANSFERRING","shobjidl_core/SYNC_TRANSFER_STATUS"]
 old-location: properties\SYNC_TRANSFER_STATUS.htm
 tech.root: properties
 ms.assetid: B772BF05-0E82-48E6-9A0B-A3C53FBC5F60

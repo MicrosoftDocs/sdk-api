@@ -2,6 +2,7 @@
 UID: NF:inkrenderer.IInkD2DRenderer.Draw
 title: IInkD2DRenderer::Draw (inkrenderer.h)
 description: Renders the ink stroke to the designated Direct2D device context of the app.
+helpviewer_keywords: ["Draw","Draw method","Draw method","IInkD2DRenderer interface","IInkD2DRenderer interface","Draw method","IInkD2DRenderer.Draw","IInkD2DRenderer::Draw","inkrenderer/IInkD2DRenderer::Draw","input_ink.iinkd2drenderer_draw"]
 old-location: input_ink\iinkd2drenderer_draw.htm
 tech.root: input_ink
 ms.assetid: 013f3b95-d5da-44e3-b2da-64a49cc8908e
@@ -99,7 +100,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

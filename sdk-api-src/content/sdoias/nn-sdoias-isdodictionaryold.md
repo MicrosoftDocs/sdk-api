@@ -1,7 +1,7 @@
 ---
 UID: NN:sdoias.ISdoDictionaryOld
 title: ISdoDictionaryOld (sdoias.h)
-description: Use the ISdoDictionaryOld interface to manipulate the dictionary of Remote Access Dial-In User Service (RADIUS) attributes.
+description: Use the ISdoDictionaryOld interface to manipulate the dictionary of Remote Access Dial-In User Service (RADIUS) attributes.helpviewer_keywords: ["ISdoDictionaryOld","ISdoDictionaryOld interface [Network Policy Server]","ISdoDictionaryOld interface [Network Policy Server]","described","_sdo_isdodictionaryold","nps.SDO_isdodictionaryold","sdo.isdodictionaryold","sdoias/ISdoDictionaryOld"]
 old-location: nps\SDO_isdodictionaryold.htm
 tech.root: Nps
 ms.assetid: 5aaa4008-3b39-4d1d-90db-79631e5bb6b9

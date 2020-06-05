@@ -2,6 +2,7 @@
 UID: NF:mftransform.IMFTransform.SetInputType
 title: IMFTransform::SetInputType (mftransform.h)
 description: Sets, tests, or clears the media type for an input stream on this Media Foundation transform (MFT).
+helpviewer_keywords: ["822a83d1-177a-4a8d-842e-eb76f8253283","IMFTransform interface [Media Foundation]","SetInputType method","IMFTransform.SetInputType","IMFTransform::SetInputType","SetInputType","SetInputType method [Media Foundation]","SetInputType method [Media Foundation]","IMFTransform interface","mf.imftransform_setinputtype","mftransform/IMFTransform::SetInputType"]
 old-location: mf\imftransform_setinputtype.htm
 tech.root: medfound
 ms.assetid: 822a83d1-177a-4a8d-842e-eb76f8253283
@@ -73,7 +74,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects
 
 ### -param dwFlags [in]
 
-Zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_set_type_flags">_MFT_SET_TYPE_FLAGS</a> enumeration.
+Zero or more flags from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_set_type_flags">_MFT_SET_TYPE_FLAGS</a> enumeration.
           
 
 

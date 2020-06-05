@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3Less
 title: XMVector3Less function (directxmath.h)
-description: Tests whether one 3D vector is less than another 3D vector.
+description: Tests whether one 3D vector is less than another 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3Less","XMVector3Less","XMVector3Less method [DirectX Math Support APIs]","dxmath.xmvector3less"]
 old-location: dxmath\xmvector3less.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3Less(XMVECTOR,XMVECTOR)

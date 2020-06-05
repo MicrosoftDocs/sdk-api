@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMColorIsNaN
 title: XMColorIsNaN function (directxmath.h)
-description: Tests to see whether any component of a color is not a number (NaN).
+description: Tests to see whether any component of a color is not a number (NaN).helpviewer_keywords: ["Use DirectX..XMColorIsNaN","XMColorIsNaN","XMColorIsNaN method [DirectX Math Support APIs]","dxmath.xmcolorisnan"]
 old-location: dxmath\xmcolorisnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorIsNaN(XMVECTOR)

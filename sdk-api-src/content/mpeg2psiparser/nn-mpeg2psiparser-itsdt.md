@@ -1,7 +1,7 @@
 ---
 UID: NN:mpeg2psiparser.ITSDT
 title: ITSDT (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["ITSDT","ITSDT interface [Microsoft TV Technologies]","ITSDT interface [Microsoft TV Technologies]","described","ITSDTInterface","mpeg2psiparser/ITSDT","mstv.itsdt"]
 old-location: mstv\itsdt.htm
 tech.root: mstv
 ms.assetid: 58ec73dc-79bd-415b-b9be-8e9246166391

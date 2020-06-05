@@ -2,6 +2,7 @@
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_OUTPUT
 title: MINIDUMP_CALLBACK_OUTPUT (minidumpapiset.h)
 description: Contains information returned by the MiniDumpCallback function.
+helpviewer_keywords: ["*PMINIDUMP_CALLBACK_OUTPUT","MINIDUMP_CALLBACK_OUTPUT","MINIDUMP_CALLBACK_OUTPUT structure","PMINIDUMP_CALLBACK_OUTPUT","PMINIDUMP_CALLBACK_OUTPUT structure pointer","_MINIDUMP_CALLBACK_OUTPUT","_win32_minidump_callback_output_str","base.minidump_callback_output_str","minidumpapiset/MINIDUMP_CALLBACK_OUTPUT","minidumpapiset/PMINIDUMP_CALLBACK_OUTPUT"]
 old-location: base\minidump_callback_output_str.htm
 tech.root: Debug
 ms.assetid: 57949087-0f22-40c8-ab56-326a8304c310
@@ -76,7 +77,7 @@ This member is ignored unless the callback type is <b>IncludeThreadCallback</b>,
 
 ### -field SecondaryFlags
 
-Contains a value from the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
+Contains a value from the <a href="/windows/win32/api/minidumpapiset/ne-minidumpapiset-minidump_secondary_flags">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
 
 <b>DbgHelp 6.5 and earlier:  </b>This member is not available.
 

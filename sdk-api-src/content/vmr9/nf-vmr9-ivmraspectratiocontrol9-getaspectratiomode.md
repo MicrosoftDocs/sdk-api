@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.GetAspectRatioMode
 title: IVMRAspectRatioControl9::GetAspectRatioMode (vmr9.h)
-description: The GetAspectRatioMode method queries whether the VMR preserves the aspect ratio of the source video.
+description: The GetAspectRatioMode method queries whether the VMR preserves the aspect ratio of the source video.helpviewer_keywords: ["GetAspectRatioMode","GetAspectRatioMode method [DirectShow]","GetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl9 interface","IVMRAspectRatioControl9 interface [DirectShow]","GetAspectRatioMode method","IVMRAspectRatioControl9.GetAspectRatioMode","IVMRAspectRatioControl9::GetAspectRatioMode","IVMRAspectRatioControl9GetAspectRatioMode","dshow.ivmraspectratiocontrol9_getaspectratiomode","vmr9/IVMRAspectRatioControl9::GetAspectRatioMode"]
 old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b

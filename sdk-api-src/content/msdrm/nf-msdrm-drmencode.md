@@ -1,7 +1,7 @@
 ---
 UID: NF:msdrm.DRMEncode
 title: DRMEncode function (msdrm.h)
-description: Encodes data using a public encoding method, such as base64.
+description: Encodes data using a public encoding method, such as base64.helpviewer_keywords: ["DRMEncode","DRMEncode function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMEncode","rm.drmencode"]
 old-location: rm\drmencode.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5fc0275c-098b-43a6-a52a-871321b0e4f3

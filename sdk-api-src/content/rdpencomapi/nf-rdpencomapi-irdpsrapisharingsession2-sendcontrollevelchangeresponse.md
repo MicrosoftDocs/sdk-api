@@ -2,6 +2,7 @@
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.SendControlLevelChangeResponse
 title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse (rdpencomapi.h)
 description: Sends an OnControlLevelChangeResponse event.
+helpviewer_keywords: ["IRDPSRAPISharingSession2 interface [RDP]","SendControlLevelChangeResponse method","IRDPSRAPISharingSession2.SendControlLevelChangeResponse","IRDPSRAPISharingSession2::SendControlLevelChangeResponse","SendControlLevelChangeResponse","SendControlLevelChangeResponse method [RDP]","SendControlLevelChangeResponse method [RDP]","IRDPSRAPISharingSession2 interface","rdp.irdpsrapisharingsession2_sendcontrollevelchangeresponse","rdpencomapi/IRDPSRAPISharingSession2::SendControlLevelChangeResponse"]
 old-location: rdp\irdpsrapisharingsession2_sendcontrollevelchangeresponse.htm
 tech.root: rdp
 ms.assetid: d10c8f2b-b1ee-4966-9e96-21e78124874b
@@ -64,7 +65,7 @@ Attendee that requests control.
 
 ### -param RequestedLevel [in]
 
-Level of control requested by the attendee. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-ctrl_level">CTRL_LEVEL</a> enumeration.
+Level of control requested by the attendee. For possible values, see the <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-ctrl_level">CTRL_LEVEL</a> enumeration.
 
 
 ### -param ReasonCode [in]

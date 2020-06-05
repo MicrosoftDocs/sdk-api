@@ -1,7 +1,7 @@
 ---
 UID: NE:shtypes.tagPERCEIVED
 title: PERCEIVED (shtypes.h)
-description: Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function.
+description: Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function.helpviewer_keywords: ["PERCEIVED","PERCEIVED enumeration [Windows Shell]","PERCEIVED_TYPE_APPLICATION","PERCEIVED_TYPE_AUDIO","PERCEIVED_TYPE_COMPRESSED","PERCEIVED_TYPE_CONTACTS","PERCEIVED_TYPE_CUSTOM","PERCEIVED_TYPE_DOCUMENT","PERCEIVED_TYPE_FOLDER","PERCEIVED_TYPE_GAMEMEDIA","PERCEIVED_TYPE_IMAGE","PERCEIVED_TYPE_SYSTEM","PERCEIVED_TYPE_TEXT","PERCEIVED_TYPE_UNKNOWN","PERCEIVED_TYPE_UNSPECIFIED","PERCEIVED_TYPE_VIDEO","_shell_PERCEIVED","shell.PERCEIVED","shtypes/PERCEIVED","shtypes/PERCEIVED_TYPE_APPLICATION","shtypes/PERCEIVED_TYPE_AUDIO","shtypes/PERCEIVED_TYPE_COMPRESSED","shtypes/PERCEIVED_TYPE_CONTACTS","shtypes/PERCEIVED_TYPE_CUSTOM","shtypes/PERCEIVED_TYPE_DOCUMENT","shtypes/PERCEIVED_TYPE_FOLDER","shtypes/PERCEIVED_TYPE_GAMEMEDIA","shtypes/PERCEIVED_TYPE_IMAGE","shtypes/PERCEIVED_TYPE_SYSTEM","shtypes/PERCEIVED_TYPE_TEXT","shtypes/PERCEIVED_TYPE_UNKNOWN","shtypes/PERCEIVED_TYPE_UNSPECIFIED","shtypes/PERCEIVED_TYPE_VIDEO"]
 old-location: shell\PERCEIVED.htm
 tech.root: shell
 ms.assetid: dbaf5894-1ed6-446f-ac15-12ba4c7326e7

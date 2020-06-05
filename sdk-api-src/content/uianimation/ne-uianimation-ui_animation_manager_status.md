@@ -1,7 +1,7 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0002
 title: UI_ANIMATION_MANAGER_STATUS (uianimation.h)
-description: Defines the activity status of an animation manager.
+description: Defines the activity status of an animation manager.helpviewer_keywords: ["UI_ANIMATION_MANAGER_BUSY","UI_ANIMATION_MANAGER_IDLE","UI_ANIMATION_MANAGER_STATUS","UI_ANIMATION_MANAGER_STATUS enumeration [Windows Animation]","uianimation.ui_animation_manager_status","uianimation/UI_ANIMATION_MANAGER_BUSY","uianimation/UI_ANIMATION_MANAGER_IDLE","uianimation/UI_ANIMATION_MANAGER_STATUS"]
 old-location: uianimation\ui_animation_manager_status.htm
 tech.root: UIAnimation
 ms.assetid: 499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8

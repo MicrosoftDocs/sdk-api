@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagVARIANT
 title: VARIANT (oaidl.h)
-description: VARIANTARG describes arguments passed within DISPPARAMS, and VARIANT to specify variant data that cannot be passed by reference.
+description: VARIANTARG describes arguments passed within DISPPARAMS, and VARIANT to specify variant data that cannot be passed by reference.helpviewer_keywords: ["*LPVARIANT","*LPVARIANTARG","LPVARIANT","LPVARIANT structure pointer [Automation]","LPVARIANTARG","LPVARIANTARG structure pointer [Automation]","VARIANT","VARIANT structure [Automation]","VARIANTARG","VARIANTARG structure [Automation]","_oa96_VARIANT_and_VARIANTARG","automat.variant","oaidl/LPVARIANT","oaidl/LPVARIANTARG","oaidl/VARIANT","oaidl/VARIANTARG"]
 old-location: automat\variant.htm
 tech.root: automat
 ms.assetid: e305240e-9e11-4006-98cc-26f4932d2118

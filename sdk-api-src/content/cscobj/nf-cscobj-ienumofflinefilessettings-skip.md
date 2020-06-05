@@ -1,7 +1,7 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Skip
 title: IEnumOfflineFilesSettings::Skip (cscobj.h)
-description: Skips over the next specified number of elements in the enumeration.
+description: Skips over the next specified number of elements in the enumeration.helpviewer_keywords: ["IEnumOfflineFilesSettings interface [Offline Files]","Skip method","IEnumOfflineFilesSettings.Skip","IEnumOfflineFilesSettings::Skip","Skip","Skip method [Offline Files]","Skip method [Offline Files]","IEnumOfflineFilesSettings interface","cscobj/IEnumOfflineFilesSettings::Skip","of.ienumofflinefilessettings_skip"]
 old-location: of\ienumofflinefilessettings_skip.htm
 tech.root: offlinefiles
 ms.assetid: 8b84fcef-f4e3-4e23-b254-dd21f145c1ba

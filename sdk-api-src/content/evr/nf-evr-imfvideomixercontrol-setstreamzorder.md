@@ -1,7 +1,7 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamZOrder
 title: IMFVideoMixerControl::SetStreamZOrder (evr.h)
-description: Sets the z-order of a video stream.
+description: Sets the z-order of a video stream.helpviewer_keywords: ["6187724a-6345-4feb-90a0-097b6d21180f","IMFVideoMixerControl interface [Media Foundation]","SetStreamZOrder method","IMFVideoMixerControl.SetStreamZOrder","IMFVideoMixerControl::SetStreamZOrder","SetStreamZOrder","SetStreamZOrder method [Media Foundation]","SetStreamZOrder method [Media Foundation]","IMFVideoMixerControl interface","evr/IMFVideoMixerControl::SetStreamZOrder","mf.imfvideomixercontrol_setstreamzorder"]
 old-location: mf\imfvideomixercontrol_setstreamzorder.htm
 tech.root: medfound
 ms.assetid: 6187724a-6345-4feb-90a0-097b6d21180f

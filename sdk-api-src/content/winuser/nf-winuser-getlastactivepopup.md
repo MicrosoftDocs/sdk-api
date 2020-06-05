@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetLastActivePopup
 title: GetLastActivePopup function (winuser.h)
-description: Determines which pop-up window owned by the specified window was most recently active.
+description: Determines which pop-up window owned by the specified window was most recently active.helpviewer_keywords: ["GetLastActivePopup","GetLastActivePopup function [Windows and Messages]","_win32_GetLastActivePopup","_win32_getlastactivepopup_cpp","winmsg.getlastactivepopup","winui._win32_getlastactivepopup","winuser/GetLastActivePopup"]
 old-location: winmsg\getlastactivepopup.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getlastactivepopup.htm

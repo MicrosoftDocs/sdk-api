@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPostUpdate
 title: IUIAnimationTimerEventHandler::OnPostUpdate (uianimation.h)
-description: Handles events that occur after an animation update is finished.
+description: Handles events that occur after an animation update is finished.helpviewer_keywords: ["IUIAnimationTimerEventHandler interface [Windows Animation]","OnPostUpdate method","IUIAnimationTimerEventHandler.OnPostUpdate","IUIAnimationTimerEventHandler::OnPostUpdate","OnPostUpdate","OnPostUpdate method [Windows Animation]","OnPostUpdate method [Windows Animation]","IUIAnimationTimerEventHandler interface","uianimation.iuianimationtimereventhandler_onpostupdate","uianimation/IUIAnimationTimerEventHandler::OnPostUpdate"]
 old-location: uianimation\iuianimationtimereventhandler_onpostupdate.htm
 tech.root: UIAnimation
 ms.assetid: 3a09537a-6cf7-4824-90c6-265dafa07a1b

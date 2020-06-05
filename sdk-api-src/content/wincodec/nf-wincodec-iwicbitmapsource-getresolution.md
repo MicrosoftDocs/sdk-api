@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetResolution
 title: IWICBitmapSource::GetResolution (wincodec.h)
-description: Retrieves the sampling rate between pixels and physical world measurements.
+description: Retrieves the sampling rate between pixels and physical world measurements.helpviewer_keywords: ["GetResolution","GetResolution method [Windows Imaging Component]","GetResolution method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","GetResolution method","IWICBitmapSource.GetResolution","IWICBitmapSource::GetResolution","_wic_codec_iwicbitmapsource_getresolution","wic._wic_codec_iwicbitmapsource_getresolution","wincodec/IWICBitmapSource::GetResolution"]
 old-location: wic\_wic_codec_iwicbitmapsource_getresolution.htm
 tech.root: wic
 ms.assetid: 49241ed1-1036-4f88-9116-4727de883b3e

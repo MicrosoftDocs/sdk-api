@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_LogFileFormat
 title: IPerformanceCounterDataCollector::get_LogFileFormat (pla.h)
-description: Retrieves or sets the format of the log file.
+description: Retrieves or sets the format of the log file.helpviewer_keywords: ["IPerformanceCounterDataCollector interface [PLA]","LogFileFormat property","IPerformanceCounterDataCollector.LogFileFormat","IPerformanceCounterDataCollector.get_LogFileFormat","IPerformanceCounterDataCollector::LogFileFormat","IPerformanceCounterDataCollector::get_LogFileFormat","IPerformanceCounterDataCollector::put_LogFileFormat","LogFileFormat property [PLA]","LogFileFormat property [PLA]","IPerformanceCounterDataCollector interface","base.iperformancecounterdatacollector_logfileformat","get_LogFileFormat","pla.iperformancecounterdatacollector_logfileformat","pla/IPerformanceCounterDataCollector::LogFileFormat","pla/IPerformanceCounterDataCollector::get_LogFileFormat","pla/IPerformanceCounterDataCollector::put_LogFileFormat"]
 old-location: pla\iperformancecounterdatacollector_logfileformat.htm
 tech.root: PLA
 ms.assetid: 3b980ea6-cb08-4e10-b4b3-40fd504d5e8f

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayCreateVectorEx
 title: SafeArrayCreateVectorEx function (oleauto.h)
-description: Creates and returns a one-dimensional safe array of the specified VARTYPE and bounds.
+description: Creates and returns a one-dimensional safe array of the specified VARTYPE and bounds.helpviewer_keywords: ["SafeArrayCreateVectorEx","SafeArrayCreateVectorEx function [Automation]","_oa96_SafeArrayCreateVectorEx","automat.safearraycreatevectorex","oleauto/SafeArrayCreateVectorEx"]
 old-location: automat\safearraycreatevectorex.htm
 tech.root: automat
 ms.assetid: 45f2ba42-4189-42eb-9f6c-772198296906

@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsbp.WdsBpGetOptionBuffer
 title: WdsBpGetOptionBuffer function (wdsbp.h)
-description: Copies information into a buffer that should be added to your DHCP packet options.
+description: Copies information into a buffer that should be added to your DHCP packet options.helpviewer_keywords: ["WdsBpGetOptionBuffer","WdsBpGetOptionBuffer function [Windows Deployment Services]","wds.wdsbpgetoptionbuffer","wdsbp/WdsBpGetOptionBuffer"]
 old-location: wds\wdsbpgetoptionbuffer.htm
 tech.root: wds
 ms.assetid: 2bd4105d-0066-4c6b-a1c0-fe9b633a6ad6

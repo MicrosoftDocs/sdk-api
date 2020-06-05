@@ -2,6 +2,7 @@
 UID: NS:virtdisk._GET_VIRTUAL_DISK_INFO
 title: GET_VIRTUAL_DISK_INFO (virtdisk.h)
 description: Contains virtual hard disk (VHD) information.
+helpviewer_keywords: ["*PGET_VIRTUAL_DISK_INFO","GET_VIRTUAL_DISK_INFO","GET_VIRTUAL_DISK_INFO structure [VHD]","PGET_VIRTUAL_DISK_INFO","PGET_VIRTUAL_DISK_INFO structure pointer [VHD]","_GET_VIRTUAL_DISK_INFO","vdssys/GET_VIRTUAL_DISK_INFO","vdssys/PGET_VIRTUAL_DISK_INFO","vhd.get_virtual_disk_info","virtdisk/GET_VIRTUAL_DISK_INFO","virtdisk/PGET_VIRTUAL_DISK_INFO"]
 old-location: vhd\get_virtual_disk_info.htm
 tech.root: VStor
 ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b
@@ -61,7 +62,7 @@ Contains virtual hard disk (VHD) information.
 ### -field Version
 
 A value of the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
+      <a href="/windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
       that specifies the version of the 
       <b>GET_VIRTUAL_DISK_INFO</b> structure being passed to 
       or from the virtual disk functions. This determines what parts of this structure will be used.
@@ -135,7 +136,7 @@ Internal time stamp of the parent disk backing store. Set the <b>Version</b> mem
 ### -field VirtualStorageType
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure containing 
+<a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure containing 
        information about the type of virtual disk. Set the <b>Version</b> member to 
        <b>GET_VIRTUAL_DISK_INFO_VIRTUAL_STORAGE_TYPE</b>.
 
@@ -290,11 +291,11 @@ The change tracking identifier for the change that identifies the state of the v
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a>
+<a href="/windows/win32/api/virtdisk/ne-virtdisk-get_virtual_disk_info_version">GET_VIRTUAL_DISK_INFO_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskinformation">GetVirtualDiskInformation</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskinformation">GetVirtualDiskInformation</a>
 
 
 

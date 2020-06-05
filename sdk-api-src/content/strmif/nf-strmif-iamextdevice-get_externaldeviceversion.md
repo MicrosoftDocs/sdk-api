@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_ExternalDeviceVersion
 title: IAMExtDevice::get_ExternalDeviceVersion (strmif.h)
-description: The get_ExternalDeviceVersion retrieves the version number of the external device's operating software.
+description: The get_ExternalDeviceVersion retrieves the version number of the external device's operating software.helpviewer_keywords: ["IAMExtDevice interface [DirectShow]","get_ExternalDeviceVersion method","IAMExtDevice.get_ExternalDeviceVersion","IAMExtDevice::get_ExternalDeviceVersion","IAMExtDeviceget_ExternalDeviceVersion","dshow.iamextdevice_get_externaldeviceversion","get_ExternalDeviceVersion","get_ExternalDeviceVersion method [DirectShow]","get_ExternalDeviceVersion method [DirectShow]","IAMExtDevice interface","strmif/IAMExtDevice::get_ExternalDeviceVersion"]
 old-location: dshow\iamextdevice_get_externaldeviceversion.htm
 tech.root: DirectShow
 ms.assetid: 66a98ad3-850a-4b41-a169-f971fde83266

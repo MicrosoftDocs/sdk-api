@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_PB_ARRAY
 title: DHCP_CLIENT_INFO_PB_ARRAY (dhcpsapi.h)
-description: The DHCP_CLIENT_INFO_PB_ARRAY structure defines an array of DHCPv4 client information elements.
+description: The DHCP_CLIENT_INFO_PB_ARRAY structure defines an array of DHCPv4 client information elements.helpviewer_keywords: ["*LPDHCP_CLIENT_INFO_PB_ARRAY","DHCP_CLIENT_INFO_PB_ARRAY","DHCP_CLIENT_INFO_PB_ARRAY structure [DHCP]","LPDHCP_CLIENT_INFO_PB_ARRAY","LPDHCP_CLIENT_INFO_PB_ARRAY structure pointer [DHCP]","dhcp.dhcp_client_info_pb_array","dhcpsapi/DHCP_CLIENT_INFO_PB_ARRAY","dhcpsapi/LPDHCP_CLIENT_INFO_PB_ARRAY"]
 old-location: dhcp\dhcp_client_info_pb_array.htm
 tech.root: DHCP
 ms.assetid: a5106bba-0b84-4a89-b586-e4d115bf4cfe

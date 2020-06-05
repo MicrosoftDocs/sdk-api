@@ -1,7 +1,7 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 title: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS (clusapi.h)
-description: Contains a bitmask of the driver letters that are available on a node. It is used as the return value of the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS control code.
+description: Contains a bitmask of the driver letters that are available on a node. It is used as the return value of the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS control code.helpviewer_keywords: ["*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS","CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS","CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure [Failover Cluster]","PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS","PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure pointer [Failover Cluster]","clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS","clusapi/PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS","mscs.clus_storage_get_available_driveletters"]
 old-location: mscs\clus_storage_get_available_driveletters.htm
 tech.root: MsCS
 ms.assetid: 37a843db-bb11-46e5-9b1c-da8403f73aa6

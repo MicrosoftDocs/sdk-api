@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsecure.IWMGetSecureChannel.GetPeerSecureChannelInterface
 title: IWMGetSecureChannel::GetPeerSecureChannelInterface (wmsecure.h)
-description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.
+description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.helpviewer_keywords: ["GetPeerSecureChannelInterface","GetPeerSecureChannelInterface method [windows Media Format]","GetPeerSecureChannelInterface method [windows Media Format]","IWMGetSecureChannel interface","IWMGetSecureChannel interface [windows Media Format]","GetPeerSecureChannelInterface method","IWMGetSecureChannel.GetPeerSecureChannelInterface","IWMGetSecureChannel::GetPeerSecureChannelInterface","wmformat.iwmgetsecurechannel_getpeersecurechannelinterface","wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface"]
 old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm
 tech.root: wmformat
 ms.assetid: bda30638-10b5-4288-b885-b63485606a7f

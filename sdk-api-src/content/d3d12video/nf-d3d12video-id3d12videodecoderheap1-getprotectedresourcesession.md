@@ -1,6 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecoderHeap1.GetProtectedResourceSession
 title: ID3D12VideoDecoderHeap1::GetProtectedResourceSession
+description: Gets the ID3D12ProtectedResourceSession that was passed into ID3D12VideoDevice2::CreateVideoDecoderHeap1 when the ID3D12VideoDecoderHeap1 was created.
+tech.root: mf
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoDecoderHeap1::GetProtectedResourceSession
 f1_keywords:
@@ -39,13 +41,22 @@ api_name:
 
 ## -description
 
+Gets the [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) that was passed into [ID3D12VideoDevice2::CreateVideoDecoderHeap1](nf-d3d12video-id3d12videodevice2-createvideodecoderheap1.md) when the [ID3D12VideoDecoderHeap1](nn-d3d12video-id3d12videodecoderheap1.md) was created.
+
+
 ## -parameters
 
 ### -param riid
 
+The globally unique identifier (GUID) for the **ID3D12ProtectedResourceSession** interface.
+
 ### -param ppProtectedSession
 
+Receives a void pointer representing the **ID3D12ProtectedResourceSession** interface.
+
 ## -returns
+
+This method returns HRESULT.
 
 ## -remarks
 

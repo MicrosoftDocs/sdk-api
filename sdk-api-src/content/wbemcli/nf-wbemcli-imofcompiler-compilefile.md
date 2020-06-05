@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IMofCompiler.CompileFile
 title: IMofCompiler::CompileFile (wbemcli.h)
 description: The IMofCompiler::CompileFile method compiles a MOF file (including binary MOFs) and stores the information in the WMI repository.
+helpviewer_keywords: ["CompileFile","CompileFile method [Windows Management Instrumentation]","CompileFile method [Windows Management Instrumentation]","IMofCompiler interface","IMofCompiler interface [Windows Management Instrumentation]","CompileFile method","IMofCompiler.CompileFile","IMofCompiler::CompileFile","WBEM_FLAG_AUTORECOVER","WBEM_FLAG_CHECK_ONLY","WBEM_FLAG_CONSOLE_PRINT","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_DONT_ADD_TO_LIST","WBEM_FLAG_UPDATE_FORCE_MODE","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_UPDATE_SAFE_MODE","_hmm_imofcompiler_compilefile","wbemcli/IMofCompiler::CompileFile","wmi.imofcompiler_compilefile"]
 old-location: wmi\imofcompiler_compilefile.htm
 tech.root: WmiSdk
 ms.assetid: caf13a5c-2aca-4acb-8210-909737bf1022
@@ -189,7 +190,7 @@ Allow only new instances.
 
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
@@ -225,11 +226,11 @@ If the <i>User</i> parameter is in the form of &lt;<i>domain\user</i>&gt;, the <
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 

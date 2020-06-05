@@ -1,7 +1,7 @@
 ---
 UID: NS:windows.media.streaming.TransportInformation
 title: TransportInformation (windows.media.streaming.h)
-description: Contains the current values of media playback transport-related information obtained from the DMR.
+description: Contains the current values of media playback transport-related information obtained from the DMR.helpviewer_keywords: ["TransportInformation","TransportInformation structure [Media Streaming API]","mediastreaming.transportinformation","windows/TransportInformation"]
 old-location: mediastreaming\transportinformation.htm
 tech.root: mediastreaming
 ms.assetid: c91f84f2-e19b-4bfa-862d-fc5e1dc756d4

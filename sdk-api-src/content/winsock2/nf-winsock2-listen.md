@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.listen
 title: listen function (winsock2.h)
-description: The listen function places a socket in a state in which it is listening for an incoming connection.
+description: The listen function places a socket in a state in which it is listening for an incoming connection.helpviewer_keywords: ["_win32_listen_2","listen","listen function [Winsock]","winsock.listen_2","winsock2/listen"]
 old-location: winsock\listen_2.htm
 tech.root: WinSock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00

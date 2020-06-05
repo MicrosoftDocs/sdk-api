@@ -1,7 +1,7 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_QUERY_INFO
 title: SOCKET_SECURITY_QUERY_INFO (mstcpip.h)
-description: Contains security information returned by the WSAQuerySocketSecurity function.
+description: Contains security information returned by the WSAQuerySocketSecurity function.helpviewer_keywords: ["SOCKET_INFO_CONNECTION_ENCRYPTED","SOCKET_INFO_CONNECTION_SECURED","SOCKET_SECURITY_QUERY_INFO","SOCKET_SECURITY_QUERY_INFO structure [Winsock]","mstcpip/SOCKET_SECURITY_QUERY_INFO","winsock.socket_security_query_info"]
 old-location: winsock\socket_security_query_info.htm
 tech.root: WinSock
 ms.assetid: 90439ff6-e6a8-4124-b280-a65b9ca12787

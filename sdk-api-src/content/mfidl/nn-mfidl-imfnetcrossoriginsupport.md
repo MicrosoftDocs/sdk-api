@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFNetCrossOriginSupport
 title: IMFNetCrossOriginSupport (mfidl.h)
-description: Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.
+description: Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.helpviewer_keywords: ["IMFNetCrossOriginSupport","IMFNetCrossOriginSupport interface [Media Foundation]","IMFNetCrossOriginSupport interface [Media Foundation]","described","mf.imfnetcrossoriginsupport","mfidl/IMFNetCrossOriginSupport"]
 old-location: mf\imfnetcrossoriginsupport.htm
 tech.root: medfound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF

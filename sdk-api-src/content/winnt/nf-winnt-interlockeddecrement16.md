@@ -1,7 +1,7 @@
 ---
 UID: NF:winnt.InterlockedDecrement16
 title: InterlockedDecrement16 function (winnt.h)
-description: Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
+description: Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.helpviewer_keywords: ["InterlockedDecrement16","InterlockedDecrement16 function","base.interlockeddecrement16","winnt/InterlockedDecrement16"]
 old-location: base\interlockeddecrement16.htm
 tech.root: Sync
 ms.assetid: 64fbfe37-fce5-4d96-aecb-3850d1edd34e

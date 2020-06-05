@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Clone
 title: IEnumWIA_DEV_INFO::Clone (wia_xp.h)
-description: The IEnumWIA_DEV_INFO::Clone method creates an additional instance of the IEnumWIA_DEV_INFO interface and sends back a pointer to it.
+description: The IEnumWIA_DEV_INFO::Clone method creates an additional instance of the IEnumWIA_DEV_INFO interface and sends back a pointer to it.helpviewer_keywords: ["Clone","Clone method [WIA]","Clone method [WIA]","IEnumWIA_DEV_INFO interface","IEnumWIA_DEV_INFO interface [WIA]","Clone method","IEnumWIA_DEV_INFO.Clone","IEnumWIA_DEV_INFO::Clone","_wia_IEnumWIA_DEV_INFO_Clone","wia._wia_IEnumWIA_DEV_INFO_Clone","wia_xp/IEnumWIA_DEV_INFO::Clone"]
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Clone.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_info\clone.htm

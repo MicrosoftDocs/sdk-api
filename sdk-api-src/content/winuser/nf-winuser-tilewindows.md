@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.TileWindows
 title: TileWindows function (winuser.h)
-description: Tiles the specified child windows of the specified parent window.
+description: Tiles the specified child windows of the specified parent window.helpviewer_keywords: ["MDITILE_HORIZONTAL","MDITILE_VERTICAL","TileWindows","TileWindows function [Windows and Messages]","_win32_TileWindows","_win32_tilewindows_cpp","winmsg.tilewindows","winui._win32_tilewindows","winuser/TileWindows"]
 old-location: winmsg\tilewindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\tilewindows.htm

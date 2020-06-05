@@ -1,7 +1,7 @@
 ---
 UID: NN:audioengineendpoint.IHardwareAudioEngineBase
 title: IHardwareAudioEngineBase (audioengineendpoint.h)
-description: The IHardwareAudioEngineBase interface is implemented by audio endpoints for the audio stack to use to configure and retrieve information about the hardware audio engine.
+description: The IHardwareAudioEngineBase interface is implemented by audio endpoints for the audio stack to use to configure and retrieve information about the hardware audio engine.helpviewer_keywords: ["IHardwareAudioEngineBase","IHardwareAudioEngineBase interface [Core Audio]","IHardwareAudioEngineBase interface [Core Audio]","described","audioengineendpoint/IHardwareAudioEngineBase","coreaudio.ihardwareaudioenginebase"]
 old-location: coreaudio\ihardwareaudioenginebase.htm
 tech.root: CoreAudio
 ms.assetid: 6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24

@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_UsernamePasswordCreds
 title: MI_UsernamePasswordCreds (mi.h)
-description: A username/password combination used for subscription operations.
+description: A username/password combination used for subscription operations.helpviewer_keywords: ["MI_UsernamePasswordCreds","MI_UsernamePasswordCreds structure [Windows Management Infrastructure (MI)]","mi/MI_UsernamePasswordCreds","wmi._mi_usernamepasswordcreds","wmi_v2.mi_usernamepasswordcreds"]
 old-location: wmi_v2\mi_usernamepasswordcreds.htm
 tech.root: wmi_v2
 ms.assetid: 1cbbe6b0-d6db-4ca4-9529-701ec4993cb1

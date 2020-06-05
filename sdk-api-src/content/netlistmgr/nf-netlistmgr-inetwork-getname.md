@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetwork.GetName
 title: INetwork::GetName (netlistmgr.h)
-description: The GetName method returns the name of a network.
+description: The GetName method returns the name of a network.helpviewer_keywords: ["GetName","GetName method [Network Awareness]","GetName method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetName method","INetwork.GetName","INetwork::GetName","netlistmgr/INetwork::GetName","nla.inetwork_getname"]
 old-location: nla\inetwork_getname.htm
 tech.root: nla
 ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9

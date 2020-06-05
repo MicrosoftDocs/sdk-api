@@ -2,6 +2,7 @@
 UID: NS:fwpstypes.FWPS_ACTION0_
 title: FWPS_ACTION0 (fwpstypes.h)
 description: The FWPS_ACTION0 structure specifies the run-time action that the filter engine takes if all of the filter's filtering conditions are true.Note  FWPS_ACTION0 is a specific version of FWPS_ACTION.
+helpviewer_keywords: ["FWPS_ACTION0","FWPS_ACTION0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_ACTION0","netvista.fwps_action0","wfp_ref_3_struct_3_fwps_A-E_2621dcb1-3b0a-4e5a-8869-4d8b9f635f99.xml"]
 old-location: netvista\fwps_action0.htm
 tech.root: NetVista
 ms.assetid: 1b192efc-e685-48bf-bf61-1419ce03a77a
@@ -165,7 +166,7 @@ The run-time identifier for the callout that the filter engine calls if all of t
 
 
 An FWPS_ACTION0 structure is contained within an 
-    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a> structure.
+    [FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0) structure.
 
 
 
@@ -175,7 +176,7 @@ An FWPS_ACTION0 structure is contained within an
 
 
 
-[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)a>
+[FWPS_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0)
 
 
 

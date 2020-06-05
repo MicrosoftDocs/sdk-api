@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptions
 title: IUIAutomationElement7::FindAllWithOptions (uiautomationclient.h)
-description: Find all matching elements in the specified order.
+description: Find all matching elements in the specified order.helpviewer_keywords: ["FindAllWithOptions","FindAllWithOptions method [Windows Accessibility]","FindAllWithOptions method [Windows Accessibility]","IUIAutomationElement7 interface","IUIAutomationElement7 interface [Windows Accessibility]","FindAllWithOptions method","IUIAutomationElement7.FindAllWithOptions","IUIAutomationElement7::FindAllWithOptions","uiautomationclient/IUIAutomationElement7::FindAllWithOptions","winauto.uiauto_IUIAutomationElement7_FindAllWithOptions","winauto.uiauto_iuiautomationelement_findallwithoptions"]
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptions.htm
 tech.root: WinAuto
 ms.assetid: 1B157EBE-5576-41E8-9B4C-752EFA7832E5

@@ -1,7 +1,7 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_PropertyW
 title: CM_Set_Class_PropertyW function (cfgmgr32.h)
-description: The CM_Set_Class_Property function sets a class property for a device setup class or a device interface class.
+description: The CM_Set_Class_Property function sets a class property for a device setup class or a device interface class.helpviewer_keywords: ["CM_Set_Class_Property","CM_Set_Class_Property function [Device and Driver Installation]","CM_Set_Class_PropertyW","cfgmgr32/CM_Set_Class_Property","cfgmgr32/CM_Set_Class_PropertyW","devinst.cm_set_class_property"]
 old-location: devinst\cm_set_class_property.htm
 tech.root: devinst
 ms.assetid: BC026F97-4F4B-472F-83C0-FB5114AE1B7A

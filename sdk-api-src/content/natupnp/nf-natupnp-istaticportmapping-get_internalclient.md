@@ -1,7 +1,7 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_InternalClient
 title: IStaticPortMapping::get_InternalClient (natupnp.h)
-description: The get_InternalClient method retrieves the name of the internal client for this port mapping.
+description: The get_InternalClient method retrieves the name of the internal client for this port mapping.helpviewer_keywords: ["IStaticPortMapping interface [ICS/ICF]","get_InternalClient method","IStaticPortMapping.get_InternalClient","IStaticPortMapping::get_InternalClient","_ics_istaticportmapping_get_internalclient","get_InternalClient","get_InternalClient method [ICS/ICF]","get_InternalClient method [ICS/ICF]","IStaticPortMapping interface","ics.istaticportmapping_get_internalclient","natupnp/IStaticPortMapping::get_InternalClient"]
 old-location: ics\istaticportmapping_get_internalclient.htm
 tech.root: ics
 ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb

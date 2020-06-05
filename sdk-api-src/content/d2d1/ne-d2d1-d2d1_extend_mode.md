@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_EXTEND_MODE
 title: D2D1_EXTEND_MODE (d2d1.h)
-description: Specifies how a brush paints areas outside of its normal content area.
+description: Specifies how a brush paints areas outside of its normal content area.helpviewer_keywords: ["D2D1_EXTEND_MODE","D2D1_EXTEND_MODE enumeration [Direct2D]","D2D1_EXTEND_MODE_CLAMP","D2D1_EXTEND_MODE_MIRROR","D2D1_EXTEND_MODE_WRAP","d2d1/D2D1_EXTEND_MODE","d2d1/D2D1_EXTEND_MODE_CLAMP","d2d1/D2D1_EXTEND_MODE_MIRROR","d2d1/D2D1_EXTEND_MODE_WRAP","direct2d.D2D1_EXTEND_MODE"]
 old-location: direct2d\D2D1_EXTEND_MODE.htm
 tech.root: Direct2D
 ms.assetid: 6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4
@@ -81,7 +81,7 @@ Repeat the brush's content.
 
 
 
-For an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>, the brush's content is the brush's bitmap. For an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>, the brush's content area is the gradient axis. For an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>, the brush's content is the area within the gradient ellipse.  
+For an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>, the brush's content is the brush's bitmap. For an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>, the brush's content area is the gradient axis. For an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>, the brush's content is the area within the gradient ellipse.  
 
 
 
@@ -91,15 +91,15 @@ For an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodex">ID2D1BitmapBrush::SetExtendModeX</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodex">ID2D1BitmapBrush::SetExtendModeX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">ID2D1BitmapBrush::SetExtendModeY</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">ID2D1BitmapBrush::SetExtendModeY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetCredentialsEx
 title: MprAdminInterfaceGetCredentialsEx function (mprapi.h)
-description: Use the MprAdminInterfaceGetCredentialsEx function to retrieve extended credentials information for the specified interface. Use this function to retrieve credentials information used for Extensible Authentication Protocols (EAPs).
+description: Use the MprAdminInterfaceGetCredentialsEx function to retrieve extended credentials information for the specified interface. Use this function to retrieve credentials information used for Extensible Authentication Protocols (EAPs).helpviewer_keywords: ["MprAdminInterfaceGetCredentialsEx","MprAdminInterfaceGetCredentialsEx function [RAS]","_mpr_mpradmininterfacegetcredentialsex","mprapi/MprAdminInterfaceGetCredentialsEx","rras.mpradmininterfacegetcredentialsex"]
 old-location: rras\mpradmininterfacegetcredentialsex.htm
 tech.root: RRAS
 ms.assetid: 0ef9f437-a15b-4f6c-ac76-4c31a23e8792

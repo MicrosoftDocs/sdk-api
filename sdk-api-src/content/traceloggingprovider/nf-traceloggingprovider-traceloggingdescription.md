@@ -1,7 +1,7 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingDescription
 title: TraceLoggingDescription macro (traceloggingprovider.h)
-description: Wrapper macro for setting a description for an event.
+description: Wrapper macro for setting a description for an event.helpviewer_keywords: ["TraceLoggingDescription","TraceLoggingDescription macro","tracelogging.traceloggingdescription","traceloggingprovider/TraceLoggingDescription"]
 old-location: tracelogging\traceloggingdescription.htm
 tech.root: tracelogging
 ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7

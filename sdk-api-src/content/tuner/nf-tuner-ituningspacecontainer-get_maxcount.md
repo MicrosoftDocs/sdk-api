@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_MaxCount
 title: ITuningSpaceContainer::get_MaxCount (tuner.h)
-description: The get_MaxCount method retrieves the maximum number of tuning spaces allowed on the system.
+description: The get_MaxCount method retrieves the maximum number of tuning spaces allowed on the system.helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","get_MaxCount method","ITuningSpaceContainer.get_MaxCount","ITuningSpaceContainer::get_MaxCount","ITuningSpaceContainerget_MaxCount","get_MaxCount","get_MaxCount method [Microsoft TV Technologies]","get_MaxCount method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_get_maxcount","tuner/ITuningSpaceContainer::get_MaxCount"]
 old-location: mstv\ituningspacecontainer_get_maxcount.htm
 tech.root: mstv
 ms.assetid: 72692bc6-a210-4e60-9c04-14a7ea531cb4

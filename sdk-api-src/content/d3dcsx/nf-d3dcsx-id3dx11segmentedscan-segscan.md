@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcsx.ID3DX11SegmentedScan.SegScan
 title: ID3DX11SegmentedScan::SegScan (d3dcsx.h)
-description: Performs a segmented scan of a sequence.
+description: Performs a segmented scan of a sequence.helpviewer_keywords: ["2c2b420b-cc9a-9f73-245d-047f419f53b4","ID3DX11SegmentedScan interface [Direct3D 11]","SegScan method","ID3DX11SegmentedScan.SegScan","ID3DX11SegmentedScan::SegScan","SegScan","SegScan method [Direct3D 11]","SegScan method [Direct3D 11]","ID3DX11SegmentedScan interface","d3dcsx/ID3DX11SegmentedScan::SegScan","direct3d11.id3dx11segmentedscan_segscan"]
 old-location: direct3d11\id3dx11segmentedscan_segscan.htm
 tech.root: direct3d11
 ms.assetid: 096e1cc1-0bab-4e23-8c4c-47a2a0ff49fb

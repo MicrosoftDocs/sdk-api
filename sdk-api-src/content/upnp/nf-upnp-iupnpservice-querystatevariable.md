@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPService.QueryStateVariable
 title: IUPnPService::QueryStateVariable (upnp.h)
-description: The QueryStateVariable method returns the value of the specified service's state variable.
+description: The QueryStateVariable method returns the value of the specified service's state variable.helpviewer_keywords: ["IUPnPService interface [UPnP APIs]","QueryStateVariable method","IUPnPService.QueryStateVariable","IUPnPService::QueryStateVariable","QueryStateVariable","QueryStateVariable method [UPnP APIs]","QueryStateVariable method [UPnP APIs]","IUPnPService interface","_upnp_iupnpservice_querystatevariable","upnp.iupnpservice_querystatevariable","upnp/IUPnPService::QueryStateVariable"]
 old-location: upnp\iupnpservice_querystatevariable.htm
 tech.root: upnp
 ms.assetid: d92785a2-e04c-4968-b515-019205180915

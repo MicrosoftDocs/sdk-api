@@ -1,7 +1,7 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
 title: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC (wincrypt.h)
-description: Called to decrypt an encoded signature and compare it to a computed hash.
+description: Called to decrypt an encoded signature and compare it to a computed hash.helpviewer_keywords: ["PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC","PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC callback","PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC callback function [Security]","security.pfn_crypt_verify_encoded_signature_func","wincrypt/PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC"]
 old-location: security\pfn_crypt_verify_encoded_signature_func.htm
 tech.root: SecCrypto
 ms.assetid: 0093ce11-8b72-403d-a3fd-3eaf2dc29d71

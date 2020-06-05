@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.FormatApplicationUserModelId
 title: FormatApplicationUserModelId function (appmodel.h)
-description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).
+description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).helpviewer_keywords: ["FormatApplicationUserModelId","FormatApplicationUserModelId function [App packaging and management]","appmodel/FormatApplicationUserModelId","appxpkg.formatapplicationusermodelid"]
 old-location: appxpkg\formatapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C

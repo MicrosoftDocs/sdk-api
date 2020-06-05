@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_StopTime
 title: IMSVidStreamBufferRecordingControl::get_StopTime (segment.h)
-description: The get_StopTime method retrieves the stop time of the recording.
+description: The get_StopTime method retrieves the stop time of the recording.helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","get_StopTime method","IMSVidStreamBufferRecordingControl.get_StopTime","IMSVidStreamBufferRecordingControl::get_StopTime","IMSVidStreamBufferRecordingControlget_StopTime","get_StopTime","get_StopTime method [Microsoft TV Technologies]","get_StopTime method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","mstv.imsvidstreambufferrecordingcontrol_get_stoptime","segment/IMSVidStreamBufferRecordingControl::get_StopTime"]
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_stoptime.htm
 tech.root: mstv
 ms.assetid: 17abe9d3-1a84-4dcf-bc61-d9eafe7418f7

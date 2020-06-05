@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Initialize
 title: INetDiagHelper::Initialize (ndhelper.h)
-description: The Initialize method passes in attributes to the Helper Class Extension from the hypothesis. The helper class should store these parameters for use in the main diagnostics functions. This method must be called before any diagnostics function.
+description: The Initialize method passes in attributes to the Helper Class Extension from the hypothesis. The helper class should store these parameters for use in the main diagnostics functions. This method must be called before any diagnostics function.helpviewer_keywords: ["INetDiagHelper interface [NDF]","Initialize method","INetDiagHelper.Initialize","INetDiagHelper::Initialize","Initialize","Initialize method [NDF]","Initialize method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_initialize","ndhelper/INetDiagHelper::Initialize"]
 old-location: ndf\inetdiaghelpe_initialize.htm
 tech.root: NDF
 ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8

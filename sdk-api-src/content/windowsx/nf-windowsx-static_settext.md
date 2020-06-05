@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.Static_SetText
 title: Static_SetText macro (windowsx.h)
-description: Sets the text of a static control.
+description: Sets the text of a static control.helpviewer_keywords: ["Static_SetText","Static_SetText macro [Windows Controls]","_win32_Static_SetText","_win32_Static_SetText_cpp","controls.Static_SetText","controls._win32_Static_SetText","windowsx/Static_SetText"]
 old-location: controls\Static_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_settext.htm

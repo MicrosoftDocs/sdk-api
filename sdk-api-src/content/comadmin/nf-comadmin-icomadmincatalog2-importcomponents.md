@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportComponents
 title: ICOMAdminCatalog2::ImportComponents (comadmin.h)
-description: Imports the specified components that are already registered into an application.
+description: Imports the specified components that are already registered into an application.helpviewer_keywords: ["COMAdmin32BitComponent","COMAdmin64BitComponent","ICOMAdminCatalog2 interface [COM+]","ImportComponents method","ICOMAdminCatalog2.ImportComponents","ICOMAdminCatalog2::ImportComponents","ImportComponents","ImportComponents method [COM+]","ImportComponents method [COM+]","ICOMAdminCatalog2 interface","_cos_icomadmincatalog2_ImportComponents","comadmin/ICOMAdminCatalog2::ImportComponents","cos.icomadmincatalog2_importcomponents"]
 old-location: cos\icomadmincatalog2_importcomponents.htm
 tech.root: cossdk
 ms.assetid: a7ae28f9-6be6-4774-974a-a5d7f3ebbc02

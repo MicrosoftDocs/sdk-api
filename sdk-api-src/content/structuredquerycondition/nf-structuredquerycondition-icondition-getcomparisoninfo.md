@@ -2,6 +2,7 @@
 UID: NF:structuredquerycondition.ICondition.GetComparisonInfo
 title: ICondition::GetComparisonInfo (structuredquerycondition.h)
 description: Retrieves the property name, operation, and value from a leaf search condition node.
+helpviewer_keywords: ["GetComparisonInfo","GetComparisonInfo method [search]","GetComparisonInfo method [search]","ICondition interface","ICondition interface [search]","GetComparisonInfo method","ICondition.GetComparisonInfo","ICondition::GetComparisonInfo","_search_ICondition_GetComparisonInfo","search._search_ICondition_GetComparisonInfo","structuredquerycondition/ICondition::GetComparisonInfo"]
 old-location: search\_search_ICondition_GetComparisonInfo.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getcomparisoninfo.htm
@@ -68,9 +69,9 @@ Receives the name of the property of the leaf condition as a Unicode string.
 
 ### -param pcop [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>*</b>
 
-Receives the operation of the leaf condition as a <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
+Receives the operation of the leaf condition as a <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a> enumeration.
                 
 
 
@@ -107,11 +108,11 @@ Any or all of the three parameters can be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

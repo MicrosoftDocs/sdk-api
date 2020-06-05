@@ -2,6 +2,7 @@
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot
 title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot (vsmgmt.h)
 description: Queries shadow copy storage areas in use by the original volume associated with the input shadow copy.
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt interface [VSS]","QueryDiffAreasForSnapshot method","IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot","IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot","QueryDiffAreasForSnapshot","QueryDiffAreasForSnapshot method [VSS]","QueryDiffAreasForSnapshot method [VSS]","IVssDifferentialSoftwareSnapshotMgmt interface","base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforsnapshot","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforsnapshot.htm
 tech.root: VSS
 ms.assetid: 1203d6de-b389-4349-a83c-5ee729add03c
@@ -66,7 +67,7 @@ The <b>VSS_ID</b> of a shadow copy.
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> interface 
+The address of an <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> interface 
       pointer, which is initialized on return. Callers must release the interface.
 
 
@@ -133,7 +134,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Provider error - the provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -145,7 +146,7 @@ Provider error - the provider logged the error in the event log. For more inform
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -161,10 +162,10 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
-    will contain <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> union inside the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
+The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
+    will contain <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
+    <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union inside the 
+    <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 
 
@@ -174,11 +175,11 @@ The returned <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
  
 
  

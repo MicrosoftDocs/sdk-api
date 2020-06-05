@@ -1,7 +1,7 @@
 ---
 UID: NN:vdshwprv.IVdsProviderPrivate
 title: IVdsProviderPrivate (vdshwprv.h)
-description: Provides methods to enable VDS to perform miscellaneous operations on provider objects.
+description: Provides methods to enable VDS to perform miscellaneous operations on provider objects.helpviewer_keywords: ["IVdsProviderPrivate","IVdsProviderPrivate interface [VDS]","IVdsProviderPrivate interface [VDS]","described","base.ivdsproviderprivate","vdshwprv/IVdsProviderPrivate"]
 old-location: base\ivdsproviderprivate.htm
 tech.root: VDS
 ms.assetid: 5f1c38bf-85a7-4123-becb-e8abf3052b41

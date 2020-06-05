@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.GetValue
 title: ICodecAPI::GetValue (strmif.h)
-description: The GetValue method gets the current value of a codec property.
+description: The GetValue method gets the current value of a codec property.helpviewer_keywords: ["GetValue","GetValue method [DirectShow]","GetValue method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetValue method","ICodecAPI.GetValue","ICodecAPI::GetValue","ICodecAPIGetValue","dshow.icodecapi_getvalue","strmif/ICodecAPI::GetValue"]
 old-location: dshow\icodecapi_getvalue.htm
 tech.root: DirectShow
 ms.assetid: 863ba518-c3c6-47d8-96d8-445a7e4d02aa

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetRenderingOrigin
 title: Graphics::SetRenderingOrigin (gdiplusgraphics.h)
-description: The Graphics::SetRenderingOrigin method sets the rendering origin of this Graphics object. The rendering origin is used to set the dither origin for 8-bits-per-pixel and 16-bits-per-pixel dithering and is also used to set the origin for hatch brushes.
+description: The Graphics::SetRenderingOrigin method sets the rendering origin of this Graphics object. The rendering origin is used to set the dither origin for 8-bits-per-pixel and 16-bits-per-pixel dithering and is also used to set the origin for hatch brushes.helpviewer_keywords: ["Graphics class [GDI+]","SetRenderingOrigin method","Graphics.SetRenderingOrigin","Graphics::SetRenderingOrigin","SetRenderingOrigin","SetRenderingOrigin method [GDI+]","SetRenderingOrigin method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetRenderingOrigin_x_y_","gdiplus._gdiplus_CLASS_Graphics_SetRenderingOrigin_x_y_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetRenderingOrigin_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setrenderingorigin.htm

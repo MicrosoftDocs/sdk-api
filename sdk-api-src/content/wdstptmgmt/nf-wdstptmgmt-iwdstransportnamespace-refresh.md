@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Refresh
 title: IWdsTransportNamespace::Refresh (wdstptmgmt.h)
-description: Resets the property values of the namespace with values from the server.
+description: Resets the property values of the namespace with values from the server.helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Refresh method","IWdsTransportNamespace.Refresh","IWdsTransportNamespace::Refresh","Refresh","Refresh method [Windows Deployment Services]","Refresh method [Windows Deployment Services]","IWdsTransportNamespace interface","wds.iwdstransportnamespace_refresh","wdstptmgmt/IWdsTransportNamespace::Refresh"]
 old-location: wds\iwdstransportnamespace_refresh.htm
 tech.root: wds
 ms.assetid: 9d5742e0-4197-4a15-82c6-5623940c0c7f

@@ -1,7 +1,7 @@
 ---
 UID: NN:fsrm.IFsrmActionReport
 title: IFsrmActionReport (fsrm.h)
-description: Used to generate a report in response to a quota or file screen event.
+description: Used to generate a report in response to a quota or file screen event.helpviewer_keywords: ["IFsrmActionReport","IFsrmActionReport interface [File Server Resource Manager]","IFsrmActionReport interface [File Server Resource Manager]","described","fs.ifsrmactionreport","fsrm.ifsrmactionreport","fsrm/IFsrmActionReport"]
 old-location: fsrm\ifsrmactionreport.htm
 tech.root: fsrm
 ms.assetid: efff4cec-6985-40aa-a74e-bb2afdeb2a0a

@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_MEASUREMENTS_ACTION
 title: D3D12_MEASUREMENTS_ACTION
-description: Defines constants that specify what should be done with the results of earlier workload instrumentation.
+description: Defines constants that specify what should be done with the results of earlier workload instrumentation.helpviewer_keywords: ["D3D12_MEASUREMENTS_ACTION","D3D12_MEASUREMENTS_ACTION enumeration","direct3d12.d3d12_measurements_action"]
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: D3D12_MEASUREMENTS_ACTION, D3D12_MEASUREMENTS_ACTION enumeration, direct3d12.d3d12_measurements_action

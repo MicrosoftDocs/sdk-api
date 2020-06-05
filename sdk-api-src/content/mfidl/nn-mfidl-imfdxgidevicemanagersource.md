@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFDXGIDeviceManagerSource
 title: IMFDXGIDeviceManagerSource (mfidl.h)
-description: Provides functionality for getting the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
+description: Provides functionality for getting the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.helpviewer_keywords: ["IMFDXGIDeviceManagerSource","IMFDXGIDeviceManagerSource interface [Media Foundation]","IMFDXGIDeviceManagerSource interface [Media Foundation]","described","mf.imfdxgidevicemanagersource","mfidl/IMFDXGIDeviceManagerSource"]
 old-location: mf\imfdxgidevicemanagersource.htm
 tech.root: medfound
 ms.assetid: 80078ed6-61cc-4fb9-8fd5-eda78cd5be30

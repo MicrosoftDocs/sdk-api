@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_COMPRESSION
 title: MBN_COMPRESSION (mbnapi.h)
-description: The MBN_COMPRESSION enumerated type specifies whether compression is to be used in the data link for header and data.
+description: The MBN_COMPRESSION enumerated type specifies whether compression is to be used in the data link for header and data.helpviewer_keywords: ["MBN_COMPRESSION","MBN_COMPRESSION enumeration [Microsoft Broadband Networks]","MBN_COMPRESSION_ENABLE","MBN_COMPRESSION_NONE","mbn.mbn_compression","mbnapi/MBN_COMPRESSION","mbnapi/MBN_COMPRESSION_ENABLE","mbnapi/MBN_COMPRESSION_NONE"]
 old-location: mbn\mbn_compression.htm
 tech.root: mbn
 ms.assetid: fd5cbfba-2eea-4d81-9733-33feb402fd8d

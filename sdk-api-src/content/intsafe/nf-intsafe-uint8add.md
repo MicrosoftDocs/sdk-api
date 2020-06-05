@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UInt8Add
 title: UInt8Add function (intsafe.h)
-description: Adds two values of type UINT8.
+description: Adds two values of type UINT8.helpviewer_keywords: ["UInt8Add","UInt8Add function [Windows Shell]","intsafe/UInt8Add","shell.UInt8Add"]
 old-location: shell\UInt8Add.htm
 tech.root: shell
 ms.assetid: 576be346-55bc-41a7-93d3-612b6ef8a267

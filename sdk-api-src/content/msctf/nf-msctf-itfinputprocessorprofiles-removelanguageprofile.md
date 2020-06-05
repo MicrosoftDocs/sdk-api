@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
 title: ITfInputProcessorProfiles::RemoveLanguageProfile (msctf.h)
-description: ITfInputProcessorProfiles::RemoveLanguageProfile method
+description: ITfInputProcessorProfiles::RemoveLanguageProfile methodhelpviewer_keywords: ["ITfInputProcessorProfiles interface [Text Services Framework]","RemoveLanguageProfile method","ITfInputProcessorProfiles.RemoveLanguageProfile","ITfInputProcessorProfiles::RemoveLanguageProfile","RemoveLanguageProfile","RemoveLanguageProfile method [Text Services Framework]","RemoveLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","_tsf_itfinputprocessorprofiles_removelanguageprofile_ref","msctf/ITfInputProcessorProfiles::RemoveLanguageProfile","tsf.itfinputprocessorprofiles_removelanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 16eff9bc-1789-4bf6-b1ba-b7e8414ce080

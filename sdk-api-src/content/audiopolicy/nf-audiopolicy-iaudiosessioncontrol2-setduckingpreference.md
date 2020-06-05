@@ -1,7 +1,7 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.SetDuckingPreference
 title: IAudioSessionControl2::SetDuckingPreference (audiopolicy.h)
-description: The SetDuckingPreference method enables or disables the default stream attenuation experience (auto-ducking) provided by the system.
+description: The SetDuckingPreference method enables or disables the default stream attenuation experience (auto-ducking) provided by the system.helpviewer_keywords: ["IAudioSessionControl2 interface [Core Audio]","SetDuckingPreference method","IAudioSessionControl2.SetDuckingPreference","IAudioSessionControl2::SetDuckingPreference","SetDuckingPreference","SetDuckingPreference method [Core Audio]","SetDuckingPreference method [Core Audio]","IAudioSessionControl2 interface","audiopolicy/IAudioSessionControl2::SetDuckingPreference","coreaudio.iaudiosessioncontrol2_setduckingpreference"]
 old-location: coreaudio\iaudiosessioncontrol2_setduckingpreference.htm
 tech.root: CoreAudio
 ms.assetid: 6689d7e4-9c45-483d-9f46-14d157726b02

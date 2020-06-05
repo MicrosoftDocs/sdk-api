@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtNextChannelPath
 title: EvtNextChannelPath function (winevt.h)
-description: Gets a channel name from the enumerator.
+description: Gets a channel name from the enumerator.helpviewer_keywords: ["EvtNextChannelPath","EvtNextChannelPath function [EventLog]","wes.evtnextchannelpath","winevt/EvtNextChannelPath"]
 old-location: wes\evtnextchannelpath.htm
 tech.root: wes
 ms.assetid: 51fd2449-8a89-4a18-99c3-b974c2c998ca

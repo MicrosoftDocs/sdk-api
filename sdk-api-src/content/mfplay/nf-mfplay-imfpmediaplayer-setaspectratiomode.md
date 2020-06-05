@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetAspectRatioMode
 title: IMFPMediaPlayer::SetAspectRatioMode (mfplay.h)
-description: Specifies whether the aspect ratio of the video is preserved during playback.
+description: Specifies whether the aspect ratio of the video is preserved during playback.helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetAspectRatioMode method","IMFPMediaPlayer.SetAspectRatioMode","IMFPMediaPlayer::SetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [Media Foundation]","SetAspectRatioMode method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setaspectratiomode","mfplay/IMFPMediaPlayer::SetAspectRatioMode"]
 old-location: mf\imfpmediaplayer_setaspectratiomode.htm
 tech.root: medfound
 ms.assetid: b100a422-548f-4c38-afeb-4d4c1d9a9140

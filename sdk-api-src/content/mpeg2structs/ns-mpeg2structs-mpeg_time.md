@@ -1,7 +1,7 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024
 title: MPEG_TIME (mpeg2structs.h)
-description: The MPEG_TIME structure represents a time of day, or a duration.
+description: The MPEG_TIME structure represents a time of day, or a duration.helpviewer_keywords: ["MPEG_DURATION","MPEG_TIME","MPEG_TIME structure [Microsoft TV Technologies]","mpeg2structs/MPEG_TIME","mstv.mpeg_time"]
 old-location: mstv\mpeg_time.htm
 tech.root: mstv
 ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetConnectionBandwidth
 title: IWMReaderNetworkConfig::GetConnectionBandwidth (wmsdkidl.h)
-description: The GetConnectionBandwidth method retrieves the connection bandwidth for the client.
+description: The GetConnectionBandwidth method retrieves the connection bandwidth for the client.helpviewer_keywords: ["GetConnectionBandwidth","GetConnectionBandwidth method [windows Media Format]","GetConnectionBandwidth method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetConnectionBandwidth method","IWMReaderNetworkConfig.GetConnectionBandwidth","IWMReaderNetworkConfig::GetConnectionBandwidth","IWMReaderNetworkConfigGetConnectionBandwidth","wmformat.iwmreadernetworkconfig_getconnectionbandwidth","wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth"]
 old-location: wmformat\iwmreadernetworkconfig_getconnectionbandwidth.htm
 tech.root: wmformat
 ms.assetid: cbbc945d-91ea-4d21-a1ac-2fcbcb081447

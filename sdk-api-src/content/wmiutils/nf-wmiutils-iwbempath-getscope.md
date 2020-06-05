@@ -1,7 +1,7 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScope
 title: IWbemPath::GetScope (wmiutils.h)
-description: Retrieves a scope based upon an index.
+description: Retrieves a scope based upon an index.helpviewer_keywords: ["GetScope","GetScope method [Windows Management Instrumentation]","GetScope method [Windows Management Instrumentation]","IWbemPath interface","IWbemPath interface [Windows Management Instrumentation]","GetScope method","IWbemPath.GetScope","IWbemPath::GetScope","_hmm_iwbempath_getscope","wmi.iwbempath_getscope","wmiutils/IWbemPath::GetScope"]
 old-location: wmi\iwbempath_getscope.htm
 tech.root: WmiSdk
 ms.assetid: 9601fb2b-583d-4481-8237-32db72432c63

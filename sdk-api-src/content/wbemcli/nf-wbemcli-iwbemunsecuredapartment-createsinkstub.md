@@ -2,6 +2,7 @@
 UID: NF:wbemcli.IWbemUnsecuredApartment.CreateSinkStub
 title: IWbemUnsecuredApartment::CreateSinkStub (wbemcli.h)
 description: The CreateSinkStub method is similar to the IUnsecuredApartment::CreateObjectStub and creates an object forwarder sink and performs access checks for receiving asynchronous calls from Windows Management.
+helpviewer_keywords: ["CreateSinkStub","CreateSinkStub method [Windows Management Instrumentation]","CreateSinkStub method [Windows Management Instrumentation]","IWbemUnsecuredApartment interface","IWbemUnsecuredApartment interface [Windows Management Instrumentation]","CreateSinkStub method","IWbemUnsecuredApartment.CreateSinkStub","IWbemUnsecuredApartment::CreateSinkStub","WBEM_FLAG_UNSECAPP_CHECK_ACCESS","WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS","WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS","wbemcli/IWbemUnsecuredApartment::CreateSinkStub","wmi.iwbemunsecuredapartment_createsinkstub"]
 old-location: wmi\iwbemunsecuredapartment_createsinkstub.htm
 tech.root: WmiSdk
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
@@ -89,7 +90,7 @@ Pointer to the client's in-process implementation of
 ### -param dwFlags [in]
 
 You can set one of the following values from 
-       <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_unsecapp_flag_type">WBEM_UNSECAPP_FLAG_TYPE</a> enumeration. This 
+       <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_unsecapp_flag_type">WBEM_UNSECAPP_FLAG_TYPE</a> enumeration. This 
        parameter determines how Unsecapp.exe uses the registry key checks this registry key:
 
 

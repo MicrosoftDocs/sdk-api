@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_MinFrequency
 title: IAnalogRadioTuningSpace::put_MinFrequency (tuner.h)
-description: The put_MinFrequency method sets the minimum frequency for this tuning space.
+description: The put_MinFrequency method sets the minimum frequency for this tuning space.helpviewer_keywords: ["IAnalogRadioTuningSpace interface [Microsoft TV Technologies]","put_MinFrequency method","IAnalogRadioTuningSpace.put_MinFrequency","IAnalogRadioTuningSpace::put_MinFrequency","IAnalogRadioTuningSpaceput_MinFrequency","mstv.ianalogradiotuningspace_put_minfrequency","put_MinFrequency","put_MinFrequency method [Microsoft TV Technologies]","put_MinFrequency method [Microsoft TV Technologies]","IAnalogRadioTuningSpace interface","tuner/IAnalogRadioTuningSpace::put_MinFrequency"]
 old-location: mstv\ianalogradiotuningspace_put_minfrequency.htm
 tech.root: mstv
 ms.assetid: 5a7bb5e8-ed21-4b3b-96eb-861aa77621ca

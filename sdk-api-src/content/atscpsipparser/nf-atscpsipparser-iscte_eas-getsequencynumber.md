@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetSequencyNumber
 title: ISCTE_EAS::GetSequencyNumber (atscpsipparser.h)
-description: The GetSequencyNumbermethod returns the sequence number.
+description: The GetSequencyNumbermethod returns the sequence number.helpviewer_keywords: ["GetSequencyNumber","GetSequencyNumber method [Microsoft TV Technologies]","GetSequencyNumber method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetSequencyNumber method","ISCTE_EAS.GetSequencyNumber","ISCTE_EAS::GetSequencyNumber","ISCTE_EASGetSequencyNumber","atscpsipparser/ISCTE_EAS::GetSequencyNumber","mstv.iscte_eas_getsequencynumber"]
 old-location: mstv\iscte_eas_getsequencynumber.htm
 tech.root: mstv
 ms.assetid: c7988bb1-0c89-4f6f-beda-cbfd04a9b128

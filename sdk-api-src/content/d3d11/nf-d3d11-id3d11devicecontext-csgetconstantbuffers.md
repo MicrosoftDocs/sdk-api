@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetConstantBuffers
 title: ID3D11DeviceContext::CSGetConstantBuffers (d3d11.h)
-description: Get the constant buffers used by the compute-shader stage.
+description: Get the constant buffers used by the compute-shader stage.helpviewer_keywords: ["CSGetConstantBuffers","CSGetConstantBuffers method [Direct3D 11]","CSGetConstantBuffers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSGetConstantBuffers method","ID3D11DeviceContext.CSGetConstantBuffers","ID3D11DeviceContext::CSGetConstantBuffers","b331ef2e-dd10-3f32-3cbb-15e00b11ef92","d3d11/ID3D11DeviceContext::CSGetConstantBuffers","direct3d11.id3d11devicecontext_csgetconstantbuffers"]
 old-location: direct3d11\id3d11devicecontext_csgetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 9ffd4fb5-9e7f-4a1b-b7ad-3c7384406385

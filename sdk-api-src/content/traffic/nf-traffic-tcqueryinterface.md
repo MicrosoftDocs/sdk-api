@@ -1,7 +1,7 @@
 ---
 UID: NF:traffic.TcQueryInterface
 title: TcQueryInterface function (traffic.h)
-description: The TcQueryInterface function queries traffic control for related per-interface parameters.
+description: The TcQueryInterface function queries traffic control for related per-interface parameters.helpviewer_keywords: ["TcQueryInterface","TcQueryInterface function [QOS]","_gqos_tcqueryinterface","qos.tcqueryinterface","traffic/TcQueryInterface"]
 old-location: qos\tcqueryinterface.htm
 tech.root: QOS
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d

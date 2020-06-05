@@ -1,7 +1,7 @@
 ---
 UID: NN:certcli.ICertConfig
 title: ICertConfig (certcli.h)
-description: The ICertConfig interface provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
+description: The ICertConfig interface provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.helpviewer_keywords: ["ICertConfig","ICertConfig interface [Security]","ICertConfig interface [Security]","described","_certsrv_icertconfig","certcli/ICertConfig","security.icertconfig"]
 old-location: security\icertconfig.htm
 tech.root: SecCrypto
 ms.assetid: 92bece6a-73f0-47cf-8142-77e986448824

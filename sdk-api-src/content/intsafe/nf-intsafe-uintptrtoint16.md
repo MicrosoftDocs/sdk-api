@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.UIntPtrToInt16
 title: UIntPtrToInt16 function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type INT16.
+description: Converts a value of type UINT_PTR to a value of type INT16.helpviewer_keywords: ["UIntPtrToInt16","UIntPtrToInt16 function [Windows Shell]","intsafe/UIntPtrToInt16","shell.UIntPtrToInt16"]
 old-location: shell\UIntPtrToInt16.htm
 tech.root: shell
 ms.assetid: cce027f0-34e9-4c13-89de-102c98ab7a14

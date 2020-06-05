@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzOperation.get_OperationID
 title: IAzOperation::get_OperationID (azroles.h)
-description: Sets or retrieves an application-specific value that uniquely identifies the operation within the application.
+description: Sets or retrieves an application-specific value that uniquely identifies the operation within the application.helpviewer_keywords: ["AzOperation object [Security]","OperationID property","IAzOperation interface [Security]","OperationID property","IAzOperation.OperationID","IAzOperation.get_OperationID","IAzOperation::OperationID","IAzOperation::get_OperationID","IAzOperation::put_OperationID","OperationID property [Security]","OperationID property [Security]","AzOperation object","OperationID property [Security]","IAzOperation interface","azroles/IAzOperation::OperationID","azroles/IAzOperation::get_OperationID","azroles/IAzOperation::put_OperationID","get_OperationID","security.iazoperation_operationid"]
 old-location: security\iazoperation_operationid.htm
 tech.root: SecAuthZ
 ms.assetid: 3466dea1-b005-40fc-87d1-29b5e033f6a0

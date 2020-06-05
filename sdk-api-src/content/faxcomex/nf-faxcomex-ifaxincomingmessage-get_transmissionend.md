@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_TransmissionEnd
 title: IFaxIncomingMessage::get_TransmissionEnd (faxcomex.h)
-description: The TransmissionEnd property indicates the time that the inbound fax message completed transmission.
+description: The TransmissionEnd property indicates the time that the inbound fax message completed transmission.helpviewer_keywords: ["IFaxIncomingMessage interface [Fax Service]","TransmissionEnd property","IFaxIncomingMessage.TransmissionEnd","IFaxIncomingMessage.get_TransmissionEnd","IFaxIncomingMessage::TransmissionEnd","IFaxIncomingMessage::get_TransmissionEnd","TransmissionEnd property [Fax Service]","TransmissionEnd property [Fax Service]","IFaxIncomingMessage interface","_mfax_faxincomingmessage.transmissionend","fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionend_cpp","fax._mfax_faxincomingmessage_transmissionend","faxcomex/IFaxIncomingMessage::TransmissionEnd","faxcomex/IFaxIncomingMessage::get_TransmissionEnd","get_TransmissionEnd"]
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionend_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0cbo.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetTag
 title: IDvbMultilingualServiceNameDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag identifying a Digital Video Broadcast (DVB) multilingual service name descriptor.
+description: Gets the tag identifying a Digital Video Broadcast (DVB) multilingual service name descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbMultilingualServiceNameDescriptor interface","IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbMultilingualServiceNameDescriptor.GetTag","IDvbMultilingualServiceNameDescriptor::GetTag","dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetTag","mstv.idvbmultilingualservicenamedescriptor_gettag"]
 old-location: mstv\idvbmultilingualservicenamedescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 428f3309-67aa-4a47-9585-0308bee47e16

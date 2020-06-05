@@ -2,6 +2,7 @@
 UID: NF:gdiplusinit.GdiplusStartup
 title: GdiplusStartup function (gdiplusinit.h)
 description: The GdiplusStartup function initializes Windows GDI+. Call GdiplusStartup before making any other GDI+ calls, and call GdiplusShutdown when you have finished using GDI+.
+helpviewer_keywords: ["GdiplusStartup","GdiplusStartup function [GDI+]","_gdiplus_FUNC_GdiplusStartup_token_input_output_","gdiplus._gdiplus_FUNC_GdiplusStartup_token_input_output_","gdiplusinit/GdiplusStartup"]
 old-location: gdiplus\_gdiplus_FUNC_GdiplusStartup_token_input_output_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusstartup.htm
@@ -44,69 +45,45 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# GdiplusStartup function
-
-
 ## -description
-
 
 The <b>GdiplusStartup</b> function initializes Windows GDI+. Call <b>GdiplusStartup</b> before making any other GDI+ calls, and call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> when you have finished using GDI+.
 
-
 ## -parameters
 
+### -param token
 
+Type: [out] <b>ULONG_PTR token*</b>
 
+Pointer to a <b>ULONG_PTR</b> that receives a token. Pass the token to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> when you have finished using GDI+.
 
-### -param token [out]
+### -param input
 
-Type: <b>ULONG_PTR token*</b>
+Type: [in] <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a>*</b>
 
-Pointer to a 
-					<b>ULONG_PTR</b> that receives a token. Pass the token to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> when you have finished using GDI+. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a> structure that contains the GDI+ version, a pointer to a debug callback function, a Boolean value that specifies whether to suppress the background thread, and a Boolean value that specifies whether to suppress external image codecs.
 
+### -param output
 
-### -param input [in]
+Type: [out] <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a>*</b>
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a>*</b>
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a> structure that contains the GDI+ version, a pointer to a debug callback function, a Boolean value that specifies whether to suppress the background thread, and a Boolean value that specifies whether to suppress external image codecs. 
-
-
-### -param output [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a>*</b>
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a> structure that receives a pointer to a notification hook function and a pointer to a notification unhook function. If the 
-					<b>SuppressBackgroundThread</b> data member of the 
-					<i>input</i> parameter is <b>FALSE</b>, then this parameter can be <b>NULL</b>. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a> structure that receives a pointer to a notification hook function and a pointer to a notification unhook function. If the <b>SuppressBackgroundThread</b> data member of the <i>input</i> parameter is <b>FALSE</b>, then this parameter can be <b>NULL</b>.
 
 ## -returns
 
-
-
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the function succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the function succeeds, it returns <b>Ok</b>, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the function fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+If the function fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
-
-
 
 You must call <b>GdiplusStartup</b> before you create any GDI+ objects, and you must delete all of your GDI+ objects (or have them go out of scope) before you call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a>.
 
 You can call <b>GdiplusStartup</b> on one thread and call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> on another thread as long as you delete all of your GDI+ objects (or have them go out of scope) before you call <b>GdiplusShutdown</b>.
 
-Do not call <b>GdiplusStartup</b> or <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> in 
-				<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> or in any function that is called by DllMain. If you want to create a DLL that uses GDI+, you should use one of the following techniques to initialize GDI+:
+Do not call <b>GdiplusStartup</b> or <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> in <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> or in any function that is called by DllMain. If you want to create a DLL that uses GDI+, you should use one of the following techniques to initialize GDI+:
 
 <ul>
 <li>Require your clients to call <b>GdiplusStartup</b> before they call the functions in your DLL and to call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> when they have finished using your DLL. </li>
@@ -116,9 +93,7 @@ Do not call <b>GdiplusStartup</b> or <a href="https://docs.microsoft.com/windows
 <div class="alert"><b>Warning</b>  For info about how to use dynamic data exchange (DDE) with GDI+, see <a href="https://msdn.microsoft.com/library/001tckck.aspx">Special CWinApp Services</a>.</div>
 <div> </div>
 
-#### Examples
-
-
+## Examples
 
 For an example of calling <b>GdiplusStartup</b> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a> in a Windows application, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>.
 
@@ -158,29 +133,12 @@ INT main()
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupinput">GdiplusStartupInput</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>
- 
-
- 
-

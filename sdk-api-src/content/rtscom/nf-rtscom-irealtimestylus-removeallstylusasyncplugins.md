@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveAllStylusAsyncPlugins
 title: IRealTimeStylus::RemoveAllStylusAsyncPlugins (rtscom.h)
-description: Removes all the plug-ins from the asynchronous plug-in collection.
+description: Removes all the plug-ins from the asynchronous plug-in collection.helpviewer_keywords: ["98b97156-f181-45f4-9cfb-13816f8042e6","IRealTimeStylus interface [Tablet PC]","RemoveAllStylusAsyncPlugins method","IRealTimeStylus.RemoveAllStylusAsyncPlugins","IRealTimeStylus::RemoveAllStylusAsyncPlugins","RemoveAllStylusAsyncPlugins","RemoveAllStylusAsyncPlugins method [Tablet PC]","RemoveAllStylusAsyncPlugins method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::RemoveAllStylusAsyncPlugins","tablet.irealtimestylus_removeallstylusasyncplugins"]
 old-location: tablet\irealtimestylus_removeallstylusasyncplugins.htm
 tech.root: tablet
 ms.assetid: 98b97156-f181-45f4-9cfb-13816f8042e6

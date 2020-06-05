@@ -1,7 +1,7 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetFormat
 title: IDirectDrawMediaStream::GetFormat (ddstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves the current media stream's format and, optionally, its desired format.
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the current media stream's format and, optionally, its desired format.helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","GetFormat method","IDirectDrawMediaStream.GetFormat","IDirectDrawMediaStream::GetFormat","IDirectDrawMediaStreamGetFormat","ddstream/IDirectDrawMediaStream::GetFormat","dshow.idirectdrawmediastream_getformat"]
 old-location: dshow\idirectdrawmediastream_getformat.htm
 tech.root: DirectShow
 ms.assetid: 3729bbe6-3504-46b3-9978-e66afc56344f

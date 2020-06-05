@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRImagePresenterConfig9.GetRenderingPrefs
 title: IVMRImagePresenterConfig9::GetRenderingPrefs (vmr9.h)
-description: The GetRenderingPrefs method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.
+description: The GetRenderingPrefs method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]","GetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig9 interface","IVMRImagePresenterConfig9 interface [DirectShow]","GetRenderingPrefs method","IVMRImagePresenterConfig9.GetRenderingPrefs","IVMRImagePresenterConfig9::GetRenderingPrefs","IVMRImagePresenterConfig9GetRenderingPrefs","dshow.ivmrimagepresenterconfig9_getrenderingprefs","vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs"]
 old-location: dshow\ivmrimagepresenterconfig9_getrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: dfa9c81d-cfc8-401b-b4d1-50f21b528135

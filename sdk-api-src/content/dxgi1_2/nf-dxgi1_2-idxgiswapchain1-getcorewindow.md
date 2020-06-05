@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetCoreWindow
 title: IDXGISwapChain1::GetCoreWindow (dxgi1_2.h)
-description: Retrieves the underlying CoreWindow object for this swap-chain object.
+description: Retrieves the underlying CoreWindow object for this swap-chain object.helpviewer_keywords: ["GetCoreWindow","GetCoreWindow method [DXGI]","GetCoreWindow method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetCoreWindow method","IDXGISwapChain1.GetCoreWindow","IDXGISwapChain1::GetCoreWindow","direct3ddxgi.idxgiswapchain1_getimmersivewindow","dxgi1_2/IDXGISwapChain1::GetCoreWindow"]
 old-location: direct3ddxgi\idxgiswapchain1_getimmersivewindow.htm
 tech.root: direct3ddxgi
 ms.assetid: ABD529CF-41D8-4F21-8F47-D0D053AF2322

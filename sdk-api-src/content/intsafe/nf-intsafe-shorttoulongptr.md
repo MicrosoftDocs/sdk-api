@@ -1,7 +1,7 @@
 ---
 UID: NF:intsafe.ShortToULongPtr
 title: ShortToULongPtr function (intsafe.h)
-description: Converts a value of type SHORT to a value of type ULONG_PTR.
+description: Converts a value of type SHORT to a value of type ULONG_PTR.helpviewer_keywords: ["ShortToULongPtr","ShortToULongPtr function [Windows Shell]","intsafe/ShortToULongPtr","shell.ShortToULongPtr"]
 old-location: shell\ShortToULongPtr.htm
 tech.root: shell
 ms.assetid: 92600b01-55da-4f71-bbfd-96df43c1b6a5

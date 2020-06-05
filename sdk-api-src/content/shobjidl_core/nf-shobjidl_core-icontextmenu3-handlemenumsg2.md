@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IContextMenu3.HandleMenuMsg2
 title: IContextMenu3::HandleMenuMsg2 (shobjidl_core.h)
-description: Allows client objects of the IContextMenu3 interface to handle messages associated with owner-drawn menu items.
+description: Allows client objects of the IContextMenu3 interface to handle messages associated with owner-drawn menu items.helpviewer_keywords: ["HandleMenuMsg2","HandleMenuMsg2 method [Windows Shell]","HandleMenuMsg2 method [Windows Shell]","IContextMenu3 interface","IContextMenu3 interface [Windows Shell]","HandleMenuMsg2 method","IContextMenu3.HandleMenuMsg2","IContextMenu3::HandleMenuMsg2","_win32_IContextMenu3_HandleMenuMsg2","shell.IContextMenu3_HandleMenuMsg2","shobjidl_core/IContextMenu3::HandleMenuMsg2"]
 old-location: shell\IContextMenu3_HandleMenuMsg2.htm
 tech.root: shell
 ms.assetid: d258edb1-9489-4cdf-b398-16af37a1cb38

@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsResetMetadata
 title: WsResetMetadata function (webservices.h)
-description: Resets a metadata object state to WS_METADATA_STATE_CREATED. In this state the Metadata object can be reused. WS_POLICY objects that were retrieved using the Metadata object will be released.
+description: Resets a metadata object state to WS_METADATA_STATE_CREATED. In this state the Metadata object can be reused. WS_POLICY objects that were retrieved using the Metadata object will be released.helpviewer_keywords: ["WsResetMetadata","WsResetMetadata function [Web Services for Windows]","webservices/WsResetMetadata","wsw.wsresetmetadata"]
 old-location: wsw\wsresetmetadata.htm
 tech.root: wsw
 ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a

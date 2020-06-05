@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.Scale
 title: Matrix4x4F::Scale (d2d1_1helper.h)
-description: Scales the perspective plane of the matrix.
+description: Scales the perspective plane of the matrix.helpviewer_keywords: ["Matrix4x4F interface [Direct2D]","Scale method","Matrix4x4F.Scale","Matrix4x4F::Scale","Scale","Scale method [Direct2D]","Scale method [Direct2D]","Matrix4x4F interface","d2d1_1helper/Matrix4x4F::Scale","direct2d.matrix4x4f_scale"]
 old-location: direct2d\matrix4x4f_scale.htm
 tech.root: Direct2D
 ms.assetid: D0ACA5DC-D144-4832-94EB-A851F7602FD9

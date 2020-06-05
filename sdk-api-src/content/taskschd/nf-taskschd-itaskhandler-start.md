@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskHandler.Start
 title: ITaskHandler::Start (taskschd.h)
-description: Called to start the COM handler.
+description: Called to start the COM handler.helpviewer_keywords: ["ITaskHandler interface [Task Scheduler]","Start method","ITaskHandler.Start","ITaskHandler::Start","Start","Start method [Task Scheduler]","Start method [Task Scheduler]","ITaskHandler interface","taskschd.itaskhandler_start","taskschd/ITaskHandler::Start"]
 old-location: taskschd\itaskhandler_start.htm
 tech.root: taskschd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975

@@ -2,6 +2,7 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeInteractiveUI
 title: EapHostPeerInvokeInteractiveUI function (eaphostpeerconfigapis.h)
 description: Raises an interactive user interface used to get credentials from the user.
+helpviewer_keywords: ["EapHostPeerInvokeInteractiveUI","EapHostPeerInvokeInteractiveUI function [EAPHost]","eaphost.eaphostpeerinvokeinteractiveui","eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI"]
 old-location: eaphost\eaphostpeerinvokeinteractiveui.htm
 tech.root: eaphost
 ms.assetid: a4a46b77-f8ab-4062-b966-1590ea9e46d2
@@ -93,7 +94,7 @@ A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-The supplicant should call [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](https://docs.microsoft.com/windows/win32/eaphost/eap-related-error-and-information-constants)a> is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <b>EapHostPeerInvokeInteractiveUI</b>. 
+The supplicant should call [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](/windows/win32/eaphost/eap-related-error-and-information-constants) is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <b>EapHostPeerInvokeInteractiveUI</b>. 
 
 If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for the EAP method after the supplicant calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetuicontext">EapHostPeerGetUIContext</a>. This occurs when a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a> 
    returns the <b>EapHostPeerResponseInvokeUi</b>action code. <b>EapHostPeerGetUIContext</b>returns UI context that 
@@ -107,7 +108,7 @@ If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for th
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFByteStreamTimeSeek
 title: IMFByteStreamTimeSeek (mfidl.h)
-description: Seeks a byte stream by time position.
+description: Seeks a byte stream by time position.helpviewer_keywords: ["IMFByteStreamTimeSeek","IMFByteStreamTimeSeek interface [Media Foundation]","IMFByteStreamTimeSeek interface [Media Foundation]","described","mf.imfbytestreamtimeseek","mfidl/IMFByteStreamTimeSeek"]
 old-location: mf\imfbytestreamtimeseek.htm
 tech.root: medfound
 ms.assetid: BD9EDFF7-46BA-4788-A44E-C69C4B0BEB50

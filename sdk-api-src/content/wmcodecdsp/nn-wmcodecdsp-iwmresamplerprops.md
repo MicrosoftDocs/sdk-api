@@ -1,7 +1,7 @@
 ---
 UID: NN:wmcodecdsp.IWMResamplerProps
 title: IWMResamplerProps (wmcodecdsp.h)
-description: Sets properties on the audio resampler DSP.
+description: Sets properties on the audio resampler DSP.helpviewer_keywords: ["IWMResamplerProps","IWMResamplerProps interface [Media Foundation]","IWMResamplerProps interface [Media Foundation]","described","codecapi.iwmresamplerpropsinterface","mf.iwmresamplerprops","mf.iwmresamplerpropsinterface","wmcodecdsp/IWMResamplerProps"]
 old-location: mf\iwmresamplerpropsinterface.htm
 tech.root: medfound
 ms.assetid: af3cec68-59a2-4b9d-a279-e5af46e9c38e

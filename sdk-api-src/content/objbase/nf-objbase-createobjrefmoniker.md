@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.CreateObjrefMoniker
 title: CreateObjrefMoniker function (objbase.h)
-description: Creates an OBJREF moniker based on a pointer to an object.
+description: Creates an OBJREF moniker based on a pointer to an object.helpviewer_keywords: ["CreateObjrefMoniker","CreateObjrefMoniker function [COM]","_com_CreateObjrefMoniker","com.createobjrefmoniker","objbase/CreateObjrefMoniker"]
 old-location: com\createobjrefmoniker.htm
 tech.root: com
 ms.assetid: 0a214a11-776c-4ef6-af68-a141398f853c

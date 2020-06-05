@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.CharacterRange~r2
 title: CharacterRange::CharacterRange~r2 (gdiplustypes.h)
-description: Creates a CharacterRange::CharacterRange object with the data members set to zero.
+description: Creates a CharacterRange::CharacterRange object with the data members set to zero.helpviewer_keywords: ["CharacterRange","CharacterRange class [GDI+]","CharacterRange constructor","CharacterRange constructor [GDI+]","CharacterRange constructor [GDI+]","CharacterRange class","CharacterRange.CharacterRange","CharacterRange.CharacterRange()","CharacterRange.CharacterRange~r2","CharacterRange::CharacterRange","CharacterRange::CharacterRange~r2","_gdiplus_CLASS_CharacterRange_CharacterRange_","gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_"]
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_54.htm

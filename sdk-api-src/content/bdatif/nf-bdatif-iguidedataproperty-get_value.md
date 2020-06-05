@@ -1,7 +1,7 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Value
 title: IGuideDataProperty::get_Value (bdatif.h)
-description: The get_Value method retrieves the value associated with the property.
+description: The get_Value method retrieves the value associated with the property.helpviewer_keywords: ["IGuideDataProperty interface [Microsoft TV Technologies]","get_Value method","IGuideDataProperty.get_Value","IGuideDataProperty::get_Value","IGuideDataPropertyget_Value","bdatif/IGuideDataProperty::get_Value","get_Value","get_Value method [Microsoft TV Technologies]","get_Value method [Microsoft TV Technologies]","IGuideDataProperty interface","mstv.iguidedataproperty_get_value"]
 old-location: mstv\iguidedataproperty_get_value.htm
 tech.root: mstv
 ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98

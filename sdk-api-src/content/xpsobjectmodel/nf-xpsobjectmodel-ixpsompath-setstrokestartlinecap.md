@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeStartLineCap
 title: IXpsOMPath::SetStrokeStartLineCap (xpsobjectmodel.h)
 description: Sets the style of the stroke's line cap at the start of the stroke line.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeStartLineCap method","IXpsOMPath.SetStrokeStartLineCap","IXpsOMPath::SetStrokeStartLineCap","SetStrokeStartLineCap","SetStrokeStartLineCap method [XPS Documents and Packaging]","SetStrokeStartLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokestartlinecap","xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap"]
 old-location: xps\ixpsompath_setstrokestartlinecap.htm
 tech.root: printdocs
 ms.assetid: 2b465775-6eda-49cb-aa9a-091e4d815da3
@@ -59,7 +60,7 @@ Sets the style of the stroke's line cap at the  start of the stroke line.
 
 ### -param strokeStartLineCap [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value to be set.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value to be set.
 
 
 ## -returns
@@ -91,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeStartLineCap</i> is not a valid <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value.
+<i>strokeStartLineCap</i> is not a valid <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
+For more information about the line join styles, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 

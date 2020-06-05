@@ -1,7 +1,7 @@
 ---
 UID: NN:qmgr.IBackgroundCopyCallback1
 title: IBackgroundCopyCallback1 (qmgr.h)
-description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.
+description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.helpviewer_keywords: ["IBackgroundCopyCallback1","IBackgroundCopyCallback1 interface [BITS]","IBackgroundCopyCallback1 interface [BITS]","described","bits.ibackgroundcopycallback1","qmgr/IBackgroundCopyCallback1"]
 old-location: bits\ibackgroundcopycallback1.htm
 tech.root: Bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779

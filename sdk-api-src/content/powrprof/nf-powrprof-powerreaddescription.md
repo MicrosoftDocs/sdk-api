@@ -1,7 +1,7 @@
 ---
 UID: NF:powrprof.PowerReadDescription
 title: PowerReadDescription function (powrprof.h)
-description: Retrieves the description for the specified power setting, subgroup, or scheme.
+description: Retrieves the description for the specified power setting, subgroup, or scheme.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadDescription","PowerReadDescription function","base.powerreaddescription","powrprof/PowerReadDescription"]
 old-location: base\powerreaddescription.htm
 tech.root: power
 ms.assetid: 3c264f4f-fd1b-466b-ba76-fe78593a3628

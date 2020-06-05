@@ -1,7 +1,7 @@
 ---
 UID: NF:mmeapi.midiInClose
 title: midiInClose function (mmeapi.h)
-description: The midiInClose function closes the specified MIDI input device.
+description: The midiInClose function closes the specified MIDI input device.helpviewer_keywords: ["_win32_midiInClose","midiInClose","midiInClose function [Windows Multimedia]","mmeapi/midiInClose","multimedia.midiinclose"]
 old-location: multimedia\midiinclose.htm
 tech.root: Multimedia
 ms.assetid: 95a1490c-3a0f-4380-a11f-0979e94f88ab

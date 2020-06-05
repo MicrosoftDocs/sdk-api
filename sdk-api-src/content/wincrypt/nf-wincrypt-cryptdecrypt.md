@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CryptDecrypt
 title: CryptDecrypt function (wincrypt.h)
-description: Decrypts data previously encrypted by using the CryptEncrypt function.
+description: Decrypts data previously encrypted by using the CryptEncrypt function.helpviewer_keywords: ["CRYPT_DECRYPT_RSA_NO_PADDING_CHECK","CRYPT_OAEP","CryptDecrypt","CryptDecrypt function [Security]","_crypto2_cryptdecrypt","security.cryptdecrypt","wincrypt/CryptDecrypt"]
 old-location: security\cryptdecrypt.htm
 tech.root: SecCrypto
 ms.assetid: 7c3d2838-6fd1-4f6c-9586-8b94b459a31a

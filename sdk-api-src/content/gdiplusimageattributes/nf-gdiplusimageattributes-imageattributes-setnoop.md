@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetNoOp
 title: ImageAttributes::SetNoOp (gdiplusimageattributes.h)
-description: The ImageAttributes::SetNoOp method turns off color adjustment for a specified category. You can call ImageAttributes::ClearNoOp to reinstate the color-adjustment settings that were in place before the call to ImageAttributes::SetNoOp.
+description: The ImageAttributes::SetNoOp method turns off color adjustment for a specified category. You can call ImageAttributes::ClearNoOp to reinstate the color-adjustment settings that were in place before the call to ImageAttributes::SetNoOp.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetNoOp method","ImageAttributes.SetNoOp","ImageAttributes::SetNoOp","SetNoOp","SetNoOp method [GDI+]","SetNoOp method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetNoOp_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetNoOp_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetNoOp_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setnoop.htm

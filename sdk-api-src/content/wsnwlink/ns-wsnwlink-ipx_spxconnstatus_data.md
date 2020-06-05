@@ -1,7 +1,7 @@
 ---
 UID: NS:wsnwlink._IPX_SPXCONNSTATUS_DATA
 title: IPX_SPXCONNSTATUS_DATA (wsnwlink.h)
-description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.
+description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.helpviewer_keywords: ["*PIPX_SPXCONNSTATUS_DATA","IPX_SPXCONNSTATUS_DATA","IPX_SPXCONNSTATUS_DATA structure [Winsock]","PIPX_SPXCONNSTATUS_DATA","PIPX_SPXCONNSTATUS_DATA structure pointer [Winsock]","_win32_ipx_spxconnstatus_data_2","winsock.ipx_spxconnstatus_data_2","wsnwlink/IPX_SPXCONNSTATUS_DATA","wsnwlink/PIPX_SPXCONNSTATUS_DATA"]
 old-location: winsock\ipx_spxconnstatus_data_2.htm
 tech.root: WinSock
 ms.assetid: 741fdb22-a92c-4159-bde6-e3d18a222b9e

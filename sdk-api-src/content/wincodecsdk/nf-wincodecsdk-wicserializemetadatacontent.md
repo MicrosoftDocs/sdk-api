@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.WICSerializeMetadataContent
 title: WICSerializeMetadataContent function (wincodecsdk.h)
-description: Writes metadata into a given stream.
+description: Writes metadata into a given stream.helpviewer_keywords: ["WICSerializeMetadataContent","WICSerializeMetadataContent function [Windows Imaging Component]","_wic_codec_wicserializemetadatacontent","wic._wic_codec_wicserializemetadatacontent","wincodecsdk/WICSerializeMetadataContent"]
 old-location: wic\_wic_codec_wicserializemetadatacontent.htm
 tech.root: wic
 ms.assetid: 726b5e83-d5ab-4053-8f4c-34826fc0db55

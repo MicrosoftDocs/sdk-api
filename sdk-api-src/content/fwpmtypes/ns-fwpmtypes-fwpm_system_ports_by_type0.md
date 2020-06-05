@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_SYSTEM_PORTS_BY_TYPE0_
 title: FWPM_SYSTEM_PORTS_BY_TYPE0 (fwpmtypes.h)
 description: The FWPM_SYSTEM_PORTS_BY_TYPE0 structure.
+helpviewer_keywords: ["FWPM_SYSTEM_PORTS_BY_TYPE0","FWPM_SYSTEM_PORTS_BY_TYPE0 structure [Filtering]","fwp.fwpm_system_ports_by_type0","fwpmtypes/FWPM_SYSTEM_PORTS_BY_TYPE0"]
 old-location: fwp\fwpm_system_ports_by_type0.htm
 tech.root: fwp
 ms.assetid: 9a1d5431-fe83-468e-bc0e-8e55342ae205
@@ -59,7 +60,7 @@ The <b>FWPM_SYSTEM_PORTS_BY_TYPE0</b> structure  contains information about the 
 
 ### -field type
 
-An [FWPM_SYSTEM_PORT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type)a> enumeration that specifies the type of port.
+An [FWPM_SYSTEM_PORT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type) enumeration that specifies the type of port.
 
 
 ### -field numPorts
@@ -86,7 +87,7 @@ Array of IP port numbers for the specified type.
 
 
 
-[FWPM_SYSTEM_PORT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type)a>
+[FWPM_SYSTEM_PORT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_system_port_type)
 
 
 

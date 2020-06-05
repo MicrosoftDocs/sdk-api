@@ -1,7 +1,7 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointLastBufferControl
 title: IAudioEndpointLastBufferControl (audioengineendpoint.h)
-description: Provides functionality to allow an offload stream client to notify the endpoint that the last buffer has been sent only partially filled.
+description: Provides functionality to allow an offload stream client to notify the endpoint that the last buffer has been sent only partially filled.helpviewer_keywords: ["IAudioEndpointLastBufferControl","IAudioEndpointLastBufferControl interface [Core Audio]","IAudioEndpointLastBufferControl interface [Core Audio]","described","audioengineendpoint/IAudioEndpointLastBufferControl","coreaudio.iaudioendpointlastbuffercontrol"]
 old-location: coreaudio\iaudioendpointlastbuffercontrol.htm
 tech.root: CoreAudio
 ms.assetid: 79f4b370-fd04-41a9-ad74-54f7edd084c2

@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertTextAtSelection
 title: ITextStoreACP2::InsertTextAtSelection (textstor.h)
-description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
+description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","InsertTextAtSelection method","ITextStoreACP2.InsertTextAtSelection","ITextStoreACP2::InsertTextAtSelection","InsertTextAtSelection","InsertTextAtSelection method [Text Services Framework]","InsertTextAtSelection method [Text Services Framework]","ITextStoreACP2 interface","textstor/ITextStoreACP2::InsertTextAtSelection","tsf.itextstoreacp2_inserttextatselection"]
 old-location: tsf\itextstoreacp2_inserttextatselection.htm
 tech.root: TSF
 ms.assetid: 5e1e0893-53be-4753-ba49-32e69597a130

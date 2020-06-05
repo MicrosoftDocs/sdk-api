@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RawReceiveTime
 title: IFaxTiff::get_RawReceiveTime (faxcom.h)
-description: Retrieves the RawReceiveTime property for a FaxTiff object.
+description: Retrieves the RawReceiveTime property for a FaxTiff object.helpviewer_keywords: ["IFaxTiff interface [Fax Service]","RawReceiveTime property","IFaxTiff.RawReceiveTime","IFaxTiff.get_RawReceiveTime","IFaxTiff::RawReceiveTime","IFaxTiff::get_RawReceiveTime","RawReceiveTime property [Fax Service]","RawReceiveTime property [Fax Service]","IFaxTiff interface","_mfax_ifaxtiff_get_rawreceivetime","fax._mfax_ifaxtiff_get_rawreceivetime","fax._mfax_ifaxtiff_mfax_ifaxtiff_get_rawreceivetime_cpp","faxcom/IFaxTiff::RawReceiveTime","faxcom/IFaxTiff::get_RawReceiveTime","get_RawReceiveTime"]
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_rawreceivetime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9usl.htm

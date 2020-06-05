@@ -1,7 +1,7 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.Initialize
 title: ISceSvcAttachmentData::Initialize (scesvc.h)
-description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.
+description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.helpviewer_keywords: ["ISceSvcAttachmentData interface [Security]","Initialize method","ISceSvcAttachmentData.Initialize","ISceSvcAttachmentData::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ISceSvcAttachmentData interface","_config_iscesvcattachmentdata_initialize","scesvc/ISceSvcAttachmentData::Initialize","security.iscesvcattachmentdata_initialize"]
 old-location: security\iscesvcattachmentdata_initialize.htm
 tech.root: SecMgmt
 ms.assetid: 2c5d087d-774b-4cfb-a458-9a5b1c6106c7

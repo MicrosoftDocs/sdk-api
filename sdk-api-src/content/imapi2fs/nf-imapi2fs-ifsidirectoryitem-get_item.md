@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Item
 title: IFsiDirectoryItem::get_Item (imapi2fs.h)
-description: Retrieves the specified directory or file item from file system image.
+description: Retrieves the specified directory or file item from file system image.helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","get_Item method","IFsiDirectoryItem.get_Item","IFsiDirectoryItem::get_Item","get_Item","get_Item method [IMAPI]","get_Item method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_get_item","imapi2fs/IFsiDirectoryItem::get_Item"]
 old-location: imapi\ifsidirectoryitem_get_item.htm
 tech.root: imapi
 ms.assetid: 8ea5219c-a12f-43a3-a67b-16cd0e6d2bac

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.Save
 title: IFaxEventLogging::Save (faxcomex.h)
-description: The IFaxEventLogging::Save method saves the IFaxEventLogging interface's data.
+description: The IFaxEventLogging::Save method saves the IFaxEventLogging interface's data.helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","Save method","IFaxEventLogging.Save","IFaxEventLogging::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.save","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_save_cpp","fax._mfax_faxeventlogging_save","faxcomex/IFaxEventLogging::Save"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_16cl.htm

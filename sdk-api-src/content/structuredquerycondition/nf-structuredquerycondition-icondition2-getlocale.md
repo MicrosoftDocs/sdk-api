@@ -2,6 +2,7 @@
 UID: NF:structuredquerycondition.ICondition2.GetLocale
 title: ICondition2::GetLocale (structuredquerycondition.h)
 description: Retrieves the property name, operation, and value from a leaf search condition node.
+helpviewer_keywords: ["GetLocale","GetLocale method [search]","GetLocale method [search]","ICondition2 interface","ICondition2 interface [search]","GetLocale method","ICondition2.GetLocale","ICondition2::GetLocale","_search_ICondition2_GetLocale","search._search_ICondition2_GetLocale","structuredquerycondition/ICondition2::GetLocale"]
 old-location: search\_search_ICondition2_GetLocale.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getlocale.htm
@@ -82,11 +83,11 @@ Type: <b>HRESULT</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

@@ -2,6 +2,7 @@
 UID: NE:eaphostpeertypes.tagEapHostPeerMethodResultReason
 title: EapHostPeerMethodResultReason (eaphostpeertypes.h)
 description: Defines the set of possible reasons that describe the results returned by an EAP method to a supplicant.
+helpviewer_keywords: ["EapHostPeerMethodResultAltSuccessReceived","EapHostPeerMethodResultFromMethod","EapHostPeerMethodResultReason","EapHostPeerMethodResultReason enumeration [EAPHost]","EapHostPeerMethodResultTimeout","eaphost.eaphostpeermethodresultreason","eaphostpeertypes/EapHostPeerMethodResultAltSuccessReceived","eaphostpeertypes/EapHostPeerMethodResultFromMethod","eaphostpeertypes/EapHostPeerMethodResultReason","eaphostpeertypes/EapHostPeerMethodResultTimeout"]
 old-location: eaphost\eaphostpeermethodresultreason.htm
 tech.root: eaphost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
@@ -82,7 +83,7 @@ The  authentication process was completely normally.
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
 
 

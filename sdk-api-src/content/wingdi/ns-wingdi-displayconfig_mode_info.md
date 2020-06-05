@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_MODE_INFO
 title: DISPLAYCONFIG_MODE_INFO (wingdi.h)
-description: The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.
+description: The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.helpviewer_keywords: ["CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml","DISPLAYCONFIG_MODE_INFO","DISPLAYCONFIG_MODE_INFO structure [Display Devices]","display.displayconfig_mode_info","wingdi/DISPLAYCONFIG_MODE_INFO"]
 old-location: display\displayconfig_mode_info.htm
 tech.root: display
 ms.assetid: 39ffe49b-96d3-4d8b-94a7-01c388448b82

@@ -1,7 +1,7 @@
 ---
 UID: NF:unknwnbase.IUnknown_AddRef_Proxy
 title: IUnknown_AddRef_Proxy function (unknwnbase.h)
-description: The IUnknown_AddRef_Proxy function implements the AddRef method for all interface proxies.
+description: The IUnknown_AddRef_Proxy function implements the AddRef method for all interface proxies.helpviewer_keywords: ["IUnknown_AddRef_Proxy","IUnknown_AddRef_Proxy function [RPC]","rpc.iunknown_addref_proxy","unknwnbase/IUnknown_AddRef_Proxy"]
 old-location: rpc\iunknown_addref_proxy.htm
 tech.root: Rpc
 ms.assetid: a95efffc-1761-40ae-80d2-c2a4ceddab6c

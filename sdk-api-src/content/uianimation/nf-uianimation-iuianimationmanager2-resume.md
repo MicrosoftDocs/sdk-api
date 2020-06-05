@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationManager2.Resume
 title: IUIAnimationManager2::Resume (uianimation.h)
 description: Resumes all animations.
+helpviewer_keywords: ["IUIAnimationManager2 interface [Windows Animation]","Resume method","IUIAnimationManager2.Resume","IUIAnimationManager2::Resume","Resume","Resume method [Windows Animation]","Resume method [Windows Animation]","IUIAnimationManager2 interface","uianimation.iuianimationmanager2_resume","uianimation/IUIAnimationManager2::Resume"]
 old-location: uianimation\iuianimationmanager2_resume.htm
 tech.root: UIAnimation
 ms.assetid: 943BCFBB-3E16-4CC8-BA9F-06D4C99B1DF0
@@ -72,7 +73,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-When an animation manager is resumed, and at least one animation is currently scheduled or playing, its status is set to <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_BUSY</a>.
+When an animation manager is resumed, and at least one animation is currently scheduled or playing, its status is set to <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_BUSY</a>.
 
 
 
@@ -94,7 +95,7 @@ When an animation manager is resumed, and at least one animation is currently sc
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_manager_status">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

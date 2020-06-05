@@ -2,6 +2,7 @@
 UID: NS:ndattrib.tagHELPER_ATTRIBUTE
 title: HELPER_ATTRIBUTE (ndattrib.h)
 description: The HELPER_ATTRIBUTE structure contains all NDF supported data types.
+helpviewer_keywords: ["*PHELPER_ATTRIBUTE","HELPER_ATTRIBUTE","HELPER_ATTRIBUTE structure [NDF]","ndattrib/HELPER_ATTRIBUTE","ndf.helper_attribute"]
 old-location: ndf\helper_attribute.htm
 tech.root: NDF
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
@@ -157,7 +158,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-l
 
 ### -field Address
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr">DIAG_SOCKADDR</a></b>
+Type: <b><a href="/windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr">DIAG_SOCKADDR</a></b>
 
 An IPv4 or IPv6 address. Used when <b>type</b> is <b>AT_SOCKADDR</b>.
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:docobj.IOleCommandTarget
 title: IOleCommandTarget (docobj.h)
-description: Enables objects and their containers to dispatch commands to each other. For example, an object's toolbars may contain buttons for commands such as Print, Print Preview, Save, New, and Zoom.
+description: Enables objects and their containers to dispatch commands to each other. For example, an object's toolbars may contain buttons for commands such as Print, Print Preview, Save, New, and Zoom.helpviewer_keywords: ["IOleCommandTarget","IOleCommandTarget interface [COM]","IOleCommandTarget interface [COM]","described","_ole_iolecommandtarget","com.iolecommandtarget","docobj/IOleCommandTarget"]
 old-location: com\iolecommandtarget.htm
 tech.root: com
 ms.assetid: 5c8b455e-7740-4f71-aef6-27390a11a1a3

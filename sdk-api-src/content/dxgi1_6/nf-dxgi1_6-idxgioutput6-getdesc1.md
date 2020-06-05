@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_6.IDXGIOutput6.GetDesc1
 title: IDXGIOutput6::GetDesc1 (dxgi1_6.h)
-description: Get an extended description of the output that includes color characteristics and connection type.
+description: Get an extended description of the output that includes color characteristics and connection type.helpviewer_keywords: ["GetDesc1","GetDesc1 method [DXGI]","GetDesc1 method [DXGI]","IDXGIOutput6 interface","IDXGIOutput6 interface [DXGI]","GetDesc1 method","IDXGIOutput6.GetDesc1","IDXGIOutput6::GetDesc1","direct3ddxgi.idxgioutput6_getdesc1","dxgi1_6/IDXGIOutput6::GetDesc1"]
 old-location: direct3ddxgi\idxgioutput6_getdesc1.htm
 tech.root: direct3ddxgi
 ms.assetid: DE251D64-BB41-49D7-AC46-791089502286

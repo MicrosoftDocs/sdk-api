@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0_
 title: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0 (fwpmtypes.h)
 description: Used for enumerating provider contexts.
+helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0","FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_provider_context_enum_template0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_provider_context_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 0d43931a-93ae-43dd-9c5b-3989799e7b60
@@ -66,7 +67,7 @@ Uniquely identifies a provider. If this value is non-NULL, only options with the
 
 Only return provider contexts of the specified type.
 
-See [FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)a> for more information.
+See [FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type) for more information.
 
 
 ## -remarks
@@ -83,7 +84,7 @@ See [FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/
 
 
 
-[FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)a>
+[FWPM_PROVIDER_CONTEXT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)
 
 
 

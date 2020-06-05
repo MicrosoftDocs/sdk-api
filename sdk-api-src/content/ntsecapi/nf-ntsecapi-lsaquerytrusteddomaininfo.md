@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaQueryTrustedDomainInfo
 title: LsaQueryTrustedDomainInfo function (ntsecapi.h)
-description: The LsaQueryTrustedDomainInfo function retrieves information about a trusted domain.
+description: The LsaQueryTrustedDomainInfo function retrieves information about a trusted domain.helpviewer_keywords: ["LsaQueryTrustedDomainInfo","LsaQueryTrustedDomainInfo function [Security]","TrustedDomainFullInformation","TrustedDomainInformationBasic","TrustedDomainInformationEx","TrustedDomainNameInformation","TrustedPasswordInformation","TrustedPosixOffsetInformation","_lsa_lsaquerytrusteddomaininfo","ntsecapi/LsaQueryTrustedDomainInfo","security.lsaquerytrusteddomaininfo"]
 old-location: security\lsaquerytrusteddomaininfo.htm
 tech.root: SecMgmt
 ms.assetid: 62925515-a6f3-4b5f-bf97-edb968af19a3

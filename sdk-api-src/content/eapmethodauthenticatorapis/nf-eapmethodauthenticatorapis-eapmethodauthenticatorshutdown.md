@@ -2,6 +2,7 @@
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorShutdown
 title: EapMethodAuthenticatorShutdown function (eapmethodauthenticatorapis.h)
 description: Shuts down the EAP authenticator method and prepares to unload it from the server EAPHost.
+helpviewer_keywords: ["EapMethodAuthenticatorShutdown","EapMethodAuthenticatorShutdown function [EAPHost]","eaphost.eapmethodauthenticatorshutdown","eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown"]
 old-location: eaphost\eapmethodauthenticatorshutdown.htm
 tech.root: eaphost
 ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
@@ -83,7 +84,7 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
  
 
  

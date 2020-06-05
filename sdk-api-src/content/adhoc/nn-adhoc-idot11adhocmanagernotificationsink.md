@@ -1,7 +1,7 @@
 ---
 UID: NN:adhoc.IDot11AdHocManagerNotificationSink
 title: IDot11AdHocManagerNotificationSink (adhoc.h)
-description: Defines the notifications supported by the IDot11AdHocManager interface.
+description: Defines the notifications supported by the IDot11AdHocManager interface.helpviewer_keywords: ["IDot11AdHocManagerNotificationSink","IDot11AdHocManagerNotificationSink interface [NativeWIFI]","IDot11AdHocManagerNotificationSink interface [NativeWIFI]","described","adhoc/IDot11AdHocManagerNotificationSink","nwifi.idot11adhocmanagernotificationsink"]
 old-location: nwifi\idot11adhocmanagernotificationsink.htm
 tech.root: NativeWiFi
 ms.assetid: a79931ad-deeb-4e46-a051-80a57fe5935c

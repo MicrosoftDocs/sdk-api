@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.CreateApplication
 title: IAzAuthorizationStore::CreateApplication (azroles.h)
-description: Creates an IAzApplication object with the specified name.
+description: Creates an IAzApplication object with the specified name.helpviewer_keywords: ["AzAuthorizationStore object [Security]","CreateApplication method","CreateApplication","CreateApplication method [Security]","CreateApplication method [Security]","AzAuthorizationStore object","CreateApplication method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","CreateApplication method","IAzAuthorizationStore.CreateApplication","IAzAuthorizationStore::CreateApplication","azroles/IAzAuthorizationStore::CreateApplication","security.azauthorizationstore_createapplication"]
 old-location: security\azauthorizationstore_createapplication.htm
 tech.root: SecAuthZ
 ms.assetid: ca6feb69-15cd-454a-a2b8-c75c4c6b38cd

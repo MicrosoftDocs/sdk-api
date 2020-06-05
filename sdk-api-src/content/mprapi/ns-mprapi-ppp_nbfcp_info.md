@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._PPP_NBFCP_INFO
 title: PPP_NBFCP_INFO (mprapi.h)
-description: The PPP_NBFCP_INFO structure contains the result of a PPP NetBEUI Framer (NBF) projection operation.
+description: The PPP_NBFCP_INFO structure contains the result of a PPP NetBEUI Framer (NBF) projection operation.helpviewer_keywords: ["PPP_NBFCP_INFO","PPP_NBFCP_INFO structure [RAS]","_mpr_ppp_nbfcp_info","mprapi/PPP_NBFCP_INFO","rras.ppp_nbfcp_info"]
 old-location: rras\ppp_nbfcp_info.htm
 tech.root: RRAS
 ms.assetid: 376c662d-c0e1-4136-937c-47a4681c14ec

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.EnumSubCommands
 title: IExplorerCommand::EnumSubCommands (shobjidl_core.h)
-description: Retrieves an enemerator for a command's subcommands.
+description: Retrieves an enemerator for a command's subcommands.helpviewer_keywords: ["EnumSubCommands","EnumSubCommands method [Windows Shell]","EnumSubCommands method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","EnumSubCommands method","IExplorerCommand.EnumSubCommands","IExplorerCommand::EnumSubCommands","_shell_IExplorerCommand_EnumSubCommands","shell.IExplorerCommand_EnumSubCommands","shobjidl_core/IExplorerCommand::EnumSubCommands"]
 old-location: shell\IExplorerCommand_EnumSubCommands.htm
 tech.root: shell
 ms.assetid: c907fb46-fb18-431c-861b-c2d2270a89b9

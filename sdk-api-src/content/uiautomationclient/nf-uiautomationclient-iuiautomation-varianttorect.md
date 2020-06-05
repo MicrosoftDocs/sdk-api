@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.VariantToRect
 title: IUIAutomation::VariantToRect (uiautomationclient.h)
-description: Converts a VARIANT containing rectangle coordinates to a RECT.
+description: Converts a VARIANT containing rectangle coordinates to a RECT.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","VariantToRect method","IUIAutomation.VariantToRect","IUIAutomation::VariantToRect","VariantToRect","VariantToRect method [Windows Accessibility]","VariantToRect method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_VariantToRect","uiauto_IUIAutomation_VariantToRect","uiautomationclient/IUIAutomation::VariantToRect","winauto.uiauto_IUIAutomation_VariantToRect"]
 old-location: winauto\uiauto_IUIAutomation_VariantToRect.htm
 tech.root: WinAuto
 ms.assetid: ef8bb8eb-c6f1-4797-b64f-f4f9d41db2bb

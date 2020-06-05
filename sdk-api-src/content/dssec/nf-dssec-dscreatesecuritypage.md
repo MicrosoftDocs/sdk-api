@@ -1,7 +1,7 @@
 ---
 UID: NF:dssec.DSCreateSecurityPage
 title: DSCreateSecurityPage function (dssec.h)
-description: Creates a security property page for an Active Directory object.
+description: Creates a security property page for an Active Directory object.helpviewer_keywords: ["DSCreateSecurityPage","DSCreateSecurityPage function [Security]","DSSI_IS_ROOT","DSSI_NO_ACCESS_CHECK","DSSI_NO_EDIT_OWNER","DSSI_NO_EDIT_SACL","DSSI_NO_FILTER","DSSI_NO_READONLY_MESSAGE","DSSI_READ_ONLY","dssec/DSCreateSecurityPage","security.dscreatesecuritypage"]
 old-location: security\dscreatesecuritypage.htm
 tech.root: SecAuthZ
 ms.assetid: 1ebb531f-84a0-4ace-88d1-89e65e18c34a

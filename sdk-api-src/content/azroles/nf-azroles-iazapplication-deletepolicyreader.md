@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyReader
 title: IAzApplication::DeletePolicyReader (azroles.h)
-description: The DeletePolicyReader method of IAzApplication removes the specified security identifier in text form from the list of principals that act as policy readers.
+description: The DeletePolicyReader method of IAzApplication removes the specified security identifier in text form from the list of principals that act as policy readers.helpviewer_keywords: ["AzApplication object [Security]","DeletePolicyReader method","DeletePolicyReader","DeletePolicyReader method [Security]","DeletePolicyReader method [Security]","AzApplication object","DeletePolicyReader method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeletePolicyReader method","IAzApplication.DeletePolicyReader","IAzApplication::DeletePolicyReader","azroles/IAzApplication::DeletePolicyReader","security.iazapplication_deletepolicyreader"]
 old-location: security\iazapplication_deletepolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: aec8b5c4-3c5e-4b91-a10f-40ef05beca1f

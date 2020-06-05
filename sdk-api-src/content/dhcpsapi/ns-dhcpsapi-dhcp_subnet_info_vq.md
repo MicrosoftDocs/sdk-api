@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO_VQ
 title: DHCP_SUBNET_INFO_VQ (dhcpsapi.h)
-description: Defines information that describes a subnet.
+description: Defines information that describes a subnet.helpviewer_keywords: ["*LPDHCP_SUBNET_INFO_VQ","DHCP_SUBNET_INFO_VQ","DHCP_SUBNET_INFO_VQ structure [DHCP]","LPDHCP_SUBNET_INFO_VQ","LPDHCP_SUBNET_INFO_VQ structure pointer [DHCP]","dhcp.dhcp_subnet_info_vq","dhcpsapi/DHCP_SUBNET_INFO_VQ","dhcpsapi/LPDHCP_SUBNET_INFO_VQ"]
 old-location: dhcp\dhcp_subnet_info_vq.htm
 tech.root: DHCP
 ms.assetid: 8440378e-c1dc-4e22-8c56-2cf4412c2483

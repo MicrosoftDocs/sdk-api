@@ -1,7 +1,7 @@
 ---
 UID: NS:wabdefs._SSortOrder
 title: SSortOrder (wabdefs.h)
-description: Do not use. Defines how to sort rows of a table, describing both the column to use as the sort key and the direction of the sort.
+description: Do not use. Defines how to sort rows of a table, describing both the column to use as the sort key and the direction of the sort.helpviewer_keywords: ["*LPSSortOrder","LPSSortOrder","LPSSortOrder structure pointer [Windows Address Book]","SSortOrder","SSortOrder structure [Windows Address Book]","TABLE_SORT_ASCEND","TABLE_SORT_COMBINE","TABLE_SORT_DESCEND","_wab_SSortOrder","wab._wab_SSortOrder","wabdefs/LPSSortOrder","wabdefs/SSortOrder"]
 old-location: wab\_wab_SSortOrder.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorder.htm

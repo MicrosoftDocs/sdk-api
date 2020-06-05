@@ -1,7 +1,7 @@
 ---
 UID: NF:certcli.ICertConfig.Next
 title: ICertConfig::Next (certcli.h)
-description: Retrieves the index of the next available Certificate Services server configuration in the configuration point. This method was first defined in the ICertConfig interface.
+description: Retrieves the index of the next available Certificate Services server configuration in the configuration point. This method was first defined in the ICertConfig interface.helpviewer_keywords: ["CCertConfig object [Security]","Next method","ICertConfig interface [Security]","Next method","ICertConfig.Next","ICertConfig2 interface [Security]","Next method","ICertConfig2::Next","ICertConfig::Next","Next","Next method [Security]","Next method [Security]","CCertConfig object","Next method [Security]","ICertConfig interface","Next method [Security]","ICertConfig2 interface","_certsrv_icertconfig_next","certcli/ICertConfig2::Next","certcli/ICertConfig::Next","security.icertconfig2_next"]
 old-location: security\icertconfig2_next.htm
 tech.root: SecCrypto
 ms.assetid: af81c25e-94e7-4c50-9e90-612c034e24b4

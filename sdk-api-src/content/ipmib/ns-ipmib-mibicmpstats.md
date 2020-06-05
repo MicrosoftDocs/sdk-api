@@ -1,7 +1,7 @@
 ---
 UID: NS:ipmib._MIBICMPSTATS
 title: MIBICMPSTATS (ipmib.h)
-description: Contains statistics for either incoming or outgoing Internet Control Message Protocol (ICMP) messages on a particular computer.
+description: Contains statistics for either incoming or outgoing Internet Control Message Protocol (ICMP) messages on a particular computer.helpviewer_keywords: ["*PMIBICMPSTATS","MIBICMPSTATS","MIBICMPSTATS structure [MIB]","_mpr_mibicmpstats","ipmib/MIBICMPSTATS","iprtrmib/MIBICMPSTATS","mib.mibicmpstats","rras.mibicmpstats"]
 old-location: mib\mibicmpstats.htm
 tech.root: MIB
 ms.assetid: 080cdd28-3e2d-4cd0-8e5a-9ec9dcb9df48

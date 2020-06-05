@@ -1,7 +1,7 @@
 ---
 UID: NC:webservices.WS_CREATE_ENCODER_CALLBACK
 title: WS_CREATE_ENCODER_CALLBACK (webservices.h)
-description: Handles creating an encoder instance.
+description: Handles creating an encoder instance.helpviewer_keywords: ["WS_CREATE_ENCODER_CALLBACK","WS_CREATE_ENCODER_CALLBACK callback","WS_CREATE_ENCODER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_ENCODER_CALLBACK","wsw.ws_create_encoder_callback"]
 old-location: wsw\ws_create_encoder_callback.htm
 tech.root: wsw
 ms.assetid: 47a68722-0c99-478a-b1ce-2982287e6a74

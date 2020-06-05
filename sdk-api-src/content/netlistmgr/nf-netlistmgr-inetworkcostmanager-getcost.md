@@ -1,7 +1,7 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetCost
 title: INetworkCostManager::GetCost (netlistmgr.h)
-description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
+description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.helpviewer_keywords: ["GetCost","GetCost method [Network Awareness]","GetCost method [Network Awareness]","INetworkCostManager interface","INetworkCostManager interface [Network Awareness]","GetCost method","INetworkCostManager.GetCost","INetworkCostManager::GetCost","netlistmgr/INetworkCostManager::GetCost","nla.inetworkcostmanager_getcost"]
 old-location: nla\inetworkcostmanager_getcost.htm
 tech.root: nla
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F

@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Skip
 title: IEnumStreamBufferRecordingAttrib::Skip (sbe.h)
-description: The Skip method skips over a specified number of attributes.
+description: The Skip method skips over a specified number of attributes.helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","Skip method","IEnumStreamBufferRecordingAttrib.Skip","IEnumStreamBufferRecordingAttrib::Skip","IEnumStreamBufferRecordingAttribSkip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface","mstv.ienumstreambufferrecordingattrib_skip","sbe/IEnumStreamBufferRecordingAttrib::Skip"]
 old-location: mstv\ienumstreambufferrecordingattrib_skip.htm
 tech.root: mstv
 ms.assetid: 83beb8e9-f268-4ae1-a90b-548f0e3f6c99

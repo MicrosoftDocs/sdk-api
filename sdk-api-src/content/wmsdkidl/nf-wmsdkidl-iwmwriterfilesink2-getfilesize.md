@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileSize
 title: IWMWriterFileSink2::GetFileSize (wmsdkidl.h)
-description: The GetFileSize method retrieves the size of the file.
+description: The GetFileSize method retrieves the size of the file.helpviewer_keywords: ["GetFileSize","GetFileSize method [windows Media Format]","GetFileSize method [windows Media Format]","IWMWriterFileSink2 interface","IWMWriterFileSink2 interface [windows Media Format]","GetFileSize method","IWMWriterFileSink2.GetFileSize","IWMWriterFileSink2::GetFileSize","IWMWriterFileSink2GetFileSize","wmformat.iwmwriterfilesink2_getfilesize","wmsdkidl/IWMWriterFileSink2::GetFileSize"]
 old-location: wmformat\iwmwriterfilesink2_getfilesize.htm
 tech.root: wmformat
 ms.assetid: 3a5f0c18-f73a-461e-b3cf-48742e74fed3

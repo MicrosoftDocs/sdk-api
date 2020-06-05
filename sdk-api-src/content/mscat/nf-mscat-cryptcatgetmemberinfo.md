@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATGetMemberInfo
 title: CryptCATGetMemberInfo function (mscat.h)
 description: Retrieves member information from the catalog's PKCS
+helpviewer_keywords: ["CryptCATGetMemberInfo","CryptCATGetMemberInfo function [Security]","mscat/CryptCATGetMemberInfo","security.cryptcatgetmemberinfo"]
 old-location: security\cryptcatgetmemberinfo.htm
 tech.root: SecCrypto
 ms.assetid: ff265232-f57e-4ab0-ba07-05e6d6745ae3
@@ -73,7 +74,7 @@ A pointer to a <b>null</b>-terminated string that represents the reference tag f
 
 
 
-A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that contains the member information or <b>NULL</b>, if no information can be found.
+A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the member information or <b>NULL</b>, if no information can be found.
 
 
 

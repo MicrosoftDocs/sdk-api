@@ -1,7 +1,7 @@
 ---
 UID: NE:comsvcs._GetAppTrackerDataFlags
 title: GetAppTrackerDataFlags (comsvcs.h)
-description: Controls what data is returned from calls to the IGetAppTrackerData interface.
+description: Controls what data is returned from calls to the IGetAppTrackerData interface.helpviewer_keywords: ["GATD_INCLUDE_APPLICATION_NAME","GATD_INCLUDE_CLASS_NAME","GATD_INCLUDE_LIBRARY_APPS","GATD_INCLUDE_PROCESS_EXE_NAME","GATD_INCLUDE_SWC","GetAppTrackerDataFlags","GetAppTrackerDataFlags enumeration [COM+]","comsvcs/GATD_INCLUDE_APPLICATION_NAME","comsvcs/GATD_INCLUDE_CLASS_NAME","comsvcs/GATD_INCLUDE_LIBRARY_APPS","comsvcs/GATD_INCLUDE_PROCESS_EXE_NAME","comsvcs/GATD_INCLUDE_SWC","comsvcs/GetAppTrackerDataFlags","cos.getapptrackerdataflags"]
 old-location: cos\getapptrackerdataflags.htm
 tech.root: cossdk
 ms.assetid: 7af61221-e876-4b1c-b416-a92817ad7025

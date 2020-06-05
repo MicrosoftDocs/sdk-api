@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OperationStart
 title: OperationStart function (winbase.h)
-description: Notifies the system that the application is about to start an operation.
+description: Notifies the system that the application is about to start an operation.helpviewer_keywords: ["OperationStart","OperationStart function [Operation Recorder]","oprec.operationstart","winbase/OperationStart"]
 old-location: oprec\operationstart.htm
 tech.root: oprec
 ms.assetid: 3E67057E-D09F-48BA-A95A-5D00F4783D9C

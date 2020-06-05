@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindMinTickCountForReplica
 title: ISyncKnowledge::FindMinTickCountForReplica (winsync.h)
-description: Finds the minimum tick count in the knowledge for the specified replica.
+description: Finds the minimum tick count in the knowledge for the specified replica.helpviewer_keywords: ["FindMinTickCountForReplica","FindMinTickCountForReplica method [Windows Sync]","FindMinTickCountForReplica method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","FindMinTickCountForReplica method","ISyncKnowledge.FindMinTickCountForReplica","ISyncKnowledge::FindMinTickCountForReplica","winsync.isyncknowledge_findmintickcountforreplica","winsync/ISyncKnowledge::FindMinTickCountForReplica"]
 old-location: winsync\isyncknowledge_findmintickcountforreplica.htm
 tech.root: winsync
 ms.assetid: 6a1a3fb2-b656-4ecf-8fed-dc5f20cd22f1

@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.CreatePalette
 title: CreatePalette function (wingdi.h)
-description: The CreatePalette function creates a logical palette.
+description: The CreatePalette function creates a logical palette.helpviewer_keywords: ["CreatePalette","CreatePalette function [Windows GDI]","_win32_CreatePalette","gdi.createpalette","wingdi/CreatePalette"]
 old-location: gdi\createpalette.htm
 tech.root: gdi
 ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be

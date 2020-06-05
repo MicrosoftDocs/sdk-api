@@ -1,7 +1,7 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.get_TSID
 title: IMPEG2TuneRequest::get_TSID (tuner.h)
-description: The get_TSID method retrieves the transport stream ID.
+description: The get_TSID method retrieves the transport stream ID.helpviewer_keywords: ["IMPEG2TuneRequest interface [Microsoft TV Technologies]","get_TSID method","IMPEG2TuneRequest.get_TSID","IMPEG2TuneRequest::get_TSID","IMPEG2TuneRequestget_TSID","get_TSID","get_TSID method [Microsoft TV Technologies]","get_TSID method [Microsoft TV Technologies]","IMPEG2TuneRequest interface","mstv.impeg2tunerequest_get_tsid","tuner/IMPEG2TuneRequest::get_TSID"]
 old-location: mstv\impeg2tunerequest_get_tsid.htm
 tech.root: mstv
 ms.assetid: 971e2643-e68f-4b4c-86e0-2e20e2f8a88c

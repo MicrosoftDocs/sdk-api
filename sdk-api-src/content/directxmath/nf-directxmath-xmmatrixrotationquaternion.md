@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMatrixRotationQuaternion
 title: XMMatrixRotationQuaternion function (directxmath.h)
-description: Builds a rotation matrix from a quaternion.
+description: Builds a rotation matrix from a quaternion.helpviewer_keywords: ["Use DirectX..XMMatrixRotationQuaternion","XMMatrixRotationQuaternion","XMMatrixRotationQuaternion method [DirectX Math Support APIs]","dxmath.xmmatrixrotationquaternion"]
 old-location: dxmath\xmmatrixrotationquaternion.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationQuaternion(XMVECTOR)

@@ -2,6 +2,7 @@
 UID: NF:mfidl.MFTranscodeGetAudioOutputAvailableTypes
 title: MFTranscodeGetAudioOutputAvailableTypes function (mfidl.h)
 description: Gets a list of output formats from an audio encoder.
+helpviewer_keywords: ["MFT_FIELDOFUSE_UNLOCK_Attribute","MFTranscodeGetAudioOutputAvailableTypes","MFTranscodeGetAudioOutputAvailableTypes function [Media Foundation]","MF_TRANSCODE_ENCODINGPROFILE","MF_TRANSCODE_QUALITYVSSPEED","mf.mftranscodegetaudiooutputavailabletypes","mfidl/MFTranscodeGetAudioOutputAvailableTypes"]
 old-location: mf\mftranscodegetaudiooutputavailabletypes.htm
 tech.root: medfound
 ms.assetid: 8750eacb-7e6f-4c17-987b-f4baa4eea847
@@ -64,7 +65,7 @@ Specifies the subtype of the output media. The encoder uses this value as a filt
 
 ### -param dwMFTFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 

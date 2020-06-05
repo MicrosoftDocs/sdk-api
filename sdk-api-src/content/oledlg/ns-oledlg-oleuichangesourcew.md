@@ -2,6 +2,7 @@
 UID: NS:oledlg.tagOLEUICHANGESOURCEW
 title: OLEUICHANGESOURCEW (oledlg.h)
 description: Contains information that is used to initialize the standard Change Source dialog box.
+helpviewer_keywords: ["*LPOLEUICHANGESOURCEW","*POLEUICHANGESOURCEW","CSF_ONLYGETSOURCE","CSF_SHOWHELP","CSF_VALIDSOURCE","LPOLEUICHANGESOURCE","LPOLEUICHANGESOURCE structure pointer [COM]","OLEUICHANGESOURCE","OLEUICHANGESOURCE structure [COM]","OLEUICHANGESOURCEA","OLEUICHANGESOURCEW","POLEUICHANGESOURCE","POLEUICHANGESOURCE structure pointer [COM]","_ole_OLEUICHANGESOURCE_str","com.oleuichangesource_struct","oledlg/LPOLEUICHANGESOURCE","oledlg/OLEUICHANGESOURCE","oledlg/OLEUICHANGESOURCEA","oledlg/OLEUICHANGESOURCEW","oledlg/POLEUICHANGESOURCE"]
 old-location: com\oleuichangesource_struct.htm
 tech.root: com
 ms.assetid: 440d120c-a121-471b-bee1-f23af136a664
@@ -126,7 +127,7 @@ Pointer to a hook function that processes messages intended for the dialog box. 
 
 ### -field lCustData
 
-Application-defined data that the library passes to the hook function pointed to by the [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
+Application-defined data that the library passes to the hook function pointed to by the [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
 
 
 ### -field hInstance
@@ -146,7 +147,7 @@ Resource handle for a custom dialog box. If this member is <b>NULL</b>, then the
 
 ### -field lpOFN
 
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure, which contains information used by the operating system to initialize the system-defined <b>Open</b> or <b>Save As</b> dialog boxes.
+Pointer to the <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure, which contains information used by the operating system to initialize the system-defined <b>Open</b> or <b>Save As</b> dialog boxes.
 
 
 ### -field dwReserved1

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcommon.ID3D10Blob.GetBufferPointer
 title: ID3D10Blob::GetBufferPointer (d3dcommon.h)
-description: Gets a pointer to the data.
+description: Gets a pointer to the data.helpviewer_keywords: ["GetBufferPointer","GetBufferPointer method [Direct3D 11]","GetBufferPointer method [Direct3D 11]","ID3D10Blob interface","ID3D10Blob interface [Direct3D 11]","GetBufferPointer method","ID3D10Blob.GetBufferPointer","ID3D10Blob::GetBufferPointer","d3dcommon/ID3D10Blob::GetBufferPointer","direct3d11.id3d10blob_getbufferpointer"]
 old-location: direct3d11\id3d10blob_getbufferpointer.htm
 tech.root: direct3d11
 ms.assetid: 21ABCED3-388E-41AD-B557-DA8707128B01

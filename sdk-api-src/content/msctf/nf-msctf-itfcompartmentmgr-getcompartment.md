@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.GetCompartment
 title: ITfCompartmentMgr::GetCompartment (msctf.h)
-description: ITfCompartmentMgr::GetCompartment method
+description: ITfCompartmentMgr::GetCompartment methodhelpviewer_keywords: ["GetCompartment","GetCompartment method [Text Services Framework]","GetCompartment method [Text Services Framework]","ITfCompartmentMgr interface","ITfCompartmentMgr interface [Text Services Framework]","GetCompartment method","ITfCompartmentMgr.GetCompartment","ITfCompartmentMgr::GetCompartment","_tsf_itfcompartmentmgr_getcompartment_ref","msctf/ITfCompartmentMgr::GetCompartment","tsf.itfcompartmentmgr_getcompartment"]
 old-location: tsf\itfcompartmentmgr_getcompartment.htm
 tech.root: TSF
 ms.assetid: 4f71815b-d352-4303-a3dd-180a71f9a5fe

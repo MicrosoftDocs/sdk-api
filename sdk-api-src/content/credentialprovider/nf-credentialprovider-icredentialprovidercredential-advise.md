@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.Advise
 title: ICredentialProviderCredential::Advise (credentialprovider.h)
-description: Enables a credential to initiate events in the Logon UI or Credential UI through a callback interface. This method should be called before other methods in ICredentialProviderCredential interface.
+description: Enables a credential to initiate events in the Logon UI or Credential UI through a callback interface. This method should be called before other methods in ICredentialProviderCredential interface.helpviewer_keywords: ["Advise","Advise method [Windows Shell]","Advise method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","Advise method","ICredentialProviderCredential.Advise","ICredentialProviderCredential::Advise","credentialprovider/ICredentialProviderCredential::Advise","shell.ICredentialProviderCredential_Advise","shell_ICredentialProviderCredential_Advise"]
 old-location: shell\ICredentialProviderCredential_Advise.htm
 tech.root: shell
 ms.assetid: 26db5ec5-78bf-4d88-90af-c822c8d3ce45

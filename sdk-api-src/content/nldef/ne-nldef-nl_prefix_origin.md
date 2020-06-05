@@ -1,7 +1,7 @@
 ---
 UID: NE:nldef.__unnamed_enum_0
 title: NL_PREFIX_ORIGIN (nldef.h)
-description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
+description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.helpviewer_keywords: ["IP_PREFIX_ORIGIN","IP_PREFIX_ORIGIN enumeration [IP Helper]","IpPrefixOriginDhcp","IpPrefixOriginManual","IpPrefixOriginOther","IpPrefixOriginRouterAdvertisement","IpPrefixOriginUnchanged","IpPrefixOriginWellKnown","NL_PREFIX_ORIGIN","iphlp.ip_prefix_origin","iptypes/IP_PREFIX_ORIGIN","iptypes/IpPrefixOriginDhcp","iptypes/IpPrefixOriginManual","iptypes/IpPrefixOriginOther","iptypes/IpPrefixOriginRouterAdvertisement","iptypes/IpPrefixOriginUnchanged","iptypes/IpPrefixOriginWellKnown","nldef/IP_PREFIX_ORIGIN","nldef/IpPrefixOriginDhcp","nldef/IpPrefixOriginManual","nldef/IpPrefixOriginOther","nldef/IpPrefixOriginRouterAdvertisement","nldef/IpPrefixOriginUnchanged","nldef/IpPrefixOriginWellKnown"]
 old-location: iphlp\ip_prefix_origin.htm
 tech.root: IpHlp
 ms.assetid: fd7e7bbb-8596-4a72-ba63-d898f0048a11

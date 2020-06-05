@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemServices.QueryObjectSink
 title: IWbemServices::QueryObjectSink (wbemcli.h)
-description: The IWbemServices::QueryObjectSink method allows the caller to obtain a notification handler that is exported by Windows Management.
+description: The IWbemServices::QueryObjectSink method allows the caller to obtain a notification handler that is exported by Windows Management.helpviewer_keywords: ["IWbemServices interface [Windows Management Instrumentation]","QueryObjectSink method","IWbemServices.QueryObjectSink","IWbemServices::QueryObjectSink","QueryObjectSink","QueryObjectSink method [Windows Management Instrumentation]","QueryObjectSink method [Windows Management Instrumentation]","IWbemServices interface","_hmm_iwbemservices_queryobjectsink","wbemcli/IWbemServices::QueryObjectSink","wmi.iwbemservices_queryobjectsink"]
 old-location: wmi\iwbemservices_queryobjectsink.htm
 tech.root: WmiSdk
 ms.assetid: 218b42f2-838d-4d8f-98d2-9334ec29d279

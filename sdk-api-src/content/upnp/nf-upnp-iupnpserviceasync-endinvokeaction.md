@@ -1,7 +1,7 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndInvokeAction
 title: IUPnPServiceAsync::EndInvokeAction (upnp.h)
-description: EndInvokeAction method retrieves the results of a previous BeginInvokeAction operation and retrieves the resultant output arguments.
+description: EndInvokeAction method retrieves the results of a previous BeginInvokeAction operation and retrieves the resultant output arguments.helpviewer_keywords: ["EndInvokeAction","EndInvokeAction method [UPnP APIs]","EndInvokeAction method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","EndInvokeAction method","IUPnPServiceAsync.EndInvokeAction","IUPnPServiceAsync::EndInvokeAction","upnp.iupnpserviceasync_endinvokeaction","upnp/IUPnPServiceAsync::EndInvokeAction"]
 old-location: upnp\iupnpserviceasync_endinvokeaction.htm
 tech.root: upnp
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C

@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsCompareStringOrdinal
 title: WindowsCompareStringOrdinal function (winstring.h)
 description: Compares two specified HSTRING objects and returns an integer that indicates their relative position in a sort order.
+helpviewer_keywords: ["WindowsCompareStringOrdinal","WindowsCompareStringOrdinal function [Windows Runtime]","winrt.windowscomparestringordinal","winstring/WindowsCompareStringOrdinal"]
 old-location: winrt\windowscomparestringordinal.htm
 tech.root: WinRT
 ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
@@ -47,44 +48,31 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsCompareStringOrdinal function
-
-
 ## -description
 
-
-Compares two specified <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> objects and returns an integer that indicates their relative position in a sort order.
-
+Compares two specified [**HSTRING**](/windows/win32/winrt/hstring) objects and returns an integer that indicates their relative position in a sort order.
 
 ## -parameters
 
+### -param string1
 
-
-
-### -param string1 [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The first string to compare.
 
+### -param string2
 
-### -param string2 [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The second string to compare.
 
+### -param result
 
-### -param result [out]
-
-Type: <b>INT32*</b>
+Type: [out] <b>INT32*</b>
 
 A value that indicates the lexical relationship between <i>string1</i> and <i>string2</i>. 
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -118,17 +106,10 @@ The  comparison was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use the <b>WindowsCompareStringOrdinal</b> function to compare two <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> objects. After the comparison completes, the  <i>result</i> out parameter contains one of three values.
-
+Use the <b>WindowsCompareStringOrdinal</b> function to compare two [**HSTRING**](/windows/win32/winrt/hstring) objects. After the comparison completes, the  <i>result</i> out parameter contains one of three values.
 
 <table>
 <tr>
@@ -148,9 +129,3 @@ Use the <b>WindowsCompareStringOrdinal</b> function to compare two <a href="http
 <td><i>string1</i> is greater than <i>string2</i>.</td>
 </tr>
 </table>
- 
-
-
-
-
-

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetFlags
 title: IMFASFSplitter::GetFlags (wmcontainer.h)
-description: Retrieves the option flags that are set on the ASF splitter.
+description: Retrieves the option flags that are set on the ASF splitter.helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetFlags method","IMFASFSplitter.GetFlags","IMFASFSplitter::GetFlags","ba008e4a-98ad-4633-8b80-1d2ffce04b9c","mf.imfasfsplitter_getflags","wmcontainer/IMFASFSplitter::GetFlags"]
 old-location: mf\imfasfsplitter_getflags.htm
 tech.root: medfound
 ms.assetid: ba008e4a-98ad-4633-8b80-1d2ffce04b9c

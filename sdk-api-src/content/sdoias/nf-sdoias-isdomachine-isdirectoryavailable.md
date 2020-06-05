@@ -1,7 +1,7 @@
 ---
 UID: NF:sdoias.ISdoMachine.IsDirectoryAvailable
 title: ISdoMachine::IsDirectoryAvailable (sdoias.h)
-description: The IsDirectoryAvailable method tests whether an Active Directory service is available on the SDO computer.
+description: The IsDirectoryAvailable method tests whether an Active Directory service is available on the SDO computer.helpviewer_keywords: ["ISdoMachine interface [Network Policy Server]","IsDirectoryAvailable method","ISdoMachine.IsDirectoryAvailable","ISdoMachine::IsDirectoryAvailable","IsDirectoryAvailable","IsDirectoryAvailable method [Network Policy Server]","IsDirectoryAvailable method [Network Policy Server]","ISdoMachine interface","IsDirectoryAvailable method [Network Policy Server]","SdoMachine object","SdoMachine object [Network Policy Server]","IsDirectoryAvailable method","_sdo_isdomachine_isdirectoryavailable","nps.SDO_isdomachine_isdirectoryavailable","sdo.isdomachine_isdirectoryavailable","sdoias/ISdoMachine::IsDirectoryAvailable"]
 old-location: nps\SDO_isdomachine_isdirectoryavailable.htm
 tech.root: Nps
 ms.assetid: 733d2911-7e1d-4f73-ae24-1bb748213c1c

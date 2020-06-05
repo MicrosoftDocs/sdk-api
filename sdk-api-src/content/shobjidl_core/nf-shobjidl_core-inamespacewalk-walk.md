@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.Walk
 title: INamespaceWalk::Walk (shobjidl_core.h)
-description: Initiates a recursive walk of the namespace from the specified root to the given depth.
+description: Initiates a recursive walk of the namespace from the specified root to the given depth.helpviewer_keywords: ["INamespaceWalk interface [Windows Shell]","Walk method","INamespaceWalk.Walk","INamespaceWalk::Walk","NSWF_ACCUMULATE_FOLDERS","NSWF_ANY_IMPLIES_ALL","NSWF_ASYNC","NSWF_DEFAULT","NSWF_DONT_ACCUMULATE_RESULT","NSWF_DONT_RESOLVE_LINKS","NSWF_DONT_SORT","NSWF_DONT_TRAVERSE_LINKS","NSWF_DONT_TRAVERSE_STREAM_JUNCTIONS","NSWF_FILESYSTEM_ONLY","NSWF_FLAG_VIEWORDER","NSWF_IGNORE_AUTOPLAY_HIDA","NSWF_NONE_IMPLIES_ALL","NSWF_ONE_IMPLIES_ALL","NSWF_SHOW_PROGRESS","NSWF_TRAVERSE_STREAM_JUNCTIONS","NSWF_USE_TRANSFER_MEDIUM","Walk","Walk method [Windows Shell]","Walk method [Windows Shell]","INamespaceWalk interface","_win32_INamespaceWalk_Walk","shell.INamespaceWalk_Walk","shobjidl_core/INamespaceWalk::Walk"]
 old-location: shell\INamespaceWalk_Walk.htm
 tech.root: shell
 ms.assetid: cfe328f4-6db5-423b-b944-f0f390359793

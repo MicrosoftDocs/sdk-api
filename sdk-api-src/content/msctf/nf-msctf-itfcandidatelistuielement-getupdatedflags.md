@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetUpdatedFlags
 title: ITfCandidateListUIElement::GetUpdatedFlags (msctf.h)
-description: The ITfCandidateListUIElement::GetUpdatedFlags method returns the flag that tells which part of this element was updated.
+description: The ITfCandidateListUIElement::GetUpdatedFlags method returns the flag that tells which part of this element was updated.helpviewer_keywords: ["GetUpdatedFlags","GetUpdatedFlags method [Text Services Framework]","GetUpdatedFlags method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetUpdatedFlags method","ITfCandidateListUIElement.GetUpdatedFlags","ITfCandidateListUIElement::GetUpdatedFlags","TF_CLUIE_COUNT","TF_CLUIE_CURRENTPAGE","TF_CLUIE_DOCUMENTMGR","TF_CLUIE_PAGEINDEX","TF_CLUIE_SELECTION","TF_CLUIE_STRING","msctf/ITfCandidateListUIElement::GetUpdatedFlags","tsf.itfcandidatelistuielement_getupdatedflags"]
 old-location: tsf\itfcandidatelistuielement_getupdatedflags.htm
 tech.root: TSF
 ms.assetid: 618bf940-3145-4da5-a253-620b17b045c8

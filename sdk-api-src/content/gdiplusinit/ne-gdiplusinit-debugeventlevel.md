@@ -1,0 +1,49 @@
+---
+UID: NE:gdiplusinit.DebugEventLevel
+title: DebugEventLevel
+ms.date: 05/07/2020
+ms.topic: language-reference
+targetos: Windows
+description: Defines constants that specify a debug event level.
+req.construct-type: enumeration
+req.ddi-compliance: 
+req.header: gdiplusinit.h
+req.include-header: 
+req.kmdf-ver: 
+req.max-support: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: 
+req.umdf-ver: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusinit.h
+api_name:
+ - DebugEventLevel
+f1_keywords:
+ - gdiplusinit/DebugEventLevel
+dev_langs:
+ - c++
+---
+
+## -description
+
+Defines constants that specify a debug event level.
+
+## -enum-fields
+
+### -field DebugEventLevelFatal
+
+Specifies the *fatal* debug event level.
+
+### -field DebugEventLevelWarning
+
+Specifies the *warning* debug event level.
+
+## -remarks
+
+## -see-also

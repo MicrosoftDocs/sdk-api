@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.CancelDownload
 title: IDWriteFontDownloadQueue::CancelDownload (dwrite_3.h)
-description: Removes all download requests from the queue and cancels any active download operations.
+description: Removes all download requests from the queue and cancels any active download operations.helpviewer_keywords: ["CancelDownload","CancelDownload method [Direct Write]","CancelDownload method [Direct Write]","IDWriteFontDownloadQueue interface","IDWriteFontDownloadQueue interface [Direct Write]","CancelDownload method","IDWriteFontDownloadQueue.CancelDownload","IDWriteFontDownloadQueue::CancelDownload","directwrite.idwritefontdownloadqueue_canceldownload","dwrite_3/IDWriteFontDownloadQueue::CancelDownload"]
 old-location: directwrite\idwritefontdownloadqueue_canceldownload.htm
 tech.root: DirectWrite
 ms.assetid: f2ecabcf-3301-d446-8eda-4536b3f9b5e3

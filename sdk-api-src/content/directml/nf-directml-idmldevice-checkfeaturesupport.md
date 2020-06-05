@@ -1,7 +1,7 @@
 ---
 UID: NF:directml.IDMLDevice.CheckFeatureSupport
 title: IDMLDevice::CheckFeatureSupport
-description: Gets information about the optional features and capabilities that are supported by the DirectML device.
+description: Gets information about the optional features and capabilities that are supported by the DirectML device.helpviewer_keywords: ["CheckFeatureSupport","CheckFeatureSupport method","CheckFeatureSupport method","IDMLDevice interface","IDMLDevice interface","CheckFeatureSupport method","IDMLDevice.CheckFeatureSupport","IDMLDevice::CheckFeatureSupport","direct3d12.idmldevice_checkfeaturesupport","directml/IDMLDevice::CheckFeatureSupport"]
 old-location: direct3d12\idmldevice_checkfeaturesupport.htm
 tech.root: direct3d12
 ms.assetid: 7EDF00C2-332F-4DC3-B71D-EE8CDCB7E92D

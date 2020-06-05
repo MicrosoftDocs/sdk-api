@@ -2,6 +2,7 @@
 UID: NN:appxpackaging.IAppxBlockMapFile
 title: IAppxBlockMapFile (appxpackaging.h)
 description: Represents a file in the block map.
+helpviewer_keywords: ["IAppxBlockMapFile","IAppxBlockMapFile interface [App packaging and management]","IAppxBlockMapFile interface [App packaging and management]","described","appxpackaging/IAppxBlockMapFile","appxpkg.iappxblockmapfile"]
 old-location: appxpkg\iappxblockmapfile.htm
 tech.root: appxpkg
 ms.assetid: 4C380E2F-8125-4147-97F5-BEDF5BEFB81D
@@ -121,10 +122,7 @@ Validates the content of a file against the hashes stored in the block elements 
 
 The <b>IAppxBlockMapFile</b> interface provides a read-only object model that represents the files in the block map. Files are represented in the block map file with the <b>File</b> element. You can retrieve the file's attributes and block hashes from the <b>File</b> element. Block hashes can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a> interface.
 
-
-#### Examples
-
-For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>.
+For a code example, see the [Query app package and app manifest sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx).
 
 <div class="code"></div>
 
@@ -151,16 +149,5 @@ For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
-
-
-
-<b>Reference</b>
-
-
-
-<b>Samples</b>
- 
-
- 
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx">Query app package and app manifest sample</a>
 

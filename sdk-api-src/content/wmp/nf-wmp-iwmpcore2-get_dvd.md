@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPCore2.get_dvd
 title: IWMPCore2::get_dvd (wmp.h)
-description: The get_dvd method retrieves a pointer to an IWMPDVD interface.
+description: The get_dvd method retrieves a pointer to an IWMPDVD interface.helpviewer_keywords: ["IWMPCore2 interface [Windows Media Player]","get_dvd method","IWMPCore2.get_dvd","IWMPCore2::get_dvd","IWMPCore2get_dvd","get_dvd","get_dvd method [Windows Media Player]","get_dvd method [Windows Media Player]","IWMPCore2 interface","wmp.iwmpcore2_get_dvd","wmp/IWMPCore2::get_dvd"]
 old-location: wmp\iwmpcore2_get_dvd.htm
 tech.root: WMP
 ms.assetid: b20a0661-b54b-4953-81df-499c19611a15

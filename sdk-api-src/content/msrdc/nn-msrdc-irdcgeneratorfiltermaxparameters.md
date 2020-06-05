@@ -1,7 +1,7 @@
 ---
 UID: NN:msrdc.IRdcGeneratorFilterMaxParameters
 title: IRdcGeneratorFilterMaxParameters (msrdc.h)
-description: Sets and retrieves parameters used by the FilterMax generator.
+description: Sets and retrieves parameters used by the FilterMax generator.helpviewer_keywords: ["IRdcGeneratorFilterMaxParameters","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","described","fs.irdcgeneratorfiltermaxparameters","msrdc/IRdcGeneratorFilterMaxParameters","rdc.irdcgeneratorfiltermaxparameters"]
 old-location: rdc\irdcgeneratorfiltermaxparameters.htm
 tech.root: rdc
 ms.assetid: 6767ab24-2bb6-48bf-8f12-794d8b22e2b7

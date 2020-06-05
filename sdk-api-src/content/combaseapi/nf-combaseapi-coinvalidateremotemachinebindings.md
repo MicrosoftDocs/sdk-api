@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.CoInvalidateRemoteMachineBindings
 title: CoInvalidateRemoteMachineBindings function (combaseapi.h)
-description: Tells the service control manager to flush any cached RPC binding handles for the specified computer.
+description: Tells the service control manager to flush any cached RPC binding handles for the specified computer.helpviewer_keywords: ["CoInvalidateRemoteMachineBindings","CoInvalidateRemoteMachineBindings function [COM]","_com_CoInvalidateRemoteMachineBindings","com.coinvalidateremotemachinebindings","combaseapi/CoInvalidateRemoteMachineBindings"]
 old-location: com\coinvalidateremotemachinebindings.htm
 tech.root: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99

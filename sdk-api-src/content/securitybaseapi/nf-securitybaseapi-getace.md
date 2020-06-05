@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.GetAce
 title: GetAce function (securitybaseapi.h)
-description: Obtains a pointer to an access control entry (ACE) in an access control list (ACL).
+description: Obtains a pointer to an access control entry (ACE) in an access control list (ACL).helpviewer_keywords: ["GetAce","GetAce function [Security]","_win32_getace","security.getace","securitybaseapi/GetAce"]
 old-location: security\getace.htm
 tech.root: SecAuthZ
 ms.assetid: 5b5d8751-20d7-40a2-bd70-cfbe956aaa03

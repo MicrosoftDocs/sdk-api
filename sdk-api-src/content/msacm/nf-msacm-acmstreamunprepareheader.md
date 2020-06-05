@@ -2,6 +2,7 @@
 UID: NF:msacm.acmStreamUnprepareHeader
 title: acmStreamUnprepareHeader function (msacm.h)
 description: The acmStreamUnprepareHeader function cleans up the preparation performed by the acmStreamPrepareHeader function for an ACM stream.
+helpviewer_keywords: ["_win32_acmStreamUnprepareHeader","acmStreamUnprepareHeader","acmStreamUnprepareHeader function [Windows Multimedia]","msacm/acmStreamUnprepareHeader","multimedia.acmstreamunprepareheader"]
 old-location: multimedia\acmstreamunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 6d693a74-13b6-4923-8267-2e2ecebf78e5
@@ -68,7 +69,7 @@ Handle to the conversion steam.
 
 ### -param pash
 
-Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure that identifies the source and destination buffers to be unprepared.
+Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure that identifies the source and destination buffers to be unprepared.
 
 
 ### -param fdwUnprepare

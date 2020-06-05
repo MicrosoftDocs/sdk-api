@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Vector3F
 title: Vector3F function (d2d1_1helper.h)
-description: Returns a filled D2D1_VECTOR_3F structure.
+description: Returns a filled D2D1_VECTOR_3F structure.helpviewer_keywords: ["Vector3F","Vector3F function [Direct2D]","d2d1_1helper/Vector3F","direct2d.vector3f"]
 old-location: direct2d\vector3f.htm
 tech.root: Direct2D
 ms.assetid: C2842DD9-A70E-4B7C-AFF5-3B95631800A3

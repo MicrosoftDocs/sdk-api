@@ -2,6 +2,7 @@
 UID: NF:mfapi.MFTEnum
 title: MFTEnum function (mfapi.h)
 description: Enumerates Media Foundation transforms (MFTs) in the registry.
+helpviewer_keywords: ["MFTEnum","MFTEnum function [Media Foundation]","a3bd2b3c-0b0b-4d64-99cc-6093c773f71c","mf.mftenum","mfapi/MFTEnum"]
 old-location: mf\mftenum.htm
 tech.root: medfound
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c
@@ -74,14 +75,14 @@ Reserved. Must be zero.
 
 ### -param pInputType [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
+Pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all input types are matched.
 
 
 ### -param pOutputType [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
+Pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
 
 This parameter can be <b>NULL</b>.
           If <b>NULL</b>, all output types are matched.

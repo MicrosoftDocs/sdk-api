@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistRemoved
 title: IWMPEvents::PlaylistCollectionPlaylistRemoved (wmp.h)
-description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection.
+description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PlaylistCollectionPlaylistRemoved method","IWMPEvents.PlaylistCollectionPlaylistRemoved","IWMPEvents::PlaylistCollectionPlaylistRemoved","IWMPEventsPlaylistCollectionPlaylistRemoved","PlaylistCollectionPlaylistRemoved","PlaylistCollectionPlaylistRemoved method [Windows Media Player]","PlaylistCollectionPlaylistRemoved method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__playlistcollectionplaylistremoved","wmp/IWMPEvents::PlaylistCollectionPlaylistRemoved"]
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistremoved.htm
 tech.root: WMP
 ms.assetid: 53b7e883-f392-4a07-8952-ab7a6e9c436e

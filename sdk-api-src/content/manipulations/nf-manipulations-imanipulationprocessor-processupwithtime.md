@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessUpWithTime
 title: IManipulationProcessor::ProcessUpWithTime (manipulations.h)
-description: Feeds data, including a timestamp, to a target's manipulation processor for touch-up sequences.
+description: Feeds data, including a timestamp, to a target's manipulation processor for touch-up sequences.helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","ProcessUpWithTime method","IManipulationProcessor.ProcessUpWithTime","IManipulationProcessor::ProcessUpWithTime","ProcessUpWithTime","ProcessUpWithTime method [Windows Touch]","ProcessUpWithTime method [Windows Touch]","IManipulationProcessor interface","manipulations/IManipulationProcessor::ProcessUpWithTime","wintouch.imanpiulationprocessor_processupwithtime"]
 old-location: wintouch\imanpiulationprocessor_processupwithtime.htm
 tech.root: wintouch
 ms.assetid: fafea353-9126-454d-9311-4859e5ae5712

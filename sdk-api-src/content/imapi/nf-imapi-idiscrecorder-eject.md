@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi.IDiscRecorder.Eject
 title: IDiscRecorder::Eject (imapi.h)
-description: Unlocks and ejects the tray of the disc recorder, if possible.
+description: Unlocks and ejects the tray of the disc recorder, if possible.helpviewer_keywords: ["Eject","Eject method [IMAPI]","Eject method [IMAPI]","IDiscRecorder interface","IDiscRecorder interface [IMAPI]","Eject method","IDiscRecorder.Eject","IDiscRecorder::Eject","_win32_idiscrecorder_eject","base.idiscrecorder_eject","imapi.idiscrecorder_eject","imapi/IDiscRecorder::Eject"]
 old-location: imapi\idiscrecorder_eject.htm
 tech.root: imapi
 ms.assetid: 29a40f49-1567-4198-b682-a0e314858baf

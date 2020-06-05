@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPGETOVERLAPPEDRESULT
 title: LPWSPGETOVERLAPPEDRESULT
-description: The LPWSPGetOverlappedResult function returns the results of an overlapped operation on the specified socket.
+description: The LPWSPGetOverlappedResult function returns the results of an overlapped operation on the specified socket.helpviewer_keywords: ["LPWSPGETOVERLAPPEDRESULT"]
 ms.date: 4/26/2019
 ms.keywords: LPWSPGETOVERLAPPEDRESULT
 targetos: Windows

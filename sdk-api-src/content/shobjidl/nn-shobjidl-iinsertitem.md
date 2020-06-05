@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IInsertItem
 title: IInsertItem (shobjidl.h)
-description: IInsertItem may be altered or unavailable.
+description: IInsertItem may be altered or unavailable.helpviewer_keywords: ["IInsertItem","IInsertItem interface [Windows Shell]","IInsertItem interface [Windows Shell]","described","shell.IInsertItem","shell_IInsertItem","shobjidl/IInsertItem"]
 old-location: shell\IInsertItem.htm
 tech.root: shell
 ms.assetid: f90fdd7b-1f51-4f92-8c1a-68e8b76f723f

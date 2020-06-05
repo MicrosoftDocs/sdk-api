@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterRemoveGroupFromGroupSet
 title: ClusterRemoveGroupFromGroupSet function (clusapi.h)
-description: Removes the specified group from the groupset to which it is currently a member.
+description: Removes the specified group from the groupset to which it is currently a member.helpviewer_keywords: ["ClusterRemoveGroupFromGroupSet","ClusterRemoveGroupFromGroupSet function [Failover Cluster]","PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET","PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET function [Failover Cluster]","clusapi/ClusterRemoveGroupFromGroupSet","clusapi/PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET","mscs.clusterremovegroupfromgroupcollection"]
 old-location: mscs\clusterremovegroupfromgroupcollection.htm
 tech.root: MsCS
 ms.assetid: 26fdf045-0c7d-49ca-adc4-2f687e85b858

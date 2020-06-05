@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetRenderTargets
 title: ID3D10Device::OMSetRenderTargets (d3d10.h)
-description: Bind one or more render targets and the depth-stencil buffer to the output-merger stage.
+description: Bind one or more render targets and the depth-stencil buffer to the output-merger stage.helpviewer_keywords: ["1a066759-273f-afca-4fed-6d836735ff9f","ID3D10Device interface [Direct3D 10]","OMSetRenderTargets method","ID3D10Device.OMSetRenderTargets","ID3D10Device::OMSetRenderTargets","OMSetRenderTargets","OMSetRenderTargets method [Direct3D 10]","OMSetRenderTargets method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::OMSetRenderTargets","direct3d10.id3d10device_omsetrendertargets"]
 old-location: direct3d10\id3d10device_omsetrendertargets.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetrendertargets.htm

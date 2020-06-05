@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.OnSelect
 title: IMenuPopup::OnSelect (shobjidl_core.h)
-description: Handles selection notifications.
+description: Handles selection notifications.helpviewer_keywords: ["IMenuPopup interface [Windows Shell]","OnSelect method","IMenuPopup.OnSelect","IMenuPopup::OnSelect","MPOS_CANCELLEVEL","MPOS_CHILDTRACKING","MPOS_EXECUTE","MPOS_FULLCANCEL","MPOS_SELECTLEFT","MPOS_SELECTRIGHT","OnSelect","OnSelect method [Windows Shell]","OnSelect method [Windows Shell]","IMenuPopup interface","_win32_IMenuPopup_OnSelect","shell.IMenuPopup_OnSelect","shobjidl_core/IMenuPopup::OnSelect"]
 old-location: shell\IMenuPopup_OnSelect.htm
 tech.root: shell
 ms.assetid: 972e8a08-e1ce-4bd2-b602-20b7b1acb71f

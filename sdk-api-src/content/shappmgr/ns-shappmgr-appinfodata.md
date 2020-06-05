@@ -1,7 +1,7 @@
 ---
 UID: NS:shappmgr._AppInfoData
 title: APPINFODATA (shappmgr.h)
-description: Provides information about a published application to the Add/Remove Programs Control Panel utility.
+description: Provides information about a published application to the Add/Remove Programs Control Panel utility.helpviewer_keywords: ["*PAPPINFODATA","APPINFODATA","APPINFODATA structure [Windows Shell]","inet_APPINFODATA","shappmgr/APPINFODATA","shell.APPINFODATA"]
 old-location: shell\APPINFODATA.htm
 tech.root: shell
 ms.assetid: 3560b088-d899-4fb2-a47c-101f8f5e3bf7

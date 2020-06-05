@@ -2,6 +2,7 @@
 UID: NF:netioapi.GetIpNetworkConnectionBandwidthEstimates
 title: GetIpNetworkConnectionBandwidthEstimates function (netioapi.h)
 description: Retrieves historical bandwidth estimates for a network connection on the specified interface.
+helpviewer_keywords: ["AF_INET","AF_INET6","GetIpNetworkConnectionBandwidthEstimates","GetIpNetworkConnectionBandwidthEstimates function [IP Helper]","iphlp.getipnetworkconnectionbandwidthestimates","netioapi/GetIpNetworkConnectionBandwidthEstimates"]
 old-location: iphlp\getipnetworkconnectionbandwidthestimates.htm
 tech.root: IpHlp
 ms.assetid: FE60AF0D-15B0-4223-8AE1-3E65483A1C5F
@@ -184,7 +185,7 @@ On input, the <i>AddressFamily</i> parameter must be initialized to either <b>AF
 
     A value must be set for the  <i>InterfaceIndex</i> parameter (the value of this parameter must not be set to zero). 
 
-On output, the <a href="https://docs.microsoft.com/windows/win32/api/netioapi/ns-netioapi-mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
+On output, the <a href="/windows/win32/api/netioapi/ns-netioapi-mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
 
 The <b>GetIpNetworkConnectionBandwidthEstimates</b> function returns historical estimates of available bandwidth at the point of attachment (the first hop) for use by an application. The estimates are intended as a guide to tune performance parameters and the application should maintain thresholds and differentiate behavior for low and high bandwidth situations. 
 
@@ -211,7 +212,7 @@ The <i>Netioapi.h</i> header file is automatically included by the <i>Iphlpapi.h
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/netioapi/ns-netioapi-mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
+<a href="/windows/win32/api/netioapi/ns-netioapi-mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
 
 
 

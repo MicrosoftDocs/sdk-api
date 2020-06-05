@@ -2,6 +2,7 @@
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_V1
 title: CLAIM_SECURITY_ATTRIBUTE_V1 (winnt.h)
 description: Defines a security attribute that can be associated with a token or authorization context.
+helpviewer_keywords: ["*PCLAIM_SECURITY_ATTRIBUTE_V1","CLAIM_SECURITY_ATTRIBUTE_DISABLED","CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT","CLAIM_SECURITY_ATTRIBUTE_MANDATORY","CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE","CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN","CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN","CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64","CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING","CLAIM_SECURITY_ATTRIBUTE_TYPE_SID","CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING","CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64","CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY","CLAIM_SECURITY_ATTRIBUTE_V1","CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security]","CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE","PCLAIM_SECURITY_ATTRIBUTE_V1","PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security]","_CLAIM_SECURITY_ATTRIBUTE_V1","security.claim_security_attribute_v1","winnt/CLAIM_SECURITY_ATTRIBUTE_V1","winnt/PCLAIM_SECURITY_ATTRIBUTE_V1"]
 old-location: security\claim_security_attribute_v1.htm
 tech.root: SecAuthZ
 ms.assetid: FDBB9B00-01C3-474A-81FF-97C5CBA3261B
@@ -122,7 +123,7 @@ The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values where the <b>pValue</b> member of each <b>CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</b> is a <b>PSID</b>.
+The <b>Values</b> member refers to an array of <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values where the <b>pValue</b> member of each <b>CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</b> is a <b>PSID</b>.
 
 </td>
 </tr>
@@ -144,7 +145,7 @@ The <b>Values</b> member refers to an array of <b>ULONG64</b> values where each 
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
@@ -268,7 +269,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is a fully qu
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 
 
 ## -see-also

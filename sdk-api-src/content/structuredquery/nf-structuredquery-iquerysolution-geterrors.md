@@ -2,6 +2,7 @@
 UID: NF:structuredquery.IQuerySolution.GetErrors
 title: IQuerySolution::GetErrors (structuredquery.h)
 description: Identifies parts of the input string that the parser did not recognize or did not use when constructing the IQuerySolution condition tree.
+helpviewer_keywords: ["GetErrors","GetErrors method [search]","GetErrors method [search]","IQuerySolution interface","IQuerySolution interface [search]","GetErrors method","IQuerySolution.GetErrors","IQuerySolution::GetErrors","_search_IQuerySolution_GetErrors","search._search_IQuerySolution_GetErrors","structuredquery/IQuerySolution::GetErrors"]
 old-location: search\_search_IQuerySolution_GetErrors.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
@@ -90,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
  
-        Each parsing error is represented by an <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
+        Each parsing error is represented by an <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
       
 
 The valid values for <i>riid</i> are __uuidof(IEnumUnknown) and __uuidof(IEnumVARIANT).

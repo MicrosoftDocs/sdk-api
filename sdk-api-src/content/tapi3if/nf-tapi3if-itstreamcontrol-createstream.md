@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITStreamControl.CreateStream
 title: ITStreamControl::CreateStream (tapi3if.h)
-description: The CreateStream method creates a new media stream.
+description: The CreateStream method creates a new media stream.helpviewer_keywords: ["CreateStream","CreateStream method [TAPI 2.2]","CreateStream method [TAPI 2.2]","ITStreamControl interface","ITStreamControl interface [TAPI 2.2]","CreateStream method","ITStreamControl.CreateStream","ITStreamControl::CreateStream","_tapi3_itstreamcontrol_createstream","tapi3.itstreamcontrol_createstream","tapi3if/ITStreamControl::CreateStream"]
 old-location: tapi3\itstreamcontrol_createstream.htm
 tech.root: Tapi
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a

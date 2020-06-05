@@ -1,7 +1,7 @@
 ---
 UID: NF:coml2api.CreateILockBytesOnHGlobal
 title: CreateILockBytesOnHGlobal function (coml2api.h)
-description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.
+description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.helpviewer_keywords: ["CreateILockBytesOnHGlobal","CreateILockBytesOnHGlobal function [Structured Storage]","_stg_createilockbytesonhglobal","coml2api/CreateILockBytesOnHGlobal","stg.createilockbytesonhglobal"]
 old-location: stg\createilockbytesonhglobal.htm
 tech.root: Stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c

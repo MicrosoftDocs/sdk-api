@@ -2,6 +2,7 @@
 UID: NF:vds.IVdsOpenVDisk.Attach
 title: IVdsOpenVDisk::Attach (vds.h)
 description: Attaches a virtual disk.
+helpviewer_keywords: ["ATTACH_VIRTUAL_DISK_FLAG_NONE","ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER","ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST","ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME","ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY","Attach","Attach method","Attach method","IVdsOpenVDisk interface","IVdsOpenVDisk interface","Attach method","IVdsOpenVDisk.Attach","IVdsOpenVDisk::Attach","base.ivdsopenvdisk_attach","vds/IVdsOpenVDisk::Attach"]
 old-location: base\ivdsopenvdisk_attach.htm
 tech.root: VDS
 ms.assetid: 02647fe6-b94c-43ac-939c-262cea2c49d4
@@ -67,7 +68,7 @@ A string that contains the security descriptor for the virtual disk. If not spec
 
 ### -param Flags [in]
 
-A bitmask  of  [ATTACH_VIRTUAL_DISK_FLAG](/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag)a> enumeration values specifying how the virtual disk is to be attached. Possible values include the following.
+A bitmask  of  [ATTACH_VIRTUAL_DISK_FLAG](/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag) enumeration values specifying how the virtual disk is to be attached. Possible values include the following.
 
 <table>
 <tr>

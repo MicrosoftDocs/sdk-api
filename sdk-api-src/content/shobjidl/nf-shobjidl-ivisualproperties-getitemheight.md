@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetItemHeight
 title: IVisualProperties::GetItemHeight (shobjidl.h)
-description: Gets the item height.
+description: Gets the item height.helpviewer_keywords: ["GetItemHeight","GetItemHeight method [Windows Shell]","GetItemHeight method [Windows Shell]","IVisualProperties interface","IVisualProperties interface [Windows Shell]","GetItemHeight method","IVisualProperties.GetItemHeight","IVisualProperties::GetItemHeight","_shell_IVisualProperties_GetItemHeight","shell.IVisualProperties_GetItemHeight","shobjidl/IVisualProperties::GetItemHeight"]
 old-location: shell\IVisualProperties_GetItemHeight.htm
 tech.root: shell
 ms.assetid: 18a42f90-48de-4ac3-8904-4b56d559377e

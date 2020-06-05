@@ -2,6 +2,7 @@
 UID: NE:virtdisk._MIRROR_VIRTUAL_DISK_VERSION
 title: MIRROR_VIRTUAL_DISK_VERSION (virtdisk.h)
 description: Contains the version of the virtual disk MIRROR_VIRTUAL_DISK_PARAMETERS structure used by the MirrorVirtualDisk function.
+helpviewer_keywords: ["MIRROR_VIRTUAL_DISK_VERSION","MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD]","MIRROR_VIRTUAL_DISK_VERSION_1","MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED","vdssys/MIRROR_VIRTUAL_DISK_VERSION","vdssys/MIRROR_VIRTUAL_DISK_VERSION_1","vdssys/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED","vhd.mirror_virtual_disk_version","virtdisk/MIRROR_VIRTUAL_DISK_VERSION","virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1","virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED"]
 old-location: vhd\mirror_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 42045e2b-3e3b-4497-b6bb-18f360139c18
@@ -51,8 +52,8 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
-     used by the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a> 
+     <a href="/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+     used by the <a href="/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a> 
      function.
 
 
@@ -76,11 +77,11 @@ Use the <b>Version1</b> member.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="/windows/win32/api/virtdisk/ns-virtdisk-mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_TARGET_VIEW_DESC
 title: D3D12_RENDER_TARGET_VIEW_DESC (d3d12.h)
-description: Describes the subresources from a resource that are accessible by using a render-target view.
+description: Describes the subresources from a resource that are accessible by using a render-target view.helpviewer_keywords: ["D3D12_RENDER_TARGET_VIEW_DESC","D3D12_RENDER_TARGET_VIEW_DESC structure","d3d12/D3D12_RENDER_TARGET_VIEW_DESC","direct3d12.d3d12_render_target_view_desc"]
 old-location: direct3d12\d3d12_render_target_view_desc.htm
 tech.root: direct3d12
 ms.assetid: D8602EB9-70EB-4A4E-8D8D-A2016335AAC6

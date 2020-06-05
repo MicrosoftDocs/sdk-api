@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.CloseClusterNetInterface
 title: CloseClusterNetInterface function (clusapi.h)
-description: Closes a network interface handle.
+description: Closes a network interface handle.helpviewer_keywords: ["CloseClusterNetInterface","CloseClusterNetInterface function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE","PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE function [Failover Cluster]","_wolf_closeclusternetinterface","clusapi/CloseClusterNetInterface","clusapi/PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE","mscs.closeclusternetinterface"]
 old-location: mscs\closeclusternetinterface.htm
 tech.root: MsCS
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e

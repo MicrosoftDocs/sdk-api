@@ -1,7 +1,7 @@
 ---
 UID: NE:rpcasync.tagRpcLocalAddressFormat
 title: RpcLocalAddressFormat (rpcasync.h)
-description: Specifies the possible local IP address formats supported by RPC.
+description: Specifies the possible local IP address formats supported by RPC.helpviewer_keywords: ["RpcLocalAddressFormat","RpcLocalAddressFormat enumeration [RPC]","rlafIPv4","rlafIPv6","rlafInvalid","rpc.rpclocaladdressformat","rpcasync/RpcLocalAddressFormat","rpcasync/rlafIPv4","rpcasync/rlafIPv6","rpcasync/rlafInvalid"]
 old-location: rpc\rpclocaladdressformat.htm
 tech.root: Rpc
 ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8

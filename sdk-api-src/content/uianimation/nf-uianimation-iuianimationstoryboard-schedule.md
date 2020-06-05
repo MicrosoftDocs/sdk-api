@@ -2,6 +2,7 @@
 UID: NF:uianimation.IUIAnimationStoryboard.Schedule
 title: IUIAnimationStoryboard::Schedule (uianimation.h)
 description: Directs the storyboard to schedule itself for play.
+helpviewer_keywords: ["IUIAnimationStoryboard interface [Windows Animation]","Schedule method","IUIAnimationStoryboard.Schedule","IUIAnimationStoryboard::Schedule","Schedule","Schedule method [Windows Animation]","Schedule method [Windows Animation]","IUIAnimationStoryboard interface","uianimation.iuianimationstoryboard_schedule","uianimation/IUIAnimationStoryboard::Schedule"]
 old-location: uianimation\iuianimationstoryboard_schedule.htm
 tech.root: UIAnimation
 ms.assetid: b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8
@@ -167,11 +168,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_scheduling_result">UI_ANIMATION_SCHEDULING_RESULT</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_scheduling_result">UI_ANIMATION_SCHEDULING_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

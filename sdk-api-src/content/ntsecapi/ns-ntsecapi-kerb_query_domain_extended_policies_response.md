@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
 title: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE (ntsecapi.h)
-description: Contains the results of querying for the extended policies of the specified domain.
+description: Contains the results of querying for the extended policies of the specified domain.helpviewer_keywords: ["*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE","KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE","KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure [Security]","KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED","PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE","PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure pointer [Security]","ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE","ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE","security.kerb_query_domain_extended_policies_response"]
 old-location: security\kerb_query_domain_extended_policies_response.htm
 tech.root: SecAuthN
 ms.assetid: 4BFF08D8-9D5E-4041-9DF6-AAE44292C135

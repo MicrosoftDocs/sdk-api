@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.CheckPolicy
 title: IAttachmentExecute::CheckPolicy (shobjidl_core.h)
-description: Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
+description: Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.helpviewer_keywords: ["CheckPolicy","CheckPolicy method [Windows Shell]","CheckPolicy method [Windows Shell]","IAttachmentExecute interface","IAttachmentExecute interface [Windows Shell]","CheckPolicy method","IAttachmentExecute.CheckPolicy","IAttachmentExecute::CheckPolicy","_win32_IAttachmentExecute_CheckPolicy","shell.IAttachmentExecute_CheckPolicy","shobjidl_core/IAttachmentExecute::CheckPolicy"]
 old-location: shell\IAttachmentExecute_CheckPolicy.htm
 tech.root: shell
 ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a

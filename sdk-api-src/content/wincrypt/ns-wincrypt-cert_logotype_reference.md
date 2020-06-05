@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_REFERENCE
 title: CERT_LOGOTYPE_REFERENCE (wincrypt.h)
-description: Contains logotype reference information.
+description: Contains logotype reference information.helpviewer_keywords: ["*PCERT_LOGOTYPE_REFERENCE","CERT_LOGOTYPE_REFERENCE","CERT_LOGOTYPE_REFERENCE structure [Security]","PCERT_LOGOTYPE_REFERENCE","PCERT_LOGOTYPE_REFERENCE structure pointer [Security]","security.cert_logotype_reference","wincrypt/CERT_LOGOTYPE_REFERENCE","wincrypt/PCERT_LOGOTYPE_REFERENCE"]
 old-location: security\cert_logotype_reference.htm
 tech.root: SecCrypto
 ms.assetid: 22e6492e-afc2-4160-ad6c-0b65265eafeb

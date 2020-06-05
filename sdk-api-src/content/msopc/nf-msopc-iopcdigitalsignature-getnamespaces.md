@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetNamespaces
 title: IOpcDigitalSignature::GetNamespaces (msopc.h)
-description: Gets the prefix and namespace mapping of the Signature element of the signature markup.
+description: Gets the prefix and namespace mapping of the Signature element of the signature markup.helpviewer_keywords: ["GetNamespaces","GetNamespaces method [Open Packaging Conventions]","GetNamespaces method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetNamespaces method","IOpcDigitalSignature.GetNamespaces","IOpcDigitalSignature::GetNamespaces","msopc/IOpcDigitalSignature::GetNamespaces","opc.iopcdigitalsignature_getnamespaces"]
 old-location: opc\iopcdigitalsignature_getnamespaces.htm
 tech.root: OPC
 ms.assetid: c9360d23-1eac-4bb1-ae40-c157f1a79621

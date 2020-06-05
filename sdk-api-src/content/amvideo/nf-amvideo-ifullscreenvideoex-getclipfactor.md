@@ -1,7 +1,7 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetClipFactor
 title: IFullScreenVideoEx::GetClipFactor (amvideo.h)
-description: The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.
+description: The GetClipFactor method retrieves the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip. For example, if the clip factor is 25, the Full Screen Renderer can clip up to 25% of the video.helpviewer_keywords: ["GetClipFactor","GetClipFactor method [DirectShow]","GetClipFactor method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetClipFactor method","IFullScreenVideoEx.GetClipFactor","IFullScreenVideoEx::GetClipFactor","IFullScreenVideoGetClipFactor","amvideo/IFullScreenVideoEx::GetClipFactor","dshow.ifullscreenvideoex_getclipfactor"]
 old-location: dshow\ifullscreenvideoex_getclipfactor.htm
 tech.root: DirectShow
 ms.assetid: f45e1736-8130-483b-9f90-614c4b6970db

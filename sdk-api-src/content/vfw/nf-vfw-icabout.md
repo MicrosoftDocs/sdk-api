@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.ICAbout
 title: ICAbout macro (vfw.h)
-description: The ICAbout macro notifies a video compression driver to display its About dialog box. You can use this macro or explicitly call the ICM_ABOUT message.
+description: The ICAbout macro notifies a video compression driver to display its About dialog box. You can use this macro or explicitly call the ICM_ABOUT message.helpviewer_keywords: ["ICAbout","ICAbout macro [Windows Multimedia]","_win32_ICAbout","multimedia.icabout","vfw/ICAbout"]
 old-location: multimedia\icabout.htm
 tech.root: Multimedia
 ms.assetid: 18ec2659-8589-4a13-95ea-825a3aecbf98

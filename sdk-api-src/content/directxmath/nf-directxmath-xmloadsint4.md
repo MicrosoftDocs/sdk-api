@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMLoadSInt4
 title: XMLoadSInt4 function (directxmath.h)
-description: Loads signed integer data into an XMVECTOR.
+description: Loads signed integer data into an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadSInt4","XMLoadSInt4","XMLoadSInt4 method [DirectX Math Support APIs]","dxmath.xmloadsint4"]
 old-location: dxmath\xmloadsint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt4(const XMINT4)

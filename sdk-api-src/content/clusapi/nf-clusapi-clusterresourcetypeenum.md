@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeEnum
 title: ClusterResourceTypeEnum function (clusapi.h)
-description: Enumerates a resource type's possible owner nodes or resources.
+description: Enumerates a resource type's possible owner nodes or resources.helpviewer_keywords: ["CLUSTER_RESOURCE_TYPE_ENUM_NODES","CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES","ClusterResourceTypeEnum","ClusterResourceTypeEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM","PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM function [Failover Cluster]","_wolf_clusterresourcetypeenum","clusapi/ClusterResourceTypeEnum","clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM","mscs.clusterresourcetypeenum"]
 old-location: mscs\clusterresourcetypeenum.htm
 tech.root: MsCS
 ms.assetid: 956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21

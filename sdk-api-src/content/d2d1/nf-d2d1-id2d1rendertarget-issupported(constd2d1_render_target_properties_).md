@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)
 title: ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &) (d2d1.h)
-description: Indicates whether the render target supports the specified properties.
+description: Indicates whether the render target supports the specified properties.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","IsSupported method","ID2D1RenderTarget.IsSupported","ID2D1RenderTarget.IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)","ID2D1RenderTarget::IsSupported","ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)","IsSupported","IsSupported method [Direct2D]","IsSupported method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::IsSupported","direct2d.id2d1rendertarget_issupported"]
 old-location: direct2d\id2d1rendertarget_issupported.htm
 tech.root: Direct2D
 ms.assetid: d9fbc313-fe82-4425-9c9a-79bfacc08019
@@ -59,7 +59,7 @@ Indicates whether the render target supports the specified properties.
 
 ### -param renderTargetProperties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>*</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>*</b>
 
 The render target properties to test.
 
@@ -89,7 +89,7 @@ This method does not evaluate the DPI settings specified by the <i>renderTargetP
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

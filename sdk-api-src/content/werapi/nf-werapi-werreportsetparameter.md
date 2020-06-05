@@ -1,7 +1,7 @@
 ---
 UID: NF:werapi.WerReportSetParameter
 title: WerReportSetParameter function (werapi.h)
-description: Sets the parameters that uniquely identify an event for the specified report.
+description: Sets the parameters that uniquely identify an event for the specified report.helpviewer_keywords: ["WER_P0","WER_P1","WER_P2","WER_P3","WER_P4","WER_P5","WER_P6","WER_P7","WER_P8","WER_P9","WerReportSetParameter","WerReportSetParameter function [Windows Error Reporting]","base.werreportsetparameter","wer.werreportsetparameter","werapi/WerReportSetParameter"]
 old-location: wer\werreportsetparameter.htm
 tech.root: wer
 ms.assetid: accf423d-6f03-41e2-b5e9-4a0b630bc918

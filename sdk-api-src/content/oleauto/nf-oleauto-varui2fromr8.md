@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarUI2FromR8
 title: VarUI2FromR8 function (oleauto.h)
-description: Converts a double value to an unsigned short value.
+description: Converts a double value to an unsigned short value.helpviewer_keywords: ["VarUI2FromR8","VarUI2FromR8 function [Automation]","_oa96_VarUI2FromR8","automat.varui2fromr8","oleauto/VarUI2FromR8"]
 old-location: automat\varui2fromr8.htm
 tech.root: automat
 ms.assetid: cbec8935-a160-4a93-bc12-8b82efbf486c

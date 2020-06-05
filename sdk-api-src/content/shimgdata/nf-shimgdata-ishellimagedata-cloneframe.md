@@ -1,7 +1,7 @@
 ---
 UID: NF:shimgdata.IShellImageData.CloneFrame
 title: IShellImageData::CloneFrame (shimgdata.h)
-description: Retrieves a clone of the current image or frame.
+description: Retrieves a clone of the current image or frame.helpviewer_keywords: ["CloneFrame","CloneFrame method [Windows Shell]","CloneFrame method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","CloneFrame method","IShellImageData.CloneFrame","IShellImageData::CloneFrame","_shell_IShellImageData_CloneFrame","shell.IShellImageData_CloneFrame","shimgdata/IShellImageData::CloneFrame"]
 old-location: shell\IShellImageData_CloneFrame.htm
 tech.root: shell
 ms.assetid: 220d307a-7969-443c-963b-80132509ad8b

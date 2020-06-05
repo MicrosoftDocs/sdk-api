@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAsyncContentLoadedEvent
 title: UiaRaiseAsyncContentLoadedEvent function (uiautomationcoreapi.h)
-description: Called by a provider to notify the Microsoft UI Automation core that content is being loaded asynchronously.
+description: Called by a provider to notify the Microsoft UI Automation core that content is being loaded asynchronously.helpviewer_keywords: ["UiaRaiseAsyncContentLoadedEvent","UiaRaiseAsyncContentLoadedEvent function [Windows Accessibility]","uiauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction","uiauto_UiaRaiseAsyncContentLoadedEventFunction","uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent","winauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction"]
 old-location: winauto\uiauto_UiaRaiseAsyncContentLoadedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: 19047933-40c4-4ddb-aa95-af5cfeec44b6

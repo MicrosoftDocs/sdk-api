@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.Navigate
 title: IRawElementProviderFragment::Navigate (uiautomationcore.h)
-description: Retrieves the Microsoft UI Automation element in a specified direction within the UI Automation tree.
+description: Retrieves the Microsoft UI Automation element in a specified direction within the UI Automation tree.helpviewer_keywords: ["IRawElementProviderFragment interface [Windows Accessibility]","Navigate method","IRawElementProviderFragment.Navigate","IRawElementProviderFragment::Navigate","Navigate","Navigate method [Windows Accessibility]","Navigate method [Windows Accessibility]","IRawElementProviderFragment interface","uiauto.uiauto_IRawElementProviderFragment_Navigate","uiauto_IRawElementProviderFragment_Navigate","uiautomationcore/IRawElementProviderFragment::Navigate","winauto.uiauto_IRawElementProviderFragment_Navigate"]
 old-location: winauto\uiauto_IRawElementProviderFragment_Navigate.htm
 tech.root: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840

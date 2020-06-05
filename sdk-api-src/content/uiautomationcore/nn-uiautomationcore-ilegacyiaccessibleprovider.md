@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.ILegacyIAccessibleProvider
 title: ILegacyIAccessibleProvider (uiautomationcore.h)
-description: Enables Microsoft UI Automation clients to access the underlying IAccessible implementation of Microsoft Active Accessibility elements.
+description: Enables Microsoft UI Automation clients to access the underlying IAccessible implementation of Microsoft Active Accessibility elements.helpviewer_keywords: ["ILegacyIAccessibleProvider","ILegacyIAccessibleProvider interface [Windows Accessibility]","ILegacyIAccessibleProvider interface [Windows Accessibility]","described","uiauto.uiauto_ILegacyIAccessibleProvider","uiauto_ILegacyIAccessibleProvider","uiautomationcore/ILegacyIAccessibleProvider","winauto.uiauto_ILegacyIAccessibleProvider"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider.htm
 tech.root: WinAuto
 ms.assetid: 9d911238-05d9-4bba-920f-40ca23ab9549

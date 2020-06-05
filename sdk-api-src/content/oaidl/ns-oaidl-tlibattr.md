@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagTLIBATTR
 title: TLIBATTR (oaidl.h)
-description: Contains information about a type library. Information from this structure is used to identify the type library and to provide national language support for member names.
+description: Contains information about a type library. Information from this structure is used to identify the type library and to provide national language support for member names.helpviewer_keywords: ["*LPTLIBATTR","LPTLIBATTR","LPTLIBATTR structure pointer [Automation]","TLIBATTR","TLIBATTR structure [Automation]","_oa96_TLIBATTR","automat.tlibattr","oaidl/LPTLIBATTR","oaidl/TLIBATTR"]
 old-location: automat\tlibattr.htm
 tech.root: automat
 ms.assetid: 7715a862-1e20-4035-a146-2c9aa134f929

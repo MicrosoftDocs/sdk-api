@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IMenuBand
 title: IMenuBand (shobjidl_core.h)
-description: Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.
+description: Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.helpviewer_keywords: ["IMenuBand","IMenuBand interface [Windows Shell]","IMenuBand interface [Windows Shell]","described","_shell_IMenuBand","shell.IMenuBand","shobjidl_core/IMenuBand"]
 old-location: shell\IMenuBand.htm
 tech.root: shell
 ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2

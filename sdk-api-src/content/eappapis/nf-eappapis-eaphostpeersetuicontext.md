@@ -2,6 +2,7 @@
 UID: NF:eappapis.EapHostPeerSetUIContext
 title: EapHostPeerSetUIContext function (eappapis.h)
 description: Provides a new or updated user interface context to the EAP peer method loaded on EAPHost after the UI has been raised.
+helpviewer_keywords: ["EapHostPeerSetUIContext","EapHostPeerSetUIContext function [EAPHost]","eaphost.eaphostpeersetuicontext","eappapis/EapHostPeerSetUIContext"]
 old-location: eaphost\eaphostpeersetuicontext.htm
 tech.root: eaphost
 ms.assetid: f532dd65-d807-4880-9339-ba233e0faa38
@@ -76,7 +77,7 @@ A pointer to a byte buffer that contains the new supplicant UI context data to b
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value that specifies the action code for the next step the supplicant must take as a response.
+A pointer to an <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value that specifies the action code for the next step the supplicant must take as a response.
 
 
 ### -param ppEapError [out]
@@ -89,7 +90,7 @@ A pointer to the address of an <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

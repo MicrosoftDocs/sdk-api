@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.ReadFileFragment
 title: IDWriteFontFileStream::ReadFileFragment (dwrite.h)
-description: Reads a fragment from a font file.
+description: Reads a fragment from a font file.helpviewer_keywords: ["IDWriteFontFileStream interface [Direct Write]","ReadFileFragment method","IDWriteFontFileStream.ReadFileFragment","IDWriteFontFileStream::ReadFileFragment","ReadFileFragment","ReadFileFragment method [Direct Write]","ReadFileFragment method [Direct Write]","IDWriteFontFileStream interface","directwrite.IDWriteFontFileStream_ReadFileFragment","dwrite/IDWriteFontFileStream::ReadFileFragment"]
 old-location: directwrite\IDWriteFontFileStream_ReadFileFragment.htm
 tech.root: DirectWrite
 ms.assetid: b5bf3300-cfa0-43db-b513-6c0d695c564e

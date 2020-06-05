@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetOptions
 title: IShellLibrary::GetOptions (shobjidl_core.h)
-description: Gets the library's options.
+description: Gets the library's options.helpviewer_keywords: ["GetOptions","GetOptions method [Windows Shell]","GetOptions method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetOptions method","IShellLibrary.GetOptions","IShellLibrary::GetOptions","_shell_IShellLibrary_GetOptions","shell.IShellLibrary_GetOptions","shobjidl_core/IShellLibrary::GetOptions"]
 old-location: shell\IShellLibrary_GetOptions.htm
 tech.root: shell
 ms.assetid: 1a144505-e977-4db6-8266-c39c1de8a8f9

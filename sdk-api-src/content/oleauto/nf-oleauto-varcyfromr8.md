@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFromR8
 title: VarCyFromR8 function (oleauto.h)
-description: Converts a double value to a currency value.
+description: Converts a double value to a currency value.helpviewer_keywords: ["VarCyFromR8","VarCyFromR8 function [Automation]","_oa96_VarCyFromR8","automat.varcyfromr8","oleauto/VarCyFromR8"]
 old-location: automat\varcyfromr8.htm
 tech.root: automat
 ms.assetid: c39d85bf-d838-4ed2-844e-56bfa2d31fe9

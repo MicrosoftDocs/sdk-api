@@ -1,7 +1,7 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.ShutdownNameResolution
 title: IDiskQuotaControl::ShutdownNameResolution (dskquota.h)
-description: Translates user security identifiers (SID) to user names.
+description: Translates user security identifiers (SID) to user names.helpviewer_keywords: ["IDiskQuotaControl interface [Files]","ShutdownNameResolution method","IDiskQuotaControl.ShutdownNameResolution","IDiskQuotaControl::ShutdownNameResolution","ShutdownNameResolution","ShutdownNameResolution method [Files]","ShutdownNameResolution method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_shutdownnameresolution","base.idiskquotacontrol_shutdownnameresolution","dskquota/IDiskQuotaControl::ShutdownNameResolution","fs.idiskquotacontrol_shutdownnameresolution"]
 old-location: fs\idiskquotacontrol_shutdownnameresolution.htm
 tech.root: FileIO
 ms.assetid: 53a2dd49-46e8-4e84-bbc2-102a57f36abc

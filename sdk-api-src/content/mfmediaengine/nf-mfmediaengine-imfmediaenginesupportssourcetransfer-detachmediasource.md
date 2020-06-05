@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.DetachMediaSource
 title: IMFMediaEngineSupportsSourceTransfer::DetachMediaSource (mfmediaengine.h)
-description: Detaches the media source.
+description: Detaches the media source.helpviewer_keywords: ["DetachMediaSource","DetachMediaSource method [Media Foundation]","DetachMediaSource method [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","DetachMediaSource method","IMFMediaEngineSupportsSourceTransfer.DetachMediaSource","IMFMediaEngineSupportsSourceTransfer::DetachMediaSource","mf.imfmediaenginesupportssourcetransfer_detachmediasource","mfmediaengine/IMFMediaEngineSupportsSourceTransfer::DetachMediaSource"]
 old-location: mf\imfmediaenginesupportssourcetransfer_detachmediasource.htm
 tech.root: medfound
 ms.assetid: a085fc53-91a3-46bb-862c-dde16fb7fa42

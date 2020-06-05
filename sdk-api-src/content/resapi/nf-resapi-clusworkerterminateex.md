@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ClusWorkerTerminateEx
 title: ClusWorkerTerminateEx function (resapi.h)
-description: Waits for a worker thread to terminate up to the specified timeout.
+description: Waits for a worker thread to terminate up to the specified timeout.helpviewer_keywords: ["ClusWorkerTerminateEx","ClusWorkerTerminateEx function [Failover Cluster]","mscs.clusworkerterminateex","resapi/ClusWorkerTerminateEx"]
 old-location: mscs\clusworkerterminateex.htm
 tech.root: MsCS
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536

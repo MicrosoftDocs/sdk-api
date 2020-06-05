@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl.StopBackgroundTransfer
 title: IMFByteStreamCacheControl::StopBackgroundTransfer (mfidl.h)
-description: Stops the background transfer of data to the local cache.
+description: Stops the background transfer of data to the local cache.helpviewer_keywords: ["IMFByteStreamCacheControl interface [Media Foundation]","StopBackgroundTransfer method","IMFByteStreamCacheControl.StopBackgroundTransfer","IMFByteStreamCacheControl::StopBackgroundTransfer","StopBackgroundTransfer","StopBackgroundTransfer method [Media Foundation]","StopBackgroundTransfer method [Media Foundation]","IMFByteStreamCacheControl interface","mf.imfbytestreamcachecontrol_stopbackgroundtransfer","mfidl/IMFByteStreamCacheControl::StopBackgroundTransfer"]
 old-location: mf\imfbytestreamcachecontrol_stopbackgroundtransfer.htm
 tech.root: medfound
 ms.assetid: 9f0f7102-c839-4e92-a798-5ea31ceba013

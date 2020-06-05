@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidPlayback.Pause
 title: IMSVidPlayback::Pause (segment.h)
-description: The Pause method pauses the playback device.
+description: The Pause method pauses the playback device.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","Pause method","IMSVidPlayback.Pause","IMSVidPlayback::Pause","IMSVidPlaybackPause","Pause","Pause method [Microsoft TV Technologies]","Pause method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_pause","segment/IMSVidPlayback::Pause"]
 old-location: mstv\imsvidplayback_pause.htm
 tech.root: mstv
 ms.assetid: 430528b7-3b3a-4df9-8093-9b0f9262f106

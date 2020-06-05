@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ITypeLib2
 title: ITypeLib2 (oaidl.h)
-description: Represents a type library, the data that describes a set of objects.
+description: Represents a type library, the data that describes a set of objects.helpviewer_keywords: ["ITypeLib2","ITypeLib2 interface [Automation]","ITypeLib2 interface [Automation]","described","_oa96_ITypeLib2_Interface","automat.itypelib2","oaidl/ITypeLib2"]
 old-location: automat\itypelib2.htm
 tech.root: automat
 ms.assetid: 47561b53-3f7b-4939-8b86-5acb5eaeea5a

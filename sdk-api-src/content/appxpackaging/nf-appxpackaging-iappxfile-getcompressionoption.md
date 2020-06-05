@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetCompressionOption
 title: IAppxFile::GetCompressionOption (appxpackaging.h)
-description: Retrieves the compression option that is used to store the file in the package.
+description: Retrieves the compression option that is used to store the file in the package.helpviewer_keywords: ["GetCompressionOption","GetCompressionOption method [App packaging and management]","GetCompressionOption method [App packaging and management]","IAppxFile interface","IAppxFile interface [App packaging and management]","GetCompressionOption method","IAppxFile.GetCompressionOption","IAppxFile::GetCompressionOption","appxpackaging/IAppxFile::GetCompressionOption","appxpkg.iappxfile_getcompressionoption"]
 old-location: appxpkg\iappxfile_getcompressionoption.htm
 tech.root: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606

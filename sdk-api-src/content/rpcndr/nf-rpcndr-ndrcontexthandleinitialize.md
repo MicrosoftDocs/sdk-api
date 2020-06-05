@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.NdrContextHandleInitialize
 title: NdrContextHandleInitialize function (rpcndr.h)
-description: Initializes a new RPC context handle.
+description: Initializes a new RPC context handle.helpviewer_keywords: ["NdrContextHandleInitialize","NdrContextHandleInitialize function [RPC]","rpc.ndrcontexthandleinitialize","rpcndr/NdrContextHandleInitialize"]
 old-location: rpc\ndrcontexthandleinitialize.htm
 tech.root: Rpc
 ms.assetid: 023f5137-fbdb-44c2-9c11-a3a8f1eb615e

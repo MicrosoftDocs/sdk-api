@@ -1,7 +1,7 @@
 ---
 UID: NN:taskschd.IMaintenanceSettings
 title: IMaintenanceSettings (taskschd.h)
-description: Provides the settings that the Task Scheduler uses to perform task during Automatic maintenance.
+description: Provides the settings that the Task Scheduler uses to perform task during Automatic maintenance.helpviewer_keywords: ["IMaintenanceSettings","IMaintenanceSettings interface [Task Scheduler]","IMaintenanceSettings interface [Task Scheduler]","described","taskschd.imaintenancesettings","taskschd/IMaintenanceSettings"]
 old-location: taskschd\imaintenancesettings.htm
 tech.root: taskschd
 ms.assetid: 5AB172CA-66BF-47B8-952A-9CBA13A20668

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.PropCount
 title: IComTrackingInfoProperties::PropCount (comsvcs.h)
-description: Retrieves the number of properties defined for a tracking information object.
+description: Retrieves the number of properties defined for a tracking information object.helpviewer_keywords: ["IComTrackingInfoProperties interface [COM+]","PropCount method","IComTrackingInfoProperties.PropCount","IComTrackingInfoProperties::PropCount","PropCount","PropCount method [COM+]","PropCount method [COM+]","IComTrackingInfoProperties interface","_dtc_IComTrackingInfoProperties_PropCount","comsvcs/IComTrackingInfoProperties::PropCount","cos.icomtrackinginfoproperties_propcount"]
 old-location: cos\icomtrackinginfoproperties_propcount.htm
 tech.root: cossdk
 ms.assetid: f8036da8-3bd4-4500-a707-a43ac9dd5a52

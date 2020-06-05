@@ -1,7 +1,7 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsVersionAvailable
 title: BluetoothIsVersionAvailable function (bluetoothapis.h)
-description: BluetoothIsVersionAvailable function indicates if the installed Bluetooth binary set supports the requested version.
+description: BluetoothIsVersionAvailable function indicates if the installed Bluetooth binary set supports the requested version.helpviewer_keywords: ["BluetoothIsVersionAvailable","BluetoothIsVersionAvailable function [Bluetooth]","bluetooth.bluetoothisversionavailable","bluetoothapis/BluetoothIsVersionAvailable"]
 old-location: bluetooth\bluetoothisversionavailable.htm
 tech.root: bluetooth
 ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba

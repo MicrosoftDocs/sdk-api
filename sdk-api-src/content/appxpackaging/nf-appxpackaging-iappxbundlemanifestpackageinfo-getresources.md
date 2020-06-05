@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetResources
 title: IAppxBundleManifestPackageInfo::GetResources (appxpackaging.h)
-description: Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements that are defined in the app package's manifest.
+description: Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements that are defined in the app package's manifest.helpviewer_keywords: ["GetResources","GetResources method [App packaging and management]","GetResources method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetResources method","IAppxBundleManifestPackageInfo.GetResources","IAppxBundleManifestPackageInfo::GetResources","appxpackaging/IAppxBundleManifestPackageInfo::GetResources","appxpkg.iappxbundlemanifestpackageinfo_getresources"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getresources.htm
 tech.root: appxpkg
 ms.assetid: 07B1028B-4084-44E5-840D-14403E01F628

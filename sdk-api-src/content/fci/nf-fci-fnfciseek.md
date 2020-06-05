@@ -1,7 +1,7 @@
 ---
 UID: NF:fci.FNFCISEEK
 title: FNFCISEEK macro (fci.h)
-description: The FNFCISEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FCI context.
+description: The FNFCISEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FCI context.helpviewer_keywords: ["FNFCISEEK","FNFCISEEK macro [Windows API]","fci/FNFCISEEK","winprog.fnfciseek"]
 old-location: winprog\fnfciseek.htm
 tech.root: DevNotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7

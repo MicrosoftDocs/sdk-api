@@ -1,7 +1,7 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
 title: GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function (physicalmonitorenumerationapi.h)
-description: Retrieves the number of physical monitors associated with a Direct3D device.
+description: Retrieves the number of physical monitors associated with a Direct3D device.helpviewer_keywords: ["GetNumberOfPhysicalMonitorsFromIDirect3DDevice9","GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration]","monitor.getnumberofphysicalmonitorsfromidirect3ddevice9","physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9"]
 old-location: monitor\getnumberofphysicalmonitorsfromidirect3ddevice9.htm
 tech.root: Monitor
 ms.assetid: 1cb0f035-a429-4355-89b8-d8bcd89cb037

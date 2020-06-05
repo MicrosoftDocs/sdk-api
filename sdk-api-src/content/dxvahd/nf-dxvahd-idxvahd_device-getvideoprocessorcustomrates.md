@@ -1,7 +1,7 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorCustomRates
 title: IDXVAHD_Device::GetVideoProcessorCustomRates (dxvahd.h)
-description: Gets a list of custom rates that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports. Custom rates are used for frame-rate conversion and inverse telecine (IVTC).
+description: Gets a list of custom rates that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports. Custom rates are used for frame-rate conversion and inverse telecine (IVTC).helpviewer_keywords: ["GetVideoProcessorCustomRates","GetVideoProcessorCustomRates method [Media Foundation]","GetVideoProcessorCustomRates method [Media Foundation]","IDXVAHD_Device interface","IDXVAHD_Device interface [Media Foundation]","GetVideoProcessorCustomRates method","IDXVAHD_Device.GetVideoProcessorCustomRates","IDXVAHD_Device::GetVideoProcessorCustomRates","dxvahd/IDXVAHD_Device::GetVideoProcessorCustomRates","mf.idxvahd_device_getvideoprocessorcustomrates"]
 old-location: mf\idxvahd_device_getvideoprocessorcustomrates.htm
 tech.root: medfound
 ms.assetid: 63e835bb-dda2-4449-8474-219a373da82d

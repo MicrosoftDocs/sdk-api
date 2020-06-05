@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IDvdControl2.SetOption
 title: IDvdControl2::SetOption (strmif.h)
-description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.
+description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetOption method","IDvdControl2.SetOption","IDvdControl2::SetOption","IDvdControl2SetOption","SetOption","SetOption method [DirectShow]","SetOption method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setoption","strmif/IDvdControl2::SetOption"]
 old-location: dshow\idvdcontrol2_setoption.htm
 tech.root: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06

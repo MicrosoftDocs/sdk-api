@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetCount
 title: IXpsOMDashCollection::GetCount (xpsobjectmodel.h)
 description: Gets the number of XPS_DASH structures in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMDashCollection interface","IXpsOMDashCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMDashCollection.GetCount","IXpsOMDashCollection::GetCount","xps.ixpsomdashcollection_getcount","xpsobjectmodel/IXpsOMDashCollection::GetCount"]
 old-location: xps\ixpsomdashcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures in the collection.
+Gets the number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures in the collection.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobje
 
 ### -param count [out, retval]
 
-The number of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures in the collection.
+The number of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures in the collection.
 
 
 ## -returns
@@ -97,7 +98,7 @@ For more information about the collection methods, see  <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

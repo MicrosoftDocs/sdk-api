@@ -1,7 +1,7 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_0
 title: RESPONSEBODY_GetMetadata (wsdtypes.h)
-description: Represents a WS-MetadataExchange GetMetadata response message.
+description: Represents a WS-MetadataExchange GetMetadata response message.helpviewer_keywords: ["RESPONSEBODY_GetMetadata","RESPONSEBODY_GetMetadata structure","ncd.responsebody_getmetadata_struct","wsdtypes/RESPONSEBODY_GetMetadata"]
 old-location: ncd\responsebody_getmetadata_struct.htm
 tech.root: WsdApi
 ms.assetid: 445513a8-5785-4822-bb2e-ec9b7665ac7a

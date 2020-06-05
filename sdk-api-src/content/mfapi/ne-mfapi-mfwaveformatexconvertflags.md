@@ -1,7 +1,7 @@
 ---
 UID: NE:mfapi._MFWaveFormatExConvertFlags
 title: MFWaveFormatExConvertFlags (mfapi.h)
-description: Contains flags that specify how to convert an audio media type.
+description: Contains flags that specify how to convert an audio media type.helpviewer_keywords: ["MFWaveFormatExConvertFlag_ForceExtensible","MFWaveFormatExConvertFlag_Normal","MFWaveFormatExConvertFlags","MFWaveFormatExConvertFlags enumeration [Media Foundation]","cd4a54f3-58e5-4e39-8615-e5037972c9c4","mf.mfwaveformatexconvertflags","mfapi/MFWaveFormatExConvertFlag_ForceExtensible","mfapi/MFWaveFormatExConvertFlag_Normal","mfapi/MFWaveFormatExConvertFlags"]
 old-location: mf\mfwaveformatexconvertflags.htm
 tech.root: medfound
 ms.assetid: cd4a54f3-58e5-4e39-8615-e5037972c9c4

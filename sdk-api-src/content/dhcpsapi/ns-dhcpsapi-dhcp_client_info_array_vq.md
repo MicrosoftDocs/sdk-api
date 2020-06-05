@@ -1,7 +1,7 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY_VQ
 title: DHCP_CLIENT_INFO_ARRAY_VQ (dhcpsapi.h)
-description: Specifies an array of DHCP_CLIENT_INFO_VQ structures.
+description: Specifies an array of DHCP_CLIENT_INFO_VQ structures.helpviewer_keywords: ["*LPDHCP_CLIENT_INFO_ARRAY_VQ","DHCP_CLIENT_INFO_ARRAY_VQ","DHCP_CLIENT_INFO_ARRAY_VQ structure [DHCP]","PDHCP_CLIENT_INFO_ARRAY_VQ","PDHCP_CLIENT_INFO_ARRAY_VQ structure pointer [DHCP]","dhcp.dhcp_client_info_array_vq","dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ","dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_VQ"]
 old-location: dhcp\dhcp_client_info_array_vq.htm
 tech.root: DHCP
 ms.assetid: 80474274-4ef8-4e53-85b4-78cb953e9831

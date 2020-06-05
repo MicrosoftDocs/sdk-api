@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Pager_GetButtonState
 title: Pager_GetButtonState macro (commctrl.h)
-description: Retrieves the state of the specified button in a pager control. You can use this macro or send the PGM_GETBUTTONSTATE message explicitly.
+description: Retrieves the state of the specified button in a pager control. You can use this macro or send the PGM_GETBUTTONSTATE message explicitly.helpviewer_keywords: ["Pager_GetButtonState","Pager_GetButtonState macro [Windows Controls]","_win32_Pager_GetButtonState","_win32_Pager_GetButtonState_cpp","commctrl/Pager_GetButtonState","controls.Pager_GetButtonState","controls._win32_Pager_GetButtonState"]
 old-location: controls\Pager_GetButtonState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonstate.htm

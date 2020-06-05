@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationBoolCondition
 title: IUIAutomationBoolCondition (uiautomationclient.h)
-description: Represents a condition that can be either TRUE (selects all elements) or FALSE (selects no elements).
+description: Represents a condition that can be either TRUE (selects all elements) or FALSE (selects no elements).helpviewer_keywords: ["IUIAutomationBoolCondition","IUIAutomationBoolCondition interface [Windows Accessibility]","IUIAutomationBoolCondition interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationBoolCondition","uiauto_IUIAutomationBoolCondition","uiautomationclient/IUIAutomationBoolCondition","winauto.uiauto_IUIAutomationBoolCondition"]
 old-location: winauto\uiauto_IUIAutomationBoolCondition.htm
 tech.root: WinAuto
 ms.assetid: a2f9d994-a0fa-4ff5-90b2-8212469f0ced

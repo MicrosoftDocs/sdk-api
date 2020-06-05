@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIPerfCounterLogger
 title: IRDPSRAPIPerfCounterLogger (rdpencomapi.h)
-description: Enables a client application to implement custom performance logging.
+description: Enables a client application to implement custom performance logging.helpviewer_keywords: ["IRDPSRAPIPerfCounterLogger","IRDPSRAPIPerfCounterLogger class [RDP]","IRDPSRAPIPerfCounterLogger class [RDP]","described","rdp.irdpsrapiperfcounterlogger","rdpencomapi/IRDPSRAPIPerfCounterLogger"]
 old-location: rdp\irdpsrapiperfcounterlogger.htm
 tech.root: rdp
 ms.assetid: EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA

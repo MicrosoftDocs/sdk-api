@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3GreaterOrEqualR
 title: XMVector3GreaterOrEqualR function (directxmath.h)
-description: Tests whether one 3D vector is greater-than-or-equal-to another 3D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
+description: Tests whether one 3D vector is greater-than-or-equal-to another 3D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.helpviewer_keywords: ["Use DirectX..XMVector3GreaterOrEqualR","XMVector3GreaterOrEqualR","XMVector3GreaterOrEqualR method [DirectX Math Support APIs]","dxmath.xmvector3greaterorequalr"]
 old-location: dxmath\xmvector3greaterorequalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3GreaterOrEqualR(XMVECTOR,XMVECTOR)

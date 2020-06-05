@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.EndPage
 title: EndPage function (wingdi.h)
-description: The EndPage function notifies the device that the application has finished writing to a page. This function is typically used to direct the device driver to advance to a new page.
+description: The EndPage function notifies the device that the application has finished writing to a page. This function is typically used to direct the device driver to advance to a new page.helpviewer_keywords: ["EndPage","EndPage function [Windows GDI]","_win32_EndPage","gdi.endpage","wingdi/EndPage"]
 old-location: gdi\endpage.htm
 tech.root: printdocs
 ms.assetid: 33e6d005-f00d-4b87-bf7c-fc79c1d05514

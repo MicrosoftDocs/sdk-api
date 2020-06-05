@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterfaces
 title: IMbnInterfaceManager::GetInterfaces (mbnapi.h)
-description: Gets a list of all available IMbnInterface objects.
+description: Gets a list of all available IMbnInterface objects.helpviewer_keywords: ["GetInterfaces","GetInterfaces method [Microsoft Broadband Networks]","GetInterfaces method [Microsoft Broadband Networks]","IMbnInterfaceManager interface","IMbnInterfaceManager interface [Microsoft Broadband Networks]","GetInterfaces method","IMbnInterfaceManager.GetInterfaces","IMbnInterfaceManager::GetInterfaces","mbn.imbninterfacemanager_getinterfaces","mbnapi/IMbnInterfaceManager::GetInterfaces"]
 old-location: mbn\imbninterfacemanager_getinterfaces.htm
 tech.root: mbn
 ms.assetid: 1cd10189-8f36-4bcb-95e9-35064e70fdf8

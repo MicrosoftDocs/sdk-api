@@ -2,6 +2,7 @@
 UID: NE:webservices.__unnamed_enum_61
 title: WS_SECURITY_PROPERTY_ID (webservices.h)
 description: Identifies the properties representing channel-wide security settings. This enumeration is used within the WS_SECURITY_PROPERTY structure, which is in turn used within a WS_SECURITY_DESCRIPTION structure.
+helpviewer_keywords: ["WS_SECURITY_PROPERTY_ALGORITHM_SUITE","WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME","WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY","WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO","WS_SECURITY_PROPERTY_ID","WS_SECURITY_PROPERTY_ID enumeration [Web Services for Windows]","WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW","WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY","WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT","WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION","WS_SECURITY_PROPERTY_SERVICE_IDENTITIES","WS_SECURITY_PROPERTY_TIMESTAMP_USAGE","WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION","WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL","webservices/WS_SECURITY_PROPERTY_ALGORITHM_SUITE","webservices/WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME","webservices/WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY","webservices/WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO","webservices/WS_SECURITY_PROPERTY_ID","webservices/WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW","webservices/WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY","webservices/WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT","webservices/WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION","webservices/WS_SECURITY_PROPERTY_SERVICE_IDENTITIES","webservices/WS_SECURITY_PROPERTY_TIMESTAMP_USAGE","webservices/WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION","webservices/WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL","wsw.ws_security_property_id"]
 old-location: wsw\ws_security_property_id.htm
 tech.root: wsw
 ms.assetid: 98a824c9-11dd-4433-ae8f-2e6b6f6a520f
@@ -69,11 +70,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 
 ### -field WS_SECURITY_PROPERTY_ALGORITHM_SUITE
 
-With mixed-mode security, this property is a <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> structure that specifies the algorithm suite to be used. .          
+With mixed-mode security, this property is a <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> structure that specifies the algorithm suite to be used. .          
           This property may not be used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME</a>.
         
 
-If neither this property nor <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME</a> is specified, the algorithm
+If neither this property nor <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME</a> is specified, the algorithm
           suite defaults to <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</b>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
         
@@ -87,8 +88,8 @@ With mixed-mode security, this property is a  <a href="https://docs.microsoft.co
           This property may not be used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ALGORITHM_SUITE</a>.
         
 
-If neither this property nor <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> is specified, the algorithm
-          suite defaults to <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
+If neither this property nor <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> is specified, the algorithm
+          suite defaults to <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
         
 
@@ -172,7 +173,7 @@ Supported by default on Windows 7 and above. May require an update on systems ru
 
 ### -field WS_SECURITY_PROPERTY_SERVICE_IDENTITIES
 
-A <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_security_identities">WS_SERVICE_SECURITY_IDENTITIES</a> structure that sets the Server Principal Names (SPNs) the server is willing to accept as part of validating <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data.
+A <a href="/windows/win32/api/webservices/ns-webservices-ws_service_security_identities">WS_SERVICE_SECURITY_IDENTITIES</a> structure that sets the Server Principal Names (SPNs) the server is willing to accept as part of validating <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data.
                   SPNs are validated when a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used 
                   without a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> or when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_extended_protection_scenario">WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL</a> is set.
               

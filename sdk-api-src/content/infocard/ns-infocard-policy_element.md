@@ -1,7 +1,7 @@
 ---
 UID: NS:infocard._POLICY_ELEMENT
 title: POLICY_ELEMENT (infocard.h)
-description: The POLICY_ELEMENT structure contains an RSVP policy element.
+description: The POLICY_ELEMENT structure contains an RSVP policy element.helpviewer_keywords: ["*PPOLICY_ELEMENT","POLICY_ELEMENT","POLICY_ELEMENT structure [QOS]","_POLICY_ELEMENT","infocard/POLICY_ELEMENT","qos.policy_element"]
 old-location: qos\policy_element.htm
 tech.root: QOS
 ms.assetid: 710ed81d-d455-4912-8aee-2f06db894c95

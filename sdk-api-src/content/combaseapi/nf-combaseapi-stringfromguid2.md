@@ -1,7 +1,7 @@
 ---
 UID: NF:combaseapi.StringFromGUID2
 title: StringFromGUID2 function (combaseapi.h)
-description: Converts a globally unique identifier (GUID) into a string of printable characters.
+description: Converts a globally unique identifier (GUID) into a string of printable characters.helpviewer_keywords: ["StringFromGUID2","StringFromGUID2 function [COM]","_com_StringFromGUID2","com.stringfromguid2","combaseapi/StringFromGUID2"]
 old-location: com\stringfromguid2.htm
 tech.root: com
 ms.assetid: 5f437658-b749-416b-805a-2afdac682660

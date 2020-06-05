@@ -1,7 +1,7 @@
 ---
 UID: NS:lmdfs._DFS_INFO_150
 title: DFS_INFO_150 (lmdfs.h)
-description: Contains the security descriptor for a DFS link's reparse point.
+description: Contains the security descriptor for a DFS link's reparse point.helpviewer_keywords: ["*LPDFS_INFO_150","*PDFS_INFO_150","DFS_INFO_150","DFS_INFO_150 structure [Distributed File System]","PDFS_INFO_150","PDFS_INFO_150 structure pointer [Distributed File System]","dfs.dfs_info_150","fs.dfs_info_150","lmdfs/DFS_INFO_150","lmdfs/PDFS_INFO_150"]
 old-location: dfs\dfs_info_150.htm
 tech.root: Dfs
 ms.assetid: b0fa6fca-8e60-447d-9334-c4df04f13439

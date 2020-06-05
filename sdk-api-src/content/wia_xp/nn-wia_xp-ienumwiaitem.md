@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IEnumWiaItem
 title: IEnumWiaItem (wia_xp.h)
-description: The IEnumWiaItem interface is used by applications to enumerate IWiaItem objects in the tree's current folder.
+description: The IEnumWiaItem interface is used by applications to enumerate IWiaItem objects in the tree's current folder.helpviewer_keywords: ["IEnumWiaItem","IEnumWiaItem interface [WIA]","IEnumWiaItem interface [WIA]","described","_wia_IEnumWiaItem","wia._wia_IEnumWiaItem","wia_xp/IEnumWiaItem"]
 old-location: wia\_wia_IEnumWiaItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\ienumwiaitem.htm

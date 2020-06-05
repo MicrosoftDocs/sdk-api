@@ -1,7 +1,7 @@
 ---
 UID: NC:mswsock.LPFN_RIODEREGISTERBUFFER
 title: LPFN_RIODEREGISTERBUFFER
-description: Deregisters a registered buffer used with the Winsock registered I/O extensions.
+description: Deregisters a registered buffer used with the Winsock registered I/O extensions.helpviewer_keywords: ["LPFN_RIODEREGISTERBUFFER"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 5D5C3469-0D5B-4E89-BE59-8D8AE9DBA5DE

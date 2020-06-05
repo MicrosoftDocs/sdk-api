@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvCreateDeviceBitmap
 title: DrvCreateDeviceBitmap function (winddi.h)
-description: The DrvCreateDeviceBitmap function creates and manages bitmaps.
+description: The DrvCreateDeviceBitmap function creates and manages bitmaps.helpviewer_keywords: ["DrvCreateDeviceBitmap","DrvCreateDeviceBitmap function [Display Devices]","ddifncs_b3a739da-4a9d-4e84-a4e8-8b1e790a06af.xml","display.drvcreatedevicebitmap","winddi/DrvCreateDeviceBitmap"]
 old-location: display\drvcreatedevicebitmap.htm
 tech.root: display
 ms.assetid: 1f5f49ef-bf08-4311-9a1b-fdc37e6c2063

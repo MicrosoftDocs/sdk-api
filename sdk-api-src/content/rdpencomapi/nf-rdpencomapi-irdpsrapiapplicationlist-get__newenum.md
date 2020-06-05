@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationList.get__NewEnum
 title: IRDPSRAPIApplicationList::get__NewEnum (rdpencomapi.h)
-description: An enumerator interface for the application collection.
+description: An enumerator interface for the application collection.helpviewer_keywords: ["IRDPSRAPIApplicationList interface [RDP]","_NewEnum property","IRDPSRAPIApplicationList._NewEnum","IRDPSRAPIApplicationList.get__NewEnum","IRDPSRAPIApplicationList::_NewEnum","IRDPSRAPIApplicationList::get__NewEnum","RDPSRAPIApplicationList object [RDP]","_NewEnum property","_NewEnum property [RDP]","_NewEnum property [RDP]","IRDPSRAPIApplicationList interface","_NewEnum property [RDP]","RDPSRAPIApplicationList object","get__NewEnum","rdp.irdpsrapiapplicationlist__newenum","rdpencomapi/IRDPSRAPIApplicationList::_NewEnum","rdpencomapi/IRDPSRAPIApplicationList::get__NewEnum"]
 old-location: rdp\irdpsrapiapplicationlist__newenum.htm
 tech.root: rdp
 ms.assetid: 946cba06-9cc1-4a44-aeed-0b636d737edd

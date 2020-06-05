@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.DispGetIDsOfNames
 title: DispGetIDsOfNames function (oleauto.h)
-description: Low-level helper for Invoke that provides machine independence for customized Invoke.
+description: Low-level helper for Invoke that provides machine independence for customized Invoke.helpviewer_keywords: ["DispGetIDsOfNames","DispGetIDsOfNames function [Automation]","_oa96_DispGetIDsOfNames","automat.dispgetidsofnames","oleauto/DispGetIDsOfNames"]
 old-location: automat\dispgetidsofnames.htm
 tech.root: automat
 ms.assetid: 720a0237-9c68-4252-9f66-43610d4be106

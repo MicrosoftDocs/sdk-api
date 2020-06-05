@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 title: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT (webservices.h)
-description: A security binding constraint that corresponds to the WS_SSL_TRANSPORT_SECURITY_BINDING.
+description: A security binding constraint that corresponds to the WS_SSL_TRANSPORT_SECURITY_BINDING.helpviewer_keywords: ["WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT","WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT","wsw.ws_ssl_transport_security_binding_constraint"]
 old-location: wsw\ws_ssl_transport_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 1f547d95-0a9a-44c5-81db-b92880238b1d

@@ -1,7 +1,7 @@
 ---
 UID: NF:mprapi.MprAdminServerGetCredentials
 title: MprAdminServerGetCredentials function (mprapi.h)
-description: The MprAdminServerGetCredentials function retrieves the pre-shared key for the specified server.
+description: The MprAdminServerGetCredentials function retrieves the pre-shared key for the specified server.helpviewer_keywords: ["MprAdminServerGetCredentials","MprAdminServerGetCredentials function [RAS]","_mpr_mpradminservergetcredentials","mprapi/MprAdminServerGetCredentials","rras.mpradminservergetcredentials"]
 old-location: rras\mpradminservergetcredentials.htm
 tech.root: RRAS
 ms.assetid: 76211b14-8f6c-48e4-846f-bd5d3a04285d

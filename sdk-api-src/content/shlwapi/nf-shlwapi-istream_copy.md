@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IStream_Copy
 title: IStream_Copy function (shlwapi.h)
-description: Copies a stream to another stream.
+description: Copies a stream to another stream.helpviewer_keywords: ["IStream_Copy","IStream_Copy function [Windows Shell]","_shell_IStream_Copy","shell.IStream_Copy","shlwapi/IStream_Copy"]
 old-location: shell\IStream_Copy.htm
 tech.root: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf

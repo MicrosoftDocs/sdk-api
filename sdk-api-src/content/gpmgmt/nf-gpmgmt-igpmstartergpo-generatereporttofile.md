@@ -1,7 +1,7 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GenerateReportToFile
 title: IGPMStarterGPO::GenerateReportToFile (gpmgmt.h)
-description: The GenerateReportToFile method gets the report for the GPO and saves it to a file at a specified path.
+description: The GenerateReportToFile method gets the report for the GPO and saves it to a file at a specified path.helpviewer_keywords: ["GenerateReportToFile","GenerateReportToFile method [GPMC]","GenerateReportToFile method [GPMC]","IGPMStarterGPO interface","IGPMStarterGPO interface [GPMC]","GenerateReportToFile method","IGPMStarterGPO.GenerateReportToFile","IGPMStarterGPO::GenerateReportToFile","gpmc.igpmstartergpo_generatereporttofile","gpmgmt/IGPMStarterGPO::GenerateReportToFile"]
 old-location: gpmc\igpmstartergpo_generatereporttofile.htm
 tech.root: gpmc
 ms.assetid: 29302091-0f2d-4511-a25b-9af078795d1d

@@ -1,7 +1,7 @@
 ---
 UID: NF:xapobase.CXAPOBase.ValidateFormatPair
 title: CXAPOBase::ValidateFormatPair (xapobase.h)
-description: Verifies that an input and output format pair configuration is supported by the XAPO.
+description: Verifies that an input and output format pair configuration is supported by the XAPO.helpviewer_keywords: ["CXAPOBase interface [XAudio2 Audio Mixing APIs]","ValidateFormatPair method","CXAPOBase.ValidateFormatPair","CXAPOBase::ValidateFormatPair","ValidateFormatPair","ValidateFormatPair method [XAudio2 Audio Mixing APIs]","ValidateFormatPair method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","xapobase/CXAPOBase::ValidateFormatPair","xaudio2.cxapobase_validateformatpair"]
 old-location: xaudio2\cxapobase_validateformatpair.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatPair(const WAVEFORMATEX,WAVEFORMATEX,BOOL)

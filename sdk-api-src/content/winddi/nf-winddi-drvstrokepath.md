@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.DrvStrokePath
 title: DrvStrokePath function (winddi.h)
-description: The DrvStrokePath function strokes (outlines) a path.
+description: The DrvStrokePath function strokes (outlines) a path.helpviewer_keywords: ["DrvStrokePath","DrvStrokePath function [Display Devices]","ddifncs_73cbbe62-5351-4297-82fc-b0098f21fee2.xml","display.drvstrokepath","winddi/DrvStrokePath"]
 old-location: display\drvstrokepath.htm
 tech.root: display
 ms.assetid: c931a39d-c0ae-4f40-b70f-f51d5621c228

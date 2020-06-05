@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ZoomToRect
 title: IDirectManipulationViewport::ZoomToRect (directmanipulation.h)
-description: Moves the viewport to a specific area of the primary content and specifies whether to animate the transition.
+description: Moves the viewport to a specific area of the primary content and specifies whether to animate the transition.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","ZoomToRect method","IDirectManipulationViewport.ZoomToRect","IDirectManipulationViewport::ZoomToRect","ZoomToRect","ZoomToRect method [Direct Manipulation]","ZoomToRect method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_zoomtorect","directmanipulation/IDirectManipulationViewport::ZoomToRect"]
 old-location: directmanipulation\idirectmanipulationviewport_zoomtorect.htm
 tech.root: directmanipulation
 ms.assetid: ce87521d-bbce-43d3-920b-89eca101d260

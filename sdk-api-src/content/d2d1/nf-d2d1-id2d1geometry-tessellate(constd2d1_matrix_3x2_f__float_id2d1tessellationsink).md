@@ -2,6 +2,7 @@
 UID: NF:d2d1.ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink)
 title: ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink) (d2d1.h)
 description: Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.
+helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","Tessellate method","ID2D1Geometry.Tessellate","ID2D1Geometry.Tessellate(const D2D1_MATRIX_3X2_F &","FLOAT","ID2D1TessellationSink)","ID2D1Geometry::Tessellate","ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &","FLOAT","ID2D1TessellationSink)","Tessellate","Tessellate method [Direct2D]","Tessellate method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::Tessellate","direct2d.ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink"]
 old-location: direct2d\ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink.htm
 tech.root: Direct2D
 ms.assetid: 0efa4d4f-ebda-49e1-9d94-dcada7374109
@@ -43,60 +44,36 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink)
-
-
 ## -description
-
 
 Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance. 
 
-
 ## -parameters
 
+### -param worldTransform
 
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a> &</b>
 
-
-### -param worldTransform [in, optional]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
-
-The transform to apply to this geometry, or <b>NULL</b>.
-
+The transform to apply to this geometry.
 
 ### -param flatteningTolerance
 
-Type: <b>FLOAT</b>
+Type: [in] <b>FLOAT</b>
 
 The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution. 
 
+### -param tessellationSink
 
+Type: [in] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>*</b>
 
-### -param tessellationSink [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>*</b>
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a> to which the tessellated is appended.
-
+The <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a> to which the tessellated is appended.
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
- 
-
- 
-
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>

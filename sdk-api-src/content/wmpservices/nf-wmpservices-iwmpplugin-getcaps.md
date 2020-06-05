@@ -1,7 +1,7 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetCaps
 title: IWMPPlugin::GetCaps (wmpservices.h)
-description: The IWMPPlugin::GetCaps method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
+description: The IWMPPlugin::GetCaps method returns a flag that specifies whether the plug-in can convert between an input format and an output format.helpviewer_keywords: ["GetCaps","GetCaps method [Windows Media Player]","GetCaps method [Windows Media Player]","IWMPPlugin interface","IWMPPlugin interface [Windows Media Player]","GetCaps method","IWMPPlugin.GetCaps","IWMPPlugin::GetCaps","IWMPPluginGetCapsDSP","wmp.iwmpplugin_getcaps","wmpservices/IWMPPlugin::GetCaps"]
 old-location: wmp\iwmpplugin_getcaps.htm
 tech.root: WMP
 ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75

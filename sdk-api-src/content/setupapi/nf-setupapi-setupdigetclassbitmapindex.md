@@ -2,12 +2,12 @@
 UID: NF:setupapi.SetupDiGetClassBitmapIndex
 title: SetupDiGetClassBitmapIndex function (setupapi.h)
 description: The SetupDiGetClassBitmapIndex function retrieves the index of the mini-icon supplied for the specified class.
+helpviewer_keywords: ["SetupDiGetClassBitmapIndex","SetupDiGetClassBitmapIndex function [Device and Driver Installation]","devinst.setupdigetclassbitmapindex","di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml","setupapi/SetupDiGetClassBitmapIndex"]
 old-location: devinst\setupdigetclassbitmapindex.htm
 tech.root: devinst
 ms.assetid: 5e64d387-701c-42eb-87a8-ba2f51c8552d
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassBitmapIndex, SetupDiGetClassBitmapIndex function [Device and Driver Installation], devinst.setupdigetclassbitmapindex, di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml, setupapi/SetupDiGetClassBitmapIndex
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassBitmapIndex
 dev_langs:

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_PropertyFlags
 title: IFsrmProperty::get_PropertyFlags (fsrmpipeline.h)
-description: Flag values that provides additional information about a property.
+description: Flag values that provides additional information about a property.helpviewer_keywords: ["IFsrmProperty interface [File Server Resource Manager]","PropertyFlags property","IFsrmProperty.PropertyFlags","IFsrmProperty.get_PropertyFlags","IFsrmProperty::PropertyFlags","IFsrmProperty::get_PropertyFlags","PropertyFlags property [File Server Resource Manager]","PropertyFlags property [File Server Resource Manager]","IFsrmProperty interface","fs.ifsrmproperty_propertyflags","fsrm.ifsrmproperty_propertyflags","fsrmpipeline/IFsrmProperty::PropertyFlags","fsrmpipeline/IFsrmProperty::get_PropertyFlags","get_PropertyFlags"]
 old-location: fsrm\ifsrmproperty_propertyflags.htm
 tech.root: fsrm
 ms.assetid: 59c52ac2-82ef-4dfa-85e9-450149c2e904

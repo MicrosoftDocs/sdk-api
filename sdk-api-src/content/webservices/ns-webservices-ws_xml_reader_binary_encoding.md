@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_READER_BINARY_ENCODING
 title: WS_XML_READER_BINARY_ENCODING (webservices.h)
-description: Used to indicate that the reader should interpret the bytes it reads as binary xml.
+description: Used to indicate that the reader should interpret the bytes it reads as binary xml.helpviewer_keywords: ["WS_XML_READER_BINARY_ENCODING","WS_XML_READER_BINARY_ENCODING structure [Web Services for Windows]","webservices/WS_XML_READER_BINARY_ENCODING","wsw.ws_xml_reader_binary_encoding"]
 old-location: wsw\ws_xml_reader_binary_encoding.htm
 tech.root: wsw
 ms.assetid: 51a0802b-6624-430e-96c1-a8470fac4937

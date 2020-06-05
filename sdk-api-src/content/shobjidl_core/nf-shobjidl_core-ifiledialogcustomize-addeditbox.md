@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddEditBox
 title: IFileDialogCustomize::AddEditBox (shobjidl_core.h)
-description: Adds an edit box control to the dialog.
+description: Adds an edit box control to the dialog.helpviewer_keywords: ["AddEditBox","AddEditBox method [Windows Shell]","AddEditBox method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddEditBox method","IFileDialogCustomize.AddEditBox","IFileDialogCustomize::AddEditBox","shell.IFileDialogCustomize_AddEditBox","shell_IFileDialogCustomize_AddEditBox","shobjidl_core/IFileDialogCustomize::AddEditBox"]
 old-location: shell\IFileDialogCustomize_AddEditBox.htm
 tech.root: shell
 ms.assetid: 7648eb7a-d7c4-4d4f-a347-52eb81135270

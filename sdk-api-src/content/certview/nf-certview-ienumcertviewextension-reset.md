@@ -1,7 +1,7 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Reset
 title: IEnumCERTVIEWEXTENSION::Reset (certview.h)
-description: Moves to the beginning of the extension-enumeration sequence.
+description: Moves to the beginning of the extension-enumeration sequence.helpviewer_keywords: ["IEnumCERTVIEWEXTENSION interface [Security]","Reset method","IEnumCERTVIEWEXTENSION object [Security]","Reset method","IEnumCERTVIEWEXTENSION.Reset","IEnumCERTVIEWEXTENSION::Reset","Reset","Reset method [Security]","Reset method [Security]","IEnumCERTVIEWEXTENSION interface","Reset method [Security]","IEnumCERTVIEWEXTENSION object","_certsrv_ienumcertviewextension_reset","certview/IEnumCERTVIEWEXTENSION::Reset","security.ienumcertviewextension_reset"]
 old-location: security\ienumcertviewextension_reset.htm
 tech.root: SecCrypto
 ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f

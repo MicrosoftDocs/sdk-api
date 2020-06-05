@@ -2,6 +2,7 @@
 UID: NN:effects.IWMPEffects2
 title: IWMPEffects2 (effects.h)
 description: IWMPEffects2 interface
+helpviewer_keywords: ["IWMPEffects2","IWMPEffects2 interface [Windows Media Player]","IWMPEffects2 interface [Windows Media Player]","described","IWMPEffects2Interface","effects/IWMPEffects2","wmp.iwmpeffects2"]
 old-location: wmp\iwmpeffects2.htm
 tech.root: WMP
 ms.assetid: 44e044c1-97fd-43cb-9530-4556e485f5ae
@@ -48,6 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
+The IWMPEffects2 interface.
 
 
 
@@ -133,7 +135,3 @@ Called by Windows Media Player to provide visualization access to the core Windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
- 
-
- 
-

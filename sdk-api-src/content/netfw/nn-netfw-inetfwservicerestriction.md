@@ -1,7 +1,7 @@
 ---
 UID: NN:netfw.INetFwServiceRestriction
 title: INetFwServiceRestriction (netfw.h)
-description: Access to the Windows Service Hardening networking rules.
+description: Access to the Windows Service Hardening networking rules.helpviewer_keywords: ["INetFwServiceRestriction","INetFwServiceRestriction interface [ICS/ICF]","INetFwServiceRestriction interface [ICS/ICF]","described","ics.inetfwservicerestriction","netfw/INetFwServiceRestriction"]
 old-location: ics\inetfwservicerestriction.htm
 tech.root: ics
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7

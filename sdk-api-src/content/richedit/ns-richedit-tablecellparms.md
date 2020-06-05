@@ -2,6 +2,7 @@
 UID: NS:richedit._tableCellParms
 title: TABLECELLPARMS (richedit.h)
 description: Defines the attributes of cells in a table row.
+helpviewer_keywords: ["TABLECELLPARMS","TABLECELLPARMS structure [Windows Controls]","controls.tablecellparms","richedit/TABLECELLPARMS"]
 old-location: controls\tablecellparms.htm
 tech.root: Controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the attributes of cells in a table row. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=10725">Rich Text Format (RTF) Specification</a>. 
+Defines the attributes of cells in a table row. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification. 
 
 
 
@@ -99,7 +100,7 @@ The width of a cell (\cellx).
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
-Shading in .01% (\clshdng). This controls the amount of pattern foreground color (<b>crForePat</b>) and pattern background color (<b>crBackPat</b>) that is used to create the cell background color. If <b>wShading</b> is 0, the cell background is <b>crBackPat</b>. If it’s 10000, the cell background is <b>crForePat</b>. Values of <b>wShading</b> in between are mixtures of the two pattern colors. 
+Shading in .01% (\clshdng). This controls the amount of pattern foreground color (<b>crForePat</b>) and pattern background color (<b>crBackPat</b>) that is used to create the cell background color. If <b>wShading</b> is 0, the cell background is <b>crBackPat</b>. If it's 10000, the cell background is <b>crForePat</b>. Values of <b>wShading</b> in between are mixtures of the two pattern colors. 
 
 
 

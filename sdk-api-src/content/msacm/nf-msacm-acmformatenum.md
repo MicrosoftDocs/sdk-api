@@ -2,6 +2,7 @@
 UID: NF:msacm.acmFormatEnum
 title: acmFormatEnum function (msacm.h)
 description: The acmFormatEnum function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns FALSE.
+helpviewer_keywords: ["_win32_acmFormatEnum","acmFormatEnum","acmFormatEnum function [Windows Multimedia]","acmFormatEnumA","acmFormatEnumW","msacm/acmFormatEnum","msacm/acmFormatEnumA","msacm/acmFormatEnumW","multimedia.acmformatenum"]
 old-location: multimedia\acmformatenum.htm
 tech.root: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio format details. If this par
 
 ### -param pafd
 
-Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure to contain the format details passed to the <b>fnCallback</b> function. This structure must have the <b>cbStruct</b>, <b>pwfx</b>, and <b>cbwfx</b> members of the <b>ACMFORMATDETAILS</b> structure initialized. The <b>dwFormatTag</b> member must also be initialized to either WAVE_FORMAT_UNKNOWN or a valid format tag.
+Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure to contain the format details passed to the <b>fnCallback</b> function. This structure must have the <b>cbStruct</b>, <b>pwfx</b>, and <b>cbwfx</b> members of the <b>ACMFORMATDETAILS</b> structure initialized. The <b>dwFormatTag</b> member must also be initialized to either WAVE_FORMAT_UNKNOWN or a valid format tag.
 
 The <b>fdwSupport</b> member of the structure must be initialized to zero.
 
@@ -100,7 +101,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_CONVERT</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>
@@ -114,7 +115,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NCHANNELS</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
+[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NSAMPLESPERSEC</td>
@@ -126,7 +127,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_SUGGEST</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>

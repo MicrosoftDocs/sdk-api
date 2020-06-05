@@ -2,6 +2,7 @@
 UID: NS:winldap.ldapmodA
 title: LDAPModA (winldap.h)
 description: Holds data required to perform a modification operation.
+helpviewer_keywords: ["*PLDAPModA","LDAPMod","LDAPMod structure [LDAP]","LDAPModA","LDAP_MOD_ADD (0x00)","LDAP_MOD_DELETE (0x01)","LDAP_MOD_REPLACE (0x02)","PLDAPMod","PLDAPMod structure pointer [LDAP]","_ldap_ldapmod","ldap.ldapmod","ldapmodA","ldapmodW","winldap/LDAPMod","winldap/PLDAPMod","winldap/ldapmodA","winldap/ldapmodW"]
 old-location: ldap\ldapmod.htm
 tech.root: ldap
 ms.assetid: 07761668-e0d9-4ab0-b8ce-ce8626389e03
@@ -92,7 +93,7 @@ Pointer to a null-terminated string that specifies the name of  the attribute to
 ### -field mod_vals
 
 Pointer to an array of values, if any, to add, delete, or replace. If <b>mop_op</b> does not include the LDAP_MOD_BVALUES flag, the <b>modv_strvals</b> member is a pointer to an array of null-terminated strings. If <b>mop_op</b> includes LDAP_MOD_BVALUES, the <b>modv_bvals</b> member is a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers, which is useful for specifying binary values.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers, which is useful for specifying binary values.
 
 
 ### -field mod_vals.modv_strvals
@@ -102,7 +103,7 @@ Pointer to a null-terminated array of null-terminated strings. The last element 
 
 ### -field mod_vals.modv_bvals
 
-Pointer to a <b>NULL</b>-terminated array of <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
+Pointer to a <b>NULL</b>-terminated array of <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> pointers. The last element of the array must be a <b>NULL</b> pointer.
 
 
 ## -remarks
@@ -134,7 +135,7 @@ When passing a <b>LDAPMod</b> structure into the <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

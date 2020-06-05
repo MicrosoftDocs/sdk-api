@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList1
 title: ID3D12GraphicsCommandList1 (d3d12.h)
-description: Encapsulates a list of graphics commands for rendering, extending the interface to support programmable sample positions, atomic copies for implementing late-latch techniques, and optional depth-bounds testing.
+description: Encapsulates a list of graphics commands for rendering, extending the interface to support programmable sample positions, atomic copies for implementing late-latch techniques, and optional depth-bounds testing.helpviewer_keywords: ["ID3D12GraphicsCommandList1","ID3D12GraphicsCommandList1 interface","ID3D12GraphicsCommandList1 interface","described","d3d12/ID3D12GraphicsCommandList1","direct3d12.id3d12graphicscommandlist1"]
 old-location: direct3d12\id3d12graphicscommandlist1.htm
 tech.root: direct3d12
 ms.assetid: E156C26B-0E51-4F43-9AB2-373E4C67A496

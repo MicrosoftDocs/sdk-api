@@ -2,6 +2,7 @@
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetOutputSignatureElementDesc
 title: ID3D10EffectShaderVariable::GetOutputSignatureElementDesc (d3d10effect.h)
 description: Get an output-signature description.
+helpviewer_keywords: ["099e180b-e0ef-fb4c-2ecb-2e42899814e8","GetOutputSignatureElementDesc","GetOutputSignatureElementDesc method [Direct3D 10]","GetOutputSignatureElementDesc method [Direct3D 10]","ID3D10EffectShaderVariable interface","ID3D10EffectShaderVariable interface [Direct3D 10]","GetOutputSignatureElementDesc method","ID3D10EffectShaderVariable.GetOutputSignatureElementDesc","ID3D10EffectShaderVariable::GetOutputSignatureElementDesc","d3d10effect/ID3D10EffectShaderVariable::GetOutputSignatureElementDesc","direct3d10.id3d10effectshadervariable_getoutputsignatureelementdesc"]
 old-location: direct3d10\id3d10effectshadervariable_getoutputsignatureelementdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getoutputsignatureelementdesc.htm
@@ -73,9 +74,9 @@ A zero-based element index.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a parameter description (see <a href="https://docs.microsoft.com/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>).
+A pointer to a parameter description (see <a href="/windows/win32/api/d3d10shader/ns-d3d10shader-d3d10_signature_parameter_desc">D3D10_SIGNATURE_PARAMETER_DESC</a>).
 
 
 ## -returns

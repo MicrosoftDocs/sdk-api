@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi._SEARCH_NOTIFICATION_PRIORITY
 title: SEARCH_NOTIFICATION_PRIORITY (searchapi.h)
-description: Indicates the priority of processing an item that has changed.
+description: Indicates the priority of processing an item that has changed.helpviewer_keywords: ["SEARCH_HIGH_PRIORITY","SEARCH_NORMAL_PRIORITY","SEARCH_NOTIFICATION_PRIORITY","SEARCH_NOTIFICATION_PRIORITY enumeration [search]","_search_SEARCH_NOTIFICATION_PRIORITY","search._search_SEARCH_NOTIFICATION_PRIORITY","searchapi/SEARCH_HIGH_PRIORITY","searchapi/SEARCH_NORMAL_PRIORITY","searchapi/SEARCH_NOTIFICATION_PRIORITY"]
 old-location: search\_search_SEARCH_NOTIFICATION_PRIORITY.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_notification_priority.htm

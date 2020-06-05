@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl2.ConfigDialog
 title: ITLegacyAddressMediaControl2::ConfigDialog (tapi3if.h)
-description: The ConfigDialog method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device. The parameters that can be edited are those currently in use on the device.
+description: The ConfigDialog method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device. The parameters that can be edited are those currently in use on the device.helpviewer_keywords: ["ConfigDialog","ConfigDialog method [TAPI 2.2]","ConfigDialog method [TAPI 2.2]","ITLegacyAddressMediaControl2 interface","ITLegacyAddressMediaControl2 interface [TAPI 2.2]","ConfigDialog method","ITLegacyAddressMediaControl2.ConfigDialog","ITLegacyAddressMediaControl2::ConfigDialog","_tapi3_itlegacyaddressmediacontrol2_configdialog","tapi3.itlegacyaddressmediacontrol2_configdialog","tapi3if/ITLegacyAddressMediaControl2::ConfigDialog"]
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialog.htm
 tech.root: Tapi
 ms.assetid: ac2f7afe-4531-454a-8696-ca21556a049a

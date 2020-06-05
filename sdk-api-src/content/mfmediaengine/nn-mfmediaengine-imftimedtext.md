@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmediaengine.IMFTimedText
 title: IMFTimedText (mfmediaengine.h)
-description: A timed-text object represents a component of timed text.
+description: A timed-text object represents a component of timed text.helpviewer_keywords: ["IMFTimedText","IMFTimedText interface [Media Foundation]","IMFTimedText interface [Media Foundation]","described","mf.imftimedtext","mfmediaengine/IMFTimedText"]
 old-location: mf\imftimedtext.htm
 tech.root: medfound
 ms.assetid: C76D087C-7039-4C1F-93D0-0CBAC925EE43

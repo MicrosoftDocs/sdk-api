@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.SetOutputDirectory
 title: IFsrmReportManager::SetOutputDirectory (fsrmreports.h)
-description: Sets the local directory path where reports are stored.
+description: Sets the local directory path where reports are stored.helpviewer_keywords: ["FsrmReportManager class [File Server Resource Manager]","SetOutputDirectory method","IFsrmReportManager interface [File Server Resource Manager]","SetOutputDirectory method","IFsrmReportManager.SetOutputDirectory","IFsrmReportManager::SetOutputDirectory","SetOutputDirectory","SetOutputDirectory method [File Server Resource Manager]","SetOutputDirectory method [File Server Resource Manager]","FsrmReportManager class","SetOutputDirectory method [File Server Resource Manager]","IFsrmReportManager interface","fs.ifsrmreportmanager_setoutputdirectory","fsrm.ifsrmreportmanager_setoutputdirectory","fsrmreports/IFsrmReportManager::SetOutputDirectory"]
 old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm
 tech.root: fsrm
 ms.assetid: 5bbc4255-1fed-45c5-bb13-41ee7c47ed56

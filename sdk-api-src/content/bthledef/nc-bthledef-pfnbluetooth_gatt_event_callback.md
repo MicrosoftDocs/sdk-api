@@ -2,6 +2,7 @@
 UID: NC:bthledef.PFNBLUETOOTH_GATT_EVENT_CALLBACK
 title: PFNBLUETOOTH_GATT_EVENT_CALLBACK (bthledef.h)
 description: Profile drivers implement a Bluetooth GATT event callback to be called whenever the value of a specific characteristic changes.
+helpviewer_keywords: ["BluetoothGattEventCallback","BluetoothGattEventCallback callback function [Bluetooth Devices]","PFNBLUETOOTH_GATT_EVENT_CALLBACK","PFNBLUETOOTH_GATT_EVENT_CALLBACK callback","bltooth.bluetooth_gatt_notification_callback_function","bthledef/BluetoothGattEventCallback"]
 old-location: bltooth\bluetooth_gatt_notification_callback_function.htm
 tech.root: bltooth
 ms.assetid: 96AC4E49-76D7-47B5-93B9-64D574A28E0A
@@ -64,7 +65,7 @@ The type of GATT event.
 
 ### -param EventOutParameter [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
+Pointer to a <a href="/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
 
 
 ### -param Context [in, optional]
@@ -79,7 +80,7 @@ The context specified by the profile driver in the <i>CallbackContext</i> parame
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
+<a href="/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll4.addBlobPropertyToCertificate
 title: ICEnroll4::addBlobPropertyToCertificate (xenroll.h)
-description: Adds a BLOB property to a certificate.
+description: Adds a BLOB property to a certificate.helpviewer_keywords: ["CERT_DESCRIPTION_PROP_ID","CERT_FRIENDLY_NAME_PROP_ID","CERT_PVK_FILE_PROP_ID","CERT_RENEWAL_PROP_ID","CEnroll object [Security]","addBlobPropertyToCertificate method","ICEnroll4 interface [Security]","addBlobPropertyToCertificate method","ICEnroll4.addBlobPropertyToCertificate","ICEnroll4::addBlobPropertyToCertificate","addBlobPropertyToCertificate","addBlobPropertyToCertificate method [Security]","addBlobPropertyToCertificate method [Security]","CEnroll object","addBlobPropertyToCertificate method [Security]","ICEnroll4 interface","security.icenroll4_addblobpropertytocertificate","xenroll/ICEnroll4::addBlobPropertyToCertificate"]
 old-location: security\icenroll4_addblobpropertytocertificate.htm
 tech.root: SecCrypto
 ms.assetid: a21e2636-d49f-4490-867c-2ea95d7fdc69

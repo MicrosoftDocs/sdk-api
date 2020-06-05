@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetChange
 title: ISyncProviderRegistration::GetChange (syncregistration.h)
-description: Gets an ISyncRegistrationChange object that represents a new registration event.
+description: Gets an ISyncRegistrationChange object that represents a new registration event.helpviewer_keywords: ["GetChange","GetChange method [Windows Sync]","GetChange method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetChange method","ISyncProviderRegistration.GetChange","ISyncProviderRegistration::GetChange","syncregistration/ISyncProviderRegistration::GetChange","winsync.isyncproviderregistration_getchange"]
 old-location: winsync\isyncproviderregistration_getchange.htm
 tech.root: winsync
 ms.assetid: 6a65ba8b-b9cb-4d8c-8d18-9627547f9982

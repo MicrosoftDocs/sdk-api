@@ -2,6 +2,7 @@
 UID: NN:mbnapi.IMbnDeviceServicesManager
 title: IMbnDeviceServicesManager (mbnapi.h)
 description: Provides access to IMbnDeviceServicesContext objects and Mobile Broadband device service notifications.
+helpviewer_keywords: ["IMbnDeviceServicesManager","IMbnDeviceServicesManager interface [Microsoft Broadband Networks]","IMbnDeviceServicesManager interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservicesmanager","mbnapi/IMbnDeviceServicesManager"]
 old-location: mbn\imbndeviceservicesmanager.htm
 tech.root: mbn
 ms.assetid: 6CFF2275-0649-4009-84F2-0657B2FF281C
@@ -94,7 +95,7 @@ The following procedure describes how to register for notifications.<ol>
 
 Notifications can be terminated by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> on the connection point returned in step 2.
 
-For sample code that registers COM notifications, see the Client section of the <a href="https://msdn.microsoft.com/magazine/msdn-magazine-issues">COM Connection Points article</a>.
+For sample code that registers COM notifications, see the Client section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2001/january/msdn-magazine-january-2001">COM Connection Points article</a>.
 
 
 

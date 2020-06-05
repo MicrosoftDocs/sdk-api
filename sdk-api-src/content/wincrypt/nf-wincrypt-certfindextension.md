@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertFindExtension
 title: CertFindExtension function (wincrypt.h)
-description: The CertFindExtension function finds the first extension in the CERT_EXTENSION array, as identified by its object identifier (OID).
+description: The CertFindExtension function finds the first extension in the CERT_EXTENSION array, as identified by its object identifier (OID).helpviewer_keywords: ["CertFindExtension","CertFindExtension function [Security]","_crypto2_certfindextension","security.certfindextension","wincrypt/CertFindExtension"]
 old-location: security\certfindextension.htm
 tech.root: SecCrypto
 ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c

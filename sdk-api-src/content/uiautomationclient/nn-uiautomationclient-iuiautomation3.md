@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation3
 title: IUIAutomation3 (uiautomationclient.h)
-description: Extends the IUIAutomation2 interface to expose additional methods for controlling Microsoft UI Automation functionality.
+description: Extends the IUIAutomation2 interface to expose additional methods for controlling Microsoft UI Automation functionality.helpviewer_keywords: ["IUIAutomation3","IUIAutomation3 interface [Windows Accessibility]","IUIAutomation3 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomation3","winauto.uiauto_IUIAutomation3"]
 old-location: winauto\uiauto_IUIAutomation3.htm
 tech.root: WinAuto
 ms.assetid: D46CE3FF-31E2-32CE-FD38-680064E1765D

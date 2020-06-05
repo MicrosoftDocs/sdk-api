@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WIC8BIMResolutionInfoProperties
 title: WIC8BIMResolutionInfoProperties (wincodec.h)
-description: Specifies the identifiers of the metadata items in an 8BIMResolutionInfo block.
+description: Specifies the identifiers of the metadata items in an 8BIMResolutionInfo block.helpviewer_keywords: ["WIC8BIMResolutionInfoHResolution","WIC8BIMResolutionInfoHResolutionUnit","WIC8BIMResolutionInfoHeightUnit","WIC8BIMResolutionInfoPString","WIC8BIMResolutionInfoProperties","WIC8BIMResolutionInfoProperties enumeration [Windows Imaging Component]","WIC8BIMResolutionInfoVResolution","WIC8BIMResolutionInfoVResolutionUnit","WIC8BIMResolutionInfoWidthUnit","_wic_codec_wic8bimresolutioninfoproperties","wic._wic_codec_wic8bimresolutioninfoproperties","wincodec/WIC8BIMResolutionInfoHResolution","wincodec/WIC8BIMResolutionInfoHResolutionUnit","wincodec/WIC8BIMResolutionInfoHeightUnit","wincodec/WIC8BIMResolutionInfoPString","wincodec/WIC8BIMResolutionInfoProperties","wincodec/WIC8BIMResolutionInfoVResolution","wincodec/WIC8BIMResolutionInfoVResolutionUnit","wincodec/WIC8BIMResolutionInfoWidthUnit"]
 old-location: wic\_wic_codec_wic8bimresolutioninfoproperties.htm
 tech.root: wic
 ms.assetid: a5bb984a-290c-4dd6-8b94-b8a221e78a6b

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IContextMenuCB
 title: IContextMenuCB (shobjidl_core.h)
-description: Exposes a method that enables the callback of a context menu. For example, to add a shield icon to a menuItem that requires elevation.
+description: Exposes a method that enables the callback of a context menu. For example, to add a shield icon to a menuItem that requires elevation.helpviewer_keywords: ["IContextMenuCB","IContextMenuCB interface [Windows Shell]","IContextMenuCB interface [Windows Shell]","described","_shell_IContextMenuCB","shell.IContextMenuCB","shobjidl_core/IContextMenuCB"]
 old-location: shell\IContextMenuCB.htm
 tech.root: shell
 ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5

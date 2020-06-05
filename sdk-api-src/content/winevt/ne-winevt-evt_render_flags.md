@@ -1,7 +1,7 @@
 ---
 UID: NE:winevt._EVT_RENDER_FLAGS
 title: EVT_RENDER_FLAGS (winevt.h)
-description: Defines the values that specify what to render.
+description: Defines the values that specify what to render.helpviewer_keywords: ["EVT_RENDER_FLAGS","EVT_RENDER_FLAGS enumeration [EventLog]","EvtRenderBookmark","EvtRenderEventValues","EvtRenderEventXml","wes.evt_render_flags","winevt/EVT_RENDER_FLAGS","winevt/EvtRenderBookmark","winevt/EvtRenderEventValues","winevt/EvtRenderEventXml"]
 old-location: wes\evt_render_flags.htm
 tech.root: wes
 ms.assetid: e7206481-c734-425f-a2b6-fa0d9a2b66c1

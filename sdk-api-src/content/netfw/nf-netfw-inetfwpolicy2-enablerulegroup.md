@@ -2,6 +2,7 @@
 UID: NF:netfw.INetFwPolicy2.EnableRuleGroup
 title: INetFwPolicy2::EnableRuleGroup (netfw.h)
 description: Enables or disables a specified group of firewall rules.
+helpviewer_keywords: ["EnableRuleGroup","EnableRuleGroup method [ICS/ICF]","EnableRuleGroup method [ICS/ICF]","INetFwPolicy2 interface","INetFwPolicy2 interface [ICS/ICF]","EnableRuleGroup method","INetFwPolicy2.EnableRuleGroup","INetFwPolicy2::EnableRuleGroup","ics.inetfwpolicy2_enablerulegroup","netfw/INetFwPolicy2::EnableRuleGroup"]
 old-location: ics\inetfwpolicy2_enablerulegroup.htm
 tech.root: ics
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
@@ -59,7 +60,7 @@ The <b>EnableRuleGroup</b> method enables or disables a specified group of firew
 
 ### -param profileTypesBitmask [in]
 
-A bitmask of profiles from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type2_">NET_FW_PROFILE_TYPE2</a>.
+A bitmask of profiles from <a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>.
 
 
 ### -param group [in]

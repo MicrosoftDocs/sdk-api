@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagCOPYDATASTRUCT
 title: COPYDATASTRUCT (winuser.h)
-description: Contains data to be passed to another application by the WM_COPYDATA message.
+description: Contains data to be passed to another application by the WM_COPYDATA message.helpviewer_keywords: ["*PCOPYDATASTRUCT","COPYDATASTRUCT","COPYDATASTRUCT structure [Data Exchange]","PCOPYDATASTRUCT","PCOPYDATASTRUCT structure pointer [Data Exchange]","_win32_COPYDATASTRUCT_str","_win32_copydatastruct_str_cpp","dataxchg.copydatastruct","winui._win32_copydatastruct_str","winuser/COPYDATASTRUCT","winuser/PCOPYDATASTRUCT"]
 old-location: dataxchg\copydatastruct.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\datacopy\datacopyreference\datacopystructures\copydatastruct.htm

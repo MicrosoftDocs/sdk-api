@@ -2,6 +2,7 @@
 UID: NS:webservices._WS_VOID_DESCRIPTION
 title: WS_VOID_DESCRIPTION (webservices.h)
 description: Specifies information about a field which is neither serialized nor deserialized.
+helpviewer_keywords: ["WS_VOID_DESCRIPTION","WS_VOID_DESCRIPTION structure [Web Services for Windows]","webservices/WS_VOID_DESCRIPTION","wsw.ws_void_description"]
 old-location: wsw\ws_void_description.htm
 tech.root: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
@@ -56,7 +57,7 @@ Specifies information about a field which is neither serialized nor
 This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_NO_FIELD_MAPPING</a>within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
-This type description is only required when <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is not
+This type description is only required when <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is not
                 being used.
             
 

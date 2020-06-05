@@ -2,6 +2,7 @@
 UID: NS:virtdisk._STORAGE_DEPENDENCY_INFO
 title: STORAGE_DEPENDENCY_INFO (virtdisk.h)
 description: Contains virtual hard disk (VHD) storage dependency information.
+helpviewer_keywords: ["*PSTORAGE_DEPENDENCY_INFO","PSTORAGE_DEPENDENCY_INFO","PSTORAGE_DEPENDENCY_INFO structure pointer [VHD]","STORAGE_DEPENDENCY_INFO","STORAGE_DEPENDENCY_INFO structure [VHD]","_STORAGE_DEPENDENCY_INFO","vdssys/PSTORAGE_DEPENDENCY_INFO","vdssys/STORAGE_DEPENDENCY_INFO","vhd.storage_dependency_info","virtdisk/PSTORAGE_DEPENDENCY_INFO","virtdisk/STORAGE_DEPENDENCY_INFO"]
 old-location: vhd\storage_dependency_info.htm
 tech.root: VStor
 ms.assetid: 67648a4d-3f66-407e-9036-c7072bc7e460
@@ -60,7 +61,7 @@ Contains virtual hard disk (VHD) storage dependency information.
 
 ### -field Version
 
-A [STORAGE_DEPENDENCY_INFO_TYPE_1](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1)a> or [STORAGE_DEPENDENCY_INFO_TYPE_2](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2)a>.
+A [STORAGE_DEPENDENCY_INFO_TYPE_1](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1) or [STORAGE_DEPENDENCY_INFO_TYPE_2](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2).
 
 
 ### -field NumberEntries
@@ -70,12 +71,12 @@ Number of entries returned in the following unioned members.
 
 ### -field Version1Entries
 
-Variable-length array containing <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
+Variable-length array containing <a href="/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
 
 
 ### -field Version2Entries
 
-Variable-length array containing <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
+Variable-length array containing <a href="/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
 
 
 ## -see-also

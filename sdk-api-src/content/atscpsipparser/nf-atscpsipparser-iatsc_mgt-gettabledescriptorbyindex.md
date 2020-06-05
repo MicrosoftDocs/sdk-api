@@ -2,12 +2,12 @@
 UID: NF:atscpsipparser.IATSC_MGT.GetTableDescriptorByIndex
 title: IATSC_MGT::GetTableDescriptorByIndex (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IATSC_MGT.GetTableDescriptorByIndex","IATSC_MGT::GetTableDescriptorByIndex","IATSC_MGTGetTableDescriptorByIndex","atscpsipparser/IATSC_MGT::GetTableDescriptorByIndex","mstv.iatsc_mgt_gettabledescriptorbyindex"]
 old-location: mstv\iatsc_mgt_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 4cf36ca4-0bc2-401e-a6f2-be23d64a1af6
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_MGT.GetTableDescriptorByIndex, IATSC_MGT::GetTableDescriptorByIndex, IATSC_MGTGetTableDescriptorByIndex, atscpsipparser/IATSC_MGT::GetTableDescriptorByIndex, mstv.iatsc_mgt_gettabledescriptorbyindex
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_MGT.GetTableDescriptorByIndex
 dev_langs:

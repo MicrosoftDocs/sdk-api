@@ -2,6 +2,7 @@
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.IsActive
 title: ISpatialAudioObjectBase::IsActive (spatialaudioclient.h)
 description: Gets a boolean value indicating whether the ISpatialAudioObject is valid.
+helpviewer_keywords: ["ISpatialAudioObjectBase interface [Core Audio]","IsActive method","ISpatialAudioObjectBase.IsActive","ISpatialAudioObjectBase::IsActive","IsActive","IsActive method [Core Audio]","IsActive method [Core Audio]","ISpatialAudioObjectBase interface","coreaudio.ispatialaudioobject_isactive","spatialaudioclient/ISpatialAudioObjectBase::IsActive"]
 old-location: coreaudio\ispatialaudioobject_isactive.htm
 tech.root: CoreAudio
 ms.assetid: 3339E021-4AC3-43CB-9306-C8D58541CA5F
@@ -93,7 +94,7 @@ The rendering engine will also deactivate the audio object, setting <b>IsActive<
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

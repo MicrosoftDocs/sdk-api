@@ -1,7 +1,7 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenSid
 title: IBitsTokenOptions::GetHelperTokenSid (bits4_0.h)
-description: Returns the SID of the helper token if one is set.
+description: Returns the SID of the helper token if one is set.helpviewer_keywords: ["GetHelperTokenSid","GetHelperTokenSid method [BITS]","GetHelperTokenSid method [BITS]","IBitsTokenOptions interface","IBitsTokenOptions interface [BITS]","GetHelperTokenSid method","IBitsTokenOptions.GetHelperTokenSid","IBitsTokenOptions::GetHelperTokenSid","bits.ibitstokenoptions_gethelpertokensid","bits4_0/IBitsTokenOptions::GetHelperTokenSid"]
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm
 tech.root: Bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12

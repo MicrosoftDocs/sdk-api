@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlCustomDraw
 title: INameSpaceTreeControlCustomDraw (shobjidl.h)
-description: Exposes methods that enable the user to draw a custom namespace tree control and its items.
+description: Exposes methods that enable the user to draw a custom namespace tree control and its items.helpviewer_keywords: ["INameSpaceTreeControlCustomDraw","INameSpaceTreeControlCustomDraw interface [Windows Shell]","INameSpaceTreeControlCustomDraw interface [Windows Shell]","described","_shell_INameSpaceTreeControlCustomDraw","shell.INameSpaceTreeControlCustomDraw","shobjidl/INameSpaceTreeControlCustomDraw"]
 old-location: shell\INameSpaceTreeControlCustomDraw.htm
 tech.root: shell
 ms.assetid: eac7c7c2-87f0-4af1-bf2f-f4fef5ddd92e

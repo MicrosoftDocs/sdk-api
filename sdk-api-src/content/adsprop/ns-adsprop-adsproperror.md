@@ -1,7 +1,7 @@
 ---
 UID: NS:adsprop._ADSPROPERROR
 title: ADSPROPERROR (adsprop.h)
-description: The ADSPROPERROR structure is used to pass error data to the notification object with the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR message.
+description: The ADSPROPERROR structure is used to pass error data to the notification object with the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR message.helpviewer_keywords: ["*PADSPROPERROR","ADSPROPERROR","ADSPROPERROR structure [Active Directory]","PADSPROPERROR","PADSPROPERROR structure pointer [Active Directory]","_glines_adsproperror","ad.adsproperror","adsprop/ADSPROPERROR","adsprop/PADSPROPERROR"]
 old-location: ad\adsproperror.htm
 tech.root: ad
 ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a

@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.PrintJobs
 title: IADsPrintQueueOperations::PrintJobs (iads.h)
-description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.
+description: The IADsPrintQueueOperations::PrintJobs method gets an IADsCollection interface pointer on the collection of the print jobs processed in this print queue.helpviewer_keywords: ["IADsPrintQueueOperations interface [ADSI]","PrintJobs method","IADsPrintQueueOperations.PrintJobs","IADsPrintQueueOperations::PrintJobs","PrintJobs","PrintJobs method [ADSI]","PrintJobs method [ADSI]","IADsPrintQueueOperations interface","_ds_iadsprintqueueoperations_printjobs","adsi.iadsprintqueueoperations__printjobs","adsi.iadsprintqueueoperations_printjobs","iads/IADsPrintQueueOperations::PrintJobs"]
 old-location: adsi\iadsprintqueueoperations_printjobs.htm
 tech.root: adsi
 ms.assetid: fe92fef3-596f-416c-b613-1d93737c298e

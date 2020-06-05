@@ -1,7 +1,7 @@
 ---
 UID: NE:certenroll.X509KeySpec
 title: X509KeySpec (certenroll.h)
-description: Specifies the intended use of a key for a legacy cryptographic service provider (CSP).
+description: Specifies the intended use of a key for a legacy cryptographic service provider (CSP).helpviewer_keywords: ["X509KeySpec","X509KeySpec enumeration [Security]","XCN_AT_KEYEXCHANGE","XCN_AT_NONE","XCN_AT_SIGNATURE","certenroll/X509KeySpec","certenroll/XCN_AT_KEYEXCHANGE","certenroll/XCN_AT_NONE","certenroll/XCN_AT_SIGNATURE","security.x509keyspec_enum"]
 old-location: security\x509keyspec_enum.htm
 tech.root: seccertenroll
 ms.assetid: d677d46c-3b36-4081-a6db-123ac1cef84b

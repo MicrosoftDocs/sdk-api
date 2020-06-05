@@ -1,7 +1,7 @@
 ---
 UID: NC:evr.MFCreateVideoSampleAllocator
 title: MFCreateVideoSampleAllocator (evr.h)
-description: Creates an object that allocates video samples.
+description: Creates an object that allocates video samples.helpviewer_keywords: ["IID_IMFVideoSampleAllocator","IID_IMFVideoSampleAllocatorCallback","IID_IUnknown","MFCreateVideoSampleAllocator","MFCreateVideoSampleAllocator callback","MFCreateVideoSampleAllocator callback function [Media Foundation]","evr/MFCreateVideoSampleAllocator","mf.mfcreatevideosampleallocator"]
 old-location: mf\mfcreatevideosampleallocator.htm
 tech.root: medfound
 ms.assetid: 2d40a335-9948-40d9-b93f-18a6decf96c8

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.ReleaseMedia
 title: IDiscFormat2RawCD::ReleaseMedia (imapi2.h)
-description: Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock.
+description: Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","ReleaseMedia method","IDiscFormat2RawCD.ReleaseMedia","IDiscFormat2RawCD::ReleaseMedia","ReleaseMedia","ReleaseMedia method [IMAPI]","ReleaseMedia method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_releasemedia","imapi2/IDiscFormat2RawCD::ReleaseMedia"]
 old-location: imapi\idiscformat2rawcd_releasemedia.htm
 tech.root: imapi
 ms.assetid: 5f60c16f-ef40-4bb5-8df2-fa4ae91541b6

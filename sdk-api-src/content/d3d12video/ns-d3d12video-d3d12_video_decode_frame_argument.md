@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_FRAME_ARGUMENT
 title: D3D12_VIDEO_DECODE_FRAME_ARGUMENT
-description: Represents the decode parameters for a frame.
+description: Represents the decode parameters for a frame.helpviewer_keywords: ["D3D12_VIDEO_DECODE_FRAME_ARGUMENT","D3D12_VIDEO_DECODE_FRAME_ARGUMENT",""]
 tech.root: mf
 ms.assetid: d5e35570-69a6-40a3-bfc6-a7c1e3d8b57d
 ms.date: 05/28/2019

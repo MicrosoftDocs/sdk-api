@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterEvent
 title: IUIAutomationRegistrar::RegisterEvent (uiautomationcore.h)
-description: Registers a third-party Microsoft UI Automation event.
+description: Registers a third-party Microsoft UI Automation event.helpviewer_keywords: ["IUIAutomationRegistrar interface [Windows Accessibility]","RegisterEvent method","IUIAutomationRegistrar.RegisterEvent","IUIAutomationRegistrar::RegisterEvent","RegisterEvent","RegisterEvent method [Windows Accessibility]","RegisterEvent method [Windows Accessibility]","IUIAutomationRegistrar interface","uiauto.uiauto_IUIAutomationRegistrar_RegisterEvent","uiauto_IUIAutomationRegistrar_RegisterEvent","uiautomationcore/IUIAutomationRegistrar::RegisterEvent","winauto.uiauto_IUIAutomationRegistrar_RegisterEvent"]
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterEvent.htm
 tech.root: WinAuto
 ms.assetid: 17a95b6c-5dfb-45b3-92a9-0291b7d7120f

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.lineSetCurrentLocation
 title: lineSetCurrentLocation function (tapi.h)
-description: The lineSetCurrentLocation function sets the location used as the context for address translation.
+description: The lineSetCurrentLocation function sets the location used as the context for address translation.helpviewer_keywords: ["_tapi2_linesetcurrentlocation","lineSetCurrentLocation","lineSetCurrentLocation function [TAPI 2.2]","tapi/lineSetCurrentLocation","tapi2.linesetcurrentlocation"]
 old-location: tapi2\linesetcurrentlocation.htm
 tech.root: Tapi
 ms.assetid: ad31bc8b-399d-4c2e-b79c-fc935d5adf1a

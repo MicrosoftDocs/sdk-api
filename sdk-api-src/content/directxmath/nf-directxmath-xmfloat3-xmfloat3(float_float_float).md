@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT3.XMFLOAT3(float,float,float)
 title: XMFLOAT3::XMFLOAT3(float,float,float) (directxmath.h)
-description: Initializes a new instance of XMFLOAT3 from three float arguments.
+description: Initializes a new instance of XMFLOAT3 from three float arguments.helpviewer_keywords: ["XMFLOAT3","XMFLOAT3 constructor [DirectX Math Support APIs]","XMFLOAT3 constructor [DirectX Math Support APIs]","XMFLOAT3 structure","XMFLOAT3 structure [DirectX Math Support APIs]","XMFLOAT3 constructor","XMFLOAT3.XMFLOAT3","XMFLOAT3.XMFLOAT3(float","float","float)","XMFLOAT3::XMFLOAT3","XMFLOAT3::XMFLOAT3(float","float","float)","dxmath.xmfloat3_ctor_2"]
 old-location: dxmath\xmfloat3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.#ctor(float,float,float)

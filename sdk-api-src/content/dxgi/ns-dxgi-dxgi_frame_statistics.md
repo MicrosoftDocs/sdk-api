@@ -2,6 +2,7 @@
 UID: NS:dxgi.DXGI_FRAME_STATISTICS
 title: DXGI_FRAME_STATISTICS (dxgi.h)
 description: Describes timing and presentation statistics for a frame.
+helpviewer_keywords: ["97415a25-57a3-0530-e47d-4459bac66c73","DXGI_FRAME_STATISTICS","DXGI_FRAME_STATISTICS structure [DXGI]","direct3ddxgi.dxgi_frame_statistics","dxgi/DXGI_FRAME_STATISTICS"]
 old-location: direct3ddxgi\dxgi_frame_statistics.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_frame_statistics.htm
@@ -83,7 +84,7 @@ A value that represents  the running total count of v-blanks when the scheduler 
 
 ### -field SyncQPCTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 A value that represents the high-resolution performance counter timer. 
         This value is the same as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
@@ -92,7 +93,7 @@ A value that represents the high-resolution performance counter timer.
 
 ### -field SyncGPUTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 Reserved. Always returns 0.
 

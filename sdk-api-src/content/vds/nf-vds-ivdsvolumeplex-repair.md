@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsVolumePlex.Repair
 title: IVdsVolumePlex::Repair (vds.h)
-description: Repairs a fault-tolerant volume plex by moving bad members to good disks.
+description: Repairs a fault-tolerant volume plex by moving bad members to good disks.helpviewer_keywords: ["IVdsVolumePlex interface [VDS]","Repair method","IVdsVolumePlex.Repair","IVdsVolumePlex::Repair","Repair","Repair method [VDS]","Repair method [VDS]","IVdsVolumePlex interface","base.ivdsvolumeplex_repair","vds/IVdsVolumePlex::Repair"]
 old-location: base\ivdsvolumeplex_repair.htm
 tech.root: VDS
 ms.assetid: 21c91e85-8a49-4e74-9191-37aeb03b299e

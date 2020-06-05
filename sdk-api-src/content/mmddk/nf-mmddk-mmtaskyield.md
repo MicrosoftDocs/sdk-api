@@ -1,7 +1,7 @@
 ---
 UID: NF:mmddk.mmTaskYield
 title: mmTaskYield function (mmddk.h)
-description: The mmTaskYield function is deprecated. Applications should not use this function.
+description: The mmTaskYield function is deprecated. Applications should not use this function.helpviewer_keywords: ["mmTaskYield","mmTaskYield function [Windows Multimedia]","mmddk/mmTaskYield","multimedia.mmtaskyield"]
 old-location: multimedia\mmtaskyield.htm
 tech.root: Multimedia
 ms.assetid: dd52af03-94fa-4227-b4fc-25089ef54fd7

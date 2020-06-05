@@ -1,7 +1,7 @@
 ---
 UID: NF:prsht.PropSheet_QuerySiblings
 title: PropSheet_QuerySiblings macro (prsht.h)
-description: Causes a property sheet to send the PSM_QUERYSIBLINGS message to each of its pages. You can use this macro or send the PSM_QUERYSIBLINGS message explicitly.
+description: Causes a property sheet to send the PSM_QUERYSIBLINGS message to each of its pages. You can use this macro or send the PSM_QUERYSIBLINGS message explicitly.helpviewer_keywords: ["PropSheet_QuerySiblings","PropSheet_QuerySiblings macro [Windows Controls]","_win32_PropSheet_QuerySiblings","_win32_PropSheet_QuerySiblings_cpp","controls.PropSheet_QuerySiblings","controls._win32_PropSheet_QuerySiblings","prsht/PropSheet_QuerySiblings"]
 old-location: controls\PropSheet_QuerySiblings.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_querysiblings.htm

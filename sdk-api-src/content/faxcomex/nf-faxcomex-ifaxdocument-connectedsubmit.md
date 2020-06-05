@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDocument.ConnectedSubmit
 title: IFaxDocument::ConnectedSubmit (faxcomex.h)
-description: The IFaxDocument::ConnectedSubmit method submits a single fax document to the connected IFaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.
+description: The IFaxDocument::ConnectedSubmit method submits a single fax document to the connected IFaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.helpviewer_keywords: ["ConnectedSubmit","ConnectedSubmit method [Fax Service]","ConnectedSubmit method [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","ConnectedSubmit method","IFaxDocument.ConnectedSubmit","IFaxDocument::ConnectedSubmit","_mfax_faxdocument.connectedsubmit_cpp","fax._mfax_faxdocument_connectedsubmit_cpp","faxcomex/IFaxDocument::ConnectedSubmit"]
 old-location: fax\_mfax_faxdocument_connectedsubmit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm

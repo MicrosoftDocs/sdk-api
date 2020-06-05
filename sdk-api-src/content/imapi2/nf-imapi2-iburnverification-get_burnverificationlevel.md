@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IBurnVerification.get_BurnVerificationLevel
 title: IBurnVerification::get_BurnVerificationLevel (imapi2.h)
-description: Retrieves the current Burn Verification Level.
+description: Retrieves the current Burn Verification Level.helpviewer_keywords: ["IBurnVerification interface [IMAPI]","get_BurnVerificationLevel method","IBurnVerification.get_BurnVerificationLevel","IBurnVerification::get_BurnVerificationLevel","get_BurnVerificationLevel","get_BurnVerificationLevel method [IMAPI]","get_BurnVerificationLevel method [IMAPI]","IBurnVerification interface","imapi.iburnverification_get_burnverificationlevel","imapi2/IBurnVerification::get_BurnVerificationLevel"]
 old-location: imapi\iburnverification_get_burnverificationlevel.htm
 tech.root: imapi
 ms.assetid: 4be9191a-8f87-4571-a7b6-60d582ec471d

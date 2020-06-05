@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_ExtendedProperties
 title: IStylesProvider::get_ExtendedProperties (uiautomationcore.h)
-description: Contains additional properties that are not included in this control pattern, but that provide information about the document content that might be useful to the user.
+description: Contains additional properties that are not included in this control pattern, but that provide information about the document content that might be useful to the user.helpviewer_keywords: ["ExtendedProperties property [Windows Accessibility]","ExtendedProperties property [Windows Accessibility]","IStylesProvider interface","IStylesProvider interface [Windows Accessibility]","ExtendedProperties property","IStylesProvider.ExtendedProperties","IStylesProvider.get_ExtendedProperties","IStylesProvider::ExtendedProperties","IStylesProvider::get_ExtendedProperties","get_ExtendedProperties","uiautomationcore/IStylesProvider::ExtendedProperties","uiautomationcore/IStylesProvider::get_ExtendedProperties","winauto.uiauto_IStylesProvider_ExtendedProperties"]
 old-location: winauto\uiauto_IStylesProvider_ExtendedProperties.htm
 tech.root: WinAuto
 ms.assetid: C8C9EC52-FDC5-469B-BDD7-2BCBA332EF8F

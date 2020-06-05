@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ServerFT
 title: MI_ServerFT (mi.h)
-description: A support structure used in the MI_Server structure. Use the functions with the name prefix &#0034;MI_Server_&#0034; to manipulate these structures.
+description: A support structure used in the MI_Server structure. Use the functions with the name prefix &#0034;MI_Server_&#0034; to manipulate these structures.helpviewer_keywords: ["MI_ServerFT","MI_ServerFT structure [Windows Management Infrastructure (MI)]","mi/MI_ServerFT","wmi_v2.mi_serverft"]
 old-location: wmi_v2\mi_serverft.htm
 tech.root: wmi_v2
 ms.assetid: a8b3b230-8378-448b-9c89-82b601373f0e

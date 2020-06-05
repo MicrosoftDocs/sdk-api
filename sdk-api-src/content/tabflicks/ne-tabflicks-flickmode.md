@@ -1,7 +1,7 @@
 ---
 UID: NE:tabflicks.FLICKMODE
 title: FLICKMODE (tabflicks.h)
-description: Describes where Flick gestures are enabled.
+description: Describes where Flick gestures are enabled.helpviewer_keywords: ["FLICKMODE","FLICKMODE enumeration [Tablet PC]","FLICKMODE_OFF","FLICKMODE_ON","d8e015dc-033c-47a6-b4fd-6ef3b014e505","tabflicks/FLICKMODE","tabflicks/FLICKMODE_OFF","tabflicks/FLICKMODE_ON","tablet.flickmode"]
 old-location: tablet\flickmode.htm
 tech.root: tablet
 ms.assetid: d8e015dc-033c-47a6-b4fd-6ef3b014e505

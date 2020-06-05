@@ -1,7 +1,7 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELWRITE
 title: VIRTUALCHANNELWRITE (cchannel.h)
-description: Sends data from the client end of a virtual channel to a partner application on the server end.
+description: Sends data from the client end of a virtual channel to a partner application on the server end.helpviewer_keywords: ["VirtualChannelWrite","VirtualChannelWrite callback","VirtualChannelWrite callback function [Remote Desktop Services]","_win32_virtualchannelwrite","cchannel/VirtualChannelWrite","termserv.virtualchannelwrite"]
 old-location: termserv\virtualchannelwrite.htm
 tech.root: TermServ
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab

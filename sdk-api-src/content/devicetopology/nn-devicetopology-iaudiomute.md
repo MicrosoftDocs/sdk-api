@@ -1,7 +1,7 @@
 ---
 UID: NN:devicetopology.IAudioMute
 title: IAudioMute (devicetopology.h)
-description: The IAudioMute interface provides access to a hardware mute control.
+description: The IAudioMute interface provides access to a hardware mute control.helpviewer_keywords: ["IAudioMute","IAudioMute interface [Core Audio]","IAudioMute interface [Core Audio]","described","coreaudio.iaudiomute","devicetopology/IAudioMute"]
 old-location: coreaudio\iaudiomute.htm
 tech.root: CoreAudio
 ms.assetid: 53d49af7-81c3-4e75-ba06-dcee34d84292

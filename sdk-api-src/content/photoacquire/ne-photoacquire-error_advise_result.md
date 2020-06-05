@@ -2,6 +2,7 @@
 UID: NE:photoacquire.tagERROR_ADVISE_RESULT
 title: ERROR_ADVISE_RESULT (photoacquire.h)
 description: The ERROR_ADVISE_RESULT enumeration type indicates the type of error values that can be assigned to the pnErrorAdviseResult parameter of IPhotoAcquireProgressCB::ErrorAdvise.
+helpviewer_keywords: ["ERROR_ADVISE_RESULT","ERROR_ADVISE_RESULT enumeration [Picture Acquisition]","PHOTOACQUIRE_RESULT_ABORT","PHOTOACQUIRE_RESULT_NO","PHOTOACQUIRE_RESULT_OK","PHOTOACQUIRE_RESULT_RETRY","PHOTOACQUIRE_RESULT_SKIP","PHOTOACQUIRE_RESULT_SKIP_ALL","PHOTOACQUIRE_RESULT_YES","enumeration [Picture Acquisition]","photoacquire/ERROR_ADVISE_RESULT","photoacquire/PHOTOACQUIRE_RESULT_ABORT","photoacquire/PHOTOACQUIRE_RESULT_NO","photoacquire/PHOTOACQUIRE_RESULT_OK","photoacquire/PHOTOACQUIRE_RESULT_RETRY","photoacquire/PHOTOACQUIRE_RESULT_SKIP","photoacquire/PHOTOACQUIRE_RESULT_SKIP_ALL","photoacquire/PHOTOACQUIRE_RESULT_YES","picacq.error_advise_result"]
 old-location: picacq\error_advise_result.htm
 tech.root: acquisition
 ms.assetid: a3cb2a2d-049a-4607-beaf-41ea6f0d4704
@@ -99,7 +100,7 @@ Specifies a Cancel response to an error dialog. Valid only if the <i>nMessageTyp
 
 
 
-The type of response allowed is of type <a href="https://docs.microsoft.com/windows/win32/api/photoacquire/ne-photoacquire-error_advise_message_type">ERROR_ADVISE_MESSAGE_TYPE</a>, and indicated by the <i>nMessageType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>.
+The type of response allowed is of type <a href="/windows/win32/api/photoacquire/ne-photoacquire-error_advise_message_type">ERROR_ADVISE_MESSAGE_TYPE</a>, and indicated by the <i>nMessageType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">IPhotoAcquireProgressCB::ErrorAdvise</a>.
 
 
 
@@ -109,7 +110,7 @@ The type of response allowed is of type <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/photoacquire/ne-photoacquire-error_advise_message_type">ERROR_ADVISE_MESSAGE_TYPE</a>
+<a href="/windows/win32/api/photoacquire/ne-photoacquire-error_advise_message_type">ERROR_ADVISE_MESSAGE_TYPE</a>
 
 
 

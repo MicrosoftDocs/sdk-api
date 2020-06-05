@@ -2,6 +2,7 @@
 UID: NN:d3d12video.ID3D12VideoProcessCommandList1
 title: ID3D12VideoProcessCommandList1
 description: Encapsulates a list of graphics commands for video processing.
+helpviewer_keywords: ["- ID3D12VideoProcessCommandList1"]
 tech.root: mf
 ms.assetid: 0c3f581f-f61c-4af0-a582-203b5f66ba14
 ms.date: 05/28/2019
@@ -38,8 +39,7 @@ targetos: Windows
 
 ## -description
 
-Encapsulates a list of graphics commands for video processing. Adds the [ID3D12VideoProcessCommandList1::DecodeFrame1](nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1.md) method to support video decode histograms.
-
+Encapsulates a list of graphics commands for video processing. Adds the [ID3D12VideoProcessCommandList1::ProcessFrames1](nf-d3d12video-id3d12videoprocesscommandlist1-processframes1.md) method which supports changing the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type.md) for each call, unlike [ID3D12VideoProcessCommandList::ProcessFrames](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md).
 
 ## -inheritance
 

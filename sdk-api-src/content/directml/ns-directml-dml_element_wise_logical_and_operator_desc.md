@@ -2,6 +2,7 @@
 UID: NS:directml.DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC
 title: DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC
 description: Describes a DirectML math operator that performs a logical AND function between every element in ATensor and its corresponding element in BTensor, f(a, b) = a && b.
+helpviewer_keywords: ["DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC","DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC structure","direct3d12.dml_element_wise_logical_and_operator_desc","directml/DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_logical_and_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: B3C7CAD0-08D8-426A-8881-DF826B8DA555
@@ -43,25 +44,13 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DML_ELEMENT_WISE_LOGICAL_AND_OPERATOR_DESC structure
-
-
 ## -description
-
-
-
-
-
 
 Describes a DirectML math operator that performs a logical AND function between every element in <i>ATensor</i> and its corresponding element in <i>BTensor</i>, f(a, b) = a &amp;&amp; b.
 
 This operator supports in-place execution, meaning the output tensor is permitted to alias one of the input tensors during binding.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ATensor
 
@@ -69,17 +58,14 @@ Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_te
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>A</i> tensor to read from.
 
-
 ### -field BTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>B</i> tensor to read from.
 
-
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
-

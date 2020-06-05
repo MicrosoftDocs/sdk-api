@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_DeletePtr
 title: DPA_DeletePtr function (dpa_dsa.h)
-description: Removes an item from a dynamic pointer array (DPA). The DPA shrinks if necessary to accommodate the removed item.
+description: Removes an item from a dynamic pointer array (DPA). The DPA shrinks if necessary to accommodate the removed item.helpviewer_keywords: ["DPA_DeletePtr","DPA_DeletePtr function [Windows Controls]","_win32_DPA_DeletePtr","_win32_DPA_DeletePtr_cpp","controls.DPA_DeletePtr","controls._win32_DPA_DeletePtr","dpa_dsa/DPA_DeletePtr"]
 old-location: controls\DPA_DeletePtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm

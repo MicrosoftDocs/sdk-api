@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_FreeBuffers
 title: ITraceDataCollector::get_FreeBuffers (pla.h)
-description: Retrieves the number of buffers that are allocated but unused in the event tracing session's buffer pool.
+description: Retrieves the number of buffers that are allocated but unused in the event tracing session's buffer pool.helpviewer_keywords: ["FreeBuffers property [PLA]","FreeBuffers property [PLA]","ITraceDataCollector interface","ITraceDataCollector interface [PLA]","FreeBuffers property","ITraceDataCollector.FreeBuffers","ITraceDataCollector.get_FreeBuffers","ITraceDataCollector::FreeBuffers","ITraceDataCollector::get_FreeBuffers","base.itracedatacollector_freebuffers","get_FreeBuffers","pla.itracedatacollector_freebuffers","pla/ITraceDataCollector::FreeBuffers","pla/ITraceDataCollector::get_FreeBuffers"]
 old-location: pla\itracedatacollector_freebuffers.htm
 tech.root: PLA
 ms.assetid: 9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetSelectedCount
 title: IShellFolderView::GetSelectedCount (shlobj_core.h)
-description: Gets the number of items in the view that are selected.
+description: Gets the number of items in the view that are selected.helpviewer_keywords: ["GetSelectedCount","GetSelectedCount method [Windows Shell]","GetSelectedCount method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetSelectedCount method","IShellFolderView.GetSelectedCount","IShellFolderView::GetSelectedCount","_shell_IShellFolderView_GetSelectedCount","shell.IShellFolderView_GetSelectedCount","shlobj_core/IShellFolderView::GetSelectedCount"]
 old-location: shell\IShellFolderView_GetSelectedCount.htm
 tech.root: shell
 ms.assetid: 3d504eba-7fb8-44a0-9534-4e7995b9b5d4

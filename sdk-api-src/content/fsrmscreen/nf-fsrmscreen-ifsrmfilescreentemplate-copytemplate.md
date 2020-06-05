@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.CopyTemplate
 title: IFsrmFileScreenTemplate::CopyTemplate (fsrmscreen.h)
-description: Copies the property values of the specified template to this template.
+description: Copies the property values of the specified template to this template.helpviewer_keywords: ["CopyTemplate","CopyTemplate method [File Server Resource Manager]","CopyTemplate method [File Server Resource Manager]","IFsrmFileScreenTemplate interface","IFsrmFileScreenTemplate interface [File Server Resource Manager]","CopyTemplate method","IFsrmFileScreenTemplate.CopyTemplate","IFsrmFileScreenTemplate::CopyTemplate","fs.ifsrmfilescreentemplate_copytemplate","fsrm.ifsrmfilescreentemplate_copytemplate","fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate"]
 old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm
 tech.root: fsrm
 ms.assetid: c6c69f15-9a7c-43f4-9d68-a54c333453f5

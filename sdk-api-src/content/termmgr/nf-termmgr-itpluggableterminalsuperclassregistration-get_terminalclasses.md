@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
 title: ITPluggableTerminalSuperclassRegistration::get_TerminalClasses (termmgr.h)
-description: The get_TerminalClasses method gets the terminal classes for this pluggable terminal superclass.
+description: The get_TerminalClasses method gets the terminal classes for this pluggable terminal superclass.helpviewer_keywords: ["ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2]","get_TerminalClasses method","ITPluggableTerminalSuperclassRegistration.get_TerminalClasses","ITPluggableTerminalSuperclassRegistration::get_TerminalClasses","_tapi3_itpluggableterminalsuperclassregistration_get_terminalclasses","get_TerminalClasses","get_TerminalClasses method [TAPI 2.2]","get_TerminalClasses method [TAPI 2.2]","ITPluggableTerminalSuperclassRegistration interface","tapi3.itpluggableterminalsuperclassregistration_get_terminalclasses","termmgr/ITPluggableTerminalSuperclassRegistration::get_TerminalClasses"]
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_terminalclasses.htm
 tech.root: Tapi
 ms.assetid: 414ce7fe-e664-4915-84d6-0d4b6c750cf3

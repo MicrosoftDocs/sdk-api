@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12shader.ID3D12LibraryReflection
 title: ID3D12LibraryReflection (d3d12shader.h)
-description: A library-reflection interface accesses library info.
+description: A library-reflection interface accesses library info.helpviewer_keywords: ["ID3D12LibraryReflection","ID3D12LibraryReflection interface","ID3D12LibraryReflection interface","described","d3d12shader/ID3D12LibraryReflection","direct3d12.id3d12libraryreflection"]
 old-location: direct3d12\id3d12libraryreflection.htm
 tech.root: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820

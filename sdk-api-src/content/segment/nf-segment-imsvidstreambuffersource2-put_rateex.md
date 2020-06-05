@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource2.put_RateEx
 title: IMSVidStreamBufferSource2::put_RateEx (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSource2 interface [Microsoft TV Technologies]","put_RateEx method","IMSVidStreamBufferSource2.put_RateEx","IMSVidStreamBufferSource2::put_RateEx","IMSVidStreamBufferSource2put_RateEx","mstv.imsvidstreambuffersource2_put_rateex","put_RateEx","put_RateEx method [Microsoft TV Technologies]","put_RateEx method [Microsoft TV Technologies]","IMSVidStreamBufferSource2 interface","segment/IMSVidStreamBufferSource2::put_RateEx"]
 old-location: mstv\imsvidstreambuffersource2_put_rateex.htm
 tech.root: mstv
 ms.assetid: b213ad08-8a72-4b4a-bffa-b68783693340

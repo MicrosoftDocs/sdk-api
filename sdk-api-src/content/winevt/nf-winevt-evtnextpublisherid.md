@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtNextPublisherId
 title: EvtNextPublisherId function (winevt.h)
-description: Gets the identifier of a provider from the enumerator.
+description: Gets the identifier of a provider from the enumerator.helpviewer_keywords: ["EvtNextPublisherId","EvtNextPublisherId function [EventLog]","wes.evtnextpublisherid","winevt/EvtNextPublisherId"]
 old-location: wes\evtnextpublisherid.htm
 tech.root: wes
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8

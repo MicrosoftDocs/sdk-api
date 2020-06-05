@@ -2,6 +2,7 @@
 UID: NF:winbase.GetPrivateProfileString
 title: GetPrivateProfileString function (winbase.h)
 description: Retrieves a string from the specified section in an initialization file.
+helpviewer_keywords: ["GetPrivateProfileString","GetPrivateProfileString function","GetPrivateProfileStringA","GetPrivateProfileStringW","_win32_getprivateprofilestring","base.getprivateprofilestring","winbase/GetPrivateProfileString","winbase/GetPrivateProfileStringA","winbase/GetPrivateProfileStringW"]
 old-location: base\getprivateprofilestring.htm
 tech.root: SysInfo
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
@@ -114,8 +115,7 @@ If neither <i>lpAppName</i> nor <i>lpKeyName</i> is <b>NULL</b> and the supplied
 
 If either <i>lpAppName</i> or <i>lpKeyName</i> is <b>NULL</b> and the supplied destination buffer is too small to hold all the strings, the last string is truncated and followed by two <b>null</b> characters. In this case, the return value is equal to <i>nSize</i> minus two.
 
-In the event the initialization file specified by <i>lpFileName</i> is not found, or contains invalid values, this function will set <b>errorno</b> with a value of '0x2' (File Not Found). To retrieve extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
-
+In the event the initialization file specified by <i>lpFileName</i> is not found, or contains invalid values, calling <b>GetLastError</b> will return '0x2' (File Not Found). To retrieve extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 
 
@@ -184,7 +184,5 @@ When looking at values in the registry that specify other registry locations, th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
- 
 
- 
 

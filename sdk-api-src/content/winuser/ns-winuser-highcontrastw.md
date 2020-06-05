@@ -2,6 +2,8 @@
 UID: NS:winuser.tagHIGHCONTRASTW
 title: HIGHCONTRASTW (winuser.h)
 description: Contains information about the high contrast accessibility feature.
+helpviewer_keywords: ["*LPHIGHCONTRASTW","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTW","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
+
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
@@ -150,6 +152,20 @@ The hot key associated with the high contrast feature can be enabled. An applica
 
 > [!NOTE]
 > This flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="HCF_OPTION_NOTHEMECHANGE"></a><a id="hcf_option_nothemechange"></a><dl>
+<dt><b>HCF_OPTION_NOTHEMECHANGE</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Passing HIGHCONTRASTSTRUCTURE in calls to SystemParametersInfoW can cause theme change effects even if the theme isn't being changed. For example, the WM_THEMECHANGED message is sent to Windows even if the only change is to HCF_HOTKEYSOUND.</p>
+<p>To prevent this, include the HCF_OPTION_NOTHEMECHANGE flag in the call to SystemParametersInfo.</p>
+
+> [!NOTE]
+> The HCF_OPTION_NOTHEMECHANGE flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
 </td>
 </tr>
 </table>

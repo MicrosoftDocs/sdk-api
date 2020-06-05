@@ -2,6 +2,7 @@
 UID: NF:adshlp.BinarySDToSecurityDescriptor
 title: BinarySDToSecurityDescriptor function (adshlp.h)
 description: Converts a binary security descriptor to an IADsSecurityDescriptor object.
+helpviewer_keywords: ["BinarySDToSecurityDescriptor","BinarySDToSecurityDescriptor function [ADSI]","adshlp/BinarySDToSecurityDescriptor","adsi.binarysdtosecuritydescriptor"]
 old-location: adsi\binarysdtosecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: c93d00d2-7155-4bf4-8a65-2412022a2fba
@@ -96,7 +97,7 @@ A null-terminated Unicode string that provides the password to be associated wit
 
 Type: <b>DWORD</b>
 
-Contains authentication flags for the conversion. This can be zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a> enumeration values.
+Contains authentication flags for the conversion. This can be zero or a combination of one or more of the <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a> enumeration values.
 
 
 ## -returns
@@ -134,7 +135,7 @@ This function is used for legacy applications that must  manually convert securi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
 
 
 

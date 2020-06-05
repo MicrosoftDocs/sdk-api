@@ -1,7 +1,7 @@
 ---
 UID: NF:windowsx.ListBox_SelectString
 title: ListBox_SelectString macro (windowsx.h)
-description: Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.
+description: Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.helpviewer_keywords: ["ListBox_SelectString","ListBox_SelectString macro [Windows Controls]","_win32_ListBox_SelectString","_win32_ListBox_SelectString_cpp","controls.ListBox_SelectString","controls._win32_ListBox_SelectString","windowsx/ListBox_SelectString"]
 old-location: controls\ListBox_SelectString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectstring.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Serialize
 title: ITextStoreACPServices::Serialize (msctf.h)
-description: ITextStoreACPServices::Serialize method
+description: ITextStoreACPServices::Serialize methodhelpviewer_keywords: ["ITextStoreACPServices interface [Text Services Framework]","Serialize method","ITextStoreACPServices.Serialize","ITextStoreACPServices::Serialize","Serialize","Serialize method [Text Services Framework]","Serialize method [Text Services Framework]","ITextStoreACPServices interface","_tsf_itextstoreacpservices_serialize_ref","msctf/ITextStoreACPServices::Serialize","tsf.itextstoreacpservices_serialize"]
 old-location: tsf\itextstoreacpservices_serialize.htm
 tech.root: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841

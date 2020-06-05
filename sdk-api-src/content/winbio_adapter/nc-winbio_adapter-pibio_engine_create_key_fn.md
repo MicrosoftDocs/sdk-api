@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CREATE_KEY_FN
 title: PIBIO_ENGINE_CREATE_KEY_FN (winbio_adapter.h)
-description: Called by the Windows Biometric Framework to push an HMAC key to the sensor. The returned key identifier will be passed back to the biometric unit when the framework calls EngineAdapterIdentifyFeatureSetSecure.
+description: Called by the Windows Biometric Framework to push an HMAC key to the sensor. The returned key identifier will be passed back to the biometric unit when the framework calls EngineAdapterIdentifyFeatureSetSecure.helpviewer_keywords: ["EngineAdapterCreateKey","EngineAdapterCreateKey callback function [Windows Biometric Framework API]","PIBIO_ENGINE_CREATE_KEY_FN","PIBIO_ENGINE_CREATE_KEY_FN callback","secbiomet.engineadaptercreatekey","winbio_adapter/EngineAdapterCreateKey"]
 old-location: secbiomet\engineadaptercreatekey.htm
 tech.root: SecBioMet
 ms.assetid: 3EB42081-6949-46F8-B235-377234A90C39

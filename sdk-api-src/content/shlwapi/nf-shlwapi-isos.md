@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IsOS
 title: IsOS function (shlwapi.h)
-description: Checks for specified operating systems and operating system features.
+description: Checks for specified operating systems and operating system features.helpviewer_keywords: ["IsOS","IsOS function [Windows Shell]","_win32_IsOS","shell.IsOS","shlwapi/IsOS"]
 old-location: shell\IsOS.htm
 tech.root: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc

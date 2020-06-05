@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionTransform
 title: IDCompositionTransform (dcomp.h)
-description: Represents a 2D transformation that can be used to modify the coordinate space of a visual subtree.
+description: Represents a 2D transformation that can be used to modify the coordinate space of a visual subtree.helpviewer_keywords: ["IDCompositionTransform","IDCompositionTransform interface [DirectComposition]","IDCompositionTransform interface [DirectComposition]","described","dcomp/IDCompositionTransform","directcomp.idcompositiontransform"]
 old-location: directcomp\idcompositiontransform.htm
 tech.root: directcomp
 ms.assetid: 22f0d199-5162-4869-909e-d0ed0059b773

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GetCount
 title: GraphicsPathIterator::GetCount (gdipluspath.h)
-description: The GraphicsPathIterator::GetCount method returns the number of data points in the path.
+description: The GraphicsPathIterator::GetCount method returns the number of data points in the path.helpviewer_keywords: ["GetCount","GetCount method [GDI+]","GetCount method [GDI+]","GraphicsPathIterator class","GraphicsPathIterator class [GDI+]","GetCount method","GraphicsPathIterator.GetCount","GraphicsPathIterator::GetCount","_gdiplus_CLASS_GraphicsPathIterator_GetCount_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetCount_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GetCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getcount.htm

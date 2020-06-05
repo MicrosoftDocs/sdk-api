@@ -2,6 +2,7 @@
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_LIST
 title: MINIDUMP_MEMORY_LIST (minidumpapiset.h)
 description: Contains a list of memory ranges.
+helpviewer_keywords: ["*PMINIDUMP_MEMORY_LIST","MINIDUMP_MEMORY64_LIST","MINIDUMP_MEMORY_LIST","MINIDUMP_MEMORY_LIST structure","PMINIDUMP_MEMORY_LIST","PMINIDUMP_MEMORY_LIST structure pointer","_MINIDUMP_MEMORY_LIST","_win32_minidump_memory_list_str","base.minidump_memory_list_str","minidumpapiset/MINIDUMP_MEMORY_LIST","minidumpapiset/PMINIDUMP_MEMORY_LIST"]
 old-location: base\minidump_memory_list_str.htm
 tech.root: Debug
 ms.assetid: 83a38831-fb90-495c-9f5d-90971849a7a0
@@ -65,7 +66,7 @@ The number of structures in the <b>MemoryRanges</b> array.
 ### -field MemoryRanges
 
 An array of 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structures.
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structures.
 
 
 ## -remarks
@@ -95,7 +96,7 @@ Note that <b>BaseRva</b> is the overall base RVA for the memory list. To locate 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
 
 
 

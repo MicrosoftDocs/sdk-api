@@ -2,6 +2,7 @@
 UID: NF:fwpmu.IPsecSaCreateEnumHandle0
 title: IPsecSaCreateEnumHandle0 function (fwpmu.h)
 description: Creates a handle used to enumerate a set of Internet Protocol Security (IPsec) security association (SA) objects.
+helpviewer_keywords: ["IPsecSaCreateEnumHandle0","IPsecSaCreateEnumHandle0 function [Filtering]","fwp.ipsecsacreateenumhandle0_func","fwpmu/IPsecSaCreateEnumHandle0"]
 old-location: fwp\ipsecsacreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 473935d9-362f-417c-a366-f683d97d9a18
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [IPSEC_SA_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0)a>*</b>
+Type: [IPSEC_SA_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -151,7 +152,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[IPSEC_SA_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0)a>
+[IPSEC_SA_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_enum_template0)
 
 
 

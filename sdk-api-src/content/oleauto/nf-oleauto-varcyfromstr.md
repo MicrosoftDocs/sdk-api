@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFromStr
 title: VarCyFromStr function (oleauto.h)
-description: Converts an OLECHAR string to a currency value.
+description: Converts an OLECHAR string to a currency value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarCyFromStr","VarCyFromStr function [Automation]","_oa96_VarCyFromStr","automat.varcyfromstr","oleauto/VarCyFromStr"]
 old-location: automat\varcyfromstr.htm
 tech.root: automat
 ms.assetid: ad67fa19-f927-47ec-83b5-45a4f1f9cbe2

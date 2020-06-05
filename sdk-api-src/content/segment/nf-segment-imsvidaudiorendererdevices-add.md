@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.Add
 title: IMSVidAudioRendererDevices::Add (segment.h)
-description: The Add method adds an audio renderer to the collection.
+description: The Add method adds an audio renderer to the collection.helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface","IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","Add method","IMSVidAudioRendererDevices.Add","IMSVidAudioRendererDevices::Add","IMSVidAudioRendererDevicesAdd","mstv.imsvidaudiorendererdevices_add","segment/IMSVidAudioRendererDevices::Add"]
 old-location: mstv\imsvidaudiorendererdevices_add.htm
 tech.root: mstv
 ms.assetid: 663ca24a-9f27-4642-b8e1-901f93090bd7

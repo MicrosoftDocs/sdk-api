@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_PROPERTIES
 title: WS_XML_WRITER_PROPERTIES (webservices.h)
-description: A structure that is used to specify a set of WS_XML_WRITER_PROPERTYs.
+description: A structure that is used to specify a set of WS_XML_WRITER_PROPERTYs.helpviewer_keywords: ["WS_XML_WRITER_PROPERTIES","WS_XML_WRITER_PROPERTIES structure [Web Services for Windows]","webservices/WS_XML_WRITER_PROPERTIES","wsw.ws_xml_writer_properties"]
 old-location: wsw\ws_xml_writer_properties.htm
 tech.root: wsw
 ms.assetid: 8c874422-3d59-43cd-b65e-8f4f543e57e5

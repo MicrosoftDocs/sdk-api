@@ -2,6 +2,7 @@
 UID: NF:synchapi.OpenWaitableTimerW
 title: OpenWaitableTimerW function (synchapi.h)
 description: Opens an existing named waitable timer object.
+helpviewer_keywords: ["OpenWaitableTimer","OpenWaitableTimer function","OpenWaitableTimerA","OpenWaitableTimerW","_win32_openwaitabletimer","base.openwaitabletimer","synchapi/OpenWaitableTimer","synchapi/OpenWaitableTimerA","synchapi/OpenWaitableTimerW"]
 old-location: base\openwaitabletimer.htm
 tech.root: Sync
 ms.assetid: 0f9b49ea-5d04-449c-9b7d-f79ab28b548b
@@ -109,7 +110,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The 
 <b>OpenWaitableTimer</b> function enables multiple processes to open handles to the same timer object. The function succeeds only if some process has already created the timer using the 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)a> function. The calling process can use the returned handle in any function that requires the handle to a timer object, such as the 
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) function. The calling process can use the returned handle in any function that requires the handle to a timer object, such as the 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>, subject to the limitations of the access specified in the <i>dwDesiredAccess</i> parameter.
 
 The returned handle can be duplicated by using the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function. Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The timer object is destroyed when its last handle has been closed.
@@ -137,7 +138,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)a>
+[CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetInitiatorAdapter
 title: IVdsIscsiInitiatorPortal::GetInitiatorAdapter (vds.h)
-description: Returns the initiator adapter to which the initiator portal belongs.
+description: Returns the initiator adapter to which the initiator portal belongs.helpviewer_keywords: ["GetInitiatorAdapter","GetInitiatorAdapter method [VDS]","GetInitiatorAdapter method [VDS]","IVdsIscsiInitiatorPortal interface","IVdsIscsiInitiatorPortal interface [VDS]","GetInitiatorAdapter method","IVdsIscsiInitiatorPortal.GetInitiatorAdapter","IVdsIscsiInitiatorPortal::GetInitiatorAdapter","base.ivdsiscsiinitiatorportal_getinitiatoradapter","vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter"]
 old-location: base\ivdsiscsiinitiatorportal_getinitiatoradapter.htm
 tech.root: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0

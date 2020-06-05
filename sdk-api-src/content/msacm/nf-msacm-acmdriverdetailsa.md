@@ -2,6 +2,7 @@
 UID: NF:msacm.acmDriverDetailsA
 title: acmDriverDetailsA function (msacm.h)
 description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
+helpviewer_keywords: ["_win32_acmDriverDetails","acmDriverDetails","acmDriverDetails function [Windows Multimedia]","acmDriverDetailsA","acmDriverDetailsW","msacm/acmDriverDetails","msacm/acmDriverDetailsA","msacm/acmDriverDetailsW","multimedia.acmdriverdetails"]
 old-location: multimedia\acmdriverdetails.htm
 tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614
@@ -70,7 +71,7 @@ Handle to the driver identifier of an installed ACM driver. Disabled drivers can
 
 ### -param padd
 
-Pointer to an [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
+Pointer to an [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
 
 
 ### -param fdwDetails

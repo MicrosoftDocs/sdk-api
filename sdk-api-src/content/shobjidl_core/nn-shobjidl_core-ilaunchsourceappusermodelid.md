@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ILaunchSourceAppUserModelId
 title: ILaunchSourceAppUserModelId (shobjidl_core.h)
-description: Provides a method for retrieving an AppUserModelId.
+description: Provides a method for retrieving an AppUserModelId.helpviewer_keywords: ["ILaunchSourceAppUserModelId","ILaunchSourceAppUserModelId interface [Windows Shell]","ILaunchSourceAppUserModelId interface [Windows Shell]","described","shell.ILaunchSourceAppUserModelId","shobjidl_core/ILaunchSourceAppUserModelId"]
 old-location: shell\ILaunchSourceAppUserModelId.htm
 tech.root: shell
 ms.assetid: B53325C9-DC89-4411-82D9-247C28AFB177

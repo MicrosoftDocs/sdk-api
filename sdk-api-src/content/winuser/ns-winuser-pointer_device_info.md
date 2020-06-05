@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_INFO
 title: POINTER_DEVICE_INFO (winuser.h)
-description: Contains information about a pointer device. An array of these structures is returned from the GetPointerDevices function. A single structure is returned from a call to the GetPointerDevice function.
+description: Contains information about a pointer device. An array of these structures is returned from the GetPointerDevices function. A single structure is returned from a call to the GetPointerDevice function.helpviewer_keywords: ["POINTER_DEVICE_INFO","POINTER_DEVICE_INFO structure","input_pointerdevice.pointer_device_info","tagPOINTER_DEVICE_INFO","unifiedinputstack.pointer_device_info","winuser/POINTER_DEVICE_INFO"]
 old-location: input_pointerdevice\pointer_device_info.htm
 tech.root: Input_PointerDevice
 ms.assetid: 1b909caf-2d69-42b9-8d60-5d89a0286f59

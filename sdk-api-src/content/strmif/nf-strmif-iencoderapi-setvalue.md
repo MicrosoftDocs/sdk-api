@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IEncoderAPI.SetValue
 title: IEncoderAPI::SetValue (strmif.h)
-description: The SetValue method sets the current value of a parameter.
+description: The SetValue method sets the current value of a parameter.helpviewer_keywords: ["IEncoderAPI interface [Microsoft TV Technologies]","SetValue method","IEncoderAPI.SetValue","IEncoderAPI::SetValue","IEncoderAPISetValue","SetValue","SetValue method [Microsoft TV Technologies]","SetValue method [Microsoft TV Technologies]","IEncoderAPI interface","mstv.iencoderapi_setvalue","strmif/IEncoderAPI::SetValue"]
 old-location: mstv\iencoderapi_setvalue.htm
 tech.root: mstv
 ms.assetid: a7dc0964-64b9-4ea3-8948-19ec100d64f5

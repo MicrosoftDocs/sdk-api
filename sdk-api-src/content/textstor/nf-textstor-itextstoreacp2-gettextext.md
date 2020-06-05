@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetTextExt
 title: ITextStoreACP2::GetTextExt (textstor.h)
-description: Gets the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
+description: Gets the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.helpviewer_keywords: ["GetTextExt","GetTextExt method [Text Services Framework]","GetTextExt method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","GetTextExt method","ITextStoreACP2.GetTextExt","ITextStoreACP2::GetTextExt","textstor/ITextStoreACP2::GetTextExt","tsf.itextstoreacp2_gettextext"]
 old-location: tsf\itextstoreacp2_gettextext.htm
 tech.root: TSF
 ms.assetid: 44ede856-f4e7-4d82-8a15-c79a95e4994f

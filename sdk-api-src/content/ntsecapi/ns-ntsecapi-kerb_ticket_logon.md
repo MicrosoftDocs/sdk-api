@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._KERB_TICKET_LOGON
 title: KERB_TICKET_LOGON (ntsecapi.h)
-description: Contains profile information for a network logon.
+description: Contains profile information for a network logon.helpviewer_keywords: ["*PKERB_TICKET_LOGON","KERB_TICKET_LOGON","KERB_TICKET_LOGON structure [Security]","PKERB_TICKET_LOGON","PKERB_TICKET_LOGON structure pointer [Security]","_lsa_kerb_ticket_logon","ntsecapi/KERB_TICKET_LOGON","ntsecapi/PKERB_TICKET_LOGON","security.kerb_ticket_logon"]
 old-location: security\kerb_ticket_logon.htm
 tech.root: SecAuthN
 ms.assetid: 2c082c79-ce7f-45a1-8552-3b4e9034b7e3

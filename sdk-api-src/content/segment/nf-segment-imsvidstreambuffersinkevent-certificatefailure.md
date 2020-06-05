@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent.CertificateFailure
 title: IMSVidStreamBufferSinkEvent::CertificateFailure (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.
+description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["CertificateFailure","CertificateFailure method [Microsoft TV Technologies]","CertificateFailure method [Microsoft TV Technologies]","IMSVidStreamBufferSinkEvent interface","IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies]","CertificateFailure method","IMSVidStreamBufferSinkEvent.CertificateFailure","IMSVidStreamBufferSinkEvent::CertificateFailure","IMSVidStreamBufferSinkEventCertificateFailure","mstv.imsvidstreambuffersinkevent_certificatefailure","segment/IMSVidStreamBufferSinkEvent::CertificateFailure"]
 old-location: mstv\imsvidstreambuffersinkevent_certificatefailure.htm
 tech.root: mstv
 ms.assetid: 95745e17-2bf9-49a9-bbbf-2deab3fa1c86

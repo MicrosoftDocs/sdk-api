@@ -2,6 +2,7 @@
 UID: NF:t2embapi.TTRunValidationTestsEx
 title: TTRunValidationTestsEx function (t2embapi.h)
 description: Validates part or all glyph data of a UCS-4 character (32-bit) font, in the size range specified.
+helpviewer_keywords: ["TTRunValidationTestsEx","TTRunValidationTestsEx function [Windows GDI]","_win32_TTRunValidationTestsEx","gdi.ttrunvalidationtestsex","t2embapi/TTRunValidationTestsEx"]
 old-location: gdi\ttrunvalidationtestsex.htm
 tech.root: gdi
 ms.assetid: 4b4fdd3f-c07c-407c-87eb-5bd8a1620d75
@@ -88,7 +89,7 @@ Otherwise, returns an error code described in <a href="https://docs.microsoft.co
 
 This function was supported in Windows XP and earlier, but is no longer supported. In Windows Vista and later, this function will always return E_API_NOTIMPL, and no processing is performed by this API.
 
-Effective font validation can be performed by a tool, such as Font Validator, that is capable of performing thorough validation of all parts of the font file. Please see <a href="http://www.microsoft.com/typography/FontValidator.mspx">http://www.microsoft.com/typography/FontValidator.mspx</a> for information on the Font Validator tool.
+Effective font validation can be performed by a tool, such as Font Validator, that is capable of performing thorough validation of all parts of the font file. Please see <a href="http://www.microsoft.com/typography/FontValidator.aspx">http://www.microsoft.com/typography/FontValidator.aspx</a> for information on the Font Validator tool.
 
 
 

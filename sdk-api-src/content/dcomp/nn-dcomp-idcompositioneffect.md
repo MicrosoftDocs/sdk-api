@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionEffect
 title: IDCompositionEffect (dcomp.h)
-description: Represents a bitmap effect that modifies the rasterization of a visual's subtree.
+description: Represents a bitmap effect that modifies the rasterization of a visual's subtree.helpviewer_keywords: ["IDCompositionEffect","IDCompositionEffect interface [DirectComposition]","IDCompositionEffect interface [DirectComposition]","described","dcomp/IDCompositionEffect","directcomp.idcompositioneffect"]
 old-location: directcomp\idcompositioneffect.htm
 tech.root: directcomp
 ms.assetid: 9C9DFECD-0EC0-446C-8CCC-BB7979B01575

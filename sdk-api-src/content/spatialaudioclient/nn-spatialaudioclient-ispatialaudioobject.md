@@ -2,6 +2,7 @@
 UID: NN:spatialaudioclient.ISpatialAudioObject
 title: ISpatialAudioObject (spatialaudioclient.h)
 description: Represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.
+helpviewer_keywords: ["ISpatialAudioObject","ISpatialAudioObject interface [Core Audio]","ISpatialAudioObject interface [Core Audio]","described","coreaudio.ispatialaudioobject","spatialaudioclient/ISpatialAudioObject"]
 old-location: coreaudio\ispatialaudioobject.htm
 tech.root: CoreAudio
 ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
@@ -56,7 +57,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObject</b> interface inherits from <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObject</b> interface inherits from <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -94,7 +95,7 @@ Sets an audio amplitude multiplier that will be applied to the audio data provid
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
 
@@ -104,7 +105,7 @@ Sets an audio amplitude multiplier that will be applied to the audio data provid
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

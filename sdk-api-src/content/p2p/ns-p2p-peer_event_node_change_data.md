@@ -2,6 +2,7 @@
 UID: NS:p2p.peer_event_node_change_data_tag
 title: PEER_EVENT_NODE_CHANGE_DATA (p2p.h)
 description: The PEER_EVENT_NODE_CHANGE_DATA structure contains a pointer to the data if a PEER_GRAPH_EVENT_NODE_CHANGE event is triggered.
+helpviewer_keywords: ["*PPEER_EVENT_NODE_CHANGE_DATA","PEER_EVENT_NODE_CHANGE_DATA","PEER_EVENT_NODE_CHANGE_DATA structure [Peer Networking]","PEER_NODE_CHANGE_CONNECTED","PEER_NODE_CHANGE_DISCONNECTED","PEER_NODE_CHANGE_UPDATED","PPEER_EVENT_NODE_CHANGE_DATA","PPEER_EVENT_NODE_CHANGE_DATA structure pointer [Peer Networking]","p2p.peer_event_node_change_data","p2p/PPEER_EVENT_NODE_CHANGE_DATA","p2p/peer_event_node_change_data_tag"]
 old-location: p2p\peer_event_node_change_data.htm
 tech.root: P2PSdk
 ms.assetid: 656c9155-643d-4c94-9141-3499f7e0adac
@@ -120,7 +121,7 @@ Specifies the peer ID of the node that has  changed.
 
 
 
-[PEER_GRAPH_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_graph_event_data)a>
+[PEER_GRAPH_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_graph_event_data)
  
 
  

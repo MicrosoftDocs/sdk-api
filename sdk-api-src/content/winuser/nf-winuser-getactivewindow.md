@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetActiveWindow
 title: GetActiveWindow function (winuser.h)
-description: Retrieves the window handle to the active window attached to the calling thread's message queue.
+description: Retrieves the window handle to the active window attached to the calling thread's message queue.helpviewer_keywords: ["GetActiveWindow","GetActiveWindow function [Keyboard and Mouse Input]","_win32_GetActiveWindow","_win32_getactivewindow_cpp","inputdev.getactivewindow","winui._win32_getactivewindow","winuser/GetActiveWindow"]
 old-location: inputdev\getactivewindow.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getactivewindow.htm

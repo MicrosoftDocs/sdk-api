@@ -1,7 +1,7 @@
 ---
 UID: NE:directml.DML_CONVOLUTION_MODE
 title: DML_CONVOLUTION_MODE
-description: Defines constants that specify a mode for the DirectML convolution operator (as described by the DML_CONVOLUTION_OPERATOR_DESC structure).
+description: Defines constants that specify a mode for the DirectML convolution operator (as described by the DML_CONVOLUTION_OPERATOR_DESC structure).helpviewer_keywords: ["DML_CONVOLUTION_MODE","DML_CONVOLUTION_MODE enumeration","DML_CONVOLUTION_MODE_CONVOLUTION","DML_CONVOLUTION_MODE_CROSS_CORRELATION","direct3d12.dml_convolution_mode","directml/DML_CONVOLUTION_MODE","directml/DML_CONVOLUTION_MODE_CONVOLUTION","directml/DML_CONVOLUTION_MODE_CROSS_CORRELATION"]
 old-location: direct3d12\dml_convolution_mode.htm
 tech.root: direct3d12
 ms.assetid: E3AA329D-1029-438C-A6F3-4720D5F5BE6C

@@ -1,7 +1,7 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallParams
 title: TSPI_lineSetCallParams function (tspi.h)
-description: The TSPI_lineSetCallParams function sets certain parameters for an existing call.
+description: The TSPI_lineSetCallParams function sets certain parameters for an existing call.helpviewer_keywords: ["TSPI_lineSetCallParams","TSPI_lineSetCallParams function [TAPI 2.2]","_tspi_tspi_linesetcallparams","tspi.tspi_linesetcallparams","tspi/TSPI_lineSetCallParams"]
 old-location: tspi\tspi_linesetcallparams.htm
 tech.root: Tapi
 ms.assetid: cc5d5347-ebb7-437a-a9a1-311b6c2a78ab

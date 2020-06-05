@@ -1,7 +1,7 @@
 ---
 UID: NF:vpnotify.IVPNotify.GetDeinterlaceMode
 title: IVPNotify::GetDeinterlaceMode (vpnotify.h)
-description: The GetDeinterlaceMode method retrieves the mode (such as bob or weave).
+description: The GetDeinterlaceMode method retrieves the mode (such as bob or weave).helpviewer_keywords: ["GetDeinterlaceMode","GetDeinterlaceMode method [DirectShow]","GetDeinterlaceMode method [DirectShow]","IVPNotify interface","IVPNotify interface [DirectShow]","GetDeinterlaceMode method","IVPNotify.GetDeinterlaceMode","IVPNotify::GetDeinterlaceMode","IVPNotifyGetDeinterlaceMode","dshow.ivpnotify_getdeinterlacemode","vpnotify/IVPNotify::GetDeinterlaceMode"]
 old-location: dshow\ivpnotify_getdeinterlacemode.htm
 tech.root: DirectShow
 ms.assetid: 08d28857-5460-407d-a169-8568b2c381e6

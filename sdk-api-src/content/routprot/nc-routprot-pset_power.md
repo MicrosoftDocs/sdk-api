@@ -1,7 +1,7 @@
 ---
 UID: NC:routprot.PSET_POWER
 title: PSET_POWER (routprot.h)
-description: The SetPower function is reserved for future use.
+description: The SetPower function is reserved for future use.helpviewer_keywords: ["PSET_POWER","PSET_POWER callback","SetPower","SetPower callback function [RAS]","_mpr_setpower","routprot/SetPower","rras.setpower"]
 old-location: rras\setpower.htm
 tech.root: RRAS
 ms.assetid: 595e1743-04eb-4490-8548-1ce5ce00e144

@@ -2,6 +2,7 @@
 UID: NE:directml.DML_TENSOR_TYPE
 title: DML_TENSOR_TYPE
 description: Identifies a type of tensor description.
+helpviewer_keywords: ["DML_TENSOR_TYPE","DML_TENSOR_TYPE enumeration","DML_TENSOR_TYPE_BUFFER","DML_TENSOR_TYPE_INVALID","direct3d12.dml_tensor_type","directml/DML_TENSOR_TYPE","directml/DML_TENSOR_TYPE_BUFFER","directml/DML_TENSOR_TYPE_INVALID"]
 old-location: direct3d12\dml_tensor_type.htm
 tech.root: direct3d12
 ms.assetid: 954549FD-70C4-42D7-99C9-8AE33304CDBE
@@ -48,25 +49,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
 Identifies a type of tensor description.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DML_TENSOR_TYPE_INVALID
 
 Indicates an unknown tensor description type. This value is never valid.
 
-
 ### -field DML_TENSOR_TYPE_BUFFER
 
 Indicates a tensor description that is represented by a Direct3D 12 buffer. The corresponding struct type is [DML_BUFFER_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_buffer_tensor_desc).
-

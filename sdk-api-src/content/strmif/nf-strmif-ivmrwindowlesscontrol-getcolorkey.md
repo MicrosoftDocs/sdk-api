@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetColorKey
 title: IVMRWindowlessControl::GetColorKey (strmif.h)
-description: The GetColorKey method retrieves the current source color key value used by the VMR.
+description: The GetColorKey method retrieves the current source color key value used by the VMR.helpviewer_keywords: ["GetColorKey","GetColorKey method [DirectShow]","GetColorKey method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetColorKey method","IVMRWindowlessControl.GetColorKey","IVMRWindowlessControl::GetColorKey","IVMRWindowlessControlGetColorKey","dshow.ivmrwindowlesscontrol_getcolorkey","strmif/IVMRWindowlessControl::GetColorKey"]
 old-location: dshow\ivmrwindowlesscontrol_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: e10f9e03-fbcd-4002-babc-fb028e399d72

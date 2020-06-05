@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.PlayMetaFile
 title: PlayMetaFile function (wingdi.h)
-description: The PlayMetaFile function displays the picture stored in the given Windows-format metafile on the specified device.
+description: The PlayMetaFile function displays the picture stored in the given Windows-format metafile on the specified device.helpviewer_keywords: ["PlayMetaFile","PlayMetaFile function [Windows GDI]","_win32_PlayMetaFile","gdi.playmetafile","wingdi/PlayMetaFile"]
 old-location: gdi\playmetafile.htm
 tech.root: gdi
 ms.assetid: 044894df-dc8a-41b2-8810-e0a1b8bc19d8

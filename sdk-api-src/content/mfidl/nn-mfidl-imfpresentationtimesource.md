@@ -2,6 +2,7 @@
 UID: NN:mfidl.IMFPresentationTimeSource
 title: IMFPresentationTimeSource (mfidl.h)
 description: Provides the clock times for the presentation clock.
+helpviewer_keywords: ["IMFPresentationTimeSource","IMFPresentationTimeSource interface [Media Foundation]","IMFPresentationTimeSource interface [Media Foundation]","described","e5fab6b7-0abc-4ad7-89a9-33c673e97ce2","mf.imfpresentationtimesource","mfidl/IMFPresentationTimeSource"]
 old-location: mf\imfpresentationtimesource.htm
 tech.root: medfound
 ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
@@ -89,7 +90,7 @@ This interface is implemented by presentation time sources. A presentation time 
 
 To set the presentation time source on the presentation clock, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-settimesource">IMFPresentationClock::SetTimeSource</a> with a pointer to the time source's <b>IMFPresentationTimeSource</b> interface.
 
-A presentation time source must also implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface. The presentaton clock uses this interface to notify the time source when the clock state changes.
+A presentation time source must also implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface. The presentation clock uses this interface to notify the time source when the clock state changes.
 
 Media Foundation provides a presentation time source that is based on the system clock. To create this object, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesystemtimesource">MFCreateSystemTimeSource</a> function.
 

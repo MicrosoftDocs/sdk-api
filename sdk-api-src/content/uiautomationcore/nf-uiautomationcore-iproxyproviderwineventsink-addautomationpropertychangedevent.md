@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent
 title: IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent (uiautomationcore.h)
-description: Raises a property-changed event.
+description: Raises a property-changed event.helpviewer_keywords: ["AddAutomationPropertyChangedEvent","AddAutomationPropertyChangedEvent method [Windows Accessibility]","AddAutomationPropertyChangedEvent method [Windows Accessibility]","IProxyProviderWinEventSink interface","IProxyProviderWinEventSink interface [Windows Accessibility]","AddAutomationPropertyChangedEvent method","IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent","IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent","uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent","uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent","uiautomationcore/IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent","winauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent"]
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: 84b8db1d-75ec-45b6-a4a5-c5d4bffe6978

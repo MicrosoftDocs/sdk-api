@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_CAST_OPERATOR_DESC
 title: DML_CAST_OPERATOR_DESC
-description: Describes a DirectML data reorganization operator that performs the cast function f(x) = cast(x), casting each element in the input to the data type of the output tensor, and storing the result in the corresponding element in the output.
+description: Describes a DirectML data reorganization operator that performs the cast function f(x) = cast(x), casting each element in the input to the data type of the output tensor, and storing the result in the corresponding element in the output.helpviewer_keywords: ["DML_CAST_OPERATOR_DESC","DML_CAST_OPERATOR_DESC structure","direct3d12.dml_cast_operator_desc","directml/DML_CAST_OPERATOR_DESC"]
 old-location: direct3d12\dml_cast_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 6314667B-E22A-48E4-9B0D-07C8D948160C

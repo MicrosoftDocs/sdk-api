@@ -2,6 +2,7 @@
 UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResponseAction
 title: EapPeerMethodResponseAction (eapauthenticatoractiondefine.h)
 description: Defines the set of actions an EAP authenticator can indicate to a supplicant or EAP peer method during authentication.
+helpviewer_keywords: ["EapPeerMethodResponseAction","EapPeerMethodResponseAction enumeration [EAPHost]","EapPeerMethodResponseActionDiscard","EapPeerMethodResponseActionInvokeUI","EapPeerMethodResponseActionNone","EapPeerMethodResponseActionRespond","EapPeerMethodResponseActionResult","EapPeerMethodResponseActionSend","eapauthenticatoractiondefine/EapPeerMethodResponseAction","eapauthenticatoractiondefine/EapPeerMethodResponseActionDiscard","eapauthenticatoractiondefine/EapPeerMethodResponseActionInvokeUI","eapauthenticatoractiondefine/EapPeerMethodResponseActionNone","eapauthenticatoractiondefine/EapPeerMethodResponseActionRespond","eapauthenticatoractiondefine/EapPeerMethodResponseActionResult","eapauthenticatoractiondefine/EapPeerMethodResponseActionSend","eaphost.eappeermethodresponseaction"]
 old-location: eaphost\eappeermethodresponseaction.htm
 tech.root: eaphost
 ms.assetid: def7e04e-ed0c-46f0-97d6-4c0ab021fa8b
@@ -97,7 +98,7 @@ The supplicant should generate no  response to the EAP authenticator request.
 
 
 
-[EAPHost Peer Method Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-peer-method-enumerations)a>
+[EAPHost Peer Method Enumerations](/windows/win32/eaphost/eap-host-peer-method-enumerations)
  
 
  

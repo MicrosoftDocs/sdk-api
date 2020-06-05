@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFromDate
 title: VarCyFromDate function (oleauto.h)
-description: Converts a date value to a currency value.
+description: Converts a date value to a currency value.helpviewer_keywords: ["VarCyFromDate","VarCyFromDate function [Automation]","_oa96_VarCyFromDate","automat.varcyfromdate","oleauto/VarCyFromDate"]
 old-location: automat\varcyfromdate.htm
 tech.root: automat
 ms.assetid: 636f7c14-0363-4323-aae3-1ceede260ad5

@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSmGetThreadHandle
 title: RpcSmGetThreadHandle function (rpcndr.h)
-description: The RpcSmGetThreadHandle function returns a thread handle, or NULL, for the stub memory&#8211;management environment.
+description: The RpcSmGetThreadHandle function returns a thread handle, or NULL, for the stub memory&#8211;management environment.helpviewer_keywords: ["RpcSmGetThreadHandle","RpcSmGetThreadHandle function [RPC]","_rpc_rpcsmgetthreadhandle","rpc.rpcsmgetthreadhandle","rpcndr/RpcSmGetThreadHandle"]
 old-location: rpc\rpcsmgetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: 5bf2c93c-8273-484b-a79f-821b2068692d

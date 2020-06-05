@@ -2,6 +2,7 @@
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE
 title: EAP_METHOD_PROPERTY_VALUE (eaptypes.h)
 description: Contains the value of an EAP method property.
+helpviewer_keywords: ["EAP_METHOD_PROPERTY_VALUE","EAP_METHOD_PROPERTY_VALUE union [EAPHost]","eaphost.eap_method_property_value","eaptypes/EAP_METHOD_PROPERTY_VALUE"]
 old-location: eaphost\eap_method_property_value.htm
 tech.root: eaphost
 ms.assetid: 298b59d3-245f-4a29-b8a1-2265d65d30e6
@@ -83,7 +84,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 
 
-[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
+[EAPHost Supplicant Structures](/windows/win32/eaphost/eap-host-supplicant-structures)
 
 
 

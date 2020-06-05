@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DPA_SetPtr
 title: DPA_SetPtr function (dpa_dsa.h)
-description: Assigns a value to an item in a dynamic pointer array (DPA).
+description: Assigns a value to an item in a dynamic pointer array (DPA).helpviewer_keywords: ["DPA_SetPtr","DPA_SetPtr function [Windows Controls]","_win32_DPA_SetPtr","_win32_DPA_SetPtr_cpp","controls.DPA_SetPtr","controls._win32_DPA_SetPtr","dpa_dsa/DPA_SetPtr"]
 old-location: controls\DPA_SetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_setptr.htm

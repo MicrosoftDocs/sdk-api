@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1.ID2D1BitmapBrush
 title: ID2D1BitmapBrush (d2d1.h)
-description: Paints an area with a bitmap.
+description: Paints an area with a bitmap.helpviewer_keywords: ["ID2D1BitmapBrush","ID2D1BitmapBrush interface [Direct2D]","ID2D1BitmapBrush interface [Direct2D]","described","d2d1/ID2D1BitmapBrush","direct2d.ID2D1BitmapBrush"]
 old-location: direct2d\ID2D1BitmapBrush.htm
 tech.root: Direct2D
 ms.assetid: 22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4
@@ -54,9 +54,9 @@ Paints an area with a bitmap.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BitmapBrush</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1BitmapBrush</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BitmapBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1BitmapBrush</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -69,7 +69,7 @@ The <b>ID2D1BitmapBrush</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-getbitmap">GetBitmap</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getbitmap">GetBitmap</a>
 </td>
 <td align="left" width="63%">
 Gets the bitmap source that this brush uses to paint.
@@ -78,7 +78,7 @@ Gets the bitmap source that this brush uses to paint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodex">GetExtendModeX</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodex">GetExtendModeX</a>
 </td>
 <td align="left" width="63%">
   Gets the method by which the brush horizontally tiles those areas that extend past its bitmap.
@@ -87,7 +87,7 @@ Gets the bitmap source that this brush uses to paint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodey">GetExtendModeY</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodey">GetExtendModeY</a>
 </td>
 <td align="left" width="63%">
   Gets the method by which the brush vertically tiles those areas that extend past its bitmap.
@@ -96,7 +96,7 @@ Gets the bitmap source that this brush uses to paint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-getinterpolationmode">GetInterpolationMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getinterpolationmode">GetInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Gets the interpolation method used when the brush bitmap is scaled or rotated.
@@ -105,7 +105,7 @@ Gets the interpolation method used when the brush bitmap is scaled or rotated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setbitmap">SetBitmap</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setbitmap">SetBitmap</a>
 </td>
 <td align="left" width="63%">
 Specifies the bitmap source that this brush uses to paint. 
@@ -114,7 +114,7 @@ Specifies the bitmap source that this brush uses to paint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodex">SetExtendModeX</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodex">SetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Specifies how the brush horizontally tiles those areas that extend past its bitmap. 
@@ -123,7 +123,7 @@ Specifies how the brush horizontally tiles those areas that extend past its bitm
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">SetExtendModeY</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">SetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Specifies how the brush vertically tiles those areas that extend past its bitmap.
@@ -132,7 +132,7 @@ Specifies how the brush vertically tiles those areas that extend past its bitmap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setinterpolationmode">SetInterpolationMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setinterpolationmode">SetInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the interpolation mode used when the brush bitmap is scaled or rotated.
@@ -149,14 +149,14 @@ Specifies the interpolation mode used when the brush bitmap is scaled or rotated
 A bitmap brush is used to fill a geometry with a bitmap. Like all brushes, it defines an infinite plane of content. Because bitmaps are finite, the brush relies on an "extend mode" to determine how the plane is filled horizontally and vertically.
 
 <h3><a id="Creating_ID2D1BitmapBrush_Objects"></a><a id="creating_id2d1bitmapbrush_objects"></a><a id="CREATING_ID2D1BITMAPBRUSH_OBJECTS"></a>Creating ID2D1BitmapBrush Objects</h3>
-To create a bitmap brush, use the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-createbitmapbrush">ID2D1RenderTarget::CreateBitmapBrush</a> method.
+To create a bitmap brush, use the <a href="/windows/win32/Direct2D/id2d1rendertarget-createbitmapbrush">ID2D1RenderTarget::CreateBitmapBrush</a> method.
 
-An <b>ID2D1BitmapBrush</b> is a device-dependent resource: your application should create bitmap brushes after it initializes the render target with which the bitmap brush will be used, and recreate the bitmap brush whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
+An <b>ID2D1BitmapBrush</b> is a device-dependent resource: your application should create bitmap brushes after it initializes the render target with which the bitmap brush will be used, and recreate the bitmap brush whenever the render target needs recreated. (For more information about resources, see <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
-#### Examples
+## Examples
 
-For an example of how to create a bitmap brush, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a> topic. 
+For an example of how to create a bitmap brush, see the <a href="/windows/win32/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a> topic. 
 
 <div class="code"></div>
 
@@ -167,19 +167,19 @@ For an example of how to create a bitmap brush, see the <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>
+<a href="/windows/win32/Direct2D/how-to-create-a-bitmap-brush">How to Create a Bitmap Brush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/opacity-masks-overview">Opacity Masks Overview</a>
+<a href="/windows/win32/Direct2D/opacity-masks-overview">Opacity Masks Overview</a>
  
 
  

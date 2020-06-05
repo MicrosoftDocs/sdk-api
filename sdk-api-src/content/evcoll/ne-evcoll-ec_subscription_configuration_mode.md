@@ -1,7 +1,7 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CONFIGURATION_MODE
 title: EC_SUBSCRIPTION_CONFIGURATION_MODE (evcoll.h)
-description: Specifies different configuration modes that change the default settings for a subscription.
+description: Specifies different configuration modes that change the default settings for a subscription.helpviewer_keywords: ["EC_SUBSCRIPTION_CONFIGURATION_MODE","EC_SUBSCRIPTION_CONFIGURATION_MODE enumeration","EcConfigurationModeCustom","EcConfigurationModeMinBandwidth","EcConfigurationModeMinLatency","EcConfigurationModeNormal","evcoll/EC_SUBSCRIPTION_CONFIGURATION_MODE","evcoll/EcConfigurationModeCustom","evcoll/EcConfigurationModeMinBandwidth","evcoll/EcConfigurationModeMinLatency","evcoll/EcConfigurationModeNormal","wec.ec_subscription_configuration_mode","wes.ec_subscription_configuration_mode"]
 old-location: wec\ec_subscription_configuration_mode.htm
 tech.root: WEC
 ms.assetid: ec2c3006-c452-4dec-b3ed-a7a11f6456b3

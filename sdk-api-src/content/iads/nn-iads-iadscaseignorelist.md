@@ -1,7 +1,7 @@
 ---
 UID: NN:iads.IADsCaseIgnoreList
 title: IADsCaseIgnoreList (iads.h)
-description: The IADsCaseIgnoreList interface provides methods for an ADSI client to access the Case Ignore List attribute. You can call the property methods of this interface to obtain and modify the attribute.
+description: The IADsCaseIgnoreList interface provides methods for an ADSI client to access the Case Ignore List attribute. You can call the property methods of this interface to obtain and modify the attribute.helpviewer_keywords: ["IADsCaseIgnoreList","IADsCaseIgnoreList interface [ADSI]","IADsCaseIgnoreList interface [ADSI]","described","_ds_iadscaseignorelist","adsi.iadscaseignorelist","iads/IADsCaseIgnoreList"]
 old-location: adsi\iadscaseignorelist.htm
 tech.root: adsi
 ms.assetid: e587d603-d235-4449-986c-89f0fdb86ab6

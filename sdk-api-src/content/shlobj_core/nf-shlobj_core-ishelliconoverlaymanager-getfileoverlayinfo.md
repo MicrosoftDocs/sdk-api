@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.GetFileOverlayInfo
 title: IShellIconOverlayManager::GetFileOverlayInfo (shlobj_core.h)
-description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes.
+description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes.helpviewer_keywords: ["GetFileOverlayInfo","GetFileOverlayInfo method [Windows Shell]","GetFileOverlayInfo method [Windows Shell]","IShellIconOverlayManager interface","IShellIconOverlayManager interface [Windows Shell]","GetFileOverlayInfo method","IShellIconOverlayManager.GetFileOverlayInfo","IShellIconOverlayManager::GetFileOverlayInfo","_win32_IShellIconOverlayManager_GetFileOverlayInfo","shell.IShellIconOverlayManager_GetFileOverlayInfo","shlobj_core/IShellIconOverlayManager::GetFileOverlayInfo"]
 old-location: shell\IShellIconOverlayManager_GetFileOverlayInfo.htm
 tech.root: shell
 ms.assetid: 0dd918a4-64c7-4d7a-846c-0751e23c05a2

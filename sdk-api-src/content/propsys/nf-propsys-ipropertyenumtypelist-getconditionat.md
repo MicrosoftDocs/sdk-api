@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetConditionAt
 title: IPropertyEnumTypeList::GetConditionAt (propsys.h)
-description: Not supported.Gets the condition at the specified index.
+description: Not supported.Gets the condition at the specified index.helpviewer_keywords: ["GetConditionAt","GetConditionAt method [Windows Properties]","GetConditionAt method [Windows Properties]","IPropertyEnumTypeList interface","IPropertyEnumTypeList interface [Windows Properties]","GetConditionAt method","IPropertyEnumTypeList.GetConditionAt","IPropertyEnumTypeList::GetConditionAt","_shell_IPropertyEnumTypeList_GetConditionAt","properties.IPropertyEnumTypeList_GetConditionAt","propsys/IPropertyEnumTypeList::GetConditionAt","shell.IPropertyEnumTypeList_GetConditionAt"]
 old-location: properties\IPropertyEnumTypeList_GetConditionAt.htm
 tech.root: properties
 ms.assetid: 0754ac31-09e9-429b-8ae2-58346fb50944

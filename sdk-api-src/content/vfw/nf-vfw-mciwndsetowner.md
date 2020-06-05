@@ -1,7 +1,7 @@
 ---
 UID: NF:vfw.MCIWndSetOwner
 title: MCIWndSetOwner macro (vfw.h)
-description: The MCIWndSetOwner macro sets the window to receive notification messages associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SETOWNER message.
+description: The MCIWndSetOwner macro sets the window to receive notification messages associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SETOWNER message.helpviewer_keywords: ["MCIWndSetOwner","MCIWndSetOwner macro [Windows Multimedia]","_win32_MCIWndSetOwner","multimedia.mciwndsetowner","vfw/MCIWndSetOwner"]
 old-location: multimedia\mciwndsetowner.htm
 tech.root: Multimedia
 ms.assetid: 909f5cba-9078-47e8-bc14-a42f1689a2c5

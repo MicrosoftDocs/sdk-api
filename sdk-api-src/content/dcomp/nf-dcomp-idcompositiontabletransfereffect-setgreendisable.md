@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenDisable
 title: IDCompositionTableTransferEffect::SetGreenDisable (dcomp.h)
-description: Specifies whether to apply the transfer function to the green channel.
+description: Specifies whether to apply the transfer function to the green channel.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetGreenDisable method","IDCompositionTableTransferEffect.SetGreenDisable","IDCompositionTableTransferEffect::SetGreenDisable","SetGreenDisable","SetGreenDisable method [DirectComposition]","SetGreenDisable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetGreenDisable","directcomp.idcompositiontabletransfereffect_setgreendisable"]
 old-location: directcomp\idcompositiontabletransfereffect_setgreendisable.htm
 tech.root: directcomp
 ms.assetid: C625ACED-C8E8-414D-A9E9-4119F8F1D434

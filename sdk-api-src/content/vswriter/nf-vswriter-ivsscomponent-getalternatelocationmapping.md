@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAlternateLocationMapping
 title: IVssComponent::GetAlternateLocationMapping (vswriter.h)
-description: The GetAlternateLocationMapping is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.
+description: The GetAlternateLocationMapping is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.helpviewer_keywords: ["GetAlternateLocationMapping","GetAlternateLocationMapping method [VSS]","GetAlternateLocationMapping method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetAlternateLocationMapping method","IVssComponent.GetAlternateLocationMapping","IVssComponent::GetAlternateLocationMapping","_win32_ivsscomponent_getalternatelocationmapping","base.ivsscomponent_getalternatelocationmapping","vswriter/IVssComponent::GetAlternateLocationMapping"]
 old-location: base\ivsscomponent_getalternatelocationmapping.htm
 tech.root: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5

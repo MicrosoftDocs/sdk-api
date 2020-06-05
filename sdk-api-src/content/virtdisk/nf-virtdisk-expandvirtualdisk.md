@@ -2,6 +2,7 @@
 UID: NF:virtdisk.ExpandVirtualDisk
 title: ExpandVirtualDisk function (virtdisk.h)
 description: Increases the size of a fixed or dynamically expandable virtual hard disk (VHD).
+helpviewer_keywords: ["ExpandVirtualDisk","ExpandVirtualDisk function [VHD]","vdssys/ExpandVirtualDisk","vhd.expandvirtualdisk","virtdisk/ExpandVirtualDisk"]
 old-location: vhd\expandvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 96d1b603-c019-4868-9b81-3a5628fbb50c
@@ -59,17 +60,17 @@ Increases the size of a fixed or dynamically expandable virtual hard disk (VHD).
 
 ### -param VirtualDiskHandle [in]
 
-A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
+A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
-Must be the <b>EXPAND_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-expand_virtual_disk_flag">EXPAND_VIRTUAL_DISK_FLAG</a> enumeration.
+Must be the <b>EXPAND_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-expand_virtual_disk_flag">EXPAND_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure that contains expansion parameter data.
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-expand_virtual_disk_parameters">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure that contains expansion parameter data.
 
 
 ### -param Overlapped [in, optional]

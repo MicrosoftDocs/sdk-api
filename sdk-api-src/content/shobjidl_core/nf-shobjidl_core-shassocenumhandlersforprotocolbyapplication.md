@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlersForProtocolByApplication
 title: SHAssocEnumHandlersForProtocolByApplication function (shobjidl_core.h)
-description: Gets an enumeration interface that provides access to handlers associated with a given protocol.
+description: Gets an enumeration interface that provides access to handlers associated with a given protocol.helpviewer_keywords: ["SHAssocEnumHandlersForProtocolByApplication","SHAssocEnumHandlersForProtocolByApplication function [Windows Shell]","_shell_SHAssocEnumHandlersForProtocolByApplication","shell.SHAssocEnumHandlersForProtocolByApplication","shobjidl_core/SHAssocEnumHandlersForProtocolByApplication"]
 old-location: shell\SHAssocEnumHandlersForProtocolByApplication.htm
 tech.root: shell
 ms.assetid: 8bc3b9ce-5909-46a0-b5f1-35ab808aaa55

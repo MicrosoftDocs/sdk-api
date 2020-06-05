@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupWriteTextLogInfLine
 title: SetupWriteTextLogInfLine function (setupapi.h)
-description: The SetupWriteTextLogInfLine function writes a log entry in a SetupAPI text log that contains the text of a specified INF file line.
+description: The SetupWriteTextLogInfLine function writes a log entry in a SetupAPI text log that contains the text of a specified INF file line.helpviewer_keywords: ["SetupWriteTextLogInfLine","SetupWriteTextLogInfLine function [Device and Driver Installation]","devinst.setupwritetextloginfline","setupapi/SetupWriteTextLogInfLine","setupapilog-ref_f6f9d000-dcfd-4dda-8a2c-bac81274a836.xml"]
 old-location: devinst\setupwritetextloginfline.htm
 tech.root: devinst
 ms.assetid: 79386854-8b6b-4836-b8f3-d70657f6162c

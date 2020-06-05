@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHAutoComplete
 title: SHAutoComplete function (shlwapi.h)
-description: Instructs system edit controls to use AutoComplete to help complete URLs or file system paths.
+description: Instructs system edit controls to use AutoComplete to help complete URLs or file system paths.helpviewer_keywords: ["SHACF_AUTOAPPEND_FORCE_OFF","SHACF_AUTOAPPEND_FORCE_ON","SHACF_AUTOSUGGEST_FORCE_OFF","SHACF_AUTOSUGGEST_FORCE_ON","SHACF_DEFAULT","SHACF_FILESYSTEM","SHACF_FILESYS_DIRS","SHACF_FILESYS_ONLY","SHACF_URLALL","SHACF_URLHISTORY","SHACF_URLMRU","SHACF_USETAB","SHACF_VIRTUAL_NAMESPACE","SHAutoComplete","SHAutoComplete function [Windows Shell]","_win32_ShAutoComplete","shell.SHAutoComplete","shlwapi/SHAutoComplete"]
 old-location: shell\SHAutoComplete.htm
 tech.root: shell
 ms.assetid: b47efa8d-2118-4805-bb04-97bd143228dc

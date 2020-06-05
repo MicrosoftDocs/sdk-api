@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_ELEMENTS_LAYOUT
 title: D3D12_ELEMENTS_LAYOUT (d3d12.h)
-description: Describes how the locations of elements are identified.
+description: Describes how the locations of elements are identified.helpviewer_keywords: ["D3D12_ELEMENTS_LAYOUT","D3D12_ELEMENTS_LAYOUT enumeration","D3D12_ELEMENTS_LAYOUT_ARRAY","D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS","d3d12/D3D12_ELEMENTS_LAYOUT","d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY","d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS","direct3d12.d3d12_elements_layout"]
 old-location: direct3d12\d3d12_elements_layout.htm
 tech.root: direct3d12
 ms.assetid: C3BEAE37-3C3B-4128-95C1-DD88B31AC5A3

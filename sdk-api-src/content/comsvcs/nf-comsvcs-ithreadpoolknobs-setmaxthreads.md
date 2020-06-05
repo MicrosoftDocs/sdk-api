@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMaxThreads
 title: IThreadPoolKnobs::SetMaxThreads (comsvcs.h)
-description: Sets the maximum number of threads to be allowed in the pool.
+description: Sets the maximum number of threads to be allowed in the pool.helpviewer_keywords: ["IThreadPoolKnobs interface [COM+]","SetMaxThreads method","IThreadPoolKnobs.SetMaxThreads","IThreadPoolKnobs::SetMaxThreads","SetMaxThreads","SetMaxThreads method [COM+]","SetMaxThreads method [COM+]","IThreadPoolKnobs interface","_cos_IThreadPoolKnobs_SetMaxThreads","comsvcs/IThreadPoolKnobs::SetMaxThreads","cos.ithreadpoolknobs_setmaxthreads"]
 old-location: cos\ithreadpoolknobs_setmaxthreads.htm
 tech.root: cossdk
 ms.assetid: abca2ec3-4dcd-4770-a500-1d46b87b4cda

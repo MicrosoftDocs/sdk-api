@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingStarted
 title: IMSVidStreamBufferRecordingControl::get_RecordingStarted (segment.h)
-description: The get_RecordingStarted method queries whether the recording has started.
+description: The get_RecordingStarted method queries whether the recording has started.helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","get_RecordingStarted method","IMSVidStreamBufferRecordingControl.get_RecordingStarted","IMSVidStreamBufferRecordingControl::get_RecordingStarted","IMSVidStreamBufferRecordingControlget_RecordingStarted","get_RecordingStarted","get_RecordingStarted method [Microsoft TV Technologies]","get_RecordingStarted method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","mstv.imsvidstreambufferrecordingcontrol_get_recordingstarted","segment/IMSVidStreamBufferRecordingControl::get_RecordingStarted"]
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstarted.htm
 tech.root: mstv
 ms.assetid: 99abd883-5fec-4ac4-a167-aa2d4c3bf470

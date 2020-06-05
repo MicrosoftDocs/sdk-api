@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComObjectPool2Events.OnObjPoolPutObject2
 title: IComObjectPool2Events::OnObjPoolPutObject2 (comsvcs.h)
 description: Generated when an object is added to the pool.
+helpviewer_keywords: ["IComObjectPool2Events interface [COM+]","OnObjPoolPutObject2 method","IComObjectPool2Events.OnObjPoolPutObject2","IComObjectPool2Events::OnObjPoolPutObject2","OnObjPoolPutObject2","OnObjPoolPutObject2 method [COM+]","OnObjPoolPutObject2 method [COM+]","IComObjectPool2Events interface","_dtc_IComObjectPool2Events_OnObjPoolPutObject2","comsvcs/IComObjectPool2Events::OnObjPoolPutObject2","cos.icomobjectpool2events_onobjpoolputobject2"]
 old-location: cos\icomobjectpool2events_onobjpoolputobject2.htm
 tech.root: cossdk
 ms.assetid: 5a0cfbd2-d88c-4773-96e5-0e97767d647d
@@ -59,7 +60,7 @@ Generated when an object is added to the pool.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidObject [in]

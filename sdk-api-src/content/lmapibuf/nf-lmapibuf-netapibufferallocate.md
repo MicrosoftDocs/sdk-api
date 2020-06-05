@@ -1,7 +1,7 @@
 ---
 UID: NF:lmapibuf.NetApiBufferAllocate
 title: NetApiBufferAllocate function (lmapibuf.h)
-description: The NetApiBufferAllocate function allocates memory from the heap. Use this function only when compatibility with the NetApiBufferFree function is required. Otherwise, use the memory management functions.
+description: The NetApiBufferAllocate function allocates memory from the heap. Use this function only when compatibility with the NetApiBufferFree function is required. Otherwise, use the memory management functions.helpviewer_keywords: ["NetApiBufferAllocate","NetApiBufferAllocate function [Network Management]","_win32_netapibufferallocate","lmapibuf/NetApiBufferAllocate","netmgmt.netapibufferallocate"]
 old-location: netmgmt\netapibufferallocate.htm
 tech.root: NetMgmt
 ms.assetid: 9ff1e3eb-9417-469f-a8c0-cdcda3cd9583

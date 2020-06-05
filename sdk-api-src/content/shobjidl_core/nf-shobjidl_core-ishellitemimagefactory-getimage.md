@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellItemImageFactory.GetImage
 title: IShellItemImageFactory::GetImage (shobjidl_core.h)
-description: Gets an HBITMAP that represents an IShellItem.
+description: Gets an HBITMAP that represents an IShellItem.helpviewer_keywords: ["GetImage","GetImage method [Windows Shell]","GetImage method [Windows Shell]","IShellItemImageFactory interface","IShellItemImageFactory interface [Windows Shell]","GetImage method","IShellItemImageFactory.GetImage","IShellItemImageFactory::GetImage","SIIGBF_BIGGERSIZEOK","SIIGBF_CROPTOSQUARE","SIIGBF_ICONBACKGROUND","SIIGBF_ICONONLY","SIIGBF_INCACHEONLY","SIIGBF_MEMORYONLY","SIIGBF_RESIZETOFIT","SIIGBF_SCALEUP","SIIGBF_THUMBNAILONLY","SIIGBF_WIDETHUMBNAILS","_shell_IShellItemImageFactory_GetImage","shell.IShellItemImageFactory_GetImage","shobjidl_core/IShellItemImageFactory::GetImage"]
 old-location: shell\IShellItemImageFactory_GetImage.htm
 tech.root: shell
 ms.assetid: b31a5eb7-f12f-41e0-9047-450240371424

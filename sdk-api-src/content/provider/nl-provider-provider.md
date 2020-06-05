@@ -1,7 +1,7 @@
 ---
 UID: NL:provider.Provider
 title: Provider (provider.h)
-description: The Provider class is the base class for the class or classes that the framework provider supports.
+description: The Provider class is the base class for the class or classes that the framework provider supports.helpviewer_keywords: ["??1Provider@@UAE@XZ","??1Provider@@UEAA@XZ","Provider","Provider class [Windows Management Instrumentation]","Provider class [Windows Management Instrumentation]","described","_hmm_provider","provider/Provider","wmi.provider"]
 old-location: wmi\provider.htm
 tech.root: WmiSdk
 ms.assetid: d8a7c433-7e6a-45cc-914f-a15a3688c7aa

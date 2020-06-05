@@ -1,7 +1,7 @@
 ---
 UID: NE:mbnapi.MBN_CONNECTION_MODE
 title: MBN_CONNECTION_MODE (mbnapi.h)
-description: The MBN_CONNECTION_MODE enumerated type specifies the mode of connection requested.
+description: The MBN_CONNECTION_MODE enumerated type specifies the mode of connection requested.helpviewer_keywords: ["MBN_CONNECTION_MODE","MBN_CONNECTION_MODE enumeration [Microsoft Broadband Networks]","MBN_CONNECTION_MODE_PROFILE","MBN_CONNECTION_MODE_TMP_PROFILE","mbn.mbn_connection_mode","mbnapi/MBN_CONNECTION_MODE","mbnapi/MBN_CONNECTION_MODE_PROFILE","mbnapi/MBN_CONNECTION_MODE_TMP_PROFILE"]
 old-location: mbn\mbn_connection_mode.htm
 tech.root: mbn
 ms.assetid: c7aed29b-7938-4266-ae4c-b8ba84eb8a63

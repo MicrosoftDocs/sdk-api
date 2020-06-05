@@ -1,7 +1,7 @@
 ---
 UID: NF:wingdi.SetTextAlign
 title: SetTextAlign function (wingdi.h)
-description: The SetTextAlign function sets the text-alignment flags for the specified device context.
+description: The SetTextAlign function sets the text-alignment flags for the specified device context.helpviewer_keywords: ["SetTextAlign","SetTextAlign function [Windows GDI]","TA_BASELINE","TA_BOTTOM","TA_CENTER","TA_LEFT","TA_NOUPDATECP","TA_RIGHT","TA_RTLREADING","TA_TOP","TA_UPDATECP","VTA_BASELINE","VTA_CENTER","_win32_SetTextAlign","gdi.settextalign","wingdi/SetTextAlign"]
 old-location: gdi\settextalign.htm
 tech.root: gdi
 ms.assetid: 422868c5-14c9-4374-9cc5-b7bf91ab9eb4

@@ -1,7 +1,7 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Reset
 title: IEnumPublishedApps::Reset (shappmgr.h)
-description: Resets the enumeration of IPublishedApp objects to the first item.
+description: Resets the enumeration of IPublishedApp objects to the first item.helpviewer_keywords: ["IEnumPublishedApps interface [Windows Shell]","Reset method","IEnumPublishedApps.Reset","IEnumPublishedApps::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumPublishedApps interface","inet_IEnumPublishedApps_Reset","shappmgr/IEnumPublishedApps::Reset","shell.IEnumPublishedApps_Reset"]
 old-location: shell\IEnumPublishedApps_Reset.htm
 tech.root: shell
 ms.assetid: 007f6636-725a-4af5-ad3f-578f8183a088

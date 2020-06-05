@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IShellView.GetItemObject
 title: IShellView::GetItemObject (shobjidl_core.h)
 description: Gets an interface that refers to data presented in the view.
+helpviewer_keywords: ["GetItemObject","GetItemObject method [Windows Shell]","GetItemObject method [Windows Shell]","IShellView interface","IShellView interface [Windows Shell]","GetItemObject method","IShellView.GetItemObject","IShellView::GetItemObject","_win32_IShellView_GetItemObject","shell.IShellView_GetItemObject","shobjidl_core/IShellView::GetItemObject"]
 old-location: shell\IShellView_GetItemObject.htm
 tech.root: shell
 ms.assetid: 249ce8cc-6820-4f0a-a83a-2035e88d0d9c
@@ -61,7 +62,7 @@ Gets an interface that refers to data presented in the view.
 
 Type: <b>UINT</b>
 
-The constants that refer to an aspect of the view. This parameter can be any one of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> constants.
+The constants that refer to an aspect of the view. This parameter can be any one of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> constants.
 
 
 ### -param riid

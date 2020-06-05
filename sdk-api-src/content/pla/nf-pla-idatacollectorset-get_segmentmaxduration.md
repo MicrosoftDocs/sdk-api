@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SegmentMaxDuration
 title: IDataCollectorSet::get_SegmentMaxDuration (pla.h)
-description: Retrieves or sets the duration that the data collector set can run before it begins writing to new log files.
+description: Retrieves or sets the duration that the data collector set can run before it begins writing to new log files.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SegmentMaxDuration property","IDataCollectorSet.SegmentMaxDuration","IDataCollectorSet.get_SegmentMaxDuration","IDataCollectorSet::SegmentMaxDuration","IDataCollectorSet::get_SegmentMaxDuration","IDataCollectorSet::put_SegmentMaxDuration","SegmentMaxDuration property [PLA]","SegmentMaxDuration property [PLA]","IDataCollectorSet interface","base.idatacollectorset_segmentmaxduration","get_SegmentMaxDuration","pla.idatacollectorset_segmentmaxduration","pla/IDataCollectorSet::SegmentMaxDuration","pla/IDataCollectorSet::get_SegmentMaxDuration","pla/IDataCollectorSet::put_SegmentMaxDuration"]
 old-location: pla\idatacollectorset_segmentmaxduration.htm
 tech.root: PLA
 ms.assetid: d958c7a7-0258-4db6-b650-14a61d59221b

@@ -1,7 +1,7 @@
 ---
 UID: NF:sdoias.ISdo.ResetProperty
 title: ISdo::ResetProperty (sdoias.h)
-description: The ResetProperty method resets the specified property to its default value.
+description: The ResetProperty method resets the specified property to its default value.helpviewer_keywords: ["ISdo interface [Network Policy Server]","ResetProperty method","ISdo.ResetProperty","ISdo::ResetProperty","ResetProperty","ResetProperty method [Network Policy Server]","ResetProperty method [Network Policy Server]","ISdo interface","_sdo_isdo_resetproperty","nps.SDO_isdo_resetproperty","sdo.isdo_resetproperty","sdoias/ISdo::ResetProperty"]
 old-location: nps\SDO_isdo_resetproperty.htm
 tech.root: Nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d

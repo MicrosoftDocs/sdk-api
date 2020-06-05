@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_remedy
 title: IWMPErrorItem::get_remedy (wmp.h)
-description: Reserved for future use.
+description: Reserved for future use.helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_remedy method","IWMPErrorItem.get_remedy","IWMPErrorItem::get_remedy","IWMPErrorItemget_remedy","get_remedy","get_remedy method [Windows Media Player]","get_remedy method [Windows Media Player]","IWMPErrorItem interface","wmp.iwmperroritem_get_remedy","wmp/IWMPErrorItem::get_remedy"]
 old-location: wmp\iwmperroritem_get_remedy.htm
 tech.root: WMP
 ms.assetid: f37ec43a-cf58-4e90-9b2a-aef8afc30744

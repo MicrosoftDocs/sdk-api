@@ -1,7 +1,7 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CIPHER_ALGORITHM
 title: DOT11_ADHOC_CIPHER_ALGORITHM (adhoc.h)
-description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
+description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.helpviewer_keywords: ["DOT11_ADHOC_CIPHER_ALGORITHM","DOT11_ADHOC_CIPHER_ALGORITHM enumeration [NativeWIFI]","DOT11_ADHOC_CIPHER_ALGO_CCMP","DOT11_ADHOC_CIPHER_ALGO_INVALID","DOT11_ADHOC_CIPHER_ALGO_NONE","DOT11_ADHOC_CIPHER_ALGO_WEP","adhoc/DOT11_ADHOC_CIPHER_ALGORITHM","adhoc/DOT11_ADHOC_CIPHER_ALGO_CCMP","adhoc/DOT11_ADHOC_CIPHER_ALGO_INVALID","adhoc/DOT11_ADHOC_CIPHER_ALGO_NONE","adhoc/DOT11_ADHOC_CIPHER_ALGO_WEP","nwifi.dot11_adhoc_cipher_algorithm"]
 old-location: nwifi\dot11_adhoc_cipher_algorithm.htm
 tech.root: NativeWiFi
 ms.assetid: 2ea8173d-f528-4065-90ce-71a455a6b35f

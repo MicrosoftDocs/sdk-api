@@ -2,6 +2,7 @@
 UID: NF:callobj.ICallFrame.GetInfo
 title: ICallFrame::GetInfo (callobj.h)
 description: Retrieves information about the call frame.
+helpviewer_keywords: ["GetInfo","GetInfo method [COM]","GetInfo method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetInfo method","ICallFrame.GetInfo","ICallFrame::GetInfo","_com_icallframe_getinfo","callobj/ICallFrame::GetInfo","com.icallframe_getinfo"]
 old-location: com\icallframe_getinfo.htm
 tech.root: com
 ms.assetid: 807b4542-c18d-48e4-8493-c40a85e5e1de
@@ -59,7 +60,7 @@ Retrieves information about the call frame.
 
 ### -param pInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a> structure.
 
 
 ## -returns
@@ -106,7 +107,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a>
+<a href="/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a>
 
 
 

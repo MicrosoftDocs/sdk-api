@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellItemImageFactory
 title: IShellItemImageFactory (shobjidl_core.h)
-description: Exposes a method to return either icons or thumbnails for Shell items. If no thumbnail or icon is available for the requested item, a per-class icon may be provided from the Shell.
+description: Exposes a method to return either icons or thumbnails for Shell items. If no thumbnail or icon is available for the requested item, a per-class icon may be provided from the Shell.helpviewer_keywords: ["IShellItemImageFactory","IShellItemImageFactory interface [Windows Shell]","IShellItemImageFactory interface [Windows Shell]","described","_shell_IShellItemImageFactory","shell.IShellItemImageFactory","shobjidl_core/IShellItemImageFactory"]
 old-location: shell\IShellItemImageFactory.htm
 tech.root: shell
 ms.assetid: a6eea412-553a-4bdd-afc2-cc002c4500a4

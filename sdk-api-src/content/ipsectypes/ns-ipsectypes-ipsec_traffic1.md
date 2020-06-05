@@ -2,6 +2,7 @@
 UID: NS:ipsectypes.IPSEC_TRAFFIC1_
 title: IPSEC_TRAFFIC1 (ipsectypes.h)
 description: Specifies parameters to describe IPsec traffic.
+helpviewer_keywords: ["IPSEC_TRAFFIC1","IPSEC_TRAFFIC1 structure [Filtering]","fwp.ipsec_traffic1_struct","ipsectypes/IPSEC_TRAFFIC1"]
 old-location: fwp\ipsec_traffic1_struct.htm
 tech.root: fwp
 ms.assetid: 2a3ad63f-9fa1-41c7-b628-5fe4e17ce7ac
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traffic.
-[IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0)a> is available.</div><div> </div>
+[IPSEC_TRAFFIC0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,7 +60,7 @@ The <b>IPSEC_TRAFFIC1</b> structure specifies parameters to describe IPsec traff
 
 ### -field ipVersion
 
-An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a> value that specifies the IP version. In tunnel mode, this is the version of the outer header.
+An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) value that specifies the IP version. In tunnel mode, this is the version of the outer header.
 
 
 ### -field localV4Address
@@ -94,7 +95,7 @@ Specified when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 Type of IPsec traffic.
 
-See [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a> for more information.
+See [IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type) for more information.
 
 
 ### -field ipsecFilterId
@@ -158,11 +159,11 @@ For IPsec tunnel mode, the <b>localV*Address</b> and  <b>remoteV*Address</b> mem
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)a>
+[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a>
+[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetOptions
 title: IExplorerBrowser::SetOptions (shobjidl_core.h)
-description: Sets the current browser options.
+description: Sets the current browser options.helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","SetOptions method","IExplorerBrowser.SetOptions","IExplorerBrowser::SetOptions","SetOptions","SetOptions method [Windows Shell]","SetOptions method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_SetOptions","shell.IExplorerBrowser_SetOptions","shobjidl_core/IExplorerBrowser::SetOptions"]
 old-location: shell\IExplorerBrowser_SetOptions.htm
 tech.root: shell
 ms.assetid: b2f8fe1b-afcd-4fb0-b96b-41e38c7fea0b

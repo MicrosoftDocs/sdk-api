@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHUiaNodeFromVariant
 title: UiaHUiaNodeFromVariant function (uiautomationcoreapi.h)
-description: Gets an HUIANODE from a VARIANT type.
+description: Gets an HUIANODE from a VARIANT type.helpviewer_keywords: ["UiaHUiaNodeFromVariant","UiaHUiaNodeFromVariant function [Windows Accessibility]","uiauto.uiauto_UiaHUiaNodeFromVariantFunction","uiauto_UiaHUiaNodeFromVariantFunction","uiautomationcoreapi/UiaHUiaNodeFromVariant","winauto.uiauto_UiaHUiaNodeFromVariantFunction"]
 old-location: winauto\uiauto_UiaHUiaNodeFromVariantFunction.htm
 tech.root: WinAuto
 ms.assetid: 9927a058-a470-4b0e-86ae-494a8ab0ec2c

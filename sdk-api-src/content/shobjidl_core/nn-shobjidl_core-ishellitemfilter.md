@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellItemFilter
 title: IShellItemFilter (shobjidl_core.h)
-description: Exposed by a client to specify how to filter the enumeration of a Shell item by a server application.
+description: Exposed by a client to specify how to filter the enumeration of a Shell item by a server application.helpviewer_keywords: ["IShellItemFilter","IShellItemFilter interface [Windows Shell]","IShellItemFilter interface [Windows Shell]","described","_shell_IShellItemFilter","shell.IShellItemFilter","shobjidl_core/IShellItemFilter"]
 old-location: shell\IShellItemFilter.htm
 tech.root: shell
 ms.assetid: c2873385-a25d-4d9d-94ef-05dcdf284be1

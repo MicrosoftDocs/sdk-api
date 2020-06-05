@@ -1,7 +1,7 @@
 ---
 UID: NF:roapi.RoUnregisterForApartmentShutdown
 title: RoUnregisterForApartmentShutdown function (roapi.h)
-description: Unregisters a previously registered IApartmentShutdown interface.
+description: Unregisters a previously registered IApartmentShutdown interface.helpviewer_keywords: ["RoUnregisterForApartmentShutdown","RoUnregisterForApartmentShutdown function [Windows Runtime]","roapi/RoUnregisterForApartmentShutdown","winrt.rounregisterforapartmentshutdown"]
 old-location: winrt\rounregisterforapartmentshutdown.htm
 tech.root: WinRT
 ms.assetid: B6E22C50-14EC-4B0F-8C97-7D1062BF6072

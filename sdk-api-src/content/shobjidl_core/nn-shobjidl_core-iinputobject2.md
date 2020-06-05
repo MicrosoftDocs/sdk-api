@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IInputObject2
 title: IInputObject2 (shobjidl_core.h)
-description: Exposes a method that extends IInputObject by handling global accelerators.
+description: Exposes a method that extends IInputObject by handling global accelerators.helpviewer_keywords: ["IInputObject2","IInputObject2 interface [Windows Shell]","IInputObject2 interface [Windows Shell]","described","_shell_IInputObject2","shell.IInputObject2","shobjidl_core/IInputObject2"]
 old-location: shell\IInputObject2.htm
 tech.root: shell
 ms.assetid: 76d8672c-ea19-4d61-b6b5-e6c3951ec710

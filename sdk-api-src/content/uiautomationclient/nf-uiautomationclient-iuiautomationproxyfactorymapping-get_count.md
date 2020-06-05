@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.get_Count
 title: IUIAutomationProxyFactoryMapping::get_Count (uiautomationclient.h)
-description: Retrieves the number of entries in the proxy factory table.
+description: Retrieves the number of entries in the proxy factory table.helpviewer_keywords: ["Count property [Windows Accessibility]","Count property [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","Count property","IUIAutomationProxyFactoryMapping.Count","IUIAutomationProxyFactoryMapping.get_Count","IUIAutomationProxyFactoryMapping::Count","IUIAutomationProxyFactoryMapping::get_Count","get_Count","uiauto.uiauto_IUIAutomationProxyFactoryMapping_Count","uiauto_IUIAutomationProxyFactoryMapping_Count","uiautomationclient/IUIAutomationProxyFactoryMapping::Count","uiautomationclient/IUIAutomationProxyFactoryMapping::get_Count","winauto.uiauto_IUIAutomationProxyFactoryMapping_Count"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_Count.htm
 tech.root: WinAuto
 ms.assetid: f8a9aa80-edc2-4160-b246-e3be75ff5942

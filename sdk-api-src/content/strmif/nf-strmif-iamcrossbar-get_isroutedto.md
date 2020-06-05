@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_IsRoutedTo
 title: IAMCrossbar::get_IsRoutedTo (strmif.h)
-description: The get_IsRoutedTo method retrieves the input pin that is currently routed to the specified output pin.
+description: The get_IsRoutedTo method retrieves the input pin that is currently routed to the specified output pin.helpviewer_keywords: ["IAMCrossbar interface [DirectShow]","get_IsRoutedTo method","IAMCrossbar.get_IsRoutedTo","IAMCrossbar::get_IsRoutedTo","IAMCrossbarget_IsRoutedTo","dshow.iamcrossbar_get_isroutedto","get_IsRoutedTo","get_IsRoutedTo method [DirectShow]","get_IsRoutedTo method [DirectShow]","IAMCrossbar interface","strmif/IAMCrossbar::get_IsRoutedTo"]
 old-location: dshow\iamcrossbar_get_isroutedto.htm
 tech.root: DirectShow
 ms.assetid: fbd59205-ef0a-4e1c-b9d3-63a083c0a7f6

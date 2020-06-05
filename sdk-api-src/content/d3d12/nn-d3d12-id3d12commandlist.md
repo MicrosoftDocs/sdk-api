@@ -2,6 +2,7 @@
 UID: NN:d3d12.ID3D12CommandList
 title: ID3D12CommandList (d3d12.h)
 description: An interface from which ID3D12GraphicsCommandList inherits from. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
+helpviewer_keywords: ["ID3D12CommandList","ID3D12CommandList interface","ID3D12CommandList interface","described","d3d12/ID3D12CommandList","direct3d12.id3d12commandlist"]
 old-location: direct3d12\id3d12commandlist.htm
 tech.root: direct3d12
 ms.assetid: 1E0359CC-0F53-4C82-9F1A-092F6F72EE20
@@ -43,13 +44,14 @@ req.redist:
 ms.custom: 19H1
 ---
 
+
 # ID3D12CommandList interface
 
 
 ## -description
 
 
-An interface from which <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a> inherits from. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
+An interface from which <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a> inherits. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
 
 
 ## -inheritance
@@ -180,7 +182,3 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/setting-descriptor-heaps">Setting descriptor heaps</a>
- 
-
- 
-

@@ -2,6 +2,7 @@
 UID: NS:winbio_adapter._WINBIO_PIPELINE
 title: WINBIO_PIPELINE (winbio_adapter.h)
 description: Contains shared context information used by the sensor, engine, and storage adapter components in a single biometric unit.
+helpviewer_keywords: ["*PWINBIO_PIPELINE","PWINBIO_PIPELINE","PWINBIO_PIPELINE structure pointer [Windows Biometric Framework API]","WINBIO_PIPELINE","WINBIO_PIPELINE structure [Windows Biometric Framework API]","secbiomet.winbio_pipeline","winbio_adapter/PWINBIO_PIPELINE","winbio_adapter/WINBIO_PIPELINE"]
 old-location: secbiomet\winbio_pipeline.htm
 tech.root: SecBioMet
 ms.assetid: b5fc2b14-b0b6-4327-a42a-ecae41c3e12a
@@ -75,19 +76,19 @@ File handle to the template storage database. This is read by the Windows Biomet
 
 ### -field SensorInterface
 
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure for the biometric unit. Adapters should ignore this field.
+Pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure for the biometric unit. Adapters should ignore this field.
 
 
 
 ### -field EngineInterface
 
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure for the biometric unit. Adapters should ignore this field.
+Pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a> structure for the biometric unit. Adapters should ignore this field.
 
 
 
 ### -field StorageInterface
 
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure for the biometric unit. Adapters should ignore this field.
+Pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure for the biometric unit. Adapters should ignore this field.
 
 
 

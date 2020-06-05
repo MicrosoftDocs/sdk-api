@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmGetAppIdFromFileName0
 title: FwpmGetAppIdFromFileName0 function (fwpmu.h)
 description: Retrieves an application identifier from a file name.
+helpviewer_keywords: ["FwpmGetAppIdFromFileName0","FwpmGetAppIdFromFileName0 function [Filtering]","fwp.fwpmgetappidfromfilename0","fwpmu/FwpmGetAppIdFromFileName0"]
 old-location: fwp\fwpmgetappidfromfilename0.htm
 tech.root: fwp
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe
@@ -66,7 +67,7 @@ File name from which the application identifier will be retrieved.
 
 ### -param appId [out]
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>**</b>
+Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)**</b>
 
 The  retrieved application identifier.
 
@@ -184,7 +185,7 @@ int main()
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
+[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_4.IDXGIAdapter3
 title: IDXGIAdapter3 (dxgi1_4.h)
-description: This interface adds some memory residency methods, for budgeting and reserving physical memory.
+description: This interface adds some memory residency methods, for budgeting and reserving physical memory.helpviewer_keywords: ["IDXGIAdapter3","IDXGIAdapter3 interface [DXGI]","IDXGIAdapter3 interface [DXGI]","described","direct3ddxgi.idxgiadapter3","dxgi1_4/IDXGIAdapter3"]
 old-location: direct3ddxgi\idxgiadapter3.htm
 tech.root: direct3ddxgi
 ms.assetid: 547840B4-4AAB-4049-8D79-BD34BA4D32CD

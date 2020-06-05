@@ -2,6 +2,7 @@
 UID: NN:d3d11on12.ID3D11On12Device
 title: ID3D11On12Device (d3d11on12.h)
 description: Handles the creation, wrapping, and releasing of D3D11 resources for Direct3D11on12.
+helpviewer_keywords: ["ID3D11On12Device","ID3D11On12Device interface","ID3D11On12Device interface","described","d3d11on12/ID3D11On12Device","direct3d12.id3d11on12device"]
 old-location: direct3d12\id3d11on12device.htm
 tech.root: direct3d12
 ms.assetid: 031F9AC2-E5C0-47F9-B084-2D2431F1187A
@@ -44,7 +45,7 @@ ms.custom: 19H1
 ---
 
 ## -description
-Handles the creation, wrapping, and releasing of D3D11 resources for Direct3D11on12.
+Handles the creation, wrapping, and releasing of Direct3D 11 resources for Direct3D11on12.
 
 ## Inheritance
 The **ID3D11On12Device** interface inherits from the [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown).

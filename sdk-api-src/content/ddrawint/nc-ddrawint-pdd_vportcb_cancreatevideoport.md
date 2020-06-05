@@ -1,7 +1,7 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_CANCREATEVIDEOPORT
 title: PDD_VPORTCB_CANCREATEVIDEOPORT (ddrawint.h)
-description: The DdVideoPortCanCreate callback function determines whether the driver can support a DirectDraw VPE object of the specified description.
+description: The DdVideoPortCanCreate callback function determines whether the driver can support a DirectDraw VPE object of the specified description.helpviewer_keywords: ["DdVideoPortCanCreate","DdVideoPortCanCreate callback function [Display Devices]","PDD_VPORTCB_CANCREATEVIDEOPORT","PDD_VPORTCB_CANCREATEVIDEOPORT callback","ddfncs_dfe3285f-627c-4f0d-b7e7-ffd87d88fe46.xml","ddrawint/DdVideoPortCanCreate","display.ddvideoportcancreate"]
 old-location: display\ddvideoportcancreate.htm
 tech.root: display
 ms.assetid: 742c7af2-0611-4cca-b18c-e14b18068d7e

@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IPersistFolder3.InitializeEx
 title: IPersistFolder3::InitializeEx (shobjidl_core.h)
 description: Initializes a folder and specifies its location in the namespace. If the folder is a shortcut, this method also specifies the location of the target folder.
+helpviewer_keywords: ["IPersistFolder3 interface [Windows Shell]","InitializeEx method","IPersistFolder3.InitializeEx","IPersistFolder3::InitializeEx","InitializeEx","InitializeEx method [Windows Shell]","InitializeEx method [Windows Shell]","IPersistFolder3 interface","_win32_IPersistFolder3_InitializeEx","shell.IPersistFolder3_InitializeEx","shobjidl_core/IPersistFolder3::InitializeEx"]
 old-location: shell\IPersistFolder3_InitializeEx.htm
 tech.root: shell
 ms.assetid: 50a426b5-a526-4d3d-a20a-67050229f02e
@@ -73,9 +74,9 @@ A pointer to a fully qualified PIDL that specifies the absolute location of a fo
 
 ### -param ppfti [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
+Type: <b>const <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
+A pointer to a <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
 
                     
 

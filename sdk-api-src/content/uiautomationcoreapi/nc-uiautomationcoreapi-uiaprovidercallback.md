@@ -2,6 +2,7 @@
 UID: NC:uiautomationcoreapi.UiaProviderCallback
 title: UiaProviderCallback (uiautomationcoreapi.h)
 description: An application-defined function that is called by UI Automation to obtain a client-side provider for an element.
+helpviewer_keywords: ["UiaProviderCallback","UiaProviderCallback callback","UiaProviderCallback callback function [Windows Accessibility]","uiauto.uiauto_UiaProviderCallbackAutoMeth","uiauto_UiaProviderCallbackAutoMeth","uiautomationcoreapi/UiaProviderCallback","winauto.uiauto_UiaProviderCallbackAutoMeth"]
 old-location: winauto\uiauto_UiaProviderCallbackAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 45a32e14-9b8b-452e-a2eb-0f6773980f2f
@@ -76,9 +77,9 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a></b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a></b>
 
-A <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the requested provider.
+A <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the requested provider.
 
 
 

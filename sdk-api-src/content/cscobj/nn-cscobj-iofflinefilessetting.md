@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesSetting
 title: IOfflineFilesSetting (cscobj.h)
-description: Represents a setting that controls the behavior the Offline Files service.
+description: Represents a setting that controls the behavior the Offline Files service.helpviewer_keywords: ["IOfflineFilesSetting","IOfflineFilesSetting interface [Offline Files]","IOfflineFilesSetting interface [Offline Files]","described","cscobj/IOfflineFilesSetting","of.iofflinefilessetting"]
 old-location: of\iofflinefilessetting.htm
 tech.root: offlinefiles
 ms.assetid: 6f47c67b-9438-4229-89b2-6b3f9da8fb68

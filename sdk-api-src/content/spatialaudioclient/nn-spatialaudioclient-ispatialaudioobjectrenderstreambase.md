@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStreamBase
 title: ISpatialAudioObjectRenderStreamBase (spatialaudioclient.h)
-description: Base interface that provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream.
+description: Base interface that provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamBase","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","described","coreaudio.ispatialaudioobjectrenderstreambase","spatialaudioclient/ISpatialAudioObjectRenderStreamBase"]
 old-location: coreaudio\ispatialaudioobjectrenderstreambase.htm
 tech.root: CoreAudio
 ms.assetid: 2C2BE871-EFD1-40E1-B466-6BBD09C56852

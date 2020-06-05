@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetParameterRange
 title: IEncoderAPI::GetParameterRange (strmif.h)
-description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
+description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.helpviewer_keywords: ["GetParameterRange","GetParameterRange method [Microsoft TV Technologies]","GetParameterRange method [Microsoft TV Technologies]","IEncoderAPI interface","IEncoderAPI interface [Microsoft TV Technologies]","GetParameterRange method","IEncoderAPI.GetParameterRange","IEncoderAPI::GetParameterRange","IEncoderAPIGetParameterRange","mstv.iencoderapi_getparameterrange","strmif/IEncoderAPI::GetParameterRange"]
 old-location: mstv\iencoderapi_getparameterrange.htm
 tech.root: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7

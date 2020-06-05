@@ -1,7 +1,7 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishAddToStream
 title: PeerDistServerPublishAddToStream function (peerdist.h)
-description: PeerDistServerPublishAddToStream function adds data to the publishing stream.
+description: PeerDistServerPublishAddToStream function adds data to the publishing stream.helpviewer_keywords: ["PeerDistServerPublishAddToStream","PeerDistServerPublishAddToStream function [Peer Networking]","p2p.peerdistserverpublishaddtostream","peerdist/PeerDistServerPublishAddToStream"]
 old-location: p2p\peerdistserverpublishaddtostream.htm
 tech.root: P2PSdk
 ms.assetid: 296e21b9-9488-408a-b470-bbde1a18e6f0

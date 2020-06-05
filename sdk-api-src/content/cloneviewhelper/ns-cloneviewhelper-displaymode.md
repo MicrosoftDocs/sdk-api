@@ -2,6 +2,7 @@
 UID: NS:cloneviewhelper.tagDisplayMode
 title: DisplayMode (cloneviewhelper.h)
 description: The DisplayMode structure describes a display device.
+helpviewer_keywords: ["DisplayMode","DisplayMode structure [Display Devices]","TMM_Ref_37fe6fb5-e095-4bc7-8d92-a4d305bbadcb.xml","cloneviewhelper/DisplayMode","display.displaymode"]
 old-location: display\displaymode.htm
 tech.root: display
 ms.assetid: dc189bb6-e2c4-422c-8350-4c1632439478
@@ -64,7 +65,7 @@ A single wide-character string that contains the name of the display device.
 
 ### -field devMode
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains characteristics of the display device. 
+A <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains characteristics of the display device. 
 
 
 ## -see-also
@@ -72,7 +73,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmode
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

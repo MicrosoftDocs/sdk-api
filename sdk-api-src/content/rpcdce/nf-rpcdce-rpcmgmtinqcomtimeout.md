@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqComTimeout
 title: RpcMgmtInqComTimeout function (rpcdce.h)
-description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.
+description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.helpviewer_keywords: ["RpcMgmtInqComTimeout","RpcMgmtInqComTimeout function [RPC]","_rpc_rpcmgmtinqcomtimeout","rpc.rpcmgmtinqcomtimeout","rpcdce/RpcMgmtInqComTimeout"]
 old-location: rpc\rpcmgmtinqcomtimeout.htm
 tech.root: Rpc
 ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a

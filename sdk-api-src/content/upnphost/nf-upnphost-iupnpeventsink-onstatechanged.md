@@ -1,7 +1,7 @@
 ---
 UID: NF:upnphost.IUPnPEventSink.OnStateChanged
 title: IUPnPEventSink::OnStateChanged (upnphost.h)
-description: The OnStateChanged method sends an event to the device host with the list of DISPIDs of the state variables that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
+description: The OnStateChanged method sends an event to the device host with the list of DISPIDs of the state variables that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.helpviewer_keywords: ["IUPnPEventSink interface [UPnP APIs]","OnStateChanged method","IUPnPEventSink.OnStateChanged","IUPnPEventSink::OnStateChanged","OnStateChanged","OnStateChanged method [UPnP APIs]","OnStateChanged method [UPnP APIs]","IUPnPEventSink interface","_upnp_iupnpeventsink_onstatechanged","upnp.iupnpeventsink_onstatechanged","upnphost/IUPnPEventSink::OnStateChanged"]
 old-location: upnp\iupnpeventsink_onstatechanged.htm
 tech.root: upnp
 ms.assetid: bb87345e-6a61-48fd-94dc-9a90f756a586

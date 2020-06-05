@@ -1,7 +1,7 @@
 ---
 UID: NE:searchapi._PROXY_ACCESS
 title: PROXY_ACCESS (searchapi.h)
-description: Used by ISearchManager to state proxy use.
+description: Used by ISearchManager to state proxy use.helpviewer_keywords: ["PROXY_ACCESS","PROXY_ACCESS enumeration [search]","PROXY_ACCESS_DIRECT","PROXY_ACCESS_PRECONFIG","PROXY_ACCESS_PROXY","_search_PROXY_ACCESS","search._search_PROXY_ACCESS","searchapi/PROXY_ACCESS","searchapi/PROXY_ACCESS_DIRECT","searchapi/PROXY_ACCESS_PRECONFIG","searchapi/PROXY_ACCESS_PROXY"]
 old-location: search\_search_PROXY_ACCESS.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\proxy_access.htm

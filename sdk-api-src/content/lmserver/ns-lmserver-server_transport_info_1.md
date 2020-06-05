@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_TRANSPORT_INFO_1
 title: SERVER_TRANSPORT_INFO_1 (lmserver.h)
-description: The SERVER_TRANSPORT_INFO_1 structure contains information about the specified transport protocol, including name and address. This information level is valid only for the NetServerTransportAddEx function.
+description: The SERVER_TRANSPORT_INFO_1 structure contains information about the specified transport protocol, including name and address. This information level is valid only for the NetServerTransportAddEx function.helpviewer_keywords: ["*LPSERVER_TRANSPORT_INFO_1","*PSERVER_TRANSPORT_INFO_1","LPSERVER_TRANSPORT_INFO_1","LPSERVER_TRANSPORT_INFO_1 structure pointer [Network Management]","PSERVER_TRANSPORT_INFO_1","PSERVER_TRANSPORT_INFO_1 structure pointer [Network Management]","SERVER_TRANSPORT_INFO_1","SERVER_TRANSPORT_INFO_1 structure [Network Management]","_win32_server_transport_info_1_str","lmserver/LPSERVER_TRANSPORT_INFO_1","lmserver/PSERVER_TRANSPORT_INFO_1","lmserver/SERVER_TRANSPORT_INFO_1","netmgmt.server_transport_info_1_str"]
 old-location: netmgmt\server_transport_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: f21fed49-207a-4f64-becd-3d3c1e995eb0

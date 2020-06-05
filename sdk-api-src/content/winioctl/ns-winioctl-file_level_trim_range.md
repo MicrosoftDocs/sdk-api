@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM_RANGE
 title: FILE_LEVEL_TRIM_RANGE
-description: Specifies a range of a file that is to be trimmed.
+description: Specifies a range of a file that is to be trimmed.helpviewer_keywords: ["*PFILE_LEVEL_TRIM_RANGE","FILE_LEVEL_TRIM_RANGE","FILE_LEVEL_TRIM_RANGE structure [Files]","PFILE_LEVEL_TRIM_RANGE","PFILE_LEVEL_TRIM_RANGE structure pointer [Files]","fs.file_level_trim_range","winioctl/FILE_LEVEL_TRIM_RANGE","winioctl/PFILE_LEVEL_TRIM_RANGE"]
 old-location: fs\file_level_trim_range.htm
 tech.root: FileIO
 ms.assetid: 2ee14239-68bb-40f6-b10b-2500d316dcc8

@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGradientStop
 title: IXpsOMObjectFactory::CreateGradientStop (xpsobjectmodel.h)
 description: Creates an IXpsOMGradientStop interface to represent a single color and location definition within a gradient.
+helpviewer_keywords: ["CreateGradientStop","CreateGradientStop method [XPS Documents and Packaging]","CreateGradientStop method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateGradientStop method","IXpsOMObjectFactory.CreateGradientStop","IXpsOMObjectFactory::CreateGradientStop","xps.ixpsomobjectfactory_creategradientstop","xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop"]
 old-location: xps\ixpsomobjectfactory_creategradientstop.htm
 tech.root: printdocs
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052
@@ -64,7 +65,7 @@ The color value.
 
 ### -param colorProfile [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
 
 
 ### -param offset [in]
@@ -132,7 +133,7 @@ The value in <i>offset</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> but a color profile is expected. A color profile is required when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> but a color profile is expected. A color profile is required when the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -154,7 +155,7 @@ The value in <i>offset</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> contains a color profile but one is not expected. A color profile is only allowed when the color type is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> contains a color profile but one is not expected. A color profile is only allowed when the color type is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_type">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>

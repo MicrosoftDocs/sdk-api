@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.EndBufferedPaint
 title: EndBufferedPaint function (uxtheme.h)
-description: Completes a buffered paint operation and frees the associated buffered paint handle.
+description: Completes a buffered paint operation and frees the associated buffered paint handle.helpviewer_keywords: ["EndBufferedPaint","EndBufferedPaint function [Windows Controls]","_shell_EndBufferedPaint","_shell_EndBufferedPaint_cpp","controls.EndBufferedPaint","controls._shell_EndBufferedPaint","uxtheme/EndBufferedPaint"]
 old-location: controls\EndBufferedPaint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm

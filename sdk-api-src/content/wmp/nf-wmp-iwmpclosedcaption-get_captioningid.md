@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_captioningId
 title: IWMPClosedCaption::get_captioningId (wmp.h)
-description: The get_captioningId method retrieves the name of the element displaying the captioning.
+description: The get_captioningId method retrieves the name of the element displaying the captioning.helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","get_captioningId method","IWMPClosedCaption.get_captioningId","IWMPClosedCaption::get_captioningId","IWMPClosedCaptionget_captioningId","get_captioningId","get_captioningId method [Windows Media Player]","get_captioningId method [Windows Media Player]","IWMPClosedCaption interface","wmp.iwmpclosedcaption_get_captioningid","wmp/IWMPClosedCaption::get_captioningId"]
 old-location: wmp\iwmpclosedcaption_get_captioningid.htm
 tech.root: WMP
 ms.assetid: c6aa1710-9686-439b-b098-7a3e5da532ee

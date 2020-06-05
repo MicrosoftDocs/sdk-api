@@ -2,12 +2,12 @@
 UID: NF:oleauto.SafeArrayPtrOfIndex
 title: SafeArrayPtrOfIndex function (oleauto.h)
 description: Gets a pointer to an array element.
+helpviewer_keywords: ["SafeArrayPtrOfIndex","SafeArrayPtrOfIndex function [Automation]","_oa96_SafeArrayPtrOfIndex","automat.safearrayptrofindex","oleauto/SafeArrayPtrOfIndex"]
 old-location: automat\safearrayptrofindex.htm
 tech.root: automat
 ms.assetid: a73cfd50-89b5-4025-817c-e6c06cc0b300
 ms.date: 12/05/2018
 ms.keywords: SafeArrayPtrOfIndex, SafeArrayPtrOfIndex function [Automation], _oa96_SafeArrayPtrOfIndex, automat.safearrayptrofindex, oleauto/SafeArrayPtrOfIndex
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayPtrOfIndex
 dev_langs:

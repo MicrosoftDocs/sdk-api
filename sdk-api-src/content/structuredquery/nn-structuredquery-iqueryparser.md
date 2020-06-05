@@ -2,6 +2,7 @@
 UID: NN:structuredquery.IQueryParser
 title: IQueryParser (structuredquery.h)
 description: Provides methods to parse an input string into an IQuerySolution object.
+helpviewer_keywords: ["IQueryParser","IQueryParser interface [search]","IQueryParser interface [search]","described","_search_IQueryParser","search._search_IQueryParser","structuredquery/IQueryParser"]
 old-location: search\_search_IQueryParser.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
@@ -148,7 +149,7 @@ Sets a single option, such as a specified wordbreaker, for parsing an input stri
 
 
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 

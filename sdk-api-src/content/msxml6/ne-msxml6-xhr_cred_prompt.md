@@ -1,7 +1,7 @@
 ---
 UID: NE:msxml6._XHR_CRED_PROMPT
 title: XHR_CRED_PROMPT (msxml6.h)
-description: Specifies whether to allow credential prompts to the user for authentication.
+description: Specifies whether to allow credential prompts to the user for authentication.helpviewer_keywords: ["XHR_CRED_PROMPT","XHR_CRED_PROMPT enumeration [XMLHttpRequest2]","XHR_CRED_PROMPT_ALL","XHR_CRED_PROMPT_NONE","XHR_CRED_PROMPT_PROXY","ixhr2.xhr_cred_prompt","msxml6/XHR_CRED_PROMPT","msxml6/XHR_CRED_PROMPT_ALL","msxml6/XHR_CRED_PROMPT_NONE","msxml6/XHR_CRED_PROMPT_PROXY"]
 old-location: ixhr2\xhr_cred_prompt.htm
 tech.root: ixhr2
 ms.assetid: 01160bda-0d4c-46fc-92ba-82fe5808e665

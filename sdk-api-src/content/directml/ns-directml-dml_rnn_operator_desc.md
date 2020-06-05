@@ -2,6 +2,7 @@
 UID: NS:directml.DML_RNN_OPERATOR_DESC
 title: DML_RNN_OPERATOR_DESC
 description: Describes a DirectML deep learning operator that performs a one-layer simple recurrent neural network (RNN) function on the input.
+helpviewer_keywords: ["DML_RNN_OPERATOR_DESC","DML_RNN_OPERATOR_DESC structure","direct3d12.dml_rnn_operator_desc","directml/DML_RNN_OPERATOR_DESC"]
 old-location: direct3d12\dml_rnn_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: BF4C0C6F-E02E-4458-AE04-D192AD304512
@@ -43,12 +44,14 @@ req.redist:
 ms.custom: 19H1
 ---
 
+
 ## -description
 
 Describes a DirectML deep learning operator that performs a one-layer simple recurrent neural network (RNN) function on the input. This function is often referred to as the *Input Gate*. This operator performs this function multiple times in a loop, dictated by the sequence length dimension and the *SequenceLengthsTensor* argument.
 
 ### Equation for the forward direction
-```cpp
+
+```
 for (t = 0; t < seq_length; t++)
 {
     $H_t = f(X_t*W_i^T + H_{t-1} * R_i^T + W_{bi} + R_{bi})$
@@ -56,7 +59,8 @@ for (t = 0; t < seq_length; t++)
 ```
 
 ### Equation for the backward direction
-```cpp
+
+```
 for (t = seq_length - 1; t >= 0; t--)
 {
     $H_t = f(X_t*W_{Bi}^T + H_{t-1} * R_{Bi}^T + W_{Bbi} + R_{Bbi})$

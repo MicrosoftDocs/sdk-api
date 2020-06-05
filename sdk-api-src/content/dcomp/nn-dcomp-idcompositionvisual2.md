@@ -2,6 +2,7 @@
 UID: NN:dcomp.IDCompositionVisual2
 title: IDCompositionVisual2 (dcomp.h)
 description: Represents one DirectComposition visual in a visual tree.
+helpviewer_keywords: ["IDCompositionVisual2","IDCompositionVisual2 interface [DirectComposition]","IDCompositionVisual2 interface [DirectComposition]","described","dcomp/IDCompositionVisual2","directcomp.idcompositionvisual2"]
 old-location: directcomp\idcompositionvisual2.htm
 tech.root: directcomp
 ms.assetid: D4D04A43-BF00-482A-9CDD-A476BD1CB953
@@ -45,12 +46,9 @@ ms.custom: 19H1
 
 # IDCompositionVisual2 interface
 
-
 ## -description
 
-
 Represents one DirectComposition visual in a visual tree.
-
 
 ## -inheritance
 
@@ -87,26 +85,10 @@ Sets the opacity mode for this visual.
 </tr>
 </table> 
 
-
 ## -see-also
 
-
-
-
-<a href="https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-Backface-a2271f33">DirectComposition Backface and D2D Batching</a>
-
-
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DCompV2BackfaceandD2DBatching">DirectComposition Backface and D2D Batching</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createvisual">IDCompositionDevice2::CreateVisual</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-
-
-
-<b>Sample</b>
- 
-
- 
-

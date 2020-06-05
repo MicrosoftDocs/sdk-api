@@ -1,7 +1,7 @@
 ---
 UID: NF:objbase.StgOpenAsyncDocfileOnIFillLockBytes
 title: StgOpenAsyncDocfileOnIFillLockBytes function (objbase.h)
-description: Opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
+description: Opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.helpviewer_keywords: ["StgOpenAsyncDocfileOnIFillLockBytes","StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage]","_stg_stgopenasyncdocfileonifilllockbytes","objbase/StgOpenAsyncDocfileOnIFillLockBytes","stg.stgopenasyncdocfileonifilllockbytes"]
 old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
 tech.root: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7

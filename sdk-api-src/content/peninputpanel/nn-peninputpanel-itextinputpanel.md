@@ -2,6 +2,7 @@
 UID: NN:peninputpanel.ITextInputPanel
 title: ITextInputPanel (peninputpanel.h)
 description: Provides control of appearance and behavior of the Tablet PC Input Panel.
+helpviewer_keywords: ["1e719900-db58-430d-9059-efb3f884f6f0","ITextInputPanel","ITextInputPanel interface [Tablet PC]","ITextInputPanel interface [Tablet PC]","described","peninputpanel/ITextInputPanel","tablet.itextinputpanel"]
 old-location: tablet\itextinputpanel.htm
 tech.root: tablet
 ms.assetid: 1e719900-db58-430d-9059-efb3f884f6f0
@@ -158,7 +159,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the current correction comb mode as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
+Gets the current correction comb mode as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
 
 </td>
 </tr>
@@ -174,7 +175,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the current in-place state as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
+Gets the current in-place state as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 </td>
 </tr>
@@ -190,7 +191,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the current input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+Gets the current input area as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 </td>
 </tr>
@@ -206,7 +207,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the positioning of the Tablet PC Input Panel as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode Enumeration</a>.
+Gets the positioning of the Tablet PC Input Panel as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode Enumeration</a>.
 
 </td>
 </tr>
@@ -222,7 +223,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the default in-place state as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
+Gets or sets the default in-place state as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>.
 
 </td>
 </tr>
@@ -238,7 +239,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the default input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+Gets or sets the default input area as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 </td>
 </tr>

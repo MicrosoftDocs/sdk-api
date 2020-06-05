@@ -1,7 +1,7 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1552
 title: SERVER_INFO_1552 (lmserver.h)
-description: The SERVER_INFO_1552 structure specifies the maximum time allowed for a link delay.
+description: The SERVER_INFO_1552 structure specifies the maximum time allowed for a link delay.helpviewer_keywords: ["*LPSERVER_INFO_1552","*PSERVER_INFO_1552","LPSERVER_INFO_1552","LPSERVER_INFO_1552 structure pointer [Network Management]","PSERVER_INFO_1552","PSERVER_INFO_1552 structure pointer [Network Management]","SERVER_INFO_1552","SERVER_INFO_1552 structure [Network Management]","_win32_server_info_1552_str","lmserver/LPSERVER_INFO_1552","lmserver/PSERVER_INFO_1552","lmserver/SERVER_INFO_1552","netmgmt.server_info_1552_str"]
 old-location: netmgmt\server_info_1552_str.htm
 tech.root: NetMgmt
 ms.assetid: eb725f37-4bcd-4402-968f-ea6d58d7d79a

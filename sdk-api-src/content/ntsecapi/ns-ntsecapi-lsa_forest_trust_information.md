@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_INFORMATION
 title: LSA_FOREST_TRUST_INFORMATION (ntsecapi.h)
-description: Contains Local Security Authority forest trust information.
+description: Contains Local Security Authority forest trust information.helpviewer_keywords: ["*PLSA_FOREST_TRUST_INFORMATION","LSA_FOREST_TRUST_INFORMATION","LSA_FOREST_TRUST_INFORMATION structure [Security]","PLSA_FOREST_TRUST_INFORMATION","PLSA_FOREST_TRUST_INFORMATION structure pointer [Security]","_LSA_FOREST_TRUST_INFORMATION","ntsecapi/LSA_FOREST_TRUST_INFORMATION","ntsecapi/PLSA_FOREST_TRUST_INFORMATION","security.lsa_forest_trust_information"]
 old-location: security\lsa_forest_trust_information.htm
 tech.root: SecAuthN
 ms.assetid: 9e456462-59a9-4f18-ba47-92fc2350889b

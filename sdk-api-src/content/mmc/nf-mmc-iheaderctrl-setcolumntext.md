@@ -1,7 +1,7 @@
 ---
 UID: NF:mmc.IHeaderCtrl.SetColumnText
 title: IHeaderCtrl::SetColumnText (mmc.h)
-description: Sets the text of the title in a specific column.
+description: Sets the text of the title in a specific column.helpviewer_keywords: ["IHeaderCtrl interface [MMC]","SetColumnText method","IHeaderCtrl.SetColumnText","IHeaderCtrl::SetColumnText","SetColumnText","SetColumnText method [MMC]","SetColumnText method [MMC]","IHeaderCtrl interface","mmc.iheaderctrl_setcolumntext","mmc/IHeaderCtrl::SetColumnText"]
 old-location: mmc\iheaderctrl_setcolumntext.htm
 tech.root: mmc
 ms.assetid: B760D7E1-DE2D-4E1A-898C-5EC1E99E9B91

@@ -1,7 +1,7 @@
 ---
 UID: NE:filter.tagCHUNKSTATE
 title: CHUNKSTATE (filter.h)
-description: Specifies whether the current chunk is a text-type property or a value-type property.
+description: Specifies whether the current chunk is a text-type property or a value-type property.helpviewer_keywords: ["CHUNKSTATE","CHUNKSTATE enumeration [Indexing Service]","CHUNK_FILTER_OWNED_VALUE","CHUNK_TEXT","CHUNK_VALUE","_idxs_CHUNKSTATE","filter/CHUNKSTATE","filter/CHUNK_FILTER_OWNED_VALUE","filter/CHUNK_TEXT","filter/CHUNK_VALUE","indexsrv.chunkstate","tagCHUNKSTATE"]
 old-location: indexsrv\chunkstate.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6mat.htm

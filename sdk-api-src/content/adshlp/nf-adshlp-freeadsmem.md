@@ -1,7 +1,7 @@
 ---
 UID: NF:adshlp.FreeADsMem
 title: FreeADsMem function (adshlp.h)
-description: Frees the memory allocated by AllocADsMem or ReallocADsMem.
+description: Frees the memory allocated by AllocADsMem or ReallocADsMem.helpviewer_keywords: ["FreeADsMem","FreeADsMem function [ADSI]","_ds_freeadsmem","adshlp/FreeADsMem","adsi.freeadsmem"]
 old-location: adsi\freeadsmem.htm
 tech.root: adsi
 ms.assetid: e43f050a-5b96-406e-87ed-88a39ea747da

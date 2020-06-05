@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.GetTime
 title: IMFPresentationClock::GetTime (mfidl.h)
-description: Retrieves the latest clock time.
+description: Retrieves the latest clock time.helpviewer_keywords: ["31037b75-9fa5-48e0-a58c-a451b445147f","GetTime","GetTime method [Media Foundation]","GetTime method [Media Foundation]","IMFPresentationClock interface","IMFPresentationClock interface [Media Foundation]","GetTime method","IMFPresentationClock.GetTime","IMFPresentationClock::GetTime","mf.imfpresentationclock_gettime","mfidl/IMFPresentationClock::GetTime"]
 old-location: mf\imfpresentationclock_gettime.htm
 tech.root: medfound
 ms.assetid: 31037b75-9fa5-48e0-a58c-a451b445147f

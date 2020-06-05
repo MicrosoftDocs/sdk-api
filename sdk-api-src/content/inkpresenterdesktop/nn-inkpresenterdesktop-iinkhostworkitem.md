@@ -2,6 +2,7 @@
 UID: NN:inkpresenterdesktop.IInkHostWorkItem
 title: IInkHostWorkItem (inkpresenterdesktop.h)
 description: An IInkHostWorkItem object represents an ink operation to be executed on an IInkDesktopHost object thread.
+helpviewer_keywords: ["IInkHostWorkItem","IInkHostWorkItem interface","IInkHostWorkItem interface","described","InkPresenterDesktop.iinkhostworkitem","inkpresenterdesktop/IInkHostWorkItem","input_ink.iinkhostworkitem"]
 old-location: input_ink\iinkhostworkitem.htm
 tech.root: input_ink
 ms.assetid: 812026bf-74d0-49c2-851c-de64a6417bff
@@ -65,7 +66,7 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

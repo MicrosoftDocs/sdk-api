@@ -2,6 +2,7 @@
 UID: NF:winstring.WindowsGetStringLen
 title: WindowsGetStringLen function (winstring.h)
 description: Gets the length, in Unicode characters, of the specified string.
+helpviewer_keywords: ["WindowsGetStringLen","WindowsGetStringLen function [Windows Runtime]","winrt.windowsgetstringlen","winstring/WindowsGetStringLen"]
 old-location: winrt\windowsgetstringlen.htm
 tech.root: WinRT
 ms.assetid: 80B659DF-C760-4D9E-B779-144A5B8FEA59
@@ -46,34 +47,20 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsGetStringLen function
-
-
 ## -description
-
 
 Gets the length, in Unicode characters, of the specified string.
 
-
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string whose length is to be found.
 
-
 ## -returns
-
-
 
 Type: <b>UINT32</b>
 
 The number of Unicode characters in <i>string</i>, including embedded null characters, but excluding the terminating null; or 0 if <i>string</i> is <b>NULL</b>.
-
-
-

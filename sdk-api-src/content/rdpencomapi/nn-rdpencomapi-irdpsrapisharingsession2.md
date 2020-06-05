@@ -2,6 +2,7 @@
 UID: NN:rdpencomapi.IRDPSRAPISharingSession2
 title: IRDPSRAPISharingSession2 (rdpencomapi.h)
 description: The main object that an application must create to start a collaboration session.
+helpviewer_keywords: ["IRDPSRAPISharingSession2","IRDPSRAPISharingSession2 interface [RDP]","IRDPSRAPISharingSession2 interface [RDP]","described","rdp.irdpsrapisharingsession2","rdpencomapi/IRDPSRAPISharingSession2"]
 old-location: rdp\irdpsrapisharingsession2.htm
 tech.root: rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
@@ -56,7 +57,7 @@ The main object that an application must create  to start a collaboration sessio
 
 This interface uses the  single-threaded apartment (STA) threading model. The object exposes a source interface 
     that is used for firing session-specific events 
-    (<a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used 
+    (<a href="/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used 
     for managing a session.
 
 This interface extends the 

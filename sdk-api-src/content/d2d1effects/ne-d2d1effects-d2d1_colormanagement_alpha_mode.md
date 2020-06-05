@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_ALPHA_MODE
 title: D2D1_COLORMANAGEMENT_ALPHA_MODE (d2d1effects.h)
-description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
+description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.helpviewer_keywords: ["D2D1_COLORMANAGEMENT_ALPHA_MODE","D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration [Direct2D]","D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED","D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT","d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE","d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED","d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT","direct2d.d2d1_colormanagement_alpha_mode"]
 old-location: direct2d\d2d1_colormanagement_alpha_mode.htm
 tech.root: Direct2D
 ms.assetid: CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE

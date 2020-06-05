@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE
 title: WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE (webservices.h)
-description: Username/password security template information to be filled in by application. Associated with WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE_TYPE.
+description: Username/password security template information to be filled in by application. Associated with WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE_TYPE.helpviewer_keywords: ["WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE","WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE","wsw.ws_http_ssl_username_binding_template"]
 old-location: wsw\ws_http_ssl_username_binding_template.htm
 tech.root: wsw
 ms.assetid: df8d66bf-4407-4316-bc15-214b3b00de41

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(const uint8_t,bool)
 title: XMU555::XMU555(const uint8_t,bool) (directxpackedvector.h)
-description: Initializes a new instance of XMU555 from a three element int8_t array and one bool argument.
+description: Initializes a new instance of XMU555 from a three element int8_t array and one bool argument.helpviewer_keywords: ["XMU555","XMU555 constructor [DirectX Math Support APIs]","XMU555 constructor [DirectX Math Support APIs]","XMU555 structure","XMU555 structure [DirectX Math Support APIs]","XMU555 constructor","XMU555.XMU555","XMU555.XMU555()","XMU555.XMU555(const uint8_t","bool)","XMU555::XMU555","XMU555::XMU555(const uint8_t","bool)","dxmath.xmu555_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 6b7e7e6c-93af-4990-9ff9-2b072e88b48b

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTabStops
 title: StringFormat::GetTabStops (gdiplusstringformat.h)
-description: The StringFormat::GetTabStops method gets the offsets of the tab stops in this StringFormat object.
+description: The StringFormat::GetTabStops method gets the offsets of the tab stops in this StringFormat object.helpviewer_keywords: ["GetTabStops","GetTabStops method [GDI+]","GetTabStops method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetTabStops method","StringFormat.GetTabStops","StringFormat::GetTabStops","_gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_","gdiplus._gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstops.htm

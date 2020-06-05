@@ -1,7 +1,7 @@
 ---
 UID: NE:wincodec.WICBitmapLockFlags
 title: WICBitmapLockFlags (wincodec.h)
-description: Specifies access to an IWICBitmap.
+description: Specifies access to an IWICBitmap.helpviewer_keywords: ["WICBitmapLockFlags","WICBitmapLockFlags enumeration [Windows Imaging Component]","WICBitmapLockRead","WICBitmapLockWrite","_wic_codec_wicbitmaplockflags","wic._wic_codec_wicbitmaplockflags","wincodec/WICBitmapLockFlags","wincodec/WICBitmapLockRead","wincodec/WICBitmapLockWrite"]
 old-location: wic\_wic_codec_wicbitmaplockflags.htm
 tech.root: wic
 ms.assetid: d4d1bb38-3d1a-4e1e-a889-0491f3c01822

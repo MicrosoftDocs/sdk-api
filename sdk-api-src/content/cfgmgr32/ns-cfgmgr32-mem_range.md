@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.Mem_Range_s
 title: MEM_RANGE (cfgmgr32.h)
 description: The MEM_RANGE structure specifies a resource requirements list that describes memory usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PMEM_RANGE","MEM_RANGE","MEM_RANGE structure [Device and Driver Installation]","PMEM_RANGE","PMEM_RANGE structure pointer [Device and Driver Installation]","cfgmgr32/MEM_RANGE","cfgmgr32/PMEM_RANGE","cfgmgrst_f2ac1f4b-c29b-41fd-bacb-e7a8f4bc6f45.xml","devinst.mem_range"]
 old-location: devinst\mem_range.htm
 tech.root: devinst
 ms.assetid: a31ae199-8f4a-4d1f-891c-f1dc11a4edde
@@ -79,7 +80,7 @@ The highest-numbered of a range of contiguous memory addresses that can be alloc
 
 ### -field MR_Flags
 
-One bit flag from [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)a> structure.
+One bit flag from [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) structure.
 
 
 ### -field MR_Reserved
@@ -92,7 +93,7 @@ One bit flag from [MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmg
 
 
 
-[MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)a>
+[MEM_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetSharedModeEnginePeriod
 title: IAudioClient3::GetSharedModeEnginePeriod (audioclient.h)
-description: Returns the range of periodicities supported by the engine for the specified stream format.
+description: Returns the range of periodicities supported by the engine for the specified stream format.helpviewer_keywords: ["GetSharedModeEnginePeriod","GetSharedModeEnginePeriod method [Core Audio]","GetSharedModeEnginePeriod method [Core Audio]","IAudioClient3 interface","IAudioClient3 interface [Core Audio]","GetSharedModeEnginePeriod method","IAudioClient3.GetSharedModeEnginePeriod","IAudioClient3::GetSharedModeEnginePeriod","audioclient/IAudioClient3::GetSharedModeEnginePeriod","coreaudio.iaudioclient3_getsharedmodeengineperiod"]
 old-location: coreaudio\iaudioclient3_getsharedmodeengineperiod.htm
 tech.root: CoreAudio
 ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D

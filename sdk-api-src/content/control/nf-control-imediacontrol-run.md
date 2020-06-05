@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IMediaControl.Run
 title: IMediaControl::Run (control.h)
-description: The Run method runs all the filters in the filter graph. While the graph is running, data moves through the graph and is rendered.
+description: The Run method runs all the filters in the filter graph. While the graph is running, data moves through the graph and is rendered.helpviewer_keywords: ["IMediaControl interface [DirectShow]","Run method","IMediaControl.Run","IMediaControl::Run","IMediaControlRun","Run","Run method [DirectShow]","Run method [DirectShow]","IMediaControl interface","control/IMediaControl::Run","dshow.imediacontrol_run"]
 old-location: dshow\imediacontrol_run.htm
 tech.root: DirectShow
 ms.assetid: b52a5fa7-96f8-4949-9cf0-2d526f23bee1

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryConnect
 title: IWMPEvents3::LibraryConnect (wmp.h)
-description: The LibraryConnect event occurs when a library becomes available.
+description: The LibraryConnect event occurs when a library becomes available.helpviewer_keywords: ["IWMPEvents3 interface [Windows Media Player]","LibraryConnect method","IWMPEvents3.LibraryConnect","IWMPEvents3::LibraryConnect","IWMPEvents3LibraryConnect","LibraryConnect","LibraryConnect method [Windows Media Player]","LibraryConnect method [Windows Media Player]","IWMPEvents3 interface","wmp.iwmpevents3_iwmpevents3__libraryconnect","wmp/IWMPEvents3::LibraryConnect"]
 old-location: wmp\iwmpevents3_iwmpevents3__libraryconnect.htm
 tech.root: WMP
 ms.assetid: b9e1feb7-c894-4f37-9756-378740637f6e

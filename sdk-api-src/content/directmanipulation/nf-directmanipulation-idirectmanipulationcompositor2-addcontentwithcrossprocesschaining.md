@@ -1,7 +1,7 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 title: IDirectManipulationCompositor2::AddContentWithCrossProcessChaining (directmanipulation.h)
-description: Associates content (owned by the component host) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
+description: Associates content (owned by the component host) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.helpviewer_keywords: ["AddContentWithCrossProcessChaining","AddContentWithCrossProcessChaining method [Direct Manipulation]","AddContentWithCrossProcessChaining method [Direct Manipulation]","IDirectManipulationCompositor2 interface","IDirectManipulationCompositor2 interface [Direct Manipulation]","AddContentWithCrossProcessChaining method","IDirectManipulationCompositor2.AddContentWithCrossProcessChaining","IDirectManipulationCompositor2::AddContentWithCrossProcessChaining","directmanipulation.idirectmanipulationcompositor2_addcontentwithcrossprocesschaining","directmanipulation/IDirectManipulationCompositor2::AddContentWithCrossProcessChaining"]
 old-location: directmanipulation\idirectmanipulationcompositor2_addcontentwithcrossprocesschaining.htm
 tech.root: directmanipulation
 ms.assetid: dd6052df-30b5-4872-89a7-b98126fcd44d

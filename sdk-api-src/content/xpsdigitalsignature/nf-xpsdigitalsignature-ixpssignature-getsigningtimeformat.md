@@ -2,6 +2,7 @@
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSigningTimeFormat
 title: IXpsSignature::GetSigningTimeFormat (xpsdigitalsignature.h)
 description: Gets the format of the signing time.
+helpviewer_keywords: ["GetSigningTimeFormat","GetSigningTimeFormat method [XPS Documents and Packaging]","GetSigningTimeFormat method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetSigningTimeFormat method","IXpsSignature.GetSigningTimeFormat","IXpsSignature::GetSigningTimeFormat","xps.ixpssignature_getsigningtimeformat","xpsdigitalsignature/IXpsSignature::GetSigningTimeFormat"]
 old-location: xps\ixpssignature_getsigningtimeformat.htm
 tech.root: printdocs
 ms.assetid: a75df35c-dd12-4217-a6f8-91401be46225
@@ -59,7 +60,7 @@ Gets the format of the signing time.
 
 ### -param timeFormat [out, retval]
 
-The value of <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> that describes the format of the signing time.
+The value of <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a> that describes the format of the signing time.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The interface is not connected to the signature manager.
 
 
 
-For more information about the  format of the date-time string that is returned  in <i>timeFormat</i>, see <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>.
+For more information about the  format of the date-time string that is returned  in <i>timeFormat</i>, see <a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>.
 
 
 
@@ -127,7 +128,7 @@ For more information about the  format of the date-time string that is returned 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_signature_time_format">OPC_SIGNATURE_TIME_FORMAT</a>
 
 
 

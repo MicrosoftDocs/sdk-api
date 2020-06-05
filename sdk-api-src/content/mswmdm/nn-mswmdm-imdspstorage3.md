@@ -1,7 +1,7 @@
 ---
 UID: NN:mswmdm.IMDSPStorage3
 title: IMDSPStorage3 (mswmdm.h)
-description: The IMDSPStorage3 interface extends IMDSPStorage2 by supporting metadata.
+description: The IMDSPStorage3 interface extends IMDSPStorage2 by supporting metadata.helpviewer_keywords: ["IMDSPStorage3","IMDSPStorage3 interface [windows Media Device Manager]","IMDSPStorage3 interface [windows Media Device Manager]","described","IMDSPStorage3Interface","mswmdm/IMDSPStorage3","wmdm.imdspstorage3"]
 old-location: wmdm\imdspstorage3.htm
 tech.root: WMDM
 ms.assetid: 5ff674a1-a0b9-43b6-b8b7-9a5c67b3f919

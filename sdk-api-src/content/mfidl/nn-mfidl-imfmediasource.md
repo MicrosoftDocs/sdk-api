@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFMediaSource
 title: IMFMediaSource (mfidl.h)
-description: Implemented by media source objects.
+description: Implemented by media source objects.helpviewer_keywords: ["8b579f61-6fea-4b20-a051-7633fc01fa05","IMFMediaSource","IMFMediaSource interface [Media Foundation]","IMFMediaSource interface [Media Foundation]","described","mf.imfmediasource","mfidl/IMFMediaSource"]
 old-location: mf\imfmediasource.htm
 tech.root: medfound
 ms.assetid: 8b579f61-6fea-4b20-a051-7633fc01fa05

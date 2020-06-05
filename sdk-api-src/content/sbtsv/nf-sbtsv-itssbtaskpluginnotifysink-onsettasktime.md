@@ -2,6 +2,7 @@
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnSetTaskTime
 title: ITsSbTaskPluginNotifySink::OnSetTaskTime (sbtsv.h)
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been scheduled.
+helpviewer_keywords: ["ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","OnSetTaskTime method","ITsSbTaskPluginNotifySink.OnSetTaskTime","ITsSbTaskPluginNotifySink::OnSetTaskTime","OnSetTaskTime","OnSetTaskTime method [Remote Desktop Services]","OnSetTaskTime method [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface","sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime","termserv.itssbtaskpluginnotifysink_onsettasktime"]
 old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm
 tech.root: TermServ
 ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
@@ -94,7 +95,7 @@ The display name of the task agent.
 
 ### -param dwTaskStatus [in]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-rdv_task_status">RDV_TASK_STATUS</a> enumeration value  that represents the state of the task.
+An <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-rdv_task_status">RDV_TASK_STATUS</a> enumeration value  that represents the state of the task.
 
 
 ### -param saContext [in]

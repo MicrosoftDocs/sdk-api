@@ -1,7 +1,7 @@
 ---
 UID: NS:winioctl._TXFS_SAVEPOINT_INFORMATION
 title: TXFS_SAVEPOINT_INFORMATION
-description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.
+description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.helpviewer_keywords: ["*PTXFS_SAVEPOINT_INFORMATION","PTXFS_SAVEPOINT_INFORMATION","PTXFS_SAVEPOINT_INFORMATION structure pointer [Files]","TXFS_SAVEPOINT_CLEAR","TXFS_SAVEPOINT_CLEAR_ALL","TXFS_SAVEPOINT_INFORMATION","TXFS_SAVEPOINT_INFORMATION structure [Files]","TXFS_SAVEPOINT_ROLLBACK","TXFS_SAVEPOINT_SET","fs.txfs_savepoint_information","winioctl/PTXFS_SAVEPOINT_INFORMATION","winioctl/TXFS_SAVEPOINT_INFORMATION"]
 old-location: fs\txfs_savepoint_information.htm
 tech.root: FileIO
 ms.assetid: 4ea6d069-832a-4771-8cc0-fd75e82c94b5

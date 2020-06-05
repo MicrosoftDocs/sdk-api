@@ -1,7 +1,7 @@
 ---
 UID: NE:fsrmenums._AdrClientFlags
 title: AdrClientFlags (fsrmenums.h)
-description: Enumerates flags for indicating why an access denied remediation (ADR) client operation could not be performed.
+description: Enumerates flags for indicating why an access denied remediation (ADR) client operation could not be performed.helpviewer_keywords: ["AdrClientFlags","AdrClientFlags enumeration [File Server Resource Manager]","AdrClientFlags_FailForLocalPaths","AdrClientFlags_FailIfNotDomainJoined","AdrClientFlags_FailIfNotSupportedByServer","AdrClientFlags_None","fs.adrclientflags","fsrm.adrclientflags","fsrmenums/AdrClientFlags","fsrmenums/AdrClientFlags_FailForLocalPaths","fsrmenums/AdrClientFlags_FailIfNotDomainJoined","fsrmenums/AdrClientFlags_FailIfNotSupportedByServer","fsrmenums/AdrClientFlags_None"]
 old-location: fsrm\adrclientflags.htm
 tech.root: fsrm
 ms.assetid: 8475e157-8757-4ace-909b-2e9030af6ad7

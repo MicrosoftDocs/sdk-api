@@ -1,7 +1,7 @@
 ---
 UID: NN:xenroll.IEnroll
 title: IEnroll (xenroll.h)
-description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
+description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.helpviewer_keywords: ["IEnroll","IEnroll interface [Security]","IEnroll interface [Security]","described","security.ienroll","xenroll/IEnroll"]
 old-location: security\ienroll.htm
 tech.root: SecCrypto
 ms.assetid: 5be210b8-475a-4504-9cc0-5b02384e114e

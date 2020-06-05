@@ -2,6 +2,7 @@
 UID: NF:strmif.IDvdControl2.ShowMenu
 title: IDvdControl2::ShowMenu (strmif.h)
 description: The ShowMenu method displays the specified menu, if available.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","ShowMenu method","IDvdControl2.ShowMenu","IDvdControl2::ShowMenu","IDvdControl2ShowMenu","ShowMenu","ShowMenu method [DirectShow]","ShowMenu method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_showmenu","strmif/IDvdControl2::ShowMenu"]
 old-location: dshow\idvdcontrol2_showmenu.htm
 tech.root: DirectShow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
@@ -63,17 +64,17 @@ The <code>ShowMenu</code> method displays the specified menu, if available.
 
 ### -param MenuID [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
+A <a href="/windows/win32/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
 
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
+Bitwise OR of one or more flags from the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 
 ### -param ppCmd [out]
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
+Receives a pointer to an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
 
 ## -returns
@@ -180,19 +181,19 @@ The following table shows the Annex J command name to which this method name cor
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
+<a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
  
 
  

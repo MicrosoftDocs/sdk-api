@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.GetClosestSize
 title: IWICBitmapSourceTransform::GetClosestSize (wincodec.h)
-description: Returns the closest dimensions the implementation can natively scale to given the desired dimensions.
+description: Returns the closest dimensions the implementation can natively scale to given the desired dimensions.helpviewer_keywords: ["GetClosestSize","GetClosestSize method [Windows Imaging Component]","GetClosestSize method [Windows Imaging Component]","IWICBitmapSourceTransform interface","IWICBitmapSourceTransform interface [Windows Imaging Component]","GetClosestSize method","IWICBitmapSourceTransform.GetClosestSize","IWICBitmapSourceTransform::GetClosestSize","_wic_codec_iwicbitmapsourcetransform_getclosestsize","wic._wic_codec_iwicbitmapsourcetransform_getclosestsize","wincodec/IWICBitmapSourceTransform::GetClosestSize"]
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_getclosestsize.htm
 tech.root: wic
 ms.assetid: 0eae79dc-d636-4449-ba90-0f296b71573a

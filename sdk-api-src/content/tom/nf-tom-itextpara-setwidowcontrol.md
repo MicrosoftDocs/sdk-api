@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextPara.SetWidowControl
 title: ITextPara::SetWidowControl (tom.h)
-description: Controls the suppression of widows and orphans.
+description: Controls the suppression of widows and orphans.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetWidowControl method","ITextPara.SetWidowControl","ITextPara::SetWidowControl","SetWidowControl","SetWidowControl method [Windows Controls]","SetWidowControl method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetWidowControl","_win32_ITextPara_SetWidowControl_cpp","controls.ITextPara_SetWidowControl","controls._win32_ITextPara_SetWidowControl","tom/ITextPara::SetWidowControl"]
 old-location: controls\ITextPara_SetWidowControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setwidowcontrol.htm

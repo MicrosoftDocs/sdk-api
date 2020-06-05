@@ -1,7 +1,7 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Write
 title: IWTSVirtualChannel::Write (tsvirtualchannels.h)
-description: Starts a write request on the channel.
+description: Starts a write request on the channel.helpviewer_keywords: ["IWTSVirtualChannel interface [Remote Desktop Services]","Write method","IWTSVirtualChannel.Write","IWTSVirtualChannel::Write","Write","Write method [Remote Desktop Services]","Write method [Remote Desktop Services]","IWTSVirtualChannel interface","termserv.iwtsvirtualchannel_write","tsvirtualchannels/IWTSVirtualChannel::Write"]
 old-location: termserv\iwtsvirtualchannel_write.htm
 tech.root: TermServ
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4

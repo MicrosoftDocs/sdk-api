@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_LAUNCH_PROTECTED_INFO
 title: SERVICE_LAUNCH_PROTECTED_INFO (winsvc.h)
-description: Indicates a service protection type.
+description: Indicates a service protection type.helpviewer_keywords: ["*PSERVICE_LAUNCH_PROTECTED_INFO","PSERVICE_LAUNCH_PROTECTED_INFO","PSERVICE_LAUNCH_PROTECTED_INFO structure pointer","SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT","SERVICE_LAUNCH_PROTECTED_INFO","SERVICE_LAUNCH_PROTECTED_INFO structure","SERVICE_LAUNCH_PROTECTED_NONE","SERVICE_LAUNCH_PROTECTED_WINDOWS","SERVICE_LAUNCH_PROTECTED_WINDOWS_LIGHT","base.service_launch_protected_info","winsvc/PSERVICE_LAUNCH_PROTECTED_INFO","winsvc/SERVICE_LAUNCH_PROTECTED_INFO"]
 old-location: base\service_launch_protected_info.htm
 tech.root: Services
 ms.assetid: ECD44E9F-BE48-4038-94B4-37C8CA5C89F7

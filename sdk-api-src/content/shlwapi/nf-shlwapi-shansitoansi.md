@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHAnsiToAnsi
 title: SHAnsiToAnsi function (shlwapi.h)
-description: Copies an ANSI string.
+description: Copies an ANSI string.helpviewer_keywords: ["SHAnsiToAnsi","SHAnsiToAnsi function [Windows Shell]","_win32_SHAnsiToAnsi","shell.SHAnsiToAnsi","shlwapi/SHAnsiToAnsi"]
 old-location: shell\SHAnsiToAnsi.htm
 tech.root: shell
 ms.assetid: e57142ca-3098-4118-aac0-89724f711872

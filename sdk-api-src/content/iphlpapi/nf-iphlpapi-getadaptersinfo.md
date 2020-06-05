@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.GetAdaptersInfo
 title: GetAdaptersInfo function (iphlpapi.h)
-description: The GetAdaptersInfo function retrieves adapter information for the local computer.
+description: The GetAdaptersInfo function retrieves adapter information for the local computer.helpviewer_keywords: ["GetAdaptersInfo","GetAdaptersInfo function [IP Helper]","_iphlp_getadaptersinfo","iphlp.getadaptersinfo","iphlpapi/GetAdaptersInfo"]
 old-location: iphlp\getadaptersinfo.htm
 tech.root: IpHlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59

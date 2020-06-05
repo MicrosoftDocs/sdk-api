@@ -1,7 +1,7 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MaxVidRect
 title: IMSVidVideoRenderer::get_MaxVidRect (segment.h)
-description: The get_MaxVidRect method retrieves the maximum ideal size of the video rectangle.
+description: The get_MaxVidRect method retrieves the maximum ideal size of the video rectangle.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_MaxVidRect method","IMSVidVideoRenderer.get_MaxVidRect","IMSVidVideoRenderer::get_MaxVidRect","IMSVidVideoRendererget_MaxVidRect","get_MaxVidRect","get_MaxVidRect method [Microsoft TV Technologies]","get_MaxVidRect method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_maxvidrect","segment/IMSVidVideoRenderer::get_MaxVidRect"]
 old-location: mstv\imsvidvideorenderer_get_maxvidrect.htm
 tech.root: mstv
 ms.assetid: b4c4b2da-0749-463c-aaa1-04d0d456327a

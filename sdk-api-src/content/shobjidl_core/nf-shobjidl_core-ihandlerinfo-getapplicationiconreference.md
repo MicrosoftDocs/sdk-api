@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHandlerInfo.GetApplicationIconReference
 title: IHandlerInfo::GetApplicationIconReference (shobjidl_core.h)
-description: Retrieves the icon of the application that implemented the handler.
+description: Retrieves the icon of the application that implemented the handler.helpviewer_keywords: ["GetApplicationIconReference","GetApplicationIconReference method [Windows Shell]","GetApplicationIconReference method [Windows Shell]","IHandlerInfo interface","IHandlerInfo interface [Windows Shell]","GetApplicationIconReference method","IHandlerInfo.GetApplicationIconReference","IHandlerInfo::GetApplicationIconReference","shell.IHandlerInfo_GetApplicationIconReference","shobjidl_core/IHandlerInfo::GetApplicationIconReference"]
 old-location: shell\IHandlerInfo_GetApplicationIconReference.htm
 tech.root: shell
 ms.assetid: be886508-16a5-4a77-9fa4-b6a8d028c9e9

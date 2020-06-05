@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetState
 title: ITsSbResourcePluginStore::SetTargetState (sbtsv.h)
-description: Sets the state of a target object.
+description: Sets the state of a target object.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetTargetState method","ITsSbResourcePluginStore.SetTargetState","ITsSbResourcePluginStore::SetTargetState","SetTargetState","SetTargetState method [Remote Desktop Services]","SetTargetState method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetTargetState","termserv.itssbresourcepluginstore_settargetstate"]
 old-location: termserv\itssbresourcepluginstore_settargetstate.htm
 tech.root: TermServ
 ms.assetid: 5ba5c4c6-b644-45f7-8942-ee8ea543138d

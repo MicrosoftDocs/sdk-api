@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProfile.get_IcmpSettings
 title: INetFwProfile::get_IcmpSettings (netfw.h)
-description: Retrieves the ICMP settings of the profile.
+description: Retrieves the ICMP settings of the profile.helpviewer_keywords: ["INetFwProfile interface [ICS/ICF]","IcmpSettings property","INetFwProfile.IcmpSettings","INetFwProfile.get_IcmpSettings","INetFwProfile::IcmpSettings","INetFwProfile::get_IcmpSettings","IcmpSettings property [ICS/ICF]","IcmpSettings property [ICS/ICF]","INetFwProfile interface","get_IcmpSettings","ics.inetfwprofile_icmpsettings","netfw/INetFwProfile::IcmpSettings","netfw/INetFwProfile::get_IcmpSettings"]
 old-location: ics\inetfwprofile_icmpsettings.htm
 tech.root: ics
 ms.assetid: 088be29e-cd1f-4e00-9759-c6e40dca8449

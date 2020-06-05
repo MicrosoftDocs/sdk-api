@@ -2,6 +2,7 @@
 UID: NS:vsmgmt._VSS_DIFF_AREA_PROP
 title: VSS_DIFF_AREA_PROP (vsmgmt.h)
 description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.
+helpviewer_keywords: ["*PVSS_DIFF_AREA_PROP","PVSS_DIFF_AREA_PROP","PVSS_DIFF_AREA_PROP structure pointer [VSS]","VSS_DIFF_AREA_PROP","VSS_DIFF_AREA_PROP structure [VSS]","base.vss_diff_area_prop","vsmgmt/PVSS_DIFF_AREA_PROP","vsmgmt/VSS_DIFF_AREA_PROP"]
 old-location: base\vss_diff_area_prop.htm
 tech.root: VSS
 ms.assetid: 9627d7b0-e9d0-425f-9051-cf4ab6b75a8c
@@ -90,7 +91,7 @@ Used space from the allocated area above. This must be less than or equal
 
 
 
-The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> methods.
+The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a>, <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>, and <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> methods.
 
 
 
@@ -100,11 +101,11 @@ The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
+<a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveDefaultScopeRule
 title: ISearchCrawlScopeManager::RemoveDefaultScopeRule (searchapi.h)
-description: Removes a default scope rule from the search engine.
+description: Removes a default scope rule from the search engine.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveDefaultScopeRule method","ISearchCrawlScopeManager.RemoveDefaultScopeRule","ISearchCrawlScopeManager::RemoveDefaultScopeRule","RemoveDefaultScopeRule","RemoveDefaultScopeRule method [search]","RemoveDefaultScopeRule method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule","search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule","searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removedefaultscoperule.htm

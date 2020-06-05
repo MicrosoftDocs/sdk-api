@@ -1,7 +1,7 @@
 ---
 UID: NN:netlistmgr.INetworkCostManager
 title: INetworkCostManager (netlistmgr.h)
-description: Use this interface to query for machine-wide cost and data plan status information associated with either a connection used for machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
+description: Use this interface to query for machine-wide cost and data plan status information associated with either a connection used for machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.helpviewer_keywords: ["INetworkCostManager","INetworkCostManager interface [Network Awareness]","INetworkCostManager interface [Network Awareness]","described","netlistmgr/INetworkCostManager","nla.inetworkcostmanager"]
 old-location: nla\inetworkcostmanager.htm
 tech.root: nla
 ms.assetid: A6316E94-398D-4D87-B631-6BEF416895EE

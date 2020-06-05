@@ -2,6 +2,7 @@
 UID: NF:p2p.PeerGraphFreeData
 title: PeerGraphFreeData function (p2p.h)
 description: The PeerGraphFreeData function frees resources that several of the Peer Graphing API functions return.
+helpviewer_keywords: ["PeerGraphFreeData","PeerGraphFreeData function [Peer Networking]","p2p.peergraphfreedata","p2p/PeerGraphFreeData"]
 old-location: p2p\peergraphfreedata.htm
 tech.root: P2PSdk
 ms.assetid: a5b7d563-214a-48e0-b184-0c12d62fb125
@@ -75,7 +76,7 @@ This function does not have return values.
 
 
 
-The [PEER_RECORD](/windows/win32/api/p2p/ns-p2p-peer_record)a>.
+The [PEER_RECORD](/windows/win32/api/p2p/ns-p2p-peer_record).
 
 
 

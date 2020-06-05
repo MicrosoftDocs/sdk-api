@@ -1,7 +1,7 @@
 ---
 UID: NN:gpmgmt.IGPMClientSideExtension
 title: IGPMClientSideExtension (gpmgmt.h)
-description: The IGPMClientSideExtension interface supports methods that allow you to query client-side extension properties when you use the Group Policy Management Console (GPMC) interfaces.
+description: The IGPMClientSideExtension interface supports methods that allow you to query client-side extension properties when you use the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMClientSideExtension","IGPMClientSideExtension","IGPMClientSideExtension interface [GPMC]","IGPMClientSideExtension interface [GPMC]","described","_win32_igpmclientsideextension","gpmc.igpmclientsideextension","gpmgmt/IGPMClientSideExtension"]
 old-location: gpmc\igpmclientsideextension.htm
 tech.root: gpmc
 ms.assetid: b29f4d09-60c0-4c67-b295-05c7d9a05397

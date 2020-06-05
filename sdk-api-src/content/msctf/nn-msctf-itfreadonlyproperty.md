@@ -1,7 +1,7 @@
 ---
 UID: NN:msctf.ITfReadOnlyProperty
 title: ITfReadOnlyProperty (msctf.h)
-description: The ITfReadOnlyProperty interface is implemented by the TSF manager and used by an application or text service to obtain property data.
+description: The ITfReadOnlyProperty interface is implemented by the TSF manager and used by an application or text service to obtain property data.helpviewer_keywords: ["ITfReadOnlyProperty","ITfReadOnlyProperty interface [Text Services Framework]","ITfReadOnlyProperty interface [Text Services Framework]","described","_tsf_itfreadonlyproperty_ref","msctf/ITfReadOnlyProperty","tsf.itfreadonlyproperty"]
 old-location: tsf\itfreadonlyproperty.htm
 tech.root: TSF
 ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99

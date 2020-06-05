@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IStream_ReadStr
 title: IStream_ReadStr function (shlwapi.h)
-description: Reads from a stream and writes into a string.
+description: Reads from a stream and writes into a string.helpviewer_keywords: ["IStream_ReadStr","IStream_ReadStr function [Windows Shell]","_shell_IStream_ReadStr","shell.IStream_ReadStr","shlwapi/IStream_ReadStr"]
 old-location: shell\IStream_ReadStr.htm
 tech.root: shell
 ms.assetid: e3f140c4-4033-4c82-af2c-4a7744461920

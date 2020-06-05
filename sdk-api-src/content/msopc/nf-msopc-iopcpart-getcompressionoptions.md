@@ -2,6 +2,7 @@
 UID: NF:msopc.IOpcPart.GetCompressionOptions
 title: IOpcPart::GetCompressionOptions (msopc.h)
 description: Gets a value that describes the way part content is compressed.
+helpviewer_keywords: ["GetCompressionOptions","GetCompressionOptions method [Open Packaging Conventions]","GetCompressionOptions method [Open Packaging Conventions]","IOpcPart interface","IOpcPart interface [Open Packaging Conventions]","GetCompressionOptions method","IOpcPart.GetCompressionOptions","IOpcPart::GetCompressionOptions","msopc/IOpcPart::GetCompressionOptions","opc.iopcpart_getcompressionoptions"]
 old-location: opc\iopcpart_getcompressionoptions.htm
 tech.root: OPC
 ms.assetid: aee8e3a2-3fac-40da-bea2-1fd4e2224c81
@@ -138,7 +139,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
 
 
 

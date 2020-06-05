@@ -2,12 +2,12 @@
 UID: NF:shlobj_core.SHMapPIDLToSystemImageListIndex
 title: SHMapPIDLToSystemImageListIndex function (shlobj_core.h)
 description: SHMapPIDLToSystemImageListIndex may be altered or unavailable.
+helpviewer_keywords: ["SHMapPIDLToSystemImageListIndex","SHMapPIDLToSystemImageListIndex function [Windows Shell]","_win32_SHMapPIDLToSystemImageListIndex","shell.SHMapPIDLToSystemImageListIndex","shlobj_core/SHMapPIDLToSystemImageListIndex"]
 old-location: shell\SHMapPIDLToSystemImageListIndex.htm
 tech.root: shell
 ms.assetid: 7f11049b-2481-496b-95e3-77d480f2c9df
 ms.date: 12/05/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHMapPIDLToSystemImageListIndex
 dev_langs:

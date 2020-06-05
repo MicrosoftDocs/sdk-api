@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1.D2D1_COMBINE_MODE
 title: D2D1_COMBINE_MODE (d2d1.h)
-description: Specifies the different methods by which two geometries can be combined.
+description: Specifies the different methods by which two geometries can be combined.helpviewer_keywords: ["D2D1_COMBINE_MODE","D2D1_COMBINE_MODE enumeration [Direct2D]","D2D1_COMBINE_MODE_EXCLUDE","D2D1_COMBINE_MODE_INTERSECT","D2D1_COMBINE_MODE_UNION","D2D1_COMBINE_MODE_XOR","d2d1/D2D1_COMBINE_MODE","d2d1/D2D1_COMBINE_MODE_EXCLUDE","d2d1/D2D1_COMBINE_MODE_INTERSECT","d2d1/D2D1_COMBINE_MODE_UNION","d2d1/D2D1_COMBINE_MODE_XOR","direct2d.D2D1_COMBINE_MODE"]
 old-location: direct2d\D2D1_COMBINE_MODE.htm
 tech.root: Direct2D
 ms.assetid: 7526379a-5f57-4a9f-b85d-415f131528e2
@@ -91,9 +91,9 @@ The following illustration shows the different geometry combine modes.
 
 <img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="./images/geometry_combine_modes.png"/>
 
-#### Examples
+## Examples
 
-The following code uses each of the different combine modes to combine two <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a> objects. 
+The following code uses each of the different combine modes to combine two <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a> objects. 
 
 
 ```cpp

@@ -1,7 +1,7 @@
 ---
 UID: NN:wmcodecdsp.IWMColorConvProps
 title: IWMColorConvProps (wmcodecdsp.h)
-description: Sets properties on the color converter DSP.
+description: Sets properties on the color converter DSP.helpviewer_keywords: ["IWMColorConvProps","IWMColorConvProps interface [Media Foundation]","IWMColorConvProps interface [Media Foundation]","described","codecapi.iwmcolorconvpropsinterface","mf.iwmcolorconvprops","mf.iwmcolorconvpropsinterface","wmcodecdsp/IWMColorConvProps"]
 old-location: mf\iwmcolorconvpropsinterface.htm
 tech.root: medfound
 ms.assetid: c4a6b7c1-edc0-4030-ac47-895580ad294d

@@ -2,6 +2,7 @@
 UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitors
 title: DestroyPhysicalMonitors function (physicalmonitorenumerationapi.h)
 description: Closes an array of physical monitor handles.
+helpviewer_keywords: ["DestroyPhysicalMonitors","DestroyPhysicalMonitors function [Monitor Configuration]","monitor.destroyphysicalmonitors","physicalmonitorenumerationapi/DestroyPhysicalMonitors"]
 old-location: monitor\destroyphysicalmonitors.htm
 tech.root: Monitor
 ms.assetid: ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf
@@ -65,7 +66,7 @@ Number of elements in the <i>pPhysicalMonitorArray</i> array.
 
 ### -param pPhysicalMonitorArray [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures.
+Pointer to an array of <a href="/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures.
           
 
 

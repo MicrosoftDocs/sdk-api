@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.TrackPopupMenu
 title: TrackPopupMenu function (winuser.h)
-description: Displays a shortcut menu at the specified location and tracks the selection of items on the menu. The shortcut menu can appear anywhere on the screen.
+description: Displays a shortcut menu at the specified location and tracks the selection of items on the menu. The shortcut menu can appear anywhere on the screen.helpviewer_keywords: ["TPM_BOTTOMALIGN","TPM_CENTERALIGN","TPM_HORNEGANIMATION","TPM_HORPOSANIMATION","TPM_LEFTALIGN","TPM_LEFTBUTTON","TPM_NOANIMATION","TPM_NONOTIFY","TPM_RETURNCMD","TPM_RIGHTALIGN","TPM_RIGHTBUTTON","TPM_TOPALIGN","TPM_VCENTERALIGN","TPM_VERNEGANIMATION","TPM_VERPOSANIMATION","TrackPopupMenu","TrackPopupMenu function [Menus and Other Resources]","_win32_TrackPopupMenu","_win32_trackpopupmenu_cpp","menurc.trackpopupmenu","winui._win32_trackpopupmenu","winuser/TrackPopupMenu"]
 old-location: menurc\trackpopupmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenu.htm

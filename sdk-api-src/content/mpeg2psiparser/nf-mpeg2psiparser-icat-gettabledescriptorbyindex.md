@@ -2,12 +2,12 @@
 UID: NF:mpeg2psiparser.ICAT.GetTableDescriptorByIndex
 title: ICAT::GetTableDescriptorByIndex (mpeg2psiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","ICAT interface","ICAT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","ICAT.GetTableDescriptorByIndex","ICAT::GetTableDescriptorByIndex","ICATGetTableDescriptorByIndex","mpeg2psiparser/ICAT::GetTableDescriptorByIndex","mstv.icat_gettabledescriptorbyindex"]
 old-location: mstv\icat_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 7ff5a4dd-e332-4995-84a3-abfbbda087f9
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ICAT.GetTableDescriptorByIndex, ICAT::GetTableDescriptorByIndex, ICATGetTableDescriptorByIndex, mpeg2psiparser/ICAT::GetTableDescriptorByIndex, mstv.icat_gettabledescriptorbyindex
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/ICAT.GetTableDescriptorByIndex
 dev_langs:

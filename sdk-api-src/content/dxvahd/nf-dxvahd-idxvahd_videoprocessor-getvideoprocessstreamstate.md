@@ -1,7 +1,7 @@
 ---
 UID: NF:dxvahd.IDXVAHD_VideoProcessor.GetVideoProcessStreamState
 title: IDXVAHD_VideoProcessor::GetVideoProcessStreamState (dxvahd.h)
-description: Gets the value of a state parameter for an input stream on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+description: Gets the value of a state parameter for an input stream on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["GetVideoProcessStreamState","GetVideoProcessStreamState method [Media Foundation]","GetVideoProcessStreamState method [Media Foundation]","IDXVAHD_VideoProcessor interface","IDXVAHD_VideoProcessor interface [Media Foundation]","GetVideoProcessStreamState method","IDXVAHD_VideoProcessor.GetVideoProcessStreamState","IDXVAHD_VideoProcessor::GetVideoProcessStreamState","dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessStreamState","mf.idxvahd_videoprocessor_getvideoprocessstreamstate"]
 old-location: mf\idxvahd_videoprocessor_getvideoprocessstreamstate.htm
 tech.root: medfound
 ms.assetid: 1ceeae95-d67d-4f11-b815-f4eef517e7ce

@@ -2,6 +2,7 @@
 UID: NF:ctfspui.ITfSpeechUIServer.UpdateBalloon
 title: ITfSpeechUIServer::UpdateBalloon (ctfspui.h)
 description: ITfSpeechUIServer::UpdateBalloon method
+helpviewer_keywords: ["ITfSpeechUIServer interface [Text Services Framework]","UpdateBalloon method","ITfSpeechUIServer.UpdateBalloon","ITfSpeechUIServer::UpdateBalloon","UpdateBalloon","UpdateBalloon method [Text Services Framework]","UpdateBalloon method [Text Services Framework]","ITfSpeechUIServer interface","ctfspui/ITfSpeechUIServer::UpdateBalloon","tsf.itfspeechuiserver_updateballoon"]
 old-location: tsf\itfspeechuiserver_updateballoon.htm
 tech.root: TSF
 ms.assetid: 5ef25aa6-afc4-4c91-8e49-cb5a7ecec36a
@@ -57,7 +58,7 @@ Sets the style and text of the speech balloon on the TSF language bar.
 
 ### -param style [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> element that specifies the balloon style.
+Contains a <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> element that specifies the balloon style.
 
 
 ### -param pch [in]
@@ -108,7 +109,7 @@ The method was successful.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
  
 

@@ -2,6 +2,7 @@
 UID: NI:vmgenerationcounter.IOCTL_VMGENCOUNTER_READ
 title: IOCTL_VMGENCOUNTER_READ (vmgenerationcounter.h)
 description: The IOCTL_VMGENCOUNTER_READ control code retrieves a virtual machine generation identifier.
+helpviewer_keywords: ["IOCTL_VMGENCOUNTER_READ","IOCTL_VMGENCOUNTER_READ control","IOCTL_VMGENCOUNTER_READ control code","hyperv.ioctl_vmgencounter_read","vmgenerationcounter/IOCTL_VMGENCOUNTER_READ"]
 old-location: hyperv\ioctl_vmgencounter_read.htm
 tech.root: HyperV_v2
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
@@ -71,7 +72,7 @@ Not used with this operation; set to zero.
 ### -output-buffer
 
   A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
+<a href="/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
 
 
 ### -output-buffer-length
@@ -184,7 +185,7 @@ Not used with this operation; set to zero.
 </td>
 <td width="60%">
   A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
+<a href="/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
 
 </td>
 </tr>
@@ -272,7 +273,7 @@ For info about the virtual machine generation identifier, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a>
+<a href="/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a>
  
 
  

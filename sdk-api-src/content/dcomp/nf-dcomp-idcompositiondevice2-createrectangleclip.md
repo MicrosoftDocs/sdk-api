@@ -2,6 +2,7 @@
 UID: NF:dcomp.IDCompositionDevice2.CreateRectangleClip
 title: IDCompositionDevice2::CreateRectangleClip (dcomp.h)
 description: Creates a clip object that can be used to restrict the rendering of a visual subtree to a rectangular area.
+helpviewer_keywords: ["CreateRectangleClip","CreateRectangleClip method [DirectComposition]","CreateRectangleClip method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateRectangleClip method","IDCompositionDevice2.CreateRectangleClip","IDCompositionDevice2::CreateRectangleClip","dcomp/IDCompositionDevice2::CreateRectangleClip","directcomp.idcompositiondevice2_createrectangleclip"]
 old-location: directcomp\idcompositiondevice2_createrectangleclip.htm
 tech.root: directcomp
 ms.assetid: 5CD7BC88-EF6F-4FEE-940B-710CB56D8E78
@@ -93,7 +94,7 @@ A newly created clip object has a static value of <a href="https://msdn.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)">IDCompositionVisual::SetClip</a>
  
 
  

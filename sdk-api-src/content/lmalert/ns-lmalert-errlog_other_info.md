@@ -1,7 +1,7 @@
 ---
 UID: NS:lmalert._ERRLOG_OTHER_INFO
 title: ERRLOG_OTHER_INFO (lmalert.h)
-description: The ERRLOG_OTHER_INFO structure contains error log information. The NetAlertRaise and NetAlertRaiseEx functions use the ERRLOG_OTHER_INFO structure to specify information when adding a new entry to the error log.
+description: The ERRLOG_OTHER_INFO structure contains error log information. The NetAlertRaise and NetAlertRaiseEx functions use the ERRLOG_OTHER_INFO structure to specify information when adding a new entry to the error log.helpviewer_keywords: ["*LPERRLOG_OTHER_INFO","*PERRLOG_OTHER_INFO","ERRLOG_OTHER_INFO","ERRLOG_OTHER_INFO structure [Network Management]","LPERRLOG_OTHER_INFO","LPERRLOG_OTHER_INFO structure pointer [Network Management]","PERRLOG_OTHER_INFO","PERRLOG_OTHER_INFO structure pointer [Network Management]","_win32_errlog_other_info_str","lmalert/ERRLOG_OTHER_INFO","lmalert/LPERRLOG_OTHER_INFO","lmalert/PERRLOG_OTHER_INFO","netmgmt.errlog_other_info_str"]
 old-location: netmgmt\errlog_other_info_str.htm
 tech.root: NetMgmt
 ms.assetid: 832ebe88-e1c4-4ce3-8057-922419b577f7

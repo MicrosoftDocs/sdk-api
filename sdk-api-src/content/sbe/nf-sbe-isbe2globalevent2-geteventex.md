@@ -1,7 +1,7 @@
 ---
 UID: NF:sbe.ISBE2GlobalEvent2.GetEventEx
 title: ISBE2GlobalEvent2::GetEventEx (sbe.h)
-description: Gets a global spanning event and its data from a Stream Buffer Source filter.
+description: Gets a global spanning event and its data from a Stream Buffer Source filter.helpviewer_keywords: ["GetEventEx","GetEventEx method [Microsoft TV Technologies]","GetEventEx method [Microsoft TV Technologies]","ISBE2GlobalEvent2 interface","ISBE2GlobalEvent2 interface [Microsoft TV Technologies]","GetEventEx method","ISBE2GlobalEvent2.GetEventEx","ISBE2GlobalEvent2::GetEventEx","mstv.isbe2globalevent2_geteventex","sbe/ISBE2GlobalEvent2::GetEventEx"]
 old-location: mstv\isbe2globalevent2_geteventex.htm
 tech.root: mstv
 ms.assetid: 44c30d8a-d62b-4e0f-8ff9-a4159df6d724

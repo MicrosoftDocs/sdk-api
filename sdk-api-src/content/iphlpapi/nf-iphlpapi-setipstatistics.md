@@ -1,7 +1,7 @@
 ---
 UID: NF:iphlpapi.SetIpStatistics
 title: SetIpStatistics function (iphlpapi.h)
-description: The SetIpStatistics function toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.
+description: The SetIpStatistics function toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.helpviewer_keywords: ["SetIpStatistics","SetIpStatistics function [IP Helper]","_iphlp_setipstatistics","iphlp.setipstatistics","iphlpapi/SetIpStatistics"]
 old-location: iphlp\setipstatistics.htm
 tech.root: IpHlp
 ms.assetid: d857ee04-38b8-4d98-a3e7-6ca8657ac9ed

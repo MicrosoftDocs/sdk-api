@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.FoundItem
 title: INamespaceWalkCB::FoundItem (shobjidl_core.h)
-description: Called when an object is found in the namespace during a namespace walk. Use this method as the main action function for the class implementing it. Perform your actions as needed inside this method.
+description: Called when an object is found in the namespace during a namespace walk. Use this method as the main action function for the class implementing it. Perform your actions as needed inside this method.helpviewer_keywords: ["FoundItem","FoundItem method [Windows Shell]","FoundItem method [Windows Shell]","INamespaceWalkCB interface","INamespaceWalkCB interface [Windows Shell]","FoundItem method","INamespaceWalkCB.FoundItem","INamespaceWalkCB::FoundItem","_win32_INamespaceWalkCB_FoundItem","shell.INamespaceWalkCB_FoundItem","shobjidl_core/INamespaceWalkCB::FoundItem"]
 old-location: shell\INamespaceWalkCB_FoundItem.htm
 tech.root: shell
 ms.assetid: d9f86764-6365-432e-9216-57fede3aec83

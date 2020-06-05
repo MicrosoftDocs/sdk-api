@@ -1,7 +1,7 @@
 ---
 UID: NF:textserv.ITextHost2.TxSetForegroundWindow
 title: ITextHost2::TxSetForegroundWindow (textserv.h)
-description: Sets the rich edit control's host window as the foreground window.
+description: Sets the rich edit control's host window as the foreground window.helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxSetForegroundWindow method","ITextHost2.TxSetForegroundWindow","ITextHost2::TxSetForegroundWindow","TxSetForegroundWindow","TxSetForegroundWindow method [Windows Controls]","TxSetForegroundWindow method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txsetforegroundwindow","textserv/ITextHost2::TxSetForegroundWindow"]
 old-location: controls\itexthost2_txsetforegroundwindow.htm
 tech.root: Controls
 ms.assetid: 0C3400BB-FC9A-43C3-92B4-055DE0A17717

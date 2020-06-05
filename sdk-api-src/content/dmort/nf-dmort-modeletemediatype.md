@@ -1,7 +1,7 @@
 ---
 UID: NF:dmort.MoDeleteMediaType
 title: MoDeleteMediaType function (dmort.h)
-description: The MoDeleteMediaType function deletes a media type structure that was previously allocated.
+description: The MoDeleteMediaType function deletes a media type structure that was previously allocated.helpviewer_keywords: ["MoDeleteMediaType","MoDeleteMediaType function [DirectShow]","dmort/MoDeleteMediaType","dshow.modeletemediatype"]
 old-location: dshow\modeletemediatype.htm
 tech.root: DirectShow
 ms.assetid: adbfe1e1-e956-48de-9ed1-9f8f4c66ff1c

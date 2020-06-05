@@ -1,7 +1,7 @@
 ---
 UID: NE:tdh._TEMPLATE_FLAGS
 title: TEMPLATE_FLAGS (tdh.h)
-description: Defines constant values that indicates the layout of the event data.
+description: Defines constant values that indicates the layout of the event data.helpviewer_keywords: ["TEMPLATE_EVENT_DATA","TEMPLATE_FLAGS","TEMPLATE_FLAGS enumeration [ETW]","TEMPLATE_USER_DATA","etw.template_flags_enum","tdh.template_flags_enum","tdh/TEMPLATE_EVENT_DATA","tdh/TEMPLATE_FLAGS","tdh/TEMPLATE_USER_DATA"]
 old-location: etw\template_flags_enum.htm
 tech.root: ETW
 ms.assetid: 07132dc2-fad9-4ddb-bf46-70a887f0b585

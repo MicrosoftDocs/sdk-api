@@ -1,7 +1,7 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_CREATION_OPTIONS
 title: HANDLE_CREATION_OPTIONS (windowsstoragecom.h)
-description: Represents the action to take on a file that exists or doesn't exist.
+description: Represents the action to take on a file that exists or doesn't exist.helpviewer_keywords: ["HANDLE_CREATION_OPTIONS","HANDLE_CREATION_OPTIONS enumeration [Windows Runtime]","HCO_CREATE_ALWAYS","HCO_CREATE_NEW","HCO_OPEN_ALWAYS","HCO_OPEN_EXISTING","HCO_TRUNCATE_EXISTING","windowsstoragecom/HANDLE_CREATION_OPTIONS","windowsstoragecom/HCO_CREATE_ALWAYS","windowsstoragecom/HCO_CREATE_NEW","windowsstoragecom/HCO_OPEN_ALWAYS","windowsstoragecom/HCO_OPEN_EXISTING","windowsstoragecom/HCO_TRUNCATE_EXISTING","winrt.handle_creation_options"]
 old-location: winrt\handle_creation_options.htm
 tech.root: WinRT
 ms.assetid: 94EE8D50-A85C-4AA2-9A8A-A382AD308B7B

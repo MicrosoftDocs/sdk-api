@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetQuery
 title: IQuerySolution::GetQuery (structuredquery.h)
-description: Retrieves the condition tree and the semantic type of the solution.
+description: Retrieves the condition tree and the semantic type of the solution.helpviewer_keywords: ["GetQuery","GetQuery method [search]","GetQuery method [search]","IQuerySolution interface","IQuerySolution interface [search]","GetQuery method","IQuerySolution.GetQuery","IQuerySolution::GetQuery","_search_IQuerySolution_GetQuery","search._search_IQuerySolution_GetQuery","structuredquery/IQuerySolution::GetQuery"]
 old-location: search\_search_IQuerySolution_GetQuery.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getquery.htm

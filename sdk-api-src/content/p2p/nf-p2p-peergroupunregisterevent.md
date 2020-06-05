@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerGroupUnregisterEvent
 title: PeerGroupUnregisterEvent function (p2p.h)
-description: The PeerGroupUnregisterEvent function unregisters a peer from notification of peer events associated with the supplied event handle.
+description: The PeerGroupUnregisterEvent function unregisters a peer from notification of peer events associated with the supplied event handle.helpviewer_keywords: ["PeerGroupUnregisterEvent","PeerGroupUnregisterEvent function [Peer Networking]","p2p.peergroupunregisterevent","p2p/PeerGroupUnregisterEvent"]
 old-location: p2p\peergroupunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: ad13cbf6-0dc9-4de5-aae7-2ecf6af90ea6

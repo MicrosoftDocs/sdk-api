@@ -2,6 +2,7 @@
 UID: NS:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003
 title: AAAccountingData (tsgpolicyengine.h)
 description: This structure contains information about a connection event.
+helpviewer_keywords: ["AAAccountingData","AAAccountingData structure [Remote Desktop Services]","__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003","termserv.aaaccountingdata","tsgpolicyengine/AAAccountingData"]
 old-location: termserv\aaaccountingdata.htm
 tech.root: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
@@ -69,7 +70,7 @@ The name of the client computer.
 
 ### -field authType
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-aaauthschemes">AAAuthSchemes</a> enumeration type that specifies the type of authentication used to connect to RD Gateway.
+A value of the <a href="/windows/win32/api/tsgpolicyengine/ne-tsgpolicyengine-aaauthschemes">AAAuthSchemes</a> enumeration type that specifies the type of authentication used to connect to RD Gateway.
 
 
 ### -field resourceName

@@ -2,6 +2,7 @@
 UID: NF:winwlx.WlxGetConsoleSwitchCredentials
 title: WlxGetConsoleSwitchCredentials function (winwlx.h)
 description: Winlogon calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
+helpviewer_keywords: ["WlxGetConsoleSwitchCredentials","WlxGetConsoleSwitchCredentials function [Security]","_gina_wlxgetconsoleswitchcredentials","security.wlxgetconsoleswitchcredentials","winwlx/WlxGetConsoleSwitchCredentials"]
 old-location: security\wlxgetconsoleswitchcredentials.htm
 tech.root: SecAuthN
 ms.assetid: ee6b3d03-11c9-4eb3-8c76-7041dddc755d
@@ -64,7 +65,7 @@ Pointer to a GINA-specific context.
 
 ### -param pCredInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> to return GINA relevant information.
+Pointer to a <a href="/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_credentials_info_v1_0">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> to return GINA relevant information.
 
 
 ## -returns

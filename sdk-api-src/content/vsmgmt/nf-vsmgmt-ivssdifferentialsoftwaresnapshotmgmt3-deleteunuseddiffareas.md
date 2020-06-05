@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
 title: IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas (vsmgmt.h)
-description: Deletes all shadow copy storage areas (also called diff areas) on the specified volume that are not in use.
+description: Deletes all shadow copy storage areas (also called diff areas) on the specified volume that are not in use.helpviewer_keywords: ["DeleteUnusedDiffAreas","DeleteUnusedDiffAreas method","DeleteUnusedDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","DeleteUnusedDiffAreas method","IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas","IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas","base.ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas.htm
 tech.root: VSS
 ms.assetid: daa23f2c-8342-4387-800a-def5951896ee

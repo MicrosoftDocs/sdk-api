@@ -2,6 +2,7 @@
 UID: NF:shlwapi.IQueryAssociations.GetString
 title: IQueryAssociations::GetString (shlwapi.h)
 description: Searches for and retrieves a file or protocol association-related string from the registry.
+helpviewer_keywords: ["GetString","GetString method [Windows Shell]","GetString method [Windows Shell]","IQueryAssociations interface","IQueryAssociations interface [Windows Shell]","GetString method","IQueryAssociations.GetString","IQueryAssociations::GetString","_win32_IQueryAssociations_GetString","shell.IQueryAssociations_GetString","shlwapi/IQueryAssociations::GetString"]
 old-location: shell\IQueryAssociations_GetString.htm
 tech.root: shell
 ms.assetid: 72463664-783b-4375-a6ba-43633a82ec7e
@@ -67,22 +68,22 @@ A flag that can be used to control the search. It can be any combination of the 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_IGNOREBASECLASS</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_IGNOREBASECLASS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOFIXUPS</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOFIXUPS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOUSERSETTINGS</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOUSERSETTINGS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_REMAPRUNDLL</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_REMAPRUNDLL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_VERIFY</a>
+<a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_VERIFY</a>
 </li>
 </ul>
 
@@ -113,7 +114,7 @@ Type: <b>DWORD*</b>
 
 A pointer to a value that, on entry, is set to the number of characters in the <i>pwszOut</i> buffer. When the function returns successfully, it points to the number of characters placed in the buffer.
 
-If the <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pwszOut</i> is too small, the function returns E_POINTER and <i>pcchOut</i> points to the required size of the buffer.
+If the <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pwszOut</i> is too small, the function returns E_POINTER and <i>pcchOut</i> points to the required size of the buffer.
 
 If <i>pwszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size of the buffer.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetName
 title: IWMMutualExclusion2::SetName (wmsdkidl.h)
-description: The SetName method assigns a name to a mutual exclusion object.
+description: The SetName method assigns a name to a mutual exclusion object.helpviewer_keywords: ["IWMMutualExclusion2 interface [windows Media Format]","SetName method","IWMMutualExclusion2.SetName","IWMMutualExclusion2::SetName","IWMMutualExclusion2SetName","SetName","SetName method [windows Media Format]","SetName method [windows Media Format]","IWMMutualExclusion2 interface","wmformat.iwmmutualexclusion2_setname","wmsdkidl/IWMMutualExclusion2::SetName"]
 old-location: wmformat\iwmmutualexclusion2_setname.htm
 tech.root: wmformat
 ms.assetid: b288c28c-04bd-49a4-bf11-21d4968772d4

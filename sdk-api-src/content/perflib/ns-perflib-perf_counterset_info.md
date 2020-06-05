@@ -1,7 +1,7 @@
 ---
 UID: NS:perflib._PERF_COUNTERSET_INFO
 title: PERF_COUNTERSET_INFO (perflib.h)
-description: Defines information about a counter set that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
+description: Defines information about a counter set that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.helpviewer_keywords: ["*PPERF_COUNTERSET_INFO","PERF_COUNTERSET_INFO","PERF_COUNTERSET_INFO structure [Perf]","PERF_COUNTERSET_INFO","*PPERF_COUNTERSET_INFO","PERF_COUNTERSET_INFO","*PPERF_COUNTERSET_INFO structure [Perf]","PERF_COUNTERSET_INSTANCE_AGGREGATE","PERF_COUNTERSET_MULTI_AGGREGATE","PERF_COUNTERSET_MULTI_INSTANCES","PERF_COUNTERSET_SINGLE_AGGREGATE","PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY","PERF_COUNTERSET_SINGLE_INSTANCE","base.perf_counterset_info","perf.perf_counterset_info","perflib/PERF_COUNTERSET_INFO"]
 old-location: perf\perf_counterset_info.htm
 tech.root: perfctrs
 ms.assetid: bf48dcdb-6fdd-4093-9006-a53690c3ed86

@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.IFileDialog.GetOptions
 title: IFileDialog::GetOptions (shobjidl_core.h)
 description: Gets the current flags that are set to control dialog behavior.
+helpviewer_keywords: ["GetOptions","GetOptions method [Windows Shell]","GetOptions method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","GetOptions method","IFileDialog.GetOptions","IFileDialog::GetOptions","shell.IFileDialog_GetOptions","shell_IFileDialog_GetOptions","shobjidl_core/IFileDialog::GetOptions"]
 old-location: shell\IFileDialog_GetOptions.htm
 tech.root: shell
 ms.assetid: 8a01b64d-b58e-4470-a5ed-8cf821b26c6b
@@ -61,7 +62,7 @@ Gets the current flags that are set to control dialog behavior.
 
 Type: <b>FILEOPENDIALOGOPTIONS*</b>
 
-When this method returns successfully, points to a value made up of one or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
+When this method returns successfully, points to a value made up of one or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
 
 
 ## -returns

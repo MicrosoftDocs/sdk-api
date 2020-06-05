@@ -2,6 +2,7 @@
 UID: NF:netfw.INetFwProduct.get_RuleCategories
 title: INetFwProduct::get_RuleCategories (netfw.h)
 description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall.
+helpviewer_keywords: ["INetFwProduct interface [ICS/ICF]","RuleCategories property","INetFwProduct.RuleCategories","INetFwProduct.get_RuleCategories","INetFwProduct::RuleCategories","INetFwProduct::get_RuleCategories","INetFwProduct::put_RuleCategories","RuleCategories property [ICS/ICF]","RuleCategories property [ICS/ICF]","INetFwProduct interface","get_RuleCategories","ics.inetfwproduct_rulecategories","netfw/INetFwProduct::RuleCategories","netfw/INetFwProduct::get_RuleCategories","netfw/INetFwProduct::put_RuleCategories"]
 old-location: ics\inetfwproduct_rulecategories.htm
 tech.root: ics
 ms.assetid: 77e16df3-aab6-4e5f-b0e5-c203379fc6e8
@@ -68,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_rule_category_">NET_FW_RULE_CATEGORY</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>
  
 
  

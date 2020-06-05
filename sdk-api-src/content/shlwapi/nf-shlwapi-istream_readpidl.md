@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IStream_ReadPidl
 title: IStream_ReadPidl function (shlwapi.h)
-description: Reads a pointer to an item identifier list (PIDL) from an IStream object into a PIDLIST_RELATIVE object.
+description: Reads a pointer to an item identifier list (PIDL) from an IStream object into a PIDLIST_RELATIVE object.helpviewer_keywords: ["IStream_ReadPidl","IStream_ReadPidl function [Windows Shell]","_shell_IStream_ReadPidl","shell.IStream_ReadPidl","shlwapi/IStream_ReadPidl"]
 old-location: shell\IStream_ReadPidl.htm
 tech.root: shell
 ms.assetid: 63b1f842-139b-4558-8105-4986ce592b56

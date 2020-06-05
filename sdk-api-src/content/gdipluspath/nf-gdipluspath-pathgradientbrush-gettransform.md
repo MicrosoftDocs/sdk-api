@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetTransform
 title: PathGradientBrush::GetTransform (gdipluspath.h)
-description: The PathGradientBrush::GetTransform method gets transformation matrix of this path gradient brush.
+description: The PathGradientBrush::GetTransform method gets transformation matrix of this path gradient brush.helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetTransform method","PathGradientBrush.GetTransform","PathGradientBrush::GetTransform","_gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\gettransform_69matrix.htm

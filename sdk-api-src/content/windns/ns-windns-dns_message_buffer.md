@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DNS_MESSAGE_BUFFER
 title: DNS_MESSAGE_BUFFER (windns.h)
-description: The DNS_MESSAGE_BUFFER structure stores message information for DNS queries.
+description: The DNS_MESSAGE_BUFFER structure stores message information for DNS queries.helpviewer_keywords: ["*PDNS_MESSAGE_BUFFER","DNS_MESSAGE_BUFFER","DNS_MESSAGE_BUFFER structure [DNS]","PDNS_MESSAGE_BUFFER","PDNS_MESSAGE_BUFFER structure pointer [DNS]","_dns_dns_message_buffer","dns.dns_message_buffer","windns/DNS_MESSAGE_BUFFER","windns/PDNS_MESSAGE_BUFFER"]
 old-location: dns\dns_message_buffer.htm
 tech.root: DNS
 ms.assetid: 2a6fdf8f-ac30-4e32-9cde-67d41ddef8af

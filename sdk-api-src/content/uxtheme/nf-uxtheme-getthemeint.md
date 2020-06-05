@@ -1,7 +1,7 @@
 ---
 UID: NF:uxtheme.GetThemeInt
 title: GetThemeInt function (uxtheme.h)
-description: Retrieves the value of an int property.
+description: Retrieves the value of an int property.helpviewer_keywords: ["GetThemeInt","GetThemeInt function [Windows Controls]","controls.GetThemeInt","controls.inet_GetThemeInt","inet_GetThemeInt","inet_GetThemeInt_cpp","uxtheme/GetThemeInt"]
 old-location: controls\GetThemeInt.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeint.htm

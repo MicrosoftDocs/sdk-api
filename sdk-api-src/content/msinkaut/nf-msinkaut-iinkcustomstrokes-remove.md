@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Remove
 title: IInkCustomStrokes::Remove (msinkaut.h)
-description: Removes the InkStrokes collection from the IInkCustomStrokes collection.
+description: Removes the InkStrokes collection from the IInkCustomStrokes collection.helpviewer_keywords: ["11cd07f2-0f02-42d6-8bab-b95456ed1926","IInkCustomStrokes interface [Tablet PC]","Remove method","IInkCustomStrokes.Remove","IInkCustomStrokes::Remove","Remove","Remove method [Tablet PC]","Remove method [Tablet PC]","IInkCustomStrokes interface","msinkaut/IInkCustomStrokes::Remove","tablet.iinkcustromstrokes_remove"]
 old-location: tablet\iinkcustromstrokes_remove.htm
 tech.root: tablet
 ms.assetid: 11cd07f2-0f02-42d6-8bab-b95456ed1926

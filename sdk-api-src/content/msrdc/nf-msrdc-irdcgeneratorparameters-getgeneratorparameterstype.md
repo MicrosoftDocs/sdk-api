@@ -2,6 +2,7 @@
 UID: NF:msrdc.IRdcGeneratorParameters.GetGeneratorParametersType
 title: IRdcGeneratorParameters::GetGeneratorParametersType (msrdc.h)
 description: Returns the specific type of the parameters.
+helpviewer_keywords: ["GetGeneratorParametersType","GetGeneratorParametersType method [Remote Differential Compression]","GetGeneratorParametersType method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetGeneratorParametersType method","IRdcGeneratorParameters.GetGeneratorParametersType","IRdcGeneratorParameters::GetGeneratorParametersType","fs.irdcgeneratorparameters_getgeneratorparameterstype","msrdc/IRdcGeneratorParameters::GetGeneratorParametersType","rdc.irdcgeneratorparameters_getgeneratorparameterstype"]
 old-location: rdc\irdcgeneratorparameters_getgeneratorparameterstype.htm
 tech.root: rdc
 ms.assetid: d9fd60d5-a542-4a00-becd-85c7dafbe105
@@ -61,7 +62,7 @@ The
 
 ### -param parametersType [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> that will receive the type of the parameters.
+The address of a <a href="/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> that will receive the type of the parameters.
 
 
 ## -returns
@@ -78,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
+<a href="/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
 
 
 

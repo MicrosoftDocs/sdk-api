@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATCDFOpen
 title: CryptCATCDFOpen function (mscat.h)
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
+helpviewer_keywords: ["CryptCATCDFOpen","CryptCATCDFOpen function [Security]","mscat/CryptCATCDFOpen","security.cryptcatcdfopen"]
 old-location: security\cryptcatcdfopen.htm
 tech.root: SecCrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATCDFOpen</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure.   <b>CryptCATCDFOpen</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
+The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.   <b>CryptCATCDFOpen</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 
 ## -parameters
@@ -73,7 +74,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 
 
-Upon success, this function returns a pointer to the newly created [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure. The <b>CryptCATCDFOpen</b> function returns a <b>NULL</b> pointer if it fails.
+Upon success, this function returns a pointer to the newly created [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure. The <b>CryptCATCDFOpen</b> function returns a <b>NULL</b> pointer if it fails.
 
 
 
@@ -190,7 +191,7 @@ CAT_MEMBERINFO2_OBJID
 
 
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a>
+[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 

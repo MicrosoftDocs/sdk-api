@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_Session_CreateInstance
 title: MI_Session_CreateInstance function (mi.h)
-description: Creates an instance on the server that the session represents.
+description: Creates an instance on the server that the session represents.helpviewer_keywords: ["MI_Session_CreateInstance","MI_Session_CreateInstance function [Windows Management Infrastructure (MI)]","mi/MI_Session_CreateInstance","wmi_v2.mi_session_createinstance"]
 old-location: wmi_v2\mi_session_createinstance.htm
 tech.root: wmi_v2
 ms.assetid: ad4df737-4438-4bcd-8b58-ae5c6b25e95f

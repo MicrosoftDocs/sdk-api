@@ -1,7 +1,7 @@
 ---
 UID: NC:timeprov.GetTimeSysInfoFunc
 title: GetTimeSysInfoFunc (timeprov.h)
-description: Retrieves the system time state information.
+description: Retrieves the system time state information.helpviewer_keywords: ["GetTimeSysInfoFunc","GetTimeSysInfoFunc callback","GetTimeSysInfoFunc callback function","TSI_ClockPrecision","TSI_ClockTickSize","TSI_CurrentTime","TSI_LastSyncTime","TSI_LeapFlags","TSI_PhaseOffset","TSI_PollInterval","TSI_ReferenceIdentifier","TSI_RootDelay","TSI_RootDispersion","TSI_Stratum","TSI_TSFlags","TSI_TickCount","_win32_gettimesysinfo","base.gettimesysinfo","timeprov/GetTimeSysInfoFunc"]
 old-location: base\gettimesysinfo.htm
 tech.root: SysInfo
 ms.assetid: e1b527e2-ab7c-4106-b203-e74b4ce2a89b

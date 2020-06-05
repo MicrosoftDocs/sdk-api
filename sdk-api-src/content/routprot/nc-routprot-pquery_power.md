@@ -1,7 +1,7 @@
 ---
 UID: NC:routprot.PQUERY_POWER
 title: PQUERY_POWER (routprot.h)
-description: The QueryPower function is reserved for future use.
+description: The QueryPower function is reserved for future use.helpviewer_keywords: ["PQUERY_POWER","PQUERY_POWER callback","QueryPower","QueryPower callback function [RAS]","_mpr_querypower","routprot/QueryPower","rras.querypower"]
 old-location: rras\querypower.htm
 tech.root: RRAS
 ms.assetid: 591082fb-ef1e-4271-bf6c-d5034bdbae99

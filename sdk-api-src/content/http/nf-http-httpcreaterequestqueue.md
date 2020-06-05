@@ -1,7 +1,7 @@
 ---
 UID: NF:http.HttpCreateRequestQueue
 title: HttpCreateRequestQueue function (http.h)
-description: Creates a new request queue or opens an existing request queue.
+description: Creates a new request queue or opens an existing request queue.helpviewer_keywords: ["HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER","HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING","HttpCreateRequestQueue","HttpCreateRequestQueue function [HTTP]","http.httpcreaterequestqueue","http/HttpCreateRequestQueue"]
 old-location: http\httpcreaterequestqueue.htm
 tech.root: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c

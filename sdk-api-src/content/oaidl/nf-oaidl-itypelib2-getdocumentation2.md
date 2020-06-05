@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetDocumentation2
 title: ITypeLib2::GetDocumentation2 (oaidl.h)
-description: Retrieves the library's documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.
+description: Retrieves the library's documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.helpviewer_keywords: ["GetDocumentation2","GetDocumentation2 method [Automation]","GetDocumentation2 method [Automation]","ITypeLib2 interface","ITypeLib2 interface [Automation]","GetDocumentation2 method","ITypeLib2.GetDocumentation2","ITypeLib2::GetDocumentation2","_oa96_ITypeLib2_GetDocumentation2","automat.itypelib2_getdocumentation2","oaidl/ITypeLib2::GetDocumentation2"]
 old-location: automat\itypelib2_getdocumentation2.htm
 tech.root: automat
 ms.assetid: 976e3258-5dba-4d0c-916d-75449f869363

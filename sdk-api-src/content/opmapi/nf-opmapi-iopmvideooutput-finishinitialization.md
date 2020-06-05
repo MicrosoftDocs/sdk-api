@@ -2,6 +2,7 @@
 UID: NF:opmapi.IOPMVideoOutput.FinishInitialization
 title: IOPMVideoOutput::FinishInitialization (opmapi.h)
 description: Completes the initialization sequence for an Output Protection Manager (OPM) session.
+helpviewer_keywords: ["FinishInitialization","FinishInitialization method [Media Foundation]","FinishInitialization method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","FinishInitialization method","IOPMVideoOutput.FinishInitialization","IOPMVideoOutput::FinishInitialization","mf.iopmvideooutput_iopmvideooutput__finishinitialization","opmapi/IOPMVideoOutput::FinishInitialization"]
 old-location: mf\iopmvideooutput_iopmvideooutput__finishinitialization.htm
 tech.root: medfound
 ms.assetid: 7551e374-8745-405b-9879-d35a92d661ea
@@ -59,7 +60,7 @@ Completes the initialization sequence for an Output Protection Manager (OPM) ses
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
+Pointer to an <a href="/windows/win32/api/ksopmapi/ns-ksopmapi-opm_encrypted_initialization_parameters">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
 
 
 ## -returns

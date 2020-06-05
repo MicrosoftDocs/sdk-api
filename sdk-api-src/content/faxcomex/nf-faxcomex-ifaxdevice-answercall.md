@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.AnswerCall
 title: IFaxDevice::AnswerCall (faxcomex.h)
-description: The IFaxDevice::AnswerCall method causes the fax device to answer an incoming call.
+description: The IFaxDevice::AnswerCall method causes the fax device to answer an incoming call.helpviewer_keywords: ["AnswerCall","AnswerCall method [Fax Service]","AnswerCall method [Fax Service]","IFaxDevice interface","IFaxDevice interface [Fax Service]","AnswerCall method","IFaxDevice.AnswerCall","IFaxDevice::AnswerCall","_mfax_faxdevice.answercall","fax._mfax_faxdevice_answercall","fax._mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp","faxcomex/IFaxDevice::AnswerCall"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_answercall_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_76uk.htm

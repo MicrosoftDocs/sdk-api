@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_progress
 title: IWMPSyncDevice::get_progress (wmp.h)
-description: The get_progress method retrieves a value that indicates the synchronization progress as percent complete.
+description: The get_progress method retrieves a value that indicates the synchronization progress as percent complete.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_progress method","IWMPSyncDevice.get_progress","IWMPSyncDevice::get_progress","IWMPSyncDeviceget_progress","get_progress","get_progress method [Windows Media Player]","get_progress method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_get_progress","wmp/IWMPSyncDevice::get_progress"]
 old-location: wmp\iwmpsyncdevice_get_progress.htm
 tech.root: WMP
 ms.assetid: bc125107-0013-4c5b-aa44-9d48557d370d

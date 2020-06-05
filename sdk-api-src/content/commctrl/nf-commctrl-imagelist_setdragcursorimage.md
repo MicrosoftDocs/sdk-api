@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_SetDragCursorImage
 title: ImageList_SetDragCursorImage function (commctrl.h)
-description: Creates a new drag image by combining the specified image (typically a mouse cursor image) with the current drag image.
+description: Creates a new drag image by combining the specified image (typically a mouse cursor image) with the current drag image.helpviewer_keywords: ["ImageList_SetDragCursorImage","ImageList_SetDragCursorImage function [Windows Controls]","_win32_ImageList_SetDragCursorImage","_win32_ImageList_SetDragCursorImage_cpp","commctrl/ImageList_SetDragCursorImage","controls.ImageList_SetDragCursorImage","controls._win32_ImageList_SetDragCursorImage"]
 old-location: controls\ImageList_SetDragCursorImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setdragcursorimage.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetTraceStats
 title: ID3D11ShaderTrace::GetTraceStats (d3d11shadertracing.h)
-description: Returns statistics about the trace.
+description: Returns statistics about the trace.helpviewer_keywords: ["GetTraceStats","GetTraceStats method [Direct3D 11]","GetTraceStats method [Direct3D 11]","ID3D11ShaderTrace interface","ID3D11ShaderTrace interface [Direct3D 11]","GetTraceStats method","ID3D11ShaderTrace.GetTraceStats","ID3D11ShaderTrace::GetTraceStats","d3d11shadertracing/ID3D11ShaderTrace::GetTraceStats","direct3d11.id3d11shadertrace_gettracestats"]
 old-location: direct3d11\id3d11shadertrace_gettracestats.htm
 tech.root: direct3d11
 ms.assetid: 5E61F61B-C438-4B24-8F0C-45C0583BCE08

@@ -2,6 +2,7 @@
 UID: NF:winuser.UnregisterPointerInputTarget
 title: UnregisterPointerInputTarget function (winuser.h)
 description: Allows the caller to unregister a target window to which all pointer input of the specified type is redirected.
+helpviewer_keywords: ["UnregisterPointerInputTarget","UnregisterPointerInputTarget function [Windows Accessibility]","inputmsg.getactivepointers","winauto.unregisterpointerinputtarget","winuser/UnregisterPointerInputTarget"]
 old-location: winauto\unregisterpointerinputtarget.htm
 tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1800
@@ -68,7 +69,7 @@ Window to be un-registered as a global redirection target on its desktop.
 
 ### -param pointerType [in]
 
-Type of pointer input to no longer be redirected to the specified window. This is any valid and supported value from the <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE </a> enumeration. Note that the generic <b>PT_POINTER</b> type and the<b> PT_MOUSE</b> type are not valid in this parameter.
+Type of pointer input to no longer be redirected to the specified window. This is any valid and supported value from the <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE </a> enumeration. Note that the generic <b>PT_POINTER</b> type and the<b> PT_MOUSE</b> type are not valid in this parameter.
 
 
 ## -returns

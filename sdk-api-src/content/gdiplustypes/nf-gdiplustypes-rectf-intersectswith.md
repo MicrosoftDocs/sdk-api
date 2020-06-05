@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.RectF.IntersectsWith
 title: RectF::IntersectsWith (gdiplustypes.h)
-description: The RectF::IntersectsWith method determines whether this rectangle intersects another rectangle.
+description: The RectF::IntersectsWith method determines whether this rectangle intersects another rectangle.helpviewer_keywords: ["IntersectsWith","IntersectsWith method [GDI+]","IntersectsWith method [GDI+]","RectF class","RectF class [GDI+]","IntersectsWith method","RectF.IntersectsWith","RectF::IntersectsWith","_gdiplus_CLASS_RectF_IntersectsWith_rect_","gdiplus._gdiplus_CLASS_RectF_IntersectsWith_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_IntersectsWith_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\intersectswith_96rect.htm

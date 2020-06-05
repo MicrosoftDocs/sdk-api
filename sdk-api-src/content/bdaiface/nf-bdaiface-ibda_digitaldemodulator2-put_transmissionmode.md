@@ -1,7 +1,7 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_TransmissionMode
 title: IBDA_DigitalDemodulator2::put_TransmissionMode (bdaiface.h)
-description: Sets the demodulator's transmission mode.
+description: Sets the demodulator's transmission mode.helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","put_TransmissionMode method","IBDA_DigitalDemodulator2.put_TransmissionMode","IBDA_DigitalDemodulator2::put_TransmissionMode","bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode","mstv.ibda_digitaldemodulator2_put_transmissionmode","put_TransmissionMode","put_TransmissionMode method [Microsoft TV Technologies]","put_TransmissionMode method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface"]
 old-location: mstv\ibda_digitaldemodulator2_put_transmissionmode.htm
 tech.root: mstv
 ms.assetid: e10c63a5-7025-49a7-9b2e-6043fabf2999

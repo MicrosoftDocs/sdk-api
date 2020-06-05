@@ -2,6 +2,7 @@
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_PEER_STATE
 title: WLAN_HOSTED_NETWORK_PEER_STATE (wlanapi.h)
 description: Contains information about the peer state for a peer on the wireless Hosted Network.
+helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_PEER_STATE","PWLAN_HOSTED_NETWORK_PEER_STATE","PWLAN_HOSTED_NETWORK_PEER_STATE structure pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_PEER_STATE","WLAN_HOSTED_NETWORK_PEER_STATE structure [NativeWIFI]","nwifi.wlan_hosted_network_peer_state","wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE","wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE"]
 old-location: nwifi\wlan_hosted_network_peer_state.htm
 tech.root: NativeWiFi
 ms.assetid: f42f7100-45c8-4dd3-ae01-07740cace871
@@ -85,11 +86,11 @@ The <b>WLAN_HOSTED_NETWORK_PEER_STATE</b> structure is an extension to native wi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
+<a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_hosted_network_peer_auth_state">WLAN_HOSTED_NETWORK_PEER_AUTH_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_hosted_network_peer_auth_state">WLAN_HOSTED_NETWORK_PEER_AUTH_STATE</a>
 
 
 

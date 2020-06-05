@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStatusChange
 title: ITextStoreACPSink::OnStatusChange (textstor.h)
-description: ITextStoreACPSink::OnStatusChange method
+description: ITextStoreACPSink::OnStatusChange methodhelpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnStatusChange method","ITextStoreACPSink.OnStatusChange","ITextStoreACPSink::OnStatusChange","OnStatusChange","OnStatusChange method [Text Services Framework]","OnStatusChange method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onstatuschange_ref","textstor/ITextStoreACPSink::OnStatusChange","tsf.itextstoreacpsink_onstatuschange"]
 old-location: tsf\itextstoreacpsink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 44ecc116-e6f3-48dd-9bff-16d3c1e4cc97

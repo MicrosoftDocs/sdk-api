@@ -1,7 +1,7 @@
 ---
 UID: NE:webservices.__unnamed_enum_106
 title: WS_POLICY_PROPERTY_ID (webservices.h)
-description: Identifies each policy property and its associated value.
+description: Identifies each policy property and its associated value.helpviewer_keywords: ["WS_POLICY_PROPERTY_ID","WS_POLICY_PROPERTY_ID enumeration [Web Services for Windows]","WS_POLICY_PROPERTY_MAX_ALTERNATIVES","WS_POLICY_PROPERTY_MAX_DEPTH","WS_POLICY_PROPERTY_MAX_EXTENSIONS","WS_POLICY_PROPERTY_STATE","webservices/WS_POLICY_PROPERTY_ID","webservices/WS_POLICY_PROPERTY_MAX_ALTERNATIVES","webservices/WS_POLICY_PROPERTY_MAX_DEPTH","webservices/WS_POLICY_PROPERTY_MAX_EXTENSIONS","webservices/WS_POLICY_PROPERTY_STATE","wsw.ws_policy_property_id"]
 old-location: wsw\ws_policy_property_id.htm
 tech.root: wsw
 ms.assetid: 503d39c0-7546-429d-b8e3-66e80c76b7c1

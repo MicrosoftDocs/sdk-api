@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsSwProvider
 title: IVdsSwProvider (vds.h)
-description: Provides methods to perform operations specific to the software provider.
+description: Provides methods to perform operations specific to the software provider.helpviewer_keywords: ["IVdsSwProvider","IVdsSwProvider interface [VDS]","IVdsSwProvider interface [VDS]","described","base.ivdsswprovider","vds/IVdsSwProvider"]
 old-location: base\ivdsswprovider.htm
 tech.root: VDS
 ms.assetid: 0602d4d6-a31d-4425-ad21-a267c6e1dd7b

@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def._WSABUF
 title: WSABUF (ws2def.h)
-description: The WSABUF structure enables the creation or manipulation of a data buffer used by some Winsock functions.
+description: The WSABUF structure enables the creation or manipulation of a data buffer used by some Winsock functions.helpviewer_keywords: ["*LPWSABUF","LPWSABUF","LPWSABUF structure pointer [Winsock]","WSABUF","WSABUF structure [Winsock]","WSABUFA","_win32_wsabuf_2","winsock.wsabuf_2","ws2def/LPWSABUF","ws2def/WSABUF"]
 old-location: winsock\wsabuf_2.htm
 tech.root: WinSock
 ms.assetid: a012c3ba-67fd-4fcf-84d1-85e9d495c29c

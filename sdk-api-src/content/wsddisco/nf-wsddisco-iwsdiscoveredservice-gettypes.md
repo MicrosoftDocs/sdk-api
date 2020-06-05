@@ -1,7 +1,7 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetTypes
 title: IWSDiscoveredService::GetTypes (wsddisco.h)
-description: Retrieves a list of WS-Discovery Types.
+description: Retrieves a list of WS-Discovery Types.helpviewer_keywords: ["GetTypes","GetTypes method","GetTypes method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetTypes method","IWSDiscoveredService.GetTypes","IWSDiscoveredService::GetTypes","ncd.iwsdiscoveredservice_gettypes","wsddisco/IWSDiscoveredService::GetTypes"]
 old-location: ncd\iwsdiscoveredservice_gettypes.htm
 tech.root: WsdApi
 ms.assetid: fda4def4-4c1d-49a7-bfc1-56ff744a7a9d

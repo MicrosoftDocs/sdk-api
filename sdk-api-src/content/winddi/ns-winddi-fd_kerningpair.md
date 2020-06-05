@@ -1,7 +1,7 @@
 ---
 UID: NS:winddi._FD_KERNINGPAIR
 title: FD_KERNINGPAIR (winddi.h)
-description: The FD_KERNINGPAIR structure is used to store information about kerning pairs.
+description: The FD_KERNINGPAIR structure is used to store information about kerning pairs.helpviewer_keywords: ["FD_KERNINGPAIR","FD_KERNINGPAIR structure [Display Devices]","display.fd_kerningpair","grstrcts_5e6126d0-b3c2-4964-ab7a-f3ec90162b7e.xml","winddi/FD_KERNINGPAIR"]
 old-location: display\fd_kerningpair.htm
 tech.root: display
 ms.assetid: 5c5eced6-a0a3-448e-bcb3-57be1b703797

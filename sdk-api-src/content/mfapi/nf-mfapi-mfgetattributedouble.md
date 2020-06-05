@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFGetAttributeDouble
 title: MFGetAttributeDouble function (mfapi.h)
-description: Returns a double value from an attribute store, or a default value if the attribute is not present.
+description: Returns a double value from an attribute store, or a default value if the attribute is not present.helpviewer_keywords: ["61a9e327-da29-45fd-8a99-e341561826af","MFGetAttributeDouble","MFGetAttributeDouble function [Media Foundation]","mf.mfgetattributedouble","mfapi/MFGetAttributeDouble"]
 old-location: mf\mfgetattributedouble.htm
 tech.root: medfound
 ms.assetid: 61a9e327-da29-45fd-8a99-e341561826af

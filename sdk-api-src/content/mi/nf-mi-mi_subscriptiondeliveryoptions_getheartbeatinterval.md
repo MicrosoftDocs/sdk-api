@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetHeartbeatInterval
 title: MI_SubscriptionDeliveryOptions_GetHeartbeatInterval function (mi.h)
-description: Gets the delivery heartbeat interval.
+description: Gets the delivery heartbeat interval.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetHeartbeatInterval","MI_SubscriptionDeliveryOptions_GetHeartbeatInterval function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetHeartbeatInterval","wmi_v2.mi_subscriptiondeliveryoptions_getheartbeatinterval"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getheartbeatinterval.htm
 tech.root: wmi_v2
 ms.assetid: 36d415f8-0bb9-4825-aa01-c42c5c91564f

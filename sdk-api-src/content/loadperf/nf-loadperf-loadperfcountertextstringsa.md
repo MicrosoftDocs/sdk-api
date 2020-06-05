@@ -1,7 +1,7 @@
 ---
 UID: NF:loadperf.LoadPerfCounterTextStringsA
 title: LoadPerfCounterTextStringsA function (loadperf.h)
-description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
+description: Loads onto the computer the performance objects and counters defined in the specified initialization file.helpviewer_keywords: ["LoadPerfCounterTextStrings","LoadPerfCounterTextStrings function [Perf]","LoadPerfCounterTextStringsA","LoadPerfCounterTextStringsW","_win32_loadperfcountertextstrings","base.loadperfcountertextstrings","loadperf/LoadPerfCounterTextStrings","loadperf/LoadPerfCounterTextStringsA","loadperf/LoadPerfCounterTextStringsW","perf.loadperfcountertextstrings"]
 old-location: perf\loadperfcountertextstrings.htm
 tech.root: perfctrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4

@@ -1,7 +1,7 @@
 ---
 UID: NN:structuredquery.IMetaData
 title: IMetaData (structuredquery.h)
-description: Provides a method for retrieving a key/value pair of strings from an IEntity, IRelationship or ISchemaProvider object.
+description: Provides a method for retrieving a key/value pair of strings from an IEntity, IRelationship or ISchemaProvider object.helpviewer_keywords: ["IMetaData","IMetaData interface [search]","IMetaData interface [search]","described","_search_IMetaData","search._search_IMetaData","structuredquery/IMetaData"]
 old-location: search\_search_IMetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\imetadata.htm

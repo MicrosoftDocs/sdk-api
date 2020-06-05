@@ -1,7 +1,7 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PreRestore
 title: IWsbApplicationRestoreSupport::PreRestore (wsbapp.h)
-description: Performs application-specific PreRestore operations.
+description: Performs application-specific PreRestore operations.helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","PreRestore method","IWsbApplicationRestoreSupport.PreRestore","IWsbApplicationRestoreSupport::PreRestore","PreRestore","PreRestore method [Windows Server Backup]","PreRestore method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_prerestore","wsbapp/IWsbApplicationRestoreSupport::PreRestore"]
 old-location: wsb\iwsbapplicationrestoresupport_prerestore.htm
 tech.root: wsb
 ms.assetid: 2e1b73f9-a931-42a2-a1b1-f939f492c449

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.ContainedBy
 title: ContainedBy function
-description: Tests whether a triangle is contained within six planes (typically a frustum).
+description: Tests whether a triangle is contained within six planes (typically a frustum).helpviewer_keywords: ["ContainedBy","ContainedBy method [DirectX Math Support APIs]","DirectX::TriangleTests.ContainedBy","dxmath.containedby"]
 old-location: dxmath\containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.TriangleTests.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

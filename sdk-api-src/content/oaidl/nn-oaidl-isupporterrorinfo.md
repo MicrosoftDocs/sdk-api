@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ISupportErrorInfo
 title: ISupportErrorInfo (oaidl.h)
-description: Ensures that error information can be propagated up the call chain correctly. Automation objects that use the error handling interfaces must implement ISupportErrorInfo.
+description: Ensures that error information can be propagated up the call chain correctly. Automation objects that use the error handling interfaces must implement ISupportErrorInfo.helpviewer_keywords: ["ISupportErrorInfo","ISupportedErrorInfo","ISupportedErrorInfo interface [Automation]","ISupportedErrorInfo interface [Automation]","described","_oa96_ISupportErrorInfo_Interface","automat.isupporterrorinfo","oaidl/ISupportErrorInfo"]
 old-location: automat\isupporterrorinfo.htm
 tech.root: automat
 ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32

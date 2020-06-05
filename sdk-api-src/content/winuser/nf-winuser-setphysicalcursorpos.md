@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.SetPhysicalCursorPos
 title: SetPhysicalCursorPos function (winuser.h)
-description: Sets the position of the cursor in physical coordinates.
+description: Sets the position of the cursor in physical coordinates.helpviewer_keywords: ["SetPhysicalCursorPos","SetPhysicalCursorPos function [Menus and Other Resources]","_win32_SetPhysicalCursorPos","_win32_setphysicalcursorpos_cpp","menurc.setphysicalcursorpos","winui._win32_setphysicalcursorpos","winuser/SetPhysicalCursorPos"]
 old-location: menurc\setphysicalcursorpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setphysicalcursorpos.htm

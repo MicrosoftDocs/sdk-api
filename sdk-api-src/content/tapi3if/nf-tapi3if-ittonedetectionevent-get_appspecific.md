@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_AppSpecific
 title: ITToneDetectionEvent::get_AppSpecific (tapi3if.h)
-description: The get_AppSpecific method gets the application-defined tag that identifies the tone associated with the tone detection event.
+description: The get_AppSpecific method gets the application-defined tag that identifies the tone associated with the tone detection event.helpviewer_keywords: ["ITToneDetectionEvent interface [TAPI 2.2]","get_AppSpecific method","ITToneDetectionEvent.get_AppSpecific","ITToneDetectionEvent::get_AppSpecific","_tapi3_ittonedetectionevent_get_appspecific","get_AppSpecific","get_AppSpecific method [TAPI 2.2]","get_AppSpecific method [TAPI 2.2]","ITToneDetectionEvent interface","tapi3.ittonedetectionevent_get_appspecific","tapi3if/ITToneDetectionEvent::get_AppSpecific"]
 old-location: tapi3\ittonedetectionevent_get_appspecific.htm
 tech.root: Tapi
 ms.assetid: 5c6c4890-7e65-4b4a-bc2f-ea3c11e5e85a

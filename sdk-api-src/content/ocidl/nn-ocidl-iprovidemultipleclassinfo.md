@@ -1,7 +1,7 @@
 ---
 UID: NN:ocidl.IProvideMultipleClassInfo
 title: IProvideMultipleClassInfo (ocidl.h)
-description: An extension to IProvideClassInfo2 that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior.
+description: An extension to IProvideClassInfo2 that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior.helpviewer_keywords: ["IProvideMultipleClassInfo","IProvideMultipleClassInfo interface [COM]","IProvideMultipleClassInfo interface [COM]","described","_com_iprovidemultipleclassinfo","com.iprovidemultipleclassinfo","ocidl/IProvideMultipleClassInfo"]
 old-location: com\iprovidemultipleclassinfo.htm
 tech.root: com
 ms.assetid: 87407830-b34b-4d4e-a5cc-551f47cffb75

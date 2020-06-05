@@ -2,6 +2,7 @@
 UID: NN:wpcapi.IWindowsParentalControlsCore
 title: IWindowsParentalControlsCore (wpcapi.h)
 description: .
+helpviewer_keywords: ["IWindowsParentalControlsCore","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","described","parcon.iwindowsparentalcontrolscore","wpcapi/IWindowsParentalControlsCore"]
 old-location: parcon\iwindowsparentalcontrolscore.htm
 tech.root: parcon
 ms.assetid: 49F43A0F-5C93-4FEC-870B-17535DE674C5
@@ -48,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+The **IWindowsParentalControlsCore** interface is used to retrieve pointers for general and web restriction settings as well as identifiers for active Web Content Filters.
 
 
 ## -inheritance
@@ -104,4 +104,3 @@ Retrieves a pointer to an interface for web restrictions settings for the specif
 </td>
 </tr>
 </table> 
-

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Item
 title: IInkExtendedProperties::Item (msinkaut.h)
-description: Retrieves the IInkExtendedProperty object at the specified index within the IInkExtendedProperties collection.
+description: Retrieves the IInkExtendedProperty object at the specified index within the IInkExtendedProperties collection.helpviewer_keywords: ["0355d9db-4456-4051-b611-dcb63657a0c7","IInkExtendedProperties interface [Tablet PC]","Item method","IInkExtendedProperties.Item","IInkExtendedProperties::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkExtendedProperties interface","msinkaut/IInkExtendedProperties::Item","tablet.iinkextendedproperties_item"]
 old-location: tablet\iinkextendedproperties_item.htm
 tech.root: tablet
 ms.assetid: 0355d9db-4456-4051-b611-dcb63657a0c7

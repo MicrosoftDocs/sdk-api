@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_CopyProtection
 title: IAMAnalogVideoEncoder::get_CopyProtection (strmif.h)
-description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CopyProtection method determines whether copy protection is currently enabled on the encoder.
+description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CopyProtection method determines whether copy protection is currently enabled on the encoder.helpviewer_keywords: ["IAMAnalogVideoEncoder interface [DirectShow]","get_CopyProtection method","IAMAnalogVideoEncoder.get_CopyProtection","IAMAnalogVideoEncoder::get_CopyProtection","IAMAnalogVideoEncoderget_CopyProtection","dshow.iamanalogvideoencoder_get_copyprotection","get_CopyProtection","get_CopyProtection method [DirectShow]","get_CopyProtection method [DirectShow]","IAMAnalogVideoEncoder interface","strmif/IAMAnalogVideoEncoder::get_CopyProtection"]
 old-location: dshow\iamanalogvideoencoder_get_copyprotection.htm
 tech.root: DirectShow
 ms.assetid: 3eedb123-c70e-4a9a-98a9-abf7ccad32dc

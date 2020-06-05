@@ -2,6 +2,7 @@
 UID: NF:mscat.CryptCATEnumerateAttr
 title: CryptCATEnumerateAttr function (mscat.h)
 description: Enumerates the attributes associated with a member of a catalog. This function has no associated import library.
+helpviewer_keywords: ["CryptCATEnumerateAttr","CryptCATEnumerateAttr function [Security]","mscat/CryptCATEnumerateAttr","security.cryptcatenumerateattr"]
 old-location: security\cryptcatenumerateattr.htm
 tech.root: SecCrypto
 ms.assetid: 064e87db-4330-4b8b-9865-ba8b9714f6e4
@@ -66,7 +67,7 @@ Handle for the catalog that contains the member identified by <i>pCatMember</i>.
 
 ### -param pCatMember [in]
 
-A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that identifies which member of the catalog is being enumerated.
+A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that identifies which member of the catalog is being enumerated.
 
 
 ### -param pPrevAttr [in]

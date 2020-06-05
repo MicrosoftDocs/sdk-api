@@ -1,7 +1,7 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRadialGradientBrush
 title: IXpsOMRadialGradientBrush (xpsobjectmodel.h)
-description: Specifies a radial gradient.
+description: Specifies a radial gradient.helpviewer_keywords: ["IXpsOMRadialGradientBrush","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","described","xps.ixpsomradialgradientbrush","xpsobjectmodel/IXpsOMRadialGradientBrush"]
 old-location: xps\ixpsomradialgradientbrush.htm
 tech.root: printdocs
 ms.assetid: 2f5b7b99-64a0-4156-8963-cfceb0d73503

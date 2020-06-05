@@ -2,6 +2,7 @@
 UID: NF:d3d12.ID3D12Device4.CreateCommittedResource1
 title: ID3D12Device4::CreateCommittedResource1
 description: Creates both a resource and an implicit heap (optionally for a protected session), such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+helpviewer_keywords: ["ID3D12Device4 interface","CreateCommittedResource1 method","ID3D12Device4.CreateCommittedResource1","ID3D12Device4::CreateCommittedResource1","CreateCommittedResource1","CreateCommittedResource1 method","CreateCommittedResource1 method","ID3D12Device4 interface","direct3d12.id3d12device4_createcommittedresource1","d3d12/ID3D12Device4::CreateCommittedResource1"]
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateCommittedResource1 method, ID3D12Device4.CreateCommittedResource1, ID3D12Device4::CreateCommittedResource1, CreateCommittedResource1, CreateCommittedResource1 method, CreateCommittedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommittedresource1, d3d12/ID3D12Device4::CreateCommittedResource1
@@ -72,9 +73,9 @@ Type: **[D3D12_RESOURCE_STATES](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource
 
 The initial state of the resource, as a bitwise-OR'd combination of **D3D12_RESOURCE_STATES** enumeration constants.
 
-When you create a resource together with a [D3D12_HEAP_TYPE_UPLOAD](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_GENERIC_READ](/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
+When you create a resource together with a [D3D12_HEAP_TYPE_UPLOAD](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_GENERIC_READ](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
 
-When you create a resource together with a [D3D12_HEAP_TYPE_READBACK](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_COPY_DEST](/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
+When you create a resource together with a [D3D12_HEAP_TYPE_READBACK](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_COPY_DEST](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ### -param pOptimizedClearValue [in, optional]
 

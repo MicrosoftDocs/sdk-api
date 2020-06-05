@@ -1,7 +1,7 @@
 ---
 UID: NS:appmgmt._MANAGEDAPPLICATION
 title: MANAGEDAPPLICATION (appmgmt.h)
-description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.
+description: The MANAGEDAPPLICATION structure contains information about an application. The function GetManagedApplications returns an array of MANAGEDAPPLICATION structures.helpviewer_keywords: ["*PMANAGEDAPPLICATION","MANAGEDAPPLICATION","MANAGEDAPPLICATION structure [Group Policy]","MANAGED_APPTYPE_SETUPEXE","MANAGED_APPTYPE_UNSUPPORTED","MANAGED_APPTYPE_WINDOWSINSTALLER","PMANAGEDAPPLICATION","PMANAGEDAPPLICATION structure pointer [Group Policy]","appmgmt/MANAGEDAPPLICATION","appmgmt/PMANAGEDAPPLICATION","policy.managedapplication_str"]
 old-location: policy\managedapplication_str.htm
 tech.root: Policy
 ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a

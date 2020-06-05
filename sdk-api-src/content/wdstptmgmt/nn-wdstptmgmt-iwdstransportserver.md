@@ -1,7 +1,7 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServer
 title: IWdsTransportServer (wdstptmgmt.h)
-description: Represents a WDS transport server. A WDS client can use an object of this interface to manage setup, configuration, and namespace tasks on the server.
+description: Represents a WDS transport server. A WDS client can use an object of this interface to manage setup, configuration, and namespace tasks on the server.helpviewer_keywords: ["IWdsTransportServer","IWdsTransportServer interface [Windows Deployment Services]","IWdsTransportServer interface [Windows Deployment Services]","described","wds.iwdstransportserver","wdstptmgmt/IWdsTransportServer"]
 old-location: wds\iwdstransportserver.htm
 tech.root: wds
 ms.assetid: 0129658d-8725-4020-ae9c-9d0a44075561

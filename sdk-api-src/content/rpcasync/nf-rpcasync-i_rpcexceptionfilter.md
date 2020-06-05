@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcasync.I_RpcExceptionFilter
 title: I_RpcExceptionFilter
-description: Determines whether an exception is fatal or non-fatal
+description: Determines whether an exception is fatal or non-fatalhelpviewer_keywords: ["I_RpcExceptionFilter"]
 ms.date: 4/26/2019
 ms.keywords: I_RpcExceptionFilter
 f1_keywords:

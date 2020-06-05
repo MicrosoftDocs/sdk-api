@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.IBlockRange
 title: IBlockRange (imapi2.h)
-description: Use this interface to retrieve information about a single continuous range of sectors on the media. This interface is typically used together with the IBlockRangeList interface to describe a collection of sector ranges.
+description: Use this interface to retrieve information about a single continuous range of sectors on the media. This interface is typically used together with the IBlockRangeList interface to describe a collection of sector ranges.helpviewer_keywords: ["IBlockRange","IBlockRange interface [IMAPI]","IBlockRange interface [IMAPI]","described","imapi.iblockrange","imapi2/IBlockRange"]
 old-location: imapi\iblockrange.htm
 tech.root: imapi
 ms.assetid: abebc651-0575-4b76-9fe8-2cea3d617582

@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.IUIManagerEventSink
 title: IUIManagerEventSink (ctffunc.h)
-description: The IUIManagerEventSink interface is implemented by an app supporting IME UI integration to receive notifications of IME UI appearance.
+description: The IUIManagerEventSink interface is implemented by an app supporting IME UI integration to receive notifications of IME UI appearance.helpviewer_keywords: ["IUIManagerEventSink","IUIManagerEventSink interface [Text Services Framework]","IUIManagerEventSink interface [Text Services Framework]","described","ctffunc/IUIManagerEventSink","tsf.iuimanagereventsink"]
 old-location: tsf\iuimanagereventsink.htm
 tech.root: TSF
 ms.assetid: A514833B-BC60-4D87-B2C6-849003E4EA63

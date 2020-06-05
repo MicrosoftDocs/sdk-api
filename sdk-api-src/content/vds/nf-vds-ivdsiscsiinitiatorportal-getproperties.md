@@ -1,7 +1,7 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetProperties
 title: IVdsIscsiInitiatorPortal::GetProperties (vds.h)
-description: Returns the properties of an initiator portal.
+description: Returns the properties of an initiator portal.helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiInitiatorPortal interface","IVdsIscsiInitiatorPortal interface [VDS]","GetProperties method","IVdsIscsiInitiatorPortal.GetProperties","IVdsIscsiInitiatorPortal::GetProperties","base.ivdsiscsiinitiatorportal_getproperties","vds/IVdsIscsiInitiatorPortal::GetProperties"]
 old-location: base\ivdsiscsiinitiatorportal_getproperties.htm
 tech.root: VDS
 ms.assetid: 7bf00853-ca26-40b4-a09a-dcb5e7e08f49

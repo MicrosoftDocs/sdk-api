@@ -1,7 +1,7 @@
 ---
 UID: NS:shlobj_core._tagCOMPONENTSOPT
 title: COMPONENTSOPT (shlobj_core.h)
-description: Contains the desktop item options.
+description: Contains the desktop item options.helpviewer_keywords: ["*LPCOMPONENTSOPT","COMPONENTSOPT","COMPONENTSOPT structure [Windows Shell]","_tagCOMPONENTSOPT","_win32_COMPONENTSOPT","shell.COMPONENTSOPT","shlobj_core/COMPONENTSOPT"]
 old-location: shell\COMPONENTSOPT.htm
 tech.root: shell
 ms.assetid: c56a2061-903a-4777-a3fc-bb1fae1f8c43

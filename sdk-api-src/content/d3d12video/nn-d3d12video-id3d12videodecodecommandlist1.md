@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecodeCommandList1
 title: ID3D12VideoDecodeCommandList1
-description: Encapsulates a list of graphics commands for video decoding.
+helpviewer_keywords: ["- ID3D12VideoDecodeCommandList1"]
 tech.root: mf
 ms.assetid: 31a1f145-9be2-4d05-8a20-4d9906471fb6
 ms.date: 05/28/2019
@@ -38,26 +38,7 @@ targetos: Windows
 
 ## -description
 
-Encapsulates a list of graphics commands for video decoding.
-
-
-## -inheritance
-
-ID3D12VideoDecodeCommandList1 interits from [ID3D12VideoDecodeCommandList](nn-d3d12video-id3d12videodecodecommandlist.md). 
-
-## -members
-
-<p>ID3D12VideoDecodeCommandList1 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>DecodeFrame1</td>
-		<td>TBD</td>
-	</tr>
-</table>
+Encapsulates a list of graphics commands for video decoding. This interface inherits from [ID3D12VideoDecodeCommandList](nn-d3d12video-id3d12videodecodecommandlist.md) and adds support for video decode histograms.
 
 ## -remarks
 

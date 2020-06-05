@@ -1,7 +1,7 @@
 ---
 UID: NS:cmdtree.tagDBPROBABILISTIC
 title: DBPROBABILISTIC (cmdtree.h)
-description: The DBPROBABILISTIC structure is reserved for future use.
+description: The DBPROBABILISTIC structure is reserved for future use.helpviewer_keywords: ["DBPROBABILISTIC","DBPROBABILISTIC structure [Indexing Service]","_idxs_DBPROBABILISTIC","cmdtree/DBPROBABILISTIC","indexsrv.dbprobabilistic","tagDBPROBABILISTIC"]
 old-location: indexsrv\dbprobabilistic.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0vxf.htm

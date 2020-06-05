@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabQueryContactData
 title: PeerCollabQueryContactData function (p2p.h)
-description: Retrieves the contact information for the supplied peer endpoint.
+description: Retrieves the contact information for the supplied peer endpoint.helpviewer_keywords: ["PeerCollabQueryContactData","PeerCollabQueryContactData function [Peer Networking]","p2p.peercollabquerycontactdata","p2p/PeerCollabQueryContactData"]
 old-location: p2p\peercollabquerycontactdata.htm
 tech.root: P2PSdk
 ms.assetid: 278c7622-988e-441d-a6b9-f62947f881e8

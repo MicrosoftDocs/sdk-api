@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UseRestrictedCharacterSet
 title: IFileSystemImage::get_UseRestrictedCharacterSet (imapi2fs.h)
-description: Determines if the file and directory names use a restricted character.
+description: Determines if the file and directory names use a restricted character.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_UseRestrictedCharacterSet method","IFileSystemImage.get_UseRestrictedCharacterSet","IFileSystemImage::get_UseRestrictedCharacterSet","get_UseRestrictedCharacterSet","get_UseRestrictedCharacterSet method [IMAPI]","get_UseRestrictedCharacterSet method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_userestrictedcharacterset","imapi2fs/IFileSystemImage::get_UseRestrictedCharacterSet"]
 old-location: imapi\ifilesystemimage_get_userestrictedcharacterset.htm
 tech.root: imapi
 ms.assetid: 106615e8-f1d4-4ac9-b96a-bcda204f5e2c

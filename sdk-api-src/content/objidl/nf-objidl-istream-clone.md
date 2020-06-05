@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IStream.Clone
 title: IStream::Clone (objidl.h)
-description: The Clone method creates a new stream object with its own seek pointer that references the same bytes as the original stream.
+description: The Clone method creates a new stream object with its own seek pointer that references the same bytes as the original stream.helpviewer_keywords: ["Clone","Clone method [Structured Storage]","Clone method [Structured Storage]","IStream interface","IStream interface [Structured Storage]","Clone method","IStream.Clone","IStream::Clone","_stg_istream_clone","objidl/IStream::Clone","stg.istream_clone"]
 old-location: stg\istream_clone.htm
 tech.root: Stg
 ms.assetid: 677c37fb-598f-4bb0-b5d6-600e0befc722

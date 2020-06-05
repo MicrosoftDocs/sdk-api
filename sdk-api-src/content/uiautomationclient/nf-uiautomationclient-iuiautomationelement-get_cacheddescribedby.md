@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedDescribedBy
 title: IUIAutomationElement::get_CachedDescribedBy (uiautomationclient.h)
-description: Retrieves a cached array of elements that describe this element.
+description: Retrieves a cached array of elements that describe this element.helpviewer_keywords: ["CachedDescribedBy property [Windows Accessibility]","CachedDescribedBy property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedDescribedBy property","IUIAutomationElement.CachedDescribedBy","IUIAutomationElement.get_CachedDescribedBy","IUIAutomationElement::CachedDescribedBy","IUIAutomationElement::get_CachedDescribedBy","get_CachedDescribedBy","uiauto.uiauto_IUIAutomationElement_CachedDescribedBy","uiauto_IUIAutomationElement_CachedDescribedBy","uiautomationclient/IUIAutomationElement::CachedDescribedBy","uiautomationclient/IUIAutomationElement::get_CachedDescribedBy","winauto.uiauto_IUIAutomationElement_CachedDescribedBy"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedDescribedBy.htm
 tech.root: WinAuto
 ms.assetid: 705c9f5a-ef7d-4495-8de2-710a6e9f78df

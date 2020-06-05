@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_PRIVATE_HEAP
 title: LSA_FREE_PRIVATE_HEAP (ntsecpkg.h)
-description: Frees memory that was allocated by using the AllocatePrivateHeap function.
+description: Frees memory that was allocated by using the AllocatePrivateHeap function.helpviewer_keywords: ["FreePrivateHeap","FreePrivateHeap callback function [Security]","LSA_FREE_PRIVATE_HEAP","LSA_FREE_PRIVATE_HEAP callback","ntsecpkg/FreePrivateHeap","security.freeprivateheap"]
 old-location: security\freeprivateheap.htm
 tech.root: SecAuthN
 ms.assetid: f1ca1450-c59c-4c0f-b68b-373f1a7c70da

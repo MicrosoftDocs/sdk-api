@@ -1,7 +1,7 @@
 ---
 UID: NF:ddeml.DdeDisconnectList
 title: DdeDisconnectList function (ddeml.h)
-description: Destroys the specified conversation list and terminates all conversations associated with the list.
+description: Destroys the specified conversation list and terminates all conversations associated with the list.helpviewer_keywords: ["DdeDisconnectList","DdeDisconnectList function [Data Exchange]","_win32_DdeDisconnectList","_win32_ddedisconnectlist_cpp","dataxchg.ddedisconnectlist","ddeml/DdeDisconnectList","winui._win32_ddedisconnectlist"]
 old-location: dataxchg\ddedisconnectlist.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddedisconnectlist.htm

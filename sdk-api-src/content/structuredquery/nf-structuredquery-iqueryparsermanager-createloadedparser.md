@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.CreateLoadedParser
 title: IQueryParserManager::CreateLoadedParser (structuredquery.h)
-description: Creates a new instance of a IQueryParser interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+description: Creates a new instance of a IQueryParser interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.helpviewer_keywords: ["CreateLoadedParser","CreateLoadedParser method [search]","CreateLoadedParser method [search]","IQueryParserManager interface","IQueryParserManager interface [search]","CreateLoadedParser method","IQueryParserManager.CreateLoadedParser","IQueryParserManager::CreateLoadedParser","_search_IQueryParserManager_CreateLoadedParser","search._search_IQueryParserManager_CreateLoadedParser","structuredquery/IQueryParserManager::CreateLoadedParser"]
 old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm

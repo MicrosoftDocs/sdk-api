@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.Edit_GetFileLine
 title: Edit_GetFileLine macro (commctrl.h)
-description: Gets the text of the specified file (or logical) line (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINE message explicitly.
+description: Gets the text of the specified file (or logical) line (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINE message explicitly.helpviewer_keywords: ["Edit_GetFileLine","Edit_GetFileLine macro [Windows Controls]","commctrl/Edit_GetFileLine","controls.edit_getfileline"]
 old-location: controls\edit_getfileline.htm
 tech.root: Controls
 ms.assetid: F59ECED6-5584-43A9-A5F8-5502D66A29B6

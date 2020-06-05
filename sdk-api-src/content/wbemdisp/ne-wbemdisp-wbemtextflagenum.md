@@ -1,7 +1,7 @@
 ---
 UID: NE:wbemdisp.WbemTextFlagEnum
 title: WbemTextFlagEnum (wbemdisp.h)
-description: Defines the content of generated object text and is used by SWbemObject.GetObjectText_.
+description: Defines the content of generated object text and is used by SWbemObject.GetObjectText_.helpviewer_keywords: ["WbemTextFlagEnum","WbemTextFlagEnum enumeration [Windows Management Instrumentation]","_hmm_wbemtextflagenum","wbemTextFlagNoFlavors","wbemdisp/WbemTextFlagEnum","wbemdisp/wbemTextFlagNoFlavors","wmi.wbemtextflagenum"]
 old-location: wmi\wbemtextflagenum.htm
 tech.root: WmiSdk
 ms.assetid: 81384e65-5ea0-420a-b92f-e93d5e545252

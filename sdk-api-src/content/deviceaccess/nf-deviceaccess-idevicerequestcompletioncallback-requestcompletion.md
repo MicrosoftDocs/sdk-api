@@ -1,7 +1,7 @@
 ---
 UID: NF:deviceaccess.IDeviceRequestCompletionCallback.RequestCompletion
 title: IDeviceRequestCompletionCallback::RequestCompletion (deviceaccess.h)
-description: Implement the RequestCompletion method to handle the completion of calls to the DeviceIoControlAsyncmethod.
+description: Implement the RequestCompletion method to handle the completion of calls to the DeviceIoControlAsyncmethod.helpviewer_keywords: ["IDeviceRequestCompletionCallback interface [Device Access Broker API]","RequestCompletion method","IDeviceRequestCompletionCallback.RequestCompletion","IDeviceRequestCompletionCallback::RequestCompletion","RequestCompletion","RequestCompletion method [Device Access Broker API]","RequestCompletion method [Device Access Broker API]","IDeviceRequestCompletionCallback interface","deviceaccess.idevicerequestcompletioncallback_requestcompletion","deviceaccess/IDeviceRequestCompletionCallback::RequestCompletion"]
 old-location: deviceaccess\idevicerequestcompletioncallback_requestcompletion.htm
 tech.root: deviceaccess
 ms.assetid: 5cc7bd36-3b8f-40af-badc-e8fc16d4a4c5

@@ -2,6 +2,7 @@
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 title: LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 description: Returned from the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
+helpviewer_keywords: ["*PLOOKUP_STREAM_FROM_CLUSTER_ENTRY","LOOKUP_STREAM_FROM_CLUSTER_ENTRY","LOOKUP_STREAM_FROM_CLUSTER_ENTRY structure [Files]","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_DATA","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_INDEX","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_MASK","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_SYSTEM","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_DENY_DEFRAG_SET","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_FS_SYSTEM_FILE","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_PAGE_FILE","LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_TXF_SYSTEM_FILE","PLOOKUP_STREAM_FROM_CLUSTER_ENTRY","PLOOKUP_STREAM_FROM_CLUSTER_ENTRY structure pointer [Files]","fs.lookup_stream_from_cluster_entry","winioctl/LOOKUP_STREAM_FROM_CLUSTER_ENTRY","winioctl/PLOOKUP_STREAM_FROM_CLUSTER_ENTRY"]
 old-location: fs\lookup_stream_from_cluster_entry.htm
 tech.root: FileIO
 ms.assetid: 2f4de631-8bb4-4b2a-a750-43f06554b22f
@@ -51,7 +52,7 @@ req.redist:
 Returned from the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
     code. Zero or more of these structures follow the 
-    <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
+    <a href="/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
     structure in the output buffer returned.
 
 
@@ -207,7 +208,7 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
 
 
 

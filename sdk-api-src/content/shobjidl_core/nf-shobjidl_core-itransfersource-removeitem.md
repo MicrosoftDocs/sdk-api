@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.ITransferSource.RemoveItem
 title: ITransferSource::RemoveItem (shobjidl_core.h)
 description: Removes the item without moving the item to the Recycle Bin.
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","RemoveItem method","ITransferSource.RemoveItem","ITransferSource::RemoveItem","RemoveItem","RemoveItem method [Windows Shell]","RemoveItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_RemoveItem","shell.ITransferSource_RemoveItem","shobjidl_core/ITransferSource::RemoveItem"]
 old-location: shell\ITransferSource_RemoveItem.htm
 tech.root: shell
 ms.assetid: 53084f0d-cf78-437a-ae04-43fd78cb9839
@@ -66,9 +67,9 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjid
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ## -returns

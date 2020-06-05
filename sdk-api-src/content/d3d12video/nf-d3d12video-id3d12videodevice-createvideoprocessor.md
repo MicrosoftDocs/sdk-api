@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice.CreateVideoProcessor
 title: ID3D12VideoDevice::CreateVideoProcessor
-description: Creates a video processor instance.
+description: Creates a video processor instance.helpviewer_keywords: ["ID3D12VideoDevice::CreateVideoProcessor","CreateVideoProcessor","ID3D12VideoDevice.CreateVideoProcessor","ID3D12VideoDevice::CreateVideoProcessor","ID3D12VideoDevice.CreateVideoProcessor"]
 tech.root: mf
 ms.assetid: f19f0bfe-4b60-4f96-af85-fe7fec824875
 ms.date: 05/28/2019

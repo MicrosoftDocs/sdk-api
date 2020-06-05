@@ -1,7 +1,7 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_DNS_SUFFIX
 title: IP_ADAPTER_DNS_SUFFIX (iptypes.h)
-description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.
+description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.helpviewer_keywords: ["*PIP_ADAPTER_DNS_SUFFIX","IP_ADAPTER_DNS_SUFFIX","IP_ADAPTER_DNS_SUFFIX structure [IP Helper]","PIP_ADAPTER_DNS_SUFFIX","PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper]","iphlp.ip_adapter_dns_suffix","iptypes/IP_ADAPTER_DNS_SUFFIX","iptypes/PIP_ADAPTER_DNS_SUFFIX"]
 old-location: iphlp\ip_adapter_dns_suffix.htm
 tech.root: IpHlp
 ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6

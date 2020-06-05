@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetOptionCount
 title: MI_SubscriptionDeliveryOptions_GetOptionCount function (mi.h)
-description: Gets the number of previously set options.
+description: Gets the number of previously set options.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetOptionCount","MI_SubscriptionDeliveryOptions_GetOptionCount function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetOptionCount","wmi_v2.mi_subscriptiondeliveryoptions_getoptioncount"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptioncount.htm
 tech.root: wmi_v2
 ms.assetid: 695a4ec8-4e6b-4a3d-800b-fa0edfab5ca2

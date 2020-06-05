@@ -1,7 +1,7 @@
 ---
 UID: NF:wtypesbase.OLESTR
 title: OLESTR macro (wtypesbase.h)
-description: Transforms string literals into Unicode strings.
+description: Transforms string literals into Unicode strings.helpviewer_keywords: ["OLESTR","OLESTR macro [COM]","_com_OLESTR","com.olestr","com.olestr_macro","wtypesbase/OLESTR"]
 old-location: com\olestr_macro.htm
 tech.root: com
 ms.assetid: bf3341a0-5b1d-479b-998d-a61bb945e0c3

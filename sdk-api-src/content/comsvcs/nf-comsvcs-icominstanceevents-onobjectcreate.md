@@ -2,6 +2,7 @@
 UID: NF:comsvcs.IComInstanceEvents.OnObjectCreate
 title: IComInstanceEvents::OnObjectCreate (comsvcs.h)
 description: Generated when an object is created by a client.
+helpviewer_keywords: ["IComInstanceEvents interface [COM+]","OnObjectCreate method","IComInstanceEvents.OnObjectCreate","IComInstanceEvents::OnObjectCreate","OnObjectCreate","OnObjectCreate method [COM+]","OnObjectCreate method [COM+]","IComInstanceEvents interface","_dtc_icominstanceevents_onobjectcreate","comsvcs/IComInstanceEvents::OnObjectCreate","cos.icominstanceevents_onobjectcreate"]
 old-location: cos\icominstanceevents_onobjectcreate.htm
 tech.root: cossdk
 ms.assetid: 4f3457f6-4956-4411-b38b-46c7d84d342d
@@ -59,7 +60,7 @@ Generated when an object is created by a client.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]

@@ -1,7 +1,7 @@
 ---
 UID: NN:wcsplugin.IDeviceModelPlugIn
 title: IDeviceModelPlugIn (wcsplugin.h)
-description: Describes the methods that are defined for the IDeviceModelPlugIn Component Object Model (COM) interface.
+description: Describes the methods that are defined for the IDeviceModelPlugIn Component Object Model (COM) interface.helpviewer_keywords: ["IDeviceModelPlugIn","IDeviceModelPlugIn interface [Windows Color System]","IDeviceModelPlugIn interface [Windows Color System]","described","_color_IDeviceModelPlugIn","wcs.idevicemodelplugin","wcsplugin/IDeviceModelPlugIn"]
 old-location: wcs\idevicemodelplugin.htm
 tech.root: WCS
 ms.assetid: 90541ec2-c0ab-4f98-906b-3e58f8f5cc03

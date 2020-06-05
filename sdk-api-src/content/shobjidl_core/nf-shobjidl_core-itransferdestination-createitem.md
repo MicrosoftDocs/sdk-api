@@ -2,6 +2,7 @@
 UID: NF:shobjidl_core.ITransferDestination.CreateItem
 title: ITransferDestination::CreateItem (shobjidl_core.h)
 description: Creates the specified file.
+helpviewer_keywords: ["CreateItem","CreateItem method [Windows Shell]","CreateItem method [Windows Shell]","ITransferDestination interface","ITransferDestination interface [Windows Shell]","CreateItem method","ITransferDestination.CreateItem","ITransferDestination::CreateItem","_shell_ITransferDestination_CreateItem","shell.ITransferDestination_CreateItem","shobjidl_core/ITransferDestination::CreateItem"]
 old-location: shell\ITransferDestination_CreateItem.htm
 tech.root: shell
 ms.assetid: 56a02dd1-2118-4585-b6e9-8223c086b48a
@@ -80,9 +81,9 @@ The size, in bytes, of the file to create. This value can be 0 if the size is un
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> flags.
+Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> flags.
 
 
 ### -param riidItem [out]

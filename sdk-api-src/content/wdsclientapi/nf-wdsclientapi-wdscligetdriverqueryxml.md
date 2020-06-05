@@ -2,6 +2,7 @@
 UID: NF:wdsclientapi.WdsCliGetDriverQueryXml
 title: WdsCliGetDriverQueryXml function (wdsclientapi.h)
 description: This function generates an XML string which can be used to query a WDS server for driver packages using the WdsCliObtainDriverPackagesEx function.
+helpviewer_keywords: ["WdsCliGetDriverQueryXml","WdsCliGetDriverQueryXml function [Windows Deployment Services]","wds.wdscligetdriverqueryxml","wdsclientapi/WdsCliGetDriverQueryXml"]
 old-location: wds\wdscligetdriverqueryxml.htm
 tech.root: wds
 ms.assetid: 0E5ABBBD-CD8A-4D0B-9D4B-5044278961D8
@@ -64,7 +65,7 @@ The path to the Windows directory of the applied image. This parameter is option
 
 ### -param ppwszDriverQuery [out]
 
-A pointer to a pointer to a string that receives the generated WDS driver query XML. The caller has to free this buffer using "delete[](*ppwszDriverQuery)".
+A pointer to a pointer to a string that receives the generated WDS driver query XML. The caller has to free this buffer using "delete\[\]\(\*ppwszDriverQuery\)".
 
 
 ## -returns

@@ -1,7 +1,7 @@
 ---
 UID: NS:cfapi.CF_PROCESS_INFO
 title: CF_PROCESS_INFO (cfapi.h)
-description: Contains information about a user process.
+description: Contains information about a user process.helpviewer_keywords: ["CF_PROCESS_INFO","CF_PROCESS_INFO structure","cfapi/CF_PROCESS_INFO","cloudApi.cf_process_info"]
 old-location: cloudapi\cf_process_info.htm
 tech.root: cfApi
 ms.assetid: 912433E9-DC49-41BA-85F7-1A0AF9F88159

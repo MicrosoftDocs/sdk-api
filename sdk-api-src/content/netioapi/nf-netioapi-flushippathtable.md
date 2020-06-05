@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.FlushIpPathTable
 title: FlushIpPathTable function (netioapi.h)
-description: The FlushIpPathTable function flushes the IP path table on the local computer.
+description: The FlushIpPathTable function flushes the IP path table on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","FlushIpPathTable","FlushIpPathTable function [IP Helper]","iphlp.flushippathtable","netioapi/FlushIpPathTable"]
 old-location: iphlp\flushippathtable.htm
 tech.root: IpHlp
 ms.assetid: 3b28e0cd-9cab-41ca-b58c-7632768318c2

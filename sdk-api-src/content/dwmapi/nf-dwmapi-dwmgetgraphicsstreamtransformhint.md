@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmGetGraphicsStreamTransformHint
 title: DwmGetGraphicsStreamTransformHint function (dwmapi.h)
-description: This function is not implemented.
+description: This function is not implemented.helpviewer_keywords: ["DwmGetGraphicsStreamTransformHint","DwmGetGraphicsStreamTransformHint function [Desktop Window Manager]","_udwm_dwmgetgraphicsstreamtransformhint","_udwm_dwmgetgraphicsstreamtransformhint_cpp","dwm.dwmgetgraphicsstreamtransformhint","dwmapi/DwmGetGraphicsStreamTransformHint","winui._udwm_dwmgetgraphicsstreamtransformhint"]
 old-location: dwm\dwmgetgraphicsstreamtransformhint.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgraphicsstreamtransformhint.htm

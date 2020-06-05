@@ -1,7 +1,7 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceContent2
 title: IPortableDeviceContent2 (portabledeviceapi.h)
-description: Defines additional methods that provide access to content found on a device.
+description: Defines additional methods that provide access to content found on a device.helpviewer_keywords: ["IPortableDeviceContent2","IPortableDeviceContent2 interface [Windows Portable Devices SDK]","IPortableDeviceContent2 interface [Windows Portable Devices SDK]","described","portabledeviceapi/IPortableDeviceContent2","wpdsdk.iportabledevicecontent2"]
 old-location: wpdsdk\iportabledevicecontent2.htm
 tech.root: wpd_sdk
 ms.assetid: 73bf9a24-7fdc-4483-ad37-28d887d146d9

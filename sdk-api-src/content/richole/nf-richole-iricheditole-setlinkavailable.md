@@ -1,7 +1,7 @@
 ---
 UID: NF:richole.IRichEditOle.SetLinkAvailable
 title: IRichEditOle::SetLinkAvailable (richole.h)
-description: Sets the value of the link-available bit in the object's flags.
+description: Sets the value of the link-available bit in the object's flags.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","SetLinkAvailable method","IRichEditOle.SetLinkAvailable","IRichEditOle::SetLinkAvailable","SetLinkAvailable","SetLinkAvailable method [Windows Controls]","SetLinkAvailable method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_SetLinkAvailable","_win32_IRichEditOle_SetLinkAvailable_cpp","controls.IRichEditOle_SetLinkAvailable","controls._win32_IRichEditOle_SetLinkAvailable","richole/IRichEditOle::SetLinkAvailable"]
 old-location: controls\IRichEditOle_SetLinkAvailable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetlinkavailable.htm

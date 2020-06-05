@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagINPUT_MESSAGE_SOURCE
 title: INPUT_MESSAGE_SOURCE (winuser.h)
-description: Contains information about the source of the input message.
+description: Contains information about the source of the input message.helpviewer_keywords: ["INPUT_MESSAGE_SOURCE","INPUT_MESSAGE_SOURCE structure","input_sourceid.input_message_source","inputsourceid.input_message_source","tagINPUT_MESSAGE_SOURCE","winuser/INPUT_MESSAGE_SOURCE"]
 old-location: input_sourceid\input_message_source.htm
 tech.root: Input_SourceId
 ms.assetid: 75437c0a-925a-44d9-9254-43095b281c21

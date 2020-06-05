@@ -1,7 +1,7 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftEnd
 title: ITfComposition::ShiftEnd (msctf.h)
-description: ITfComposition::ShiftEnd method
+description: ITfComposition::ShiftEnd methodhelpviewer_keywords: ["ITfComposition interface [Text Services Framework]","ShiftEnd method","ITfComposition.ShiftEnd","ITfComposition::ShiftEnd","ShiftEnd","ShiftEnd method [Text Services Framework]","ShiftEnd method [Text Services Framework]","ITfComposition interface","_tsf_itfcomposition_shiftend_ref","msctf/ITfComposition::ShiftEnd","tsf.itfcomposition_shiftend"]
 old-location: tsf\itfcomposition_shiftend.htm
 tech.root: TSF
 ms.assetid: 40472318-85de-4cff-ac60-adfcbacc1537

@@ -1,7 +1,7 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordModulationMode
 title: IATSC_VCT::GetRecordModulationMode (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordModulationMode","GetRecordModulationMode method [Microsoft TV Technologies]","GetRecordModulationMode method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordModulationMode method","IATSC_VCT.GetRecordModulationMode","IATSC_VCT::GetRecordModulationMode","IATSC_VCTGetRecordModulationMode","atscpsipparser/IATSC_VCT::GetRecordModulationMode","mstv.iatsc_vct_getrecordmodulationmode"]
 old-location: mstv\iatsc_vct_getrecordmodulationmode.htm
 tech.root: mstv
 ms.assetid: 3f335414-f37e-4c50-848e-9f3de51f829a

@@ -2,6 +2,7 @@
 UID: NF:d2d1_1.ID2D1DeviceContext.GetTarget
 title: ID2D1DeviceContext::GetTarget (d2d1_1.h)
 description: Gets the target currently associated with the device context.
+helpviewer_keywords: ["GetTarget","GetTarget method [Direct2D]","GetTarget method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetTarget method","ID2D1DeviceContext.GetTarget","ID2D1DeviceContext::GetTarget","d2d1_1/ID2D1DeviceContext::GetTarget","direct2d.id2d1devicecontext_gettarget"]
 old-location: direct2d\id2d1devicecontext_gettarget.htm
 tech.root: Direct2D
 ms.assetid: a70307db-863a-4c59-a327-fb71a5d58f84
@@ -74,10 +75,10 @@ If the currently selected target is a bitmap rather than a command list, the app
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a>
+<a href="../nf-d2d1-createdxgisurfacerendertarget.md">CreateDxgiSurfaceRenderTarget</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createwicbitmaprendertarget">CreateWicBitmapRenderTarget</a>
@@ -120,7 +121,7 @@ Direct2D will only lock bitmaps that are not currently locked.
 Calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gdiinteroprendertarget">ID2D1GdiInteropRenderTarget</a> will always succeed.  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> will return a device context corresponding to the currently bound target bitmap.  GetDC will fail if the target bitmap was not created with the GDI_COMPATIBLE flag set.
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">ID2D1HwndRenderTarget::Resize</a> will return <b>DXGI_ERROR_INVALID_CALL</b> if there are any outstanding references to the original target bitmap associated with the render target.
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">ID2D1HwndRenderTarget::Resize</a> will return <b>DXGI_ERROR_INVALID_CALL</b> if there are any outstanding references to the original target bitmap associated with the render target.
 
 Although the target can be a command list, it cannot be any other type of image. It cannot be the output image of an effect.
 

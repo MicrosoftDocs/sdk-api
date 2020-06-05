@@ -1,7 +1,7 @@
 ---
 UID: NS:indexsrv.tagTEXT_SOURCE
 title: TEXT_SOURCE (indexsrv.h)
-description: Contains information about text that the word breaker will process.
+description: Contains information about text that the word breaker will process.helpviewer_keywords: ["TEXT_SOURCE","TEXT_SOURCE structure [search]","_search_TEXT_SOURCE","indexsrv/TEXT_SOURCE","search._search_TEXT_SOURCE","tagTEXT_SOURCE"]
 old-location: search\_search_TEXT_SOURCE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm

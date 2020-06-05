@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.TreeAdvise
 title: INameSpaceTreeControl::TreeAdvise (shobjidl_core.h)
-description: Enables a client to register with the control.
+description: Enables a client to register with the control.helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","TreeAdvise method","INameSpaceTreeControl.TreeAdvise","INameSpaceTreeControl::TreeAdvise","TreeAdvise","TreeAdvise method [Windows Shell]","TreeAdvise method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_TreeAdvise","shell.INameSpaceTreeControl_TreeAdvise","shobjidl_core/INameSpaceTreeControl::TreeAdvise"]
 old-location: shell\INameSpaceTreeControl_TreeAdvise.htm
 tech.root: shell
 ms.assetid: d59b9772-7061-4ea5-964a-75deb293b407

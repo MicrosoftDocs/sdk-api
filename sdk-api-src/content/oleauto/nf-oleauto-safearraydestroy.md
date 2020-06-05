@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.SafeArrayDestroy
 title: SafeArrayDestroy function (oleauto.h)
-description: Destroys an existing array descriptor and all of the data in the array.
+description: Destroys an existing array descriptor and all of the data in the array.helpviewer_keywords: ["SafeArrayDestroy","SafeArrayDestroy function [Automation]","_oa96_SafeArrayDestroy","automat.safearraydestroy","oleauto/SafeArrayDestroy"]
 old-location: automat\safearraydestroy.htm
 tech.root: automat
 ms.assetid: fc94f7e7-b903-4c78-905c-54df1f8d13fa

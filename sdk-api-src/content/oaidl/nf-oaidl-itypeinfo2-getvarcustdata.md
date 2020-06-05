@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetVarCustData
 title: ITypeInfo2::GetVarCustData (oaidl.h)
-description: Gets the custom data of the specified variable.
+description: Gets the custom data of the specified variable.helpviewer_keywords: ["GetVarCustData","GetVarCustData method [Automation]","GetVarCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetVarCustData method","ITypeInfo2.GetVarCustData","ITypeInfo2::GetVarCustData","_oa96_ITypeInfo2_GetVarCustData","automat.itypeinfo2_getvarcustdata","oaidl/ITypeInfo2::GetVarCustData"]
 old-location: automat\itypeinfo2_getvarcustdata.htm
 tech.root: automat
 ms.assetid: fe033b80-427d-48d1-99c8-4aba8909897e

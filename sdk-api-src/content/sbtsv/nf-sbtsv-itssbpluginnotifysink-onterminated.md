@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbPluginNotifySink.OnTerminated
 title: ITsSbPluginNotifySink::OnTerminated (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Terminate.
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Terminate.helpviewer_keywords: ["ITsSbPluginNotifySink interface [Remote Desktop Services]","OnTerminated method","ITsSbPluginNotifySink.OnTerminated","ITsSbPluginNotifySink::OnTerminated","OnTerminated","OnTerminated method [Remote Desktop Services]","OnTerminated method [Remote Desktop Services]","ITsSbPluginNotifySink interface","sbtsv/ITsSbPluginNotifySink::OnTerminated","termserv.itssbpluginnotifysink_onterminated"]
 old-location: termserv\itssbpluginnotifysink_onterminated.htm
 tech.root: TermServ
 ms.assetid: 554139f5-dd20-4bca-8eae-4621535616e6

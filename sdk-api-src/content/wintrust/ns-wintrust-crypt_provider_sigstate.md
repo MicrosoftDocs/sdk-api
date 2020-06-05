@@ -2,6 +2,7 @@
 UID: NS:wintrust._CRYPT_PROVIDER_SIGSTATE
 title: CRYPT_PROVIDER_SIGSTATE (wintrust.h)
 description: Is used to communicate between policy providers and Wintrust.
+helpviewer_keywords: ["*PCRYPT_PROVIDER_SIGSTATE","CRYPT_PROVIDER_SIGSTATE","CRYPT_PROVIDER_SIGSTATE structure [Security]","PCRYPT_PROVIDER_SIGSTATE","PCRYPT_PROVIDER_SIGSTATE structure pointer [Security]","security.crypt_provider_sigstate","wintrust/CRYPT_PROVIDER_SIGSTATE","wintrust/PCRYPT_PROVIDER_SIGSTATE"]
 old-location: security\crypt_provider_sigstate.htm
 tech.root: SecCrypto
 ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
@@ -129,7 +130,7 @@ Identifies the portion of the policy provider that  supports cryptographic polic
 
 
 
-[WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)a>
+[WINTRUST_SIGNATURE_SETTINGS](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings)
  
 
  

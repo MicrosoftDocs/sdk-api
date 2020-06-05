@@ -2,6 +2,7 @@
 UID: NF:jobapi2.QueryInformationJobObject
 title: QueryInformationJobObject function (jobapi2.h)
 description: Retrieves limit and job state information from the job object.
+helpviewer_keywords: ["JobObjectBasicAccountingInformation","JobObjectBasicAndIoAccountingInformation","JobObjectBasicLimitInformation","JobObjectBasicProcessIdList","JobObjectBasicUIRestrictions","JobObjectCpuRateControlInformation","JobObjectEndOfJobTimeInformation","JobObjectExtendedLimitInformation","JobObjectGroupInformation","JobObjectGroupInformationEx","JobObjectLimitViolationInformation","JobObjectLimitViolationInformation2","JobObjectNetRateControlInformation","JobObjectNotificationLimitInformation","JobObjectNotificationLimitInformation2","JobObjectSecurityLimitInformation","QueryInformationJobObject","QueryInformationJobObject function","_win32_queryinformationjobobject","base.queryinformationjobobject","jobapi2/QueryInformationJobObject"]
 old-location: base\queryinformationjobobject.htm
 tech.root: ProcThread
 ms.assetid: d843d578-fd67-4708-959f-00245ff70ec6
@@ -102,7 +103,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -260,7 +261,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a> structure. 
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a> structure. 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -274,7 +275,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-        <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a> 
+        <a href="/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a> 
         structure.
         
 
@@ -350,7 +351,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
 
 
 
@@ -390,11 +391,11 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a>
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a>
 
 
 

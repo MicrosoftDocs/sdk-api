@@ -2,6 +2,7 @@
 UID: NF:winuser.EvaluateProximityToPolygon
 title: EvaluateProximityToPolygon function (winuser.h)
 description: Returns the score of a polygon as the probable touch target (compared to all other polygons that intersect the touch contact area) and an adjusted touch point within the polygon.
+helpviewer_keywords: ["EvaluateProximityToPolygon","EvaluateProximityToPolygon function","input_touchhittest.evaluateproximitytopolygon","touch_hittest.evaluateproximitytopolygon","winuser/EvaluateProximityToPolygon"]
 old-location: input_touchhittest\evaluateproximitytopolygon.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 443d12f2-9f26-4e1e-9bf3-cd97b4026399
@@ -82,7 +83,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-t
 
 ### -param pProximityEval [out]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
+The <a href="/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
 
 
 ## -returns

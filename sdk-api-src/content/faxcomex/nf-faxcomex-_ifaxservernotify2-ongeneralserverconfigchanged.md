@@ -2,6 +2,7 @@
 UID: NF:faxcomex._IFaxServerNotify2.OnGeneralServerConfigChanged
 title: _IFaxServerNotify2::OnGeneralServerConfigChanged (faxcomex.h)
 description: Called by the fax service when the IFaxServer2::Configuration property changes.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnGeneralServerConfigChanged method","IFaxServerNotify2.OnGeneralServerConfigChanged","IFaxServerNotify2::OnGeneralServerConfigChanged","OnGeneralServerConfigChanged","OnGeneralServerConfigChanged method [Fax Service]","OnGeneralServerConfigChanged method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnGeneralServerConfigChanged","_IFaxServerNotify2::OnGeneralServerConfigChanged","_mfax_ifaxservernotify2_ongeneralserverconfigchanged","fax._mfax_ifaxservernotify2_ongeneralserverconfigchanged","faxcomex/IFaxServerNotify2::OnGeneralServerConfigChanged"]
 old-location: fax\_mfax_ifaxservernotify2_ongeneralserverconfigchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\ongeneralserverconfigchanged.htm
@@ -90,7 +91,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

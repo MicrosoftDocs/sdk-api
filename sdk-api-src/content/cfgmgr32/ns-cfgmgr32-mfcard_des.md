@@ -2,6 +2,7 @@
 UID: NS:cfgmgr32.MfCard_Des_s
 title: MFCARD_DES (cfgmgr32.h)
 description: The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
+helpviewer_keywords: ["*PMFCARD_DES","MFCARD_DES","MFCARD_DES structure [Device and Driver Installation]","PMFCARD_DES","PMFCARD_DES structure pointer [Device and Driver Installation]","cfgmgr32/MFCARD_DES","cfgmgr32/PMFCARD_DES","cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml","devinst.mfcard_des"]
 old-location: devinst\mfcard_des.htm
 tech.root: devinst
 ms.assetid: 75a6857c-d5b7-4bb6-8035-e6317d4ea146
@@ -97,7 +98,7 @@ Contents of the 8-bit PCMCIA Configuration Option Register.
 
 ### -field PMF_IoResourceIndex
 
-Zero-based index indicating the [IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a> structure that describes the I/O resources for the hardware function being described by this MFCARD_DES structure.
+Zero-based index indicating the [IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource) structure that describes the I/O resources for the hardware function being described by this MFCARD_DES structure.
 
 
 ### -field PMF_Reserved
@@ -115,7 +116,7 @@ Offset from the beginning of the card's attribute memory space to the base confi
 
 
 
-[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)a>
+[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
  
 
  

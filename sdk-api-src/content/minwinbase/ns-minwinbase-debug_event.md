@@ -1,7 +1,7 @@
 ---
 UID: NS:minwinbase._DEBUG_EVENT
 title: DEBUG_EVENT (minwinbase.h)
-description: Describes a debugging event.
+description: Describes a debugging event.helpviewer_keywords: ["*LPDEBUG_EVENT","CREATE_PROCESS_DEBUG_EVENT","CREATE_THREAD_DEBUG_EVENT","DEBUG_EVENT","DEBUG_EVENT structure","EXCEPTION_DEBUG_EVENT","EXIT_PROCESS_DEBUG_EVENT","EXIT_THREAD_DEBUG_EVENT","LOAD_DLL_DEBUG_EVENT","LPDEBUG_EVENT","LPDEBUG_EVENT structure pointer","OUTPUT_DEBUG_STRING_EVENT","RIP_EVENT","UNLOAD_DLL_DEBUG_EVENT","_win32_debug_event_str","base.debug_event_str","minwinbase/DEBUG_EVENT","minwinbase/LPDEBUG_EVENT"]
 old-location: base\debug_event_str.htm
 tech.root: Debug
 ms.assetid: 056aa7ee-51ca-48ec-9cd7-26085bb85b11

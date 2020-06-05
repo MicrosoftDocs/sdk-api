@@ -1,7 +1,7 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStream
 title: IRDPSRAPITransportStream (rdpencomapi.h)
-description: Exposes methods that perform operations with streams.
+description: Exposes methods that perform operations with streams.helpviewer_keywords: ["IRDPSRAPITransportStream","IRDPSRAPITransportStream interface [RDP]","IRDPSRAPITransportStream interface [RDP]","described","rdp.irdpsrapitransportstream","rdpencomapi/IRDPSRAPITransportStream"]
 old-location: rdp\irdpsrapitransportstream.htm
 tech.root: rdp
 ms.assetid: 18ac00d5-f574-463f-a34a-40c2dc16d4d8

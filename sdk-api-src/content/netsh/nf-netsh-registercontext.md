@@ -1,7 +1,7 @@
 ---
 UID: NF:netsh.RegisterContext
 title: RegisterContext function (netsh.h)
-description: Registers a helper context with NetShell.
+description: Registers a helper context with NetShell.helpviewer_keywords: ["RegisterContext","RegisterContext function [NetShell]","_netsh_registercontext","netsh/RegisterContext","netshell.registercontext"]
 old-location: netshell\registercontext.htm
 tech.root: netshell
 ms.assetid: 52cebe62-d4b6-4229-8418-c0ae9849822b

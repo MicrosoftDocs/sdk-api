@@ -1,7 +1,7 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetType
 title: IBackgroundCopyJob::GetType (bits.h)
-description: Retrieves the type of transfer being performed, such as a file download or upload.
+description: Retrieves the type of transfer being performed, such as a file download or upload.helpviewer_keywords: ["GetType","GetType method [BITS]","GetType method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetType method","IBackgroundCopyJob.GetType","IBackgroundCopyJob::GetType","_drz_ibackgroundcopyjob_gettype","bits.ibackgroundcopyjob_gettype","bits/IBackgroundCopyJob::GetType"]
 old-location: bits\ibackgroundcopyjob_gettype.htm
 tech.root: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00

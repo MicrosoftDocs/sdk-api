@@ -1,7 +1,7 @@
 ---
 UID: NN:ctffunc.ITfFnReconversion
 title: ITfFnReconversion (ctffunc.h)
-description: The ITfFnReconversion interface is implemented by a text service and is used by the TSF manager or a client to support reconversion of text provided by the text service.
+description: The ITfFnReconversion interface is implemented by a text service and is used by the TSF manager or a client to support reconversion of text provided by the text service.helpviewer_keywords: ["ITfFnReconversion","ITfFnReconversion interface [Text Services Framework]","ITfFnReconversion interface [Text Services Framework]","described","_tsf_itffnreconversion_ref","ctffunc/ITfFnReconversion","tsf.itffnreconversion"]
 old-location: tsf\itffnreconversion.htm
 tech.root: TSF
 ms.assetid: deb5c007-58d5-4bae-92eb-a05675f5dfac

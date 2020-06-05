@@ -2,6 +2,7 @@
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectStatus
 title: IWTSProtocolLogonErrorRedirector::RedirectStatus (wtsprotocol.h)
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
+helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectStatus method","IWTSProtocolLogonErrorRedirector.RedirectStatus","IWTSProtocolLogonErrorRedirector::RedirectStatus","RedirectStatus","RedirectStatus method [Remote Desktop Services]","RedirectStatus method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","termserv.iwtsprotocollogonerrorredirector_redirectstatus","wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus"]
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
 tech.root: TermServ
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
@@ -66,7 +67,7 @@ A pointer to a string that contains the logon status message.
 
 ### -param pResponse [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that contains the response. This can be one of the following values.
+A pointer to a <a href="/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that contains the response. This can be one of the following values.
 
 
 ## -returns

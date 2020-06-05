@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
 title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired (uiautomationclient.h)
-description: Indicates whether at least one item must be selected at all times.
+description: Indicates whether at least one item must be selected at all times.helpviewer_keywords: ["CurrentIsSelectionRequired property [Windows Accessibility]","CurrentIsSelectionRequired property [Windows Accessibility]","IUIAutomationSelectionPattern interface","IUIAutomationSelectionPattern interface [Windows Accessibility]","CurrentIsSelectionRequired property","IUIAutomationSelectionPattern.CurrentIsSelectionRequired","IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired","IUIAutomationSelectionPattern::CurrentIsSelectionRequired","IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired","get_CurrentIsSelectionRequired","uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired","uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired","uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired","uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired","winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired"]
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired.htm
 tech.root: WinAuto
 ms.assetid: 608c9b6d-bc53-4d6d-8747-897ac9a24571

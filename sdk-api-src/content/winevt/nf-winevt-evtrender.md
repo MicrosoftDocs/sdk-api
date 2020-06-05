@@ -1,7 +1,7 @@
 ---
 UID: NF:winevt.EvtRender
 title: EvtRender function (winevt.h)
-description: Renders an XML fragment based on the rendering context that you specify.
+description: Renders an XML fragment based on the rendering context that you specify.helpviewer_keywords: ["EvtRender","EvtRender function [EventLog]","wes.evtrender","winevt/EvtRender"]
 old-location: wes\evtrender.htm
 tech.root: wes
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76

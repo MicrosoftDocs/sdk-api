@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_GetIconSize
 title: ImageList_GetIconSize function (commctrl.h)
-description: Retrieves the dimensions of images in an image list. All images in an image list have the same dimensions.
+description: Retrieves the dimensions of images in an image list. All images in an image list have the same dimensions.helpviewer_keywords: ["ImageList_GetIconSize","ImageList_GetIconSize function [Windows Controls]","_win32_ImageList_GetIconSize","_win32_ImageList_GetIconSize_cpp","commctrl/ImageList_GetIconSize","controls.ImageList_GetIconSize","controls._win32_ImageList_GetIconSize"]
 old-location: controls\ImageList_GetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticonsize.htm

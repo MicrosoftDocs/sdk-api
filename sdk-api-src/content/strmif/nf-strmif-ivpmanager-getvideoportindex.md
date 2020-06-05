@@ -2,12 +2,12 @@
 UID: NF:strmif.IVPManager.GetVideoPortIndex
 title: IVPManager::GetVideoPortIndex (strmif.h)
 description: The GetVideoPortIndex method returns the current video port index being used by the Video Port Manager (VPM).
+helpviewer_keywords: ["GetVideoPortIndex","GetVideoPortIndex method [DirectShow]","GetVideoPortIndex method [DirectShow]","IVPManager interface","IVPManager interface [DirectShow]","GetVideoPortIndex method","IVPManager.GetVideoPortIndex","IVPManager::GetVideoPortIndex","IVPManagerGetVideoPortIndex","dshow.ivpmanager_getvideoportindex","strmif/IVPManager::GetVideoPortIndex"]
 old-location: dshow\ivpmanager_getvideoportindex.htm
 tech.root: DirectShow
 ms.assetid: 1e30c2d7-b986-47f5-94c8-53937d1e1501
 ms.date: 12/05/2018
 ms.keywords: GetVideoPortIndex, GetVideoPortIndex method [DirectShow], GetVideoPortIndex method [DirectShow],IVPManager interface, IVPManager interface [DirectShow],GetVideoPortIndex method, IVPManager.GetVideoPortIndex, IVPManager::GetVideoPortIndex, IVPManagerGetVideoPortIndex, dshow.ivpmanager_getvideoportindex, strmif/IVPManager::GetVideoPortIndex
-ms.topic: method
 f1_keywords:
 - strmif/IVPManager.GetVideoPortIndex
 dev_langs:

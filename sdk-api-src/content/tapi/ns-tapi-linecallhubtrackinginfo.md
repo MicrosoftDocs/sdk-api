@@ -1,7 +1,7 @@
 ---
 UID: NS:tapi.linecallhubtrackinginfo_tag
 title: LINECALLHUBTRACKINGINFO (tapi.h)
-description: The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.
+description: The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.helpviewer_keywords: ["*LPLINECALLHUBTRACKINGINFO","LINECALLHUBTRACKINGINFO","LINECALLHUBTRACKINGINFO structure [TAPI 2.2]","LPLINECALLHUBTRACKINGINFO","LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2]","_tapi2_linecallhubtrackinginfo_str","tapi/LINECALLHUBTRACKINGINFO","tapi/LPLINECALLHUBTRACKINGINFO","tapi2.linecallhubtrackinginfo_str"]
 old-location: tapi2\linecallhubtrackinginfo_str.htm
 tech.root: Tapi
 ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef

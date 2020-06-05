@@ -2,6 +2,7 @@
 UID: NF:commdlg.GetOpenFileNameW
 title: GetOpenFileNameW function (commdlg.h)
 description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
+helpviewer_keywords: ["GetOpenFileName","GetOpenFileName function [Dialog Boxes]","GetOpenFileNameA","GetOpenFileNameW","_win32_GetOpenFileName","_win32_getopenfilename_cpp","commdlg/GetOpenFileName","commdlg/GetOpenFileNameA","commdlg/GetOpenFileNameW","dlgbox.getopenfilename","winui._win32_getopenfilename"]
 old-location: dlgbox\getopenfilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getopenfilename.htm
@@ -66,7 +67,7 @@ Creates an <b>Open</b> dialog box that lets the user specify the drive, director
 
 Type: <b>LPOPENFILENAME</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure that contains information used to initialize the dialog box. When <b>GetOpenFileName</b> returns, this structure contains information about the user's file selection.
+A pointer to an <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure that contains information used to initialize the dialog box. When <b>GetOpenFileName</b> returns, this structure contains information about the user's file selection.
 
 
 ## -returns
@@ -75,7 +76,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns
 
 Type: <b>BOOL</b>
 
-If the user specifies a file name and clicks the <b>OK</b> button, the return value is nonzero. The buffer pointed to by the <b>lpstrFile</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure contains the full path and file name specified by the user.
+If the user specifies a file name and clicks the <b>OK</b> button, the return value is nonzero. The buffer pointed to by the <b>lpstrFile</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure contains the full path and file name specified by the user.
 
 If the user cancels or closes the <b>Open</b> dialog box or an error occurs, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-commdlgextendederror">CommDlgExtendedError</a> function, which can return one of the following values.
 
@@ -86,7 +87,7 @@ If the user cancels or closes the <b>Open</b> dialog box or an error occurs, the
 
 
 
-The Explorer-style <b>Open</b> dialog box provides user-interface features that are similar to the Windows Explorer. You can provide an <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a> hook procedure for an Explorer-style <b>Open</b> dialog box. To enable the hook procedure, set the <b>OFN_EXPLORER</b> and <b>OFN_ENABLEHOOK</b> flags in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure and specify the address of the hook procedure in the <b>lpfnHook</b> member.
+The Explorer-style <b>Open</b> dialog box provides user-interface features that are similar to the Windows Explorer. You can provide an <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpofnhookproc">OFNHookProc</a> hook procedure for an Explorer-style <b>Open</b> dialog box. To enable the hook procedure, set the <b>OFN_EXPLORER</b> and <b>OFN_ENABLEHOOK</b> flags in the <b>Flags</b> member of the <a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure and specify the address of the hook procedure in the <b>lpfnHook</b> member.
 
 Windows continues to support the old-style <b>Open</b> dialog box for applications that want to maintain a user-interface consistent with the old-style user-interface. To display the old-style <b>Open</b> dialog box, enable an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646932(v=vs.85)">OFNHookProcOldStyle</a> hook procedure and ensure that the <b>OFN_EXPLORER</b> flag is not set.
 
@@ -136,7 +137,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
 
 
 

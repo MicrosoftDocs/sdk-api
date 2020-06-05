@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRetrievePendingMessage
 title: IX509SCEPEnrollment::CreateRetrievePendingMessage (certenroll.h)
-description: Create a message for certificate polling (manual enrollment).
+description: Create a message for certificate polling (manual enrollment).helpviewer_keywords: ["CreateRetrievePendingMessage","CreateRetrievePendingMessage method [Security]","CreateRetrievePendingMessage method [Security]","IX509SCEPEnrollment interface","IX509SCEPEnrollment interface [Security]","CreateRetrievePendingMessage method","IX509SCEPEnrollment.CreateRetrievePendingMessage","IX509SCEPEnrollment::CreateRetrievePendingMessage","certenroll/IX509SCEPEnrollment::CreateRetrievePendingMessage","security.ix509scepenrollment_createretrievependingmessage"]
 old-location: security\ix509scepenrollment_createretrievependingmessage.htm
 tech.root: seccertenroll
 ms.assetid: 86d031b0-2009-460b-8bed-fe7a0489f22b

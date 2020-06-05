@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.ISurrogateService.CatalogRefresh
 title: ISurrogateService::CatalogRefresh (objidl.h)
-description: Refreshes the catalog.
+description: Refreshes the catalog.helpviewer_keywords: ["CatalogRefresh","CatalogRefresh method [COM]","CatalogRefresh method [COM]","ISurrogateService interface","ISurrogateService interface [COM]","CatalogRefresh method","ISurrogateService.CatalogRefresh","ISurrogateService::CatalogRefresh","_com_isurrogateservice_catalogrefresh","com.isurrogateservice_catalogrefresh","objidl/ISurrogateService::CatalogRefresh"]
 old-location: com\isurrogateservice_catalogrefresh.htm
 tech.root: com
 ms.assetid: 4e7b765b-0ba3-48db-afe2-2cb6257775fa

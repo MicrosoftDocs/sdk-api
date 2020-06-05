@@ -2,6 +2,7 @@
 UID: NN:inputscope.ITfInputScope
 title: ITfInputScope (inputscope.h)
 description: The ITfInputScope interface is used by the text input processors to get the InputScope value that represents a document context associated with a window.
+helpviewer_keywords: ["ITfInputScope","ITfInputScope interface [Text Services Framework]","ITfInputScope interface [Text Services Framework]","described","_tsf_itfinputscope_ref","inputscope/ITfInputScope","tsf.ITfInputScope"]
 old-location: tsf\ITfInputScope.htm
 tech.root: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="https://docs.microsoft.com/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
+The <b>ITfInputScope</b> interface is used by the text input processors to get the <a href="/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> value that represents a document context associated with a window. The input scope provides rules to help speech and handwriting recognition. For instance, if a text box on a form is used to enter an address, the input scope for that text box can be set to recognize and accept only those characters that are valid for an address.
 
 The interface ID is IID_ITfInputScope.
 

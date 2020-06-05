@@ -1,7 +1,7 @@
 ---
 UID: NN:bits1_5.IBackgroundCopyJob2
 title: IBackgroundCopyJob2
-description: Retrieve reply data from an upload-reply job, determine the progress of the reply data transfer to the client, request command line execution, and provide credentials for proxy and remote server authentication requests.
+description: Retrieve reply data from an upload-reply job, determine the progress of the reply data transfer to the client, request command line execution, and provide credentials for proxy and remote server authentication requests.helpviewer_keywords: ["IBackgroundCopyJob2","IBackgroundCopyJob2 interface [BITS]","IBackgroundCopyJob2 interface [BITS]","described","_drz_ibackgroundcopyjob2","bits.ibackgroundcopyjob2","bits1_5/IBackgroundCopyJob2"]
 old-location: bits\ibackgroundcopyjob2.htm
 tech.root: Bits
 ms.assetid: 9fd422ba-a68c-40e3-8b21-3077b271e58e

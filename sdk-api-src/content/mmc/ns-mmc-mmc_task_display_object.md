@@ -1,7 +1,7 @@
 ---
 UID: NS:mmc._MMC_TASK_DISPLAY_OBJECT
 title: MMC_TASK_DISPLAY_OBJECT (mmc.h)
-description: Specifies the type of image and all the data required to use that image to display a task or the background on a taskpad.
+description: Specifies the type of image and all the data required to use that image to display a task or the background on a taskpad.helpviewer_keywords: ["MMC_TASK_DISPLAY_OBJECT","MMC_TASK_DISPLAY_OBJECT structure [MMC]","_slate_mmc_task_display_object","mmc.mmc_task_display_object","mmc/MMC_TASK_DISPLAY_OBJECT"]
 old-location: mmc\mmc_task_display_object.htm
 tech.root: mmc
 ms.assetid: ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad

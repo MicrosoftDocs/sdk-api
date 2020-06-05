@@ -2,6 +2,7 @@
 UID: NF:winsvc.ControlServiceExA
 title: ControlServiceExA function (winsvc.h)
 description: Sends a control code to a service.
+helpviewer_keywords: ["ControlServiceEx","ControlServiceEx function","ControlServiceExA","ControlServiceExW","SERVICE_CONTROL_CONTINUE","SERVICE_CONTROL_INTERROGATE","SERVICE_CONTROL_NETBINDADD","SERVICE_CONTROL_NETBINDDISABLE","SERVICE_CONTROL_NETBINDENABLE","SERVICE_CONTROL_NETBINDREMOVE","SERVICE_CONTROL_PARAMCHANGE","SERVICE_CONTROL_PAUSE","SERVICE_CONTROL_STOP","base.controlserviceex","winsvc/ControlServiceEx","winsvc/ControlServiceExA","winsvc/ControlServiceExW"]
 old-location: base\controlserviceex.htm
 tech.root: Services
 ms.assetid: de249903-7545-4fb6-925a-aa647f862f93
@@ -216,7 +217,7 @@ The information level for the service control parameters. This parameter must be
 
 ### -param pControlParams [in, out]
 
-A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
+A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
 
 
 ## -returns
@@ -277,7 +278,7 @@ The specified handle was not obtained using
 </dl>
 </td>
 <td width="60%">
-The requested control code in the <i>dwControl</i> parameter is undefined, or <i>dwControl</i> is SERVICE_CONTROL_STOP but the <b>dwReason</b> or <b>pszComment</b> members of the <a href="https://docs.microsoft.com/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure are not valid.
+The requested control code in the <i>dwControl</i> parameter is undefined, or <i>dwControl</i> is SERVICE_CONTROL_STOP but the <b>dwReason</b> or <b>pszComment</b> members of the <a href="/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure are not valid.
 
 </td>
 </tr>
@@ -430,7 +431,7 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a>
+<a href="/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a>
 
 
 

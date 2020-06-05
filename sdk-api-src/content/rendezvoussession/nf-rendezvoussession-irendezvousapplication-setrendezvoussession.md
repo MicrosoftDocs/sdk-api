@@ -1,7 +1,7 @@
 ---
 UID: NF:rendezvoussession.IRendezvousApplication.SetRendezvousSession
 title: IRendezvousApplication::SetRendezvousSession (rendezvoussession.h)
-description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
+description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.helpviewer_keywords: ["IRendezvousApplication interface [Remote Assistance]","SetRendezvousSession method","IRendezvousApplication.SetRendezvousSession","IRendezvousApplication::SetRendezvousSession","SetRendezvousSession","SetRendezvousSession method [Remote Assistance]","SetRendezvousSession method [Remote Assistance]","IRendezvousApplication interface","remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession","remoteassist_IRendezvousApplication_SetRendezvousSession","remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp","rendezvoussession/IRendezvousApplication::SetRendezvousSession"]
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\setRendezvousSession.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPPlaylist.moveItem
 title: IWMPPlaylist::moveItem (wmp.h)
-description: The moveItem method changes the location of a media item in the playlist.
+description: The moveItem method changes the location of a media item in the playlist.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","moveItem method","IWMPPlaylist.moveItem","IWMPPlaylist::moveItem","IWMPPlaylistmoveItem","moveItem","moveItem method [Windows Media Player]","moveItem method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_moveitem","wmp/IWMPPlaylist::moveItem"]
 old-location: wmp\iwmpplaylist_moveitem.htm
 tech.root: WMP
 ms.assetid: f408c7a0-d1d6-4c0d-8ee5-0afd43b19a9d

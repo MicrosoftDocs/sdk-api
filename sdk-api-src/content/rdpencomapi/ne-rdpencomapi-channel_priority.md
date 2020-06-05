@@ -1,7 +1,7 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0003
 title: CHANNEL_PRIORITY (rdpencomapi.h)
-description: Defines values for the priority used to send packets on the channel.
+description: Defines values for the priority used to send packets on the channel.helpviewer_keywords: ["CHANNEL_PRIORITY","CHANNEL_PRIORITY enumeration [RDP]","CHANNEL_PRIORITY_HI","CHANNEL_PRIORITY_LO","CHANNEL_PRIORITY_MED","rdp.channel_priority","rdpencomapi/CHANNEL_PRIORITY","rdpencomapi/CHANNEL_PRIORITY_HI","rdpencomapi/CHANNEL_PRIORITY_LO","rdpencomapi/CHANNEL_PRIORITY_MED"]
 old-location: rdp\channel_priority.htm
 tech.root: rdp
 ms.assetid: 8b472714-dcd2-4da9-83cf-64e846417456

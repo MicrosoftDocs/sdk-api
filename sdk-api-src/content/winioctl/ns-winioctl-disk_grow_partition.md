@@ -2,6 +2,7 @@
 UID: NS:winioctl._DISK_GROW_PARTITION
 title: DISK_GROW_PARTITION
 description: Contains information used to increase the size of a partition.
+helpviewer_keywords: ["*PDISK_GROW_PARTITION","DISK_GROW_PARTITION","DISK_GROW_PARTITION structure [Files]","PDISK_GROW_PARTITION","PDISK_GROW_PARTITION structure pointer [Files]","base.disk_grow_partition_str","fs.disk_grow_partition_str","winioctl/DISK_GROW_PARTITION","winioctl/PDISK_GROW_PARTITION"]
 old-location: fs\disk_grow_partition_str.htm
 tech.root: FileIO
 ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
@@ -75,7 +76,7 @@ The number of bytes by which the partition is to be enlarged (positive value) or
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
  
 
  

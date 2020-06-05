@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.GetRecordInfoFromGuids
 title: GetRecordInfoFromGuids function (oleauto.h)
-description: Returns a pointer to the IRecordInfo interface for a UDT by passing the GUID of the type information without having to load the type library.
+description: Returns a pointer to the IRecordInfo interface for a UDT by passing the GUID of the type information without having to load the type library.helpviewer_keywords: ["GetRecordInfoFromGuids","GetRecordInfoFromGuids function [Automation]","_oa96_GetRecordInfoFromGuids","automat.getrecordinfofromguids","oleauto/GetRecordInfoFromGuids"]
 old-location: automat\getrecordinfofromguids.htm
 tech.root: automat
 ms.assetid: 0f132a13-ebcd-4886-b842-e6852d6fb2c8

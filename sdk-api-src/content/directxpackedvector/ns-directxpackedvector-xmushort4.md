@@ -1,7 +1,7 @@
 ---
 UID: NS:directxpackedvector.XMUSHORT4
 title: XMUSHORT4 (directxpackedvector.h)
-description: A 4D vector consisting of 16-bit unsigned integer components.
+description: A 4D vector consisting of 16-bit unsigned integer components.helpviewer_keywords: ["XMUSHORT4","XMUSHORT4 structure [DirectX Math Support APIs]","directxpackedvector/XMUSHORT4","dxmath.xmushort4"]
 old-location: dxmath\xmushort4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORT4

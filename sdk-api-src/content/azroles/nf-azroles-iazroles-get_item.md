@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzRoles.get_Item
 title: IAzRoles::get_Item (azroles.h)
-description: Retrieves the IAzRole object at the specified index into the IAzRoles collection.
+description: Retrieves the IAzRole object at the specified index into the IAzRoles collection.helpviewer_keywords: ["AzRoles object [Security]","Item property","IAzRoles interface [Security]","Item property","IAzRoles.Item","IAzRoles.get_Item","IAzRoles::Item","IAzRoles::get_Item","Item property [Security]","Item property [Security]","AzRoles object","Item property [Security]","IAzRoles interface","azroles/IAzRoles::Item","azroles/IAzRoles::get_Item","get_Item","security.iazroles_item"]
 old-location: security\iazroles_item.htm
 tech.root: SecAuthZ
 ms.assetid: a1c8b474-aae9-401b-b6d7-de17cdf8fce9

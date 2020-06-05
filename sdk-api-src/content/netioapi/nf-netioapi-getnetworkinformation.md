@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.GetNetworkInformation
 title: GetNetworkInformation function (netioapi.h)
-description: Reserved for future use. Do not use this function.
+description: Reserved for future use. Do not use this function.helpviewer_keywords: ["GetNetworkInformation","GetNetworkInformation function [Network Drivers Starting with Windows Vista]","iphelper_a4a29ea4-0581-4c98-a294-6042db2937c3.xml","netioapi/GetNetworkInformation","netvista.getnetworkinformation"]
 old-location: netvista\getnetworkinformation.htm
 tech.root: NetVista
 ms.assetid: 5c28b606-a8ab-48de-8cfb-97fa877c52c8

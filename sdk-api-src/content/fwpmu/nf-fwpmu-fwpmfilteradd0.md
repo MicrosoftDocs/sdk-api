@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmFilterAdd0
 title: FwpmFilterAdd0 function (fwpmu.h)
 description: Adds a new filter object to the system.
+helpviewer_keywords: ["FwpmFilterAdd0","FwpmFilterAdd0 function [Filtering]","fwp.fwpmfilteradd0_func","fwpmu/FwpmFilterAdd0"]
 old-location: fwp\fwpmfilteradd0_func.htm
 tech.root: fwp
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call  <a href="https://docs.mic
 
 ### -param filter [in]
 
-Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>*</b>
+Type: [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)*</b>
 
 The filter object to be added.
 
@@ -169,16 +170,16 @@ Failure to communicate with the remote or local firewall engine.
 
 <b>FwpmFilterAdd0</b> adds the filter to the specified sub-layer at every filtering layer in the system.
 
-Some fields in the [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmFilterAdd0</b>. 
+Some fields in the [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0) structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmFilterAdd0</b>. 
 
 If the caller supplies a <b>NULL</b> security descriptor, the system will assign a default security descriptor.
 
-To block connections to particular locations, add a  [FWP_ACTION_BLOCK](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_action0)a>filter specifying the local address at the <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">FWPM_LAYER_ALE_AUTH_CONNECT_V*</a> 
+To block connections to particular locations, add a  [FWP_ACTION_BLOCK](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_action0)filter specifying the local address at the <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">FWPM_LAYER_ALE_AUTH_CONNECT_V*</a> 
 layer, or add a  <b>FWP_ACTION_BLOCK</b>filter without specifying the local address at the <b>FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V*</b> layer.
 
-[FWP_EMPTY](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type)a>. </div>
+[FWP_EMPTY](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type). </div>
 <div> </div>
-The [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a> structure can label a filter as a boot-time or persistent filter.  Boot-time filters are added to the Base Filtering Engine (BFE) when the TCP/IP driver starts, and are removed once the BFE finishes initialization.  Persistent objects are added when the BFE starts.
+The [FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0) structure can label a filter as a boot-time or persistent filter.  Boot-time filters are added to the Base Filtering Engine (BFE) when the TCP/IP driver starts, and are removed once the BFE finishes initialization.  Persistent objects are added when the BFE starts.
 
 This function cannot be called from within a read-only transaction. It will fail
 with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
@@ -258,7 +259,7 @@ else
 
 
 
-[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)a>
+[FWPM_FILTER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0)
 
 
 

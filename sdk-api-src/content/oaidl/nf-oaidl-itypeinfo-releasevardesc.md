@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseVarDesc
 title: ITypeInfo::ReleaseVarDesc (oaidl.h)
-description: Releases a VARDESC previously returned by ITypeInfo::GetVarDesc.
+description: Releases a VARDESC previously returned by ITypeInfo::GetVarDesc.helpviewer_keywords: ["ITypeInfo interface [Automation]","ReleaseVarDesc method","ITypeInfo.ReleaseVarDesc","ITypeInfo::ReleaseVarDesc","ReleaseVarDesc","ReleaseVarDesc method [Automation]","ReleaseVarDesc method [Automation]","ITypeInfo interface","_oa96_ITypeInfo_ReleaseVarDesc","automat.itypeinfo_releasevardesc","oaidl/ITypeInfo::ReleaseVarDesc"]
 old-location: automat\itypeinfo_releasevardesc.htm
 tech.root: automat
 ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceMoniker
 title: IOleLink::SetSourceMoniker (oleidl.h)
-description: Sets the moniker for the link source.
+description: Sets the moniker for the link source.helpviewer_keywords: ["IOleLink interface [COM]","SetSourceMoniker method","IOleLink.SetSourceMoniker","IOleLink::SetSourceMoniker","SetSourceMoniker","SetSourceMoniker method [COM]","SetSourceMoniker method [COM]","IOleLink interface","_ole_iolelink_setsourcemoniker","com.iolelink_setsourcemoniker","oleidl/IOleLink::SetSourceMoniker"]
 old-location: com\iolelink_setsourcemoniker.htm
 tech.root: com
 ms.assetid: 85fe1d28-d9c6-46b4-abff-6afce9ff3cd0

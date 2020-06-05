@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList3
 title: ID3D12GraphicsCommandList3 (d3d12.h)
-description: Encapsulates a list of graphics commands for rendering.
+description: Encapsulates a list of graphics commands for rendering.helpviewer_keywords: ["ID3D12GraphicsCommandList3","ID3D12GraphicsCommandList3 interface","ID3D12GraphicsCommandList3 interface","described","d3d12/ID3D12GraphicsCommandList3","direct3d12.id3d12graphicscommandlist3"]
 old-location: direct3d12\id3d12graphicscommandlist3.htm
 tech.root: direct3d12
 ms.assetid: 934CB757-495A-45DA-A942-1852D8E94934

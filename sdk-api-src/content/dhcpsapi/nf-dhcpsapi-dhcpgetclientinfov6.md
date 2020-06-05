@@ -2,6 +2,7 @@
 UID: NF:dhcpsapi.DhcpGetClientInfoV6
 title: DhcpGetClientInfoV6 function (dhcpsapi.h)
 description: Retrieves IPv6 address lease information for a specific IPv6 client reservation from the DHCPv6 server.
+helpviewer_keywords: ["DhcpGetClientInfoV6","DhcpGetClientInfoV6 function [DHCP]","dhcp.dhcpgetclientinfov6","dhcpsapi/DhcpGetClientInfoV6"]
 old-location: dhcp\dhcpgetclientinfov6.htm
 tech.root: DHCP
 ms.assetid: 6ed68064-9f12-472e-8647-87cc50345199
@@ -64,7 +65,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param SearchInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the search parameters for finding the specific IPv6 lease information for a client. The <b>SearchType</b> member of this structure must be set to <b>Dhcpv6ClientIpAddress</b>.
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the search parameters for finding the specific IPv6 lease information for a client. The <b>SearchType</b> member of this structure must be set to <b>Dhcpv6ClientIpAddress</b>.
 
 
 ### -param ClientInfo [out]

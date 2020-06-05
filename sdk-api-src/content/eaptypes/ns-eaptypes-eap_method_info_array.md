@@ -2,6 +2,7 @@
 UID: NS:eaptypes._EAP_METHOD_INFO_ARRAY
 title: EAP_METHOD_INFO_ARRAY (eaptypes.h)
 description: Contains information on EAP methods installed on the client computer.
+helpviewer_keywords: ["EAP_METHOD_INFO_ARRAY","EAP_METHOD_INFO_ARRAY structure [EAPHost]","PEAP_METHOD_INFO_ARRAY","PEAP_METHOD_INFO_ARRAY structure pointer [EAPHost]","eaphost.eap_method_info_array","eaptypes/EAP_METHOD_INFO_ARRAY","eaptypes/PEAP_METHOD_INFO_ARRAY"]
 old-location: eaphost\eap_method_info_array.htm
 tech.root: eaphost
 ms.assetid: a3e2d5c0-eacd-46de-b092-6fd749870881
@@ -72,11 +73,11 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 
-[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
+[Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
 
 
 
-[EAP Method Properties](https://docs.microsoft.com/windows/win32/eaphost/eap-method-properties)a>
+[EAP Method Properties](/windows/win32/eaphost/eap-method-properties)
 
 
 

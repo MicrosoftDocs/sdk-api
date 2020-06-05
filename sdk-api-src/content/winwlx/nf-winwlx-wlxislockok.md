@@ -1,7 +1,7 @@
 ---
 UID: NF:winwlx.WlxIsLockOk
 title: WlxIsLockOk function (winwlx.h)
-description: Winlogon calls this function before attempting to lock the workstation.
+description: Winlogon calls this function before attempting to lock the workstation.helpviewer_keywords: ["WlxIsLockOk","WlxIsLockOk function [Security]","_gina_wlxislockok","security.wlxislockok","winwlx/WlxIsLockOk"]
 old-location: security\wlxislockok.htm
 tech.root: SecAuthN
 ms.assetid: 764d7fc9-57d8-472a-9b91-ebfbe3628452

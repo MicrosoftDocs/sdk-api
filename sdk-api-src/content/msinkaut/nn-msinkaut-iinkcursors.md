@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkCursors
 title: IInkCursors (msinkaut.h)
-description: Represents a collection of IInkCursor objects.
+description: Represents a collection of IInkCursor objects.helpviewer_keywords: ["3ae7dbc4-e5a2-4916-a1cc-651659a008fc","IInkCursors","IInkCursors interface [Tablet PC]","IInkCursors interface [Tablet PC]","described","msinkaut/IInkCursors","tablet.iinkcursors"]
 old-location: tablet\iinkcursors.htm
 tech.root: tablet
 ms.assetid: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc

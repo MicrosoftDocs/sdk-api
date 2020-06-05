@@ -1,7 +1,7 @@
 ---
 UID: NN:tapi3if.IEnumPhone
 title: IEnumPhone (tapi3if.h)
-description: The IEnumPhone interface provides COM-standard enumeration methods for the ITPhone interface. The ITAddress2::EnumeratePhones and ITTAPI2::EnumeratePhones methods return a pointer to IEnumPhone.
+description: The IEnumPhone interface provides COM-standard enumeration methods for the ITPhone interface. The ITAddress2::EnumeratePhones and ITTAPI2::EnumeratePhones methods return a pointer to IEnumPhone.helpviewer_keywords: ["IEnumPhone","IEnumPhone interface [TAPI 2.2]","IEnumPhone interface [TAPI 2.2]","described","_tapi3_ienumphone","tapi3.ienumphone","tapi3if/IEnumPhone"]
 old-location: tapi3\ienumphone.htm
 tech.root: Tapi
 ms.assetid: fa12508d-6224-4e11-a4a3-5ce5fff7b735

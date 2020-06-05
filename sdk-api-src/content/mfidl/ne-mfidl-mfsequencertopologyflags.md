@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl._MFSequencerTopologyFlags
 title: MFSequencerTopologyFlags (mfidl.h)
-description: Contains flags for adding a topology to the sequencer source, or updating a topology already in the queue.
+description: Contains flags for adding a topology to the sequencer source, or updating a topology already in the queue.helpviewer_keywords: ["MFSequencerTopologyFlags","MFSequencerTopologyFlags enumeration [Media Foundation]","SequencerTopologyFlags_Last","d52bac8c-e490-417c-ac00-e4cf57fd151c","mf.mfsequencertopologyflags","mfidl/MFSequencerTopologyFlags","mfidl/SequencerTopologyFlags_Last"]
 old-location: mf\mfsequencertopologyflags.htm
 tech.root: medfound
 ms.assetid: d52bac8c-e490-417c-ac00-e4cf57fd151c

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.GetProperty
 title: IWMPPluginUI::GetProperty (wmpplug.h)
-description: The GetProperty method is called by Windows Media Player to retrieve name/value property pairs from the plug-in.
+description: The GetProperty method is called by Windows Media Player to retrieve name/value property pairs from the plug-in.helpviewer_keywords: ["GetProperty","GetProperty method [Windows Media Player]","GetProperty method [Windows Media Player]","IWMPPluginUI interface","IWMPPluginUI interface [Windows Media Player]","GetProperty method","IWMPPluginUI.GetProperty","IWMPPluginUI::GetProperty","IWMPPluginUIGetProperty","wmp.iwmppluginui_getproperty","wmpplug/IWMPPluginUI::GetProperty"]
 old-location: wmp\iwmppluginui_getproperty.htm
 tech.root: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495

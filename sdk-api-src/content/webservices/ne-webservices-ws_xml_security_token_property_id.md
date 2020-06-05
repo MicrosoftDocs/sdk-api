@@ -2,6 +2,7 @@
 UID: NE:webservices.__unnamed_enum_77
 title: WS_XML_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
 description: The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the WS_XML_SECURITY_TOKEN_PROPERTY structure, which is used as parameter for WsCreateXmlSecurityToken.
+helpviewer_keywords: ["WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE","WS_XML_SECURITY_TOKEN_PROPERTY_ID","WS_XML_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows]","WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE","WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME","WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ID","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME","wsw.ws_xml_security_token_property_id"]
 old-location: wsw\ws_xml_security_token_property_id.htm
 tech.root: wsw
 ms.assetid: 78133ccf-4e3c-4c1b-97af-1a487b444ee0
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structure, which is used as parameter for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a>.
+The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structure, which is used as parameter for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">WsCreateXmlSecurityToken</a>.
             
 
 

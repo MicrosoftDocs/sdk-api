@@ -1,7 +1,7 @@
 ---
 UID: NS:xinput._XINPUT_KEYSTROKE
 title: XINPUT_KEYSTROKE (xinput.h)
-description: Specifies keystroke data returned by XInputGetKeystroke.
+description: Specifies keystroke data returned by XInputGetKeystroke.helpviewer_keywords: ["*PXINPUT_KEYSTROKE","PXINPUT_KEYSTROKE","PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs]","XINPUT_KEYSTROKE","XINPUT_KEYSTROKE structure [XInput Game Controller APIs]","xinput.xinput_keystroke","xinput/PXINPUT_KEYSTROKE","xinput/XINPUT_KEYSTROKE"]
 old-location: xinput\xinput_keystroke.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_KEYSTROKE

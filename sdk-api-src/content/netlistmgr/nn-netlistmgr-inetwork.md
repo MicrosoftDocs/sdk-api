@@ -1,7 +1,7 @@
 ---
 UID: NN:netlistmgr.INetwork
 title: INetwork (netlistmgr.h)
-description: The INetwork interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.
+description: The INetwork interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.helpviewer_keywords: ["INetwork","INetwork interface [Network Awareness]","INetwork interface [Network Awareness]","described","netlistmgr/INetwork","nla.inetwork"]
 old-location: nla\inetwork.htm
 tech.root: nla
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994

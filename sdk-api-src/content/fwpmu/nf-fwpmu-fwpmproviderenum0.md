@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmProviderEnum0
 title: FwpmProviderEnum0 function (fwpmu.h)
 description: Returns the next page of results from the provider enumerator.
+helpviewer_keywords: ["FwpmProviderEnum0","FwpmProviderEnum0 function [Filtering]","fwp.fwpmproviderenum0_func","fwpmu/FwpmProviderEnum0"]
 old-location: fwp\fwpmproviderenum0_func.htm
 tech.root: fwp
 ms.assetid: 7c178688-64f4-49a9-907c-890f7d5030be
@@ -80,7 +81,7 @@ The number of provider entries requested.
 
 ### -param entries [out]
 
-Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>***</b>
+Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -167,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)a>
+[FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)
 
 
 

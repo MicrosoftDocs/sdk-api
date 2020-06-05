@@ -2,6 +2,7 @@
 UID: NF:eapmethodpeerapis.EapPeerProcessRequestPacket
 title: EapPeerProcessRequestPacket function (eapmethodpeerapis.h)
 description: Processes a packet received by EAPHost from a supplicant.
+helpviewer_keywords: ["EapPeerProcessRequestPacket","EapPeerProcessRequestPacket function [EAPHost]","eaphost.eappeerprocessrequestpacket","eapmethodpeerapis/EapPeerProcessRequestPacket"]
 old-location: eaphost\eappeerprocessrequestpacket.htm
 tech.root: eaphost
 ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926
@@ -74,7 +75,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmetho
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapauthenticatoractiondefine-eappeermethodoutput">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 ### -param ppEapError [out]
@@ -96,7 +97,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
  
 
  

@@ -1,7 +1,7 @@
 ---
 UID: NE:wbemcli.tag_WBEM_GENUS_TYPE
 title: WBEM_GENUS_TYPE (wbemcli.h)
-description: Contains constants used to distinguish between classes and instances.
+description: Contains constants used to distinguish between classes and instances.helpviewer_keywords: ["WBEM_GENUS_CLASS","WBEM_GENUS_INSTANCE","WBEM_GENUS_TYPE","WBEM_GENUS_TYPE enumeration [Windows Management Instrumentation]","wbemcli/WBEM_GENUS_CLASS","wbemcli/WBEM_GENUS_INSTANCE","wbemcli/WBEM_GENUS_TYPE","wmi.wbem_genus_type"]
 old-location: wmi\wbem_genus_type.htm
 tech.root: WmiSdk
 ms.assetid: 5433C3F7-3499-4AC1-9E26-0BB943B69C4D

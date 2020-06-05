@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.OpenClusterNetInterfaceEx
 title: OpenClusterNetInterfaceEx function (clusapi.h)
-description: Opens a handle to a network interface.
+description: Opens a handle to a network interface.helpviewer_keywords: ["OpenClusterNetInterfaceEx","OpenClusterNetInterfaceEx function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX","PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX function [Failover Cluster]","clusapi/OpenClusterNetInterfaceEx","clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX","mscs.openclusternetinterfaceex"]
 old-location: mscs\openclusternetinterfaceex.htm
 tech.root: MsCS
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d

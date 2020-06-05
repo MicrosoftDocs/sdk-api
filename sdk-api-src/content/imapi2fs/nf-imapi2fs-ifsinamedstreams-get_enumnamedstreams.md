@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_EnumNamedStreams
 title: IFsiNamedStreams::get_EnumNamedStreams (imapi2fs.h)
-description: Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image.
+description: Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image.helpviewer_keywords: ["IFsiNamedStreams interface [IMAPI]","get_EnumNamedStreams method","IFsiNamedStreams.get_EnumNamedStreams","IFsiNamedStreams::get_EnumNamedStreams","get_EnumNamedStreams","get_EnumNamedStreams method [IMAPI]","get_EnumNamedStreams method [IMAPI]","IFsiNamedStreams interface","imapi.ifsinamedstreams_get_enumnamedstreams","imapi2fs/IFsiNamedStreams::get_EnumNamedStreams"]
 old-location: imapi\ifsinamedstreams_get_enumnamedstreams.htm
 tech.root: imapi
 ms.assetid: 99691d12-bff6-4d75-b9ef-bd92f8198ae2

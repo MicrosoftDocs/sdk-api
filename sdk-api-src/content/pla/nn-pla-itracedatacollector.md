@@ -1,7 +1,7 @@
 ---
 UID: NN:pla.ITraceDataCollector
 title: ITraceDataCollector (pla.h)
-description: Collects trace events from registered providers.This interface defines the trace session.
+description: Collects trace events from registered providers.This interface defines the trace session.helpviewer_keywords: ["ITraceDataCollector","ITraceDataCollector interface [PLA]","ITraceDataCollector interface [PLA]","described","base.itracedatacollector","pla.itracedatacollector","pla/ITraceDataCollector"]
 old-location: pla\itracedatacollector.htm
 tech.root: PLA
 ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e

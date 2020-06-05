@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif._DVENCODERVIDEOFORMAT
 title: "_DVENCODERVIDEOFORMAT (strmif.h)"
-description: Indicates the video standard (NTSC or PAL) for digital video (DV) encoding.
+description: Indicates the video standard (NTSC or PAL) for digital video (DV) encoding.helpviewer_keywords: ["DVENCODERVIDEOFORMAT","DVENCODERVIDEOFORMATEnumeration","DVENCODERVIDEOFORMAT_NTSC","DVENCODERVIDEOFORMAT_PAL","_DVENCODERVIDEOFORMAT","_DVENCODERVIDEOFORMAT enumeration [DirectShow]","dshow.dvencodervideoformat","strmif/DVENCODERVIDEOFORMAT_NTSC","strmif/DVENCODERVIDEOFORMAT_PAL","strmif/_DVENCODERVIDEOFORMAT"]
 old-location: dshow\dvencodervideoformat.htm
 tech.root: DirectShow
 ms.assetid: 14f32314-96f4-4880-a141-89cf6e66ed6c

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IStream_Write
 title: IStream_Write function (shlwapi.h)
-description: Writes data of unknown format from a buffer to a specified stream.
+description: Writes data of unknown format from a buffer to a specified stream.helpviewer_keywords: ["IStream_Write","IStream_Write function [Windows Shell]","_shell_IStream_Write","shell.IStream_Write","shlwapi/IStream_Write"]
 old-location: shell\IStream_Write.htm
 tech.root: shell
 ms.assetid: fdcfdaf8-7fcb-433e-b3d4-98ca143fbe6b

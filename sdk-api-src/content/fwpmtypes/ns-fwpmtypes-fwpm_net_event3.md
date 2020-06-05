@@ -2,6 +2,7 @@
 UID: NS:fwpmtypes.FWPM_NET_EVENT3_
 title: FWPM_NET_EVENT3 (fwpmtypes.h)
 description: Contains information about all event types.
+helpviewer_keywords: ["FWPM_NET_EVENT3","FWPM_NET_EVENT3 structure [Filtering]","fwp.fwpm_net_event3","fwpmtypes/FWPM_NET_EVENT3"]
 old-location: fwp\fwpm_net_event3.htm
 tech.root: fwp
 ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT3</b> structure contains information about all event types.
-[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)a> is available. For Windows 7, [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)a> is available. For Windows Vista, [FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0)a> is available.</div><div> </div>
+[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2) is available. For Windows 7, [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1) is available. For Windows Vista, [FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0) is available.</div><div> </div>
 
 ## -struct-fields
 

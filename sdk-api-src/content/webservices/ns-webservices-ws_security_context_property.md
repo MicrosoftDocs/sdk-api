@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_PROPERTY
 title: WS_SECURITY_CONTEXT_PROPERTY (webservices.h)
-description: Defines a property of a WS_SECURITY_CONTEXT
+description: Defines a property of a WS_SECURITY_CONTEXThelpviewer_keywords: ["WS_SECURITY_CONTEXT_PROPERTY","WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_PROPERTY","wsw.ws_security_context_property"]
 old-location: wsw\ws_security_context_property.htm
 tech.root: wsw
 ms.assetid: 426b9847-8217-41ce-8962-138176e0555b

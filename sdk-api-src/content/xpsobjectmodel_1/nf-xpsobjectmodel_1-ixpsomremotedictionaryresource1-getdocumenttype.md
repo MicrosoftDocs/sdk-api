@@ -2,6 +2,7 @@
 UID: NF:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1.GetDocumentType
 title: IXpsOMRemoteDictionaryResource1::GetDocumentType (xpsobjectmodel_1.h)
 description: Gets the XPS_DOCUMENT_TYPE of the resource.
+helpviewer_keywords: ["GetDocumentType","GetDocumentType method [XPS Documents and Packaging]","GetDocumentType method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","GetDocumentType method","IXpsOMRemoteDictionaryResource1.GetDocumentType","IXpsOMRemoteDictionaryResource1::GetDocumentType","xps.ixpsomremotedictionaryresource1_getdocumenttype","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::GetDocumentType"]
 old-location: xps\ixpsomremotedictionaryresource1_getdocumenttype.htm
 tech.root: printdocs
 ms.assetid: C8A55D98-0E3C-448B-9E67-575D5B66535D
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> of the resource.
+Gets the <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> of the resource.
 
 
 ## -parameters
@@ -60,9 +61,9 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/
 
 ### -param documentType [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> document type of the resource.
+The <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> document type of the resource.
 
-Returns <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE_UNSPECIFIED</a> unless the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface was created by loading a previously serialized remote dictionary.
+Returns <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE_UNSPECIFIED</a> unless the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface was created by loading a previously serialized remote dictionary.
 
 
 ## -returns

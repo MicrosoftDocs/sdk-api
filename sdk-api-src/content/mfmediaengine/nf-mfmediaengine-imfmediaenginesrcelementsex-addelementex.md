@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.AddElementEx
 title: IMFMediaEngineSrcElementsEx::AddElementEx (mfmediaengine.h)
-description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.
+description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.helpviewer_keywords: ["AddElementEx","AddElementEx method [Media Foundation]","AddElementEx method [Media Foundation]","IMFMediaEngineSrcElementsEx interface","IMFMediaEngineSrcElementsEx interface [Media Foundation]","AddElementEx method","IMFMediaEngineSrcElementsEx.AddElementEx","IMFMediaEngineSrcElementsEx::AddElementEx","mf.imfmediaenginesrcelementsex_addelementex","mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx"]
 old-location: mf\imfmediaenginesrcelementsex_addelementex.htm
 tech.root: medfound
 ms.assetid: ad799c61-3ffb-4879-a875-d218c0b56e1c

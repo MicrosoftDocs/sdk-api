@@ -1,7 +1,7 @@
 ---
 UID: NN:mmdeviceapi.IActivateAudioInterfaceAsyncOperation
 title: IActivateAudioInterfaceAsyncOperation (mmdeviceapi.h)
-description: Represents an asynchronous operation activating a WASAPI interface and provides a method to retrieve the results of the activation.
+description: Represents an asynchronous operation activating a WASAPI interface and provides a method to retrieve the results of the activation.helpviewer_keywords: ["IActivateAudioInterfaceAsyncOperation","IActivateAudioInterfaceAsyncOperation interface [Core Audio]","IActivateAudioInterfaceAsyncOperation interface [Core Audio]","described","coreaudio.iactivateaudiointerfaceasyncoperation","mmdeviceapi/IActivateAudioInterfaceAsyncOperation"]
 old-location: coreaudio\iactivateaudiointerfaceasyncoperation.htm
 tech.root: CoreAudio
 ms.assetid: 43b25a67-d9a8-4749-a654-c7310039c553

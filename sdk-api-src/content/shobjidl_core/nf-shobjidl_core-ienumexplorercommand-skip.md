@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Skip
 title: IEnumExplorerCommand::Skip (shobjidl_core.h)
-description: Not currently implemented.
+description: Not currently implemented.helpviewer_keywords: ["IEnumExplorerCommand interface [Windows Shell]","Skip method","IEnumExplorerCommand.Skip","IEnumExplorerCommand::Skip","Skip","Skip method [Windows Shell]","Skip method [Windows Shell]","IEnumExplorerCommand interface","_shell_IEnumExplorerCommand_Skip","shell.IEnumExplorerCommand_Skip","shobjidl_core/IEnumExplorerCommand::Skip"]
 old-location: shell\IEnumExplorerCommand_Skip.htm
 tech.root: shell
 ms.assetid: 823bf5d4-9017-4f78-8bef-124d403174c5

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_CurrentPage
 title: IFaxStatus::get_CurrentPage (faxcom.h)
-description: Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.
+description: Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.helpviewer_keywords: ["CurrentPage property [Fax Service]","CurrentPage property [Fax Service]","IFaxStatus interface","IFaxStatus interface [Fax Service]","CurrentPage property","IFaxStatus.CurrentPage","IFaxStatus.get_CurrentPage","IFaxStatus::CurrentPage","IFaxStatus::get_CurrentPage","_mfax_ifaxstatus_get_currentpage","fax._mfax_ifaxstatus_get_currentpage","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_currentpage_cpp","faxcom/IFaxStatus::CurrentPage","faxcom/IFaxStatus::get_CurrentPage","get_CurrentPage"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_currentpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kx1.htm

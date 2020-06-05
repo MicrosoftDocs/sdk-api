@@ -1,7 +1,7 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetVisibleProviders
 title: IMbnInterface::GetVisibleProviders (mbnapi.h)
-description: Gets the list of visible providers.
+description: Gets the list of visible providers.helpviewer_keywords: ["GetVisibleProviders","GetVisibleProviders method [Microsoft Broadband Networks]","GetVisibleProviders method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetVisibleProviders method","IMbnInterface.GetVisibleProviders","IMbnInterface::GetVisibleProviders","mbn.imbninterface_getvisibleproviders","mbnapi/IMbnInterface::GetVisibleProviders"]
 old-location: mbn\imbninterface_getvisibleproviders.htm
 tech.root: mbn
 ms.assetid: 916c29ee-adb3-402c-b4f3-97b8977f44ac

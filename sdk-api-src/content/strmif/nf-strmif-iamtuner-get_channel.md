@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMTuner.get_Channel
 title: IAMTuner::get_Channel (strmif.h)
-description: The get_Channel method retrieves the channel to which the tuner is set.
+description: The get_Channel method retrieves the channel to which the tuner is set.helpviewer_keywords: ["IAMTVTuner interface [DirectShow]","get_Channel method","IAMTVTuner::get_Channel","IAMTuner interface [DirectShow]","get_Channel method","IAMTuner.get_Channel","IAMTuner::get_Channel","IAMTunerget_Channel","dshow.iamtuner_get_channel","get_Channel","get_Channel method [DirectShow]","get_Channel method [DirectShow]","IAMTVTuner interface","get_Channel method [DirectShow]","IAMTuner interface","strmif/IAMTVTuner::get_Channel","strmif/IAMTuner::get_Channel"]
 old-location: dshow\iamtuner_get_channel.htm
 tech.root: DirectShow
 ms.assetid: 68c1b6da-4380-4831-b554-bbb2e3e55ef9

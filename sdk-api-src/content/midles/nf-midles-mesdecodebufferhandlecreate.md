@@ -1,7 +1,7 @@
 ---
 UID: NF:midles.MesDecodeBufferHandleCreate
 title: MesDecodeBufferHandleCreate function (midles.h)
-description: The MesDecodeBufferHandleCreate function creates a decoding handle and initializes it for a (fixed) buffer style of serialization.
+description: The MesDecodeBufferHandleCreate function creates a decoding handle and initializes it for a (fixed) buffer style of serialization.helpviewer_keywords: ["MesDecodeBufferHandleCreate","MesDecodeBufferHandleCreate function [RPC]","_rpc_mesdecodebufferhandlecreate","midles/MesDecodeBufferHandleCreate","rpc.mesdecodebufferhandlecreate"]
 old-location: rpc\mesdecodebufferhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 10a2312d-5969-4dde-bf62-308ad425569b

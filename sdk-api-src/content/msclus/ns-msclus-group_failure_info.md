@@ -1,7 +1,7 @@
 ---
 UID: NS:msclus.GROUP_FAILURE_INFO
 title: GROUP_FAILURE_INFO (msclus.h)
-description: Represents information about the Failover attempts for a group failure.
+description: Represents information about the Failover attempts for a group failure.helpviewer_keywords: ["*PGROUP_FAILURE_INFO","GROUP_FAILURE_INFO","GROUP_FAILURE_INFO structure [Failover Cluster]","PGROUP_FAILURE_INFO","PGROUP_FAILURE_INFO structure pointer [Failover Cluster]","clusapi/GROUP_FAILURE_INFO","clusapi/PGROUP_FAILURE_INFO","msclus/GROUP_FAILURE_INFO","msclus/PGROUP_FAILURE_INFO","mscs.group_failure_info"]
 old-location: mscs\group_failure_info.htm
 tech.root: MsCS
 ms.assetid: C3E7585B-21F8-4E4C-A970-C07F72C80E76

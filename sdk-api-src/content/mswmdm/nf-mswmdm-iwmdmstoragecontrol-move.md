@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Move
 title: IWMDMStorageControl::Move (mswmdm.h)
-description: The Move method moves the current storage to a new location on the device.
+description: The Move method moves the current storage to a new location on the device.helpviewer_keywords: ["IWMDMStorageControl interface [windows Media Device Manager]","Move method","IWMDMStorageControl.Move","IWMDMStorageControl::Move","IWMDMStorageControlMove","Move","Move method [windows Media Device Manager]","Move method [windows Media Device Manager]","IWMDMStorageControl interface","mswmdm/IWMDMStorageControl::Move","wmdm.iwmdmstoragecontrol_move"]
 old-location: wmdm\iwmdmstoragecontrol_move.htm
 tech.root: WMDM
 ms.assetid: 6a2cfca0-66e6-4358-99c1-161f7baccdd5

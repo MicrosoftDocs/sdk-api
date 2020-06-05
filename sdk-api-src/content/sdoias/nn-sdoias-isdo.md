@@ -1,7 +1,7 @@
 ---
 UID: NN:sdoias.ISdo
 title: ISdo (sdoias.h)
-description: Use the ISdo interface to store, retrieve, and update Server Data Objects (SDO) information.
+description: Use the ISdo interface to store, retrieve, and update Server Data Objects (SDO) information.helpviewer_keywords: ["ISdo","ISdo interface [Network Policy Server]","ISdo interface [Network Policy Server]","described","_sdo_isdo","nps.SDO_isdo","sdo.isdo","sdoias/ISdo"]
 old-location: nps\SDO_isdo.htm
 tech.root: Nps
 ms.assetid: f8f49bf2-d8cc-40ad-ac52-05d74bcd931c

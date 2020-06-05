@@ -1,7 +1,7 @@
 ---
 UID: NE:wmcontainer.MFASF_MULTIPLEXERFLAGS
 title: MFASF_MULTIPLEXERFLAGS (wmcontainer.h)
-description: Defines the ASF multiplexer options.
+description: Defines the ASF multiplexer options.helpviewer_keywords: ["6989ac24-f25f-4bc8-a4b9-3e41434a0d44","MFASF_MULTIPLEXERFLAGS","MFASF_MULTIPLEXERFLAGS enumeration [Media Foundation]","MFASF_MULTIPLEXER_AUTOADJUST_BITRATE","enumeration [Media Foundation]","mf.mfasf_multiplexerflags","wmcontainer/MFASF_MULTIPLEXERFLAGS","wmcontainer/MFASF_MULTIPLEXER_AUTOADJUST_BITRATE"]
 old-location: mf\mfasf_multiplexerflags.htm
 tech.root: medfound
 ms.assetid: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44

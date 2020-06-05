@@ -2,6 +2,7 @@
 UID: NN:appxpackaging.IAppxBlockMapBlocksEnumerator
 title: IAppxBlockMapBlocksEnumerator (appxpackaging.h)
 description: Enumerates the blocks from a block map in a single file.
+helpviewer_keywords: ["IAppxBlockMapBlocksEnumerator","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","described","appxpackaging/IAppxBlockMapBlocksEnumerator","appxpkg.iappxblockmapblocksenumerator"]
 old-location: appxpkg\iappxblockmapblocksenumerator.htm
 tech.root: appxpkg
 ms.assetid: E7678755-4779-4A64-A666-C5FFC4A7F37A
@@ -118,16 +119,4 @@ Advances the position of the enumerator to the next block.
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
-
-
-
-<b>Reference</b>
-
-
-
-<b>Samples</b>
- 
-
- 
-
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx">Query app package and app manifest sample</a>

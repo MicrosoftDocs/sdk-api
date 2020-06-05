@@ -2,6 +2,7 @@
 UID: NF:fwpmu.FwpmConnectionCreateEnumHandle0
 title: FwpmConnectionCreateEnumHandle0 function (fwpmu.h)
 description: Creates a handle used to enumerate a set of connection objects.
+helpviewer_keywords: ["FwpmConnectionCreateEnumHandle0","FwpmConnectionCreateEnumHandle0 function [Filtering]","fwp.fwpmconnectioncreateenumhandle0","fwpmu/FwpmConnectionCreateEnumHandle0"]
 old-location: fwp\fwpmconnectioncreateenumhandle0.htm
 tech.root: fwp
 ms.assetid: b33878d5-437d-4625-b488-28fbe95eb69f
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: [FWPM_CONNECTION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)a>*</b>
+Type: [FWPM_CONNECTION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)*</b>
 
 Template for selectively restricting the enumeration.
 
@@ -149,7 +150,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_CONNECTION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)a>
+[FWPM_CONNECTION_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)
 
 
 

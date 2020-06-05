@@ -1,7 +1,7 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Resume
 title: IADsPrintJobOperations::Resume (iads.h)
-description: The IADsPrintJobOperations::Resume method continues the print job halted by the IADsPrintJobOperations::Pause method.
+description: The IADsPrintJobOperations::Resume method continues the print job halted by the IADsPrintJobOperations::Pause method.helpviewer_keywords: ["IADsPrintJobOperations interface [ADSI]","Resume method","IADsPrintJobOperations.Resume","IADsPrintJobOperations::Resume","Resume","Resume method [ADSI]","Resume method [ADSI]","IADsPrintJobOperations interface","_ds_iadsprintjoboperations_resume","adsi.iadsprintjoboperations__resume","adsi.iadsprintjoboperations_resume","iads/IADsPrintJobOperations::Resume"]
 old-location: adsi\iadsprintjoboperations_resume.htm
 tech.root: adsi
 ms.assetid: aed5f1be-36b6-413a-a1c0-c61823a31571

@@ -2,6 +2,7 @@
 UID: NF:sensorsapi.ISensorManagerEvents.OnSensorEnter
 title: ISensorManagerEvents::OnSensorEnter (sensorsapi.h)
 description: Provides notification when a sensor device is connected.
+helpviewer_keywords: ["ISensorManagerEvents interface","OnSensorEnter method","ISensorManagerEvents.OnSensorEnter","ISensorManagerEvents::OnSensorEnter","OnSensorEnter","OnSensorEnter method","OnSensorEnter method","ISensorManagerEvents interface","sensorsapi/ISensorManagerEvents::OnSensorEnter","winsensors_com_ref.isensormanagerevents_onsensorenter","winsensors_com_ref.isensormanagerevents_sensorenter"]
 old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm
 tech.root: SensorsAPI
 ms.assetid: 1316e3b0-9677-4575-a3b8-53fa57295987
@@ -65,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensors
 ### -param state [in]
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> indicating the current state of the sensor.
+<a href="/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> indicating the current state of the sensor.
 
 
 ## -returns

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi.phoneGetDisplay
 title: phoneGetDisplay function (tapi.h)
-description: The phoneGetDisplay function returns the current contents of the specified phone display.
+description: The phoneGetDisplay function returns the current contents of the specified phone display.helpviewer_keywords: ["_tapi2_phonegetdisplay","phoneGetDisplay","phoneGetDisplay function [TAPI 2.2]","tapi/phoneGetDisplay","tapi2.phonegetdisplay"]
 old-location: tapi2\phonegetdisplay.htm
 tech.root: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b

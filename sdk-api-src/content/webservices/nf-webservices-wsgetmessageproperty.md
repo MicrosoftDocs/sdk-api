@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetMessageProperty
 title: WsGetMessageProperty function (webservices.h)
-description: Retrieves a specified Message object property. The property to retrieve is identified by a WS_MESSAGE_PROPERTY_ID input parameter.
+description: Retrieves a specified Message object property. The property to retrieve is identified by a WS_MESSAGE_PROPERTY_ID input parameter.helpviewer_keywords: ["WsGetMessageProperty","WsGetMessageProperty function [Web Services for Windows]","webservices/WsGetMessageProperty","wsw.wsgetmessageproperty"]
 old-location: wsw\wsgetmessageproperty.htm
 tech.root: wsw
 ms.assetid: 369f7690-6d70-401a-84aa-e5761dc874b5

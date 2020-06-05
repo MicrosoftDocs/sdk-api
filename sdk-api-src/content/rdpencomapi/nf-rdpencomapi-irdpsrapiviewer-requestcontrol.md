@@ -2,6 +2,7 @@
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestControl
 title: IRDPSRAPIViewer::RequestControl (rdpencomapi.h)
 description: Requests the sharer to change the control level of the viewer.
+helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","RequestControl method","IRDPSRAPIViewer.RequestControl","IRDPSRAPIViewer::RequestControl","RequestControl","RequestControl method [RDP]","RequestControl method [RDP]","IRDPSRAPIViewer interface","rdp.irdpsrapiviewer_requestcontrol","rdpencomapi/IRDPSRAPIViewer::RequestControl"]
 old-location: rdp\irdpsrapiviewer_requestcontrol.htm
 tech.root: rdp
 ms.assetid: be913f3c-9a5b-46bd-be9a-1ba0b0c20211
@@ -63,7 +64,7 @@ Requests the sharer to change the control level of the viewer. After this method
 
 Type: <b>CTRL_LEVEL</b>
 
-One of the values of the <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-ctrl_level">CTRL_LEVEL</a> enumeration.
+One of the values of the <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-ctrl_level">CTRL_LEVEL</a> enumeration.
 
 
 ## -returns

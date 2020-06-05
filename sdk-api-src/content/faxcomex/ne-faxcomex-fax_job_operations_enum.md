@@ -1,7 +1,7 @@
 ---
 UID: NE:faxcomex.FAX_JOB_OPERATIONS_ENUM
 title: FAX_JOB_OPERATIONS_ENUM (faxcomex.h)
-description: The FAX_JOB_OPERATIONS_ENUM enumeration defines the operations that can be performed on a fax job. The members of this enumeration are bit values and can be used in combination.
+description: The FAX_JOB_OPERATIONS_ENUM enumeration defines the operations that can be performed on a fax job. The members of this enumeration are bit values and can be used in combination.helpviewer_keywords: ["FAX_JOB_OPERATIONS_ENUM","FAX_JOB_OPERATIONS_ENUM enumeration [Fax Service]","_mfax_fax_job_operations_enum","fax._mfax_fax_job_operations_enum","faxcomex/FAX_JOB_OPERATIONS_ENUM","faxcomex/fjoDELETE","faxcomex/fjoPAUSE","faxcomex/fjoRECIPIENT_INFO","faxcomex/fjoRESTART","faxcomex/fjoRESUME","faxcomex/fjoSENDER_INFO","faxcomex/fjoVIEW","fjoDELETE","fjoPAUSE","fjoRECIPIENT_INFO","fjoRESTART","fjoRESUME","fjoSENDER_INFO","fjoVIEW"]
 old-location: fax\_mfax_fax_job_operations_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1ijx.htm

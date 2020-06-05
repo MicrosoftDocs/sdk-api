@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillEllipse(IN const Brush,IN const RectF &)
 title: Graphics::FillEllipse
-description: The **Graphics::FillEllipse** method uses a brush to fill the interior of an ellipse that is specified by a rectangle.
+description: The **Graphics::FillEllipse** method uses a brush to fill the interior of an ellipse that is specified by a rectangle.helpviewer_keywords: ["Graphics::FillEllipse"]
 ms.assetid: a89598db-a1b9-404a-a2bc-1a0a94afb8d4
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillEllipse

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.GSGetConstantBuffers1
 title: ID3D11DeviceContext1::GSGetConstantBuffers1 (d3d11_1.h)
-description: Gets the constant buffers that the geometry shader pipeline stage uses.
+description: Gets the constant buffers that the geometry shader pipeline stage uses.helpviewer_keywords: ["GSGetConstantBuffers1","GSGetConstantBuffers1 method [Direct3D 11]","GSGetConstantBuffers1 method [Direct3D 11]","ID3D11DeviceContext1 interface","ID3D11DeviceContext1 interface [Direct3D 11]","GSGetConstantBuffers1 method","ID3D11DeviceContext1.GSGetConstantBuffers1","ID3D11DeviceContext1::GSGetConstantBuffers1","d3d11_1/ID3D11DeviceContext1::GSGetConstantBuffers1","direct3d11.id3d11devicecontext1_gsgetconstantbuffers1"]
 old-location: direct3d11\id3d11devicecontext1_gsgetconstantbuffers1.htm
 tech.root: direct3d11
 ms.assetid: 5899782E-89A4-4DFD-8A1E-AA7E87364AFC

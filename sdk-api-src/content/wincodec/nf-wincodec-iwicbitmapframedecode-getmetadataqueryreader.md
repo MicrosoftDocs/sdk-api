@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameDecode.GetMetadataQueryReader
 title: IWICBitmapFrameDecode::GetMetadataQueryReader (wincodec.h)
-description: Retrieves a metadata query reader for the frame.
+description: Retrieves a metadata query reader for the frame.helpviewer_keywords: ["GetMetadataQueryReader","GetMetadataQueryReader method [Windows Imaging Component]","GetMetadataQueryReader method [Windows Imaging Component]","IWICBitmapFrameDecode interface","IWICBitmapFrameDecode interface [Windows Imaging Component]","GetMetadataQueryReader method","IWICBitmapFrameDecode.GetMetadataQueryReader","IWICBitmapFrameDecode::GetMetadataQueryReader","_wic_codec_iwicbitmapframedecode_getmetadataqueryreader","wic._wic_codec_iwicbitmapframedecode_getmetadataqueryreader","wincodec/IWICBitmapFrameDecode::GetMetadataQueryReader"]
 old-location: wic\_wic_codec_iwicbitmapframedecode_getmetadataqueryreader.htm
 tech.root: wic
 ms.assetid: e28de664-f9f1-4cf1-b2a7-f310548a3786

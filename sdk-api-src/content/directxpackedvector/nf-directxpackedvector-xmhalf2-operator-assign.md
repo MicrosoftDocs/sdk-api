@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.operator-assign
 title: XMHALF2::operator-assign (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMHALF2 to the current instance of XMHALF2.
+description: Assigns the vector component data from one instance of XMHALF2 to the current instance of XMHALF2.helpviewer_keywords: ["DirectX::PackedVector.XMHALF2.operator =","DirectX::PackedVector::XMHALF2::operator =","XMHALF2 structure [DirectX Math Support APIs]","operator = method","XMHALF2.operator =","XMHALF2.operator-assign","XMHALF2.operator=","XMHALF2::operator-assign","XMHALF2::operator=","dxmath.xmhalf2_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMHALF2 structure","operator="]
 old-location: dxmath\xmhalf2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.operator = (const XMHALF2)

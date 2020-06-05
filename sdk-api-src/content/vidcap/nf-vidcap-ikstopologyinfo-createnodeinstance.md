@@ -1,7 +1,7 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.CreateNodeInstance
 title: IKsTopologyInfo::CreateNodeInstance (vidcap.h)
-description: The CreateNodeInstance method creates a COM object that represents a node in the filter.
+description: The CreateNodeInstance method creates a COM object that represents a node in the filter.helpviewer_keywords: ["CreateNodeInstance","CreateNodeInstance method [DirectShow]","CreateNodeInstance method [DirectShow]","IKsTopologyInfo interface","IKsTopologyInfo interface [DirectShow]","CreateNodeInstance method","IKsTopologyInfo.CreateNodeInstance","IKsTopologyInfo::CreateNodeInstance","IKsTopologyInfoCreateNodeInstance","dshow.ikstopologyinfo_createnodeinstance","vidcap/IKsTopologyInfo::CreateNodeInstance"]
 old-location: dshow\ikstopologyinfo_createnodeinstance.htm
 tech.root: DirectShow
 ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7

@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetRights
 title: IWMDMStorage::GetRights (mswmdm.h)
-description: The GetRights method retrieves rights information for a licensed storage.
+description: The GetRights method retrieves rights information for a licensed storage.helpviewer_keywords: ["GetRights","GetRights method [windows Media Device Manager]","GetRights method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetRights method","IWMDMStorage.GetRights","IWMDMStorage::GetRights","IWMDMStorageGetRights","mswmdm/IWMDMStorage::GetRights","wmdm.iwmdmstorage_getrights"]
 old-location: wmdm\iwmdmstorage_getrights.htm
 tech.root: WMDM
 ms.assetid: 5b654d32-b72a-44cf-a8d9-63fc0ae76171

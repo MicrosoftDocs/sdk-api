@@ -2,6 +2,7 @@
 UID: NF:credentialprovider.ICredentialProvider.SetUsageScenario
 title: ICredentialProvider::SetUsageScenario (credentialprovider.h)
 description: Defines the scenarios for which the credential provider is valid. Called whenever the credential provider is initialized.
+helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY","CREDUIWIN_CHECKBOX","CREDUIWIN_ENUMERATE_ADMINS","CREDUIWIN_ENUMERATE_CURRENT_USER","CREDUIWIN_GENERIC","CREDUIWIN_IN_CRED_ONLY","CREDUIWIN_PACK_32_WOW","CREDUIWIN_SECURE_PROMPT","ICredentialProvider interface [Windows Shell]","SetUsageScenario method","ICredentialProvider.SetUsageScenario","ICredentialProvider::SetUsageScenario","SetUsageScenario","SetUsageScenario method [Windows Shell]","SetUsageScenario method [Windows Shell]","ICredentialProvider interface","credentialprovider/ICredentialProvider::SetUsageScenario","shell.ICredentialProvider_SetUsageScenario","shell_ICredentialProvider_SetUsageScenario"]
 old-location: shell\ICredentialProvider_SetUsageScenario.htm
 tech.root: shell
 ms.assetid: 62577b41-e115-45df-9f9b-c5c282365a3e
@@ -59,7 +60,7 @@ Defines the scenarios for which the credential provider is valid. Called wheneve
 
 ### -param cpus [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
+Type: <b><a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
 
 The scenario the credential provider has been created in. This is the usage scenario that needs to be supported. See the Remarks for more information.
 
@@ -92,7 +93,7 @@ A value that affects the behavior of the credential provider. This value can be 
 
 #### CREDUIWIN_IN_CRED_ONLY (0x00000020)
 
-0x00000020. If the provider can serialize the credentials, then it should enumerate a tile for that credential. No other tiles should be enumerated. Credential providers should use the input <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> in <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> and <i>dwFlags</i> in <b>ICredentialProvider::SetUsageScenario</b> in order 
+0x00000020. If the provider can serialize the credentials, then it should enumerate a tile for that credential. No other tiles should be enumerated. Credential providers should use the input <a href="/windows/win32/api/credentialprovider/ns-credentialprovider-credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> in <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> and <i>dwFlags</i> in <b>ICredentialProvider::SetUsageScenario</b> in order 
 to determine how many credential tiles to enumerate. This value cannot be combined with <b>CREDUIWIN_AUTHPACKAGE_ONLY</b>.
 
 

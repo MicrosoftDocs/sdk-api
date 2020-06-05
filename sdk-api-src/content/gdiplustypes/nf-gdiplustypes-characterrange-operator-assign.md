@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.operator-assign
 title: CharacterRange::operator-assign (gdiplustypes.h)
-description: The CharacterRange::operator= method sets this CharacterRange object equal to the specified CharacterRange object.
+description: The CharacterRange::operator= method sets this CharacterRange object equal to the specified CharacterRange object.helpviewer_keywords: ["CharacterRange class [GDI+]","operator= method","CharacterRange.operator-assign","CharacterRange.operator=","CharacterRange::operator-assign","CharacterRange::operator=","_gdiplus_CLASS_CharacterRange_operator_rhs_","gdiplus._gdiplus_CLASS_CharacterRange_operator_rhs_","operator=","operator= method [GDI+]","operator= method [GDI+]","CharacterRange class"]
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_operator_rhs_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\operator.htm

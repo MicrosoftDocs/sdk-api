@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IEnumExtraSearch
 title: IEnumExtraSearch (shobjidl_core.h)
-description: A standard OLE enumerator used by a client to determine the available search objects for a folder.
+description: A standard OLE enumerator used by a client to determine the available search objects for a folder.helpviewer_keywords: ["IEnumExtraSearch","IEnumExtraSearch interface [Windows Shell]","IEnumExtraSearch interface [Windows Shell]","described","_win32_IEnumExtraSearch","shell.IEnumExtraSearch","shobjidl_core/IEnumExtraSearch"]
 old-location: shell\IEnumExtraSearch.htm
 tech.root: shell
 ms.assetid: 63b71cd2-483b-482f-b3f4-6d5c937e7708

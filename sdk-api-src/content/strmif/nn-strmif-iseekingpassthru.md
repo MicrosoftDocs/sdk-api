@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.ISeekingPassThru
 title: ISeekingPassThru (strmif.h)
-description: The ISeekingPassThru interface creates a helper object that implements seeking for one-input filters.
+description: The ISeekingPassThru interface creates a helper object that implements seeking for one-input filters.helpviewer_keywords: ["ISeekingPassThru","ISeekingPassThru interface [DirectShow]","ISeekingPassThru interface [DirectShow]","described","ISeekingPassThruInterface","dshow.iseekingpassthru","strmif/ISeekingPassThru"]
 old-location: dshow\iseekingpassthru.htm
 tech.root: DirectShow
 ms.assetid: a22f2723-b44e-4c7e-8508-db5c6af5b1d6

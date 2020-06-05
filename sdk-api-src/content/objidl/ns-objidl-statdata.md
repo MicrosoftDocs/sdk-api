@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagSTATDATA
 title: STATDATA (objidl.h)
-description: Contains information used to specify each advisory connection.
+description: Contains information used to specify each advisory connection.helpviewer_keywords: ["*LPSTATDATA","LPSTATDATA","LPSTATDATA structure pointer [COM]","STATDATA","STATDATA structure [COM]","_ole_STATDATA","com.statdata","objidl/LPSTATDATA","objidl/STATDATA"]
 old-location: com\statdata.htm
 tech.root: com
 ms.assetid: f31469b2-4a4a-4da5-9229-38ddd0bcc88e

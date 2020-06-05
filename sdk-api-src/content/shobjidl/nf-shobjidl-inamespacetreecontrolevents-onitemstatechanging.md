@@ -2,6 +2,7 @@
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemStateChanging
 title: INameSpaceTreeControlEvents::OnItemStateChanging (shobjidl.h)
 description: Called before the state of an item changes.
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemStateChanging method","INameSpaceTreeControlEvents.OnItemStateChanging","INameSpaceTreeControlEvents::OnItemStateChanging","OnItemStateChanging","OnItemStateChanging method [Windows Shell]","OnItemStateChanging method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemStateChanging","shell.INameSpaceTreeControlEvents_OnItemStateChanging","shobjidl/INameSpaceTreeControlEvents::OnItemStateChanging"]
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanging.htm
 tech.root: shell
 ms.assetid: ed0f431a-f3e2-4a95-a16e-6e38568dd91f
@@ -66,16 +67,16 @@ A pointer to the Shell item for which the state is going to change.
 
 ### -param nstcisMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
 
-One or more values from the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> enumeration that indicate which pieces of information the calling application wants to set.
+One or more values from the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> enumeration that indicate which pieces of information the calling application wants to set.
 
 
 ### -param nstcisState [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a></b>
 
-One or more values from the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> enumeration that indicate the values that are to be set.
+One or more values from the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_nstcitemstate">NSTCITEMSTATE</a> enumeration that indicate the values that are to be set.
 
 
 ## -returns

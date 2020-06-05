@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMLoadByteN4
 title: XMLoadByteN4 function (directxpackedvector.h)
-description: Loads an XMBYTEN4 into an XMVECTOR.
+description: Loads an XMBYTEN4 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadByteN4","XMLoadByteN4","XMLoadByteN4 method [DirectX Math Support APIs]","dxmath.xmloadbyten4"]
 old-location: dxmath\xmloadbyten4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByteN4(const XMBYTEN4)

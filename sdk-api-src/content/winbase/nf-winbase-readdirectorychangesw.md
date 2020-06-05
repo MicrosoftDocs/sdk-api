@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.ReadDirectoryChangesW
 title: ReadDirectoryChangesW function (winbase.h)
-description: Retrieves information that describes the changes within the specified directory.
+description: Retrieves information that describes the changes within the specified directory.helpviewer_keywords: ["FILE_NOTIFY_CHANGE_ATTRIBUTES","FILE_NOTIFY_CHANGE_CREATION","FILE_NOTIFY_CHANGE_DIR_NAME","FILE_NOTIFY_CHANGE_FILE_NAME","FILE_NOTIFY_CHANGE_LAST_ACCESS","FILE_NOTIFY_CHANGE_LAST_WRITE","FILE_NOTIFY_CHANGE_SECURITY","FILE_NOTIFY_CHANGE_SIZE","ReadDirectoryChangesW","ReadDirectoryChangesW function [Files]","_win32_readdirectorychangesw","base.readdirectorychangesw","fs.readdirectorychangesw","winbase/ReadDirectoryChangesW"]
 old-location: fs\readdirectorychangesw.htm
 tech.root: FileIO
 ms.assetid: 14dfc93d-557e-43d0-be45-8414cfd92c29

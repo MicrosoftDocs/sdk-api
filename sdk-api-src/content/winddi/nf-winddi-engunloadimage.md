@@ -1,7 +1,7 @@
 ---
 UID: NF:winddi.EngUnloadImage
 title: EngUnloadImage macro (winddi.h)
-description: The EngUnloadImage function unloads an image loaded by EngLoadImage.
+description: The EngUnloadImage function unloads an image loaded by EngLoadImage.helpviewer_keywords: ["EngUnloadImage","EngUnloadImage function [Display Devices]","display.engunloadimage","gdifncs_e20ef926-cd02-4fdc-bd92-3a9d201b7566.xml","winddi/EngUnloadImage"]
 old-location: display\engunloadimage.htm
 tech.root: display
 ms.assetid: e5b96929-1f57-4b98-8398-69a933e6ff99

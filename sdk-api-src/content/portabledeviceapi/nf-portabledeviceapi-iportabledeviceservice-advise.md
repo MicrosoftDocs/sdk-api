@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Advise
 title: IPortableDeviceService::Advise (portabledeviceapi.h)
-description: Registers an application-defined callback object that receives service events.
+description: Registers an application-defined callback object that receives service events.helpviewer_keywords: ["Advise","Advise method [Windows Portable Devices SDK]","Advise method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","Advise method","IPortableDeviceService.Advise","IPortableDeviceService::Advise","portabledeviceapi/IPortableDeviceService::Advise","wpdsdk.iportabledeviceservice_advise"]
 old-location: wpdsdk\iportabledeviceservice_advise.htm
 tech.root: wpd_sdk
 ms.assetid: 128b1ee9-fd1f-4480-ae9a-b1d0bc86cf1b

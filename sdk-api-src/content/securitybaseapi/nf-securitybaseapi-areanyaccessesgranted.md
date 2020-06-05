@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.AreAnyAccessesGranted
 title: AreAnyAccessesGranted function (securitybaseapi.h)
-description: Tests whether any of a set of requested access rights has been granted. The access rights are represented as bit flags in an access mask.
+description: Tests whether any of a set of requested access rights has been granted. The access rights are represented as bit flags in an access mask.helpviewer_keywords: ["AreAnyAccessesGranted","AreAnyAccessesGranted function [Security]","_win32_areanyaccessesgranted","security.areanyaccessesgranted","securitybaseapi/AreAnyAccessesGranted"]
 old-location: security\areanyaccessesgranted.htm
 tech.root: SecAuthZ
 ms.assetid: 4bac6ebc-716a-4725-b9e6-a109b27dfc18

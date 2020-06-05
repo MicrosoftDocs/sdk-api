@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagEMRALPHABLEND
 title: EMRALPHABLEND (wingdi.h)
-description: The EMRALPHABLEND structure contains members for the AlphaBlend enhanced metafile record.
+description: The EMRALPHABLEND structure contains members for the AlphaBlend enhanced metafile record.helpviewer_keywords: ["*PEMRALPHABLEND","EMRALPHABLEND","EMRALPHABLEND structure [Windows GDI]","PEMRALPHABLEND","PEMRALPHABLEND structure pointer [Windows GDI]","_win32_EMRALPHABLEND_str","gdi.emralphablend","wingdi/EMRALPHABLEND","wingdi/PEMRALPHABLEND"]
 old-location: gdi\emralphablend.htm
 tech.root: gdi
 ms.assetid: 3270d8ed-a174-4d77-a9a7-3e3f0cab2a23

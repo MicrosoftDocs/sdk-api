@@ -2,6 +2,7 @@
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_IpAddressSource
 title: IWdsTransportServicePolicy::put_IpAddressSource (wdstptmgmt.h)
 description: Enables a WDS client computer to configure, for a specified type of IP address, the IP address source from which the WDS transport server obtains a multicast address.
+helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","IpAddressSource property","IWdsTransportServicePolicy.IpAddressSource","IWdsTransportServicePolicy.put_IpAddressSource","IWdsTransportServicePolicy::IpAddressSource","IWdsTransportServicePolicy::get_IpAddressSource","IWdsTransportServicePolicy::put_IpAddressSource","IpAddressSource property [Windows Deployment Services]","IpAddressSource property [Windows Deployment Services]","IWdsTransportServicePolicy interface","put_IpAddressSource","wds.iwdstransportservicepolicy_ipaddresssource","wdstptmgmt/IWdsTransportServicePolicy::IpAddressSource","wdstptmgmt/IWdsTransportServicePolicy::get_IpAddressSource","wdstptmgmt/IWdsTransportServicePolicy::put_IpAddressSource"]
 old-location: wds\iwdstransportservicepolicy_ipaddresssource.htm
 tech.root: wds
 ms.assetid: 867095bf-3a1d-479f-81d0-31f320e60c95
@@ -68,11 +69,11 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_source_type">WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_source_type">WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
  
 
  

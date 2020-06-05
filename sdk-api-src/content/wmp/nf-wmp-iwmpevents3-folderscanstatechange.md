@@ -1,7 +1,7 @@
 ---
 UID: NF:wmp.IWMPEvents3.FolderScanStateChange
 title: IWMPEvents3::FolderScanStateChange (wmp.h)
-description: The FolderScanStateChange event occurs when a folder monitoring operation changes state.
+description: The FolderScanStateChange event occurs when a folder monitoring operation changes state.helpviewer_keywords: ["FolderScanStateChange","FolderScanStateChange method [Windows Media Player]","FolderScanStateChange method [Windows Media Player]","IWMPEvents3 interface","IWMPEvents3 interface [Windows Media Player]","FolderScanStateChange method","IWMPEvents3.FolderScanStateChange","IWMPEvents3::FolderScanStateChange","IWMPEvents3FolderScanStateChange","wmp.iwmpevents3_iwmpevents3__folderscanstatechange","wmp/IWMPEvents3::FolderScanStateChange"]
 old-location: wmp\iwmpevents3_iwmpevents3__folderscanstatechange.htm
 tech.root: WMP
 ms.assetid: 07e9a49b-19a6-4ed2-b037-fe44ada920a1

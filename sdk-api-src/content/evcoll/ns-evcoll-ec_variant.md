@@ -1,7 +1,7 @@
 ---
 UID: NS:evcoll._EC_VARIANT
 title: EC_VARIANT (evcoll.h)
-description: Contains event collector data (subscription data) or property values.
+description: Contains event collector data (subscription data) or property values.helpviewer_keywords: ["*PEC_VARIANT","EC_VARIANT","EC_VARIANT structure","evcoll/EC_VARIANT","wec.ec_variant","wes.ec_variant"]
 old-location: wec\ec_variant.htm
 tech.root: WEC
 ms.assetid: f1f20e33-46b0-458e-ac6c-f890be20c455

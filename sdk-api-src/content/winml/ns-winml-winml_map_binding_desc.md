@@ -1,7 +1,7 @@
 ---
 UID: NS:winml.WINML_MAP_BINDING_DESC
 title: WINML_MAP_BINDING_DESC (winml.h)
-description: Contains properties for the binding of type map.
+description: Contains properties for the binding of type map.helpviewer_keywords: ["MachineLearning.winml_map_binding_desc","PWINML_MAP_BINDING_DESC","PWINML_MAP_BINDING_DESC structure pointer","WINML_MAP_BINDING_DESC","WINML_MAP_BINDING_DESC structure","winml/PWINML_MAP_BINDING_DESC","winml/WINML_MAP_BINDING_DESC"]
 old-location: machinelearning\winml_map_binding_desc.htm
 tech.root: MachineLearning
 ms.assetid: 3D9FE11A-6053-4F59-9488-08A92EB45A09

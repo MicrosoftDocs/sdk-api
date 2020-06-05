@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MajorBuild
 title: IFaxInboundRoutingExtension::get_MajorBuild (faxcomex.h)
-description: The IFaxInboundRoutingExtension::get_MajorBuild property is a value that specifies the major part of the build number for the fax routing extension's DLL.
+description: The IFaxInboundRoutingExtension::get_MajorBuild property is a value that specifies the major part of the build number for the fax routing extension's DLL.helpviewer_keywords: ["IFaxInboundRoutingExtension interface [Fax Service]","MajorBuild property","IFaxInboundRoutingExtension.MajorBuild","IFaxInboundRoutingExtension.get_MajorBuild","IFaxInboundRoutingExtension::MajorBuild","IFaxInboundRoutingExtension::get_MajorBuild","MajorBuild property [Fax Service]","MajorBuild property [Fax Service]","IFaxInboundRoutingExtension interface","_mfax_faxinboundroutingextension.majorbuild","fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorbuild_cpp","fax._mfax_faxinboundroutingextension_majorbuild","faxcomex/IFaxInboundRoutingExtension::MajorBuild","faxcomex/IFaxInboundRoutingExtension::get_MajorBuild","get_MajorBuild"]
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0eas.htm

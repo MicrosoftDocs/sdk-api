@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_LNBInfo
 title: IBDA_LNBInfo (bdaiface.h)
-description: The IBDA_LNBInfo interface is implemented on a BDA device filter, specifically an LNB device. The methods are called by the Network Provider to instruct the device on how to acquire the satellite signal.
+description: The IBDA_LNBInfo interface is implemented on a BDA device filter, specifically an LNB device. The methods are called by the Network Provider to instruct the device on how to acquire the satellite signal.helpviewer_keywords: ["IBDA_LNBInfo","IBDA_LNBInfo interface [Microsoft TV Technologies]","IBDA_LNBInfo interface [Microsoft TV Technologies]","described","IBDA_LNBInfoInterface","bdaiface/IBDA_LNBInfo","mstv.ibda_lnbinfo"]
 old-location: mstv\ibda_lnbinfo.htm
 tech.root: mstv
 ms.assetid: 4985b525-c000-4d19-9679-c995cbc3c99b

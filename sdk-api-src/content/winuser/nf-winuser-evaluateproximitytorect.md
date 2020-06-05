@@ -2,6 +2,7 @@
 UID: NF:winuser.EvaluateProximityToRect
 title: EvaluateProximityToRect function (winuser.h)
 description: Returns the score of a rectangle as the probable touch target, compared to all other rectangles that intersect the touch contact area, and an adjusted touch point within the rectangle.
+helpviewer_keywords: ["EvaluateProximityToRect","EvaluateProximityToRect function","input_touchhittest.evaluateproximitytorect","touch_hittest.evaluateproximitytorect","winuser/EvaluateProximityToRect"]
 old-location: input_touchhittest\evaluateproximitytorect.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 269ef4c1-9c9f-4bd7-9852-e82c4a707d3c
@@ -73,7 +74,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-t
 
 ### -param pProximityEval [out]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
+The <a href="/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
 
 
 ## -returns

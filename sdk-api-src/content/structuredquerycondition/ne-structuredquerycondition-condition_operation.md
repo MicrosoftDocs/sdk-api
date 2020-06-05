@@ -2,6 +2,7 @@
 UID: NE:structuredquerycondition.tagCONDITION_OPERATION
 title: CONDITION_OPERATION (structuredquerycondition.h)
 description: Provides a set of flags to be used with following methods to indicate the operation in ICondition::GetComparisonInfo, ICondition2::GetLeafConditionInfo, IConditionFactory::MakeLeaf, IConditionFactory2::CreateBooleanLeaf, IConditionFactory2::CreateIntegerLeaf, IConditionFactory2::MakeLeaf, IConditionFactory2::CreateStringLeaf, and IConditionGenerator::GenerateForLeaf.
+helpviewer_keywords: ["CONDITION_OPERATION","CONDITION_OPERATION enumeration [search]","COP_APPLICATION_SPECIFIC","COP_DOSWILDCARDS","COP_EQUAL","COP_GREATERTHAN","COP_GREATERTHANOREQUAL","COP_IMPLICIT","COP_LESSTHAN","COP_LESSTHANOREQUAL","COP_NOTEQUAL","COP_VALUE_CONTAINS","COP_VALUE_ENDSWITH","COP_VALUE_NOTCONTAINS","COP_VALUE_STARTSWITH","COP_WORD_EQUAL","COP_WORD_STARTSWITH","_search_CONDITION_OPERATION","search._search_CONDITION_OPERATION","structuredquerycondition/CONDITION_OPERATION","structuredquerycondition/COP_APPLICATION_SPECIFIC","structuredquerycondition/COP_DOSWILDCARDS","structuredquerycondition/COP_EQUAL","structuredquerycondition/COP_GREATERTHAN","structuredquerycondition/COP_GREATERTHANOREQUAL","structuredquerycondition/COP_IMPLICIT","structuredquerycondition/COP_LESSTHAN","structuredquerycondition/COP_LESSTHANOREQUAL","structuredquerycondition/COP_NOTEQUAL","structuredquerycondition/COP_VALUE_CONTAINS","structuredquerycondition/COP_VALUE_ENDSWITH","structuredquerycondition/COP_VALUE_NOTCONTAINS","structuredquerycondition/COP_VALUE_STARTSWITH","structuredquerycondition/COP_WORD_EQUAL","structuredquerycondition/COP_WORD_STARTSWITH"]
 old-location: search\_search_CONDITION_OPERATION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_operation.htm
@@ -161,7 +162,7 @@ In Windows 7, this enumeration is defined in structuredquerycondition.idl and s
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

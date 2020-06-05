@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISupportFilteredSync
 title: ISupportFilteredSync (winsync.h)
-description: When implemented by a derived class, represents a source provider that supports filtered change enumeration, and that can negotiate the type of filter that is used.
+description: When implemented by a derived class, represents a source provider that supports filtered change enumeration, and that can negotiate the type of filter that is used.helpviewer_keywords: ["ISupportFilteredSync","ISupportFilteredSync interface [Windows Sync]","ISupportFilteredSync interface [Windows Sync]","described","winsync.isupportfilteredsync","winsync/ISupportFilteredSync"]
 old-location: winsync\isupportfilteredsync.htm
 tech.root: winsync
 ms.assetid: cf07e322-7c75-49a4-a514-b4c782ceb2d7

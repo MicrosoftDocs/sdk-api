@@ -1,7 +1,7 @@
 ---
 UID: NF:wincrypt.CertDeleteCertificateFromStore
 title: CertDeleteCertificateFromStore function (wincrypt.h)
-description: The CertDeleteCertificateFromStore function deletes the specified certificate context from the certificate store.
+description: The CertDeleteCertificateFromStore function deletes the specified certificate context from the certificate store.helpviewer_keywords: ["CertDeleteCertificateFromStore","CertDeleteCertificateFromStore function [Security]","_crypto2_certdeletecertificatefromstore","security.certdeletecertificatefromstore","wincrypt/CertDeleteCertificateFromStore"]
 old-location: security\certdeletecertificatefromstore.htm
 tech.root: SecCrypto
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3

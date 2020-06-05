@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.DecryptPackage
 title: IAppxEncryptionFactory::DecryptPackage (appxpackaging.h)
-description: Creates an unencrypted Windows app package from an encrypted one.
+description: Creates an unencrypted Windows app package from an encrypted one.helpviewer_keywords: ["DecryptPackage","DecryptPackage method [App packaging and management]","DecryptPackage method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","DecryptPackage method","IAppxEncryptionFactory.DecryptPackage","IAppxEncryptionFactory::DecryptPackage","appxpackaging/IAppxEncryptionFactory::DecryptPackage","appxpkg.iappxencryptionfactory_decryptpackage"]
 old-location: appxpkg\iappxencryptionfactory_decryptpackage.htm
 tech.root: appxpkg
 ms.assetid: FB3BC989-F165-417A-963A-7B78B65930FA

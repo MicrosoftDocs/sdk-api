@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecEnumerationSetting
 title: IWMCodecInfo3::GetCodecEnumerationSetting (wmsdkidl.h)
-description: The GetCodecEnumerationSetting method retrieves the current value for one codec enumeration setting.
+description: The GetCodecEnumerationSetting method retrieves the current value for one codec enumeration setting.helpviewer_keywords: ["GetCodecEnumerationSetting","GetCodecEnumerationSetting method [windows Media Format]","GetCodecEnumerationSetting method [windows Media Format]","IWMCodecInfo3 interface","IWMCodecInfo3 interface [windows Media Format]","GetCodecEnumerationSetting method","IWMCodecInfo3.GetCodecEnumerationSetting","IWMCodecInfo3::GetCodecEnumerationSetting","IWMCodecInfo3GetCodecEnumerationSetting","wmformat.iwmcodecinfo3_getcodecenumerationsetting","wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting"]
 old-location: wmformat\iwmcodecinfo3_getcodecenumerationsetting.htm
 tech.root: wmformat
 ms.assetid: 9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d

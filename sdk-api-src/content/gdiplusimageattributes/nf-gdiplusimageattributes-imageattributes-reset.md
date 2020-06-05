@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.Reset
 title: ImageAttributes::Reset (gdiplusimageattributes.h)
-description: The ImageAttributes::Reset method clears all color- and grayscale-adjustment settings for a specified category.
+description: The ImageAttributes::Reset method clears all color- and grayscale-adjustment settings for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","Reset method","ImageAttributes.Reset","ImageAttributes::Reset","Reset","Reset method [GDI+]","Reset method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_Reset_type_","gdiplus._gdiplus_CLASS_ImageAttributes_Reset_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Reset_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\reset_82type.htm

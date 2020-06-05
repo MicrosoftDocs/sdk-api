@@ -1,7 +1,7 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetBackgroundClr
 title: IVMRMixerControl9::GetBackgroundClr (vmr9.h)
-description: The GetBackgroundClr method gets the current background color on the output rectangle.
+description: The GetBackgroundClr method gets the current background color on the output rectangle.helpviewer_keywords: ["GetBackgroundClr","GetBackgroundClr method [DirectShow]","GetBackgroundClr method [DirectShow]","IVMRMixerControl9 interface","IVMRMixerControl9 interface [DirectShow]","GetBackgroundClr method","IVMRMixerControl9.GetBackgroundClr","IVMRMixerControl9::GetBackgroundClr","IVMRMixerControl9GetBackgroundClr","dshow.ivmrmixercontrol9_getbackgroundclr","vmr9/IVMRMixerControl9::GetBackgroundClr"]
 old-location: dshow\ivmrmixercontrol9_getbackgroundclr.htm
 tech.root: DirectShow
 ms.assetid: 1be2fb34-b0f3-4dff-8813-a487229af6dc

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowInboundTimestampRequest
 title: INetFwIcmpSettings::put_AllowInboundTimestampRequest (netfw.h)
-description: Indicates whether this is allowed.
+description: Indicates whether this is allowed.helpviewer_keywords: ["AllowInboundTimestampRequest property [ICS/ICF]","AllowInboundTimestampRequest property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowInboundTimestampRequest property","INetFwIcmpSettings.AllowInboundTimestampRequest","INetFwIcmpSettings.put_AllowInboundTimestampRequest","INetFwIcmpSettings::AllowInboundTimestampRequest","INetFwIcmpSettings::get_AllowInboundTimestampRequest","INetFwIcmpSettings::put_AllowInboundTimestampRequest","ics.inetfwicmpsettings_allowinboundtimestamprequest","netfw/INetFwIcmpSettings::AllowInboundTimestampRequest","netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest","netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest","put_AllowInboundTimestampRequest"]
 old-location: ics\inetfwicmpsettings_allowinboundtimestamprequest.htm
 tech.root: ics
 ms.assetid: 6898527d-8556-46ae-b6e4-b1157323d14e

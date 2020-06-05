@@ -1,7 +1,7 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.InPlaceDeactivate
 title: IOleInPlaceObject::InPlaceDeactivate (oleidl.h)
-description: Deactivates an active in-place object and discards the object's undo state.
+description: Deactivates an active in-place object and discards the object's undo state.helpviewer_keywords: ["IOleInPlaceObject interface [COM]","InPlaceDeactivate method","IOleInPlaceObject.InPlaceDeactivate","IOleInPlaceObject::InPlaceDeactivate","InPlaceDeactivate","InPlaceDeactivate method [COM]","InPlaceDeactivate method [COM]","IOleInPlaceObject interface","_ole_ioleinplaceobject_inplacedeactivate","com.ioleinplaceobject_inplacedeactivate","oleidl/IOleInPlaceObject::InPlaceDeactivate"]
 old-location: com\ioleinplaceobject_inplacedeactivate.htm
 tech.root: com
 ms.assetid: 174a8bde-0795-4d4d-a294-7708c7d1823a

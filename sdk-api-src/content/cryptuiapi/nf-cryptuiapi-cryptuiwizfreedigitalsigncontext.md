@@ -2,6 +2,7 @@
 UID: NF:cryptuiapi.CryptUIWizFreeDigitalSignContext
 title: CryptUIWizFreeDigitalSignContext function (cryptuiapi.h)
 description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.
+helpviewer_keywords: ["CryptUIWizFreeDigitalSignContext","CryptUIWizFreeDigitalSignContext function [Security]","cryptuiapi/CryptUIWizFreeDigitalSignContext","security.cryptuiwizfreedigitalsigncontext"]
 old-location: security\cryptuiwizfreedigitalsigncontext.htm
 tech.root: SecCrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
+The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://
 
 ### -param pSignContext [in]
 
-A pointer to the   <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
+A pointer to the   <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
 
 
 ## -returns
@@ -78,7 +79,7 @@ If the function fails, it returns zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
+<a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
 
 
 

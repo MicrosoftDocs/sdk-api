@@ -1,7 +1,7 @@
 ---
 UID: NN:d2d1_3.ID2D1GdiMetafileSink1
 title: ID2D1GdiMetafileSink1 (d2d1_3.h)
-description: This interface performs all the same functions as the existing ID2D1GdiMetafileSink interface. It also enables access to metafile records.
+description: This interface performs all the same functions as the existing ID2D1GdiMetafileSink interface. It also enables access to metafile records.helpviewer_keywords: ["ID2D1GdiMetafileSink1","ID2D1GdiMetafileSink1 interface [Direct2D]","ID2D1GdiMetafileSink1 interface [Direct2D]","described","d2d1_3/ID2D1GdiMetafileSink1","direct2d.id2d1gdimetafilesink1"]
 old-location: direct2d\id2d1gdimetafilesink1.htm
 tech.root: Direct2D
 ms.assetid: 7772034c-0dfe-6c9b-99bb-6222a5517524

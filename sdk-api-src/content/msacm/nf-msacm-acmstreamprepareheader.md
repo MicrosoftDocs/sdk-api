@@ -2,6 +2,7 @@
 UID: NF:msacm.acmStreamPrepareHeader
 title: acmStreamPrepareHeader function (msacm.h)
 description: The acmStreamPrepareHeader function prepares an ACMSTREAMHEADER structure for an ACM stream conversion.
+helpviewer_keywords: ["_win32_acmStreamPrepareHeader","acmStreamPrepareHeader","acmStreamPrepareHeader function [Windows Multimedia]","msacm/acmStreamPrepareHeader","multimedia.acmstreamprepareheader"]
 old-location: multimedia\acmstreamprepareheader.htm
 tech.root: Multimedia
 ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
@@ -51,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
+The [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
 
 
 
@@ -68,7 +69,7 @@ Handle to the conversion steam.
 
 ### -param pash
 
-Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader)a> structure that identifies the source and destination buffers to be prepared.
+Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure that identifies the source and destination buffers to be prepared.
 
 
 ### -param fdwPrepare

@@ -1,7 +1,7 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.GetCachedBitrateMeasurement
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-description: Gets the cached bitrate.
+description: Gets the cached bitrate.helpviewer_keywords: ["GetCachedBitrateMeasurement","GetCachedBitrateMeasurement method [Media Streaming API]","GetCachedBitrateMeasurement method [Media Streaming API]","IActiveBasicDevice interface","IActiveBasicDevice interface [Media Streaming API]","GetCachedBitrateMeasurement method","IActiveBasicDevice.GetCachedBitrateMeasurement","IActiveBasicDevice.streaming","IActiveBasicDevice::GetCachedBitrateMeasurement","IActiveBasicDevice::streaming","mediastreaming.iactivebasicdevice_getcachedbitratemeasurement","windows/IActiveBasicDevice::GetCachedBitrateMeasurement"]
 old-location: mediastreaming\iactivebasicdevice_getcachedbitratemeasurement.htm
 tech.root: mediastreaming
 ms.assetid: 342F5240-E29D-4CC4-AA49-B039EBFC4D0B

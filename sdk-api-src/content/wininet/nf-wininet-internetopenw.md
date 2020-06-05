@@ -1,7 +1,7 @@
 ---
 UID: NF:wininet.InternetOpenW
 title: InternetOpenW function (wininet.h)
-description: Initializes an application's use of the WinINet functions.
+description: Initializes an application's use of the WinINet functions.helpviewer_keywords: ["InternetOpen","InternetOpen function [WinINet]","InternetOpenA","InternetOpenW","_inet_internetopen_function","wininet.internetopen","wininet/InternetOpen","wininet/InternetOpenA","wininet/InternetOpenW"]
 old-location: wininet\internetopen.htm
 tech.root: wininet
 ms.assetid: 9ec087c9-d484-4763-a527-2ea5c1a0cf28

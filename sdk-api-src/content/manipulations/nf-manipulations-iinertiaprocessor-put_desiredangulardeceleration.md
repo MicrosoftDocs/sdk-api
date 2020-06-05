@@ -2,6 +2,7 @@
 UID: NF:manipulations.IInertiaProcessor.put_DesiredAngularDeceleration
 title: IInertiaProcessor::put_DesiredAngularDeceleration (manipulations.h)
 description: The DesiredAngularDeceleration property specifies the desired rate that the target object will stop spinning in radians per msec squared.
+helpviewer_keywords: ["DesiredAngularDeceleration property [Windows Touch]","DesiredAngularDeceleration property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","DesiredAngularDeceleration property","IInertiaProcessor.DesiredAngularDeceleration","IInertiaProcessor.put_DesiredAngularDeceleration","IInertiaProcessor::DesiredAngularDeceleration","IInertiaProcessor::get_DesiredAngularDeceleration","IInertiaProcessor::put_DesiredAngularDeceleration","manipulations/IInertiaProcessor::DesiredAngularDeceleration","manipulations/IInertiaProcessor::get_DesiredAngularDeceleration","manipulations/IInertiaProcessor::put_DesiredAngularDeceleration","put_DesiredAngularDeceleration","wintouch.iinertiaprocessor_desiredangulardeceleration"]
 old-location: wintouch\iinertiaprocessor_desiredangulardeceleration.htm
 tech.root: wintouch
 ms.assetid: ee3bb3c8-4d7d-424b-abc9-db7307793794
@@ -69,7 +70,7 @@ This property is read/write.
 If inertia processing has already started, setting <b>DesiredAngularDeceleration</b> will reset the inertia engine to the initial state with new deceleration value applied.
       
 
-Call this function to set the initial state of inertia. You would call this function most likely during the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
+Call this function to set the initial state of inertia. You would call this function most likely during the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> or in the constructor of the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface.
 
 
 
