@@ -40,6 +40,7 @@ api_location:
 - advapi32legacy.dll
 - API-MS-Win-Deprecated-apis-advapi-l1-1-0.dll
 - API-MS-Win-Core-Registry-l2-2-0.dll
+- kernel32.dll
 api_name:
 - RegDeleteKey
 - RegDeleteKeyA
@@ -124,7 +125,8 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 
 > [!NOTE]

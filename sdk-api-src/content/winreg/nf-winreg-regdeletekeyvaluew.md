@@ -45,6 +45,7 @@ api_name:
 - RegDeleteKeyValue
 - RegDeleteKeyValueA
 - RegDeleteKeyValueW
+- kernel32.dll
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -118,7 +119,8 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
-
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 
 > [!NOTE]

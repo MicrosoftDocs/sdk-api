@@ -43,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegEnumValue
 - RegEnumValueA
@@ -183,6 +184,8 @@ If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, the string may n
 To determine the maximum size of the name and data buffers, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function.
 
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 #### Examples
 
