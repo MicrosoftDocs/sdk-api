@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.CreateFileA
 title: CreateFileA function (fileapi.h)
-description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile function [Files]","CreateFileA","CreateFileW","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_SESSION_AWARE","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","TRUNCATE_EXISTING","_win32_createfile","base.createfile","fileapi/CreateFile","fileapi/CreateFileA","fileapi/CreateFileW","fs.createfile","winbase/CreateFile","winbase/CreateFileA","winbase/CreateFileW"]
+description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
+helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile function [Files]","CreateFileA","CreateFileW","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_SESSION_AWARE","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","TRUNCATE_EXISTING","_win32_createfile","base.createfile","fileapi/CreateFile","fileapi/CreateFileA","fileapi/CreateFileW","fs.createfile","winbase/CreateFile","winbase/CreateFileA","winbase/CreateFileW"]
 old-location: fs\createfile.htm
 tech.root: FileIO
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
@@ -1089,9 +1090,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+       <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+       <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
