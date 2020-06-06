@@ -43,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegOpenKeyEx
 - RegOpenKeyExA
@@ -143,7 +144,8 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 
 ## -remarks

@@ -43,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegDeleteKeyEx
 - RegDeleteKeyExA
@@ -162,7 +163,8 @@ The subkey to be deleted must not have subkeys. To delete a key and all its subk
 
 If the function succeeds, <b>RegDeleteKeyEx</b> removes the specified key from the registry. The entire key, including all of its values, is removed.
 
-
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 
 

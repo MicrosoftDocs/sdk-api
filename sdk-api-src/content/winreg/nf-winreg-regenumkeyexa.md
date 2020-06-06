@@ -43,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegEnumKeyEx
 - RegEnumKeyExA
@@ -166,6 +167,8 @@ While an application is using the
 
 Note that operations that access certain registry keys are redirected. For more information,  see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 #### Examples
 

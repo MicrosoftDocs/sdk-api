@@ -43,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegQueryInfoKey
 - RegQueryInfoKeyA
@@ -171,8 +172,10 @@ If the function fails, the return value is a
 
 If the <i>lpClass</i> buffer is too small to receive the name of the class, the function returns ERROR_MORE_DATA.
 
+## -remarks
 
-
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 ## -see-also
 
