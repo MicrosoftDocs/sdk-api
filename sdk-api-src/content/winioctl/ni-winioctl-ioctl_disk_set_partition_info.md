@@ -49,10 +49,6 @@ req.redist:
 ## -description
 
 
-# IOCTL_DISK_SET_PARTITION_INFO IOCTL
-
-## -description
-
 > [!NOTE]
 > **IOCTL_DISK_SET_PARTITION_INFO** has been superseded by [**IOCTL_DISK_SET_PARTITION_INFO_EX**](ni-winioctl-ioctl_disk_set_partition_info_ex.md), which retrieves layout information for AT and EFI (Extensible Firmware Interface) partitions.
 
