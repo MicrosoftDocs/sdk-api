@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetWindowRect
 title: GetWindowRect function (winuser.h)
-description: Retrieves the dimensions of the bounding rectangle of the specified window. The dimensions are given in screen coordinates that are relative to the upper-left corner of the screen.helpviewer_keywords: ["GetWindowRect","GetWindowRect function [Windows and Messages]","_win32_GetWindowRect","_win32_getwindowrect_cpp","winmsg.getwindowrect","winui._win32_getwindowrect","winuser/GetWindowRect"]
+description: Retrieves the dimensions of the bounding rectangle of the specified window. The dimensions are given in screen coordinates that are relative to the upper-left corner of the screen.
+helpviewer_keywords: ["GetWindowRect","GetWindowRect function [Windows and Messages]","_win32_GetWindowRect","_win32_getwindowrect_cpp","winmsg.getwindowrect","winui._win32_getwindowrect","winuser/GetWindowRect"]
 old-location: winmsg\getwindowrect.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowrect.htm
@@ -99,6 +100,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 In conformance with conventions for the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, the bottom-right coordinates of the returned rectangle are exclusive. In other words, the pixel at (<b>right</b>, <b>bottom</b>) lies immediately outside the rectangle.
+
+GetWindowRect is virtualized for DPI.
+
+In Windows Vista and later, the Window Rect now includes the area occupied by the drop shadow.
+
+Calling GetWindowRect will have different behavior depending on whether the window has ever been shown or not.  If the window has not been shown before, GetWindowRect will not include the area of the drop shadow.
+
+To get the window bounds excluding the drop shadow, use <a href="https://docs.microsoft.com/en-us/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>, specifying <b>DWMWA_EXTENDED_FRAME_BOUNDS</b>.  Note that unlike the Window Rect, the DWM Extended Frame Bounds are not adjusted for DPI.  Getting the extended frame bounds can only be done after the window has been shown at least once.
 
 
 #### Examples
