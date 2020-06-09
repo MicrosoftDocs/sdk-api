@@ -60,7 +60,7 @@ ms.custom: 19H1
 ## -description
 
 
-Places data on the clipboard in a specified clipboard format. The window must be the current clipboard owner, and the application must have called the [**OpenClipboard**](nf-winuser-openclipboard) function. (When responding to the [WM_RENDERFORMAT](/windows/win32/dataxchg/wm-renderformat) message, the clipboard owner must not call **OpenClipboard** before calling **SetClipboardData**.)
+Places data on the clipboard in a specified clipboard format. The window must be the current clipboard owner, and the application must have called the [**OpenClipboard**](nf-winuser-openclipboard.md) function. (When responding to the [WM_RENDERFORMAT](/windows/win32/dataxchg/wm-renderformat) message, the clipboard owner must not call **OpenClipboard** before calling **SetClipboardData**.)
 
 
 ## -parameters
