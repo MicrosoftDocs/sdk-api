@@ -1,7 +1,8 @@
 ---
 UID: NS:psapi._PROCESS_MEMORY_COUNTERS_EX
 title: PROCESS_MEMORY_COUNTERS_EX (psapi.h)
-description: Contains extended memory statistics for a process.helpviewer_keywords: ["*PPROCESS_MEMORY_COUNTERS_EX","PPROCESS_MEMORY_COUNTERS_EX","PPROCESS_MEMORY_COUNTERS_EX structure pointer [PSAPI]","PROCESS_MEMORY_COUNTERS_EX","PROCESS_MEMORY_COUNTERS_EX structure [PSAPI]","_win32_process_memory_counters_ex","base.process_memory_counters_ex","psapi.process_memory_counters_ex","psapi/PPROCESS_MEMORY_COUNTERS_EX","psapi/PROCESS_MEMORY_COUNTERS_EX"]
+description: Contains extended memory statistics for a process.
+helpviewer_keywords: ["*PPROCESS_MEMORY_COUNTERS_EX","PPROCESS_MEMORY_COUNTERS_EX","PPROCESS_MEMORY_COUNTERS_EX structure pointer [PSAPI]","PROCESS_MEMORY_COUNTERS_EX","PROCESS_MEMORY_COUNTERS_EX structure [PSAPI]","_win32_process_memory_counters_ex","base.process_memory_counters_ex","psapi.process_memory_counters_ex","psapi/PPROCESS_MEMORY_COUNTERS_EX","psapi/PROCESS_MEMORY_COUNTERS_EX"]
 old-location: psapi\process_memory_counters_ex.htm
 tech.root: psapi
 ms.assetid: cf06445d-b71a-4320-afc8-4bd88ebfb284
@@ -99,7 +100,7 @@ The current nonpaged pool usage, in bytes.
 
 ### -field PagefileUsage
 
-The Commit Charge value in bytes for this process. Commit Charge is the total amount of memory that the memory manager has committed for a running process.
+The Commit Charge value in bytes for this process. Commit Charge is the total amount of private memory that the memory manager has committed for a running process.
 
 <b>Windows 7 and Windows Server 2008 R2 and earlier:  </b><b>PagefileUsage</b> is always zero. Check <b>PrivateUsage</b> instead.
 
@@ -111,7 +112,7 @@ The peak value in bytes of the Commit Charge during the lifetime of this process
 
 ### -field PrivateUsage
 
-Same as <b>PagefileUsage</b>. The Commit Charge value in bytes for this process. Commit Charge is the total amount of memory that the memory manager has committed for a running process.
+Same as <b>PagefileUsage</b>. The Commit Charge value in bytes for this process. Commit Charge is the total amount of private memory that the memory manager has committed for a running process.
 
 
 ## -see-also

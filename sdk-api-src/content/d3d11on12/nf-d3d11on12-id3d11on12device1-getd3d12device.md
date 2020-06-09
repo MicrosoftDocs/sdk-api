@@ -1,6 +1,7 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device1.GetD3D12Device
 title: ID3D11On12Device1::GetD3D12Device (d3d11on12.h)
+description: Retrieves the [Direct3D 12 device](/windows/desktop/api/d3d12/nn-d3d12-id3d12device) being interoperated with.
 ms.date: 02/25/2019
 ms.keywords: ID3D11On12Device1::GetD3D12Device
 f1_keywords:
@@ -21,8 +22,8 @@ req.lib: D3D11.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1903 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

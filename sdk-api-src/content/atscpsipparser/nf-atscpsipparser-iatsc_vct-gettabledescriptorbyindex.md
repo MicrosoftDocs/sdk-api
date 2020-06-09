@@ -1,13 +1,13 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetTableDescriptorByIndex
 title: IATSC_VCT::GetTableDescriptorByIndex (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IATSC_VCT.GetTableDescriptorByIndex","IATSC_VCT::GetTableDescriptorByIndex","IATSC_VCTGetTableDescriptorByIndex","atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex","mstv.iatsc_vct_gettabledescriptorbyindex"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IATSC_VCT.GetTableDescriptorByIndex","IATSC_VCT::GetTableDescriptorByIndex","IATSC_VCTGetTableDescriptorByIndex","atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex","mstv.iatsc_vct_gettabledescriptorbyindex"]
 old-location: mstv\iatsc_vct_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 964ae371-e7a5-4278-8408-b39ae4371135
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_VCT.GetTableDescriptorByIndex, IATSC_VCT::GetTableDescriptorByIndex, IATSC_VCTGetTableDescriptorByIndex, atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex, mstv.iatsc_vct_gettabledescriptorbyindex
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_VCT.GetTableDescriptorByIndex
 dev_langs:

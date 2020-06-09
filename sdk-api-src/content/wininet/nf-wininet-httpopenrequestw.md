@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.HttpOpenRequestW
 title: HttpOpenRequestW function (wininet.h)
-description: Creates an HTTP request handle.helpviewer_keywords: ["HTTP/1.0","HTTP/1.1","HttpOpenRequest","HttpOpenRequest function [WinINet]","HttpOpenRequestA","HttpOpenRequestW","_inet_httpopenrequest_function","wininet.httpopenrequest","wininet/HttpOpenRequest","wininet/HttpOpenRequestA","wininet/HttpOpenRequestW"]
+description: Creates an HTTP request handle.
+helpviewer_keywords: ["HTTP/1.0","HTTP/1.1","HttpOpenRequest","HttpOpenRequest function [WinINet]","HttpOpenRequestA","HttpOpenRequestW","_inet_httpopenrequest_function","wininet.httpopenrequest","wininet/HttpOpenRequest","wininet/HttpOpenRequestA","wininet/HttpOpenRequestW"]
 old-location: wininet\httpopenrequest.htm
 tech.root: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
@@ -62,7 +63,7 @@ Creates an HTTP request handle.
 ### -param hConnect [in]
 
 A 
-						handle to an HTTP session returned by 
+                        handle to an HTTP session returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
 
@@ -120,12 +121,11 @@ A pointer to a <b>null</b>-terminated string that specifies the URL of the docum
 
 A pointer to a <b>null</b>-terminated array of strings that indicates media types accepted by the client. Here is an example.
 
-<code>PCTSTR rgpszAcceptTypes[] = {_T(“text/*”), NULL};</code>
+<code>PCTSTR rgpszAcceptTypes[] = {_T("text/*"), NULL};</code>
 
  Failing to properly terminate the array with a NULL pointer will cause a crash.
 
-If this parameter is <b>NULL</b>, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files). For more information and  a list of valid media types, see  
-<a href="http://ftp.isi.edu/in-notes/iana/assignments/media-types/">ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types</a>.
+If this parameter is <b>NULL</b>, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files). <!--For more information and  a list of valid media types, see  ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types. -->
 
 
 ### -param dwFlags [in]

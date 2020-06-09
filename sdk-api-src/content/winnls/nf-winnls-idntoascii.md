@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.IdnToAscii
 title: IdnToAscii function (winnls.h)
-description: Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax.helpviewer_keywords: ["IDN_ALLOW_UNASSIGNED","IDN_EMAIL_ADDRESS","IDN_RAW_PUNYCODE","IDN_USE_STD3_ASCII_RULES","IdnToAscii","IdnToAscii function [Internationalization for Windows Applications]","intl.idntoascii","winnls/IdnToAscii"]
+description: Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax.
+helpviewer_keywords: ["IDN_ALLOW_UNASSIGNED","IDN_EMAIL_ADDRESS","IDN_RAW_PUNYCODE","IDN_USE_STD3_ASCII_RULES","IdnToAscii","IdnToAscii function [Internationalization for Windows Applications]","intl.idntoascii","winnls/IdnToAscii"]
 old-location: intl\idntoascii.htm
 tech.root: Intl
 ms.assetid: e39aa5c2-3f76-40b2-9948-bbd795c6c525
@@ -178,7 +179,7 @@ The function does not null-terminate an output string if the input string length
 Note that the function always fails if the input string contains control characters (U+0001 through U+0020) or the "delete" character (U+007F). Since the character U+0000 can appear only as a terminating null character, the function always fails if U+0000 appears anywhere else in the input string.
 
 <b>Windows XP, Windows Server 2003</b>: 
-The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
+The required header file and DLL are part of the  "Microsoft Internationalized Domain Name (IDN) Mitigation APIs" download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
 
 
 

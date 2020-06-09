@@ -1,6 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice2.CreateVideoDecoderHeap1
 title: ID3D12VideoDevice2::CreateVideoDecoderHeap1
+description: Allocates a video decoder heap that contains the resolution-dependent driver resources and state, with support for protected resources.
+tech.root: mf
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoDevice2::CreateVideoDecoderHeap1
 f1_keywords:
@@ -39,17 +41,29 @@ api_name:
 
 ## -description
 
+Allocates a video decoder heap that contains the resolution-dependent driver resources and state, with support for protected resources.
+
 ## -parameters
 
 ### -param pVideoDecoderHeapDesc
 
+A pointer to a [D3D12\_VIDEO\_DECODER\_HEAP\_DESC](ns-d3d12video-d3d12_video_decoder_heap_desc.md) describing the decoding configuration.
+
 ### -param pProtectedResourceSession
+
+A [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) for managing access to protected resources.
 
 ### -param riid
 
+The globally unique identifier (GUID) for the decode video state interface.
+
 ### -param ppVideoDecoderHeap
 
+A pointer to a memory block that receives a pointer to the [ID3D12VideoDecoderHeap1](nn-d3d12video-id3d12videodecoderheap1.md) interface.
+
 ## -returns
+
+This method returns an HRESULT.
 
 ## -remarks
 

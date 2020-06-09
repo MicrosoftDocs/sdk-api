@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.MapViewOfFile2
 title: MapViewOfFile2 function (memoryapi.h)
-description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.helpviewer_keywords: ["MapViewOfFile2","MapViewOfFile2 function","base.mapviewoffile2","winbase/MapViewOfFile2"]
+description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
+helpviewer_keywords: ["MapViewOfFile2","MapViewOfFile2 function","base.mapviewoffile2","winbase/MapViewOfFile2"]
 old-location: base\mapviewoffile2.htm
 tech.root: Memory
 ms.assetid: D97138F0-2FB3-488A-91AC-A654B22FE9AD
@@ -25,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
@@ -67,7 +68,7 @@ A <b>HANDLE</b> to a section that is to be mapped
 ### -param ProcessHandle [in]
 
 A <b>HANDLE</b> to a process into which the section
-                    will be mapped.
+                    will be mapped. The handle must have the <b>PROCESS_VM_OPERATION</b> access mask.
 
 
 ### -param Offset [in]

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1RectangleGeometry
 title: ID2D1RectangleGeometry (d2d1.h)
-description: Describes a two-dimensional rectangle.helpviewer_keywords: ["ID2D1RectangleGeometry","ID2D1RectangleGeometry interface [Direct2D]","ID2D1RectangleGeometry interface [Direct2D]","described","d2d1/ID2D1RectangleGeometry","direct2d.ID2D1RectangleGeometry"]
+description: Describes a two-dimensional rectangle.
+helpviewer_keywords: ["ID2D1RectangleGeometry","ID2D1RectangleGeometry interface [Direct2D]","ID2D1RectangleGeometry interface [Direct2D]","described","d2d1/ID2D1RectangleGeometry","direct2d.ID2D1RectangleGeometry"]
 old-location: direct2d\ID2D1RectangleGeometry.htm
 tech.root: Direct2D
 ms.assetid: bb5f65ba-34d4-418b-863c-2431046bce8e
@@ -84,7 +85,7 @@ Retrieves the rectangle that describes the rectangle geometry's dimensions.
 
 
 <h3><a id="Creating_ID2D1RectangleGeometry_Objects"></a><a id="creating_id2d1rectanglegeometry_objects"></a><a id="CREATING_ID2D1RECTANGLEGEOMETRY_OBJECTS"></a>Creating ID2D1RectangleGeometry Objects</h3>
-To create a rectangle geometry, use the <a href="/windows/win32/api/d2d1/nf-d2d1-createrectanglegeometry">ID2D1Factory::CreateRectangleGeometry</a> method.
+To create a rectangle geometry, use the ID2D1Factory::CreateRectangleGeometry method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>. 
 

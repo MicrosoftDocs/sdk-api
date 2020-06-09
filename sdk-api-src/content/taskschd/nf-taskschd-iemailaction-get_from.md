@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IEmailAction.get_From
 title: IEmailAction::get_From (taskschd.h)
-description: Gets or sets the email address that you want to send the email from.helpviewer_keywords: ["From property [Task Scheduler]","From property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","From property","IEmailAction.From","IEmailAction.get_From","IEmailAction::From","IEmailAction::get_From","IEmailAction::put_From","get_From","taskschd.iemailaction_from","taskschd/IEmailAction::From","taskschd/IEmailAction::get_From","taskschd/IEmailAction::put_From"]
+description: Gets or sets the email address that you want to send the email from.
+helpviewer_keywords: ["From property [Task Scheduler]","From property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","From property","IEmailAction.From","IEmailAction.get_From","IEmailAction::From","IEmailAction::get_From","IEmailAction::put_From","get_From","taskschd.iemailaction_from","taskschd/IEmailAction::From","taskschd/IEmailAction::get_From","taskschd/IEmailAction::put_From"]
 old-location: taskschd\iemailaction_from.htm
 tech.root: taskschd
 ms.assetid: a0e85063-73eb-425a-a306-63ac65ab7ec8
@@ -51,7 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7
+">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the email address that you want to send the email from.
 
@@ -66,7 +68,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
  
 
  

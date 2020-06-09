@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadImageA
 title: LoadImageA function (winuser.h)
-description: Loads an icon, cursor, animated cursor, or bitmap.helpviewer_keywords: ["IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","LR_VGACOLOR","LoadImage","LoadImage function [Menus and Other Resources]","LoadImageA","LoadImageW","_win32_LoadImage","_win32_loadimage_cpp","menurc.loadimage","winui._win32_loadimage","winuser/LoadImage","winuser/LoadImageA","winuser/LoadImageW"]
+description: Loads an icon, cursor, animated cursor, or bitmap.
+helpviewer_keywords: ["IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","LR_VGACOLOR","LoadImage","LoadImage function [Menus and Other Resources]","LoadImageA","LoadImageW","_win32_LoadImage","_win32_loadimage_cpp","menurc.loadimage","winui._win32_loadimage","winuser/LoadImage","winuser/LoadImageA","winuser/LoadImageW"]
 old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
@@ -328,11 +329,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-
-
-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
-
-integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
 
 When you are finished using a bitmap, cursor, or icon you loaded without specifying the <b>LR_SHARED</b> flag, you can release its associated memory by calling one of the functions in the following table.
 

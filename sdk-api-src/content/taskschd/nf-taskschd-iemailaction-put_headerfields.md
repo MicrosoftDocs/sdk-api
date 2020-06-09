@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IEmailAction.put_HeaderFields
 title: IEmailAction::put_HeaderFields (taskschd.h)
-description: Gets or sets the header information in the email message to send.helpviewer_keywords: ["HeaderFields property [Task Scheduler]","HeaderFields property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","HeaderFields property","IEmailAction.HeaderFields","IEmailAction.put_HeaderFields","IEmailAction::HeaderFields","IEmailAction::get_HeaderFields","IEmailAction::put_HeaderFields","put_HeaderFields","taskschd.iemailaction_headerfields","taskschd/IEmailAction::HeaderFields","taskschd/IEmailAction::get_HeaderFields","taskschd/IEmailAction::put_HeaderFields"]
+description: Gets or sets the header information in the email message to send.
+helpviewer_keywords: ["HeaderFields property [Task Scheduler]","HeaderFields property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","HeaderFields property","IEmailAction.HeaderFields","IEmailAction.put_HeaderFields","IEmailAction::HeaderFields","IEmailAction::get_HeaderFields","IEmailAction::put_HeaderFields","put_HeaderFields","taskschd.iemailaction_headerfields","taskschd/IEmailAction::HeaderFields","taskschd/IEmailAction::get_HeaderFields","taskschd/IEmailAction::put_HeaderFields"]
 old-location: taskschd\iemailaction_headerfields.htm
 tech.root: taskschd
 ms.assetid: e7b822a0-1e5e-4dd2-8139-ac44c6308fe0
@@ -51,7 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7
+">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the header information in the email message to send.
 
@@ -66,7 +68,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
  
 
  

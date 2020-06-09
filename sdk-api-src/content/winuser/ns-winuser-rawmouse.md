@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRAWMOUSE
 title: RAWMOUSE (winuser.h)
-description: Contains information about the state of the mouse.helpviewer_keywords: ["*LPRAWMOUSE","*PRAWMOUSE","LPRAWMOUSE","LPRAWMOUSE structure pointer [Keyboard and Mouse Input]","MOUSE_ATTRIBUTES_CHANGED","MOUSE_MOVE_ABSOLUTE","MOUSE_MOVE_RELATIVE","MOUSE_VIRTUAL_DESKTOP","PRAWMOUSE","PRAWMOUSE structure pointer [Keyboard and Mouse Input]","RAWMOUSE","RAWMOUSE structure [Keyboard and Mouse Input]","RI_MOUSE_BUTTON_1_DOWN","RI_MOUSE_BUTTON_1_UP","RI_MOUSE_BUTTON_2_DOWN","RI_MOUSE_BUTTON_2_UP","RI_MOUSE_BUTTON_3_DOWN","RI_MOUSE_BUTTON_3_UP","RI_MOUSE_BUTTON_4_DOWN","RI_MOUSE_BUTTON_4_UP","RI_MOUSE_BUTTON_5_DOWN","RI_MOUSE_BUTTON_5_UP","RI_MOUSE_LEFT_BUTTON_DOWN","RI_MOUSE_LEFT_BUTTON_UP","RI_MOUSE_MIDDLE_BUTTON_DOWN","RI_MOUSE_MIDDLE_BUTTON_UP","RI_MOUSE_RIGHT_BUTTON_DOWN","RI_MOUSE_RIGHT_BUTTON_UP","RI_MOUSE_WHEEL","_win32_RAWMOUSE_str","_win32_rawmouse_str_cpp","inputdev.rawmouse","winui._win32_rawmouse_str","winuser/LPRAWMOUSE","winuser/PRAWMOUSE","winuser/RAWMOUSE"]
+description: Contains information about the state of the mouse.
+helpviewer_keywords: ["*LPRAWMOUSE","*PRAWMOUSE","LPRAWMOUSE","LPRAWMOUSE structure pointer [Keyboard and Mouse Input]","MOUSE_ATTRIBUTES_CHANGED","MOUSE_MOVE_ABSOLUTE","MOUSE_MOVE_RELATIVE","MOUSE_VIRTUAL_DESKTOP","PRAWMOUSE","PRAWMOUSE structure pointer [Keyboard and Mouse Input]","RAWMOUSE","RAWMOUSE structure [Keyboard and Mouse Input]","RI_MOUSE_BUTTON_1_DOWN","RI_MOUSE_BUTTON_1_UP","RI_MOUSE_BUTTON_2_DOWN","RI_MOUSE_BUTTON_2_UP","RI_MOUSE_BUTTON_3_DOWN","RI_MOUSE_BUTTON_3_UP","RI_MOUSE_BUTTON_4_DOWN","RI_MOUSE_BUTTON_4_UP","RI_MOUSE_BUTTON_5_DOWN","RI_MOUSE_BUTTON_5_UP","RI_MOUSE_LEFT_BUTTON_DOWN","RI_MOUSE_LEFT_BUTTON_UP","RI_MOUSE_MIDDLE_BUTTON_DOWN","RI_MOUSE_MIDDLE_BUTTON_UP","RI_MOUSE_RIGHT_BUTTON_DOWN","RI_MOUSE_RIGHT_BUTTON_UP","RI_MOUSE_WHEEL","_win32_RAWMOUSE_str","_win32_rawmouse_str_cpp","inputdev.rawmouse","winui._win32_rawmouse_str","winuser/LPRAWMOUSE","winuser/PRAWMOUSE","winuser/RAWMOUSE"]
 old-location: inputdev\rawmouse.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawmouse.htm
@@ -408,12 +409,7 @@ If <b>MOUSE_MOVE_ABSOLUTE</b> value is specified, <b>lLastX</b> and <b>lLastY</b
 If <b>MOUSE_VIRTUAL_DESKTOP</b> is specified in addition to <b>MOUSE_MOVE_ABSOLUTE</b>, the coordinates map to the entire virtual desktop.
 
 ```cpp
-if ((rawMouse.usFlags & MOUSE_MOVE_RELATIVE) == MOUSE_MOVE_RELATIVE)
-{
-    int relativeX = rawMouse.lLastX;
-    int relativeY = rawMouse.lLastY;
-}
-else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
+if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
 {
     bool isVirtualDesktop = (rawMouse.usFlags & MOUSE_VIRTUAL_DESKTOP) == MOUSE_VIRTUAL_DESKTOP;
 
@@ -422,6 +418,11 @@ else if ((rawMouse.usFlags & MOUSE_MOVE_ABSOLUTE) == MOUSE_MOVE_ABSOLUTE)
 
     int absoluteX = int((rawMouse.lLastX / 65535.0f) * width);
     int absoluteY = int((rawMouse.lLastY / 65535.0f) * height);
+}
+else
+{
+    int relativeX = rawMouse.lLastX;
+    int relativeY = rawMouse.lLastY;
 }
 ```
 

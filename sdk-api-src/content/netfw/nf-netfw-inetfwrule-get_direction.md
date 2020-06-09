@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwRule.get_Direction
 title: INetFwRule::get_Direction (netfw.h)
-description: Specifies the direction of traffic for which the rule applies.helpviewer_keywords: ["Direction property [ICS/ICF]","Direction property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Direction property","INetFwRule.Direction","INetFwRule.get_Direction","INetFwRule::Direction","INetFwRule::get_Direction","INetFwRule::put_Direction","get_Direction","ics.inetfwrule_direction","netfw/INetFwRule::Direction","netfw/INetFwRule::get_Direction","netfw/INetFwRule::put_Direction"]
+description: Specifies the direction of traffic for which the rule applies.
+helpviewer_keywords: ["Direction property [ICS/ICF]","Direction property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Direction property","INetFwRule.Direction","INetFwRule.get_Direction","INetFwRule::Direction","INetFwRule::get_Direction","INetFwRule::put_Direction","get_Direction","ics.inetfwrule_direction","netfw/INetFwRule::Direction","netfw/INetFwRule::get_Direction","netfw/INetFwRule::put_Direction"]
 old-location: ics\inetfwrule_direction.htm
 tech.root: ics
 ms.assetid: 4462c39a-27b8-497b-8393-ed63c7e4cc9b
@@ -79,7 +80,7 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_rule_direction_">NET_FW_RULE_DIRECTION</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_direction">NET_FW_RULE_DIRECTION</a>
  
 
  

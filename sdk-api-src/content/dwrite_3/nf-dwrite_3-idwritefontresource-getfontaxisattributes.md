@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisAttributes
 title: IDWriteFontResource::GetFontAxisAttributes
-description: Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxisAttributes method","IDWriteFontResource.GetFontAxisAttributes","IDWriteFontResource::GetFontAxisAttributes","GetFontAxisAttributes","GetFontAxisAttributes method [Direct Write]","GetFontAxisAttributes method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getfontaxisattributes","dwrite_3/IDWriteFontResource::GetFontAxisAttributes"]
+description: Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.
+helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontAxisAttributes method","IDWriteFontResource.GetFontAxisAttributes","IDWriteFontResource::GetFontAxisAttributes","GetFontAxisAttributes","GetFontAxisAttributes method [Direct Write]","GetFontAxisAttributes method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getfontaxisattributes","dwrite_3/IDWriteFontResource::GetFontAxisAttributes"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
@@ -52,7 +53,7 @@ Retrieves attributes describing the given axis, such as whether the font author 
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](https://docs.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
 
 ## -returns
 

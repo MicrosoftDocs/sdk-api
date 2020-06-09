@@ -1,7 +1,8 @@
 ---
 UID: NF:namedpipeapi.CreatePipe
 title: CreatePipe function (namedpipeapi.h)
-description: Creates an anonymous pipe, and returns handles to the read and write ends of the pipe.helpviewer_keywords: ["CreatePipe","CreatePipe function","_win32_createpipe","base.createpipe","namedpipeapi/CreatePipe"]
+description: Creates an anonymous pipe, and returns handles to the read and write ends of the pipe.
+helpviewer_keywords: ["CreatePipe","CreatePipe function","_win32_createpipe","base.createpipe","namedpipeapi/CreatePipe"]
 old-location: base\createpipe.htm
 tech.root: ipc
 ms.assetid: a2d2fee8-c174-49d3-9e5a-2ce3bb763932
@@ -76,8 +77,7 @@ A pointer to a variable that receives the write handle for the pipe.
 
 ### -param lpPipeAttributes [in, optional]
 
-A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
+A pointer to a SECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes. If <i>lpPipeAttributes</i> is <b>NULL</b>, the handle cannot be inherited. 
 
 
 
@@ -145,8 +145,6 @@ For an example, see
 <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 

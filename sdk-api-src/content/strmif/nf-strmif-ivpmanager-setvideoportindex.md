@@ -1,13 +1,13 @@
 ---
 UID: NF:strmif.IVPManager.SetVideoPortIndex
 title: IVPManager::SetVideoPortIndex (strmif.h)
-description: The SetVideoPortIndex method instructs the Video Port Manager (VPM) to connect to the specified video port.helpviewer_keywords: ["IVPManager interface [DirectShow]","SetVideoPortIndex method","IVPManager.SetVideoPortIndex","IVPManager::SetVideoPortIndex","IVPManagerSetVideoPortIndex","SetVideoPortIndex","SetVideoPortIndex method [DirectShow]","SetVideoPortIndex method [DirectShow]","IVPManager interface","dshow.ivpmanager_setvideoportindex","strmif/IVPManager::SetVideoPortIndex"]
+description: The SetVideoPortIndex method instructs the Video Port Manager (VPM) to connect to the specified video port.
+helpviewer_keywords: ["IVPManager interface [DirectShow]","SetVideoPortIndex method","IVPManager.SetVideoPortIndex","IVPManager::SetVideoPortIndex","IVPManagerSetVideoPortIndex","SetVideoPortIndex","SetVideoPortIndex method [DirectShow]","SetVideoPortIndex method [DirectShow]","IVPManager interface","dshow.ivpmanager_setvideoportindex","strmif/IVPManager::SetVideoPortIndex"]
 old-location: dshow\ivpmanager_setvideoportindex.htm
 tech.root: DirectShow
 ms.assetid: a75332c9-ce3f-4122-ac6c-45478bb5f82c
 ms.date: 12/05/2018
 ms.keywords: IVPManager interface [DirectShow],SetVideoPortIndex method, IVPManager.SetVideoPortIndex, IVPManager::SetVideoPortIndex, IVPManagerSetVideoPortIndex, SetVideoPortIndex, SetVideoPortIndex method [DirectShow], SetVideoPortIndex method [DirectShow],IVPManager interface, dshow.ivpmanager_setvideoportindex, strmif/IVPManager::SetVideoPortIndex
-ms.topic: method
 f1_keywords:
 - strmif/IVPManager.SetVideoPortIndex
 dev_langs:
@@ -90,15 +90,15 @@ Use this method on a multi-monitor system to specify to the Video Port Manager w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivpmanager">IVPManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-ivpmanager-getvideoportindex">IVPManager::GetVideoPortIndex</a>
+<a href="/windows/win32/api/strmif/nf-strmif-ivpmanager-getvideoportindex">IVPManager::GetVideoPortIndex</a>
  
 
  

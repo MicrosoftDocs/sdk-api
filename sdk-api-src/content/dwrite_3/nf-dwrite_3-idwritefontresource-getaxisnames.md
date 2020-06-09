@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisNames
 title: IDWriteFontResource::GetAxisNames
-description: Retrieves the localized names of a font axis.helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisNames method","IDWriteFontResource.GetAxisNames","IDWriteFontResource::GetAxisNames","GetAxisNames","GetAxisNames method [Direct Write]","GetAxisNames method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getaxisnames","dwrite_3/IDWriteFontResource::GetAxisNames"]
+description: Retrieves the localized names of a font axis.
+helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisNames method","IDWriteFontResource.GetAxisNames","IDWriteFontResource::GetAxisNames","GetAxisNames","GetAxisNames method [Direct Write]","GetAxisNames method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getaxisnames","dwrite_3/IDWriteFontResource::GetAxisNames"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisNames method, IDWriteFontResource.GetAxisNames, IDWriteFontResource::GetAxisNames, GetAxisNames, GetAxisNames method [Direct Write], GetAxisNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisnames, dwrite_3/IDWriteFontResource::GetAxisNames
@@ -52,7 +53,7 @@ Retrieves the localized names of a font axis.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](https://docs.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
 
 ### -param names
 

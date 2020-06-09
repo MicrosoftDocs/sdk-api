@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.GetMaxIdealImageSize
 title: IVideoWindow::GetMaxIdealImageSize (control.h)
-description: The GetMaxIdealImageSize method retrieves the maximum ideal image size for the video image.helpviewer_keywords: ["GetMaxIdealImageSize","GetMaxIdealImageSize method [DirectShow]","GetMaxIdealImageSize method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","GetMaxIdealImageSize method","IVideoWindow.GetMaxIdealImageSize","IVideoWindow::GetMaxIdealImageSize","IVideoWindowGetMaxIdealImageSize","control/IVideoWindow::GetMaxIdealImageSize","dshow.ivideowindow_getmaxidealimagesize"]
+description: The GetMaxIdealImageSize method retrieves the maximum ideal image size for the video image.
+helpviewer_keywords: ["GetMaxIdealImageSize","GetMaxIdealImageSize method [DirectShow]","GetMaxIdealImageSize method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","GetMaxIdealImageSize method","IVideoWindow.GetMaxIdealImageSize","IVideoWindow::GetMaxIdealImageSize","IVideoWindowGetMaxIdealImageSize","control/IVideoWindow::GetMaxIdealImageSize","dshow.ivideowindow_getmaxidealimagesize"]
 old-location: dshow\ivideowindow_getmaxidealimagesize.htm
 tech.root: DirectShow
 ms.assetid: ee9f6803-c8b8-48e0-9be0-3d61a453014e
@@ -145,7 +146,7 @@ This method returns S_FALSE under various circumstances:
 <ul>
 <li>The filter is using an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> transport.</li>
 <li>UseWhenFullScreen mode is on. (See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
-<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See IDirectDrawVideo::GetCaps.)</li>
 </ul>
 
 

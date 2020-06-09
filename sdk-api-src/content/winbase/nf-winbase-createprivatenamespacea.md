@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreatePrivateNamespaceA
 title: CreatePrivateNamespaceA function (winbase.h)
-description: Creates a private namespace.helpviewer_keywords: ["CreatePrivateNamespace","CreatePrivateNamespace function","CreatePrivateNamespaceA","CreatePrivateNamespaceW","base.createprivatenamespace","winbase/CreatePrivateNamespace","winbase/CreatePrivateNamespaceA","winbase/CreatePrivateNamespaceW"]
+description: Creates a private namespace.
 old-location: base\createprivatenamespace.htm
 tech.root: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
@@ -76,7 +76,7 @@ A descriptor that defines how the namespace is to be isolated. The caller must b
 
 ### -param lpAliasPrefix [in]
 
-The prefix for the namespace. To create an object in this namespace, specify the object name as <i>prefix</i>\<i>objectname</i>.
+The prefix for the namespace. To create an object in this namespace, specify the object name as _prefix_\\_objectname_.
 
 The system supports multiple private namespaces with the same name, as long as they define different boundaries.
 
@@ -124,4 +124,5 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
  
 
  
+
 
