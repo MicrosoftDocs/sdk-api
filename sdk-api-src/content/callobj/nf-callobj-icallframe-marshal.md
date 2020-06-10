@@ -66,7 +66,7 @@ A pointer to the <a href="/windows/win32/api/callobj/ns-callobj-callframe_marsha
 
 ### -param mshlflags [in]
 
-Flag indicating whether the data to be marshaled is to be transmitted back to the client process â€” the normal case â€” or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
+Flag indicating whether the data to be marshaled is to be transmitted back to the client process - the normal case - or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
 
 
 ### -param pBuffer [in]

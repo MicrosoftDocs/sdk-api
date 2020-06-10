@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs â€” <b>General</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate â€” and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
+Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs - <b>General</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate - and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
 
 
 

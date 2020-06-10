@@ -121,7 +121,7 @@ Your container application should call <b>Update</b> if the end user updates the
 
 The end user can update the cached data for a linked object by choosing the <b>Update Now</b> button in the <b>Links</b> dialog box. If you use the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a> function to display the <b>Links</b> dialog box, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface. The dialog box calls your implementations of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-updatelink">IOleUILinkContainer::UpdateLink</a> when the end user chooses the <b>Update Now</b> button. Your implementation of that method can call <b>Update</b>.
 
-Your container application can also call <b>Update</b> to update a linked object, because that method â€” when called on a linked object â€” calls <b>Update</b>.
+Your container application can also call <b>Update</b> to update a linked object, because that method - when called on a linked object - calls <b>Update</b>.
 
 This method updates both automatic links and manual links. For manual links, calling <b>Update</b> or <b>Update</b> is the only way to update the caches. For more information on automatic and manual links, see <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a>.
 
