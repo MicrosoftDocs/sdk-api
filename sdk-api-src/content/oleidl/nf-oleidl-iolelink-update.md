@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleLink.Update
 title: IOleLink::Update (oleidl.h)
-description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.helpviewer_keywords: ["IOleLink interface [COM]","Update method","IOleLink.Update","IOleLink::Update","Update","Update method [COM]","Update method [COM]","IOleLink interface","_ole_iolelink_update","com.iolelink_update","oleidl/IOleLink::Update"]
+description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
+helpviewer_keywords: ["IOleLink interface [COM]","Update method","IOleLink.Update","IOleLink::Update","Update","Update method [COM]","Update method [COM]","IOleLink interface","_ole_iolelink_update","com.iolelink_update","oleidl/IOleLink::Update"]
 old-location: com\iolelink_update.htm
 tech.root: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4
@@ -121,7 +122,7 @@ Your container application should call <b>Update</b> if the end user updates the
 
 The end user can update the cached data for a linked object by choosing the <b>Update Now</b> button in the <b>Links</b> dialog box. If you use the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a> function to display the <b>Links</b> dialog box, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface. The dialog box calls your implementations of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-updatelink">IOleUILinkContainer::UpdateLink</a> when the end user chooses the <b>Update Now</b> button. Your implementation of that method can call <b>Update</b>.
 
-Your container application can also call <b>Update</b> to update a linked object, because that method - when called on a linked object - calls <b>Update</b>.
+Your container application can also call <b>Update</b> to update a linked object, because that method calls <b>Update</b> when it is called on a linked object.
 
 This method updates both automatic links and manual links. For manual links, calling <b>Update</b> or <b>Update</b> is the only way to update the caches. For more information on automatic and manual links, see <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a>.
 
