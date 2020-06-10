@@ -101,7 +101,7 @@ The specified device handle is invalid.
 
 Any pending system-exclusive or stream output buffers are returned to the callback function and the MHDR_DONE flag is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
-Terminating a system-exclusive message without sending an EOX (end-of-exclusive) byte might cause problems for the receiving device. The <b>midiOutReset</b> function does not send an EOX byte when it terminates a system-exclusive message â€” applications are responsible for doing this.
+Terminating a system-exclusive message without sending an EOX (end-of-exclusive) byte might cause problems for the receiving device. The <b>midiOutReset</b> function does not send an EOX byte when it terminates a system-exclusive message - applications are responsible for doing this.
 
 To turn off all notes, a note-off message for each note in each channel is sent. In addition, the sustain controller is turned off for each channel.
 
