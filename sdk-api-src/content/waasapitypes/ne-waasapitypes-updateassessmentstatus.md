@@ -1,12 +1,13 @@
 ---
 UID: NE:waasapitypes.tagUpdateAssessmentStatus
 title: UpdateAssessmentStatus (waasapitypes.h)
-description: Describes how up-to-date the OS on a device is.helpviewer_keywords: ["UpdateAssessmentStatus","UpdateAssessmentStatus enumeration","UpdateAssessmentStatus_Latest","UpdateAssessmentStatus_NotLatestDeferredFeature","UpdateAssessmentStatus_NotLatestDeferredQuality","UpdateAssessmentStatus_NotLatestEndOfSupport","UpdateAssessmentStatus_NotLatestHardRestriction","UpdateAssessmentStatus_NotLatestManaged","UpdateAssessmentStatus_NotLatestPausedFeature","UpdateAssessmentStatus_NotLatestPausedQuality","UpdateAssessmentStatus_NotLatestServicingTrain","UpdateAssessmentStatus_NotLatestSoftRestriction","UpdateAssessmentStatus_NotLatestUnknown","base.updateassessmentstatus","waasapitypes/ UpdateAssessmentStatus_Latest","waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredFeature","waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredQuality","waasapitypes/ UpdateAssessmentStatus_NotLatestEndOfSupport","waasapitypes/ UpdateAssessmentStatus_NotLatestHardRestriction","waasapitypes/ UpdateAssessmentStatus_NotLatestManaged","waasapitypes/ UpdateAssessmentStatus_NotLatestPausedFeature","waasapitypes/ UpdateAssessmentStatus_NotLatestPausedQuality","waasapitypes/ UpdateAssessmentStatus_NotLatestServicingTrain","waasapitypes/ UpdateAssessmentStatus_NotLatestSoftRestriction","waasapitypes/ UpdateAssessmentStatus_NotLatestUnknown","waasapitypes/UpdateAssessmentStatus"]
+description: Describes how up-to-date the OS on a device is.
+helpviewer_keywords: ["UpdateAssessmentStatus","UpdateAssessmentStatus enumeration","UpdateAssessmentStatus_Latest","UpdateAssessmentStatus_NotLatestDeferredFeature","UpdateAssessmentStatus_NotLatestDeferredQuality","UpdateAssessmentStatus_NotLatestEndOfSupport","UpdateAssessmentStatus_NotLatestHardRestriction","UpdateAssessmentStatus_NotLatestManaged","UpdateAssessmentStatus_NotLatestPausedFeature","UpdateAssessmentStatus_NotLatestPausedQuality","UpdateAssessmentStatus_NotLatestServicingTrain","UpdateAssessmentStatus_NotLatestSoftRestriction","UpdateAssessmentStatus_NotLatestUnknown","UpdateAssessmentStatus_NotLatestTargetedVersion","base.updateassessmentstatus","waasapitypes/ UpdateAssessmentStatus_Latest","waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredFeature","waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredQuality","waasapitypes/ UpdateAssessmentStatus_NotLatestEndOfSupport","waasapitypes/ UpdateAssessmentStatus_NotLatestHardRestriction","waasapitypes/ UpdateAssessmentStatus_NotLatestManaged","waasapitypes/ UpdateAssessmentStatus_NotLatestPausedFeature","waasapitypes/ UpdateAssessmentStatus_NotLatestPausedQuality","waasapitypes/ UpdateAssessmentStatus_NotLatestServicingTrain","waasapitypes/ UpdateAssessmentStatus_NotLatestSoftRestriction","waasapitypes/ UpdateAssessmentStatus_NotLatestUnknown","waasapitypes/ UpdateAssessmentStatus_NotLatestTargetedVersion","waasapitypes/UpdateAssessmentStatus"]
 old-location: base\updateassessmentstatus.htm
 tech.root: SysInfo
 ms.assetid: 157E241E-E8D8-41F8-9565-5C9298DCD1BE
 ms.date: 12/05/2018
-ms.keywords: UpdateAssessmentStatus, UpdateAssessmentStatus enumeration, UpdateAssessmentStatus_Latest, UpdateAssessmentStatus_NotLatestDeferredFeature, UpdateAssessmentStatus_NotLatestDeferredQuality, UpdateAssessmentStatus_NotLatestEndOfSupport, UpdateAssessmentStatus_NotLatestHardRestriction, UpdateAssessmentStatus_NotLatestManaged, UpdateAssessmentStatus_NotLatestPausedFeature, UpdateAssessmentStatus_NotLatestPausedQuality, UpdateAssessmentStatus_NotLatestServicingTrain, UpdateAssessmentStatus_NotLatestSoftRestriction, UpdateAssessmentStatus_NotLatestUnknown, base.updateassessmentstatus, waasapitypes/ UpdateAssessmentStatus_Latest, waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredFeature, waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredQuality, waasapitypes/ UpdateAssessmentStatus_NotLatestEndOfSupport, waasapitypes/ UpdateAssessmentStatus_NotLatestHardRestriction, waasapitypes/ UpdateAssessmentStatus_NotLatestManaged, waasapitypes/ UpdateAssessmentStatus_NotLatestPausedFeature, waasapitypes/ UpdateAssessmentStatus_NotLatestPausedQuality, waasapitypes/ UpdateAssessmentStatus_NotLatestServicingTrain, waasapitypes/ UpdateAssessmentStatus_NotLatestSoftRestriction, waasapitypes/ UpdateAssessmentStatus_NotLatestUnknown, waasapitypes/UpdateAssessmentStatus
+ms.keywords: UpdateAssessmentStatus, UpdateAssessmentStatus enumeration, UpdateAssessmentStatus_Latest, UpdateAssessmentStatus_NotLatestDeferredFeature, UpdateAssessmentStatus_NotLatestDeferredQuality, UpdateAssessmentStatus_NotLatestEndOfSupport, UpdateAssessmentStatus_NotLatestHardRestriction, UpdateAssessmentStatus_NotLatestManaged, UpdateAssessmentStatus_NotLatestPausedFeature, UpdateAssessmentStatus_NotLatestPausedQuality, UpdateAssessmentStatus_NotLatestServicingTrain, UpdateAssessmentStatus_NotLatestSoftRestriction, UpdateAssessmentStatus_NotLatestUnknown, UpdateAssessmentStatus_NotLatestTargetedVersion, base.updateassessmentstatus, waasapitypes/ UpdateAssessmentStatus_Latest, waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredFeature, waasapitypes/ UpdateAssessmentStatus_NotLatestDeferredQuality, waasapitypes/ UpdateAssessmentStatus_NotLatestEndOfSupport, waasapitypes/ UpdateAssessmentStatus_NotLatestHardRestriction, waasapitypes/ UpdateAssessmentStatus_NotLatestManaged, waasapitypes/ UpdateAssessmentStatus_NotLatestPausedFeature, waasapitypes/ UpdateAssessmentStatus_NotLatestPausedQuality, waasapitypes/ UpdateAssessmentStatus_NotLatestServicingTrain, waasapitypes/ UpdateAssessmentStatus_NotLatestSoftRestriction, waasapitypes/ UpdateAssessmentStatus_NotLatestUnknown, waasapitypes/ UpdateAssessmentStatus_NotLatestTargetedVersion, waasapitypes/UpdateAssessmentStatus
 f1_keywords:
 - waasapitypes/UpdateAssessmentStatus
 dev_langs:
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes how up-to-date the OS on a device is.<b>UpdateAssessmentStatus</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> and <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a> structures, in the <b>assessmentForCurrent</b>, <b>assessmentForUpToDate</b>, and <b>securityStatus</b> members. Exactly one constant is returned.
+Describes how up-to-date the OS on a device is. <b>UpdateAssessmentStatus</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> and <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a> structures, in the <b>assessmentForCurrent</b>, <b>assessmentForUpToDate</b>, and <b>securityStatus</b> members. Exactly one constant is returned.
 
 
 ## -enum-fields
@@ -113,7 +114,11 @@ The device is not on the latest update because the approval of updates is not do
 
 ### -field UpdateAssessmentStatus_NotLatestUnknown
 
-The device is not on the latest update due to a reason that cannot be determined by the assessment. 
+The device is not on the latest update due to a reason that cannot be determined by the assessment.
+
+### -field UpdateAssessmentStatus_NotLatestTargetedVersion
+
+The device is not on the latest feature update due to the device's Windows Update for Business Target Version policy. This policy is keeping the device on the targeted feature release version.
 
 
 ## -remarks
