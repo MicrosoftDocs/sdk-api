@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptHashPublicKeyInfo
 title: CryptHashPublicKeyInfo function (wincrypt.h)
-description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.helpviewer_keywords: ["CryptHashPublicKeyInfo","CryptHashPublicKeyInfo function [Security]","_crypto2_crypthashpublickeyinfo","security.crypthashpublickeyinfo","wincrypt/CryptHashPublicKeyInfo"]
+description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.
+helpviewer_keywords: ["CryptHashPublicKeyInfo","CryptHashPublicKeyInfo function [Security]","_crypto2_crypthashpublickeyinfo","security.crypthashpublickeyinfo","wincrypt/CryptHashPublicKeyInfo"]
 old-location: security\crypthashpublickeyinfo.htm
 tech.root: SecCrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
@@ -72,7 +73,7 @@ Unless there is a strong reason for passing in a specific cryptographic provider
 
 ### -param Algid [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the CryptoAPI hash algorithm to use. If <i>Algid</i> is zero, the default hash algorithm, SHA1, is used.
+An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the CryptoAPI hash algorithm to use. If <i>Algid</i> is zero, the default hash algorithm, MD5, is used.
 
 
 ### -param dwFlags [in]
