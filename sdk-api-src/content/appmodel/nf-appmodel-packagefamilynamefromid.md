@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.PackageFamilyNameFromId
 title: PackageFamilyNameFromId function (appmodel.h)
-description: Gets the package family name for the specified package identifier.helpviewer_keywords: ["PackageFamilyNameFromId","PackageFamilyNameFromId function [App packaging and management]","appmodel/PackageFamilyNameFromId","appxpkg.packagefamilynamefromid"]
+description: Gets the package family name for the specified package identifier.
+helpviewer_keywords: ["PackageFamilyNameFromId","PackageFamilyNameFromId function [App packaging and management]","appmodel/PackageFamilyNameFromId","appxpkg.packagefamilynamefromid"]
 old-location: appxpkg\packagefamilynamefromid.htm
 tech.root: appxpkg
 ms.assetid: 198DAB6B-21D2-4ACB-87DF-B3F4EFBEE323
@@ -138,12 +139,10 @@ For info about string size limits, see <a href="https://docs.microsoft.com/windo
 #include <stdio.h>
 
 int ShowUsage();
-bool ParseArchitecture(__in PCWSTR architectureString, __out UINT32 * architecture);
-bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: PackageFamilyNameFromId <name><version> <arch> <resourceid> <publisher>\n");
+    wprintf(L"Usage: PackageFamilyNameFromId <name> <publisher>\n");
     return 1;
 }
 
@@ -155,12 +154,7 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
     PACKAGE_ID packageId;
     ZeroMemory(&packageId, sizeof(packageId));
     packageId.name = argv[1];
-    if (!ParseVersion(argv[2], &packageId.version))
-        return 2;
-    if (!ParseArchitecture(argv[3], &packageId.processorArchitecture))
-        return 3;
-    packageId.resourceId = argv[4];
-    packageId.publisher = argv[5];
+    packageId.publisher = argv[2];
 
     UINT32 length = 0;
     LONG rc = PackageFamilyNameFromId(&packageId, &length, NULL);
@@ -184,86 +178,18 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 
     rc = PackageFamilyNameFromId(&packageId, &length, familyName);
     if (rc != ERROR_SUCCESS)
+    {
         wprintf(L"Error %d converting Package Id to Family Name\n", rc);
+    }
     else
+    {
         wprintf(L"Package Family Name = %s\n", familyName);
+    }
 
     free(familyName);
 
     return rc == ERROR_SUCCESS ? 0 : 7;
 }
-
-bool ParseArchitecture(__in PCWSTR architectureString, __out UINT32 * architecture)
-{
-    if (_wcsicmp(architectureString, L"neutral") == 0)
-        *architecture = PROCESSOR_ARCHITECTURE_NEUTRAL;
-    else if (_wcsicmp(architectureString, L"x86") == 0)
-        *architecture = PROCESSOR_ARCHITECTURE_INTEL;
-    else if (_wcsicmp(architectureString, L"x64") == 0)
-        *architecture = PROCESSOR_ARCHITECTURE_AMD64;
-    else if (_wcsicmp(architectureString, L"arm") == 0)
-        *architecture = PROCESSOR_ARCHITECTURE_ARM;
-    else
-    {
-        wprintf(L"Invalid architecture\n");
-        return false;
-    }
-    return true;
-}
-
-bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
-{
-    PWSTR s = (PWSTR) versionString;
-
-    ULONG n = wcstoul(s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
-        wprintf(L"Invalid Version (Major)\n");
-        return false;
-    }
-    version->Major = (USHORT) n;
-
-    if (*s != L'.')
-    {
-        wprintf(L"Invalid Version\n");
-        return false;
-    }
-
-    n = wcstoul(++s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
-        wprintf(L"Invalid Version (Minor)\n");
-        return false;
-    }
-    version->Minor = (USHORT) n;
-
-    if (*s != L'.')
-    {
-        wprintf(L"Invalid Version\n");
-        return false;
-    }
-
-    n = wcstoul(++s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
-        wprintf(L"Invalid Version (Build)\n");
-        return false;
-    }
-    version->Build = (USHORT) n;
-
-    if (*s != L'.')
-    {
-        wprintf(L"Invalid Version\n");
-        return false;
-    }
-
-    n = wcstoul(++s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
-        wprintf(L"Invalid Version (Revision)\n");
-        return false;
-    }
-    version->Revision = (USHORT) n;
-
-    return true;
-}
-
 ```
 
 
