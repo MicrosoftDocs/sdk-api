@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device4.CreateProtectedResourceSession
 title: ID3D12Device4::CreateProtectedResourceSession
-description: Creates an object that represents a session for content protection.helpviewer_keywords: ["ID3D12Device4 interface","CreateProtectedResourceSession method","ID3D12Device4.CreateProtectedResourceSession","ID3D12Device4::CreateProtectedResourceSession","CreateProtectedResourceSession","CreateProtectedResourceSession method","CreateProtectedResourceSession method","ID3D12Device4 interface","direct3d12.id3d12device4_createprotectedresourcesession","d3d12/ID3D12Device4::CreateProtectedResourceSession"]
+description: Creates an object that represents a session for content protection.
+helpviewer_keywords: ["ID3D12Device4 interface","CreateProtectedResourceSession method","ID3D12Device4.CreateProtectedResourceSession","ID3D12Device4::CreateProtectedResourceSession","CreateProtectedResourceSession","CreateProtectedResourceSession method","CreateProtectedResourceSession method","ID3D12Device4 interface","direct3d12.id3d12device4_createprotectedresourcesession","d3d12/ID3D12Device4::CreateProtectedResourceSession"]
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateProtectedResourceSession method, ID3D12Device4.CreateProtectedResourceSession, ID3D12Device4::CreateProtectedResourceSession, CreateProtectedResourceSession, CreateProtectedResourceSession method, CreateProtectedResourceSession method,ID3D12Device4 interface, direct3d12.id3d12device4_createprotectedresourcesession, d3d12/ID3D12Device4::CreateProtectedResourceSession
@@ -53,7 +54,7 @@ Creates an object that represents a session for content protection. You can then
 
 ### -param pDesc [in]
 
-Type: **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc)\***
+Type: **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc)\***
 
 A pointer to a constant **D3D12_PROTECTED_RESOURCE_SESSION_DESC** structure, describing the session to create.
 
