@@ -54,7 +54,7 @@ Creates an object that represents a session for content protection. You can then
 
 ### -param pDesc [in]
 
-Type: **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ne-d3d12-d3d12_protected_resource_session_flags)\***
+Type: **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc)\***
 
 A pointer to a constant **D3D12_PROTECTED_RESOURCE_SESSION_DESC** structure, describing the session to create.
 
