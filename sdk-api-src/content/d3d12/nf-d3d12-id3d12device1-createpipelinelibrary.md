@@ -120,7 +120,7 @@ ID3D12Device* Device;
     VERIFY_SUCCEEDED(Library->StorePipeline(L“PSO2”, PSO2)); 
     SIZE_T LibrarySize = Library->GetSerializedSize(); 
     void* pData = new BYTE[LibrarySize]; 
-    VERIFY_SUCCEEDED(Library->Serialize(LibrarySize, pData)); 
+    VERIFY_SUCCEEDED(Library->Serialize(pData, LibrarySize)); 
 
     // Save pData to disk 
     ...
