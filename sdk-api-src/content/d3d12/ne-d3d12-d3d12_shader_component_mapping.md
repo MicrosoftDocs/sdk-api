@@ -103,20 +103,28 @@ This enum allows the SRV to select how memory gets routed to the four return com
           The options for each shader component [0..3] (corresponding to RGBA) are: component 0..3 from the SRV fetch result or force 0 or force 1.
         
 
-The default 1:1 mapping can be indicated by specifying D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING, 
-          otherwise an arbitrary mapping can be specified using the macro D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING.  
+The default 1:1 mapping can be indicated by specifying `D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING`, 
+          otherwise an arbitrary mapping can be specified using the macro `D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING`.  
           See below.
         
 
 Note the following defines:
 
-<pre class="syntax" xml:space="preserve"><code>#define D3D12_SHADER_COMPONENT_MAPPING_MASK 0x7
+```c
+#define D3D12_SHADER_COMPONENT_MAPPING_MASK 0x7
 #define D3D12_SHADER_COMPONENT_MAPPING_SHIFT 3
-#define D3D12_SHADER_COMPONENT_MAPPING_ALWAYS_SET_BIT_AVOIDING_ZEROMEM_MISTAKES (1&lt;&lt;(D3D12_SHADER_COMPONENT_MAPPING_SHIFT*4))
-#define D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING(Src0,Src1,Src2,Src3) ((((Src0)&amp;D3D12_SHADER_COMPONENT_MAPPING_MASK)| \                                                                (((Src1)&amp;D3D12_SHADER_COMPONENT_MAPPING_MASK)&lt;&lt;D3D12_SHADER_COMPONENT_MAPPING_SHIFT)| \                                                               (((Src2)&amp;D3D12_SHADER_COMPONENT_MAPPING_MASK)&lt;&lt;(D3D12_SHADER_COMPONENT_MAPPING_SHIFT*2))| \                                                                (((Src3)&amp;D3D12_SHADER_COMPONENT_MAPPING_MASK)&lt;&lt;(D3D12_SHADER_COMPONENT_MAPPING_SHIFT*3))| \                                                                D3D12_SHADER_COMPONENT_MAPPING_ALWAYS_SET_BIT_AVOIDING_ZEROMEM_MISTAKES))
-#define D3D12_DECODE_SHADER_4_COMPONENT_MAPPING(ComponentToExtract,Mapping) ((D3D12_SHADER_COMPONENT_MAPPING)(Mapping &gt;&gt; (D3D12_SHADER_COMPONENT_MAPPING_SHIFT*ComponentToExtract) &amp; D3D12_SHADER_COMPONENT_MAPPING_MASK))
+#define D3D12_SHADER_COMPONENT_MAPPING_ALWAYS_SET_BIT_AVOIDING_ZEROMEM_MISTAKES \
+    (1<<(D3D12_SHADER_COMPONENT_MAPPING_SHIFT*4))
+#define D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING(Src0,Src1,Src2,Src3) \
+    ((((Src0)&D3D12_SHADER_COMPONENT_MAPPING_MASK)| \
+    (((Src1)&D3D12_SHADER_COMPONENT_MAPPING_MASK)<<D3D12_SHADER_COMPONENT_MAPPING_SHIFT)| \
+    (((Src2)&D3D12_SHADER_COMPONENT_MAPPING_MASK)<<(D3D12_SHADER_COMPONENT_MAPPING_SHIFT*2))| \
+    (((Src3)&D3D12_SHADER_COMPONENT_MAPPING_MASK)<<(D3D12_SHADER_COMPONENT_MAPPING_SHIFT*3))| \
+    D3D12_SHADER_COMPONENT_MAPPING_ALWAYS_SET_BIT_AVOIDING_ZEROMEM_MISTAKES))
+#define D3D12_DECODE_SHADER_4_COMPONENT_MAPPING(ComponentToExtract,Mapping) \
+    ((D3D12_SHADER_COMPONENT_MAPPING)(Mapping >> (D3D12_SHADER_COMPONENT_MAPPING_SHIFT*ComponentToExtract) & D3D12_SHADER_COMPONENT_MAPPING_MASK))
 #define D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING(0,1,2,3)
-</code></pre>
+```
 
 
 

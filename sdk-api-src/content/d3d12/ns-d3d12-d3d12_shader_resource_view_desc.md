@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_SHADER_RESOURCE_VIEW_DESC
 title: D3D12_SHADER_RESOURCE_VIEW_DESC (d3d12.h)
-description: Describes a shader-resource view.helpviewer_keywords: ["D3D12_SHADER_RESOURCE_VIEW_DESC","D3D12_SHADER_RESOURCE_VIEW_DESC structure","d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC","direct3d12.d3d12_shader_resource_view_desc"]
+description: Describes a shader-resource view.
+helpviewer_keywords: ["D3D12_SHADER_RESOURCE_VIEW_DESC","D3D12_SHADER_RESOURCE_VIEW_DESC structure","d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC","direct3d12.d3d12_shader_resource_view_desc"]
 old-location: direct3d12\d3d12_shader_resource_view_desc.htm
 tech.root: direct3d12
 ms.assetid: 2B4B868F-3E9F-4570-B1C7-2767ED717A3B
@@ -73,8 +74,13 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_s
 
 ### -field Shader4ComponentMapping
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_component_mapping">D3D12_SHADER_COMPONENT_MAPPING</a> enumeration constant, such as return component 0 (red) from memory, or force the resulting value to 0.
-            This mapping enables the shader resource view (SRV) to choose how memory gets routed to the 4 return components in a shader after a memory fetch.  
+A value, constructed using
+[`D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING`](https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping#remarks)
+from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_component_mapping">D3D12_SHADER_COMPONENT_MAPPING</a>
+enumeration constants, which specifies what values from memory should be returned
+when the texture is accessed in a shader via this shader resource view (SRV).
+For example, it can route component 1 (green) from memory, or the constant `0`,
+into component 2 (`.b`) of the value given to the shader.
           
 
 
