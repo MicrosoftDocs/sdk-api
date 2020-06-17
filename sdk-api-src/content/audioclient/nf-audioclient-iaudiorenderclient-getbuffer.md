@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioRenderClient.GetBuffer
 title: IAudioRenderClient::GetBuffer (audioclient.h)
-description: Retrieves a pointer to the next available space in the rendering endpoint buffer into which the caller can write a data packet.helpviewer_keywords: ["GetBuffer","GetBuffer method [Core Audio]","GetBuffer method [Core Audio]","IAudioRenderClient interface","IAudioRenderClient interface [Core Audio]","GetBuffer method","IAudioRenderClient.GetBuffer","IAudioRenderClient::GetBuffer","IAudioRenderClientGetBuffer","audioclient/IAudioRenderClient::GetBuffer","coreaudio.iaudiorenderclient_getbuffer"]
+description: Retrieves a pointer to the next available space in the rendering endpoint buffer into which the caller can write a data packet.
+helpviewer_keywords: ["GetBuffer","GetBuffer method [Core Audio]","GetBuffer method [Core Audio]","IAudioRenderClient interface","IAudioRenderClient interface [Core Audio]","GetBuffer method","IAudioRenderClient.GetBuffer","IAudioRenderClient::GetBuffer","IAudioRenderClientGetBuffer","audioclient/IAudioRenderClient::GetBuffer","coreaudio.iaudiorenderclient_getbuffer"]
 old-location: coreaudio\iaudiorenderclient_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: c2a0d46b-e8d4-4c51-9810-5580504c9731
@@ -128,6 +129,7 @@ A previous <b>IAudioRenderClient::GetBuffer</b> call is still in effect.
 <td width="40%">
 <dl>
 <dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
+<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
 </dl>
 </td>
 <td width="60%">
