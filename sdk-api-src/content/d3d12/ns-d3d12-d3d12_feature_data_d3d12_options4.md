@@ -3,6 +3,7 @@ UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS4
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS4
 description: Indicates the level of support for 64KB-aligned MSAA textures, cross-API sharing, and native 16-bit shader operations.
 helpviewer_keywords: ["D3D12_FEATURE_DATA_D3D12_OPTIONS4"]
+tech.root: direct3d12
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS4
 f1_keywords:
