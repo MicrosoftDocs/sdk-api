@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyTextureRegion
 title: ID3D12GraphicsCommandList::CopyTextureRegion (d3d12.h)
-description: This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.helpviewer_keywords: ["CopyTextureRegion","CopyTextureRegion method","CopyTextureRegion method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyTextureRegion method","ID3D12GraphicsCommandList.CopyTextureRegion","ID3D12GraphicsCommandList::CopyTextureRegion","d3d12/ID3D12GraphicsCommandList::CopyTextureRegion","direct3d12.id3d12graphicscommandlist_copytextureregion"]
+description: This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.
+helpviewer_keywords: ["CopyTextureRegion","CopyTextureRegion method","CopyTextureRegion method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyTextureRegion method","ID3D12GraphicsCommandList.CopyTextureRegion","ID3D12GraphicsCommandList::CopyTextureRegion","d3d12/ID3D12GraphicsCommandList::CopyTextureRegion","direct3d12.id3d12graphicscommandlist_copytextureregion"]
 old-location: direct3d12\id3d12graphicscommandlist_copytextureregion.htm
 tech.root: direct3d12
 ms.assetid: 2EAFC6B9-376C-4801-8E53-BF0DB08943AA
@@ -121,12 +122,14 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 <li>Must be different subresources (although they can be from the same resource).</li>
 <li>Must have compatible <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>s (identical or from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyTextureRegion</b> can copy between a few format types. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
 </ul>
-<b>CopyTextureRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopyTextureRegion</b> can reinterpret the resource data between a few format types. 
+<b>CopyTextureRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopyTextureRegion</b> can reinterpret the resource data between a few format types.
 
-If your app needs to copy an entire resource, we recommend to use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource">CopyResource</a> instead.
+Note that for a depth-stencil buffer, the depth and stencil planes are <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d12/subresources#plane-slice">separate subresources</a> within the buffer.
+
+To copy an entire resource, rather than just a region of a subresource, we recommend to use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource">CopyResource</a> instead.
         
 
-<div class="alert"><b>Note</b>  If you use <b>CopyTextureRegion</b> with a depth-stencil buffer or a multisampled resource, you must copy the whole subresource. In this situation, you must pass 0 to the <i>DstX</i>, <i>DstY</i>, and <i>DstZ</i> parameters and <b>NULL</b> to the <i>pSrcBox</i> parameter. In addition, source and destination resources, which are represented by the <i>pSrcResource</i> and <i>pDstResource</i> parameters, should have identical sample count values.
+<div class="alert"><b>Note</b>  If you use <b>CopyTextureRegion</b> with a depth-stencil buffer or a multisampled resource, you must copy the entire subresource rectangle. In this situation, you must pass 0 to the <i>DstX</i>, <i>DstY</i>, and <i>DstZ</i> parameters and <b>NULL</b> to the <i>pSrcBox</i> parameter. In addition, source and destination resources, which are represented by the <i>pSrcResource</i> and <i>pDstResource</i> parameters, should have identical sample count values.
         </div>
 <div> </div>
 <b>CopyTextureRegion</b> may be used to initialize resources which alias the same heap memory. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
