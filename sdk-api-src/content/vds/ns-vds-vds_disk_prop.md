@@ -1,7 +1,8 @@
 ---
 UID: NS:vds._VDS_DISK_PROP
 title: VDS_DISK_PROP (vds.h)
-description: Defines the properties of a disk object.helpviewer_keywords: ["*PVDS_DISK_PROP","PVDS_DISK_PROP","PVDS_DISK_PROP structure pointer [VDS]","VDS_DISK_PROP","VDS_DISK_PROP structure [VDS]","VDS_H_FAILED","VDS_H_FAILING","VDS_H_HEALTHY","VDS_H_UNKNOWN","base.vds_disk_prop","vds/PVDS_DISK_PROP","vds/_VDS_DISK_PROP"]
+description: Defines the properties of a disk object.
+helpviewer_keywords: ["*PVDS_DISK_PROP","PVDS_DISK_PROP","PVDS_DISK_PROP structure pointer [VDS]","VDS_DISK_PROP","VDS_DISK_PROP structure [VDS]","VDS_H_FAILED","VDS_H_FAILING","VDS_H_HEALTHY","VDS_H_UNKNOWN","base.vds_disk_prop","vds/PVDS_DISK_PROP","vds/_VDS_DISK_PROP"]
 old-location: base\vds_disk_prop.htm
 tech.root: VDS
 ms.assetid: c7c09f95-9489-46fd-8b03-cabdee4521cf
@@ -183,7 +184,7 @@ This member is optional and can be <b>NULL</b> if no value is available. If it i
 ### -field pwszName
 
 The name used to open a handle to an object created using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> 
-      function. For example:
+      function. For example: `\\?\PhysicalDrive2`
       
 
 
