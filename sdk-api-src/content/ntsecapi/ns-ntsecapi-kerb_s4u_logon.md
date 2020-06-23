@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_S4U_LOGON
 title: KERB_S4U_LOGON (ntsecapi.h)
-description: Contains information about a service for user (S4U) logon.helpviewer_keywords: ["*PKERB_S4U_LOGON","KERB_S4U_LOGON","KERB_S4U_LOGON structure [Security]","KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS","KERB_S4U_LOGON_FLAG_IDENTITY","PKERB_S4U_LOGON","PKERB_S4U_LOGON structure pointer [Security]","ntsecapi/KERB_S4U_LOGON","ntsecapi/PKERB_S4U_LOGON","security.kerb_s4u_logon"]
+description: Contains information about a service for user (S4U) logon.
+helpviewer_keywords: ["*PKERB_S4U_LOGON","KERB_S4U_LOGON","KERB_S4U_LOGON structure [Security]","KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS","KERB_S4U_LOGON_FLAG_IDENTITY","PKERB_S4U_LOGON","PKERB_S4U_LOGON structure pointer [Security]","ntsecapi/KERB_S4U_LOGON","ntsecapi/PKERB_S4U_LOGON","security.kerb_s4u_logon"]
 old-location: security\kerb_s4u_logon.htm
 tech.root: SecAuthN
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
@@ -83,8 +84,8 @@ Requests the hours that the user has been logged on.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="KERB_S4U_LOGON_FLAG_IDENTITY"></a><a id="kerb_s4u_logon_flag_identity"></a><dl>
-<dt><b>KERB_S4U_LOGON_FLAG_IDENTITY</b></dt>
+<td width="40%"><a id="KERB_S4U_LOGON_FLAG_IDENTIFY"></a><a id="kerb_s4u_logon_flag_identify"></a><dl>
+<dt><b>KERB_S4U_LOGON_FLAG_IDENTIFY</b></dt>
 <dt>0x8</dt>
 </dl>
 </td>
