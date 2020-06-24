@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.RegisterEventSourceW
 title: RegisterEventSourceW function (winbase.h)
-description: Retrieves a registered handle to the specified event log.helpviewer_keywords: ["RegisterEventSource","RegisterEventSource function","RegisterEventSourceA","RegisterEventSourceW","_win32_registereventsource","base.registereventsource","winbase/RegisterEventSource","winbase/RegisterEventSourceA","winbase/RegisterEventSourceW"]
+description: Retrieves a registered handle to the specified event log.
+helpviewer_keywords: ["RegisterEventSource","RegisterEventSource function","RegisterEventSourceA","RegisterEventSourceW","_win32_registereventsource","base.registereventsource","winbase/RegisterEventSource","winbase/RegisterEventSourceA","winbase/RegisterEventSourceW"]
 old-location: base\registereventsource.htm
 tech.root: EventLog
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
@@ -73,7 +74,7 @@ The Universal Naming Convention (UNC) name of the remote server on which this op
 The name of the <a href="https://docs.microsoft.com/windows/desktop/EventLog/event-sources">event source</a> whose handle is to be retrieved. The source name must be a subkey of a log under the <b>Eventlog</b> registry key. 
 						Note that the <b>Security</b> log is for system use only.
 
-<div class="alert"><b>Note</b>  This string must not contain characters prohibited in XML Attributes, with the exception of XML Escape sequences such as <b>&amp;lt  &amp;gl</b>.</div>
+<div class="alert"><b>Note</b>  This string must not contain characters prohibited in XML Attributes, with the exception of XML Escape sequences such as <b>&amp;lt;</b> or <b>&amp;gt;</b>.</div>
 <div> </div>
 
 ## -returns
