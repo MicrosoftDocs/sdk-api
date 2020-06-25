@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateSet
 title: IOpcSigningOptions::GetCertificateSet (msopc.h)
-description: Gets an IOpcCertificateSet interface pointer.helpviewer_keywords: ["GetCertificateSet","GetCertificateSet method [Open Packaging Conventions]","GetCertificateSet method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCertificateSet method","IOpcSigningOptions.GetCertificateSet","IOpcSigningOptions::GetCertificateSet","msopc/IOpcSigningOptions::GetCertificateSet","opc.iopcsigningoptions_getcertificateset"]
+description: Gets an IOpcCertificateSet interface pointer.
+helpviewer_keywords: ["GetCertificateSet","GetCertificateSet method [Open Packaging Conventions]","GetCertificateSet method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCertificateSet method","IOpcSigningOptions.GetCertificateSet","IOpcSigningOptions::GetCertificateSet","msopc/IOpcSigningOptions::GetCertificateSet","opc.iopcsigningoptions_getcertificateset"]
 old-location: opc\iopcsigningoptions_getcertificateset.htm
 tech.root: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e

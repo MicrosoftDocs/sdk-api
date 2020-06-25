@@ -1,7 +1,8 @@
 ---
 UID: NS:shellapi._SHQUERYRBINFO
 title: SHQUERYRBINFO (shellapi.h)
-description: Contains the size and item count information retrieved by the SHQueryRecycleBin function.helpviewer_keywords: ["*LPSHQUERYRBINFO","LPSHQUERYRBINFO","LPSHQUERYRBINFO structure pointer [Windows Shell]","SHQUERYRBINFO","SHQUERYRBINFO structure [Windows Shell]","_win32_SHQUERYRBINFO","shell.SHQUERYRBINFO","shellapi/LPSHQUERYRBINFO","shellapi/SHQUERYRBINFO"]
+description: Contains the size and item count information retrieved by the SHQueryRecycleBin function.
+helpviewer_keywords: ["*LPSHQUERYRBINFO","LPSHQUERYRBINFO","LPSHQUERYRBINFO structure pointer [Windows Shell]","SHQUERYRBINFO","SHQUERYRBINFO structure [Windows Shell]","_win32_SHQUERYRBINFO","shell.SHQUERYRBINFO","shellapi/LPSHQUERYRBINFO","shellapi/SHQUERYRBINFO"]
 old-location: shell\SHQUERYRBINFO.htm
 tech.root: shell
 ms.assetid: 7e9bc7e9-5712-45e7-a424-0afb62f26450

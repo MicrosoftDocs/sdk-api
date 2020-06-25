@@ -1,7 +1,8 @@
 ---
 UID: NS:propidl.tagSERIALIZEDPROPERTYVALUE
 title: SERIALIZEDPROPERTYVALUE (propidl.h)
-description: A range of memory of arbitrary type that represents a serialized PROPVARIANT structure.helpviewer_keywords: ["SERIALIZEDPROPERTYVALUE","SERIALIZEDPROPERTYVALUE structure [Windows Shell]","_shell_SERIALIZEDPROPERTYVALUE","propidl/SERIALIZEDPROPERTYVALUE","shell.SERIALIZEDPROPERTYVALUE"]
+description: A range of memory of arbitrary type that represents a serialized PROPVARIANT structure.
+helpviewer_keywords: ["SERIALIZEDPROPERTYVALUE","SERIALIZEDPROPERTYVALUE structure [Windows Shell]","_shell_SERIALIZEDPROPERTYVALUE","propidl/SERIALIZEDPROPERTYVALUE","shell.SERIALIZEDPROPERTYVALUE"]
 old-location: shell\SERIALIZEDPROPERTYVALUE.htm
 tech.root: shell
 ms.assetid: ab64a16e-624d-427a-8f9c-5c8c4a9df625

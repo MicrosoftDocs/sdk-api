@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.linemediacontroldigit_tag
 title: LINEMEDIACONTROLDIGIT (tapi.h)
-description: The LINEMEDIACONTROLDIGIT structure describes a media action to be executed when detecting a digit. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.helpviewer_keywords: ["*LPLINEMEDIACONTROLDIGIT","LINEMEDIACONTROLDIGIT","LINEMEDIACONTROLDIGIT structure [TAPI 2.2]","LPLINEMEDIACONTROLDIGIT","LPLINEMEDIACONTROLDIGIT structure pointer [TAPI 2.2]","_tapi2_linemediacontroldigit_str","tapi/LINEMEDIACONTROLDIGIT","tapi/LPLINEMEDIACONTROLDIGIT","tapi2.linemediacontroldigit_str"]
+description: The LINEMEDIACONTROLDIGIT structure describes a media action to be executed when detecting a digit. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
+helpviewer_keywords: ["*LPLINEMEDIACONTROLDIGIT","LINEMEDIACONTROLDIGIT","LINEMEDIACONTROLDIGIT structure [TAPI 2.2]","LPLINEMEDIACONTROLDIGIT","LPLINEMEDIACONTROLDIGIT structure pointer [TAPI 2.2]","_tapi2_linemediacontroldigit_str","tapi/LINEMEDIACONTROLDIGIT","tapi/LPLINEMEDIACONTROLDIGIT","tapi2.linemediacontroldigit_str"]
 old-location: tapi2\linemediacontroldigit_str.htm
 tech.root: Tapi
 ms.assetid: d31cd365-d6a6-4595-8202-87113035d807

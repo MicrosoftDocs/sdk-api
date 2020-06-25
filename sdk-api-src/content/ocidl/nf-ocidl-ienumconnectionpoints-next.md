@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Next
 title: IEnumConnectionPoints::Next (ocidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumConnectionPoints interface [COM]","Next method","IEnumConnectionPoints.Next","IEnumConnectionPoints::Next","Next","Next method [COM]","Next method [COM]","IEnumConnectionPoints interface","_com_ienumconnectionpoints_next","com.ienumconnectionpoints_next","ocidl/IEnumConnectionPoints::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumConnectionPoints interface [COM]","Next method","IEnumConnectionPoints.Next","IEnumConnectionPoints::Next","Next","Next method [COM]","Next method [COM]","IEnumConnectionPoints interface","_com_ienumconnectionpoints_next","com.ienumconnectionpoints_next","ocidl/IEnumConnectionPoints::Next"]
 old-location: com\ienumconnectionpoints_next.htm
 tech.root: com
 ms.assetid: 954bd587-75ce-4216-85c9-f1382414a979

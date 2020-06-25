@@ -1,7 +1,8 @@
 ---
 UID: NS:winnetwk._DISCDLGSTRUCTW
 title: DISCDLGSTRUCTW (winnetwk.h)
-description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.helpviewer_keywords: ["*LPDISCDLGSTRUCTW","DISCDLGSTRUCT","DISCDLGSTRUCT structure [Windows Networking (WNet)]","DISCDLGSTRUCTA","DISCDLGSTRUCTW","DISC_NO_FORCE","DISC_UPDATE_PROFILE","LPDISCDLGSTRUCT","LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)]","_win32_discdlgstruct_str","winnetwk/DISCDLGSTRUCT","winnetwk/DISCDLGSTRUCTA","winnetwk/DISCDLGSTRUCTW","winnetwk/LPDISCDLGSTRUCT","wnet.discdlgstruct_str"]
+description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
+helpviewer_keywords: ["*LPDISCDLGSTRUCTW","DISCDLGSTRUCT","DISCDLGSTRUCT structure [Windows Networking (WNet)]","DISCDLGSTRUCTA","DISCDLGSTRUCTW","DISC_NO_FORCE","DISC_UPDATE_PROFILE","LPDISCDLGSTRUCT","LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)]","_win32_discdlgstruct_str","winnetwk/DISCDLGSTRUCT","winnetwk/DISCDLGSTRUCTA","winnetwk/DISCDLGSTRUCTW","winnetwk/LPDISCDLGSTRUCT","wnet.discdlgstruct_str"]
 old-location: wnet\discdlgstruct_str.htm
 tech.root: WNet
 ms.assetid: ae415815-f247-4217-a4f1-6a7ca9288890
@@ -149,4 +150,9 @@ This situation typically occurs when the user has files open over the connection
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winnetwk.h header defines DISCDLGSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

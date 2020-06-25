@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadAttribute
 title: WsReadAttribute function (webservices.h)
-description: Read an attribute producing a value of the specified WS_TYPE.helpviewer_keywords: ["WsReadAttribute","WsReadAttribute function [Web Services for Windows]","webservices/WsReadAttribute","wsw.wsreadattribute"]
+description: Read an attribute producing a value of the specified WS_TYPE.
+helpviewer_keywords: ["WsReadAttribute","WsReadAttribute function [Web Services for Windows]","webservices/WsReadAttribute","wsw.wsreadattribute"]
 old-location: wsw\wsreadattribute.htm
 tech.root: wsw
 ms.assetid: 2055182a-8aff-4db0-88f1-d344ca89e383

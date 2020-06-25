@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITCustomTone
 title: ITCustomTone (tapi3if.h)
-description: The ITCustomTone interface exposes methods that allow detailed control over the custom tones that are available with some phone sets.helpviewer_keywords: ["ITCustomTone","ITCustomTone interface [TAPI 2.2]","ITCustomTone interface [TAPI 2.2]","described","_tapi3_itcustomtone","tapi3.itcustomtone","tapi3if/ITCustomTone"]
+description: The ITCustomTone interface exposes methods that allow detailed control over the custom tones that are available with some phone sets.
+helpviewer_keywords: ["ITCustomTone","ITCustomTone interface [TAPI 2.2]","ITCustomTone interface [TAPI 2.2]","described","_tapi3_itcustomtone","tapi3.itcustomtone","tapi3if/ITCustomTone"]
 old-location: tapi3\itcustomtone.htm
 tech.root: Tapi
 ms.assetid: f2c51048-93aa-4469-b00e-911e62b5702d

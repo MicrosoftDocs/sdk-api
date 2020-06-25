@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIActivate
 title: IOleInPlaceSite::OnUIActivate (oleidl.h)
-description: Notifies the container that the object is about to be activated in place and that the object is going to replace the container's main menu with an in-place composite menu.helpviewer_keywords: ["IOleInPlaceSite interface [COM]","OnUIActivate method","IOleInPlaceSite.OnUIActivate","IOleInPlaceSite::OnUIActivate","OnUIActivate","OnUIActivate method [COM]","OnUIActivate method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_onuiactivate","com.ioleinplacesite_onuiactivate","oleidl/IOleInPlaceSite::OnUIActivate"]
+description: Notifies the container that the object is about to be activated in place and that the object is going to replace the container's main menu with an in-place composite menu.
+helpviewer_keywords: ["IOleInPlaceSite interface [COM]","OnUIActivate method","IOleInPlaceSite.OnUIActivate","IOleInPlaceSite::OnUIActivate","OnUIActivate","OnUIActivate method [COM]","OnUIActivate method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_onuiactivate","com.ioleinplacesite_onuiactivate","oleidl/IOleInPlaceSite::OnUIActivate"]
 old-location: com\ioleinplacesite_onuiactivate.htm
 tech.root: com
 ms.assetid: d863805c-58c1-4e35-84b5-72f01a4ba205

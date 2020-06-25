@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IFont.SetRatio
 title: IFont::SetRatio (ocidl.h)
-description: Converts the scaling factor for this font between logical units and HIMETRIC units.helpviewer_keywords: ["IFont interface [COM]","SetRatio method","IFont.SetRatio","IFont::SetRatio","SetRatio","SetRatio method [COM]","SetRatio method [COM]","IFont interface","_ctrl_ifont_setratio","com.ifont_setratio","ocidl/IFont::SetRatio"]
+description: Converts the scaling factor for this font between logical units and HIMETRIC units.
+helpviewer_keywords: ["IFont interface [COM]","SetRatio method","IFont.SetRatio","IFont::SetRatio","SetRatio","SetRatio method [COM]","SetRatio method [COM]","IFont interface","_ctrl_ifont_setratio","com.ifont_setratio","ocidl/IFont::SetRatio"]
 old-location: com\ifont_setratio.htm
 tech.root: com
 ms.assetid: aaa962d8-6f7f-4031-aa10-09cadf0e5aec

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_InkEnabled
 title: IInkPicture::get_InkEnabled (msinkaut.h)
-description: Gets or sets a value that specifies whether the InkPicture control collects pen input (in-air packets, cursor in range events, and so on).helpviewer_keywords: ["3af59de9-0239-47ab-b3b3-1f1baecb169f","IInkPicture interface [Tablet PC]","InkEnabled property","IInkPicture.InkEnabled","IInkPicture.get_InkEnabled","IInkPicture::InkEnabled","IInkPicture::get_InkEnabled","IInkPicture::put_InkEnabled","InkEnabled property [Tablet PC]","InkEnabled property [Tablet PC]","IInkPicture interface","InkPicture.get_InkEnabled","InkPicture.put_InkEnabled","get_InkEnabled","msinkaut/IInkPicture::InkEnabled","msinkaut/IInkPicture::get_InkEnabled","msinkaut/IInkPicture::put_InkEnabled","put_InkEnabled","tablet.inkpicture_inkenabled"]
+description: Gets or sets a value that specifies whether the InkPicture control collects pen input (in-air packets, cursor in range events, and so on).
+helpviewer_keywords: ["3af59de9-0239-47ab-b3b3-1f1baecb169f","IInkPicture interface [Tablet PC]","InkEnabled property","IInkPicture.InkEnabled","IInkPicture.get_InkEnabled","IInkPicture::InkEnabled","IInkPicture::get_InkEnabled","IInkPicture::put_InkEnabled","InkEnabled property [Tablet PC]","InkEnabled property [Tablet PC]","IInkPicture interface","InkPicture.get_InkEnabled","InkPicture.put_InkEnabled","get_InkEnabled","msinkaut/IInkPicture::InkEnabled","msinkaut/IInkPicture::get_InkEnabled","msinkaut/IInkPicture::put_InkEnabled","put_InkEnabled","tablet.inkpicture_inkenabled"]
 old-location: tablet\inkpicture_inkenabled.htm
 tech.root: tablet
 ms.assetid: 3af59de9-0239-47ab-b3b3-1f1baecb169f

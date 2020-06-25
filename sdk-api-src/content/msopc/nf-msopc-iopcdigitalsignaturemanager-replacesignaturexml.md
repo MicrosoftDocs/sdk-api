@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.ReplaceSignatureXml
 title: IOpcDigitalSignatureManager::ReplaceSignatureXml (msopc.h)
-description: Replaces the existing signature markup that is stored in a specified signature part.helpviewer_keywords: ["IOpcDigitalSignatureManager interface [Open Packaging Conventions]","ReplaceSignatureXml method","IOpcDigitalSignatureManager.ReplaceSignatureXml","IOpcDigitalSignatureManager::ReplaceSignatureXml","ReplaceSignatureXml","ReplaceSignatureXml method [Open Packaging Conventions]","ReplaceSignatureXml method [Open Packaging Conventions]","IOpcDigitalSignatureManager interface","msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml","opc.iopcdigitalsignaturemanager_replacesignaturexml"]
+description: Replaces the existing signature markup that is stored in a specified signature part.
+helpviewer_keywords: ["IOpcDigitalSignatureManager interface [Open Packaging Conventions]","ReplaceSignatureXml method","IOpcDigitalSignatureManager.ReplaceSignatureXml","IOpcDigitalSignatureManager::ReplaceSignatureXml","ReplaceSignatureXml","ReplaceSignatureXml method [Open Packaging Conventions]","ReplaceSignatureXml method [Open Packaging Conventions]","IOpcDigitalSignatureManager interface","msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml","opc.iopcdigitalsignaturemanager_replacesignaturexml"]
 old-location: opc\iopcdigitalsignaturemanager_replacesignaturexml.htm
 tech.root: OPC
 ms.assetid: cacd0ccf-0cb9-41dc-a944-74db8254fd95

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetDocString
 title: ICreateTypeLib::SetDocString (oaidl.h)
-description: Sets the documentation string associated with the library.helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetDocString method","ICreateTypeLib.SetDocString","ICreateTypeLib::SetDocString","SetDocString","SetDocString method [Automation]","SetDocString method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetDocString","automat.icreatetypelib_setdocstring","oaidl/ICreateTypeLib::SetDocString"]
+description: Sets the documentation string associated with the library.
+helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetDocString method","ICreateTypeLib.SetDocString","ICreateTypeLib::SetDocString","SetDocString","SetDocString method [Automation]","SetDocString method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetDocString","automat.icreatetypelib_setdocstring","oaidl/ICreateTypeLib::SetDocString"]
 old-location: automat\icreatetypelib_setdocstring.htm
 tech.root: automat
 ms.assetid: 5fe93ad2-f3c2-4559-a64a-cbbc17448e05

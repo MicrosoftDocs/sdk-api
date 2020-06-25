@@ -1,7 +1,8 @@
 ---
 UID: NC:cmnquery.LPCQPAGEPROC
 title: LPCQPAGEPROC (cmnquery.h)
-description: Called by the query dialog box to notify the query form extension of events that occur in a query page.helpviewer_keywords: ["CQPageProc","CQPageProc callback","CQPageProc callback function [Active Directory]","LPCQPAGEPROC","LPCQPAGEPROC callback function pointer [Active Directory]","ad.cqpageproc","cmnquery/CQPageProc"]
+description: Called by the query dialog box to notify the query form extension of events that occur in a query page.
+helpviewer_keywords: ["CQPageProc","CQPageProc callback","CQPageProc callback function [Active Directory]","LPCQPAGEPROC","LPCQPAGEPROC callback function pointer [Active Directory]","ad.cqpageproc","cmnquery/CQPageProc"]
 old-location: ad\cqpageproc.htm
 tech.root: ad
 ms.assetid: 11d40439-0877-4870-80f8-88026c448a32

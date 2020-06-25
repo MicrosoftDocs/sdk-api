@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetWnd
 title: ITextStoreACP::GetWnd (textstor.h)
-description: The ITextStoreACP::GetWnd method returns the handle to a window that corresponds to the current document.helpviewer_keywords: ["GetWnd","GetWnd method [Text Services Framework]","GetWnd method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetWnd method","ITextStoreACP.GetWnd","ITextStoreACP::GetWnd","_tsf_itextstoreacp_getwnd_ref","textstor/ITextStoreACP::GetWnd","tsf.itextstoreacp_getwnd"]
+description: The ITextStoreACP::GetWnd method returns the handle to a window that corresponds to the current document.
+helpviewer_keywords: ["GetWnd","GetWnd method [Text Services Framework]","GetWnd method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetWnd method","ITextStoreACP.GetWnd","ITextStoreACP::GetWnd","_tsf_itextstoreacp_getwnd_ref","textstor/ITextStoreACP::GetWnd","tsf.itextstoreacp_getwnd"]
 old-location: tsf\itextstoreacp_getwnd.htm
 tech.root: TSF
 ms.assetid: 7fb49702-4e0e-4e8c-9227-83c0b014f5f2

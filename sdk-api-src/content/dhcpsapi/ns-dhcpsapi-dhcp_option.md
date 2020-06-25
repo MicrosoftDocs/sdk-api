@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION
 title: DHCP_OPTION (dhcpsapi.h)
-description: The DHCP_OPTION structure defines a single DHCP option and any data elements associated with it.helpviewer_keywords: ["*LPDHCP_OPTION","DHCP_OPTION","DHCP_OPTION structure [DHCP]","LPDHCP_OPTION","LPDHCP_OPTION structure pointer [DHCP]","dhcp.dhcp_option","dhcpsapi/DHCP_OPTION","dhcpsapi/LPDHCP_OPTION"]
+description: The DHCP_OPTION structure defines a single DHCP option and any data elements associated with it.
+helpviewer_keywords: ["*LPDHCP_OPTION","DHCP_OPTION","DHCP_OPTION structure [DHCP]","LPDHCP_OPTION","LPDHCP_OPTION structure pointer [DHCP]","dhcp.dhcp_option","dhcpsapi/DHCP_OPTION","dhcpsapi/LPDHCP_OPTION"]
 old-location: dhcp\dhcp_option.htm
 tech.root: DHCP
 ms.assetid: 1be34eb4-a226-4f07-b763-173a4f8a0671

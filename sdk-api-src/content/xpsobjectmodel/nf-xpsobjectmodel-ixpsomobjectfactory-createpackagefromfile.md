@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromFile
 title: IXpsOMObjectFactory::CreatePackageFromFile (xpsobjectmodel.h)
-description: Opens an XPS package file and returns an instantiated XPS document object tree.helpviewer_keywords: ["CreatePackageFromFile","CreatePackageFromFile method [XPS Documents and Packaging]","CreatePackageFromFile method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageFromFile method","IXpsOMObjectFactory.CreatePackageFromFile","IXpsOMObjectFactory::CreatePackageFromFile","TRUE","xps.ixpsomobjectfactory_createpackagefromfile","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile"]
+description: Opens an XPS package file and returns an instantiated XPS document object tree.
+helpviewer_keywords: ["CreatePackageFromFile","CreatePackageFromFile method [XPS Documents and Packaging]","CreatePackageFromFile method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","FALSE","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePackageFromFile method","IXpsOMObjectFactory.CreatePackageFromFile","IXpsOMObjectFactory::CreatePackageFromFile","TRUE","xps.ixpsomobjectfactory_createpackagefromfile","xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile"]
 old-location: xps\ixpsomobjectfactory_createpackagefromfile.htm
 tech.root: printdocs
 ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d

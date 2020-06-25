@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.ConvertColorSpace
 title: ConvertColorSpace function (d2d1_1helper.h)
-description: Convert a D2D1_COLOR_F from one color space to another.helpviewer_keywords: ["ConvertColorSpace","ConvertColorSpace function [Direct2D]","d2d1_1helper/ConvertColorSpace","direct2d.convertcolorspace"]
+description: Convert a D2D1_COLOR_F from one color space to another.
+helpviewer_keywords: ["ConvertColorSpace","ConvertColorSpace function [Direct2D]","d2d1_1helper/ConvertColorSpace","direct2d.convertcolorspace"]
 old-location: direct2d\convertcolorspace.htm
 tech.root: Direct2D
 ms.assetid: 979E6FC2-52EB-4D58-B05C-523243F05B71

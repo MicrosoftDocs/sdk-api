@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_ViewOptions
 title: IShellFolderViewDual::get_ViewOptions (shldisp.h)
-description: Gets a set of flags that indicate the current options of the view.helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","get_ViewOptions method","IShellFolderViewDual.get_ViewOptions","IShellFolderViewDual::get_ViewOptions","_shell_IShellFolderViewDual_get_ViewOptions","get_ViewOptions","get_ViewOptions method [Windows Shell]","get_ViewOptions method [Windows Shell]","IShellFolderViewDual interface","shell.IShellFolderViewDual_get_ViewOptions","shldisp/IShellFolderViewDual::get_ViewOptions"]
+description: Gets a set of flags that indicate the current options of the view.
+helpviewer_keywords: ["IShellFolderViewDual interface [Windows Shell]","get_ViewOptions method","IShellFolderViewDual.get_ViewOptions","IShellFolderViewDual::get_ViewOptions","_shell_IShellFolderViewDual_get_ViewOptions","get_ViewOptions","get_ViewOptions method [Windows Shell]","get_ViewOptions method [Windows Shell]","IShellFolderViewDual interface","shell.IShellFolderViewDual_get_ViewOptions","shldisp/IShellFolderViewDual::get_ViewOptions"]
 old-location: shell\IShellFolderViewDual_get_ViewOptions.htm
 tech.root: shell
 ms.assetid: 1ef3a163-bc38-40b2-aa3e-dcd36f87964f

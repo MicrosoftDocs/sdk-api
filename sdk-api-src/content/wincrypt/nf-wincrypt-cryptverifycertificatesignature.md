@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptVerifyCertificateSignature
 title: CryptVerifyCertificateSignature function (wincrypt.h)
-description: Verifies the signature of a certificate, certificate revocation list (CRL), or certificate request by using the public key in a CERT_PUBLIC_KEY_INFO structure.helpviewer_keywords: ["CryptVerifyCertificateSignature","CryptVerifyCertificateSignature function [Security]","X509_ASN_ENCODING","_crypto2_cryptverifycertificatesignature","security.cryptverifycertificatesignature","wincrypt/CryptVerifyCertificateSignature"]
+description: Verifies the signature of a certificate, certificate revocation list (CRL), or certificate request by using the public key in a CERT_PUBLIC_KEY_INFO structure.
+helpviewer_keywords: ["CryptVerifyCertificateSignature","CryptVerifyCertificateSignature function [Security]","X509_ASN_ENCODING","_crypto2_cryptverifycertificatesignature","security.cryptverifycertificatesignature","wincrypt/CryptVerifyCertificateSignature"]
 old-location: security\cryptverifycertificatesignature.htm
 tech.root: SecCrypto
 ms.assetid: ac13a1dd-3ca9-470e-8d8f-d79d7d057f45

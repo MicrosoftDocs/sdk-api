@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarTokenizeFormatString
 title: VarTokenizeFormatString function (oleauto.h)
-description: Parses the actual format string into a series of tokens which can be used to format variants using VarFormatFromTokens.helpviewer_keywords: ["VarTokenizeFormatString","VarTokenizeFormatString function [Automation]","_oa96_VarTokenizeFormatString","automat.vartokenizeformatstring","oleauto/VarTokenizeFormatString"]
+description: Parses the actual format string into a series of tokens which can be used to format variants using VarFormatFromTokens.
+helpviewer_keywords: ["VarTokenizeFormatString","VarTokenizeFormatString function [Automation]","_oa96_VarTokenizeFormatString","automat.vartokenizeformatstring","oleauto/VarTokenizeFormatString"]
 old-location: automat\vartokenizeformatstring.htm
 tech.root: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536

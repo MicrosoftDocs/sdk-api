@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get__NewEnum
 title: IRDPSRAPIInvitationManager::get__NewEnum (rdpencomapi.h)
-description: An enumerator interface for the invitation collection.helpviewer_keywords: ["IRDPSRAPIInvitationManager interface [RDP]","_NewEnum property","IRDPSRAPIInvitationManager._NewEnum","IRDPSRAPIInvitationManager.get__NewEnum","IRDPSRAPIInvitationManager::_NewEnum","IRDPSRAPIInvitationManager::get__NewEnum","RDPSRAPIInvitationManager object [RDP]","_NewEnum property","_NewEnum property [RDP]","_NewEnum property [RDP]","IRDPSRAPIInvitationManager interface","_NewEnum property [RDP]","RDPSRAPIInvitationManager object","get__NewEnum","rdp.irdpsrapiinvitationmanager__newenum","rdpencomapi/IRDPSRAPIInvitationManager::_NewEnum","rdpencomapi/IRDPSRAPIInvitationManager::get__NewEnum"]
+description: An enumerator interface for the invitation collection.
+helpviewer_keywords: ["IRDPSRAPIInvitationManager interface [RDP]","_NewEnum property","IRDPSRAPIInvitationManager._NewEnum","IRDPSRAPIInvitationManager.get__NewEnum","IRDPSRAPIInvitationManager::_NewEnum","IRDPSRAPIInvitationManager::get__NewEnum","RDPSRAPIInvitationManager object [RDP]","_NewEnum property","_NewEnum property [RDP]","_NewEnum property [RDP]","IRDPSRAPIInvitationManager interface","_NewEnum property [RDP]","RDPSRAPIInvitationManager object","get__NewEnum","rdp.irdpsrapiinvitationmanager__newenum","rdpencomapi/IRDPSRAPIInvitationManager::_NewEnum","rdpencomapi/IRDPSRAPIInvitationManager::get__NewEnum"]
 old-location: rdp\irdpsrapiinvitationmanager__newenum.htm
 tech.root: rdp
 ms.assetid: e1959226-04a0-4eae-9abb-b82cdd545975

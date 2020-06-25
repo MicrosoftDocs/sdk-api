@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IIdentityName
 title: IIdentityName (shobjidl_core.h)
-description: Exposes methods to compare two items to see if they are the same.helpviewer_keywords: ["IIdentityName","IIdentityName interface [Windows Shell]","IIdentityName interface [Windows Shell]","described","_shell_IIdentityName","shell.IIdentityName","shobjidl_core/IIdentityName"]
+description: Exposes methods to compare two items to see if they are the same.
+helpviewer_keywords: ["IIdentityName","IIdentityName interface [Windows Shell]","IIdentityName interface [Windows Shell]","described","_shell_IIdentityName","shell.IIdentityName","shobjidl_core/IIdentityName"]
 old-location: shell\IIdentityName.htm
 tech.root: shell
 ms.assetid: 9e75141d-b54a-4fe8-9209-40aa7f484d24

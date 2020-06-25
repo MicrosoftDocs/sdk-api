@@ -1,7 +1,8 @@
 ---
 UID: NS:rtmv2._RTM_REGN_PROFILE
 title: RTM_REGN_PROFILE (rtmv2.h)
-description: The RTM_REGN_PROFILE structure contains information returned during the registration process. The information is used for later function calls (such as the maximum number of routes that can be returned by a call to RtmGetEnumRoutes).helpviewer_keywords: ["*PRTM_REGN_PROFILE","PRTM_REGN_PROFILE","PRTM_REGN_PROFILE structure pointer [RAS]","RTM_REGN_PROFILE","RTM_REGN_PROFILE structure [RAS]","_rtmv2ref_rtm_regn_profile","rras.rtm_regn_profile","rtmv2/PRTM_REGN_PROFILE","rtmv2/RTM_REGN_PROFILE"]
+description: The RTM_REGN_PROFILE structure contains information returned during the registration process. The information is used for later function calls (such as the maximum number of routes that can be returned by a call to RtmGetEnumRoutes).
+helpviewer_keywords: ["*PRTM_REGN_PROFILE","PRTM_REGN_PROFILE","PRTM_REGN_PROFILE structure pointer [RAS]","RTM_REGN_PROFILE","RTM_REGN_PROFILE structure [RAS]","_rtmv2ref_rtm_regn_profile","rras.rtm_regn_profile","rtmv2/PRTM_REGN_PROFILE","rtmv2/RTM_REGN_PROFILE"]
 old-location: rras\rtm_regn_profile.htm
 tech.root: RRAS
 ms.assetid: 26644a09-8d49-4c9f-a7cd-5edbf93e83d0

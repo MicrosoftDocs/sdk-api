@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11_2.D3D11_PACKED_MIP_DESC
 title: D3D11_PACKED_MIP_DESC (d3d11_2.h)
-description: Describes the tile structure of a tiled resource with mipmaps.helpviewer_keywords: ["D3D11_PACKED_MIP_DESC","D3D11_PACKED_MIP_DESC structure [Direct3D 11]","d3d11_2/D3D11_PACKED_MIP_DESC","direct3d11.d3d11_packed_mip_desc"]
+description: Describes the tile structure of a tiled resource with mipmaps.
+helpviewer_keywords: ["D3D11_PACKED_MIP_DESC","D3D11_PACKED_MIP_DESC structure [Direct3D 11]","d3d11_2/D3D11_PACKED_MIP_DESC","direct3d11.d3d11_packed_mip_desc"]
 old-location: direct3d11\d3d11_packed_mip_desc.htm
 tech.root: direct3d11
 ms.assetid: 1c200c44-6cd6-4e77-8187-54cd6cd79c84

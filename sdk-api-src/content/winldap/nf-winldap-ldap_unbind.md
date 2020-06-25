@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_unbind
 title: ldap_unbind function (winldap.h)
-description: The ldap_unbind function frees resources associated with an LDAP session.helpviewer_keywords: ["_ldap_ldap_unbind","ldap.ldap__unbind","ldap.ldap_unbind","ldap_unbind","ldap_unbind function [LDAP]","winldap/ldap_unbind"]
+description: The ldap_unbind function frees resources associated with an LDAP session.
+helpviewer_keywords: ["_ldap_ldap_unbind","ldap.ldap__unbind","ldap.ldap_unbind","ldap_unbind","ldap_unbind function [LDAP]","winldap/ldap_unbind"]
 old-location: ldap\ldap_unbind.htm
 tech.root: ldap
 ms.assetid: 5d8b3198-3935-4305-b0f1-eaf1a9355cf3

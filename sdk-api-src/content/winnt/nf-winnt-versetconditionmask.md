@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.VerSetConditionMask
 title: VerSetConditionMask function (winnt.h)
-description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.helpviewer_keywords: ["VER_AND","VER_BUILDNUMBER","VER_EQUAL","VER_GREATER","VER_GREATER_EQUAL","VER_LESS","VER_LESS_EQUAL","VER_MAJORVERSION","VER_MINORVERSION","VER_OR","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SUITENAME","VerSetConditionMask","VerSetConditionMask function","_win32_versetconditionmask","base.versetconditionmask","winnt/VerSetConditionMask"]
+description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.
+helpviewer_keywords: ["VER_AND","VER_BUILDNUMBER","VER_EQUAL","VER_GREATER","VER_GREATER_EQUAL","VER_LESS","VER_LESS_EQUAL","VER_MAJORVERSION","VER_MINORVERSION","VER_OR","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SUITENAME","VerSetConditionMask","VerSetConditionMask function","_win32_versetconditionmask","base.versetconditionmask","winnt/VerSetConditionMask"]
 old-location: base\versetconditionmask.htm
 tech.root: SysInfo
 ms.assetid: 5ee18447-e55f-4d79-9d21-be7a619ea647

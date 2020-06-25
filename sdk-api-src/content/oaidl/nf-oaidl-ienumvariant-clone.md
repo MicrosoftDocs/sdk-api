@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Clone
 title: IEnumVARIANT::Clone (oaidl.h)
-description: Creates a copy of the current state of enumeration.helpviewer_keywords: ["Clone","Clone method [Automation]","Clone method [Automation]","IEnumVARIANT interface","IEnumVARIANT interface [Automation]","Clone method","IEnumVARIANT.Clone","IEnumVARIANT::Clone","_oa96_IEnumVARIANT::Clone","automat.ienumvariant_clone","oaidl/IEnumVARIANT::Clone"]
+description: Creates a copy of the current state of enumeration.
+helpviewer_keywords: ["Clone","Clone method [Automation]","Clone method [Automation]","IEnumVARIANT interface","IEnumVARIANT interface [Automation]","Clone method","IEnumVARIANT.Clone","IEnumVARIANT::Clone","_oa96_IEnumVARIANT::Clone","automat.ienumvariant_clone","oaidl/IEnumVARIANT::Clone"]
 old-location: automat\ienumvariant_clone.htm
 tech.root: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc

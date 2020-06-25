@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValue(U,BYTE,UINT32)
 title: ID2D1Properties::GetValue(U,BYTE,UINT32,) (d2d1_1.h)
-description: Gets the value of the specified property by index. This is a template overload. See Remarks.helpviewer_keywords: ["GetValue","GetValue method [Direct2D]","GetValue method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValue method","ID2D1Properties.GetValue","ID2D1Properties.GetValue(U","BYTE","UINT32",")","ID2D1Properties::GetValue","ID2D1Properties::GetValue(U","BYTE*","UINT32)","ID2D1Properties::GetValue(U","BYTE","UINT32",")","d2d1_1/ID2D1Properties::GetValue","direct2d.id2d1properties_getvalue3"]
+description: Gets the value of the specified property by index. This is a template overload. See Remarks.
+helpviewer_keywords: ["GetValue","GetValue method [Direct2D]","GetValue method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValue method","ID2D1Properties.GetValue","ID2D1Properties.GetValue(U","BYTE","UINT32",")","ID2D1Properties::GetValue","ID2D1Properties::GetValue(U","BYTE*","UINT32)","ID2D1Properties::GetValue(U","BYTE","UINT32",")","d2d1_1/ID2D1Properties::GetValue","direct2d.id2d1properties_getvalue3"]
 old-location: direct2d\id2d1properties_getvalue3.htm
 tech.root: Direct2D
 ms.assetid: 3BCCE3B2-E772-467B-AD7E-7E2B9258EAA1

@@ -1,7 +1,8 @@
 ---
 UID: NE:subscriptionservices.WMPSubscriptionServiceEvent
 title: WMPSubscriptionServiceEvent (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["WMPSubscriptionServiceEvent","WMPSubscriptionServiceEvent enumeration [Windows Media Player]","enumeration [Windows Media Player]","subscriptionservices/WMPSubscriptionServiceEvent","subscriptionservices/wmpsseCurrentBegin","subscriptionservices/wmpsseCurrentEnd","subscriptionservices/wmpsseFullBegin","subscriptionservices/wmpsseFullEnd","wmp.wmpsubscriptionserviceevent","wmpsseCurrentBegin","wmpsseCurrentEnd","wmpsseFullBegin","wmpsseFullEnd"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["WMPSubscriptionServiceEvent","WMPSubscriptionServiceEvent enumeration [Windows Media Player]","enumeration [Windows Media Player]","subscriptionservices/WMPSubscriptionServiceEvent","subscriptionservices/wmpsseCurrentBegin","subscriptionservices/wmpsseCurrentEnd","subscriptionservices/wmpsseFullBegin","subscriptionservices/wmpsseFullEnd","wmp.wmpsubscriptionserviceevent","wmpsseCurrentBegin","wmpsseCurrentEnd","wmpsseFullBegin","wmpsseFullEnd"]
 old-location: wmp\wmpsubscriptionserviceevent.htm
 tech.root: WMP
 ms.assetid: 9d04e534-083b-4227-82aa-4f7e50a492df

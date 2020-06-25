@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemReconnected
 title: IOfflineFilesEvents::ItemReconnected (cscobj.h)
-description: Reports that an item in the Offline Files cache has transitioned from offline to online.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemReconnected method","IOfflineFilesEvents.ItemReconnected","IOfflineFilesEvents::ItemReconnected","ItemReconnected","ItemReconnected method [Offline Files]","ItemReconnected method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemReconnected","of.iofflinefilesevents_itemreconnected"]
+description: Reports that an item in the Offline Files cache has transitioned from offline to online.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemReconnected method","IOfflineFilesEvents.ItemReconnected","IOfflineFilesEvents::ItemReconnected","ItemReconnected","ItemReconnected method [Offline Files]","ItemReconnected method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemReconnected","of.iofflinefilesevents_itemreconnected"]
 old-location: of\iofflinefilesevents_itemreconnected.htm
 tech.root: offlinefiles
 ms.assetid: beafae9d-3ef8-401f-8ab6-79d2ae3366a4

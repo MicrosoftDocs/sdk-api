@@ -1,7 +1,8 @@
 ---
 UID: NS:usp10.opentype_feature_record
 title: OPENTYPE_FEATURE_RECORD (usp10.h)
-description: Contains information about a single OpenType feature to apply to a run.helpviewer_keywords: ["OPENTYPE_FEATURE_RECORD","OPENTYPE_FEATURE_RECORD structure [Internationalization for Windows Applications]","_win32_OPENTYPE_FEATURE_RECORD","intl.opentype_feature_record","usp10/OPENTYPE_FEATURE_RECORD"]
+description: Contains information about a single OpenType feature to apply to a run.
+helpviewer_keywords: ["OPENTYPE_FEATURE_RECORD","OPENTYPE_FEATURE_RECORD structure [Internationalization for Windows Applications]","_win32_OPENTYPE_FEATURE_RECORD","intl.opentype_feature_record","usp10/OPENTYPE_FEATURE_RECORD"]
 old-location: intl\opentype_feature_record.htm
 tech.root: Intl
 ms.assetid: 3f4d76f7-fd50-4a38-973b-329e477e5960

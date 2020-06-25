@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureDriverString
 title: Graphics::MeasureDriverString (gdiplusgraphics.h)
-description: The Graphics::MeasureDriverString method measures the bounding box for the specified characters and their corresponding positions.helpviewer_keywords: ["Graphics class [GDI+]","MeasureDriverString method","Graphics.MeasureDriverString","Graphics::MeasureDriverString","MeasureDriverString","MeasureDriverString method [GDI+]","MeasureDriverString method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_","gdiplus._gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_"]
+description: The Graphics::MeasureDriverString method measures the bounding box for the specified characters and their corresponding positions.
+helpviewer_keywords: ["Graphics class [GDI+]","MeasureDriverString method","Graphics.MeasureDriverString","Graphics::MeasureDriverString","MeasureDriverString","MeasureDriverString method [GDI+]","MeasureDriverString method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_","gdiplus._gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measuredriverstring.htm

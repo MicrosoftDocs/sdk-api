@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IAudioMute.GetMute
 title: IAudioMute::GetMute (devicetopology.h)
-description: The GetMute method gets the current state (enabled or disabled) of the mute control.helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","IAudioMute interface","IAudioMute interface [Core Audio]","GetMute method","IAudioMute.GetMute","IAudioMute::GetMute","IAudioMuteGetMute","coreaudio.iaudiomute_getmute","devicetopology/IAudioMute::GetMute"]
+description: The GetMute method gets the current state (enabled or disabled) of the mute control.
+helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","IAudioMute interface","IAudioMute interface [Core Audio]","GetMute method","IAudioMute.GetMute","IAudioMute::GetMute","IAudioMuteGetMute","coreaudio.iaudiomute_getmute","devicetopology/IAudioMute::GetMute"]
 old-location: coreaudio\iaudiomute_getmute.htm
 tech.root: CoreAudio
 ms.assetid: 4b6421d3-f238-46f6-a74a-085a63bf5441

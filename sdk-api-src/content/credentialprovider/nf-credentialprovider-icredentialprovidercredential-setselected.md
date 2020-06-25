@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetSelected
 title: ICredentialProviderCredential::SetSelected (credentialprovider.h)
-description: Called when a credential is selected. Enables the implementer to set logon characteristics.helpviewer_keywords: ["ICredentialProviderCredential interface [Windows Shell]","SetSelected method","ICredentialProviderCredential.SetSelected","ICredentialProviderCredential::SetSelected","SetSelected","SetSelected method [Windows Shell]","SetSelected method [Windows Shell]","ICredentialProviderCredential interface","_shell_ICredentialProviderCredential_SetSelected","credentialprovider/ICredentialProviderCredential::SetSelected","shell.ICredentialProviderCredential_SetSelected"]
+description: Called when a credential is selected. Enables the implementer to set logon characteristics.
+helpviewer_keywords: ["ICredentialProviderCredential interface [Windows Shell]","SetSelected method","ICredentialProviderCredential.SetSelected","ICredentialProviderCredential::SetSelected","SetSelected","SetSelected method [Windows Shell]","SetSelected method [Windows Shell]","ICredentialProviderCredential interface","_shell_ICredentialProviderCredential_SetSelected","credentialprovider/ICredentialProviderCredential::SetSelected","shell.ICredentialProviderCredential_SetSelected"]
 old-location: shell\ICredentialProviderCredential_SetSelected.htm
 tech.root: shell
 ms.assetid: 06a0482c-100c-445f-9a77-279d85492f42

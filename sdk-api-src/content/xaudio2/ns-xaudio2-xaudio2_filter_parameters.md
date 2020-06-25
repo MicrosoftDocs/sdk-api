@@ -1,7 +1,8 @@
 ---
 UID: NS:xaudio2.XAUDIO2_FILTER_PARAMETERS
 title: XAUDIO2_FILTER_PARAMETERS (xaudio2.h)
-description: Defines filter parameters for a source voice.helpviewer_keywords: ["XAUDIO2_FILTER_PARAMETERS","XAUDIO2_FILTER_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_filter_parameters","xaudio2/XAUDIO2_FILTER_PARAMETERS"]
+description: Defines filter parameters for a source voice.
+helpviewer_keywords: ["XAUDIO2_FILTER_PARAMETERS","XAUDIO2_FILTER_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_filter_parameters","xaudio2/XAUDIO2_FILTER_PARAMETERS"]
 old-location: xaudio2\xaudio2_filter_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_PARAMETERS

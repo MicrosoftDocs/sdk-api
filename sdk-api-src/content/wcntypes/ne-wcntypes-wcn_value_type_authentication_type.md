@@ -1,7 +1,8 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_AUTHENTICATION_TYPE
 title: WCN_VALUE_TYPE_AUTHENTICATION_TYPE (wcntypes.h)
-description: WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration defines the authentication types supported by the Enrollee (access point or station).helpviewer_keywords: ["WCN_VALUE_AT_OPEN","WCN_VALUE_AT_SHARED","WCN_VALUE_AT_WPA","WCN_VALUE_AT_WPA2","WCN_VALUE_AT_WPA2PSK","WCN_VALUE_AT_WPAPSK","WCN_VALUE_AT_WPAWPA2PSK_MIXED","WCN_VALUE_TYPE_AUTHENTICATION_TYPE","WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration [Windows Connect Now]","wcn.wcn_value_type_authentication_type","wcntypes/WCN_VALUE_AT_OPEN","wcntypes/WCN_VALUE_AT_SHARED","wcntypes/WCN_VALUE_AT_WPA","wcntypes/WCN_VALUE_AT_WPA2","wcntypes/WCN_VALUE_AT_WPA2PSK","wcntypes/WCN_VALUE_AT_WPAPSK","wcntypes/WCN_VALUE_AT_WPAWPA2PSK_MIXED","wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE"]
+description: WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration defines the authentication types supported by the Enrollee (access point or station).
+helpviewer_keywords: ["WCN_VALUE_AT_OPEN","WCN_VALUE_AT_SHARED","WCN_VALUE_AT_WPA","WCN_VALUE_AT_WPA2","WCN_VALUE_AT_WPA2PSK","WCN_VALUE_AT_WPAPSK","WCN_VALUE_AT_WPAWPA2PSK_MIXED","WCN_VALUE_TYPE_AUTHENTICATION_TYPE","WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration [Windows Connect Now]","wcn.wcn_value_type_authentication_type","wcntypes/WCN_VALUE_AT_OPEN","wcntypes/WCN_VALUE_AT_SHARED","wcntypes/WCN_VALUE_AT_WPA","wcntypes/WCN_VALUE_AT_WPA2","wcntypes/WCN_VALUE_AT_WPA2PSK","wcntypes/WCN_VALUE_AT_WPAPSK","wcntypes/WCN_VALUE_AT_WPAWPA2PSK_MIXED","wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE"]
 old-location: wcn\wcn_value_type_authentication_type.htm
 tech.root: wcn
 ms.assetid: fb69c89e-ab4b-4382-9bab-889552136da4

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPaint
 title: ID2D1SvgPaint (d2d1svg.h)
-description: Interface describing an SVG fill or stroke value.helpviewer_keywords: ["ID2D1SvgPaint","ID2D1SvgPaint interface [Direct2D]","ID2D1SvgPaint interface [Direct2D]","described","d2d1svg/ID2D1SvgPaint","direct2d.id2d1svgpaint"]
+description: Interface describing an SVG fill or stroke value.
+helpviewer_keywords: ["ID2D1SvgPaint","ID2D1SvgPaint interface [Direct2D]","ID2D1SvgPaint interface [Direct2D]","described","d2d1svg/ID2D1SvgPaint","direct2d.id2d1svgpaint"]
 old-location: direct2d\id2d1svgpaint.htm
 tech.root: Direct2D
 ms.assetid: 80FE02F1-D83B-4AA1-94F1-B754106CB19D

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetTitleBarInfo
 title: GetTitleBarInfo function (winuser.h)
-description: Retrieves information about the specified title bar.helpviewer_keywords: ["GetTitleBarInfo","GetTitleBarInfo function [Windows and Messages]","_win32_GetTitleBarInfo","_win32_gettitlebarinfo_cpp","winmsg.gettitlebarinfo","winui._win32_gettitlebarinfo","winuser/GetTitleBarInfo"]
+description: Retrieves information about the specified title bar.
+helpviewer_keywords: ["GetTitleBarInfo","GetTitleBarInfo function [Windows and Messages]","_win32_GetTitleBarInfo","_win32_gettitlebarinfo_cpp","winmsg.gettitlebarinfo","winui._win32_gettitlebarinfo","winuser/GetTitleBarInfo"]
 old-location: winmsg\gettitlebarinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\gettitlebarinfo.htm

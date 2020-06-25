@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetBookmark
 title: MI_SubscriptionDeliveryOptions_GetBookmark function (mi.h)
-description: Gets a previously set subscription bookmark.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetBookmark","MI_SubscriptionDeliveryOptions_GetBookmark function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetBookmark","wmi_v2.mi_subscriptiondeliveryoptions_getbookmark"]
+description: Gets a previously set subscription bookmark.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetBookmark","MI_SubscriptionDeliveryOptions_GetBookmark function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetBookmark","wmi_v2.mi_subscriptiondeliveryoptions_getbookmark"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getbookmark.htm
 tech.root: wmi_v2
 ms.assetid: f3c8721f-2aa0-40ca-ac51-3db03f9c5c30

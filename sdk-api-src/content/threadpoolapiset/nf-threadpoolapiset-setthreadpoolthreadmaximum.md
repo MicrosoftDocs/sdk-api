@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolThreadMaximum
 title: SetThreadpoolThreadMaximum function (threadpoolapiset.h)
-description: Sets the maximum number of threads that the specified thread pool can allocate to process callbacks.helpviewer_keywords: ["SetThreadpoolThreadMaximum","SetThreadpoolThreadMaximum function","base.setthreadpoolthreadmaximum","threadpoolapiset/SetThreadpoolThreadMaximum"]
+description: Sets the maximum number of threads that the specified thread pool can allocate to process callbacks.
+helpviewer_keywords: ["SetThreadpoolThreadMaximum","SetThreadpoolThreadMaximum function","base.setthreadpoolthreadmaximum","threadpoolapiset/SetThreadpoolThreadMaximum"]
 old-location: base\setthreadpoolthreadmaximum.htm
 tech.root: ProcThread
 ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822

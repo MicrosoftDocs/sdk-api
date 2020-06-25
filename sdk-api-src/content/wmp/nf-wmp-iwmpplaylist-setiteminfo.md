@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlaylist.setItemInfo
 title: IWMPPlaylist::setItemInfo (wmp.h)
-description: The setItemInfo method specifies the value of an attribute of the current playlist. .helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","setItemInfo method","IWMPPlaylist.setItemInfo","IWMPPlaylist::setItemInfo","IWMPPlaylistsetItemInfo","setItemInfo","setItemInfo method [Windows Media Player]","setItemInfo method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_setiteminfo","wmp/IWMPPlaylist::setItemInfo"]
+description: The setItemInfo method specifies the value of an attribute of the current playlist. .
+helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","setItemInfo method","IWMPPlaylist.setItemInfo","IWMPPlaylist::setItemInfo","IWMPPlaylistsetItemInfo","setItemInfo","setItemInfo method [Windows Media Player]","setItemInfo method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_setiteminfo","wmp/IWMPPlaylist::setItemInfo"]
 old-location: wmp\iwmpplaylist_setiteminfo.htm
 tech.root: WMP
 ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259

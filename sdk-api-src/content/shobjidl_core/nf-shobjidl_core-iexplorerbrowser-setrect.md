@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetRect
 title: IExplorerBrowser::SetRect (shobjidl_core.h)
-description: Sets the size and position of the view windows created by the browser.helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","SetRect method","IExplorerBrowser.SetRect","IExplorerBrowser::SetRect","SetRect","SetRect method [Windows Shell]","SetRect method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_SetRect","shell.IExplorerBrowser_SetRect","shobjidl_core/IExplorerBrowser::SetRect"]
+description: Sets the size and position of the view windows created by the browser.
+helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","SetRect method","IExplorerBrowser.SetRect","IExplorerBrowser::SetRect","SetRect","SetRect method [Windows Shell]","SetRect method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_SetRect","shell.IExplorerBrowser_SetRect","shobjidl_core/IExplorerBrowser::SetRect"]
 old-location: shell\IExplorerBrowser_SetRect.htm
 tech.root: shell
 ms.assetid: 392052ea-1053-4f55-96aa-2d64b0ee0390

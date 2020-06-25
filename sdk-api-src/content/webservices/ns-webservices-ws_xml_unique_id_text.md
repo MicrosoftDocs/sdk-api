@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_UNIQUE_ID_TEXT
 title: WS_XML_UNIQUE_ID_TEXT (webservices.h)
-description: Represents a GUID formatted as the text &#0034;urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&#0034;.helpviewer_keywords: ["WS_XML_UNIQUE_ID_TEXT","WS_XML_UNIQUE_ID_TEXT structure [Web Services for Windows]","webservices/WS_XML_UNIQUE_ID_TEXT","wsw.ws_xml_unique_id_text"]
+description: Represents a GUID formatted as the text &#0034;urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&#0034;.
+helpviewer_keywords: ["WS_XML_UNIQUE_ID_TEXT","WS_XML_UNIQUE_ID_TEXT structure [Web Services for Windows]","webservices/WS_XML_UNIQUE_ID_TEXT","wsw.ws_xml_unique_id_text"]
 old-location: wsw\ws_xml_unique_id_text.htm
 tech.root: wsw
 ms.assetid: 4703fcb7-af03-4855-97c4-aac33e75ad4f

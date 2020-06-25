@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetTextExtentExPointA
 title: GetTextExtentExPointA function (wingdi.h)
-description: The GetTextExtentExPoint function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.helpviewer_keywords: ["GetTextExtentExPoint","GetTextExtentExPoint function [Windows GDI]","GetTextExtentExPointA","GetTextExtentExPointW","_win32_GetTextExtentExPoint","gdi.gettextextentexpoint","wingdi/GetTextExtentExPoint","wingdi/GetTextExtentExPointA","wingdi/GetTextExtentExPointW"]
+description: The GetTextExtentExPoint function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.
+helpviewer_keywords: ["GetTextExtentExPoint","GetTextExtentExPoint function [Windows GDI]","GetTextExtentExPointA","GetTextExtentExPointW","_win32_GetTextExtentExPoint","gdi.gettextextentexpoint","wingdi/GetTextExtentExPoint","wingdi/GetTextExtentExPointA","wingdi/GetTextExtentExPointW"]
 old-location: gdi\gettextextentexpoint.htm
 tech.root: gdi
 ms.assetid: b873a059-5aa3-47d0-b109-7acd542c7d79
@@ -128,6 +129,10 @@ This function returns the extent of each successive character in a string. When 
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GetTextExtentExPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

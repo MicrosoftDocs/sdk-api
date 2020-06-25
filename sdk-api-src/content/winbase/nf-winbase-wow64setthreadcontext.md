@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.Wow64SetThreadContext
 title: Wow64SetThreadContext function (winbase.h)
-description: Sets the context of the specified WOW64 thread.helpviewer_keywords: ["Wow64SetThreadContext","Wow64SetThreadContext function","base.wow64setthreadcontext","winbase/Wow64SetThreadContext"]
+description: Sets the context of the specified WOW64 thread.
+helpviewer_keywords: ["Wow64SetThreadContext","Wow64SetThreadContext function","base.wow64setthreadcontext","winbase/Wow64SetThreadContext"]
 old-location: base\wow64setthreadcontext.htm
 tech.root: Debug
 ms.assetid: 4119c945-b654-4634-a88b-e41bc762018a

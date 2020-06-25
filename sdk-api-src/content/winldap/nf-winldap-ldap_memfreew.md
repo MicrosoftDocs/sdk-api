@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_memfreeW
 title: ldap_memfreeW function (winldap.h)
-description: Frees memory allocated from the LDAP heap.helpviewer_keywords: ["_ldap_ldap_memfree","ldap.ldap__memfree","ldap.ldap_memfree","ldap_memfree","ldap_memfree function [LDAP]","ldap_memfreeA","ldap_memfreeW","winldap/ldap_memfree","winldap/ldap_memfreeA","winldap/ldap_memfreeW"]
+description: Frees memory allocated from the LDAP heap.
+helpviewer_keywords: ["_ldap_ldap_memfree","ldap.ldap__memfree","ldap.ldap_memfree","ldap_memfree","ldap_memfree function [LDAP]","ldap_memfreeA","ldap_memfreeW","winldap/ldap_memfree","winldap/ldap_memfreeA","winldap/ldap_memfreeW"]
 old-location: ldap\ldap_memfree.htm
 tech.root: ldap
 ms.assetid: 3256a202-4245-4bea-a66c-0f28bfe2ef7e
@@ -84,6 +85,10 @@ Call <b>ldap_memfree</b> to free strings, such as the attribute names returned b
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_memfree as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

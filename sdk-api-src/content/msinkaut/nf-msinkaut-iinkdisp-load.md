@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkDisp.Load
 title: IInkDisp::Load (msinkaut.h)
-description: Populates a new InkDisp object with known binary data.helpviewer_keywords: ["2e71e434-b055-4e45-b8fd-f9c1ac84d308","IInkDisp interface [Tablet PC]","Load method","IInkDisp.Load","IInkDisp::Load","Load","Load method [Tablet PC]","Load method [Tablet PC]","IInkDisp interface","msinkaut/IInkDisp::Load","tablet.inkdisp_load"]
+description: Populates a new InkDisp object with known binary data.
+helpviewer_keywords: ["2e71e434-b055-4e45-b8fd-f9c1ac84d308","IInkDisp interface [Tablet PC]","Load method","IInkDisp.Load","IInkDisp::Load","Load","Load method [Tablet PC]","Load method [Tablet PC]","IInkDisp interface","msinkaut/IInkDisp::Load","tablet.inkdisp_load"]
 old-location: tablet\inkdisp_load.htm
 tech.root: tablet
 ms.assetid: 2e71e434-b055-4e45-b8fd-f9c1ac84d308

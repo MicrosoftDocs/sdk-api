@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CloseTable
 title: ISimilarityTraitsTable::CloseTable (msrdc.h)
-description: Closes a similarity traits table.helpviewer_keywords: ["CloseTable","CloseTable method [Remote Differential Compression]","CloseTable method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CloseTable method","ISimilarityTraitsTable.CloseTable","ISimilarityTraitsTable::CloseTable","fs.isimilaritytraitstable_closetable","msrdc/ISimilarityTraitsTable::CloseTable","rdc.isimilaritytraitstable_closetable"]
+description: Closes a similarity traits table.
+helpviewer_keywords: ["CloseTable","CloseTable method [Remote Differential Compression]","CloseTable method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CloseTable method","ISimilarityTraitsTable.CloseTable","ISimilarityTraitsTable::CloseTable","fs.isimilaritytraitstable_closetable","msrdc/ISimilarityTraitsTable::CloseTable","rdc.isimilaritytraitstable_closetable"]
 old-location: rdc\isimilaritytraitstable_closetable.htm
 tech.root: rdc
 ms.assetid: 941f1e81-035d-4935-bcdf-8c9c6ad9ed4d

@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsInstalled
 title: IUpdate::get_IsInstalled (wuapi.h)
-description: Gets a Boolean value that indicates whether the update is installed on a computer when the search is performed.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","IsInstalled property","IUpdate.IsInstalled","IUpdate.get_IsInstalled","IUpdate::IsInstalled","IUpdate::get_IsInstalled","IsInstalled property [Windows Update Agent]","IsInstalled property [Windows Update Agent]","IUpdate interface","get_IsInstalled","wua.iupdate_isinstalled","wuapi/IUpdate::IsInstalled","wuapi/IUpdate::get_IsInstalled"]
+description: Gets a Boolean value that indicates whether the update is installed on a computer when the search is performed.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","IsInstalled property","IUpdate.IsInstalled","IUpdate.get_IsInstalled","IUpdate::IsInstalled","IUpdate::get_IsInstalled","IsInstalled property [Windows Update Agent]","IsInstalled property [Windows Update Agent]","IUpdate interface","get_IsInstalled","wua.iupdate_isinstalled","wuapi/IUpdate::IsInstalled","wuapi/IUpdate::get_IsInstalled"]
 old-location: wua\iupdate_isinstalled.htm
 tech.root: Wua_Sdk
 ms.assetid: 2adebe8e-554e-4337-9bbf-1d8967fefef1

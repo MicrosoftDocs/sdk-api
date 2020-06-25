@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.Levels
 title: Levels (gdipluseffects.h)
-description: The Levels class encompasses three bitmap adjustments:\_highlight, midtone, and shadow.helpviewer_keywords: ["Levels","Levels class [GDI+]","Levels class [GDI+]","described","_gdiplus_CLASS_Levels_Class","gdiplus._gdiplus_CLASS_Levels_Class","gdipluseffects/Levels"]
+description: The Levels class encompasses three bitmap adjustments:\_highlight, midtone, and shadow.
+helpviewer_keywords: ["Levels","Levels class [GDI+]","Levels class [GDI+]","described","_gdiplus_CLASS_Levels_Class","gdiplus._gdiplus_CLASS_Levels_Class","gdipluseffects/Levels"]
 old-location: gdiplus\_gdiplus_CLASS_Levels_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levels.htm

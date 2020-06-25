@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,IDCompositionAnimation)
 title: IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,IDCompositionAnimation) (dcomp.h)
-description: Sets a value in the alpha table.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetAlphaTableValue method","IDCompositionTableTransferEffect.SetAlphaTableValue","IDCompositionTableTransferEffect.SetAlphaTableValue(UINT","IDCompositionAnimation)","IDCompositionTableTransferEffect::SetAlphaTableValue","IDCompositionTableTransferEffect::SetAlphaTableValue(UINT","IDCompositionAnimation)","SetAlphaTableValue","SetAlphaTableValue method [DirectComposition]","SetAlphaTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue","directcomp.idcompositiontabletransfereffect_setalphatablevalue_2"]
+description: Sets a value in the alpha table.
+helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetAlphaTableValue method","IDCompositionTableTransferEffect.SetAlphaTableValue","IDCompositionTableTransferEffect.SetAlphaTableValue(UINT","IDCompositionAnimation)","IDCompositionTableTransferEffect::SetAlphaTableValue","IDCompositionTableTransferEffect::SetAlphaTableValue(UINT","IDCompositionAnimation)","SetAlphaTableValue","SetAlphaTableValue method [DirectComposition]","SetAlphaTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue","directcomp.idcompositiontabletransfereffect_setalphatablevalue_2"]
 old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue_2.htm
 tech.root: directcomp
 ms.assetid: B0DF72F0-48ED-48A5-821A-3A426AD66013

@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleReader
 title: IAppxEncryptionFactory::CreateEncryptedBundleReader (appxpackaging.h)
-description: Creates a read-only bundle object to which encrypted Windows app packages can be added.helpviewer_keywords: ["CreateEncryptedBundleReader","CreateEncryptedBundleReader method [App packaging and management]","CreateEncryptedBundleReader method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","CreateEncryptedBundleReader method","IAppxEncryptionFactory.CreateEncryptedBundleReader","IAppxEncryptionFactory::CreateEncryptedBundleReader","appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader","appxpkg.iappxencryptionfactory_createencryptedbundlereader"]
+description: Creates a read-only bundle object to which encrypted Windows app packages can be added.
+helpviewer_keywords: ["CreateEncryptedBundleReader","CreateEncryptedBundleReader method [App packaging and management]","CreateEncryptedBundleReader method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","CreateEncryptedBundleReader method","IAppxEncryptionFactory.CreateEncryptedBundleReader","IAppxEncryptionFactory::CreateEncryptedBundleReader","appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader","appxpkg.iappxencryptionfactory_createencryptedbundlereader"]
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlereader.htm
 tech.root: appxpkg
 ms.assetid: 1802E721-9320-4B05-9C38-6C3AC3FB413C

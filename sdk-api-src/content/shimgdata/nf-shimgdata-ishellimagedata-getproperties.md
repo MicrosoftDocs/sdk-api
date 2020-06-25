@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetProperties
 title: IShellImageData::GetProperties (shimgdata.h)
-description: Gets an IPropertySetStorage through which the properties of the image can be accessed.helpviewer_keywords: ["GetProperties","GetProperties method [Windows Shell]","GetProperties method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetProperties method","IShellImageData.GetProperties","IShellImageData::GetProperties","_shell_IShellImageData_GetProperties","shell.IShellImageData_GetProperties","shimgdata/IShellImageData::GetProperties"]
+description: Gets an IPropertySetStorage through which the properties of the image can be accessed.
+helpviewer_keywords: ["GetProperties","GetProperties method [Windows Shell]","GetProperties method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetProperties method","IShellImageData.GetProperties","IShellImageData::GetProperties","_shell_IShellImageData_GetProperties","shell.IShellImageData_GetProperties","shimgdata/IShellImageData::GetProperties"]
 old-location: shell\IShellImageData_GetProperties.htm
 tech.root: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMFLOAT4A.XMFLOAT4A(const float)
 title: XMFLOAT4A::XMFLOAT4A(const float) (directxmath.h)
-description: Initializes a new instance of XMFLOAT4 from a four element float array argument.helpviewer_keywords: ["XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 structure","XMFLOAT4 structure [DirectX Math Support APIs]","XMFLOAT4 constructor","XMFLOAT4.XMFLOAT4(const float*)","XMFLOAT4A","XMFLOAT4A.XMFLOAT4A","XMFLOAT4A.XMFLOAT4A(const float)","XMFLOAT4A::XMFLOAT4A","XMFLOAT4A::XMFLOAT4A(const float)","dxmath.xmfloat4_ctor_3"]
+description: Initializes a new instance of XMFLOAT4 from a four element float array argument.
+helpviewer_keywords: ["XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 structure","XMFLOAT4 structure [DirectX Math Support APIs]","XMFLOAT4 constructor","XMFLOAT4.XMFLOAT4(const float*)","XMFLOAT4A","XMFLOAT4A.XMFLOAT4A","XMFLOAT4A.XMFLOAT4A(const float)","XMFLOAT4A::XMFLOAT4A","XMFLOAT4A::XMFLOAT4A(const float)","dxmath.xmfloat4_ctor_3"]
 old-location: dxmath\xmfloat4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4.#ctor(const float)

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.SetThreadPreferredUILanguages
 title: SetThreadPreferredUILanguages function (winnls.h)
-description: Sets the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.helpviewer_keywords: ["MUI_COMPLEX_SCRIPT_FILTER","MUI_CONSOLE_FILTER","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","MUI_RESET_FILTERS","SetThreadPreferredUILanguages","SetThreadPreferredUILanguages function [Internationalization for Windows Applications]","_win32_SetThreadPreferredUILanguages","intl.setthreadpreferreduilanguages","winnls/SetThreadPreferredUILanguages"]
+description: Sets the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
+helpviewer_keywords: ["MUI_COMPLEX_SCRIPT_FILTER","MUI_CONSOLE_FILTER","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","MUI_RESET_FILTERS","SetThreadPreferredUILanguages","SetThreadPreferredUILanguages function [Internationalization for Windows Applications]","_win32_SetThreadPreferredUILanguages","intl.setthreadpreferreduilanguages","winnls/SetThreadPreferredUILanguages"]
 old-location: intl\setthreadpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 32a8117c-2cb2-4559-8e86-9fad5b28aa5b

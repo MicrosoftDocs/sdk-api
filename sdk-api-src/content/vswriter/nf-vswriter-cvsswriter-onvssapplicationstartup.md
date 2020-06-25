@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.CVssWriter.OnVSSApplicationStartup
 title: CVssWriter::OnVSSApplicationStartup (vswriter.h)
-description: Not supported.helpviewer_keywords: ["CVssWriter interface [VSS]","OnVSSApplicationStartup method","CVssWriter.OnVSSApplicationStartup","CVssWriter::OnVSSApplicationStartup","OnVSSApplicationStartup","OnVSSApplicationStartup method [VSS]","OnVSSApplicationStartup method [VSS]","CVssWriter interface","_win32_cvsswriter_onvssapplicationstartup","base.cvsswriter_onvssapplicationstartup","vswriter/CVssWriter::OnVSSApplicationStartup"]
+description: Not supported.
+helpviewer_keywords: ["CVssWriter interface [VSS]","OnVSSApplicationStartup method","CVssWriter.OnVSSApplicationStartup","CVssWriter::OnVSSApplicationStartup","OnVSSApplicationStartup","OnVSSApplicationStartup method [VSS]","OnVSSApplicationStartup method [VSS]","CVssWriter interface","_win32_cvsswriter_onvssapplicationstartup","base.cvsswriter_onvssapplicationstartup","vswriter/CVssWriter::OnVSSApplicationStartup"]
 old-location: base\cvsswriter_onvssapplicationstartup.htm
 tech.root: VSS
 ms.assetid: bec4ea32-e150-468e-9b4d-2405125e5250

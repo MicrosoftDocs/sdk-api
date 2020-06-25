@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactory.get_ProxyFactoryId
 title: IUIAutomationProxyFactory::get_ProxyFactoryId (uiautomationclient.h)
-description: Retrieves the identifier of the proxy factory.helpviewer_keywords: ["IUIAutomationProxyFactory interface [Windows Accessibility]","ProxyFactoryId property","IUIAutomationProxyFactory.ProxyFactoryId","IUIAutomationProxyFactory.get_ProxyFactoryId","IUIAutomationProxyFactory::ProxyFactoryId","IUIAutomationProxyFactory::get_ProxyFactoryId","ProxyFactoryId property [Windows Accessibility]","ProxyFactoryId property [Windows Accessibility]","IUIAutomationProxyFactory interface","get_ProxyFactoryId","uiauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId","uiauto_IUIAutomationProxyFactory_ProxyFactoryId","uiautomationclient/IUIAutomationProxyFactory::ProxyFactoryId","uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId","winauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId"]
+description: Retrieves the identifier of the proxy factory.
+helpviewer_keywords: ["IUIAutomationProxyFactory interface [Windows Accessibility]","ProxyFactoryId property","IUIAutomationProxyFactory.ProxyFactoryId","IUIAutomationProxyFactory.get_ProxyFactoryId","IUIAutomationProxyFactory::ProxyFactoryId","IUIAutomationProxyFactory::get_ProxyFactoryId","ProxyFactoryId property [Windows Accessibility]","ProxyFactoryId property [Windows Accessibility]","IUIAutomationProxyFactory interface","get_ProxyFactoryId","uiauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId","uiauto_IUIAutomationProxyFactory_ProxyFactoryId","uiautomationclient/IUIAutomationProxyFactory::ProxyFactoryId","uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId","winauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId"]
 old-location: winauto\uiauto_IUIAutomationProxyFactory_ProxyFactoryId.htm
 tech.root: WinAuto
 ms.assetid: 6ca12f18-7826-469c-8d4d-517c54a44138

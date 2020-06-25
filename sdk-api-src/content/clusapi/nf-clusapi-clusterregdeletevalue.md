@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegDeleteValue
 title: ClusterRegDeleteValue function (clusapi.h)
-description: Removes a named value from a cluster database key.helpviewer_keywords: ["ClusterRegDeleteValue","ClusterRegDeleteValue function [Failover Cluster]","_wolf_clusterregdeletevalue","clusapi/ClusterRegDeleteValue","mscs.clusterregdeletevalue"]
+description: Removes a named value from a cluster database key.
+helpviewer_keywords: ["ClusterRegDeleteValue","ClusterRegDeleteValue function [Failover Cluster]","_wolf_clusterregdeletevalue","clusapi/ClusterRegDeleteValue","mscs.clusterregdeletevalue"]
 old-location: mscs\clusterregdeletevalue.htm
 tech.root: MsCS
 ms.assetid: 81d2936e-6f2c-48d9-b898-c1d8b2c946e6

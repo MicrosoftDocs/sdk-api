@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzTasks.get__NewEnum
 title: IAzTasks::get__NewEnum (azroles.h)
-description: The _NewEnum property of IAzTasks retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).helpviewer_keywords: ["AzTasks object [Security]","_NewEnum property","IAzTasks interface [Security]","_NewEnum property","IAzTasks._NewEnum","IAzTasks.get__NewEnum","IAzTasks::_NewEnum","IAzTasks::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzTasks object","_NewEnum property [Security]","IAzTasks interface","azroles/IAzTasks::_NewEnum","azroles/IAzTasks::get__NewEnum","get__NewEnum","security.iaztasks_newenum"]
+description: The _NewEnum property of IAzTasks retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+helpviewer_keywords: ["AzTasks object [Security]","_NewEnum property","IAzTasks interface [Security]","_NewEnum property","IAzTasks._NewEnum","IAzTasks.get__NewEnum","IAzTasks::_NewEnum","IAzTasks::get__NewEnum","_NewEnum property [Security]","_NewEnum property [Security]","AzTasks object","_NewEnum property [Security]","IAzTasks interface","azroles/IAzTasks::_NewEnum","azroles/IAzTasks::get__NewEnum","get__NewEnum","security.iaztasks_newenum"]
 old-location: security\iaztasks_newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 2598295f-da23-4eb2-aefc-e8e43f8c0f60

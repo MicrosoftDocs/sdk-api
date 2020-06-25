@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._DISK_PARTITION_INFO
 title: DISK_PARTITION_INFO
-description: Contains the disk partition information.helpviewer_keywords: ["*PDISK_PARTITION_INFO","DISK_PARTITION_INFO","DISK_PARTITION_INFO structure [Files]","PDISK_PARTITION_INFO","PDISK_PARTITION_INFO structure pointer [Files]","_win32_disk_partition_info_str","base.disk_partition_info_str","fs.disk_partition_info_str","winioctl/DISK_PARTITION_INFO","winioctl/PDISK_PARTITION_INFO"]
+description: Contains the disk partition information.
+helpviewer_keywords: ["*PDISK_PARTITION_INFO","DISK_PARTITION_INFO","DISK_PARTITION_INFO structure [Files]","PDISK_PARTITION_INFO","PDISK_PARTITION_INFO structure pointer [Files]","_win32_disk_partition_info_str","base.disk_partition_info_str","fs.disk_partition_info_str","winioctl/DISK_PARTITION_INFO","winioctl/PDISK_PARTITION_INFO"]
 old-location: fs\disk_partition_info_str.htm
 tech.root: FileIO
 ms.assetid: 34a086fc-72ea-46ed-adb3-c084abcb3c74

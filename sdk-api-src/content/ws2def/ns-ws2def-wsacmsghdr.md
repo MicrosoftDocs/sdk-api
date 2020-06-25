@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2def._WSACMSGHDR
 title: WSACMSGHDR (ws2def.h)
-description: The CMSGHDR structure defines the header for a control data object that is associated with a datagram.helpviewer_keywords: ["*LPWSACMSGHDR","*PCMSGHDR","*PWSACMSGHDR","CMSGHDR","CMSGHDR structure [Network Drivers Starting with Windows Vista]","PCMSGHDR","PCMSGHDR structure pointer [Network Drivers Starting with Windows Vista]","WSACMSGHDR","netvista.cmsghdr","ws2def/CMSGHDR","ws2def/PCMSGHDR","wskref_23745253-c7fd-498a-990a-d90d0722d105.xml"]
+description: The CMSGHDR structure defines the header for a control data object that is associated with a datagram.
+helpviewer_keywords: ["*LPWSACMSGHDR","*PCMSGHDR","*PWSACMSGHDR","CMSGHDR","CMSGHDR structure [Network Drivers Starting with Windows Vista]","PCMSGHDR","PCMSGHDR structure pointer [Network Drivers Starting with Windows Vista]","WSACMSGHDR","netvista.cmsghdr","ws2def/CMSGHDR","ws2def/PCMSGHDR","wskref_23745253-c7fd-498a-990a-d90d0722d105.xml"]
 old-location: netvista\cmsghdr.htm
 tech.root: NetVista
 ms.assetid: c07dd974-7a23-44c2-b55a-aadfe8936954

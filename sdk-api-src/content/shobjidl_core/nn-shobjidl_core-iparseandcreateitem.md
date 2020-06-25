@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IParseAndCreateItem
 title: IParseAndCreateItem (shobjidl_core.h)
-description: IParseAndCreateItem interfacehelpviewer_keywords: ["IParseAndCreateItem","IParseAndCreateItem interface [Windows Shell]","IParseAndCreateItem interface [Windows Shell]","described","_shell_IParseAndCreateItem","shell.IParseAndCreateItem","shobjidl_core/IParseAndCreateItem"]
+description: IParseAndCreateItem interface
+helpviewer_keywords: ["IParseAndCreateItem","IParseAndCreateItem interface [Windows Shell]","IParseAndCreateItem interface [Windows Shell]","described","_shell_IParseAndCreateItem","shell.IParseAndCreateItem","shobjidl_core/IParseAndCreateItem"]
 old-location: shell\IParseAndCreateItem.htm
 tech.root: shell
 ms.assetid: 4a8c6223-df1e-4f04-8818-d7752f686cb5

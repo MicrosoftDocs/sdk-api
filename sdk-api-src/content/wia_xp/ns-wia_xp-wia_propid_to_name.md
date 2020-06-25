@@ -1,7 +1,8 @@
 ---
 UID: NS:wia_xp._WIA_PROPID_TO_NAME
 title: WIA_PROPID_TO_NAME (wia_xp.h)
-description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).helpviewer_keywords: ["*PWIA_PROPID_TO_NAME","PWIA_PROPID_TO_NAME","PWIA_PROPID_TO_NAME structure pointer [WIA]","WIA_PROPID_TO_NAME","WIA_PROPID_TO_NAME structure [WIA]","_wia_WIA_PROPID_TO_NAME","wia._wia_WIA_PROPID_TO_NAME","wia_xp/PWIA_PROPID_TO_NAME","wia_xp/WIA_PROPID_TO_NAME"]
+description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).
+helpviewer_keywords: ["*PWIA_PROPID_TO_NAME","PWIA_PROPID_TO_NAME","PWIA_PROPID_TO_NAME structure pointer [WIA]","WIA_PROPID_TO_NAME","WIA_PROPID_TO_NAME structure [WIA]","_wia_WIA_PROPID_TO_NAME","wia._wia_WIA_PROPID_TO_NAME","wia_xp/PWIA_PROPID_TO_NAME","wia_xp/WIA_PROPID_TO_NAME"]
 old-location: wia\_wia_WIA_PROPID_TO_NAME.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_propid_to_name.htm

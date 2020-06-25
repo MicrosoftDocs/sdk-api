@@ -1,7 +1,8 @@
 ---
 UID: NS:mfmediaengine.MFVideoNormalizedRect
 title: MFVideoNormalizedRect (mfmediaengine.h)
-description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.helpviewer_keywords: ["MFVideoNormalizedRect","MFVideoNormalizedRect structure [Media Foundation]","c1dd42ca-64a0-4f30-82e1-eda3f4721526","evr/MFVideoNormalizedRect","mf.mfvideonormalizedrect"]
+description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
+helpviewer_keywords: ["MFVideoNormalizedRect","MFVideoNormalizedRect structure [Media Foundation]","c1dd42ca-64a0-4f30-82e1-eda3f4721526","evr/MFVideoNormalizedRect","mf.mfvideonormalizedrect"]
 old-location: mf\mfvideonormalizedrect.htm
 tech.root: medfound
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526

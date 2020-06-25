@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.SORTIDFROMLCID
 title: SORTIDFROMLCID macro (winnt.h)
-description: Retrieves a sort order identifier from a locale identifier.helpviewer_keywords: ["SORTIDFROMLCID","SORTIDFROMLCID macro [Internationalization for Windows Applications]","_win32_SORTIDFROMLCID","intl.sortidfromlcid","winnt/SORTIDFROMLCID"]
+description: Retrieves a sort order identifier from a locale identifier.
+helpviewer_keywords: ["SORTIDFROMLCID","SORTIDFROMLCID macro [Internationalization for Windows Applications]","_win32_SORTIDFROMLCID","intl.sortidfromlcid","winnt/SORTIDFROMLCID"]
 old-location: intl\sortidfromlcid.htm
 tech.root: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6

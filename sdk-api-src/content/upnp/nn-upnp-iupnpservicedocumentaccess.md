@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPServiceDocumentAccess
 title: IUPnPServiceDocumentAccess (upnp.h)
-description: Use this interface to retrieve and provide the Service Control Protocol Description (SCPD) document to a UPnP control point application to expose actions supported by the service and provide information about state variables.helpviewer_keywords: ["IUPnPServiceDocumentAccess","IUPnPServiceDocumentAccess interface [UPnP APIs]","IUPnPServiceDocumentAccess interface [UPnP APIs]","described","upnp.iupnpservicedocumentaccess","upnp/IUPnPServiceDocumentAccess"]
+description: Use this interface to retrieve and provide the Service Control Protocol Description (SCPD) document to a UPnP control point application to expose actions supported by the service and provide information about state variables.
+helpviewer_keywords: ["IUPnPServiceDocumentAccess","IUPnPServiceDocumentAccess interface [UPnP APIs]","IUPnPServiceDocumentAccess interface [UPnP APIs]","described","upnp.iupnpservicedocumentaccess","upnp/IUPnPServiceDocumentAccess"]
 old-location: upnp\iupnpservicedocumentaccess.htm
 tech.root: upnp
 ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E

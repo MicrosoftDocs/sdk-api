@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.SetPropertyStream
 title: IWiaPropertyStorage::SetPropertyStream (wia_xp.h)
-description: The IWiaPropertyStorage::SetPropertyStream sets the property stream of an item in the tree of IWiaItem objects of a Windows Image Acquisition (WIA) hardware device.helpviewer_keywords: ["IWiaPropertyStorage interface [WIA]","SetPropertyStream method","IWiaPropertyStorage.SetPropertyStream","IWiaPropertyStorage::SetPropertyStream","SetPropertyStream","SetPropertyStream method [WIA]","SetPropertyStream method [WIA]","IWiaPropertyStorage interface","_wia_IWiaPropertyStorage_SetPropertyStream","wia._wia_IWiaPropertyStorage_SetPropertyStream","wia_xp/IWiaPropertyStorage::SetPropertyStream"]
+description: The IWiaPropertyStorage::SetPropertyStream sets the property stream of an item in the tree of IWiaItem objects of a Windows Image Acquisition (WIA) hardware device.
+helpviewer_keywords: ["IWiaPropertyStorage interface [WIA]","SetPropertyStream method","IWiaPropertyStorage.SetPropertyStream","IWiaPropertyStorage::SetPropertyStream","SetPropertyStream","SetPropertyStream method [WIA]","SetPropertyStream method [WIA]","IWiaPropertyStorage interface","_wia_IWiaPropertyStorage_SetPropertyStream","wia._wia_IWiaPropertyStorage_SetPropertyStream","wia_xp/IWiaPropertyStorage::SetPropertyStream"]
 old-location: wia\_wia_IWiaPropertyStorage_SetPropertyStream.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\setpropertystream.htm

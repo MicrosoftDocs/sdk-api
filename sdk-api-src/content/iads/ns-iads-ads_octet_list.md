@@ -1,7 +1,8 @@
 ---
 UID: NS:iads._ADS_OCTET_LIST
 title: ADS_OCTET_LIST (iads.h)
-description: The ADS_OCTET_LIST structure is an ADSI representation of an ordered sequence of single-byte strings.helpviewer_keywords: ["*PADS_OCTET_LIST","ADS_OCTET_LIST","ADS_OCTET_LIST structure [ADSI]","PADS_OCTET_LIST","PADS_OCTET_LIST structure pointer [ADSI]","_ds_ads_octet_list","adsi.ads__octet__list","adsi.ads_octet_list","iads/ADS_OCTET_LIST","iads/PADS_OCTET_LIST"]
+description: The ADS_OCTET_LIST structure is an ADSI representation of an ordered sequence of single-byte strings.
+helpviewer_keywords: ["*PADS_OCTET_LIST","ADS_OCTET_LIST","ADS_OCTET_LIST structure [ADSI]","PADS_OCTET_LIST","PADS_OCTET_LIST structure pointer [ADSI]","_ds_ads_octet_list","adsi.ads__octet__list","adsi.ads_octet_list","iads/ADS_OCTET_LIST","iads/PADS_OCTET_LIST"]
 old-location: adsi\ads_octet_list.htm
 tech.root: adsi
 ms.assetid: 9a6a6ba8-afe1-44d3-a9a8-dab1c5f4265e

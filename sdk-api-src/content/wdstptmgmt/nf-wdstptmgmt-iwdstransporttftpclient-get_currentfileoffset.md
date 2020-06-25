@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_CurrentFileOffset
 title: IWdsTransportTftpClient::get_CurrentFileOffset (wdstptmgmt.h)
-description: Receives the offset from the start of the file in bytes of the current block being transferred in the TFTP session.helpviewer_keywords: ["CurrentFileOffset property [Windows Deployment Services]","CurrentFileOffset property [Windows Deployment Services]","IWdsTransportTftpClient interface","IWdsTransportTftpClient interface [Windows Deployment Services]","CurrentFileOffset property","IWdsTransportTftpClient.CurrentFileOffset","IWdsTransportTftpClient.get_CurrentFileOffset","IWdsTransportTftpClient::CurrentFileOffset","IWdsTransportTftpClient::get_CurrentFileOffset","get_CurrentFileOffset","wds.iwdstransporttftpclient_currentfileoffset","wdstptmgmt/IWdsTransportTftpClient::CurrentFileOffset","wdstptmgmt/IWdsTransportTftpClient::get_CurrentFileOffset"]
+description: Receives the offset from the start of the file in bytes of the current block being transferred in the TFTP session.
+helpviewer_keywords: ["CurrentFileOffset property [Windows Deployment Services]","CurrentFileOffset property [Windows Deployment Services]","IWdsTransportTftpClient interface","IWdsTransportTftpClient interface [Windows Deployment Services]","CurrentFileOffset property","IWdsTransportTftpClient.CurrentFileOffset","IWdsTransportTftpClient.get_CurrentFileOffset","IWdsTransportTftpClient::CurrentFileOffset","IWdsTransportTftpClient::get_CurrentFileOffset","get_CurrentFileOffset","wds.iwdstransporttftpclient_currentfileoffset","wdstptmgmt/IWdsTransportTftpClient::CurrentFileOffset","wdstptmgmt/IWdsTransportTftpClient::get_CurrentFileOffset"]
 old-location: wds\iwdstransporttftpclient_currentfileoffset.htm
 tech.root: wds
 ms.assetid: 24B35E1D-7CEA-458E-8E6A-80BF97FFF46E

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListenerCallback.OnConnected
 title: IWRdsProtocolListenerCallback::OnConnected (wtsprotocol.h)
-description: Notifies the Remote Desktop Services service that a client connection request has been received.helpviewer_keywords: ["IWRdsProtocolListenerCallback interface [Remote Desktop Services]","OnConnected method","IWRdsProtocolListenerCallback.OnConnected","IWRdsProtocolListenerCallback::OnConnected","OnConnected","OnConnected method [Remote Desktop Services]","OnConnected method [Remote Desktop Services]","IWRdsProtocolListenerCallback interface","termserv.iwrdsprotocollistenercallback_onconnected","wtsprotocol/IWRdsProtocolListenerCallback::OnConnected"]
+description: Notifies the Remote Desktop Services service that a client connection request has been received.
+helpviewer_keywords: ["IWRdsProtocolListenerCallback interface [Remote Desktop Services]","OnConnected method","IWRdsProtocolListenerCallback.OnConnected","IWRdsProtocolListenerCallback::OnConnected","OnConnected","OnConnected method [Remote Desktop Services]","OnConnected method [Remote Desktop Services]","IWRdsProtocolListenerCallback interface","termserv.iwrdsprotocollistenercallback_onconnected","wtsprotocol/IWRdsProtocolListenerCallback::OnConnected"]
 old-location: termserv\iwrdsprotocollistenercallback_onconnected.htm
 tech.root: TermServ
 ms.assetid: 9d2d5393-f0a6-40ec-9bf2-2e8c945693db

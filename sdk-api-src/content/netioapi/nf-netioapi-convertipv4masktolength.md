@@ -100,8 +100,6 @@ One of the parameters was invalid. This error is returned if the <i>Mask</i> par
 
 ## -remarks
 
-
-
 The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vista and later.
 
 
@@ -113,7 +111,4 @@ The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vista and l
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertlengthtoipv4mask">ConvertLengthToIpv4Mask</a>
- 
-
- 
 

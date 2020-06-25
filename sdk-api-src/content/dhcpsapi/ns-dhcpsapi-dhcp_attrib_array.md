@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_ATTRIB_ARRAY
 title: DHCP_ATTRIB_ARRAY (dhcpsapi.h)
-description: Defines a set of DHCP server attributes.helpviewer_keywords: ["*LPDHCP_ATTRIB_ARRAY","*PDHCP_ATTRIB_ARRAY","DHCP_ATTRIB_ARRAY","DHCP_ATTRIB_ARRAY structure [DHCP]","PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY","PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY structure pointer [DHCP]","dhcp.dhcp_attrib_array","dhcpsapi/PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY","dhcpsapi/_DHCP_ATTRIB_ARRAY"]
+description: Defines a set of DHCP server attributes.
+helpviewer_keywords: ["*LPDHCP_ATTRIB_ARRAY","*PDHCP_ATTRIB_ARRAY","DHCP_ATTRIB_ARRAY","DHCP_ATTRIB_ARRAY structure [DHCP]","PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY","PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY structure pointer [DHCP]","dhcp.dhcp_attrib_array","dhcpsapi/PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY","dhcpsapi/_DHCP_ATTRIB_ARRAY"]
 old-location: dhcp\dhcp_attrib_array.htm
 tech.root: DHCP
 ms.assetid: 2a9831ae-b0ba-4cec-b7a9-6e9d9bee82c5

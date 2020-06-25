@@ -1,7 +1,8 @@
 ---
 UID: NN:sdoias.ISdoMachine
 title: ISdoMachine (sdoias.h)
-description: Use the ISdoMachine interface to attach to an SDO computer, obtain information about the SDO computer, and obtain interfaces to other SDO objects.helpviewer_keywords: ["ISdoMachine","ISdoMachine interface [Network Policy Server]","ISdoMachine interface [Network Policy Server]","described","_sdo_isdomachine","nps.SDO_isdomachine","sdo.isdomachine","sdoias/ISdoMachine"]
+description: Use the ISdoMachine interface to attach to an SDO computer, obtain information about the SDO computer, and obtain interfaces to other SDO objects.
+helpviewer_keywords: ["ISdoMachine","ISdoMachine interface [Network Policy Server]","ISdoMachine interface [Network Policy Server]","described","_sdo_isdomachine","nps.SDO_isdomachine","sdo.isdomachine","sdoias/ISdoMachine"]
 old-location: nps\SDO_isdomachine.htm
 tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903

@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventWriteString
 title: EventWriteString function (evntprov.h)
-description: Writes an event that contains a string as its data.helpviewer_keywords: ["EventWriteString","EventWriteString function [ETW]","base.eventwritestring_func","etw.eventwritestring_func","evntprov/EventWriteString"]
+description: Writes an event that contains a string as its data.
+helpviewer_keywords: ["EventWriteString","EventWriteString function [ETW]","base.eventwritestring_func","etw.eventwritestring_func","evntprov/EventWriteString"]
 old-location: etw\eventwritestring_func.htm
 tech.root: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381

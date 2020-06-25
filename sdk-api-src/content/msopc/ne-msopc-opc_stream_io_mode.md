@@ -1,7 +1,8 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0003
 title: OPC_STREAM_IO_MODE (msopc.h)
-description: Describes the read/write status of a stream.helpviewer_keywords: ["OPC_STREAM_IO_MODE","OPC_STREAM_IO_MODE enumeration [Open Packaging Conventions]","OPC_STREAM_IO_READ","OPC_STREAM_IO_WRITE","msopc/OPC_STREAM_IO_MODE","msopc/OPC_STREAM_IO_READ","msopc/OPC_STREAM_IO_WRITE","opc.opc_stream_io_mode"]
+description: Describes the read/write status of a stream.
+helpviewer_keywords: ["OPC_STREAM_IO_MODE","OPC_STREAM_IO_MODE enumeration [Open Packaging Conventions]","OPC_STREAM_IO_READ","OPC_STREAM_IO_WRITE","msopc/OPC_STREAM_IO_MODE","msopc/OPC_STREAM_IO_READ","msopc/OPC_STREAM_IO_WRITE","opc.opc_stream_io_mode"]
 old-location: opc\opc_stream_io_mode.htm
 tech.root: OPC
 ms.assetid: cf72ddcf-5472-451f-bfa8-94f549dc9246

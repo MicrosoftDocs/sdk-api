@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertFindSubjectInCTL
 title: CertFindSubjectInCTL function (wincrypt.h)
-description: The CertFindSubjectInCTL function attempts to find the specified subject in a certificate trust list (CTL).helpviewer_keywords: ["CTL_ANY_SUBJECT_TYPE","CTL_CERT_SUBJECT_TYPE","CertFindSubjectInCTL","CertFindSubjectInCTL function [Security]","_crypto2_certfindsubjectinctl","security.certfindsubjectinctl","wincrypt/CertFindSubjectInCTL"]
+description: The CertFindSubjectInCTL function attempts to find the specified subject in a certificate trust list (CTL).
+helpviewer_keywords: ["CTL_ANY_SUBJECT_TYPE","CTL_CERT_SUBJECT_TYPE","CertFindSubjectInCTL","CertFindSubjectInCTL function [Security]","_crypto2_certfindsubjectinctl","security.certfindsubjectinctl","wincrypt/CertFindSubjectInCTL"]
 old-location: security\certfindsubjectinctl.htm
 tech.root: SecCrypto
 ms.assetid: e0c81531-e649-45bb-bafe-bced00c7b16a

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtworkq.RtwqPutWorkItem
 title: RtwqPutWorkItem function (rtworkq.h)
-description: Puts an asynchronous operation on a work queue.helpviewer_keywords: ["RtwqPutWorkItem","RtwqPutWorkItem function","base.rtwqputworkitem","rtworkq/RtwqPutWorkItem"]
+description: Puts an asynchronous operation on a work queue.
+helpviewer_keywords: ["RtwqPutWorkItem","RtwqPutWorkItem function","base.rtwqputworkitem","rtworkq/RtwqPutWorkItem"]
 old-location: base\rtwqputworkitem.htm
 tech.root: ProcThread
 ms.assetid: d2ae1cec-b279-4f5e-a803-fe0b8f453029

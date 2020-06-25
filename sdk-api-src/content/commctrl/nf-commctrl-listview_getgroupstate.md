@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetGroupState
 title: ListView_GetGroupState macro (commctrl.h)
-description: Gets the state for a specified group. Use this macro or send the LVM_GETGROUPSTATE message explicitly.helpviewer_keywords: ["ListView_GetGroupState","ListView_GetGroupState macro [Windows Controls]","_shell_ListView_GetGroupState","_shell_ListView_GetGroupState_cpp","commctrl/ListView_GetGroupState","controls.ListView_GetGroupState","controls._shell_ListView_GetGroupState"]
+description: Gets the state for a specified group. Use this macro or send the LVM_GETGROUPSTATE message explicitly.
+helpviewer_keywords: ["ListView_GetGroupState","ListView_GetGroupState macro [Windows Controls]","_shell_ListView_GetGroupState","_shell_ListView_GetGroupState_cpp","commctrl/ListView_GetGroupState","controls.ListView_GetGroupState","controls._shell_ListView_GetGroupState"]
 old-location: controls\ListView_GetGroupState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupstate.htm

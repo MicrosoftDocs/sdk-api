@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_HOTPLUG_INFO
 title: STORAGE_HOTPLUG_INFO
-description: Provides information about the hotplug information of a device.helpviewer_keywords: ["*PSTORAGE_HOTPLUG_INFO","PSTORAGE_HOTPLUG_INFO","PSTORAGE_HOTPLUG_INFO structure pointer","STORAGE_HOTPLUG_INFO","STORAGE_HOTPLUG_INFO structure","_win32_storage_hotplug_info_str","base.storage_hotplug_info_str","winioctl/PSTORAGE_HOTPLUG_INFO","winioctl/STORAGE_HOTPLUG_INFO"]
+description: Provides information about the hotplug information of a device.
+helpviewer_keywords: ["*PSTORAGE_HOTPLUG_INFO","PSTORAGE_HOTPLUG_INFO","PSTORAGE_HOTPLUG_INFO structure pointer","STORAGE_HOTPLUG_INFO","STORAGE_HOTPLUG_INFO structure","_win32_storage_hotplug_info_str","base.storage_hotplug_info_str","winioctl/PSTORAGE_HOTPLUG_INFO","winioctl/STORAGE_HOTPLUG_INFO"]
 old-location: base\storage_hotplug_info_str.htm
 tech.root: devio
 ms.assetid: 861e6067-9f37-427a-8d3b-8cb9d0f95c40

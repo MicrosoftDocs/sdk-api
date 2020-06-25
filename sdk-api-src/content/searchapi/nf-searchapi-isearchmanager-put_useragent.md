@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.put_UserAgent
 title: ISearchManager::put_UserAgent (searchapi.h)
-description: Sets the user agent string that a user agent passes to website and services to identify itself.helpviewer_keywords: ["ISearchManager interface [search]","put_UserAgent method","ISearchManager.put_UserAgent","ISearchManager::put_UserAgent","_search_ISearchManager_put_UserAgent","put_UserAgent","put_UserAgent method [search]","put_UserAgent method [search]","ISearchManager interface","search._search_ISearchManager_put_UserAgent","searchapi/ISearchManager::put_UserAgent"]
+description: Sets the user agent string that a user agent passes to website and services to identify itself.
+helpviewer_keywords: ["ISearchManager interface [search]","put_UserAgent method","ISearchManager.put_UserAgent","ISearchManager::put_UserAgent","_search_ISearchManager_put_UserAgent","put_UserAgent","put_UserAgent method [search]","put_UserAgent method [search]","ISearchManager interface","search._search_ISearchManager_put_UserAgent","searchapi/ISearchManager::put_UserAgent"]
 old-location: search\_search_ISearchManager_put_UserAgent.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\put_useragent.htm

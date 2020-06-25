@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Next
 title: IEnumStreamBufferRecordingAttrib::Next (sbe.h)
-description: The Next method returns a specified number of attributes in the enumeration sequence.helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","Next method","IEnumStreamBufferRecordingAttrib.Next","IEnumStreamBufferRecordingAttrib::Next","IEnumStreamBufferRecordingAttribNext","Next","Next method [Microsoft TV Technologies]","Next method [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface","mstv.ienumstreambufferrecordingattrib_next","sbe/IEnumStreamBufferRecordingAttrib::Next"]
+description: The Next method returns a specified number of attributes in the enumeration sequence.
+helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","Next method","IEnumStreamBufferRecordingAttrib.Next","IEnumStreamBufferRecordingAttrib::Next","IEnumStreamBufferRecordingAttribNext","Next","Next method [Microsoft TV Technologies]","Next method [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface","mstv.ienumstreambufferrecordingattrib_next","sbe/IEnumStreamBufferRecordingAttrib::Next"]
 old-location: mstv\ienumstreambufferrecordingattrib_next.htm
 tech.root: mstv
 ms.assetid: 760b2e2c-799d-45e5-9dbd-2407e7431918

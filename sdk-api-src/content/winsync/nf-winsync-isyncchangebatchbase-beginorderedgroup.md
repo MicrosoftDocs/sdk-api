@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.BeginOrderedGroup
 title: ISyncChangeBatchBase::BeginOrderedGroup (winsync.h)
-description: Opens an ordered group in the change batch. This group is ordered by item ID.helpviewer_keywords: ["BeginOrderedGroup","BeginOrderedGroup method [Windows Sync]","BeginOrderedGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","BeginOrderedGroup method","ISyncChangeBatchBase.BeginOrderedGroup","ISyncChangeBatchBase::BeginOrderedGroup","winsync.isyncchangebatchbase_beginorderedgroup","winsync/ISyncChangeBatchBase::BeginOrderedGroup"]
+description: Opens an ordered group in the change batch. This group is ordered by item ID.
+helpviewer_keywords: ["BeginOrderedGroup","BeginOrderedGroup method [Windows Sync]","BeginOrderedGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","BeginOrderedGroup method","ISyncChangeBatchBase.BeginOrderedGroup","ISyncChangeBatchBase::BeginOrderedGroup","winsync.isyncchangebatchbase_beginorderedgroup","winsync/ISyncChangeBatchBase::BeginOrderedGroup"]
 old-location: winsync\isyncchangebatchbase_beginorderedgroup.htm
 tech.root: winsync
 ms.assetid: 093c0014-fa03-4609-a38f-5e69a3d3c4d6

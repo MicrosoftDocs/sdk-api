@@ -1,7 +1,8 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetFocusWindow
 title: IAMDirectSound::GetFocusWindow (amaudio.h)
-description: The GetFocusWindow method retrieves the window that is handling sound playback.helpviewer_keywords: ["GetFocusWindow","GetFocusWindow method [DirectShow]","GetFocusWindow method [DirectShow]","IAMDirectSound interface","IAMDirectSound interface [DirectShow]","GetFocusWindow method","IAMDirectSound.GetFocusWindow","IAMDirectSound::GetFocusWindow","IAMDirectSoundGetWindowFocus","amaudio/IAMDirectSound::GetFocusWindow","dshow.iamdirectsound_getfocuswindow"]
+description: The GetFocusWindow method retrieves the window that is handling sound playback.
+helpviewer_keywords: ["GetFocusWindow","GetFocusWindow method [DirectShow]","GetFocusWindow method [DirectShow]","IAMDirectSound interface","IAMDirectSound interface [DirectShow]","GetFocusWindow method","IAMDirectSound.GetFocusWindow","IAMDirectSound::GetFocusWindow","IAMDirectSoundGetWindowFocus","amaudio/IAMDirectSound::GetFocusWindow","dshow.iamdirectsound_getfocuswindow"]
 old-location: dshow\iamdirectsound_getfocuswindow.htm
 tech.root: DirectShow
 ms.assetid: e103abb3-01fc-452f-a151-0f2d24859fba

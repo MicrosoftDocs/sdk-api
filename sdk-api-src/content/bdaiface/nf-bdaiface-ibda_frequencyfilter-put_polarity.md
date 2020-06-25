@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Polarity
 title: IBDA_FrequencyFilter::put_Polarity (bdaiface.h)
-description: The put_Polarity method specifies the polarity of the signal.helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","put_Polarity method","IBDA_FrequencyFilter.put_Polarity","IBDA_FrequencyFilter::put_Polarity","IBDA_FrequencyFilterput_Polarity","bdaiface/IBDA_FrequencyFilter::put_Polarity","mstv.ibda_frequencyfilter_put_polarity","put_Polarity","put_Polarity method [Microsoft TV Technologies]","put_Polarity method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface"]
+description: The put_Polarity method specifies the polarity of the signal.
+helpviewer_keywords: ["IBDA_FrequencyFilter interface [Microsoft TV Technologies]","put_Polarity method","IBDA_FrequencyFilter.put_Polarity","IBDA_FrequencyFilter::put_Polarity","IBDA_FrequencyFilterput_Polarity","bdaiface/IBDA_FrequencyFilter::put_Polarity","mstv.ibda_frequencyfilter_put_polarity","put_Polarity","put_Polarity method [Microsoft TV Technologies]","put_Polarity method [Microsoft TV Technologies]","IBDA_FrequencyFilter interface"]
 old-location: mstv\ibda_frequencyfilter_put_polarity.htm
 tech.root: mstv
 ms.assetid: d15bd0f9-4f2e-4098-bf5b-db03fde1362f

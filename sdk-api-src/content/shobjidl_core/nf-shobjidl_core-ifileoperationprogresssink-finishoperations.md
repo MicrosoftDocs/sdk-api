@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.FinishOperations
 title: IFileOperationProgressSink::FinishOperations (shobjidl_core.h)
-description: Performs caller-implemented actions after the last operation performed by the call to IFileOperation is complete.helpviewer_keywords: ["FinishOperations","FinishOperations method [Windows Shell]","FinishOperations method [Windows Shell]","IFileOperationProgressSink interface","IFileOperationProgressSink interface [Windows Shell]","FinishOperations method","IFileOperationProgressSink.FinishOperations","IFileOperationProgressSink::FinishOperations","_shell_IFileOperationProgressSink_FinishOperations","shell.IFileOperationProgressSink_FinishOperations","shobjidl_core/IFileOperationProgressSink::FinishOperations"]
+description: Performs caller-implemented actions after the last operation performed by the call to IFileOperation is complete.
+helpviewer_keywords: ["FinishOperations","FinishOperations method [Windows Shell]","FinishOperations method [Windows Shell]","IFileOperationProgressSink interface","IFileOperationProgressSink interface [Windows Shell]","FinishOperations method","IFileOperationProgressSink.FinishOperations","IFileOperationProgressSink::FinishOperations","_shell_IFileOperationProgressSink_FinishOperations","shell.IFileOperationProgressSink_FinishOperations","shobjidl_core/IFileOperationProgressSink::FinishOperations"]
 old-location: shell\IFileOperationProgressSink_FinishOperations.htm
 tech.root: shell
 ms.assetid: 5d2d05c3-525d-4113-bb08-63395facf191

@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetTableDescriptorByTag
 title: ICAT::GetTableDescriptorByTag (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","ICAT interface","ICAT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","ICAT.GetTableDescriptorByTag","ICAT::GetTableDescriptorByTag","ICATGetTableDescriptorByTag","mpeg2psiparser/ICAT::GetTableDescriptorByTag","mstv.icat_gettabledescriptorbytag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","ICAT interface","ICAT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","ICAT.GetTableDescriptorByTag","ICAT::GetTableDescriptorByTag","ICATGetTableDescriptorByTag","mpeg2psiparser/ICAT::GetTableDescriptorByTag","mstv.icat_gettabledescriptorbytag"]
 old-location: mstv\icat_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: f28fb2c1-d9bb-4786-b3cc-db9583752e1b

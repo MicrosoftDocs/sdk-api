@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_SAMPLE_POSITION
 title: D3D12_SAMPLE_POSITION (d3d12.h)
-description: Describes a sub-pixel sample position for use with programmable sample positions.helpviewer_keywords: ["D3D12_SAMPLE_POSITION","D3D12_SAMPLE_POSITION structure","d3d12/D3D12_SAMPLE_POSITION","direct3d12.d3d12_sample_position"]
+description: Describes a sub-pixel sample position for use with programmable sample positions.
+helpviewer_keywords: ["D3D12_SAMPLE_POSITION","D3D12_SAMPLE_POSITION structure","d3d12/D3D12_SAMPLE_POSITION","direct3d12.d3d12_sample_position"]
 old-location: direct3d12\d3d12_sample_position.htm
 tech.root: direct3d12
 ms.assetid: 09D76360-A5FC-43C5-A7DC-9FA59B7FA94D

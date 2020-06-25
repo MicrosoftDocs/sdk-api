@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetCIMSSM
 title: GetCIMSSM function (winuser.h)
-description: Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).helpviewer_keywords: ["GetCIMSSM","GetCIMSSM function","input_sourceid.getcimssm","winuser/GetCIMSSM"]
+description: Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).
+helpviewer_keywords: ["GetCIMSSM","GetCIMSSM function","input_sourceid.getcimssm","winuser/GetCIMSSM"]
 old-location: input_sourceid\getcimssm.htm
 tech.root: Input_SourceId
 ms.assetid: DF5C9B54-0B32-44D8-BFF6-80A190DC5294

@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_DATA_CHUNK
 title: HTTP_DATA_CHUNK (http.h)
-description: Represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.helpviewer_keywords: ["*PHTTP_DATA_CHUNK","HTTP_DATA_CHUNK","HTTP_DATA_CHUNK structure [HTTP]","PHTTP_DATA_CHUNK","PHTTP_DATA_CHUNK structure pointer [HTTP]","_http_http_data_chunk","http.http_data_chunk","http/HTTP_DATA_CHUNK","http/PHTTP_DATA_CHUNK"]
+description: Represents an individual block of data either in memory, in a file, or in the HTTP Server API response-fragment cache.
+helpviewer_keywords: ["*PHTTP_DATA_CHUNK","HTTP_DATA_CHUNK","HTTP_DATA_CHUNK structure [HTTP]","PHTTP_DATA_CHUNK","PHTTP_DATA_CHUNK structure pointer [HTTP]","_http_http_data_chunk","http.http_data_chunk","http/HTTP_DATA_CHUNK","http/PHTTP_DATA_CHUNK"]
 old-location: http\http_data_chunk.htm
 tech.root: http
 ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d

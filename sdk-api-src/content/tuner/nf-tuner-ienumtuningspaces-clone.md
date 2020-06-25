@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Clone
 title: IEnumTuningSpaces::Clone (tuner.h)
-description: The Clone method creates a new copy of the collection and all its sub-objects.helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","IEnumTuningSpaces interface","IEnumTuningSpaces interface [Microsoft TV Technologies]","Clone method","IEnumTuningSpaces.Clone","IEnumTuningSpaces::Clone","IEnumTuningSpacesClone","mstv.ienumtuningspaces_clone","tuner/IEnumTuningSpaces::Clone"]
+description: The Clone method creates a new copy of the collection and all its sub-objects.
+helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","IEnumTuningSpaces interface","IEnumTuningSpaces interface [Microsoft TV Technologies]","Clone method","IEnumTuningSpaces.Clone","IEnumTuningSpaces::Clone","IEnumTuningSpacesClone","mstv.ienumtuningspaces_clone","tuner/IEnumTuningSpaces::Clone"]
 old-location: mstv\ienumtuningspaces_clone.htm
 tech.root: mstv
 ms.assetid: 3f9ad46e-38a7-4f07-b04b-999c912f9965

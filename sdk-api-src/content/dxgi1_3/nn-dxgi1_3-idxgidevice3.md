@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_3.IDXGIDevice3
 title: IDXGIDevice3 (dxgi1_3.h)
-description: The IDXGIDevice3 interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device.helpviewer_keywords: ["IDXGIDevice3","IDXGIDevice3 interface [DXGI]","IDXGIDevice3 interface [DXGI]","described","direct3ddxgi.idxgidevice3","dxgi1_3/IDXGIDevice3"]
+description: The IDXGIDevice3 interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device.
+helpviewer_keywords: ["IDXGIDevice3","IDXGIDevice3 interface [DXGI]","IDXGIDevice3 interface [DXGI]","described","direct3ddxgi.idxgidevice3","dxgi1_3/IDXGIDevice3"]
 old-location: direct3ddxgi\idxgidevice3.htm
 tech.root: direct3ddxgi
 ms.assetid: 3D6A0173-456D-4783-943D-35F335F358BE

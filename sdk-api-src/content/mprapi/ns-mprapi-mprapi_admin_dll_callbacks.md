@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._MPRAPI_ADMIN_DLL_CALLBACKS
 title: MPRAPI_ADMIN_DLL_CALLBACKS (mprapi.h)
-description: The MPRAPI_ADMIN_DLL_CALLBACKS structure is used by the MprAdminInitializeDllEx function to register the callback function pointers.helpviewer_keywords: ["*PMPRAPI_ADMIN_DLL_CALLBACKS","MPRAPI_ADMIN_DLL_CALLBACKS","MPRAPI_ADMIN_DLL_CALLBACKS structure [RAS]","MPRAPI_ADMIN_DLL_VERSION_1","MPRAPI_ADMIN_DLL_VERSION_2","PMPRAPI_ADMIN_DLL_CALLBACKS","PMPRAPI_ADMIN_DLL_CALLBACKS structure pointer [RAS]","mprapi/MPRAPI_ADMIN_DLL_CALLBACKS","mprapi/PMPRAPI_ADMIN_DLL_CALLBACKS","rras.mprapi_admin_dll_callbacks"]
+description: The MPRAPI_ADMIN_DLL_CALLBACKS structure is used by the MprAdminInitializeDllEx function to register the callback function pointers.
+helpviewer_keywords: ["*PMPRAPI_ADMIN_DLL_CALLBACKS","MPRAPI_ADMIN_DLL_CALLBACKS","MPRAPI_ADMIN_DLL_CALLBACKS structure [RAS]","MPRAPI_ADMIN_DLL_VERSION_1","MPRAPI_ADMIN_DLL_VERSION_2","PMPRAPI_ADMIN_DLL_CALLBACKS","PMPRAPI_ADMIN_DLL_CALLBACKS structure pointer [RAS]","mprapi/MPRAPI_ADMIN_DLL_CALLBACKS","mprapi/PMPRAPI_ADMIN_DLL_CALLBACKS","rras.mprapi_admin_dll_callbacks"]
 old-location: rras\mprapi_admin_dll_callbacks.htm
 tech.root: RRAS
 ms.assetid: b36036e3-1aee-41e6-b777-98455b04e44b

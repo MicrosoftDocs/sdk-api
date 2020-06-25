@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 title: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS (wmsdkidl.h)
-description: The DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure holds the minimum output protection levels (OPL) for playback of various types of content. A device must support the minimum OPL for a type of data to receive that type of data from the reader.helpviewer_keywords: ["DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS","DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_minimum_output_protection_levels","wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS"]
+description: The DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure holds the minimum output protection levels (OPL) for playback of various types of content. A device must support the minimum OPL for a type of data to receive that type of data from the reader.
+helpviewer_keywords: ["DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS","DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_minimum_output_protection_levels","wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS"]
 old-location: wmformat\drm_minimum_output_protection_levels.htm
 tech.root: wmformat
 ms.assetid: 4358c3ea-b65b-4446-b758-c1cd2d68d02a

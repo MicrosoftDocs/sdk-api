@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IEnumClockVector.Next
 title: IEnumClockVector::Next (winsync.h)
-description: Returns the next elements in the clock vector, if they are available.helpviewer_keywords: ["IEnumClockVector interface [Windows Sync]","Next method","IEnumClockVector.Next","IEnumClockVector::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumClockVector interface","winsync.ienumclockvector_next","winsync/IEnumClockVector::Next"]
+description: Returns the next elements in the clock vector, if they are available.
+helpviewer_keywords: ["IEnumClockVector interface [Windows Sync]","Next method","IEnumClockVector.Next","IEnumClockVector::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumClockVector interface","winsync.ienumclockvector_next","winsync/IEnumClockVector::Next"]
 old-location: winsync\ienumclockvector_next.htm
 tech.root: winsync
 ms.assetid: 40aa741a-b536-4a8b-9f97-b7b599e49aef

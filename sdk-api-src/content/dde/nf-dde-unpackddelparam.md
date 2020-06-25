@@ -1,7 +1,8 @@
 ---
 UID: NF:dde.UnpackDDElParam
 title: UnpackDDElParam function (dde.h)
-description: Unpacks a Dynamic Data Exchange (DDE)lParam value received from a posted DDE message.helpviewer_keywords: ["UnpackDDElParam","UnpackDDElParam function [Data Exchange]","_win32_UnpackDDElParam","_win32_unpackddelparam_cpp","dataxchg.unpackddelparam","dde/UnpackDDElParam","winui._win32_unpackddelparam"]
+description: Unpacks a Dynamic Data Exchange (DDE)lParam value received from a posted DDE message.
+helpviewer_keywords: ["UnpackDDElParam","UnpackDDElParam function [Data Exchange]","_win32_UnpackDDElParam","_win32_unpackddelparam_cpp","dataxchg.unpackddelparam","dde/UnpackDDElParam","winui._win32_unpackddelparam"]
 old-location: dataxchg\unpackddelparam.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\unpackddelparam.htm

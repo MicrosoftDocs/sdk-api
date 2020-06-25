@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingByPath
 title: ISettingsItem::GetSettingByPath (wcmconfig.h)
-description: Gets a setting based on the given path.helpviewer_keywords: ["GetSettingByPath","GetSettingByPath method [SMI]","GetSettingByPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetSettingByPath method","ISettingsItem.GetSettingByPath","ISettingsItem::GetSettingByPath","smi.isettingsitem_getsettingbypath","wcmconfig/ISettingsItem::GetSettingByPath"]
+description: Gets a setting based on the given path.
+helpviewer_keywords: ["GetSettingByPath","GetSettingByPath method [SMI]","GetSettingByPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetSettingByPath method","ISettingsItem.GetSettingByPath","ISettingsItem::GetSettingByPath","smi.isettingsitem_getsettingbypath","wcmconfig/ISettingsItem::GetSettingByPath"]
 old-location: smi\isettingsitem_getsettingbypath.htm
 tech.root: SMI
 ms.assetid: a4270c46-b214-4232-b414-d6b6e4e35635

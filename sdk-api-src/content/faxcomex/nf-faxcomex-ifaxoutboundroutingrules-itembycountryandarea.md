@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.ItemByCountryAndArea
 title: IFaxOutboundRoutingRules::ItemByCountryAndArea (faxcomex.h)
-description: The IFaxOutboundRoutingRules::get_ItemByCountryAndArea method returns an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule's country/region code and area code.helpviewer_keywords: ["IFaxOutboundRoutingRules interface [Fax Service]","ItemByCountryAndArea method","IFaxOutboundRoutingRules.ItemByCountryAndArea","IFaxOutboundRoutingRules::ItemByCountryAndArea","ItemByCountryAndArea","ItemByCountryAndArea method [Fax Service]","ItemByCountryAndArea method [Fax Service]","IFaxOutboundRoutingRules interface","_mfax_faxoutboundroutingrules.itembycountryandarea","fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_itembycountryandarea_cpp","fax._mfax_faxoutboundroutingrules_itembycountryandarea","faxcomex/IFaxOutboundRoutingRules::ItemByCountryAndArea"]
+description: The IFaxOutboundRoutingRules::get_ItemByCountryAndArea method returns an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule's country/region code and area code.
+helpviewer_keywords: ["IFaxOutboundRoutingRules interface [Fax Service]","ItemByCountryAndArea method","IFaxOutboundRoutingRules.ItemByCountryAndArea","IFaxOutboundRoutingRules::ItemByCountryAndArea","ItemByCountryAndArea","ItemByCountryAndArea method [Fax Service]","ItemByCountryAndArea method [Fax Service]","IFaxOutboundRoutingRules interface","_mfax_faxoutboundroutingrules.itembycountryandarea","fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_itembycountryandarea_cpp","fax._mfax_faxoutboundroutingrules_itembycountryandarea","faxcomex/IFaxOutboundRoutingRules::ItemByCountryAndArea"]
 old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_itembycountryandarea_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8plt.htm

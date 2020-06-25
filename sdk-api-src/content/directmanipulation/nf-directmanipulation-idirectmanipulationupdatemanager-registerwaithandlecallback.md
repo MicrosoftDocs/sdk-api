@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.RegisterWaitHandleCallback
 title: IDirectManipulationUpdateManager::RegisterWaitHandleCallback (directmanipulation.h)
-description: Registers a callback that is triggered by a handle.helpviewer_keywords: ["IDirectManipulationUpdateManager interface [Direct Manipulation]","RegisterWaitHandleCallback method","IDirectManipulationUpdateManager.RegisterWaitHandleCallback","IDirectManipulationUpdateManager::RegisterWaitHandleCallback","RegisterWaitHandleCallback","RegisterWaitHandleCallback method [Direct Manipulation]","RegisterWaitHandleCallback method [Direct Manipulation]","IDirectManipulationUpdateManager interface","directmanipulation.idirectmanipulationupdatemanager_registerwaithandlecallback","directmanipulation/IDirectManipulationUpdateManager::RegisterWaitHandleCallback"]
+description: Registers a callback that is triggered by a handle.
+helpviewer_keywords: ["IDirectManipulationUpdateManager interface [Direct Manipulation]","RegisterWaitHandleCallback method","IDirectManipulationUpdateManager.RegisterWaitHandleCallback","IDirectManipulationUpdateManager::RegisterWaitHandleCallback","RegisterWaitHandleCallback","RegisterWaitHandleCallback method [Direct Manipulation]","RegisterWaitHandleCallback method [Direct Manipulation]","IDirectManipulationUpdateManager interface","directmanipulation.idirectmanipulationupdatemanager_registerwaithandlecallback","directmanipulation/IDirectManipulationUpdateManager::RegisterWaitHandleCallback"]
 old-location: directmanipulation\idirectmanipulationupdatemanager_registerwaithandlecallback.htm
 tech.root: directmanipulation
 ms.assetid: bc0e22b8-ec27-478f-9c4b-ca192d8d52d0

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.TriggerEdgeGesture
 title: IApplicationDesignModeSettings::TriggerEdgeGesture (shobjidl_core.h)
-description: Sends a spoofed edge gesture event to the proxy core window on the caller's thread. This gesture toggles the app's app bar, if the app supports one. The caller can specify the type of input that triggered the edge gesture.helpviewer_keywords: ["EGK_KEYBOARD","EGK_MOUSE","EGK_TOUCH","IApplicationDesignModeSettings interface [Windows Shell]","TriggerEdgeGesture method","IApplicationDesignModeSettings.TriggerEdgeGesture","IApplicationDesignModeSettings::TriggerEdgeGesture","TriggerEdgeGesture","TriggerEdgeGesture method [Windows Shell]","TriggerEdgeGesture method [Windows Shell]","IApplicationDesignModeSettings interface","shell.IApplicationDesignModeSettings_TriggerEdgeGesture","shobjidl_core/IApplicationDesignModeSettings::TriggerEdgeGesture"]
+description: Sends a spoofed edge gesture event to the proxy core window on the caller's thread. This gesture toggles the app's app bar, if the app supports one. The caller can specify the type of input that triggered the edge gesture.
+helpviewer_keywords: ["EGK_KEYBOARD","EGK_MOUSE","EGK_TOUCH","IApplicationDesignModeSettings interface [Windows Shell]","TriggerEdgeGesture method","IApplicationDesignModeSettings.TriggerEdgeGesture","IApplicationDesignModeSettings::TriggerEdgeGesture","TriggerEdgeGesture","TriggerEdgeGesture method [Windows Shell]","TriggerEdgeGesture method [Windows Shell]","IApplicationDesignModeSettings interface","shell.IApplicationDesignModeSettings_TriggerEdgeGesture","shobjidl_core/IApplicationDesignModeSettings::TriggerEdgeGesture"]
 old-location: shell\IApplicationDesignModeSettings_TriggerEdgeGesture.htm
 tech.root: shell
 ms.assetid: 0B74E779-543F-411F-B6BA-44F00C4D70BE

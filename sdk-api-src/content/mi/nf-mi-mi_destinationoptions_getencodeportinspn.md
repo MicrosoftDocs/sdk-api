@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetEncodePortInSPN
 title: MI_DestinationOptions_GetEncodePortInSPN function (mi.h)
-description: Gets the port's Service Principal Name encoding value.helpviewer_keywords: ["MI_DestinationOptions_GetEncodePortInSPN","MI_DestinationOptions_GetEncodePortInSPN function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetEncodePortInSPN","wmi_v2.mi_destinationoptions_getencodeportinspn"]
+description: Gets the port's Service Principal Name encoding value.
+helpviewer_keywords: ["MI_DestinationOptions_GetEncodePortInSPN","MI_DestinationOptions_GetEncodePortInSPN function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetEncodePortInSPN","wmi_v2.mi_destinationoptions_getencodeportinspn"]
 old-location: wmi_v2\mi_destinationoptions_getencodeportinspn.htm
 tech.root: wmi_v2
 ms.assetid: aab137a0-0443-4ac0-b5b2-be6734771b73

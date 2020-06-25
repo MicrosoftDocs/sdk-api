@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentButton
 title: IDvdInfo::GetCurrentButton (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available buttons and the currently selected button number.helpviewer_keywords: ["GetCurrentButton","GetCurrentButton method [DirectShow]","GetCurrentButton method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentButton method","IDvdInfo.GetCurrentButton","IDvdInfo::GetCurrentButton","IDvdInfoGetCurrentButton","dshow.idvdinfo_getcurrentbutton","strmif/IDvdInfo::GetCurrentButton"]
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available buttons and the currently selected button number.
+helpviewer_keywords: ["GetCurrentButton","GetCurrentButton method [DirectShow]","GetCurrentButton method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentButton method","IDvdInfo.GetCurrentButton","IDvdInfo::GetCurrentButton","IDvdInfoGetCurrentButton","dshow.idvdinfo_getcurrentbutton","strmif/IDvdInfo::GetCurrentButton"]
 old-location: dshow\idvdinfo_getcurrentbutton.htm
 tech.root: DirectShow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa

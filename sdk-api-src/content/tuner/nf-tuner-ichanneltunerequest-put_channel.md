@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.put_Channel
 title: IChannelTuneRequest::put_Channel (tuner.h)
-description: The put_Channel method sets the channel to be tuned.helpviewer_keywords: ["IChannelTuneRequest interface [Microsoft TV Technologies]","put_Channel method","IChannelTuneRequest.put_Channel","IChannelTuneRequest::put_Channel","IChannelTuneRequestput_Channel","mstv.ichanneltunerequest_put_channel","put_Channel","put_Channel method [Microsoft TV Technologies]","put_Channel method [Microsoft TV Technologies]","IChannelTuneRequest interface","tuner/IChannelTuneRequest::put_Channel"]
+description: The put_Channel method sets the channel to be tuned.
+helpviewer_keywords: ["IChannelTuneRequest interface [Microsoft TV Technologies]","put_Channel method","IChannelTuneRequest.put_Channel","IChannelTuneRequest::put_Channel","IChannelTuneRequestput_Channel","mstv.ichanneltunerequest_put_channel","put_Channel","put_Channel method [Microsoft TV Technologies]","put_Channel method [Microsoft TV Technologies]","IChannelTuneRequest interface","tuner/IChannelTuneRequest::put_Channel"]
 old-location: mstv\ichanneltunerequest_put_channel.htm
 tech.root: mstv
 ms.assetid: 67a08647-a2b5-43b2-b5d2-3917beb6dd27

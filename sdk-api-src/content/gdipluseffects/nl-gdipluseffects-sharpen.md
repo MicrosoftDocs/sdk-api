@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.Sharpen
 title: Sharpen (gdipluseffects.h)
-description: The Sharpen class enables you to adjust the sharpness of a bitmap.helpviewer_keywords: ["Sharpen","Sharpen class [GDI+]","Sharpen class [GDI+]","described","_gdiplus_CLASS_Sharpen_Class","gdiplus._gdiplus_CLASS_Sharpen_Class","gdipluseffects/Sharpen"]
+description: The Sharpen class enables you to adjust the sharpness of a bitmap.
+helpviewer_keywords: ["Sharpen","Sharpen class [GDI+]","Sharpen class [GDI+]","described","_gdiplus_CLASS_Sharpen_Class","gdiplus._gdiplus_CLASS_Sharpen_Class","gdipluseffects/Sharpen"]
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpen.htm

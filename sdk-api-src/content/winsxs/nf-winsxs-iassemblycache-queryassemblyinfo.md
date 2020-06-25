@@ -1,7 +1,8 @@
 ---
 UID: NF:winsxs.IAssemblyCache.QueryAssemblyInfo
 title: IAssemblyCache::QueryAssemblyInfo (winsxs.h)
-description: The QueryAssemblyInfo method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.helpviewer_keywords: ["IAssemblyCache interface [Side-by-side Assemblies]","QueryAssemblyInfo method","IAssemblyCache.QueryAssemblyInfo","IAssemblyCache::QueryAssemblyInfo","QUERYASMINFO_FLAG_GETSIZE","QUERYASMINFO_FLAG_VALIDATE","QueryAssemblyInfo","QueryAssemblyInfo method [Side-by-side Assemblies]","QueryAssemblyInfo method [Side-by-side Assemblies]","IAssemblyCache interface","setup.iassemblycache_queryassemblyinfo","winsxs/IAssemblyCache::QueryAssemblyInfo"]
+description: The QueryAssemblyInfo method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
+helpviewer_keywords: ["IAssemblyCache interface [Side-by-side Assemblies]","QueryAssemblyInfo method","IAssemblyCache.QueryAssemblyInfo","IAssemblyCache::QueryAssemblyInfo","QUERYASMINFO_FLAG_GETSIZE","QUERYASMINFO_FLAG_VALIDATE","QueryAssemblyInfo","QueryAssemblyInfo method [Side-by-side Assemblies]","QueryAssemblyInfo method [Side-by-side Assemblies]","IAssemblyCache interface","setup.iassemblycache_queryassemblyinfo","winsxs/IAssemblyCache::QueryAssemblyInfo"]
 old-location: setup\iassemblycache_queryassemblyinfo.htm
 tech.root: SbsCs
 ms.assetid: fc13e5ac-60cf-43f2-b50e-00be3a1ad270

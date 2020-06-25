@@ -88,7 +88,6 @@ The server estimate of the total number of entries in the entire result set. A v
 A pointer to the 
 <a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure that contains the results.
 
-
 ## -returns
 
 
@@ -97,8 +96,6 @@ If the server returns a null cookie (non-continuation), the value is <b>LDAP_NO_
 
 If the function otherwise fails, it returns the error code return value related to the failure. For more information, see 
 <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
-
-
 
 
 ## -remarks
@@ -121,10 +118,7 @@ If <b>ldap_get_next_page_s</b> is used, it is not required that
 
 
 
-
 ## -see-also
-
-
 
 
 <a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
@@ -152,7 +146,3 @@ If <b>ldap_get_next_page_s</b> is used, it is not required that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page">ldap_search_init_page</a>
- 
-
- 
-

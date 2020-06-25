@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateSegmentedScan
 title: D3DX11CreateSegmentedScan function (d3dcsx.h)
-description: Creates a segmented scan context.helpviewer_keywords: ["6b834305-1925-9f3d-ee71-8dc858a331c0","D3DX11CreateSegmentedScan","D3DX11CreateSegmentedScan function [Direct3D 11]","d3dcsx/D3DX11CreateSegmentedScan","direct3d11.d3dx11createsegmentedscan"]
+description: Creates a segmented scan context.
+helpviewer_keywords: ["6b834305-1925-9f3d-ee71-8dc858a331c0","D3DX11CreateSegmentedScan","D3DX11CreateSegmentedScan function [Direct3D 11]","d3dcsx/D3DX11CreateSegmentedScan","direct3d11.d3dx11createsegmentedscan"]
 old-location: direct3d11\d3dx11createsegmentedscan.htm
 tech.root: direct3d11
 ms.assetid: f8906357-57d8-4e57-a120-2ac28fad2288

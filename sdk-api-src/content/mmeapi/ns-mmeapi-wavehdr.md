@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.wavehdr_tag
 title: WAVEHDR (mmeapi.h)
-description: The WAVEHDR structure defines the header used to identify a waveform-audio buffer.helpviewer_keywords: ["*LPWAVEHDR","*NPWAVEHDR","*PWAVEHDR","LPWAVEHDR","LPWAVEHDR structure pointer [Windows Multimedia]","WAVEHDR","WAVEHDR structure [Windows Multimedia]","WHDR_BEGINLOOP","WHDR_DONE","WHDR_ENDLOOP","WHDR_INQUEUE","WHDR_PREPARED","_win32_WAVEHDR_str","mmeapi/LPWAVEHDR","mmeapi/WAVEHDR","multimedia.wavehdr","wavehdr_tag"]
+description: The WAVEHDR structure defines the header used to identify a waveform-audio buffer.
+helpviewer_keywords: ["*LPWAVEHDR","*NPWAVEHDR","*PWAVEHDR","LPWAVEHDR","LPWAVEHDR structure pointer [Windows Multimedia]","WAVEHDR","WAVEHDR structure [Windows Multimedia]","WHDR_BEGINLOOP","WHDR_DONE","WHDR_ENDLOOP","WHDR_INQUEUE","WHDR_PREPARED","_win32_WAVEHDR_str","mmeapi/LPWAVEHDR","mmeapi/WAVEHDR","multimedia.wavehdr","wavehdr_tag"]
 old-location: multimedia\wavehdr.htm
 tech.root: Multimedia
 ms.assetid: be70ae8e-8d8f-4261-bd0e-c6fd7feec520

@@ -1,7 +1,8 @@
 ---
 UID: NS:netioapi._MIB_MULTICASTIPADDRESS_TABLE
 title: MIB_MULTICASTIPADDRESS_TABLE (netioapi.h)
-description: Contains a table of multicast IP address entries.helpviewer_keywords: ["*PMIB_MULTICASTIPADDRESS_TABLE","MIB_MULTICASTIPADDRESS_TABLE","MIB_MULTICASTIPADDRESS_TABLE structure [MIB]","PMIB_MULTICASTIPADDRESS_TABLE","PMIB_MULTICASTIPADDRESS_TABLE structure pointer [MIB]","_MIB_MULTICASTIPADDRESS_TABLE","mib.mib_multicastipaddress_table","netioapi/MIB_MULTICASTIPADDRESS_TABLE","netioapi/PMIB_MULTICASTIPADDRESS_TABLE"]
+description: Contains a table of multicast IP address entries.
+helpviewer_keywords: ["*PMIB_MULTICASTIPADDRESS_TABLE","MIB_MULTICASTIPADDRESS_TABLE","MIB_MULTICASTIPADDRESS_TABLE structure [MIB]","PMIB_MULTICASTIPADDRESS_TABLE","PMIB_MULTICASTIPADDRESS_TABLE structure pointer [MIB]","_MIB_MULTICASTIPADDRESS_TABLE","mib.mib_multicastipaddress_table","netioapi/MIB_MULTICASTIPADDRESS_TABLE","netioapi/PMIB_MULTICASTIPADDRESS_TABLE"]
 old-location: mib\mib_multicastipaddress_table.htm
 tech.root: MIB
 ms.assetid: 7ae1ec12-aa67-40ff-9641-410099685234

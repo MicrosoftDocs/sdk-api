@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IClassFactory2.GetLicInfo
 title: IClassFactory2::GetLicInfo (ocidl.h)
-description: Retrieves information about the licensing capabilities of this class factory.helpviewer_keywords: ["GetLicInfo","GetLicInfo method [COM]","GetLicInfo method [COM]","IClassFactory2 interface","IClassFactory2 interface [COM]","GetLicInfo method","IClassFactory2.GetLicInfo","IClassFactory2::GetLicInfo","_com_iclassfactory2_getlicinfo","com.iclassfactory2_getlicinfo","ocidl/IClassFactory2::GetLicInfo"]
+description: Retrieves information about the licensing capabilities of this class factory.
+helpviewer_keywords: ["GetLicInfo","GetLicInfo method [COM]","GetLicInfo method [COM]","IClassFactory2 interface","IClassFactory2 interface [COM]","GetLicInfo method","IClassFactory2.GetLicInfo","IClassFactory2::GetLicInfo","_com_iclassfactory2_getlicinfo","com.iclassfactory2_getlicinfo","ocidl/IClassFactory2::GetLicInfo"]
 old-location: com\iclassfactory2_getlicinfo.htm
 tech.root: com
 ms.assetid: e55d1089-b1df-4de0-9a19-cbd255b36126

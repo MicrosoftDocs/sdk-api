@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateVideoSampleAllocatorEx
 title: MFCreateVideoSampleAllocatorEx function (mfapi.h)
-description: Creates an object that allocates video samples that are compatible with Microsoft DirectX Graphics Infrastructure (DXGI).helpviewer_keywords: ["IID_IMFVideoSampleAllocator","IID_IMFVideoSampleAllocatorCallback","IID_IMFVideoSampleAllocatorEx","IID_IUnknown","MFCreateVideoSampleAllocatorEx","MFCreateVideoSampleAllocatorEx function [Media Foundation]","mf.mfcreatevideosampleallocatorex","mfapi/MFCreateVideoSampleAllocatorEx"]
+description: Creates an object that allocates video samples that are compatible with Microsoft DirectX Graphics Infrastructure (DXGI).
+helpviewer_keywords: ["IID_IMFVideoSampleAllocator","IID_IMFVideoSampleAllocatorCallback","IID_IMFVideoSampleAllocatorEx","IID_IUnknown","MFCreateVideoSampleAllocatorEx","MFCreateVideoSampleAllocatorEx function [Media Foundation]","mf.mfcreatevideosampleallocatorex","mfapi/MFCreateVideoSampleAllocatorEx"]
 old-location: mf\mfcreatevideosampleallocatorex.htm
 tech.root: medfound
 ms.assetid: AB2A4D0B-CDE0-462C-BF52-3F78D0093526

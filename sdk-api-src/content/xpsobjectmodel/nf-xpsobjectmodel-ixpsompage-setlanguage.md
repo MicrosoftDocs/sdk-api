@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetLanguage
 title: IXpsOMPage::SetLanguage (xpsobjectmodel.h)
-description: Sets the Language property of the page.helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetLanguage method","IXpsOMPage.SetLanguage","IXpsOMPage::SetLanguage","SetLanguage","SetLanguage method [XPS Documents and Packaging]","SetLanguage method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setlanguage","xpsobjectmodel/IXpsOMPage::SetLanguage"]
+description: Sets the Language property of the page.
+helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetLanguage method","IXpsOMPage.SetLanguage","IXpsOMPage::SetLanguage","SetLanguage","SetLanguage method [XPS Documents and Packaging]","SetLanguage method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setlanguage","xpsobjectmodel/IXpsOMPage::SetLanguage"]
 old-location: xps\ixpsompage_setlanguage.htm
 tech.root: printdocs
 ms.assetid: 3bf0c7ed-84fc-45c0-8058-b833c3913f09

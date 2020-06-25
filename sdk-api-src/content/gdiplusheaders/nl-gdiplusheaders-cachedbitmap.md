@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusheaders.CachedBitmap
 title: CachedBitmap (gdiplusheaders.h)
-description: A CachedBitmap object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the Graphics::DrawCachedBitmap method.helpviewer_keywords: ["CachedBitmap","CachedBitmap class [GDI+]","CachedBitmap class [GDI+]","described","_gdiplus_CLASS_CachedBitmap_Class","gdiplus._gdiplus_CLASS_CachedBitmap_Class","gdiplusheaders/CachedBitmap"]
+description: A CachedBitmap object stores a bitmap in a format that is optimized for display on a particular device. To display a cached bitmap, call the Graphics::DrawCachedBitmap method.
+helpviewer_keywords: ["CachedBitmap","CachedBitmap class [GDI+]","CachedBitmap class [GDI+]","described","_gdiplus_CLASS_CachedBitmap_Class","gdiplus._gdiplus_CLASS_CachedBitmap_Class","gdiplusheaders/CachedBitmap"]
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmap.htm

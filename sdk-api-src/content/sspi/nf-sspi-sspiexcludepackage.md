@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.SspiExcludePackage
 title: SspiExcludePackage function (sspi.h)
-description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).helpviewer_keywords: ["SspiExcludePackage","SspiExcludePackage function [Security]","security.sspiexcludepackage","sspi/SspiExcludePackage"]
+description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
+helpviewer_keywords: ["SspiExcludePackage","SspiExcludePackage function [Security]","security.sspiexcludepackage","sspi/SspiExcludePackage"]
 old-location: security\sspiexcludepackage.htm
 tech.root: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8

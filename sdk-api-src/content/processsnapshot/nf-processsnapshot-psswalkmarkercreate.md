@@ -1,7 +1,8 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerCreate
 title: PssWalkMarkerCreate function (processsnapshot.h)
-description: Creates a walk marker.helpviewer_keywords: ["PssWalkMarkerCreate","PssWalkMarkerCreate function","proc_snap.psswalkmarkercreate","processsnapshot/PssWalkMarkerCreate"]
+description: Creates a walk marker.
+helpviewer_keywords: ["PssWalkMarkerCreate","PssWalkMarkerCreate function","proc_snap.psswalkmarkercreate","processsnapshot/PssWalkMarkerCreate"]
 old-location: proc_snap\psswalkmarkercreate.htm
 tech.root: proc_snap
 ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E

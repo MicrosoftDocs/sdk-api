@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDescriptionA
 title: SetupDiGetClassDescriptionA function (setupapi.h)
-description: The SetupDiGetClassDescription function retrieves the class description associated with the specified setup class GUID.helpviewer_keywords: ["SetupDiGetClassDescription","SetupDiGetClassDescription function [Device and Driver Installation]","SetupDiGetClassDescriptionA","SetupDiGetClassDescriptionW","devinst.setupdigetclassdescription","di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml","setupapi/SetupDiGetClassDescription"]
+description: The SetupDiGetClassDescription function retrieves the class description associated with the specified setup class GUID.
+helpviewer_keywords: ["SetupDiGetClassDescription","SetupDiGetClassDescription function [Device and Driver Installation]","SetupDiGetClassDescriptionA","SetupDiGetClassDescriptionW","devinst.setupdigetclassdescription","di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml","setupapi/SetupDiGetClassDescription"]
 old-location: devinst\setupdigetclassdescription.htm
 tech.root: devinst
 ms.assetid: a9757c77-f873-4f75-be80-c4bd1d327299
@@ -96,6 +97,10 @@ Call <b>SetupDiGetClassDescriptionEx</b> to retrieve the description of a setup 
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetClassDescription as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

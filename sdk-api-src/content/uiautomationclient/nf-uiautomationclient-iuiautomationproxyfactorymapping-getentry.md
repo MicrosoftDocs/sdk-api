@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.GetEntry
 title: IUIAutomationProxyFactoryMapping::GetEntry (uiautomationclient.h)
-description: Retrieves an entry from the proxy factory table.helpviewer_keywords: ["GetEntry","GetEntry method [Windows Accessibility]","GetEntry method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","GetEntry method","IUIAutomationProxyFactoryMapping.GetEntry","IUIAutomationProxyFactoryMapping::GetEntry","uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry","uiauto_IUIAutomationProxyFactoryMapping_GetEntry","uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry","winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry"]
+description: Retrieves an entry from the proxy factory table.
+helpviewer_keywords: ["GetEntry","GetEntry method [Windows Accessibility]","GetEntry method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","GetEntry method","IUIAutomationProxyFactoryMapping.GetEntry","IUIAutomationProxyFactoryMapping::GetEntry","uiauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry","uiauto_IUIAutomationProxyFactoryMapping_GetEntry","uiautomationclient/IUIAutomationProxyFactoryMapping::GetEntry","winauto.uiauto_IUIAutomationProxyFactoryMapping_GetEntry"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_GetEntry.htm
 tech.root: WinAuto
 ms.assetid: 1500c5e5-5161-4753-ab3a-7e5b62246411

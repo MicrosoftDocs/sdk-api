@@ -1,7 +1,8 @@
 ---
 UID: NE:wmp.WMPBurnState
 title: WMPBurnState (wmp.h)
-description: The WMPBurnState enumeration type defines the possible operational states of Windows Media Player as it burns a CD.helpviewer_keywords: ["WMPBurnState","WMPBurnState enumeration [Windows Media Player]","wmp.wmpburnstate","wmp/WMPBurnState","wmp/wmpbsBurning","wmp/wmpbsBusy","wmp/wmpbsErasing","wmp/wmpbsPreparingToBurn","wmp/wmpbsReady","wmp/wmpbsRefreshStatusPending","wmp/wmpbsStopped","wmp/wmpbsUnknown","wmp/wmpbsWaitingForDisc","wmpbsBurning","wmpbsBusy","wmpbsErasing","wmpbsPreparingToBurn","wmpbsReady","wmpbsRefreshStatusPending","wmpbsStopped","wmpbsUnknown","wmpbsWaitingForDisc"]
+description: The WMPBurnState enumeration type defines the possible operational states of Windows Media Player as it burns a CD.
+helpviewer_keywords: ["WMPBurnState","WMPBurnState enumeration [Windows Media Player]","wmp.wmpburnstate","wmp/WMPBurnState","wmp/wmpbsBurning","wmp/wmpbsBusy","wmp/wmpbsErasing","wmp/wmpbsPreparingToBurn","wmp/wmpbsReady","wmp/wmpbsRefreshStatusPending","wmp/wmpbsStopped","wmp/wmpbsUnknown","wmp/wmpbsWaitingForDisc","wmpbsBurning","wmpbsBusy","wmpbsErasing","wmpbsPreparingToBurn","wmpbsReady","wmpbsRefreshStatusPending","wmpbsStopped","wmpbsUnknown","wmpbsWaitingForDisc"]
 old-location: wmp\wmpburnstate.htm
 tech.root: WMP
 ms.assetid: fd286f68-4d36-48ae-800e-ad2be4c613c1

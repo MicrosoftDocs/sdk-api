@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetAntialiasMode
 title: ID2D1RenderTarget::SetAntialiasMode (d2d1.h)
-description: Sets the antialiasing mode of the render target. The antialiasing mode applies to all subsequent drawing operations, excluding text and glyph drawing operations.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetAntialiasMode method","ID2D1RenderTarget.SetAntialiasMode","ID2D1RenderTarget::SetAntialiasMode","SetAntialiasMode","SetAntialiasMode method [Direct2D]","SetAntialiasMode method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetAntialiasMode","direct2d.ID2D1RenderTarget_SetAntialiasMode"]
+description: Sets the antialiasing mode of the render target. The antialiasing mode applies to all subsequent drawing operations, excluding text and glyph drawing operations.
+helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetAntialiasMode method","ID2D1RenderTarget.SetAntialiasMode","ID2D1RenderTarget::SetAntialiasMode","SetAntialiasMode","SetAntialiasMode method [Direct2D]","SetAntialiasMode method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetAntialiasMode","direct2d.ID2D1RenderTarget_SetAntialiasMode"]
 old-location: direct2d\ID2D1RenderTarget_SetAntialiasMode.htm
 tech.root: Direct2D
 ms.assetid: cd727271-1725-48e1-be39-680b363db2ae

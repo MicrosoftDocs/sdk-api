@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetNumaProximityNode
 title: GetNumaProximityNode function (winbase.h)
-description: Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.helpviewer_keywords: ["GetNumaProximityNode","GetNumaProximityNode function","base.getnumaproximitynode","winbase/GetNumaProximityNode"]
+description: Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.
+helpviewer_keywords: ["GetNumaProximityNode","GetNumaProximityNode function","base.getnumaproximitynode","winbase/GetNumaProximityNode"]
 old-location: base\getnumaproximitynode.htm
 tech.root: ProcThread
 ms.assetid: 9a2dbfe3-13e7-442d-a5f6-b2632878f618

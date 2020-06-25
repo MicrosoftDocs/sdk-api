@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolTimerEx
 title: SetThreadpoolTimerEx function (threadpoolapiset.h)
-description: Sets the timer object&#8212;, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.helpviewer_keywords: ["SetThreadpoolTimerEx","SetThreadpoolTimerEx function","base.setthreadpooltimerex","threadpoolapiset/SetThreadpoolTimerEx"]
+description: Sets the timer object&#8212;, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
+helpviewer_keywords: ["SetThreadpoolTimerEx","SetThreadpoolTimerEx function","base.setthreadpooltimerex","threadpoolapiset/SetThreadpoolTimerEx"]
 old-location: base\setthreadpooltimerex.htm
 tech.root: ProcThread
 ms.assetid: 0B3C2552-0620-47A7-AF06-E215E7F862D4

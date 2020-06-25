@@ -1,7 +1,8 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_ELEMENT
 title: RECO_LATTICE_ELEMENT (rectypes.h)
-description: Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.helpviewer_keywords: ["RECO_LATTICE_ELEMENT","RECO_LATTICE_ELEMENT structure [Tablet PC]","c4100cb9-d666-4e74-ac12-7f242b3c60d4","rectypes/RECO_LATTICE_ELEMENT","tablet.reco_lattice_element"]
+description: Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.
+helpviewer_keywords: ["RECO_LATTICE_ELEMENT","RECO_LATTICE_ELEMENT structure [Tablet PC]","c4100cb9-d666-4e74-ac12-7f242b3c60d4","rectypes/RECO_LATTICE_ELEMENT","tablet.reco_lattice_element"]
 old-location: tablet\reco_lattice_element.htm
 tech.root: tablet
 ms.assetid: c4100cb9-d666-4e74-ac12-7f242b3c60d4

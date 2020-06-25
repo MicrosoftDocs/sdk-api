@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Measure
 title: IInkRenderer::Measure (msinkaut.h)
-description: Calculates the rectangle on the device context that would contain a collection of strokes if the strokes were drawn with the InkRenderer object using the DrawStroke method.helpviewer_keywords: ["1ef9ef91-ae96-454f-9ef8-570e64852395","IInkRenderer interface [Tablet PC]","Measure method","IInkRenderer.Measure","IInkRenderer::Measure","Measure","Measure method [Tablet PC]","Measure method [Tablet PC]","IInkRenderer interface","msinkaut/IInkRenderer::Measure","tablet.inkrenderer_measure"]
+description: Calculates the rectangle on the device context that would contain a collection of strokes if the strokes were drawn with the InkRenderer object using the DrawStroke method.
+helpviewer_keywords: ["1ef9ef91-ae96-454f-9ef8-570e64852395","IInkRenderer interface [Tablet PC]","Measure method","IInkRenderer.Measure","IInkRenderer::Measure","Measure","Measure method [Tablet PC]","Measure method [Tablet PC]","IInkRenderer interface","msinkaut/IInkRenderer::Measure","tablet.inkrenderer_measure"]
 old-location: tablet\inkrenderer_measure.htm
 tech.root: tablet
 ms.assetid: 1ef9ef91-ae96-454f-9ef8-570e64852395

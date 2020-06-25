@@ -1,7 +1,8 @@
 ---
 UID: NS:msime._IMEWRD
 title: IMEWRD (msime.h)
-description: Contains data about a word in the Word data of the Microsoft IME dictionary.helpviewer_keywords: ["*PIMEWRD","IMEWRD","IMEWRD structure [Internationalization for Windows Applications]","PIMEWRD","PIMEWRD structure pointer [Internationalization for Windows Applications]","intl.imewrd","msime/IMEWRD","msime/PIMEWRD"]
+description: Contains data about a word in the Word data of the Microsoft IME dictionary.
+helpviewer_keywords: ["*PIMEWRD","IMEWRD","IMEWRD structure [Internationalization for Windows Applications]","PIMEWRD","PIMEWRD structure pointer [Internationalization for Windows Applications]","intl.imewrd","msime/IMEWRD","msime/PIMEWRD"]
 old-location: intl\imewrd.htm
 tech.root: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0

@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi1_3.DXGI_DECODE_SWAP_CHAIN_DESC
 title: DXGI_DECODE_SWAP_CHAIN_DESC (dxgi1_3.h)
-description: Used with IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle to describe a decode swap chain.helpviewer_keywords: ["DXGI_DECODE_SWAP_CHAIN_DESC","DXGI_DECODE_SWAP_CHAIN_DESC structure [DXGI]","direct3ddxgi.dxgi_decode_swap_chain_desc","dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC"]
+description: Used with IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle to describe a decode swap chain.
+helpviewer_keywords: ["DXGI_DECODE_SWAP_CHAIN_DESC","DXGI_DECODE_SWAP_CHAIN_DESC structure [DXGI]","direct3ddxgi.dxgi_decode_swap_chain_desc","dxgi1_3/DXGI_DECODE_SWAP_CHAIN_DESC"]
 old-location: direct3ddxgi\dxgi_decode_swap_chain_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 9AAF8E99-E5BC-49B3-8CA6-1F4FC0190B54

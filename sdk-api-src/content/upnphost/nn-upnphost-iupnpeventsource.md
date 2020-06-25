@@ -1,7 +1,8 @@
 ---
 UID: NN:upnphost.IUPnPEventSource
 title: IUPnPEventSource (upnphost.h)
-description: The IUPnPEventSource interface allows the device host to manage event subscriptions for the hosted service.helpviewer_keywords: ["IUPnPEventSource","IUPnPEventSource interface [UPnP APIs]","IUPnPEventSource interface [UPnP APIs]","described","_upnp_iupnpeventsource","upnp.iupnpeventsource","upnphost/IUPnPEventSource"]
+description: The IUPnPEventSource interface allows the device host to manage event subscriptions for the hosted service.
+helpviewer_keywords: ["IUPnPEventSource","IUPnPEventSource interface [UPnP APIs]","IUPnPEventSource interface [UPnP APIs]","described","_upnp_iupnpeventsource","upnp.iupnpeventsource","upnphost/IUPnPEventSource"]
 old-location: upnp\iupnpeventsource.htm
 tech.root: upnp
 ms.assetid: f20dfcaa-b8fe-43c8-b353-067dad4cf2b4

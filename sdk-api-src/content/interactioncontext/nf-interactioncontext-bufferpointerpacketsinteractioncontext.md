@@ -1,7 +1,8 @@
 ---
 UID: NF:interactioncontext.BufferPointerPacketsInteractionContext
 title: BufferPointerPacketsInteractionContext function (interactioncontext.h)
-description: Adds the history for a single input pointer to the buffer of the Interaction Context object.helpviewer_keywords: ["BufferPointerPacketsInteractionContext","BufferPointerPacketsInteractionContext function","input_intcontext.bufferpointerpacketsinteractioncontext","interactioncontext.bufferpointerpacketsinteractioncontext","interactioncontext/BufferPointerPacketsInteractionContext"]
+description: Adds the history for a single input pointer to the buffer of the Interaction Context object.
+helpviewer_keywords: ["BufferPointerPacketsInteractionContext","BufferPointerPacketsInteractionContext function","input_intcontext.bufferpointerpacketsinteractioncontext","interactioncontext.bufferpointerpacketsinteractioncontext","interactioncontext/BufferPointerPacketsInteractionContext"]
 old-location: input_intcontext\bufferpointerpacketsinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: a76c87f9-5811-4a34-9843-f13a0592ddb4

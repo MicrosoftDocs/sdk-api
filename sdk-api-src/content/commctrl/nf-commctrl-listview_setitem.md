@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetItem
 title: ListView_SetItem macro (commctrl.h)
-description: Sets some or all of a list-view item's attributes. You can also use ListView_SetItem to set the text of a subitem. You can use this macro or send the LVM_SETITEM message explicitly.helpviewer_keywords: ["ListView_SetItem","ListView_SetItem macro [Windows Controls]","_win32_ListView_SetItem","_win32_ListView_SetItem_cpp","commctrl/ListView_SetItem","controls.ListView_SetItem","controls._win32_ListView_SetItem"]
+description: Sets some or all of a list-view item's attributes. You can also use ListView_SetItem to set the text of a subitem. You can use this macro or send the LVM_SETITEM message explicitly.
+helpviewer_keywords: ["ListView_SetItem","ListView_SetItem macro [Windows Controls]","_win32_ListView_SetItem","_win32_ListView_SetItem_cpp","commctrl/ListView_SetItem","controls.ListView_SetItem","controls._win32_ListView_SetItem"]
 old-location: controls\ListView_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitem.htm

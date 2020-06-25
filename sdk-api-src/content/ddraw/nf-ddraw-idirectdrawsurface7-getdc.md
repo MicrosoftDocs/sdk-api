@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDC
 title: IDirectDrawSurface7::GetDC (ddraw.h)
-description: Creates a GDI-compatible handle of a device context for this surface.helpviewer_keywords: ["GetDC","GetDC method [DirectDraw]","GetDC method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetDC method","IDirectDrawSurface7.GetDC","IDirectDrawSurface7::GetDC","ddraw/IDirectDrawSurface7::GetDC","directdraw.idirectdrawsurface7_getdc"]
+description: Creates a GDI-compatible handle of a device context for this surface.
+helpviewer_keywords: ["GetDC","GetDC method [DirectDraw]","GetDC method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetDC method","IDirectDrawSurface7.GetDC","IDirectDrawSurface7::GetDC","ddraw/IDirectDrawSurface7::GetDC","directdraw.idirectdrawsurface7_getdc"]
 old-location: directdraw\idirectdrawsurface7_getdc.htm
 tech.root: directdraw
 ms.assetid: 683be1bc-8232-42de-907f-1136ffdd524d

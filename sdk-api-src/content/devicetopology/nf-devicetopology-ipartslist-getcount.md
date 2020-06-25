@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPartsList.GetCount
 title: IPartsList::GetCount (devicetopology.h)
-description: The GetCount method gets the number of parts in the parts list.helpviewer_keywords: ["GetCount","GetCount method [Core Audio]","GetCount method [Core Audio]","IPartsList interface","IPartsList interface [Core Audio]","GetCount method","IPartsList.GetCount","IPartsList::GetCount","IPartsListGetCount","coreaudio.ipartslist_getcount","devicetopology/IPartsList::GetCount"]
+description: The GetCount method gets the number of parts in the parts list.
+helpviewer_keywords: ["GetCount","GetCount method [Core Audio]","GetCount method [Core Audio]","IPartsList interface","IPartsList interface [Core Audio]","GetCount method","IPartsList.GetCount","IPartsList::GetCount","IPartsListGetCount","coreaudio.ipartslist_getcount","devicetopology/IPartsList::GetCount"]
 old-location: coreaudio\ipartslist_getcount.htm
 tech.root: CoreAudio
 ms.assetid: 78ca8592-f687-4194-873b-83640c6e72da

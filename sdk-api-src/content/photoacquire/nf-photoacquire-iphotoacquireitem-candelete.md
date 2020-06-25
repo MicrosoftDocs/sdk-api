@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.CanDelete
 title: IPhotoAcquireItem::CanDelete (photoacquire.h)
-description: The CanDelete method indicates whether an item may be deleted.helpviewer_keywords: ["CanDelete","CanDelete method [Picture Acquisition]","CanDelete method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","CanDelete method","IPhotoAcquireItem.CanDelete","IPhotoAcquireItem::CanDelete","IPhotoAcquireItemCanDelete","photoacquire/IPhotoAcquireItem::CanDelete","picacq.iphotoacquireitem_candelete"]
+description: The CanDelete method indicates whether an item may be deleted.
+helpviewer_keywords: ["CanDelete","CanDelete method [Picture Acquisition]","CanDelete method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","CanDelete method","IPhotoAcquireItem.CanDelete","IPhotoAcquireItem::CanDelete","IPhotoAcquireItemCanDelete","photoacquire/IPhotoAcquireItem::CanDelete","picacq.iphotoacquireitem_candelete"]
 old-location: picacq\iphotoacquireitem_candelete.htm
 tech.root: acquisition
 ms.assetid: df0acbed-0352-4591-8908-f0dda1da25dd

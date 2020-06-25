@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Item
 title: IFaxOutboundRoutingGroups::get_Item (faxcomex.h)
-description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.helpviewer_keywords: ["IFaxOutboundRoutingGroups interface [Fax Service]","get_Item method","IFaxOutboundRoutingGroups.get_Item","IFaxOutboundRoutingGroups::get_Item","_mfax_faxoutboundroutinggroups.item_cpp","fax._mfax_faxoutboundroutinggroups_item_cpp","faxcomex/IFaxOutboundRoutingGroups::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxOutboundRoutingGroups interface"]
+description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.
+helpviewer_keywords: ["IFaxOutboundRoutingGroups interface [Fax Service]","get_Item method","IFaxOutboundRoutingGroups.get_Item","IFaxOutboundRoutingGroups::get_Item","_mfax_faxoutboundroutinggroups.item_cpp","fax._mfax_faxoutboundroutinggroups_item_cpp","faxcomex/IFaxOutboundRoutingGroups::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxOutboundRoutingGroups interface"]
 old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8l9p_cpp.htm

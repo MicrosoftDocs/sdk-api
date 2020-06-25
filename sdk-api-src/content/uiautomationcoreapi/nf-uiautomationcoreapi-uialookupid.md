@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaLookupId
 title: UiaLookupId function (uiautomationcoreapi.h)
-description: Gets the integer identifier that can be used in methods that require a PROPERTYID, PATTERNID, CONTROLTYPEID, TEXTATTRIBUTEID, or EVENTID.helpviewer_keywords: ["UiaLookupId","UiaLookupId function [Windows Accessibility]","uiauto.uiauto_UiaLookupIdAutoMeth","uiauto_UiaLookupIdAutoMeth","uiautomationcoreapi/UiaLookupId","winauto.uiauto_UiaLookupIdAutoMeth"]
+description: Gets the integer identifier that can be used in methods that require a PROPERTYID, PATTERNID, CONTROLTYPEID, TEXTATTRIBUTEID, or EVENTID.
+helpviewer_keywords: ["UiaLookupId","UiaLookupId function [Windows Accessibility]","uiauto.uiauto_UiaLookupIdAutoMeth","uiauto_UiaLookupIdAutoMeth","uiautomationcoreapi/UiaLookupId","winauto.uiauto_UiaLookupIdAutoMeth"]
 old-location: winauto\uiauto_UiaLookupIdAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 9906acea-5246-4f01-8d76-03b89ff2f789

@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetQuotaLogFlags
 title: IDiskQuotaControl::SetQuotaLogFlags (dskquota.h)
-description: Controls the logging of user-related quota events on the volume.helpviewer_keywords: ["IDiskQuotaControl interface [Files]","SetQuotaLogFlags method","IDiskQuotaControl.SetQuotaLogFlags","IDiskQuotaControl::SetQuotaLogFlags","SetQuotaLogFlags","SetQuotaLogFlags method [Files]","SetQuotaLogFlags method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_setquotalogflags","base.idiskquotacontrol_setquotalogflags","dskquota/IDiskQuotaControl::SetQuotaLogFlags","fs.idiskquotacontrol_setquotalogflags"]
+description: Controls the logging of user-related quota events on the volume.
+helpviewer_keywords: ["IDiskQuotaControl interface [Files]","SetQuotaLogFlags method","IDiskQuotaControl.SetQuotaLogFlags","IDiskQuotaControl::SetQuotaLogFlags","SetQuotaLogFlags","SetQuotaLogFlags method [Files]","SetQuotaLogFlags method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_setquotalogflags","base.idiskquotacontrol_setquotalogflags","dskquota/IDiskQuotaControl::SetQuotaLogFlags","fs.idiskquotacontrol_setquotalogflags"]
 old-location: fs\idiskquotacontrol_setquotalogflags.htm
 tech.root: FileIO
 ms.assetid: 8e5a1637-ad10-4a36-8493-b57c254ae273

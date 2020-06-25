@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IInitializeSpy
 title: IInitializeSpy (objidl.h)
-description: Performs initialization or cleanup when entering or exiting a COM apartment.helpviewer_keywords: ["IInitializeSpy","IInitializeSpy interface [COM]","IInitializeSpy interface [COM]","described","_com_iinitializespy","com.iinitializespy","objidl/IInitializeSpy"]
+description: Performs initialization or cleanup when entering or exiting a COM apartment.
+helpviewer_keywords: ["IInitializeSpy","IInitializeSpy interface [COM]","IInitializeSpy interface [COM]","described","_com_iinitializespy","com.iinitializespy","objidl/IInitializeSpy"]
 old-location: com\iinitializespy.htm
 tech.root: com
 ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb

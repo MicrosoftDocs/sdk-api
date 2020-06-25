@@ -72,7 +72,7 @@ If more than one application calls **SetServerCertificateValidationInterface** t
 
 If any certificate errors are found during the OS validation of the certificate, then the connection is aborted, and the custom callback is never called. You can customize the OS validation logic with a call to [IBackgroundCopyJobHttpOptions::SetSecurityFlags](/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags). For example, you can ignore expected certificate validation errors.
 
-If OS validation passes, then the [IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate](https://docs.microsoft.com/en-us/windows/win32/api/bits10_3/nf-bits10_3-ibackgroundcopyservercertificatevalidationcallback-validateservercertificate) method is called before completing the TLS handshake and before the HTTP request is sent.
+If OS validation passes, then the [IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate](/windows/win32/api/bits10_3/nf-bits10_3-ibackgroundcopyservercertificatevalidationcallback-validateservercertificate) method is called before completing the TLS handshake and before the HTTP request is sent.
 
 If your validation method declines the certificate, the job will transition to **BG_JOB_STATE_TRANSIENT_ERROR** with a job error context of **BG_ERROR_CONTEXT_SERVER_CERTIFICATE_CALLBACK** and the error **HRESULT** from your callback. If your callback couldn't be called (for example, because BITS needed to validate a server certificate after your program exited), then the job error code will be **BG_E_SERVER_CERT_VALIDATION_INTERFACE_REQUIRED**. When your application is next run, it can fix this error by setting the validation callback again and resuming the job.
 

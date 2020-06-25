@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToString
 title: PropVariantToString function (propvarutil.h)
-description: Extracts a string value from a PROPVARIANT structure.helpviewer_keywords: ["PropVariantToString","PropVariantToString function [Windows Properties]","properties.PropVariantToString","propvarutil/PropVariantToString","shell.PropVariantToString","shell_PropVariantToString"]
+description: Extracts a string value from a PROPVARIANT structure.
+helpviewer_keywords: ["PropVariantToString","PropVariantToString function [Windows Properties]","properties.PropVariantToString","propvarutil/PropVariantToString","shell.PropVariantToString","shell_PropVariantToString"]
 old-location: properties\PropVariantToString.htm
 tech.root: properties
 ms.assetid: d545dc12-a780-4d95-8660-13b3f65725f9

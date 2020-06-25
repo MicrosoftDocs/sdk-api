@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put__CustomCompositor
 title: IMSVidVideoRenderer::put__CustomCompositor (segment.h)
-description: The put__CustomCompositor method specifies a custom image compositor for the Video Mixing Renderer (VMR) to use.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put__CustomCompositor method","IMSVidVideoRenderer.put__CustomCompositor","IMSVidVideoRenderer::put__CustomCompositor","IMSVidVideoRendererput__CustomCompositor","mstv.imsvidvideorenderer_put__customcompositor","put__CustomCompositor","put__CustomCompositor method [Microsoft TV Technologies]","put__CustomCompositor method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put__CustomCompositor"]
+description: The put__CustomCompositor method specifies a custom image compositor for the Video Mixing Renderer (VMR) to use.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put__CustomCompositor method","IMSVidVideoRenderer.put__CustomCompositor","IMSVidVideoRenderer::put__CustomCompositor","IMSVidVideoRendererput__CustomCompositor","mstv.imsvidvideorenderer_put__customcompositor","put__CustomCompositor","put__CustomCompositor method [Microsoft TV Technologies]","put__CustomCompositor method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put__CustomCompositor"]
 old-location: mstv\imsvidvideorenderer_put__customcompositor.htm
 tech.root: mstv
 ms.assetid: ff99b253-20bc-4b8e-8624-ffcbb3b91857

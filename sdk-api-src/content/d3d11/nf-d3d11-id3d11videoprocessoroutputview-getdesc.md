@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorOutputView.GetDesc
 title: ID3D11VideoProcessorOutputView::GetDesc (d3d11.h)
-description: Gets the properties of the video processor output view.helpviewer_keywords: ["GetDesc","GetDesc method [Media Foundation]","GetDesc method [Media Foundation]","ID3D11VideoProcessorOutputView interface","ID3D11VideoProcessorOutputView interface [Media Foundation]","GetDesc method","ID3D11VideoProcessorOutputView.GetDesc","ID3D11VideoProcessorOutputView::GetDesc","d3d11/ID3D11VideoProcessorOutputView::GetDesc","mf.id3d11videoprocessoroutputview_getdesc"]
+description: Gets the properties of the video processor output view.
+helpviewer_keywords: ["GetDesc","GetDesc method [Media Foundation]","GetDesc method [Media Foundation]","ID3D11VideoProcessorOutputView interface","ID3D11VideoProcessorOutputView interface [Media Foundation]","GetDesc method","ID3D11VideoProcessorOutputView.GetDesc","ID3D11VideoProcessorOutputView::GetDesc","d3d11/ID3D11VideoProcessorOutputView::GetDesc","mf.id3d11videoprocessoroutputview_getdesc"]
 old-location: mf\id3d11videoprocessoroutputview_getdesc.htm
 tech.root: medfound
 ms.assetid: 8FDC547A-64B9-415C-865C-31BF8FA1A711

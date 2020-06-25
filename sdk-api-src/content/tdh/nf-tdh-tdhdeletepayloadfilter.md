@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhDeletePayloadFilter
 title: TdhDeletePayloadFilter function (tdh.h)
-description: Frees the memory allocated for a single payload filter by the TdhCreatePayloadFilter function.helpviewer_keywords: ["TdhDeletePayloadFilter","TdhDeletePayloadFilter function [ETW]","etw.tdhdeletepayloadfilter","tdh/TdhDeletePayloadFilter"]
+description: Frees the memory allocated for a single payload filter by the TdhCreatePayloadFilter function.
+helpviewer_keywords: ["TdhDeletePayloadFilter","TdhDeletePayloadFilter function [ETW]","etw.tdhdeletepayloadfilter","tdh/TdhDeletePayloadFilter"]
 old-location: etw\tdhdeletepayloadfilter.htm
 tech.root: ETW
 ms.assetid: 50EB6A11-54AE-4D90-ABA4-13D8EADA1955

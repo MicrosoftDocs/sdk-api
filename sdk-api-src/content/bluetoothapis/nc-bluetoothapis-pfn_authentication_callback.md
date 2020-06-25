@@ -1,7 +1,8 @@
 ---
 UID: NC:bluetoothapis.PFN_AUTHENTICATION_CALLBACK
 title: PFN_AUTHENTICATION_CALLBACK (bluetoothapis.h)
-description: Used in conjunction with the BluetoothRegisterForAuthentication function.helpviewer_keywords: ["PFN_AUTHENTICATION_CALLBACK","PFN_AUTHENTICATION_CALLBACK callback","PFN_AUTHENTICATION_CALLBACK callback function [Bluetooth]","bluetooth.pfn_authentication_callback","bluetoothapis/PFN_AUTHENTICATION_CALLBACK"]
+description: Used in conjunction with the BluetoothRegisterForAuthentication function.
+helpviewer_keywords: ["PFN_AUTHENTICATION_CALLBACK","PFN_AUTHENTICATION_CALLBACK callback","PFN_AUTHENTICATION_CALLBACK callback function [Bluetooth]","bluetooth.pfn_authentication_callback","bluetoothapis/PFN_AUTHENTICATION_CALLBACK"]
 old-location: bluetooth\pfn_authentication_callback.htm
 tech.root: bluetooth
 ms.assetid: 756bfea7-ad03-4fba-b591-42796e7d52ff

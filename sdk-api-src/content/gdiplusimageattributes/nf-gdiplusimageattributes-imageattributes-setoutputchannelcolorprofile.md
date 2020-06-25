@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetOutputChannelColorProfile
 title: ImageAttributes::SetOutputChannelColorProfile (gdiplusimageattributes.h)
-description: The ImageAttributes::SetOutputChannelColorProfile method sets the output channel color-profile file for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetOutputChannelColorProfile method","ImageAttributes.SetOutputChannelColorProfile","ImageAttributes::SetOutputChannelColorProfile","SetOutputChannelColorProfile","SetOutputChannelColorProfile method [GDI+]","SetOutputChannelColorProfile method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_"]
+description: The ImageAttributes::SetOutputChannelColorProfile method sets the output channel color-profile file for a specified category.
+helpviewer_keywords: ["ImageAttributes class [GDI+]","SetOutputChannelColorProfile method","ImageAttributes.SetOutputChannelColorProfile","ImageAttributes::SetOutputChannelColorProfile","SetOutputChannelColorProfile","SetOutputChannelColorProfile method [GDI+]","SetOutputChannelColorProfile method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setoutputchannelcolorprofile.htm

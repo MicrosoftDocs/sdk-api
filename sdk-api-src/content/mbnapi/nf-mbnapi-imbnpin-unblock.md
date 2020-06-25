@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnPin.Unblock
 title: IMbnPin::Unblock (mbnapi.h)
-description: Unblocks a blocked PIN.helpviewer_keywords: ["IMbnPin interface [Microsoft Broadband Networks]","Unblock method","IMbnPin.Unblock","IMbnPin::Unblock","Unblock","Unblock method [Microsoft Broadband Networks]","Unblock method [Microsoft Broadband Networks]","IMbnPin interface","mbn.imbnpin_unblock","mbnapi/IMbnPin::Unblock"]
+description: Unblocks a blocked PIN.
+helpviewer_keywords: ["IMbnPin interface [Microsoft Broadband Networks]","Unblock method","IMbnPin.Unblock","IMbnPin::Unblock","Unblock","Unblock method [Microsoft Broadband Networks]","Unblock method [Microsoft Broadband Networks]","IMbnPin interface","mbn.imbnpin_unblock","mbnapi/IMbnPin::Unblock"]
 old-location: mbn\imbnpin_unblock.htm
 tech.root: mbn
 ms.assetid: 7e5ec24c-681c-4259-9f6a-949bf40d5b3e

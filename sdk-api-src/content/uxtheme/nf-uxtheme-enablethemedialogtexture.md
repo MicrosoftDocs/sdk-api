@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.EnableThemeDialogTexture
 title: EnableThemeDialogTexture function (uxtheme.h)
-description: Enables or disables the visual style of the background of a dialog window.helpviewer_keywords: ["EnableThemeDialogTexture","EnableThemeDialogTexture function [Windows Controls]","controls.EnableThemeDialogTexture","controls.inet_EnableThemeDialogTexture","inet_EnableThemeDialogTexture","inet_EnableThemeDialogTexture_cpp","uxtheme/EnableThemeDialogTexture"]
+description: Enables or disables the visual style of the background of a dialog window.
+helpviewer_keywords: ["EnableThemeDialogTexture","EnableThemeDialogTexture function [Windows Controls]","controls.EnableThemeDialogTexture","controls.inet_EnableThemeDialogTexture","inet_EnableThemeDialogTexture","inet_EnableThemeDialogTexture_cpp","uxtheme/EnableThemeDialogTexture"]
 old-location: controls\EnableThemeDialogTexture.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enablethemedialogtexture.htm

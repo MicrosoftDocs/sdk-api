@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.UnpackSize
 title: UnpackSize function (mfapi.h)
-description: Gets the low-order and high-order UINT32 values from a UINT64 value that represnets a size.helpviewer_keywords: ["UnpackSize","UnpackSize function [Media Foundation]","mf.unpacksize","mfapi/UnpackSize"]
+description: Gets the low-order and high-order UINT32 values from a UINT64 value that represnets a size.
+helpviewer_keywords: ["UnpackSize","UnpackSize function [Media Foundation]","mf.unpacksize","mfapi/UnpackSize"]
 old-location: mf\unpacksize.htm
 tech.root: medfound
 ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2

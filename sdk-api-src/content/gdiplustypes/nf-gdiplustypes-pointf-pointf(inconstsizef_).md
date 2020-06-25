@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF(IN const SizeF &)
 title: PointF::PointF(IN const SizeF &) (gdiplustypes.h)
-description: Creates a PointF object using a SizeF object to specify the X and Y data members.helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF constructor","PointF constructor [GDI+]","PointF constructor [GDI+]","PointF class","PointF.PointF","PointF.PointF(IN const SizeF &)","PointF.PointF(const SizeF&)","PointF::PointF","PointF::PointF(IN const SizeF &)","_gdiplus_CLASS_PointF_PointF_size_","gdiplus._gdiplus_CLASS_PointF_PointF_size_"]
+description: Creates a PointF object using a SizeF object to specify the X and Y data members.
+helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF constructor","PointF constructor [GDI+]","PointF constructor [GDI+]","PointF class","PointF.PointF","PointF.PointF(IN const SizeF &)","PointF.PointF(const SizeF&)","PointF::PointF","PointF::PointF(IN const SizeF &)","_gdiplus_CLASS_PointF_PointF_size_","gdiplus._gdiplus_CLASS_PointF_PointF_size_"]
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_51size.htm

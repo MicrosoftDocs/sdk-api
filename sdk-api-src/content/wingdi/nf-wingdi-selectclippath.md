@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SelectClipPath
 title: SelectClipPath function (wingdi.h)
-description: The SelectClipPath function selects the current path as a clipping region for a device context, combining the new region with any existing clipping region using the specified mode.helpviewer_keywords: ["RGN_AND","RGN_COPY","RGN_DIFF","RGN_OR","RGN_XOR","SelectClipPath","SelectClipPath function [Windows GDI]","_win32_SelectClipPath","gdi.selectclippath","wingdi/SelectClipPath"]
+description: The SelectClipPath function selects the current path as a clipping region for a device context, combining the new region with any existing clipping region using the specified mode.
+helpviewer_keywords: ["RGN_AND","RGN_COPY","RGN_DIFF","RGN_OR","RGN_XOR","SelectClipPath","SelectClipPath function [Windows GDI]","_win32_SelectClipPath","gdi.selectclippath","wingdi/SelectClipPath"]
 old-location: gdi\selectclippath.htm
 tech.root: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb

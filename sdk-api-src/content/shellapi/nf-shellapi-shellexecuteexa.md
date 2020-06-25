@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteExA
 title: ShellExecuteExA function (shellapi.h)
-description: Performs an operation on a specified file.helpviewer_keywords: ["ShellExecuteEx","ShellExecuteEx function [Windows Shell]","ShellExecuteExA","ShellExecuteExW","_win32_ShellExecuteEx","_win32_ShellExecuteEx_cpp","shell.ShellExecuteEx","shellapi/ShellExecuteEx","shellapi/ShellExecuteExA","shellapi/ShellExecuteExW"]
+description: Performs an operation on a specified file.
+helpviewer_keywords: ["ShellExecuteEx","ShellExecuteEx function [Windows Shell]","ShellExecuteExA","ShellExecuteExW","_win32_ShellExecuteEx","_win32_ShellExecuteEx_cpp","shell.ShellExecuteEx","shellapi/ShellExecuteEx","shellapi/ShellExecuteExA","shellapi/ShellExecuteExW"]
 old-location: shell\ShellExecuteEx.htm
 tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
@@ -150,6 +151,10 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="https:/
 
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines ShellExecuteEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

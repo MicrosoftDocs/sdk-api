@@ -1,7 +1,8 @@
 ---
 UID: NC:wsdtypes.PWSD_SOAP_MESSAGE_HANDLER
 title: PWSD_SOAP_MESSAGE_HANDLER (wsdtypes.h)
-description: References a SOAP message handler for incoming messages.helpviewer_keywords: ["PWSD_SOAP_MESSAGE_HANDLER","PWSD_SOAP_MESSAGE_HANDLER callback","PWSD_SOAP_MESSAGE_HANDLER callback function","callback function pointer","ncd.pwsd_soap_message_handler_func","wsdtypes/PWSD_SOAP_MESSAGE_HANDLER"]
+description: References a SOAP message handler for incoming messages.
+helpviewer_keywords: ["PWSD_SOAP_MESSAGE_HANDLER","PWSD_SOAP_MESSAGE_HANDLER callback","PWSD_SOAP_MESSAGE_HANDLER callback function","callback function pointer","ncd.pwsd_soap_message_handler_func","wsdtypes/PWSD_SOAP_MESSAGE_HANDLER"]
 old-location: ncd\pwsd_soap_message_handler_func.htm
 tech.root: WsdApi
 ms.assetid: 175d4352-ba85-4c3c-be9f-4612c4b66123

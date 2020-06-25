@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMStoreFloat4A
 title: XMStoreFloat4A function (directxmath.h)
-description: Stores an XMVECTOR in an XMFLOAT4A.helpviewer_keywords: ["Use DirectX..XMStoreFloat4A","XMStoreFloat4A","XMStoreFloat4A method [DirectX Math Support APIs]","dxmath.xmstorefloat4a"]
+description: Stores an XMVECTOR in an XMFLOAT4A.
+helpviewer_keywords: ["Use DirectX..XMStoreFloat4A","XMStoreFloat4A","XMStoreFloat4A method [DirectX Math Support APIs]","dxmath.xmstorefloat4a"]
 old-location: dxmath\xmstorefloat4a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4A(XMFLOAT4A@,XMVECTOR)

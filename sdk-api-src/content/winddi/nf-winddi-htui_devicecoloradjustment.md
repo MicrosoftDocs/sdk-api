@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.HTUI_DeviceColorAdjustment
 title: HTUI_DeviceColorAdjustment function (winddi.h)
-description: The HTUI_DeviceColorAdjustment function can be used by graphics device drivers to display a dialog box that allows a user to adjust a device's halftoning properties.helpviewer_keywords: ["HTUI_DeviceColorAdjustment","HTUI_DeviceColorAdjustment function [Display Devices]","display.htui_devicecoloradjustment","gdifncs_4f705094-588c-47ce-ac45-f0d2744ce5d2.xml","winddi/HTUI_DeviceColorAdjustment"]
+description: The HTUI_DeviceColorAdjustment function can be used by graphics device drivers to display a dialog box that allows a user to adjust a device's halftoning properties.
+helpviewer_keywords: ["HTUI_DeviceColorAdjustment","HTUI_DeviceColorAdjustment function [Display Devices]","display.htui_devicecoloradjustment","gdifncs_4f705094-588c-47ce-ac45-f0d2744ce5d2.xml","winddi/HTUI_DeviceColorAdjustment"]
 old-location: display\htui_devicecoloradjustment.htm
 tech.root: display
 ms.assetid: 063320e3-b103-4c9a-ae82-790e5b768dc9

@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunitCount
 title: IDeviceTopology::GetSubunitCount (devicetopology.h)
-description: The GetSubunitCount method gets the number of subunits in the device topology.helpviewer_keywords: ["GetSubunitCount","GetSubunitCount method [Core Audio]","GetSubunitCount method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSubunitCount method","IDeviceTopology.GetSubunitCount","IDeviceTopology::GetSubunitCount","IDeviceTopologyGetSubunitCount","coreaudio.idevicetopology_getsubunitcount","devicetopology/IDeviceTopology::GetSubunitCount"]
+description: The GetSubunitCount method gets the number of subunits in the device topology.
+helpviewer_keywords: ["GetSubunitCount","GetSubunitCount method [Core Audio]","GetSubunitCount method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSubunitCount method","IDeviceTopology.GetSubunitCount","IDeviceTopology::GetSubunitCount","IDeviceTopologyGetSubunitCount","coreaudio.idevicetopology_getsubunitcount","devicetopology/IDeviceTopology::GetSubunitCount"]
 old-location: coreaudio\idevicetopology_getsubunitcount.htm
 tech.root: CoreAudio
 ms.assetid: 70fa57bb-56fe-4f8c-9967-10714f1cba22

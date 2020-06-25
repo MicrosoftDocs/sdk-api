@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.GetCount
 title: IEnumWIA_DEV_CAPS::GetCount (wia_xp.h)
-description: The IEnumWIA_DEV_CAPS::GetCount method returns the number of elements stored by this enumerator.helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IEnumWIA_DEV_CAPS interface","IEnumWIA_DEV_CAPS interface [WIA]","GetCount method","IEnumWIA_DEV_CAPS.GetCount","IEnumWIA_DEV_CAPS::GetCount","_wia_IEnumWIA_DEV_CAPS_GetCount","wia._wia_IEnumWIA_DEV_CAPS_GetCount","wia_xp/IEnumWIA_DEV_CAPS::GetCount"]
+description: The IEnumWIA_DEV_CAPS::GetCount method returns the number of elements stored by this enumerator.
+helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IEnumWIA_DEV_CAPS interface","IEnumWIA_DEV_CAPS interface [WIA]","GetCount method","IEnumWIA_DEV_CAPS.GetCount","IEnumWIA_DEV_CAPS::GetCount","_wia_IEnumWIA_DEV_CAPS_GetCount","wia._wia_IEnumWIA_DEV_CAPS_GetCount","wia_xp/IEnumWIA_DEV_CAPS::GetCount"]
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_caps\getcount.htm

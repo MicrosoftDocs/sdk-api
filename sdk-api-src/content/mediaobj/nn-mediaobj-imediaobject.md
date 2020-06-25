@@ -1,7 +1,8 @@
 ---
 UID: NN:mediaobj.IMediaObject
 title: IMediaObject (mediaobj.h)
-description: The IMediaObject interface provides methods for manipulating a Microsoft DirectX Media Object (DMO).helpviewer_keywords: ["IMediaObject","IMediaObject interface [DirectShow]","IMediaObject interface [DirectShow]","described","IMediaObjectInterface","dshow.imediaobject","mediaobj/IMediaObject"]
+description: The IMediaObject interface provides methods for manipulating a Microsoft DirectX Media Object (DMO).
+helpviewer_keywords: ["IMediaObject","IMediaObject interface [DirectShow]","IMediaObject interface [DirectShow]","described","IMediaObjectInterface","dshow.imediaobject","mediaobj/IMediaObject"]
 old-location: dshow\imediaobject.htm
 tech.root: DirectShow
 ms.assetid: a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b

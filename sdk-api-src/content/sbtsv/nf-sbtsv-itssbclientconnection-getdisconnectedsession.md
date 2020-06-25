@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetDisconnectedSession
 title: ITsSbClientConnection::GetDisconnectedSession (sbtsv.h)
-description: Gets a disconnected session.helpviewer_keywords: ["GetDisconnectedSession","GetDisconnectedSession method [Remote Desktop Services]","GetDisconnectedSession method [Remote Desktop Services]","ITsSbClientConnection interface","ITsSbClientConnection interface [Remote Desktop Services]","GetDisconnectedSession method","ITsSbClientConnection.GetDisconnectedSession","ITsSbClientConnection::GetDisconnectedSession","sbtsv/ITsSbClientConnection::GetDisconnectedSession","termserv.itssbclientconnection_getdisconnectedsession"]
+description: Gets a disconnected session.
+helpviewer_keywords: ["GetDisconnectedSession","GetDisconnectedSession method [Remote Desktop Services]","GetDisconnectedSession method [Remote Desktop Services]","ITsSbClientConnection interface","ITsSbClientConnection interface [Remote Desktop Services]","GetDisconnectedSession method","ITsSbClientConnection.GetDisconnectedSession","ITsSbClientConnection::GetDisconnectedSession","sbtsv/ITsSbClientConnection::GetDisconnectedSession","termserv.itssbclientconnection_getdisconnectedsession"]
 old-location: termserv\itssbclientconnection_getdisconnectedsession.htm
 tech.root: TermServ
 ms.assetid: 3fb6d2af-a60c-4173-a2c0-9d9ce5d26811

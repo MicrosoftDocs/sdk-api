@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.DisplayConfigureDialog
 title: IPhotoAcquirePlugin::DisplayConfigureDialog (photoacquire.h)
-description: The DisplayConfigureDialog method provides extended functionality when the configuration dialog is displayed. The application provides the implementation of the DisplayConfigureDialog method.helpviewer_keywords: ["DisplayConfigureDialog","DisplayConfigureDialog method [Picture Acquisition]","DisplayConfigureDialog method [Picture Acquisition]","IPhotoAcquirePlugin interface","IPhotoAcquirePlugin interface [Picture Acquisition]","DisplayConfigureDialog method","IPhotoAcquirePlugin.DisplayConfigureDialog","IPhotoAcquirePlugin::DisplayConfigureDialog","IPhotoAcquirePluginDisplayConfigureDialog","photoacquire/IPhotoAcquirePlugin::DisplayConfigureDialog","picacq.iphotoacquireplugin_displayconfiguredialog"]
+description: The DisplayConfigureDialog method provides extended functionality when the configuration dialog is displayed. The application provides the implementation of the DisplayConfigureDialog method.
+helpviewer_keywords: ["DisplayConfigureDialog","DisplayConfigureDialog method [Picture Acquisition]","DisplayConfigureDialog method [Picture Acquisition]","IPhotoAcquirePlugin interface","IPhotoAcquirePlugin interface [Picture Acquisition]","DisplayConfigureDialog method","IPhotoAcquirePlugin.DisplayConfigureDialog","IPhotoAcquirePlugin::DisplayConfigureDialog","IPhotoAcquirePluginDisplayConfigureDialog","photoacquire/IPhotoAcquirePlugin::DisplayConfigureDialog","picacq.iphotoacquireplugin_displayconfiguredialog"]
 old-location: picacq\iphotoacquireplugin_displayconfiguredialog.htm
 tech.root: acquisition
 ms.assetid: 74257374-15c8-4e83-b271-2fd133f4dd7b

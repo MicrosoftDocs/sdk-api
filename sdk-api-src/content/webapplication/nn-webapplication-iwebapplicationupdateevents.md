@@ -1,7 +1,8 @@
 ---
 UID: NN:webapplication.IWebApplicationUpdateEvents
 title: IWebApplicationUpdateEvents (webapplication.h)
-description: Enables an authoring app to receive notification of designer events and respond to those events.helpviewer_keywords: ["IWebApplicationUpdateEvents","IWebApplicationUpdateEvents interface [Debugging Windows Store apps]","IWebApplicationUpdateEvents interface [Debugging Windows Store apps]","described","debug.iwebapplicationupdateevents","webapplication/IWebApplicationUpdateEvents"]
+description: Enables an authoring app to receive notification of designer events and respond to those events.
+helpviewer_keywords: ["IWebApplicationUpdateEvents","IWebApplicationUpdateEvents interface [Debugging Windows Store apps]","IWebApplicationUpdateEvents interface [Debugging Windows Store apps]","described","debug.iwebapplicationupdateevents","webapplication/IWebApplicationUpdateEvents"]
 old-location: debug\iwebapplicationupdateevents.htm
 tech.root: debug_wwahost
 ms.assetid: C1ED87B6-CC24-48CF-BC9F-FF702A0903E8

@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck (sbtsv.h)
-description: Sets a property of an environment.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetEnvironmentPropertyWithVersionCheck method","ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck","ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck","SetEnvironmentPropertyWithVersionCheck","SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services]","SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck","termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck"]
+description: Sets a property of an environment.
+helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetEnvironmentPropertyWithVersionCheck method","ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck","ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck","SetEnvironmentPropertyWithVersionCheck","SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services]","SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck","termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck"]
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm
 tech.root: TermServ
 ms.assetid: 9c4caee8-85fb-4d8f-9c5a-b82eea02a1d0

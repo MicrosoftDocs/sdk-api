@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SetBackupSchema
 title: IVssCreateExpressWriterMetadata::SetBackupSchema (vswriter.h)
-description: Used by an express writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.helpviewer_keywords: ["IVssCreateExpressWriterMetadata interface","SetBackupSchema method","IVssCreateExpressWriterMetadata.SetBackupSchema","IVssCreateExpressWriterMetadata::SetBackupSchema","SetBackupSchema","SetBackupSchema method","SetBackupSchema method","IVssCreateExpressWriterMetadata interface","base.ivsscreateexpresswritermetadata_setbackupschema","vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema"]
+description: Used by an express writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
+helpviewer_keywords: ["IVssCreateExpressWriterMetadata interface","SetBackupSchema method","IVssCreateExpressWriterMetadata.SetBackupSchema","IVssCreateExpressWriterMetadata::SetBackupSchema","SetBackupSchema","SetBackupSchema method","SetBackupSchema method","IVssCreateExpressWriterMetadata interface","base.ivsscreateexpresswritermetadata_setbackupschema","vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema"]
 old-location: base\ivsscreateexpresswritermetadata_setbackupschema.htm
 tech.root: VSS
 ms.assetid: b270424d-61e1-4984-a487-4dcb4e113985

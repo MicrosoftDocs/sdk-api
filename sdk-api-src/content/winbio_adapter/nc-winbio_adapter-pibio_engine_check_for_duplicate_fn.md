@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
 title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN (winbio_adapter.h)
-description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.helpviewer_keywords: ["EngineAdapterCheckForDuplicate","EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API]","PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN","PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback","secbiomet.engineadaptercheckforduplicate","winbio_adapter/EngineAdapterCheckForDuplicate"]
+description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
+helpviewer_keywords: ["EngineAdapterCheckForDuplicate","EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API]","PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN","PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback","secbiomet.engineadaptercheckforduplicate","winbio_adapter/EngineAdapterCheckForDuplicate"]
 old-location: secbiomet\engineadaptercheckforduplicate.htm
 tech.root: SecBioMet
 ms.assetid: 0c73e8b3-2bec-419c-bcb0-3e35d1520f05

@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NodeName
 title: IKsTopologyInfo::get_NodeName (vidcap.h)
-description: The get_NodeName method returns the name of the node.helpviewer_keywords: ["IKsTopologyInfo interface [DirectShow]","get_NodeName method","IKsTopologyInfo.get_NodeName","IKsTopologyInfo::get_NodeName","IKsTopologyInfoget_NodeName","dshow.ikstopologyinfo_get_nodename","get_NodeName","get_NodeName method [DirectShow]","get_NodeName method [DirectShow]","IKsTopologyInfo interface","vidcap/IKsTopologyInfo::get_NodeName"]
+description: The get_NodeName method returns the name of the node.
+helpviewer_keywords: ["IKsTopologyInfo interface [DirectShow]","get_NodeName method","IKsTopologyInfo.get_NodeName","IKsTopologyInfo::get_NodeName","IKsTopologyInfoget_NodeName","dshow.ikstopologyinfo_get_nodename","get_NodeName","get_NodeName method [DirectShow]","get_NodeName method [DirectShow]","IKsTopologyInfo interface","vidcap/IKsTopologyInfo::get_NodeName"]
 old-location: dshow\ikstopologyinfo_get_nodename.htm
 tech.root: DirectShow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01

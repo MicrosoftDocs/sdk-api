@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.GetReferenceTrackerManager
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Gets an IReferenceTrackerManager interface from a XAML object.helpviewer_keywords: ["GetReferenceTrackerManager","GetReferenceTrackerManager method [Windows Runtime]","GetReferenceTrackerManager method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","GetReferenceTrackerManager method","IReferenceTracker.GetReferenceTrackerManager","IReferenceTracker.xaml","IReferenceTracker::GetReferenceTrackerManager","IReferenceTracker::xaml","windows/IReferenceTracker::GetReferenceTrackerManager","winrt.ireferencetracker_getreferencetrackermanager"]
+description: Gets an IReferenceTrackerManager interface from a XAML object.
+helpviewer_keywords: ["GetReferenceTrackerManager","GetReferenceTrackerManager method [Windows Runtime]","GetReferenceTrackerManager method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","GetReferenceTrackerManager method","IReferenceTracker.GetReferenceTrackerManager","IReferenceTracker.xaml","IReferenceTracker::GetReferenceTrackerManager","IReferenceTracker::xaml","windows/IReferenceTracker::GetReferenceTrackerManager","winrt.ireferencetracker_getreferencetrackermanager"]
 old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
 tech.root: WinRT
 ms.assetid: c65f1220-24e6-4f63-9318-5b9e57d96e1b

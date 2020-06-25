@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.SizeF
 title: SizeF function (d2d1helper.h)
-description: Creates a D2D1_SIZE_F structure that contains the specified width and height.helpviewer_keywords: ["SizeF","SizeF function [Direct2D]","d2d1helper/SizeF","direct2d.sizef"]
+description: Creates a D2D1_SIZE_F structure that contains the specified width and height.
+helpviewer_keywords: ["SizeF","SizeF function [Direct2D]","d2d1helper/SizeF","direct2d.sizef"]
 old-location: direct2d\sizef.htm
 tech.root: Direct2D
 ms.assetid: dbb75605-a0ec-464c-bb10-4455a90c4ae9

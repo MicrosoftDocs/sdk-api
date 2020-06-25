@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCreateDNSIncident
 title: NdfCreateDNSIncident function (ndfapi.h)
-description: Diagnoses name resolution issues in resolving a specific host name.helpviewer_keywords: ["NdfCreateDNSIncident","NdfCreateDNSIncident function [NDF]","ndf.ndfcreatednsincident","ndfapi/NdfCreateDNSIncident"]
+description: Diagnoses name resolution issues in resolving a specific host name.
+helpviewer_keywords: ["NdfCreateDNSIncident","NdfCreateDNSIncident function [NDF]","ndf.ndfcreatednsincident","ndfapi/NdfCreateDNSIncident"]
 old-location: ndf\ndfcreatednsincident.htm
 tech.root: NDF
 ms.assetid: e852b3e5-c5b8-45e2-af72-f7e89fb2c310

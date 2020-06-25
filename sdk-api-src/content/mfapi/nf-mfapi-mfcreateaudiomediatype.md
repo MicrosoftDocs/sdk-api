@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateAudioMediaType
 title: MFCreateAudioMediaType function (mfapi.h)
-description: Creates an audio media type from a WAVEFORMATEX structure.helpviewer_keywords: ["8857e150-1746-4f3f-aaa8-db0f44787621","MFCreateAudioMediaType","MFCreateAudioMediaType function [Media Foundation]","mf.mfcreateaudiomediatype","mfapi/MFCreateAudioMediaType"]
+description: Creates an audio media type from a WAVEFORMATEX structure.
+helpviewer_keywords: ["8857e150-1746-4f3f-aaa8-db0f44787621","MFCreateAudioMediaType","MFCreateAudioMediaType function [Media Foundation]","mf.mfcreateaudiomediatype","mfapi/MFCreateAudioMediaType"]
 old-location: mf\mfcreateaudiomediatype.htm
 tech.root: medfound
 ms.assetid: 8857e150-1746-4f3f-aaa8-db0f44787621

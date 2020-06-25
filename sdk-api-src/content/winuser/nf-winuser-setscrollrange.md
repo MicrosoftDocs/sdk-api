@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetScrollRange
 title: SetScrollRange function (winuser.h)
-description: The SetScrollRange function sets the minimum and maximum scroll box positions for the specified scroll bar.helpviewer_keywords: ["SB_CTL","SB_HORZ","SB_VERT","SetScrollRange","SetScrollRange function [Windows Controls]","_win32_SetScrollRange","_win32_SetScrollRange_cpp","controls.SetScrollRange","controls._win32_SetScrollRange","winuser/SetScrollRange"]
+description: The SetScrollRange function sets the minimum and maximum scroll box positions for the specified scroll bar.
+helpviewer_keywords: ["SB_CTL","SB_HORZ","SB_VERT","SetScrollRange","SetScrollRange function [Windows Controls]","_win32_SetScrollRange","_win32_SetScrollRange_cpp","controls.SetScrollRange","controls._win32_SetScrollRange","winuser/SetScrollRange"]
 old-location: controls\SetScrollRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollrange.htm

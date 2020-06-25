@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtOpenPublisherEnum
 title: EvtOpenPublisherEnum function (winevt.h)
-description: Gets a handle that you use to enumerate the list of registered providers on the computer.helpviewer_keywords: ["EvtOpenPublisherEnum","EvtOpenPublisherEnum function [EventLog]","wes.evtopenpublisherenum","winevt/EvtOpenPublisherEnum"]
+description: Gets a handle that you use to enumerate the list of registered providers on the computer.
+helpviewer_keywords: ["EvtOpenPublisherEnum","EvtOpenPublisherEnum function [EventLog]","wes.evtopenpublisherenum","winevt/EvtOpenPublisherEnum"]
 old-location: wes\evtopenpublisherenum.htm
 tech.root: wes
 ms.assetid: 156c434c-6d0f-4af0-bf10-20aa6bae0945

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptEnumOIDInfo
 title: CryptEnumOIDInfo function (wincrypt.h)
-description: Enumerates predefined and registered object identifier (OID) CRYPT_OID_INFO structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group.helpviewer_keywords: ["CryptEnumOIDInfo","CryptEnumOIDInfo function [Security]","_crypto2_cryptenumoidinfo","security.cryptenumoidinfo","wincrypt/CryptEnumOIDInfo"]
+description: Enumerates predefined and registered object identifier (OID) CRYPT_OID_INFO structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group.
+helpviewer_keywords: ["CryptEnumOIDInfo","CryptEnumOIDInfo function [Security]","_crypto2_cryptenumoidinfo","security.cryptenumoidinfo","wincrypt/CryptEnumOIDInfo"]
 old-location: security\cryptenumoidinfo.htm
 tech.root: SecCrypto
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25

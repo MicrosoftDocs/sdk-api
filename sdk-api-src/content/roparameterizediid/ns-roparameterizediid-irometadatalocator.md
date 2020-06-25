@@ -1,7 +1,8 @@
 ---
 UID: NS:roparameterizediid.IRoMetaDataLocator
 title: IRoMetaDataLocator (roparameterizediid.h)
-description: Enables the RoGetParameterizedTypeInstanceIID function to access run-time metadata.helpviewer_keywords: ["IRoMetaDataLocator","IRoMetaDataLocator structure [Windows Runtime]","PIRoMetaDataLocator","PIRoMetaDataLocator structure pointer [Windows Runtime]","roparameterizediid/IRoMetaDataLocator","roparameterizediid/PIRoMetaDataLocator","winrt.irometadatalocator_struct"]
+description: Enables the RoGetParameterizedTypeInstanceIID function to access run-time metadata.
+helpviewer_keywords: ["IRoMetaDataLocator","IRoMetaDataLocator structure [Windows Runtime]","PIRoMetaDataLocator","PIRoMetaDataLocator structure pointer [Windows Runtime]","roparameterizediid/IRoMetaDataLocator","roparameterizediid/PIRoMetaDataLocator","winrt.irometadatalocator_struct"]
 old-location: winrt\irometadatalocator_struct.htm
 tech.root: WinRT
 ms.assetid: A1004454-1C9F-46AF-8C88-BB8204FA0410

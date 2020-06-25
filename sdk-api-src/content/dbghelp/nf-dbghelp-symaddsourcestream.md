@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymAddSourceStream
 title: SymAddSourceStream function (dbghelp.h)
-description: Adds the stream to the specified module for use by the Source Server.helpviewer_keywords: ["SymAddSourceStream","SymAddSourceStream function","SymAddSourceStreamW","base.symaddsourcestream","dbghelp/SymAddSourceStream","dbghelp/SymAddSourceStreamW"]
+description: Adds the stream to the specified module for use by the Source Server.
+helpviewer_keywords: ["SymAddSourceStream","SymAddSourceStream function","SymAddSourceStreamW","base.symaddsourcestream","dbghelp/SymAddSourceStream","dbghelp/SymAddSourceStreamW"]
 old-location: base\symaddsourcestream.htm
 tech.root: Debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93

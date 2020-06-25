@@ -1,7 +1,8 @@
 ---
 UID: NE:sdoias._IASCOMPONENTPROPERTIES
 title: IASCOMPONENTPROPERTIES (sdoias.h)
-description: The values of the IASCOMPONENTPROPERTIES enumeration type enumerate identifiers for an SDO object.helpviewer_keywords: ["IASCOMPONENTPROPERTIES","IASCOMPONENTPROPERTIES enumeration [Network Policy Server]","PROPERTY_COMPONENT_ID","PROPERTY_COMPONENT_PROG_ID","PROPERTY_COMPONENT_START","_sdo_iascomponentproperties","nps.SDO_iascomponentproperties","sdo.iascomponentproperties","sdoias/IASCOMPONENTPROPERTIES","sdoias/PROPERTY_COMPONENT_ID","sdoias/PROPERTY_COMPONENT_PROG_ID","sdoias/PROPERTY_COMPONENT_START"]
+description: The values of the IASCOMPONENTPROPERTIES enumeration type enumerate identifiers for an SDO object.
+helpviewer_keywords: ["IASCOMPONENTPROPERTIES","IASCOMPONENTPROPERTIES enumeration [Network Policy Server]","PROPERTY_COMPONENT_ID","PROPERTY_COMPONENT_PROG_ID","PROPERTY_COMPONENT_START","_sdo_iascomponentproperties","nps.SDO_iascomponentproperties","sdo.iascomponentproperties","sdoias/IASCOMPONENTPROPERTIES","sdoias/PROPERTY_COMPONENT_ID","sdoias/PROPERTY_COMPONENT_PROG_ID","sdoias/PROPERTY_COMPONENT_START"]
 old-location: nps\SDO_iascomponentproperties.htm
 tech.root: Nps
 ms.assetid: 5b2ab351-88b8-4a9d-9954-883d9e251b4c

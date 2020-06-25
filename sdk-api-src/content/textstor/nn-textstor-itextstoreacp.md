@@ -1,7 +1,8 @@
 ---
 UID: NN:textstor.ITextStoreACP
 title: ITextStoreACP (textstor.h)
-description: The ITextStoreACP interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF.helpviewer_keywords: ["ITextStoreACP","ITextStoreACP interface [Text Services Framework]","ITextStoreACP interface [Text Services Framework]","described","_tsf_itextstoreacp_ref","textstor/ITextStoreACP","tsf.itextstoreacp"]
+description: The ITextStoreACP interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF.
+helpviewer_keywords: ["ITextStoreACP","ITextStoreACP interface [Text Services Framework]","ITextStoreACP interface [Text Services Framework]","described","_tsf_itextstoreacp_ref","textstor/ITextStoreACP","tsf.itextstoreacp"]
 old-location: tsf\itextstoreacp.htm
 tech.root: TSF
 ms.assetid: 21e011f7-6791-4eb9-85c9-18bd10107119

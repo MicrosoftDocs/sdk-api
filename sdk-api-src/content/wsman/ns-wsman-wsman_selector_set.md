@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_SELECTOR_SET
 title: WSMAN_SELECTOR_SET (wsman.h)
-description: Defines a set of keys that represent the identity of a resource.helpviewer_keywords: ["WSMAN_SELECTOR_SET","WSMAN_SELECTOR_SET structure [Windows Remote Management]","winrm.wsman_selector_set","wsman/WSMAN_SELECTOR_SET"]
+description: Defines a set of keys that represent the identity of a resource.
+helpviewer_keywords: ["WSMAN_SELECTOR_SET","WSMAN_SELECTOR_SET structure [Windows Remote Management]","winrm.wsman_selector_set","wsman/WSMAN_SELECTOR_SET"]
 old-location: winrm\wsman_selector_set.htm
 tech.root: winrm
 ms.assetid: 8157c0e6-b992-46a9-9976-e57dd06e7f8b

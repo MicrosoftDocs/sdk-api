@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.TF_CreateInputProcessorProfiles
 title: TF_CreateInputProcessorProfiles function (msctf.h)
-description: The TF_CreateInputProcessorProfiles function is used to create a input processor profile object without having to initialize COM.helpviewer_keywords: ["TF_CreateInputProcessorProfiles","TF_CreateInputProcessorProfiles function [Text Services Framework]","msctf/TF_CreateInputProcessorProfiles","tsf.tf_createinputprocessorprofiles"]
+description: The TF_CreateInputProcessorProfiles function is used to create a input processor profile object without having to initialize COM.
+helpviewer_keywords: ["TF_CreateInputProcessorProfiles","TF_CreateInputProcessorProfiles function [Text Services Framework]","msctf/TF_CreateInputProcessorProfiles","tsf.tf_createinputprocessorprofiles"]
 old-location: tsf\tf_createinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: d223736f-cf83-45a4-871e-0d6fcecb5c43

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommandProvider.GetCommand
 title: IExplorerCommandProvider::GetCommand (shobjidl_core.h)
-description: Gets a specified Explorer command instance.helpviewer_keywords: ["GetCommand","GetCommand method [Windows Shell]","GetCommand method [Windows Shell]","IExplorerCommandProvider interface","IExplorerCommandProvider interface [Windows Shell]","GetCommand method","IExplorerCommandProvider.GetCommand","IExplorerCommandProvider::GetCommand","_shell_IExplorerCommandProvider_GetCommand","shell.IExplorerCommandProvider_GetCommand","shobjidl_core/IExplorerCommandProvider::GetCommand"]
+description: Gets a specified Explorer command instance.
+helpviewer_keywords: ["GetCommand","GetCommand method [Windows Shell]","GetCommand method [Windows Shell]","IExplorerCommandProvider interface","IExplorerCommandProvider interface [Windows Shell]","GetCommand method","IExplorerCommandProvider.GetCommand","IExplorerCommandProvider::GetCommand","_shell_IExplorerCommandProvider_GetCommand","shell.IExplorerCommandProvider_GetCommand","shobjidl_core/IExplorerCommandProvider::GetCommand"]
 old-location: shell\IExplorerCommandProvider_GetCommand.htm
 tech.root: shell
 ms.assetid: 8ef1fb9d-03ed-4e1a-bc13-9f5caab2abb9

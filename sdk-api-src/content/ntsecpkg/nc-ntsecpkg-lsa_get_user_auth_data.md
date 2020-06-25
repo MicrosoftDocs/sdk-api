@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_USER_AUTH_DATA
 title: LSA_GET_USER_AUTH_DATA (ntsecpkg.h)
-description: The GetUserAuthData function returns the authorization data for the user in a single buffer.helpviewer_keywords: ["GetUserAuthData","GetUserAuthData callback function [Security]","LSA_GET_USER_AUTH_DATA","LSA_GET_USER_AUTH_DATA callback","_ssp_getuserauthdata","ntsecpkg/GetUserAuthData","security.getuserauthdata"]
+description: The GetUserAuthData function returns the authorization data for the user in a single buffer.
+helpviewer_keywords: ["GetUserAuthData","GetUserAuthData callback function [Security]","LSA_GET_USER_AUTH_DATA","LSA_GET_USER_AUTH_DATA callback","_ssp_getuserauthdata","ntsecpkg/GetUserAuthData","security.getuserauthdata"]
 old-location: security\getuserauthdata.htm
 tech.root: SecAuthN
 ms.assetid: 2436eaee-1f32-4e32-9a98-74968ad9b58e

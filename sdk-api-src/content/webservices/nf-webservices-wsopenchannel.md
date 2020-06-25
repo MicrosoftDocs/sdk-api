@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsOpenChannel
 title: WsOpenChannel function (webservices.h)
-description: Open a channel to an endpoint.helpviewer_keywords: ["WsOpenChannel","WsOpenChannel function [Web Services for Windows]","webservices/WsOpenChannel","wsw.wsopenchannel"]
+description: Open a channel to an endpoint.
+helpviewer_keywords: ["WsOpenChannel","WsOpenChannel function [Web Services for Windows]","webservices/WsOpenChannel","wsw.wsopenchannel"]
 old-location: wsw\wsopenchannel.htm
 tech.root: wsw
 ms.assetid: a7226194-0974-4f3c-b92d-78a93e86eea5

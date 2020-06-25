@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects_2.D2D1_CHROMAKEY_PROP
 title: D2D1_CHROMAKEY_PROP (d2d1effects_2.h)
-description: Identifiers for properties of the Chroma-key effect.helpviewer_keywords: ["D2D1_CHROMAKEY_PROP","D2D1_CHROMAKEY_PROP enumeration [Direct2D]","D2D1_CHROMAKEY_PROP_COLOR","D2D1_CHROMAKEY_PROP_FEATHER","D2D1_CHROMAKEY_PROP_INVERT_ALPHA","D2D1_CHROMAKEY_PROP_TOLERANCE","d2d1effects_2/D2D1_CHROMAKEY_PROP","d2d1effects_2/D2D1_CHROMAKEY_PROP_COLOR","d2d1effects_2/D2D1_CHROMAKEY_PROP_FEATHER","d2d1effects_2/D2D1_CHROMAKEY_PROP_INVERT_ALPHA","d2d1effects_2/D2D1_CHROMAKEY_PROP_TOLERANCE","direct2d.d2d1_chromakey_prop"]
+description: Identifiers for properties of the Chroma-key effect.
+helpviewer_keywords: ["D2D1_CHROMAKEY_PROP","D2D1_CHROMAKEY_PROP enumeration [Direct2D]","D2D1_CHROMAKEY_PROP_COLOR","D2D1_CHROMAKEY_PROP_FEATHER","D2D1_CHROMAKEY_PROP_INVERT_ALPHA","D2D1_CHROMAKEY_PROP_TOLERANCE","d2d1effects_2/D2D1_CHROMAKEY_PROP","d2d1effects_2/D2D1_CHROMAKEY_PROP_COLOR","d2d1effects_2/D2D1_CHROMAKEY_PROP_FEATHER","d2d1effects_2/D2D1_CHROMAKEY_PROP_INVERT_ALPHA","d2d1effects_2/D2D1_CHROMAKEY_PROP_TOLERANCE","direct2d.d2d1_chromakey_prop"]
 old-location: direct2d\d2d1_chromakey_prop.htm
 tech.root: Direct2D
 ms.assetid: B68F7F68-12F5-4650-84ED-D1EE0B670964

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.get_FragmentRoot
 title: IRawElementProviderFragment::get_FragmentRoot (uiautomationcore.h)
-description: Specifies the root node of the fragment.helpviewer_keywords: ["FragmentRoot property [Windows Accessibility]","FragmentRoot property [Windows Accessibility]","IRawElementProviderFragment interface","IRawElementProviderFragment interface [Windows Accessibility]","FragmentRoot property","IRawElementProviderFragment.FragmentRoot","IRawElementProviderFragment.get_FragmentRoot","IRawElementProviderFragment::FragmentRoot","IRawElementProviderFragment::get_FragmentRoot","get_FragmentRoot","uiauto.uiauto_IRawElementProviderFragment_FragmentRoot","uiauto_IRawElementProviderFragment_FragmentRoot","uiautomationcore/IRawElementProviderFragment::FragmentRoot","uiautomationcore/IRawElementProviderFragment::get_FragmentRoot","winauto.uiauto_IRawElementProviderFragment_FragmentRoot"]
+description: Specifies the root node of the fragment.
+helpviewer_keywords: ["FragmentRoot property [Windows Accessibility]","FragmentRoot property [Windows Accessibility]","IRawElementProviderFragment interface","IRawElementProviderFragment interface [Windows Accessibility]","FragmentRoot property","IRawElementProviderFragment.FragmentRoot","IRawElementProviderFragment.get_FragmentRoot","IRawElementProviderFragment::FragmentRoot","IRawElementProviderFragment::get_FragmentRoot","get_FragmentRoot","uiauto.uiauto_IRawElementProviderFragment_FragmentRoot","uiauto_IRawElementProviderFragment_FragmentRoot","uiautomationcore/IRawElementProviderFragment::FragmentRoot","uiautomationcore/IRawElementProviderFragment::get_FragmentRoot","winauto.uiauto_IRawElementProviderFragment_FragmentRoot"]
 old-location: winauto\uiauto_IRawElementProviderFragment_FragmentRoot.htm
 tech.root: WinAuto
 ms.assetid: d3fceca3-78b2-4775-ae11-1c9e71dbf772

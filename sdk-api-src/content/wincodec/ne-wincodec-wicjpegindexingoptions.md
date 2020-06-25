@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICJpegIndexingOptions
 title: WICJpegIndexingOptions (wincodec.h)
-description: Specifies the options for indexing a JPEG image.helpviewer_keywords: ["WICJpegIndexingOptions","WICJpegIndexingOptions enumeration [Windows Imaging Component]","WICJpegIndexingOptionsGenerateOnDemand","WICJpegIndexingOptionsGenerateOnLoad","WICJpegIndexingOptions_FORCE_DWORD","wic.wicjpegindexingoptions","wincodec/WICJpegIndexingOptions","wincodec/WICJpegIndexingOptionsGenerateOnDemand","wincodec/WICJpegIndexingOptionsGenerateOnLoad","wincodec/WICJpegIndexingOptions_FORCE_DWORD"]
+description: Specifies the options for indexing a JPEG image.
+helpviewer_keywords: ["WICJpegIndexingOptions","WICJpegIndexingOptions enumeration [Windows Imaging Component]","WICJpegIndexingOptionsGenerateOnDemand","WICJpegIndexingOptionsGenerateOnLoad","WICJpegIndexingOptions_FORCE_DWORD","wic.wicjpegindexingoptions","wincodec/WICJpegIndexingOptions","wincodec/WICJpegIndexingOptionsGenerateOnDemand","wincodec/WICJpegIndexingOptionsGenerateOnLoad","wincodec/WICJpegIndexingOptions_FORCE_DWORD"]
 old-location: wic\wicjpegindexingoptions.htm
 tech.root: wic
 ms.assetid: AFA9CC1B-847A-4237-9942-EC721FA86E4E

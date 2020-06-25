@@ -1,7 +1,8 @@
 ---
 UID: NN:wsmandisp.IWSManEnumerator
 title: IWSManEnumerator (wsmandisp.h)
-description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.helpviewer_keywords: ["IWSManEnumerator","IWSManEnumerator interface [Windows Remote Management]","IWSManEnumerator interface [Windows Remote Management]","described","winrm.iwsmanenumerator","wsmandisp/IWSManEnumerator"]
+description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.
+helpviewer_keywords: ["IWSManEnumerator","IWSManEnumerator interface [Windows Remote Management]","IWSManEnumerator interface [Windows Remote Management]","described","winrm.iwsmanenumerator","wsmandisp/IWSManEnumerator"]
 old-location: winrm\iwsmanenumerator.htm
 tech.root: winrm
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b

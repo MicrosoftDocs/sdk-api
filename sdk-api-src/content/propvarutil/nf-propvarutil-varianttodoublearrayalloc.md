@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToDoubleArrayAlloc
 title: VariantToDoubleArrayAlloc function (propvarutil.h)
-description: Allocates an array of DOUBLE values then extracts data from a VARIANT structure into that array.helpviewer_keywords: ["VariantToDoubleArrayAlloc","VariantToDoubleArrayAlloc function [Windows Properties]","_shell_VariantToDoubleArrayAlloc","properties.VariantToDoubleArrayAlloc","propvarutil/VariantToDoubleArrayAlloc","shell.VariantToDoubleArrayAlloc"]
+description: Allocates an array of DOUBLE values then extracts data from a VARIANT structure into that array.
+helpviewer_keywords: ["VariantToDoubleArrayAlloc","VariantToDoubleArrayAlloc function [Windows Properties]","_shell_VariantToDoubleArrayAlloc","properties.VariantToDoubleArrayAlloc","propvarutil/VariantToDoubleArrayAlloc","shell.VariantToDoubleArrayAlloc"]
 old-location: properties\VariantToDoubleArrayAlloc.htm
 tech.root: properties
 ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15

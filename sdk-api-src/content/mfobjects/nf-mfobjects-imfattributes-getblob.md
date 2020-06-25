@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetBlob
 title: IMFAttributes::GetBlob (mfobjects.h)
-description: Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.helpviewer_keywords: ["68528db7-90df-4abe-a957-ffb8c3f12cef","GetBlob","GetBlob method [Media Foundation]","GetBlob method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetBlob method","IMFAttributes.GetBlob","IMFAttributes::GetBlob","mf.imfattributes_getblob","mfobjects/IMFAttributes::GetBlob"]
+description: Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.
+helpviewer_keywords: ["68528db7-90df-4abe-a957-ffb8c3f12cef","GetBlob","GetBlob method [Media Foundation]","GetBlob method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetBlob method","IMFAttributes.GetBlob","IMFAttributes::GetBlob","mf.imfattributes_getblob","mfobjects/IMFAttributes::GetBlob"]
 old-location: mf\imfattributes_getblob.htm
 tech.root: medfound
 ms.assetid: 68528db7-90df-4abe-a957-ffb8c3f12cef

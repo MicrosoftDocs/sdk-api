@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CachedIsGrabbed
 title: IUIAutomationDragPattern::get_CachedIsGrabbed (uiautomationclient.h)
-description: Retrieves a cached value that indicates whether this element has been grabbed as part of a drag-and-drop operation.helpviewer_keywords: ["CachedIsGrabbed property [Windows Accessibility]","CachedIsGrabbed property [Windows Accessibility]","IUIAutomationDragPattern interface","IUIAutomationDragPattern interface [Windows Accessibility]","CachedIsGrabbed property","IUIAutomationDragPattern.CachedIsGrabbed","IUIAutomationDragPattern.get_CachedIsGrabbed","IUIAutomationDragPattern::CachedIsGrabbed","IUIAutomationDragPattern::get_CachedIsGrabbed","get_CachedIsGrabbed","uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed","uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed","winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed"]
+description: Retrieves a cached value that indicates whether this element has been grabbed as part of a drag-and-drop operation.
+helpviewer_keywords: ["CachedIsGrabbed property [Windows Accessibility]","CachedIsGrabbed property [Windows Accessibility]","IUIAutomationDragPattern interface","IUIAutomationDragPattern interface [Windows Accessibility]","CachedIsGrabbed property","IUIAutomationDragPattern.CachedIsGrabbed","IUIAutomationDragPattern.get_CachedIsGrabbed","IUIAutomationDragPattern::CachedIsGrabbed","IUIAutomationDragPattern::get_CachedIsGrabbed","get_CachedIsGrabbed","uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed","uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed","winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed"]
 old-location: winauto\uiauto_iuiautomationdragpattern_cachedisgrabbed.htm
 tech.root: WinAuto
 ms.assetid: DA63B155-56FC-49EE-99EA-56288CC7F8E9

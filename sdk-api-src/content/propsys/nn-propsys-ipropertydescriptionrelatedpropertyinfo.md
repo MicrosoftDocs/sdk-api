@@ -1,7 +1,8 @@
 ---
 UID: NN:propsys.IPropertyDescriptionRelatedPropertyInfo
 title: IPropertyDescriptionRelatedPropertyInfo (propsys.h)
-description: Provides a method that retrives an IPropertyDescription interface.helpviewer_keywords: ["IPropertyDescriptionRelatedPropertyInfo","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","described","properties.IPropertyDescriptionRelatedPropertyInfo","propsys/IPropertyDescriptionRelatedPropertyInfo","shell.IPropertyDescriptionRelatedPropertyInfo","shell_IPropertyDescriptionRelatedPropertyInfo"]
+description: Provides a method that retrives an IPropertyDescription interface.
+helpviewer_keywords: ["IPropertyDescriptionRelatedPropertyInfo","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","described","properties.IPropertyDescriptionRelatedPropertyInfo","propsys/IPropertyDescriptionRelatedPropertyInfo","shell.IPropertyDescriptionRelatedPropertyInfo","shell_IPropertyDescriptionRelatedPropertyInfo"]
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm
 tech.root: properties
 ms.assetid: 1658542e-ca2f-4566-b40f-8647577f4481

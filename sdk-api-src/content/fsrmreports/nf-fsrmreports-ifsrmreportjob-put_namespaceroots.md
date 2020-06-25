@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.put_NamespaceRoots
 title: IFsrmReportJob::put_NamespaceRoots (fsrmreports.h)
-description: Retrieves or sets an array of local directory paths that will be scanned when the report job is run.helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","NamespaceRoots property","IFsrmReportJob.NamespaceRoots","IFsrmReportJob.put_NamespaceRoots","IFsrmReportJob::NamespaceRoots","IFsrmReportJob::get_NamespaceRoots","IFsrmReportJob::put_NamespaceRoots","NamespaceRoots property [File Server Resource Manager]","NamespaceRoots property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_namespaceroots","fsrm.ifsrmreportjob_namespaceroots","fsrmreports/IFsrmReportJob::NamespaceRoots","fsrmreports/IFsrmReportJob::get_NamespaceRoots","fsrmreports/IFsrmReportJob::put_NamespaceRoots","put_NamespaceRoots"]
+description: Retrieves or sets an array of local directory paths that will be scanned when the report job is run.
+helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","NamespaceRoots property","IFsrmReportJob.NamespaceRoots","IFsrmReportJob.put_NamespaceRoots","IFsrmReportJob::NamespaceRoots","IFsrmReportJob::get_NamespaceRoots","IFsrmReportJob::put_NamespaceRoots","NamespaceRoots property [File Server Resource Manager]","NamespaceRoots property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_namespaceroots","fsrm.ifsrmreportjob_namespaceroots","fsrmreports/IFsrmReportJob::NamespaceRoots","fsrmreports/IFsrmReportJob::get_NamespaceRoots","fsrmreports/IFsrmReportJob::put_NamespaceRoots","put_NamespaceRoots"]
 old-location: fsrm\ifsrmreportjob_namespaceroots.htm
 tech.root: fsrm
 ms.assetid: 09c767ce-6a81-4c06-93cb-dd1a79d17d97

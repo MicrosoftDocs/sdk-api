@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsRevokeSecurityContext
 title: WsRevokeSecurityContext function (webservices.h)
-description: Revokes a security context. Can only be called on the server side. Further requests using this security context will fail and a fault will be sent to the client.helpviewer_keywords: ["WsRevokeSecurityContext","WsRevokeSecurityContext function [Web Services for Windows]","webservices/WsRevokeSecurityContext","wsw.wsrevokesecuritycontext"]
+description: Revokes a security context. Can only be called on the server side. Further requests using this security context will fail and a fault will be sent to the client.
+helpviewer_keywords: ["WsRevokeSecurityContext","WsRevokeSecurityContext function [Web Services for Windows]","webservices/WsRevokeSecurityContext","wsw.wsrevokesecuritycontext"]
 old-location: wsw\wsrevokesecuritycontext.htm
 tech.root: wsw
 ms.assetid: 07367f3d-4158-4ef4-ac27-4218d2a810a8

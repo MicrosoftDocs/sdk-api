@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.midiproptempo_tag
 title: MIDIPROPTEMPO (mmeapi.h)
-description: The MIDIPROPTEMPO structure contains the tempo property for a stream.helpviewer_keywords: ["*LPMIDIPROPTEMPO","MIDIPROPTEMPO","MIDIPROPTEMPO structure [Windows Multimedia]","_win32_MIDIPROPTEMPO_str","midiproptempo_tag","mmeapi/MIDIPROPTEMPO","multimedia.midiproptempo"]
+description: The MIDIPROPTEMPO structure contains the tempo property for a stream.
+helpviewer_keywords: ["*LPMIDIPROPTEMPO","MIDIPROPTEMPO","MIDIPROPTEMPO structure [Windows Multimedia]","_win32_MIDIPROPTEMPO_str","midiproptempo_tag","mmeapi/MIDIPROPTEMPO","multimedia.midiproptempo"]
 old-location: multimedia\midiproptempo.htm
 tech.root: Multimedia
 ms.assetid: bc2941a8-e9c8-4a67-a931-01f86caa478a

@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY_V5
 title: DHCP_CLIENT_INFO_ARRAY_V5 (dhcpsapi.h)
-description: Defines an array of DHCP_CLIENT_INFO_V5 structures for use with enumeration functions.helpviewer_keywords: ["*LPDHCP_CLIENT_INFO_ARRAY_V5","DHCP_CLIENT_INFO_ARRAY_V5","DHCP_CLIENT_INFO_ARRAY_V5 structure [DHCP]","LPDHCP_CLIENT_INFO_ARRAY_V5","LPDHCP_CLIENT_INFO_ARRAY_V5 structure pointer [DHCP]","dhcp.dhcp_client_info_array_v5","dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V5","dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V5"]
+description: Defines an array of DHCP_CLIENT_INFO_V5 structures for use with enumeration functions.
+helpviewer_keywords: ["*LPDHCP_CLIENT_INFO_ARRAY_V5","DHCP_CLIENT_INFO_ARRAY_V5","DHCP_CLIENT_INFO_ARRAY_V5 structure [DHCP]","LPDHCP_CLIENT_INFO_ARRAY_V5","LPDHCP_CLIENT_INFO_ARRAY_V5 structure pointer [DHCP]","dhcp.dhcp_client_info_array_v5","dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V5","dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V5"]
 old-location: dhcp\dhcp_client_info_array_v5.htm
 tech.root: DHCP
 ms.assetid: 2188f187-d8d3-4579-bb04-4c4712903a91

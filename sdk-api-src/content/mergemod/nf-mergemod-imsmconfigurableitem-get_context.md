@@ -1,7 +1,8 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Context
 title: IMsmConfigurableItem::get_Context (mergemod.h)
-description: The get_Context method retrieves the Context property of the ConfigurableItem object.helpviewer_keywords: ["IMsmConfigurableItem interface","get_Context method","IMsmConfigurableItem.get_Context","IMsmConfigurableItem::get_Context","_msi_get_context_function","get_Context","get_Context method","get_Context method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Context","setup.imsmconfigurableitem_get_context"]
+description: The get_Context method retrieves the Context property of the ConfigurableItem object.
+helpviewer_keywords: ["IMsmConfigurableItem interface","get_Context method","IMsmConfigurableItem.get_Context","IMsmConfigurableItem::get_Context","_msi_get_context_function","get_Context","get_Context method","get_Context method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Context","setup.imsmconfigurableitem_get_context"]
 old-location: setup\imsmconfigurableitem_get_context.htm
 tech.root: Msi
 ms.assetid: 90aa0ee2-a7eb-464c-8a8f-ed4bdf46990e

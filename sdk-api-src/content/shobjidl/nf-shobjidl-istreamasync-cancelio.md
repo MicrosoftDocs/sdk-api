@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IStreamAsync.CancelIo
 title: IStreamAsync::CancelIo (shobjidl.h)
-description: Marks all pending input/output (I/O) operations as canceled.helpviewer_keywords: ["CancelIo","CancelIo method [Windows Shell]","CancelIo method [Windows Shell]","IStreamAsync interface","IStreamAsync interface [Windows Shell]","CancelIo method","IStreamAsync.CancelIo","IStreamAsync::CancelIo","_shell_IStreamAsync_CancelIo","shell.IStreamAsync_CancelIo","shobjidl/IStreamAsync::CancelIo"]
+description: Marks all pending input/output (I/O) operations as canceled.
+helpviewer_keywords: ["CancelIo","CancelIo method [Windows Shell]","CancelIo method [Windows Shell]","IStreamAsync interface","IStreamAsync interface [Windows Shell]","CancelIo method","IStreamAsync.CancelIo","IStreamAsync::CancelIo","_shell_IStreamAsync_CancelIo","shell.IStreamAsync_CancelIo","shobjidl/IStreamAsync::CancelIo"]
 old-location: shell\IStreamAsync_CancelIo.htm
 tech.root: shell
 ms.assetid: ca2a1c59-b538-4c1b-9ad3-89d00f19325d

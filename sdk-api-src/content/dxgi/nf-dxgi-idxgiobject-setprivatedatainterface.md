@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateDataInterface
 title: IDXGIObject::SetPrivateDataInterface (dxgi.h)
-description: Set an interface in the object's private data.helpviewer_keywords: ["37e6a4f2-50a5-efad-af10-20e8f1d053e2","IDXGIObject interface [DXGI]","SetPrivateDataInterface method","IDXGIObject.SetPrivateDataInterface","IDXGIObject::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [DXGI]","SetPrivateDataInterface method [DXGI]","IDXGIObject interface","direct3ddxgi.idxgiobject_setprivatedatainterface","dxgi/IDXGIObject::SetPrivateDataInterface"]
+description: Set an interface in the object's private data.
+helpviewer_keywords: ["37e6a4f2-50a5-efad-af10-20e8f1d053e2","IDXGIObject interface [DXGI]","SetPrivateDataInterface method","IDXGIObject.SetPrivateDataInterface","IDXGIObject::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [DXGI]","SetPrivateDataInterface method [DXGI]","IDXGIObject interface","direct3ddxgi.idxgiobject_setprivatedatainterface","dxgi/IDXGIObject::SetPrivateDataInterface"]
 old-location: direct3ddxgi\idxgiobject_setprivatedatainterface.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedatainterface.htm

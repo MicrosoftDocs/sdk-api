@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetName
 title: ISyncMgrSyncItem::GetName (syncmgr.h)
-description: Gets the UI display name of the sync item.helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","ISyncMgrSyncItem interface","ISyncMgrSyncItem interface [Windows Shell]","GetName method","ISyncMgrSyncItem.GetName","ISyncMgrSyncItem::GetName","_shell_ISyncMgrSyncItem_GetName","shell.ISyncMgrSyncItem_GetName","syncmgr/ISyncMgrSyncItem::GetName"]
+description: Gets the UI display name of the sync item.
+helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","ISyncMgrSyncItem interface","ISyncMgrSyncItem interface [Windows Shell]","GetName method","ISyncMgrSyncItem.GetName","ISyncMgrSyncItem::GetName","_shell_ISyncMgrSyncItem_GetName","shell.ISyncMgrSyncItem_GetName","syncmgr/ISyncMgrSyncItem::GetName"]
 old-location: shell\ISyncMgrSyncItem_GetName.htm
 tech.root: shell
 ms.assetid: 4a5f8430-7b5a-4184-acc9-ae4395acf2fa

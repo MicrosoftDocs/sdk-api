@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._PPP_IPXCP_INFO
 title: PPP_IPXCP_INFO (mprapi.h)
-description: The PPP_IPXCP_INFO structure contains the result of a PPP Internetwork Packet Exchange (IPX) projection operation.helpviewer_keywords: ["PPP_IPXCP_INFO","PPP_IPXCP_INFO structure [RAS]","_mpr_ppp_ipxcp_info","mprapi/PPP_IPXCP_INFO","rras.ppp_ipxcp_info"]
+description: The PPP_IPXCP_INFO structure contains the result of a PPP Internetwork Packet Exchange (IPX) projection operation.
+helpviewer_keywords: ["PPP_IPXCP_INFO","PPP_IPXCP_INFO structure [RAS]","_mpr_ppp_ipxcp_info","mprapi/PPP_IPXCP_INFO","rras.ppp_ipxcp_info"]
 old-location: rras\ppp_ipxcp_info.htm
 tech.root: RRAS
 ms.assetid: 6e269c4e-8014-4d59-a7dc-3314a67a4d12

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CheckMenuRadioItem
 title: CheckMenuRadioItem function (winuser.h)
-description: Checks a specified menu item and makes it a radio item. At the same time, the function clears all other menu items in the associated group and clears the radio-item type flag for those items.helpviewer_keywords: ["CheckMenuRadioItem","CheckMenuRadioItem function [Menus and Other Resources]","_win32_CheckMenuRadioItem","_win32_checkmenuradioitem_cpp","menurc.checkmenuradioitem","winui._win32_checkmenuradioitem","winuser/CheckMenuRadioItem"]
+description: Checks a specified menu item and makes it a radio item. At the same time, the function clears all other menu items in the associated group and clears the radio-item type flag for those items.
+helpviewer_keywords: ["CheckMenuRadioItem","CheckMenuRadioItem function [Menus and Other Resources]","_win32_CheckMenuRadioItem","_win32_checkmenuradioitem_cpp","menurc.checkmenuradioitem","winui._win32_checkmenuradioitem","winuser/CheckMenuRadioItem"]
 old-location: menurc\checkmenuradioitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuradioitem.htm

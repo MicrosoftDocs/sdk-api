@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfDocumentMgr
 title: ITfDocumentMgr (msctf.h)
-description: The ITfDocumentMgr interface is implemented by the TSF manager and used by an application or text service to create and manage text contexts. To obtain an instance of this interface call ITfThreadMgr::CreateDocumentMgr.helpviewer_keywords: ["ITfDocumentMgr","ITfDocumentMgr interface [Text Services Framework]","ITfDocumentMgr interface [Text Services Framework]","described","_tsf_itfdocumentmgr_ref","msctf/ITfDocumentMgr","tsf.itfdocumentmgr"]
+description: The ITfDocumentMgr interface is implemented by the TSF manager and used by an application or text service to create and manage text contexts. To obtain an instance of this interface call ITfThreadMgr::CreateDocumentMgr.
+helpviewer_keywords: ["ITfDocumentMgr","ITfDocumentMgr interface [Text Services Framework]","ITfDocumentMgr interface [Text Services Framework]","described","_tsf_itfdocumentmgr_ref","msctf/ITfDocumentMgr","tsf.itfdocumentmgr"]
 old-location: tsf\itfdocumentmgr.htm
 tech.root: TSF
 ms.assetid: e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd

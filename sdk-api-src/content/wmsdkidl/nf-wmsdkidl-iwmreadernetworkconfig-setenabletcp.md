@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableTCP
 title: IWMReaderNetworkConfig::SetEnableTCP (wmsdkidl.h)
-description: The SetEnableTCP method enables or disables TCP.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetEnableTCP method","IWMReaderNetworkConfig.SetEnableTCP","IWMReaderNetworkConfig::SetEnableTCP","IWMReaderNetworkConfigSetEnableTCP","SetEnableTCP","SetEnableTCP method [windows Media Format]","SetEnableTCP method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setenabletcp","wmsdkidl/IWMReaderNetworkConfig::SetEnableTCP"]
+description: The SetEnableTCP method enables or disables TCP.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetEnableTCP method","IWMReaderNetworkConfig.SetEnableTCP","IWMReaderNetworkConfig::SetEnableTCP","IWMReaderNetworkConfigSetEnableTCP","SetEnableTCP","SetEnableTCP method [windows Media Format]","SetEnableTCP method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setenabletcp","wmsdkidl/IWMReaderNetworkConfig::SetEnableTCP"]
 old-location: wmformat\iwmreadernetworkconfig_setenabletcp.htm
 tech.root: wmformat
 ms.assetid: 8afc62b8-a2f6-4470-8005-804e0980b599

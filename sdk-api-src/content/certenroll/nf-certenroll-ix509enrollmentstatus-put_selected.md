@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Selected
 title: IX509EnrollmentStatus::put_Selected (certenroll.h)
-description: Specifies or retrieves a value that indicates whether an item can be used during the enrollment process.helpviewer_keywords: ["IX509EnrollmentStatus interface [Security]","Selected property","IX509EnrollmentStatus.Selected","IX509EnrollmentStatus.put_Selected","IX509EnrollmentStatus::Selected","IX509EnrollmentStatus::get_Selected","IX509EnrollmentStatus::put_Selected","Selected property [Security]","Selected property [Security]","IX509EnrollmentStatus interface","certenroll/IX509EnrollmentStatus::Selected","certenroll/IX509EnrollmentStatus::get_Selected","certenroll/IX509EnrollmentStatus::put_Selected","put_Selected","security.ix509enrollmentstatus_selected_property"]
+description: Specifies or retrieves a value that indicates whether an item can be used during the enrollment process.
+helpviewer_keywords: ["IX509EnrollmentStatus interface [Security]","Selected property","IX509EnrollmentStatus.Selected","IX509EnrollmentStatus.put_Selected","IX509EnrollmentStatus::Selected","IX509EnrollmentStatus::get_Selected","IX509EnrollmentStatus::put_Selected","Selected property [Security]","Selected property [Security]","IX509EnrollmentStatus interface","certenroll/IX509EnrollmentStatus::Selected","certenroll/IX509EnrollmentStatus::get_Selected","certenroll/IX509EnrollmentStatus::put_Selected","put_Selected","security.ix509enrollmentstatus_selected_property"]
 old-location: security\ix509enrollmentstatus_selected_property.htm
 tech.root: seccertenroll
 ms.assetid: 9050f394-ccad-4a6e-90bc-53af3a874f91

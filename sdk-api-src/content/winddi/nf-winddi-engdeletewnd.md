@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngDeleteWnd
 title: EngDeleteWnd function (winddi.h)
-description: The EngDeleteWnd function deletes a WNDOBJ structure.helpviewer_keywords: ["EngDeleteWnd","EngDeleteWnd function [Display Devices]","display.engdeletewnd","gdifncs_7a608897-cca5-45c9-94ea-afa7d3f6ed6a.xml","winddi/EngDeleteWnd"]
+description: The EngDeleteWnd function deletes a WNDOBJ structure.
+helpviewer_keywords: ["EngDeleteWnd","EngDeleteWnd function [Display Devices]","display.engdeletewnd","gdifncs_7a608897-cca5-45c9-94ea-afa7d3f6ed6a.xml","winddi/EngDeleteWnd"]
 old-location: display\engdeletewnd.htm
 tech.root: display
 ms.assetid: bc6b3a61-18f6-4c7a-b6cb-a3f2dc4f6a36

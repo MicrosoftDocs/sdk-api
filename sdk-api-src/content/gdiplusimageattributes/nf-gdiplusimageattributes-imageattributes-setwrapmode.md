@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetWrapMode
 title: ImageAttributes::SetWrapMode (gdiplusimageattributes.h)
-description: The ImageAttributes::SetWrapMode method sets the wrap mode of this ImageAttributes object.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetWrapMode method","ImageAttributes.SetWrapMode","ImageAttributes::SetWrapMode","SetWrapMode","SetWrapMode method [GDI+]","SetWrapMode method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetWrapMode_wrap_color_clamp_","gdiplus._gdiplus_CLASS_ImageAttributes_SetWrapMode_wrap_color_clamp_"]
+description: The ImageAttributes::SetWrapMode method sets the wrap mode of this ImageAttributes object.
+helpviewer_keywords: ["ImageAttributes class [GDI+]","SetWrapMode method","ImageAttributes.SetWrapMode","ImageAttributes::SetWrapMode","SetWrapMode","SetWrapMode method [GDI+]","SetWrapMode method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetWrapMode_wrap_color_clamp_","gdiplus._gdiplus_CLASS_ImageAttributes_SetWrapMode_wrap_color_clamp_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetWrapMode_wrap_color_clamp_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setwrapmode.htm

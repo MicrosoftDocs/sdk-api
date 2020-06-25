@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxRecipient
 title: IFaxRecipient (faxcomex.h)
-description: The IFaxRecipient interface defines a FaxRecipient messaging object is used by a fax client application to retrieve and set the personal information for fax recipients.helpviewer_keywords: ["IFaxRecipient","IFaxRecipient interface [Fax Service]","IFaxRecipient interface [Fax Service]","described","_mfax_faxrecipient_cpp","fax._mfax_faxrecipient_cpp","faxcomex/IFaxRecipient"]
+description: The IFaxRecipient interface defines a FaxRecipient messaging object is used by a fax client application to retrieve and set the personal information for fax recipients.
+helpviewer_keywords: ["IFaxRecipient","IFaxRecipient interface [Fax Service]","IFaxRecipient interface [Fax Service]","described","_mfax_faxrecipient_cpp","fax._mfax_faxrecipient_cpp","faxcomex/IFaxRecipient"]
 old-location: fax\_mfax_faxrecipient_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9c6s_cpp.htm

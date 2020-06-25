@@ -1,7 +1,8 @@
 ---
 UID: NC:ddraw.LPDDENUMSURFACESCALLBACK7
 title: LPDDENUMSURFACESCALLBACK7 (ddraw.h)
-description: The EnumSurfacesCallback7 function is an application-defined callback function for the IDirectDrawSurface7::EnumAttachedSurfaces and IDirectDrawSurface7::EnumOverlayZOrders methods.helpviewer_keywords: ["EnumSurfacesCallback7","EnumSurfacesCallback7 callback function [DirectDraw]","LPDDENUMSURFACESCALLBACK7","LPDDENUMSURFACESCALLBACK7 callback","ddraw/EnumSurfacesCallback7","directdraw.enumsurfacescallback7"]
+description: The EnumSurfacesCallback7 function is an application-defined callback function for the IDirectDrawSurface7::EnumAttachedSurfaces and IDirectDrawSurface7::EnumOverlayZOrders methods.
+helpviewer_keywords: ["EnumSurfacesCallback7","EnumSurfacesCallback7 callback function [DirectDraw]","LPDDENUMSURFACESCALLBACK7","LPDDENUMSURFACESCALLBACK7 callback","ddraw/EnumSurfacesCallback7","directdraw.enumsurfacescallback7"]
 old-location: directdraw\enumsurfacescallback7.htm
 tech.root: directdraw
 ms.assetid: DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0

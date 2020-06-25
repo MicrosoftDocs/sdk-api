@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_DragLeave
 title: ImageList_DragLeave function (commctrl.h)
-description: Unlocks the specified window and hides the drag image, allowing the window to be updated.helpviewer_keywords: ["ImageList_DragLeave","ImageList_DragLeave function [Windows Controls]","_win32_ImageList_DragLeave","_win32_ImageList_DragLeave_cpp","commctrl/ImageList_DragLeave","controls.ImageList_DragLeave","controls._win32_ImageList_DragLeave"]
+description: Unlocks the specified window and hides the drag image, allowing the window to be updated.
+helpviewer_keywords: ["ImageList_DragLeave","ImageList_DragLeave function [Windows Controls]","_win32_ImageList_DragLeave","_win32_ImageList_DragLeave_cpp","commctrl/ImageList_DragLeave","controls.ImageList_DragLeave","controls._win32_ImageList_DragLeave"]
 old-location: controls\ImageList_DragLeave.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragleave.htm

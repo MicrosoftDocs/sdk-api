@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.AllocateSample
 title: IWMWriter::AllocateSample (wmsdkidl.h)
-description: The AllocateSample method allocates a buffer that can be used to provide samples to the writer.helpviewer_keywords: ["AllocateSample","AllocateSample method [windows Media Format]","AllocateSample method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","AllocateSample method","IWMWriter.AllocateSample","IWMWriter::AllocateSample","IWMWriterAllocateSample","wmformat.iwmwriter_allocatesample","wmsdkidl/IWMWriter::AllocateSample"]
+description: The AllocateSample method allocates a buffer that can be used to provide samples to the writer.
+helpviewer_keywords: ["AllocateSample","AllocateSample method [windows Media Format]","AllocateSample method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","AllocateSample method","IWMWriter.AllocateSample","IWMWriter::AllocateSample","IWMWriterAllocateSample","wmformat.iwmwriter_allocatesample","wmsdkidl/IWMWriter::AllocateSample"]
 old-location: wmformat\iwmwriter_allocatesample.htm
 tech.root: wmformat
 ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de

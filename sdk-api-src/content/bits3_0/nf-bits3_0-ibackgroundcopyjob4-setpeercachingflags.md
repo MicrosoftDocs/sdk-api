@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.SetPeerCachingFlags
 title: IBackgroundCopyJob4::SetPeerCachingFlags (bits3_0.h)
-description: Sets flags that determine if the files of the job can be cached and served to peers and if the job can download content from peers.helpviewer_keywords: ["BG_JOB_DISABLE_BRANCH_CACHE","BG_JOB_ENABLE_PEERCACHING_CLIENT","BG_JOB_ENABLE_PEERCACHING_SERVER","IBackgroundCopyJob4 interface [BITS]","SetPeerCachingFlags method","IBackgroundCopyJob4.SetPeerCachingFlags","IBackgroundCopyJob4::SetPeerCachingFlags","SetPeerCachingFlags","SetPeerCachingFlags method [BITS]","SetPeerCachingFlags method [BITS]","IBackgroundCopyJob4 interface","bits.ibackgroundcopyjob4_setpeercachingflags","bits3_0/IBackgroundCopyJob4::SetPeerCachingFlags"]
+description: Sets flags that determine if the files of the job can be cached and served to peers and if the job can download content from peers.
+helpviewer_keywords: ["BG_JOB_DISABLE_BRANCH_CACHE","BG_JOB_ENABLE_PEERCACHING_CLIENT","BG_JOB_ENABLE_PEERCACHING_SERVER","IBackgroundCopyJob4 interface [BITS]","SetPeerCachingFlags method","IBackgroundCopyJob4.SetPeerCachingFlags","IBackgroundCopyJob4::SetPeerCachingFlags","SetPeerCachingFlags","SetPeerCachingFlags method [BITS]","SetPeerCachingFlags method [BITS]","IBackgroundCopyJob4 interface","bits.ibackgroundcopyjob4_setpeercachingflags","bits3_0/IBackgroundCopyJob4::SetPeerCachingFlags"]
 old-location: bits\ibackgroundcopyjob4_setpeercachingflags.htm
 tech.root: Bits
 ms.assetid: 53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c

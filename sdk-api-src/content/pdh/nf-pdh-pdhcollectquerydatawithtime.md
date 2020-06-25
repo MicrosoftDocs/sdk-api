@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhCollectQueryDataWithTime
 title: PdhCollectQueryDataWithTime function (pdh.h)
-description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.helpviewer_keywords: ["PdhCollectQueryDataWithTime","PdhCollectQueryDataWithTime function [Perf]","base.pdhcollectquerydatawithtime","pdh/PdhCollectQueryDataWithTime","perf.pdhcollectquerydatawithtime"]
+description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
+helpviewer_keywords: ["PdhCollectQueryDataWithTime","PdhCollectQueryDataWithTime function [Perf]","base.pdhcollectquerydatawithtime","pdh/PdhCollectQueryDataWithTime","perf.pdhcollectquerydatawithtime"]
 old-location: perf\pdhcollectquerydatawithtime.htm
 tech.root: perfctrs
 ms.assetid: 2c47c690-0748-4ed4-a138-894d45c72581

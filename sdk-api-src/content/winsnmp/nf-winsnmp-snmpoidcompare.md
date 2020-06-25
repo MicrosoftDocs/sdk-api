@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpOidCompare
 title: SnmpOidCompare function (winsnmp.h)
-description: The WinSNMP SnmpOidCompare function lexicographically compares two SNMP object identifiers, up to the length specified by the maxlen parameter.helpviewer_keywords: ["Equal to 0","Greater than 0","Less than 0","SnmpOidCompare","SnmpOidCompare function [SNMP]","_snmp_snmpoidcompare","snmp.snmpoidcompare","winsnmp/SnmpOidCompare"]
+description: The WinSNMP SnmpOidCompare function lexicographically compares two SNMP object identifiers, up to the length specified by the maxlen parameter.
+helpviewer_keywords: ["Equal to 0","Greater than 0","Less than 0","SnmpOidCompare","SnmpOidCompare function [SNMP]","_snmp_snmpoidcompare","snmp.snmpoidcompare","winsnmp/SnmpOidCompare"]
 old-location: snmp\snmpoidcompare.htm
 tech.root: SNMP
 ms.assetid: aa13abb3-c16d-4b12-a3b8-9c3c727199e0

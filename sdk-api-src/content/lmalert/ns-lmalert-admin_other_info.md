@@ -1,7 +1,8 @@
 ---
 UID: NS:lmalert._ADMIN_OTHER_INFO
 title: ADMIN_OTHER_INFO (lmalert.h)
-description: The ADMIN_OTHER_INFO structure contains error message information. The NetAlertRaise and NetAlertRaiseEx functions use the ADMIN_OTHER_INFO structure to specify information when raising an administrator's interrupting message.helpviewer_keywords: ["*LPADMIN_OTHER_INFO","*PADMIN_OTHER_INFO","ADMIN_OTHER_INFO","ADMIN_OTHER_INFO structure [Network Management]","LPADMIN_OTHER_INFO","LPADMIN_OTHER_INFO structure pointer [Network Management]","PADMIN_OTHER_INFO","PADMIN_OTHER_INFO structure pointer [Network Management]","_win32_admin_other_info_str","lmalert/ADMIN_OTHER_INFO","lmalert/LPADMIN_OTHER_INFO","lmalert/PADMIN_OTHER_INFO","netmgmt.admin_other_info_str"]
+description: The ADMIN_OTHER_INFO structure contains error message information. The NetAlertRaise and NetAlertRaiseEx functions use the ADMIN_OTHER_INFO structure to specify information when raising an administrator's interrupting message.
+helpviewer_keywords: ["*LPADMIN_OTHER_INFO","*PADMIN_OTHER_INFO","ADMIN_OTHER_INFO","ADMIN_OTHER_INFO structure [Network Management]","LPADMIN_OTHER_INFO","LPADMIN_OTHER_INFO structure pointer [Network Management]","PADMIN_OTHER_INFO","PADMIN_OTHER_INFO structure pointer [Network Management]","_win32_admin_other_info_str","lmalert/ADMIN_OTHER_INFO","lmalert/LPADMIN_OTHER_INFO","lmalert/PADMIN_OTHER_INFO","netmgmt.admin_other_info_str"]
 old-location: netmgmt\admin_other_info_str.htm
 tech.root: NetMgmt
 ms.assetid: 43119dcf-7d04-4e3b-b1dc-20e814fbdc2f

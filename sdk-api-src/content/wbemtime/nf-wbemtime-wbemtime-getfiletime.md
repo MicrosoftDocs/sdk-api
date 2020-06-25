@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetFILETIME
 title: WBEMTime::GetFILETIME (wbemtime.h)
-description: The GetFILETIME method gets the time as an MFC FILETIME structure.helpviewer_keywords: ["?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z","GetFILETIME","GetFILETIME method [Windows Management Instrumentation]","GetFILETIME method [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","GetFILETIME method","WBEMTime.GetFILETIME","WBEMTime::GetFILETIME","_hmm_wbemtime_getfiletime","wbemtime/WBEMTime::GetFILETIME","wmi.wbemtime_getfiletime"]
+description: The GetFILETIME method gets the time as an MFC FILETIME structure.
+helpviewer_keywords: ["?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z","GetFILETIME","GetFILETIME method [Windows Management Instrumentation]","GetFILETIME method [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","GetFILETIME method","WBEMTime.GetFILETIME","WBEMTime::GetFILETIME","_hmm_wbemtime_getfiletime","wbemtime/WBEMTime::GetFILETIME","wmi.wbemtime_getfiletime"]
 old-location: wmi\wbemtime_getfiletime.htm
 tech.root: WmiSdk
 ms.assetid: 3debc121-ff7b-4e2c-9d77-502ee491cad8

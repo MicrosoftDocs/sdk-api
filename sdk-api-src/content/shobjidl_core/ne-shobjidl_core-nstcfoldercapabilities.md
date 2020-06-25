@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.NSTCFOLDERCAPABILITIES
 title: NSTCFOLDERCAPABILITIES (shobjidl_core.h)
-description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControlFolderCapabilities interface.helpviewer_keywords: ["NSTCFC_DELAY_REGISTER_NOTIFY","NSTCFC_NONE","NSTCFC_PINNEDITEMFILTERING","NSTCFOLDERCAPABILITIES","NSTCFOLDERCAPABILITIES enumeration [Windows Shell]","_shell_NSTCFOLDERCAPABILITIES","shell.NSTCFOLDERCAPABILITIES","shobjidl_core/NSTCFC_DELAY_REGISTER_NOTIFY","shobjidl_core/NSTCFC_NONE","shobjidl_core/NSTCFC_PINNEDITEMFILTERING","shobjidl_core/NSTCFOLDERCAPABILITIES"]
+description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControlFolderCapabilities interface.
+helpviewer_keywords: ["NSTCFC_DELAY_REGISTER_NOTIFY","NSTCFC_NONE","NSTCFC_PINNEDITEMFILTERING","NSTCFOLDERCAPABILITIES","NSTCFOLDERCAPABILITIES enumeration [Windows Shell]","_shell_NSTCFOLDERCAPABILITIES","shell.NSTCFOLDERCAPABILITIES","shobjidl_core/NSTCFC_DELAY_REGISTER_NOTIFY","shobjidl_core/NSTCFC_NONE","shobjidl_core/NSTCFC_PINNEDITEMFILTERING","shobjidl_core/NSTCFOLDERCAPABILITIES"]
 old-location: shell\NSTCFOLDERCAPABILITIES.htm
 tech.root: shell
 ms.assetid: a5282277-85f5-494e-b994-efbf1116b519

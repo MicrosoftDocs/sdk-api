@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IClassActivator
 title: IClassActivator (objidl.h)
-description: Specifies a method that retrieves a class object.helpviewer_keywords: ["IClassActivator","IClassActivator interface [COM]","IClassActivator interface [COM]","described","_com_iclassactivator","com.iclassactivator","objidl/IClassActivator"]
+description: Specifies a method that retrieves a class object.
+helpviewer_keywords: ["IClassActivator","IClassActivator interface [COM]","IClassActivator interface [COM]","described","_com_iclassactivator","com.iclassactivator","objidl/IClassActivator"]
 old-location: com\iclassactivator.htm
 tech.root: com
 ms.assetid: 4f34c5a4-46c0-4391-9c64-cbb6a366e2dc

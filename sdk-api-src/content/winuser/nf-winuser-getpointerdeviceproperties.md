@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetPointerDeviceProperties
 title: GetPointerDeviceProperties function (winuser.h)
-description: Gets device properties that aren't included in the POINTER_DEVICE_INFO structure.helpviewer_keywords: ["GetPointerDeviceProperties","GetPointerDeviceProperties function","input_pointerdevice.getpointerdeviceproperties","unifiedinputstack.getpointerdeviceproperties","winuser/GetPointerDeviceProperties"]
+description: Gets device properties that aren't included in the POINTER_DEVICE_INFO structure.
+helpviewer_keywords: ["GetPointerDeviceProperties","GetPointerDeviceProperties function","input_pointerdevice.getpointerdeviceproperties","unifiedinputstack.getpointerdeviceproperties","winuser/GetPointerDeviceProperties"]
 old-location: input_pointerdevice\getpointerdeviceproperties.htm
 tech.root: Input_PointerDevice
 ms.assetid: dbb81637-217a-49b1-9e81-2068cf4c0951

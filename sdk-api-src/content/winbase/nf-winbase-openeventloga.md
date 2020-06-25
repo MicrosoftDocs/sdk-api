@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.OpenEventLogA
 title: OpenEventLogA function (winbase.h)
-description: Opens a handle to the specified event log.helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
+description: Opens a handle to the specified event log.
+helpviewer_keywords: ["OpenEventLog","OpenEventLog function","OpenEventLogA","OpenEventLogW","_win32_openeventlog","base.openeventlog","winbase/OpenEventLog","winbase/OpenEventLogA","winbase/OpenEventLogW"]
 old-location: base\openeventlog.htm
 tech.root: EventLog
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
@@ -103,6 +104,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines OpenEventLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

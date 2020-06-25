@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterGroupCloseEnum
 title: ClusterGroupCloseEnum function (clusapi.h)
-description: Closes a group enumeration handle.helpviewer_keywords: ["ClusterGroupCloseEnum","ClusterGroupCloseEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM","PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM function [Failover Cluster]","_wolf_clustergroupcloseenum","clusapi/ClusterGroupCloseEnum","clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM","mscs.clustergroupcloseenum"]
+description: Closes a group enumeration handle.
+helpviewer_keywords: ["ClusterGroupCloseEnum","ClusterGroupCloseEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM","PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM function [Failover Cluster]","_wolf_clustergroupcloseenum","clusapi/ClusterGroupCloseEnum","clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM","mscs.clustergroupcloseenum"]
 old-location: mscs\clustergroupcloseenum.htm
 tech.root: MsCS
 ms.assetid: 9bdab6b9-a54d-4166-988c-effdeb2ab254

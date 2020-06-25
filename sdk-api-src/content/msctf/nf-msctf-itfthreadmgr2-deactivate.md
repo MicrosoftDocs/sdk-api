@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.Deactivate
 title: ITfThreadMgr2::Deactivate (msctf.h)
-description: Deactivates TSF for the calling thread.helpviewer_keywords: ["Deactivate","Deactivate method [Text Services Framework]","Deactivate method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","Deactivate method","ITfThreadMgr2.Deactivate","ITfThreadMgr2::Deactivate","msctf/ITfThreadMgr2::Deactivate","tsf.itfthreadmgr2_deactivate"]
+description: Deactivates TSF for the calling thread.
+helpviewer_keywords: ["Deactivate","Deactivate method [Text Services Framework]","Deactivate method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","Deactivate method","ITfThreadMgr2.Deactivate","ITfThreadMgr2::Deactivate","msctf/ITfThreadMgr2::Deactivate","tsf.itfthreadmgr2_deactivate"]
 old-location: tsf\itfthreadmgr2_deactivate.htm
 tech.root: TSF
 ms.assetid: 5ED1A430-27C3-44BA-BF17-B5FB9D4C7087

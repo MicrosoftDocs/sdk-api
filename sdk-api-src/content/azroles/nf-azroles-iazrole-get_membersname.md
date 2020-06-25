@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzRole.get_MembersName
 title: IAzRole::get_MembersName (azroles.h)
-description: Retrieves the account names of accounts that belong to the role.helpviewer_keywords: ["AzRole object [Security]","MembersName property","IAzRole interface [Security]","MembersName property","IAzRole.MembersName","IAzRole.get_MembersName","IAzRole::MembersName","IAzRole::get_MembersName","MembersName property [Security]","MembersName property [Security]","AzRole object","MembersName property [Security]","IAzRole interface","azroles/IAzRole::MembersName","azroles/IAzRole::get_MembersName","get_MembersName","security.iazrole_membersname"]
+description: Retrieves the account names of accounts that belong to the role.
+helpviewer_keywords: ["AzRole object [Security]","MembersName property","IAzRole interface [Security]","MembersName property","IAzRole.MembersName","IAzRole.get_MembersName","IAzRole::MembersName","IAzRole::get_MembersName","MembersName property [Security]","MembersName property [Security]","AzRole object","MembersName property [Security]","IAzRole interface","azroles/IAzRole::MembersName","azroles/IAzRole::get_MembersName","get_MembersName","security.iazrole_membersname"]
 old-location: security\iazrole_membersname.htm
 tech.root: SecAuthZ
 ms.assetid: defaefa8-2d76-49c6-bd1c-8b386f9dc5f1

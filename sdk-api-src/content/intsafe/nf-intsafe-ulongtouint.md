@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongToUInt
 title: ULongToUInt function (intsafe.h)
-description: Converts a value of type ULONG to a value of type UINT.helpviewer_keywords: ["DWordToUInt","ULongToUInt","ULongToUInt function [Windows Shell]","_shell_ULongToUInt","intsafe/ULongToUInt","shell.ULongToUInt"]
+description: Converts a value of type ULONG to a value of type UINT.
+helpviewer_keywords: ["DWordToUInt","ULongToUInt","ULongToUInt function [Windows Shell]","_shell_ULongToUInt","intsafe/ULongToUInt","shell.ULongToUInt"]
 old-location: shell\ULongToUInt.htm
 tech.root: shell
 ms.assetid: f3e11789-9fea-41f6-9d96-ac0a7e267e7e

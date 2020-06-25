@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetAvailableAudioTrackBlocks
 title: IRedbookDiscMaster::GetAvailableAudioTrackBlocks (imapi.h)
-description: Retrieves the current number of blocks that can be added to the track before an additional add will cause a failure for lack of space.helpviewer_keywords: ["GetAvailableAudioTrackBlocks","GetAvailableAudioTrackBlocks method [IMAPI]","GetAvailableAudioTrackBlocks method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","GetAvailableAudioTrackBlocks method","IRedbookDiscMaster.GetAvailableAudioTrackBlocks","IRedbookDiscMaster::GetAvailableAudioTrackBlocks","_win32_iredbookdiscmaster_getavailableaudiotrackblocks","base.iredbookdiscmaster_getavailableaudiotrackblocks","imapi.iredbookdiscmaster_getavailableaudiotrackblocks","imapi/IRedbookDiscMaster::GetAvailableAudioTrackBlocks"]
+description: Retrieves the current number of blocks that can be added to the track before an additional add will cause a failure for lack of space.
+helpviewer_keywords: ["GetAvailableAudioTrackBlocks","GetAvailableAudioTrackBlocks method [IMAPI]","GetAvailableAudioTrackBlocks method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","GetAvailableAudioTrackBlocks method","IRedbookDiscMaster.GetAvailableAudioTrackBlocks","IRedbookDiscMaster::GetAvailableAudioTrackBlocks","_win32_iredbookdiscmaster_getavailableaudiotrackblocks","base.iredbookdiscmaster_getavailableaudiotrackblocks","imapi.iredbookdiscmaster_getavailableaudiotrackblocks","imapi/IRedbookDiscMaster::GetAvailableAudioTrackBlocks"]
 old-location: imapi\iredbookdiscmaster_getavailableaudiotrackblocks.htm
 tech.root: imapi
 ms.assetid: 57647490-0384-4cdb-842f-f1fb16dd2096

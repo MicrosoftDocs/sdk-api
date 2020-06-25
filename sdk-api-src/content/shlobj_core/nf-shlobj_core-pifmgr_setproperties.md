@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.PifMgr_SetProperties
 title: PifMgr_SetProperties function (shlobj_core.h)
-description: Assigns values to a block of data from a .pif file.helpviewer_keywords: ["PifMgr_SetProperties","PifMgr_SetProperties function [Windows Properties]","_win32_PifMgr_SetProperties","properties.PifMgr_SetProperties","shell.PifMgr_SetProperties","shlobj_core/PifMgr_SetProperties"]
+description: Assigns values to a block of data from a .pif file.
+helpviewer_keywords: ["PifMgr_SetProperties","PifMgr_SetProperties function [Windows Properties]","_win32_PifMgr_SetProperties","properties.PifMgr_SetProperties","shell.PifMgr_SetProperties","shlobj_core/PifMgr_SetProperties"]
 old-location: properties\PifMgr_SetProperties.htm
 tech.root: properties
 ms.assetid: 720ed580-1867-4651-aef6-24ac4397ad39

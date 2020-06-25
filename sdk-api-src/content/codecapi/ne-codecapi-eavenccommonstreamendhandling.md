@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVEncCommonStreamEndHandling
 title: eAVEncCommonStreamEndHandling (codecapi.h)
-description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream. This enumeration is used with the AVEncCommonStreamEndHandling codec property.helpviewer_keywords: ["codecapi/eAVEncCommonStreamEndHandling","codecapi/eAVEncCommonStreamEndHandling_DiscardPartial","codecapi/eAVEncCommonStreamEndHandling_EnsureComplete","dshow.eavenccommonstreamendhandling","eAVEncCommonStreamEndHandling","eAVEncCommonStreamEndHandling enumeration [DirectShow]","eAVEncCommonStreamEndHandlingEnumeration","eAVEncCommonStreamEndHandling_DiscardPartial","eAVEncCommonStreamEndHandling_EnsureComplete"]
+description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream. This enumeration is used with the AVEncCommonStreamEndHandling codec property.
+helpviewer_keywords: ["codecapi/eAVEncCommonStreamEndHandling","codecapi/eAVEncCommonStreamEndHandling_DiscardPartial","codecapi/eAVEncCommonStreamEndHandling_EnsureComplete","dshow.eavenccommonstreamendhandling","eAVEncCommonStreamEndHandling","eAVEncCommonStreamEndHandling enumeration [DirectShow]","eAVEncCommonStreamEndHandlingEnumeration","eAVEncCommonStreamEndHandling_DiscardPartial","eAVEncCommonStreamEndHandling_EnsureComplete"]
 old-location: dshow\eavenccommonstreamendhandling.htm
 tech.root: DirectShow
 ms.assetid: 406dbfe6-d5c8-44b1-9052-88df40a6a522

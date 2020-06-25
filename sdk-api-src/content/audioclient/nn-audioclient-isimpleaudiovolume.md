@@ -1,7 +1,8 @@
 ---
 UID: NN:audioclient.ISimpleAudioVolume
 title: ISimpleAudioVolume (audioclient.h)
-description: The ISimpleAudioVolume interface enables a client to control the master volume level of an audio session.helpviewer_keywords: ["ISimpleAudioVolume","ISimpleAudioVolume interface [Core Audio]","ISimpleAudioVolume interface [Core Audio]","described","audioclient/ISimpleAudioVolume","coreaudio.isimpleaudiovolume"]
+description: The ISimpleAudioVolume interface enables a client to control the master volume level of an audio session.
+helpviewer_keywords: ["ISimpleAudioVolume","ISimpleAudioVolume interface [Core Audio]","ISimpleAudioVolume interface [Core Audio]","described","audioclient/ISimpleAudioVolume","coreaudio.isimpleaudiovolume"]
 old-location: coreaudio\isimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 360211f2-de82-4ff5-896c-dee1d60cb7b7

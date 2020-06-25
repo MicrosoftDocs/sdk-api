@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IExtendContextMenu
 title: IExtendContextMenu (mmc.h)
-description: The IExtendContextMenu interface enables a snap-in to add items to an existing context menu.helpviewer_keywords: ["IExtendContextMenu","IExtendContextMenu interface [MMC]","IExtendContextMenu interface [MMC]","described","_slate_iextendcontextmenu","mmc.iextendcontextmenu","mmc/IExtendContextMenu"]
+description: The IExtendContextMenu interface enables a snap-in to add items to an existing context menu.
+helpviewer_keywords: ["IExtendContextMenu","IExtendContextMenu interface [MMC]","IExtendContextMenu interface [MMC]","described","_slate_iextendcontextmenu","mmc.iextendcontextmenu","mmc/IExtendContextMenu"]
 old-location: mmc\iextendcontextmenu.htm
 tech.root: mmc
 ms.assetid: 8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSettings.put_volume
 title: IWMPSettings::put_volume (wmp.h)
-description: The put_volume method specifies the current playback volume.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_volume method","IWMPSettings.put_volume","IWMPSettings::put_volume","IWMPSettingsput_volume","put_volume","put_volume method [Windows Media Player]","put_volume method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_volume","wmp/IWMPSettings::put_volume"]
+description: The put_volume method specifies the current playback volume.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_volume method","IWMPSettings.put_volume","IWMPSettings::put_volume","IWMPSettingsput_volume","put_volume","put_volume method [Windows Media Player]","put_volume method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_volume","wmp/IWMPSettings::put_volume"]
 old-location: wmp\iwmpsettings_put_volume.htm
 tech.root: WMP
 ms.assetid: 435dac36-1ccf-41fd-94c2-1242c6af1bbd

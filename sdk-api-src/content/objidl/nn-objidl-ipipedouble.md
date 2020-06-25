@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IPipeDouble
 title: IPipeDouble (objidl.h)
-description: Transfers data of the double type (which is 64 bits wide).helpviewer_keywords: ["IPipeDouble","IPipeDouble interface [COM]","IPipeDouble interface [COM]","described","_com_ipipedouble","com.ipipedouble","objidlbase/IPipeDouble"]
+description: Transfers data of the double type (which is 64 bits wide).
+helpviewer_keywords: ["IPipeDouble","IPipeDouble interface [COM]","IPipeDouble interface [COM]","described","_com_ipipedouble","com.ipipedouble","objidlbase/IPipeDouble"]
 old-location: com\ipipedouble.htm
 tech.root: com
 ms.assetid: 434d0e0e-55a0-4a08-bc63-ebca4b2bdcca

@@ -1,7 +1,8 @@
 ---
 UID: NS:winbase.tagACTCTX_SECTION_KEYED_DATA
 title: ACTCTX_SECTION_KEYED_DATA (winbase.h)
-description: The ACTCTX_SECTION_KEYED_DATA structure is used by the FindActCtxSectionString and FindActCtxSectionGuid functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.helpviewer_keywords: ["*PACTCTX_SECTION_KEYED_DATA","ACTCTX_SECTION_KEYED_DATA","ACTCTX_SECTION_KEYED_DATA structure [Side-by-side Assemblies]","PACTCTX_SECTION_KEYED_DATA","PACTCTX_SECTION_KEYED_DATA structure pointer [Side-by-side Assemblies]","_win32_actctx_section_keyed_data_str","setup.actctx_section_keyed_data_str","tagACTCTX_SECTION_KEYED_DATA","winbase/ACTCTX_SECTION_KEYED_DATA","winbase/PACTCTX_SECTION_KEYED_DATA"]
+description: The ACTCTX_SECTION_KEYED_DATA structure is used by the FindActCtxSectionString and FindActCtxSectionGuid functions to return the activation context information along with either the GUID or 32-bit integer-tagged activation context section.
+helpviewer_keywords: ["*PACTCTX_SECTION_KEYED_DATA","ACTCTX_SECTION_KEYED_DATA","ACTCTX_SECTION_KEYED_DATA structure [Side-by-side Assemblies]","PACTCTX_SECTION_KEYED_DATA","PACTCTX_SECTION_KEYED_DATA structure pointer [Side-by-side Assemblies]","_win32_actctx_section_keyed_data_str","setup.actctx_section_keyed_data_str","tagACTCTX_SECTION_KEYED_DATA","winbase/ACTCTX_SECTION_KEYED_DATA","winbase/PACTCTX_SECTION_KEYED_DATA"]
 old-location: setup\actctx_section_keyed_data_str.htm
 tech.root: SbsCs
 ms.assetid: c73160e7-fff5-4ba5-8b3a-895ac944c76d

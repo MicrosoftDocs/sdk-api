@@ -1,7 +1,8 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION (appxpackaging.h)
-description: Options to use when updating an app package.helpviewer_keywords: ["APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION","APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION enumeration [App packaging and management]","APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA","appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION","appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA","appxpkg.appx_package_editor_update_package_option"]
+description: Options to use when updating an app package.
+helpviewer_keywords: ["APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION","APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION enumeration [App packaging and management]","APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA","appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION","appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA","appxpkg.appx_package_editor_update_package_option"]
 old-location: appxpkg\appx_package_editor_update_package_option.htm
 tech.root: appxpkg
 ms.assetid: 62023009-97F6-40DF-ACB0-EA4D42CDB636

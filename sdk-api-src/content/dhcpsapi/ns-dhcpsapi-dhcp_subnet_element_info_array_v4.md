@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4
 title: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 (dhcpsapi.h)
-description: Defines an array of subnet element data. Element data in the V4 structure contains client type information.helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure [DHCP]","LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure pointer [DHCP]","dhcp.dhcp_subnet_element_info_array_v4","dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4"]
+description: Defines an array of subnet element data. Element data in the V4 structure contains client type information.
+helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure [DHCP]","LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure pointer [DHCP]","dhcp.dhcp_subnet_element_info_array_v4","dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4","dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4"]
 old-location: dhcp\dhcp_subnet_element_info_array_v4.htm
 tech.root: DHCP
 ms.assetid: e70581b4-879b-450f-a99b-754145f4bee8

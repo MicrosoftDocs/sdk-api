@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadStringA
 title: LoadStringA function (winuser.h)
-description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character.helpviewer_keywords: ["LoadString","LoadString function [Menus and Other Resources]","LoadStringA","LoadStringW","_win32_LoadString","_win32_loadstring_cpp","menurc.loadstring","winui._win32_loadstring","winuser/LoadString","winuser/LoadStringA","winuser/LoadStringW"]
+description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character.
+helpviewer_keywords: ["LoadString","LoadString function [Menus and Other Resources]","LoadStringA","LoadStringW","_win32_LoadString","_win32_loadstring_cpp","menurc.loadstring","winui._win32_loadstring","winuser/LoadString","winuser/LoadStringA","winuser/LoadStringW"]
 old-location: menurc\loadstring.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
@@ -128,6 +129,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

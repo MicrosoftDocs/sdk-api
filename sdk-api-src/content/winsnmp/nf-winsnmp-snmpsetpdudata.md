@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpSetPduData
 title: SnmpSetPduData function (winsnmp.h)
-description: The WinSNMP SnmpSetPduData function updates selected data fields in the specified SNMP protocol data unit (PDU).helpviewer_keywords: ["SnmpSetPduData","SnmpSetPduData function [SNMP]","_snmp_snmpsetpdudata","snmp.snmpsetpdudata","winsnmp/SnmpSetPduData"]
+description: The WinSNMP SnmpSetPduData function updates selected data fields in the specified SNMP protocol data unit (PDU).
+helpviewer_keywords: ["SnmpSetPduData","SnmpSetPduData function [SNMP]","_snmp_snmpsetpdudata","snmp.snmpsetpdudata","winsnmp/SnmpSetPduData"]
 old-location: snmp\snmpsetpdudata.htm
 tech.root: SNMP
 ms.assetid: 113c67b4-65d7-418d-9600-d1545e1cb0fb

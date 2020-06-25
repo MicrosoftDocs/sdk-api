@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.EnableTrace
 title: EnableTrace function (evntrace.h)
-description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.helpviewer_keywords: ["EnableTrace","EnableTrace function [ETW]","TRACE_LEVEL_CRITICAL","TRACE_LEVEL_ERROR","TRACE_LEVEL_INFORMATION","TRACE_LEVEL_VERBOSE","TRACE_LEVEL_WARNING","_evt_enabletrace","base.enabletrace","etw.enabletrace","evntrace/EnableTrace"]
+description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.
+helpviewer_keywords: ["EnableTrace","EnableTrace function [ETW]","TRACE_LEVEL_CRITICAL","TRACE_LEVEL_ERROR","TRACE_LEVEL_INFORMATION","TRACE_LEVEL_VERBOSE","TRACE_LEVEL_WARNING","_evt_enabletrace","base.enabletrace","etw.enabletrace","evntrace/EnableTrace"]
 old-location: etw\enabletrace.htm
 tech.root: ETW
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd

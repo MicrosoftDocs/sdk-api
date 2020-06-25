@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.ExtTextOutA
 title: ExtTextOutA function (wingdi.h)
-description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.helpviewer_keywords: ["ETO_CLIPPED","ETO_GLYPH_INDEX","ETO_IGNORELANGUAGE","ETO_NUMERICSLATIN","ETO_NUMERICSLOCAL","ETO_OPAQUE","ETO_PDY","ETO_RTLREADING","ExtTextOut","ExtTextOut function [Windows GDI]","ExtTextOutA","ExtTextOutW","_win32_ExtTextOut","gdi.exttextout","wingdi/ExtTextOut","wingdi/ExtTextOutA","wingdi/ExtTextOutW"]
+description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
+helpviewer_keywords: ["ETO_CLIPPED","ETO_GLYPH_INDEX","ETO_IGNORELANGUAGE","ETO_NUMERICSLATIN","ETO_NUMERICSLOCAL","ETO_OPAQUE","ETO_PDY","ETO_RTLREADING","ExtTextOut","ExtTextOut function [Windows GDI]","ExtTextOutA","ExtTextOutW","_win32_ExtTextOut","gdi.exttextout","wingdi/ExtTextOut","wingdi/ExtTextOutA","wingdi/ExtTextOutW"]
 old-location: gdi\exttextout.htm
 tech.root: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
@@ -330,6 +331,10 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines ExtTextOut as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

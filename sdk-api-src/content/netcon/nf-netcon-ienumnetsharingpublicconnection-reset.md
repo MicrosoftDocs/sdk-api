@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Reset
 title: IEnumNetSharingPublicConnection::Reset (netcon.h)
-description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.helpviewer_keywords: ["IEnumNetSharingPublicConnection interface [ICS/ICF]","Reset method","IEnumNetSharingPublicConnection.Reset","IEnumNetSharingPublicConnection::Reset","Reset","Reset method [ICS/ICF]","Reset method [ICS/ICF]","IEnumNetSharingPublicConnection interface","_ics_ienumnetsharingpublicconnection_reset","ics.ienumnetsharingpublicconnection_reset","netcon/IEnumNetSharingPublicConnection::Reset"]
+description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
+helpviewer_keywords: ["IEnumNetSharingPublicConnection interface [ICS/ICF]","Reset method","IEnumNetSharingPublicConnection.Reset","IEnumNetSharingPublicConnection::Reset","Reset","Reset method [ICS/ICF]","Reset method [ICS/ICF]","IEnumNetSharingPublicConnection interface","_ics_ienumnetsharingpublicconnection_reset","ics.ienumnetsharingpublicconnection_reset","netcon/IEnumNetSharingPublicConnection::Reset"]
 old-location: ics\ienumnetsharingpublicconnection_reset.htm
 tech.root: ics
 ms.assetid: f58a9efb-bb0d-477c-946f-5bef6c5635d8

@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_2.IDWriteTextLayout2
 title: IDWriteTextLayout2 (dwrite_2.h)
-description: Represents a block of text after it has been fully analyzed and formatted.helpviewer_keywords: ["IDWriteTextLayout2","IDWriteTextLayout2 interface [Direct Write]","IDWriteTextLayout2 interface [Direct Write]","described","directwrite.idwritetextlayout2","dwrite_2/IDWriteTextLayout2"]
+description: Represents a block of text after it has been fully analyzed and formatted.
+helpviewer_keywords: ["IDWriteTextLayout2","IDWriteTextLayout2 interface [Direct Write]","IDWriteTextLayout2 interface [Direct Write]","described","directwrite.idwritetextlayout2","dwrite_2/IDWriteTextLayout2"]
 old-location: directwrite\idwritetextlayout2.htm
 tech.root: DirectWrite
 ms.assetid: 034D795B-016A-401E-AD75-D5B0D1E87806

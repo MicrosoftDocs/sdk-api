@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToInt16Array
 title: VariantToInt16Array function (propvarutil.h)
-description: Extracts data from a vector structure into an Int16 array.helpviewer_keywords: ["VariantToInt16Array","VariantToInt16Array function [Windows Properties]","_shell_VariantToInt16Array","properties.VariantToInt16Array","propvarutil/VariantToInt16Array","shell.VariantToInt16Array"]
+description: Extracts data from a vector structure into an Int16 array.
+helpviewer_keywords: ["VariantToInt16Array","VariantToInt16Array function [Windows Properties]","_shell_VariantToInt16Array","properties.VariantToInt16Array","propvarutil/VariantToInt16Array","shell.VariantToInt16Array"]
 old-location: properties\VariantToInt16Array.htm
 tech.root: properties
 ms.assetid: dd00d986-acfa-445e-a0f6-0f52860b762b

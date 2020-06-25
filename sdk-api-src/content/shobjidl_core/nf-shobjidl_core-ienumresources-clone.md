@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Clone
 title: IEnumResources::Clone (shobjidl_core.h)
-description: Clones a resource enumerator.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumResources interface","IEnumResources interface [Windows Shell]","Clone method","IEnumResources.Clone","IEnumResources::Clone","_shell_IEnumResources_Clone","shell.IEnumResources_Clone","shobjidl_core/IEnumResources::Clone"]
+description: Clones a resource enumerator.
+helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumResources interface","IEnumResources interface [Windows Shell]","Clone method","IEnumResources.Clone","IEnumResources::Clone","_shell_IEnumResources_Clone","shell.IEnumResources_Clone","shobjidl_core/IEnumResources::Clone"]
 old-location: shell\IEnumResources_Clone.htm
 tech.root: shell
 ms.assetid: 660243ba-263d-4f4a-b26f-ab831f60d76b

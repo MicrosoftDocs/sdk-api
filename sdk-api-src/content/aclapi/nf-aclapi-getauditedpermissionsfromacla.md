@@ -1,7 +1,8 @@
 ---
 UID: NF:aclapi.GetAuditedPermissionsFromAclA
 title: GetAuditedPermissionsFromAclA function (aclapi.h)
-description: Retrieves the audited access rights for a specified trustee.helpviewer_keywords: ["GetAuditedPermissionsFromAcl","GetAuditedPermissionsFromAcl function [Security]","GetAuditedPermissionsFromAclA","GetAuditedPermissionsFromAclW","_win32_getauditedpermissionsfromacl","aclapi/GetAuditedPermissionsFromAcl","aclapi/GetAuditedPermissionsFromAclA","aclapi/GetAuditedPermissionsFromAclW","security.getauditedpermissionsfromacl"]
+description: Retrieves the audited access rights for a specified trustee.
+helpviewer_keywords: ["GetAuditedPermissionsFromAcl","GetAuditedPermissionsFromAcl function [Security]","GetAuditedPermissionsFromAclA","GetAuditedPermissionsFromAclW","_win32_getauditedpermissionsfromacl","aclapi/GetAuditedPermissionsFromAcl","aclapi/GetAuditedPermissionsFromAclA","aclapi/GetAuditedPermissionsFromAclW","security.getauditedpermissionsfromacl"]
 old-location: security\getauditedpermissionsfromacl.htm
 tech.root: SecAuthZ
 ms.assetid: 4381fe12-5fb3-4f9c-8daa-261cb1a466ec
@@ -104,6 +105,10 @@ The <b>GetAuditedPermissionsFromAcl</b> function checks all system-audit ACEs in
 
 
 
+
+
+> [!NOTE]
+> The aclapi.h header defines GetAuditedPermissionsFromAcl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

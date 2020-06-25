@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetOverlayPosition
 title: IDirectDrawSurface7::GetOverlayPosition (ddraw.h)
-description: Retrieves the display coordinates of this surface. This method is used on a visible, active overlay surface (that is, a surface that has the DDSCAPS_OVERLAY flag set).helpviewer_keywords: ["GetOverlayPosition","GetOverlayPosition method [DirectDraw]","GetOverlayPosition method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetOverlayPosition method","IDirectDrawSurface7.GetOverlayPosition","IDirectDrawSurface7::GetOverlayPosition","ddraw/IDirectDrawSurface7::GetOverlayPosition","directdraw.idirectdrawsurface7_getoverlayposition"]
+description: Retrieves the display coordinates of this surface. This method is used on a visible, active overlay surface (that is, a surface that has the DDSCAPS_OVERLAY flag set).
+helpviewer_keywords: ["GetOverlayPosition","GetOverlayPosition method [DirectDraw]","GetOverlayPosition method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetOverlayPosition method","IDirectDrawSurface7.GetOverlayPosition","IDirectDrawSurface7::GetOverlayPosition","ddraw/IDirectDrawSurface7::GetOverlayPosition","directdraw.idirectdrawsurface7_getoverlayposition"]
 old-location: directdraw\idirectdrawsurface7_getoverlayposition.htm
 tech.root: directdraw
 ms.assetid: 008502f7-468f-4d79-a309-75ebdbe29ff3

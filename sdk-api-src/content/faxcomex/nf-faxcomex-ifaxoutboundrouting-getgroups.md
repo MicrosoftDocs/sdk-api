@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRouting.GetGroups
 title: IFaxOutboundRouting::GetGroups (faxcomex.h)
-description: The IFaxOutboundRouting::GetGroups method retrieves an interface that represents a collection of outbound routing groups.helpviewer_keywords: ["GetGroups","GetGroups method [Fax Service]","GetGroups method [Fax Service]","IFaxOutboundRouting interface","IFaxOutboundRouting interface [Fax Service]","GetGroups method","IFaxOutboundRouting.GetGroups","IFaxOutboundRouting::GetGroups","_mfax_faxoutboundrouting.getgroups_cpp","fax._mfax_faxoutboundrouting_getgroups_cpp","faxcomex/IFaxOutboundRouting::GetGroups"]
+description: The IFaxOutboundRouting::GetGroups method retrieves an interface that represents a collection of outbound routing groups.
+helpviewer_keywords: ["GetGroups","GetGroups method [Fax Service]","GetGroups method [Fax Service]","IFaxOutboundRouting interface","IFaxOutboundRouting interface [Fax Service]","GetGroups method","IFaxOutboundRouting.GetGroups","IFaxOutboundRouting::GetGroups","_mfax_faxoutboundrouting.getgroups_cpp","fax._mfax_faxoutboundrouting_getgroups_cpp","faxcomex/IFaxOutboundRouting::GetGroups"]
 old-location: fax\_mfax_faxoutboundrouting_getgroups_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8j1v_cpp.htm

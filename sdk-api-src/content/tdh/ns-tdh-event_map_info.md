@@ -1,7 +1,8 @@
 ---
 UID: NS:tdh._EVENT_MAP_INFO
 title: EVENT_MAP_INFO (tdh.h)
-description: Defines the metadata about the event map.helpviewer_keywords: ["*PEVENT_MAP_INFO","EVENT_MAP_INFO","EVENT_MAP_INFO structure [ETW]","etw.event_map_info_struct","tdh.event_map_info_struct","tdh/EVENT_MAP_INFO"]
+description: Defines the metadata about the event map.
+helpviewer_keywords: ["*PEVENT_MAP_INFO","EVENT_MAP_INFO","EVENT_MAP_INFO structure [ETW]","etw.event_map_info_struct","tdh.event_map_info_struct","tdh/EVENT_MAP_INFO"]
 old-location: etw\event_map_info_struct.htm
 tech.root: ETW
 ms.assetid: dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98

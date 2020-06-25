@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesSimpleProgress.ItemBegin
 title: IOfflineFilesSimpleProgress::ItemBegin (cscobj.h)
-description: Reports that an operation on an item is beginning.helpviewer_keywords: ["IOfflineFilesSimpleProgress interface [Offline Files]","ItemBegin method","IOfflineFilesSimpleProgress.ItemBegin","IOfflineFilesSimpleProgress::ItemBegin","ItemBegin","ItemBegin method [Offline Files]","ItemBegin method [Offline Files]","IOfflineFilesSimpleProgress interface","cscobj/IOfflineFilesSimpleProgress::ItemBegin","of.iofflinefilessimpleprogress_itembegin"]
+description: Reports that an operation on an item is beginning.
+helpviewer_keywords: ["IOfflineFilesSimpleProgress interface [Offline Files]","ItemBegin method","IOfflineFilesSimpleProgress.ItemBegin","IOfflineFilesSimpleProgress::ItemBegin","ItemBegin","ItemBegin method [Offline Files]","ItemBegin method [Offline Files]","IOfflineFilesSimpleProgress interface","cscobj/IOfflineFilesSimpleProgress::ItemBegin","of.iofflinefilessimpleprogress_itembegin"]
 old-location: of\iofflinefilessimpleprogress_itembegin.htm
 tech.root: offlinefiles
 ms.assetid: 0e3496ee-e987-4c37-93ff-bc8409acabde

@@ -1,7 +1,8 @@
 ---
 UID: NS:msi.tagMSIPATCHSEQUENCEINFOA
 title: MSIPATCHSEQUENCEINFOA (msi.h)
-description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.helpviewer_keywords: ["*PMSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFO","MSIPATCHSEQUENCEINFO structure","MSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFOW","MSIPATCH_DATATYPE_PATCHFILE","MSIPATCH_DATATYPE_XMLBLOB","MSIPATCH_DATATYPE_XMLPATH","PMSIPATCHSEQUENCEINFO","PMSIPATCHSEQUENCEINFO structure pointer","msi/MSIPATCHSEQUENCEINFO","msi/MSIPATCHSEQUENCEINFOA","msi/MSIPATCHSEQUENCEINFOW","msi/PMSIPATCHSEQUENCEINFO","setup.msipatchsequenceinfo"]
+description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.
+helpviewer_keywords: ["*PMSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFO","MSIPATCHSEQUENCEINFO structure","MSIPATCHSEQUENCEINFOA","MSIPATCHSEQUENCEINFOW","MSIPATCH_DATATYPE_PATCHFILE","MSIPATCH_DATATYPE_XMLBLOB","MSIPATCH_DATATYPE_XMLPATH","PMSIPATCHSEQUENCEINFO","PMSIPATCHSEQUENCEINFO structure pointer","msi/MSIPATCHSEQUENCEINFO","msi/MSIPATCHSEQUENCEINFOA","msi/MSIPATCHSEQUENCEINFOW","msi/PMSIPATCHSEQUENCEINFO","setup.msipatchsequenceinfo"]
 old-location: setup\msipatchsequenceinfo.htm
 tech.root: Msi
 ms.assetid: 75f76d85-39f6-4a2c-8b5f-1238639a2014
@@ -137,4 +138,9 @@ Set to ERROR_SUCCESS or the corresponding Win32 error code.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msi.h header defines MSIPATCHSEQUENCEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

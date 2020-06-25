@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV6SetStatelessStoreParams
 title: DhcpV6SetStatelessStoreParams function (dhcpsapi.h)
-description: Sets the DHCPv6 stateless client inventory configuration settings at the server or scope level.helpviewer_keywords: ["DhcpV6SetStatelessStoreParams","DhcpV6SetStatelessStoreParams function [DHCP]","dhcp.dhcpv6setstatelessstoreparams","dhcpsapi/DhcpV6SetStatelessStoreParams"]
+description: Sets the DHCPv6 stateless client inventory configuration settings at the server or scope level.
+helpviewer_keywords: ["DhcpV6SetStatelessStoreParams","DhcpV6SetStatelessStoreParams function [DHCP]","dhcp.dhcpv6setstatelessstoreparams","dhcpsapi/DhcpV6SetStatelessStoreParams"]
 old-location: dhcp\dhcpv6setstatelessstoreparams.htm
 tech.root: DHCP
 ms.assetid: 8f64c1bb-8f02-45e3-b9ed-8fce2bf9885c

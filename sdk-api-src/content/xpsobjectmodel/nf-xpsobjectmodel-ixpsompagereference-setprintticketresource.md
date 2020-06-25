@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetPrintTicketResource
 title: IXpsOMPageReference::SetPrintTicketResource (xpsobjectmodel.h)
-description: Sets the IXpsOMPrintTicketResource interface pointer of the page-level print ticket resource that is to be assigned to the page.helpviewer_keywords: ["IXpsOMPageReference interface [XPS Documents and Packaging]","SetPrintTicketResource method","IXpsOMPageReference.SetPrintTicketResource","IXpsOMPageReference::SetPrintTicketResource","SetPrintTicketResource","SetPrintTicketResource method [XPS Documents and Packaging]","SetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMPageReference interface","xps.ixpsompagereference_setprintticketresource","xpsobjectmodel/IXpsOMPageReference::SetPrintTicketResource"]
+description: Sets the IXpsOMPrintTicketResource interface pointer of the page-level print ticket resource that is to be assigned to the page.
+helpviewer_keywords: ["IXpsOMPageReference interface [XPS Documents and Packaging]","SetPrintTicketResource method","IXpsOMPageReference.SetPrintTicketResource","IXpsOMPageReference::SetPrintTicketResource","SetPrintTicketResource","SetPrintTicketResource method [XPS Documents and Packaging]","SetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMPageReference interface","xps.ixpsompagereference_setprintticketresource","xpsobjectmodel/IXpsOMPageReference::SetPrintTicketResource"]
 old-location: xps\ixpsompagereference_setprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 76594c7d-327d-45a5-8947-c587ada7b758

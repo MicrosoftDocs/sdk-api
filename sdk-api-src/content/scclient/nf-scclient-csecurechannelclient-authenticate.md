@@ -1,7 +1,8 @@
 ---
 UID: NF:scclient.CSecureChannelClient.Authenticate
 title: CSecureChannelClient::Authenticate (scclient.h)
-description: The Authenticate method authenticates communication between components to establish trust.helpviewer_keywords: ["Authenticate","Authenticate method [windows Media Device Manager]","Authenticate method [windows Media Device Manager]","CSecureChannelClient class","CSecureChannelClient class [windows Media Device Manager]","Authenticate method","CSecureChannelClient.Authenticate","CSecureChannelClient::Authenticate","CSecureChannelClientAuthenticate","scclient/CSecureChannelClient::Authenticate","wmdm.csecurechannelclient_authenticate"]
+description: The Authenticate method authenticates communication between components to establish trust.
+helpviewer_keywords: ["Authenticate","Authenticate method [windows Media Device Manager]","Authenticate method [windows Media Device Manager]","CSecureChannelClient class","CSecureChannelClient class [windows Media Device Manager]","Authenticate method","CSecureChannelClient.Authenticate","CSecureChannelClient::Authenticate","CSecureChannelClientAuthenticate","scclient/CSecureChannelClient::Authenticate","wmdm.csecurechannelclient_authenticate"]
 old-location: wmdm\csecurechannelclient_authenticate.htm
 tech.root: WMDM
 ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057

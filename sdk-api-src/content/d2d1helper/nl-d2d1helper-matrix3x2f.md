@@ -305,7 +305,7 @@ Transforms can be applied to objects or to an entire drawing surface.  To apply 
 
 #### Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation">D2D1::Matrix3x2F::Rotation</a>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the SetTransform method of the render target (<i>m_pRenderTarget</i>).
+The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-rotation">D2D1::Matrix3x2F::Rotation</a>  method to create a rotation matrix that rotates a square clockwise 45 degrees about the center of the square and passes the matrix to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-settransform">SetTransform</a> method of the render target (<i>m_pRenderTarget</i>).
 
 The following illustration shows the effect of applying the  preceding rotation transformation to the square. The original square is a dotted outline, and the rotated square is a solid outline. 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputMaxLatency
 title: IMediaObject::GetInputMaxLatency (mediaobj.h)
-description: The GetInputMaxLatency method retrieves the maximum latency on a specified input stream.helpviewer_keywords: ["GetInputMaxLatency","GetInputMaxLatency method [DirectShow]","GetInputMaxLatency method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputMaxLatency method","IMediaObject.GetInputMaxLatency","IMediaObject::GetInputMaxLatency","IMediaObjectGetInputMaxLatency","dshow.imediaobject_getinputmaxlatency","mediaobj/IMediaObject::GetInputMaxLatency"]
+description: The GetInputMaxLatency method retrieves the maximum latency on a specified input stream.
+helpviewer_keywords: ["GetInputMaxLatency","GetInputMaxLatency method [DirectShow]","GetInputMaxLatency method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputMaxLatency method","IMediaObject.GetInputMaxLatency","IMediaObject::GetInputMaxLatency","IMediaObjectGetInputMaxLatency","dshow.imediaobject_getinputmaxlatency","mediaobj/IMediaObject::GetInputMaxLatency"]
 old-location: dshow\imediaobject_getinputmaxlatency.htm
 tech.root: DirectShow
 ms.assetid: f8a18b4c-a59c-4e9d-aff7-62333e9ffda9

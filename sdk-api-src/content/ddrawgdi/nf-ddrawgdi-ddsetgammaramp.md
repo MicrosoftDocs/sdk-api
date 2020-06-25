@@ -1,7 +1,8 @@
 ---
 UID: NF:ddrawgdi.DdSetGammaRamp
 title: DdSetGammaRamp function (ddrawgdi.h)
-description: The DdSetGammaRamp function sets the gamma ramp for the device.helpviewer_keywords: ["DdSetGammaRamp","DdSetGammaRamp function [Windows API]","GdiEntry15","_dxgkernel_ddsetgammaramp","ddrawgdi/DdSetGammaRamp","ddrawgdi/GdiEntry15","winprog._dxgkernel_ddsetgammaramp","winui._dxgkernel_ddsetgammaramp"]
+description: The DdSetGammaRamp function sets the gamma ramp for the device.
+helpviewer_keywords: ["DdSetGammaRamp","DdSetGammaRamp function [Windows API]","GdiEntry15","_dxgkernel_ddsetgammaramp","ddrawgdi/DdSetGammaRamp","ddrawgdi/GdiEntry15","winprog._dxgkernel_ddsetgammaramp","winui._dxgkernel_ddsetgammaramp"]
 old-location: winprog\_dxgkernel_ddsetgammaramp.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddsetgammaramp.htm

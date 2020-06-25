@@ -1,7 +1,8 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromUri
 title: IStorageProviderHandler::GetPropertyHandlerFromUri (storageprovider.h)
-description: Gets an instance of IStorageProviderPropertyHandler associated with the provided URI.helpviewer_keywords: ["GetPropertyHandlerFromUri","GetPropertyHandlerFromUri method [Windows Shell]","GetPropertyHandlerFromUri method [Windows Shell]","IStorageProviderHandler interface","IStorageProviderHandler interface [Windows Shell]","GetPropertyHandlerFromUri method","IStorageProviderHandler.GetPropertyHandlerFromUri","IStorageProviderHandler::GetPropertyHandlerFromUri","shell.istorageproviderhandler_getpropertyhandlerfromuri","storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri"]
+description: Gets an instance of IStorageProviderPropertyHandler associated with the provided URI.
+helpviewer_keywords: ["GetPropertyHandlerFromUri","GetPropertyHandlerFromUri method [Windows Shell]","GetPropertyHandlerFromUri method [Windows Shell]","IStorageProviderHandler interface","IStorageProviderHandler interface [Windows Shell]","GetPropertyHandlerFromUri method","IStorageProviderHandler.GetPropertyHandlerFromUri","IStorageProviderHandler::GetPropertyHandlerFromUri","shell.istorageproviderhandler_getpropertyhandlerfromuri","storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri"]
 old-location: shell\istorageproviderhandler_getpropertyhandlerfromuri.htm
 tech.root: shell
 ms.assetid: C02A9690-1E98-4960-B5E7-E75BDAAF9A62

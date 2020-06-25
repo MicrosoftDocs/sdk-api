@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.Int8ToUChar
 title: Int8ToUChar function (intsafe.h)
-description: Converts a value of type INT8 to a value of type UCHAR.helpviewer_keywords: ["Int8ToUChar","Int8ToUChar function [Windows Shell]","intsafe/Int8ToUChar","shell.Int8ToUChar"]
+description: Converts a value of type INT8 to a value of type UCHAR.
+helpviewer_keywords: ["Int8ToUChar","Int8ToUChar function [Windows Shell]","intsafe/Int8ToUChar","shell.Int8ToUChar"]
 old-location: shell\Int8ToUChar.htm
 tech.root: shell
 ms.assetid: f8e87f71-f1a2-433a-8b57-6a7bd59b1e06

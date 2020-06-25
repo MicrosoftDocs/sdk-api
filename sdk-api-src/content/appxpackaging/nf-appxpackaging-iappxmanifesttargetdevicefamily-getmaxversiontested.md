@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMaxVersionTested
 title: IAppxManifestTargetDeviceFamily::GetMaxVersionTested (appxpackaging.h)
-description: Gets the maximum version tested from the AppxManifest.xml.helpviewer_keywords: ["GetMaxVersionTested","GetMaxVersionTested method [App packaging and management]","GetMaxVersionTested method [App packaging and management]","IAppxManifestTargetDeviceFamily interface","IAppxManifestTargetDeviceFamily interface [App packaging and management]","GetMaxVersionTested method","IAppxManifestTargetDeviceFamily.GetMaxVersionTested","IAppxManifestTargetDeviceFamily::GetMaxVersionTested","appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested","appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested"]
+description: Gets the maximum version tested from the AppxManifest.xml.
+helpviewer_keywords: ["GetMaxVersionTested","GetMaxVersionTested method [App packaging and management]","GetMaxVersionTested method [App packaging and management]","IAppxManifestTargetDeviceFamily interface","IAppxManifestTargetDeviceFamily interface [App packaging and management]","GetMaxVersionTested method","IAppxManifestTargetDeviceFamily.GetMaxVersionTested","IAppxManifestTargetDeviceFamily::GetMaxVersionTested","appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested","appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested"]
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getmaxversiontested.htm
 tech.root: appxpkg
 ms.assetid: 65391D03-627D-4302-BE1A-6E90E3A04458

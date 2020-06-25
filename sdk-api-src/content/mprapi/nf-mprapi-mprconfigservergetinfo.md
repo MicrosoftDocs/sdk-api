@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigServerGetInfo
 title: MprConfigServerGetInfo function (mprapi.h)
-description: The MprConfigServerGetInfo function retrieves server-level configuration information for the specified router.helpviewer_keywords: ["MprConfigServerGetInfo","MprConfigServerGetInfo function [RAS]","_mpr_mprconfigservergetinfo","mprapi/MprConfigServerGetInfo","rras.mprconfigservergetinfo"]
+description: The MprConfigServerGetInfo function retrieves server-level configuration information for the specified router.
+helpviewer_keywords: ["MprConfigServerGetInfo","MprConfigServerGetInfo function [RAS]","_mpr_mprconfigservergetinfo","mprapi/MprConfigServerGetInfo","rras.mprconfigservergetinfo"]
 old-location: rras\mprconfigservergetinfo.htm
 tech.root: RRAS
 ms.assetid: 6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b

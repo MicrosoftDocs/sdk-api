@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasGetConnectionStatistics
 title: RasGetConnectionStatistics function (ras.h)
-description: The RasGetConnectionStatistics function retrieves accumulated connection statistics for the specified connection.helpviewer_keywords: ["RasGetConnectionStatistics","RasGetConnectionStatistics function [RAS]","_ras_rasgetconnectionstatistics","ras/RasGetConnectionStatistics","rras.rasgetconnectionstatistics"]
+description: The RasGetConnectionStatistics function retrieves accumulated connection statistics for the specified connection.
+helpviewer_keywords: ["RasGetConnectionStatistics","RasGetConnectionStatistics function [RAS]","_ras_rasgetconnectionstatistics","ras/RasGetConnectionStatistics","rras.rasgetconnectionstatistics"]
 old-location: rras\rasgetconnectionstatistics.htm
 tech.root: RRAS
 ms.assetid: 2db03535-c2bd-4e04-a86f-e68fe5c1f805

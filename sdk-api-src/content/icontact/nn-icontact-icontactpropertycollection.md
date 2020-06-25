@@ -1,7 +1,8 @@
 ---
 UID: NN:icontact.IContactPropertyCollection
 title: IContactPropertyCollection (icontact.h)
-description: Do not use. Used to filter contact data, based on a label or property set. Enumerates contact properties exposed with an IContactProperties object. For each property, the name, type, version, and modification date can be retrieved.helpviewer_keywords: ["IContactPropertyCollection","IContactPropertyCollection interface [Windows Contacts]","IContactPropertyCollection interface [Windows Contacts]","described","_wincontacts_IContactPropertyCollection","icontact/IContactPropertyCollection","wincontacts._wincontacts_IContactPropertyCollection"]
+description: Do not use. Used to filter contact data, based on a label or property set. Enumerates contact properties exposed with an IContactProperties object. For each property, the name, type, version, and modification date can be retrieved.
+helpviewer_keywords: ["IContactPropertyCollection","IContactPropertyCollection interface [Windows Contacts]","IContactPropertyCollection interface [Windows Contacts]","described","_wincontacts_IContactPropertyCollection","icontact/IContactPropertyCollection","wincontacts._wincontacts_IContactPropertyCollection"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection.htm
 tech.root: wincontacts
 ms.assetid: dec9430d-2174-42fe-85c1-16fa7e7adc0c

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetXStateFeaturesMask
 title: SetXStateFeaturesMask function (winbase.h)
-description: Sets the mask of XState features set within a CONTEXT structure.helpviewer_keywords: ["SetXStateFeaturesMask","SetXStateFeaturesMask function","base.setxstatefeaturesmask","winbase/SetXStateFeaturesMask"]
+description: Sets the mask of XState features set within a CONTEXT structure.
+helpviewer_keywords: ["SetXStateFeaturesMask","SetXStateFeaturesMask function","base.setxstatefeaturesmask","winbase/SetXStateFeaturesMask"]
 old-location: base\setxstatefeaturesmask.htm
 tech.root: Debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD

@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1005
 title: SERVER_INFO_1005 (lmserver.h)
-description: The SERVER_INFO_1005 structure contains a comment that describes the specified server.helpviewer_keywords: ["*LPSERVER_INFO_1005","*PSERVER_INFO_1005","LPSERVER_INFO_1005","LPSERVER_INFO_1005 structure pointer [Network Management]","PSERVER_INFO_1005","PSERVER_INFO_1005 structure pointer [Network Management]","SERVER_INFO_1005","SERVER_INFO_1005 structure [Network Management]","_win32_server_info_1005_str","lmserver/LPSERVER_INFO_1005","lmserver/PSERVER_INFO_1005","lmserver/SERVER_INFO_1005","netmgmt.server_info_1005_str"]
+description: The SERVER_INFO_1005 structure contains a comment that describes the specified server.
+helpviewer_keywords: ["*LPSERVER_INFO_1005","*PSERVER_INFO_1005","LPSERVER_INFO_1005","LPSERVER_INFO_1005 structure pointer [Network Management]","PSERVER_INFO_1005","PSERVER_INFO_1005 structure pointer [Network Management]","SERVER_INFO_1005","SERVER_INFO_1005 structure [Network Management]","_win32_server_info_1005_str","lmserver/LPSERVER_INFO_1005","lmserver/PSERVER_INFO_1005","lmserver/SERVER_INFO_1005","netmgmt.server_info_1005_str"]
 old-location: netmgmt\server_info_1005_str.htm
 tech.root: NetMgmt
 ms.assetid: a8ce88ee-2b44-4b12-ba7a-f84249a3621b

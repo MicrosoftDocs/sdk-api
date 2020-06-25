@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidDevice2.get_DevicePath
 title: IMSVidDevice2::get_DevicePath (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.helpviewer_keywords: ["IMSVidDevice2 interface [Microsoft TV Technologies]","get_DevicePath method","IMSVidDevice2.get_DevicePath","IMSVidDevice2::get_DevicePath","IMSVidDevice2get_DevicePath","get_DevicePath","get_DevicePath method [Microsoft TV Technologies]","get_DevicePath method [Microsoft TV Technologies]","IMSVidDevice2 interface","mstv.imsviddevice2_get_devicepath","segment/IMSVidDevice2::get_DevicePath"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
+helpviewer_keywords: ["IMSVidDevice2 interface [Microsoft TV Technologies]","get_DevicePath method","IMSVidDevice2.get_DevicePath","IMSVidDevice2::get_DevicePath","IMSVidDevice2get_DevicePath","get_DevicePath","get_DevicePath method [Microsoft TV Technologies]","get_DevicePath method [Microsoft TV Technologies]","IMSVidDevice2 interface","mstv.imsviddevice2_get_devicepath","segment/IMSVidDevice2::get_DevicePath"]
 old-location: mstv\imsviddevice2_get_devicepath.htm
 tech.root: mstv
 ms.assetid: 4a0191d7-2b10-4f7e-96e1-263ddd718229

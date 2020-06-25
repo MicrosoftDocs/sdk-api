@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.Paste
 title: ITextRange::Paste (tom.h)
-description: Pastes text from a specified data object.helpviewer_keywords: ["ITextRange interface [Windows Controls]","Paste method","ITextRange.Paste","ITextRange::Paste","Paste","Paste method [Windows Controls]","Paste method [Windows Controls]","ITextRange interface","_win32_ITextRange_Paste","_win32_ITextRange_Paste_cpp","controls.ITextRange_Paste","controls._win32_ITextRange_Paste","tom/ITextRange::Paste"]
+description: Pastes text from a specified data object.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","Paste method","ITextRange.Paste","ITextRange::Paste","Paste","Paste method [Windows Controls]","Paste method [Windows Controls]","ITextRange interface","_win32_ITextRange_Paste","_win32_ITextRange_Paste_cpp","controls.ITextRange_Paste","controls._win32_ITextRange_Paste","tom/ITextRange::Paste"]
 old-location: controls\ITextRange_Paste.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\paste.htm

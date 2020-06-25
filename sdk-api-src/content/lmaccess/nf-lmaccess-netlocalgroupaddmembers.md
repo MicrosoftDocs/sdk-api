@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetLocalGroupAddMembers
 title: NetLocalGroupAddMembers function (lmaccess.h)
-description: The NetLocalGroupAddMembers function adds membership of one or more existing user accounts or global group accounts to an existing local group.helpviewer_keywords: ["0","3","NetLocalGroupAddMembers","NetLocalGroupAddMembers function [Network Management]","_win32_netlocalgroupaddmembers","lmaccess/NetLocalGroupAddMembers","netmgmt.netlocalgroupaddmembers"]
+description: The NetLocalGroupAddMembers function adds membership of one or more existing user accounts or global group accounts to an existing local group.
+helpviewer_keywords: ["0","3","NetLocalGroupAddMembers","NetLocalGroupAddMembers function [Network Management]","_win32_netlocalgroupaddmembers","lmaccess/NetLocalGroupAddMembers","netmgmt.netlocalgroupaddmembers"]
 old-location: netmgmt\netlocalgroupaddmembers.htm
 tech.root: NetMgmt
 ms.assetid: 3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857

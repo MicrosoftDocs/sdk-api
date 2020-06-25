@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrClientCall3
 title: NdrClientCall3 function (rpcndr.h)
-description: NdrClientCall3 may be altered or unavailable.helpviewer_keywords: ["NdrClientCall3","NdrClientCall3 function [RPC]","rpc.ndrclientcall3","rpcndr/NdrClientCall3"]
+description: NdrClientCall3 may be altered or unavailable.
+helpviewer_keywords: ["NdrClientCall3","NdrClientCall3 function [RPC]","rpc.ndrclientcall3","rpcndr/NdrClientCall3"]
 old-location: rpc\ndrclientcall3.htm
 tech.root: Rpc
 ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B

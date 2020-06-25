@@ -1,7 +1,8 @@
 ---
 UID: NN:control.IMediaEvent
 title: IMediaEvent (control.h)
-description: The IMediaEvent interface contains methods for retrieving event notifications and for overriding the Filter Graph Manager's default handling of events.helpviewer_keywords: ["IMediaEvent","IMediaEvent interface [DirectShow]","IMediaEvent interface [DirectShow]","described","IMediaEventInterface","control/IMediaEvent","dshow.imediaevent"]
+description: The IMediaEvent interface contains methods for retrieving event notifications and for overriding the Filter Graph Manager's default handling of events.
+helpviewer_keywords: ["IMediaEvent","IMediaEvent interface [DirectShow]","IMediaEvent interface [DirectShow]","described","IMediaEventInterface","control/IMediaEvent","dshow.imediaevent"]
 old-location: dshow\imediaevent.htm
 tech.root: DirectShow
 ms.assetid: 651561d1-4e7e-48de-9cba-769ddb553e63

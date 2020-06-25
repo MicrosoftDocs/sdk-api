@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongPtrToULongLong
 title: LongPtrToULongLong function (intsafe.h)
-description: Converts a value of type LONG_PTR to a value of type ULONGLONG.helpviewer_keywords: ["LongPtrToULongLong","LongPtrToULongLong function [Windows Shell]","_shell_LongPtrToULongLong","intsafe/LongPtrToULongLong","shell.LongPtrToULongLong"]
+description: Converts a value of type LONG_PTR to a value of type ULONGLONG.
+helpviewer_keywords: ["LongPtrToULongLong","LongPtrToULongLong function [Windows Shell]","_shell_LongPtrToULongLong","intsafe/LongPtrToULongLong","shell.LongPtrToULongLong"]
 old-location: shell\LongPtrToULongLong.htm
 tech.root: shell
 ms.assetid: 1936b963-751c-46c6-a409-f1191c6940e7

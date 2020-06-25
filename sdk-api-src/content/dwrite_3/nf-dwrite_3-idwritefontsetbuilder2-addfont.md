@@ -51,7 +51,7 @@ Adds a font to the set being built, with the caller supplying enough information
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
 
 Font file reference object to add to the set.
 

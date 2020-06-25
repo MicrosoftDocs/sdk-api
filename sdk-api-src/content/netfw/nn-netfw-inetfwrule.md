@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwRule
 title: INetFwRule (netfw.h)
-description: To the properties of a rule.helpviewer_keywords: ["INetFwRule","INetFwRule interface [ICS/ICF]","INetFwRule interface [ICS/ICF]","described","ics.inetfwrule","netfw/INetFwRule"]
+description: To the properties of a rule.
+helpviewer_keywords: ["INetFwRule","INetFwRule interface [ICS/ICF]","INetFwRule interface [ICS/ICF]","described","ics.inetfwrule","netfw/INetFwRule"]
 old-location: ics\inetfwrule.htm
 tech.root: ics
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457

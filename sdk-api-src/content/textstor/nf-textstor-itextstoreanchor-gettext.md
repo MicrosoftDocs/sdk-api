@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetText
 title: ITextStoreAnchor::GetText (textstor.h)
-description: The ITextStoreAnchor::GetText method returns information about text at a specified anchor position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.helpviewer_keywords: ["GetText","GetText method [Text Services Framework]","GetText method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetText method","ITextStoreAnchor.GetText","ITextStoreAnchor::GetText","textstor/ITextStoreAnchor::GetText","tsf.itextstoreanchor_gettext"]
+description: The ITextStoreAnchor::GetText method returns information about text at a specified anchor position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
+helpviewer_keywords: ["GetText","GetText method [Text Services Framework]","GetText method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetText method","ITextStoreAnchor.GetText","ITextStoreAnchor::GetText","textstor/ITextStoreAnchor::GetText","tsf.itextstoreanchor_gettext"]
 old-location: tsf\itextstoreanchor_gettext.htm
 tech.root: TSF
 ms.assetid: fd3f91df-b107-4284-8435-d859c843555f

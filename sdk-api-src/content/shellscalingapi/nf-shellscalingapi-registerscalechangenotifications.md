@@ -1,7 +1,8 @@
 ---
 UID: NF:shellscalingapi.RegisterScaleChangeNotifications
 title: RegisterScaleChangeNotifications function (shellscalingapi.h)
-description: Registers a window to receive callbacks when scaling information changes.helpviewer_keywords: ["RegisterScaleChangeNotifications","RegisterScaleChangeNotifications function [Windows Shell]","shell.RegisterScaleChangeNotifications","shellscalingapi/RegisterScaleChangeNotifications"]
+description: Registers a window to receive callbacks when scaling information changes.
+helpviewer_keywords: ["RegisterScaleChangeNotifications","RegisterScaleChangeNotifications function [Windows Shell]","shell.RegisterScaleChangeNotifications","shellscalingapi/RegisterScaleChangeNotifications"]
 old-location: shell\RegisterScaleChangeNotifications.htm
 tech.root: shell
 ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B

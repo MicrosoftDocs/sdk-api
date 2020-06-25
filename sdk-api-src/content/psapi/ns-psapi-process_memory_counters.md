@@ -1,7 +1,8 @@
 ---
 UID: NS:psapi._PROCESS_MEMORY_COUNTERS
 title: PROCESS_MEMORY_COUNTERS (psapi.h)
-description: Contains the memory statistics for a process.helpviewer_keywords: ["*PPROCESS_MEMORY_COUNTERS","PPROCESS_MEMORY_COUNTERS","PPROCESS_MEMORY_COUNTERS structure pointer [PSAPI]","PROCESS_MEMORY_COUNTERS","PROCESS_MEMORY_COUNTERS structure [PSAPI]","_win32_process_memory_counters_str","base.process_memory_counters_str","psapi.process_memory_counters_str","psapi/PPROCESS_MEMORY_COUNTERS","psapi/PROCESS_MEMORY_COUNTERS"]
+description: Contains the memory statistics for a process.
+helpviewer_keywords: ["*PPROCESS_MEMORY_COUNTERS","PPROCESS_MEMORY_COUNTERS","PPROCESS_MEMORY_COUNTERS structure pointer [PSAPI]","PROCESS_MEMORY_COUNTERS","PROCESS_MEMORY_COUNTERS structure [PSAPI]","_win32_process_memory_counters_str","base.process_memory_counters_str","psapi.process_memory_counters_str","psapi/PPROCESS_MEMORY_COUNTERS","psapi/PROCESS_MEMORY_COUNTERS"]
 old-location: psapi\process_memory_counters_str.htm
 tech.root: psapi
 ms.assetid: 288b5865-28a3-478b-ad32-c710fe4f3a81

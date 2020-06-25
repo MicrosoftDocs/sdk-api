@@ -1,7 +1,8 @@
 ---
 UID: NS:scesvc._SCESVC_CALLBACK_INFO_
 title: SCESVC_CALLBACK_INFO (scesvc.h)
-description: The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.helpviewer_keywords: ["*PSCESVC_CALLBACK_INFO","PSCESVC_CALLBACK_INFO","PSCESVC_CALLBACK_INFO structure pointer [Security]","SCESVC_CALLBACK_INFO","SCESVC_CALLBACK_INFO structure [Security]","_config_scesvc_callback_info","scesvc/PSCESVC_CALLBACK_INFO","scesvc/SCESVC_CALLBACK_INFO","security.scesvc_callback_info"]
+description: The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.
+helpviewer_keywords: ["*PSCESVC_CALLBACK_INFO","PSCESVC_CALLBACK_INFO","PSCESVC_CALLBACK_INFO structure pointer [Security]","SCESVC_CALLBACK_INFO","SCESVC_CALLBACK_INFO structure [Security]","_config_scesvc_callback_info","scesvc/PSCESVC_CALLBACK_INFO","scesvc/SCESVC_CALLBACK_INFO","security.scesvc_callback_info"]
 old-location: security\scesvc_callback_info.htm
 tech.root: SecMgmt
 ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a

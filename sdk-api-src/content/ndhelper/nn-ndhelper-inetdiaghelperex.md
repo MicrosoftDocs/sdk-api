@@ -1,7 +1,8 @@
 ---
 UID: NN:ndhelper.INetDiagHelperEx
 title: INetDiagHelperEx (ndhelper.h)
-description: Provides methods that extend on the INetDiagHelper interface to capture and provide information associated with diagnoses and resolution of network-related issues.helpviewer_keywords: ["INetDiagHelperEx","INetDiagHelperEx interface [NDF]","INetDiagHelperEx interface [NDF]","described","ndf.inetdiaghelperex","ndhelper/INetDiagHelperEx"]
+description: Provides methods that extend on the INetDiagHelper interface to capture and provide information associated with diagnoses and resolution of network-related issues.
+helpviewer_keywords: ["INetDiagHelperEx","INetDiagHelperEx interface [NDF]","INetDiagHelperEx interface [NDF]","described","ndf.inetdiaghelperex","ndhelper/INetDiagHelperEx"]
 old-location: ndf\inetdiaghelperex.htm
 tech.root: NDF
 ms.assetid: 9c03f24c-073f-40bc-aee7-c462d4e2d781

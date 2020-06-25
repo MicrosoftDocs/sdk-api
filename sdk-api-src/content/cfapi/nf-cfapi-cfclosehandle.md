@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfCloseHandle
 title: CfCloseHandle function (cfapi.h)
-description: Closes the file or directory handle returned by CfOpenFileWithOplock. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.helpviewer_keywords: ["CfCloseHandle","CfCloseHandle function","cfapi/CfCloseHandle","cloudApi.cfclosehandle"]
+description: Closes the file or directory handle returned by CfOpenFileWithOplock. This should not be used with standard Win32 file handles, only on handles used within CfApi.h.
+helpviewer_keywords: ["CfCloseHandle","CfCloseHandle function","cfapi/CfCloseHandle","cloudApi.cfclosehandle"]
 old-location: cloudapi\cfclosehandle.htm
 tech.root: cfApi
 ms.assetid: ECBEF685-0769-4AEA-8A0F-D5FBB70CBB09

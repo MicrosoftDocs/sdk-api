@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.CreateTypeLib2
 title: CreateTypeLib2 function (oleauto.h)
-description: Creates a type library in the current file format.helpviewer_keywords: ["CreateTypeLib2","CreateTypeLib2 function [Automation]","_oa96_CreateTypeLib2","automat.createtypelib2","oleauto/CreateTypeLib2"]
+description: Creates a type library in the current file format.
+helpviewer_keywords: ["CreateTypeLib2","CreateTypeLib2 function [Automation]","_oa96_CreateTypeLib2","automat.createtypelib2","oleauto/CreateTypeLib2"]
 old-location: automat\createtypelib2.htm
 tech.root: automat
 ms.assetid: 73df6ef2-fae1-4cfb-ba59-3812e3a2e3b9

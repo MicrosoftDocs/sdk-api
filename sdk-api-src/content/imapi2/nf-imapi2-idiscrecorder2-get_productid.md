@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ProductId
 title: IDiscRecorder2::get_ProductId (imapi2.h)
-description: Retrieves the product ID of the device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ProductId method","IDiscRecorder2.get_ProductId","IDiscRecorder2::get_ProductId","get_ProductId","get_ProductId method [IMAPI]","get_ProductId method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_productid","imapi2/IDiscRecorder2::get_ProductId"]
+description: Retrieves the product ID of the device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ProductId method","IDiscRecorder2.get_ProductId","IDiscRecorder2::get_ProductId","get_ProductId","get_ProductId method [IMAPI]","get_ProductId method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_productid","imapi2/IDiscRecorder2::get_ProductId"]
 old-location: imapi\idiscrecorder2_get_productid.htm
 tech.root: imapi
 ms.assetid: 1f0bfdd4-059f-40c0-9da1-fa842bd415de

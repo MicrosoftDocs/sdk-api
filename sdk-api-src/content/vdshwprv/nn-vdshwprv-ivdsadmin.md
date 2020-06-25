@@ -1,7 +1,8 @@
 ---
 UID: NN:vdshwprv.IVdsAdmin
 title: IVdsAdmin (vdshwprv.h)
-description: Registers providers with VDS.helpviewer_keywords: ["IVdsAdmin","IVdsAdmin interface [VDS]","IVdsAdmin interface [VDS]","described","base.ivdsadmin","vdshwprv/IVdsAdmin"]
+description: Registers providers with VDS.
+helpviewer_keywords: ["IVdsAdmin","IVdsAdmin interface [VDS]","IVdsAdmin interface [VDS]","described","base.ivdsadmin","vdshwprv/IVdsAdmin"]
 old-location: base\ivdsadmin.htm
 tech.root: VDS
 ms.assetid: 693ee0c0-9f86-4f78-9724-f3a3420463c9

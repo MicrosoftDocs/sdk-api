@@ -1,7 +1,8 @@
 ---
 UID: NN:indexsrv.ISimpleCommandCreator
 title: ISimpleCommandCreator (indexsrv.h)
-description: Contains methods for interacting with the file catalog.helpviewer_keywords: ["ISimpleCommandCreator","ISimpleCommandCreator interface [search]","ISimpleCommandCreator interface [search]","described","indexsrv/ISimpleCommandCreator","search.isimplecommandcreator"]
+description: Contains methods for interacting with the file catalog.
+helpviewer_keywords: ["ISimpleCommandCreator","ISimpleCommandCreator interface [search]","ISimpleCommandCreator interface [search]","described","indexsrv/ISimpleCommandCreator","search.isimplecommandcreator"]
 old-location: search\isimplecommandcreator.htm
 tech.root: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9

@@ -1,7 +1,8 @@
 ---
 UID: NS:usbuser._USB_CONTROLLER_INFO_0
 title: USB_CONTROLLER_INFO_0 (usbuser.h)
-description: The USB_CONTROLLER_INFO_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the USB host controller.helpviewer_keywords: ["*PUSB_CONTROLLER_INFO_0","PUSB_CONTROLLER_INFO_0","PUSB_CONTROLLER_INFO_0 structure pointer [Buses]","USB_CONTROLLER_INFO_0","USB_CONTROLLER_INFO_0 structure [Buses]","buses.usb_controller_info_0","usbstrct_2a3ac867-422b-46cf-b529-d1a9dde27970.xml","usbuser/PUSB_CONTROLLER_INFO_0","usbuser/USB_CONTROLLER_INFO_0"]
+description: The USB_CONTROLLER_INFO_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the USB host controller.
+helpviewer_keywords: ["*PUSB_CONTROLLER_INFO_0","PUSB_CONTROLLER_INFO_0","PUSB_CONTROLLER_INFO_0 structure pointer [Buses]","USB_CONTROLLER_INFO_0","USB_CONTROLLER_INFO_0 structure [Buses]","buses.usb_controller_info_0","usbstrct_2a3ac867-422b-46cf-b529-d1a9dde27970.xml","usbuser/PUSB_CONTROLLER_INFO_0","usbuser/USB_CONTROLLER_INFO_0"]
 old-location: buses\usb_controller_info_0.htm
 tech.root: usbref
 ms.assetid: fcd88eb4-4fba-445a-b266-d89db8db1a55

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMUINT3.XMUINT3
 title: XMUINT3::XMUINT3 (directxmath.h)
-description: Default constructor for XMUINT3.helpviewer_keywords: ["XMUINT3","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 structure","XMUINT3 structure [DirectX Math Support APIs]","XMUINT3 constructor","XMUINT3.XMUINT3","XMUINT3.XMUINT3()","XMUINT3::XMUINT3","dxmath.xmuint3_ctor_1"]
+description: Default constructor for XMUINT3.
+helpviewer_keywords: ["XMUINT3","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 structure","XMUINT3 structure [DirectX Math Support APIs]","XMUINT3 constructor","XMUINT3.XMUINT3","XMUINT3.XMUINT3()","XMUINT3::XMUINT3","dxmath.xmuint3_ctor_1"]
 old-location: dxmath\xmuint3_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT3.#ctor

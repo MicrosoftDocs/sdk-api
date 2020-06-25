@@ -1,7 +1,8 @@
 ---
 UID: NF:resourceindexer.CreateResourceIndexer
 title: CreateResourceIndexer function (resourceindexer.h)
-description: Creates a new resource indexer for the specified paths of the root of the project files and the extension DLL.helpviewer_keywords: ["CreateResourceIndexer","CreateResourceIndexer function [Menus and Other Resources]","menurc.createresourceindexer","resourceindexer/CreateResourceIndexer"]
+description: Creates a new resource indexer for the specified paths of the root of the project files and the extension DLL.
+helpviewer_keywords: ["CreateResourceIndexer","CreateResourceIndexer function [Menus and Other Resources]","menurc.createresourceindexer","resourceindexer/CreateResourceIndexer"]
 old-location: menurc\createresourceindexer.htm
 tech.root: menurc
 ms.assetid: 240C94B6-DF61-4C84-9047-9CD81A6FF4B4

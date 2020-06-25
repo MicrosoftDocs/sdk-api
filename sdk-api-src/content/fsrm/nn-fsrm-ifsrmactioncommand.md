@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrm.IFsrmActionCommand
 title: IFsrmActionCommand (fsrm.h)
-description: Used to run a command or script in response to a quota, file screen, or file management job event.helpviewer_keywords: ["IFsrmActionCommand","IFsrmActionCommand interface [File Server Resource Manager]","IFsrmActionCommand interface [File Server Resource Manager]","described","fs.ifsrmactioncommand","fsrm.ifsrmactioncommand","fsrm/IFsrmActionCommand"]
+description: Used to run a command or script in response to a quota, file screen, or file management job event.
+helpviewer_keywords: ["IFsrmActionCommand","IFsrmActionCommand interface [File Server Resource Manager]","IFsrmActionCommand interface [File Server Resource Manager]","described","fs.ifsrmactioncommand","fsrm.ifsrmactioncommand","fsrm/IFsrmActionCommand"]
 old-location: fsrm\ifsrmactioncommand.htm
 tech.root: fsrm
 ms.assetid: b7f9fc8c-2f55-4a0e-879a-64c368abcabb

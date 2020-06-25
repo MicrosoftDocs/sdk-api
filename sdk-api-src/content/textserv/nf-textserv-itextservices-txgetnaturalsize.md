@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextServices.TxGetNaturalSize
 title: ITextServices::TxGetNaturalSize (textserv.h)
-description: Allows a control to be resized so it fits its content appropriately.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetNaturalSize method","ITextServices.TxGetNaturalSize","ITextServices::TxGetNaturalSize","TXTNS_EMU","TXTNS_FITTOCONTENT","TXTNS_FITTOCONTENT2","TXTNS_FITTOCONTENT3","TXTNS_FITTOCONTENTWSP","TXTNS_INCLUDELASTLINE","TXTNS_ROUNDTOLINE","TxGetNaturalSize","TxGetNaturalSize method [Windows Controls]","TxGetNaturalSize method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetNaturalSize","_win32_ITextServices_TxGetNaturalSize_cpp","controls.ITextServices_TxGetNaturalSize","controls._win32_ITextServices_TxGetNaturalSize","textserv/ITextServices::TxGetNaturalSize"]
+description: Allows a control to be resized so it fits its content appropriately.
+helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetNaturalSize method","ITextServices.TxGetNaturalSize","ITextServices::TxGetNaturalSize","TXTNS_EMU","TXTNS_FITTOCONTENT","TXTNS_FITTOCONTENT2","TXTNS_FITTOCONTENT3","TXTNS_FITTOCONTENTWSP","TXTNS_INCLUDELASTLINE","TXTNS_ROUNDTOLINE","TxGetNaturalSize","TxGetNaturalSize method [Windows Controls]","TxGetNaturalSize method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetNaturalSize","_win32_ITextServices_TxGetNaturalSize_cpp","controls.ITextServices_TxGetNaturalSize","controls._win32_ITextServices_TxGetNaturalSize","textserv/ITextServices::TxGetNaturalSize"]
 old-location: controls\ITextServices_TxGetNaturalSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetnaturalsize.htm

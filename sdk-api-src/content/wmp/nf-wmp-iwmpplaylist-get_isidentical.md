@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_isIdentical
 title: IWMPPlaylist::get_isIdentical (wmp.h)
-description: The get_isIdentical method retrieves a value indicating whether the specified playlist is identical to the current playlist.helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_isIdentical method","IWMPPlaylist.get_isIdentical","IWMPPlaylist::get_isIdentical","IWMPPlaylistget_isIdentical","get_isIdentical","get_isIdentical method [Windows Media Player]","get_isIdentical method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_get_isidentical","wmp/IWMPPlaylist::get_isIdentical"]
+description: The get_isIdentical method retrieves a value indicating whether the specified playlist is identical to the current playlist.
+helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","get_isIdentical method","IWMPPlaylist.get_isIdentical","IWMPPlaylist::get_isIdentical","IWMPPlaylistget_isIdentical","get_isIdentical","get_isIdentical method [Windows Media Player]","get_isIdentical method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_get_isidentical","wmp/IWMPPlaylist::get_isIdentical"]
 old-location: wmp\iwmpplaylist_get_isidentical.htm
 tech.root: WMP
 ms.assetid: 480fa108-5cfd-49ab-92fe-c635f13f3194

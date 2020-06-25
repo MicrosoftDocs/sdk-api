@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.GetProcessImageFileNameW
 title: GetProcessImageFileNameW function (psapi.h)
-description: Retrieves the name of the executable file for the specified process.helpviewer_keywords: ["GetProcessImageFileName","GetProcessImageFileName function [PSAPI]","GetProcessImageFileNameA","GetProcessImageFileNameW","K32GetProcessImageFileName","K32GetProcessImageNameA","K32GetProcessImageNameW","_win32_getprocessimagefilename","base.getprocessimagefilename","psapi.getprocessimagefilename","psapi/GetProcessImageFileName","psapi/GetProcessImageFileNameA","psapi/GetProcessImageFileNameW","psapi/K32GetProcessImageFileName","psapi/K32GetProcessImageNameA","psapi/K32GetProcessImageNameW"]
+description: Retrieves the name of the executable file for the specified process.
+helpviewer_keywords: ["GetProcessImageFileName","GetProcessImageFileName function [PSAPI]","GetProcessImageFileNameA","GetProcessImageFileNameW","K32GetProcessImageFileName","K32GetProcessImageNameA","K32GetProcessImageNameW","_win32_getprocessimagefilename","base.getprocessimagefilename","psapi.getprocessimagefilename","psapi/GetProcessImageFileName","psapi/GetProcessImageFileNameA","psapi/GetProcessImageFileNameW","psapi/K32GetProcessImageFileName","psapi/K32GetProcessImageNameA","psapi/K32GetProcessImageNameW"]
 old-location: psapi\getprocessimagefilename.htm
 tech.root: psapi
 ms.assetid: 819fc2f4-0801-417b-9cbb-d7fd2894634e
@@ -128,6 +129,10 @@ Programs that must run on earlier versions of Windows as
 
 
 
+
+
+> [!NOTE]
+> The psapi.h header defines GetProcessImageFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

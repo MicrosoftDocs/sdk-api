@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_TRIMMING
 title: DWRITE_TRIMMING (dwrite.h)
-description: Specifies the trimming option for text overflowing the layout box.helpviewer_keywords: ["DWRITE_TRIMMING","DWRITE_TRIMMING structure [Direct Write]","directwrite.dwrite_trimming","dwrite/DWRITE_TRIMMING"]
+description: Specifies the trimming option for text overflowing the layout box.
+helpviewer_keywords: ["DWRITE_TRIMMING","DWRITE_TRIMMING structure [Direct Write]","directwrite.dwrite_trimming","dwrite/DWRITE_TRIMMING"]
 old-location: directwrite\dwrite_trimming.htm
 tech.root: DirectWrite
 ms.assetid: c252b936-8a09-45b4-8138-84cf54058f72

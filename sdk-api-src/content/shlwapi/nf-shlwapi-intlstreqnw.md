@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.IntlStrEqNW
 title: IntlStrEqNW macro (shlwapi.h)
-description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.helpviewer_keywords: ["IntlStrEqN","IntlStrEqN function [Windows Shell]","IntlStrEqNA","IntlStrEqNW","_win32_IntlStrEqN","shell.IntlStrEqN","shlwapi/IntlStrEqN","shlwapi/IntlStrEqNA","shlwapi/IntlStrEqNW"]
+description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.
+helpviewer_keywords: ["IntlStrEqN","IntlStrEqN function [Windows Shell]","IntlStrEqNA","IntlStrEqNW","_win32_IntlStrEqN","shell.IntlStrEqN","shlwapi/IntlStrEqN","shlwapi/IntlStrEqNA","shlwapi/IntlStrEqNW"]
 old-location: shell\IntlStrEqN.htm
 tech.root: shell
 ms.assetid: ed777144-398c-4f36-bcc3-f6ba123ebfa7
@@ -90,6 +91,10 @@ This function retrieves the thread locale and uses <a href="https://docs.microso
 <pre class="syntax" xml:space="preserve"><code>IntlStrEqWorker(TRUE, pszStr1, pszStr2, nChar)</code></pre>
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines IntlStrEqN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

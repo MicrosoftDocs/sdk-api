@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMRegisterCallback.Advise
 title: IWMRegisterCallback::Advise (wmsdkidl.h)
-description: The Advise method registers the application to receive status messages from the sink object.helpviewer_keywords: ["Advise","Advise method [windows Media Format]","Advise method [windows Media Format]","IWMRegisterCallback interface","IWMRegisterCallback interface [windows Media Format]","Advise method","IWMRegisterCallback.Advise","IWMRegisterCallback::Advise","IWMRegisterCallbackAdvise","wmformat.iwmregistercallback_advise","wmsdkidl/IWMRegisterCallback::Advise"]
+description: The Advise method registers the application to receive status messages from the sink object.
+helpviewer_keywords: ["Advise","Advise method [windows Media Format]","Advise method [windows Media Format]","IWMRegisterCallback interface","IWMRegisterCallback interface [windows Media Format]","Advise method","IWMRegisterCallback.Advise","IWMRegisterCallback::Advise","IWMRegisterCallbackAdvise","wmformat.iwmregistercallback_advise","wmsdkidl/IWMRegisterCallback::Advise"]
 old-location: wmformat\iwmregistercallback_advise.htm
 tech.root: wmformat
 ms.assetid: 69d12e5c-23fd-4d4b-959e-fe7979bf3fdb

@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get__NewEnum
 title: ITriggerCollection::get__NewEnum (taskschd.h)
-description: Gets the collection enumerator for the trigger collection.helpviewer_keywords: ["ITriggerCollection interface [Task Scheduler]","_NewEnum property","ITriggerCollection._NewEnum","ITriggerCollection.get__NewEnum","ITriggerCollection::_NewEnum","ITriggerCollection::get__NewEnum","_NewEnum property [Task Scheduler]","_NewEnum property [Task Scheduler]","ITriggerCollection interface","get__NewEnum","taskschd.itriggercollection__newenum","taskschd/ITriggerCollection::_NewEnum","taskschd/ITriggerCollection::get__NewEnum"]
+description: Gets the collection enumerator for the trigger collection.
+helpviewer_keywords: ["ITriggerCollection interface [Task Scheduler]","_NewEnum property","ITriggerCollection._NewEnum","ITriggerCollection.get__NewEnum","ITriggerCollection::_NewEnum","ITriggerCollection::get__NewEnum","_NewEnum property [Task Scheduler]","_NewEnum property [Task Scheduler]","ITriggerCollection interface","get__NewEnum","taskschd.itriggercollection__newenum","taskschd/ITriggerCollection::_NewEnum","taskschd/ITriggerCollection::get__NewEnum"]
 old-location: taskschd\itriggercollection__newenum.htm
 tech.root: taskschd
 ms.assetid: a5df593a-8771-4a96-a9dd-abd4e3f1721f

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.GetControlWindow
 title: IShellBrowser::GetControlWindow (shobjidl_core.h)
-description: Gets the window handle to a browser control.helpviewer_keywords: ["FCW_PROGRESS","FCW_STATUS","FCW_TOOLBAR","FCW_TREE","GetControlWindow","GetControlWindow method [Windows Shell]","GetControlWindow method [Windows Shell]","IShellBrowser interface","IShellBrowser interface [Windows Shell]","GetControlWindow method","IShellBrowser.GetControlWindow","IShellBrowser::GetControlWindow","_win32_IShellBrowser_GetControlWindow","shell.IShellBrowser_GetControlWindow","shobjidl_core/IShellBrowser::GetControlWindow"]
+description: Gets the window handle to a browser control.
+helpviewer_keywords: ["FCW_PROGRESS","FCW_STATUS","FCW_TOOLBAR","FCW_TREE","GetControlWindow","GetControlWindow method [Windows Shell]","GetControlWindow method [Windows Shell]","IShellBrowser interface","IShellBrowser interface [Windows Shell]","GetControlWindow method","IShellBrowser.GetControlWindow","IShellBrowser::GetControlWindow","_win32_IShellBrowser_GetControlWindow","shell.IShellBrowser_GetControlWindow","shobjidl_core/IShellBrowser::GetControlWindow"]
 old-location: shell\IShellBrowser_GetControlWindow.htm
 tech.root: shell
 ms.assetid: 0ddcdafd-01f6-441c-9cc8-1ca9f1209e25

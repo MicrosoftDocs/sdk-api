@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IMDSPEnumStorage
 title: IMDSPEnumStorage (mswmdm.h)
-description: The IMDSPEnumStorage interface is used to enumerate the storage media on a device.helpviewer_keywords: ["IMDSPEnumStorage","IMDSPEnumStorage interface [windows Media Device Manager]","IMDSPEnumStorage interface [windows Media Device Manager]","described","IMDSPEnumStorageInterface","mswmdm/IMDSPEnumStorage","wmdm.imdspenumstorage"]
+description: The IMDSPEnumStorage interface is used to enumerate the storage media on a device.
+helpviewer_keywords: ["IMDSPEnumStorage","IMDSPEnumStorage interface [windows Media Device Manager]","IMDSPEnumStorage interface [windows Media Device Manager]","described","IMDSPEnumStorageInterface","mswmdm/IMDSPEnumStorage","wmdm.imdspenumstorage"]
 old-location: wmdm\imdspenumstorage.htm
 tech.root: WMDM
 ms.assetid: fc2fed46-1f4d-4d53-a843-0f699b687a18

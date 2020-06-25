@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.graphics.capture.interop.IGraphicsCaptureItemInterop.CreateForWindow
 title: IGraphicsCaptureItemInterop::CreateForWindow
-description: Targets a single window for the creation of a graphics capture item.helpviewer_keywords: ["IGraphicsCaptureItemInterop::CreateForWindow"]
+description: Targets a single window for the creation of a graphics capture item.
+helpviewer_keywords: ["IGraphicsCaptureItemInterop::CreateForWindow"]
 ms.date: 6/24/2019
 ms.keywords: IGraphicsCaptureItemInterop::CreateForWindow
 f1_keywords:

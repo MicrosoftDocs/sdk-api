@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMVIEWCHANGE
 title: NMVIEWCHANGE (commctrl.h)
-description: Stores information required to process the MCN_VIEWCHANGE notification code.helpviewer_keywords: ["*LPNMVIEWCHANGE","LPNMVIEWCHANGE","LPNMVIEWCHANGE structure pointer [Windows Controls]","MCMV_CENTURY","MCMV_DECADE","MCMV_MONTH","MCMV_YEAR","NMVIEWCHANGE","NMVIEWCHANGE structure [Windows Controls]","_shell_NMVIEWCHANGE","_shell_NMVIEWCHANGE_cpp","commctrl/LPNMVIEWCHANGE","commctrl/NMVIEWCHANGE","controls.NMVIEWCHANGE","controls._shell_NMVIEWCHANGE"]
+description: Stores information required to process the MCN_VIEWCHANGE notification code.
+helpviewer_keywords: ["*LPNMVIEWCHANGE","LPNMVIEWCHANGE","LPNMVIEWCHANGE structure pointer [Windows Controls]","MCMV_CENTURY","MCMV_DECADE","MCMV_MONTH","MCMV_YEAR","NMVIEWCHANGE","NMVIEWCHANGE structure [Windows Controls]","_shell_NMVIEWCHANGE","_shell_NMVIEWCHANGE_cpp","commctrl/LPNMVIEWCHANGE","commctrl/NMVIEWCHANGE","controls.NMVIEWCHANGE","controls._shell_NMVIEWCHANGE"]
 old-location: controls\NMVIEWCHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmviewchange.htm

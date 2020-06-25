@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcasync.tagRPC_ERROR_ENUM_HANDLE
 title: RPC_ERROR_ENUM_HANDLE (rpcasync.h)
-description: The RPC_ERROR_ENUM_HANDLE structure provides an enumeration handle used by RpcError* functions for processing extended error information.helpviewer_keywords: ["RPC_ERROR_ENUM_HANDLE","RPC_ERROR_ENUM_HANDLE structure [RPC]","_rpc_rpc_error_enum_handle","rpc.rpc_error_enum_handle","rpcasync/RPC_ERROR_ENUM_HANDLE"]
+description: The RPC_ERROR_ENUM_HANDLE structure provides an enumeration handle used by RpcError* functions for processing extended error information.
+helpviewer_keywords: ["RPC_ERROR_ENUM_HANDLE","RPC_ERROR_ENUM_HANDLE structure [RPC]","_rpc_rpc_error_enum_handle","rpc.rpc_error_enum_handle","rpcasync/RPC_ERROR_ENUM_HANDLE"]
 old-location: rpc\rpc_error_enum_handle.htm
 tech.root: Rpc
 ms.assetid: d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8

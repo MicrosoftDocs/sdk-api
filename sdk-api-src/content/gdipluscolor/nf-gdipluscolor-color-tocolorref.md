@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluscolor.Color.ToCOLORREF
 title: Color::ToCOLORREF (gdipluscolor.h)
-description: The Color::ToCOLORREF method converts this Color object's ARGB value to a Windows Graphics Device Interface (GDI)COLORREF value.helpviewer_keywords: ["Color class [GDI+]","ToCOLORREF method","Color.ToCOLORREF","Color::ToCOLORREF","ToCOLORREF","ToCOLORREF method [GDI+]","ToCOLORREF method [GDI+]","Color class","_gdiplus_CLASS_Color_ToCOLORREF_","gdiplus._gdiplus_CLASS_Color_ToCOLORREF_"]
+description: The Color::ToCOLORREF method converts this Color object's ARGB value to a Windows Graphics Device Interface (GDI)COLORREF value.
+helpviewer_keywords: ["Color class [GDI+]","ToCOLORREF method","Color.ToCOLORREF","Color::ToCOLORREF","ToCOLORREF","ToCOLORREF method [GDI+]","ToCOLORREF method [GDI+]","Color class","_gdiplus_CLASS_Color_ToCOLORREF_","gdiplus._gdiplus_CLASS_Color_ToCOLORREF_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_ToCOLORREF_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\tocolorref.htm

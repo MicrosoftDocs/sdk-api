@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.IRdcLibrary
 title: IRdcLibrary (msrdc.h)
-description: Is the primary interface for using RDC.helpviewer_keywords: ["IRdcLibrary","IRdcLibrary interface [Remote Differential Compression]","IRdcLibrary interface [Remote Differential Compression]","described","fs.irdclibrary","msrdc/IRdcLibrary","rdc.irdclibrary"]
+description: Is the primary interface for using RDC.
+helpviewer_keywords: ["IRdcLibrary","IRdcLibrary interface [Remote Differential Compression]","IRdcLibrary interface [Remote Differential Compression]","described","fs.irdclibrary","msrdc/IRdcLibrary","rdc.irdclibrary"]
 old-location: rdc\irdclibrary.htm
 tech.root: rdc
 ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5

@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeTravelLog
 title: IBrowserService2::InitializeTravelLog (shdeprecated.h)
-description: Deprecated. Allows the derived class to specify a navigation record to be used in a new window.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","InitializeTravelLog method","IBrowserService2.InitializeTravelLog","IBrowserService2::InitializeTravelLog","InitializeTravelLog","InitializeTravelLog method [Windows Shell]","InitializeTravelLog method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::InitializeTravelLog","shell.IBrowserService2_InitializeTravelLog","zone_IBrowserService2_InitializeTravelLog"]
+description: Deprecated. Allows the derived class to specify a navigation record to be used in a new window.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","InitializeTravelLog method","IBrowserService2.InitializeTravelLog","IBrowserService2::InitializeTravelLog","InitializeTravelLog","InitializeTravelLog method [Windows Shell]","InitializeTravelLog method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::InitializeTravelLog","shell.IBrowserService2_InitializeTravelLog","zone_IBrowserService2_InitializeTravelLog"]
 old-location: shell\IBrowserService2_InitializeTravelLog.htm
 tech.root: shell
 ms.assetid: ff2165da-e195-4cc1-ba89-c11eb37ac4c3

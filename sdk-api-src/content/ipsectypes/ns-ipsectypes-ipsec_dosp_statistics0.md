@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATISTICS0_
 title: IPSEC_DOSP_STATISTICS0 (ipsectypes.h)
-description: The IPSEC_DOSP_STATISTICS0 structure.helpviewer_keywords: ["IPSEC_DOSP_STATISTICS0","IPSEC_DOSP_STATISTICS0 structure [Filtering]","fwp.ipsec_dosp_statistics0","ipsectypes/IPSEC_DOSP_STATISTICS0"]
+description: The IPSEC_DOSP_STATISTICS0 structure.
+helpviewer_keywords: ["IPSEC_DOSP_STATISTICS0","IPSEC_DOSP_STATISTICS0 structure [Filtering]","fwp.ipsec_dosp_statistics0","ipsectypes/IPSEC_DOSP_STATISTICS0"]
 old-location: fwp\ipsec_dosp_statistics0.htm
 tech.root: fwp
 ms.assetid: 951b6aa9-ea96-4256-a304-5b753f2a3656

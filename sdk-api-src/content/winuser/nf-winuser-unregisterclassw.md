@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.UnregisterClassW
 title: UnregisterClassW function (winuser.h)
-description: Unregisters a window class, freeing the memory required for the class.helpviewer_keywords: ["UnregisterClass","UnregisterClass function [Windows and Messages]","UnregisterClassA","UnregisterClassW","_win32_UnregisterClass","_win32_unregisterclass_cpp","winmsg.unregisterclass","winui._win32_unregisterclass","winuser/UnregisterClass","winuser/UnregisterClassA","winuser/UnregisterClassW"]
+description: Unregisters a window class, freeing the memory required for the class.
+helpviewer_keywords: ["UnregisterClass","UnregisterClass function [Windows and Messages]","UnregisterClassA","UnregisterClassW","_win32_UnregisterClass","_win32_unregisterclass_cpp","winmsg.unregisterclass","winui._win32_unregisterclass","winuser/UnregisterClass","winuser/UnregisterClassA","winuser/UnregisterClassW"]
 old-location: winmsg\unregisterclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\unregisterclass.htm
@@ -108,6 +109,10 @@ No window classes registered by a DLL are unregistered when the .dll is unloaded
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines UnregisterClass as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

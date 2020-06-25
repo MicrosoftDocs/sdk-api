@@ -1,7 +1,8 @@
 ---
 UID: NC:dpa_dsa.PFNDPASTREAM
 title: PFNDPASTREAM (dpa_dsa.h)
-description: Defines the prototype for the callback function used by DPA_LoadStream and DPA_SaveStream.helpviewer_keywords: ["PFNDPASTREAM","PFNDPASTREAM callback","PFNDPASTREAM callback function [Windows Controls]","_win32_PFNDPASTREAM_Function","_win32_PFNDPASTREAM_Function_cpp","controls.PFNDPASTREAM","controls._win32_PFNDPASTREAM_Function","dpa_dsa/PFNDPASTREAM"]
+description: Defines the prototype for the callback function used by DPA_LoadStream and DPA_SaveStream.
+helpviewer_keywords: ["PFNDPASTREAM","PFNDPASTREAM callback","PFNDPASTREAM callback function [Windows Controls]","_win32_PFNDPASTREAM_Function","_win32_PFNDPASTREAM_Function_cpp","controls.PFNDPASTREAM","controls._win32_PFNDPASTREAM_Function","dpa_dsa/PFNDPASTREAM"]
 old-location: controls\PFNDPASTREAM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpastream.htm

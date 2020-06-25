@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetClipFactor
 title: IFullScreenVideoEx::SetClipFactor (amvideo.h)
-description: The SetClipFactor method specifies the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetClipFactor method","IFullScreenVideoEx.SetClipFactor","IFullScreenVideoEx::SetClipFactor","IFullScreenVideoSetClipFactor","SetClipFactor","SetClipFactor method [DirectShow]","SetClipFactor method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetClipFactor","dshow.ifullscreenvideoex_setclipfactor"]
+description: The SetClipFactor method specifies the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetClipFactor method","IFullScreenVideoEx.SetClipFactor","IFullScreenVideoEx::SetClipFactor","IFullScreenVideoSetClipFactor","SetClipFactor","SetClipFactor method [DirectShow]","SetClipFactor method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetClipFactor","dshow.ifullscreenvideoex_setclipfactor"]
 old-location: dshow\ifullscreenvideoex_setclipfactor.htm
 tech.root: DirectShow
 ms.assetid: 3e2cefd3-491f-4ba4-a234-047fe4e6c6cc

@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnPreferredProvidersChange
 title: IMbnMultiCarrierEvents::OnPreferredProvidersChange (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetPreferredProviders operation and a change in a device's preferred provider list.helpviewer_keywords: ["IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","OnPreferredProvidersChange method","IMbnMultiCarrierEvents.OnPreferredProvidersChange","IMbnMultiCarrierEvents::OnPreferredProvidersChange","OnPreferredProvidersChange","OnPreferredProvidersChange method [Microsoft Broadband Networks]","OnPreferredProvidersChange method [Microsoft Broadband Networks]","IMbnMultiCarrierEvents interface","mbn.imbnmulticarrierevents_onpreferredproviderschange","mbnapi/IMbnMultiCarrierEvents::OnPreferredProvidersChange"]
+description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetPreferredProviders operation and a change in a device's preferred provider list.
+helpviewer_keywords: ["IMbnMultiCarrierEvents interface [Microsoft Broadband Networks]","OnPreferredProvidersChange method","IMbnMultiCarrierEvents.OnPreferredProvidersChange","IMbnMultiCarrierEvents::OnPreferredProvidersChange","OnPreferredProvidersChange","OnPreferredProvidersChange method [Microsoft Broadband Networks]","OnPreferredProvidersChange method [Microsoft Broadband Networks]","IMbnMultiCarrierEvents interface","mbn.imbnmulticarrierevents_onpreferredproviderschange","mbnapi/IMbnMultiCarrierEvents::OnPreferredProvidersChange"]
 old-location: mbn\imbnmulticarrierevents_onpreferredproviderschange.htm
 tech.root: mbn
 ms.assetid: B2E7C42B-32B0-47D1-AA88-8A22B379B500

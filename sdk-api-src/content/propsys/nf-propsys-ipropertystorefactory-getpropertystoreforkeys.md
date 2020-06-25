@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyStoreFactory.GetPropertyStoreForKeys
 title: IPropertyStoreFactory::GetPropertyStoreForKeys (propsys.h)
-description: Gets an IPropertyStore object, given a set of property keys. This provides an alternative, possibly faster, method of getting an IPropertyStore object compared to calling IPropertyStoreFactory::GetPropertyStore.helpviewer_keywords: ["GetPropertyStoreForKeys","GetPropertyStoreForKeys method [Windows Properties]","GetPropertyStoreForKeys method [Windows Properties]","IPropertyStoreFactory interface","IPropertyStoreFactory interface [Windows Properties]","GetPropertyStoreForKeys method","IPropertyStoreFactory.GetPropertyStoreForKeys","IPropertyStoreFactory::GetPropertyStoreForKeys","_shell_IPropertyStoreFactory_GetPropertyStoreForKeys","properties.IPropertyStoreFactory_GetPropertyStoreForKeys","propsys/IPropertyStoreFactory::GetPropertyStoreForKeys","shell.IPropertyStoreFactory_GetPropertyStoreForKeys"]
+description: Gets an IPropertyStore object, given a set of property keys. This provides an alternative, possibly faster, method of getting an IPropertyStore object compared to calling IPropertyStoreFactory::GetPropertyStore.
+helpviewer_keywords: ["GetPropertyStoreForKeys","GetPropertyStoreForKeys method [Windows Properties]","GetPropertyStoreForKeys method [Windows Properties]","IPropertyStoreFactory interface","IPropertyStoreFactory interface [Windows Properties]","GetPropertyStoreForKeys method","IPropertyStoreFactory.GetPropertyStoreForKeys","IPropertyStoreFactory::GetPropertyStoreForKeys","_shell_IPropertyStoreFactory_GetPropertyStoreForKeys","properties.IPropertyStoreFactory_GetPropertyStoreForKeys","propsys/IPropertyStoreFactory::GetPropertyStoreForKeys","shell.IPropertyStoreFactory_GetPropertyStoreForKeys"]
 old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm
 tech.root: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f

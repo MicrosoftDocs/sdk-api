@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhGetEventMapInformation
 title: TdhGetEventMapInformation function (tdh.h)
-description: Retrieves information about the event map contained in the event.helpviewer_keywords: ["TdhGetEventMapInformation","TdhGetEventMapInformation function [ETW]","etw.tdhgeteventmapinformation_func","tdh.tdhgeteventmapinformation_func","tdh/TdhGetEventMapInformation"]
+description: Retrieves information about the event map contained in the event.
+helpviewer_keywords: ["TdhGetEventMapInformation","TdhGetEventMapInformation function [ETW]","etw.tdhgeteventmapinformation_func","tdh.tdhgeteventmapinformation_func","tdh/TdhGetEventMapInformation"]
 old-location: etw\tdhgeteventmapinformation_func.htm
 tech.root: ETW
 ms.assetid: 2625b65c-7f9e-4a87-85c6-d16857ef4987

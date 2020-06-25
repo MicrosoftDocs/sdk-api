@@ -1,7 +1,8 @@
 ---
 UID: NS:endpointvolume.AUDIO_VOLUME_NOTIFICATION_DATA
 title: AUDIO_VOLUME_NOTIFICATION_DATA (endpointvolume.h)
-description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.helpviewer_keywords: ["*PAUDIO_VOLUME_NOTIFICATION_DATA","AUDIO_VOLUME_NOTIFICATION_DATA","AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio]","AUDIO_VOLUME_NOTIFICATION_DATAStructure","PAUDIO_VOLUME_NOTIFICATION_DATA","PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio]","coreaudio.audio_volume_notification_data","endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA","endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA"]
+description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.
+helpviewer_keywords: ["*PAUDIO_VOLUME_NOTIFICATION_DATA","AUDIO_VOLUME_NOTIFICATION_DATA","AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio]","AUDIO_VOLUME_NOTIFICATION_DATAStructure","PAUDIO_VOLUME_NOTIFICATION_DATA","PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio]","coreaudio.audio_volume_notification_data","endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA","endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA"]
 old-location: coreaudio\audio_volume_notification_data.htm
 tech.root: CoreAudio
 ms.assetid: 8778eb32-bc37-4d21-a096-f932db3d7b3f

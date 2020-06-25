@@ -1,7 +1,8 @@
 ---
 UID: NC:d2d1_1.PD2D1_EFFECT_FACTORY
 title: PD2D1_EFFECT_FACTORY (d2d1_1.h)
-description: Describes the implementation of an effect.helpviewer_keywords: ["PD2D1_EFFECT_FACTORY","PD2D1_EFFECT_FACTORY callback","PD2D1_EFFECT_FACTORY callback function [Direct2D]","d2d1_1/PD2D1_EFFECT_FACTORY","direct2d.pd2d1_effect_factory"]
+description: Describes the implementation of an effect.
+helpviewer_keywords: ["PD2D1_EFFECT_FACTORY","PD2D1_EFFECT_FACTORY callback","PD2D1_EFFECT_FACTORY callback function [Direct2D]","d2d1_1/PD2D1_EFFECT_FACTORY","direct2d.pd2d1_effect_factory"]
 old-location: direct2d\pd2d1_effect_factory.htm
 tech.root: Direct2D
 ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5

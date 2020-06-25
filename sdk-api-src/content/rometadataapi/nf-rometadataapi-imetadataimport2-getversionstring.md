@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetVersionString
 title: IMetaDataImport2::GetVersionString (rometadataapi.h)
-description: Gets the version number of the runtime that was used to build the assembly.helpviewer_keywords: ["GetVersionString","GetVersionString method [Windows Runtime]","GetVersionString method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","GetVersionString method","IMetaDataImport2.GetVersionString","IMetaDataImport2::GetVersionString","rometadataapi/IMetaDataImport2::GetVersionString","winrt.imetadataimport2_getversionstring"]
+description: Gets the version number of the runtime that was used to build the assembly.
+helpviewer_keywords: ["GetVersionString","GetVersionString method [Windows Runtime]","GetVersionString method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","GetVersionString method","IMetaDataImport2.GetVersionString","IMetaDataImport2::GetVersionString","rometadataapi/IMetaDataImport2::GetVersionString","winrt.imetadataimport2_getversionstring"]
 old-location: winrt\imetadataimport2_getversionstring.htm
 tech.root: WinRT
 ms.assetid: 9f04ee6f-4a7d-4cdb-868e-eec2e9f41678

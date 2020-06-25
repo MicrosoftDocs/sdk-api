@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.IsActive
 title: IMFTimedTextTrack::IsActive (mfmediaengine.h)
-description: Determines whether the timed-text track is active.helpviewer_keywords: ["IMFTimedTextTrack interface [Media Foundation]","IsActive method","IMFTimedTextTrack.IsActive","IMFTimedTextTrack::IsActive","IsActive","IsActive method [Media Foundation]","IsActive method [Media Foundation]","IMFTimedTextTrack interface","mf.imftimedtexttrack_isactive","mfmediaengine/IMFTimedTextTrack::IsActive"]
+description: Determines whether the timed-text track is active.
+helpviewer_keywords: ["IMFTimedTextTrack interface [Media Foundation]","IsActive method","IMFTimedTextTrack.IsActive","IMFTimedTextTrack::IsActive","IsActive","IsActive method [Media Foundation]","IsActive method [Media Foundation]","IMFTimedTextTrack interface","mf.imftimedtexttrack_isactive","mfmediaengine/IMFTimedTextTrack::IsActive"]
 old-location: mf\imftimedtexttrack_isactive.htm
 tech.root: medfound
 ms.assetid: 7C4A256A-614D-49BF-8654-BEBB4E0A2688

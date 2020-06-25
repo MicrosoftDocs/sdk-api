@@ -1,7 +1,8 @@
 ---
 UID: NC:winfax.PFAXACCESSCHECK
 title: PFAXACCESSCHECK (winfax.h)
-description: A fax client application calls the FaxAccessCheck function to query the fax access privileges of a user.helpviewer_keywords: ["FaxAccessCheckA","FaxAccessCheckW","PFAXACCESSCHECK","PFAXACCESSCHECK callback","PFAXACCESSCHECK callback function [Fax Service]","_mfax_faxaccesscheck","fax._mfax_faxaccesscheck","winfax/FaxAccessCheckA","winfax/FaxAccessCheckW","winfax/PFAXACCESSCHECK"]
+description: A fax client application calls the FaxAccessCheck function to query the fax access privileges of a user.
+helpviewer_keywords: ["FaxAccessCheckA","FaxAccessCheckW","PFAXACCESSCHECK","PFAXACCESSCHECK callback","PFAXACCESSCHECK callback function [Fax Service]","_mfax_faxaccesscheck","fax._mfax_faxaccesscheck","winfax/FaxAccessCheckA","winfax/FaxAccessCheckW","winfax/PFAXACCESSCHECK"]
 old-location: fax\_mfax_faxaccesscheck.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_76i3.htm

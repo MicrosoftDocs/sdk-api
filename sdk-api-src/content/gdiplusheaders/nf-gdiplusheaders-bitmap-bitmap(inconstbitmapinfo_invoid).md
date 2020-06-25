@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN const BITMAPINFO,IN VOID)
 title: Bitmap::Bitmap(IN const BITMAPINFO,IN VOID) (gdiplusheaders.h)
-description: Creates a Bitmap::Bitmap object based on a BITMAPINFO structure and an array of pixel data.helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(IN const BITMAPINFO","IN VOID)","Bitmap.Bitmap(const BITMAPINFO*","VOID*)","Bitmap::Bitmap","Bitmap::Bitmap(IN const BITMAPINFO","IN VOID)","_gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_"]
+description: Creates a Bitmap::Bitmap object based on a BITMAPINFO structure and an array of pixel data.
+helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(IN const BITMAPINFO","IN VOID)","Bitmap.Bitmap(const BITMAPINFO*","VOID*)","Bitmap::Bitmap","Bitmap::Bitmap(IN const BITMAPINFO","IN VOID)","_gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_30gdibitmapinfo_gdibitmapdata.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeComp
 title: ITypeLib::GetTypeComp (oaidl.h)
-description: Enables a client compiler to bind to the types, variables, constants, and global functions for a library.helpviewer_keywords: ["GetTypeComp","GetTypeComp method [Automation]","GetTypeComp method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeComp method","ITypeLib.GetTypeComp","ITypeLib::GetTypeComp","_oa96_ITypeLib_GetTypeComp","automat.itypelib_gettypecomp","oaidl/ITypeLib::GetTypeComp"]
+description: Enables a client compiler to bind to the types, variables, constants, and global functions for a library.
+helpviewer_keywords: ["GetTypeComp","GetTypeComp method [Automation]","GetTypeComp method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeComp method","ITypeLib.GetTypeComp","ITypeLib::GetTypeComp","_oa96_ITypeLib_GetTypeComp","automat.itypelib_gettypecomp","oaidl/ITypeLib::GetTypeComp"]
 old-location: automat\itypelib_gettypecomp.htm
 tech.root: automat
 ms.assetid: 11c22e52-b0d5-4251-b8fa-ea3efae555e6

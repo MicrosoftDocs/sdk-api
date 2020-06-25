@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_6
 title: Filter_Spec_IPv4 (lpmapi.h)
-description: The Filter_Spec_IPv4 structure contains information about an IPv4 FILTERSPEC.helpviewer_keywords: ["Filter_Spec_IPv4","Filter_Spec_IPv4 structure [QOS]","lpmapi/Filter_Spec_IPv4","qos.filter_spec_ipv4"]
+description: The Filter_Spec_IPv4 structure contains information about an IPv4 FILTERSPEC.
+helpviewer_keywords: ["Filter_Spec_IPv4","Filter_Spec_IPv4 structure [QOS]","lpmapi/Filter_Spec_IPv4","qos.filter_spec_ipv4"]
 old-location: qos\filter_spec_ipv4.htm
 tech.root: QOS
 ms.assetid: b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e

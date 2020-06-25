@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.UnDecorateSymbolNameW
 title: UnDecorateSymbolNameW function (dbghelp.h)
-description: Undecorates the specified decorated C++ symbol name.helpviewer_keywords: ["UNDNAME_32_BIT_DECODE","UNDNAME_COMPLETE","UNDNAME_NAME_ONLY","UNDNAME_NO_ACCESS_SPECIFIERS","UNDNAME_NO_ALLOCATION_LANGUAGE","UNDNAME_NO_ALLOCATION_MODEL","UNDNAME_NO_ARGUMENTS","UNDNAME_NO_CV_THISTYPE","UNDNAME_NO_FUNCTION_RETURNS","UNDNAME_NO_LEADING_UNDERSCORES","UNDNAME_NO_MEMBER_TYPE","UNDNAME_NO_MS_KEYWORDS","UNDNAME_NO_MS_THISTYPE","UNDNAME_NO_RETURN_UDT_MODEL","UNDNAME_NO_SPECIAL_SYMS","UNDNAME_NO_THISTYPE","UNDNAME_NO_THROW_SIGNATURES","UnDecorateSymbolName","UnDecorateSymbolName function","UnDecorateSymbolNameW","_win32_undecoratesymbolname","base.undecoratesymbolname","dbghelp/UnDecorateSymbolName","dbghelp/UnDecorateSymbolNameW"]
+description: Undecorates the specified decorated C++ symbol name.
+helpviewer_keywords: ["UNDNAME_32_BIT_DECODE","UNDNAME_COMPLETE","UNDNAME_NAME_ONLY","UNDNAME_NO_ACCESS_SPECIFIERS","UNDNAME_NO_ALLOCATION_LANGUAGE","UNDNAME_NO_ALLOCATION_MODEL","UNDNAME_NO_ARGUMENTS","UNDNAME_NO_CV_THISTYPE","UNDNAME_NO_FUNCTION_RETURNS","UNDNAME_NO_LEADING_UNDERSCORES","UNDNAME_NO_MEMBER_TYPE","UNDNAME_NO_MS_KEYWORDS","UNDNAME_NO_MS_THISTYPE","UNDNAME_NO_RETURN_UDT_MODEL","UNDNAME_NO_SPECIAL_SYMS","UNDNAME_NO_THISTYPE","UNDNAME_NO_THROW_SIGNATURES","UnDecorateSymbolName","UnDecorateSymbolName function","UnDecorateSymbolNameW","_win32_undecoratesymbolname","base.undecoratesymbolname","dbghelp/UnDecorateSymbolName","dbghelp/UnDecorateSymbolNameW"]
 old-location: base\undecoratesymbolname.htm
 tech.root: Debug
 ms.assetid: f52e8e3b-3113-4d8c-b44a-846c574cfbd8
@@ -317,6 +318,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines UnDecorateSymbolName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

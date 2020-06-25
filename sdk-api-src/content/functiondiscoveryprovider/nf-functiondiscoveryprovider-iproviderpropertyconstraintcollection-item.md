@@ -1,7 +1,8 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Item
 title: IProviderPropertyConstraintCollection::Item (functiondiscoveryprovider.h)
-description: Gets the name and value of the specified property constraint, by index.helpviewer_keywords: ["IProviderPropertyConstraintCollection interface","Item method","IProviderPropertyConstraintCollection.Item","IProviderPropertyConstraintCollection::Item","Item","Item method","Item method","IProviderPropertyConstraintCollection interface","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Item","ncd.iproviderpropertyconstraintcollection_item"]
+description: Gets the name and value of the specified property constraint, by index.
+helpviewer_keywords: ["IProviderPropertyConstraintCollection interface","Item method","IProviderPropertyConstraintCollection.Item","IProviderPropertyConstraintCollection::Item","Item","Item method","Item method","IProviderPropertyConstraintCollection interface","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Item","ncd.iproviderpropertyconstraintcollection_item"]
 old-location: ncd\iproviderpropertyconstraintcollection_item.htm
 tech.root: FunDisc
 ms.assetid: 3e5643f6-02a5-48b0-a105-5b82c439b5cc

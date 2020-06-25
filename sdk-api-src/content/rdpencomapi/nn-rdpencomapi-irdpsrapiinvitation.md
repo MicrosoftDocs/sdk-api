@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitation
 title: IRDPSRAPIInvitation (rdpencomapi.h)
-description: Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.helpviewer_keywords: ["IRDPSRAPIInvitation","IRDPSRAPIInvitation interface [RDP]","IRDPSRAPIInvitation interface [RDP]","described","rdp.irdpsrapiinvitation","rdpencomapi/IRDPSRAPIInvitation"]
+description: Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.
+helpviewer_keywords: ["IRDPSRAPIInvitation","IRDPSRAPIInvitation interface [RDP]","IRDPSRAPIInvitation interface [RDP]","described","rdp.irdpsrapiinvitation","rdpencomapi/IRDPSRAPIInvitation"]
 old-location: rdp\irdpsrapiinvitation.htm
 tech.root: rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8

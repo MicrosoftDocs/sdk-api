@@ -1,7 +1,8 @@
 ---
 UID: NN:wia_xp.IWiaPropertyStorage
 title: IWiaPropertyStorage (wia_xp.h)
-description: The IWiaPropertyStorage interface is used to access information about the IWiaItem object's properties. Applications must query an item to obtain its IWiaPropertyStorage interface.helpviewer_keywords: ["IWiaPropertyStorage","IWiaPropertyStorage interface [WIA]","IWiaPropertyStorage interface [WIA]","described","_wia_IWiaPropertyStorage","wia._wia_IWiaPropertyStorage","wia_xp/IWiaPropertyStorage"]
+description: The IWiaPropertyStorage interface is used to access information about the IWiaItem object's properties. Applications must query an item to obtain its IWiaPropertyStorage interface.
+helpviewer_keywords: ["IWiaPropertyStorage","IWiaPropertyStorage interface [WIA]","IWiaPropertyStorage interface [WIA]","described","_wia_IWiaPropertyStorage","wia._wia_IWiaPropertyStorage","wia_xp/IWiaPropertyStorage"]
 old-location: wia\_wia_IWiaPropertyStorage.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\iwiapropertystorage.htm

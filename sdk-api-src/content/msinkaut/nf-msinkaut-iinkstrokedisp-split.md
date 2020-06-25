@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Split
 title: IInkStrokeDisp::Split (msinkaut.h)
-description: Splits the stroke at the specified location on the stroke.helpviewer_keywords: ["1ae627e9-c546-485a-880c-e59d2191884d","IInkStrokeDisp interface [Tablet PC]","Split method","IInkStrokeDisp.Split","IInkStrokeDisp::Split","Split","Split method [Tablet PC]","Split method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::Split","tablet.iinkstrokedisp_split"]
+description: Splits the stroke at the specified location on the stroke.
+helpviewer_keywords: ["1ae627e9-c546-485a-880c-e59d2191884d","IInkStrokeDisp interface [Tablet PC]","Split method","IInkStrokeDisp.Split","IInkStrokeDisp::Split","Split","Split method [Tablet PC]","Split method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::Split","tablet.iinkstrokedisp_split"]
 old-location: tablet\iinkstrokedisp_split.htm
 tech.root: tablet
 ms.assetid: 1ae627e9-c546-485a-880c-e59d2191884d

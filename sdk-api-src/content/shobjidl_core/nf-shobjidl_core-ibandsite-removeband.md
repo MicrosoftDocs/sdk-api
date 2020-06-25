@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IBandSite.RemoveBand
 title: IBandSite::RemoveBand (shobjidl_core.h)
-description: Removes a band from the band site.helpviewer_keywords: ["IBandSite interface [Windows Shell]","RemoveBand method","IBandSite.RemoveBand","IBandSite::RemoveBand","RemoveBand","RemoveBand method [Windows Shell]","RemoveBand method [Windows Shell]","IBandSite interface","_win32_IBandSite_RemoveBand","shell.IBandSite_RemoveBand","shobjidl_core/IBandSite::RemoveBand"]
+description: Removes a band from the band site.
+helpviewer_keywords: ["IBandSite interface [Windows Shell]","RemoveBand method","IBandSite.RemoveBand","IBandSite::RemoveBand","RemoveBand","RemoveBand method [Windows Shell]","RemoveBand method [Windows Shell]","IBandSite interface","_win32_IBandSite_RemoveBand","shell.IBandSite_RemoveBand","shobjidl_core/IBandSite::RemoveBand"]
 old-location: shell\IBandSite_RemoveBand.htm
 tech.root: shell
 ms.assetid: 5af20633-fab4-4fda-84c9-6bbdb9d588ec

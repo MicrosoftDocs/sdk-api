@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegSetKeySecurity
 title: RegSetKeySecurity function (winreg.h)
-description: Sets the security of an open registry key.helpviewer_keywords: ["RegSetKeySecurity","RegSetKeySecurity function [Security]","_win32_regsetkeysecurity","security.regsetkeysecurity","winreg/RegSetKeySecurity"]
+description: Sets the security of an open registry key.
+helpviewer_keywords: ["RegSetKeySecurity","RegSetKeySecurity function [Security]","_win32_regsetkeysecurity","security.regsetkeysecurity","winreg/RegSetKeySecurity"]
 old-location: security\regsetkeysecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257

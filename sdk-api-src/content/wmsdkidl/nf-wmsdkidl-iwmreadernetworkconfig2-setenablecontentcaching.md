@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableContentCaching
 title: IWMReaderNetworkConfig2::SetEnableContentCaching (wmsdkidl.h)
-description: The SetEnableContentCaching method enables or disables content caching. If content caching is enabled, content that is being streamed can be cached locally.helpviewer_keywords: ["IWMReaderNetworkConfig2 interface [windows Media Format]","SetEnableContentCaching method","IWMReaderNetworkConfig2.SetEnableContentCaching","IWMReaderNetworkConfig2::SetEnableContentCaching","IWMReaderNetworkConfig2SetEnableContentCaching","SetEnableContentCaching","SetEnableContentCaching method [windows Media Format]","SetEnableContentCaching method [windows Media Format]","IWMReaderNetworkConfig2 interface","wmformat.iwmreadernetworkconfig2_setenablecontentcaching","wmsdkidl/IWMReaderNetworkConfig2::SetEnableContentCaching"]
+description: The SetEnableContentCaching method enables or disables content caching. If content caching is enabled, content that is being streamed can be cached locally.
+helpviewer_keywords: ["IWMReaderNetworkConfig2 interface [windows Media Format]","SetEnableContentCaching method","IWMReaderNetworkConfig2.SetEnableContentCaching","IWMReaderNetworkConfig2::SetEnableContentCaching","IWMReaderNetworkConfig2SetEnableContentCaching","SetEnableContentCaching","SetEnableContentCaching method [windows Media Format]","SetEnableContentCaching method [windows Media Format]","IWMReaderNetworkConfig2 interface","wmformat.iwmreadernetworkconfig2_setenablecontentcaching","wmsdkidl/IWMReaderNetworkConfig2::SetEnableContentCaching"]
 old-location: wmformat\iwmreadernetworkconfig2_setenablecontentcaching.htm
 tech.root: wmformat
 ms.assetid: 68dcb12e-e254-407e-864b-54d4e84b08ed

@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.IsUserEnabled
 title: IGPMGPO::IsUserEnabled (gpmgmt.h)
-description: Checks whether the user policies in the GPO are enabled.helpviewer_keywords: ["GPMGPO class [GPMC]","IsUserEnabled method","IGPMGPO interface [GPMC]","IsUserEnabled method","IGPMGPO.IsUserEnabled","IGPMGPO::IsUserEnabled","IsUserEnabled","IsUserEnabled method [GPMC]","IsUserEnabled method [GPMC]","GPMGPO class","IsUserEnabled method [GPMC]","IGPMGPO interface","_win32_igpmgpo_isuserenabled","gpmc.igpmgpo_isuserenabled","gpmgmt/IGPMGPO::IsUserEnabled"]
+description: Checks whether the user policies in the GPO are enabled.
+helpviewer_keywords: ["GPMGPO class [GPMC]","IsUserEnabled method","IGPMGPO interface [GPMC]","IsUserEnabled method","IGPMGPO.IsUserEnabled","IGPMGPO::IsUserEnabled","IsUserEnabled","IsUserEnabled method [GPMC]","IsUserEnabled method [GPMC]","GPMGPO class","IsUserEnabled method [GPMC]","IGPMGPO interface","_win32_igpmgpo_isuserenabled","gpmc.igpmgpo_isuserenabled","gpmgmt/IGPMGPO::IsUserEnabled"]
 old-location: gpmc\igpmgpo_isuserenabled.htm
 tech.root: gpmc
 ms.assetid: a5ed21bd-19b7-4518-97fa-6ffcd4ea80b4

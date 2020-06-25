@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._OMAP
 title: OMAP (dbghelp.h)
-description: Describes an entry in an address map.helpviewer_keywords: ["*POMAP","OMAP","OMAP structure","POMAP","POMAP structure pointer","_OMAP","base.omap","dbghelp/OMAP","dbghelp/POMAP"]
+description: Describes an entry in an address map.
+helpviewer_keywords: ["*POMAP","OMAP","OMAP structure","POMAP","POMAP structure pointer","_OMAP","base.omap","dbghelp/OMAP","dbghelp/POMAP"]
 old-location: base\omap.htm
 tech.root: Debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManPluginAuthzQueryQuotaComplete
 title: WSManPluginAuthzQueryQuotaComplete function (wsman.h)
-description: Called from the WSManPluginAuthzQueryQuota plug-in entry point and must be called whether or not the plug-in can carry out the request.helpviewer_keywords: ["WSManPluginAuthzQueryQuotaComplete","WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management]","winrm.wsmanpluginauthzqueryquotacomplete","wsman/WSManPluginAuthzQueryQuotaComplete"]
+description: Called from the WSManPluginAuthzQueryQuota plug-in entry point and must be called whether or not the plug-in can carry out the request.
+helpviewer_keywords: ["WSManPluginAuthzQueryQuotaComplete","WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management]","winrm.wsmanpluginauthzqueryquotacomplete","wsman/WSManPluginAuthzQueryQuotaComplete"]
 old-location: winrm\wsmanpluginauthzqueryquotacomplete.htm
 tech.root: winrm
 ms.assetid: 611e9be3-75b8-4718-ae10-6ebe38010c7f

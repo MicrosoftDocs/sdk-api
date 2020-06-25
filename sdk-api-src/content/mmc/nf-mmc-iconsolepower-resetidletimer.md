@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsolePower.ResetIdleTimer
 title: IConsolePower::ResetIdleTimer (mmc.h)
-description: The ResetIdleTimer method resets the specified power management idle timers.helpviewer_keywords: ["ES_DISPLAY_REQUIRED","ES_SYSTEM_REQUIRED","IConsolePower interface [MMC]","ResetIdleTimer method","IConsolePower.ResetIdleTimer","IConsolePower::ResetIdleTimer","ResetIdleTimer","ResetIdleTimer method [MMC]","ResetIdleTimer method [MMC]","IConsolePower interface","_slate_iconsolepower_resetidletimer","mmc.iconsolepower_resetidletimer","mmc/IConsolePower::ResetIdleTimer"]
+description: The ResetIdleTimer method resets the specified power management idle timers.
+helpviewer_keywords: ["ES_DISPLAY_REQUIRED","ES_SYSTEM_REQUIRED","IConsolePower interface [MMC]","ResetIdleTimer method","IConsolePower.ResetIdleTimer","IConsolePower::ResetIdleTimer","ResetIdleTimer","ResetIdleTimer method [MMC]","ResetIdleTimer method [MMC]","IConsolePower interface","_slate_iconsolepower_resetidletimer","mmc.iconsolepower_resetidletimer","mmc/IConsolePower::ResetIdleTimer"]
 old-location: mmc\iconsolepower_resetidletimer.htm
 tech.root: mmc
 ms.assetid: 83de4b7f-3214-4354-a4a0-721054e2e899

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.put_MinSourceID
 title: IDigitalCableTuningSpace::put_MinSourceID (tuner.h)
-description: The put_MinSourceID method sets the lowest source identifier for this tuning space.helpviewer_keywords: ["IDigitalCableTuningSpace interface [Microsoft TV Technologies]","put_MinSourceID method","IDigitalCableTuningSpace.put_MinSourceID","IDigitalCableTuningSpace::put_MinSourceID","IDigitalCableTuningSpaceput_MinSourceID","mstv.idigitalcabletuningspace_put_minsourceid","put_MinSourceID","put_MinSourceID method [Microsoft TV Technologies]","put_MinSourceID method [Microsoft TV Technologies]","IDigitalCableTuningSpace interface","tuner/IDigitalCableTuningSpace::put_MinSourceID"]
+description: The put_MinSourceID method sets the lowest source identifier for this tuning space.
+helpviewer_keywords: ["IDigitalCableTuningSpace interface [Microsoft TV Technologies]","put_MinSourceID method","IDigitalCableTuningSpace.put_MinSourceID","IDigitalCableTuningSpace::put_MinSourceID","IDigitalCableTuningSpaceput_MinSourceID","mstv.idigitalcabletuningspace_put_minsourceid","put_MinSourceID","put_MinSourceID method [Microsoft TV Technologies]","put_MinSourceID method [Microsoft TV Technologies]","IDigitalCableTuningSpace interface","tuner/IDigitalCableTuningSpace::put_MinSourceID"]
 old-location: mstv\idigitalcabletuningspace_put_minsourceid.htm
 tech.root: mstv
 ms.assetid: 99dd4964-a19f-4f68-bc4a-e4d5c558cb82

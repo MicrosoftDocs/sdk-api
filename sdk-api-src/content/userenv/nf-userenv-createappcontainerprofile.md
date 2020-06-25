@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.CreateAppContainerProfile
 title: CreateAppContainerProfile function (userenv.h)
-description: Creates a per-user, per-app profile for Windows Store apps.helpviewer_keywords: ["CreateAppContainerProfile","CreateAppContainerProfile function [Windows Shell]","shell.createappcontainerprofile","userenv/CreateAppContainerProfile"]
+description: Creates a per-user, per-app profile for Windows Store apps.
+helpviewer_keywords: ["CreateAppContainerProfile","CreateAppContainerProfile function [Windows Shell]","shell.createappcontainerprofile","userenv/CreateAppContainerProfile"]
 old-location: shell\createappcontainerprofile.htm
 tech.root: shell
 ms.assetid: 73F5F30F-4083-4D33-B181-31B782AD40D6

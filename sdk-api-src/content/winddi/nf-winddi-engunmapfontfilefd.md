@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngUnmapFontFileFD
 title: EngUnmapFontFileFD function (winddi.h)
-description: The EngUnmapFontFileFD function unmaps the specified font file from system memory.helpviewer_keywords: ["EngUnmapFontFileFD","EngUnmapFontFileFD function [Display Devices]","display.engunmapfontfilefd","gdifncs_40ba83d0-7822-402b-9463-f593ddaecaed.xml","winddi/EngUnmapFontFileFD"]
+description: The EngUnmapFontFileFD function unmaps the specified font file from system memory.
+helpviewer_keywords: ["EngUnmapFontFileFD","EngUnmapFontFileFD function [Display Devices]","display.engunmapfontfilefd","gdifncs_40ba83d0-7822-402b-9463-f593ddaecaed.xml","winddi/EngUnmapFontFileFD"]
 old-location: display\engunmapfontfilefd.htm
 tech.root: display
 ms.assetid: 61c1acb6-c158-4ba4-ad5b-2f7b1a9bf106

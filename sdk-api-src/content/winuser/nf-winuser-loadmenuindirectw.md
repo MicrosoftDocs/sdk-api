@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadMenuIndirectW
 title: LoadMenuIndirectW function (winuser.h)
-description: Loads the specified menu template in memory.helpviewer_keywords: ["LoadMenuIndirect","LoadMenuIndirect function [Menus and Other Resources]","LoadMenuIndirectA","LoadMenuIndirectW","_win32_LoadMenuIndirect","_win32_loadmenuindirect_cpp","menurc.loadmenuindirect","winui._win32_loadmenuindirect","winuser/LoadMenuIndirect","winuser/LoadMenuIndirectA","winuser/LoadMenuIndirectW"]
+description: Loads the specified menu template in memory.
+helpviewer_keywords: ["LoadMenuIndirect","LoadMenuIndirect function [Menus and Other Resources]","LoadMenuIndirectA","LoadMenuIndirectW","_win32_LoadMenuIndirect","_win32_loadmenuindirect_cpp","menurc.loadmenuindirect","winui._win32_loadmenuindirect","winuser/LoadMenuIndirect","winuser/LoadMenuIndirectA","winuser/LoadMenuIndirectW"]
 old-location: menurc\loadmenuindirect.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenuindirect.htm
@@ -87,6 +88,10 @@ For both the ANSI and the Unicode version of this function, the strings in the <
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadMenuIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

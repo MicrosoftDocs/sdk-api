@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IMetaData.GetData
 title: IMetaData::GetData (structuredquery.h)
-description: Retrieves one key/value pair from the metadata of an IEntity, IRelationship, or ISchemaProvider object.helpviewer_keywords: ["GetData","GetData method [search]","GetData method [search]","IMetaData interface","IMetaData interface [search]","GetData method","IMetaData.GetData","IMetaData::GetData","_search_IMetaData_GetData","search._search_IMetaData_GetData","structuredquery/IMetaData::GetData"]
+description: Retrieves one key/value pair from the metadata of an IEntity, IRelationship, or ISchemaProvider object.
+helpviewer_keywords: ["GetData","GetData method [search]","GetData method [search]","IMetaData interface","IMetaData interface [search]","GetData method","IMetaData.GetData","IMetaData::GetData","_search_IMetaData_GetData","search._search_IMetaData_GetData","structuredquery/IMetaData::GetData"]
 old-location: search\_search_IMetaData_GetData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\getdata.htm

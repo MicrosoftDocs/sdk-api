@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.SetThreadToken
 title: SetThreadToken function (processthreadsapi.h)
-description: Assigns an impersonation token to a thread. The function can also cause a thread to stop using an impersonation token.helpviewer_keywords: ["SetThreadToken","SetThreadToken function [Security]","_win32_setthreadtoken","processthreadsapi/SetThreadToken","security.setthreadtoken"]
+description: Assigns an impersonation token to a thread. The function can also cause a thread to stop using an impersonation token.
+helpviewer_keywords: ["SetThreadToken","SetThreadToken function [Security]","_win32_setthreadtoken","processthreadsapi/SetThreadToken","security.setthreadtoken"]
 old-location: security\setthreadtoken.htm
 tech.root: SecAuthZ
 ms.assetid: ba1a4fce-b3cc-423d-b213-5dfca3dea708

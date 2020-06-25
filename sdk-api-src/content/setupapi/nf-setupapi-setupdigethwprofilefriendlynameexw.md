@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameExW
 title: SetupDiGetHwProfileFriendlyNameExW function (setupapi.h)
-description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer.helpviewer_keywords: ["SetupDiGetHwProfileFriendlyNameEx","SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation]","SetupDiGetHwProfileFriendlyNameExA","SetupDiGetHwProfileFriendlyNameExW","devinst.setupdigethwprofilefriendlynameex","di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml","setupapi/SetupDiGetHwProfileFriendlyNameEx"]
+description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer.
+helpviewer_keywords: ["SetupDiGetHwProfileFriendlyNameEx","SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation]","SetupDiGetHwProfileFriendlyNameExA","SetupDiGetHwProfileFriendlyNameExW","devinst.setupdigethwprofilefriendlynameex","di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml","setupapi/SetupDiGetHwProfileFriendlyNameEx"]
 old-location: devinst\setupdigethwprofilefriendlynameex.htm
 tech.root: devinst
 ms.assetid: 839c1e4c-cfa6-4f59-979c-24623a040d5c
@@ -111,4 +112,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetHwProfileFriendlyNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

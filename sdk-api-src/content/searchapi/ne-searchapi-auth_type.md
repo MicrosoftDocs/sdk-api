@@ -1,7 +1,8 @@
 ---
 UID: NE:searchapi._AUTH_TYPE
 title: AUTH_TYPE (searchapi.h)
-description: Describes authentication types for content access.helpviewer_keywords: ["AUTH_TYPE","AUTH_TYPE enumeration [search]","_search_AUTH_TYPE","eAUTH_TYPE_ANONYMOUS","eAUTH_TYPE_BASIC","eAUTH_TYPE_NTLM","search._search_AUTH_TYPE","searchapi/AUTH_TYPE","searchapi/eAUTH_TYPE_ANONYMOUS","searchapi/eAUTH_TYPE_BASIC","searchapi/eAUTH_TYPE_NTLM"]
+description: Describes authentication types for content access.
+helpviewer_keywords: ["AUTH_TYPE","AUTH_TYPE enumeration [search]","_search_AUTH_TYPE","eAUTH_TYPE_ANONYMOUS","eAUTH_TYPE_BASIC","eAUTH_TYPE_NTLM","search._search_AUTH_TYPE","searchapi/AUTH_TYPE","searchapi/eAUTH_TYPE_ANONYMOUS","searchapi/eAUTH_TYPE_BASIC","searchapi/eAUTH_TYPE_NTLM"]
 old-location: search\_search_AUTH_TYPE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\auth_type.htm

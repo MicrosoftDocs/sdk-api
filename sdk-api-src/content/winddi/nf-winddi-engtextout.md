@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngTextOut
 title: EngTextOut function (winddi.h)
-description: The EngTextOut function causes GDI to render a set of glyphs at specified positions.helpviewer_keywords: ["EngTextOut","EngTextOut function [Display Devices]","display.engtextout","gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml","winddi/EngTextOut"]
+description: The EngTextOut function causes GDI to render a set of glyphs at specified positions.
+helpviewer_keywords: ["EngTextOut","EngTextOut function [Display Devices]","display.engtextout","gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml","winddi/EngTextOut"]
 old-location: display\engtextout.htm
 tech.root: display
 ms.assetid: 7891692e-a4e1-401a-99e0-ed8135dc6f1d

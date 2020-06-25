@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawString(IN const WCHAR,IN INT,IN const Font,IN const RectF &,IN const StringFormat,IN const Brush)
 title: Graphics::DrawString
-description: The Graphics::DrawString method draws a string based on a font, a layout rectangle, and a format.helpviewer_keywords: ["Graphics::DrawString"]
+description: The Graphics::DrawString method draws a string based on a font, a layout rectangle, and a format.
+helpviewer_keywords: ["Graphics::DrawString"]
 ms.assetid: ef1d9dc7-132f-4e0b-aba8-bc5a0c5d5d84
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawString

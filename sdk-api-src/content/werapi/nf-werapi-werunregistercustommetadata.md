@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerUnregisterCustomMetadata
 title: WerUnregisterCustomMetadata function (werapi.h)
-description: Removes an item of app-specific metadata being collected during error reporting for the application.helpviewer_keywords: ["WerUnRegisterCustomMetadata","WerUnRegisterCustomMetadata function [Windows Error Reporting]","WerUnregisterCustomMetadata","wer.werunregistercustommetadata","werapi/WerUnRegisterCustomMetadata"]
+description: Removes an item of app-specific metadata being collected during error reporting for the application.
+helpviewer_keywords: ["WerUnRegisterCustomMetadata","WerUnRegisterCustomMetadata function [Windows Error Reporting]","WerUnregisterCustomMetadata","wer.werunregistercustommetadata","werapi/WerUnRegisterCustomMetadata"]
 old-location: wer\werunregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 29DB2CE5-2A96-450B-96C8-082B786613F9

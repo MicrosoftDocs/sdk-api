@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.GetCaps
 title: IDirectDrawPalette::GetCaps (ddraw.h)
-description: Retrieves the capabilities of the palette object.helpviewer_keywords: ["DDPCAPS_1BIT","DDPCAPS_2BIT","DDPCAPS_4BIT","DDPCAPS_8BIT","DDPCAPS_8BITENTRIES","DDPCAPS_ALLOW256","DDPCAPS_ALPHA","DDPCAPS_PRIMARYSURFACE","DDPCAPS_PRIMARYSURFACELEFT","DDPCAPS_VSYNC","GetCaps","GetCaps method [DirectDraw]","GetCaps method [DirectDraw]","IDirectDrawPalette interface","IDirectDrawPalette interface [DirectDraw]","GetCaps method","IDirectDrawPalette.GetCaps","IDirectDrawPalette::GetCaps","ddraw/IDirectDrawPalette::GetCaps","directdraw.idirectdrawpalette_getcaps"]
+description: Retrieves the capabilities of the palette object.
+helpviewer_keywords: ["DDPCAPS_1BIT","DDPCAPS_2BIT","DDPCAPS_4BIT","DDPCAPS_8BIT","DDPCAPS_8BITENTRIES","DDPCAPS_ALLOW256","DDPCAPS_ALPHA","DDPCAPS_PRIMARYSURFACE","DDPCAPS_PRIMARYSURFACELEFT","DDPCAPS_VSYNC","GetCaps","GetCaps method [DirectDraw]","GetCaps method [DirectDraw]","IDirectDrawPalette interface","IDirectDrawPalette interface [DirectDraw]","GetCaps method","IDirectDrawPalette.GetCaps","IDirectDrawPalette::GetCaps","ddraw/IDirectDrawPalette::GetCaps","directdraw.idirectdrawpalette_getcaps"]
 old-location: directdraw\idirectdrawpalette_getcaps.htm
 tech.root: directdraw
 ms.assetid: 7afdea97-39b7-4dd1-8084-90ec40814735

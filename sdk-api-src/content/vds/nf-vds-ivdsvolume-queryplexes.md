@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsVolume.QueryPlexes
 title: IVdsVolume::QueryPlexes (vds.h)
-description: Returns an object that enumerates the plexes of the volume.helpviewer_keywords: ["IVdsVolume interface [VDS]","QueryPlexes method","IVdsVolume.QueryPlexes","IVdsVolume::QueryPlexes","QueryPlexes","QueryPlexes method [VDS]","QueryPlexes method [VDS]","IVdsVolume interface","base.ivdsvolume_queryplexes","vds/IVdsVolume::QueryPlexes"]
+description: Returns an object that enumerates the plexes of the volume.
+helpviewer_keywords: ["IVdsVolume interface [VDS]","QueryPlexes method","IVdsVolume.QueryPlexes","IVdsVolume::QueryPlexes","QueryPlexes","QueryPlexes method [VDS]","QueryPlexes method [VDS]","IVdsVolume interface","base.ivdsvolume_queryplexes","vds/IVdsVolume::QueryPlexes"]
 old-location: base\ivdsvolume_queryplexes.htm
 tech.root: VDS
 ms.assetid: 33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.UpdateTopology
 title: IMFSequencerSource::UpdateTopology (mfidl.h)
-description: Updates a topology in the queue.helpviewer_keywords: ["4ed6be6c-a031-4628-a3c5-7f0676cc0baf","IMFSequencerSource interface [Media Foundation]","UpdateTopology method","IMFSequencerSource.UpdateTopology","IMFSequencerSource::UpdateTopology","UpdateTopology","UpdateTopology method [Media Foundation]","UpdateTopology method [Media Foundation]","IMFSequencerSource interface","mf.imfsequencersource_updatetopology","mfidl/IMFSequencerSource::UpdateTopology"]
+description: Updates a topology in the queue.
+helpviewer_keywords: ["4ed6be6c-a031-4628-a3c5-7f0676cc0baf","IMFSequencerSource interface [Media Foundation]","UpdateTopology method","IMFSequencerSource.UpdateTopology","IMFSequencerSource::UpdateTopology","UpdateTopology","UpdateTopology method [Media Foundation]","UpdateTopology method [Media Foundation]","IMFSequencerSource interface","mf.imfsequencersource_updatetopology","mfidl/IMFSequencerSource::UpdateTopology"]
 old-location: mf\imfsequencersource_updatetopology.htm
 tech.root: medfound
 ms.assetid: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf

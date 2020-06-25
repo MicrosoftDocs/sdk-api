@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.IColumnProvider
 title: IColumnProvider (shlobj.h)
-description: Exposes methods that enable the addition of custom columns in the Windows Explorer Details view.helpviewer_keywords: ["IColumnProvider","IColumnProvider interface [Windows Shell]","IColumnProvider interface [Windows Shell]","described","_win32_IColumnProvider","shell.IColumnProvider","shlobj/IColumnProvider"]
+description: Exposes methods that enable the addition of custom columns in the Windows Explorer Details view.
+helpviewer_keywords: ["IColumnProvider","IColumnProvider interface [Windows Shell]","IColumnProvider interface [Windows Shell]","described","_win32_IColumnProvider","shell.IColumnProvider","shlobj/IColumnProvider"]
 old-location: shell\IColumnProvider.htm
 tech.root: shell
 ms.assetid: 06993217-2867-43f2-aa76-04b500bf8c17

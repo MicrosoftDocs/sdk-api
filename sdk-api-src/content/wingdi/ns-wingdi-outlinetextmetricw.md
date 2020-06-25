@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi._OUTLINETEXTMETRICW
 title: OUTLINETEXTMETRICW (wingdi.h)
-description: The OUTLINETEXTMETRIC structure contains metrics describing a TrueType font.helpviewer_keywords: ["*LPOUTLINETEXTMETRICW","*NPOUTLINETEXTMETRICW","*POUTLINETEXTMETRICW","OUTLINETEXTMETRIC","OUTLINETEXTMETRIC structure [Windows GDI]","OUTLINETEXTMETRICA","OUTLINETEXTMETRICW","POUTLINETEXTMETRIC","POUTLINETEXTMETRIC structure pointer [Windows GDI]","_win32_OUTLINETEXTMETRIC_str","gdi.outlinetextmetric","wingdi/OUTLINETEXTMETRIC","wingdi/OUTLINETEXTMETRICA","wingdi/OUTLINETEXTMETRICW","wingdi/POUTLINETEXTMETRIC"]
+description: The OUTLINETEXTMETRIC structure contains metrics describing a TrueType font.
+helpviewer_keywords: ["*LPOUTLINETEXTMETRICW","*NPOUTLINETEXTMETRICW","*POUTLINETEXTMETRICW","OUTLINETEXTMETRIC","OUTLINETEXTMETRIC structure [Windows GDI]","OUTLINETEXTMETRICA","OUTLINETEXTMETRICW","POUTLINETEXTMETRIC","POUTLINETEXTMETRIC structure pointer [Windows GDI]","_win32_OUTLINETEXTMETRIC_str","gdi.outlinetextmetric","wingdi/OUTLINETEXTMETRIC","wingdi/OUTLINETEXTMETRICA","wingdi/OUTLINETEXTMETRICW","wingdi/POUTLINETEXTMETRIC"]
 old-location: gdi\outlinetextmetric.htm
 tech.root: gdi
 ms.assetid: 79d77df0-193a-49a8-b93d-4ef5807c3c9b
@@ -264,6 +265,10 @@ Note, <b>OUTLINETEXTMETRIC</b> is defined using the current pack setting. To avo
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines OUTLINETEXTMETRIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

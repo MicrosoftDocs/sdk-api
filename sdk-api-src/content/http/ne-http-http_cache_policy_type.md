@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_CACHE_POLICY_TYPE
 title: HTTP_CACHE_POLICY_TYPE (http.h)
-description: The HTTP_CACHE_POLICY_TYPE enumeration type defines available cache policies.helpviewer_keywords: ["*PHTTP_CACHE_POLICY_TYPE","HTTP_CACHE_POLICY_TYPE","HTTP_CACHE_POLICY_TYPE enumeration [HTTP]","HttpCachePolicyMaximum","HttpCachePolicyNocache","HttpCachePolicyTimeToLive","HttpCachePolicyUserInvalidates","PHTTP_CACHE_POLICY_TYPE","PHTTP_CACHE_POLICY_TYPE enumeration pointer [HTTP]","_http_http_cache_policy_type","http.http_cache_policy_type","http/HTTP_CACHE_POLICY_TYPE","http/HttpCachePolicyMaximum","http/HttpCachePolicyNocache","http/HttpCachePolicyTimeToLive","http/HttpCachePolicyUserInvalidates","http/PHTTP_CACHE_POLICY_TYPE"]
+description: The HTTP_CACHE_POLICY_TYPE enumeration type defines available cache policies.
+helpviewer_keywords: ["*PHTTP_CACHE_POLICY_TYPE","HTTP_CACHE_POLICY_TYPE","HTTP_CACHE_POLICY_TYPE enumeration [HTTP]","HttpCachePolicyMaximum","HttpCachePolicyNocache","HttpCachePolicyTimeToLive","HttpCachePolicyUserInvalidates","PHTTP_CACHE_POLICY_TYPE","PHTTP_CACHE_POLICY_TYPE enumeration pointer [HTTP]","_http_http_cache_policy_type","http.http_cache_policy_type","http/HTTP_CACHE_POLICY_TYPE","http/HttpCachePolicyMaximum","http/HttpCachePolicyNocache","http/HttpCachePolicyTimeToLive","http/HttpCachePolicyUserInvalidates","http/PHTTP_CACHE_POLICY_TYPE"]
 old-location: http\http_cache_policy_type.htm
 tech.root: http
 ms.assetid: 07d9853f-d38c-4e5b-815a-3dc0157b4d8d

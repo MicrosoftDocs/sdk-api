@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
 title: IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification (dxgi1_4.h)
-description: This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","UnregisterVideoMemoryBudgetChangeNotification method","IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification","IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification","UnregisterVideoMemoryBudgetChangeNotification","UnregisterVideoMemoryBudgetChangeNotification method [DXGI]","UnregisterVideoMemoryBudgetChangeNotification method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification","dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification"]
+description: This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.
+helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","UnregisterVideoMemoryBudgetChangeNotification method","IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification","IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification","UnregisterVideoMemoryBudgetChangeNotification","UnregisterVideoMemoryBudgetChangeNotification method [DXGI]","UnregisterVideoMemoryBudgetChangeNotification method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_unregistervideomemorybudgetchangenotification","dxgi1_4/IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification"]
 old-location: direct3ddxgi\idxgiadapter3_unregistervideomemorybudgetchangenotification.htm
 tech.root: direct3ddxgi
 ms.assetid: 11695B9E-75B5-44BF-BC09-D377BCEDA341

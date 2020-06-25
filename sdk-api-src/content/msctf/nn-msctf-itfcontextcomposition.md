@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfContextComposition
 title: ITfContextComposition (msctf.h)
-description: The ITfContextComposition interface is implemented by the TSF manager and is used by a text service to create and manipulate compositions. An instance of this interface is provided by ITfContext::QueryInterface with IID_ITfContextComposition.helpviewer_keywords: ["ITfContextComposition","ITfContextComposition interface [Text Services Framework]","ITfContextComposition interface [Text Services Framework]","described","_tsf_itfcontextcomposition_ref","msctf/ITfContextComposition","tsf.itfcontextcomposition"]
+description: The ITfContextComposition interface is implemented by the TSF manager and is used by a text service to create and manipulate compositions. An instance of this interface is provided by ITfContext::QueryInterface with IID_ITfContextComposition.
+helpviewer_keywords: ["ITfContextComposition","ITfContextComposition interface [Text Services Framework]","ITfContextComposition interface [Text Services Framework]","described","_tsf_itfcontextcomposition_ref","msctf/ITfContextComposition","tsf.itfcontextcomposition"]
 old-location: tsf\itfcontextcomposition.htm
 tech.root: TSF
 ms.assetid: cf02c50c-dca8-47ad-b8ff-0fa3884db674

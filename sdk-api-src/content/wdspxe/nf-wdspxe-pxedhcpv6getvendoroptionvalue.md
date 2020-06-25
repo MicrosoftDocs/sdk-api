@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6GetVendorOptionValue
 title: PxeDhcpv6GetVendorOptionValue function (wdspxe.h)
-description: Retrieves option values from the OPTION_VENDOR_OPTS (17) field of a DHCPv6 packet.helpviewer_keywords: ["PxeDhcpv6GetVendorOptionValue","PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services]","wds.pxedhcpv6getvendoroptionvalue","wdspxe/PxeDhcpv6GetVendorOptionValue"]
+description: Retrieves option values from the OPTION_VENDOR_OPTS (17) field of a DHCPv6 packet.
+helpviewer_keywords: ["PxeDhcpv6GetVendorOptionValue","PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services]","wds.pxedhcpv6getvendoroptionvalue","wdspxe/PxeDhcpv6GetVendorOptionValue"]
 old-location: wds\pxedhcpv6getvendoroptionvalue.htm
 tech.root: wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1

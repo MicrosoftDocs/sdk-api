@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AbortBackup
 title: IVssBackupComponents::AbortBackup (vsbackup.h)
-description: The AbortBackup method notifies VSS that a backup operation was terminated.helpviewer_keywords: ["AbortBackup","AbortBackup method [VSS]","AbortBackup method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AbortBackup method","IVssBackupComponents.AbortBackup","IVssBackupComponents::AbortBackup","_win32_ivssbackupcomponents_abortbackup","base.ivssbackupcomponents_abortbackup","vsbackup/IVssBackupComponents::AbortBackup"]
+description: The AbortBackup method notifies VSS that a backup operation was terminated.
+helpviewer_keywords: ["AbortBackup","AbortBackup method [VSS]","AbortBackup method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AbortBackup method","IVssBackupComponents.AbortBackup","IVssBackupComponents::AbortBackup","_win32_ivssbackupcomponents_abortbackup","base.ivssbackupcomponents_abortbackup","vsbackup/IVssBackupComponents::AbortBackup"]
 old-location: base\ivssbackupcomponents_abortbackup.htm
 tech.root: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c

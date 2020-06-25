@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Region.Union(IN const Rect &)
 title: Region::Union
-description: The Region::Union method updates this region.helpviewer_keywords: ["Region::Union"]
+description: The Region::Union method updates this region.
+helpviewer_keywords: ["Region::Union"]
 ms.assetid: dde2ebc1-cb66-41ac-81ef-5ef53f427ed7
 ms.date: 05/20/2019
 ms.keywords: Region::Union

@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO_ARRAY
 title: DHCP_CLASS_INFO_ARRAY (dhcpsapi.h)
-description: Defines an array of elements that contain DHCP class information.helpviewer_keywords: ["*LPDHCP_CLASS_INFO_ARRAY","DHCP_CLASS_INFO_ARRAY","DHCP_CLASS_INFO_ARRAY structure [DHCP]","LPDHCP_CLASS_INFO_ARRAY","LPDHCP_CLASS_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcp_class_info_array","dhcpsapi/LPDHCP_CLASS_INFO_ARRAY","dhcpsapi/_DHCP_CLASS_INFO_ARRAY"]
+description: Defines an array of elements that contain DHCP class information.
+helpviewer_keywords: ["*LPDHCP_CLASS_INFO_ARRAY","DHCP_CLASS_INFO_ARRAY","DHCP_CLASS_INFO_ARRAY structure [DHCP]","LPDHCP_CLASS_INFO_ARRAY","LPDHCP_CLASS_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcp_class_info_array","dhcpsapi/LPDHCP_CLASS_INFO_ARRAY","dhcpsapi/_DHCP_CLASS_INFO_ARRAY"]
 old-location: dhcp\dhcp_class_info_array.htm
 tech.root: DHCP
 ms.assetid: 716beba3-cba2-406c-a41f-2f08b6a7dc5a

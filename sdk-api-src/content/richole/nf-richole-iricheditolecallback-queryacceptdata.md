@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOleCallback.QueryAcceptData
 title: IRichEditOleCallback::QueryAcceptData (richole.h)
-description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.helpviewer_keywords: ["IRichEditOleCallback interface [Windows Controls]","QueryAcceptData method","IRichEditOleCallback.QueryAcceptData","IRichEditOleCallback::QueryAcceptData","QueryAcceptData","QueryAcceptData method [Windows Controls]","QueryAcceptData method [Windows Controls]","IRichEditOleCallback interface","RECO_DROP","RECO_PASTE","_win32_IRichEditOleCallback_QueryAcceptData","_win32_IRichEditOleCallback_QueryAcceptData_cpp","controls.IRichEditOleCallback_QueryAcceptData","controls._win32_IRichEditOleCallback_QueryAcceptData","richole/IRichEditOleCallback::QueryAcceptData"]
+description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
+helpviewer_keywords: ["IRichEditOleCallback interface [Windows Controls]","QueryAcceptData method","IRichEditOleCallback.QueryAcceptData","IRichEditOleCallback::QueryAcceptData","QueryAcceptData","QueryAcceptData method [Windows Controls]","QueryAcceptData method [Windows Controls]","IRichEditOleCallback interface","RECO_DROP","RECO_PASTE","_win32_IRichEditOleCallback_QueryAcceptData","_win32_IRichEditOleCallback_QueryAcceptData_cpp","controls.IRichEditOleCallback_QueryAcceptData","controls._win32_IRichEditOleCallback_QueryAcceptData","richole/IRichEditOleCallback::QueryAcceptData"]
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm

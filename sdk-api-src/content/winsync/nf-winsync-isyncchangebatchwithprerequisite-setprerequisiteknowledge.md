@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
 title: ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge (winsync.h)
-description: Sets the minimum knowledge that a destination provider is required to have to process this change batch.helpviewer_keywords: ["ISyncChangeBatchWithPrerequisite interface [Windows Sync]","SetPrerequisiteKnowledge method","ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge","ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge","SetPrerequisiteKnowledge","SetPrerequisiteKnowledge method [Windows Sync]","SetPrerequisiteKnowledge method [Windows Sync]","ISyncChangeBatchWithPrerequisite interface","winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge","winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge"]
+description: Sets the minimum knowledge that a destination provider is required to have to process this change batch.
+helpviewer_keywords: ["ISyncChangeBatchWithPrerequisite interface [Windows Sync]","SetPrerequisiteKnowledge method","ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge","ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge","SetPrerequisiteKnowledge","SetPrerequisiteKnowledge method [Windows Sync]","SetPrerequisiteKnowledge method [Windows Sync]","ISyncChangeBatchWithPrerequisite interface","winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge","winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge"]
 old-location: winsync\isyncchangebatchwithprerequisite_setprerequisiteknowledge.htm
 tech.root: winsync
 ms.assetid: a138dbd9-e498-40bf-9490-690103afbf0f

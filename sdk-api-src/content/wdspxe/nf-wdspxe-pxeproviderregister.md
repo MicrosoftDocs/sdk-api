@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeProviderRegister
 title: PxeProviderRegister function (wdspxe.h)
-description: Registers a provider with the system.helpviewer_keywords: ["PXE_REG_INDEX_BOTTOM","PXE_REG_INDEX_TOP","PxeProviderRegister","PxeProviderRegister function [Windows Deployment Services]","wds.pxeproviderregister","wdspxe/PxeProviderRegister"]
+description: Registers a provider with the system.
+helpviewer_keywords: ["PXE_REG_INDEX_BOTTOM","PXE_REG_INDEX_TOP","PxeProviderRegister","PxeProviderRegister function [Windows Deployment Services]","wds.pxeproviderregister","wdspxe/PxeProviderRegister"]
 old-location: wds\pxeproviderregister.htm
 tech.root: wds
 ms.assetid: 2b377855-dae7-47cb-925a-9ee0a9265f83

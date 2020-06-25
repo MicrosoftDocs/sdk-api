@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.IsMonospacedFont
 title: IDWriteFont1::IsMonospacedFont (dwrite_1.h)
-description: Determines if the font is monospaced, that is, the characters are the same fixed-pitch width (non-proportional).helpviewer_keywords: ["IDWriteFont1 interface [Direct Write]","IsMonospacedFont method","IDWriteFont1.IsMonospacedFont","IDWriteFont1::IsMonospacedFont","IsMonospacedFont","IsMonospacedFont method [Direct Write]","IsMonospacedFont method [Direct Write]","IDWriteFont1 interface","directwrite.idwritefont1_ismonospacedfont","dwrite_1/IDWriteFont1::IsMonospacedFont"]
+description: Determines if the font is monospaced, that is, the characters are the same fixed-pitch width (non-proportional).
+helpviewer_keywords: ["IDWriteFont1 interface [Direct Write]","IsMonospacedFont method","IDWriteFont1.IsMonospacedFont","IDWriteFont1::IsMonospacedFont","IsMonospacedFont","IsMonospacedFont method [Direct Write]","IsMonospacedFont method [Direct Write]","IDWriteFont1 interface","directwrite.idwritefont1_ismonospacedfont","dwrite_1/IDWriteFont1::IsMonospacedFont"]
 old-location: directwrite\idwritefont1_ismonospacedfont.htm
 tech.root: DirectWrite
 ms.assetid: AB05586C-47C9-4F65-A7DF-C2A40FC33253

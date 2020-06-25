@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetDocument
 title: ID2D1SvgElement::GetDocument (d2d1svg.h)
-description: Gets the document that contains this element.helpviewer_keywords: ["GetDocument","GetDocument method [Direct2D]","GetDocument method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetDocument method","ID2D1SvgElement.GetDocument","ID2D1SvgElement::GetDocument","d2d1svg/ID2D1SvgElement::GetDocument","direct2d.id2d1svgelement_getdocument"]
+description: Gets the document that contains this element.
+helpviewer_keywords: ["GetDocument","GetDocument method [Direct2D]","GetDocument method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetDocument method","ID2D1SvgElement.GetDocument","ID2D1SvgElement::GetDocument","d2d1svg/ID2D1SvgElement::GetDocument","direct2d.id2d1svgelement_getdocument"]
 old-location: direct2d\id2d1svgelement_getdocument.htm
 tech.root: Direct2D
 ms.assetid: 87ACD0CD-AF31-4734-80F7-67090154D5D1

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.HasCharacter
 title: IDWriteFontFace3::HasCharacter (dwrite_3.h)
-description: Determines whether the font supports the specified character.helpviewer_keywords: ["HasCharacter","HasCharacter method [Direct Write]","HasCharacter method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","HasCharacter method","IDWriteFontFace3.HasCharacter","IDWriteFontFace3::HasCharacter","directwrite.idwritefontface3_hascharacter","dwrite_3/IDWriteFontFace3::HasCharacter"]
+description: Determines whether the font supports the specified character.
+helpviewer_keywords: ["HasCharacter","HasCharacter method [Direct Write]","HasCharacter method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","HasCharacter method","IDWriteFontFace3.HasCharacter","IDWriteFontFace3::HasCharacter","directwrite.idwritefontface3_hascharacter","dwrite_3/IDWriteFontFace3::HasCharacter"]
 old-location: directwrite\idwritefontface3_hascharacter.htm
 tech.root: DirectWrite
 ms.assetid: BCBC382E-C599-429A-9E00-EAB12D675503

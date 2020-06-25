@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple3.GetMetadataValue
 title: IRawElementProviderSimple3::GetMetadataValue (uiautomationcore.h)
-description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.helpviewer_keywords: ["GetMetadataValue","GetMetadataValue method [Windows Accessibility]","GetMetadataValue method [Windows Accessibility]","IRawElementProviderSimple3 interface","IRawElementProviderSimple3 interface [Windows Accessibility]","GetMetadataValue method","IRawElementProviderSimple3.GetMetadataValue","IRawElementProviderSimple3::GetMetadataValue","uiautomationcore/IRawElementProviderSimple3::GetMetadataValue","winauto.uiauto_IRawElementProviderSimple3_GetMetadataValue"]
+description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.
+helpviewer_keywords: ["GetMetadataValue","GetMetadataValue method [Windows Accessibility]","GetMetadataValue method [Windows Accessibility]","IRawElementProviderSimple3 interface","IRawElementProviderSimple3 interface [Windows Accessibility]","GetMetadataValue method","IRawElementProviderSimple3.GetMetadataValue","IRawElementProviderSimple3::GetMetadataValue","uiautomationcore/IRawElementProviderSimple3::GetMetadataValue","winauto.uiauto_IRawElementProviderSimple3_GetMetadataValue"]
 old-location: winauto\uiauto_IRawElementProviderSimple3_GetMetadataValue.htm
 tech.root: WinAuto
 ms.assetid: 832154F3-22D3-48E9-BC4E-CB495BB72485

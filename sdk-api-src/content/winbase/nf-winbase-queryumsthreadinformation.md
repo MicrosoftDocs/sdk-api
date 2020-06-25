@@ -68,7 +68,6 @@ A pointer to a UMS thread context.
 
 A UMS_THREAD_INFO_CLASS value that specifies the kind of information to retrieve. 
 
-
 ### -param UmsThreadInformation [out]
 
 A pointer to a buffer to receive the specified information. The required size of this buffer depends on the specified information class.
@@ -132,7 +131,6 @@ The specified information class is not supported.
 ## -remarks
 
 
-
 The <b>QueryUmsThreadInformation</b> function retrieves information about the specified UMS worker thread such as its application-defined context, its thread execution block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>), and whether the thread is suspended or terminated. 
 
 The underlying structures for UMS worker threads are managed by the system. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
@@ -143,9 +141,9 @@ The underlying structures for UMS worker threads are managed by the system. Info
 ## -see-also
 
 
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
+ 

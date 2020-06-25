@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_SUBSCRIBE_FLAGS
 title: EVT_SUBSCRIBE_FLAGS (winevt.h)
-description: Defines the possible values that specify when to start subscribing to events.helpviewer_keywords: ["EVT_SUBSCRIBE_FLAGS","EVT_SUBSCRIBE_FLAGS enumeration [EventLog]","EvtSubscribeOriginMask","EvtSubscribeStartAfterBookmark","EvtSubscribeStartAtOldestRecord","EvtSubscribeStrict","EvtSubscribeToFutureEvents","EvtSubscribeTolerateQueryErrors","wes.evt_subscribe_flags","winevt/EVT_SUBSCRIBE_FLAGS","winevt/EvtSubscribeOriginMask","winevt/EvtSubscribeStartAfterBookmark","winevt/EvtSubscribeStartAtOldestRecord","winevt/EvtSubscribeStrict","winevt/EvtSubscribeToFutureEvents","winevt/EvtSubscribeTolerateQueryErrors"]
+description: Defines the possible values that specify when to start subscribing to events.
+helpviewer_keywords: ["EVT_SUBSCRIBE_FLAGS","EVT_SUBSCRIBE_FLAGS enumeration [EventLog]","EvtSubscribeOriginMask","EvtSubscribeStartAfterBookmark","EvtSubscribeStartAtOldestRecord","EvtSubscribeStrict","EvtSubscribeToFutureEvents","EvtSubscribeTolerateQueryErrors","wes.evt_subscribe_flags","winevt/EVT_SUBSCRIBE_FLAGS","winevt/EvtSubscribeOriginMask","winevt/EvtSubscribeStartAfterBookmark","winevt/EvtSubscribeStartAtOldestRecord","winevt/EvtSubscribeStrict","winevt/EvtSubscribeToFutureEvents","winevt/EvtSubscribeTolerateQueryErrors"]
 old-location: wes\evt_subscribe_flags.htm
 tech.root: wes
 ms.assetid: 2e0d5442-c9ac-4165-96ae-6f4122a5ce0a

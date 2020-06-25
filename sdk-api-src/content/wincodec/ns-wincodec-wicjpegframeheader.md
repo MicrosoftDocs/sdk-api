@@ -1,7 +1,8 @@
 ---
 UID: NS:wincodec.WICJpegFrameHeader
 title: WICJpegFrameHeader (wincodec.h)
-description: Represents a JPEG frame header.helpviewer_keywords: ["WICJpegFrameHeader","WICJpegFrameHeader structure [Windows Imaging Component]","wic.wicjpegframeheader","wincodec/WICJpegFrameHeader"]
+description: Represents a JPEG frame header.
+helpviewer_keywords: ["WICJpegFrameHeader","WICJpegFrameHeader structure [Windows Imaging Component]","wic.wicjpegframeheader","wincodec/WICJpegFrameHeader"]
 old-location: wic\wicjpegframeheader.htm
 tech.root: wic
 ms.assetid: BB207D78-9E27-49A4-91E4-601CED109389

@@ -1,7 +1,8 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.CancelLink
 title: IOleUILinkContainerW::CancelLink (oledlg.h)
-description: Disconnects the selected links.helpviewer_keywords: ["CancelLink","CancelLink method [COM]","CancelLink method [COM]","IOleUILinkContainer interface","CancelLink method [COM]","IOleUILinkContainerA interface","CancelLink method [COM]","IOleUILinkContainerW interface","IOleUILinkContainer interface [COM]","CancelLink method","IOleUILinkContainer::CancelLink","IOleUILinkContainerA interface [COM]","CancelLink method","IOleUILinkContainerA::CancelLink","IOleUILinkContainerW interface [COM]","CancelLink method","IOleUILinkContainerW.CancelLink","IOleUILinkContainerW::CancelLink","_ole_IOleUILinkContainer_CancelLink","com.ioleuilinkcontainer_cancellink","oledlg/IOleUILinkContainer::CancelLink","oledlg/IOleUILinkContainerA::CancelLink","oledlg/IOleUILinkContainerW::CancelLink"]
+description: Disconnects the selected links.
+helpviewer_keywords: ["CancelLink","CancelLink method [COM]","CancelLink method [COM]","IOleUILinkContainer interface","CancelLink method [COM]","IOleUILinkContainerA interface","CancelLink method [COM]","IOleUILinkContainerW interface","IOleUILinkContainer interface [COM]","CancelLink method","IOleUILinkContainer::CancelLink","IOleUILinkContainerA interface [COM]","CancelLink method","IOleUILinkContainerA::CancelLink","IOleUILinkContainerW interface [COM]","CancelLink method","IOleUILinkContainerW.CancelLink","IOleUILinkContainerW::CancelLink","_ole_IOleUILinkContainer_CancelLink","com.ioleuilinkcontainer_cancellink","oledlg/IOleUILinkContainer::CancelLink","oledlg/IOleUILinkContainerA::CancelLink","oledlg/IOleUILinkContainerW::CancelLink"]
 old-location: com\ioleuilinkcontainer_cancellink.htm
 tech.root: com
 ms.assetid: 97099e4d-20ea-47fb-8ca8-27330f980038

@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IBDA_DRM
 title: IBDA_DRM (bdaiface.h)
-description: The IBDA_DRM interface is used to request a tuner to perform a DRM handshake with the user's computer.helpviewer_keywords: ["IBDA_DRM","IBDA_DRM interface [Microsoft TV Technologies]","IBDA_DRM interface [Microsoft TV Technologies]","described","IBDA_DRMInterface","bdaiface/IBDA_DRM","mstv.ibda_drm"]
+description: The IBDA_DRM interface is used to request a tuner to perform a DRM handshake with the user's computer.
+helpviewer_keywords: ["IBDA_DRM","IBDA_DRM interface [Microsoft TV Technologies]","IBDA_DRM interface [Microsoft TV Technologies]","described","IBDA_DRMInterface","bdaiface/IBDA_DRM","mstv.ibda_drm"]
 old-location: mstv\ibda_drm.htm
 tech.root: mstv
 ms.assetid: d0bde207-d550-4e98-85c7-b0d47b0cd637

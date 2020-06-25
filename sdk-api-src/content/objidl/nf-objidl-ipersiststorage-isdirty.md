@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IPersistStorage.IsDirty
 title: IPersistStorage::IsDirty (objidl.h)
-description: Determines whether an object has changed since it was last saved to its current storage.helpviewer_keywords: ["IPersistStorage interface [COM]","IsDirty method","IPersistStorage.IsDirty","IPersistStorage::IsDirty","IsDirty","IsDirty method [COM]","IsDirty method [COM]","IPersistStorage interface","_com_ipersiststorage_isdirty","com.ipersiststorage_isdirty","objidl/IPersistStorage::IsDirty"]
+description: Determines whether an object has changed since it was last saved to its current storage.
+helpviewer_keywords: ["IPersistStorage interface [COM]","IsDirty method","IPersistStorage.IsDirty","IPersistStorage::IsDirty","IsDirty","IsDirty method [COM]","IsDirty method [COM]","IPersistStorage interface","_com_ipersiststorage_isdirty","com.ipersiststorage_isdirty","objidl/IPersistStorage::IsDirty"]
 old-location: com\ipersiststorage_isdirty.htm
 tech.root: com
 ms.assetid: 604e044f-cede-486e-8b17-c62a1cfd1d28

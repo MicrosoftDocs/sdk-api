@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetErrorString
 title: WsGetErrorString function (webservices.h)
-description: Retrieves an error string from an error object.helpviewer_keywords: ["WsGetErrorString","WsGetErrorString function [Web Services for Windows]","webservices/WsGetErrorString","wsw.wsgeterrorstring"]
+description: Retrieves an error string from an error object.
+helpviewer_keywords: ["WsGetErrorString","WsGetErrorString function [Web Services for Windows]","webservices/WsGetErrorString","wsw.wsgeterrorstring"]
 old-location: wsw\wsgeterrorstring.htm
 tech.root: wsw
 ms.assetid: 711c14b4-6a74-4860-a9cc-7b8673dc1a28

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts
 title: MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts function (mi.h)
-description: Sets the number of times a push delivery subscription will try to deliver a result.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts","MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts","wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryretryattempts"]
+description: Sets the number of times a push delivery subscription will try to deliver a result.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts","MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetDeliveryRetryAttempts","wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryretryattempts"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryretryattempts.htm
 tech.root: wmi_v2
 ms.assetid: d00e94bc-83c7-4cb6-869d-c6e7c02c678c

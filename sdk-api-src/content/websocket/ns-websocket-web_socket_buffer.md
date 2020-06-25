@@ -1,7 +1,8 @@
 ---
 UID: NS:websocket._WEB_SOCKET_BUFFER
 title: WEB_SOCKET_BUFFER (websocket.h)
-description: Contains data for a specific WebSocket action.helpviewer_keywords: ["*PWEB_SOCKET_BUFFER","WEB_SOCKET_BUFFER","WEB_SOCKET_BUFFER union [Websocket Protocol Component API]","websock.web_socket_buffer","websocket/WEB_SOCKET_BUFFER"]
+description: Contains data for a specific WebSocket action.
+helpviewer_keywords: ["*PWEB_SOCKET_BUFFER","WEB_SOCKET_BUFFER","WEB_SOCKET_BUFFER union [Websocket Protocol Component API]","websock.web_socket_buffer","websocket/WEB_SOCKET_BUFFER"]
 old-location: websock\web_socket_buffer.htm
 tech.root: WebSock
 ms.assetid: 05EC3940-4A17-4FBB-9446-15B511E18FF2

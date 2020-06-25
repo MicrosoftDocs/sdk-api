@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.SetAt
 title: IXpsOMDocumentCollection::SetAt (xpsobjectmodel.h)
-description: Replaces an IXpsOMDocument interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMDocumentCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMDocumentCollection.SetAt","IXpsOMDocumentCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","xps.ixpsomdocumentcollection_setat","xpsobjectmodel/IXpsOMDocumentCollection::SetAt"]
+description: Replaces an IXpsOMDocument interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMDocumentCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMDocumentCollection.SetAt","IXpsOMDocumentCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMDocumentCollection interface","xps.ixpsomdocumentcollection_setat","xpsobjectmodel/IXpsOMDocumentCollection::SetAt"]
 old-location: xps\ixpsomdocumentcollection_setat.htm
 tech.root: printdocs
 ms.assetid: 71279337-33ec-4ed3-8c87-9c9b6844d26b

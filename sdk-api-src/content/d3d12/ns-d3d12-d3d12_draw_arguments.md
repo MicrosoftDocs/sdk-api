@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_DRAW_ARGUMENTS
 title: D3D12_DRAW_ARGUMENTS (d3d12.h)
-description: Describes parameters for drawing instances.helpviewer_keywords: ["D3D12_DRAW_ARGUMENTS","D3D12_DRAW_ARGUMENTS structure","d3d12/D3D12_DRAW_ARGUMENTS","direct3d12.d3d12_draw_arguments"]
+description: Describes parameters for drawing instances.
+helpviewer_keywords: ["D3D12_DRAW_ARGUMENTS","D3D12_DRAW_ARGUMENTS structure","d3d12/D3D12_DRAW_ARGUMENTS","direct3d12.d3d12_draw_arguments"]
 old-location: direct3d12\d3d12_draw_arguments.htm
 tech.root: direct3d12
 ms.assetid: 300F3628-C8E8-44BF-BCEC-579E6DA80347

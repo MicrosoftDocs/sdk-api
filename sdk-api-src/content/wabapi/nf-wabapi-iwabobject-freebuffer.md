@@ -1,7 +1,8 @@
 ---
 UID: NF:wabapi.IWABObject.FreeBuffer
 title: IWABObject::FreeBuffer (wabapi.h)
-description: Frees memory allocated with IWABObject::AllocateBuffer or any of the other Windows Address Book (WAB) methods.helpviewer_keywords: ["FreeBuffer","FreeBuffer method [Windows Address Book]","FreeBuffer method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","FreeBuffer method","IWABObject.FreeBuffer","IWABObject::FreeBuffer","_wab_IWABObject_FreeBuffer","wab._wab_IWABObject_FreeBuffer","wabapi/IWABObject::FreeBuffer"]
+description: Frees memory allocated with IWABObject::AllocateBuffer or any of the other Windows Address Book (WAB) methods.
+helpviewer_keywords: ["FreeBuffer","FreeBuffer method [Windows Address Book]","FreeBuffer method [Windows Address Book]","IWABObject interface","IWABObject interface [Windows Address Book]","FreeBuffer method","IWABObject.FreeBuffer","IWABObject::FreeBuffer","_wab_IWABObject_FreeBuffer","wab._wab_IWABObject_FreeBuffer","wabapi/IWABObject::FreeBuffer"]
 old-location: wab\_wab_IWABObject_FreeBuffer.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\freebuffer.htm

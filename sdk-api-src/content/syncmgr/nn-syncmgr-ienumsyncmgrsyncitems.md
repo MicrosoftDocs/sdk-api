@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrSyncItems
 title: IEnumSyncMgrSyncItems (syncmgr.h)
-description: Exposes methods that enumerate the sync item objects managed by the handler.helpviewer_keywords: ["IEnumSyncMgrSyncItems","IEnumSyncMgrSyncItems interface [Windows Shell]","IEnumSyncMgrSyncItems interface [Windows Shell]","described","_shell_IEnumSyncMgrSyncItems","shell.IEnumSyncMgrSyncItems","syncmgr/IEnumSyncMgrSyncItems"]
+description: Exposes methods that enumerate the sync item objects managed by the handler.
+helpviewer_keywords: ["IEnumSyncMgrSyncItems","IEnumSyncMgrSyncItems interface [Windows Shell]","IEnumSyncMgrSyncItems interface [Windows Shell]","described","_shell_IEnumSyncMgrSyncItems","shell.IEnumSyncMgrSyncItems","syncmgr/IEnumSyncMgrSyncItems"]
 old-location: shell\IEnumSyncMgrSyncItems.htm
 tech.root: shell
 ms.assetid: 0d1695e2-6936-4f53-9594-e0e2bc69afd4

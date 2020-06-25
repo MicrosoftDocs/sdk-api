@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetParagraphAlignment
 title: IDWriteTextFormat::SetParagraphAlignment (dwrite.h)
-description: Sets the alignment option of a paragraph relative to the layout box's top and bottom edge.helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetParagraphAlignment method","IDWriteTextFormat.SetParagraphAlignment","IDWriteTextFormat::SetParagraphAlignment","SetParagraphAlignment","SetParagraphAlignment method [Direct Write]","SetParagraphAlignment method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetParagraphAlignment","dwrite/IDWriteTextFormat::SetParagraphAlignment"]
+description: Sets the alignment option of a paragraph relative to the layout box's top and bottom edge.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetParagraphAlignment method","IDWriteTextFormat.SetParagraphAlignment","IDWriteTextFormat::SetParagraphAlignment","SetParagraphAlignment","SetParagraphAlignment method [Direct Write]","SetParagraphAlignment method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetParagraphAlignment","dwrite/IDWriteTextFormat::SetParagraphAlignment"]
 old-location: directwrite\IDWriteTextFormat_SetParagraphAlignment.htm
 tech.root: DirectWrite
 ms.assetid: a6eb8aea-3945-471d-a34a-c2f3221dfeaf

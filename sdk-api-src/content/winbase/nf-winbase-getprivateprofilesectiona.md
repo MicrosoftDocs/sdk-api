@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionA
 title: GetPrivateProfileSectionA function (winbase.h)
-description: Retrieves all the keys and values for the specified section of an initialization file.helpviewer_keywords: ["GetPrivateProfileSection","GetPrivateProfileSection function","GetPrivateProfileSectionA","GetPrivateProfileSectionW","_win32_getprivateprofilesection","base.getprivateprofilesection","winbase/GetPrivateProfileSection","winbase/GetPrivateProfileSectionA","winbase/GetPrivateProfileSectionW"]
+description: Retrieves all the keys and values for the specified section of an initialization file.
+helpviewer_keywords: ["GetPrivateProfileSection","GetPrivateProfileSection function","GetPrivateProfileSectionA","GetPrivateProfileSectionW","_win32_getprivateprofilesection","base.getprivateprofilesection","winbase/GetPrivateProfileSection","winbase/GetPrivateProfileSectionA","winbase/GetPrivateProfileSectionW"]
 old-location: base\getprivateprofilesection.htm
 tech.root: SysInfo
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
@@ -138,6 +139,10 @@ Comments (any line that starts with a semicolon) are stripped out and not return
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetPrivateProfileSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

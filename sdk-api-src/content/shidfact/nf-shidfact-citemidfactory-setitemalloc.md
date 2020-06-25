@@ -1,7 +1,8 @@
 ---
 UID: NF:shidfact.CItemIDFactory.SetItemAlloc
 title: CItemIDFactory::SetItemAlloc (shidfact.h)
-description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","SetItemAlloc method","CItemIDFactory.SetItemAlloc","CItemIDFactory::SetItemAlloc","SetItemAlloc","SetItemAlloc method [Windows Shell]","SetItemAlloc method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_setitemalloc","shidfact/CItemIDFactory::SetItemAlloc"]
+description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.
+helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","SetItemAlloc method","CItemIDFactory.SetItemAlloc","CItemIDFactory::SetItemAlloc","SetItemAlloc","SetItemAlloc method [Windows Shell]","SetItemAlloc method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_setitemalloc","shidfact/CItemIDFactory::SetItemAlloc"]
 old-location: shell\citemidfactory_setitemalloc.htm
 tech.root: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5

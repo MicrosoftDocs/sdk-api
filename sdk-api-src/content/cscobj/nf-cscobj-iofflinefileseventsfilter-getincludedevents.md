@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetIncludedEvents
 title: IOfflineFilesEventsFilter::GetIncludedEvents (cscobj.h)
-description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should be received by the event sink.helpviewer_keywords: ["GetIncludedEvents","GetIncludedEvents method [Offline Files]","GetIncludedEvents method [Offline Files]","IOfflineFilesEventsFilter interface","IOfflineFilesEventsFilter interface [Offline Files]","GetIncludedEvents method","IOfflineFilesEventsFilter.GetIncludedEvents","IOfflineFilesEventsFilter::GetIncludedEvents","cscobj/IOfflineFilesEventsFilter::GetIncludedEvents","of.iofflinefileseventsfilter_getincludedevents"]
+description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should be received by the event sink.
+helpviewer_keywords: ["GetIncludedEvents","GetIncludedEvents method [Offline Files]","GetIncludedEvents method [Offline Files]","IOfflineFilesEventsFilter interface","IOfflineFilesEventsFilter interface [Offline Files]","GetIncludedEvents method","IOfflineFilesEventsFilter.GetIncludedEvents","IOfflineFilesEventsFilter::GetIncludedEvents","cscobj/IOfflineFilesEventsFilter::GetIncludedEvents","of.iofflinefileseventsfilter_getincludedevents"]
 old-location: of\iofflinefileseventsfilter_getincludedevents.htm
 tech.root: offlinefiles
 ms.assetid: ecb10da3-7566-43f7-8349-f94e59e12907

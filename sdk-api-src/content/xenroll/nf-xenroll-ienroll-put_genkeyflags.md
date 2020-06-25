@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll.put_GenKeyFlags
 title: IEnroll::put_GenKeyFlags (xenroll.h)
-description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.helpviewer_keywords: ["GenKeyFlags property [Security]","GenKeyFlags property [Security]","IEnroll interface","IEnroll interface [Security]","GenKeyFlags property","IEnroll.GenKeyFlags","IEnroll.put_GenKeyFlags","IEnroll::GenKeyFlags","IEnroll::get_GenKeyFlags","IEnroll::put_GenKeyFlags","put_GenKeyFlags","security.ienroll4_genkeyflags","xenroll/IEnroll::GenKeyFlags","xenroll/IEnroll::get_GenKeyFlags","xenroll/IEnroll::put_GenKeyFlags"]
+description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
+helpviewer_keywords: ["GenKeyFlags property [Security]","GenKeyFlags property [Security]","IEnroll interface","IEnroll interface [Security]","GenKeyFlags property","IEnroll.GenKeyFlags","IEnroll.put_GenKeyFlags","IEnroll::GenKeyFlags","IEnroll::get_GenKeyFlags","IEnroll::put_GenKeyFlags","put_GenKeyFlags","security.ienroll4_genkeyflags","xenroll/IEnroll::GenKeyFlags","xenroll/IEnroll::get_GenKeyFlags","xenroll/IEnroll::put_GenKeyFlags"]
 old-location: security\ienroll4_genkeyflags.htm
 tech.root: SecCrypto
 ms.assetid: 6dac3321-9dca-4b7d-8432-e8124bd51db7

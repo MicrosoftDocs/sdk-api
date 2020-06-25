@@ -1,7 +1,8 @@
 ---
 UID: NN:sbe.IStreamBufferSink3
 title: IStreamBufferSink3 (sbe.h)
-description: The IStreamBufferSink3 interface is exposed by the Stream Buffer Sink filter.helpviewer_keywords: ["IStreamBufferSink3","IStreamBufferSink3 interface [Microsoft TV Technologies]","IStreamBufferSink3 interface [Microsoft TV Technologies]","described","IStreamBufferSink3Interface","mstv.istreambuffersink3","sbe/IStreamBufferSink3"]
+description: The IStreamBufferSink3 interface is exposed by the Stream Buffer Sink filter.
+helpviewer_keywords: ["IStreamBufferSink3","IStreamBufferSink3 interface [Microsoft TV Technologies]","IStreamBufferSink3 interface [Microsoft TV Technologies]","described","IStreamBufferSink3Interface","mstv.istreambuffersink3","sbe/IStreamBufferSink3"]
 old-location: mstv\istreambuffersink3.htm
 tech.root: mstv
 ms.assetid: a3adbe79-7d7c-4b12-a574-23c64d2311af

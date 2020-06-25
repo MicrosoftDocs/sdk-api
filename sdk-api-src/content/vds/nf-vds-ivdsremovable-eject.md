@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsRemovable.Eject
 title: IVdsRemovable::Eject (vds.h)
-description: Ejects the media from the current device.helpviewer_keywords: ["Eject","Eject method [VDS]","Eject method [VDS]","IVdsRemovable interface","IVdsRemovable interface [VDS]","Eject method","IVdsRemovable.Eject","IVdsRemovable::Eject","base.ivdsremovable_eject","vds/IVdsRemovable::Eject"]
+description: Ejects the media from the current device.
+helpviewer_keywords: ["Eject","Eject method [VDS]","Eject method [VDS]","IVdsRemovable interface","IVdsRemovable interface [VDS]","Eject method","IVdsRemovable.Eject","IVdsRemovable::Eject","base.ivdsremovable_eject","vds/IVdsRemovable::Eject"]
 old-location: base\ivdsremovable_eject.htm
 tech.root: VDS
 ms.assetid: c77885bd-67af-41c1-9190-e0148c7b7ed5

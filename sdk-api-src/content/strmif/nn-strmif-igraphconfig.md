@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IGraphConfig
 title: IGraphConfig (strmif.h)
-description: The Filter Graph Manager exposes IGraphConfig to support dynamic graph building.helpviewer_keywords: ["IGraphConfig","IGraphConfig interface [DirectShow]","IGraphConfig interface [DirectShow]","described","IGraphConfigInterface","dshow.igraphconfig","strmif/IGraphConfig"]
+description: The Filter Graph Manager exposes IGraphConfig to support dynamic graph building.
+helpviewer_keywords: ["IGraphConfig","IGraphConfig interface [DirectShow]","IGraphConfig interface [DirectShow]","described","IGraphConfigInterface","dshow.igraphconfig","strmif/IGraphConfig"]
 old-location: dshow\igraphconfig.htm
 tech.root: DirectShow
 ms.assetid: 7df22157-9dd1-410e-b037-a155f7b9a01b

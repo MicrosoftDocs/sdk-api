@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSignalEvents.OnSignalStateChange
 title: IMbnSignalEvents::OnSignalStateChange (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate that a signal quality update is available.helpviewer_keywords: ["IMbnSignalEvents interface [Microsoft Broadband Networks]","OnSignalStateChange method","IMbnSignalEvents.OnSignalStateChange","IMbnSignalEvents::OnSignalStateChange","OnSignalStateChange","OnSignalStateChange method [Microsoft Broadband Networks]","OnSignalStateChange method [Microsoft Broadband Networks]","IMbnSignalEvents interface","mbn.imbnsignalevents_onsignalstatechange","mbnapi/IMbnSignalEvents::OnSignalStateChange"]
+description: This notification method is called by the Mobile Broadband service to indicate that a signal quality update is available.
+helpviewer_keywords: ["IMbnSignalEvents interface [Microsoft Broadband Networks]","OnSignalStateChange method","IMbnSignalEvents.OnSignalStateChange","IMbnSignalEvents::OnSignalStateChange","OnSignalStateChange","OnSignalStateChange method [Microsoft Broadband Networks]","OnSignalStateChange method [Microsoft Broadband Networks]","IMbnSignalEvents interface","mbn.imbnsignalevents_onsignalstatechange","mbnapi/IMbnSignalEvents::OnSignalStateChange"]
 old-location: mbn\imbnsignalevents_onsignalstatechange.htm
 tech.root: mbn
 ms.assetid: 07e98555-03fa-4852-af65-55778dc9c477

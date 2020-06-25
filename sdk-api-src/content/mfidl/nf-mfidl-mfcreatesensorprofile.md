@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateSensorProfile
 title: MFCreateSensorProfile function (mfidl.h)
-description: Creates a sensor profile, based on the specified type, index, and optional constraints.helpviewer_keywords: ["MFCreateSensorProfile","MFCreateSensorProfile function [Media Foundation]","mf.mfcreatesensorprofile","mfidl/MFCreateSensorProfile"]
+description: Creates a sensor profile, based on the specified type, index, and optional constraints.
+helpviewer_keywords: ["MFCreateSensorProfile","MFCreateSensorProfile function [Media Foundation]","mf.mfcreatesensorprofile","mfidl/MFCreateSensorProfile"]
 old-location: mf\mfcreatesensorprofile.htm
 tech.root: medfound
 ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E

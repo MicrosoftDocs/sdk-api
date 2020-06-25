@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodsWithName
 title: IMetaDataImport::EnumMethodsWithName (rometadataapi.h)
-description: Enumerates methods that have the specified name and that are defined by the type referenced by the specified TypeDef token.helpviewer_keywords: ["EnumMethodsWithName","EnumMethodsWithName method [Windows Runtime]","EnumMethodsWithName method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumMethodsWithName method","IMetaDataImport.EnumMethodsWithName","IMetaDataImport::EnumMethodsWithName","rometadataapi/IMetaDataImport::EnumMethodsWithName","winrt.imetadataimport_enummethodswithname"]
+description: Enumerates methods that have the specified name and that are defined by the type referenced by the specified TypeDef token.
+helpviewer_keywords: ["EnumMethodsWithName","EnumMethodsWithName method [Windows Runtime]","EnumMethodsWithName method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumMethodsWithName method","IMetaDataImport.EnumMethodsWithName","IMetaDataImport::EnumMethodsWithName","rometadataapi/IMetaDataImport::EnumMethodsWithName","winrt.imetadataimport_enummethodswithname"]
 old-location: winrt\imetadataimport_enummethodswithname.htm
 tech.root: WinRT
 ms.assetid: 5252b535-23e5-4af1-91df-006717c4e159

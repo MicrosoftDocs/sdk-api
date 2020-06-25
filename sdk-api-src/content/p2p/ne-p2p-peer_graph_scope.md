@@ -1,7 +1,8 @@
 ---
 UID: NE:p2p.peer_graph_scope_tag
 title: PEER_GRAPH_SCOPE (p2p.h)
-description: The PEER_GRAPH_SCOPE enumeration specifies the network scope of a peer graph.helpviewer_keywords: ["PEER_GRAPH_SCOPE","PEER_GRAPH_SCOPE enumeration [Peer Networking]","PEER_GRAPH_SCOPE_ANY","PEER_GRAPH_SCOPE_GLOBAL","PEER_GRAPH_SCOPE_LINKLOCAL","PEER_GRAPH_SCOPE_LOOPBACK","PEER_GRAPH_SCOPE_SITELOCAL","p2p.peer_graph_scope","p2p/PEER_GRAPH_SCOPE","p2p/PEER_GRAPH_SCOPE_ANY","p2p/PEER_GRAPH_SCOPE_GLOBAL","p2p/PEER_GRAPH_SCOPE_LINKLOCAL","p2p/PEER_GRAPH_SCOPE_LOOPBACK","p2p/PEER_GRAPH_SCOPE_SITELOCAL"]
+description: The PEER_GRAPH_SCOPE enumeration specifies the network scope of a peer graph.
+helpviewer_keywords: ["PEER_GRAPH_SCOPE","PEER_GRAPH_SCOPE enumeration [Peer Networking]","PEER_GRAPH_SCOPE_ANY","PEER_GRAPH_SCOPE_GLOBAL","PEER_GRAPH_SCOPE_LINKLOCAL","PEER_GRAPH_SCOPE_LOOPBACK","PEER_GRAPH_SCOPE_SITELOCAL","p2p.peer_graph_scope","p2p/PEER_GRAPH_SCOPE","p2p/PEER_GRAPH_SCOPE_ANY","p2p/PEER_GRAPH_SCOPE_GLOBAL","p2p/PEER_GRAPH_SCOPE_LINKLOCAL","p2p/PEER_GRAPH_SCOPE_LOOPBACK","p2p/PEER_GRAPH_SCOPE_SITELOCAL"]
 old-location: p2p\peer_graph_scope.htm
 tech.root: P2PSdk
 ms.assetid: 103f0493-05b9-46a6-8304-0c38ec7dc674

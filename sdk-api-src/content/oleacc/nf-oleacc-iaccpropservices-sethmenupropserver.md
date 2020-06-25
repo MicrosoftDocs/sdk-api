@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHmenuPropServer
 title: IAccPropServices::SetHmenuPropServer (oleacc.h)
-description: This method wraps SetPropServer, providing a convenient entry point for callers who are annotating HMENU-based accessible elements.helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHmenuPropServer method","IAccPropServices.SetHmenuPropServer","IAccPropServices::SetHmenuPropServer","SetHmenuPropServer","SetHmenuPropServer method [Windows Accessibility]","SetHmenuPropServer method [Windows Accessibility]","IAccPropServices interface","oleacc/IAccPropServices::SetHmenuPropServer","winauto.iaccpropservices_iaccpropservices__sethmenupropserver"]
+description: This method wraps SetPropServer, providing a convenient entry point for callers who are annotating HMENU-based accessible elements.
+helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHmenuPropServer method","IAccPropServices.SetHmenuPropServer","IAccPropServices::SetHmenuPropServer","SetHmenuPropServer","SetHmenuPropServer method [Windows Accessibility]","SetHmenuPropServer method [Windows Accessibility]","IAccPropServices interface","oleacc/IAccPropServices::SetHmenuPropServer","winauto.iaccpropservices_iaccpropservices__sethmenupropserver"]
 old-location: winauto\iaccpropservices_iaccpropservices__sethmenupropserver.htm
 tech.root: WinAuto
 ms.assetid: 7bc91ee3-f0ea-43d5-a8b7-d1444c53cd14

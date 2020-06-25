@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent2.EncryptionOff
 title: IMSVidStreamBufferSinkEvent2::EncryptionOff (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["EncryptionOff","EncryptionOff method [Microsoft TV Technologies]","EncryptionOff method [Microsoft TV Technologies]","IMSVidStreamBufferSinkEvent2 interface","IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies]","EncryptionOff method","IMSVidStreamBufferSinkEvent2.EncryptionOff","IMSVidStreamBufferSinkEvent2::EncryptionOff","IMSVidStreamBufferSinkEvent2EncryptionOff","mstv.imsvidstreambuffersinkevent2_encryptionoff","segment/IMSVidStreamBufferSinkEvent2::EncryptionOff"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["EncryptionOff","EncryptionOff method [Microsoft TV Technologies]","EncryptionOff method [Microsoft TV Technologies]","IMSVidStreamBufferSinkEvent2 interface","IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies]","EncryptionOff method","IMSVidStreamBufferSinkEvent2.EncryptionOff","IMSVidStreamBufferSinkEvent2::EncryptionOff","IMSVidStreamBufferSinkEvent2EncryptionOff","mstv.imsvidstreambuffersinkevent2_encryptionoff","segment/IMSVidStreamBufferSinkEvent2::EncryptionOff"]
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionoff.htm
 tech.root: mstv
 ms.assetid: a4798851-b8e1-4b49-aba9-b8b06d91280d

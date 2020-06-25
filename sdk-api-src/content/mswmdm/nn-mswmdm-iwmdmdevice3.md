@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMDevice3
 title: IWMDMDevice3 (mswmdm.h)
-description: The IWMDMDevice3 interface extends IWMDMDevice2 by providing methods to query a device for properties, send device I/O controle codes, and also providing upgraded methods to search for storages and retrieve device format capabilities.helpviewer_keywords: ["IWMDMDevice3","IWMDMDevice3 interface [windows Media Device Manager]","IWMDMDevice3 interface [windows Media Device Manager]","described","IWMDMDevice3Interface","mswmdm/IWMDMDevice3","wmdm.iwmdmdevice3"]
+description: The IWMDMDevice3 interface extends IWMDMDevice2 by providing methods to query a device for properties, send device I/O controle codes, and also providing upgraded methods to search for storages and retrieve device format capabilities.
+helpviewer_keywords: ["IWMDMDevice3","IWMDMDevice3 interface [windows Media Device Manager]","IWMDMDevice3 interface [windows Media Device Manager]","described","IWMDMDevice3Interface","mswmdm/IWMDMDevice3","wmdm.iwmdmdevice3"]
 old-location: wmdm\iwmdmdevice3.htm
 tech.root: WMDM
 ms.assetid: 29e0ec95-c1ea-4157-b5aa-39d80fff407d

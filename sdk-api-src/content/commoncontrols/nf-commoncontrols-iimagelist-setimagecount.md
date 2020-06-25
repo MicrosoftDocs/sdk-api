@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList.SetImageCount
 title: IImageList::SetImageCount (commoncontrols.h)
-description: Resizes an existing image list.helpviewer_keywords: ["IImageList interface [Windows Controls]","SetImageCount method","IImageList.SetImageCount","IImageList::SetImageCount","SetImageCount","SetImageCount method [Windows Controls]","SetImageCount method [Windows Controls]","IImageList interface","comctl_IImageList_SetImageCount","comctl_IImageList_SetImageCount_cpp","commoncontrols/IImageList::SetImageCount","controls.IImageList_SetImageCount","controls.comctl_IImageList_SetImageCount"]
+description: Resizes an existing image list.
+helpviewer_keywords: ["IImageList interface [Windows Controls]","SetImageCount method","IImageList.SetImageCount","IImageList::SetImageCount","SetImageCount","SetImageCount method [Windows Controls]","SetImageCount method [Windows Controls]","IImageList interface","comctl_IImageList_SetImageCount","comctl_IImageList_SetImageCount_cpp","commoncontrols/IImageList::SetImageCount","controls.IImageList_SetImageCount","controls.comctl_IImageList_SetImageCount"]
 old-location: controls\IImageList_SetImageCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setimagecount.htm

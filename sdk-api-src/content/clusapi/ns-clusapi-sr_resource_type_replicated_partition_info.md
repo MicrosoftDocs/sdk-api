@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO (clusapi.h)
-description: Describes a replicated partition.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","mscs.sr_resource_type_replicated_partition_info"]
+description: Describes a replicated partition.
+helpviewer_keywords: ["*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO","mscs.sr_resource_type_replicated_partition_info"]
 old-location: mscs\sr_resource_type_replicated_partition_info.htm
 tech.root: MsCS
 ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF

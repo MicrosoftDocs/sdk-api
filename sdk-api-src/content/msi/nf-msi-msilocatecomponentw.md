@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiLocateComponentW
 title: MsiLocateComponentW function (msi.h)
-description: The MsiLocateComponent function returns the full path to an installed component without a product code.helpviewer_keywords: ["MsiLocateComponent","MsiLocateComponent function","MsiLocateComponentA","MsiLocateComponentW","_msi_msilocatecomponent","msi/MsiLocateComponent","msi/MsiLocateComponentA","msi/MsiLocateComponentW","setup.msilocatecomponent"]
+description: The MsiLocateComponent function returns the full path to an installed component without a product code.
+helpviewer_keywords: ["MsiLocateComponent","MsiLocateComponent function","MsiLocateComponentA","MsiLocateComponentW","_msi_msilocatecomponent","msi/MsiLocateComponent","msi/MsiLocateComponentA","msi/MsiLocateComponentW","setup.msilocatecomponent"]
 old-location: setup\msilocatecomponent.htm
 tech.root: Msi
 ms.assetid: 5b6235c5-9a64-4b4e-9f2c-42ed73400cbe
@@ -215,6 +216,10 @@ The feature is not published. The application should have determined this earlie
 </ul>
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiLocateComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

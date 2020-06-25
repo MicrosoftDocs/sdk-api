@@ -1,7 +1,8 @@
 ---
 UID: NF:iaccess.IAccessControl.SetOwner
 title: IAccessControl::SetOwner (iaccess.h)
-description: Sets the owner or the group of an item.helpviewer_keywords: ["IAccessControl interface [COM]","SetOwner method","IAccessControl.SetOwner","IAccessControl::SetOwner","SetOwner","SetOwner method [COM]","SetOwner method [COM]","IAccessControl interface","_com_iaccesscontrol_setowner","com.iaccesscontrol_setowner","iaccess/IAccessControl::SetOwner"]
+description: Sets the owner or the group of an item.
+helpviewer_keywords: ["IAccessControl interface [COM]","SetOwner method","IAccessControl.SetOwner","IAccessControl::SetOwner","SetOwner","SetOwner method [COM]","SetOwner method [COM]","IAccessControl interface","_com_iaccesscontrol_setowner","com.iaccesscontrol_setowner","iaccess/IAccessControl::SetOwner"]
 old-location: com\iaccesscontrol_setowner.htm
 tech.root: com
 ms.assetid: 92406043-f4a4-43e4-9b17-087066823ce4

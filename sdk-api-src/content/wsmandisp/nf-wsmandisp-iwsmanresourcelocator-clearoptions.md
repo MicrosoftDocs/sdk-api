@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.ClearOptions
 title: IWSManResourceLocator::ClearOptions (wsmandisp.h)
-description: Removes any options from the ResourceLocator object.helpviewer_keywords: ["ClearOptions","ClearOptions method [Windows Remote Management]","ClearOptions method [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","ClearOptions method","IWSManResourceLocator.ClearOptions","IWSManResourceLocator::ClearOptions","winrm.iwsmanresourcelocator_clearoptions","wsmandisp/IWSManResourceLocator::ClearOptions"]
+description: Removes any options from the ResourceLocator object.
+helpviewer_keywords: ["ClearOptions","ClearOptions method [Windows Remote Management]","ClearOptions method [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","ClearOptions method","IWSManResourceLocator.ClearOptions","IWSManResourceLocator::ClearOptions","winrm.iwsmanresourcelocator_clearoptions","wsmandisp/IWSManResourceLocator::ClearOptions"]
 old-location: winrm\iwsmanresourcelocator_clearoptions.htm
 tech.root: winrm
 ms.assetid: 4c71948d-2321-41b5-b961-c4a514830b26

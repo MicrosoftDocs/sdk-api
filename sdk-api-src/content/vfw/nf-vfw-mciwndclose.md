@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndClose
 title: MCIWndClose macro (vfw.h)
-description: The MCIWndClose macro closes an MCI device or file associated with an MCIWnd window.helpviewer_keywords: ["MCIWndClose","MCIWndClose macro [Windows Multimedia]","_win32_MCIWndClose","multimedia.mciwndclose","vfw/MCIWndClose"]
+description: The MCIWndClose macro closes an MCI device or file associated with an MCIWnd window.
+helpviewer_keywords: ["MCIWndClose","MCIWndClose macro [Windows Multimedia]","_win32_MCIWndClose","multimedia.mciwndclose","vfw/MCIWndClose"]
 old-location: multimedia\mciwndclose.htm
 tech.root: Multimedia
 ms.assetid: f0adc980-c7f6-4937-b844-f65b98047e84

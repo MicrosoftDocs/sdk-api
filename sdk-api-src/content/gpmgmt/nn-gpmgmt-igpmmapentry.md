@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMMapEntry
 title: IGPMMapEntry (gpmgmt.h)
-description: The IGPMMapEntry interface provides access to a map entry.helpviewer_keywords: ["GPMMapEntry","IGPMMapEntry","IGPMMapEntry interface [GPMC]","IGPMMapEntry interface [GPMC]","described","gpmc.igpmmapentry","gpmgmt/IGPMMapEntry"]
+description: The IGPMMapEntry interface provides access to a map entry.
+helpviewer_keywords: ["GPMMapEntry","IGPMMapEntry","IGPMMapEntry interface [GPMC]","IGPMMapEntry interface [GPMC]","described","gpmc.igpmmapentry","gpmgmt/IGPMMapEntry"]
 old-location: gpmc\igpmmapentry.htm
 tech.root: gpmc
 ms.assetid: 85a9bebf-0d96-4ec1-a0bf-37b262059067

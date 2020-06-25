@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.AllocADsMem
 title: AllocADsMem function (adshlp.h)
-description: Allocates a block of memory of the specified size.helpviewer_keywords: ["AllocADsMem","AllocADsMem function [ADSI]","_ds_allocadsmem","adshlp/AllocADsMem","adsi.allocadsmem"]
+description: Allocates a block of memory of the specified size.
+helpviewer_keywords: ["AllocADsMem","AllocADsMem function [ADSI]","_ds_allocadsmem","adshlp/AllocADsMem","adsi.allocadsmem"]
 old-location: adsi\allocadsmem.htm
 tech.root: adsi
 ms.assetid: df98a728-596b-4541-974a-5690e510ad9f

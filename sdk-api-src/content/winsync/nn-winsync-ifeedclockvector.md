@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IFeedClockVector
 title: IFeedClockVector (winsync.h)
-description: Represents a clock vector that contains FeedSync information.helpviewer_keywords: ["IFeedClockVector","IFeedClockVector interface [Windows Sync]","IFeedClockVector interface [Windows Sync]","described","winsync.ifeedclockvector","winsync/IFeedClockVector"]
+description: Represents a clock vector that contains FeedSync information.
+helpviewer_keywords: ["IFeedClockVector","IFeedClockVector interface [Windows Sync]","IFeedClockVector interface [Windows Sync]","described","winsync.ifeedclockvector","winsync/IFeedClockVector"]
 old-location: winsync\ifeedclockvector.htm
 tech.root: winsync
 ms.assetid: 9acee83e-a16c-4511-a1e3-ce653ed09535

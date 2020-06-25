@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsFileService
 title: IADsFileService (iads.h)
-description: The IADsFileService interface is a dual interface that inherits from IADsService.helpviewer_keywords: ["IADsFileService","IADsFileService interface [ADSI]","IADsFileService interface [ADSI]","described","_ds_iadsfileservice","adsi.iadsfileservice","iads/IADsFileService"]
+description: The IADsFileService interface is a dual interface that inherits from IADsService.
+helpviewer_keywords: ["IADsFileService","IADsFileService interface [ADSI]","IADsFileService interface [ADSI]","described","_ds_iadsfileservice","adsi.iadsfileservice","iads/IADsFileService"]
 old-location: adsi\iadsfileservice.htm
 tech.root: adsi
 ms.assetid: 328eedfe-7fdc-4e90-8bac-ab30944b8fbf

@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByPath
 title: IWbemConfigureRefresher::AddObjectByPath (wbemcli.h)
-description: The IWbemConfigureRefresher::AddObjectByPath method adds an object to a refresher by specifying an object path.helpviewer_keywords: ["AddObjectByPath","AddObjectByPath method [Windows Management Instrumentation]","AddObjectByPath method [Windows Management Instrumentation]","IWbemConfigureRefresher interface","IWbemConfigureRefresher interface [Windows Management Instrumentation]","AddObjectByPath method","IWbemConfigureRefresher.AddObjectByPath","IWbemConfigureRefresher::AddObjectByPath","_hmm_iwbemconfigurerefresher_addobjectbypath","wbemcli/IWbemConfigureRefresher::AddObjectByPath","wmi.iwbemconfigurerefresher_addobjectbypath"]
+description: The IWbemConfigureRefresher::AddObjectByPath method adds an object to a refresher by specifying an object path.
+helpviewer_keywords: ["AddObjectByPath","AddObjectByPath method [Windows Management Instrumentation]","AddObjectByPath method [Windows Management Instrumentation]","IWbemConfigureRefresher interface","IWbemConfigureRefresher interface [Windows Management Instrumentation]","AddObjectByPath method","IWbemConfigureRefresher.AddObjectByPath","IWbemConfigureRefresher::AddObjectByPath","_hmm_iwbemconfigurerefresher_addobjectbypath","wbemcli/IWbemConfigureRefresher::AddObjectByPath","wmi.iwbemconfigurerefresher_addobjectbypath"]
 old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm
 tech.root: WmiSdk
 ms.assetid: 85721e0c-863b-45af-91ca-8ee14af37181

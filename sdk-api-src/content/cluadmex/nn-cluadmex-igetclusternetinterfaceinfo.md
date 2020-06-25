@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IGetClusterNetInterfaceInfo
 title: IGetClusterNetInterfaceInfo (cluadmex.h)
-description: The IGetClusterNetInterfaceInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a network interface.helpviewer_keywords: ["IGetClusterNetInterfaceInfo","IGetClusterNetInterfaceInfo interface [Failover Cluster]","IGetClusterNetInterfaceInfo interface [Failover Cluster]","described","_wolf_igetclusternetinterfaceinfo","cluadmex/IGetClusterNetInterfaceInfo","mscs.igetclusternetinterfaceinfo"]
+description: The IGetClusterNetInterfaceInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a network interface.
+helpviewer_keywords: ["IGetClusterNetInterfaceInfo","IGetClusterNetInterfaceInfo interface [Failover Cluster]","IGetClusterNetInterfaceInfo interface [Failover Cluster]","described","_wolf_igetclusternetinterfaceinfo","cluadmex/IGetClusterNetInterfaceInfo","mscs.igetclusternetinterfaceinfo"]
 old-location: mscs\igetclusternetinterfaceinfo.htm
 tech.root: MsCS
 ms.assetid: c7a0ee81-e263-4a2d-a0e5-18d3a4ad0d79

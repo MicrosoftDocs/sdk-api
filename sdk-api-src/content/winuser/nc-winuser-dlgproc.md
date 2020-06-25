@@ -1,7 +1,8 @@
 ---
 UID: NC:winuser.DLGPROC
 title: DLGPROC (winuser.h)
-description: Application-defined callback function used with the CreateDialog and DialogBox families of functions.helpviewer_keywords: ["DLGPROC","DLGPROC callback","DLGPROC callback function [Dialog Boxes]","_win32_DialogProc","_win32_dialogproc_cpp","dlgbox.dialogproc","winui._win32_dialogproc","winuser/DLGPROC"]
+description: Application-defined callback function used with the CreateDialog and DialogBox families of functions.
+helpviewer_keywords: ["DLGPROC","DLGPROC callback","DLGPROC callback function [Dialog Boxes]","_win32_DialogProc","_win32_dialogproc_cpp","dlgbox.dialogproc","winui._win32_dialogproc","winuser/DLGPROC"]
 old-location: dlgbox\dialogproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogproc.htm

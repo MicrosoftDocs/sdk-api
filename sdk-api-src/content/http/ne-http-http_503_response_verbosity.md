@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_503_RESPONSE_VERBOSITY
 title: HTTP_503_RESPONSE_VERBOSITY (http.h)
-description: The HTTP_503_RESPONSE_VERBOSITY enumeration defines the verbosity levels for a 503, service unavailable, error responses.This structure must be used when setting or querying the HttpServer503ResponseProperty on a request queue.helpviewer_keywords: ["*PHTTP_503_RESPONSE_VERBOSITY","*PHTTP_503_RESPONSE_VERBOSITY enumeration [HTTP]","HTTP_503_RESPONSE_VERBOSITY","HTTP_503_RESPONSE_VERBOSITY enumeration [HTTP]","Http503ResponseVerbosityBasic","Http503ResponseVerbosityFull","Http503ResponseVerbosityLimited","http.http_503_response_verbosity","http/*PHTTP_503_RESPONSE_VERBOSITY","http/HTTP_503_RESPONSE_VERBOSITY","http/Http503ResponseVerbosityBasic","http/Http503ResponseVerbosityFull","http/Http503ResponseVerbosityLimited"]
+description: The HTTP_503_RESPONSE_VERBOSITY enumeration defines the verbosity levels for a 503, service unavailable, error responses.This structure must be used when setting or querying the HttpServer503ResponseProperty on a request queue.
+helpviewer_keywords: ["*PHTTP_503_RESPONSE_VERBOSITY","*PHTTP_503_RESPONSE_VERBOSITY enumeration [HTTP]","HTTP_503_RESPONSE_VERBOSITY","HTTP_503_RESPONSE_VERBOSITY enumeration [HTTP]","Http503ResponseVerbosityBasic","Http503ResponseVerbosityFull","Http503ResponseVerbosityLimited","http.http_503_response_verbosity","http/*PHTTP_503_RESPONSE_VERBOSITY","http/HTTP_503_RESPONSE_VERBOSITY","http/Http503ResponseVerbosityBasic","http/Http503ResponseVerbosityFull","http/Http503ResponseVerbosityLimited"]
 old-location: http\http_503_response_verbosity.htm
 tech.root: http
 ms.assetid: e103bdf4-dc48-45ba-84dc-4161310ee3ff

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetDpiY
 title: MetafileHeader::GetDpiY (gdiplusmetaheader.h)
-description: The MetafileHeader::GetDpiY method gets the vertical dots per inch of the associated metafile.helpviewer_keywords: ["GetDpiY","GetDpiY method [GDI+]","GetDpiY method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetDpiY method","MetafileHeader.GetDpiY","MetafileHeader::GetDpiY","_gdiplus_CLASS_MetafileHeader_GetDpiY_","gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiY_"]
+description: The MetafileHeader::GetDpiY method gets the vertical dots per inch of the associated metafile.
+helpviewer_keywords: ["GetDpiY","GetDpiY method [GDI+]","GetDpiY method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetDpiY method","MetafileHeader.GetDpiY","MetafileHeader::GetDpiY","_gdiplus_CLASS_MetafileHeader_GetDpiY_","gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiY_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiY_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpiy_82.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.PeekMessageA
 title: PeekMessageA function (winuser.h)
-description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).helpviewer_keywords: ["PM_NOREMOVE","PM_NOYIELD","PM_QS_INPUT","PM_QS_PAINT","PM_QS_POSTMESSAGE","PM_QS_SENDMESSAGE","PM_REMOVE","PeekMessage","PeekMessage function [Windows and Messages]","PeekMessageA","PeekMessageW","_win32_PeekMessage","_win32_peekmessage_cpp","winmsg.peekmessage","winui._win32_peekmessage","winuser/PeekMessage","winuser/PeekMessageA","winuser/PeekMessageW"]
+description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
+helpviewer_keywords: ["PM_NOREMOVE","PM_NOYIELD","PM_QS_INPUT","PM_QS_PAINT","PM_QS_POSTMESSAGE","PM_QS_SENDMESSAGE","PM_REMOVE","PeekMessage","PeekMessage function [Windows and Messages]","PeekMessageA","PeekMessageW","_win32_PeekMessage","_win32_peekmessage_cpp","winmsg.peekmessage","winui._win32_peekmessage","winuser/PeekMessage","winuser/PeekMessageA","winuser/PeekMessageW"]
 old-location: winmsg\peekmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\peekmessage.htm
@@ -263,6 +264,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines PeekMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

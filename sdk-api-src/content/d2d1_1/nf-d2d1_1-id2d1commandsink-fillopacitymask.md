@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillOpacityMask
 title: ID2D1CommandSink::FillOpacityMask (d2d1_1.h)
-description: Fills an opacity mask on the command sink.helpviewer_keywords: ["FillOpacityMask","FillOpacityMask method [Direct2D]","FillOpacityMask method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","FillOpacityMask method","ID2D1CommandSink.FillOpacityMask","ID2D1CommandSink::FillOpacityMask","d2d1_1/ID2D1CommandSink::FillOpacityMask","direct2d.id2d1commandsink_fillopacitymask"]
+description: Fills an opacity mask on the command sink.
+helpviewer_keywords: ["FillOpacityMask","FillOpacityMask method [Direct2D]","FillOpacityMask method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","FillOpacityMask method","ID2D1CommandSink.FillOpacityMask","ID2D1CommandSink::FillOpacityMask","d2d1_1/ID2D1CommandSink::FillOpacityMask","direct2d.id2d1commandsink_fillopacitymask"]
 old-location: direct2d\id2d1commandsink_fillopacitymask.htm
 tech.root: Direct2D
 ms.assetid: c125b2db-0786-4bda-b31f-de05ba72afa1

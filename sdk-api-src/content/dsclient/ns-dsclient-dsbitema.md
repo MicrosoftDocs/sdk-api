@@ -1,7 +1,8 @@
 ---
 UID: NS:dsclient.__unnamed_struct_8
 title: DSBITEMA (dsclient.h)
-description: Contains data about an item in the Active Directory container browser dialog box.helpviewer_keywords: ["*PDSBITEMA","DSBF_DISPLAYNAME","DSBF_ICONLOCATION","DSBF_STATE","DSBITEM","DSBITEM structure [Active Directory]","DSBITEMA","DSBITEMW","DSBS_CHECKED","DSBS_HIDDEN","DSBS_ROOT","PDSBITEM","PDSBITEM structure pointer [Active Directory]","_glines_dsbitem","ad.dsbitem","dsclient/DSBITEM","dsclient/DSBITEMA","dsclient/DSBITEMW","dsclient/PDSBITEM"]
+description: Contains data about an item in the Active Directory container browser dialog box.
+helpviewer_keywords: ["*PDSBITEMA","DSBF_DISPLAYNAME","DSBF_ICONLOCATION","DSBF_STATE","DSBITEM","DSBITEM structure [Active Directory]","DSBITEMA","DSBITEMW","DSBS_CHECKED","DSBS_HIDDEN","DSBS_ROOT","PDSBITEM","PDSBITEM structure pointer [Active Directory]","_glines_dsbitem","ad.dsbitem","dsclient/DSBITEM","dsclient/DSBITEMA","dsclient/DSBITEMW","dsclient/PDSBITEM"]
 old-location: ad\dsbitem.htm
 tech.root: ad
 ms.assetid: 580b8aea-8411-41de-a2d9-1c3e3b35dd5a
@@ -177,4 +178,9 @@ Contains the zero-based index of the icon to display for the item.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The dsclient.h header defines DSBITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

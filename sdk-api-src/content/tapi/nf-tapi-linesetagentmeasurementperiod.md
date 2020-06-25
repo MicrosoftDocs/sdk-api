@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetAgentMeasurementPeriod
 title: lineSetAgentMeasurementPeriod function (tapi.h)
-description: The lineSetAgentMeasurementPeriod function sets the measurement period associated with a particular agent.helpviewer_keywords: ["_tapi2_linesetagentmeasurementperiod","lineSetAgentMeasurementPeriod","lineSetAgentMeasurementPeriod function [TAPI 2.2]","tapi/lineSetAgentMeasurementPeriod","tapi2.linesetagentmeasurementperiod"]
+description: The lineSetAgentMeasurementPeriod function sets the measurement period associated with a particular agent.
+helpviewer_keywords: ["_tapi2_linesetagentmeasurementperiod","lineSetAgentMeasurementPeriod","lineSetAgentMeasurementPeriod function [TAPI 2.2]","tapi/lineSetAgentMeasurementPeriod","tapi2.linesetagentmeasurementperiod"]
 old-location: tapi2\linesetagentmeasurementperiod.htm
 tech.root: Tapi
 ms.assetid: bb84f18f-0052-45f8-8049-8576e1eb6fef

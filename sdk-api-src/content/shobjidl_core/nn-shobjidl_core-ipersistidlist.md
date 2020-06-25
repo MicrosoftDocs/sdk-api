@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IPersistIDList
 title: IPersistIDList (shobjidl_core.h)
-description: Exposes methods that are used to persist item identifier lists.helpviewer_keywords: ["IPersistIDList","IPersistIDList interface [Windows Shell]","IPersistIDList interface [Windows Shell]","described","inet_IPersistIDList","shell.IPersistIDList","shobjidl_core/IPersistIDList"]
+description: Exposes methods that are used to persist item identifier lists.
+helpviewer_keywords: ["IPersistIDList","IPersistIDList interface [Windows Shell]","IPersistIDList interface [Windows Shell]","described","inet_IPersistIDList","shell.IPersistIDList","shobjidl_core/IPersistIDList"]
 old-location: shell\IPersistIDList.htm
 tech.root: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81

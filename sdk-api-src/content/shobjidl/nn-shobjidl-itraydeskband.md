@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.ITrayDeskBand
 title: ITrayDeskBand (shobjidl.h)
-description: Exposes methods that show, hide, and query deskbands.helpviewer_keywords: ["ITrayDeskBand","ITrayDeskBand interface [Windows Shell]","ITrayDeskBand interface [Windows Shell]","described","_shell_ITrayDeskBand","shell.ITrayDeskBand","shobjidl/ITrayDeskBand"]
+description: Exposes methods that show, hide, and query deskbands.
+helpviewer_keywords: ["ITrayDeskBand","ITrayDeskBand interface [Windows Shell]","ITrayDeskBand interface [Windows Shell]","described","_shell_ITrayDeskBand","shell.ITrayDeskBand","shobjidl/ITrayDeskBand"]
 old-location: shell\ITrayDeskBand.htm
 tech.root: shell
 ms.assetid: 4542bd20-b7ca-4ab9-9c25-9f6eeabd7c2e

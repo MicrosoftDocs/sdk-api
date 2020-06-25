@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_CCCounter
 title: IMSVidStreamBufferSink3::get_CCCounter (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_CCCounter method","IMSVidStreamBufferSink3.get_CCCounter","IMSVidStreamBufferSink3::get_CCCounter","IMSVidStreamBufferSink3get_CCCounter","get_CCCounter","get_CCCounter method [Microsoft TV Technologies]","get_CCCounter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_cccounter","segment/IMSVidStreamBufferSink3::get_CCCounter"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_CCCounter method","IMSVidStreamBufferSink3.get_CCCounter","IMSVidStreamBufferSink3::get_CCCounter","IMSVidStreamBufferSink3get_CCCounter","get_CCCounter","get_CCCounter method [Microsoft TV Technologies]","get_CCCounter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_cccounter","segment/IMSVidStreamBufferSink3::get_CCCounter"]
 old-location: mstv\imsvidstreambuffersink3_get_cccounter.htm
 tech.root: mstv
 ms.assetid: 76c3e3e5-521a-40d3-98b9-c5a757fc2bec

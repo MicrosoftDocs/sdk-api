@@ -1,7 +1,8 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCacheCallBack.ScanProgress
 title: IEmptyVolumeCacheCallBack::ScanProgress (emptyvc.h)
-description: Called by a disk cleanup handler to update the disk cleanup manager on the progress of a scan for deletable files.helpviewer_keywords: ["EVCCBF_LASTNOTIFICATION","IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features]","ScanProgress method","IEmptyVolumeCacheCallBack.ScanProgress","IEmptyVolumeCacheCallBack::ScanProgress","ScanProgress","ScanProgress method [Legacy Windows Environment Features]","ScanProgress method [Legacy Windows Environment Features]","IEmptyVolumeCacheCallBack interface","_win32_IEmptyVolumeCacheCallBack_ScanProgress","emptyvc/IEmptyVolumeCacheCallBack::ScanProgress","lwef.iemptyvolumecachecallback_scanprogress","shell.iemptyvolumecachecallback_scanprogress"]
+description: Called by a disk cleanup handler to update the disk cleanup manager on the progress of a scan for deletable files.
+helpviewer_keywords: ["EVCCBF_LASTNOTIFICATION","IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features]","ScanProgress method","IEmptyVolumeCacheCallBack.ScanProgress","IEmptyVolumeCacheCallBack::ScanProgress","ScanProgress","ScanProgress method [Legacy Windows Environment Features]","ScanProgress method [Legacy Windows Environment Features]","IEmptyVolumeCacheCallBack interface","_win32_IEmptyVolumeCacheCallBack_ScanProgress","emptyvc/IEmptyVolumeCacheCallBack::ScanProgress","lwef.iemptyvolumecachecallback_scanprogress","shell.iemptyvolumecachecallback_scanprogress"]
 old-location: lwef\iemptyvolumecachecallback_scanprogress.htm
 tech.root: lwef
 ms.assetid: 41ebc9db-d402-47d7-b303-f87357ae820d

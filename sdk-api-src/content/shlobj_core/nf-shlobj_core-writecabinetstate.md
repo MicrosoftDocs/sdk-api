@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.WriteCabinetState
 title: WriteCabinetState function (shlobj_core.h)
-description: WriteCabinetState may be altered or unavailable.helpviewer_keywords: ["WriteCabinetState","WriteCabinetState function [Windows Shell]","_win32_WriteCabinetState","shell.WriteCabinetState","shlobj_core/WriteCabinetState"]
+description: WriteCabinetState may be altered or unavailable.
+helpviewer_keywords: ["WriteCabinetState","WriteCabinetState function [Windows Shell]","_win32_WriteCabinetState","shell.WriteCabinetState","shlobj_core/WriteCabinetState"]
 old-location: shell\WriteCabinetState.htm
 tech.root: shell
 ms.assetid: cbd08812-eedc-4ba7-827e-1e5d1e3e6368

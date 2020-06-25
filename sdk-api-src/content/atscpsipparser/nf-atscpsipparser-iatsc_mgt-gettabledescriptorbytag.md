@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetTableDescriptorByTag
 title: IATSC_MGT::GetTableDescriptorByTag (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","IATSC_MGT.GetTableDescriptorByTag","IATSC_MGT::GetTableDescriptorByTag","IATSC_MGTGetTableDescriptorByTag","atscpsipparser/IATSC_MGT::GetTableDescriptorByTag","mstv.iatsc_mgt_gettabledescriptorbytag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","IATSC_MGT.GetTableDescriptorByTag","IATSC_MGT::GetTableDescriptorByTag","IATSC_MGTGetTableDescriptorByTag","atscpsipparser/IATSC_MGT::GetTableDescriptorByTag","mstv.iatsc_mgt_gettabledescriptorbytag"]
 old-location: mstv\iatsc_mgt_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 0fd12c9b-fa63-4463-a8ef-a4c38e008d65

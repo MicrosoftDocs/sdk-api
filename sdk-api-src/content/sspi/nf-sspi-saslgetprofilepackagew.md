@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.SaslGetProfilePackageW
 title: SaslGetProfilePackageW function (sspi.h)
-description: Returns the package information for the specified package.helpviewer_keywords: ["SaslGetProfilePackage","SaslGetProfilePackage function [Security]","SaslGetProfilePackageA","SaslGetProfilePackageW","security.saslgetprofilepackage","sspi/SaslGetProfilePackage","sspi/SaslGetProfilePackageA","sspi/SaslGetProfilePackageW"]
+description: Returns the package information for the specified package.
+helpviewer_keywords: ["SaslGetProfilePackage","SaslGetProfilePackage function [Security]","SaslGetProfilePackageA","SaslGetProfilePackageW","security.saslgetprofilepackage","sspi/SaslGetProfilePackage","sspi/SaslGetProfilePackageA","sspi/SaslGetProfilePackageW"]
 old-location: security\saslgetprofilepackage.htm
 tech.root: SecAuthN
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
@@ -106,4 +107,9 @@ Memory could not be allocated for the <a href="https://docs.microsoft.com/window
  
 
 
+
+## -remarks
+
+> [!NOTE]
+> The sspi.h header defines SaslGetProfilePackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

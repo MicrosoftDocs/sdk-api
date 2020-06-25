@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR4FromI1
 title: VarR4FromI1 function (oleauto.h)
-description: Onverts a char value to a float value.helpviewer_keywords: ["VarR4FromI1","VarR4FromI1 function [Automation]","_oa96_VarR4FromI1","automat.varr4fromi1","oleauto/VarR4FromI1"]
+description: Onverts a char value to a float value.
+helpviewer_keywords: ["VarR4FromI1","VarR4FromI1 function [Automation]","_oa96_VarR4FromI1","automat.varr4fromi1","oleauto/VarR4FromI1"]
 old-location: automat\varr4fromi1.htm
 tech.root: automat
 ms.assetid: a8996080-98a7-439d-a300-3fd3930872fb

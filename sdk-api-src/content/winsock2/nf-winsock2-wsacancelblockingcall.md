@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSACancelBlockingCall
 title: WSACancelBlockingCall function (winsock2.h)
-description: The WSACancelBlockingCall function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.helpviewer_keywords: ["WSACancelBlockingCall","WSACancelBlockingCall function [Winsock]","_win32_wsacancelblockingcall_2","winsock.wsacancelblockingcall_2","winsock2/WSACancelBlockingCall"]
+description: The WSACancelBlockingCall function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
+helpviewer_keywords: ["WSACancelBlockingCall","WSACancelBlockingCall function [Winsock]","_win32_wsacancelblockingcall_2","winsock.wsacancelblockingcall_2","winsock2/WSACancelBlockingCall"]
 old-location: winsock\wsacancelblockingcall_2.htm
 tech.root: WinSock
 ms.assetid: b3597d29-51a5-410f-9925-4d678dd641c1

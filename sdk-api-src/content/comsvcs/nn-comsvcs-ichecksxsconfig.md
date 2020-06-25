@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ICheckSxsConfig
 title: ICheckSxsConfig (comsvcs.h)
-description: Used to check the configuration of the current side-by-side assembly.helpviewer_keywords: ["ICheckSxSConfig","ICheckSxSConfig interface [COM+]","ICheckSxSConfig interface [COM+]","described","_cos_ICheckSxsConfig","comsvcs/ICheckSxSConfig","cos.ichecksxsconfig"]
+description: Used to check the configuration of the current side-by-side assembly.
+helpviewer_keywords: ["ICheckSxSConfig","ICheckSxSConfig interface [COM+]","ICheckSxSConfig interface [COM+]","described","_cos_ICheckSxsConfig","comsvcs/ICheckSxSConfig","cos.ichecksxsconfig"]
 old-location: cos\ichecksxsconfig.htm
 tech.root: cossdk
 ms.assetid: 34c97d61-694e-4ee3-92ed-55b0a787b747

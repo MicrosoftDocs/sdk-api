@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerIdentityDelete
 title: PeerIdentityDelete function (p2p.h)
-description: The PeerIdentityDelete function permanently deletes a peer identity. This includes removing all certificates, private keys, and all group information associated with a specified peer identity.helpviewer_keywords: ["PeerIdentityDelete","PeerIdentityDelete function [Peer Networking]","p2p.peeridentitydelete","p2p/PeerIdentityDelete"]
+description: The PeerIdentityDelete function permanently deletes a peer identity. This includes removing all certificates, private keys, and all group information associated with a specified peer identity.
+helpviewer_keywords: ["PeerIdentityDelete","PeerIdentityDelete function [Peer Networking]","p2p.peeridentitydelete","p2p/PeerIdentityDelete"]
 old-location: p2p\peeridentitydelete.htm
 tech.root: P2PSdk
 ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03

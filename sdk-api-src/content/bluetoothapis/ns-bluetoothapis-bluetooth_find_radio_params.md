@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_FIND_RADIO_PARAMS
 title: BLUETOOTH_FIND_RADIO_PARAMS (bluetoothapis.h)
-description: The BLUETOOTH_FIND_RADIO_PARAMS structure facilitates enumerating installed Bluetooth radios.helpviewer_keywords: ["BLUETOOTH_FIND_RADIO_PARAMS","BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth]","bluetooth.bluetooth_find_radio_params","bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS"]
+description: The BLUETOOTH_FIND_RADIO_PARAMS structure facilitates enumerating installed Bluetooth radios.
+helpviewer_keywords: ["BLUETOOTH_FIND_RADIO_PARAMS","BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth]","bluetooth.bluetooth_find_radio_params","bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS"]
 old-location: bluetooth\bluetooth_find_radio_params.htm
 tech.root: bluetooth
 ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac

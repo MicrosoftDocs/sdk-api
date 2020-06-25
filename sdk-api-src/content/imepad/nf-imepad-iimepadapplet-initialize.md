@@ -1,7 +1,8 @@
 ---
 UID: NF:imepad.IImePadApplet.Initialize
 title: IImePadApplet::Initialize (imepad.h)
-description: Called from IImePad interface to initialize IImePadApplet.helpviewer_keywords: ["IImePadApplet interface [Internationalization for Windows Applications]","Initialize method","IImePadApplet.Initialize","IImePadApplet::Initialize","Initialize","Initialize method [Internationalization for Windows Applications]","Initialize method [Internationalization for Windows Applications]","IImePadApplet interface","imepad/IImePadApplet::Initialize","intl.iimepadapplet_initialize"]
+description: Called from IImePad interface to initialize IImePadApplet.
+helpviewer_keywords: ["IImePadApplet interface [Internationalization for Windows Applications]","Initialize method","IImePadApplet.Initialize","IImePadApplet::Initialize","Initialize","Initialize method [Internationalization for Windows Applications]","Initialize method [Internationalization for Windows Applications]","IImePadApplet interface","imepad/IImePadApplet::Initialize","intl.iimepadapplet_initialize"]
 old-location: intl\iimepadapplet_initialize.htm
 tech.root: Intl
 ms.assetid: E76FF3FC-717F-42B8-AC5E-45D5527882A7

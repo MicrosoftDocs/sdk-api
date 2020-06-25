@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_PFramesPerKeyFrame
 title: IAMVideoCompression::put_PFramesPerKeyFrame (strmif.h)
-description: The put_PFramesPerKeyFrame method sets the rate of predicted (P) frames per key frame.helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","put_PFramesPerKeyFrame method","IAMVideoCompression.put_PFramesPerKeyFrame","IAMVideoCompression::put_PFramesPerKeyFrame","IAMVideoCompressionput_PFramesPerKeyFrame","dshow.iamvideocompression_put_pframesperkeyframe","put_PFramesPerKeyFrame","put_PFramesPerKeyFrame method [DirectShow]","put_PFramesPerKeyFrame method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::put_PFramesPerKeyFrame"]
+description: The put_PFramesPerKeyFrame method sets the rate of predicted (P) frames per key frame.
+helpviewer_keywords: ["IAMVideoCompression interface [DirectShow]","put_PFramesPerKeyFrame method","IAMVideoCompression.put_PFramesPerKeyFrame","IAMVideoCompression::put_PFramesPerKeyFrame","IAMVideoCompressionput_PFramesPerKeyFrame","dshow.iamvideocompression_put_pframesperkeyframe","put_PFramesPerKeyFrame","put_PFramesPerKeyFrame method [DirectShow]","put_PFramesPerKeyFrame method [DirectShow]","IAMVideoCompression interface","strmif/IAMVideoCompression::put_PFramesPerKeyFrame"]
 old-location: dshow\iamvideocompression_put_pframesperkeyframe.htm
 tech.root: DirectShow
 ms.assetid: bf1dfc28-a6c7-4c0d-96ea-8cf417b13a10

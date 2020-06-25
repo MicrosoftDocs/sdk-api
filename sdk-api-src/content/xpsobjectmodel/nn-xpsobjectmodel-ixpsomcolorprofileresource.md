@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResource
 title: IXpsOMColorProfileResource (xpsobjectmodel.h)
-description: Provides an IStream interface to a color profile resource.helpviewer_keywords: ["IXpsOMColorProfileResource","IXpsOMColorProfileResource interface [XPS Documents and Packaging]","IXpsOMColorProfileResource interface [XPS Documents and Packaging]","described","xps.ixpsomcolorprofileresource","xpsobjectmodel/IXpsOMColorProfileResource"]
+description: Provides an IStream interface to a color profile resource.
+helpviewer_keywords: ["IXpsOMColorProfileResource","IXpsOMColorProfileResource interface [XPS Documents and Packaging]","IXpsOMColorProfileResource interface [XPS Documents and Packaging]","described","xps.ixpsomcolorprofileresource","xpsobjectmodel/IXpsOMColorProfileResource"]
 old-location: xps\ixpsomcolorprofileresource.htm
 tech.root: printdocs
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094

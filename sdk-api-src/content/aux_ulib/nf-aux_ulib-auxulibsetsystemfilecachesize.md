@@ -1,7 +1,8 @@
 ---
 UID: NF:aux_ulib.AuxUlibSetSystemFileCacheSize
 title: AuxUlibSetSystemFileCacheSize function (aux_ulib.h)
-description: Sets the current file system cache size.helpviewer_keywords: ["AuxUlibSetSystemFileCacheSize","AuxUlibSetSystemFileCacheSize function [Windows API]","aux_ulib/AuxUlibSetSystemFileCacheSize","winprog.auxulibsetsystemfilecachesize_func"]
+description: Sets the current file system cache size.
+helpviewer_keywords: ["AuxUlibSetSystemFileCacheSize","AuxUlibSetSystemFileCacheSize function [Windows API]","aux_ulib/AuxUlibSetSystemFileCacheSize","winprog.auxulibsetsystemfilecachesize_func"]
 old-location: winprog\auxulibsetsystemfilecachesize_func.htm
 tech.root: DevNotes
 ms.assetid: 2a6ee33e-91dc-4f6d-bdb7-a93b7478b58e

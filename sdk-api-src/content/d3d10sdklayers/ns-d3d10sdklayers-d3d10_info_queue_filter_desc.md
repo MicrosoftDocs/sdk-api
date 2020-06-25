@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10sdklayers.D3D10_INFO_QUEUE_FILTER_DESC
 title: D3D10_INFO_QUEUE_FILTER_DESC (d3d10sdklayers.h)
-description: Allow or deny certain types of messages to pass through a filter.helpviewer_keywords: ["D3D10_INFO_QUEUE_FILTER_DESC","D3D10_INFO_QUEUE_FILTER_DESC structure [Direct3D 10]","c1c85d13-4bf9-82eb-a98e-d91a114dee29","d3d10sdklayers/D3D10_INFO_QUEUE_FILTER_DESC","direct3d10.d3d10_info_queue_filter_desc"]
+description: Allow or deny certain types of messages to pass through a filter.
+helpviewer_keywords: ["D3D10_INFO_QUEUE_FILTER_DESC","D3D10_INFO_QUEUE_FILTER_DESC structure [Direct3D 10]","c1c85d13-4bf9-82eb-a98e-d91a114dee29","d3d10sdklayers/D3D10_INFO_QUEUE_FILTER_DESC","direct3d10.d3d10_info_queue_filter_desc"]
 old-location: direct3d10\d3d10_info_queue_filter_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_info_queue_filter_desc.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.get_Count
 title: IDataCollectorSetCollection::get_Count (pla.h)
-description: Retrieves the number of data collector sets in the collection.helpviewer_keywords: ["Count property [PLA]","Count property [PLA]","IDataCollectorSetCollection interface","IDataCollectorSetCollection interface [PLA]","Count property","IDataCollectorSetCollection.Count","IDataCollectorSetCollection.get_Count","IDataCollectorSetCollection::Count","IDataCollectorSetCollection::get_Count","base.idatacollectorsetcollection_count","get_Count","pla.idatacollectorsetcollection_count","pla/IDataCollectorSetCollection::Count","pla/IDataCollectorSetCollection::get_Count"]
+description: Retrieves the number of data collector sets in the collection.
+helpviewer_keywords: ["Count property [PLA]","Count property [PLA]","IDataCollectorSetCollection interface","IDataCollectorSetCollection interface [PLA]","Count property","IDataCollectorSetCollection.Count","IDataCollectorSetCollection.get_Count","IDataCollectorSetCollection::Count","IDataCollectorSetCollection::get_Count","base.idatacollectorsetcollection_count","get_Count","pla.idatacollectorsetcollection_count","pla/IDataCollectorSetCollection::Count","pla/IDataCollectorSetCollection::get_Count"]
 old-location: pla\idatacollectorsetcollection_count.htm
 tech.root: PLA
 ms.assetid: b43f7cc5-9780-4ae7-b542-7ca887f09087

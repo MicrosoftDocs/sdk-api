@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminConnectionClearStats
 title: MprAdminConnectionClearStats function (mprapi.h)
-description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.helpviewer_keywords: ["MprAdminConnectionClearStats","MprAdminConnectionClearStats function [RAS]","_mpr_mpradminconnectionclearstats","mprapi/MprAdminConnectionClearStats","rras.mpradminconnectionclearstats"]
+description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
+helpviewer_keywords: ["MprAdminConnectionClearStats","MprAdminConnectionClearStats function [RAS]","_mpr_mpradminconnectionclearstats","mprapi/MprAdminConnectionClearStats","rras.mpradminconnectionclearstats"]
 old-location: rras\mpradminconnectionclearstats.htm
 tech.root: RRAS
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622

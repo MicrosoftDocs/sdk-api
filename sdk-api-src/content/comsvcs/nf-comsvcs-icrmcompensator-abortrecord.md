@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.AbortRecord
 title: ICrmCompensator::AbortRecord (comsvcs.h)
-description: Delivers a log record to the CRM Compensator during the abort phase.helpviewer_keywords: ["AbortRecord","AbortRecord method [COM+]","AbortRecord method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","AbortRecord method","ICrmCompensator.AbortRecord","ICrmCompensator::AbortRecord","_dtc_ICrmCompensator_AbortRecord","comsvcs/ICrmCompensator::AbortRecord","cos.icrmcompensator_abortrecord"]
+description: Delivers a log record to the CRM Compensator during the abort phase.
+helpviewer_keywords: ["AbortRecord","AbortRecord method [COM+]","AbortRecord method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","AbortRecord method","ICrmCompensator.AbortRecord","ICrmCompensator::AbortRecord","_dtc_ICrmCompensator_AbortRecord","comsvcs/ICrmCompensator::AbortRecord","cos.icrmcompensator_abortrecord"]
 old-location: cos\icrmcompensator_abortrecord.htm
 tech.root: cossdk
 ms.assetid: 79dcf391-7ec9-4c9c-9f91-0e806d7c278c

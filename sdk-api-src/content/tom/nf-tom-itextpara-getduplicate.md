@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetDuplicate
 title: ITextPara::GetDuplicate (tom.h)
-description: Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an ITextPara object.helpviewer_keywords: ["GetDuplicate","GetDuplicate method [Windows Controls]","GetDuplicate method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetDuplicate method","ITextPara.GetDuplicate","ITextPara::GetDuplicate","_win32_ITextPara_GetDuplicate","_win32_ITextPara_GetDuplicate_cpp","controls.ITextPara_GetDuplicate","controls._win32_ITextPara_GetDuplicate","tom/ITextPara::GetDuplicate"]
+description: Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an ITextPara object.
+helpviewer_keywords: ["GetDuplicate","GetDuplicate method [Windows Controls]","GetDuplicate method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetDuplicate method","ITextPara.GetDuplicate","ITextPara::GetDuplicate","_win32_ITextPara_GetDuplicate","_win32_ITextPara_GetDuplicate_cpp","controls.ITextPara_GetDuplicate","controls._win32_ITextPara_GetDuplicate","tom/ITextPara::GetDuplicate"]
 old-location: controls\ITextPara_GetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetduplicate.htm

@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluscolor.Color
 title: Color (gdipluscolor.h)
-description: A Color object stores a 32-bit value that represents a color.helpviewer_keywords: ["Color","Color class [GDI+]","Color class [GDI+]","described","_gdiplus_CLASS_Color_Class","gdiplus._gdiplus_CLASS_Color_Class","gdipluscolor/Color"]
+description: A Color object stores a 32-bit value that represents a color.
+helpviewer_keywords: ["Color","Color class [GDI+]","Color class [GDI+]","described","_gdiplus_CLASS_Color_Class","gdiplus._gdiplus_CLASS_Color_Class","gdipluscolor/Color"]
 old-location: gdiplus\_gdiplus_CLASS_Color_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\color.htm

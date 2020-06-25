@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwService.get_GloballyOpenPorts
 title: INetFwService::get_GloballyOpenPorts (netfw.h)
-description: Retrieves the collection of globally open ports associated with the service.helpviewer_keywords: ["GloballyOpenPorts property [ICS/ICF]","GloballyOpenPorts property [ICS/ICF]","INetFwService interface","INetFwService interface [ICS/ICF]","GloballyOpenPorts property","INetFwService.GloballyOpenPorts","INetFwService.get_GloballyOpenPorts","INetFwService::GloballyOpenPorts","INetFwService::get_GloballyOpenPorts","get_GloballyOpenPorts","ics.inetfwservice_globallyopenports","netfw/INetFwService::GloballyOpenPorts","netfw/INetFwService::get_GloballyOpenPorts"]
+description: Retrieves the collection of globally open ports associated with the service.
+helpviewer_keywords: ["GloballyOpenPorts property [ICS/ICF]","GloballyOpenPorts property [ICS/ICF]","INetFwService interface","INetFwService interface [ICS/ICF]","GloballyOpenPorts property","INetFwService.GloballyOpenPorts","INetFwService.get_GloballyOpenPorts","INetFwService::GloballyOpenPorts","INetFwService::get_GloballyOpenPorts","get_GloballyOpenPorts","ics.inetfwservice_globallyopenports","netfw/INetFwService::GloballyOpenPorts","netfw/INetFwService::get_GloballyOpenPorts"]
 old-location: ics\inetfwservice_globallyopenports.htm
 tech.root: ics
 ms.assetid: 51f0440f-6e0c-48b2-9dc0-bec503192fa1

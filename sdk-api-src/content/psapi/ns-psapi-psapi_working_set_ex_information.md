@@ -1,7 +1,8 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_EX_INFORMATION
 title: PSAPI_WORKING_SET_EX_INFORMATION (psapi.h)
-description: Contains extended working set information for a process.helpviewer_keywords: ["*PPSAPI_WORKING_SET_EX_INFORMATION","PPSAPI_WORKING_SET_EX_INFORMATION","PPSAPI_WORKING_SET_EX_INFORMATION structure pointer [PSAPI]","PSAPI_WORKING_SET_EX_INFORMATION","PSAPI_WORKING_SET_EX_INFORMATION structure [PSAPI]","base.psapi_working_set_ex_information","psapi.psapi_working_set_ex_information","psapi/PPSAPI_WORKING_SET_EX_INFORMATION","psapi/PSAPI_WORKING_SET_EX_INFORMATION"]
+description: Contains extended working set information for a process.
+helpviewer_keywords: ["*PPSAPI_WORKING_SET_EX_INFORMATION","PPSAPI_WORKING_SET_EX_INFORMATION","PPSAPI_WORKING_SET_EX_INFORMATION structure pointer [PSAPI]","PSAPI_WORKING_SET_EX_INFORMATION","PSAPI_WORKING_SET_EX_INFORMATION structure [PSAPI]","base.psapi_working_set_ex_information","psapi.psapi_working_set_ex_information","psapi/PPSAPI_WORKING_SET_EX_INFORMATION","psapi/PSAPI_WORKING_SET_EX_INFORMATION"]
 old-location: psapi\psapi_working_set_ex_information.htm
 tech.root: psapi
 ms.assetid: d3500737-b9af-41a8-bf69-61d0bfbd6ce4

@@ -1,7 +1,8 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionServiceCallback.onComplete
 title: IWMPSubscriptionServiceCallback::onComplete (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The onComplete method notifies Windows Media Player when a background process is completed.helpviewer_keywords: ["IWMPSubscriptionServiceCallback interface [Windows Media Player]","onComplete method","IWMPSubscriptionServiceCallback.onComplete","IWMPSubscriptionServiceCallback::onComplete","IWMPSubscriptionServiceCallbackonComplete","onComplete","onComplete method [Windows Media Player]","onComplete method [Windows Media Player]","IWMPSubscriptionServiceCallback interface","subscriptionservices/IWMPSubscriptionServiceCallback::onComplete","wmp.iwmpsubscriptionservicecallback_oncomplete"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The onComplete method notifies Windows Media Player when a background process is completed.
+helpviewer_keywords: ["IWMPSubscriptionServiceCallback interface [Windows Media Player]","onComplete method","IWMPSubscriptionServiceCallback.onComplete","IWMPSubscriptionServiceCallback::onComplete","IWMPSubscriptionServiceCallbackonComplete","onComplete","onComplete method [Windows Media Player]","onComplete method [Windows Media Player]","IWMPSubscriptionServiceCallback interface","subscriptionservices/IWMPSubscriptionServiceCallback::onComplete","wmp.iwmpsubscriptionservicecallback_oncomplete"]
 old-location: wmp\iwmpsubscriptionservicecallback_oncomplete.htm
 tech.root: WMP
 ms.assetid: 1a6775b5-a909-49b1-98e8-ccc110294df6

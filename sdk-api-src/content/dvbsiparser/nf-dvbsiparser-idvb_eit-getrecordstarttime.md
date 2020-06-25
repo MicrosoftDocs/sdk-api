@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordStartTime
 title: IDVB_EIT::GetRecordStartTime (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordStartTime","GetRecordStartTime method [Microsoft TV Technologies]","GetRecordStartTime method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetRecordStartTime method","IDVB_EIT.GetRecordStartTime","IDVB_EIT::GetRecordStartTime","IDVB_EITGetRecordStartTime","dvbsiparser/IDVB_EIT::GetRecordStartTime","mstv.idvb_eit_getrecordstarttime"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordStartTime","GetRecordStartTime method [Microsoft TV Technologies]","GetRecordStartTime method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetRecordStartTime method","IDVB_EIT.GetRecordStartTime","IDVB_EIT::GetRecordStartTime","IDVB_EITGetRecordStartTime","dvbsiparser/IDVB_EIT::GetRecordStartTime","mstv.idvb_eit_getrecordstarttime"]
 old-location: mstv\idvb_eit_getrecordstarttime.htm
 tech.root: mstv
 ms.assetid: 2c392620-750d-4219-86fc-4c47109e6a3f

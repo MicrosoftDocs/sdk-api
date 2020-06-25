@@ -1,7 +1,8 @@
 ---
 UID: NN:reconcil.INotifyReplica
 title: INotifyReplica (reconcil.h)
-description: Exposes a method that provides an object's creator with the means to notify the object that it may be subject to subsequent reconciliation. The briefcase reconciler is responsible for implementing this interface.helpviewer_keywords: ["INotifyReplica","INotifyReplica interface [Windows Shell]","INotifyReplica interface [Windows Shell]","described","_win32_INotifyReplica","reconcil/INotifyReplica","shell.INotifyReplica"]
+description: Exposes a method that provides an object's creator with the means to notify the object that it may be subject to subsequent reconciliation. The briefcase reconciler is responsible for implementing this interface.
+helpviewer_keywords: ["INotifyReplica","INotifyReplica interface [Windows Shell]","INotifyReplica interface [Windows Shell]","described","_win32_INotifyReplica","reconcil/INotifyReplica","shell.INotifyReplica"]
 old-location: shell\INotifyReplica.htm
 tech.root: shell
 ms.assetid: aa04d5b0-8483-4024-91d0-65d69d6891ca

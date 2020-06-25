@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetSnapshotProperties
 title: IVssBackupComponents::GetSnapshotProperties (vsbackup.h)
-description: The GetSnapshotProperties method gets the properties of the specified shadow copy.helpviewer_keywords: ["GetSnapshotProperties","GetSnapshotProperties method [VSS]","GetSnapshotProperties method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GetSnapshotProperties method","IVssBackupComponents.GetSnapshotProperties","IVssBackupComponents::GetSnapshotProperties","_win32_ivssbackupcomponents_getsnapshotproperties","base.ivssbackupcomponents_getsnapshotproperties","vsbackup/IVssBackupComponents::GetSnapshotProperties"]
+description: The GetSnapshotProperties method gets the properties of the specified shadow copy.
+helpviewer_keywords: ["GetSnapshotProperties","GetSnapshotProperties method [VSS]","GetSnapshotProperties method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GetSnapshotProperties method","IVssBackupComponents.GetSnapshotProperties","IVssBackupComponents::GetSnapshotProperties","_win32_ivssbackupcomponents_getsnapshotproperties","base.ivssbackupcomponents_getsnapshotproperties","vsbackup/IVssBackupComponents::GetSnapshotProperties"]
 old-location: base\ivssbackupcomponents_getsnapshotproperties.htm
 tech.root: VSS
 ms.assetid: a4e2f9f3-7dee-4324-a48a-6de2a32eabf7

@@ -1,7 +1,8 @@
 ---
 UID: NF:ondemandconnroutehelper.FreeInterfaceContextTable
 title: FreeInterfaceContextTable function (ondemandconnroutehelper.h)
-description: This function frees the interface context table retrieved using the GetInterfaceContextTableForHostName function.helpviewer_keywords: ["FreeInterfaceContextTable","FreeInterfaceContextTable function [Network Awareness]","nla.freeinterfacecontexttable","ondemandconnroutehelper/FreeInterfaceContextTable"]
+description: This function frees the interface context table retrieved using the GetInterfaceContextTableForHostName function.
+helpviewer_keywords: ["FreeInterfaceContextTable","FreeInterfaceContextTable function [Network Awareness]","nla.freeinterfacecontexttable","ondemandconnroutehelper/FreeInterfaceContextTable"]
 old-location: nla\freeinterfacecontexttable.htm
 tech.root: nla
 ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224

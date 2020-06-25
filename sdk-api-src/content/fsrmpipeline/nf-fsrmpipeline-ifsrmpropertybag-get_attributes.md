@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_Attributes
 title: IFsrmPropertyBag::get_Attributes (fsrmpipeline.h)
-description: The attributes of the file.helpviewer_keywords: ["Attributes property [File Server Resource Manager]","Attributes property [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","Attributes property","IFsrmPropertyBag.Attributes","IFsrmPropertyBag.get_Attributes","IFsrmPropertyBag::Attributes","IFsrmPropertyBag::get_Attributes","fs.ifsrmpropertybag_attributes","fsrm.ifsrmpropertybag_attributes","fsrmpipeline/IFsrmPropertyBag::Attributes","fsrmpipeline/IFsrmPropertyBag::get_Attributes","get_Attributes"]
+description: The attributes of the file.
+helpviewer_keywords: ["Attributes property [File Server Resource Manager]","Attributes property [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","Attributes property","IFsrmPropertyBag.Attributes","IFsrmPropertyBag.get_Attributes","IFsrmPropertyBag::Attributes","IFsrmPropertyBag::get_Attributes","fs.ifsrmpropertybag_attributes","fsrm.ifsrmpropertybag_attributes","fsrmpipeline/IFsrmPropertyBag::Attributes","fsrmpipeline/IFsrmPropertyBag::get_Attributes","get_Attributes"]
 old-location: fsrm\ifsrmpropertybag_attributes.htm
 tech.root: fsrm
 ms.assetid: 9d84b68f-1db8-43d5-964b-c961ec9c250b

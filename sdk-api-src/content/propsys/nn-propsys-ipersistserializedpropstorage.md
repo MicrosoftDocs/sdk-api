@@ -1,7 +1,8 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage
 title: IPersistSerializedPropStorage (propsys.h)
-description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.helpviewer_keywords: ["IPersistSerializedPropStorage","IPersistSerializedPropStorage interface [Windows Shell]","IPersistSerializedPropStorage interface [Windows Shell]","described","_shell_IPersistSerializedPropStorage","propsys/IPersistSerializedPropStorage","shell.IPersistSerializedPropStorage"]
+description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
+helpviewer_keywords: ["IPersistSerializedPropStorage","IPersistSerializedPropStorage interface [Windows Shell]","IPersistSerializedPropStorage interface [Windows Shell]","described","_shell_IPersistSerializedPropStorage","propsys/IPersistSerializedPropStorage","shell.IPersistSerializedPropStorage"]
 old-location: shell\IPersistSerializedPropStorage.htm
 tech.root: shell
 ms.assetid: d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8

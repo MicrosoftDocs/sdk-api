@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetKerningPairAdjustments
 title: IDWriteFontFace1::GetKerningPairAdjustments (dwrite_1.h)
-description: Retrieves the kerning pair adjustments from the font's kern table.helpviewer_keywords: ["GetKerningPairAdjustments","GetKerningPairAdjustments method [Direct Write]","GetKerningPairAdjustments method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetKerningPairAdjustments method","IDWriteFontFace1.GetKerningPairAdjustments","IDWriteFontFace1::GetKerningPairAdjustments","directwrite.idwritefontface1_getkerningpairadjustments","dwrite_1/IDWriteFontFace1::GetKerningPairAdjustments"]
+description: Retrieves the kerning pair adjustments from the font's kern table.
+helpviewer_keywords: ["GetKerningPairAdjustments","GetKerningPairAdjustments method [Direct Write]","GetKerningPairAdjustments method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetKerningPairAdjustments method","IDWriteFontFace1.GetKerningPairAdjustments","IDWriteFontFace1::GetKerningPairAdjustments","directwrite.idwritefontface1_getkerningpairadjustments","dwrite_1/IDWriteFontFace1::GetKerningPairAdjustments"]
 old-location: directwrite\idwritefontface1_getkerningpairadjustments.htm
 tech.root: DirectWrite
 ms.assetid: DA837B04-85BC-4A3B-A6FE-24D5AFD21B14

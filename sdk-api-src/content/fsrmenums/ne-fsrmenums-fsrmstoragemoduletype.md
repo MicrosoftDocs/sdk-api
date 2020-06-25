@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmStorageModuleType
 title: FsrmStorageModuleType (fsrmenums.h)
-description: Defines the possible storage module types.helpviewer_keywords: ["FsrmStorageModuleType","FsrmStorageModuleType enumeration [File Server Resource Manager]","FsrmStorageModuleType_Cache","FsrmStorageModuleType_Database","FsrmStorageModuleType_InFile","FsrmStorageModuleType_System","FsrmStorageModuleType_Unknown","fs.fsrmstoragemoduletype","fsrm.fsrmstoragemoduletype","fsrmenums/FsrmStorageModuleType","fsrmenums/FsrmStorageModuleType_Cache","fsrmenums/FsrmStorageModuleType_Database","fsrmenums/FsrmStorageModuleType_InFile","fsrmenums/FsrmStorageModuleType_System","fsrmenums/FsrmStorageModuleType_Unknown"]
+description: Defines the possible storage module types.
+helpviewer_keywords: ["FsrmStorageModuleType","FsrmStorageModuleType enumeration [File Server Resource Manager]","FsrmStorageModuleType_Cache","FsrmStorageModuleType_Database","FsrmStorageModuleType_InFile","FsrmStorageModuleType_System","FsrmStorageModuleType_Unknown","fs.fsrmstoragemoduletype","fsrm.fsrmstoragemoduletype","fsrmenums/FsrmStorageModuleType","fsrmenums/FsrmStorageModuleType_Cache","fsrmenums/FsrmStorageModuleType_Database","fsrmenums/FsrmStorageModuleType_InFile","fsrmenums/FsrmStorageModuleType_System","fsrmenums/FsrmStorageModuleType_Unknown"]
 old-location: fsrm\fsrmstoragemoduletype.htm
 tech.root: fsrm
 ms.assetid: 7cd1d4eb-de69-44d2-89f9-41e1e9a371e0

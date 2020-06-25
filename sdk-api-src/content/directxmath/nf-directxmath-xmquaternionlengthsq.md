@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionLengthSq
 title: XMQuaternionLengthSq function (directxmath.h)
-description: Computes the square of the magnitude of a quaternion.helpviewer_keywords: ["Use DirectX..XMQuaternionLengthSq","XMQuaternionLengthSq","XMQuaternionLengthSq method [DirectX Math Support APIs]","dxmath.xmquaternionlengthsq"]
+description: Computes the square of the magnitude of a quaternion.
+helpviewer_keywords: ["Use DirectX..XMQuaternionLengthSq","XMQuaternionLengthSq","XMQuaternionLengthSq method [DirectX Math Support APIs]","dxmath.xmquaternionlengthsq"]
 old-location: dxmath\xmquaternionlengthsq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionLengthSq(XMVECTOR)

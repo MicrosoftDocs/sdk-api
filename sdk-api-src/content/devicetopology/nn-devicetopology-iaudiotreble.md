@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioTreble
 title: IAudioTreble (devicetopology.h)
-description: The IAudioTreble interface provides access to a hardware treble-level control.helpviewer_keywords: ["IAudioTreble","IAudioTreble interface [Core Audio]","IAudioTreble interface [Core Audio]","described","coreaudio.iaudiotreble","devicetopology/IAudioTreble"]
+description: The IAudioTreble interface provides access to a hardware treble-level control.
+helpviewer_keywords: ["IAudioTreble","IAudioTreble interface [Core Audio]","IAudioTreble interface [Core Audio]","described","coreaudio.iaudiotreble","devicetopology/IAudioTreble"]
 old-location: coreaudio\iaudiotreble.htm
 tech.root: CoreAudio
 ms.assetid: 3ace174e-c21c-41e7-9830-80d247d8437f

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.STROBJ_vEnumStart
 title: STROBJ_vEnumStart function (winddi.h)
-description: The STROBJ_vEnumStart function defines the form, or type, for data that will be returned from GDI in subsequent calls to STROBJ_bEnum.helpviewer_keywords: ["STROBJ_vEnumStart","STROBJ_vEnumStart function [Display Devices]","display.strobj_venumstart","gdifncs_f0be3fdf-8725-4f9c-8487-0aaa95a13ede.xml","winddi/STROBJ_vEnumStart"]
+description: The STROBJ_vEnumStart function defines the form, or type, for data that will be returned from GDI in subsequent calls to STROBJ_bEnum.
+helpviewer_keywords: ["STROBJ_vEnumStart","STROBJ_vEnumStart function [Display Devices]","display.strobj_venumstart","gdifncs_f0be3fdf-8725-4f9c-8487-0aaa95a13ede.xml","winddi/STROBJ_vEnumStart"]
 old-location: display\strobj_venumstart.htm
 tech.root: display
 ms.assetid: 568af273-2b9d-4782-849f-6cb9c49952e0

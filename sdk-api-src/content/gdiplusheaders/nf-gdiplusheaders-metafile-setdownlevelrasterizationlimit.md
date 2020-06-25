@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Metafile.SetDownLevelRasterizationLimit
 title: Metafile::SetDownLevelRasterizationLimit (gdiplusheaders.h)
-description: Sets the resolution for certain brush bitmaps that are stored in this metafile.helpviewer_keywords: ["Metafile class [GDI+]","SetDownLevelRasterizationLimit method","Metafile.SetDownLevelRasterizationLimit","Metafile::SetDownLevelRasterizationLimit","SetDownLevelRasterizationLimit","SetDownLevelRasterizationLimit method [GDI+]","SetDownLevelRasterizationLimit method [GDI+]","Metafile class","_gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_","gdiplus._gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_"]
+description: Sets the resolution for certain brush bitmaps that are stored in this metafile.
+helpviewer_keywords: ["Metafile class [GDI+]","SetDownLevelRasterizationLimit method","Metafile.SetDownLevelRasterizationLimit","Metafile::SetDownLevelRasterizationLimit","SetDownLevelRasterizationLimit","SetDownLevelRasterizationLimit method [GDI+]","SetDownLevelRasterizationLimit method [GDI+]","Metafile class","_gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_","gdiplus._gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\setdownlevelrasterizationlimit.htm

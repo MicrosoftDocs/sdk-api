@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector4InBounds
 title: XMVector4InBounds function (directxmath.h)
-description: Tests whether the components of a 4D vector are within set bounds.helpviewer_keywords: ["Use DirectX..XMVector4InBounds","XMVector4InBounds","XMVector4InBounds method [DirectX Math Support APIs]","dxmath.xmvector4inbounds"]
+description: Tests whether the components of a 4D vector are within set bounds.
+helpviewer_keywords: ["Use DirectX..XMVector4InBounds","XMVector4InBounds","XMVector4InBounds method [DirectX Math Support APIs]","dxmath.xmvector4inbounds"]
 old-location: dxmath\xmvector4inbounds.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4InBounds(XMVECTOR,XMVECTOR)

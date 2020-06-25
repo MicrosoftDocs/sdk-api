@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetBkColor
 title: ListView_SetBkColor macro (commctrl.h)
-description: Sets the background color of a list-view control. You can use this macro or send the LVM_SETBKCOLOR message explicitly.helpviewer_keywords: ["ListView_SetBkColor","ListView_SetBkColor macro [Windows Controls]","_win32_ListView_SetBkColor","_win32_ListView_SetBkColor_cpp","commctrl/ListView_SetBkColor","controls.ListView_SetBkColor","controls._win32_ListView_SetBkColor"]
+description: Sets the background color of a list-view control. You can use this macro or send the LVM_SETBKCOLOR message explicitly.
+helpviewer_keywords: ["ListView_SetBkColor","ListView_SetBkColor macro [Windows Controls]","_win32_ListView_SetBkColor","_win32_ListView_SetBkColor_cpp","commctrl/ListView_SetBkColor","controls.ListView_SetBkColor","controls._win32_ListView_SetBkColor"]
 old-location: controls\ListView_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkcolor.htm

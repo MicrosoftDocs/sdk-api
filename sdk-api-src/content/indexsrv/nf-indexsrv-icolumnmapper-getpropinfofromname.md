@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IColumnMapper.GetPropInfoFromName
 title: IColumnMapper::GetPropInfoFromName (indexsrv.h)
-description: Gets property information from a name. This will return a DBID pointer in parameter ppPropId which now has to be freed by the caller and not by the callee (this class).helpviewer_keywords: ["GetPropInfoFromName","GetPropInfoFromName method [search]","GetPropInfoFromName method [search]","IColumnMapper interface","IColumnMapper interface [search]","GetPropInfoFromName method","IColumnMapper.GetPropInfoFromName","IColumnMapper::GetPropInfoFromName","indexsrv/IColumnMapper::GetPropInfoFromName","search.icolumnmapper_getpropinfofromname"]
+description: Gets property information from a name. This will return a DBID pointer in parameter ppPropId which now has to be freed by the caller and not by the callee (this class).
+helpviewer_keywords: ["GetPropInfoFromName","GetPropInfoFromName method [search]","GetPropInfoFromName method [search]","IColumnMapper interface","IColumnMapper interface [search]","GetPropInfoFromName method","IColumnMapper.GetPropInfoFromName","IColumnMapper::GetPropInfoFromName","indexsrv/IColumnMapper::GetPropInfoFromName","search.icolumnmapper_getpropinfofromname"]
 old-location: search\icolumnmapper_getpropinfofromname.htm
 tech.root: search
 ms.assetid: F9306234-7CCC-412E-AA8C-7E8A04A8132F

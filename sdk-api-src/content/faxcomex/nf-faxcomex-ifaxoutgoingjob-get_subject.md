@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Subject
 title: IFaxOutgoingJob::get_Subject (faxcomex.h)
-description: The IFaxOutgoingJob::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Subject property","IFaxOutgoingJob.Subject","IFaxOutgoingJob.get_Subject","IFaxOutgoingJob::Subject","IFaxOutgoingJob::get_Subject","Subject property [Fax Service]","Subject property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.subject","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp","fax._mfax_faxoutgoingjob_subject","faxcomex/IFaxOutgoingJob::Subject","faxcomex/IFaxOutgoingJob::get_Subject","get_Subject"]
+description: The IFaxOutgoingJob::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
+helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Subject property","IFaxOutgoingJob.Subject","IFaxOutgoingJob.get_Subject","IFaxOutgoingJob::Subject","IFaxOutgoingJob::get_Subject","Subject property [Fax Service]","Subject property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.subject","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp","fax._mfax_faxoutgoingjob_subject","faxcomex/IFaxOutgoingJob::Subject","faxcomex/IFaxOutgoingJob::get_Subject","get_Subject"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0fqs.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPAddressFamilyControl.SetAddressFamily
 title: IUPnPAddressFamilyControl::SetAddressFamily (upnp.h)
-description: The SetAddressFamily method sets the address family flag of the Device Finder object, which uses this flag to filter the devices found.helpviewer_keywords: ["IUPnPAddressFamilyControl interface [UPnP APIs]","SetAddressFamily method","IUPnPAddressFamilyControl.SetAddressFamily","IUPnPAddressFamilyControl::SetAddressFamily","SetAddressFamily","SetAddressFamily method [UPnP APIs]","SetAddressFamily method [UPnP APIs]","IUPnPAddressFamilyControl interface","UPNP_ADDRESSFAMILY_BOTH","UPNP_ADDRESSFAMILY_IPv4","UPNP_ADDRESSFAMILY_IPv6","upnp.iupnpaddressfamilycontrol_setaddressfamily","upnp/IUPnPAddressFamilyControl::SetAddressFamily"]
+description: The SetAddressFamily method sets the address family flag of the Device Finder object, which uses this flag to filter the devices found.
+helpviewer_keywords: ["IUPnPAddressFamilyControl interface [UPnP APIs]","SetAddressFamily method","IUPnPAddressFamilyControl.SetAddressFamily","IUPnPAddressFamilyControl::SetAddressFamily","SetAddressFamily","SetAddressFamily method [UPnP APIs]","SetAddressFamily method [UPnP APIs]","IUPnPAddressFamilyControl interface","UPNP_ADDRESSFAMILY_BOTH","UPNP_ADDRESSFAMILY_IPv4","UPNP_ADDRESSFAMILY_IPv6","upnp.iupnpaddressfamilycontrol_setaddressfamily","upnp/IUPnPAddressFamilyControl::SetAddressFamily"]
 old-location: upnp\iupnpaddressfamilycontrol_setaddressfamily.htm
 tech.root: upnp
 ms.assetid: 2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc

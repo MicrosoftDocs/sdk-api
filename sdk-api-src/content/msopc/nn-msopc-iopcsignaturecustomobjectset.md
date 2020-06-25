@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObjectSet
 title: IOpcSignatureCustomObjectSet (msopc.h)
-description: An unordered set of IOpcSignatureCustomObject interface pointers that contain the XML markup of application-specific Object elements.helpviewer_keywords: ["IOpcSignatureCustomObjectSet","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","described","msopc/IOpcSignatureCustomObjectSet","opc.iopcsignaturecustomobjectset"]
+description: An unordered set of IOpcSignatureCustomObject interface pointers that contain the XML markup of application-specific Object elements.
+helpviewer_keywords: ["IOpcSignatureCustomObjectSet","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","described","msopc/IOpcSignatureCustomObjectSet","opc.iopcsignaturecustomobjectset"]
 old-location: opc\iopcsignaturecustomobjectset.htm
 tech.root: OPC
 ms.assetid: eb2a561d-2723-45dc-98a6-ecf11101016b

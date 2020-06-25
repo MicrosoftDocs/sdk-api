@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPServiceCallback.StateVariableChanged
 title: IUPnPServiceCallback::StateVariableChanged (upnp.h)
-description: The StateVariableChanged method is invoked when a state variable has changed.helpviewer_keywords: ["IUPnPServiceCallback interface [UPnP APIs]","StateVariableChanged method","IUPnPServiceCallback.StateVariableChanged","IUPnPServiceCallback::StateVariableChanged","StateVariableChanged","StateVariableChanged method [UPnP APIs]","StateVariableChanged method [UPnP APIs]","IUPnPServiceCallback interface","_upnp_iupnpservicecallback_statevariablechanged","upnp.iupnpservicecallback_statevariablechanged","upnp/IUPnPServiceCallback::StateVariableChanged"]
+description: The StateVariableChanged method is invoked when a state variable has changed.
+helpviewer_keywords: ["IUPnPServiceCallback interface [UPnP APIs]","StateVariableChanged method","IUPnPServiceCallback.StateVariableChanged","IUPnPServiceCallback::StateVariableChanged","StateVariableChanged","StateVariableChanged method [UPnP APIs]","StateVariableChanged method [UPnP APIs]","IUPnPServiceCallback interface","_upnp_iupnpservicecallback_statevariablechanged","upnp.iupnpservicecallback_statevariablechanged","upnp/IUPnPServiceCallback::StateVariableChanged"]
 old-location: upnp\iupnpservicecallback_statevariablechanged.htm
 tech.root: upnp
 ms.assetid: 68dac38e-535b-491e-a9a5-0f6bccb7fcc1

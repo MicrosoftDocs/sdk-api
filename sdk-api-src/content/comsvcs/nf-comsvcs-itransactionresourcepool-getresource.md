@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.GetResource
 title: ITransactionResourcePool::GetResource (comsvcs.h)
-description: Retrieves an object from the list of pooled objects.helpviewer_keywords: ["GetResource","GetResource method [COM+]","GetResource method [COM+]","ITransactionResourcePool interface","ITransactionResourcePool interface [COM+]","GetResource method","ITransactionResourcePool.GetResource","ITransactionResourcePool::GetResource","_cos_ITransactionResourcePool_GetResource","comsvcs/ITransactionResourcePool::GetResource","cos.itransactionresourcepool_getresource"]
+description: Retrieves an object from the list of pooled objects.
+helpviewer_keywords: ["GetResource","GetResource method [COM+]","GetResource method [COM+]","ITransactionResourcePool interface","ITransactionResourcePool interface [COM+]","GetResource method","ITransactionResourcePool.GetResource","ITransactionResourcePool::GetResource","_cos_ITransactionResourcePool_GetResource","comsvcs/ITransactionResourcePool::GetResource","cos.itransactionresourcepool_getresource"]
 old-location: cos\itransactionresourcepool_getresource.htm
 tech.root: cossdk
 ms.assetid: 68e71746-e3a1-4f33-a3b8-fa8bf9608776

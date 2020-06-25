@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMINT3.operator-assign
 title: XMINT3::operator-assign
-description: Assigns the vector component data from one instance of XMINT3 to the current instance of XMINT3.helpviewer_keywords: ["Use DirectX..XMINT3.operator =","Use DirectX::::XMINT3::operator =","XMINT3 structure [DirectX Math Support APIs]","operator = method","XMINT3.operator =","XMINT3.operator-assign","XMINT3.operator=","XMINT3::operator-assign","XMINT3::operator=","dxmath.xmint3_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMINT3 structure","operator="]
+description: Assigns the vector component data from one instance of XMINT3 to the current instance of XMINT3.
+helpviewer_keywords: ["Use DirectX..XMINT3.operator =","Use DirectX::::XMINT3::operator =","XMINT3 structure [DirectX Math Support APIs]","operator = method","XMINT3.operator =","XMINT3.operator-assign","XMINT3.operator=","XMINT3::operator-assign","XMINT3::operator=","dxmath.xmint3_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMINT3 structure","operator="]
 old-location: dxmath\xmint3_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT3.operator = (const XMINT3)

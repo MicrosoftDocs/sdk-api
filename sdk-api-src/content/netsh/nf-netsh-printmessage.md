@@ -1,7 +1,8 @@
 ---
 UID: NF:netsh.PrintMessage
 title: PrintMessage function (netsh.h)
-description: Displays output to the NetShell console.helpviewer_keywords: ["PrintMessage","PrintMessage function [NetShell]","_netsh_printmessage","netsh/PrintMessage","netshell.printmessage"]
+description: Displays output to the NetShell console.
+helpviewer_keywords: ["PrintMessage","PrintMessage function [NetShell]","_netsh_printmessage","netsh/PrintMessage","netshell.printmessage"]
 old-location: netshell\printmessage.htm
 tech.root: netshell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785

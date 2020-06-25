@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Count
 title: IWindowsDriverUpdateEntryCollection::get_Count (wuapi.h)
-description: Gets the number of elements contained in the collection.helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","Count property","IWindowsDriverUpdateEntryCollection.Count","IWindowsDriverUpdateEntryCollection.get_Count","IWindowsDriverUpdateEntryCollection::Count","IWindowsDriverUpdateEntryCollection::get_Count","get_Count","wua.iwindowsdriverupdateentrycollection_count","wuapi/IWindowsDriverUpdateEntryCollection::Count","wuapi/IWindowsDriverUpdateEntryCollection::get_Count"]
+description: Gets the number of elements contained in the collection.
+helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","Count property","IWindowsDriverUpdateEntryCollection.Count","IWindowsDriverUpdateEntryCollection.get_Count","IWindowsDriverUpdateEntryCollection::Count","IWindowsDriverUpdateEntryCollection::get_Count","get_Count","wua.iwindowsdriverupdateentrycollection_count","wuapi/IWindowsDriverUpdateEntryCollection::Count","wuapi/IWindowsDriverUpdateEntryCollection::get_Count"]
 old-location: wua\iwindowsdriverupdateentrycollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: a3fb3a1c-f555-4443-9afc-9ad6e613fdda

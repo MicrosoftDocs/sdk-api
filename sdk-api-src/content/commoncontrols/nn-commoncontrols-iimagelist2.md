@@ -1,7 +1,8 @@
 ---
 UID: NN:commoncontrols.IImageList2
 title: IImageList2 (commoncontrols.h)
-description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.helpviewer_keywords: ["IImageList2","IImageList2 interface [Windows Controls]","IImageList2 interface [Windows Controls]","described","_shell_IImageList2","_shell_IImageList2_cpp","commoncontrols/IImageList2","controls.IImageList2","controls._shell_IImageList2"]
+description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.
+helpviewer_keywords: ["IImageList2","IImageList2 interface [Windows Controls]","IImageList2 interface [Windows Controls]","described","_shell_IImageList2","_shell_IImageList2_cpp","commoncontrols/IImageList2","controls.IImageList2","controls._shell_IImageList2"]
 old-location: controls\IImageList2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm

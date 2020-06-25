@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush~r5
 title: PathGradientBrush::PathGradientBrush~r5 (gdipluspath.h)
-description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.helpviewer_keywords: ["PathGradientBrush","PathGradientBrush constructors [GDI+]","PathGradientBrush.PathGradientBrush","PathGradientBrush.PathGradientBrush~r5","PathGradientBrush::PathGradientBrush","PathGradientBrush::PathGradientBrush~r5","_gdiplus_CLASS_PathGradientBrush_Constructors","gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors","gdipluspath/PathGradientBrush"]
+description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
+helpviewer_keywords: ["PathGradientBrush","PathGradientBrush constructors [GDI+]","PathGradientBrush.PathGradientBrush","PathGradientBrush.PathGradientBrush~r5","PathGradientBrush::PathGradientBrush","PathGradientBrush::PathGradientBrush~r5","_gdiplus_CLASS_PathGradientBrush_Constructors","gdiplus._gdiplus_CLASS_PathGradientBrush_Constructors","gdipluspath/PathGradientBrush"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushconstructors.htm

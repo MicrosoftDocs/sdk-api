@@ -1,7 +1,8 @@
 ---
 UID: NF:mdmregistration.GetManagementAppHyperlink
 title: GetManagementAppHyperlink function (mdmregistration.h)
-description: Retrieves the management app hyperlink associated with the MDM service.helpviewer_keywords: ["GetManagementAppHyperlink","GetManagementAppHyperlink function [MDM Registration]","mdmreg.getmanagementapphyperlink","mdmregistration/GetManagementAppHyperlink"]
+description: Retrieves the management app hyperlink associated with the MDM service.
+helpviewer_keywords: ["GetManagementAppHyperlink","GetManagementAppHyperlink function [MDM Registration]","mdmreg.getmanagementapphyperlink","mdmregistration/GetManagementAppHyperlink"]
 old-location: mdmreg\getmanagementapphyperlink.htm
 tech.root: MDMReg
 ms.assetid: e319dd2e-3d2b-4c65-9b59-cd4aab930f12

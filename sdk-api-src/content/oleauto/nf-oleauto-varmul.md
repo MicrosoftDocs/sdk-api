@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarMul
 title: VarMul function (oleauto.h)
-description: Returns the result from multiplying two variants.helpviewer_keywords: ["VarMul","VarMul function [Automation]","_oa96_VarMul","automat.varmul","oleauto/VarMul"]
+description: Returns the result from multiplying two variants.
+helpviewer_keywords: ["VarMul","VarMul function [Automation]","_oa96_VarMul","automat.varmul","oleauto/VarMul"]
 old-location: automat\varmul.htm
 tech.root: automat
 ms.assetid: d804a23b-7d52-4f11-a93e-3eb02a079d2c

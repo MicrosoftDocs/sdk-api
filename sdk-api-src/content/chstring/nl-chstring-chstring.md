@@ -1,7 +1,8 @@
 ---
 UID: NL:chstring.CHString
 title: CHString (chstring.h)
-description: The following table lists the CHString methods.helpviewer_keywords: ["??1CHString@@QAE@XZ","??1CHString@@QEAA@XZ","CHString","CHString class [Windows Management Instrumentation]","CHString class [Windows Management Instrumentation]","described","_hmm_chstring","chstring/CHString","wmi.chstring"]
+description: The following table lists the CHString methods.
+helpviewer_keywords: ["??1CHString@@QAE@XZ","??1CHString@@QEAA@XZ","CHString","CHString class [Windows Management Instrumentation]","CHString class [Windows Management Instrumentation]","described","_hmm_chstring","chstring/CHString","wmi.chstring"]
 old-location: wmi\chstring.htm
 tech.root: WmiSdk
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3

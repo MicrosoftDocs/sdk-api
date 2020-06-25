@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ExposureRelative
 title: ICameraControl::put_ExposureRelative (vidcap.h)
-description: The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_ExposureRelative method","ICameraControl.put_ExposureRelative","ICameraControl::put_ExposureRelative","ICameraControlput_ExposureRelative","dshow.icameracontrol_put_exposurerelative","put_ExposureRelative","put_ExposureRelative method [DirectShow]","put_ExposureRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_ExposureRelative"]
+description: The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_ExposureRelative method","ICameraControl.put_ExposureRelative","ICameraControl::put_ExposureRelative","ICameraControlput_ExposureRelative","dshow.icameracontrol_put_exposurerelative","put_ExposureRelative","put_ExposureRelative method [DirectShow]","put_ExposureRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_ExposureRelative"]
 old-location: dshow\icameracontrol_put_exposurerelative.htm
 tech.root: DirectShow
 ms.assetid: 4afc3f7f-bba2-4160-b917-c792467d6305

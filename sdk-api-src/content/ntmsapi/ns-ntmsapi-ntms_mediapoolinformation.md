@@ -1,7 +1,8 @@
 ---
 UID: NS:ntmsapi._NTMS_MEDIAPOOLINFORMATION
 title: NTMS_MEDIAPOOLINFORMATION (ntmsapi.h)
-description: The NTMS_MEDIAPOOLINFORMATION structure defines the properties specific to a media pool object.helpviewer_keywords: ["NTMS_ALLOCATE_FROMSCRATCH","NTMS_DEALLOCATE_TOSCRATCH","NTMS_MEDIAPOOLINFORMATION","NTMS_MEDIAPOOLINFORMATION structure [Files]","NTMS_POOLTYPE_APPLICATION","NTMS_POOLTYPE_FOREIGN","NTMS_POOLTYPE_IMPORT","NTMS_POOLTYPE_SCRATCH","NTMS_POOLTYPE_UNKNOWN","_zaw_ntms_mediapoolinformation","base.ntms_mediapoolinformation","fs.ntms_mediapoolinformation","ntmsapi/NTMS_MEDIAPOOLINFORMATION"]
+description: The NTMS_MEDIAPOOLINFORMATION structure defines the properties specific to a media pool object.
+helpviewer_keywords: ["NTMS_ALLOCATE_FROMSCRATCH","NTMS_DEALLOCATE_TOSCRATCH","NTMS_MEDIAPOOLINFORMATION","NTMS_MEDIAPOOLINFORMATION structure [Files]","NTMS_POOLTYPE_APPLICATION","NTMS_POOLTYPE_FOREIGN","NTMS_POOLTYPE_IMPORT","NTMS_POOLTYPE_SCRATCH","NTMS_POOLTYPE_UNKNOWN","_zaw_ntms_mediapoolinformation","base.ntms_mediapoolinformation","fs.ntms_mediapoolinformation","ntmsapi/NTMS_MEDIAPOOLINFORMATION"]
 old-location: fs\ntms_mediapoolinformation.htm
 tech.root: Rsm
 ms.assetid: 4feb9d68-f88b-4515-9c59-64fe9c5594d6

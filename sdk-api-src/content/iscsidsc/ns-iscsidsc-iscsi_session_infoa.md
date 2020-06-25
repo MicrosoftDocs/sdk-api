@@ -1,7 +1,8 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_17
 title: ISCSI_SESSION_INFOA (iscsidsc.h)
-description: ISCSI_SESSION_INFO.helpviewer_keywords: ["*PISCSI_SESSION_INFOA","ISCSI_SESSION_INFO","ISCSI_SESSION_INFO structure [iSCSI Discovery Library API]","ISCSI_SESSION_INFOA","ISCSI_SESSION_INFOW","PISCSI_SESSION_INFO","PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_session_info","iscsidsc/ISCSI_SESSION_INFO","iscsidsc/ISCSI_SESSION_INFOA","iscsidsc/ISCSI_SESSION_INFOW","iscsidsc/PISCSI_SESSION_INFO"]
+description: ISCSI_SESSION_INFO.
+helpviewer_keywords: ["*PISCSI_SESSION_INFOA","ISCSI_SESSION_INFO","ISCSI_SESSION_INFO structure [iSCSI Discovery Library API]","ISCSI_SESSION_INFOA","ISCSI_SESSION_INFOW","PISCSI_SESSION_INFO","PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_session_info","iscsidsc/ISCSI_SESSION_INFO","iscsidsc/ISCSI_SESSION_INFOA","iscsidsc/ISCSI_SESSION_INFOW","iscsidsc/PISCSI_SESSION_INFO"]
 old-location: iscsidisc\iscsi_session_info.htm
 tech.root: iSCSIDisc
 ms.assetid: 5da4aa28-a630-41f2-abb2-5538c11242e6
@@ -116,4 +117,9 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The iscsidsc.h header defines ISCSI_SESSION_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

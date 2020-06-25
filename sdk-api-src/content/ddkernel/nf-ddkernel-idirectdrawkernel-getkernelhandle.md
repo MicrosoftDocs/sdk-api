@@ -1,7 +1,8 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.GetKernelHandle
 title: IDirectDrawKernel::GetKernelHandle (ddkernel.h)
-description: The IDirectDrawKernel::GetKernelHandle method returns a kernel-mode handle to the DirectDraw object.helpviewer_keywords: ["GetKernelHandle","GetKernelHandle method [Display Devices]","GetKernelHandle method [Display Devices]","IDirectDrawKernel interface","IDirectDrawKernel interface [Display Devices]","GetKernelHandle method","IDirectDrawKernel.GetKernelHandle","IDirectDrawKernel::GetKernelHandle","ddfncs_5c255735-5359-481b-b6cb-3bae2d934926.xml","ddkernel/IDirectDrawKernel::GetKernelHandle","display.idirectdrawkernel_getkernelhandle"]
+description: The IDirectDrawKernel::GetKernelHandle method returns a kernel-mode handle to the DirectDraw object.
+helpviewer_keywords: ["GetKernelHandle","GetKernelHandle method [Display Devices]","GetKernelHandle method [Display Devices]","IDirectDrawKernel interface","IDirectDrawKernel interface [Display Devices]","GetKernelHandle method","IDirectDrawKernel.GetKernelHandle","IDirectDrawKernel::GetKernelHandle","ddfncs_5c255735-5359-481b-b6cb-3bae2d934926.xml","ddkernel/IDirectDrawKernel::GetKernelHandle","display.idirectdrawkernel_getkernelhandle"]
 old-location: display\idirectdrawkernel_getkernelhandle.htm
 tech.root: display
 ms.assetid: f74cc859-6991-4075-a7ef-83a67de06be6

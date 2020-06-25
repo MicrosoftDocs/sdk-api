@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterContextMenu
 title: INameSpaceTreeControlEvents::OnAfterContextMenu (shobjidl.h)
-description: Called after a context menu is displayed.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnAfterContextMenu method","INameSpaceTreeControlEvents.OnAfterContextMenu","INameSpaceTreeControlEvents::OnAfterContextMenu","OnAfterContextMenu","OnAfterContextMenu method [Windows Shell]","OnAfterContextMenu method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnAfterContextMenu","shell.INameSpaceTreeControlEvents_OnAfterContextMenu","shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu"]
+description: Called after a context menu is displayed.
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnAfterContextMenu method","INameSpaceTreeControlEvents.OnAfterContextMenu","INameSpaceTreeControlEvents::OnAfterContextMenu","OnAfterContextMenu","OnAfterContextMenu method [Windows Shell]","OnAfterContextMenu method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnAfterContextMenu","shell.INameSpaceTreeControlEvents_OnAfterContextMenu","shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu"]
 old-location: shell\INameSpaceTreeControlEvents_OnAfterContextMenu.htm
 tech.root: shell
 ms.assetid: 6d562938-9816-4df9-b5b6-0ed52b1e4835

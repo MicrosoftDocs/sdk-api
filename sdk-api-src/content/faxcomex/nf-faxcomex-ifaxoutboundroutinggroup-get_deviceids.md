@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_DeviceIds
 title: IFaxOutboundRoutingGroup::get_DeviceIds (faxcomex.h)
-description: The DeviceIds property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group.helpviewer_keywords: ["DeviceIds property [Fax Service]","DeviceIds property [Fax Service]","IFaxOutboundRoutingGroup interface","IFaxOutboundRoutingGroup interface [Fax Service]","DeviceIds property","IFaxOutboundRoutingGroup.DeviceIds","IFaxOutboundRoutingGroup.get_DeviceIds","IFaxOutboundRoutingGroup::DeviceIds","IFaxOutboundRoutingGroup::get_DeviceIds","_mfax_faxoutboundroutinggroup.deviceids_cpp","fax._mfax_faxoutboundroutinggroup_deviceids_cpp","faxcomex/IFaxOutboundRoutingGroup::DeviceIds","faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds","get_DeviceIds"]
+description: The DeviceIds property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group.
+helpviewer_keywords: ["DeviceIds property [Fax Service]","DeviceIds property [Fax Service]","IFaxOutboundRoutingGroup interface","IFaxOutboundRoutingGroup interface [Fax Service]","DeviceIds property","IFaxOutboundRoutingGroup.DeviceIds","IFaxOutboundRoutingGroup.get_DeviceIds","IFaxOutboundRoutingGroup::DeviceIds","IFaxOutboundRoutingGroup::get_DeviceIds","_mfax_faxoutboundroutinggroup.deviceids_cpp","fax._mfax_faxoutboundroutinggroup_deviceids_cpp","faxcomex/IFaxOutboundRoutingGroup::DeviceIds","faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds","get_DeviceIds"]
 old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4var_cpp.htm

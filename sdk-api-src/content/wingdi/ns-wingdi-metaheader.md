@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagMETAHEADER
 title: METAHEADER (wingdi.h)
-description: The METAHEADER structure contains information about a Windows-format metafile.helpviewer_keywords: ["*LPMETAHEADER","*PMETAHEADER","METAHEADER","METAHEADER structure [Windows GDI]","PMETAHEADER","PMETAHEADER structure pointer [Windows GDI]","_win32_METAHEADER_str","gdi.metaheader","wingdi/METAHEADER","wingdi/PMETAHEADER"]
+description: The METAHEADER structure contains information about a Windows-format metafile.
+helpviewer_keywords: ["*LPMETAHEADER","*PMETAHEADER","METAHEADER","METAHEADER structure [Windows GDI]","PMETAHEADER","PMETAHEADER structure pointer [Windows GDI]","_win32_METAHEADER_str","gdi.metaheader","wingdi/METAHEADER","wingdi/PMETAHEADER"]
 old-location: gdi\metaheader.htm
 tech.root: gdi
 ms.assetid: 3ad5be24-9558-442e-8c77-dd6a7d33c208

@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509MachineEnrollmentFactory
 title: IX509MachineEnrollmentFactory (certenroll.h)
-description: Can be used to create an IX509EnrollmentHelper object on a webpage.helpviewer_keywords: ["IX509MachineEnrollmentFactory","IX509MachineEnrollmentFactory interface [Security]","IX509MachineEnrollmentFactory interface [Security]","described","certenroll/IX509MachineEnrollmentFactory","security.ix509machineenrollmentfactory"]
+description: Can be used to create an IX509EnrollmentHelper object on a webpage.
+helpviewer_keywords: ["IX509MachineEnrollmentFactory","IX509MachineEnrollmentFactory interface [Security]","IX509MachineEnrollmentFactory interface [Security]","described","certenroll/IX509MachineEnrollmentFactory","security.ix509machineenrollmentfactory"]
 old-location: security\ix509machineenrollmentfactory.htm
 tech.root: seccertenroll
 ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb

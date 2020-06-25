@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
 title: IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager (mfmediacapture.h)
-description: Sets the DirectX Device Manager.helpviewer_keywords: ["IAdvancedMediaCaptureInitializationSettings interface [Media Foundation]","SetDirectxDeviceManager method","IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager","IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager","SetDirectxDeviceManager","SetDirectxDeviceManager method [Media Foundation]","SetDirectxDeviceManager method [Media Foundation]","IAdvancedMediaCaptureInitializationSettings interface","mf.iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager","mfmediacapture/IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager"]
+description: Sets the DirectX Device Manager.
+helpviewer_keywords: ["IAdvancedMediaCaptureInitializationSettings interface [Media Foundation]","SetDirectxDeviceManager method","IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager","IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager","SetDirectxDeviceManager","SetDirectxDeviceManager method [Media Foundation]","SetDirectxDeviceManager method [Media Foundation]","IAdvancedMediaCaptureInitializationSettings interface","mf.iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager","mfmediacapture/IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager"]
 old-location: mf\iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager.htm
 tech.root: medfound
 ms.assetid: 556923c5-711e-4ace-8657-298be55dd7b0

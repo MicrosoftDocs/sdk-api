@@ -1,7 +1,8 @@
 ---
 UID: NS:usbuser._USB_BANDWIDTH_INFO
 title: USB_BANDWIDTH_INFO (usbuser.h)
-description: The USB_BANDWIDTH_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the allocated bandwidth.helpviewer_keywords: ["*PUSB_BANDWIDTH_INFO","PUSB_BANDWIDTH_INFO","PUSB_BANDWIDTH_INFO structure pointer [Buses]","USB_BANDWIDTH_INFO","USB_BANDWIDTH_INFO structure [Buses]","buses.usb_bandwidth_info","usbstrct_d852c165-11b3-405f-aa49-dc7f48f710a1.xml","usbuser/PUSB_BANDWIDTH_INFO","usbuser/USB_BANDWIDTH_INFO"]
+description: The USB_BANDWIDTH_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the allocated bandwidth.
+helpviewer_keywords: ["*PUSB_BANDWIDTH_INFO","PUSB_BANDWIDTH_INFO","PUSB_BANDWIDTH_INFO structure pointer [Buses]","USB_BANDWIDTH_INFO","USB_BANDWIDTH_INFO structure [Buses]","buses.usb_bandwidth_info","usbstrct_d852c165-11b3-405f-aa49-dc7f48f710a1.xml","usbuser/PUSB_BANDWIDTH_INFO","usbuser/USB_BANDWIDTH_INFO"]
 old-location: buses\usb_bandwidth_info.htm
 tech.root: usbref
 ms.assetid: 33983bed-9794-4deb-8d30-1089eee9eb9c

@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSizeArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the array of Size values that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetSizeArray","GetSizeArray method [Windows Runtime]","GetSizeArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSizeArray method","IPropertyValue.GetSizeArray","IPropertyValue.IPropertyValue","IPropertyValue::GetSizeArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSizeArray","winrt.ipropertyvalue_getsizearray"]
+description: Gets the array of Size values that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetSizeArray","GetSizeArray method [Windows Runtime]","GetSizeArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSizeArray method","IPropertyValue.GetSizeArray","IPropertyValue.IPropertyValue","IPropertyValue::GetSizeArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSizeArray","winrt.ipropertyvalue_getsizearray"]
 old-location: winrt\ipropertyvalue_getsizearray.htm
 tech.root: WinRT
 ms.assetid: f378c4d0-c3a2-4611-a471-0c77746602f6

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetSecure
 title: IWSDHttpAddress::GetSecure (wsdbase.h)
-description: Retrieves the status on whether TLS secure sessions are enabled for this address.helpviewer_keywords: ["GetSecure","GetSecure method","GetSecure method","IWSDHttpAddress interface","IWSDHttpAddress interface","GetSecure method","IWSDHttpAddress.GetSecure","IWSDHttpAddress::GetSecure","ncd.iwsdhttpaddress_getsecure","wsdbase/IWSDHttpAddress::GetSecure"]
+description: Retrieves the status on whether TLS secure sessions are enabled for this address.
+helpviewer_keywords: ["GetSecure","GetSecure method","GetSecure method","IWSDHttpAddress interface","IWSDHttpAddress interface","GetSecure method","IWSDHttpAddress.GetSecure","IWSDHttpAddress::GetSecure","ncd.iwsdhttpaddress_getsecure","wsdbase/IWSDHttpAddress::GetSecure"]
 old-location: ncd\iwsdhttpaddress_getsecure.htm
 tech.root: WsdApi
 ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18

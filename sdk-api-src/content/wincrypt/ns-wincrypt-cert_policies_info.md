@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_POLICIES_INFO
 title: CERT_POLICIES_INFO (wincrypt.h)
-description: The CERT_POLICIES_INFO structure contains an array of CERT_POLICY_INFO.helpviewer_keywords: ["*PCERT_POLICIES_INFO","CERT_POLICIES_INFO","CERT_POLICIES_INFO structure [Security]","PCERT_POLICIES_INFO","PCERT_POLICIES_INFO structure pointer [Security]","_crypto2_cert_policies_info","security.cert_policies_info","wincrypt/CERT_POLICIES_INFO","wincrypt/PCERT_POLICIES_INFO"]
+description: The CERT_POLICIES_INFO structure contains an array of CERT_POLICY_INFO.
+helpviewer_keywords: ["*PCERT_POLICIES_INFO","CERT_POLICIES_INFO","CERT_POLICIES_INFO structure [Security]","PCERT_POLICIES_INFO","PCERT_POLICIES_INFO structure pointer [Security]","_crypto2_cert_policies_info","security.cert_policies_info","wincrypt/CERT_POLICIES_INFO","wincrypt/PCERT_POLICIES_INFO"]
 old-location: security\cert_policies_info.htm
 tech.root: SecCrypto
 ms.assetid: cf5fafd9-6129-4f25-8d61-189b46585e57

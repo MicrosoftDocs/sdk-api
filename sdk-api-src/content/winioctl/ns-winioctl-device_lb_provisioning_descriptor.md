@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._DEVICE_LB_PROVISIONING_DESCRIPTOR
 title: DEVICE_LB_PROVISIONING_DESCRIPTOR
-description: Contains the thin provisioning capabilities for a storage device.helpviewer_keywords: ["*PDEVICE_LB_PROVISIONING_DESCRIPTOR","DEVICE_LB_PROVISIONING_DESCRIPTOR","DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Files]","PDEVICE_LB_PROVISIONING_DESCRIPTOR","PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Files]","fs.device_lb_provisioning_descriptor","winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR","winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR"]
+description: Contains the thin provisioning capabilities for a storage device.
+helpviewer_keywords: ["*PDEVICE_LB_PROVISIONING_DESCRIPTOR","DEVICE_LB_PROVISIONING_DESCRIPTOR","DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Files]","PDEVICE_LB_PROVISIONING_DESCRIPTOR","PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Files]","fs.device_lb_provisioning_descriptor","winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR","winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR"]
 old-location: fs\device_lb_provisioning_descriptor.htm
 tech.root: FileIO
 ms.assetid: dbc46b33-9e9d-4ccf-9bc9-1df70738fa73

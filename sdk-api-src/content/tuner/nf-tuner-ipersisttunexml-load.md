@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IPersistTuneXml.Load
 title: IPersistTuneXml::Load (tuner.h)
-description: Deserializes a tuning model object from an XML node.helpviewer_keywords: ["IPersistTuneXml interface [Microsoft TV Technologies]","Load method","IPersistTuneXml.Load","IPersistTuneXml::Load","Load","Load method [Microsoft TV Technologies]","Load method [Microsoft TV Technologies]","IPersistTuneXml interface","mstv.ipersisttunexml_load","tuner/IPersistTuneXml::Load"]
+description: Deserializes a tuning model object from an XML node.
+helpviewer_keywords: ["IPersistTuneXml interface [Microsoft TV Technologies]","Load method","IPersistTuneXml.Load","IPersistTuneXml::Load","Load","Load method [Microsoft TV Technologies]","Load method [Microsoft TV Technologies]","IPersistTuneXml interface","mstv.ipersisttunexml_load","tuner/IPersistTuneXml::Load"]
 old-location: mstv\ipersisttunexml_load.htm
 tech.root: mstv
 ms.assetid: afbfb4da-ac61-496b-9383-05c312bbfc2c

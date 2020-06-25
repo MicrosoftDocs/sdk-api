@@ -1,7 +1,8 @@
 ---
 UID: NS:bcrypt._BCRYPT_DSA_KEY_BLOB
 title: BCRYPT_DSA_KEY_BLOB (bcrypt.h)
-description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.helpviewer_keywords: ["*PBCRYPT_DSA_KEY_BLOB","BCRYPT_DSA_KEY_BLOB","BCRYPT_DSA_KEY_BLOB structure [Security]","BCRYPT_DSA_PRIVATE_MAGIC","BCRYPT_DSA_PUBLIC_MAGIC","PBCRYPT_DSA_KEY_BLOB","PBCRYPT_DSA_KEY_BLOB structure pointer [Security]","bcrypt/BCRYPT_DSA_KEY_BLOB","bcrypt/PBCRYPT_DSA_KEY_BLOB","security.bcrypt_dsa_key_blob"]
+description: Used as a header for a Digital Signature Algorithm (DSA) public key or private key BLOB in memory.
+helpviewer_keywords: ["*PBCRYPT_DSA_KEY_BLOB","BCRYPT_DSA_KEY_BLOB","BCRYPT_DSA_KEY_BLOB structure [Security]","BCRYPT_DSA_PRIVATE_MAGIC","BCRYPT_DSA_PUBLIC_MAGIC","PBCRYPT_DSA_KEY_BLOB","PBCRYPT_DSA_KEY_BLOB structure pointer [Security]","bcrypt/BCRYPT_DSA_KEY_BLOB","bcrypt/PBCRYPT_DSA_KEY_BLOB","security.bcrypt_dsa_key_blob"]
 old-location: security\bcrypt_dsa_key_blob.htm
 tech.root: SecCNG
 ms.assetid: 3db36170-106e-49c8-9866-e25759bdd7f9

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Region.Clone
 title: Region::Clone (gdiplusheaders.h)
-description: The Region::Clone method makes a copy of this Regionobject and returns the address of the new Regionobject.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","Region class","Region class [GDI+]","Clone method","Region.Clone","Region::Clone","_gdiplus_CLASS_Region_Clone_","gdiplus._gdiplus_CLASS_Region_Clone_"]
+description: The Region::Clone method makes a copy of this Regionobject and returns the address of the new Regionobject.
+helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","Region class","Region class [GDI+]","Clone method","Region.Clone","Region::Clone","_gdiplus_CLASS_Region_Clone_","gdiplus._gdiplus_CLASS_Region_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\clone_1.htm

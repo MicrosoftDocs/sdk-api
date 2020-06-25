@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetInterfaceCapability
 title: IMbnInterface::GetInterfaceCapability (mbnapi.h)
-description: Gets the capabilities of the device.helpviewer_keywords: ["GetInterfaceCapability","GetInterfaceCapability method [Microsoft Broadband Networks]","GetInterfaceCapability method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetInterfaceCapability method","IMbnInterface.GetInterfaceCapability","IMbnInterface::GetInterfaceCapability","mbn.imbninterface_getinterfacecapability","mbnapi/IMbnInterface::GetInterfaceCapability"]
+description: Gets the capabilities of the device.
+helpviewer_keywords: ["GetInterfaceCapability","GetInterfaceCapability method [Microsoft Broadband Networks]","GetInterfaceCapability method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetInterfaceCapability method","IMbnInterface.GetInterfaceCapability","IMbnInterface::GetInterfaceCapability","mbn.imbninterface_getinterfacecapability","mbnapi/IMbnInterface::GetInterfaceCapability"]
 old-location: mbn\imbninterface_getinterfacecapability.htm
 tech.root: mbn
 ms.assetid: cfe8f638-ad17-4118-9c79-b7ebc81c726a

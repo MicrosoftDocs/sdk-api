@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.SetRestoreName
 title: IVssBackupComponentsEx2::SetRestoreName (vsbackup.h)
-description: Assigns a new logical name to a component that is being restored.helpviewer_keywords: ["IVssBackupComponentsEx2 interface","SetRestoreName method","IVssBackupComponentsEx2.SetRestoreName","IVssBackupComponentsEx2::SetRestoreName","SetRestoreName","SetRestoreName method","SetRestoreName method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_setrestorename","vsbackup/IVssBackupComponentsEx2::SetRestoreName"]
+description: Assigns a new logical name to a component that is being restored.
+helpviewer_keywords: ["IVssBackupComponentsEx2 interface","SetRestoreName method","IVssBackupComponentsEx2.SetRestoreName","IVssBackupComponentsEx2::SetRestoreName","SetRestoreName","SetRestoreName method","SetRestoreName method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_setrestorename","vsbackup/IVssBackupComponentsEx2::SetRestoreName"]
 old-location: base\ivssbackupcomponentsex2_setrestorename.htm
 tech.root: VSS
 ms.assetid: a8334b28-9328-49f4-bf92-f43c556781bf

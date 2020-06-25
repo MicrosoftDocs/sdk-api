@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_DISPATCH_ARGUMENTS
 title: D3D12_DISPATCH_ARGUMENTS (d3d12.h)
-description: Describes dispatch parameters, for use by the compute shader.helpviewer_keywords: ["D3D12_DISPATCH_ARGUMENTS","D3D12_DISPATCH_ARGUMENTS structure","d3d12/D3D12_DISPATCH_ARGUMENTS","direct3d12.d3d12_dispatch_arguments"]
+description: Describes dispatch parameters, for use by the compute shader.
+helpviewer_keywords: ["D3D12_DISPATCH_ARGUMENTS","D3D12_DISPATCH_ARGUMENTS structure","d3d12/D3D12_DISPATCH_ARGUMENTS","direct3d12.d3d12_dispatch_arguments"]
 old-location: direct3d12\d3d12_dispatch_arguments.htm
 tech.root: direct3d12
 ms.assetid: E48E4D01-DED2-4FB0-AD5A-EE1496ACF025

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiRemoveDeviceInterface
 title: SetupDiRemoveDeviceInterface function (setupapi.h)
-description: The SetupDiRemoveDeviceInterface function removes a registered device interface from the system.helpviewer_keywords: ["SetupDiRemoveDeviceInterface","SetupDiRemoveDeviceInterface function [Device and Driver Installation]","devinst.setupdiremovedeviceinterface","di-rtns_8401d04f-f4a5-4214-88fe-2c1309978af9.xml","setupapi/SetupDiRemoveDeviceInterface"]
+description: The SetupDiRemoveDeviceInterface function removes a registered device interface from the system.
+helpviewer_keywords: ["SetupDiRemoveDeviceInterface","SetupDiRemoveDeviceInterface function [Device and Driver Installation]","devinst.setupdiremovedeviceinterface","di-rtns_8401d04f-f4a5-4214-88fe-2c1309978af9.xml","setupapi/SetupDiRemoveDeviceInterface"]
 old-location: devinst\setupdiremovedeviceinterface.htm
 tech.root: devinst
 ms.assetid: 5eb92c58-150a-4e52-897f-e2a2da36743d

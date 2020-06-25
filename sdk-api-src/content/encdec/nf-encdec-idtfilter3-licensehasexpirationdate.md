@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IDTFilter3.LicenseHasExpirationDate
 title: IDTFilter3::LicenseHasExpirationDate (encdec.h)
-description: The LicenseHasExpirationDate method queries whether the license for the content has an expiration date.helpviewer_keywords: ["IDTFilter3 interface [Microsoft TV Technologies]","LicenseHasExpirationDate method","IDTFilter3.LicenseHasExpirationDate","IDTFilter3::LicenseHasExpirationDate","IDTFilter3LicenseHasExpirationDate","LicenseHasExpirationDate","LicenseHasExpirationDate method [Microsoft TV Technologies]","LicenseHasExpirationDate method [Microsoft TV Technologies]","IDTFilter3 interface","encdec/IDTFilter3::LicenseHasExpirationDate","mstv.idtfilter3_licensehasexpirationdate"]
+description: The LicenseHasExpirationDate method queries whether the license for the content has an expiration date.
+helpviewer_keywords: ["IDTFilter3 interface [Microsoft TV Technologies]","LicenseHasExpirationDate method","IDTFilter3.LicenseHasExpirationDate","IDTFilter3::LicenseHasExpirationDate","IDTFilter3LicenseHasExpirationDate","LicenseHasExpirationDate","LicenseHasExpirationDate method [Microsoft TV Technologies]","LicenseHasExpirationDate method [Microsoft TV Technologies]","IDTFilter3 interface","encdec/IDTFilter3::LicenseHasExpirationDate","mstv.idtfilter3_licensehasexpirationdate"]
 old-location: mstv\idtfilter3_licensehasexpirationdate.htm
 tech.root: mstv
 ms.assetid: 712be51a-27ed-4ede-bef6-9223c57f446f

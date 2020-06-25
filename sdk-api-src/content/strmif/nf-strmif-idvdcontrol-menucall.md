@@ -50,7 +50,6 @@ ms.custom: 19H1
 ## -description
 
 
-
 <div class="alert"><b>Note</b>  The <b>IDvdControl</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> instread.</div>
 <div> </div>
 Displays the specified menu on the screen.
@@ -67,7 +66,6 @@ Displays the specified menu on the screen.
 
 Value that specifies the menu to display. Member of the <a href="/windows/win32/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumerated data type.
 
-
 ## -returns
 
 
@@ -80,14 +78,11 @@ Returns an <b>HRESULT</b> value.
 ## -remarks
 
 
-
 This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 
-
 ## -see-also
-
 
 
 
@@ -96,7 +91,6 @@ This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, D
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
- 
 
  
 

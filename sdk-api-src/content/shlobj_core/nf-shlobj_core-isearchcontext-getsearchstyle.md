@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ISearchContext.GetSearchStyle
 title: ISearchContext::GetSearchStyle (shlobj_core.h)
-description: Overrides the registry settings that determine how an autosearch is performed.helpviewer_keywords: ["GetSearchStyle","GetSearchStyle method [Windows Shell]","GetSearchStyle method [Windows Shell]","ISearchContext interface","ISearchContext interface [Windows Shell]","GetSearchStyle method","ISearchContext.GetSearchStyle","ISearchContext::GetSearchStyle","_shell_ISearchContext_GetSearchStyle","shell.ISearchContext_GetSearchStyle","shlobj_core/ISearchContext::GetSearchStyle"]
+description: Overrides the registry settings that determine how an autosearch is performed.
+helpviewer_keywords: ["GetSearchStyle","GetSearchStyle method [Windows Shell]","GetSearchStyle method [Windows Shell]","ISearchContext interface","ISearchContext interface [Windows Shell]","GetSearchStyle method","ISearchContext.GetSearchStyle","ISearchContext::GetSearchStyle","_shell_ISearchContext_GetSearchStyle","shell.ISearchContext_GetSearchStyle","shlobj_core/ISearchContext::GetSearchStyle"]
 old-location: shell\ISearchContext_GetSearchStyle.htm
 tech.root: shell
 ms.assetid: d2ea6201-fd70-46de-8270-c0cc34c728aa

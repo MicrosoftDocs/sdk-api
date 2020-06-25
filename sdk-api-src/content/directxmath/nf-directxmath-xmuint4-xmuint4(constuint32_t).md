@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(const uint32_t)
 title: XMUINT4::XMUINT4(const uint32_t) (directxmath.h)
-description: Initializes a new instance of XMUINT4 from a four element uint32_t array argument.helpviewer_keywords: ["XMUINT4","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 structure","XMUINT4 structure [DirectX Math Support APIs]","XMUINT4 constructor","XMUINT4.XMUINT4","XMUINT4.XMUINT4()","XMUINT4.XMUINT4(const uint32_t)","XMUINT4::XMUINT4","XMUINT4::XMUINT4(const uint32_t)","dxmath.xmuint4_ctor_1"]
+description: Initializes a new instance of XMUINT4 from a four element uint32_t array argument.
+helpviewer_keywords: ["XMUINT4","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 structure","XMUINT4 structure [DirectX Math Support APIs]","XMUINT4 constructor","XMUINT4.XMUINT4","XMUINT4.XMUINT4()","XMUINT4.XMUINT4(const uint32_t)","XMUINT4::XMUINT4","XMUINT4::XMUINT4(const uint32_t)","dxmath.xmuint4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 015b6b50-e749-452e-b05e-a5d18c29fea2

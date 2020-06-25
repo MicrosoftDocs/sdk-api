@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithPropertyStore.Initialize
 title: IInitializeWithPropertyStore::Initialize (shobjidl_core.h)
-description: Initializes a handler with an IPropertyStore.helpviewer_keywords: ["IInitializeWithPropertyStore interface [Windows Shell]","Initialize method","IInitializeWithPropertyStore.Initialize","IInitializeWithPropertyStore::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithPropertyStore interface","_shell_IInitializeWithPropertyStore_Initialize","shell.IInitializeWithPropertyStore_Initialize","shobjidl_core/IInitializeWithPropertyStore::Initialize"]
+description: Initializes a handler with an IPropertyStore.
+helpviewer_keywords: ["IInitializeWithPropertyStore interface [Windows Shell]","Initialize method","IInitializeWithPropertyStore.Initialize","IInitializeWithPropertyStore::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithPropertyStore interface","_shell_IInitializeWithPropertyStore_Initialize","shell.IInitializeWithPropertyStore_Initialize","shobjidl_core/IInitializeWithPropertyStore::Initialize"]
 old-location: shell\IInitializeWithPropertyStore_Initialize.htm
 tech.root: shell
 ms.assetid: 6890873f-d929-42a1-ab75-6f408581d74f

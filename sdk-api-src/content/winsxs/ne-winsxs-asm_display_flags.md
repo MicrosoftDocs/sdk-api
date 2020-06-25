@@ -1,7 +1,8 @@
 ---
 UID: NE:winsxs.__MIDL_IAssemblyName_0003
 title: ASM_DISPLAY_FLAGS (winsxs.h)
-description: The values of the ASM_DISPLAY_FLAGS enumeration are used by the GetDisplayName method to specify which portions of the assembly's full name to include in the string representation of the assembly name.helpviewer_keywords: ["ASM_DISPLAYF_CULTURE","ASM_DISPLAYF_CUSTOM","ASM_DISPLAYF_LANGUAGEID","ASM_DISPLAYF_PROCESSORARCHITECTURE","ASM_DISPLAYF_PUBLIC_KEY","ASM_DISPLAYF_PUBLIC_KEY_TOKEN","ASM_DISPLAYF_VERSION","ASM_DISPLAY_FLAGS","ASM_DISPLAY_FLAGS","ASM_DISPLAY_FLAGS enumeration [Side-by-side Assemblies]","setup.asm_display_flags_","winsxs/ASM_DISPLAYF_CULTURE","winsxs/ASM_DISPLAYF_CUSTOM","winsxs/ASM_DISPLAYF_LANGUAGEID","winsxs/ASM_DISPLAYF_PROCESSORARCHITECTURE","winsxs/ASM_DISPLAYF_PUBLIC_KEY","winsxs/ASM_DISPLAYF_PUBLIC_KEY_TOKEN","winsxs/ASM_DISPLAYF_VERSION","winsxs/ASM_DISPLAY_FLAGS"]
+description: The values of the ASM_DISPLAY_FLAGS enumeration are used by the GetDisplayName method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
+helpviewer_keywords: ["ASM_DISPLAYF_CULTURE","ASM_DISPLAYF_CUSTOM","ASM_DISPLAYF_LANGUAGEID","ASM_DISPLAYF_PROCESSORARCHITECTURE","ASM_DISPLAYF_PUBLIC_KEY","ASM_DISPLAYF_PUBLIC_KEY_TOKEN","ASM_DISPLAYF_VERSION","ASM_DISPLAY_FLAGS","ASM_DISPLAY_FLAGS","ASM_DISPLAY_FLAGS enumeration [Side-by-side Assemblies]","setup.asm_display_flags_","winsxs/ASM_DISPLAYF_CULTURE","winsxs/ASM_DISPLAYF_CUSTOM","winsxs/ASM_DISPLAYF_LANGUAGEID","winsxs/ASM_DISPLAYF_PROCESSORARCHITECTURE","winsxs/ASM_DISPLAYF_PUBLIC_KEY","winsxs/ASM_DISPLAYF_PUBLIC_KEY_TOKEN","winsxs/ASM_DISPLAYF_VERSION","winsxs/ASM_DISPLAY_FLAGS"]
 old-location: setup\asm_display_flags_.htm
 tech.root: SbsCs
 ms.assetid: 8f4c00b9-2684-44eb-9a68-bef6da87c396

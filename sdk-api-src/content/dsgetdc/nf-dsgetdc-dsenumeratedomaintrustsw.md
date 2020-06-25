@@ -1,7 +1,8 @@
 ---
 UID: NF:dsgetdc.DsEnumerateDomainTrustsW
 title: DsEnumerateDomainTrustsW function (dsgetdc.h)
-description: Obtains domain trust data for a specified domain.helpviewer_keywords: ["DS_DOMAIN_DIRECT_INBOUND","DS_DOMAIN_DIRECT_OUTBOUND","DS_DOMAIN_IN_FOREST","DS_DOMAIN_NATIVE_MODE","DS_DOMAIN_PRIMARY","DS_DOMAIN_TREE_ROOT","DsEnumerateDomainTrusts","DsEnumerateDomainTrusts function [Active Directory]","DsEnumerateDomainTrustsA","DsEnumerateDomainTrustsW","_glines_dsenumeratedomaintrusts","ad.dsenumeratedomaintrusts","dsgetdc/DsEnumerateDomainTrusts","dsgetdc/DsEnumerateDomainTrustsA","dsgetdc/DsEnumerateDomainTrustsW"]
+description: Obtains domain trust data for a specified domain.
+helpviewer_keywords: ["DS_DOMAIN_DIRECT_INBOUND","DS_DOMAIN_DIRECT_OUTBOUND","DS_DOMAIN_IN_FOREST","DS_DOMAIN_NATIVE_MODE","DS_DOMAIN_PRIMARY","DS_DOMAIN_TREE_ROOT","DsEnumerateDomainTrusts","DsEnumerateDomainTrusts function [Active Directory]","DsEnumerateDomainTrustsA","DsEnumerateDomainTrustsW","_glines_dsenumeratedomaintrusts","ad.dsenumeratedomaintrusts","dsgetdc/DsEnumerateDomainTrusts","dsgetdc/DsEnumerateDomainTrustsA","dsgetdc/DsEnumerateDomainTrustsW"]
 old-location: ad\dsenumeratedomaintrusts.htm
 tech.root: ad
 ms.assetid: 6c3b788f-ee53-4637-acdb-04316e8464fe
@@ -174,4 +175,9 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error code otherwise. Poss
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The dsgetdc.h header defines DsEnumerateDomainTrusts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

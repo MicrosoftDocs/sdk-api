@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryGuidFromCategoryId
 title: AuditLookupCategoryGuidFromCategoryId function (ntsecapi.h)
-description: Retrieves a GUID structure that represents the specified audit-policy category.helpviewer_keywords: ["AuditLookupCategoryGuidFromCategoryId","AuditLookupCategoryGuidFromCategoryId function [Security]","ntsecapi/AuditLookupCategoryGuidFromCategoryId","security.auditlookupcategoryguidfromcategoryid_func"]
+description: Retrieves a GUID structure that represents the specified audit-policy category.
+helpviewer_keywords: ["AuditLookupCategoryGuidFromCategoryId","AuditLookupCategoryGuidFromCategoryId function [Security]","ntsecapi/AuditLookupCategoryGuidFromCategoryId","security.auditlookupcategoryguidfromcategoryid_func"]
 old-location: security\auditlookupcategoryguidfromcategoryid_func.htm
 tech.root: SecAuthZ
 ms.assetid: 2f00fe52-2e94-473a-be13-252b50b58522

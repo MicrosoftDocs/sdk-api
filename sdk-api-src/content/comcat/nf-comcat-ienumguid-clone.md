@@ -1,7 +1,8 @@
 ---
 UID: NF:comcat.IEnumGUID.Clone
 title: IEnumGUID::Clone (comcat.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumGUID interface","IEnumGUID interface [COM]","Clone method","IEnumGUID.Clone","IEnumGUID::Clone","_com_ienumguid_clone","com.ienumguid_clone","comcat/IEnumGUID::Clone"]
+description: Creates a new enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumGUID interface","IEnumGUID interface [COM]","Clone method","IEnumGUID.Clone","IEnumGUID::Clone","_com_ienumguid_clone","com.ienumguid_clone","comcat/IEnumGUID::Clone"]
 old-location: com\ienumguid_clone.htm
 tech.root: com
 ms.assetid: 5b12adf2-c2fe-4499-ab2a-94af6337e4a2

@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageDependenciesEnumerator
 title: IAppxManifestPackageDependenciesEnumerator (appxpackaging.h)
-description: Enumerates the package dependencies defined in the package manifest.helpviewer_keywords: ["IAppxManifestPackageDependenciesEnumerator","IAppxManifestPackageDependenciesEnumerator interface [App packaging and management]","IAppxManifestPackageDependenciesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestPackageDependenciesEnumerator","appxpkg.iappxmanifestpackagedependenciesenumerator"]
+description: Enumerates the package dependencies defined in the package manifest.
+helpviewer_keywords: ["IAppxManifestPackageDependenciesEnumerator","IAppxManifestPackageDependenciesEnumerator interface [App packaging and management]","IAppxManifestPackageDependenciesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestPackageDependenciesEnumerator","appxpkg.iappxmanifestpackagedependenciesenumerator"]
 old-location: appxpkg\iappxmanifestpackagedependenciesenumerator.htm
 tech.root: appxpkg
 ms.assetid: A09709AE-301F-4457-8E02-1A88FB283A43

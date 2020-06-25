@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList.SetOverlayImage
 title: IImageList::SetOverlayImage (commoncontrols.h)
-description: Adds a specified image to the list of images used as overlay masks.helpviewer_keywords: ["IImageList interface [Windows Controls]","SetOverlayImage method","IImageList.SetOverlayImage","IImageList::SetOverlayImage","SetOverlayImage","SetOverlayImage method [Windows Controls]","SetOverlayImage method [Windows Controls]","IImageList interface","comctl_IImageList_SetOverlayImage","comctl_IImageList_SetOverlayImage_cpp","commoncontrols/IImageList::SetOverlayImage","controls.IImageList_SetOverlayImage","controls.comctl_IImageList_SetOverlayImage"]
+description: Adds a specified image to the list of images used as overlay masks.
+helpviewer_keywords: ["IImageList interface [Windows Controls]","SetOverlayImage method","IImageList.SetOverlayImage","IImageList::SetOverlayImage","SetOverlayImage","SetOverlayImage method [Windows Controls]","SetOverlayImage method [Windows Controls]","IImageList interface","comctl_IImageList_SetOverlayImage","comctl_IImageList_SetOverlayImage_cpp","commoncontrols/IImageList::SetOverlayImage","controls.IImageList_SetOverlayImage","controls.comctl_IImageList_SetOverlayImage"]
 old-location: controls\IImageList_SetOverlayImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setoverlayimage.htm

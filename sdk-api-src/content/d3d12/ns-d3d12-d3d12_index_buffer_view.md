@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_INDEX_BUFFER_VIEW
 title: D3D12_INDEX_BUFFER_VIEW (d3d12.h)
-description: Describes the index buffer to view.helpviewer_keywords: ["D3D12_INDEX_BUFFER_VIEW","D3D12_INDEX_BUFFER_VIEW structure","d3d12/D3D12_INDEX_BUFFER_VIEW","direct3d12.d3d12_index_buffer_view"]
+description: Describes the index buffer to view.
+helpviewer_keywords: ["D3D12_INDEX_BUFFER_VIEW","D3D12_INDEX_BUFFER_VIEW structure","d3d12/D3D12_INDEX_BUFFER_VIEW","direct3d12.d3d12_index_buffer_view"]
 old-location: direct3d12\d3d12_index_buffer_view.htm
 tech.root: direct3d12
 ms.assetid: CADD98BF-EDA9-43D6-9ADA-392051541B61

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get__NewEnum
 title: IProgressItems::get__NewEnum (imapi2fs.h)
-description: Retrieves the list of progress items from the collection.helpviewer_keywords: ["IProgressItems interface [IMAPI]","get__NewEnum method","IProgressItems.get__NewEnum","IProgressItems::get__NewEnum","get__NewEnum","get__NewEnum method [IMAPI]","get__NewEnum method [IMAPI]","IProgressItems interface","imapi.iprogressitems_get__newenum","imapi2fs/IProgressItems::get__NewEnum"]
+description: Retrieves the list of progress items from the collection.
+helpviewer_keywords: ["IProgressItems interface [IMAPI]","get__NewEnum method","IProgressItems.get__NewEnum","IProgressItems::get__NewEnum","get__NewEnum","get__NewEnum method [IMAPI]","get__NewEnum method [IMAPI]","IProgressItems interface","imapi.iprogressitems_get__newenum","imapi2fs/IProgressItems::get__NewEnum"]
 old-location: imapi\iprogressitems_get__newenum.htm
 tech.root: imapi
 ms.assetid: 24528fad-b88c-429a-b5c9-e232e62d3aeb

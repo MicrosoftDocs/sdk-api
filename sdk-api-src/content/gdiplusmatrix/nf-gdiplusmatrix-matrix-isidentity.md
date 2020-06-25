@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.IsIdentity
 title: Matrix::IsIdentity (gdiplusmatrix.h)
-description: The Matrix::IsIdentity method determines whether this matrix is the identity matrix.helpviewer_keywords: ["IsIdentity","IsIdentity method [GDI+]","IsIdentity method [GDI+]","Matrix class","Matrix class [GDI+]","IsIdentity method","Matrix.IsIdentity","Matrix::IsIdentity","_gdiplus_CLASS_Matrix_IsIdentity_","gdiplus._gdiplus_CLASS_Matrix_IsIdentity_"]
+description: The Matrix::IsIdentity method determines whether this matrix is the identity matrix.
+helpviewer_keywords: ["IsIdentity","IsIdentity method [GDI+]","IsIdentity method [GDI+]","Matrix class","Matrix class [GDI+]","IsIdentity method","Matrix.IsIdentity","Matrix::IsIdentity","_gdiplus_CLASS_Matrix_IsIdentity_","gdiplus._gdiplus_CLASS_Matrix_IsIdentity_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_IsIdentity_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isidentity.htm

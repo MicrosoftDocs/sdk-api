@@ -1,7 +1,8 @@
 ---
 UID: NN:peninputpanel.IHandwrittenTextInsertion
 title: IHandwrittenTextInsertion (peninputpanel.h)
-description: Used by the application's custom text entry code to insert the text into both the text field and the Text Services backing-store.helpviewer_keywords: ["67fcf19a-a864-40de-987f-406f18726a9f","IHandWrittenTextInsertion","IHandWrittenTextInsertion interface [Tablet PC]","IHandWrittenTextInsertion interface [Tablet PC]","described","peninputpanel/IHandWrittenTextInsertion","tablet.ihandwrittentextinsertion"]
+description: Used by the application's custom text entry code to insert the text into both the text field and the Text Services backing-store.
+helpviewer_keywords: ["67fcf19a-a864-40de-987f-406f18726a9f","IHandWrittenTextInsertion","IHandWrittenTextInsertion interface [Tablet PC]","IHandWrittenTextInsertion interface [Tablet PC]","described","peninputpanel/IHandWrittenTextInsertion","tablet.ihandwrittentextinsertion"]
 old-location: tablet\ihandwrittentextinsertion.htm
 tech.root: tablet
 ms.assetid: 67fcf19a-a864-40de-987f-406f18726a9f

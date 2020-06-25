@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetClassLongPtrA
 title: SetClassLongPtrA function (winuser.h)
-description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.helpviewer_keywords: ["GCLP_ HBRBACKGROUND","GCLP_HCURSOR","GCLP_HICON","GCLP_HICONSM","GCLP_HMODULE","GCLP_MENUNAME","GCLP_WNDPROC","GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_STYLE","SetClassLongPtr","SetClassLongPtr function [Windows and Messages]","SetClassLongPtrA","SetClassLongPtrW","_win32_SetClassLongPtr","_win32_setclasslongptr_cpp","winmsg.setclasslongptr","winui._win32_setclasslongptr","winuser/SetClassLongPtr","winuser/SetClassLongPtrA","winuser/SetClassLongPtrW"]
+description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
+helpviewer_keywords: ["GCLP_ HBRBACKGROUND","GCLP_HCURSOR","GCLP_HICON","GCLP_HICONSM","GCLP_HMODULE","GCLP_MENUNAME","GCLP_WNDPROC","GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_STYLE","SetClassLongPtr","SetClassLongPtr function [Windows and Messages]","SetClassLongPtrA","SetClassLongPtrW","_win32_SetClassLongPtr","_win32_setclasslongptr_cpp","winmsg.setclasslongptr","winui._win32_setclasslongptr","winuser/SetClassLongPtr","winuser/SetClassLongPtrA","winuser/SetClassLongPtrW"]
 old-location: winmsg\setclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslongptr.htm
@@ -230,6 +231,10 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SetClassLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

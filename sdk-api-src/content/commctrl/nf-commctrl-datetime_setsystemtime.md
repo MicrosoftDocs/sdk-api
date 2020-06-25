@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DateTime_SetSystemtime
 title: DateTime_SetSystemtime macro (commctrl.h)
-description: Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the DTM_SETSYSTEMTIME message explicitly.helpviewer_keywords: ["DateTime_SetSystemtime","DateTime_SetSystemtime macro [Windows Controls]","GDT_NONE","GDT_VALID","_win32_DateTime_SetSystemtime","_win32_DateTime_SetSystemtime_cpp","commctrl/DateTime_SetSystemtime","controls.DateTime_SetSystemtime","controls._win32_DateTime_SetSystemtime"]
+description: Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the DTM_SETSYSTEMTIME message explicitly.
+helpviewer_keywords: ["DateTime_SetSystemtime","DateTime_SetSystemtime macro [Windows Controls]","GDT_NONE","GDT_VALID","_win32_DateTime_SetSystemtime","_win32_DateTime_SetSystemtime_cpp","commctrl/DateTime_SetSystemtime","controls.DateTime_SetSystemtime","controls._win32_DateTime_SetSystemtime"]
 old-location: controls\DateTime_SetSystemtime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm

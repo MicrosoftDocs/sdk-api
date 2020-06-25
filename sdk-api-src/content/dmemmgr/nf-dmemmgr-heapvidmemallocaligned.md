@@ -1,7 +1,8 @@
 ---
 UID: NF:dmemmgr.HeapVidMemAllocAligned
 title: HeapVidMemAllocAligned function (dmemmgr.h)
-description: The HeapVidMemAllocAligned function allocates off_screen_memory for a display driver by using the DirectDraw video memory heap manager.helpviewer_keywords: ["HeapVidMemAllocAligned","HeapVidMemAllocAligned function [Display Devices]","display.heapvidmemallocaligned","dmemmgr/HeapVidMemAllocAligned","gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml"]
+description: The HeapVidMemAllocAligned function allocates off_screen_memory for a display driver by using the DirectDraw video memory heap manager.
+helpviewer_keywords: ["HeapVidMemAllocAligned","HeapVidMemAllocAligned function [Display Devices]","display.heapvidmemallocaligned","dmemmgr/HeapVidMemAllocAligned","gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml"]
 old-location: display\heapvidmemallocaligned.htm
 tech.root: display
 ms.assetid: efd004d5-58fc-4721-9a74-d018cb3e5de9

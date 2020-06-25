@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpExtensionClose
 title: SnmpExtensionClose function (snmp.h)
-description: The Microsoft SNMP service calls the SnmpExtensionClose function to request that the SNMP extension agent deallocate resources and terminate operations. This function is an element of the SNMP Extension Agent API.helpviewer_keywords: ["SnmpExtensionClose","SnmpExtensionClose callback","SnmpExtensionClose callback function [SNMP]","_snmp_snmpextensionclose","snmp.snmpextensionclose","snmp/SnmpExtensionClose"]
+description: The Microsoft SNMP service calls the SnmpExtensionClose function to request that the SNMP extension agent deallocate resources and terminate operations. This function is an element of the SNMP Extension Agent API.
+helpviewer_keywords: ["SnmpExtensionClose","SnmpExtensionClose callback","SnmpExtensionClose callback function [SNMP]","_snmp_snmpextensionclose","snmp.snmpextensionclose","snmp/SnmpExtensionClose"]
 old-location: snmp\snmpextensionclose.htm
 tech.root: SNMP
 ms.assetid: 19fcac27-daa1-40e2-9038-7f03279381f0

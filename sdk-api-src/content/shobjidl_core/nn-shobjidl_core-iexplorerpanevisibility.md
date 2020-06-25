@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IExplorerPaneVisibility
 title: IExplorerPaneVisibility (shobjidl_core.h)
-description: Used in Windows Explorer by an IShellFolder implementation to give suggestions to the view about what panes are visible.helpviewer_keywords: ["IExplorerPaneVisibility","IExplorerPaneVisibility interface [Windows Shell]","IExplorerPaneVisibility interface [Windows Shell]","described","_shell_IExplorerPaneVisibility","shell.IExplorerPaneVisibility","shobjidl_core/IExplorerPaneVisibility"]
+description: Used in Windows Explorer by an IShellFolder implementation to give suggestions to the view about what panes are visible.
+helpviewer_keywords: ["IExplorerPaneVisibility","IExplorerPaneVisibility interface [Windows Shell]","IExplorerPaneVisibility interface [Windows Shell]","described","_shell_IExplorerPaneVisibility","shell.IExplorerPaneVisibility","shobjidl_core/IExplorerPaneVisibility"]
 old-location: shell\IExplorerPaneVisibility.htm
 tech.root: shell
 ms.assetid: b940adc2-dfef-49c5-b86c-d0da83db0aad

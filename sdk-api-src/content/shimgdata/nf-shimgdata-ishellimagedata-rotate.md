@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.Rotate
 title: IShellImageData::Rotate (shimgdata.h)
-description: Rotates an image in increments of 90 degrees.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","Rotate method","IShellImageData.Rotate","IShellImageData::Rotate","Rotate","Rotate method [Windows Shell]","Rotate method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_Rotate","shell.IShellImageData_Rotate","shimgdata/IShellImageData::Rotate"]
+description: Rotates an image in increments of 90 degrees.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","Rotate method","IShellImageData.Rotate","IShellImageData::Rotate","Rotate","Rotate method [Windows Shell]","Rotate method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_Rotate","shell.IShellImageData_Rotate","shimgdata/IShellImageData::Rotate"]
 old-location: shell\IShellImageData_Rotate.htm
 tech.root: shell
 ms.assetid: 42fd8596-e130-4029-bf3c-67199e8dd804

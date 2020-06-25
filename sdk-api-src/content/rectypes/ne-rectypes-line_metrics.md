@@ -1,7 +1,8 @@
 ---
 UID: NE:rectypes.enumLINE_METRICS
 title: LINE_METRICS (rectypes.h)
-description: Represents the lines found in a recognition segment.helpviewer_keywords: ["1317badb-38e1-41fe-9918-c28da88aa511","LINE_METRICS","LINE_METRICS enumeration [Tablet PC]","LM_ASCENDER","LM_BASELINE","LM_DESCENDER","LM_MIDLINE","rectypes/LINE_METRICS","rectypes/LM_ASCENDER","rectypes/LM_BASELINE","rectypes/LM_DESCENDER","rectypes/LM_MIDLINE","tablet.line_metrics"]
+description: Represents the lines found in a recognition segment.
+helpviewer_keywords: ["1317badb-38e1-41fe-9918-c28da88aa511","LINE_METRICS","LINE_METRICS enumeration [Tablet PC]","LM_ASCENDER","LM_BASELINE","LM_DESCENDER","LM_MIDLINE","rectypes/LINE_METRICS","rectypes/LM_ASCENDER","rectypes/LM_BASELINE","rectypes/LM_DESCENDER","rectypes/LM_MIDLINE","tablet.line_metrics"]
 old-location: tablet\line_metrics.htm
 tech.root: tablet
 ms.assetid: 1317badb-38e1-41fe-9918-c28da88aa511

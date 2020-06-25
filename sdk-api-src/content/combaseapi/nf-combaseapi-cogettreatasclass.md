@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetTreatAsClass
 title: CoGetTreatAsClass function (combaseapi.h)
-description: Returns the CLSID of an object that can emulate the specified object.helpviewer_keywords: ["CoGetTreatAsClass","CoGetTreatAsClass function [COM]","_com_CoGetTreatAsClass","com.cogettreatasclass","combaseapi/CoGetTreatAsClass"]
+description: Returns the CLSID of an object that can emulate the specified object.
+helpviewer_keywords: ["CoGetTreatAsClass","CoGetTreatAsClass function [COM]","_com_CoGetTreatAsClass","com.cogettreatasclass","combaseapi/CoGetTreatAsClass"]
 old-location: com\cogettreatasclass.htm
 tech.root: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9

@@ -1,7 +1,8 @@
 ---
 UID: NN:rtscom.IStylusSyncPlugin
 title: IStylusSyncPlugin (rtscom.h)
-description: Represents a synchronous plug-in that can be added to the RealTimeStylus Class object's synchronous plug-in collection.helpviewer_keywords: ["IStylusSyncPlugin","IStylusSyncPlugin interface [Tablet PC]","IStylusSyncPlugin interface [Tablet PC]","described","e3e02d5a-a004-49de-b2d8-86ccfc120481","rtscom/IStylusSyncPlugin","tablet.istylussyncplugin"]
+description: Represents a synchronous plug-in that can be added to the RealTimeStylus Class object's synchronous plug-in collection.
+helpviewer_keywords: ["IStylusSyncPlugin","IStylusSyncPlugin interface [Tablet PC]","IStylusSyncPlugin interface [Tablet PC]","described","e3e02d5a-a004-49de-b2d8-86ccfc120481","rtscom/IStylusSyncPlugin","tablet.istylussyncplugin"]
 old-location: tablet\istylussyncplugin.htm
 tech.root: tablet
 ms.assetid: e3e02d5a-a004-49de-b2d8-86ccfc120481

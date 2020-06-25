@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymEnumLinesW
 title: SymEnumLinesW function (dbghelp.h)
-description: Enumerates all lines in the specified module.helpviewer_keywords: ["SymEnumLines","SymEnumLines function","SymEnumLinesW","base.symenumlines","dbghelp/SymEnumLines","dbghelp/SymEnumLinesW"]
+description: Enumerates all lines in the specified module.
+helpviewer_keywords: ["SymEnumLines","SymEnumLines function","SymEnumLinesW","base.symenumlines","dbghelp/SymEnumLines","dbghelp/SymEnumLinesW"]
 old-location: base\symenumlines.htm
 tech.root: Debug
 ms.assetid: d518b320-e4db-4bd1-8221-583eb84c292c
@@ -115,6 +116,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymEnumLines as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

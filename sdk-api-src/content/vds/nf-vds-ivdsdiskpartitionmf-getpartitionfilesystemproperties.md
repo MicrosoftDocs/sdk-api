@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemProperties
 title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties (vds.h)
-description: Returns property details about the file system on a partition on the disk at a specified byte offset.helpviewer_keywords: ["GetPartitionFileSystemProperties","GetPartitionFileSystemProperties method","GetPartitionFileSystemProperties method","IVdsDiskPartitionMF interface","IVdsDiskPartitionMF interface","GetPartitionFileSystemProperties method","IVdsDiskPartitionMF.GetPartitionFileSystemProperties","IVdsDiskPartitionMF::GetPartitionFileSystemProperties","base.ivdsdiskpartitionmf_getpartitionfilesystemproperties","vds/IVdsDiskPartitionMF::GetPartitionFileSystemProperties"]
+description: Returns property details about the file system on a partition on the disk at a specified byte offset.
+helpviewer_keywords: ["GetPartitionFileSystemProperties","GetPartitionFileSystemProperties method","GetPartitionFileSystemProperties method","IVdsDiskPartitionMF interface","IVdsDiskPartitionMF interface","GetPartitionFileSystemProperties method","IVdsDiskPartitionMF.GetPartitionFileSystemProperties","IVdsDiskPartitionMF::GetPartitionFileSystemProperties","base.ivdsdiskpartitionmf_getpartitionfilesystemproperties","vds/IVdsDiskPartitionMF::GetPartitionFileSystemProperties"]
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemproperties.htm
 tech.root: VDS
 ms.assetid: 1b49ffba-00df-4d8f-a90f-5e26a5c898dd

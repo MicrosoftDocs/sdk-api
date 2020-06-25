@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_DECODER_START_CALLBACK
 title: WS_DECODER_START_CALLBACK (webservices.h)
-description: Starts decoding a message.helpviewer_keywords: ["WS_DECODER_START_CALLBACK","WS_DECODER_START_CALLBACK callback","WS_DECODER_START_CALLBACK callback function [Web Services for Windows]","webservices/WS_DECODER_START_CALLBACK","wsw.ws_decoder_start_callback"]
+description: Starts decoding a message.
+helpviewer_keywords: ["WS_DECODER_START_CALLBACK","WS_DECODER_START_CALLBACK callback","WS_DECODER_START_CALLBACK callback function [Web Services for Windows]","webservices/WS_DECODER_START_CALLBACK","wsw.ws_decoder_start_callback"]
 old-location: wsw\ws_decoder_start_callback.htm
 tech.root: wsw
 ms.assetid: e607b5a2-4d4a-4e23-854d-b5168556bb69

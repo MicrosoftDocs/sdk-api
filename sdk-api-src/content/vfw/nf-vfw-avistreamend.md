@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamEnd
 title: AVIStreamEnd macro (vfw.h)
-description: The AVIStreamEnd macro calculates the sample associated with the end of a stream.helpviewer_keywords: ["AVIStreamEnd","AVIStreamEnd macro [Windows Multimedia]","_win32_AVIStreamEnd","multimedia.avistreamend","vfw/AVIStreamEnd"]
+description: The AVIStreamEnd macro calculates the sample associated with the end of a stream.
+helpviewer_keywords: ["AVIStreamEnd","AVIStreamEnd macro [Windows Multimedia]","_win32_AVIStreamEnd","multimedia.avistreamend","vfw/AVIStreamEnd"]
 old-location: multimedia\avistreamend.htm
 tech.root: Multimedia
 ms.assetid: 9c132953-1b24-4a5f-b2e9-b5569a579696

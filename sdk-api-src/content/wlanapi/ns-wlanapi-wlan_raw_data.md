@@ -1,7 +1,8 @@
 ---
 UID: NS:wlanapi._WLAN_RAW_DATA
 title: WLAN_RAW_DATA (wlanapi.h)
-description: Contains raw data in the form of a blob that is used by some Native Wifi functions.helpviewer_keywords: ["*PWLAN_RAW_DATA","PWLAN_RAW_DATA","PWLAN_RAW_DATA structure pointer [NativeWIFI]","WLAN_RAW_DATA","WLAN_RAW_DATA structure [NativeWIFI]","nwifi.dot11_psd_ie_data_entry","wlanapi/PWLAN_RAW_DATA","wlanapi/WLAN_RAW_DATA"]
+description: Contains raw data in the form of a blob that is used by some Native Wifi functions.
+helpviewer_keywords: ["*PWLAN_RAW_DATA","PWLAN_RAW_DATA","PWLAN_RAW_DATA structure pointer [NativeWIFI]","WLAN_RAW_DATA","WLAN_RAW_DATA structure [NativeWIFI]","nwifi.dot11_psd_ie_data_entry","wlanapi/PWLAN_RAW_DATA","wlanapi/WLAN_RAW_DATA"]
 old-location: nwifi\dot11_psd_ie_data_entry.htm
 tech.root: NativeWiFi
 ms.assetid: 5f5ddecb-f841-436c-bf31-c70c95a5d39c

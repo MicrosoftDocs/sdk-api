@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPServices.get_Item
 title: IUPnPServices::get_Item (upnp.h)
-description: The Item property specifies the IUPnPService interface for a service, identified by the service ID, in the collection.helpviewer_keywords: ["IUPnPServices interface [UPnP APIs]","get_Item method","IUPnPServices.get_Item","IUPnPServices::get_Item","_upnp_iupnpservices_item","get_Item","get_Item method [UPnP APIs]","get_Item method [UPnP APIs]","IUPnPServices interface","upnp.iupnpservices_item","upnp/IUPnPServices::get_Item"]
+description: The Item property specifies the IUPnPService interface for a service, identified by the service ID, in the collection.
+helpviewer_keywords: ["IUPnPServices interface [UPnP APIs]","get_Item method","IUPnPServices.get_Item","IUPnPServices::get_Item","_upnp_iupnpservices_item","get_Item","get_Item method [UPnP APIs]","get_Item method [UPnP APIs]","IUPnPServices interface","upnp.iupnpservices_item","upnp/IUPnPServices::get_Item"]
 old-location: upnp\iupnpservices_item.htm
 tech.root: upnp
 ms.assetid: e59e9b9c-986d-46de-9ce7-19eaad824953

@@ -1,7 +1,8 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0004
 title: ADS_PROV_SPECIFIC (iads.h)
-description: The ADS_PROV_SPECIFIC structure contains provider-specific data represented as a binary large object (BLOB).helpviewer_keywords: ["*PADS_PROV_SPECIFIC","ADS_PROV_SPECIFIC","ADS_PROV_SPECIFIC structure [ADSI]","PADS_PROV_SPECIFIC","PADS_PROV_SPECIFIC structure pointer [ADSI]","_ds_ads_prov_specific","adsi.ads__prov__specific","adsi.ads_prov_specific","iads/ADS_PROV_SPECIFIC","iads/PADS_PROV_SPECIFIC"]
+description: The ADS_PROV_SPECIFIC structure contains provider-specific data represented as a binary large object (BLOB).
+helpviewer_keywords: ["*PADS_PROV_SPECIFIC","ADS_PROV_SPECIFIC","ADS_PROV_SPECIFIC structure [ADSI]","PADS_PROV_SPECIFIC","PADS_PROV_SPECIFIC structure pointer [ADSI]","_ds_ads_prov_specific","adsi.ads__prov__specific","adsi.ads_prov_specific","iads/ADS_PROV_SPECIFIC","iads/PADS_PROV_SPECIFIC"]
 old-location: adsi\ads_prov_specific.htm
 tech.root: adsi
 ms.assetid: 45927280-7fb5-49a6-8ecd-f0a6931bed6a

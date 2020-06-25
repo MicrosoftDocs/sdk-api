@@ -1,7 +1,8 @@
 ---
 UID: NS:iphlpapi._INTERFACE_HARDWARE_CROSSTIMESTAMP
 title: INTERFACE_HARDWARE_CROSSTIMESTAMP (iphlpapi.h)
-description: This structure is reserved for system use, and you should not use it in your code.helpviewer_keywords: ["*PINTERFACE_HARDWARE_CROSSTIMESTAMP","INTERFACE_HARDWARE_CROSSTIMESTAMP","INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper]","PINTERFACE_HARDWARE_CROSSTIMESTAMP","PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper]","iphlp.interface_hardware_crosstimestamp","iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP","iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP"]
+description: This structure is reserved for system use, and you should not use it in your code.
+helpviewer_keywords: ["*PINTERFACE_HARDWARE_CROSSTIMESTAMP","INTERFACE_HARDWARE_CROSSTIMESTAMP","INTERFACE_HARDWARE_CROSSTIMESTAMP structure [IP Helper]","PINTERFACE_HARDWARE_CROSSTIMESTAMP","PINTERFACE_HARDWARE_CROSSTIMESTAMP structure pointer [IP Helper]","iphlp.interface_hardware_crosstimestamp","iphlpapi/INTERFACE_HARDWARE_CROSSTIMESTAMP","iphlpapi/PINTERFACE_HARDWARE_CROSSTIMESTAMP"]
 old-location: iphlp\interface_hardware_crosstimestamp.htm
 tech.root: IpHlp
 ms.assetid: DAEA7430-85C1-4FF5-8F85-C58EDF27BF3D

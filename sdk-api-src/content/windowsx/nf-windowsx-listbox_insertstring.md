@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_InsertString
 title: ListBox_InsertString macro (windowsx.h)
-description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.helpviewer_keywords: ["ListBox_InsertString","ListBox_InsertString macro [Windows Controls]","_win32_ListBox_InsertString","_win32_ListBox_InsertString_cpp","controls.ListBox_InsertString","controls._win32_ListBox_InsertString","windowsx/ListBox_InsertString"]
+description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
+helpviewer_keywords: ["ListBox_InsertString","ListBox_InsertString macro [Windows Controls]","_win32_ListBox_InsertString","_win32_ListBox_InsertString_cpp","controls.ListBox_InsertString","controls._win32_ListBox_InsertString","windowsx/ListBox_InsertString"]
 old-location: controls\ListBox_InsertString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm

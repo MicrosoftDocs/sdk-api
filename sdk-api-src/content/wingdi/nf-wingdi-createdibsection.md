@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CreateDIBSection
 title: CreateDIBSection function (wingdi.h)
-description: The CreateDIBSection function creates a DIB that applications can write to directly.helpviewer_keywords: ["CreateDIBSection","CreateDIBSection function [Windows GDI]","DIB_PAL_COLORS","DIB_RGB_COLORS","_win32_CreateDIBSection","gdi.createdibsection","wingdi/CreateDIBSection"]
+description: The CreateDIBSection function creates a DIB that applications can write to directly.
+helpviewer_keywords: ["CreateDIBSection","CreateDIBSection function [Windows GDI]","DIB_PAL_COLORS","DIB_RGB_COLORS","_win32_CreateDIBSection","gdi.createdibsection","wingdi/CreateDIBSection"]
 old-location: gdi\createdibsection.htm
 tech.root: gdi
 ms.assetid: 9276ec84-2860-42be-a9f8-d4efb8d25eec

@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_ReadOnly
 title: IUpdateCollection::get_ReadOnly (wuapi.h)
-description: Gets a Boolean value that indicates whether the update collection is read-only.helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","ReadOnly property","IUpdateCollection.ReadOnly","IUpdateCollection.get_ReadOnly","IUpdateCollection::ReadOnly","IUpdateCollection::get_ReadOnly","ReadOnly property [Windows Update Agent]","ReadOnly property [Windows Update Agent]","IUpdateCollection interface","get_ReadOnly","wua.iupdatecollection_readonly","wuapi/IUpdateCollection::ReadOnly","wuapi/IUpdateCollection::get_ReadOnly"]
+description: Gets a Boolean value that indicates whether the update collection is read-only.
+helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","ReadOnly property","IUpdateCollection.ReadOnly","IUpdateCollection.get_ReadOnly","IUpdateCollection::ReadOnly","IUpdateCollection::get_ReadOnly","ReadOnly property [Windows Update Agent]","ReadOnly property [Windows Update Agent]","IUpdateCollection interface","get_ReadOnly","wua.iupdatecollection_readonly","wuapi/IUpdateCollection::ReadOnly","wuapi/IUpdateCollection::get_ReadOnly"]
 old-location: wua\iupdatecollection_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: 7443f842-8de5-4309-95bf-5ea427b25b4a

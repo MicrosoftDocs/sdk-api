@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.GetHashWindowSize
 title: IRdcGeneratorFilterMaxParameters::GetHashWindowSize (msrdc.h)
-description: Returns the hash window size&#8212;the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.helpviewer_keywords: ["GetHashWindowSize","GetHashWindowSize method [Remote Differential Compression]","GetHashWindowSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","GetHashWindowSize method","IRdcGeneratorFilterMaxParameters.GetHashWindowSize","IRdcGeneratorFilterMaxParameters::GetHashWindowSize","fs.irdcgeneratorfiltermaxparameters_gethashwindowsize","msrdc/IRdcGeneratorFilterMaxParameters::GetHashWindowSize","rdc.irdcgeneratorfiltermaxparameters_gethashwindowsize"]
+description: Returns the hash window size&#8212;the size of the sliding window used by the FilterMax generator for computing the hash used in the local maxima calculations.
+helpviewer_keywords: ["GetHashWindowSize","GetHashWindowSize method [Remote Differential Compression]","GetHashWindowSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","GetHashWindowSize method","IRdcGeneratorFilterMaxParameters.GetHashWindowSize","IRdcGeneratorFilterMaxParameters::GetHashWindowSize","fs.irdcgeneratorfiltermaxparameters_gethashwindowsize","msrdc/IRdcGeneratorFilterMaxParameters::GetHashWindowSize","rdc.irdcgeneratorfiltermaxparameters_gethashwindowsize"]
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethashwindowsize.htm
 tech.root: rdc
 ms.assetid: c1a0460c-ca48-48ca-bd5b-1213e8279366

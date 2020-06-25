@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IVMRMonitorConfig
 title: IVMRMonitorConfig (strmif.h)
-description: The IVMRMonitorConfig interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).helpviewer_keywords: ["IVMRMonitorConfig","IVMRMonitorConfig interface [DirectShow]","IVMRMonitorConfig interface [DirectShow]","described","IVMRMonitorConfigInterface","dshow.ivmrmonitorconfig","strmif/IVMRMonitorConfig"]
+description: The IVMRMonitorConfig interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
+helpviewer_keywords: ["IVMRMonitorConfig","IVMRMonitorConfig interface [DirectShow]","IVMRMonitorConfig interface [DirectShow]","described","IVMRMonitorConfigInterface","dshow.ivmrmonitorconfig","strmif/IVMRMonitorConfig"]
 old-location: dshow\ivmrmonitorconfig.htm
 tech.root: DirectShow
 ms.assetid: 02b4016b-a65b-41ac-b5c6-e5f6825f179c

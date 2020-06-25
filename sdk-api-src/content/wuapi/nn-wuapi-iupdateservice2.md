@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IUpdateService2
 title: IUpdateService2 (wuapi.h)
-description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.helpviewer_keywords: ["IUpdateService2","IUpdateService2 interface [Windows Update Agent]","IUpdateService2 interface [Windows Update Agent]","described","wua.iupdateservice2","wuapi/IUpdateService2"]
+description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.
+helpviewer_keywords: ["IUpdateService2","IUpdateService2 interface [Windows Update Agent]","IUpdateService2 interface [Windows Update Agent]","described","wua.iupdateservice2","wuapi/IUpdateService2"]
 old-location: wua\iupdateservice2.htm
 tech.root: Wua_Sdk
 ms.assetid: 6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf

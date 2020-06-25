@@ -1,7 +1,8 @@
 ---
 UID: NC:rtmv2._EVENT_CALLBACK
 title: _EVENT_CALLBACK (rtmv2.h)
-description: The RTM_EVENT_CALLBACK callback is used by the routing table manager to inform a client that the specified event occurred.helpviewer_keywords: ["RTM_CHANGE_NOTIFICATION","RTM_ENTITY_DEREGISTERED","RTM_ENTITY_REGISTERED","RTM_EVENT_CALLBACK","RTM_EVENT_CALLBACK callback function [RAS]","RTM_EVENT_CALLBACK callback function pointer [RAS]","RTM_ROUTE_EXPIRED","_EVENT_CALLBACK","_EVENT_CALLBACK callback","_rtmv2ref_rtm_event_callback","rras.rtm_event_callback","rtmv2/RTM_EVENT_CALLBACK"]
+description: The RTM_EVENT_CALLBACK callback is used by the routing table manager to inform a client that the specified event occurred.
+helpviewer_keywords: ["RTM_CHANGE_NOTIFICATION","RTM_ENTITY_DEREGISTERED","RTM_ENTITY_REGISTERED","RTM_EVENT_CALLBACK","RTM_EVENT_CALLBACK callback function [RAS]","RTM_EVENT_CALLBACK callback function pointer [RAS]","RTM_ROUTE_EXPIRED","_EVENT_CALLBACK","_EVENT_CALLBACK callback","_rtmv2ref_rtm_event_callback","rras.rtm_event_callback","rtmv2/RTM_EVENT_CALLBACK"]
 old-location: rras\rtm_event_callback.htm
 tech.root: RRAS
 ms.assetid: 57179cea-d92b-4199-bb61-b34d980532cf

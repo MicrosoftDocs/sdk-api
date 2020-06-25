@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfThreadFocusSink.OnSetThreadFocus
 title: ITfThreadFocusSink::OnSetThreadFocus (msctf.h)
-description: ITfThreadFocusSink::OnSetThreadFocus methodhelpviewer_keywords: ["ITfThreadFocusSink interface [Text Services Framework]","OnSetThreadFocus method","ITfThreadFocusSink.OnSetThreadFocus","ITfThreadFocusSink::OnSetThreadFocus","OnSetThreadFocus","OnSetThreadFocus method [Text Services Framework]","OnSetThreadFocus method [Text Services Framework]","ITfThreadFocusSink interface","_tsf_itfthreadfocussink_onsetthreadfocus_ref","msctf/ITfThreadFocusSink::OnSetThreadFocus","tsf.itfthreadfocussink_onsetthreadfocus"]
+description: ITfThreadFocusSink::OnSetThreadFocus method
+helpviewer_keywords: ["ITfThreadFocusSink interface [Text Services Framework]","OnSetThreadFocus method","ITfThreadFocusSink.OnSetThreadFocus","ITfThreadFocusSink::OnSetThreadFocus","OnSetThreadFocus","OnSetThreadFocus method [Text Services Framework]","OnSetThreadFocus method [Text Services Framework]","ITfThreadFocusSink interface","_tsf_itfthreadfocussink_onsetthreadfocus_ref","msctf/ITfThreadFocusSink::OnSetThreadFocus","tsf.itfthreadfocussink_onsetthreadfocus"]
 old-location: tsf\itfthreadfocussink_onsetthreadfocus.htm
 tech.root: TSF
 ms.assetid: 1b126f83-74ee-4430-bb07-d4069f899c25

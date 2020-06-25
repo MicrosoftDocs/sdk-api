@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMScalarSinEst
 title: XMScalarSinEst function (directxmath.h)
-description: Estimates the sine of a radian angle.helpviewer_keywords: ["Use DirectX..XMScalarSinEst","XMScalarSinEst","XMScalarSinEst method [DirectX Math Support APIs]","dxmath.xmscalarsinest"]
+description: Estimates the sine of a radian angle.
+helpviewer_keywords: ["Use DirectX..XMScalarSinEst","XMScalarSinEst","XMScalarSinEst method [DirectX Math Support APIs]","dxmath.xmscalarsinest"]
 old-location: dxmath\xmscalarsinest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarSinEst(float)

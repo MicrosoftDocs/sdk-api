@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser._ICONINFOEXA
 title: ICONINFOEXA (winuser.h)
-description: Contains information about an icon or a cursor. Extends ICONINFO. Used by GetIconInfoEx.helpviewer_keywords: ["*PICONINFOEXA","ICONINFOEX","ICONINFOEX structure [Menus and Other Resources]","ICONINFOEXA","ICONINFOEXW","_win32_ICONINFOEX","_win32_iconinfoex_cpp","menurc.iconinfoex","winui._win32_iconinfoex","winuser/ICONINFOEX","winuser/ICONINFOEXA","winuser/ICONINFOEXW"]
+description: Contains information about an icon or a cursor. Extends ICONINFO. Used by GetIconInfoEx.
+helpviewer_keywords: ["*PICONINFOEXA","ICONINFOEX","ICONINFOEX structure [Menus and Other Resources]","ICONINFOEXA","ICONINFOEXW","_win32_ICONINFOEX","_win32_iconinfoex_cpp","menurc.iconinfoex","winui._win32_iconinfoex","winuser/ICONINFOEX","winuser/ICONINFOEXA","winuser/ICONINFOEXW"]
 old-location: menurc\iconinfoex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconinfoex.htm
@@ -147,4 +148,9 @@ The fully qualified path of the resource.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines ICONINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTINPUTFORMATDATA
 title: DD_GETVPORTINPUTFORMATDATA (ddrawint.h)
-description: The DD_GETVPORTINPUTFORMATDATA structure contains the information required for the driver to return the input formats that the video port extensions (VPE) object can accept.helpviewer_keywords: ["*PDD_GETVPORTINPUTFORMATDATA","DD_GETVPORTINPUTFORMATDATA","DD_GETVPORTINPUTFORMATDATA structure [Display Devices]","ddrawint/DD_GETVPORTINPUTFORMATDATA","ddstrcts_c9ca2266-9add-4320-8b29-51d67b121957.xml","display.dd_getvportinputformatdata"]
+description: The DD_GETVPORTINPUTFORMATDATA structure contains the information required for the driver to return the input formats that the video port extensions (VPE) object can accept.
+helpviewer_keywords: ["*PDD_GETVPORTINPUTFORMATDATA","DD_GETVPORTINPUTFORMATDATA","DD_GETVPORTINPUTFORMATDATA structure [Display Devices]","ddrawint/DD_GETVPORTINPUTFORMATDATA","ddstrcts_c9ca2266-9add-4320-8b29-51d67b121957.xml","display.dd_getvportinputformatdata"]
 old-location: display\dd_getvportinputformatdata.htm
 tech.root: display
 ms.assetid: d8cdfb24-0914-4e1f-bbdd-7bba31976ba0

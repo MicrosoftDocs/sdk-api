@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.Remove
 title: IAzBizRuleInterfaces::Remove (azroles.h)
-description: Removes the specified interface from the list of interfaces The number of interfaces in the list of interfaces that can be called by BizRule scripts.helpviewer_keywords: ["IAzBizRuleInterfaces interface [Security]","Remove method","IAzBizRuleInterfaces.Remove","IAzBizRuleInterfaces::Remove","Remove","Remove method [Security]","Remove method [Security]","IAzBizRuleInterfaces interface","azroles/IAzBizRuleInterfaces::Remove","security.iazbizruleinterfaces_remove_method"]
+description: Removes the specified interface from the list of interfaces The number of interfaces in the list of interfaces that can be called by BizRule scripts.
+helpviewer_keywords: ["IAzBizRuleInterfaces interface [Security]","Remove method","IAzBizRuleInterfaces.Remove","IAzBizRuleInterfaces::Remove","Remove","Remove method [Security]","Remove method [Security]","IAzBizRuleInterfaces interface","azroles/IAzBizRuleInterfaces::Remove","security.iazbizruleinterfaces_remove_method"]
 old-location: security\iazbizruleinterfaces_remove_method.htm
 tech.root: SecAuthZ
 ms.assetid: 398e4151-aeda-48d0-b6f5-e0ea749d0720

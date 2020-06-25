@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_CreateDragImage
 title: ListView_CreateDragImage macro (commctrl.h)
-description: Creates a drag image list for the specified item. You can use this macro or send the LVM_CREATEDRAGIMAGE message explicitly.helpviewer_keywords: ["ListView_CreateDragImage","ListView_CreateDragImage macro [Windows Controls]","_win32_ListView_CreateDragImage","_win32_ListView_CreateDragImage_cpp","commctrl/ListView_CreateDragImage","controls.ListView_CreateDragImage","controls._win32_ListView_CreateDragImage"]
+description: Creates a drag image list for the specified item. You can use this macro or send the LVM_CREATEDRAGIMAGE message explicitly.
+helpviewer_keywords: ["ListView_CreateDragImage","ListView_CreateDragImage macro [Windows Controls]","_win32_ListView_CreateDragImage","_win32_ListView_CreateDragImage_cpp","commctrl/ListView_CreateDragImage","controls.ListView_CreateDragImage","controls._win32_ListView_CreateDragImage"]
 old-location: controls\ListView_CreateDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_createdragimage.htm

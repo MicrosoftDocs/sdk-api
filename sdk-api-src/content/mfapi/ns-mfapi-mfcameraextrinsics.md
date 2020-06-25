@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi._MFCameraExtrinsics
 title: MFCameraExtrinsics (mfapi.h)
-description: Describes the location of a camera relative to other cameras or an established external reference.helpviewer_keywords: ["MFCameraExtrinsics","MFCameraExtrinsics structure [Media Foundation]","PMFCameraExtrinsics","PMFCameraExtrinsics structure pointer [Media Foundation]","mf.mfcameraextrinsics","mfapi/MFCameraExtrinsics","mfapi/PMFCameraExtrinsics"]
+description: Describes the location of a camera relative to other cameras or an established external reference.
+helpviewer_keywords: ["MFCameraExtrinsics","MFCameraExtrinsics structure [Media Foundation]","PMFCameraExtrinsics","PMFCameraExtrinsics structure pointer [Media Foundation]","mf.mfcameraextrinsics","mfapi/MFCameraExtrinsics","mfapi/PMFCameraExtrinsics"]
 old-location: mf\mfcameraextrinsics.htm
 tech.root: medfound
 ms.assetid: F29615EE-0B2C-4066-8A6B-67457D46028C

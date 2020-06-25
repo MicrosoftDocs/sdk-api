@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CreateEnhMetaFileW
 title: CreateEnhMetaFileW function (wingdi.h)
-description: The CreateEnhMetaFile function creates a device context for an enhanced-format metafile. This device context can be used to store a device-independent picture.helpviewer_keywords: ["CreateEnhMetaFile","CreateEnhMetaFile function [Windows GDI]","CreateEnhMetaFileA","CreateEnhMetaFileW","_win32_CreateEnhMetaFile","gdi.createenhmetafile","wingdi/CreateEnhMetaFile","wingdi/CreateEnhMetaFileA","wingdi/CreateEnhMetaFileW"]
+description: The CreateEnhMetaFile function creates a device context for an enhanced-format metafile. This device context can be used to store a device-independent picture.
+helpviewer_keywords: ["CreateEnhMetaFile","CreateEnhMetaFile function [Windows GDI]","CreateEnhMetaFileA","CreateEnhMetaFileW","_win32_CreateEnhMetaFile","gdi.createenhmetafile","wingdi/CreateEnhMetaFile","wingdi/CreateEnhMetaFileA","wingdi/CreateEnhMetaFileW"]
 old-location: gdi\createenhmetafile.htm
 tech.root: gdi
 ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607
@@ -123,6 +124,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/crea
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines CreateEnhMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

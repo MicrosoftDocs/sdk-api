@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryCreateW
 title: RpcNsMgmtEntryCreateW function (rpcnsi.h)
-description: The RpcNsMgmtEntryCreate function creates a name service&#8211;database entry.helpviewer_keywords: ["RpcNsMgmtEntryCreate","RpcNsMgmtEntryCreate function [RPC]","RpcNsMgmtEntryCreateA","RpcNsMgmtEntryCreateW","_rpc_rpcnsmgmtentrycreate","rpc.rpcnsmgmtentrycreate","rpcnsi/RpcNsMgmtEntryCreate","rpcnsi/RpcNsMgmtEntryCreateA","rpcnsi/RpcNsMgmtEntryCreateW"]
+description: The RpcNsMgmtEntryCreate function creates a name service&#8211;database entry.
+helpviewer_keywords: ["RpcNsMgmtEntryCreate","RpcNsMgmtEntryCreate function [RPC]","RpcNsMgmtEntryCreateA","RpcNsMgmtEntryCreateW","_rpc_rpcnsmgmtentrycreate","rpc.rpcnsmgmtentrycreate","rpcnsi/RpcNsMgmtEntryCreate","rpcnsi/RpcNsMgmtEntryCreateA","rpcnsi/RpcNsMgmtEntryCreateW"]
 old-location: rpc\rpcnsmgmtentrycreate.htm
 tech.root: Rpc
 ms.assetid: 32de2395-174a-4e14-82db-9043db817708
@@ -171,6 +172,10 @@ The
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtEntryCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

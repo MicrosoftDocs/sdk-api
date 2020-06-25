@@ -1,7 +1,8 @@
 ---
 UID: NE:sdoias._REMEDIATIONSERVERPROPERTIES
 title: REMEDIATIONSERVERPROPERTIES (sdoias.h)
-description: The values of the REMEDIATIONSERVERPROPERTIES enumeration type enumerate the properties of a remediation server.helpviewer_keywords: ["PROPERTY_REMEDIATIONSERVER_ADDRESS","PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME","REMEDIATIONSERVERPROPERTIES","REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server]","nps.SDO_remediationserverproperties","sdo.remediationserverproperties","sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS","sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME","sdoias/REMEDIATIONSERVERPROPERTIES"]
+description: The values of the REMEDIATIONSERVERPROPERTIES enumeration type enumerate the properties of a remediation server.
+helpviewer_keywords: ["PROPERTY_REMEDIATIONSERVER_ADDRESS","PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME","REMEDIATIONSERVERPROPERTIES","REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server]","nps.SDO_remediationserverproperties","sdo.remediationserverproperties","sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS","sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME","sdoias/REMEDIATIONSERVERPROPERTIES"]
 old-location: nps\SDO_remediationserverproperties.htm
 tech.root: Nps
 ms.assetid: 46f3b67d-8060-44d5-b04b-b1655ac22c3d

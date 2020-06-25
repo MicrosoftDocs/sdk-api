@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IConsole2
 title: IConsole2 (mmc.h)
-description: The IConsole2 interface is introduced in MMC 1.1.helpviewer_keywords: ["IConsole2","IConsole2 interface [MMC]","IConsole2 interface [MMC]","described","_slate_iconsole2","mmc.iconsole2","mmc/IConsole2"]
+description: The IConsole2 interface is introduced in MMC 1.1.
+helpviewer_keywords: ["IConsole2","IConsole2 interface [MMC]","IConsole2 interface [MMC]","described","_slate_iconsole2","mmc.iconsole2","mmc/IConsole2"]
 old-location: mmc\iconsole2.htm
 tech.root: mmc
 ms.assetid: 9a20d09d-219c-4bcb-95b3-67a44e41629e

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PostRestore
 title: IWsbApplicationRestoreSupport::PostRestore (wsbapp.h)
-description: Performs application-specific PostRestore operations.helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","PostRestore method","IWsbApplicationRestoreSupport.PostRestore","IWsbApplicationRestoreSupport::PostRestore","PostRestore","PostRestore method [Windows Server Backup]","PostRestore method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_postrestore","wsbapp/IWsbApplicationRestoreSupport::PostRestore"]
+description: Performs application-specific PostRestore operations.
+helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","PostRestore method","IWsbApplicationRestoreSupport.PostRestore","IWsbApplicationRestoreSupport::PostRestore","PostRestore","PostRestore method [Windows Server Backup]","PostRestore method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_postrestore","wsbapp/IWsbApplicationRestoreSupport::PostRestore"]
 old-location: wsb\iwsbapplicationrestoresupport_postrestore.htm
 tech.root: wsb
 ms.assetid: 8be7975e-9b94-4a6e-b1f5-794b8749ccbe

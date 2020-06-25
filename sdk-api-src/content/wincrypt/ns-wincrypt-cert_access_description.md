@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_ACCESS_DESCRIPTION
 title: CERT_ACCESS_DESCRIPTION (wincrypt.h)
-description: The CERT_ACCESS_DESCRIPTION structure is a member of a CERT_AUTHORITY_INFO_ACCESS structure.helpviewer_keywords: ["*PCERT_ACCESS_DESCRIPTION","CERT_ACCESS_DESCRIPTION","CERT_ACCESS_DESCRIPTION structure [Security]","PCERT_ACCESS_DESCRIPTION","PCERT_ACCESS_DESCRIPTION structure pointer [Security]","_crypto2_cert_access_description","security.cert_access_description","wincrypt/CERT_ACCESS_DESCRIPTION","wincrypt/PCERT_ACCESS_DESCRIPTION"]
+description: The CERT_ACCESS_DESCRIPTION structure is a member of a CERT_AUTHORITY_INFO_ACCESS structure.
+helpviewer_keywords: ["*PCERT_ACCESS_DESCRIPTION","CERT_ACCESS_DESCRIPTION","CERT_ACCESS_DESCRIPTION structure [Security]","PCERT_ACCESS_DESCRIPTION","PCERT_ACCESS_DESCRIPTION structure pointer [Security]","_crypto2_cert_access_description","security.cert_access_description","wincrypt/CERT_ACCESS_DESCRIPTION","wincrypt/PCERT_ACCESS_DESCRIPTION"]
 old-location: security\cert_access_description.htm
 tech.root: SecCrypto
 ms.assetid: 5e1e5b04-92af-45b1-acfd-17852c245d89

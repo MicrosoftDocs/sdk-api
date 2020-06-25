@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyMulI4
 title: VarCyMulI4 function (oleauto.h)
-description: Multiplies a currency value by a 32-bit integer.helpviewer_keywords: ["VarCyMulI4","VarCyMulI4 function [Automation]","_oa96_VarCyMulI4","automat.varcymuli4","oleauto/VarCyMulI4"]
+description: Multiplies a currency value by a 32-bit integer.
+helpviewer_keywords: ["VarCyMulI4","VarCyMulI4 function [Automation]","_oa96_VarCyMulI4","automat.varcymuli4","oleauto/VarCyMulI4"]
 old-location: automat\varcymuli4.htm
 tech.root: automat
 ms.assetid: 2adfa078-c00c-48df-bd31-e36bcab64cbf

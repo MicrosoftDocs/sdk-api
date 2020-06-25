@@ -1,7 +1,8 @@
 ---
 UID: NC:mapi.MAPIADDRESS
 title: MAPIADDRESS (mapi.h)
-description: The MAPIAddress function creates or modifies a set of address list entries.helpviewer_keywords: ["MAPIAddress","MAPIAddress callback","MAPIAddress callback function","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapiaddress","mapi/MAPIAddress"]
+description: The MAPIAddress function creates or modifies a set of address list entries.
+helpviewer_keywords: ["MAPIAddress","MAPIAddress callback","MAPIAddress callback function","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapiaddress","mapi/MAPIAddress"]
 old-location: mapi\mapiaddress.htm
 tech.root: WindowsMAPI
 ms.assetid: 4f01763d-22a2-4ee4-a559-f875cb06ea6b

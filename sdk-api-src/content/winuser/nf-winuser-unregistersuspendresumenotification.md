@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.UnregisterSuspendResumeNotification
 title: UnregisterSuspendResumeNotification function (winuser.h)
-description: Cancels a registration to receive notification when the system is suspended or resumed. Similar to PowerUnregisterSuspendResumeNotification but operates in user mode.helpviewer_keywords: ["UnregisterSuspendResumeNotification","UnregisterSuspendResumeNotification function","base.unregistersuspendresumenotification","winuser/UnregisterSuspendResumeNotification"]
+description: Cancels a registration to receive notification when the system is suspended or resumed. Similar to PowerUnregisterSuspendResumeNotification but operates in user mode.
+helpviewer_keywords: ["UnregisterSuspendResumeNotification","UnregisterSuspendResumeNotification function","base.unregistersuspendresumenotification","winuser/UnregisterSuspendResumeNotification"]
 old-location: base\unregistersuspendresumenotification.htm
 tech.root: power
 ms.assetid: d9307452-9670-4e9c-9df8-6a3b41d0bd2e

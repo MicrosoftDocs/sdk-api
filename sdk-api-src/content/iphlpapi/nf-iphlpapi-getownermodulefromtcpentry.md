@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetOwnerModuleFromTcpEntry
 title: GetOwnerModuleFromTcpEntry function (iphlpapi.h)
-description: Retrieves data about the module that issued the context bind for a specific IPv4 TCP endpoint in a MIB table row.helpviewer_keywords: ["GetOwnerModuleFromTcpEntry","GetOwnerModuleFromTcpEntry function [IP Helper]","iphlp.getownermodulefromtcpentry","iphlpapi/GetOwnerModuleFromTcpEntry"]
+description: Retrieves data about the module that issued the context bind for a specific IPv4 TCP endpoint in a MIB table row.
+helpviewer_keywords: ["GetOwnerModuleFromTcpEntry","GetOwnerModuleFromTcpEntry function [IP Helper]","iphlp.getownermodulefromtcpentry","iphlpapi/GetOwnerModuleFromTcpEntry"]
 old-location: iphlp\getownermodulefromtcpentry.htm
 tech.root: IpHlp
 ms.assetid: 12162f0a-56c1-4f81-a1f5-3cd5ad975d0d

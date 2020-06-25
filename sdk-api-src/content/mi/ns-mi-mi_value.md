@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Value
 title: MI_Value (mi.h)
-description: A union of all CIM data types.helpviewer_keywords: ["MI_Value","MI_Value structure [Windows Management Infrastructure (MI)]","mi/MI_Value","wmi_v2.mi_value"]
+description: A union of all CIM data types.
+helpviewer_keywords: ["MI_Value","MI_Value structure [Windows Management Infrastructure (MI)]","mi/MI_Value","wmi_v2.mi_value"]
 old-location: wmi_v2\mi_value.htm
 tech.root: wmi_v2
 ms.assetid: 08104810-248d-49b6-9caa-6cda1d6a404e

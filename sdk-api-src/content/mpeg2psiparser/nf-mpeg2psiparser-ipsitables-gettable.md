@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPSITables.GetTable
 title: IPSITables::GetTable (mpeg2psiparser.h)
-description: Gets an MPEG-2 Program Specific Information (PSI) table from an MPEG-2 transport stream. The table that is returned and its contents depend on the values of the three input parameters to this method.helpviewer_keywords: ["GetTable","GetTable method [Microsoft TV Technologies]","GetTable method [Microsoft TV Technologies]","IPSITables interface","IPSITables interface [Microsoft TV Technologies]","GetTable method","IPSITables.GetTable","IPSITables::GetTable","mpeg2psiparser/IPSITables::GetTable","mstv.ipsitables_gettable"]
+description: Gets an MPEG-2 Program Specific Information (PSI) table from an MPEG-2 transport stream. The table that is returned and its contents depend on the values of the three input parameters to this method.
+helpviewer_keywords: ["GetTable","GetTable method [Microsoft TV Technologies]","GetTable method [Microsoft TV Technologies]","IPSITables interface","IPSITables interface [Microsoft TV Technologies]","GetTable method","IPSITables.GetTable","IPSITables::GetTable","mpeg2psiparser/IPSITables::GetTable","mstv.ipsitables_gettable"]
 old-location: mstv\ipsitables_gettable.htm
 tech.root: mstv
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e

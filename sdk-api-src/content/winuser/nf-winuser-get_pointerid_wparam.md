@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GET_POINTERID_WPARAM
 title: GET_POINTERID_WPARAM macro (winuser.h)
-description: Retrieves the pointer ID using the specified value.helpviewer_keywords: ["GET_POINTERID_WPARAM","GET_POINTERID_WPARAM","GET_POINTERID_WPARAM macro [Input Messages and Notifications]","inputmsg.get_pointerid_wparam","winuser/GET_POINTERID_WPARAM"]
+description: Retrieves the pointer ID using the specified value.
+helpviewer_keywords: ["GET_POINTERID_WPARAM","GET_POINTERID_WPARAM","GET_POINTERID_WPARAM macro [Input Messages and Notifications]","inputmsg.get_pointerid_wparam","winuser/GET_POINTERID_WPARAM"]
 old-location: inputmsg\get_pointerid_wparam.htm
 tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991211

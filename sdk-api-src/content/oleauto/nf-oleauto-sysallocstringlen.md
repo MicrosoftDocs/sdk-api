@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SysAllocStringLen
 title: SysAllocStringLen function (oleauto.h)
-description: Allocates a new string, copies the specified number of characters from the passed string, and appends a null-terminating character.helpviewer_keywords: ["SysAllocStringLen","SysAllocStringLen function [Automation]","_oa96_SysAllocStringLen","automat.sysallocstringlen","oleauto/SysAllocStringLen"]
+description: Allocates a new string, copies the specified number of characters from the passed string, and appends a null-terminating character.
+helpviewer_keywords: ["SysAllocStringLen","SysAllocStringLen function [Automation]","_oa96_SysAllocStringLen","automat.sysallocstringlen","oleauto/SysAllocStringLen"]
 old-location: automat\sysallocstringlen.htm
 tech.root: automat
 ms.assetid: f98bff39-bc5f-4a81-85d7-d5228e20fbc8

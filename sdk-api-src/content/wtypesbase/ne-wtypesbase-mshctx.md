@@ -1,7 +1,8 @@
 ---
 UID: NE:wtypesbase.tagMSHCTX
 title: MSHCTX (wtypesbase.h)
-description: Specifies the destination context, which is the process in which the unmarshaling is to be done.helpviewer_keywords: ["MSHCTX","MSHCTX enumeration [COM]","MSHCTX_CROSSCTX","MSHCTX_DIFFERENTMACHINE","MSHCTX_INPROC","MSHCTX_LOCAL","MSHCTX_NOSHAREDMEM","_com_MSHCTX","com.mshctx","wtypesbase/MSHCTX","wtypesbase/MSHCTX_CROSSCTX","wtypesbase/MSHCTX_DIFFERENTMACHINE","wtypesbase/MSHCTX_INPROC","wtypesbase/MSHCTX_LOCAL","wtypesbase/MSHCTX_NOSHAREDMEM"]
+description: Specifies the destination context, which is the process in which the unmarshaling is to be done.
+helpviewer_keywords: ["MSHCTX","MSHCTX enumeration [COM]","MSHCTX_CROSSCTX","MSHCTX_DIFFERENTMACHINE","MSHCTX_INPROC","MSHCTX_LOCAL","MSHCTX_NOSHAREDMEM","_com_MSHCTX","com.mshctx","wtypesbase/MSHCTX","wtypesbase/MSHCTX_CROSSCTX","wtypesbase/MSHCTX_DIFFERENTMACHINE","wtypesbase/MSHCTX_INPROC","wtypesbase/MSHCTX_LOCAL","wtypesbase/MSHCTX_NOSHAREDMEM"]
 old-location: com\mshctx.htm
 tech.root: com
 ms.assetid: d7d09ab2-96e7-48da-9292-0e4ca6cebe64

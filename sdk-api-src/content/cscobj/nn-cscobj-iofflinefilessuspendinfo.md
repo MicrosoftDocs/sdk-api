@@ -1,7 +1,8 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspendInfo
 title: IOfflineFilesSuspendInfo (cscobj.h)
-description: Determines whether an item is suspended or not and, if so, if it is a suspended root or not.helpviewer_keywords: ["IOfflineFilesSuspendInfo","IOfflineFilesSuspendInfo interface [Offline Files]","IOfflineFilesSuspendInfo interface [Offline Files]","described","cscobj/IOfflineFilesSuspendInfo","of.iofflinefilessuspendinfo"]
+description: Determines whether an item is suspended or not and, if so, if it is a suspended root or not.
+helpviewer_keywords: ["IOfflineFilesSuspendInfo","IOfflineFilesSuspendInfo interface [Offline Files]","IOfflineFilesSuspendInfo interface [Offline Files]","described","cscobj/IOfflineFilesSuspendInfo","of.iofflinefilessuspendinfo"]
 old-location: of\iofflinefilessuspendinfo.htm
 tech.root: offlinefiles
 ms.assetid: b9f9e30e-df37-467e-ac59-7955e0eae3c0

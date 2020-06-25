@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_VideoRenderersAvailable
 title: IMSVidCtl::get_VideoRenderersAvailable (msvidctl.h)
-description: The get_VideoRenderersAvailable method retrieves a collection of video renderers available on the local system.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_VideoRenderersAvailable method","IMSVidCtl.get_VideoRenderersAvailable","IMSVidCtl::get_VideoRenderersAvailable","IMSVidCtlget_VideoRenderersAvailable","get_VideoRenderersAvailable","get_VideoRenderersAvailable method [Microsoft TV Technologies]","get_VideoRenderersAvailable method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_videorenderersavailable","msvidctl/IMSVidCtl::get_VideoRenderersAvailable"]
+description: The get_VideoRenderersAvailable method retrieves a collection of video renderers available on the local system.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_VideoRenderersAvailable method","IMSVidCtl.get_VideoRenderersAvailable","IMSVidCtl::get_VideoRenderersAvailable","IMSVidCtlget_VideoRenderersAvailable","get_VideoRenderersAvailable","get_VideoRenderersAvailable method [Microsoft TV Technologies]","get_VideoRenderersAvailable method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_videorenderersavailable","msvidctl/IMSVidCtl::get_VideoRenderersAvailable"]
 old-location: mstv\imsvidctl_get_videorenderersavailable.htm
 tech.root: mstv
 ms.assetid: 20e5b2f3-33ea-4b0d-84b8-e4b0b61e0348

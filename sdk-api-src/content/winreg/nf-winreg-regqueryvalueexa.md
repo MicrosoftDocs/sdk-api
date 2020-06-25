@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegQueryValueExA
 title: RegQueryValueExA function (winreg.h)
-description: Retrieves the type and data for the specified value name associated with an open registry key.helpviewer_keywords: ["RegQueryValueEx","RegQueryValueEx function","RegQueryValueExA","RegQueryValueExW","_win32_regqueryvalueex","base.regqueryvalueex","winreg/RegQueryValueEx","winreg/RegQueryValueExA","winreg/RegQueryValueExW"]
+description: Retrieves the type and data for the specified value name associated with an open registry key.
+helpviewer_keywords: ["RegQueryValueEx","RegQueryValueEx function","RegQueryValueExA","RegQueryValueExW","_win32_regqueryvalueex","base.regqueryvalueex","winreg/RegQueryValueEx","winreg/RegQueryValueExA","winreg/RegQueryValueExW"]
 old-location: base\regqueryvalueex.htm
 tech.root: SysInfo
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
@@ -235,6 +236,10 @@ void main()
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegQueryValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

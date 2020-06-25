@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Effect.GetAuxDataSize
 title: Effect::GetAuxDataSize (gdipluseffects.h)
-description: The Effect::GetAuxDataSize method gets the size, in bytes, of the auxiliary data created by a previous call to the Bitmap::ApplyEffect method.helpviewer_keywords: ["Effect class [GDI+]","GetAuxDataSize method","Effect.GetAuxDataSize","Effect::GetAuxDataSize","GetAuxDataSize","GetAuxDataSize method [GDI+]","GetAuxDataSize method [GDI+]","Effect class","_gdiplus_CLASS_Effect_GetAuxDataSize_","gdiplus._gdiplus_CLASS_Effect_GetAuxDataSize_"]
+description: The Effect::GetAuxDataSize method gets the size, in bytes, of the auxiliary data created by a previous call to the Bitmap::ApplyEffect method.
+helpviewer_keywords: ["Effect class [GDI+]","GetAuxDataSize method","Effect.GetAuxDataSize","Effect::GetAuxDataSize","GetAuxDataSize","GetAuxDataSize method [GDI+]","GetAuxDataSize method [GDI+]","Effect class","_gdiplus_CLASS_Effect_GetAuxDataSize_","gdiplus._gdiplus_CLASS_Effect_GetAuxDataSize_"]
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetAuxDataSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdatasize.htm

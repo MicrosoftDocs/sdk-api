@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetLength
 title: IIsdbDataContentDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbDataContentDescriptor.GetLength","IIsdbDataContentDescriptor::GetLength","dvbsiparser/IIsdbDataContentDescriptor::GetLength","mstv.iisdbdatacontentdescriptor_getlength"]
+description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbDataContentDescriptor.GetLength","IIsdbDataContentDescriptor::GetLength","dvbsiparser/IIsdbDataContentDescriptor::GetLength","mstv.iisdbdatacontentdescriptor_getlength"]
 old-location: mstv\iisdbdatacontentdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 51546c62-5042-460d-a792-2253bd57df13

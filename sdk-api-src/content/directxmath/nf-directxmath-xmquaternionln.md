@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionLn
 title: XMQuaternionLn function (directxmath.h)
-description: Computes the natural logarithm of a given unit quaternion.helpviewer_keywords: ["Use DirectX..XMQuaternionLn","XMQuaternionLn","XMQuaternionLn method [DirectX Math Support APIs]","dxmath.xmquaternionln"]
+description: Computes the natural logarithm of a given unit quaternion.
+helpviewer_keywords: ["Use DirectX..XMQuaternionLn","XMQuaternionLn","XMQuaternionLn method [DirectX Math Support APIs]","dxmath.xmquaternionln"]
 old-location: dxmath\xmquaternionln.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionLn(XMVECTOR)

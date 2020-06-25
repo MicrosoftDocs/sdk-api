@@ -1,7 +1,8 @@
 ---
 UID: NN:relogger.ITraceEvent
 title: ITraceEvent (relogger.h)
-description: Provides access to data relating to a specific event.helpviewer_keywords: ["ITraceEvent","ITraceEvent interface [ETW]","ITraceEvent interface [ETW]","described","etw.ievent","relogger/ITraceEvent"]
+description: Provides access to data relating to a specific event.
+helpviewer_keywords: ["ITraceEvent","ITraceEvent interface [ETW]","ITraceEvent interface [ETW]","described","etw.ievent","relogger/ITraceEvent"]
 old-location: etw\ievent.htm
 tech.root: ETW
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143

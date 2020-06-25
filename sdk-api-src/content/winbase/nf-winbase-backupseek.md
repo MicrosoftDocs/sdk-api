@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.BackupSeek
 title: BackupSeek function (winbase.h)
-description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.helpviewer_keywords: ["BackupSeek","BackupSeek function [Backup]","_win32_backupseek","backup.backupseek","base.backupseek","winbase/BackupSeek"]
+description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.
+helpviewer_keywords: ["BackupSeek","BackupSeek function [Backup]","_win32_backupseek","backup.backupseek","base.backupseek","winbase/BackupSeek"]
 old-location: backup\backupseek.htm
 tech.root: Backup
 ms.assetid: d5ffba3d-f744-49b4-83e0-e32bd45ecc4c

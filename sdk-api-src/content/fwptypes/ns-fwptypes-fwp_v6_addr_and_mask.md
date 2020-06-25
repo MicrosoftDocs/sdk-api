@@ -1,7 +1,8 @@
 ---
 UID: NS:fwptypes.FWP_V6_ADDR_AND_MASK_
 title: FWP_V6_ADDR_AND_MASK (fwptypes.h)
-description: Specifies an IPv6 address and mask.helpviewer_keywords: ["FWP_V6_ADDR_AND_MASK","FWP_V6_ADDR_AND_MASK structure [Filtering]","fwp.fwp_v6_addr_and_mask_struct","fwptypes/FWP_V6_ADDR_AND_MASK"]
+description: Specifies an IPv6 address and mask.
+helpviewer_keywords: ["FWP_V6_ADDR_AND_MASK","FWP_V6_ADDR_AND_MASK structure [Filtering]","fwp.fwp_v6_addr_and_mask_struct","fwptypes/FWP_V6_ADDR_AND_MASK"]
 old-location: fwp\fwp_v6_addr_and_mask_struct.htm
 tech.root: fwp
 ms.assetid: d8566d41-677a-424f-89f3-e333a0520288

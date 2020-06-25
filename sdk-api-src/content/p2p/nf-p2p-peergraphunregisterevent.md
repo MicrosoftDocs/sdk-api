@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphUnregisterEvent
 title: PeerGraphUnregisterEvent function (p2p.h)
-description: The PeerGraphUnregisterEvent function requests that the application no longer be notified of changes associated with a peer graph and record type.helpviewer_keywords: ["PeerGraphUnregisterEvent","PeerGraphUnregisterEvent function [Peer Networking]","p2p.peergraphunregisterevent","p2p/PeerGraphUnregisterEvent"]
+description: The PeerGraphUnregisterEvent function requests that the application no longer be notified of changes associated with a peer graph and record type.
+helpviewer_keywords: ["PeerGraphUnregisterEvent","PeerGraphUnregisterEvent function [Peer Networking]","p2p.peergraphunregisterevent","p2p/PeerGraphUnregisterEvent"]
 old-location: p2p\peergraphunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.InsertMenuItemA
 title: InsertMenuItemA function (winuser.h)
-description: Inserts a new menu item at the specified position in a menu.helpviewer_keywords: ["InsertMenuItem","InsertMenuItem function [Menus and Other Resources]","InsertMenuItemA","InsertMenuItemW","_win32_InsertMenuItem","_win32_insertmenuitem_cpp","menurc.insertmenuitem","winui._win32_insertmenuitem","winuser/InsertMenuItem","winuser/InsertMenuItemA","winuser/InsertMenuItemW"]
+description: Inserts a new menu item at the specified position in a menu.
+helpviewer_keywords: ["InsertMenuItem","InsertMenuItem function [Menus and Other Resources]","InsertMenuItemA","InsertMenuItemW","_win32_InsertMenuItem","_win32_insertmenuitem_cpp","menurc.insertmenuitem","winui._win32_insertmenuitem","winuser/InsertMenuItem","winuser/InsertMenuItemA","winuser/InsertMenuItemW"]
 old-location: menurc\insertmenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenuitem.htm
@@ -119,6 +120,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines InsertMenuItem as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

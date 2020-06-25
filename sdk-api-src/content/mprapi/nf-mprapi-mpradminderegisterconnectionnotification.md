@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminDeregisterConnectionNotification
 title: MprAdminDeregisterConnectionNotification function (mprapi.h)
-description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.helpviewer_keywords: ["MprAdminDeregisterConnectionNotification","MprAdminDeregisterConnectionNotification function [RAS]","_mpr_mpradminderegisterconnectionnotification","mprapi/MprAdminDeregisterConnectionNotification","rras.mpradminderegisterconnectionnotification"]
+description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
+helpviewer_keywords: ["MprAdminDeregisterConnectionNotification","MprAdminDeregisterConnectionNotification function [RAS]","_mpr_mpradminderegisterconnectionnotification","mprapi/MprAdminDeregisterConnectionNotification","rras.mpradminderegisterconnectionnotification"]
 old-location: rras\mpradminderegisterconnectionnotification.htm
 tech.root: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Rect.Union
 title: Rect::Union (gdiplustypes.h)
-description: The Rect::Union method determines the union of two rectangles and stores the result in a Rect object.helpviewer_keywords: ["Rect class [GDI+]","Union method","Rect.Union","Rect::Union","Union","Union method [GDI+]","Union method [GDI+]","Rect class","_gdiplus_CLASS_Rect_Union_c_a_b_","gdiplus._gdiplus_CLASS_Rect_Union_c_a_b_"]
+description: The Rect::Union method determines the union of two rectangles and stores the result in a Rect object.
+helpviewer_keywords: ["Rect class [GDI+]","Union method","Rect.Union","Rect::Union","Union","Union method [GDI+]","Union method [GDI+]","Rect class","_gdiplus_CLASS_Rect_Union_c_a_b_","gdiplus._gdiplus_CLASS_Rect_Union_c_a_b_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Union_c_a_b_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\union.htm

@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.PRAISE_RES_TYPE_NOTIFICATION
 title: PRAISE_RES_TYPE_NOTIFICATION (resapi.h)
-description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.helpviewer_keywords: ["PRAISE_RES_TYPE_NOTIFICATION","PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster]","RaiseResTypeNotification","RaiseResTypeNotification callback","RaiseResTypeNotification callback function [Failover Cluster]","mscs.raiserestypenotification","resapi/PRAISE_RES_TYPE_NOTIFICATION","resapi/RaiseResTypeNotification"]
+description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
+helpviewer_keywords: ["PRAISE_RES_TYPE_NOTIFICATION","PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster]","RaiseResTypeNotification","RaiseResTypeNotification callback","RaiseResTypeNotification callback function [Failover Cluster]","mscs.raiserestypenotification","resapi/PRAISE_RES_TYPE_NOTIFICATION","resapi/RaiseResTypeNotification"]
 old-location: mscs\raiserestypenotification.htm
 tech.root: MsCS
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9

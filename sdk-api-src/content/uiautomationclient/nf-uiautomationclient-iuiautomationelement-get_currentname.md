@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentName
 title: IUIAutomationElement::get_CurrentName (uiautomationclient.h)
-description: Retrieves the name of the element.helpviewer_keywords: ["CurrentName property [Windows Accessibility]","CurrentName property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentName property","IUIAutomationElement.CurrentName","IUIAutomationElement.get_CurrentName","IUIAutomationElement::CurrentName","IUIAutomationElement::get_CurrentName","get_CurrentName","uiauto.uiauto_IUIAutomationElement_CurrentName","uiauto_IUIAutomationElement_CurrentName","uiautomationclient/IUIAutomationElement::CurrentName","uiautomationclient/IUIAutomationElement::get_CurrentName","winauto.uiauto_IUIAutomationElement_CurrentName"]
+description: Retrieves the name of the element.
+helpviewer_keywords: ["CurrentName property [Windows Accessibility]","CurrentName property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentName property","IUIAutomationElement.CurrentName","IUIAutomationElement.get_CurrentName","IUIAutomationElement::CurrentName","IUIAutomationElement::get_CurrentName","get_CurrentName","uiauto.uiauto_IUIAutomationElement_CurrentName","uiauto_IUIAutomationElement_CurrentName","uiautomationclient/IUIAutomationElement::CurrentName","uiautomationclient/IUIAutomationElement::get_CurrentName","winauto.uiauto_IUIAutomationElement_CurrentName"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentName.htm
 tech.root: WinAuto
 ms.assetid: 1a56f9ae-ac5a-4444-8ab4-083db124ead6

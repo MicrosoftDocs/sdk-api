@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.IDispatch.GetTypeInfo
 title: IDispatch::GetTypeInfo (oaidl.h)
-description: Retrieves the type information for an object, which can then be used to get the type information for an interface.helpviewer_keywords: ["GetTypeInfo","GetTypeInfo method [Automation]","GetTypeInfo method [Automation]","IDispatch interface","GetTypeInfo method [Automation]","IWebBrowser2 interface","IDispatch interface [Automation]","GetTypeInfo method","IDispatch.GetTypeInfo","IDispatch::GetTypeInfo","IWebBrowser2 interface [Automation]","GetTypeInfo method","IWebBrowser2::GetTypeInfo","_oa96_IDispatch::GetTypeInfo","automat.idispatch_gettypeinfo","oaidl/IDispatch::GetTypeInfo","oaidl/IWebBrowser2::GetTypeInfo"]
+description: Retrieves the type information for an object, which can then be used to get the type information for an interface.
+helpviewer_keywords: ["GetTypeInfo","GetTypeInfo method [Automation]","GetTypeInfo method [Automation]","IDispatch interface","GetTypeInfo method [Automation]","IWebBrowser2 interface","IDispatch interface [Automation]","GetTypeInfo method","IDispatch.GetTypeInfo","IDispatch::GetTypeInfo","IWebBrowser2 interface [Automation]","GetTypeInfo method","IWebBrowser2::GetTypeInfo","_oa96_IDispatch::GetTypeInfo","automat.idispatch_gettypeinfo","oaidl/IDispatch::GetTypeInfo","oaidl/IWebBrowser2::GetTypeInfo"]
 old-location: automat\idispatch_gettypeinfo.htm
 tech.root: automat
 ms.assetid: cc1ec9aa-6c40-4e70-819c-a7c6dd6b8c99

@@ -1,7 +1,8 @@
 ---
 UID: NS:wsrm._RM_RECEIVER_STATS
 title: RM_RECEIVER_STATS (wsrm.h)
-description: Provides statistical information for a Reliable Multicast receiver session. This structure is used with the RM_RECEIVER_STATISTICS socket option.helpviewer_keywords: ["RM_RECEIVER_STATS","RM_RECEIVER_STATS structure [Winsock]","winsock.rm_receiver_stats","wsrm/RM_RECEIVER_STATS"]
+description: Provides statistical information for a Reliable Multicast receiver session. This structure is used with the RM_RECEIVER_STATISTICS socket option.
+helpviewer_keywords: ["RM_RECEIVER_STATS","RM_RECEIVER_STATS structure [Winsock]","winsock.rm_receiver_stats","wsrm/RM_RECEIVER_STATS"]
 old-location: winsock\rm_receiver_stats.htm
 tech.root: WinSock
 ms.assetid: 972cf340-1e0e-4add-b218-054d6998023c

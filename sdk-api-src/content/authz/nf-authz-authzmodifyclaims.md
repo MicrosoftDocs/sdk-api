@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzModifyClaims
 title: AuthzModifyClaims function (authz.h)
-description: Adds, deletes, or modifies user and device claims in the Authz client context.helpviewer_keywords: ["AuthzModifyClaims","AuthzModifyClaims function [Security]","authz/AuthzModifyClaims","security.authzmodifyclaims"]
+description: Adds, deletes, or modifies user and device claims in the Authz client context.
+helpviewer_keywords: ["AuthzModifyClaims","AuthzModifyClaims function [Security]","authz/AuthzModifyClaims","security.authzmodifyclaims"]
 old-location: security\authzmodifyclaims.htm
 tech.root: SecAuthZ
 ms.assetid: A93CD1DD-4E87-4C6A-928A-F90AD7F1085E

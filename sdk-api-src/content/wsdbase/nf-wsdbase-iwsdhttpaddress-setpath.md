@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.SetPath
 title: IWSDHttpAddress::SetPath (wsdbase.h)
-description: Sets the URI path for this address.helpviewer_keywords: ["IWSDHttpAddress interface","SetPath method","IWSDHttpAddress.SetPath","IWSDHttpAddress::SetPath","SetPath","SetPath method","SetPath method","IWSDHttpAddress interface","ncd.iwsdhttpaddress_setpath","wsdbase/IWSDHttpAddress::SetPath"]
+description: Sets the URI path for this address.
+helpviewer_keywords: ["IWSDHttpAddress interface","SetPath method","IWSDHttpAddress.SetPath","IWSDHttpAddress::SetPath","SetPath","SetPath method","SetPath method","IWSDHttpAddress interface","ncd.iwsdhttpaddress_setpath","wsdbase/IWSDHttpAddress::SetPath"]
 old-location: ncd\iwsdhttpaddress_setpath.htm
 tech.root: WsdApi
 ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e

@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
 title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
-description: Asynchronously creates a DevicePair of devices that are on the same network interface.helpviewer_keywords: ["CreateDevicesOnMatchingNetworkAsync","CreateDevicesOnMatchingNetworkAsync method [Media Streaming API]","CreateDevicesOnMatchingNetworkAsync method [Media Streaming API]","IActiveBasicDeviceStatics interface","IActiveBasicDeviceStatics interface [Media Streaming API]","CreateDevicesOnMatchingNetworkAsync method","IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics.streaming","IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics::streaming","mediastreaming.iactivebasicdevicestatics_createdevicesonmatchingnetworkasync","windows/IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync"]
+description: Asynchronously creates a DevicePair of devices that are on the same network interface.
+helpviewer_keywords: ["CreateDevicesOnMatchingNetworkAsync","CreateDevicesOnMatchingNetworkAsync method [Media Streaming API]","CreateDevicesOnMatchingNetworkAsync method [Media Streaming API]","IActiveBasicDeviceStatics interface","IActiveBasicDeviceStatics interface [Media Streaming API]","CreateDevicesOnMatchingNetworkAsync method","IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics.streaming","IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics::streaming","mediastreaming.iactivebasicdevicestatics_createdevicesonmatchingnetworkasync","windows/IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync"]
 old-location: mediastreaming\iactivebasicdevicestatics_createdevicesonmatchingnetworkasync.htm
 tech.root: mediastreaming
 ms.assetid: E113C600-1F55-4653-A4FD-A1286699B137

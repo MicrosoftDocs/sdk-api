@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.GetColumnInfo
 title: IColumnManager::GetColumnInfo (shobjidl_core.h)
-description: Gets information about each column:\_width, visibility, display name, and state.helpviewer_keywords: ["GetColumnInfo","GetColumnInfo method [Windows Shell]","GetColumnInfo method [Windows Shell]","IColumnManager interface","IColumnManager interface [Windows Shell]","GetColumnInfo method","IColumnManager.GetColumnInfo","IColumnManager::GetColumnInfo","shell.IColumnManager_GetColumnInfo","shell_IColumnManager_GetColumnInfo","shobjidl_core/IColumnManager::GetColumnInfo"]
+description: Gets information about each column:\_width, visibility, display name, and state.
+helpviewer_keywords: ["GetColumnInfo","GetColumnInfo method [Windows Shell]","GetColumnInfo method [Windows Shell]","IColumnManager interface","IColumnManager interface [Windows Shell]","GetColumnInfo method","IColumnManager.GetColumnInfo","IColumnManager::GetColumnInfo","shell.IColumnManager_GetColumnInfo","shell_IColumnManager_GetColumnInfo","shobjidl_core/IColumnManager::GetColumnInfo"]
 old-location: shell\IColumnManager_GetColumnInfo.htm
 tech.root: shell
 ms.assetid: 22b3e5a6-a0a1-46e4-91b8-7bfe3944fffb

@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IPrincipal2.AddRequiredPrivilege
 title: IPrincipal2::AddRequiredPrivilege (taskschd.h)
-description: Adds the required privilege to the task process token.helpviewer_keywords: ["AddRequiredPrivilege","AddRequiredPrivilege method [Task Scheduler]","AddRequiredPrivilege method [Task Scheduler]","IPrincipal2 interface","IPrincipal2 interface [Task Scheduler]","AddRequiredPrivilege method","IPrincipal2.AddRequiredPrivilege","IPrincipal2::AddRequiredPrivilege","taskschd.iprincipal2_addrequiredprivilege","taskschd/IPrincipal2::AddRequiredPrivilege"]
+description: Adds the required privilege to the task process token.
+helpviewer_keywords: ["AddRequiredPrivilege","AddRequiredPrivilege method [Task Scheduler]","AddRequiredPrivilege method [Task Scheduler]","IPrincipal2 interface","IPrincipal2 interface [Task Scheduler]","AddRequiredPrivilege method","IPrincipal2.AddRequiredPrivilege","IPrincipal2::AddRequiredPrivilege","taskschd.iprincipal2_addrequiredprivilege","taskschd/IPrincipal2::AddRequiredPrivilege"]
 old-location: taskschd\iprincipal2_addrequiredprivilege.htm
 tech.root: taskschd
 ms.assetid: 74b7fffa-7e16-43e1-9176-677d9948f448

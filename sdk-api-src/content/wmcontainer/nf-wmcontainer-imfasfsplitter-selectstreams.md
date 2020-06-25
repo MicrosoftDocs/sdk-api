@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.SelectStreams
 title: IMFASFSplitter::SelectStreams (wmcontainer.h)
-description: Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.helpviewer_keywords: ["IMFASFSplitter interface [Media Foundation]","SelectStreams method","IMFASFSplitter.SelectStreams","IMFASFSplitter::SelectStreams","SelectStreams","SelectStreams method [Media Foundation]","SelectStreams method [Media Foundation]","IMFASFSplitter interface","a241f8a4-7609-4a6c-825f-a7b882bfc25f","mf.imfasfsplitter_selectstreams","wmcontainer/IMFASFSplitter::SelectStreams"]
+description: Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.
+helpviewer_keywords: ["IMFASFSplitter interface [Media Foundation]","SelectStreams method","IMFASFSplitter.SelectStreams","IMFASFSplitter::SelectStreams","SelectStreams","SelectStreams method [Media Foundation]","SelectStreams method [Media Foundation]","IMFASFSplitter interface","a241f8a4-7609-4a6c-825f-a7b882bfc25f","mf.imfasfsplitter_selectstreams","wmcontainer/IMFASFSplitter::SelectStreams"]
 old-location: mf\imfasfsplitter_selectstreams.htm
 tech.root: medfound
 ms.assetid: a241f8a4-7609-4a6c-825f-a7b882bfc25f

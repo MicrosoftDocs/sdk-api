@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMClockSlave.SetErrorTolerance
 title: IAMClockSlave::SetErrorTolerance (strmif.h)
-description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.helpviewer_keywords: ["IAMClockSlave interface [DirectShow]","SetErrorTolerance method","IAMClockSlave.SetErrorTolerance","IAMClockSlave::SetErrorTolerance","IAMClockSlaveSetErrorTolerance","SetErrorTolerance","SetErrorTolerance method [DirectShow]","SetErrorTolerance method [DirectShow]","IAMClockSlave interface","dshow.iamclockslave_seterrortolerance","strmif/IAMClockSlave::SetErrorTolerance"]
+description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.
+helpviewer_keywords: ["IAMClockSlave interface [DirectShow]","SetErrorTolerance method","IAMClockSlave.SetErrorTolerance","IAMClockSlave::SetErrorTolerance","IAMClockSlaveSetErrorTolerance","SetErrorTolerance","SetErrorTolerance method [DirectShow]","SetErrorTolerance method [DirectShow]","IAMClockSlave interface","dshow.iamclockslave_seterrortolerance","strmif/IAMClockSlave::SetErrorTolerance"]
 old-location: dshow\iamclockslave_seterrortolerance.htm
 tech.root: DirectShow
 ms.assetid: 6c93e345-4e4a-4019-9c18-d3d43736fee3

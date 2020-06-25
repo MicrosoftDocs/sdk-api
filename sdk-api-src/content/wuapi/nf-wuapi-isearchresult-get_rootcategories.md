@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.ISearchResult.get_RootCategories
 title: ISearchResult::get_RootCategories (wuapi.h)
-description: Gets an interface collection of the root categories that are currently available on the computer.helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","RootCategories property","ISearchResult.RootCategories","ISearchResult.get_RootCategories","ISearchResult::RootCategories","ISearchResult::get_RootCategories","RootCategories property [Windows Update Agent]","RootCategories property [Windows Update Agent]","ISearchResult interface","get_RootCategories","wua.isearchresult_rootcategories","wuapi/ISearchResult::RootCategories","wuapi/ISearchResult::get_RootCategories"]
+description: Gets an interface collection of the root categories that are currently available on the computer.
+helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","RootCategories property","ISearchResult.RootCategories","ISearchResult.get_RootCategories","ISearchResult::RootCategories","ISearchResult::get_RootCategories","RootCategories property [Windows Update Agent]","RootCategories property [Windows Update Agent]","ISearchResult interface","get_RootCategories","wua.isearchresult_rootcategories","wuapi/ISearchResult::RootCategories","wuapi/ISearchResult::get_RootCategories"]
 old-location: wua\isearchresult_rootcategories.htm
 tech.root: Wua_Sdk
 ms.assetid: 13539f86-3336-45df-82f8-758e821e35c6

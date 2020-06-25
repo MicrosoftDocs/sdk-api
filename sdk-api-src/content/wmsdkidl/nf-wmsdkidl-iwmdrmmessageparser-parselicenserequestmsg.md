@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMMessageParser.ParseLicenseRequestMsg
 title: IWMDRMMessageParser::ParseLicenseRequestMsg (wmsdkidl.h)
-description: The ParseLicenseRequestMsg method extracts the device identification and requested action from a policy request message.helpviewer_keywords: ["IWMDRMMessageParser interface [windows Media Format]","ParseLicenseRequestMsg method","IWMDRMMessageParser.ParseLicenseRequestMsg","IWMDRMMessageParser::ParseLicenseRequestMsg","IWMDRMMessageParserParseLicenseRequestMsg","ParseLicenseRequestMsg","ParseLicenseRequestMsg method [windows Media Format]","ParseLicenseRequestMsg method [windows Media Format]","IWMDRMMessageParser interface","wmformat.iwmdrmmessageparser_parselicenserequestmsg","wmsdkidl/IWMDRMMessageParser::ParseLicenseRequestMsg"]
+description: The ParseLicenseRequestMsg method extracts the device identification and requested action from a policy request message.
+helpviewer_keywords: ["IWMDRMMessageParser interface [windows Media Format]","ParseLicenseRequestMsg method","IWMDRMMessageParser.ParseLicenseRequestMsg","IWMDRMMessageParser::ParseLicenseRequestMsg","IWMDRMMessageParserParseLicenseRequestMsg","ParseLicenseRequestMsg","ParseLicenseRequestMsg method [windows Media Format]","ParseLicenseRequestMsg method [windows Media Format]","IWMDRMMessageParser interface","wmformat.iwmdrmmessageparser_parselicenserequestmsg","wmsdkidl/IWMDRMMessageParser::ParseLicenseRequestMsg"]
 old-location: wmformat\iwmdrmmessageparser_parselicenserequestmsg.htm
 tech.root: wmformat
 ms.assetid: 0d51b7f7-5cc2-4dbd-8a61-2901c01734bb

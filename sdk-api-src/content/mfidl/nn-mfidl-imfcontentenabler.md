@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFContentEnabler
 title: IMFContentEnabler (mfidl.h)
-description: Implements one step that must be performed for the user to access media content.helpviewer_keywords: ["45d02bd0-1104-47ec-8559-8cc51590fc62","IMFContentEnabler","IMFContentEnabler interface [Media Foundation]","IMFContentEnabler interface [Media Foundation]","described","mf.imfcontentenabler","mfidl/IMFContentEnabler"]
+description: Implements one step that must be performed for the user to access media content.
+helpviewer_keywords: ["45d02bd0-1104-47ec-8559-8cc51590fc62","IMFContentEnabler","IMFContentEnabler interface [Media Foundation]","IMFContentEnabler interface [Media Foundation]","described","mf.imfcontentenabler","mfidl/IMFContentEnabler"]
 old-location: mf\imfcontentenabler.htm
 tech.root: medfound
 ms.assetid: 45d02bd0-1104-47ec-8559-8cc51590fc62

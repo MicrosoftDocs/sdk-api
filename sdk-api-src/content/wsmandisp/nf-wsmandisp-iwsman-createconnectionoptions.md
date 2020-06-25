@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateConnectionOptions
 title: IWSMan::CreateConnectionOptions (wsmandisp.h)
-description: Creates an IWSManConnectionOptions object that specifies the user name and password used when creating a session.helpviewer_keywords: ["CreateConnectionOptions","CreateConnectionOptions method [Windows Remote Management]","CreateConnectionOptions method [Windows Remote Management]","IWSMan interface","IWSMan interface [Windows Remote Management]","CreateConnectionOptions method","IWSMan.CreateConnectionOptions","IWSMan::CreateConnectionOptions","winrm.iwsman_createconnectionoptions","wsmandisp/IWSMan::CreateConnectionOptions"]
+description: Creates an IWSManConnectionOptions object that specifies the user name and password used when creating a session.
+helpviewer_keywords: ["CreateConnectionOptions","CreateConnectionOptions method [Windows Remote Management]","CreateConnectionOptions method [Windows Remote Management]","IWSMan interface","IWSMan interface [Windows Remote Management]","CreateConnectionOptions method","IWSMan.CreateConnectionOptions","IWSMan::CreateConnectionOptions","winrm.iwsman_createconnectionoptions","wsmandisp/IWSMan::CreateConnectionOptions"]
 old-location: winrm\iwsman_createconnectionoptions.htm
 tech.root: winrm
 ms.assetid: e24813cb-b996-4712-803b-360c9bcfdee3

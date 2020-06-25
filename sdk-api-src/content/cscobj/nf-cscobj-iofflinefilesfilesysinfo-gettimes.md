@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetTimes
 title: IOfflineFilesFileSysInfo::GetTimes (cscobj.h)
-description: Retrieves the time values associated with an item.helpviewer_keywords: ["GetTimes","GetTimes method [Offline Files]","GetTimes method [Offline Files]","IOfflineFilesFileSysInfo interface","IOfflineFilesFileSysInfo interface [Offline Files]","GetTimes method","IOfflineFilesFileSysInfo.GetTimes","IOfflineFilesFileSysInfo::GetTimes","cscobj/IOfflineFilesFileSysInfo::GetTimes","of.iofflinefilesfilesysinfo_gettimes"]
+description: Retrieves the time values associated with an item.
+helpviewer_keywords: ["GetTimes","GetTimes method [Offline Files]","GetTimes method [Offline Files]","IOfflineFilesFileSysInfo interface","IOfflineFilesFileSysInfo interface [Offline Files]","GetTimes method","IOfflineFilesFileSysInfo.GetTimes","IOfflineFilesFileSysInfo::GetTimes","cscobj/IOfflineFilesFileSysInfo::GetTimes","of.iofflinefilesfilesysinfo_gettimes"]
 old-location: of\iofflinefilesfilesysinfo_gettimes.htm
 tech.root: offlinefiles
 ms.assetid: 120b3f7c-6a92-4a03-8676-1ad4e4dc96b3

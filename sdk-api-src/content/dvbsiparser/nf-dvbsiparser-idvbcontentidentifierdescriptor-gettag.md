@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbContentIdentifierDescriptor.GetTag
 title: IDvbContentIdentifierDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag for a Digital Video Broadcast (DVB) content identifier descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbContentIdentifierDescriptor interface","IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbContentIdentifierDescriptor.GetTag","IDvbContentIdentifierDescriptor::GetTag","dvbsiparser/IDvbContentIdentifierDescriptor::GetTag","mstv.idvbcontentidentifierdescriptor_gettag"]
+description: Gets the tag for a Digital Video Broadcast (DVB) content identifier descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbContentIdentifierDescriptor interface","IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbContentIdentifierDescriptor.GetTag","IDvbContentIdentifierDescriptor::GetTag","dvbsiparser/IDvbContentIdentifierDescriptor::GetTag","mstv.idvbcontentidentifierdescriptor_gettag"]
 old-location: mstv\idvbcontentidentifierdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 0ab8dbe8-ddb8-4c24-a830-c770eab2b23f

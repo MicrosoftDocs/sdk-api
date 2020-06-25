@@ -1,7 +1,8 @@
 ---
 UID: NF:certcli.ICertConfig.GetConfig
 title: ICertConfig::GetConfig (certcli.h)
-description: Retrieves the configuration string for a Certificate Services server. This method was first defined in the ICertConfig interface.helpviewer_keywords: ["CC_DEFAULTCONFIG","CC_FIRSTCONFIG","CC_LOCALACTIVECONFIG","CC_LOCALCONFIG","CC_UIPICKCONFIG","CC_UIPICKCONFIGSKIPLOCALCA","CCertConfig object [Security]","GetConfig method","GetConfig","GetConfig method [Security]","GetConfig method [Security]","CCertConfig object","GetConfig method [Security]","ICertConfig interface","GetConfig method [Security]","ICertConfig2 interface","ICertConfig interface [Security]","GetConfig method","ICertConfig.GetConfig","ICertConfig2 interface [Security]","GetConfig method","ICertConfig2::GetConfig","ICertConfig::GetConfig","_certsrv_icertconfig_getconfig","certcli/ICertConfig2::GetConfig","certcli/ICertConfig::GetConfig","security.icertconfig2_getconfig"]
+description: Retrieves the configuration string for a Certificate Services server. This method was first defined in the ICertConfig interface.
+helpviewer_keywords: ["CC_DEFAULTCONFIG","CC_FIRSTCONFIG","CC_LOCALACTIVECONFIG","CC_LOCALCONFIG","CC_UIPICKCONFIG","CC_UIPICKCONFIGSKIPLOCALCA","CCertConfig object [Security]","GetConfig method","GetConfig","GetConfig method [Security]","GetConfig method [Security]","CCertConfig object","GetConfig method [Security]","ICertConfig interface","GetConfig method [Security]","ICertConfig2 interface","ICertConfig interface [Security]","GetConfig method","ICertConfig.GetConfig","ICertConfig2 interface [Security]","GetConfig method","ICertConfig2::GetConfig","ICertConfig::GetConfig","_certsrv_icertconfig_getconfig","certcli/ICertConfig2::GetConfig","certcli/ICertConfig::GetConfig","security.icertconfig2_getconfig"]
 old-location: security\icertconfig2_getconfig.htm
 tech.root: SecCrypto
 ms.assetid: 3a35b2a0-f8e4-496d-b76a-a7310842cc4c

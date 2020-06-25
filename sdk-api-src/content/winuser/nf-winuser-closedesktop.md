@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CloseDesktop
 title: CloseDesktop function (winuser.h)
-description: Closes an open handle to a desktop object.helpviewer_keywords: ["CloseDesktop","CloseDesktop function [Windows Stations and Desktops]","_win32_closedesktop","base.closedesktop","winstation.closedesktop","winuser/CloseDesktop"]
+description: Closes an open handle to a desktop object.
+helpviewer_keywords: ["CloseDesktop","CloseDesktop function [Windows Stations and Desktops]","_win32_closedesktop","base.closedesktop","winstation.closedesktop","winuser/CloseDesktop"]
 old-location: winstation\closedesktop.htm
 tech.root: winstation
 ms.assetid: 861e57b2-061c-4598-ad38-6aef7b79ca54

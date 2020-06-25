@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerAddExcludedApplication
 title: WerAddExcludedApplication function (werapi.h)
-description: Adds the specified application to the list of applications that are to be excluded from error reporting.helpviewer_keywords: ["WerAddExcludedApplication","WerAddExcludedApplication function [Windows Error Reporting]","base.weraddexcludedapplication","wer.weraddexcludedapplication","werapi/WerAddExcludedApplication"]
+description: Adds the specified application to the list of applications that are to be excluded from error reporting.
+helpviewer_keywords: ["WerAddExcludedApplication","WerAddExcludedApplication function [Windows Error Reporting]","base.weraddexcludedapplication","wer.weraddexcludedapplication","werapi/WerAddExcludedApplication"]
 old-location: wer\weraddexcludedapplication.htm
 tech.root: wer
 ms.assetid: ac1ec373-868f-4634-8658-4253d4f5923a

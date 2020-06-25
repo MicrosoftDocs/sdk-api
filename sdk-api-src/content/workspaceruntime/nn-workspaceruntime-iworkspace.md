@@ -1,7 +1,8 @@
 ---
 UID: NN:workspaceruntime.IWorkspace
 title: IWorkspace (workspaceruntime.h)
-description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection.helpviewer_keywords: ["IWorkspace","IWorkspace interface [Remote Desktop Services]","IWorkspace interface [Remote Desktop Services]","described","termserv.iworkspace","workspaceruntime/IWorkspace"]
+description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection.
+helpviewer_keywords: ["IWorkspace","IWorkspace interface [Remote Desktop Services]","IWorkspace interface [Remote Desktop Services]","described","termserv.iworkspace","workspaceruntime/IWorkspace"]
 old-location: termserv\iworkspace.htm
 tech.root: TermServ
 ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486

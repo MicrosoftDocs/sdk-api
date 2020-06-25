@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.operator-assign(XMCOLOR &&)
 title: XMCOLOR::operator-assign(XMCOLOR &&) (directxpackedvector.h)
-description: This operator assigns the vector component data from one instance of XMCOLOR to the current instance of XMCOLOR.helpviewer_keywords: ["XMCOLOR structure [DirectX Math Support APIs]","operator = method","XMCOLOR.operator =(const XMCOLOR&)","XMCOLOR.operator-assign(XMCOLOR &&)","XMCOLOR.operator=","XMCOLOR::operator-assign(XMCOLOR &&)","XMCOLOR::operator=","dxmath.xmcolor_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMCOLOR structure","operator="]
+description: This operator assigns the vector component data from one instance of XMCOLOR to the current instance of XMCOLOR.
+helpviewer_keywords: ["XMCOLOR structure [DirectX Math Support APIs]","operator = method","XMCOLOR.operator =(const XMCOLOR&)","XMCOLOR.operator-assign(XMCOLOR &&)","XMCOLOR.operator=","XMCOLOR::operator-assign(XMCOLOR &&)","XMCOLOR::operator=","dxmath.xmcolor_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMCOLOR structure","operator="]
 old-location: dxmath\xmcolor_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: 3ad704a1-8244-4c35-9dc6-0b4058c71caa

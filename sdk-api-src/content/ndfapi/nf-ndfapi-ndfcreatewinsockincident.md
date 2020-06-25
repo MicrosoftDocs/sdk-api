@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCreateWinSockIncident
 title: NdfCreateWinSockIncident function (ndfapi.h)
-description: Provides access to the Winsock Helper Class provided by Microsoft.helpviewer_keywords: ["NdfCreateWinSockIncident","NdfCreateWinSockIncident function [NDF]","ndf.ndfcreatewinsockincident","ndfapi/NdfCreateWinSockIncident"]
+description: Provides access to the Winsock Helper Class provided by Microsoft.
+helpviewer_keywords: ["NdfCreateWinSockIncident","NdfCreateWinSockIncident function [NDF]","ndf.ndfcreatewinsockincident","ndfapi/NdfCreateWinSockIncident"]
 old-location: ndf\ndfcreatewinsockincident.htm
 tech.root: NDF
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811

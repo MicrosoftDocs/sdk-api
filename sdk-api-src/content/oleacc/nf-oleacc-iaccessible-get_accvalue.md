@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccessible.get_accValue
 title: IAccessible::get_accValue (oleacc.h)
-description: The IAccessible::get_accValue method retrieves the value of the specified object. Not all objects have a value.helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accValue method","IAccessible.get_accValue","IAccessible::get_accValue","_msaa_IAccessible_get_accValue","get_accValue","get_accValue method [Windows Accessibility]","get_accValue method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_accvalue","oleacc/IAccessible::get_accValue","winauto.iaccessible_iaccessible__get_accvalue"]
+description: The IAccessible::get_accValue method retrieves the value of the specified object. Not all objects have a value.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accValue method","IAccessible.get_accValue","IAccessible::get_accValue","_msaa_IAccessible_get_accValue","get_accValue","get_accValue method [Windows Accessibility]","get_accValue method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_accvalue","oleacc/IAccessible::get_accValue","winauto.iaccessible_iaccessible__get_accvalue"]
 old-location: winauto\iaccessible_iaccessible__get_accvalue.htm
 tech.root: WinAuto
 ms.assetid: 8e29adec-13fb-4a85-87ac-9e8034dce147

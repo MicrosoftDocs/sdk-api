@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceEvent.SetThreadId
 title: ITraceEvent::SetThreadId (relogger.h)
-description: Sets the identifier of a thread that generates an event.helpviewer_keywords: ["ITraceEvent interface [ETW]","SetThreadId method","ITraceEvent.SetThreadId","ITraceEvent::SetThreadId","SetThreadId","SetThreadId method [ETW]","SetThreadId method [ETW]","ITraceEvent interface","etw.ievent_setthreadid","relogger/ITraceEvent::SetThreadId"]
+description: Sets the identifier of a thread that generates an event.
+helpviewer_keywords: ["ITraceEvent interface [ETW]","SetThreadId method","ITraceEvent.SetThreadId","ITraceEvent::SetThreadId","SetThreadId","SetThreadId method [ETW]","SetThreadId method [ETW]","ITraceEvent interface","etw.ievent_setthreadid","relogger/ITraceEvent::SetThreadId"]
 old-location: etw\ievent_setthreadid.htm
 tech.root: ETW
 ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46

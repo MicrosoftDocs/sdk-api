@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHPropStgReadMultiple
 title: SHPropStgReadMultiple function (shlobj_core.h)
-description: Wraps the IPropertyStorage::ReadMultiple function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.helpviewer_keywords: ["SHPropStgReadMultiple","SHPropStgReadMultiple function [Windows Properties]","_win32_SHPropStgReadMultiple","properties.SHPropStgReadMultiple","shell.SHPropStgReadMultiple","shlobj_core/SHPropStgReadMultiple"]
+description: Wraps the IPropertyStorage::ReadMultiple function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
+helpviewer_keywords: ["SHPropStgReadMultiple","SHPropStgReadMultiple function [Windows Properties]","_win32_SHPropStgReadMultiple","properties.SHPropStgReadMultiple","shell.SHPropStgReadMultiple","shlobj_core/SHPropStgReadMultiple"]
 old-location: properties\SHPropStgReadMultiple.htm
 tech.root: properties
 ms.assetid: 5350a1b1-a099-4b09-af89-f652e40b1d20

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1RenderTarget
 title: ID2D1RenderTarget (d2d1.h)
-description: Represents an object that can receive drawing commands. Interfaces that inherit from ID2D1RenderTarget render the drawing commands they receive in different ways.helpviewer_keywords: ["ID2D1RenderTarget","ID2D1RenderTarget interface [Direct2D]","ID2D1RenderTarget interface [Direct2D]","described","d2d1/ID2D1RenderTarget","direct2d.ID2D1RenderTarget"]
+description: Represents an object that can receive drawing commands. Interfaces that inherit from ID2D1RenderTarget render the drawing commands they receive in different ways.
+helpviewer_keywords: ["ID2D1RenderTarget","ID2D1RenderTarget interface [Direct2D]","ID2D1RenderTarget interface [Direct2D]","described","d2d1/ID2D1RenderTarget","direct2d.ID2D1RenderTarget"]
 old-location: direct2d\ID2D1RenderTarget.htm
 tech.root: Direct2D
 ms.assetid: 40629be9-5840-4bde-b369-56bbfd791775

@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509ExtensionKeyUsage
 title: IX509ExtensionKeyUsage (certenroll.h)
-description: Can be used to define restrictions on the operations that can be performed by the public key contained in the certificate.helpviewer_keywords: ["IX509ExtensionKeyUsage","IX509ExtensionKeyUsage interface [Security]","IX509ExtensionKeyUsage interface [Security]","described","certenroll/IX509ExtensionKeyUsage","security.ix509extensionkeyusage"]
+description: Can be used to define restrictions on the operations that can be performed by the public key contained in the certificate.
+helpviewer_keywords: ["IX509ExtensionKeyUsage","IX509ExtensionKeyUsage interface [Security]","IX509ExtensionKeyUsage interface [Security]","described","certenroll/IX509ExtensionKeyUsage","security.ix509extensionkeyusage"]
 old-location: security\ix509extensionkeyusage.htm
 tech.root: seccertenroll
 ms.assetid: 4325e6aa-99bb-4c9a-9b19-c5352ebf27b9

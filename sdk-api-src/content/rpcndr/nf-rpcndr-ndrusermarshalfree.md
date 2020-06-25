@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalFree
 title: NdrUserMarshalFree function (rpcndr.h)
-description: The NdrUserMarshalFree function frees the user marshal object.helpviewer_keywords: ["NdrUserMarshalFree","NdrUserMarshalFree function [RPC]","rpc.ndrusermarshalfree","rpcndr/NdrUserMarshalFree"]
+description: The NdrUserMarshalFree function frees the user marshal object.
+helpviewer_keywords: ["NdrUserMarshalFree","NdrUserMarshalFree function [RPC]","rpc.ndrusermarshalfree","rpcndr/NdrUserMarshalFree"]
 old-location: rpc\ndrusermarshalfree.htm
 tech.root: Rpc
 ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809

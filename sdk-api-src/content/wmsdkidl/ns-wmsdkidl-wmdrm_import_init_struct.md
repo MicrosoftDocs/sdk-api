@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl.WMDRM_IMPORT_INIT_STRUCT
 title: WMDRM_IMPORT_INIT_STRUCT (wmsdkidl.h)
-description: The WMDRM_IMPORT_INIT_STRUCT structure holds the encrypted session key and content key used in importing protected content.helpviewer_keywords: ["WMDRM_IMPORT_INIT_STRUCT","WMDRM_IMPORT_INIT_STRUCT structure [windows Media Format]","structure [windows Media Format]","wmformat.wmdrm_import_init_struct","wmsdkidl/WMDRM_IMPORT_INIT_STRUCT"]
+description: The WMDRM_IMPORT_INIT_STRUCT structure holds the encrypted session key and content key used in importing protected content.
+helpviewer_keywords: ["WMDRM_IMPORT_INIT_STRUCT","WMDRM_IMPORT_INIT_STRUCT structure [windows Media Format]","structure [windows Media Format]","wmformat.wmdrm_import_init_struct","wmsdkidl/WMDRM_IMPORT_INIT_STRUCT"]
 old-location: wmformat\wmdrm_import_init_struct.htm
 tech.root: wmformat
 ms.assetid: 191b844e-5760-44d7-9b27-9fa87fead90f

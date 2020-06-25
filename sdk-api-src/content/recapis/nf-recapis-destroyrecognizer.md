@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.DestroyRecognizer
 title: DestroyRecognizer function (recapis.h)
-description: Destroys a recognizer.helpviewer_keywords: ["DestroyRecognizer","DestroyRecognizer function [Tablet PC]","ffd66ab7-fc11-407e-aedc-267271ecb32c","recapis/DestroyRecognizer","tablet.destroyrecognizer"]
+description: Destroys a recognizer.
+helpviewer_keywords: ["DestroyRecognizer","DestroyRecognizer function [Tablet PC]","ffd66ab7-fc11-407e-aedc-267271ecb32c","recapis/DestroyRecognizer","tablet.destroyrecognizer"]
 old-location: tablet\destroyrecognizer.htm
 tech.root: tablet
 ms.assetid: ffd66ab7-fc11-407e-aedc-267271ecb32c

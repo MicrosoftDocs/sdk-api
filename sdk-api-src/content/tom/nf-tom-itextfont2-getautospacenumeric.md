@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceNumeric
 title: ITextFont2::GetAutospaceNumeric (tom.h)
-description: Gets the East Asian &#0034;autospace numeric&#0034; state.helpviewer_keywords: ["GetAutospaceNumeric","GetAutospaceNumeric method [Windows Controls]","GetAutospaceNumeric method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetAutospaceNumeric method","ITextFont2.GetAutospaceNumeric","ITextFont2::GetAutospaceNumeric","controls.itextfont2_getautospacenumeric","tom/ITextFont2::GetAutospaceNumeric"]
+description: Gets the East Asian &#0034;autospace numeric&#0034; state.
+helpviewer_keywords: ["GetAutospaceNumeric","GetAutospaceNumeric method [Windows Controls]","GetAutospaceNumeric method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetAutospaceNumeric method","ITextFont2.GetAutospaceNumeric","ITextFont2::GetAutospaceNumeric","controls.itextfont2_getautospacenumeric","tom/ITextFont2::GetAutospaceNumeric"]
 old-location: controls\itextfont2_getautospacenumeric.htm
 tech.root: Controls
 ms.assetid: 448a461b-779a-457e-8206-2055a73c9b45

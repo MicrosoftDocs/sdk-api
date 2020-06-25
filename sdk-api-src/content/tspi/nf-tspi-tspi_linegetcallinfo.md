@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallInfo
 title: TSPI_lineGetCallInfo function (tspi.h)
-description: The TSPI_lineGetCallInfo function returns detailed information about the specified call.helpviewer_keywords: ["TSPI_lineGetCallInfo","TSPI_lineGetCallInfo function [TAPI 2.2]","_tspi_tspi_linegetcallinfo","tspi.tspi_linegetcallinfo","tspi/TSPI_lineGetCallInfo"]
+description: The TSPI_lineGetCallInfo function returns detailed information about the specified call.
+helpviewer_keywords: ["TSPI_lineGetCallInfo","TSPI_lineGetCallInfo function [TAPI 2.2]","_tspi_tspi_linegetcallinfo","tspi.tspi_linegetcallinfo","tspi/TSPI_lineGetCallInfo"]
 old-location: tspi\tspi_linegetcallinfo.htm
 tech.root: Tapi
 ms.assetid: 9ef43928-05aa-4ec6-bc44-f07a63d8ecdf

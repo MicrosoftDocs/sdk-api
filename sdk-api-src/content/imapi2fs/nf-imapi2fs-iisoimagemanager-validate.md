@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.Validate
 title: IIsoImageManager::Validate (imapi2fs.h)
-description: Determines if the provided .iso image is valid.helpviewer_keywords: ["IIsoImageManager interface [IMAPI]","Validate method","IIsoImageManager.Validate","IIsoImageManager::Validate","Validate","Validate method [IMAPI]","Validate method [IMAPI]","IIsoImageManager interface","imapi.iisoimagemanager_validate","imapi2fs/IIsoImageManager::Validate"]
+description: Determines if the provided .iso image is valid.
+helpviewer_keywords: ["IIsoImageManager interface [IMAPI]","Validate method","IIsoImageManager.Validate","IIsoImageManager::Validate","Validate","Validate method [IMAPI]","Validate method [IMAPI]","IIsoImageManager interface","imapi.iisoimagemanager_validate","imapi2fs/IIsoImageManager::Validate"]
 old-location: imapi\iisoimagemanager_validate.htm
 tech.root: imapi
 ms.assetid: 0fd9f0fc-8a77-4b94-9111-c8ce223329b6

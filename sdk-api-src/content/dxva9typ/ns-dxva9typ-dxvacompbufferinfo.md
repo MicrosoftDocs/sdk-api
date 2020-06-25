@@ -1,7 +1,8 @@
 ---
 UID: NS:dxva9typ._DXVACompBufferInfo
 title: DXVACompBufferInfo (dxva9typ.h)
-description: Specifies the requirements for compressed surfaces for DirectX Video Acceleration (DXVA).helpviewer_keywords: ["DXVACompBufferInfo","DXVACompBufferInfo structure [Media Foundation]","_DXVACompBufferInfo","dxva9typ/DXVACompBufferInfo","mf.dxvacompbufferinfo"]
+description: Specifies the requirements for compressed surfaces for DirectX Video Acceleration (DXVA).
+helpviewer_keywords: ["DXVACompBufferInfo","DXVACompBufferInfo structure [Media Foundation]","_DXVACompBufferInfo","dxva9typ/DXVACompBufferInfo","mf.dxvacompbufferinfo"]
 old-location: mf\dxvacompbufferinfo.htm
 tech.root: medfound
 ms.assetid: dabef388-d883-48a6-9abc-218dc163ef63

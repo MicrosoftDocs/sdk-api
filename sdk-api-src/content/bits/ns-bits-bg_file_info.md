@@ -1,7 +1,8 @@
 ---
 UID: NS:bits._BG_FILE_INFO
 title: BG_FILE_INFO (bits.h)
-description: Provides the local and remote names of the file to transfer.helpviewer_keywords: ["BG_FILE_INFO","BG_FILE_INFO structure [BITS]","_drz_bg_file_info","bits.bg_file_info","bits/BG_FILE_INFO"]
+description: Provides the local and remote names of the file to transfer.
+helpviewer_keywords: ["BG_FILE_INFO","BG_FILE_INFO structure [BITS]","_drz_bg_file_info","bits.bg_file_info","bits/BG_FILE_INFO"]
 old-location: bits\bg_file_info.htm
 tech.root: Bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584

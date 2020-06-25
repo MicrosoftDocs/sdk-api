@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.CreateRequest
 title: IMFHttpDownloadSession::CreateRequest (mfidl.h)
-description: Invoked by Microsoft Media Foundation to create an object that implements the IMFHttpDownloadRequest interface, which is used to send a single HTTP, or HTTPS request.helpviewer_keywords: ["CreateRequest","CreateRequest method [Media Foundation]","CreateRequest method [Media Foundation]","IMFHttpDownloadSession interface","IMFHttpDownloadSession interface [Media Foundation]","CreateRequest method","IMFHttpDownloadSession.CreateRequest","IMFHttpDownloadSession::CreateRequest","mf.imfhttpdownloadsession_createrequest","mfidl/IMFHttpDownloadSession::CreateRequest"]
+description: Invoked by Microsoft Media Foundation to create an object that implements the IMFHttpDownloadRequest interface, which is used to send a single HTTP, or HTTPS request.
+helpviewer_keywords: ["CreateRequest","CreateRequest method [Media Foundation]","CreateRequest method [Media Foundation]","IMFHttpDownloadSession interface","IMFHttpDownloadSession interface [Media Foundation]","CreateRequest method","IMFHttpDownloadSession.CreateRequest","IMFHttpDownloadSession::CreateRequest","mf.imfhttpdownloadsession_createrequest","mfidl/IMFHttpDownloadSession::CreateRequest"]
 old-location: mf\imfhttpdownloadsession_createrequest.htm
 tech.root: medfound
 ms.assetid: 111A075A-82A7-4607-9359-37B2DA97AFC5

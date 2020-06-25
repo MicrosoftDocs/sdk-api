@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetExposureCompensation
 title: IWICDevelopRaw::GetExposureCompensation (wincodec.h)
-description: Gets the exposure compensation stop value of the raw image.helpviewer_keywords: ["GetExposureCompensation","GetExposureCompensation method [Windows Imaging Component]","GetExposureCompensation method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetExposureCompensation method","IWICDevelopRaw.GetExposureCompensation","IWICDevelopRaw::GetExposureCompensation","_wic_codec_iwicdevelopraw_getexposurecompensation","wic._wic_codec_iwicdevelopraw_getexposurecompensation","wincodec/IWICDevelopRaw::GetExposureCompensation"]
+description: Gets the exposure compensation stop value of the raw image.
+helpviewer_keywords: ["GetExposureCompensation","GetExposureCompensation method [Windows Imaging Component]","GetExposureCompensation method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetExposureCompensation method","IWICDevelopRaw.GetExposureCompensation","IWICDevelopRaw::GetExposureCompensation","_wic_codec_iwicdevelopraw_getexposurecompensation","wic._wic_codec_iwicdevelopraw_getexposurecompensation","wincodec/IWICDevelopRaw::GetExposureCompensation"]
 old-location: wic\_wic_codec_iwicdevelopraw_getexposurecompensation.htm
 tech.root: wic
 ms.assetid: cdd71702-4696-4533-bd6f-ba9324b6b05b

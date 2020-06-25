@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Edit_HideBalloonTip
 title: Edit_HideBalloonTip macro (commctrl.h)
-description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.helpviewer_keywords: ["Edit_HideBalloonTip","Edit_HideBalloonTip macro [Windows Controls]","_win32_Edit_HideBalloonTip","_win32_Edit_HideBalloonTip_cpp","commctrl/Edit_HideBalloonTip","controls.Edit_HideBalloonTip","controls._win32_Edit_HideBalloonTip"]
+description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.
+helpviewer_keywords: ["Edit_HideBalloonTip","Edit_HideBalloonTip macro [Windows Controls]","_win32_Edit_HideBalloonTip","_win32_Edit_HideBalloonTip_cpp","commctrl/Edit_HideBalloonTip","controls.Edit_HideBalloonTip","controls._win32_Edit_HideBalloonTip"]
 old-location: controls\Edit_HideBalloonTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_hideballoontip.htm

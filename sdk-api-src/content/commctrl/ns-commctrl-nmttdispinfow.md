@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMTTDISPINFOW
 title: NMTTDISPINFOW (commctrl.h)
-description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.helpviewer_keywords: ["*LPNMTTDISPINFOW","LPNMTTDISPINFO","LPNMTTDISPINFO structure pointer [Windows Controls]","NMTTDISPINFO","NMTTDISPINFO structure [Windows Controls]","NMTTDISPINFOA","NMTTDISPINFOW","TTF_DI_SETITEM","TTF_IDISHWND","TTF_RTLREADING","_win32_NMTTDISPINFO","_win32_NMTTDISPINFO_cpp","commctrl/LPNMTTDISPINFO","commctrl/NMTTDISPINFO","commctrl/NMTTDISPINFOA","commctrl/NMTTDISPINFOW","controls.NMTTDISPINFO","controls._win32_NMTTDISPINFO"]
+description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
+helpviewer_keywords: ["*LPNMTTDISPINFOW","LPNMTTDISPINFO","LPNMTTDISPINFO structure pointer [Windows Controls]","NMTTDISPINFO","NMTTDISPINFO structure [Windows Controls]","NMTTDISPINFOA","NMTTDISPINFOW","TTF_DI_SETITEM","TTF_IDISHWND","TTF_RTLREADING","_win32_NMTTDISPINFO","_win32_NMTTDISPINFO_cpp","commctrl/LPNMTTDISPINFO","commctrl/NMTTDISPINFO","commctrl/NMTTDISPINFOA","commctrl/NMTTDISPINFOW","controls.NMTTDISPINFO","controls._win32_NMTTDISPINFO"]
 old-location: controls\NMTTDISPINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tooltiptext.htm
@@ -152,4 +153,8 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 You need to point the <b>lpszText</b>  array to your own private buffer when the text used in the tooltip exceeds 80 <b>TCHAR</b><b>s</b> in length. The system automatically strips the ampersand (&amp;) accelerator <b>TCHAR</b><b>s</b> from all strings passed to a tooltip control, unless the control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/tooltip-styles">TTS_NOPREFIX</a> style.
 
 
+
+
+> [!NOTE]
+> The commctrl.h header defines NMTTDISPINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

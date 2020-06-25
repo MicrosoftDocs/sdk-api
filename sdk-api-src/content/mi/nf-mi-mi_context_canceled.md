@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_Canceled
 title: MI_Context_Canceled function (mi.h)
-description: Determines whether the operation has been canceled. This function is reserved; instead, use the MI_Context_RegisterCancel function.helpviewer_keywords: ["MI_Context_Canceled","MI_Context_Canceled function [Windows Management Infrastructure (MI)]","mi/MI_Context_Canceled","wmi.mi_canceled","wmi_v2.mi_context_canceled"]
+description: Determines whether the operation has been canceled. This function is reserved; instead, use the MI_Context_RegisterCancel function.
+helpviewer_keywords: ["MI_Context_Canceled","MI_Context_Canceled function [Windows Management Infrastructure (MI)]","mi/MI_Context_Canceled","wmi.mi_canceled","wmi_v2.mi_context_canceled"]
 old-location: wmi_v2\mi_context_canceled.htm
 tech.root: wmi_v2
 ms.assetid: d8050079-978d-461b-8cf7-e6a08e4d026f

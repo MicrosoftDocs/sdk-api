@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateMDIWindowA
 title: CreateMDIWindowA function (winuser.h)
-description: Creates a multiple-document interface (MDI) child window.helpviewer_keywords: ["CreateMDIWindow","CreateMDIWindow function [Windows and Messages]","CreateMDIWindowA","CreateMDIWindowW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_CreateMDIWindow","_win32_createmdiwindow_cpp","winmsg.createmdiwindow","winui._win32_createmdiwindow","winuser/CreateMDIWindow","winuser/CreateMDIWindowA","winuser/CreateMDIWindowW"]
+description: Creates a multiple-document interface (MDI) child window.
+helpviewer_keywords: ["CreateMDIWindow","CreateMDIWindow function [Windows and Messages]","CreateMDIWindowA","CreateMDIWindowW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_CreateMDIWindow","_win32_createmdiwindow_cpp","winmsg.createmdiwindow","winui._win32_createmdiwindow","winuser/CreateMDIWindow","winuser/CreateMDIWindowA","winuser/CreateMDIWindowW"]
 old-location: winmsg\createmdiwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm
@@ -223,4 +224,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines CreateMDIWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

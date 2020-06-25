@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommittedResource
 title: ID3D12Device::CreateCommittedResource (d3d12.h)
-description: Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.helpviewer_keywords: ["CreateCommittedResource","CreateCommittedResource method","CreateCommittedResource method","ID3D12Device interface","ID3D12Device interface","CreateCommittedResource method","ID3D12Device.CreateCommittedResource","ID3D12Device::CreateCommittedResource","d3d12/ID3D12Device::CreateCommittedResource","direct3d12.id3d12device_createcommittedresource"]
+description: Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+helpviewer_keywords: ["CreateCommittedResource","CreateCommittedResource method","CreateCommittedResource method","ID3D12Device interface","ID3D12Device interface","CreateCommittedResource method","ID3D12Device.CreateCommittedResource","ID3D12Device::CreateCommittedResource","d3d12/ID3D12Device::CreateCommittedResource","direct3d12.id3d12device_createcommittedresource"]
 old-location: direct3d12\id3d12device_createcommittedresource.htm
 tech.root: direct3d12
 ms.assetid: FF9E8F11-F2C5-4A96-8E25-140870D15DA9

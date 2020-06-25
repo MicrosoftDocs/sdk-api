@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpstypes.FWPS_CLASSIFY_OUT0_
 title: FWPS_CLASSIFY_OUT0 (fwpstypes.h)
-description: The FWPS_CLASSIFY_OUT0 structure defines the data that is returned to the caller of a callout's classifyFn callout function.Note  FWPS_CLASSIFY_OUT0 is a specific version of FWPS_CLASSIFY_OUT.helpviewer_keywords: ["FWPS_CLASSIFY_OUT0","FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_CLASSIFY_OUT0","netvista.fwps_classify_out0","wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml"]
+description: The FWPS_CLASSIFY_OUT0 structure defines the data that is returned to the caller of a callout's classifyFn callout function.Note  FWPS_CLASSIFY_OUT0 is a specific version of FWPS_CLASSIFY_OUT.
+helpviewer_keywords: ["FWPS_CLASSIFY_OUT0","FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_CLASSIFY_OUT0","netvista.fwps_classify_out0","wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml"]
 old-location: netvista\fwps_classify_out0.htm
 tech.root: NetVista
 ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d

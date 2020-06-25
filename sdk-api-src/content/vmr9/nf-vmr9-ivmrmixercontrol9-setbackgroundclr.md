@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetBackgroundClr
 title: IVMRMixerControl9::SetBackgroundClr (vmr9.h)
-description: The SetBackgroundClr method sets the background color on the output rectangle.helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetBackgroundClr method","IVMRMixerControl9.SetBackgroundClr","IVMRMixerControl9::SetBackgroundClr","IVMRMixerControl9SetBackgroundClr","SetBackgroundClr","SetBackgroundClr method [DirectShow]","SetBackgroundClr method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setbackgroundclr","vmr9/IVMRMixerControl9::SetBackgroundClr"]
+description: The SetBackgroundClr method sets the background color on the output rectangle.
+helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetBackgroundClr method","IVMRMixerControl9.SetBackgroundClr","IVMRMixerControl9::SetBackgroundClr","IVMRMixerControl9SetBackgroundClr","SetBackgroundClr","SetBackgroundClr method [DirectShow]","SetBackgroundClr method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setbackgroundclr","vmr9/IVMRMixerControl9::SetBackgroundClr"]
 old-location: dshow\ivmrmixercontrol9_setbackgroundclr.htm
 tech.root: DirectShow
 ms.assetid: fed7f4bb-519c-4e02-be99-065b9131e57c

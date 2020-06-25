@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetRunTimes
 title: IScheduledWorkItem::GetRunTimes (mstask.h)
-description: Retrieves the work item run times for a specified time period.helpviewer_keywords: ["GetRunTimes","GetRunTimes method [Task Scheduler]","GetRunTimes method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetRunTimes method","IScheduledWorkItem.GetRunTimes","IScheduledWorkItem::GetRunTimes","_msb_ischeduledworkitem_getruntimes","mstask/IScheduledWorkItem::GetRunTimes","taskschd.ischeduledworkitem_getruntimes"]
+description: Retrieves the work item run times for a specified time period.
+helpviewer_keywords: ["GetRunTimes","GetRunTimes method [Task Scheduler]","GetRunTimes method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetRunTimes method","IScheduledWorkItem.GetRunTimes","IScheduledWorkItem::GetRunTimes","_msb_ischeduledworkitem_getruntimes","mstask/IScheduledWorkItem::GetRunTimes","taskschd.ischeduledworkitem_getruntimes"]
 old-location: taskschd\ischeduledworkitem_getruntimes.htm
 tech.root: taskschd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5

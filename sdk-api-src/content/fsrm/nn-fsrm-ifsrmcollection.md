@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrm.IFsrmCollection
 title: IFsrmCollection (fsrm.h)
-description: Defines a collection of FSRM objects.helpviewer_keywords: ["IFsrmCollection","IFsrmCollection interface [File Server Resource Manager]","IFsrmCollection interface [File Server Resource Manager]","described","fs.ifsrmcollection","fsrm.ifsrmcollection","fsrm/IFsrmCollection"]
+description: Defines a collection of FSRM objects.
+helpviewer_keywords: ["IFsrmCollection","IFsrmCollection interface [File Server Resource Manager]","IFsrmCollection interface [File Server Resource Manager]","described","fs.ifsrmcollection","fsrm.ifsrmcollection","fsrm/IFsrmCollection"]
 old-location: fsrm\ifsrmcollection.htm
 tech.root: fsrm
 ms.assetid: 6a0c5d8b-5fed-4c55-971c-43430e3c6a8d

@@ -1,7 +1,8 @@
 ---
 UID: NE:winnt._HARDWARE_COUNTER_TYPE
 title: HARDWARE_COUNTER_TYPE (winnt.h)
-description: Defines the types of hardware counters being profiled.helpviewer_keywords: ["*PHARDWARE_COUNTER_TYPE","HARDWARE_COUNTER_TYPE","HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling]","MaxHardwareCounterType","PMCCounter","hcp.hardware_counter_type","winnt/HARDWARE_COUNTER_TYPE","winnt/MaxHardwareCounterType","winnt/PMCCounter"]
+description: Defines the types of hardware counters being profiled.
+helpviewer_keywords: ["*PHARDWARE_COUNTER_TYPE","HARDWARE_COUNTER_TYPE","HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling]","MaxHardwareCounterType","PMCCounter","hcp.hardware_counter_type","winnt/HARDWARE_COUNTER_TYPE","winnt/MaxHardwareCounterType","winnt/PMCCounter"]
 old-location: hcp\hardware_counter_type.htm
 tech.root: hcp
 ms.assetid: 250dd9f1-b409-4b17-bb84-bf7eba14d36e

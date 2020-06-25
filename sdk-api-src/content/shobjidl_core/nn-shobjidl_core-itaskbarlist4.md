@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList4
 title: ITaskbarList4 (shobjidl_core.h)
-description: Extends ITaskbarList3 by providing a method that allows the caller to control two property values for the tab thumbnail and peek feature.helpviewer_keywords: ["ITaskbarList4","ITaskbarList4 interface [Windows Shell]","ITaskbarList4 interface [Windows Shell]","described","_shell_ITaskbarList4","shell.ITaskbarList4","shobjidl_core/ITaskbarList4"]
+description: Extends ITaskbarList3 by providing a method that allows the caller to control two property values for the tab thumbnail and peek feature.
+helpviewer_keywords: ["ITaskbarList4","ITaskbarList4 interface [Windows Shell]","ITaskbarList4 interface [Windows Shell]","described","_shell_ITaskbarList4","shell.ITaskbarList4","shobjidl_core/ITaskbarList4"]
 old-location: shell\ITaskbarList4.htm
 tech.root: shell
 ms.assetid: 7fc2c615-0bb0-4c03-9775-eee566c71088

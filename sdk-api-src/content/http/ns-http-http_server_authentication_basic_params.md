@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
 title: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS (http.h)
-description: The HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure contains the information for Basic authentication on a URL Group.This structure is contained in the HTTP_SERVER_AUTHENTICATION_INFO structure.helpviewer_keywords: ["*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS","*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP]","HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS","HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP]","http.http_server_authentication_basic_params","http/*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS","http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"]
+description: The HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure contains the information for Basic authentication on a URL Group.This structure is contained in the HTTP_SERVER_AUTHENTICATION_INFO structure.
+helpviewer_keywords: ["*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS","*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP]","HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS","HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP]","http.http_server_authentication_basic_params","http/*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS","http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"]
 old-location: http\http_server_authentication_basic_params.htm
 tech.root: http
 ms.assetid: 02330a12-aab0-4181-b3da-36c6b22dae67

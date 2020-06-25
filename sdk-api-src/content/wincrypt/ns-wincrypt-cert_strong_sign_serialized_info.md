@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_STRONG_SIGN_SERIALIZED_INFO
 title: CERT_STRONG_SIGN_SERIALIZED_INFO (wincrypt.h)
-description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.helpviewer_keywords: ["*PCERT_STRONG_SIGN_SERIALIZED_INFO","CERT_STRONG_SIGN_ENABLE_CRL_CHECK","CERT_STRONG_SIGN_ENABLE_OCSP_CHECK","CERT_STRONG_SIGN_SERIALIZED_INFO","CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security]","PCERT_STRONG_SIGN_SERIALIZED_INFO","PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security]","security.cert_strong_sign_serialized_info","wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO","wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"]
+description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
+helpviewer_keywords: ["*PCERT_STRONG_SIGN_SERIALIZED_INFO","CERT_STRONG_SIGN_ENABLE_CRL_CHECK","CERT_STRONG_SIGN_ENABLE_OCSP_CHECK","CERT_STRONG_SIGN_SERIALIZED_INFO","CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security]","PCERT_STRONG_SIGN_SERIALIZED_INFO","PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security]","security.cert_strong_sign_serialized_info","wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO","wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"]
 old-location: security\cert_strong_sign_serialized_info.htm
 tech.root: SecCrypto
 ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD

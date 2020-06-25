@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagDRAWTEXTPARAMS
 title: DRAWTEXTPARAMS (winuser.h)
-description: The DRAWTEXTPARAMS structure contains extended formatting options for the DrawTextEx function.helpviewer_keywords: ["*LPDRAWTEXTPARAMS","DRAWTEXTPARAMS","DRAWTEXTPARAMS structure [Windows GDI]","LPDRAWTEXTPARAMS","LPDRAWTEXTPARAMS structure pointer [Windows GDI]","_win32_DRAWTEXTPARAMS_str","gdi.drawtextparams","tagDRAWTEXTPARAMS","winuser/DRAWTEXTPARAMS","winuser/LPDRAWTEXTPARAMS"]
+description: The DRAWTEXTPARAMS structure contains extended formatting options for the DrawTextEx function.
+helpviewer_keywords: ["*LPDRAWTEXTPARAMS","DRAWTEXTPARAMS","DRAWTEXTPARAMS structure [Windows GDI]","LPDRAWTEXTPARAMS","LPDRAWTEXTPARAMS structure pointer [Windows GDI]","_win32_DRAWTEXTPARAMS_str","gdi.drawtextparams","tagDRAWTEXTPARAMS","winuser/DRAWTEXTPARAMS","winuser/LPDRAWTEXTPARAMS"]
 old-location: gdi\drawtextparams.htm
 tech.root: gdi
 ms.assetid: d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d

@@ -1,7 +1,8 @@
 ---
 UID: NF:inked.IInkEdit.get_SelFontName
 title: IInkEdit::get_SelFontName (inked.h)
-description: Gets or sets the font name of the selected text within the InkEdit control (run time only).helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelFontName property","IInkEdit.SelFontName","IInkEdit.get_SelFontName","IInkEdit::SelFontName","IInkEdit::get_SelFontName","IInkEdit::put_SelFontName","InkEdit.get_SelFontName","InkEdit.put_SelFontName","SelFontName property [Tablet PC]","SelFontName property [Tablet PC]","IInkEdit interface","get_SelFontName","inked/IInkEdit::SelFontName","inked/IInkEdit::get_SelFontName","inked/IInkEdit::put_SelFontName","put_SelFontName","tablet.inkedit_selfontname"]
+description: Gets or sets the font name of the selected text within the InkEdit control (run time only).
+helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelFontName property","IInkEdit.SelFontName","IInkEdit.get_SelFontName","IInkEdit::SelFontName","IInkEdit::get_SelFontName","IInkEdit::put_SelFontName","InkEdit.get_SelFontName","InkEdit.put_SelFontName","SelFontName property [Tablet PC]","SelFontName property [Tablet PC]","IInkEdit interface","get_SelFontName","inked/IInkEdit::SelFontName","inked/IInkEdit::get_SelFontName","inked/IInkEdit::put_SelFontName","put_SelFontName","tablet.inkedit_selfontname"]
 old-location: tablet\inkedit_selfontname.htm
 tech.root: tablet
 ms.assetid: 2aa1e53b-75cc-412d-b522-2e1c91ce31d3

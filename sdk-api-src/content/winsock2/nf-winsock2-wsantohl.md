@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSANtohl
 title: WSANtohl function (winsock2.h)
-description: The WSANtohl function converts a u_long from network byte order to host byte order.helpviewer_keywords: ["WSANtohl","WSANtohl function [Winsock]","_win32_wsantohl_2","winsock.wsantohl_2","winsock2/WSANtohl"]
+description: The WSANtohl function converts a u_long from network byte order to host byte order.
+helpviewer_keywords: ["WSANtohl","WSANtohl function [Winsock]","_win32_wsantohl_2","winsock.wsantohl_2","winsock2/WSANtohl"]
 old-location: winsock\wsantohl_2.htm
 tech.root: WinSock
 ms.assetid: 7e3b42eb-3b93-459f-828a-c19e277882c7

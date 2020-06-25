@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedCulture
 title: IUIAutomationElement::get_CachedCulture (uiautomationclient.h)
-description: Retrieves a cached value that indicates the culture associated with the element.helpviewer_keywords: ["CachedCulture property [Windows Accessibility]","CachedCulture property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedCulture property","IUIAutomationElement.CachedCulture","IUIAutomationElement.get_CachedCulture","IUIAutomationElement::CachedCulture","IUIAutomationElement::get_CachedCulture","get_CachedCulture","uiauto.uiauto_IUIAutomationElement_CachedCulture","uiauto_IUIAutomationElement_CachedCulture","uiautomationclient/IUIAutomationElement::CachedCulture","uiautomationclient/IUIAutomationElement::get_CachedCulture","winauto.uiauto_IUIAutomationElement_CachedCulture"]
+description: Retrieves a cached value that indicates the culture associated with the element.
+helpviewer_keywords: ["CachedCulture property [Windows Accessibility]","CachedCulture property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedCulture property","IUIAutomationElement.CachedCulture","IUIAutomationElement.get_CachedCulture","IUIAutomationElement::CachedCulture","IUIAutomationElement::get_CachedCulture","get_CachedCulture","uiauto.uiauto_IUIAutomationElement_CachedCulture","uiauto_IUIAutomationElement_CachedCulture","uiautomationclient/IUIAutomationElement::CachedCulture","uiautomationclient/IUIAutomationElement::get_CachedCulture","winauto.uiauto_IUIAutomationElement_CachedCulture"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedCulture.htm
 tech.root: WinAuto
 ms.assetid: 9961ee21-d9b7-4ff6-a8ee-ad45ba1cd142

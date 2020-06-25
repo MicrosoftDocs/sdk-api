@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.InitializeForBackup
 title: IVssBackupComponents::InitializeForBackup (vsbackup.h)
-description: The InitializeForBackup method initializes the backup components metadata in preparation for backup.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","InitializeForBackup method","IVssBackupComponents.InitializeForBackup","IVssBackupComponents::InitializeForBackup","InitializeForBackup","InitializeForBackup method [VSS]","InitializeForBackup method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_initializeforbackup","base.ivssbackupcomponents_initializeforbackup","vsbackup/IVssBackupComponents::InitializeForBackup"]
+description: The InitializeForBackup method initializes the backup components metadata in preparation for backup.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","InitializeForBackup method","IVssBackupComponents.InitializeForBackup","IVssBackupComponents::InitializeForBackup","InitializeForBackup","InitializeForBackup method [VSS]","InitializeForBackup method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_initializeforbackup","base.ivssbackupcomponents_initializeforbackup","vsbackup/IVssBackupComponents::InitializeForBackup"]
 old-location: base\ivssbackupcomponents_initializeforbackup.htm
 tech.root: VSS
 ms.assetid: df469964-c954-4f79-b88f-a521157a0c66

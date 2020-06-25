@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.MoveNext
 title: IOpcRelationshipEnumerator::MoveNext (msopc.h)
-description: Moves the current position of the enumerator to the next IOpcRelationship interface pointer.helpviewer_keywords: ["IOpcRelationshipEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcRelationshipEnumerator.MoveNext","IOpcRelationshipEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcRelationshipEnumerator interface","msopc/IOpcRelationshipEnumerator::MoveNext","opc.iopcrelationshipenumerator_movenext"]
+description: Moves the current position of the enumerator to the next IOpcRelationship interface pointer.
+helpviewer_keywords: ["IOpcRelationshipEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcRelationshipEnumerator.MoveNext","IOpcRelationshipEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcRelationshipEnumerator interface","msopc/IOpcRelationshipEnumerator::MoveNext","opc.iopcrelationshipenumerator_movenext"]
 old-location: opc\iopcrelationshipenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: d0733a11-0ba6-445f-8e3c-b62ad7b6b4bf

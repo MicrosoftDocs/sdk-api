@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMSHORTN4
 title: XMSHORTN4 (directxpackedvector.h)
-description: A 4D vector for storing signed, normalized values as signed 16-bit integers, (type int16_t).helpviewer_keywords: ["XMSHORTN4","XMSHORTN4 structure [DirectX Math Support APIs]","directxpackedvector/XMSHORTN4","dxmath.xmshortn4"]
+description: A 4D vector for storing signed, normalized values as signed 16-bit integers, (type int16_t).
+helpviewer_keywords: ["XMSHORTN4","XMSHORTN4 structure [DirectX Math Support APIs]","directxpackedvector/XMSHORTN4","dxmath.xmshortn4"]
 old-location: dxmath\xmshortn4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORTN4

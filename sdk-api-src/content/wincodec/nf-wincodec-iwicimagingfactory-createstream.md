@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateStream
 title: IWICImagingFactory::CreateStream (wincodec.h)
-description: Creates a new instance of the IWICStream class.helpviewer_keywords: ["CreateStream","CreateStream method [Windows Imaging Component]","CreateStream method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateStream method","IWICImagingFactory.CreateStream","IWICImagingFactory::CreateStream","_wic_codec_iwicimagingfactory_createstream","wic._wic_codec_iwicimagingfactory_createstream","wincodec/IWICImagingFactory::CreateStream"]
+description: Creates a new instance of the IWICStream class.
+helpviewer_keywords: ["CreateStream","CreateStream method [Windows Imaging Component]","CreateStream method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateStream method","IWICImagingFactory.CreateStream","IWICImagingFactory::CreateStream","_wic_codec_iwicimagingfactory_createstream","wic._wic_codec_iwicimagingfactory_createstream","wincodec/IWICImagingFactory::CreateStream"]
 old-location: wic\_wic_codec_iwicimagingfactory_createstream.htm
 tech.root: wic
 ms.assetid: 1c2ecaf0-5222-4f9b-96fb-5d2da72d11d4

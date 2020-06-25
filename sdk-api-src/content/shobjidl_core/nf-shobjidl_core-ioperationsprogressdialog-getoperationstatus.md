@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.GetOperationStatus
 title: IOperationsProgressDialog::GetOperationStatus (shobjidl_core.h)
-description: Gets operation status for progress dialog.helpviewer_keywords: ["GetOperationStatus","GetOperationStatus method [Windows Shell]","GetOperationStatus method [Windows Shell]","IOperationsProgressDialog interface","IOperationsProgressDialog interface [Windows Shell]","GetOperationStatus method","IOperationsProgressDialog.GetOperationStatus","IOperationsProgressDialog::GetOperationStatus","_shell_IOperationsProgressDialog_GetOperationStatus","shell.IOperationsProgressDialog_GetOperationStatus","shobjidl_core/IOperationsProgressDialog::GetOperationStatus"]
+description: Gets operation status for progress dialog.
+helpviewer_keywords: ["GetOperationStatus","GetOperationStatus method [Windows Shell]","GetOperationStatus method [Windows Shell]","IOperationsProgressDialog interface","IOperationsProgressDialog interface [Windows Shell]","GetOperationStatus method","IOperationsProgressDialog.GetOperationStatus","IOperationsProgressDialog::GetOperationStatus","_shell_IOperationsProgressDialog_GetOperationStatus","shell.IOperationsProgressDialog_GetOperationStatus","shobjidl_core/IOperationsProgressDialog::GetOperationStatus"]
 old-location: shell\IOperationsProgressDialog_GetOperationStatus.htm
 tech.root: shell
 ms.assetid: bd796369-9789-4c69-b699-eb0ec0e571b2

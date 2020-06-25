@@ -1,7 +1,8 @@
 ---
 UID: NF:newdev.DiRollbackDriver
 title: DiRollbackDriver function (newdev.h)
-description: The DiRollbackDriver function rolls back the driver that is installed on a specified device.helpviewer_keywords: ["DiRollbackDriver","DiRollbackDriver function [Device and Driver Installation]","devinst.dirollbackdriver","di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml","newdev/DiRollbackDriver"]
+description: The DiRollbackDriver function rolls back the driver that is installed on a specified device.
+helpviewer_keywords: ["DiRollbackDriver","DiRollbackDriver function [Device and Driver Installation]","devinst.dirollbackdriver","di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml","newdev/DiRollbackDriver"]
 old-location: devinst\dirollbackdriver.htm
 tech.root: devinst
 ms.assetid: 12296991-cbf9-421e-a16e-ca8a22fc29a1

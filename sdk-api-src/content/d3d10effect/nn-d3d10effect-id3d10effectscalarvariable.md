@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectScalarVariable
 title: ID3D10EffectScalarVariable (d3d10effect.h)
-description: An effect-scalar-variable interface accesses scalar values.helpviewer_keywords: ["0954ac9f-acd1-fb91-e361-0b5644656816","ID3D10EffectScalarVariable","ID3D10EffectScalarVariable interface [Direct3D 10]","ID3D10EffectScalarVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectScalarVariable","direct3d10.id3d10effectscalarvariable"]
+description: An effect-scalar-variable interface accesses scalar values.
+helpviewer_keywords: ["0954ac9f-acd1-fb91-e361-0b5644656816","ID3D10EffectScalarVariable","ID3D10EffectScalarVariable interface [Direct3D 10]","ID3D10EffectScalarVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectScalarVariable","direct3d10.id3d10effectscalarvariable"]
 old-location: direct3d10\id3d10effectscalarvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable.htm

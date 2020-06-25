@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFInitAMMediaTypeFromMFMediaType
 title: MFInitAMMediaTypeFromMFMediaType function (mfapi.h)
-description: Initializes a DirectShow AM_MEDIA_TYPE structure from a Media Foundation media type.helpviewer_keywords: ["MFInitAMMediaTypeFromMFMediaType","MFInitAMMediaTypeFromMFMediaType function [Media Foundation]","dbb69578-2563-476f-92f4-6b4e2bb2c77a","mf.mfinitammediatypefrommfmediatype","mfapi/MFInitAMMediaTypeFromMFMediaType"]
+description: Initializes a DirectShow AM_MEDIA_TYPE structure from a Media Foundation media type.
+helpviewer_keywords: ["MFInitAMMediaTypeFromMFMediaType","MFInitAMMediaTypeFromMFMediaType function [Media Foundation]","dbb69578-2563-476f-92f4-6b4e2bb2c77a","mf.mfinitammediatypefrommfmediatype","mfapi/MFInitAMMediaTypeFromMFMediaType"]
 old-location: mf\mfinitammediatypefrommfmediatype.htm
 tech.root: medfound
 ms.assetid: dbb69578-2563-476f-92f4-6b4e2bb2c77a

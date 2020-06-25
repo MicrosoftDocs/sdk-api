@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager3
 title: IWMDeviceManager3 (mswmdm.h)
-description: The IWMDeviceManager3 interface extends the IWMDeviceManager2 interface by providing a method that sets the device enumeration preferences.helpviewer_keywords: ["IWMDeviceManager3","IWMDeviceManager3 interface [windows Media Device Manager]","IWMDeviceManager3 interface [windows Media Device Manager]","described","IWMDeviceManager3Interface","mswmdm/IWMDeviceManager3","wmdm.iwmdevicemanager3"]
+description: The IWMDeviceManager3 interface extends the IWMDeviceManager2 interface by providing a method that sets the device enumeration preferences.
+helpviewer_keywords: ["IWMDeviceManager3","IWMDeviceManager3 interface [windows Media Device Manager]","IWMDeviceManager3 interface [windows Media Device Manager]","described","IWMDeviceManager3Interface","mswmdm/IWMDeviceManager3","wmdm.iwmdevicemanager3"]
 old-location: wmdm\iwmdevicemanager3.htm
 tech.root: WMDM
 ms.assetid: 728f7e2f-7198-49e1-b6d9-0ac24a0b56e6

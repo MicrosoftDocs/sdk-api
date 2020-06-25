@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallState
 title: ITCallInfo::get_CallState (tapi3if.h)
-description: The get_CallState method gets a pointer to the current call state, such as CS_IDLE.helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","get_CallState method","ITCallInfo.get_CallState","ITCallInfo::get_CallState","_tapi3_itcallinfo_get_callstate","get_CallState","get_CallState method [TAPI 2.2]","get_CallState method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_get_callstate","tapi3if/ITCallInfo::get_CallState"]
+description: The get_CallState method gets a pointer to the current call state, such as CS_IDLE.
+helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","get_CallState method","ITCallInfo.get_CallState","ITCallInfo::get_CallState","_tapi3_itcallinfo_get_callstate","get_CallState","get_CallState method [TAPI 2.2]","get_CallState method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_get_callstate","tapi3if/ITCallInfo::get_CallState"]
 old-location: tapi3\itcallinfo_get_callstate.htm
 tech.root: Tapi
 ms.assetid: f7beb48f-d7d2-4a99-8e6a-6122059c9170

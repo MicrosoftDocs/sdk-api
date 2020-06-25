@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetCaption
 title: IFullScreenVideoEx::SetCaption (amvideo.h)
-description: The SetCaption method sets the caption associated with the full-screen window.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetCaption method","IFullScreenVideoEx.SetCaption","IFullScreenVideoEx::SetCaption","IFullScreenVideoSetCaption","SetCaption","SetCaption method [DirectShow]","SetCaption method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetCaption","dshow.ifullscreenvideoex_setcaption"]
+description: The SetCaption method sets the caption associated with the full-screen window.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetCaption method","IFullScreenVideoEx.SetCaption","IFullScreenVideoEx::SetCaption","IFullScreenVideoSetCaption","SetCaption","SetCaption method [DirectShow]","SetCaption method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetCaption","dshow.ifullscreenvideoex_setcaption"]
 old-location: dshow\ifullscreenvideoex_setcaption.htm
 tech.root: DirectShow
 ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454

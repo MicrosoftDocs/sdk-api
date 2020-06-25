@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Warp
 title: GraphicsPath::Warp (gdipluspath.h)
-description: The GraphicsPath::Warp method applies a warp transformation to this path. The GraphicsPath::Warp method also flattens (converts to a sequence of straight lines) the path.helpviewer_keywords: ["GraphicsPath class [GDI+]","Warp method","GraphicsPath.Warp","GraphicsPath::Warp","Warp","Warp method [GDI+]","Warp method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_","gdiplus._gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_"]
+description: The GraphicsPath::Warp method applies a warp transformation to this path. The GraphicsPath::Warp method also flattens (converts to a sequence of straight lines) the path.
+helpviewer_keywords: ["GraphicsPath class [GDI+]","Warp method","GraphicsPath.Warp","GraphicsPath::Warp","Warp","Warp method [GDI+]","Warp method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_","gdiplus._gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\warp.htm

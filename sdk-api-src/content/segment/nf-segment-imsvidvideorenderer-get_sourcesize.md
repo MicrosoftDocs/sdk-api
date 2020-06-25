@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_SourceSize
 title: IMSVidVideoRenderer::get_SourceSize (segment.h)
-description: The get_SourceSize method retrieves the type of clipping to apply to the video rectangle, if any.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_SourceSize method","IMSVidVideoRenderer.get_SourceSize","IMSVidVideoRenderer::get_SourceSize","IMSVidVideoRendererget_SourceSize","get_SourceSize","get_SourceSize method [Microsoft TV Technologies]","get_SourceSize method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_sourcesize","segment/IMSVidVideoRenderer::get_SourceSize"]
+description: The get_SourceSize method retrieves the type of clipping to apply to the video rectangle, if any.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_SourceSize method","IMSVidVideoRenderer.get_SourceSize","IMSVidVideoRenderer::get_SourceSize","IMSVidVideoRendererget_SourceSize","get_SourceSize","get_SourceSize method [Microsoft TV Technologies]","get_SourceSize method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_sourcesize","segment/IMSVidVideoRenderer::get_SourceSize"]
 old-location: mstv\imsvidvideorenderer_get_sourcesize.htm
 tech.root: mstv
 ms.assetid: 312a2c1e-5332-4a2d-ada9-1dc8236f4170

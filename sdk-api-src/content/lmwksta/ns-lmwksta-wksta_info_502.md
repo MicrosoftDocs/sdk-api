@@ -1,7 +1,8 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_502
 title: WKSTA_INFO_502 (lmwksta.h)
-description: The WKSTA_INFO_502 structure is obsolete. The structure contains information about a workstation environment.helpviewer_keywords: ["*LPWKSTA_INFO_502","*PWKSTA_INFO_502","LPWKSTA_INFO_502","LPWKSTA_INFO_502 structure pointer [Network Management]","PWKSTA_INFO_502","PWKSTA_INFO_502 structure pointer [Network Management]","WKSTA_INFO_502","WKSTA_INFO_502 structure [Network Management]","_win32_wksta_info_502_str","lmwksta/LPWKSTA_INFO_502","lmwksta/PWKSTA_INFO_502","lmwksta/WKSTA_INFO_502","netmgmt.wksta_info_502_str"]
+description: The WKSTA_INFO_502 structure is obsolete. The structure contains information about a workstation environment.
+helpviewer_keywords: ["*LPWKSTA_INFO_502","*PWKSTA_INFO_502","LPWKSTA_INFO_502","LPWKSTA_INFO_502 structure pointer [Network Management]","PWKSTA_INFO_502","PWKSTA_INFO_502 structure pointer [Network Management]","WKSTA_INFO_502","WKSTA_INFO_502 structure [Network Management]","_win32_wksta_info_502_str","lmwksta/LPWKSTA_INFO_502","lmwksta/PWKSTA_INFO_502","lmwksta/WKSTA_INFO_502","netmgmt.wksta_info_502_str"]
 old-location: netmgmt\wksta_info_502_str.htm
 tech.root: NetMgmt
 ms.assetid: 716e700a-e464-47ec-a2df-74c03597ac6d

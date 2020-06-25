@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.CancelSaveFileAs
 title: IWMReaderAdvanced4::CancelSaveFileAs (wmsdkidl.h)
-description: The CancelSaveFileAs method cancels a file save resulting from a call to IWMReaderAdvanced2::SaveFileAs.helpviewer_keywords: ["CancelSaveFileAs","CancelSaveFileAs method [windows Media Format]","CancelSaveFileAs method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","CancelSaveFileAs method","IWMReaderAdvanced4.CancelSaveFileAs","IWMReaderAdvanced4::CancelSaveFileAs","IWMReaderAdvanced4CancelSaveFileAs","wmformat.iwmreaderadvanced4_cancelsavefileas","wmsdkidl/IWMReaderAdvanced4::CancelSaveFileAs"]
+description: The CancelSaveFileAs method cancels a file save resulting from a call to IWMReaderAdvanced2::SaveFileAs.
+helpviewer_keywords: ["CancelSaveFileAs","CancelSaveFileAs method [windows Media Format]","CancelSaveFileAs method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","CancelSaveFileAs method","IWMReaderAdvanced4.CancelSaveFileAs","IWMReaderAdvanced4::CancelSaveFileAs","IWMReaderAdvanced4CancelSaveFileAs","wmformat.iwmreaderadvanced4_cancelsavefileas","wmsdkidl/IWMReaderAdvanced4::CancelSaveFileAs"]
 old-location: wmformat\iwmreaderadvanced4_cancelsavefileas.htm
 tech.root: wmformat
 ms.assetid: fcf43e86-daa3-4944-b687-b8c9afab7336

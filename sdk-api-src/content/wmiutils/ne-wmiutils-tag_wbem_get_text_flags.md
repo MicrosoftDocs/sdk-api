@@ -1,7 +1,8 @@
 ---
 UID: NE:wmiutils.tag_WBEM_GET_TEXT_FLAGS
 title: tag_WBEM_GET_TEXT_FLAGS (wmiutils.h)
-description: Contains flags which controls how the text is returned.helpviewer_keywords: ["WBEMPATH_COMPRESSED","WBEMPATH_GET_NAMESPACE_ONLY","WBEMPATH_GET_ORIGINAL","WBEMPATH_GET_RELATIVE_ONLY","WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY","WBEMPATH_GET_SERVER_TOO","tag_WBEM_GET_TEXT_FLAGS","tag_WBEM_GET_TEXT_FLAGS enumeration [Windows Management Instrumentation]","wmi.tag_wbem_get_text_flags","wmiutils/WBEMPATH_COMPRESSED","wmiutils/WBEMPATH_GET_NAMESPACE_ONLY","wmiutils/WBEMPATH_GET_ORIGINAL","wmiutils/WBEMPATH_GET_RELATIVE_ONLY","wmiutils/WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY","wmiutils/WBEMPATH_GET_SERVER_TOO","wmiutils/tag_WBEM_GET_TEXT_FLAGS"]
+description: Contains flags which controls how the text is returned.
+helpviewer_keywords: ["WBEMPATH_COMPRESSED","WBEMPATH_GET_NAMESPACE_ONLY","WBEMPATH_GET_ORIGINAL","WBEMPATH_GET_RELATIVE_ONLY","WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY","WBEMPATH_GET_SERVER_TOO","tag_WBEM_GET_TEXT_FLAGS","tag_WBEM_GET_TEXT_FLAGS enumeration [Windows Management Instrumentation]","wmi.tag_wbem_get_text_flags","wmiutils/WBEMPATH_COMPRESSED","wmiutils/WBEMPATH_GET_NAMESPACE_ONLY","wmiutils/WBEMPATH_GET_ORIGINAL","wmiutils/WBEMPATH_GET_RELATIVE_ONLY","wmiutils/WBEMPATH_GET_SERVER_AND_NAMESPACE_ONLY","wmiutils/WBEMPATH_GET_SERVER_TOO","wmiutils/tag_WBEM_GET_TEXT_FLAGS"]
 old-location: wmi\tag_wbem_get_text_flags.htm
 tech.root: WmiSdk
 ms.assetid: 5b6cb2c0-d4e4-452b-840f-01fec2d57743

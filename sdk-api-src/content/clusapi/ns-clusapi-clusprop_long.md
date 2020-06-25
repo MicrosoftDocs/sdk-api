@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_LONG
 title: CLUSPROP_LONG (clusapi.h)
-description: Describes signed LONG data.helpviewer_keywords: ["*PCLUSPROP_LONG","CLUSPROP_LONG","CLUSPROP_LONG structure [Failover Cluster]","PCLUSPROP_LONG","PCLUSPROP_LONG structure pointer [Failover Cluster]","_wolf_clusprop_long","clusapi/CLUSPROP_LONG","clusapi/PCLUSPROP_LONG","mscs.clusprop_long"]
+description: Describes signed LONG data.
+helpviewer_keywords: ["*PCLUSPROP_LONG","CLUSPROP_LONG","CLUSPROP_LONG structure [Failover Cluster]","PCLUSPROP_LONG","PCLUSPROP_LONG structure pointer [Failover Cluster]","_wolf_clusprop_long","clusapi/CLUSPROP_LONG","clusapi/PCLUSPROP_LONG","mscs.clusprop_long"]
 old-location: mscs\clusprop_long.htm
 tech.root: MsCS
 ms.assetid: aa214e43-cadc-4f06-8c98-e6a5b13258b8

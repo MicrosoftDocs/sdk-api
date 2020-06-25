@@ -1,7 +1,8 @@
 ---
 UID: NS:filter.tagFILTERREGION
 title: FILTERREGION (filter.h)
-description: Describes the position and extent of a specified portion of text within an object.helpviewer_keywords: ["FILTERREGION","FILTERREGION structure [Indexing Service]","_idxs_FILTERREGION","filter/FILTERREGION","indexsrv.filterregion","tagFILTERREGION"]
+description: Describes the position and extent of a specified portion of text within an object.
+helpviewer_keywords: ["FILTERREGION","FILTERREGION structure [Indexing Service]","_idxs_FILTERREGION","filter/FILTERREGION","indexsrv.filterregion","tagFILTERREGION"]
 old-location: indexsrv\filterregion.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9usu.htm

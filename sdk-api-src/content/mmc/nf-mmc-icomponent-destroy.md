@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IComponent.Destroy
 title: IComponent::Destroy (mmc.h)
-description: The IComponent::Destroy method releases all references to the console that are held by this component.helpviewer_keywords: ["Destroy","Destroy method [MMC]","Destroy method [MMC]","IComponent interface","IComponent interface [MMC]","Destroy method","IComponent.Destroy","IComponent::Destroy","_slate_icomponent_destroy","mmc.icomponent_destroy","mmc/IComponent::Destroy"]
+description: The IComponent::Destroy method releases all references to the console that are held by this component.
+helpviewer_keywords: ["Destroy","Destroy method [MMC]","Destroy method [MMC]","IComponent interface","IComponent interface [MMC]","Destroy method","IComponent.Destroy","IComponent::Destroy","_slate_icomponent_destroy","mmc.icomponent_destroy","mmc/IComponent::Destroy"]
 old-location: mmc\icomponent_destroy.htm
 tech.root: mmc
 ms.assetid: ec4ec242-6376-44e7-bd82-09456789c4c9

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Shear
 title: Matrix::Shear (gdiplusmatrix.h)
-description: The Matrix::Shear method updates this matrix with the product of itself and a shearing matrix.helpviewer_keywords: ["Matrix class [GDI+]","Shear method","Matrix.Shear","Matrix::Shear","Shear","Shear method [GDI+]","Shear method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_","gdiplus._gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_"]
+description: The Matrix::Shear method updates this matrix with the product of itself and a shearing matrix.
+helpviewer_keywords: ["Matrix class [GDI+]","Shear method","Matrix.Shear","Matrix::Shear","Shear","Shear method [GDI+]","Shear method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_","gdiplus._gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\shear.htm

@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PDO_UPDATE_ROUTES
 title: PDO_UPDATE_ROUTES (routprot.h)
-description: The DoUpdateRoutes function requests the routing protocol to perform a routing information update over the specified interface to obtain static route information.helpviewer_keywords: ["DoUpdateRoutes","DoUpdateRoutes callback function [RAS]","PDO_UPDATE_ROUTES","PDO_UPDATE_ROUTES callback","_mpr_doupdateroutes","routprot/DoUpdateRoutes","rras.doupdateroutes"]
+description: The DoUpdateRoutes function requests the routing protocol to perform a routing information update over the specified interface to obtain static route information.
+helpviewer_keywords: ["DoUpdateRoutes","DoUpdateRoutes callback function [RAS]","PDO_UPDATE_ROUTES","PDO_UPDATE_ROUTES callback","_mpr_doupdateroutes","routprot/DoUpdateRoutes","rras.doupdateroutes"]
 old-location: rras\doupdateroutes.htm
 tech.root: RRAS
 ms.assetid: 5942c856-f504-4e2d-86c8-f3207c787ed5

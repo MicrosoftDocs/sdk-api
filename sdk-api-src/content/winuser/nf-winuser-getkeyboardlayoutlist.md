@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetKeyboardLayoutList
 title: GetKeyboardLayoutList function (winuser.h)
-description: Retrieves the input locale identifiers (formerly called keyboard layout handles) corresponding to the current set of input locales in the system. The function copies the identifiers to the specified buffer.helpviewer_keywords: ["GetKeyboardLayoutList","GetKeyboardLayoutList function [Keyboard and Mouse Input]","_win32_GetKeyboardLayoutList","_win32_getkeyboardlayoutlist_cpp","inputdev.getkeyboardlayoutlist","winui._win32_getkeyboardlayoutlist","winuser/GetKeyboardLayoutList"]
+description: Retrieves the input locale identifiers (formerly called keyboard layout handles) corresponding to the current set of input locales in the system. The function copies the identifiers to the specified buffer.
+helpviewer_keywords: ["GetKeyboardLayoutList","GetKeyboardLayoutList function [Keyboard and Mouse Input]","_win32_GetKeyboardLayoutList","_win32_getkeyboardlayoutlist_cpp","inputdev.getkeyboardlayoutlist","winui._win32_getkeyboardlayoutlist","winuser/GetKeyboardLayoutList"]
 old-location: inputdev\getkeyboardlayoutlist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayoutlist.htm

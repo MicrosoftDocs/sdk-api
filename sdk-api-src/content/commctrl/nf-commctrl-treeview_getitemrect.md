@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_GetItemRect
 title: TreeView_GetItemRect macro (commctrl.h)
-description: Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can use this macro or send the TVM_GETITEMRECT message explicitly.helpviewer_keywords: ["TreeView_GetItemRect","TreeView_GetItemRect macro [Windows Controls]","_win32_TreeView_GetItemRect","_win32_TreeView_GetItemRect_cpp","commctrl/TreeView_GetItemRect","controls.TreeView_GetItemRect","controls._win32_TreeView_GetItemRect"]
+description: Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can use this macro or send the TVM_GETITEMRECT message explicitly.
+helpviewer_keywords: ["TreeView_GetItemRect","TreeView_GetItemRect macro [Windows Controls]","_win32_TreeView_GetItemRect","_win32_TreeView_GetItemRect_cpp","commctrl/TreeView_GetItemRect","controls.TreeView_GetItemRect","controls._win32_TreeView_GetItemRect"]
 old-location: controls\TreeView_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemrect.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Call
 title: ITCallMediaEvent::get_Call (tapi3if.h)
-description: The get_Call method gets an ITCallInfo interface pointer for the call object associated with this event.helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Call method","ITCallMediaEvent.get_Call","ITCallMediaEvent::get_Call","_tapi3_itcallmediaevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_call","tapi3if/ITCallMediaEvent::get_Call"]
+description: The get_Call method gets an ITCallInfo interface pointer for the call object associated with this event.
+helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Call method","ITCallMediaEvent.get_Call","ITCallMediaEvent::get_Call","_tapi3_itcallmediaevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_call","tapi3if/ITCallMediaEvent::get_Call"]
 old-location: tapi3\itcallmediaevent_get_call.htm
 tech.root: Tapi
 ms.assetid: f343c0d2-78bd-415d-9bab-f21a32343119

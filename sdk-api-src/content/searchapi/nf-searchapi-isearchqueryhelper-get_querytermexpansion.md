@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryTermExpansion
 title: ISearchQueryHelper::get_QueryTermExpansion (searchapi.h)
-description: Gets the value that specifies how query terms are to be expanded.helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QueryTermExpansion method","ISearchQueryHelper.get_QueryTermExpansion","ISearchQueryHelper::get_QueryTermExpansion","_search_ISearchQueryHelper_get_QueryTermExpansion","get_QueryTermExpansion","get_QueryTermExpansion method [search]","get_QueryTermExpansion method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QueryTermExpansion","searchapi/ISearchQueryHelper::get_QueryTermExpansion"]
+description: Gets the value that specifies how query terms are to be expanded.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QueryTermExpansion method","ISearchQueryHelper.get_QueryTermExpansion","ISearchQueryHelper::get_QueryTermExpansion","_search_ISearchQueryHelper_get_QueryTermExpansion","get_QueryTermExpansion","get_QueryTermExpansion method [search]","get_QueryTermExpansion method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QueryTermExpansion","searchapi/ISearchQueryHelper::get_QueryTermExpansion"]
 old-location: search\_search_ISearchQueryHelper_get_QueryTermExpansion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querytermexpansion.htm

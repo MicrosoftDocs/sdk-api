@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.FILEMUIINFO_GET_MAIN_TYPENAMES
 title: FILEMUIINFO_GET_MAIN_TYPENAMES macro (winnls.h)
-description: Gets the main module names multistring array associated with the type name offset information in the dwTypeNameMainOffset member of a FILEMUIINFO structure.helpviewer_keywords: ["FILEMUIINFO_GET_MAIN_TYPENAMES","FILEMUIINFO_GET_MAIN_TYPENAMES macro [Internationalization for Windows Applications]","_win32_FILEMUIINFO_GET_MAIN_TYPENAMES","intl.filemuiinfo_get_main_typenames","winnls/FILEMUIINFO_GET_MAIN_TYPENAMES"]
+description: Gets the main module names multistring array associated with the type name offset information in the dwTypeNameMainOffset member of a FILEMUIINFO structure.
+helpviewer_keywords: ["FILEMUIINFO_GET_MAIN_TYPENAMES","FILEMUIINFO_GET_MAIN_TYPENAMES macro [Internationalization for Windows Applications]","_win32_FILEMUIINFO_GET_MAIN_TYPENAMES","intl.filemuiinfo_get_main_typenames","winnls/FILEMUIINFO_GET_MAIN_TYPENAMES"]
 old-location: intl\filemuiinfo_get_main_typenames.htm
 tech.root: Intl
 ms.assetid: 93fe7be8-693f-493c-94d4-7b7b2405880a

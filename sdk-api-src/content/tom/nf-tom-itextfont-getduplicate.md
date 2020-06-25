@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetDuplicate
 title: ITextFont::GetDuplicate (tom.h)
-description: Gets a duplicate of this text font object.helpviewer_keywords: ["GetDuplicate","GetDuplicate method [Windows Controls]","GetDuplicate method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetDuplicate method","ITextFont.GetDuplicate","ITextFont::GetDuplicate","_win32_ITextFont_GetDuplicate","_win32_ITextFont_GetDuplicate_cpp","controls.ITextFont_GetDuplicate","controls._win32_ITextFont_GetDuplicate","tom/ITextFont::GetDuplicate"]
+description: Gets a duplicate of this text font object.
+helpviewer_keywords: ["GetDuplicate","GetDuplicate method [Windows Controls]","GetDuplicate method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetDuplicate method","ITextFont.GetDuplicate","ITextFont::GetDuplicate","_win32_ITextFont_GetDuplicate","_win32_ITextFont_GetDuplicate_cpp","controls.ITextFont_GetDuplicate","controls._win32_ITextFont_GetDuplicate","tom/ITextFont::GetDuplicate"]
 old-location: controls\ITextFont_GetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetduplicate.htm

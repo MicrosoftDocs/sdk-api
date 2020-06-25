@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.SetPalette
 title: Image::SetPalette (gdiplusheaders.h)
-description: The Image::SetPalette method sets the color palette of this Image object.helpviewer_keywords: ["Image class [GDI+]","SetPalette method","Image.SetPalette","Image::SetPalette","SetPalette","SetPalette method [GDI+]","SetPalette method [GDI+]","Image class","_gdiplus_CLASS_Image_SetPalette_palette_","gdiplus._gdiplus_CLASS_Image_SetPalette_palette_"]
+description: The Image::SetPalette method sets the color palette of this Image object.
+helpviewer_keywords: ["Image class [GDI+]","SetPalette method","Image.SetPalette","Image::SetPalette","SetPalette","SetPalette method [GDI+]","SetPalette method [GDI+]","Image class","_gdiplus_CLASS_Image_SetPalette_palette_","gdiplus._gdiplus_CLASS_Image_SetPalette_palette_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_SetPalette_palette_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setpalette.htm

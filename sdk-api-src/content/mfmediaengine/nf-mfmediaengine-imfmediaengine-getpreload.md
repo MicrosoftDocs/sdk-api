@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetPreload
 title: IMFMediaEngine::GetPreload (mfmediaengine.h)
-description: Gets the preload flag.helpviewer_keywords: ["GetPreload","GetPreload method [Media Foundation]","GetPreload method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetPreload method","IMFMediaEngine.GetPreload","IMFMediaEngine::GetPreload","mf.imfmediaengine_getpreload","mfmediaengine/IMFMediaEngine::GetPreload"]
+description: Gets the preload flag.
+helpviewer_keywords: ["GetPreload","GetPreload method [Media Foundation]","GetPreload method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetPreload method","IMFMediaEngine.GetPreload","IMFMediaEngine::GetPreload","mf.imfmediaengine_getpreload","mfmediaengine/IMFMediaEngine::GetPreload"]
 old-location: mf\imfmediaengine_getpreload.htm
 tech.root: medfound
 ms.assetid: AA1942B2-C5BB-46F7-B163-1BCB3372D453

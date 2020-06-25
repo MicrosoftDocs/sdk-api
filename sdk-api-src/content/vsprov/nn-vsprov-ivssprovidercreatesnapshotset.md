@@ -1,7 +1,8 @@
 ---
 UID: NN:vsprov.IVssProviderCreateSnapshotSet
 title: IVssProviderCreateSnapshotSet (vsprov.h)
-description: The IVssProviderCreateSnapshotSet interface contains the methods used during shadow copy creation.helpviewer_keywords: ["IVssProviderCreateSnapshotSet","IVssProviderCreateSnapshotSet interface [VSS]","IVssProviderCreateSnapshotSet interface [VSS]","described","base.ivssprovidercreatesnapshotset","vsprov/IVssProviderCreateSnapshotSet"]
+description: The IVssProviderCreateSnapshotSet interface contains the methods used during shadow copy creation.
+helpviewer_keywords: ["IVssProviderCreateSnapshotSet","IVssProviderCreateSnapshotSet interface [VSS]","IVssProviderCreateSnapshotSet interface [VSS]","described","base.ivssprovidercreatesnapshotset","vsprov/IVssProviderCreateSnapshotSet"]
 old-location: base\ivssprovidercreatesnapshotset.htm
 tech.root: VSS
 ms.assetid: 41a795f0-7882-47a3-9226-aa50218a56e9

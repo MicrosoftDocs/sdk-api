@@ -1,7 +1,8 @@
 ---
 UID: NC:ras.PFNRASSENDBUFFER
 title: PFNRASSENDBUFFER (ras.h)
-description: The custom-scripting DLL calls the RasSendBuffer function to send data to the server over the specified port.helpviewer_keywords: ["PFNRASSENDBUFFER","PFNRASSENDBUFFER callback","RasSendBuffer","RasSendBuffer callback function [RAS]","_ras_rassendbuffer","ras/RasSendBuffer","rras.rassendbuffer"]
+description: The custom-scripting DLL calls the RasSendBuffer function to send data to the server over the specified port.
+helpviewer_keywords: ["PFNRASSENDBUFFER","PFNRASSENDBUFFER callback","RasSendBuffer","RasSendBuffer callback function [RAS]","_ras_rassendbuffer","ras/RasSendBuffer","rras.rassendbuffer"]
 old-location: rras\rassendbuffer.htm
 tech.root: RRAS
 ms.assetid: 157a2bc7-351f-4170-b85b-ed789b4997ab

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN INT,IN INT,IN INT,IN INT)
 title: Graphics::DrawImage(IN Image,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image.helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN INT","IN INT","IN INT","IN INT)","Graphics.DrawImage(Image*","INT","INT","INT","INT)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_width_INT_height_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_width_INT_height_"]
+description: The Graphics::DrawImage method draws an image.
+helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN INT","IN INT","IN INT","IN INT)","Graphics.DrawImage(Image*","INT","INT","INT","INT)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_width_INT_height_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_width_INT_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_width_INT_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_62imageimage_intx_inty_intwidth_intheigh.htm

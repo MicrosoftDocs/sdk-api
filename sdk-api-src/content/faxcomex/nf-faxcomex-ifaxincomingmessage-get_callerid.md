@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_CallerId
 title: IFaxIncomingMessage::get_CallerId (faxcomex.h)
-description: The CallerId property is a null-terminated string that identifies the calling device associated with the inbound fax message.helpviewer_keywords: ["CallerId property [Fax Service]","CallerId property [Fax Service]","IFaxIncomingMessage interface","IFaxIncomingMessage interface [Fax Service]","CallerId property","IFaxIncomingMessage.CallerId","IFaxIncomingMessage.get_CallerId","IFaxIncomingMessage::CallerId","IFaxIncomingMessage::get_CallerId","_mfax_faxincomingmessage.callerid","fax._mfax_faxincomingmessage_callerid","fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_callerid_cpp","faxcomex/IFaxIncomingMessage::CallerId","faxcomex/IFaxIncomingMessage::get_CallerId","get_CallerId"]
+description: The CallerId property is a null-terminated string that identifies the calling device associated with the inbound fax message.
+helpviewer_keywords: ["CallerId property [Fax Service]","CallerId property [Fax Service]","IFaxIncomingMessage interface","IFaxIncomingMessage interface [Fax Service]","CallerId property","IFaxIncomingMessage.CallerId","IFaxIncomingMessage.get_CallerId","IFaxIncomingMessage::CallerId","IFaxIncomingMessage::get_CallerId","_mfax_faxincomingmessage.callerid","fax._mfax_faxincomingmessage_callerid","fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_callerid_cpp","faxcomex/IFaxIncomingMessage::CallerId","faxcomex/IFaxIncomingMessage::get_CallerId","get_CallerId"]
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_callerid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1bfo.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_DesiredPacketDescription
 title: IInkOverlay::put_DesiredPacketDescription (msinkaut.h)
-description: Gets or sets the desired packet description of the InkCollector.helpviewer_keywords: ["DesiredPacketDescription property [Tablet PC]","DesiredPacketDescription property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","DesiredPacketDescription property","IInkOverlay.DesiredPacketDescription","IInkOverlay.put_DesiredPacketDescription","IInkOverlay::DesiredPacketDescription","IInkOverlay::get_DesiredPacketDescription","IInkOverlay::put_DesiredPacketDescription","InkOverlay.get_DesiredPacketDescription","InkOverlay.put_DesiredPacketDescription","get_DesiredPacketDescription","msinkaut/IInkOverlay::DesiredPacketDescription","msinkaut/IInkOverlay::get_DesiredPacketDescription","msinkaut/IInkOverlay::put_DesiredPacketDescription","put_DesiredPacketDescription","tablet.inkoverlay_desiredpacketdescription"]
+description: Gets or sets the desired packet description of the InkCollector.
+helpviewer_keywords: ["DesiredPacketDescription property [Tablet PC]","DesiredPacketDescription property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","DesiredPacketDescription property","IInkOverlay.DesiredPacketDescription","IInkOverlay.put_DesiredPacketDescription","IInkOverlay::DesiredPacketDescription","IInkOverlay::get_DesiredPacketDescription","IInkOverlay::put_DesiredPacketDescription","InkOverlay.get_DesiredPacketDescription","InkOverlay.put_DesiredPacketDescription","get_DesiredPacketDescription","msinkaut/IInkOverlay::DesiredPacketDescription","msinkaut/IInkOverlay::get_DesiredPacketDescription","msinkaut/IInkOverlay::put_DesiredPacketDescription","put_DesiredPacketDescription","tablet.inkoverlay_desiredpacketdescription"]
 old-location: tablet\inkoverlay_desiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 5330adba-6e19-41dd-8f00-ba62be166aad

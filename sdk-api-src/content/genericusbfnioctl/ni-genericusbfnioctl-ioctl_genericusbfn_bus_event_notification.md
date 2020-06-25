@@ -1,7 +1,8 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 title: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to register for Universal Serial Bus (USB) event.helpviewer_keywords: ["IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION","IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control","IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses]","buses.ioctl_genericusbfn_bus_event_notification","genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION"]
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to register for Universal Serial Bus (USB) event.
+helpviewer_keywords: ["IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION","IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control","IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses]","buses.ioctl_genericusbfn_bus_event_notification","genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION"]
 old-location: buses\ioctl_genericusbfn_bus_event_notification.htm
 tech.root: usbref
 ms.assetid: 1DFDF22D-D86D-4875-B11D-45C0577B6281

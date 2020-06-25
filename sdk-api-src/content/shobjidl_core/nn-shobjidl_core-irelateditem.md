@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IRelatedItem
 title: IRelatedItem (shobjidl_core.h)
-description: Exposes methods that derive related items with specific relationships.helpviewer_keywords: ["IRelatedItem","IRelatedItem interface [Windows Shell]","IRelatedItem interface [Windows Shell]","described","_shell_IRelatedItem","shell.IRelatedItem","shobjidl_core/IRelatedItem"]
+description: Exposes methods that derive related items with specific relationships.
+helpviewer_keywords: ["IRelatedItem","IRelatedItem interface [Windows Shell]","IRelatedItem interface [Windows Shell]","described","_shell_IRelatedItem","shell.IRelatedItem","shobjidl_core/IRelatedItem"]
 old-location: shell\IRelatedItem.htm
 tech.root: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c

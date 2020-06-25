@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_InsertItemData
 title: ComboBox_InsertItemData macro (windowsx.h)
-description: Inserts item data in a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.helpviewer_keywords: ["ComboBox_InsertItemData","ComboBox_InsertItemData macro [Windows Controls]","_win32_ComboBox_InsertItemData","_win32_ComboBox_InsertItemData_cpp","controls.ComboBox_InsertItemData","controls._win32_ComboBox_InsertItemData","windowsx/ComboBox_InsertItemData"]
+description: Inserts item data in a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
+helpviewer_keywords: ["ComboBox_InsertItemData","ComboBox_InsertItemData macro [Windows Controls]","_win32_ComboBox_InsertItemData","_win32_ComboBox_InsertItemData_cpp","controls.ComboBox_InsertItemData","controls._win32_ComboBox_InsertItemData","windowsx/ComboBox_InsertItemData"]
 old-location: controls\ComboBox_InsertItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertitemdata.htm

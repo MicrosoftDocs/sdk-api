@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PALETTE_DATA
 title: DXVAHD_STREAM_STATE_PALETTE_DATA (dxvahd.h)
-description: Contains the color palette entries for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).helpviewer_keywords: ["DXVAHD_STREAM_STATE_PALETTE_DATA","DXVAHD_STREAM_STATE_PALETTE_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA","mf.dxvahd_stream_state_palette_data"]
+description: Contains the color palette entries for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_PALETTE_DATA","DXVAHD_STREAM_STATE_PALETTE_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA","mf.dxvahd_stream_state_palette_data"]
 old-location: mf\dxvahd_stream_state_palette_data.htm
 tech.root: medfound
 ms.assetid: 91f69451-72e6-4028-92d5-555dcf834cf7

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMOutputMediaProps.GetStreamGroupName
 title: IWMOutputMediaProps::GetStreamGroupName (wmsdkidl.h)
-description: The GetStreamGroupName method is not implemented in this release, and returns the empty string.helpviewer_keywords: ["GetStreamGroupName","GetStreamGroupName method [windows Media Format]","GetStreamGroupName method [windows Media Format]","IWMOutputMediaProps interface","IWMOutputMediaProps interface [windows Media Format]","GetStreamGroupName method","IWMOutputMediaProps.GetStreamGroupName","IWMOutputMediaProps::GetStreamGroupName","IWMOutputMediaPropsGetStreamGroupName","wmformat.iwmoutputmediaprops_getstreamgroupname","wmsdkidl/IWMOutputMediaProps::GetStreamGroupName"]
+description: The GetStreamGroupName method is not implemented in this release, and returns the empty string.
+helpviewer_keywords: ["GetStreamGroupName","GetStreamGroupName method [windows Media Format]","GetStreamGroupName method [windows Media Format]","IWMOutputMediaProps interface","IWMOutputMediaProps interface [windows Media Format]","GetStreamGroupName method","IWMOutputMediaProps.GetStreamGroupName","IWMOutputMediaProps::GetStreamGroupName","IWMOutputMediaPropsGetStreamGroupName","wmformat.iwmoutputmediaprops_getstreamgroupname","wmsdkidl/IWMOutputMediaProps::GetStreamGroupName"]
 old-location: wmformat\iwmoutputmediaprops_getstreamgroupname.htm
 tech.root: wmformat
 ms.assetid: 65251316-c98f-46a3-a0cf-164531ef0b46

@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2data.ISectionList.InitializeWithRawSections
 title: ISectionList::InitializeWithRawSections (mpeg2data.h)
-description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.helpviewer_keywords: ["ISectionList interface [Microsoft TV Technologies]","InitializeWithRawSections method","ISectionList.InitializeWithRawSections","ISectionList::InitializeWithRawSections","ISectionListInitializeWithRawSections","InitializeWithRawSections","InitializeWithRawSections method [Microsoft TV Technologies]","InitializeWithRawSections method [Microsoft TV Technologies]","ISectionList interface","mpeg2data/ISectionList::InitializeWithRawSections","mstv.isectionlist_initializewithrawsections"]
+description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.
+helpviewer_keywords: ["ISectionList interface [Microsoft TV Technologies]","InitializeWithRawSections method","ISectionList.InitializeWithRawSections","ISectionList::InitializeWithRawSections","ISectionListInitializeWithRawSections","InitializeWithRawSections","InitializeWithRawSections method [Microsoft TV Technologies]","InitializeWithRawSections method [Microsoft TV Technologies]","ISectionList interface","mpeg2data/ISectionList::InitializeWithRawSections","mstv.isectionlist_initializewithrawsections"]
 old-location: mstv\isectionlist_initializewithrawsections.htm
 tech.root: mstv
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca

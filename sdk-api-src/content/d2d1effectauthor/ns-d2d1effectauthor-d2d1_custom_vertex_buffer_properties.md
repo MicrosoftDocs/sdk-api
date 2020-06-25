@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
 title: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES (d2d1effectauthor.h)
-description: Defines a vertex shader and the input element description to define the input layout.helpviewer_keywords: ["D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES","D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES structure [Direct2D]","d2d1effectauthor/D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES","direct2d.d2d1_custom_vertex_buffer_properties"]
+description: Defines a vertex shader and the input element description to define the input layout.
+helpviewer_keywords: ["D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES","D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES structure [Direct2D]","d2d1effectauthor/D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES","direct2d.d2d1_custom_vertex_buffer_properties"]
 old-location: direct2d\d2d1_custom_vertex_buffer_properties.htm
 tech.root: Direct2D
 ms.assetid: e3cebb2b-48fb-42b2-8eb4-b9676b581bac

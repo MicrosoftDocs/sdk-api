@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetClipboardSequenceNumber
 title: GetClipboardSequenceNumber function (winuser.h)
-description: Retrieves the clipboard sequence number for the current window station.helpviewer_keywords: ["GetClipboardSequenceNumber","GetClipboardSequenceNumber function [Data Exchange]","_win32_GetClipboardSequenceNumber","_win32_getclipboardsequencenumber_cpp","dataxchg.getclipboardsequencenumber","winui._win32_getclipboardsequencenumber","winuser/GetClipboardSequenceNumber"]
+description: Retrieves the clipboard sequence number for the current window station.
+helpviewer_keywords: ["GetClipboardSequenceNumber","GetClipboardSequenceNumber function [Data Exchange]","_win32_GetClipboardSequenceNumber","_win32_getclipboardsequencenumber_cpp","dataxchg.getclipboardsequencenumber","winui._win32_getclipboardsequencenumber","winuser/GetClipboardSequenceNumber"]
 old-location: dataxchg\getclipboardsequencenumber.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardsequencenumber.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamSourceRect
 title: ID3D11VideoContext::VideoProcessorGetStreamSourceRect (d3d11.h)
-description: Gets the source rectangle for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamSourceRect method","ID3D11VideoContext.VideoProcessorGetStreamSourceRect","ID3D11VideoContext::VideoProcessorGetStreamSourceRect","VideoProcessorGetStreamSourceRect","VideoProcessorGetStreamSourceRect method [Media Foundation]","VideoProcessorGetStreamSourceRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamSourceRect","mf.id3d11videocontext_videoprocessorgetstreamsourcerect"]
+description: Gets the source rectangle for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamSourceRect method","ID3D11VideoContext.VideoProcessorGetStreamSourceRect","ID3D11VideoContext::VideoProcessorGetStreamSourceRect","VideoProcessorGetStreamSourceRect","VideoProcessorGetStreamSourceRect method [Media Foundation]","VideoProcessorGetStreamSourceRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamSourceRect","mf.id3d11videocontext_videoprocessorgetstreamsourcerect"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamsourcerect.htm
 tech.root: medfound
 ms.assetid: 52AFE959-695B-4797-ABCF-B8264046E4BE

@@ -1,7 +1,8 @@
 ---
 UID: NE:vss._VSS_SNAPSHOT_COMPATIBILITY
 title: VSS_SNAPSHOT_COMPATIBILITY (vss.h)
-description: The VSS_SNAPSHOT_COMPATIBILITY enumeration indicates which volume control or file I/O operations are disabled for the volume that has been shadow copied.helpviewer_keywords: ["VSS_SC_DISABLE_CONTENTINDEX","VSS_SC_DISABLE_DEFRAG","VSS_SNAPSHOT_COMPATIBILITY","VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS]","_win32_vss_snapshot_compatibility","base.vss_snapshot_compatibility","vss/VSS_SC_DISABLE_CONTENTINDEX","vss/VSS_SC_DISABLE_DEFRAG","vss/VSS_SNAPSHOT_COMPATIBILITY"]
+description: The VSS_SNAPSHOT_COMPATIBILITY enumeration indicates which volume control or file I/O operations are disabled for the volume that has been shadow copied.
+helpviewer_keywords: ["VSS_SC_DISABLE_CONTENTINDEX","VSS_SC_DISABLE_DEFRAG","VSS_SNAPSHOT_COMPATIBILITY","VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS]","_win32_vss_snapshot_compatibility","base.vss_snapshot_compatibility","vss/VSS_SC_DISABLE_CONTENTINDEX","vss/VSS_SC_DISABLE_DEFRAG","vss/VSS_SNAPSHOT_COMPATIBILITY"]
 old-location: base\vss_snapshot_compatibility.htm
 tech.root: VSS
 ms.assetid: 105d7bd6-0e95-4803-ae39-f03af40daa8e

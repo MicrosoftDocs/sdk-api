@@ -1,7 +1,8 @@
 ---
 UID: NE:ctffunc.__MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001
 title: TKBLayoutType (ctffunc.h)
-description: Elements of the TKBLayoutType enumeration are passed by an IME in a call to ITfFnGetPreferredTouchKeyboardLayout::GetLayout to specify the type of layout.helpviewer_keywords: ["TKBLT_CLASSIC","TKBLT_OPTIMIZED","TKBLT_UNDEFINED","TKBLayoutType","TKBLayoutType enumeration [Text Services Framework]","ctffunc/TKBLT_CLASSIC","ctffunc/TKBLT_OPTIMIZED","ctffunc/TKBLT_UNDEFINED","ctffunc/TKBLayoutType","tsf.tkblayouttype"]
+description: Elements of the TKBLayoutType enumeration are passed by an IME in a call to ITfFnGetPreferredTouchKeyboardLayout::GetLayout to specify the type of layout.
+helpviewer_keywords: ["TKBLT_CLASSIC","TKBLT_OPTIMIZED","TKBLT_UNDEFINED","TKBLayoutType","TKBLayoutType enumeration [Text Services Framework]","ctffunc/TKBLT_CLASSIC","ctffunc/TKBLT_OPTIMIZED","ctffunc/TKBLT_UNDEFINED","ctffunc/TKBLayoutType","tsf.tkblayouttype"]
 old-location: tsf\tkblayouttype.htm
 tech.root: TSF
 ms.assetid: 65C46775-9D4D-4C80-A5F0-6713C805053D

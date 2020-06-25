@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Value
 title: IFsrmProperty::get_Value (fsrmpipeline.h)
-description: The value of the property.helpviewer_keywords: ["IFsrmProperty interface [File Server Resource Manager]","Value property","IFsrmProperty.Value","IFsrmProperty.get_Value","IFsrmProperty::Value","IFsrmProperty::get_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmProperty interface","fs.ifsrmproperty_value","fsrm.ifsrmproperty_value","fsrmpipeline/IFsrmProperty::Value","fsrmpipeline/IFsrmProperty::get_Value","get_Value"]
+description: The value of the property.
+helpviewer_keywords: ["IFsrmProperty interface [File Server Resource Manager]","Value property","IFsrmProperty.Value","IFsrmProperty.get_Value","IFsrmProperty::Value","IFsrmProperty::get_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmProperty interface","fs.ifsrmproperty_value","fsrm.ifsrmproperty_value","fsrmpipeline/IFsrmProperty::Value","fsrmpipeline/IFsrmProperty::get_Value","get_Value"]
 old-location: fsrm\ifsrmproperty_value.htm
 tech.root: fsrm
 ms.assetid: dc49c1d4-9f37-48f0-9e0b-9fd79a106301

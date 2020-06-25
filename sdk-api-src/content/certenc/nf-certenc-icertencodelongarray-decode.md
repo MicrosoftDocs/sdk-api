@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Decode
 title: ICertEncodeLongArray::Decode (certenc.h)
-description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.helpviewer_keywords: ["CCertEncodeLongArray object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeLongArray object","Decode method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","Decode method","ICertEncodeLongArray.Decode","ICertEncodeLongArray::Decode","_certsrv_icertencodelongarray_decode","certenc/ICertEncodeLongArray::Decode","security.icertencodelongarray_decode"]
+description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.
+helpviewer_keywords: ["CCertEncodeLongArray object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeLongArray object","Decode method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","Decode method","ICertEncodeLongArray.Decode","ICertEncodeLongArray::Decode","_certsrv_icertencodelongarray_decode","certenc/ICertEncodeLongArray::Decode","security.icertencodelongarray_decode"]
 old-location: security\icertencodelongarray_decode.htm
 tech.root: SecCrypto
 ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo.GetAllSPRMs
 title: IDvdInfo::GetAllSPRMs (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all system parameter registers (SPRMs).helpviewer_keywords: ["GetAllSPRMs","GetAllSPRMs method [DirectShow]","GetAllSPRMs method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetAllSPRMs method","IDvdInfo.GetAllSPRMs","IDvdInfo::GetAllSPRMs","IDvdInfoGetAllSPRMs","dshow.idvdinfo_getallsprms","strmif/IDvdInfo::GetAllSPRMs"]
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all system parameter registers (SPRMs).
+helpviewer_keywords: ["GetAllSPRMs","GetAllSPRMs method [DirectShow]","GetAllSPRMs method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetAllSPRMs method","IDvdInfo.GetAllSPRMs","IDvdInfo::GetAllSPRMs","IDvdInfoGetAllSPRMs","dshow.idvdinfo_getallsprms","strmif/IDvdInfo::GetAllSPRMs"]
 old-location: dshow\idvdinfo_getallsprms.htm
 tech.root: DirectShow
 ms.assetid: c96e0e7c-eee3-47ca-9350-94db895f1c6c

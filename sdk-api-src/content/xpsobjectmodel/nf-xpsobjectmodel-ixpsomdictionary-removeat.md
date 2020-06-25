@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.RemoveAt
 title: IXpsOMDictionary::RemoveAt (xpsobjectmodel.h)
-description: Removes and releases the entry from a specified location in the dictionary.helpviewer_keywords: ["IXpsOMDictionary interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMDictionary.RemoveAt","IXpsOMDictionary::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMDictionary interface","xps.ixpsomdictionary_removeat","xpsobjectmodel/IXpsOMDictionary::RemoveAt"]
+description: Removes and releases the entry from a specified location in the dictionary.
+helpviewer_keywords: ["IXpsOMDictionary interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMDictionary.RemoveAt","IXpsOMDictionary::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMDictionary interface","xps.ixpsomdictionary_removeat","xpsobjectmodel/IXpsOMDictionary::RemoveAt"]
 old-location: xps\ixpsomdictionary_removeat.htm
 tech.root: printdocs
 ms.assetid: fd86046b-8d87-4093-bfbd-b91e5bacba49

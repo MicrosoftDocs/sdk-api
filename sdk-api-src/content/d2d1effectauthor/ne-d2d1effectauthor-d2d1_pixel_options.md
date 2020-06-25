@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_PIXEL_OPTIONS
 title: D2D1_PIXEL_OPTIONS (d2d1effectauthor.h)
-description: Indicates how pixel shader sampling will be restricted.helpviewer_keywords: ["D2D1_PIXEL_OPTIONS","D2D1_PIXEL_OPTIONS enumeration [Direct2D]","D2D1_PIXEL_OPTIONS_NONE","D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING","d2d1effectauthor/D2D1_PIXEL_OPTIONS","d2d1effectauthor/D2D1_PIXEL_OPTIONS_NONE","d2d1effectauthor/D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING","direct2d.d2d1_pixel_options"]
+description: Indicates how pixel shader sampling will be restricted.
+helpviewer_keywords: ["D2D1_PIXEL_OPTIONS","D2D1_PIXEL_OPTIONS enumeration [Direct2D]","D2D1_PIXEL_OPTIONS_NONE","D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING","d2d1effectauthor/D2D1_PIXEL_OPTIONS","d2d1effectauthor/D2D1_PIXEL_OPTIONS_NONE","d2d1effectauthor/D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING","direct2d.d2d1_pixel_options"]
 old-location: direct2d\d2d1_pixel_options.htm
 tech.root: Direct2D
 ms.assetid: 285cf526-d8f6-4ae7-a017-066e397078b0

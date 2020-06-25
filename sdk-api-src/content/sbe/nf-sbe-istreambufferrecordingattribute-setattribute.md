@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.SetAttribute
 title: IStreamBufferRecordingAttribute::SetAttribute (sbe.h)
-description: The SetAttribute method sets an attribute on the stream buffer file.helpviewer_keywords: ["IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","SetAttribute method","IStreamBufferRecordingAttribute.SetAttribute","IStreamBufferRecordingAttribute::SetAttribute","IStreamBufferRecordingAttributeSetAttribute","SetAttribute","SetAttribute method [Microsoft TV Technologies]","SetAttribute method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","mstv.istreambufferrecordingattribute_setattribute","sbe/IStreamBufferRecordingAttribute::SetAttribute"]
+description: The SetAttribute method sets an attribute on the stream buffer file.
+helpviewer_keywords: ["IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","SetAttribute method","IStreamBufferRecordingAttribute.SetAttribute","IStreamBufferRecordingAttribute::SetAttribute","IStreamBufferRecordingAttributeSetAttribute","SetAttribute","SetAttribute method [Microsoft TV Technologies]","SetAttribute method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","mstv.istreambufferrecordingattribute_setattribute","sbe/IStreamBufferRecordingAttribute::SetAttribute"]
 old-location: mstv\istreambufferrecordingattribute_setattribute.htm
 tech.root: mstv
 ms.assetid: cc441a00-e98f-4ea7-b902-d74846fc93cc

@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.IConfigurationDataCollector
 title: IConfigurationDataCollector (pla.h)
-description: Collects computer settings at the time of collection.helpviewer_keywords: ["IConfigurationDataCollector","IConfigurationDataCollector interface [PLA]","IConfigurationDataCollector interface [PLA]","described","base.iconfigurationdatacollector","pla.iconfigurationdatacollector","pla/IConfigurationDataCollector"]
+description: Collects computer settings at the time of collection.
+helpviewer_keywords: ["IConfigurationDataCollector","IConfigurationDataCollector interface [PLA]","IConfigurationDataCollector interface [PLA]","described","base.iconfigurationdatacollector","pla.iconfigurationdatacollector","pla/IConfigurationDataCollector"]
 old-location: pla\iconfigurationdatacollector.htm
 tech.root: PLA
 ms.assetid: 7266c02d-0f56-4754-8a67-68394a5f0158

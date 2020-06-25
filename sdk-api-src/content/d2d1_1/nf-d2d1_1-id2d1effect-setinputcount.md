@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.SetInputCount
 title: ID2D1Effect::SetInputCount (d2d1_1.h)
-description: Allows the application to change the number of inputs to an effect.helpviewer_keywords: ["ID2D1Effect interface [Direct2D]","SetInputCount method","ID2D1Effect.SetInputCount","ID2D1Effect::SetInputCount","SetInputCount","SetInputCount method [Direct2D]","SetInputCount method [Direct2D]","ID2D1Effect interface","d2d1_1/ID2D1Effect::SetInputCount","direct2d.id2d1effect_setnumberofinputs"]
+description: Allows the application to change the number of inputs to an effect.
+helpviewer_keywords: ["ID2D1Effect interface [Direct2D]","SetInputCount method","ID2D1Effect.SetInputCount","ID2D1Effect::SetInputCount","SetInputCount","SetInputCount method [Direct2D]","SetInputCount method [Direct2D]","ID2D1Effect interface","d2d1_1/ID2D1Effect::SetInputCount","direct2d.id2d1effect_setnumberofinputs"]
 old-location: direct2d\id2d1effect_setnumberofinputs.htm
 tech.root: Direct2D
 ms.assetid: cdcaa997-acbe-40e3-9439-629b3853d8d4

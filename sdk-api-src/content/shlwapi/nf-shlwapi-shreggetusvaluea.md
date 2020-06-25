@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetUSValueA
 title: SHRegGetUSValueA function (shlwapi.h)
-description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).helpviewer_keywords: ["SHRegGetUSValue","SHRegGetUSValue function [Windows Shell]","SHRegGetUSValueA","SHRegGetUSValueW","_win32_SHRegGetUSValue","shell.SHRegGetUSValue","shlwapi/SHRegGetUSValue","shlwapi/SHRegGetUSValueA","shlwapi/SHRegGetUSValueW"]
+description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+helpviewer_keywords: ["SHRegGetUSValue","SHRegGetUSValue function [Windows Shell]","SHRegGetUSValueA","SHRegGetUSValueW","_win32_SHRegGetUSValue","shell.SHRegGetUSValue","shlwapi/SHRegGetUSValue","shlwapi/SHRegGetUSValueA","shlwapi/SHRegGetUSValueW"]
 old-location: shell\SHRegGetUSValue.htm
 tech.root: shell
 ms.assetid: 4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743
@@ -139,4 +140,8 @@ When <i>fIgnoreHKCU</i> is set to <b>TRUE</b>, <b>SHRegGetUSValue</b> returns th
 This function opens the key each time it is used. If your code involves getting a series of values from the same key, it is more efficient to open the key once with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> and then use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregqueryusvaluea">SHRegQueryUSValue</a> to retrieve the data.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHRegGetUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

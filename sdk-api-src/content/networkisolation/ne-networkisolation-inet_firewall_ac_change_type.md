@@ -1,7 +1,8 @@
 ---
 UID: NE:networkisolation._INET_FIREWALL_AC_CHANGE_TYPE
 title: INET_FIREWALL_AC_CHANGE_TYPE (networkisolation.h)
-description: Specifies which type of app container change occurred.helpviewer_keywords: ["INET_FIREWALL_AC_CHANGE_CREATE","INET_FIREWALL_AC_CHANGE_DELETE","INET_FIREWALL_AC_CHANGE_INVALID","INET_FIREWALL_AC_CHANGE_MAX","INET_FIREWALL_AC_CHANGE_TYPE","INET_FIREWALL_AC_CHANGE_TYPE enumeration [ICS/ICF]","ics.inet_firewall_ac_change_type","networkisolation/INET_FIREWALL_AC_CHANGE_CREATE","networkisolation/INET_FIREWALL_AC_CHANGE_DELETE","networkisolation/INET_FIREWALL_AC_CHANGE_INVALID","networkisolation/INET_FIREWALL_AC_CHANGE_MAX","networkisolation/INET_FIREWALL_AC_CHANGE_TYPE"]
+description: Specifies which type of app container change occurred.
+helpviewer_keywords: ["INET_FIREWALL_AC_CHANGE_CREATE","INET_FIREWALL_AC_CHANGE_DELETE","INET_FIREWALL_AC_CHANGE_INVALID","INET_FIREWALL_AC_CHANGE_MAX","INET_FIREWALL_AC_CHANGE_TYPE","INET_FIREWALL_AC_CHANGE_TYPE enumeration [ICS/ICF]","ics.inet_firewall_ac_change_type","networkisolation/INET_FIREWALL_AC_CHANGE_CREATE","networkisolation/INET_FIREWALL_AC_CHANGE_DELETE","networkisolation/INET_FIREWALL_AC_CHANGE_INVALID","networkisolation/INET_FIREWALL_AC_CHANGE_MAX","networkisolation/INET_FIREWALL_AC_CHANGE_TYPE"]
 old-location: ics\inet_firewall_ac_change_type.htm
 tech.root: ics
 ms.assetid: 196f7150-185f-4234-a585-1a94d6dc24d7

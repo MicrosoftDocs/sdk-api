@@ -1,7 +1,8 @@
 ---
 UID: NN:bits.IBackgroundCopyError
 title: IBackgroundCopyError (bits.h)
-description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.helpviewer_keywords: ["IBackgroundCopyError","IBackgroundCopyError interface [BITS]","IBackgroundCopyError interface [BITS]","described","_drz_ibackgroundcopyerror","bits.ibackgroundcopyerror","bits/IBackgroundCopyError"]
+description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
+helpviewer_keywords: ["IBackgroundCopyError","IBackgroundCopyError interface [BITS]","IBackgroundCopyError interface [BITS]","described","_drz_ibackgroundcopyerror","bits.ibackgroundcopyerror","bits/IBackgroundCopyError"]
 old-location: bits\ibackgroundcopyerror.htm
 tech.root: Bits
 ms.assetid: a0b9e887-84d5-4f67-a65c-6a807c50dafd

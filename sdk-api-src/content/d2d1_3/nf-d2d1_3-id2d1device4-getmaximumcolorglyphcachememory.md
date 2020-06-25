@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Device4.GetMaximumColorGlyphCacheMemory
 title: ID2D1Device4::GetMaximumColorGlyphCacheMemory (d2d1_3.h)
-description: Gets the maximum capacity of the color glyph cache.helpviewer_keywords: ["GetMaximumColorGlyphCacheMemory","GetMaximumColorGlyphCacheMemory method [Direct2D]","GetMaximumColorGlyphCacheMemory method [Direct2D]","ID2D1Device4 interface","ID2D1Device4 interface [Direct2D]","GetMaximumColorGlyphCacheMemory method","ID2D1Device4.GetMaximumColorGlyphCacheMemory","ID2D1Device4::GetMaximumColorGlyphCacheMemory","d2d1_3/ID2D1Device4::GetMaximumColorGlyphCacheMemory","direct2d.id2d1device4_getmaximumcolorglyphcachememory"]
+description: Gets the maximum capacity of the color glyph cache.
+helpviewer_keywords: ["GetMaximumColorGlyphCacheMemory","GetMaximumColorGlyphCacheMemory method [Direct2D]","GetMaximumColorGlyphCacheMemory method [Direct2D]","ID2D1Device4 interface","ID2D1Device4 interface [Direct2D]","GetMaximumColorGlyphCacheMemory method","ID2D1Device4.GetMaximumColorGlyphCacheMemory","ID2D1Device4::GetMaximumColorGlyphCacheMemory","d2d1_3/ID2D1Device4::GetMaximumColorGlyphCacheMemory","direct2d.id2d1device4_getmaximumcolorglyphcachememory"]
 old-location: direct2d\id2d1device4_getmaximumcolorglyphcachememory.htm
 tech.root: Direct2D
 ms.assetid: D2863860-D2CE-4658-AD06-F29B827947EE

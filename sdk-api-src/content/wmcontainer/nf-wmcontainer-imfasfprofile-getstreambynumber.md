@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamByNumber
 title: IMFASFProfile::GetStreamByNumber (wmcontainer.h)
-description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.helpviewer_keywords: ["1e3fadf0-1549-4d51-b263-727b15c55023","GetStreamByNumber","GetStreamByNumber method [Media Foundation]","GetStreamByNumber method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetStreamByNumber method","IMFASFProfile.GetStreamByNumber","IMFASFProfile::GetStreamByNumber","mf.imfasfprofile_getstreambynumber","wmcontainer/IMFASFProfile::GetStreamByNumber"]
+description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
+helpviewer_keywords: ["1e3fadf0-1549-4d51-b263-727b15c55023","GetStreamByNumber","GetStreamByNumber method [Media Foundation]","GetStreamByNumber method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetStreamByNumber method","IMFASFProfile.GetStreamByNumber","IMFASFProfile::GetStreamByNumber","mf.imfasfprofile_getstreambynumber","wmcontainer/IMFASFProfile::GetStreamByNumber"]
 old-location: mf\imfasfprofile_getstreambynumber.htm
 tech.root: medfound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023

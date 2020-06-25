@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_SetItemHeight
 title: TreeView_SetItemHeight macro (commctrl.h)
-description: Sets the height of the tree-view items. You can use this macro or send the TVM_SETITEMHEIGHT message explicitly.helpviewer_keywords: ["TreeView_SetItemHeight","TreeView_SetItemHeight macro [Windows Controls]","_win32_TreeView_SetItemHeight","_win32_TreeView_SetItemHeight_cpp","commctrl/TreeView_SetItemHeight","controls.TreeView_SetItemHeight","controls._win32_TreeView_SetItemHeight"]
+description: Sets the height of the tree-view items. You can use this macro or send the TVM_SETITEMHEIGHT message explicitly.
+helpviewer_keywords: ["TreeView_SetItemHeight","TreeView_SetItemHeight macro [Windows Controls]","_win32_TreeView_SetItemHeight","_win32_TreeView_SetItemHeight_cpp","commctrl/TreeView_SetItemHeight","controls.TreeView_SetItemHeight","controls._win32_TreeView_SetItemHeight"]
 old-location: controls\TreeView_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemheight.htm

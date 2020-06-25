@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSplatInfinity
 title: XMVectorSplatInfinity function (directxmath.h)
-description: Returns a vector, each of whose components are infinity (0x7F800000).helpviewer_keywords: ["Use DirectX..XMVectorSplatInfinity","XMVectorSplatInfinity","XMVectorSplatInfinity method [DirectX Math Support APIs]","dxmath.xmvectorsplatinfinity"]
+description: Returns a vector, each of whose components are infinity (0x7F800000).
+helpviewer_keywords: ["Use DirectX..XMVectorSplatInfinity","XMVectorSplatInfinity","XMVectorSplatInfinity method [DirectX Math Support APIs]","dxmath.xmvectorsplatinfinity"]
 old-location: dxmath\xmvectorsplatinfinity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatInfinity

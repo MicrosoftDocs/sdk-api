@@ -75,8 +75,6 @@ Bitwise OR of one or more flags from the <a href="/windows/desktop/api/strmif/ne
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
-
-
 ## -returns
 
 
@@ -179,8 +177,6 @@ The following table shows the Annex J command name to which this method name cor
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
@@ -194,7 +190,3 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
- 
-
- 
-

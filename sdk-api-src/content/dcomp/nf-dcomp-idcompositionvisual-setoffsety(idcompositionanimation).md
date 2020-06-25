@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetY(IDCompositionAnimation)
 title: IDCompositionVisual::SetOffsetY(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the OffsetY property of this visual.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetOffsetY method","IDCompositionVisual.SetOffsetY","IDCompositionVisual.SetOffsetY(IDCompositionAnimation)","IDCompositionVisual::SetOffsetY","IDCompositionVisual::SetOffsetY(IDCompositionAnimation)","IDCompositionVisual::SetOffsetY(IDCompositionAnimation*)","SetOffsetY","SetOffsetY method [DirectComposition]","SetOffsetY method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetOffsetY","directcomp.idcompositionvisual_setoffsety_idcompositionanimation"]
+description: Animates the value of the OffsetY property of this visual.
+helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetOffsetY method","IDCompositionVisual.SetOffsetY","IDCompositionVisual.SetOffsetY(IDCompositionAnimation)","IDCompositionVisual::SetOffsetY","IDCompositionVisual::SetOffsetY(IDCompositionAnimation)","IDCompositionVisual::SetOffsetY(IDCompositionAnimation*)","SetOffsetY","SetOffsetY method [DirectComposition]","SetOffsetY method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetOffsetY","directcomp.idcompositionvisual_setoffsety_idcompositionanimation"]
 old-location: directcomp\idcompositionvisual_setoffsety_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 48B42D13-B41A-484E-B65E-BB4D56A963DA

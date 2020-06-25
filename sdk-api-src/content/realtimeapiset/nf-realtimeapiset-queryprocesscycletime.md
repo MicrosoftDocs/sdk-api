@@ -1,7 +1,8 @@
 ---
 UID: NF:realtimeapiset.QueryProcessCycleTime
 title: QueryProcessCycleTime function (realtimeapiset.h)
-description: Retrieves the sum of the cycle time of all threads of the specified process.helpviewer_keywords: ["QueryProcessCycleTime","QueryProcessCycleTime function","base.queryprocesscycletime","realtimeapiset/QueryProcessCycleTime","winbase/QueryProcessCycleTime"]
+description: Retrieves the sum of the cycle time of all threads of the specified process.
+helpviewer_keywords: ["QueryProcessCycleTime","QueryProcessCycleTime function","base.queryprocesscycletime","realtimeapiset/QueryProcessCycleTime","winbase/QueryProcessCycleTime"]
 old-location: base\queryprocesscycletime.htm
 tech.root: ProcThread
 ms.assetid: 1859bc0f-8065-4104-b421-1b4c020ad5ea

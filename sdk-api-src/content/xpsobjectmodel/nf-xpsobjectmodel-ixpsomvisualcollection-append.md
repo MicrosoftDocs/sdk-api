@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.Append
 title: IXpsOMVisualCollection::Append (xpsobjectmodel.h)
-description: Appends an IXpsOMVisual interface to the end of the collection.helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMVisualCollection interface","IXpsOMVisualCollection interface [XPS Documents and Packaging]","Append method","IXpsOMVisualCollection.Append","IXpsOMVisualCollection::Append","xps.ixpsomvisualcollection_append","xpsobjectmodel/IXpsOMVisualCollection::Append"]
+description: Appends an IXpsOMVisual interface to the end of the collection.
+helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMVisualCollection interface","IXpsOMVisualCollection interface [XPS Documents and Packaging]","Append method","IXpsOMVisualCollection.Append","IXpsOMVisualCollection::Append","xps.ixpsomvisualcollection_append","xpsobjectmodel/IXpsOMVisualCollection::Append"]
 old-location: xps\ixpsomvisualcollection_append.htm
 tech.root: printdocs
 ms.assetid: e0e5134b-9f8a-45ff-9892-fd010d7df787

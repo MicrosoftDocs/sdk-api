@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMClientPropertiesEx
 title: WM_CLIENT_PROPERTIES_EX (wmsdkidl.h)
-description: The WM_CLIENT_PROPERTIES_EX structure holds extended client information.helpviewer_keywords: ["WM_CLIENT_PROPERTIES_EX","WM_CLIENT_PROPERTIES_EX structure [windows Media Format]","wmformat.wm_client_properties_ex","wmsdkidl/WM_CLIENT_PROPERTIES_EX"]
+description: The WM_CLIENT_PROPERTIES_EX structure holds extended client information.
+helpviewer_keywords: ["WM_CLIENT_PROPERTIES_EX","WM_CLIENT_PROPERTIES_EX structure [windows Media Format]","wmformat.wm_client_properties_ex","wmsdkidl/WM_CLIENT_PROPERTIES_EX"]
 old-location: wmformat\wm_client_properties_ex.htm
 tech.root: wmformat
 ms.assetid: 981a466d-576b-4774-bd7b-785b0ef80e72

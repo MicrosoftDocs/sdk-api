@@ -42,7 +42,11 @@ targetos: Windows
 req.typenames: 
 ---
 
+# InitializeObjectAttributes macro
+
+
 ## -description
+
 
 The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure, which specifies the properties of an object handle to routines that open handles.
 
@@ -58,15 +62,21 @@ VOID InitializeObjectAttributes(
 );
 ```
 
+
 ## -parameters
+
+
+
 
 ### -param p
 
-A pointer to the [OBJECT_ATTRIBUTES](windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure to initialize.
+A pointer to the [OBJECT_ATTRIBUTES](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure to initialize.
+
 
 ### -param n
 
 A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
+
 
 ### -param a
 
@@ -81,6 +91,7 @@ Specifies one or more of the following flags:
 |OBJ_OPENIF|If this flag is specified to a routine that creates objects, and that object already exists then the routine should open that object. Otherwise, the routine creating the object returns an NTSTATUS code of STATUS_OBJECT_NAME_COLLISION.|
 |OBJ_KERNEL_HANDLE|Specifies that the handle can only be accessed in kernel mode.|
 |OBJ_FORCE_ACCESS_CHECK | The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.|
+
 
 ### -param r
 

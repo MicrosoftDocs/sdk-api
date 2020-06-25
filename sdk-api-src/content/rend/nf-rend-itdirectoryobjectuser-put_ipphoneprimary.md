@@ -1,7 +1,8 @@
 ---
 UID: NF:rend.ITDirectoryObjectUser.put_IPPhonePrimary
 title: ITDirectoryObjectUser::put_IPPhonePrimary (rend.h)
-description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.helpviewer_keywords: ["ITDirectoryObjectUser interface [TAPI 2.2]","put_IPPhonePrimary method","ITDirectoryObjectUser.put_IPPhonePrimary","ITDirectoryObjectUser::put_IPPhonePrimary","_tapi3_itdirectoryobjectuser_put_ipphoneprimary","put_IPPhonePrimary","put_IPPhonePrimary method [TAPI 2.2]","put_IPPhonePrimary method [TAPI 2.2]","ITDirectoryObjectUser interface","rend/ITDirectoryObjectUser::put_IPPhonePrimary","tapi3.itdirectoryobjectuser_put_ipphoneprimary"]
+description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
+helpviewer_keywords: ["ITDirectoryObjectUser interface [TAPI 2.2]","put_IPPhonePrimary method","ITDirectoryObjectUser.put_IPPhonePrimary","ITDirectoryObjectUser::put_IPPhonePrimary","_tapi3_itdirectoryobjectuser_put_ipphoneprimary","put_IPPhonePrimary","put_IPPhonePrimary method [TAPI 2.2]","put_IPPhonePrimary method [TAPI 2.2]","ITDirectoryObjectUser interface","rend/ITDirectoryObjectUser::put_IPPhonePrimary","tapi3.itdirectoryobjectuser_put_ipphoneprimary"]
 old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
 tech.root: Tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be

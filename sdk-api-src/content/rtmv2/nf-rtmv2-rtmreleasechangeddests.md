@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmReleaseChangedDests
 title: RtmReleaseChangedDests function (rtmv2.h)
-description: The RtmReleaseChangedDests function releases the changed destination handles.helpviewer_keywords: ["RtmReleaseChangedDests","RtmReleaseChangedDests function [RAS]","_rtmv2ref_rtmreleasechangeddests","rras.rtmreleasechangeddests","rtmv2/RtmReleaseChangedDests"]
+description: The RtmReleaseChangedDests function releases the changed destination handles.
+helpviewer_keywords: ["RtmReleaseChangedDests","RtmReleaseChangedDests function [RAS]","_rtmv2ref_rtmreleasechangeddests","rras.rtmreleasechangeddests","rtmv2/RtmReleaseChangedDests"]
 old-location: rras\rtmreleasechangeddests.htm
 tech.root: RRAS
 ms.assetid: 542cb23f-81c2-4b29-b049-ebb5827b1d62

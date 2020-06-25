@@ -1,7 +1,8 @@
 ---
 UID: NS:tpcshrd.tagSTROKE_RANGE
 title: STROKE_RANGE (tpcshrd.h)
-description: Specifies a range of strokes in the InkDisp object.helpviewer_keywords: ["STROKE_RANGE","STROKE_RANGE structure [Tablet PC]","cae64877-2ea4-45a1-b5c2-0764c7ebeaf7","tablet.stroke_range","tpcshrd/STROKE_RANGE"]
+description: Specifies a range of strokes in the InkDisp object.
+helpviewer_keywords: ["STROKE_RANGE","STROKE_RANGE structure [Tablet PC]","cae64877-2ea4-45a1-b5c2-0764c7ebeaf7","tablet.stroke_range","tpcshrd/STROKE_RANGE"]
 old-location: tablet\stroke_range.htm
 tech.root: tablet
 ms.assetid: cae64877-2ea4-45a1-b5c2-0764c7ebeaf7

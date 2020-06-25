@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetTouchInputInfo
 title: GetTouchInputInfo function (winuser.h)
-description: Retrieves detailed information about touch inputs associated with a particular touch input handle.helpviewer_keywords: ["GetTouchInputInfo","GetTouchInputInfo function [Windows Touch]","wintouch.gettouchinputinfo","winuser/GetTouchInputInfo"]
+description: Retrieves detailed information about touch inputs associated with a particular touch input handle.
+helpviewer_keywords: ["GetTouchInputInfo","GetTouchInputInfo function [Windows Touch]","wintouch.gettouchinputinfo","winuser/GetTouchInputInfo"]
 old-location: wintouch\gettouchinputinfo.htm
 tech.root: wintouch
 ms.assetid: 18caab11-9c22-46ac-b89f-dd3e662bea1e

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.GetFiltergraph
 title: ICaptureGraphBuilder::GetFiltergraph (strmif.h)
-description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Retrieves the filter graph that the builder is using.helpviewer_keywords: ["GetFiltergraph","GetFiltergraph method [DirectShow]","GetFiltergraph method [DirectShow]","ICaptureGraphBuilder interface","ICaptureGraphBuilder interface [DirectShow]","GetFiltergraph method","ICaptureGraphBuilder.GetFiltergraph","ICaptureGraphBuilder::GetFiltergraph","ICaptureGraphBuilderGetFiltergraph","dshow.icapturegraphbuilder_getfiltergraph","strmif/ICaptureGraphBuilder::GetFiltergraph"]
+description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Retrieves the filter graph that the builder is using.
+helpviewer_keywords: ["GetFiltergraph","GetFiltergraph method [DirectShow]","GetFiltergraph method [DirectShow]","ICaptureGraphBuilder interface","ICaptureGraphBuilder interface [DirectShow]","GetFiltergraph method","ICaptureGraphBuilder.GetFiltergraph","ICaptureGraphBuilder::GetFiltergraph","ICaptureGraphBuilderGetFiltergraph","dshow.icapturegraphbuilder_getfiltergraph","strmif/ICaptureGraphBuilder::GetFiltergraph"]
 old-location: dshow\icapturegraphbuilder_getfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 9cb43dca-79f1-4467-8e17-6f2a0b4db785

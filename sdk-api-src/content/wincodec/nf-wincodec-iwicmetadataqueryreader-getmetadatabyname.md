@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetMetadataByName
 title: IWICMetadataQueryReader::GetMetadataByName (wincodec.h)
-description: Retrieves the metadata block or item identified by a metadata query expression.helpviewer_keywords: ["GetMetadataByName","GetMetadataByName method [Windows Imaging Component]","GetMetadataByName method [Windows Imaging Component]","IWICMetadataQueryReader interface","IWICMetadataQueryReader interface [Windows Imaging Component]","GetMetadataByName method","IWICMetadataQueryReader.GetMetadataByName","IWICMetadataQueryReader::GetMetadataByName","_wic_codec_iwicmetadataqueryreader_getmetadatabyname","wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname","wincodec/IWICMetadataQueryReader::GetMetadataByName"]
+description: Retrieves the metadata block or item identified by a metadata query expression.
+helpviewer_keywords: ["GetMetadataByName","GetMetadataByName method [Windows Imaging Component]","GetMetadataByName method [Windows Imaging Component]","IWICMetadataQueryReader interface","IWICMetadataQueryReader interface [Windows Imaging Component]","GetMetadataByName method","IWICMetadataQueryReader.GetMetadataByName","IWICMetadataQueryReader::GetMetadataByName","_wic_codec_iwicmetadataqueryreader_getmetadatabyname","wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname","wincodec/IWICMetadataQueryReader::GetMetadataByName"]
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getmetadatabyname.htm
 tech.root: wic
 ms.assetid: 29d53a14-0509-4a96-9b8b-59952770559a

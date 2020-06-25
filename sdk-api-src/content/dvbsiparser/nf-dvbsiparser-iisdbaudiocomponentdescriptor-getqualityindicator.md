@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetQualityIndicator
 title: IIsdbAudioComponentDescriptor::GetQualityIndicator (dvbsiparser.h)
-description: Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.helpviewer_keywords: ["GetQualityIndicator","GetQualityIndicator method [Microsoft TV Technologies]","GetQualityIndicator method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetQualityIndicator method","IIsdbAudioComponentDescriptor.GetQualityIndicator","IIsdbAudioComponentDescriptor::GetQualityIndicator","dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator","mstv.iisdbaudiocomponentdescriptor_getqualityindicator"]
+description: Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.
+helpviewer_keywords: ["GetQualityIndicator","GetQualityIndicator method [Microsoft TV Technologies]","GetQualityIndicator method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetQualityIndicator method","IIsdbAudioComponentDescriptor.GetQualityIndicator","IIsdbAudioComponentDescriptor::GetQualityIndicator","dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator","mstv.iisdbaudiocomponentdescriptor_getqualityindicator"]
 old-location: mstv\iisdbaudiocomponentdescriptor_getqualityindicator.htm
 tech.root: mstv
 ms.assetid: 39d85ecd-6ccd-48e8-9498-41aad45a7357

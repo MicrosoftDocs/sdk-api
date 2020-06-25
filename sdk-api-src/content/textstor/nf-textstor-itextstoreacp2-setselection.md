@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP2.SetSelection
 title: ITextStoreACP2::SetSelection (textstor.h)
-description: Selects text within the document. The application must have a read/write lock on the document before calling this method.helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","SetSelection method","ITextStoreACP2.SetSelection","ITextStoreACP2::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITextStoreACP2 interface","textstor/ITextStoreACP2::SetSelection","tsf.itextstoreacp2_setselection"]
+description: Selects text within the document. The application must have a read/write lock on the document before calling this method.
+helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","SetSelection method","ITextStoreACP2.SetSelection","ITextStoreACP2::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITextStoreACP2 interface","textstor/ITextStoreACP2::SetSelection","tsf.itextstoreacp2_setselection"]
 old-location: tsf\itextstoreacp2_setselection.htm
 tech.root: TSF
 ms.assetid: 0ed72ddd-523e-476a-ba4c-bbfef9483015

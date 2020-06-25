@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.__unnamed_struct_1
 title: POWERBROADCAST_SETTING (winuser.h)
-description: Sent with a power setting event and contains data about the specific change.helpviewer_keywords: ["*PPOWERBROADCAST_SETTING","POWERBROADCAST_SETTING","POWERBROADCAST_SETTING structure","PPOWERBROADCAST_SETTING","PPOWERBROADCAST_SETTING structure pointer","base.powerbroadcast_setting","winuser/POWERBROADCAST_SETTING","winuser/PPOWERBROADCAST_SETTING"]
+description: Sent with a power setting event and contains data about the specific change.
+helpviewer_keywords: ["*PPOWERBROADCAST_SETTING","POWERBROADCAST_SETTING","POWERBROADCAST_SETTING structure","PPOWERBROADCAST_SETTING","PPOWERBROADCAST_SETTING structure pointer","base.powerbroadcast_setting","winuser/POWERBROADCAST_SETTING","winuser/PPOWERBROADCAST_SETTING"]
 old-location: base\powerbroadcast_setting.htm
 tech.root: power
 ms.assetid: 13fa8220-bad2-4bb6-b652-38fc11a31215

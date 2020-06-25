@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.PowerWriteIconResourceSpecifier
 title: PowerWriteIconResourceSpecifier function (powrprof.h)
-description: Sets the icon resource for the specified power setting, subgroup, or scheme.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteIconResourceSpecifier","PowerWriteIconResourceSpecifier function","base.powerwriteiconresourcespecifier","powrprof/PowerWriteIconResourceSpecifier"]
+description: Sets the icon resource for the specified power setting, subgroup, or scheme.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteIconResourceSpecifier","PowerWriteIconResourceSpecifier function","base.powerwriteiconresourcespecifier","powrprof/PowerWriteIconResourceSpecifier"]
 old-location: base\powerwriteiconresourcespecifier.htm
 tech.root: power
 ms.assetid: 968b068a-f62a-4148-b96c-48f47218f368

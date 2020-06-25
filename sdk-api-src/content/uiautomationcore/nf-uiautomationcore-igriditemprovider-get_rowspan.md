@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_RowSpan
 title: IGridItemProvider::get_RowSpan (uiautomationcore.h)
-description: Specifies the number of rows spanned by this cell or item.helpviewer_keywords: ["IGridItemProvider interface [Windows Accessibility]","RowSpan property","IGridItemProvider.RowSpan","IGridItemProvider.get_RowSpan","IGridItemProvider::RowSpan","IGridItemProvider::get_RowSpan","RowSpan property [Windows Accessibility]","RowSpan property [Windows Accessibility]","IGridItemProvider interface","get_RowSpan","uiauto.uiauto_IGridItemProvider_RowSpan","uiauto_IGridItemProvider_RowSpan","uiautomationcore/IGridItemProvider::RowSpan","uiautomationcore/IGridItemProvider::get_RowSpan","winauto.uiauto_IGridItemProvider_RowSpan"]
+description: Specifies the number of rows spanned by this cell or item.
+helpviewer_keywords: ["IGridItemProvider interface [Windows Accessibility]","RowSpan property","IGridItemProvider.RowSpan","IGridItemProvider.get_RowSpan","IGridItemProvider::RowSpan","IGridItemProvider::get_RowSpan","RowSpan property [Windows Accessibility]","RowSpan property [Windows Accessibility]","IGridItemProvider interface","get_RowSpan","uiauto.uiauto_IGridItemProvider_RowSpan","uiauto_IGridItemProvider_RowSpan","uiautomationcore/IGridItemProvider::RowSpan","uiautomationcore/IGridItemProvider::get_RowSpan","winauto.uiauto_IGridItemProvider_RowSpan"]
 old-location: winauto\uiauto_IGridItemProvider_RowSpan.htm
 tech.root: WinAuto
 ms.assetid: 87636dd8-b62e-4ebf-8921-e5a91c8547e6

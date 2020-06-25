@@ -1,7 +1,8 @@
 ---
 UID: NN:wbemprov.IWbemProviderInit
 title: IWbemProviderInit (wbemprov.h)
-description: The IWbemProviderInit interface is called by Windows Management to initialize providers. All providers are required to implement IWbemProviderInit.helpviewer_keywords: ["IWbemProviderInit","IWbemProviderInit interface [Windows Management Instrumentation]","IWbemProviderInit interface [Windows Management Instrumentation]","described","_hmm_iwbemproviderinit","wbemprov/IWbemProviderInit","wmi.iwbemproviderinit"]
+description: The IWbemProviderInit interface is called by Windows Management to initialize providers. All providers are required to implement IWbemProviderInit.
+helpviewer_keywords: ["IWbemProviderInit","IWbemProviderInit interface [Windows Management Instrumentation]","IWbemProviderInit interface [Windows Management Instrumentation]","described","_hmm_iwbemproviderinit","wbemprov/IWbemProviderInit","wmi.iwbemproviderinit"]
 old-location: wmi\iwbemproviderinit.htm
 tech.root: WmiSdk
 ms.assetid: 92edf347-c694-4023-b83f-09531072c631

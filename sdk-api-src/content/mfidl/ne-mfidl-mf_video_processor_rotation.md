@@ -1,7 +1,8 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_ROTATION
 title: MF_VIDEO_PROCESSOR_ROTATION (mfidl.h)
-description: Specifies how to rotate a video image.helpviewer_keywords: ["MF_VIDEO_PROCESSOR_ROTATION","MF_VIDEO_PROCESSOR_ROTATION enumeration [Media Foundation]","ROTATION_NONE","ROTATION_NORMAL","mf.mf_video_processor_rotation","mfidl/MF_VIDEO_PROCESSOR_ROTATION","mfidl/ROTATION_NONE","mfidl/ROTATION_NORMAL"]
+description: Specifies how to rotate a video image.
+helpviewer_keywords: ["MF_VIDEO_PROCESSOR_ROTATION","MF_VIDEO_PROCESSOR_ROTATION enumeration [Media Foundation]","ROTATION_NONE","ROTATION_NORMAL","mf.mf_video_processor_rotation","mfidl/MF_VIDEO_PROCESSOR_ROTATION","mfidl/ROTATION_NONE","mfidl/ROTATION_NORMAL"]
 old-location: mf\mf_video_processor_rotation.htm
 tech.root: medfound
 ms.assetid: B5B75A2A-6620-4E5B-8074-3A9E2FFB40F8

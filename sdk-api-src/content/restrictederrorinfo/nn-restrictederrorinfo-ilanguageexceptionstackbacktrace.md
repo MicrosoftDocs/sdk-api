@@ -1,7 +1,8 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionStackBackTrace
 title: ILanguageExceptionStackBackTrace (restrictederrorinfo.h)
-description: Allows projections to provide custom stack trace for that exception.helpviewer_keywords: ["ILanguageExceptionStackBackTrace","ILanguageExceptionStackBackTrace interface [Windows Runtime]","ILanguageExceptionStackBackTrace interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionStackBackTrace","winrt.ilanguageexceptionstackbacktrace"]
+description: Allows projections to provide custom stack trace for that exception.
+helpviewer_keywords: ["ILanguageExceptionStackBackTrace","ILanguageExceptionStackBackTrace interface [Windows Runtime]","ILanguageExceptionStackBackTrace interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionStackBackTrace","winrt.ilanguageexceptionstackbacktrace"]
 old-location: winrt\ilanguageexceptionstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9

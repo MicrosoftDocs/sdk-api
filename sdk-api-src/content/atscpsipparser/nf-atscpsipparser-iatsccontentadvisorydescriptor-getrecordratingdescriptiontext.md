@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordRatingDescriptionText","GetRecordRatingDescriptionText method [Microsoft TV Technologies]","GetRecordRatingDescriptionText method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingDescriptionText method","IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText","IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText","IAtscContentAdvisoryDescriptorGetRecordRatingDescriptionText","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText","mstv.iatsccontentadvisorydescriptor_getrecordratingdescriptiontext"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordRatingDescriptionText","GetRecordRatingDescriptionText method [Microsoft TV Technologies]","GetRecordRatingDescriptionText method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingDescriptionText method","IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText","IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText","IAtscContentAdvisoryDescriptorGetRecordRatingDescriptionText","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText","mstv.iatsccontentadvisorydescriptor_getrecordratingdescriptiontext"]
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingdescriptiontext.htm
 tech.root: mstv
 ms.assetid: 8a94a7ee-1909-4853-a72b-1174ee3c7803

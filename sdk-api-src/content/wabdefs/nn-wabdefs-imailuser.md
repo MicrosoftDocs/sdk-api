@@ -1,7 +1,8 @@
 ---
 UID: NN:wabdefs.IMailUser
 title: IMailUser (wabdefs.h)
-description: Do not use. This interface provides access to a mail user object.helpviewer_keywords: ["IMailUser","IMailUser interface [Windows Address Book]","IMailUser interface [Windows Address Book]","described","_wab_IMailUser","wab._wab_IMailUser","wabdefs/IMailUser"]
+description: Do not use. This interface provides access to a mail user object.
+helpviewer_keywords: ["IMailUser","IMailUser interface [Windows Address Book]","IMailUser interface [Windows Address Book]","described","_wab_IMailUser","wab._wab_IMailUser","wabdefs/IMailUser"]
 old-location: wab\_wab_IMailUser.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imailuser\imailuser.htm

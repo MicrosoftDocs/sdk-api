@@ -1,7 +1,8 @@
 ---
 UID: NF:propidl.PropVariantInit
 title: PropVariantInit macro (propidl.h)
-description: The PropVariantInit function initializes a PROPVARIANT structure.Note  This function is implemented as a macro, available by including the provided ole2.h header file.helpviewer_keywords: ["PropVariantInit","PropVariantInit function [Structured Storage]","_stg_propvariantinit","propidl/PropVariantInit","stg.propvariantinit"]
+description: The PropVariantInit function initializes a PROPVARIANT structure.Note  This function is implemented as a macro, available by including the provided ole2.h header file.
+helpviewer_keywords: ["PropVariantInit","PropVariantInit function [Structured Storage]","_stg_propvariantinit","propidl/PropVariantInit","stg.propvariantinit"]
 old-location: stg\propvariantinit.htm
 tech.root: Stg
 ms.assetid: 8c1bf6ac-2b15-4a05-8cb9-a07d1437017c

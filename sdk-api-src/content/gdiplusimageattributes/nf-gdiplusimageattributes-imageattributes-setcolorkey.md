@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetColorKey
 title: ImageAttributes::SetColorKey (gdiplusimageattributes.h)
-description: The ImageAttributes::SetColorKey method sets the color key (transparency range) for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetColorKey method","ImageAttributes.SetColorKey","ImageAttributes::SetColorKey","SetColorKey","SetColorKey method [GDI+]","SetColorKey method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_"]
+description: The ImageAttributes::SetColorKey method sets the color key (transparency range) for a specified category.
+helpviewer_keywords: ["ImageAttributes class [GDI+]","SetColorKey method","ImageAttributes.SetColorKey","ImageAttributes::SetColorKey","SetColorKey","SetColorKey method [GDI+]","SetColorKey method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetColorKey_colorLow_colorHigh_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setcolorkey.htm

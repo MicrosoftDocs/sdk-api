@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetItemType
 title: IWiaItem::GetItemType (wia_xp.h)
-description: The IWiaItem::GetItemType method is called by applications to obtain the type information of an item.helpviewer_keywords: ["GetItemType","GetItemType method [WIA]","GetItemType method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","GetItemType method","IWiaItem.GetItemType","IWiaItem::GetItemType","_wia_IWiaItem_GetItemType","wia._wia_IWiaItem_GetItemType","wia_xp/IWiaItem::GetItemType"]
+description: The IWiaItem::GetItemType method is called by applications to obtain the type information of an item.
+helpviewer_keywords: ["GetItemType","GetItemType method [WIA]","GetItemType method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","GetItemType method","IWiaItem.GetItemType","IWiaItem::GetItemType","_wia_IWiaItem_GetItemType","wia._wia_IWiaItem_GetItemType","wia_xp/IWiaItem::GetItemType"]
 old-location: wia\_wia_IWiaItem_GetItemType.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getitemtype.htm

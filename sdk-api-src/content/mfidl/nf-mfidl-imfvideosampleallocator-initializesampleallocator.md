@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.InitializeSampleAllocator
 title: IMFVideoSampleAllocator::InitializeSampleAllocator (mfidl.h)
-description: Specifies the number of samples to allocate and the media type for the samples.helpviewer_keywords: ["IMFVideoSampleAllocator interface [Media Foundation]","InitializeSampleAllocator method","IMFVideoSampleAllocator.InitializeSampleAllocator","IMFVideoSampleAllocator::InitializeSampleAllocator","InitializeSampleAllocator","InitializeSampleAllocator method [Media Foundation]","InitializeSampleAllocator method [Media Foundation]","IMFVideoSampleAllocator interface","b1e4557e-990c-4239-b9ec-5c7c46072e54","mf.imfvideosampleallocator_initializesampleallocator","mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator"]
+description: Specifies the number of samples to allocate and the media type for the samples.
+helpviewer_keywords: ["IMFVideoSampleAllocator interface [Media Foundation]","InitializeSampleAllocator method","IMFVideoSampleAllocator.InitializeSampleAllocator","IMFVideoSampleAllocator::InitializeSampleAllocator","InitializeSampleAllocator","InitializeSampleAllocator method [Media Foundation]","InitializeSampleAllocator method [Media Foundation]","IMFVideoSampleAllocator interface","b1e4557e-990c-4239-b9ec-5c7c46072e54","mf.imfvideosampleallocator_initializesampleallocator","mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator"]
 old-location: mf\imfvideosampleallocator_initializesampleallocator.htm
 tech.root: medfound
 ms.assetid: b1e4557e-990c-4239-b9ec-5c7c46072e54

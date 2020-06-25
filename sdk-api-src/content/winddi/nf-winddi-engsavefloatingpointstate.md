@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngSaveFloatingPointState
 title: EngSaveFloatingPointState function (winddi.h)
-description: The EngSaveFloatingPointState function saves the current Windows 2000 (and later) kernel floating-point state.helpviewer_keywords: ["EngSaveFloatingPointState","EngSaveFloatingPointState function [Display Devices]","display.engsavefloatingpointstate","gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml","winddi/EngSaveFloatingPointState"]
+description: The EngSaveFloatingPointState function saves the current Windows 2000 (and later) kernel floating-point state.
+helpviewer_keywords: ["EngSaveFloatingPointState","EngSaveFloatingPointState function [Display Devices]","display.engsavefloatingpointstate","gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml","winddi/EngSaveFloatingPointState"]
 old-location: display\engsavefloatingpointstate.htm
 tech.root: display
 ms.assetid: 25e9ae3b-a3a5-438c-84e0-53f2be7ba29c

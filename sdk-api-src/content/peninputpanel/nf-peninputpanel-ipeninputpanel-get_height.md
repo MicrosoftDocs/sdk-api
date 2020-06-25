@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Height
 title: IPenInputPanel::get_Height (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the height of the pen input panel in client coordinates.helpviewer_keywords: ["5815f184-1ae4-4617-9aa6-acf727aff202","Height property [Tablet PC]","Height property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","Height property","IPenInputPanel.Height","IPenInputPanel.get_Height","IPenInputPanel::Height","IPenInputPanel::get_Height","PenInputPanel.get_Height","get_Height","peninputpanel/IPenInputPanel::Height","peninputpanel/IPenInputPanel::get_Height","tablet.peninputpanel_height"]
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the height of the pen input panel in client coordinates.
+helpviewer_keywords: ["5815f184-1ae4-4617-9aa6-acf727aff202","Height property [Tablet PC]","Height property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","Height property","IPenInputPanel.Height","IPenInputPanel.get_Height","IPenInputPanel::Height","IPenInputPanel::get_Height","PenInputPanel.get_Height","get_Height","peninputpanel/IPenInputPanel::Height","peninputpanel/IPenInputPanel::get_Height","tablet.peninputpanel_height"]
 old-location: tablet\peninputpanel_height.htm
 tech.root: tablet
 ms.assetid: 5815f184-1ae4-4617-9aa6-acf727aff202

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.Brush.GetType
 title: Brush::GetType (gdiplusbrush.h)
-description: The Brush::GetType method gets the type of this brush.helpviewer_keywords: ["Brush class [GDI+]","GetType method","Brush.GetType","Brush::GetType","GetType","GetType method [GDI+]","GetType method [GDI+]","Brush class","_gdiplus_CLASS_Brush_GetType_","gdiplus._gdiplus_CLASS_Brush_GetType_"]
+description: The Brush::GetType method gets the type of this brush.
+helpviewer_keywords: ["Brush class [GDI+]","GetType method","Brush.GetType","Brush::GetType","GetType","GetType method [GDI+]","GetType method [GDI+]","Brush class","_gdiplus_CLASS_Brush_GetType_","gdiplus._gdiplus_CLASS_Brush_GetType_"]
 old-location: gdiplus\_gdiplus_CLASS_Brush_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\gettype.htm

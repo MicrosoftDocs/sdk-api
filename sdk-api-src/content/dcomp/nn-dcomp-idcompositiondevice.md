@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionDevice
 title: IDCompositionDevice (dcomp.h)
-description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.helpviewer_keywords: ["IDCompositionDevice","IDCompositionDevice interface [DirectComposition]","IDCompositionDevice interface [DirectComposition]","described","dcomp/IDCompositionDevice","directcomp.idcompositiondevice"]
+description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
+helpviewer_keywords: ["IDCompositionDevice","IDCompositionDevice interface [DirectComposition]","IDCompositionDevice interface [DirectComposition]","described","dcomp/IDCompositionDevice","directcomp.idcompositiondevice"]
 old-location: directcomp\idcompositiondevice.htm
 tech.root: directcomp
 ms.assetid: 081a14ed-c152-4e0a-b85b-1111d825ce53

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetStart
 title: IMFMediaTimeRange::GetStart (mfmediaengine.h)
-description: Gets the start time for a specified time range.helpviewer_keywords: ["GetStart","GetStart method [Media Foundation]","GetStart method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","GetStart method","IMFMediaTimeRange.GetStart","IMFMediaTimeRange::GetStart","mf.imfmediatimerange_getstart","mfmediaengine/IMFMediaTimeRange::GetStart"]
+description: Gets the start time for a specified time range.
+helpviewer_keywords: ["GetStart","GetStart method [Media Foundation]","GetStart method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","GetStart method","IMFMediaTimeRange.GetStart","IMFMediaTimeRange::GetStart","mf.imfmediatimerange_getstart","mfmediaengine/IMFMediaTimeRange::GetStart"]
 old-location: mf\imfmediatimerange_getstart.htm
 tech.root: medfound
 ms.assetid: E02CFE99-78B8-4923-8922-467A55442802

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincred.CredIsProtectedA
 title: CredIsProtectedA function (wincred.h)
-description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.helpviewer_keywords: ["CredIsProtected","CredIsProtected function [Security]","CredIsProtectedA","CredIsProtectedW","security.credisprotected","wincred/CredIsProtected","wincred/CredIsProtectedA","wincred/CredIsProtectedW"]
+description: Specifies whether the specified credentials are encrypted by a previous call to the CredProtect function.
+helpviewer_keywords: ["CredIsProtected","CredIsProtected function [Security]","CredIsProtectedA","CredIsProtectedW","security.credisprotected","wincred/CredIsProtected","wincred/CredIsProtectedA","wincred/CredIsProtectedW"]
 old-location: security\credisprotected.htm
 tech.root: SecAuthN
 ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
@@ -82,4 +83,9 @@ For extended error information, call the
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CredIsProtected as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

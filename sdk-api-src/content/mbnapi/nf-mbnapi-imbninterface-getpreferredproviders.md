@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetPreferredProviders
 title: IMbnInterface::GetPreferredProviders (mbnapi.h)
-description: Gets the list of preferred providers.helpviewer_keywords: ["GetPreferredProviders","GetPreferredProviders method [Microsoft Broadband Networks]","GetPreferredProviders method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetPreferredProviders method","IMbnInterface.GetPreferredProviders","IMbnInterface::GetPreferredProviders","mbn.imbninterface_getpreferredproviders","mbnapi/IMbnInterface::GetPreferredProviders"]
+description: Gets the list of preferred providers.
+helpviewer_keywords: ["GetPreferredProviders","GetPreferredProviders method [Microsoft Broadband Networks]","GetPreferredProviders method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetPreferredProviders method","IMbnInterface.GetPreferredProviders","IMbnInterface::GetPreferredProviders","mbn.imbninterface_getpreferredproviders","mbnapi/IMbnInterface::GetPreferredProviders"]
 old-location: mbn\imbninterface_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: cbd37f0a-4245-415d-bd74-501aa4c7ade7

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager2.GetSystemProfileVersion
 title: IWMProfileManager2::GetSystemProfileVersion (wmsdkidl.h)
-description: The GetSystemProfileVersion method retrieves the version number of the system profiles that the profile manager enumerates.helpviewer_keywords: ["GetSystemProfileVersion","GetSystemProfileVersion method [windows Media Format]","GetSystemProfileVersion method [windows Media Format]","IWMProfileManager2 interface","IWMProfileManager2 interface [windows Media Format]","GetSystemProfileVersion method","IWMProfileManager2.GetSystemProfileVersion","IWMProfileManager2::GetSystemProfileVersion","IWMProfileManager2GetSystemProfileVersion","wmformat.iwmprofilemanager2_getsystemprofileversion","wmsdkidl/IWMProfileManager2::GetSystemProfileVersion"]
+description: The GetSystemProfileVersion method retrieves the version number of the system profiles that the profile manager enumerates.
+helpviewer_keywords: ["GetSystemProfileVersion","GetSystemProfileVersion method [windows Media Format]","GetSystemProfileVersion method [windows Media Format]","IWMProfileManager2 interface","IWMProfileManager2 interface [windows Media Format]","GetSystemProfileVersion method","IWMProfileManager2.GetSystemProfileVersion","IWMProfileManager2::GetSystemProfileVersion","IWMProfileManager2GetSystemProfileVersion","wmformat.iwmprofilemanager2_getsystemprofileversion","wmsdkidl/IWMProfileManager2::GetSystemProfileVersion"]
 old-location: wmformat\iwmprofilemanager2_getsystemprofileversion.htm
 tech.root: wmformat
 ms.assetid: 155b847b-81c0-4065-ae00-ca0b64cdd537

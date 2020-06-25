@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmStreamReset
 title: acmStreamReset function (msacm.h)
-description: The acmStreamReset function stops conversions for a given ACM stream. All pending buffers are marked as done and returned to the application.helpviewer_keywords: ["_win32_acmStreamReset","acmStreamReset","acmStreamReset function [Windows Multimedia]","msacm/acmStreamReset","multimedia.acmstreamreset"]
+description: The acmStreamReset function stops conversions for a given ACM stream. All pending buffers are marked as done and returned to the application.
+helpviewer_keywords: ["_win32_acmStreamReset","acmStreamReset","acmStreamReset function [Windows Multimedia]","msacm/acmStreamReset","multimedia.acmstreamreset"]
 old-location: multimedia\acmstreamreset.htm
 tech.root: Multimedia
 ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64

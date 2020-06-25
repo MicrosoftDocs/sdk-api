@@ -1,7 +1,8 @@
 ---
 UID: NF:micaut.IMathInputControl.EnableExtendedButtons
 title: IMathInputControl::EnableExtendedButtons (micaut.h)
-description: Determines whether the extended set of control buttons is shown.helpviewer_keywords: ["EnableExtendedButtons","EnableExtendedButtons method [Tablet PC]","EnableExtendedButtons method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","EnableExtendedButtons method","IMathInputControl.EnableExtendedButtons","IMathInputControl::EnableExtendedButtons","micaut/IMathInputControl::EnableExtendedButtons","tablet.imathinputcontrol_enableextendedbuttons"]
+description: Determines whether the extended set of control buttons is shown.
+helpviewer_keywords: ["EnableExtendedButtons","EnableExtendedButtons method [Tablet PC]","EnableExtendedButtons method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","EnableExtendedButtons method","IMathInputControl.EnableExtendedButtons","IMathInputControl::EnableExtendedButtons","micaut/IMathInputControl::EnableExtendedButtons","tablet.imathinputcontrol_enableextendedbuttons"]
 old-location: tablet\imathinputcontrol_enableextendedbuttons.htm
 tech.root: tablet
 ms.assetid: e8cdae54-ff0b-4361-bd38-1b99137736ab

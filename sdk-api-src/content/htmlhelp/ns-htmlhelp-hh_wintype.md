@@ -1,7 +1,8 @@
 ---
 UID: NS:htmlhelp.tagHH_WINTYPE
 title: HH_WINTYPE (htmlhelp.h)
-description: Use this structure to specify or modify the attributes of a window type.helpviewer_keywords: ["*PHH_WINTYPE","HH_WINTYPE","HH_WINTYPE structure [HTML Help Workshop]","htmlhelp.hh_wintype_structure","htmlhelp/HH_WINTYPE","vsconStrhhwintype"]
+description: Use this structure to specify or modify the attributes of a window type.
+helpviewer_keywords: ["*PHH_WINTYPE","HH_WINTYPE","HH_WINTYPE structure [HTML Help Workshop]","htmlhelp.hh_wintype_structure","htmlhelp/HH_WINTYPE","vsconStrhhwintype"]
 old-location: htmlhelp\hh_wintype_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhwintype.htm

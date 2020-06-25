@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get__NewEnum
 title: IGPMGPOLinksCollection::get__NewEnum (gpmgmt.h)
-description: The get_NewEnum method retrieves an enumerator for the collection.helpviewer_keywords: ["IGPMGPOLinksCollection interface [GPMC]","get__NewEnum method","IGPMGPOLinksCollection.get__NewEnum","IGPMGPOLinksCollection::get__NewEnum","_win32_igpmgpolinkscollection_get__newenum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMGPOLinksCollection interface","gpmc.igpmgpolinkscollection_get__newenum","gpmgmt/IGPMGPOLinksCollection::get__NewEnum"]
+description: The get_NewEnum method retrieves an enumerator for the collection.
+helpviewer_keywords: ["IGPMGPOLinksCollection interface [GPMC]","get__NewEnum method","IGPMGPOLinksCollection.get__NewEnum","IGPMGPOLinksCollection::get__NewEnum","_win32_igpmgpolinkscollection_get__newenum","get__NewEnum","get__NewEnum method [GPMC]","get__NewEnum method [GPMC]","IGPMGPOLinksCollection interface","gpmc.igpmgpolinkscollection_get__newenum","gpmgmt/IGPMGPOLinksCollection::get__NewEnum"]
 old-location: gpmc\igpmgpolinkscollection_get__newenum.htm
 tech.root: gpmc
 ms.assetid: 953735c2-01d7-45e1-8417-6b18128de530

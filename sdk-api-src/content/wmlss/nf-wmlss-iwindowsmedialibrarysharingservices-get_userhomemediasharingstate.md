@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
 title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState (wmlss.h)
-description: The get_userHomeMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the home network.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","get_userHomeMediaSharingState method","IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState","IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState","get_userHomeMediaSharingState","get_userHomeMediaSharingState method [Windows Media Library Sharing Services]","get_userHomeMediaSharingState method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSget_userHomeMediaSharingState","wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState"]
+description: The get_userHomeMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the home network.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","get_userHomeMediaSharingState method","IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState","IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState","get_userHomeMediaSharingState","get_userHomeMediaSharingState method [Windows Media Library Sharing Services]","get_userHomeMediaSharingState method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSget_userHomeMediaSharingState","wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState"]
 old-location: wmlss\IWMLSSget_userHomeMediaSharingState.htm
 tech.root: WMLSS
 ms.assetid: 6f56c825-0fdc-4414-aefa-83f8efee2150

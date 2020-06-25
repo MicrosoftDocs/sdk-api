@@ -1,7 +1,8 @@
 ---
 UID: NS:winml.WINML_SEQUENCE_BINDING_DESC
 title: WINML_SEQUENCE_BINDING_DESC (winml.h)
-description: Contains description properties of the sequence binding.helpviewer_keywords: ["MachineLearning.winml_sequence_binding_desc","PWINML_SEQUENCE_BINDING_DESC","PWINML_SEQUENCE_BINDING_DESC structure pointer","WINML_SEQUENCE_BINDING_DESC","WINML_SEQUENCE_BINDING_DESC structure","winml/PWINML_SEQUENCE_BINDING_DESC","winml/WINML_SEQUENCE_BINDING_DESC"]
+description: Contains description properties of the sequence binding.
+helpviewer_keywords: ["MachineLearning.winml_sequence_binding_desc","PWINML_SEQUENCE_BINDING_DESC","PWINML_SEQUENCE_BINDING_DESC structure pointer","WINML_SEQUENCE_BINDING_DESC","WINML_SEQUENCE_BINDING_DESC structure","winml/PWINML_SEQUENCE_BINDING_DESC","winml/WINML_SEQUENCE_BINDING_DESC"]
 old-location: machinelearning\winml_sequence_binding_desc.htm
 tech.root: MachineLearning
 ms.assetid: 6662327D-4BB9-40CB-869C-7BB1ADCB2D1C

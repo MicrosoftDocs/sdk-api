@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumDisplayModes
 title: IDirectDraw7::EnumDisplayModes (ddraw.h)
-description: Enumerates all the display modes that the hardware exposes through the DirectDraw object and that are compatible with a provided surface description.helpviewer_keywords: ["DDEDM_REFRESHRATES","DDEDM_STANDARDVGAMODES","EnumDisplayModes","EnumDisplayModes method [DirectDraw]","EnumDisplayModes method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","EnumDisplayModes method","IDirectDraw7.EnumDisplayModes","IDirectDraw7::EnumDisplayModes","ddraw/IDirectDraw7::EnumDisplayModes","directdraw.idirectdraw7_enumdisplaymodes"]
+description: Enumerates all the display modes that the hardware exposes through the DirectDraw object and that are compatible with a provided surface description.
+helpviewer_keywords: ["DDEDM_REFRESHRATES","DDEDM_STANDARDVGAMODES","EnumDisplayModes","EnumDisplayModes method [DirectDraw]","EnumDisplayModes method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","EnumDisplayModes method","IDirectDraw7.EnumDisplayModes","IDirectDraw7::EnumDisplayModes","ddraw/IDirectDraw7::EnumDisplayModes","directdraw.idirectdraw7_enumdisplaymodes"]
 old-location: directdraw\idirectdraw7_enumdisplaymodes.htm
 tech.root: directdraw
 ms.assetid: 04ed2545-c611-435d-95ef-a0d854380a69

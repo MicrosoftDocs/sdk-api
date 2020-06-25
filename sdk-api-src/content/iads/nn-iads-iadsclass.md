@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsClass
 title: IADsClass (iads.h)
-description: The IADsClass interface is designed for managing schema class objects that provide class definitions for any ADSI object. Other schema management interfaces include IADsProperty for attribute definitions and IADsSyntax for attribute syntax.helpviewer_keywords: ["IADsClass","IADsClass interface [ADSI]","IADsClass interface [ADSI]","described","_ds_iadsclass","adsi.iadsclass","iads/IADsClass"]
+description: The IADsClass interface is designed for managing schema class objects that provide class definitions for any ADSI object. Other schema management interfaces include IADsProperty for attribute definitions and IADsSyntax for attribute syntax.
+helpviewer_keywords: ["IADsClass","IADsClass interface [ADSI]","IADsClass interface [ADSI]","described","_ds_iadsclass","adsi.iadsclass","iads/IADsClass"]
 old-location: adsi\iadsclass.htm
 tech.root: adsi
 ms.assetid: 690b0c96-6319-42d8-8b0e-c43f46f91031

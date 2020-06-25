@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNative.GetData
 title: ISoftwareBitmapNative::imaging (windows.graphics.imaging.interop.h)
-description: This method returns an interface that provides access to the software bitmap data.helpviewer_keywords: ["GetData","GetData method [Windows Runtime]","GetData method [Windows Runtime]","ISoftwareBitmapNative interface","ISoftwareBitmapNative interface [Windows Runtime]","GetData method","ISoftwareBitmapNative.GetData","ISoftwareBitmapNative.imaging","ISoftwareBitmapNative::GetData","ISoftwareBitmapNative::imaging","windows/ISoftwareBitmapNative::GetData","winrt.isoftwarebitmapnative_getdata"]
+description: This method returns an interface that provides access to the software bitmap data.
+helpviewer_keywords: ["GetData","GetData method [Windows Runtime]","GetData method [Windows Runtime]","ISoftwareBitmapNative interface","ISoftwareBitmapNative interface [Windows Runtime]","GetData method","ISoftwareBitmapNative.GetData","ISoftwareBitmapNative.imaging","ISoftwareBitmapNative::GetData","ISoftwareBitmapNative::imaging","windows/ISoftwareBitmapNative::GetData","winrt.isoftwarebitmapnative_getdata"]
 old-location: winrt\isoftwarebitmapnative_getdata.htm
 tech.root: WinRT
 ms.assetid: 4BB9674A-A95A-4183-A1E1-428AB140D6EB

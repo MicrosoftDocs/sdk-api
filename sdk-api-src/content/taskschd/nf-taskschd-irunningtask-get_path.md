@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRunningTask.get_Path
 title: IRunningTask::get_Path (taskschd.h)
-description: Gets the path to where the task is stored.helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","Path property","IRunningTask.Path","IRunningTask.get_Path","IRunningTask::Path","IRunningTask::get_Path","Path property [Task Scheduler]","Path property [Task Scheduler]","IRunningTask interface","get_Path","taskschd.irunningtask_path","taskschd/IRunningTask::Path","taskschd/IRunningTask::get_Path"]
+description: Gets the path to where the task is stored.
+helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","Path property","IRunningTask.Path","IRunningTask.get_Path","IRunningTask::Path","IRunningTask::get_Path","Path property [Task Scheduler]","Path property [Task Scheduler]","IRunningTask interface","get_Path","taskschd.irunningtask_path","taskschd/IRunningTask::Path","taskschd/IRunningTask::get_Path"]
 old-location: taskschd\irunningtask_path.htm
 tech.root: taskschd
 ms.assetid: 8c364628-63dd-4018-9eeb-6acab265c144

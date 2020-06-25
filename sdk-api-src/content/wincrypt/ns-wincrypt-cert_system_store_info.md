@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_SYSTEM_STORE_INFO
 title: CERT_SYSTEM_STORE_INFO (wincrypt.h)
-description: The CERT_SYSTEM_STORE_INFO structure contains information used by functions that work with system stores. Currently, no essential information is contained in this structure.helpviewer_keywords: ["*PCERT_SYSTEM_STORE_INFO","CERT_SYSTEM_STORE_INFO","CERT_SYSTEM_STORE_INFO structure [Security]","PCERT_SYSTEM_STORE_INFO","PCERT_SYSTEM_STORE_INFO structure pointer [Security]","_crypto2_cert_system_store_info","security.cert_system_store_info","wincrypt/CERT_SYSTEM_STORE_INFO","wincrypt/PCERT_SYSTEM_STORE_INFO"]
+description: The CERT_SYSTEM_STORE_INFO structure contains information used by functions that work with system stores. Currently, no essential information is contained in this structure.
+helpviewer_keywords: ["*PCERT_SYSTEM_STORE_INFO","CERT_SYSTEM_STORE_INFO","CERT_SYSTEM_STORE_INFO structure [Security]","PCERT_SYSTEM_STORE_INFO","PCERT_SYSTEM_STORE_INFO structure pointer [Security]","_crypto2_cert_system_store_info","security.cert_system_store_info","wincrypt/CERT_SYSTEM_STORE_INFO","wincrypt/PCERT_SYSTEM_STORE_INFO"]
 old-location: security\cert_system_store_info.htm
 tech.root: SecCrypto
 ms.assetid: 9c17ebd9-423b-4063-bdc3-6be70ceb8623

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.IsEqualTfGuidAtom
 title: ITfCategoryMgr::IsEqualTfGuidAtom (msctf.h)
-description: ITfCategoryMgr::IsEqualTfGuidAtom methodhelpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","IsEqualTfGuidAtom method","ITfCategoryMgr.IsEqualTfGuidAtom","ITfCategoryMgr::IsEqualTfGuidAtom","IsEqualTfGuidAtom","IsEqualTfGuidAtom method [Text Services Framework]","IsEqualTfGuidAtom method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_isequaltfguidatom_ref","msctf/ITfCategoryMgr::IsEqualTfGuidAtom","tsf.itfcategorymgr_isequaltfguidatom"]
+description: ITfCategoryMgr::IsEqualTfGuidAtom method
+helpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","IsEqualTfGuidAtom method","ITfCategoryMgr.IsEqualTfGuidAtom","ITfCategoryMgr::IsEqualTfGuidAtom","IsEqualTfGuidAtom","IsEqualTfGuidAtom method [Text Services Framework]","IsEqualTfGuidAtom method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_isequaltfguidatom_ref","msctf/ITfCategoryMgr::IsEqualTfGuidAtom","tsf.itfcategorymgr_isequaltfguidatom"]
 old-location: tsf\itfcategorymgr_isequaltfguidatom.htm
 tech.root: TSF
 ms.assetid: 813916f6-610f-4031-bb17-67d7f5ffed6f

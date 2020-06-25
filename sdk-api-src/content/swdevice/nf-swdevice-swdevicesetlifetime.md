@@ -1,7 +1,8 @@
 ---
 UID: NF:swdevice.SwDeviceSetLifetime
 title: SwDeviceSetLifetime function (swdevice.h)
-description: Manages the lifetime of a software device.helpviewer_keywords: ["SWDeviceLifetimeHandle","SWDeviceLifetimeParentPresent","SwDeviceSetLifetime","SwDeviceSetLifetime function","swdevice.swdevicesetlifetime","swdevice/SwDeviceSetLifetime"]
+description: Manages the lifetime of a software device.
+helpviewer_keywords: ["SWDeviceLifetimeHandle","SWDeviceLifetimeParentPresent","SwDeviceSetLifetime","SwDeviceSetLifetime function","swdevice.swdevicesetlifetime","swdevice/SwDeviceSetLifetime"]
 old-location: swdevice\swdevicesetlifetime.htm
 tech.root: swdevice
 ms.assetid: 64CAAA98-9358-4F53-A0AA-EE5984DE9638

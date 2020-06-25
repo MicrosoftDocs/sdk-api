@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.Delete
 title: IPhotoAcquireItem::Delete (photoacquire.h)
-description: The Delete method deletes an item.helpviewer_keywords: ["Delete","Delete method [Picture Acquisition]","Delete method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","Delete method","IPhotoAcquireItem.Delete","IPhotoAcquireItem::Delete","IPhotoAcquireItemDelete","photoacquire/IPhotoAcquireItem::Delete","picacq.iphotoacquireitem_delete"]
+description: The Delete method deletes an item.
+helpviewer_keywords: ["Delete","Delete method [Picture Acquisition]","Delete method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","Delete method","IPhotoAcquireItem.Delete","IPhotoAcquireItem::Delete","IPhotoAcquireItemDelete","photoacquire/IPhotoAcquireItem::Delete","picacq.iphotoacquireitem_delete"]
 old-location: picacq\iphotoacquireitem_delete.htm
 tech.root: acquisition
 ms.assetid: e1ffe49b-b7d6-46ae-b83b-8d8487bd7b24

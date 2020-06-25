@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DoSnapshotSet
 title: IVssBackupComponents::DoSnapshotSet (vsbackup.h)
-description: Commits all shadow copies in this set simultaneously.helpviewer_keywords: ["DoSnapshotSet","DoSnapshotSet method [VSS]","DoSnapshotSet method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","DoSnapshotSet method","IVssBackupComponents.DoSnapshotSet","IVssBackupComponents::DoSnapshotSet","_win32_ivssbackupcomponents_dosnapshotset","base.ivssbackupcomponents_dosnapshotset","vsbackup/IVssBackupComponents::DoSnapshotSet"]
+description: Commits all shadow copies in this set simultaneously.
+helpviewer_keywords: ["DoSnapshotSet","DoSnapshotSet method [VSS]","DoSnapshotSet method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","DoSnapshotSet method","IVssBackupComponents.DoSnapshotSet","IVssBackupComponents::DoSnapshotSet","_win32_ivssbackupcomponents_dosnapshotset","base.ivssbackupcomponents_dosnapshotset","vsbackup/IVssBackupComponents::DoSnapshotSet"]
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
 tech.root: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c

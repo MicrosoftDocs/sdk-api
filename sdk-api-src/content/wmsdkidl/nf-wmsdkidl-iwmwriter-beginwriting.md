@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.BeginWriting
 title: IWMWriter::BeginWriting (wmsdkidl.h)
-description: The BeginWriting method initializes the writing process.helpviewer_keywords: ["BeginWriting","BeginWriting method [windows Media Format]","BeginWriting method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","BeginWriting method","IWMWriter.BeginWriting","IWMWriter::BeginWriting","IWMWriterBeginWriting","wmformat.iwmwriter_beginwriting","wmsdkidl/IWMWriter::BeginWriting"]
+description: The BeginWriting method initializes the writing process.
+helpviewer_keywords: ["BeginWriting","BeginWriting method [windows Media Format]","BeginWriting method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","BeginWriting method","IWMWriter.BeginWriting","IWMWriter::BeginWriting","IWMWriterBeginWriting","wmformat.iwmwriter_beginwriting","wmsdkidl/IWMWriter::BeginWriting"]
 old-location: wmformat\iwmwriter_beginwriting.htm
 tech.root: wmformat
 ms.assetid: df511ff0-a87b-442a-85bd-c8d924ab2047

@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_OperationCallbacks
 title: MI_OperationCallbacks (mi.h)
-description: Structure that holds all callback function pointers for carrying out operations.helpviewer_keywords: ["MI_OperationCallbacks","MI_OperationCallbacks structure [Windows Management Infrastructure (MI)]","mi/MI_OperationCallbacks","wmi._mi_operationcallbacks","wmi_v2.mi_operationcallbacks"]
+description: Structure that holds all callback function pointers for carrying out operations.
+helpviewer_keywords: ["MI_OperationCallbacks","MI_OperationCallbacks structure [Windows Management Infrastructure (MI)]","mi/MI_OperationCallbacks","wmi._mi_operationcallbacks","wmi_v2.mi_operationcallbacks"]
 old-location: wmi_v2\mi_operationcallbacks.htm
 tech.root: wmi_v2
 ms.assetid: f56954bf-c1aa-408b-bc45-0faf2a99b381

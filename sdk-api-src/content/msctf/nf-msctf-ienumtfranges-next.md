@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Next
 title: IEnumTfRanges::Next (msctf.h)
-description: IEnumTfRanges::Next methodhelpviewer_keywords: ["IEnumTfRanges interface [Text Services Framework]","Next method","IEnumTfRanges.Next","IEnumTfRanges::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfRanges interface","_tsf_ienumtfranges_next_ref","msctf/IEnumTfRanges::Next","tsf.ienumtfranges_next"]
+description: IEnumTfRanges::Next method
+helpviewer_keywords: ["IEnumTfRanges interface [Text Services Framework]","Next method","IEnumTfRanges.Next","IEnumTfRanges::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfRanges interface","_tsf_ienumtfranges_next_ref","msctf/IEnumTfRanges::Next","tsf.ienumtfranges_next"]
 old-location: tsf\ienumtfranges_next.htm
 tech.root: TSF
 ms.assetid: 95fe45f0-bf30-4f8c-86f3-e20a0d70127e

@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetUpperBoundVector
 title: IUIAnimationVariable2::SetUpperBoundVector (uianimation.h)
-description: Sets the upper bound (ceiling) value of each specified dimension for the animation variable. The value of each animation variable should not rise above its upper bound.helpviewer_keywords: ["IUIAnimationVariable2 interface [Windows Animation]","SetUpperBoundVector method","IUIAnimationVariable2.SetUpperBoundVector","IUIAnimationVariable2::SetUpperBoundVector","SetUpperBoundVector","SetUpperBoundVector method [Windows Animation]","SetUpperBoundVector method [Windows Animation]","IUIAnimationVariable2 interface","uianimation.iuianimationvariable2_setupperboundvector","uianimation/IUIAnimationVariable2::SetUpperBoundVector"]
+description: Sets the upper bound (ceiling) value of each specified dimension for the animation variable. The value of each animation variable should not rise above its upper bound.
+helpviewer_keywords: ["IUIAnimationVariable2 interface [Windows Animation]","SetUpperBoundVector method","IUIAnimationVariable2.SetUpperBoundVector","IUIAnimationVariable2::SetUpperBoundVector","SetUpperBoundVector","SetUpperBoundVector method [Windows Animation]","SetUpperBoundVector method [Windows Animation]","IUIAnimationVariable2 interface","uianimation.iuianimationvariable2_setupperboundvector","uianimation/IUIAnimationVariable2::SetUpperBoundVector"]
 old-location: uianimation\iuianimationvariable2_setupperboundvector.htm
 tech.root: UIAnimation
 ms.assetid: 776CDF6F-F93F-44DC-93D7-79D3A866FAF2

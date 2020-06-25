@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.devices.display.core.interop.LuidFromInt64
 title: interop::LuidFromInt64
-description: Converts from a 64-bit signed integer to a LUID.helpviewer_keywords: ["interop::LuidFromInt64"]
+description: Converts from a 64-bit signed integer to a LUID.
+helpviewer_keywords: ["interop::LuidFromInt64"]
 ms.date: 02/10/2020
 tech.root: winrt
 dev_langs:

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.get_StaticTerminals
 title: ITTerminalSupport::get_StaticTerminals (tapi3if.h)
-description: The get_StaticTerminals method creates a collection of currently available static terminals.helpviewer_keywords: ["ITTerminalSupport interface [TAPI 2.2]","get_StaticTerminals method","ITTerminalSupport.get_StaticTerminals","ITTerminalSupport::get_StaticTerminals","_tapi3_itterminalsupport_get_staticterminals","get_StaticTerminals","get_StaticTerminals method [TAPI 2.2]","get_StaticTerminals method [TAPI 2.2]","ITTerminalSupport interface","tapi3.itterminalsupport_get_staticterminals","tapi3if/ITTerminalSupport::get_StaticTerminals"]
+description: The get_StaticTerminals method creates a collection of currently available static terminals.
+helpviewer_keywords: ["ITTerminalSupport interface [TAPI 2.2]","get_StaticTerminals method","ITTerminalSupport.get_StaticTerminals","ITTerminalSupport::get_StaticTerminals","_tapi3_itterminalsupport_get_staticterminals","get_StaticTerminals","get_StaticTerminals method [TAPI 2.2]","get_StaticTerminals method [TAPI 2.2]","ITTerminalSupport interface","tapi3.itterminalsupport_get_staticterminals","tapi3if/ITTerminalSupport::get_StaticTerminals"]
 old-location: tapi3\itterminalsupport_get_staticterminals.htm
 tech.root: Tapi
 ms.assetid: f4cdd3f5-ca8c-4660-b37c-c38779a516dd

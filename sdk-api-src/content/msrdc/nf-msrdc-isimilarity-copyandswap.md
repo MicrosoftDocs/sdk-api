@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarity.CopyAndSwap
 title: ISimilarity::CopyAndSwap (msrdc.h)
-description: Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.helpviewer_keywords: ["CopyAndSwap","CopyAndSwap method [Remote Differential Compression]","CopyAndSwap method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","CopyAndSwap method","ISimilarity.CopyAndSwap","ISimilarity::CopyAndSwap","fs.isimilarity_copyandswap","msrdc/ISimilarity::CopyAndSwap","rdc.isimilarity_copyandswap"]
+description: Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
+helpviewer_keywords: ["CopyAndSwap","CopyAndSwap method [Remote Differential Compression]","CopyAndSwap method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","CopyAndSwap method","ISimilarity.CopyAndSwap","ISimilarity::CopyAndSwap","fs.isimilarity_copyandswap","msrdc/ISimilarity::CopyAndSwap","rdc.isimilarity_copyandswap"]
 old-location: rdc\isimilarity_copyandswap.htm
 tech.root: rdc
 ms.assetid: 3a31530e-da6d-4ac8-9fd4-d91419777ce5

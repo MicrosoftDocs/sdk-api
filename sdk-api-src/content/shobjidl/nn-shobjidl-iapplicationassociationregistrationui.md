@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IApplicationAssociationRegistrationUI
 title: IApplicationAssociationRegistrationUI (shobjidl.h)
-description: Exposes a method that launches an advanced association dialog box through which the user can customize their associations.helpviewer_keywords: ["IApplicationAssociationRegistrationUI","IApplicationAssociationRegistrationUI interface [Windows Shell]","IApplicationAssociationRegistrationUI interface [Windows Shell]","described","_shell_IApplicationAssociationRegistrationUI","shell.IApplicationAssociationRegistrationUI","shobjidl/IApplicationAssociationRegistrationUI"]
+description: Exposes a method that launches an advanced association dialog box through which the user can customize their associations.
+helpviewer_keywords: ["IApplicationAssociationRegistrationUI","IApplicationAssociationRegistrationUI interface [Windows Shell]","IApplicationAssociationRegistrationUI interface [Windows Shell]","described","_shell_IApplicationAssociationRegistrationUI","shell.IApplicationAssociationRegistrationUI","shobjidl/IApplicationAssociationRegistrationUI"]
 old-location: shell\IApplicationAssociationRegistrationUI.htm
 tech.root: shell
 ms.assetid: 3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6

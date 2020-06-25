@@ -1,7 +1,8 @@
 ---
 UID: NS:winfax._FAX_PORT_INFOW
 title: FAX_PORT_INFOW (winfax.h)
-description: The FAX_PORT_INFO structure describes one fax port. The data includes, among other items, a device identifier, the port's name and current status, and station identifiers.helpviewer_keywords: ["*PFAX_PORT_INFOW","FAX_PORT_INFO","FAX_PORT_INFO structure [Fax Service]","FAX_PORT_INFOA","FAX_PORT_INFOW","FPF_RECEIVE","FPF_SEND","FPF_VIRTUAL","FPS_ABORTING","FPS_ANSWERED","FPS_AVAILABLE","FPS_BAD_ADDRESS","FPS_BUSY","FPS_CALL_BLACKLISTED","FPS_CALL_DELAYED","FPS_COMPLETED","FPS_DIALING","FPS_DISCONNECTED","FPS_FATAL_ERROR","FPS_HANDLED","FPS_INITIALIZING","FPS_NOT_FAX_CALL","FPS_NO_ANSWER","FPS_NO_DIAL_TONE","FPS_OFFLINE","FPS_RECEIVING","FPS_RINGING","FPS_ROUTING","FPS_SENDING","FPS_UNAVAILABLE","PFAX_PORT_INFO","PFAX_PORT_INFO structure pointer [Fax Service]","_mfax_fax_port_info_str","fax._mfax_fax_port_info_str","winfax/FAX_PORT_INFO","winfax/FAX_PORT_INFOA","winfax/FAX_PORT_INFOW","winfax/PFAX_PORT_INFO"]
+description: The FAX_PORT_INFO structure describes one fax port. The data includes, among other items, a device identifier, the port's name and current status, and station identifiers.
+helpviewer_keywords: ["*PFAX_PORT_INFOW","FAX_PORT_INFO","FAX_PORT_INFO structure [Fax Service]","FAX_PORT_INFOA","FAX_PORT_INFOW","FPF_RECEIVE","FPF_SEND","FPF_VIRTUAL","FPS_ABORTING","FPS_ANSWERED","FPS_AVAILABLE","FPS_BAD_ADDRESS","FPS_BUSY","FPS_CALL_BLACKLISTED","FPS_CALL_DELAYED","FPS_COMPLETED","FPS_DIALING","FPS_DISCONNECTED","FPS_FATAL_ERROR","FPS_HANDLED","FPS_INITIALIZING","FPS_NOT_FAX_CALL","FPS_NO_ANSWER","FPS_NO_DIAL_TONE","FPS_OFFLINE","FPS_RECEIVING","FPS_RINGING","FPS_ROUTING","FPS_SENDING","FPS_UNAVAILABLE","PFAX_PORT_INFO","PFAX_PORT_INFO structure pointer [Fax Service]","_mfax_fax_port_info_str","fax._mfax_fax_port_info_str","winfax/FAX_PORT_INFO","winfax/FAX_PORT_INFOA","winfax/FAX_PORT_INFOW","winfax/PFAX_PORT_INFO"]
 old-location: fax\_mfax_fax_port_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_81ki.htm
@@ -411,6 +412,10 @@ If an application calls the <a href="https://docs.microsoft.com/previous-version
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FAX_PORT_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

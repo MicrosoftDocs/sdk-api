@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleDuplicateData
 title: OleDuplicateData function (ole2.h)
-description: Duplicates the data found in the specified handle and returns a handle to the duplicated data. The source data is in a clipboard format. Use this function to help implement some of the data transfer interfaces such as IDataObject.helpviewer_keywords: ["OleDuplicateData","OleDuplicateData function [COM]","_ole_OleDuplicateData","com.oleduplicatedata","ole2/OleDuplicateData"]
+description: Duplicates the data found in the specified handle and returns a handle to the duplicated data. The source data is in a clipboard format. Use this function to help implement some of the data transfer interfaces such as IDataObject.
+helpviewer_keywords: ["OleDuplicateData","OleDuplicateData function [COM]","_ole_OleDuplicateData","com.oleduplicatedata","ole2/OleDuplicateData"]
 old-location: com\oleduplicatedata.htm
 tech.root: com
 ms.assetid: c4ba0b54-e9e1-4c05-b4f8-ce5390cada17

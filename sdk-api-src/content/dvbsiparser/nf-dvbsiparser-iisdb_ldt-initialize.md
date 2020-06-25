@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.Initialize
 title: IISDB_LDT::Initialize (dvbsiparser.h)
-description: Initializes the object using captured table section data for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).helpviewer_keywords: ["IISDB_LDT interface [Microsoft TV Technologies]","Initialize method","IISDB_LDT.Initialize","IISDB_LDT::Initialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IISDB_LDT interface","dvbsiparser/IISDB_LDT::Initialize","mstv.iisdb_ldt_initialize"]
+description: Initializes the object using captured table section data for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
+helpviewer_keywords: ["IISDB_LDT interface [Microsoft TV Technologies]","Initialize method","IISDB_LDT.Initialize","IISDB_LDT::Initialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IISDB_LDT interface","dvbsiparser/IISDB_LDT::Initialize","mstv.iisdb_ldt_initialize"]
 old-location: mstv\iisdb_ldt_initialize.htm
 tech.root: mstv
 ms.assetid: 6239688f-2300-4cdb-97cb-179f63efb933

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_ClientId
 title: IX509AttributeClientId::get_ClientId (certenroll.h)
-description: Retrieves the type of client application that generated the request.helpviewer_keywords: ["ClientId property [Security]","ClientId property [Security]","IX509AttributeClientId interface","IX509AttributeClientId interface [Security]","ClientId property","IX509AttributeClientId.ClientId","IX509AttributeClientId.get_ClientId","IX509AttributeClientId::ClientId","IX509AttributeClientId::get_ClientId","certenroll/IX509AttributeClientId::ClientId","certenroll/IX509AttributeClientId::get_ClientId","get_ClientId","security.ix509attributeclientid_clientid_property"]
+description: Retrieves the type of client application that generated the request.
+helpviewer_keywords: ["ClientId property [Security]","ClientId property [Security]","IX509AttributeClientId interface","IX509AttributeClientId interface [Security]","ClientId property","IX509AttributeClientId.ClientId","IX509AttributeClientId.get_ClientId","IX509AttributeClientId::ClientId","IX509AttributeClientId::get_ClientId","certenroll/IX509AttributeClientId::ClientId","certenroll/IX509AttributeClientId::get_ClientId","get_ClientId","security.ix509attributeclientid_clientid_property"]
 old-location: security\ix509attributeclientid_clientid_property.htm
 tech.root: seccertenroll
 ms.assetid: 43073f84-28c6-4342-82ec-ca2289d51e02

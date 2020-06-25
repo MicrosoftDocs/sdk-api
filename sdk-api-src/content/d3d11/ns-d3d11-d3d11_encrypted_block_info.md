@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_ENCRYPTED_BLOCK_INFO
 title: D3D11_ENCRYPTED_BLOCK_INFO (d3d11.h)
-description: Specifies which bytes in a video surface are encrypted.helpviewer_keywords: ["D3D11_ENCRYPTED_BLOCK_INFO","D3D11_ENCRYPTED_BLOCK_INFO structure [Media Foundation]","d3d11/D3D11_ENCRYPTED_BLOCK_INFO","mf.d3d11_encrypted_block_info"]
+description: Specifies which bytes in a video surface are encrypted.
+helpviewer_keywords: ["D3D11_ENCRYPTED_BLOCK_INFO","D3D11_ENCRYPTED_BLOCK_INFO structure [Media Foundation]","d3d11/D3D11_ENCRYPTED_BLOCK_INFO","mf.d3d11_encrypted_block_info"]
 old-location: mf\d3d11_encrypted_block_info.htm
 tech.root: medfound
 ms.assetid: C52E2007-1E2B-4259-BE32-A96BB439F7C0

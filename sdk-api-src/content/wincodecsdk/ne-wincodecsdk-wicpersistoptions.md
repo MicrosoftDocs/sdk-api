@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodecsdk.WICPersistOptions
 title: WICPersistOptions (wincodecsdk.h)
-description: Specifies Windows Imaging Component (WIC) options that are used when initializing a component with a stream.helpviewer_keywords: ["WICPersistOptionBigEndian","WICPersistOptionDefault","WICPersistOptionLittleEndian","WICPersistOptionMask","WICPersistOptionNoCacheStream","WICPersistOptionPreferUTF8","WICPersistOptionStrictFormat","WICPersistOptions","WICPersistOptions enumeration [Windows Imaging Component]","_wic_codec_wicpersistoptions","wic._wic_codec_wicpersistoptions","wincodecsdk/WICPersistOptionBigEndian","wincodecsdk/WICPersistOptionDefault","wincodecsdk/WICPersistOptionLittleEndian","wincodecsdk/WICPersistOptionMask","wincodecsdk/WICPersistOptionNoCacheStream","wincodecsdk/WICPersistOptionPreferUTF8","wincodecsdk/WICPersistOptionStrictFormat","wincodecsdk/WICPersistOptions"]
+description: Specifies Windows Imaging Component (WIC) options that are used when initializing a component with a stream.
+helpviewer_keywords: ["WICPersistOptionBigEndian","WICPersistOptionDefault","WICPersistOptionLittleEndian","WICPersistOptionMask","WICPersistOptionNoCacheStream","WICPersistOptionPreferUTF8","WICPersistOptionStrictFormat","WICPersistOptions","WICPersistOptions enumeration [Windows Imaging Component]","_wic_codec_wicpersistoptions","wic._wic_codec_wicpersistoptions","wincodecsdk/WICPersistOptionBigEndian","wincodecsdk/WICPersistOptionDefault","wincodecsdk/WICPersistOptionLittleEndian","wincodecsdk/WICPersistOptionMask","wincodecsdk/WICPersistOptionNoCacheStream","wincodecsdk/WICPersistOptionPreferUTF8","wincodecsdk/WICPersistOptionStrictFormat","wincodecsdk/WICPersistOptions"]
 old-location: wic\_wic_codec_wicpersistoptions.htm
 tech.root: wic
 ms.assetid: 8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6

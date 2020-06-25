@@ -1,7 +1,8 @@
 ---
 UID: NE:nldef._NL_ROUTER_DISCOVERY_BEHAVIOR
 title: NL_ROUTER_DISCOVERY_BEHAVIOR (nldef.h)
-description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.helpviewer_keywords: ["NL_ROUTER_DISCOVERY_BEHAVIOR","NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista]","RouterDiscoveryDhcp","RouterDiscoveryDisabled","RouterDiscoveryEnabled","RouterDiscoveryUnchanged","iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml","netvista.nl_router_discovery_behavior","nldef/NL_ROUTER_DISCOVERY_BEHAVIOR","nldef/RouterDiscoveryDhcp","nldef/RouterDiscoveryDisabled","nldef/RouterDiscoveryEnabled","nldef/RouterDiscoveryUnchanged"]
+description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.
+helpviewer_keywords: ["NL_ROUTER_DISCOVERY_BEHAVIOR","NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista]","RouterDiscoveryDhcp","RouterDiscoveryDisabled","RouterDiscoveryEnabled","RouterDiscoveryUnchanged","iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml","netvista.nl_router_discovery_behavior","nldef/NL_ROUTER_DISCOVERY_BEHAVIOR","nldef/RouterDiscoveryDhcp","nldef/RouterDiscoveryDisabled","nldef/RouterDiscoveryEnabled","nldef/RouterDiscoveryUnchanged"]
 old-location: netvista\nl_router_discovery_behavior.htm
 tech.root: NetVista
 ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6

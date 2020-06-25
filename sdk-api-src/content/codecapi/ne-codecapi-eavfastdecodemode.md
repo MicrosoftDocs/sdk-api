@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVFastDecodeMode
 title: eAVFastDecodeMode (codecapi.h)
-description: Specifies the video decoding speed. This enumeration is used with the AVDecVideoFastDecodeMode property.helpviewer_keywords: ["codecapi/eAVFastDecodeMode","codecapi/eVideoDecodeCompliant","codecapi/eVideoDecodeDisableLF","codecapi/eVideoDecodeFastest","codecapi/eVideoDecodeOptimalLF","dshow.eavfastdecodemode","eAVFastDecodeMode","eAVFastDecodeMode enumeration [DirectShow]","eVideoDecodeCompliant","eVideoDecodeDisableLF","eVideoDecodeFastest","eVideoDecodeOptimalLF"]
+description: Specifies the video decoding speed. This enumeration is used with the AVDecVideoFastDecodeMode property.
+helpviewer_keywords: ["codecapi/eAVFastDecodeMode","codecapi/eVideoDecodeCompliant","codecapi/eVideoDecodeDisableLF","codecapi/eVideoDecodeFastest","codecapi/eVideoDecodeOptimalLF","dshow.eavfastdecodemode","eAVFastDecodeMode","eAVFastDecodeMode enumeration [DirectShow]","eVideoDecodeCompliant","eVideoDecodeDisableLF","eVideoDecodeFastest","eVideoDecodeOptimalLF"]
 old-location: dshow\eavfastdecodemode.htm
 tech.root: DirectShow
 ms.assetid: 526A52A8-4B48-43AE-A8B2-EE800C6BAE8F

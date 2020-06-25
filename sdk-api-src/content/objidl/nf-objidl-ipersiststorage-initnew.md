@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IPersistStorage.InitNew
 title: IPersistStorage::InitNew (objidl.h)
-description: Initializes a new storage object.helpviewer_keywords: ["IPersistStorage interface [COM]","InitNew method","IPersistStorage.InitNew","IPersistStorage::InitNew","InitNew","InitNew method [COM]","InitNew method [COM]","IPersistStorage interface","_com_ipersiststorage_initnew","com.ipersiststorage_initnew","objidl/IPersistStorage::InitNew"]
+description: Initializes a new storage object.
+helpviewer_keywords: ["IPersistStorage interface [COM]","InitNew method","IPersistStorage.InitNew","IPersistStorage::InitNew","InitNew","InitNew method [COM]","InitNew method [COM]","IPersistStorage interface","_com_ipersiststorage_initnew","com.ipersiststorage_initnew","objidl/IPersistStorage::InitNew"]
 old-location: com\ipersiststorage_initnew.htm
 tech.root: com
 ms.assetid: 79caf1f6-d974-4aee-8563-eda4876a0a90

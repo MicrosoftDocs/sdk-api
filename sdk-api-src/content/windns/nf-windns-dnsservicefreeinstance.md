@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsServiceFreeInstance
 title: DnsServiceFreeInstance function
-description: Used to free the resources associated with a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.helpviewer_keywords: ["DnsServiceFreeInstance"]
+description: Used to free the resources associated with a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+helpviewer_keywords: ["DnsServiceFreeInstance"]
 ms.date: 02/19/2019
 ms.keywords: DnsServiceFreeInstance
 f1_keywords:

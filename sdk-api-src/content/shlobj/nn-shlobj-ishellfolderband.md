@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.IShellFolderBand
 title: IShellFolderBand (shlobj.h)
-description: IShellFolderBand may be altered or unavailable.helpviewer_keywords: ["IShellFolderBand","IShellFolderBand interface [Windows Shell]","IShellFolderBand interface [Windows Shell]","described","_win32_IShellFolderBand","shell.IShellFolderBand","shlobj/IShellFolderBand"]
+description: IShellFolderBand may be altered or unavailable.
+helpviewer_keywords: ["IShellFolderBand","IShellFolderBand interface [Windows Shell]","IShellFolderBand interface [Windows Shell]","described","_win32_IShellFolderBand","shell.IShellFolderBand","shlobj/IShellFolderBand"]
 old-location: shell\IShellFolderBand.htm
 tech.root: shell
 ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690

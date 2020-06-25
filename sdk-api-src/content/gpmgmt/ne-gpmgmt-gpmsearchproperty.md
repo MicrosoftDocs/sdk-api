@@ -1,7 +1,8 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0003
 title: GPMSearchProperty (gpmgmt.h)
-description: The property of the search criteria.helpviewer_keywords: ["GPMSearchProperty","GPMSearchProperty enumeration [GPMC]","backupMostRecent","gpmc.gpmsearchproperty","gpmgmt/GPMSearchProperty","gpmgmt/backupMostRecent","gpmgmt/gpoComputerExtensions","gpmgmt/gpoDisplayName","gpmgmt/gpoDomain","gpmgmt/gpoEffectivePermissions","gpmgmt/gpoID","gpmgmt/gpoPermissions","gpmgmt/gpoUserExtensions","gpmgmt/gpoWMIFilter","gpmgmt/somLinks","gpmgmt/starterGPODisplayName","gpmgmt/starterGPODomain","gpmgmt/starterGPOEffectivePermissions","gpmgmt/starterGPOID","gpmgmt/starterGPOPermissions","gpoComputerExtensions","gpoDisplayName","gpoDomain","gpoEffectivePermissions","gpoID","gpoPermissions","gpoUserExtensions","gpoWMIFilter","somLinks","starterGPODisplayName","starterGPODomain","starterGPOEffectivePermissions","starterGPOID","starterGPOPermissions"]
+description: The property of the search criteria.
+helpviewer_keywords: ["GPMSearchProperty","GPMSearchProperty enumeration [GPMC]","backupMostRecent","gpmc.gpmsearchproperty","gpmgmt/GPMSearchProperty","gpmgmt/backupMostRecent","gpmgmt/gpoComputerExtensions","gpmgmt/gpoDisplayName","gpmgmt/gpoDomain","gpmgmt/gpoEffectivePermissions","gpmgmt/gpoID","gpmgmt/gpoPermissions","gpmgmt/gpoUserExtensions","gpmgmt/gpoWMIFilter","gpmgmt/somLinks","gpmgmt/starterGPODisplayName","gpmgmt/starterGPODomain","gpmgmt/starterGPOEffectivePermissions","gpmgmt/starterGPOID","gpmgmt/starterGPOPermissions","gpoComputerExtensions","gpoDisplayName","gpoDomain","gpoEffectivePermissions","gpoID","gpoPermissions","gpoUserExtensions","gpoWMIFilter","somLinks","starterGPODisplayName","starterGPODomain","starterGPOEffectivePermissions","starterGPOID","starterGPOPermissions"]
 old-location: gpmc\gpmsearchproperty.htm
 tech.root: gpmc
 ms.assetid: 9ac83c22-f253-449f-b639-b6a07e3c790b

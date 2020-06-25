@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialTimestamp
 title: IInertiaProcessor::get_InitialTimestamp (manipulations.h)
-description: The InitialTimestamp property specifies the starting time stamp for a target object with inertia.helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialTimestamp property","IInertiaProcessor.InitialTimestamp","IInertiaProcessor.get_InitialTimestamp","IInertiaProcessor::InitialTimestamp","IInertiaProcessor::get_InitialTimestamp","IInertiaProcessor::put_InitialTimestamp","InitialTimestamp property [Windows Touch]","InitialTimestamp property [Windows Touch]","IInertiaProcessor interface","get_InitialTimestamp","manipulations/IInertiaProcessor::InitialTimestamp","manipulations/IInertiaProcessor::get_InitialTimestamp","manipulations/IInertiaProcessor::put_InitialTimestamp","wintouch.iinertiaprocessor_initialtimestamp"]
+description: The InitialTimestamp property specifies the starting time stamp for a target object with inertia.
+helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialTimestamp property","IInertiaProcessor.InitialTimestamp","IInertiaProcessor.get_InitialTimestamp","IInertiaProcessor::InitialTimestamp","IInertiaProcessor::get_InitialTimestamp","IInertiaProcessor::put_InitialTimestamp","InitialTimestamp property [Windows Touch]","InitialTimestamp property [Windows Touch]","IInertiaProcessor interface","get_InitialTimestamp","manipulations/IInertiaProcessor::InitialTimestamp","manipulations/IInertiaProcessor::get_InitialTimestamp","manipulations/IInertiaProcessor::put_InitialTimestamp","wintouch.iinertiaprocessor_initialtimestamp"]
 old-location: wintouch\iinertiaprocessor_initialtimestamp.htm
 tech.root: wintouch
 ms.assetid: 7ea7e00f-98f5-4928-9919-705ffa53b91b

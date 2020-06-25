@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInterfaceA
 title: SetupDiOpenDeviceInterfaceA function (setupapi.h)
-description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.helpviewer_keywords: ["SetupDiOpenDeviceInterface","SetupDiOpenDeviceInterface function [Device and Driver Installation]","SetupDiOpenDeviceInterfaceA","SetupDiOpenDeviceInterfaceW","devinst.setupdiopendeviceinterface","di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml","setupapi/SetupDiOpenDeviceInterface"]
+description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.
+helpviewer_keywords: ["SetupDiOpenDeviceInterface","SetupDiOpenDeviceInterface function [Device and Driver Installation]","SetupDiOpenDeviceInterfaceA","SetupDiOpenDeviceInterfaceW","devinst.setupdiopendeviceinterface","di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml","setupapi/SetupDiOpenDeviceInterface"]
 old-location: devinst\setupdiopendeviceinterface.htm
 tech.root: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
@@ -114,6 +115,10 @@ When the application has finished using the information that <b>SetupDiOpenDevic
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiOpenDeviceInterface as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

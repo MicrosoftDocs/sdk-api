@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_EditStart
 title: IAMExtTransport::get_EditStart (strmif.h)
-description: The get_EditStart method determines whether the external transport's edit control is active.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_EditStart method","IAMExtTransport.get_EditStart","IAMExtTransport::get_EditStart","IAMExtTransportget_EditStart","dshow.iamexttransport_get_editstart","get_EditStart","get_EditStart method [DirectShow]","get_EditStart method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::get_EditStart"]
+description: The get_EditStart method determines whether the external transport's edit control is active.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_EditStart method","IAMExtTransport.get_EditStart","IAMExtTransport::get_EditStart","IAMExtTransportget_EditStart","dshow.iamexttransport_get_editstart","get_EditStart","get_EditStart method [DirectShow]","get_EditStart method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::get_EditStart"]
 old-location: dshow\iamexttransport_get_editstart.htm
 tech.root: DirectShow
 ms.assetid: 83eb6f22-646c-400a-8adb-5545914656c9

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IBandSite.GetBandObject
 title: IBandSite::GetBandObject (shobjidl_core.h)
-description: Gets a specified band object from a band site.helpviewer_keywords: ["GetBandObject","GetBandObject method [Windows Shell]","GetBandObject method [Windows Shell]","IBandSite interface","IBandSite interface [Windows Shell]","GetBandObject method","IBandSite.GetBandObject","IBandSite::GetBandObject","_win32_IBandSite_GetBandObject","shell.IBandSite_GetBandObject","shobjidl_core/IBandSite::GetBandObject"]
+description: Gets a specified band object from a band site.
+helpviewer_keywords: ["GetBandObject","GetBandObject method [Windows Shell]","GetBandObject method [Windows Shell]","IBandSite interface","IBandSite interface [Windows Shell]","GetBandObject method","IBandSite.GetBandObject","IBandSite::GetBandObject","_win32_IBandSite_GetBandObject","shell.IBandSite_GetBandObject","shobjidl_core/IBandSite::GetBandObject"]
 old-location: shell\IBandSite_GetBandObject.htm
 tech.root: shell
 ms.assetid: e6eba36d-5fc8-4b79-8129-1e07c5cc5b5f

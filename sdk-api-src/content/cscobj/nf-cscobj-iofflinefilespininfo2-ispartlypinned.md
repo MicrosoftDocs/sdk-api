@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo2.IsPartlyPinned
 title: IOfflineFilesPinInfo2::IsPartlyPinned (cscobj.h)
-description: Determines whether the item is partly pinned.helpviewer_keywords: ["IOfflineFilesPinInfo2 interface [Offline Files]","IsPartlyPinned method","IOfflineFilesPinInfo2.IsPartlyPinned","IOfflineFilesPinInfo2::IsPartlyPinned","IsPartlyPinned","IsPartlyPinned method [Offline Files]","IsPartlyPinned method [Offline Files]","IOfflineFilesPinInfo2 interface","cscobj/IOfflineFilesPinInfo2::IsPartlyPinned","of.iofflinefilespininfo2_ispartlypinned"]
+description: Determines whether the item is partly pinned.
+helpviewer_keywords: ["IOfflineFilesPinInfo2 interface [Offline Files]","IsPartlyPinned method","IOfflineFilesPinInfo2.IsPartlyPinned","IOfflineFilesPinInfo2::IsPartlyPinned","IsPartlyPinned","IsPartlyPinned method [Offline Files]","IsPartlyPinned method [Offline Files]","IOfflineFilesPinInfo2 interface","cscobj/IOfflineFilesPinInfo2::IsPartlyPinned","of.iofflinefilespininfo2_ispartlypinned"]
 old-location: of\iofflinefilespininfo2_ispartlypinned.htm
 tech.root: offlinefiles
 ms.assetid: 9063a804-2597-4959-8249-e5b42f582ea3

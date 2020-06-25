@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.GetName
 title: IPart::GetName (devicetopology.h)
-description: The GetName method gets the friendly name of this part.helpviewer_keywords: ["GetName","GetName method [Core Audio]","GetName method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetName method","IPart.GetName","IPart::GetName","IPartGetName","coreaudio.ipart_getname","devicetopology/IPart::GetName"]
+description: The GetName method gets the friendly name of this part.
+helpviewer_keywords: ["GetName","GetName method [Core Audio]","GetName method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetName method","IPart.GetName","IPart::GetName","IPartGetName","coreaudio.ipart_getname","devicetopology/IPart::GetName"]
 old-location: coreaudio\ipart_getname.htm
 tech.root: CoreAudio
 ms.assetid: a583f445-ebb2-4072-a272-6f186aef71b3

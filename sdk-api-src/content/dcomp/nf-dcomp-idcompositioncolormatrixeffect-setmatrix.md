@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrix
 title: IDCompositionColorMatrixEffect::SetMatrix (dcomp.h)
-description: Sets the matrix used by the effect to multiply the RGBA values of the image.helpviewer_keywords: ["IDCompositionColorMatrixEffect interface [DirectComposition]","SetMatrix method","IDCompositionColorMatrixEffect.SetMatrix","IDCompositionColorMatrixEffect::SetMatrix","SetMatrix","SetMatrix method [DirectComposition]","SetMatrix method [DirectComposition]","IDCompositionColorMatrixEffect interface","dcomp/IDCompositionColorMatrixEffect::SetMatrix","directcomp.idcompositioncolormatrixeffect_setmatrix"]
+description: Sets the matrix used by the effect to multiply the RGBA values of the image.
+helpviewer_keywords: ["IDCompositionColorMatrixEffect interface [DirectComposition]","SetMatrix method","IDCompositionColorMatrixEffect.SetMatrix","IDCompositionColorMatrixEffect::SetMatrix","SetMatrix","SetMatrix method [DirectComposition]","SetMatrix method [DirectComposition]","IDCompositionColorMatrixEffect interface","dcomp/IDCompositionColorMatrixEffect::SetMatrix","directcomp.idcompositioncolormatrixeffect_setmatrix"]
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 1EE0C9B6-6309-40A3-AE80-A47C45BBA536

@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemBegin
 title: IOfflineFilesSyncProgress::SyncItemBegin (cscobj.h)
-description: Reports that a synchronization operation on an item is beginning.helpviewer_keywords: ["IOfflineFilesSyncProgress interface [Offline Files]","SyncItemBegin method","IOfflineFilesSyncProgress.SyncItemBegin","IOfflineFilesSyncProgress::SyncItemBegin","SyncItemBegin","SyncItemBegin method [Offline Files]","SyncItemBegin method [Offline Files]","IOfflineFilesSyncProgress interface","cscobj/IOfflineFilesSyncProgress::SyncItemBegin","of.iofflinefilessyncprogress_syncitembegin"]
+description: Reports that a synchronization operation on an item is beginning.
+helpviewer_keywords: ["IOfflineFilesSyncProgress interface [Offline Files]","SyncItemBegin method","IOfflineFilesSyncProgress.SyncItemBegin","IOfflineFilesSyncProgress::SyncItemBegin","SyncItemBegin","SyncItemBegin method [Offline Files]","SyncItemBegin method [Offline Files]","IOfflineFilesSyncProgress interface","cscobj/IOfflineFilesSyncProgress::SyncItemBegin","of.iofflinefilessyncprogress_syncitembegin"]
 old-location: of\iofflinefilessyncprogress_syncitembegin.htm
 tech.root: offlinefiles
 ms.assetid: c1cdbc30-bcc9-4023-a3a2-070fb9958609

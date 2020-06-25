@@ -1,7 +1,8 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_ExternalPort
 title: IStaticPortMapping::get_ExternalPort (natupnp.h)
-description: The get_ExternalPort method retrieves the external port on the NAT computer for this port mapping.helpviewer_keywords: ["IStaticPortMapping interface [ICS/ICF]","get_ExternalPort method","IStaticPortMapping.get_ExternalPort","IStaticPortMapping::get_ExternalPort","_ics_istaticportmapping_get_externalport","get_ExternalPort","get_ExternalPort method [ICS/ICF]","get_ExternalPort method [ICS/ICF]","IStaticPortMapping interface","ics.istaticportmapping_get_externalport","natupnp/IStaticPortMapping::get_ExternalPort"]
+description: The get_ExternalPort method retrieves the external port on the NAT computer for this port mapping.
+helpviewer_keywords: ["IStaticPortMapping interface [ICS/ICF]","get_ExternalPort method","IStaticPortMapping.get_ExternalPort","IStaticPortMapping::get_ExternalPort","_ics_istaticportmapping_get_externalport","get_ExternalPort","get_ExternalPort method [ICS/ICF]","get_ExternalPort method [ICS/ICF]","IStaticPortMapping interface","ics.istaticportmapping_get_externalport","natupnp/IStaticPortMapping::get_ExternalPort"]
 old-location: ics\istaticportmapping_get_externalport.htm
 tech.root: ics
 ms.assetid: 2a63d036-37d5-4686-a19e-11fd5dab6f64

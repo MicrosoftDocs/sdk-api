@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelCount
 title: IAudioEndpointVolume::GetChannelCount (endpointvolume.h)
-description: The GetChannelCount method gets a count of the channels in the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IAudioEndpointVolume interface","IAudioEndpointVolume interface [Core Audio]","GetChannelCount method","IAudioEndpointVolume.GetChannelCount","IAudioEndpointVolume::GetChannelCount","IAudioEndpointVolumeGetChannelCount","coreaudio.iaudioendpointvolume_getchannelcount","endpointvolume/IAudioEndpointVolume::GetChannelCount"]
+description: The GetChannelCount method gets a count of the channels in the audio stream that enters or leaves the audio endpoint device.
+helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IAudioEndpointVolume interface","IAudioEndpointVolume interface [Core Audio]","GetChannelCount method","IAudioEndpointVolume.GetChannelCount","IAudioEndpointVolume::GetChannelCount","IAudioEndpointVolumeGetChannelCount","coreaudio.iaudioendpointvolume_getchannelcount","endpointvolume/IAudioEndpointVolume::GetChannelCount"]
 old-location: coreaudio\iaudioendpointvolume_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 83fd9afe-9bca-4569-a705-0e366b56522e

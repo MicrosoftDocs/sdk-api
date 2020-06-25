@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongPtrSub
 title: ULongPtrSub function (intsafe.h)
-description: Subtracts one value of type ULONG_PTR from another.helpviewer_keywords: ["ULongPtrSub","ULongPtrSub function [Windows Shell]","_shell_ULongPtrSub","intsafe/ULongPtrSub","shell.ULongPtrSub"]
+description: Subtracts one value of type ULONG_PTR from another.
+helpviewer_keywords: ["ULongPtrSub","ULongPtrSub function [Windows Shell]","_shell_ULongPtrSub","intsafe/ULongPtrSub","shell.ULongPtrSub"]
 old-location: shell\ULongPtrSub.htm
 tech.root: shell
 ms.assetid: 29cc4dec-e02d-4ce4-a615-9b62bd08befb

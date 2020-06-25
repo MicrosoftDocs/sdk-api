@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasGetCredentialsA
 title: RasGetCredentialsA function (ras.h)
-description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.helpviewer_keywords: ["RasGetCredentials","RasGetCredentials function [RAS]","RasGetCredentialsA","RasGetCredentialsW","_ras_rasgetcredentials","ras/RasGetCredentials","ras/RasGetCredentialsA","ras/RasGetCredentialsW","rras.rasgetcredentials"]
+description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.
+helpviewer_keywords: ["RasGetCredentials","RasGetCredentials function [RAS]","RasGetCredentialsA","RasGetCredentialsW","_ras_rasgetcredentials","ras/RasGetCredentials","ras/RasGetCredentialsA","ras/RasGetCredentialsW","rras.rasgetcredentials"]
 old-location: rras\rasgetcredentials.htm
 tech.root: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
@@ -308,6 +309,10 @@ DWORD __cdecl wmain(){
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasGetCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration
 title: IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration (uianimation.h)
-description: Creates a parabolic-acceleration scalar transition.helpviewer_keywords: ["CreateParabolicTransitionFromAcceleration","CreateParabolicTransitionFromAcceleration method [Windows Animation]","CreateParabolicTransitionFromAcceleration method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateParabolicTransitionFromAcceleration method","IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration","IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration","uianimation.iuianimationtransitionlibrary2_createparabolictransitionfromacceleration","uianimation/IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration"]
+description: Creates a parabolic-acceleration scalar transition.
+helpviewer_keywords: ["CreateParabolicTransitionFromAcceleration","CreateParabolicTransitionFromAcceleration method [Windows Animation]","CreateParabolicTransitionFromAcceleration method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateParabolicTransitionFromAcceleration method","IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration","IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration","uianimation.iuianimationtransitionlibrary2_createparabolictransitionfromacceleration","uianimation/IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration"]
 old-location: uianimation\iuianimationtransitionlibrary2_createparabolictransitionfromacceleration.htm
 tech.root: UIAnimation
 ms.assetid: C2005144-CA40-4835-8AFA-7E87AE99867F

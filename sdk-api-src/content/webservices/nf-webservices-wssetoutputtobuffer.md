@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsSetOutputToBuffer
 title: WsSetOutputToBuffer function (webservices.h)
-description: This operation positions the Writer at the end of the specified buffer.helpviewer_keywords: ["WsSetOutputToBuffer","WsSetOutputToBuffer function [Web Services for Windows]","webservices/WsSetOutputToBuffer","wsw.wssetoutputtobuffer"]
+description: This operation positions the Writer at the end of the specified buffer.
+helpviewer_keywords: ["WsSetOutputToBuffer","WsSetOutputToBuffer function [Web Services for Windows]","webservices/WsSetOutputToBuffer","wsw.wssetoutputtobuffer"]
 old-location: wsw\wssetoutputtobuffer.htm
 tech.root: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709

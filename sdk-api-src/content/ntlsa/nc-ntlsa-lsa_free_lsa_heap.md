@@ -1,7 +1,8 @@
 ---
 UID: NC:ntlsa.LSA_FREE_LSA_HEAP
 title: LSA_FREE_LSA_HEAP (ntlsa.h)
-description: Deallocates heap memory previously allocated by AllocateLsaHeap.helpviewer_keywords: ["FreeLsaHeap","FreeLsaHeap callback function [Security]","LSA_FREE_LSA_HEAP","LSA_FREE_LSA_HEAP callback","_lsa_freelsaheap","ntlsa/FreeLsaHeap","security.freelsaheap"]
+description: Deallocates heap memory previously allocated by AllocateLsaHeap.
+helpviewer_keywords: ["FreeLsaHeap","FreeLsaHeap callback function [Security]","LSA_FREE_LSA_HEAP","LSA_FREE_LSA_HEAP callback","_lsa_freelsaheap","ntlsa/FreeLsaHeap","security.freelsaheap"]
 old-location: security\freelsaheap.htm
 tech.root: SecAuthN
 ms.assetid: bd461a23-2501-48c5-8f2f-c6c98383157f

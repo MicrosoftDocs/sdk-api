@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.EnableOpenDropDown
 title: IFileDialogCustomize::EnableOpenDropDown (shobjidl_core.h)
-description: Enables a drop-down list on the Open or Save button in the dialog.helpviewer_keywords: ["EnableOpenDropDown","EnableOpenDropDown method [Windows Shell]","EnableOpenDropDown method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","EnableOpenDropDown method","IFileDialogCustomize.EnableOpenDropDown","IFileDialogCustomize::EnableOpenDropDown","shell.IFileDialogCustomize_EnableOpenDropDown","shell_IFileDialogCustomize_EnableOpenDropDown","shobjidl_core/IFileDialogCustomize::EnableOpenDropDown"]
+description: Enables a drop-down list on the Open or Save button in the dialog.
+helpviewer_keywords: ["EnableOpenDropDown","EnableOpenDropDown method [Windows Shell]","EnableOpenDropDown method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","EnableOpenDropDown method","IFileDialogCustomize.EnableOpenDropDown","IFileDialogCustomize::EnableOpenDropDown","shell.IFileDialogCustomize_EnableOpenDropDown","shell_IFileDialogCustomize_EnableOpenDropDown","shobjidl_core/IFileDialogCustomize::EnableOpenDropDown"]
 old-location: shell\IFileDialogCustomize_EnableOpenDropDown.htm
 tech.root: shell
 ms.assetid: b4626030-0fc7-4329-b897-01f4ce8728a0

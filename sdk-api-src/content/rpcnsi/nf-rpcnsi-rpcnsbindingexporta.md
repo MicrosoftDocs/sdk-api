@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportA
 title: RpcNsBindingExportA function (rpcnsi.h)
-description: The RpcNsBindingExport function establishes a name service&#8211;database entry with multiple binding handles and multiple objects for a server.helpviewer_keywords: ["RpcNsBindingExport","RpcNsBindingExport function [RPC]","RpcNsBindingExportA","RpcNsBindingExportW","_rpc_rpcnsbindingexport","rpc.rpcnsbindingexport","rpcnsi/RpcNsBindingExport","rpcnsi/RpcNsBindingExportA","rpcnsi/RpcNsBindingExportW"]
+description: The RpcNsBindingExport function establishes a name service&#8211;database entry with multiple binding handles and multiple objects for a server.
+helpviewer_keywords: ["RpcNsBindingExport","RpcNsBindingExport function [RPC]","RpcNsBindingExportA","RpcNsBindingExportW","_rpc_rpcnsbindingexport","rpc.rpcnsbindingexport","rpcnsi/RpcNsBindingExport","rpcnsi/RpcNsBindingExportA","rpcnsi/RpcNsBindingExportW"]
 old-location: rpc\rpcnsbindingexport.htm
 tech.root: Rpc
 ms.assetid: c89d04d7-f607-48cc-8cb6-b6aebab41671
@@ -280,6 +281,10 @@ A server entry must have at least one binding handle to exist. As a result, expo
 
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsBindingExport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

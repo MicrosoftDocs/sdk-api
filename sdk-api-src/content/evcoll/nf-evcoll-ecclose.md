@@ -1,7 +1,8 @@
 ---
 UID: NF:evcoll.EcClose
 title: EcClose function (evcoll.h)
-description: Closes a handle received from other Event Collector functions.helpviewer_keywords: ["EcClose","EcClose function","evcoll/EcClose","wec.ecclose","wes.ecclose"]
+description: Closes a handle received from other Event Collector functions.
+helpviewer_keywords: ["EcClose","EcClose function","evcoll/EcClose","wec.ecclose","wes.ecclose"]
 old-location: wec\ecclose.htm
 tech.root: WEC
 ms.assetid: a2dc71e3-7580-4484-9a08-4e3ee2139921

@@ -1,7 +1,8 @@
 ---
 UID: NC:ras.PFNRASSETCOMMSETTINGS
 title: PFNRASSETCOMMSETTINGS (ras.h)
-description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.helpviewer_keywords: ["PFNRASSETCOMMSETTINGS","PFNRASSETCOMMSETTINGS callback","RasSetCommSettings","RasSetCommSettings callback function [RAS]","_ras_rassetcommsettings","ras/RasSetCommSettings","rras.rassetcommsettings"]
+description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.
+helpviewer_keywords: ["PFNRASSETCOMMSETTINGS","PFNRASSETCOMMSETTINGS callback","RasSetCommSettings","RasSetCommSettings callback function [RAS]","_ras_rassetcommsettings","ras/RasSetCommSettings","rras.rassetcommsettings"]
 old-location: rras\rassetcommsettings.htm
 tech.root: RRAS
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67

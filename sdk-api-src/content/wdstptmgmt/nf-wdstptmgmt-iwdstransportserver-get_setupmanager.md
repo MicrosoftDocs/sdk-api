@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_SetupManager
 title: IWdsTransportServer::get_SetupManager (wdstptmgmt.h)
-description: Returns a pointer to the object of an IWdsTransportSetupManager interface used to manage the setup functionality on this server.helpviewer_keywords: ["IWdsTransportServer interface [Windows Deployment Services]","SetupManager property","IWdsTransportServer.SetupManager","IWdsTransportServer.get_SetupManager","IWdsTransportServer::SetupManager","IWdsTransportServer::get_SetupManager","SetupManager property [Windows Deployment Services]","SetupManager property [Windows Deployment Services]","IWdsTransportServer interface","get_SetupManager","wds.iwdstransportserver_setupmanager","wdstptmgmt/IWdsTransportServer::SetupManager","wdstptmgmt/IWdsTransportServer::get_SetupManager"]
+description: Returns a pointer to the object of an IWdsTransportSetupManager interface used to manage the setup functionality on this server.
+helpviewer_keywords: ["IWdsTransportServer interface [Windows Deployment Services]","SetupManager property","IWdsTransportServer.SetupManager","IWdsTransportServer.get_SetupManager","IWdsTransportServer::SetupManager","IWdsTransportServer::get_SetupManager","SetupManager property [Windows Deployment Services]","SetupManager property [Windows Deployment Services]","IWdsTransportServer interface","get_SetupManager","wds.iwdstransportserver_setupmanager","wdstptmgmt/IWdsTransportServer::SetupManager","wdstptmgmt/IWdsTransportServer::get_SetupManager"]
 old-location: wds\iwdstransportserver_setupmanager.htm
 tech.root: wds
 ms.assetid: 17bd15d2-5468-4e8e-8d1f-d4b17a27be2f

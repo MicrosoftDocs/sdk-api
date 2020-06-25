@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetMonitor
 title: IFullScreenVideoEx::SetMonitor (amvideo.h)
-description: The SetMonitor method specifies which monitor to use. The Full Screen Renderer only supports the primary monitor, however, so this method is not useful in the current implementation.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetMonitor method","IFullScreenVideoEx.SetMonitor","IFullScreenVideoEx::SetMonitor","IFullScreenVideoSetMonitor","SetMonitor","SetMonitor method [DirectShow]","SetMonitor method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetMonitor","dshow.ifullscreenvideoex_setmonitor"]
+description: The SetMonitor method specifies which monitor to use. The Full Screen Renderer only supports the primary monitor, however, so this method is not useful in the current implementation.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","SetMonitor method","IFullScreenVideoEx.SetMonitor","IFullScreenVideoEx::SetMonitor","IFullScreenVideoSetMonitor","SetMonitor","SetMonitor method [DirectShow]","SetMonitor method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::SetMonitor","dshow.ifullscreenvideoex_setmonitor"]
 old-location: dshow\ifullscreenvideoex_setmonitor.htm
 tech.root: DirectShow
 ms.assetid: f2db1009-ce5b-4ebe-becb-bed3d1187335

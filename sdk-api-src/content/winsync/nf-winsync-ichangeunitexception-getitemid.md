@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetItemId
 title: IChangeUnitException::GetItemId (winsync.h)
-description: Gets the item ID for the item that contains the change unit that is associated with the exception.helpviewer_keywords: ["GetItemId","GetItemId method [Windows Sync]","GetItemId method [Windows Sync]","IChangeUnitException interface","IChangeUnitException interface [Windows Sync]","GetItemId method","IChangeUnitException.GetItemId","IChangeUnitException::GetItemId","winsync.ichangeunitexception_getitemid","winsync/IChangeUnitException::GetItemId"]
+description: Gets the item ID for the item that contains the change unit that is associated with the exception.
+helpviewer_keywords: ["GetItemId","GetItemId method [Windows Sync]","GetItemId method [Windows Sync]","IChangeUnitException interface","IChangeUnitException interface [Windows Sync]","GetItemId method","IChangeUnitException.GetItemId","IChangeUnitException::GetItemId","winsync.ichangeunitexception_getitemid","winsync/IChangeUnitException::GetItemId"]
 old-location: winsync\ichangeunitexception_getitemid.htm
 tech.root: winsync
 ms.assetid: d5c76ecf-bd3f-4a0a-9fba-4fd51591d39f

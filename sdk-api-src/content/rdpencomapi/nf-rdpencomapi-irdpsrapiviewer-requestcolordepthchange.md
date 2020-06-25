@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestColorDepthChange
 title: IRDPSRAPIViewer::RequestColorDepthChange (rdpencomapi.h)
-description: Requests a color depth change on the sharer Winlogon user session.helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","RequestColorDepthChange method","IRDPSRAPIViewer.RequestColorDepthChange","IRDPSRAPIViewer::RequestColorDepthChange","RequestColorDepthChange","RequestColorDepthChange method [RDP]","RequestColorDepthChange method [RDP]","IRDPSRAPIViewer interface","rdp.irdpsrapiviewer_requestcolordepthchange","rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange"]
+description: Requests a color depth change on the sharer Winlogon user session.
+helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","RequestColorDepthChange method","IRDPSRAPIViewer.RequestColorDepthChange","IRDPSRAPIViewer::RequestColorDepthChange","RequestColorDepthChange","RequestColorDepthChange method [RDP]","RequestColorDepthChange method [RDP]","IRDPSRAPIViewer interface","rdp.irdpsrapiviewer_requestcolordepthchange","rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange"]
 old-location: rdp\irdpsrapiviewer_requestcolordepthchange.htm
 tech.root: rdp
 ms.assetid: 3dd57235-89bb-4199-a95a-d8f522cda6a2

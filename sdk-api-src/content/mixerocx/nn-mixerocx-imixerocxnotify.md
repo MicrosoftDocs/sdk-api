@@ -1,7 +1,8 @@
 ---
 UID: NN:mixerocx.IMixerOCXNotify
 title: IMixerOCXNotify (mixerocx.h)
-description: The IMixerOCXNotify interface is implemented by clients and called by the Overlay Mixer to send notifications of events affecting the video display rectangle.helpviewer_keywords: ["IMixerOCXNotify","IMixerOCXNotify interface [DirectShow]","IMixerOCXNotify interface [DirectShow]","described","IMixerOCXNotifyInterface","dshow.imixerocxnotify","mixerocx/IMixerOCXNotify"]
+description: The IMixerOCXNotify interface is implemented by clients and called by the Overlay Mixer to send notifications of events affecting the video display rectangle.
+helpviewer_keywords: ["IMixerOCXNotify","IMixerOCXNotify interface [DirectShow]","IMixerOCXNotify interface [DirectShow]","described","IMixerOCXNotifyInterface","dshow.imixerocxnotify","mixerocx/IMixerOCXNotify"]
 old-location: dshow\imixerocxnotify.htm
 tech.root: DirectShow
 ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f

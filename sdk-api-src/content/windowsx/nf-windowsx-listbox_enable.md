@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_Enable
 title: ListBox_Enable macro (windowsx.h)
-description: Enables or disables a list box control.helpviewer_keywords: ["ListBox_Enable","ListBox_Enable macro [Windows Controls]","_win32_ListBox_Enable","_win32_ListBox_Enable_cpp","controls.ListBox_Enable","controls._win32_ListBox_Enable","windowsx/ListBox_Enable"]
+description: Enables or disables a list box control.
+helpviewer_keywords: ["ListBox_Enable","ListBox_Enable macro [Windows Controls]","_win32_ListBox_Enable","_win32_ListBox_Enable_cpp","controls.ListBox_Enable","controls._win32_ListBox_Enable","windowsx/ListBox_Enable"]
 old-location: controls\ListBox_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_enable.htm

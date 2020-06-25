@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevelAllChannels
 title: IPerChannelDbLevel::SetLevelAllChannels (devicetopology.h)
-description: The SetLevelAllChannels method sets the volume levels, in decibels, of all the channels in the audio stream.helpviewer_keywords: ["IPerChannelDbLevel interface [Core Audio]","SetLevelAllChannels method","IPerChannelDbLevel.SetLevelAllChannels","IPerChannelDbLevel::SetLevelAllChannels","IPerChannelDbLevelSetLevelAllChannels","SetLevelAllChannels","SetLevelAllChannels method [Core Audio]","SetLevelAllChannels method [Core Audio]","IPerChannelDbLevel interface","coreaudio.iperchanneldblevel_setlevelallchannels","devicetopology/IPerChannelDbLevel::SetLevelAllChannels"]
+description: The SetLevelAllChannels method sets the volume levels, in decibels, of all the channels in the audio stream.
+helpviewer_keywords: ["IPerChannelDbLevel interface [Core Audio]","SetLevelAllChannels method","IPerChannelDbLevel.SetLevelAllChannels","IPerChannelDbLevel::SetLevelAllChannels","IPerChannelDbLevelSetLevelAllChannels","SetLevelAllChannels","SetLevelAllChannels method [Core Audio]","SetLevelAllChannels method [Core Audio]","IPerChannelDbLevel interface","coreaudio.iperchanneldblevel_setlevelallchannels","devicetopology/IPerChannelDbLevel::SetLevelAllChannels"]
 old-location: coreaudio\iperchanneldblevel_setlevelallchannels.htm
 tech.root: CoreAudio
 ms.assetid: 92c06b38-954d-4bab-b4ea-0f30e64aa9e4

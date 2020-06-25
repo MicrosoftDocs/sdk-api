@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(const Metafile &)
 title: Metafile::Metafile(const Metafile &) (gdiplusheaders.h)
-description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.helpviewer_keywords: ["Metafile","Metafile constructors [GDI+]","Metafile.Metafile","Metafile.Metafile(const Metafile &)","Metafile::Metafile","Metafile::Metafile(const Metafile &)","_gdiplus_CLASS_Metafile_Constructors","gdiplus._gdiplus_CLASS_Metafile_Constructors","gdiplusheaders/Metafile"]
+description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
+helpviewer_keywords: ["Metafile","Metafile constructors [GDI+]","Metafile.Metafile","Metafile.Metafile(const Metafile &)","Metafile::Metafile","Metafile::Metafile(const Metafile &)","_gdiplus_CLASS_Metafile_Constructors","gdiplus._gdiplus_CLASS_Metafile_Constructors","gdiplusheaders/Metafile"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm

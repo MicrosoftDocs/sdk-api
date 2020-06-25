@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsLun2
 title: IVdsLun2 (vds.h)
-description: Provides methods for applying and querying logical unit number (LUN) hints.helpviewer_keywords: ["IVdsLun2","IVdsLun2 interface","IVdsLun2 interface","described","base.ivdslun2","vds/IVdsLun2","vdshwprv/IVdsLun2"]
+description: Provides methods for applying and querying logical unit number (LUN) hints.
+helpviewer_keywords: ["IVdsLun2","IVdsLun2 interface","IVdsLun2 interface","described","base.ivdslun2","vds/IVdsLun2","vdshwprv/IVdsLun2"]
 old-location: base\ivdslun2.htm
 tech.root: VDS
 ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038

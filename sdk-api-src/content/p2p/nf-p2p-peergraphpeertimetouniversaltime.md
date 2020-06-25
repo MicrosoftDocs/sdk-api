@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphPeerTimeToUniversalTime
 title: PeerGraphPeerTimeToUniversalTime function (p2p.h)
-description: The PeerGraphPeerTimeToUniversalTime function converts the peer graph-maintained reference time value to a localized time value appropriate for display on the peer's computer.helpviewer_keywords: ["PeerGraphPeerTimeToUniversalTime","PeerGraphPeerTimeToUniversalTime function [Peer Networking]","p2p.peergraphpeertimetouniversaltime","p2p/PeerGraphPeerTimeToUniversalTime"]
+description: The PeerGraphPeerTimeToUniversalTime function converts the peer graph-maintained reference time value to a localized time value appropriate for display on the peer's computer.
+helpviewer_keywords: ["PeerGraphPeerTimeToUniversalTime","PeerGraphPeerTimeToUniversalTime function [Peer Networking]","p2p.peergraphpeertimetouniversaltime","p2p/PeerGraphPeerTimeToUniversalTime"]
 old-location: p2p\peergraphpeertimetouniversaltime.htm
 tech.root: P2PSdk
 ms.assetid: 9cbb0b59-c116-4bd2-932f-2140595f4fad

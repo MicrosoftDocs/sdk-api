@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.SetValue
 title: ICertEncodeLongArray::SetValue (certenc.h)
-description: Sets a Long value at the specified index of the Long array.helpviewer_keywords: ["CCertEncodeLongArray object [Security]","SetValue method","ICertEncodeLongArray interface [Security]","SetValue method","ICertEncodeLongArray.SetValue","ICertEncodeLongArray::SetValue","SetValue","SetValue method [Security]","SetValue method [Security]","CCertEncodeLongArray object","SetValue method [Security]","ICertEncodeLongArray interface","_certsrv_icertencodelongarray_setvalue","certenc/ICertEncodeLongArray::SetValue","security.icertencodelongarray_setvalue"]
+description: Sets a Long value at the specified index of the Long array.
+helpviewer_keywords: ["CCertEncodeLongArray object [Security]","SetValue method","ICertEncodeLongArray interface [Security]","SetValue method","ICertEncodeLongArray.SetValue","ICertEncodeLongArray::SetValue","SetValue","SetValue method [Security]","SetValue method [Security]","CCertEncodeLongArray object","SetValue method [Security]","ICertEncodeLongArray interface","_certsrv_icertencodelongarray_setvalue","certenc/ICertEncodeLongArray::SetValue","security.icertencodelongarray_setvalue"]
 old-location: security\icertencodelongarray_setvalue.htm
 tech.root: SecCrypto
 ms.assetid: 021b2539-3226-4893-af76-9b7b1637e12e

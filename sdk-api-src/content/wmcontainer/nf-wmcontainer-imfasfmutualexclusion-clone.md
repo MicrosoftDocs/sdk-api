@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.Clone
 title: IMFASFMutualExclusion::Clone (wmcontainer.h)
-description: Creates a copy of the Advanced Systems Format mutual exclusion object.helpviewer_keywords: ["32bd09d7-9d85-4692-8b2f-6afab3234fa9","Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFASFMutualExclusion interface","IMFASFMutualExclusion interface [Media Foundation]","Clone method","IMFASFMutualExclusion.Clone","IMFASFMutualExclusion::Clone","mf.imfasfmutualexclusion_clone","wmcontainer/IMFASFMutualExclusion::Clone"]
+description: Creates a copy of the Advanced Systems Format mutual exclusion object.
+helpviewer_keywords: ["32bd09d7-9d85-4692-8b2f-6afab3234fa9","Clone","Clone method [Media Foundation]","Clone method [Media Foundation]","IMFASFMutualExclusion interface","IMFASFMutualExclusion interface [Media Foundation]","Clone method","IMFASFMutualExclusion.Clone","IMFASFMutualExclusion::Clone","mf.imfasfmutualexclusion_clone","wmcontainer/IMFASFMutualExclusion::Clone"]
 old-location: mf\imfasfmutualexclusion_clone.htm
 tech.root: medfound
 ms.assetid: 32bd09d7-9d85-4692-8b2f-6afab3234fa9

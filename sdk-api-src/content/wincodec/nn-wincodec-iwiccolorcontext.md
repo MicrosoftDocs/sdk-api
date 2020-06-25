@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICColorContext
 title: IWICColorContext (wincodec.h)
-description: Exposes methods for color management.helpviewer_keywords: ["IWICColorContext","IWICColorContext interface [Windows Imaging Component]","IWICColorContext interface [Windows Imaging Component]","described","_wic_codec_iwiccolorcontext","wic._wic_codec_iwiccolorcontext","wincodec/IWICColorContext"]
+description: Exposes methods for color management.
+helpviewer_keywords: ["IWICColorContext","IWICColorContext interface [Windows Imaging Component]","IWICColorContext interface [Windows Imaging Component]","described","_wic_codec_iwiccolorcontext","wic._wic_codec_iwiccolorcontext","wincodec/IWICColorContext"]
 old-location: wic\_wic_codec_iwiccolorcontext.htm
 tech.root: wic
 ms.assetid: b6817676-affb-4bb3-adba-e24e0b75ad10

@@ -1,7 +1,8 @@
 ---
 UID: NS:naptypes.tagNapComponentRegistrationInfo
 title: NapComponentRegistrationInfo (naptypes.h)
-description: Defines a registered NAP component such as a SHA, SHV, or enforcement client.helpviewer_keywords: ["NapComponentRegistrationInfo","NapComponentRegistrationInfo structure [NAP]","nap.napcomponentregistrationinfo_struct","naptypes/NapComponentRegistrationInfo"]
+description: Defines a registered NAP component such as a SHA, SHV, or enforcement client.
+helpviewer_keywords: ["NapComponentRegistrationInfo","NapComponentRegistrationInfo structure [NAP]","nap.napcomponentregistrationinfo_struct","naptypes/NapComponentRegistrationInfo"]
 old-location: nap\napcomponentregistrationinfo_struct.htm
 tech.root: NAP
 ms.assetid: adcc7238-d1c1-4d8c-b496-d2925bed0123

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_Request
 title: IX509SCEPEnrollment::get_Request (certenroll.h)
-description: Gets the inner PKCS10 request.helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","Request property","IX509SCEPEnrollment.Request","IX509SCEPEnrollment.get_Request","IX509SCEPEnrollment::Request","IX509SCEPEnrollment::get_Request","Request property [Security]","Request property [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::Request","certenroll/IX509SCEPEnrollment::get_Request","get_Request","security.ix509scepenrollment_request"]
+description: Gets the inner PKCS10 request.
+helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","Request property","IX509SCEPEnrollment.Request","IX509SCEPEnrollment.get_Request","IX509SCEPEnrollment::Request","IX509SCEPEnrollment::get_Request","Request property [Security]","Request property [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::Request","certenroll/IX509SCEPEnrollment::get_Request","get_Request","security.ix509scepenrollment_request"]
 old-location: security\ix509scepenrollment_request.htm
 tech.root: seccertenroll
 ms.assetid: 9446cd62-5a02-4701-8b13-9e46508fbfaa

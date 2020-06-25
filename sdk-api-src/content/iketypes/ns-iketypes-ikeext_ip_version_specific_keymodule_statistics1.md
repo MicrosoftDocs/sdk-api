@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1_
 title: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1 (iketypes.h)
-description: Various statistics specific to the keying module (IKE, Authip, and IKEv2) and IP version.helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1","IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1 structure [Filtering]","fwp.ikeext_ip_version_specific_keymodule_statistics1","iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1"]
+description: Various statistics specific to the keying module (IKE, Authip, and IKEv2) and IP version.
+helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1","IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1 structure [Filtering]","fwp.ikeext_ip_version_specific_keymodule_statistics1","iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1"]
 old-location: fwp\ikeext_ip_version_specific_keymodule_statistics1.htm
 tech.root: fwp
 ms.assetid: 45485729-dc02-4c59-83d7-0564e943e60b

@@ -73,7 +73,7 @@ When you paint with a brush, it paints in the coordinate space of the render tar
 
 You can "move" the gradient defined by an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> by changing its center and radii. 
 
-To align the content of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> to the area being painted, you can use the SetTransform method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
+To align the content of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> to the area being painted, you can use the <a href="/windows/win32/api/d2d1/nf-d2d1-settransform">SetTransform</a> method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
 
 The following illustrations show the effect of using an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle.
 

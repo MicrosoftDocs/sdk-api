@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkRecognizer2
 title: IInkRecognizer2 (msinkaut.h)
-description: Adds members to the IInkWordList2 Interface.helpviewer_keywords: ["07a493a7-4ffc-403e-8f61-1bb8233c973e","IInkRecognizer2","IInkRecognizer2 interface [Tablet PC]","IInkRecognizer2 interface [Tablet PC]","described","msinkaut/IInkRecognizer2","tablet.iinkrecognizer2"]
+description: Adds members to the IInkWordList2 Interface.
+helpviewer_keywords: ["07a493a7-4ffc-403e-8f61-1bb8233c973e","IInkRecognizer2","IInkRecognizer2 interface [Tablet PC]","IInkRecognizer2 interface [Tablet PC]","described","msinkaut/IInkRecognizer2","tablet.iinkrecognizer2"]
 old-location: tablet\iinkrecognizer2.htm
 tech.root: tablet
 ms.assetid: 07a493a7-4ffc-403e-8f61-1bb8233c973e

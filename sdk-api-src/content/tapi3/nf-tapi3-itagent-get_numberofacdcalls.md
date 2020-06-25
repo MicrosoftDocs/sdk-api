@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3.ITAgent.get_NumberOfACDCalls
 title: ITAgent::get_NumberOfACDCalls (tapi3.h)
-description: The get_NumberOfACDCalls method gets the number of ACD calls handled by this agent across all sessions.helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_NumberOfACDCalls method","ITAgent.get_NumberOfACDCalls","ITAgent::get_NumberOfACDCalls","_tapi3_itagent_get_numberofacdcalls","get_NumberOfACDCalls","get_NumberOfACDCalls method [TAPI 2.2]","get_NumberOfACDCalls method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_numberofacdcalls","tapi3cc/ITAgent::get_NumberOfACDCalls"]
+description: The get_NumberOfACDCalls method gets the number of ACD calls handled by this agent across all sessions.
+helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_NumberOfACDCalls method","ITAgent.get_NumberOfACDCalls","ITAgent::get_NumberOfACDCalls","_tapi3_itagent_get_numberofacdcalls","get_NumberOfACDCalls","get_NumberOfACDCalls method [TAPI 2.2]","get_NumberOfACDCalls method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_numberofacdcalls","tapi3cc/ITAgent::get_NumberOfACDCalls"]
 old-location: tapi3\itagent_get_numberofacdcalls.htm
 tech.root: Tapi
 ms.assetid: bef36468-8ee9-4ce2-bf8d-e2bd8c986ae3

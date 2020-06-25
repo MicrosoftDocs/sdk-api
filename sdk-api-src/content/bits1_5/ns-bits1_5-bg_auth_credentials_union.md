@@ -1,7 +1,8 @@
 ---
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0002
 title: BG_AUTH_CREDENTIALS_UNION
-description: Identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.helpviewer_keywords: ["BG_AUTH_CREDENTIALS_UNION","BG_AUTH_CREDENTIALS_UNION union [BITS]","_drz_bg_auth_credentials_union","bits.bg_auth_credentials_union","bits1_5/BG_AUTH_CREDENTIALS_UNION"]
+description: Identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
+helpviewer_keywords: ["BG_AUTH_CREDENTIALS_UNION","BG_AUTH_CREDENTIALS_UNION union [BITS]","_drz_bg_auth_credentials_union","bits.bg_auth_credentials_union","bits1_5/BG_AUTH_CREDENTIALS_UNION"]
 old-location: bits\bg_auth_credentials_union.htm
 tech.root: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetNumInterfaceSlots
 title: ID3D12ShaderReflection::GetNumInterfaceSlots (d3d12shader.h)
-description: Gets the number of interface slots in a shader.helpviewer_keywords: ["GetNumInterfaceSlots","GetNumInterfaceSlots method","GetNumInterfaceSlots method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetNumInterfaceSlots method","ID3D12ShaderReflection.GetNumInterfaceSlots","ID3D12ShaderReflection::GetNumInterfaceSlots","d3d12shader/ID3D12ShaderReflection::GetNumInterfaceSlots","direct3d12.id3d12shaderreflection_getnuminterfaceslots"]
+description: Gets the number of interface slots in a shader.
+helpviewer_keywords: ["GetNumInterfaceSlots","GetNumInterfaceSlots method","GetNumInterfaceSlots method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetNumInterfaceSlots method","ID3D12ShaderReflection.GetNumInterfaceSlots","ID3D12ShaderReflection::GetNumInterfaceSlots","d3d12shader/ID3D12ShaderReflection::GetNumInterfaceSlots","direct3d12.id3d12shaderreflection_getnuminterfaceslots"]
 old-location: direct3d12\id3d12shaderreflection_getnuminterfaceslots.htm
 tech.root: direct3d12
 ms.assetid: 9D81990B-D5C3-495F-A0AC-E43712481093

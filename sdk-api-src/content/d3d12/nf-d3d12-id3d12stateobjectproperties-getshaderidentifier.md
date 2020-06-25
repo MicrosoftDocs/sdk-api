@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.GetShaderIdentifier
 title: ID3D12StateObjectProperties::GetShaderIdentifier (d3d12.h)
-description: Retrieves the unique identifier for a shader that can be used in a shader record.helpviewer_keywords: ["GetShaderIdentifier","GetShaderIdentifier method","GetShaderIdentifier method","ID3D12StateObjectProperties interface","ID3D12StateObjectProperties interface","GetShaderIdentifier method","ID3D12StateObjectProperties.GetShaderIdentifier","ID3D12StateObjectProperties::GetShaderIdentifier","d3d12/ID3D12StateObjectProperties::GetShaderIdentifier","direct3d12.id3d12stateobjectproperties_getshaderidentifier"]
+description: Retrieves the unique identifier for a shader that can be used in a shader record.
+helpviewer_keywords: ["GetShaderIdentifier","GetShaderIdentifier method","GetShaderIdentifier method","ID3D12StateObjectProperties interface","ID3D12StateObjectProperties interface","GetShaderIdentifier method","ID3D12StateObjectProperties.GetShaderIdentifier","ID3D12StateObjectProperties::GetShaderIdentifier","d3d12/ID3D12StateObjectProperties::GetShaderIdentifier","direct3d12.id3d12stateobjectproperties_getshaderidentifier"]
 old-location: direct3d12\id3d12stateobjectproperties_getshaderidentifier.htm
 tech.root: direct3d12
 ms.assetid: E93279A1-4238-49C7-8525-EE01999454D9

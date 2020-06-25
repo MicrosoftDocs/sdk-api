@@ -1,7 +1,8 @@
 ---
 UID: NE:ntsecpkg._SECPKG_SESSIONINFO_TYPE
 title: SECPKG_SESSIONINFO_TYPE (ntsecpkg.h)
-description: Specifies the format of session information.helpviewer_keywords: ["SECPKG_SESSIONINFO_TYPE","SECPKG_SESSIONINFO_TYPE enumeration [Security]","SecSessionPrimaryCred","ntsecpkg/SECPKG_SESSIONINFO_TYPE","ntsecpkg/SecSessionPrimaryCred","security.secpkg_sessioninfo_type"]
+description: Specifies the format of session information.
+helpviewer_keywords: ["SECPKG_SESSIONINFO_TYPE","SECPKG_SESSIONINFO_TYPE enumeration [Security]","SecSessionPrimaryCred","ntsecpkg/SECPKG_SESSIONINFO_TYPE","ntsecpkg/SecSessionPrimaryCred","security.secpkg_sessioninfo_type"]
 old-location: security\secpkg_sessioninfo_type.htm
 tech.root: SecAuthN
 ms.assetid: 462b028a-9f74-4367-b89b-97fd9be301ed

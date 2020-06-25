@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_VALUE
 title: DHCP_OPTION_VALUE (dhcpsapi.h)
-description: The DHCP_OPTION_VALUE structure defines a DHCP option value (just the option data with an associated ID tag).helpviewer_keywords: ["*LPDHCP_OPTION_VALUE","DHCP_OPTION_VALUE","DHCP_OPTION_VALUE structure [DHCP]","LPDHCP_OPTION_VALUE","LPDHCP_OPTION_VALUE structure pointer [DHCP]","dhcp.dhcp_option_value","dhcpsapi/LPDHCP_OPTION_VALUE","dhcpsapi/_DHCP_OPTION_VALUE"]
+description: The DHCP_OPTION_VALUE structure defines a DHCP option value (just the option data with an associated ID tag).
+helpviewer_keywords: ["*LPDHCP_OPTION_VALUE","DHCP_OPTION_VALUE","DHCP_OPTION_VALUE structure [DHCP]","LPDHCP_OPTION_VALUE","LPDHCP_OPTION_VALUE structure pointer [DHCP]","dhcp.dhcp_option_value","dhcpsapi/LPDHCP_OPTION_VALUE","dhcpsapi/_DHCP_OPTION_VALUE"]
 old-location: dhcp\dhcp_option_value.htm
 tech.root: DHCP
 ms.assetid: 6a11cb60-2690-45d4-a5e6-a3ebdc1efe3d

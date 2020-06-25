@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.NSPStartup
 title: NSPStartup function (ws2spi.h)
-description: Retrieves the dynamic information about a provider, such as the list of the DLL entry points.helpviewer_keywords: ["NSPStartup","NSPStartup function [Winsock]","_win32_nspstartup_2","winsock.nspstartup_2","ws2spi/NSPStartup"]
+description: Retrieves the dynamic information about a provider, such as the list of the DLL entry points.
+helpviewer_keywords: ["NSPStartup","NSPStartup function [Winsock]","_win32_nspstartup_2","winsock.nspstartup_2","ws2spi/NSPStartup"]
 old-location: winsock\nspstartup_2.htm
 tech.root: WinSock
 ms.assetid: ed9e4ff3-736a-4037-bf85-5572f0cd279d

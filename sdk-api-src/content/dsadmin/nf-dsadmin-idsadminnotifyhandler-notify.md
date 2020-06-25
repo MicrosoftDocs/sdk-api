@@ -1,7 +1,8 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Notify
 title: IDsAdminNotifyHandler::Notify (dsadmin.h)
-description: Called for each object after the confirmation dialog box has been displayed and the notification handler is selected in the confirmation dialog box.helpviewer_keywords: ["IDsAdminNotifyHandler interface [Active Directory]","Notify method","IDsAdminNotifyHandler.Notify","IDsAdminNotifyHandler::Notify","Notify","Notify method [Active Directory]","Notify method [Active Directory]","IDsAdminNotifyHandler interface","_glines_idsadminnotifyhandler_notify","ad.idsadminnotifyhandler__notify","ad.idsadminnotifyhandler_notify","dsadmin/IDsAdminNotifyHandler::Notify"]
+description: Called for each object after the confirmation dialog box has been displayed and the notification handler is selected in the confirmation dialog box.
+helpviewer_keywords: ["IDsAdminNotifyHandler interface [Active Directory]","Notify method","IDsAdminNotifyHandler.Notify","IDsAdminNotifyHandler::Notify","Notify","Notify method [Active Directory]","Notify method [Active Directory]","IDsAdminNotifyHandler interface","_glines_idsadminnotifyhandler_notify","ad.idsadminnotifyhandler__notify","ad.idsadminnotifyhandler_notify","dsadmin/IDsAdminNotifyHandler::Notify"]
 old-location: ad\idsadminnotifyhandler_notify.htm
 tech.root: ad
 ms.assetid: ac0b9da5-b0e3-4280-ae9c-602e28c907b1

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.CopyTiff
 title: IFaxOutgoingJob::CopyTiff (faxcomex.h)
-description: The IFaxOutgoingJob::CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job, to a file on the local computer.helpviewer_keywords: ["CopyTiff","CopyTiff method [Fax Service]","CopyTiff method [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","CopyTiff method","IFaxOutgoingJob.CopyTiff","IFaxOutgoingJob::CopyTiff","_mfax_faxoutgoingjob.copytiff","fax._mfax_faxoutgoingjob_copytiff","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_copytiff_cpp","faxcomex/IFaxOutgoingJob::CopyTiff"]
+description: The IFaxOutgoingJob::CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax job, to a file on the local computer.
+helpviewer_keywords: ["CopyTiff","CopyTiff method [Fax Service]","CopyTiff method [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","CopyTiff method","IFaxOutgoingJob.CopyTiff","IFaxOutgoingJob::CopyTiff","_mfax_faxoutgoingjob.copytiff","fax._mfax_faxoutgoingjob_copytiff","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_copytiff_cpp","faxcomex/IFaxOutgoingJob::CopyTiff"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_copytiff_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8mli.htm

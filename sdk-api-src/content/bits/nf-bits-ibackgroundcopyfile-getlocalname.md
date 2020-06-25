@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetLocalName
 title: IBackgroundCopyFile::GetLocalName (bits.h)
-description: Retrieves the local name of the file.helpviewer_keywords: ["GetLocalName","GetLocalName method [BITS]","GetLocalName method [BITS]","IBackgroundCopyFile interface","IBackgroundCopyFile interface [BITS]","GetLocalName method","IBackgroundCopyFile.GetLocalName","IBackgroundCopyFile::GetLocalName","_drz_ibackgroundcopyfile_getlocalname","bits.ibackgroundcopyfile_getlocalname","bits/IBackgroundCopyFile::GetLocalName"]
+description: Retrieves the local name of the file.
+helpviewer_keywords: ["GetLocalName","GetLocalName method [BITS]","GetLocalName method [BITS]","IBackgroundCopyFile interface","IBackgroundCopyFile interface [BITS]","GetLocalName method","IBackgroundCopyFile.GetLocalName","IBackgroundCopyFile::GetLocalName","_drz_ibackgroundcopyfile_getlocalname","bits.ibackgroundcopyfile_getlocalname","bits/IBackgroundCopyFile::GetLocalName"]
 old-location: bits\ibackgroundcopyfile_getlocalname.htm
 tech.root: Bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634

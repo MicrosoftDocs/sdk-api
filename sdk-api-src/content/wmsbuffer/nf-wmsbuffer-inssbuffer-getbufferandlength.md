@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetBufferAndLength
 title: INSSBuffer::GetBufferAndLength (wmsbuffer.h)
-description: The GetBufferAndLength method retrieves the location and size of the used portion of the buffer controlled by the buffer object.helpviewer_keywords: ["GetBufferAndLength","GetBufferAndLength method [windows Media Format]","GetBufferAndLength method [windows Media Format]","INSSBuffer interface","INSSBuffer interface [windows Media Format]","GetBufferAndLength method","INSSBuffer.GetBufferAndLength","INSSBuffer::GetBufferAndLength","INSSBufferGetBufferAndLength","wmformat.inssbuffer_getbufferandlength","wmsbuffer/INSSBuffer::GetBufferAndLength"]
+description: The GetBufferAndLength method retrieves the location and size of the used portion of the buffer controlled by the buffer object.
+helpviewer_keywords: ["GetBufferAndLength","GetBufferAndLength method [windows Media Format]","GetBufferAndLength method [windows Media Format]","INSSBuffer interface","INSSBuffer interface [windows Media Format]","GetBufferAndLength method","INSSBuffer.GetBufferAndLength","INSSBuffer::GetBufferAndLength","INSSBufferGetBufferAndLength","wmformat.inssbuffer_getbufferandlength","wmsbuffer/INSSBuffer::GetBufferAndLength"]
 old-location: wmformat\inssbuffer_getbufferandlength.htm
 tech.root: wmformat
 ms.assetid: cb03d006-fbaa-4971-8022-41a7fa29fb87

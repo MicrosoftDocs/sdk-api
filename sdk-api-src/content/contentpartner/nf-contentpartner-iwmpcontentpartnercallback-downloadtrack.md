@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.DownloadTrack
 title: IWMPContentPartnerCallback::DownloadTrack (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["DownloadTrack","DownloadTrack method [Windows Media Player]","DownloadTrack method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","DownloadTrack method","IWMPContentPartnerCallback.DownloadTrack","IWMPContentPartnerCallback::DownloadTrack","IWMPContentPartnerCallbackDownloadTrack","contentpartner/IWMPContentPartnerCallback::DownloadTrack","wmp.iwmpcontentpartnercallback_downloadtrack"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["DownloadTrack","DownloadTrack method [Windows Media Player]","DownloadTrack method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","DownloadTrack method","IWMPContentPartnerCallback.DownloadTrack","IWMPContentPartnerCallback::DownloadTrack","IWMPContentPartnerCallbackDownloadTrack","contentpartner/IWMPContentPartnerCallback::DownloadTrack","wmp.iwmpcontentpartnercallback_downloadtrack"]
 old-location: wmp\iwmpcontentpartnercallback_downloadtrack.htm
 tech.root: WMP
 ms.assetid: fe8772fa-2eb4-4dfe-b677-e667b6021690

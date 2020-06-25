@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegQueryInfoUSKeyA
 title: SHRegQueryInfoUSKeyA function (shlwapi.h)
-description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).helpviewer_keywords: ["SHRegQueryInfoUSKey","SHRegQueryInfoUSKey function [Windows Shell]","SHRegQueryInfoUSKeyA","SHRegQueryInfoUSKeyW","_win32_SHRegQueryInfoUSKey","shell.SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKeyA","shlwapi/SHRegQueryInfoUSKeyW"]
+description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+helpviewer_keywords: ["SHRegQueryInfoUSKey","SHRegQueryInfoUSKey function [Windows Shell]","SHRegQueryInfoUSKeyA","SHRegQueryInfoUSKeyW","_win32_SHRegQueryInfoUSKey","shell.SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKey","shlwapi/SHRegQueryInfoUSKeyA","shlwapi/SHRegQueryInfoUSKeyW"]
 old-location: shell\SHRegQueryInfoUSKey.htm
 tech.root: shell
 ms.assetid: e47b4fad-50c7-43d7-82f2-6a835ac543f0
@@ -116,4 +117,9 @@ Type: <b>LSTATUS</b>
 Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines SHRegQueryInfoUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

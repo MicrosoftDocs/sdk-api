@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDestroyEnumHandle0
 title: FwpmSubLayerDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmSubLayerCreateEnumHandle0.helpviewer_keywords: ["FwpmSubLayerDestroyEnumHandle0","FwpmSubLayerDestroyEnumHandle0 function [Filtering]","fwp.fwpmsublayerdestroyenumhandle0_func","fwpmu/FwpmSubLayerDestroyEnumHandle0"]
+description: Frees a handle returned by FwpmSubLayerCreateEnumHandle0.
+helpviewer_keywords: ["FwpmSubLayerDestroyEnumHandle0","FwpmSubLayerDestroyEnumHandle0 function [Filtering]","fwp.fwpmsublayerdestroyenumhandle0_func","fwpmu/FwpmSubLayerDestroyEnumHandle0"]
 old-location: fwp\fwpmsublayerdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: ad4e5a70-a29f-44ff-a70d-3fcb31972f90

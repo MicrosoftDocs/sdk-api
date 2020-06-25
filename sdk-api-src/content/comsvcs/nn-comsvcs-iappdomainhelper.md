@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IAppDomainHelper
 title: IAppDomainHelper (comsvcs.h)
-description: Binds a managed object to an application domain, which is an isolated environment where applications execute.helpviewer_keywords: ["IAppDomainHelper","IAppDomainHelper interface [COM+]","IAppDomainHelper interface [COM+]","described","_cos_IAppDomainHelper","comsvcs/IAppDomainHelper","cos.iappdomainhelper"]
+description: Binds a managed object to an application domain, which is an isolated environment where applications execute.
+helpviewer_keywords: ["IAppDomainHelper","IAppDomainHelper interface [COM+]","IAppDomainHelper interface [COM+]","described","_cos_IAppDomainHelper","comsvcs/IAppDomainHelper","cos.iappdomainhelper"]
 old-location: cos\iappdomainhelper.htm
 tech.root: cossdk
 ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a

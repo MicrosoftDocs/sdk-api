@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RevokeEvent
 title: ISyncProviderRegistration::RevokeEvent (syncregistration.h)
-description: Unregisters the user from the notification of the arrival of new registration events.helpviewer_keywords: ["ISyncProviderRegistration interface [Windows Sync]","RevokeEvent method","ISyncProviderRegistration.RevokeEvent","ISyncProviderRegistration::RevokeEvent","RevokeEvent","RevokeEvent method [Windows Sync]","RevokeEvent method [Windows Sync]","ISyncProviderRegistration interface","syncregistration/ISyncProviderRegistration::RevokeEvent","winsync.isyncproviderregistration_revokeevent"]
+description: Unregisters the user from the notification of the arrival of new registration events.
+helpviewer_keywords: ["ISyncProviderRegistration interface [Windows Sync]","RevokeEvent method","ISyncProviderRegistration.RevokeEvent","ISyncProviderRegistration::RevokeEvent","RevokeEvent","RevokeEvent method [Windows Sync]","RevokeEvent method [Windows Sync]","ISyncProviderRegistration interface","syncregistration/ISyncProviderRegistration::RevokeEvent","winsync.isyncproviderregistration_revokeevent"]
 old-location: winsync\isyncproviderregistration_revokeevent.htm
 tech.root: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce

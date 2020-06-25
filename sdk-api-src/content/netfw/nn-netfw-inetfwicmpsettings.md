@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwIcmpSettings
 title: INetFwIcmpSettings (netfw.h)
-description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.helpviewer_keywords: ["INetFwIcmpSettings","INetFwIcmpSettings interface [ICS/ICF]","INetFwIcmpSettings interface [ICS/ICF]","described","ics.inetfwicmpsettings","netfw/INetFwIcmpSettings"]
+description: The INetFwIcmpSettings interface provides access to the settings controlling ICMP packets.
+helpviewer_keywords: ["INetFwIcmpSettings","INetFwIcmpSettings interface [ICS/ICF]","INetFwIcmpSettings interface [ICS/ICF]","described","ics.inetfwicmpsettings","netfw/INetFwIcmpSettings"]
 old-location: ics\inetfwicmpsettings.htm
 tech.root: ics
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5

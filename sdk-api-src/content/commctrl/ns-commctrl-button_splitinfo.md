@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagBUTTON_SPLITINFO
 title: BUTTON_SPLITINFO (commctrl.h)
-description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.helpviewer_keywords: ["*PBUTTON_SPLITINFO","BCSIF_GLYPH","BCSIF_IMAGE","BCSIF_SIZE","BCSIF_STYLE","BCSS_ALIGNLEFT","BCSS_IMAGE","BCSS_NOSPLIT","BCSS_STRETCH","BUTTON_SPLITINFO","BUTTON_SPLITINFO structure [Windows Controls]","PBUTTON_SPLITINFO","PBUTTON_SPLITINFO structure pointer [Windows Controls]","_shell_BUTTON_SPLITINFO_str","_shell_BUTTON_SPLITINFO_str_cpp","commctrl/BUTTON_SPLITINFO","commctrl/PBUTTON_SPLITINFO","controls.BUTTON_SPLITINFO","controls._shell_BUTTON_SPLITINFO_str"]
+description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
+helpviewer_keywords: ["*PBUTTON_SPLITINFO","BCSIF_GLYPH","BCSIF_IMAGE","BCSIF_SIZE","BCSIF_STYLE","BCSS_ALIGNLEFT","BCSS_IMAGE","BCSS_NOSPLIT","BCSS_STRETCH","BUTTON_SPLITINFO","BUTTON_SPLITINFO structure [Windows Controls]","PBUTTON_SPLITINFO","PBUTTON_SPLITINFO structure pointer [Windows Controls]","_shell_BUTTON_SPLITINFO_str","_shell_BUTTON_SPLITINFO_str_cpp","commctrl/BUTTON_SPLITINFO","commctrl/PBUTTON_SPLITINFO","controls.BUTTON_SPLITINFO","controls._shell_BUTTON_SPLITINFO_str"]
 old-location: controls\BUTTON_SPLITINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm

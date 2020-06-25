@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadWordBreaker
 title: ISearchLanguageSupport::LoadWordBreaker (searchapi.h)
-description: Retrieves an interface to the word breaker registered for the specified language code identifier (LCID).helpviewer_keywords: ["ISearchLanguageSupport interface [search]","LoadWordBreaker method","ISearchLanguageSupport.LoadWordBreaker","ISearchLanguageSupport::LoadWordBreaker","LoadWordBreaker","LoadWordBreaker method [search]","LoadWordBreaker method [search]","ISearchLanguageSupport interface","_search_ISearchLanguageSupport_LoadWordBreaker","search._search_ISearchLanguageSupport_LoadWordBreaker","searchapi/ISearchLanguageSupport::LoadWordBreaker"]
+description: Retrieves an interface to the word breaker registered for the specified language code identifier (LCID).
+helpviewer_keywords: ["ISearchLanguageSupport interface [search]","LoadWordBreaker method","ISearchLanguageSupport.LoadWordBreaker","ISearchLanguageSupport::LoadWordBreaker","LoadWordBreaker","LoadWordBreaker method [search]","LoadWordBreaker method [search]","ISearchLanguageSupport interface","_search_ISearchLanguageSupport_LoadWordBreaker","search._search_ISearchLanguageSupport_LoadWordBreaker","searchapi/ISearchLanguageSupport::LoadWordBreaker"]
 old-location: search\_search_ISearchLanguageSupport_LoadWordBreaker.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadwordbreaker.htm

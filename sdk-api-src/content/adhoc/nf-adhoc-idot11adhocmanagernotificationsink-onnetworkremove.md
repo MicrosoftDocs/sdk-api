@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkRemove
 title: IDot11AdHocManagerNotificationSink::OnNetworkRemove (adhoc.h)
-description: Notifies the client that a wireless ad hoc network destination is no longer available for connection.helpviewer_keywords: ["IDot11AdHocManagerNotificationSink interface [NativeWIFI]","OnNetworkRemove method","IDot11AdHocManagerNotificationSink.OnNetworkRemove","IDot11AdHocManagerNotificationSink::OnNetworkRemove","OnNetworkRemove","OnNetworkRemove method [NativeWIFI]","OnNetworkRemove method [NativeWIFI]","IDot11AdHocManagerNotificationSink interface","adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove","nwifi.idot11adhocmanagernotificationsink_onnetworkremove"]
+description: Notifies the client that a wireless ad hoc network destination is no longer available for connection.
+helpviewer_keywords: ["IDot11AdHocManagerNotificationSink interface [NativeWIFI]","OnNetworkRemove method","IDot11AdHocManagerNotificationSink.OnNetworkRemove","IDot11AdHocManagerNotificationSink::OnNetworkRemove","OnNetworkRemove","OnNetworkRemove method [NativeWIFI]","OnNetworkRemove method [NativeWIFI]","IDot11AdHocManagerNotificationSink interface","adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove","nwifi.idot11adhocmanagernotificationsink_onnetworkremove"]
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkremove.htm
 tech.root: NativeWiFi
 ms.assetid: 9f325b86-3aff-4344-a154-86b74a922372

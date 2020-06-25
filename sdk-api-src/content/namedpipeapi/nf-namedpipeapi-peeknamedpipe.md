@@ -1,7 +1,8 @@
 ---
 UID: NF:namedpipeapi.PeekNamedPipe
 title: PeekNamedPipe function (namedpipeapi.h)
-description: Copies data from a named or anonymous pipe into a buffer without removing it from the pipe.helpviewer_keywords: ["PeekNamedPipe","PeekNamedPipe function","_win32_peeknamedpipe","base.peeknamedpipe","namedpipeapi/PeekNamedPipe"]
+description: Copies data from a named or anonymous pipe into a buffer without removing it from the pipe.
+helpviewer_keywords: ["PeekNamedPipe","PeekNamedPipe function","_win32_peeknamedpipe","base.peeknamedpipe","namedpipeapi/PeekNamedPipe"]
 old-location: base\peeknamedpipe.htm
 tech.root: ipc
 ms.assetid: 125e0fbb-9013-4194-bc0b-1b8ea7db799e

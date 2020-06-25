@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes._WSD_METADATA_SECTION
 title: WSD_METADATA_SECTION (wsdtypes.h)
-description: Represents a section of metadata in a generic form.helpviewer_keywords: ["WSD_METADATA_SECTION","WSD_METADATA_SECTION structure","http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship","http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice","http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel","ncd.wsd_metadata_section_struct","wsdtypes/WSD_METADATA_SECTION"]
+description: Represents a section of metadata in a generic form.
+helpviewer_keywords: ["WSD_METADATA_SECTION","WSD_METADATA_SECTION structure","http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship","http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice","http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel","ncd.wsd_metadata_section_struct","wsdtypes/WSD_METADATA_SECTION"]
 old-location: ncd\wsd_metadata_section_struct.htm
 tech.root: WsdApi
 ms.assetid: e3e39d0a-6fb1-4cb9-b399-6ffe0e73ba91

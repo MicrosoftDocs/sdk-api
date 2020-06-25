@@ -1,7 +1,8 @@
 ---
 UID: NN:sbe.ISBE2MediaTypeProfile
 title: ISBE2MediaTypeProfile (sbe.h)
-description: Implements a media type profile.helpviewer_keywords: ["ISBE2MediaTypeProfile","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","described","mstv.isbe2mediatypeprofile","sbe/ISBE2MediaTypeProfile"]
+description: Implements a media type profile.
+helpviewer_keywords: ["ISBE2MediaTypeProfile","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","described","mstv.isbe2mediatypeprofile","sbe/ISBE2MediaTypeProfile"]
 old-location: mstv\isbe2mediatypeprofile.htm
 tech.root: mstv
 ms.assetid: b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf

@@ -1,7 +1,8 @@
 ---
 UID: NN:evr.IMFVideoDisplayControl
 title: IMFVideoDisplayControl (evr.h)
-description: Controls how the Enhanced Video Renderer (EVR) displays video.helpviewer_keywords: ["IMFVideoDisplayControl","IMFVideoDisplayControl interface [Media Foundation]","IMFVideoDisplayControl interface [Media Foundation]","described","db9b4663-9240-484f-8c47-cb1f5daa238d","evr/IMFVideoDisplayControl","mf.imfvideodisplaycontrol"]
+description: Controls how the Enhanced Video Renderer (EVR) displays video.
+helpviewer_keywords: ["IMFVideoDisplayControl","IMFVideoDisplayControl interface [Media Foundation]","IMFVideoDisplayControl interface [Media Foundation]","described","db9b4663-9240-484f-8c47-cb1f5daa238d","evr/IMFVideoDisplayControl","mf.imfvideodisplaycontrol"]
 old-location: mf\imfvideodisplaycontrol.htm
 tech.root: medfound
 ms.assetid: db9b4663-9240-484f-8c47-cb1f5daa238d

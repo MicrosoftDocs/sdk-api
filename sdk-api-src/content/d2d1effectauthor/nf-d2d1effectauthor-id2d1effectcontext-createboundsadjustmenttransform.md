@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateBoundsAdjustmentTransform
 title: ID2D1EffectContext::CreateBoundsAdjustmentTransform (d2d1effectauthor.h)
-description: Creates and returns a bounds adjustment transform.helpviewer_keywords: ["CreateBoundsAdjustmentTransform","CreateBoundsAdjustmentTransform method [Direct2D]","CreateBoundsAdjustmentTransform method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateBoundsAdjustmentTransform method","ID2D1EffectContext.CreateBoundsAdjustmentTransform","ID2D1EffectContext::CreateBoundsAdjustmentTransform","d2d1effectauthor/ID2D1EffectContext::CreateBoundsAdjustmentTransform","direct2d.id2d1effectcontext_createboundsadjustment"]
+description: Creates and returns a bounds adjustment transform.
+helpviewer_keywords: ["CreateBoundsAdjustmentTransform","CreateBoundsAdjustmentTransform method [Direct2D]","CreateBoundsAdjustmentTransform method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateBoundsAdjustmentTransform method","ID2D1EffectContext.CreateBoundsAdjustmentTransform","ID2D1EffectContext::CreateBoundsAdjustmentTransform","d2d1effectauthor/ID2D1EffectContext::CreateBoundsAdjustmentTransform","direct2d.id2d1effectcontext_createboundsadjustment"]
 old-location: direct2d\id2d1effectcontext_createboundsadjustment.htm
 tech.root: Direct2D
 ms.assetid: 6B6820E5-792F-447C-81C9-493FA572F61A

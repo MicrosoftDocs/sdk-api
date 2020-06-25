@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WFDOpenLegacySession
 title: WFDOpenLegacySession function (wlanapi.h)
-description: Retrieves and applies a stored profile for a Wi-Fi Direct legacy device.helpviewer_keywords: ["WFDOpenLegacySession","WFDOpenLegacySession function [NativeWIFI]","nwifi.wfdopenlegacysession","wlanapi/WFDOpenLegacySession"]
+description: Retrieves and applies a stored profile for a Wi-Fi Direct legacy device.
+helpviewer_keywords: ["WFDOpenLegacySession","WFDOpenLegacySession function [NativeWIFI]","nwifi.wfdopenlegacysession","wlanapi/WFDOpenLegacySession"]
 old-location: nwifi\wfdopenlegacysession.htm
 tech.root: NativeWiFi
 ms.assetid: D7BE8108-EF18-49FC-8B14-CED45B6C682B

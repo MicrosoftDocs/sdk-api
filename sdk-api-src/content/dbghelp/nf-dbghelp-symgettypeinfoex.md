@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetTypeInfoEx
 title: SymGetTypeInfoEx function (dbghelp.h)
-description: Retrieves multiple pieces of type information.helpviewer_keywords: ["SymGetTypeInfoEx","SymGetTypeInfoEx function","base.symgettypeinfoex","dbghelp/SymGetTypeInfoEx"]
+description: Retrieves multiple pieces of type information.
+helpviewer_keywords: ["SymGetTypeInfoEx","SymGetTypeInfoEx function","base.symgettypeinfoex","dbghelp/SymGetTypeInfoEx"]
 old-location: base\symgettypeinfoex.htm
 tech.root: Debug
 ms.assetid: 77e0a8ad-8c75-4bb2-869a-670429475ccc

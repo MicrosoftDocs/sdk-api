@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_TransmissionStart
 title: IFaxOutgoingMessage::get_TransmissionStart (faxcomex.h)
-description: The IFaxOutgoingMessage::get_TransmissionStart property indicates the time that the fax outbound message began transmitting.helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","TransmissionStart property","IFaxOutgoingMessage.TransmissionStart","IFaxOutgoingMessage.get_TransmissionStart","IFaxOutgoingMessage::TransmissionStart","IFaxOutgoingMessage::get_TransmissionStart","TransmissionStart property [Fax Service]","TransmissionStart property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.transmissionstart","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmissionstart_cpp","fax._mfax_faxoutgoingmessage_transmissionstart","faxcomex/IFaxOutgoingMessage::TransmissionStart","faxcomex/IFaxOutgoingMessage::get_TransmissionStart","get_TransmissionStart"]
+description: The IFaxOutgoingMessage::get_TransmissionStart property indicates the time that the fax outbound message began transmitting.
+helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","TransmissionStart property","IFaxOutgoingMessage.TransmissionStart","IFaxOutgoingMessage.get_TransmissionStart","IFaxOutgoingMessage::TransmissionStart","IFaxOutgoingMessage::get_TransmissionStart","TransmissionStart property [Fax Service]","TransmissionStart property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.transmissionstart","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmissionstart_cpp","fax._mfax_faxoutgoingmessage_transmissionstart","faxcomex/IFaxOutgoingMessage::TransmissionStart","faxcomex/IFaxOutgoingMessage::get_TransmissionStart","get_TransmissionStart"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_transmissionstart_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_86pg.htm

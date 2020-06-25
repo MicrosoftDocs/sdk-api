@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IComHandlerAction
 title: IComHandlerAction (taskschd.h)
-description: Represents an action that fires a handler.helpviewer_keywords: ["COM handler action [Task Scheduler]","interface","IComHandlerAction","IComHandlerAction interface [Task Scheduler]","IComHandlerAction interface [Task Scheduler]","described","taskschd.icomhandleraction","taskschd/IComHandlerAction"]
+description: Represents an action that fires a handler.
+helpviewer_keywords: ["COM handler action [Task Scheduler]","interface","IComHandlerAction","IComHandlerAction interface [Task Scheduler]","IComHandlerAction interface [Task Scheduler]","described","taskschd.icomhandleraction","taskschd/IComHandlerAction"]
 old-location: taskschd\icomhandleraction.htm
 tech.root: taskschd
 ms.assetid: fb5cc2c3-ba86-401a-b51f-b28d1f5be58f

@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMPortNumberRange
 title: WM_PORT_NUMBER_RANGE (wmsdkidl.h)
-description: The WM_PORT_NUMBER_RANGE structure describes the range of port numbers used by the IWMReaderNetworkConfig interface.helpviewer_keywords: ["WM_PORT_NUMBER_RANGE","WM_PORT_NUMBER_RANGE structure [windows Media Format]","structure [windows Media Format]","wmformat.wm_port_number_range","wmsdkidl/WM_PORT_NUMBER_RANGE"]
+description: The WM_PORT_NUMBER_RANGE structure describes the range of port numbers used by the IWMReaderNetworkConfig interface.
+helpviewer_keywords: ["WM_PORT_NUMBER_RANGE","WM_PORT_NUMBER_RANGE structure [windows Media Format]","structure [windows Media Format]","wmformat.wm_port_number_range","wmsdkidl/WM_PORT_NUMBER_RANGE"]
 old-location: wmformat\wm_port_number_range.htm
 tech.root: wmformat
 ms.assetid: 122db3fa-36bb-4d0c-9d05-0b7ae37f9187

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetNBIT
 title: IIsdbSiParser2::GetNBIT (dvbsiparser.h)
-description: Gets the network board information table (NBIT) from an Integrated Services Digital Broadcast (ISDB) transport stream. The NBIT describes the programs included in a multiplexed transport stream.helpviewer_keywords: ["GetNBIT","GetNBIT method [Microsoft TV Technologies]","GetNBIT method [Microsoft TV Technologies]","IIsdbSiParser2 interface","IIsdbSiParser2 interface [Microsoft TV Technologies]","GetNBIT method","IIsdbSiParser2.GetNBIT","IIsdbSiParser2::GetNBIT","dvbsiparser/IIsdbSiParser2::GetNBIT","mstv.iisdbsiparser2_getnbit"]
+description: Gets the network board information table (NBIT) from an Integrated Services Digital Broadcast (ISDB) transport stream. The NBIT describes the programs included in a multiplexed transport stream.
+helpviewer_keywords: ["GetNBIT","GetNBIT method [Microsoft TV Technologies]","GetNBIT method [Microsoft TV Technologies]","IIsdbSiParser2 interface","IIsdbSiParser2 interface [Microsoft TV Technologies]","GetNBIT method","IIsdbSiParser2.GetNBIT","IIsdbSiParser2::GetNBIT","dvbsiparser/IIsdbSiParser2::GetNBIT","mstv.iisdbsiparser2_getnbit"]
 old-location: mstv\iisdbsiparser2_getnbit.htm
 tech.root: mstv
 ms.assetid: 90c47d88-b364-4b42-b51b-dfa3c9eed4b0

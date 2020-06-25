@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetScopeStatistics
 title: DhcpV4FailoverGetScopeStatistics function (dhcpsapi.h)
-description: Retrieves the address usage statistics of a specific scope that is part of a failover relationship.helpviewer_keywords: ["DhcpV4FailoverGetScopeStatistics","DhcpV4FailoverGetScopeStatistics function [DHCP]","dhcp.dhcpv4failovergetscopestatistics","dhcpsapi/DhcpV4FailoverGetScopeStatistics"]
+description: Retrieves the address usage statistics of a specific scope that is part of a failover relationship.
+helpviewer_keywords: ["DhcpV4FailoverGetScopeStatistics","DhcpV4FailoverGetScopeStatistics function [DHCP]","dhcp.dhcpv4failovergetscopestatistics","dhcpsapi/DhcpV4FailoverGetScopeStatistics"]
 old-location: dhcp\dhcpv4failovergetscopestatistics.htm
 tech.root: DHCP
 ms.assetid: 888945a8-5c07-440a-ad2d-2126342facda

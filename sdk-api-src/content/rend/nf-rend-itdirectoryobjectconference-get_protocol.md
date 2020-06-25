@@ -1,7 +1,8 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Protocol
 title: ITDirectoryObjectConference::get_Protocol (rend.h)
-description: The get_Protocol method gets protocol identification.helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Protocol method","ITDirectoryObjectConference.get_Protocol","ITDirectoryObjectConference::get_Protocol","_tapi3_itdirectoryobjectconference_get_protocol","get_Protocol","get_Protocol method [TAPI 2.2]","get_Protocol method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Protocol","tapi3.itdirectoryobjectconference_get_protocol"]
+description: The get_Protocol method gets protocol identification.
+helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","get_Protocol method","ITDirectoryObjectConference.get_Protocol","ITDirectoryObjectConference::get_Protocol","_tapi3_itdirectoryobjectconference_get_protocol","get_Protocol","get_Protocol method [TAPI 2.2]","get_Protocol method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::get_Protocol","tapi3.itdirectoryobjectconference_get_protocol"]
 old-location: tapi3\itdirectoryobjectconference_get_protocol.htm
 tech.root: Tapi
 ms.assetid: 2a9d1b8e-1ebc-4a67-87cf-f88aaf25c309

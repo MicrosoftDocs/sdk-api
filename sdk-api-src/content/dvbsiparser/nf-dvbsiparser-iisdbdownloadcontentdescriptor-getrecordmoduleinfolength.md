@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength
 title: IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength (dvbsiparser.h)
-description: Gets the value of the module_info_length field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The module_info_length field gives the length of the module_info_byte field in the descriptor.helpviewer_keywords: ["GetRecordModuleInfoLength","GetRecordModuleInfoLength method [Microsoft TV Technologies]","GetRecordModuleInfoLength method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetRecordModuleInfoLength method","IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength","IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength","dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength","mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfolength"]
+description: Gets the value of the module_info_length field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The module_info_length field gives the length of the module_info_byte field in the descriptor.
+helpviewer_keywords: ["GetRecordModuleInfoLength","GetRecordModuleInfoLength method [Microsoft TV Technologies]","GetRecordModuleInfoLength method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetRecordModuleInfoLength method","IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength","IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength","dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength","mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfolength"]
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfolength.htm
 tech.root: mstv
 ms.assetid: 963f44be-e0f4-4cb7-8e71-8641af0cd700

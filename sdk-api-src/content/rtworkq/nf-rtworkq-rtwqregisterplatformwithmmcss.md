@@ -1,7 +1,8 @@
 ---
 UID: NF:rtworkq.RtwqRegisterPlatformWithMMCSS
 title: RtwqRegisterPlatformWithMMCSS function (rtworkq.h)
-description: Registers the standard platform work queues with the Multimedia Class Scheduler Service (MMCSS).helpviewer_keywords: ["RtwqRegisterPlatformWithMMCSS","RtwqRegisterPlatformWithMMCSS function","base.rtwqregisterplatformwithmmcss","rtworkq/RtwqRegisterPlatformWithMMCSS"]
+description: Registers the standard platform work queues with the Multimedia Class Scheduler Service (MMCSS).
+helpviewer_keywords: ["RtwqRegisterPlatformWithMMCSS","RtwqRegisterPlatformWithMMCSS function","base.rtwqregisterplatformwithmmcss","rtworkq/RtwqRegisterPlatformWithMMCSS"]
 old-location: base\rtwqregisterplatformwithmmcss.htm
 tech.root: ProcThread
 ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce

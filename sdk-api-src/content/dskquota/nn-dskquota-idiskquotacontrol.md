@@ -1,7 +1,8 @@
 ---
 UID: NN:dskquota.IDiskQuotaControl
 title: IDiskQuotaControl (dskquota.h)
-description: Controls the disk quota facilities of a single NTFS file system volume.helpviewer_keywords: ["IDiskQuotaControl","IDiskQuotaControl interface [Files]","IDiskQuotaControl interface [Files]","described","_win32_idiskquotacontrol","base.idiskquotacontrol","dskquota/IDiskQuotaControl","fs.idiskquotacontrol"]
+description: Controls the disk quota facilities of a single NTFS file system volume.
+helpviewer_keywords: ["IDiskQuotaControl","IDiskQuotaControl interface [Files]","IDiskQuotaControl interface [Files]","described","_win32_idiskquotacontrol","base.idiskquotacontrol","dskquota/IDiskQuotaControl","fs.idiskquotacontrol"]
 old-location: fs\idiskquotacontrol.htm
 tech.root: FileIO
 ms.assetid: fc9add5a-c9ef-462d-8125-128d48018717

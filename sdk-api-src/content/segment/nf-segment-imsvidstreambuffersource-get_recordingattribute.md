@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_RecordingAttribute
 title: IMSVidStreamBufferSource::get_RecordingAttribute (segment.h)
-description: The get_RecordingAttribute method retrieves the Stream Buffer Source filter that this object manages.helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","get_RecordingAttribute method","IMSVidStreamBufferSource.get_RecordingAttribute","IMSVidStreamBufferSource::get_RecordingAttribute","IMSVidStreamBufferSourceget_RecordingAttribute","get_RecordingAttribute","get_RecordingAttribute method [Microsoft TV Technologies]","get_RecordingAttribute method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","mstv.imsvidstreambuffersource_get_recordingattribute","segment/IMSVidStreamBufferSource::get_RecordingAttribute"]
+description: The get_RecordingAttribute method retrieves the Stream Buffer Source filter that this object manages.
+helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","get_RecordingAttribute method","IMSVidStreamBufferSource.get_RecordingAttribute","IMSVidStreamBufferSource::get_RecordingAttribute","IMSVidStreamBufferSourceget_RecordingAttribute","get_RecordingAttribute","get_RecordingAttribute method [Microsoft TV Technologies]","get_RecordingAttribute method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","mstv.imsvidstreambuffersource_get_recordingattribute","segment/IMSVidStreamBufferSource::get_RecordingAttribute"]
 old-location: mstv\imsvidstreambuffersource_get_recordingattribute.htm
 tech.root: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a

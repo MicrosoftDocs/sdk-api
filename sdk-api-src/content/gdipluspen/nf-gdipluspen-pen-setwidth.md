@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.SetWidth
 title: Pen::SetWidth (gdipluspen.h)
-description: The Pen::SetWidth method sets the width for this Pen object.helpviewer_keywords: ["Pen class [GDI+]","SetWidth method","Pen.SetWidth","Pen::SetWidth","SetWidth","SetWidth method [GDI+]","SetWidth method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetWidth_width_","gdiplus._gdiplus_CLASS_Pen_SetWidth_width_"]
+description: The Pen::SetWidth method sets the width for this Pen object.
+helpviewer_keywords: ["Pen class [GDI+]","SetWidth method","Pen.SetWidth","Pen::SetWidth","SetWidth","SetWidth method [GDI+]","SetWidth method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetWidth_width_","gdiplus._gdiplus_CLASS_Pen_SetWidth_width_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetWidth_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setwidth_58width.htm

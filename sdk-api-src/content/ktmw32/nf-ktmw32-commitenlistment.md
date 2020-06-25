@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.CommitEnlistment
 title: CommitEnlistment function (ktmw32.h)
-description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).helpviewer_keywords: ["CommitEnlistment","CommitEnlistment function [Files]","fs.commitenlistment","ktmw32/CommitEnlistment"]
+description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
+helpviewer_keywords: ["CommitEnlistment","CommitEnlistment function [Files]","fs.commitenlistment","ktmw32/CommitEnlistment"]
 old-location: fs\commitenlistment.htm
 tech.root: ktm
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10

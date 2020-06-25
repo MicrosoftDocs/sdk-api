@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Reset
 title: IAudioEndpointControl::Reset (audioengineendpoint.h)
-description: Resets the endpoint stream.helpviewer_keywords: ["IAudioEndpointControl interface [Remote Desktop Services]","Reset method","IAudioEndpointControl.Reset","IAudioEndpointControl::Reset","Reset","Reset method [Remote Desktop Services]","Reset method [Remote Desktop Services]","IAudioEndpointControl interface","audioengineendpoint/IAudioEndpointControl::Reset","termserv.iaudioendpointcontrol_reset"]
+description: Resets the endpoint stream.
+helpviewer_keywords: ["IAudioEndpointControl interface [Remote Desktop Services]","Reset method","IAudioEndpointControl.Reset","IAudioEndpointControl::Reset","Reset","Reset method [Remote Desktop Services]","Reset method [Remote Desktop Services]","IAudioEndpointControl interface","audioengineendpoint/IAudioEndpointControl::Reset","termserv.iaudioendpointcontrol_reset"]
 old-location: termserv\iaudioendpointcontrol_reset.htm
 tech.root: TermServ
 ms.assetid: f21a245c-b47b-425d-8054-330e265f16f1

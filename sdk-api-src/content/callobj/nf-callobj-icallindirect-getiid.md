@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallIndirect.GetIID
 title: ICallIndirect::GetIID (callobj.h)
-description: Retrieves the interface id supported by this ICallIndirect implementation.helpviewer_keywords: ["GetIID","GetIID method [COM]","GetIID method [COM]","ICallIndirect interface","ICallIndirect interface [COM]","GetIID method","ICallIndirect.GetIID","ICallIndirect::GetIID","_com_icallindirect_getiid","callobj/ICallIndirect::GetIID","com.icallindirect_getiid"]
+description: Retrieves the interface id supported by this ICallIndirect implementation.
+helpviewer_keywords: ["GetIID","GetIID method [COM]","GetIID method [COM]","ICallIndirect interface","ICallIndirect interface [COM]","GetIID method","ICallIndirect.GetIID","ICallIndirect::GetIID","_com_icallindirect_getiid","callobj/ICallIndirect::GetIID","com.icallindirect_getiid"]
 old-location: com\icallindirect_getiid.htm
 tech.root: com
 ms.assetid: 096bd49e-2fad-4558-98c7-c95e0dc43a65
