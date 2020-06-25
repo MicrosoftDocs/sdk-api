@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt8Array
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of unsigned 8-bit integer values.helpviewer_keywords: ["CreateUInt8Array","CreateUInt8Array method [Windows Runtime]","CreateUInt8Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt8Array method","IPropertyValueStatics.CreateUInt8Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt8Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt8Array","winrt.ipropertyvaluefactory_createuint8array","winrt.ipropertyvaluestatics_createuint8array"]
+description: Creates a new IPropertyValue object that contains the specified array of unsigned 8-bit integer values.
+helpviewer_keywords: ["CreateUInt8Array","CreateUInt8Array method [Windows Runtime]","CreateUInt8Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt8Array method","IPropertyValueStatics.CreateUInt8Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt8Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt8Array","winrt.ipropertyvaluefactory_createuint8array","winrt.ipropertyvaluestatics_createuint8array"]
 old-location: winrt\ipropertyvaluestatics_createuint8array.htm
 tech.root: WinRT
 ms.assetid: fc666379-4992-47da-b97b-b296219e26c1

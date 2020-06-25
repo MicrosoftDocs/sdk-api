@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageDataAbort.QueryAbort
 title: IShellImageDataAbort::QueryAbort (shimgdata.h)
-description: Aborts an IShellImageData process such as Decode, Draw, or Scale. This is a callback method.helpviewer_keywords: ["IShellImageDataAbort interface [Windows Shell]","QueryAbort method","IShellImageDataAbort.QueryAbort","IShellImageDataAbort::QueryAbort","QueryAbort","QueryAbort method [Windows Shell]","QueryAbort method [Windows Shell]","IShellImageDataAbort interface","_shell_IShellImageDataAbort_QueryAbort","shell.IShellImageDataAbort_QueryAbort","shimgdata/IShellImageDataAbort::QueryAbort"]
+description: Aborts an IShellImageData process such as Decode, Draw, or Scale. This is a callback method.
+helpviewer_keywords: ["IShellImageDataAbort interface [Windows Shell]","QueryAbort method","IShellImageDataAbort.QueryAbort","IShellImageDataAbort::QueryAbort","QueryAbort","QueryAbort method [Windows Shell]","QueryAbort method [Windows Shell]","IShellImageDataAbort interface","_shell_IShellImageDataAbort_QueryAbort","shell.IShellImageDataAbort_QueryAbort","shimgdata/IShellImageDataAbort::QueryAbort"]
 old-location: shell\IShellImageDataAbort_QueryAbort.htm
 tech.root: shell
 ms.assetid: 88823fe3-efde-4ee1-9b4f-685f8df03b29

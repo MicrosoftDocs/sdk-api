@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDUdpMessageParameters.GetRetransmitParams
 title: IWSDUdpMessageParameters::GetRetransmitParams (wsdbase.h)
-description: Retrieves the values that WSD uses to determine how often to repeat the message transmission.helpviewer_keywords: ["GetRetransmitParams","GetRetransmitParams method","GetRetransmitParams method","IWSDUdpMessageParameters interface","IWSDUdpMessageParameters interface","GetRetransmitParams method","IWSDUdpMessageParameters.GetRetransmitParams","IWSDUdpMessageParameters::GetRetransmitParams","ncd.iwsdudpmessageparameters_getretransmitparams","wsdbase/IWSDUdpMessageParameters::GetRetransmitParams"]
+description: Retrieves the values that WSD uses to determine how often to repeat the message transmission.
+helpviewer_keywords: ["GetRetransmitParams","GetRetransmitParams method","GetRetransmitParams method","IWSDUdpMessageParameters interface","IWSDUdpMessageParameters interface","GetRetransmitParams method","IWSDUdpMessageParameters.GetRetransmitParams","IWSDUdpMessageParameters::GetRetransmitParams","ncd.iwsdudpmessageparameters_getretransmitparams","wsdbase/IWSDUdpMessageParameters::GetRetransmitParams"]
 old-location: ncd\iwsdudpmessageparameters_getretransmitparams.htm
 tech.root: WsdApi
 ms.assetid: c34d6320-c70b-410e-ae21-fba849dac62f

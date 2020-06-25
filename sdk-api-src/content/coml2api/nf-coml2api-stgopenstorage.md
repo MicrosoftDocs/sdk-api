@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.StgOpenStorage
 title: StgOpenStorage function (coml2api.h)
-description: Opens an existing root storage object in the file system.helpviewer_keywords: ["StgOpenStorage","StgOpenStorage function [Structured Storage]","_stg_stgopenstorage","coml2api/StgOpenStorage","stg.stgopenstorage"]
+description: Opens an existing root storage object in the file system.
+helpviewer_keywords: ["StgOpenStorage","StgOpenStorage function [Structured Storage]","_stg_stgopenstorage","coml2api/StgOpenStorage","stg.stgopenstorage"]
 old-location: stg\stgopenstorage.htm
 tech.root: Stg
 ms.assetid: 5ff18dc8-b24f-42bb-8c32-efc4d3696687

@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanSetFilterList
 title: WlanSetFilterList function (wlanapi.h)
-description: Sets the permit/deny list.helpviewer_keywords: ["WlanSetFilterList","WlanSetFilterList function [NativeWIFI]","nwifi.wlansetfilterlist","wlanapi/WlanSetFilterList"]
+description: Sets the permit/deny list.
+helpviewer_keywords: ["WlanSetFilterList","WlanSetFilterList function [NativeWIFI]","nwifi.wlansetfilterlist","wlanapi/WlanSetFilterList"]
 old-location: nwifi\wlansetfilterlist.htm
 tech.root: NativeWiFi
 ms.assetid: 697682c9-cb26-42d6-86b5-d7adebcedc68

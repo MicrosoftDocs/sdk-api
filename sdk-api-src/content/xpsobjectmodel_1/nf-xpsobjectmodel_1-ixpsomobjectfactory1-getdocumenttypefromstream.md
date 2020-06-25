@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.GetDocumentTypeFromStream
 title: IXpsOMObjectFactory1::GetDocumentTypeFromStream (xpsobjectmodel_1.h)
-description: Detects the type of XPS document that is stored in the specified stream.helpviewer_keywords: ["GetDocumentTypeFromStream","GetDocumentTypeFromStream method [XPS Documents and Packaging]","GetDocumentTypeFromStream method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","GetDocumentTypeFromStream method","IXpsOMObjectFactory1.GetDocumentTypeFromStream","IXpsOMObjectFactory1::GetDocumentTypeFromStream","xps.ixpsomobjectfactory1_getdocumenttypefromstream","xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream"]
+description: Detects the type of XPS document that is stored in the specified stream.
+helpviewer_keywords: ["GetDocumentTypeFromStream","GetDocumentTypeFromStream method [XPS Documents and Packaging]","GetDocumentTypeFromStream method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","GetDocumentTypeFromStream method","IXpsOMObjectFactory1.GetDocumentTypeFromStream","IXpsOMObjectFactory1::GetDocumentTypeFromStream","xps.ixpsomobjectfactory1_getdocumenttypefromstream","xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream"]
 old-location: xps\ixpsomobjectfactory1_getdocumenttypefromstream.htm
 tech.root: printdocs
 ms.assetid: 98d5bfc1-75f7-425f-b69d-11e74c15f08e

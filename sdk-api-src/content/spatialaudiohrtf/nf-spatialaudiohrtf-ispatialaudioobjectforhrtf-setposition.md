@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetPosition
 title: ISpatialAudioObjectForHrtf::SetPosition (spatialaudiohrtf.h)
-description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObjectForHrtf audio data will be rendered.helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetPosition method","ISpatialAudioObjectForHrtf.SetPosition","ISpatialAudioObjectForHrtf::SetPosition","SetPosition","SetPosition method [Core Audio]","SetPosition method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setposition","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition"]
+description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
+helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetPosition method","ISpatialAudioObjectForHrtf.SetPosition","ISpatialAudioObjectForHrtf::SetPosition","SetPosition","SetPosition method [Core Audio]","SetPosition method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setposition","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition"]
 old-location: coreaudio\ispatialaudioobjectforhrtf_setposition.htm
 tech.root: CoreAudio
 ms.assetid: 4FB6852D-A793-43A1-A58F-E7DCFDB5BBDD

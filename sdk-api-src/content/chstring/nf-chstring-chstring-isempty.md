@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.IsEmpty
 title: CHString::IsEmpty (chstring.h)
-description: The IsEmpty method tests a CHString string for the empty condition.helpviewer_keywords: ["?IsEmpty@CHString@@QBEHXZ","?IsEmpty@CHString@@QEBAHXZ","CHString interface [Windows Management Instrumentation]","IsEmpty method","CHString.IsEmpty","CHString::IsEmpty","IsEmpty","IsEmpty method [Windows Management Instrumentation]","IsEmpty method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_isempty","chstring/CHString::IsEmpty","wmi.chstring_isempty"]
+description: The IsEmpty method tests a CHString string for the empty condition.
+helpviewer_keywords: ["?IsEmpty@CHString@@QBEHXZ","?IsEmpty@CHString@@QEBAHXZ","CHString interface [Windows Management Instrumentation]","IsEmpty method","CHString.IsEmpty","CHString::IsEmpty","IsEmpty","IsEmpty method [Windows Management Instrumentation]","IsEmpty method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_isempty","chstring/CHString::IsEmpty","wmi.chstring_isempty"]
 old-location: wmi\chstring_isempty.htm
 tech.root: WmiSdk
 ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff

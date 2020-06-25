@@ -1,7 +1,8 @@
 ---
 UID: NS:wintrust._SPC_INDIRECT_DATA_CONTENT
 title: SPC_INDIRECT_DATA_CONTENT (wintrust.h)
-description: Is used in Authenticode signatures to store the digest and other attributes of the signed file.helpviewer_keywords: ["*PSPC_INDIRECT_DATA_CONTENT","PSPC_INDIRECT_DATA_CONTENT","PSPC_INDIRECT_DATA_CONTENT structure pointer [Security]","SPC_INDIRECT_DATA_CONTENT","SPC_INDIRECT_DATA_CONTENT structure [Security]","security.spc_indirect_data_content","wintrust/PSPC_INDIRECT_DATA_CONTENT","wintrust/SPC_INDIRECT_DATA_CONTENT"]
+description: Is used in Authenticode signatures to store the digest and other attributes of the signed file.
+helpviewer_keywords: ["*PSPC_INDIRECT_DATA_CONTENT","PSPC_INDIRECT_DATA_CONTENT","PSPC_INDIRECT_DATA_CONTENT structure pointer [Security]","SPC_INDIRECT_DATA_CONTENT","SPC_INDIRECT_DATA_CONTENT structure [Security]","security.spc_indirect_data_content","wintrust/PSPC_INDIRECT_DATA_CONTENT","wintrust/SPC_INDIRECT_DATA_CONTENT"]
 old-location: security\spc_indirect_data_content.htm
 tech.root: SecCrypto
 ms.assetid: BD790CA5-9C51-4483-93C1-5492154BF913

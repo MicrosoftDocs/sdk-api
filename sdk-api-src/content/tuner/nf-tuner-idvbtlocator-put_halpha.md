@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_HAlpha
 title: IDVBTLocator::put_HAlpha (tuner.h)
-description: The put_HAlpha method sets the hierarchy alpha.helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","put_HAlpha method","IDVBTLocator.put_HAlpha","IDVBTLocator::put_HAlpha","IDVBTLocatorput_HAlpha","mstv.idvbtlocator_put_halpha","put_HAlpha","put_HAlpha method [Microsoft TV Technologies]","put_HAlpha method [Microsoft TV Technologies]","IDVBTLocator interface","tuner/IDVBTLocator::put_HAlpha"]
+description: The put_HAlpha method sets the hierarchy alpha.
+helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","put_HAlpha method","IDVBTLocator.put_HAlpha","IDVBTLocator::put_HAlpha","IDVBTLocatorput_HAlpha","mstv.idvbtlocator_put_halpha","put_HAlpha","put_HAlpha method [Microsoft TV Technologies]","put_HAlpha method [Microsoft TV Technologies]","IDVBTLocator interface","tuner/IDVBTLocator::put_HAlpha"]
 old-location: mstv\idvbtlocator_put_halpha.htm
 tech.root: mstv
 ms.assetid: 2f444c28-972e-4e90-ad99-8bc4f4ee25b7

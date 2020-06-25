@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.DeleteClusterGroupSet
 title: DeleteClusterGroupSet function (clusapi.h)
-description: Deletes the specified groupset from the cluster.helpviewer_keywords: ["DeleteClusterGroupSet","DeleteClusterGroupSet function [Failover Cluster]","PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET","PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET function [Failover Cluster]","clusapi/DeleteClusterGroupSet","clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET","mscs.deleteclustergroupcollection"]
+description: Deletes the specified groupset from the cluster.
+helpviewer_keywords: ["DeleteClusterGroupSet","DeleteClusterGroupSet function [Failover Cluster]","PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET","PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET function [Failover Cluster]","clusapi/DeleteClusterGroupSet","clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET","mscs.deleteclustergroupcollection"]
 old-location: mscs\deleteclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: 8787d61b-7a80-404c-985f-1ad4ba01acf0

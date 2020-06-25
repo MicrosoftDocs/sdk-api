@@ -1,7 +1,8 @@
 ---
 UID: NS:wsrm._RM_FEC_INFO
 title: RM_FEC_INFO (wsrm.h)
-description: The RM_FEC_INFO structure specifies settings for using forward error correction (FEC) with Reliable Multicast. This structure is used with the RM_USE_FEC socket option.helpviewer_keywords: ["RM_FEC_INFO","RM_FEC_INFO structure [Winsock]","winsock.rm_fec_info","wsrm/RM_FEC_INFO"]
+description: The RM_FEC_INFO structure specifies settings for using forward error correction (FEC) with Reliable Multicast. This structure is used with the RM_USE_FEC socket option.
+helpviewer_keywords: ["RM_FEC_INFO","RM_FEC_INFO structure [Winsock]","winsock.rm_fec_info","wsrm/RM_FEC_INFO"]
 old-location: winsock\rm_fec_info.htm
 tech.root: WinSock
 ms.assetid: c5dcf0fd-dffc-473b-a8f2-0abbaa0ec446

@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameExW
 title: SetComputerNameExW function (sysinfoapi.h)
-description: Sets a new NetBIOS or DNS name for the local computer.helpviewer_keywords: ["ComputerNamePhysicalDnsDomain","ComputerNamePhysicalDnsHostname","ComputerNamePhysicalNetBIOS","SetComputerNameEx","SetComputerNameEx function","SetComputerNameExA","SetComputerNameExW","_win32_setcomputernameex","base.setcomputernameex","sysinfoapi/SetComputerNameEx","sysinfoapi/SetComputerNameExA","sysinfoapi/SetComputerNameExW"]
+description: Sets a new NetBIOS or DNS name for the local computer.
+helpviewer_keywords: ["ComputerNamePhysicalDnsDomain","ComputerNamePhysicalDnsHostname","ComputerNamePhysicalNetBIOS","SetComputerNameEx","SetComputerNameEx function","SetComputerNameExA","SetComputerNameExW","_win32_setcomputernameex","base.setcomputernameex","sysinfoapi/SetComputerNameEx","sysinfoapi/SetComputerNameExA","sysinfoapi/SetComputerNameExW"]
 old-location: base\setcomputernameex.htm
 tech.root: SysInfo
 ms.assetid: 12163456-770c-4f9e-9261-a6ea5f2cd93a
@@ -153,6 +154,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 
+
+
+> [!NOTE]
+> The sysinfoapi.h header defines SetComputerNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

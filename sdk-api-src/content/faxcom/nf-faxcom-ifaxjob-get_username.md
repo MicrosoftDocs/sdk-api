@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxJob.get_UserName
 title: IFaxJob::get_UserName (faxcom.h)
-description: The IFaxJob::get_UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The IFaxJob::get_UserName property applies only to outgoing fax transmissions.helpviewer_keywords: ["IFaxJob interface [Fax Service]","UserName property","IFaxJob.UserName","IFaxJob.get_UserName","IFaxJob::UserName","IFaxJob::get_UserName","UserName property [Fax Service]","UserName property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_username","fax._mfax_ifaxjob_get_username","fax._mfax_ifaxjob_mfax_ifaxjob_get_username_cpp","faxcom/IFaxJob::UserName","faxcom/IFaxJob::get_UserName","get_UserName"]
+description: The IFaxJob::get_UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The IFaxJob::get_UserName property applies only to outgoing fax transmissions.
+helpviewer_keywords: ["IFaxJob interface [Fax Service]","UserName property","IFaxJob.UserName","IFaxJob.get_UserName","IFaxJob::UserName","IFaxJob::get_UserName","UserName property [Fax Service]","UserName property [Fax Service]","IFaxJob interface","_mfax_ifaxjob_get_username","fax._mfax_ifaxjob_get_username","fax._mfax_ifaxjob_mfax_ifaxjob_get_username_cpp","faxcom/IFaxJob::UserName","faxcom/IFaxJob::get_UserName","get_UserName"]
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_username_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jad.htm

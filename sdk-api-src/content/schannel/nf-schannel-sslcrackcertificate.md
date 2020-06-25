@@ -1,7 +1,8 @@
 ---
 UID: NF:schannel.SslCrackCertificate
 title: SslCrackCertificate function (schannel.h)
-description: Returns an X509Certificate structure with the information contained in the specified certificate BLOB.helpviewer_keywords: ["SslCrackCertificate","SslCrackCertificate function [Security]","schannel/SslCrackCertificate","security.sslcrackcertificate"]
+description: Returns an X509Certificate structure with the information contained in the specified certificate BLOB.
+helpviewer_keywords: ["SslCrackCertificate","SslCrackCertificate function [Security]","schannel/SslCrackCertificate","security.sslcrackcertificate"]
 old-location: security\sslcrackcertificate.htm
 tech.root: SecAuthN
 ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Pan
 title: IAMAudioInputMixer::get_Pan (strmif.h)
-description: The get_Pan method retrieves the pan level.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Pan method","IAMAudioInputMixer.get_Pan","IAMAudioInputMixer::get_Pan","IAMAudioInputMixerget_Pan","dshow.iamaudioinputmixer_get_pan","get_Pan","get_Pan method [DirectShow]","get_Pan method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Pan"]
+description: The get_Pan method retrieves the pan level.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Pan method","IAMAudioInputMixer.get_Pan","IAMAudioInputMixer::get_Pan","IAMAudioInputMixerget_Pan","dshow.iamaudioinputmixer_get_pan","get_Pan","get_Pan method [DirectShow]","get_Pan method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Pan"]
 old-location: dshow\iamaudioinputmixer_get_pan.htm
 tech.root: DirectShow
 ms.assetid: aa1aae16-484e-4f78-901e-2fdb0d8e365c

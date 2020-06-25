@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_WSTCounter
 title: IMSVidStreamBufferSink3::get_WSTCounter (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_WSTCounter method","IMSVidStreamBufferSink3.get_WSTCounter","IMSVidStreamBufferSink3::get_WSTCounter","IMSVidStreamBufferSink3get_WSTCounter","get_WSTCounter","get_WSTCounter method [Microsoft TV Technologies]","get_WSTCounter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_wstcounter","segment/IMSVidStreamBufferSink3::get_WSTCounter"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_WSTCounter method","IMSVidStreamBufferSink3.get_WSTCounter","IMSVidStreamBufferSink3::get_WSTCounter","IMSVidStreamBufferSink3get_WSTCounter","get_WSTCounter","get_WSTCounter method [Microsoft TV Technologies]","get_WSTCounter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_wstcounter","segment/IMSVidStreamBufferSink3::get_WSTCounter"]
 old-location: mstv\imsvidstreambuffersink3_get_wstcounter.htm
 tech.root: mstv
 ms.assetid: 4698bcce-e3df-4631-a363-0b3d54f8e38a

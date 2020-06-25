@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgElement
 title: ID2D1SvgElement (d2d1svg.h)
-description: Interface for all SVG elements.helpviewer_keywords: ["ID2D1SvgElement","ID2D1SvgElement interface [Direct2D]","ID2D1SvgElement interface [Direct2D]","described","d2d1svg/ID2D1SvgElement","direct2d.id2d1svgelement"]
+description: Interface for all SVG elements.
+helpviewer_keywords: ["ID2D1SvgElement","ID2D1SvgElement interface [Direct2D]","ID2D1SvgElement interface [Direct2D]","described","d2d1svg/ID2D1SvgElement","direct2d.id2d1svgelement"]
 old-location: direct2d\id2d1svgelement.htm
 tech.root: Direct2D
 ms.assetid: 19099DC9-EA14-41C5-A9DF-5EBB12696C79

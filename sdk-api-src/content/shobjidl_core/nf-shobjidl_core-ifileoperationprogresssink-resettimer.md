@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResetTimer
 title: IFileOperationProgressSink::ResetTimer (shobjidl_core.h)
-description: Not supported.helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","ResetTimer method","IFileOperationProgressSink.ResetTimer","IFileOperationProgressSink::ResetTimer","ResetTimer","ResetTimer method [Windows Shell]","ResetTimer method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_ResetTimer","shell.IFileOperationProgressSink_ResetTimer","shobjidl_core/IFileOperationProgressSink::ResetTimer"]
+description: Not supported.
+helpviewer_keywords: ["IFileOperationProgressSink interface [Windows Shell]","ResetTimer method","IFileOperationProgressSink.ResetTimer","IFileOperationProgressSink::ResetTimer","ResetTimer","ResetTimer method [Windows Shell]","ResetTimer method [Windows Shell]","IFileOperationProgressSink interface","_shell_IFileOperationProgressSink_ResetTimer","shell.IFileOperationProgressSink_ResetTimer","shobjidl_core/IFileOperationProgressSink::ResetTimer"]
 old-location: shell\IFileOperationProgressSink_ResetTimer.htm
 tech.root: shell
 ms.assetid: b753b53d-4a54-4bb2-af94-dd296f86b37a

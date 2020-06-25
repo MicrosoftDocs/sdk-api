@@ -1,7 +1,8 @@
 ---
 UID: NE:sdoias._SERVICE_TYPE
 title: SERVICE_TYPE (sdoias.h)
-description: The values of the SERVICE_TYPE enumeration type specify the type of service administered from the SDO API.helpviewer_keywords: ["SERVICE_TYPE","SERVICE_TYPE enumeration [Network Policy Server]","SERVICE_TYPE_IAS","SERVICE_TYPE_MAX","SERVICE_TYPE_RAMGMTSVC","SERVICE_TYPE_RAS","_sdo_service_type","nps.SDO_service_type","sdo.service_type","sdoias/SERVICE_TYPE","sdoias/SERVICE_TYPE_IAS","sdoias/SERVICE_TYPE_MAX","sdoias/SERVICE_TYPE_RAMGMTSVC","sdoias/SERVICE_TYPE_RAS"]
+description: The values of the SERVICE_TYPE enumeration type specify the type of service administered from the SDO API.
+helpviewer_keywords: ["SERVICE_TYPE","SERVICE_TYPE enumeration [Network Policy Server]","SERVICE_TYPE_IAS","SERVICE_TYPE_MAX","SERVICE_TYPE_RAMGMTSVC","SERVICE_TYPE_RAS","_sdo_service_type","nps.SDO_service_type","sdo.service_type","sdoias/SERVICE_TYPE","sdoias/SERVICE_TYPE_IAS","sdoias/SERVICE_TYPE_MAX","sdoias/SERVICE_TYPE_RAMGMTSVC","sdoias/SERVICE_TYPE_RAS"]
 old-location: nps\SDO_service_type.htm
 tech.root: Nps
 ms.assetid: 2ac34e5c-a14c-4657-b570-2be5e13e728d

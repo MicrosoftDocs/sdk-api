@@ -1,7 +1,8 @@
 ---
 UID: NF:traffic.TcGetFlowNameA
 title: TcGetFlowNameA function (traffic.h)
-description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.helpviewer_keywords: ["TcGetFlowName","TcGetFlowName function [QOS]","TcGetFlowNameA","TcGetFlowNameW","_gqos_tcgetflowname","qos.tcgetflowname","traffic/TcGetFlowName","traffic/TcGetFlowNameA","traffic/TcGetFlowNameW"]
+description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
+helpviewer_keywords: ["TcGetFlowName","TcGetFlowName function [QOS]","TcGetFlowNameA","TcGetFlowNameW","_gqos_tcgetflowname","qos.tcgetflowname","traffic/TcGetFlowName","traffic/TcGetFlowNameA","traffic/TcGetFlowNameW"]
 old-location: qos\tcgetflowname.htm
 tech.root: QOS
 ms.assetid: 49a78c9a-6aac-4348-9f26-dfd331dc83ec
@@ -144,6 +145,10 @@ Use of the
 
 
 
+
+
+> [!NOTE]
+> The traffic.h header defines TcGetFlowName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

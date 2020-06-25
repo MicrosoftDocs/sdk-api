@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateBrightnessEffect
 title: IDCompositionDevice3::CreateBrightnessEffect (dcomp.h)
-description: Creates an instance of IDCompositionBrightnessEffect.helpviewer_keywords: ["CreateBrightnessEffect","CreateBrightnessEffect method [DirectComposition]","CreateBrightnessEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateBrightnessEffect method","IDCompositionDevice3.CreateBrightnessEffect","IDCompositionDevice3::CreateBrightnessEffect","dcomp/IDCompositionDevice3::CreateBrightnessEffect","directcomp.idcompositiondevice3_createbrightnesseffect"]
+description: Creates an instance of IDCompositionBrightnessEffect.
+helpviewer_keywords: ["CreateBrightnessEffect","CreateBrightnessEffect method [DirectComposition]","CreateBrightnessEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateBrightnessEffect method","IDCompositionDevice3.CreateBrightnessEffect","IDCompositionDevice3::CreateBrightnessEffect","dcomp/IDCompositionDevice3::CreateBrightnessEffect","directcomp.idcompositiondevice3_createbrightnesseffect"]
 old-location: directcomp\idcompositiondevice3_createbrightnesseffect.htm
 tech.root: directcomp
 ms.assetid: 4BD16F01-6CF1-4634-9D68-A153C7AABFFD

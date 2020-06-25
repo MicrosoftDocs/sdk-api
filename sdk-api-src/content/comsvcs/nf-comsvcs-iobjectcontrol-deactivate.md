@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IObjectControl.Deactivate
 title: IObjectControl::Deactivate (comsvcs.h)
-description: Enables a COM+ object to perform required cleanup before it is recycled or destroyed.helpviewer_keywords: ["Deactivate","Deactivate method [COM+]","Deactivate method [COM+]","IObjectControl interface","IObjectControl interface [COM+]","Deactivate method","IObjectControl.Deactivate","IObjectControl::Deactivate","_cos_IObjectControl_Deactivate","comsvcs/IObjectControl::Deactivate","cos.iobjectcontrol_deactivate"]
+description: Enables a COM+ object to perform required cleanup before it is recycled or destroyed.
+helpviewer_keywords: ["Deactivate","Deactivate method [COM+]","Deactivate method [COM+]","IObjectControl interface","IObjectControl interface [COM+]","Deactivate method","IObjectControl.Deactivate","IObjectControl::Deactivate","_cos_IObjectControl_Deactivate","comsvcs/IObjectControl::Deactivate","cos.iobjectcontrol_deactivate"]
 old-location: cos\iobjectcontrol_deactivate.htm
 tech.root: cossdk
 ms.assetid: e076e7ce-867a-47ab-bd7e-9754b7d81e43

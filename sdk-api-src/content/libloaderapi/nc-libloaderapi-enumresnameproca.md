@@ -1,7 +1,8 @@
 ---
 UID: NC:libloaderapi.ENUMRESNAMEPROCA
 title: ENUMRESNAMEPROCA (libloaderapi.h)
-description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions.helpviewer_keywords: ["EnumResNameProc","EnumResNameProc callback","EnumResNameProc callback function [Menus and Other Resources]","EnumResNameProcA","EnumResNameProcW","_win32_EnumResNameProc","_win32_enumresnameproc_cpp","libloaderapi/EnumResNameProc","libloaderapi/EnumResNameProcA","libloaderapi/EnumResNameProcW","menurc.enumresnameproc","winui._win32_enumresnameproc"]
+description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions.
+helpviewer_keywords: ["EnumResNameProc","EnumResNameProc callback","EnumResNameProc callback function [Menus and Other Resources]","EnumResNameProcA","EnumResNameProcW","_win32_EnumResNameProc","_win32_enumresnameproc_cpp","libloaderapi/EnumResNameProc","libloaderapi/EnumResNameProcA","libloaderapi/EnumResNameProcW","menurc.enumresnameproc","winui._win32_enumresnameproc"]
 old-location: menurc\enumresnameproc.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresnameproc.htm
@@ -118,6 +119,10 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 
 
 
+
+
+> [!NOTE]
+> The libloaderapi.h header defines ENUMRESNAMEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

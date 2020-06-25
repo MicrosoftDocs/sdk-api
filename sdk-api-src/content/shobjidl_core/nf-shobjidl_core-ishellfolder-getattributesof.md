@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.GetAttributesOf
 title: IShellFolder::GetAttributesOf (shobjidl_core.h)
-description: Gets the attributes of one or more file or folder objects contained in the object represented by IShellFolder.helpviewer_keywords: ["GetAttributesOf","GetAttributesOf method [Windows Shell]","GetAttributesOf method [Windows Shell]","IShellFolder interface","GetAttributesOf method [Windows Shell]","IShellFolder2 interface","IShellFolder interface [Windows Shell]","GetAttributesOf method","IShellFolder.GetAttributesOf","IShellFolder2 interface [Windows Shell]","GetAttributesOf method","IShellFolder2::GetAttributesOf","IShellFolder::GetAttributesOf","_win32_IShellFolder_GetAttributesOf","shell.IShellFolder_GetAttributesOf","shobjidl_core/IShellFolder2::GetAttributesOf","shobjidl_core/IShellFolder::GetAttributesOf"]
+description: Gets the attributes of one or more file or folder objects contained in the object represented by IShellFolder.
+helpviewer_keywords: ["GetAttributesOf","GetAttributesOf method [Windows Shell]","GetAttributesOf method [Windows Shell]","IShellFolder interface","GetAttributesOf method [Windows Shell]","IShellFolder2 interface","IShellFolder interface [Windows Shell]","GetAttributesOf method","IShellFolder.GetAttributesOf","IShellFolder2 interface [Windows Shell]","GetAttributesOf method","IShellFolder2::GetAttributesOf","IShellFolder::GetAttributesOf","_win32_IShellFolder_GetAttributesOf","shell.IShellFolder_GetAttributesOf","shobjidl_core/IShellFolder2::GetAttributesOf","shobjidl_core/IShellFolder::GetAttributesOf"]
 old-location: shell\IShellFolder_GetAttributesOf.htm
 tech.root: shell
 ms.assetid: 3864b386-7653-4661-880c-e96c08ff0dbb

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_PropertySet_GetElementCount
 title: MI_PropertySet_GetElementCount function (mi.h)
-description: Gets the number of elements in the specified property set.helpviewer_keywords: ["MI_PropertySet_GetElementCount","MI_PropertySet_GetElementCount function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_GetElementCount","wmi_v2.mi_propertyset_getelementcount"]
+description: Gets the number of elements in the specified property set.
+helpviewer_keywords: ["MI_PropertySet_GetElementCount","MI_PropertySet_GetElementCount function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_GetElementCount","wmi_v2.mi_propertyset_getelementcount"]
 old-location: wmi_v2\mi_propertyset_getelementcount.htm
 tech.root: wmi_v2
 ms.assetid: 450f778c-6b59-4c01-9c21-7f96f28ebe26

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.ReleaseKernelHandle
 title: IDirectDrawKernel::ReleaseKernelHandle (ddkernel.h)
-description: The IDirectDrawKernel::ReleaseKernelHandle method releases a kernel-mode handle to the DirectDraw object.helpviewer_keywords: ["IDirectDrawKernel interface [Display Devices]","ReleaseKernelHandle method","IDirectDrawKernel.ReleaseKernelHandle","IDirectDrawKernel::ReleaseKernelHandle","ReleaseKernelHandle","ReleaseKernelHandle method [Display Devices]","ReleaseKernelHandle method [Display Devices]","IDirectDrawKernel interface","ddfncs_5bb4adb5-8149-43bf-9a1a-b6447a68adac.xml","ddkernel/IDirectDrawKernel::ReleaseKernelHandle","display.idirectdrawkernel_releasekernelhandle"]
+description: The IDirectDrawKernel::ReleaseKernelHandle method releases a kernel-mode handle to the DirectDraw object.
+helpviewer_keywords: ["IDirectDrawKernel interface [Display Devices]","ReleaseKernelHandle method","IDirectDrawKernel.ReleaseKernelHandle","IDirectDrawKernel::ReleaseKernelHandle","ReleaseKernelHandle","ReleaseKernelHandle method [Display Devices]","ReleaseKernelHandle method [Display Devices]","IDirectDrawKernel interface","ddfncs_5bb4adb5-8149-43bf-9a1a-b6447a68adac.xml","ddkernel/IDirectDrawKernel::ReleaseKernelHandle","display.idirectdrawkernel_releasekernelhandle"]
 old-location: display\idirectdrawkernel_releasekernelhandle.htm
 tech.root: display
 ms.assetid: bbf3df75-f061-44d8-9ad4-e8524b6cb186

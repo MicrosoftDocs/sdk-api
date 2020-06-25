@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Size.Size
 title: Size::Size (gdiplustypes.h)
-description: Creates a new Size object and initializes the members to zero. This is the default constructor.helpviewer_keywords: ["Size","Size class [GDI+]","Size constructor","Size constructor [GDI+]","Size constructor [GDI+]","Size class","Size.Size","Size.Size()","Size::Size","_gdiplus_CLASS_Size_Size_","gdiplus._gdiplus_CLASS_Size_Size_"]
+description: Creates a new Size object and initializes the members to zero. This is the default constructor.
+helpviewer_keywords: ["Size","Size class [GDI+]","Size constructor","Size constructor [GDI+]","Size constructor [GDI+]","Size class","Size.Size","Size.Size()","Size::Size","_gdiplus_CLASS_Size_Size_","gdiplus._gdiplus_CLASS_Size_Size_"]
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm

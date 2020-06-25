@@ -1,7 +1,8 @@
 ---
 UID: NS:mfidl._MF_TRANSCODE_SINK_INFO
 title: MF_TRANSCODE_SINK_INFO (mfidl.h)
-description: Contains information about the audio and video streams for the transcode sink activation object.helpviewer_keywords: ["MF_TRANSCODE_SINK_INFO","MF_TRANSCODE_SINK_INFO structure [Media Foundation]","mf.mf_transcode_sink_info","mfidl/MF_TRANSCODE_SINK_INFO"]
+description: Contains information about the audio and video streams for the transcode sink activation object.
+helpviewer_keywords: ["MF_TRANSCODE_SINK_INFO","MF_TRANSCODE_SINK_INFO structure [Media Foundation]","mf.mf_transcode_sink_info","mfidl/MF_TRANSCODE_SINK_INFO"]
 old-location: mf\mf_transcode_sink_info.htm
 tech.root: medfound
 ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c

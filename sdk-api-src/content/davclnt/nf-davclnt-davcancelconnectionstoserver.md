@@ -1,7 +1,8 @@
 ---
 UID: NF:davclnt.DavCancelConnectionsToServer
 title: DavCancelConnectionsToServer function (davclnt.h)
-description: Closes all connections to a WebDAV server or a remote file or directory on a WebDAV server.helpviewer_keywords: ["DavCancelConnectionsToServer","DavCancelConnectionsToServer function [WebDAV]","davclnt/DavCancelConnectionsToServer","webdav.davcancelconnectionstoserver"]
+description: Closes all connections to a WebDAV server or a remote file or directory on a WebDAV server.
+helpviewer_keywords: ["DavCancelConnectionsToServer","DavCancelConnectionsToServer function [WebDAV]","davclnt/DavCancelConnectionsToServer","webdav.davcancelconnectionstoserver"]
 old-location: webdav\davcancelconnectionstoserver.htm
 tech.root: WebDAV
 ms.assetid: 6eb3b011-4cd3-45ec-a07e-c8743d35a176

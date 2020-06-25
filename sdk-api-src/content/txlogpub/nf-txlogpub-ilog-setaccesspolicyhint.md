@@ -1,7 +1,8 @@
 ---
 UID: NF:txlogpub.ILog.SetAccessPolicyHint
 title: ILog::SetAccessPolicyHint (txlogpub.h)
-description: Provides a hint to the implementation about the pattern in which records will be read.helpviewer_keywords: ["ILog interface [COM]","SetAccessPolicyHint method","ILog.SetAccessPolicyHint","ILog::SetAccessPolicyHint","SetAccessPolicyHint","SetAccessPolicyHint method [COM]","SetAccessPolicyHint method [COM]","ILog interface","_com_ilog_setaccesspolicyhint","com.ilog_setaccesspolicyhint","txlogpub/ILog::SetAccessPolicyHint"]
+description: Provides a hint to the implementation about the pattern in which records will be read.
+helpviewer_keywords: ["ILog interface [COM]","SetAccessPolicyHint method","ILog.SetAccessPolicyHint","ILog::SetAccessPolicyHint","SetAccessPolicyHint","SetAccessPolicyHint method [COM]","SetAccessPolicyHint method [COM]","ILog interface","_com_ilog_setaccesspolicyhint","com.ilog_setaccesspolicyhint","txlogpub/ILog::SetAccessPolicyHint"]
 old-location: com\ilog_setaccesspolicyhint.htm
 tech.root: com
 ms.assetid: a0a34300-e5de-4e47-9c61-389272283b61

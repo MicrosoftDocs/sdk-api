@@ -1,7 +1,8 @@
 ---
 UID: NN:audioclient.IAudioCaptureClient
 title: IAudioCaptureClient (audioclient.h)
-description: The IAudioCaptureClient interface enables a client to read input data from a capture endpoint buffer.helpviewer_keywords: ["IAudioCaptureClient","IAudioCaptureClient interface [Core Audio]","IAudioCaptureClient interface [Core Audio]","described","audioclient/IAudioCaptureClient","coreaudio.iaudiocaptureclient"]
+description: The IAudioCaptureClient interface enables a client to read input data from a capture endpoint buffer.
+helpviewer_keywords: ["IAudioCaptureClient","IAudioCaptureClient interface [Core Audio]","IAudioCaptureClient interface [Core Audio]","described","audioclient/IAudioCaptureClient","coreaudio.iaudiocaptureclient"]
 old-location: coreaudio\iaudiocaptureclient.htm
 tech.root: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4

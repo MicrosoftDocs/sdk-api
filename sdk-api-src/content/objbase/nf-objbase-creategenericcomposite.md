@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CreateGenericComposite
 title: CreateGenericComposite function (objbase.h)
-description: Performs a generic composition of two monikers and supplies a pointer to the resulting composite moniker.helpviewer_keywords: ["CreateGenericComposite","CreateGenericComposite function [COM]","_com_CreateGenericComposite","com.creategenericcomposite","objbase/CreateGenericComposite"]
+description: Performs a generic composition of two monikers and supplies a pointer to the resulting composite moniker.
+helpviewer_keywords: ["CreateGenericComposite","CreateGenericComposite function [COM]","_com_CreateGenericComposite","com.creategenericcomposite","objbase/CreateGenericComposite"]
 old-location: com\creategenericcomposite.htm
 tech.root: com
 ms.assetid: 7fe5b3ff-6e9b-4a28-93d3-52c76d3e8b77

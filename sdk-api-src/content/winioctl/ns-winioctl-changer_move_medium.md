@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._CHANGER_MOVE_MEDIUM
 title: CHANGER_MOVE_MEDIUM
-description: Contains information that the IOCTL_CHANGER_MOVE_MEDIUM control code uses to move a piece of media to a destination.helpviewer_keywords: ["*PCHANGER_MOVE_MEDIUM","CHANGER_MOVE_MEDIUM","CHANGER_MOVE_MEDIUM structure","PCHANGER_MOVE_MEDIUM","PCHANGER_MOVE_MEDIUM structure pointer","_win32_changer_move_medium_str","base.changer_move_medium_str","winioctl/CHANGER_MOVE_MEDIUM","winioctl/PCHANGER_MOVE_MEDIUM"]
+description: Contains information that the IOCTL_CHANGER_MOVE_MEDIUM control code uses to move a piece of media to a destination.
+helpviewer_keywords: ["*PCHANGER_MOVE_MEDIUM","CHANGER_MOVE_MEDIUM","CHANGER_MOVE_MEDIUM structure","PCHANGER_MOVE_MEDIUM","PCHANGER_MOVE_MEDIUM structure pointer","_win32_changer_move_medium_str","base.changer_move_medium_str","winioctl/CHANGER_MOVE_MEDIUM","winioctl/PCHANGER_MOVE_MEDIUM"]
 old-location: base\changer_move_medium_str.htm
 tech.root: devio
 ms.assetid: 9a837686-c081-4365-9560-be64c5d343cb

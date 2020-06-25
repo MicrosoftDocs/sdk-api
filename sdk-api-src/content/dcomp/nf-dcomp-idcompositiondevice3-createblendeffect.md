@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateBlendEffect
 title: IDCompositionDevice3::CreateBlendEffect (dcomp.h)
-description: Creates an instance of IDCompositionBlendEffect.helpviewer_keywords: ["CreateBlendEffect","CreateBlendEffect method [DirectComposition]","CreateBlendEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateBlendEffect method","IDCompositionDevice3.CreateBlendEffect","IDCompositionDevice3::CreateBlendEffect","dcomp/IDCompositionDevice3::CreateBlendEffect","directcomp.idcompositiondevice3_createblendeffect"]
+description: Creates an instance of IDCompositionBlendEffect.
+helpviewer_keywords: ["CreateBlendEffect","CreateBlendEffect method [DirectComposition]","CreateBlendEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateBlendEffect method","IDCompositionDevice3.CreateBlendEffect","IDCompositionDevice3::CreateBlendEffect","dcomp/IDCompositionDevice3::CreateBlendEffect","directcomp.idcompositiondevice3_createblendeffect"]
 old-location: directcomp\idcompositiondevice3_createblendeffect.htm
 tech.root: directcomp
 ms.assetid: 20E05261-E5B6-4F48-B595-F2AD8B96AB2E

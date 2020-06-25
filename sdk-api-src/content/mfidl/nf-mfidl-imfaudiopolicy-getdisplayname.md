@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.GetDisplayName
 title: IMFAudioPolicy::GetDisplayName (mfidl.h)
-description: Retrieves the display name of the audio session. The Windows volume control displays this name.helpviewer_keywords: ["7826b4a1-5887-46a5-b312-91159596ccf5","GetDisplayName","GetDisplayName method [Media Foundation]","GetDisplayName method [Media Foundation]","IMFAudioPolicy interface","IMFAudioPolicy interface [Media Foundation]","GetDisplayName method","IMFAudioPolicy.GetDisplayName","IMFAudioPolicy::GetDisplayName","mf.imfaudiopolicy_getdisplayname","mfidl/IMFAudioPolicy::GetDisplayName"]
+description: Retrieves the display name of the audio session. The Windows volume control displays this name.
+helpviewer_keywords: ["7826b4a1-5887-46a5-b312-91159596ccf5","GetDisplayName","GetDisplayName method [Media Foundation]","GetDisplayName method [Media Foundation]","IMFAudioPolicy interface","IMFAudioPolicy interface [Media Foundation]","GetDisplayName method","IMFAudioPolicy.GetDisplayName","IMFAudioPolicy::GetDisplayName","mf.imfaudiopolicy_getdisplayname","mfidl/IMFAudioPolicy::GetDisplayName"]
 old-location: mf\imfaudiopolicy_getdisplayname.htm
 tech.root: medfound
 ms.assetid: 7826b4a1-5887-46a5-b312-91159596ccf5

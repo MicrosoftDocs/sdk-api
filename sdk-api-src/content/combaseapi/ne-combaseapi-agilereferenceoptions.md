@@ -1,7 +1,8 @@
 ---
 UID: NE:combaseapi.AgileReferenceOptions
 title: AgileReferenceOptions (combaseapi.h)
-description: Specifies options for the RoGetAgileReference function.helpviewer_keywords: ["AGILEREFERENCE_DEFAULT","AGILEREFERENCE_DELAYEDMARSHAL","AgileReferenceOptions","AgileReferenceOptions enumeration [Windows Runtime]","combaseapi/AGILEREFERENCE_DEFAULT","combaseapi/AGILEREFERENCE_DELAYEDMARSHAL","combaseapi/AgileReferenceOptions","winrt.agilereferenceoptions"]
+description: Specifies options for the RoGetAgileReference function.
+helpviewer_keywords: ["AGILEREFERENCE_DEFAULT","AGILEREFERENCE_DELAYEDMARSHAL","AgileReferenceOptions","AgileReferenceOptions enumeration [Windows Runtime]","combaseapi/AGILEREFERENCE_DEFAULT","combaseapi/AGILEREFERENCE_DELAYEDMARSHAL","combaseapi/AgileReferenceOptions","winrt.agilereferenceoptions"]
 old-location: winrt\agilereferenceoptions.htm
 tech.root: WinRT
 ms.assetid: F46FD597-F278-4DA8-BC94-26836684AD7E

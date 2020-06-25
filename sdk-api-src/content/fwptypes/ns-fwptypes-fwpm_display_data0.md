@@ -1,7 +1,8 @@
 ---
 UID: NS:fwptypes.FWPM_DISPLAY_DATA0_
 title: FWPM_DISPLAY_DATA0 (fwptypes.h)
-description: Stores an optional friendly name and an optional description for an object.helpviewer_keywords: ["FWPM_DISPLAY_DATA0","FWPM_DISPLAY_DATA0 structure [Filtering]","FWPM_DISPLAY_DATA0_","fwp.fwpm_display_data0_struct","fwptypes/FWPM_DISPLAY_DATA0"]
+description: Stores an optional friendly name and an optional description for an object.
+helpviewer_keywords: ["FWPM_DISPLAY_DATA0","FWPM_DISPLAY_DATA0 structure [Filtering]","FWPM_DISPLAY_DATA0_","fwp.fwpm_display_data0_struct","fwptypes/FWPM_DISPLAY_DATA0"]
 old-location: fwp\fwpm_display_data0_struct.htm
 tech.root: fwp
 ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5

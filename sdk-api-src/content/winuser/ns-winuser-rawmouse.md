@@ -447,4 +447,3 @@ if ((rawMouse.usButtonFlags & RI_MOUSE_WHEEL) == RI_MOUSE_WHEEL ||
 [Mouse Input Notifications (legacy)](https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications)
 
 [SystemParametersInfo](nf-winuser-systemparametersinfoa.md)
-

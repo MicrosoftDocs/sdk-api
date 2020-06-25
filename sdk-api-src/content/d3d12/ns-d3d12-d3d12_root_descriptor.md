@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_DESCRIPTOR
 title: D3D12_ROOT_DESCRIPTOR (d3d12.h)
-description: Describes descriptors inline in the root signature version 1.0 that appear in shaders.helpviewer_keywords: ["D3D12_ROOT_DESCRIPTOR","D3D12_ROOT_DESCRIPTOR structure","d3d12/D3D12_ROOT_DESCRIPTOR","direct3d12.d3d12_root_descriptor"]
+description: Describes descriptors inline in the root signature version 1.0 that appear in shaders.
+helpviewer_keywords: ["D3D12_ROOT_DESCRIPTOR","D3D12_ROOT_DESCRIPTOR structure","d3d12/D3D12_ROOT_DESCRIPTOR","direct3d12.d3d12_root_descriptor"]
 old-location: direct3d12\d3d12_root_descriptor.htm
 tech.root: direct3d12
 ms.assetid: F3ABC3B7-AD09-4CD6-9BE9-E30FAFD6E4F3

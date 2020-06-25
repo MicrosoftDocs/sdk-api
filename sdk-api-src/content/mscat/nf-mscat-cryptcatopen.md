@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.CryptCATOpen
 title: CryptCATOpen function (mscat.h)
-description: Opens a catalog and returns a context handle to the open catalog.helpviewer_keywords: ["CRYPTCAT_OPEN_ALWAYS","CRYPTCAT_OPEN_CREATENEW","CRYPTCAT_VERSION_1","CRYPTCAT_VERSION_2","CryptCATOpen","CryptCATOpen function [Security]","mscat/CryptCATOpen","security.cryptcatopen"]
+description: Opens a catalog and returns a context handle to the open catalog.
+helpviewer_keywords: ["CRYPTCAT_OPEN_ALWAYS","CRYPTCAT_OPEN_CREATENEW","CRYPTCAT_VERSION_1","CRYPTCAT_VERSION_2","CryptCATOpen","CryptCATOpen function [Security]","mscat/CryptCATOpen","security.cryptcatopen"]
 old-location: security\cryptcatopen.htm
 tech.root: SecCrypto
 ms.assetid: e81f3a3d-d5b7-4266-838d-b83e331c8594

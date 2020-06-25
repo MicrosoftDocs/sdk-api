@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
 title: IAppxManifestMainPackageDependenciesEnumerator::GetCurrent (appxpackaging.h)
-description: Gets the &lt;MainPackageDependency&gt; element at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxManifestMainPackageDependenciesEnumerator interface","IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management]","GetCurrent method","IAppxManifestMainPackageDependenciesEnumerator.GetCurrent","IAppxManifestMainPackageDependenciesEnumerator::GetCurrent","appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::GetCurrent","appxpkg.iappxmanifestmainpackagedependenciesenumerator_getcurrent"]
+description: Gets the &lt;MainPackageDependency&gt; element at the current position of the enumerator.
+helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxManifestMainPackageDependenciesEnumerator interface","IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management]","GetCurrent method","IAppxManifestMainPackageDependenciesEnumerator.GetCurrent","IAppxManifestMainPackageDependenciesEnumerator::GetCurrent","appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::GetCurrent","appxpkg.iappxmanifestmainpackagedependenciesenumerator_getcurrent"]
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: 14C7F3F9-38FE-4FC2-9255-0A728A1488C0

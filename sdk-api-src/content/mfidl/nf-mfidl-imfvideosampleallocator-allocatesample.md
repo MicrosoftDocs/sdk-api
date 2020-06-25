@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.AllocateSample
 title: IMFVideoSampleAllocator::AllocateSample (mfidl.h)
-description: Gets a video sample from the allocator.helpviewer_keywords: ["AllocateSample","AllocateSample method [Media Foundation]","AllocateSample method [Media Foundation]","IMFVideoSampleAllocator interface","IMFVideoSampleAllocator interface [Media Foundation]","AllocateSample method","IMFVideoSampleAllocator.AllocateSample","IMFVideoSampleAllocator::AllocateSample","e5347cef-edbd-4f6a-88c9-042e53515a32","mf.imfvideosampleallocator_allocatesample","mfidl/IMFVideoSampleAllocator::AllocateSample"]
+description: Gets a video sample from the allocator.
+helpviewer_keywords: ["AllocateSample","AllocateSample method [Media Foundation]","AllocateSample method [Media Foundation]","IMFVideoSampleAllocator interface","IMFVideoSampleAllocator interface [Media Foundation]","AllocateSample method","IMFVideoSampleAllocator.AllocateSample","IMFVideoSampleAllocator::AllocateSample","e5347cef-edbd-4f6a-88c9-042e53515a32","mf.imfvideosampleallocator_allocatesample","mfidl/IMFVideoSampleAllocator::AllocateSample"]
 old-location: mf\imfvideosampleallocator_allocatesample.htm
 tech.root: medfound
 ms.assetid: e5347cef-edbd-4f6a-88c9-042e53515a32

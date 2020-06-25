@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiGetPatchInfoExW
 title: MsiGetPatchInfoExW function (msi.h)
-description: Queries for information about the application of a patch to a specified instance of a product.helpviewer_keywords: ["INSTALLPROPERTY_DISPLAYNAME","INSTALLPROPERTY_INSTALLDATE","INSTALLPROPERTY_LOCALPACKAGE","INSTALLPROPERTY_MOREINFOURL","INSTALLPROPERTY_PATCHSTATE","INSTALLPROPERTY_TRANSFORMS","INSTALLPROPERTY_UNINSTALLABLE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetPatchInfoEx","MsiGetPatchInfoEx function","MsiGetPatchInfoExA","MsiGetPatchInfoExW","NULL","User SID","msi/MsiGetPatchInfoEx","msi/MsiGetPatchInfoExA","msi/MsiGetPatchInfoExW","setup.msigetpatchinfoex"]
+description: Queries for information about the application of a patch to a specified instance of a product.
+helpviewer_keywords: ["INSTALLPROPERTY_DISPLAYNAME","INSTALLPROPERTY_INSTALLDATE","INSTALLPROPERTY_LOCALPACKAGE","INSTALLPROPERTY_MOREINFOURL","INSTALLPROPERTY_PATCHSTATE","INSTALLPROPERTY_TRANSFORMS","INSTALLPROPERTY_UNINSTALLABLE","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiGetPatchInfoEx","MsiGetPatchInfoEx function","MsiGetPatchInfoExA","MsiGetPatchInfoExW","NULL","User SID","msi/MsiGetPatchInfoEx","msi/MsiGetPatchInfoExA","msi/MsiGetPatchInfoExW","setup.msigetpatchinfoex"]
 old-location: setup\msigetpatchinfoex.htm
 tech.root: Msi
 ms.assetid: 18acad03-7794-4c29-8cac-1dd3ea64369a
@@ -387,6 +388,10 @@ A user may query patch data for any product instance that is visible. The admini
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetPatchInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

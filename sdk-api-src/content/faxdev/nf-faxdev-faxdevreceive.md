@@ -1,7 +1,8 @@
 ---
 UID: NF:faxdev.FaxDevReceive
 title: FaxDevReceive function (faxdev.h)
-description: The fax service calls the FaxDevReceive function to signal an incoming fax transmission to the fax service provider (FSP). Each FSP must export the FaxDevReceive function.helpviewer_keywords: ["FaxDevReceive","FaxDevReceive function [Fax Service]","_mfax_faxdevreceive","fax._mfax_faxdevreceive","faxdev/FaxDevReceive"]
+description: The fax service calls the FaxDevReceive function to signal an incoming fax transmission to the fax service provider (FSP). Each FSP must export the FaxDevReceive function.
+helpviewer_keywords: ["FaxDevReceive","FaxDevReceive function [Fax Service]","_mfax_faxdevreceive","fax._mfax_faxdevreceive","faxdev/FaxDevReceive"]
 old-location: fax\_mfax_faxdevreceive.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_31lx.htm

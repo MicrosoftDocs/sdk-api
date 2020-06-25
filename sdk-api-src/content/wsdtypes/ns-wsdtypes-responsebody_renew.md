@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_4
 title: RESPONSEBODY_Renew (wsdtypes.h)
-description: Represents a WS-Eventing Renew response message.helpviewer_keywords: ["RESPONSEBODY_Renew","RESPONSEBODY_Renew structure","ncd.responsebody_renew_struct","wsdtypes/RESPONSEBODY_Renew"]
+description: Represents a WS-Eventing Renew response message.
+helpviewer_keywords: ["RESPONSEBODY_Renew","RESPONSEBODY_Renew structure","ncd.responsebody_renew_struct","wsdtypes/RESPONSEBODY_Renew"]
 old-location: ncd\responsebody_renew_struct.htm
 tech.root: WsdApi
 ms.assetid: 3fe288b6-bb84-4b8f-b973-b2309c60c28e

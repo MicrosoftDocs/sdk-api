@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactProperties.SetLabels
 title: IContactProperties::SetLabels (icontact.h)
-description: Appends the set of labels passed in to the specified property's label set. Note:\_This method does not check for duplicate labels.helpviewer_keywords: ["IContactProperties interface [Windows Contacts]","SetLabels method","IContactProperties.SetLabels","IContactProperties::SetLabels","SetLabels","SetLabels method [Windows Contacts]","SetLabels method [Windows Contacts]","IContactProperties interface","_wincontacts_IContactProperties_SetLabels","icontact/IContactProperties::SetLabels","wincontacts._wincontacts_IContactProperties_SetLabels"]
+description: Appends the set of labels passed in to the specified property's label set. Note:\_This method does not check for duplicate labels.
+helpviewer_keywords: ["IContactProperties interface [Windows Contacts]","SetLabels method","IContactProperties.SetLabels","IContactProperties::SetLabels","SetLabels","SetLabels method [Windows Contacts]","SetLabels method [Windows Contacts]","IContactProperties interface","_wincontacts_IContactProperties_SetLabels","icontact/IContactProperties::SetLabels","wincontacts._wincontacts_IContactProperties_SetLabels"]
 old-location: wincontacts\_wincontacts_IContactProperties_SetLabels.htm
 tech.root: wincontacts
 ms.assetid: 884d4edf-e001-4a1d-9ee4-7f8733aba343

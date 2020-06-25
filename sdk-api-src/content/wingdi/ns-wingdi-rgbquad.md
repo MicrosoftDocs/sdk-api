@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagRGBQUAD
 title: RGBQUAD (wingdi.h)
-description: The RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue.helpviewer_keywords: ["*LPRGBQUAD","RGBQUAD","RGBQUAD structure [Windows GDI]","_win32_RGBQUAD_str","gdi.rgbquad","tagRGBQUAD","wingdi/RGBQUAD"]
+description: The RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue.
+helpviewer_keywords: ["*LPRGBQUAD","RGBQUAD","RGBQUAD structure [Windows GDI]","_win32_RGBQUAD_str","gdi.rgbquad","tagRGBQUAD","wingdi/RGBQUAD"]
 old-location: gdi\rgbquad.htm
 tech.root: gdi
 ms.assetid: 22e0991d-078e-4b44-9f03-004137e31f6c

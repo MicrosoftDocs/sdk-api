@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetSerializeSize
 title: IRdcGeneratorParameters::GetSerializeSize (msrdc.h)
-description: Returns the size, in bytes, of the serialized parameter data.helpviewer_keywords: ["GetSerializeSize","GetSerializeSize method [Remote Differential Compression]","GetSerializeSize method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetSerializeSize method","IRdcGeneratorParameters.GetSerializeSize","IRdcGeneratorParameters::GetSerializeSize","fs.irdcgeneratorparameters_getserializesize","msrdc/IRdcGeneratorParameters::GetSerializeSize","rdc.irdcgeneratorparameters_getserializesize"]
+description: Returns the size, in bytes, of the serialized parameter data.
+helpviewer_keywords: ["GetSerializeSize","GetSerializeSize method [Remote Differential Compression]","GetSerializeSize method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetSerializeSize method","IRdcGeneratorParameters.GetSerializeSize","IRdcGeneratorParameters::GetSerializeSize","fs.irdcgeneratorparameters_getserializesize","msrdc/IRdcGeneratorParameters::GetSerializeSize","rdc.irdcgeneratorparameters_getserializesize"]
 old-location: rdc\irdcgeneratorparameters_getserializesize.htm
 tech.root: rdc
 ms.assetid: ebd41d6c-c321-4017-bcc1-a2cdf5202730

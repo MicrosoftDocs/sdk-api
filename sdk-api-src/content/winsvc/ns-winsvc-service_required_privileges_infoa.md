@@ -1,7 +1,8 @@
 ---
 UID: NS:winsvc._SERVICE_REQUIRED_PRIVILEGES_INFOA
 title: SERVICE_REQUIRED_PRIVILEGES_INFOA (winsvc.h)
-description: Represents the required privileges for a service.helpviewer_keywords: ["*LPSERVICE_REQUIRED_PRIVILEGES_INFOA","LPSERVICE_REQUIRED_PRIVILEGES_INFO","LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer","SERVICE_REQUIRED_PRIVILEGES_INFO","SERVICE_REQUIRED_PRIVILEGES_INFO structure","SERVICE_REQUIRED_PRIVILEGES_INFOA","SERVICE_REQUIRED_PRIVILEGES_INFOW","base.service_required_privileges_info","winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW"]
+description: Represents the required privileges for a service.
+helpviewer_keywords: ["*LPSERVICE_REQUIRED_PRIVILEGES_INFOA","LPSERVICE_REQUIRED_PRIVILEGES_INFO","LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer","SERVICE_REQUIRED_PRIVILEGES_INFO","SERVICE_REQUIRED_PRIVILEGES_INFO structure","SERVICE_REQUIRED_PRIVILEGES_INFOA","SERVICE_REQUIRED_PRIVILEGES_INFOW","base.service_required_privileges_info","winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW"]
 old-location: base\service_required_privileges_info.htm
 tech.root: Services
 ms.assetid: 15a2e042-cfd5-443e-a3b8-822f48eb9654
@@ -80,6 +81,10 @@ For compatibility, the SeChangeNotifyPrivilege privilege is never removed from a
 
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines SERVICE_REQUIRED_PRIVILEGES_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

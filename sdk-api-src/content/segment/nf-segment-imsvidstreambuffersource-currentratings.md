@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.CurrentRatings
 title: IMSVidStreamBufferSource::CurrentRatings (segment.h)
-description: The CurrentRatings method retrieves the current ratings information from the data source.helpviewer_keywords: ["CurrentRatings","CurrentRatings method [Microsoft TV Technologies]","CurrentRatings method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","IMSVidStreamBufferSource interface [Microsoft TV Technologies]","CurrentRatings method","IMSVidStreamBufferSource.CurrentRatings","IMSVidStreamBufferSource::CurrentRatings","IMSVidStreamBufferSourceCurrentRatings","mstv.imsvidstreambuffersource_currentratings","segment/IMSVidStreamBufferSource::CurrentRatings"]
+description: The CurrentRatings method retrieves the current ratings information from the data source.
+helpviewer_keywords: ["CurrentRatings","CurrentRatings method [Microsoft TV Technologies]","CurrentRatings method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","IMSVidStreamBufferSource interface [Microsoft TV Technologies]","CurrentRatings method","IMSVidStreamBufferSource.CurrentRatings","IMSVidStreamBufferSource::CurrentRatings","IMSVidStreamBufferSourceCurrentRatings","mstv.imsvidstreambuffersource_currentratings","segment/IMSVidStreamBufferSource::CurrentRatings"]
 old-location: mstv\imsvidstreambuffersource_currentratings.htm
 tech.root: mstv
 ms.assetid: c388d972-07d9-4347-97d3-03a46a6bb50c

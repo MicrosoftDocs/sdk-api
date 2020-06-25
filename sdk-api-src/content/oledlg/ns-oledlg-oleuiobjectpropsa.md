@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUIOBJECTPROPSA
 title: OLEUIOBJECTPROPSA (oledlg.h)
-description: Contains information that is used to initialize the standard Object Properties dialog box.helpviewer_keywords: ["*LPOLEUIOBJECTPROPSA","*POLEUIOBJECTPROPSA","LPOLEUIOBJECTPROPS","LPOLEUIOBJECTPROPS structure pointer [COM]","OLEUIOBJECTPROPS","OLEUIOBJECTPROPS structure [COM]","OLEUIOBJECTPROPSA","OLEUIOBJECTPROPSW","OPF_DISABLECONVERT","OPF_NOFILLDEFAULT","OPF_OBJECTISLINK","OPF_SHOWHELP","POLEUIOBJECTPROPS","POLEUIOBJECTPROPS structure pointer [COM]","_ole_OLEUIOBJECTPROPS","com.oleuiobjectprops_struct","oledlg/LPOLEUIOBJECTPROPS","oledlg/OLEUIOBJECTPROPS","oledlg/OLEUIOBJECTPROPSA","oledlg/OLEUIOBJECTPROPSW","oledlg/POLEUIOBJECTPROPS"]
+description: Contains information that is used to initialize the standard Object Properties dialog box.
+helpviewer_keywords: ["*LPOLEUIOBJECTPROPSA","*POLEUIOBJECTPROPSA","LPOLEUIOBJECTPROPS","LPOLEUIOBJECTPROPS structure pointer [COM]","OLEUIOBJECTPROPS","OLEUIOBJECTPROPS structure [COM]","OLEUIOBJECTPROPSA","OLEUIOBJECTPROPSW","OPF_DISABLECONVERT","OPF_NOFILLDEFAULT","OPF_OBJECTISLINK","OPF_SHOWHELP","POLEUIOBJECTPROPS","POLEUIOBJECTPROPS structure pointer [COM]","_ole_OLEUIOBJECTPROPS","com.oleuiobjectprops_struct","oledlg/LPOLEUIOBJECTPROPS","oledlg/OLEUIOBJECTPROPS","oledlg/OLEUIOBJECTPROPSA","oledlg/OLEUIOBJECTPROPSW","oledlg/POLEUIOBJECTPROPS"]
 old-location: com\oleuiobjectprops_struct.htm
 tech.root: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
@@ -181,3 +182,7 @@ Pointer to the link page data.
 
  
 
+## -remarks
+
+> [!NOTE]
+> The oledlg.h header defines OLEUIOBJECTPROPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

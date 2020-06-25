@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagWNDCLASSEXW
 title: WNDCLASSEXW (winuser.h)
-description: Contains window class information.helpviewer_keywords: ["*LPWNDCLASSEXW","*NPWNDCLASSEXW","*PWNDCLASSEXW","PWNDCLASSEX","PWNDCLASSEX structure pointer [Windows and Messages]","WNDCLASSEX","WNDCLASSEX structure [Windows and Messages]","WNDCLASSEXA","WNDCLASSEXW","_win32_WNDCLASSEX_str","_win32_wndclassex_str_cpp","winmsg.wndclassex","winui._win32_wndclassex_str","winuser/PWNDCLASSEX","winuser/WNDCLASSEX","winuser/WNDCLASSEXA","winuser/WNDCLASSEXW"]
+description: Contains window class information.
+helpviewer_keywords: ["*LPWNDCLASSEXW","*NPWNDCLASSEXW","*PWNDCLASSEXW","PWNDCLASSEX","PWNDCLASSEX structure pointer [Windows and Messages]","WNDCLASSEX","WNDCLASSEX structure [Windows and Messages]","WNDCLASSEXA","WNDCLASSEXW","_win32_WNDCLASSEX_str","_win32_wndclassex_str_cpp","winmsg.wndclassex","winui._win32_wndclassex_str","winuser/PWNDCLASSEX","winuser/WNDCLASSEX","winuser/WNDCLASSEXA","winuser/WNDCLASSEXW"]
 old-location: winmsg\wndclassex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassstructures\wndclassex.htm
@@ -211,4 +212,9 @@ A handle to a small icon that is associated with the window class. If this membe
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines WNDCLASSEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

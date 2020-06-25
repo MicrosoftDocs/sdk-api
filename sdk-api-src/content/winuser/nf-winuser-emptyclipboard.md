@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.EmptyClipboard
 title: EmptyClipboard function (winuser.h)
-description: Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.helpviewer_keywords: ["EmptyClipboard","EmptyClipboard function [Data Exchange]","_win32_EmptyClipboard","_win32_emptyclipboard_cpp","dataxchg.emptyclipboard","winui._win32_emptyclipboard","winuser/EmptyClipboard"]
+description: Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.
+helpviewer_keywords: ["EmptyClipboard","EmptyClipboard function [Data Exchange]","_win32_EmptyClipboard","_win32_emptyclipboard_cpp","dataxchg.emptyclipboard","winui._win32_emptyclipboard","winuser/EmptyClipboard"]
 old-location: dataxchg\emptyclipboard.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\emptyclipboard.htm

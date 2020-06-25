@@ -1,7 +1,8 @@
 ---
 UID: NE:wuapi.tagOperationResultCode
 title: OperationResultCode (wuapi.h)
-description: Defines the possible results of a download, install, uninstall, or verification operation on an update.helpviewer_keywords: ["OperationResultCode","OperationResultCode enumeration [Windows Update Agent]","orcAborted","orcFailed","orcInProgress","orcNotStarted","orcSucceeded","orcSucceededWithErrors","wua.operationresultcode","wuapi/OperationResultCode","wuapi/orcAborted","wuapi/orcFailed","wuapi/orcInProgress","wuapi/orcNotStarted","wuapi/orcSucceeded","wuapi/orcSucceededWithErrors"]
+description: Defines the possible results of a download, install, uninstall, or verification operation on an update.
+helpviewer_keywords: ["OperationResultCode","OperationResultCode enumeration [Windows Update Agent]","orcAborted","orcFailed","orcInProgress","orcNotStarted","orcSucceeded","orcSucceededWithErrors","wua.operationresultcode","wuapi/OperationResultCode","wuapi/orcAborted","wuapi/orcFailed","wuapi/orcInProgress","wuapi/orcNotStarted","wuapi/orcSucceeded","wuapi/orcSucceededWithErrors"]
 old-location: wua\operationresultcode.htm
 tech.root: Wua_Sdk
 ms.assetid: 02d3442e-d098-42b6-b1b1-cc2d1a815fa4

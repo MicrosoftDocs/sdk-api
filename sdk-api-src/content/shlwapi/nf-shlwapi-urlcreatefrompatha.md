@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.UrlCreateFromPathA
 title: UrlCreateFromPathA function (shlwapi.h)
-description: Converts a Microsoft MS-DOS path to a canonicalized URL.helpviewer_keywords: ["UrlCreateFromPath","UrlCreateFromPath function [Windows Shell]","UrlCreateFromPathA","UrlCreateFromPathW","_win32_UrlCreateFromPath","shell.UrlCreateFromPath","shlwapi/UrlCreateFromPath","shlwapi/UrlCreateFromPathA","shlwapi/UrlCreateFromPathW"]
+description: Converts a Microsoft MS-DOS path to a canonicalized URL.
+helpviewer_keywords: ["UrlCreateFromPath","UrlCreateFromPath function [Windows Shell]","UrlCreateFromPathA","UrlCreateFromPathW","_win32_UrlCreateFromPath","shell.UrlCreateFromPath","shlwapi/UrlCreateFromPath","shlwapi/UrlCreateFromPathA","shlwapi/UrlCreateFromPathW"]
 old-location: shell\UrlCreateFromPath.htm
 tech.root: shell
 ms.assetid: b69ab203-daab-4951-b3b9-c5ca37c532b3
@@ -109,4 +110,8 @@ Returns S_FALSE if <i>pszPath</i> is already in URL format. In this case, <i>psz
 <div class="alert"><b>Note</b>  <b>UrlCreateFromPath</b> does not support extended paths. These are paths that include the extended-length path prefix "\\?\".</div>
 <div> </div>
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines UrlCreateFromPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

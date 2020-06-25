@@ -1,7 +1,8 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.AbortSnapshots
 title: IVssProviderCreateSnapshotSet::AbortSnapshots (vsprov.h)
-description: Aborts prepared shadow copies in this provider.helpviewer_keywords: ["AbortSnapshots","AbortSnapshots method [VSS]","AbortSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","IVssProviderCreateSnapshotSet interface [VSS]","AbortSnapshots method","IVssProviderCreateSnapshotSet.AbortSnapshots","IVssProviderCreateSnapshotSet::AbortSnapshots","base.ivssprovidercreatesnapshotset_abortsnapshots","vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots"]
+description: Aborts prepared shadow copies in this provider.
+helpviewer_keywords: ["AbortSnapshots","AbortSnapshots method [VSS]","AbortSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","IVssProviderCreateSnapshotSet interface [VSS]","AbortSnapshots method","IVssProviderCreateSnapshotSet.AbortSnapshots","IVssProviderCreateSnapshotSet::AbortSnapshots","base.ivssprovidercreatesnapshotset_abortsnapshots","vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots"]
 old-location: base\ivssprovidercreatesnapshotset_abortsnapshots.htm
 tech.root: VSS
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982

@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_Item
 title: IOCSPPropertyCollection::get_Item (certadm.h)
-description: Gets the property identified by index in a property set.helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","Item property","IOCSPPropertyCollection.Item","IOCSPPropertyCollection.get_Item","IOCSPPropertyCollection::Item","IOCSPPropertyCollection::get_Item","Item property [Security]","Item property [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::Item","certadm/IOCSPPropertyCollection::get_Item","get_Item","security.iocsppropertycollection_item_method"]
+description: Gets the property identified by index in a property set.
+helpviewer_keywords: ["IOCSPPropertyCollection interface [Security]","Item property","IOCSPPropertyCollection.Item","IOCSPPropertyCollection.get_Item","IOCSPPropertyCollection::Item","IOCSPPropertyCollection::get_Item","Item property [Security]","Item property [Security]","IOCSPPropertyCollection interface","certadm/IOCSPPropertyCollection::Item","certadm/IOCSPPropertyCollection::get_Item","get_Item","security.iocsppropertycollection_item_method"]
 old-location: security\iocsppropertycollection_item_method.htm
 tech.root: SecCrypto
 ms.assetid: 33fce781-f65d-433a-b2ba-0f694cee1220

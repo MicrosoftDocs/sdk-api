@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetBold
 title: ITextFont::SetBold (tom.h)
-description: Sets whether characters are bold.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetBold method","ITextFont.SetBold","ITextFont::SetBold","SetBold","SetBold method [Windows Controls]","SetBold method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetBold","_win32_ITextFont_SetBold_cpp","controls.ITextFont_SetBold","controls._win32_ITextFont_SetBold","tom/ITextFont::SetBold"]
+description: Sets whether characters are bold.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetBold method","ITextFont.SetBold","ITextFont::SetBold","SetBold","SetBold method [Windows Controls]","SetBold method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetBold","_win32_ITextFont_SetBold_cpp","controls.ITextFont_SetBold","controls._win32_ITextFont_SetBold","tom/ITextFont::SetBold"]
 old-location: controls\ITextFont_SetBold.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbold.htm

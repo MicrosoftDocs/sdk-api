@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataCopier
 title: ISpatialAudioMetadataCopier (spatialaudiometadata.h)
-description: Provides methods for copying all or subsets of metadata items from a source SpatialAudioMetadataItems into a destination SpatialAudioMetadataItems.helpviewer_keywords: ["ISpatialAudioMetadataCopier","ISpatialAudioMetadataCopier interface [Core Audio]","ISpatialAudioMetadataCopier interface [Core Audio]","described","coreaudio.ispatialaudiometadatacopier","spatialaudiometadata/ISpatialAudioMetadataCopier"]
+description: Provides methods for copying all or subsets of metadata items from a source SpatialAudioMetadataItems into a destination SpatialAudioMetadataItems.
+helpviewer_keywords: ["ISpatialAudioMetadataCopier","ISpatialAudioMetadataCopier interface [Core Audio]","ISpatialAudioMetadataCopier interface [Core Audio]","described","coreaudio.ispatialaudiometadatacopier","spatialaudiometadata/ISpatialAudioMetadataCopier"]
 old-location: coreaudio\ispatialaudiometadatacopier.htm
 tech.root: CoreAudio
 ms.assetid: 74708744-78BF-4135-BB0A-50A7CA41ECDD

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.PerUserInit
 title: PerUserInit function (shlobj.h)
-description: Creates My Documents and other special folders, initializes them as needed, and creates the Send To shortcut menu item for My Documents.helpviewer_keywords: ["PerUserInit","PerUserInit function [Windows Shell]","_win32_PerUserInit","shell.PerUserInit","shlobj/PerUserInit"]
+description: Creates My Documents and other special folders, initializes them as needed, and creates the Send To shortcut menu item for My Documents.
+helpviewer_keywords: ["PerUserInit","PerUserInit function [Windows Shell]","_win32_PerUserInit","shell.PerUserInit","shlobj/PerUserInit"]
 old-location: shell\PerUserInit.htm
 tech.root: shell
 ms.assetid: 08ce75e9-3316-4967-925e-25b15fc97aa0

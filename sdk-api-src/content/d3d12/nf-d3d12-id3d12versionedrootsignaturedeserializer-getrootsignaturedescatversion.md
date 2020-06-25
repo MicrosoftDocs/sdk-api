@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion
 title: ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion (d3d12.h)
-description: Converts root signature description structures to a requested version.helpviewer_keywords: ["GetRootSignatureDescAtVersion","GetRootSignatureDescAtVersion method","GetRootSignatureDescAtVersion method","ID3D12VersionedRootSignatureDeserializer interface","ID3D12VersionedRootSignatureDeserializer interface","GetRootSignatureDescAtVersion method","ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion","ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion","d3d12/ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion","direct3d12.id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion"]
+description: Converts root signature description structures to a requested version.
+helpviewer_keywords: ["GetRootSignatureDescAtVersion","GetRootSignatureDescAtVersion method","GetRootSignatureDescAtVersion method","ID3D12VersionedRootSignatureDeserializer interface","ID3D12VersionedRootSignatureDeserializer interface","GetRootSignatureDescAtVersion method","ID3D12VersionedRootSignatureDeserializer.GetRootSignatureDescAtVersion","ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion","d3d12/ID3D12VersionedRootSignatureDeserializer::GetRootSignatureDescAtVersion","direct3d12.id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion"]
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer_getrootsignaturedescatversion.htm
 tech.root: direct3d12
 ms.assetid: 50EB9AC8-D13D-41D3-9E16-AC9871095A72

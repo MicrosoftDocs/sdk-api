@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanRelative
 title: ICameraControl::get_PanRelative (vidcap.h)
-description: The get_PanRelative method returns the camera's relative pan. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_PanRelative method","ICameraControl.get_PanRelative","ICameraControl::get_PanRelative","ICameraControlget_PanRelative","dshow.icameracontrol_get_panrelative","get_PanRelative","get_PanRelative method [DirectShow]","get_PanRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_PanRelative"]
+description: The get_PanRelative method returns the camera's relative pan. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_PanRelative method","ICameraControl.get_PanRelative","ICameraControl::get_PanRelative","ICameraControlget_PanRelative","dshow.icameracontrol_get_panrelative","get_PanRelative","get_PanRelative method [DirectShow]","get_PanRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_PanRelative"]
 old-location: dshow\icameracontrol_get_panrelative.htm
 tech.root: DirectShow
 ms.assetid: a7237e0a-82b3-4e2a-a6c7-97fbb03b5917

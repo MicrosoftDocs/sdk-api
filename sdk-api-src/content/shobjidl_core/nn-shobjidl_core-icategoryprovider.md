@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ICategoryProvider
 title: ICategoryProvider (shobjidl_core.h)
-description: Exposes a list of categorizers registered on an IShellFolder.helpviewer_keywords: ["ICategoryProvider","ICategoryProvider interface [Windows Shell]","ICategoryProvider interface [Windows Shell]","described","inet_ICategoryProvider","shell.ICategoryProvider","shobjidl_core/ICategoryProvider"]
+description: Exposes a list of categorizers registered on an IShellFolder.
+helpviewer_keywords: ["ICategoryProvider","ICategoryProvider interface [Windows Shell]","ICategoryProvider interface [Windows Shell]","described","inet_ICategoryProvider","shell.ICategoryProvider","shobjidl_core/ICategoryProvider"]
 old-location: shell\ICategoryProvider.htm
 tech.root: shell
 ms.assetid: bab74832-6f24-4f3a-b8cb-68506f293b3c

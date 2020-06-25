@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_EXPIRES
 title: WSD_EVENTING_EXPIRES (wsdtypes.h)
-description: Represents the expiration time of a WS-Eventing message.helpviewer_keywords: ["WSD_EVENTING_EXPIRES","WSD_EVENTING_EXPIRES structure","ncd.wsd_eventing_expires","wsdtypes/WSD_EVENTING_EXPIRES"]
+description: Represents the expiration time of a WS-Eventing message.
+helpviewer_keywords: ["WSD_EVENTING_EXPIRES","WSD_EVENTING_EXPIRES structure","ncd.wsd_eventing_expires","wsdtypes/WSD_EVENTING_EXPIRES"]
 old-location: ncd\wsd_eventing_expires.htm
 tech.root: WsdApi
 ms.assetid: 728eacdb-3c27-4884-a9ba-34979590a57c

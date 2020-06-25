@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasUpdateConnection
 title: RasUpdateConnection function (ras.h)
-description: The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.helpviewer_keywords: ["RasUpdateConnection","RasUpdateConnection function [RAS]","ras/RasUpdateConnection","rras.rasupdateconnection"]
+description: The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.
+helpviewer_keywords: ["RasUpdateConnection","RasUpdateConnection function [RAS]","ras/RasUpdateConnection","rras.rasupdateconnection"]
 old-location: rras\rasupdateconnection.htm
 tech.root: RRAS
 ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d

@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptPackage
 title: IAppxEncryptionFactory3::EncryptPackage (appxpackaging.h)
-description: Creates an encrypted Windows app package from an unencrypted one.helpviewer_keywords: ["EncryptPackage","EncryptPackage method [App packaging and management]","EncryptPackage method [App packaging and management]","IAppxEncryptionFactory3 interface","IAppxEncryptionFactory3 interface [App packaging and management]","EncryptPackage method","IAppxEncryptionFactory3.EncryptPackage","IAppxEncryptionFactory3::EncryptPackage","appxpackaging/IAppxEncryptionFactory3::EncryptPackage","appxpkg.iappxencryptionfactory3_encryptpackage"]
+description: Creates an encrypted Windows app package from an unencrypted one.
+helpviewer_keywords: ["EncryptPackage","EncryptPackage method [App packaging and management]","EncryptPackage method [App packaging and management]","IAppxEncryptionFactory3 interface","IAppxEncryptionFactory3 interface [App packaging and management]","EncryptPackage method","IAppxEncryptionFactory3.EncryptPackage","IAppxEncryptionFactory3::EncryptPackage","appxpackaging/IAppxEncryptionFactory3::EncryptPackage","appxpkg.iappxencryptionfactory3_encryptpackage"]
 old-location: appxpkg\iappxencryptionfactory3_encryptpackage.htm
 tech.root: appxpkg
 ms.assetid: 2B3FE76E-57B5-411C-BD87-B9AE3208A11D

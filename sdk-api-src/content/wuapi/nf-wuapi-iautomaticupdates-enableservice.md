@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.EnableService
 title: IAutomaticUpdates::EnableService (wuapi.h)
-description: Enables all the components that Automatic Updates requires.helpviewer_keywords: ["EnableService","EnableService method [Windows Update Agent]","EnableService method [Windows Update Agent]","IAutomaticUpdates interface","IAutomaticUpdates interface [Windows Update Agent]","EnableService method","IAutomaticUpdates.EnableService","IAutomaticUpdates::EnableService","wua.iautomaticupdates_enableservice","wuapi/IAutomaticUpdates::EnableService"]
+description: Enables all the components that Automatic Updates requires.
+helpviewer_keywords: ["EnableService","EnableService method [Windows Update Agent]","EnableService method [Windows Update Agent]","IAutomaticUpdates interface","IAutomaticUpdates interface [Windows Update Agent]","EnableService method","IAutomaticUpdates.EnableService","IAutomaticUpdates::EnableService","wua.iautomaticupdates_enableservice","wuapi/IAutomaticUpdates::EnableService"]
 old-location: wua\iautomaticupdates_enableservice.htm
 tech.root: Wua_Sdk
 ms.assetid: 0dd80943-f9d6-4179-8b02-3a03b5ba3636

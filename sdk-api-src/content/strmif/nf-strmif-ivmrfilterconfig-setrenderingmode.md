@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetRenderingMode
 title: IVMRFilterConfig::SetRenderingMode (strmif.h)
-description: The SetRenderingMode method sets the rendering mode used by the VMR.helpviewer_keywords: ["IVMRFilterConfig interface [DirectShow]","SetRenderingMode method","IVMRFilterConfig.SetRenderingMode","IVMRFilterConfig::SetRenderingMode","IVMRFilterConfigSetRenderingMode","SetRenderingMode","SetRenderingMode method [DirectShow]","SetRenderingMode method [DirectShow]","IVMRFilterConfig interface","dshow.ivmrfilterconfig_setrenderingmode","strmif/IVMRFilterConfig::SetRenderingMode"]
+description: The SetRenderingMode method sets the rendering mode used by the VMR.
+helpviewer_keywords: ["IVMRFilterConfig interface [DirectShow]","SetRenderingMode method","IVMRFilterConfig.SetRenderingMode","IVMRFilterConfig::SetRenderingMode","IVMRFilterConfigSetRenderingMode","SetRenderingMode","SetRenderingMode method [DirectShow]","SetRenderingMode method [DirectShow]","IVMRFilterConfig interface","dshow.ivmrfilterconfig_setrenderingmode","strmif/IVMRFilterConfig::SetRenderingMode"]
 old-location: dshow\ivmrfilterconfig_setrenderingmode.htm
 tech.root: DirectShow
 ms.assetid: 11fbc818-b0c3-4ce1-b9fe-7e4ba1f81467

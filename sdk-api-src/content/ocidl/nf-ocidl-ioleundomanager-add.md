@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Add
 title: IOleUndoManager::Add (ocidl.h)
-description: Adds a simple undo unit to the collection. While a parent undo unit is open, the undo manager adds undo units to it by calling IOleParentUndoUnit::Add.helpviewer_keywords: ["Add","Add method [COM]","Add method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","Add method","IOleUndoManager.Add","IOleUndoManager::Add","_ole_ioleundomanager_add","com.ioleundomanager_add","ocidl/IOleUndoManager::Add"]
+description: Adds a simple undo unit to the collection. While a parent undo unit is open, the undo manager adds undo units to it by calling IOleParentUndoUnit::Add.
+helpviewer_keywords: ["Add","Add method [COM]","Add method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","Add method","IOleUndoManager.Add","IOleUndoManager::Add","_ole_ioleundomanager_add","com.ioleundomanager_add","ocidl/IOleUndoManager::Add"]
 old-location: com\ioleundomanager_add.htm
 tech.root: com
 ms.assetid: 3288e0c6-e345-4c4d-a7bf-0c5f45c19732

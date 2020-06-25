@@ -1,7 +1,8 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateManager
 title: IDirectManipulationUpdateManager (directmanipulation.h)
-description: Manages how compositor updates are sent to Direct Manipulation.helpviewer_keywords: ["IDirectManipulationUpdateManager","IDirectManipulationUpdateManager interface [Direct Manipulation]","IDirectManipulationUpdateManager interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationupdatemanager","directmanipulation/IDirectManipulationUpdateManager"]
+description: Manages how compositor updates are sent to Direct Manipulation.
+helpviewer_keywords: ["IDirectManipulationUpdateManager","IDirectManipulationUpdateManager interface [Direct Manipulation]","IDirectManipulationUpdateManager interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationupdatemanager","directmanipulation/IDirectManipulationUpdateManager"]
 old-location: directmanipulation\idirectmanipulationupdatemanager.htm
 tech.root: directmanipulation
 ms.assetid: 30626a22-1ded-49ff-a6c3-619a14d5ee3b

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN HWND,IN BOOL)
 title: Graphics::Graphics(IN HWND,IN BOOL) (gdiplusgraphics.h)
-description: Creates a Graphics::Graphics object that is associated with a specified window.helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(HWND","BOOL)","Graphics.Graphics(IN HWND","IN BOOL)","Graphics::Graphics","Graphics::Graphics(IN HWND","IN BOOL)","_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_","gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_"]
+description: Creates a Graphics::Graphics object that is associated with a specified window.
+helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(HWND","BOOL)","Graphics.Graphics(IN HWND","IN BOOL)","Graphics::Graphics","Graphics::Graphics(IN HWND","IN BOOL)","_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_","gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_7hwnd_icm.htm

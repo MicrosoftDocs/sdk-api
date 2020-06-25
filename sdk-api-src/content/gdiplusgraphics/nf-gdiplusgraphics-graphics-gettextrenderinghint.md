@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTextRenderingHint
 title: Graphics::GetTextRenderingHint (gdiplusgraphics.h)
-description: The Graphics::GetTextRenderingHint method returns the text rendering mode currently set for this Graphics object.helpviewer_keywords: ["GetTextRenderingHint","GetTextRenderingHint method [GDI+]","GetTextRenderingHint method [GDI+]","Graphics class","Graphics class [GDI+]","GetTextRenderingHint method","Graphics.GetTextRenderingHint","Graphics::GetTextRenderingHint","_gdiplus_CLASS_Graphics_GetTextRenderingHint_","gdiplus._gdiplus_CLASS_Graphics_GetTextRenderingHint_"]
+description: The Graphics::GetTextRenderingHint method returns the text rendering mode currently set for this Graphics object.
+helpviewer_keywords: ["GetTextRenderingHint","GetTextRenderingHint method [GDI+]","GetTextRenderingHint method [GDI+]","Graphics class","Graphics class [GDI+]","GetTextRenderingHint method","Graphics.GetTextRenderingHint","Graphics::GetTextRenderingHint","_gdiplus_CLASS_Graphics_GetTextRenderingHint_","gdiplus._gdiplus_CLASS_Graphics_GetTextRenderingHint_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextRenderingHint_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextrenderinghint.htm

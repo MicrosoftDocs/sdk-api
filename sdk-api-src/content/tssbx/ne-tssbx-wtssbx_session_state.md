@@ -1,7 +1,8 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0008
 title: WTSSBX_SESSION_STATE (tssbx.h)
-description: Contains values that indicate the connection state of a user session.helpviewer_keywords: ["WTSSBX_SESSION_STATE","WTSSBX_SESSION_STATE enumeration [Remote Desktop Services]","WTSSBX_SESSION_STATE_ACTIVE","WTSSBX_SESSION_STATE_DISCONNECTED","WTSSBX_SESSION_STATE_UNSPEC","termserv.wtssbx_session_state","tssbx/WTSSBX_SESSION_STATE","tssbx/WTSSBX_SESSION_STATE_ACTIVE","tssbx/WTSSBX_SESSION_STATE_DISCONNECTED","tssbx/WTSSBX_SESSION_STATE_UNSPEC"]
+description: Contains values that indicate the connection state of a user session.
+helpviewer_keywords: ["WTSSBX_SESSION_STATE","WTSSBX_SESSION_STATE enumeration [Remote Desktop Services]","WTSSBX_SESSION_STATE_ACTIVE","WTSSBX_SESSION_STATE_DISCONNECTED","WTSSBX_SESSION_STATE_UNSPEC","termserv.wtssbx_session_state","tssbx/WTSSBX_SESSION_STATE","tssbx/WTSSBX_SESSION_STATE_ACTIVE","tssbx/WTSSBX_SESSION_STATE_DISCONNECTED","tssbx/WTSSBX_SESSION_STATE_UNSPEC"]
 old-location: termserv\wtssbx_session_state.htm
 tech.root: TermServ
 ms.assetid: d31118c5-56a3-4792-83fd-fdd3cd7a79ea

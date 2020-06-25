@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(IN FillMode)
 title: GraphicsPath::GraphicsPath(IN FillMode) (gdipluspath.h)
-description: Creates a GraphicsPath::GraphicsPath object and initializes the fill mode. This is the default constructor.helpviewer_keywords: ["GraphicsPath","GraphicsPath class [GDI+]","GraphicsPath constructor","GraphicsPath constructor [GDI+]","GraphicsPath constructor [GDI+]","GraphicsPath class","GraphicsPath.GraphicsPath","GraphicsPath.GraphicsPath(FillMode)","GraphicsPath.GraphicsPath(IN FillMode)","GraphicsPath::GraphicsPath","GraphicsPath::GraphicsPath(IN FillMode)","_gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_","gdiplus._gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_"]
+description: Creates a GraphicsPath::GraphicsPath object and initializes the fill mode. This is the default constructor.
+helpviewer_keywords: ["GraphicsPath","GraphicsPath class [GDI+]","GraphicsPath constructor","GraphicsPath constructor [GDI+]","GraphicsPath constructor [GDI+]","GraphicsPath class","GraphicsPath.GraphicsPath","GraphicsPath.GraphicsPath(FillMode)","GraphicsPath.GraphicsPath(IN FillMode)","GraphicsPath::GraphicsPath","GraphicsPath::GraphicsPath(IN FillMode)","_gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_","gdiplus._gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors\graphicspath_97fillmode.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetWideAspectRatio
 title: ICaptionServiceDescriptor::GetWideAspectRatio (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetWideAspectRatio","GetWideAspectRatio method [Microsoft TV Technologies]","GetWideAspectRatio method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetWideAspectRatio method","ICaptionServiceDescriptor.GetWideAspectRatio","ICaptionServiceDescriptor::GetWideAspectRatio","ICaptionServiceDescriptorGetWideAspectRatio","atscpsipparser/ICaptionServiceDescriptor::GetWideAspectRatio","mstv.icaptionservicedescriptor_getwideaspectratio"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetWideAspectRatio","GetWideAspectRatio method [Microsoft TV Technologies]","GetWideAspectRatio method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetWideAspectRatio method","ICaptionServiceDescriptor.GetWideAspectRatio","ICaptionServiceDescriptor::GetWideAspectRatio","ICaptionServiceDescriptorGetWideAspectRatio","atscpsipparser/ICaptionServiceDescriptor::GetWideAspectRatio","mstv.icaptionservicedescriptor_getwideaspectratio"]
 old-location: mstv\icaptionservicedescriptor_getwideaspectratio.htm
 tech.root: mstv
 ms.assetid: 921d919a-5e23-4c09-abff-3ed1e7dbec01

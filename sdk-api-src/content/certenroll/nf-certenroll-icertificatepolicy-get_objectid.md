@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.get_ObjectId
 title: ICertificatePolicy::get_ObjectId (certenroll.h)
-description: Retrieves an object identifier (OID) for the policy object.helpviewer_keywords: ["ICertificatePolicy interface [Security]","ObjectId property","ICertificatePolicy.ObjectId","ICertificatePolicy.get_ObjectId","ICertificatePolicy::ObjectId","ICertificatePolicy::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","ICertificatePolicy interface","certenroll/ICertificatePolicy::ObjectId","certenroll/ICertificatePolicy::get_ObjectId","get_ObjectId","security.icertificatepolicy_objectid_property"]
+description: Retrieves an object identifier (OID) for the policy object.
+helpviewer_keywords: ["ICertificatePolicy interface [Security]","ObjectId property","ICertificatePolicy.ObjectId","ICertificatePolicy.get_ObjectId","ICertificatePolicy::ObjectId","ICertificatePolicy::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","ICertificatePolicy interface","certenroll/ICertificatePolicy::ObjectId","certenroll/ICertificatePolicy::get_ObjectId","get_ObjectId","security.icertificatepolicy_objectid_property"]
 old-location: security\icertificatepolicy_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: 42d1689d-c086-4d67-8e16-997ecd515ae2

@@ -1,7 +1,8 @@
 ---
 UID: NF:exdisp.IWebBrowserApp.get_HWND
 title: IWebBrowserApp::get_HWND (exdisp.h)
-description: Gets the handle of the Windows Internet Explorer main window.helpviewer_keywords: ["HWND property [Windows API]","HWND property [Windows API]","IWebBrowser2 interface","HWND property [Windows API]","IWebBrowserApp interface","IWebBrowser2 interface [Windows API]","HWND property","IWebBrowser2.HWND","IWebBrowser2.get_HWND","IWebBrowser2::get_HWND","IWebBrowserApp interface [Windows API]","HWND property","IWebBrowserApp.HWND","IWebBrowserApp.get_HWND","IWebBrowserApp::HWND","IWebBrowserApp::get_HWND","exdisp/IWebBrowser2::HWND","exdisp/IWebBrowser2::get_HWND","exdisp/IWebBrowserApp::HWND","exdisp/IWebBrowserApp::get_HWND","get_HWND","nHWND","winprog.iwebbrowser2_hwnd"]
+description: Gets the handle of the Windows Internet Explorer main window.
+helpviewer_keywords: ["HWND property [Windows API]","HWND property [Windows API]","IWebBrowser2 interface","HWND property [Windows API]","IWebBrowserApp interface","IWebBrowser2 interface [Windows API]","HWND property","IWebBrowser2.HWND","IWebBrowser2.get_HWND","IWebBrowser2::get_HWND","IWebBrowserApp interface [Windows API]","HWND property","IWebBrowserApp.HWND","IWebBrowserApp.get_HWND","IWebBrowserApp::HWND","IWebBrowserApp::get_HWND","exdisp/IWebBrowser2::HWND","exdisp/IWebBrowser2::get_HWND","exdisp/IWebBrowserApp::HWND","exdisp/IWebBrowserApp::get_HWND","get_HWND","nHWND","winprog.iwebbrowser2_hwnd"]
 old-location: winprog\iwebbrowser2_hwnd.htm
 tech.root: DevNotes
 ms.assetid: 4A37C795-C8C7-4861-A03D-E56D9BD8FF5D

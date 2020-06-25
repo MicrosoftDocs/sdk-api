@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.ISynchronizedInputProvider
 title: ISynchronizedInputProvider (uiautomationcore.h)
-description: Enables Microsoft UI Automation client applications to direct the mouse or keyboard input to a specific UI element.helpviewer_keywords: ["ISynchronizedInputProvider","ISynchronizedInputProvider interface [Windows Accessibility]","ISynchronizedInputProvider interface [Windows Accessibility]","described","uiauto.uiauto_ISynchronizedInputProvider","uiauto_ISynchronizedInputProvider","uiautomationcore/ISynchronizedInputProvider","winauto.uiauto_ISynchronizedInputProvider"]
+description: Enables Microsoft UI Automation client applications to direct the mouse or keyboard input to a specific UI element.
+helpviewer_keywords: ["ISynchronizedInputProvider","ISynchronizedInputProvider interface [Windows Accessibility]","ISynchronizedInputProvider interface [Windows Accessibility]","described","uiauto.uiauto_ISynchronizedInputProvider","uiauto_ISynchronizedInputProvider","uiautomationcore/ISynchronizedInputProvider","winauto.uiauto_ISynchronizedInputProvider"]
 old-location: winauto\uiauto_ISynchronizedInputProvider.htm
 tech.root: WinAuto
 ms.assetid: 70495eba-172a-432e-951d-1092fd676d5e

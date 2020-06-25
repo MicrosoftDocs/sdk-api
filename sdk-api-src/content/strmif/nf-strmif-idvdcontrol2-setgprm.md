@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.SetGPRM
 title: IDvdControl2::SetGPRM (strmif.h)
-description: The SetGPRM method sets a general parameter register value.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetGPRM method","IDvdControl2.SetGPRM","IDvdControl2::SetGPRM","IDvdControl2SetGPRM","SetGPRM","SetGPRM method [DirectShow]","SetGPRM method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setgprm","strmif/IDvdControl2::SetGPRM"]
+description: The SetGPRM method sets a general parameter register value.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetGPRM method","IDvdControl2.SetGPRM","IDvdControl2::SetGPRM","IDvdControl2SetGPRM","SetGPRM","SetGPRM method [DirectShow]","SetGPRM method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setgprm","strmif/IDvdControl2::SetGPRM"]
 old-location: dshow\idvdcontrol2_setgprm.htm
 tech.root: DirectShow
 ms.assetid: 192bbf1d-a5de-4acf-b8d6-8a5f733da3a6

@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpSvcSetLogLevel
 title: SnmpSvcSetLogLevel function (snmp.h)
-description: The SnmpSvcSetLogLevel function adjusts the level of detail of the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SNMP_LOG_ERROR","SNMP_LOG_FATAL","SNMP_LOG_SILENT","SNMP_LOG_TRACE","SNMP_LOG_VERBOSE","SNMP_LOG_WARNING","SnmpSvcSetLogLevel","SnmpSvcSetLogLevel function [SNMP]","_snmp_snmpsvcsetloglevel","snmp.snmpsvcsetloglevel","snmp/SnmpSvcSetLogLevel"]
+description: The SnmpSvcSetLogLevel function adjusts the level of detail of the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SNMP_LOG_ERROR","SNMP_LOG_FATAL","SNMP_LOG_SILENT","SNMP_LOG_TRACE","SNMP_LOG_VERBOSE","SNMP_LOG_WARNING","SnmpSvcSetLogLevel","SnmpSvcSetLogLevel function [SNMP]","_snmp_snmpsvcsetloglevel","snmp.snmpsvcsetloglevel","snmp/SnmpSvcSetLogLevel"]
 old-location: snmp\snmpsvcsetloglevel.htm
 tech.root: SNMP
 ms.assetid: 735eb056-1e2a-49d0-9613-10a326afb872

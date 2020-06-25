@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.OnBeginPainting
 title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting (wtsprotocol.h)
-description: Notifies the protocol that the logon user interface is ready to begin painting.helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","OnBeginPainting method","IWRdsProtocolLogonErrorRedirector.OnBeginPainting","IWRdsProtocolLogonErrorRedirector::OnBeginPainting","OnBeginPainting","OnBeginPainting method [Remote Desktop Services]","OnBeginPainting method [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface","termserv.iwrdsprotocollogonerrorredirector_onbeginpainting","wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting"]
+description: Notifies the protocol that the logon user interface is ready to begin painting.
+helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","OnBeginPainting method","IWRdsProtocolLogonErrorRedirector.OnBeginPainting","IWRdsProtocolLogonErrorRedirector::OnBeginPainting","OnBeginPainting","OnBeginPainting method [Remote Desktop Services]","OnBeginPainting method [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface","termserv.iwrdsprotocollogonerrorredirector_onbeginpainting","wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting"]
 old-location: termserv\iwrdsprotocollogonerrorredirector_onbeginpainting.htm
 tech.root: TermServ
 ms.assetid: cc044746-1127-44a3-993d-ca2445c99ff6

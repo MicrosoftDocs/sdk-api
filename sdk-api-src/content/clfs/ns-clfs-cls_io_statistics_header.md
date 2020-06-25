@@ -1,7 +1,8 @@
 ---
 UID: NS:clfs._CLS_IO_STATISTICS_HEADER
 title: CLS_IO_STATISTICS_HEADER (clfs.h)
-description: Header for information retrieved by the GetLogIoStatistics function, which defines the I/O performance counters of a log.helpviewer_keywords: ["*PCLFS_IO_STATISTICS_HEADER","*PCLS_IO_STATISTICS_HEADER","CLFS_IO_STATISTICS_HEADER","CLFS_IO_STATISTICS_HEADER structure [Files]","CLS_IO_STATISTICS_HEADER","PCLFS_IO_STATISTICS_HEADER","PCLFS_IO_STATISTICS_HEADER structure pointer [Files]","PPCLFS_IO_STATISTICS_HEADER","PPCLFS_IO_STATISTICS_HEADER structure pointer [Files]","PPCLS_IO_STATISTICS_HEADER","clfs/PCLFS_IO_STATISTICS_HEADER","clfs/PPCLFS_IO_STATISTICS_HEADER","clfs/_CLFS_IO_STATISTICS_HEADER","fs.clfs_io_statistics_header"]
+description: Header for information retrieved by the GetLogIoStatistics function, which defines the I/O performance counters of a log.
+helpviewer_keywords: ["*PCLFS_IO_STATISTICS_HEADER","*PCLS_IO_STATISTICS_HEADER","CLFS_IO_STATISTICS_HEADER","CLFS_IO_STATISTICS_HEADER structure [Files]","CLS_IO_STATISTICS_HEADER","PCLFS_IO_STATISTICS_HEADER","PCLFS_IO_STATISTICS_HEADER structure pointer [Files]","PPCLFS_IO_STATISTICS_HEADER","PPCLFS_IO_STATISTICS_HEADER structure pointer [Files]","PPCLS_IO_STATISTICS_HEADER","clfs/PCLFS_IO_STATISTICS_HEADER","clfs/PPCLFS_IO_STATISTICS_HEADER","clfs/_CLFS_IO_STATISTICS_HEADER","fs.clfs_io_statistics_header"]
 old-location: fs\clfs_io_statistics_header.htm
 tech.root: Clfs
 ms.assetid: ebf3f962-5c15-4caf-910a-13bf02137046

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMStoreFloat4x4
 title: XMStoreFloat4x4 function (directxmath.h)
-description: Stores an XMMATRIX in an XMFLOAT4X4.helpviewer_keywords: ["Use DirectX..XMStoreFloat4x4","XMStoreFloat4x4","XMStoreFloat4x4 method [DirectX Math Support APIs]","dxmath.xmstorefloat4x4"]
+description: Stores an XMMATRIX in an XMFLOAT4X4.
+helpviewer_keywords: ["Use DirectX..XMStoreFloat4x4","XMStoreFloat4x4","XMStoreFloat4x4 method [DirectX Math Support APIs]","dxmath.xmstorefloat4x4"]
 old-location: dxmath\xmstorefloat4x4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x4(XMFLOAT4X4@,XMMATRIX)

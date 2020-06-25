@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearHwndProps
 title: IAccPropServices::ClearHwndProps (oleacc.h)
-description: This method wraps SetPropValue, SetPropServer, and ClearProps, and provides a convenient entry point for callers who are annotating HWND-based accessible elements.helpviewer_keywords: ["ClearHwndProps","ClearHwndProps method [Windows Accessibility]","ClearHwndProps method [Windows Accessibility]","IAccPropServices interface","IAccPropServices interface [Windows Accessibility]","ClearHwndProps method","IAccPropServices.ClearHwndProps","IAccPropServices::ClearHwndProps","_msaa_IAccPropServices_ClearHwndProps","msaa.iaccpropservices_iaccpropservices__clearhwndprops","oleacc/IAccPropServices::ClearHwndProps","winauto.iaccpropservices_iaccpropservices__clearhwndprops"]
+description: This method wraps SetPropValue, SetPropServer, and ClearProps, and provides a convenient entry point for callers who are annotating HWND-based accessible elements.
+helpviewer_keywords: ["ClearHwndProps","ClearHwndProps method [Windows Accessibility]","ClearHwndProps method [Windows Accessibility]","IAccPropServices interface","IAccPropServices interface [Windows Accessibility]","ClearHwndProps method","IAccPropServices.ClearHwndProps","IAccPropServices::ClearHwndProps","_msaa_IAccPropServices_ClearHwndProps","msaa.iaccpropservices_iaccpropservices__clearhwndprops","oleacc/IAccPropServices::ClearHwndProps","winauto.iaccpropservices_iaccpropservices__clearhwndprops"]
 old-location: winauto\iaccpropservices_iaccpropservices__clearhwndprops.htm
 tech.root: WinAuto
 ms.assetid: 7fd3f595-4897-481f-972e-04cf1a4c6046

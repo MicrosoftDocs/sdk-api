@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Clone
 title: IEnumTfUIElements::Clone (msctf.h)
-description: The IEnumTfUIElements::Clone method creates a copy of the enumerator object.helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfUIElements interface","IEnumTfUIElements interface [Text Services Framework]","Clone method","IEnumTfUIElements.Clone","IEnumTfUIElements::Clone","msctf/IEnumTfUIElements::Clone","tsf.ienumtfuielements_clone"]
+description: The IEnumTfUIElements::Clone method creates a copy of the enumerator object.
+helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfUIElements interface","IEnumTfUIElements interface [Text Services Framework]","Clone method","IEnumTfUIElements.Clone","IEnumTfUIElements::Clone","msctf/IEnumTfUIElements::Clone","tsf.ienumtfuielements_clone"]
 old-location: tsf\ienumtfuielements_clone.htm
 tech.root: TSF
 ms.assetid: 3949ea4d-9360-4524-9495-31a884cac309

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromHandle
 title: IUIAutomation::ElementFromHandle (uiautomationclient.h)
-description: Retrieves a UI Automation element for the specified window.helpviewer_keywords: ["ElementFromHandle","ElementFromHandle method [Windows Accessibility]","ElementFromHandle method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","ElementFromHandle method","IUIAutomation.ElementFromHandle","IUIAutomation::ElementFromHandle","uiauto.uiauto_IUIAutomation_ElementFromHandle","uiauto_IUIAutomation_ElementFromHandle","uiautomationclient/IUIAutomation::ElementFromHandle","winauto.uiauto_IUIAutomation_ElementFromHandle"]
+description: Retrieves a UI Automation element for the specified window.
+helpviewer_keywords: ["ElementFromHandle","ElementFromHandle method [Windows Accessibility]","ElementFromHandle method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","ElementFromHandle method","IUIAutomation.ElementFromHandle","IUIAutomation::ElementFromHandle","uiauto.uiauto_IUIAutomation_ElementFromHandle","uiauto_IUIAutomation_ElementFromHandle","uiautomationclient/IUIAutomation::ElementFromHandle","winauto.uiauto_IUIAutomation_ElementFromHandle"]
 old-location: winauto\uiauto_IUIAutomation_ElementFromHandle.htm
 tech.root: WinAuto
 ms.assetid: 07c6b7fa-80af-44c2-abcf-a167385892d5

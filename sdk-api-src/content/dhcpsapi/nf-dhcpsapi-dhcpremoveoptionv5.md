@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionV5
 title: DhcpRemoveOptionV5 function (dhcpsapi.h)
-description: Removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server. This extends the functionality in DhcpRemoveOption with support for specific class and vendor names.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpRemoveOptionV5","DhcpRemoveOptionV5 function [DHCP]","dhcp.dhcpremoveoptionv5","dhcpsapi/DhcpRemoveOptionV5"]
+description: Removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server. This extends the functionality in DhcpRemoveOption with support for specific class and vendor names.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpRemoveOptionV5","DhcpRemoveOptionV5 function [DHCP]","dhcp.dhcpremoveoptionv5","dhcpsapi/DhcpRemoveOptionV5"]
 old-location: dhcp\dhcpremoveoptionv5.htm
 tech.root: DHCP
 ms.assetid: 53b57879-7533-4e92-a179-d6786052ad46

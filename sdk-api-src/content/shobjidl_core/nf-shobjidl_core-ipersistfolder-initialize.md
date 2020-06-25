@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder.Initialize
 title: IPersistFolder::Initialize (shobjidl_core.h)
-description: Instructs a Shell folder object to initialize itself based on the information passed.helpviewer_keywords: ["IPersistFolder interface [Windows Shell]","Initialize method","IPersistFolder.Initialize","IPersistFolder::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IPersistFolder interface","_win32_IPersistFolder_Initialize","shell.IPersistFolder_Initialize","shobjidl_core/IPersistFolder::Initialize"]
+description: Instructs a Shell folder object to initialize itself based on the information passed.
+helpviewer_keywords: ["IPersistFolder interface [Windows Shell]","Initialize method","IPersistFolder.Initialize","IPersistFolder::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IPersistFolder interface","_win32_IPersistFolder_Initialize","shell.IPersistFolder_Initialize","shobjidl_core/IPersistFolder::Initialize"]
 old-location: shell\IPersistFolder_Initialize.htm
 tech.root: shell
 ms.assetid: 179f13c9-7306-4ed5-935e-2620616b46c1

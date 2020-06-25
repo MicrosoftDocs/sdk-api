@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CreateDIBPatternBrush
 title: CreateDIBPatternBrush function (wingdi.h)
-description: The CreateDIBPatternBrush function creates a logical brush that has the pattern specified by the specified device-independent bitmap (DIB).helpviewer_keywords: ["CreateDIBPatternBrush","CreateDIBPatternBrush function [Windows GDI]","DIB_PAL_COLORS","DIB_RGB_COLORS","_win32_CreateDIBPatternBrush","gdi.createdibpatternbrush","wingdi/CreateDIBPatternBrush"]
+description: The CreateDIBPatternBrush function creates a logical brush that has the pattern specified by the specified device-independent bitmap (DIB).
+helpviewer_keywords: ["CreateDIBPatternBrush","CreateDIBPatternBrush function [Windows GDI]","DIB_PAL_COLORS","DIB_RGB_COLORS","_win32_CreateDIBPatternBrush","gdi.createdibpatternbrush","wingdi/CreateDIBPatternBrush"]
 old-location: gdi\createdibpatternbrush.htm
 tech.root: gdi
 ms.assetid: d123ef44-e047-4188-a2bc-20e479869dc3

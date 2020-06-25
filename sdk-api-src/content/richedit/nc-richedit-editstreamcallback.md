@@ -1,7 +1,8 @@
 ---
 UID: NC:richedit.EDITSTREAMCALLBACK
 title: EDITSTREAMCALLBACK (richedit.h)
-description: The EditStreamCallback function is an application defined callback function used with the EM_STREAMIN and EM_STREAMOUT messages.helpviewer_keywords: ["EditStreamCallback","EditStreamCallback callback","EditStreamCallback callback function [Windows Controls]","_win32_EditStreamCallback","_win32_EditStreamCallback_cpp","controls.EditStreamCallback","controls._win32_EditStreamCallback","richedit/EditStreamCallback"]
+description: The EditStreamCallback function is an application defined callback function used with the EM_STREAMIN and EM_STREAMOUT messages.
+helpviewer_keywords: ["EditStreamCallback","EditStreamCallback callback","EditStreamCallback callback function [Windows Controls]","_win32_EditStreamCallback","_win32_EditStreamCallback_cpp","controls.EditStreamCallback","controls._win32_EditStreamCallback","richedit/EditStreamCallback"]
 old-location: controls\EditStreamCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\editstreamcallback.htm

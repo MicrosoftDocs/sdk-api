@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.AddListContents
 title: IWMPContentPartnerCallback::AddListContents (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The AddListContents method adds a set of media items to a list.helpviewer_keywords: ["AddListContents","AddListContents method [Windows Media Player]","AddListContents method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","AddListContents method","IWMPContentPartnerCallback.AddListContents","IWMPContentPartnerCallback::AddListContents","IWMPContentPartnerCallbackAddListContents","contentpartner/IWMPContentPartnerCallback::AddListContents","wmp.iwmpcontentpartnercallback_addlistcontents"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The AddListContents method adds a set of media items to a list.
+helpviewer_keywords: ["AddListContents","AddListContents method [Windows Media Player]","AddListContents method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","AddListContents method","IWMPContentPartnerCallback.AddListContents","IWMPContentPartnerCallback::AddListContents","IWMPContentPartnerCallbackAddListContents","contentpartner/IWMPContentPartnerCallback::AddListContents","wmp.iwmpcontentpartnercallback_addlistcontents"]
 old-location: wmp\iwmpcontentpartnercallback_addlistcontents.htm
 tech.root: WMP
 ms.assetid: 22d28495-310e-4f3d-a0e3-8f6679c78c40

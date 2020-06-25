@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerFreeData
 title: PeerFreeData function (p2p.h)
-description: The PeerFreeData function deallocates a block of data and returns it to the memory pool. Use the PeerFreeData function to free data that the Peer Identity Manager, Peer Grouping, and Peer Collaboration APIs return.helpviewer_keywords: ["PeerFreeData","PeerFreeData function [Peer Networking]","p2p.peerfreedata","p2p/PeerFreeData"]
+description: The PeerFreeData function deallocates a block of data and returns it to the memory pool. Use the PeerFreeData function to free data that the Peer Identity Manager, Peer Grouping, and Peer Collaboration APIs return.
+helpviewer_keywords: ["PeerFreeData","PeerFreeData function [Peer Networking]","p2p.peerfreedata","p2p/PeerFreeData"]
 old-location: p2p\peerfreedata.htm
 tech.root: P2PSdk
 ms.assetid: 54288829-c991-42d6-a7c4-874ed28dd106

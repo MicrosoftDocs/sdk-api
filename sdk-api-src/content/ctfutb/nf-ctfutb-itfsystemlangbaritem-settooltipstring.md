@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItem.SetTooltipString
 title: ITfSystemLangBarItem::SetTooltipString (ctfutb.h)
-description: ITfSystemLangBarItem::SetTooltipString methodhelpviewer_keywords: ["ITfSystemLangBarItem interface [Text Services Framework]","SetTooltipString method","ITfSystemLangBarItem.SetTooltipString","ITfSystemLangBarItem::SetTooltipString","SetTooltipString","SetTooltipString method [Text Services Framework]","SetTooltipString method [Text Services Framework]","ITfSystemLangBarItem interface","_tsf_itfsystemlangbaritem_settooltipstring_ref","ctfutb/ITfSystemLangBarItem::SetTooltipString","tsf.itfsystemlangbaritem_settooltipstring"]
+description: ITfSystemLangBarItem::SetTooltipString method
+helpviewer_keywords: ["ITfSystemLangBarItem interface [Text Services Framework]","SetTooltipString method","ITfSystemLangBarItem.SetTooltipString","ITfSystemLangBarItem::SetTooltipString","SetTooltipString","SetTooltipString method [Text Services Framework]","SetTooltipString method [Text Services Framework]","ITfSystemLangBarItem interface","_tsf_itfsystemlangbaritem_settooltipstring_ref","ctfutb/ITfSystemLangBarItem::SetTooltipString","tsf.itfsystemlangbaritem_settooltipstring"]
 old-location: tsf\itfsystemlangbaritem_settooltipstring.htm
 tech.root: TSF
 ms.assetid: 6917fcd1-acce-4e5d-b04f-ee8ea69e71b4

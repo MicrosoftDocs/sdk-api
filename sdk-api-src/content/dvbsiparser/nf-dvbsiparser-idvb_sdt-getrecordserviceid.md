@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordServiceId
 title: IDVB_SDT::GetRecordServiceId (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordServiceId","GetRecordServiceId method [Microsoft TV Technologies]","GetRecordServiceId method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetRecordServiceId method","IDVB_SDT.GetRecordServiceId","IDVB_SDT::GetRecordServiceId","IDVB_SDTGetRecordServiceId","dvbsiparser/IDVB_SDT::GetRecordServiceId","mstv.idvb_sdt_getrecordserviceid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordServiceId","GetRecordServiceId method [Microsoft TV Technologies]","GetRecordServiceId method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetRecordServiceId method","IDVB_SDT.GetRecordServiceId","IDVB_SDT::GetRecordServiceId","IDVB_SDTGetRecordServiceId","dvbsiparser/IDVB_SDT::GetRecordServiceId","mstv.idvb_sdt_getrecordserviceid"]
 old-location: mstv\idvb_sdt_getrecordserviceid.htm
 tech.root: mstv
 ms.assetid: a5d93d66-f9a6-439c-b0a5-9310d4fa6d88

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDateFromR4
 title: VarDateFromR4 function (oleauto.h)
-description: Converts a float value to a date value.helpviewer_keywords: ["VarDateFromR4","VarDateFromR4 function [Automation]","_oa96_VarDateFromR4","automat.vardatefromr4","oleauto/VarDateFromR4"]
+description: Converts a float value to a date value.
+helpviewer_keywords: ["VarDateFromR4","VarDateFromR4 function [Automation]","_oa96_VarDateFromR4","automat.vardatefromr4","oleauto/VarDateFromR4"]
 old-location: automat\vardatefromr4.htm
 tech.root: automat
 ms.assetid: 58d83d5b-338d-449c-b4af-97f7b0dfbde3

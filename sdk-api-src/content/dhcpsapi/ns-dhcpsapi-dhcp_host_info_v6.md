@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_HOST_INFO_V6
 title: DHCP_HOST_INFO_V6 (dhcpsapi.h)
-description: Contains network information about a DHCPv6 server (host), such as its IPv6 address and name.helpviewer_keywords: ["*LPDHCP_HOST_INFO_V6","DHCP_HOST_INFO_V6","DHCP_HOST_INFO_V6 structure [DHCP]","PDHCP_HOST_INFO_V6","PDHCP_HOST_INFO_V6 structure pointer [DHCP]","dhcp.dhcp_host_info_v6","dhcpsapi/DHCP_HOST_INFO_V6","dhcpsapi/PDHCP_HOST_INFO_V6"]
+description: Contains network information about a DHCPv6 server (host), such as its IPv6 address and name.
+helpviewer_keywords: ["*LPDHCP_HOST_INFO_V6","DHCP_HOST_INFO_V6","DHCP_HOST_INFO_V6 structure [DHCP]","PDHCP_HOST_INFO_V6","PDHCP_HOST_INFO_V6 structure pointer [DHCP]","dhcp.dhcp_host_info_v6","dhcpsapi/DHCP_HOST_INFO_V6","dhcpsapi/PDHCP_HOST_INFO_V6"]
 old-location: dhcp\dhcp_host_info_v6.htm
 tech.root: DHCP
 ms.assetid: 7473bbcd-d032-4f44-96e8-e08f050c08a3

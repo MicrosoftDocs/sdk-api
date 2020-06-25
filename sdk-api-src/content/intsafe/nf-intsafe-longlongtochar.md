@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongLongToChar
 title: LongLongToChar function (intsafe.h)
-description: Converts a value of type LONGLONG to a value of type CHAR.helpviewer_keywords: ["LongLongToChar","LongLongToChar function [Windows Shell]","intsafe/LongLongToChar","shell.LongLongToChar"]
+description: Converts a value of type LONGLONG to a value of type CHAR.
+helpviewer_keywords: ["LongLongToChar","LongLongToChar function [Windows Shell]","intsafe/LongLongToChar","shell.LongLongToChar"]
 old-location: shell\LongLongToChar.htm
 tech.root: shell
 ms.assetid: c76efb04-4211-467c-8eff-d0648c426784

@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetLicensingStatusInformation
 title: SLGetLicensingStatusInformation function (slpublic.h)
-description: Gets the licensing status of the specified application or SKU.helpviewer_keywords: ["SLGetLicensingStatusInformation","SLGetLicensingStatusInformation function [Security]","security.slgetlicensingstatusinformation","slpublic/SLGetLicensingStatusInformation"]
+description: Gets the licensing status of the specified application or SKU.
+helpviewer_keywords: ["SLGetLicensingStatusInformation","SLGetLicensingStatusInformation function [Security]","security.slgetlicensingstatusinformation","slpublic/SLGetLicensingStatusInformation"]
 old-location: security\slgetlicensingstatusinformation.htm
 tech.root: SecSLApi
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e

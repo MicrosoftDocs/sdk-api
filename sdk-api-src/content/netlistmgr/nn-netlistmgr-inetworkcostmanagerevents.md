@@ -1,7 +1,8 @@
 ---
 UID: NN:netlistmgr.INetworkCostManagerEvents
 title: INetworkCostManagerEvents (netlistmgr.h)
-description: This interface to notify an application of machine-wide cost and data plan related events.helpviewer_keywords: ["INetworkCostManagerEvents","INetworkCostManagerEvents interface [Network Awareness]","INetworkCostManagerEvents interface [Network Awareness]","described","netlistmgr/INetworkCostManagerEvents","nla.inetworkcostmanagerevents"]
+description: This interface to notify an application of machine-wide cost and data plan related events.
+helpviewer_keywords: ["INetworkCostManagerEvents","INetworkCostManagerEvents interface [Network Awareness]","INetworkCostManagerEvents interface [Network Awareness]","described","netlistmgr/INetworkCostManagerEvents","nla.inetworkcostmanagerevents"]
 old-location: nla\inetworkcostmanagerevents.htm
 tech.root: nla
 ms.assetid: A8F4194E-6E9A-4173-8F88-FC2923B11CF0

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTimecode
 title: IWMReaderTimecode (wmsdkidl.h)
-description: The IWMReaderTimecode interface provides access to information about SMPTE (Society of Motion Picture and Television Engineers) time code ranges.helpviewer_keywords: ["IWMReaderTimecode","IWMReaderTimecode interface [windows Media Format]","IWMReaderTimecode interface [windows Media Format]","described","IWMReaderTimecodeInterface","wmformat.iwmreadertimecode","wmsdkidl/IWMReaderTimecode"]
+description: The IWMReaderTimecode interface provides access to information about SMPTE (Society of Motion Picture and Television Engineers) time code ranges.
+helpviewer_keywords: ["IWMReaderTimecode","IWMReaderTimecode interface [windows Media Format]","IWMReaderTimecode interface [windows Media Format]","described","IWMReaderTimecodeInterface","wmformat.iwmreadertimecode","wmsdkidl/IWMReaderTimecode"]
 old-location: wmformat\iwmreadertimecode.htm
 tech.root: wmformat
 ms.assetid: 7f7d5608-c505-46ab-9e1e-e45b383c879b

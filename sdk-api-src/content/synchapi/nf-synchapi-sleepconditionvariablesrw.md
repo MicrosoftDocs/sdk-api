@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.SleepConditionVariableSRW
 title: SleepConditionVariableSRW function (synchapi.h)
-description: Sleeps on the specified condition variable and releases the specified lock as an atomic operation.helpviewer_keywords: ["SleepConditionVariableSRW","SleepConditionVariableSRW function","base.sleepconditionvariablesrw","synchapi/SleepConditionVariableSRW","winbase/SleepConditionVariableSRW"]
+description: Sleeps on the specified condition variable and releases the specified lock as an atomic operation.
+helpviewer_keywords: ["SleepConditionVariableSRW","SleepConditionVariableSRW function","base.sleepconditionvariablesrw","synchapi/SleepConditionVariableSRW","winbase/SleepConditionVariableSRW"]
 old-location: base\sleepconditionvariablesrw.htm
 tech.root: Sync
 ms.assetid: 133f710f-5304-4b92-bec4-d9e8863bfa6d

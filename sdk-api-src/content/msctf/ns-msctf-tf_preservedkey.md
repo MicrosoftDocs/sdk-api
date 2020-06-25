@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_PRESERVEDKEY
 title: TF_PRESERVEDKEY (msctf.h)
-description: The TF_PRESERVEDKEY structure represents a preserved key.helpviewer_keywords: ["TF_PRESERVEDKEY","TF_PRESERVEDKEY structure [Text Services Framework]","_tsf_tf_preservedkey_ref","msctf/TF_PRESERVEDKEY","tsf.tf_preservedkey"]
+description: The TF_PRESERVEDKEY structure represents a preserved key.
+helpviewer_keywords: ["TF_PRESERVEDKEY","TF_PRESERVEDKEY structure [Text Services Framework]","_tsf_tf_preservedkey_ref","msctf/TF_PRESERVEDKEY","tsf.tf_preservedkey"]
 old-location: tsf\tf_preservedkey.htm
 tech.root: TSF
 ms.assetid: 95d37e94-3991-49c9-bddf-4183a69d49b9

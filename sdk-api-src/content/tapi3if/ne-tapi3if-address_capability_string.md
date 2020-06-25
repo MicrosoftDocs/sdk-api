@@ -1,7 +1,8 @@
 ---
 UID: NE:tapi3if.ADDRESS_CAPABILITY_STRING
 title: ADDRESS_CAPABILITY_STRING (tapi3if.h)
-description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.helpviewer_keywords: ["ACS_ADDRESSDEVICESPECIFIC","ACS_LINEDEVICESPECIFIC","ACS_PERMANENTDEVICEGUID","ACS_PROTOCOL","ACS_PROVIDERSPECIFIC","ACS_SWITCHSPECIFIC","ADDRESS_CAPABILITY_STRING","ADDRESS_CAPABILITY_STRING enumeration [TAPI 2.2]","_tapi3_address_capability_string","tapi3.address_capability_string","tapi3if/ACS_ADDRESSDEVICESPECIFIC","tapi3if/ACS_LINEDEVICESPECIFIC","tapi3if/ACS_PERMANENTDEVICEGUID","tapi3if/ACS_PROTOCOL","tapi3if/ACS_PROVIDERSPECIFIC","tapi3if/ACS_SWITCHSPECIFIC","tapi3if/ADDRESS_CAPABILITY_STRING"]
+description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.
+helpviewer_keywords: ["ACS_ADDRESSDEVICESPECIFIC","ACS_LINEDEVICESPECIFIC","ACS_PERMANENTDEVICEGUID","ACS_PROTOCOL","ACS_PROVIDERSPECIFIC","ACS_SWITCHSPECIFIC","ADDRESS_CAPABILITY_STRING","ADDRESS_CAPABILITY_STRING enumeration [TAPI 2.2]","_tapi3_address_capability_string","tapi3.address_capability_string","tapi3if/ACS_ADDRESSDEVICESPECIFIC","tapi3if/ACS_LINEDEVICESPECIFIC","tapi3if/ACS_PERMANENTDEVICEGUID","tapi3if/ACS_PROTOCOL","tapi3if/ACS_PROVIDERSPECIFIC","tapi3if/ACS_SWITCHSPECIFIC","tapi3if/ADDRESS_CAPABILITY_STRING"]
 old-location: tapi3\address_capability_string.htm
 tech.root: Tapi
 ms.assetid: c0afe710-ae6d-4f32-a691-956f8d6fea05

@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsVolume.GetPack
 title: IVdsVolume::GetPack (vds.h)
-description: Retrieves the pack to which the volume is a member.helpviewer_keywords: ["GetPack","GetPack method [VDS]","GetPack method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","GetPack method","IVdsVolume.GetPack","IVdsVolume::GetPack","base.ivdsvolume_getpack","vds/IVdsVolume::GetPack"]
+description: Retrieves the pack to which the volume is a member.
+helpviewer_keywords: ["GetPack","GetPack method [VDS]","GetPack method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","GetPack method","IVdsVolume.GetPack","IVdsVolume::GetPack","base.ivdsvolume_getpack","vds/IVdsVolume::GetPack"]
 old-location: base\ivdsvolume_getpack.htm
 tech.root: VDS
 ms.assetid: 8719c4a4-a7d6-4329-a601-5c88de18f53d

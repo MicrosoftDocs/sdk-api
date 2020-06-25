@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolConnection
 title: IWTSProtocolConnection (wtsprotocol.h)
-description: IWTSProtocolConnection is no longer available. Instead, use IWRdsProtocolConnection.helpviewer_keywords: ["IWTSProtocolConnection","IWTSProtocolConnection interface [Remote Desktop Services]","IWTSProtocolConnection interface [Remote Desktop Services]","described","termserv.iwtsprotocolconnection","wtsprotocol/IWTSProtocolConnection"]
+description: IWTSProtocolConnection is no longer available. Instead, use IWRdsProtocolConnection.
+helpviewer_keywords: ["IWTSProtocolConnection","IWTSProtocolConnection interface [Remote Desktop Services]","IWTSProtocolConnection interface [Remote Desktop Services]","described","termserv.iwtsprotocolconnection","wtsprotocol/IWTSProtocolConnection"]
 old-location: termserv\iwtsprotocolconnection.htm
 tech.root: TermServ
 ms.assetid: 584a6874-0df4-480e-a10a-4b603643870e

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnEPR
 title: IWSManEx::EnumerationFlagReturnEPR (wsmandisp.h)
-description: Returns the value of the enumeration constant EnumerationFlagReturnEPR for use in the flags parameter of the IWSManSession::Enumerate method.helpviewer_keywords: ["EnumerationFlagReturnEPR","EnumerationFlagReturnEPR method [Windows Remote Management]","EnumerationFlagReturnEPR method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagReturnEPR method","IWSManEx.EnumerationFlagReturnEPR","IWSManEx::EnumerationFlagReturnEPR","winrm.iwsmanex_enumerationflagreturnepr","wsmandisp/IWSManEx::EnumerationFlagReturnEPR"]
+description: Returns the value of the enumeration constant EnumerationFlagReturnEPR for use in the flags parameter of the IWSManSession::Enumerate method.
+helpviewer_keywords: ["EnumerationFlagReturnEPR","EnumerationFlagReturnEPR method [Windows Remote Management]","EnumerationFlagReturnEPR method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagReturnEPR method","IWSManEx.EnumerationFlagReturnEPR","IWSManEx::EnumerationFlagReturnEPR","winrm.iwsmanex_enumerationflagreturnepr","wsmandisp/IWSManEx::EnumerationFlagReturnEPR"]
 old-location: winrm\iwsmanex_enumerationflagreturnepr.htm
 tech.root: winrm
 ms.assetid: c8297f17-962d-4f52-909e-e26427af9ab2

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DrawStatusTextA
 title: DrawStatusTextA function (commctrl.h)
-description: The DrawStatusText function draws the specified text in the style of a status window with borders.helpviewer_keywords: ["DrawStatusText","DrawStatusText function [Windows Controls]","DrawStatusTextA","DrawStatusTextW","SBT_NOBORDERS","SBT_POPOUT","SBT_RTLREADING","_win32_DrawStatusText","_win32_DrawStatusText_cpp","commctrl/DrawStatusText","commctrl/DrawStatusTextA","commctrl/DrawStatusTextW","controls.DrawStatusText","controls._win32_DrawStatusText"]
+description: The DrawStatusText function draws the specified text in the style of a status window with borders.
+helpviewer_keywords: ["DrawStatusText","DrawStatusText function [Windows Controls]","DrawStatusTextA","DrawStatusTextW","SBT_NOBORDERS","SBT_POPOUT","SBT_RTLREADING","_win32_DrawStatusText","_win32_DrawStatusText_cpp","commctrl/DrawStatusText","commctrl/DrawStatusTextA","commctrl/DrawStatusTextW","controls.DrawStatusText","controls._win32_DrawStatusText"]
 old-location: controls\DrawStatusText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\drawstatustext.htm
@@ -133,4 +134,8 @@ Indicates that the string pointed to by
 Normal windows display text left-to-right (LTR). Windows can be <i>mirrored</i> to display languages such as Hebrew or Arabic that read right-to-left (RTL). Normally, the <i>pszText</i> string will be displayed in the same direction as the text in its parent window. If SBT_RTLREADING is set, the <i>pszText</i> string will read in the opposite direction from the text in the parent window.
 
 
+
+
+> [!NOTE]
+> The commctrl.h header defines DrawStatusText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

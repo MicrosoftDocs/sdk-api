@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.MMCPropPageCallback
 title: MMCPropPageCallback function (mmc.h)
-description: The MMCPropPageCallback function is only required by Microsoft Foundation Classes (MFC)-based snap-ins. The function sets the correct module state during page creation.helpviewer_keywords: ["MMCPropPageCallback","MMCPropPageCallback callback","MMCPropPageCallback callback function [MMC]","_slate_mmcproppagecallback","mmc.mmcproppagecallback","mmc/MMCPropPageCallback"]
+description: The MMCPropPageCallback function is only required by Microsoft Foundation Classes (MFC)-based snap-ins. The function sets the correct module state during page creation.
+helpviewer_keywords: ["MMCPropPageCallback","MMCPropPageCallback callback","MMCPropPageCallback callback function [MMC]","_slate_mmcproppagecallback","mmc.mmcproppagecallback","mmc/MMCPropPageCallback"]
 old-location: mmc\mmcproppagecallback.htm
 tech.root: mmc
 ms.assetid: c1f952c5-df0f-4cc5-8d20-66a3a6701060

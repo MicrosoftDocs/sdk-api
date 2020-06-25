@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_Count
 title: IDiscMaster2::get_Count (imapi2.h)
-description: Retrieves the number of the CD and DVD disc devices installed on the computer.helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get_Count method","IDiscMaster2.get_Count","IDiscMaster2::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get_count","imapi2/IDiscMaster2::get_Count"]
+description: Retrieves the number of the CD and DVD disc devices installed on the computer.
+helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get_Count method","IDiscMaster2.get_Count","IDiscMaster2::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get_count","imapi2/IDiscMaster2::get_Count"]
 old-location: imapi\idiscmaster2_get_count.htm
 tech.root: imapi
 ms.assetid: b1e0ec8f-4c66-4648-ad76-2998200ea574

@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSinkEvent
 title: IMSVidStreamBufferSinkEvent (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSinkEvent","IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies]","IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSinkEventInterface","mstv.imsvidstreambuffersinkevent","segment/IMSVidStreamBufferSinkEvent"]
+description: This topic applies to Windows XP Service Pack 1 or later.
+helpviewer_keywords: ["IMSVidStreamBufferSinkEvent","IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies]","IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSinkEventInterface","mstv.imsvidstreambuffersinkevent","segment/IMSVidStreamBufferSinkEvent"]
 old-location: mstv\imsvidstreambuffersinkevent.htm
 tech.root: mstv
 ms.assetid: e828d3e0-5a2a-499a-a718-11aa76a01b1b

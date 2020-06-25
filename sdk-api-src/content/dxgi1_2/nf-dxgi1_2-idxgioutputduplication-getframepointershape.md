@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFramePointerShape
 title: IDXGIOutputDuplication::GetFramePointerShape (dxgi1_2.h)
-description: Gets information about the new pointer shape for the current desktop frame.helpviewer_keywords: ["GetFramePointerShape","GetFramePointerShape method [DXGI]","GetFramePointerShape method [DXGI]","IDXGIOutputDuplication interface","IDXGIOutputDuplication interface [DXGI]","GetFramePointerShape method","IDXGIOutputDuplication.GetFramePointerShape","IDXGIOutputDuplication::GetFramePointerShape","direct3ddxgi.idxgioutputduplication_getframepointershape","dxgi1_2/IDXGIOutputDuplication::GetFramePointerShape"]
+description: Gets information about the new pointer shape for the current desktop frame.
+helpviewer_keywords: ["GetFramePointerShape","GetFramePointerShape method [DXGI]","GetFramePointerShape method [DXGI]","IDXGIOutputDuplication interface","IDXGIOutputDuplication interface [DXGI]","GetFramePointerShape method","IDXGIOutputDuplication.GetFramePointerShape","IDXGIOutputDuplication::GetFramePointerShape","direct3ddxgi.idxgioutputduplication_getframepointershape","dxgi1_2/IDXGIOutputDuplication::GetFramePointerShape"]
 old-location: direct3ddxgi\idxgioutputduplication_getframepointershape.htm
 tech.root: direct3ddxgi
 ms.assetid: 321FDB62-BF0E-402E-A00B-6F60B7F132AA

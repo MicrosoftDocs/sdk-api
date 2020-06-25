@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegCloseKey
 title: RegCloseKey function (winreg.h)
-description: Closes a handle to the specified registry key.helpviewer_keywords: ["RegCloseKey","RegCloseKey function","_win32_regclosekey","base.regclosekey","winreg/RegCloseKey"]
+description: Closes a handle to the specified registry key.
+helpviewer_keywords: ["RegCloseKey","RegCloseKey function","_win32_regclosekey","base.regclosekey","winreg/RegCloseKey"]
 old-location: base\regclosekey.htm
 tech.root: SysInfo
 ms.assetid: 10175499-abf3-4694-9594-bb97b43f3fa5

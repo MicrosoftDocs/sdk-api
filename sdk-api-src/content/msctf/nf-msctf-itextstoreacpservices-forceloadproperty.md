@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.ForceLoadProperty
 title: ITextStoreACPServices::ForceLoadProperty (msctf.h)
-description: ITextStoreACPServices::ForceLoadProperty methodhelpviewer_keywords: ["ForceLoadProperty","ForceLoadProperty method [Text Services Framework]","ForceLoadProperty method [Text Services Framework]","ITextStoreACPServices interface","ITextStoreACPServices interface [Text Services Framework]","ForceLoadProperty method","ITextStoreACPServices.ForceLoadProperty","ITextStoreACPServices::ForceLoadProperty","_tsf_itextstoreacpservices_forceloadproperty_ref","msctf/ITextStoreACPServices::ForceLoadProperty","tsf.itextstoreacpservices_forceloadproperty"]
+description: ITextStoreACPServices::ForceLoadProperty method
+helpviewer_keywords: ["ForceLoadProperty","ForceLoadProperty method [Text Services Framework]","ForceLoadProperty method [Text Services Framework]","ITextStoreACPServices interface","ITextStoreACPServices interface [Text Services Framework]","ForceLoadProperty method","ITextStoreACPServices.ForceLoadProperty","ITextStoreACPServices::ForceLoadProperty","_tsf_itextstoreacpservices_forceloadproperty_ref","msctf/ITextStoreACPServices::ForceLoadProperty","tsf.itextstoreacpservices_forceloadproperty"]
 old-location: tsf\itextstoreacpservices_forceloadproperty.htm
 tech.root: TSF
 ms.assetid: 6792ccc0-7bbd-479c-9f24-a283ce03c7fe

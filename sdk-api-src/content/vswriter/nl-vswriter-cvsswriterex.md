@@ -1,7 +1,8 @@
 ---
 UID: NL:vswriter.CVssWriterEx
 title: CVssWriterEx (vswriter.h)
-description: The CVssWriterEx class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.helpviewer_keywords: ["CVssWriterEx","CVssWriterEx class","CVssWriterEx class","described","base.cvsswriterex","vswriter/CVssWriterEx"]
+description: The CVssWriterEx class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
+helpviewer_keywords: ["CVssWriterEx","CVssWriterEx class","CVssWriterEx class","described","base.cvsswriterex","vswriter/CVssWriterEx"]
 old-location: base\cvsswriterex.htm
 tech.root: VSS
 ms.assetid: 29820c1d-2add-402d-a9ca-9e8674d85f7f

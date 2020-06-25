@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetApplicationRestartSettings
 title: GetApplicationRestartSettings function (winbase.h)
-description: Retrieves the restart information registered for the specified process.helpviewer_keywords: ["GetApplicationRestartSettings","GetApplicationRestartSettings function [Recovery]","recovery.getapplicationrestartsettings","winbase/GetApplicationRestartSettings"]
+description: Retrieves the restart information registered for the specified process.
+helpviewer_keywords: ["GetApplicationRestartSettings","GetApplicationRestartSettings function [Recovery]","recovery.getapplicationrestartsettings","winbase/GetApplicationRestartSettings"]
 old-location: recovery\getapplicationrestartsettings.htm
 tech.root: Recovery
 ms.assetid: bf35437a-9252-4efd-aa3c-be487dafa86e

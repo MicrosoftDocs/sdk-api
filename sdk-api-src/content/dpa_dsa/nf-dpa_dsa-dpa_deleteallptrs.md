@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_DeleteAllPtrs
 title: DPA_DeleteAllPtrs function (dpa_dsa.h)
-description: Removes all items from a dynamic pointer array (DPA) and shrinks the DPA accordingly.helpviewer_keywords: ["DPA_DeleteAllPtrs","DPA_DeleteAllPtrs function [Windows Controls]","_win32_DPA_DeleteAllPtrs","_win32_DPA_DeleteAllPtrs_cpp","controls.DPA_DeleteAllPtrs","controls._win32_DPA_DeleteAllPtrs","dpa_dsa/DPA_DeleteAllPtrs"]
+description: Removes all items from a dynamic pointer array (DPA) and shrinks the DPA accordingly.
+helpviewer_keywords: ["DPA_DeleteAllPtrs","DPA_DeleteAllPtrs function [Windows Controls]","_win32_DPA_DeleteAllPtrs","_win32_DPA_DeleteAllPtrs_cpp","controls.DPA_DeleteAllPtrs","controls._win32_DPA_DeleteAllPtrs","dpa_dsa/DPA_DeleteAllPtrs"]
 old-location: controls\DPA_DeleteAllPtrs.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteallptrs.htm

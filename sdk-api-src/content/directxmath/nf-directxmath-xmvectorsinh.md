@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSinH
 title: XMVectorSinH function (directxmath.h)
-description: Computes the hyperbolic sine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorSinH","XMVectorSinH","XMVectorSinH method [DirectX Math Support APIs]","dxmath.xmvectorsinh"]
+description: Computes the hyperbolic sine of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorSinH","XMVectorSinH","XMVectorSinH method [DirectX Math Support APIs]","dxmath.xmvectorsinh"]
 old-location: dxmath\xmvectorsinh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinH(XMVECTOR)

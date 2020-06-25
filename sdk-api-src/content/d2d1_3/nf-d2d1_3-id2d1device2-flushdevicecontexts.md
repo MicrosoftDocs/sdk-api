@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.FlushDeviceContexts
 title: ID2D1Device2::FlushDeviceContexts (d2d1_3.h)
-description: Flush all device contexts that reference a given bitmap.helpviewer_keywords: ["FlushDeviceContexts","FlushDeviceContexts method [Direct2D]","FlushDeviceContexts method [Direct2D]","ID2D1Device2 interface","ID2D1Device2 interface [Direct2D]","FlushDeviceContexts method","ID2D1Device2.FlushDeviceContexts","ID2D1Device2::FlushDeviceContexts","d2d1_3/ID2D1Device2::FlushDeviceContexts","direct2d.id2d1device2_flushdevicecontexts"]
+description: Flush all device contexts that reference a given bitmap.
+helpviewer_keywords: ["FlushDeviceContexts","FlushDeviceContexts method [Direct2D]","FlushDeviceContexts method [Direct2D]","ID2D1Device2 interface","ID2D1Device2 interface [Direct2D]","FlushDeviceContexts method","ID2D1Device2.FlushDeviceContexts","ID2D1Device2::FlushDeviceContexts","d2d1_3/ID2D1Device2::FlushDeviceContexts","direct2d.id2d1device2_flushdevicecontexts"]
 old-location: direct2d\id2d1device2_flushdevicecontexts.htm
 tech.root: Direct2D
 ms.assetid: 914A64BA-61CD-4A66-91D8-F7CC040AF67A

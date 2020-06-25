@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetPreroll
 title: IAMMediaTypeSample::SetPreroll (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetPreroll method specifies whether this is a preroll sample. A preroll sample should not be displayed.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetPreroll method","IAMMediaTypeSample.SetPreroll","IAMMediaTypeSample::SetPreroll","IAMMediaTypeSampleSetPreroll","SetPreroll","SetPreroll method [DirectShow]","SetPreroll method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetPreroll","dshow.iammediatypesample_setpreroll"]
+description: Note  This interface is deprecated. New applications should not use it. The SetPreroll method specifies whether this is a preroll sample. A preroll sample should not be displayed.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetPreroll method","IAMMediaTypeSample.SetPreroll","IAMMediaTypeSample::SetPreroll","IAMMediaTypeSampleSetPreroll","SetPreroll","SetPreroll method [DirectShow]","SetPreroll method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetPreroll","dshow.iammediatypesample_setpreroll"]
 old-location: dshow\iammediatypesample_setpreroll.htm
 tech.root: DirectShow
 ms.assetid: f4815f4f-b919-497a-922e-b4d0d2078e4b

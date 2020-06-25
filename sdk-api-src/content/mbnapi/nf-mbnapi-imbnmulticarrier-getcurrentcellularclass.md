@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetCurrentCellularClass
 title: IMbnMultiCarrier::GetCurrentCellularClass (mbnapi.h)
-description: Gets the current cellular classes for a multi-carrier device.helpviewer_keywords: ["GetCurrentCellularClass","GetCurrentCellularClass method [Microsoft Broadband Networks]","GetCurrentCellularClass method [Microsoft Broadband Networks]","IMbnMultiCarrier interface","IMbnMultiCarrier interface [Microsoft Broadband Networks]","GetCurrentCellularClass method","IMbnMultiCarrier.GetCurrentCellularClass","IMbnMultiCarrier::GetCurrentCellularClass","mbn.imbnmulticarrier_getcurrentcellularclass","mbnapi/IMbnMultiCarrier::GetCurrentCellularClass"]
+description: Gets the current cellular classes for a multi-carrier device.
+helpviewer_keywords: ["GetCurrentCellularClass","GetCurrentCellularClass method [Microsoft Broadband Networks]","GetCurrentCellularClass method [Microsoft Broadband Networks]","IMbnMultiCarrier interface","IMbnMultiCarrier interface [Microsoft Broadband Networks]","GetCurrentCellularClass method","IMbnMultiCarrier.GetCurrentCellularClass","IMbnMultiCarrier::GetCurrentCellularClass","mbn.imbnmulticarrier_getcurrentcellularclass","mbnapi/IMbnMultiCarrier::GetCurrentCellularClass"]
 old-location: mbn\imbnmulticarrier_getcurrentcellularclass.htm
 tech.root: mbn
 ms.assetid: 8DA29C25-3866-4BCA-8591-F8408A1C1401

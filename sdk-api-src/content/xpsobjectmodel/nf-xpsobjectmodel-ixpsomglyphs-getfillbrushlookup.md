@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLookup
 title: IXpsOMGlyphs::GetFillBrushLookup (xpsobjectmodel.h)
-description: Gets the lookup key of the IXpsOMBrush interface that is stored in a resource dictionary and will be used as the fill brush.helpviewer_keywords: ["GetFillBrushLookup","GetFillBrushLookup method [XPS Documents and Packaging]","GetFillBrushLookup method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFillBrushLookup method","IXpsOMGlyphs.GetFillBrushLookup","IXpsOMGlyphs::GetFillBrushLookup","xps.ixpsomglyphs_getfillbrushlookup","xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup"]
+description: Gets the lookup key of the IXpsOMBrush interface that is stored in a resource dictionary and will be used as the fill brush.
+helpviewer_keywords: ["GetFillBrushLookup","GetFillBrushLookup method [XPS Documents and Packaging]","GetFillBrushLookup method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFillBrushLookup method","IXpsOMGlyphs.GetFillBrushLookup","IXpsOMGlyphs::GetFillBrushLookup","xps.ixpsomglyphs_getfillbrushlookup","xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup"]
 old-location: xps\ixpsomglyphs_getfillbrushlookup.htm
 tech.root: printdocs
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd

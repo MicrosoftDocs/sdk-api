@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetCountOfRecords
 title: IDvbLogicalChannelDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [DirectShow]","GetCountOfRecords method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetCountOfRecords method","IDvbLogicalChannelDescriptor.GetCountOfRecords","IDvbLogicalChannelDescriptor::GetCountOfRecords","IDvbLogicalChannelDescriptorGetCountOfRecords","dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords","mstv.idvblogicalchanneldescriptor_getcountofrecords"]
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [DirectShow]","GetCountOfRecords method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetCountOfRecords method","IDvbLogicalChannelDescriptor.GetCountOfRecords","IDvbLogicalChannelDescriptor::GetCountOfRecords","IDvbLogicalChannelDescriptorGetCountOfRecords","dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords","mstv.idvblogicalchanneldescriptor_getcountofrecords"]
 old-location: mstv\idvblogicalchanneldescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 97cadf6c-2549-4a7f-9ecb-c16298769a21

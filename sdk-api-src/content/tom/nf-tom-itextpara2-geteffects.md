@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara2.GetEffects
 title: ITextPara2::GetEffects (tom.h)
-description: Gets the paragraph format effects.helpviewer_keywords: ["GetEffects","GetEffects method [Windows Controls]","GetEffects method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetEffects method","ITextPara2.GetEffects","ITextPara2::GetEffects","controls.itextpara2_geteffects","tom/ITextPara2::GetEffects","tomParaEffectBox","tomParaEffectCollapsed","tomParaEffectDoNotHyphen","tomParaEffectKeep","tomParaEffectKeepNext","tomParaEffectNoLineNumber","tomParaEffectNoWidowControl","tomParaEffectOutlineLevel","tomParaEffectPageBreakBefore","tomParaEffectRTL","tomParaEffectSideBySide","tomParaEffectTable","tomParaEffectTableRowDelimiter"]
+description: Gets the paragraph format effects.
+helpviewer_keywords: ["GetEffects","GetEffects method [Windows Controls]","GetEffects method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetEffects method","ITextPara2.GetEffects","ITextPara2::GetEffects","controls.itextpara2_geteffects","tom/ITextPara2::GetEffects","tomParaEffectBox","tomParaEffectCollapsed","tomParaEffectDoNotHyphen","tomParaEffectKeep","tomParaEffectKeepNext","tomParaEffectNoLineNumber","tomParaEffectNoWidowControl","tomParaEffectOutlineLevel","tomParaEffectPageBreakBefore","tomParaEffectRTL","tomParaEffectSideBySide","tomParaEffectTable","tomParaEffectTableRowDelimiter"]
 old-location: controls\itextpara2_geteffects.htm
 tech.root: Controls
 ms.assetid: 7f672cc9-e8f3-416a-8f41-9b71ca1858a1

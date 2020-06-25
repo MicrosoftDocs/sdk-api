@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalkCB2
 title: INamespaceWalkCB2 (shobjidl_core.h)
-description: Extends INamespaceWalkCB with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.helpviewer_keywords: ["INamespaceWalkCB2","INamespaceWalkCB2 interface [Windows Shell]","INamespaceWalkCB2 interface [Windows Shell]","described","_shell_INamespaceWalkCB2","shell.INamespaceWalkCB2","shobjidl_core/INamespaceWalkCB2"]
+description: Extends INamespaceWalkCB with a method that is required in order to complete a namespace walk. This method removes data collected during the walk.
+helpviewer_keywords: ["INamespaceWalkCB2","INamespaceWalkCB2 interface [Windows Shell]","INamespaceWalkCB2 interface [Windows Shell]","described","_shell_INamespaceWalkCB2","shell.INamespaceWalkCB2","shobjidl_core/INamespaceWalkCB2"]
 old-location: shell\INamespaceWalkCB2.htm
 tech.root: shell
 ms.assetid: a748083b-a99e-4015-93da-112d2950f623

@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.Left
 title: CHString::Left (chstring.h)
-description: Extracts the first nCount characters from a CHString string and returns a copy of the extracted substring.helpviewer_keywords: ["?Left@CHString@@QBE?AV1@H@Z","?Left@CHString@@QEBA?AV1@H@Z","CHString interface [Windows Management Instrumentation]","Left method","CHString.Left","CHString::Left","Left","Left method [Windows Management Instrumentation]","Left method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_left","chstring/CHString::Left","wmi.chstring_left"]
+description: Extracts the first nCount characters from a CHString string and returns a copy of the extracted substring.
+helpviewer_keywords: ["?Left@CHString@@QBE?AV1@H@Z","?Left@CHString@@QEBA?AV1@H@Z","CHString interface [Windows Management Instrumentation]","Left method","CHString.Left","CHString::Left","Left","Left method [Windows Management Instrumentation]","Left method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_left","chstring/CHString::Left","wmi.chstring_left"]
 old-location: wmi\chstring_left.htm
 tech.root: WmiSdk
 ms.assetid: 52219bbb-0a88-47b3-ac6c-ba54d15e8157

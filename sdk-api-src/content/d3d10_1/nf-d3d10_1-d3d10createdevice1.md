@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10_1.D3D10CreateDevice1
 title: D3D10CreateDevice1 function (d3d10_1.h)
-description: Create a Direct3D 10.1 device that represents the display adapter.helpviewer_keywords: ["5003cfd5-5629-9760-cb48-9a25e0a1a3d8","D3D10CreateDevice1","D3D10CreateDevice1 function [Direct3D 10]","d3d10_1/D3D10CreateDevice1","direct3d10.d3d10createdevice1"]
+description: Create a Direct3D 10.1 device that represents the display adapter.
+helpviewer_keywords: ["5003cfd5-5629-9760-cb48-9a25e0a1a3d8","D3D10CreateDevice1","D3D10CreateDevice1 function [Direct3D 10]","d3d10_1/D3D10CreateDevice1","direct3d10.d3d10createdevice1"]
 old-location: direct3d10\d3d10createdevice1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createdevice1.htm

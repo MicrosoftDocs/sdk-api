@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.OleIconToCursor
 title: OleIconToCursor function (olectl.h)
-description: Converts an icon to a cursor.helpviewer_keywords: ["OleIconToCursor","OleIconToCursor function [COM]","_com_OleIconToCursor","com.oleicontocursor","olectl/OleIconToCursor"]
+description: Converts an icon to a cursor.
+helpviewer_keywords: ["OleIconToCursor","OleIconToCursor function [COM]","_com_OleIconToCursor","com.oleicontocursor","olectl/OleIconToCursor"]
 old-location: com\oleicontocursor.htm
 tech.root: com
 ms.assetid: f5de0b9e-6e3d-424c-aeeb-1c272606aea0

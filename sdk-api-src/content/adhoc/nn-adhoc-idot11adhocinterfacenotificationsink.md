@@ -1,7 +1,8 @@
 ---
 UID: NN:adhoc.IDot11AdHocInterfaceNotificationSink
 title: IDot11AdHocInterfaceNotificationSink (adhoc.h)
-description: Defines the notifications supported by IDot11AdHocInterface.helpviewer_keywords: ["IDot11AdHocInterfaceNotificationSink","IDot11AdHocInterfaceNotificationSink interface [NativeWIFI]","IDot11AdHocInterfaceNotificationSink interface [NativeWIFI]","described","adhoc/IDot11AdHocInterfaceNotificationSink","nwifi.idot11adhocinterfacenotificationsink"]
+description: Defines the notifications supported by IDot11AdHocInterface.
+helpviewer_keywords: ["IDot11AdHocInterfaceNotificationSink","IDot11AdHocInterfaceNotificationSink interface [NativeWIFI]","IDot11AdHocInterfaceNotificationSink interface [NativeWIFI]","described","adhoc/IDot11AdHocInterfaceNotificationSink","nwifi.idot11adhocinterfacenotificationsink"]
 old-location: nwifi\idot11adhocinterfacenotificationsink.htm
 tech.root: NativeWiFi
 ms.assetid: ab3fd026-32b4-48cb-aa10-37a084b5b08e

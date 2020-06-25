@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetLineSpacing
 title: IDWriteTextFormat::SetLineSpacing (dwrite.h)
-description: Sets the line spacing.helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetLineSpacing method","IDWriteTextFormat.SetLineSpacing","IDWriteTextFormat::SetLineSpacing","SetLineSpacing","SetLineSpacing method [Direct Write]","SetLineSpacing method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetLineSpacing","dwrite/IDWriteTextFormat::SetLineSpacing"]
+description: Sets the line spacing.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetLineSpacing method","IDWriteTextFormat.SetLineSpacing","IDWriteTextFormat::SetLineSpacing","SetLineSpacing","SetLineSpacing method [Direct Write]","SetLineSpacing method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetLineSpacing","dwrite/IDWriteTextFormat::SetLineSpacing"]
 old-location: directwrite\IDWriteTextFormat_SetLineSpacing.htm
 tech.root: DirectWrite
 ms.assetid: 3629779a-5e50-43ea-b161-dd17598b5b43

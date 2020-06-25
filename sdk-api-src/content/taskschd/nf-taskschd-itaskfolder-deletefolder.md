@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteFolder
 title: ITaskFolder::DeleteFolder (taskschd.h)
-description: Deletes a subfolder from the parent folder.helpviewer_keywords: ["DeleteFolder","DeleteFolder method [Task Scheduler]","DeleteFolder method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","DeleteFolder method","ITaskFolder.DeleteFolder","ITaskFolder::DeleteFolder","taskschd.itaskfolder_deletefolder","taskschd/ITaskFolder::DeleteFolder"]
+description: Deletes a subfolder from the parent folder.
+helpviewer_keywords: ["DeleteFolder","DeleteFolder method [Task Scheduler]","DeleteFolder method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","DeleteFolder method","ITaskFolder.DeleteFolder","ITaskFolder::DeleteFolder","taskschd.itaskfolder_deletefolder","taskschd/ITaskFolder::DeleteFolder"]
 old-location: taskschd\itaskfolder_deletefolder.htm
 tech.root: taskschd
 ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9

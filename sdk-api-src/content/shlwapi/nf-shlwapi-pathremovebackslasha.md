@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathRemoveBackslashA
 title: PathRemoveBackslashA function (shlwapi.h)
-description: Removes the trailing backslash from a given path.helpviewer_keywords: ["PathRemoveBackslash","PathRemoveBackslash function [Windows Shell]","PathRemoveBackslashA","PathRemoveBackslashW","_win32_PathRemoveBackslash","shell.PathRemoveBackslash","shlwapi/PathRemoveBackslash","shlwapi/PathRemoveBackslashA","shlwapi/PathRemoveBackslashW"]
+description: Removes the trailing backslash from a given path.
+helpviewer_keywords: ["PathRemoveBackslash","PathRemoveBackslash function [Windows Shell]","PathRemoveBackslashA","PathRemoveBackslashW","_win32_PathRemoveBackslash","shell.PathRemoveBackslash","shlwapi/PathRemoveBackslash","shlwapi/PathRemoveBackslashA","shlwapi/PathRemoveBackslashW"]
 old-location: shell\PathRemoveBackslash.htm
 tech.root: shell
 ms.assetid: 58d13c38-40aa-4aaa-81dc-2b68425f1fe0
@@ -79,4 +80,9 @@ Type: <b>LPTSTR</b>
 A pointer that, when this function returns successfully and if a backslash has been removed, points to the terminating null character that has replaced the backslash at the end of the string. If the path did not include a trailing backslash, this value will point to the final character in the string.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathRemoveBackslash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextServices.TxGetCurTargetX
 title: ITextServices::TxGetCurTargetX (textserv.h)
-description: Gets the target x position, that is, the current horizontal position of the caret.helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetCurTargetX method","ITextServices.TxGetCurTargetX","ITextServices::TxGetCurTargetX","TxGetCurTargetX","TxGetCurTargetX method [Windows Controls]","TxGetCurTargetX method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetCurTargetX","_win32_ITextServices_TxGetCurTargetX_cpp","controls.ITextServices_TxGetCurTargetX","controls._win32_ITextServices_TxGetCurTargetX","textserv/ITextServices::TxGetCurTargetX"]
+description: Gets the target x position, that is, the current horizontal position of the caret.
+helpviewer_keywords: ["ITextServices interface [Windows Controls]","TxGetCurTargetX method","ITextServices.TxGetCurTargetX","ITextServices::TxGetCurTargetX","TxGetCurTargetX","TxGetCurTargetX method [Windows Controls]","TxGetCurTargetX method [Windows Controls]","ITextServices interface","_win32_ITextServices_TxGetCurTargetX","_win32_ITextServices_TxGetCurTargetX_cpp","controls.ITextServices_TxGetCurTargetX","controls._win32_ITextServices_TxGetCurTargetX","textserv/ITextServices::TxGetCurTargetX"]
 old-location: controls\ITextServices_TxGetCurTargetX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcurtargetx.htm

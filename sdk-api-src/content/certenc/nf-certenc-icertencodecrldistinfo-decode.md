@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Decode
 title: ICertEncodeCRLDistInfo::Decode (certenc.h)
-description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded certificate revocation list (CRL) distribution information extension and stores the resulting array in the COM object.helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeCRLDistInfo object","Decode method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","Decode method","ICertEncodeCRLDistInfo.Decode","ICertEncodeCRLDistInfo::Decode","_certsrv_icertencodecrldistinfo_decode","certenc/ICertEncodeCRLDistInfo::Decode","security.icertencodecrldistinfo_decode"]
+description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded certificate revocation list (CRL) distribution information extension and stores the resulting array in the COM object.
+helpviewer_keywords: ["CCertEncodeCRLDistInfo object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeCRLDistInfo object","Decode method [Security]","ICertEncodeCRLDistInfo interface","ICertEncodeCRLDistInfo interface [Security]","Decode method","ICertEncodeCRLDistInfo.Decode","ICertEncodeCRLDistInfo::Decode","_certsrv_icertencodecrldistinfo_decode","certenc/ICertEncodeCRLDistInfo::Decode","security.icertencodecrldistinfo_decode"]
 old-location: security\icertencodecrldistinfo_decode.htm
 tech.root: SecCrypto
 ms.assetid: 3df104a5-fbd7-4eb1-a6b2-b3e51afa15bf

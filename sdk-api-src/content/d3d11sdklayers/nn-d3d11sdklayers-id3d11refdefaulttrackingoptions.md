@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11RefDefaultTrackingOptions
 title: ID3D11RefDefaultTrackingOptions (d3d11sdklayers.h)
-description: The default tracking interface sets reference default tracking options.helpviewer_keywords: ["ID3D11RefDefaultTrackingOptions","ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","described","d3d11sdklayers/ID3D11RefDefaultTrackingOptions","direct3d11.id3d11refdefaulttrackingoptions"]
+description: The default tracking interface sets reference default tracking options.
+helpviewer_keywords: ["ID3D11RefDefaultTrackingOptions","ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","ID3D11RefDefaultTrackingOptions interface [Direct3D 11]","described","d3d11sdklayers/ID3D11RefDefaultTrackingOptions","direct3d11.id3d11refdefaulttrackingoptions"]
 old-location: direct3d11\id3d11refdefaulttrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: B6DD9810-275E-466B-8FE8-64EED0933B45

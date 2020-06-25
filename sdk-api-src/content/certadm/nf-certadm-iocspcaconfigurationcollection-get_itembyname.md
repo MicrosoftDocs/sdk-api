@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get_ItemByName
 title: IOCSPCAConfigurationCollection::get_ItemByName (certadm.h)
-description: Gets a certification authority (CA) configuration identified by name in the configuration set.helpviewer_keywords: ["IOCSPCAConfigurationCollection interface [Security]","ItemByName property","IOCSPCAConfigurationCollection.ItemByName","IOCSPCAConfigurationCollection.get_ItemByName","IOCSPCAConfigurationCollection::ItemByName","IOCSPCAConfigurationCollection::get_ItemByName","ItemByName property [Security]","ItemByName property [Security]","IOCSPCAConfigurationCollection interface","certadm/IOCSPCAConfigurationCollection::ItemByName","certadm/IOCSPCAConfigurationCollection::get_ItemByName","get_ItemByName","security.iocspcaconfigurationcollection_itembyname_method"]
+description: Gets a certification authority (CA) configuration identified by name in the configuration set.
+helpviewer_keywords: ["IOCSPCAConfigurationCollection interface [Security]","ItemByName property","IOCSPCAConfigurationCollection.ItemByName","IOCSPCAConfigurationCollection.get_ItemByName","IOCSPCAConfigurationCollection::ItemByName","IOCSPCAConfigurationCollection::get_ItemByName","ItemByName property [Security]","ItemByName property [Security]","IOCSPCAConfigurationCollection interface","certadm/IOCSPCAConfigurationCollection::ItemByName","certadm/IOCSPCAConfigurationCollection::get_ItemByName","get_ItemByName","security.iocspcaconfigurationcollection_itembyname_method"]
 old-location: security\iocspcaconfigurationcollection_itembyname_method.htm
 tech.root: SecCrypto
 ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6

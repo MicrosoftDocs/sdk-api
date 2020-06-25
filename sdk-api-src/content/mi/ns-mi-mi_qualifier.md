@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Qualifier
 title: MI_Qualifier (mi.h)
-description: Represents a CIM qualifier.helpviewer_keywords: ["MI_Qualifier","MI_Qualifier structure [Windows Management Infrastructure (MI)]","mi/MI_Qualifier","wmi_v2.mi_qualifier"]
+description: Represents a CIM qualifier.
+helpviewer_keywords: ["MI_Qualifier","MI_Qualifier structure [Windows Management Infrastructure (MI)]","mi/MI_Qualifier","wmi_v2.mi_qualifier"]
 old-location: wmi_v2\mi_qualifier.htm
 tech.root: wmi_v2
 ms.assetid: 4BEBE8AB-90D3-4BBA-A544-7722309160A1

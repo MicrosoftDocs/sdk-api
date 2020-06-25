@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListEx
 title: SHGetPathFromIDListEx function (shlobj_core.h)
-description: Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below.helpviewer_keywords: ["GPFIDL_ALTNAME","GPFIDL_DEFAULT","GPFIDL_UNCPRINTER","SHGetPathFromIDListEx","SHGetPathFromIDListEx function [Windows Shell]","_shell_SHGetPathFromIDListEx","shell.SHGetPathFromIDListEx","shlobj_core/SHGetPathFromIDListEx"]
+description: Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below.
+helpviewer_keywords: ["GPFIDL_ALTNAME","GPFIDL_DEFAULT","GPFIDL_UNCPRINTER","SHGetPathFromIDListEx","SHGetPathFromIDListEx function [Windows Shell]","_shell_SHGetPathFromIDListEx","shell.SHGetPathFromIDListEx","shlobj_core/SHGetPathFromIDListEx"]
 old-location: shell\SHGetPathFromIDListEx.htm
 tech.root: shell
 ms.assetid: 80270c59-275d-4b13-b16c-0c07bb79ed8e

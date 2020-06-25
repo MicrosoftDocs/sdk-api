@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.SetIpInterfaceEntry
 title: SetIpInterfaceEntry function (netioapi.h)
-description: Sets the properties of an IP interface on the local computer.helpviewer_keywords: ["SetIpInterfaceEntry","SetIpInterfaceEntry function [IP Helper]","iphlp.setipinterfaceentry","netioapi/SetIpInterfaceEntry"]
+description: Sets the properties of an IP interface on the local computer.
+helpviewer_keywords: ["SetIpInterfaceEntry","SetIpInterfaceEntry function [IP Helper]","iphlp.setipinterfaceentry","netioapi/SetIpInterfaceEntry"]
 old-location: iphlp\setipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 8e6d2c14-29c3-47a7-9eb8-0989df9da68c

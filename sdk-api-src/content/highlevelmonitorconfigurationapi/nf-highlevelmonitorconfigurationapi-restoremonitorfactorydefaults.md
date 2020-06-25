@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryDefaults
 title: RestoreMonitorFactoryDefaults function (highlevelmonitorconfigurationapi.h)
-description: Restores a monitor's settings to their factory defaults.helpviewer_keywords: ["RestoreMonitorFactoryDefaults","RestoreMonitorFactoryDefaults function [Monitor Configuration]","highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults","monitor.restoremonitorfactorydefaults"]
+description: Restores a monitor's settings to their factory defaults.
+helpviewer_keywords: ["RestoreMonitorFactoryDefaults","RestoreMonitorFactoryDefaults function [Monitor Configuration]","highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults","monitor.restoremonitorfactorydefaults"]
 old-location: monitor\restoremonitorfactorydefaults.htm
 tech.root: Monitor
 ms.assetid: e7ce81c6-28a5-4371-8fc6-d13de33c2e80

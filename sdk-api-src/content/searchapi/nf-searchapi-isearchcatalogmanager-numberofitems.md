@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.NumberOfItems
 title: ISearchCatalogManager::NumberOfItems (searchapi.h)
-description: Gets the number of items in the catalog.helpviewer_keywords: ["ISearchCatalogManager interface [search]","NumberOfItems method","ISearchCatalogManager.NumberOfItems","ISearchCatalogManager::NumberOfItems","NumberOfItems","NumberOfItems method [search]","NumberOfItems method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_NumberOfItems","search._search_ISearchCatalogManager_NumberOfItems","searchapi/ISearchCatalogManager::NumberOfItems"]
+description: Gets the number of items in the catalog.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","NumberOfItems method","ISearchCatalogManager.NumberOfItems","ISearchCatalogManager::NumberOfItems","NumberOfItems","NumberOfItems method [search]","NumberOfItems method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_NumberOfItems","search._search_ISearchCatalogManager_NumberOfItems","searchapi/ISearchCatalogManager::NumberOfItems"]
 old-location: search\_search_ISearchCatalogManager_NumberOfItems.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitems.htm

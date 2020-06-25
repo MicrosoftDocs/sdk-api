@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataFormat
 title: IWICMetadataReader::GetMetadataFormat (wincodecsdk.h)
-description: Gets the metadata format associated with the reader.helpviewer_keywords: ["GetMetadataFormat","GetMetadataFormat method [Windows Imaging Component]","GetMetadataFormat method [Windows Imaging Component]","IWICMetadataReader interface","IWICMetadataReader interface [Windows Imaging Component]","GetMetadataFormat method","IWICMetadataReader.GetMetadataFormat","IWICMetadataReader::GetMetadataFormat","_wic_codec_iwicmetadatareader_getmetadataformat","wic._wic_codec_iwicmetadatareader_getmetadataformat","wincodecsdk/IWICMetadataReader::GetMetadataFormat"]
+description: Gets the metadata format associated with the reader.
+helpviewer_keywords: ["GetMetadataFormat","GetMetadataFormat method [Windows Imaging Component]","GetMetadataFormat method [Windows Imaging Component]","IWICMetadataReader interface","IWICMetadataReader interface [Windows Imaging Component]","GetMetadataFormat method","IWICMetadataReader.GetMetadataFormat","IWICMetadataReader::GetMetadataFormat","_wic_codec_iwicmetadatareader_getmetadataformat","wic._wic_codec_iwicmetadatareader_getmetadataformat","wincodecsdk/IWICMetadataReader::GetMetadataFormat"]
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadataformat.htm
 tech.root: wic
 ms.assetid: 5dcbfac4-9a77-4453-be1e-3c42e94d548e

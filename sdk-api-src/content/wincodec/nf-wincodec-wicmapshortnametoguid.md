@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.WICMapShortNameToGuid
 title: WICMapShortNameToGuid function (wincodec.h)
-description: Obtains the GUID associated with the given short name.helpviewer_keywords: ["WICMapShortNameToGuid","WICMapShortNameToGuid function [Windows Imaging Component]","_wic_codec_wicmapshortnametoguid","wic._wic_codec_wicmapshortnametoguid","wincodec/WICMapShortNameToGuid"]
+description: Obtains the GUID associated with the given short name.
+helpviewer_keywords: ["WICMapShortNameToGuid","WICMapShortNameToGuid function [Windows Imaging Component]","_wic_codec_wicmapshortnametoguid","wic._wic_codec_wicmapshortnametoguid","wincodec/WICMapShortNameToGuid"]
 old-location: wic\_wic_codec_wicmapshortnametoguid.htm
 tech.root: wic
 ms.assetid: ceefa802-7930-4b01-b1a2-6db530032e88

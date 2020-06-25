@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbPlugin
 title: ITsSbPlugin (sbtsv.h)
-description: Exposes methods that initialize and terminate plug-ins.helpviewer_keywords: ["ITsSbPlugin","ITsSbPlugin interface [Remote Desktop Services]","ITsSbPlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbPlugin","termserv.itssbplugin"]
+description: Exposes methods that initialize and terminate plug-ins.
+helpviewer_keywords: ["ITsSbPlugin","ITsSbPlugin interface [Remote Desktop Services]","ITsSbPlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbPlugin","termserv.itssbplugin"]
 old-location: termserv\itssbplugin.htm
 tech.root: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9

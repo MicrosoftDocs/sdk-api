@@ -1,7 +1,8 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0031_0001
 title: MF_URL_TRUST_STATUS (mfidl.h)
-description: Indicates whether the URL is from a trusted source.helpviewer_keywords: ["MF_LICENSE_URL_TAMPERED","MF_LICENSE_URL_TRUSTED","MF_LICENSE_URL_UNTRUSTED","MF_URL_TRUST_STATUS","MF_URL_TRUST_STATUS enumeration [Media Foundation]","fd008a23-71f7-4718-a51a-ee88453b6fdd","mf.mf_url_trust_status","mfidl/MF_LICENSE_URL_TAMPERED","mfidl/MF_LICENSE_URL_TRUSTED","mfidl/MF_LICENSE_URL_UNTRUSTED","mfidl/MF_URL_TRUST_STATUS"]
+description: Indicates whether the URL is from a trusted source.
+helpviewer_keywords: ["MF_LICENSE_URL_TAMPERED","MF_LICENSE_URL_TRUSTED","MF_LICENSE_URL_UNTRUSTED","MF_URL_TRUST_STATUS","MF_URL_TRUST_STATUS enumeration [Media Foundation]","fd008a23-71f7-4718-a51a-ee88453b6fdd","mf.mf_url_trust_status","mfidl/MF_LICENSE_URL_TAMPERED","mfidl/MF_LICENSE_URL_TRUSTED","mfidl/MF_LICENSE_URL_UNTRUSTED","mfidl/MF_URL_TRUST_STATUS"]
 old-location: mf\mf_url_trust_status.htm
 tech.root: medfound
 ms.assetid: fd008a23-71f7-4718-a51a-ee88453b6fdd

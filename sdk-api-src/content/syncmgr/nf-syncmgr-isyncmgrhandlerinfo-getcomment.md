@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetComment
 title: ISyncMgrHandlerInfo::GetComment (syncmgr.h)
-description: Gets a string that contains commentary regarding the handler.helpviewer_keywords: ["GetComment","GetComment method [Windows Shell]","GetComment method [Windows Shell]","ISyncMgrHandlerInfo interface","ISyncMgrHandlerInfo interface [Windows Shell]","GetComment method","ISyncMgrHandlerInfo.GetComment","ISyncMgrHandlerInfo::GetComment","_shell_ISyncMgrHandlerInfo_GetComment","shell.ISyncMgrHandlerInfo_GetComment","syncmgr/ISyncMgrHandlerInfo::GetComment"]
+description: Gets a string that contains commentary regarding the handler.
+helpviewer_keywords: ["GetComment","GetComment method [Windows Shell]","GetComment method [Windows Shell]","ISyncMgrHandlerInfo interface","ISyncMgrHandlerInfo interface [Windows Shell]","GetComment method","ISyncMgrHandlerInfo.GetComment","ISyncMgrHandlerInfo::GetComment","_shell_ISyncMgrHandlerInfo_GetComment","shell.ISyncMgrHandlerInfo_GetComment","syncmgr/ISyncMgrHandlerInfo::GetComment"]
 old-location: shell\ISyncMgrHandlerInfo_GetComment.htm
 tech.root: shell
 ms.assetid: 755d3038-934f-42b7-a807-7037fa0ea21e

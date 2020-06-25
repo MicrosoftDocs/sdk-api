@@ -1,7 +1,8 @@
 ---
 UID: NN:dsadmin.IDsAdminCreateObj
 title: IDsAdminCreateObj (dsadmin.h)
-description: Used by an application or component to programmatically start a creation wizard for a specified object class.helpviewer_keywords: ["IDsAdminCreateObj","IDsAdminCreateObj interface [Active Directory]","IDsAdminCreateObj interface [Active Directory]","described","_glines_idsadmincreateobj","ad.idsadmincreateobj","dsadmin/IDsAdminCreateObj"]
+description: Used by an application or component to programmatically start a creation wizard for a specified object class.
+helpviewer_keywords: ["IDsAdminCreateObj","IDsAdminCreateObj interface [Active Directory]","IDsAdminCreateObj interface [Active Directory]","described","_glines_idsadmincreateobj","ad.idsadmincreateobj","dsadmin/IDsAdminCreateObj"]
 old-location: ad\idsadmincreateobj.htm
 tech.root: ad
 ms.assetid: 93673b29-744a-4100-86b7-8a2eec861c47

@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilterCollection.get_Item
 title: IGPMWMIFilterCollection::get_Item (gpmgmt.h)
-description: Given an index, returns a WMI filter from the collection.helpviewer_keywords: ["GPMWMIFilterCollection class [GPMC]","Item property","IGPMWMIFilterCollection interface [GPMC]","Item property","IGPMWMIFilterCollection.Item","IGPMWMIFilterCollection.get_Item","IGPMWMIFilterCollection::Item","IGPMWMIFilterCollection::get_Item","Item property [GPMC]","Item property [GPMC]","GPMWMIFilterCollection class","Item property [GPMC]","IGPMWMIFilterCollection interface","_win32_igpmwmifiltercollection_get_item","get_Item","gpmc.igpmwmifiltercollection_get_item","gpmgmt/IGPMWMIFilterCollection::Item","gpmgmt/IGPMWMIFilterCollection::get_Item"]
+description: Given an index, returns a WMI filter from the collection.
+helpviewer_keywords: ["GPMWMIFilterCollection class [GPMC]","Item property","IGPMWMIFilterCollection interface [GPMC]","Item property","IGPMWMIFilterCollection.Item","IGPMWMIFilterCollection.get_Item","IGPMWMIFilterCollection::Item","IGPMWMIFilterCollection::get_Item","Item property [GPMC]","Item property [GPMC]","GPMWMIFilterCollection class","Item property [GPMC]","IGPMWMIFilterCollection interface","_win32_igpmwmifiltercollection_get_item","get_Item","gpmc.igpmwmifiltercollection_get_item","gpmgmt/IGPMWMIFilterCollection::Item","gpmgmt/IGPMWMIFilterCollection::get_Item"]
 old-location: gpmc\igpmwmifiltercollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 9026fae6-020f-40be-8b9d-44cbade89fd0

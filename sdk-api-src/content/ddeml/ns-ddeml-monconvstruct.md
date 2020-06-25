@@ -1,7 +1,8 @@
 ---
 UID: NS:ddeml.tagMONCONVSTRUCT
 title: MONCONVSTRUCT (ddeml.h)
-description: Contains information about a Dynamic Data Exchange (DDE) conversation. A DDE monitoring application can use this structure to obtain information about a conversation that has been established or has terminated.helpviewer_keywords: ["*PMONCONVSTRUCT","MONCONVSTRUCT","MONCONVSTRUCT structure [Data Exchange]","PMONCONVSTRUCT","PMONCONVSTRUCT structure pointer [Data Exchange]","_win32_MONCONVSTRUCT_str","_win32_monconvstruct_str_cpp","dataxchg.monconvstruct_str","ddeml/MONCONVSTRUCT","ddeml/PMONCONVSTRUCT","winui._win32_monconvstruct_str"]
+description: Contains information about a Dynamic Data Exchange (DDE) conversation. A DDE monitoring application can use this structure to obtain information about a conversation that has been established or has terminated.
+helpviewer_keywords: ["*PMONCONVSTRUCT","MONCONVSTRUCT","MONCONVSTRUCT structure [Data Exchange]","PMONCONVSTRUCT","PMONCONVSTRUCT structure pointer [Data Exchange]","_win32_MONCONVSTRUCT_str","_win32_monconvstruct_str_cpp","dataxchg.monconvstruct_str","ddeml/MONCONVSTRUCT","ddeml/PMONCONVSTRUCT","winui._win32_monconvstruct_str"]
 old-location: dataxchg\monconvstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monconvstruct.htm

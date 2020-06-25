@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngLockDriverObj
 title: EngLockDriverObj function (winddi.h)
-description: The EngLockDriverObj function creates an exclusive lock on this object for the calling thread.helpviewer_keywords: ["EngLockDriverObj","EngLockDriverObj function [Display Devices]","display.englockdriverobj","gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml","winddi/EngLockDriverObj"]
+description: The EngLockDriverObj function creates an exclusive lock on this object for the calling thread.
+helpviewer_keywords: ["EngLockDriverObj","EngLockDriverObj function [Display Devices]","display.englockdriverobj","gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml","winddi/EngLockDriverObj"]
 old-location: display\englockdriverobj.htm
 tech.root: display
 ms.assetid: 9ed3142d-2b20-4453-9057-80e6f8f92ff2

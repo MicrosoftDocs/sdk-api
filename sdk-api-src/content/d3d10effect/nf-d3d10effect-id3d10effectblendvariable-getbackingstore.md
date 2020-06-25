@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectBlendVariable.GetBackingStore
 title: ID3D10EffectBlendVariable::GetBackingStore (d3d10effect.h)
-description: Get a pointer to a blend-state variable.helpviewer_keywords: ["GetBackingStore","GetBackingStore method [Direct3D 10]","GetBackingStore method [Direct3D 10]","ID3D10EffectBlendVariable interface","ID3D10EffectBlendVariable interface [Direct3D 10]","GetBackingStore method","ID3D10EffectBlendVariable.GetBackingStore","ID3D10EffectBlendVariable::GetBackingStore","a3cd275e-7fbc-0df7-7bd7-389e7e3c4888","d3d10effect/ID3D10EffectBlendVariable::GetBackingStore","direct3d10.id3d10effectblendvariable_getbackingstore"]
+description: Get a pointer to a blend-state variable.
+helpviewer_keywords: ["GetBackingStore","GetBackingStore method [Direct3D 10]","GetBackingStore method [Direct3D 10]","ID3D10EffectBlendVariable interface","ID3D10EffectBlendVariable interface [Direct3D 10]","GetBackingStore method","ID3D10EffectBlendVariable.GetBackingStore","ID3D10EffectBlendVariable::GetBackingStore","a3cd275e-7fbc-0df7-7bd7-389e7e3c4888","d3d10effect/ID3D10EffectBlendVariable::GetBackingStore","direct3d10.id3d10effectblendvariable_getbackingstore"]
 old-location: direct3d10\id3d10effectblendvariable_getbackingstore.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectblendvariable_getbackingstore.htm

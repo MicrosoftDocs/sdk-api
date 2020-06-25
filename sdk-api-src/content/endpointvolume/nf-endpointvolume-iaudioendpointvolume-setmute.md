@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetMute
 title: IAudioEndpointVolume::SetMute (endpointvolume.h)
-description: The SetMute method sets the muting state of the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","SetMute method","IAudioEndpointVolume.SetMute","IAudioEndpointVolume::SetMute","IAudioEndpointVolumeSetMute","SetMute","SetMute method [Core Audio]","SetMute method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_setmute","endpointvolume/IAudioEndpointVolume::SetMute"]
+description: The SetMute method sets the muting state of the audio stream that enters or leaves the audio endpoint device.
+helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","SetMute method","IAudioEndpointVolume.SetMute","IAudioEndpointVolume::SetMute","IAudioEndpointVolumeSetMute","SetMute","SetMute method [Core Audio]","SetMute method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_setmute","endpointvolume/IAudioEndpointVolume::SetMute"]
 old-location: coreaudio\iaudioendpointvolume_setmute.htm
 tech.root: CoreAudio
 ms.assetid: a0ab4fef-8333-4f21-ae8e-74285788ae0e

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectA
 title: SetupQueueCopyIndirectA function (setupapi.h)
-description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.helpviewer_keywords: ["SetupQueueCopyIndirect","SetupQueueCopyIndirect function [Setup API]","SetupQueueCopyIndirectA","SetupQueueCopyIndirectW","_setupapi_setupqueuecopyindirect","setup.setupqueuecopyindirect","setupapi/SetupQueueCopyIndirect","setupapi/SetupQueueCopyIndirectA","setupapi/SetupQueueCopyIndirectW"]
+description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
+helpviewer_keywords: ["SetupQueueCopyIndirect","SetupQueueCopyIndirect function [Setup API]","SetupQueueCopyIndirectA","SetupQueueCopyIndirectW","_setupapi_setupqueuecopyindirect","setup.setupqueuecopyindirect","setupapi/SetupQueueCopyIndirect","setupapi/SetupQueueCopyIndirectA","setupapi/SetupQueueCopyIndirectW"]
 old-location: setup\setupqueuecopyindirect.htm
 tech.root: SetupApi
 ms.assetid: 5c81e83c-7ee3-489f-9d4c-f7c8a1c5cc5b
@@ -88,4 +89,8 @@ If the function fails, the return value is zero. To get extended error informati
 If a UNC directory is specified as the target directory of a file copy operation, you must ensure it exists before the queue is committed. The setup functions do not check for the existence of and do not create UNC directories. If the target UNC directory does not exist, the file copy will fail.
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupQueueCopyIndirect as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

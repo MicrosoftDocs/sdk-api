@@ -1,7 +1,8 @@
 ---
 UID: NS:mapi.__unnamed_struct_2
 title: MapiFileTagExt (mapi.h)
-description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.helpviewer_keywords: ["*lpMapiFileTagExt","MapiFileTagExt","MapiFileTagExt structure","lpMapiFileTagExt","lpMapiFileTagExt structure pointer","mapi.mapifiletagext","mapi/MapiFileTagExt","mapi/lpMapiFileTagExt"]
+description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.
+helpviewer_keywords: ["*lpMapiFileTagExt","MapiFileTagExt","MapiFileTagExt structure","lpMapiFileTagExt","lpMapiFileTagExt structure pointer","mapi.mapifiletagext","mapi/MapiFileTagExt","mapi/lpMapiFileTagExt"]
 old-location: mapi\mapifiletagext.htm
 tech.root: WindowsMAPI
 ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222

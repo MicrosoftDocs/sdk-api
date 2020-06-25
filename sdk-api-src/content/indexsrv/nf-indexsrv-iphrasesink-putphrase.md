@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutPhrase
 title: IPhraseSink::PutPhrase (indexsrv.h)
-description: Puts a query-time phrase in the IPhraseSink object.helpviewer_keywords: ["IPhraseSink interface [search]","PutPhrase method","IPhraseSink.PutPhrase","IPhraseSink::PutPhrase","PutPhrase","PutPhrase method [search]","PutPhrase method [search]","IPhraseSink interface","indexsrv/IPhraseSink::PutPhrase","search.iphrasesink_putphrase"]
+description: Puts a query-time phrase in the IPhraseSink object.
+helpviewer_keywords: ["IPhraseSink interface [search]","PutPhrase method","IPhraseSink.PutPhrase","IPhraseSink::PutPhrase","PutPhrase","PutPhrase method [search]","PutPhrase method [search]","IPhraseSink interface","indexsrv/IPhraseSink::PutPhrase","search.iphrasesink_putphrase"]
 old-location: search\iphrasesink_putphrase.htm
 tech.root: search
 ms.assetid: 5E1762A8-8CC9-4EAE-BC79-91672994C1E3

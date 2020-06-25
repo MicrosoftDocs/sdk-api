@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusheaders.InstalledFontCollection
 title: InstalledFontCollection (gdiplusheaders.h)
-description: The InstalledFontCollection class defines a class that represents the fonts installed on the system.helpviewer_keywords: ["InstalledFontCollection","InstalledFontCollection class [GDI+]","InstalledFontCollection class [GDI+]","described","_gdiplus_CLASS_InstalledFontCollection_Class","gdiplus._gdiplus_CLASS_InstalledFontCollection_Class","gdiplusheaders/InstalledFontCollection"]
+description: The InstalledFontCollection class defines a class that represents the fonts installed on the system.
+helpviewer_keywords: ["InstalledFontCollection","InstalledFontCollection class [GDI+]","InstalledFontCollection class [GDI+]","described","_gdiplus_CLASS_InstalledFontCollection_Class","gdiplus._gdiplus_CLASS_InstalledFontCollection_Class","gdiplusheaders/InstalledFontCollection"]
 old-location: gdiplus\_gdiplus_CLASS_InstalledFontCollection_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\installedfontcollection.htm

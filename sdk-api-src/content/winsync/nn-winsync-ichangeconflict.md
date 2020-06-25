@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IChangeConflict
 title: IChangeConflict (winsync.h)
-description: Represents a conflict between two items.helpviewer_keywords: ["IChangeConflict","IChangeConflict interface [Windows Sync]","IChangeConflict interface [Windows Sync]","described","winsync.ichangeconflict","winsync/IChangeConflict"]
+description: Represents a conflict between two items.
+helpviewer_keywords: ["IChangeConflict","IChangeConflict interface [Windows Sync]","IChangeConflict interface [Windows Sync]","described","winsync.ichangeconflict","winsync/IChangeConflict"]
 old-location: winsync\ichangeconflict.htm
 tech.root: winsync
 ms.assetid: b0089d3d-a1e6-4662-9e79-4c0b22c08d7f

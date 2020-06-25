@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ComputeInfo.SetResourceTexture
 title: ID2D1ComputeInfo::SetResourceTexture (d2d1effectauthor.h)
-description: Sets the resource texture corresponding to the given shader texture index to the given texture resource.helpviewer_keywords: ["ID2D1ComputeInfo interface [Direct2D]","SetResourceTexture method","ID2D1ComputeInfo.SetResourceTexture","ID2D1ComputeInfo::SetResourceTexture","SetResourceTexture","SetResourceTexture method [Direct2D]","SetResourceTexture method [Direct2D]","ID2D1ComputeInfo interface","d2d1effectauthor/ID2D1ComputeInfo::SetResourceTexture","direct2d.id2d1computeinfo_setresourcetexture"]
+description: Sets the resource texture corresponding to the given shader texture index to the given texture resource.
+helpviewer_keywords: ["ID2D1ComputeInfo interface [Direct2D]","SetResourceTexture method","ID2D1ComputeInfo.SetResourceTexture","ID2D1ComputeInfo::SetResourceTexture","SetResourceTexture","SetResourceTexture method [Direct2D]","SetResourceTexture method [Direct2D]","ID2D1ComputeInfo interface","d2d1effectauthor/ID2D1ComputeInfo::SetResourceTexture","direct2d.id2d1computeinfo_setresourcetexture"]
 old-location: direct2d\id2d1computeinfo_setresourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 20641E91-15EB-4D64-AE36-DB83103B112E

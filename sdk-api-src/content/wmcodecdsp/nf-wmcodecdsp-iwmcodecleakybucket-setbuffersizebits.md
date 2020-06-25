@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.SetBufferSizeBits
 title: IWMCodecLeakyBucket::SetBufferSizeBits (wmcodecdsp.h)
-description: Sets the buffer size in bits.helpviewer_keywords: ["IWMCodecLeakyBucket interface [Media Foundation]","SetBufferSizeBits method","IWMCodecLeakyBucket.SetBufferSizeBits","IWMCodecLeakyBucket::SetBufferSizeBits","SetBufferSizeBits","SetBufferSizeBits method [Media Foundation]","SetBufferSizeBits method [Media Foundation]","IWMCodecLeakyBucket interface","codecapi.iwmcodecleakybucketsetbuffersizebits","mf.iwmcodecleakybucketsetbuffersizebits","wmcodecdsp/IWMCodecLeakyBucket::SetBufferSizeBits"]
+description: Sets the buffer size in bits.
+helpviewer_keywords: ["IWMCodecLeakyBucket interface [Media Foundation]","SetBufferSizeBits method","IWMCodecLeakyBucket.SetBufferSizeBits","IWMCodecLeakyBucket::SetBufferSizeBits","SetBufferSizeBits","SetBufferSizeBits method [Media Foundation]","SetBufferSizeBits method [Media Foundation]","IWMCodecLeakyBucket interface","codecapi.iwmcodecleakybucketsetbuffersizebits","mf.iwmcodecleakybucketsetbuffersizebits","wmcodecdsp/IWMCodecLeakyBucket::SetBufferSizeBits"]
 old-location: mf\iwmcodecleakybucketsetbuffersizebits.htm
 tech.root: medfound
 ms.assetid: b602e8ca-8446-4f94-bcd0-193084d96565

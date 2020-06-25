@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Tilt
 title: ICameraControl::put_Tilt (vidcap.h)
-description: The put_Tilt method sets the camera's tilt angle.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Tilt method","ICameraControl.put_Tilt","ICameraControl::put_Tilt","ICameraControlput_Tilt","dshow.icameracontrol_put_tilt","put_Tilt","put_Tilt method [DirectShow]","put_Tilt method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Tilt"]
+description: The put_Tilt method sets the camera's tilt angle.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Tilt method","ICameraControl.put_Tilt","ICameraControl::put_Tilt","ICameraControlput_Tilt","dshow.icameracontrol_put_tilt","put_Tilt","put_Tilt method [DirectShow]","put_Tilt method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Tilt"]
 old-location: dshow\icameracontrol_put_tilt.htm
 tech.root: DirectShow
 ms.assetid: e75adedb-5cf2-4b2c-bb57-1bfedfc81979

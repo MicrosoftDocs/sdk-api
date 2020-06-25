@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetTransform(const D2D1_MATRIX_3X2_F)
 title: ID2D1RenderTarget::SetTransform (d2d1.h)
-description: Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetTransform method","ID2D1RenderTarget.SetTransform","ID2D1RenderTarget::SetTransform","ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetTransform","direct2d.ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F"]
+description: Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.
+helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetTransform method","ID2D1RenderTarget.SetTransform","ID2D1RenderTarget::SetTransform","ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetTransform","direct2d.ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F"]
 old-location: direct2d\ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
 ms.assetid: c358ea97-c42e-4912-a4e4-9a30935bd95b

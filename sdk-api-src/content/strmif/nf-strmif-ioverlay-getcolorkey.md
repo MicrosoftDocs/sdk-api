@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IOverlay.GetColorKey
 title: IOverlay::GetColorKey (strmif.h)
-description: The GetColorKey method retrieves the current color key used for chroma keying.helpviewer_keywords: ["GetColorKey","GetColorKey method [DirectShow]","GetColorKey method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","GetColorKey method","IOverlay.GetColorKey","IOverlay::GetColorKey","IOverlayGetColorKey","dshow.ioverlay_getcolorkey","strmif/IOverlay::GetColorKey"]
+description: The GetColorKey method retrieves the current color key used for chroma keying.
+helpviewer_keywords: ["GetColorKey","GetColorKey method [DirectShow]","GetColorKey method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","GetColorKey method","IOverlay.GetColorKey","IOverlay::GetColorKey","IOverlayGetColorKey","dshow.ioverlay_getcolorkey","strmif/IOverlay::GetColorKey"]
 old-location: dshow\ioverlay_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: fc9e414e-be53-46e7-b329-23f17fc23725

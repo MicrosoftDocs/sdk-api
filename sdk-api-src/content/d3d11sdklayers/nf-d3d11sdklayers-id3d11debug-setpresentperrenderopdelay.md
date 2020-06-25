@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetPresentPerRenderOpDelay
 title: ID3D11Debug::SetPresentPerRenderOpDelay (d3d11sdklayers.h)
-description: Set the number of milliseconds to sleep after IDXGISwapChain::Present is called.helpviewer_keywords: ["573cbcb7-dbec-80ce-3edb-e1d60b5c1261","ID3D11Debug interface [Direct3D 11]","SetPresentPerRenderOpDelay method","ID3D11Debug.SetPresentPerRenderOpDelay","ID3D11Debug::SetPresentPerRenderOpDelay","SetPresentPerRenderOpDelay","SetPresentPerRenderOpDelay method [Direct3D 11]","SetPresentPerRenderOpDelay method [Direct3D 11]","ID3D11Debug interface","d3d11sdklayers/ID3D11Debug::SetPresentPerRenderOpDelay","direct3d11.id3d11debug_setpresentperrenderopdelay"]
+description: Set the number of milliseconds to sleep after IDXGISwapChain::Present is called.
+helpviewer_keywords: ["573cbcb7-dbec-80ce-3edb-e1d60b5c1261","ID3D11Debug interface [Direct3D 11]","SetPresentPerRenderOpDelay method","ID3D11Debug.SetPresentPerRenderOpDelay","ID3D11Debug::SetPresentPerRenderOpDelay","SetPresentPerRenderOpDelay","SetPresentPerRenderOpDelay method [Direct3D 11]","SetPresentPerRenderOpDelay method [Direct3D 11]","ID3D11Debug interface","d3d11sdklayers/ID3D11Debug::SetPresentPerRenderOpDelay","direct3d11.id3d11debug_setpresentperrenderopdelay"]
 old-location: direct3d11\id3d11debug_setpresentperrenderopdelay.htm
 tech.root: direct3d11
 ms.assetid: 72489871-819a-4f75-a3ad-03f93f5c7761

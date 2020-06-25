@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.CanChange
 title: ITextPara::CanChange (tom.h)
-description: Determines whether the paragraph formatting can be changed.helpviewer_keywords: ["CanChange","CanChange method [Windows Controls]","CanChange method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","CanChange method","ITextPara.CanChange","ITextPara::CanChange","_win32_ITextPara_CanChange","_win32_ITextPara_CanChange_cpp","controls.ITextPara_CanChange","controls._win32_ITextPara_CanChange","tom/ITextPara::CanChange"]
+description: Determines whether the paragraph formatting can be changed.
+helpviewer_keywords: ["CanChange","CanChange method [Windows Controls]","CanChange method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","CanChange method","ITextPara.CanChange","ITextPara::CanChange","_win32_ITextPara_CanChange","_win32_ITextPara_CanChange_cpp","controls.ITextPara_CanChange","controls._win32_ITextPara_CanChange","tom/ITextPara::CanChange"]
 old-location: controls\ITextPara_CanChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparacanchange.htm

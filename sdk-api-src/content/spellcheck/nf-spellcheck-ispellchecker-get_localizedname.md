@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_LocalizedName
 title: ISpellChecker::get_LocalizedName (spellcheck.h)
-description: Gets text, suitable to display to the user, that describes this spell checker.helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","LocalizedName property","ISpellChecker.LocalizedName","ISpellChecker.get_LocalizedName","ISpellChecker::LocalizedName","ISpellChecker::get_LocalizedName","LocalizedName property [Internationalization for Windows Applications]","LocalizedName property [Internationalization for Windows Applications]","ISpellChecker interface","get_LocalizedName","intl.ispellchecker_localizedname","spellcheck/ISpellChecker::LocalizedName","spellcheck/ISpellChecker::get_LocalizedName"]
+description: Gets text, suitable to display to the user, that describes this spell checker.
+helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","LocalizedName property","ISpellChecker.LocalizedName","ISpellChecker.get_LocalizedName","ISpellChecker::LocalizedName","ISpellChecker::get_LocalizedName","LocalizedName property [Internationalization for Windows Applications]","LocalizedName property [Internationalization for Windows Applications]","ISpellChecker interface","get_LocalizedName","intl.ispellchecker_localizedname","spellcheck/ISpellChecker::LocalizedName","spellcheck/ISpellChecker::get_LocalizedName"]
 old-location: intl\ispellchecker_localizedname.htm
 tech.root: Intl
 ms.assetid: 93bd9224-11fc-42cd-8b2a-93eec972a943

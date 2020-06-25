@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.D3D12CreateDevice
 title: D3D12CreateDevice function (d3d12.h)
-description: Creates a device that represents the display adapter.helpviewer_keywords: ["D3D12CreateDevice","D3D12CreateDevice function","d3d12/D3D12CreateDevice","direct3d12.d3d12createdevice"]
+description: Creates a device that represents the display adapter.
+helpviewer_keywords: ["D3D12CreateDevice","D3D12CreateDevice function","d3d12/D3D12CreateDevice","direct3d12.d3d12createdevice"]
 old-location: direct3d12\d3d12createdevice.htm
 tech.root: direct3d12
 ms.assetid: F403D730-CBD4-4AE0-86F6-8CE122E82CB4

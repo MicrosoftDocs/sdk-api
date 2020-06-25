@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontSize
 title: IDWriteTextLayout::GetFontSize (dwrite.h)
-description: Gets the font em height of the text at the specified position.helpviewer_keywords: ["GetFontSize","GetFontSize method [Direct Write]","GetFontSize method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontSize method","IDWriteTextLayout.GetFontSize","IDWriteTextLayout::GetFontSize","directwrite.IDWriteTextLayout_GetFontSize","dwrite/IDWriteTextLayout::GetFontSize"]
+description: Gets the font em height of the text at the specified position.
+helpviewer_keywords: ["GetFontSize","GetFontSize method [Direct Write]","GetFontSize method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontSize method","IDWriteTextLayout.GetFontSize","IDWriteTextLayout::GetFontSize","directwrite.IDWriteTextLayout_GetFontSize","dwrite/IDWriteTextLayout::GetFontSize"]
 old-location: directwrite\IDWriteTextLayout_GetFontSize.htm
 tech.root: DirectWrite
 ms.assetid: 31cf375a-d749-4af1-9470-73439fe6276e

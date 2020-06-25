@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSetDeviceRegistryPropertyA
 title: SetupDiSetDeviceRegistryPropertyA function (setupapi.h)
-description: The SetupDiSetDeviceRegistryProperty function sets a Plug and Play device property for a device.helpviewer_keywords: ["SetupDiSetDeviceRegistryProperty","SetupDiSetDeviceRegistryProperty function [Device and Driver Installation]","SetupDiSetDeviceRegistryPropertyA","SetupDiSetDeviceRegistryPropertyW","devinst.setupdisetdeviceregistryproperty","di-rtns_c3fa27e1-fbc6-4f82-ab1b-cbf3581c54e4.xml","setupapi/SetupDiSetDeviceRegistryProperty"]
+description: The SetupDiSetDeviceRegistryProperty function sets a Plug and Play device property for a device.
+helpviewer_keywords: ["SetupDiSetDeviceRegistryProperty","SetupDiSetDeviceRegistryProperty function [Device and Driver Installation]","SetupDiSetDeviceRegistryPropertyA","SetupDiSetDeviceRegistryPropertyW","devinst.setupdisetdeviceregistryproperty","di-rtns_c3fa27e1-fbc6-4f82-ab1b-cbf3581c54e4.xml","setupapi/SetupDiSetDeviceRegistryProperty"]
 old-location: devinst\setupdisetdeviceregistryproperty.htm
 tech.root: devinst
 ms.assetid: 2686f416-3eb5-4e6b-87c8-ab10608ab406
@@ -106,6 +107,10 @@ The class name property cannot be set because it is based on the corresponding c
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiSetDeviceRegistryProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

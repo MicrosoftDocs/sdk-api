@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.SetPinActive
 title: IAudioEndpointRT::SetPinActive (audioengineendpoint.h)
-description: Notifies the endpoint that it must change the state of the underlying streaming resources to an active state.helpviewer_keywords: ["IAudioEndpointRT interface [Remote Desktop Services]","SetPinActive method","IAudioEndpointRT.SetPinActive","IAudioEndpointRT::SetPinActive","SetPinActive","SetPinActive method [Remote Desktop Services]","SetPinActive method [Remote Desktop Services]","IAudioEndpointRT interface","audioengineendpoint/IAudioEndpointRT::SetPinActive","termserv.iaudioendpointrt_setpinactive"]
+description: Notifies the endpoint that it must change the state of the underlying streaming resources to an active state.
+helpviewer_keywords: ["IAudioEndpointRT interface [Remote Desktop Services]","SetPinActive method","IAudioEndpointRT.SetPinActive","IAudioEndpointRT::SetPinActive","SetPinActive","SetPinActive method [Remote Desktop Services]","SetPinActive method [Remote Desktop Services]","IAudioEndpointRT interface","audioengineendpoint/IAudioEndpointRT::SetPinActive","termserv.iaudioendpointrt_setpinactive"]
 old-location: termserv\iaudioendpointrt_setpinactive.htm
 tech.root: TermServ
 ms.assetid: 6c445b06-d576-4474-be8f-b984c43d3765

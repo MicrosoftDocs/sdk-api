@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetUpdateTime
 title: IIsdbSIParameterDescriptor::GetUpdateTime (dvbsiparser.h)
-description: Gets the time at which a parameter becomes valid from a service information (SI) parameter descriptor.helpviewer_keywords: ["GetUpdateTime","GetUpdateTime method [Microsoft TV Technologies]","GetUpdateTime method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetUpdateTime method","IIsdbSIParameterDescriptor.GetUpdateTime","IIsdbSIParameterDescriptor::GetUpdateTime","dvbsiparser/IIsdbSIParameterDescriptor::GetUpdateTime","mstv.iisdbsiparameterdescriptor_getupdatetime"]
+description: Gets the time at which a parameter becomes valid from a service information (SI) parameter descriptor.
+helpviewer_keywords: ["GetUpdateTime","GetUpdateTime method [Microsoft TV Technologies]","GetUpdateTime method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetUpdateTime method","IIsdbSIParameterDescriptor.GetUpdateTime","IIsdbSIParameterDescriptor::GetUpdateTime","dvbsiparser/IIsdbSIParameterDescriptor::GetUpdateTime","mstv.iisdbsiparameterdescriptor_getupdatetime"]
 old-location: mstv\iisdbsiparameterdescriptor_getupdatetime.htm
 tech.root: mstv
 ms.assetid: 9cfe8387-4edf-453b-b41b-768496eae76c

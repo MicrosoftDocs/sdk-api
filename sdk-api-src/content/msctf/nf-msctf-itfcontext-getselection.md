@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContext.GetSelection
 title: ITfContext::GetSelection (msctf.h)
-description: ITfContext::GetSelection methodhelpviewer_keywords: ["GetSelection","GetSelection method [Text Services Framework]","GetSelection method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetSelection method","ITfContext.GetSelection","ITfContext::GetSelection","_tsf_itfcontext_getselection_ref","msctf/ITfContext::GetSelection","tsf.itfcontext_getselection"]
+description: ITfContext::GetSelection method
+helpviewer_keywords: ["GetSelection","GetSelection method [Text Services Framework]","GetSelection method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetSelection method","ITfContext.GetSelection","ITfContext::GetSelection","_tsf_itfcontext_getselection_ref","msctf/ITfContext::GetSelection","tsf.itfcontext_getselection"]
 old-location: tsf\itfcontext_getselection.htm
 tech.root: TSF
 ms.assetid: 08b67fd5-aebe-49f7-af78-6f49c8f47f64

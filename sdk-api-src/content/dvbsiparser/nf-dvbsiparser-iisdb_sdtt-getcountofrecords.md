@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetCountOfRecords
 title: IISDB_SDTT::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetCountOfRecords method","IISDB_SDTT.GetCountOfRecords","IISDB_SDTT::GetCountOfRecords","dvbsiparser/IISDB_SDTT::GetCountOfRecords","mstv.iisdb_sdtt_getcountofrecords"]
+description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetCountOfRecords method","IISDB_SDTT.GetCountOfRecords","IISDB_SDTT::GetCountOfRecords","dvbsiparser/IISDB_SDTT::GetCountOfRecords","mstv.iisdb_sdtt_getcountofrecords"]
 old-location: mstv\iisdb_sdtt_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 3e445eed-907c-4a9b-80b7-b16460bc131c

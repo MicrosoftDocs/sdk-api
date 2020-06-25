@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Close
 title: IWMDRMTranscryptor::Close (wmsdkidl.h)
-description: The Close method unloads the file from the DRM transcryptor and releases all associated resources.helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMDRMTranscryptor interface","IWMDRMTranscryptor interface [windows Media Format]","Close method","IWMDRMTranscryptor.Close","IWMDRMTranscryptor::Close","IWMDRMTranscryptorClose","wmformat.iwmdrmtranscryptor_close","wmsdkidl/IWMDRMTranscryptor::Close"]
+description: The Close method unloads the file from the DRM transcryptor and releases all associated resources.
+helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMDRMTranscryptor interface","IWMDRMTranscryptor interface [windows Media Format]","Close method","IWMDRMTranscryptor.Close","IWMDRMTranscryptor::Close","IWMDRMTranscryptorClose","wmformat.iwmdrmtranscryptor_close","wmsdkidl/IWMDRMTranscryptor::Close"]
 old-location: wmformat\iwmdrmtranscryptor_close.htm
 tech.root: wmformat
 ms.assetid: c277e3fa-069d-4eaf-947c-220730c5d61e

@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsAddSidHistoryW
 title: DsAddSidHistoryW function (ntdsapi.h)
-description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.helpviewer_keywords: ["DsAddSidHistory","DsAddSidHistory function [Active Directory]","DsAddSidHistoryA","DsAddSidHistoryW","_glines_dsaddsidhistory","ad.dsaddsidhistory","ntdsapi/DsAddSidHistory","ntdsapi/DsAddSidHistoryA","ntdsapi/DsAddSidHistoryW"]
+description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
+helpviewer_keywords: ["DsAddSidHistory","DsAddSidHistory function [Active Directory]","DsAddSidHistoryA","DsAddSidHistoryW","_glines_dsaddsidhistory","ad.dsaddsidhistory","ntdsapi/DsAddSidHistory","ntdsapi/DsAddSidHistoryA","ntdsapi/DsAddSidHistoryW"]
 old-location: ad\dsaddsidhistory.htm
 tech.root: ad
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
@@ -154,4 +155,9 @@ Returns a Win32 error codes including the following.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ntdsapi.h header defines DsAddSidHistory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

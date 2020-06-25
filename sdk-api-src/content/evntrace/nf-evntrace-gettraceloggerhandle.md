@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.GetTraceLoggerHandle
 title: GetTraceLoggerHandle function (evntrace.h)
-description: The GetTraceLoggerHandle function retrieves the handle of the event tracing session. Providers can only call this function from their ControlCallback function.helpviewer_keywords: ["GetTraceLoggerHandle","GetTraceLoggerHandle function [ETW]","_evt_gettraceloggerhandle","base.gettraceloggerhandle","etw.gettraceloggerhandle","evntrace/GetTraceLoggerHandle"]
+description: The GetTraceLoggerHandle function retrieves the handle of the event tracing session. Providers can only call this function from their ControlCallback function.
+helpviewer_keywords: ["GetTraceLoggerHandle","GetTraceLoggerHandle function [ETW]","_evt_gettraceloggerhandle","base.gettraceloggerhandle","etw.gettraceloggerhandle","evntrace/GetTraceLoggerHandle"]
 old-location: etw\gettraceloggerhandle.htm
 tech.root: ETW
 ms.assetid: 050d3a01-0087-40f1-af35-b9ceeaf47813

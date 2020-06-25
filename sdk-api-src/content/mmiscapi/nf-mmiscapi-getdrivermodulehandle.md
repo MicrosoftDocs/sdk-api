@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.GetDriverModuleHandle
 title: GetDriverModuleHandle function (mmiscapi.h)
-description: Retrieves the instance handle of the module that contains the installable driver.helpviewer_keywords: ["GetDriverModuleHandle","GetDriverModuleHandle function [Windows Multimedia]","_win32_GetDriverModuleHandle","mmsystem/GetDriverModuleHandle","multimedia.getdrivermodulehandle"]
+description: Retrieves the instance handle of the module that contains the installable driver.
+helpviewer_keywords: ["GetDriverModuleHandle","GetDriverModuleHandle function [Windows Multimedia]","_win32_GetDriverModuleHandle","mmsystem/GetDriverModuleHandle","multimedia.getdrivermodulehandle"]
 old-location: multimedia\getdrivermodulehandle.htm
 tech.root: Multimedia
 ms.assetid: 13395864-f14f-4193-a451-4ac5f9830242

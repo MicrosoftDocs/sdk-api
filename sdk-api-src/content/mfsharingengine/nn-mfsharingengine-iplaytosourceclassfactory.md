@@ -1,7 +1,8 @@
 ---
 UID: NN:mfsharingengine.IPlayToSourceClassFactory
 title: IPlayToSourceClassFactory (mfsharingengine.h)
-description: Creates an instance of the PlayToSource object.helpviewer_keywords: ["IPlayToSourceClassFactory","IPlayToSourceClassFactory interface [Media Foundation]","IPlayToSourceClassFactory interface [Media Foundation]","described","mf.iplaytocontrollerclassfactory","mf.iplaytosourceclassfactory","mfsharingengine/IPlayToSourceClassFactory"]
+description: Creates an instance of the PlayToSource object.
+helpviewer_keywords: ["IPlayToSourceClassFactory","IPlayToSourceClassFactory interface [Media Foundation]","IPlayToSourceClassFactory interface [Media Foundation]","described","mf.iplaytocontrollerclassfactory","mf.iplaytosourceclassfactory","mfsharingengine/IPlayToSourceClassFactory"]
 old-location: mf\iplaytosourceclassfactory.htm
 tech.root: medfound
 ms.assetid: F8F9FEC6-836C-429A-BADD-5CD1E550AED0

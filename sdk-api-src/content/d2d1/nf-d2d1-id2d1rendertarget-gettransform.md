@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTransform
 title: ID2D1RenderTarget::GetTransform (d2d1.h)
-description: Gets the current transform of the render target.helpviewer_keywords: ["GetTransform","GetTransform method [Direct2D]","GetTransform method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetTransform method","ID2D1RenderTarget.GetTransform","ID2D1RenderTarget::GetTransform","d2d1/ID2D1RenderTarget::GetTransform","direct2d.ID2D1RenderTarget_GetTransform"]
+description: Gets the current transform of the render target.
+helpviewer_keywords: ["GetTransform","GetTransform method [Direct2D]","GetTransform method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetTransform method","ID2D1RenderTarget.GetTransform","ID2D1RenderTarget::GetTransform","d2d1/ID2D1RenderTarget::GetTransform","direct2d.ID2D1RenderTarget_GetTransform"]
 old-location: direct2d\ID2D1RenderTarget_GetTransform.htm
 tech.root: Direct2D
 ms.assetid: 9ed0eded-ffbe-44f1-8fb0-b57f0cab7b70

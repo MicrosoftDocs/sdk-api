@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(const int16_t)
 title: XMSHORTN2::XMSHORTN2(const int16_t) (directxpackedvector.h)
-description: Initializes a new instance of XMSHORTN2 from a two element int16_t array argument.helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(const int16_t)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(const int16_t)","dxmath.xmshortn2_ctor_1"]
+description: Initializes a new instance of XMSHORTN2 from a two element int16_t array argument.
+helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(const int16_t)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(const int16_t)","dxmath.xmshortn2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 1a83878c-8ac6-4256-b962-01fac390daf8

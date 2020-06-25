@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInputPrefType
 title: IMFTopologyNode::GetInputPrefType (mfidl.h)
-description: Retrieves the preferred media type for an input stream on this node.helpviewer_keywords: ["34849803-2b56-457a-920b-b5f2e208ce2e","GetInputPrefType","GetInputPrefType method [Media Foundation]","GetInputPrefType method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetInputPrefType method","IMFTopologyNode.GetInputPrefType","IMFTopologyNode::GetInputPrefType","mf.imftopologynode_getinputpreftype","mfidl/IMFTopologyNode::GetInputPrefType"]
+description: Retrieves the preferred media type for an input stream on this node.
+helpviewer_keywords: ["34849803-2b56-457a-920b-b5f2e208ce2e","GetInputPrefType","GetInputPrefType method [Media Foundation]","GetInputPrefType method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetInputPrefType method","IMFTopologyNode.GetInputPrefType","IMFTopologyNode::GetInputPrefType","mf.imftopologynode_getinputpreftype","mfidl/IMFTopologyNode::GetInputPrefType"]
 old-location: mf\imftopologynode_getinputpreftype.htm
 tech.root: medfound
 ms.assetid: 34849803-2b56-457a-920b-b5f2e208ce2e

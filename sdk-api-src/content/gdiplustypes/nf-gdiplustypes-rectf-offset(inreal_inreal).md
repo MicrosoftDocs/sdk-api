@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.RectF.Offset(IN REAL,IN REAL)
 title: RectF::Offset(IN REAL,IN REAL) (gdiplustypes.h)
-description: The RectF::Offset method moves the rectangle by dx horizontally and by dx vertically.helpviewer_keywords: ["Offset","Offset method [GDI+]","Offset method [GDI+]","RectF class","RectF class [GDI+]","Offset method","RectF.Offset","RectF.Offset(IN REAL","IN REAL)","RectF.Offset(REAL","REAL)","RectF::Offset","RectF::Offset(IN REAL","IN REAL)","_gdiplus_CLASS_RectF_Offset_dx_dy_","gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_"]
+description: The RectF::Offset method moves the rectangle by dx horizontally and by dx vertically.
+helpviewer_keywords: ["Offset","Offset method [GDI+]","Offset method [GDI+]","RectF class","RectF class [GDI+]","Offset method","RectF.Offset","RectF.Offset(IN REAL","IN REAL)","RectF.Offset(REAL","REAL)","RectF::Offset","RectF::Offset(IN REAL","IN REAL)","_gdiplus_CLASS_RectF_Offset_dx_dy_","gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods\offset_44dx_dy.htm

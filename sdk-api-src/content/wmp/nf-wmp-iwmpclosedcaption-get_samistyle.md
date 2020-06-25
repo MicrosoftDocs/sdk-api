@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIStyle
 title: IWMPClosedCaption::get_SAMIStyle (wmp.h)
-description: The get_SAMIStyle method retrieves the closed captioning style.helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","get_SAMIStyle method","IWMPClosedCaption.get_SAMIStyle","IWMPClosedCaption::get_SAMIStyle","IWMPClosedCaptionget_SAMIStyle","get_SAMIStyle","get_SAMIStyle method [Windows Media Player]","get_SAMIStyle method [Windows Media Player]","IWMPClosedCaption interface","wmp.iwmpclosedcaption_get_samistyle","wmp/IWMPClosedCaption::get_SAMIStyle"]
+description: The get_SAMIStyle method retrieves the closed captioning style.
+helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","get_SAMIStyle method","IWMPClosedCaption.get_SAMIStyle","IWMPClosedCaption::get_SAMIStyle","IWMPClosedCaptionget_SAMIStyle","get_SAMIStyle","get_SAMIStyle method [Windows Media Player]","get_SAMIStyle method [Windows Media Player]","IWMPClosedCaption interface","wmp.iwmpclosedcaption_get_samistyle","wmp/IWMPClosedCaption::get_SAMIStyle"]
 old-location: wmp\iwmpclosedcaption_get_samistyle.htm
 tech.root: WMP
 ms.assetid: 27040145-af7a-4d09-9c80-e0907df08f01

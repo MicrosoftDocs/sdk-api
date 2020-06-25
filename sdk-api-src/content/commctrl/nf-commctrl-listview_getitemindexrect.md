@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetItemIndexRect
 title: ListView_GetItemIndexRect macro (commctrl.h)
-description: Gets the bounding rectangle for all or part of a subitem in the current view of a specified list-view control. Use this macro or send the LVM_GETITEMINDEXRECT message explicitly.helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","ListView_GetItemIndexRect","ListView_GetItemIndexRect macro [Windows Controls]","_shell_ListView_GetItemIndexRect","_shell_ListView_GetItemIndexRect_cpp","commctrl/ListView_GetItemIndexRect","controls.ListView_GetItemIndexRect","controls._shell_ListView_GetItemIndexRect"]
+description: Gets the bounding rectangle for all or part of a subitem in the current view of a specified list-view control. Use this macro or send the LVM_GETITEMINDEXRECT message explicitly.
+helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","ListView_GetItemIndexRect","ListView_GetItemIndexRect macro [Windows Controls]","_shell_ListView_GetItemIndexRect","_shell_ListView_GetItemIndexRect_cpp","commctrl/ListView_GetItemIndexRect","controls.ListView_GetItemIndexRect","controls._shell_ListView_GetItemIndexRect"]
 old-location: controls\ListView_GetItemIndexRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemindexrect.htm

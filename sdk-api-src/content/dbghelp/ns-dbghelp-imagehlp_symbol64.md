@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_SYMBOL64
 title: IMAGEHLP_SYMBOL64 (dbghelp.h)
-description: Contains symbol information.helpviewer_keywords: ["*PIMAGEHLP_SYMBOL64","IMAGEHLP_SYMBOL","IMAGEHLP_SYMBOL structure","IMAGEHLP_SYMBOL64","IMAGEHLP_SYMBOL64 structure","IMAGEHLP_SYMBOLW64","PIMAGEHLP_SYMBOL64","PIMAGEHLP_SYMBOL64 structure pointer","_IMAGEHLP_SYMBOL64","_win32_imagehlp_symbol64_str","base.imagehlp_symbol64_str","dbghelp/IMAGEHLP_SYMBOL64","dbghelp/IMAGEHLP_SYMBOLW64","dbghelp/PIMAGEHLP_SYMBOL64"]
+description: Contains symbol information.
+helpviewer_keywords: ["*PIMAGEHLP_SYMBOL64","IMAGEHLP_SYMBOL","IMAGEHLP_SYMBOL structure","IMAGEHLP_SYMBOL64","IMAGEHLP_SYMBOL64 structure","IMAGEHLP_SYMBOLW64","PIMAGEHLP_SYMBOL64","PIMAGEHLP_SYMBOL64 structure pointer","_IMAGEHLP_SYMBOL64","_win32_imagehlp_symbol64_str","base.imagehlp_symbol64_str","dbghelp/IMAGEHLP_SYMBOL64","dbghelp/IMAGEHLP_SYMBOLW64","dbghelp/PIMAGEHLP_SYMBOL64"]
 old-location: base\imagehlp_symbol64_str.htm
 tech.root: Debug
 ms.assetid: 7b39281a-c34b-47ae-a3ff-5f0a7a66a588

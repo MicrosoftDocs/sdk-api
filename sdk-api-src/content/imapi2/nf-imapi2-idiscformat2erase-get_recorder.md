@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_Recorder
 title: IDiscFormat2Erase::get_Recorder (imapi2.h)
-description: Retrieves the recording device to use in the erase operation.helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","get_Recorder method","IDiscFormat2Erase.get_Recorder","IDiscFormat2Erase::get_Recorder","get_Recorder","get_Recorder method [IMAPI]","get_Recorder method [IMAPI]","IDiscFormat2Erase interface","imapi.idiscformat2erase_get_recorder","imapi2/IDiscFormat2Erase::get_Recorder"]
+description: Retrieves the recording device to use in the erase operation.
+helpviewer_keywords: ["IDiscFormat2Erase interface [IMAPI]","get_Recorder method","IDiscFormat2Erase.get_Recorder","IDiscFormat2Erase::get_Recorder","get_Recorder","get_Recorder method [IMAPI]","get_Recorder method [IMAPI]","IDiscFormat2Erase interface","imapi.idiscformat2erase_get_recorder","imapi2/IDiscFormat2Erase::get_Recorder"]
 old-location: imapi\idiscformat2erase_get_recorder.htm
 tech.root: imapi
 ms.assetid: 5f41ea99-e467-45ef-8f78-8b0637adf5be

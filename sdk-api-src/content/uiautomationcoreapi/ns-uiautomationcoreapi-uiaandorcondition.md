@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcoreapi.UiaAndOrCondition
 title: UiaAndOrCondition (uiautomationcoreapi.h)
-description: Note  This structure is deprecated.  Contains information about a complex condition.helpviewer_keywords: ["UiaAndOrCondition","UiaAndOrCondition structure [Windows Accessibility]","uiauto.uiauto_UiaAndOrConditionStruct","uiauto_UiaAndOrConditionStruct","uiautomationcoreapi/UiaAndOrCondition","winauto.uiauto_UiaAndOrConditionStruct"]
+description: Note  This structure is deprecated.  Contains information about a complex condition.
+helpviewer_keywords: ["UiaAndOrCondition","UiaAndOrCondition structure [Windows Accessibility]","uiauto.uiauto_UiaAndOrConditionStruct","uiauto_UiaAndOrConditionStruct","uiautomationcoreapi/UiaAndOrCondition","winauto.uiauto_UiaAndOrConditionStruct"]
 old-location: winauto\uiauto_UiaAndOrConditionStruct.htm
 tech.root: WinAuto
 ms.assetid: de71d10e-ca81-4f66-a137-ae46adb47b4f

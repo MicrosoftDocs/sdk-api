@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagACCESSTIMEOUT
 title: ACCESSTIMEOUT (winuser.h)
-description: Contains information about the time-out period associated with the accessibility features.helpviewer_keywords: ["*LPACCESSTIMEOUT","ACCESSTIMEOUT","ACCESSTIMEOUT structure [Windows Accessibility]","ATF_ONOFFFEEDBACK","ATF_TIMEOUTON","LPACCESSTIMEOUT","LPACCESSTIMEOUT structure pointer [Windows Accessibility]","_win32_ACCESSTIMEOUT_str","msaa.accesstimeout","tagACCESSTIMEOUT","winauto.accesstimeout","winuser/ACCESSTIMEOUT","winuser/LPACCESSTIMEOUT"]
+description: Contains information about the time-out period associated with the accessibility features.
+helpviewer_keywords: ["*LPACCESSTIMEOUT","ACCESSTIMEOUT","ACCESSTIMEOUT structure [Windows Accessibility]","ATF_ONOFFFEEDBACK","ATF_TIMEOUTON","LPACCESSTIMEOUT","LPACCESSTIMEOUT structure pointer [Windows Accessibility]","_win32_ACCESSTIMEOUT_str","msaa.accesstimeout","tagACCESSTIMEOUT","winauto.accesstimeout","winuser/ACCESSTIMEOUT","winuser/LPACCESSTIMEOUT"]
 old-location: winauto\accesstimeout.htm
 tech.root: WinAuto
 ms.assetid: 570a3a29-a7ce-4622-affd-7c6c4f381e36

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetEditProperty
 title: IAMExtTransport::SetEditProperty (strmif.h)
-description: The SetEditProperty method defines parameters and values associated with an edit event.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetEditProperty method","IAMExtTransport.SetEditProperty","IAMExtTransport::SetEditProperty","IAMExtTransportSetEditProperty","SetEditProperty","SetEditProperty method [DirectShow]","SetEditProperty method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_seteditproperty","strmif/IAMExtTransport::SetEditProperty"]
+description: The SetEditProperty method defines parameters and values associated with an edit event.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetEditProperty method","IAMExtTransport.SetEditProperty","IAMExtTransport::SetEditProperty","IAMExtTransportSetEditProperty","SetEditProperty","SetEditProperty method [DirectShow]","SetEditProperty method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_seteditproperty","strmif/IAMExtTransport::SetEditProperty"]
 old-location: dshow\iamexttransport_seteditproperty.htm
 tech.root: DirectShow
 ms.assetid: 85ac14c7-7b47-4462-98ba-68a73f4c7497

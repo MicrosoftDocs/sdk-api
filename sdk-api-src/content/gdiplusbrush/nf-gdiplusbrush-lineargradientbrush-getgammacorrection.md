@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetGammaCorrection
 title: LinearGradientBrush::GetGammaCorrection (gdiplusbrush.h)
-description: The LinearGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this LinearGradientBrush object.helpviewer_keywords: ["GetGammaCorrection","GetGammaCorrection method [GDI+]","GetGammaCorrection method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetGammaCorrection method","LinearGradientBrush.GetGammaCorrection","LinearGradientBrush::GetGammaCorrection","_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_"]
+description: The LinearGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this LinearGradientBrush object.
+helpviewer_keywords: ["GetGammaCorrection","GetGammaCorrection method [GDI+]","GetGammaCorrection method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetGammaCorrection method","LinearGradientBrush.GetGammaCorrection","LinearGradientBrush::GetGammaCorrection","_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getgammacorrection.htm

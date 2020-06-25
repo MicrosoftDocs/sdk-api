@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpSetOptionInfoV6
 title: DhcpSetOptionInfoV6 function (dhcpsapi.h)
-description: The DhcpSetOptionInfoV6 function sets information for a specific DHCP option.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpSetOptionInfoV6","DhcpSetOptionInfoV6 function [DHCP]","dhcp.dhcpsetoptioninfov6","dhcpsapi/DhcpSetOptionInfoV6"]
+description: The DhcpSetOptionInfoV6 function sets information for a specific DHCP option.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpSetOptionInfoV6","DhcpSetOptionInfoV6 function [DHCP]","dhcp.dhcpsetoptioninfov6","dhcpsapi/DhcpSetOptionInfoV6"]
 old-location: dhcp\dhcpsetoptioninfov6.htm
 tech.root: DHCP
 ms.assetid: 146e3dbd-e85c-4efd-9265-1072c799cdd8

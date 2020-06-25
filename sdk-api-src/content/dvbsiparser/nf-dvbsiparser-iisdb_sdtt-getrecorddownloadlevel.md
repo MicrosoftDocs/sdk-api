@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDownloadLevel
 title: IISDB_SDTT::GetRecordDownloadLevel (dvbsiparser.h)
-description: Gets the download level from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["GetRecordDownloadLevel","GetRecordDownloadLevel method [Microsoft TV Technologies]","GetRecordDownloadLevel method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordDownloadLevel method","IISDB_SDTT.GetRecordDownloadLevel","IISDB_SDTT::GetRecordDownloadLevel","dvbsiparser/IISDB_SDTT::GetRecordDownloadLevel","mstv.iisdb_sdtt_getrecorddownloadlevel"]
+description: Gets the download level from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+helpviewer_keywords: ["GetRecordDownloadLevel","GetRecordDownloadLevel method [Microsoft TV Technologies]","GetRecordDownloadLevel method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordDownloadLevel method","IISDB_SDTT.GetRecordDownloadLevel","IISDB_SDTT::GetRecordDownloadLevel","dvbsiparser/IISDB_SDTT::GetRecordDownloadLevel","mstv.iisdb_sdtt_getrecorddownloadlevel"]
 old-location: mstv\iisdb_sdtt_getrecorddownloadlevel.htm
 tech.root: mstv
 ms.assetid: 22903a8d-effc-422b-bca2-907b19703b6d

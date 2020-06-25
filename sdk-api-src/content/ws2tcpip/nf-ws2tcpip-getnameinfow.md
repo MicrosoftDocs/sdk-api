@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetNameInfoW
 title: GetNameInfoW function (ws2tcpip.h)
-description: Provides protocol-independent name resolution from an address to a Unicode host name and from a port number to the Unicode service name.helpviewer_keywords: ["GetNameInfoW","GetNameInfoW function [Winsock]","winsock.getnameinfow","ws2tcpip/GetNameInfoW"]
+description: Provides protocol-independent name resolution from an address to a Unicode host name and from a port number to the Unicode service name.
+helpviewer_keywords: ["GetNameInfoW","GetNameInfoW function [Winsock]","winsock.getnameinfow","ws2tcpip/GetNameInfoW"]
 old-location: winsock\getnameinfow.htm
 tech.root: WinSock
 ms.assetid: 5630a49a-c182-440c-ad54-6ff3ba4274c6
@@ -314,6 +315,10 @@ int __cdecl main(int argc, char **argv)
 
 
 
+
+
+> [!NOTE]
+> The ws2tcpip.h header defines GetNameInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

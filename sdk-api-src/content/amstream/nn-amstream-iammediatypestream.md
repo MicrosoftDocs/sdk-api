@@ -1,7 +1,8 @@
 ---
 UID: NN:amstream.IAMMediaTypeStream
 title: IAMMediaTypeStream (amstream.h)
-description: Note  This interface is deprecated.helpviewer_keywords: ["IAMMediaTypeStream","IAMMediaTypeStream interface [DirectShow]","IAMMediaTypeStream interface [DirectShow]","described","IAMMediaTypeStreamInterface","amstream/IAMMediaTypeStream","dshow.iammediatypestream"]
+description: Note  This interface is deprecated.
+helpviewer_keywords: ["IAMMediaTypeStream","IAMMediaTypeStream interface [DirectShow]","IAMMediaTypeStream interface [DirectShow]","described","IAMMediaTypeStreamInterface","amstream/IAMMediaTypeStream","dshow.iammediatypestream"]
 old-location: dshow\iammediatypestream.htm
 tech.root: DirectShow
 ms.assetid: 6ca1bad2-625b-4415-8311-acd5443452c1

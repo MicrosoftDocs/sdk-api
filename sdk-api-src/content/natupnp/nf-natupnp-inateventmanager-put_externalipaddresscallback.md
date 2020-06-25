@@ -1,7 +1,8 @@
 ---
 UID: NF:natupnp.INATEventManager.put_ExternalIPAddressCallback
 title: INATEventManager::put_ExternalIPAddressCallback (natupnp.h)
-description: The put_ExternalIPAddressCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the external IP address of the NAT changes.helpviewer_keywords: ["INATEventManager interface [ICS/ICF]","put_ExternalIPAddressCallback method","INATEventManager.put_ExternalIPAddressCallback","INATEventManager::put_ExternalIPAddressCallback","_ics_inateventmanager_put_externalipaddresscallback","ics.inateventmanager_put_externalipaddresscallback","natupnp/INATEventManager::put_ExternalIPAddressCallback","put_ExternalIPAddressCallback","put_ExternalIPAddressCallback method [ICS/ICF]","put_ExternalIPAddressCallback method [ICS/ICF]","INATEventManager interface"]
+description: The put_ExternalIPAddressCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the external IP address of the NAT changes.
+helpviewer_keywords: ["INATEventManager interface [ICS/ICF]","put_ExternalIPAddressCallback method","INATEventManager.put_ExternalIPAddressCallback","INATEventManager::put_ExternalIPAddressCallback","_ics_inateventmanager_put_externalipaddresscallback","ics.inateventmanager_put_externalipaddresscallback","natupnp/INATEventManager::put_ExternalIPAddressCallback","put_ExternalIPAddressCallback","put_ExternalIPAddressCallback method [ICS/ICF]","put_ExternalIPAddressCallback method [ICS/ICF]","INATEventManager interface"]
 old-location: ics\inateventmanager_put_externalipaddresscallback.htm
 tech.root: ics
 ms.assetid: 5bc3e19c-3015-44fb-87a9-645e11283643

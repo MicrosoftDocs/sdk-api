@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileManager
 title: IMbnConnectionProfileManager (mbnapi.h)
-description: Provides access to connection profiles and connection notifications.helpviewer_keywords: ["IMbnConnectionProfileManager","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","described","mbn.imbnconnectionprofilemanager","mbnapi/IMbnConnectionProfileManager"]
+description: Provides access to connection profiles and connection notifications.
+helpviewer_keywords: ["IMbnConnectionProfileManager","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","described","mbn.imbnconnectionprofilemanager","mbnapi/IMbnConnectionProfileManager"]
 old-location: mbn\imbnconnectionprofilemanager.htm
 tech.root: mbn
 ms.assetid: a55e4183-f914-4064-a391-3bd31ca59160

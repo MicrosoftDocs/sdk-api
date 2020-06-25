@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuner.get_PreferredComponentTypes
 title: ITuner::get_PreferredComponentTypes (tuner.h)
-description: The get_PreferredComponentTypes method gets the collection of ComponentType objects used for default component selection.helpviewer_keywords: ["ITuner interface [Microsoft TV Technologies]","get_PreferredComponentTypes method","ITuner.get_PreferredComponentTypes","ITuner::get_PreferredComponentTypes","ITunerget_PreferredComponentTypes","get_PreferredComponentTypes","get_PreferredComponentTypes method [Microsoft TV Technologies]","get_PreferredComponentTypes method [Microsoft TV Technologies]","ITuner interface","mstv.ituner_get_preferredcomponenttypes","tuner/ITuner::get_PreferredComponentTypes"]
+description: The get_PreferredComponentTypes method gets the collection of ComponentType objects used for default component selection.
+helpviewer_keywords: ["ITuner interface [Microsoft TV Technologies]","get_PreferredComponentTypes method","ITuner.get_PreferredComponentTypes","ITuner::get_PreferredComponentTypes","ITunerget_PreferredComponentTypes","get_PreferredComponentTypes","get_PreferredComponentTypes method [Microsoft TV Technologies]","get_PreferredComponentTypes method [Microsoft TV Technologies]","ITuner interface","mstv.ituner_get_preferredcomponenttypes","tuner/ITuner::get_PreferredComponentTypes"]
 old-location: mstv\ituner_get_preferredcomponenttypes.htm
 tech.root: mstv
 ms.assetid: 1ed2d1b5-8ba3-4230-8cc3-f8207635a78a

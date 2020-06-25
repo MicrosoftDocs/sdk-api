@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.ScrollIntoView
 title: IUIAutomationTextRange::ScrollIntoView (uiautomationclient.h)
-description: Causes the text control to scroll until the text range is visible in the viewport.helpviewer_keywords: ["IUIAutomationTextRange interface [Windows Accessibility]","ScrollIntoView method","IUIAutomationTextRange.ScrollIntoView","IUIAutomationTextRange::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Accessibility]","ScrollIntoView method [Windows Accessibility]","IUIAutomationTextRange interface","uiauto.uiauto_IUIAutomationTextRange_ScrollIntoView","uiauto_IUIAutomationTextRange_ScrollIntoView","uiautomationclient/IUIAutomationTextRange::ScrollIntoView","winauto.uiauto_IUIAutomationTextRange_ScrollIntoView"]
+description: Causes the text control to scroll until the text range is visible in the viewport.
+helpviewer_keywords: ["IUIAutomationTextRange interface [Windows Accessibility]","ScrollIntoView method","IUIAutomationTextRange.ScrollIntoView","IUIAutomationTextRange::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Accessibility]","ScrollIntoView method [Windows Accessibility]","IUIAutomationTextRange interface","uiauto.uiauto_IUIAutomationTextRange_ScrollIntoView","uiauto_IUIAutomationTextRange_ScrollIntoView","uiautomationclient/IUIAutomationTextRange::ScrollIntoView","winauto.uiauto_IUIAutomationTextRange_ScrollIntoView"]
 old-location: winauto\uiauto_IUIAutomationTextRange_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 0d1ec553-1cc2-4b1c-a393-2507a3756a6c

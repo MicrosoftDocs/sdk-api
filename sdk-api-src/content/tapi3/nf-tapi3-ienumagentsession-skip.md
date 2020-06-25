@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3.IEnumAgentSession.Skip
 title: IEnumAgentSession::Skip (tapi3.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumAgentSession interface [TAPI 2.2]","Skip method","IEnumAgentSession.Skip","IEnumAgentSession::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumAgentSession interface","_tapi3_ienumagentsession_skip","tapi3.ienumagentsession_skip","tapi3cc/IEnumAgentSession::Skip"]
+description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumAgentSession interface [TAPI 2.2]","Skip method","IEnumAgentSession.Skip","IEnumAgentSession::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumAgentSession interface","_tapi3_ienumagentsession_skip","tapi3.ienumagentsession_skip","tapi3cc/IEnumAgentSession::Skip"]
 old-location: tapi3\ienumagentsession_skip.htm
 tech.root: Tapi
 ms.assetid: 57358984-b874-46ac-9370-aab6a5136b87

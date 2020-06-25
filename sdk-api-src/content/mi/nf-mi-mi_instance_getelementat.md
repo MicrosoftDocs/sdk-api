@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Instance_GetElementAt
 title: MI_Instance_GetElementAt function (mi.h)
-description: Gets the value of the element (CIM property) at the specified index.helpviewer_keywords: ["MI_FLAG_IN","MI_FLAG_KEY","MI_FLAG_NULL","MI_FLAG_OUT","MI_Instance_GetElementAt","MI_Instance_GetElementAt function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetElementAt","wmi_v2.mi_instance_getelementat"]
+description: Gets the value of the element (CIM property) at the specified index.
+helpviewer_keywords: ["MI_FLAG_IN","MI_FLAG_KEY","MI_FLAG_NULL","MI_FLAG_OUT","MI_Instance_GetElementAt","MI_Instance_GetElementAt function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetElementAt","wmi_v2.mi_instance_getelementat"]
 old-location: wmi_v2\mi_instance_getelementat.htm
 tech.root: wmi_v2
 ms.assetid: 4437162d-6320-4ec5-9a1c-b50dcc1516e3

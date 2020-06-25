@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIcon
 title: IImageList::GetIcon (commoncontrols.h)
-description: Creates an icon from an image and a mask in an image list.helpviewer_keywords: ["GetIcon","GetIcon method [Windows Controls]","GetIcon method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetIcon method","IImageList.GetIcon","IImageList::GetIcon","comctl_IImageList_GetIcon","comctl_IImageList_GetIcon_cpp","commoncontrols/IImageList::GetIcon","controls.IImageList_GetIcon","controls.comctl_IImageList_GetIcon"]
+description: Creates an icon from an image and a mask in an image list.
+helpviewer_keywords: ["GetIcon","GetIcon method [Windows Controls]","GetIcon method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetIcon method","IImageList.GetIcon","IImageList::GetIcon","comctl_IImageList_GetIcon","comctl_IImageList_GetIcon_cpp","commoncontrols/IImageList::GetIcon","controls.IImageList_GetIcon","controls.comctl_IImageList_GetIcon"]
 old-location: controls\IImageList_GetIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticon.htm

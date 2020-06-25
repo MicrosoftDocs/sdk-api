@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetProcAmpControlRange
 title: IVMRMixerControl9::GetProcAmpControlRange (vmr9.h)
-description: The GetProcAmpControlRange method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation.helpviewer_keywords: ["GetProcAmpControlRange","GetProcAmpControlRange method [DirectShow]","GetProcAmpControlRange method [DirectShow]","IVMRMixerControl9 interface","IVMRMixerControl9 interface [DirectShow]","GetProcAmpControlRange method","IVMRMixerControl9.GetProcAmpControlRange","IVMRMixerControl9::GetProcAmpControlRange","IVMRMixerControl9GetProcAmpControlRange","dshow.ivmrmixercontrol9_getprocampcontrolrange","vmr9/IVMRMixerControl9::GetProcAmpControlRange"]
+description: The GetProcAmpControlRange method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation.
+helpviewer_keywords: ["GetProcAmpControlRange","GetProcAmpControlRange method [DirectShow]","GetProcAmpControlRange method [DirectShow]","IVMRMixerControl9 interface","IVMRMixerControl9 interface [DirectShow]","GetProcAmpControlRange method","IVMRMixerControl9.GetProcAmpControlRange","IVMRMixerControl9::GetProcAmpControlRange","IVMRMixerControl9GetProcAmpControlRange","dshow.ivmrmixercontrol9_getprocampcontrolrange","vmr9/IVMRMixerControl9::GetProcAmpControlRange"]
 old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
 tech.root: DirectShow
 ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a

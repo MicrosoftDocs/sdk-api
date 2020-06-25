@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_pnrp_registration_info_tag
 title: PEER_PNRP_REGISTRATION_INFO (p2p.h)
-description: Contains the information provided by a peer identity when it registers with a PNRP cloud.helpviewer_keywords: ["*PPEER_PNRP_REGISTRATION_INFO","PEER_PNRP_REGISTRATION_INFO","PEER_PNRP_REGISTRATION_INFO structure [Peer Networking]","PPEER_PNRP_REGISTRATION_INFO","PPEER_PNRP_REGISTRATION_INFO structure pointer [Peer Networking]","p2p.peer_pnrp_registration_info","p2p/PEER_PNRP_REGISTRATION_INFO","p2p/PPEER_PNRP_REGISTRATION_INFO"]
+description: Contains the information provided by a peer identity when it registers with a PNRP cloud.
+helpviewer_keywords: ["*PPEER_PNRP_REGISTRATION_INFO","PEER_PNRP_REGISTRATION_INFO","PEER_PNRP_REGISTRATION_INFO structure [Peer Networking]","PPEER_PNRP_REGISTRATION_INFO","PPEER_PNRP_REGISTRATION_INFO structure pointer [Peer Networking]","p2p.peer_pnrp_registration_info","p2p/PEER_PNRP_REGISTRATION_INFO","p2p/PPEER_PNRP_REGISTRATION_INFO"]
 old-location: p2p\peer_pnrp_registration_info.htm
 tech.root: P2PSdk
 ms.assetid: 2825cb65-94b4-4bed-acff-7fa35a992284

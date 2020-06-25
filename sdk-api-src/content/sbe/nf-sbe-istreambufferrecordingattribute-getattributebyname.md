@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeByName
 title: IStreamBufferRecordingAttribute::GetAttributeByName (sbe.h)
-description: The GetAttributeByName method retrieves an attribute, specified by name.helpviewer_keywords: ["GetAttributeByName","GetAttributeByName method [Microsoft TV Technologies]","GetAttributeByName method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","GetAttributeByName method","IStreamBufferRecordingAttribute.GetAttributeByName","IStreamBufferRecordingAttribute::GetAttributeByName","IStreamBufferRecordingAttributeGetAttributeByName","mstv.istreambufferrecordingattribute_getattributebyname","sbe/IStreamBufferRecordingAttribute::GetAttributeByName"]
+description: The GetAttributeByName method retrieves an attribute, specified by name.
+helpviewer_keywords: ["GetAttributeByName","GetAttributeByName method [Microsoft TV Technologies]","GetAttributeByName method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","GetAttributeByName method","IStreamBufferRecordingAttribute.GetAttributeByName","IStreamBufferRecordingAttribute::GetAttributeByName","IStreamBufferRecordingAttributeGetAttributeByName","mstv.istreambufferrecordingattribute_getattributebyname","sbe/IStreamBufferRecordingAttribute::GetAttributeByName"]
 old-location: mstv\istreambufferrecordingattribute_getattributebyname.htm
 tech.root: mstv
 ms.assetid: f1191074-4ded-4e64-9c30-8e4d01390732

@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfoV6
 title: DhcpSetClientInfoV6 function (dhcpsapi.h)
-description: Sets or modifies the reserved DHCPv6 client lease record in the DHCPv6 server database.helpviewer_keywords: ["DhcpSetClientInfoV6","DhcpSetClientInfoV6 function [DHCP]","dhcp.dhcpsetclientinfov6","dhcpsapi/DhcpSetClientInfoV6"]
+description: Sets or modifies the reserved DHCPv6 client lease record in the DHCPv6 server database.
+helpviewer_keywords: ["DhcpSetClientInfoV6","DhcpSetClientInfoV6 function [DHCP]","dhcp.dhcpsetclientinfov6","dhcpsapi/DhcpSetClientInfoV6"]
 old-location: dhcp\dhcpsetclientinfov6.htm
 tech.root: DHCP
 ms.assetid: 35d976a9-4b5a-4a1f-b7d9-2f7b396baf01

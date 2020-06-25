@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTEmbedFontEx
 title: TTEmbedFontEx function (t2embapi.h)
-description: Creates a font structure containing the subsetted UCS-4 character (32-bit) font. The current font of the device context (hDC) provides the font information.helpviewer_keywords: ["CHARSET_SYMBOL","CHARSET_UNICODE","EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","TTEMBED_EMBEDEUDC","TTEMBED_RAW","TTEMBED_SUBSET","TTEMBED_TTCOMPRESSED","TTEmbedFontEx","TTEmbedFontEx function [Windows GDI]","_win32_TTEmbedFontEx","gdi.ttembedfontex","t2embapi/TTEmbedFontEx"]
+description: Creates a font structure containing the subsetted UCS-4 character (32-bit) font. The current font of the device context (hDC) provides the font information.
+helpviewer_keywords: ["CHARSET_SYMBOL","CHARSET_UNICODE","EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","TTEMBED_EMBEDEUDC","TTEMBED_RAW","TTEMBED_SUBSET","TTEMBED_TTCOMPRESSED","TTEmbedFontEx","TTEmbedFontEx function [Windows GDI]","_win32_TTEmbedFontEx","gdi.ttembedfontex","t2embapi/TTEmbedFontEx"]
 old-location: gdi\ttembedfontex.htm
 tech.root: gdi
 ms.assetid: 2b052d83-0791-4fcb-ab94-7924c751b051

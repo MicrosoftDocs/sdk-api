@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.MAKEIPRANGE
 title: MAKEIPRANGE macro (commctrl.h)
-description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.helpviewer_keywords: ["MAKEIPRANGE","MAKEIPRANGE macro [Windows Controls]","_win32_MAKEIPRANGE","_win32_MAKEIPRANGE_cpp","commctrl/MAKEIPRANGE","controls.MAKEIPRANGE","controls._win32_MAKEIPRANGE"]
+description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.
+helpviewer_keywords: ["MAKEIPRANGE","MAKEIPRANGE macro [Windows Controls]","_win32_MAKEIPRANGE","_win32_MAKEIPRANGE_cpp","commctrl/MAKEIPRANGE","controls.MAKEIPRANGE","controls._win32_MAKEIPRANGE"]
 old-location: controls\MAKEIPRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_IDENTITY
 title: WS_ENDPOINT_IDENTITY (webservices.h)
-description: The base type for all endpoint identities.helpviewer_keywords: ["WS_ENDPOINT_IDENTITY","WS_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_ENDPOINT_IDENTITY","wsw.ws_endpoint_identity"]
+description: The base type for all endpoint identities.
+helpviewer_keywords: ["WS_ENDPOINT_IDENTITY","WS_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_ENDPOINT_IDENTITY","wsw.ws_endpoint_identity"]
 old-location: wsw\ws_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 59c851b4-6e1a-4144-9742-48d5c094d592

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetMetaFileA
 title: GetMetaFileA function (wingdi.h)
-description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file.helpviewer_keywords: ["GetMetaFile","GetMetaFile function [Windows GDI]","GetMetaFileA","GetMetaFileW","gdi.getmetafile","wingdi/GetMetaFile","wingdi/GetMetaFileA","wingdi/GetMetaFileW"]
+description: The GetMetaFile function creates a handle that identifies the metafile stored in the specified file.
+helpviewer_keywords: ["GetMetaFile","GetMetaFile function [Windows GDI]","GetMetaFileA","GetMetaFileW","gdi.getmetafile","wingdi/GetMetaFile","wingdi/GetMetaFileA","wingdi/GetMetaFileW"]
 old-location: gdi\getmetafile.htm
 tech.root: gdi
 ms.assetid: 56A602C4-AE4D-46DE-B5DA-66A68E3A16BF
@@ -88,6 +89,10 @@ This function is not implemented in the Win32 API. It is provided for compatibil
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GetMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

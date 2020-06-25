@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupUninstallOEMInfA
 title: SetupUninstallOEMInfA function (setupapi.h)
-description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.helpviewer_keywords: ["SUOI_FORCEDELETE","SetupUninstallOEMInf","SetupUninstallOEMInf function [Setup API]","SetupUninstallOEMInfA","SetupUninstallOEMInfW","_setupapi_setupuninstalloeminf","setup.setupuninstalloeminf","setupapi/SetupUninstallOEMInf","setupapi/SetupUninstallOEMInfA","setupapi/SetupUninstallOEMInfW"]
+description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.
+helpviewer_keywords: ["SUOI_FORCEDELETE","SetupUninstallOEMInf","SetupUninstallOEMInf function [Setup API]","SetupUninstallOEMInfA","SetupUninstallOEMInfW","_setupapi_setupuninstalloeminf","setup.setupuninstalloeminf","setupapi/SetupUninstallOEMInf","setupapi/SetupUninstallOEMInfA","setupapi/SetupUninstallOEMInfW"]
 old-location: setup\setupuninstalloeminf.htm
 tech.root: SetupApi
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
@@ -131,4 +132,9 @@ This function returns WINSETUPAPI BOOL.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupUninstallOEMInf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

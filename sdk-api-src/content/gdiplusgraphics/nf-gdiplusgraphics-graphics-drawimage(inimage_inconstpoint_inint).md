@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const Point,IN INT)
 title: Graphics::DrawImage(IN Image,IN const Point,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawImage method draws an image.helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN const Point","IN INT)","Graphics.DrawImage(Image*","const Point*","INT)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_destPoints_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_destPoints_INT_count_"]
+description: The Graphics::DrawImage method draws an image.
+helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN const Point","IN INT)","Graphics.DrawImage(Image*","const Point*","INT)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_destPoints_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_destPoints_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_destPoints_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage.htm

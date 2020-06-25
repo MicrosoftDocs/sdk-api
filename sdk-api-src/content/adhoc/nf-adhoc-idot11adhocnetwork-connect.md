@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.Connect
 title: IDot11AdHocNetwork::Connect (adhoc.h)
-description: Connects to a previously created wireless ad hoc network.helpviewer_keywords: ["Connect","Connect method [NativeWIFI]","Connect method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","Connect method","IDot11AdHocNetwork.Connect","IDot11AdHocNetwork::Connect","adhoc/IDot11AdHocNetwork::Connect","nwifi.idot11adhocnetwork_connect"]
+description: Connects to a previously created wireless ad hoc network.
+helpviewer_keywords: ["Connect","Connect method [NativeWIFI]","Connect method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","Connect method","IDot11AdHocNetwork.Connect","IDot11AdHocNetwork::Connect","adhoc/IDot11AdHocNetwork::Connect","nwifi.idot11adhocnetwork_connect"]
 old-location: nwifi\idot11adhocnetwork_connect.htm
 tech.root: NativeWiFi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d

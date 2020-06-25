@@ -1,7 +1,8 @@
 ---
 UID: NS:lsalookup._LSA_TRANSLATED_SID2
 title: LSA_TRANSLATED_SID2 (lsalookup.h)
-description: Contains SIDs that are retrieved based on account names.helpviewer_keywords: ["*PLSA_TRANSLATED_SID2","LSA_TRANSLATED_SID2","LSA_TRANSLATED_SID2 structure [Security]","PLSA_TRANSLATED_SID2","PLSA_TRANSLATED_SID2 structure pointer [Security]","_lsa_lsa_translated_sid2","lsalookup/LSA_TRANSLATED_SID2","lsalookup/PLSA_TRANSLATED_SID2","security.lsa_translated_sid2"]
+description: Contains SIDs that are retrieved based on account names.
+helpviewer_keywords: ["*PLSA_TRANSLATED_SID2","LSA_TRANSLATED_SID2","LSA_TRANSLATED_SID2 structure [Security]","PLSA_TRANSLATED_SID2","PLSA_TRANSLATED_SID2 structure pointer [Security]","_lsa_lsa_translated_sid2","lsalookup/LSA_TRANSLATED_SID2","lsalookup/PLSA_TRANSLATED_SID2","security.lsa_translated_sid2"]
 old-location: security\lsa_translated_sid2.htm
 tech.root: SecMgmt
 ms.assetid: 792de958-8e24-46d8-b484-159435bc96e3

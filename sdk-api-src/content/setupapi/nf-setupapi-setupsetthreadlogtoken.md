@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupSetThreadLogToken
 title: SetupSetThreadLogToken function (setupapi.h)
-description: The SetupSetThreadLogToken function sets the log context, as represented by a log token, for the thread from which this function was called.helpviewer_keywords: ["SetupSetThreadLogToken","SetupSetThreadLogToken function [Device and Driver Installation]","devinst.setupsetthreadlogtoken","setupapi/SetupSetThreadLogToken","setupapilog-ref_0247f1a0-3c40-45dc-8162-a3b5e09d76e4.xml"]
+description: The SetupSetThreadLogToken function sets the log context, as represented by a log token, for the thread from which this function was called.
+helpviewer_keywords: ["SetupSetThreadLogToken","SetupSetThreadLogToken function [Device and Driver Installation]","devinst.setupsetthreadlogtoken","setupapi/SetupSetThreadLogToken","setupapilog-ref_0247f1a0-3c40-45dc-8162-a3b5e09d76e4.xml"]
 old-location: devinst\setupsetthreadlogtoken.htm
 tech.root: devinst
 ms.assetid: c5295bb8-73c8-4516-91fe-ba11aa8a0657

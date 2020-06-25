@@ -1,7 +1,8 @@
 ---
 UID: NF:madcapcl.McastRequestAddress
 title: McastRequestAddress function (madcapcl.h)
-description: The McastRequestAddress function requests one or more multicast addresses from a MADCAP server.helpviewer_keywords: ["McastRequestAddress","McastRequestAddress function [MADCAP]","_mdhcp_mcastrequestaddress","madcap.mcastrequestaddress","madcapcl/McastRequestAddress"]
+description: The McastRequestAddress function requests one or more multicast addresses from a MADCAP server.
+helpviewer_keywords: ["McastRequestAddress","McastRequestAddress function [MADCAP]","_mdhcp_mcastrequestaddress","madcap.mcastrequestaddress","madcapcl/McastRequestAddress"]
 old-location: madcap\mcastrequestaddress.htm
 tech.root: Madcap
 ms.assetid: 856eb251-1909-41a1-8e4f-c081942280de

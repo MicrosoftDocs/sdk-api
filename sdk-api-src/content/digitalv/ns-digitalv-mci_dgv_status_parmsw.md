@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_31
 title: MCI_DGV_STATUS_PARMSW (digitalv.h)
-description: The MCI_DGV_STATUS_PARMS structure contains parameters for the MCI_STATUS command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_STATUS_PARMSW","MCI_DGV_STATUS_PARMS","MCI_DGV_STATUS_PARMS structure [Windows Multimedia]","MCI_DGV_STATUS_PARMSW","_win32_MCI_DGV_STATUS_PARMS_str","digitalv/MCI_DGV_STATUS_PARMS","multimedia.mci_dgv_status_parms"]
+description: The MCI_DGV_STATUS_PARMS structure contains parameters for the MCI_STATUS command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_STATUS_PARMSW","MCI_DGV_STATUS_PARMS","MCI_DGV_STATUS_PARMS structure [Windows Multimedia]","MCI_DGV_STATUS_PARMSW","_win32_MCI_DGV_STATUS_PARMS_str","digitalv/MCI_DGV_STATUS_PARMS","multimedia.mci_dgv_status_parms"]
 old-location: multimedia\mci_dgv_status_parms.htm
 tech.root: Multimedia
 ms.assetid: bbc09d4c-4231-48a8-97f6-54cbb32303b1
@@ -99,6 +100,10 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
+
+
+> [!NOTE]
+> The digitalv.h header defines MCI_DGV_STATUS_PARMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

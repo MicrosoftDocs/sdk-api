@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.OpenMutexW
 title: OpenMutexW function (synchapi.h)
-description: Opens an existing named mutex object.helpviewer_keywords: ["OpenMutex","OpenMutex function","OpenMutexA","OpenMutexW","_win32_openmutex","base.openmutex","synchapi/OpenMutex","synchapi/OpenMutexA","synchapi/OpenMutexW"]
+description: Opens an existing named mutex object.
+helpviewer_keywords: ["OpenMutex","OpenMutex function","OpenMutexA","OpenMutexW","_win32_openmutex","base.openmutex","synchapi/OpenMutex","synchapi/OpenMutexA","synchapi/OpenMutexW"]
 old-location: base\openmutex.htm
 tech.root: Sync
 ms.assetid: 0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11

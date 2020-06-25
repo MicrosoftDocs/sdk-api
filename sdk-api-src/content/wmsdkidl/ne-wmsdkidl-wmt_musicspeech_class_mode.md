@@ -1,7 +1,8 @@
 ---
 UID: NE:wmsdkidl.tagWMT_MUSICSPEECH_CLASS_MODE
 title: WMT_MUSICSPEECH_CLASS_MODE (wmsdkidl.h)
-description: The WMT_MUSICSPEECH_CLASS_MODE enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.helpviewer_keywords: ["WMT_MS_CLASS_MIXED","WMT_MS_CLASS_MUSIC","WMT_MS_CLASS_SPEECH","WMT_MUSICSPEECH_CLASS_MODE","WMT_MUSICSPEECH_CLASS_MODE enumeration [windows Media Format]","wmformat.wmt_musicspeech_class_mode","wmsdkidl/WMT_MS_CLASS_MIXED","wmsdkidl/WMT_MS_CLASS_MUSIC","wmsdkidl/WMT_MS_CLASS_SPEECH","wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE"]
+description: The WMT_MUSICSPEECH_CLASS_MODE enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.
+helpviewer_keywords: ["WMT_MS_CLASS_MIXED","WMT_MS_CLASS_MUSIC","WMT_MS_CLASS_SPEECH","WMT_MUSICSPEECH_CLASS_MODE","WMT_MUSICSPEECH_CLASS_MODE enumeration [windows Media Format]","wmformat.wmt_musicspeech_class_mode","wmsdkidl/WMT_MS_CLASS_MIXED","wmsdkidl/WMT_MS_CLASS_MUSIC","wmsdkidl/WMT_MS_CLASS_SPEECH","wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE"]
 old-location: wmformat\wmt_musicspeech_class_mode.htm
 tech.root: wmformat
 ms.assetid: 9ca744a1-1d85-4609-8f5f-d074e46cef45

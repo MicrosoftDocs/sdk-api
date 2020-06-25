@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromToken
 title: IAzApplication::InitializeClientContextFromToken (azroles.h)
-description: Gets an IAzClientContext object pointer from the specified client token.helpviewer_keywords: ["AzApplication object [Security]","InitializeClientContextFromToken method","IAzApplication interface [Security]","InitializeClientContextFromToken method","IAzApplication.InitializeClientContextFromToken","IAzApplication::InitializeClientContextFromToken","InitializeClientContextFromToken","InitializeClientContextFromToken method [Security]","InitializeClientContextFromToken method [Security]","AzApplication object","InitializeClientContextFromToken method [Security]","IAzApplication interface","azroles/IAzApplication::InitializeClientContextFromToken","security.iazapplication_initializeclientcontextfromtoken"]
+description: Gets an IAzClientContext object pointer from the specified client token.
+helpviewer_keywords: ["AzApplication object [Security]","InitializeClientContextFromToken method","IAzApplication interface [Security]","InitializeClientContextFromToken method","IAzApplication.InitializeClientContextFromToken","IAzApplication::InitializeClientContextFromToken","InitializeClientContextFromToken","InitializeClientContextFromToken method [Security]","InitializeClientContextFromToken method [Security]","AzApplication object","InitializeClientContextFromToken method [Security]","IAzApplication interface","azroles/IAzApplication::InitializeClientContextFromToken","security.iazapplication_initializeclientcontextfromtoken"]
 old-location: security\iazapplication_initializeclientcontextfromtoken.htm
 tech.root: SecAuthZ
 ms.assetid: 0002804d-0e97-4648-8aa1-14eba09a90fa

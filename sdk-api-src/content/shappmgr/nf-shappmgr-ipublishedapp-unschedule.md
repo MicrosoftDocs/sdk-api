@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IPublishedApp.Unschedule
 title: IPublishedApp::Unschedule (shappmgr.h)
-description: Cancels the installation of an application published by an application publisher.helpviewer_keywords: ["IPublishedApp interface [Windows Shell]","Unschedule method","IPublishedApp.Unschedule","IPublishedApp::Unschedule","Unschedule","Unschedule method [Windows Shell]","Unschedule method [Windows Shell]","IPublishedApp interface","inet_IPublishedApp_Unschedule","shappmgr/IPublishedApp::Unschedule","shell.IPublishedApp_Unschedule"]
+description: Cancels the installation of an application published by an application publisher.
+helpviewer_keywords: ["IPublishedApp interface [Windows Shell]","Unschedule method","IPublishedApp.Unschedule","IPublishedApp::Unschedule","Unschedule","Unschedule method [Windows Shell]","Unschedule method [Windows Shell]","IPublishedApp interface","inet_IPublishedApp_Unschedule","shappmgr/IPublishedApp::Unschedule","shell.IPublishedApp_Unschedule"]
 old-location: shell\IPublishedApp_Unschedule.htm
 tech.root: shell
 ms.assetid: c0d5a8cb-d382-4d7a-8d09-2dd153c03294

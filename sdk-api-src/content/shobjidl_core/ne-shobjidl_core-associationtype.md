@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.ASSOCIATIONTYPE
 title: ASSOCIATIONTYPE (shobjidl_core.h)
-description: Specifies the type of association for an application. Used by methods of the IApplicationAssociationRegistration interface.helpviewer_keywords: ["ASSOCIATIONTYPE","ASSOCIATIONTYPE enumeration [Windows Shell]","AT_FILEEXTENSION","AT_MIMETYPE","AT_STARTMENUCLIENT","AT_URLPROTOCOL","_shell_ASSOCIATIONTYPE","shell.ASSOCIATIONTYPE","shobjidl_core/ASSOCIATIONTYPE","shobjidl_core/AT_FILEEXTENSION","shobjidl_core/AT_MIMETYPE","shobjidl_core/AT_STARTMENUCLIENT","shobjidl_core/AT_URLPROTOCOL"]
+description: Specifies the type of association for an application. Used by methods of the IApplicationAssociationRegistration interface.
+helpviewer_keywords: ["ASSOCIATIONTYPE","ASSOCIATIONTYPE enumeration [Windows Shell]","AT_FILEEXTENSION","AT_MIMETYPE","AT_STARTMENUCLIENT","AT_URLPROTOCOL","_shell_ASSOCIATIONTYPE","shell.ASSOCIATIONTYPE","shobjidl_core/ASSOCIATIONTYPE","shobjidl_core/AT_FILEEXTENSION","shobjidl_core/AT_MIMETYPE","shobjidl_core/AT_STARTMENUCLIENT","shobjidl_core/AT_URLPROTOCOL"]
 old-location: shell\ASSOCIATIONTYPE.htm
 tech.root: shell
 ms.assetid: 3dbbe748-5e83-4103-932a-b51a2a55f9fd

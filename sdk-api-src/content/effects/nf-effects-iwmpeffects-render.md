@@ -1,7 +1,8 @@
 ---
 UID: NF:effects.IWMPEffects.Render
 title: IWMPEffects::Render (effects.h)
-description: The Render method renders the visualization.helpviewer_keywords: ["EffectsRender","IWMPEffects interface [Windows Media Player]","Render method","IWMPEffects.Render","IWMPEffects::Render","Render","Render method [Windows Media Player]","Render method [Windows Media Player]","IWMPEffects interface","effects/IWMPEffects::Render","wmp.iwmpeffects_render"]
+description: The Render method renders the visualization.
+helpviewer_keywords: ["EffectsRender","IWMPEffects interface [Windows Media Player]","Render method","IWMPEffects.Render","IWMPEffects::Render","Render","Render method [Windows Media Player]","Render method [Windows Media Player]","IWMPEffects interface","effects/IWMPEffects::Render","wmp.iwmpeffects_render"]
 old-location: wmp\iwmpeffects_render.htm
 tech.root: WMP
 ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59

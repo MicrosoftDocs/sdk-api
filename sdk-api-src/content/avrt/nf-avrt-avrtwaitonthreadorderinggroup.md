@@ -1,7 +1,8 @@
 ---
 UID: NF:avrt.AvRtWaitOnThreadOrderingGroup
 title: AvRtWaitOnThreadOrderingGroup function (avrt.h)
-description: Enables client threads of a thread ordering group to wait until they should execute.helpviewer_keywords: ["AvRtWaitOnThreadOrderingGroup","AvRtWaitOnThreadOrderingGroup function","avrt/AvRtWaitOnThreadOrderingGroup","base.avrtwaitonthreadorderinggroup"]
+description: Enables client threads of a thread ordering group to wait until they should execute.
+helpviewer_keywords: ["AvRtWaitOnThreadOrderingGroup","AvRtWaitOnThreadOrderingGroup function","avrt/AvRtWaitOnThreadOrderingGroup","base.avrtwaitonthreadorderinggroup"]
 old-location: base\avrtwaitonthreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80

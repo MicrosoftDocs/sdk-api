@@ -1,7 +1,8 @@
 ---
 UID: NF:ip2string.RtlEthernetStringToAddressA
 title: RtlEthernetStringToAddressA function (ip2string.h)
-description: Converts a string representation of an Ethernet MAC address to a binary format of the Ethernet address.helpviewer_keywords: ["RtlEthernetStringToAddress","RtlEthernetStringToAddress function [IP Helper]","RtlEthernetStringToAddressA","RtlEthernetStringToAddressW","ip2string/RtlEthernetStringToAddress","ip2string/RtlEthernetStringToAddressA","ip2string/RtlEthernetStringToAddressW","iphlp.rtlethernetstringtoaddress"]
+description: Converts a string representation of an Ethernet MAC address to a binary format of the Ethernet address.
+helpviewer_keywords: ["RtlEthernetStringToAddress","RtlEthernetStringToAddress function [IP Helper]","RtlEthernetStringToAddressA","RtlEthernetStringToAddressW","ip2string/RtlEthernetStringToAddress","ip2string/RtlEthernetStringToAddressA","ip2string/RtlEthernetStringToAddressW","iphlp.rtlethernetstringtoaddress"]
 old-location: iphlp\rtlethernetstringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 9FE1F2C6-971E-4789-9D30-4C129B3951F4
@@ -153,6 +154,10 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 
 
 
+
+
+> [!NOTE]
+> The ip2string.h header defines RtlEthernetStringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

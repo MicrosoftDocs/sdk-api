@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetCaretBlinkTime
 title: GetCaretBlinkTime function (winuser.h)
-description: Retrieves the time required to invert the caret's pixels. The user can set this value.helpviewer_keywords: ["GetCaretBlinkTime","GetCaretBlinkTime function [Menus and Other Resources]","_win32_GetCaretBlinkTime","_win32_getcaretblinktime_cpp","menurc.getcaretblinktime","winui._win32_getcaretblinktime","winuser/GetCaretBlinkTime"]
+description: Retrieves the time required to invert the caret's pixels. The user can set this value.
+helpviewer_keywords: ["GetCaretBlinkTime","GetCaretBlinkTime function [Menus and Other Resources]","_win32_GetCaretBlinkTime","_win32_getcaretblinktime_cpp","menurc.getcaretblinktime","winui._win32_getcaretblinktime","winuser/GetCaretBlinkTime"]
 old-location: menurc\getcaretblinktime.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\getcaretblinktime.htm

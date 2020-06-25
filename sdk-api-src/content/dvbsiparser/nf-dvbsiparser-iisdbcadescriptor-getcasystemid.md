@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetCASystemId
 title: IIsdbCADescriptor::GetCASystemId (dvbsiparser.h)
-description: Gets the conditional access (CA) system identifier from a conditional access descriptor.helpviewer_keywords: ["GetCASystemId","GetCASystemId method [Microsoft TV Technologies]","GetCASystemId method [Microsoft TV Technologies]","IIsdbCADescriptor interface","IIsdbCADescriptor interface [Microsoft TV Technologies]","GetCASystemId method","IIsdbCADescriptor.GetCASystemId","IIsdbCADescriptor::GetCASystemId","dvbsiparser/IIsdbCADescriptor::GetCASystemId","mstv.iisdbcadescriptor_getcasystemid"]
+description: Gets the conditional access (CA) system identifier from a conditional access descriptor.
+helpviewer_keywords: ["GetCASystemId","GetCASystemId method [Microsoft TV Technologies]","GetCASystemId method [Microsoft TV Technologies]","IIsdbCADescriptor interface","IIsdbCADescriptor interface [Microsoft TV Technologies]","GetCASystemId method","IIsdbCADescriptor.GetCASystemId","IIsdbCADescriptor::GetCASystemId","dvbsiparser/IIsdbCADescriptor::GetCASystemId","mstv.iisdbcadescriptor_getcasystemid"]
 old-location: mstv\iisdbcadescriptor_getcasystemid.htm
 tech.root: mstv
 ms.assetid: 834825d4-f92d-4cca-bf15-a3f94647c4f1

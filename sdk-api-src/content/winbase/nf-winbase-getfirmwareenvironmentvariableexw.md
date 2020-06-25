@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableExW
 title: GetFirmwareEnvironmentVariableExW function (winbase.h)
-description: Retrieves the value of the specified firmware environment variable and its attributes.helpviewer_keywords: ["GetFirmwareEnvironmentVariableEx","GetFirmwareEnvironmentVariableEx function","GetFirmwareEnvironmentVariableExA","GetFirmwareEnvironmentVariableExW","base.getfirmwareenvironmentvariableex","winbase/GetFirmwareEnvironmentVariableEx","winbase/GetFirmwareEnvironmentVariableExA","winbase/GetFirmwareEnvironmentVariableExW"]
+description: Retrieves the value of the specified firmware environment variable and its attributes.
+helpviewer_keywords: ["GetFirmwareEnvironmentVariableEx","GetFirmwareEnvironmentVariableEx function","GetFirmwareEnvironmentVariableExA","GetFirmwareEnvironmentVariableExW","base.getfirmwareenvironmentvariableex","winbase/GetFirmwareEnvironmentVariableEx","winbase/GetFirmwareEnvironmentVariableExA","winbase/GetFirmwareEnvironmentVariableExW"]
 old-location: base\getfirmwareenvironmentvariableex.htm
 tech.root: SysInfo
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
@@ -117,6 +118,10 @@ If you are creating a backup application, you can use this function to save all 
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetFirmwareEnvironmentVariableEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

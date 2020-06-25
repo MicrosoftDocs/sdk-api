@@ -1,7 +1,8 @@
 ---
 UID: NN:vpconfig.IVPConfig
 title: IVPConfig (vpconfig.h)
-description: The IVPConfig interface must be implemented by any filter that wraps a hardware decoder with a video port.helpviewer_keywords: ["IVPConfig","IVPConfig interface [DirectShow]","IVPConfig interface [DirectShow]","described","IVPConfigInterface","dshow.ivpconfig","vpconfig/IVPConfig"]
+description: The IVPConfig interface must be implemented by any filter that wraps a hardware decoder with a video port.
+helpviewer_keywords: ["IVPConfig","IVPConfig interface [DirectShow]","IVPConfig interface [DirectShow]","described","IVPConfigInterface","dshow.ivpconfig","vpconfig/IVPConfig"]
 old-location: dshow\ivpconfig.htm
 tech.root: DirectShow
 ms.assetid: 2c0eb294-7e57-4d8d-98b1-57c3834279a0

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.FindTextEnd
 title: ITextRange::FindTextEnd (tom.h)
-description: Searches up to Count characters for the string, bstr, starting from the range's End cp.helpviewer_keywords: ["FindTextEnd","FindTextEnd method [Windows Controls]","FindTextEnd method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","FindTextEnd method","ITextRange.FindTextEnd","ITextRange::FindTextEnd","_win32_ITextRange_FindTextEnd","_win32_ITextRange_FindTextEnd_cpp","controls.ITextRange_FindTextEnd","controls._win32_ITextRange_FindTextEnd","tom/ITextRange::FindTextEnd"]
+description: Searches up to Count characters for the string, bstr, starting from the range's End cp.
+helpviewer_keywords: ["FindTextEnd","FindTextEnd method [Windows Controls]","FindTextEnd method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","FindTextEnd method","ITextRange.FindTextEnd","ITextRange::FindTextEnd","_win32_ITextRange_FindTextEnd","_win32_ITextRange_FindTextEnd_cpp","controls.ITextRange_FindTextEnd","controls._win32_ITextRange_FindTextEnd","tom/ITextRange::FindTextEnd"]
 old-location: controls\ITextRange_FindTextEnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextend.htm

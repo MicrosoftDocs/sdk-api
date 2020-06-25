@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawTextLayout
 title: ID2D1RenderTarget::DrawTextLayout (d2d1.h)
-description: Draws the formatted text described by the specified IDWriteTextLayout object.helpviewer_keywords: ["DrawTextLayout","DrawTextLayout method [Direct2D]","DrawTextLayout method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawTextLayout method","ID2D1RenderTarget.DrawTextLayout","ID2D1RenderTarget::DrawTextLayout","d2d1/ID2D1RenderTarget::DrawTextLayout","direct2d.ID2D1RenderTarget_DrawTextLayout"]
+description: Draws the formatted text described by the specified IDWriteTextLayout object.
+helpviewer_keywords: ["DrawTextLayout","DrawTextLayout method [Direct2D]","DrawTextLayout method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawTextLayout method","ID2D1RenderTarget.DrawTextLayout","ID2D1RenderTarget::DrawTextLayout","d2d1/ID2D1RenderTarget::DrawTextLayout","direct2d.ID2D1RenderTarget_DrawTextLayout"]
 old-location: direct2d\ID2D1RenderTarget_DrawTextLayout.htm
 tech.root: Direct2D
 ms.assetid: 9356071a-35ca-462a-8a77-887e63850586

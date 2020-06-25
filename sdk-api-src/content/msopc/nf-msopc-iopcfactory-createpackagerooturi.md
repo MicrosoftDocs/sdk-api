@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackageRootUri
 title: IOpcFactory::CreatePackageRootUri (msopc.h)
-description: Creates an OPC URI object that represents the root of a package.helpviewer_keywords: ["CreatePackageRootUri","CreatePackageRootUri method [Open Packaging Conventions]","CreatePackageRootUri method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreatePackageRootUri method","IOpcFactory.CreatePackageRootUri","IOpcFactory::CreatePackageRootUri","msopc/IOpcFactory::CreatePackageRootUri","opc.iopcfactory_createpackagerooturi"]
+description: Creates an OPC URI object that represents the root of a package.
+helpviewer_keywords: ["CreatePackageRootUri","CreatePackageRootUri method [Open Packaging Conventions]","CreatePackageRootUri method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreatePackageRootUri method","IOpcFactory.CreatePackageRootUri","IOpcFactory::CreatePackageRootUri","msopc/IOpcFactory::CreatePackageRootUri","opc.iopcfactory_createpackagerooturi"]
 old-location: opc\iopcfactory_createpackagerooturi.htm
 tech.root: OPC
 ms.assetid: 5ec33743-d362-43d9-a66e-8223745b9664

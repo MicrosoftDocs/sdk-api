@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneClose
 title: phoneClose function (tapi.h)
-description: The phoneClose function closes the specified open phone device.helpviewer_keywords: ["_tapi2_phoneclose","phoneClose","phoneClose function [TAPI 2.2]","tapi/phoneClose","tapi2.phoneclose"]
+description: The phoneClose function closes the specified open phone device.
+helpviewer_keywords: ["_tapi2_phoneclose","phoneClose","phoneClose function [TAPI 2.2]","tapi/phoneClose","tapi2.phoneclose"]
 old-location: tapi2\phoneclose.htm
 tech.root: Tapi
 ms.assetid: 9e5e66c6-a8d2-4e0a-a400-17f0a3637f63

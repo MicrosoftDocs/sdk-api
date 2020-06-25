@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._SINGLE_LIST_ENTRY
 title: SINGLE_LIST_ENTRY (winnt.h)
-description: Represents an item in a singly linked list.helpviewer_keywords: ["*PSINGLE_LIST_ENTRY","*PSLIST_ENTRY","PSLIST_ENTRY","PSLIST_ENTRY structure pointer","SINGLE_LIST_ENTRY","SLIST_ENTRY","SLIST_ENTRY structure","_SLIST_ENTRY","_win32_slist_entry_str","base.slist_entry_str","winnt/PSLIST_ENTRY","winnt/SLIST_ENTRY"]
+description: Represents an item in a singly linked list.
+helpviewer_keywords: ["*PSINGLE_LIST_ENTRY","*PSLIST_ENTRY","PSLIST_ENTRY","PSLIST_ENTRY structure pointer","SINGLE_LIST_ENTRY","SLIST_ENTRY","SLIST_ENTRY structure","_SLIST_ENTRY","_win32_slist_entry_str","base.slist_entry_str","winnt/PSLIST_ENTRY","winnt/SLIST_ENTRY"]
 old-location: base\slist_entry_str.htm
 tech.root: Sync
 ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084

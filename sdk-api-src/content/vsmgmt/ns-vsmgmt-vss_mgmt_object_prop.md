@@ -62,12 +62,14 @@ The <b>VSS_MGMT_OBJECT_PROP</b> structure
 
 ### -field Type
 
+
 Object type. For more information, see <a href="/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_mgmt_object_type">VSS_MGMT_OBJECT_TYPE</a>.
 
 
 ### -field Obj
 
 Management object properties: a union of 
+
        <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_prop">VSS_VOLUME_PROP</a>, 
        <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a>, and  
        <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures. (For more information, see 
@@ -78,8 +80,6 @@ It contains information for an object of the type specified by the <b>Type</b> m
 
 
 ## -see-also
-
-
 
 
 <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-next">IVssEnumMgmtObject::Next</a>
@@ -107,7 +107,3 @@ It contains information for an object of the type specified by the <b>Type</b> m
 
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
- 
-
- 
-

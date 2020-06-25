@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteBSTR
 title: PSPropertyBag_WriteBSTR function (propsys.h)
-description: Sets the BSTR value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteBSTR","PSPropertyBag_WriteBSTR function [Windows Properties]","properties.PSPropertyBag_WriteBSTR","propsys/PSPropertyBag_WriteBSTR","shell.PSPropertyBag_WriteBSTR","shell_PSPropertyBag_WriteBSTR"]
+description: Sets the BSTR value of a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_WriteBSTR","PSPropertyBag_WriteBSTR function [Windows Properties]","properties.PSPropertyBag_WriteBSTR","propsys/PSPropertyBag_WriteBSTR","shell.PSPropertyBag_WriteBSTR","shell_PSPropertyBag_WriteBSTR"]
 old-location: properties\PSPropertyBag_WriteBSTR.htm
 tech.root: properties
 ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9

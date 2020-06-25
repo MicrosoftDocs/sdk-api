@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.OpenIcon
 title: OpenIcon function (winuser.h)
-description: Restores a minimized (iconic) window to its previous size and position; it then activates the window.helpviewer_keywords: ["OpenIcon","OpenIcon function [Windows and Messages]","_win32_OpenIcon","_win32_openicon_cpp","winmsg.openicon","winui._win32_openicon","winuser/OpenIcon"]
+description: Restores a minimized (iconic) window to its previous size and position; it then activates the window.
+helpviewer_keywords: ["OpenIcon","OpenIcon function [Windows and Messages]","_win32_OpenIcon","_win32_openicon_cpp","winmsg.openicon","winui._win32_openicon","winuser/OpenIcon"]
 old-location: winmsg\openicon.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\openicon.htm

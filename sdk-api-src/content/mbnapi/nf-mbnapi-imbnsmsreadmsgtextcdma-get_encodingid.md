@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_EncodingID
 title: IMbnSmsReadMsgTextCdma::get_EncodingID (mbnapi.h)
-description: The data encoding used in the message.helpviewer_keywords: ["EncodingID property [Microsoft Broadband Networks]","EncodingID property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","EncodingID property","IMbnSmsReadMsgTextCdma.EncodingID","IMbnSmsReadMsgTextCdma.get_EncodingID","IMbnSmsReadMsgTextCdma::EncodingID","IMbnSmsReadMsgTextCdma::get_EncodingID","get_EncodingID","mbn.imbnsmsreadmsgtextcdma_encodingid","mbnapi/IMbnSmsReadMsgTextCdma::EncodingID","mbnapi/IMbnSmsReadMsgTextCdma::get_EncodingID"]
+description: The data encoding used in the message.
+helpviewer_keywords: ["EncodingID property [Microsoft Broadband Networks]","EncodingID property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","EncodingID property","IMbnSmsReadMsgTextCdma.EncodingID","IMbnSmsReadMsgTextCdma.get_EncodingID","IMbnSmsReadMsgTextCdma::EncodingID","IMbnSmsReadMsgTextCdma::get_EncodingID","get_EncodingID","mbn.imbnsmsreadmsgtextcdma_encodingid","mbnapi/IMbnSmsReadMsgTextCdma::EncodingID","mbnapi/IMbnSmsReadMsgTextCdma::get_EncodingID"]
 old-location: mbn\imbnsmsreadmsgtextcdma_encodingid.htm
 tech.root: mbn
 ms.assetid: 46a06e03-31de-40a6-ae05-b9b1384bac65

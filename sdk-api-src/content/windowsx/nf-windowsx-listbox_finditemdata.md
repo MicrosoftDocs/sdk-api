@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_FindItemData
 title: ListBox_FindItemData macro (windowsx.h)
-description: Finds the first item in a list box that has the specified item data. You can use this macro or send the LB_FINDSTRING message explicitly.helpviewer_keywords: ["ListBox_FindItemData","ListBox_FindItemData macro [Windows Controls]","_win32_ListBox_FindItemData","_win32_ListBox_FindItemData_cpp","controls.ListBox_FindItemData","controls._win32_ListBox_FindItemData","windowsx/ListBox_FindItemData"]
+description: Finds the first item in a list box that has the specified item data. You can use this macro or send the LB_FINDSTRING message explicitly.
+helpviewer_keywords: ["ListBox_FindItemData","ListBox_FindItemData macro [Windows Controls]","_win32_ListBox_FindItemData","_win32_ListBox_FindItemData_cpp","controls.ListBox_FindItemData","controls._win32_ListBox_FindItemData","windowsx/ListBox_FindItemData"]
 old-location: controls\ListBox_FindItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_finditemdata.htm

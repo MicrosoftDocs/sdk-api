@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsEnabled
 title: ISyncMgrHandlerInfo::IsEnabled (syncmgr.h)
-description: Gets a value that indicates whether the handler is enabled.helpviewer_keywords: ["ISyncMgrHandlerInfo interface [Windows Shell]","IsEnabled method","ISyncMgrHandlerInfo.IsEnabled","ISyncMgrHandlerInfo::IsEnabled","IsEnabled","IsEnabled method [Windows Shell]","IsEnabled method [Windows Shell]","ISyncMgrHandlerInfo interface","_shell_ISyncMgrHandlerInfo_IsEnabled","shell.ISyncMgrHandlerInfo_IsEnabled","syncmgr/ISyncMgrHandlerInfo::IsEnabled"]
+description: Gets a value that indicates whether the handler is enabled.
+helpviewer_keywords: ["ISyncMgrHandlerInfo interface [Windows Shell]","IsEnabled method","ISyncMgrHandlerInfo.IsEnabled","ISyncMgrHandlerInfo::IsEnabled","IsEnabled","IsEnabled method [Windows Shell]","IsEnabled method [Windows Shell]","ISyncMgrHandlerInfo interface","_shell_ISyncMgrHandlerInfo_IsEnabled","shell.ISyncMgrHandlerInfo_IsEnabled","syncmgr/ISyncMgrHandlerInfo::IsEnabled"]
 old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
 tech.root: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd

@@ -1,7 +1,8 @@
 ---
 UID: NN:spellcheckprovider.IComprehensiveSpellCheckProvider
 title: IComprehensiveSpellCheckProvider (spellcheckprovider.h)
-description: Allows the provider to optionally support a more comprehensive spell checking functionality.helpviewer_keywords: ["IComprehensiveSpellCheckProvider","IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications]","IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications]","described","intl.icomprehensivespellcheckprovider","spellcheckprovider/IComprehensiveSpellCheckProvider"]
+description: Allows the provider to optionally support a more comprehensive spell checking functionality.
+helpviewer_keywords: ["IComprehensiveSpellCheckProvider","IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications]","IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications]","described","intl.icomprehensivespellcheckprovider","spellcheckprovider/IComprehensiveSpellCheckProvider"]
 old-location: intl\icomprehensivespellcheckprovider.htm
 tech.root: Intl
 ms.assetid: 303EE887-DCF0-4575-A45F-5A4088DE8F7B

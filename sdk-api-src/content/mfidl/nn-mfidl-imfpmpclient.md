@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFPMPClient
 title: IMFPMPClient (mfidl.h)
-description: Enables a media source to receive a pointer to the IMFPMPHost interface.helpviewer_keywords: ["IMFPMPClient","IMFPMPClient interface [Media Foundation]","IMFPMPClient interface [Media Foundation]","described","adfba5dd-eae6-48f3-a155-65bd491c952c","mf.imfpmpclient","mfidl/IMFPMPClient"]
+description: Enables a media source to receive a pointer to the IMFPMPHost interface.
+helpviewer_keywords: ["IMFPMPClient","IMFPMPClient interface [Media Foundation]","IMFPMPClient interface [Media Foundation]","described","adfba5dd-eae6-48f3-a155-65bd491c952c","mf.imfpmpclient","mfidl/IMFPMPClient"]
 old-location: mf\imfpmpclient.htm
 tech.root: medfound
 ms.assetid: adfba5dd-eae6-48f3-a155-65bd491c952c

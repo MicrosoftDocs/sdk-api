@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.ICopyHookW.CopyCallback
 title: ICopyHookW::CopyCallback
-description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object.helpviewer_keywords: ["ICopyHookW::CopyCallback"]
+description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object.
+helpviewer_keywords: ["ICopyHookW::CopyCallback"]
 tech.root: shell
 ms.assetid: 50cba486-12b2-4ac7-8bf2-37b5784bb9fe
 ms.date: 01/30/19

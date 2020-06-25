@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetLastStatus
 title: CustomLineCap::GetLastStatus (gdiplusheaders.h)
-description: The CustomLineCap::GetLastStatus method returns a value that indicates the nature of this CustomLineCap object's most recent method failure.helpviewer_keywords: ["CustomLineCap class [GDI+]","GetLastStatus method","CustomLineCap.GetLastStatus","CustomLineCap::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_GetLastStatus_","gdiplus._gdiplus_CLASS_CustomLineCap_GetLastStatus_"]
+description: The CustomLineCap::GetLastStatus method returns a value that indicates the nature of this CustomLineCap object's most recent method failure.
+helpviewer_keywords: ["CustomLineCap class [GDI+]","GetLastStatus method","CustomLineCap.GetLastStatus","CustomLineCap::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_GetLastStatus_","gdiplus._gdiplus_CLASS_CustomLineCap_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getlaststatus_98.htm

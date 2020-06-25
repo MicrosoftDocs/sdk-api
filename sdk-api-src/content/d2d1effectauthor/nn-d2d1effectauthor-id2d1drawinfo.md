@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1DrawInfo
 title: ID2D1DrawInfo (d2d1effectauthor.h)
-description: This interface is used to describe a GPU rendering pass on a vertex or pixel shader. It is passed to ID2D1DrawTransform.helpviewer_keywords: ["ID2D1DrawInfo","ID2D1DrawInfo interface [Direct2D]","ID2D1DrawInfo interface [Direct2D]","described","d2d1effectauthor/ID2D1DrawInfo","direct2d.id2d1drawinfo"]
+description: This interface is used to describe a GPU rendering pass on a vertex or pixel shader. It is passed to ID2D1DrawTransform.
+helpviewer_keywords: ["ID2D1DrawInfo","ID2D1DrawInfo interface [Direct2D]","ID2D1DrawInfo interface [Direct2D]","described","d2d1effectauthor/ID2D1DrawInfo","direct2d.id2d1drawinfo"]
 old-location: direct2d\id2d1drawinfo.htm
 tech.root: Direct2D
 ms.assetid: 9C7B8CE0-0D2D-4383-9BE1-25F86BCEF253

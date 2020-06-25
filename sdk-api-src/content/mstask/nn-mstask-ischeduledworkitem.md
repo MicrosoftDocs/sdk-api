@@ -1,7 +1,8 @@
 ---
 UID: NN:mstask.IScheduledWorkItem
 title: IScheduledWorkItem (mstask.h)
-description: Provides the methods for managing specific work items.helpviewer_keywords: ["IScheduledWorkItem","IScheduledWorkItem interface [Task Scheduler]","IScheduledWorkItem interface [Task Scheduler]","described","_msb_ischeduledworkitem","mstask/IScheduledWorkItem","taskschd.ischeduledworkitem"]
+description: Provides the methods for managing specific work items.
+helpviewer_keywords: ["IScheduledWorkItem","IScheduledWorkItem interface [Task Scheduler]","IScheduledWorkItem interface [Task Scheduler]","described","_msb_ischeduledworkitem","mstask/IScheduledWorkItem","taskschd.ischeduledworkitem"]
 old-location: taskschd\ischeduledworkitem.htm
 tech.root: taskschd
 ms.assetid: e668833a-094d-4504-90a0-87912a6a53c2

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetLocation
 title: IWICMetadataQueryReader::GetLocation (wincodec.h)
-description: Retrieves the current path relative to the root metadata block.helpviewer_keywords: ["GetLocation","GetLocation method [Windows Imaging Component]","GetLocation method [Windows Imaging Component]","IWICMetadataQueryReader interface","IWICMetadataQueryReader interface [Windows Imaging Component]","GetLocation method","IWICMetadataQueryReader.GetLocation","IWICMetadataQueryReader::GetLocation","_wic_codec_iwicmetadataqueryreader_getlocation","wic._wic_codec_iwicmetadataqueryreader_getlocation","wincodec/IWICMetadataQueryReader::GetLocation"]
+description: Retrieves the current path relative to the root metadata block.
+helpviewer_keywords: ["GetLocation","GetLocation method [Windows Imaging Component]","GetLocation method [Windows Imaging Component]","IWICMetadataQueryReader interface","IWICMetadataQueryReader interface [Windows Imaging Component]","GetLocation method","IWICMetadataQueryReader.GetLocation","IWICMetadataQueryReader::GetLocation","_wic_codec_iwicmetadataqueryreader_getlocation","wic._wic_codec_iwicmetadataqueryreader_getlocation","wincodec/IWICMetadataQueryReader::GetLocation"]
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getlocation.htm
 tech.root: wic
 ms.assetid: e63fad36-e0b7-46b3-a854-d59cfcf20728

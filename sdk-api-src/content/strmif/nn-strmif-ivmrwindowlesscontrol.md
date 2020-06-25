@@ -57,8 +57,6 @@ The <code>IVMRWindowlessControl</code> interface controls how the <a href="https
 For the VMR-9, use the IVMRWindowlessControl9 interface.
 
 
-
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRWindowlessControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRWindowlessControl</b> also has these types of members:

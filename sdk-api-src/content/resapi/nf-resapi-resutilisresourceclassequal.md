@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilIsResourceClassEqual
 title: ResUtilIsResourceClassEqual function (resapi.h)
-description: Tests whether the resource class of a specified resource is equal to a specified resource class. The PRESUTIL_IS_RESOURCE_CLASS_EQUAL type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_IS_RESOURCE_CLASS_EQUAL","PRESUTIL_IS_RESOURCE_CLASS_EQUAL function [Failover Cluster]","ResUtilIsResourceClassEqual","ResUtilIsResourceClassEqual function [Failover Cluster]","_wolf_resutilisresourceclassequal","mscs.resutilisresourceclassequal","resapi/PRESUTIL_IS_RESOURCE_CLASS_EQUAL","resapi/ResUtilIsResourceClassEqual"]
+description: Tests whether the resource class of a specified resource is equal to a specified resource class. The PRESUTIL_IS_RESOURCE_CLASS_EQUAL type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_IS_RESOURCE_CLASS_EQUAL","PRESUTIL_IS_RESOURCE_CLASS_EQUAL function [Failover Cluster]","ResUtilIsResourceClassEqual","ResUtilIsResourceClassEqual function [Failover Cluster]","_wolf_resutilisresourceclassequal","mscs.resutilisresourceclassequal","resapi/PRESUTIL_IS_RESOURCE_CLASS_EQUAL","resapi/ResUtilIsResourceClassEqual"]
 old-location: mscs\resutilisresourceclassequal.htm
 tech.root: MsCS
 ms.assetid: 3200abd3-5f95-48c5-acd9-8094c0072039

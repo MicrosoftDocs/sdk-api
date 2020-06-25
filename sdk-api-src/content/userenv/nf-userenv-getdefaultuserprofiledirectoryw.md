@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.GetDefaultUserProfileDirectoryW
 title: GetDefaultUserProfileDirectoryW function (userenv.h)
-description: Retrieves the path to the root of the default user's profile.helpviewer_keywords: ["GetDefaultUserProfileDirectory","GetDefaultUserProfileDirectory function [Windows Shell]","GetDefaultUserProfileDirectoryA","GetDefaultUserProfileDirectoryW","_shell_GetDefaultUserProfileDirectory","shell.GetDefaultUserProfileDirectory","userenv/GetDefaultUserProfileDirectory","userenv/GetDefaultUserProfileDirectoryA","userenv/GetDefaultUserProfileDirectoryW"]
+description: Retrieves the path to the root of the default user's profile.
+helpviewer_keywords: ["GetDefaultUserProfileDirectory","GetDefaultUserProfileDirectory function [Windows Shell]","GetDefaultUserProfileDirectoryA","GetDefaultUserProfileDirectoryW","_shell_GetDefaultUserProfileDirectory","shell.GetDefaultUserProfileDirectory","userenv/GetDefaultUserProfileDirectory","userenv/GetDefaultUserProfileDirectoryA","userenv/GetDefaultUserProfileDirectoryW"]
 old-location: shell\GetDefaultUserProfileDirectory.htm
 tech.root: shell
 ms.assetid: 14ff99cb-838a-442b-9f51-414bd7c0a2ef
@@ -102,6 +103,10 @@ To obtain the paths of subdirectories of this directory, use the <a href="https:
 
 
 
+
+
+> [!NOTE]
+> The userenv.h header defines GetDefaultUserProfileDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

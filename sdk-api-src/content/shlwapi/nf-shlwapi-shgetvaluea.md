@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHGetValueA
 title: SHGetValueA function (shlwapi.h)
-description: Retrieves a registry value.helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHGetValue","SHGetValue function [Windows Shell]","SHGetValueA","SHGetValueW","_win32_SHGetValue","shell.SHGetValue","shlwapi/SHGetValue","shlwapi/SHGetValueA","shlwapi/SHGetValueW"]
+description: Retrieves a registry value.
+helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHGetValue","SHGetValue function [Windows Shell]","SHGetValueA","SHGetValueW","_win32_SHGetValue","shell.SHGetValue","shlwapi/SHGetValue","shlwapi/SHGetValueA","shlwapi/SHGetValueW"]
 old-location: shell\SHGetValue.htm
 tech.root: shell
 ms.assetid: 8cca6bfe-d365-4d10-bc8d-f3bebefaad02
@@ -148,4 +149,8 @@ Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror
 If your application must set/retrieve a series of values in the same key, it is better to open the key once and set/retrieve the values with the regular Microsoft Win32 registry functions rather than use this function repeatedly.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHGetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetPromptUserRegularMode
 title: MI_OperationOptions_SetPromptUserRegularMode function (mi.h)
-description: Sets the value that tells the server how to respond to a provider's call to the MI_Context_PromptUser function.helpviewer_keywords: ["MI_OperationOptions_SetPromptUserRegularMode","MI_OperationOptions_SetPromptUserRegularMode function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_SetPromptUserRegularMode","wmi_v2.mi_operationoptions_setpromptuserregularmode"]
+description: Sets the value that tells the server how to respond to a provider's call to the MI_Context_PromptUser function.
+helpviewer_keywords: ["MI_OperationOptions_SetPromptUserRegularMode","MI_OperationOptions_SetPromptUserRegularMode function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_SetPromptUserRegularMode","wmi_v2.mi_operationoptions_setpromptuserregularmode"]
 old-location: wmi_v2\mi_operationoptions_setpromptuserregularmode.htm
 tech.root: wmi_v2
 ms.assetid: 4383a407-716a-49d5-b877-67012c48fc6c

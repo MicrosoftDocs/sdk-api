@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
 title: IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR (xpsobjectmodel_1.h)
-description: Converts an image resource from an HD Photo to a JpegXR.helpviewer_keywords: ["ConvertHDPhotoToJpegXR","ConvertHDPhotoToJpegXR method [XPS Documents and Packaging]","ConvertHDPhotoToJpegXR method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","ConvertHDPhotoToJpegXR method","IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR","IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR","xps.ixpsomobjectfactory1_converthdphototojpegxr","xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR"]
+description: Converts an image resource from an HD Photo to a JpegXR.
+helpviewer_keywords: ["ConvertHDPhotoToJpegXR","ConvertHDPhotoToJpegXR method [XPS Documents and Packaging]","ConvertHDPhotoToJpegXR method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","ConvertHDPhotoToJpegXR method","IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR","IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR","xps.ixpsomobjectfactory1_converthdphototojpegxr","xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR"]
 old-location: xps\ixpsomobjectfactory1_converthdphototojpegxr.htm
 tech.root: printdocs
 ms.assetid: 07994e2b-b87b-49de-949d-eb7d771f0345

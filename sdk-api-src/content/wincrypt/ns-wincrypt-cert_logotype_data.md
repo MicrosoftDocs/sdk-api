@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_DATA
 title: CERT_LOGOTYPE_DATA (wincrypt.h)
-description: Contains logotype data.helpviewer_keywords: ["*PCERT_LOGOTYPE_DATA","CERT_LOGOTYPE_DATA","CERT_LOGOTYPE_DATA structure [Security]","PCERT_LOGOTYPE_DATA","PCERT_LOGOTYPE_DATA structure pointer [Security]","security.cert_logotype_data","wincrypt/CERT_LOGOTYPE_DATA","wincrypt/PCERT_LOGOTYPE_DATA"]
+description: Contains logotype data.
+helpviewer_keywords: ["*PCERT_LOGOTYPE_DATA","CERT_LOGOTYPE_DATA","CERT_LOGOTYPE_DATA structure [Security]","PCERT_LOGOTYPE_DATA","PCERT_LOGOTYPE_DATA structure pointer [Security]","security.cert_logotype_data","wincrypt/CERT_LOGOTYPE_DATA","wincrypt/PCERT_LOGOTYPE_DATA"]
 old-location: security\cert_logotype_data.htm
 tech.root: SecCrypto
 ms.assetid: f170dd48-a0f4-45e0-b5b8-a5f446d1a86e

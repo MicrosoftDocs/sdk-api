@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptDeleteContext
 title: BCryptDeleteContext function (bcrypt.h)
-description: Deletes an existing CNG configuration context.helpviewer_keywords: ["BCryptDeleteContext","BCryptDeleteContext function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptDeleteContext","security.bcryptdeletecontext"]
+description: Deletes an existing CNG configuration context.
+helpviewer_keywords: ["BCryptDeleteContext","BCryptDeleteContext function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptDeleteContext","security.bcryptdeletecontext"]
 old-location: security\bcryptdeletecontext.htm
 tech.root: SecCNG
 ms.assetid: 6a250bed-0ea4-4cae-86e6-f0cea95dc56e

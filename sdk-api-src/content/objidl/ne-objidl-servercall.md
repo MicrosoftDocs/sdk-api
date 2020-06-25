@@ -1,7 +1,8 @@
 ---
 UID: NE:objidl.tagSERVERCALL
 title: SERVERCALL (objidl.h)
-description: Indicates the status of server call.helpviewer_keywords: ["SERVERCALL","SERVERCALL enumeration [COM]","SERVERCALL_ISHANDLED","SERVERCALL_REJECTED","SERVERCALL_RETRYLATER","_com_SERVERCALL","com.servercall","objidl/SERVERCALL","objidl/SERVERCALL_ISHANDLED","objidl/SERVERCALL_REJECTED","objidl/SERVERCALL_RETRYLATER"]
+description: Indicates the status of server call.
+helpviewer_keywords: ["SERVERCALL","SERVERCALL enumeration [COM]","SERVERCALL_ISHANDLED","SERVERCALL_REJECTED","SERVERCALL_RETRYLATER","_com_SERVERCALL","com.servercall","objidl/SERVERCALL","objidl/SERVERCALL_ISHANDLED","objidl/SERVERCALL_REJECTED","objidl/SERVERCALL_RETRYLATER"]
 old-location: com\servercall.htm
 tech.root: com
 ms.assetid: 2a9b5e85-44b9-43c1-b3e5-a8f2c140b674

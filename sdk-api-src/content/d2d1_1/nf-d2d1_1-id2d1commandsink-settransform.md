@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetTransform
 title: ID2D1CommandSink::SetTransform (d2d1_1.h)
-description: Sets a new transform.helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","SetTransform method","ID2D1CommandSink.SetTransform","ID2D1CommandSink::SetTransform","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::SetTransform","direct2d.id2d1commandsink_settransform"]
+description: Sets a new transform.
+helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","SetTransform method","ID2D1CommandSink.SetTransform","ID2D1CommandSink::SetTransform","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::SetTransform","direct2d.id2d1commandsink_settransform"]
 old-location: direct2d\id2d1commandsink_settransform.htm
 tech.root: Direct2D
 ms.assetid: bc284b13-cf22-45aa-b80c-0750622f5284

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.get_MatchesSourceTemplate
 title: IFsrmQuotaObject::get_MatchesSourceTemplate (fsrmquota.h)
-description: Retrieves a value that determines whether the property values of this quota object match those of the template from which it was derived.helpviewer_keywords: ["IFsrmQuotaObject interface [File Server Resource Manager]","MatchesSourceTemplate property","IFsrmQuotaObject.MatchesSourceTemplate","IFsrmQuotaObject.get_MatchesSourceTemplate","IFsrmQuotaObject::MatchesSourceTemplate","IFsrmQuotaObject::get_MatchesSourceTemplate","MatchesSourceTemplate property [File Server Resource Manager]","MatchesSourceTemplate property [File Server Resource Manager]","IFsrmQuotaObject interface","fs.ifsrmquotaobject_matchessourcetemplate","fsrm.ifsrmquotaobject_matchessourcetemplate","fsrmquota/IFsrmQuotaObject::MatchesSourceTemplate","fsrmquota/IFsrmQuotaObject::get_MatchesSourceTemplate","get_MatchesSourceTemplate"]
+description: Retrieves a value that determines whether the property values of this quota object match those of the template from which it was derived.
+helpviewer_keywords: ["IFsrmQuotaObject interface [File Server Resource Manager]","MatchesSourceTemplate property","IFsrmQuotaObject.MatchesSourceTemplate","IFsrmQuotaObject.get_MatchesSourceTemplate","IFsrmQuotaObject::MatchesSourceTemplate","IFsrmQuotaObject::get_MatchesSourceTemplate","MatchesSourceTemplate property [File Server Resource Manager]","MatchesSourceTemplate property [File Server Resource Manager]","IFsrmQuotaObject interface","fs.ifsrmquotaobject_matchessourcetemplate","fsrm.ifsrmquotaobject_matchessourcetemplate","fsrmquota/IFsrmQuotaObject::MatchesSourceTemplate","fsrmquota/IFsrmQuotaObject::get_MatchesSourceTemplate","get_MatchesSourceTemplate"]
 old-location: fsrm\ifsrmquotaobject_matchessourcetemplate.htm
 tech.root: fsrm
 ms.assetid: 18999e5b-fae8-4bf3-9a10-5545f093afd4

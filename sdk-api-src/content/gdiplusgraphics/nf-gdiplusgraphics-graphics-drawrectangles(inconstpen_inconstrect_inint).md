@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangles(IN const Pen,IN const Rect,IN INT)
 title: Graphics::DrawRectangles(IN const Pen,IN const Rect,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawRectangles method draws a sequence of rectangles.helpviewer_keywords: ["DrawRectangles","DrawRectangles method [GDI+]","DrawRectangles method [GDI+]","Graphics class","Graphics class [GDI+]","DrawRectangles method","Graphics.DrawRectangles","Graphics.DrawRectangles(IN const Pen","IN const Rect","IN INT)","Graphics.DrawRectangles(const Pen*","const Rect*","INT)","Graphics::DrawRectangles","Graphics::DrawRectangles(IN const Pen","IN const Rect","IN INT)","_gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_"]
+description: The Graphics::DrawRectangles method draws a sequence of rectangles.
+helpviewer_keywords: ["DrawRectangles","DrawRectangles method [GDI+]","DrawRectangles method [GDI+]","Graphics class","Graphics class [GDI+]","DrawRectangles method","Graphics.DrawRectangles","Graphics.DrawRectangles(IN const Pen","IN const Rect","IN INT)","Graphics.DrawRectangles(const Pen*","const Rect*","INT)","Graphics::DrawRectangles","Graphics::DrawRectangles(IN const Pen","IN const Rect","IN INT)","_gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangles_Pen_pen_Rect_rects_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglesmethods\drawrectangles.htm

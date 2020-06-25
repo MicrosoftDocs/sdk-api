@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_FAULT_DETAIL_DESCRIPTION
 title: WS_FAULT_DETAIL_DESCRIPTION (webservices.h)
-description: A description of the detail element of a fault message.helpviewer_keywords: ["WS_FAULT_DETAIL_DESCRIPTION","WS_FAULT_DETAIL_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FAULT_DETAIL_DESCRIPTION","wsw.ws_fault_detail_description"]
+description: A description of the detail element of a fault message.
+helpviewer_keywords: ["WS_FAULT_DETAIL_DESCRIPTION","WS_FAULT_DETAIL_DESCRIPTION structure [Web Services for Windows]","webservices/WS_FAULT_DETAIL_DESCRIPTION","wsw.ws_fault_detail_description"]
 old-location: wsw\ws_fault_detail_description.htm
 tech.root: wsw
 ms.assetid: 5a89ca26-63c7-414a-a27d-019c5b020f63

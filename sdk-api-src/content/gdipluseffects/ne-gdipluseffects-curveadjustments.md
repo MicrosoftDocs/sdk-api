@@ -1,7 +1,8 @@
 ---
 UID: NE:gdipluseffects.CurveAdjustments
 title: CurveAdjustments (gdipluseffects.h)
-description: The ColorCurve class encompasses the eight bitmap adjustments listed in the CurveAdjustments enumeration.helpviewer_keywords: ["AdjustBlackSaturation","AdjustContrast","AdjustDensity","AdjustExposure","AdjustHighlight","AdjustMidtone","AdjustShadow","AdjustWhiteSaturation","CurveAdjustments","CurveAdjustments enumeration [GDI+]","_gdiplus_ENUM_CurveAdjustments","gdiplus._gdiplus_ENUM_CurveAdjustments","gdipluseffects/AdjustBlackSaturation","gdipluseffects/AdjustContrast","gdipluseffects/AdjustDensity","gdipluseffects/AdjustExposure","gdipluseffects/AdjustHighlight","gdipluseffects/AdjustMidtone","gdipluseffects/AdjustShadow","gdipluseffects/AdjustWhiteSaturation","gdipluseffects/CurveAdjustments"]
+description: The ColorCurve class encompasses the eight bitmap adjustments listed in the CurveAdjustments enumeration.
+helpviewer_keywords: ["AdjustBlackSaturation","AdjustContrast","AdjustDensity","AdjustExposure","AdjustHighlight","AdjustMidtone","AdjustShadow","AdjustWhiteSaturation","CurveAdjustments","CurveAdjustments enumeration [GDI+]","_gdiplus_ENUM_CurveAdjustments","gdiplus._gdiplus_ENUM_CurveAdjustments","gdipluseffects/AdjustBlackSaturation","gdipluseffects/AdjustContrast","gdipluseffects/AdjustDensity","gdipluseffects/AdjustExposure","gdipluseffects/AdjustHighlight","gdipluseffects/AdjustMidtone","gdipluseffects/AdjustShadow","gdipluseffects/AdjustWhiteSaturation","gdipluseffects/CurveAdjustments"]
 old-location: gdiplus\_gdiplus_ENUM_CurveAdjustments.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\curveadjustments.htm

@@ -1,7 +1,8 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0030_0001
 title: GPMBackupType (gpmgmt.h)
-description: The type of backup created.helpviewer_keywords: ["GPMBackupType","GPMBackupType enumeration [GPMC]","gpmc.gpmbackuptype","gpmgmt/GPMBackupType","gpmgmt/typeGPO","gpmgmt/typeStarterGPO","typeGPO","typeStarterGPO"]
+description: The type of backup created.
+helpviewer_keywords: ["GPMBackupType","GPMBackupType enumeration [GPMC]","gpmc.gpmbackuptype","gpmgmt/GPMBackupType","gpmgmt/typeGPO","gpmgmt/typeStarterGPO","typeGPO","typeStarterGPO"]
 old-location: gpmc\gpmbackuptype.htm
 tech.root: gpmc
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0

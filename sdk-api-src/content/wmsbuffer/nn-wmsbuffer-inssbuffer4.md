@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer4
 title: INSSBuffer4 (wmsbuffer.h)
-description: The INSSBuffer4 interface provides methods to enumerate buffer properties.helpviewer_keywords: ["INSSBuffer4","INSSBuffer4 interface [windows Media Format]","INSSBuffer4 interface [windows Media Format]","described","INSSBuffer4Interface","wmformat.inssbuffer4","wmsbuffer/INSSBuffer4"]
+description: The INSSBuffer4 interface provides methods to enumerate buffer properties.
+helpviewer_keywords: ["INSSBuffer4","INSSBuffer4 interface [windows Media Format]","INSSBuffer4 interface [windows Media Format]","described","INSSBuffer4Interface","wmformat.inssbuffer4","wmsbuffer/INSSBuffer4"]
 old-location: wmformat\inssbuffer4.htm
 tech.root: wmformat
 ms.assetid: d6531e52-b58b-46ed-a47b-444cd98e1ec5

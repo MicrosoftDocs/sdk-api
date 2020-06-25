@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorInsert
 title: XMVectorInsert function (directxmath.h)
-description: Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.helpviewer_keywords: ["Use DirectX..XMVectorInsert","XMVectorInsert","XMVectorInsert method [DirectX Math Support APIs]","dxmath.xmvectorinsert"]
+description: Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.
+helpviewer_keywords: ["Use DirectX..XMVectorInsert","XMVectorInsert","XMVectorInsert method [DirectX Math Support APIs]","dxmath.xmvectorinsert"]
 old-location: dxmath\xmvectorinsert.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorInsert(XMVECTOR,XMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t,uint32_t)

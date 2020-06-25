@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.RemovePropW
 title: RemovePropW function (winuser.h)
-description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.helpviewer_keywords: ["RemoveProp","RemoveProp function [Windows and Messages]","RemovePropA","RemovePropW","_win32_RemoveProp","_win32_removeprop_cpp","winmsg.removeprop","winui._win32_removeprop","winuser/RemoveProp","winuser/RemovePropA","winuser/RemovePropW"]
+description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.
+helpviewer_keywords: ["RemoveProp","RemoveProp function [Windows and Messages]","RemovePropA","RemovePropW","_win32_RemoveProp","_win32_removeprop_cpp","winmsg.removeprop","winui._win32_removeprop","winuser/RemoveProp","winuser/RemovePropA","winuser/RemovePropW"]
 old-location: winmsg\removeprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\removeprop.htm
@@ -112,6 +113,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines RemoveProp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

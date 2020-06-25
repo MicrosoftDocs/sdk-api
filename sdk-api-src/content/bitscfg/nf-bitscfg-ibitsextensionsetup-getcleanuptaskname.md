@@ -1,7 +1,8 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.GetCleanupTaskName
 title: IBITSExtensionSetup::GetCleanupTaskName (bitscfg.h)
-description: Use the GetCleanupTaskName method to retrieve the name of the cleanup task associated with the virtual directory.helpviewer_keywords: ["GetCleanupTaskName","GetCleanupTaskName method [BITS]","GetCleanupTaskName method [BITS]","IBITSExtensionSetup interface","IBITSExtensionSetup interface [BITS]","GetCleanupTaskName method","IBITSExtensionSetup.GetCleanupTaskName","IBITSExtensionSetup::GetCleanupTaskName","_drz_ibitsextensionsetup_getcleanuptaskname","bits.ibitsextensionsetup_getcleanuptaskname","bitscfg/IBITSExtensionSetup::GetCleanupTaskName"]
+description: Use the GetCleanupTaskName method to retrieve the name of the cleanup task associated with the virtual directory.
+helpviewer_keywords: ["GetCleanupTaskName","GetCleanupTaskName method [BITS]","GetCleanupTaskName method [BITS]","IBITSExtensionSetup interface","IBITSExtensionSetup interface [BITS]","GetCleanupTaskName method","IBITSExtensionSetup.GetCleanupTaskName","IBITSExtensionSetup::GetCleanupTaskName","_drz_ibitsextensionsetup_getcleanuptaskname","bits.ibitsextensionsetup_getcleanuptaskname","bitscfg/IBITSExtensionSetup::GetCleanupTaskName"]
 old-location: bits\ibitsextensionsetup_getcleanuptaskname.htm
 tech.root: Bits
 ms.assetid: edca833f-16ec-40c7-a3d8-f893a635b8e2

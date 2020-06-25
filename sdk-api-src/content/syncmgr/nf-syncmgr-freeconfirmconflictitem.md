@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.FreeConfirmConflictItem
 title: FreeConfirmConflictItem function (syncmgr.h)
-description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.helpviewer_keywords: ["FreeConfirmConflictItem","FreeConfirmConflictItem function [Windows Shell]","_shell_FreeConfirmConflictItem","shell.FreeConfirmConflictItem","syncmgr/FreeConfirmConflictItem"]
+description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.
+helpviewer_keywords: ["FreeConfirmConflictItem","FreeConfirmConflictItem function [Windows Shell]","_shell_FreeConfirmConflictItem","shell.FreeConfirmConflictItem","syncmgr/FreeConfirmConflictItem"]
 old-location: shell\FreeConfirmConflictItem.htm
 tech.root: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3

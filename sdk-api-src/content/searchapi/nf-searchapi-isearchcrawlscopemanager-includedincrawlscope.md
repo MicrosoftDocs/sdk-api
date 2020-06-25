@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.IncludedInCrawlScope
 title: ISearchCrawlScopeManager::IncludedInCrawlScope (searchapi.h)
-description: Retrieves an indicator of whether the specified URL is included in the crawl scope.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","IncludedInCrawlScope method","ISearchCrawlScopeManager.IncludedInCrawlScope","ISearchCrawlScopeManager::IncludedInCrawlScope","IncludedInCrawlScope","IncludedInCrawlScope method [search]","IncludedInCrawlScope method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_IncludedInCrawlScope","search._search_ISearchCrawlScopeManager_IncludedInCrawlScope","searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope"]
+description: Retrieves an indicator of whether the specified URL is included in the crawl scope.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","IncludedInCrawlScope method","ISearchCrawlScopeManager.IncludedInCrawlScope","ISearchCrawlScopeManager::IncludedInCrawlScope","IncludedInCrawlScope","IncludedInCrawlScope method [search]","IncludedInCrawlScope method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_IncludedInCrawlScope","search._search_ISearchCrawlScopeManager_IncludedInCrawlScope","searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope"]
 old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscope.htm

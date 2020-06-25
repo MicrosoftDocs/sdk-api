@@ -1,7 +1,8 @@
 ---
 UID: NF:libloaderapi.FreeLibrary
 title: FreeLibrary function (libloaderapi.h)
-description: Frees the loaded dynamic-link library (DLL) module and, if necessary, decrements its reference count.helpviewer_keywords: ["FreeLibrary","FreeLibrary function","_win32_freelibrary","base.freelibrary","libloaderapi/FreeLibrary","winbase/FreeLibrary"]
+description: Frees the loaded dynamic-link library (DLL) module and, if necessary, decrements its reference count.
+helpviewer_keywords: ["FreeLibrary","FreeLibrary function","_win32_freelibrary","base.freelibrary","libloaderapi/FreeLibrary","winbase/FreeLibrary"]
 old-location: base\freelibrary.htm
 tech.root: Dlls
 ms.assetid: 823d3147-4ba8-4fe5-ade4-e5604f47eb0a

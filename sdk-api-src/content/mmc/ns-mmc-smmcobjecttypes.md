@@ -1,7 +1,8 @@
 ---
 UID: NS:mmc._SMMCObjectTypes
 title: SMMCObjectTypes (mmc.h)
-description: The SMMCDynamicExtensions structure is introduced in MMC 1.1.helpviewer_keywords: ["SMMCDynamicExtensions","SMMCDynamicExtensions structure [MMC]","SMMCObjectTypes","SMMCObjectTypes structure [MMC]","_slate_smmcdynamicextensions","mmc.smmcdynamicextensions","mmc/SMMCDynamicExtensions"]
+description: The SMMCDynamicExtensions structure is introduced in MMC 1.1.
+helpviewer_keywords: ["SMMCDynamicExtensions","SMMCDynamicExtensions structure [MMC]","SMMCObjectTypes","SMMCObjectTypes structure [MMC]","_slate_smmcdynamicextensions","mmc.smmcdynamicextensions","mmc/SMMCDynamicExtensions"]
 old-location: mmc\smmcdynamicextensions.htm
 tech.root: mmc
 ms.assetid: 59acd90c-60de-457a-94d7-418b79247a2e

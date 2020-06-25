@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmGetRouteInfo
 title: RtmGetRouteInfo function (rtmv2.h)
-description: The RtmGetRouteInfo function returns information for the specified route.helpviewer_keywords: ["RtmGetRouteInfo","RtmGetRouteInfo function [RAS]","_rtmv2ref_rtmgetrouteinfo","rras.rtmgetrouteinfo","rtmv2/RtmGetRouteInfo"]
+description: The RtmGetRouteInfo function returns information for the specified route.
+helpviewer_keywords: ["RtmGetRouteInfo","RtmGetRouteInfo function [RAS]","_rtmv2ref_rtmgetrouteinfo","rras.rtmgetrouteinfo","rtmv2/RtmGetRouteInfo"]
 old-location: rras\rtmgetrouteinfo.htm
 tech.root: RRAS
 ms.assetid: 13fc70de-f6cd-4e7a-b79d-c2fe811e08a4

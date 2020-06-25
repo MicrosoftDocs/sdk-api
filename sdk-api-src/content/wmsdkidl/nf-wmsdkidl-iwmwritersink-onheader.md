@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnHeader
 title: IWMWriterSink::OnHeader (wmsdkidl.h)
-description: The OnHeader method is called by the writer when the ASF header is ready for the sink.helpviewer_keywords: ["IWMWriterSink interface [windows Media Format]","OnHeader method","IWMWriterSink.OnHeader","IWMWriterSink::OnHeader","IWMWriterSinkOnHeader","OnHeader","OnHeader method [windows Media Format]","OnHeader method [windows Media Format]","IWMWriterSink interface","wmformat.iwmwritersink_onheader","wmsdkidl/IWMWriterSink::OnHeader"]
+description: The OnHeader method is called by the writer when the ASF header is ready for the sink.
+helpviewer_keywords: ["IWMWriterSink interface [windows Media Format]","OnHeader method","IWMWriterSink.OnHeader","IWMWriterSink::OnHeader","IWMWriterSinkOnHeader","OnHeader","OnHeader method [windows Media Format]","OnHeader method [windows Media Format]","IWMWriterSink interface","wmformat.iwmwritersink_onheader","wmsdkidl/IWMWriterSink::OnHeader"]
 old-location: wmformat\iwmwritersink_onheader.htm
 tech.root: wmformat
 ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168

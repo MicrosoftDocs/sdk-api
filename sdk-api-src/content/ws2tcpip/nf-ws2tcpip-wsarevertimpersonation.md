@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.WSARevertImpersonation
 title: WSARevertImpersonation function (ws2tcpip.h)
-description: Terminates the impersonation of a socket peer. This must be called after calling WSAImpersonateSocketPeer and finishing any access checks.helpviewer_keywords: ["WSARevertImpersonation","WSARevertImpersonation function [Winsock]","winsock.wsarevertimpersonation","ws2tcpip/WSARevertImpersonation"]
+description: Terminates the impersonation of a socket peer. This must be called after calling WSAImpersonateSocketPeer and finishing any access checks.
+helpviewer_keywords: ["WSARevertImpersonation","WSARevertImpersonation function [Winsock]","winsock.wsarevertimpersonation","ws2tcpip/WSARevertImpersonation"]
 old-location: winsock\wsarevertimpersonation.htm
 tech.root: WinSock
 ms.assetid: 7de25015-97ec-4338-846f-57df54142d65

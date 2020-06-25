@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagSCROLLINFO
 title: SCROLLINFO (winuser.h)
-description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).helpviewer_keywords: ["*LPSCROLLINFO","LPCSCROLLINFO","LPCSCROLLINFO structure pointer [Windows Controls]","SCROLLINFO","SCROLLINFO structure [Windows Controls]","SIF_ALL","SIF_DISABLENOSCROLL","SIF_PAGE","SIF_POS","SIF_RANGE","SIF_TRACKPOS","_win32_SCROLLINFO_str","_win32_SCROLLINFO_str_cpp","controls.SCROLLINFO","controls._win32_SCROLLINFO_str","winuser/LPCSCROLLINFO","winuser/SCROLLINFO"]
+description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).
+helpviewer_keywords: ["*LPSCROLLINFO","LPCSCROLLINFO","LPCSCROLLINFO structure pointer [Windows Controls]","SCROLLINFO","SCROLLINFO structure [Windows Controls]","SIF_ALL","SIF_DISABLENOSCROLL","SIF_PAGE","SIF_POS","SIF_RANGE","SIF_TRACKPOS","_win32_SCROLLINFO_str","_win32_SCROLLINFO_str_cpp","controls.SCROLLINFO","controls._win32_SCROLLINFO_str","winuser/LPCSCROLLINFO","winuser/SCROLLINFO"]
 old-location: controls\SCROLLINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm

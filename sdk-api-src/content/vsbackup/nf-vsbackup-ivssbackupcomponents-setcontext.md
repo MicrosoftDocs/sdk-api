@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetContext
 title: IVssBackupComponents::SetContext (vsbackup.h)
-description: The SetContext method sets the context for subsequent shadow copy-related operations.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetContext method","IVssBackupComponents.SetContext","IVssBackupComponents::SetContext","SetContext","SetContext method [VSS]","SetContext method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setcontext","base.ivssbackupcomponents_setcontext","vsbackup/IVssBackupComponents::SetContext"]
+description: The SetContext method sets the context for subsequent shadow copy-related operations.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetContext method","IVssBackupComponents.SetContext","IVssBackupComponents::SetContext","SetContext","SetContext method [VSS]","SetContext method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setcontext","base.ivssbackupcomponents_setcontext","vsbackup/IVssBackupComponents::SetContext"]
 old-location: base\ivssbackupcomponents_setcontext.htm
 tech.root: VSS
 ms.assetid: 0e466090-b551-44e8-a86d-75126352aa49

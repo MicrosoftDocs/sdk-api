@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.Connect
 title: IRDPSRAPIViewer::Connect (rdpencomapi.h)
-description: Starts the actual connection to the sharer.helpviewer_keywords: ["Connect","Connect method [RDP]","Connect method [RDP]","IRDPSRAPIViewer interface","IRDPSRAPIViewer interface [RDP]","Connect method","IRDPSRAPIViewer.Connect","IRDPSRAPIViewer::Connect","rdp.irdpsrapiviewer_connect","rdpencomapi/IRDPSRAPIViewer::Connect"]
+description: Starts the actual connection to the sharer.
+helpviewer_keywords: ["Connect","Connect method [RDP]","Connect method [RDP]","IRDPSRAPIViewer interface","IRDPSRAPIViewer interface [RDP]","Connect method","IRDPSRAPIViewer.Connect","IRDPSRAPIViewer::Connect","rdp.irdpsrapiviewer_connect","rdpencomapi/IRDPSRAPIViewer::Connect"]
 old-location: rdp\irdpsrapiviewer_connect.htm
 tech.root: rdp
 ms.assetid: f3deec96-af56-4ebe-a5c3-25a4c7be14c0

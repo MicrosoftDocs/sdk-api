@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.GetCurrentSelection
 title: IUIAutomationSelectionPattern::GetCurrentSelection (uiautomationclient.h)
-description: Retrieves the selected elements in the container.helpviewer_keywords: ["GetCurrentSelection","GetCurrentSelection method [Windows Accessibility]","GetCurrentSelection method [Windows Accessibility]","IUIAutomationSelectionPattern interface","IUIAutomationSelectionPattern interface [Windows Accessibility]","GetCurrentSelection method","IUIAutomationSelectionPattern.GetCurrentSelection","IUIAutomationSelectionPattern::GetCurrentSelection","uiauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection","uiauto_IUIAutomationSelectionPattern_GetCurrentSelection","uiautomationclient/IUIAutomationSelectionPattern::GetCurrentSelection","winauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection"]
+description: Retrieves the selected elements in the container.
+helpviewer_keywords: ["GetCurrentSelection","GetCurrentSelection method [Windows Accessibility]","GetCurrentSelection method [Windows Accessibility]","IUIAutomationSelectionPattern interface","IUIAutomationSelectionPattern interface [Windows Accessibility]","GetCurrentSelection method","IUIAutomationSelectionPattern.GetCurrentSelection","IUIAutomationSelectionPattern::GetCurrentSelection","uiauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection","uiauto_IUIAutomationSelectionPattern_GetCurrentSelection","uiautomationclient/IUIAutomationSelectionPattern::GetCurrentSelection","winauto.uiauto_IUIAutomationSelectionPattern_GetCurrentSelection"]
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCurrentSelection.htm
 tech.root: WinAuto
 ms.assetid: 58540e08-4415-47d1-8957-1d1c8b6d7100

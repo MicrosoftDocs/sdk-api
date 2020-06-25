@@ -1,7 +1,8 @@
 ---
 UID: NN:wbemcli.IWbemHiPerfEnum
 title: IWbemHiPerfEnum (wbemcli.h)
-description: Used in refresher operations to provide rapid access to enumerations of instance objects.helpviewer_keywords: ["IWbemHiPerfEnum","IWbemHiPerfEnum interface [Windows Management Instrumentation]","IWbemHiPerfEnum interface [Windows Management Instrumentation]","described","_hmm_iwbemhiperfenum","wbemcli/IWbemHiPerfEnum","wmi.iwbemhiperfenum"]
+description: Used in refresher operations to provide rapid access to enumerations of instance objects.
+helpviewer_keywords: ["IWbemHiPerfEnum","IWbemHiPerfEnum interface [Windows Management Instrumentation]","IWbemHiPerfEnum interface [Windows Management Instrumentation]","described","_hmm_iwbemhiperfenum","wbemcli/IWbemHiPerfEnum","wmi.iwbemhiperfenum"]
 old-location: wmi\iwbemhiperfenum.htm
 tech.root: WmiSdk
 ms.assetid: 71ce1c89-446e-4137-9857-9d3c5921e0b7

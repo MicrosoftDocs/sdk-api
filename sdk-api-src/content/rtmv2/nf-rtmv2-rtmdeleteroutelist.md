@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteList
 title: RtmDeleteRouteList function (rtmv2.h)
-description: The RtmDeleteRouteList function removes all routes from a client-specific route list, then frees any resources allocated to the list.helpviewer_keywords: ["RtmDeleteRouteList","RtmDeleteRouteList function [RAS]","_rtmv2ref_rtmdeleteroutelist","rras.rtmdeleteroutelist","rtmv2/RtmDeleteRouteList"]
+description: The RtmDeleteRouteList function removes all routes from a client-specific route list, then frees any resources allocated to the list.
+helpviewer_keywords: ["RtmDeleteRouteList","RtmDeleteRouteList function [RAS]","_rtmv2ref_rtmdeleteroutelist","rras.rtmdeleteroutelist","rtmv2/RtmDeleteRouteList"]
 old-location: rras\rtmdeleteroutelist.htm
 tech.root: RRAS
 ms.assetid: 0f8f04af-6ef6-42a7-a086-ba1706815ccb

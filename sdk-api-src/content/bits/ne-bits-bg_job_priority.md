@@ -1,7 +1,8 @@
 ---
 UID: NE:bits.BG_JOB_PRIORITY
 title: BG_JOB_PRIORITY (bits.h)
-description: Defines constants that specify the priority level of a job.helpviewer_keywords: ["BG_JOB_PRIORITY","BG_JOB_PRIORITY enumeration [BITS]","BG_JOB_PRIORITY_FOREGROUND","BG_JOB_PRIORITY_HIGH","BG_JOB_PRIORITY_LOW","BG_JOB_PRIORITY_NORMAL","_drz_bg_job_priority","bits.bg_job_priority","bits/BG_JOB_PRIORITY","bits/BG_JOB_PRIORITY_FOREGROUND","bits/BG_JOB_PRIORITY_HIGH","bits/BG_JOB_PRIORITY_LOW","bits/BG_JOB_PRIORITY_NORMAL"]
+description: Defines constants that specify the priority level of a job.
+helpviewer_keywords: ["BG_JOB_PRIORITY","BG_JOB_PRIORITY enumeration [BITS]","BG_JOB_PRIORITY_FOREGROUND","BG_JOB_PRIORITY_HIGH","BG_JOB_PRIORITY_LOW","BG_JOB_PRIORITY_NORMAL","_drz_bg_job_priority","bits.bg_job_priority","bits/BG_JOB_PRIORITY","bits/BG_JOB_PRIORITY_FOREGROUND","bits/BG_JOB_PRIORITY_HIGH","bits/BG_JOB_PRIORITY_LOW","bits/BG_JOB_PRIORITY_NORMAL"]
 old-location: bits\bg_job_priority.htm
 tech.root: Bits
 ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e

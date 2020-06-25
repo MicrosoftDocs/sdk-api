@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.TiledResourceBarrier
 title: ID3D11DeviceContext2::TiledResourceBarrier (d3d11_2.h)
-description: Specifies a data access ordering constraint between multiple tiled resources.helpviewer_keywords: ["ID3D11DeviceContext2 interface [Direct3D 11]","TiledResourceBarrier method","ID3D11DeviceContext2.TiledResourceBarrier","ID3D11DeviceContext2::TiledResourceBarrier","TiledResourceBarrier","TiledResourceBarrier method [Direct3D 11]","TiledResourceBarrier method [Direct3D 11]","ID3D11DeviceContext2 interface","d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier","direct3d11.id3d11devicecontext2_tiledresourcebarrier"]
+description: Specifies a data access ordering constraint between multiple tiled resources.
+helpviewer_keywords: ["ID3D11DeviceContext2 interface [Direct3D 11]","TiledResourceBarrier method","ID3D11DeviceContext2.TiledResourceBarrier","ID3D11DeviceContext2::TiledResourceBarrier","TiledResourceBarrier","TiledResourceBarrier method [Direct3D 11]","TiledResourceBarrier method [Direct3D 11]","ID3D11DeviceContext2 interface","d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier","direct3d11.id3d11devicecontext2_tiledresourcebarrier"]
 old-location: direct3d11\id3d11devicecontext2_tiledresourcebarrier.htm
 tech.root: direct3d11
 ms.assetid: D53A4336-53D8-4264-9A9B-B775AA026939

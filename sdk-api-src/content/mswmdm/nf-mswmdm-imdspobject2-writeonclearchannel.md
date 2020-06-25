@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPObject2.WriteOnClearChannel
 title: IMDSPObject2::WriteOnClearChannel (mswmdm.h)
-description: The WriteOnClearChannel method writes data to the object to the current position within the object, without using secure authenticated channels.helpviewer_keywords: ["IMDSPObject2 interface [windows Media Device Manager]","WriteOnClearChannel method","IMDSPObject2.WriteOnClearChannel","IMDSPObject2::WriteOnClearChannel","IMDSPObject2WriteOnClearChannel","WriteOnClearChannel","WriteOnClearChannel method [windows Media Device Manager]","WriteOnClearChannel method [windows Media Device Manager]","IMDSPObject2 interface","mswmdm/IMDSPObject2::WriteOnClearChannel","wmdm.imdspobject2_writeonclearchannel"]
+description: The WriteOnClearChannel method writes data to the object to the current position within the object, without using secure authenticated channels.
+helpviewer_keywords: ["IMDSPObject2 interface [windows Media Device Manager]","WriteOnClearChannel method","IMDSPObject2.WriteOnClearChannel","IMDSPObject2::WriteOnClearChannel","IMDSPObject2WriteOnClearChannel","WriteOnClearChannel","WriteOnClearChannel method [windows Media Device Manager]","WriteOnClearChannel method [windows Media Device Manager]","IMDSPObject2 interface","mswmdm/IMDSPObject2::WriteOnClearChannel","wmdm.imdspobject2_writeonclearchannel"]
 old-location: wmdm\imdspobject2_writeonclearchannel.htm
 tech.root: WMDM
 ms.assetid: 9c80f382-2536-4f08-9111-94ad757747f7

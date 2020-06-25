@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHUnlockShared
 title: SHUnlockShared function (shlwapi.h)
-description: SHUnlockShared may be altered or unavailable.helpviewer_keywords: ["SHUnlockShared","SHUnlockShared function [Windows Shell]","_win32_SHUnlockShared","shell.SHUnlockShared","shlwapi/SHUnlockShared"]
+description: SHUnlockShared may be altered or unavailable.
+helpviewer_keywords: ["SHUnlockShared","SHUnlockShared function [Windows Shell]","_win32_SHUnlockShared","shell.SHUnlockShared","shlwapi/SHUnlockShared"]
 old-location: shell\SHUnlockShared.htm
 tech.root: shell
 ms.assetid: 8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390

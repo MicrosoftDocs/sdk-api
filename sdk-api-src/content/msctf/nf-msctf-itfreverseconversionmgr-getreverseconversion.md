@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfReverseConversionMgr.GetReverseConversion
 title: ITfReverseConversionMgr::GetReverseConversion (msctf.h)
-description: Retrieves an ITfReverseConversion object that can perform reverse conversions.helpviewer_keywords: ["GetReverseConversion","GetReverseConversion method [Text Services Framework]","GetReverseConversion method [Text Services Framework]","ITfReverseConversionMgr interface","ITfReverseConversionMgr interface [Text Services Framework]","GetReverseConversion method","ITfReverseConversionMgr.GetReverseConversion","ITfReverseConversionMgr::GetReverseConversion","TF_RCM_COMLESS","TF_RCM_HINT_COLLISION","TF_RCM_HINT_READING_LENGTH","TF_RCM_VKEY","msctf/ITfReverseConversionMgr::GetReverseConversion","tsf.itfreverseconversionmgr_getreverseconversion"]
+description: Retrieves an ITfReverseConversion object that can perform reverse conversions.
+helpviewer_keywords: ["GetReverseConversion","GetReverseConversion method [Text Services Framework]","GetReverseConversion method [Text Services Framework]","ITfReverseConversionMgr interface","ITfReverseConversionMgr interface [Text Services Framework]","GetReverseConversion method","ITfReverseConversionMgr.GetReverseConversion","ITfReverseConversionMgr::GetReverseConversion","TF_RCM_COMLESS","TF_RCM_HINT_COLLISION","TF_RCM_HINT_READING_LENGTH","TF_RCM_VKEY","msctf/ITfReverseConversionMgr::GetReverseConversion","tsf.itfreverseconversionmgr_getreverseconversion"]
 old-location: tsf\itfreverseconversionmgr_getreverseconversion.htm
 tech.root: TSF
 ms.assetid: 959bd98f-5b97-4bb8-a62d-9adfada25746

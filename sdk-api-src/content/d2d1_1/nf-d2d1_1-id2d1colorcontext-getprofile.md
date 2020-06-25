@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1ColorContext.GetProfile
 title: ID2D1ColorContext::GetProfile (d2d1_1.h)
-description: Gets the color profile bytes for an ID2D1ColorContext.helpviewer_keywords: ["GetProfile","GetProfile method [Direct2D]","GetProfile method [Direct2D]","ID2D1ColorContext interface","ID2D1ColorContext interface [Direct2D]","GetProfile method","ID2D1ColorContext.GetProfile","ID2D1ColorContext::GetProfile","d2d1_1/ID2D1ColorContext::GetProfile","direct2d.id2d1colorcontext_getprofile"]
+description: Gets the color profile bytes for an ID2D1ColorContext.
+helpviewer_keywords: ["GetProfile","GetProfile method [Direct2D]","GetProfile method [Direct2D]","ID2D1ColorContext interface","ID2D1ColorContext interface [Direct2D]","GetProfile method","ID2D1ColorContext.GetProfile","ID2D1ColorContext::GetProfile","d2d1_1/ID2D1ColorContext::GetProfile","direct2d.id2d1colorcontext_getprofile"]
 old-location: direct2d\id2d1colorcontext_getprofile.htm
 tech.root: Direct2D
 ms.assetid: f6beae12-e02d-432b-b9d8-5e1206e3c482

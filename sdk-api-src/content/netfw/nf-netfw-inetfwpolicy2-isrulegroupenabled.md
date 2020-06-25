@@ -60,7 +60,7 @@ The <b>IsRuleGroupEnabled</b> method determines whether a specified group of fir
 
 ### -param profileTypesBitmask [in]
 
-A bitmask of profiles from <a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>.
+A bitmask of profiles from <a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>.
 
 
 ### -param group [in]

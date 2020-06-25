@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ErrorCode
 title: IOCSPCAConfiguration::get_ErrorCode (certadm.h)
-description: Gets a code that identifies an error condition in a CA configuration.helpviewer_keywords: ["ErrorCode property [Security]","ErrorCode property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","ErrorCode property","IOCSPCAConfiguration.ErrorCode","IOCSPCAConfiguration.get_ErrorCode","IOCSPCAConfiguration::ErrorCode","IOCSPCAConfiguration::get_ErrorCode","certadm/IOCSPCAConfiguration::ErrorCode","certadm/IOCSPCAConfiguration::get_ErrorCode","get_ErrorCode","security.iocspcaconfiguration_errorcode_method"]
+description: Gets a code that identifies an error condition in a CA configuration.
+helpviewer_keywords: ["ErrorCode property [Security]","ErrorCode property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","ErrorCode property","IOCSPCAConfiguration.ErrorCode","IOCSPCAConfiguration.get_ErrorCode","IOCSPCAConfiguration::ErrorCode","IOCSPCAConfiguration::get_ErrorCode","certadm/IOCSPCAConfiguration::ErrorCode","certadm/IOCSPCAConfiguration::get_ErrorCode","get_ErrorCode","security.iocspcaconfiguration_errorcode_method"]
 old-location: security\iocspcaconfiguration_errorcode_method.htm
 tech.root: SecCrypto
 ms.assetid: ef41699e-761b-454e-a759-424bb5989459

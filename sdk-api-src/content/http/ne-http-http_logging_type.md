@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_LOGGING_TYPE
 title: HTTP_LOGGING_TYPE (http.h)
-description: Defines the type of logging that is performed.helpviewer_keywords: ["*PHTTP_LOGGING_TYPE","*PHTTP_LOGGING_TYPE enumeration [HTTP]","HTTP_LOGGING_TYPE","HTTP_LOGGING_TYPE enumeration [HTTP]","HttpLoggingTypeIIS","HttpLoggingTypeNCSA","HttpLoggingTypeRaw","HttpLoggingTypeW3C","http.http_logging_type","http/*PHTTP_LOGGING_TYPE","http/HTTP_LOGGING_TYPE","http/HttpLoggingTypeIIS","http/HttpLoggingTypeNCSA","http/HttpLoggingTypeRaw","http/HttpLoggingTypeW3C"]
+description: Defines the type of logging that is performed.
+helpviewer_keywords: ["*PHTTP_LOGGING_TYPE","*PHTTP_LOGGING_TYPE enumeration [HTTP]","HTTP_LOGGING_TYPE","HTTP_LOGGING_TYPE enumeration [HTTP]","HttpLoggingTypeIIS","HttpLoggingTypeNCSA","HttpLoggingTypeRaw","HttpLoggingTypeW3C","http.http_logging_type","http/*PHTTP_LOGGING_TYPE","http/HTTP_LOGGING_TYPE","http/HttpLoggingTypeIIS","http/HttpLoggingTypeNCSA","http/HttpLoggingTypeRaw","http/HttpLoggingTypeW3C"]
 old-location: http\http_logging_type.htm
 tech.root: http
 ms.assetid: 74a32957-7305-4f2b-a509-7d6aa11d2052

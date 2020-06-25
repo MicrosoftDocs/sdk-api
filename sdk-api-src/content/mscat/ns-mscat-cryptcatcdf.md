@@ -1,7 +1,8 @@
 ---
 UID: NS:mscat.CRYPTCATCDF_
 title: CRYPTCATCDF (mscat.h)
-description: Contains information used to create a signed catalog file (.cat) from a catalog definition file (CDF).helpviewer_keywords: ["CRYPTCATCDF","CRYPTCATCDF structure [Security]","mscat/CRYPTCATCDF","security.cryptcatcdf"]
+description: Contains information used to create a signed catalog file (.cat) from a catalog definition file (CDF).
+helpviewer_keywords: ["CRYPTCATCDF","CRYPTCATCDF structure [Security]","mscat/CRYPTCATCDF","security.cryptcatcdf"]
 old-location: security\cryptcatcdf.htm
 tech.root: SecCrypto
 ms.assetid: 15d5710a-d4df-4e45-b161-5d4f7509ba29

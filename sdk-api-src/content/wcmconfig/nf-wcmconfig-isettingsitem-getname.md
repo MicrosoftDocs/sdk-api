@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetName
 title: ISettingsItem::GetName (wcmconfig.h)
-description: Gets the name of the item.helpviewer_keywords: ["GetName","GetName method [SMI]","GetName method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetName method","ISettingsItem.GetName","ISettingsItem::GetName","smi.isettingsitem_getname","wcmconfig/ISettingsItem::GetName"]
+description: Gets the name of the item.
+helpviewer_keywords: ["GetName","GetName method [SMI]","GetName method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetName method","ISettingsItem.GetName","ISettingsItem::GetName","smi.isettingsitem_getname","wcmconfig/ISettingsItem::GetName"]
 old-location: smi\isettingsitem_getname.htm
 tech.root: SMI
 ms.assetid: a8517c53-5833-4087-91eb-3eb9301e0d3a

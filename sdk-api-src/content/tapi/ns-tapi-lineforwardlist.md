@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.lineforwardlist_tag
 title: LINEFORWARDLIST (tapi.h)
-description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.helpviewer_keywords: ["*LPLINEFORWARDLIST","LINEFORWARDLIST","LINEFORWARDLIST structure [TAPI 2.2]","LPLINEFORWARDLIST","LPLINEFORWARDLIST structure pointer [TAPI 2.2]","_tapi2_lineforwardlist_str","tapi/LINEFORWARDLIST","tapi/LPLINEFORWARDLIST","tapi2.lineforwardlist_str"]
+description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.
+helpviewer_keywords: ["*LPLINEFORWARDLIST","LINEFORWARDLIST","LINEFORWARDLIST structure [TAPI 2.2]","LPLINEFORWARDLIST","LPLINEFORWARDLIST structure pointer [TAPI 2.2]","_tapi2_lineforwardlist_str","tapi/LINEFORWARDLIST","tapi/LPLINEFORWARDLIST","tapi2.lineforwardlist_str"]
 old-location: tapi2\lineforwardlist_str.htm
 tech.root: Tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a

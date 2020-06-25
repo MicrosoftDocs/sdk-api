@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_BLEND_OPERATION
 title: D2D1_BLEND_OPERATION (d2d1effectauthor.h)
-description: Specifies the blend operation on two color sources.helpviewer_keywords: ["D2D1_BLEND_OPERATION","D2D1_BLEND_OPERATION enumeration [Direct2D]","D2D1_BLEND_OPERATION_ADD","D2D1_BLEND_OPERATION_MAX","D2D1_BLEND_OPERATION_MIN","D2D1_BLEND_OPERATION_REV_SUBSTRACT","D2D1_BLEND_OPERATION_SUBTRACT","d2d1effectauthor/D2D1_BLEND_OPERATION","d2d1effectauthor/D2D1_BLEND_OPERATION_ADD","d2d1effectauthor/D2D1_BLEND_OPERATION_MAX","d2d1effectauthor/D2D1_BLEND_OPERATION_MIN","d2d1effectauthor/D2D1_BLEND_OPERATION_REV_SUBSTRACT","d2d1effectauthor/D2D1_BLEND_OPERATION_SUBTRACT","direct2d.d2d1_blend_operation"]
+description: Specifies the blend operation on two color sources.
+helpviewer_keywords: ["D2D1_BLEND_OPERATION","D2D1_BLEND_OPERATION enumeration [Direct2D]","D2D1_BLEND_OPERATION_ADD","D2D1_BLEND_OPERATION_MAX","D2D1_BLEND_OPERATION_MIN","D2D1_BLEND_OPERATION_REV_SUBSTRACT","D2D1_BLEND_OPERATION_SUBTRACT","d2d1effectauthor/D2D1_BLEND_OPERATION","d2d1effectauthor/D2D1_BLEND_OPERATION_ADD","d2d1effectauthor/D2D1_BLEND_OPERATION_MAX","d2d1effectauthor/D2D1_BLEND_OPERATION_MIN","d2d1effectauthor/D2D1_BLEND_OPERATION_REV_SUBSTRACT","d2d1effectauthor/D2D1_BLEND_OPERATION_SUBTRACT","direct2d.d2d1_blend_operation"]
 old-location: direct2d\d2d1_blend_operation.htm
 tech.root: Direct2D
 ms.assetid: 54977cf3-cca3-4a1e-a039-1ee4a8d44686

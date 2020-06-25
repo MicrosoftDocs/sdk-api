@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MonitorFromWindow
 title: MonitorFromWindow function (winuser.h)
-description: The MonitorFromWindow function retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window.helpviewer_keywords: ["MONITOR_DEFAULTTONEAREST","MONITOR_DEFAULTTONULL","MONITOR_DEFAULTTOPRIMARY","MonitorFromWindow","MonitorFromWindow function [Windows GDI]","_win32_MonitorFromWindow","gdi.monitorfromwindow","winuser/MonitorFromWindow"]
+description: The MonitorFromWindow function retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window.
+helpviewer_keywords: ["MONITOR_DEFAULTTONEAREST","MONITOR_DEFAULTTONULL","MONITOR_DEFAULTTOPRIMARY","MonitorFromWindow","MonitorFromWindow function [Windows GDI]","_win32_MonitorFromWindow","gdi.monitorfromwindow","winuser/MonitorFromWindow"]
 old-location: gdi\monitorfromwindow.htm
 tech.root: gdi
 ms.assetid: fe6505c9-b481-4fec-ae9d-995943234a3a

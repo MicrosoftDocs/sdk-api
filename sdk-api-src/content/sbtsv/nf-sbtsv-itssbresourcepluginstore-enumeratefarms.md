@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateFarms
 title: ITsSbResourcePluginStore::EnumerateFarms (sbtsv.h)
-description: Enumerates all the farms that have been added to the resource plug-in store.helpviewer_keywords: ["EnumerateFarms","EnumerateFarms method [Remote Desktop Services]","EnumerateFarms method [Remote Desktop Services]","ITsSbResourcePluginStore interface","EnumerateFarms method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","EnumerateFarms method","ITsSbResourcePluginStore.EnumerateFarms","ITsSbResourcePluginStore::EnumerateFarms","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","EnumerateFarms method","ITsSbResourcePluginStoreEx::EnumerateFarms","sbtsv/ITsSbResourcePluginStore::EnumerateFarms","sbtsv/ITsSbResourcePluginStoreEx::EnumerateFarms","termserv.itssbresourcepluginstore_enumeratefarms"]
+description: Enumerates all the farms that have been added to the resource plug-in store.
+helpviewer_keywords: ["EnumerateFarms","EnumerateFarms method [Remote Desktop Services]","EnumerateFarms method [Remote Desktop Services]","ITsSbResourcePluginStore interface","EnumerateFarms method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","EnumerateFarms method","ITsSbResourcePluginStore.EnumerateFarms","ITsSbResourcePluginStore::EnumerateFarms","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","EnumerateFarms method","ITsSbResourcePluginStoreEx::EnumerateFarms","sbtsv/ITsSbResourcePluginStore::EnumerateFarms","sbtsv/ITsSbResourcePluginStoreEx::EnumerateFarms","termserv.itssbresourcepluginstore_enumeratefarms"]
 old-location: termserv\itssbresourcepluginstore_enumeratefarms.htm
 tech.root: TermServ
 ms.assetid: 54ed82b2-531c-468b-a4d3-ad299ae1f2d8

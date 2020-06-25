@@ -1,7 +1,8 @@
 ---
 UID: NN:bdatif.IBDA_TIF_REGISTRATION
 title: IBDA_TIF_REGISTRATION (bdatif.h)
-description: The IBDA_TIF_REGISTRATION interface is exposed by the BDA Network Provider.helpviewer_keywords: ["IBDA_TIF_REGISTRATION","IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies]","IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies]","described","IBDA_TIF_REGISTRATIONInterface","bdatif/IBDA_TIF_REGISTRATION","mstv.ibda_tif_registration"]
+description: The IBDA_TIF_REGISTRATION interface is exposed by the BDA Network Provider.
+helpviewer_keywords: ["IBDA_TIF_REGISTRATION","IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies]","IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies]","described","IBDA_TIF_REGISTRATIONInterface","bdatif/IBDA_TIF_REGISTRATION","mstv.ibda_tif_registration"]
 old-location: mstv\ibda_tif_registration.htm
 tech.root: mstv
 ms.assetid: 96c76a81-57c9-4c4b-a5f6-7b9862757847

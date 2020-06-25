@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.QueryAllTracesW
 title: QueryAllTracesW function (evntrace.h)
-description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.helpviewer_keywords: ["QueryAllTraces","QueryAllTraces function [ETW]","QueryAllTracesA","QueryAllTracesW","_evt_queryalltraces","base.queryalltraces","etw.queryalltraces","evntrace/QueryAllTraces","evntrace/QueryAllTracesA","evntrace/QueryAllTracesW"]
+description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
+helpviewer_keywords: ["QueryAllTraces","QueryAllTraces function [ETW]","QueryAllTracesA","QueryAllTracesW","_evt_queryalltraces","base.queryalltraces","etw.queryalltraces","evntrace/QueryAllTraces","evntrace/QueryAllTracesA","evntrace/QueryAllTracesW"]
 old-location: etw\queryalltraces.htm
 tech.root: ETW
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
@@ -258,6 +259,10 @@ cleanup:
 
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines QueryAllTraces as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

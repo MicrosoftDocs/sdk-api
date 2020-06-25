@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.HrInit
 title: ITaskbarList::HrInit (shobjidl_core.h)
-description: Initializes the taskbar list object. This method must be called before any other ITaskbarList methods can be called.helpviewer_keywords: ["HrInit","HrInit method [Windows Shell]","HrInit method [Windows Shell]","ITaskbarList interface","ITaskbarList interface [Windows Shell]","HrInit method","ITaskbarList.HrInit","ITaskbarList::HrInit","_win32_ITaskbarList_HrInit","shell.ITaskbarList_HrInit","shobjidl_core/ITaskbarList::HrInit"]
+description: Initializes the taskbar list object. This method must be called before any other ITaskbarList methods can be called.
+helpviewer_keywords: ["HrInit","HrInit method [Windows Shell]","HrInit method [Windows Shell]","ITaskbarList interface","ITaskbarList interface [Windows Shell]","HrInit method","ITaskbarList.HrInit","ITaskbarList::HrInit","_win32_ITaskbarList_HrInit","shell.ITaskbarList_HrInit","shobjidl_core/ITaskbarList::HrInit"]
 old-location: shell\ITaskbarList_HrInit.htm
 tech.root: shell
 ms.assetid: 0344bf0b-b460-4516-88eb-09131cc9a4f8

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetContainerFormat
 title: IWICBitmapEncoder::GetContainerFormat (wincodec.h)
-description: Retrieves the encoder's container format.helpviewer_keywords: ["GetContainerFormat","GetContainerFormat method [Windows Imaging Component]","GetContainerFormat method [Windows Imaging Component]","IWICBitmapEncoder interface","IWICBitmapEncoder interface [Windows Imaging Component]","GetContainerFormat method","IWICBitmapEncoder.GetContainerFormat","IWICBitmapEncoder::GetContainerFormat","_wic_codec_iwicbitmapencoder_getcontainerformat","wic._wic_codec_iwicbitmapencoder_getcontainerformat","wincodec/IWICBitmapEncoder::GetContainerFormat"]
+description: Retrieves the encoder's container format.
+helpviewer_keywords: ["GetContainerFormat","GetContainerFormat method [Windows Imaging Component]","GetContainerFormat method [Windows Imaging Component]","IWICBitmapEncoder interface","IWICBitmapEncoder interface [Windows Imaging Component]","GetContainerFormat method","IWICBitmapEncoder.GetContainerFormat","IWICBitmapEncoder::GetContainerFormat","_wic_codec_iwicbitmapencoder_getcontainerformat","wic._wic_codec_iwicbitmapencoder_getcontainerformat","wincodec/IWICBitmapEncoder::GetContainerFormat"]
 old-location: wic\_wic_codec_iwicbitmapencoder_getcontainerformat.htm
 tech.root: wic
 ms.assetid: 2d197321-0a89-49fd-b243-1d870c178b57

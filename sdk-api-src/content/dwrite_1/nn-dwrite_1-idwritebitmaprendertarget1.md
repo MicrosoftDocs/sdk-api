@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_1.IDWriteBitmapRenderTarget1
 title: IDWriteBitmapRenderTarget1 (dwrite_1.h)
-description: Encapsulates a 32-bit device independent bitmap and device context, which you can use for rendering glyphs.helpviewer_keywords: ["IDWriteBitmapRenderTarget1","IDWriteBitmapRenderTarget1 interface [Direct Write]","IDWriteBitmapRenderTarget1 interface [Direct Write]","described","directwrite.idwritebitmaprendertarget1","dwrite_1/IDWriteBitmapRenderTarget1"]
+description: Encapsulates a 32-bit device independent bitmap and device context, which you can use for rendering glyphs.
+helpviewer_keywords: ["IDWriteBitmapRenderTarget1","IDWriteBitmapRenderTarget1 interface [Direct Write]","IDWriteBitmapRenderTarget1 interface [Direct Write]","described","directwrite.idwritebitmaprendertarget1","dwrite_1/IDWriteBitmapRenderTarget1"]
 old-location: directwrite\idwritebitmaprendertarget1.htm
 tech.root: DirectWrite
 ms.assetid: 5A7D2723-932B-4707-ABCC-0C0282FB7A56

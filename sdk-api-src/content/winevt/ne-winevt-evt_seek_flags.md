@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_SEEK_FLAGS
 title: EVT_SEEK_FLAGS (winevt.h)
-description: Defines the relative position in the result set from which to seek.helpviewer_keywords: ["EVT_SEEK_FLAGS","EVT_SEEK_FLAGS enumeration [EventLog]","EvtSeekOriginMask","EvtSeekRelativeToBookmark","EvtSeekRelativeToCurrent","EvtSeekRelativeToFirst","EvtSeekRelativeToLast","EvtSeekStrict","wes.evt_seek_flags","winevt/EVT_SEEK_FLAGS","winevt/EvtSeekOriginMask","winevt/EvtSeekRelativeToBookmark","winevt/EvtSeekRelativeToCurrent","winevt/EvtSeekRelativeToFirst","winevt/EvtSeekRelativeToLast","winevt/EvtSeekStrict"]
+description: Defines the relative position in the result set from which to seek.
+helpviewer_keywords: ["EVT_SEEK_FLAGS","EVT_SEEK_FLAGS enumeration [EventLog]","EvtSeekOriginMask","EvtSeekRelativeToBookmark","EvtSeekRelativeToCurrent","EvtSeekRelativeToFirst","EvtSeekRelativeToLast","EvtSeekStrict","wes.evt_seek_flags","winevt/EVT_SEEK_FLAGS","winevt/EvtSeekOriginMask","winevt/EvtSeekRelativeToBookmark","winevt/EvtSeekRelativeToCurrent","winevt/EvtSeekRelativeToFirst","winevt/EvtSeekRelativeToLast","winevt/EvtSeekStrict"]
 old-location: wes\evt_seek_flags.htm
 tech.root: wes
 ms.assetid: 5340815b-b94a-488b-bfa1-01dcbc15e505

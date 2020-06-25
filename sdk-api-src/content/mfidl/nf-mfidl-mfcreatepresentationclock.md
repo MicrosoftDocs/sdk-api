@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreatePresentationClock
 title: MFCreatePresentationClock function (mfidl.h)
-description: Creates the presentation clock.helpviewer_keywords: ["MFCreatePresentationClock","MFCreatePresentationClock function [Media Foundation]","b0ed3482-d127-45d3-a4de-271b1c0a199b","mf.mfcreatepresentationclock","mfidl/MFCreatePresentationClock"]
+description: Creates the presentation clock.
+helpviewer_keywords: ["MFCreatePresentationClock","MFCreatePresentationClock function [Media Foundation]","b0ed3482-d127-45d3-a4de-271b1c0a199b","mf.mfcreatepresentationclock","mfidl/MFCreatePresentationClock"]
 old-location: mf\mfcreatepresentationclock.htm
 tech.root: medfound
 ms.assetid: b0ed3482-d127-45d3-a4de-271b1c0a199b

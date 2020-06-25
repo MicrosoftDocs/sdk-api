@@ -1,7 +1,8 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessInput
 title: IMFDeviceTransform::ProcessInput (mftransform.h)
-description: The ProcessInput method delivers data to an input stream on this Media Foundation transform (MFT).helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessInput method","IMFDeviceTransform.ProcessInput","IMFDeviceTransform::ProcessInput","ProcessInput","ProcessInput method [Streaming Media Devices]","ProcessInput method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessInput","stream.imfdevicetransform_processinput"]
+description: The ProcessInput method delivers data to an input stream on this Media Foundation transform (MFT).
+helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessInput method","IMFDeviceTransform.ProcessInput","IMFDeviceTransform::ProcessInput","ProcessInput","ProcessInput method [Streaming Media Devices]","ProcessInput method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessInput","stream.imfdevicetransform_processinput"]
 old-location: stream\imfdevicetransform_processinput.htm
 tech.root: stream
 ms.assetid: EB4197BA-5963-45E7-B196-94F907637EBB

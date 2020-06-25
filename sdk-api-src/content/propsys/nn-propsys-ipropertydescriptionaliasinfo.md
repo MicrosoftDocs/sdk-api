@@ -1,7 +1,8 @@
 ---
 UID: NN:propsys.IPropertyDescriptionAliasInfo
 title: IPropertyDescriptionAliasInfo (propsys.h)
-description: Exposes methods to get the &#0034;sort by&#0034; columns properties for an item. This interface is used by UI objects that want to retrieve the primary or secondary sort columns for a given property.helpviewer_keywords: ["IPropertyDescriptionAliasInfo","IPropertyDescriptionAliasInfo interface [Windows Properties]","IPropertyDescriptionAliasInfo interface [Windows Properties]","described","_shell_IPropertyDescriptionAliasInfo","properties.IPropertyDescriptionAliasInfo","propsys/IPropertyDescriptionAliasInfo","shell.IPropertyDescriptionAliasInfo"]
+description: Exposes methods to get the &#0034;sort by&#0034; columns properties for an item. This interface is used by UI objects that want to retrieve the primary or secondary sort columns for a given property.
+helpviewer_keywords: ["IPropertyDescriptionAliasInfo","IPropertyDescriptionAliasInfo interface [Windows Properties]","IPropertyDescriptionAliasInfo interface [Windows Properties]","described","_shell_IPropertyDescriptionAliasInfo","properties.IPropertyDescriptionAliasInfo","propsys/IPropertyDescriptionAliasInfo","shell.IPropertyDescriptionAliasInfo"]
 old-location: properties\IPropertyDescriptionAliasInfo.htm
 tech.root: properties
 ms.assetid: fc9bc0d2-3c9b-4fbc-b098-462d7d253286

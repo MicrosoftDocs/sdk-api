@@ -1,7 +1,8 @@
 ---
 UID: NE:sdoias._NAMESPROPERTIES
 title: NAMESPROPERTIES (sdoias.h)
-description: The values of the NAMESPROPERTIES enumeration type enumerate properties related to the name of the user requesting network access.helpviewer_keywords: ["NAMESPROPERTIES","NAMESPROPERTIES enumeration [Network Policy Server]","PROPERTY_NAMES_REALMS","_sdo_namesproperties","nps.SDO_namesproperties","sdo.namesproperties","sdoias/NAMESPROPERTIES","sdoias/PROPERTY_NAMES_REALMS"]
+description: The values of the NAMESPROPERTIES enumeration type enumerate properties related to the name of the user requesting network access.
+helpviewer_keywords: ["NAMESPROPERTIES","NAMESPROPERTIES enumeration [Network Policy Server]","PROPERTY_NAMES_REALMS","_sdo_namesproperties","nps.SDO_namesproperties","sdo.namesproperties","sdoias/NAMESPROPERTIES","sdoias/PROPERTY_NAMES_REALMS"]
 old-location: nps\SDO_namesproperties.htm
 tech.root: Nps
 ms.assetid: c7bf7a92-9945-4f54-bf01-31abcd97dd83

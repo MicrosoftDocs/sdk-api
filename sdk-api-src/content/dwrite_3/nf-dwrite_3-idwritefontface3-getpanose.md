@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetPanose
 title: IDWriteFontFace3::GetPanose (dwrite_3.h)
-description: Gets the PANOSE values from the font, used for font selection and matching.helpviewer_keywords: ["GetPanose","GetPanose method [Direct Write]","GetPanose method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","GetPanose method","IDWriteFontFace3.GetPanose","IDWriteFontFace3::GetPanose","directwrite.idwritefontface3_getpanose","dwrite_3/IDWriteFontFace3::GetPanose"]
+description: Gets the PANOSE values from the font, used for font selection and matching.
+helpviewer_keywords: ["GetPanose","GetPanose method [Direct Write]","GetPanose method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","GetPanose method","IDWriteFontFace3.GetPanose","IDWriteFontFace3::GetPanose","directwrite.idwritefontface3_getpanose","dwrite_3/IDWriteFontFace3::GetPanose"]
 old-location: directwrite\idwritefontface3_getpanose.htm
 tech.root: DirectWrite
 ms.assetid: 977AFC97-9747-4FCE-861E-E1C40975B2E9

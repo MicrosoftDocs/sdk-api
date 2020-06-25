@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_6.IDXGIFactory7
 title: IDXGIFactory7 (dxgi1_6.h)
-description: This interface enables registration for notifications to detect adapter enumeration state changes.helpviewer_keywords: ["IDXGIFactory7","IDXGIFactory7 interface [DXGI]","IDXGIFactory7 interface [DXGI]","described","direct3ddxgi.idxgifactory7","dxgi1_6/IDXGIFactory7"]
+description: This interface enables registration for notifications to detect adapter enumeration state changes.
+helpviewer_keywords: ["IDXGIFactory7","IDXGIFactory7 interface [DXGI]","IDXGIFactory7 interface [DXGI]","described","direct3ddxgi.idxgifactory7","dxgi1_6/IDXGIFactory7"]
 old-location: direct3ddxgi\idxgifactory7.htm
 tech.root: direct3ddxgi
 ms.assetid: 6E6B4E7F-F835-4FB9-9147-3659402EFCBB

@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ILogonTrigger.put_UserId
 title: ILogonTrigger::put_UserId (taskschd.h)
-description: Gets or sets the identifier of the user.helpviewer_keywords: ["ILogonTrigger interface [Task Scheduler]","UserId property","ILogonTrigger.UserId","ILogonTrigger.put_UserId","ILogonTrigger::UserId","ILogonTrigger::get_UserId","ILogonTrigger::put_UserId","UserId property [Task Scheduler]","UserId property [Task Scheduler]","ILogonTrigger interface","put_UserId","taskschd.ilogontrigger_userid","taskschd/ILogonTrigger::UserId","taskschd/ILogonTrigger::get_UserId","taskschd/ILogonTrigger::put_UserId"]
+description: Gets or sets the identifier of the user.
+helpviewer_keywords: ["ILogonTrigger interface [Task Scheduler]","UserId property","ILogonTrigger.UserId","ILogonTrigger.put_UserId","ILogonTrigger::UserId","ILogonTrigger::get_UserId","ILogonTrigger::put_UserId","UserId property [Task Scheduler]","UserId property [Task Scheduler]","ILogonTrigger interface","put_UserId","taskschd.ilogontrigger_userid","taskschd/ILogonTrigger::UserId","taskschd/ILogonTrigger::get_UserId","taskschd/ILogonTrigger::put_UserId"]
 old-location: taskschd\ilogontrigger_userid.htm
 tech.root: taskschd
 ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba

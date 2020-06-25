@@ -1,7 +1,8 @@
 ---
 UID: NF:mergemod.IMsmMerge2.get_ConfigurableItems
 title: IMsmMerge2::get_ConfigurableItems (mergemod.h)
-description: The get_ConfigurableItems method retrieves the ConfigurableItems property of the Merge object.helpviewer_keywords: ["IMsmMerge2 interface","get_ConfigurableItems method","IMsmMerge2.get_ConfigurableItems","IMsmMerge2::get_ConfigurableItems","_msi_get_configurableitems_function","get_ConfigurableItems","get_ConfigurableItems method","get_ConfigurableItems method","IMsmMerge2 interface","mergemod/IMsmMerge2::get_ConfigurableItems","setup.imsmmerge2_get_configurableitems"]
+description: The get_ConfigurableItems method retrieves the ConfigurableItems property of the Merge object.
+helpviewer_keywords: ["IMsmMerge2 interface","get_ConfigurableItems method","IMsmMerge2.get_ConfigurableItems","IMsmMerge2::get_ConfigurableItems","_msi_get_configurableitems_function","get_ConfigurableItems","get_ConfigurableItems method","get_ConfigurableItems method","IMsmMerge2 interface","mergemod/IMsmMerge2::get_ConfigurableItems","setup.imsmmerge2_get_configurableitems"]
 old-location: setup\imsmmerge2_get_configurableitems.htm
 tech.root: Msi
 ms.assetid: c8b34ff7-6b0b-4cd9-bcb2-9d0da6b14254

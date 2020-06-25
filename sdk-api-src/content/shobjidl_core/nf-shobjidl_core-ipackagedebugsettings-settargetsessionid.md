@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.SetTargetSessionId
 title: IPackageDebugSettings::SetTargetSessionId (shobjidl_core.h)
-description: Sets the session identifier.helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","SetTargetSessionId method","IPackageDebugSettings.SetTargetSessionId","IPackageDebugSettings::SetTargetSessionId","SetTargetSessionId","SetTargetSessionId method [Windows Shell]","SetTargetSessionId method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_SetTargetSessionId","shobjidl_core/IPackageDebugSettings::SetTargetSessionId"]
+description: Sets the session identifier.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","SetTargetSessionId method","IPackageDebugSettings.SetTargetSessionId","IPackageDebugSettings::SetTargetSessionId","SetTargetSessionId","SetTargetSessionId method [Windows Shell]","SetTargetSessionId method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_SetTargetSessionId","shobjidl_core/IPackageDebugSettings::SetTargetSessionId"]
 old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm
 tech.root: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f

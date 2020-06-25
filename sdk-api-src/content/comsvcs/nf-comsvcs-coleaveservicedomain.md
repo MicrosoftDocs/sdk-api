@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.CoLeaveServiceDomain
 title: CoLeaveServiceDomain function (comsvcs.h)
-description: Used to leave code that uses COM+ services.helpviewer_keywords: ["CoLeaveServiceDomain","CoLeaveServiceDomain function [COM+]","_cos_CoLeaveServiceDomain","comsvcs/CoLeaveServiceDomain","cos.coleaveservicedomain"]
+description: Used to leave code that uses COM+ services.
+helpviewer_keywords: ["CoLeaveServiceDomain","CoLeaveServiceDomain function [COM+]","_cos_CoLeaveServiceDomain","comsvcs/CoLeaveServiceDomain","cos.coleaveservicedomain"]
 old-location: cos\coleaveservicedomain.htm
 tech.root: cossdk
 ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822

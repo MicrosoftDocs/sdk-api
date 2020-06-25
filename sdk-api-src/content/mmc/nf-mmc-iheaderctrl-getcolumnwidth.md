@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IHeaderCtrl.GetColumnWidth
 title: IHeaderCtrl::GetColumnWidth (mmc.h)
-description: Retrieves the width, in pixels, of the column.helpviewer_keywords: ["GetColumnWidth","GetColumnWidth method [MMC]","GetColumnWidth method [MMC]","IHeaderCtrl interface","IHeaderCtrl interface [MMC]","GetColumnWidth method","IHeaderCtrl.GetColumnWidth","IHeaderCtrl::GetColumnWidth","mmc.iheaderctrl_getcolumnwidth","mmc/IHeaderCtrl::GetColumnWidth"]
+description: Retrieves the width, in pixels, of the column.
+helpviewer_keywords: ["GetColumnWidth","GetColumnWidth method [MMC]","GetColumnWidth method [MMC]","IHeaderCtrl interface","IHeaderCtrl interface [MMC]","GetColumnWidth method","IHeaderCtrl.GetColumnWidth","IHeaderCtrl::GetColumnWidth","mmc.iheaderctrl_getcolumnwidth","mmc/IHeaderCtrl::GetColumnWidth"]
 old-location: mmc\iheaderctrl_getcolumnwidth.htm
 tech.root: mmc
 ms.assetid: 2F0C08F2-C7AF-4E91-A7AD-34BC19D65DC2

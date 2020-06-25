@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_DUPLICATE_HANDLE
 title: LSA_DUPLICATE_HANDLE (ntsecpkg.h)
-description: The DuplicateHandle function creates a duplicate handle. The returned duplicate is in the caller's process space.helpviewer_keywords: ["DuplicateHandle","DuplicateHandle callback function [Security]","LSA_DUPLICATE_HANDLE","LSA_DUPLICATE_HANDLE callback","_ssp_duplicatehandle","ntsecpkg/DuplicateHandle","security.duplicatehandle"]
+description: The DuplicateHandle function creates a duplicate handle. The returned duplicate is in the caller's process space.
+helpviewer_keywords: ["DuplicateHandle","DuplicateHandle callback function [Security]","LSA_DUPLICATE_HANDLE","LSA_DUPLICATE_HANDLE callback","_ssp_duplicatehandle","ntsecpkg/DuplicateHandle","security.duplicatehandle"]
 old-location: security\duplicatehandle.htm
 tech.root: SecAuthN
 ms.assetid: 1930a33c-2921-4ac1-994a-ee4686d6a66b

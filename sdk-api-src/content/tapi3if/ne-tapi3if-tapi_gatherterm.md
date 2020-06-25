@@ -1,7 +1,8 @@
 ---
 UID: NE:tapi3if.TAPI_GATHERTERM
 title: TAPI_GATHERTERM (tapi3if.h)
-description: The TAPI_GATHERTERM enum is used to describe the reasons why the TAPI Server terminated the gathering of digits on the call.helpviewer_keywords: ["TAPI_GATHERTERM","TAPI_GATHERTERM enumeration [TAPI 2.2]","TGT_BUFFERFULL","TGT_CANCEL","TGT_FIRSTTIMEOUT","TGT_INTERTIMEOUT","TGT_TERMDIGIT","_tapi3_tapi_gatherterm","tapi3.tapi_gatherterm","tapi3if/TAPI_GATHERTERM","tapi3if/TGT_BUFFERFULL","tapi3if/TGT_CANCEL","tapi3if/TGT_FIRSTTIMEOUT","tapi3if/TGT_INTERTIMEOUT","tapi3if/TGT_TERMDIGIT"]
+description: The TAPI_GATHERTERM enum is used to describe the reasons why the TAPI Server terminated the gathering of digits on the call.
+helpviewer_keywords: ["TAPI_GATHERTERM","TAPI_GATHERTERM enumeration [TAPI 2.2]","TGT_BUFFERFULL","TGT_CANCEL","TGT_FIRSTTIMEOUT","TGT_INTERTIMEOUT","TGT_TERMDIGIT","_tapi3_tapi_gatherterm","tapi3.tapi_gatherterm","tapi3if/TAPI_GATHERTERM","tapi3if/TGT_BUFFERFULL","tapi3if/TGT_CANCEL","tapi3if/TGT_FIRSTTIMEOUT","tapi3if/TGT_INTERTIMEOUT","tapi3if/TGT_TERMDIGIT"]
 old-location: tapi3\tapi_gatherterm.htm
 tech.root: Tapi
 ms.assetid: 781266db-73a3-4202-922f-5c2d13bd3009

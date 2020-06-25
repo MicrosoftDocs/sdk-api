@@ -1,7 +1,8 @@
 ---
 UID: NN:eventsys.IEventObjectChange
 title: IEventObjectChange (eventsys.h)
-description: Notifies subscribers of changes to the event store.helpviewer_keywords: ["IEventObjectChange","IEventObjectChange interface [COM+]","IEventObjectChange interface [COM+]","described","_cos_IEventObjectChange","cos.ieventobjectchange","eventsys/IEventObjectChange"]
+description: Notifies subscribers of changes to the event store.
+helpviewer_keywords: ["IEventObjectChange","IEventObjectChange interface [COM+]","IEventObjectChange interface [COM+]","described","_cos_IEventObjectChange","cos.ieventobjectchange","eventsys/IEventObjectChange"]
 old-location: cos\ieventobjectchange.htm
 tech.root: cossdk
 ms.assetid: 2e916601-e03d-4c5f-a8fb-38317cfb66ad

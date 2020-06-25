@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionDesktopDevice
 title: IDCompositionDesktopDevice (dcomp.h)
-description: An application must use the IDCompositionDesktopDevice interface in order to use DirectComposition in a Win32 desktop application.helpviewer_keywords: ["IDCompositionDesktopDevice","IDCompositionDesktopDevice interface [DirectComposition]","IDCompositionDesktopDevice interface [DirectComposition]","described","dcomp/IDCompositionDesktopDevice","directcomp.idcompositiondesktopdevice"]
+description: An application must use the IDCompositionDesktopDevice interface in order to use DirectComposition in a Win32 desktop application.
+helpviewer_keywords: ["IDCompositionDesktopDevice","IDCompositionDesktopDevice interface [DirectComposition]","IDCompositionDesktopDevice interface [DirectComposition]","described","dcomp/IDCompositionDesktopDevice","directcomp.idcompositiondesktopdevice"]
 old-location: directcomp\idcompositiondesktopdevice.htm
 tech.root: directcomp
 ms.assetid: 0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B

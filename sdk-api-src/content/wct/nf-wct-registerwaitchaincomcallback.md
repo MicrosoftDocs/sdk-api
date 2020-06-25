@@ -1,7 +1,8 @@
 ---
 UID: NF:wct.RegisterWaitChainCOMCallback
 title: RegisterWaitChainCOMCallback function (wct.h)
-description: Register COM callback functions for WCT.helpviewer_keywords: ["RegisterWaitChainCOMCallback","RegisterWaitChainCOMCallback function","base.registerwaitchaincomcallback","wct/RegisterWaitChainCOMCallback"]
+description: Register COM callback functions for WCT.
+helpviewer_keywords: ["RegisterWaitChainCOMCallback","RegisterWaitChainCOMCallback function","base.registerwaitchaincomcallback","wct/RegisterWaitChainCOMCallback"]
 old-location: base\registerwaitchaincomcallback.htm
 tech.root: Debug
 ms.assetid: f8adffa3-6e63-4fae-81e8-5f6643e988e9

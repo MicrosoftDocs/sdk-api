@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.operator uint32_t
 title: XMXDECN4::operator uint32_t (directxpackedvector.h)
-description: Returns an instance of uint32_t containing the components of the XMXDECN4instance in a packed format.helpviewer_keywords: ["DirectX::PackedVector.XMXDECN4.operator uint32_t","DirectX::PackedVector::XMXDECN4::operator uint32_t","XMXDECN4 structure [DirectX Math Support APIs]","operator uint32_t method","XMXDECN4.operator uint32_t","XMXDECN4::operator uint32_t","dxmath.xmxdecn4_operator_uint32_t","operator uint32_t","operator uint32_t method [DirectX Math Support APIs]","operator uint32_t method [DirectX Math Support APIs]","XMXDECN4 structure"]
+description: Returns an instance of uint32_t containing the components of the XMXDECN4instance in a packed format.
+helpviewer_keywords: ["DirectX::PackedVector.XMXDECN4.operator uint32_t","DirectX::PackedVector::XMXDECN4::operator uint32_t","XMXDECN4 structure [DirectX Math Support APIs]","operator uint32_t method","XMXDECN4.operator uint32_t","XMXDECN4::operator uint32_t","dxmath.xmxdecn4_operator_uint32_t","operator uint32_t","operator uint32_t method [DirectX Math Support APIs]","operator uint32_t method [DirectX Math Support APIs]","XMXDECN4 structure"]
 old-location: dxmath\xmxdecn4_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.operator uint32_t

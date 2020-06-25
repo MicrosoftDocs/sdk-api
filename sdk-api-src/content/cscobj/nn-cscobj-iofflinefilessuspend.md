@@ -1,7 +1,8 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspend
 title: IOfflineFilesSuspend (cscobj.h)
-description: Suspends or releases a share root or directory tree in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesSuspend","IOfflineFilesSuspend interface [Offline Files]","IOfflineFilesSuspend interface [Offline Files]","described","cscobj/IOfflineFilesSuspend","of.iofflinefilessuspend"]
+description: Suspends or releases a share root or directory tree in the Offline Files cache.
+helpviewer_keywords: ["IOfflineFilesSuspend","IOfflineFilesSuspend interface [Offline Files]","IOfflineFilesSuspend interface [Offline Files]","described","cscobj/IOfflineFilesSuspend","of.iofflinefilessuspend"]
 old-location: of\iofflinefilessuspend.htm
 tech.root: offlinefiles
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5

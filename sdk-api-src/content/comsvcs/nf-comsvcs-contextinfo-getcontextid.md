@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ContextInfo.GetContextId
 title: ContextInfo::GetContextId (comsvcs.h)
-description: Retrieves the unique identifier of this object context.helpviewer_keywords: ["ContextInfo interface [COM+]","GetContextId method","ContextInfo.GetContextId","ContextInfo::GetContextId","GetContextId","GetContextId method [COM+]","GetContextId method [COM+]","ContextInfo interface","_cos_ContextInfo_GetContextId","comsvcs/ContextInfo::GetContextId","cos.contextinfo_getcontextid"]
+description: Retrieves the unique identifier of this object context.
+helpviewer_keywords: ["ContextInfo interface [COM+]","GetContextId method","ContextInfo.GetContextId","ContextInfo::GetContextId","GetContextId","GetContextId method [COM+]","GetContextId method [COM+]","ContextInfo interface","_cos_ContextInfo_GetContextId","comsvcs/ContextInfo::GetContextId","cos.contextinfo_getcontextid"]
 old-location: cos\contextinfo_getcontextid.htm
 tech.root: cossdk
 ms.assetid: 92566450-8351-49e7-94e1-35a331195322

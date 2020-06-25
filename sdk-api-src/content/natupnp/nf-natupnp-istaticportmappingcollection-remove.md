@@ -1,7 +1,8 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.Remove
 title: IStaticPortMappingCollection::Remove (natupnp.h)
-description: The Remove method removes the specified port mapping from the collection.helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","Remove method","IStaticPortMappingCollection.Remove","IStaticPortMappingCollection::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","IStaticPortMappingCollection interface","_ics_istaticportmappingcollection_remove","ics.istaticportmappingcollection_remove","natupnp/IStaticPortMappingCollection::Remove"]
+description: The Remove method removes the specified port mapping from the collection.
+helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","Remove method","IStaticPortMappingCollection.Remove","IStaticPortMappingCollection::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","IStaticPortMappingCollection interface","_ics_istaticportmappingcollection_remove","ics.istaticportmappingcollection_remove","natupnp/IStaticPortMappingCollection::Remove"]
 old-location: ics\istaticportmappingcollection_remove.htm
 tech.root: ics
 ms.assetid: c82a145d-7b85-419b-b64b-36f1ac7a2631

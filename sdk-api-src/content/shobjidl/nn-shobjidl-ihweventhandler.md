@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IHWEventHandler
 title: IHWEventHandler (shobjidl.h)
-description: Called by AutoPlay to implement the handling of registered media types.helpviewer_keywords: ["IHWEventHandler","IHWEventHandler interface [Windows Shell]","IHWEventHandler interface [Windows Shell]","described","inet_IHWEventHandler","shell.IHWEventHandler","shobjidl/IHWEventHandler"]
+description: Called by AutoPlay to implement the handling of registered media types.
+helpviewer_keywords: ["IHWEventHandler","IHWEventHandler interface [Windows Shell]","IHWEventHandler interface [Windows Shell]","described","inet_IHWEventHandler","shell.IHWEventHandler","shobjidl/IHWEventHandler"]
 old-location: shell\IHWEventHandler.htm
 tech.root: shell
 ms.assetid: be49322a-99b2-4626-8e9d-29965bbe182d

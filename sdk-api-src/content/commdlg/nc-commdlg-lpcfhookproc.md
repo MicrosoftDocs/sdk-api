@@ -1,7 +1,8 @@
 ---
 UID: NC:commdlg.LPCFHOOKPROC
 title: LPCFHOOKPROC (commdlg.h)
-description: Receives messages or notifications intended for the default dialog box procedure of the Font dialog box. This is an application-defined or library-defined callback procedure that is used with the ChooseFont function.helpviewer_keywords: ["CFHookProc","LPCFHOOKPROC","LPCFHOOKPROC callback","LPCFHOOKPROC callback function [Dialog Boxes]","_win32_CFHookProc","_win32_cfhookproc_cpp","commdlg/LPCFHOOKPROC","dlgbox.cfhookproc","winui._win32_cfhookproc"]
+description: Receives messages or notifications intended for the default dialog box procedure of the Font dialog box. This is an application-defined or library-defined callback procedure that is used with the ChooseFont function.
+helpviewer_keywords: ["CFHookProc","LPCFHOOKPROC","LPCFHOOKPROC callback","LPCFHOOKPROC callback function [Dialog Boxes]","_win32_CFHookProc","_win32_cfhookproc_cpp","commdlg/LPCFHOOKPROC","dlgbox.cfhookproc","winui._win32_cfhookproc"]
 old-location: dlgbox\cfhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\cfhookproc.htm

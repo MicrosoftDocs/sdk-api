@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetDiscontinuity
 title: IAMMediaTypeSample::SetDiscontinuity (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetDiscontinuity method sets the discontinuity property.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetDiscontinuity method","IAMMediaTypeSample.SetDiscontinuity","IAMMediaTypeSample::SetDiscontinuity","IAMMediaTypeSampleSetDiscontinuity","SetDiscontinuity","SetDiscontinuity method [DirectShow]","SetDiscontinuity method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetDiscontinuity","dshow.iammediatypesample_setdiscontinuity"]
+description: Note  This interface is deprecated. New applications should not use it. The SetDiscontinuity method sets the discontinuity property.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetDiscontinuity method","IAMMediaTypeSample.SetDiscontinuity","IAMMediaTypeSample::SetDiscontinuity","IAMMediaTypeSampleSetDiscontinuity","SetDiscontinuity","SetDiscontinuity method [DirectShow]","SetDiscontinuity method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetDiscontinuity","dshow.iammediatypesample_setdiscontinuity"]
 old-location: dshow\iammediatypesample_setdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 9dcac2ce-c9a0-40be-aa86-b4acbd4d06a7

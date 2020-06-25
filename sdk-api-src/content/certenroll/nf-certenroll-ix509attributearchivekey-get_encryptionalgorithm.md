@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptionAlgorithm
 title: IX509AttributeArchiveKey::get_EncryptionAlgorithm (certenroll.h)
-description: Retrieves the object identifier (OID) of the symmetric encryption algorithm used to encrypt the private key.helpviewer_keywords: ["EncryptionAlgorithm property [Security]","EncryptionAlgorithm property [Security]","IX509AttributeArchiveKey interface","IX509AttributeArchiveKey interface [Security]","EncryptionAlgorithm property","IX509AttributeArchiveKey.EncryptionAlgorithm","IX509AttributeArchiveKey.get_EncryptionAlgorithm","IX509AttributeArchiveKey::EncryptionAlgorithm","IX509AttributeArchiveKey::get_EncryptionAlgorithm","certenroll/IX509AttributeArchiveKey::EncryptionAlgorithm","certenroll/IX509AttributeArchiveKey::get_EncryptionAlgorithm","get_EncryptionAlgorithm","security.ix509attributearchivekey_encryptionalgorithm_property"]
+description: Retrieves the object identifier (OID) of the symmetric encryption algorithm used to encrypt the private key.
+helpviewer_keywords: ["EncryptionAlgorithm property [Security]","EncryptionAlgorithm property [Security]","IX509AttributeArchiveKey interface","IX509AttributeArchiveKey interface [Security]","EncryptionAlgorithm property","IX509AttributeArchiveKey.EncryptionAlgorithm","IX509AttributeArchiveKey.get_EncryptionAlgorithm","IX509AttributeArchiveKey::EncryptionAlgorithm","IX509AttributeArchiveKey::get_EncryptionAlgorithm","certenroll/IX509AttributeArchiveKey::EncryptionAlgorithm","certenroll/IX509AttributeArchiveKey::get_EncryptionAlgorithm","get_EncryptionAlgorithm","security.ix509attributearchivekey_encryptionalgorithm_property"]
 old-location: security\ix509attributearchivekey_encryptionalgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: 7aef6c1e-c3f1-4124-b397-bf13ca610135

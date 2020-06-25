@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPHttpHeaderControl.AddRequestHeaders
 title: IUPnPHttpHeaderControl::AddRequestHeaders (upnp.h)
-description: Adds the supplied HTTP header to an HTTP request.helpviewer_keywords: ["AddRequestHeaders","AddRequestHeaders method [UPnP APIs]","AddRequestHeaders method [UPnP APIs]","IUPnPHttpHeaderControl interface","IUPnPHttpHeaderControl interface [UPnP APIs]","AddRequestHeaders method","IUPnPHttpHeaderControl.AddRequestHeaders","IUPnPHttpHeaderControl::AddRequestHeaders","upnp.iupnphttpheadercontrol_addrequestheaders","upnp/IUPnPHttpHeaderControl::AddRequestHeaders"]
+description: Adds the supplied HTTP header to an HTTP request.
+helpviewer_keywords: ["AddRequestHeaders","AddRequestHeaders method [UPnP APIs]","AddRequestHeaders method [UPnP APIs]","IUPnPHttpHeaderControl interface","IUPnPHttpHeaderControl interface [UPnP APIs]","AddRequestHeaders method","IUPnPHttpHeaderControl.AddRequestHeaders","IUPnPHttpHeaderControl::AddRequestHeaders","upnp.iupnphttpheadercontrol_addrequestheaders","upnp/IUPnPHttpHeaderControl::AddRequestHeaders"]
 old-location: upnp\iupnphttpheadercontrol_addrequestheaders.htm
 tech.root: upnp
 ms.assetid: e44f83de-eaf6-4b16-a70e-64f4daffc6b3

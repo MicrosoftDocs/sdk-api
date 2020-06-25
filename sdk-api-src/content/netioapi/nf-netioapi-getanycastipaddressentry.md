@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressEntry
 title: GetAnycastIpAddressEntry function (netioapi.h)
-description: Retrieves information for an existing anycast IP address entry on the local computer.helpviewer_keywords: ["GetAnycastIpAddressEntry","GetAnycastIpAddressEntry function [IP Helper]","iphlp.getanycastipaddressentry","netioapi/GetAnycastIpAddressEntry"]
+description: Retrieves information for an existing anycast IP address entry on the local computer.
+helpviewer_keywords: ["GetAnycastIpAddressEntry","GetAnycastIpAddressEntry function [IP Helper]","iphlp.getanycastipaddressentry","netioapi/GetAnycastIpAddressEntry"]
 old-location: iphlp\getanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: d60828ed-e1fd-4e57-92be-08a189c27fe5

@@ -1,7 +1,8 @@
 ---
 UID: NE:dxvahd._DXVAHD_SURFACE_TYPE
 title: DXVAHD_SURFACE_TYPE (dxvahd.h)
-description: Specifies the type of video surface created by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["DXVAHD_SURFACE_TYPE","DXVAHD_SURFACE_TYPE enumeration [Media Foundation]","DXVAHD_SURFACE_TYPE_VIDEO_INPUT","DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE","DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT","dxvahd/DXVAHD_SURFACE_TYPE","dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT","dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE","dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT","mf.dxvahd_surface_type"]
+description: Specifies the type of video surface created by a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+helpviewer_keywords: ["DXVAHD_SURFACE_TYPE","DXVAHD_SURFACE_TYPE enumeration [Media Foundation]","DXVAHD_SURFACE_TYPE_VIDEO_INPUT","DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE","DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT","dxvahd/DXVAHD_SURFACE_TYPE","dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT","dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_INPUT_PRIVATE","dxvahd/DXVAHD_SURFACE_TYPE_VIDEO_OUTPUT","mf.dxvahd_surface_type"]
 old-location: mf\dxvahd_surface_type.htm
 tech.root: medfound
 ms.assetid: 06df2d2f-9163-4672-8ea4-57f1942320c5

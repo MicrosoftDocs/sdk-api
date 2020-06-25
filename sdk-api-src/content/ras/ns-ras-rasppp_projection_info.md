@@ -1,7 +1,8 @@
 ---
 UID: NS:ras._RASPPP_PROJECTION_INFO
 title: RASPPP_PROJECTION_INFO (ras.h)
-description: Contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.helpviewer_keywords: ["*PRASPPP_PROJECTION_INFO","RASCCPCA_MPPC","RASCCPCA_STAC","RASCCPO_COMPRESSION","RASCCPO_ENCRYPTION128BIT","RASCCPO_ENCRYPTION40BIT","RASCCPO_ENCRYPTION40BITOLD","RASCCPO_ENCRYPTION56BIT","RASCCPO_HISTORYLESS","RASIPO_VJ","RASLCPAD_CHAP_MD5","RASLCPAD_CHAP_MS","RASLCPAD_CHAP_MSV2","RASLCPAP_CHAP","RASLCPAP_EAP","RASLCPAP_PAP","RASLCPAP_SPAP","RASLCPO_3_DES","RASLCPO_ACFC","RASLCPO_DES_56","RASLCPO_PFC","RASLCPO_SSHF","RASPPP_PROJECTION_INFO","RASPPP_PROJECTION_INFO structure [RAS]","ras/RASPPP_PROJECTION_INFO","rras.rasppp_projection_info"]
+description: Contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.
+helpviewer_keywords: ["*PRASPPP_PROJECTION_INFO","RASCCPCA_MPPC","RASCCPCA_STAC","RASCCPO_COMPRESSION","RASCCPO_ENCRYPTION128BIT","RASCCPO_ENCRYPTION40BIT","RASCCPO_ENCRYPTION40BITOLD","RASCCPO_ENCRYPTION56BIT","RASCCPO_HISTORYLESS","RASIPO_VJ","RASLCPAD_CHAP_MD5","RASLCPAD_CHAP_MS","RASLCPAD_CHAP_MSV2","RASLCPAP_CHAP","RASLCPAP_EAP","RASLCPAP_PAP","RASLCPAP_SPAP","RASLCPO_3_DES","RASLCPO_ACFC","RASLCPO_DES_56","RASLCPO_PFC","RASLCPO_SSHF","RASPPP_PROJECTION_INFO","RASPPP_PROJECTION_INFO structure [RAS]","ras/RASPPP_PROJECTION_INFO","rras.rasppp_projection_info"]
 old-location: rras\rasppp_projection_info.htm
 tech.root: RRAS
 ms.assetid: 8394b843-75f0-4bbd-9ad8-6f4b5dc4bf7b

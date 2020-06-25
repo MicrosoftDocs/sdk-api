@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.RemoveClusterGroupSetDependency
 title: RemoveClusterGroupSetDependency function (clusapi.h)
-description: Removes a groupset from a groupset's dependency expression.helpviewer_keywords: ["PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY","PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster]","RemoveClusterGroupSetDependency","RemoveClusterGroupSetDependency function [Failover Cluster]","clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY","clusapi/RemoveClusterGroupSetDependency","mscs.removeclustergroupcollectiondependency"]
+description: Removes a groupset from a groupset's dependency expression.
+helpviewer_keywords: ["PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY","PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster]","RemoveClusterGroupSetDependency","RemoveClusterGroupSetDependency function [Failover Cluster]","clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY","clusapi/RemoveClusterGroupSetDependency","mscs.removeclustergroupcollectiondependency"]
 old-location: mscs\removeclustergroupcollectiondependency.htm
 tech.root: MsCS
 ms.assetid: 1a9dcc3f-e73a-4f14-a418-b1c62a0c98c2

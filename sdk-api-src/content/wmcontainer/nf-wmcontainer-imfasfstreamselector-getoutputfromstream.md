@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputFromStream
 title: IMFASFStreamSelector::GetOutputFromStream (wmcontainer.h)
-description: Retrieves the output number associated with a stream.helpviewer_keywords: ["GetOutputFromStream","GetOutputFromStream method [Media Foundation]","GetOutputFromStream method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputFromStream method","IMFASFStreamSelector.GetOutputFromStream","IMFASFStreamSelector::GetOutputFromStream","a7ff421b-3ef3-406a-ae05-8d8bf9f4357f","mf.imfasfstreamselector_getoutputfromstream","wmcontainer/IMFASFStreamSelector::GetOutputFromStream"]
+description: Retrieves the output number associated with a stream.
+helpviewer_keywords: ["GetOutputFromStream","GetOutputFromStream method [Media Foundation]","GetOutputFromStream method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputFromStream method","IMFASFStreamSelector.GetOutputFromStream","IMFASFStreamSelector::GetOutputFromStream","a7ff421b-3ef3-406a-ae05-8d8bf9f4357f","mf.imfasfstreamselector_getoutputfromstream","wmcontainer/IMFASFStreamSelector::GetOutputFromStream"]
 old-location: mf\imfasfstreamselector_getoutputfromstream.htm
 tech.root: medfound
 ms.assetid: a7ff421b-3ef3-406a-ae05-8d8bf9f4357f

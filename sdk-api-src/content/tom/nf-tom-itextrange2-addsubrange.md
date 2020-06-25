@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.AddSubrange
 title: ITextRange2::AddSubrange (tom.h)
-description: Adds a subrange to this range.helpviewer_keywords: ["AddSubrange","AddSubrange method [Windows Controls]","AddSubrange method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","AddSubrange method","ITextRange2.AddSubrange","ITextRange2::AddSubrange","controls.itextrange2_addsubrange","tom/ITextRange2::AddSubrange"]
+description: Adds a subrange to this range.
+helpviewer_keywords: ["AddSubrange","AddSubrange method [Windows Controls]","AddSubrange method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","AddSubrange method","ITextRange2.AddSubrange","ITextRange2::AddSubrange","controls.itextrange2_addsubrange","tom/ITextRange2::AddSubrange"]
 old-location: controls\itextrange2_addsubrange.htm
 tech.root: Controls
 ms.assetid: ffd1f166-a37c-4b39-9878-a4008260f675

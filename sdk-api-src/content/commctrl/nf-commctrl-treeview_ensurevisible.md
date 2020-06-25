@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_EnsureVisible
 title: TreeView_EnsureVisible macro (commctrl.h)
-description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the TVM_ENSUREVISIBLE message explicitly.helpviewer_keywords: ["TreeView_EnsureVisible","TreeView_EnsureVisible macro [Windows Controls]","_win32_TreeView_EnsureVisible","_win32_TreeView_EnsureVisible_cpp","commctrl/TreeView_EnsureVisible","controls.TreeView_EnsureVisible","controls._win32_TreeView_EnsureVisible"]
+description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the TVM_ENSUREVISIBLE message explicitly.
+helpviewer_keywords: ["TreeView_EnsureVisible","TreeView_EnsureVisible macro [Windows Controls]","_win32_TreeView_EnsureVisible","_win32_TreeView_EnsureVisible_cpp","commctrl/TreeView_EnsureVisible","controls.TreeView_EnsureVisible","controls._win32_TreeView_EnsureVisible"]
 old-location: controls\TreeView_EnsureVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm

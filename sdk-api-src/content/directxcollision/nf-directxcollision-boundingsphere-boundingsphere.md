@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingSphere.BoundingSphere
 title: BoundingSphere::BoundingSphere
-description: Creates an instance of the BoundingSphere class.helpviewer_keywords: ["BoundingSphere::BoundingSphere"]
+description: Creates an instance of the BoundingSphere class.
+helpviewer_keywords: ["BoundingSphere::BoundingSphere"]
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::BoundingSphere
 f1_keywords:

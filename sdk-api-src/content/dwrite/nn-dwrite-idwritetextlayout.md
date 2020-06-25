@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteTextLayout
 title: IDWriteTextLayout (dwrite.h)
-description: The IDWriteTextLayout interface represents a block of text after it has been fully analyzed and formatted.helpviewer_keywords: ["IDWriteTextLayout","IDWriteTextLayout interface [Direct Write]","IDWriteTextLayout interface [Direct Write]","described","directwrite.IDWriteTextLayout","dwrite/IDWriteTextLayout"]
+description: The IDWriteTextLayout interface represents a block of text after it has been fully analyzed and formatted.
+helpviewer_keywords: ["IDWriteTextLayout","IDWriteTextLayout interface [Direct Write]","IDWriteTextLayout interface [Direct Write]","described","directwrite.IDWriteTextLayout","dwrite/IDWriteTextLayout"]
 old-location: directwrite\IDWriteTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: 0d687337-8623-4014-967c-f533072e31cc

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPolygon(IN const PointF,IN INT)
 title: GraphicsPath::AddPolygon
-description: The GraphicsPath::AddPolygon method adds a polygon to this path.helpviewer_keywords: ["GraphicsPath::AddPolygon"]
+description: The GraphicsPath::AddPolygon method adds a polygon to this path.
+helpviewer_keywords: ["GraphicsPath::AddPolygon"]
 ms.assetid: f342c271-baba-4a21-97c0-592114cd996a
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddPolygon

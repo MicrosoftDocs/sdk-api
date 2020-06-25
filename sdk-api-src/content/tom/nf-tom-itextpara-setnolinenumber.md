@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.SetNoLineNumber
 title: ITextPara::SetNoLineNumber (tom.h)
-description: Determines whether to suppress line numbering of paragraphs in a range.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetNoLineNumber method","ITextPara.SetNoLineNumber","ITextPara::SetNoLineNumber","SetNoLineNumber","SetNoLineNumber method [Windows Controls]","SetNoLineNumber method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetNoLineNumber","_win32_ITextPara_SetNoLineNumber_cpp","controls.ITextPara_SetNoLineNumber","controls._win32_ITextPara_SetNoLineNumber","tom/ITextPara::SetNoLineNumber"]
+description: Determines whether to suppress line numbering of paragraphs in a range.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetNoLineNumber method","ITextPara.SetNoLineNumber","ITextPara::SetNoLineNumber","SetNoLineNumber","SetNoLineNumber method [Windows Controls]","SetNoLineNumber method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetNoLineNumber","_win32_ITextPara_SetNoLineNumber_cpp","controls.ITextPara_SetNoLineNumber","controls._win32_ITextPara_SetNoLineNumber","tom/ITextPara::SetNoLineNumber"]
 old-location: controls\ITextPara_SetNoLineNumber.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setnolinenumber.htm

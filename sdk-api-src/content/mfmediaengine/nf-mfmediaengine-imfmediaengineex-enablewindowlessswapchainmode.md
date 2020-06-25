@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableWindowlessSwapchainMode
 title: IMFMediaEngineEx::EnableWindowlessSwapchainMode (mfmediaengine.h)
-description: Enables or disables windowless swap-chain mode.helpviewer_keywords: ["EnableWindowlessSwapchainMode","EnableWindowlessSwapchainMode method [Media Foundation]","EnableWindowlessSwapchainMode method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","EnableWindowlessSwapchainMode method","IMFMediaEngineEx.EnableWindowlessSwapchainMode","IMFMediaEngineEx::EnableWindowlessSwapchainMode","mf.imfmediaengineex_enablewindowlessswapchainmode","mfmediaengine/IMFMediaEngineEx::EnableWindowlessSwapchainMode"]
+description: Enables or disables windowless swap-chain mode.
+helpviewer_keywords: ["EnableWindowlessSwapchainMode","EnableWindowlessSwapchainMode method [Media Foundation]","EnableWindowlessSwapchainMode method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","EnableWindowlessSwapchainMode method","IMFMediaEngineEx.EnableWindowlessSwapchainMode","IMFMediaEngineEx::EnableWindowlessSwapchainMode","mf.imfmediaengineex_enablewindowlessswapchainmode","mfmediaengine/IMFMediaEngineEx::EnableWindowlessSwapchainMode"]
 old-location: mf\imfmediaengineex_enablewindowlessswapchainmode.htm
 tech.root: medfound
 ms.assetid: B93429D7-A0DF-4440-A164-C140334FC0A6

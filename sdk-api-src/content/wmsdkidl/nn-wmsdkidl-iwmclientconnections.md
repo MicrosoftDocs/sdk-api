@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMClientConnections
 title: IWMClientConnections (wmsdkidl.h)
-description: The IWMClientConnections interface manages the collecting of information about clients connected to a writer network sink object.The writer network sink object exposes this interface.helpviewer_keywords: ["IWMClientConnections","IWMClientConnections interface [windows Media Format]","IWMClientConnections interface [windows Media Format]","described","IWMClientConnectionsInterface","wmformat.iwmclientconnections","wmsdkidl/IWMClientConnections"]
+description: The IWMClientConnections interface manages the collecting of information about clients connected to a writer network sink object.The writer network sink object exposes this interface.
+helpviewer_keywords: ["IWMClientConnections","IWMClientConnections interface [windows Media Format]","IWMClientConnections interface [windows Media Format]","described","IWMClientConnectionsInterface","wmformat.iwmclientconnections","wmsdkidl/IWMClientConnections"]
 old-location: wmformat\iwmclientconnections.htm
 tech.root: wmformat
 ms.assetid: fea7cd85-22ab-4f3b-8a0a-301496f0c788

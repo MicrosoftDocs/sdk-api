@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IKsNodeControl.put_KsControl
 title: IKsNodeControl::put_KsControl (vidcap.h)
-description: Provides an instance of the IKsControl interface to the extension unit.helpviewer_keywords: ["IKsNodeControl interface [DirectShow]","put_KsControl method","IKsNodeControl.put_KsControl","IKsNodeControl::put_KsControl","IKsNodeControlput_KsControl","dshow.iksnodecontrol_put_kscontrol","put_KsControl","put_KsControl method [DirectShow]","put_KsControl method [DirectShow]","IKsNodeControl interface","vidcap/IKsNodeControl::put_KsControl"]
+description: Provides an instance of the IKsControl interface to the extension unit.
+helpviewer_keywords: ["IKsNodeControl interface [DirectShow]","put_KsControl method","IKsNodeControl.put_KsControl","IKsNodeControl::put_KsControl","IKsNodeControlput_KsControl","dshow.iksnodecontrol_put_kscontrol","put_KsControl","put_KsControl method [DirectShow]","put_KsControl method [DirectShow]","IKsNodeControl interface","vidcap/IKsNodeControl::put_KsControl"]
 old-location: dshow\iksnodecontrol_put_kscontrol.htm
 tech.root: DirectShow
 ms.assetid: 145967fc-3124-4e3b-b1ce-a381ea97cb89

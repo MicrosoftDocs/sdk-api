@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetSysColors
 title: SetSysColors function (winuser.h)
-description: Sets the colors for the specified display elements.helpviewer_keywords: ["SetSysColors","SetSysColors function [Windows and Messages]","_win32_setsyscolors","base.changing_the_colors_of_window_elements","base.setsyscolors","winmsg.setsyscolors","winui.setsyscolors","winuser/SetSysColors"]
+description: Sets the colors for the specified display elements.
+helpviewer_keywords: ["SetSysColors","SetSysColors function [Windows and Messages]","_win32_setsyscolors","base.changing_the_colors_of_window_elements","base.setsyscolors","winmsg.setsyscolors","winui.setsyscolors","winuser/SetSysColors"]
 old-location: winmsg\setsyscolors.htm
 tech.root: winmsg
 ms.assetid: 41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0

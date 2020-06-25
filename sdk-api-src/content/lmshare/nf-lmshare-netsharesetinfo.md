@@ -1,7 +1,8 @@
 ---
 UID: NF:lmshare.NetShareSetInfo
 title: NetShareSetInfo function (lmshare.h)
-description: Sets the parameters of a shared resource.helpviewer_keywords: ["1","1004","1005","1006","1501","2","502","503","NetShareSetInfo","NetShareSetInfo function [Files]","_win32_netsharesetinfo","fs.netsharesetinfo","lmshare/NetShareSetInfo","netmgmt.netsharesetinfo"]
+description: Sets the parameters of a shared resource.
+helpviewer_keywords: ["1","1004","1005","1006","1501","2","502","503","NetShareSetInfo","NetShareSetInfo function [Files]","_win32_netsharesetinfo","fs.netsharesetinfo","lmshare/NetShareSetInfo","netmgmt.netsharesetinfo"]
 old-location: fs\netsharesetinfo.htm
 tech.root: NetShare
 ms.assetid: 216b0b78-87da-4734-ad07-5ad1c9edf494

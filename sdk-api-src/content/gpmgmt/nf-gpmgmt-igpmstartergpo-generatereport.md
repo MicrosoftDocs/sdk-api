@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GenerateReport
 title: IGPMStarterGPO::GenerateReport (gpmgmt.h)
-description: Gets the report for the Starter GPO.helpviewer_keywords: ["GenerateReport","GenerateReport method [GPMC]","GenerateReport method [GPMC]","IGPMStarterGPO interface","IGPMStarterGPO interface [GPMC]","GenerateReport method","IGPMStarterGPO.GenerateReport","IGPMStarterGPO::GenerateReport","gpmc.igpmstartergpo_generatereport","gpmgmt/IGPMStarterGPO::GenerateReport"]
+description: Gets the report for the Starter GPO.
+helpviewer_keywords: ["GenerateReport","GenerateReport method [GPMC]","GenerateReport method [GPMC]","IGPMStarterGPO interface","IGPMStarterGPO interface [GPMC]","GenerateReport method","IGPMStarterGPO.GenerateReport","IGPMStarterGPO::GenerateReport","gpmc.igpmstartergpo_generatereport","gpmgmt/IGPMStarterGPO::GenerateReport"]
 old-location: gpmc\igpmstartergpo_generatereport.htm
 tech.root: gpmc
 ms.assetid: 127cde40-abe0-42da-9845-2fe1c0b1f1f1

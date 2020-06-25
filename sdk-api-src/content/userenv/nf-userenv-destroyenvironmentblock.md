@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.DestroyEnvironmentBlock
 title: DestroyEnvironmentBlock function (userenv.h)
-description: Frees environment variables created by the CreateEnvironmentBlock function.helpviewer_keywords: ["DestroyEnvironmentBlock","DestroyEnvironmentBlock function [Windows Shell]","_shell_DestroyEnvironmentBlock","shell.DestroyEnvironmentBlock","userenv/DestroyEnvironmentBlock"]
+description: Frees environment variables created by the CreateEnvironmentBlock function.
+helpviewer_keywords: ["DestroyEnvironmentBlock","DestroyEnvironmentBlock function [Windows Shell]","_shell_DestroyEnvironmentBlock","shell.DestroyEnvironmentBlock","userenv/DestroyEnvironmentBlock"]
 old-location: shell\DestroyEnvironmentBlock.htm
 tech.root: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.put_TreeScope
 title: IUIAutomationCacheRequest::put_TreeScope (uiautomationclient.h)
-description: Specifies the scope of caching.helpviewer_keywords: ["IUIAutomationCacheRequest interface [Windows Accessibility]","TreeScope property","IUIAutomationCacheRequest.TreeScope","IUIAutomationCacheRequest.put_TreeScope","IUIAutomationCacheRequest::TreeScope","IUIAutomationCacheRequest::get_TreeScope","IUIAutomationCacheRequest::put_TreeScope","TreeScope property [Windows Accessibility]","TreeScope property [Windows Accessibility]","IUIAutomationCacheRequest interface","put_TreeScope","uiauto.uiauto_IUIAutomationCacheRequest_TreeScope","uiauto_IUIAutomationCacheRequest_TreeScope","uiautomationclient/IUIAutomationCacheRequest::TreeScope","uiautomationclient/IUIAutomationCacheRequest::get_TreeScope","uiautomationclient/IUIAutomationCacheRequest::put_TreeScope","winauto.uiauto_IUIAutomationCacheRequest_TreeScope"]
+description: Specifies the scope of caching.
+helpviewer_keywords: ["IUIAutomationCacheRequest interface [Windows Accessibility]","TreeScope property","IUIAutomationCacheRequest.TreeScope","IUIAutomationCacheRequest.put_TreeScope","IUIAutomationCacheRequest::TreeScope","IUIAutomationCacheRequest::get_TreeScope","IUIAutomationCacheRequest::put_TreeScope","TreeScope property [Windows Accessibility]","TreeScope property [Windows Accessibility]","IUIAutomationCacheRequest interface","put_TreeScope","uiauto.uiauto_IUIAutomationCacheRequest_TreeScope","uiauto_IUIAutomationCacheRequest_TreeScope","uiautomationclient/IUIAutomationCacheRequest::TreeScope","uiautomationclient/IUIAutomationCacheRequest::get_TreeScope","uiautomationclient/IUIAutomationCacheRequest::put_TreeScope","winauto.uiauto_IUIAutomationCacheRequest_TreeScope"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeScope.htm
 tech.root: WinAuto
 ms.assetid: 3e45f35c-8a24-482f-acb6-9af6ce05d7fd

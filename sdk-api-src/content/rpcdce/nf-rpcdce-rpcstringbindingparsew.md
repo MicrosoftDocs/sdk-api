@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcStringBindingParseW
 title: RpcStringBindingParseW function (rpcdce.h)
-description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.helpviewer_keywords: ["RpcStringBindingParse","RpcStringBindingParse function [RPC]","RpcStringBindingParseA","RpcStringBindingParseW","_rpc_rpcstringbindingparse","rpc.rpcstringbindingparse","rpcdce/RpcStringBindingParse","rpcdce/RpcStringBindingParseA","rpcdce/RpcStringBindingParseW"]
+description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
+helpviewer_keywords: ["RpcStringBindingParse","RpcStringBindingParse function [RPC]","RpcStringBindingParseA","RpcStringBindingParseW","_rpc_rpcstringbindingparse","rpc.rpcstringbindingparse","rpcdce/RpcStringBindingParse","rpcdce/RpcStringBindingParseA","rpcdce/RpcStringBindingParseW"]
 old-location: rpc\rpcstringbindingparse.htm
 tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
@@ -176,6 +177,10 @@ If any field of the <i>StringBinding</i> parameter is empty,
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The rpcdce.h header defines RpcStringBindingParse as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

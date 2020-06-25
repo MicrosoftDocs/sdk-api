@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoollegacyapiset.DeleteTimerQueueTimer
 title: DeleteTimerQueueTimer function (threadpoollegacyapiset.h)
-description: Removes a timer from the timer queue and optionally waits for currently running timer callback functions to complete before deleting the timer.helpviewer_keywords: ["DeleteTimerQueueTimer","DeleteTimerQueueTimer function","_win32_deletetimerqueuetimer","base.deletetimerqueuetimer","threadpoollegacyapiset/DeleteTimerQueueTimer","winbase/DeleteTimerQueueTimer"]
+description: Removes a timer from the timer queue and optionally waits for currently running timer callback functions to complete before deleting the timer.
+helpviewer_keywords: ["DeleteTimerQueueTimer","DeleteTimerQueueTimer function","_win32_deletetimerqueuetimer","base.deletetimerqueuetimer","threadpoollegacyapiset/DeleteTimerQueueTimer","winbase/DeleteTimerQueueTimer"]
 old-location: base\deletetimerqueuetimer.htm
 tech.root: Sync
 ms.assetid: d830fa1f-504a-4921-865c-34dbf0256720

@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.DllRegisterServer
 title: DllRegisterServer function (olectl.h)
-description: Instructs an in-process server to create its registry entries for all classes supported in this server module.helpviewer_keywords: ["DllRegisterServer","DllRegisterServer function [COM]","_com_DllRegisterServer","com.dllregisterserver","olectl/DllRegisterServer"]
+description: Instructs an in-process server to create its registry entries for all classes supported in this server module.
+helpviewer_keywords: ["DllRegisterServer","DllRegisterServer function [COM]","_com_DllRegisterServer","com.dllregisterserver","olectl/DllRegisterServer"]
 old-location: com\dllregisterserver.htm
 tech.root: com
 ms.assetid: 4442206b-b2ad-47d7-8add-18002c44c5a2

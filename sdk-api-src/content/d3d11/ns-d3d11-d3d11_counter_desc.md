@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_COUNTER_DESC
 title: D3D11_COUNTER_DESC (d3d11.h)
-description: Describes a counter.helpviewer_keywords: ["37ab8337-bf1a-9bbe-268c-5a6aa3f34dda","D3D11_COUNTER_DESC","D3D11_COUNTER_DESC structure [Direct3D 11]","d3d11/D3D11_COUNTER_DESC","direct3d11.d3d11_counter_desc"]
+description: Describes a counter.
+helpviewer_keywords: ["37ab8337-bf1a-9bbe-268c-5a6aa3f34dda","D3D11_COUNTER_DESC","D3D11_COUNTER_DESC structure [Direct3D 11]","d3d11/D3D11_COUNTER_DESC","direct3d11.d3d11_counter_desc"]
 old-location: direct3d11\d3d11_counter_desc.htm
 tech.root: direct3d11
 ms.assetid: a0816409-fbe1-4b45-9b69-6f85b20008cb

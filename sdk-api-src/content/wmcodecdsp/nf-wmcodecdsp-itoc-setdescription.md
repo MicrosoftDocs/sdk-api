@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescription
 title: IToc::SetDescription (wmcodecdsp.h)
-description: The SetDescription method associates a description with the table of contents.helpviewer_keywords: ["IToc interface [Media Foundation]","SetDescription method","IToc.SetDescription","IToc::SetDescription","SetDescription","SetDescription method [Media Foundation]","SetDescription method [Media Foundation]","IToc interface","codecapi.itoc_setdescription","mf.itoc_setdescription","wmcodecdsp/IToc::SetDescription"]
+description: The SetDescription method associates a description with the table of contents.
+helpviewer_keywords: ["IToc interface [Media Foundation]","SetDescription method","IToc.SetDescription","IToc::SetDescription","SetDescription","SetDescription method [Media Foundation]","SetDescription method [Media Foundation]","IToc interface","codecapi.itoc_setdescription","mf.itoc_setdescription","wmcodecdsp/IToc::SetDescription"]
 old-location: mf\itoc_setdescription.htm
 tech.root: medfound
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMDECN4.XMDECN4(float,float,float,float)
 title: XMDECN4::XMDECN4(float,float,float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMDECN4 from four normalized floatarguments.helpviewer_keywords: ["XMDECN4","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 structure","XMDECN4 structure [DirectX Math Support APIs]","XMDECN4 constructor","XMDECN4.XMDECN4","XMDECN4.XMDECN4(float","float","float","float)","XMDECN4::XMDECN4","XMDECN4::XMDECN4(float","float","float","float)","dxmath.xmdecn4_ctor_3"]
+description: Initializes a new instance of XMDECN4 from four normalized floatarguments.
+helpviewer_keywords: ["XMDECN4","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 structure","XMDECN4 structure [DirectX Math Support APIs]","XMDECN4 constructor","XMDECN4.XMDECN4","XMDECN4.XMDECN4(float","float","float","float)","XMDECN4::XMDECN4","XMDECN4::XMDECN4(float","float","float","float)","dxmath.xmdecn4_ctor_3"]
 old-location: dxmath\xmdecn4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.#ctor(float,float,float,float)

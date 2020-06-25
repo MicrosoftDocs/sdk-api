@@ -1,7 +1,8 @@
 ---
 UID: NE:contentpartner.WMPTemplateSize
 title: WMPTemplateSize (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTemplateSize enumeration represents HTML template sizes.helpviewer_keywords: ["WMPTemplateSize","WMPTemplateSize enumeration [Windows Media Player]","contentpartner/WMPTemplateSize","contentpartner/wmptsLarge","contentpartner/wmptsMedium","contentpartner/wmptsSmall","enumeration [Windows Media Player]","wmp.wmptemplatesize","wmptsLarge","wmptsMedium","wmptsSmall"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTemplateSize enumeration represents HTML template sizes.
+helpviewer_keywords: ["WMPTemplateSize","WMPTemplateSize enumeration [Windows Media Player]","contentpartner/WMPTemplateSize","contentpartner/wmptsLarge","contentpartner/wmptsMedium","contentpartner/wmptsSmall","enumeration [Windows Media Player]","wmp.wmptemplatesize","wmptsLarge","wmptsMedium","wmptsSmall"]
 old-location: wmp\wmptemplatesize.htm
 tech.root: WMP
 ms.assetid: c63185a7-b2a4-4c3d-b455-220e1954a31a

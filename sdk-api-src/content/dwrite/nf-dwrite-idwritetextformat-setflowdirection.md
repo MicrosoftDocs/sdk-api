@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetFlowDirection
 title: IDWriteTextFormat::SetFlowDirection (dwrite.h)
-description: Sets the paragraph flow direction.helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetFlowDirection method","IDWriteTextFormat.SetFlowDirection","IDWriteTextFormat::SetFlowDirection","SetFlowDirection","SetFlowDirection method [Direct Write]","SetFlowDirection method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetFlowDirection","dwrite/IDWriteTextFormat::SetFlowDirection"]
+description: Sets the paragraph flow direction.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetFlowDirection method","IDWriteTextFormat.SetFlowDirection","IDWriteTextFormat::SetFlowDirection","SetFlowDirection","SetFlowDirection method [Direct Write]","SetFlowDirection method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetFlowDirection","dwrite/IDWriteTextFormat::SetFlowDirection"]
 old-location: directwrite\IDWriteTextFormat_SetFlowDirection.htm
 tech.root: DirectWrite
 ms.assetid: 0eb1648c-b565-46e8-b6db-1fcc6a66b1bd

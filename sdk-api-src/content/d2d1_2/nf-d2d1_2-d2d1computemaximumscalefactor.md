@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_2.D2D1ComputeMaximumScaleFactor
 title: D2D1ComputeMaximumScaleFactor function (d2d1_2.h)
-description: Computes the maximum factor by which a given transform can stretch any vector.helpviewer_keywords: ["D2D1ComputeMaximumScaleFactor","D2D1ComputeMaximumScaleFactor function [Direct2D]","d2d1_2/D2D1ComputeMaximumScaleFactor","direct2d.d2d1computemaximumscalefactor"]
+description: Computes the maximum factor by which a given transform can stretch any vector.
+helpviewer_keywords: ["D2D1ComputeMaximumScaleFactor","D2D1ComputeMaximumScaleFactor function [Direct2D]","d2d1_2/D2D1ComputeMaximumScaleFactor","direct2d.d2d1computemaximumscalefactor"]
 old-location: direct2d\d2d1computemaximumscalefactor.htm
 tech.root: Direct2D
 ms.assetid: 5BC10305-436F-4528-9647-E70713130505

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_PIPELINE_STATISTICS
 title: D3D11_QUERY_DATA_PIPELINE_STATISTICS (d3d11.h)
-description: Query information about graphics-pipeline activity in between calls to ID3D11DeviceContext::Begin and ID3D11DeviceContext::End.helpviewer_keywords: ["27fcfb4e-e055-458a-344a-bc41add68c29","D3D11_QUERY_DATA_PIPELINE_STATISTICS","D3D11_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 11]","d3d11/D3D11_QUERY_DATA_PIPELINE_STATISTICS","direct3d11.d3d11_query_data_pipeline_statistics"]
+description: Query information about graphics-pipeline activity in between calls to ID3D11DeviceContext::Begin and ID3D11DeviceContext::End.
+helpviewer_keywords: ["27fcfb4e-e055-458a-344a-bc41add68c29","D3D11_QUERY_DATA_PIPELINE_STATISTICS","D3D11_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 11]","d3d11/D3D11_QUERY_DATA_PIPELINE_STATISTICS","direct3d11.d3d11_query_data_pipeline_statistics"]
 old-location: direct3d11\d3d11_query_data_pipeline_statistics.htm
 tech.root: direct3d11
 ms.assetid: c8a2813e-56db-421b-ad37-d353c327a457

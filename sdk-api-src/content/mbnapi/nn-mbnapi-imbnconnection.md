@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnConnection
 title: IMbnConnection (mbnapi.h)
-description: Represents the network connectivity of a device.helpviewer_keywords: ["IMbnConnection","IMbnConnection interface [Microsoft Broadband Networks]","IMbnConnection interface [Microsoft Broadband Networks]","described","mbn.imbnconnection","mbnapi/IMbnConnection"]
+description: Represents the network connectivity of a device.
+helpviewer_keywords: ["IMbnConnection","IMbnConnection interface [Microsoft Broadband Networks]","IMbnConnection interface [Microsoft Broadband Networks]","described","mbn.imbnconnection","mbnapi/IMbnConnection"]
 old-location: mbn\imbnconnection.htm
 tech.root: mbn
 ms.assetid: dae6ce6f-2534-4799-8ed3-53cd1f2eca13

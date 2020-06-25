@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLogonErrorRedirector
 title: IWRdsProtocolConnection::GetLogonErrorRedirector (wtsprotocol.h)
-description: Retrieves an IWRdsProtocolLogonErrorRedirector interface that specifies how the protocol should handle client logon errors.helpviewer_keywords: ["GetLogonErrorRedirector","GetLogonErrorRedirector method [Remote Desktop Services]","GetLogonErrorRedirector method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetLogonErrorRedirector method","IWRdsProtocolConnection.GetLogonErrorRedirector","IWRdsProtocolConnection::GetLogonErrorRedirector","termserv.iwrdsprotocolconnection_getlogonerrorredirector","wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector"]
+description: Retrieves an IWRdsProtocolLogonErrorRedirector interface that specifies how the protocol should handle client logon errors.
+helpviewer_keywords: ["GetLogonErrorRedirector","GetLogonErrorRedirector method [Remote Desktop Services]","GetLogonErrorRedirector method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetLogonErrorRedirector method","IWRdsProtocolConnection.GetLogonErrorRedirector","IWRdsProtocolConnection::GetLogonErrorRedirector","termserv.iwrdsprotocolconnection_getlogonerrorredirector","wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector"]
 old-location: termserv\iwrdsprotocolconnection_getlogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 9613330F-B8DE-48C7-892C-FB8F50739C13

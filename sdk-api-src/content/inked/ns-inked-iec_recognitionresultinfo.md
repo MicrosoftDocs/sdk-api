@@ -1,7 +1,8 @@
 ---
 UID: NS:inked.IEC_RECOGNITIONRESULTINFO
 title: IEC_RECOGNITIONRESULTINFO (inked.h)
-description: Contains information about an IInkRecognitionResult Interface object.helpviewer_keywords: ["IEC_RECOGNITIONRESULTINFO","IEC_RECOGNITIONRESULTINFO (Win32 Only)","IEC_RECOGNITIONRESULTINFO (Win32 Only) structure [Tablet PC]","a17dd2e4-0649-4cfc-aab3-c032710480a1","inked/IEC_RECOGNITIONRESULTINFO","tablet.iec_recognitionresultinfo__win32_only_"]
+description: Contains information about an IInkRecognitionResult Interface object.
+helpviewer_keywords: ["IEC_RECOGNITIONRESULTINFO","IEC_RECOGNITIONRESULTINFO (Win32 Only)","IEC_RECOGNITIONRESULTINFO (Win32 Only) structure [Tablet PC]","a17dd2e4-0649-4cfc-aab3-c032710480a1","inked/IEC_RECOGNITIONRESULTINFO","tablet.iec_recognitionresultinfo__win32_only_"]
 old-location: tablet\iec_recognitionresultinfo__win32_only_.htm
 tech.root: tablet
 ms.assetid: a17dd2e4-0649-4cfc-aab3-c032710480a1

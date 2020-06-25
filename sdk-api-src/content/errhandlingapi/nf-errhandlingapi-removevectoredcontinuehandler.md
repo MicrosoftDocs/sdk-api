@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.RemoveVectoredContinueHandler
 title: RemoveVectoredContinueHandler function (errhandlingapi.h)
-description: Unregisters a vectored continue handler.helpviewer_keywords: ["RemoveVectoredContinueHandler","RemoveVectoredContinueHandler function","base.removevectoredcontinuehandler","errhandlingapi/RemoveVectoredContinueHandler"]
+description: Unregisters a vectored continue handler.
+helpviewer_keywords: ["RemoveVectoredContinueHandler","RemoveVectoredContinueHandler function","base.removevectoredcontinuehandler","errhandlingapi/RemoveVectoredContinueHandler"]
 old-location: base\removevectoredcontinuehandler.htm
 tech.root: Debug
 ms.assetid: aed0bb01-a0f3-49c8-9d4a-ab8ddc09fc17

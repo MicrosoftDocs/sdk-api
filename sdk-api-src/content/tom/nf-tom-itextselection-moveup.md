@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextSelection.MoveUp
 title: ITextSelection::MoveUp (tom.h)
-description: Mimics the functionality of the Up Arrow and Page Up keys.helpviewer_keywords: ["ITextSelection interface [Windows Controls]","MoveUp method","ITextSelection.MoveUp","ITextSelection::MoveUp","MoveUp","MoveUp method [Windows Controls]","MoveUp method [Windows Controls]","ITextSelection interface","_win32_ITextSelection_MoveUp","_win32_ITextSelection_MoveUp_cpp","controls.ITextSelection_MoveUp","controls._win32_ITextSelection_MoveUp","tom/ITextSelection::MoveUp"]
+description: Mimics the functionality of the Up Arrow and Page Up keys.
+helpviewer_keywords: ["ITextSelection interface [Windows Controls]","MoveUp method","ITextSelection.MoveUp","ITextSelection::MoveUp","MoveUp","MoveUp method [Windows Controls]","MoveUp method [Windows Controls]","ITextSelection interface","_win32_ITextSelection_MoveUp","_win32_ITextSelection_MoveUp_cpp","controls.ITextSelection_MoveUp","controls._win32_ITextSelection_MoveUp","tom/ITextSelection::MoveUp"]
 old-location: controls\ITextSelection_MoveUp.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm

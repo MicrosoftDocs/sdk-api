@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptDuplicateHash
 title: CryptDuplicateHash function (wincrypt.h)
-description: Makes an exact copy of a hash to the point when the duplication is done.helpviewer_keywords: ["CryptDuplicateHash","CryptDuplicateHash function [Security]","_crypto2_cryptduplicatehash","security.cryptduplicatehash","wincrypt/CryptDuplicateHash"]
+description: Makes an exact copy of a hash to the point when the duplication is done.
+helpviewer_keywords: ["CryptDuplicateHash","CryptDuplicateHash function [Security]","_crypto2_cryptduplicatehash","security.cryptduplicatehash","wincrypt/CryptDuplicateHash"]
 old-location: security\cryptduplicatehash.htm
 tech.root: SecCrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb

@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxAccountOutgoingArchive
 title: IFaxAccountOutgoingArchive (faxcomex.h)
-description: Used by a fax client application to access a specified fax account's archive of successfully sent outbound fax messages. Use this interface to retrieve messages and get the size of the archive.helpviewer_keywords: ["IFaxAccountOutgoingArchive","IFaxAccountOutgoingArchive interface [Fax Service]","IFaxAccountOutgoingArchive interface [Fax Service]","described","_mfax_faxaccountoutgoingarchive_cpp","fax._mfax_faxaccountoutgoingarchive_cpp","faxcomex/IFaxAccountOutgoingArchive"]
+description: Used by a fax client application to access a specified fax account's archive of successfully sent outbound fax messages. Use this interface to retrieve messages and get the size of the archive.
+helpviewer_keywords: ["IFaxAccountOutgoingArchive","IFaxAccountOutgoingArchive interface [Fax Service]","IFaxAccountOutgoingArchive interface [Fax Service]","described","_mfax_faxaccountoutgoingarchive_cpp","fax._mfax_faxaccountoutgoingarchive_cpp","faxcomex/IFaxAccountOutgoingArchive"]
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\faxint_ifaxaccountoutgoingarchive.htm

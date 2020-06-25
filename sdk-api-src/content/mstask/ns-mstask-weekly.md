@@ -1,7 +1,8 @@
 ---
 UID: NS:mstask._WEEKLY
 title: WEEKLY (mstask.h)
-description: Defines the interval, in weeks, between invocations of a task.helpviewer_keywords: ["TASK_FRIDAY","TASK_MONDAY","TASK_SATURDAY","TASK_SUNDAY","TASK_THURSDAY","TASK_TUESDAY","TASK_WEDNESDAY","WEEKLY","WEEKLY structure [Task Scheduler]","_msb_weekly","mstask/WEEKLY","taskschd.weekly","triggers [Task Scheduler]","structures","WEEKLY"]
+description: Defines the interval, in weeks, between invocations of a task.
+helpviewer_keywords: ["TASK_FRIDAY","TASK_MONDAY","TASK_SATURDAY","TASK_SUNDAY","TASK_THURSDAY","TASK_TUESDAY","TASK_WEDNESDAY","WEEKLY","WEEKLY structure [Task Scheduler]","_msb_weekly","mstask/WEEKLY","taskschd.weekly","triggers [Task Scheduler]","structures","WEEKLY"]
 old-location: taskschd\weekly.htm
 tech.root: taskschd
 ms.assetid: e2c14738-846c-485e-a564-d8e738ca61a2

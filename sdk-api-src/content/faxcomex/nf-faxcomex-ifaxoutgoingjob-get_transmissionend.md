@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_TransmissionEnd
 title: IFaxOutgoingJob::get_TransmissionEnd (faxcomex.h)
-description: The IFaxOutgoingJob::get_TransmissionEnd property indicates the time that the outbound fax job completed transmission.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","TransmissionEnd property","IFaxOutgoingJob.TransmissionEnd","IFaxOutgoingJob.get_TransmissionEnd","IFaxOutgoingJob::TransmissionEnd","IFaxOutgoingJob::get_TransmissionEnd","TransmissionEnd property [Fax Service]","TransmissionEnd property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.transmissionend","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionend_cpp","fax._mfax_faxoutgoingjob_transmissionend","faxcomex/IFaxOutgoingJob::TransmissionEnd","faxcomex/IFaxOutgoingJob::get_TransmissionEnd","get_TransmissionEnd"]
+description: The IFaxOutgoingJob::get_TransmissionEnd property indicates the time that the outbound fax job completed transmission.
+helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","TransmissionEnd property","IFaxOutgoingJob.TransmissionEnd","IFaxOutgoingJob.get_TransmissionEnd","IFaxOutgoingJob::TransmissionEnd","IFaxOutgoingJob::get_TransmissionEnd","TransmissionEnd property [Fax Service]","TransmissionEnd property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.transmissionend","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionend_cpp","fax._mfax_faxoutgoingjob_transmissionend","faxcomex/IFaxOutgoingJob::TransmissionEnd","faxcomex/IFaxOutgoingJob::get_TransmissionEnd","get_TransmissionEnd"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionend_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_50x0.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.FlushIpNetTable2
 title: FlushIpNetTable2 function (netioapi.h)
-description: The FlushIpNetTable2 function flushes the IP neighbor table on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","FlushIpNetTable2","FlushIpNetTable2 function [IP Helper]","iphlp.flushipnettable2","netioapi/FlushIpNetTable2"]
+description: The FlushIpNetTable2 function flushes the IP neighbor table on the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","FlushIpNetTable2","FlushIpNetTable2 function [IP Helper]","iphlp.flushipnettable2","netioapi/FlushIpNetTable2"]
 old-location: iphlp\flushipnettable2.htm
 tech.root: IpHlp
 ms.assetid: 6ebfca41-acc3-450c-a3c5-881b8c3fca5e

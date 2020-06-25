@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.AddMemoryFont
 title: PrivateFontCollection::AddMemoryFont (gdiplusheaders.h)
-description: The PrivateFontCollection::AddMemoryFont method adds a font that is contained in system memory to a Windows GDI+ font collection.helpviewer_keywords: ["AddMemoryFont","AddMemoryFont method [GDI+]","AddMemoryFont method [GDI+]","PrivateFontCollection class","PrivateFontCollection class [GDI+]","AddMemoryFont method","PrivateFontCollection.AddMemoryFont","PrivateFontCollection::AddMemoryFont","_gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_","gdiplus._gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_"]
+description: The PrivateFontCollection::AddMemoryFont method adds a font that is contained in system memory to a Windows GDI+ font collection.
+helpviewer_keywords: ["AddMemoryFont","AddMemoryFont method [GDI+]","AddMemoryFont method [GDI+]","PrivateFontCollection class","PrivateFontCollection class [GDI+]","AddMemoryFont method","PrivateFontCollection.AddMemoryFont","PrivateFontCollection::AddMemoryFont","_gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_","gdiplus._gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_"]
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollectionmethods\addmemoryfont.htm

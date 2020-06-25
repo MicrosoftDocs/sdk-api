@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyMulI8
 title: VarCyMulI8 function (oleauto.h)
-description: Multiplies a currency value by a 64-bit integer.helpviewer_keywords: ["VarCyMulI8","VarCyMulI8 function [Automation]","_oa96_VarCyMulI8","automat.varcymuli8","oleauto/VarCyMulI8"]
+description: Multiplies a currency value by a 64-bit integer.
+helpviewer_keywords: ["VarCyMulI8","VarCyMulI8 function [Automation]","_oa96_VarCyMulI8","automat.varcymuli8","oleauto/VarCyMulI8"]
 old-location: automat\varcymuli8.htm
 tech.root: automat
 ms.assetid: 52f73532-db69-4220-aed3-caedb671b935

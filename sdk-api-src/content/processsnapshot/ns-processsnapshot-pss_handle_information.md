@@ -1,7 +1,8 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_4
 title: PSS_HANDLE_INFORMATION (processsnapshot.h)
-description: Holds handle information returned by PssQuerySnapshot.helpviewer_keywords: ["PSS_HANDLE_INFORMATION","PSS_HANDLE_INFORMATION structure","proc_snap.pss_handle_information","processsnapshot/PSS_HANDLE_INFORMATION"]
+description: Holds handle information returned by PssQuerySnapshot.
+helpviewer_keywords: ["PSS_HANDLE_INFORMATION","PSS_HANDLE_INFORMATION structure","proc_snap.pss_handle_information","processsnapshot/PSS_HANDLE_INFORMATION"]
 old-location: proc_snap\pss_handle_information.htm
 tech.root: proc_snap
 ms.assetid: 77192849-D919-4947-9BFF-343C166C5A51

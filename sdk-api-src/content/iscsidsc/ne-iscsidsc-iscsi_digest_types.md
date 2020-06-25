@@ -1,7 +1,8 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_0
 title: ISCSI_DIGEST_TYPES (iscsidsc.h)
-description: ISCSI_DIGEST_TYPES enumeration indicates the digest type.helpviewer_keywords: ["*PISCSI_DIGEST_TYPES","ISCSI_DIGEST_TYPES","ISCSI_DIGEST_TYPES enumeration [iSCSI Discovery Library API]","ISCSI_DIGEST_TYPE_CRC32C","ISCSI_DIGEST_TYPE_NONE","iscsidisc.iscsi_digest_types","iscsidsc/ISCSI_DIGEST_TYPES","iscsidsc/ISCSI_DIGEST_TYPE_CRC32C","iscsidsc/ISCSI_DIGEST_TYPE_NONE"]
+description: ISCSI_DIGEST_TYPES enumeration indicates the digest type.
+helpviewer_keywords: ["*PISCSI_DIGEST_TYPES","ISCSI_DIGEST_TYPES","ISCSI_DIGEST_TYPES enumeration [iSCSI Discovery Library API]","ISCSI_DIGEST_TYPE_CRC32C","ISCSI_DIGEST_TYPE_NONE","iscsidisc.iscsi_digest_types","iscsidsc/ISCSI_DIGEST_TYPES","iscsidsc/ISCSI_DIGEST_TYPE_CRC32C","iscsidsc/ISCSI_DIGEST_TYPE_NONE"]
 old-location: iscsidisc\iscsi_digest_types.htm
 tech.root: iSCSIDisc
 ms.assetid: 7c89cc19-28ae-472f-9400-9bd8d0f10c63

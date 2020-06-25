@@ -1,7 +1,8 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_DRIVE_TYPE
 title: MC_DRIVE_TYPE (highlevelmonitorconfigurationapi.h)
-description: Specifies whether to set or get a monitor's red, green, or blue drive.helpviewer_keywords: ["MC_BLUE_DRIVE","MC_DRIVE_TYPE","MC_DRIVE_TYPE","MC_DRIVE_TYPE enumeration [Monitor Configuration]","MC_GREEN_DRIVE","MC_RED_DRIVE","highlevelmonitorconfigurationapi/MC_BLUE_DRIVE","highlevelmonitorconfigurationapi/MC_DRIVE_TYPE","highlevelmonitorconfigurationapi/MC_GREEN_DRIVE","highlevelmonitorconfigurationapi/MC_RED_DRIVE","monitor.mc_drive_type"]
+description: Specifies whether to set or get a monitor's red, green, or blue drive.
+helpviewer_keywords: ["MC_BLUE_DRIVE","MC_DRIVE_TYPE","MC_DRIVE_TYPE","MC_DRIVE_TYPE enumeration [Monitor Configuration]","MC_GREEN_DRIVE","MC_RED_DRIVE","highlevelmonitorconfigurationapi/MC_BLUE_DRIVE","highlevelmonitorconfigurationapi/MC_DRIVE_TYPE","highlevelmonitorconfigurationapi/MC_GREEN_DRIVE","highlevelmonitorconfigurationapi/MC_RED_DRIVE","monitor.mc_drive_type"]
 old-location: monitor\mc_drive_type.htm
 tech.root: Monitor
 ms.assetid: bc81d258-277d-4f69-be6c-724efcdeee56

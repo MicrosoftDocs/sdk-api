@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.ReplaceChild
 title: ID2D1SvgElement::ReplaceChild (d2d1svg.h)
-description: Replaces the oldChild element with the newChild.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","ReplaceChild method","ID2D1SvgElement.ReplaceChild","ID2D1SvgElement::ReplaceChild","ReplaceChild","ReplaceChild method [Direct2D]","ReplaceChild method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::ReplaceChild","direct2d.id2d1svgelement_replacechild"]
+description: Replaces the oldChild element with the newChild.
+helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","ReplaceChild method","ID2D1SvgElement.ReplaceChild","ID2D1SvgElement::ReplaceChild","ReplaceChild","ReplaceChild method [Direct2D]","ReplaceChild method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::ReplaceChild","direct2d.id2d1svgelement_replacechild"]
 old-location: direct2d\id2d1svgelement_replacechild.htm
 tech.root: Direct2D
 ms.assetid: BEF74F58-D218-46CA-AE02-F15DDAC48FB4

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyFile2.SetRemoteName
 title: IBackgroundCopyFile2::SetRemoteName (bits2_0.h)
-description: Changes the remote name to a new URL in a download job.helpviewer_keywords: ["IBackgroundCopyFile2 interface [BITS]","SetRemoteName method","IBackgroundCopyFile2.SetRemoteName","IBackgroundCopyFile2::SetRemoteName","SetRemoteName","SetRemoteName method [BITS]","SetRemoteName method [BITS]","IBackgroundCopyFile2 interface","bits.ibackgroundcopyfile2_setremotename","bits2_0/IBackgroundCopyFile2::SetRemoteName"]
+description: Changes the remote name to a new URL in a download job.
+helpviewer_keywords: ["IBackgroundCopyFile2 interface [BITS]","SetRemoteName method","IBackgroundCopyFile2.SetRemoteName","IBackgroundCopyFile2::SetRemoteName","SetRemoteName","SetRemoteName method [BITS]","SetRemoteName method [BITS]","IBackgroundCopyFile2 interface","bits.ibackgroundcopyfile2_setremotename","bits2_0/IBackgroundCopyFile2::SetRemoteName"]
 old-location: bits\ibackgroundcopyfile2_setremotename.htm
 tech.root: Bits
 ms.assetid: 6dd33b7d-4317-4eb5-aae4-83d3f4416bf9

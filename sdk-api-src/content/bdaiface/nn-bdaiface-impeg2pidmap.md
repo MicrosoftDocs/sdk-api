@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IMPEG2PIDMap
 title: IMPEG2PIDMap (bdaiface.h)
-description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in transport stream mode only.helpviewer_keywords: ["IMPEG2PIDMap","IMPEG2PIDMap interface [DirectShow]","IMPEG2PIDMap interface [DirectShow]","described","IMPEG2PIDMapInterface","bdaiface/IMPEG2PIDMap","dshow.impeg2pidmap"]
+description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in transport stream mode only.
+helpviewer_keywords: ["IMPEG2PIDMap","IMPEG2PIDMap interface [DirectShow]","IMPEG2PIDMap interface [DirectShow]","described","IMPEG2PIDMapInterface","bdaiface/IMPEG2PIDMap","dshow.impeg2pidmap"]
 old-location: dshow\impeg2pidmap.htm
 tech.root: DirectShow
 ms.assetid: 45c09a02-7da8-460a-9a64-f012c2181b94

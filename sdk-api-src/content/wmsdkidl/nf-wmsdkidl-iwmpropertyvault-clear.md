@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.Clear
 title: IWMPropertyVault::Clear (wmsdkidl.h)
-description: The Clear method removes all items from the property vault.helpviewer_keywords: ["Clear","Clear method [windows Media Format]","Clear method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","Clear method","IWMPropertyVault.Clear","IWMPropertyVault::Clear","IWMPropertyVaultClear","wmformat.iwmpropertyvault_clear","wmsdkidl/IWMPropertyVault::Clear"]
+description: The Clear method removes all items from the property vault.
+helpviewer_keywords: ["Clear","Clear method [windows Media Format]","Clear method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","Clear method","IWMPropertyVault.Clear","IWMPropertyVault::Clear","IWMPropertyVaultClear","wmformat.iwmpropertyvault_clear","wmsdkidl/IWMPropertyVault::Clear"]
 old-location: wmformat\iwmpropertyvault_clear.htm
 tech.root: wmformat
 ms.assetid: 567d69f3-cebf-4bb7-84df-c843cfc928a5

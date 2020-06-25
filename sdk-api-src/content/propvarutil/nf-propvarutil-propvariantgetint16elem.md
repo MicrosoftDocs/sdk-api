@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantGetInt16Elem
 title: PropVariantGetInt16Elem function (propvarutil.h)
-description: Extracts a single Int16 element from a PROPVARIANT structure of type VT_I2, VT_VECTOR | VT_I2, or VT_ARRAY | VT_I2.helpviewer_keywords: ["PropVariantGetInt16Elem","PropVariantGetInt16Elem function [Windows Properties]","_shell_PropVariantGetInt16Elem","properties.PropVariantGetInt16Elem","propvarutil/PropVariantGetInt16Elem","shell.PropVariantGetInt16Elem"]
+description: Extracts a single Int16 element from a PROPVARIANT structure of type VT_I2, VT_VECTOR | VT_I2, or VT_ARRAY | VT_I2.
+helpviewer_keywords: ["PropVariantGetInt16Elem","PropVariantGetInt16Elem function [Windows Properties]","_shell_PropVariantGetInt16Elem","properties.PropVariantGetInt16Elem","propvarutil/PropVariantGetInt16Elem","shell.PropVariantGetInt16Elem"]
 old-location: properties\PropVariantGetInt16Elem.htm
 tech.root: properties
 ms.assetid: 1dbb6887-81c9-411d-9fce-c9e2f3479a43

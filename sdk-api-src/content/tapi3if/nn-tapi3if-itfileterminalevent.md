@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITFileTerminalEvent
 title: ITFileTerminalEvent (tapi3if.h)
-description: The ITFileTerminalEvent interface contains methods that retrieve the description of file terminal events that have occurred.helpviewer_keywords: ["ITFileTerminalEvent","ITFileTerminalEvent interface [TAPI 2.2]","ITFileTerminalEvent interface [TAPI 2.2]","described","_tapi3_itfileterminalevent","tapi3.itfileterminalevent","tapi3if/ITFileTerminalEvent"]
+description: The ITFileTerminalEvent interface contains methods that retrieve the description of file terminal events that have occurred.
+helpviewer_keywords: ["ITFileTerminalEvent","ITFileTerminalEvent interface [TAPI 2.2]","ITFileTerminalEvent interface [TAPI 2.2]","described","_tapi3_itfileterminalevent","tapi3.itfileterminalevent","tapi3if/ITFileTerminalEvent"]
 old-location: tapi3\itfileterminalevent.htm
 tech.root: Tapi
 ms.assetid: cb6f2869-ec31-49ac-873b-35a0dcd2c8d7

@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymEnumSourceLinesW
 title: SymEnumSourceLinesW function (dbghelp.h)
-description: Enumerates all source lines in a module.helpviewer_keywords: ["SymEnumSourceLines","SymEnumSourceLines function","SymEnumSourceLinesW","base.symenumsourcelines","dbghelp/SymEnumSourceLines","dbghelp/SymEnumSourceLinesW"]
+description: Enumerates all source lines in a module.
+helpviewer_keywords: ["SymEnumSourceLines","SymEnumSourceLines function","SymEnumSourceLinesW","base.symenumsourcelines","dbghelp/SymEnumSourceLines","dbghelp/SymEnumSourceLinesW"]
 old-location: base\symenumsourcelines.htm
 tech.root: Debug
 ms.assetid: 395dd97b-4d0b-4f55-80af-38fc748c924a
@@ -122,6 +123,10 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymEnumSourceLines as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

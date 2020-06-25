@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyFlags
 title: IBackgroundCopyJob::GetNotifyFlags (bits.h)
-description: Retrieves the event notification flags for the job.helpviewer_keywords: ["BG_NOTIFY_DISABLE","BG_NOTIFY_JOB_ERROR","BG_NOTIFY_JOB_MODIFICATION","BG_NOTIFY_JOB_TRANSFERRED","GetNotifyFlags","GetNotifyFlags method [BITS]","GetNotifyFlags method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetNotifyFlags method","IBackgroundCopyJob.GetNotifyFlags","IBackgroundCopyJob::GetNotifyFlags","_drz_ibackgroundcopyjob_getnotifyflags","bits.ibackgroundcopyjob_getnotifyflags","bits/IBackgroundCopyJob::GetNotifyFlags"]
+description: Retrieves the event notification flags for the job.
+helpviewer_keywords: ["BG_NOTIFY_DISABLE","BG_NOTIFY_JOB_ERROR","BG_NOTIFY_JOB_MODIFICATION","BG_NOTIFY_JOB_TRANSFERRED","GetNotifyFlags","GetNotifyFlags method [BITS]","GetNotifyFlags method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetNotifyFlags method","IBackgroundCopyJob.GetNotifyFlags","IBackgroundCopyJob::GetNotifyFlags","_drz_ibackgroundcopyjob_getnotifyflags","bits.ibackgroundcopyjob_getnotifyflags","bits/IBackgroundCopyJob::GetNotifyFlags"]
 old-location: bits\ibackgroundcopyjob_getnotifyflags.htm
 tech.root: Bits
 ms.assetid: a4407816-a4c5-4734-9686-46d5a8133c2f

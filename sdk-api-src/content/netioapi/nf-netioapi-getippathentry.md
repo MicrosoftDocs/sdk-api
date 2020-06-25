@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetIpPathEntry
 title: GetIpPathEntry function (netioapi.h)
-description: Retrieves information for a IP path entry on the local computer.helpviewer_keywords: ["GetIpPathEntry","GetIpPathEntry function [IP Helper]","iphlp.getippathentry","netioapi/GetIpPathEntry"]
+description: Retrieves information for a IP path entry on the local computer.
+helpviewer_keywords: ["GetIpPathEntry","GetIpPathEntry function [IP Helper]","iphlp.getippathentry","netioapi/GetIpPathEntry"]
 old-location: iphlp\getippathentry.htm
 tech.root: IpHlp
 ms.assetid: 8ad43a1d-428a-41cc-bba8-5eec7f87c11f

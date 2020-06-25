@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioning
 title: ITsSbProvisioning (sbtsv.h)
-description: Exposes methods that create and maintain virtual machines.helpviewer_keywords: ["ITsSbProvisioning","ITsSbProvisioning interface [Remote Desktop Services]","ITsSbProvisioning interface [Remote Desktop Services]","described","sbtsv/ITsSbProvisioning","termserv.itssbprovisioning"]
+description: Exposes methods that create and maintain virtual machines.
+helpviewer_keywords: ["ITsSbProvisioning","ITsSbProvisioning interface [Remote Desktop Services]","ITsSbProvisioning interface [Remote Desktop Services]","described","sbtsv/ITsSbProvisioning","termserv.itssbprovisioning"]
 old-location: termserv\itssbprovisioning.htm
 tech.root: TermServ
 ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a

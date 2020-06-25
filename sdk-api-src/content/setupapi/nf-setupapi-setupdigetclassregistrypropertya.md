@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassRegistryPropertyA
 title: SetupDiGetClassRegistryPropertyA function (setupapi.h)
-description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry.helpviewer_keywords: ["SetupDiGetClassRegistryProperty","SetupDiGetClassRegistryProperty function [Device and Driver Installation]","SetupDiGetClassRegistryPropertyA","SetupDiGetClassRegistryPropertyW","devinst.setupdigetclassregistryproperty","di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml","setupapi/SetupDiGetClassRegistryProperty"]
+description: The SetupDiGetClassRegistryProperty function retrieves a property for a specified device setup class from the registry.
+helpviewer_keywords: ["SetupDiGetClassRegistryProperty","SetupDiGetClassRegistryProperty function [Device and Driver Installation]","SetupDiGetClassRegistryPropertyA","SetupDiGetClassRegistryPropertyW","devinst.setupdigetclassregistryproperty","di-rtns_98a6c47a-6fb5-4752-9f0e-23ad00f4e5f2.xml","setupapi/SetupDiGetClassRegistryProperty"]
 old-location: devinst\setupdigetclassregistryproperty.htm
 tech.root: devinst
 ms.assetid: 79a600af-15c1-4afc-a2cd-568b97d979dc
@@ -168,4 +169,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetClassRegistryProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

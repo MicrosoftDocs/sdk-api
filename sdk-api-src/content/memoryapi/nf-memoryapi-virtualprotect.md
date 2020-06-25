@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.VirtualProtect
 title: VirtualProtect function (memoryapi.h)
-description: Changes the protection on a region of committed pages in the virtual address space of the calling process.helpviewer_keywords: ["VirtualProtect","VirtualProtect function","_win32_virtualprotect","base.virtualprotect","winbase/VirtualProtect"]
+description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
+helpviewer_keywords: ["VirtualProtect","VirtualProtect function","_win32_virtualprotect","base.virtualprotect","winbase/VirtualProtect"]
 old-location: base\virtualprotect.htm
 tech.root: Memory
 ms.assetid: a0018bba-226b-4c18-8ea4-15e69524db11

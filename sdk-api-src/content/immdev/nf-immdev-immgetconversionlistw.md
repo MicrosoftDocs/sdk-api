@@ -1,7 +1,8 @@
 ---
 UID: NF:immdev.ImmGetConversionListW
 title: ImmGetConversionListW function (immdev.h)
-description: Retrieves the conversion result list of characters or words without generating any IME-related messages.helpviewer_keywords: ["GCL_CONVERSION","GCL_REVERSECONVERSION","GCL_REVERSE_LENGTH","ImmGetConversionList","ImmGetConversionList function [Internationalization for Windows Applications]","ImmGetConversionListA","ImmGetConversionListW","_win32_ImmGetConversionList","imm/ImmGetConversionList","imm/ImmGetConversionListA","imm/ImmGetConversionListW","intl.immgetconversionlist"]
+description: Retrieves the conversion result list of characters or words without generating any IME-related messages.
+helpviewer_keywords: ["GCL_CONVERSION","GCL_REVERSECONVERSION","GCL_REVERSE_LENGTH","ImmGetConversionList","ImmGetConversionList function [Internationalization for Windows Applications]","ImmGetConversionListA","ImmGetConversionListW","_win32_ImmGetConversionList","imm/ImmGetConversionList","imm/ImmGetConversionListA","imm/ImmGetConversionListW","intl.immgetconversionlist"]
 old-location: intl\immgetconversionlist.htm
 tech.root: Intl
 ms.assetid: c38547fa-b9d8-41a0-8d73-21056212b775
@@ -153,4 +154,9 @@ Returns the number of bytes copied to the output buffer. If the application sets
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The immdev.h header defines ImmGetConversionList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:pnrpns._PNRPINFO_V1
 title: PNRPINFO_V1 (pnrpns.h)
-description: The PNRPINFO_V1 structure is pointed to by the lpBlob member of the WSAQUERYSET structure.helpviewer_keywords: ["*PPNRPINFO_V1","PNRPINFO","PNRPINFO structure [Peer Networking]","PNRPINFO_V1","PNRPINFO_V1 structure [Peer Networking]","PPNRPINFO","PPNRPINFO structure pointer [Peer Networking]","PPNRPINFO_V1","PPNRPINFO_V1 structure pointer [Peer Networking]","p2p.pnrpinfo","pnrpns/PNRPINFO","pnrpns/PNRPINFO_V1","pnrpns/PPNRPINFO","pnrpns/PPNRPINFO_V1"]
+description: The PNRPINFO_V1 structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
+helpviewer_keywords: ["*PPNRPINFO_V1","PNRPINFO","PNRPINFO structure [Peer Networking]","PNRPINFO_V1","PNRPINFO_V1 structure [Peer Networking]","PPNRPINFO","PPNRPINFO structure pointer [Peer Networking]","PPNRPINFO_V1","PPNRPINFO_V1 structure pointer [Peer Networking]","p2p.pnrpinfo","pnrpns/PNRPINFO","pnrpns/PNRPINFO_V1","pnrpns/PPNRPINFO","pnrpns/PPNRPINFO_V1"]
 old-location: p2p\pnrpinfo.htm
 tech.root: P2PSdk
 ms.assetid: 02031191-3682-45f6-a6c5-8546153bc681

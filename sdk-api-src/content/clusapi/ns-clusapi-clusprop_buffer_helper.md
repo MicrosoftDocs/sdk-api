@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_BUFFER_HELPER
 title: CLUSPROP_BUFFER_HELPER (clusapi.h)
-description: Used to build or parse a property list or, a value list.helpviewer_keywords: ["*PCLUSPROP_BUFFER_HELPER","CLUSPROP_BUFFER_HELPER","CLUSPROP_BUFFER_HELPER union [Failover Cluster]","PCLUSPROP_BUFFER_HELPER","PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster]","_wolf_clusprop_buffer_helper","clusapi/CLUSPROP_BUFFER_HELPER","clusapi/PCLUSPROP_BUFFER_HELPER","mscs.clusprop_buffer_helper"]
+description: Used to build or parse a property list or, a value list.
+helpviewer_keywords: ["*PCLUSPROP_BUFFER_HELPER","CLUSPROP_BUFFER_HELPER","CLUSPROP_BUFFER_HELPER union [Failover Cluster]","PCLUSPROP_BUFFER_HELPER","PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster]","_wolf_clusprop_buffer_helper","clusapi/CLUSPROP_BUFFER_HELPER","clusapi/PCLUSPROP_BUFFER_HELPER","mscs.clusprop_buffer_helper"]
 old-location: mscs\clusprop_buffer_helper.htm
 tech.root: MsCS
 ms.assetid: a2b706a0-76fe-4757-b76b-96cb6708bb61

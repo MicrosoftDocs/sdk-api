@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPMedia
 title: IWMPMedia (wmp.h)
-description: Use the IWMPMedia interface to set and retrieve the properties of a media item.helpviewer_keywords: ["IWMPMedia","IWMPMedia interface [Windows Media Player]","IWMPMedia interface [Windows Media Player]","described","IWMPMediaInterface","wmp.iwmpmedia","wmp/IWMPMedia"]
+description: Use the IWMPMedia interface to set and retrieve the properties of a media item.
+helpviewer_keywords: ["IWMPMedia","IWMPMedia interface [Windows Media Player]","IWMPMedia interface [Windows Media Player]","described","IWMPMediaInterface","wmp.iwmpmedia","wmp/IWMPMedia"]
 old-location: wmp\iwmpmedia.htm
 tech.root: WMP
 ms.assetid: 2311067c-b731-47d2-880d-73870fee7694

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.SetRightIndent
 title: ITextPara::SetRightIndent (tom.h)
-description: Sets the right margin of paragraph.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetRightIndent method","ITextPara.SetRightIndent","ITextPara::SetRightIndent","SetRightIndent","SetRightIndent method [Windows Controls]","SetRightIndent method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetRightIndent","_win32_ITextPara_SetRightIndent_cpp","controls.ITextPara_SetRightIndent","controls._win32_ITextPara_SetRightIndent","tom/ITextPara::SetRightIndent"]
+description: Sets the right margin of paragraph.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetRightIndent method","ITextPara.SetRightIndent","ITextPara::SetRightIndent","SetRightIndent","SetRightIndent method [Windows Controls]","SetRightIndent method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetRightIndent","_win32_ITextPara_SetRightIndent_cpp","controls.ITextPara_SetRightIndent","controls._win32_ITextPara_SetRightIndent","tom/ITextPara::SetRightIndent"]
 old-location: controls\ITextPara_SetRightIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrightindent.htm

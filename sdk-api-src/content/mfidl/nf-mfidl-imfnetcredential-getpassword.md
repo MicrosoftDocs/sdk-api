@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetPassword
 title: IMFNetCredential::GetPassword (mfidl.h)
-description: Retrieves the password.helpviewer_keywords: ["GetPassword","GetPassword method [Media Foundation]","GetPassword method [Media Foundation]","IMFNetCredential interface","IMFNetCredential interface [Media Foundation]","GetPassword method","IMFNetCredential.GetPassword","IMFNetCredential::GetPassword","ab7a4999-4a08-472c-bb7e-7068f2e2ac34","mf.imfnetcredential_getpassword","mfidl/IMFNetCredential::GetPassword"]
+description: Retrieves the password.
+helpviewer_keywords: ["GetPassword","GetPassword method [Media Foundation]","GetPassword method [Media Foundation]","IMFNetCredential interface","IMFNetCredential interface [Media Foundation]","GetPassword method","IMFNetCredential.GetPassword","IMFNetCredential::GetPassword","ab7a4999-4a08-472c-bb7e-7068f2e2ac34","mf.imfnetcredential_getpassword","mfidl/IMFNetCredential::GetPassword"]
 old-location: mf\imfnetcredential_getpassword.htm
 tech.root: medfound
 ms.assetid: ab7a4999-4a08-472c-bb7e-7068f2e2ac34

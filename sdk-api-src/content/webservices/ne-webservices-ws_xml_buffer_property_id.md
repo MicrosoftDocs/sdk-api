@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_4
 title: WS_XML_BUFFER_PROPERTY_ID (webservices.h)
-description: Each XML buffer property is identified by an ID and has an associated value.helpviewer_keywords: ["WS_XML_BUFFER_PROPERTY_ID","WS_XML_BUFFER_PROPERTY_ID enumeration [Web Services for Windows]","webservices/WS_XML_BUFFER_PROPERTY_ID","wsw.ws_xml_buffer_property_id"]
+description: Each XML buffer property is identified by an ID and has an associated value.
+helpviewer_keywords: ["WS_XML_BUFFER_PROPERTY_ID","WS_XML_BUFFER_PROPERTY_ID enumeration [Web Services for Windows]","webservices/WS_XML_BUFFER_PROPERTY_ID","wsw.ws_xml_buffer_property_id"]
 old-location: wsw\ws_xml_buffer_property_id.htm
 tech.root: wsw
 ms.assetid: 580a72d3-6800-48b3-9345-4e3b20bb4066

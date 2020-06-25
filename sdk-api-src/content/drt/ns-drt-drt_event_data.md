@@ -1,7 +1,8 @@
 ---
 UID: NS:drt.drt_event_data_tag
 title: DRT_EVENT_DATA (drt.h)
-description: DRT_EVENT_DATA.helpviewer_keywords: ["*PDRT_EVENT_DATA","DRT_EVENT_DATA","DRT_EVENT_DATA structure [Peer Networking]","PDRT_EVENT_DATA","PDRT_EVENT_DATA structure pointer [Peer Networking]","drt/DRT_EVENT_DATA","drt/PDRT_EVENT_DATA","p2p.drt_event_data"]
+description: DRT_EVENT_DATA.
+helpviewer_keywords: ["*PDRT_EVENT_DATA","DRT_EVENT_DATA","DRT_EVENT_DATA structure [Peer Networking]","PDRT_EVENT_DATA","PDRT_EVENT_DATA structure pointer [Peer Networking]","drt/DRT_EVENT_DATA","drt/PDRT_EVENT_DATA","p2p.drt_event_data"]
 old-location: p2p\drt_event_data.htm
 tech.root: P2PSdk
 ms.assetid: b52bf815-d962-4f72-8876-a80769bc3d3d

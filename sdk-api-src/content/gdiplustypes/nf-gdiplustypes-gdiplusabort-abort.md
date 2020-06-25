@@ -3,6 +3,7 @@ UID: NF:gdiplustypes.GdiplusAbort.Abort
 title: GdiplusAbort::Abort
 ms.date: 11/4/2019
 ms.topic: language-reference
+tech.root: gdiplus
 targetos: Windows
 description: \**Abort** is an application-defined method that is called periodically by Windows GDI+ during time-consuming rendering operations. See the [**GdiplusAbort**](ns-gdiplustypes-gdiplusabort) structure.
 req.assembly: 

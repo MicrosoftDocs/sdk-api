@@ -1,7 +1,8 @@
 ---
 UID: NN:tom.ITextDocument
 title: ITextDocument (tom.h)
-description: The ITextDocument interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document&#8212;whether active or not.helpviewer_keywords: ["ITextDocument","ITextDocument interface [Windows Controls]","ITextDocument interface [Windows Controls]","described","_win32_ITextDocument","_win32_ITextDocument_cpp","controls.ITextDocument","controls._win32_ITextDocument","tom/ITextDocument"]
+description: The ITextDocument interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document&#8212;whether active or not.
+helpviewer_keywords: ["ITextDocument","ITextDocument interface [Windows Controls]","ITextDocument interface [Windows Controls]","described","_win32_ITextDocument","_win32_ITextDocument_cpp","controls.ITextDocument","controls._win32_ITextDocument","tom/ITextDocument"]
 old-location: controls\ITextDocument.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument.htm

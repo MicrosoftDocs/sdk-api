@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.CreateIFECommonInstance
 title: CreateIFECommonInstance function (msime.h)
-description: Returns a pointer to an IFECommon interface.helpviewer_keywords: ["CreateIFECommonInstance","CreateIFECommonInstance function [Internationalization for Windows Applications]","intl.createifecommoninstance","msime/CreateIFECommonInstance"]
+description: Returns a pointer to an IFECommon interface.
+helpviewer_keywords: ["CreateIFECommonInstance","CreateIFECommonInstance function [Internationalization for Windows Applications]","intl.createifecommoninstance","msime/CreateIFECommonInstance"]
 old-location: intl\createifecommoninstance.htm
 tech.root: Intl
 ms.assetid: A8A0CCC4-0A60-4E2A-9E6D-DC2C614B631D

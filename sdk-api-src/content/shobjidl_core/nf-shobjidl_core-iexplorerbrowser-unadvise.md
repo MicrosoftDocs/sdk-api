@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Unadvise
 title: IExplorerBrowser::Unadvise (shobjidl_core.h)
-description: Terminates an advisory connection.helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","Unadvise method","IExplorerBrowser.Unadvise","IExplorerBrowser::Unadvise","Unadvise","Unadvise method [Windows Shell]","Unadvise method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_Unadvise","shell.IExplorerBrowser_Unadvise","shobjidl_core/IExplorerBrowser::Unadvise"]
+description: Terminates an advisory connection.
+helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","Unadvise method","IExplorerBrowser.Unadvise","IExplorerBrowser::Unadvise","Unadvise","Unadvise method [Windows Shell]","Unadvise method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_Unadvise","shell.IExplorerBrowser_Unadvise","shobjidl_core/IExplorerBrowser::Unadvise"]
 old-location: shell\IExplorerBrowser_Unadvise.htm
 tech.root: shell
 ms.assetid: a9b6b971-5676-4ceb-ab48-2350a1715b82

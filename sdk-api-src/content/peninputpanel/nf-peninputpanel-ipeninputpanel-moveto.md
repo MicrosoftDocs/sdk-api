@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.MoveTo
 title: IPenInputPanel::MoveTo (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets the position of the PenInputPanel object to a static screen position.helpviewer_keywords: ["IPenInputPanel interface [Tablet PC]","MoveTo method","IPenInputPanel.MoveTo","IPenInputPanel::MoveTo","MoveTo","MoveTo method [Tablet PC]","MoveTo method [Tablet PC]","IPenInputPanel interface","d99e5ef8-fa91-4507-bfe5-f30a039ca72d","peninputpanel/IPenInputPanel::MoveTo","tablet.peninputpanel_moveto"]
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets the position of the PenInputPanel object to a static screen position.
+helpviewer_keywords: ["IPenInputPanel interface [Tablet PC]","MoveTo method","IPenInputPanel.MoveTo","IPenInputPanel::MoveTo","MoveTo","MoveTo method [Tablet PC]","MoveTo method [Tablet PC]","IPenInputPanel interface","d99e5ef8-fa91-4507-bfe5-f30a039ca72d","peninputpanel/IPenInputPanel::MoveTo","tablet.peninputpanel_moveto"]
 old-location: tablet\peninputpanel_moveto.htm
 tech.root: tablet
 ms.assetid: d99e5ef8-fa91-4507-bfe5-f30a039ca72d

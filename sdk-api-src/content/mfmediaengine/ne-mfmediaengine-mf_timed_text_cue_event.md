@@ -1,7 +1,8 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_CUE_EVENT
 title: MF_TIMED_TEXT_CUE_EVENT (mfmediaengine.h)
-description: Specifies the type of a timed text cue event.helpviewer_keywords: ["MF_TIMED_TEXT_CUE_EVENT","MF_TIMED_TEXT_CUE_EVENT enumeration [Media Foundation]","MF_TIMED_TEXT_CUE_EVENT_ACTIVE","MF_TIMED_TEXT_CUE_EVENT_CLEAR","MF_TIMED_TEXT_CUE_EVENT_INACTIVE","mf.mf_timed_text_cue_event","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_ACTIVE","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_CLEAR","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_INACTIVE"]
+description: Specifies the type of a timed text cue event.
+helpviewer_keywords: ["MF_TIMED_TEXT_CUE_EVENT","MF_TIMED_TEXT_CUE_EVENT enumeration [Media Foundation]","MF_TIMED_TEXT_CUE_EVENT_ACTIVE","MF_TIMED_TEXT_CUE_EVENT_CLEAR","MF_TIMED_TEXT_CUE_EVENT_INACTIVE","mf.mf_timed_text_cue_event","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_ACTIVE","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_CLEAR","mfmediaengine/MF_TIMED_TEXT_CUE_EVENT_INACTIVE"]
 old-location: mf\mf_timed_text_cue_event.htm
 tech.root: medfound
 ms.assetid: 8EA769FD-8BA9-4EBA-96AE-C86720A5F1F1

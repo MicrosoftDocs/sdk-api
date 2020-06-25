@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.CD3D11_SAMPLER_DESC.~CD3D11_SAMPLER_DESC
 title: CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC (d3d11.h)
-description: Destroys an instance of a CD3D11_SAMPLER_DESC structure.helpviewer_keywords: ["CD3D11_SAMPLER_DESC interface [Direct3D 11]","~CD3D11_SAMPLER_DESC destructor","CD3D11_SAMPLER_DESC.~CD3D11_SAMPLER_DESC","CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC","CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC()","d3d11/CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC","direct3d11.cd3d11_sampler_desc__cd3d11_sampler_desc__","~CD3D11_SAMPLER_DESC","~CD3D11_SAMPLER_DESC destructor [Direct3D 11]","~CD3D11_SAMPLER_DESC destructor [Direct3D 11]","CD3D11_SAMPLER_DESC interface"]
+description: Destroys an instance of a CD3D11_SAMPLER_DESC structure.
+helpviewer_keywords: ["CD3D11_SAMPLER_DESC interface [Direct3D 11]","~CD3D11_SAMPLER_DESC destructor","CD3D11_SAMPLER_DESC.~CD3D11_SAMPLER_DESC","CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC","CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC()","d3d11/CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC","direct3d11.cd3d11_sampler_desc__cd3d11_sampler_desc__","~CD3D11_SAMPLER_DESC","~CD3D11_SAMPLER_DESC destructor [Direct3D 11]","~CD3D11_SAMPLER_DESC destructor [Direct3D 11]","CD3D11_SAMPLER_DESC interface"]
 old-location: direct3d11\cd3d11_sampler_desc__cd3d11_sampler_desc__.htm
 tech.root: direct3d11
 ms.assetid: 046C9BA3-5EC0-42D4-99F9-38BA7319519C

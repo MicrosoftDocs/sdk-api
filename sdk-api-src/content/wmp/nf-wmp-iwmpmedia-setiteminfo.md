@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMedia.setItemInfo
 title: IWMPMedia::setItemInfo (wmp.h)
-description: The setItemInfo method sets the value of the specified attribute for the media item.helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","setItemInfo method","IWMPMedia.setItemInfo","IWMPMedia2 interface [Windows Media Player]","setItemInfo method","IWMPMedia2::setItemInfo","IWMPMedia3 interface [Windows Media Player]","setItemInfo method","IWMPMedia3::setItemInfo","IWMPMedia::setItemInfo","IWMPMediasetItemInfo","setItemInfo","setItemInfo method [Windows Media Player]","setItemInfo method [Windows Media Player]","IWMPMedia interface","setItemInfo method [Windows Media Player]","IWMPMedia2 interface","setItemInfo method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia_setiteminfo","wmp/IWMPMedia2::setItemInfo","wmp/IWMPMedia3::setItemInfo","wmp/IWMPMedia::setItemInfo"]
+description: The setItemInfo method sets the value of the specified attribute for the media item.
+helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","setItemInfo method","IWMPMedia.setItemInfo","IWMPMedia2 interface [Windows Media Player]","setItemInfo method","IWMPMedia2::setItemInfo","IWMPMedia3 interface [Windows Media Player]","setItemInfo method","IWMPMedia3::setItemInfo","IWMPMedia::setItemInfo","IWMPMediasetItemInfo","setItemInfo","setItemInfo method [Windows Media Player]","setItemInfo method [Windows Media Player]","IWMPMedia interface","setItemInfo method [Windows Media Player]","IWMPMedia2 interface","setItemInfo method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia_setiteminfo","wmp/IWMPMedia2::setItemInfo","wmp/IWMPMedia3::setItemInfo","wmp/IWMPMedia::setItemInfo"]
 old-location: wmp\iwmpmedia_setiteminfo.htm
 tech.root: WMP
 ms.assetid: 919fe92f-9519-4229-8097-4970a8f6cc25

@@ -1,7 +1,8 @@
 ---
 UID: NE:winnt._SYSTEM_POWER_STATE
 title: SYSTEM_POWER_STATE (winnt.h)
-description: Defines values that are used to specify system power states.helpviewer_keywords: ["*PSYSTEM_POWER_STATE","PSYSTEM_POWER_STATE","PSYSTEM_POWER_STATE enumeration pointer","PowerSystemHibernate","PowerSystemMaximum","PowerSystemShutdown","PowerSystemSleeping1","PowerSystemSleeping2","PowerSystemSleeping3","PowerSystemUnspecified","PowerSystemWorking","SYSTEM_POWER_STATE","SYSTEM_POWER_STATE enumeration","_win32_system_power_state","base.system_power_state","winnt/PSYSTEM_POWER_STATE","winnt/PowerSystemHibernate","winnt/PowerSystemMaximum","winnt/PowerSystemShutdown","winnt/PowerSystemSleeping1","winnt/PowerSystemSleeping2","winnt/PowerSystemSleeping3","winnt/PowerSystemUnspecified","winnt/PowerSystemWorking","winnt/SYSTEM_POWER_STATE"]
+description: Defines values that are used to specify system power states.
+helpviewer_keywords: ["*PSYSTEM_POWER_STATE","PSYSTEM_POWER_STATE","PSYSTEM_POWER_STATE enumeration pointer","PowerSystemHibernate","PowerSystemMaximum","PowerSystemShutdown","PowerSystemSleeping1","PowerSystemSleeping2","PowerSystemSleeping3","PowerSystemUnspecified","PowerSystemWorking","SYSTEM_POWER_STATE","SYSTEM_POWER_STATE enumeration","_win32_system_power_state","base.system_power_state","winnt/PSYSTEM_POWER_STATE","winnt/PowerSystemHibernate","winnt/PowerSystemMaximum","winnt/PowerSystemShutdown","winnt/PowerSystemSleeping1","winnt/PowerSystemSleeping2","winnt/PowerSystemSleeping3","winnt/PowerSystemUnspecified","winnt/PowerSystemWorking","winnt/SYSTEM_POWER_STATE"]
 old-location: base\system_power_state.htm
 tech.root: power
 ms.assetid: 57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d

@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IOleObject
 title: IOleObject (oleidl.h)
-description: Serves as the principal means by which an embedded object provides basic functionality to, and communicates with, its container.helpviewer_keywords: ["IOleObject","IOleObject interface [COM]","IOleObject interface [COM]","described","_ole_ioleobject","com.ioleobject","oleidl/IOleObject"]
+description: Serves as the principal means by which an embedded object provides basic functionality to, and communicates with, its container.
+helpviewer_keywords: ["IOleObject","IOleObject interface [COM]","IOleObject interface [COM]","described","_ole_ioleobject","com.ioleobject","oleidl/IOleObject"]
 old-location: com\ioleobject.htm
 tech.root: com
 ms.assetid: 58b32c87-39b6-4d64-9174-cf798ed302c2

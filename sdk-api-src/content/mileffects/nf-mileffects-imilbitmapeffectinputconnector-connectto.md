@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInputConnector.ConnectTo
 title: IMILBitmapEffectInputConnector::ConnectTo (mileffects.h)
-description: Connects the input connector to the given output connector.helpviewer_keywords: ["ConnectTo","ConnectTo method [WPF Bitmap Effects]","ConnectTo method [WPF Bitmap Effects]","IMILBitmapEffectInputConnector interface","IMILBitmapEffectInputConnector interface [WPF Bitmap Effects]","ConnectTo method","IMILBitmapEffectInputConnector.ConnectTo","IMILBitmapEffectInputConnector::ConnectTo","_wibe_imilbitmapeffectinputconnector_connectto","mileffects/IMILBitmapEffectInputConnector::ConnectTo","wibe._wibe_imilbitmapeffectinputconnector_connectto"]
+description: Connects the input connector to the given output connector.
+helpviewer_keywords: ["ConnectTo","ConnectTo method [WPF Bitmap Effects]","ConnectTo method [WPF Bitmap Effects]","IMILBitmapEffectInputConnector interface","IMILBitmapEffectInputConnector interface [WPF Bitmap Effects]","ConnectTo method","IMILBitmapEffectInputConnector.ConnectTo","IMILBitmapEffectInputConnector::ConnectTo","_wibe_imilbitmapeffectinputconnector_connectto","mileffects/IMILBitmapEffectInputConnector::ConnectTo","wibe._wibe_imilbitmapeffectinputconnector_connectto"]
 old-location: wibe\_wibe_imilbitmapeffectinputconnector_connectto.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\connectto.htm

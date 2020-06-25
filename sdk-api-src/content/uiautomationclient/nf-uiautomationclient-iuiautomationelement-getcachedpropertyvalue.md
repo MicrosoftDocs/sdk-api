@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPropertyValue
 title: IUIAutomationElement::GetCachedPropertyValue (uiautomationclient.h)
-description: Retrieves a property value from the cache for this UI Automation element.helpviewer_keywords: ["GetCachedPropertyValue","GetCachedPropertyValue method [Windows Accessibility]","GetCachedPropertyValue method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","GetCachedPropertyValue method","IUIAutomationElement.GetCachedPropertyValue","IUIAutomationElement::GetCachedPropertyValue","uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValue","uiauto_IUIAutomationElement_GetCachedPropertyValue","uiautomationclient/IUIAutomationElement::GetCachedPropertyValue","winauto.uiauto_IUIAutomationElement_GetCachedPropertyValue"]
+description: Retrieves a property value from the cache for this UI Automation element.
+helpviewer_keywords: ["GetCachedPropertyValue","GetCachedPropertyValue method [Windows Accessibility]","GetCachedPropertyValue method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","GetCachedPropertyValue method","IUIAutomationElement.GetCachedPropertyValue","IUIAutomationElement::GetCachedPropertyValue","uiauto.uiauto_IUIAutomationElement_GetCachedPropertyValue","uiauto_IUIAutomationElement_GetCachedPropertyValue","uiautomationclient/IUIAutomationElement::GetCachedPropertyValue","winauto.uiauto_IUIAutomationElement_GetCachedPropertyValue"]
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPropertyValue.htm
 tech.root: WinAuto
 ms.assetid: 3cd093fe-04ee-4b09-b5e7-28dad984951e

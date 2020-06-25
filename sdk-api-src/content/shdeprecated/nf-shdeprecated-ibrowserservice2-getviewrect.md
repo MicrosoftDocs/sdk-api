@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetViewRect
 title: IBrowserService2::GetViewRect (shdeprecated.h)
-description: Deprecated. Retrieves a value that is used to negotiate the allowed size of the window.helpviewer_keywords: ["GetViewRect","GetViewRect method [Windows Shell]","GetViewRect method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","GetViewRect method","IBrowserService2.GetViewRect","IBrowserService2::GetViewRect","shdeprecated/IBrowserService2::GetViewRect","shell.IBrowserService2_GetViewRect","zone_IBrowserService2_GetViewRect"]
+description: Deprecated. Retrieves a value that is used to negotiate the allowed size of the window.
+helpviewer_keywords: ["GetViewRect","GetViewRect method [Windows Shell]","GetViewRect method [Windows Shell]","IBrowserService2 interface","IBrowserService2 interface [Windows Shell]","GetViewRect method","IBrowserService2.GetViewRect","IBrowserService2::GetViewRect","shdeprecated/IBrowserService2::GetViewRect","shell.IBrowserService2_GetViewRect","zone_IBrowserService2_GetViewRect"]
 old-location: shell\IBrowserService2_GetViewRect.htm
 tech.root: shell
 ms.assetid: 738aa84d-9586-493e-8a50-e8e1918198e6

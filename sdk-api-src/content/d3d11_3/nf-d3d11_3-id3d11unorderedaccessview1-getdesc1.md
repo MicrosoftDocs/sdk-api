@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_3.ID3D11UnorderedAccessView1.GetDesc1
 title: ID3D11UnorderedAccessView1::GetDesc1 (d3d11_3.h)
-description: Gets a description of the resource.helpviewer_keywords: ["GetDesc1","GetDesc1 method [Direct3D 11]","GetDesc1 method [Direct3D 11]","ID3D11UnorderedAccessView1 interface","ID3D11UnorderedAccessView1 interface [Direct3D 11]","GetDesc1 method","ID3D11UnorderedAccessView1.GetDesc1","ID3D11UnorderedAccessView1::GetDesc1","d3d11_3/ID3D11UnorderedAccessView1::GetDesc1","direct3d11.id3d11unorderedaccessview1_getdesc1"]
+description: Gets a description of the resource.
+helpviewer_keywords: ["GetDesc1","GetDesc1 method [Direct3D 11]","GetDesc1 method [Direct3D 11]","ID3D11UnorderedAccessView1 interface","ID3D11UnorderedAccessView1 interface [Direct3D 11]","GetDesc1 method","ID3D11UnorderedAccessView1.GetDesc1","ID3D11UnorderedAccessView1::GetDesc1","d3d11_3/ID3D11UnorderedAccessView1::GetDesc1","direct3d11.id3d11unorderedaccessview1_getdesc1"]
 old-location: direct3d11\id3d11unorderedaccessview1_getdesc1.htm
 tech.root: direct3d11
 ms.assetid: 277087B3-AAD7-4A6A-91D3-C204B0FA0FE5

@@ -1,7 +1,8 @@
 ---
 UID: NF:mdmregistration.IsDeviceRegisteredWithManagement
 title: IsDeviceRegisteredWithManagement function (mdmregistration.h)
-description: Checks whether the device is registered with an MDM service.helpviewer_keywords: ["IsDeviceRegisteredWithManagement","IsDeviceRegisteredWithManagement function [MDM Registration]","mdmreg.isdeviceregisteredwithmanagement","mdmregistration/IsDeviceRegisteredWithManagement"]
+description: Checks whether the device is registered with an MDM service.
+helpviewer_keywords: ["IsDeviceRegisteredWithManagement","IsDeviceRegisteredWithManagement function [MDM Registration]","mdmreg.isdeviceregisteredwithmanagement","mdmregistration/IsDeviceRegisteredWithManagement"]
 old-location: mdmreg\isdeviceregisteredwithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 7f8b4965-0acd-4e64-8756-37e7bf96ab6e

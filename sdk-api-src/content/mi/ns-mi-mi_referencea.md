@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ReferenceA
 title: MI_ReferenceA (mi.h)
-description: Represents an array of pointers to MI_Instance types.helpviewer_keywords: ["MI_ReferenceA","MI_ReferenceA structure [Windows Management Infrastructure (MI)]","mi/MI_ReferenceA","wmi._mi_referencea","wmi_v2.mi_referencea"]
+description: Represents an array of pointers to MI_Instance types.
+helpviewer_keywords: ["MI_ReferenceA","MI_ReferenceA structure [Windows Management Infrastructure (MI)]","mi/MI_ReferenceA","wmi._mi_referencea","wmi_v2.mi_referencea"]
 old-location: wmi_v2\mi_referencea.htm
 tech.root: wmi_v2
 ms.assetid: a0fde623-a9f0-4b7d-8c7d-2a88745fc8b2

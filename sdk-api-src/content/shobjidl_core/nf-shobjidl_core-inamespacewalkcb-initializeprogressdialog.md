@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.InitializeProgressDialog
 title: INamespaceWalkCB::InitializeProgressDialog (shobjidl_core.h)
-description: Initializes the window title and cancel button text of the progress dialog box displayed during the namespace walk.helpviewer_keywords: ["INamespaceWalkCB interface [Windows Shell]","InitializeProgressDialog method","INamespaceWalkCB.InitializeProgressDialog","INamespaceWalkCB::InitializeProgressDialog","InitializeProgressDialog","InitializeProgressDialog method [Windows Shell]","InitializeProgressDialog method [Windows Shell]","INamespaceWalkCB interface","_win32_INamespaceWalkCB_InitializeProgressDialog","shell.INamespaceWalkCB_InitializeProgressDialog","shobjidl_core/INamespaceWalkCB::InitializeProgressDialog"]
+description: Initializes the window title and cancel button text of the progress dialog box displayed during the namespace walk.
+helpviewer_keywords: ["INamespaceWalkCB interface [Windows Shell]","InitializeProgressDialog method","INamespaceWalkCB.InitializeProgressDialog","INamespaceWalkCB::InitializeProgressDialog","InitializeProgressDialog","InitializeProgressDialog method [Windows Shell]","InitializeProgressDialog method [Windows Shell]","INamespaceWalkCB interface","_win32_INamespaceWalkCB_InitializeProgressDialog","shell.INamespaceWalkCB_InitializeProgressDialog","shobjidl_core/INamespaceWalkCB::InitializeProgressDialog"]
 old-location: shell\INamespaceWalkCB_InitializeProgressDialog.htm
 tech.root: shell
 ms.assetid: db105026-5639-4e4e-8146-a14cdb84c48e

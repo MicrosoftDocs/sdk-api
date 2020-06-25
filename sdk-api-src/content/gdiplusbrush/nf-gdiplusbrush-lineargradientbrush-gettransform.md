@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetTransform
 title: LinearGradientBrush::GetTransform (gdiplusbrush.h)
-description: The LinearGradientBrush::GetTransform method gets the transformation matrix of this linear gradient brush.helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetTransform method","LinearGradientBrush.GetTransform","LinearGradientBrush::GetTransform","_gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_"]
+description: The LinearGradientBrush::GetTransform method gets the transformation matrix of this linear gradient brush.
+helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetTransform method","LinearGradientBrush.GetTransform","LinearGradientBrush::GetTransform","_gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\gettransform_34matrix.htm

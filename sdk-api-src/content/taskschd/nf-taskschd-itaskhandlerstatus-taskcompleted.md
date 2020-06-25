@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskHandlerStatus.TaskCompleted
 title: ITaskHandlerStatus::TaskCompleted (taskschd.h)
-description: Tells the Task Scheduler that the COM handler is completed.helpviewer_keywords: ["ITaskHandlerStatus interface [Task Scheduler]","TaskCompleted method","ITaskHandlerStatus.TaskCompleted","ITaskHandlerStatus::TaskCompleted","TaskCompleted","TaskCompleted method [Task Scheduler]","TaskCompleted method [Task Scheduler]","ITaskHandlerStatus interface","taskschd.itaskhandlerstatus_taskcompleted","taskschd/ITaskHandlerStatus::TaskCompleted"]
+description: Tells the Task Scheduler that the COM handler is completed.
+helpviewer_keywords: ["ITaskHandlerStatus interface [Task Scheduler]","TaskCompleted method","ITaskHandlerStatus.TaskCompleted","ITaskHandlerStatus::TaskCompleted","TaskCompleted","TaskCompleted method [Task Scheduler]","TaskCompleted method [Task Scheduler]","ITaskHandlerStatus interface","taskschd.itaskhandlerstatus_taskcompleted","taskschd/ITaskHandlerStatus::TaskCompleted"]
 old-location: taskschd\itaskhandlerstatus_taskcompleted.htm
 tech.root: taskschd
 ms.assetid: e6f7adf5-3cdb-4691-bc0a-682df7f019e2

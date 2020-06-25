@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.Initialize
 title: ICertPropertyBackedUp::Initialize (certenroll.h)
-description: Initializes the object from a Boolean value and a date.helpviewer_keywords: ["ICertPropertyBackedUp interface [Security]","Initialize method","ICertPropertyBackedUp.Initialize","ICertPropertyBackedUp::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyBackedUp interface","certenroll/ICertPropertyBackedUp::Initialize","security.icertpropertybackedup_initialize_method"]
+description: Initializes the object from a Boolean value and a date.
+helpviewer_keywords: ["ICertPropertyBackedUp interface [Security]","Initialize method","ICertPropertyBackedUp.Initialize","ICertPropertyBackedUp::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ICertPropertyBackedUp interface","certenroll/ICertPropertyBackedUp::Initialize","security.icertpropertybackedup_initialize_method"]
 old-location: security\icertpropertybackedup_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 2ca941a6-898d-4955-b334-ffc15e10b330

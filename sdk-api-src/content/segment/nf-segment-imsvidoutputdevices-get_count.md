@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.get_Count
 title: IMSVidOutputDevices::get_Count (segment.h)
-description: The get_Count method retrieves the number of items in the collection.helpviewer_keywords: ["IMSVidOutputDevices interface [Microsoft TV Technologies]","get_Count method","IMSVidOutputDevices.get_Count","IMSVidOutputDevices::get_Count","IMSVidOutputDevicesget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","IMSVidOutputDevices interface","mstv.imsvidoutputdevices_get_count","segment/IMSVidOutputDevices::get_Count"]
+description: The get_Count method retrieves the number of items in the collection.
+helpviewer_keywords: ["IMSVidOutputDevices interface [Microsoft TV Technologies]","get_Count method","IMSVidOutputDevices.get_Count","IMSVidOutputDevices::get_Count","IMSVidOutputDevicesget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","IMSVidOutputDevices interface","mstv.imsvidoutputdevices_get_count","segment/IMSVidOutputDevices::get_Count"]
 old-location: mstv\imsvidoutputdevices_get_count.htm
 tech.root: mstv
 ms.assetid: c4da44cb-84cb-46ae-9898-993802c9bfac

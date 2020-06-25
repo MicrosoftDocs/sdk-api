@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.DuplicateToken
 title: DuplicateToken function (securitybaseapi.h)
-description: Creates a new access token that duplicates one already in existence.helpviewer_keywords: ["DuplicateToken","DuplicateToken function [Security]","_win32_duplicatetoken","security.duplicatetoken","securitybaseapi/DuplicateToken"]
+description: Creates a new access token that duplicates one already in existence.
+helpviewer_keywords: ["DuplicateToken","DuplicateToken function [Security]","_win32_duplicatetoken","security.duplicatetoken","securitybaseapi/DuplicateToken"]
 old-location: security\duplicatetoken.htm
 tech.root: SecAuthZ
 ms.assetid: 796ec60e-fcae-48a9-b471-de3dce831306

@@ -1,7 +1,8 @@
 ---
 UID: NE:strmif.CompressionCaps
 title: CompressionCaps (strmif.h)
-description: Indicates video compression capabilities.helpviewer_keywords: ["CompressionCaps","CompressionCaps enumeration [DirectShow]","CompressionCapsEnumeration","CompressionCaps_CanBFrame","CompressionCaps_CanCrunch","CompressionCaps_CanKeyFrame","CompressionCaps_CanQuality","CompressionCaps_CanWindow","dshow.compressioncaps","strmif/CompressionCaps","strmif/CompressionCaps_CanBFrame","strmif/CompressionCaps_CanCrunch","strmif/CompressionCaps_CanKeyFrame","strmif/CompressionCaps_CanQuality","strmif/CompressionCaps_CanWindow"]
+description: Indicates video compression capabilities.
+helpviewer_keywords: ["CompressionCaps","CompressionCaps enumeration [DirectShow]","CompressionCapsEnumeration","CompressionCaps_CanBFrame","CompressionCaps_CanCrunch","CompressionCaps_CanKeyFrame","CompressionCaps_CanQuality","CompressionCaps_CanWindow","dshow.compressioncaps","strmif/CompressionCaps","strmif/CompressionCaps_CanBFrame","strmif/CompressionCaps_CanCrunch","strmif/CompressionCaps_CanKeyFrame","strmif/CompressionCaps_CanQuality","strmif/CompressionCaps_CanWindow"]
 old-location: dshow\compressioncaps.htm
 tech.root: DirectShow
 ms.assetid: e964756f-1c60-42fd-8497-637d5fc005d7

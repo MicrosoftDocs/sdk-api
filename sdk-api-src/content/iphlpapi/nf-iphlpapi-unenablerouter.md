@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.UnenableRouter
 title: UnenableRouter function (iphlpapi.h)
-description: The UnenableRouter function decrements the reference count that tracks the number of requests to enable IPv4 forwarding. When this reference count reaches zero, UnenableRouter turns off IPv4 forwarding on the local computer.helpviewer_keywords: ["UnenableRouter","UnenableRouter function [IP Helper]","_iphlp_unenablerouter","iphlp.unenablerouter","iphlpapi/UnenableRouter"]
+description: The UnenableRouter function decrements the reference count that tracks the number of requests to enable IPv4 forwarding. When this reference count reaches zero, UnenableRouter turns off IPv4 forwarding on the local computer.
+helpviewer_keywords: ["UnenableRouter","UnenableRouter function [IP Helper]","_iphlp_unenablerouter","iphlp.unenablerouter","iphlpapi/UnenableRouter"]
 old-location: iphlp\unenablerouter.htm
 tech.root: IpHlp
 ms.assetid: 95f0387f-24e8-4382-b78e-e59bcec0f2ed

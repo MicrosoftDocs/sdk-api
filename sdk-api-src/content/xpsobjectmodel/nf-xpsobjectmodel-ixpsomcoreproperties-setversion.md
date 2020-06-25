@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetVersion
 title: IXpsOMCoreProperties::SetVersion (xpsobjectmodel.h)
-description: Sets the version property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetVersion method","IXpsOMCoreProperties.SetVersion","IXpsOMCoreProperties::SetVersion","SetVersion","SetVersion method [XPS Documents and Packaging]","SetVersion method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setversion","xpsobjectmodel/IXpsOMCoreProperties::SetVersion"]
+description: Sets the version property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetVersion method","IXpsOMCoreProperties.SetVersion","IXpsOMCoreProperties::SetVersion","SetVersion","SetVersion method [XPS Documents and Packaging]","SetVersion method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setversion","xpsobjectmodel/IXpsOMCoreProperties::SetVersion"]
 old-location: xps\ixpsomcoreproperties_setversion.htm
 tech.root: printdocs
 ms.assetid: 1058f228-8b81-4590-b0af-08abe16a1510

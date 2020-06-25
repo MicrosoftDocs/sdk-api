@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineUnhold
 title: lineUnhold function (tapi.h)
-description: The lineUnhold function retrieves the specified held call.helpviewer_keywords: ["_tapi2_lineunhold","lineUnhold","lineUnhold function [TAPI 2.2]","tapi/lineUnhold","tapi2.lineunhold"]
+description: The lineUnhold function retrieves the specified held call.
+helpviewer_keywords: ["_tapi2_lineunhold","lineUnhold","lineUnhold function [TAPI 2.2]","tapi/lineUnhold","tapi2.lineunhold"]
 old-location: tapi2\lineunhold.htm
 tech.root: Tapi
 ms.assetid: c32d8d3a-f54c-411a-ae86-4aecd6dce456

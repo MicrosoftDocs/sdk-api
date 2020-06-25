@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetValue
 title: IMFMediaEvent::GetValue (mfobjects.h)
-description: Retrieves the value associated with the event, if any. The value is retrieved as a PROPVARIANT structure. The actual data type and the meaning of the value depend on the event.helpviewer_keywords: ["05e57b40-2565-4312-866e-50f0c7d62c4a","GetValue","GetValue method [Media Foundation]","GetValue method [Media Foundation]","IMFMediaEvent interface","IMFMediaEvent interface [Media Foundation]","GetValue method","IMFMediaEvent.GetValue","IMFMediaEvent::GetValue","mf.imfmediaevent_getvalue","mfobjects/IMFMediaEvent::GetValue"]
+description: Retrieves the value associated with the event, if any. The value is retrieved as a PROPVARIANT structure. The actual data type and the meaning of the value depend on the event.
+helpviewer_keywords: ["05e57b40-2565-4312-866e-50f0c7d62c4a","GetValue","GetValue method [Media Foundation]","GetValue method [Media Foundation]","IMFMediaEvent interface","IMFMediaEvent interface [Media Foundation]","GetValue method","IMFMediaEvent.GetValue","IMFMediaEvent::GetValue","mf.imfmediaevent_getvalue","mfobjects/IMFMediaEvent::GetValue"]
 old-location: mf\imfmediaevent_getvalue.htm
 tech.root: medfound
 ms.assetid: 05e57b40-2565-4312-866e-50f0c7d62c4a

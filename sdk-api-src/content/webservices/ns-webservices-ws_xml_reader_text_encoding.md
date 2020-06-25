@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_READER_TEXT_ENCODING
 title: WS_XML_READER_TEXT_ENCODING (webservices.h)
-description: Used to indicate that the reader should interpret the bytes it reads as textual xml.helpviewer_keywords: ["WS_XML_READER_TEXT_ENCODING","WS_XML_READER_TEXT_ENCODING structure [Web Services for Windows]","webservices/WS_XML_READER_TEXT_ENCODING","wsw.ws_xml_reader_text_encoding"]
+description: Used to indicate that the reader should interpret the bytes it reads as textual xml.
+helpviewer_keywords: ["WS_XML_READER_TEXT_ENCODING","WS_XML_READER_TEXT_ENCODING structure [Web Services for Windows]","webservices/WS_XML_READER_TEXT_ENCODING","wsw.ws_xml_reader_text_encoding"]
 old-location: wsw\ws_xml_reader_text_encoding.htm
 tech.root: wsw
 ms.assetid: ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6

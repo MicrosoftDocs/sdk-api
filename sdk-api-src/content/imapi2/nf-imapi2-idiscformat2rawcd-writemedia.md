@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.WriteMedia
 title: IDiscFormat2RawCD::WriteMedia (imapi2.h)
-description: Writes a DAO-96 raw image to the blank media using MSF 95:00:00 as the starting address.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","WriteMedia method","IDiscFormat2RawCD.WriteMedia","IDiscFormat2RawCD::WriteMedia","WriteMedia","WriteMedia method [IMAPI]","WriteMedia method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_writemedia","imapi2/IDiscFormat2RawCD::WriteMedia"]
+description: Writes a DAO-96 raw image to the blank media using MSF 95:00:00 as the starting address.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","WriteMedia method","IDiscFormat2RawCD.WriteMedia","IDiscFormat2RawCD::WriteMedia","WriteMedia","WriteMedia method [IMAPI]","WriteMedia method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_writemedia","imapi2/IDiscFormat2RawCD::WriteMedia"]
 old-location: imapi\idiscformat2rawcd_writemedia.htm
 tech.root: imapi
 ms.assetid: 137395f1-b0cf-4bd0-9d3b-a21122eb8b57

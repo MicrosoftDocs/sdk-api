@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_DiscountRateStart
 title: IFaxConfiguration::put_DiscountRateStart (faxcomex.h)
-description: Sets or retrieves a value that indicates the time at which the discount rate period begins.helpviewer_keywords: ["DiscountRateStart property [Fax Service]","DiscountRateStart property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","DiscountRateStart property","IFaxConfiguration.DiscountRateStart","IFaxConfiguration.put_DiscountRateStart","IFaxConfiguration::DiscountRateStart","IFaxConfiguration::get_DiscountRateStart","IFaxConfiguration::put_DiscountRateStart","_mfax_IFaxConfiguration_DiscountRateStart","fax._mfax_IFaxConfiguration_DiscountRateStart","faxcomex/IFaxConfiguration::DiscountRateStart","faxcomex/IFaxConfiguration::get_DiscountRateStart","faxcomex/IFaxConfiguration::put_DiscountRateStart","put_DiscountRateStart"]
+description: Sets or retrieves a value that indicates the time at which the discount rate period begins.
+helpviewer_keywords: ["DiscountRateStart property [Fax Service]","DiscountRateStart property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","DiscountRateStart property","IFaxConfiguration.DiscountRateStart","IFaxConfiguration.put_DiscountRateStart","IFaxConfiguration::DiscountRateStart","IFaxConfiguration::get_DiscountRateStart","IFaxConfiguration::put_DiscountRateStart","_mfax_IFaxConfiguration_DiscountRateStart","fax._mfax_IFaxConfiguration_DiscountRateStart","faxcomex/IFaxConfiguration::DiscountRateStart","faxcomex/IFaxConfiguration::get_DiscountRateStart","faxcomex/IFaxConfiguration::put_DiscountRateStart","put_DiscountRateStart"]
 old-location: fax\_mfax_IFaxConfiguration_DiscountRateStart.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountratestart.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:wpcapi.IWPCProviderState
 title: IWPCProviderState (wpcapi.h)
-description: Exposes provider state methods that are implemented by third parties.helpviewer_keywords: ["IWPCProviderState","IWPCProviderState interface","IWPCProviderState interface","described","parcon.iwpcproviderstate","wpcapi/IWPCProviderState"]
+description: Exposes provider state methods that are implemented by third parties.
+helpviewer_keywords: ["IWPCProviderState","IWPCProviderState interface","IWPCProviderState interface","described","parcon.iwpcproviderstate","wpcapi/IWPCProviderState"]
 old-location: parcon\iwpcproviderstate.htm
 tech.root: parcon
 ms.assetid: a5cd14df-8e64-4f34-801c-9901c7d215f9

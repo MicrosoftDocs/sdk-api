@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PCONNECT_CLIENT
 title: PCONNECT_CLIENT (routprot.h)
-description: The router manager calls the ConnectClient function when a client connects to an interface on which the routing protocol is running.helpviewer_keywords: ["ConnectClient","ConnectClient callback function [RAS]","PCONNECT_CLIENT","PCONNECT_CLIENT callback","_mpr_connectclient","routprot/ConnectClient","rras.connectclient"]
+description: The router manager calls the ConnectClient function when a client connects to an interface on which the routing protocol is running.
+helpviewer_keywords: ["ConnectClient","ConnectClient callback function [RAS]","PCONNECT_CLIENT","PCONNECT_CLIENT callback","_mpr_connectclient","routprot/ConnectClient","rras.connectclient"]
 old-location: rras\connectclient.htm
 tech.root: RRAS
 ms.assetid: 548d8411-ca03-4316-9adb-3b4b48a740d9

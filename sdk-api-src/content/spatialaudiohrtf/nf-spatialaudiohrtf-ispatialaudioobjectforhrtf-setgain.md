@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetGain
 title: ISpatialAudioObjectForHrtf::SetGain (spatialaudiohrtf.h)
-description: Sets the gain for the ISpatialAudioObjectForHrtf.helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetGain method","ISpatialAudioObjectForHrtf.SetGain","ISpatialAudioObjectForHrtf::SetGain","SetGain","SetGain method [Core Audio]","SetGain method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setgain","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain"]
+description: Sets the gain for the ISpatialAudioObjectForHrtf.
+helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetGain method","ISpatialAudioObjectForHrtf.SetGain","ISpatialAudioObjectForHrtf::SetGain","SetGain","SetGain method [Core Audio]","SetGain method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setgain","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain"]
 old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm
 tech.root: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142

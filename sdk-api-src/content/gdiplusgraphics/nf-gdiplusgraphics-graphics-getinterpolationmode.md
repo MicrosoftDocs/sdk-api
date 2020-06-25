@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetInterpolationMode
 title: Graphics::GetInterpolationMode (gdiplusgraphics.h)
-description: The Graphics::GetInterpolationMode method gets the interpolation mode currently set for this Graphics object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.helpviewer_keywords: ["GetInterpolationMode","GetInterpolationMode method [GDI+]","GetInterpolationMode method [GDI+]","Graphics class","Graphics class [GDI+]","GetInterpolationMode method","Graphics.GetInterpolationMode","Graphics::GetInterpolationMode","_gdiplus_CLASS_Graphics_GetInterpolationMode_","gdiplus._gdiplus_CLASS_Graphics_GetInterpolationMode_"]
+description: The Graphics::GetInterpolationMode method gets the interpolation mode currently set for this Graphics object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
+helpviewer_keywords: ["GetInterpolationMode","GetInterpolationMode method [GDI+]","GetInterpolationMode method [GDI+]","Graphics class","Graphics class [GDI+]","GetInterpolationMode method","Graphics.GetInterpolationMode","Graphics::GetInterpolationMode","_gdiplus_CLASS_Graphics_GetInterpolationMode_","gdiplus._gdiplus_CLASS_Graphics_GetInterpolationMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetInterpolationMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getinterpolationmode.htm

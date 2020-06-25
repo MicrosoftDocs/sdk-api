@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.RtlUnwind
 title: RtlUnwind function (winnt.h)
-description: Initiates an unwind of procedure call frames.helpviewer_keywords: ["RtlUnwind","RtlUnwind function","base.rtlunwind","winnt/RtlUnwind"]
+description: Initiates an unwind of procedure call frames.
+helpviewer_keywords: ["RtlUnwind","RtlUnwind function","base.rtlunwind","winnt/RtlUnwind"]
 old-location: base\rtlunwind.htm
 tech.root: Debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e

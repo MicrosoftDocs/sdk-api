@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonQuery
 title: ShutdownBlockReasonQuery function (winuser.h)
-description: Retrieves the reason string set by the ShutdownBlockReasonCreate function.helpviewer_keywords: ["ShutdownBlockReasonQuery","ShutdownBlockReasonQuery function","base.shutdownblockreasonquery","winuser/ShutdownBlockReasonQuery"]
+description: Retrieves the reason string set by the ShutdownBlockReasonCreate function.
+helpviewer_keywords: ["ShutdownBlockReasonQuery","ShutdownBlockReasonQuery function","base.shutdownblockreasonquery","winuser/ShutdownBlockReasonQuery"]
 old-location: base\shutdownblockreasonquery.htm
 tech.root: Shutdown
 ms.assetid: 8c92ebbb-1692-4c14-b32a-17f59b8ab7a3

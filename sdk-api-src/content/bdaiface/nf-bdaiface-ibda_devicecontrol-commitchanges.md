@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.CommitChanges
 title: IBDA_DeviceControl::CommitChanges (bdaiface.h)
-description: The CommitChanges method instructs the device to perform the changes specified in the previous call to StartChanges.helpviewer_keywords: ["CommitChanges","CommitChanges method [Microsoft TV Technologies]","CommitChanges method [Microsoft TV Technologies]","IBDA_DeviceControl interface","IBDA_DeviceControl interface [Microsoft TV Technologies]","CommitChanges method","IBDA_DeviceControl.CommitChanges","IBDA_DeviceControl::CommitChanges","IBDA_DeviceControlCommitChanges","bdaiface/IBDA_DeviceControl::CommitChanges","mstv.ibda_devicecontrol_commitchanges"]
+description: The CommitChanges method instructs the device to perform the changes specified in the previous call to StartChanges.
+helpviewer_keywords: ["CommitChanges","CommitChanges method [Microsoft TV Technologies]","CommitChanges method [Microsoft TV Technologies]","IBDA_DeviceControl interface","IBDA_DeviceControl interface [Microsoft TV Technologies]","CommitChanges method","IBDA_DeviceControl.CommitChanges","IBDA_DeviceControl::CommitChanges","IBDA_DeviceControlCommitChanges","bdaiface/IBDA_DeviceControl::CommitChanges","mstv.ibda_devicecontrol_commitchanges"]
 old-location: mstv\ibda_devicecontrol_commitchanges.htm
 tech.root: mstv
 ms.assetid: 1f55346b-1d32-4eb9-84ef-4671cdd2bc61

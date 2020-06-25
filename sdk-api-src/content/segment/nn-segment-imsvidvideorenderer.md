@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidVideoRenderer
 title: IMSVidVideoRenderer (segment.h)
-description: The IMSVidVideoRenderer interface represents a video renderer device. The MSVidVideoRenderer object exposes this interface.This interface provides access to the Video Mixing Renderer (VMR) filter.helpviewer_keywords: ["IMSVidVideoRenderer","IMSVidVideoRenderer interface [Microsoft TV Technologies]","IMSVidVideoRenderer interface [Microsoft TV Technologies]","described","IMSVidVideoRendererInterface","mstv.imsvidvideorenderer","segment/IMSVidVideoRenderer"]
+description: The IMSVidVideoRenderer interface represents a video renderer device. The MSVidVideoRenderer object exposes this interface.This interface provides access to the Video Mixing Renderer (VMR) filter.
+helpviewer_keywords: ["IMSVidVideoRenderer","IMSVidVideoRenderer interface [Microsoft TV Technologies]","IMSVidVideoRenderer interface [Microsoft TV Technologies]","described","IMSVidVideoRendererInterface","mstv.imsvidvideorenderer","segment/IMSVidVideoRenderer"]
 old-location: mstv\imsvidvideorenderer.htm
 tech.root: mstv
 ms.assetid: 27eb53f8-ece8-43eb-8f94-b3d2d91548ad

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTypography.GetFontFeature
 title: IDWriteTypography::GetFontFeature (dwrite.h)
-description: Gets the font feature at the specified index.helpviewer_keywords: ["GetFontFeature","GetFontFeature method [Direct Write]","GetFontFeature method [Direct Write]","IDWriteTypography interface","IDWriteTypography interface [Direct Write]","GetFontFeature method","IDWriteTypography.GetFontFeature","IDWriteTypography::GetFontFeature","directwrite.IDWriteTypography_GetFontFeature","dwrite/IDWriteTypography::GetFontFeature"]
+description: Gets the font feature at the specified index.
+helpviewer_keywords: ["GetFontFeature","GetFontFeature method [Direct Write]","GetFontFeature method [Direct Write]","IDWriteTypography interface","IDWriteTypography interface [Direct Write]","GetFontFeature method","IDWriteTypography.GetFontFeature","IDWriteTypography::GetFontFeature","directwrite.IDWriteTypography_GetFontFeature","dwrite/IDWriteTypography::GetFontFeature"]
 old-location: directwrite\IDWriteTypography_GetFontFeature.htm
 tech.root: DirectWrite
 ms.assetid: deb6b466-a654-4bc7-863c-9db32aa4c036

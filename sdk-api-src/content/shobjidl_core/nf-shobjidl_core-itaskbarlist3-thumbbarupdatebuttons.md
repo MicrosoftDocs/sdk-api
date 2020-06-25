@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarUpdateButtons
 title: ITaskbarList3::ThumbBarUpdateButtons (shobjidl_core.h)
-description: Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarUpdateButtons method","ITaskbarList3.ThumbBarUpdateButtons","ITaskbarList3::ThumbBarUpdateButtons","ThumbBarUpdateButtons","ThumbBarUpdateButtons method [Windows Shell]","ThumbBarUpdateButtons method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_ThumbBarUpdateButtons","shell.ITaskbarList3_ThumbBarUpdateButtons","shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons"]
+description: Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
+helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarUpdateButtons method","ITaskbarList3.ThumbBarUpdateButtons","ITaskbarList3::ThumbBarUpdateButtons","ThumbBarUpdateButtons","ThumbBarUpdateButtons method [Windows Shell]","ThumbBarUpdateButtons method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_ThumbBarUpdateButtons","shell.ITaskbarList3_ThumbBarUpdateButtons","shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons"]
 old-location: shell\ITaskbarList3_ThumbBarUpdateButtons.htm
 tech.root: shell
 ms.assetid: 5bb38b1e-dc09-4868-b424-f11beca6e64f

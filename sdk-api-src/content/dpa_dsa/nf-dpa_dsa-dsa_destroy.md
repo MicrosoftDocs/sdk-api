@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DSA_Destroy
 title: DSA_Destroy function (dpa_dsa.h)
-description: Frees a dynamic structure array (DSA).helpviewer_keywords: ["DSA_Destroy","DSA_Destroy function [Windows Controls]","_win32_DSA_Destroy","_win32_DSA_Destroy_cpp","controls.DSA_Destroy","controls._win32_DSA_Destroy","dpa_dsa/DSA_Destroy"]
+description: Frees a dynamic structure array (DSA).
+helpviewer_keywords: ["DSA_Destroy","DSA_Destroy function [Windows Controls]","_win32_DSA_Destroy","_win32_DSA_Destroy_cpp","controls.DSA_Destroy","controls._win32_DSA_Destroy","dpa_dsa/DSA_Destroy"]
 old-location: controls\DSA_Destroy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroy.htm

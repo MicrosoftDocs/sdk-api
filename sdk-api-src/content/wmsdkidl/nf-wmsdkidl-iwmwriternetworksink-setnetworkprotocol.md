@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.SetNetworkProtocol
 title: IWMWriterNetworkSink::SetNetworkProtocol (wmsdkidl.h)
-description: The SetNetworkProtocol method sets the network protocol that the network sink uses. Currently, HTTP is the only protocol supported by the network sink.helpviewer_keywords: ["IWMWriterNetworkSink interface [windows Media Format]","SetNetworkProtocol method","IWMWriterNetworkSink.SetNetworkProtocol","IWMWriterNetworkSink::SetNetworkProtocol","IWMWriterNetworkSinkSetNetworkProtocol","SetNetworkProtocol","SetNetworkProtocol method [windows Media Format]","SetNetworkProtocol method [windows Media Format]","IWMWriterNetworkSink interface","wmformat.iwmwriternetworksink_setnetworkprotocol","wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol"]
+description: The SetNetworkProtocol method sets the network protocol that the network sink uses. Currently, HTTP is the only protocol supported by the network sink.
+helpviewer_keywords: ["IWMWriterNetworkSink interface [windows Media Format]","SetNetworkProtocol method","IWMWriterNetworkSink.SetNetworkProtocol","IWMWriterNetworkSink::SetNetworkProtocol","IWMWriterNetworkSinkSetNetworkProtocol","SetNetworkProtocol","SetNetworkProtocol method [windows Media Format]","SetNetworkProtocol method [windows Media Format]","IWMWriterNetworkSink interface","wmformat.iwmwriternetworksink_setnetworkprotocol","wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol"]
 old-location: wmformat\iwmwriternetworksink_setnetworkprotocol.htm
 tech.root: wmformat
 ms.assetid: 8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7

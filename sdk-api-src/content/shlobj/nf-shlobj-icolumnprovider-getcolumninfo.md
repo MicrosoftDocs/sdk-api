@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetColumnInfo
 title: IColumnProvider::GetColumnInfo (shlobj.h)
-description: Requests information about a column.helpviewer_keywords: ["GetColumnInfo","GetColumnInfo method [Windows Shell]","GetColumnInfo method [Windows Shell]","IColumnProvider interface","IColumnProvider interface [Windows Shell]","GetColumnInfo method","IColumnProvider.GetColumnInfo","IColumnProvider::GetColumnInfo","_win32_IColumnProvider_GetColumnInfo","shell.IColumnProvider_GetColumnInfo","shlobj/IColumnProvider::GetColumnInfo"]
+description: Requests information about a column.
+helpviewer_keywords: ["GetColumnInfo","GetColumnInfo method [Windows Shell]","GetColumnInfo method [Windows Shell]","IColumnProvider interface","IColumnProvider interface [Windows Shell]","GetColumnInfo method","IColumnProvider.GetColumnInfo","IColumnProvider::GetColumnInfo","_win32_IColumnProvider_GetColumnInfo","shell.IColumnProvider_GetColumnInfo","shlobj/IColumnProvider::GetColumnInfo"]
 old-location: shell\IColumnProvider_GetColumnInfo.htm
 tech.root: shell
 ms.assetid: 87196252-3835-4828-ad0a-0edcafb286b7

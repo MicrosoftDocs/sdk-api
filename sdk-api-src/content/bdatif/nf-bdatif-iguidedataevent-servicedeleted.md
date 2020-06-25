@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ServiceDeleted
 title: IGuideDataEvent::ServiceDeleted (bdatif.h)
-description: The ServiceDeleted method is called when a service has been deleted.helpviewer_keywords: ["IGuideDataEvent interface [Microsoft TV Technologies]","ServiceDeleted method","IGuideDataEvent.ServiceDeleted","IGuideDataEvent::ServiceDeleted","IGuideDataEventServiceDeleted","ServiceDeleted","ServiceDeleted method [Microsoft TV Technologies]","ServiceDeleted method [Microsoft TV Technologies]","IGuideDataEvent interface","bdatif/IGuideDataEvent::ServiceDeleted","mstv.iguidedataevent_servicedeleted"]
+description: The ServiceDeleted method is called when a service has been deleted.
+helpviewer_keywords: ["IGuideDataEvent interface [Microsoft TV Technologies]","ServiceDeleted method","IGuideDataEvent.ServiceDeleted","IGuideDataEvent::ServiceDeleted","IGuideDataEventServiceDeleted","ServiceDeleted","ServiceDeleted method [Microsoft TV Technologies]","ServiceDeleted method [Microsoft TV Technologies]","IGuideDataEvent interface","bdatif/IGuideDataEvent::ServiceDeleted","mstv.iguidedataevent_servicedeleted"]
 old-location: mstv\iguidedataevent_servicedeleted.htm
 tech.root: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPersistOptions
 title: IWICStreamProvider::GetPersistOptions (wincodecsdk.h)
-description: Gets the persist options used when initializing the component with a stream.helpviewer_keywords: ["GetPersistOptions","GetPersistOptions method [Windows Imaging Component]","GetPersistOptions method [Windows Imaging Component]","IWICStreamProvider interface","IWICStreamProvider interface [Windows Imaging Component]","GetPersistOptions method","IWICStreamProvider.GetPersistOptions","IWICStreamProvider::GetPersistOptions","_wic_codec_iwicstreamprovider_getpersistoptions","wic._wic_codec_iwicstreamprovider_getpersistoptions","wincodecsdk/IWICStreamProvider::GetPersistOptions"]
+description: Gets the persist options used when initializing the component with a stream.
+helpviewer_keywords: ["GetPersistOptions","GetPersistOptions method [Windows Imaging Component]","GetPersistOptions method [Windows Imaging Component]","IWICStreamProvider interface","IWICStreamProvider interface [Windows Imaging Component]","GetPersistOptions method","IWICStreamProvider.GetPersistOptions","IWICStreamProvider::GetPersistOptions","_wic_codec_iwicstreamprovider_getpersistoptions","wic._wic_codec_iwicstreamprovider_getpersistoptions","wincodecsdk/IWICStreamProvider::GetPersistOptions"]
 old-location: wic\_wic_codec_iwicstreamprovider_getpersistoptions.htm
 tech.root: wic
 ms.assetid: 244d4335-ee5f-434e-8d0b-4ba5d984b207

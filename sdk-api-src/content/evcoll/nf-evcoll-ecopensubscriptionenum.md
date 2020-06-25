@@ -1,7 +1,8 @@
 ---
 UID: NF:evcoll.EcOpenSubscriptionEnum
 title: EcOpenSubscriptionEnum function (evcoll.h)
-description: Creates a subscription enumerator to enumerate all registered subscriptions on the local machine.helpviewer_keywords: ["EcOpenSubscriptionEnum","EcOpenSubscriptionEnum function","evcoll/EcOpenSubscriptionEnum","wec.ecopensubscriptionenum","wes.ecopensubscriptionenum"]
+description: Creates a subscription enumerator to enumerate all registered subscriptions on the local machine.
+helpviewer_keywords: ["EcOpenSubscriptionEnum","EcOpenSubscriptionEnum function","evcoll/EcOpenSubscriptionEnum","wec.ecopensubscriptionenum","wes.ecopensubscriptionenum"]
 old-location: wec\ecopensubscriptionenum.htm
 tech.root: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb

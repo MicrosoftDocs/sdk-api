@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.BrowseToObject
 title: IExplorerBrowser::BrowseToObject (shobjidl_core.h)
-description: Browses to an object.helpviewer_keywords: ["BrowseToObject","BrowseToObject method [Windows Shell]","BrowseToObject method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","BrowseToObject method","IExplorerBrowser.BrowseToObject","IExplorerBrowser::BrowseToObject","SBSP_ABSOLUTE","SBSP_KEEPWORDWHEELTEXT","SBSP_NAVIGATEBACK","SBSP_NAVIGATEFORWARD","SBSP_PARENT","SBSP_RELATIVE","_shell_IExplorerBrowser_BrowseToObject","shell.IExplorerBrowser_BrowseToObject","shobjidl_core/IExplorerBrowser::BrowseToObject"]
+description: Browses to an object.
+helpviewer_keywords: ["BrowseToObject","BrowseToObject method [Windows Shell]","BrowseToObject method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","BrowseToObject method","IExplorerBrowser.BrowseToObject","IExplorerBrowser::BrowseToObject","SBSP_ABSOLUTE","SBSP_KEEPWORDWHEELTEXT","SBSP_NAVIGATEBACK","SBSP_NAVIGATEFORWARD","SBSP_PARENT","SBSP_RELATIVE","_shell_IExplorerBrowser_BrowseToObject","shell.IExplorerBrowser_BrowseToObject","shobjidl_core/IExplorerBrowser::BrowseToObject"]
 old-location: shell\IExplorerBrowser_BrowseToObject.htm
 tech.root: shell
 ms.assetid: cbfe2348-9fdc-4839-bf8b-b2a65caefa4c

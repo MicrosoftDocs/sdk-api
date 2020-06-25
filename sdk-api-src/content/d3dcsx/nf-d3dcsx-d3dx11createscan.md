@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateScan
 title: D3DX11CreateScan function (d3dcsx.h)
-description: Creates a scan context.helpviewer_keywords: ["084772c2-3360-63d5-fb00-82f536323a9d","D3DX11CreateScan","D3DX11CreateScan function [Direct3D 11]","d3dcsx/D3DX11CreateScan","direct3d11.d3dx11createscan"]
+description: Creates a scan context.
+helpviewer_keywords: ["084772c2-3360-63d5-fb00-82f536323a9d","D3DX11CreateScan","D3DX11CreateScan function [Direct3D 11]","d3dcsx/D3DX11CreateScan","direct3d11.d3dx11createscan"]
 old-location: direct3d11\d3dx11createscan.htm
 tech.root: direct3d11
 ms.assetid: daaa6913-a952-4f89-8a17-17e690ad8883

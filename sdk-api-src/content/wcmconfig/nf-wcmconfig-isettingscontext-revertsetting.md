@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.RevertSetting
 title: ISettingsContext::RevertSetting (wcmconfig.h)
-description: Reverts a setting in the namespace.helpviewer_keywords: ["ISettingsContext interface [SMI]","RevertSetting method","ISettingsContext.RevertSetting","ISettingsContext::RevertSetting","RevertSetting","RevertSetting method [SMI]","RevertSetting method [SMI]","ISettingsContext interface","smi.isettingscontext_revertsetting","wcmconfig/ISettingsContext::RevertSetting"]
+description: Reverts a setting in the namespace.
+helpviewer_keywords: ["ISettingsContext interface [SMI]","RevertSetting method","ISettingsContext.RevertSetting","ISettingsContext::RevertSetting","RevertSetting","RevertSetting method [SMI]","RevertSetting method [SMI]","ISettingsContext interface","smi.isettingscontext_revertsetting","wcmconfig/ISettingsContext::RevertSetting"]
 old-location: smi\isettingscontext_revertsetting.htm
 tech.root: SMI
 ms.assetid: 11f541e6-fd97-4756-91c1-44ba2e3d35b1

@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl.__WMT_VIDEOIMAGE_SAMPLE2
 title: WMT_VIDEOIMAGE_SAMPLE2 (wmsdkidl.h)
-description: The WMT_VIDEOIMAGE_SAMPLE2 structure describes a sample for a Video Image stream.helpviewer_keywords: ["WMT_VIDEOIMAGE_SAMPLE2","WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format]","wmformat.wmt_videoimage_sample2","wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2"]
+description: The WMT_VIDEOIMAGE_SAMPLE2 structure describes a sample for a Video Image stream.
+helpviewer_keywords: ["WMT_VIDEOIMAGE_SAMPLE2","WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format]","wmformat.wmt_videoimage_sample2","wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2"]
 old-location: wmformat\wmt_videoimage_sample2.htm
 tech.root: wmformat
 ms.assetid: 0c4fa9e2-9b7b-4c9e-be58-e28da408337d

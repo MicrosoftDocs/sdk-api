@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.FillRect
 title: FillRect function (winuser.h)
-description: The FillRect function fills a rectangle by using the specified brush. This function includes the left and top borders, but excludes the right and bottom borders of the rectangle.helpviewer_keywords: ["FillRect","FillRect function [Windows GDI]","_win32_FillRect","gdi.fillrect","winuser/FillRect"]
+description: The FillRect function fills a rectangle by using the specified brush. This function includes the left and top borders, but excludes the right and bottom borders of the rectangle.
+helpviewer_keywords: ["FillRect","FillRect function [Windows GDI]","_win32_FillRect","gdi.fillrect","winuser/FillRect"]
 old-location: gdi\fillrect.htm
 tech.root: gdi
 ms.assetid: 98ab34da-ea07-4446-a62e-509c849d95f9

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS
-description: Specifies input stream arguments for an input stream passed to ID3D12VideoCommandList::ProcessFrames.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS","D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS",""]
+description: Specifies input stream arguments for an input stream passed to ID3D12VideoCommandList::ProcessFrames.
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS","D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS",""]
 tech.root: mf
 ms.assetid: 63497484-1bac-47d4-8fb9-6cf504a6f6f8
 ms.date: 05/28/2019

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_MediaPhysicallyBlank
 title: IDiscFormat2::get_MediaPhysicallyBlank (imapi2.h)
-description: Determines if the current media is reported as physically blank by the drive.helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","get_MediaPhysicallyBlank method","IDiscFormat2.get_MediaPhysicallyBlank","IDiscFormat2::get_MediaPhysicallyBlank","get_MediaPhysicallyBlank","get_MediaPhysicallyBlank method [IMAPI]","get_MediaPhysicallyBlank method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_get_mediaphysicallyblank","imapi2/IDiscFormat2::get_MediaPhysicallyBlank"]
+description: Determines if the current media is reported as physically blank by the drive.
+helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","get_MediaPhysicallyBlank method","IDiscFormat2.get_MediaPhysicallyBlank","IDiscFormat2::get_MediaPhysicallyBlank","get_MediaPhysicallyBlank","get_MediaPhysicallyBlank method [IMAPI]","get_MediaPhysicallyBlank method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_get_mediaphysicallyblank","imapi2/IDiscFormat2::get_MediaPhysicallyBlank"]
 old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm
 tech.root: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6

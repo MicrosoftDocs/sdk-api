@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionHueRotationEffect
 title: IDCompositionHueRotationEffect (dcomp.h)
-description: The hue rotate effect alters the hue of an image by applying a color matrix based on the rotation angle.helpviewer_keywords: ["IDCompositionHueRotationEffect","IDCompositionHueRotationEffect interface [DirectComposition]","IDCompositionHueRotationEffect interface [DirectComposition]","described","dcomp/IDCompositionHueRotationEffect","directcomp.idcompositionhuerotationeffect"]
+description: The hue rotate effect alters the hue of an image by applying a color matrix based on the rotation angle.
+helpviewer_keywords: ["IDCompositionHueRotationEffect","IDCompositionHueRotationEffect interface [DirectComposition]","IDCompositionHueRotationEffect interface [DirectComposition]","described","dcomp/IDCompositionHueRotationEffect","directcomp.idcompositionhuerotationeffect"]
 old-location: directcomp\idcompositionhuerotationeffect.htm
 tech.root: directcomp
 ms.assetid: BD11C779-78C6-4961-9DF1-2521B8F91FF5

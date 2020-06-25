@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetSelectedColumn
 title: ListView_GetSelectedColumn macro (commctrl.h)
-description: Gets an integer that specifies the selected column. You can use this macro or send the LVM_GETSELECTEDCOLUMN message explicitly.helpviewer_keywords: ["ListView_GetSelectedColumn","ListView_GetSelectedColumn macro [Windows Controls]","_win32_ListView_GetSelectedColumn","_win32_ListView_GetSelectedColumn_cpp","commctrl/ListView_GetSelectedColumn","controls.ListView_GetSelectedColumn","controls._win32_ListView_GetSelectedColumn"]
+description: Gets an integer that specifies the selected column. You can use this macro or send the LVM_GETSELECTEDCOLUMN message explicitly.
+helpviewer_keywords: ["ListView_GetSelectedColumn","ListView_GetSelectedColumn macro [Windows Controls]","_win32_ListView_GetSelectedColumn","_win32_ListView_GetSelectedColumn_cpp","commctrl/ListView_GetSelectedColumn","controls.ListView_GetSelectedColumn","controls._win32_ListView_GetSelectedColumn"]
 old-location: controls\ListView_GetSelectedColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.htm

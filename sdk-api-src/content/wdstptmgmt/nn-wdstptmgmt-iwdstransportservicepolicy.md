@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServicePolicy
 title: IWdsTransportServicePolicy (wdstptmgmt.h)
-description: Represents the service policy part of the WDS transport server's configuration.helpviewer_keywords: ["IWdsTransportServicePolicy","IWdsTransportServicePolicy interface [Windows Deployment Services]","IWdsTransportServicePolicy interface [Windows Deployment Services]","described","wds.iwdstransportservicepolicy","wdstptmgmt/IWdsTransportServicePolicy"]
+description: Represents the service policy part of the WDS transport server's configuration.
+helpviewer_keywords: ["IWdsTransportServicePolicy","IWdsTransportServicePolicy interface [Windows Deployment Services]","IWdsTransportServicePolicy interface [Windows Deployment Services]","described","wds.iwdstransportservicepolicy","wdstptmgmt/IWdsTransportServicePolicy"]
 old-location: wds\iwdstransportservicepolicy.htm
 tech.root: wds
 ms.assetid: 0a522633-87da-426c-9778-30949257e931

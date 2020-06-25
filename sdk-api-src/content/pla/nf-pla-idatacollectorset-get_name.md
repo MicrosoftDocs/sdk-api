@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Name
 title: IDataCollectorSet::get_Name (pla.h)
-description: Retrieves the unique name used to identify the data collector set.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Name property","IDataCollectorSet.Name","IDataCollectorSet.get_Name","IDataCollectorSet::Name","IDataCollectorSet::get_Name","Name property [PLA]","Name property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_name","get_Name","pla.idatacollectorset_get_name","pla/IDataCollectorSet::Name","pla/IDataCollectorSet::get_Name"]
+description: Retrieves the unique name used to identify the data collector set.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Name property","IDataCollectorSet.Name","IDataCollectorSet.get_Name","IDataCollectorSet::Name","IDataCollectorSet::get_Name","Name property [PLA]","Name property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_name","get_Name","pla.idatacollectorset_get_name","pla/IDataCollectorSet::Name","pla/IDataCollectorSet::get_Name"]
 old-location: pla\idatacollectorset_get_name.htm
 tech.root: PLA
 ms.assetid: 69f6af39-b614-4957-a1e5-1f381c915f17

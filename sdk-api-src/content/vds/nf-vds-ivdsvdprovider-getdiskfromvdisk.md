@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsVdProvider.GetDiskFromVDisk
 title: IVdsVdProvider::GetDiskFromVDisk (vds.h)
-description: Returns an IVdsDisk interface pointer for a virtual disk given an IVdsVDisk interface pointer.helpviewer_keywords: ["GetDiskFromVDisk","GetDiskFromVDisk method","GetDiskFromVDisk method","IVdsVdProvider interface","IVdsVdProvider interface","GetDiskFromVDisk method","IVdsVdProvider.GetDiskFromVDisk","IVdsVdProvider::GetDiskFromVDisk","base.ivdsvdprovider_getdiskfromvdisk","vds/IVdsVdProvider::GetDiskFromVDisk"]
+description: Returns an IVdsDisk interface pointer for a virtual disk given an IVdsVDisk interface pointer.
+helpviewer_keywords: ["GetDiskFromVDisk","GetDiskFromVDisk method","GetDiskFromVDisk method","IVdsVdProvider interface","IVdsVdProvider interface","GetDiskFromVDisk method","IVdsVdProvider.GetDiskFromVDisk","IVdsVdProvider::GetDiskFromVDisk","base.ivdsvdprovider_getdiskfromvdisk","vds/IVdsVdProvider::GetDiskFromVDisk"]
 old-location: base\ivdsvdprovider_getdiskfromvdisk.htm
 tech.root: VDS
 ms.assetid: e0f1e7ef-fd72-48f5-895d-feabde4a3ded

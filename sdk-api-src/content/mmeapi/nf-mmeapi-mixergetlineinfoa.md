@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerGetLineInfoA
 title: mixerGetLineInfoA function (mmeapi.h)
-description: The mixerGetLineInfo function retrieves information about a specific line of a mixer device.helpviewer_keywords: ["_win32_mixerGetLineInfo","mixerGetLineInfo","mixerGetLineInfo function [Windows Multimedia]","mixerGetLineInfoA","mixerGetLineInfoW","mmeapi/mixerGetLineInfo","mmeapi/mixerGetLineInfoA","mmeapi/mixerGetLineInfoW","multimedia.mixergetlineinfo"]
+description: The mixerGetLineInfo function retrieves information about a specific line of a mixer device.
+helpviewer_keywords: ["_win32_mixerGetLineInfo","mixerGetLineInfo","mixerGetLineInfo function [Windows Multimedia]","mixerGetLineInfoA","mixerGetLineInfoW","mmeapi/mixerGetLineInfo","mmeapi/mixerGetLineInfoA","mmeapi/mixerGetLineInfoW","multimedia.mixergetlineinfo"]
 old-location: multimedia\mixergetlineinfo.htm
 tech.root: Multimedia
 ms.assetid: 125f09a6-df7f-4aa0-9180-410025b617e2
@@ -256,4 +257,9 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The mmeapi.h header defines mixerGetLineInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

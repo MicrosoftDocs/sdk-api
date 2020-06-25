@@ -1,7 +1,8 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecOutputTimestamp
 title: IWMCodecOutputTimestamp (wmcodecdsp.h)
-description: Gets the time stamp of the next video frame to be decoded.helpviewer_keywords: ["IWMCodecOutputTimestamp","IWMCodecOutputTimestamp interface [Media Foundation]","IWMCodecOutputTimestamp interface [Media Foundation]","described","codecapi.iwmcodecoutputtimestampinterface","mf.iwmcodecoutputtimestampinterface","wmcodecdsp/IWMCodecOutputTimestamp"]
+description: Gets the time stamp of the next video frame to be decoded.
+helpviewer_keywords: ["IWMCodecOutputTimestamp","IWMCodecOutputTimestamp interface [Media Foundation]","IWMCodecOutputTimestamp interface [Media Foundation]","described","codecapi.iwmcodecoutputtimestampinterface","mf.iwmcodecoutputtimestampinterface","wmcodecdsp/IWMCodecOutputTimestamp"]
 old-location: mf\iwmcodecoutputtimestampinterface.htm
 tech.root: medfound
 ms.assetid: 0dbac3fa-7521-434d-aa0a-2e8422c3da59

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializePredefined
 title: IWICPalette::InitializePredefined (wincodec.h)
-description: Initializes the palette to one of the pre-defined palettes specified by WICBitmapPaletteType and optionally adds a transparent color.helpviewer_keywords: ["IWICPalette interface [Windows Imaging Component]","InitializePredefined method","IWICPalette.InitializePredefined","IWICPalette::InitializePredefined","InitializePredefined","InitializePredefined method [Windows Imaging Component]","InitializePredefined method [Windows Imaging Component]","IWICPalette interface","_wic_codec_iwicpalette_initializepredefined","wic._wic_codec_iwicpalette_initializepredefined","wincodec/IWICPalette::InitializePredefined"]
+description: Initializes the palette to one of the pre-defined palettes specified by WICBitmapPaletteType and optionally adds a transparent color.
+helpviewer_keywords: ["IWICPalette interface [Windows Imaging Component]","InitializePredefined method","IWICPalette.InitializePredefined","IWICPalette::InitializePredefined","InitializePredefined","InitializePredefined method [Windows Imaging Component]","InitializePredefined method [Windows Imaging Component]","IWICPalette interface","_wic_codec_iwicpalette_initializepredefined","wic._wic_codec_iwicpalette_initializepredefined","wincodec/IWICPalette::InitializePredefined"]
 old-location: wic\_wic_codec_iwicpalette_initializepredefined.htm
 tech.root: wic
 ms.assetid: 507888ad-4e3f-4e31-83c4-63a473eb7681

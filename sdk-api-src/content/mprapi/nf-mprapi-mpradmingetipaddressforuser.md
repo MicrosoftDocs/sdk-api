@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminGetIpAddressForUser
 title: MprAdminGetIpAddressForUser function (mprapi.h)
-description: RAS calls the MprAdminGetIpAddressForUser function once for each user that requires an IP address.helpviewer_keywords: ["MprAdminGetIpAddressForUser","MprAdminGetIpAddressForUser callback","MprAdminGetIpAddressForUser callback function [RAS]","_mpr_mpradmingetipaddressforuser","mprapi/MprAdminGetIpAddressForUser","rras.mpradmingetipaddressforuser"]
+description: RAS calls the MprAdminGetIpAddressForUser function once for each user that requires an IP address.
+helpviewer_keywords: ["MprAdminGetIpAddressForUser","MprAdminGetIpAddressForUser callback","MprAdminGetIpAddressForUser callback function [RAS]","_mpr_mpradmingetipaddressforuser","mprapi/MprAdminGetIpAddressForUser","rras.mpradmingetipaddressforuser"]
 old-location: rras\mpradmingetipaddressforuser.htm
 tech.root: RRAS
 ms.assetid: 79deeb39-1916-4bb0-b701-8f0a05dc55af

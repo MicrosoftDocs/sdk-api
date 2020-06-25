@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleSaveToStream
 title: OleSaveToStream function (ole2.h)
-description: Saves an object with the IPersistStream interface on it to the specified stream.helpviewer_keywords: ["OleSaveToStream","OleSaveToStream function [COM]","_ole_OleSaveToStream","com.olesavetostream","ole/OleSaveToStream"]
+description: Saves an object with the IPersistStream interface on it to the specified stream.
+helpviewer_keywords: ["OleSaveToStream","OleSaveToStream function [COM]","_ole_OleSaveToStream","com.olesavetostream","ole/OleSaveToStream"]
 old-location: com\olesavetostream.htm
 tech.root: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da

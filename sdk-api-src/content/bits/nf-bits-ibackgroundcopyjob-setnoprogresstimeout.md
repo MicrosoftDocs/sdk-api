@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetNoProgressTimeout
 title: IBackgroundCopyJob::SetNoProgressTimeout (bits.h)
-description: Sets the length of time that BITS tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetNoProgressTimeout method","IBackgroundCopyJob.SetNoProgressTimeout","IBackgroundCopyJob::SetNoProgressTimeout","SetNoProgressTimeout","SetNoProgressTimeout method [BITS]","SetNoProgressTimeout method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setnoprogresstimeout","bits.ibackgroundcopyjob_setnoprogresstimeout","bits/IBackgroundCopyJob::SetNoProgressTimeout"]
+description: Sets the length of time that BITS tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
+helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetNoProgressTimeout method","IBackgroundCopyJob.SetNoProgressTimeout","IBackgroundCopyJob::SetNoProgressTimeout","SetNoProgressTimeout","SetNoProgressTimeout method [BITS]","SetNoProgressTimeout method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setnoprogresstimeout","bits.ibackgroundcopyjob_setnoprogresstimeout","bits/IBackgroundCopyJob::SetNoProgressTimeout"]
 old-location: bits\ibackgroundcopyjob_setnoprogresstimeout.htm
 tech.root: Bits
 ms.assetid: 3fcf46ed-197f-46ad-ac62-2c4a2e8b27ef

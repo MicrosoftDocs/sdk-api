@@ -138,6 +138,3 @@ The major Service Pack version number.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
  
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_RootPath
 title: IDataCollectorSet::put_RootPath (pla.h)
-description: Retrieves or sets the base path where the subdirectories are created.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","RootPath property","IDataCollectorSet.RootPath","IDataCollectorSet.put_RootPath","IDataCollectorSet::RootPath","IDataCollectorSet::get_RootPath","IDataCollectorSet::put_RootPath","RootPath property [PLA]","RootPath property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_rootpath","pla.idatacollectorset_get_rootpath","pla/IDataCollectorSet::RootPath","pla/IDataCollectorSet::get_RootPath","pla/IDataCollectorSet::put_RootPath","put_RootPath"]
+description: Retrieves or sets the base path where the subdirectories are created.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","RootPath property","IDataCollectorSet.RootPath","IDataCollectorSet.put_RootPath","IDataCollectorSet::RootPath","IDataCollectorSet::get_RootPath","IDataCollectorSet::put_RootPath","RootPath property [PLA]","RootPath property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_rootpath","pla.idatacollectorset_get_rootpath","pla/IDataCollectorSet::RootPath","pla/IDataCollectorSet::get_RootPath","pla/IDataCollectorSet::put_RootPath","put_RootPath"]
 old-location: pla\idatacollectorset_get_rootpath.htm
 tech.root: PLA
 ms.assetid: 42940cec-c76a-433c-9308-f030dacb05a4

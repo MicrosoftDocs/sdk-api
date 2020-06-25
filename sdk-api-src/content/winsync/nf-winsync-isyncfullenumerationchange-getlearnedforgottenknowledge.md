@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChange.GetLearnedForgottenKnowledge
 title: ISyncFullEnumerationChange::GetLearnedForgottenKnowledge (winsync.h)
-description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies this change during recovery synchronization.helpviewer_keywords: ["GetLearnedForgottenKnowledge","GetLearnedForgottenKnowledge method [Windows Sync]","GetLearnedForgottenKnowledge method [Windows Sync]","ISyncFullEnumerationChange interface","ISyncFullEnumerationChange interface [Windows Sync]","GetLearnedForgottenKnowledge method","ISyncFullEnumerationChange.GetLearnedForgottenKnowledge","ISyncFullEnumerationChange::GetLearnedForgottenKnowledge","winsync.isyncfullenumerationchange_getlearnedforgottenknowledge","winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge"]
+description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies this change during recovery synchronization.
+helpviewer_keywords: ["GetLearnedForgottenKnowledge","GetLearnedForgottenKnowledge method [Windows Sync]","GetLearnedForgottenKnowledge method [Windows Sync]","ISyncFullEnumerationChange interface","ISyncFullEnumerationChange interface [Windows Sync]","GetLearnedForgottenKnowledge method","ISyncFullEnumerationChange.GetLearnedForgottenKnowledge","ISyncFullEnumerationChange::GetLearnedForgottenKnowledge","winsync.isyncfullenumerationchange_getlearnedforgottenknowledge","winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge"]
 old-location: winsync\isyncfullenumerationchange_getlearnedforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 958bca82-67a7-401f-a9d3-a17f60496cba

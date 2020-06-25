@@ -1,7 +1,8 @@
 ---
 UID: NS:slpublic._tagSL_LICENSING_STATUS
 title: SL_LICENSING_STATUS (slpublic.h)
-description: Represents the licensing status.helpviewer_keywords: ["SL_LICENSING_STATUS","SL_LICENSING_STATUS structure [Security]","security.sl_licensing_status","slpublic/SL_LICENSING_STATUS"]
+description: Represents the licensing status.
+helpviewer_keywords: ["SL_LICENSING_STATUS","SL_LICENSING_STATUS structure [Security]","security.sl_licensing_status","slpublic/SL_LICENSING_STATUS"]
 old-location: security\sl_licensing_status.htm
 tech.root: SecSLApi
 ms.assetid: e7c857d9-6f63-4b1c-a562-abb158914a7d

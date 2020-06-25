@@ -1,7 +1,8 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager.GetSimpleAudioVolume
 title: IAudioSessionManager::GetSimpleAudioVolume (audiopolicy.h)
-description: The GetSimpleAudioVolume method retrieves a simple audio volume control.helpviewer_keywords: ["GetSimpleAudioVolume","GetSimpleAudioVolume method [Core Audio]","GetSimpleAudioVolume method [Core Audio]","IAudioSessionManager interface","IAudioSessionManager interface [Core Audio]","GetSimpleAudioVolume method","IAudioSessionManager.GetSimpleAudioVolume","IAudioSessionManager::GetSimpleAudioVolume","IAudioSessionManagerGetSimpleAudioVolume","audiopolicy/IAudioSessionManager::GetSimpleAudioVolume","coreaudio.iaudiosessionmanager_getsimpleaudiovolume"]
+description: The GetSimpleAudioVolume method retrieves a simple audio volume control.
+helpviewer_keywords: ["GetSimpleAudioVolume","GetSimpleAudioVolume method [Core Audio]","GetSimpleAudioVolume method [Core Audio]","IAudioSessionManager interface","IAudioSessionManager interface [Core Audio]","GetSimpleAudioVolume method","IAudioSessionManager.GetSimpleAudioVolume","IAudioSessionManager::GetSimpleAudioVolume","IAudioSessionManagerGetSimpleAudioVolume","audiopolicy/IAudioSessionManager::GetSimpleAudioVolume","coreaudio.iaudiosessionmanager_getsimpleaudiovolume"]
 old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849

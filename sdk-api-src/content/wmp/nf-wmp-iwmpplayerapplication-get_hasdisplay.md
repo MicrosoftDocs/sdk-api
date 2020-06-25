@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.get_hasDisplay
 title: IWMPPlayerApplication::get_hasDisplay (wmp.h)
-description: The get_hasDisplay method retrieves a value indicating whether video can display through the remoted Windows Media Player control.helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","get_hasDisplay method","IWMPPlayerApplication.get_hasDisplay","IWMPPlayerApplication::get_hasDisplay","IWMPPlayerApplicationget_hasDisplay","get_hasDisplay","get_hasDisplay method [Windows Media Player]","get_hasDisplay method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_get_hasdisplay","wmp/IWMPPlayerApplication::get_hasDisplay"]
+description: The get_hasDisplay method retrieves a value indicating whether video can display through the remoted Windows Media Player control.
+helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","get_hasDisplay method","IWMPPlayerApplication.get_hasDisplay","IWMPPlayerApplication::get_hasDisplay","IWMPPlayerApplicationget_hasDisplay","get_hasDisplay","get_hasDisplay method [Windows Media Player]","get_hasDisplay method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_get_hasdisplay","wmp/IWMPPlayerApplication::get_hasDisplay"]
 old-location: wmp\iwmpplayerapplication_get_hasdisplay.htm
 tech.root: WMP
 ms.assetid: a356929a-51de-49b6-bf7a-b3bd7fa35ea2

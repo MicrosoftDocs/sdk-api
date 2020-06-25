@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged
 title: IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged (uianimation.h)
-description: Handles loop iteration change events, which occur when a loop within a storyboard begins a new iteration.helpviewer_keywords: ["IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation]","OnLoopIterationChanged method","IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged","IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged","OnLoopIterationChanged","OnLoopIterationChanged method [Windows Animation]","OnLoopIterationChanged method [Windows Animation]","IUIAnimationLoopIterationChangeHandler2 interface","uianimation.iuianimationloopiterationchangehandler2_onloopiterationchanged","uianimation/IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged"]
+description: Handles loop iteration change events, which occur when a loop within a storyboard begins a new iteration.
+helpviewer_keywords: ["IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation]","OnLoopIterationChanged method","IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged","IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged","OnLoopIterationChanged","OnLoopIterationChanged method [Windows Animation]","OnLoopIterationChanged method [Windows Animation]","IUIAnimationLoopIterationChangeHandler2 interface","uianimation.iuianimationloopiterationchangehandler2_onloopiterationchanged","uianimation/IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged"]
 old-location: uianimation\iuianimationloopiterationchangehandler2_onloopiterationchanged.htm
 tech.root: UIAnimation
 ms.assetid: C441CDC6-944E-488A-B643-13A13E027DF6

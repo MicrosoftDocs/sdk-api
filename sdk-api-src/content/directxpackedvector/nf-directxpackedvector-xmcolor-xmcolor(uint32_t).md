@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(uint32_t)
 title: XMCOLOR::XMCOLOR(uint32_t) (directxpackedvector.h)
-description: Initializes a new instance of XMCOLOR from a uint32_t variable containing component data in a packed format.helpviewer_keywords: ["XMCOLOR","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR structure","XMCOLOR structure [DirectX Math Support APIs]","XMCOLOR constructor","XMCOLOR.XMCOLOR","XMCOLOR.XMCOLOR(uint32_t)","XMCOLOR::XMCOLOR","XMCOLOR::XMCOLOR(uint32_t)","dxmath.xmcolor_ctor_2"]
+description: Initializes a new instance of XMCOLOR from a uint32_t variable containing component data in a packed format.
+helpviewer_keywords: ["XMCOLOR","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR structure","XMCOLOR structure [DirectX Math Support APIs]","XMCOLOR constructor","XMCOLOR.XMCOLOR","XMCOLOR.XMCOLOR(uint32_t)","XMCOLOR::XMCOLOR","XMCOLOR::XMCOLOR(uint32_t)","dxmath.xmcolor_ctor_2"]
 old-location: dxmath\xmcolor_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor(uint32_t)

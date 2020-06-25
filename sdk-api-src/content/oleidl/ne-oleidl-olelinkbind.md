@@ -1,7 +1,8 @@
 ---
 UID: NE:oleidl.tagOLELINKBIND
 title: OLELINKBIND (oleidl.h)
-description: Controls binding operations to a link source.helpviewer_keywords: ["OLELINKBIND","OLELINKBIND enumeration [COM]","OLELINKBIND_EVENIFCLASSDIFF","_ole_OLELINKBIND","com.olelinkbind","oleidl/OLELINKBIND","oleidl/OLELINKBIND_EVENIFCLASSDIFF"]
+description: Controls binding operations to a link source.
+helpviewer_keywords: ["OLELINKBIND","OLELINKBIND enumeration [COM]","OLELINKBIND_EVENIFCLASSDIFF","_ole_OLELINKBIND","com.olelinkbind","oleidl/OLELINKBIND","oleidl/OLELINKBIND_EVENIFCLASSDIFF"]
 old-location: com\olelinkbind.htm
 tech.root: com
 ms.assetid: a5b8bb64-002f-4c85-b6bb-61b2fba88c0f

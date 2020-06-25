@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsDirectory
 title: IServiceSxsConfig::SxsDirectory (comsvcs.h)
-description: Sets the directory for the side-by-side assembly for the enclosed work.helpviewer_keywords: ["IServiceSxsConfig interface [COM+]","SxsDirectory method","IServiceSxsConfig.SxsDirectory","IServiceSxsConfig::SxsDirectory","SxsDirectory","SxsDirectory method [COM+]","SxsDirectory method [COM+]","IServiceSxsConfig interface","_cos_IServiceSxsConfig_SxsDirectory","comsvcs/IServiceSxsConfig::SxsDirectory","cos.iservicesxsconfig_sxsdirectory"]
+description: Sets the directory for the side-by-side assembly for the enclosed work.
+helpviewer_keywords: ["IServiceSxsConfig interface [COM+]","SxsDirectory method","IServiceSxsConfig.SxsDirectory","IServiceSxsConfig::SxsDirectory","SxsDirectory","SxsDirectory method [COM+]","SxsDirectory method [COM+]","IServiceSxsConfig interface","_cos_IServiceSxsConfig_SxsDirectory","comsvcs/IServiceSxsConfig::SxsDirectory","cos.iservicesxsconfig_sxsdirectory"]
 old-location: cos\iservicesxsconfig_sxsdirectory.htm
 tech.root: cossdk
 ms.assetid: 5eb909a5-7730-4f0b-aee6-9bb8de076cea

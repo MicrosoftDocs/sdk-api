@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Device.CreateDeviceContext
 title: ID2D1Device::CreateDeviceContext (d2d1_1.h)
-description: Creates a new device context from a Direct2D device.helpviewer_keywords: ["CreateDeviceContext","CreateDeviceContext method [Direct2D]","CreateDeviceContext method [Direct2D]","ID2D1Device interface","ID2D1Device interface [Direct2D]","CreateDeviceContext method","ID2D1Device.CreateDeviceContext","ID2D1Device::CreateDeviceContext","d2d1_1/ID2D1Device::CreateDeviceContext","direct2d.id2d1device_createdevicecontext"]
+description: Creates a new device context from a Direct2D device.
+helpviewer_keywords: ["CreateDeviceContext","CreateDeviceContext method [Direct2D]","CreateDeviceContext method [Direct2D]","ID2D1Device interface","ID2D1Device interface [Direct2D]","CreateDeviceContext method","ID2D1Device.CreateDeviceContext","ID2D1Device::CreateDeviceContext","d2d1_1/ID2D1Device::CreateDeviceContext","direct2d.id2d1device_createdevicecontext"]
 old-location: direct2d\id2d1device_createdevicecontext.htm
 tech.root: Direct2D
 ms.assetid: d14255d4-ae59-42b4-ada9-bd7a3c5e8024

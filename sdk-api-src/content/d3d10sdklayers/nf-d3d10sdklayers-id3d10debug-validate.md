@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.Validate
 title: ID3D10Debug::Validate (d3d10sdklayers.h)
-description: Check the validity of pipeline state.helpviewer_keywords: ["ID3D10Debug interface [Direct3D 10]","Validate method","ID3D10Debug.Validate","ID3D10Debug::Validate","Validate","Validate method [Direct3D 10]","Validate method [Direct3D 10]","ID3D10Debug interface","c86b1899-e23f-c78e-1175-217019325010","d3d10sdklayers/ID3D10Debug::Validate","direct3d10.id3d10debug_validate"]
+description: Check the validity of pipeline state.
+helpviewer_keywords: ["ID3D10Debug interface [Direct3D 10]","Validate method","ID3D10Debug.Validate","ID3D10Debug::Validate","Validate","Validate method [Direct3D 10]","Validate method [Direct3D 10]","ID3D10Debug interface","c86b1899-e23f-c78e-1175-217019325010","d3d10sdklayers/ID3D10Debug::Validate","direct3d10.id3d10debug_validate"]
 old-location: direct3d10\id3d10debug_validate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_validate.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winml.IWinMLRuntime.LoadModel
 title: IWinMLRuntime::LoadModel (winml.h)
-description: Loads a WinML model.helpviewer_keywords: ["IWinMLRuntime interface","LoadModel method","IWinMLRuntime.LoadModel","IWinMLRuntime::LoadModel","LoadModel","LoadModel method","LoadModel method","IWinMLRuntime interface","MachineLearning.iwinmlruntime_loadmodel","winml/IWinMLRuntime::LoadModel"]
+description: Loads a WinML model.
+helpviewer_keywords: ["IWinMLRuntime interface","LoadModel method","IWinMLRuntime.LoadModel","IWinMLRuntime::LoadModel","LoadModel","LoadModel method","LoadModel method","IWinMLRuntime interface","MachineLearning.iwinmlruntime_loadmodel","winml/IWinMLRuntime::LoadModel"]
 old-location: machinelearning\iwinmlruntime_loadmodel.htm
 tech.root: MachineLearning
 ms.assetid: 75FC42E6-CFFA-4E85-A2D5-80322630E958

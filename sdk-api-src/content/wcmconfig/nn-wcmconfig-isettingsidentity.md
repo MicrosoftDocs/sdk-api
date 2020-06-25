@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ISettingsIdentity
 title: ISettingsIdentity (wcmconfig.h)
-description: Identifies a namespace to open or use.helpviewer_keywords: ["ISettingsIdentity","ISettingsIdentity interface [SMI]","ISettingsIdentity interface [SMI]","described","smi.isettingsidentity","wcmconfig/ISettingsIdentity"]
+description: Identifies a namespace to open or use.
+helpviewer_keywords: ["ISettingsIdentity","ISettingsIdentity interface [SMI]","ISettingsIdentity interface [SMI]","described","smi.isettingsidentity","wcmconfig/ISettingsIdentity"]
 old-location: smi\isettingsidentity.htm
 tech.root: SMI
 ms.assetid: aa9d5604-5b94-47d9-9e68-d708a656a5ea

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetLoop
 title: IMFMediaEngine::GetLoop (mfmediaengine.h)
-description: Queries whether the Media Engine will loop playback.helpviewer_keywords: ["GetLoop","GetLoop method [Media Foundation]","GetLoop method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetLoop method","IMFMediaEngine.GetLoop","IMFMediaEngine::GetLoop","mf.imfmediaengine_getloop","mfmediaengine/IMFMediaEngine::GetLoop"]
+description: Queries whether the Media Engine will loop playback.
+helpviewer_keywords: ["GetLoop","GetLoop method [Media Foundation]","GetLoop method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetLoop method","IMFMediaEngine.GetLoop","IMFMediaEngine::GetLoop","mf.imfmediaengine_getloop","mfmediaengine/IMFMediaEngine::GetLoop"]
 old-location: mf\imfmediaengine_getloop.htm
 tech.root: medfound
 ms.assetid: EBAB4E73-164D-4AE5-87A4-0D37C10071E9

@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetThumbnail
 title: IPhotoAcquireItem::GetThumbnail (photoacquire.h)
-description: The GetThumbnail method retrieves the thumbnail provided for an item.helpviewer_keywords: ["GetThumbnail","GetThumbnail method [Picture Acquisition]","GetThumbnail method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetThumbnail method","IPhotoAcquireItem.GetThumbnail","IPhotoAcquireItem::GetThumbnail","IPhotoAcquireItemGetThumbnail","photoacquire/IPhotoAcquireItem::GetThumbnail","picacq.iphotoacquireitem_getthumbnail"]
+description: The GetThumbnail method retrieves the thumbnail provided for an item.
+helpviewer_keywords: ["GetThumbnail","GetThumbnail method [Picture Acquisition]","GetThumbnail method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetThumbnail method","IPhotoAcquireItem.GetThumbnail","IPhotoAcquireItem::GetThumbnail","IPhotoAcquireItemGetThumbnail","photoacquire/IPhotoAcquireItem::GetThumbnail","picacq.iphotoacquireitem_getthumbnail"]
 old-location: picacq\iphotoacquireitem_getthumbnail.htm
 tech.root: acquisition
 ms.assetid: a347dc8b-7e95-4830-b848-ac3e7d495b3b

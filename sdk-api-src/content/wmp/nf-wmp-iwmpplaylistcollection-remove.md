@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.remove
 title: IWMPPlaylistCollection::remove (wmp.h)
-description: The remove method removes a playlist from the library.helpviewer_keywords: ["IWMPPlaylistCollection interface [Windows Media Player]","remove method","IWMPPlaylistCollection.remove","IWMPPlaylistCollection::remove","IWMPPlaylistCollectionremove","remove","remove method [Windows Media Player]","remove method [Windows Media Player]","IWMPPlaylistCollection interface","wmp.iwmpplaylistcollection_remove","wmp/IWMPPlaylistCollection::remove"]
+description: The remove method removes a playlist from the library.
+helpviewer_keywords: ["IWMPPlaylistCollection interface [Windows Media Player]","remove method","IWMPPlaylistCollection.remove","IWMPPlaylistCollection::remove","IWMPPlaylistCollectionremove","remove","remove method [Windows Media Player]","remove method [Windows Media Player]","IWMPPlaylistCollection interface","wmp.iwmpplaylistcollection_remove","wmp/IWMPPlaylistCollection::remove"]
 old-location: wmp\iwmpplaylistcollection_remove.htm
 tech.root: WMP
 ms.assetid: ed678c2c-bfde-424b-9c71-21270a32a08e

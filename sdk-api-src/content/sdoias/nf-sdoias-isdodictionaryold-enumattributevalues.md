@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.EnumAttributeValues
 title: ISdoDictionaryOld::EnumAttributeValues (sdoias.h)
-description: The EnumAttributeValues method retrieves the values for an enumerable attribute.helpviewer_keywords: ["EnumAttributeValues","EnumAttributeValues method [Network Policy Server]","EnumAttributeValues method [Network Policy Server]","ISdoDictionaryOld interface","ISdoDictionaryOld interface [Network Policy Server]","EnumAttributeValues method","ISdoDictionaryOld.EnumAttributeValues","ISdoDictionaryOld::EnumAttributeValues","_sdo_isdodictionaryold_enumattributevalues","nps.SDO_isdodictionaryold_enumattributevalues","sdo.isdodictionaryold_enumattributevalues","sdoias/ISdoDictionaryOld::EnumAttributeValues"]
+description: The EnumAttributeValues method retrieves the values for an enumerable attribute.
+helpviewer_keywords: ["EnumAttributeValues","EnumAttributeValues method [Network Policy Server]","EnumAttributeValues method [Network Policy Server]","ISdoDictionaryOld interface","ISdoDictionaryOld interface [Network Policy Server]","EnumAttributeValues method","ISdoDictionaryOld.EnumAttributeValues","ISdoDictionaryOld::EnumAttributeValues","_sdo_isdodictionaryold_enumattributevalues","nps.SDO_isdodictionaryold_enumattributevalues","sdo.isdodictionaryold_enumattributevalues","sdoias/ISdoDictionaryOld::EnumAttributeValues"]
 old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm
 tech.root: Nps
 ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a

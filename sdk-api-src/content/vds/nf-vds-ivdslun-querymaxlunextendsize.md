@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsLun.QueryMaxLunExtendSize
 title: IVdsLun::QueryMaxLunExtendSize (vds.h)
-description: Returns the maximum size by which a LUN can be extended.helpviewer_keywords: ["IVdsLun interface","QueryMaxLunExtendSize method","IVdsLun.QueryMaxLunExtendSize","IVdsLun::QueryMaxLunExtendSize","QueryMaxLunExtendSize","QueryMaxLunExtendSize method","QueryMaxLunExtendSize method","IVdsLun interface","base.ivdslun_querymaxlunextendsize","vds/IVdsLun::QueryMaxLunExtendSize","vdshwprv/IVdsLun::QueryMaxLunExtendSize"]
+description: Returns the maximum size by which a LUN can be extended.
+helpviewer_keywords: ["IVdsLun interface","QueryMaxLunExtendSize method","IVdsLun.QueryMaxLunExtendSize","IVdsLun::QueryMaxLunExtendSize","QueryMaxLunExtendSize","QueryMaxLunExtendSize method","QueryMaxLunExtendSize method","IVdsLun interface","base.ivdslun_querymaxlunextendsize","vds/IVdsLun::QueryMaxLunExtendSize","vdshwprv/IVdsLun::QueryMaxLunExtendSize"]
 old-location: base\ivdslun_querymaxlunextendsize.htm
 tech.root: VDS
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645

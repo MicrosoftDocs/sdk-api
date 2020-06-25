@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IRecoverableErrorData
 title: IRecoverableErrorData (winsync.h)
-description: Represents information about a recoverable error.helpviewer_keywords: ["IRecoverableErrorData","IRecoverableErrorData interface [Windows Sync]","IRecoverableErrorData interface [Windows Sync]","described","winsync.irecoverableerrordata","winsync/IRecoverableErrorData"]
+description: Represents information about a recoverable error.
+helpviewer_keywords: ["IRecoverableErrorData","IRecoverableErrorData interface [Windows Sync]","IRecoverableErrorData interface [Windows Sync]","described","winsync.irecoverableerrordata","winsync/IRecoverableErrorData"]
 old-location: winsync\irecoverableerrordata.htm
 tech.root: winsync
 ms.assetid: e99779ef-87c9-45ac-93dc-53ee1a201402

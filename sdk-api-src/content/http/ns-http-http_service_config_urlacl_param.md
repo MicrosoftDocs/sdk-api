@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_PARAM
 title: HTTP_SERVICE_CONFIG_URLACL_PARAM (http.h)
-description: Used to specify the permissions associated with a particular record in the URL namespace reservation store.helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_URLACL_PARAM","HTTP_SERVICE_CONFIG_URLACL_PARAM","HTTP_SERVICE_CONFIG_URLACL_PARAM structure [HTTP]","PHTTP_SERVICE_CONFIG_URLACL_PARAM","PHTTP_SERVICE_CONFIG_URLACL_PARAM structure pointer [HTTP]","_http_http_service_config_urlacl_param","http.http_service_config_urlacl_param","http/HTTP_SERVICE_CONFIG_URLACL_PARAM","http/PHTTP_SERVICE_CONFIG_URLACL_PARAM"]
+description: Used to specify the permissions associated with a particular record in the URL namespace reservation store.
+helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_URLACL_PARAM","HTTP_SERVICE_CONFIG_URLACL_PARAM","HTTP_SERVICE_CONFIG_URLACL_PARAM structure [HTTP]","PHTTP_SERVICE_CONFIG_URLACL_PARAM","PHTTP_SERVICE_CONFIG_URLACL_PARAM structure pointer [HTTP]","_http_http_service_config_urlacl_param","http.http_service_config_urlacl_param","http/HTTP_SERVICE_CONFIG_URLACL_PARAM","http/PHTTP_SERVICE_CONFIG_URLACL_PARAM"]
 old-location: http\http_service_config_urlacl_param.htm
 tech.root: http
 ms.assetid: 5fd50d77-cd2b-47d7-baa3-ed1d7fc934a7

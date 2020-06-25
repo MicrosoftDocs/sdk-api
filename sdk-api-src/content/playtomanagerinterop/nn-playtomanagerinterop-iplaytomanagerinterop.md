@@ -1,7 +1,8 @@
 ---
 UID: NN:playtomanagerinterop.IPlayToManagerInterop
 title: IPlayToManagerInterop (playtomanagerinterop.h)
-description: Enables access to PlayToManager methods in a Windows Store app that manages multiple windows.helpviewer_keywords: ["IPlayToManagerInterop","IPlayToManagerInterop interface [Windows Runtime]","IPlayToManagerInterop interface [Windows Runtime]","described","playtomanagerinterop/IPlayToManagerInterop","winrt.iplaytomanagerinterop"]
+description: Enables access to PlayToManager methods in a Windows Store app that manages multiple windows.
+helpviewer_keywords: ["IPlayToManagerInterop","IPlayToManagerInterop interface [Windows Runtime]","IPlayToManagerInterop interface [Windows Runtime]","described","playtomanagerinterop/IPlayToManagerInterop","winrt.iplaytomanagerinterop"]
 old-location: winrt\iplaytomanagerinterop.htm
 tech.root: WinRT
 ms.assetid: e7a8df61-e5ae-4eff-a4eb-e0a5cdae3b7f

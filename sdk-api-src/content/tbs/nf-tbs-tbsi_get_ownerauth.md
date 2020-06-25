@@ -1,7 +1,8 @@
 ---
 UID: NF:tbs.Tbsi_Get_OwnerAuth
 title: Tbsi_Get_OwnerAuth function (tbs.h)
-description: Retrieves the owner authorization of the TPM if the information is available in the local registry.helpviewer_keywords: ["TBS_OWNERAUTH_TYPE_ADMIN","TBS_OWNERAUTH_TYPE_ENDORSEMENT","TBS_OWNERAUTH_TYPE_ENDORSEMENT_20","TBS_OWNERAUTH_TYPE_FULL","TBS_OWNERAUTH_TYPE_STORAGE_20","TBS_OWNERAUTH_TYPE_USER","Tbsi_Get_OwnerAuth","Tbsi_Get_OwnerAuth function [TBS]","tbs.tbsi_get_ownerauth","tbs/Tbsi_Get_OwnerAuth"]
+description: Retrieves the owner authorization of the TPM if the information is available in the local registry.
+helpviewer_keywords: ["TBS_OWNERAUTH_TYPE_ADMIN","TBS_OWNERAUTH_TYPE_ENDORSEMENT","TBS_OWNERAUTH_TYPE_ENDORSEMENT_20","TBS_OWNERAUTH_TYPE_FULL","TBS_OWNERAUTH_TYPE_STORAGE_20","TBS_OWNERAUTH_TYPE_USER","Tbsi_Get_OwnerAuth","Tbsi_Get_OwnerAuth function [TBS]","tbs.tbsi_get_ownerauth","tbs/Tbsi_Get_OwnerAuth"]
 old-location: tbs\tbsi_get_ownerauth.htm
 tech.root: TBS
 ms.assetid: 9D265AD2-F992-4756-9A2D-03DADB69C7DC

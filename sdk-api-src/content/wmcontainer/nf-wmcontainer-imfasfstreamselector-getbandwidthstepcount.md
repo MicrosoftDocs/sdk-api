@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetBandwidthStepCount
 title: IMFASFStreamSelector::GetBandwidthStepCount (wmcontainer.h)
-description: Retrieves the number of bandwidth steps that exist for the content. This method is used for multiple bit rate (MBR) content.helpviewer_keywords: ["6b7105c1-7395-462f-ad52-daf621258714","GetBandwidthStepCount","GetBandwidthStepCount method [Media Foundation]","GetBandwidthStepCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetBandwidthStepCount method","IMFASFStreamSelector.GetBandwidthStepCount","IMFASFStreamSelector::GetBandwidthStepCount","mf.imfasfstreamselector_getbandwidthstepcount","wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount"]
+description: Retrieves the number of bandwidth steps that exist for the content. This method is used for multiple bit rate (MBR) content.
+helpviewer_keywords: ["6b7105c1-7395-462f-ad52-daf621258714","GetBandwidthStepCount","GetBandwidthStepCount method [Media Foundation]","GetBandwidthStepCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetBandwidthStepCount method","IMFASFStreamSelector.GetBandwidthStepCount","IMFASFStreamSelector::GetBandwidthStepCount","mf.imfasfstreamselector_getbandwidthstepcount","wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount"]
 old-location: mf\imfasfstreamselector_getbandwidthstepcount.htm
 tech.root: medfound
 ms.assetid: 6b7105c1-7395-462f-ad52-daf621258714

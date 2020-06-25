@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.operator-assign(XMFLOAT3PK &&)
 title: XMFLOAT3PK::operator-assign(XMFLOAT3PK &&) (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMFLOAT3PK to the current instance of XMFLOAT3PK.helpviewer_keywords: ["XMFLOAT3PK structure [DirectX Math Support APIs]","operator = method","XMFLOAT3PK.operator =(const XMFLOAT3PK&)","XMFLOAT3PK.operator-assign(XMFLOAT3PK &&)","XMFLOAT3PK.operator=","XMFLOAT3PK::operator-assign(XMFLOAT3PK &&)","XMFLOAT3PK::operator=","dxmath.xmfloat3pk_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3PK structure","operator="]
+description: Assigns the vector component data from one instance of XMFLOAT3PK to the current instance of XMFLOAT3PK.
+helpviewer_keywords: ["XMFLOAT3PK structure [DirectX Math Support APIs]","operator = method","XMFLOAT3PK.operator =(const XMFLOAT3PK&)","XMFLOAT3PK.operator-assign(XMFLOAT3PK &&)","XMFLOAT3PK.operator=","XMFLOAT3PK::operator-assign(XMFLOAT3PK &&)","XMFLOAT3PK::operator=","dxmath.xmfloat3pk_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3PK structure","operator="]
 old-location: dxmath\xmfloat3pk_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator = (const XMFLOAT3PK)

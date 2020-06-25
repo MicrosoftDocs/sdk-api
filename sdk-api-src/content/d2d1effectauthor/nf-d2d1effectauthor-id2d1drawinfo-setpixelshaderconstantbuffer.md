@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1DrawInfo.SetPixelShaderConstantBuffer
 title: ID2D1DrawInfo::SetPixelShaderConstantBuffer (d2d1effectauthor.h)
-description: Sets the constant buffer for this transform's pixel shader.helpviewer_keywords: ["ID2D1DrawInfo interface [Direct2D]","SetPixelShaderConstantBuffer method","ID2D1DrawInfo.SetPixelShaderConstantBuffer","ID2D1DrawInfo::SetPixelShaderConstantBuffer","SetPixelShaderConstantBuffer","SetPixelShaderConstantBuffer method [Direct2D]","SetPixelShaderConstantBuffer method [Direct2D]","ID2D1DrawInfo interface","d2d1effectauthor/ID2D1DrawInfo::SetPixelShaderConstantBuffer","direct2d.id2d1drawinfo_setpixelshaderconstantbuffer"]
+description: Sets the constant buffer for this transform's pixel shader.
+helpviewer_keywords: ["ID2D1DrawInfo interface [Direct2D]","SetPixelShaderConstantBuffer method","ID2D1DrawInfo.SetPixelShaderConstantBuffer","ID2D1DrawInfo::SetPixelShaderConstantBuffer","SetPixelShaderConstantBuffer","SetPixelShaderConstantBuffer method [Direct2D]","SetPixelShaderConstantBuffer method [Direct2D]","ID2D1DrawInfo interface","d2d1effectauthor/ID2D1DrawInfo::SetPixelShaderConstantBuffer","direct2d.id2d1drawinfo_setpixelshaderconstantbuffer"]
 old-location: direct2d\id2d1drawinfo_setpixelshaderconstantbuffer.htm
 tech.root: Direct2D
 ms.assetid: 3A32E831-3754-4EF5-B559-ED02EF747897

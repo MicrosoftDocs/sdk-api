@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptQueryProviderRegistration
 title: BCryptQueryProviderRegistration function (bcrypt.h)
-description: Retrieves information about a CNG provider.helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptQueryProviderRegistration","BCryptQueryProviderRegistration function [Security]","CRYPT_ANY","CRYPT_KM","CRYPT_MM","CRYPT_UM","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptQueryProviderRegistration","security.bcryptqueryproviderregistration"]
+description: Retrieves information about a CNG provider.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptQueryProviderRegistration","BCryptQueryProviderRegistration function [Security]","CRYPT_ANY","CRYPT_KM","CRYPT_MM","CRYPT_UM","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptQueryProviderRegistration","security.bcryptqueryproviderregistration"]
 old-location: security\bcryptqueryproviderregistration.htm
 tech.root: SecCNG
 ms.assetid: 28b8bca9-442f-4d58-86aa-8aa274777ede

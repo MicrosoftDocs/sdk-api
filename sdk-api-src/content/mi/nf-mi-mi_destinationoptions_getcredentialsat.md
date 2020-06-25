@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCredentialsAt
 title: MI_DestinationOptions_GetCredentialsAt function (mi.h)
-description: Get the credentials at the specified index.helpviewer_keywords: ["MI_DestinationOptions_GetCredentialsAt","MI_DestinationOptions_GetCredentialsAt function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCredentialsAt","wmi_v2.mi_destinationoptions_getcredentialsat"]
+description: Get the credentials at the specified index.
+helpviewer_keywords: ["MI_DestinationOptions_GetCredentialsAt","MI_DestinationOptions_GetCredentialsAt function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCredentialsAt","wmi_v2.mi_destinationoptions_getcredentialsat"]
 old-location: wmi_v2\mi_destinationoptions_getcredentialsat.htm
 tech.root: wmi_v2
 ms.assetid: 605f6486-f7d4-433e-9f56-49a868de9e8e

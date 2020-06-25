@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetType
 title: ID3D11DeviceContext::GetType (d3d11.h)
-description: Gets the type of device context.helpviewer_keywords: ["71b462ef-31c2-4015-fac5-a904701671c6","GetType","GetType method [Direct3D 11]","GetType method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GetType method","ID3D11DeviceContext.GetType","ID3D11DeviceContext::GetType","d3d11/ID3D11DeviceContext::GetType","direct3d11.id3d11devicecontext_gettype"]
+description: Gets the type of device context.
+helpviewer_keywords: ["71b462ef-31c2-4015-fac5-a904701671c6","GetType","GetType method [Direct3D 11]","GetType method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","GetType method","ID3D11DeviceContext.GetType","ID3D11DeviceContext::GetType","d3d11/ID3D11DeviceContext::GetType","direct3d11.id3d11devicecontext_gettype"]
 old-location: direct3d11\id3d11devicecontext_gettype.htm
 tech.root: direct3d11
 ms.assetid: fefe2cd7-26c1-4165-9c94-8843571f8824

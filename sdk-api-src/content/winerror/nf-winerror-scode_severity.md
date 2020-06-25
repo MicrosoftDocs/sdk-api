@@ -1,7 +1,8 @@
 ---
 UID: NF:winerror.SCODE_SEVERITY
 title: SCODE_SEVERITY macro (winerror.h)
-description: Extracts the severity field of the specified SCODE.helpviewer_keywords: ["SCODE_SEVERITY","SCODE_SEVERITY macro [COM]","_com_SCODE_SEVERITY","com.scode_severity","com.scode_severity_macro","winerror/SCODE_SEVERITY"]
+description: Extracts the severity field of the specified SCODE.
+helpviewer_keywords: ["SCODE_SEVERITY","SCODE_SEVERITY macro [COM]","_com_SCODE_SEVERITY","com.scode_severity","com.scode_severity_macro","winerror/SCODE_SEVERITY"]
 old-location: com\scode_severity_macro.htm
 tech.root: com
 ms.assetid: a1193f0c-e53e-4e63-b801-f1237bee29a1

@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagTRACKMOUSEEVENT
 title: TRACKMOUSEEVENT (winuser.h)
-description: Used by the TrackMouseEvent function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.helpviewer_keywords: ["*LPTRACKMOUSEEVENT","LPTRACKMOUSEEVENT","LPTRACKMOUSEEVENT structure pointer [Keyboard and Mouse Input]","TME_CANCEL","TME_HOVER","TME_LEAVE","TME_NONCLIENT","TME_QUERY","TRACKMOUSEEVENT","TRACKMOUSEEVENT structure [Keyboard and Mouse Input]","_win32_TRACKMOUSEEVENT_str","_win32_trackmouseevent_str_cpp","inputdev.trackmouseevent_str","winui._win32_trackmouseevent_str","winuser/LPTRACKMOUSEEVENT","winuser/TRACKMOUSEEVENT"]
+description: Used by the TrackMouseEvent function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
+helpviewer_keywords: ["*LPTRACKMOUSEEVENT","LPTRACKMOUSEEVENT","LPTRACKMOUSEEVENT structure pointer [Keyboard and Mouse Input]","TME_CANCEL","TME_HOVER","TME_LEAVE","TME_NONCLIENT","TME_QUERY","TRACKMOUSEEVENT","TRACKMOUSEEVENT structure [Keyboard and Mouse Input]","_win32_TRACKMOUSEEVENT_str","_win32_trackmouseevent_str_cpp","inputdev.trackmouseevent_str","winui._win32_trackmouseevent_str","winuser/LPTRACKMOUSEEVENT","winuser/TRACKMOUSEEVENT"]
 old-location: inputdev\trackmouseevent_str.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputstructures\trackmouseevent.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCertificate2
 title: IX509CertificateRequestCertificate2 (certenroll.h)
-description: The IX509CertificateRequestCertificate2 interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.helpviewer_keywords: ["IX509CertificateRequestCertificate2","IX509CertificateRequestCertificate2 interface [Security]","IX509CertificateRequestCertificate2 interface [Security]","described","certenroll/IX509CertificateRequestCertificate2","security.ix509certificaterequestcertificate2"]
+description: The IX509CertificateRequestCertificate2 interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
+helpviewer_keywords: ["IX509CertificateRequestCertificate2","IX509CertificateRequestCertificate2 interface [Security]","IX509CertificateRequestCertificate2 interface [Security]","described","certenroll/IX509CertificateRequestCertificate2","security.ix509certificaterequestcertificate2"]
 old-location: security\ix509certificaterequestcertificate2.htm
 tech.root: seccertenroll
 ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd

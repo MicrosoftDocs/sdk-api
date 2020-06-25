@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._compcolor
 title: COMPCOLOR (richedit.h)
-description: Contains color settings for a composition string.helpviewer_keywords: ["COMPCOLOR","COMPCOLOR structure [Windows Controls]","_win32_COMPCOLOR_str","_win32_COMPCOLOR_str_cpp","controls.COMPCOLOR","controls._win32_COMPCOLOR_str","richedit/COMPCOLOR"]
+description: Contains color settings for a composition string.
+helpviewer_keywords: ["COMPCOLOR","COMPCOLOR structure [Windows Controls]","_win32_COMPCOLOR_str","_win32_COMPCOLOR_str_cpp","controls.COMPCOLOR","controls._win32_COMPCOLOR_str","richedit/COMPCOLOR"]
 old-location: controls\COMPCOLOR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\compcolor.htm

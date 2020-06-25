@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Clone
 title: IEnumTfLanguageProfiles::Clone (msctf.h)
-description: IEnumTfLanguageProfiles::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfLanguageProfiles interface","IEnumTfLanguageProfiles interface [Text Services Framework]","Clone method","IEnumTfLanguageProfiles.Clone","IEnumTfLanguageProfiles::Clone","_tsf_ienumtflanguageprofiles_clone_ref","msctf/IEnumTfLanguageProfiles::Clone","tsf.ienumtflanguageprofiles_clone"]
+description: IEnumTfLanguageProfiles::Clone method
+helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfLanguageProfiles interface","IEnumTfLanguageProfiles interface [Text Services Framework]","Clone method","IEnumTfLanguageProfiles.Clone","IEnumTfLanguageProfiles::Clone","_tsf_ienumtflanguageprofiles_clone_ref","msctf/IEnumTfLanguageProfiles::Clone","tsf.ienumtflanguageprofiles_clone"]
 old-location: tsf\ienumtflanguageprofiles_clone.htm
 tech.root: TSF
 ms.assetid: 77fbb195-b3c8-4254-a4d9-117ea8052951

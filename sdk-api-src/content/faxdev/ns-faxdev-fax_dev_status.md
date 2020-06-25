@@ -1,7 +1,8 @@
 ---
 UID: NS:faxdev._FAX_DEV_STATUS
 title: FAX_DEV_STATUS (faxdev.h)
-description: The FAX_DEV_STATUS structure contains status and identification information about an individual active fax operation.helpviewer_keywords: ["*PFAX_DEV_STATUS","FAX_DEV_STATUS","FAX_DEV_STATUS structure [Fax Service]","PFAX_DEV_STATUS","PFAX_DEV_STATUS structure pointer [Fax Service]","_mfax_fax_dev_status_str","fax._mfax_fax_dev_status_str","faxdev/FAX_DEV_STATUS","faxdev/PFAX_DEV_STATUS"]
+description: The FAX_DEV_STATUS structure contains status and identification information about an individual active fax operation.
+helpviewer_keywords: ["*PFAX_DEV_STATUS","FAX_DEV_STATUS","FAX_DEV_STATUS structure [Fax Service]","PFAX_DEV_STATUS","PFAX_DEV_STATUS structure pointer [Fax Service]","_mfax_fax_dev_status_str","fax._mfax_fax_dev_status_str","faxdev/FAX_DEV_STATUS","faxdev/PFAX_DEV_STATUS"]
 old-location: fax\_mfax_fax_dev_status_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_0wz6.htm

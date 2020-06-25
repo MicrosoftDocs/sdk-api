@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCmp
 title: VarCmp function (oleauto.h)
-description: Compares two variants.helpviewer_keywords: ["NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNOREKASHIDA","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","VarCmp","VarCmp function [Automation]","_oa96_VarCmp","automat.varcmp","oleauto/VarCmp"]
+description: Compares two variants.
+helpviewer_keywords: ["NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNOREKASHIDA","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","VarCmp","VarCmp function [Automation]","_oa96_VarCmp","automat.varcmp","oleauto/VarCmp"]
 old-location: automat\varcmp.htm
 tech.root: automat
 ms.assetid: 00b96fa7-446c-450b-bd06-a966e1acb5ce

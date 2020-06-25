@@ -1,7 +1,8 @@
 ---
 UID: NN:comadmin.ICatalogObject
 title: ICatalogObject (comadmin.h)
-description: Represents items in collections on the COM+ catalog. ICatalogObject enables you to get and put properties exposed by objects in the catalog.helpviewer_keywords: ["ICatalogObject","ICatalogObject interface [COM+]","ICatalogObject interface [COM+]","described","_cos_ICatalogObject_Interface","comadmin/ICatalogObject","cos.icatalogobject"]
+description: Represents items in collections on the COM+ catalog. ICatalogObject enables you to get and put properties exposed by objects in the catalog.
+helpviewer_keywords: ["ICatalogObject","ICatalogObject interface [COM+]","ICatalogObject interface [COM+]","described","_cos_ICatalogObject_Interface","comadmin/ICatalogObject","cos.icatalogobject"]
 old-location: cos\icatalogobject.htm
 tech.root: cossdk
 ms.assetid: fe3f7452-57b2-4f9e-9b48-5dedfe519ac1

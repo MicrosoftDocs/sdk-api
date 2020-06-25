@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.CreateStdAccessibleObject
 title: CreateStdAccessibleObject function (oleacc.h)
-description: Creates an accessible object with the methods and properties of the specified type of system-provided user interface element.helpviewer_keywords: ["CreateStdAccessibleObject","CreateStdAccessibleObject function [Windows Accessibility]","_msaa_CreateStdAccessibleObject","msaa.createstdaccessibleobject","oleacc/CreateStdAccessibleObject","winauto.createstdaccessibleobject"]
+description: Creates an accessible object with the methods and properties of the specified type of system-provided user interface element.
+helpviewer_keywords: ["CreateStdAccessibleObject","CreateStdAccessibleObject function [Windows Accessibility]","_msaa_CreateStdAccessibleObject","msaa.createstdaccessibleobject","oleacc/CreateStdAccessibleObject","winauto.createstdaccessibleobject"]
 old-location: winauto\createstdaccessibleobject.htm
 tech.root: WinAuto
 ms.assetid: 50b6f391-98a4-4276-840f-028cc18e99ef

@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetPrivateProperties
 title: ResUtilGetPrivateProperties function (resapi.h)
-description: Returns private properties for a cluster object. The PRESUTIL_GET_PRIVATE_PROPERTIES type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_PRIVATE_PROPERTIES","PRESUTIL_GET_PRIVATE_PROPERTIES function [Failover Cluster]","ResUtilGetPrivateProperties","ResUtilGetPrivateProperties function [Failover Cluster]","_wolf_resutilgetprivateproperties","mscs.resutilgetprivateproperties","resapi/PRESUTIL_GET_PRIVATE_PROPERTIES","resapi/ResUtilGetPrivateProperties"]
+description: Returns private properties for a cluster object. The PRESUTIL_GET_PRIVATE_PROPERTIES type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_PRIVATE_PROPERTIES","PRESUTIL_GET_PRIVATE_PROPERTIES function [Failover Cluster]","ResUtilGetPrivateProperties","ResUtilGetPrivateProperties function [Failover Cluster]","_wolf_resutilgetprivateproperties","mscs.resutilgetprivateproperties","resapi/PRESUTIL_GET_PRIVATE_PROPERTIES","resapi/ResUtilGetPrivateProperties"]
 old-location: mscs\resutilgetprivateproperties.htm
 tech.root: MsCS
 ms.assetid: 84019a77-4ecd-4618-ab7d-458c6c855dfd

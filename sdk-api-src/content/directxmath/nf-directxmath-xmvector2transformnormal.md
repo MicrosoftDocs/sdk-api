@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2TransformNormal
 title: XMVector2TransformNormal function (directxmath.h)
-description: Transforms the 2D vector normal by the given matrix.helpviewer_keywords: ["Use DirectX..XMVector2TransformNormal","XMVector2TransformNormal","XMVector2TransformNormal method [DirectX Math Support APIs]","dxmath.xmvector2transformnormal"]
+description: Transforms the 2D vector normal by the given matrix.
+helpviewer_keywords: ["Use DirectX..XMVector2TransformNormal","XMVector2TransformNormal","XMVector2TransformNormal method [DirectX Math Support APIs]","dxmath.xmvector2transformnormal"]
 old-location: dxmath\xmvector2transformnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformNormal(XMVECTOR,XMMATRIX)

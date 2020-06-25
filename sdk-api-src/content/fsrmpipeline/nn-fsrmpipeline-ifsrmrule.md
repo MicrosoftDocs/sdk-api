@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmpipeline.IFsrmRule
 title: IFsrmRule (fsrmpipeline.h)
-description: Defines a rule.helpviewer_keywords: ["IFsrmRule","IFsrmRule interface [File Server Resource Manager]","IFsrmRule interface [File Server Resource Manager]","described","fs.ifsrmrule","fsrm.ifsrmrule","fsrm/IFsrmRule"]
+description: Defines a rule.
+helpviewer_keywords: ["IFsrmRule","IFsrmRule interface [File Server Resource Manager]","IFsrmRule interface [File Server Resource Manager]","described","fs.ifsrmrule","fsrm.ifsrmrule","fsrm/IFsrmRule"]
 old-location: fsrm\ifsrmrule.htm
 tech.root: fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e

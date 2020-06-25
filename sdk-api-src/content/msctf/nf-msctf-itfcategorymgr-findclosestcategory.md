@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.FindClosestCategory
 title: ITfCategoryMgr::FindClosestCategory (msctf.h)
-description: ITfCategoryMgr::FindClosestCategory methodhelpviewer_keywords: ["FindClosestCategory","FindClosestCategory method [Text Services Framework]","FindClosestCategory method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","FindClosestCategory method","ITfCategoryMgr.FindClosestCategory","ITfCategoryMgr::FindClosestCategory","_tsf_itfcategorymgr_findclosestcategory_ref","msctf/ITfCategoryMgr::FindClosestCategory","tsf.itfcategorymgr_findclosestcategory"]
+description: ITfCategoryMgr::FindClosestCategory method
+helpviewer_keywords: ["FindClosestCategory","FindClosestCategory method [Text Services Framework]","FindClosestCategory method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","FindClosestCategory method","ITfCategoryMgr.FindClosestCategory","ITfCategoryMgr::FindClosestCategory","_tsf_itfcategorymgr_findclosestcategory_ref","msctf/ITfCategoryMgr::FindClosestCategory","tsf.itfcategorymgr_findclosestcategory"]
 old-location: tsf\itfcategorymgr_findclosestcategory.htm
 tech.root: TSF
 ms.assetid: 16a78457-b89c-43ef-8604-fd6c2f93f928

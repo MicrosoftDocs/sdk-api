@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.SetCredentialFlags
 title: IWMSInternalAdminNetSource::SetCredentialFlags (wmsinternaladminnetsource.h)
-description: The SetCredentialFlags method is used to set the user preference for automatic password caching.helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","SetCredentialFlags method","IWMSInternalAdminNetSource.SetCredentialFlags","IWMSInternalAdminNetSource::SetCredentialFlags","IWMSInternalAdminNetSourceSetCredentialFlags","SetCredentialFlags","SetCredentialFlags method [windows Media Format]","SetCredentialFlags method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_setcredentialflags","wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags"]
+description: The SetCredentialFlags method is used to set the user preference for automatic password caching.
+helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","SetCredentialFlags method","IWMSInternalAdminNetSource.SetCredentialFlags","IWMSInternalAdminNetSource::SetCredentialFlags","IWMSInternalAdminNetSourceSetCredentialFlags","SetCredentialFlags","SetCredentialFlags method [windows Media Format]","SetCredentialFlags method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_setcredentialflags","wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags"]
 old-location: wmformat\iwmsinternaladminnetsource_setcredentialflags.htm
 tech.root: wmformat
 ms.assetid: af6208b3-84f6-44d1-9587-140044f2b2f0

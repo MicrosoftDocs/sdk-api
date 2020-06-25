@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DrawStateA
 title: DrawStateA function (winuser.h)
-description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.helpviewer_keywords: ["DSS_DISABLED","DSS_HIDEPREFIX","DSS_MONO","DSS_NORMAL","DSS_PREFIXONLY","DSS_RIGHT","DSS_UNION","DST_BITMAP","DST_COMPLEX","DST_ICON","DST_PREFIXTEXT","DST_TEXT","DrawState","DrawState function [Windows GDI]","DrawStateA","DrawStateW","_win32_DrawState","gdi.drawstate","winuser/DrawState","winuser/DrawStateA","winuser/DrawStateW"]
+description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.
+helpviewer_keywords: ["DSS_DISABLED","DSS_HIDEPREFIX","DSS_MONO","DSS_NORMAL","DSS_PREFIXONLY","DSS_RIGHT","DSS_UNION","DST_BITMAP","DST_COMPLEX","DST_ICON","DST_PREFIXTEXT","DST_TEXT","DrawState","DrawState function [Windows GDI]","DrawStateA","DrawStateW","_win32_DrawState","gdi.drawstate","winuser/DrawState","winuser/DrawStateA","winuser/DrawStateW"]
 old-location: gdi\drawstate.htm
 tech.root: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
@@ -277,4 +278,9 @@ If the function fails, the return value is zero.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines DrawState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

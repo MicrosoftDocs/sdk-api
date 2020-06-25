@@ -1,7 +1,8 @@
 ---
 UID: NE:exdisp.ShellWindowTypeConstants
 title: ShellWindowTypeConstants (exdisp.h)
-description: Specifies types of Shell windows.helpviewer_keywords: ["SWC_3RDPARTY","SWC_BROWSER","SWC_CALLBACK","SWC_DESKTOP","SWC_EXPLORER","ShellWindowTypeConstants","ShellWindowTypeConstants enumeration [Windows Shell]","_win32_ShellWindowTypeConstants","exdisp/SWC_3RDPARTY","exdisp/SWC_BROWSER","exdisp/SWC_CALLBACK","exdisp/SWC_DESKTOP","exdisp/SWC_EXPLORER","exdisp/ShellWindowTypeConstants","shell.ShellWindowTypeConstants"]
+description: Specifies types of Shell windows.
+helpviewer_keywords: ["SWC_3RDPARTY","SWC_BROWSER","SWC_CALLBACK","SWC_DESKTOP","SWC_EXPLORER","ShellWindowTypeConstants","ShellWindowTypeConstants enumeration [Windows Shell]","_win32_ShellWindowTypeConstants","exdisp/SWC_3RDPARTY","exdisp/SWC_BROWSER","exdisp/SWC_CALLBACK","exdisp/SWC_DESKTOP","exdisp/SWC_EXPLORER","exdisp/ShellWindowTypeConstants","shell.ShellWindowTypeConstants"]
 old-location: shell\ShellWindowTypeConstants.htm
 tech.root: shell
 ms.assetid: 79d4fcf3-5256-4e21-ab9a-94605e1d742f

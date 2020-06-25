@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.GetProcessWorkingSetSizeEx
 title: GetProcessWorkingSetSizeEx function (memoryapi.h)
-description: Retrieves the minimum and maximum working set sizes of the specified process.helpviewer_keywords: ["GetProcessWorkingSetSizeEx","GetProcessWorkingSetSizeEx function","QUOTA_LIMITS_HARDWS_MAX_DISABLE","QUOTA_LIMITS_HARDWS_MAX_ENABLE","QUOTA_LIMITS_HARDWS_MIN_DISABLE","QUOTA_LIMITS_HARDWS_MIN_ENABLE","base.getprocessworkingsetsizeex","memoryapi/GetProcessWorkingSetSizeEx","winbase/GetProcessWorkingSetSizeEx"]
+description: Retrieves the minimum and maximum working set sizes of the specified process.
+helpviewer_keywords: ["GetProcessWorkingSetSizeEx","GetProcessWorkingSetSizeEx function","QUOTA_LIMITS_HARDWS_MAX_DISABLE","QUOTA_LIMITS_HARDWS_MAX_ENABLE","QUOTA_LIMITS_HARDWS_MIN_DISABLE","QUOTA_LIMITS_HARDWS_MIN_ENABLE","base.getprocessworkingsetsizeex","memoryapi/GetProcessWorkingSetSizeEx","winbase/GetProcessWorkingSetSizeEx"]
 old-location: base\getprocessworkingsetsizeex.htm
 tech.root: ProcThread
 ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381

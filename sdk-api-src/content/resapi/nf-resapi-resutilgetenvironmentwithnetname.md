@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetEnvironmentWithNetName
 title: ResUtilGetEnvironmentWithNetName function (resapi.h)
-description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.helpviewer_keywords: ["PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME","PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster]","ResUtilGetEnvironmentWithNetName","ResUtilGetEnvironmentWithNetName function [Failover Cluster]","_wolf_resutilgetenvironmentwithnetname","mscs.resutilgetenvironmentwithnetname","resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME","resapi/ResUtilGetEnvironmentWithNetName"]
+description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.
+helpviewer_keywords: ["PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME","PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME function [Failover Cluster]","ResUtilGetEnvironmentWithNetName","ResUtilGetEnvironmentWithNetName function [Failover Cluster]","_wolf_resutilgetenvironmentwithnetname","mscs.resutilgetenvironmentwithnetname","resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME","resapi/ResUtilGetEnvironmentWithNetName"]
 old-location: mscs\resutilgetenvironmentwithnetname.htm
 tech.root: MsCS
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810

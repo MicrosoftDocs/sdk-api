@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._IKEV2_PROJECTION_INFO
 title: IKEV2_PROJECTION_INFO (mprapi.h)
-description: Contains information obtained during Internet Key Exchange (IKE) negotiation.helpviewer_keywords: ["*PIKEV2_PROJECTION_INFO","IKEV2_PROJECTION_INFO","IKEV2_PROJECTION_INFO structure [RAS]","IPSEC_CIPHER_TYPE_3DES","IPSEC_CIPHER_TYPE_AES_128","IPSEC_CIPHER_TYPE_AES_192","IPSEC_CIPHER_TYPE_AES_256","MPRAPI_IKEV2_AUTH_USING_CERT","MPRAPI_IKEV2_AUTH_USING_EAP","PIKEV2_PROJECTION_INFO","PIKEV2_PROJECTION_INFO structure pointer [RAS]","mprapi/IKEV2_PROJECTION_INFO","mprapi/PIKEV2_PROJECTION_INFO","rras.ikev2_projection_info"]
+description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
+helpviewer_keywords: ["*PIKEV2_PROJECTION_INFO","IKEV2_PROJECTION_INFO","IKEV2_PROJECTION_INFO structure [RAS]","IPSEC_CIPHER_TYPE_3DES","IPSEC_CIPHER_TYPE_AES_128","IPSEC_CIPHER_TYPE_AES_192","IPSEC_CIPHER_TYPE_AES_256","MPRAPI_IKEV2_AUTH_USING_CERT","MPRAPI_IKEV2_AUTH_USING_EAP","PIKEV2_PROJECTION_INFO","PIKEV2_PROJECTION_INFO structure pointer [RAS]","mprapi/IKEV2_PROJECTION_INFO","mprapi/PIKEV2_PROJECTION_INFO","rras.ikev2_projection_info"]
 old-location: rras\ikev2_projection_info.htm
 tech.root: RRAS
 ms.assetid: 092ccaf9-d109-41a8-aa45-cf39f6bb70ca

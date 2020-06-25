@@ -1,7 +1,8 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx2
 title: IVssBackupComponentsEx2 (vsbackup.h)
-description: Defines additional methods that requesters can use to run backup and restore operations.helpviewer_keywords: ["IVssBackupComponentsEx2","IVssBackupComponentsEx2 interface","IVssBackupComponentsEx2 interface","described","base.ivssbackupcomponentsex2","vsbackup/IVssBackupComponentsEx2"]
+description: Defines additional methods that requesters can use to run backup and restore operations.
+helpviewer_keywords: ["IVssBackupComponentsEx2","IVssBackupComponentsEx2 interface","IVssBackupComponentsEx2 interface","described","base.ivssbackupcomponentsex2","vsbackup/IVssBackupComponentsEx2"]
 old-location: base\ivssbackupcomponentsex2.htm
 tech.root: VSS
 ms.assetid: 69d4d500-0e21-48bd-b90b-d06c88fde136

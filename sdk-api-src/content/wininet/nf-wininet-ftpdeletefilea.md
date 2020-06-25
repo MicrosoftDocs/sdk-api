@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.FtpDeleteFileA
 title: FtpDeleteFileA function (wininet.h)
-description: Deletes a file stored on the FTP server.helpviewer_keywords: ["FtpDeleteFile","FtpDeleteFile function [WinINet]","FtpDeleteFileA","FtpDeleteFileW","_inet_ftpdeletefile_function","wininet.ftpdeletefile","wininet/FtpDeleteFile","wininet/FtpDeleteFileA","wininet/FtpDeleteFileW"]
+description: Deletes a file stored on the FTP server.
+helpviewer_keywords: ["FtpDeleteFile","FtpDeleteFile function [WinINet]","FtpDeleteFileA","FtpDeleteFileW","_inet_ftpdeletefile_function","wininet.ftpdeletefile","wininet/FtpDeleteFile","wininet/FtpDeleteFileA","wininet/FtpDeleteFileW"]
 old-location: wininet\ftpdeletefile.htm
 tech.root: wininet
 ms.assetid: 16723c97-fd6f-40c2-844d-fc6d2dcc1a32
@@ -93,6 +94,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines FtpDeleteFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

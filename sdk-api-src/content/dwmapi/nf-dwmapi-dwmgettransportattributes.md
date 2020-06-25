@@ -1,7 +1,8 @@
 ---
 UID: NF:dwmapi.DwmGetTransportAttributes
 title: DwmGetTransportAttributes function (dwmapi.h)
-description: Retrieves transport attributes.helpviewer_keywords: ["DwmGetTransportAttributes","DwmGetTransportAttributes function [Desktop Window Manager]","_udwm_dwmgettransportattributes","_udwm_dwmgettransportattributes_cpp","dwm.dwmgettransportattributes","dwmapi/DwmGetTransportAttributes","winui._udwm_dwmgettransportattributes"]
+description: Retrieves transport attributes.
+helpviewer_keywords: ["DwmGetTransportAttributes","DwmGetTransportAttributes function [Desktop Window Manager]","_udwm_dwmgettransportattributes","_udwm_dwmgettransportattributes_cpp","dwm.dwmgettransportattributes","dwmapi/DwmGetTransportAttributes","winui._udwm_dwmgettransportattributes"]
 old-location: dwm\dwmgettransportattributes.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgettransportattributes.htm

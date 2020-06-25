@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetSubMenu
 title: GetSubMenu function (winuser.h)
-description: Retrieves a handle to the drop-down menu or submenu activated by the specified menu item.helpviewer_keywords: ["GetSubMenu","GetSubMenu function [Menus and Other Resources]","_win32_GetSubMenu","_win32_getsubmenu_cpp","menurc.getsubmenu","winui._win32_getsubmenu","winuser/GetSubMenu"]
+description: Retrieves a handle to the drop-down menu or submenu activated by the specified menu item.
+helpviewer_keywords: ["GetSubMenu","GetSubMenu function [Menus and Other Resources]","_win32_GetSubMenu","_win32_getsubmenu_cpp","menurc.getsubmenu","winui._win32_getsubmenu","winuser/GetSubMenu"]
 old-location: menurc\getsubmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getsubmenu.htm

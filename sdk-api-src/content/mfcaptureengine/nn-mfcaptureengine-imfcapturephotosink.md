@@ -1,7 +1,8 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePhotoSink
 title: IMFCapturePhotoSink (mfcaptureengine.h)
-description: Controls the photo sink.helpviewer_keywords: ["IMFCapturePhotoSink","IMFCapturePhotoSink interface [Media Foundation]","IMFCapturePhotoSink interface [Media Foundation]","described","mf.imfcapturephotosink","mfcaptureengine/IMFCapturePhotoSink"]
+description: Controls the photo sink.
+helpviewer_keywords: ["IMFCapturePhotoSink","IMFCapturePhotoSink interface [Media Foundation]","IMFCapturePhotoSink interface [Media Foundation]","described","mf.imfcapturephotosink","mfcaptureengine/IMFCapturePhotoSink"]
 old-location: mf\imfcapturephotosink.htm
 tech.root: medfound
 ms.assetid: 14BB9A86-47F2-4CFE-A932-3F2C7B6AF2BA

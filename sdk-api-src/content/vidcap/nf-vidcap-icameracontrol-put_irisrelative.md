@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.put_IrisRelative
 title: ICameraControl::put_IrisRelative (vidcap.h)
-description: The put_IrisRelative method sets the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_IrisRelative method","ICameraControl.put_IrisRelative","ICameraControl::put_IrisRelative","ICameraControlput_IrisRelative","dshow.icameracontrol_put_irisrelative","put_IrisRelative","put_IrisRelative method [DirectShow]","put_IrisRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_IrisRelative"]
+description: The put_IrisRelative method sets the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_IrisRelative method","ICameraControl.put_IrisRelative","ICameraControl::put_IrisRelative","ICameraControlput_IrisRelative","dshow.icameracontrol_put_irisrelative","put_IrisRelative","put_IrisRelative method [DirectShow]","put_IrisRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_IrisRelative"]
 old-location: dshow\icameracontrol_put_irisrelative.htm
 tech.root: DirectShow
 ms.assetid: 76cd3b1d-a6ce-4981-b82f-7ee83e118c33

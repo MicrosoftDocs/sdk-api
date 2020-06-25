@@ -1,7 +1,8 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0000_0001
 title: TfAnchor (msctf.h)
-description: Elements of the TfAnchor enumeration specify the start anchor or end anchor of an ITfRange object.helpviewer_keywords: ["TF_ANCHOR_END","TF_ANCHOR_START","TfAnchor","TfAnchor enumeration [Text Services Framework]","_tsf_tfanchor_ref","msctf/TF_ANCHOR_END","msctf/TF_ANCHOR_START","msctf/TfAnchor","tsf.tfanchor"]
+description: Elements of the TfAnchor enumeration specify the start anchor or end anchor of an ITfRange object.
+helpviewer_keywords: ["TF_ANCHOR_END","TF_ANCHOR_START","TfAnchor","TfAnchor enumeration [Text Services Framework]","_tsf_tfanchor_ref","msctf/TF_ANCHOR_END","msctf/TF_ANCHOR_START","msctf/TfAnchor","tsf.tfanchor"]
 old-location: tsf\tfanchor.htm
 tech.root: TSF
 ms.assetid: d670666f-2915-4a23-b825-b534a015e37f

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagREBARINFO
 title: REBARINFO (commctrl.h)
-description: Contains information that describes rebar control characteristics.helpviewer_keywords: ["*LPREBARINFO","LPREBARINFO","LPREBARINFO structure pointer [Windows Controls]","RBIM_IMAGELIST","REBARINFO","REBARINFO structure [Windows Controls]","_win32_REBARINFO","_win32_REBARINFO_cpp","commctrl/LPREBARINFO","commctrl/REBARINFO","controls.REBARINFO","controls._win32_REBARINFO"]
+description: Contains information that describes rebar control characteristics.
+helpviewer_keywords: ["*LPREBARINFO","LPREBARINFO","LPREBARINFO structure pointer [Windows Controls]","RBIM_IMAGELIST","REBARINFO","REBARINFO structure [Windows Controls]","_win32_REBARINFO","_win32_REBARINFO_cpp","commctrl/LPREBARINFO","commctrl/REBARINFO","controls.REBARINFO","controls._win32_REBARINFO"]
 old-location: controls\REBARINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetSelectedItems
 title: ICameraUIControl::GetSelectedItems (camerauicontrol.h)
-description: Gets the selected items.helpviewer_keywords: ["GetSelectedItems","GetSelectedItems method [Windows API]","GetSelectedItems method [Windows API]","ICameraUIControl interface","ICameraUIControl interface [Windows API]","GetSelectedItems method","ICameraUIControl.GetSelectedItems","ICameraUIControl::GetSelectedItems","camerauicontrol/ICameraUIControl::GetSelectedItems","winprog.icamerauicontrol_getselecteditems"]
+description: Gets the selected items.
+helpviewer_keywords: ["GetSelectedItems","GetSelectedItems method [Windows API]","GetSelectedItems method [Windows API]","ICameraUIControl interface","ICameraUIControl interface [Windows API]","GetSelectedItems method","ICameraUIControl.GetSelectedItems","ICameraUIControl::GetSelectedItems","camerauicontrol/ICameraUIControl::GetSelectedItems","winprog.icamerauicontrol_getselecteditems"]
 old-location: winprog\icamerauicontrol_getselecteditems.htm
 tech.root: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca

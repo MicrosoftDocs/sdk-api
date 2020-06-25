@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.AddContent
 title: IDirectManipulationCompositor::AddContent (directmanipulation.h)
-description: Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.helpviewer_keywords: ["AddContent","AddContent method [Direct Manipulation]","AddContent method [Direct Manipulation]","IDirectManipulationCompositor interface","IDirectManipulationCompositor interface [Direct Manipulation]","AddContent method","IDirectManipulationCompositor.AddContent","IDirectManipulationCompositor::AddContent","directmanipulation.idirectmanipulationcompositor_addcontent","directmanipulation/IDirectManipulationCompositor::AddContent"]
+description: Associates content (owned by the caller) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
+helpviewer_keywords: ["AddContent","AddContent method [Direct Manipulation]","AddContent method [Direct Manipulation]","IDirectManipulationCompositor interface","IDirectManipulationCompositor interface [Direct Manipulation]","AddContent method","IDirectManipulationCompositor.AddContent","IDirectManipulationCompositor::AddContent","directmanipulation.idirectmanipulationcompositor_addcontent","directmanipulation/IDirectManipulationCompositor::AddContent"]
 old-location: directmanipulation\idirectmanipulationcompositor_addcontent.htm
 tech.root: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a

@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeStream
 title: GetThemeStream function (uxtheme.h)
-description: Retrieves a data stream corresponding to a specified theme, starting from a specified part, state, and property.helpviewer_keywords: ["GetThemeStream","GetThemeStream function [Windows Controls]","controls.GetThemeStream","controls.inet_GetThemeStream","inet_GetThemeStream","inet_GetThemeStream_cpp","uxtheme/GetThemeStream"]
+description: Retrieves a data stream corresponding to a specified theme, starting from a specified part, state, and property.
+helpviewer_keywords: ["GetThemeStream","GetThemeStream function [Windows Controls]","controls.GetThemeStream","controls.inet_GetThemeStream","inet_GetThemeStream","inet_GetThemeStream_cpp","uxtheme/GetThemeStream"]
 old-location: controls\GetThemeStream.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestream.htm

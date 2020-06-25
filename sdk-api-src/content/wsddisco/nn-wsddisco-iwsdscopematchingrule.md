@@ -1,7 +1,8 @@
 ---
 UID: NN:wsddisco.IWSDScopeMatchingRule
 title: IWSDScopeMatchingRule (wsddisco.h)
-description: Is implemented by the client program to supply a custom scope matching rule which can be used to extend the standard scope matching rules defined in WS-Discovery.helpviewer_keywords: ["IWSDScopeMatchingRule","IWSDScopeMatchingRule interface","IWSDScopeMatchingRule interface","described","ncd.iwsdscopematchingrule","wsddisco/IWSDScopeMatchingRule"]
+description: Is implemented by the client program to supply a custom scope matching rule which can be used to extend the standard scope matching rules defined in WS-Discovery.
+helpviewer_keywords: ["IWSDScopeMatchingRule","IWSDScopeMatchingRule interface","IWSDScopeMatchingRule interface","described","ncd.iwsdscopematchingrule","wsddisco/IWSDScopeMatchingRule"]
 old-location: ncd\iwsdscopematchingrule.htm
 tech.root: WsdApi
 ms.assetid: c608215d-6c72-4567-bf81-15af665e8c52

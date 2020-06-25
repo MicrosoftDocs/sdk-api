@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_PropertySet_Clear
 title: MI_PropertySet_Clear function (mi.h)
-description: Removes all names from the property list. Afterwards, the count is zero. This allows property lists to be reused (without having to be destructed and reconstructed).helpviewer_keywords: ["MI_PropertySet_Clear","MI_PropertySet_Clear function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_Clear","wmi_v2.mi_propertyset_clear"]
+description: Removes all names from the property list. Afterwards, the count is zero. This allows property lists to be reused (without having to be destructed and reconstructed).
+helpviewer_keywords: ["MI_PropertySet_Clear","MI_PropertySet_Clear function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_Clear","wmi_v2.mi_propertyset_clear"]
 old-location: wmi_v2\mi_propertyset_clear.htm
 tech.root: wmi_v2
 ms.assetid: c5cd80b7-51bc-48dd-a49d-c3ce6d92fd55

@@ -1,7 +1,8 @@
 ---
 UID: NF:perflib.PerfIncrementULongCounterValue
 title: PerfIncrementULongCounterValue function (perflib.h)
-description: Increments the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.helpviewer_keywords: ["PerfIncrementULongCounterValue","PerfIncrementULongCounterValue function [Perf]","perf.perfincrementulongcountervalue","perflib/PerfIncrementULongCounterValue"]
+description: Increments the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
+helpviewer_keywords: ["PerfIncrementULongCounterValue","PerfIncrementULongCounterValue function [Perf]","perf.perfincrementulongcountervalue","perflib/PerfIncrementULongCounterValue"]
 old-location: perf\perfincrementulongcountervalue.htm
 tech.root: perfctrs
 ms.assetid: 002162a0-d782-4648-949e-178985fd1d44

@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineWebSupport
 title: IMFMediaEngineWebSupport (mfmediaengine.h)
-description: Enables playback of web audio.helpviewer_keywords: ["IMFMediaEngineWebSupport","IMFMediaEngineWebSupport interface [Media Foundation]","IMFMediaEngineWebSupport interface [Media Foundation]","described","mf.imfmediaenginewebsupport","mfmediaengine/IMFMediaEngineWebSupport"]
+description: Enables playback of web audio.
+helpviewer_keywords: ["IMFMediaEngineWebSupport","IMFMediaEngineWebSupport interface [Media Foundation]","IMFMediaEngineWebSupport interface [Media Foundation]","described","mf.imfmediaenginewebsupport","mfmediaengine/IMFMediaEngineWebSupport"]
 old-location: mf\imfmediaenginewebsupport.htm
 tech.root: medfound
 ms.assetid: 8EAA54AF-359A-48C4-9A23-BE7997DBAA89

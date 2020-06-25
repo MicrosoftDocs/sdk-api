@@ -1,7 +1,8 @@
 ---
 UID: NE:mobsync._tagSYNCMGRITEMFLAGS
 title: SYNCMGRITEMFLAGS (mobsync.h)
-description: Specifies information for the current item in the SYNCMGRITEM structure.helpviewer_keywords: ["SYNCMGRITEMFLAGS","SYNCMGRITEMFLAGS enumeration [Windows Shell]","SYNCMGRITEM_HASPROPERTIES","SYNCMGRITEM_HIDDEN","SYNCMGRITEM_LASTUPDATETIME","SYNCMGRITEM_MAYDELETEITEM","SYNCMGRITEM_ROAMINGUSER","SYNCMGRITEM_TEMPORARY","mobsync/SYNCMGRITEMFLAGS","mobsync/SYNCMGRITEM_HASPROPERTIES","mobsync/SYNCMGRITEM_HIDDEN","mobsync/SYNCMGRITEM_LASTUPDATETIME","mobsync/SYNCMGRITEM_MAYDELETEITEM","mobsync/SYNCMGRITEM_ROAMINGUSER","mobsync/SYNCMGRITEM_TEMPORARY","shell.syncmgr_syncmgritemflags","syncmgr.syncmgritemflags"]
+description: Specifies information for the current item in the SYNCMGRITEM structure.
+helpviewer_keywords: ["SYNCMGRITEMFLAGS","SYNCMGRITEMFLAGS enumeration [Windows Shell]","SYNCMGRITEM_HASPROPERTIES","SYNCMGRITEM_HIDDEN","SYNCMGRITEM_LASTUPDATETIME","SYNCMGRITEM_MAYDELETEITEM","SYNCMGRITEM_ROAMINGUSER","SYNCMGRITEM_TEMPORARY","mobsync/SYNCMGRITEMFLAGS","mobsync/SYNCMGRITEM_HASPROPERTIES","mobsync/SYNCMGRITEM_HIDDEN","mobsync/SYNCMGRITEM_LASTUPDATETIME","mobsync/SYNCMGRITEM_MAYDELETEITEM","mobsync/SYNCMGRITEM_ROAMINGUSER","mobsync/SYNCMGRITEM_TEMPORARY","shell.syncmgr_syncmgritemflags","syncmgr.syncmgritemflags"]
 old-location: shell\syncmgr_syncmgritemflags.htm
 tech.root: shell
 ms.assetid: 6297f10b-9a2c-4077-9dca-e5c0850d125a

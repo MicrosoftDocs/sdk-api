@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ClusterGetVolumePathName
 title: ClusterGetVolumePathName function (resapi.h)
-description: ClusterGetVolumePathName may be altered or unavailable. Instead, use GetVolumePathName.helpviewer_keywords: ["ClusterGetVolumePathName","ClusterGetVolumePathName function [Failover Cluster]","PCLUSTER_GET_VOLUME_PATH_NAME","PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster]","mscs.clustergetvolumepathname","resapi/ClusterGetVolumePathName","resapi/PCLUSTER_GET_VOLUME_PATH_NAME"]
+description: ClusterGetVolumePathName may be altered or unavailable. Instead, use GetVolumePathName.
+helpviewer_keywords: ["ClusterGetVolumePathName","ClusterGetVolumePathName function [Failover Cluster]","PCLUSTER_GET_VOLUME_PATH_NAME","PCLUSTER_GET_VOLUME_PATH_NAME function [Failover Cluster]","mscs.clustergetvolumepathname","resapi/ClusterGetVolumePathName","resapi/PCLUSTER_GET_VOLUME_PATH_NAME"]
 old-location: mscs\clustergetvolumepathname.htm
 tech.root: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d

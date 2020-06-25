@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpAddSubnetElementV6
 title: DhcpAddSubnetElementV6 function (dhcpsapi.h)
-description: The DhcpAddSubnetElementV6 function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.helpviewer_keywords: ["DhcpAddSubnetElementV6","DhcpAddSubnetElementV6 function [DHCP]","dhcp.dhcpaddsubnetelementv6","dhcpsapi/DhcpAddSubnetElementV6"]
+description: The DhcpAddSubnetElementV6 function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
+helpviewer_keywords: ["DhcpAddSubnetElementV6","DhcpAddSubnetElementV6 function [DHCP]","dhcp.dhcpaddsubnetelementv6","dhcpsapi/DhcpAddSubnetElementV6"]
 old-location: dhcp\dhcpaddsubnetelementv6.htm
 tech.root: DHCP
 ms.assetid: 9f009140-5301-4aee-a6e5-12f7cd56f906

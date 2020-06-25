@@ -1,7 +1,8 @@
 ---
 UID: NS:ndhelper.tagHYPOTHESIS
 title: HYPOTHESIS (ndhelper.h)
-description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.helpviewer_keywords: ["*PHYPOTHESIS","HYPOTHESIS","HYPOTHESIS structure [NDF]","HYPOTHESIS","*PHYPOTHESIS","HYPOTHESIS","*PHYPOTHESIS structure [NDF]","ndf.hypothesis","ndhelper/HYPOTHESIS"]
+description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.
+helpviewer_keywords: ["*PHYPOTHESIS","HYPOTHESIS","HYPOTHESIS structure [NDF]","HYPOTHESIS","*PHYPOTHESIS","HYPOTHESIS","*PHYPOTHESIS structure [NDF]","ndf.hypothesis","ndhelper/HYPOTHESIS"]
 old-location: ndf\hypothesis.htm
 tech.root: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca

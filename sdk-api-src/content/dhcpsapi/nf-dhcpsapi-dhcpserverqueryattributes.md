@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpServerQueryAttributes
 title: DhcpServerQueryAttributes function (dhcpsapi.h)
-description: Returns an array of attributes set on the DHCP server.helpviewer_keywords: ["DhcpServerQueryAttributes","DhcpServerQueryAttributes function [DHCP]","dhcp.dhcpserverqueryattributes","dhcpsapi/DhcpServerQueryAttributes"]
+description: Returns an array of attributes set on the DHCP server.
+helpviewer_keywords: ["DhcpServerQueryAttributes","DhcpServerQueryAttributes function [DHCP]","dhcp.dhcpserverqueryattributes","dhcpsapi/DhcpServerQueryAttributes"]
 old-location: dhcp\dhcpserverqueryattributes.htm
 tech.root: DHCP
 ms.assetid: 24c3e7b2-80eb-4fee-aea6-38243d25c50b

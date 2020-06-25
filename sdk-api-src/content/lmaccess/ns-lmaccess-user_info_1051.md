@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._USER_INFO_1051
 title: USER_INFO_1051 (lmaccess.h)
-description: The USER_INFO_1051 structure contains the relative ID (RID) associated with the user account. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1051","*PUSER_INFO_1051","LPUSER_INFO_1051","LPUSER_INFO_1051 structure pointer [Network Management]","PUSER_INFO_1051","PUSER_INFO_1051 structure pointer [Network Management]","USER_INFO_1051","USER_INFO_1051 structure [Network Management]","_win32_user_info_1051_str","lmaccess/LPUSER_INFO_1051","lmaccess/PUSER_INFO_1051","lmaccess/USER_INFO_1051","netmgmt.user_info_1051_str"]
+description: The USER_INFO_1051 structure contains the relative ID (RID) associated with the user account. This information level is valid only when you call the NetUserSetInfo function.
+helpviewer_keywords: ["*LPUSER_INFO_1051","*PUSER_INFO_1051","LPUSER_INFO_1051","LPUSER_INFO_1051 structure pointer [Network Management]","PUSER_INFO_1051","PUSER_INFO_1051 structure pointer [Network Management]","USER_INFO_1051","USER_INFO_1051 structure [Network Management]","_win32_user_info_1051_str","lmaccess/LPUSER_INFO_1051","lmaccess/PUSER_INFO_1051","lmaccess/USER_INFO_1051","netmgmt.user_info_1051_str"]
 old-location: netmgmt\user_info_1051_str.htm
 tech.root: NetMgmt
 ms.assetid: dbd7c63b-c383-48dd-98f2-087f2b41fc52

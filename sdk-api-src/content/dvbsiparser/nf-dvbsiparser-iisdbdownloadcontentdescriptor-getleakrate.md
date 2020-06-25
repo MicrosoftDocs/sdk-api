@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetLeakRate
 title: IIsdbDownloadContentDescriptor::GetLeakRate (dvbsiparser.h)
-description: Gets the leak rate of the transport buffer from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes per second.helpviewer_keywords: ["GetLeakRate","GetLeakRate method [Microsoft TV Technologies]","GetLeakRate method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetLeakRate method","IIsdbDownloadContentDescriptor.GetLeakRate","IIsdbDownloadContentDescriptor::GetLeakRate","dvbsiparser/IIsdbDownloadContentDescriptor::GetLeakRate","mstv.iisdbdownloadcontentdescriptor_getleakrate"]
+description: Gets the leak rate of the transport buffer from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes per second.
+helpviewer_keywords: ["GetLeakRate","GetLeakRate method [Microsoft TV Technologies]","GetLeakRate method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetLeakRate method","IIsdbDownloadContentDescriptor.GetLeakRate","IIsdbDownloadContentDescriptor::GetLeakRate","dvbsiparser/IIsdbDownloadContentDescriptor::GetLeakRate","mstv.iisdbdownloadcontentdescriptor_getleakrate"]
 old-location: mstv\iisdbdownloadcontentdescriptor_getleakrate.htm
 tech.root: mstv
 ms.assetid: 3e85f026-66bf-4c13-b476-3aca9e28b3b6

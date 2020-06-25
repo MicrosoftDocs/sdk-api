@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzReportSecurityEventFromParams
 title: AuthzReportSecurityEventFromParams function (authz.h)
-description: Generates a security audit for a registered security event source by using the specified array of audit parameters.helpviewer_keywords: ["AuthzReportSecurityEventFromParams","AuthzReportSecurityEventFromParams function [Security]","authz/AuthzReportSecurityEventFromParams","security.authzreportsecurityeventfromparams"]
+description: Generates a security audit for a registered security event source by using the specified array of audit parameters.
+helpviewer_keywords: ["AuthzReportSecurityEventFromParams","AuthzReportSecurityEventFromParams function [Security]","authz/AuthzReportSecurityEventFromParams","security.authzreportsecurityeventfromparams"]
 old-location: security\authzreportsecurityeventfromparams.htm
 tech.root: SecAuthZ
 ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08

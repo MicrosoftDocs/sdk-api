@@ -1,7 +1,8 @@
 ---
 UID: NF:projectedfslib.PrjWritePlaceholderInfo
 title: PrjWritePlaceholderInfo function (projectedfslib.h)
-description: Sends file or directory metadata to ProjFS.helpviewer_keywords: ["PrjWritePlaceholderInfo","PrjWritePlaceholderInfo function","ProjFS.prjwriteplaceholderinfo","projectedfslib/PrjWritePlaceholderInfo"]
+description: Sends file or directory metadata to ProjFS.
+helpviewer_keywords: ["PrjWritePlaceholderInfo","PrjWritePlaceholderInfo function","ProjFS.prjwriteplaceholderinfo","projectedfslib/PrjWritePlaceholderInfo"]
 old-location: projfs\prjwriteplaceholderinfo.htm
 tech.root: ProjFS
 ms.assetid: EAEA2D05-2FCF-46A7-AEBD-9CF085D868E1

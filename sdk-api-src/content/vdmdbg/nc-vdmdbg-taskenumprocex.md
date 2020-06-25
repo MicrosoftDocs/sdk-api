@@ -1,7 +1,8 @@
 ---
 UID: NC:vdmdbg.TASKENUMPROCEX
 title: TASKENUMPROCEX (vdmdbg.h)
-description: Implement this function to receive information for each task that VDMEnumTaskWOWEx enumerates.helpviewer_keywords: ["TASKENUMPROCEX","TASKENUMPROCEX callback","TASKENUMPROCEX callback function [Windows API]","vdmdbg/TASKENUMPROCEX","winprog.processtasks"]
+description: Implement this function to receive information for each task that VDMEnumTaskWOWEx enumerates.
+helpviewer_keywords: ["TASKENUMPROCEX","TASKENUMPROCEX callback","TASKENUMPROCEX callback function [Windows API]","vdmdbg/TASKENUMPROCEX","winprog.processtasks"]
 old-location: winprog\processtasks.htm
 tech.root: DevNotes
 ms.assetid: 0ef6b3b0-1b65-4919-8857-33651b9c154f

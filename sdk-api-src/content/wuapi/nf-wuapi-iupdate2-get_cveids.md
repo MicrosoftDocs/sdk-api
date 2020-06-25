@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate2.get_CveIDs
 title: IUpdate2::get_CveIDs (wuapi.h)
-description: Gets a collection of common vulnerabilities and exposures (CVE) IDs that are associated with the update.helpviewer_keywords: ["CveIDs property [Windows Update Agent]","CveIDs property [Windows Update Agent]","IUpdate2 interface","IUpdate2 interface [Windows Update Agent]","CveIDs property","IUpdate2.CveIDs","IUpdate2.get_CveIDs","IUpdate2::CveIDs","IUpdate2::get_CveIDs","get_CveIDs","wua.iupdate2_cveids","wuapi/IUpdate2::CveIDs","wuapi/IUpdate2::get_CveIDs"]
+description: Gets a collection of common vulnerabilities and exposures (CVE) IDs that are associated with the update.
+helpviewer_keywords: ["CveIDs property [Windows Update Agent]","CveIDs property [Windows Update Agent]","IUpdate2 interface","IUpdate2 interface [Windows Update Agent]","CveIDs property","IUpdate2.CveIDs","IUpdate2.get_CveIDs","IUpdate2::CveIDs","IUpdate2::get_CveIDs","get_CveIDs","wua.iupdate2_cveids","wuapi/IUpdate2::CveIDs","wuapi/IUpdate2::get_CveIDs"]
 old-location: wua\iupdate2_cveids.htm
 tech.root: Wua_Sdk
 ms.assetid: 536a3dea-708d-4885-bf07-4088cb83d9da

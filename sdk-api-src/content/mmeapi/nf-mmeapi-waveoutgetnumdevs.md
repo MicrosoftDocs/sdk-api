@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.waveOutGetNumDevs
 title: waveOutGetNumDevs function (mmeapi.h)
-description: The waveOutGetNumDevs function retrieves the number of waveform-audio output devices present in the system.helpviewer_keywords: ["_win32_waveOutGetNumDevs","mmeapi/waveOutGetNumDevs","multimedia.waveoutgetnumdevs","waveOutGetNumDevs","waveOutGetNumDevs function [Windows Multimedia]"]
+description: The waveOutGetNumDevs function retrieves the number of waveform-audio output devices present in the system.
+helpviewer_keywords: ["_win32_waveOutGetNumDevs","mmeapi/waveOutGetNumDevs","multimedia.waveoutgetnumdevs","waveOutGetNumDevs","waveOutGetNumDevs function [Windows Multimedia]"]
 old-location: multimedia\waveoutgetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: d9669c1c-36e2-4575-bf88-41c344d9c593

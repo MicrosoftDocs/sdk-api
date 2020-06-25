@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentDescribedBy
 title: IUIAutomationElement::get_CurrentDescribedBy (uiautomationclient.h)
-description: Retrieves an array of elements that describe this element.helpviewer_keywords: ["CurrentDescribedBy property [Windows Accessibility]","CurrentDescribedBy property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentDescribedBy property","IUIAutomationElement.CurrentDescribedBy","IUIAutomationElement.get_CurrentDescribedBy","IUIAutomationElement::CurrentDescribedBy","IUIAutomationElement::get_CurrentDescribedBy","get_CurrentDescribedBy","uiauto.uiauto_IUIAutomationElement_CurrentDescribedBy","uiauto_IUIAutomationElement_CurrentDescribedBy","uiautomationclient/IUIAutomationElement::CurrentDescribedBy","uiautomationclient/IUIAutomationElement::get_CurrentDescribedBy","winauto.uiauto_IUIAutomationElement_CurrentDescribedBy"]
+description: Retrieves an array of elements that describe this element.
+helpviewer_keywords: ["CurrentDescribedBy property [Windows Accessibility]","CurrentDescribedBy property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentDescribedBy property","IUIAutomationElement.CurrentDescribedBy","IUIAutomationElement.get_CurrentDescribedBy","IUIAutomationElement::CurrentDescribedBy","IUIAutomationElement::get_CurrentDescribedBy","get_CurrentDescribedBy","uiauto.uiauto_IUIAutomationElement_CurrentDescribedBy","uiauto_IUIAutomationElement_CurrentDescribedBy","uiautomationclient/IUIAutomationElement::CurrentDescribedBy","uiautomationclient/IUIAutomationElement::get_CurrentDescribedBy","winauto.uiauto_IUIAutomationElement_CurrentDescribedBy"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentDescribedBy.htm
 tech.root: WinAuto
 ms.assetid: 059d623e-d312-4427-bb2d-a1431dc68ccd

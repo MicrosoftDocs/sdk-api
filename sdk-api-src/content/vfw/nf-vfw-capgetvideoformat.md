@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capGetVideoFormat
 title: capGetVideoFormat macro (vfw.h)
-description: The capGetVideoFormat macro retrieves a copy of the video format in use. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.helpviewer_keywords: ["_win32_capGetVideoFormat","capGetVideoFormat","capGetVideoFormat macro [Windows Multimedia]","multimedia.capgetvideoformat","vfw/capGetVideoFormat"]
+description: The capGetVideoFormat macro retrieves a copy of the video format in use. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.
+helpviewer_keywords: ["_win32_capGetVideoFormat","capGetVideoFormat","capGetVideoFormat macro [Windows Multimedia]","multimedia.capgetvideoformat","vfw/capGetVideoFormat"]
 old-location: multimedia\capgetvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 2013bf9c-3759-440a-a62c-2ba3c54441c1

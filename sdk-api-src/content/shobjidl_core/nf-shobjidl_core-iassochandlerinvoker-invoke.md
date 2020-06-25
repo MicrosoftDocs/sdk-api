@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAssocHandlerInvoker.Invoke
 title: IAssocHandlerInvoker::Invoke (shobjidl_core.h)
-description: Invokes an associated application handler.helpviewer_keywords: ["IAssocHandlerInvoker interface [Windows Shell]","Invoke method","IAssocHandlerInvoker.Invoke","IAssocHandlerInvoker::Invoke","Invoke","Invoke method [Windows Shell]","Invoke method [Windows Shell]","IAssocHandlerInvoker interface","_shell_IAssocHandlerInvoker_Invoke","shell.IAssocHandlerInvoker_Invoke","shobjidl_core/IAssocHandlerInvoker::Invoke"]
+description: Invokes an associated application handler.
+helpviewer_keywords: ["IAssocHandlerInvoker interface [Windows Shell]","Invoke method","IAssocHandlerInvoker.Invoke","IAssocHandlerInvoker::Invoke","Invoke","Invoke method [Windows Shell]","Invoke method [Windows Shell]","IAssocHandlerInvoker interface","_shell_IAssocHandlerInvoker_Invoke","shell.IAssocHandlerInvoker_Invoke","shobjidl_core/IAssocHandlerInvoker::Invoke"]
 old-location: shell\IAssocHandlerInvoker_Invoke.htm
 tech.root: shell
 ms.assetid: 9b5de945-b177-4cbc-817c-447b2174323e

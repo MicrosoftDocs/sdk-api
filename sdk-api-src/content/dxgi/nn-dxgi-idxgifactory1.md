@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi.IDXGIFactory1
 title: IDXGIFactory1 (dxgi.h)
-description: The IDXGIFactory1 interface implements methods for generating DXGI objects.helpviewer_keywords: ["57d28dd0-2a8f-0523-2200-4d14c74f01d6","IDXGIFactory1","IDXGIFactory1 interface [DXGI]","IDXGIFactory1 interface [DXGI]","described","direct3ddxgi.idxgifactory1","dxgi/IDXGIFactory1"]
+description: The IDXGIFactory1 interface implements methods for generating DXGI objects.
+helpviewer_keywords: ["57d28dd0-2a8f-0523-2200-4d14c74f01d6","IDXGIFactory1","IDXGIFactory1 interface [DXGI]","IDXGIFactory1 interface [DXGI]","described","direct3ddxgi.idxgifactory1","dxgi/IDXGIFactory1"]
 old-location: direct3ddxgi\idxgifactory1.htm
 tech.root: direct3ddxgi
 ms.assetid: 271f1877-25a7-4d32-9ffa-cb174b366b74

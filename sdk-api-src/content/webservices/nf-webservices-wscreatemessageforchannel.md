@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateMessageForChannel
 title: WsCreateMessageForChannel function (webservices.h)
-description: Creates a message for use with a specified channel.helpviewer_keywords: ["WsCreateMessageForChannel","WsCreateMessageForChannel function [Web Services for Windows]","webservices/WsCreateMessageForChannel","wsw.wscreatemessageforchannel"]
+description: Creates a message for use with a specified channel.
+helpviewer_keywords: ["WsCreateMessageForChannel","WsCreateMessageForChannel function [Web Services for Windows]","webservices/WsCreateMessageForChannel","wsw.wscreatemessageforchannel"]
 old-location: wsw\wscreatemessageforchannel.htm
 tech.root: wsw
 ms.assetid: 0a4f076b-6725-45a9-8817-5dec3b647c4f

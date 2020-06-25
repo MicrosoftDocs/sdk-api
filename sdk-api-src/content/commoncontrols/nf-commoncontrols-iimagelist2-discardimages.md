@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList2.DiscardImages
 title: IImageList2::DiscardImages (commoncontrols.h)
-description: Discards images from list, as specified.helpviewer_keywords: ["DiscardImages","DiscardImages method [Windows Controls]","DiscardImages method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","DiscardImages method","IImageList2.DiscardImages","IImageList2::DiscardImages","ILDI_PURGE","ILDI_QUERYACCESS","ILDI_RESETACCESS","ILDI_STANDBY","_shell_IImageList2_DiscardImages","_shell_IImageList2_DiscardImages_cpp","commoncontrols/IImageList2::DiscardImages","controls.IImageList2_DiscardImages","controls._shell_IImageList2_DiscardImages"]
+description: Discards images from list, as specified.
+helpviewer_keywords: ["DiscardImages","DiscardImages method [Windows Controls]","DiscardImages method [Windows Controls]","IImageList2 interface","IImageList2 interface [Windows Controls]","DiscardImages method","IImageList2.DiscardImages","IImageList2::DiscardImages","ILDI_PURGE","ILDI_QUERYACCESS","ILDI_RESETACCESS","ILDI_STANDBY","_shell_IImageList2_DiscardImages","_shell_IImageList2_DiscardImages_cpp","commoncontrols/IImageList2::DiscardImages","controls.IImageList2_DiscardImages","controls._shell_IImageList2_DiscardImages"]
 old-location: controls\IImageList2_DiscardImages.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\discardimages.htm

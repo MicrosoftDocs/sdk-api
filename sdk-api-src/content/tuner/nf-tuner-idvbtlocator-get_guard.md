@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Guard
 title: IDVBTLocator::get_Guard (tuner.h)
-description: The get_Guard method retrieves the guard interval.helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","get_Guard method","IDVBTLocator.get_Guard","IDVBTLocator::get_Guard","IDVBTLocatorget_Guard","get_Guard","get_Guard method [Microsoft TV Technologies]","get_Guard method [Microsoft TV Technologies]","IDVBTLocator interface","mstv.idvbtlocator_get_guard","tuner/IDVBTLocator::get_Guard"]
+description: The get_Guard method retrieves the guard interval.
+helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","get_Guard method","IDVBTLocator.get_Guard","IDVBTLocator::get_Guard","IDVBTLocatorget_Guard","get_Guard","get_Guard method [Microsoft TV Technologies]","get_Guard method [Microsoft TV Technologies]","IDVBTLocator interface","mstv.idvbtlocator_get_guard","tuner/IDVBTLocator::get_Guard"]
 old-location: mstv\idvbtlocator_get_guard.htm
 tech.root: mstv
 ms.assetid: 74b56292-eb9e-4c66-9345-f348b3d21c19

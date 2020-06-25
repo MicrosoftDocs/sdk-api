@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHGetAssocKeys
 title: SHGetAssocKeys function (shlwapi.h)
-description: Retrieves an array of class subkeys associated with an IQueryAssociations object.helpviewer_keywords: ["SHGetAssocKeys","SHGetAssocKeys function [Windows Shell]","shell.shgetassockeys","shlwapi/SHGetAssocKeys"]
+description: Retrieves an array of class subkeys associated with an IQueryAssociations object.
+helpviewer_keywords: ["SHGetAssocKeys","SHGetAssocKeys function [Windows Shell]","shell.shgetassockeys","shlwapi/SHGetAssocKeys"]
 old-location: shell\shgetassockeys.htm
 tech.root: shell
 ms.assetid: 0DCB7E41-5986-40CA-A68D-EC6688EB42C0

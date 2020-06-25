@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertDuplicateStore
 title: CertDuplicateStore function (wincrypt.h)
-description: Duplicates a store handle by incrementing the store's reference count.helpviewer_keywords: ["CertDuplicateStore","CertDuplicateStore function [Security]","_crypto2_certduplicatestore","security.certduplicatestore","wincrypt/CertDuplicateStore"]
+description: Duplicates a store handle by incrementing the store's reference count.
+helpviewer_keywords: ["CertDuplicateStore","CertDuplicateStore function [Security]","_crypto2_certduplicatestore","security.certduplicatestore","wincrypt/CertDuplicateStore"]
 old-location: security\certduplicatestore.htm
 tech.root: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451

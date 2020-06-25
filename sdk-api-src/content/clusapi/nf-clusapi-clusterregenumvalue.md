@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegEnumValue
 title: ClusterRegEnumValue function (clusapi.h)
-description: Enumerates the values of an open cluster database key.helpviewer_keywords: ["ClusterRegEnumValue","ClusterRegEnumValue function [Failover Cluster]","REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_EXPAND_SZ","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_SZ","_wolf_clusterregenumvalue","clusapi/ClusterRegEnumValue","mscs.clusterregenumvalue"]
+description: Enumerates the values of an open cluster database key.
+helpviewer_keywords: ["ClusterRegEnumValue","ClusterRegEnumValue function [Failover Cluster]","REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_EXPAND_SZ","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_SZ","_wolf_clusterregenumvalue","clusapi/ClusterRegEnumValue","mscs.clusterregenumvalue"]
 old-location: mscs\clusterregenumvalue.htm
 tech.root: MsCS
 ms.assetid: 4ea2fc6f-6b52-4fa1-8d71-5bbae72368b3

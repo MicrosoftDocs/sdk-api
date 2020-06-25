@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpOidCopy
 title: SnmpOidCopy function (winsnmp.h)
-description: The WinSNMP SnmpOidCopy function copies an SNMP object identifier, allocating any necessary memory for the copy.helpviewer_keywords: ["SnmpOidCopy","SnmpOidCopy function [SNMP]","_snmp_snmpoidcopy","snmp.snmpoidcopy","winsnmp/SnmpOidCopy"]
+description: The WinSNMP SnmpOidCopy function copies an SNMP object identifier, allocating any necessary memory for the copy.
+helpviewer_keywords: ["SnmpOidCopy","SnmpOidCopy function [SNMP]","_snmp_snmpoidcopy","snmp.snmpoidcopy","winsnmp/SnmpOidCopy"]
 old-location: snmp\snmpoidcopy.htm
 tech.root: SNMP
 ms.assetid: ab121160-1c4f-41c0-a738-2e7605780ed2

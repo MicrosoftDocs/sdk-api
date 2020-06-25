@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent
 title: IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent (dxgi1_4.h)
-description: Registers to receive notification of hardware content protection teardown events.helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","RegisterHardwareContentProtectionTeardownStatusEvent method","IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent","IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent","RegisterHardwareContentProtectionTeardownStatusEvent","RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI]","RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent","dxgi1_4/IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent"]
+description: Registers to receive notification of hardware content protection teardown events.
+helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","RegisterHardwareContentProtectionTeardownStatusEvent method","IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent","IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent","RegisterHardwareContentProtectionTeardownStatusEvent","RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI]","RegisterHardwareContentProtectionTeardownStatusEvent method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent","dxgi1_4/IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent"]
 old-location: direct3ddxgi\idxgiadapter3_registerhardwarecontentprotectionteardownstatusevent.htm
 tech.root: direct3ddxgi
 ms.assetid: 789E6EA1-C590-44F6-A474-851E5CF437A5

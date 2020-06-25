@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_ModulationType
 title: IBDA_DigitalDemodulator::put_ModulationType (bdaiface.h)
-description: The put_ModulationType method specifies the modulation type for the signal.helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","put_ModulationType method","IBDA_DigitalDemodulator.put_ModulationType","IBDA_DigitalDemodulator::put_ModulationType","IBDA_DigitalDemodulatorput_ModulationType","bdaiface/IBDA_DigitalDemodulator::put_ModulationType","mstv.ibda_digitaldemodulator_put_modulationtype","put_ModulationType","put_ModulationType method [Microsoft TV Technologies]","put_ModulationType method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface"]
+description: The put_ModulationType method specifies the modulation type for the signal.
+helpviewer_keywords: ["IBDA_DigitalDemodulator interface [Microsoft TV Technologies]","put_ModulationType method","IBDA_DigitalDemodulator.put_ModulationType","IBDA_DigitalDemodulator::put_ModulationType","IBDA_DigitalDemodulatorput_ModulationType","bdaiface/IBDA_DigitalDemodulator::put_ModulationType","mstv.ibda_digitaldemodulator_put_modulationtype","put_ModulationType","put_ModulationType method [Microsoft TV Technologies]","put_ModulationType method [Microsoft TV Technologies]","IBDA_DigitalDemodulator interface"]
 old-location: mstv\ibda_digitaldemodulator_put_modulationtype.htm
 tech.root: mstv
 ms.assetid: 9e2bf33f-b139-4455-ad49-c75e52f31083

@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverEnumRelationship
 title: DhcpV4FailoverEnumRelationship function (dhcpsapi.h)
-description: Enumerates all failover relationships present on the server.helpviewer_keywords: ["DhcpV4FailoverEnumRelationship","DhcpV4FailoverEnumRelationship function [DHCP]","dhcp.dhcpv4failoverenumrelationship","dhcpsapi/DhcpV4FailoverEnumRelationship"]
+description: Enumerates all failover relationships present on the server.
+helpviewer_keywords: ["DhcpV4FailoverEnumRelationship","DhcpV4FailoverEnumRelationship function [DHCP]","dhcp.dhcpv4failoverenumrelationship","dhcpsapi/DhcpV4FailoverEnumRelationship"]
 old-location: dhcp\dhcpv4failoverenumrelationship.htm
 tech.root: DHCP
 ms.assetid: 81ef2af8-c1a9-44e7-857c-1591947609ed

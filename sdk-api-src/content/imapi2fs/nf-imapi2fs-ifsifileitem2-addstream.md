@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.AddStream
 title: IFsiFileItem2::AddStream (imapi2fs.h)
-description: Associates a named stream with a specific file in the file system image.helpviewer_keywords: ["AddStream","AddStream method [IMAPI]","AddStream method [IMAPI]","IFsiFileItem2 interface","IFsiFileItem2 interface [IMAPI]","AddStream method","IFsiFileItem2.AddStream","IFsiFileItem2::AddStream","imapi.ifsifileitem2_addstream","imapi2fs/IFsiFileItem2::AddStream"]
+description: Associates a named stream with a specific file in the file system image.
+helpviewer_keywords: ["AddStream","AddStream method [IMAPI]","AddStream method [IMAPI]","IFsiFileItem2 interface","IFsiFileItem2 interface [IMAPI]","AddStream method","IFsiFileItem2.AddStream","IFsiFileItem2::AddStream","imapi.ifsifileitem2_addstream","imapi2fs/IFsiFileItem2::AddStream"]
 old-location: imapi\ifsifileitem2_addstream.htm
 tech.root: imapi
 ms.assetid: 5235fc56-4ab6-4ecb-95b4-2498c7463bf2

@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Reset
 title: IEnumSyncMgrEvents::Reset (syncmgr.h)
-description: Resets the current location in the enumeration to zero.helpviewer_keywords: ["IEnumSyncMgrEvents interface [Windows Shell]","Reset method","IEnumSyncMgrEvents.Reset","IEnumSyncMgrEvents::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumSyncMgrEvents interface","_shell_IEnumSyncMgrEvents_Reset","shell.IEnumSyncMgrEvents_Reset","syncmgr/IEnumSyncMgrEvents::Reset"]
+description: Resets the current location in the enumeration to zero.
+helpviewer_keywords: ["IEnumSyncMgrEvents interface [Windows Shell]","Reset method","IEnumSyncMgrEvents.Reset","IEnumSyncMgrEvents::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumSyncMgrEvents interface","_shell_IEnumSyncMgrEvents_Reset","shell.IEnumSyncMgrEvents_Reset","syncmgr/IEnumSyncMgrEvents::Reset"]
 old-location: shell\IEnumSyncMgrEvents_Reset.htm
 tech.root: shell
 ms.assetid: 68c99781-aedf-4676-bbd2-ab6cc14bba46

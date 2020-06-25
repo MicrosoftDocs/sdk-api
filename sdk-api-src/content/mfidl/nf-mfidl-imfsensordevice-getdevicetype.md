@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceType
 title: IMFSensorDevice::GetDeviceType (mfidl.h)
-description: Gets a value that specifies the type of sensor device represented by the object.helpviewer_keywords: ["GetDeviceType","GetDeviceType method [Media Foundation]","GetDeviceType method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetDeviceType method","IMFSensorDevice.GetDeviceType","IMFSensorDevice::GetDeviceType","mf.imfsensordevice_getdevicetype","mfidl/IMFSensorDevice::GetDeviceType"]
+description: Gets a value that specifies the type of sensor device represented by the object.
+helpviewer_keywords: ["GetDeviceType","GetDeviceType method [Media Foundation]","GetDeviceType method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetDeviceType method","IMFSensorDevice.GetDeviceType","IMFSensorDevice::GetDeviceType","mf.imfsensordevice_getdevicetype","mfidl/IMFSensorDevice::GetDeviceType"]
 old-location: mf\imfsensordevice_getdevicetype.htm
 tech.root: medfound
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20

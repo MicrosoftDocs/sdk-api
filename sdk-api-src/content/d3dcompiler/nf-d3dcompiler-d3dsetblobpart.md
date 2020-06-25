@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DSetBlobPart
 title: D3DSetBlobPart function (d3dcompiler.h)
-description: Sets information in a compilation result.helpviewer_keywords: ["D3DSetBlobPart","D3DSetBlobPart function [HLSL]","d3dcompiler/D3DSetBlobPart","direct3dhlsl.d3dsetblobpart"]
+description: Sets information in a compilation result.
+helpviewer_keywords: ["D3DSetBlobPart","D3DSetBlobPart function [HLSL]","d3dcompiler/D3DSetBlobPart","direct3dhlsl.d3dsetblobpart"]
 old-location: direct3dhlsl\d3dsetblobpart.htm
 tech.root: direct3dhlsl
 ms.assetid: 244B094D-408A-4EC3-BC56-A7EE41D695E4

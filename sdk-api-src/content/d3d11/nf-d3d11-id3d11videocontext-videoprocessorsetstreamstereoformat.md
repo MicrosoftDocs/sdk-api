@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 title: ID3D11VideoContext::VideoProcessorSetStreamStereoFormat (d3d11.h)
-description: Enables or disables stereo 3D video for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamStereoFormat method","ID3D11VideoContext.VideoProcessorSetStreamStereoFormat","ID3D11VideoContext::VideoProcessorSetStreamStereoFormat","VideoProcessorSetStreamStereoFormat","VideoProcessorSetStreamStereoFormat method [Media Foundation]","VideoProcessorSetStreamStereoFormat method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamStereoFormat","mf.id3d11videocontext_videoprocessorsetstreamstereoformat"]
+description: Enables or disables stereo 3D video for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamStereoFormat method","ID3D11VideoContext.VideoProcessorSetStreamStereoFormat","ID3D11VideoContext::VideoProcessorSetStreamStereoFormat","VideoProcessorSetStreamStereoFormat","VideoProcessorSetStreamStereoFormat method [Media Foundation]","VideoProcessorSetStreamStereoFormat method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamStereoFormat","mf.id3d11videocontext_videoprocessorsetstreamstereoformat"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamstereoformat.htm
 tech.root: medfound
 ms.assetid: FAAE902A-622E-42D2-B332-CD4126A4182E

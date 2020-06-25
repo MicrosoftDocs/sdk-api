@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetDcHuffmanTable
 title: IWICJpegFrameDecode::GetDcHuffmanTable (wincodec.h)
-description: Retrieves a copy of the DC Huffman table for the specified scan and table.helpviewer_keywords: ["GetDcHuffmanTable","GetDcHuffmanTable method [Windows Imaging Component]","GetDcHuffmanTable method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","GetDcHuffmanTable method","IWICJpegFrameDecode.GetDcHuffmanTable","IWICJpegFrameDecode::GetDcHuffmanTable","wic.iwicjpegframedecode_getdchuffmantable","wincodec/IWICJpegFrameDecode::GetDcHuffmanTable"]
+description: Retrieves a copy of the DC Huffman table for the specified scan and table.
+helpviewer_keywords: ["GetDcHuffmanTable","GetDcHuffmanTable method [Windows Imaging Component]","GetDcHuffmanTable method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","GetDcHuffmanTable method","IWICJpegFrameDecode.GetDcHuffmanTable","IWICJpegFrameDecode::GetDcHuffmanTable","wic.iwicjpegframedecode_getdchuffmantable","wincodec/IWICJpegFrameDecode::GetDcHuffmanTable"]
 old-location: wic\iwicjpegframedecode_getdchuffmantable.htm
 tech.root: wic
 ms.assetid: 3C4FAF86-87CD-4844-94BC-CEE861681760

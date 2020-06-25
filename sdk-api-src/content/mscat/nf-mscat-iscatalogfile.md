@@ -1,7 +1,8 @@
 ---
 UID: NF:mscat.IsCatalogFile
 title: IsCatalogFile function (mscat.h)
-description: Retrieves a Boolean value that indicates whether the specified file is a catalog file.helpviewer_keywords: ["IsCatalogFile","IsCatalogFile function [Security]","mscat/IsCatalogFile","security.iscatalogfile"]
+description: Retrieves a Boolean value that indicates whether the specified file is a catalog file.
+helpviewer_keywords: ["IsCatalogFile","IsCatalogFile function [Security]","mscat/IsCatalogFile","security.iscatalogfile"]
 old-location: security\iscatalogfile.htm
 tech.root: SecCrypto
 ms.assetid: eeba34d4-08aa-456a-8fdc-16795cbce36a

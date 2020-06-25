@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.SetParameters
 title: RedEyeCorrection::SetParameters (gdipluseffects.h)
-description: The RedEyeCorrection::SetParameters method sets the parameters of this RedEyeCorrection object.helpviewer_keywords: ["RedEyeCorrection class [GDI+]","SetParameters method","RedEyeCorrection.SetParameters","RedEyeCorrection::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","RedEyeCorrection class","_gdiplus_CLASS_RedEyeCorrection_SetParameters_","gdiplus._gdiplus_CLASS_RedEyeCorrection_SetParameters_"]
+description: The RedEyeCorrection::SetParameters method sets the parameters of this RedEyeCorrection object.
+helpviewer_keywords: ["RedEyeCorrection class [GDI+]","SetParameters method","RedEyeCorrection.SetParameters","RedEyeCorrection::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","RedEyeCorrection class","_gdiplus_CLASS_RedEyeCorrection_SetParameters_","gdiplus._gdiplus_CLASS_RedEyeCorrection_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\setparameters.htm

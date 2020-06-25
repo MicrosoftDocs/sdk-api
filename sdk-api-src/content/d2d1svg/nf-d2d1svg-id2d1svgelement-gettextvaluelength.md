@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetTextValueLength
 title: ID2D1SvgElement::GetTextValueLength (d2d1svg.h)
-description: Gets the length of the text content value.helpviewer_keywords: ["GetTextValueLength","GetTextValueLength method [Direct2D]","GetTextValueLength method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetTextValueLength method","ID2D1SvgElement.GetTextValueLength","ID2D1SvgElement::GetTextValueLength","d2d1svg/ID2D1SvgElement::GetTextValueLength","direct2d.id2d1svgelement_gettextvaluelength"]
+description: Gets the length of the text content value.
+helpviewer_keywords: ["GetTextValueLength","GetTextValueLength method [Direct2D]","GetTextValueLength method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetTextValueLength method","ID2D1SvgElement.GetTextValueLength","ID2D1SvgElement::GetTextValueLength","d2d1svg/ID2D1SvgElement::GetTextValueLength","direct2d.id2d1svgelement_gettextvaluelength"]
 old-location: direct2d\id2d1svgelement_gettextvaluelength.htm
 tech.root: Direct2D
 ms.assetid: DC644B2A-3DBF-46D7-B5A3-88FD0BC51D38

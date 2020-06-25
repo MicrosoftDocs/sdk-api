@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IStemmer.GenerateWordForms
 title: IStemmer::GenerateWordForms (indexsrv.h)
-description: Generates alternative forms for a word and puts these forms in the IWordFormSink object.helpviewer_keywords: ["GenerateWordForms","GenerateWordForms method [search]","GenerateWordForms method [search]","IStemmer interface","IStemmer interface [search]","GenerateWordForms method","IStemmer.GenerateWordForms","IStemmer::GenerateWordForms","_search_IStemmer_GenerateWordForms","indexsrv/IStemmer::GenerateWordForms","search._search_IStemmer_GenerateWordForms"]
+description: Generates alternative forms for a word and puts these forms in the IWordFormSink object.
+helpviewer_keywords: ["GenerateWordForms","GenerateWordForms method [search]","GenerateWordForms method [search]","IStemmer interface","IStemmer interface [search]","GenerateWordForms method","IStemmer.GenerateWordForms","IStemmer::GenerateWordForms","_search_IStemmer_GenerateWordForms","indexsrv/IStemmer::GenerateWordForms","search._search_IStemmer_GenerateWordForms"]
 old-location: search\_search_IStemmer_GenerateWordForms.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm

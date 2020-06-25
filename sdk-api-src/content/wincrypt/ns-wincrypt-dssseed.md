@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._DSSSEED
 title: DSSSEED (wincrypt.h)
-description: Holds the seed and counter values that can be used to verify the primes of the DSS public key.helpviewer_keywords: ["DSSSEED","DSSSEED structure [Security]","_crypto2_dssseed","security.dssseed","wincrypt/DSSSEED"]
+description: Holds the seed and counter values that can be used to verify the primes of the DSS public key.
+helpviewer_keywords: ["DSSSEED","DSSSEED structure [Security]","_crypto2_dssseed","security.dssseed","wincrypt/DSSSEED"]
 old-location: security\dssseed.htm
 tech.root: SecCrypto
 ms.assetid: fbf2b5e4-b572-4b2c-907d-281570a0f26b

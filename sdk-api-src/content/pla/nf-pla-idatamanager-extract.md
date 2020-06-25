@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataManager.Extract
 title: IDataManager::Extract (pla.h)
-description: Extracts the specified CAB file.helpviewer_keywords: ["Extract","Extract method [PLA]","Extract method [PLA]","IDataManager interface","IDataManager interface [PLA]","Extract method","IDataManager.Extract","IDataManager::Extract","pla.idatamanager_extract","pla/IDataManager::Extract"]
+description: Extracts the specified CAB file.
+helpviewer_keywords: ["Extract","Extract method [PLA]","Extract method [PLA]","IDataManager interface","IDataManager interface [PLA]","Extract method","IDataManager.Extract","IDataManager::Extract","pla.idatamanager_extract","pla/IDataManager::Extract"]
 old-location: pla\idatamanager_extract.htm
 tech.root: PLA
 ms.assetid: 73f5ca4c-6e7d-491e-a977-d41b7b69ff8c

@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHInvokePrinterCommandA
 title: SHInvokePrinterCommandA function (shellapi.h)
-description: Executes a command on a printer object.helpviewer_keywords: ["PRINTACTION_DOCUMENTDEFAULTS","PRINTACTION_NETINSTALL","PRINTACTION_NETINSTALLLINK","PRINTACTION_OPEN","PRINTACTION_OPENNETPRN","PRINTACTION_PROPERTIES","PRINTACTION_SERVERPROPERTIES","PRINTACTION_TESTPAGE","SHInvokePrinterCommand","SHInvokePrinterCommand function [Windows Shell]","SHInvokePrinterCommandA","SHInvokePrinterCommandW","_win32_SHInvokePrinterCommand","shell.SHInvokePrinterCommand","shellapi/SHInvokePrinterCommand","shellapi/SHInvokePrinterCommandA","shellapi/SHInvokePrinterCommandW"]
+description: Executes a command on a printer object.
+helpviewer_keywords: ["PRINTACTION_DOCUMENTDEFAULTS","PRINTACTION_NETINSTALL","PRINTACTION_NETINSTALLLINK","PRINTACTION_OPEN","PRINTACTION_OPENNETPRN","PRINTACTION_PROPERTIES","PRINTACTION_SERVERPROPERTIES","PRINTACTION_TESTPAGE","SHInvokePrinterCommand","SHInvokePrinterCommand function [Windows Shell]","SHInvokePrinterCommandA","SHInvokePrinterCommandW","_win32_SHInvokePrinterCommand","shell.SHInvokePrinterCommand","shellapi/SHInvokePrinterCommand","shellapi/SHInvokePrinterCommandA","shellapi/SHInvokePrinterCommandW"]
 old-location: shell\SHInvokePrinterCommand.htm
 tech.root: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c
@@ -172,4 +173,8 @@ When a printer name is specified by <i>lpBuf1</i>, the name can either be the na
 This function is implemented in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell versions 4.71</a> and later. In order to maintain backward compatibility with previous Shell versions, this function should not be used explicitly. Instead, the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions should be used to obtain the function address.
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines SHInvokePrinterCommand as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

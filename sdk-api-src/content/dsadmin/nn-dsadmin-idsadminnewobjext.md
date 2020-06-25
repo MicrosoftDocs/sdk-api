@@ -1,7 +1,8 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObjExt
 title: IDsAdminNewObjExt (dsadmin.h)
-description: The IDsAdminNewObjExt interface is implemented by an object creation wizard extension.helpviewer_keywords: ["IDsAdminNewObjExt","IDsAdminNewObjExt interface [Active Directory]","IDsAdminNewObjExt interface [Active Directory]","described","_glines_idsadminnewobjext","ad.idsadminnewobjext","dsadmin/IDsAdminNewObjExt"]
+description: The IDsAdminNewObjExt interface is implemented by an object creation wizard extension.
+helpviewer_keywords: ["IDsAdminNewObjExt","IDsAdminNewObjExt interface [Active Directory]","IDsAdminNewObjExt interface [Active Directory]","described","_glines_idsadminnewobjext","ad.idsadminnewobjext","dsadmin/IDsAdminNewObjExt"]
 old-location: ad\idsadminnewobjext.htm
 tech.root: ad
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55

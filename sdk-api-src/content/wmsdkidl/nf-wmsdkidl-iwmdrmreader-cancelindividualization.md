@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelIndividualization
 title: IWMDRMReader::CancelIndividualization (wmsdkidl.h)
-description: The CancelIndividualization method cancels a current call to the Individualize method.helpviewer_keywords: ["CancelIndividualization","CancelIndividualization method [windows Media Format]","CancelIndividualization method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","CancelIndividualization method","IWMDRMReader.CancelIndividualization","IWMDRMReader::CancelIndividualization","IWMDRMReaderCancelIndividualization","wmformat.iwmdrmreader_cancelindividualization","wmsdkidl/IWMDRMReader::CancelIndividualization"]
+description: The CancelIndividualization method cancels a current call to the Individualize method.
+helpviewer_keywords: ["CancelIndividualization","CancelIndividualization method [windows Media Format]","CancelIndividualization method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","CancelIndividualization method","IWMDRMReader.CancelIndividualization","IWMDRMReader::CancelIndividualization","IWMDRMReaderCancelIndividualization","wmformat.iwmdrmreader_cancelindividualization","wmsdkidl/IWMDRMReader::CancelIndividualization"]
 old-location: wmformat\iwmdrmreader_cancelindividualization.htm
 tech.root: wmformat
 ms.assetid: 837d6fee-d5ba-49d8-ac69-e8ff010a787d

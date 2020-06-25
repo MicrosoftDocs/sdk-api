@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI8FromDate
 title: VarI8FromDate function (oleauto.h)
-description: Converts a date value to an 8-byte integer value.helpviewer_keywords: ["VarI8FromDate","VarI8FromDate function [Automation]","_oa96_VarI8FromDate","automat.vari8fromdate","oleauto/VarI8FromDate"]
+description: Converts a date value to an 8-byte integer value.
+helpviewer_keywords: ["VarI8FromDate","VarI8FromDate function [Automation]","_oa96_VarI8FromDate","automat.vari8fromdate","oleauto/VarI8FromDate"]
 old-location: automat\vari8fromdate.htm
 tech.root: automat
 ms.assetid: 64c0b322-da7b-4da7-a927-2c5d2587f37c

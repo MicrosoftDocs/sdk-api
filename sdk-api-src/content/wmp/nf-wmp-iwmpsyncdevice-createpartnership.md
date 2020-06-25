@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.createPartnership
 title: IWMPSyncDevice::createPartnership (wmp.h)
-description: The createPartnership method creates a partnership between Windows Media Player and the device.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","createPartnership method","IWMPSyncDevice.createPartnership","IWMPSyncDevice::createPartnership","IWMPSyncDevicecreatePartnership","createPartnership","createPartnership method [Windows Media Player]","createPartnership method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_createpartnership","wmp/IWMPSyncDevice::createPartnership"]
+description: The createPartnership method creates a partnership between Windows Media Player and the device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","createPartnership method","IWMPSyncDevice.createPartnership","IWMPSyncDevice::createPartnership","IWMPSyncDevicecreatePartnership","createPartnership","createPartnership method [Windows Media Player]","createPartnership method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_createpartnership","wmp/IWMPSyncDevice::createPartnership"]
 old-location: wmp\iwmpsyncdevice_createpartnership.htm
 tech.root: WMP
 ms.assetid: 734a8717-3b7f-4a40-895f-b55cfabd665c

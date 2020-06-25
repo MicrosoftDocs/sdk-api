@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadInt
 title: PSPropertyBag_ReadInt function (propsys.h)
-description: Reads an int data value from a property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadInt","PSPropertyBag_ReadInt function [Windows Properties]","properties.PSPropertyBag_ReadInt","propsys/PSPropertyBag_ReadInt","shell.PSPropertyBag_ReadInt","shell_PSPropertyBag_ReadInt"]
+description: Reads an int data value from a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_ReadInt","PSPropertyBag_ReadInt function [Windows Properties]","properties.PSPropertyBag_ReadInt","propsys/PSPropertyBag_ReadInt","shell.PSPropertyBag_ReadInt","shell_PSPropertyBag_ReadInt"]
 old-location: properties\PSPropertyBag_ReadInt.htm
 tech.root: properties
 ms.assetid: 9CEC97E6-C88F-4182-876C-D77EA14915DA

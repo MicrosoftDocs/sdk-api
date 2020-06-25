@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Next
 title: IEnumShellItems::Next (shobjidl_core.h)
-description: Gets an array of one or more IShellItem interfaces from the enumeration.helpviewer_keywords: ["IEnumShellItems interface [Windows Shell]","Next method","IEnumShellItems.Next","IEnumShellItems::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumShellItems interface","_shell_IEnumShellItems_Next","shell.IEnumShellItems_Next","shobjidl_core/IEnumShellItems::Next"]
+description: Gets an array of one or more IShellItem interfaces from the enumeration.
+helpviewer_keywords: ["IEnumShellItems interface [Windows Shell]","Next method","IEnumShellItems.Next","IEnumShellItems::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumShellItems interface","_shell_IEnumShellItems_Next","shell.IEnumShellItems_Next","shobjidl_core/IEnumShellItems::Next"]
 old-location: shell\IEnumShellItems_Next.htm
 tech.root: shell
 ms.assetid: 8074ecea-30b9-4d1e-9184-457d3dd70bb8

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTrimming
 title: IDWriteTextFormat::GetTrimming (dwrite.h)
-description: Gets the trimming options for text that overflows the layout box.helpviewer_keywords: ["GetTrimming","GetTrimming method [Direct Write]","GetTrimming method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetTrimming method","IDWriteTextFormat.GetTrimming","IDWriteTextFormat::GetTrimming","directwrite.IDWriteTextFormat_GetTrimming","dwrite/IDWriteTextFormat::GetTrimming"]
+description: Gets the trimming options for text that overflows the layout box.
+helpviewer_keywords: ["GetTrimming","GetTrimming method [Direct Write]","GetTrimming method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetTrimming method","IDWriteTextFormat.GetTrimming","IDWriteTextFormat::GetTrimming","directwrite.IDWriteTextFormat_GetTrimming","dwrite/IDWriteTextFormat::GetTrimming"]
 old-location: directwrite\IDWriteTextFormat_GetTrimming.htm
 tech.root: DirectWrite
 ms.assetid: 6147d0a4-8f50-40c6-864e-734cfef57089

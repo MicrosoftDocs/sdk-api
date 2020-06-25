@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetAgentSessionState
 title: lineSetAgentSessionState function (tapi.h)
-description: The lineSetAgentSessionState function sets the agent session state associated with a particular agent session handle.helpviewer_keywords: ["_tapi2_linesetagentsessionstate","lineSetAgentSessionState","lineSetAgentSessionState function [TAPI 2.2]","tapi/lineSetAgentSessionState","tapi2.linesetagentsessionstate"]
+description: The lineSetAgentSessionState function sets the agent session state associated with a particular agent session handle.
+helpviewer_keywords: ["_tapi2_linesetagentsessionstate","lineSetAgentSessionState","lineSetAgentSessionState function [TAPI 2.2]","tapi/lineSetAgentSessionState","tapi2.linesetagentsessionstate"]
 old-location: tapi2\linesetagentsessionstate.htm
 tech.root: Tapi
 ms.assetid: 284d8411-6ac7-4496-893b-0349057523e8

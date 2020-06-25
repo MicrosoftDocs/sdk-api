@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.CopyFile2
 title: CopyFile2 function (winbase.h)
-description: Copies an existing file to a new file, notifying the application of its progress through a callback function.helpviewer_keywords: ["CopyFile2","CopyFile2 function [Files]","fs.copyfile2","winbase/CopyFile2"]
+description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
+helpviewer_keywords: ["CopyFile2","CopyFile2 function [Files]","fs.copyfile2","winbase/CopyFile2"]
 old-location: fs\copyfile2.htm
 tech.root: FileIO
 ms.assetid: aa2df686-4b61-4d90-ba0b-c78c5a0d2d59

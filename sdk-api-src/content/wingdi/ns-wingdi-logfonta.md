@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagLOGFONTA
 title: LOGFONTA (wingdi.h)
-description: The LOGFONT structure defines the attributes of a font.helpviewer_keywords: ["*LPLOGFONTA","*NPLOGFONTA","*PLOGFONTA","LOGFONT","LOGFONT structure [Windows GDI]","LOGFONTA","LOGFONTW","PLOGFONT","PLOGFONT structure pointer [Windows GDI]","_win32_LOGFONT_str","gdi.logfont","wingdi/LOGFONT","wingdi/LOGFONTA","wingdi/LOGFONTW","wingdi/PLOGFONT"]
+description: The LOGFONT structure defines the attributes of a font.
+helpviewer_keywords: ["*LPLOGFONTA","*NPLOGFONTA","*PLOGFONTA","LOGFONT","LOGFONT structure [Windows GDI]","LOGFONTA","LOGFONTW","PLOGFONT","PLOGFONT structure pointer [Windows GDI]","_win32_LOGFONT_str","gdi.logfont","wingdi/LOGFONT","wingdi/LOGFONTA","wingdi/LOGFONTW","wingdi/PLOGFONT"]
 old-location: gdi\logfont.htm
 tech.root: gdi
 ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
@@ -484,6 +485,10 @@ The following situations do not support ClearType antialiasing:
 </ul>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines LOGFONT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

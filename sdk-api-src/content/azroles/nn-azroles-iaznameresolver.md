@@ -1,7 +1,8 @@
 ---
 UID: NN:azroles.IAzNameResolver
 title: IAzNameResolver (azroles.h)
-description: Translates security identifiers (SIDs) into principal display names.helpviewer_keywords: ["IAzNameResolver","IAzNameResolver interface [Security]","IAzNameResolver interface [Security]","described","azroles/IAzNameResolver","security.iaznameresolver"]
+description: Translates security identifiers (SIDs) into principal display names.
+helpviewer_keywords: ["IAzNameResolver","IAzNameResolver interface [Security]","IAzNameResolver interface [Security]","described","azroles/IAzNameResolver","security.iaznameresolver"]
 old-location: security\iaznameresolver.htm
 tech.root: SecAuthZ
 ms.assetid: 9426a623-cefc-43ed-9987-77802fce1a78

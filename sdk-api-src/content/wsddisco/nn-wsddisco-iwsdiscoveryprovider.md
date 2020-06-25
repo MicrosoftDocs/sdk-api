@@ -1,7 +1,8 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProvider
 title: IWSDiscoveryProvider (wsddisco.h)
-description: Used to discover services on the network advertised by WS-Discovery.helpviewer_keywords: ["IWSDiscoveryProvider","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","described","ncd.iwsdiscoveryprovider","wsddisco/IWSDiscoveryProvider"]
+description: Used to discover services on the network advertised by WS-Discovery.
+helpviewer_keywords: ["IWSDiscoveryProvider","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","described","ncd.iwsdiscoveryprovider","wsddisco/IWSDiscoveryProvider"]
 old-location: ncd\iwsdiscoveryprovider.htm
 tech.root: WsdApi
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7

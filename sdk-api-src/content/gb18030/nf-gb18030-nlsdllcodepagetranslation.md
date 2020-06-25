@@ -1,7 +1,8 @@
 ---
 UID: NF:gb18030.NlsDllCodePageTranslation
 title: NlsDllCodePageTranslation function (gb18030.h)
-description: Used to get code page information or do conversion, depending on flag settings.helpviewer_keywords: ["NLS_CP_CPINFO","NLS_CP_MBTOWC","NLS_CP_WCTOMB","NlsDllCodePageTranslation","NlsDllCodePageTranslation function [Internationalization for Windows Applications]","_win32_NlsDllCodePageTranslation","gb18030/NlsDllCodePageTranslation","intl.nlsdllcodepagetranslation"]
+description: Used to get code page information or do conversion, depending on flag settings.
+helpviewer_keywords: ["NLS_CP_CPINFO","NLS_CP_MBTOWC","NLS_CP_WCTOMB","NlsDllCodePageTranslation","NlsDllCodePageTranslation function [Internationalization for Windows Applications]","_win32_NlsDllCodePageTranslation","gb18030/NlsDllCodePageTranslation","intl.nlsdllcodepagetranslation"]
 old-location: intl\nlsdllcodepagetranslation.htm
 tech.root: Intl
 ms.assetid: cc653877-de16-4ccc-b48e-8bd7cfacb43c

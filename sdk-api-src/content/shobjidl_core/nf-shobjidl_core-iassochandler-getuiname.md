@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetUIName
 title: IAssocHandler::GetUIName (shobjidl_core.h)
-description: Retrieves the display name of an application.helpviewer_keywords: ["GetUIName","GetUIName method [Windows Shell]","GetUIName method [Windows Shell]","IAssocHandler interface","IAssocHandler interface [Windows Shell]","GetUIName method","IAssocHandler.GetUIName","IAssocHandler::GetUIName","_shell_IAssocHandler_GetUIName","shell.IAssocHandler_GetUIName","shobjidl_core/IAssocHandler::GetUIName"]
+description: Retrieves the display name of an application.
+helpviewer_keywords: ["GetUIName","GetUIName method [Windows Shell]","GetUIName method [Windows Shell]","IAssocHandler interface","IAssocHandler interface [Windows Shell]","GetUIName method","IAssocHandler.GetUIName","IAssocHandler::GetUIName","_shell_IAssocHandler_GetUIName","shell.IAssocHandler_GetUIName","shobjidl_core/IAssocHandler::GetUIName"]
 old-location: shell\IAssocHandler_GetUIName.htm
 tech.root: shell
 ms.assetid: bf714cf9-a16a-40a4-8dd8-c53c289967f5

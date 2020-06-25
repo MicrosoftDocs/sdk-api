@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetChase
 title: IAMExtTransport::SetChase (strmif.h)
-description: The SetChase method enables or disables chase mode.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetChase method","IAMExtTransport.SetChase","IAMExtTransport::SetChase","IAMExtTransportSetChase","SetChase","SetChase method [DirectShow]","SetChase method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_setchase","strmif/IAMExtTransport::SetChase"]
+description: The SetChase method enables or disables chase mode.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetChase method","IAMExtTransport.SetChase","IAMExtTransport::SetChase","IAMExtTransportSetChase","SetChase","SetChase method [DirectShow]","SetChase method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_setchase","strmif/IAMExtTransport::SetChase"]
 old-location: dshow\iamexttransport_setchase.htm
 tech.root: DirectShow
 ms.assetid: f8c94e74-e243-4fa9-85e6-8c027b514e4f

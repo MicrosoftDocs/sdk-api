@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTimecode.GetTimecodeRangeCount
 title: IWMReaderTimecode::GetTimecodeRangeCount (wmsdkidl.h)
-description: The GetTimecodeRangeCount method retrieves the total number of SMTPE time code ranges in a specified stream.helpviewer_keywords: ["GetTimecodeRangeCount","GetTimecodeRangeCount method [windows Media Format]","GetTimecodeRangeCount method [windows Media Format]","IWMReaderTimecode interface","IWMReaderTimecode interface [windows Media Format]","GetTimecodeRangeCount method","IWMReaderTimecode.GetTimecodeRangeCount","IWMReaderTimecode::GetTimecodeRangeCount","IWMReaderTimecodeGetTimecodeRangeCount","wmformat.iwmreadertimecode_gettimecoderangecount","wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount"]
+description: The GetTimecodeRangeCount method retrieves the total number of SMTPE time code ranges in a specified stream.
+helpviewer_keywords: ["GetTimecodeRangeCount","GetTimecodeRangeCount method [windows Media Format]","GetTimecodeRangeCount method [windows Media Format]","IWMReaderTimecode interface","IWMReaderTimecode interface [windows Media Format]","GetTimecodeRangeCount method","IWMReaderTimecode.GetTimecodeRangeCount","IWMReaderTimecode::GetTimecodeRangeCount","IWMReaderTimecodeGetTimecodeRangeCount","wmformat.iwmreadertimecode_gettimecoderangecount","wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount"]
 old-location: wmformat\iwmreadertimecode_gettimecoderangecount.htm
 tech.root: wmformat
 ms.assetid: df58f968-23f8-407b-b18c-569732635464

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DStripShader
 title: D3DStripShader function (d3dcompiler.h)
-description: Removes unwanted blobs from a compilation result.helpviewer_keywords: ["3320d273-7542-f3d8-0828-2c357608a8c8","D3DStripShader","D3DStripShader function [HLSL]","d3dcompiler/D3DStripShader","direct3dhlsl.d3dstripshader"]
+description: Removes unwanted blobs from a compilation result.
+helpviewer_keywords: ["3320d273-7542-f3d8-0828-2c357608a8c8","D3DStripShader","D3DStripShader function [HLSL]","d3dcompiler/D3DStripShader","direct3dhlsl.d3dstripshader"]
 old-location: direct3dhlsl\d3dstripshader.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dstripshader.htm

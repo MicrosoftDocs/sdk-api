@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetApplicationPolicy
 title: SLGetApplicationPolicy function (slpublic.h)
-description: Queries a policy from the set stored with the SLPersistApplicationPolicies function and loaded using the SLLoadApplicationPolicies function.helpviewer_keywords: ["SLGetApplicationPolicy","SLGetApplicationPolicy function [Security]","security.slgetapplicationpolicy","slpublic/SLGetApplicationPolicy"]
+description: Queries a policy from the set stored with the SLPersistApplicationPolicies function and loaded using the SLLoadApplicationPolicies function.
+helpviewer_keywords: ["SLGetApplicationPolicy","SLGetApplicationPolicy function [Security]","security.slgetapplicationpolicy","slpublic/SLGetApplicationPolicy"]
 old-location: security\slgetapplicationpolicy.htm
 tech.root: SecSLApi
 ms.assetid: 4d4b30bb-8548-4656-9fd9-553e8f8fb248

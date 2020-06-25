@@ -52,6 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
+
 <p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7
 ">Send-MailMessage</a> cmdlet as a workaround.]
 
@@ -68,8 +69,8 @@ This property is read/write.
 
 
 
+
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
- 
 
  
 

@@ -82,7 +82,6 @@ A pointer to the character string to process. The string does not need to be zer
 
 The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
 
-
 ### -param nMexExtent [in]
 
 The maximum extent (in logical units) to which the string is processed. Characters that, if processed, would exceed this extent are ignored. Computations for any required ordering or glyph arrays apply only to the included characters. This parameter is used only if the GCP_MAXEXTENT value is specified in the <i>dwFlags</i> parameter. As the function processes the input string, each character and its extent is added to the output, extent, and other arrays only if the total extent has not yet exceeded the maximum. Once the limit is reached, processing will stop.
@@ -294,7 +293,6 @@ If the function fails, the return value is zero.
 ## -remarks
 
 
-
 <b>GetCharacterPlacement</b> ensures that an application can correctly process text regardless of the international setting and type of fonts available. Applications use this function before using the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function and in place of the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> function (and occasionally in place of the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidth32a">GetCharWidth32</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a> functions).
 
 Using <b>GetCharacterPlacement</b> to retrieve intercharacter spacing and index arrays is not always necessary unless justification or kerning is required. For non-Latin fonts, applications can improve the speed at which the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function renders text by using <b>GetCharacterPlacement</b> to retrieve the intercharacter spacing and index arrays before calling <b>ExtTextOut</b>. This is especially useful when rendering the same text repeatedly or when using intercharacter spacing to position the caret. If the <b>lpGlyphs</b> output array is used in the call to <b>ExtTextOut</b>, the ETO_GLYPH_INDEX flag must be set.
@@ -313,8 +311,11 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 
-## -see-also
+> [!NOTE]
+> The wingdi.h header defines GetCharacterPlacement as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
+
+## -see-also
 
 
 
@@ -355,7 +356,3 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
- 
-
- 
-

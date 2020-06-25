@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_label
 title: IWMPCdromBurn::put_label (wmp.h)
-description: The put_label method specifies the label string for the CD volume.helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","put_label method","IWMPCdromBurn.put_label","IWMPCdromBurn::put_label","IWMPCdromBurnput_label","put_label","put_label method [Windows Media Player]","put_label method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_put_label","wmp/IWMPCdromBurn::put_label"]
+description: The put_label method specifies the label string for the CD volume.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","put_label method","IWMPCdromBurn.put_label","IWMPCdromBurn::put_label","IWMPCdromBurnput_label","put_label","put_label method [Windows Media Player]","put_label method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_put_label","wmp/IWMPCdromBurn::put_label"]
 old-location: wmp\iwmpcdromburn_put_label.htm
 tech.root: WMP
 ms.assetid: 84407961-5d79-4845-a81a-283b3689e562

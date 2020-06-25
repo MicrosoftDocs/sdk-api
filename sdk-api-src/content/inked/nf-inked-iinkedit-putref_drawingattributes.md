@@ -1,7 +1,8 @@
 ---
 UID: NF:inked.IInkEdit.putref_DrawingAttributes
 title: IInkEdit::putref_DrawingAttributes (inked.h)
-description: Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.helpviewer_keywords: ["8f5f00a2-abe1-487e-a067-2b6d929824c7","DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","DrawingAttributes property","IInkEdit.DrawingAttributes","IInkEdit.putref_DrawingAttributes","IInkEdit::DrawingAttributes","IInkEdit::get_DrawingAttributes","IInkEdit::putref_DrawingAttributes","InkEdit.get_DrawingAttributes","get_DrawingAttributes","inked/IInkEdit::DrawingAttributes","inked/IInkEdit::get_DrawingAttributes","inked/IInkEdit::putref_DrawingAttributes","put_DrawingAttributes","putref_DrawingAttributes","tablet.inkedit_drawingattributes"]
+description: Gets or sets the drawing attributes for ink that is yet to be drawn on the InkEdit control.
+helpviewer_keywords: ["8f5f00a2-abe1-487e-a067-2b6d929824c7","DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","DrawingAttributes property","IInkEdit.DrawingAttributes","IInkEdit.putref_DrawingAttributes","IInkEdit::DrawingAttributes","IInkEdit::get_DrawingAttributes","IInkEdit::putref_DrawingAttributes","InkEdit.get_DrawingAttributes","get_DrawingAttributes","inked/IInkEdit::DrawingAttributes","inked/IInkEdit::get_DrawingAttributes","inked/IInkEdit::putref_DrawingAttributes","put_DrawingAttributes","putref_DrawingAttributes","tablet.inkedit_drawingattributes"]
 old-location: tablet\inkedit_drawingattributes.htm
 tech.root: tablet
 ms.assetid: 8f5f00a2-abe1-487e-a067-2b6d929824c7

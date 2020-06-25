@@ -1,7 +1,8 @@
 ---
 UID: NN:inspectable.IInspectable
 title: IInspectable (inspectable.h)
-description: Provides functionality required for all Windows Runtime classes.helpviewer_keywords: ["IInspectable","IInspectable interface [Windows Runtime]","IInspectable interface [Windows Runtime]","described","inspectable/IInspectable","winrt.iinspectable"]
+description: Provides functionality required for all Windows Runtime classes.
+helpviewer_keywords: ["IInspectable","IInspectable interface [Windows Runtime]","IInspectable interface [Windows Runtime]","described","inspectable/IInspectable","winrt.iinspectable"]
 old-location: winrt\iinspectable.htm
 tech.root: WinRT
 ms.assetid: 0657E51F-D4C0-46C6-927D-B01E54B6846C

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.LogString
 title: IWMDMLogger::LogString (wmdmlog.h)
-description: The LogString method logs a string to the current log file. A carriage return and line feed are added to each log entry.helpviewer_keywords: ["IWMDMLogger interface [windows Media Device Manager]","LogString method","IWMDMLogger.LogString","IWMDMLogger::LogString","IWMDMLoggerLogString","LogString","LogString method [windows Media Device Manager]","LogString method [windows Media Device Manager]","IWMDMLogger interface","wmdm.iwmdmlogger_logstring","wmdmlog/IWMDMLogger::LogString"]
+description: The LogString method logs a string to the current log file. A carriage return and line feed are added to each log entry.
+helpviewer_keywords: ["IWMDMLogger interface [windows Media Device Manager]","LogString method","IWMDMLogger.LogString","IWMDMLogger::LogString","IWMDMLoggerLogString","LogString","LogString method [windows Media Device Manager]","LogString method [windows Media Device Manager]","IWMDMLogger interface","wmdm.iwmdmlogger_logstring","wmdmlog/IWMDMLogger::LogString"]
 old-location: wmdm\iwmdmlogger_logstring.htm
 tech.root: WMDM
 ms.assetid: 6a084ef6-20dc-4363-b9b8-c4e9bcb1dd71

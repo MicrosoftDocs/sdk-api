@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.Reconvert
 title: ITfFnLMProcessor::Reconvert (ctffunc.h)
-description: ITfFnLMProcessor::Reconvert methodhelpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","Reconvert method","ITfFnLMProcessor.Reconvert","ITfFnLMProcessor::Reconvert","Reconvert","Reconvert method [Text Services Framework]","Reconvert method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_reconvert_ref","ctffunc/ITfFnLMProcessor::Reconvert","tsf.itffnlmprocessor_reconvert"]
+description: ITfFnLMProcessor::Reconvert method
+helpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","Reconvert method","ITfFnLMProcessor.Reconvert","ITfFnLMProcessor::Reconvert","Reconvert","Reconvert method [Text Services Framework]","Reconvert method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_reconvert_ref","ctffunc/ITfFnLMProcessor::Reconvert","tsf.itffnlmprocessor_reconvert"]
 old-location: tsf\itffnlmprocessor_reconvert.htm
 tech.root: TSF
 ms.assetid: 1580be2c-d16e-445b-83ba-c033eeb679b7

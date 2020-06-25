@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DSA_GetSize
 title: DSA_GetSize function (dpa_dsa.h)
-description: Gets the size of the dynamic structure array (DSA).helpviewer_keywords: ["DSA_GetSize","DSA_GetSize function [Windows Controls]","_shell_DSA_GetSize","_shell_DSA_GetSize_cpp","controls.DSA_GetSize","controls._shell_DSA_GetSize","dpa_dsa/DSA_GetSize"]
+description: Gets the size of the dynamic structure array (DSA).
+helpviewer_keywords: ["DSA_GetSize","DSA_GetSize function [Windows Controls]","_shell_DSA_GetSize","_shell_DSA_GetSize_cpp","controls.DSA_GetSize","controls._shell_DSA_GetSize","dpa_dsa/DSA_GetSize"]
 old-location: controls\DSA_GetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getsize.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._enlowfirtf
 title: ENLOWFIRTF (richedit.h)
-description: Contains information about an unsupported Rich Text Format (RTF) keyword in a Microsoft Rich Edit control.helpviewer_keywords: ["ENLOWFIRTF","ENLOWFIRTF structure [Windows Controls]","_win32_ENLOWFIRTF_str","_win32_ENLOWFIRTF_str_cpp","controls.ENLOWFIRTF","controls._win32_ENLOWFIRTF_str","richedit/ENLOWFIRTF"]
+description: Contains information about an unsupported Rich Text Format (RTF) keyword in a Microsoft Rich Edit control.
+helpviewer_keywords: ["ENLOWFIRTF","ENLOWFIRTF structure [Windows Controls]","_win32_ENLOWFIRTF_str","_win32_ENLOWFIRTF_str_cpp","controls.ENLOWFIRTF","controls._win32_ENLOWFIRTF_str","richedit/ENLOWFIRTF"]
 old-location: controls\ENLOWFIRTF.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlowfirtf.htm

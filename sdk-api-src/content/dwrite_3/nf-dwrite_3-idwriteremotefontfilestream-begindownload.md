@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.BeginDownload
 title: IDWriteRemoteFontFileStream::BeginDownload (dwrite_3.h)
-description: Begins downloading all or part of the font file.helpviewer_keywords: ["BeginDownload","BeginDownload method [Direct Write]","BeginDownload method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","BeginDownload method","IDWriteRemoteFontFileStream.BeginDownload","IDWriteRemoteFontFileStream::BeginDownload","directwrite.idwriteremotefontfilestream_begindownload","dwrite_3/IDWriteRemoteFontFileStream::BeginDownload"]
+description: Begins downloading all or part of the font file.
+helpviewer_keywords: ["BeginDownload","BeginDownload method [Direct Write]","BeginDownload method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","BeginDownload method","IDWriteRemoteFontFileStream.BeginDownload","IDWriteRemoteFontFileStream::BeginDownload","directwrite.idwriteremotefontfilestream_begindownload","dwrite_3/IDWriteRemoteFontFileStream::BeginDownload"]
 old-location: directwrite\idwriteremotefontfilestream_begindownload.htm
 tech.root: DirectWrite
 ms.assetid: A0EE8383-81A8-4974-B213-142704EFA210

@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.ReallocADsStr
 title: ReallocADsStr function (adshlp.h)
-description: Creates a copy of a Unicode string.helpviewer_keywords: ["ReallocADsStr","ReallocADsStr function [ADSI]","_ds_reallocadsstr","adshlp/ReallocADsStr","adsi.reallocadsstr"]
+description: Creates a copy of a Unicode string.
+helpviewer_keywords: ["ReallocADsStr","ReallocADsStr function [ADSI]","_ds_reallocadsstr","adshlp/ReallocADsStr","adsi.reallocadsstr"]
 old-location: adsi\reallocadsstr.htm
 tech.root: adsi
 ms.assetid: 805d45dc-8da4-4c15-a6d1-8967a4da9c24

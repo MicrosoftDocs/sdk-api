@@ -1,7 +1,8 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.ShowProperties
 title: IEmptyVolumeCache::ShowProperties (emptyvc.h)
-description: Notifies the handler to display its UI.helpviewer_keywords: ["IEmptyVolumeCache interface [Legacy Windows Environment Features]","ShowProperties method","IEmptyVolumeCache.ShowProperties","IEmptyVolumeCache::ShowProperties","ShowProperties","ShowProperties method [Legacy Windows Environment Features]","ShowProperties method [Legacy Windows Environment Features]","IEmptyVolumeCache interface","_win32_IEmptyVolumeCache_ShowProperties","emptyvc/IEmptyVolumeCache::ShowProperties","lwef.iemptyvolumecache_showproperties","shell.iemptyvolumecache_showproperties"]
+description: Notifies the handler to display its UI.
+helpviewer_keywords: ["IEmptyVolumeCache interface [Legacy Windows Environment Features]","ShowProperties method","IEmptyVolumeCache.ShowProperties","IEmptyVolumeCache::ShowProperties","ShowProperties","ShowProperties method [Legacy Windows Environment Features]","ShowProperties method [Legacy Windows Environment Features]","IEmptyVolumeCache interface","_win32_IEmptyVolumeCache_ShowProperties","emptyvc/IEmptyVolumeCache::ShowProperties","lwef.iemptyvolumecache_showproperties","shell.iemptyvolumecache_showproperties"]
 old-location: lwef\iemptyvolumecache_showproperties.htm
 tech.root: lwef
 ms.assetid: 3bce6251-b209-405a-8ac2-fd385f1c69ee

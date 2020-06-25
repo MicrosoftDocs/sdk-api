@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IDropSource
 title: IDropSource (oleidl.h)
-description: The IDropSource interface is one of the interfaces you implement to provide drag-and-drop operations in your application.helpviewer_keywords: ["IDropSource","IDropSource interface [COM]","IDropSource interface [COM]","described","_ole_idropsource","com.idropsource","oleidl/IDropSource"]
+description: The IDropSource interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
+helpviewer_keywords: ["IDropSource","IDropSource interface [COM]","IDropSource interface [COM]","described","_ole_idropsource","com.idropsource","oleidl/IDropSource"]
 old-location: com\idropsource.htm
 tech.root: com
 ms.assetid: 963a36bc-4ad7-4591-bffc-a96b4310177d

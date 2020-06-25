@@ -1,7 +1,8 @@
 ---
 UID: NF:realtimeapiset.QueryUnbiasedInterruptTime
 title: QueryUnbiasedInterruptTime function (realtimeapiset.h)
-description: Gets the current unbiased interrupt-time count, in units of 100 nanoseconds. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.helpviewer_keywords: ["QueryUnbiasedInterruptTime","QueryUnbiasedInterruptTime function","base.queryunbiasedinterrupttime","realtimeapiset/QueryUnbiasedInterruptTime"]
+description: Gets the current unbiased interrupt-time count, in units of 100 nanoseconds. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
+helpviewer_keywords: ["QueryUnbiasedInterruptTime","QueryUnbiasedInterruptTime function","base.queryunbiasedinterrupttime","realtimeapiset/QueryUnbiasedInterruptTime"]
 old-location: base\queryunbiasedinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: f9cf5440-9be9-4ff9-b85c-2779b847954c

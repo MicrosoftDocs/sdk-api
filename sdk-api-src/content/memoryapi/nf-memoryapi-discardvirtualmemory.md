@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.DiscardVirtualMemory
 title: DiscardVirtualMemory function (memoryapi.h)
-description: Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application.helpviewer_keywords: ["DiscardVirtualMemory","DiscardVirtualMemory function","base.discardvirtualmemory","winbase/DiscardVirtualMemory"]
+description: Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application.
+helpviewer_keywords: ["DiscardVirtualMemory","DiscardVirtualMemory function","base.discardvirtualmemory","winbase/DiscardVirtualMemory"]
 old-location: base\discardvirtualmemory.htm
 tech.root: Memory
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc

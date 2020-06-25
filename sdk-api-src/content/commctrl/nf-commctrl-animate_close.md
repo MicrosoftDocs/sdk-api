@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Animate_Close
 title: Animate_Close macro (commctrl.h)
-description: Closes an AVI clip. You can use this macro or send the ACM_OPEN message explicitly, passing in NULL parameters.helpviewer_keywords: ["Animate_Close","Animate_Close macro [Windows Controls]","_win32_Animate_Close","_win32_Animate_Close_cpp","commctrl/Animate_Close","controls.Animate_Close","controls._win32_Animate_Close"]
+description: Closes an AVI clip. You can use this macro or send the ACM_OPEN message explicitly, passing in NULL parameters.
+helpviewer_keywords: ["Animate_Close","Animate_Close macro [Windows Controls]","_win32_Animate_Close","_win32_Animate_Close_cpp","commctrl/Animate_Close","controls.Animate_Close","controls._win32_Animate_Close"]
 old-location: controls\Animate_Close.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_close.htm

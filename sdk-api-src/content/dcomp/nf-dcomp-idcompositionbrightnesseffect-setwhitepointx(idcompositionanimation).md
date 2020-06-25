@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation)
 title: IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation) (dcomp.h)
-description: Sets the x value of the white point.helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePointX method","IDCompositionBrightnessEffect.SetWhitePointX","IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation)","IDCompositionBrightnessEffect::SetWhitePointX","IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation)","SetWhitePointX","SetWhitePointX method [DirectComposition]","SetWhitePointX method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePointX","directcomp.idcompositionbrightnesseffect_setwhitepointx_2"]
+description: Sets the x value of the white point.
+helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePointX method","IDCompositionBrightnessEffect.SetWhitePointX","IDCompositionBrightnessEffect.SetWhitePointX(IDCompositionAnimation)","IDCompositionBrightnessEffect::SetWhitePointX","IDCompositionBrightnessEffect::SetWhitePointX(IDCompositionAnimation)","SetWhitePointX","SetWhitePointX method [DirectComposition]","SetWhitePointX method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePointX","directcomp.idcompositionbrightnesseffect_setwhitepointx_2"]
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx_2.htm
 tech.root: directcomp
 ms.assetid: 8724AB82-ED50-47C7-A4AE-31A12E3834F5

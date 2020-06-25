@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetMethodParameterAttributes
 title: IPortableDeviceServiceCapabilities::GetMethodParameterAttributes (portabledeviceapi.h)
-description: Retrieves the attributes used to describe a given method parameter.helpviewer_keywords: ["GetMethodParameterAttributes","GetMethodParameterAttributes method [Windows Portable Devices SDK]","GetMethodParameterAttributes method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetMethodParameterAttributes method","IPortableDeviceServiceCapabilities.GetMethodParameterAttributes","IPortableDeviceServiceCapabilities::GetMethodParameterAttributes","portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodParameterAttributes","wpdsdk.iportabledeviceservicecapabilities_getmethodparameterattributes"]
+description: Retrieves the attributes used to describe a given method parameter.
+helpviewer_keywords: ["GetMethodParameterAttributes","GetMethodParameterAttributes method [Windows Portable Devices SDK]","GetMethodParameterAttributes method [Windows Portable Devices SDK]","IPortableDeviceServiceCapabilities interface","IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK]","GetMethodParameterAttributes method","IPortableDeviceServiceCapabilities.GetMethodParameterAttributes","IPortableDeviceServiceCapabilities::GetMethodParameterAttributes","portabledeviceapi/IPortableDeviceServiceCapabilities::GetMethodParameterAttributes","wpdsdk.iportabledeviceservicecapabilities_getmethodparameterattributes"]
 old-location: wpdsdk\iportabledeviceservicecapabilities_getmethodparameterattributes.htm
 tech.root: wpd_sdk
 ms.assetid: 48c566e1-981f-4173-ad5b-a7b1b7c35d06

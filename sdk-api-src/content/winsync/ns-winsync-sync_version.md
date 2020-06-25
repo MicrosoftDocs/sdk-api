@@ -1,7 +1,8 @@
 ---
 UID: NS:winsync._SYNC_VERSION
 title: SYNC_VERSION (winsync.h)
-description: Represents a version for an item or a change unit.helpviewer_keywords: ["SYNC_VERSION","SYNC_VERSION structure [Windows Sync]","winsync.sync_version","winsync/SYNC_VERSION"]
+description: Represents a version for an item or a change unit.
+helpviewer_keywords: ["SYNC_VERSION","SYNC_VERSION structure [Windows Sync]","winsync.sync_version","winsync/SYNC_VERSION"]
 old-location: winsync\sync_version.htm
 tech.root: winsync
 ms.assetid: 6a493a58-3dab-4032-90de-be9f903ae489

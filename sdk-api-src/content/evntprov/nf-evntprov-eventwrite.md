@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventWrite
 title: EventWrite function (evntprov.h)
-description: Use this function to write an event.helpviewer_keywords: ["EventWrite","EventWrite function [ETW]","base.eventwrite_func","etw.eventwrite_func","evntprov/EventWrite"]
+description: Use this function to write an event.
+helpviewer_keywords: ["EventWrite","EventWrite function [ETW]","base.eventwrite_func","etw.eventwrite_func","evntprov/EventWrite"]
 old-location: etw\eventwrite_func.htm
 tech.root: ETW
 ms.assetid: 93070eb7-c167-4419-abff-e861877dad07

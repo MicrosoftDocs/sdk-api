@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IWEExtendContextMenu.AddContextMenuItems
 title: IWEExtendContextMenu::AddContextMenuItems (cluadmex.h)
-description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.helpviewer_keywords: ["AddContextMenuItems","AddContextMenuItems method [Failover Cluster]","AddContextMenuItems method [Failover Cluster]","IWEExtendContextMenu interface","IWEExtendContextMenu interface [Failover Cluster]","AddContextMenuItems method","IWEExtendContextMenu.AddContextMenuItems","IWEExtendContextMenu::AddContextMenuItems","_wolf_iweextendcontextmenu_addcontextmenuitems","cluadmex/IWEExtendContextMenu::AddContextMenuItems","mscs.iweextendcontextmenu_addcontextmenuitems"]
+description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
+helpviewer_keywords: ["AddContextMenuItems","AddContextMenuItems method [Failover Cluster]","AddContextMenuItems method [Failover Cluster]","IWEExtendContextMenu interface","IWEExtendContextMenu interface [Failover Cluster]","AddContextMenuItems method","IWEExtendContextMenu.AddContextMenuItems","IWEExtendContextMenu::AddContextMenuItems","_wolf_iweextendcontextmenu_addcontextmenuitems","cluadmex/IWEExtendContextMenu::AddContextMenuItems","mscs.iweextendcontextmenu_addcontextmenuitems"]
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
 tech.root: MsCS
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9

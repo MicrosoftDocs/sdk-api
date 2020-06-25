@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1BoundsAdjustmentTransform
 title: ID2D1BoundsAdjustmentTransform (d2d1effectauthor.h)
-description: A support transform for effects to modify the output rectangle of the previous effect or bitmap.helpviewer_keywords: ["ID2D1BoundsAdjustmentTransform","ID2D1BoundsAdjustmentTransform interface [Direct2D]","ID2D1BoundsAdjustmentTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1BoundsAdjustmentTransform","direct2d.id2d1boundadjustmenttransform"]
+description: A support transform for effects to modify the output rectangle of the previous effect or bitmap.
+helpviewer_keywords: ["ID2D1BoundsAdjustmentTransform","ID2D1BoundsAdjustmentTransform interface [Direct2D]","ID2D1BoundsAdjustmentTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1BoundsAdjustmentTransform","direct2d.id2d1boundadjustmenttransform"]
 old-location: direct2d\id2d1boundadjustmenttransform.htm
 tech.root: Direct2D
 ms.assetid: 40482670-2989-47B2-9558-FF017C8A2FBB

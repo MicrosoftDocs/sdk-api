@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Clone
 title: IWbemClassObject::Clone (wbemcli.h)
-description: The IWbemClassObject::Clone method returns a new object that is a complete clone of the current object. The new object has a COM reference count of 1.helpviewer_keywords: ["Clone","Clone method [Windows Management Instrumentation]","Clone method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","Clone method","IWbemClassObject.Clone","IWbemClassObject::Clone","_hmm_iwbemclassobject_clone","wbemcli/IWbemClassObject::Clone","wmi.iwbemclassobject_clone"]
+description: The IWbemClassObject::Clone method returns a new object that is a complete clone of the current object. The new object has a COM reference count of 1.
+helpviewer_keywords: ["Clone","Clone method [Windows Management Instrumentation]","Clone method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","Clone method","IWbemClassObject.Clone","IWbemClassObject::Clone","_hmm_iwbemclassobject_clone","wbemcli/IWbemClassObject::Clone","wmi.iwbemclassobject_clone"]
 old-location: wmi\iwbemclassobject_clone.htm
 tech.root: WmiSdk
 ms.assetid: 4a708963-f677-4419-800d-02a01908e7cb

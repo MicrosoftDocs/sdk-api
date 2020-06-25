@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableIntegerChangeHandler2
 title: IUIAnimationVariableIntegerChangeHandler2 (uianimation.h)
-description: Defines a method for handling animation variable update events. IUIAnimationVariableIntegerChangeHandler2 handles events that occur in a specified dimension.helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler2","IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation]","IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation]","described","uianimation.iuianimationvariableintegerchangehandler2","uianimation/IUIAnimationVariableIntegerChangeHandler2"]
+description: Defines a method for handling animation variable update events. IUIAnimationVariableIntegerChangeHandler2 handles events that occur in a specified dimension.
+helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler2","IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation]","IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation]","described","uianimation.iuianimationvariableintegerchangehandler2","uianimation/IUIAnimationVariableIntegerChangeHandler2"]
 old-location: uianimation\iuianimationvariableintegerchangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: 778BE01B-360C-431C-9515-DE43B4F2B77D

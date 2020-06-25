@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_Replacement
 title: ISpellingError::get_Replacement (spellcheck.h)
-description: Gets the text to use as replacement text when the corrective action is replace.helpviewer_keywords: ["ISpellingError interface [Internationalization for Windows Applications]","Replacement property","ISpellingError.Replacement","ISpellingError.get_Replacement","ISpellingError::Replacement","ISpellingError::get_Replacement","Replacement property [Internationalization for Windows Applications]","Replacement property [Internationalization for Windows Applications]","ISpellingError interface","get_Replacement","intl.ispellingerror_replacement","spellcheck/ISpellingError::Replacement","spellcheck/ISpellingError::get_Replacement"]
+description: Gets the text to use as replacement text when the corrective action is replace.
+helpviewer_keywords: ["ISpellingError interface [Internationalization for Windows Applications]","Replacement property","ISpellingError.Replacement","ISpellingError.get_Replacement","ISpellingError::Replacement","ISpellingError::get_Replacement","Replacement property [Internationalization for Windows Applications]","Replacement property [Internationalization for Windows Applications]","ISpellingError interface","get_Replacement","intl.ispellingerror_replacement","spellcheck/ISpellingError::Replacement","spellcheck/ISpellingError::get_Replacement"]
 old-location: intl\ispellingerror_replacement.htm
 tech.root: Intl
 ms.assetid: df161212-8950-4d05-9f69-15165fea9da9

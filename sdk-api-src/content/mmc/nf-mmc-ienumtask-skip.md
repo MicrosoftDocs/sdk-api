@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IEnumTASK.Skip
 title: IEnumTASK::Skip (mmc.h)
-description: The IEnumTASK::Skip method skips the specified number of tasks in the snap-in's list of tasks. MMC does not use this method. It must be included for completeness.helpviewer_keywords: ["IEnumTASK interface [MMC]","Skip method","IEnumTASK.Skip","IEnumTASK::Skip","Skip","Skip method [MMC]","Skip method [MMC]","IEnumTASK interface","_slate_ienumtask_skip","mmc.ienumtask_skip","mmc/IEnumTASK::Skip"]
+description: The IEnumTASK::Skip method skips the specified number of tasks in the snap-in's list of tasks. MMC does not use this method. It must be included for completeness.
+helpviewer_keywords: ["IEnumTASK interface [MMC]","Skip method","IEnumTASK.Skip","IEnumTASK::Skip","Skip","Skip method [MMC]","Skip method [MMC]","IEnumTASK interface","_slate_ienumtask_skip","mmc.ienumtask_skip","mmc/IEnumTASK::Skip"]
 old-location: mmc\ienumtask_skip.htm
 tech.root: mmc
 ms.assetid: 6c002cbe-db0c-40f6-9d6f-fee0daeb9a43

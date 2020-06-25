@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetGenuineInformationEx
 title: SLGetGenuineInformationEx function (slpublic.h)
-description: Specifies information about the genuine status of a Windows computer.helpviewer_keywords: ["SLGetGenuineInformationEx","SLGetGenuineInformationEx function [Security]","security.slgetgenuineinformationex","slpublic/SLGetGenuineInformationEx"]
+description: Specifies information about the genuine status of a Windows computer.
+helpviewer_keywords: ["SLGetGenuineInformationEx","SLGetGenuineInformationEx function [Security]","security.slgetgenuineinformationex","slpublic/SLGetGenuineInformationEx"]
 old-location: security\slgetgenuineinformationex.htm
 tech.root: SecSLApi
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70

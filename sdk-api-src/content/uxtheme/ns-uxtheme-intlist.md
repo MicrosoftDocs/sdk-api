@@ -1,7 +1,8 @@
 ---
 UID: NS:uxtheme._INTLIST
 title: INTLIST (uxtheme.h)
-description: Contains an array or list of int data items from a visual style.helpviewer_keywords: ["*PINTLIST","INTLIST","INTLIST structure [Windows Controls]","PINTLIST","PINTLIST structure pointer [Windows Controls]","controls.INTLIST","controls.inet_INTLIST","inet_INTLIST","inet_INTLIST_cpp","uxtheme/INTLIST","uxtheme/PINTLIST"]
+description: Contains an array or list of int data items from a visual style.
+helpviewer_keywords: ["*PINTLIST","INTLIST","INTLIST structure [Windows Controls]","PINTLIST","PINTLIST structure pointer [Windows Controls]","controls.INTLIST","controls.inet_INTLIST","inet_INTLIST","inet_INTLIST_cpp","uxtheme/INTLIST","uxtheme/PINTLIST"]
 old-location: controls\INTLIST.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm

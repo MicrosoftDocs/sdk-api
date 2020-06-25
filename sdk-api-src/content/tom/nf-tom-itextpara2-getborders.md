@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara2.GetBorders
 title: ITextPara2::GetBorders (tom.h)
-description: Gets the borders collection.helpviewer_keywords: ["GetBorders","GetBorders method [Windows Controls]","GetBorders method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetBorders method","ITextPara2.GetBorders","ITextPara2::GetBorders","controls.itextpara2_getborders","tom/ITextPara2::GetBorders"]
+description: Gets the borders collection.
+helpviewer_keywords: ["GetBorders","GetBorders method [Windows Controls]","GetBorders method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetBorders method","ITextPara2.GetBorders","ITextPara2::GetBorders","controls.itextpara2_getborders","tom/ITextPara2::GetBorders"]
 old-location: controls\itextpara2_getborders.htm
 tech.root: Controls
 ms.assetid: c2a681f6-a8d6-49ad-9ccc-362050b2e8ad

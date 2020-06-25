@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrSimpleTypeUnmarshall
 title: NdrSimpleTypeUnmarshall function (rpcndr.h)
-description: The NdrSimpleTypeUnmarshall function unmarshalls a simple type.helpviewer_keywords: ["NdrSimpleTypeUnmarshall","NdrSimpleTypeUnmarshall function [RPC]","rpc.ndrsimpletypeunmarshall","rpcndr/NdrSimpleTypeUnmarshall"]
+description: The NdrSimpleTypeUnmarshall function unmarshalls a simple type.
+helpviewer_keywords: ["NdrSimpleTypeUnmarshall","NdrSimpleTypeUnmarshall function [RPC]","rpc.ndrsimpletypeunmarshall","rpcndr/NdrSimpleTypeUnmarshall"]
 old-location: rpc\ndrsimpletypeunmarshall.htm
 tech.root: Rpc
 ms.assetid: f1ed9bdc-3ff6-4947-b77f-cb95fe8c3e85

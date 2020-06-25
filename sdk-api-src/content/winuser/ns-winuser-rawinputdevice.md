@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRAWINPUTDEVICE
 title: RAWINPUTDEVICE (winuser.h)
-description: Defines information for the raw input devices.helpviewer_keywords: ["*LPRAWINPUTDEVICE","*PRAWINPUTDEVICE","LPRAWINPUTDEVICE","LPRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input]","PRAWINPUTDEVICE","PRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input]","RAWINPUTDEVICE","RAWINPUTDEVICE structure [Keyboard and Mouse Input]","RIDEV_APPKEYS","RIDEV_CAPTUREMOUSE","RIDEV_DEVNOTIFY","RIDEV_EXCLUDE","RIDEV_EXINPUTSINK","RIDEV_INPUTSINK","RIDEV_NOHOTKEYS","RIDEV_NOLEGACY","RIDEV_PAGEONLY","RIDEV_REMOVE","_win32_RAWINPUTDEVICE_str","_win32_rawinputdevice_str_cpp","inputdev.rawinputdevice","winui._win32_rawinputdevice_str","winuser/LPRAWINPUTDEVICE","winuser/PRAWINPUTDEVICE","winuser/RAWINPUTDEVICE"]
+description: Defines information for the raw input devices.
+helpviewer_keywords: ["*LPRAWINPUTDEVICE","*PRAWINPUTDEVICE","LPRAWINPUTDEVICE","LPRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input]","PRAWINPUTDEVICE","PRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input]","RAWINPUTDEVICE","RAWINPUTDEVICE structure [Keyboard and Mouse Input]","RIDEV_APPKEYS","RIDEV_CAPTUREMOUSE","RIDEV_DEVNOTIFY","RIDEV_EXCLUDE","RIDEV_EXINPUTSINK","RIDEV_INPUTSINK","RIDEV_NOHOTKEYS","RIDEV_NOLEGACY","RIDEV_PAGEONLY","RIDEV_REMOVE","_win32_RAWINPUTDEVICE_str","_win32_rawinputdevice_str_cpp","inputdev.rawinputdevice","winui._win32_rawinputdevice_str","winuser/LPRAWINPUTDEVICE","winuser/PRAWINPUTDEVICE","winuser/RAWINPUTDEVICE"]
 old-location: inputdev\rawinputdevice.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevice.htm

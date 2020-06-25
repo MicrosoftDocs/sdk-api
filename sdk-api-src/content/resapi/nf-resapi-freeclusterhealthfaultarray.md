@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.FreeClusterHealthFaultArray
 title: FreeClusterHealthFaultArray function (resapi.h)
-description: TBD.helpviewer_keywords: ["FreeClusterHealthFaultArray","FreeClusterHealthFaultArray function [Failover Cluster]","mscs.freeclusterhealthfaultarray","resapi/FreeClusterHealthFaultArray"]
+description: TBD.
+helpviewer_keywords: ["FreeClusterHealthFaultArray","FreeClusterHealthFaultArray function [Failover Cluster]","mscs.freeclusterhealthfaultarray","resapi/FreeClusterHealthFaultArray"]
 old-location: mscs\freeclusterhealthfaultarray.htm
 tech.root: MsCS
 ms.assetid: f8c29dc0-dde0-4782-8a54-52a40f6f1586

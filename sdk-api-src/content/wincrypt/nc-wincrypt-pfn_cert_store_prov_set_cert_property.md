@@ -1,7 +1,8 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 title: PFN_CERT_STORE_PROV_SET_CERT_PROPERTY (wincrypt.h)
-description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.helpviewer_keywords: ["CertStoreProvSetCertPropertyCallback","PFN_CERT_STORE_PROV_SET_CERT_PROPERTY","PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback","PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security]","_crypto2_certstoreprovsetcertpropertycallback","security.certstoreprovsetcertpropertycallback","wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY"]
+description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.
+helpviewer_keywords: ["CertStoreProvSetCertPropertyCallback","PFN_CERT_STORE_PROV_SET_CERT_PROPERTY","PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback","PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security]","_crypto2_certstoreprovsetcertpropertycallback","security.certstoreprovsetcertpropertycallback","wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY"]
 old-location: security\certstoreprovsetcertpropertycallback.htm
 tech.root: SecCrypto
 ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583

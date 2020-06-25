@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.Refresh
 title: IFaxOutboundRoutingRule::Refresh (faxcomex.h)
-description: The IFaxOutboundRoutingRule::Refresh method refreshes FaxOutboundRoutingRule object information from the fax server.helpviewer_keywords: ["IFaxOutboundRoutingRule interface [Fax Service]","Refresh method","IFaxOutboundRoutingRule.Refresh","IFaxOutboundRoutingRule::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxOutboundRoutingRule interface","_mfax_faxoutboundroutingrule.refresh","fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_refresh_cpp","fax._mfax_faxoutboundroutingrule_refresh","faxcomex/IFaxOutboundRoutingRule::Refresh"]
+description: The IFaxOutboundRoutingRule::Refresh method refreshes FaxOutboundRoutingRule object information from the fax server.
+helpviewer_keywords: ["IFaxOutboundRoutingRule interface [Fax Service]","Refresh method","IFaxOutboundRoutingRule.Refresh","IFaxOutboundRoutingRule::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxOutboundRoutingRule interface","_mfax_faxoutboundroutingrule.refresh","fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_refresh_cpp","fax._mfax_faxoutboundroutingrule_refresh","faxcomex/IFaxOutboundRoutingRule::Refresh"]
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6s2w.htm

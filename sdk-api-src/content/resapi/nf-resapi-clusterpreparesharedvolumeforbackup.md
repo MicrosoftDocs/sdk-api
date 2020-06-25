@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ClusterPrepareSharedVolumeForBackup
 title: ClusterPrepareSharedVolumeForBackup function (resapi.h)
-description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.helpviewer_keywords: ["ClusterPrepareSharedVolumeForBackup","ClusterPrepareSharedVolumeForBackup function [Failover Cluster]","PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP","PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster]","mscs.clusterpreparesharedvolumeforbackup","resapi/ClusterPrepareSharedVolumeForBackup","resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP"]
+description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
+helpviewer_keywords: ["ClusterPrepareSharedVolumeForBackup","ClusterPrepareSharedVolumeForBackup function [Failover Cluster]","PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP","PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP function [Failover Cluster]","mscs.clusterpreparesharedvolumeforbackup","resapi/ClusterPrepareSharedVolumeForBackup","resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP"]
 old-location: mscs\clusterpreparesharedvolumeforbackup.htm
 tech.root: MsCS
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5

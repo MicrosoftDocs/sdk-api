@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IDiscRecorder2
 title: IDiscRecorder2 (imapi2.h)
-description: This interface represents a physical device. You use this interface to retrieve information about a CD and DVD device installed on the computer and to perform operations such as closing the tray or eject the media.helpviewer_keywords: ["IDiscRecorder2","IDiscRecorder2 interface [IMAPI]","IDiscRecorder2 interface [IMAPI]","described","imapi.idiscrecorder2","imapi2/IDiscRecorder2"]
+description: This interface represents a physical device. You use this interface to retrieve information about a CD and DVD device installed on the computer and to perform operations such as closing the tray or eject the media.
+helpviewer_keywords: ["IDiscRecorder2","IDiscRecorder2 interface [IMAPI]","IDiscRecorder2 interface [IMAPI]","described","imapi.idiscrecorder2","imapi2/IDiscRecorder2"]
 old-location: imapi\idiscrecorder2.htm
 tech.root: imapi
 ms.assetid: 34f858b8-74eb-4725-8815-7954cb98cff0

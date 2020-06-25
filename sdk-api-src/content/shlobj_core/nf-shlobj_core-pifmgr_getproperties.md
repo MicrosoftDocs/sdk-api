@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.PifMgr_GetProperties
 title: PifMgr_GetProperties function (shlobj_core.h)
-description: Returns a specified block of data from a .pif file.helpviewer_keywords: ["PifMgr_GetProperties","PifMgr_GetProperties function [Windows Properties]","_win32_PifMgr_GetProperties","properties.PifMgr_GetProperties","shell.PifMgr_GetProperties","shlobj_core/PifMgr_GetProperties"]
+description: Returns a specified block of data from a .pif file.
+helpviewer_keywords: ["PifMgr_GetProperties","PifMgr_GetProperties function [Windows Properties]","_win32_PifMgr_GetProperties","properties.PifMgr_GetProperties","shell.PifMgr_GetProperties","shlobj_core/PifMgr_GetProperties"]
 old-location: properties\PifMgr_GetProperties.htm
 tech.root: properties
 ms.assetid: 62933ddf-9b0d-427a-8b5f-a0117a3b4885

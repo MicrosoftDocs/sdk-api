@@ -1,7 +1,8 @@
 ---
 UID: NF:fdi.FDICopy
 title: FDICopy function (fdi.h)
-description: The FDICopy function extracts files from cabinets.helpviewer_keywords: ["FDICopy","FDICopy function [Windows API]","fdi/FDICopy","winprog.fdicopy"]
+description: The FDICopy function extracts files from cabinets.
+helpviewer_keywords: ["FDICopy","FDICopy function [Windows API]","fdi/FDICopy","winprog.fdicopy"]
 old-location: winprog\fdicopy.htm
 tech.root: DevNotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd

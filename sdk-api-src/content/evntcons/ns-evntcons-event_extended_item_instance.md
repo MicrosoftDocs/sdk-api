@@ -1,7 +1,8 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_INSTANCE
 title: EVENT_EXTENDED_ITEM_INSTANCE (evntcons.h)
-description: Defines the relationship between events if TraceEventInstance was used to log related events.helpviewer_keywords: ["*PEVENT_EXTENDED_ITEM_INSTANCE","EVENT_EXTENDED_ITEM_INSTANCE","EVENT_EXTENDED_ITEM_INSTANCE structure [ETW]","PEVENT_EXTENDED_ITEM_INSTANCE","PEVENT_EXTENDED_ITEM_INSTANCE structure pointer [ETW]","base.event_extended_item_instance","etw.event_extended_item_instance","evntcons/EVENT_EXTENDED_ITEM_INSTANCE","evntcons/PEVENT_EXTENDED_ITEM_INSTANCE"]
+description: Defines the relationship between events if TraceEventInstance was used to log related events.
+helpviewer_keywords: ["*PEVENT_EXTENDED_ITEM_INSTANCE","EVENT_EXTENDED_ITEM_INSTANCE","EVENT_EXTENDED_ITEM_INSTANCE structure [ETW]","PEVENT_EXTENDED_ITEM_INSTANCE","PEVENT_EXTENDED_ITEM_INSTANCE structure pointer [ETW]","base.event_extended_item_instance","etw.event_extended_item_instance","evntcons/EVENT_EXTENDED_ITEM_INSTANCE","evntcons/PEVENT_EXTENDED_ITEM_INSTANCE"]
 old-location: etw\event_extended_item_instance.htm
 tech.root: ETW
 ms.assetid: 3def638b-cab2-4b5d-b409-7285caa77ae1

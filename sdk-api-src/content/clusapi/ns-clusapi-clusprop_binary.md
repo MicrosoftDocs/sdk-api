@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_BINARY
 title: CLUSPROP_BINARY (clusapi.h)
-description: Describes a binary data value.helpviewer_keywords: ["*PCLUSPROP_BINARY","CLUSPROP_BINARY","CLUSPROP_BINARY structure [Failover Cluster]","PCLUSPROP_BINARY","PCLUSPROP_BINARY structure pointer [Failover Cluster]","_wolf_clusprop_binary","clusapi/CLUSPROP_BINARY","clusapi/PCLUSPROP_BINARY","mscs.clusprop_binary"]
+description: Describes a binary data value.
+helpviewer_keywords: ["*PCLUSPROP_BINARY","CLUSPROP_BINARY","CLUSPROP_BINARY structure [Failover Cluster]","PCLUSPROP_BINARY","PCLUSPROP_BINARY structure pointer [Failover Cluster]","_wolf_clusprop_binary","clusapi/CLUSPROP_BINARY","clusapi/PCLUSPROP_BINARY","mscs.clusprop_binary"]
 old-location: mscs\clusprop_binary.htm
 tech.root: MsCS
 ms.assetid: 61169871-4998-4e9f-97dc-77344bbfa962

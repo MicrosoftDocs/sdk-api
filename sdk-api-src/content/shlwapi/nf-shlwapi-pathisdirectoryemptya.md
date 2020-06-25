@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryEmptyA
 title: PathIsDirectoryEmptyA function (shlwapi.h)
-description: Determines whether a specified path is an empty directory.helpviewer_keywords: ["PathIsDirectoryEmpty","PathIsDirectoryEmpty function [Windows Shell]","PathIsDirectoryEmptyA","PathIsDirectoryEmptyW","_win32_PathIsDirectoryEmpty","shell.PathIsDirectoryEmpty","shlwapi/PathIsDirectoryEmpty","shlwapi/PathIsDirectoryEmptyA","shlwapi/PathIsDirectoryEmptyW"]
+description: Determines whether a specified path is an empty directory.
+helpviewer_keywords: ["PathIsDirectoryEmpty","PathIsDirectoryEmpty function [Windows Shell]","PathIsDirectoryEmptyA","PathIsDirectoryEmptyW","_win32_PathIsDirectoryEmpty","shell.PathIsDirectoryEmpty","shlwapi/PathIsDirectoryEmpty","shlwapi/PathIsDirectoryEmptyA","shlwapi/PathIsDirectoryEmptyW"]
 old-location: shell\PathIsDirectoryEmpty.htm
 tech.root: shell
 ms.assetid: 833fe68e-8b21-4819-8370-d1b5391a3080
@@ -88,6 +89,10 @@ Returns <b>TRUE</b> if <i>pszPath</i> is an empty directory. Returns <b>FALSE</b
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathIsDirectoryEmpty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

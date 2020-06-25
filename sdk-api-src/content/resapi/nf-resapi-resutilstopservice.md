@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilStopService
 title: ResUtilStopService function (resapi.h)
-description: Stops a service identified by a handle. The PRESUTIL_STOP_SERVICE type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_STOP_SERVICE","PRESUTIL_STOP_SERVICE function [Failover Cluster]","ResUtilStopService","ResUtilStopService function [Failover Cluster]","_wolf_resutilstopservice","mscs.resutilstopservice","resapi/PRESUTIL_STOP_SERVICE","resapi/ResUtilStopService"]
+description: Stops a service identified by a handle. The PRESUTIL_STOP_SERVICE type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_STOP_SERVICE","PRESUTIL_STOP_SERVICE function [Failover Cluster]","ResUtilStopService","ResUtilStopService function [Failover Cluster]","_wolf_resutilstopservice","mscs.resutilstopservice","resapi/PRESUTIL_STOP_SERVICE","resapi/ResUtilStopService"]
 old-location: mscs\resutilstopservice.htm
 tech.root: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41

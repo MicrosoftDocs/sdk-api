@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.GetCurrentFiber
 title: GetCurrentFiber function (winnt.h)
-description: Retrieves the address of the current fiber.helpviewer_keywords: ["GetCurrentFiber","GetCurrentFiber function","_win32_getcurrentfiber","base.getcurrentfiber","winnt/GetCurrentFiber"]
+description: Retrieves the address of the current fiber.
+helpviewer_keywords: ["GetCurrentFiber","GetCurrentFiber function","_win32_getcurrentfiber","base.getcurrentfiber","winnt/GetCurrentFiber"]
 old-location: base\getcurrentfiber.htm
 tech.root: ProcThread
 ms.assetid: a08bfac8-00d0-41b7-9879-802189710093

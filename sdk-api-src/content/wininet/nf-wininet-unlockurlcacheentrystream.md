@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryStream
 title: UnlockUrlCacheEntryStream function (wininet.h)
-description: Closes the stream that has been retrieved using the RetrieveUrlCacheEntryStream function.helpviewer_keywords: ["UnlockUrlCacheEntryStream","UnlockUrlCacheEntryStream function [WinINet]","_inet_unlockurlcacheentrystream_function","wininet.unlockurlcacheentrystream","wininet/UnlockUrlCacheEntryStream"]
+description: Closes the stream that has been retrieved using the RetrieveUrlCacheEntryStream function.
+helpviewer_keywords: ["UnlockUrlCacheEntryStream","UnlockUrlCacheEntryStream function [WinINet]","_inet_unlockurlcacheentrystream_function","wininet.unlockurlcacheentrystream","wininet/UnlockUrlCacheEntryStream"]
 old-location: wininet\unlockurlcacheentrystream.htm
 tech.root: wininet
 ms.assetid: 9fcc257e-732c-4545-a81b-7db20a98e497

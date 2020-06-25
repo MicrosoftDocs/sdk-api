@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_ObjectId
 title: IX509Attribute::get_ObjectId (certenroll.h)
-description: Retrieves the object identifier (OID) for the attribute.helpviewer_keywords: ["IX509Attribute interface [Security]","ObjectId property","IX509Attribute.ObjectId","IX509Attribute.get_ObjectId","IX509Attribute::ObjectId","IX509Attribute::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","IX509Attribute interface","certenroll/IX509Attribute::ObjectId","certenroll/IX509Attribute::get_ObjectId","get_ObjectId","security.ix509attribute_objectid_property"]
+description: Retrieves the object identifier (OID) for the attribute.
+helpviewer_keywords: ["IX509Attribute interface [Security]","ObjectId property","IX509Attribute.ObjectId","IX509Attribute.get_ObjectId","IX509Attribute::ObjectId","IX509Attribute::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","IX509Attribute interface","certenroll/IX509Attribute::ObjectId","certenroll/IX509Attribute::get_ObjectId","get_ObjectId","security.ix509attribute_objectid_property"]
 old-location: security\ix509attribute_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: a65c7989-5e6e-4253-8ddc-1d1207fecaf8

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetUsedAudioBlocks
 title: IRedbookDiscMaster::GetUsedAudioBlocks (imapi.h)
-description: Retrieves the total number of audio blocks in use.helpviewer_keywords: ["GetUsedAudioBlocks","GetUsedAudioBlocks method [IMAPI]","GetUsedAudioBlocks method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","GetUsedAudioBlocks method","IRedbookDiscMaster.GetUsedAudioBlocks","IRedbookDiscMaster::GetUsedAudioBlocks","_win32_iredbookdiscmaster_getusedaudioblocks","base.iredbookdiscmaster_getusedaudioblocks","imapi.iredbookdiscmaster_getusedaudioblocks","imapi/IRedbookDiscMaster::GetUsedAudioBlocks"]
+description: Retrieves the total number of audio blocks in use.
+helpviewer_keywords: ["GetUsedAudioBlocks","GetUsedAudioBlocks method [IMAPI]","GetUsedAudioBlocks method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","GetUsedAudioBlocks method","IRedbookDiscMaster.GetUsedAudioBlocks","IRedbookDiscMaster::GetUsedAudioBlocks","_win32_iredbookdiscmaster_getusedaudioblocks","base.iredbookdiscmaster_getusedaudioblocks","imapi.iredbookdiscmaster_getusedaudioblocks","imapi/IRedbookDiscMaster::GetUsedAudioBlocks"]
 old-location: imapi\iredbookdiscmaster_getusedaudioblocks.htm
 tech.root: imapi
 ms.assetid: 32921d7f-9cb2-4ae4-9064-18df91a237ba

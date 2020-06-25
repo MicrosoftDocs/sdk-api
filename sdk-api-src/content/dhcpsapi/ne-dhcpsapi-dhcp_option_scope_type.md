@@ -1,7 +1,8 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_SCOPE_TYPE
 title: DHCP_OPTION_SCOPE_TYPE (dhcpsapi.h)
-description: The DHCP_OPTION_SCOPE_TYPE enumeration defines the set of possible DHCP option scopes.helpviewer_keywords: ["*LPDHCP_OPTION_SCOPE_TYPE","DHCP_OPTION_SCOPE_TYPE","DHCP_OPTION_SCOPE_TYPE enumeration [DHCP]","DhcpDefaultOptions","DhcpGlobalOptions","DhcpMScopeOptions","DhcpReservedOptions","DhcpSubnetOptions","LPDHCP_OPTION_SCOPE_TYPE","LPDHCP_OPTION_SCOPE_TYPE enumeration pointer [DHCP]","dhcp.dhcp_option_scope_type","dhcpsapi/DHCP_OPTION_SCOPE_TYPE","dhcpsapi/DhcpDefaultOptions","dhcpsapi/DhcpGlobalOptions","dhcpsapi/DhcpMScopeOptions","dhcpsapi/DhcpReservedOptions","dhcpsapi/DhcpSubnetOptions","dhcpsapi/LPDHCP_OPTION_SCOPE_TYPE"]
+description: The DHCP_OPTION_SCOPE_TYPE enumeration defines the set of possible DHCP option scopes.
+helpviewer_keywords: ["*LPDHCP_OPTION_SCOPE_TYPE","DHCP_OPTION_SCOPE_TYPE","DHCP_OPTION_SCOPE_TYPE enumeration [DHCP]","DhcpDefaultOptions","DhcpGlobalOptions","DhcpMScopeOptions","DhcpReservedOptions","DhcpSubnetOptions","LPDHCP_OPTION_SCOPE_TYPE","LPDHCP_OPTION_SCOPE_TYPE enumeration pointer [DHCP]","dhcp.dhcp_option_scope_type","dhcpsapi/DHCP_OPTION_SCOPE_TYPE","dhcpsapi/DhcpDefaultOptions","dhcpsapi/DhcpGlobalOptions","dhcpsapi/DhcpMScopeOptions","dhcpsapi/DhcpReservedOptions","dhcpsapi/DhcpSubnetOptions","dhcpsapi/LPDHCP_OPTION_SCOPE_TYPE"]
 old-location: dhcp\dhcp_option_scope_type.htm
 tech.root: DHCP
 ms.assetid: 3e49bbe4-a8d2-4e1a-b66d-a7d4b45dd670

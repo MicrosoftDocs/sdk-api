@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITCallingCard
 title: ITCallingCard (tapi3if.h)
-description: The ITCallingCard interface provides methods to retrieve information concerning telephony calling cards.helpviewer_keywords: ["ITCallingCard","ITCallingCard interface [TAPI 2.2]","ITCallingCard interface [TAPI 2.2]","described","_tapi3_itcallingcard","tapi3.itcallingcard","tapi3if/ITCallingCard"]
+description: The ITCallingCard interface provides methods to retrieve information concerning telephony calling cards.
+helpviewer_keywords: ["ITCallingCard","ITCallingCard interface [TAPI 2.2]","ITCallingCard interface [TAPI 2.2]","described","_tapi3_itcallingcard","tapi3.itcallingcard","tapi3if/ITCallingCard"]
 old-location: tapi3\itcallingcard.htm
 tech.root: Tapi
 ms.assetid: 09787cd2-56b5-4ed2-8783-f3c53ce2cc66

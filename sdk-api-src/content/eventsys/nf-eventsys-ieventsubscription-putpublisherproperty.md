@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutPublisherProperty
 title: IEventSubscription::PutPublisherProperty (eventsys.h)
-description: Writes a property and its value to the property bag to define publisher context.helpviewer_keywords: ["IEventSubscription interface [COM+]","PutPublisherProperty method","IEventSubscription.PutPublisherProperty","IEventSubscription::PutPublisherProperty","PutPublisherProperty","PutPublisherProperty method [COM+]","PutPublisherProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_PutPublisherProperty","cos.ieventsubscription_putpublisherproperty","eventsys/IEventSubscription::PutPublisherProperty"]
+description: Writes a property and its value to the property bag to define publisher context.
+helpviewer_keywords: ["IEventSubscription interface [COM+]","PutPublisherProperty method","IEventSubscription.PutPublisherProperty","IEventSubscription::PutPublisherProperty","PutPublisherProperty","PutPublisherProperty method [COM+]","PutPublisherProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_PutPublisherProperty","cos.ieventsubscription_putpublisherproperty","eventsys/IEventSubscription::PutPublisherProperty"]
 old-location: cos\ieventsubscription_putpublisherproperty.htm
 tech.root: cossdk
 ms.assetid: af8ae243-d28b-4909-a4e8-98ffe336fc9a

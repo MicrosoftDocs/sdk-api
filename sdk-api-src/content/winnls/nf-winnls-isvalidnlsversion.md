@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.IsValidNLSVersion
 title: IsValidNLSVersion function (winnls.h)
-description: Determines if the NLS version is valid for a given NLS function.helpviewer_keywords: ["IsValidNLSVersion","IsValidNLSVersion function [Internationalization for Windows Applications]","intl.isvalidnlsversion","winnls/IsValidNLSVersion"]
+description: Determines if the NLS version is valid for a given NLS function.
+helpviewer_keywords: ["IsValidNLSVersion","IsValidNLSVersion function [Internationalization for Windows Applications]","intl.isvalidnlsversion","winnls/IsValidNLSVersion"]
 old-location: intl\isvalidnlsversion.htm
 tech.root: Intl
 ms.assetid: 29556DB4-E569-4161-9E47-149E4C12DD3B

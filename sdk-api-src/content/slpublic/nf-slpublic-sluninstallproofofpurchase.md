@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLUninstallProofOfPurchase
 title: SLUninstallProofOfPurchase function (slpublic.h)
-description: Unregisters the product key information.helpviewer_keywords: ["SLUninstallProofOfPurchase","SLUninstallProofOfPurchase function [Security]","security.sluninstallproofofpurchase","slpublic/SLUninstallProofOfPurchase"]
+description: Unregisters the product key information.
+helpviewer_keywords: ["SLUninstallProofOfPurchase","SLUninstallProofOfPurchase function [Security]","security.sluninstallproofofpurchase","slpublic/SLUninstallProofOfPurchase"]
 old-location: security\sluninstallproofofpurchase.htm
 tech.root: SecSLApi
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339

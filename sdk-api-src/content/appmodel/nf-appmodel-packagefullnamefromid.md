@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.PackageFullNameFromId
 title: PackageFullNameFromId function (appmodel.h)
-description: Gets the package full name for the specified package identifier (ID).helpviewer_keywords: ["PackageFullNameFromId","PackageFullNameFromId function [App packaging and management]","appmodel/PackageFullNameFromId","appxpkg.packagefullnamefromid"]
+description: Gets the package full name for the specified package identifier (ID).
+helpviewer_keywords: ["PackageFullNameFromId","PackageFullNameFromId function [App packaging and management]","appmodel/PackageFullNameFromId","appxpkg.packagefullnamefromid"]
 old-location: appxpkg\packagefullnamefromid.htm
 tech.root: appxpkg
 ms.assetid: 0024AF55-295E-49B1-90C2-9144D336529B

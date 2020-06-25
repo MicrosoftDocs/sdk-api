@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMCloseEnvironmentHandle
 title: DRMCloseEnvironmentHandle function (msdrm.h)
-description: Closes an environment handle.helpviewer_keywords: ["DRMCloseEnvironmentHandle","DRMCloseEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCloseEnvironmentHandle","rm.drmcloseenvironmenthandle"]
+description: Closes an environment handle.
+helpviewer_keywords: ["DRMCloseEnvironmentHandle","DRMCloseEnvironmentHandle function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCloseEnvironmentHandle","rm.drmcloseenvironmenthandle"]
 old-location: rm\drmcloseenvironmenthandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 3edde872-a863-4c7f-92f0-f7e324aff651

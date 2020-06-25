@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.Init
 title: ITocParser::Init (wmcodecdsp.h)
-description: The Init method initializes the TOC Parser object and associates it with a media file.helpviewer_keywords: ["ITocParser interface [Media Foundation]","Init method","ITocParser.Init","ITocParser::Init","Init","Init method [Media Foundation]","Init method [Media Foundation]","ITocParser interface","codecapi.itocparser_init","mf.itocparser_init","wmcodecdsp/ITocParser::Init"]
+description: The Init method initializes the TOC Parser object and associates it with a media file.
+helpviewer_keywords: ["ITocParser interface [Media Foundation]","Init method","ITocParser.Init","ITocParser::Init","Init","Init method [Media Foundation]","Init method [Media Foundation]","ITocParser interface","codecapi.itocparser_init","mf.itocparser_init","wmcodecdsp/ITocParser::Init"]
 old-location: mf\itocparser_init.htm
 tech.root: medfound
 ms.assetid: 8d7a9bda-56e8-4b42-ace5-4d6cf5d52b59

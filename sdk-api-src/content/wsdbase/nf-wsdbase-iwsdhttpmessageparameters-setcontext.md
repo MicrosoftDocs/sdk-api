@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetContext
 title: IWSDHttpMessageParameters::SetContext (wsdbase.h)
-description: Sets the private transmission context for the current transaction.helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetContext method","IWSDHttpMessageParameters.SetContext","IWSDHttpMessageParameters::SetContext","SetContext","SetContext method","SetContext method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setcontext","wsdbase/IWSDHttpMessageParameters::SetContext"]
+description: Sets the private transmission context for the current transaction.
+helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetContext method","IWSDHttpMessageParameters.SetContext","IWSDHttpMessageParameters::SetContext","SetContext","SetContext method","SetContext method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setcontext","wsdbase/IWSDHttpMessageParameters::SetContext"]
 old-location: ncd\iwsdhttpmessageparameters_setcontext.htm
 tech.root: WsdApi
 ms.assetid: 8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871

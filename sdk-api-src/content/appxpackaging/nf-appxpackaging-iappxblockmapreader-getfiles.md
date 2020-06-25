@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetFiles
 title: IAppxBlockMapReader::GetFiles (appxpackaging.h)
-description: Retrieves an enumerator for traversing the files listed in the block map.helpviewer_keywords: ["GetFiles","GetFiles method [App packaging and management]","GetFiles method [App packaging and management]","IAppxBlockMapReader interface","IAppxBlockMapReader interface [App packaging and management]","GetFiles method","IAppxBlockMapReader.GetFiles","IAppxBlockMapReader::GetFiles","appxpackaging/IAppxBlockMapReader::GetFiles","appxpkg.iappxblockmapreader_getfiles"]
+description: Retrieves an enumerator for traversing the files listed in the block map.
+helpviewer_keywords: ["GetFiles","GetFiles method [App packaging and management]","GetFiles method [App packaging and management]","IAppxBlockMapReader interface","IAppxBlockMapReader interface [App packaging and management]","GetFiles method","IAppxBlockMapReader.GetFiles","IAppxBlockMapReader::GetFiles","appxpackaging/IAppxBlockMapReader::GetFiles","appxpkg.iappxblockmapreader_getfiles"]
 old-location: appxpkg\iappxblockmapreader_getfiles.htm
 tech.root: appxpkg
 ms.assetid: 7E46C555-8C61-4F26-9732-07E0DEEAF66F

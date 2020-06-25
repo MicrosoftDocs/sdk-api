@@ -1,7 +1,8 @@
 ---
 UID: NE:mbnapi.MBN_SMS_FLAG
 title: MBN_SMS_FLAG (mbnapi.h)
-description: The MBN_SMS_FLAG enumerated type specifies the SMS message class.helpviewer_keywords: ["MBN_SMS_FLAG","MBN_SMS_FLAG enumeration [Microsoft Broadband Networks]","MBN_SMS_FLAG_ALL","MBN_SMS_FLAG_DRAFT","MBN_SMS_FLAG_INDEX","MBN_SMS_FLAG_NEW","MBN_SMS_FLAG_OLD","MBN_SMS_FLAG_SENT","mbn.mbn_sms_flag","mbnapi/MBN_SMS_FLAG","mbnapi/MBN_SMS_FLAG_ALL","mbnapi/MBN_SMS_FLAG_DRAFT","mbnapi/MBN_SMS_FLAG_INDEX","mbnapi/MBN_SMS_FLAG_NEW","mbnapi/MBN_SMS_FLAG_OLD","mbnapi/MBN_SMS_FLAG_SENT"]
+description: The MBN_SMS_FLAG enumerated type specifies the SMS message class.
+helpviewer_keywords: ["MBN_SMS_FLAG","MBN_SMS_FLAG enumeration [Microsoft Broadband Networks]","MBN_SMS_FLAG_ALL","MBN_SMS_FLAG_DRAFT","MBN_SMS_FLAG_INDEX","MBN_SMS_FLAG_NEW","MBN_SMS_FLAG_OLD","MBN_SMS_FLAG_SENT","mbn.mbn_sms_flag","mbnapi/MBN_SMS_FLAG","mbnapi/MBN_SMS_FLAG_ALL","mbnapi/MBN_SMS_FLAG_DRAFT","mbnapi/MBN_SMS_FLAG_INDEX","mbnapi/MBN_SMS_FLAG_NEW","mbnapi/MBN_SMS_FLAG_OLD","mbnapi/MBN_SMS_FLAG_SENT"]
 old-location: mbn\mbn_sms_flag.htm
 tech.root: mbn
 ms.assetid: caabe2b2-86f0-40e7-b5ee-aeda8b64651a

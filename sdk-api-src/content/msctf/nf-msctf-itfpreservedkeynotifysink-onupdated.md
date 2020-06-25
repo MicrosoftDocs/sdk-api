@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfPreservedKeyNotifySink.OnUpdated
 title: ITfPreservedKeyNotifySink::OnUpdated (msctf.h)
-description: ITfPreservedKeyNotifySink::OnUpdated methodhelpviewer_keywords: ["ITfPreservedKeyNotifySink interface [Text Services Framework]","OnUpdated method","ITfPreservedKeyNotifySink.OnUpdated","ITfPreservedKeyNotifySink::OnUpdated","OnUpdated","OnUpdated method [Text Services Framework]","OnUpdated method [Text Services Framework]","ITfPreservedKeyNotifySink interface","_tsf_itfpreservedkeynotifysink_onupdated_ref","msctf/ITfPreservedKeyNotifySink::OnUpdated","tsf.itfpreservedkeynotifysink_onupdated"]
+description: ITfPreservedKeyNotifySink::OnUpdated method
+helpviewer_keywords: ["ITfPreservedKeyNotifySink interface [Text Services Framework]","OnUpdated method","ITfPreservedKeyNotifySink.OnUpdated","ITfPreservedKeyNotifySink::OnUpdated","OnUpdated","OnUpdated method [Text Services Framework]","OnUpdated method [Text Services Framework]","ITfPreservedKeyNotifySink interface","_tsf_itfpreservedkeynotifysink_onupdated_ref","msctf/ITfPreservedKeyNotifySink::OnUpdated","tsf.itfpreservedkeynotifysink_onupdated"]
 old-location: tsf\itfpreservedkeynotifysink_onupdated.htm
 tech.root: TSF
 ms.assetid: 50654da7-60ee-4038-a02a-1055445f1e5d

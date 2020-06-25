@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruCount
 title: IUserInputString::GetMruCount (photoacquire.h)
-description: The GetMruCount method retrieves the number of items in the list of most recently used items.helpviewer_keywords: ["GetMruCount","GetMruCount method [Picture Acquisition]","GetMruCount method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetMruCount method","IUserInputString.GetMruCount","IUserInputString::GetMruCount","IUserInputStringGetMruCount","photoacquire/IUserInputString::GetMruCount","picacq.iuserinputstring_getmrucount"]
+description: The GetMruCount method retrieves the number of items in the list of most recently used items.
+helpviewer_keywords: ["GetMruCount","GetMruCount method [Picture Acquisition]","GetMruCount method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetMruCount method","IUserInputString.GetMruCount","IUserInputString::GetMruCount","IUserInputStringGetMruCount","photoacquire/IUserInputString::GetMruCount","picacq.iuserinputstring_getmrucount"]
 old-location: picacq\iuserinputstring_getmrucount.htm
 tech.root: acquisition
 ms.assetid: 47f1a916-2d1e-4fe8-837b-3e9bf4e51c0b

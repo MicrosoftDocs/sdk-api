@@ -53,13 +53,13 @@ Retrieves the localized names of specific values for a font axis.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](https://docs.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
 
 ### -param axisValueIndex
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Value index, from 0 to [GetAxisValueNameCount](https://docs.microsoft.com/en-us/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontresource-getaxisvaluenamecount) minus 1.
+Value index, from 0 to [GetAxisValueNameCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getaxisvaluenamecount) minus 1.
 
 ### -param fontAxisRange [out]
 

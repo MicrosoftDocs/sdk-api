@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 title: ID3D12GraphicsCommandList1::ResolveSubresourceRegion (d3d12.h)
-description: Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","ResolveSubresourceRegion method","ID3D12GraphicsCommandList1.ResolveSubresourceRegion","ID3D12GraphicsCommandList1::ResolveSubresourceRegion","ResolveSubresourceRegion","ResolveSubresourceRegion method","ResolveSubresourceRegion method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion","direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion"]
+description: Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.
+helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","ResolveSubresourceRegion method","ID3D12GraphicsCommandList1.ResolveSubresourceRegion","ID3D12GraphicsCommandList1::ResolveSubresourceRegion","ResolveSubresourceRegion","ResolveSubresourceRegion method","ResolveSubresourceRegion method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion","direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion"]
 old-location: direct3d12\id3d12graphicscommandlist1_resolvesubresourceregion.htm
 tech.root: direct3d12
 ms.assetid: 8CF3809C-0EC7-4FBB-AEEF-E74FCD9B836D

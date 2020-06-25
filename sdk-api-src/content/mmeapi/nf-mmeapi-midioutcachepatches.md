@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiOutCachePatches
 title: midiOutCachePatches function (mmeapi.h)
-description: The midiOutCachePatches function requests that an internal MIDI synthesizer device preload and cache a specified set of patches.helpviewer_keywords: ["_win32_midiOutCachePatches","midiOutCachePatches","midiOutCachePatches function [Windows Multimedia]","mmeapi/midiOutCachePatches","multimedia.midioutcachepatches"]
+description: The midiOutCachePatches function requests that an internal MIDI synthesizer device preload and cache a specified set of patches.
+helpviewer_keywords: ["_win32_midiOutCachePatches","midiOutCachePatches","midiOutCachePatches function [Windows Multimedia]","mmeapi/midiOutCachePatches","multimedia.midioutcachepatches"]
 old-location: multimedia\midioutcachepatches.htm
 tech.root: Multimedia
 ms.assetid: 58d0c73b-46a4-498d-bcef-f5b8aaf52392

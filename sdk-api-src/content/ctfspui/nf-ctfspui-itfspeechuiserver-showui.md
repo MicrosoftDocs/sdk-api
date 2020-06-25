@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.ShowUI
 title: ITfSpeechUIServer::ShowUI (ctfspui.h)
-description: ITfSpeechUIServer::ShowUI methodhelpviewer_keywords: ["ITfSpeechUIServer interface [Text Services Framework]","ShowUI method","ITfSpeechUIServer.ShowUI","ITfSpeechUIServer::ShowUI","ShowUI","ShowUI method [Text Services Framework]","ShowUI method [Text Services Framework]","ITfSpeechUIServer interface","ctfspui/ITfSpeechUIServer::ShowUI","tsf.itfspeechuiserver_showui"]
+description: ITfSpeechUIServer::ShowUI method
+helpviewer_keywords: ["ITfSpeechUIServer interface [Text Services Framework]","ShowUI method","ITfSpeechUIServer.ShowUI","ITfSpeechUIServer::ShowUI","ShowUI","ShowUI method [Text Services Framework]","ShowUI method [Text Services Framework]","ITfSpeechUIServer interface","ctfspui/ITfSpeechUIServer::ShowUI","tsf.itfspeechuiserver_showui"]
 old-location: tsf\itfspeechuiserver_showui.htm
 tech.root: TSF
 ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7

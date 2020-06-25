@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescSetLevel
 title: EventDescSetLevel function (evntprov.h)
-description: Sets the Level member of the event descriptor.helpviewer_keywords: ["EventDescSetLevel","EventDescSetLevel function [ETW]","base.eventdescsetlevel_func","etw.eventdescsetlevel_func","evntprov/EventDescSetLevel"]
+description: Sets the Level member of the event descriptor.
+helpviewer_keywords: ["EventDescSetLevel","EventDescSetLevel function [ETW]","base.eventdescsetlevel_func","etw.eventdescsetlevel_func","evntprov/EventDescSetLevel"]
 old-location: etw\eventdescsetlevel_func.htm
 tech.root: ETW
 ms.assetid: a4fe3b0e-6ca5-401c-a669-752e2955cc52

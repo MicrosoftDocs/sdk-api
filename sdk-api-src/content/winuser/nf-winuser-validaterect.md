@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ValidateRect
 title: ValidateRect function (winuser.h)
-description: The ValidateRect function validates the client area within a rectangle by removing the rectangle from the update region of the specified window.helpviewer_keywords: ["ValidateRect","ValidateRect function [Windows GDI]","_win32_ValidateRect","gdi.validaterect","winuser/ValidateRect"]
+description: The ValidateRect function validates the client area within a rectangle by removing the rectangle from the update region of the specified window.
+helpviewer_keywords: ["ValidateRect","ValidateRect function [Windows GDI]","_win32_ValidateRect","gdi.validaterect","winuser/ValidateRect"]
 old-location: gdi\validaterect.htm
 tech.root: gdi
 ms.assetid: 961dd768-1849-44df-bc7f-480881ed6477

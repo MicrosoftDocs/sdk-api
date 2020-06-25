@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFAttributes.LockStore
 title: IMFAttributes::LockStore (mfobjects.h)
-description: Locks the attribute store so that no other thread can access it.helpviewer_keywords: ["6ec7aed3-7dbc-4aa4-92d5-646aee757db7","IMFAttributes interface [Media Foundation]","LockStore method","IMFAttributes.LockStore","IMFAttributes::LockStore","LockStore","LockStore method [Media Foundation]","LockStore method [Media Foundation]","IMFAttributes interface","mf.imfattributes_lockstore","mfobjects/IMFAttributes::LockStore"]
+description: Locks the attribute store so that no other thread can access it.
+helpviewer_keywords: ["6ec7aed3-7dbc-4aa4-92d5-646aee757db7","IMFAttributes interface [Media Foundation]","LockStore method","IMFAttributes.LockStore","IMFAttributes::LockStore","LockStore","LockStore method [Media Foundation]","LockStore method [Media Foundation]","IMFAttributes interface","mf.imfattributes_lockstore","mfobjects/IMFAttributes::LockStore"]
 old-location: mf\imfattributes_lockstore.htm
 tech.root: medfound
 ms.assetid: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_DestPath
 title: IMessageMover::put_DestPath (comsvcs.h)
-description: Sets the path of the destination (output) queue.helpviewer_keywords: ["IMessageMover interface [COM+]","put_DestPath method","IMessageMover.put_DestPath","IMessageMover::put_DestPath","comsvcs/IMessageMover::put_DestPath","cos.imessagemover_put_destpath","put_DestPath","put_DestPath method [COM+]","put_DestPath method [COM+]","IMessageMover interface"]
+description: Sets the path of the destination (output) queue.
+helpviewer_keywords: ["IMessageMover interface [COM+]","put_DestPath method","IMessageMover.put_DestPath","IMessageMover::put_DestPath","comsvcs/IMessageMover::put_DestPath","cos.imessagemover_put_destpath","put_DestPath","put_DestPath method [COM+]","put_DestPath method [COM+]","IMessageMover interface"]
 old-location: cos\imessagemover_put_destpath.htm
 tech.root: cossdk
 ms.assetid: 79ed8030-097d-4017-be8e-e812f4b14a46

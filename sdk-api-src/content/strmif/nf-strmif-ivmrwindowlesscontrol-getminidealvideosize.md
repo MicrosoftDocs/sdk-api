@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetMinIdealVideoSize
 title: IVMRWindowlessControl::GetMinIdealVideoSize (strmif.h)
-description: The GetMinIdealVideoSize method retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.helpviewer_keywords: ["GetMinIdealVideoSize","GetMinIdealVideoSize method [DirectShow]","GetMinIdealVideoSize method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetMinIdealVideoSize method","IVMRWindowlessControl.GetMinIdealVideoSize","IVMRWindowlessControl::GetMinIdealVideoSize","IVMRWindowlessControlGetMinIdealVideoSize","dshow.ivmrwindowlesscontrol_getminidealvideosize","strmif/IVMRWindowlessControl::GetMinIdealVideoSize"]
+description: The GetMinIdealVideoSize method retrieves the minimum video size that the VMR can display without incurring significant performance or image quality degradation.
+helpviewer_keywords: ["GetMinIdealVideoSize","GetMinIdealVideoSize method [DirectShow]","GetMinIdealVideoSize method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetMinIdealVideoSize method","IVMRWindowlessControl.GetMinIdealVideoSize","IVMRWindowlessControl::GetMinIdealVideoSize","IVMRWindowlessControlGetMinIdealVideoSize","dshow.ivmrwindowlesscontrol_getminidealvideosize","strmif/IVMRWindowlessControl::GetMinIdealVideoSize"]
 old-location: dshow\ivmrwindowlesscontrol_getminidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 602e32d4-41d6-4139-aa64-4b53caa50859

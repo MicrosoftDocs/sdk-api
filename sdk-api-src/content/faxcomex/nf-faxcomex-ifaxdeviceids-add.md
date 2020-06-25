@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.Add
 title: IFaxDeviceIds::Add (faxcomex.h)
-description: The IFaxDeviceIds::Add method adds a fax device to the FaxDeviceIds collection, using the device's ID.helpviewer_keywords: ["Add","Add method [Fax Service]","Add method [Fax Service]","IFaxDeviceIds interface","IFaxDeviceIds interface [Fax Service]","Add method","IFaxDeviceIds.Add","IFaxDeviceIds::Add","_mfax_faxdeviceids.add","fax._mfax_faxdeviceids_add","fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp","faxcomex/IFaxDeviceIds::Add"]
+description: The IFaxDeviceIds::Add method adds a fax device to the FaxDeviceIds collection, using the device's ID.
+helpviewer_keywords: ["Add","Add method [Fax Service]","Add method [Fax Service]","IFaxDeviceIds interface","IFaxDeviceIds interface [Fax Service]","Add method","IFaxDeviceIds.Add","IFaxDeviceIds::Add","_mfax_faxdeviceids.add","fax._mfax_faxdeviceids_add","fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp","faxcomex/IFaxDeviceIds::Add"]
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm

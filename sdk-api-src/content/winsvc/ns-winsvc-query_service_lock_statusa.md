@@ -1,7 +1,8 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_LOCK_STATUSA
 title: QUERY_SERVICE_LOCK_STATUSA (winsvc.h)
-description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.helpviewer_keywords: ["*LPQUERY_SERVICE_LOCK_STATUSA","LPQUERY_SERVICE_LOCK_STATUS","LPQUERY_SERVICE_LOCK_STATUS structure pointer","QUERY_SERVICE_LOCK_STATUS","QUERY_SERVICE_LOCK_STATUS structure","QUERY_SERVICE_LOCK_STATUSA","QUERY_SERVICE_LOCK_STATUSW","_win32_query_service_lock_status_str","base.query_service_lock_status_str","winsvc/LPQUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUSA","winsvc/QUERY_SERVICE_LOCK_STATUSW"]
+description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.
+helpviewer_keywords: ["*LPQUERY_SERVICE_LOCK_STATUSA","LPQUERY_SERVICE_LOCK_STATUS","LPQUERY_SERVICE_LOCK_STATUS structure pointer","QUERY_SERVICE_LOCK_STATUS","QUERY_SERVICE_LOCK_STATUS structure","QUERY_SERVICE_LOCK_STATUSA","QUERY_SERVICE_LOCK_STATUSW","_win32_query_service_lock_status_str","base.query_service_lock_status_str","winsvc/LPQUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUS","winsvc/QUERY_SERVICE_LOCK_STATUSA","winsvc/QUERY_SERVICE_LOCK_STATUSW"]
 old-location: base\query_service_lock_status_str.htm
 tech.root: Services
 ms.assetid: de9797b7-02b0-43cb-bed3-50b7e8676f36
@@ -84,4 +85,9 @@ The time since the lock was first acquired, in seconds.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winsvc.h header defines QUERY_SERVICE_LOCK_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.QueryProperty
 title: IWRdsProtocolConnection::QueryProperty (wtsprotocol.h)
-description: Retrieves a property value from the protocol.helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","QueryProperty method","IWRdsProtocolConnection.QueryProperty","IWRdsProtocolConnection::QueryProperty","PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION","QueryProperty","QueryProperty method [Remote Desktop Services]","QueryProperty method [Remote Desktop Services]","IWRdsProtocolConnection interface","WRDS_QUERY_ALLOWED_INITIAL_APP","WRDS_QUERY_AUDIOENUM_DLL","WRDS_QUERY_LOGON_SCREEN_SIZE","WRDS_QUERY_MF_FORMAT_SUPPORT","termserv.iwrdsprotocolconnection_queryproperty","wtsprotocol/IWRdsProtocolConnection::QueryProperty"]
+description: Retrieves a property value from the protocol.
+helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","QueryProperty method","IWRdsProtocolConnection.QueryProperty","IWRdsProtocolConnection::QueryProperty","PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION","QueryProperty","QueryProperty method [Remote Desktop Services]","QueryProperty method [Remote Desktop Services]","IWRdsProtocolConnection interface","WRDS_QUERY_ALLOWED_INITIAL_APP","WRDS_QUERY_AUDIOENUM_DLL","WRDS_QUERY_LOGON_SCREEN_SIZE","WRDS_QUERY_MF_FORMAT_SUPPORT","termserv.iwrdsprotocolconnection_queryproperty","wtsprotocol/IWRdsProtocolConnection::QueryProperty"]
 old-location: termserv\iwrdsprotocolconnection_queryproperty.htm
 tech.root: TermServ
 ms.assetid: d504a40f-5dc5-4c1b-960f-d41cccef9154

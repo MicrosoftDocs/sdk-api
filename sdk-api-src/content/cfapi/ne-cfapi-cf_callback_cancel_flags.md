@@ -1,7 +1,8 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_CANCEL_FLAGS
 title: CF_CALLBACK_CANCEL_FLAGS (cfapi.h)
-description: Callback flags for canceling data fetching for a placeholder file or folder.helpviewer_keywords: ["CF_CALLBACK_CANCEL_FLAGS","CF_CALLBACK_CANCEL_FLAGS enumeration","CF_CALLBACK_CANCEL_FLAG_IO_ABORTED","CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT","CF_CALLBACK_CANCEL_FLAG_NONE","cfapi/CF_CALLBACK_CANCEL_FLAGS","cfapi/CF_CALLBACK_CANCEL_FLAG_IO_ABORTED","cfapi/CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT","cfapi/CF_CALLBACK_CANCEL_FLAG_NONE","cloudApi.cf_callback_cancel_flags"]
+description: Callback flags for canceling data fetching for a placeholder file or folder.
+helpviewer_keywords: ["CF_CALLBACK_CANCEL_FLAGS","CF_CALLBACK_CANCEL_FLAGS enumeration","CF_CALLBACK_CANCEL_FLAG_IO_ABORTED","CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT","CF_CALLBACK_CANCEL_FLAG_NONE","cfapi/CF_CALLBACK_CANCEL_FLAGS","cfapi/CF_CALLBACK_CANCEL_FLAG_IO_ABORTED","cfapi/CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT","cfapi/CF_CALLBACK_CANCEL_FLAG_NONE","cloudApi.cf_callback_cancel_flags"]
 old-location: cloudapi\cf_callback_cancel_flags.htm
 tech.root: cfApi
 ms.assetid: 16F0BB1E-FB9E-4AC3-8FD9-A540F72F1155

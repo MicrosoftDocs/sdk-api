@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ExtendedStatusCode
 title: IFaxOutgoingJob::get_ExtendedStatusCode (faxcomex.h)
-description: The IFaxOutgoingJob::get_ExtendedStatusCode property specifies a code describing the job's extended status.helpviewer_keywords: ["ExtendedStatusCode property [Fax Service]","ExtendedStatusCode property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","ExtendedStatusCode property","IFaxOutgoingJob.ExtendedStatusCode","IFaxOutgoingJob.get_ExtendedStatusCode","IFaxOutgoingJob::ExtendedStatusCode","IFaxOutgoingJob::get_ExtendedStatusCode","_mfax_faxoutgoingjob.extendedstatuscode","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatuscode_cpp","fax._mfax_faxoutgoingjob_extendedstatuscode","faxcomex/IFaxOutgoingJob::ExtendedStatusCode","faxcomex/IFaxOutgoingJob::get_ExtendedStatusCode","get_ExtendedStatusCode"]
+description: The IFaxOutgoingJob::get_ExtendedStatusCode property specifies a code describing the job's extended status.
+helpviewer_keywords: ["ExtendedStatusCode property [Fax Service]","ExtendedStatusCode property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","ExtendedStatusCode property","IFaxOutgoingJob.ExtendedStatusCode","IFaxOutgoingJob.get_ExtendedStatusCode","IFaxOutgoingJob::ExtendedStatusCode","IFaxOutgoingJob::get_ExtendedStatusCode","_mfax_faxoutgoingjob.extendedstatuscode","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatuscode_cpp","fax._mfax_faxoutgoingjob_extendedstatuscode","faxcomex/IFaxOutgoingJob::ExtendedStatusCode","faxcomex/IFaxOutgoingJob::get_ExtendedStatusCode","get_ExtendedStatusCode"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatuscode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_16xx.htm

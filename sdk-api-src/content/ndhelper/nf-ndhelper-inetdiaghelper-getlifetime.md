@@ -1,7 +1,8 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetLifeTime
 title: INetDiagHelper::GetLifeTime (ndhelper.h)
-description: Retrieves the lifetime of the Helper Class Extension instance.helpviewer_keywords: ["GetLifeTime","GetLifeTime method [NDF]","GetLifeTime method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetLifeTime method","INetDiagHelper.GetLifeTime","INetDiagHelper::GetLifeTime","ndf.inetdiaghelpe_getlifetime","ndhelper/INetDiagHelper::GetLifeTime"]
+description: Retrieves the lifetime of the Helper Class Extension instance.
+helpviewer_keywords: ["GetLifeTime","GetLifeTime method [NDF]","GetLifeTime method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetLifeTime method","INetDiagHelper.GetLifeTime","INetDiagHelper::GetLifeTime","ndf.inetdiaghelpe_getlifetime","ndhelper/INetDiagHelper::GetLifeTime"]
 old-location: ndf\inetdiaghelpe_getlifetime.htm
 tech.root: NDF
 ms.assetid: 0710b8d3-04d6-434f-9b0a-22049bf00ba0

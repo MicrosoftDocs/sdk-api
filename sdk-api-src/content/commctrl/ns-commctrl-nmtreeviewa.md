@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMTREEVIEWA
 title: NMTREEVIEWA (commctrl.h)
-description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions.helpviewer_keywords: ["*LPNMTREEVIEWA","LPNMTREEVIEW","LPNMTREEVIEW structure pointer [Windows Controls]","NMTREEVIEW","NMTREEVIEW structure [Windows Controls]","NMTREEVIEWA","NMTREEVIEWW","_win32_NMTREEVIEW","_win32_NMTREEVIEW_cpp","commctrl/LPNMTREEVIEW","commctrl/NMTREEVIEW","commctrl/NMTREEVIEWA","commctrl/NMTREEVIEWW","controls.NMTREEVIEW","controls._win32_NMTREEVIEW"]
+description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions.
+helpviewer_keywords: ["*LPNMTREEVIEWA","LPNMTREEVIEW","LPNMTREEVIEW structure pointer [Windows Controls]","NMTREEVIEW","NMTREEVIEW structure [Windows Controls]","NMTREEVIEWA","NMTREEVIEWW","_win32_NMTREEVIEW","_win32_NMTREEVIEW_cpp","commctrl/LPNMTREEVIEW","commctrl/NMTREEVIEW","commctrl/NMTREEVIEWA","commctrl/NMTREEVIEWW","controls.NMTREEVIEW","controls._win32_NMTREEVIEW"]
 old-location: controls\NMTREEVIEW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtreeview.htm
@@ -124,4 +125,9 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMTREEVIEW as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

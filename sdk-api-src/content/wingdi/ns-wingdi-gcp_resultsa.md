@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagGCP_RESULTSA
 title: GCP_RESULTSA (wingdi.h)
-description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.helpviewer_keywords: ["*LPGCP_RESULTSA","GCPCLASS_ARABIC","GCPCLASS_HEBREW","GCPCLASS_LATIN","GCPCLASS_LATINNUMBER","GCPCLASS_LATINNUMERICSEPARATOR","GCPCLASS_LATINNUMERICTERMINATOR","GCPCLASS_LOCALNUMBER","GCPCLASS_NEUTRAL","GCPCLASS_NUMERICSEPARATOR","GCPCLASS_POSTBOUNDLTR","GCPCLASS_POSTBOUNDRTL","GCPCLASS_PREBOUNDLTR","GCPCLASS_PREBOUNDRTL","GCP_RESULTS","GCP_RESULTS structure [Windows GDI]","GCP_RESULTSA","GCP_RESULTSW","LPGCP_RESULTS","LPGCP_RESULTS structure pointer [Windows GDI]","_win32_GCP_RESULTS_str","gdi.gcp_results","wingdi/GCP_RESULTS","wingdi/GCP_RESULTSA","wingdi/GCP_RESULTSW","wingdi/LPGCP_RESULTS"]
+description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
+helpviewer_keywords: ["*LPGCP_RESULTSA","GCPCLASS_ARABIC","GCPCLASS_HEBREW","GCPCLASS_LATIN","GCPCLASS_LATINNUMBER","GCPCLASS_LATINNUMERICSEPARATOR","GCPCLASS_LATINNUMERICTERMINATOR","GCPCLASS_LOCALNUMBER","GCPCLASS_NEUTRAL","GCPCLASS_NUMERICSEPARATOR","GCPCLASS_POSTBOUNDLTR","GCPCLASS_POSTBOUNDRTL","GCPCLASS_PREBOUNDLTR","GCPCLASS_PREBOUNDRTL","GCP_RESULTS","GCP_RESULTS structure [Windows GDI]","GCP_RESULTSA","GCP_RESULTSW","LPGCP_RESULTS","LPGCP_RESULTS structure pointer [Windows GDI]","_win32_GCP_RESULTS_str","gdi.gcp_results","wingdi/GCP_RESULTS","wingdi/GCP_RESULTSA","wingdi/GCP_RESULTSW","wingdi/LPGCP_RESULTS"]
 old-location: gdi\gcp_results.htm
 tech.root: gdi
 ms.assetid: 7692637e-963a-4e0a-8a04-e05a6d01c417
@@ -305,6 +306,10 @@ In the case of languages such as Thai or Arabic, in which <a href="https://docs.
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GCP_RESULTS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

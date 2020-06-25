@@ -1,7 +1,8 @@
 ---
 UID: NC:mfapi.MFPERIODICCALLBACK
 title: MFPERIODICCALLBACK (mfapi.h)
-description: Callback function for the MFAddPeriodicCallback function.helpviewer_keywords: ["9449fa04-867c-4f27-a05c-ff0d6e912c53","MFPERIODICCALLBACK","MFPERIODICCALLBACK callback","MFPERIODICCALLBACK callback function [Media Foundation]","mf.mfperiodiccallback_callback","mfapi/MFPERIODICCALLBACK"]
+description: Callback function for the MFAddPeriodicCallback function.
+helpviewer_keywords: ["9449fa04-867c-4f27-a05c-ff0d6e912c53","MFPERIODICCALLBACK","MFPERIODICCALLBACK callback","MFPERIODICCALLBACK callback function [Media Foundation]","mf.mfperiodiccallback_callback","mfapi/MFPERIODICCALLBACK"]
 old-location: mf\mfperiodiccallback_callback.htm
 tech.root: medfound
 ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53

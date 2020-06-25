@@ -1,7 +1,8 @@
 ---
 UID: NE:wabtags.Gender
 title: Gender (wabtags.h)
-description: Do not use. The Gender enumeration specifies the possible values for the PR_GENDER property.helpviewer_keywords: ["Gender","Gender enumeration [Windows Address Book]","_wab_gender","genderFemale","genderMale","genderUnspecified","wab._wab_gender","wabtags/Gender","wabtags/genderFemale","wabtags/genderMale","wabtags/genderUnspecified"]
+description: Do not use. The Gender enumeration specifies the possible values for the PR_GENDER property.
+helpviewer_keywords: ["Gender","Gender enumeration [Windows Address Book]","_wab_gender","genderFemale","genderMale","genderUnspecified","wab._wab_gender","wabtags/Gender","wabtags/genderFemale","wabtags/genderMale","wabtags/genderUnspecified"]
 old-location: wab\_wab_gender.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\enums\gender.htm

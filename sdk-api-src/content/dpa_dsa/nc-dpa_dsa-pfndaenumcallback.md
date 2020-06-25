@@ -1,7 +1,8 @@
 ---
 UID: NC:dpa_dsa.PFNDAENUMCALLBACK
 title: PFNDAENUMCALLBACK (dpa_dsa.h)
-description: Defines the prototype for the callback function used by dynamic structure array (DSA) and dynamic pointer array (DPA) functions.helpviewer_keywords: ["PFNDAENUMCALLBACK","PFNDAENUMCALLBACK callback","PFNDAENUMCALLBACK callback function [Windows Controls]","PFNDPAENUMCALLBACK","PFNDSAENUMCALLBACK","_shell_PFNDAENUMCALLBACK","_shell_PFNDAENUMCALLBACK_cpp","controls.PFNDAENUMCALLBACK","controls._shell_PFNDAENUMCALLBACK","dpa_dsa/PFNDAENUMCALLBACK"]
+description: Defines the prototype for the callback function used by dynamic structure array (DSA) and dynamic pointer array (DPA) functions.
+helpviewer_keywords: ["PFNDAENUMCALLBACK","PFNDAENUMCALLBACK callback","PFNDAENUMCALLBACK callback function [Windows Controls]","PFNDPAENUMCALLBACK","PFNDSAENUMCALLBACK","_shell_PFNDAENUMCALLBACK","_shell_PFNDAENUMCALLBACK_cpp","controls.PFNDAENUMCALLBACK","controls._shell_PFNDAENUMCALLBACK","dpa_dsa/PFNDAENUMCALLBACK"]
 old-location: controls\PFNDAENUMCALLBACK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallback.htm

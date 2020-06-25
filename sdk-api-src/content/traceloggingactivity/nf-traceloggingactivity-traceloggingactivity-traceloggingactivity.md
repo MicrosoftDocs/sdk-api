@@ -49,7 +49,6 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new TraceLoggingActivity object.
 
 <b>TraceLoggingActivity</b> is a class template.
@@ -84,12 +83,3 @@ Creates a new TraceLoggingActivity object.
 
 
 ## -see-also
-
-
-
-
-<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
- 
-
- 
-

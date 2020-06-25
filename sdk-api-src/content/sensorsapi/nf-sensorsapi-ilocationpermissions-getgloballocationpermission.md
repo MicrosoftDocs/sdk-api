@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ILocationPermissions.GetGlobalLocationPermission
 title: ILocationPermissions::GetGlobalLocationPermission (sensorsapi.h)
-description: Gets the status of the system setting that allows users to change location settings.helpviewer_keywords: ["GetGlobalLocationPermission","GetGlobalLocationPermission method","GetGlobalLocationPermission method","ILocationPermissions interface","ILocationPermissions interface","GetGlobalLocationPermission method","ILocationPermissions.GetGlobalLocationPermission","ILocationPermissions::GetGlobalLocationPermission","sensorsapi/ILocationPermissions::GetGlobalLocationPermission","winsensors_com_ref.ilocationpermissions_getgloballocationpermission"]
+description: Gets the status of the system setting that allows users to change location settings.
+helpviewer_keywords: ["GetGlobalLocationPermission","GetGlobalLocationPermission method","GetGlobalLocationPermission method","ILocationPermissions interface","ILocationPermissions interface","GetGlobalLocationPermission method","ILocationPermissions.GetGlobalLocationPermission","ILocationPermissions::GetGlobalLocationPermission","sensorsapi/ILocationPermissions::GetGlobalLocationPermission","winsensors_com_ref.ilocationpermissions_getgloballocationpermission"]
 old-location: winsensors_com_ref\ilocationpermissions_getgloballocationpermission.htm
 tech.root: SensorsAPI
 ms.assetid: 8a2fbf9f-4b9b-4d2b-8ffc-c9491f7b8ed1

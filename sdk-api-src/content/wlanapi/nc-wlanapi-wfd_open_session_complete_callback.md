@@ -1,7 +1,8 @@
 ---
 UID: NC:wlanapi.WFD_OPEN_SESSION_COMPLETE_CALLBACK
 title: WFD_OPEN_SESSION_COMPLETE_CALLBACK (wlanapi.h)
-description: Defines the callback function that is called by the WFDStartOpenSession function when the WFDStartOpenSession operation completes.helpviewer_keywords: ["ERROR_INVALID_PARAMETER","ERROR_INVALID_STATE","ERROR_SERVICE_NOT_ACTIVE","RPC_STATUS","WFD_OPEN_SESSION_COMPLETE_CALLBACK","WFD_OPEN_SESSION_COMPLETE_CALLBACK callback","WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function [NativeWIFI]","nwifi.wfd_open_session_complete_callback","wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK"]
+description: Defines the callback function that is called by the WFDStartOpenSession function when the WFDStartOpenSession operation completes.
+helpviewer_keywords: ["ERROR_INVALID_PARAMETER","ERROR_INVALID_STATE","ERROR_SERVICE_NOT_ACTIVE","RPC_STATUS","WFD_OPEN_SESSION_COMPLETE_CALLBACK","WFD_OPEN_SESSION_COMPLETE_CALLBACK callback","WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function [NativeWIFI]","nwifi.wfd_open_session_complete_callback","wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK"]
 old-location: nwifi\wfd_open_session_complete_callback.htm
 tech.root: NativeWiFi
 ms.assetid: 2CB91D70-920A-4D97-B96D-B264F59150AC

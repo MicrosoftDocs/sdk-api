@@ -1,7 +1,8 @@
 ---
 UID: NS:wmcodecdsp._TOC_DESCRIPTOR
 title: TOC_DESCRIPTOR (wmcodecdsp.h)
-description: The TOC_DESCRIPTOR structure holds descriptive information for a table of contents.helpviewer_keywords: ["TOC_DESCRIPTOR","TOC_DESCRIPTOR structure [Media Foundation]","codecapi.toc_descriptor","mf.toc_descriptor","wmcodecdsp/TOC_DESCRIPTOR"]
+description: The TOC_DESCRIPTOR structure holds descriptive information for a table of contents.
+helpviewer_keywords: ["TOC_DESCRIPTOR","TOC_DESCRIPTOR structure [Media Foundation]","codecapi.toc_descriptor","mf.toc_descriptor","wmcodecdsp/TOC_DESCRIPTOR"]
 old-location: mf\toc_descriptor.htm
 tech.root: medfound
 ms.assetid: a79f75c5-be98-4120-85be-71bedbcc0ea2

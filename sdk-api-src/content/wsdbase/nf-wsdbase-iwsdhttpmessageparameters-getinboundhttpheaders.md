@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetInboundHttpHeaders
 title: IWSDHttpMessageParameters::GetInboundHttpHeaders (wsdbase.h)
-description: Retrieves the current HTTP headers used for inbound SOAP-over-HTTP transmissions.helpviewer_keywords: ["GetInboundHttpHeaders","GetInboundHttpHeaders method","GetInboundHttpHeaders method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetInboundHttpHeaders method","IWSDHttpMessageParameters.GetInboundHttpHeaders","IWSDHttpMessageParameters::GetInboundHttpHeaders","ncd.iwsdhttpmessageparameters_getinboundhttpheaders","wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders"]
+description: Retrieves the current HTTP headers used for inbound SOAP-over-HTTP transmissions.
+helpviewer_keywords: ["GetInboundHttpHeaders","GetInboundHttpHeaders method","GetInboundHttpHeaders method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetInboundHttpHeaders method","IWSDHttpMessageParameters.GetInboundHttpHeaders","IWSDHttpMessageParameters::GetInboundHttpHeaders","ncd.iwsdhttpmessageparameters_getinboundhttpheaders","wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders"]
 old-location: ncd\iwsdhttpmessageparameters_getinboundhttpheaders.htm
 tech.root: WsdApi
 ms.assetid: 99b30444-1059-45c3-ac72-a0f98d722365

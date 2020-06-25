@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionEqual
 title: XMQuaternionEqual function (directxmath.h)
-description: Tests whether two quaternions are equal.helpviewer_keywords: ["Use DirectX..XMQuaternionEqual","XMQuaternionEqual","XMQuaternionEqual method [DirectX Math Support APIs]","dxmath.xmquaternionequal"]
+description: Tests whether two quaternions are equal.
+helpviewer_keywords: ["Use DirectX..XMQuaternionEqual","XMQuaternionEqual","XMQuaternionEqual method [DirectX Math Support APIs]","dxmath.xmquaternionequal"]
 old-location: dxmath\xmquaternionequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionEqual(XMVECTOR,XMVECTOR)

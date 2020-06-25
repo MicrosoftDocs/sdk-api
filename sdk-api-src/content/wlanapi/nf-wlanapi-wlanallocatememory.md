@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanAllocateMemory
 title: WlanAllocateMemory function (wlanapi.h)
-description: Allocates memory.helpviewer_keywords: ["WlanAllocateMemory","WlanAllocateMemory function [NativeWIFI]","nwifi.wlanallocatememory","wlanapi/WlanAllocateMemory"]
+description: Allocates memory.
+helpviewer_keywords: ["WlanAllocateMemory","WlanAllocateMemory function [NativeWIFI]","nwifi.wlanallocatememory","wlanapi/WlanAllocateMemory"]
 old-location: nwifi\wlanallocatememory.htm
 tech.root: NativeWiFi
 ms.assetid: 29200450-4ec8-418d-b633-1ea688755711

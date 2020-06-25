@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_33
 title: ADSPEC (lpmapi.h)
-description: The ADSPEC structure contains Adspec message information for RSVP.helpviewer_keywords: ["ADSPEC","ADSPEC structure [QOS]","lpmapi/ADSPEC","qos.adspec"]
+description: The ADSPEC structure contains Adspec message information for RSVP.
+helpviewer_keywords: ["ADSPEC","ADSPEC structure [QOS]","lpmapi/ADSPEC","qos.adspec"]
 old-location: qos\adspec.htm
 tech.root: QOS
 ms.assetid: c5be3864-0f21-4fa5-99f8-dee9ad2b7286

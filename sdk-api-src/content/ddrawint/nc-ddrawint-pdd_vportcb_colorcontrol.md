@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_COLORCONTROL
 title: PDD_VPORTCB_COLORCONTROL (ddrawint.h)
-description: The DdVideoPortColorControl callback function gets or sets the VPE object color controls.helpviewer_keywords: ["DdVideoPortColorControl","DdVideoPortColorControl callback function [Display Devices]","PDD_VPORTCB_COLORCONTROL","PDD_VPORTCB_COLORCONTROL callback","ddfncs_42f1c569-d463-4c22-af43-fb4d829843ab.xml","ddrawint/DdVideoPortColorControl","display.ddvideoportcolorcontrol"]
+description: The DdVideoPortColorControl callback function gets or sets the VPE object color controls.
+helpviewer_keywords: ["DdVideoPortColorControl","DdVideoPortColorControl callback function [Display Devices]","PDD_VPORTCB_COLORCONTROL","PDD_VPORTCB_COLORCONTROL callback","ddfncs_42f1c569-d463-4c22-af43-fb4d829843ab.xml","ddrawint/DdVideoPortColorControl","display.ddvideoportcolorcontrol"]
 old-location: display\ddvideoportcolorcontrol.htm
 tech.root: display
 ms.assetid: 0d4d5157-cadf-4b63-aafc-ccb252cec2b4

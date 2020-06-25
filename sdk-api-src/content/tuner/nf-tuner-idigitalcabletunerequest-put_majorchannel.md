@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.put_MajorChannel
 title: IDigitalCableTuneRequest::put_MajorChannel (tuner.h)
-description: The put_MajorChannel method sets the major channel number.helpviewer_keywords: ["IDigitalCableTuneRequest interface [Microsoft TV Technologies]","put_MajorChannel method","IDigitalCableTuneRequest.put_MajorChannel","IDigitalCableTuneRequest::put_MajorChannel","IDigitalCableTuneRequestput_MajorChannel","mstv.idigitalcabletunerequest_put_majorchannel","put_MajorChannel","put_MajorChannel method [Microsoft TV Technologies]","put_MajorChannel method [Microsoft TV Technologies]","IDigitalCableTuneRequest interface","tuner/IDigitalCableTuneRequest::put_MajorChannel"]
+description: The put_MajorChannel method sets the major channel number.
+helpviewer_keywords: ["IDigitalCableTuneRequest interface [Microsoft TV Technologies]","put_MajorChannel method","IDigitalCableTuneRequest.put_MajorChannel","IDigitalCableTuneRequest::put_MajorChannel","IDigitalCableTuneRequestput_MajorChannel","mstv.idigitalcabletunerequest_put_majorchannel","put_MajorChannel","put_MajorChannel method [Microsoft TV Technologies]","put_MajorChannel method [Microsoft TV Technologies]","IDigitalCableTuneRequest interface","tuner/IDigitalCableTuneRequest::put_MajorChannel"]
 old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm
 tech.root: mstv
 ms.assetid: 1d3bc106-0ce0-4184-89fe-ebc30e95124e

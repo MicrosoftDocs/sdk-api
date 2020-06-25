@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingWrite
 title: TraceLoggingWrite macro (traceloggingprovider.h)
-description: Emits an event.helpviewer_keywords: ["TraceLoggingWrite","TraceLoggingWrite macro","tracelogging.traceloggingwrite","traceloggingprovider/TraceLoggingWrite"]
+description: Emits an event.
+helpviewer_keywords: ["TraceLoggingWrite","TraceLoggingWrite macro","tracelogging.traceloggingwrite","traceloggingprovider/TraceLoggingWrite"]
 old-location: tracelogging\traceloggingwrite.htm
 tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB

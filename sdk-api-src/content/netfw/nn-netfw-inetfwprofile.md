@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwProfile
 title: INetFwProfile (netfw.h)
-description: The INetFwProfile interface provides access to the firewall settings profile.helpviewer_keywords: ["INetFwProfile","INetFwProfile interface [ICS/ICF]","INetFwProfile interface [ICS/ICF]","described","ics.inetfwprofile","netfw/INetFwProfile"]
+description: The INetFwProfile interface provides access to the firewall settings profile.
+helpviewer_keywords: ["INetFwProfile","INetFwProfile interface [ICS/ICF]","INetFwProfile interface [ICS/ICF]","described","ics.inetfwprofile","netfw/INetFwProfile"]
 old-location: ics\inetfwprofile.htm
 tech.root: ics
 ms.assetid: 694bbff5-003d-4dde-9a85-f81ca29e6208

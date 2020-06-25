@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetStreamActiveState
 title: IVMRVideoStreamControl::GetStreamActiveState (strmif.h)
-description: The GetStreamActiveState method retrieves the state of the stream.helpviewer_keywords: ["GetStreamActiveState","GetStreamActiveState method [DirectShow]","GetStreamActiveState method [DirectShow]","IVMRVideoStreamControl interface","IVMRVideoStreamControl interface [DirectShow]","GetStreamActiveState method","IVMRVideoStreamControl.GetStreamActiveState","IVMRVideoStreamControl::GetStreamActiveState","IVMRVideoStreamControlGetStreamActiveState","dshow.ivmrvideostreamcontrol_getstreamactivestate","strmif/IVMRVideoStreamControl::GetStreamActiveState"]
+description: The GetStreamActiveState method retrieves the state of the stream.
+helpviewer_keywords: ["GetStreamActiveState","GetStreamActiveState method [DirectShow]","GetStreamActiveState method [DirectShow]","IVMRVideoStreamControl interface","IVMRVideoStreamControl interface [DirectShow]","GetStreamActiveState method","IVMRVideoStreamControl.GetStreamActiveState","IVMRVideoStreamControl::GetStreamActiveState","IVMRVideoStreamControlGetStreamActiveState","dshow.ivmrvideostreamcontrol_getstreamactivestate","strmif/IVMRVideoStreamControl::GetStreamActiveState"]
 old-location: dshow\ivmrvideostreamcontrol_getstreamactivestate.htm
 tech.root: DirectShow
 ms.assetid: 619ba669-c2a0-46fe-9c12-52105b107351

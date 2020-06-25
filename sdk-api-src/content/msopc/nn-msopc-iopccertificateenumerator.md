@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcCertificateEnumerator
 title: IOpcCertificateEnumerator (msopc.h)
-description: A read-only enumerator of pointers to CERT_CONTEXT structures.helpviewer_keywords: ["IOpcCertificateEnumerator","IOpcCertificateEnumerator interface [Open Packaging Conventions]","IOpcCertificateEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcCertificateEnumerator","opc.iopccertificateenumerator"]
+description: A read-only enumerator of pointers to CERT_CONTEXT structures.
+helpviewer_keywords: ["IOpcCertificateEnumerator","IOpcCertificateEnumerator interface [Open Packaging Conventions]","IOpcCertificateEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcCertificateEnumerator","opc.iopccertificateenumerator"]
 old-location: opc\iopccertificateenumerator.htm
 tech.root: OPC
 ms.assetid: a66ad728-9d20-44d9-a363-1d2a7927d810

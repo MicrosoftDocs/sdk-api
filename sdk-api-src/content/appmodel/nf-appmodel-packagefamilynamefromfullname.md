@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.PackageFamilyNameFromFullName
 title: PackageFamilyNameFromFullName function (appmodel.h)
-description: Gets the package family name for the specified package full name.helpviewer_keywords: ["PackageFamilyNameFromFullName","PackageFamilyNameFromFullName function [App packaging and management]","appmodel/PackageFamilyNameFromFullName","appxpkg.packagefamilynamefromfullname"]
+description: Gets the package family name for the specified package full name.
+helpviewer_keywords: ["PackageFamilyNameFromFullName","PackageFamilyNameFromFullName function [App packaging and management]","appmodel/PackageFamilyNameFromFullName","appxpkg.packagefamilynamefromfullname"]
 old-location: appxpkg\packagefamilynamefromfullname.htm
 tech.root: appxpkg
 ms.assetid: 98E95CE5-E970-4A19-BAD3-994DAEC4BEA0

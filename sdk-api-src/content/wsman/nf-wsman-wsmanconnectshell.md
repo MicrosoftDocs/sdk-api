@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManConnectShell
 title: WSManConnectShell function (wsman.h)
-description: Connects to an existing server session.helpviewer_keywords: ["WSManConnectShell","WSManConnectShell function [Windows Remote Management]","winrm.wsmanconnectshell","wsman/WSManConnectShell"]
+description: Connects to an existing server session.
+helpviewer_keywords: ["WSManConnectShell","WSManConnectShell function [Windows Remote Management]","winrm.wsmanconnectshell","wsman/WSManConnectShell"]
 old-location: winrm\wsmanconnectshell.htm
 tech.root: winrm
 ms.assetid: B765AB84-5EDA-46D6-9150-A8BBD101EF10

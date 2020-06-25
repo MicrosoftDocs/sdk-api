@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiPreviewDialogW
 title: MsiPreviewDialogW function (msiquery.h)
-description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.helpviewer_keywords: ["MsiPreviewDialog","MsiPreviewDialog function","MsiPreviewDialogA","MsiPreviewDialogW","_msi_msipreviewdialog","msiquery/MsiPreviewDialog","msiquery/MsiPreviewDialogA","msiquery/MsiPreviewDialogW","setup.msipreviewdialog"]
+description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.
+helpviewer_keywords: ["MsiPreviewDialog","MsiPreviewDialog function","MsiPreviewDialogA","MsiPreviewDialogW","_msi_msipreviewdialog","msiquery/MsiPreviewDialog","msiquery/MsiPreviewDialogA","msiquery/MsiPreviewDialogW","setup.msipreviewdialog"]
 old-location: setup\msipreviewdialog.htm
 tech.root: Msi
 ms.assetid: 4017e122-8214-4158-ade3-5dac1fda428a
@@ -88,6 +89,10 @@ Supplying a null name in the
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiPreviewDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputSizeInfo
 title: IMediaObject::GetInputSizeInfo (mediaobj.h)
-description: The GetInputSizeInfo method retrieves the buffer requirements for a specified input stream.helpviewer_keywords: ["GetInputSizeInfo","GetInputSizeInfo method [DirectShow]","GetInputSizeInfo method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputSizeInfo method","IMediaObject.GetInputSizeInfo","IMediaObject::GetInputSizeInfo","IMediaObjectGetInputSizeInfo","dshow.imediaobject_getinputsizeinfo","mediaobj/IMediaObject::GetInputSizeInfo"]
+description: The GetInputSizeInfo method retrieves the buffer requirements for a specified input stream.
+helpviewer_keywords: ["GetInputSizeInfo","GetInputSizeInfo method [DirectShow]","GetInputSizeInfo method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputSizeInfo method","IMediaObject.GetInputSizeInfo","IMediaObject::GetInputSizeInfo","IMediaObjectGetInputSizeInfo","dshow.imediaobject_getinputsizeinfo","mediaobj/IMediaObject::GetInputSizeInfo"]
 old-location: dshow\imediaobject_getinputsizeinfo.htm
 tech.root: DirectShow
 ms.assetid: cce6359a-cd6e-46c9-a1cb-553ae5f83b9c

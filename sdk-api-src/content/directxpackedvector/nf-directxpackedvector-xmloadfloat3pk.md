@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMLoadFloat3PK
 title: XMLoadFloat3PK function (directxpackedvector.h)
-description: Loads an XMFLOAT3PK into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadFloat3PK","XMLoadFloat3PK","XMLoadFloat3PK method [DirectX Math Support APIs]","dxmath.xmloadfloat3pk"]
+description: Loads an XMFLOAT3PK into an XMVECTOR.
+helpviewer_keywords: ["DirectX::PackedVector.XMLoadFloat3PK","XMLoadFloat3PK","XMLoadFloat3PK method [DirectX Math Support APIs]","dxmath.xmloadfloat3pk"]
 old-location: dxmath\xmloadfloat3pk.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3PK(const XMFLOAT3PK)

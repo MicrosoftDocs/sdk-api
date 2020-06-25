@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsVector
 title: ID3D10EffectVariable::AsVector (d3d10effect.h)
-description: Get a vector variable.helpviewer_keywords: ["AsVector","AsVector method [Direct3D 10]","AsVector method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","AsVector method","ID3D10EffectVariable.AsVector","ID3D10EffectVariable::AsVector","a5136c3d-204c-bce5-0022-ead9b334e840","d3d10effect/ID3D10EffectVariable::AsVector","direct3d10.id3d10effectvariable_asvector"]
+description: Get a vector variable.
+helpviewer_keywords: ["AsVector","AsVector method [Direct3D 10]","AsVector method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","AsVector method","ID3D10EffectVariable.AsVector","ID3D10EffectVariable::AsVector","a5136c3d-204c-bce5-0022-ead9b334e840","d3d10effect/ID3D10EffectVariable::AsVector","direct3d10.id3d10effectvariable_asvector"]
 old-location: direct3d10\id3d10effectvariable_asvector.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asvector.htm

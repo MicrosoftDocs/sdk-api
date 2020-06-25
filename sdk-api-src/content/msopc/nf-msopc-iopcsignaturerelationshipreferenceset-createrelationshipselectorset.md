@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet
 title: IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet (msopc.h)
-description: Creates an IOpcRelationshipSelectorSet interface pointer that is used as the selectorSet parameter value of the Create method.helpviewer_keywords: ["CreateRelationshipSelectorSet","CreateRelationshipSelectorSet method [Open Packaging Conventions]","CreateRelationshipSelectorSet method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","CreateRelationshipSelectorSet method","IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet","IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet","msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet","opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset"]
+description: Creates an IOpcRelationshipSelectorSet interface pointer that is used as the selectorSet parameter value of the Create method.
+helpviewer_keywords: ["CreateRelationshipSelectorSet","CreateRelationshipSelectorSet method [Open Packaging Conventions]","CreateRelationshipSelectorSet method [Open Packaging Conventions]","IOpcSignatureRelationshipReferenceSet interface","IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions]","CreateRelationshipSelectorSet method","IOpcSignatureRelationshipReferenceSet.CreateRelationshipSelectorSet","IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet","msopc/IOpcSignatureRelationshipReferenceSet::CreateRelationshipSelectorSet","opc.iopcsignaturerelationshipreferenceset_createrelationshipselectorset"]
 old-location: opc\iopcsignaturerelationshipreferenceset_createrelationshipselectorset.htm
 tech.root: OPC
 ms.assetid: 7b11f066-3e3a-4dd0-a938-853301bc6914

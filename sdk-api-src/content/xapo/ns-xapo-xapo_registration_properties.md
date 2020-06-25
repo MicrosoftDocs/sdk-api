@@ -1,7 +1,8 @@
 ---
 UID: NS:xapo.XAPO_REGISTRATION_PROPERTIES
 title: XAPO_REGISTRATION_PROPERTIES (xapo.h)
-description: Describes general characteristics of an XAPO. Used with IXAPO::GetRegistrationProperties, CXAPOParametersBase::CXAPOParametersBase, and CXAPOBase::CXAPOBase.helpviewer_keywords: ["XAPO_REGISTRATION_PROPERTIES","XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs]","xapo/XAPO_REGISTRATION_PROPERTIES","xaudio2.xapo_registration_properties"]
+description: Describes general characteristics of an XAPO. Used with IXAPO::GetRegistrationProperties, CXAPOParametersBase::CXAPOParametersBase, and CXAPOBase::CXAPOBase.
+helpviewer_keywords: ["XAPO_REGISTRATION_PROPERTIES","XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs]","xapo/XAPO_REGISTRATION_PROPERTIES","xaudio2.xapo_registration_properties"]
 old-location: xaudio2\xapo_registration_properties.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES

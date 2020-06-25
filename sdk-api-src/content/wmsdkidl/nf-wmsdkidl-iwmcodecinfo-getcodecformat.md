@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormat
 title: IWMCodecInfo::GetCodecFormat (wmsdkidl.h)
-description: The GetCodecFormat method retrieves one format supported by a specified codec. This method retrieves a pointer to the IWMStreamConfig interface of a stream configuration object containing the stream settings for the supported format.helpviewer_keywords: ["GetCodecFormat","GetCodecFormat method [windows Media Format]","GetCodecFormat method [windows Media Format]","IWMCodecInfo interface","IWMCodecInfo interface [windows Media Format]","GetCodecFormat method","IWMCodecInfo.GetCodecFormat","IWMCodecInfo::GetCodecFormat","IWMCodecInfoGetCodecFormat","wmformat.iwmcodecinfo_getcodecformat","wmsdkidl/IWMCodecInfo::GetCodecFormat"]
+description: The GetCodecFormat method retrieves one format supported by a specified codec. This method retrieves a pointer to the IWMStreamConfig interface of a stream configuration object containing the stream settings for the supported format.
+helpviewer_keywords: ["GetCodecFormat","GetCodecFormat method [windows Media Format]","GetCodecFormat method [windows Media Format]","IWMCodecInfo interface","IWMCodecInfo interface [windows Media Format]","GetCodecFormat method","IWMCodecInfo.GetCodecFormat","IWMCodecInfo::GetCodecFormat","IWMCodecInfoGetCodecFormat","wmformat.iwmcodecinfo_getcodecformat","wmsdkidl/IWMCodecInfo::GetCodecFormat"]
 old-location: wmformat\iwmcodecinfo_getcodecformat.htm
 tech.root: wmformat
 ms.assetid: dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff

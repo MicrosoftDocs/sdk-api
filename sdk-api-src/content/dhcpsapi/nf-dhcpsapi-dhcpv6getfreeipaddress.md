@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV6GetFreeIPAddress
 title: DhcpV6GetFreeIPAddress function (dhcpsapi.h)
-description: Retrieves the list of available IPv6 addresses that can be leased to clients.helpviewer_keywords: ["DhcpV6GetFreeIPAddress","DhcpV6GetFreeIPAddress function [DHCP]","dhcp.dhcpv6getfreeipaddress","dhcpsapi/DhcpV6GetFreeIPAddress"]
+description: Retrieves the list of available IPv6 addresses that can be leased to clients.
+helpviewer_keywords: ["DhcpV6GetFreeIPAddress","DhcpV6GetFreeIPAddress function [DHCP]","dhcp.dhcpv6getfreeipaddress","dhcpsapi/DhcpV6GetFreeIPAddress"]
 old-location: dhcp\dhcpv6getfreeipaddress.htm
 tech.root: DHCP
 ms.assetid: 4448bbfb-5942-42f9-8daf-3bf86e124052

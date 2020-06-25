@@ -1,7 +1,8 @@
 ---
 UID: NS:aviriff._avistdindex_entry
 title: AVISTDINDEX_ENTRY (aviriff.h)
-description: Contains one index entry for an AVI 2.0 standard index.helpviewer_keywords: ["AVISTDINDEX_ENTRY","AVISTDINDEX_ENTRY structure [DirectShow]","aviriff/AVISTDINDEX_ENTRY","dshow.avistdindex_entry"]
+description: Contains one index entry for an AVI 2.0 standard index.
+helpviewer_keywords: ["AVISTDINDEX_ENTRY","AVISTDINDEX_ENTRY structure [DirectShow]","aviriff/AVISTDINDEX_ENTRY","dshow.avistdindex_entry"]
 old-location: dshow\avistdindex_entry.htm
 tech.root: DirectShow
 ms.assetid: 4e408858-b0cb-45dc-a299-a2e35aa6a000

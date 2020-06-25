@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Add
 title: ITraceDataProviderCollection::Add (pla.h)
-description: Adds a trace provider to the collection.helpviewer_keywords: ["Add","Add method [PLA]","Add method [PLA]","ITraceDataProviderCollection interface","ITraceDataProviderCollection interface [PLA]","Add method","ITraceDataProviderCollection.Add","ITraceDataProviderCollection::Add","base.itracedataprovidercollection_add","pla.itracedataprovidercollection_add","pla/ITraceDataProviderCollection::Add"]
+description: Adds a trace provider to the collection.
+helpviewer_keywords: ["Add","Add method [PLA]","Add method [PLA]","ITraceDataProviderCollection interface","ITraceDataProviderCollection interface [PLA]","Add method","ITraceDataProviderCollection.Add","ITraceDataProviderCollection::Add","base.itracedataprovidercollection_add","pla.itracedataprovidercollection_add","pla/ITraceDataProviderCollection::Add"]
 old-location: pla\itracedataprovidercollection_add.htm
 tech.root: PLA
 ms.assetid: 3214f25d-1991-439a-b237-61249a531a2b

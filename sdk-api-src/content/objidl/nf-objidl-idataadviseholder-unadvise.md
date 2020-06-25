@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.Unadvise
 title: IDataAdviseHolder::Unadvise (objidl.h)
-description: Removes a connection between a data object and an advisory sink that was set up through a previous call to IDataAdviseHolder::Advise. This method is typically called in the implementation of IDataObject::DUnadvise.helpviewer_keywords: ["IDataAdviseHolder interface [COM]","Unadvise method","IDataAdviseHolder.Unadvise","IDataAdviseHolder::Unadvise","Unadvise","Unadvise method [COM]","Unadvise method [COM]","IDataAdviseHolder interface","_ole_idataadviseholder_unadvise","com.idataadviseholder_unadvise","objidl/IDataAdviseHolder::Unadvise"]
+description: Removes a connection between a data object and an advisory sink that was set up through a previous call to IDataAdviseHolder::Advise. This method is typically called in the implementation of IDataObject::DUnadvise.
+helpviewer_keywords: ["IDataAdviseHolder interface [COM]","Unadvise method","IDataAdviseHolder.Unadvise","IDataAdviseHolder::Unadvise","Unadvise","Unadvise method [COM]","Unadvise method [COM]","IDataAdviseHolder interface","_ole_idataadviseholder_unadvise","com.idataadviseholder_unadvise","objidl/IDataAdviseHolder::Unadvise"]
 old-location: com\idataadviseholder_unadvise.htm
 tech.root: com
 ms.assetid: baeb29fd-1dd2-4320-911d-b271b2250184

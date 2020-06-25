@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IConsoleNameSpace
 title: IConsoleNameSpace (mmc.h)
-description: Enables snap-ins to enumerate dynamic subcontainers in the scope pane. The particular snap-in determines what qualifies as a subcontainer.helpviewer_keywords: ["IConsoleNameSpace","IConsoleNameSpace interface [MMC]","IConsoleNameSpace interface [MMC]","described","mmc.iconsolenamespace","mmc/IConsoleNameSpace"]
+description: Enables snap-ins to enumerate dynamic subcontainers in the scope pane. The particular snap-in determines what qualifies as a subcontainer.
+helpviewer_keywords: ["IConsoleNameSpace","IConsoleNameSpace interface [MMC]","IConsoleNameSpace interface [MMC]","described","mmc.iconsolenamespace","mmc/IConsoleNameSpace"]
 old-location: mmc\iconsolenamespace.htm
 tech.root: mmc
 ms.assetid: 0E72A4DF-5A74-49DD-BD94-06860EFFE09A

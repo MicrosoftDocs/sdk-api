@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiRemovePatchesA
 title: MsiRemovePatchesA function (msi.h)
-description: Removes one or more patches from a single product.helpviewer_keywords: ["INSTALLTYPE_SINGLE_INSTANCE","MsiRemovePatches","MsiRemovePatches function","MsiRemovePatchesA","MsiRemovePatchesW","msi/MsiRemovePatches","msi/MsiRemovePatchesA","msi/MsiRemovePatchesW","setup.msiremovepatches","setup.msiuninstallpatch"]
+description: Removes one or more patches from a single product.
+helpviewer_keywords: ["INSTALLTYPE_SINGLE_INSTANCE","MsiRemovePatches","MsiRemovePatches function","MsiRemovePatchesA","MsiRemovePatchesW","msi/MsiRemovePatches","msi/MsiRemovePatchesA","msi/MsiRemovePatchesW","setup.msiremovepatches","setup.msiuninstallpatch"]
 old-location: setup\msiremovepatches.htm
 tech.root: Msi
 ms.assetid: c1d73e52-fd58-4895-822e-3ebc8fe12db7
@@ -235,6 +236,10 @@ See  <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patche
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiRemovePatches as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistSetAsDeleted
 title: IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted (wmp.h)
-description: The PlaylistCollectionPlaylistSetAsDeleted event is reserved for future use.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PlaylistCollectionPlaylistSetAsDeleted method","IWMPEvents.PlaylistCollectionPlaylistSetAsDeleted","IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted","IWMPEventsPlaylistCollectionPlaylistSetAsDeleted","PlaylistCollectionPlaylistSetAsDeleted","PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player]","PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted","wmp/IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted"]
+description: The PlaylistCollectionPlaylistSetAsDeleted event is reserved for future use.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","PlaylistCollectionPlaylistSetAsDeleted method","IWMPEvents.PlaylistCollectionPlaylistSetAsDeleted","IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted","IWMPEventsPlaylistCollectionPlaylistSetAsDeleted","PlaylistCollectionPlaylistSetAsDeleted","PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player]","PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted","wmp/IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted"]
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted.htm
 tech.root: WMP
 ms.assetid: c54e936f-eca8-41ca-8a2d-94e67b5a9a49

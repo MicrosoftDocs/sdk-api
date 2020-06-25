@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.ResetTimer
 title: IOperationsProgressDialog::ResetTimer (shobjidl_core.h)
-description: Resets progress dialog timer to 0.helpviewer_keywords: ["IOperationsProgressDialog interface [Windows Shell]","ResetTimer method","IOperationsProgressDialog.ResetTimer","IOperationsProgressDialog::ResetTimer","ResetTimer","ResetTimer method [Windows Shell]","ResetTimer method [Windows Shell]","IOperationsProgressDialog interface","_shell_IOperationsProgressDialog_ResetTimer","shell.IOperationsProgressDialog_ResetTimer","shobjidl_core/IOperationsProgressDialog::ResetTimer"]
+description: Resets progress dialog timer to 0.
+helpviewer_keywords: ["IOperationsProgressDialog interface [Windows Shell]","ResetTimer method","IOperationsProgressDialog.ResetTimer","IOperationsProgressDialog::ResetTimer","ResetTimer","ResetTimer method [Windows Shell]","ResetTimer method [Windows Shell]","IOperationsProgressDialog interface","_shell_IOperationsProgressDialog_ResetTimer","shell.IOperationsProgressDialog_ResetTimer","shobjidl_core/IOperationsProgressDialog::ResetTimer"]
 old-location: shell\IOperationsProgressDialog_ResetTimer.htm
 tech.root: shell
 ms.assetid: a16d1595-c601-45a0-b3f5-35fe31cd0f22

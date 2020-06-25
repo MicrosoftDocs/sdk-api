@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHLoadIndirectString
 title: SHLoadIndirectString function (shlwapi.h)
-description: Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol).helpviewer_keywords: ["SHLoadIndirectString","SHLoadIndirectString function [Windows Shell]","_shell_SHLoadIndirectString","shell.SHLoadIndirectString","shlwapi/SHLoadIndirectString"]
+description: Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol).
+helpviewer_keywords: ["SHLoadIndirectString","SHLoadIndirectString function [Windows Shell]","_shell_SHLoadIndirectString","shell.SHLoadIndirectString","shlwapi/SHLoadIndirectString"]
 old-location: shell\SHLoadIndirectString.htm
 tech.root: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1

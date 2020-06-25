@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
 title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState (wmlss.h)
-description: The put_userHomeMediaSharingState method enables or disables sharing of the current user's media library on the home network.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","put_userHomeMediaSharingState method","IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState","IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState","put_userHomeMediaSharingState","put_userHomeMediaSharingState method [Windows Media Library Sharing Services]","put_userHomeMediaSharingState method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSput_userHomeMediaSharingState","wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState"]
+description: The put_userHomeMediaSharingState method enables or disables sharing of the current user's media library on the home network.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","put_userHomeMediaSharingState method","IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState","IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState","put_userHomeMediaSharingState","put_userHomeMediaSharingState method [Windows Media Library Sharing Services]","put_userHomeMediaSharingState method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSput_userHomeMediaSharingState","wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState"]
 old-location: wmlss\IWMLSSput_userHomeMediaSharingState.htm
 tech.root: WMLSS
 ms.assetid: d638da61-8196-4d46-ad98-fd7ab8a19e9b

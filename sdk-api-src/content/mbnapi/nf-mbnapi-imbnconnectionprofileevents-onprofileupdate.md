@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileEvents.OnProfileUpdate
 title: IMbnConnectionProfileEvents::OnProfileUpdate (mbnapi.h)
-description: A notification method that indicates that profile update operation has completed.helpviewer_keywords: ["IMbnConnectionProfileEvents interface [Microsoft Broadband Networks]","OnProfileUpdate method","IMbnConnectionProfileEvents.OnProfileUpdate","IMbnConnectionProfileEvents::OnProfileUpdate","OnProfileUpdate","OnProfileUpdate method [Microsoft Broadband Networks]","OnProfileUpdate method [Microsoft Broadband Networks]","IMbnConnectionProfileEvents interface","mbn.imbnconnectionprofileevents_onprofileupdatecomplete","mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate"]
+description: A notification method that indicates that profile update operation has completed.
+helpviewer_keywords: ["IMbnConnectionProfileEvents interface [Microsoft Broadband Networks]","OnProfileUpdate method","IMbnConnectionProfileEvents.OnProfileUpdate","IMbnConnectionProfileEvents::OnProfileUpdate","OnProfileUpdate","OnProfileUpdate method [Microsoft Broadband Networks]","OnProfileUpdate method [Microsoft Broadband Networks]","IMbnConnectionProfileEvents interface","mbn.imbnconnectionprofileevents_onprofileupdatecomplete","mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate"]
 old-location: mbn\imbnconnectionprofileevents_onprofileupdatecomplete.htm
 tech.root: mbn
 ms.assetid: eb113544-0c89-4b38-a2f4-c67c639fe8a3

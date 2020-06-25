@@ -1,7 +1,8 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_CHANGE_TYPE
 title: TARGET_CHANGE_TYPE (sessdirpublictypes.h)
-description: Specifies the type of change that occurred in a target.helpviewer_keywords: ["TARGET_CHANGE_TYPE","TARGET_CHANGE_TYPE enumeration [Remote Desktop Services]","TARGET_CHANGE_UNSPEC","TARGET_EXTERNALIP_CHANGED","TARGET_IDLE","TARGET_INTERNALIP_CHANGED","TARGET_JOINED","TARGET_REMOVED","TARGET_STATE_CHANGED","sessdirpublictypes/TARGET_CHANGE_TYPE","sessdirpublictypes/TARGET_CHANGE_UNSPEC","sessdirpublictypes/TARGET_EXTERNALIP_CHANGED","sessdirpublictypes/TARGET_IDLE","sessdirpublictypes/TARGET_INTERNALIP_CHANGED","sessdirpublictypes/TARGET_JOINED","sessdirpublictypes/TARGET_REMOVED","sessdirpublictypes/TARGET_STATE_CHANGED","termserv.target_change_type"]
+description: Specifies the type of change that occurred in a target.
+helpviewer_keywords: ["TARGET_CHANGE_TYPE","TARGET_CHANGE_TYPE enumeration [Remote Desktop Services]","TARGET_CHANGE_UNSPEC","TARGET_EXTERNALIP_CHANGED","TARGET_IDLE","TARGET_INTERNALIP_CHANGED","TARGET_JOINED","TARGET_REMOVED","TARGET_STATE_CHANGED","sessdirpublictypes/TARGET_CHANGE_TYPE","sessdirpublictypes/TARGET_CHANGE_UNSPEC","sessdirpublictypes/TARGET_EXTERNALIP_CHANGED","sessdirpublictypes/TARGET_IDLE","sessdirpublictypes/TARGET_INTERNALIP_CHANGED","sessdirpublictypes/TARGET_JOINED","sessdirpublictypes/TARGET_REMOVED","sessdirpublictypes/TARGET_STATE_CHANGED","termserv.target_change_type"]
 old-location: termserv\target_change_type.htm
 tech.root: TermServ
 ms.assetid: ee1e6433-498f-4d8a-97d7-3e32f79fafda

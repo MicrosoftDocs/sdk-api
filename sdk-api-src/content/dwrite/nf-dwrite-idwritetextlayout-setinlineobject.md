@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetInlineObject
 title: IDWriteTextLayout::SetInlineObject (dwrite.h)
-description: Sets the inline object.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetInlineObject method","IDWriteTextLayout.SetInlineObject","IDWriteTextLayout::SetInlineObject","SetInlineObject","SetInlineObject method [Direct Write]","SetInlineObject method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetInlineObject","dwrite/IDWriteTextLayout::SetInlineObject"]
+description: Sets the inline object.
+helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetInlineObject method","IDWriteTextLayout.SetInlineObject","IDWriteTextLayout::SetInlineObject","SetInlineObject","SetInlineObject method [Direct Write]","SetInlineObject method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetInlineObject","dwrite/IDWriteTextLayout::SetInlineObject"]
 old-location: directwrite\IDWriteTextLayout_SetInlineObject.htm
 tech.root: DirectWrite
 ms.assetid: 19fc9dd8-d732-4078-9db3-bad18681c7ea

@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_DRED_ALLOCATION_TYPE
 title: D3D12_DRED_ALLOCATION_TYPE
-description: Congruent with, and numerically equivalent to, 3D12DDI_HANDLETYPE enumeration values.helpviewer_keywords: ["D3D12_DRED_ALLOCATION_TYPE","D3D12_DRED_ALLOCATION_TYPE enumeration","d3d12/D3D12_DRED_ALLOCATION_TYPE","d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration","direct3d12.d3d12_dred_allocation_type"]
+description: Congruent with, and numerically equivalent to, 3D12DDI_HANDLETYPE enumeration values.
+helpviewer_keywords: ["D3D12_DRED_ALLOCATION_TYPE","D3D12_DRED_ALLOCATION_TYPE enumeration","d3d12/D3D12_DRED_ALLOCATION_TYPE","d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration","direct3d12.d3d12_dred_allocation_type"]
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ALLOCATION_TYPE, D3D12_DRED_ALLOCATION_TYPE enumeration, d3d12/D3D12_DRED_ALLOCATION_TYPE, d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration, direct3d12.d3d12_dred_allocation_type
 f1_keywords:

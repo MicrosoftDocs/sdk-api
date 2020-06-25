@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSuperScopeV4
 title: DhcpDeleteSuperScopeV4 function (dhcpsapi.h)
-description: Deletes a superscope from the DHCP server.helpviewer_keywords: ["DhcpDeleteSuperScopeV4","DhcpDeleteSuperScopeV4 function [DHCP]","dhcp.dhcpdeletesuperscopev4","dhcpsapi/DhcpDeleteSuperScopeV4"]
+description: Deletes a superscope from the DHCP server.
+helpviewer_keywords: ["DhcpDeleteSuperScopeV4","DhcpDeleteSuperScopeV4 function [DHCP]","dhcp.dhcpdeletesuperscopev4","dhcpsapi/DhcpDeleteSuperScopeV4"]
 old-location: dhcp\dhcpdeletesuperscopev4.htm
 tech.root: DHCP
 ms.assetid: 5d61f39d-8423-43c4-89ab-4c28214ee84d

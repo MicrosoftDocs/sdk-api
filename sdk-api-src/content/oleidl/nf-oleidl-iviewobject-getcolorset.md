@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IViewObject.GetColorSet
 title: IViewObject::GetColorSet (oleidl.h)
-description: Returns the logical palette that the object will use for drawing in its IViewObject::Draw method with the corresponding parameters.helpviewer_keywords: ["GetColorSet","GetColorSet method [COM]","GetColorSet method [COM]","IViewObject interface","IViewObject interface [COM]","GetColorSet method","IViewObject.GetColorSet","IViewObject::GetColorSet","_ole_iviewobject_getcolorset","com.iviewobject_getcolorset","oleidl/IViewObject::GetColorSet"]
+description: Returns the logical palette that the object will use for drawing in its IViewObject::Draw method with the corresponding parameters.
+helpviewer_keywords: ["GetColorSet","GetColorSet method [COM]","GetColorSet method [COM]","IViewObject interface","IViewObject interface [COM]","GetColorSet method","IViewObject.GetColorSet","IViewObject::GetColorSet","_ole_iviewobject_getcolorset","com.iviewobject_getcolorset","oleidl/IViewObject::GetColorSet"]
 old-location: com\iviewobject_getcolorset.htm
 tech.root: com
 ms.assetid: 68454266-ca31-44ec-8847-4d47001d9849

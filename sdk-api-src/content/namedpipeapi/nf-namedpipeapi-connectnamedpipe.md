@@ -1,7 +1,8 @@
 ---
 UID: NF:namedpipeapi.ConnectNamedPipe
 title: ConnectNamedPipe function (namedpipeapi.h)
-description: Enables a named pipe server process to wait for a client process to connect to an instance of a named pipe.helpviewer_keywords: ["ConnectNamedPipe","ConnectNamedPipe function","_win32_connectnamedpipe","base.connectnamedpipe","namedpipeapi/ConnectNamedPipe"]
+description: Enables a named pipe server process to wait for a client process to connect to an instance of a named pipe.
+helpviewer_keywords: ["ConnectNamedPipe","ConnectNamedPipe function","_win32_connectnamedpipe","base.connectnamedpipe","namedpipeapi/ConnectNamedPipe"]
 old-location: base\connectnamedpipe.htm
 tech.root: ipc
 ms.assetid: 50f6680f-900e-4411-a849-ec9a911c9e32

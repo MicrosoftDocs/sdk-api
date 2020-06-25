@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IBindCtx
 title: IBindCtx (objidl.h)
-description: Provides access to a bind context, which is an object that stores information about a particular moniker binding operation.helpviewer_keywords: ["IBindCtx","IBindCtx interface [COM]","IBindCtx interface [COM]","described","_com_ibindctx","com.ibindctx","objidl/IBindCtx"]
+description: Provides access to a bind context, which is an object that stores information about a particular moniker binding operation.
+helpviewer_keywords: ["IBindCtx","IBindCtx interface [COM]","IBindCtx interface [COM]","described","_com_ibindctx","com.ibindctx","objidl/IBindCtx"]
 old-location: com\ibindctx.htm
 tech.root: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46

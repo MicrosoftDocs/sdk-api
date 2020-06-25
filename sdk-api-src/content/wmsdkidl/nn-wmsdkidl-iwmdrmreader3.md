@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader3
 title: IWMDRMReader3 (wmsdkidl.h)
-description: The IWMDRMReader3 interface enables content transcription by providing a method to get protection systems approved by a license.helpviewer_keywords: ["IWMDRMReader3","IWMDRMReader3 interface [windows Media Format]","IWMDRMReader3 interface [windows Media Format]","described","IWMDRMReader3Interface","wmformat.iwmdrmreader3","wmsdkidl/IWMDRMReader3"]
+description: The IWMDRMReader3 interface enables content transcription by providing a method to get protection systems approved by a license.
+helpviewer_keywords: ["IWMDRMReader3","IWMDRMReader3 interface [windows Media Format]","IWMDRMReader3 interface [windows Media Format]","described","IWMDRMReader3Interface","wmformat.iwmdrmreader3","wmsdkidl/IWMDRMReader3"]
 old-location: wmformat\iwmdrmreader3.htm
 tech.root: wmformat
 ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc

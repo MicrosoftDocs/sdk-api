@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineGetIcon
 title: TSPI_lineGetIcon function (tspi.h)
-description: The TSPI_lineGetIcon function retrieves a service line device-specific icon to display to the user.helpviewer_keywords: ["TSPI_lineGetIcon","TSPI_lineGetIcon function [TAPI 2.2]","_tspi_tspi_linegeticon","tspi.tspi_linegeticon","tspi/TSPI_lineGetIcon"]
+description: The TSPI_lineGetIcon function retrieves a service line device-specific icon to display to the user.
+helpviewer_keywords: ["TSPI_lineGetIcon","TSPI_lineGetIcon function [TAPI 2.2]","_tspi_tspi_linegeticon","tspi.tspi_linegeticon","tspi/TSPI_lineGetIcon"]
 old-location: tspi\tspi_linegeticon.htm
 tech.root: Tapi
 ms.assetid: 0fa8a030-1b56-4d14-affd-ba1574696a3c

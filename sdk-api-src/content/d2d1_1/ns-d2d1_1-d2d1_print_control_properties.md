@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1_1.D2D1_PRINT_CONTROL_PROPERTIES
 title: D2D1_PRINT_CONTROL_PROPERTIES (d2d1_1.h)
-description: The creation properties for a ID2D1PrintControl object.helpviewer_keywords: ["D2D1_PRINT_CONTROL_PROPERTIES","D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D]","d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES","direct2d.d2d1_print_control_properties"]
+description: The creation properties for a ID2D1PrintControl object.
+helpviewer_keywords: ["D2D1_PRINT_CONTROL_PROPERTIES","D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D]","d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES","direct2d.d2d1_print_control_properties"]
 old-location: direct2d\d2d1_print_control_properties.htm
 tech.root: Direct2D
 ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810

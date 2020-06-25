@@ -1,7 +1,8 @@
 ---
 UID: NE:mbnapi.MBN_VOICE_CALL_STATE
 title: MBN_VOICE_CALL_STATE (mbnapi.h)
-description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.helpviewer_keywords: ["MBN_VOICE_CALL_STATE","MBN_VOICE_CALL_STATE enumeration [Microsoft Broadband Networks]","MBN_VOICE_CALL_STATE_HANGUP","MBN_VOICE_CALL_STATE_IN_PROGRESS","MBN_VOICE_CALL_STATE_NONE","mbn.mbn_voice_call_state","mbnapi/MBN_VOICE_CALL_STATE","mbnapi/MBN_VOICE_CALL_STATE_HANGUP","mbnapi/MBN_VOICE_CALL_STATE_IN_PROGRESS","mbnapi/MBN_VOICE_CALL_STATE_NONE"]
+description: The MBN_VOICE_CALL_STATE enumerated type specifies the current voice call state of the device.
+helpviewer_keywords: ["MBN_VOICE_CALL_STATE","MBN_VOICE_CALL_STATE enumeration [Microsoft Broadband Networks]","MBN_VOICE_CALL_STATE_HANGUP","MBN_VOICE_CALL_STATE_IN_PROGRESS","MBN_VOICE_CALL_STATE_NONE","mbn.mbn_voice_call_state","mbnapi/MBN_VOICE_CALL_STATE","mbnapi/MBN_VOICE_CALL_STATE_HANGUP","mbnapi/MBN_VOICE_CALL_STATE_IN_PROGRESS","mbnapi/MBN_VOICE_CALL_STATE_NONE"]
 old-location: mbn\mbn_voice_call_state.htm
 tech.root: mbn
 ms.assetid: 1b94b210-e50f-4d7b-a738-9c372364c4f8

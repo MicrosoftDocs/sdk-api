@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsVector
 title: IShellImageData::IsVector (shimgdata.h)
-description: Determines whether the image is a vector image.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsVector method","IShellImageData.IsVector","IShellImageData::IsVector","IsVector","IsVector method [Windows Shell]","IsVector method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsVector","shell.IShellImageData_IsVector","shimgdata/IShellImageData::IsVector"]
+description: Determines whether the image is a vector image.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsVector method","IShellImageData.IsVector","IShellImageData::IsVector","IsVector","IsVector method [Windows Shell]","IsVector method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsVector","shell.IShellImageData_IsVector","shimgdata/IShellImageData::IsVector"]
 old-location: shell\IShellImageData_IsVector.htm
 tech.root: shell
 ms.assetid: a4099bc4-c831-4a4e-a3f6-932570dc8029

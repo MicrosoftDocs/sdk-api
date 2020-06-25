@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamLengthTime
 title: AVIStreamLengthTime macro (vfw.h)
-description: The AVIStreamLengthTime macro returns the length of a stream in time.helpviewer_keywords: ["AVIStreamLengthTime","AVIStreamLengthTime macro [Windows Multimedia]","_win32_AVIStreamLengthTime","multimedia.avistreamlengthtime","vfw/AVIStreamLengthTime"]
+description: The AVIStreamLengthTime macro returns the length of a stream in time.
+helpviewer_keywords: ["AVIStreamLengthTime","AVIStreamLengthTime macro [Windows Multimedia]","_win32_AVIStreamLengthTime","multimedia.avistreamlengthtime","vfw/AVIStreamLengthTime"]
 old-location: multimedia\avistreamlengthtime.htm
 tech.root: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545

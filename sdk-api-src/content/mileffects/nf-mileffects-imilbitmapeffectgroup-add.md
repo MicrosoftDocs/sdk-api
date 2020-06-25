@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.Add
 title: IMILBitmapEffectGroup::Add (mileffects.h)
-description: Adds an effect to the IMILBitmapEffectGroup.helpviewer_keywords: ["Add","Add method [WPF Bitmap Effects]","Add method [WPF Bitmap Effects]","IMILBitmapEffectGroup interface","IMILBitmapEffectGroup interface [WPF Bitmap Effects]","Add method","IMILBitmapEffectGroup.Add","IMILBitmapEffectGroup::Add","_wibe_imilbitmapeffectgroup_add","mileffects/IMILBitmapEffectGroup::Add","wibe._wibe_imilbitmapeffectgroup_add"]
+description: Adds an effect to the IMILBitmapEffectGroup.
+helpviewer_keywords: ["Add","Add method [WPF Bitmap Effects]","Add method [WPF Bitmap Effects]","IMILBitmapEffectGroup interface","IMILBitmapEffectGroup interface [WPF Bitmap Effects]","Add method","IMILBitmapEffectGroup.Add","IMILBitmapEffectGroup::Add","_wibe_imilbitmapeffectgroup_add","mileffects/IMILBitmapEffectGroup::Add","wibe._wibe_imilbitmapeffectgroup_add"]
 old-location: wibe\_wibe_imilbitmapeffectgroup_add.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\add.htm

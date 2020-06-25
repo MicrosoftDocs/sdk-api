@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 title: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO (wincrypt.h)
-description: Contains optional extra information that can be passed to the CryptGetTimeValidObject function in the pExtraInfo parameter.helpviewer_keywords: ["*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure [Security]","PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure pointer [Security]","security.crypt_get_time_valid_object_extra_info","wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","wincrypt/PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"]
+description: Contains optional extra information that can be passed to the CryptGetTimeValidObject function in the pExtraInfo parameter.
+helpviewer_keywords: ["*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure [Security]","PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure pointer [Security]","security.crypt_get_time_valid_object_extra_info","wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO","wincrypt/PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"]
 old-location: security\crypt_get_time_valid_object_extra_info.htm
 tech.root: SecCrypto
 ms.assetid: 3de595f9-c922-4c8f-8328-819e91a2997c

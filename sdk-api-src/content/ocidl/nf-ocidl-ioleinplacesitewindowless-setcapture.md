@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetCapture
 title: IOleInPlaceSiteWindowless::SetCapture (ocidl.h)
-description: Enables an in-place active, windowless object to capture all mouse messages.helpviewer_keywords: ["IOleInPlaceSiteWindowless interface [COM]","SetCapture method","IOleInPlaceSiteWindowless.SetCapture","IOleInPlaceSiteWindowless::SetCapture","SetCapture","SetCapture method [COM]","SetCapture method [COM]","IOleInPlaceSiteWindowless interface","_ole_ioleinplacesitewindowless_setcapture","com.ioleinplacesitewindowless_setcapture","ocidl/IOleInPlaceSiteWindowless::SetCapture"]
+description: Enables an in-place active, windowless object to capture all mouse messages.
+helpviewer_keywords: ["IOleInPlaceSiteWindowless interface [COM]","SetCapture method","IOleInPlaceSiteWindowless.SetCapture","IOleInPlaceSiteWindowless::SetCapture","SetCapture","SetCapture method [COM]","SetCapture method [COM]","IOleInPlaceSiteWindowless interface","_ole_ioleinplacesitewindowless_setcapture","com.ioleinplacesitewindowless_setcapture","ocidl/IOleInPlaceSiteWindowless::SetCapture"]
 old-location: com\ioleinplacesitewindowless_setcapture.htm
 tech.root: com
 ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d

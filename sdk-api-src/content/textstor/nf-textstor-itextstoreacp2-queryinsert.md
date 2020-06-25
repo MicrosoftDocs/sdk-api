@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP2.QueryInsert
 title: ITextStoreACP2::QueryInsert (textstor.h)
-description: Determines whether the specified start and end character positions are valid. Use this method to adjust an edit to a document before executing the edit. The method must not return values outside the range of the document.helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","QueryInsert method","ITextStoreACP2.QueryInsert","ITextStoreACP2::QueryInsert","QueryInsert","QueryInsert method [Text Services Framework]","QueryInsert method [Text Services Framework]","ITextStoreACP2 interface","textstor/ITextStoreACP2::QueryInsert","tsf.itextstoreacp2_queryinsert"]
+description: Determines whether the specified start and end character positions are valid. Use this method to adjust an edit to a document before executing the edit. The method must not return values outside the range of the document.
+helpviewer_keywords: ["ITextStoreACP2 interface [Text Services Framework]","QueryInsert method","ITextStoreACP2.QueryInsert","ITextStoreACP2::QueryInsert","QueryInsert","QueryInsert method [Text Services Framework]","QueryInsert method [Text Services Framework]","ITextStoreACP2 interface","textstor/ITextStoreACP2::QueryInsert","tsf.itextstoreacp2_queryinsert"]
 old-location: tsf\itextstoreacp2_queryinsert.htm
 tech.root: TSF
 ms.assetid: 3a1cf233-5185-414a-99c6-2cfdbe07b8c9

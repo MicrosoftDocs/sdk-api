@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1.D2D1_QUADRATIC_BEZIER_SEGMENT
 title: D2D1_QUADRATIC_BEZIER_SEGMENT (d2d1.h)
-description: Contains the control point and end point for a quadratic Bezier segment.helpviewer_keywords: ["D2D1_QUADRATIC_BEZIER_SEGMENT","D2D1_QUADRATIC_BEZIER_SEGMENT structure [Direct2D]","d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT","direct2d.D2D1_QUADRATIC_BEZIER_SEGMENT"]
+description: Contains the control point and end point for a quadratic Bezier segment.
+helpviewer_keywords: ["D2D1_QUADRATIC_BEZIER_SEGMENT","D2D1_QUADRATIC_BEZIER_SEGMENT structure [Direct2D]","d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT","direct2d.D2D1_QUADRATIC_BEZIER_SEGMENT"]
 old-location: direct2d\D2D1_QUADRATIC_BEZIER_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: 5060cb17-b6f4-4796-b91d-602fd81591c2

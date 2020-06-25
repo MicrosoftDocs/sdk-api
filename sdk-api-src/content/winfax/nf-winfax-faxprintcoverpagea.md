@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxPrintCoverPageA
 title: FaxPrintCoverPageA function (winfax.h)
-description: The FaxPrintCoverPage function prints a fax transmission cover page to the specified device context for a fax client application.helpviewer_keywords: ["FaxPrintCoverPage","FaxPrintCoverPage function [Fax Service]","FaxPrintCoverPageA","FaxPrintCoverPageW","_mfax_faxprintcoverpage","fax._mfax_faxprintcoverpage","winfax/FaxPrintCoverPage","winfax/FaxPrintCoverPageA","winfax/FaxPrintCoverPageW"]
+description: The FaxPrintCoverPage function prints a fax transmission cover page to the specified device context for a fax client application.
+helpviewer_keywords: ["FaxPrintCoverPage","FaxPrintCoverPage function [Fax Service]","FaxPrintCoverPageA","FaxPrintCoverPageW","_mfax_faxprintcoverpage","fax._mfax_faxprintcoverpage","winfax/FaxPrintCoverPage","winfax/FaxPrintCoverPageA","winfax/FaxPrintCoverPageW"]
 old-location: fax\_mfax_faxprintcoverpage.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8fmt.htm
@@ -142,6 +143,10 @@ A fax client application must call the <a href="https://docs.microsoft.com/previ
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FaxPrintCoverPage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

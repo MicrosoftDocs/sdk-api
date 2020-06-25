@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationPrimitiveInterpolation
 title: IUIAnimationPrimitiveInterpolation (uianimation.h)
-description: Defines a method that allows a custom interpolator to provide transition information, in the form of a cubic polynomial curve, to the animation manager.helpviewer_keywords: ["IUIAnimationPrimitiveInterpolation","IUIAnimationPrimitiveInterpolation interface [Windows Animation]","IUIAnimationPrimitiveInterpolation interface [Windows Animation]","described","uianimation.iuianimationprimitiveinterpolation","uianimation/IUIAnimationPrimitiveInterpolation"]
+description: Defines a method that allows a custom interpolator to provide transition information, in the form of a cubic polynomial curve, to the animation manager.
+helpviewer_keywords: ["IUIAnimationPrimitiveInterpolation","IUIAnimationPrimitiveInterpolation interface [Windows Animation]","IUIAnimationPrimitiveInterpolation interface [Windows Animation]","described","uianimation.iuianimationprimitiveinterpolation","uianimation/IUIAnimationPrimitiveInterpolation"]
 old-location: uianimation\iuianimationprimitiveinterpolation.htm
 tech.root: UIAnimation
 ms.assetid: 6EAE7874-1103-4D2E-A325-37E5A95705F5

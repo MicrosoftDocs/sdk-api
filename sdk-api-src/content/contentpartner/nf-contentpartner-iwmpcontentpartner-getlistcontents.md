@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetListContents
 title: IWMPContentPartner::GetListContents (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetListContents method initiates the retrieval of a dynamic list.helpviewer_keywords: ["GetListContents","GetListContents method [Windows Media Player]","GetListContents method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetListContents method","IWMPContentPartner.GetListContents","IWMPContentPartner::GetListContents","IWMPContentPartnerGetListContents","contentpartner/IWMPContentPartner::GetListContents","wmp.iwmpcontentpartner_getlistcontents"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetListContents method initiates the retrieval of a dynamic list.
+helpviewer_keywords: ["GetListContents","GetListContents method [Windows Media Player]","GetListContents method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetListContents method","IWMPContentPartner.GetListContents","IWMPContentPartner::GetListContents","IWMPContentPartnerGetListContents","contentpartner/IWMPContentPartner::GetListContents","wmp.iwmpcontentpartner_getlistcontents"]
 old-location: wmp\iwmpcontentpartner_getlistcontents.htm
 tech.root: WMP
 ms.assetid: a48935ea-8275-4b68-a1ab-006a23c455ad

@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterConnectCommunicationPort
 title: FilterConnectCommunicationPort function (fltuser.h)
-description: FilterConnectCommunicationPort opens a new connection to a communication server port that is created by a file system minifilter.helpviewer_keywords: ["FLT_PORT_FLAG_SYNC_HANDLE","FilterConnectCommunicationPort","FilterConnectCommunicationPort function [Installable File System Drivers]","FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml","fltuser/FilterConnectCommunicationPort","ifsk.filterconnectcommunicationport"]
+description: FilterConnectCommunicationPort opens a new connection to a communication server port that is created by a file system minifilter.
+helpviewer_keywords: ["FLT_PORT_FLAG_SYNC_HANDLE","FilterConnectCommunicationPort","FilterConnectCommunicationPort function [Installable File System Drivers]","FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml","fltuser/FilterConnectCommunicationPort","ifsk.filterconnectcommunicationport"]
 old-location: ifsk\filterconnectcommunicationport.htm
 tech.root: ifsk
 ms.assetid: 294783f2-2cbf-4eea-82ae-a396c62f911a

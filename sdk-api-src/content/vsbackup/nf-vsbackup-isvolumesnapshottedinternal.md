@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IsVolumeSnapshottedInternal
 title: IsVolumeSnapshottedInternal function (vsbackup.h)
-description: The IsVolumeSnapshotted function determines whether any shadow copies exist for the specified volume.helpviewer_keywords: ["IsVolumeSnapshotted","IsVolumeSnapshotted function [VSS]","IsVolumeSnapshottedInternal","_win32_isvolumesnapshotted","base.isvolumesnapshotted","vsbackup/IsVolumeSnapshotted","vsbackup/IsVolumeSnapshottedInternal"]
+description: The IsVolumeSnapshotted function determines whether any shadow copies exist for the specified volume.
+helpviewer_keywords: ["IsVolumeSnapshotted","IsVolumeSnapshotted function [VSS]","IsVolumeSnapshottedInternal","_win32_isvolumesnapshotted","base.isvolumesnapshotted","vsbackup/IsVolumeSnapshotted","vsbackup/IsVolumeSnapshottedInternal"]
 old-location: base\isvolumesnapshotted.htm
 tech.root: VSS
 ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421

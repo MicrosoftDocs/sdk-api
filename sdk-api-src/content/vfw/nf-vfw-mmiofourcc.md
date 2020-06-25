@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.mmioFOURCC
 title: mmioFOURCC macro (vfw.h)
-description: The mmioFOURCC macro converts four characters into a four-character code.helpviewer_keywords: ["_win32_mmioFOURCC","mmioFOURCC","mmioFOURCC macro [Windows Multimedia]","multimedia.mmiofourcc","vfw/mmioFOURCC"]
+description: The mmioFOURCC macro converts four characters into a four-character code.
+helpviewer_keywords: ["_win32_mmioFOURCC","mmioFOURCC","mmioFOURCC macro [Windows Multimedia]","multimedia.mmiofourcc","vfw/mmioFOURCC"]
 old-location: multimedia\mmiofourcc.htm
 tech.root: Multimedia
 ms.assetid: 616c3b43-9305-49c1-bc46-2e1256647c7d

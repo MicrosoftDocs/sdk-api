@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_Id
 title: IFaxDevice::get_Id (faxcomex.h)
-description: The Id IFaxDevice::get_Id is a numeric value that uniquely identifies a fax device.helpviewer_keywords: ["IFaxDevice interface [Fax Service]","Id property","IFaxDevice.Id","IFaxDevice.get_Id","IFaxDevice::Id","IFaxDevice::get_Id","Id property [Fax Service]","Id property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.id","fax._mfax_faxdevice_cpp_mfax_faxdevice_id_cpp","fax._mfax_faxdevice_id","faxcomex/IFaxDevice::Id","faxcomex/IFaxDevice::get_Id","get_Id"]
+description: The Id IFaxDevice::get_Id is a numeric value that uniquely identifies a fax device.
+helpviewer_keywords: ["IFaxDevice interface [Fax Service]","Id property","IFaxDevice.Id","IFaxDevice.get_Id","IFaxDevice::Id","IFaxDevice::get_Id","Id property [Fax Service]","Id property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.id","fax._mfax_faxdevice_cpp_mfax_faxdevice_id_cpp","fax._mfax_faxdevice_id","faxcomex/IFaxDevice::Id","faxcomex/IFaxDevice::get_Id","get_Id"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_id_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0tyc.htm

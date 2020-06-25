@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Rect.GetBottom
 title: Rect::GetBottom (gdiplustypes.h)
-description: The Rect::GetBottom method gets the y-coordinate of the bottom edge of the rectangle.helpviewer_keywords: ["GetBottom","GetBottom method [GDI+]","GetBottom method [GDI+]","Rect class","Rect class [GDI+]","GetBottom method","Rect.GetBottom","Rect::GetBottom","_gdiplus_CLASS_Rect_GetBottom_","gdiplus._gdiplus_CLASS_Rect_GetBottom_"]
+description: The Rect::GetBottom method gets the y-coordinate of the bottom edge of the rectangle.
+helpviewer_keywords: ["GetBottom","GetBottom method [GDI+]","GetBottom method [GDI+]","Rect class","Rect class [GDI+]","GetBottom method","Rect.GetBottom","Rect::GetBottom","_gdiplus_CLASS_Rect_GetBottom_","gdiplus._gdiplus_CLASS_Rect_GetBottom_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetBottom_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbottom.htm

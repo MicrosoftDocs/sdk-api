@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.CreateContext
 title: CreateContext function (recapis.h)
-description: Creates a recognizer context.helpviewer_keywords: ["4e599157-93d6-486f-9498-899e5b53f24b","CreateContext","CreateContext function [Tablet PC]","recapis/CreateContext","tablet.createcontext"]
+description: Creates a recognizer context.
+helpviewer_keywords: ["4e599157-93d6-486f-9498-899e5b53f24b","CreateContext","CreateContext function [Tablet PC]","recapis/CreateContext","tablet.createcontext"]
 old-location: tablet\createcontext.htm
 tech.root: tablet
 ms.assetid: 4e599157-93d6-486f-9498-899e5b53f24b

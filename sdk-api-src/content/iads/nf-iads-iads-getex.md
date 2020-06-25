@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADs.GetEx
 title: IADs::GetEx (iads.h)
-description: Retrieves, from the property cache, property values of a given attribute.helpviewer_keywords: ["GetEx","GetEx method [ADSI]","GetEx method [ADSI]","IADs interface","IADs interface [ADSI]","GetEx method","IADs.GetEx","IADs::GetEx","_ds_iads_getex","adsi.iads__getex","adsi.iads_getex","iads/IADs::GetEx"]
+description: Retrieves, from the property cache, property values of a given attribute.
+helpviewer_keywords: ["GetEx","GetEx method [ADSI]","GetEx method [ADSI]","IADs interface","IADs interface [ADSI]","GetEx method","IADs.GetEx","IADs::GetEx","_ds_iads_getex","adsi.iads__getex","adsi.iads_getex","iads/IADs::GetEx"]
 old-location: adsi\iads_getex.htm
 tech.root: adsi
 ms.assetid: cda6b8e7-fadc-4e0b-8217-66b37bf7efbd

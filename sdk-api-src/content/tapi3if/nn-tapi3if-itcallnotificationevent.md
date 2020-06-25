@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITCallNotificationEvent
 title: ITCallNotificationEvent (tapi3if.h)
-description: The ITCallNotificationEvent interface contains methods that retrieve the description of call notification events.helpviewer_keywords: ["ITCallNotificationEvent","ITCallNotificationEvent interface [TAPI 2.2]","ITCallNotificationEvent interface [TAPI 2.2]","described","_tapi3_itcallnotificationevent","tapi3.itcallnotificationevent","tapi3if/ITCallNotificationEvent"]
+description: The ITCallNotificationEvent interface contains methods that retrieve the description of call notification events.
+helpviewer_keywords: ["ITCallNotificationEvent","ITCallNotificationEvent interface [TAPI 2.2]","ITCallNotificationEvent interface [TAPI 2.2]","described","_tapi3_itcallnotificationevent","tapi3.itcallnotificationevent","tapi3if/ITCallNotificationEvent"]
 old-location: tapi3\itcallnotificationevent.htm
 tech.root: Tapi
 ms.assetid: d0ea4f7a-7b50-4610-ae17-957c0c1891e1

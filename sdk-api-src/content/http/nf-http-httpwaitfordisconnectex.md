@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpWaitForDisconnectEx
 title: HttpWaitForDisconnectEx function (http.h)
-description: This function is an extension to HttpWaitForDisconnect.helpviewer_keywords: ["HttpWaitForDisconnectEx","HttpWaitForDisconnectEx function [HTTP]","http.httpwaitfordisconnectex","http/HttpWaitForDisconnectEx"]
+description: This function is an extension to HttpWaitForDisconnect.
+helpviewer_keywords: ["HttpWaitForDisconnectEx","HttpWaitForDisconnectEx function [HTTP]","http.httpwaitfordisconnectex","http/HttpWaitForDisconnectEx"]
 old-location: http\httpwaitfordisconnectex.htm
 tech.root: http
 ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6

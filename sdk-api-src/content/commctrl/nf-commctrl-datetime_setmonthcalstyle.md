@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DateTime_SetMonthCalStyle
 title: DateTime_SetMonthCalStyle macro (commctrl.h)
-description: Sets the style for a specified date and time picker (DTP) control. Use this macro or send the DTM_SETMCSTYLE message explicitly.helpviewer_keywords: ["DateTime_SetMonthCalStyle","DateTime_SetMonthCalStyle macro [Windows Controls]","_shell_DateTime_SetMonthCalStyle","_shell_DateTime_SetMonthCalStyle_cpp","commctrl/DateTime_SetMonthCalStyle","controls.DateTime_SetMonthCalStyle","controls._shell_DateTime_SetMonthCalStyle"]
+description: Sets the style for a specified date and time picker (DTP) control. Use this macro or send the DTM_SETMCSTYLE message explicitly.
+helpviewer_keywords: ["DateTime_SetMonthCalStyle","DateTime_SetMonthCalStyle macro [Windows Controls]","_shell_DateTime_SetMonthCalStyle","_shell_DateTime_SetMonthCalStyle_cpp","commctrl/DateTime_SetMonthCalStyle","controls.DateTime_SetMonthCalStyle","controls._shell_DateTime_SetMonthCalStyle"]
 old-location: controls\DateTime_SetMonthCalStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalstyle.htm

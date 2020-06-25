@@ -1,7 +1,8 @@
 ---
 UID: NS:resapi.CLUS_WORKER
 title: CLUS_WORKER (resapi.h)
-description: Contains information about a worker thread.helpviewer_keywords: ["*PCLUS_WORKER","CLUS_WORKER","CLUS_WORKER structure [Failover Cluster]","PCLUS_WORKER","PCLUS_WORKER structure pointer [Failover Cluster]","_wolf_clus_worker","mscs.clus_worker","resapi/CLUS_WORKER","resapi/PCLUS_WORKER"]
+description: Contains information about a worker thread.
+helpviewer_keywords: ["*PCLUS_WORKER","CLUS_WORKER","CLUS_WORKER structure [Failover Cluster]","PCLUS_WORKER","PCLUS_WORKER structure pointer [Failover Cluster]","_wolf_clus_worker","mscs.clus_worker","resapi/CLUS_WORKER","resapi/PCLUS_WORKER"]
 old-location: mscs\clus_worker.htm
 tech.root: MsCS
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d

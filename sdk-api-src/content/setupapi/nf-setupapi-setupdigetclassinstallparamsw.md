@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassInstallParamsW
 title: SetupDiGetClassInstallParamsW function (setupapi.h)
-description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element.helpviewer_keywords: ["SetupDiGetClassInstallParams","SetupDiGetClassInstallParams function [Device and Driver Installation]","SetupDiGetClassInstallParamsA","SetupDiGetClassInstallParamsW","devinst.setupdigetclassinstallparams","di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml","setupapi/SetupDiGetClassInstallParams"]
+description: The SetupDiGetClassInstallParams function retrieves class installation parameters for a device information set or a particular device information element.
+helpviewer_keywords: ["SetupDiGetClassInstallParams","SetupDiGetClassInstallParams function [Device and Driver Installation]","SetupDiGetClassInstallParamsA","SetupDiGetClassInstallParamsW","devinst.setupdigetclassinstallparams","di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml","setupapi/SetupDiGetClassInstallParams"]
 old-location: devinst\setupdigetclassinstallparams.htm
 tech.root: devinst
 ms.assetid: 4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e
@@ -100,6 +101,10 @@ The class install parameters are specific to a particular <a href="https://docs.
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetClassInstallParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

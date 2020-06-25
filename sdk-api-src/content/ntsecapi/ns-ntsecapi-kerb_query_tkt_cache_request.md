@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_QUERY_TKT_CACHE_REQUEST
 title: KERB_QUERY_TKT_CACHE_REQUEST (ntsecapi.h)
-description: Contains information used to query the ticket cache.helpviewer_keywords: ["*PKERB_QUERY_TKT_CACHE_REQUEST","KERB_QUERY_TKT_CACHE_REQUEST","KERB_QUERY_TKT_CACHE_REQUEST structure [Security]","PKERB_QUERY_TKT_CACHE_REQUEST","PKERB_QUERY_TKT_CACHE_REQUEST structure pointer [Security]","_lsa_kerb_query_tkt_cache_request","ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST","ntsecapi/PKERB_QUERY_TKT_CACHE_REQUEST","security.kerb_query_tkt_cache_request"]
+description: Contains information used to query the ticket cache.
+helpviewer_keywords: ["*PKERB_QUERY_TKT_CACHE_REQUEST","KERB_QUERY_TKT_CACHE_REQUEST","KERB_QUERY_TKT_CACHE_REQUEST structure [Security]","PKERB_QUERY_TKT_CACHE_REQUEST","PKERB_QUERY_TKT_CACHE_REQUEST structure pointer [Security]","_lsa_kerb_query_tkt_cache_request","ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST","ntsecapi/PKERB_QUERY_TKT_CACHE_REQUEST","security.kerb_query_tkt_cache_request"]
 old-location: security\kerb_query_tkt_cache_request.htm
 tech.root: SecAuthN
 ms.assetid: 3c8e63b3-9ac4-4228-87e1-6802c3d12d6c

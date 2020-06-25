@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.SetStartRecConfig
 title: IStreamBufferConfigure3::SetStartRecConfig (sbe.h)
-description: The SetStartRecConfig method specifies whether the IStreamBufferRecordControl::Start method automatically stops the current recording.helpviewer_keywords: ["IStreamBufferConfigure3 interface [Microsoft TV Technologies]","SetStartRecConfig method","IStreamBufferConfigure3.SetStartRecConfig","IStreamBufferConfigure3::SetStartRecConfig","IStreamBufferConfigure3SetStartRecConfig","SetStartRecConfig","SetStartRecConfig method [Microsoft TV Technologies]","SetStartRecConfig method [Microsoft TV Technologies]","IStreamBufferConfigure3 interface","mstv.istreambufferconfigure3_setstartrecconfig","sbe/IStreamBufferConfigure3::SetStartRecConfig"]
+description: The SetStartRecConfig method specifies whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
+helpviewer_keywords: ["IStreamBufferConfigure3 interface [Microsoft TV Technologies]","SetStartRecConfig method","IStreamBufferConfigure3.SetStartRecConfig","IStreamBufferConfigure3::SetStartRecConfig","IStreamBufferConfigure3SetStartRecConfig","SetStartRecConfig","SetStartRecConfig method [Microsoft TV Technologies]","SetStartRecConfig method [Microsoft TV Technologies]","IStreamBufferConfigure3 interface","mstv.istreambufferconfigure3_setstartrecconfig","sbe/IStreamBufferConfigure3::SetStartRecConfig"]
 old-location: mstv\istreambufferconfigure3_setstartrecconfig.htm
 tech.root: mstv
 ms.assetid: 6ae896ce-72e8-49aa-a538-2a269ef07ade

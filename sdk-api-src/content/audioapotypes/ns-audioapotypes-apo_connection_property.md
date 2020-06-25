@@ -1,7 +1,8 @@
 ---
 UID: NS:audioapotypes.APO_CONNECTION_PROPERTY
 title: APO_CONNECTION_PROPERTY (audioapotypes.h)
-description: Contains the dynamically changing connection properties.helpviewer_keywords: ["APO_CONNECTION_PROPERTY","APO_CONNECTION_PROPERTY structure [Remote Desktop Services]","audioapotypes/APO_CONNECTION_PROPERTY","termserv.apo_connection_property"]
+description: Contains the dynamically changing connection properties.
+helpviewer_keywords: ["APO_CONNECTION_PROPERTY","APO_CONNECTION_PROPERTY structure [Remote Desktop Services]","audioapotypes/APO_CONNECTION_PROPERTY","termserv.apo_connection_property"]
 old-location: termserv\apo_connection_property.htm
 tech.root: TermServ
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0

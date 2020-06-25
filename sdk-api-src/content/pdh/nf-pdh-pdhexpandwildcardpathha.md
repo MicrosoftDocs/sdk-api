@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathHA
 title: PdhExpandWildCardPathHA function (pdh.h)
-description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPathH","PdhExpandWildCardPathH function [Perf]","PdhExpandWildCardPathHA","PdhExpandWildCardPathHW","_win32_pdhexpandwildcardpathh","base.pdhexpandwildcardpathh","pdh/PdhExpandWildCardPathH","pdh/PdhExpandWildCardPathHA","pdh/PdhExpandWildCardPathHW","perf.pdhexpandwildcardpathh"]
+description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.
+helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPathH","PdhExpandWildCardPathH function [Perf]","PdhExpandWildCardPathHA","PdhExpandWildCardPathHW","_win32_pdhexpandwildcardpathh","base.pdhexpandwildcardpathh","pdh/PdhExpandWildCardPathH","pdh/PdhExpandWildCardPathHA","pdh/PdhExpandWildCardPathHW","perf.pdhexpandwildcardpathh"]
 old-location: perf\pdhexpandwildcardpathh.htm
 tech.root: perfctrs
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
@@ -235,6 +236,10 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhExpandWildCardPathH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

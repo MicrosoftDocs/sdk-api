@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2EngineCallback.OnProcessingPassEnd
 title: IXAudio2EngineCallback::OnProcessingPassEnd (xaudio2.h)
-description: Called by XAudio2 just after an audio processing pass ends.helpviewer_keywords: ["IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs]","OnProcessingPassEnd method","IXAudio2EngineCallback.OnProcessingPassEnd","IXAudio2EngineCallback::OnProcessingPassEnd","OnProcessingPassEnd","OnProcessingPassEnd method [XAudio2 Audio Mixing APIs]","OnProcessingPassEnd method [XAudio2 Audio Mixing APIs]","IXAudio2EngineCallback interface","xaudio2.ixaudio2enginecallback_onprocessingpassend","xaudio2/IXAudio2EngineCallback::OnProcessingPassEnd"]
+description: Called by XAudio2 just after an audio processing pass ends.
+helpviewer_keywords: ["IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs]","OnProcessingPassEnd method","IXAudio2EngineCallback.OnProcessingPassEnd","IXAudio2EngineCallback::OnProcessingPassEnd","OnProcessingPassEnd","OnProcessingPassEnd method [XAudio2 Audio Mixing APIs]","OnProcessingPassEnd method [XAudio2 Audio Mixing APIs]","IXAudio2EngineCallback interface","xaudio2.ixaudio2enginecallback_onprocessingpassend","xaudio2/IXAudio2EngineCallback::OnProcessingPassEnd"]
 old-location: xaudio2\ixaudio2enginecallback_onprocessingpassend.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnProcessingPassEnd

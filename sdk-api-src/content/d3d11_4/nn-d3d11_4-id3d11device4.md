@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11_4.ID3D11Device4
 title: ID3D11Device4 (d3d11_4.h)
-description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device4 adds new methods to those in ID3D11Device3, such as RegisterDeviceRemovedEvent and UnregisterDeviceRemoved.helpviewer_keywords: ["ID3D11Device4","ID3D11Device4 interface [Direct3D 11]","ID3D11Device4 interface [Direct3D 11]","described","d3d11_4/ID3D11Device4","direct3d11.id3d11device4"]
+description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device4 adds new methods to those in ID3D11Device3, such as RegisterDeviceRemovedEvent and UnregisterDeviceRemoved.
+helpviewer_keywords: ["ID3D11Device4","ID3D11Device4 interface [Direct3D 11]","ID3D11Device4 interface [Direct3D 11]","described","d3d11_4/ID3D11Device4","direct3d11.id3d11device4"]
 old-location: direct3d11\id3d11device4.htm
 tech.root: direct3d11
 ms.assetid: C4971129-C879-470A-ACD7-910D9F522E8C

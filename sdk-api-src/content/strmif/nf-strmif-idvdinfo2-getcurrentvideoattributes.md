@@ -130,7 +130,6 @@ The use of this method is demonstrated in the DVDSample application in <b>CDvdCo
 
 
 
-
 <a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
@@ -140,7 +139,5 @@ The use of this method is demonstrated in the DVDSample application in <b>CDvdCo
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
  
 

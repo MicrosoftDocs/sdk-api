@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Resource.GetDesc
 title: ID3D12Resource::GetDesc (d3d12.h)
-description: Gets the resource description.helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12Resource interface","ID3D12Resource interface","GetDesc method","ID3D12Resource.GetDesc","ID3D12Resource::GetDesc","d3d12/ID3D12Resource::GetDesc","direct3d12.id3d12resource_getdesc"]
+description: Gets the resource description.
+helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12Resource interface","ID3D12Resource interface","GetDesc method","ID3D12Resource.GetDesc","ID3D12Resource::GetDesc","d3d12/ID3D12Resource::GetDesc","direct3d12.id3d12resource_getdesc"]
 old-location: direct3d12\id3d12resource_getdesc.htm
 tech.root: direct3d12
 ms.assetid: B8D84D69-6B13-4E86-8EF6-A841354B1E5C

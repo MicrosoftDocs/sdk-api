@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IChangeConflict.GetDestinationProviderConflictingChange
 title: IChangeConflict::GetDestinationProviderConflictingChange (winsync.h)
-description: Gets the change metadata from the destination provider.helpviewer_keywords: ["GetDestinationProviderConflictingChange","GetDestinationProviderConflictingChange method [Windows Sync]","GetDestinationProviderConflictingChange method [Windows Sync]","IChangeConflict interface","IChangeConflict interface [Windows Sync]","GetDestinationProviderConflictingChange method","IChangeConflict.GetDestinationProviderConflictingChange","IChangeConflict::GetDestinationProviderConflictingChange","winsync.ichangeconflict_getdestinationproviderconflictingchange","winsync/IChangeConflict::GetDestinationProviderConflictingChange"]
+description: Gets the change metadata from the destination provider.
+helpviewer_keywords: ["GetDestinationProviderConflictingChange","GetDestinationProviderConflictingChange method [Windows Sync]","GetDestinationProviderConflictingChange method [Windows Sync]","IChangeConflict interface","IChangeConflict interface [Windows Sync]","GetDestinationProviderConflictingChange method","IChangeConflict.GetDestinationProviderConflictingChange","IChangeConflict::GetDestinationProviderConflictingChange","winsync.ichangeconflict_getdestinationproviderconflictingchange","winsync/IChangeConflict::GetDestinationProviderConflictingChange"]
 old-location: winsync\ichangeconflict_getdestinationproviderconflictingchange.htm
 tech.root: winsync
 ms.assetid: 4624f92a-8455-4490-a256-9cf849626844

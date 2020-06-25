@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.EnumerateStaticTerminals
 title: ITTerminalSupport::EnumerateStaticTerminals (tapi3if.h)
-description: The EnumerateStaticTerminals method enumerates the currently available static terminals associated with the address.helpviewer_keywords: ["EnumerateStaticTerminals","EnumerateStaticTerminals method [TAPI 2.2]","EnumerateStaticTerminals method [TAPI 2.2]","ITTerminalSupport interface","ITTerminalSupport interface [TAPI 2.2]","EnumerateStaticTerminals method","ITTerminalSupport.EnumerateStaticTerminals","ITTerminalSupport::EnumerateStaticTerminals","_tapi3_itterminalsupport_enumeratestaticterminals","tapi3.itterminalsupport_enumeratestaticterminals","tapi3if/ITTerminalSupport::EnumerateStaticTerminals"]
+description: The EnumerateStaticTerminals method enumerates the currently available static terminals associated with the address.
+helpviewer_keywords: ["EnumerateStaticTerminals","EnumerateStaticTerminals method [TAPI 2.2]","EnumerateStaticTerminals method [TAPI 2.2]","ITTerminalSupport interface","ITTerminalSupport interface [TAPI 2.2]","EnumerateStaticTerminals method","ITTerminalSupport.EnumerateStaticTerminals","ITTerminalSupport::EnumerateStaticTerminals","_tapi3_itterminalsupport_enumeratestaticterminals","tapi3.itterminalsupport_enumeratestaticterminals","tapi3if/ITTerminalSupport::EnumerateStaticTerminals"]
 old-location: tapi3\itterminalsupport_enumeratestaticterminals.htm
 tech.root: Tapi
 ms.assetid: 91fea706-9792-40e1-b812-f7578bc7968b

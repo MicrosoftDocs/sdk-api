@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IUpdateServiceManager2
 title: IUpdateServiceManager2 (wuapi.h)
-description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.helpviewer_keywords: ["IUpdateServiceManager2","IUpdateServiceManager2 interface [Windows Update Agent]","IUpdateServiceManager2 interface [Windows Update Agent]","described","wua.iupdateservicemanager2","wuapi/IUpdateServiceManager2"]
+description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
+helpviewer_keywords: ["IUpdateServiceManager2","IUpdateServiceManager2 interface [Windows Update Agent]","IUpdateServiceManager2 interface [Windows Update Agent]","described","wua.iupdateservicemanager2","wuapi/IUpdateServiceManager2"]
 old-location: wua\iupdateservicemanager2.htm
 tech.root: Wua_Sdk
 ms.assetid: 26b75edc-eb43-4ee0-8040-da8b3252cf21

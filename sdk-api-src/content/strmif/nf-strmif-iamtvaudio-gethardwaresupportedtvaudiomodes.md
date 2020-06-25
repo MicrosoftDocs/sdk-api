@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetHardwareSupportedTVAudioModes
 title: IAMTVAudio::GetHardwareSupportedTVAudioModes (strmif.h)
-description: The GetHardwareSupportedTVAudioModes method retrieves a bitmask of the formats available in the hardware.helpviewer_keywords: ["GetHardwareSupportedTVAudioModes","GetHardwareSupportedTVAudioModes method [DirectShow]","GetHardwareSupportedTVAudioModes method [DirectShow]","IAMTVAudio interface","IAMTVAudio interface [DirectShow]","GetHardwareSupportedTVAudioModes method","IAMTVAudio.GetHardwareSupportedTVAudioModes","IAMTVAudio::GetHardwareSupportedTVAudioModes","IAMTVAudioGetHardwareSupportedTVAudioModes","dshow.iamtvaudio_gethardwaresupportedtvaudiomodes","strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes"]
+description: The GetHardwareSupportedTVAudioModes method retrieves a bitmask of the formats available in the hardware.
+helpviewer_keywords: ["GetHardwareSupportedTVAudioModes","GetHardwareSupportedTVAudioModes method [DirectShow]","GetHardwareSupportedTVAudioModes method [DirectShow]","IAMTVAudio interface","IAMTVAudio interface [DirectShow]","GetHardwareSupportedTVAudioModes method","IAMTVAudio.GetHardwareSupportedTVAudioModes","IAMTVAudio::GetHardwareSupportedTVAudioModes","IAMTVAudioGetHardwareSupportedTVAudioModes","dshow.iamtvaudio_gethardwaresupportedtvaudiomodes","strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes"]
 old-location: dshow\iamtvaudio_gethardwaresupportedtvaudiomodes.htm
 tech.root: DirectShow
 ms.assetid: 2c67abc9-2419-473b-a2e6-4fc7df50752c

@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_X942_DH_PARAMETERS
 title: CERT_X942_DH_PARAMETERS (wincrypt.h)
-description: Contains parameters associated with a Diffie-Hellman public key algorithm.helpviewer_keywords: ["*PCERT_X942_DH_PARAMETERS","CERT_X942_DH_PARAMETERS","CERT_X942_DH_PARAMETERS structure [Security]","PCERT_X942_DH_PARAMETERS","PCERT_X942_DH_PARAMETERS structure pointer [Security]","_crypto2_cert_x942_dh_parameters","security.cert_x942_dh_parameters","wincrypt/CERT_X942_DH_PARAMETERS","wincrypt/PCERT_X942_DH_PARAMETERS"]
+description: Contains parameters associated with a Diffie-Hellman public key algorithm.
+helpviewer_keywords: ["*PCERT_X942_DH_PARAMETERS","CERT_X942_DH_PARAMETERS","CERT_X942_DH_PARAMETERS structure [Security]","PCERT_X942_DH_PARAMETERS","PCERT_X942_DH_PARAMETERS structure pointer [Security]","_crypto2_cert_x942_dh_parameters","security.cert_x942_dh_parameters","wincrypt/CERT_X942_DH_PARAMETERS","wincrypt/PCERT_X942_DH_PARAMETERS"]
 old-location: security\cert_x942_dh_parameters.htm
 tech.root: SecCrypto
 ms.assetid: 833d8e36-af78-4daa-92c5-0cb37a31df2f

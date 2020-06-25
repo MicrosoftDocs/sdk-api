@@ -1,7 +1,8 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0015
 title: ADS_DN_WITH_BINARY (iads.h)
-description: Used with the ADSVALUE structure to contain a distinguished name attribute value that also contains binary data.helpviewer_keywords: ["*PADS_DN_WITH_BINARY","ADS_DN_WITH_BINARY","ADS_DN_WITH_BINARY structure [ADSI]","_ds_ads_dn_with_binary","adsi.ads__dn__with__binary","adsi.ads_dn_with_binary","iads/ADS_DN_WITH_BINARY"]
+description: Used with the ADSVALUE structure to contain a distinguished name attribute value that also contains binary data.
+helpviewer_keywords: ["*PADS_DN_WITH_BINARY","ADS_DN_WITH_BINARY","ADS_DN_WITH_BINARY structure [ADSI]","_ds_ads_dn_with_binary","adsi.ads__dn__with__binary","adsi.ads_dn_with_binary","iads/ADS_DN_WITH_BINARY"]
 old-location: adsi\ads_dn_with_binary.htm
 tech.root: adsi
 ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c

@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.GetDeviceCount
 title: IMDServiceProvider::GetDeviceCount (mswmdm.h)
-description: The GetDeviceCount method returns the number of installed physical or software devices that are currently attached and are known by the service provider.helpviewer_keywords: ["GetDeviceCount","GetDeviceCount method [windows Media Device Manager]","GetDeviceCount method [windows Media Device Manager]","IMDServiceProvider interface","IMDServiceProvider interface [windows Media Device Manager]","GetDeviceCount method","IMDServiceProvider.GetDeviceCount","IMDServiceProvider::GetDeviceCount","IMDServiceProviderGetDeviceCount","mswmdm/IMDServiceProvider::GetDeviceCount","wmdm.imdserviceprovider_getdevicecount"]
+description: The GetDeviceCount method returns the number of installed physical or software devices that are currently attached and are known by the service provider.
+helpviewer_keywords: ["GetDeviceCount","GetDeviceCount method [windows Media Device Manager]","GetDeviceCount method [windows Media Device Manager]","IMDServiceProvider interface","IMDServiceProvider interface [windows Media Device Manager]","GetDeviceCount method","IMDServiceProvider.GetDeviceCount","IMDServiceProvider::GetDeviceCount","IMDServiceProviderGetDeviceCount","mswmdm/IMDServiceProvider::GetDeviceCount","wmdm.imdserviceprovider_getdevicecount"]
 old-location: wmdm\imdserviceprovider_getdevicecount.htm
 tech.root: WMDM
 ms.assetid: 9cca4cb7-f569-452f-92dc-409b996ede17

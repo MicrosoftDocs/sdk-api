@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.SetHandlerClsid
 title: IDefaultFolderMenuInitialize::SetHandlerClsid (shobjidl_core.h)
-description: .helpviewer_keywords: ["IDefaultFolderMenuInitialize interface [Windows Shell]","SetHandlerClsid method","IDefaultFolderMenuInitialize.SetHandlerClsid","IDefaultFolderMenuInitialize::SetHandlerClsid","SetHandlerClsid","SetHandlerClsid method [Windows Shell]","SetHandlerClsid method [Windows Shell]","IDefaultFolderMenuInitialize interface","shell.IDefaultFolderMenuInitialize_SetHandlerClsid","shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid"]
+description: .
+helpviewer_keywords: ["IDefaultFolderMenuInitialize interface [Windows Shell]","SetHandlerClsid method","IDefaultFolderMenuInitialize.SetHandlerClsid","IDefaultFolderMenuInitialize::SetHandlerClsid","SetHandlerClsid","SetHandlerClsid method [Windows Shell]","SetHandlerClsid method [Windows Shell]","IDefaultFolderMenuInitialize interface","shell.IDefaultFolderMenuInitialize_SetHandlerClsid","shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid"]
 old-location: shell\IDefaultFolderMenuInitialize_SetHandlerClsid.htm
 tech.root: shell
 ms.assetid: 90D861DA-33B7-4054-888E-86B504B2C5D1

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IComponent.get_Type
 title: IComponent::get_Type (tuner.h)
-description: The get_Type method retrieves an IComponentType interface describing the general characteristics of the component.helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","get_Type method","IComponent.get_Type","IComponent::get_Type","IComponentget_Type","get_Type","get_Type method [Microsoft TV Technologies]","get_Type method [Microsoft TV Technologies]","IComponent interface","mstv.icomponent_get_type","tuner/IComponent::get_Type"]
+description: The get_Type method retrieves an IComponentType interface describing the general characteristics of the component.
+helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","get_Type method","IComponent.get_Type","IComponent::get_Type","IComponentget_Type","get_Type","get_Type method [Microsoft TV Technologies]","get_Type method [Microsoft TV Technologies]","IComponent interface","mstv.icomponent_get_type","tuner/IComponent::get_Type"]
 old-location: mstv\icomponent_get_type.htm
 tech.root: mstv
 ms.assetid: 19eb345f-24a2-4522-87cc-fc4953faf343

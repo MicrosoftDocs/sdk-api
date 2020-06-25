@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushCopyOfRetrievalFilter
 title: ID3D12InfoQueue::PushCopyOfRetrievalFilter (d3d12sdklayers.h)
-description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.helpviewer_keywords: ["ID3D12InfoQueue interface","PushCopyOfRetrievalFilter method","ID3D12InfoQueue.PushCopyOfRetrievalFilter","ID3D12InfoQueue::PushCopyOfRetrievalFilter","PushCopyOfRetrievalFilter","PushCopyOfRetrievalFilter method","PushCopyOfRetrievalFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PushCopyOfRetrievalFilter","direct3d12.id3d12infoqueue_pushcopyofretrievalfilter"]
+description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
+helpviewer_keywords: ["ID3D12InfoQueue interface","PushCopyOfRetrievalFilter method","ID3D12InfoQueue.PushCopyOfRetrievalFilter","ID3D12InfoQueue::PushCopyOfRetrievalFilter","PushCopyOfRetrievalFilter","PushCopyOfRetrievalFilter method","PushCopyOfRetrievalFilter method","ID3D12InfoQueue interface","d3d12sdklayers/ID3D12InfoQueue::PushCopyOfRetrievalFilter","direct3d12.id3d12infoqueue_pushcopyofretrievalfilter"]
 old-location: direct3d12\id3d12infoqueue_pushcopyofretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: A6F73BBC-760A-4CF9-AF81-B4499C4B081E

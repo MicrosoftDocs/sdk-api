@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.InvalidateEffectInputRectangle
 title: ID2D1DeviceContext::InvalidateEffectInputRectangle (d2d1_1.h)
-description: This indicates that a portion of an effect's input is invalid. This method can be called many times.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","InvalidateEffectInputRectangle method","ID2D1DeviceContext.InvalidateEffectInputRectangle","ID2D1DeviceContext::InvalidateEffectInputRectangle","InvalidateEffectInputRectangle","InvalidateEffectInputRectangle method [Direct2D]","InvalidateEffectInputRectangle method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::InvalidateEffectInputRectangle","direct2d.id2d1devicecontext_invalidateeffectinputrectangle"]
+description: This indicates that a portion of an effect's input is invalid. This method can be called many times.
+helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","InvalidateEffectInputRectangle method","ID2D1DeviceContext.InvalidateEffectInputRectangle","ID2D1DeviceContext::InvalidateEffectInputRectangle","InvalidateEffectInputRectangle","InvalidateEffectInputRectangle method [Direct2D]","InvalidateEffectInputRectangle method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::InvalidateEffectInputRectangle","direct2d.id2d1devicecontext_invalidateeffectinputrectangle"]
 old-location: direct2d\id2d1devicecontext_invalidateeffectinputrectangle.htm
 tech.root: Direct2D
 ms.assetid: 3EB22E7B-69B4-4936-B8ED-093EA1EA1759

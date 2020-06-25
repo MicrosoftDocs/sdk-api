@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteMessageStart
 title: WsWriteMessageStart function (webservices.h)
-description: Write out all the headers of the message to the channel, and prepare to write the body elements.helpviewer_keywords: ["WsWriteMessageStart","WsWriteMessageStart function [Web Services for Windows]","webservices/WsWriteMessageStart","wsw.wswritemessagestart"]
+description: Write out all the headers of the message to the channel, and prepare to write the body elements.
+helpviewer_keywords: ["WsWriteMessageStart","WsWriteMessageStart function [Web Services for Windows]","webservices/WsWriteMessageStart","wsw.wswritemessagestart"]
 old-location: wsw\wswritemessagestart.htm
 tech.root: wsw
 ms.assetid: 43cc43a5-7853-4170-911d-e514ac722da5

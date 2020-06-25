@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IDiscMaster2
 title: IDiscMaster2 (imapi2.h)
-description: Use this interface to enumerate the CD and DVD devices installed on the computer.helpviewer_keywords: ["IDiscMaster2","IDiscMaster2 interface [IMAPI]","IDiscMaster2 interface [IMAPI]","described","imapi.idiscmaster2","imapi2/IDiscMaster2"]
+description: Use this interface to enumerate the CD and DVD devices installed on the computer.
+helpviewer_keywords: ["IDiscMaster2","IDiscMaster2 interface [IMAPI]","IDiscMaster2 interface [IMAPI]","described","imapi.idiscmaster2","imapi2/IDiscMaster2"]
 old-location: imapi\idiscmaster2.htm
 tech.root: imapi
 ms.assetid: cdca44d4-6ab5-4c2f-91ba-bef79b1d457e

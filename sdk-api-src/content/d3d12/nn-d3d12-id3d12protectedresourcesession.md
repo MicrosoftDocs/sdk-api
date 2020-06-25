@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedResourceSession
 title: ID3D12ProtectedResourceSession (d3d12.h)
-description: Monitors the validity of a protected resource session.helpviewer_keywords: ["ID3D12ProtectedResourceSession","ID3D12ProtectedResourceSession interface","ID3D12ProtectedResourceSession interface","described","d3d12/ID3D12ProtectedResourceSession","direct3d12.id3d12protectedresourcesession"]
+description: Monitors the validity of a protected resource session.
+helpviewer_keywords: ["ID3D12ProtectedResourceSession","ID3D12ProtectedResourceSession interface","ID3D12ProtectedResourceSession interface","described","d3d12/ID3D12ProtectedResourceSession","direct3d12.id3d12protectedresourcesession"]
 old-location: direct3d12\id3d12protectedresourcesession.htm
 tech.root: direct3d12
 ms.assetid: 9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD

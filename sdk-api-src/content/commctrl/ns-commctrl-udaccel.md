@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl._UDACCEL
 title: UDACCEL (commctrl.h)
-description: Contains acceleration information for an up-down control.helpviewer_keywords: ["*LPUDACCEL","LPUDACCEL","LPUDACCEL structure pointer [Windows Controls]","UDACCEL","UDACCEL structure [Windows Controls]","_win32_UDACCEL","_win32_UDACCEL_cpp","commctrl/LPUDACCEL","commctrl/UDACCEL","controls.UDACCEL","controls._win32_UDACCEL"]
+description: Contains acceleration information for an up-down control.
+helpviewer_keywords: ["*LPUDACCEL","LPUDACCEL","LPUDACCEL structure pointer [Windows Controls]","UDACCEL","UDACCEL structure [Windows Controls]","_win32_UDACCEL","_win32_UDACCEL_cpp","commctrl/LPUDACCEL","commctrl/UDACCEL","controls.UDACCEL","controls._win32_UDACCEL"]
 old-location: controls\UDACCEL.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\udaccel.htm

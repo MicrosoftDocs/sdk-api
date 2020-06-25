@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallExA
 title: SetupDiGetActualSectionToInstallExA function (setupapi.h)
-description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.helpviewer_keywords: ["SetupDiGetActualSectionToInstallEx","SetupDiGetActualSectionToInstallEx function [Device and Driver Installation]","SetupDiGetActualSectionToInstallExA","SetupDiGetActualSectionToInstallExW","devinst.setupdigetactualsectiontoinstallex","di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml","setupapi/SetupDiGetActualSectionToInstallEx"]
+description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.
+helpviewer_keywords: ["SetupDiGetActualSectionToInstallEx","SetupDiGetActualSectionToInstallEx function [Device and Driver Installation]","SetupDiGetActualSectionToInstallExA","SetupDiGetActualSectionToInstallExW","devinst.setupdigetactualsectiontoinstallex","di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml","setupapi/SetupDiGetActualSectionToInstallEx"]
 old-location: devinst\setupdigetactualsectiontoinstallex.htm
 tech.root: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
@@ -209,6 +210,10 @@ If the function finds a match for the name, operating system, and processor arch
 </ul>
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetActualSectionToInstallEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

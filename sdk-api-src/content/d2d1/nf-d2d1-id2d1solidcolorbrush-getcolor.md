@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1SolidColorBrush.GetColor
 title: ID2D1SolidColorBrush::GetColor (d2d1.h)
-description: Retrieves the color of the solid color brush.helpviewer_keywords: ["GetColor","GetColor method [Direct2D]","GetColor method [Direct2D]","ID2D1SolidColorBrush interface","ID2D1SolidColorBrush interface [Direct2D]","GetColor method","ID2D1SolidColorBrush.GetColor","ID2D1SolidColorBrush::GetColor","d2d1/ID2D1SolidColorBrush::GetColor","direct2d.ID2D1SolidColorBrush_GetColor"]
+description: Retrieves the color of the solid color brush.
+helpviewer_keywords: ["GetColor","GetColor method [Direct2D]","GetColor method [Direct2D]","ID2D1SolidColorBrush interface","ID2D1SolidColorBrush interface [Direct2D]","GetColor method","ID2D1SolidColorBrush.GetColor","ID2D1SolidColorBrush::GetColor","d2d1/ID2D1SolidColorBrush::GetColor","direct2d.ID2D1SolidColorBrush_GetColor"]
 old-location: direct2d\ID2D1SolidColorBrush_GetColor.htm
 tech.root: Direct2D
 ms.assetid: 25eac791-9402-4202-8e00-936d355d8d2b

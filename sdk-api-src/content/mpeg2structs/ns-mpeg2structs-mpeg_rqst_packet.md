@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0014
 title: MPEG_RQST_PACKET (mpeg2structs.h)
-description: The MPEG_RQST_PACKET structure defines a buffer to receive MPEG-2 section data.helpviewer_keywords: ["*PMPEG_RQST_PACKET","MPEG_RQST_PACKET","MPEG_RQST_PACKET structure [Microsoft TV Technologies]","PMPEG_RQST_PACKET","PMPEG_RQST_PACKET structure pointer [Microsoft TV Technologies]","mpeg2structs/MPEG_RQST_PACKET","mpeg2structs/PMPEG_RQST_PACKET","mstv.mpeg_rqst_packet"]
+description: The MPEG_RQST_PACKET structure defines a buffer to receive MPEG-2 section data.
+helpviewer_keywords: ["*PMPEG_RQST_PACKET","MPEG_RQST_PACKET","MPEG_RQST_PACKET structure [Microsoft TV Technologies]","PMPEG_RQST_PACKET","PMPEG_RQST_PACKET structure pointer [Microsoft TV Technologies]","mpeg2structs/MPEG_RQST_PACKET","mpeg2structs/PMPEG_RQST_PACKET","mstv.mpeg_rqst_packet"]
 old-location: mstv\mpeg_rqst_packet.htm
 tech.root: mstv
 ms.assetid: b7777633-66c3-44c2-9cdb-14c540555a43

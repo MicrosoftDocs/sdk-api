@@ -1,7 +1,8 @@
 ---
 UID: NS:swdevicedef._SW_DEVICE_CREATE_INFO
 title: SW_DEVICE_CREATE_INFO (swdevicedef.h)
-description: Describes info that PnP uses to create the software device.helpviewer_keywords: ["*PSW_DEVICE_CREATE_INFO","PSW_DEVICE_CREATE_INFO","PSW_DEVICE_CREATE_INFO structure pointer","SWDeviceCapabilitiesDriverRequired","SWDeviceCapabilitiesNoDisplayInUI","SWDeviceCapabilitiesNone","SWDeviceCapabilitiesRemovable","SWDeviceCapabilitiesSilentInstall","SW_DEVICE_CREATE_INFO","SW_DEVICE_CREATE_INFO structure","swdevice.sw_device_create_info","swdevicedef/PSW_DEVICE_CREATE_INFO","swdevicedef/SW_DEVICE_CREATE_INFO"]
+description: Describes info that PnP uses to create the software device.
+helpviewer_keywords: ["*PSW_DEVICE_CREATE_INFO","PSW_DEVICE_CREATE_INFO","PSW_DEVICE_CREATE_INFO structure pointer","SWDeviceCapabilitiesDriverRequired","SWDeviceCapabilitiesNoDisplayInUI","SWDeviceCapabilitiesNone","SWDeviceCapabilitiesRemovable","SWDeviceCapabilitiesSilentInstall","SW_DEVICE_CREATE_INFO","SW_DEVICE_CREATE_INFO structure","swdevice.sw_device_create_info","swdevicedef/PSW_DEVICE_CREATE_INFO","swdevicedef/SW_DEVICE_CREATE_INFO"]
 old-location: swdevice\sw_device_create_info.htm
 tech.root: swdevice
 ms.assetid: 9519FD17-AB43-4C9E-BE77-9DFAC3263447

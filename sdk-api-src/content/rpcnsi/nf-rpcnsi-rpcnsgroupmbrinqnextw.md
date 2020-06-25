@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqNextW
 title: RpcNsGroupMbrInqNextW function (rpcnsi.h)
-description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.helpviewer_keywords: ["RpcNsGroupMbrInqNext","RpcNsGroupMbrInqNext function [RPC]","RpcNsGroupMbrInqNextA","RpcNsGroupMbrInqNextW","_rpc_rpcnsgroupmbrinqnext","rpc.rpcnsgroupmbrinqnext","rpcnsi/RpcNsGroupMbrInqNext","rpcnsi/RpcNsGroupMbrInqNextA","rpcnsi/RpcNsGroupMbrInqNextW"]
+description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
+helpviewer_keywords: ["RpcNsGroupMbrInqNext","RpcNsGroupMbrInqNext function [RPC]","RpcNsGroupMbrInqNextA","RpcNsGroupMbrInqNextW","_rpc_rpcnsgroupmbrinqnext","rpc.rpcnsgroupmbrinqnext","rpcnsi/RpcNsGroupMbrInqNext","rpcnsi/RpcNsGroupMbrInqNextA","rpcnsi/RpcNsGroupMbrInqNextW"]
 old-location: rpc\rpcnsgroupmbrinqnext.htm
 tech.root: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
@@ -160,6 +161,10 @@ The order in which group members are returned can be different for each viewing 
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsGroupMbrInqNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

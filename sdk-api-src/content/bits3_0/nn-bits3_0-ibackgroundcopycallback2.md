@@ -1,7 +1,8 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyCallback2
 title: IBackgroundCopyCallback2 (bits3_0.h)
-description: Implement this interface to receive notification that a file has completed downloading.helpviewer_keywords: ["IBackgroundCopyCallback2","IBackgroundCopyCallback2 interface [BITS]","IBackgroundCopyCallback2 interface [BITS]","described","bits.ibackgroundcopycallback2","bits3_0/IBackgroundCopyCallback2"]
+description: Implement this interface to receive notification that a file has completed downloading.
+helpviewer_keywords: ["IBackgroundCopyCallback2","IBackgroundCopyCallback2 interface [BITS]","IBackgroundCopyCallback2 interface [BITS]","described","bits.ibackgroundcopycallback2","bits3_0/IBackgroundCopyCallback2"]
 old-location: bits\ibackgroundcopycallback2.htm
 tech.root: Bits
 ms.assetid: 9bbc323c-0caf-46a9-ba25-e72a2c6ae363

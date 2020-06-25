@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_ASYNC_FUNCTION
 title: WS_ASYNC_FUNCTION (webservices.h)
-description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.helpviewer_keywords: ["WS_ASYNC_FUNCTION","WS_ASYNC_FUNCTION callback","WS_ASYNC_FUNCTION callback function [Web Services for Windows]","webservices/WS_ASYNC_FUNCTION","wsw.ws_async_function"]
+description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
+helpviewer_keywords: ["WS_ASYNC_FUNCTION","WS_ASYNC_FUNCTION callback","WS_ASYNC_FUNCTION callback function [Web Services for Windows]","webservices/WS_ASYNC_FUNCTION","wsw.ws_async_function"]
 old-location: wsw\ws_async_function.htm
 tech.root: wsw
 ms.assetid: 5645424b-4ca4-4f5d-b58d-16f3a7cceb6b

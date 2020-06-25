@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgidebug.DXGI_INFO_QUEUE_MESSAGE
 title: DXGI_INFO_QUEUE_MESSAGE (dxgidebug.h)
-description: Describes a debug message in the information queue.helpviewer_keywords: ["DXGI_INFO_QUEUE_MESSAGE","DXGI_INFO_QUEUE_MESSAGE structure [DXGI]","direct3ddxgi.dxgi_info_queue_message","dxgidebug/DXGI_INFO_QUEUE_MESSAGE"]
+description: Describes a debug message in the information queue.
+helpviewer_keywords: ["DXGI_INFO_QUEUE_MESSAGE","DXGI_INFO_QUEUE_MESSAGE structure [DXGI]","direct3ddxgi.dxgi_info_queue_message","dxgidebug/DXGI_INFO_QUEUE_MESSAGE"]
 old-location: direct3ddxgi\dxgi_info_queue_message.htm
 tech.root: direct3ddxgi
 ms.assetid: F0FF1DC6-8E62-4D35-BCB7-EC3BB314F033

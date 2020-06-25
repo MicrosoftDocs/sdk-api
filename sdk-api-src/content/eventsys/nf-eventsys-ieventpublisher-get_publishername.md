@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_PublisherName
 title: IEventPublisher::get_PublisherName (eventsys.h)
-description: The display name for the event publisher.helpviewer_keywords: ["IEventPublisher interface [COM]","PublisherName property","IEventPublisher.PublisherName","IEventPublisher.get_PublisherName","IEventPublisher::PublisherName","IEventPublisher::get_PublisherName","IEventPublisher::put_PublisherName","PublisherName property [COM]","PublisherName property [COM]","IEventPublisher interface","_com_ieventpublisher_publishername","com.ieventpublisher_publishername","eventsys/IEventPublisher::PublisherName","eventsys/IEventPublisher::get_PublisherName","eventsys/IEventPublisher::put_PublisherName","get_PublisherName"]
+description: The display name for the event publisher.
+helpviewer_keywords: ["IEventPublisher interface [COM]","PublisherName property","IEventPublisher.PublisherName","IEventPublisher.get_PublisherName","IEventPublisher::PublisherName","IEventPublisher::get_PublisherName","IEventPublisher::put_PublisherName","PublisherName property [COM]","PublisherName property [COM]","IEventPublisher interface","_com_ieventpublisher_publishername","com.ieventpublisher_publishername","eventsys/IEventPublisher::PublisherName","eventsys/IEventPublisher::get_PublisherName","eventsys/IEventPublisher::put_PublisherName","get_PublisherName"]
 old-location: com\ieventpublisher_publishername.htm
 tech.root: com
 ms.assetid: 223c57b9-2d70-476b-9f97-0f4d73c36dce

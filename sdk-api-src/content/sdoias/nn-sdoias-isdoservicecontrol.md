@@ -1,7 +1,8 @@
 ---
 UID: NN:sdoias.ISdoServiceControl
 title: ISdoServiceControl (sdoias.h)
-description: Use the ISdoServiceControl interface to control the service being administered on the SDO computer.helpviewer_keywords: ["ISdoServiceControl","ISdoServiceControl interface [Network Policy Server]","ISdoServiceControl interface [Network Policy Server]","described","_sdo_isdoservicecontrol","nps.SDO_isdoservicecontrol","sdo.isdoservicecontrol","sdoias/ISdoServiceControl"]
+description: Use the ISdoServiceControl interface to control the service being administered on the SDO computer.
+helpviewer_keywords: ["ISdoServiceControl","ISdoServiceControl interface [Network Policy Server]","ISdoServiceControl interface [Network Policy Server]","described","_sdo_isdoservicecontrol","nps.SDO_isdoservicecontrol","sdo.isdoservicecontrol","sdoias/ISdoServiceControl"]
 old-location: nps\SDO_isdoservicecontrol.htm
 tech.root: Nps
 ms.assetid: c901ac9a-524a-498d-8b72-9afb26cf2c58

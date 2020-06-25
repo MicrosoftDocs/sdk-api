@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoollegacyapiset.CreateTimerQueueTimer
 title: CreateTimerQueueTimer function (threadpoollegacyapiset.h)
-description: Creates a timer-queue timer. This timer expires at the specified due time, then after every specified period. When the timer expires, the callback function is called.helpviewer_keywords: ["CreateTimerQueueTimer","CreateTimerQueueTimer function","WT_EXECUTEDEFAULT","WT_EXECUTEINIOTHREAD","WT_EXECUTEINPERSISTENTTHREAD","WT_EXECUTEINTIMERTHREAD","WT_EXECUTELONGFUNCTION","WT_EXECUTEONLYONCE","WT_TRANSFER_IMPERSONATION","_win32_createtimerqueuetimer","base.createtimerqueuetimer","threadpoollegacyapiset/CreateTimerQueueTimer","winbase/CreateTimerQueueTimer"]
+description: Creates a timer-queue timer. This timer expires at the specified due time, then after every specified period. When the timer expires, the callback function is called.
+helpviewer_keywords: ["CreateTimerQueueTimer","CreateTimerQueueTimer function","WT_EXECUTEDEFAULT","WT_EXECUTEINIOTHREAD","WT_EXECUTEINPERSISTENTTHREAD","WT_EXECUTEINTIMERTHREAD","WT_EXECUTELONGFUNCTION","WT_EXECUTEONLYONCE","WT_TRANSFER_IMPERSONATION","_win32_createtimerqueuetimer","base.createtimerqueuetimer","threadpoollegacyapiset/CreateTimerQueueTimer","winbase/CreateTimerQueueTimer"]
 old-location: base\createtimerqueuetimer.htm
 tech.root: Sync
 ms.assetid: dfcbea5c-e2b7-40e4-b1a2-3cc7446d8844

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetRate
 title: IMediaSeeking::GetRate (strmif.h)
-description: The GetRate method retrieves the playback rate.helpviewer_keywords: ["GetRate","GetRate method [DirectShow]","GetRate method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetRate method","IMediaSeeking.GetRate","IMediaSeeking::GetRate","IMediaSeekingGetRate","dshow.imediaseeking_getrate","strmif/IMediaSeeking::GetRate"]
+description: The GetRate method retrieves the playback rate.
+helpviewer_keywords: ["GetRate","GetRate method [DirectShow]","GetRate method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetRate method","IMediaSeeking.GetRate","IMediaSeeking::GetRate","IMediaSeekingGetRate","dshow.imediaseeking_getrate","strmif/IMediaSeeking::GetRate"]
 old-location: dshow\imediaseeking_getrate.htm
 tech.root: DirectShow
 ms.assetid: 419b223d-95b9-4df6-8b65-56846faa6afe

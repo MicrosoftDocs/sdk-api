@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastGeneratedInDirectory
 title: IFsrmReportJob::get_LastGeneratedInDirectory (fsrmreports.h)
-description: Retrieves the local directory path where the reports were stored the last time the reports were run.helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","LastGeneratedInDirectory property","IFsrmReportJob.LastGeneratedInDirectory","IFsrmReportJob.get_LastGeneratedInDirectory","IFsrmReportJob::LastGeneratedInDirectory","IFsrmReportJob::get_LastGeneratedInDirectory","LastGeneratedInDirectory property [File Server Resource Manager]","LastGeneratedInDirectory property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_lastgeneratedindirectory","fsrm.ifsrmreportjob_lastgeneratedindirectory","fsrmreports/IFsrmReportJob::LastGeneratedInDirectory","fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory","get_LastGeneratedInDirectory"]
+description: Retrieves the local directory path where the reports were stored the last time the reports were run.
+helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","LastGeneratedInDirectory property","IFsrmReportJob.LastGeneratedInDirectory","IFsrmReportJob.get_LastGeneratedInDirectory","IFsrmReportJob::LastGeneratedInDirectory","IFsrmReportJob::get_LastGeneratedInDirectory","LastGeneratedInDirectory property [File Server Resource Manager]","LastGeneratedInDirectory property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_lastgeneratedindirectory","fsrm.ifsrmreportjob_lastgeneratedindirectory","fsrmreports/IFsrmReportJob::LastGeneratedInDirectory","fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory","get_LastGeneratedInDirectory"]
 old-location: fsrm\ifsrmreportjob_lastgeneratedindirectory.htm
 tech.root: fsrm
 ms.assetid: b72ce871-41e0-4321-8c9c-0ae77a02c7ff

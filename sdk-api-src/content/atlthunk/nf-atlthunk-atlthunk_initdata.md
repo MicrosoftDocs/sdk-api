@@ -1,7 +1,8 @@
 ---
 UID: NF:atlthunk.AtlThunk_InitData
 title: AtlThunk_InitData function (atlthunk.h)
-description: Initializes an ATL thunk.helpviewer_keywords: ["AtlThunk_InitData","AtlThunk_InitData function","atlthunk/AtlThunk_InitData","base.atlthunk_initdata"]
+description: Initializes an ATL thunk.
+helpviewer_keywords: ["AtlThunk_InitData","AtlThunk_InitData function","atlthunk/AtlThunk_InitData","base.atlthunk_initdata"]
 old-location: base\atlthunk_initdata.htm
 tech.root: Memory
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9

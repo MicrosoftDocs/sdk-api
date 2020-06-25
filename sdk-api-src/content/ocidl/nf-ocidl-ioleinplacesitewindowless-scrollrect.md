@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ScrollRect
 title: IOleInPlaceSiteWindowless::ScrollRect (ocidl.h)
-description: Enables an object to scroll an area within its in-place active image on the screen.helpviewer_keywords: ["IOleInPlaceSiteWindowless interface [COM]","ScrollRect method","IOleInPlaceSiteWindowless.ScrollRect","IOleInPlaceSiteWindowless::ScrollRect","ScrollRect","ScrollRect method [COM]","ScrollRect method [COM]","IOleInPlaceSiteWindowless interface","_ole_ioleinplacesitewindowless_scrollrect","com.ioleinplacesitewindowless_scrollrect","ocidl/IOleInPlaceSiteWindowless::ScrollRect"]
+description: Enables an object to scroll an area within its in-place active image on the screen.
+helpviewer_keywords: ["IOleInPlaceSiteWindowless interface [COM]","ScrollRect method","IOleInPlaceSiteWindowless.ScrollRect","IOleInPlaceSiteWindowless::ScrollRect","ScrollRect","ScrollRect method [COM]","ScrollRect method [COM]","IOleInPlaceSiteWindowless interface","_ole_ioleinplacesitewindowless_scrollrect","com.ioleinplacesitewindowless_scrollrect","ocidl/IOleInPlaceSiteWindowless::ScrollRect"]
 old-location: com\ioleinplacesitewindowless_scrollrect.htm
 tech.root: com
 ms.assetid: 1eeb1aee-8cd4-4d27-8b6f-f76305bbe69f

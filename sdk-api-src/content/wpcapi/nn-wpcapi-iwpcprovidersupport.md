@@ -1,7 +1,8 @@
 ---
 UID: NN:wpcapi.IWPCProviderSupport
 title: IWPCProviderSupport (wpcapi.h)
-description: Exposes methods that allow third-party providers to query the currently enabled provider.helpviewer_keywords: ["IWPCProviderSupport","IWPCProviderSupport interface","IWPCProviderSupport interface","described","parcon.iwpcprovidersupport","wpcapi/IWPCProviderSupport"]
+description: Exposes methods that allow third-party providers to query the currently enabled provider.
+helpviewer_keywords: ["IWPCProviderSupport","IWPCProviderSupport interface","IWPCProviderSupport interface","described","parcon.iwpcprovidersupport","wpcapi/IWPCProviderSupport"]
 old-location: parcon\iwpcprovidersupport.htm
 tech.root: parcon
 ms.assetid: 5c2a793b-d136-4d03-9e46-b24009af2c7d

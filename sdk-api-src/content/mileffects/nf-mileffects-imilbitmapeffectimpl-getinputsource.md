@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSource
 title: IMILBitmapEffectImpl::GetInputSource (mileffects.h)
-description: Retrieves the input IWICBitmapSource Interface.helpviewer_keywords: ["GetInputSource","GetInputSource method [WPF Bitmap Effects]","GetInputSource method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","GetInputSource method","IMILBitmapEffectImpl.GetInputSource","IMILBitmapEffectImpl::GetInputSource","_wibe_imilbitmapeffectimpl_getinputsource","mileffects/IMILBitmapEffectImpl::GetInputSource","wibe._wibe_imilbitmapeffectimpl_getinputsource"]
+description: Retrieves the input IWICBitmapSource Interface.
+helpviewer_keywords: ["GetInputSource","GetInputSource method [WPF Bitmap Effects]","GetInputSource method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","GetInputSource method","IMILBitmapEffectImpl.GetInputSource","IMILBitmapEffectImpl::GetInputSource","_wibe_imilbitmapeffectimpl_getinputsource","mileffects/IMILBitmapEffectImpl::GetInputSource","wibe._wibe_imilbitmapeffectimpl_getinputsource"]
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsource.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsource.htm

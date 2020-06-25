@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_get_dnW
 title: ldap_get_dnW function (winldap.h)
-description: The ldap_get_dn function retrieves the distinguished name for a given entry.helpviewer_keywords: ["_ldap_ldap_get_dn","ldap.ldap__get__dn","ldap.ldap_get_dn","ldap_get_dn","ldap_get_dn function [LDAP]","ldap_get_dnA","ldap_get_dnW","winldap/ldap_get_dn","winldap/ldap_get_dnA","winldap/ldap_get_dnW"]
+description: The ldap_get_dn function retrieves the distinguished name for a given entry.
+helpviewer_keywords: ["_ldap_ldap_get_dn","ldap.ldap__get__dn","ldap.ldap_get_dn","ldap_get_dn","ldap_get_dn function [LDAP]","ldap_get_dnA","ldap_get_dnW","winldap/ldap_get_dn","winldap/ldap_get_dnA","winldap/ldap_get_dnW"]
 old-location: ldap\ldap_get_dn.htm
 tech.root: ldap
 ms.assetid: 00484fe7-65d2-4300-ab5c-0a69a25e65e6
@@ -92,6 +93,10 @@ The <b>ldap_get_dn</b> function retrieves the distinguished name for an entry th
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_get_dn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

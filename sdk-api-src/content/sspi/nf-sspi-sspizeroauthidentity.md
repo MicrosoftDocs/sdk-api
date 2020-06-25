@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.SspiZeroAuthIdentity
 title: SspiZeroAuthIdentity function (sspi.h)
-description: Fills the block of memory associated with the specified identity structure with zeros.helpviewer_keywords: ["SspiZeroAuthIdentity","SspiZeroAuthIdentity function [Security]","security.sspizeroauthidentity","sspi/SspiZeroAuthIdentity"]
+description: Fills the block of memory associated with the specified identity structure with zeros.
+helpviewer_keywords: ["SspiZeroAuthIdentity","SspiZeroAuthIdentity function [Security]","security.sspizeroauthidentity","sspi/SspiZeroAuthIdentity"]
 old-location: security\sspizeroauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d

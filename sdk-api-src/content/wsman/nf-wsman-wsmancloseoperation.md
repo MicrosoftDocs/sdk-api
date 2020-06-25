@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManCloseOperation
 title: WSManCloseOperation function (wsman.h)
-description: Cancels or closes an asynchronous operation.helpviewer_keywords: ["WSManCloseOperation","WSManCloseOperation function [Windows Remote Management]","winrm.wsmancloseoperation","wsman/WSManCloseOperation"]
+description: Cancels or closes an asynchronous operation.
+helpviewer_keywords: ["WSManCloseOperation","WSManCloseOperation function [Windows Remote Management]","winrm.wsmancloseoperation","wsman/WSManCloseOperation"]
 old-location: winrm\wsmancloseoperation.htm
 tech.root: winrm
 ms.assetid: 4fd51026-6a48-42ef-a245-7593a615c103

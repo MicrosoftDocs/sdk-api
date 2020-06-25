@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetFileMUIInfo
 title: GetFileMUIInfo function (winnls.h)
-description: Retrieves resource-related information about a file.helpviewer_keywords: ["GetFileMUIInfo","GetFileMUIInfo function [Internationalization for Windows Applications]","MUI_QUERY_CHECKSUM","MUI_QUERY_LANGUAGE_NAME","MUI_QUERY_RESOURCE_TYPES","MUI_QUERY_TYPE","_win32_GetFileMUIInfo","intl.getfilemuiinfo","winnls/GetFileMUIInfo"]
+description: Retrieves resource-related information about a file.
+helpviewer_keywords: ["GetFileMUIInfo","GetFileMUIInfo function [Internationalization for Windows Applications]","MUI_QUERY_CHECKSUM","MUI_QUERY_LANGUAGE_NAME","MUI_QUERY_RESOURCE_TYPES","MUI_QUERY_TYPE","_win32_GetFileMUIInfo","intl.getfilemuiinfo","winnls/GetFileMUIInfo"]
 old-location: intl\getfilemuiinfo.htm
 tech.root: Intl
 ms.assetid: df1eee13-012a-47e6-a6de-8ddb8ecc6036

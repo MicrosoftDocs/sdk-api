@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetSyncBatchParameters
 title: IKnowledgeSyncProvider::GetSyncBatchParameters (winsync.h)
-description: Gets the requested number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.helpviewer_keywords: ["GetSyncBatchParameters","GetSyncBatchParameters method [Windows Sync]","GetSyncBatchParameters method [Windows Sync]","IKnowledgeSyncProvider interface","IKnowledgeSyncProvider interface [Windows Sync]","GetSyncBatchParameters method","IKnowledgeSyncProvider.GetSyncBatchParameters","IKnowledgeSyncProvider::GetSyncBatchParameters","winsync.iknowledgesyncprovider_getsyncbatchparameters","winsync/IKnowledgeSyncProvider::GetSyncBatchParameters"]
+description: Gets the requested number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.
+helpviewer_keywords: ["GetSyncBatchParameters","GetSyncBatchParameters method [Windows Sync]","GetSyncBatchParameters method [Windows Sync]","IKnowledgeSyncProvider interface","IKnowledgeSyncProvider interface [Windows Sync]","GetSyncBatchParameters method","IKnowledgeSyncProvider.GetSyncBatchParameters","IKnowledgeSyncProvider::GetSyncBatchParameters","winsync.iknowledgesyncprovider_getsyncbatchparameters","winsync/IKnowledgeSyncProvider::GetSyncBatchParameters"]
 old-location: winsync\iknowledgesyncprovider_getsyncbatchparameters.htm
 tech.root: winsync
 ms.assetid: 25ebd3f7-8b62-44f3-83cd-c67c5e4f6617

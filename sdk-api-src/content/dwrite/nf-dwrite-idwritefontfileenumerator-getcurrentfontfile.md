@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFileEnumerator.GetCurrentFontFile
 title: IDWriteFontFileEnumerator::GetCurrentFontFile (dwrite.h)
-description: Gets a reference to the current font file.helpviewer_keywords: ["GetCurrentFontFile","GetCurrentFontFile method [Direct Write]","GetCurrentFontFile method [Direct Write]","IDWriteFontFileEnumerator interface","IDWriteFontFileEnumerator interface [Direct Write]","GetCurrentFontFile method","IDWriteFontFileEnumerator.GetCurrentFontFile","IDWriteFontFileEnumerator::GetCurrentFontFile","directwrite.IDWriteFontFileEnumerator_GetCurrentFontFile","dwrite/IDWriteFontFileEnumerator::GetCurrentFontFile"]
+description: Gets a reference to the current font file.
+helpviewer_keywords: ["GetCurrentFontFile","GetCurrentFontFile method [Direct Write]","GetCurrentFontFile method [Direct Write]","IDWriteFontFileEnumerator interface","IDWriteFontFileEnumerator interface [Direct Write]","GetCurrentFontFile method","IDWriteFontFileEnumerator.GetCurrentFontFile","IDWriteFontFileEnumerator::GetCurrentFontFile","directwrite.IDWriteFontFileEnumerator_GetCurrentFontFile","dwrite/IDWriteFontFileEnumerator::GetCurrentFontFile"]
 old-location: directwrite\IDWriteFontFileEnumerator_GetCurrentFontFile.htm
 tech.root: DirectWrite
 ms.assetid: e541ab2b-2dc8-45df-9d72-8d55141ef142

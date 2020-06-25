@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.SetId
 title: ID2D1SvgPaint::SetId (d2d1svg.h)
-description: Sets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.helpviewer_keywords: ["ID2D1SvgPaint interface [Direct2D]","SetId method","ID2D1SvgPaint.SetId","ID2D1SvgPaint::SetId","SetId","SetId method [Direct2D]","SetId method [Direct2D]","ID2D1SvgPaint interface","d2d1svg/ID2D1SvgPaint::SetId","direct2d.id2d1svgpaint_setid"]
+description: Sets the element id which acts as the paint server. This id is used if the paint type is D2D1_SVG_PAINT_TYPE_URI.
+helpviewer_keywords: ["ID2D1SvgPaint interface [Direct2D]","SetId method","ID2D1SvgPaint.SetId","ID2D1SvgPaint::SetId","SetId","SetId method [Direct2D]","SetId method [Direct2D]","ID2D1SvgPaint interface","d2d1svg/ID2D1SvgPaint::SetId","direct2d.id2d1svgpaint_setid"]
 old-location: direct2d\id2d1svgpaint_setid.htm
 tech.root: Direct2D
 ms.assetid: E9888C0D-6C71-4C41-ACD5-41BA8D6C04EE

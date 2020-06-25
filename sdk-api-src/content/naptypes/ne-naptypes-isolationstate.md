@@ -1,7 +1,8 @@
 ---
 UID: NE:naptypes.tagIsolationState
 title: IsolationState (naptypes.h)
-description: Describes the isolation state of a connection.helpviewer_keywords: ["IsolationState","IsolationState enumeration [NAP]","isolationStateInProbation","isolationStateNotRestricted","isolationStateRestrictedAccess","nap.isolationstate_enum","naptypes/IsolationState","naptypes/isolationStateInProbation","naptypes/isolationStateNotRestricted","naptypes/isolationStateRestrictedAccess"]
+description: Describes the isolation state of a connection.
+helpviewer_keywords: ["IsolationState","IsolationState enumeration [NAP]","isolationStateInProbation","isolationStateNotRestricted","isolationStateRestrictedAccess","nap.isolationstate_enum","naptypes/IsolationState","naptypes/isolationStateInProbation","naptypes/isolationStateNotRestricted","naptypes/isolationStateRestrictedAccess"]
 old-location: nap\isolationstate_enum.htm
 tech.root: NAP
 ms.assetid: 79f81e8e-a105-4cc9-b175-8a364648f3a6

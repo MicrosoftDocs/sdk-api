@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.QueryInitiatorAdapters
 title: IVdsServiceIscsi::QueryInitiatorAdapters (vds.h)
-description: Returns an object that enumerates the iSCSI initiator adapters of the initiator.helpviewer_keywords: ["IVdsServiceIscsi interface [VDS]","QueryInitiatorAdapters method","IVdsServiceIscsi.QueryInitiatorAdapters","IVdsServiceIscsi::QueryInitiatorAdapters","QueryInitiatorAdapters","QueryInitiatorAdapters method [VDS]","QueryInitiatorAdapters method [VDS]","IVdsServiceIscsi interface","base.ivdsserviceiscsi_queryinitiatoradapters","vds/IVdsServiceIscsi::QueryInitiatorAdapters"]
+description: Returns an object that enumerates the iSCSI initiator adapters of the initiator.
+helpviewer_keywords: ["IVdsServiceIscsi interface [VDS]","QueryInitiatorAdapters method","IVdsServiceIscsi.QueryInitiatorAdapters","IVdsServiceIscsi::QueryInitiatorAdapters","QueryInitiatorAdapters","QueryInitiatorAdapters method [VDS]","QueryInitiatorAdapters method [VDS]","IVdsServiceIscsi interface","base.ivdsserviceiscsi_queryinitiatoradapters","vds/IVdsServiceIscsi::QueryInitiatorAdapters"]
 old-location: base\ivdsserviceiscsi_queryinitiatoradapters.htm
 tech.root: VDS
 ms.assetid: 427d33e1-d2a5-46f3-a3be-d3589685f6af

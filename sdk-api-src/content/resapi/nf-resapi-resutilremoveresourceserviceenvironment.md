@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilRemoveResourceServiceEnvironment
 title: ResUtilRemoveResourceServiceEnvironment function (resapi.h)
-description: Removes the environment data from a service. This function must be called from a resource DLL. The PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT","PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster]","ResUtilRemoveResourceServiceEnvironment","ResUtilRemoveResourceServiceEnvironment function [Failover Cluster]","mscs.resutilremoveresourceserviceenvironment","resapi/PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT","resapi/ResUtilRemoveResourceServiceEnvironment"]
+description: Removes the environment data from a service. This function must be called from a resource DLL. The PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT","PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster]","ResUtilRemoveResourceServiceEnvironment","ResUtilRemoveResourceServiceEnvironment function [Failover Cluster]","mscs.resutilremoveresourceserviceenvironment","resapi/PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT","resapi/ResUtilRemoveResourceServiceEnvironment"]
 old-location: mscs\resutilremoveresourceserviceenvironment.htm
 tech.root: MsCS
 ms.assetid: e0e3ea2d-9cf2-40f6-a3a8-fdcacb63479c

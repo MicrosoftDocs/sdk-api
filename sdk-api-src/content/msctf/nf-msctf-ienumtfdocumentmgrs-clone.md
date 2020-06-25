@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Clone
 title: IEnumTfDocumentMgrs::Clone (msctf.h)
-description: IEnumTfDocumentMgrs::Clone methodhelpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfDocumentMgrs interface","IEnumTfDocumentMgrs interface [Text Services Framework]","Clone method","IEnumTfDocumentMgrs.Clone","IEnumTfDocumentMgrs::Clone","_tsf_ienumtfdocumentmgrs_clone_ref","msctf/IEnumTfDocumentMgrs::Clone","tsf.ienumtfdocumentmgrs_clone"]
+description: IEnumTfDocumentMgrs::Clone method
+helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfDocumentMgrs interface","IEnumTfDocumentMgrs interface [Text Services Framework]","Clone method","IEnumTfDocumentMgrs.Clone","IEnumTfDocumentMgrs::Clone","_tsf_ienumtfdocumentmgrs_clone_ref","msctf/IEnumTfDocumentMgrs::Clone","tsf.ienumtfdocumentmgrs_clone"]
 old-location: tsf\ienumtfdocumentmgrs_clone.htm
 tech.root: TSF
 ms.assetid: d7a6ff9c-327b-45bf-93d0-7bf08065ad9c

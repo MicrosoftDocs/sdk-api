@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_CadenceOn
 title: ITCustomTone::get_CadenceOn (tapi3if.h)
-description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.helpviewer_keywords: ["ITCustomTone interface [TAPI 2.2]","get_CadenceOn method","ITCustomTone.get_CadenceOn","ITCustomTone::get_CadenceOn","_tapi3_itcustomtone_get_cadenceon","get_CadenceOn","get_CadenceOn method [TAPI 2.2]","get_CadenceOn method [TAPI 2.2]","ITCustomTone interface","tapi3.itcustomtone_get_cadenceon","tapi3if/ITCustomTone::get_CadenceOn"]
+description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
+helpviewer_keywords: ["ITCustomTone interface [TAPI 2.2]","get_CadenceOn method","ITCustomTone.get_CadenceOn","ITCustomTone::get_CadenceOn","_tapi3_itcustomtone_get_cadenceon","get_CadenceOn","get_CadenceOn method [TAPI 2.2]","get_CadenceOn method [TAPI 2.2]","ITCustomTone interface","tapi3.itcustomtone_get_cadenceon","tapi3if/ITCustomTone::get_CadenceOn"]
 old-location: tapi3\itcustomtone_get_cadenceon.htm
 tech.root: Tapi
 ms.assetid: 2f3da359-69e1-40a3-bfd6-42ade8de2379

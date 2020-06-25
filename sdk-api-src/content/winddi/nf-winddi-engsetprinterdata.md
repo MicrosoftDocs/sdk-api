@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngSetPrinterData
 title: EngSetPrinterData function (winddi.h)
-description: The EngSetPrinterData function is obsolete in Windows 2000 and later. In earlier versions of Windows EngSetPrinterData sets the configuration data for the specified printer.helpviewer_keywords: ["EngSetPrinterData","EngSetPrinterData function [Display Devices]","display.engsetprinterdata","gdifncs_5d3c9c7e-f688-4361-8aee-545c7244921a.xml","winddi/EngSetPrinterData"]
+description: The EngSetPrinterData function is obsolete in Windows 2000 and later. In earlier versions of Windows EngSetPrinterData sets the configuration data for the specified printer.
+helpviewer_keywords: ["EngSetPrinterData","EngSetPrinterData function [Display Devices]","display.engsetprinterdata","gdifncs_5d3c9c7e-f688-4361-8aee-545c7244921a.xml","winddi/EngSetPrinterData"]
 old-location: display\engsetprinterdata.htm
 tech.root: display
 ms.assetid: 8e6ff116-8735-49b1-a67c-70f5d65efb0f

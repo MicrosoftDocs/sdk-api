@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.SendOpaqueCommand
 title: IWMDMStorage::SendOpaqueCommand (mswmdm.h)
-description: The SendOpaqueCommand method sends a command to the storage through Windows Media Device Manager, without processing it.helpviewer_keywords: ["IWMDMStorage interface [windows Media Device Manager]","SendOpaqueCommand method","IWMDMStorage.SendOpaqueCommand","IWMDMStorage::SendOpaqueCommand","IWMDMStorageSendOpaqueCommand","SendOpaqueCommand","SendOpaqueCommand method [windows Media Device Manager]","SendOpaqueCommand method [windows Media Device Manager]","IWMDMStorage interface","mswmdm/IWMDMStorage::SendOpaqueCommand","wmdm.iwmdmstorage_sendopaquecommand"]
+description: The SendOpaqueCommand method sends a command to the storage through Windows Media Device Manager, without processing it.
+helpviewer_keywords: ["IWMDMStorage interface [windows Media Device Manager]","SendOpaqueCommand method","IWMDMStorage.SendOpaqueCommand","IWMDMStorage::SendOpaqueCommand","IWMDMStorageSendOpaqueCommand","SendOpaqueCommand","SendOpaqueCommand method [windows Media Device Manager]","SendOpaqueCommand method [windows Media Device Manager]","IWMDMStorage interface","mswmdm/IWMDMStorage::SendOpaqueCommand","wmdm.iwmdmstorage_sendopaquecommand"]
 old-location: wmdm\iwmdmstorage_sendopaquecommand.htm
 tech.root: WMDM
 ms.assetid: a5e570ad-63d3-4c8f-8569-63aa3645f866

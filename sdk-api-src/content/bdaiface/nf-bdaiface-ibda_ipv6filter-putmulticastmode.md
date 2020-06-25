@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.PutMulticastMode
 title: IBDA_IPV6Filter::PutMulticastMode (bdaiface.h)
-description: The PutMulticastMode method specifies the multicast mode.helpviewer_keywords: ["IBDA_IPV6Filter interface [Microsoft TV Technologies]","PutMulticastMode method","IBDA_IPV6Filter.PutMulticastMode","IBDA_IPV6Filter::PutMulticastMode","IBDA_IPV6FilterPutMulticastMode","PutMulticastMode","PutMulticastMode method [Microsoft TV Technologies]","PutMulticastMode method [Microsoft TV Technologies]","IBDA_IPV6Filter interface","bdaiface/IBDA_IPV6Filter::PutMulticastMode","mstv.ibda_ipv6filter_putmulticastmode"]
+description: The PutMulticastMode method specifies the multicast mode.
+helpviewer_keywords: ["IBDA_IPV6Filter interface [Microsoft TV Technologies]","PutMulticastMode method","IBDA_IPV6Filter.PutMulticastMode","IBDA_IPV6Filter::PutMulticastMode","IBDA_IPV6FilterPutMulticastMode","PutMulticastMode","PutMulticastMode method [Microsoft TV Technologies]","PutMulticastMode method [Microsoft TV Technologies]","IBDA_IPV6Filter interface","bdaiface/IBDA_IPV6Filter::PutMulticastMode","mstv.ibda_ipv6filter_putmulticastmode"]
 old-location: mstv\ibda_ipv6filter_putmulticastmode.htm
 tech.root: mstv
 ms.assetid: 2c8dc746-3610-4d54-b4d3-ca21f8674c57

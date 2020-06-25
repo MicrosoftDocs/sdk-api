@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IReplicaKeyMap.LookupReplicaKey
 title: IReplicaKeyMap::LookupReplicaKey (winsync.h)
-description: Gets the replica key that corresponds to the specified replica ID.helpviewer_keywords: ["IReplicaKeyMap interface [Windows Sync]","LookupReplicaKey method","IReplicaKeyMap.LookupReplicaKey","IReplicaKeyMap::LookupReplicaKey","LookupReplicaKey","LookupReplicaKey method [Windows Sync]","LookupReplicaKey method [Windows Sync]","IReplicaKeyMap interface","winsync.ireplicakeymap_lookupreplicakey","winsync/IReplicaKeyMap::LookupReplicaKey"]
+description: Gets the replica key that corresponds to the specified replica ID.
+helpviewer_keywords: ["IReplicaKeyMap interface [Windows Sync]","LookupReplicaKey method","IReplicaKeyMap.LookupReplicaKey","IReplicaKeyMap::LookupReplicaKey","LookupReplicaKey","LookupReplicaKey method [Windows Sync]","LookupReplicaKey method [Windows Sync]","IReplicaKeyMap interface","winsync.ireplicakeymap_lookupreplicakey","winsync/IReplicaKeyMap::LookupReplicaKey"]
 old-location: winsync\ireplicakeymap_lookupreplicakey.htm
 tech.root: winsync
 ms.assetid: 92bae64f-67a5-4029-9d24-eee92a3fc55f

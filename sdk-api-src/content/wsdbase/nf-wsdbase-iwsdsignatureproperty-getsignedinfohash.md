@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignedInfoHash
 title: IWSDSignatureProperty::GetSignedInfoHash (wsdbase.h)
-description: Gets the hash of a message signature.helpviewer_keywords: ["GetSignedInfoHash","GetSignedInfoHash method","GetSignedInfoHash method","IWSDSignatureProperty interface","IWSDSignatureProperty interface","GetSignedInfoHash method","IWSDSignatureProperty.GetSignedInfoHash","IWSDSignatureProperty::GetSignedInfoHash","ncd.iwsdsignatureproperty_getsignedinfohash","wsdbase/IWSDSignatureProperty::GetSignedInfoHash"]
+description: Gets the hash of a message signature.
+helpviewer_keywords: ["GetSignedInfoHash","GetSignedInfoHash method","GetSignedInfoHash method","IWSDSignatureProperty interface","IWSDSignatureProperty interface","GetSignedInfoHash method","IWSDSignatureProperty.GetSignedInfoHash","IWSDSignatureProperty::GetSignedInfoHash","ncd.iwsdsignatureproperty_getsignedinfohash","wsdbase/IWSDSignatureProperty::GetSignedInfoHash"]
 old-location: ncd\iwsdsignatureproperty_getsignedinfohash.htm
 tech.root: WsdApi
 ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181

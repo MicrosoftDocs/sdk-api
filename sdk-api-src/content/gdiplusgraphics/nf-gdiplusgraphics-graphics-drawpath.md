@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPath
 title: Graphics::DrawPath (gdiplusgraphics.h)
-description: The Graphics::DrawPath method draws a sequence of lines and curves defined by a GraphicsPath object.helpviewer_keywords: ["DrawPath","DrawPath method [GDI+]","DrawPath method [GDI+]","Graphics class","Graphics class [GDI+]","DrawPath method","Graphics.DrawPath","Graphics::DrawPath","_gdiplus_CLASS_Graphics_DrawPath_pen_path_","gdiplus._gdiplus_CLASS_Graphics_DrawPath_pen_path_"]
+description: The Graphics::DrawPath method draws a sequence of lines and curves defined by a GraphicsPath object.
+helpviewer_keywords: ["DrawPath","DrawPath method [GDI+]","DrawPath method [GDI+]","Graphics class","Graphics class [GDI+]","DrawPath method","Graphics.DrawPath","Graphics::DrawPath","_gdiplus_CLASS_Graphics_DrawPath_pen_path_","gdiplus._gdiplus_CLASS_Graphics_DrawPath_pen_path_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPath_pen_path_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawpath.htm

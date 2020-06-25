@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzScope2.DeleteRoleAssignment
 title: IAzScope2::DeleteRoleAssignment (azroles.h)
-description: Removes the specified IAzRoleAssignment object from this scope.helpviewer_keywords: ["DeleteRoleAssignment","DeleteRoleAssignment method [Security]","DeleteRoleAssignment method [Security]","IAzScope2 interface","IAzScope2 interface [Security]","DeleteRoleAssignment method","IAzScope2.DeleteRoleAssignment","IAzScope2::DeleteRoleAssignment","azroles/IAzScope2::DeleteRoleAssignment","security.iazscope2_deleteroleassignment"]
+description: Removes the specified IAzRoleAssignment object from this scope.
+helpviewer_keywords: ["DeleteRoleAssignment","DeleteRoleAssignment method [Security]","DeleteRoleAssignment method [Security]","IAzScope2 interface","IAzScope2 interface [Security]","DeleteRoleAssignment method","IAzScope2.DeleteRoleAssignment","IAzScope2::DeleteRoleAssignment","azroles/IAzScope2::DeleteRoleAssignment","security.iazscope2_deleteroleassignment"]
 old-location: security\iazscope2_deleteroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 8e28e09a-f9a4-4e6e-bb11-cfa1145f1ba1

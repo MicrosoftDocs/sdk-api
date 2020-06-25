@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetStringValue
 title: ICredentialProviderCredential::GetStringValue (credentialprovider.h)
-description: Enables retrieval of text from a credential with a text field.helpviewer_keywords: ["GetStringValue","GetStringValue method [Windows Shell]","GetStringValue method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetStringValue method","ICredentialProviderCredential.GetStringValue","ICredentialProviderCredential::GetStringValue","credentialprovider/ICredentialProviderCredential::GetStringValue","shell.ICredentialProviderCredential_GetStringValue","shell_ICredentialProviderCredential_GetStringValue"]
+description: Enables retrieval of text from a credential with a text field.
+helpviewer_keywords: ["GetStringValue","GetStringValue method [Windows Shell]","GetStringValue method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetStringValue method","ICredentialProviderCredential.GetStringValue","ICredentialProviderCredential::GetStringValue","credentialprovider/ICredentialProviderCredential::GetStringValue","shell.ICredentialProviderCredential_GetStringValue","shell_ICredentialProviderCredential_GetStringValue"]
 old-location: shell\ICredentialProviderCredential_GetStringValue.htm
 tech.root: shell
 ms.assetid: b891c735-9822-4bc1-a1cc-0c50b35c03c4

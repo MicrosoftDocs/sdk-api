@@ -1,7 +1,8 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNeutralAxisSize
 title: IDeviceModelPlugIn::GetNeutralAxisSize (wcsplugin.h)
-description: The IDeviceModelPlugIn::GetNeutralAxisSize function returns the number of data points along the neutral axis that are returned by the GetNeutralAxis function.helpviewer_keywords: ["GetNeutralAxisSize","GetNeutralAxisSize method [Windows Color System]","GetNeutralAxisSize method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","GetNeutralAxisSize method","IDeviceModelPlugIn.GetNeutralAxisSize","IDeviceModelPlugIn::GetNeutralAxisSize","_color_IDeviceModelPlugIn::GetNeutralAxisSize","wcs.IDeviceModelPlugIn_GetNeutralAxisSize","wcsplugin/IDeviceModelPlugIn::GetNeutralAxisSize"]
+description: The IDeviceModelPlugIn::GetNeutralAxisSize function returns the number of data points along the neutral axis that are returned by the GetNeutralAxis function.
+helpviewer_keywords: ["GetNeutralAxisSize","GetNeutralAxisSize method [Windows Color System]","GetNeutralAxisSize method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","GetNeutralAxisSize method","IDeviceModelPlugIn.GetNeutralAxisSize","IDeviceModelPlugIn::GetNeutralAxisSize","_color_IDeviceModelPlugIn::GetNeutralAxisSize","wcs.IDeviceModelPlugIn_GetNeutralAxisSize","wcsplugin/IDeviceModelPlugIn::GetNeutralAxisSize"]
 old-location: wcs\IDeviceModelPlugIn_GetNeutralAxisSize.htm
 tech.root: WCS
 ms.assetid: a4b16003-b193-48b8-9dee-9ffb39f9159d

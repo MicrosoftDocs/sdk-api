@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemModified
 title: IOfflineFilesEvents::ItemModified (cscobj.h)
-description: Reports that an item in the Offline Files cache has been modified.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemModified method","IOfflineFilesEvents.ItemModified","IOfflineFilesEvents::ItemModified","ItemModified","ItemModified method [Offline Files]","ItemModified method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemModified","of.iofflinefilesevents_itemmodified"]
+description: Reports that an item in the Offline Files cache has been modified.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","ItemModified method","IOfflineFilesEvents.ItemModified","IOfflineFilesEvents::ItemModified","ItemModified","ItemModified method [Offline Files]","ItemModified method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::ItemModified","of.iofflinefilesevents_itemmodified"]
 old-location: of\iofflinefilesevents_itemmodified.htm
 tech.root: offlinefiles
 ms.assetid: e689b111-d6d1-436e-b468-570e575a5170

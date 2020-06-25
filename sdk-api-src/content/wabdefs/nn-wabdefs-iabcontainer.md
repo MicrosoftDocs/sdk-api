@@ -1,7 +1,8 @@
 ---
 UID: NN:wabdefs.IABContainer
 title: IABContainer (wabdefs.h)
-description: Do not use. This interface provides access to address book containers. Applications call the methods of the interface to perform name resolution and to create, copy, and delete recipients.helpviewer_keywords: ["IABContainer","IABContainer interface [Windows Address Book]","IABContainer interface [Windows Address Book]","described","_wab_IABContainer","wab._wab_IABContainer","wabdefs/IABContainer"]
+description: Do not use. This interface provides access to address book containers. Applications call the methods of the interface to perform name resolution and to create, copy, and delete recipients.
+helpviewer_keywords: ["IABContainer","IABContainer interface [Windows Address Book]","IABContainer interface [Windows Address Book]","described","_wab_IABContainer","wab._wab_IABContainer","wabdefs/IABContainer"]
 old-location: wab\_wab_IABContainer.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iabcontainer\iabcontainer.htm

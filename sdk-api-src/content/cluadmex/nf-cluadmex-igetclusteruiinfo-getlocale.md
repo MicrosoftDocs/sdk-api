@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetLocale
 title: IGetClusterUIInfo::GetLocale (cluadmex.h)
-description: Returns the locale identifier to be used with property and wizard pages.helpviewer_keywords: ["GetLocale","GetLocale method [Failover Cluster]","GetLocale method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetLocale method","IGetClusterUIInfo.GetLocale","IGetClusterUIInfo::GetLocale","_wolf_igetclusteruiinfo_getlocale","cluadmex/IGetClusterUIInfo::GetLocale","mscs.igetclusteruiinfo_getlocale"]
+description: Returns the locale identifier to be used with property and wizard pages.
+helpviewer_keywords: ["GetLocale","GetLocale method [Failover Cluster]","GetLocale method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetLocale method","IGetClusterUIInfo.GetLocale","IGetClusterUIInfo::GetLocale","_wolf_igetclusteruiinfo_getlocale","cluadmex/IGetClusterUIInfo::GetLocale","mscs.igetclusteruiinfo_getlocale"]
 old-location: mscs\igetclusteruiinfo_getlocale.htm
 tech.root: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef

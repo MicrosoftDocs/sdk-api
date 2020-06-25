@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetManufacturer
 title: IWMDMDevice::GetManufacturer (mswmdm.h)
-description: The GetManufacturer method retrieves the name of the manufacturer of the device.helpviewer_keywords: ["GetManufacturer","GetManufacturer method [windows Media Device Manager]","GetManufacturer method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetManufacturer method","IWMDMDevice.GetManufacturer","IWMDMDevice::GetManufacturer","IWMDMDeviceGetManufacturer","mswmdm/IWMDMDevice::GetManufacturer","wmdm.iwmdmdevice_getmanufacturer"]
+description: The GetManufacturer method retrieves the name of the manufacturer of the device.
+helpviewer_keywords: ["GetManufacturer","GetManufacturer method [windows Media Device Manager]","GetManufacturer method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetManufacturer method","IWMDMDevice.GetManufacturer","IWMDMDevice::GetManufacturer","IWMDMDeviceGetManufacturer","mswmdm/IWMDMDevice::GetManufacturer","wmdm.iwmdmdevice_getmanufacturer"]
 old-location: wmdm\iwmdmdevice_getmanufacturer.htm
 tech.root: WMDM
 ms.assetid: 42e862e4-bfbc-4fca-b5df-001416173d6e

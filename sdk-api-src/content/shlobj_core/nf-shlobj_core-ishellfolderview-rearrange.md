@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.Rearrange
 title: IShellFolderView::Rearrange (shlobj_core.h)
-description: Rearrange may be altered or unavailable.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","Rearrange method","IShellFolderView.Rearrange","IShellFolderView::Rearrange","Rearrange","Rearrange method [Windows Shell]","Rearrange method [Windows Shell]","IShellFolderView interface","SHCIDS_ALLFIELDS","SHCIDS_CANONICALONLY","_shell_IShellFolderView_Rearrange","shell.IShellFolderView_Rearrange","shlobj_core/IShellFolderView::Rearrange"]
+description: Rearrange may be altered or unavailable.
+helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","Rearrange method","IShellFolderView.Rearrange","IShellFolderView::Rearrange","Rearrange","Rearrange method [Windows Shell]","Rearrange method [Windows Shell]","IShellFolderView interface","SHCIDS_ALLFIELDS","SHCIDS_CANONICALONLY","_shell_IShellFolderView_Rearrange","shell.IShellFolderView_Rearrange","shlobj_core/IShellFolderView::Rearrange"]
 old-location: shell\IShellFolderView_Rearrange.htm
 tech.root: shell
 ms.assetid: 9fe955db-dab3-4e53-9c1b-979794052035

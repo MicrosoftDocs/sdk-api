@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITDigitGenerationEvent
 title: ITDigitGenerationEvent (tapi3if.h)
-description: The ITDigitGenerationEvent interface contains methods that describe digit generation events.helpviewer_keywords: ["ITDigitGenerationEvent","ITDigitGenerationEvent interface [TAPI 2.2]","ITDigitGenerationEvent interface [TAPI 2.2]","described","_tapi3_itdigitgenerationevent","tapi3.itdigitgenerationevent","tapi3if/ITDigitGenerationEvent"]
+description: The ITDigitGenerationEvent interface contains methods that describe digit generation events.
+helpviewer_keywords: ["ITDigitGenerationEvent","ITDigitGenerationEvent interface [TAPI 2.2]","ITDigitGenerationEvent interface [TAPI 2.2]","described","_tapi3_itdigitgenerationevent","tapi3.itdigitgenerationevent","tapi3if/ITDigitGenerationEvent"]
 old-location: tapi3\itdigitgenerationevent.htm
 tech.root: Tapi
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleLink.UnbindSource
 title: IOleLink::UnbindSource (oleidl.h)
-description: Breaks the connection between a linked object and its link source.helpviewer_keywords: ["IOleLink interface [COM]","UnbindSource method","IOleLink.UnbindSource","IOleLink::UnbindSource","UnbindSource","UnbindSource method [COM]","UnbindSource method [COM]","IOleLink interface","_ole_iolelink_unbindsource","com.iolelink_unbindsource","oleidl/IOleLink::UnbindSource"]
+description: Breaks the connection between a linked object and its link source.
+helpviewer_keywords: ["IOleLink interface [COM]","UnbindSource method","IOleLink.UnbindSource","IOleLink::UnbindSource","UnbindSource","UnbindSource method [COM]","UnbindSource method [COM]","IOleLink interface","_ole_iolelink_unbindsource","com.iolelink_unbindsource","oleidl/IOleLink::UnbindSource"]
 old-location: com\iolelink_unbindsource.htm
 tech.root: com
 ms.assetid: 3a678944-b4ba-47d8-9a89-470762efc6f9

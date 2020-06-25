@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetDropPoint
 title: IShellFolderView::GetDropPoint (shlobj_core.h)
-description: Gets the point at which the current drag-and-drop operation was terminated.helpviewer_keywords: ["GetDropPoint","GetDropPoint method [Windows Shell]","GetDropPoint method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetDropPoint method","IShellFolderView.GetDropPoint","IShellFolderView::GetDropPoint","_shell_IShellFolderView_GetDropPoint","shell.IShellFolderView_GetDropPoint","shlobj_core/IShellFolderView::GetDropPoint"]
+description: Gets the point at which the current drag-and-drop operation was terminated.
+helpviewer_keywords: ["GetDropPoint","GetDropPoint method [Windows Shell]","GetDropPoint method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetDropPoint method","IShellFolderView.GetDropPoint","IShellFolderView::GetDropPoint","_shell_IShellFolderView_GetDropPoint","shell.IShellFolderView_GetDropPoint","shlobj_core/IShellFolderView::GetDropPoint"]
 old-location: shell\IShellFolderView_GetDropPoint.htm
 tech.root: shell
 ms.assetid: 2ea09e0f-adf0-4d33-a7c7-c8a4aa6b30ea

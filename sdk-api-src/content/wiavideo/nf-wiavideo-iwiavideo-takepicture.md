@@ -1,7 +1,8 @@
 ---
 UID: NF:wiavideo.IWiaVideo.TakePicture
 title: IWiaVideo::TakePicture (wiavideo.h)
-description: The IWiaVideo::TakePicture method extracts a still image from the video stream, and saves the image as a JPEG file.helpviewer_keywords: ["IWiaVideo interface [WIA]","TakePicture method","IWiaVideo.TakePicture","IWiaVideo::TakePicture","TakePicture","TakePicture method [WIA]","TakePicture method [WIA]","IWiaVideo interface","_wia_IWiaVideo_TakePicture","wia._wia_IWiaVideo_TakePicture","wiavideo/IWiaVideo::TakePicture"]
+description: The IWiaVideo::TakePicture method extracts a still image from the video stream, and saves the image as a JPEG file.
+helpviewer_keywords: ["IWiaVideo interface [WIA]","TakePicture method","IWiaVideo.TakePicture","IWiaVideo::TakePicture","TakePicture","TakePicture method [WIA]","TakePicture method [WIA]","IWiaVideo interface","_wia_IWiaVideo_TakePicture","wia._wia_IWiaVideo_TakePicture","wiavideo/IWiaVideo::TakePicture"]
 old-location: wia\_wia_IWiaVideo_TakePicture.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm

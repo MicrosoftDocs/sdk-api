@@ -1,7 +1,8 @@
 ---
 UID: NS:mmc._MMC_FILTERDATA
 title: MMC_FILTERDATA (mmc.h)
-description: The MMC_FILTERDATA structure is introduced in MMC 1.2.helpviewer_keywords: ["MMC_FILTERDATA","MMC_FILTERDATA structure [MMC]","_slate_mmc_filterdata","mmc.mmc_filterdata","mmc/MMC_FILTERDATA"]
+description: The MMC_FILTERDATA structure is introduced in MMC 1.2.
+helpviewer_keywords: ["MMC_FILTERDATA","MMC_FILTERDATA structure [MMC]","_slate_mmc_filterdata","mmc.mmc_filterdata","mmc/MMC_FILTERDATA"]
 old-location: mmc\mmc_filterdata.htm
 tech.root: mmc
 ms.assetid: 312d27b8-cfca-48fd-8d39-b0f504421d2d

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarFormatNumber
 title: VarFormatNumber function (oleauto.h)
-description: Formats a variant containing numbers into a string form.helpviewer_keywords: ["VarFormatNumber","VarFormatNumber function [Automation]","_oa96_VarFormatNumber","automat.varformatnumber","oleauto/VarFormatNumber"]
+description: Formats a variant containing numbers into a string form.
+helpviewer_keywords: ["VarFormatNumber","VarFormatNumber function [Automation]","_oa96_VarFormatNumber","automat.varformatnumber","oleauto/VarFormatNumber"]
 old-location: automat\varformatnumber.htm
 tech.root: automat
 ms.assetid: a95323d0-0a8d-48c5-a2dc-d461733e2f0e

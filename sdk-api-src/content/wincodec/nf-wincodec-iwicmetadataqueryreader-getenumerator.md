@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetEnumerator
 title: IWICMetadataQueryReader::GetEnumerator (wincodec.h)
-description: Gets an enumerator of all metadata items at the current relative location within the metadata hierarchy.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Windows Imaging Component]","GetEnumerator method [Windows Imaging Component]","IWICMetadataQueryReader interface","IWICMetadataQueryReader interface [Windows Imaging Component]","GetEnumerator method","IWICMetadataQueryReader.GetEnumerator","IWICMetadataQueryReader::GetEnumerator","_wic_codec_iwicmetadataqueryreader_getenumerator","wic._wic_codec_iwicmetadataqueryreader_getenumerator","wincodec/IWICMetadataQueryReader::GetEnumerator"]
+description: Gets an enumerator of all metadata items at the current relative location within the metadata hierarchy.
+helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Windows Imaging Component]","GetEnumerator method [Windows Imaging Component]","IWICMetadataQueryReader interface","IWICMetadataQueryReader interface [Windows Imaging Component]","GetEnumerator method","IWICMetadataQueryReader.GetEnumerator","IWICMetadataQueryReader::GetEnumerator","_wic_codec_iwicmetadataqueryreader_getenumerator","wic._wic_codec_iwicmetadataqueryreader_getenumerator","wincodec/IWICMetadataQueryReader::GetEnumerator"]
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getenumerator.htm
 tech.root: wic
 ms.assetid: 8e9b0da5-90e3-4398-9113-0fb86a94cb0c

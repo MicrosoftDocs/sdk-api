@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IProvideClassInfo2.GetGUID
 title: IProvideClassInfo2::GetGUID (ocidl.h)
-description: Retrieves the specified GUID for the object.helpviewer_keywords: ["GetGUID","GetGUID method [COM]","GetGUID method [COM]","IProvideClassInfo2 interface","IProvideClassInfo2 interface [COM]","GetGUID method","IProvideClassInfo2.GetGUID","IProvideClassInfo2::GetGUID","_com_iprovideclassinfo2_getguid","com.iprovideclassinfo2_getguid","ocidl/IProvideClassInfo2::GetGUID"]
+description: Retrieves the specified GUID for the object.
+helpviewer_keywords: ["GetGUID","GetGUID method [COM]","GetGUID method [COM]","IProvideClassInfo2 interface","IProvideClassInfo2 interface [COM]","GetGUID method","IProvideClassInfo2.GetGUID","IProvideClassInfo2::GetGUID","_com_iprovideclassinfo2_getguid","com.iprovideclassinfo2_getguid","ocidl/IProvideClassInfo2::GetGUID"]
 old-location: com\iprovideclassinfo2_getguid.htm
 tech.root: com
 ms.assetid: 1a424b93-93a9-4dc7-9c77-349522ee9e70

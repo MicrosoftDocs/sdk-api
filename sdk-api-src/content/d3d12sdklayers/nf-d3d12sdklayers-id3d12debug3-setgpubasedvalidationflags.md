@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug3.SetGPUBasedValidationFlags
 title: ID3D12Debug3::SetGPUBasedValidationFlags (d3d12sdklayers.h)
-description: This method configures the level of GPU-based validation that the debug device is to perform at runtime.helpviewer_keywords: ["- ID3D12Debug3.SetGPUBasedValidationFlags"]
+description: This method configures the level of GPU-based validation that the debug device is to perform at runtime.
+helpviewer_keywords: ["- ID3D12Debug3.SetGPUBasedValidationFlags"]
 tech.root: direct3d12
 ms.date: 03/02/2020
 f1_keywords:

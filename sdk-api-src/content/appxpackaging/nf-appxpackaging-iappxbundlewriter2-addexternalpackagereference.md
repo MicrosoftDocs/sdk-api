@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter2.AddExternalPackageReference
 title: IAppxBundleWriter2::AddExternalPackageReference (appxpackaging.h)
-description: Adds a reference to an external package to the package bundle.helpviewer_keywords: ["AddExternalPackageReference","AddExternalPackageReference method [App packaging and management]","AddExternalPackageReference method [App packaging and management]","IAppxBundleWriter2 interface","IAppxBundleWriter2 interface [App packaging and management]","AddExternalPackageReference method","IAppxBundleWriter2.AddExternalPackageReference","IAppxBundleWriter2::AddExternalPackageReference","appxpackaging/IAppxBundleWriter2::AddExternalPackageReference","appxpkg.iappxbundlewriter2_addexternalpackagereference"]
+description: Adds a reference to an external package to the package bundle.
+helpviewer_keywords: ["AddExternalPackageReference","AddExternalPackageReference method [App packaging and management]","AddExternalPackageReference method [App packaging and management]","IAppxBundleWriter2 interface","IAppxBundleWriter2 interface [App packaging and management]","AddExternalPackageReference method","IAppxBundleWriter2.AddExternalPackageReference","IAppxBundleWriter2::AddExternalPackageReference","appxpackaging/IAppxBundleWriter2::AddExternalPackageReference","appxpkg.iappxbundlewriter2_addexternalpackagereference"]
 old-location: appxpkg\iappxbundlewriter2_addexternalpackagereference.htm
 tech.root: appxpkg
 ms.assetid: 09297744-69E4-45D6-BA5C-A3B28130C6CC

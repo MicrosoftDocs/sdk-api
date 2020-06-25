@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.DisableRedrawRegions
 title: IDCompositionVisualDebug::DisableRedrawRegions (dcomp.h)
-description: Disables visual redraw regions.helpviewer_keywords: ["DisableRedrawRegions","DisableRedrawRegions method [DirectComposition]","DisableRedrawRegions method [DirectComposition]","IDCompositionVisualDebug interface","IDCompositionVisualDebug interface [DirectComposition]","DisableRedrawRegions method","IDCompositionVisualDebug.DisableRedrawRegions","IDCompositionVisualDebug::DisableRedrawRegions","dcomp/IDCompositionVisualDebug::DisableRedrawRegions","directcomp.idcompositionvisualdebug_disableredrawregions"]
+description: Disables visual redraw regions.
+helpviewer_keywords: ["DisableRedrawRegions","DisableRedrawRegions method [DirectComposition]","DisableRedrawRegions method [DirectComposition]","IDCompositionVisualDebug interface","IDCompositionVisualDebug interface [DirectComposition]","DisableRedrawRegions method","IDCompositionVisualDebug.DisableRedrawRegions","IDCompositionVisualDebug::DisableRedrawRegions","dcomp/IDCompositionVisualDebug::DisableRedrawRegions","directcomp.idcompositionvisualdebug_disableredrawregions"]
 old-location: directcomp\idcompositionvisualdebug_disableredrawregions.htm
 tech.root: directcomp
 ms.assetid: 5F1712D4-B3F4-475E-9AB0-868B1DCB8F42

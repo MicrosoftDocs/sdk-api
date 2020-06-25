@@ -1,7 +1,8 @@
 ---
 UID: NC:winwlx.PWLX_CLOSE_USER_DESKTOP
 title: PWLX_CLOSE_USER_DESKTOP (winwlx.h)
-description: Called by GINA to close an alternate user desktop and clean up after the desktop is closed.helpviewer_keywords: ["PWLX_CLOSE_USER_DESKTOP","PWLX_CLOSE_USER_DESKTOP callback","WlxCloseUserDesktop","WlxCloseUserDesktop callback function [Security]","_gina_wlxcloseuserdesktop","security.wlxcloseuserdesktop","winwlx/WlxCloseUserDesktop"]
+description: Called by GINA to close an alternate user desktop and clean up after the desktop is closed.
+helpviewer_keywords: ["PWLX_CLOSE_USER_DESKTOP","PWLX_CLOSE_USER_DESKTOP callback","WlxCloseUserDesktop","WlxCloseUserDesktop callback function [Security]","_gina_wlxcloseuserdesktop","security.wlxcloseuserdesktop","winwlx/WlxCloseUserDesktop"]
 old-location: security\wlxcloseuserdesktop.htm
 tech.root: SecAuthN
 ms.assetid: ad910f0b-f8fb-4246-830e-1edb23e06f36

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.SetValue(U,const BYTE,UINT32)
 title: ID2D1Properties::SetValue(U,const BYTE,UINT32,) (d2d1_1.h)
-description: Sets the corresponding property by index. This is a template overload.helpviewer_keywords: ["ID2D1Properties interface [Direct2D]","SetValue method","ID2D1Properties.SetValue","ID2D1Properties.SetValue(U","const BYTE","UINT32",")","ID2D1Properties::SetValue","ID2D1Properties::SetValue(U","const BYTE*","UINT32)","ID2D1Properties::SetValue(U","const BYTE","UINT32",")","SetValue","SetValue method [Direct2D]","SetValue method [Direct2D]","ID2D1Properties interface","d2d1_1/ID2D1Properties::SetValue","direct2d.id2d1properties_setvalue3"]
+description: Sets the corresponding property by index. This is a template overload.
+helpviewer_keywords: ["ID2D1Properties interface [Direct2D]","SetValue method","ID2D1Properties.SetValue","ID2D1Properties.SetValue(U","const BYTE","UINT32",")","ID2D1Properties::SetValue","ID2D1Properties::SetValue(U","const BYTE*","UINT32)","ID2D1Properties::SetValue(U","const BYTE","UINT32",")","SetValue","SetValue method [Direct2D]","SetValue method [Direct2D]","ID2D1Properties interface","d2d1_1/ID2D1Properties::SetValue","direct2d.id2d1properties_setvalue3"]
 old-location: direct2d\id2d1properties_setvalue3.htm
 tech.root: Direct2D
 ms.assetid: F0351C64-03CC-42D5-9622-F92C1054632C

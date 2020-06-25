@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptGetHashParam
 title: CryptGetHashParam function (wincrypt.h)
-description: Retrieves data that governs the operations of a hash object.helpviewer_keywords: ["CryptGetHashParam","CryptGetHashParam function [Security]","HP_ALGID","HP_HASHSIZE","HP_HASHVAL","_crypto2_cryptgethashparam","security.cryptgethashparam","wincrypt/CryptGetHashParam"]
+description: Retrieves data that governs the operations of a hash object.
+helpviewer_keywords: ["CryptGetHashParam","CryptGetHashParam function [Security]","HP_ALGID","HP_HASHSIZE","HP_HASHVAL","_crypto2_cryptgethashparam","security.cryptgethashparam","wincrypt/CryptGetHashParam"]
 old-location: security\cryptgethashparam.htm
 tech.root: SecCrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3

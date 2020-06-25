@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetPattern
 title: IActiveDesktop::SetPattern (shlobj_core.h)
-description: Sets the Active Desktop pattern.helpviewer_keywords: ["IActiveDesktop interface [Legacy Windows Environment Features]","SetPattern method","IActiveDesktop.SetPattern","IActiveDesktop::SetPattern","SetPattern","SetPattern method [Legacy Windows Environment Features]","SetPattern method [Legacy Windows Environment Features]","IActiveDesktop interface","_win32_IActiveDesktop_SetPattern","lwef.iactivedesktop_setpattern","shell.iactivedesktop_setpattern","shlobj_core/IActiveDesktop::SetPattern"]
+description: Sets the Active Desktop pattern.
+helpviewer_keywords: ["IActiveDesktop interface [Legacy Windows Environment Features]","SetPattern method","IActiveDesktop.SetPattern","IActiveDesktop::SetPattern","SetPattern","SetPattern method [Legacy Windows Environment Features]","SetPattern method [Legacy Windows Environment Features]","IActiveDesktop interface","_win32_IActiveDesktop_SetPattern","lwef.iactivedesktop_setpattern","shell.iactivedesktop_setpattern","shlobj_core/IActiveDesktop::SetPattern"]
 old-location: lwef\iactivedesktop_setpattern.htm
 tech.root: lwef
 ms.assetid: ca66a200-dd12-454b-b449-feeae26941b6

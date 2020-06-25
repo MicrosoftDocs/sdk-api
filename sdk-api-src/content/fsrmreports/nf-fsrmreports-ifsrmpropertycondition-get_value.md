@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.get_Value
 title: IFsrmPropertyCondition::get_Value (fsrmreports.h)
-description: The property condition's value.helpviewer_keywords: ["IFsrmPropertyCondition interface [File Server Resource Manager]","Value property","IFsrmPropertyCondition.Value","IFsrmPropertyCondition.get_Value","IFsrmPropertyCondition::Value","IFsrmPropertyCondition::get_Value","IFsrmPropertyCondition::put_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmPropertyCondition interface","fs.ifsrmpropertycondition_value","fsrm.ifsrmpropertycondition_value","fsrmreports/IFsrmPropertyCondition::Value","fsrmreports/IFsrmPropertyCondition::get_Value","fsrmreports/IFsrmPropertyCondition::put_Value","get_Value"]
+description: The property condition's value.
+helpviewer_keywords: ["IFsrmPropertyCondition interface [File Server Resource Manager]","Value property","IFsrmPropertyCondition.Value","IFsrmPropertyCondition.get_Value","IFsrmPropertyCondition::Value","IFsrmPropertyCondition::get_Value","IFsrmPropertyCondition::put_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmPropertyCondition interface","fs.ifsrmpropertycondition_value","fsrm.ifsrmpropertycondition_value","fsrmreports/IFsrmPropertyCondition::Value","fsrmreports/IFsrmPropertyCondition::get_Value","fsrmreports/IFsrmPropertyCondition::put_Value","get_Value"]
 old-location: fsrm\ifsrmpropertycondition_value.htm
 tech.root: fsrm
 ms.assetid: 51316f3b-ca69-4e0c-936c-8cafc0e2b1b7

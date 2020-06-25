@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetCollectedProperties
 title: IFileSaveDialog::SetCollectedProperties (shobjidl_core.h)
-description: Specifies which properties will be collected in the save dialog.helpviewer_keywords: ["IFileSaveDialog interface [Windows Shell]","SetCollectedProperties method","IFileSaveDialog.SetCollectedProperties","IFileSaveDialog::SetCollectedProperties","SetCollectedProperties","SetCollectedProperties method [Windows Shell]","SetCollectedProperties method [Windows Shell]","IFileSaveDialog interface","shell.IFileSaveDialog_SetCollectedProperties","shell_IFileSaveDialog_SetCollectedProperties","shobjidl_core/IFileSaveDialog::SetCollectedProperties"]
+description: Specifies which properties will be collected in the save dialog.
+helpviewer_keywords: ["IFileSaveDialog interface [Windows Shell]","SetCollectedProperties method","IFileSaveDialog.SetCollectedProperties","IFileSaveDialog::SetCollectedProperties","SetCollectedProperties","SetCollectedProperties method [Windows Shell]","SetCollectedProperties method [Windows Shell]","IFileSaveDialog interface","shell.IFileSaveDialog_SetCollectedProperties","shell_IFileSaveDialog_SetCollectedProperties","shobjidl_core/IFileSaveDialog::SetCollectedProperties"]
 old-location: shell\IFileSaveDialog_SetCollectedProperties.htm
 tech.root: shell
 ms.assetid: cff40aba-6a87-4c20-957d-6729e0d995ae

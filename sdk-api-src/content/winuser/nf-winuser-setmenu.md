@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetMenu
 title: SetMenu function (winuser.h)
-description: Assigns a new menu to the specified window.helpviewer_keywords: ["SetMenu","SetMenu function [Menus and Other Resources]","_win32_SetMenu","_win32_setmenu_cpp","menurc.setmenu","winui._win32_setmenu","winuser/SetMenu"]
+description: Assigns a new menu to the specified window.
+helpviewer_keywords: ["SetMenu","SetMenu function [Menus and Other Resources]","_win32_SetMenu","_win32_setmenu_cpp","menurc.setmenu","winui._win32_setmenu","winuser/SetMenu"]
 old-location: menurc\setmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenu.htm

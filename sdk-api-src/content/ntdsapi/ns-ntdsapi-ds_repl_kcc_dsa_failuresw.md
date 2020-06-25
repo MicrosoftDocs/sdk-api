@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILURESW
 title: DS_REPL_KCC_DSA_FAILURESW (ntdsapi.h)
-description: The DS_REPL_KCC_DSA_FAILURES structure contains an array of DS_REPL_KCC_DSA_FAILURE structures, which in turn contain replication state data with respect to inbound replication partners, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.helpviewer_keywords: ["DS_REPL_KCC_DSA_FAILURES","DS_REPL_KCC_DSA_FAILURES structure [Active Directory]","DS_REPL_KCC_DSA_FAILURESW","_glines_ds_repl_kcc_dsa_failures","ad.ds__repl__kcc__dsa__failures","ad.ds_repl_kcc_dsa_failures","ntdsapi/DS_REPL_KCC_DSA_FAILURES"]
+description: The DS_REPL_KCC_DSA_FAILURES structure contains an array of DS_REPL_KCC_DSA_FAILURE structures, which in turn contain replication state data with respect to inbound replication partners, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
+helpviewer_keywords: ["DS_REPL_KCC_DSA_FAILURES","DS_REPL_KCC_DSA_FAILURES structure [Active Directory]","DS_REPL_KCC_DSA_FAILURESW","_glines_ds_repl_kcc_dsa_failures","ad.ds__repl__kcc__dsa__failures","ad.ds_repl_kcc_dsa_failures","ntdsapi/DS_REPL_KCC_DSA_FAILURES"]
 old-location: ad\ds_repl_kcc_dsa_failures.htm
 tech.root: ad
 ms.assetid: bb011502-38ae-43b7-a6ad-de16b499f61b

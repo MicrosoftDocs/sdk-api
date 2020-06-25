@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMAsyncReaderTimestampScaling.SetTimestampMode
 title: IAMAsyncReaderTimestampScaling::SetTimestampMode (strmif.h)
-description: Sets the filter's time-stamping mode.helpviewer_keywords: ["FALSE","IAMAsyncReaderTimestampScaling interface [DirectShow]","SetTimestampMode method","IAMAsyncReaderTimestampScaling.SetTimestampMode","IAMAsyncReaderTimestampScaling::SetTimestampMode","SetTimestampMode","SetTimestampMode method [DirectShow]","SetTimestampMode method [DirectShow]","IAMAsyncReaderTimestampScaling interface","TRUE","dshow.iamasyncreadertimestampscaling_settimestampmode","strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode"]
+description: Sets the filter's time-stamping mode.
+helpviewer_keywords: ["FALSE","IAMAsyncReaderTimestampScaling interface [DirectShow]","SetTimestampMode method","IAMAsyncReaderTimestampScaling.SetTimestampMode","IAMAsyncReaderTimestampScaling::SetTimestampMode","SetTimestampMode","SetTimestampMode method [DirectShow]","SetTimestampMode method [DirectShow]","IAMAsyncReaderTimestampScaling interface","TRUE","dshow.iamasyncreadertimestampscaling_settimestampmode","strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode"]
 old-location: dshow\iamasyncreadertimestampscaling_settimestampmode.htm
 tech.root: DirectShow
 ms.assetid: 7f556e26-049d-4024-95a2-c899be1ef180

@@ -1,7 +1,8 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
 title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess (functiondiscoveryprovider.h)
-description: Verifies that the provider supports the requested access.helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstancePropertyStoreValidateAccess method","IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess","IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess","InstancePropertyStoreValidateAccess","InstancePropertyStoreValidateAccess method","InstancePropertyStoreValidateAccess method","IFunctionDiscoveryProvider interface","STGM_READ","STGM_READWRITE","STGM_WRITE","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess","ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess"]
+description: Verifies that the provider supports the requested access.
+helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstancePropertyStoreValidateAccess method","IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess","IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess","InstancePropertyStoreValidateAccess","InstancePropertyStoreValidateAccess method","InstancePropertyStoreValidateAccess method","IFunctionDiscoveryProvider interface","STGM_READ","STGM_READWRITE","STGM_WRITE","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess","ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess"]
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystorevalidateaccess.htm
 tech.root: FunDisc
 ms.assetid: 0ee8d65d-0be3-4171-946a-10a15b8f8eb7

@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVDecAudioDualMono
 title: eAVDecAudioDualMono (codecapi.h)
-description: Specifies whether the input audio stream is stereo or dual mono. This enumeration is used with the AVDecAudioDualMono property.helpviewer_keywords: ["codecapi/eAVDecAudioDualMono","codecapi/eAVDecAudioDualMono_IsDualMono","codecapi/eAVDecAudioDualMono_IsNotDualMono","codecapi/eAVDecAudioDualMono_UnSpecified","dshow.eavdecaudiodualmono","eAVDecAudioDualMono","eAVDecAudioDualMono enumeration [DirectShow]","eAVDecAudioDualMonoEnumeration","eAVDecAudioDualMono_IsDualMono","eAVDecAudioDualMono_IsNotDualMono","eAVDecAudioDualMono_UnSpecified"]
+description: Specifies whether the input audio stream is stereo or dual mono. This enumeration is used with the AVDecAudioDualMono property.
+helpviewer_keywords: ["codecapi/eAVDecAudioDualMono","codecapi/eAVDecAudioDualMono_IsDualMono","codecapi/eAVDecAudioDualMono_IsNotDualMono","codecapi/eAVDecAudioDualMono_UnSpecified","dshow.eavdecaudiodualmono","eAVDecAudioDualMono","eAVDecAudioDualMono enumeration [DirectShow]","eAVDecAudioDualMonoEnumeration","eAVDecAudioDualMono_IsDualMono","eAVDecAudioDualMono_IsNotDualMono","eAVDecAudioDualMono_UnSpecified"]
 old-location: dshow\eavdecaudiodualmono.htm
 tech.root: DirectShow
 ms.assetid: d9d3cc66-5622-4641-b302-6ecc6a05b1aa

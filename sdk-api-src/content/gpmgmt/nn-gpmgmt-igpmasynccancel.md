@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMAsyncCancel
 title: IGPMAsyncCancel (gpmgmt.h)
-description: A pointer to the IGPMAsyncCancel interface is returned to the client by the Group Policy Management Console (GPMC) method that the client calls asynchronously.helpviewer_keywords: ["GPMAsyncCancel","IGPMAsyncCancel","IGPMAsyncCancel interface [GPMC]","IGPMAsyncCancel interface [GPMC]","described","_win32_igpmasynccancel","gpmc.igpmasynccancel","gpmgmt/IGPMAsyncCancel"]
+description: A pointer to the IGPMAsyncCancel interface is returned to the client by the Group Policy Management Console (GPMC) method that the client calls asynchronously.
+helpviewer_keywords: ["GPMAsyncCancel","IGPMAsyncCancel","IGPMAsyncCancel interface [GPMC]","IGPMAsyncCancel interface [GPMC]","described","_win32_igpmasynccancel","gpmc.igpmasynccancel","gpmgmt/IGPMAsyncCancel"]
 old-location: gpmc\igpmasynccancel.htm
 tech.root: gpmc
 ms.assetid: 74b2bb04-6118-4fd1-83c0-3549db3f35f3

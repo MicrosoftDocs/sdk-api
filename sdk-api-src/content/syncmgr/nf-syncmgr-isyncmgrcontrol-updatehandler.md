@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateHandler
 title: ISyncMgrControl::UpdateHandler (syncmgr.h)
-description: Instructs Sync Center to reenumerate the items managed by a handler or informs it that properties of the handler have changed.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateHandler method","ISyncMgrControl.UpdateHandler","ISyncMgrControl::UpdateHandler","UpdateHandler","UpdateHandler method [Windows Shell]","UpdateHandler method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateHandler","shell.ISyncMgrControl_UpdateHandler","syncmgr/ISyncMgrControl::UpdateHandler"]
+description: Instructs Sync Center to reenumerate the items managed by a handler or informs it that properties of the handler have changed.
+helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateHandler method","ISyncMgrControl.UpdateHandler","ISyncMgrControl::UpdateHandler","UpdateHandler","UpdateHandler method [Windows Shell]","UpdateHandler method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateHandler","shell.ISyncMgrControl_UpdateHandler","syncmgr/ISyncMgrControl::UpdateHandler"]
 old-location: shell\ISyncMgrControl_UpdateHandler.htm
 tech.root: shell
 ms.assetid: d961aef7-c559-4caa-894e-e86836b142c0

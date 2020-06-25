@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemePartSize
 title: GetThemePartSize function (uxtheme.h)
-description: Calculates the original size of the part defined by a visual style.helpviewer_keywords: ["GetThemePartSize","GetThemePartSize function [Windows Controls]","controls.GetThemePartSize","controls.inet_GetThemePartSize","inet_GetThemePartSize","inet_GetThemePartSize_cpp","uxtheme/GetThemePartSize"]
+description: Calculates the original size of the part defined by a visual style.
+helpviewer_keywords: ["GetThemePartSize","GetThemePartSize function [Windows Controls]","controls.GetThemePartSize","controls.inet_GetThemePartSize","inet_GetThemePartSize","inet_GetThemePartSize_cpp","uxtheme/GetThemePartSize"]
 old-location: controls\GetThemePartSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm

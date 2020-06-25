@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.SetBuffer
 title: IAudioDeviceEndpoint::SetBuffer (audioengineendpoint.h)
-description: Initializes the endpoint and creates a buffer based on the format of the endpoint into which the audio data is streamed.helpviewer_keywords: ["IAudioDeviceEndpoint interface [Remote Desktop Services]","SetBuffer method","IAudioDeviceEndpoint.SetBuffer","IAudioDeviceEndpoint::SetBuffer","SetBuffer","SetBuffer method [Remote Desktop Services]","SetBuffer method [Remote Desktop Services]","IAudioDeviceEndpoint interface","audioengineendpoint/IAudioDeviceEndpoint::SetBuffer","termserv.iaudiodeviceendpoint_setbuffer"]
+description: Initializes the endpoint and creates a buffer based on the format of the endpoint into which the audio data is streamed.
+helpviewer_keywords: ["IAudioDeviceEndpoint interface [Remote Desktop Services]","SetBuffer method","IAudioDeviceEndpoint.SetBuffer","IAudioDeviceEndpoint::SetBuffer","SetBuffer","SetBuffer method [Remote Desktop Services]","SetBuffer method [Remote Desktop Services]","IAudioDeviceEndpoint interface","audioengineendpoint/IAudioDeviceEndpoint::SetBuffer","termserv.iaudiodeviceendpoint_setbuffer"]
 old-location: termserv\iaudiodeviceendpoint_setbuffer.htm
 tech.root: TermServ
 ms.assetid: 345a172b-11af-4c98-9f9c-54bfa38c5077

@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_CANCEL_NOTIFICATION
 title: LSA_CANCEL_NOTIFICATION (ntsecpkg.h)
-description: The CancelNotification function cancels a previously registered notification.helpviewer_keywords: ["CancelNotification","CancelNotification callback function [Security]","LSA_CANCEL_NOTIFICATION","LSA_CANCEL_NOTIFICATION callback","_ssp_cancelnotification","ntsecpkg/CancelNotification","security.cancelnotification"]
+description: The CancelNotification function cancels a previously registered notification.
+helpviewer_keywords: ["CancelNotification","CancelNotification callback function [Security]","LSA_CANCEL_NOTIFICATION","LSA_CANCEL_NOTIFICATION callback","_ssp_cancelnotification","ntsecpkg/CancelNotification","security.cancelnotification"]
 old-location: security\cancelnotification.htm
 tech.root: SecAuthN
 ms.assetid: b7333318-ee17-4cc2-9382-2d4871ddee78

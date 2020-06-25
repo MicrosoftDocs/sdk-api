@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidGenericSink.get_SinkStreams
 title: IMSVidGenericSink::get_SinkStreams (segment.h)
-description: The get_SinkStreams method retrieves the streams that are required to be rendered down to the sink. Not implemented.helpviewer_keywords: ["IMSVidGenericSink interface [Microsoft TV Technologies]","get_SinkStreams method","IMSVidGenericSink.get_SinkStreams","IMSVidGenericSink::get_SinkStreams","IMSVidGenericSinkget_SinkStreams","get_SinkStreams","get_SinkStreams method [Microsoft TV Technologies]","get_SinkStreams method [Microsoft TV Technologies]","IMSVidGenericSink interface","mstv.imsvidgenericsink_get_sinkstreams","segment/IMSVidGenericSink::get_SinkStreams"]
+description: The get_SinkStreams method retrieves the streams that are required to be rendered down to the sink. Not implemented.
+helpviewer_keywords: ["IMSVidGenericSink interface [Microsoft TV Technologies]","get_SinkStreams method","IMSVidGenericSink.get_SinkStreams","IMSVidGenericSink::get_SinkStreams","IMSVidGenericSinkget_SinkStreams","get_SinkStreams","get_SinkStreams method [Microsoft TV Technologies]","get_SinkStreams method [Microsoft TV Technologies]","IMSVidGenericSink interface","mstv.imsvidgenericsink_get_sinkstreams","segment/IMSVidGenericSink::get_SinkStreams"]
 old-location: mstv\imsvidgenericsink_get_sinkstreams.htm
 tech.root: mstv
 ms.assetid: e77f2ee8-081b-4415-87b5-ab27ee0218d2
